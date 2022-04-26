@@ -1,0 +1,149 @@
+---
+title: Trendline
+second_title: Aspose.Cells for .NET API Reference
+description: 
+type: docs
+weight: 970
+url: /net/aspose.cells.charts/trendline/
+---
+## Trendline class
+
+Represents a trendline in a chart.
+
+```csharp
+public class Trendline : Line
+```
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Backward](backward) { get; set; } | Returns or sets the number of periods (or units on a scatter chart) that the trendline extends backward. The number of periods must be greater than and equal to zero. If the chart type is column ,the number of periods must be between 0 and 0.5 |
+| [DataLabels](datalabels) { get; } | Represents the DataLabels object for the specified ASeries. |
+| [DisplayEquation](displayequation) { get; set; } | Represents if the equation for the trendline is displayed on the chart (in the same data label as the R-squared value). Setting this property to True automatically turns on data labels. |
+| [DisplayRSquared](displayrsquared) { get; set; } | Represents if the R-squared value of the trendline is displayed on the chart (in the same data label as the equation). Setting this property to True automatically turns on data labels. |
+| [Forward](forward) { get; set; } | Returns or sets the number of periods (or units on a scatter chart) that the trendline extends forward. The number of periods must be greater than and equal to zero. |
+| [Intercept](intercept) { get; set; } | Returns or sets the point where the trendline crosses the value axis. |
+| [IsNameAuto](isnameauto) { get; set; } | Returns if Microsoft Excel automatically determines the name of the trendline. |
+| [LegendEntry](legendentry) { get; } | Gets the legend entry according to this trendline |
+| [Name](name) { get; set; } | Returns the name of the trendline. |
+| [Order](order) { get; set; } | Returns or sets the trendline order (an integer greater than 1) when the trendline type is Polynomial. The order must be between 2 and 6. |
+| [Period](period) { get; set; } | Returns or sets the period for the moving-average trendline. |
+| [Type](type) { get; } | Returns the trendline type. |
+
+### Examples
+
+```csharp
+
+[C#]
+
+//Instantiating a Workbook object
+Workbook workbook = new Workbook();
+//Adding a new worksheet to the Excel object
+int sheetIndex = workbook.Worksheets.Add();
+//Obtaining the reference of the newly added worksheet by passing its sheet index
+Worksheet worksheet = workbook.Worksheets[sheetIndex];
+//Adding a sample value to "A1" cell
+worksheet.Cells["A1"].PutValue(50);
+//Adding a sample value to "A2" cell
+worksheet.Cells["A2"].PutValue(100);
+//Adding a sample value to "A3" cell
+worksheet.Cells["A3"].PutValue(150);
+//Adding a sample value to "A4" cell
+worksheet.Cells["A4"].PutValue(200);
+//Adding a sample value to "B1" cell
+worksheet.Cells["B1"].PutValue(60);
+//Adding a sample value to "B2" cell
+worksheet.Cells["B2"].PutValue(32);
+//Adding a sample value to "B3" cell
+worksheet.Cells["B3"].PutValue(50);
+//Adding a sample value to "B4" cell
+worksheet.Cells["B4"].PutValue(40);
+//Adding a sample value to "C1" cell as category data
+worksheet.Cells["C1"].PutValue("Q1");
+//Adding a sample value to "C2" cell as category data
+worksheet.Cells["C2"].PutValue("Q2");
+//Adding a sample value to "C3" cell as category data
+worksheet.Cells["C3"].PutValue("Y1");
+//Adding a sample value to "C4" cell as category data
+worksheet.Cells["C4"].PutValue("Y2");
+//Adding a chart to the worksheet
+int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+//Accessing the instance of the newly added chart
+Chart chart = worksheet.Charts[chartIndex];
+//Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B4"
+chart.NSeries.Add("A1:B4", true);
+//Setting the data source for the category data of NSeries
+chart.NSeries.CategoryData = "C1:C4";
+//adding a linear trendline
+int index = chart.NSeries[0].TrendLines.Add(TrendlineType.Linear);
+Trendline trendline = chart.NSeries[0].TrendLines[index];
+//Setting the custom name of the trendline.
+trendline.Name = "Linear";
+//Displaying the equation on chart
+trendline.DisplayEquation = true;
+//Displaying the R-Squared value on chart
+trendline.DisplayRSquared = true;
+//Saving the Excel file
+workbook.Save("C:\\book1.xls");
+
+[Visual Basic]
+
+'Instantiating a Workbook object
+Dim workbook As Workbook = New Workbook()
+'Adding a new worksheet to the Excel object
+Dim sheetIndex As Int32 = workbook.Worksheets.Add()
+'Obtaining the reference of the newly added worksheet by passing its sheet index
+Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
+'Adding a sample value to "A1" cell
+worksheet.Cells("A1").PutValue(50)
+'Adding a sample value to "A2" cell
+worksheet.Cells("A2").PutValue(100)
+'Adding a sample value to "A3" cell
+worksheet.Cells("A3").PutValue(150)
+'Adding a sample value to "A4" cell
+worksheet.Cells("A4").PutValue(200)
+'Adding a sample value to "B1" cell
+worksheet.Cells("B1").PutValue(60)
+'Adding a sample value to "B2" cell
+worksheet.Cells("B2").PutValue(32)
+'Adding a sample value to "B3" cell
+worksheet.Cells("B3").PutValue(50)
+'Adding a sample value to "B4" cell
+worksheet.Cells("B4").PutValue(40)
+'Adding a sample value to "C1" cell as category data
+worksheet.Cells("C1").PutValue("Q1")
+'Adding a sample value to "C2" cell as category data
+worksheet.Cells("C2").PutValue("Q2")
+'Adding a sample value to "C3" cell as category data
+worksheet.Cells("C3").PutValue("Y1")
+'Adding a sample value to "C4" cell as category data
+worksheet.Cells("C4").PutValue("Y2")
+'Adding a chart to the worksheet
+Dim chartIndex As Int32 = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5)
+'Accessing the instance of the newly added chart
+Dim chart As Chart = worksheet.Charts(chartIndex)
+'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B4"
+chart.NSeries.Add("A1:B4", True)
+'Setting the data source for the category data of NSeries
+Chart.NSeries.CategoryData = "C1:C4"
+'adding a linear trendline
+Dim index As Int32 = chart.NSeries(0).TrendLines.Add(TrendlineType.Linear)
+Dim trendline As Trendline = chart.NSeries(0).TrendLines(index)
+'Setting the custom name of the trendline.
+trendline.Name = "Linear"
+'Displaying the equation on chart
+trendline.DisplayEquation = True
+'Displaying the R-Squared value on chart
+trendline.DisplayRSquared = True
+'Saving the Excel file
+workbook.Save("C:\\book1.xls")
+```
+
+### See Also
+
+* class [Line](../../aspose.cells.drawing/line)
+* namespace [Aspose.Cells.Charts](../../aspose.cells.charts)
+* assembly [Aspose.Cells](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->

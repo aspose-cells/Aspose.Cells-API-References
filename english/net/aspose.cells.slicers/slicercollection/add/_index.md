@@ -1,0 +1,339 @@
+---
+title: Add
+second_title: Aspose.Cells for .NET API Reference
+description: 
+type: docs
+weight: 20
+url: /net/aspose.cells.slicers/slicercollection/add/
+---
+## SlicerCollection.Add method (1 of 9)
+
+Add a new Slicer using PivotTable as data source
+
+```csharp
+public int Add(PivotTable pivot, string destCellName, string baseFieldName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pivot | PivotTable | PivotTable object |
+| destCellName | String | The cell in the upper-left corner of the Slicer range. |
+| baseFieldName | String | The name of PivotField in PivotTable.BaseFields |
+
+## Return Value
+
+The new add Slicer index
+
+### Examples
+
+```csharp
+
+[C#]
+
+slicers.Add(pivot, "E3", "fruit");
+```
+
+### See Also
+
+* class [PivotTable](../../../aspose.cells.pivot/pivottable)
+* class [SlicerCollection](../../slicercollection)
+* namespace [Aspose.Cells.Slicers](../../slicercollection)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## SlicerCollection.Add method (2 of 9)
+
+Add a new Slicer using PivotTable as data source
+
+```csharp
+public int Add(PivotTable pivot, int row, int column, string baseFieldName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pivot | PivotTable | PivotTable object |
+| row | Int32 | Row index of the cell in the upper-left corner of the Slicer range. |
+| column | Int32 | Column index of the cell in the upper-left corner of the Slicer range. |
+| baseFieldName | String | The name of PivotField in PivotTable.BaseFields |
+
+## Return Value
+
+The new add Slicer index
+
+### Examples
+
+```csharp
+
+[C#]
+
+slicers.Add(pivot, 20, 12, "fruit");
+```
+
+### See Also
+
+* class [PivotTable](../../../aspose.cells.pivot/pivottable)
+* class [SlicerCollection](../../slicercollection)
+* namespace [Aspose.Cells.Slicers](../../slicercollection)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## SlicerCollection.Add method (3 of 9)
+
+Add a new Slicer using PivotTable as data source
+
+```csharp
+public int Add(PivotTable pivot, int row, int column, int baseFieldIndex)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pivot | PivotTable | PivotTable object |
+| row | Int32 | Row index of the cell in the upper-left corner of the Slicer range. |
+| column | Int32 | Column index of the cell in the upper-left corner of the Slicer range. |
+| baseFieldIndex | Int32 | The index of PivotField in PivotTable.BaseFields |
+
+## Return Value
+
+The new add Slicer index
+
+### Examples
+
+```csharp
+
+[C#]
+
+slicers.Add(pivot, 20, 8, 0);
+```
+
+### See Also
+
+* class [PivotTable](../../../aspose.cells.pivot/pivottable)
+* class [SlicerCollection](../../slicercollection)
+* namespace [Aspose.Cells.Slicers](../../slicercollection)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## SlicerCollection.Add method (4 of 9)
+
+Add a new Slicer using PivotTable as data source
+
+```csharp
+public int Add(PivotTable pivot, string destCellName, int baseFieldIndex)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pivot | PivotTable | PivotTable object |
+| destCellName | String | The cell in the upper-left corner of the Slicer range. |
+| baseFieldIndex | Int32 | The index of PivotField in PivotTable.BaseFields |
+
+## Return Value
+
+The new add Slicer index
+
+### Examples
+
+```csharp
+
+[C#]
+
+slicers.Add(pivot, "E20", 0);
+```
+
+### See Also
+
+* class [PivotTable](../../../aspose.cells.pivot/pivottable)
+* class [SlicerCollection](../../slicercollection)
+* namespace [Aspose.Cells.Slicers](../../slicercollection)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## SlicerCollection.Add method (5 of 9)
+
+Add a new Slicer using PivotTable as data source
+
+```csharp
+public int Add(PivotTable pivot, int row, int column, PivotField baseField)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pivot | PivotTable | PivotTable object |
+| row | Int32 | Row index of the cell in the upper-left corner of the Slicer range. |
+| column | Int32 | Column index of the cell in the upper-left corner of the Slicer range. |
+| baseField | PivotField | The PivotField in PivotTable.BaseFields |
+
+## Return Value
+
+The new add Slicer index
+
+### Examples
+
+```csharp
+
+[C#]
+
+slicers.Add(pivot, 3, 12, pivot.BaseFields[0]);
+```
+
+### See Also
+
+* class [PivotTable](../../../aspose.cells.pivot/pivottable)
+* class [PivotField](../../../aspose.cells.pivot/pivotfield)
+* class [SlicerCollection](../../slicercollection)
+* namespace [Aspose.Cells.Slicers](../../slicercollection)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## SlicerCollection.Add method (6 of 9)
+
+Add a new Slicer using PivotTable as data source
+
+```csharp
+public int Add(PivotTable pivot, string destCellName, PivotField baseField)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pivot | PivotTable | PivotTable object |
+| destCellName | String | The cell in the upper-left corner of the Slicer range. |
+| baseField | PivotField | The PivotField in PivotTable.BaseFields |
+
+## Return Value
+
+The new add Slicer index
+
+### Examples
+
+```csharp
+
+[C#]
+
+slicers.Add(pivot, "I3", pivot.BaseFields[0]);
+```
+
+### See Also
+
+* class [PivotTable](../../../aspose.cells.pivot/pivottable)
+* class [PivotField](../../../aspose.cells.pivot/pivotfield)
+* class [SlicerCollection](../../slicercollection)
+* namespace [Aspose.Cells.Slicers](../../slicercollection)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## SlicerCollection.Add method (7 of 9)
+
+Add a new Slicer using ListObjet as data source
+
+```csharp
+public int Add(ListObject table, int index, string destCellName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| table | ListObject | ListObject object |
+| index | Int32 | The index of ListColumn in ListObject.ListColumns |
+| destCellName | String | The cell in the upper-left corner of the Slicer range. |
+
+## Return Value
+
+The new add Slicer index
+
+### Examples
+
+```csharp
+
+[C#]
+
+slicers.Add(table, 1, "E38");
+```
+
+### See Also
+
+* class [ListObject](../../../aspose.cells.tables/listobject)
+* class [SlicerCollection](../../slicercollection)
+* namespace [Aspose.Cells.Slicers](../../slicercollection)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## SlicerCollection.Add method (8 of 9)
+
+Add a new Slicer using ListObjet as data source
+
+```csharp
+public int Add(ListObject table, ListColumn listColumn, string destCellName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| table | ListObject | ListObject object |
+| listColumn | ListColumn | The ListColumn in ListObject.ListColumns |
+| destCellName | String | The cell in the upper-left corner of the Slicer range. |
+
+## Return Value
+
+The new add Slicer index
+
+### Examples
+
+```csharp
+
+[C#]
+
+slicers.Add(table, table.ListColumns[1], "I38");
+```
+
+### See Also
+
+* class [ListObject](../../../aspose.cells.tables/listobject)
+* class [ListColumn](../../../aspose.cells.tables/listcolumn)
+* class [SlicerCollection](../../slicercollection)
+* namespace [Aspose.Cells.Slicers](../../slicercollection)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## SlicerCollection.Add method (9 of 9)
+
+Add a new Slicer using ListObjet as data source
+
+```csharp
+public int Add(ListObject table, ListColumn listColumn, int row, int column)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| table | ListObject | ListObject object |
+| listColumn | ListColumn | The ListColumn in ListObject.ListColumns |
+| row | Int32 | Row index of the cell in the upper-left corner of the Slicer range. |
+| column | Int32 | Column index of the cell in the upper-left corner of the Slicer range. |
+
+## Return Value
+
+The new add Slicer index
+
+### Examples
+
+```csharp
+
+[C#]
+
+slicers.Add(table, table.ListColumns[1], 38, 12);
+```
+
+### See Also
+
+* class [ListObject](../../../aspose.cells.tables/listobject)
+* class [ListColumn](../../../aspose.cells.tables/listcolumn)
+* class [SlicerCollection](../../slicercollection)
+* namespace [Aspose.Cells.Slicers](../../slicercollection)
+* assembly [Aspose.Cells](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->

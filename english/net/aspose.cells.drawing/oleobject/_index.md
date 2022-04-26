@@ -1,0 +1,124 @@
+---
+title: OleObject
+second_title: Aspose.Cells for .NET API Reference
+description: 
+type: docs
+weight: 2400
+url: /net/aspose.cells.drawing/oleobject/
+---
+## OleObject class
+
+Represents an OleObject in a worksheet.
+
+```csharp
+public class OleObject : Shape
+```
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [AutoLoad](autoload) { get; set; } | Specifies whether the host application for the embedded object shall be called to load the object data automatically when the parent workbook is opened. |
+| [AutoUpdate](autoupdate) { get; set; } | Specifies whether the link to the OleObject is automatically updated or not. |
+| [ClassIdentifier](classidentifier) { get; set; } | Gets and sets the class identifier of the embedded object. It means which application opens the embedded file. |
+| [DisplayAsIcon](displayasicon) { get; set; } | True if the specified object is displayed as an icon and the image will not be auto changed. |
+| [FileFormatType](fileformattype) { get; set; } | Gets and sets the file type of the embedded ole object data |
+| [FullObjectBin](fullobjectbin) { get; } | Gets the full embedded ole object binary data in the template file. |
+| [ImageData](imagedata) { get; set; } | Represents image of ole object as byte array. |
+| [ImageSourceFullName](imagesourcefullname) { get; set; } | Gets or sets the path and name of the source file for the linked image. |
+| [ImageType](imagetype) { get; } | Gets the image format of the ole object. |
+| [IsAutoSize](isautosize) { get; set; } | True indicates that the size of the ole object will be auto changed as the size of snapshot of the embedded content when the ole object is activated. |
+| [IsLink](islink) { get; set; } | Returns true if the OleObject links to the file. |
+| [Label](label) { get; set; } | Gets and sets the display label of the linked ole object. |
+| [ObjectData](objectdata) { get; set; } | Represents embedded ole object data as byte array. |
+| [ObjectSourceFullName](objectsourcefullname) { get; set; } | Returns the source full name of the source file for the linked OLE object. |
+| [ProgID](progid) { get; set; } | Gets or sets the ProgID of the OLE object. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [SetEmbeddedObject](setembeddedobject)(bool, byte[], string, bool, string) | Sets embedded object data. |
+| [SetEmbeddedObject](setembeddedobject)(bool, byte[], string, bool, string, bool) | Sets embedded object data. |
+| [SetNativeSourceFullName](setnativesourcefullname)(string) | Sets the ole native source full file name with path. |
+
+### Examples
+
+```csharp
+
+[C#]
+//Instantiate a new Workbook.
+Workbook workbook = new Workbook();
+//Get the first worksheet. 
+Worksheet sheet = workbook.Worksheets[0];
+//Define a string variable to store the image path.
+string ImageUrl = @"C:\school.jpg";
+//Get the picture into the streams.
+FileStream fs = File.OpenRead(ImageUrl);
+//Define a byte array.
+byte[] imageData = new Byte[fs.Length];
+//Obtain the picture into the array of bytes from streams.
+fs.Read(imageData, 0, imageData.Length);
+//Close the stream.
+fs.Close();
+//Get an excel file path in a variable.
+string path = @"C:\Book1.xls";
+//Get the file into the streams.
+fs = File.OpenRead(path);
+//Define an array of bytes. 
+byte[] objectData = new Byte[fs.Length];
+//Store the file from streams.
+fs.Read(objectData, 0, objectData.Length);
+//Close the stream.
+fs.Close();
+//Add an Ole object into the worksheet with the image
+//shown in MS Excel.
+sheet.OleObjects.Add(14, 3, 200, 220, imageData);
+//Set embedded ole object data.     
+sheet.OleObjects[0].ObjectData = objectData;
+//Save the excel file
+workbook.Save(@"C:\oleobjects.xls");
+
+
+[Visual Basic]
+
+'Instantiate a new Workbook.
+Dim workbook As Workbook = New Workbook()
+'Get the first worksheet. 
+Dim sheet As Worksheet = workbook.Worksheets(0)
+'Define a string variable to store the image path.
+Dim ImageUrl As String = @"C:\school.jpg"
+'Get the picture into the streams.
+Dim fs As FileStream = File.OpenRead(ImageUrl)
+'Define a byte array.
+Dim imageData(fs.Length) As Byte
+'Obtain the picture into the array of bytes from streams.
+fs.Read(imageData, 0, imageData.Length)
+'Close the stream.
+fs.Close()
+'Get an excel file path in a variable.
+Dim path As String = @"C:\Book1.xls"
+'Get the file into the streams.
+fs = File.OpenRead(path)
+'Define an array of bytes. 
+Dim objectData(fs.Length) As Byte
+'Store the file from streams.
+fs.Read(objectData, 0, objectData.Length)
+'Close the stream.
+fs.Close()
+'Add an Ole object into the worksheet with the image
+'shown in MS Excel.
+sheet.OleObjects.Add(14, 3, 200, 220, imageData)
+'Set embedded ole object data.     
+sheet.OleObjects(0).ObjectData = objectData
+'Save the excel file
+workbook.Save("C:\oleobjects.xls")
+```
+
+### See Also
+
+* class [Shape](../shape)
+* namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing)
+* assembly [Aspose.Cells](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
