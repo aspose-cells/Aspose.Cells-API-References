@@ -7,7 +7,6 @@ keywords: "Aspose.Cells for .NET, Aspose Cells, Aspose API Reference."
 description: Aspose.Cells for .NET supports the popular spreadsheet (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) file formats your business use every day.
 is_root: true
 ---
-# Aspose.Cells
 ## Namespaces
 
 | Namespace | Description |
