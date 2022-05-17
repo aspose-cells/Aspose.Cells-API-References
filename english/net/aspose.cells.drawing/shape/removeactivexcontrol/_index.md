@@ -3,7 +3,7 @@ title: RemoveActiveXControl
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1080
+weight: 1090
 url: /net/aspose.cells.drawing/shape/removeactivexcontrol/
 ---
 ## Shape.RemoveActiveXControl method

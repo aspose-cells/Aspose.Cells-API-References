@@ -3,7 +3,7 @@ title: KeepUnparsedData
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.cells/loadoptions/keepunparseddata/
 ---
 ## LoadOptions.KeepUnparsedData property

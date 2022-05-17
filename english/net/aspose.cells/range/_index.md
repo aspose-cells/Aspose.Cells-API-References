@@ -3,7 +3,7 @@ title: Range
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5000
+weight: 5020
 url: /net/aspose.cells/range/
 ---
 ## Range class
@@ -82,7 +82,7 @@ Range range = cells.CreateRange("A1", "D3");
 // Set value to the range.
 range.Value = "Hello";
 //Save the Excel file
-workbook.Save("C:\\book1.xlsm");
+workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
@@ -95,7 +95,7 @@ Dim range as Range = cells.CreateRange("A1", "D3")
 'Set value to the range.
 range.Value = "Hello"
 'Save the Excel file
-workbook.Save("C:\\book1.xlsm")
+workbook.Save("book1.xlsm")
 ```
 
 ### See Also

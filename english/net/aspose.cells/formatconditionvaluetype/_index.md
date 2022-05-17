@@ -3,7 +3,7 @@ title: FormatConditionValueType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3560
+weight: 3580
 url: /net/aspose.cells/formatconditionvaluetype/
 ---
 ## FormatConditionValueType enumeration

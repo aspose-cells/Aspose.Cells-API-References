@@ -3,7 +3,7 @@ title: Equals
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 320
 url: /net/aspose.cells/style/equals/
 ---
 ## Style.Equals method

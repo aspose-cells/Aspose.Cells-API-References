@@ -3,7 +3,7 @@ title: ListBox
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2230
+weight: 2250
 url: /net/aspose.cells.drawing/listbox/
 ---
 ## ListBox class
@@ -83,7 +83,7 @@ listBox.SelectionType = SelectionType.Single;
 listBox.Shadow = true;
  
 //Saves the file.
-workbook.Save(@"d:\test\tstlistbox.xls");
+workbook.Save(@"tstlistbox.xls");
 
 [VB.NET]
 
@@ -132,7 +132,7 @@ listBox.SelectionType = SelectionType.Single
 listBox.Shadow = True
  
 'Saves the file.
-workbook.Save("d:\test\tstlistbox.xls")
+workbook.Save("tstlistbox.xls")
 ```
 
 ### See Also

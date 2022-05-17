@@ -3,7 +3,7 @@ title: PdfCompressionCore
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5170
+weight: 5190
 url: /net/aspose.cells.rendering/pdfcompressioncore/
 ---
 ## PdfCompressionCore enumeration

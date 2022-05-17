@@ -3,7 +3,7 @@ title: PptxSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4710
+weight: 4730
 url: /net/aspose.cells/pptxsaveoptions/
 ---
 ## PptxSaveOptions class

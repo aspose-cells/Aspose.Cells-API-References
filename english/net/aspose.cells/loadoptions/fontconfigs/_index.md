@@ -3,7 +3,7 @@ title: FontConfigs
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.cells/loadoptions/fontconfigs/
 ---
 ## LoadOptions.FontConfigs property

@@ -3,7 +3,7 @@ title: TableStyleCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5830
+weight: 5850
 url: /net/aspose.cells.tables/tablestylecollection/
 ---
 ## TableStyleCollection class

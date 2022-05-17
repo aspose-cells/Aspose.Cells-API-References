@@ -6,7 +6,84 @@ type: docs
 weight: 590
 url: /net/aspose.cells.charts/chart/toimage/
 ---
-## Chart.ToImage method (1 of 5)
+## Chart.ToImage method (1 of 9)
+
+Gets a 32-bit `Bitmap` object of the chart.
+
+```csharp
+public Bitmap ToImage()
+```
+
+## Return Value
+
+the picture of the chart.
+
+### Remarks
+
+If the width or height is zero or the chart is not supported according to Supported Charts List, it will return null. Please refer to [Supported Charts List](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) for more details.
+
+### See Also
+
+* class [Chart](../../chart)
+* namespace [Aspose.Cells.Charts](../../chart)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Chart.ToImage method (2 of 9)
+
+Gets a 32-bit `Bitmap` object of the chart. `ImageOrPrintOptions.ImageFormat`, ImageOrPrintOptions.TiffCompression and ImageOrPrintOptions.Quality attributes are ignored.
+
+```csharp
+public Bitmap ToImage(ImageOrPrintOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | ImageOrPrintOptions | Additional image creation options |
+
+## Return Value
+
+the picture of the chart.
+
+### Remarks
+
+Returns a 32-bit bitmap object, so ImageOrPrintOptions.ImageFormat, ImageOrPrintOptions.TiffCompression and ImageOrPrintOptions.Quality attributes do not affect the method. If the width or height is zero or the chart is not supported according to Supported Charts List, it will return null. Please refer to [Supported Charts List](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) for more details.
+
+### Examples
+
+Gets a bitmap object with 200 x dpi and 300 y dpi.
+
+```csharp
+
+[C#]
+ImageOrPrintOptions options = new ImageOrPrintOptions();
+options.HorizontalResolution = 200;
+options.VerticalResolution = 300;
+
+Workbook book = new Workbook(@"test.xls");
+Bitmap chartObject = book.Worksheets[0].Charts[0].ToImage(options);
+
+[VB]
+Dim options As ImageOrPrintOptions =  New ImageOrPrintOptions() 
+options.HorizontalResolution = 200
+options.VerticalResolution = 300
+
+Dim book As Workbook =  New Workbook("test.xls")
+Dim chartObject As Bitmap = book.Worksheets(0).Charts(0).ToImage(options)
+
+```
+
+### See Also
+
+* class [ImageOrPrintOptions](../../../aspose.cells.rendering/imageorprintoptions)
+* class [Chart](../../chart)
+* namespace [Aspose.Cells.Charts](../../chart)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Chart.ToImage method (3 of 9)
 
 Creates the chart image and saves it to a file. The extension of the file name determines the format of the image.
 
@@ -32,7 +109,34 @@ If the width or height is zero or the chart is not supported according to Suppor
 
 ---
 
-## Chart.ToImage method (2 of 5)
+## Chart.ToImage method (4 of 9)
+
+Creates the chart image and saves it to a file in the specified format.
+
+```csharp
+public void ToImage(string imageFile, ImageFormat imageFormat)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageFile | String | The image file name with full path. |
+| imageFormat | ImageFormat | The format in which to save the image. |
+
+### Remarks
+
+The format of the image is specified by using `imageFormat`. The following formats are supported: ImageFormat.Bmp, ImageFormat.Gif, ImageFormat.Png, ImageFormat.Jpeg, ImageFormat.Tiff, ImageFormat.Emf.
+
+If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing. Please refer to [Supported Charts List](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) for more details.
+
+### See Also
+
+* class [Chart](../../chart)
+* namespace [Aspose.Cells.Charts](../../chart)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Chart.ToImage method (5 of 9)
 
 Creates the chart image and saves it to a file in the Jpeg format.
 
@@ -57,7 +161,7 @@ If the width or height is zero or the chart is not supported according to Suppor
 
 ---
 
-## Chart.ToImage method (3 of 5)
+## Chart.ToImage method (6 of 9)
 
 Creates the chart image and saves it to a stream in the Jpeg format.
 
@@ -82,7 +186,34 @@ If the width or height is zero or the chart is not supported according to Suppor
 
 ---
 
-## Chart.ToImage method (4 of 5)
+## Chart.ToImage method (7 of 9)
+
+Creates the chart image and saves it to a stream in the specified format.
+
+```csharp
+public void ToImage(Stream stream, ImageFormat imageFormat)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | The output stream. |
+| imageFormat | ImageFormat | The format in which to save the image. |
+
+### Remarks
+
+The format of the image is specified by using `imageFormat`. The following formats are supported: ImageFormat.Bmp, ImageFormat.Gif, ImageFormat.Png, ImageFormat.Jpeg, ImageFormat.Tiff, ImageFormat.Emf.
+
+If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing. Please refer [Supported Charts List](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) for more details.
+
+### See Also
+
+* class [Chart](../../chart)
+* namespace [Aspose.Cells.Charts](../../chart)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Chart.ToImage method (8 of 9)
 
 Creates the chart image and saves it to a file. The extension of the file name determines the format of the image.
 
@@ -113,8 +244,8 @@ options.HorizontalResolution = 300;
 options.VerticalResolution = 300;
 options.TiffCompression = TiffCompression.CompressionCCITT4;
 
-Workbook book = new Workbook(@"c:\test.xls");
-book.Worksheets[0].Charts[0].ToImage(@"c:\chart.Tiff", options);
+Workbook book = new Workbook(@"test.xls");
+book.Worksheets[0].Charts[0].ToImage(@"chart.Tiff", options);
 
 [VB]
 Dim options As ImageOrPrintOptions =  New ImageOrPrintOptions() 
@@ -122,8 +253,8 @@ options.HorizontalResolution = 300
 options.VerticalResolution = 300
 options.TiffCompression = TiffCompression.CompressionCCITT4
 
-Dim book As Workbook =  New Workbook("c:\test.xls")
-book.Worksheets(0).Charts(0).ToImage("c:\chart.Tiff", options)
+Dim book As Workbook =  New Workbook("test.xls")
+book.Worksheets(0).Charts(0).ToImage("chart.Tiff", options)
 
 ```
 
@@ -137,8 +268,8 @@ options.HorizontalResolution = 300;
 options.VerticalResolution = 300;
 options.Quality = 80;
 
-Workbook book = new Workbook(@"c:\test.xls");
-book.Worksheets[0].Charts[0].ToImage(@"c:\chart.Jpeg", options);
+Workbook book = new Workbook(@"test.xls");
+book.Worksheets[0].Charts[0].ToImage(@"chart.Jpeg", options);
 
 [VB]
 Dim options As ImageOrPrintOptions =  New ImageOrPrintOptions()
@@ -146,8 +277,8 @@ options.HorizontalResolution = 300
 options.VerticalResolution = 300
 options.Quality = 80
 
-Dim book As Workbook =  New Workbook("c:\test.xls")
-book.Worksheets(0).Charts(0).ToImage("c:\chart.Jpeg", options)
+Dim book As Workbook =  New Workbook("test.xls")
+book.Worksheets(0).Charts(0).ToImage("chart.Jpeg", options)
 
 ```
 
@@ -160,7 +291,7 @@ book.Worksheets(0).Charts(0).ToImage("c:\chart.Jpeg", options)
 
 ---
 
-## Chart.ToImage method (5 of 5)
+## Chart.ToImage method (9 of 9)
 
 Creates the chart image and saves it to a stream in the specified format.
 

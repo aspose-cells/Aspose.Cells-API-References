@@ -3,7 +3,7 @@ title: LineShape
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2210
+weight: 2230
 url: /net/aspose.cells.drawing/lineshape/
 ---
 ## LineShape class
@@ -60,7 +60,7 @@ line3.Placement = PlacementType.FreeFloating;
 workbook.Worksheets[0].IsGridlinesVisible = false;
  
 //Save the excel file.
-workbook.Save("d:\\test\\tstlines.xls"); 
+workbook.Save("tstlines.xls"); 
 
 [VB.NET]
 
@@ -104,7 +104,7 @@ line3.Placement = PlacementType.FreeFloating
 workbook.Worksheets(0).IsGridlinesVisible = False
  
 'Save the excel file.
-workbook.Save("d:\test\tstlines.xls") 
+workbook.Save("tstlines.xls") 
 ```
 
 ### See Also

@@ -3,7 +3,7 @@ title: XmlLoadOptions
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6550
+weight: 6570
 url: /net/aspose.cells/xmlloadoptions/
 ---
 ## XmlLoadOptions class

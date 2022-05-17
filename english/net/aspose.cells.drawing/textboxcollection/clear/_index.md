@@ -14,6 +14,15 @@ Clear all text boxes.
 public void Clear()
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+//clear all textbox
+textBoxCollection.Clear();
+```
+
 ### See Also
 
 * class [TextBoxCollection](../../textboxcollection)

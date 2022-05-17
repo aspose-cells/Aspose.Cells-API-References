@@ -3,7 +3,7 @@ title: LightRigType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2160
+weight: 2180
 url: /net/aspose.cells.drawing/lightrigtype/
 ---
 ## LightRigType enumeration

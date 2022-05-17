@@ -3,7 +3,7 @@ title: CustomImplementationFactory
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1210
+weight: 1220
 url: /net/aspose.cells/customimplementationfactory/
 ---
 ## CustomImplementationFactory class

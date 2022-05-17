@@ -14,9 +14,9 @@ Gets the element at the specified index.
 public Style this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The specified index. |
+| Parameter | Description |
+| --- | --- |
+| index | The specified index. |
 
 ### See Also
 

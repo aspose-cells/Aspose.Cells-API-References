@@ -3,7 +3,7 @@ title: Label
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2140
+weight: 2160
 url: /net/aspose.cells.drawing/label/
 ---
 ## Label class

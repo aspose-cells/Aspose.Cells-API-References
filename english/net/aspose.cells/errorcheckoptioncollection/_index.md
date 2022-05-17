@@ -3,7 +3,7 @@ title: ErrorCheckOptionCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3150
+weight: 3170
 url: /net/aspose.cells/errorcheckoptioncollection/
 ---
 ## ErrorCheckOptionCollection class

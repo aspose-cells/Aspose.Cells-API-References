@@ -3,7 +3,7 @@ title: ExternalLinkCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3340
+weight: 3360
 url: /net/aspose.cells/externallinkcollection/
 ---
 ## ExternalLinkCollection class
@@ -38,7 +38,7 @@ public class ExternalLinkCollection : IEnumerable
 ```csharp
 [C#]
 //Open a file with external links
-Workbook workbook = new Workbook("d:\\book1.xls");
+Workbook workbook = new Workbook("book1.xls");
 
 //Change external link data source
 workbook.Worksheets.ExternalLinks[0].DataSource = "d:\\link.xls";
@@ -46,7 +46,7 @@ workbook.Worksheets.ExternalLinks[0].DataSource = "d:\\link.xls";
 
 [Visual Basic]
 'Open a file with external links
-Dim workbook As Workbook =  New Workbook("d:\\book1.xls")
+Dim workbook As Workbook =  New Workbook("book1.xls")
 
 'Change external link data source
 workbook.Worksheets.ExternalLinks(0).DataSource = "d:\\link.xls"

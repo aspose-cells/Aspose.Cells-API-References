@@ -3,7 +3,7 @@ title: ExternalLinkType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3350
+weight: 3370
 url: /net/aspose.cells/externallinktype/
 ---
 ## ExternalLinkType enumeration

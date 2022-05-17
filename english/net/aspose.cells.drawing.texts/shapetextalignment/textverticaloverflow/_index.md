@@ -14,6 +14,14 @@ Gets and sets the text vertical overflow type of the text box.
 public TextOverflowType TextVerticalOverflow { get; set; }
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+shapeTextAlignment.TextVerticalOverflow = TextOverflowType.Clip;
+```
+
 ### See Also
 
 * enum [TextOverflowType](../../../aspose.cells.drawing/textoverflowtype)

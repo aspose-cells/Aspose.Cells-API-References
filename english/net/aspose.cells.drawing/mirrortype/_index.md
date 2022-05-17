@@ -3,7 +3,7 @@ title: MirrorType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2240
+weight: 2260
 url: /net/aspose.cells.drawing/mirrortype/
 ---
 ## MirrorType enumeration

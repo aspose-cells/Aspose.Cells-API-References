@@ -1,5 +1,5 @@
 ---
-title: CollectionBase<T>
+title: CollectionBaseT
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
@@ -7,6 +7,8 @@ weight: 1010
 url: /net/aspose.cells/collectionbase-1/
 ---
 ## CollectionBase&lt;T&gt; class
+
+Provides the abstract base class for a strongly typed collection.
 
 ```csharp
 public abstract class CollectionBase<T> : ICollection, IList<T>
@@ -16,9 +18,9 @@ public abstract class CollectionBase<T> : ICollection, IList<T>
 
 | Name | Description |
 | --- | --- |
-| [Capacity](capacity) { get; set; } |  |
-| [Count](count) { get; } |  |
-| [Item](item) { get; set; } |  |
+| [Capacity](capacity) { get; set; } | Gets or sets the number of elements that the list can contain. |
+| [Count](count) { get; } | Gets the number of elements. |
+| [Item](item) { get; set; } | Gets or sets the element at the specified index. |
 
 ## Methods
 
@@ -27,7 +29,7 @@ public abstract class CollectionBase<T> : ICollection, IList<T>
 | [BinarySearch](binarysearch)(T) |  |
 | [BinarySearch](binarysearch)(T, IComparer&lt;T&gt;) |  |
 | [BinarySearch](binarysearch)(int, int, T, IComparer&lt;T&gt;) |  |
-| [Clear](clear)() |  |
+| [Clear](clear)() | Remove all elements. |
 | [Contains](contains)(T) |  |
 | [CopyTo](copyto)(T[]) |  |
 | [CopyTo](copyto)(T[], int) |  |
@@ -49,7 +51,7 @@ public abstract class CollectionBase<T> : ICollection, IList<T>
 | [LastIndexOf](lastindexof)(T) |  |
 | [LastIndexOf](lastindexof)(T, int) |  |
 | [LastIndexOf](lastindexof)(T, int, int) |  |
-| [RemoveAt](removeat)(int) |  |
+| [RemoveAt](removeat)(int) | Removes the element at the specified index. |
 
 ### See Also
 

@@ -14,9 +14,9 @@ Gets web extension by the specific index.
 public WebExtension this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index. |
+| Parameter | Description |
+| --- | --- |
+| index | The index. |
 
 ## Return Value
 

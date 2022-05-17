@@ -70,7 +70,7 @@ floor.Border.Color = System.Drawing.Color.Red;
 floor.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2); 
 
 //save the file
-workbook.Save(@"d:\dest.xls");
+workbook.Save(@"dest.xls");
 
 [VB.NET]
 
@@ -118,7 +118,7 @@ floor.Border.Color = System.Drawing.Color.Red
 floor.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2)
 
 'save the file
-workbook.Save("d:\dest.xls")
+workbook.Save("dest.xls")
 
 ```
 

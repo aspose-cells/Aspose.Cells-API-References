@@ -3,7 +3,7 @@ title: PivotMissingItemLimitType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4640
+weight: 4660
 url: /net/aspose.cells.pivot/pivotmissingitemlimittype/
 ---
 ## PivotMissingItemLimitType enumeration

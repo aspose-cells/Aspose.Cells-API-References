@@ -3,7 +3,7 @@ title: HorizontalPageBreak
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3630
+weight: 3650
 url: /net/aspose.cells/horizontalpagebreak/
 ---
 ## HorizontalPageBreak class

@@ -14,9 +14,9 @@ Gets [`TextTabStop`](../../texttabstop) by the index.
 public TextTabStop this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index. |
+| Parameter | Description |
+| --- | --- |
+| index | The index. |
 
 ### See Also
 

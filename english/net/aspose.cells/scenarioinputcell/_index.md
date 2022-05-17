@@ -3,7 +3,7 @@ title: ScenarioInputCell
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5560
+weight: 5580
 url: /net/aspose.cells/scenarioinputcell/
 ---
 ## ScenarioInputCell class

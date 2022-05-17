@@ -3,7 +3,7 @@ title: MsoPresetTextEffect
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2360
+weight: 2380
 url: /net/aspose.cells.drawing/msopresettexteffect/
 ---
 ## MsoPresetTextEffect enumeration

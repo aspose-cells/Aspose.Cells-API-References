@@ -3,7 +3,7 @@ title: SetCustom
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 360
+weight: 370
 url: /net/aspose.cells/style/setcustom/
 ---
 ## Style.SetCustom method

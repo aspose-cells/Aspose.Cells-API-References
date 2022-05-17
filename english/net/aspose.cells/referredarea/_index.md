@@ -3,7 +3,7 @@ title: ReferredArea
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5020
+weight: 5040
 url: /net/aspose.cells/referredarea/
 ---
 ## ReferredArea class

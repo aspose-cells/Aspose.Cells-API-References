@@ -3,7 +3,7 @@ title: PaneCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4400
+weight: 4420
 url: /net/aspose.cells/panecollection/
 ---
 ## PaneCollection class

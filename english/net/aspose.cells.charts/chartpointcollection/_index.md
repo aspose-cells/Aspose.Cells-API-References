@@ -81,7 +81,7 @@ for (int i = 0; i < points.Count; i++)
 }
 
 //Saving the Excel file
-workbook.Save("D:\\book1.xls");
+workbook.Save("book1.xls");
 
 [VB.NET]
 
@@ -133,7 +133,7 @@ For i As Integer = 0 To points.Count - 1
 Next i
 
 'Saving the Excel file
-workbook.Save("D:\book1.xls")
+workbook.Save("book1.xls")
 
 ```
 

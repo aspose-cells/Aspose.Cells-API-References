@@ -3,7 +3,7 @@ title: UpdateSelectedValue
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1150
+weight: 1160
 url: /net/aspose.cells.drawing/shape/updateselectedvalue/
 ---
 ## Shape.UpdateSelectedValue method

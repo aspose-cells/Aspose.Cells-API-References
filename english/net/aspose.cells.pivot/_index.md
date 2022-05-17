@@ -12,32 +12,32 @@ Contains all classes of PivotTable.
 
 | Class | Description |
 | --- | --- |
-| class [PivotField](./pivotfield) | Represents a field in a PivotTable report. |
-| class [PivotFieldCollection](./pivotfieldcollection) | Represents a collection of all the PivotField objects in the PivotTable's specific PivotFields type. |
-| class [PivotFilter](./pivotfilter) | Represents a PivotFilter in PivotFilter Collection. |
-| class [PivotFilterCollection](./pivotfiltercollection) | Represents a collection of all the PivotFilter objects |
-| class [PivotFormatCondition](./pivotformatcondition) | Represents a PivotTable Format Condition in PivotFormatCondition Collection. |
-| class [PivotFormatConditionCollection](./pivotformatconditioncollection) | Represents PivotTable Format Conditions. |
-| class [PivotItem](./pivotitem) | Represents a item in a PivotField report. |
-| class [PivotItemCollection](./pivotitemcollection) | Represents a collection of all the PivotItem objects in the PivotField's |
-| class [PivotPageFields](./pivotpagefields) | Represents the pivot page field items if the pivot table data source is consolidation ranges. It only can contain up to 4 fields. |
-| class [PivotTable](./pivottable) | Summary description for PivotTable. |
-| class [PivotTableCollection](./pivottablecollection) | Represents the collection of all the PivotTable objects on the specified worksheet. |
-| class [SxRng](./sxrng) | Represents Group Range in a PivotField. |
+| [PivotField](./pivotfield) | Represents a field in a PivotTable report. |
+| [PivotFieldCollection](./pivotfieldcollection) | Represents a collection of all the PivotField objects in the PivotTable's specific PivotFields type. |
+| [PivotFilter](./pivotfilter) | Represents a PivotFilter in PivotFilter Collection. |
+| [PivotFilterCollection](./pivotfiltercollection) | Represents a collection of all the PivotFilter objects |
+| [PivotFormatCondition](./pivotformatcondition) | Represents a PivotTable Format Condition in PivotFormatCondition Collection. |
+| [PivotFormatConditionCollection](./pivotformatconditioncollection) | Represents PivotTable Format Conditions. |
+| [PivotItem](./pivotitem) | Represents a item in a PivotField report. |
+| [PivotItemCollection](./pivotitemcollection) | Represents a collection of all the PivotItem objects in the PivotField's |
+| [PivotPageFields](./pivotpagefields) | Represents the pivot page field items if the pivot table data source is consolidation ranges. It only can contain up to 4 fields. |
+| [PivotTable](./pivottable) | Summary description for PivotTable. |
+| [PivotTableCollection](./pivottablecollection) | Represents the collection of all the PivotTable objects on the specified worksheet. |
+| [SxRng](./sxrng) | Represents Group Range in a PivotField. |
 ## Enumeration
 
 | Enumeration | Description |
 | --- | --- |
-| enum [PivotConditionFormatRuleType](./pivotconditionformatruletype) | Represents PivotTable condition formatting rule type. |
-| enum [PivotConditionFormatScopeType](./pivotconditionformatscopetype) | Represents PivotTable condition formatting scope type. |
-| enum [PivotFieldDataDisplayFormat](./pivotfielddatadisplayformat) | Represents data display format in the PivotTable data field. |
-| enum [PivotFieldSubtotalType](./pivotfieldsubtotaltype) | Summary description for PivotFieldSubtotalType. |
-| enum [PivotFieldType](./pivotfieldtype) | Represents PivotTable field type. |
-| enum [PivotFilterType](./pivotfiltertype) | Represents PivotTable Filter type. |
-| enum [PivotGroupByType](./pivotgroupbytype) | Represents PivotTable groupby type. |
-| enum [PivotItemPosition](./pivotitemposition) | Represents PivotTable base item Next/Previous/All position in the base field . |
-| enum [PivotMissingItemLimitType](./pivotmissingitemlimittype) | Represents number of items to retain per field. |
-| enum [PivotTableAutoFormatType](./pivottableautoformattype) | Represents PivotTable auto format type. |
-| enum [PivotTableStyleType](./pivottablestyletype) | Represents the pivot table style type. |
+| [PivotConditionFormatRuleType](./pivotconditionformatruletype) | Represents PivotTable condition formatting rule type. |
+| [PivotConditionFormatScopeType](./pivotconditionformatscopetype) | Represents PivotTable condition formatting scope type. |
+| [PivotFieldDataDisplayFormat](./pivotfielddatadisplayformat) | Represents data display format in the PivotTable data field. |
+| [PivotFieldSubtotalType](./pivotfieldsubtotaltype) | Summary description for PivotFieldSubtotalType. |
+| [PivotFieldType](./pivotfieldtype) | Represents PivotTable field type. |
+| [PivotFilterType](./pivotfiltertype) | Represents PivotTable Filter type. |
+| [PivotGroupByType](./pivotgroupbytype) | Represents PivotTable groupby type. |
+| [PivotItemPosition](./pivotitemposition) | Represents PivotTable base item Next/Previous/All position in the base field . |
+| [PivotMissingItemLimitType](./pivotmissingitemlimittype) | Represents number of items to retain per field. |
+| [PivotTableAutoFormatType](./pivottableautoformattype) | Represents PivotTable auto format type. |
+| [PivotTableStyleType](./pivottablestyletype) | Represents the pivot table style type. |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->

@@ -3,7 +3,7 @@ title: Height
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 150
 url: /net/aspose.cells.drawing/shape/height/
 ---
 ## Shape.Height property

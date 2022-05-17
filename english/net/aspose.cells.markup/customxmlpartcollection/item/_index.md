@@ -14,9 +14,9 @@ Gets an item at the specified index.
 public CustomXmlPart this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index. |
+| Parameter | Description |
+| --- | --- |
+| index | The index. |
 
 ### See Also
 

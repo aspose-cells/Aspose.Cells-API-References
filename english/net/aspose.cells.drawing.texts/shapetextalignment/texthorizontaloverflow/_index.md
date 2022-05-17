@@ -14,6 +14,14 @@ Gets and sets the text horizontal overflow type of the text box.
 public TextOverflowType TextHorizontalOverflow { get; set; }
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+shapeTextAlignment.TextHorizontalOverflow = TextOverflowType.Clip;
+```
+
 ### See Also
 
 * enum [TextOverflowType](../../../aspose.cells.drawing/textoverflowtype)

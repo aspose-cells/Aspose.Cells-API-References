@@ -14,6 +14,14 @@ Gets and sets the begin arrow type of the line.
 public MsoArrowheadStyle BeginArrowheadStyle { get; set; }
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+lineFmt.BeginArrowheadStyle = MsoArrowheadStyle.ArrowOpen;
+```
+
 ### See Also
 
 * enum [MsoArrowheadStyle](../../msoarrowheadstyle)

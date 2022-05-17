@@ -3,7 +3,7 @@ title: ConnectionDataSourceType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3200
+weight: 3220
 url: /net/aspose.cells.externalconnections/connectiondatasourcetype/
 ---
 ## ConnectionDataSourceType enumeration

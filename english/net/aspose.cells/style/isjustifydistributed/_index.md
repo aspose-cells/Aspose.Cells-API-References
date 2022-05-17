@@ -3,7 +3,7 @@ title: IsJustifyDistributed
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.cells/style/isjustifydistributed/
 ---
 ## Style.IsJustifyDistributed property

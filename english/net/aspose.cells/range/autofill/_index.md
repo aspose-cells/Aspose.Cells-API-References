@@ -35,7 +35,7 @@ Aspose.Cells.Range target = cells.CreateRange("A3:A10");
 //fill 3,4,5....10 to the range A3:A10
 source.AutoFill(target);
 //Save the Excel file
-workbook.Save("C:\\book1.xlsm");
+workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
@@ -50,7 +50,7 @@ Dim target as Aspose.Cells.Range = cells.CreateRange("A3:A10")
 'fill 3,4,5....10 to the range A3:A10
 source.AutoFill(target)
 'Save the Excel file
-workbook.Save("C:\\book1.xlsm")
+workbook.Save("book1.xlsm")
 ```
 
 ### See Also

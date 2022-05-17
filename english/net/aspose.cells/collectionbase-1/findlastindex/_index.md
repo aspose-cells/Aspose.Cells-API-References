@@ -12,6 +12,10 @@ url: /net/aspose.cells/collectionbase-1/findlastindex/
 public int FindLastIndex(Predicate<T> match)
 ```
 
+| Parameter | Type | Description |
+| --- | --- | --- |
+| match | Predicate`1 |  |
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../collectionbase-1)
@@ -26,6 +30,11 @@ public int FindLastIndex(Predicate<T> match)
 public int FindLastIndex(int startIndex, Predicate<T> match)
 ```
 
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startIndex | Int32 |  |
+| match | Predicate`1 |  |
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../collectionbase-1)
@@ -39,6 +48,12 @@ public int FindLastIndex(int startIndex, Predicate<T> match)
 ```csharp
 public int FindLastIndex(int startIndex, int count, Predicate<T> match)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startIndex | Int32 |  |
+| count | Int32 |  |
+| match | Predicate`1 |  |
 
 ### See Also
 

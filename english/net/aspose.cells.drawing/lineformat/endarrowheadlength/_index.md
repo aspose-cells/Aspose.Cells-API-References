@@ -14,6 +14,14 @@ Gets and sets the end arrow length type of the line.
 public MsoArrowheadLength EndArrowheadLength { get; set; }
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+lineFmt.EndArrowheadLength = MsoArrowheadLength.Long;
+```
+
 ### See Also
 
 * enum [MsoArrowheadLength](../../msoarrowheadlength)

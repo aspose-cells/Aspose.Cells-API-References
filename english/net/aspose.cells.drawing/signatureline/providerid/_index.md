@@ -25,7 +25,7 @@ It's typically the CLSID of the provider com add-in.
 [C#]
 // Create signature line object
 SignatureLine s2 = new SignatureLine();
-s2.ProviderId = new System.Guid();
+s2.ProviderId = System.Guid.NewGuid();
 ```
 
 ### See Also

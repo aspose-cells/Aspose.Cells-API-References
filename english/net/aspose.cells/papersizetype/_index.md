@@ -3,7 +3,7 @@ title: PaperSizeType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4420
+weight: 4440
 url: /net/aspose.cells/papersizetype/
 ---
 ## PaperSizeType enumeration

@@ -3,7 +3,7 @@ title: FillFormat
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1940
+weight: 1960
 url: /net/aspose.cells.drawing/fillformat/
 ---
 ## FillFormat class

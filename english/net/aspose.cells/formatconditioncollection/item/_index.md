@@ -14,9 +14,9 @@ Gets the formatting condition by index.
 public FormatCondition this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | the index of the formatting condition to return. |
+| Parameter | Description |
+| --- | --- |
+| index | the index of the formatting condition to return. |
 
 ## Return Value
 

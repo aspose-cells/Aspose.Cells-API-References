@@ -3,7 +3,7 @@ title: ThemeColor
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5970
+weight: 5990
 url: /net/aspose.cells/themecolor/
 ---
 ## ThemeColor class
@@ -45,7 +45,7 @@ style.Pattern = BackgroundType.Solid;
 style.ForegroundThemeColor = new ThemeColor(ThemeColorType.Background2, -0.75);
 cells["A1"].SetStyle(style);
 //Saving the Excel file
-workbook.Save("C:\\book1.xlsx");
+workbook.Save("book1.xlsx");
 
 [Visual Basic]
 
@@ -63,7 +63,7 @@ style.ForegroundThemeColor = New ThemeColor(ThemeColorType.Background2, -0.75)
 'Set the cell style
 cells("A1").SetStyle(style)
 'Saving the Excel file
-Workbook.Save("C:\\book1.xlsx")
+Workbook.Save("book1.xlsx")
 ```
 
 ### See Also

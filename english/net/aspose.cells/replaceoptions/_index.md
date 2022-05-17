@@ -3,7 +3,7 @@ title: ReplaceOptions
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5270
+weight: 5290
 url: /net/aspose.cells/replaceoptions/
 ---
 ## ReplaceOptions class

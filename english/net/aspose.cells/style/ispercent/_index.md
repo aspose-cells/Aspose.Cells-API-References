@@ -3,7 +3,7 @@ title: IsPercent
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.cells/style/ispercent/
 ---
 ## Style.IsPercent property

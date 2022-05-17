@@ -3,7 +3,7 @@ title: Equals
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.cells/row/equals/
 ---
 ## Row.Equals method (1 of 2)

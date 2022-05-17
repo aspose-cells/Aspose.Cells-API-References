@@ -3,7 +3,7 @@ title: DrawObject
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5070
+weight: 5090
 url: /net/aspose.cells.rendering/drawobject/
 ---
 ## DrawObject class

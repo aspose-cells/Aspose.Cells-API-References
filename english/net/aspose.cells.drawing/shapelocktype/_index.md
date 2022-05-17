@@ -3,7 +3,7 @@ title: ShapeLockType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2650
+weight: 2670
 url: /net/aspose.cells.drawing/shapelocktype/
 ---
 ## ShapeLockType enumeration

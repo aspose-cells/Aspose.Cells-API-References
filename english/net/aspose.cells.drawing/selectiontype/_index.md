@@ -3,7 +3,7 @@ title: SelectionType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2580
+weight: 2600
 url: /net/aspose.cells.drawing/selectiontype/
 ---
 ## SelectionType enumeration

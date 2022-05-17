@@ -3,7 +3,7 @@ title: FileFontSource
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3360
+weight: 3380
 url: /net/aspose.cells/filefontsource/
 ---
 ## FileFontSource class

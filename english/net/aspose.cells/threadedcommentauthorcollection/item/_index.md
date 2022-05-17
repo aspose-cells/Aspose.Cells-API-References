@@ -14,9 +14,9 @@ Gets the person who create threaded comments.
 public ThreadedCommentAuthor this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index |
+| Parameter | Description |
+| --- | --- |
+| index | The index |
 
 ### See Also
 
@@ -35,9 +35,9 @@ Gets the person who create threaded comments.
 public ThreadedCommentAuthor this[string name] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name |  | The name of the author. |
+| Parameter | Description |
+| --- | --- |
+| name | The name of the author. |
 
 ### See Also
 

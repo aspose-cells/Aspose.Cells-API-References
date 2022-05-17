@@ -3,7 +3,7 @@ title: VisibilityType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6310
+weight: 6330
 url: /net/aspose.cells/visibilitytype/
 ---
 ## VisibilityType enumeration

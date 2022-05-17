@@ -3,7 +3,7 @@ title: InterruptMonitor
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3880
+weight: 3900
 url: /net/aspose.cells/interruptmonitor/
 ---
 ## InterruptMonitor class

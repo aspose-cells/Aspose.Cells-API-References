@@ -3,7 +3,7 @@ title: ChartShape
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1820
+weight: 1840
 url: /net/aspose.cells.drawing/chartshape/
 ---
 ## ChartShape class
@@ -72,7 +72,7 @@ chartShape.LowerRightColumn = 10;
 chartShape.LowerDeltaX = 1024;
 
 //Saving the Excel file
-workbook.Save("D:\\book1.xls");
+workbook.Save("book1.xls");
 
 [VB.NET]
 
@@ -122,7 +122,7 @@ chartShape.LowerRightColumn = 10
 chartShape.LowerDeltaX = 1024
 
 'Saving the Excel file
-workbook.Save("D:\book1.xls")
+workbook.Save("book1.xls")
 ```
 
 ### See Also

@@ -114,7 +114,7 @@ public void PutValue(string stringValue, bool isConverted)
 Puts a string value into the cell.
 
 ```csharp
-public virtual void PutValue(string stringValue)
+public void PutValue(string stringValue)
 ```
 
 | Parameter | Type | Description |

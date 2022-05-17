@@ -6,7 +6,29 @@ type: docs
 weight: 120
 url: /net/aspose.cells/workbookdesigner/setdatasource/
 ---
-## WorkbookDesigner.SetDataSource method (1 of 8)
+## WorkbookDesigner.SetDataSource method (1 of 9)
+
+Sets data source of a [`ICellsDataTable`](../../icellsdatatable) object.
+
+```csharp
+public void SetDataSource(string dataSource, ICellsDataTable cellsDataTable)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dataSource | String | The name of the data source. |
+| cellsDataTable | ICellsDataTable | data table. |
+
+### See Also
+
+* interface [ICellsDataTable](../../icellsdatatable)
+* class [WorkbookDesigner](../../workbookdesigner)
+* namespace [Aspose.Cells](../../workbookdesigner)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## WorkbookDesigner.SetDataSource method (2 of 9)
 
 Sets data source of a DataSet object.
 
@@ -25,7 +47,7 @@ public void SetDataSource(DataSet dataSet)
 [C#]
 
 //Create a connection object, specify the provider info and set the data source.
-OleDbConnection con = new OleDbConnection("provider=microsoft.jet.oledb.4.0;data source=d:\\test\\Northwind.mdb");
+OleDbConnection con = new OleDbConnection("provider=microsoft.jet.oledb.4.0;data source=Northwind.mdb");
 //Open the connection object.
 con.Open();
 //Create a command object and specify the SQL query.
@@ -54,7 +76,7 @@ wd.Workbook.Save("outSmartMarker_Designer.xls");
 [Visual Basic]
 
 'Create a connection object, specify the provider info and set the data source.
-Dim con As OleDbConnection = New OleDbConnection("provider=microsoft.jet.oledb.4.0;data source=d:\test\Northwind.mdb")
+Dim con As OleDbConnection = New OleDbConnection("provider=microsoft.jet.oledb.4.0;data source=Northwind.mdb")
 'Open the connection object.
 con.Open()
 'Create a command object and specify the SQL query.
@@ -90,7 +112,7 @@ wd.Workbook.Save("outSmartMarker_Designer.xls")
 
 ---
 
-## WorkbookDesigner.SetDataSource method (2 of 8)
+## WorkbookDesigner.SetDataSource method (3 of 9)
 
 Sets data source of a DataTable object.
 
@@ -110,29 +132,7 @@ public void SetDataSource(DataTable dataTable)
 
 ---
 
-## WorkbookDesigner.SetDataSource method (3 of 8)
-
-Sets data source of a [`ICellsDataTable`](../../icellsdatatable) object.
-
-```csharp
-public void SetDataSource(string name, ICellsDataTable dataTable)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | String | The name of the table. |
-| dataTable | ICellsDataTable | DataTable object |
-
-### See Also
-
-* interface [ICellsDataTable](../../icellsdatatable)
-* class [WorkbookDesigner](../../workbookdesigner)
-* namespace [Aspose.Cells](../../workbookdesigner)
-* assembly [Aspose.Cells](../../../)
-
----
-
-## WorkbookDesigner.SetDataSource method (4 of 8)
+## WorkbookDesigner.SetDataSource method (4 of 9)
 
 Sets data source of a DataView object and binds it to a data source name.
 
@@ -153,7 +153,7 @@ public void SetDataSource(string dataSourceName, DataView dataView)
 
 ---
 
-## WorkbookDesigner.SetDataSource method (5 of 8)
+## WorkbookDesigner.SetDataSource method (5 of 9)
 
 Sets data source of a DataView object.
 
@@ -173,7 +173,7 @@ public void SetDataSource(DataView dataView)
 
 ---
 
-## WorkbookDesigner.SetDataSource method (6 of 8)
+## WorkbookDesigner.SetDataSource method (6 of 9)
 
 Sets data source of a IDataReader object.
 
@@ -195,7 +195,7 @@ public void SetDataSource(string name, IDataReader dataReader, int rowCount)
 
 ---
 
-## WorkbookDesigner.SetDataSource method (7 of 8)
+## WorkbookDesigner.SetDataSource method (7 of 9)
 
 Sets data binding to a variable.
 
@@ -216,18 +216,37 @@ public void SetDataSource(string variable, object data)
 
 ---
 
-## WorkbookDesigner.SetDataSource method (8 of 8)
+## WorkbookDesigner.SetDataSource method (8 of 9)
 
-Sets data array binding to a variable.
+Sets data source of a OleDbConnection object.
 
 ```csharp
-public void SetDataSource(string variable, object[] dataArray)
+public void SetDataSource(OleDbConnection connection)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| variable | String | Variable name created using smart marker. |
-| dataArray | Object[] | Source data array. |
+| connection | OleDbConnection | OleDbConnection object |
+
+### See Also
+
+* class [WorkbookDesigner](../../workbookdesigner)
+* namespace [Aspose.Cells](../../workbookdesigner)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## WorkbookDesigner.SetDataSource method (9 of 9)
+
+Sets data source of a SqlConnection object.
+
+```csharp
+public void SetDataSource(SqlConnection connection)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | SqlConnection | SqlConnection object |
 
 ### See Also
 

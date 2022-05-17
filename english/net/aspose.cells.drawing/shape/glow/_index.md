@@ -3,7 +3,7 @@ title: Glow
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 120
 url: /net/aspose.cells.drawing/shape/glow/
 ---
 ## Shape.Glow property

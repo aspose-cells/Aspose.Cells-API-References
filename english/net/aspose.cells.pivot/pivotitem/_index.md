@@ -3,7 +3,7 @@ title: PivotItem
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4610
+weight: 4630
 url: /net/aspose.cells.pivot/pivotitem/
 ---
 ## PivotItem class

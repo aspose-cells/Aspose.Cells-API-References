@@ -3,7 +3,7 @@ title: TextDirection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 290
 url: /net/aspose.cells/style/textdirection/
 ---
 ## Style.TextDirection property

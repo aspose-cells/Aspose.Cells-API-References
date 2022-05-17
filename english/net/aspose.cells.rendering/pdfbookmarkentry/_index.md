@@ -3,7 +3,7 @@ title: PdfBookmarkEntry
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5150
+weight: 5170
 url: /net/aspose.cells.rendering/pdfbookmarkentry/
 ---
 ## PdfBookmarkEntry class

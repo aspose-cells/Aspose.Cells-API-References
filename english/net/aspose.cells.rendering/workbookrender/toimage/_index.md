@@ -6,7 +6,7 @@ type: docs
 weight: 50
 url: /net/aspose.cells.rendering/workbookrender/toimage/
 ---
-## WorkbookRender.ToImage method (1 of 4)
+## WorkbookRender.ToImage method (1 of 5)
 
 Render whole workbook as Tiff Image to stream.
 
@@ -26,7 +26,7 @@ public void ToImage(Stream stream)
 
 ---
 
-## WorkbookRender.ToImage method (2 of 4)
+## WorkbookRender.ToImage method (2 of 5)
 
 Render whole workbook as Tiff Image to a file.
 
@@ -46,7 +46,7 @@ public void ToImage(string filename)
 
 ---
 
-## WorkbookRender.ToImage method (3 of 4)
+## WorkbookRender.ToImage method (3 of 5)
 
 Render certain page to a file.
 
@@ -67,7 +67,7 @@ public void ToImage(int pageIndex, string fileName)
 
 ---
 
-## WorkbookRender.ToImage method (4 of 4)
+## WorkbookRender.ToImage method (4 of 5)
 
 Render certain page to a stream.
 
@@ -79,6 +79,30 @@ public void ToImage(int pageIndex, Stream stream)
 | --- | --- | --- |
 | pageIndex | Int32 | indicate which page is to be converted |
 | stream | Stream | the stream of the output image |
+
+### See Also
+
+* class [WorkbookRender](../../workbookrender)
+* namespace [Aspose.Cells.Rendering](../../workbookrender)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## WorkbookRender.ToImage method (5 of 5)
+
+Render certain page to a Bitmap object.
+
+```csharp
+public Bitmap ToImage(int pageIndex)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pageIndex | Int32 | indicate which page is to be converted |
+
+## Return Value
+
+the bitmap object of the page
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: XlsSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6510
+weight: 6530
 url: /net/aspose.cells/xlssaveoptions/
 ---
 ## XlsSaveOptions class

@@ -3,7 +3,7 @@ title: SmartTagShowType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4090
+weight: 4110
 url: /net/aspose.cells.markup/smarttagshowtype/
 ---
 ## SmartTagShowType enumeration

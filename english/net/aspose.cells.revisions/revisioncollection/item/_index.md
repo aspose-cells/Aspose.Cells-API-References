@@ -14,9 +14,9 @@ Gets [`Revision`](../../revision) by the index.
 public Revision this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  |  |
+| Parameter | Description |
+| --- | --- |
+| index |  |
 
 ### See Also
 

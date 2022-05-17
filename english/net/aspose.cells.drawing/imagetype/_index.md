@@ -3,7 +3,7 @@ title: ImageType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2130
+weight: 2150
 url: /net/aspose.cells.drawing/imagetype/
 ---
 ## ImageType enumeration

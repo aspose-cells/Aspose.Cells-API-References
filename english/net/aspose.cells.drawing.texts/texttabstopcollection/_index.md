@@ -3,7 +3,7 @@ title: TextTabStopCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3000
+weight: 3020
 url: /net/aspose.cells.drawing.texts/texttabstopcollection/
 ---
 ## TextTabStopCollection class

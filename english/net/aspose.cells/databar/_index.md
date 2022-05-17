@@ -3,7 +3,7 @@ title: DataBar
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1220
+weight: 1230
 url: /net/aspose.cells/databar/
 ---
 ## DataBar class
@@ -117,7 +117,7 @@ Aspose.Cells.Cell cell3 = sheet.Cells["A3"];
 cell3.PutValue(260);
 
 //Saving the Excel file
-workbook.Save("D:\\book1.xlsx");
+workbook.Save("book1.xlsx");
 
 [VB.NET]
 
@@ -195,7 +195,7 @@ Dim cell3 As Aspose.Cells.Cell = sheet.Cells("A3")
 cell3.PutValue(260)
 
 'Saving the Excel file
-workbook.Save("D:\book1.xlsx")
+workbook.Save("book1.xlsx")
 
 ```
 

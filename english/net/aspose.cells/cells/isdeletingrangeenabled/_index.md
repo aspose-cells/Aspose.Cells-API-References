@@ -3,7 +3,7 @@ title: IsDeletingRangeEnabled
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1100
+weight: 1140
 url: /net/aspose.cells/cells/isdeletingrangeenabled/
 ---
 ## Cells.IsDeletingRangeEnabled method

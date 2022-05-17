@@ -14,9 +14,9 @@ Returns a [`DocumentProperty`](../../documentproperty) object by the name of the
 public virtual DocumentProperty this[string name] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name |  | The case-insensitive name of the property to retrieve. |
+| Parameter | Description |
+| --- | --- |
+| name | The case-insensitive name of the property to retrieve. |
 
 ### Remarks
 
@@ -39,9 +39,9 @@ Returns a [`DocumentProperty`](../../documentproperty) object by index.
 public DocumentProperty this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | Zero-based index of the [`DocumentProperty`](../../documentproperty) to retrieve. |
+| Parameter | Description |
+| --- | --- |
+| index | Zero-based index of the [`DocumentProperty`](../../documentproperty) to retrieve. |
 
 ### See Also
 

@@ -14,9 +14,9 @@ Gets the [`Border`](../../border) element at the specified index.
 public Border this[BorderType borderType] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| borderType |  | The border to be retrieved. |
+| Parameter | Description |
+| --- | --- |
+| borderType | The border to be retrieved. |
 
 ## Return Value
 

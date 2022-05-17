@@ -14,6 +14,14 @@ Returns the right margin in unit of Points
 public double RightMarginPt { get; set; }
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+shapeTextAlignment.RightMarginPt = 2.0d;
+```
+
 ### See Also
 
 * class [ShapeTextAlignment](../../shapetextalignment)

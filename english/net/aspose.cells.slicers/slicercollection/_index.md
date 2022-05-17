@@ -3,7 +3,7 @@ title: SlicerCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5660
+weight: 5680
 url: /net/aspose.cells.slicers/slicercollection/
 ---
 ## SlicerCollection class

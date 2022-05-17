@@ -3,7 +3,7 @@ title: ToFrontOrBack
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1130
+weight: 1140
 url: /net/aspose.cells.drawing/shape/tofrontorback/
 ---
 ## Shape.ToFrontOrBack method

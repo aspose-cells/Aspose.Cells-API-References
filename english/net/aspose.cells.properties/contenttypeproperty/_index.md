@@ -3,7 +3,7 @@ title: ContentTypeProperty
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4780
+weight: 4800
 url: /net/aspose.cells.properties/contenttypeproperty/
 ---
 ## ContentTypeProperty class
@@ -34,7 +34,7 @@ Workbook workbook = new Workbook();
 //Add a new property.
  workbook.ContentTypeProperties.Add("Admin", "Aspose", "text");
 //Save the Excel file
-workbook.Save("C:\\book1.xlsm");
+workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
@@ -43,7 +43,7 @@ Dim workbook As Workbook = New Workbook()
 'Add a new property.
  workbook.ContentTypeProperties.Add("Admin", "Aspose", "text")
 'Save the Excel file
-workbook.Save("C:\\book1.xlsm")
+workbook.Save("book1.xlsm")
 ```
 
 ### See Also

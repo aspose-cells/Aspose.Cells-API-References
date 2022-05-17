@@ -3,7 +3,7 @@ title: ProtectedRange
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4860
+weight: 4880
 url: /net/aspose.cells/protectedrange/
 ---
 ## ProtectedRange class

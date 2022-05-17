@@ -3,7 +3,7 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4170
+weight: 4190
 url: /net/aspose.cells/name/
 ---
 ## Name class
@@ -57,7 +57,7 @@ Range range = worksheet.Cells.CreateRange("B4", "G14");
 //Setting the name of the named range
 range.Name = "TestRange";
 //Saving the modified Excel file in default (that is Excel 2000) format
-workbook.Save("C:\\output.xls");   
+workbook.Save("output.xls");   
 
 [Visual Basic]
 
@@ -70,7 +70,7 @@ Dim range As Range = worksheet.Cells.CreateRange("B4", "G14")
 'Setting the name of the named range
 range.Name = "TestRange"
 'Saving the modified Excel file in default (that is Excel 2000) format
-workbook.Save("C:\\output.xls")
+workbook.Save("output.xls")
 ```
 
 ### See Also

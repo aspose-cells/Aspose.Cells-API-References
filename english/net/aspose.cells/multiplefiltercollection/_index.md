@@ -3,7 +3,7 @@ title: MultipleFilterCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4160
+weight: 4180
 url: /net/aspose.cells/multiplefiltercollection/
 ---
 ## MultipleFilterCollection class

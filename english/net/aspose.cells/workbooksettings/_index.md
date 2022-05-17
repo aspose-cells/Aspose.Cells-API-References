@@ -3,7 +3,7 @@ title: WorkbookSettings
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6470
+weight: 6490
 url: /net/aspose.cells/workbooksettings/
 ---
 ## WorkbookSettings class

@@ -100,7 +100,7 @@ fcs.AddArea(ca);
   cfIcon2.Index = 2;
 
 //Saving the Excel file
-workbook.Save("C:\\output.xls");
+workbook.Save("output.xls");
 
 [VB.NET]
 
@@ -171,7 +171,7 @@ cfIcon2.Type = IconSetType.Boxes5
 cfIcon2.Index=2
 
 'Saving the Excel file
-workbook.Save("C:\output.xls")
+workbook.Save("output.xls")
 ```
 
 ### See Also

@@ -3,7 +3,7 @@ title: VbaProject
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6240
+weight: 6260
 url: /net/aspose.cells.vba/vbaproject/
 ---
 ## VbaProject class
@@ -47,7 +47,7 @@ Workbook workbook = new Workbook();
  // Init VBA project.
 VbaProject vbaProject = workbook.VbaProject;
 //Saving the Excel file
-workbook.Save("C:\\book1.xlsm");
+workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
@@ -56,7 +56,7 @@ Dim workbook As Workbook = New Workbook()
 'Init VBA project.
 Dim vbaProject as VbaProject  = workbook.VbaProject
 'Saving the Excel file
-workbook.Save("C:\\book1.xlsm")
+workbook.Save("book1.xlsm")
 ```
 
 ### See Also

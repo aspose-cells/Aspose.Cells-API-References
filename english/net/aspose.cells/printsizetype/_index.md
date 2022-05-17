@@ -3,7 +3,7 @@ title: PrintSizeType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4750
+weight: 4770
 url: /net/aspose.cells/printsizetype/
 ---
 ## PrintSizeType enumeration

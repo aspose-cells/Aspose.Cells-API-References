@@ -3,7 +3,7 @@ title: RevisionCellChange
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5320
+weight: 5340
 url: /net/aspose.cells.revisions/revisioncellchange/
 ---
 ## RevisionCellChange class

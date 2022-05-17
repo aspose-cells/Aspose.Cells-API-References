@@ -3,7 +3,7 @@ title: IsHidden
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 300
 url: /net/aspose.cells.drawing/shape/ishidden/
 ---
 ## Shape.IsHidden property

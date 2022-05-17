@@ -3,7 +3,7 @@ title: ListColumn
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5770
+weight: 5790
 url: /net/aspose.cells.tables/listcolumn/
 ---
 ## ListColumn class
@@ -59,7 +59,7 @@ table.ShowTotals = true;
 ListColumn listColumn = table.ListColumns[4];
 listColumn.TotalsCalculation = Aspose.Cells.Tables.TotalsCalculation.Sum;
 listColumn.Formula = "=[A]";
-workbook.Save(@"C:\Book1.xlsx");
+workbook.Save(@"Book1.xlsx");
 
 
 [Visual Basic]
@@ -81,7 +81,7 @@ table.ShowTotals = True
 Dim listColumn as ListColumn = table.ListColumns(4);
 listColumn.TotalsCalculation = Aspose.Cells.Tables.TotalsCalculation.Sum;
 listColumn.Formula = "=[A]";
-workbook.Save("C:\Book1.xlsx")
+workbook.Save("Book1.xlsx")
 ```
 
 ### See Also

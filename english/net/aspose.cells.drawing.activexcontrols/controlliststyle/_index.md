@@ -3,7 +3,7 @@ title: ControlListStyle
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1500
+weight: 1520
 url: /net/aspose.cells.drawing.activexcontrols/controlliststyle/
 ---
 ## ControlListStyle enumeration

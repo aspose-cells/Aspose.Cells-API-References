@@ -3,7 +3,7 @@ title: TextCrossType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5930
+weight: 5950
 url: /net/aspose.cells/textcrosstype/
 ---
 ## TextCrossType enumeration

@@ -14,6 +14,14 @@ Returns the top margin in unit of Points
 public double TopMarginPt { get; set; }
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+shapeTextAlignment.TopMarginPt = 2.0d;
+```
+
 ### See Also
 
 * class [ShapeTextAlignment](../../shapetextalignment)

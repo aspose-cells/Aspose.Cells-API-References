@@ -3,7 +3,7 @@ title: SqlScriptColumnTypeMap
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5510
+weight: 5530
 url: /net/aspose.cells.saving/sqlscriptcolumntypemap/
 ---
 ## SqlScriptColumnTypeMap class

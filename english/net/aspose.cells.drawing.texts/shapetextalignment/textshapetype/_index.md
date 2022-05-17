@@ -14,6 +14,15 @@ Gets and set the transform type of text.
 public AutoShapeType TextShapeType { get; set; }
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+//Usually do not modify this value unless you know exactly what the modification will result in
+shapeTextAlignment.TextShapeType = AutoShapeType.TextBox;
+```
+
 ### See Also
 
 * enum [AutoShapeType](../../../aspose.cells.drawing/autoshapetype)

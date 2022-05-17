@@ -3,7 +3,7 @@ title: DataBarFillType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1260
+weight: 1270
 url: /net/aspose.cells/databarfilltype/
 ---
 ## DataBarFillType enumeration

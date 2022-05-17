@@ -21,7 +21,7 @@ public Guid Id { get; set; }
 [C#]
 // Create signature line object
 SignatureLine s1 = new SignatureLine();
-s1.Id = new System.Guid();
+s1.Id = System.Guid.NewGuid();
 ```
 
 ### See Also

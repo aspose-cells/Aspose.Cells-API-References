@@ -3,7 +3,7 @@ title: InsertRows
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1070
+weight: 1110
 url: /net/aspose.cells/cells/insertrows/
 ---
 ## Cells.InsertRows method (1 of 3)

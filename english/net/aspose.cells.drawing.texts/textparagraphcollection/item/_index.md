@@ -14,9 +14,9 @@ Gets the [`TextParagraph`](../../textparagraph) object at specific index.
 public TextParagraph this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index. |
+| Parameter | Description |
+| --- | --- |
+| index | The index. |
 
 ### See Also
 

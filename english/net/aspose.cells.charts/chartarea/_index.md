@@ -73,7 +73,7 @@ chartArea.Area.ForegroundColor = Color.Yellow;
 chartArea.Shadow = true;
 
 //Saving the Excel file
-workbook.Save("D:\\book1.xls");
+workbook.Save("book1.xls");
 
 [VB.NET]
 
@@ -120,7 +120,7 @@ chartArea.Area.ForegroundColor = Color.Yellow
 chartArea.Shadow = True
 
 'Saving the Excel file
-workbook.Save("D:\book1.xls")
+workbook.Save("book1.xls")
 ```
 
 ### See Also

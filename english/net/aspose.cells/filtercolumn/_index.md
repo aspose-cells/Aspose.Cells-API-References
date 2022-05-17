@@ -3,7 +3,7 @@ title: FilterColumn
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3400
+weight: 3420
 url: /net/aspose.cells/filtercolumn/
 ---
 ## FilterColumn class

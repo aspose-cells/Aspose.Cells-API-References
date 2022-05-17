@@ -14,9 +14,9 @@ Gets [`VbaModule`](../../vbamodule) in the list by the index.
 public VbaModule this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index. |
+| Parameter | Description |
+| --- | --- |
+| index | The index. |
 
 ### See Also
 
@@ -35,9 +35,9 @@ Gets [`VbaModule`](../../vbamodule) in the list by the name.
 public VbaModule this[string name] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name |  | The name of module. |
+| Parameter | Description |
+| --- | --- |
+| name | The name of module. |
 
 ### See Also
 

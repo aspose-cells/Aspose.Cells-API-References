@@ -14,9 +14,9 @@ Gets an element of the table style by the index.
 public TableStyleElement this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index. |
+| Parameter | Description |
+| --- | --- |
+| index | The index. |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Gets the element of the table style by the [`TableStyleElementType`](../../table
 public TableStyleElement this[TableStyleElementType type] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| type |  | The element type. |
+| Parameter | Description |
+| --- | --- |
+| type | The element type. |
 
 ## Return Value
 

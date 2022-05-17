@@ -3,7 +3,7 @@ title: TextBox
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2780
+weight: 2800
 url: /net/aspose.cells.drawing/textbox/
 ---
 ## TextBox class

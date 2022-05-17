@@ -3,7 +3,7 @@ title: EncryptionType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3130
+weight: 3150
 url: /net/aspose.cells/encryptiontype/
 ---
 ## EncryptionType enumeration

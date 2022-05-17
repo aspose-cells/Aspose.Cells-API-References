@@ -3,7 +3,7 @@ title: IsFlippedHorizontally
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 270
 url: /net/aspose.cells.drawing/shape/isflippedhorizontally/
 ---
 ## Shape.IsFlippedHorizontally property

@@ -3,7 +3,7 @@ title: DataBarBorder
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1240
+weight: 1250
 url: /net/aspose.cells/databarborder/
 ---
 ## DataBarBorder class

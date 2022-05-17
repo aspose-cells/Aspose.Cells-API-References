@@ -14,9 +14,9 @@ Gets the [`ConnectionParameter`](../../connectionparameter) element at the speci
 public ConnectionParameter this[int index] { get; set; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The zero based index of the element. |
+| Parameter | Description |
+| --- | --- |
+| index | The zero based index of the element. |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Gets the [`ConnectionParameter`](../../connectionparameter) element with the spe
 public ConnectionParameter this[string connParamName] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connParamName |  | connection parameter name |
+| Parameter | Description |
+| --- | --- |
+| connParamName | connection parameter name |
 
 ## Return Value
 

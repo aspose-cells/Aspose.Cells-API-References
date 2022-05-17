@@ -3,7 +3,7 @@ title: InsertColumns
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1030
+weight: 1070
 url: /net/aspose.cells/cells/insertcolumns/
 ---
 ## Cells.InsertColumns method (1 of 2)

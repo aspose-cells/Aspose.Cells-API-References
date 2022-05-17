@@ -41,7 +41,7 @@ Range range2 = cells.CreateRange("A3:A10");
 //Get intersected range of the two ranges.
 Range intersectRange = range1.Intersect(range2);
 //Save the Excel file
-workbook.Save("C:\\book1.xlsm");
+workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
@@ -54,7 +54,7 @@ Range range2 = cells.CreateRange("A3:A10")
 'Get intersected range of the two ranges.
 Range intersectRange = range1.Intersect(range2)
 'Save the Excel file
-workbook.Save("C:\\book1.xlsm")
+workbook.Save("book1.xlsm")
 ```
 
 ### See Also

@@ -3,7 +3,7 @@ title: HeightCM
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 160
 url: /net/aspose.cells.drawing/shape/heightcm/
 ---
 ## Shape.HeightCM property

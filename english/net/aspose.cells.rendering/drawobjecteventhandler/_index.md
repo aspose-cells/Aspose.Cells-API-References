@@ -3,7 +3,7 @@ title: DrawObjectEventHandler
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5090
+weight: 5110
 url: /net/aspose.cells.rendering/drawobjecteventhandler/
 ---
 ## DrawObjectEventHandler class

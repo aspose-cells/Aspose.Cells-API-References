@@ -3,7 +3,7 @@ title: FormatPicture
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 100
 url: /net/aspose.cells.drawing/shape/formatpicture/
 ---
 ## Shape.FormatPicture property

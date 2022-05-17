@@ -3,7 +3,7 @@ title: CustomXmlPartCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4020
+weight: 4040
 url: /net/aspose.cells.markup/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection class

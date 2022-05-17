@@ -64,7 +64,6 @@ worksheet.Protect(ProtectionType.All, "aspose", null);
 //Saving the modified Excel file in default (that is Excel 20003) format
 excel.Save("output.xls");
 //Closing the file stream to free all resources
-fstream.Close();
 
 [Visual Basic]
 

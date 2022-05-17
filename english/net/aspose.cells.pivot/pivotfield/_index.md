@@ -3,7 +3,7 @@ title: PivotField
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4500
+weight: 4520
 url: /net/aspose.cells.pivot/pivotfield/
 ---
 ## PivotField class

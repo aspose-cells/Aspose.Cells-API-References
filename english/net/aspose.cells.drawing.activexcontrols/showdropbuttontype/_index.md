@@ -3,7 +3,7 @@ title: ShowDropButtonType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1670
+weight: 1690
 url: /net/aspose.cells.drawing.activexcontrols/showdropbuttontype/
 ---
 ## ShowDropButtonType enumeration

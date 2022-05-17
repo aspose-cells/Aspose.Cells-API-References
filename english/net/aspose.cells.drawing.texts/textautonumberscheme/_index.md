@@ -3,7 +3,7 @@ title: TextAutonumberScheme
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2920
+weight: 2940
 url: /net/aspose.cells.drawing.texts/textautonumberscheme/
 ---
 ## TextAutonumberScheme enumeration

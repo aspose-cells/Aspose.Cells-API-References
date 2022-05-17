@@ -3,7 +3,7 @@ title: CustomPropertyCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4820
+weight: 4840
 url: /net/aspose.cells.properties/custompropertycollection/
 ---
 ## CustomPropertyCollection class

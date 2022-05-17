@@ -3,7 +3,7 @@ title: ShapeGuideCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2640
+weight: 2660
 url: /net/aspose.cells.drawing/shapeguidecollection/
 ---
 ## ShapeGuideCollection class
@@ -25,6 +25,12 @@ public class ShapeGuideCollection : CollectionBase<ShapeGuide>
 | Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets a shape guide by index |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(string, double) | Adds a shape guide.(Important: This feature is currently only available for Excel07 and above) |
 
 ### See Also
 

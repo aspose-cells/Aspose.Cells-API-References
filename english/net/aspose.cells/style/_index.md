@@ -3,7 +3,7 @@ title: Style
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5720
+weight: 5740
 url: /net/aspose.cells/style/
 ---
 ## Style class
@@ -28,6 +28,7 @@ public class Style
 | [ForegroundArgbColor](foregroundargbcolor) { get; set; } | Gets and sets the foreground color with a 32-bit ARGB value. |
 | [ForegroundColor](foregroundcolor) { get; set; } | Gets or sets a style's foreground color. |
 | [ForegroundThemeColor](foregroundthemecolor) { get; set; } | Gets and sets the foreground theme color. |
+| [HasBorders](hasborders) { get; } | Checks whether there are borders have been set for the style. |
 | [HorizontalAlignment](horizontalalignment) { get; set; } | Gets or sets the horizontal alignment type of the text in a cell. |
 | [IndentLevel](indentlevel) { get; set; } | Represents the indent level for the cell or range. Can only be an integer from 0 to 250. |
 | [InvariantCustom](invariantcustom) { get; } | Gets the culture-independent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned. |

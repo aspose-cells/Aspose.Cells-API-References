@@ -3,7 +3,7 @@ title: RemoveDateFilter
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.cells/autofilter/removedatefilter/
 ---
 ## AutoFilter.RemoveDateFilter method

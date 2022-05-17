@@ -14,6 +14,18 @@ Converting smart art to grouped shapes.
 public override GroupShape GetResultOfSmartArt()
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+Aspose.Cells.Drawing.GroupShape groupShape = shape.GetResultOfSmartArt();
+if(groupShape != null)
+{
+    //do what you want
+}
+```
+
 ### See Also
 
 * class [GroupShape](../../groupshape)

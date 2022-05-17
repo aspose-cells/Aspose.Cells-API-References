@@ -14,9 +14,9 @@ Gets the property of web extension by the index.
 public WebExtensionProperty this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index. |
+| Parameter | Description |
+| --- | --- |
+| index | The index. |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Gets the property of web extension.
 public WebExtensionProperty this[string name] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name |  | The name of property. |
+| Parameter | Description |
+| --- | --- |
+| name | The name of property. |
 
 ## Return Value
 

@@ -8,9 +8,15 @@ url: /net/aspose.cells/collectionbase-1/removeat/
 ---
 ## CollectionBase&lt;T&gt;.RemoveAt method
 
+Removes the element at the specified index.
+
 ```csharp
 public void RemoveAt(int index)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 |  |
 
 ### See Also
 

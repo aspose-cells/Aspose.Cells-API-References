@@ -79,7 +79,7 @@ style.Borders[BorderType.RightBorder].Color = Color.Black;
 cell.SetStyle(style);
 
 //Saving the Excel file
-workbook.Save("C:\\book1.xls");
+workbook.Save("book1.xls");
 
 [VB.NET]
 
@@ -127,7 +127,7 @@ style.Borders(BorderType.RightBorder).Color = Color.Black
 cell.SetStyle(style)
 
 'Saving the Excel file
-workbook.Save("C:\book1.xls")
+workbook.Save("book1.xls")
 ```
 
 ### See Also

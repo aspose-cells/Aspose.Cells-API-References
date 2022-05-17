@@ -14,9 +14,9 @@ Gets the shape object at the specific index.
 public Shape this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  |  |
+| Parameter | Description |
+| --- | --- |
+| index |  |
 
 ### Examples
 
@@ -44,9 +44,9 @@ Gets the shape object by the shape image
 public Shape this[string name] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name |  |  |
+| Parameter | Description |
+| --- | --- |
+| name |  |
 
 ### Examples
 

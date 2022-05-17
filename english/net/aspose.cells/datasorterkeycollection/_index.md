@@ -3,7 +3,7 @@ title: DataSorterKeyCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1300
+weight: 1310
 url: /net/aspose.cells/datasorterkeycollection/
 ---
 ## DataSorterKeyCollection class

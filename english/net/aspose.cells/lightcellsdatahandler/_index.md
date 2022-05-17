@@ -3,7 +3,7 @@ title: LightCellsDataHandler
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3920
+weight: 3940
 url: /net/aspose.cells/lightcellsdatahandler/
 ---
 ## LightCellsDataHandler interface

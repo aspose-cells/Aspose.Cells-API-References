@@ -3,7 +3,7 @@ title: TextureType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3030
+weight: 3050
 url: /net/aspose.cells.drawing/texturetype/
 ---
 ## TextureType enumeration

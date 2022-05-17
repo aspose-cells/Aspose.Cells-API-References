@@ -3,7 +3,7 @@ title: PivotItemPosition
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4630
+weight: 4650
 url: /net/aspose.cells.pivot/pivotitemposition/
 ---
 ## PivotItemPosition enumeration

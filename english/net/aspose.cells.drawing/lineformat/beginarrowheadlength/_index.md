@@ -14,6 +14,14 @@ Gets and sets the begin arrow length type of the line.
 public MsoArrowheadLength BeginArrowheadLength { get; set; }
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+lineFmt.BeginArrowheadLength = MsoArrowheadLength.Long;
+```
+
 ### See Also
 
 * enum [MsoArrowheadLength](../../msoarrowheadlength)

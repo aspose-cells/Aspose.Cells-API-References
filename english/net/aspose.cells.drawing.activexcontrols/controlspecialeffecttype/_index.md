@@ -3,7 +3,7 @@ title: ControlSpecialEffectType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1580
+weight: 1600
 url: /net/aspose.cells.drawing.activexcontrols/controlspecialeffecttype/
 ---
 ## ControlSpecialEffectType enumeration

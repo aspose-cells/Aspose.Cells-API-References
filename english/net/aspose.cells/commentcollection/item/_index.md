@@ -14,9 +14,9 @@ Gets the [`Comment`](../../comment) element at the specified index.
 public Comment this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The zero based index of the element. |
+| Parameter | Description |
+| --- | --- |
+| index | The zero based index of the element. |
 
 ## Return Value
 
@@ -48,9 +48,9 @@ Gets the [`Comment`](../../comment) element at the specified cell.
 public Comment this[string cellName] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| cellName |  | Cell name. |
+| Parameter | Description |
+| --- | --- |
+| cellName | Cell name. |
 
 ## Return Value
 
@@ -82,10 +82,10 @@ Gets the [`Comment`](../../comment) element at the specified row index and colum
 public Comment this[int row, int column] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| row |  | Row index. |
-| column |  | Column index. |
+| Parameter | Description |
+| --- | --- |
+| row | Row index. |
+| column | Column index. |
 
 ## Return Value
 

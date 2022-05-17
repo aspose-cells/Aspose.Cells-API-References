@@ -3,7 +3,7 @@ title: ExceptionType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3170
+weight: 3190
 url: /net/aspose.cells/exceptiontype/
 ---
 ## ExceptionType enumeration
@@ -41,6 +41,7 @@ public enum ExceptionType
 | UnsupportedFeature | `20` | Unsupported feature. |
 | UnsupportedStream | `21` | Unsupported stream to be opened. |
 | UndisclosedInformation | `22` | Files contains some undisclosed information. |
+| FileCorrupted | `23` | File content is corrupted. |
 
 ### See Also
 

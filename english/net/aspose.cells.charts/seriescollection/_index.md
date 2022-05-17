@@ -80,7 +80,7 @@ chart.NSeries.Add("A1:B4", true);
 //Setting the data source for the category data of NSeries
 chart.NSeries.CategoryData = "C1:C4";
 //Saving the Excel file
-workbook.Save("C:\\book1.xls");
+workbook.Save("book1.xls");
 
 [Visual Basic]
 
@@ -123,7 +123,7 @@ chart.NSeries.Add("A1:B4", True)
 'Setting the data source for the category data of NSeries
 chart.NSeries.CategoryData = "C1:C4"
 'Saving the Excel file
-workbook.Save("C:\book1.xls")
+workbook.Save("book1.xls")
 ```
 
 ### See Also

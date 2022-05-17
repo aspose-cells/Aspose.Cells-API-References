@@ -3,7 +3,7 @@ title: Update
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 390
+weight: 400
 url: /net/aspose.cells/style/update/
 ---
 ## Style.Update method

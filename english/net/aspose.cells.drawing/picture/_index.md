@@ -3,7 +3,7 @@ title: Picture
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2450
+weight: 2470
 url: /net/aspose.cells.drawing/picture/
 ---
 ## Picture class

@@ -3,7 +3,7 @@ title: HtmlText
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 210
 url: /net/aspose.cells.drawing/shape/htmltext/
 ---
 ## Shape.HtmlText property

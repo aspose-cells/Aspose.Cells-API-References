@@ -3,7 +3,7 @@ title: MsoFormatPicture
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2310
+weight: 2330
 url: /net/aspose.cells.drawing/msoformatpicture/
 ---
 ## MsoFormatPicture class

@@ -3,7 +3,7 @@ title: IPageSavingCallback
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5100
+weight: 5120
 url: /net/aspose.cells.rendering/ipagesavingcallback/
 ---
 ## IPageSavingCallback interface

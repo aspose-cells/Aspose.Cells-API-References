@@ -3,7 +3,7 @@ title: StyleFlag
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5730
+weight: 5750
 url: /net/aspose.cells/styleflag/
 ---
 ## StyleFlag class

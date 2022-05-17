@@ -35,7 +35,7 @@ Dim tables As ListObjectCollection = workbook.Worksheets(0).ListObjects
 Dim index As Int32 = tables.Add(0, 0, 9, 4, True)
 Dim table As ListObject = tables(0)
 table.TableStyleType = TableStyleType.TableStyleDark2;
-workbook.Save("C:\Book1.xlsx")
+workbook.Save("Book1.xlsx")
 ```
 
 ### See Also

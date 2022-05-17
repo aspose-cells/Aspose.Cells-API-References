@@ -3,7 +3,7 @@ title: IconSetType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3830
+weight: 3850
 url: /net/aspose.cells/iconsettype/
 ---
 ## IconSetType enumeration

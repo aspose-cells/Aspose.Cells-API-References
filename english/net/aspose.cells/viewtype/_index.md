@@ -3,7 +3,7 @@ title: ViewType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6300
+weight: 6320
 url: /net/aspose.cells/viewtype/
 ---
 ## ViewType enumeration

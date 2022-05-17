@@ -3,7 +3,7 @@ title: HeightInShape
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 180
 url: /net/aspose.cells.drawing/shape/heightinshape/
 ---
 ## Shape.HeightInShape property

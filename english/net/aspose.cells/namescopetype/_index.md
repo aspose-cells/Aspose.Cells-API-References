@@ -3,7 +3,7 @@ title: NameScopeType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4190
+weight: 4210
 url: /net/aspose.cells/namescopetype/
 ---
 ## NameScopeType enumeration

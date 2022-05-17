@@ -3,7 +3,7 @@ title: PresetMaterialType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2490
+weight: 2510
 url: /net/aspose.cells.drawing/presetmaterialtype/
 ---
 ## PresetMaterialType enumeration

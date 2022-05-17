@@ -3,7 +3,7 @@ title: ImportDataView
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 980
+weight: 1010
 url: /net/aspose.cells/cells/importdataview/
 ---
 ## Cells.ImportDataView method

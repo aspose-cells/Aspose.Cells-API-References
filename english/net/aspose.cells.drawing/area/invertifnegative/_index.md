@@ -45,7 +45,7 @@ chart.NSeries[0].Area.ForegroundColor = Color.Red;
 //The displayed area color of second chart point will be the background color.
 chart.NSeries[0].Area.BackgroundColor = Color.Yellow;
 //Saving the Excel file
-workbook.Save("C:\\book1.xls");
+workbook.Save("book1.xls");
 
 [Visual Basic]
 
@@ -74,7 +74,7 @@ chart.NSeries(0).Area.ForegroundColor = Color.Red
 'The displayed area color of second chart point will be the background color.
 chart.NSeries(0).Area.BackgroundColor = Color.Yellow
 'Saving the Excel file
-workbook.Save("C:\book1.xls")
+workbook.Save("book1.xls")
 
 ```
 

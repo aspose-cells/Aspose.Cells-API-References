@@ -3,7 +3,7 @@ title: Merge
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1130
+weight: 1170
 url: /net/aspose.cells/cells/merge/
 ---
 ## Cells.Merge method (1 of 3)

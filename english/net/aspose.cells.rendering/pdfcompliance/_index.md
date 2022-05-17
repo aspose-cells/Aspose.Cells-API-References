@@ -3,7 +3,7 @@ title: PdfCompliance
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5160
+weight: 5180
 url: /net/aspose.cells.rendering/pdfcompliance/
 ---
 ## PdfCompliance enumeration

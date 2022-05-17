@@ -3,7 +3,7 @@ title: MsoLineDashStyle
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2320
+weight: 2340
 url: /net/aspose.cells.drawing/msolinedashstyle/
 ---
 ## MsoLineDashStyle enumeration

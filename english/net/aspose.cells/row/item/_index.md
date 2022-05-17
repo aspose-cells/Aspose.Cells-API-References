@@ -3,7 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.cells/row/item/
 ---
 ## Row indexer
@@ -14,9 +14,9 @@ Gets the cell.
 public Cell this[int column] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| column |  | The column index |
+| Parameter | Description |
+| --- | --- |
+| column | The column index |
 
 ### See Also
 

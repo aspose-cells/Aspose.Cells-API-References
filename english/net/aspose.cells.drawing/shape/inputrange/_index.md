@@ -3,7 +3,7 @@ title: InputRange
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 240
 url: /net/aspose.cells.drawing/shape/inputrange/
 ---
 ## Shape.InputRange property

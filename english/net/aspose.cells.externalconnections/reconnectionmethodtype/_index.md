@@ -3,7 +3,7 @@ title: ReConnectionMethodType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3300
+weight: 3320
 url: /net/aspose.cells.externalconnections/reconnectionmethodtype/
 ---
 ## ReConnectionMethodType enumeration

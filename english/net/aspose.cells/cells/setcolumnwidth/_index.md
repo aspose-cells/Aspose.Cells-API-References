@@ -3,7 +3,7 @@ title: SetColumnWidth
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1180
+weight: 1220
 url: /net/aspose.cells/cells/setcolumnwidth/
 ---
 ## Cells.SetColumnWidth method

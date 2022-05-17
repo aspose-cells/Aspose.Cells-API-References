@@ -3,7 +3,7 @@ title: PowerQueryFormulaItem
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4960
+weight: 4980
 url: /net/aspose.cells.querytables/powerqueryformulaitem/
 ---
 ## PowerQueryFormulaItem class

@@ -12,6 +12,10 @@ url: /net/aspose.cells/collectionbase-1/binarysearch/
 public int BinarySearch(T item)
 ```
 
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | T |  |
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../collectionbase-1)
@@ -26,6 +30,11 @@ public int BinarySearch(T item)
 public int BinarySearch(T item, IComparer<T> comparer)
 ```
 
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | T |  |
+| comparer | IComparer`1 |  |
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../collectionbase-1)
@@ -39,6 +48,13 @@ public int BinarySearch(T item, IComparer<T> comparer)
 ```csharp
 public int BinarySearch(int index, int count, T item, IComparer<T> comparer)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 |  |
+| count | Int32 |  |
+| item | T |  |
+| comparer | IComparer`1 |  |
 
 ### See Also
 

@@ -14,9 +14,9 @@ Gets [`PowerQueryFormulaItem`](../../powerqueryformulaitem) by the index in the 
 public PowerQueryFormulaItem this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index. |
+| Parameter | Description |
+| --- | --- |
+| index | The index. |
 
 ### See Also
 
@@ -35,9 +35,9 @@ Gets [`PowerQueryFormulaItem`](../../powerqueryformulaitem) by the name of the i
 public PowerQueryFormulaItem this[string name] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name |  | The name of the item. |
+| Parameter | Description |
+| --- | --- |
+| name | The name of the item. |
 
 ### See Also
 

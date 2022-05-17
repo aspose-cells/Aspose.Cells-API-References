@@ -14,9 +14,9 @@ Gets a creation path.
 public ShapePath this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index. |
+| Parameter | Description |
+| --- | --- |
+| index | The index. |
 
 ## Return Value
 

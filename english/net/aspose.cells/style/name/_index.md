@@ -3,7 +3,7 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.cells/style/name/
 ---
 ## Style.Name property

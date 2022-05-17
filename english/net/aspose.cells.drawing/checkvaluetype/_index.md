@@ -3,7 +3,7 @@ title: CheckValueType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1850
+weight: 1870
 url: /net/aspose.cells.drawing/checkvaluetype/
 ---
 ## CheckValueType enumeration

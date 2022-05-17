@@ -14,6 +14,14 @@ Specifies the line dash type.
 public MsoLineDashStyle DashStyle { get; set; }
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+lineFmt.DashStyle = MsoLineDashStyle.Solid;
+```
+
 ### See Also
 
 * enum [MsoLineDashStyle](../../msolinedashstyle)

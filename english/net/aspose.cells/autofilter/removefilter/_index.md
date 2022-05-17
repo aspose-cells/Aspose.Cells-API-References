@@ -3,7 +3,7 @@ title: RemoveFilter
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.cells/autofilter/removefilter/
 ---
 ## AutoFilter.RemoveFilter method (1 of 2)

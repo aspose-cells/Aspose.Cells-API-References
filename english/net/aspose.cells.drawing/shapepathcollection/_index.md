@@ -3,7 +3,7 @@ title: ShapePathCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2670
+weight: 2690
 url: /net/aspose.cells.drawing/shapepathcollection/
 ---
 ## ShapePathCollection class

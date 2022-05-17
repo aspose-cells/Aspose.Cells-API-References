@@ -3,7 +3,7 @@ title: FilterOperatorType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3420
+weight: 3440
 url: /net/aspose.cells/filteroperatortype/
 ---
 ## FilterOperatorType enumeration

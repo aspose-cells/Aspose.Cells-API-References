@@ -3,7 +3,7 @@ title: OoxmlCompliance
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4320
+weight: 4340
 url: /net/aspose.cells/ooxmlcompliance/
 ---
 ## OoxmlCompliance enumeration

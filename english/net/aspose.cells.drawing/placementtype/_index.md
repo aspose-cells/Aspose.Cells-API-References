@@ -3,7 +3,7 @@ title: PlacementType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2470
+weight: 2490
 url: /net/aspose.cells.drawing/placementtype/
 ---
 ## PlacementType enumeration

@@ -3,7 +3,7 @@ title: ScenarioCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5550
+weight: 5570
 url: /net/aspose.cells/scenariocollection/
 ---
 ## ScenarioCollection class

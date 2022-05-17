@@ -3,7 +3,7 @@ title: MsoLineStyle
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2350
+weight: 2370
 url: /net/aspose.cells.drawing/msolinestyle/
 ---
 ## MsoLineStyle enumeration

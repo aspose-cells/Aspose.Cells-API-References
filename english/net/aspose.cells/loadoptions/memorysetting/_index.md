@@ -3,7 +3,7 @@ title: MemorySetting
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.cells/loadoptions/memorysetting/
 ---
 ## LoadOptions.MemorySetting property

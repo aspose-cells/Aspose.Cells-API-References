@@ -3,7 +3,7 @@ title: WarningType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6330
+weight: 6350
 url: /net/aspose.cells/warningtype/
 ---
 ## WarningType enumeration
@@ -25,6 +25,7 @@ public enum WarningType
 | InvalidFontName | `4` | Invalid the font name. |
 | InvalidAutoFilterRange | `5` | Invalid autofilter range. |
 | IO | `6` | The file is corrupted. |
+| Limitation | `7` | Out of MS Excel limitation error. |
 
 ### See Also
 

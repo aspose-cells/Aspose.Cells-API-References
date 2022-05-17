@@ -3,7 +3,7 @@ title: MsoDrawingType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2280
+weight: 2300
 url: /net/aspose.cells.drawing/msodrawingtype/
 ---
 ## MsoDrawingType enumeration

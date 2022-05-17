@@ -3,7 +3,7 @@ title: HtmlHiddenColDisplayType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3670
+weight: 3690
 url: /net/aspose.cells/htmlhiddencoldisplaytype/
 ---
 ## HtmlHiddenColDisplayType enumeration

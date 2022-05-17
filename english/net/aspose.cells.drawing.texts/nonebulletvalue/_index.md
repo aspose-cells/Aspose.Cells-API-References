@@ -3,7 +3,7 @@ title: NoneBulletValue
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2890
+weight: 2910
 url: /net/aspose.cells.drawing.texts/nonebulletvalue/
 ---
 ## NoneBulletValue class

@@ -3,7 +3,7 @@ title: PresetWordArtStyle
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2510
+weight: 2530
 url: /net/aspose.cells.drawing/presetwordartstyle/
 ---
 ## PresetWordArtStyle enumeration

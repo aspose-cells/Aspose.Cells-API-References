@@ -3,7 +3,7 @@ title: ControlType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1590
+weight: 1610
 url: /net/aspose.cells.drawing.activexcontrols/controltype/
 ---
 ## ControlType enumeration

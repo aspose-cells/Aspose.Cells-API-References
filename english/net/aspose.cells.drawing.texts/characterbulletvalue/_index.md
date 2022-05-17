@@ -3,7 +3,7 @@ title: CharacterBulletValue
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2860
+weight: 2880
 url: /net/aspose.cells.drawing.texts/characterbulletvalue/
 ---
 ## CharacterBulletValue class

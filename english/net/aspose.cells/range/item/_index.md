@@ -14,10 +14,10 @@ Gets [`Cell`](../../cell) object in this range.
 public Cell this[int rowOffset, int columnOffset] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rowOffset |  | Row offset in this range, zero based. |
-| columnOffset |  | Column offset in this range, zero based. |
+| Parameter | Description |
+| --- | --- |
+| rowOffset | Row offset in this range, zero based. |
+| columnOffset | Column offset in this range, zero based. |
 
 ## Return Value
 

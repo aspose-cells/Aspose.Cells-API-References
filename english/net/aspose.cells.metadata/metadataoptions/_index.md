@@ -3,7 +3,7 @@ title: MetadataOptions
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4120
+weight: 4140
 url: /net/aspose.cells.metadata/metadataoptions/
 ---
 ## MetadataOptions class

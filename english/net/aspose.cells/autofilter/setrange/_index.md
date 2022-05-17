@@ -3,7 +3,7 @@ title: SetRange
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.cells/autofilter/setrange/
 ---
 ## AutoFilter.SetRange method

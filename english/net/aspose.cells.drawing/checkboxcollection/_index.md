@@ -3,7 +3,7 @@ title: CheckBoxCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1840
+weight: 1860
 url: /net/aspose.cells.drawing/checkboxcollection/
 ---
 ## CheckBoxCollection class

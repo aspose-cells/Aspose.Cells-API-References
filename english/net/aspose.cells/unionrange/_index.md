@@ -3,7 +3,7 @@ title: UnionRange
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6120
+weight: 6140
 url: /net/aspose.cells/unionrange/
 ---
 ## UnionRange class

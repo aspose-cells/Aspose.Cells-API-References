@@ -3,7 +3,7 @@ title: IsEquation
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 250
 url: /net/aspose.cells.drawing/shape/isequation/
 ---
 ## Shape.IsEquation property

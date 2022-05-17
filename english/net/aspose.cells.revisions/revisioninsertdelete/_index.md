@@ -3,7 +3,7 @@ title: RevisionInsertDelete
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5390
+weight: 5410
 url: /net/aspose.cells.revisions/revisioninsertdelete/
 ---
 ## RevisionInsertDelete class

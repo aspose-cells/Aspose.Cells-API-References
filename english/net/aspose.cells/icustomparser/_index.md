@@ -3,7 +3,7 @@ title: ICustomParser
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3750
+weight: 3770
 url: /net/aspose.cells/icustomparser/
 ---
 ## ICustomParser interface

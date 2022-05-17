@@ -3,7 +3,7 @@ title: ConnectionParameter
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3210
+weight: 3230
 url: /net/aspose.cells.externalconnections/connectionparameter/
 ---
 ## ConnectionParameter class

@@ -3,7 +3,7 @@ title: ShiftType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5590
+weight: 5610
 url: /net/aspose.cells/shifttype/
 ---
 ## ShiftType enumeration

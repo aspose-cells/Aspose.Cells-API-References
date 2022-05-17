@@ -3,7 +3,7 @@ title: FontUnderlineType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3520
+weight: 3540
 url: /net/aspose.cells/fontunderlinetype/
 ---
 ## FontUnderlineType enumeration

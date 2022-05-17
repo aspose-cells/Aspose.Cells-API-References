@@ -3,7 +3,7 @@ title: GetLockedProperty
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1040
+weight: 1050
 url: /net/aspose.cells.drawing/shape/getlockedproperty/
 ---
 ## Shape.GetLockedProperty method

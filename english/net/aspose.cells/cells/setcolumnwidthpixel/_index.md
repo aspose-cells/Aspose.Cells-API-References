@@ -3,7 +3,7 @@ title: SetColumnWidthPixel
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1200
+weight: 1240
 url: /net/aspose.cells/cells/setcolumnwidthpixel/
 ---
 ## Cells.SetColumnWidthPixel method

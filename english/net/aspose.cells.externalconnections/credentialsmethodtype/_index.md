@@ -3,7 +3,7 @@ title: CredentialsMethodType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3240
+weight: 3260
 url: /net/aspose.cells.externalconnections/credentialsmethodtype/
 ---
 ## CredentialsMethodType enumeration

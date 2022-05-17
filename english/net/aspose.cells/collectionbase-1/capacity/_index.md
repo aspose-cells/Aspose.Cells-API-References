@@ -8,6 +8,8 @@ url: /net/aspose.cells/collectionbase-1/capacity/
 ---
 ## CollectionBase&lt;T&gt;.Capacity property
 
+Gets or sets the number of elements that the list can contain.
+
 ```csharp
 public int Capacity { get; set; }
 ```

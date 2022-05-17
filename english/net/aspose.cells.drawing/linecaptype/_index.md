@@ -3,7 +3,7 @@ title: LineCapType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2180
+weight: 2200
 url: /net/aspose.cells.drawing/linecaptype/
 ---
 ## LineCapType enumeration

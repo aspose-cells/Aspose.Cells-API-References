@@ -3,7 +3,7 @@ title: GetInputRange
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1020
+weight: 1030
 url: /net/aspose.cells.drawing/shape/getinputrange/
 ---
 ## Shape.GetInputRange method

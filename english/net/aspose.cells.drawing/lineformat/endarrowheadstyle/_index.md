@@ -14,6 +14,14 @@ Gets and sets the end arrow type of the line.
 public MsoArrowheadStyle EndArrowheadStyle { get; set; }
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+lineFmt.EndArrowheadStyle = MsoArrowheadStyle.ArrowOpen;
+```
+
 ### See Also
 
 * enum [MsoArrowheadStyle](../../msoarrowheadstyle)

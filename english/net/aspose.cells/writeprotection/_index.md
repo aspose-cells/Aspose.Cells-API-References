@@ -3,7 +3,7 @@ title: WriteProtection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6500
+weight: 6520
 url: /net/aspose.cells/writeprotection/
 ---
 ## WriteProtection class

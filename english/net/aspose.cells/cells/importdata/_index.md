@@ -3,7 +3,7 @@ title: ImportData
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 960
+weight: 970
 url: /net/aspose.cells/cells/importdata/
 ---
 ## Cells.ImportData method (1 of 5)

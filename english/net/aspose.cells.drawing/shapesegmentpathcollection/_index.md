@@ -3,7 +3,7 @@ title: ShapeSegmentPathCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2730
+weight: 2750
 url: /net/aspose.cells.drawing/shapesegmentpathcollection/
 ---
 ## ShapeSegmentPathCollection class

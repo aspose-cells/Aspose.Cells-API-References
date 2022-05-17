@@ -14,10 +14,10 @@ Gets the [`Cell`](../../cell) element at the specified cell row index and column
 public Cell this[int row, int column] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| row |  | Row index. |
-| column |  | Column index. |
+| Parameter | Description |
+| --- | --- |
+| row | Row index. |
+| column | Column index. |
 
 ## Return Value
 
@@ -54,9 +54,9 @@ Gets the [`Cell`](../../cell) element at the specified cell name.
 public Cell this[string cellName] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| cellName |  | Cell name,including its column letter and row number, for example A5. |
+| Parameter | Description |
+| --- | --- |
+| cellName | Cell name,including its column letter and row number, for example A5. |
 
 ## Return Value
 

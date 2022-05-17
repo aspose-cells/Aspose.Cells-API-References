@@ -8,6 +8,8 @@ url: /net/aspose.cells/collectionbase-1/count/
 ---
 ## CollectionBase&lt;T&gt;.Count property
 
+Gets the number of elements.
+
 ```csharp
 public int Count { get; }
 ```

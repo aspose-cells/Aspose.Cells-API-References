@@ -3,7 +3,7 @@ title: ComboBox
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1870
+weight: 1890
 url: /net/aspose.cells.drawing/combobox/
 ---
 ## ComboBox class
@@ -76,7 +76,7 @@ comboBox.Shadow = true;
 sheet.AutoFitColumns();
  
 //Saves the file.
-workbook.Save(@"d:\test\tstcombobox.xls");
+workbook.Save(@"tstcombobox.xls");
 
 [VB.NET]
 
@@ -126,7 +126,7 @@ comboBox.Shadow = True
 sheet.AutoFitColumns()
  
 'Saves the file.
-workbook.Save("d:\test\tstcombobox.xls")
+workbook.Save("tstcombobox.xls")
 
 ```
 

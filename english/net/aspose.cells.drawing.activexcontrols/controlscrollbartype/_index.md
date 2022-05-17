@@ -3,7 +3,7 @@ title: ControlScrollBarType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1560
+weight: 1580
 url: /net/aspose.cells.drawing.activexcontrols/controlscrollbartype/
 ---
 ## ControlScrollBarType enumeration

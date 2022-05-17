@@ -3,7 +3,7 @@ title: ColorDepth
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5050
+weight: 5070
 url: /net/aspose.cells.rendering/colordepth/
 ---
 ## ColorDepth enumeration

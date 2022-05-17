@@ -3,7 +3,7 @@ title: WorkbookDesigner
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6460
+weight: 6480
 url: /net/aspose.cells/workbookdesigner/
 ---
 ## WorkbookDesigner class
@@ -45,10 +45,11 @@ public class WorkbookDesigner
 | [SetDataSource](setdatasource)(DataSet) | Sets data source of a DataSet object. |
 | [SetDataSource](setdatasource)(DataTable) | Sets data source of a DataTable object. |
 | [SetDataSource](setdatasource)(DataView) | Sets data source of a DataView object. |
+| [SetDataSource](setdatasource)(OleDbConnection) | Sets data source of a OleDbConnection object. |
+| [SetDataSource](setdatasource)(SqlConnection) | Sets data source of a SqlConnection object. |
 | [SetDataSource](setdatasource)(string, DataView) | Sets data source of a DataView object and binds it to a data source name. |
 | [SetDataSource](setdatasource)(string, ICellsDataTable) | Sets data source of a [`ICellsDataTable`](../icellsdatatable) object. |
 | [SetDataSource](setdatasource)(string, object) | Sets data binding to a variable. |
-| [SetDataSource](setdatasource)(string, object[]) | Sets data array binding to a variable. |
 | [SetDataSource](setdatasource)(string, IDataReader, int) | Sets data source of a IDataReader object. |
 
 ### Examples

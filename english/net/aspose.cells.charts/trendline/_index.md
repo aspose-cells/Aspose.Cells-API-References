@@ -85,7 +85,7 @@ trendline.DisplayEquation = true;
 //Displaying the R-Squared value on chart
 trendline.DisplayRSquared = true;
 //Saving the Excel file
-workbook.Save("C:\\book1.xls");
+workbook.Save("book1.xls");
 
 [Visual Basic]
 
@@ -137,7 +137,7 @@ trendline.DisplayEquation = True
 'Displaying the R-Squared value on chart
 trendline.DisplayRSquared = True
 'Saving the Excel file
-workbook.Save("C:\\book1.xls")
+workbook.Save("book1.xls")
 ```
 
 ### See Also

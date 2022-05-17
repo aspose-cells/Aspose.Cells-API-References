@@ -3,7 +3,7 @@ title: SetPaperSize
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 220
 url: /net/aspose.cells/loadoptions/setpapersize/
 ---
 ## LoadOptions.SetPaperSize method

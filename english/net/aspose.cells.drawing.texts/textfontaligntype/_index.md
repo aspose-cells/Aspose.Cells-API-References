@@ -3,7 +3,7 @@ title: TextFontAlignType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2930
+weight: 2950
 url: /net/aspose.cells.drawing.texts/textfontaligntype/
 ---
 ## TextFontAlignType enumeration

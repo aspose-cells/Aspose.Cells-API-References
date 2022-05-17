@@ -3,7 +3,7 @@ title: Workbook
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6450
+weight: 6470
 url: /net/aspose.cells/workbook/
 ---
 ## Workbook class
@@ -108,6 +108,8 @@ public class Workbook : IDisposable
 | [Save](save)(Stream, SaveOptions) | Saves the workbook to the stream. |
 | [Save](save)(string, SaveFormat) | Saves the workbook to the disk. |
 | [Save](save)(string, SaveOptions) | Saves the workbook to the disk. |
+| [Save](save)(HttpResponse, string, ContentDisposition, SaveOptions) | Creates the result spreadsheet and transfer it to the client then open it in the browser or MS Workbook. |
+| [Save](save)(HttpResponse, string, ContentDisposition, SaveOptions, bool) | Creates the result spreadsheet and transfer it to the client then open it in the browser or MS Workbook. |
 | [SaveToStream](savetostream)() | Saves Excel file to a MemoryStream object and returns it. |
 | [SetDigitalSignature](setdigitalsignature)(DigitalSignatureCollection) | Sets digital signature to an spreadsheet file (Excel2007 and later). |
 | [SetEncryptionOptions](setencryptionoptions)(EncryptionType, int) | Set Encryption Options. |

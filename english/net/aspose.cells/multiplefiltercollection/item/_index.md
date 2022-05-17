@@ -14,9 +14,9 @@ DateTimeGroupItem or a simple object.
 public object this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  |  |
+| Parameter | Description |
+| --- | --- |
+| index |  |
 
 ### See Also
 

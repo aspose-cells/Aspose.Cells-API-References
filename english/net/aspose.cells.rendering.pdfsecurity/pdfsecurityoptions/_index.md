@@ -3,7 +3,7 @@ title: PdfSecurityOptions
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5210
+weight: 5230
 url: /net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/
 ---
 ## PdfSecurityOptions class

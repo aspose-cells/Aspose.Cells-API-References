@@ -3,7 +3,7 @@ title: TextBoxCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2790
+weight: 2810
 url: /net/aspose.cells.drawing/textboxcollection/
 ---
 ## TextBoxCollection class
@@ -27,6 +27,26 @@ public class TextBoxCollection : CollectionBase<TextBox>
 | [Add](add)(int, int, int, int) | Adds a textbox to the collection. |
 | [Clear](clear)() | Clear all text boxes. |
 | [RemoveAt](removeat)(int) | Remove a text box from the file. |
+
+### Examples
+
+```csharp
+
+[C#]
+//Instantiating a Workbook object
+Workbook workbook = new Workbook();
+//get collection object
+TextBoxCollection textBoxCollection = workbook.Worksheets[0].TextBoxes;
+//add a textbox
+textBoxCollection.Add(1, 1, 50, 100);
+foreach(TextBox tbox in textBoxCollection)
+{
+    //do what you want
+}
+
+//do your business
+
+```
 
 ### See Also
 

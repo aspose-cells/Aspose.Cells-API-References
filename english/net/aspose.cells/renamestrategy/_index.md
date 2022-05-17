@@ -3,7 +3,7 @@ title: RenameStrategy
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5040
+weight: 5060
 url: /net/aspose.cells/renamestrategy/
 ---
 ## RenameStrategy enumeration

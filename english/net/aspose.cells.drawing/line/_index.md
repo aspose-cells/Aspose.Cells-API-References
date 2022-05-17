@@ -3,7 +3,7 @@ title: Line
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2170
+weight: 2190
 url: /net/aspose.cells.drawing/line/
 ---
 ## Line class

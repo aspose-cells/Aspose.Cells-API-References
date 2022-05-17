@@ -3,7 +3,7 @@ title: Area
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1730
+weight: 1750
 url: /net/aspose.cells.drawing/area/
 ---
 ## Area class
@@ -63,7 +63,7 @@ chart.NSeries[0].Area.ForegroundColor = Color.Red;
 //Setting the foreground color of the area of the 1st NSeries point
 chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
 //Saving the Excel file
-workbook.Save("C:\\book1.xls");
+workbook.Save("book1.xls");
 
 [Visual Basic]
 
@@ -100,7 +100,7 @@ chart.NSeries(0).Area.ForegroundColor = Color.Red
 'Setting the foreground color of the area of the 1st NSeries point
 chart.NSeries(0).Points(0).Area.ForegroundColor = Color.Cyan
 'Saving the Excel file
-workbook.Save("C:\book1.xls")
+workbook.Save("book1.xls")
 ```
 
 ### See Also

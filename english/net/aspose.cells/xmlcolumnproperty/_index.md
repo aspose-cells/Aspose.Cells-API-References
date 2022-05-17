@@ -3,7 +3,7 @@ title: XmlColumnProperty
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6530
+weight: 6550
 url: /net/aspose.cells/xmlcolumnproperty/
 ---
 ## XmlColumnProperty class

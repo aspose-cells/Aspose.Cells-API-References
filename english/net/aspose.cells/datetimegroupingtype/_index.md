@@ -3,7 +3,7 @@ title: DateTimeGroupingType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1320
+weight: 1330
 url: /net/aspose.cells/datetimegroupingtype/
 ---
 ## DateTimeGroupingType enumeration

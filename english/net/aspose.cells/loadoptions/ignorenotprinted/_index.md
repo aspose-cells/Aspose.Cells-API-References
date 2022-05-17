@@ -3,7 +3,7 @@ title: IgnoreNotPrinted
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.cells/loadoptions/ignorenotprinted/
 ---
 ## LoadOptions.IgnoreNotPrinted property

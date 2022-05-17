@@ -3,7 +3,7 @@ title: BulletType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2840
+weight: 2860
 url: /net/aspose.cells.drawing.texts/bullettype/
 ---
 ## BulletType enumeration

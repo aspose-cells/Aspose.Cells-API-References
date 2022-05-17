@@ -14,9 +14,9 @@ Gets the [`Chart`](../../chart) element at the specified index.
 public Chart this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The zero based index of the element. |
+| Parameter | Description |
+| --- | --- |
+| index | The zero based index of the element. |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Gets the chart by the name.
 public Chart this[string name] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name |  | The chart name. |
+| Parameter | Description |
+| --- | --- |
+| name | The chart name. |
 
 ## Return Value
 

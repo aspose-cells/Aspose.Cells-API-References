@@ -3,7 +3,7 @@ title: RevisionQueryTable
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5440
+weight: 5460
 url: /net/aspose.cells.revisions/revisionquerytable/
 ---
 ## RevisionQueryTable class

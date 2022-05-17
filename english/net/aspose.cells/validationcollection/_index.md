@@ -3,7 +3,7 @@ title: ValidationCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6190
+weight: 6210
 url: /net/aspose.cells/validationcollection/
 ---
 ## ValidationCollection class

@@ -3,7 +3,7 @@ title: TxtSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6100
+weight: 6120
 url: /net/aspose.cells/txtsaveoptions/
 ---
 ## TxtSaveOptions class
@@ -36,6 +36,7 @@ public class TxtSaveOptions : SaveOptions
 | [Separator](separator) { get; set; } | Gets and sets char Delimiter of text file. |
 | [SeparatorString](separatorstring) { get; set; } | Gets and sets a string value as separator. |
 | [TrimLeadingBlankRowAndColumn](trimleadingblankrowandcolumn) { get; set; } | Indicates whether leading blank rows and columns should be trimmed like what ms excel does. Default is true. |
+| [TrimTailingBlankCells](trimtailingblankcells) { get; set; } | Indicates whether tailing blank cells in one row should be trimmed. Default is false. |
 
 ### See Also
 

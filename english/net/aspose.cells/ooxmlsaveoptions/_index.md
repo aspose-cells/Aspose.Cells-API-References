@@ -3,7 +3,7 @@ title: OoxmlSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4340
+weight: 4360
 url: /net/aspose.cells/ooxmlsaveoptions/
 ---
 ## OoxmlSaveOptions class

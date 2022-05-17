@@ -3,7 +3,7 @@ title: WebExtensionCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6370
+weight: 6390
 url: /net/aspose.cells.webextensions/webextensioncollection/
 ---
 ## WebExtensionCollection class

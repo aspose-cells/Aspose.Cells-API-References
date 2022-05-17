@@ -3,7 +3,7 @@ title: RevisionType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5460
+weight: 5480
 url: /net/aspose.cells.revisions/revisiontype/
 ---
 ## RevisionType enumeration

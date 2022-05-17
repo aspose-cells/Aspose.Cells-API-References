@@ -3,7 +3,7 @@ title: SolidFill
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2760
+weight: 2780
 url: /net/aspose.cells.drawing/solidfill/
 ---
 ## SolidFill class

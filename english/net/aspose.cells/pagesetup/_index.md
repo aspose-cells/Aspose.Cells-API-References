@@ -3,7 +3,7 @@ title: PageSetup
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4390
+weight: 4410
 url: /net/aspose.cells/pagesetup/
 ---
 ## PageSetup class

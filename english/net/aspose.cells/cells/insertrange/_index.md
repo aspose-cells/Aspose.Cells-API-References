@@ -3,7 +3,7 @@ title: InsertRange
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1050
+weight: 1090
 url: /net/aspose.cells/cells/insertrange/
 ---
 ## Cells.InsertRange method (1 of 3)

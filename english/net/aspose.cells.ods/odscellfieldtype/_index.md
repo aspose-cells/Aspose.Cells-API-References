@@ -3,7 +3,7 @@ title: OdsCellFieldType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4240
+weight: 4260
 url: /net/aspose.cells.ods/odscellfieldtype/
 ---
 ## OdsCellFieldType enumeration

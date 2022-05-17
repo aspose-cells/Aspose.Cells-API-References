@@ -3,7 +3,7 @@ title: CommentTitleType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5060
+weight: 5080
 url: /net/aspose.cells.rendering/commenttitletype/
 ---
 ## CommentTitleType enumeration

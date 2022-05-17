@@ -3,7 +3,7 @@ title: OdsPageBackgroundType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4290
+weight: 4310
 url: /net/aspose.cells.ods/odspagebackgroundtype/
 ---
 ## OdsPageBackgroundType enumeration

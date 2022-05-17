@@ -3,7 +3,7 @@ title: TextTabAlignmentType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2980
+weight: 3000
 url: /net/aspose.cells.drawing.texts/texttabalignmenttype/
 ---
 ## TextTabAlignmentType enumeration

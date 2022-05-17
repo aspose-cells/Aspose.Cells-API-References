@@ -3,7 +3,7 @@ title: UpdateLinksType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6130
+weight: 6150
 url: /net/aspose.cells/updatelinkstype/
 ---
 ## UpdateLinksType enumeration

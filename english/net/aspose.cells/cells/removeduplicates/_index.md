@@ -3,7 +3,7 @@ title: RemoveDuplicates
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1150
+weight: 1190
 url: /net/aspose.cells/cells/removeduplicates/
 ---
 ## Cells.RemoveDuplicates method (1 of 3)

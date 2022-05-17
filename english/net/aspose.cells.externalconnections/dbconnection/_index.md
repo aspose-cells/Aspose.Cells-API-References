@@ -3,7 +3,7 @@ title: DBConnection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3250
+weight: 3270
 url: /net/aspose.cells.externalconnections/dbconnection/
 ---
 ## DBConnection class

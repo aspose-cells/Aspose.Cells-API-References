@@ -3,7 +3,7 @@ title: Geometry
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2000
+weight: 2020
 url: /net/aspose.cells.drawing/geometry/
 ---
 ## Geometry class

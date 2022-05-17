@@ -3,7 +3,7 @@ title: TimelineCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6050
+weight: 6070
 url: /net/aspose.cells.timelines/timelinecollection/
 ---
 ## TimelineCollection class
@@ -24,6 +24,11 @@ public class TimelineCollection : CollectionBase<Timeline>
 
 | Name | Description |
 | --- | --- |
+| [Add](add)(PivotTable, string, int) | Add a new Timeline using PivotTable as data source |
+| [Add](add)(PivotTable, string, PivotField) | Add a new Timeline using PivotTable as data source |
+| [Add](add)(PivotTable, string, string) | Add a new Timeline using PivotTable as data source |
+| [Add](add)(PivotTable, int, int, int) | Add a new Timeline using PivotTable as data source |
+| [Add](add)(PivotTable, int, int, PivotField) | Add a new Timeline using PivotTable as data source |
 | [Add](add)(PivotTable, int, int, string) | Add a new Timeline using PivotTable as data source |
 
 ### Examples

@@ -11,7 +11,7 @@ url: /net/aspose.cells/cell/setstyle/
 Sets the cell style.
 
 ```csharp
-public virtual void SetStyle(Style style)
+public void SetStyle(Style style)
 ```
 
 | Parameter | Type | Description |
@@ -36,7 +36,7 @@ If the border settings are changed, the border of adjust cells will be updated t
 Apply the cell style.
 
 ```csharp
-public virtual void SetStyle(Style style, bool explicitFlag)
+public void SetStyle(Style style, bool explicitFlag)
 ```
 
 | Parameter | Type | Description |
@@ -58,7 +58,7 @@ public virtual void SetStyle(Style style, bool explicitFlag)
 Apply the cell style.
 
 ```csharp
-public virtual void SetStyle(Style style, StyleFlag flag)
+public void SetStyle(Style style, StyleFlag flag)
 ```
 
 | Parameter | Type | Description |

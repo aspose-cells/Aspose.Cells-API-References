@@ -55,7 +55,7 @@ Range range2 = cells.CreateRange("A6:A10");
 //Copy the range.
 range1.Copy(range2);
 //Save the Excel file
-workbook.Save("C:\\book1.xlsm");
+workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
@@ -68,7 +68,7 @@ Range range2 = cells.CreateRange("A6:A10")
 //Copy the range
 range1.Copy(range2)
 'Save the Excel file
-workbook.Save("C:\\book1.xlsm")
+workbook.Save("book1.xlsm")
 ```
 
 ### See Also

@@ -3,7 +3,7 @@ title: IsRowHidden
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1110
+weight: 1150
 url: /net/aspose.cells/cells/isrowhidden/
 ---
 ## Cells.IsRowHidden method

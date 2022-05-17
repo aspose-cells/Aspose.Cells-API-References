@@ -3,7 +3,7 @@ title: TextDirectionType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5940
+weight: 5960
 url: /net/aspose.cells/textdirectiontype/
 ---
 ## TextDirectionType enumeration

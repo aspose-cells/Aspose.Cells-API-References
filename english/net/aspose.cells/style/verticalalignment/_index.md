@@ -3,7 +3,7 @@ title: VerticalAlignment
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 300
 url: /net/aspose.cells/style/verticalalignment/
 ---
 ## Style.VerticalAlignment property

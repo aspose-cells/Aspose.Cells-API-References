@@ -3,7 +3,7 @@ title: PivotGroupByType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4600
+weight: 4620
 url: /net/aspose.cells.pivot/pivotgroupbytype/
 ---
 ## PivotGroupByType enumeration

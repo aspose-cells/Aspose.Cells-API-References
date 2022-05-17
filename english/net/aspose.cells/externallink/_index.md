@@ -3,7 +3,7 @@ title: ExternalLink
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3330
+weight: 3350
 url: /net/aspose.cells/externallink/
 ---
 ## ExternalLink class
@@ -37,7 +37,7 @@ public class ExternalLink
 [C#]
 
 //Open a file with external links
-Workbook workbook = new Workbook("d:\\book1.xls");
+Workbook workbook = new Workbook("book1.xls");
 
 //Get External Link 
 ExternalLink externalLink = workbook.Worksheets.ExternalLinks[0];
@@ -48,7 +48,7 @@ externalLink.DataSource = "d:\\link.xls";
 [VB.NET]
 
 'Open a file with external links
-Dim workbook As New Workbook("d:\book1.xls")
+Dim workbook As New Workbook("book1.xls")
 
 'Get External Link 
 Dim externalLink As ExternalLink = workbook.Worksheets.ExternalLinks(0)

@@ -14,6 +14,14 @@ Gets and sets the end arrow width type of the line.
 public MsoArrowheadWidth EndArrowheadWidth { get; set; }
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+lineFmt.EndArrowheadWidth = MsoArrowheadWidth.Medium;
+```
+
 ### See Also
 
 * enum [MsoArrowheadWidth](../../msoarrowheadwidth)

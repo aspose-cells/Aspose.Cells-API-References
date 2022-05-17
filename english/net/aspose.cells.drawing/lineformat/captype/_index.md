@@ -14,6 +14,14 @@ Specifies the ending caps.
 public LineCapType CapType { get; set; }
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+lineFmt.CapType = LineCapType.Flat;
+```
+
 ### See Also
 
 * enum [LineCapType](../../linecaptype)

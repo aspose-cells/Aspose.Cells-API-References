@@ -3,7 +3,7 @@ title: InvariantCustom
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.cells/style/invariantcustom/
 ---
 ## Style.InvariantCustom property

@@ -3,7 +3,7 @@ title: ControlMatchEntryType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1510
+weight: 1530
 url: /net/aspose.cells.drawing.activexcontrols/controlmatchentrytype/
 ---
 ## ControlMatchEntryType enumeration

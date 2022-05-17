@@ -14,9 +14,9 @@ Gets the [`VerticalPageBreak`](../../verticalpagebreak) element at the specified
 public VerticalPageBreak this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The zero based index of the element. |
+| Parameter | Description |
+| --- | --- |
+| index | The zero based index of the element. |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Gets the [`VerticalPageBreak`](../../verticalpagebreak) element with the specifi
 public VerticalPageBreak this[string cellName] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| cellName |  | Cell name. |
+| Parameter | Description |
+| --- | --- |
+| cellName | Cell name. |
 
 ## Return Value
 

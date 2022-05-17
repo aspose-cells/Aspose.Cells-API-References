@@ -14,9 +14,9 @@ Gets the [`Worksheet`](../../worksheet) element at the specified index.
 public Worksheet this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The zero based index of the element. |
+| Parameter | Description |
+| --- | --- |
+| index | The zero based index of the element. |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Gets the [`Worksheet`](../../worksheet) element with the specified name.
 public Worksheet this[string sheetName] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sheetName |  | Worksheet name |
+| Parameter | Description |
+| --- | --- |
+| sheetName | Worksheet name |
 
 ## Return Value
 

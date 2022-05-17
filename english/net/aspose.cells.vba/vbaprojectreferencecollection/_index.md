@@ -3,7 +3,7 @@ title: VbaProjectReferenceCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6260
+weight: 6280
 url: /net/aspose.cells.vba/vbaprojectreferencecollection/
 ---
 ## VbaProjectReferenceCollection class
@@ -42,7 +42,7 @@ VbaProject vbaProject = workbook.VbaProject;
 // Add vba project reference
 vbaProject.References.AddRegisteredReference("stdole", "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation");
 //Saving the Excel file
-workbook.Save("C:\\book1.xlsm");
+workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
@@ -53,7 +53,7 @@ Dim vbaProject as VbaProject  = workbook.VbaProject
 'Add vba project reference
 vbaProject.References.AddRegisteredReference("stdole", "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation")
 'Saving the Excel file
-workbook.Save("C:\\book1.xlsm")
+workbook.Save("book1.xlsm")
 ```
 
 ### See Also

@@ -3,7 +3,7 @@ title: SheetPrintingPreview
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5220
+weight: 5240
 url: /net/aspose.cells.rendering/sheetprintingpreview/
 ---
 ## SheetPrintingPreview class

@@ -8,6 +8,8 @@ url: /net/aspose.cells/collectionbase-1/clear/
 ---
 ## CollectionBase&lt;T&gt;.Clear method
 
+Remove all elements.
+
 ```csharp
 public void Clear()
 ```

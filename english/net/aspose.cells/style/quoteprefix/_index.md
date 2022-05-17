@@ -3,7 +3,7 @@ title: QuotePrefix
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 260
 url: /net/aspose.cells/style/quoteprefix/
 ---
 ## Style.QuotePrefix property

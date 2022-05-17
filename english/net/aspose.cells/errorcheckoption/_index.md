@@ -3,7 +3,7 @@ title: ErrorCheckOption
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3140
+weight: 3160
 url: /net/aspose.cells/errorcheckoption/
 ---
 ## ErrorCheckOption class
@@ -41,7 +41,7 @@ public class ErrorCheckOption
   opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.TextNumber, false);
   opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.Validation, false);
   opt.AddRange(CellArea.CreateCellArea("A1", "B10"));
-  workbook.Save(@"D:\Filetemp\Book1.xlsx");
+  workbook.Save(@"Book1.xlsx");
   
 [Visual Basic]
 
@@ -55,7 +55,7 @@ public class ErrorCheckOption
    opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.TextNumber, False)
    opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.Validation, False)
    opt.AddRange(CellArea.CreateCellArea("A1", "B10"))
-   workbook.Save("D:\Filetemp\Book1.xlsx")
+   workbook.Save("Book1.xlsx")
    
 ```
 

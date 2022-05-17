@@ -3,7 +3,7 @@ title: GradientDirectionType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2030
+weight: 2050
 url: /net/aspose.cells.drawing/gradientdirectiontype/
 ---
 ## GradientDirectionType enumeration

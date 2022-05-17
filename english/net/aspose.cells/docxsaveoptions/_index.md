@@ -3,7 +3,7 @@ title: DocxSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1410
+weight: 1430
 url: /net/aspose.cells/docxsaveoptions/
 ---
 ## DocxSaveOptions class

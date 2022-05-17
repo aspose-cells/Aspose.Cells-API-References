@@ -14,9 +14,9 @@ Gets the table style by the index.
 public TableStyle this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The position of the table style in the list. |
+| Parameter | Description |
+| --- | --- |
+| index | The position of the table style in the list. |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Gets the table style by the name.
 public TableStyle this[string name] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name |  | The table style name. |
+| Parameter | Description |
+| --- | --- |
+| name | The table style name. |
 
 ## Return Value
 

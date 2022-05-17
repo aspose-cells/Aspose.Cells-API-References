@@ -3,7 +3,7 @@ title: RotationAngle
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 270
 url: /net/aspose.cells/style/rotationangle/
 ---
 ## Style.RotationAngle property

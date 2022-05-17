@@ -3,7 +3,7 @@ title: HtmlCrossType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3650
+weight: 3670
 url: /net/aspose.cells/htmlcrosstype/
 ---
 ## HtmlCrossType enumeration

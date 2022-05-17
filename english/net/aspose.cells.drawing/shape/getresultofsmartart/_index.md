@@ -3,7 +3,7 @@ title: GetResultOfSmartArt
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1050
+weight: 1060
 url: /net/aspose.cells.drawing/shape/getresultofsmartart/
 ---
 ## Shape.GetResultOfSmartArt method

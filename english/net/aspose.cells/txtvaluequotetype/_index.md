@@ -3,7 +3,7 @@ title: TxtValueQuoteType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6110
+weight: 6130
 url: /net/aspose.cells/txtvaluequotetype/
 ---
 ## TxtValueQuoteType enumeration

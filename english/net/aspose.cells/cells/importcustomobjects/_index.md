@@ -3,7 +3,7 @@ title: ImportCustomObjects
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 950
+weight: 960
 url: /net/aspose.cells/cells/importcustomobjects/
 ---
 ## Cells.ImportCustomObjects method (1 of 2)

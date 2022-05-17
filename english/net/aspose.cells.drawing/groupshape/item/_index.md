@@ -14,9 +14,9 @@ Gets the child shape by index.
 public Shape this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | the child shape index. |
+| Parameter | Description |
+| --- | --- |
+| index | the child shape index. |
 
 ## Return Value
 

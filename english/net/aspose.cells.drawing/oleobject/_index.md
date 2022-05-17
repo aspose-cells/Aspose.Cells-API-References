@@ -3,7 +3,7 @@ title: OleObject
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2400
+weight: 2420
 url: /net/aspose.cells.drawing/oleobject/
 ---
 ## OleObject class
@@ -52,9 +52,9 @@ Workbook workbook = new Workbook();
 //Get the first worksheet. 
 Worksheet sheet = workbook.Worksheets[0];
 //Define a string variable to store the image path.
-string ImageUrl = @"C:\school.jpg";
+string ImageUrl = "school.jpg";
 //Get the picture into the streams.
-FileStream fs = File.OpenRead(ImageUrl);
+FileStream fs = new FileStream(ImageUrl, FileMode.Open);
 //Define a byte array.
 byte[] imageData = new Byte[fs.Length];
 //Obtain the picture into the array of bytes from streams.
@@ -62,9 +62,9 @@ fs.Read(imageData, 0, imageData.Length);
 //Close the stream.
 fs.Close();
 //Get an excel file path in a variable.
-string path = @"C:\Book1.xls";
+string path = "Book1.xls";
 //Get the file into the streams.
-fs = File.OpenRead(path);
+fs = new FileStream(path, FileMode.Open);
 //Define an array of bytes. 
 byte[] objectData = new Byte[fs.Length];
 //Store the file from streams.
@@ -77,7 +77,7 @@ sheet.OleObjects.Add(14, 3, 200, 220, imageData);
 //Set embedded ole object data.     
 sheet.OleObjects[0].ObjectData = objectData;
 //Save the excel file
-workbook.Save(@"C:\oleobjects.xls");
+workbook.Save(@"oleobjects.xls");
 
 
 [Visual Basic]
@@ -87,7 +87,7 @@ Dim workbook As Workbook = New Workbook()
 'Get the first worksheet. 
 Dim sheet As Worksheet = workbook.Worksheets(0)
 'Define a string variable to store the image path.
-Dim ImageUrl As String = @"C:\school.jpg"
+Dim ImageUrl As String = @"school.jpg"
 'Get the picture into the streams.
 Dim fs As FileStream = File.OpenRead(ImageUrl)
 'Define a byte array.
@@ -97,7 +97,7 @@ fs.Read(imageData, 0, imageData.Length)
 'Close the stream.
 fs.Close()
 'Get an excel file path in a variable.
-Dim path As String = @"C:\Book1.xls"
+Dim path As String = @"Book1.xls"
 'Get the file into the streams.
 fs = File.OpenRead(path)
 'Define an array of bytes. 
@@ -112,7 +112,7 @@ sheet.OleObjects.Add(14, 3, 200, 220, imageData)
 'Set embedded ole object data.     
 sheet.OleObjects(0).ObjectData = objectData
 'Save the excel file
-workbook.Save("C:\oleobjects.xls")
+workbook.Save("oleobjects.xls")
 ```
 
 ### See Also

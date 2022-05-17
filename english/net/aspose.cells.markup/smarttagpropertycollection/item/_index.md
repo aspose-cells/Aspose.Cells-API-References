@@ -14,9 +14,9 @@ Gets a [`SmartTagProperty`](../../smarttagproperty) object.
 public SmartTagProperty this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index |
+| Parameter | Description |
+| --- | --- |
+| index | The index |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Gets a [`SmartTagProperty`](../../smarttagproperty) object by the name of the pr
 public SmartTagProperty this[string name] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name |  | The name of the property. |
+| Parameter | Description |
+| --- | --- |
+| name | The name of the property. |
 
 ## Return Value
 

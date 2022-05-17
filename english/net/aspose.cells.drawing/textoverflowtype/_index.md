@@ -3,7 +3,7 @@ title: TextOverflowType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2810
+weight: 2830
 url: /net/aspose.cells.drawing/textoverflowtype/
 ---
 ## TextOverflowType enumeration

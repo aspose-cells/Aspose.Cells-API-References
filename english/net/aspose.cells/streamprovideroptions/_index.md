@@ -3,7 +3,7 @@ title: StreamProviderOptions
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5710
+weight: 5730
 url: /net/aspose.cells/streamprovideroptions/
 ---
 ## StreamProviderOptions class

@@ -14,6 +14,14 @@ Indicates if size of shape is adjusted automatically according to its content.
 public bool AutoSize { get; set; }
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+shapeTextAlignment.AutoSize = false;
+```
+
 ### See Also
 
 * class [ShapeTextAlignment](../../shapetextalignment)

@@ -3,7 +3,7 @@ title: ListColumnCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5780
+weight: 5800
 url: /net/aspose.cells.tables/listcolumncollection/
 ---
 ## ListColumnCollection class

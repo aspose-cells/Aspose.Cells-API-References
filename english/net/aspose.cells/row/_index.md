@@ -3,7 +3,7 @@ title: Row
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5470
+weight: 5490
 url: /net/aspose.cells/row/
 ---
 ## Row class
@@ -24,6 +24,7 @@ public class Row : IEnumerable
 | [Height](height) { get; set; } | Gets and sets the row height in unit of Points. |
 | [Index](index) { get; } | Gets the index of this row. |
 | [IsBlank](isblank) { get; } | Indicates whether the row contains any data |
+| [IsCollapsed](iscollapsed) { get; set; } | whether the row is collapsed |
 | [IsHeightMatched](isheightmatched) { get; set; } | Indicates that row height and default font height matches. |
 | [IsHidden](ishidden) { get; set; } | Indicates whether the row is hidden. |
 | [Item](item) { get; } | Gets the cell. |
@@ -76,7 +77,7 @@ Row row = worksheet.Cells.Rows[0];
 row.ApplyStyle(style, styleFlag);
 
 //Saving the Excel file
-workbook.Save("D:\\book1.xls");
+workbook.Save("book1.xls");
 
 [VB.NET]
 
@@ -109,7 +110,7 @@ Dim row as Row = worksheet.Cells.Rows(0)
 row.ApplyStyle(style, styleFlag)
 
 'Saving the Excel file
-workbook.Save("D:\book1.xls")
+workbook.Save("book1.xls")
 ```
 
 ### See Also

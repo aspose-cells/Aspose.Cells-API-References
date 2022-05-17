@@ -14,9 +14,9 @@ Gets the ListColumn by the index.
 public ListColumn this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index. |
+| Parameter | Description |
+| --- | --- |
+| index | The index. |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Gets the ListColumn by the name.
 public ListColumn this[string name] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name |  | The name of the ListColumn |
+| Parameter | Description |
+| --- | --- |
+| name | The name of the ListColumn |
 
 ## Return Value
 

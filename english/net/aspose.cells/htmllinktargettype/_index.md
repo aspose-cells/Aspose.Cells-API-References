@@ -3,7 +3,7 @@ title: HtmlLinkTargetType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3690
+weight: 3710
 url: /net/aspose.cells/htmllinktargettype/
 ---
 ## HtmlLinkTargetType enumeration

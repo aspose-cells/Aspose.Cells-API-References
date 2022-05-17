@@ -69,7 +69,7 @@ foreach (Column column in columns)
 }
 
 //Saving the Excel file
-workbook.Save("D:\\book1.xls");
+workbook.Save("book1.xls");
 
 [VB.NET]
 
@@ -108,7 +108,7 @@ For Each column As Column In columns
 Next column
 
 'Saving the Excel file
-workbook.Save("D:\book1.xls")
+workbook.Save("book1.xls")
 
 ```
 

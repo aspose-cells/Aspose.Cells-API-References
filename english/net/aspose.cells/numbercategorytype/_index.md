@@ -3,7 +3,7 @@ title: NumberCategoryType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4210
+weight: 4230
 url: /net/aspose.cells/numbercategorytype/
 ---
 ## NumberCategoryType enumeration

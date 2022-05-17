@@ -3,7 +3,7 @@ title: SxRng
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4700
+weight: 4720
 url: /net/aspose.cells.pivot/sxrng/
 ---
 ## SxRng class

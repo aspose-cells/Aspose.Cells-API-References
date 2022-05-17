@@ -3,7 +3,7 @@ title: WorkbookPrintingPreview
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5250
+weight: 5270
 url: /net/aspose.cells.rendering/workbookprintingpreview/
 ---
 ## WorkbookPrintingPreview class

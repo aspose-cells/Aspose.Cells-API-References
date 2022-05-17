@@ -3,7 +3,7 @@ title: WorkbookMetadata
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4140
+weight: 4160
 url: /net/aspose.cells.metadata/workbookmetadata/
 ---
 ## WorkbookMetadata class

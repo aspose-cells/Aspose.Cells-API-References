@@ -3,7 +3,7 @@ title: PictureCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2460
+weight: 2480
 url: /net/aspose.cells.drawing/picturecollection/
 ---
 ## PictureCollection class

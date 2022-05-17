@@ -3,7 +3,7 @@ title: TextCapsType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5920
+weight: 5940
 url: /net/aspose.cells/textcapstype/
 ---
 ## TextCapsType enumeration

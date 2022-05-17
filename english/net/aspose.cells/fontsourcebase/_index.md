@@ -3,7 +3,7 @@ title: FontSourceBase
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3500
+weight: 3520
 url: /net/aspose.cells/fontsourcebase/
 ---
 ## FontSourceBase class

@@ -14,9 +14,9 @@ Gets the threaded comment by the specific index.
 public ThreadedComment this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index |
+| Parameter | Description |
+| --- | --- |
+| index | The index |
 
 ### See Also
 

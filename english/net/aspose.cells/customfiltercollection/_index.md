@@ -3,7 +3,7 @@ title: CustomFilterCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1200
+weight: 1210
 url: /net/aspose.cells/customfiltercollection/
 ---
 ## CustomFilterCollection class

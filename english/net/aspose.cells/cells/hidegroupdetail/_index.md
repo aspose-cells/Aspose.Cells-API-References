@@ -3,7 +3,7 @@ title: HideGroupDetail
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 890
+weight: 900
 url: /net/aspose.cells/cells/hidegroupdetail/
 ---
 ## Cells.HideGroupDetail method

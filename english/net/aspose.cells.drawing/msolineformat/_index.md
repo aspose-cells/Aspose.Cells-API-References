@@ -3,7 +3,7 @@ title: MsoLineFormat
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2330
+weight: 2350
 url: /net/aspose.cells.drawing/msolineformat/
 ---
 ## MsoLineFormat class

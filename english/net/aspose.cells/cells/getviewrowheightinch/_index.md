@@ -3,7 +3,7 @@ title: GetViewRowHeightInch
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 840
+weight: 850
 url: /net/aspose.cells/cells/getviewrowheightinch/
 ---
 ## Cells.GetViewRowHeightInch method

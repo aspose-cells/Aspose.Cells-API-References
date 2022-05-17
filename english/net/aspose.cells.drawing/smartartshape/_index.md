@@ -3,7 +3,7 @@ title: SmartArtShape
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2750
+weight: 2770
 url: /net/aspose.cells.drawing/smartartshape/
 ---
 ## SmartArtShape class
@@ -19,6 +19,33 @@ public class SmartArtShape : Shape
 | Name | Description |
 | --- | --- |
 | override [GetResultOfSmartArt](getresultofsmartart)() | Converting smart art to grouped shapes. |
+
+### Examples
+
+```csharp
+
+[C#]
+//Initialize a new workbook.
+Workbook book = new Workbook("YourFile.xlsx");
+
+//Gets a SmartArt shape.
+Shape shape = null;
+ShapeCollection shapes = workbook.Worksheets[0].Shapes;
+foreach(Shape s in shapes)
+{
+    shape = s as SmartArtShape;
+    if(smartArtShape != null)
+    {
+        //is SmartArt Shape
+        //do what you want
+        break;
+    }
+}
+//do your business
+
+//Save the excel file.
+book.Save("exmaple.xlsx");
+```
 
 ### See Also
 

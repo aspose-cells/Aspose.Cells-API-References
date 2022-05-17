@@ -3,7 +3,7 @@ title: UngroupColumns
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1280
+weight: 1320
 url: /net/aspose.cells/cells/ungroupcolumns/
 ---
 ## Cells.UngroupColumns method

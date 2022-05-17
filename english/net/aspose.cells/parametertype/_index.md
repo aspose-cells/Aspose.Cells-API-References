@@ -3,7 +3,7 @@ title: ParameterType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4430
+weight: 4450
 url: /net/aspose.cells/parametertype/
 ---
 ## ParameterType enumeration

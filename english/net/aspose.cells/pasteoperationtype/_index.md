@@ -3,7 +3,7 @@ title: PasteOperationType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4440
+weight: 4460
 url: /net/aspose.cells/pasteoperationtype/
 ---
 ## PasteOperationType enumeration

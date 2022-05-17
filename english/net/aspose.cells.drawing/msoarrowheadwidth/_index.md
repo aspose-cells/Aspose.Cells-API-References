@@ -3,7 +3,7 @@ title: MsoArrowheadWidth
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2270
+weight: 2290
 url: /net/aspose.cells.drawing/msoarrowheadwidth/
 ---
 ## MsoArrowheadWidth enumeration

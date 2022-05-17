@@ -12,6 +12,10 @@ url: /net/aspose.cells/collectionbase-1/indexof/
 public int IndexOf(T item)
 ```
 
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | T |  |
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../collectionbase-1)
@@ -26,6 +30,11 @@ public int IndexOf(T item)
 public int IndexOf(T item, int index)
 ```
 
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | T |  |
+| index | Int32 |  |
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../collectionbase-1)
@@ -39,6 +48,12 @@ public int IndexOf(T item, int index)
 ```csharp
 public int IndexOf(T item, int index, int count)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | T |  |
+| index | Int32 |  |
+| count | Int32 |  |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: LineSpaceSizeType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2880
+weight: 2900
 url: /net/aspose.cells.drawing.texts/linespacesizetype/
 ---
 ## LineSpaceSizeType enumeration

@@ -3,7 +3,7 @@ title: PdfCustomPropertiesExport
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5180
+weight: 5200
 url: /net/aspose.cells.rendering/pdfcustompropertiesexport/
 ---
 ## PdfCustomPropertiesExport enumeration

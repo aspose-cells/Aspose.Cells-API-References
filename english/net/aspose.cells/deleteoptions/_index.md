@@ -3,7 +3,7 @@ title: DeleteOptions
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1340
+weight: 1360
 url: /net/aspose.cells/deleteoptions/
 ---
 ## DeleteOptions class

@@ -3,7 +3,7 @@ title: PivotConditionFormatRuleType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4480
+weight: 4500
 url: /net/aspose.cells.pivot/pivotconditionformatruletype/
 ---
 ## PivotConditionFormatRuleType enumeration

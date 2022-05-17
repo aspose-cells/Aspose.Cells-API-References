@@ -3,7 +3,7 @@ title: HeightScale
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 200
 url: /net/aspose.cells.drawing/shape/heightscale/
 ---
 ## Shape.HeightScale property

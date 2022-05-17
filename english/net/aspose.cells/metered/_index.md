@@ -3,7 +3,7 @@ title: Metered
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4150
+weight: 4170
 url: /net/aspose.cells/metered/
 ---
 ## Metered class

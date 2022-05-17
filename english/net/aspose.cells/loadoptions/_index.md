@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3970
+weight: 3990
 url: /net/aspose.cells/loadoptions/
 ---
 ## LoadOptions class
@@ -30,6 +30,7 @@ public class LoadOptions
 | [CheckDataValid](checkdatavalid) { get; set; } | Check whether data is valid in the template file. |
 | [CheckExcelRestriction](checkexcelrestriction) { get; set; } | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K such as by Cell.PutValue(string), if this property is true, you will get an Exception. If this property is false, we will accept your input string value as the cell's value so that later you can output the complete string value for other file formats such as CSV. However, if you have set such kind of value that is invalid for excel file format, you should not save the workbook as excel file format later. Otherwise there may be unexpected error for the generated excel file. |
 | [CultureInfo](cultureinfo) { get; set; } | Gets or sets the system culture info at the time the file was loaded. |
+| [DefaultStyleSettings](defaultstylesettings) { get; } | Gets the default style settings for initializing styles of the workbook |
 | [FontConfigs](fontconfigs) { get; set; } | Gets and sets individual font configs. Only works for the [`Workbook`](../workbook) which uses this [`LoadOptions`](../loadoptions) to load.&gt; |
 | [IgnoreNotPrinted](ignorenotprinted) { get; set; } | Ignore the data which are not printed if directly printing the file |
 | [InterruptMonitor](interruptmonitor) { get; set; } | Gets and sets the interrupt monitor. |
@@ -43,8 +44,6 @@ public class LoadOptions
 | [ParsingPivotCachedRecords](parsingpivotcachedrecords) { get; set; } | Indicates whether parsing pivot cached records when loading the file. The default value is false. |
 | [Password](password) { get; set; } | Gets and set the password of the workbook. |
 | [Region](region) { get; set; } | Gets or sets the system regional settings based on CountryCode at the time the file was loaded. |
-| [StandardFont](standardfont) { get; set; } | Sets the default standard font name |
-| [StandardFontSize](standardfontsize) { get; set; } | Sets the default standard font size. |
 | [WarningCallback](warningcallback) { get; set; } | Gets or sets warning callback. |
 
 ## Methods

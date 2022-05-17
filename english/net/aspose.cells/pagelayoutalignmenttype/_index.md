@@ -3,7 +3,7 @@ title: PageLayoutAlignmentType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4370
+weight: 4390
 url: /net/aspose.cells/pagelayoutalignmenttype/
 ---
 ## PageLayoutAlignmentType enumeration

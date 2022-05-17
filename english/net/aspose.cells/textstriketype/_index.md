@@ -3,7 +3,7 @@ title: TextStrikeType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5960
+weight: 5980
 url: /net/aspose.cells/textstriketype/
 ---
 ## TextStrikeType enumeration

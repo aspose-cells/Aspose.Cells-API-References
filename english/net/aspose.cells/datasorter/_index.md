@@ -3,7 +3,7 @@ title: DataSorter
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1280
+weight: 1290
 url: /net/aspose.cells/datasorter/
 ---
 ## DataSorter class
@@ -50,7 +50,7 @@ public class DataSorter
 [C#]
 
 //Instantiate a new Workbook object.
-Workbook workbook = new Workbook("C:\\Book1.xls");
+Workbook workbook = new Workbook("Book1.xls");
 //Get the workbook datasorter object.
 DataSorter sorter = workbook.DataSorter;
 //Set the first order for datasorter object.
@@ -74,12 +74,12 @@ ca.EndColumn = 1;
 //Sort data in the specified data range (A1:B14)
 sorter.Sort(workbook.Worksheets[0].Cells, ca);
 //Save the excel file.
-workbook.Save("C:\\outBook.xls");
+workbook.Save("outBook.xls");
 
 [Visual Basic]
 
 'Instantiate a new Workbook object.
-Dim workbook As Workbook = New Workbook("C:\Book1.xls")
+Dim workbook As Workbook = New Workbook("Book1.xls")
 'Get the workbook datasorter object.
 Dim sorter As DataSorter = workbook.DataSorter
 'Set the first order for datasorter object
@@ -103,7 +103,7 @@ ca.EndColumn = 1
 'Sort the data in the specified data range (A1:B14)
 sorter.Sort(workbook.Worksheets(0).Cells, ca)
 'Save the excel file.
-workbook.Save("C:\outBook.xls")
+workbook.Save("outBook.xls")
 
 ```
 

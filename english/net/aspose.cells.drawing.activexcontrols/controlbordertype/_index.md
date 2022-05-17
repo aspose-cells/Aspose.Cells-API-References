@@ -3,7 +3,7 @@ title: ControlBorderType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1480
+weight: 1500
 url: /net/aspose.cells.drawing.activexcontrols/controlbordertype/
 ---
 ## ControlBorderType enumeration

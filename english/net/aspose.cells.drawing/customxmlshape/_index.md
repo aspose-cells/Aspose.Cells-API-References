@@ -3,7 +3,7 @@ title: CustomXmlShape
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1900
+weight: 1920
 url: /net/aspose.cells.drawing/customxmlshape/
 ---
 ## CustomXmlShape class

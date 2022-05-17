@@ -3,7 +3,7 @@ title: ImportTwoDimensionArray
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1010
+weight: 1050
 url: /net/aspose.cells/cells/importtwodimensionarray/
 ---
 ## Cells.ImportTwoDimensionArray method (1 of 4)

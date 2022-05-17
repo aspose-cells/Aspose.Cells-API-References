@@ -3,7 +3,7 @@ title: ExportObjectEvent
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3180
+weight: 3200
 url: /net/aspose.cells/exportobjectevent/
 ---
 ## ExportObjectEvent class

@@ -3,7 +3,7 @@ title: CopySettings
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.cells/row/copysettings/
 ---
 ## Row.CopySettings method

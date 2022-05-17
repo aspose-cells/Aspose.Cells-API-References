@@ -3,7 +3,7 @@ title: GradientFillType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2050
+weight: 2070
 url: /net/aspose.cells.drawing/gradientfilltype/
 ---
 ## GradientFillType enumeration

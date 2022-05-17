@@ -3,7 +3,7 @@ title: ShapeTextAlignment
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2910
+weight: 2930
 url: /net/aspose.cells.drawing.texts/shapetextalignment/
 ---
 ## ShapeTextAlignment class
@@ -36,8 +36,22 @@ public class ShapeTextAlignment
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) |  |
+| override [Equals](equals)(object) | Determines whether this instance has the same value as another specified [`ShapeTextAlignment`](../shapetextalignment) object. |
 | override [GetHashCode](gethashcode)() |  |
+
+### Examples
+
+```csharp
+
+[C#]
+//Instantiating a Workbook object
+Workbook workbook = new Workbook();
+Shape shape = workbook.Worksheets[0].Shapes.AddRectangle(1, 0, 1, 0, 50, 100);
+Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = shape.TextBody.TextAlignment;
+
+//do your business
+
+```
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: FontConfigs
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3470
+weight: 3490
 url: /net/aspose.cells/fontconfigs/
 ---
 ## FontConfigs class

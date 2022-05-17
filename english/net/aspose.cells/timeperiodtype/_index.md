@@ -3,7 +3,7 @@ title: TimePeriodType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6030
+weight: 6050
 url: /net/aspose.cells/timeperiodtype/
 ---
 ## TimePeriodType enumeration

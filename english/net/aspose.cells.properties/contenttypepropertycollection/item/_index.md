@@ -14,9 +14,9 @@ Gets the content type property by the specific index.
 public ContentTypeProperty this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index. |
+| Parameter | Description |
+| --- | --- |
+| index | The index. |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Gets the content type property by the property name.
 public ContentTypeProperty this[string name] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name |  | The property name. |
+| Parameter | Description |
+| --- | --- |
+| name | The property name. |
 
 ## Return Value
 

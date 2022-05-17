@@ -52,7 +52,7 @@ for (int i = 0; i < areas.Count; i++)
        }
        Console.WriteLine(stringBuilder.ToString());
     }
- workbook.Save(@"C:\Book2.xls");
+ workbook.Save(@"Book2.xls");
 
 [Visual Basic]
 
@@ -77,7 +77,7 @@ For i As Integer = 0 To areas.Count - 1
      End If
     Console.WriteLine(stringBuilder.ToString())
  Next
- workbook.Save("C:\Book2.xls")
+ workbook.Save("Book2.xls")
 ```
 
 ### See Also

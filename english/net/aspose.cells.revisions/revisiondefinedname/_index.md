@@ -3,7 +3,7 @@ title: RevisionDefinedName
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5370
+weight: 5390
 url: /net/aspose.cells.revisions/revisiondefinedname/
 ---
 ## RevisionDefinedName class

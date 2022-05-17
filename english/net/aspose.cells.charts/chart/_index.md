@@ -81,9 +81,13 @@ public class Chart
 | [RefreshPivotData](refreshpivotdata)() | Refreshes pivot chart's data from it's pivot data source. |
 | [SetChartDataRange](setchartdatarange)(string, bool) | Specifies data range for a chart. |
 | [SwitchRowColumn](switchrowcolumn)() | Switches row/column. |
+| [ToImage](toimage)() | Gets a 32-bit `Bitmap` object of the chart. |
+| [ToImage](toimage)(ImageOrPrintOptions) | Gets a 32-bit `Bitmap` object of the chart. `ImageOrPrintOptions.ImageFormat`, ImageOrPrintOptions.TiffCompression and ImageOrPrintOptions.Quality attributes are ignored. |
 | [ToImage](toimage)(string) | Creates the chart image and saves it to a file. The extension of the file name determines the format of the image. |
+| [ToImage](toimage)(Stream, ImageFormat) | Creates the chart image and saves it to a stream in the specified format. |
 | [ToImage](toimage)(Stream, ImageOrPrintOptions) | Creates the chart image and saves it to a stream in the specified format. |
 | [ToImage](toimage)(Stream, long) | Creates the chart image and saves it to a stream in the Jpeg format. |
+| [ToImage](toimage)(string, ImageFormat) | Creates the chart image and saves it to a file in the specified format. |
 | [ToImage](toimage)(string, ImageOrPrintOptions) | Creates the chart image and saves it to a file. The extension of the file name determines the format of the image. |
 | [ToImage](toimage)(string, long) | Creates the chart image and saves it to a file in the Jpeg format. |
 | [ToPdf](topdf)(Stream) | Creates the chart pdf and saves it to a stream. |

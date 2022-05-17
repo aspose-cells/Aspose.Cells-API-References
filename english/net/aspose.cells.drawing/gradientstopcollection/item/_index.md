@@ -14,9 +14,9 @@ Gets the gradient stop by the index.
 public GradientStop this[int index] { get; set; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index. |
+| Parameter | Description |
+| --- | --- |
+| index | The index. |
 
 ## Return Value
 

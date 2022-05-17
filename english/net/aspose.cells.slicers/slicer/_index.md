@@ -3,7 +3,7 @@ title: Slicer
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5600
+weight: 5620
 url: /net/aspose.cells.slicers/slicer/
 ---
 ## Slicer class

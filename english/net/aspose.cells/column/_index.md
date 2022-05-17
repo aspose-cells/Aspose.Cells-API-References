@@ -20,6 +20,7 @@ public class Column
 | --- | --- |
 | [GroupLevel](grouplevel) { get; } | Gets the group level of the column. |
 | [Index](index) { get; } | Gets the index of this column. |
+| [IsCollapsed](iscollapsed) { get; set; } | whether the column is collapsed |
 | [IsHidden](ishidden) { get; set; } | Indicates whether the column is hidden. |
 | [Style](style) { get; } | Gets the style of this column. |
 | [Width](width) { get; set; } | Gets and sets the column width in unit of characters. |
@@ -65,7 +66,7 @@ Column column = worksheet.Cells.Columns[0];
 column.ApplyStyle(style, styleFlag);
 
 //Saving the Excel file
-workbook.Save("D:\\book1.xls");
+workbook.Save("book1.xls");
 
 [VB.NET]
 
@@ -99,7 +100,7 @@ Dim column As Column = worksheet.Cells.Columns(0)
 column.ApplyStyle(style, styleFlag)
 
 'Saving the Excel file
-workbook.Save("D:\book1.xls")
+workbook.Save("book1.xls")
 ```
 
 ### See Also

@@ -14,6 +14,14 @@ Gets and sets the begin arrow width type of the line.
 public MsoArrowheadWidth BeginArrowheadWidth { get; set; }
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+lineFmt.BeginArrowheadWidth = MsoArrowheadWidth.Medium;
+```
+
 ### See Also
 
 * enum [MsoArrowheadWidth](../../msoarrowheadwidth)

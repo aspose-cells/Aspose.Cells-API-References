@@ -14,9 +14,9 @@ Gets the data stored in the column specified by index.
 public object this[int columnIndex] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| columnIndex |  | The zero-based index of the column. |
+| Parameter | Description |
+| --- | --- |
+| columnIndex | The zero-based index of the column. |
 
 ### See Also
 
@@ -34,9 +34,9 @@ Gets the data stored in the column specified by column name.
 public object this[string columnName] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| columnName |  | The column name. |
+| Parameter | Description |
+| --- | --- |
+| columnName | The column name. |
 
 ### See Also
 

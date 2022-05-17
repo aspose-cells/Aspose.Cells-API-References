@@ -3,7 +3,7 @@ title: DataLabelShapeType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1910
+weight: 1930
 url: /net/aspose.cells.drawing/datalabelshapetype/
 ---
 ## DataLabelShapeType enumeration
@@ -32,6 +32,7 @@ public enum DataLabelShapeType
 | BentLineCallout | `11` | Represents the bent line callout shape. |
 | LineWithAccentBarCallout | `12` | Represents the line with accent bar callout shape. |
 | BentLineWithAccentBarCallout | `13` | Represents the bent line with accent bar callout shape. |
+| Line | `14` | This type is only used for special file processing |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: HtmlLoadOptions
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3700
+weight: 3720
 url: /net/aspose.cells/htmlloadoptions/
 ---
 ## HtmlLoadOptions class

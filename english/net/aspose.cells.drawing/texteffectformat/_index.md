@@ -3,7 +3,7 @@ title: TextEffectFormat
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2800
+weight: 2820
 url: /net/aspose.cells.drawing/texteffectformat/
 ---
 ## TextEffectFormat class
@@ -44,7 +44,7 @@ Aspose.Cells.Drawing.ShapeCollection shapes = workbook.Worksheets[0].Shapes;
 shapes.AddTextEffect(MsoPresetTextEffect.TextEffect1, "Aspose", "Arial", 30, false, false, 0, 0, 0, 0, 100, 200);
 TextEffectFormat textEffectFormat = shapes[0].TextEffect;
 textEffectFormat.SetTextEffect(MsoPresetTextEffect.TextEffect10);
-workbook.Save("C:\\Book1.xls");
+workbook.Save("Book1.xls");
 
 [Visual Basic]
 
@@ -54,7 +54,7 @@ Dim shapes As Aspose.Cells.Drawing.ShapeCollection = workbook.Worksheets(0).Shap
 shapes.AddTextEffect(MsoPresetTextEffect.TextEffect1, "Aspose", "Arial", 30, false, false, 0, 0, 0, 0, 100, 200)
 Dim textEffectFormat As TextEffectFormat = shapes(0).TextEffect
 TextEffectFormat.SetTextEffect(MsoPresetTextEffect.TextEffect10)
-workbook.Save("C:\\Book1.xls")
+workbook.Save("Book1.xls")
 
 ```
 

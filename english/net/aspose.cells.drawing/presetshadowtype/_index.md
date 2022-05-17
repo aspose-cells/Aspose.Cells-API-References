@@ -3,7 +3,7 @@ title: PresetShadowType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2500
+weight: 2520
 url: /net/aspose.cells.drawing/presetshadowtype/
 ---
 ## PresetShadowType enumeration

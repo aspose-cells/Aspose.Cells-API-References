@@ -37,6 +37,7 @@ public class AutoFilter
 | [DynamicFilter](dynamicfilter)(int, DynamicFilterType) | Adds a dynamic filter. |
 | [Filter](filter)(int, string) | Filters a list with specified criteria. |
 | [FilterTop10](filtertop10)(int, bool, bool, int) | Filter the top 10 item in the list |
+| [GetCellArea](getcellarea)() | Gets the [`CellArea`](../cellarea) where the specified AutoFilter applies to. |
 | [MatchBlanks](matchblanks)(int) | Match all blank cell in the list. |
 | [MatchNonBlanks](matchnonblanks)(int) | Match all not blank cell in the list. |
 | [Refresh](refresh)() | Refresh auto filters to hide or unhide the rows. |

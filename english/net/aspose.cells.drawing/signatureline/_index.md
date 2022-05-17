@@ -3,7 +3,7 @@ title: SignatureLine
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2740
+weight: 2760
 url: /net/aspose.cells.drawing/signatureline/
 ---
 ## SignatureLine class

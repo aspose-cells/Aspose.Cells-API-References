@@ -3,7 +3,7 @@ title: Width
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.cells/column/width/
 ---
 ## Column.Width property

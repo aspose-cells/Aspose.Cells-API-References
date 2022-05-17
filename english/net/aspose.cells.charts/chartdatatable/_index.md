@@ -78,7 +78,7 @@ chartTable.Font.Color = System.Drawing.Color.Red;
 chartTable.ShowLegendKey = false;
 
 //Saving the Excel file
-workbook.Save("D:\\book1.xls");
+workbook.Save("book1.xls");
 
 [VB.NET]
 
@@ -127,7 +127,7 @@ chartTable.Font.Color = System.Drawing.Color.Red
 chartTable.ShowLegendKey = False
 
 'Saving the Excel file
-workbook.Save("D:\book1.xls")
+workbook.Save("book1.xls")
 
 ```
 

@@ -14,6 +14,14 @@ Indicates whether rotating text with shape.
 public bool RotateTextWithShape { get; set; }
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+shapeTextAlignment.RotateTextWithShape = true;
+```
+
 ### See Also
 
 * class [ShapeTextAlignment](../../shapetextalignment)

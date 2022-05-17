@@ -3,7 +3,7 @@ title: Subtotal
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1260
+weight: 1300
 url: /net/aspose.cells/cells/subtotal/
 ---
 ## Cells.Subtotal method (1 of 2)

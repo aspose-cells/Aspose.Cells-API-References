@@ -3,7 +3,7 @@ title: IndividualFontConfigs
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3860
+weight: 3880
 url: /net/aspose.cells/individualfontconfigs/
 ---
 ## IndividualFontConfigs class

@@ -6,7 +6,7 @@ type: docs
 weight: 570
 url: /net/aspose.cells/workbook/save/
 ---
-## Workbook.Save method (1 of 5)
+## Workbook.Save method (1 of 7)
 
 Saves the workbook to the disk.
 
@@ -28,7 +28,7 @@ public void Save(string fileName, SaveFormat saveFormat)
 
 ---
 
-## Workbook.Save method (2 of 5)
+## Workbook.Save method (2 of 7)
 
 Save the workbook to the disk.
 
@@ -48,7 +48,7 @@ public void Save(string fileName)
 
 ---
 
-## Workbook.Save method (3 of 5)
+## Workbook.Save method (3 of 7)
 
 Saves the workbook to the disk.
 
@@ -70,7 +70,7 @@ public void Save(string fileName, SaveOptions saveOptions)
 
 ---
 
-## Workbook.Save method (4 of 5)
+## Workbook.Save method (4 of 7)
 
 Saves the workbook to the stream.
 
@@ -92,7 +92,7 @@ public void Save(Stream stream, SaveFormat saveFormat)
 
 ---
 
-## Workbook.Save method (5 of 5)
+## Workbook.Save method (5 of 7)
 
 Saves the workbook to the stream.
 
@@ -107,6 +107,59 @@ public void Save(Stream stream, SaveOptions saveOptions)
 
 ### See Also
 
+* class [SaveOptions](../../saveoptions)
+* class [Workbook](../../workbook)
+* namespace [Aspose.Cells](../../workbook)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Workbook.Save method (6 of 7)
+
+Creates the result spreadsheet and transfer it to the client then open it in the browser or MS Workbook.
+
+```csharp
+public void Save(HttpResponse response, string fileName, ContentDisposition contentDisposition, 
+    SaveOptions saveOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| response | HttpResponse | Response object to return the spreadsheet to client. |
+| fileName | String | The name of created file. |
+| contentDisposition | ContentDisposition | The content disposition type. |
+| saveOptions | SaveOptions | The save options. |
+
+### See Also
+
+* enum [ContentDisposition](../../contentdisposition)
+* class [SaveOptions](../../saveoptions)
+* class [Workbook](../../workbook)
+* namespace [Aspose.Cells](../../workbook)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Workbook.Save method (7 of 7)
+
+Creates the result spreadsheet and transfer it to the client then open it in the browser or MS Workbook.
+
+```csharp
+public void Save(HttpResponse response, string fileName, ContentDisposition contentDisposition, 
+    SaveOptions saveOptions, bool enableHttpCompression)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| response | HttpResponse | Response object to return the spreadsheet to client. |
+| fileName | String | The name of created file. |
+| contentDisposition | ContentDisposition | The content disposition type. |
+| saveOptions | SaveOptions | The save options. |
+| enableHttpCompression | Boolean | whether http compression is to be used |
+
+### See Also
+
+* enum [ContentDisposition](../../contentdisposition)
 * class [SaveOptions](../../saveoptions)
 * class [Workbook](../../workbook)
 * namespace [Aspose.Cells](../../workbook)

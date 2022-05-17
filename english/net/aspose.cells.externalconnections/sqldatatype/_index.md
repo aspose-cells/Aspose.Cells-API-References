@@ -3,7 +3,7 @@ title: SqlDataType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3310
+weight: 3330
 url: /net/aspose.cells.externalconnections/sqldatatype/
 ---
 ## SqlDataType enumeration

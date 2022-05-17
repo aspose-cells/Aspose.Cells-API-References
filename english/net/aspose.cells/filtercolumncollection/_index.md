@@ -3,7 +3,7 @@ title: FilterColumnCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3410
+weight: 3430
 url: /net/aspose.cells/filtercolumncollection/
 ---
 ## FilterColumnCollection class

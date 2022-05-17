@@ -3,7 +3,7 @@ title: MergeFiles
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 200
 url: /net/aspose.cells/cellshelper/mergefiles/
 ---
 ## CellsHelper.MergeFiles method

@@ -3,7 +3,7 @@ title: ImageOrPrintOptions
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5110
+weight: 5130
 url: /net/aspose.cells.rendering/imageorprintoptions/
 ---
 ## ImageOrPrintOptions class

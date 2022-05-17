@@ -3,7 +3,7 @@ title: RectangleShape
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2540
+weight: 2560
 url: /net/aspose.cells.drawing/rectangleshape/
 ---
 ## RectangleShape class

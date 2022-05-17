@@ -3,7 +3,7 @@ title: GroupFill
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2110
+weight: 2130
 url: /net/aspose.cells.drawing/groupfill/
 ---
 ## GroupFill class

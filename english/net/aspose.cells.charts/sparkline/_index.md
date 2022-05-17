@@ -52,6 +52,7 @@ public class Sparkline
 
 | Name | Description |
 | --- | --- |
+| [ToImage](toimage)(ImageOrPrintOptions) | Converts a sparkline to an image. |
 | [ToImage](toimage)(Stream, ImageOrPrintOptions) | Converts a sparkline to an image. |
 | [ToImage](toimage)(string, ImageOrPrintOptions) | Converts a sparkline to an image. |
 

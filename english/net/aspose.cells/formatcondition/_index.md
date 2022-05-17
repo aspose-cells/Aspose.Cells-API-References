@@ -3,7 +3,7 @@ title: FormatCondition
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3530
+weight: 3550
 url: /net/aspose.cells/formatcondition/
 ---
 ## FormatCondition class
@@ -86,7 +86,7 @@ FormatCondition fc = fcs[conditionIndex];
 fc.Style.BackgroundColor = Color.Red;
  
 //Saving the Excel file
-workbook.Save("C:\\output.xls");
+workbook.Save("output.xls");
 
 [VB.NET]
 
@@ -123,7 +123,7 @@ Dim fc As FormatCondition = fcs(conditionIndex)
 fc.Style.BackgroundColor = Color.Red
  
 'Saving the Excel file
-workbook.Save("C:\output.xls")
+workbook.Save("output.xls")
 ```
 
 ### See Also

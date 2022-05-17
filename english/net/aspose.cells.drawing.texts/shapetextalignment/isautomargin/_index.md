@@ -14,6 +14,14 @@ Indicates whether the margin of the text frame is automatic.
 public bool IsAutoMargin { get; set; }
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+shapeTextAlignment.IsAutoMargin = true;
+```
+
 ### See Also
 
 * class [ShapeTextAlignment](../../shapetextalignment)

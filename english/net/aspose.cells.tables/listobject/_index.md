@@ -3,7 +3,7 @@ title: ListObject
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5790
+weight: 5810
 url: /net/aspose.cells.tables/listobject/
 ---
 ## ListObject class
@@ -78,7 +78,7 @@ int index = tables.Add(0, 0, 9, 4, true);
 ListObject table = tables[0];
 table.ShowTotals = true;
 table.ListColumns[4].TotalsCalculation = Aspose.Cells.Tables.TotalsCalculation.Sum;
-workbook.Save(@"C:\Book1.xlsx");
+workbook.Save(@"Book1.xlsx");
 
 
 [Visual Basic]
@@ -98,7 +98,7 @@ Dim index As Int32 = tables.Add(0, 0, 9, 4, True)
 Dim table As ListObject = tables(0)
 table.ShowTotals = True
 table.ListColumns(4).TotalsCalculation = Aspose.Cells.Tables.TotalsCalculation.Sum
-workbook.Save("C:\Book1.xlsx")
+workbook.Save("Book1.xlsx")
 ```
 
 ### See Also

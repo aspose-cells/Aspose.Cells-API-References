@@ -14,6 +14,14 @@ Returns the left margin in unit of Points
 public double LeftMarginPt { get; set; }
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+shapeTextAlignment.LeftMarginPt = 2.0d;
+```
+
 ### See Also
 
 * class [ShapeTextAlignment](../../shapetextalignment)

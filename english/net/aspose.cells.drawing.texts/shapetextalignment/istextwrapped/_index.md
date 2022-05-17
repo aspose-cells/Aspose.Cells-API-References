@@ -14,6 +14,14 @@ Gets and sets the text wrapped type of the shape which contains text.
 public bool IsTextWrapped { get; set; }
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+shapeTextAlignment.IsTextWrapped = true;
+```
+
 ### See Also
 
 * class [ShapeTextAlignment](../../shapetextalignment)

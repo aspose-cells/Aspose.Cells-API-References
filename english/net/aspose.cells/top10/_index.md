@@ -3,7 +3,7 @@ title: Top10
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6060
+weight: 6080
 url: /net/aspose.cells/top10/
 ---
 ## Top10 class
@@ -54,7 +54,7 @@ Top10 top10 = fc.Top10;
 //Set the Top N 
 top10.Rank = 5;  
 //Saving the Excel file
-workbook.Save("C:\\output.xls");
+workbook.Save("output.xls");
 
 [VB.NET]
 
@@ -79,7 +79,7 @@ Dim top10 as Top10  = fc.Top10
 'Set the Top N 
 top10.Rank = 5
 'Saving the Excel file
-workbook.Save("C:\output.xls")
+workbook.Save("output.xls")
 ```
 
 ### See Also

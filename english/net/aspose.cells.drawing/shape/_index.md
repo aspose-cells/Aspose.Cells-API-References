@@ -3,7 +3,7 @@ title: Shape
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2600
+weight: 2620
 url: /net/aspose.cells.drawing/shape/
 ---
 ## Shape class
@@ -24,7 +24,6 @@ public class Shape
 | [AnchorType](anchortype) { get; set; } | Gets and set the shape anchor placeholder. |
 | [AutoShapeType](autoshapetype) { get; set; } | Gets and sets the auto shape type. |
 | [Bottom](bottom) { get; set; } | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
-| [ConnectionPoints](connectionpoints) { get; } | Get the connection points |
 | [ControlData](controldata) { get; } | Gets the data of control. |
 | [Fill](fill) { get; } | Returns a FillFormat object that contains fill formatting properties for the specified shape. |
 | [Font](font) { get; set; } | Represents the font of shape. |
@@ -49,6 +48,7 @@ public class Shape
 | [IsFlippedVertically](isflippedvertically) { get; set; } | Gets and sets whether shape is vertically flipped . |
 | [IsGroup](isgroup) { get; } | Indicates whether the shape is a group. |
 | [IsHidden](ishidden) { get; set; } | Indicates whether the object is visible. |
+| [IsInGroup](isingroup) { get; } | Indicates whether the shape is grouped. |
 | [IsLockAspectRatio](islockaspectratio) { get; set; } | True means that don't allow changes in aspect ratio. |
 | [IsLocked](islocked) { get; set; } | True if the object is locked, False if the object can be modified when the sheet is protected. |
 | [IsPrintable](isprintable) { get; set; } | True if the object is printable |
@@ -124,6 +124,7 @@ public class Shape
 | [Characters](characters)(int, int) | Returns a Characters object that represents a range of characters within the text. |
 | [FormatCharacters](formatcharacters)(int, int, Font, StyleFlag) | Formats some characters with the font setting. |
 | [GetCharacters](getcharacters)() | Returns all Characters objects that represents a range of characters within the text . |
+| [GetConnectionPoints](getconnectionpoints)() | Get the connection points |
 | [GetInputRange](getinputrange)(bool, bool) | Gets the range used to fill the control. |
 | [GetLinkedCell](getlinkedcell)(bool, bool) | Gets the range linked to the control's value. |
 | [GetLockedProperty](getlockedproperty)(ShapeLockType) | Gets the value of locked property. |
@@ -136,6 +137,8 @@ public class Shape
 | [SetLinkedCell](setlinkedcell)(string, bool, bool) | Sets the range linked to the control's value. |
 | [SetLockedProperty](setlockedproperty)(ShapeLockType, bool) | Set the locked property. |
 | [ToFrontOrBack](tofrontorback)(int) | Brings the shape to the front or sends the shape to back. |
+| [ToImage](toimage)(ImageOrPrintOptions) | Returns the bitmap object of the shape . |
+| [ToImage](toimage)(Stream, ImageFormat) | Creates the shape image and saves it to a stream in the specified format. |
 | [ToImage](toimage)(Stream, ImageOrPrintOptions) | Saves the shape to a stream. |
 | [ToImage](toimage)(string, ImageOrPrintOptions) | Saves the shape to a file. |
 | [UpdateSelectedValue](updateselectedvalue)() | Update the selected value by the value of the linked cell. |

@@ -3,7 +3,7 @@ title: NoneFill
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2390
+weight: 2410
 url: /net/aspose.cells.drawing/nonefill/
 ---
 ## NoneFill class

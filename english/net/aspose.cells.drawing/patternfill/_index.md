@@ -3,7 +3,7 @@ title: PatternFill
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2430
+weight: 2450
 url: /net/aspose.cells.drawing/patternfill/
 ---
 ## PatternFill class

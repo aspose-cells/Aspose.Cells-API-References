@@ -3,7 +3,7 @@ title: ControlPictureAlignmentType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1530
+weight: 1550
 url: /net/aspose.cells.drawing.activexcontrols/controlpicturealignmenttype/
 ---
 ## ControlPictureAlignmentType enumeration

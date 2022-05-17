@@ -124,6 +124,7 @@ public class Cells : IDisposable, IEnumerable
 | [GetRowHeight](getrowheight)(int) | Gets the height of a specified row. |
 | [GetRowHeightInch](getrowheightinch)(int) | Gets the height of a specified row in unit of inches. |
 | [GetRowHeightPixel](getrowheightpixel)(int) | Gets the height of a specified row in unit of pixel. |
+| [GetRowOriginalHeightPoint](getroworiginalheightpoint)(int) | Gets original row's height in unit of point if the row is hidden |
 | [GetViewColumnWidthPixel](getviewcolumnwidthpixel)(int) | Get the width in different view type. |
 | [GetViewRowHeight](getviewrowheight)(int) | Gets the height of a specified row. |
 | [GetViewRowHeightInch](getviewrowheightinch)(int) | Gets the height of a specified row in unit of inches. |
@@ -154,9 +155,14 @@ public class Cells : IDisposable, IEnumerable
 | [ImportData](importdata)(DataView, int, int, ImportTableOptions) | Import data from data view. |
 | [ImportData](importdata)(ICellsDataTable, int, int, ImportTableOptions) | Import data from custom data table. |
 | [ImportData](importdata)(IDataReader, int, int, ImportTableOptions) | Imports data from a IDataReader object. |
+| [ImportDataGrid](importdatagrid)(DataGrid, int, int, bool) | Imports a DataGrid into a worksheet. |
+| [ImportDataGrid](importdatagrid)(DataGrid, int, int, int, int, bool) | Imports a DataGrid into a worksheet. |
+| [ImportDataGrid](importdatagrid)(DataGrid, int, int, int, int, bool, bool) | Imports a DataGrid into a worksheet. |
+| [ImportDataGridAsString](importdatagridasstring)(DataGrid, int, int, bool) | Imports a DataGrid into a worksheet. This method doesn't try to convert text into numeric values. |
 | [ImportDataRow](importdatarow)(DataRow, int, int) | Imports a DataRow into the Excel file. |
 | [ImportDataView](importdataview)(DataView, int, int) | Imports a DataView into a worksheet. |
 | [ImportFormulaArray](importformulaarray)(string[], int, int, bool) | Imports an array of formula into a worksheet. |
+| [ImportGridView](importgridview)(GridView, int, int, ImportTableOptions) | Imports a grid view to this cells. |
 | [ImportObjectArray](importobjectarray)(object[], int, int, bool) | Imports an array of data into a worksheet. |
 | [ImportObjectArray](importobjectarray)(object[], int, int, bool, int) | Imports an array of data into a worksheet. |
 | [ImportTwoDimensionArray](importtwodimensionarray)(object[], int, int) |  |

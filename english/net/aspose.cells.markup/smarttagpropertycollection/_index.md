@@ -3,7 +3,7 @@ title: SmartTagPropertyCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4070
+weight: 4090
 url: /net/aspose.cells.markup/smarttagpropertycollection/
 ---
 ## SmartTagPropertyCollection class

@@ -38,6 +38,26 @@ public void ToTiff(string filename)
 | --- | --- | --- |
 | filename | String | the filename of the output image |
 
+### Examples
+
+The following code outputs all the pages of the first sheet to Tiff image.
+
+```csharp
+//load the source file with images.
+Workbook wb = new Workbook("Book1.xlsx");
+
+ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
+
+//set output image type.
+imgOpt.SaveFormat = SaveFormat.Tiff;
+
+//render the first sheet.
+SheetRender sr = new SheetRender(wb.Worksheets[0], imgOpt);
+
+//output all the pages of the sheet to Tiff image.
+sr.ToTiff("output.tiff");
+```
+
 ### See Also
 
 * class [SheetRender](../../sheetrender)

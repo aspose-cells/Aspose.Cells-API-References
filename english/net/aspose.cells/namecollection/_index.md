@@ -3,7 +3,7 @@ title: NameCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4180
+weight: 4200
 url: /net/aspose.cells/namecollection/
 ---
 ## NameCollection class

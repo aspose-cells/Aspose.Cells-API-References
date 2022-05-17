@@ -3,7 +3,7 @@ title: GradientStyleType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2090
+weight: 2110
 url: /net/aspose.cells.drawing/gradientstyletype/
 ---
 ## GradientStyleType enumeration

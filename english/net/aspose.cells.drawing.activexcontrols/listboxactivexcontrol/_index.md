@@ -3,7 +3,7 @@ title: ListBoxActiveXControl
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1640
+weight: 1660
 url: /net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/
 ---
 ## ListBoxActiveXControl class

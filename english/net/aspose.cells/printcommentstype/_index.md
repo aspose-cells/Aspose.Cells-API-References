@@ -3,7 +3,7 @@ title: PrintCommentsType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4720
+weight: 4740
 url: /net/aspose.cells/printcommentstype/
 ---
 ## PrintCommentsType enumeration

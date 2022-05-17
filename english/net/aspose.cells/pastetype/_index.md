@@ -3,7 +3,7 @@ title: PasteType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4460
+weight: 4480
 url: /net/aspose.cells/pastetype/
 ---
 ## PasteType enumeration
@@ -30,7 +30,8 @@ public enum PasteType
 | FormulasAndNumberFormats | `9` |  |
 | Validation | `10` |  |
 | Values | `11` |  |
-| ValuesAndNumberFormats | `12` |  |
+| ValuesAndFormats | `12` |  |
+| ValuesAndNumberFormats | `13` |  |
 
 ### See Also
 

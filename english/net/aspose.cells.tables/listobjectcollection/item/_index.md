@@ -14,9 +14,9 @@ Gets the ListObject by index.
 public ListObject this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index. |
+| Parameter | Description |
+| --- | --- |
+| index | The index. |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Gets the ListObject by specified name.
 public ListObject this[string tableName] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| tableName |  | ListObject name. |
+| Parameter | Description |
+| --- | --- |
+| tableName | ListObject name. |
 
 ## Return Value
 

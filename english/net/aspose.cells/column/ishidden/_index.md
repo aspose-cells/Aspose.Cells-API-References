@@ -3,7 +3,7 @@ title: IsHidden
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.cells/column/ishidden/
 ---
 ## Column.IsHidden property

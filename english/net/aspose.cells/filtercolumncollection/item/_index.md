@@ -14,9 +14,9 @@ Gets [`FilterColumn`](../../filtercolumn) object at the special field.
 public FilterColumn this[int fieldIndex] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fieldIndex |  | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
+| Parameter | Description |
+| --- | --- |
+| fieldIndex | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
 
 ## Return Value
 

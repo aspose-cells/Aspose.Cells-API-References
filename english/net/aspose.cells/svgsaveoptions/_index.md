@@ -3,7 +3,7 @@ title: SvgSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5760
+weight: 5780
 url: /net/aspose.cells/svgsaveoptions/
 ---
 ## SvgSaveOptions class

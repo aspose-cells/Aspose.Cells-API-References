@@ -14,6 +14,14 @@ Gets and sets the rotation of the shape.
 public double RotationAngle { get; set; }
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+shapeTextAlignment.RotationAngle = 90;
+```
+
 ### See Also
 
 * class [ShapeTextAlignment](../../shapetextalignment)

@@ -75,7 +75,7 @@ public class Cell
 | [GetMergedRange](getmergedrange)() | Returns a [`Range`](../range) object which represents a merged range. |
 | [GetPrecedents](getprecedents)() | Gets all cells or ranges which this cell's formula depends on. |
 | [GetStringValue](getstringvalue)(CellValueFormatStrategy) | Gets the string value by specific formatted strategy. |
-| virtual [GetStyle](getstyle)() | Gets the cell style. |
+| [GetStyle](getstyle)() | Gets the cell style. |
 | [GetStyle](getstyle)(bool) | If checkBorders is true, check whether other cells' borders will effect the style of this cell. |
 | [GetTable](gettable)() | Gets the table which contains this cell. |
 | [GetValidation](getvalidation)() | Gets the validation applied to this cell. |
@@ -87,7 +87,7 @@ public class Cell
 | [PutValue](putvalue)(double) | Puts a double value into the cell. |
 | [PutValue](putvalue)(int) | Puts an integer value into the cell. |
 | [PutValue](putvalue)(object) | Puts an object value into the cell. |
-| virtual [PutValue](putvalue)(string) | Puts a string value into the cell. |
+| [PutValue](putvalue)(string) | Puts a string value into the cell. |
 | [PutValue](putvalue)(string, bool) | Puts a string value into the cell and converts the value to other data type if appropriate. |
 | [PutValue](putvalue)(string, bool, bool) | Puts a value into the cell, if appropriate the value will be converted to other data type and cell's number format will be reset. |
 | [RemoveArrayFormula](removearrayformula)(bool) | Remove array formula. |
@@ -102,9 +102,9 @@ public class Cell
 | [SetSharedFormula](setsharedformula)(string, int, int) | Sets a formula to a range of cells. |
 | [SetSharedFormula](setsharedformula)(string, int, int, FormulaParseOptions) | Sets a formula to a range of cells. |
 | [SetSharedFormula](setsharedformula)(string, int, int, FormulaParseOptions, object[][]) | Sets a formula to a range of cells. |
-| virtual [SetStyle](setstyle)(Style) | Sets the cell style. |
-| virtual [SetStyle](setstyle)(Style, bool) | Apply the cell style. |
-| virtual [SetStyle](setstyle)(Style, StyleFlag) | Apply the cell style. |
+| [SetStyle](setstyle)(Style) | Sets the cell style. |
+| [SetStyle](setstyle)(Style, bool) | Apply the cell style. |
+| [SetStyle](setstyle)(Style, StyleFlag) | Apply the cell style. |
 | override [ToString](tostring)() | Returns a string represents the current Cell object. |
 
 ### Examples

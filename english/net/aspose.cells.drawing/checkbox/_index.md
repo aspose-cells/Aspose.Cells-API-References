@@ -3,7 +3,7 @@ title: CheckBox
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1830
+weight: 1850
 url: /net/aspose.cells.drawing/checkbox/
 ---
 ## CheckBox class

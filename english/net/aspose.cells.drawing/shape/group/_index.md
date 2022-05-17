@@ -3,7 +3,7 @@ title: Group
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 130
 url: /net/aspose.cells.drawing/shape/group/
 ---
 ## Shape.Group property

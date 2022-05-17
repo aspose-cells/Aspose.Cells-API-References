@@ -3,7 +3,7 @@ title: HorizontalAlignment
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.cells/style/horizontalalignment/
 ---
 ## Style.HorizontalAlignment property

@@ -3,7 +3,7 @@ title: LoadFilter
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3950
+weight: 3970
 url: /net/aspose.cells/loadfilter/
 ---
 ## LoadFilter class

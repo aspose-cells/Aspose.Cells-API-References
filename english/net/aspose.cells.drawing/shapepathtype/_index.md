@@ -3,7 +3,7 @@ title: ShapePathType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2700
+weight: 2720
 url: /net/aspose.cells.drawing/shapepathtype/
 ---
 ## ShapePathType enumeration

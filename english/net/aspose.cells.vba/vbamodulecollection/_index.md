@@ -3,7 +3,7 @@ title: VbaModuleCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6220
+weight: 6240
 url: /net/aspose.cells.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection class
@@ -44,7 +44,7 @@ VbaProject vbaProject = workbook.VbaProject;
 // Add a new module.
 vbaProject.Modules.Add(VbaModuleType.Class, "test");
 //Saving the Excel file
-workbook.Save("C:\\book1.xlsm");
+workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
@@ -55,7 +55,7 @@ Dim vbaProject as VbaProject  = workbook.VbaProject
 'Add a new module.
 vbaProject.Modules.Add(VbaModuleType.Class, "test")
 'Saving the Excel file
-workbook.Save("C:\\book1.xlsm")
+workbook.Save("book1.xlsm")
 ```
 
 ### See Also

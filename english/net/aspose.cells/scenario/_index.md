@@ -3,7 +3,7 @@ title: Scenario
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5540
+weight: 5560
 url: /net/aspose.cells/scenario/
 ---
 ## Scenario class

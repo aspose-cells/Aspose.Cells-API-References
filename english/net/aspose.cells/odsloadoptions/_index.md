@@ -3,7 +3,7 @@ title: OdsLoadOptions
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4300
+weight: 4320
 url: /net/aspose.cells/odsloadoptions/
 ---
 ## OdsLoadOptions class

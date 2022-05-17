@@ -3,7 +3,7 @@ title: WeightType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3080
+weight: 3100
 url: /net/aspose.cells.drawing/weighttype/
 ---
 ## WeightType enumeration

@@ -3,7 +3,7 @@ title: BevelType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1790
+weight: 1810
 url: /net/aspose.cells.drawing/beveltype/
 ---
 ## BevelType enumeration

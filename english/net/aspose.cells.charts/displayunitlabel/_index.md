@@ -72,7 +72,7 @@ DisplayUnitLabel displayUnitLabel = chart.ValueAxis.DisplayUnitLabel;
 //Setting the custom display unit label
 displayUnitLabel.Text = "100";
 //Saving the Excel file
-workbook.Save("C:\\book1.xls");
+workbook.Save("book1.xls");
 
 [Visual Basic]
 
@@ -120,7 +120,7 @@ Dim displayUnitLabel As DisplayUnitLabel = chart.ValueAxis.DisplayUnitLabel
 'Setting the custom display unit label
 displayUnitLabel.Text = "100"
 'Saving the Excel file
-workbook.Save("C:\\book1.xls")
+workbook.Save("book1.xls")
 ```
 
 ### See Also

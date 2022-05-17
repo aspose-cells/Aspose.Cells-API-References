@@ -14,9 +14,9 @@ Gets the [`Validation`](../../validation) element at the specified index.
 public Validation this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The zero based index of the element. |
+| Parameter | Description |
+| --- | --- |
+| index | The zero based index of the element. |
 
 ## Return Value
 

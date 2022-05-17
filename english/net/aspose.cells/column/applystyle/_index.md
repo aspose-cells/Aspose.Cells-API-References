@@ -3,7 +3,7 @@ title: ApplyStyle
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.cells/column/applystyle/
 ---
 ## Column.ApplyStyle method

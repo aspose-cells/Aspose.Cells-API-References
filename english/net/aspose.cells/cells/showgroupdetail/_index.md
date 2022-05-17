@@ -3,7 +3,7 @@ title: ShowGroupDetail
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1250
+weight: 1290
 url: /net/aspose.cells/cells/showgroupdetail/
 ---
 ## Cells.ShowGroupDetail method

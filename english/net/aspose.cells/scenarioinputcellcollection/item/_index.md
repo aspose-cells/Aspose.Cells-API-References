@@ -14,9 +14,9 @@ Gets [`ScenarioInputCell`](../../scenarioinputcell) by index in the list.
 public ScenarioInputCell this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The specific index in the list |
+| Parameter | Description |
+| --- | --- |
+| index | The specific index in the list |
 
 ## Return Value
 

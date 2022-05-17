@@ -3,7 +3,7 @@ title: UnMerge
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1340
+weight: 1380
 url: /net/aspose.cells/cells/unmerge/
 ---
 ## Cells.UnMerge method

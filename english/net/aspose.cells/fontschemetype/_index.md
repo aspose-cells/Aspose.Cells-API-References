@@ -3,7 +3,7 @@ title: FontSchemeType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3480
+weight: 3500
 url: /net/aspose.cells/fontschemetype/
 ---
 ## FontSchemeType enumeration

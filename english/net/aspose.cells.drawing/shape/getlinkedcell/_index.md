@@ -3,7 +3,7 @@ title: GetLinkedCell
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1030
+weight: 1040
 url: /net/aspose.cells.drawing/shape/getlinkedcell/
 ---
 ## Shape.GetLinkedCell method

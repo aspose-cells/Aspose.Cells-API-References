@@ -3,7 +3,7 @@ title: ActiveXControl
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1420
+weight: 1440
 url: /net/aspose.cells.drawing.activexcontrols/activexcontrol/
 ---
 ## ActiveXControl class

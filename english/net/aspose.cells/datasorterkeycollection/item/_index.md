@@ -14,9 +14,9 @@ Gets and sets [`DataSorterKey`](../../datasorterkey) by index.
 public DataSorterKey this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index. |
+| Parameter | Description |
+| --- | --- |
+| index | The index. |
 
 ### See Also
 

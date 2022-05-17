@@ -3,7 +3,7 @@ title: EmfRenderSetting
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3120
+weight: 3140
 url: /net/aspose.cells/emfrendersetting/
 ---
 ## EmfRenderSetting enumeration

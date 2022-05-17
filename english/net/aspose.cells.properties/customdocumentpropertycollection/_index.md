@@ -3,7 +3,7 @@ title: CustomDocumentPropertyCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4800
+weight: 4820
 url: /net/aspose.cells.properties/customdocumentpropertycollection/
 ---
 ## CustomDocumentPropertyCollection class
@@ -38,7 +38,7 @@ Each [`DocumentProperty`](../documentproperty) object represents a custom proper
 [C#]
 
 //Instantiate a Workbook object
-Workbook workbook = new Workbook("C:\\book1.xls");
+Workbook workbook = new Workbook("book1.xls");
 
 //Retrieve a list of all custom document properties of the Excel file
 CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
@@ -46,7 +46,7 @@ CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDo
 [VB.NET]
 
 'Instantiate a Workbook object
-Dim workbook As New Workbook("C:\book1.xls")
+Dim workbook As New Workbook("book1.xls")
 
 'Retrieve a list of all custom document properties of the Excel file
 Dim customProperties As CustomDocumentPropertyCollection = workbook.Worksheets.CustomDocumentProperties

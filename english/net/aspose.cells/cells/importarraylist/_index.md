@@ -3,7 +3,7 @@ title: ImportArrayList
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 930
+weight: 940
 url: /net/aspose.cells/cells/importarraylist/
 ---
 ## Cells.ImportArrayList method

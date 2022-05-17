@@ -3,7 +3,7 @@ title: IsFilled
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 260
 url: /net/aspose.cells.drawing/shape/isfilled/
 ---
 ## Shape.IsFilled property

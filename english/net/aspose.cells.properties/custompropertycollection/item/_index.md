@@ -14,9 +14,9 @@ Gets the custom property by the specific index.
 public CustomProperty this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index. |
+| Parameter | Description |
+| --- | --- |
+| index | The index. |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Gets the custom property by the property name.
 public CustomProperty this[string name] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name |  | The property name. |
+| Parameter | Description |
+| --- | --- |
+| name | The property name. |
 
 ## Return Value
 

@@ -3,7 +3,7 @@ title: WebQueryConnection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3320
+weight: 3340
 url: /net/aspose.cells.externalconnections/webqueryconnection/
 ---
 ## WebQueryConnection class

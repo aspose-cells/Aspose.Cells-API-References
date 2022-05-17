@@ -3,7 +3,7 @@ title: ImportObjectArray
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1000
+weight: 1040
 url: /net/aspose.cells/cells/importobjectarray/
 ---
 ## Cells.ImportObjectArray method (1 of 2)

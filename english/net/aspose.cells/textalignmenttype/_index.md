@@ -3,7 +3,7 @@ title: TextAlignmentType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5910
+weight: 5930
 url: /net/aspose.cells/textalignmenttype/
 ---
 ## TextAlignmentType enumeration
@@ -18,18 +18,18 @@ public enum TextAlignmentType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Bottom | `0` | Represents bottom text alignment. |
-| Center | `1` | Represents center text alignment. |
-| CenterAcross | `2` | Represents center across text alignment. |
-| Distributed | `3` | Represents distributed text alignment. |
-| Fill | `4` | Represents fill text alignment. |
-| General | `5` | Represents general text alignment. |
-| Justify | `6` | Represents justify text alignment. |
-| Left | `7` | Represents left text alignment. |
-| Right | `8` | Represents right text alignment. |
-| Top | `9` | Represents top text alignment. |
-| JustifiedLow | `10` | Aligns the text with an adjusted kashida length for Arabic text. |
-| ThaiDistributed | `11` | Distributes Thai text specially, because each character is treated as a word. |
+| General | `1792` | Represents general text alignment. |
+| Bottom | `528` | Represents bottom text alignment. |
+| Center | `1802` | Represents center text alignment. |
+| CenterAcross | `1286` | Represents center across text alignment. |
+| Distributed | `807` | Represents distributed text alignment. |
+| Fill | `1284` | Represents fill text alignment. |
+| Justify | `1821` | Represents justify text alignment. |
+| Left | `257` | Represents left text alignment. |
+| Right | `259` | Represents right text alignment. |
+| Top | `512` | Represents top text alignment. |
+| JustifiedLow | `832` | Aligns the text with an adjusted kashida length for Arabic text. |
+| ThaiDistributed | `896` | Distributes Thai text specially, because each character is treated as a word. |
 
 ### See Also
 

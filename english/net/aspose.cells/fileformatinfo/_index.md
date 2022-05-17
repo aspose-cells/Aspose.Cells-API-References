@@ -3,7 +3,7 @@ title: FileFormatInfo
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3370
+weight: 3390
 url: /net/aspose.cells/fileformatinfo/
 ---
 ## FileFormatInfo class

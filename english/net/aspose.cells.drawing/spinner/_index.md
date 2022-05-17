@@ -3,7 +3,7 @@ title: Spinner
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2770
+weight: 2790
 url: /net/aspose.cells.drawing/spinner/
 ---
 ## Spinner class

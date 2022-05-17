@@ -3,7 +3,7 @@ title: DropButtonStyle
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1600
+weight: 1620
 url: /net/aspose.cells.drawing.activexcontrols/dropbuttonstyle/
 ---
 ## DropButtonStyle enumeration

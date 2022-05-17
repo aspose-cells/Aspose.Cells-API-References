@@ -3,7 +3,7 @@ title: DxfCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3090
+weight: 3110
 url: /net/aspose.cells/dxfcollection/
 ---
 ## DxfCollection class

@@ -14,9 +14,9 @@ Gets the [`FontSetting`](../../../aspose.cells/fontsetting) by the index.
 public FontSetting this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index. |
+| Parameter | Description |
+| --- | --- |
+| index | The index. |
 
 ### See Also
 

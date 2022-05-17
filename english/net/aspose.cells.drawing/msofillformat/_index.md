@@ -3,7 +3,7 @@ title: MsoFillFormat
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2290
+weight: 2310
 url: /net/aspose.cells.drawing/msofillformat/
 ---
 ## MsoFillFormat class

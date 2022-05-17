@@ -12,6 +12,10 @@ url: /net/aspose.cells/collectionbase-1/find/
 public T Find(Predicate<T> match)
 ```
 
+| Parameter | Type | Description |
+| --- | --- | --- |
+| match | Predicate`1 |  |
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../collectionbase-1)

@@ -43,7 +43,6 @@ public class CellsHelper
 | static [GetTextWidth](gettextwidth)(string, Font, double) | Get width of text in unit of points. |
 | static [GetUsedColors](getusedcolors)(Workbook) | Gets all used colors in the workbook. |
 | static [GetVersion](getversion)() | Get the release version. |
-| static [InitForDotNetCore](initfordotnetcore)() |  |
 | static [MergeFiles](mergefiles)(string[], string, string) | Merges some large xls files to a xls file. |
 | static [RowIndexToName](rowindextoname)(int) | Gets row name according to row index. |
 | static [RowNameToIndex](rownametoindex)(string) | Gets row index according to row name. |

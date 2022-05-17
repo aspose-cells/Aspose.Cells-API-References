@@ -3,7 +3,7 @@ title: VmlShapeGuide
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3060
+weight: 3080
 url: /net/aspose.cells.drawing/vmlshapeguide/
 ---
 ## VmlShapeGuide class

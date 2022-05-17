@@ -3,7 +3,7 @@ title: TextToColumns
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1270
+weight: 1310
 url: /net/aspose.cells/cells/texttocolumns/
 ---
 ## Cells.TextToColumns method

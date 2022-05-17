@@ -3,7 +3,7 @@ title: Hyperlink
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3720
+weight: 3740
 url: /net/aspose.cells/hyperlink/
 ---
 ## Hyperlink class
@@ -49,7 +49,7 @@ Hyperlink hyperlink = worksheet.Hyperlinks[index];
 //Setting display text of this hyperlink.
 hyperlink.TextToDisplay = "Aspose";
 //Saving the Excel file
-workbook.Save("C:\\book1.xls");
+workbook.Save("book1.xls");
 
 [Visual Basic]
 
@@ -66,7 +66,7 @@ Dim hyperlink as Hyperlink = worksheet.Hyperlinks(index);
 'Setting display text of this hyperlink.
 hyperlink.TextToDisplay = "Aspose";
 'Saving the Excel file
-workbook.Save("C:\book1.xls")
+workbook.Save("book1.xls")
 ```
 
 ### See Also

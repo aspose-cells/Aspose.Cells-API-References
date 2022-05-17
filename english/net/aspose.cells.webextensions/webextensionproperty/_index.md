@@ -3,7 +3,7 @@ title: WebExtensionProperty
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6380
+weight: 6400
 url: /net/aspose.cells.webextensions/webextensionproperty/
 ---
 ## WebExtensionProperty class

@@ -3,7 +3,7 @@ title: VbaModule
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6210
+weight: 6230
 url: /net/aspose.cells.vba/vbamodule/
 ---
 ## VbaModule class
@@ -39,7 +39,7 @@ VbaModule vbaModule = vbaProject.Modules[index];
 // Set codes
 vbaModule.Codes = "Sub ShowMessage()\r\nMsgBox \"Welcome to Aspose!\"\r\nEnd Sub";
 //Saving the Excel file
-workbook.Save("C:\\book1.xlsm");
+workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
@@ -54,7 +54,7 @@ Dim vbaModule as VbaModule = vbaProject.Modules(index)
 'Set codes
 vbaModule.Codes = "Sub ShowMessage()\r\nMsgBox \"Welcome to Aspose!\"\r\nEnd Sub"
 'Saving the Excel file
-workbook.Save("C:\\book1.xlsm")
+workbook.Save("book1.xlsm")
 ```
 
 ### See Also

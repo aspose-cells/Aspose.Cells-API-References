@@ -3,7 +3,7 @@ title: HasLine
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 140
 url: /net/aspose.cells.drawing/shape/hasline/
 ---
 ## Shape.HasLine property

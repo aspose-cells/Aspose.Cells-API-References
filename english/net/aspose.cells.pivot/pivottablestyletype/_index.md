@@ -3,7 +3,7 @@ title: PivotTableStyleType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4690
+weight: 4710
 url: /net/aspose.cells.pivot/pivottablestyletype/
 ---
 ## PivotTableStyleType enumeration

@@ -12,275 +12,277 @@ Contains all basic classes of Aspose.Cells.
 
 | Class | Description |
 | --- | --- |
-| class [AboveAverage](./aboveaverage) | Describe the AboveAverage conditional formatting rule. This conditional formatting rule highlights cells that are above or below the average for all values in the range. |
-| abstract class [AbstractCalculationEngine](./abstractcalculationengine) | Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells. |
-| abstract class [AbstractCalculationMonitor](./abstractcalculationmonitor) | Monitor for user to track the progress of formula calculation. |
-| abstract class [AbstractGlobalizationSettings](./abstractglobalizationsettings) | Represents the globalization settings. |
-| abstract class [AbstractInterruptMonitor](./abstractinterruptmonitor) | Monitor for interruption requests in all time-consuming operations. |
-| class [AbstractTextLoadOptions](./abstracttextloadoptions) | Common options for loading text values |
-| class [AutoFilter](./autofilter) | Represents autofiltering for the specified worksheet. |
-| class [AutoFitterOptions](./autofitteroptions) | Represents all auto fitter options. |
-| class [Border](./border) | Encapsulates the object that represents the cell border. |
-| class [BorderCollection](./bordercollection) | Encapsulates a collection of [`Border`](aspose.cells/border) objects. |
-| class [CalculationCell](./calculationcell) | Represents the calculation relevant data about one cell which is being calculated. |
-| class [CalculationData](./calculationdata) | Represents the required data when calculating one function, such as function name, parameters, ...etc. |
-| class [CalculationOptions](./calculationoptions) | Represents options for calculation. |
-| class [Cell](./cell) | Encapsulates the object that represents a single Workbook cell. |
-| class [Cells](./cells) | Encapsulates a collection of cell relevant objects, such as [`Cell`](aspose.cells/cell), [`Row`](aspose.cells/row), ...etc. |
-| class [CellsColor](./cellscolor) | Represents all types of color. |
-| class [CellsException](./cellsexception) | The exception that is thrown when Aspose.Cells specified error occurs. |
-| class [CellsFactory](./cellsfactory) | Utility for instantiating classes of Cells model. |
-| class [CellsHelper](./cellshelper) | Provides helper functions. |
-| class [CellWatch](./cellwatch) | Represents Cell Watch Item in the 'watch window'. |
-| class [CellWatchCollection](./cellwatchcollection) | Represents the collection of cells on this worksheet being watched in the 'watch window'. |
-| abstract class [CollectionBase&lt;T&gt;](./collectionbase-1) |  |
-| class [ColorFilter](./colorfilter) | Represents the color filter. |
-| class [ColorScale](./colorscale) | Describe the ColorScale conditional formatting rule. This conditional formatting rule creates a gradated color scale on the cells. |
-| class [Column](./column) | Represents a single column in a worksheet. |
-| class [ColumnCollection](./columncollection) | Collection of the  objects that represent the individual column(setting)s in a worksheet. The Column object only represents the settings such as column width, styles, .etc. for the whole column, has nothing to do with the fact that there are non-empty cells(data) or not in corresponding column. And the "Count" of this collection only represents the count Column objects that have been instantiated in this collection, has nothing to do with the fact that there are non-empty cells(data) or not in the worksheet. |
-| class [Comment](./comment) | Encapsulates the object that represents a cell comment. |
-| class [CommentCollection](./commentcollection) | Encapsulates a collection of [`Comment`](aspose.cells/comment) objects. |
-| class [ConditionalFormattingCollection](./conditionalformattingcollection) | Encapsulates a collection of [`FormatCondition`](aspose.cells/formatcondition) objects. |
-| class [ConditionalFormattingIcon](./conditionalformattingicon) | Represents the custom icon of conditional formatting rule. |
-| class [ConditionalFormattingIconCollection](./conditionalformattingiconcollection) | Represents a collection of [`ConditionalFormattingIcon`](aspose.cells/conditionalformattingicon) objects. |
-| class [ConditionalFormattingResult](./conditionalformattingresult) | Represents the result of conditional formatting which applies to a cell. |
-| class [ConditionalFormattingValue](./conditionalformattingvalue) | Describes the values of the interpolation points in a gradient scale, dataBar or iconSet. |
-| class [ConditionalFormattingValueCollection](./conditionalformattingvaluecollection) | Describes a collection of CFValueObject. Use only for icon sets. |
-| class [CopyOptions](./copyoptions) | Represents the copy options. |
-| class [CustomFilter](./customfilter) | Represents the custom filter. |
-| class [CustomFilterCollection](./customfiltercollection) | Represents the custom filters. |
-| class [CustomImplementationFactory](./customimplementationfactory) | Factory to create some instances which may be re-implemented by user for special purpose. |
-| class [DataBar](./databar) | Describe the DataBar conditional formatting rule. This conditional formatting rule displays a gradated data bar in the range of cells. |
-| class [DataBarBorder](./databarborder) | Represents the border of the data bars specified by a conditional formatting rule. |
-| class [DataSorter](./datasorter) | Summary description for DataSorter. |
-| class [DataSorterKey](./datasorterkey) | Represents the key of the data sorter. |
-| class [DataSorterKeyCollection](./datasorterkeycollection) | Represents the key list of data sorter. |
-| class [DateTimeGroupItem](./datetimegroupitem) | Represents the datetime's group setting. |
-| class [DeleteOptions](./deleteoptions) | Represents the setting of deleting rows/columns. |
-| class [DifSaveOptions](./difsaveoptions) | Represents the options of saving dif file. |
-| class [DocxSaveOptions](./docxsaveoptions) | Represents options of saving .docx file. |
-| class [DxfCollection](./dxfcollection) | Represents the master differential formatting records. |
-| class [DynamicFilter](./dynamicfilter) | Represents the dynamic filter. |
-| class [ErrorCheckOption](./errorcheckoption) | Error check setting applied on certain ranges. |
-| class [ErrorCheckOptionCollection](./errorcheckoptioncollection) | Represents all error check option. |
-| class [ExportObjectEvent](./exportobjectevent) | The event triggered when exporting an object, such as Picture. |
-| class [ExportTableOptions](./exporttableoptions) | Represents all export table options. |
-| class [ExternalLink](./externallink) | Represents an external link in a workbook. |
-| class [ExternalLinkCollection](./externallinkcollection) | Represents external links collection in a workbook. |
-| class [FileFontSource](./filefontsource) | Represents the single TrueType font file stored in the file system. |
-| class [FileFormatInfo](./fileformatinfo) | Contains data returned by [`FileFormatUtil`](aspose.cells/fileformatutil) file format detection methods. |
-| class [FileFormatUtil](./fileformatutil) | Provides utility methods for converting file format enums to strings or file extensions and back. |
-| class [FilterColumn](./filtercolumn) | Represents a filter for a single column. The Filter object is a member of the Filters collection |
-| class [FilterColumnCollection](./filtercolumncollection) | A collection of Filter objects that represents all the filters in an autofiltered range. |
-| class [FindOptions](./findoptions) | Represents find options. |
-| class [FolderFontSource](./folderfontsource) | Represents the folder that contains TrueType font files. |
-| class [Font](./font) | Encapsulates the font object used in a spreadsheet. |
-| class [FontConfigs](./fontconfigs) | Specifies font settings |
-| class [FontSetting](./fontsetting) | Represents a range of characters within the cell text. |
-| abstract class [FontSourceBase](./fontsourcebase) | This is an abstract base class for the classes that allow the user to specify various font sources |
-| class [FormatCondition](./formatcondition) | Represents conditional formatting condition. |
-| class [FormatConditionCollection](./formatconditioncollection) | Represents conditional formatting. The FormatConditions can contain up to three conditional formats. |
-| class [FormulaParseOptions](./formulaparseoptions) | Represents options when parsing formula. |
-| class [FormulaSettings](./formulasettings) | Settings of formulas and calculation. |
-| class [GlobalizationSettings](./globalizationsettings) | Represents the globalization settings. |
-| class [HeaderFooterCommand](./headerfootercommand) | Represents the command of header/footer |
-| class [HorizontalPageBreak](./horizontalpagebreak) | Encapsulates the object that represents a horizontal page break. |
-| class [HorizontalPageBreakCollection](./horizontalpagebreakcollection) | Encapsulates a collection of [`HorizontalPageBreak`](aspose.cells/horizontalpagebreak) objects. |
-| class [HtmlLoadOptions](./htmlloadoptions) | Represents options when importing a html file. |
-| class [HtmlSaveOptions](./htmlsaveoptions) | Represents the options for saving html file. |
-| class [Hyperlink](./hyperlink) | Encapsulates the object that represents a hyperlink. |
-| class [HyperlinkCollection](./hyperlinkcollection) | Encapsulates a collection of [`Hyperlink`](aspose.cells/hyperlink) objects. |
-| class [IconFilter](./iconfilter) | Represents icon filter. |
-| class [IconSet](./iconset) | Describe the IconSet conditional formatting rule. This conditional formatting rule applies icons to cells according to their values. |
-| class [ImageSaveOptions](./imagesaveoptions) | Represents image save options |
-| class [ImportTableOptions](./importtableoptions) | Represents the options of importing data into cells. |
-| class [IndividualFontConfigs](./individualfontconfigs) | Font configs for each [`Workbook`](aspose.cells/workbook) object. |
-| class [InsertOptions](./insertoptions) | Represents the options of inserting. |
-| class [InterruptMonitor](./interruptmonitor) | Represents all operator about the interrupt. |
-| class [JsonLoadOptions](./jsonloadoptions) | Represents the options of loading json files |
-| class [JsonSaveOptions](./jsonsaveoptions) | Represents the options of saving the workbook as a json file. |
-| class [License](./license) | Provides methods to license the component. |
-| class [LoadFilter](./loadfilter) | Represents the filter that provides options for loading data when loading workbook from template. |
-| class [LoadOptions](./loadoptions) | Represents the options of loading the file. |
-| class [MarkdownSaveOptions](./markdownsaveoptions) | Represents the save options for markdown. |
-| class [MemoryFontSource](./memoryfontsource) | Represents the single TrueType font file stored in memory. |
-| class [Metered](./metered) | Provides methods to set metered key. |
-| class [MultipleFilterCollection](./multiplefiltercollection) | Represents the multiple filter collection. |
-| class [Name](./name) | Represents a defined name for a range of cells. |
-| class [NameCollection](./namecollection) | Represents a collection of all the [`Name`](aspose.cells/name) objects in the spreadsheet. |
-| class [NegativeBarFormat](./negativebarformat) | Represents the color settings of the data bars for negative values that are defined by a data bar conditional formatting rule. |
-| class [OdsLoadOptions](./odsloadoptions) | Represents the options of loading ods file. |
-| class [OdsSaveOptions](./odssaveoptions) | Represents the options of saving ods file. |
-| class [OoxmlSaveOptions](./ooxmlsaveoptions) | Represents the options of saving office open xml file. |
-| class [Outline](./outline) | Represents an outline on a worksheet. |
-| class [PageSetup](./pagesetup) | Encapsulates the object that represents the page setup description. The PageSetup object contains all page setup options. |
-| class [PaneCollection](./panecollection) | Represents all Pane objects shown in the specified window. |
-| class [PasteOptions](./pasteoptions) | Represents the paste special options. |
-| class [PdfSaveOptions](./pdfsaveoptions) | Represents the options for saving pdf file. |
-| class [PptxSaveOptions](./pptxsaveoptions) | Represents the pptx save options. |
-| class [ProtectedRange](./protectedrange) | A specified range to be allowed to edit when the sheet protection is ON. |
-| class [ProtectedRangeCollection](./protectedrangecollection) | Encapsulates a collection of [`ProtectedRange`](aspose.cells/protectedrange) objects. |
-| class [Protection](./protection) | Represents the various types of protection options available for a worksheet. |
-| class [QueryTable](./querytable) | Represents QueryTable information. |
-| class [QueryTableCollection](./querytablecollection) | A collection of [`QueryTableCollection`](aspose.cells/querytablecollection) objects that represent QueryTable collection information. |
-| class [Range](./range) | Encapsulates the object that represents a range of cells within a spreadsheet. |
-| class [RangeCollection](./rangecollection) | Encapsulates a collection of [`Range`](aspose.cells/range) objects. |
-| class [ReferredArea](./referredarea) | Represents a referred area by the formula. |
-| class [ReferredAreaCollection](./referredareacollection) | Represents all referred cells and areas. |
-| class [ReplaceOptions](./replaceoptions) | Represent the replace options. |
-| class [Row](./row) | Represents a single row in a worksheet. |
-| class [RowCollection](./rowcollection) | Collects the  objects that represent the individual rows in a worksheet. |
-| class [SaveOptions](./saveoptions) | Represents all save options |
-| class [Scenario](./scenario) | Represents an individual scenario. |
-| class [ScenarioCollection](./scenariocollection) | Represents the list of scenarios. |
-| class [ScenarioInputCell](./scenarioinputcell) | Represents input cell for the scenario. |
-| class [ScenarioInputCellCollection](./scenarioinputcellcollection) | Represents the list of the scenario's input cells. |
-| class [SpreadsheetML2003SaveOptions](./spreadsheetml2003saveoptions) | Represents the options for saving Excel 2003 spreadml file. |
-| class [StreamProviderOptions](./streamprovideroptions) | Represents the stream options. |
-| class [Style](./style) | Represents display style of excel document,such as font,color,alignment,border,etc. |
-| class [StyleFlag](./styleflag) | Represents flags which indicates applied formatting properties. |
-| class [SubtotalSetting](./subtotalsetting) | Represents the setting of the subtotal . |
-| class [SvgSaveOptions](./svgsaveoptions) | Represents Svg save options |
-| class [ThemeColor](./themecolor) | Represents a theme color. |
-| class [ThreadedComment](./threadedcomment) | Represents the threaded comment. |
-| class [ThreadedCommentAuthor](./threadedcommentauthor) | Represents the person who creates the threaded comments; |
-| class [ThreadedCommentAuthorCollection](./threadedcommentauthorcollection) | Represents all persons who . |
-| class [ThreadedCommentCollection](./threadedcommentcollection) | Represents the list of threaded comments. |
-| class [Top10](./top10) | Describe the Top10 conditional formatting rule. This conditional formatting rule highlights cells whose values fall in the top N or bottom N bracket, as specified. |
-| class [Top10Filter](./top10filter) | Represents the top 10 filter. |
-| class [TxtLoadOptions](./txtloadoptions) | Represents the options for loading text file. |
-| class [TxtSaveOptions](./txtsaveoptions) | Represents the save options for csv/tab delimited/other text format. |
-| class [UnionRange](./unionrange) | Represents union range. |
-| class [Validation](./validation) | Represents data validation.settings. |
-| class [ValidationCollection](./validationcollection) | Represents data validation collection. |
-| class [VerticalPageBreak](./verticalpagebreak) | Encapsulates the object that represents a vertical page break. |
-| class [VerticalPageBreakCollection](./verticalpagebreakcollection) | Encapsulates a collection of [`VerticalPageBreak`](aspose.cells/verticalpagebreak) objects. |
-| class [WarningInfo](./warninginfo) | Warning info |
-| class [Workbook](./workbook) | Represents a root object to create an Excel spreadsheet. |
-| class [WorkbookDesigner](./workbookdesigner) | Encapsulates the object that represents a designer spreadsheet. |
-| class [WorkbookSettings](./workbooksettings) | Represents all settings of the workbook. |
-| class [Worksheet](./worksheet) | Encapsulates the object that represents a single worksheet. |
-| class [WorksheetCollection](./worksheetcollection) | Encapsulates a collection of [`Worksheet`](aspose.cells/worksheet) objects. |
-| class [WriteProtection](./writeprotection) | Specifies write protection settings for a workbook. |
-| class [XlsbSaveOptions](./xlsbsaveoptions) | Represents the options for saving xlsb file. |
-| class [XlsSaveOptions](./xlssaveoptions) | Represents the save options for the Excel 97-2003 file format: xls and xlt. |
-| class [XmlColumnProperty](./xmlcolumnproperty) | Represents Xml Data Binding information. |
-| class [XmlDataBinding](./xmldatabinding) | Represents Xml Data Binding information. |
-| class [XmlLoadOptions](./xmlloadoptions) | Represents the options of loading xml. |
-| class [XmlMap](./xmlmap) | Represents Xml map information. |
-| class [XmlMapCollection](./xmlmapcollection) | A collection of [`XmlMap`](aspose.cells/xmlmap) objects that represent XmlMap information. |
-| class [XmlSaveOptions](./xmlsaveoptions) | Represents the options of saving the workbook as an xml file. |
-| class [XpsSaveOptions](./xpssaveoptions) | Represents the additional options when saving the file as the Xps. |
+| [AboveAverage](./aboveaverage) | Describe the AboveAverage conditional formatting rule. This conditional formatting rule highlights cells that are above or below the average for all values in the range. |
+| [AbstractCalculationEngine](./abstractcalculationengine) | Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells. |
+| [AbstractCalculationMonitor](./abstractcalculationmonitor) | Monitor for user to track the progress of formula calculation. |
+| [AbstractGlobalizationSettings](./abstractglobalizationsettings) | Represents the globalization settings. |
+| [AbstractInterruptMonitor](./abstractinterruptmonitor) | Monitor for interruption requests in all time-consuming operations. |
+| [AbstractTextLoadOptions](./abstracttextloadoptions) | Common options for loading text values |
+| [AutoFilter](./autofilter) | Represents autofiltering for the specified worksheet. |
+| [AutoFitterOptions](./autofitteroptions) | Represents all auto fitter options. |
+| [Border](./border) | Encapsulates the object that represents the cell border. |
+| [BorderCollection](./bordercollection) | Encapsulates a collection of [`Border`](aspose.cells/border) objects. |
+| [CalculationCell](./calculationcell) | Represents the calculation relevant data about one cell which is being calculated. |
+| [CalculationData](./calculationdata) | Represents the required data when calculating one function, such as function name, parameters, ...etc. |
+| [CalculationOptions](./calculationoptions) | Represents options for calculation. |
+| [Cell](./cell) | Encapsulates the object that represents a single Workbook cell. |
+| [Cells](./cells) | Encapsulates a collection of cell relevant objects, such as [`Cell`](aspose.cells/cell), [`Row`](aspose.cells/row), ...etc. |
+| [CellsColor](./cellscolor) | Represents all types of color. |
+| [CellsException](./cellsexception) | The exception that is thrown when Aspose.Cells specified error occurs. |
+| [CellsFactory](./cellsfactory) | Utility for instantiating classes of Cells model. |
+| [CellsHelper](./cellshelper) | Provides helper functions. |
+| [CellWatch](./cellwatch) | Represents Cell Watch Item in the 'watch window'. |
+| [CellWatchCollection](./cellwatchcollection) | Represents the collection of cells on this worksheet being watched in the 'watch window'. |
+| [CollectionBase&lt;T&gt;](./collectionbase-1) | Provides the abstract base class for a strongly typed collection. |
+| [ColorFilter](./colorfilter) | Represents the color filter. |
+| [ColorScale](./colorscale) | Describe the ColorScale conditional formatting rule. This conditional formatting rule creates a gradated color scale on the cells. |
+| [Column](./column) | Represents a single column in a worksheet. |
+| [ColumnCollection](./columncollection) | Collection of the  objects that represent the individual column(setting)s in a worksheet. The Column object only represents the settings such as column width, styles, .etc. for the whole column, has nothing to do with the fact that there are non-empty cells(data) or not in corresponding column. And the "Count" of this collection only represents the count Column objects that have been instantiated in this collection, has nothing to do with the fact that there are non-empty cells(data) or not in the worksheet. |
+| [Comment](./comment) | Encapsulates the object that represents a cell comment. |
+| [CommentCollection](./commentcollection) | Encapsulates a collection of [`Comment`](aspose.cells/comment) objects. |
+| [ConditionalFormattingCollection](./conditionalformattingcollection) | Encapsulates a collection of [`FormatCondition`](aspose.cells/formatcondition) objects. |
+| [ConditionalFormattingIcon](./conditionalformattingicon) | Represents the custom icon of conditional formatting rule. |
+| [ConditionalFormattingIconCollection](./conditionalformattingiconcollection) | Represents a collection of [`ConditionalFormattingIcon`](aspose.cells/conditionalformattingicon) objects. |
+| [ConditionalFormattingResult](./conditionalformattingresult) | Represents the result of conditional formatting which applies to a cell. |
+| [ConditionalFormattingValue](./conditionalformattingvalue) | Describes the values of the interpolation points in a gradient scale, dataBar or iconSet. |
+| [ConditionalFormattingValueCollection](./conditionalformattingvaluecollection) | Describes a collection of CFValueObject. Use only for icon sets. |
+| [CopyOptions](./copyoptions) | Represents the copy options. |
+| [CustomFilter](./customfilter) | Represents the custom filter. |
+| [CustomFilterCollection](./customfiltercollection) | Represents the custom filters. |
+| [CustomImplementationFactory](./customimplementationfactory) | Factory to create some instances which may be re-implemented by user for special purpose. |
+| [DataBar](./databar) | Describe the DataBar conditional formatting rule. This conditional formatting rule displays a gradated data bar in the range of cells. |
+| [DataBarBorder](./databarborder) | Represents the border of the data bars specified by a conditional formatting rule. |
+| [DataSorter](./datasorter) | Summary description for DataSorter. |
+| [DataSorterKey](./datasorterkey) | Represents the key of the data sorter. |
+| [DataSorterKeyCollection](./datasorterkeycollection) | Represents the key list of data sorter. |
+| [DateTimeGroupItem](./datetimegroupitem) | Represents the datetime's group setting. |
+| [DefaultStyleSettings](./defaultstylesettings) | Settings for the default values of workbook's style properties. |
+| [DeleteOptions](./deleteoptions) | Represents the setting of deleting rows/columns. |
+| [DifSaveOptions](./difsaveoptions) | Represents the options of saving dif file. |
+| [DocxSaveOptions](./docxsaveoptions) | Represents options of saving .docx file. |
+| [DxfCollection](./dxfcollection) | Represents the master differential formatting records. |
+| [DynamicFilter](./dynamicfilter) | Represents the dynamic filter. |
+| [ErrorCheckOption](./errorcheckoption) | Error check setting applied on certain ranges. |
+| [ErrorCheckOptionCollection](./errorcheckoptioncollection) | Represents all error check option. |
+| [ExportObjectEvent](./exportobjectevent) | The event triggered when exporting an object, such as Picture. |
+| [ExportTableOptions](./exporttableoptions) | Represents all export table options. |
+| [ExternalLink](./externallink) | Represents an external link in a workbook. |
+| [ExternalLinkCollection](./externallinkcollection) | Represents external links collection in a workbook. |
+| [FileFontSource](./filefontsource) | Represents the single TrueType font file stored in the file system. |
+| [FileFormatInfo](./fileformatinfo) | Contains data returned by [`FileFormatUtil`](aspose.cells/fileformatutil) file format detection methods. |
+| [FileFormatUtil](./fileformatutil) | Provides utility methods for converting file format enums to strings or file extensions and back. |
+| [FilterColumn](./filtercolumn) | Represents a filter for a single column. The Filter object is a member of the Filters collection |
+| [FilterColumnCollection](./filtercolumncollection) | A collection of Filter objects that represents all the filters in an autofiltered range. |
+| [FindOptions](./findoptions) | Represents find options. |
+| [FolderFontSource](./folderfontsource) | Represents the folder that contains TrueType font files. |
+| [Font](./font) | Encapsulates the font object used in a spreadsheet. |
+| [FontConfigs](./fontconfigs) | Specifies font settings |
+| [FontSetting](./fontsetting) | Represents a range of characters within the cell text. |
+| [FontSourceBase](./fontsourcebase) | This is an abstract base class for the classes that allow the user to specify various font sources |
+| [FormatCondition](./formatcondition) | Represents conditional formatting condition. |
+| [FormatConditionCollection](./formatconditioncollection) | Represents conditional formatting. The FormatConditions can contain up to three conditional formats. |
+| [FormulaParseOptions](./formulaparseoptions) | Represents options when parsing formula. |
+| [FormulaSettings](./formulasettings) | Settings of formulas and calculation. |
+| [GlobalizationSettings](./globalizationsettings) | Represents the globalization settings. |
+| [HeaderFooterCommand](./headerfootercommand) | Represents the command of header/footer |
+| [HorizontalPageBreak](./horizontalpagebreak) | Encapsulates the object that represents a horizontal page break. |
+| [HorizontalPageBreakCollection](./horizontalpagebreakcollection) | Encapsulates a collection of [`HorizontalPageBreak`](aspose.cells/horizontalpagebreak) objects. |
+| [HtmlLoadOptions](./htmlloadoptions) | Represents options when importing a html file. |
+| [HtmlSaveOptions](./htmlsaveoptions) | Represents the options for saving html file. |
+| [Hyperlink](./hyperlink) | Encapsulates the object that represents a hyperlink. |
+| [HyperlinkCollection](./hyperlinkcollection) | Encapsulates a collection of [`Hyperlink`](aspose.cells/hyperlink) objects. |
+| [IconFilter](./iconfilter) | Represents icon filter. |
+| [IconSet](./iconset) | Describe the IconSet conditional formatting rule. This conditional formatting rule applies icons to cells according to their values. |
+| [ImageSaveOptions](./imagesaveoptions) | Represents image save options |
+| [ImportTableOptions](./importtableoptions) | Represents the options of importing data into cells. |
+| [IndividualFontConfigs](./individualfontconfigs) | Font configs for each [`Workbook`](aspose.cells/workbook) object. |
+| [InsertOptions](./insertoptions) | Represents the options of inserting. |
+| [InterruptMonitor](./interruptmonitor) | Represents all operator about the interrupt. |
+| [JsonLoadOptions](./jsonloadoptions) | Represents the options of loading json files |
+| [JsonSaveOptions](./jsonsaveoptions) | Represents the options of saving the workbook as a json file. |
+| [License](./license) | Provides methods to license the component. |
+| [LoadFilter](./loadfilter) | Represents the filter that provides options for loading data when loading workbook from template. |
+| [LoadOptions](./loadoptions) | Represents the options of loading the file. |
+| [MarkdownSaveOptions](./markdownsaveoptions) | Represents the save options for markdown. |
+| [MemoryFontSource](./memoryfontsource) | Represents the single TrueType font file stored in memory. |
+| [Metered](./metered) | Provides methods to set metered key. |
+| [MultipleFilterCollection](./multiplefiltercollection) | Represents the multiple filter collection. |
+| [Name](./name) | Represents a defined name for a range of cells. |
+| [NameCollection](./namecollection) | Represents a collection of all the [`Name`](aspose.cells/name) objects in the spreadsheet. |
+| [NegativeBarFormat](./negativebarformat) | Represents the color settings of the data bars for negative values that are defined by a data bar conditional formatting rule. |
+| [OdsLoadOptions](./odsloadoptions) | Represents the options of loading ods file. |
+| [OdsSaveOptions](./odssaveoptions) | Represents the options of saving ods file. |
+| [OoxmlSaveOptions](./ooxmlsaveoptions) | Represents the options of saving office open xml file. |
+| [Outline](./outline) | Represents an outline on a worksheet. |
+| [PageSetup](./pagesetup) | Encapsulates the object that represents the page setup description. The PageSetup object contains all page setup options. |
+| [PaneCollection](./panecollection) | Represents all Pane objects shown in the specified window. |
+| [PasteOptions](./pasteoptions) | Represents the paste special options. |
+| [PdfSaveOptions](./pdfsaveoptions) | Represents the options for saving pdf file. |
+| [PptxSaveOptions](./pptxsaveoptions) | Represents the pptx save options. |
+| [ProtectedRange](./protectedrange) | A specified range to be allowed to edit when the sheet protection is ON. |
+| [ProtectedRangeCollection](./protectedrangecollection) | Encapsulates a collection of [`ProtectedRange`](aspose.cells/protectedrange) objects. |
+| [Protection](./protection) | Represents the various types of protection options available for a worksheet. |
+| [QueryTable](./querytable) | Represents QueryTable information. |
+| [QueryTableCollection](./querytablecollection) | A collection of [`QueryTableCollection`](aspose.cells/querytablecollection) objects that represent QueryTable collection information. |
+| [Range](./range) | Encapsulates the object that represents a range of cells within a spreadsheet. |
+| [RangeCollection](./rangecollection) | Encapsulates a collection of [`Range`](aspose.cells/range) objects. |
+| [ReferredArea](./referredarea) | Represents a referred area by the formula. |
+| [ReferredAreaCollection](./referredareacollection) | Represents all referred cells and areas. |
+| [ReplaceOptions](./replaceoptions) | Represent the replace options. |
+| [Row](./row) | Represents a single row in a worksheet. |
+| [RowCollection](./rowcollection) | Collects the  objects that represent the individual rows in a worksheet. |
+| [SaveOptions](./saveoptions) | Represents all save options |
+| [Scenario](./scenario) | Represents an individual scenario. |
+| [ScenarioCollection](./scenariocollection) | Represents the list of scenarios. |
+| [ScenarioInputCell](./scenarioinputcell) | Represents input cell for the scenario. |
+| [ScenarioInputCellCollection](./scenarioinputcellcollection) | Represents the list of the scenario's input cells. |
+| [SpreadsheetML2003SaveOptions](./spreadsheetml2003saveoptions) | Represents the options for saving Excel 2003 spreadml file. |
+| [StreamProviderOptions](./streamprovideroptions) | Represents the stream options. |
+| [Style](./style) | Represents display style of excel document,such as font,color,alignment,border,etc. |
+| [StyleFlag](./styleflag) | Represents flags which indicates applied formatting properties. |
+| [SubtotalSetting](./subtotalsetting) | Represents the setting of the subtotal . |
+| [SvgSaveOptions](./svgsaveoptions) | Represents Svg save options |
+| [ThemeColor](./themecolor) | Represents a theme color. |
+| [ThreadedComment](./threadedcomment) | Represents the threaded comment. |
+| [ThreadedCommentAuthor](./threadedcommentauthor) | Represents the person who creates the threaded comments; |
+| [ThreadedCommentAuthorCollection](./threadedcommentauthorcollection) | Represents all persons who . |
+| [ThreadedCommentCollection](./threadedcommentcollection) | Represents the list of threaded comments. |
+| [Top10](./top10) | Describe the Top10 conditional formatting rule. This conditional formatting rule highlights cells whose values fall in the top N or bottom N bracket, as specified. |
+| [Top10Filter](./top10filter) | Represents the top 10 filter. |
+| [TxtLoadOptions](./txtloadoptions) | Represents the options for loading text file. |
+| [TxtSaveOptions](./txtsaveoptions) | Represents the save options for csv/tab delimited/other text format. |
+| [UnionRange](./unionrange) | Represents union range. |
+| [Validation](./validation) | Represents data validation.settings. |
+| [ValidationCollection](./validationcollection) | Represents data validation collection. |
+| [VerticalPageBreak](./verticalpagebreak) | Encapsulates the object that represents a vertical page break. |
+| [VerticalPageBreakCollection](./verticalpagebreakcollection) | Encapsulates a collection of [`VerticalPageBreak`](aspose.cells/verticalpagebreak) objects. |
+| [WarningInfo](./warninginfo) | Warning info |
+| [Workbook](./workbook) | Represents a root object to create an Excel spreadsheet. |
+| [WorkbookDesigner](./workbookdesigner) | Encapsulates the object that represents a designer spreadsheet. |
+| [WorkbookSettings](./workbooksettings) | Represents all settings of the workbook. |
+| [Worksheet](./worksheet) | Encapsulates the object that represents a single worksheet. |
+| [WorksheetCollection](./worksheetcollection) | Encapsulates a collection of [`Worksheet`](aspose.cells/worksheet) objects. |
+| [WriteProtection](./writeprotection) | Specifies write protection settings for a workbook. |
+| [XlsbSaveOptions](./xlsbsaveoptions) | Represents the options for saving xlsb file. |
+| [XlsSaveOptions](./xlssaveoptions) | Represents the save options for the Excel 97-2003 file format: xls and xlt. |
+| [XmlColumnProperty](./xmlcolumnproperty) | Represents Xml Data Binding information. |
+| [XmlDataBinding](./xmldatabinding) | Represents Xml Data Binding information. |
+| [XmlLoadOptions](./xmlloadoptions) | Represents the options of loading xml. |
+| [XmlMap](./xmlmap) | Represents Xml map information. |
+| [XmlMapCollection](./xmlmapcollection) | A collection of [`XmlMap`](aspose.cells/xmlmap) objects that represent XmlMap information. |
+| [XmlSaveOptions](./xmlsaveoptions) | Represents the options of saving the workbook as an xml file. |
+| [XpsSaveOptions](./xpssaveoptions) | Represents the additional options when saving the file as the Xps. |
 ## Interfaces
 
 | Interface | Description |
 | --- | --- |
-| interface [ICellsDataTable](./icellsdatatable) | Represents data table. |
-| interface [ICustomParser](./icustomparser) | Allows users to add their custom value parser for parsing string values to other proper cell value object. |
-| interface [IExportObjectListener](./iexportobjectlistener) | Allows users to manipulate objects while exporting. |
-| interface [IFilePathProvider](./ifilepathprovider) | Represents the exported file path provider. |
-| interface [ISmartMarkerCallBack](./ismartmarkercallback) | Represents callback interface of processing smartmarker. |
-| interface [IStreamProvider](./istreamprovider) | Represents the exported stream provider. |
-| interface [IWarningCallback](./iwarningcallback) | Callback interface of warning. |
-| interface [LightCellsDataHandler](./lightcellsdatahandler) | Represents cells data handler for reading large spreadsheet files in light weight mode. |
-| interface [LightCellsDataProvider](./lightcellsdataprovider) | Represents Data provider for saving large spreadsheet files in light weight mode. |
+| [ICellsDataTable](./icellsdatatable) | Represents data table. |
+| [ICustomParser](./icustomparser) | Allows users to add their custom value parser for parsing string values to other proper cell value object. |
+| [IExportObjectListener](./iexportobjectlistener) | Allows users to manipulate objects while exporting. |
+| [IFilePathProvider](./ifilepathprovider) | Represents the exported file path provider. |
+| [ISmartMarkerCallBack](./ismartmarkercallback) | Represents callback interface of processing smartmarker. |
+| [IStreamProvider](./istreamprovider) | Represents the exported stream provider. |
+| [IWarningCallback](./iwarningcallback) | Callback interface of warning. |
+| [LightCellsDataHandler](./lightcellsdatahandler) | Represents cells data handler for reading large spreadsheet files in light weight mode. |
+| [LightCellsDataProvider](./lightcellsdataprovider) | Represents Data provider for saving large spreadsheet files in light weight mode. |
 ## Enumeration
 
 | Enumeration | Description |
 | --- | --- |
-| enum [AccessCacheOptions](./accesscacheoptions) | Cache options for data access. Can be combined with &#x7C; operator for multiple options together. |
-| enum [AutoFillType](./autofilltype) | Represents the auto fill type. |
-| enum [AutoFitMergedCellsType](./autofitmergedcellstype) | Represents the type of auto fitting merged cells. |
-| enum [AutoFitWrappedTextType](./autofitwrappedtexttype) | Represents the type of auto fitting wrapped text. |
-| enum [BackgroundType](./backgroundtype) | Enumerates cell background pattern types. |
-| enum [BorderType](./bordertype) | Enumerates the border line and diagonal line types. |
-| enum [BuiltinStyleType](./builtinstyletype) | Represents all built-in style type |
-| enum [CalcModeType](./calcmodetype) | Represents the mode type of calculating formulas. |
-| enum [CalculationPrecisionStrategy](./calculationprecisionstrategy) | Enumerates strategies for handling calculation precision. Because of the precision issue of IEEE 754 Floating-Point Arithmetic, some "seemingly simple" formulas may not be calculated as the expected result. Such as formula "=-0.45+0.43+0.02", when calculating operands by '+' operator directly, the result is not zero. For such kind of precision issue, some special strategies may give the expected result. |
-| enum [CellBorderType](./cellbordertype) | Enumerates a cell's border type. |
-| enum [CellValueFormatStrategy](./cellvalueformatstrategy) | Specifies how to apply style for the value of the cell. |
-| enum [CellValueType](./cellvaluetype) | Specifies a cell value type. |
-| enum [ColorType](./colortype) | Represents all color type |
-| enum [ConsolidationFunction](./consolidationfunction) | Represents consolidation function. |
-| enum [CopyFormatType](./copyformattype) | Represents type of copying format when inserting rows. |
-| enum [CountryCode](./countrycode) | Represents Excel country identifiers. |
-| enum [DataBarAxisPosition](./databaraxisposition) | Specifies the axis position for a range of cells with conditional formatting as data bars. |
-| enum [DataBarBorderType](./databarbordertype) | Specifies the border type of a data bar. |
-| enum [DataBarFillType](./databarfilltype) | Specifies how a data bar is filled with color. |
-| enum [DataBarNegativeColorType](./databarnegativecolortype) | Specifies whether to use the same border and fill color as positive data bars. |
-| enum [DateTimeGroupingType](./datetimegroupingtype) | Specifies how to group dateTime values. |
-| enum [DefaultEditLanguage](./defaulteditlanguage) | Represents the default edit language. |
-| enum [DirectoryType](./directorytype) | Represents the directory type of the file name. |
-| enum [DisplayDrawingObjects](./displaydrawingobjects) | Represents whether and how to show objects in the workbook. |
-| enum [DynamicFilterType](./dynamicfiltertype) | Dynamic filter type. |
-| enum [EmfRenderSetting](./emfrendersetting) | Setting for rendering Emf metafile. |
-| enum [EncryptionType](./encryptiontype) | Encryption Type. Only used by excel2003. We will encrypt 2007/2010 workbook using SHA AES the same as Excel does, and this EncryptionType will be ignored. |
-| enum [ErrorCheckType](./errorchecktype) | Represents all error check type. |
-| enum [ExceptionType](./exceptiontype) | Represents custom exception type code. |
-| enum [ExternalLinkType](./externallinktype) | Represents the type of external link. |
-| enum [FileFormatType](./fileformattype) | Represents the file format types. |
-| enum [FilterOperatorType](./filteroperatortype) | Custom Filter operator type. |
-| enum [FilterType](./filtertype) | The filter type. |
-| enum [FontSchemeType](./fontschemetype) | Represents the scheme type of the font. |
-| enum [FontSourceType](./fontsourcetype) | Specifies the type of a font source. |
-| enum [FontUnderlineType](./fontunderlinetype) | Enumerates the font underline types. |
-| enum [FormatConditionType](./formatconditiontype) | Conditional format rule type. |
-| enum [FormatConditionValueType](./formatconditionvaluetype) | Condition value type. |
-| enum [GridlineType](./gridlinetype) | Enumerates grid line Type. |
-| enum [HeaderFooterCommandType](./headerfootercommandtype) | Represents the command type of header and footer. |
-| enum [HtmlCrossType](./htmlcrosstype) | Represents five types of html cross string. |
-| enum [HtmlExportDataOptions](./htmlexportdataoptions) | Represents the options for exporting html data. |
-| enum [HtmlHiddenColDisplayType](./htmlhiddencoldisplaytype) | Represents two types of showing the hidden columns in html. |
-| enum [HtmlHiddenRowDisplayType](./htmlhiddenrowdisplaytype) | Represents two types of showing the hidden rows in html. |
-| enum [HtmlLinkTargetType](./htmllinktargettype) | Represents the type of target attribute in HTML  tag. |
-| enum [IconSetType](./iconsettype) | Icon set type for conditional formatting. The threshold values for triggering the different icons within a set are configurable, and the icon order is reversible. |
-| enum [LoadDataFilterOptions](./loaddatafilteroptions) | Represents the options to filter data when loading workbook from template. |
-| enum [LoadFormat](./loadformat) | Represents the load file format. |
-| enum [LookAtType](./lookattype) | Represents look at type. |
-| enum [LookInType](./lookintype) | Represents look in type. |
-| enum [MemorySetting](./memorysetting) | Memory usage options. |
-| enum [NameScopeType](./namescopetype) | Represents the scope type of defined names. |
-| enum [NumberCategoryType](./numbercategorytype) | Represents category type of cell's number formatting. |
-| enum [OoxmlCompliance](./ooxmlcompliance) | Allows to specify which OOXML specification will be used when saving in the Xlsx format. |
-| enum [OoxmlCompressionType](./ooxmlcompressiontype) | The Ooxml compression type |
-| enum [OperatorType](./operatortype) | Represents the operator type of conditional format and data validation. |
-| enum [PageLayoutAlignmentType](./pagelayoutalignmenttype) | Enumerates page layout alignment types. |
-| enum [PageOrientationType](./pageorientationtype) | Represents print orientation constants. |
-| enum [PaneStateType](./panestatetype) | Represents state of the sheet's pane. |
-| enum [PaperSizeType](./papersizetype) | Represents paper size constants. |
-| enum [ParameterType](./parametertype) | Represents all parameters' type or return value type of function. |
-| enum [PasteOperationType](./pasteoperationtype) | Represents operation type when pasting range. |
-| enum [PasteType](./pastetype) | Represents the paste special type. |
-| enum [PrintCommentsType](./printcommentstype) | Represents the way comments are printed with the sheet. |
-| enum [PrintErrorsType](./printerrorstype) | Represents print errors constants. |
-| enum [PrintingPageType](./printingpagetype) | Indicates which pages will not be printed. |
-| enum [PrintOrderType](./printordertype) | Represent print order constants. |
-| enum [PrintSizeType](./printsizetype) | Represents the printed chart size. |
-| enum [ProtectionType](./protectiontype) | Represents workbook/worksheet protection type. |
-| enum [RenameStrategy](./renamestrategy) | Strategy option for duplicate names of columns. |
-| enum [ResourceLoadingType](./resourceloadingtype) | Represents how to loading the linked resource. |
-| enum [SaveFormat](./saveformat) | Represents the format in which the workbook is saved. |
-| enum [SheetType](./sheettype) | Specifies the worksheet type. |
-| enum [ShiftType](./shifttype) | Represent the shift options when deleting a range of cells. |
-| enum [SortOnType](./sortontype) | Sorted value type. |
-| enum [SortOrder](./sortorder) | Represents sort order for the data range. |
-| enum [StyleModifyFlag](./stylemodifyflag) | The style modified flags. |
-| enum [TargetModeType](./targetmodetype) | Represents the type of target mode. |
-| enum [TextAlignmentType](./textalignmenttype) | Enumerates text alignment types. |
-| enum [TextCapsType](./textcapstype) | This type specifies the cap types of the text. |
-| enum [TextCrossType](./textcrosstype) | Enumerates displaying text type when the text width is larger than cell width. |
-| enum [TextDirectionType](./textdirectiontype) | Represents the direction of the text flow for this paragraph. |
-| enum [TextOrientationType](./textorientationtype) | Enumerates text orientation types. |
-| enum [TextStrikeType](./textstriketype) | This type specifies the strike type. |
-| enum [ThemeColorType](./themecolortype) | Enumerates the theme color types. |
-| enum [TimePeriodType](./timeperiodtype) | Used in a FormatConditionType.TimePeriod conditional formatting rule. These are dynamic time periods, which change based on the date the conditional formatting is refreshed / applied. |
-| enum [TxtLoadStyleStrategy](./txtloadstylestrategy) | Specifies how to apply style for parsed values when converting string value to number or datetime. |
-| enum [TxtValueQuoteType](./txtvaluequotetype) | Specifies the type of using quotation marks for values in text format files. |
-| enum [UpdateLinksType](./updatelinkstype) | Represents how to update links to other workbooks when the workbook is opened. |
-| enum [ValidationAlertType](./validationalerttype) | Represents the data validation alert style. |
-| enum [ValidationType](./validationtype) | Represents data validation type. |
-| enum [ViewType](./viewtype) | Represents the view type of the worksheet. |
-| enum [VisibilityType](./visibilitytype) | Represents the states for sheet visibility. |
-| enum [WarningType](./warningtype) | WaringType |
+| [AccessCacheOptions](./accesscacheoptions) | Cache options for data access. Can be combined with &#x7C; operator for multiple options together. |
+| [AutoFillType](./autofilltype) | Represents the auto fill type. |
+| [AutoFitMergedCellsType](./autofitmergedcellstype) | Represents the type of auto fitting merged cells. |
+| [AutoFitWrappedTextType](./autofitwrappedtexttype) | Represents the type of auto fitting wrapped text. |
+| [BackgroundType](./backgroundtype) | Enumerates cell background pattern types. |
+| [BorderType](./bordertype) | Enumerates the border line and diagonal line types. |
+| [BuiltinStyleType](./builtinstyletype) | Represents all built-in style type |
+| [CalcModeType](./calcmodetype) | Represents the mode type of calculating formulas. |
+| [CalculationPrecisionStrategy](./calculationprecisionstrategy) | Enumerates strategies for handling calculation precision. Because of the precision issue of IEEE 754 Floating-Point Arithmetic, some "seemingly simple" formulas may not be calculated as the expected result. Such as formula "=-0.45+0.43+0.02", when calculating operands by '+' operator directly, the result is not zero. For such kind of precision issue, some special strategies may give the expected result. |
+| [CellBorderType](./cellbordertype) | Enumerates a cell's border type. |
+| [CellValueFormatStrategy](./cellvalueformatstrategy) | Specifies how to apply style for the value of the cell. |
+| [CellValueType](./cellvaluetype) | Specifies a cell value type. |
+| [ColorType](./colortype) | Represents all color type |
+| [ConsolidationFunction](./consolidationfunction) | Represents consolidation function. |
+| [ContentDisposition](./contentdisposition) | The content disposition type. |
+| [CopyFormatType](./copyformattype) | Represents type of copying format when inserting rows. |
+| [CountryCode](./countrycode) | Represents Excel country identifiers. |
+| [DataBarAxisPosition](./databaraxisposition) | Specifies the axis position for a range of cells with conditional formatting as data bars. |
+| [DataBarBorderType](./databarbordertype) | Specifies the border type of a data bar. |
+| [DataBarFillType](./databarfilltype) | Specifies how a data bar is filled with color. |
+| [DataBarNegativeColorType](./databarnegativecolortype) | Specifies whether to use the same border and fill color as positive data bars. |
+| [DateTimeGroupingType](./datetimegroupingtype) | Specifies how to group dateTime values. |
+| [DefaultEditLanguage](./defaulteditlanguage) | Represents the default edit language. |
+| [DirectoryType](./directorytype) | Represents the directory type of the file name. |
+| [DisplayDrawingObjects](./displaydrawingobjects) | Represents whether and how to show objects in the workbook. |
+| [DynamicFilterType](./dynamicfiltertype) | Dynamic filter type. |
+| [EmfRenderSetting](./emfrendersetting) | Setting for rendering Emf metafile. |
+| [EncryptionType](./encryptiontype) | Encryption Type. Only used by excel2003. We will encrypt 2007/2010 workbook using SHA AES the same as Excel does, and this EncryptionType will be ignored. |
+| [ErrorCheckType](./errorchecktype) | Represents all error check type. |
+| [ExceptionType](./exceptiontype) | Represents custom exception type code. |
+| [ExternalLinkType](./externallinktype) | Represents the type of external link. |
+| [FileFormatType](./fileformattype) | Represents the file format types. |
+| [FilterOperatorType](./filteroperatortype) | Custom Filter operator type. |
+| [FilterType](./filtertype) | The filter type. |
+| [FontSchemeType](./fontschemetype) | Represents the scheme type of the font. |
+| [FontSourceType](./fontsourcetype) | Specifies the type of a font source. |
+| [FontUnderlineType](./fontunderlinetype) | Enumerates the font underline types. |
+| [FormatConditionType](./formatconditiontype) | Conditional format rule type. |
+| [FormatConditionValueType](./formatconditionvaluetype) | Condition value type. |
+| [GridlineType](./gridlinetype) | Enumerates grid line Type. |
+| [HeaderFooterCommandType](./headerfootercommandtype) | Represents the command type of header and footer. |
+| [HtmlCrossType](./htmlcrosstype) | Represents five types of html cross string. |
+| [HtmlExportDataOptions](./htmlexportdataoptions) | Represents the options for exporting html data. |
+| [HtmlHiddenColDisplayType](./htmlhiddencoldisplaytype) | Represents two types of showing the hidden columns in html. |
+| [HtmlHiddenRowDisplayType](./htmlhiddenrowdisplaytype) | Represents two types of showing the hidden rows in html. |
+| [HtmlLinkTargetType](./htmllinktargettype) | Represents the type of target attribute in HTML  tag. |
+| [IconSetType](./iconsettype) | Icon set type for conditional formatting. The threshold values for triggering the different icons within a set are configurable, and the icon order is reversible. |
+| [LoadDataFilterOptions](./loaddatafilteroptions) | Represents the options to filter data when loading workbook from template. |
+| [LoadFormat](./loadformat) | Represents the load file format. |
+| [LookAtType](./lookattype) | Represents look at type. |
+| [LookInType](./lookintype) | Represents look in type. |
+| [MemorySetting](./memorysetting) | Memory usage options. |
+| [NameScopeType](./namescopetype) | Represents the scope type of defined names. |
+| [NumberCategoryType](./numbercategorytype) | Represents category type of cell's number formatting. |
+| [OoxmlCompliance](./ooxmlcompliance) | Allows to specify which OOXML specification will be used when saving in the Xlsx format. |
+| [OoxmlCompressionType](./ooxmlcompressiontype) | The Ooxml compression type |
+| [OperatorType](./operatortype) | Represents the operator type of conditional format and data validation. |
+| [PageLayoutAlignmentType](./pagelayoutalignmenttype) | Enumerates page layout alignment types. |
+| [PageOrientationType](./pageorientationtype) | Represents print orientation constants. |
+| [PaneStateType](./panestatetype) | Represents state of the sheet's pane. |
+| [PaperSizeType](./papersizetype) | Represents paper size constants. |
+| [ParameterType](./parametertype) | Represents all parameters' type or return value type of function. |
+| [PasteOperationType](./pasteoperationtype) | Represents operation type when pasting range. |
+| [PasteType](./pastetype) | Represents the paste special type. |
+| [PrintCommentsType](./printcommentstype) | Represents the way comments are printed with the sheet. |
+| [PrintErrorsType](./printerrorstype) | Represents print errors constants. |
+| [PrintingPageType](./printingpagetype) | Indicates which pages will not be printed. |
+| [PrintOrderType](./printordertype) | Represent print order constants. |
+| [PrintSizeType](./printsizetype) | Represents the printed chart size. |
+| [ProtectionType](./protectiontype) | Represents workbook/worksheet protection type. |
+| [RenameStrategy](./renamestrategy) | Strategy option for duplicate names of columns. |
+| [ResourceLoadingType](./resourceloadingtype) | Represents how to loading the linked resource. |
+| [SaveFormat](./saveformat) | Represents the format in which the workbook is saved. |
+| [SheetType](./sheettype) | Specifies the worksheet type. |
+| [ShiftType](./shifttype) | Represent the shift options when deleting a range of cells. |
+| [SortOnType](./sortontype) | Sorted value type. |
+| [SortOrder](./sortorder) | Represents sort order for the data range. |
+| [StyleModifyFlag](./stylemodifyflag) | The style modified flags. |
+| [TargetModeType](./targetmodetype) | Represents the type of target mode. |
+| [TextAlignmentType](./textalignmenttype) | Enumerates text alignment types. |
+| [TextCapsType](./textcapstype) | This type specifies the cap types of the text. |
+| [TextCrossType](./textcrosstype) | Enumerates displaying text type when the text width is larger than cell width. |
+| [TextDirectionType](./textdirectiontype) | Represents the direction of the text flow for this paragraph. |
+| [TextOrientationType](./textorientationtype) | Enumerates text orientation types. |
+| [TextStrikeType](./textstriketype) | This type specifies the strike type. |
+| [ThemeColorType](./themecolortype) | Enumerates the theme color types. |
+| [TimePeriodType](./timeperiodtype) | Used in a FormatConditionType.TimePeriod conditional formatting rule. These are dynamic time periods, which change based on the date the conditional formatting is refreshed / applied. |
+| [TxtLoadStyleStrategy](./txtloadstylestrategy) | Specifies how to apply style for parsed values when converting string value to number or datetime. |
+| [TxtValueQuoteType](./txtvaluequotetype) | Specifies the type of using quotation marks for values in text format files. |
+| [UpdateLinksType](./updatelinkstype) | Represents how to update links to other workbooks when the workbook is opened. |
+| [ValidationAlertType](./validationalerttype) | Represents the data validation alert style. |
+| [ValidationType](./validationtype) | Represents data validation type. |
+| [ViewType](./viewtype) | Represents the view type of the worksheet. |
+| [VisibilityType](./visibilitytype) | Represents the states for sheet visibility. |
+| [WarningType](./warningtype) | WaringType |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->

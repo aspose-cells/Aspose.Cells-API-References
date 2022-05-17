@@ -3,7 +3,7 @@ title: ImportFormulaArray
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 990
+weight: 1020
 url: /net/aspose.cells/cells/importformulaarray/
 ---
 ## Cells.ImportFormulaArray method

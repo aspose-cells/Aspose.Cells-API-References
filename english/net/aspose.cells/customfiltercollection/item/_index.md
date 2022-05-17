@@ -14,9 +14,9 @@ Gets the custom filter in the specific index.
 public CustomFilter this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index. |
+| Parameter | Description |
+| --- | --- |
+| index | The index. |
 
 ### See Also
 

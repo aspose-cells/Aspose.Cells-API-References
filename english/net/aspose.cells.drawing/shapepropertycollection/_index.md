@@ -3,7 +3,7 @@ title: ShapePropertyCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2710
+weight: 2730
 url: /net/aspose.cells.drawing/shapepropertycollection/
 ---
 ## ShapePropertyCollection class

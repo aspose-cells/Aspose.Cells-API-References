@@ -3,7 +3,7 @@ title: DisplayDrawingObjects
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1400
+weight: 1420
 url: /net/aspose.cells/displaydrawingobjects/
 ---
 ## DisplayDrawingObjects enumeration

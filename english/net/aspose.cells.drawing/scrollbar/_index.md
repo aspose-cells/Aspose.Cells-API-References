@@ -3,7 +3,7 @@ title: ScrollBar
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2570
+weight: 2590
 url: /net/aspose.cells.drawing/scrollbar/
 ---
 ## ScrollBar class

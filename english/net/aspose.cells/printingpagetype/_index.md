@@ -3,7 +3,7 @@ title: PrintingPageType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4760
+weight: 4780
 url: /net/aspose.cells/printingpagetype/
 ---
 ## PrintingPageType enumeration

@@ -3,7 +3,7 @@ title: TiffCompression
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5240
+weight: 5260
 url: /net/aspose.cells.rendering/tiffcompression/
 ---
 ## TiffCompression enumeration

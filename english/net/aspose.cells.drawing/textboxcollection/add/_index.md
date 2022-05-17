@@ -25,6 +25,15 @@ public int Add(int upperLeftRow, int upperLeftColumn, int height, int width)
 
 [`TextBox`](../../textbox) object index.
 
+### Examples
+
+```csharp
+
+[C#]
+//add a TextBox
+int index2 = textBoxCollection.Add(1, 1, 50, 100);
+```
+
 ### See Also
 
 * class [TextBoxCollection](../../textboxcollection)

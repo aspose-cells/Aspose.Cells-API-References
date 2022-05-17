@@ -3,7 +3,7 @@ title: PageOrientationType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4380
+weight: 4400
 url: /net/aspose.cells/pageorientationtype/
 ---
 ## PageOrientationType enumeration

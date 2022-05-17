@@ -12,9 +12,9 @@ url: /net/aspose.cells/referredareacollection/item/
 public ReferredArea this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  |  |
+| Parameter | Description |
+| --- | --- |
+| index |  |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: DocumentProperty
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4830
+weight: 4850
 url: /net/aspose.cells.properties/documentproperty/
 ---
 ## DocumentProperty class
@@ -42,7 +42,7 @@ public class DocumentProperty
 [C#]
 
 //Instantiate a Workbook object
-Workbook workbook = new Workbook("C:\\book1.xls");
+Workbook workbook = new Workbook("book1.xls");
  
 //Retrieve a list of all custom document properties of the Excel file
 DocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
@@ -56,7 +56,7 @@ DocumentProperty customProperty2 = customProperties["Owner"];
 [VB.NET]
 
 'Instantiate a Workbook object
-Dim workbook As Workbook = New Workbook("C:\\book1.xls")
+Dim workbook As Workbook = New Workbook("book1.xls")
  
 'Retrieve a list of all custom document properties of the Excel file
 Dim customProperties As DocumentPropertyCollection = workbook.Worksheets.CustomDocumentProperties

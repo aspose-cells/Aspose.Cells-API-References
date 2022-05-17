@@ -3,7 +3,7 @@ title: TxtLoadStyleStrategy
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6090
+weight: 6110
 url: /net/aspose.cells/txtloadstylestrategy/
 ---
 ## TxtLoadStyleStrategy enumeration

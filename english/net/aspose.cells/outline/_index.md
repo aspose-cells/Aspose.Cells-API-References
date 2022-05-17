@@ -3,7 +3,7 @@ title: Outline
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4360
+weight: 4380
 url: /net/aspose.cells/outline/
 ---
 ## Outline class

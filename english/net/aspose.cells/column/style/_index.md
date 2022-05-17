@@ -3,7 +3,7 @@ title: Style
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.cells/column/style/
 ---
 ## Column.Style property

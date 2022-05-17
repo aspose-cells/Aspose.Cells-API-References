@@ -14,9 +14,9 @@ Gets [`ErrorCheckOption`](../../errorcheckoption) object by the given index.
 public ErrorCheckOption this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index |
+| Parameter | Description |
+| --- | --- |
+| index | The index |
 
 ## Return Value
 

@@ -3,7 +3,7 @@ title: LineType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2220
+weight: 2240
 url: /net/aspose.cells.drawing/linetype/
 ---
 ## LineType enumeration

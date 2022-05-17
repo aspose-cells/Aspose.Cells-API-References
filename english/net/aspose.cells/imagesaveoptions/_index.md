@@ -3,7 +3,7 @@ title: ImageSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3840
+weight: 3860
 url: /net/aspose.cells/imagesaveoptions/
 ---
 ## ImageSaveOptions class

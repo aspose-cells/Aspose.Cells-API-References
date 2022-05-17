@@ -3,7 +3,7 @@ title: FindOptions
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3440
+weight: 3460
 url: /net/aspose.cells/findoptions/
 ---
 ## FindOptions class
@@ -49,7 +49,7 @@ public class FindOptions
 [C#]
 
 //Instantiate the workbook object
-Workbook workbook = new Workbook("C:\\book1.xls");
+Workbook workbook = new Workbook("book1.xls");
 
 //Get Cells collection 
 Cells cells = workbook.Worksheets[0].Cells;
@@ -80,7 +80,7 @@ Cell cell = cells.Find(0, null, findOptions);
 [VB.NET]
 
 'Instantiate the workbook object
-Dim workbook As New Workbook("C:\book1.xls")
+Dim workbook As New Workbook("book1.xls")
 
 'Get Cells collection 
 Dim cells As Cells = workbook.Worksheets(0).Cells

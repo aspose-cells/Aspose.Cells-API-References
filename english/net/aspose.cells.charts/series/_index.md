@@ -133,7 +133,7 @@ series.Marker.BackgroundColorSetType = FormattingType.Automatic;
 //do your business
 
 //Saving the Excel file
-workbook.Save("C:\\book1.xls");
+workbook.Save("book1.xls");
 
 [Visual Basic]
 
@@ -186,7 +186,7 @@ series.Marker.ForegroundColorSetType = FormattingType.Automatic
 series.Marker.ForegroundColor = System.Drawing.Color.Black
 series.Marker.BackgroundColorSetType = FormattingType.Automatic
 'Saving the Excel file
-workbook.Save("C:\\book1.xls")
+workbook.Save("book1.xls")
 ```
 
 ### See Also

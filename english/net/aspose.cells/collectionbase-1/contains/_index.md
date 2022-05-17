@@ -12,6 +12,10 @@ url: /net/aspose.cells/collectionbase-1/contains/
 public bool Contains(T item)
 ```
 
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | T |  |
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../collectionbase-1)

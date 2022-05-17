@@ -3,7 +3,7 @@ title: Refresh
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.cells/autofilter/refresh/
 ---
 ## AutoFilter.Refresh method (1 of 2)

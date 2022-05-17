@@ -14,6 +14,14 @@ Returns the bottom margin in unit of Points
 public double BottomMarginPt { get; set; }
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+shapeTextAlignment.BottomMarginPt = 2.0d;
+```
+
 ### See Also
 
 * class [ShapeTextAlignment](../../shapetextalignment)

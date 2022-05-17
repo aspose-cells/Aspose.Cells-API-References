@@ -3,7 +3,7 @@ title: ShapeCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2620
+weight: 2640
 url: /net/aspose.cells.drawing/shapecollection/
 ---
 ## ShapeCollection class

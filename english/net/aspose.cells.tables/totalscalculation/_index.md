@@ -3,7 +3,7 @@ title: TotalsCalculation
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5890
+weight: 5910
 url: /net/aspose.cells.tables/totalscalculation/
 ---
 ## TotalsCalculation enumeration

@@ -14,9 +14,9 @@ Gets a [`SmartTag`](../../smarttag) object at the specific index
 public SmartTag this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index. |
+| Parameter | Description |
+| --- | --- |
+| index | The index. |
 
 ## Return Value
 

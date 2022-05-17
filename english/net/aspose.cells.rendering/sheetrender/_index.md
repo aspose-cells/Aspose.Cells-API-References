@@ -3,7 +3,7 @@ title: SheetRender
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5230
+weight: 5250
 url: /net/aspose.cells.rendering/sheetrender/
 ---
 ## SheetRender class
@@ -33,8 +33,11 @@ public class SheetRender
 | --- | --- |
 | [CustomPrint](customprint)(bool, PrintPageEventArgs) | Client can control page setting of printer when print each page using this function. |
 | [GetPageSizeInch](getpagesizeinch)(int) | Get page size in inch of output image. |
+| [ToImage](toimage)(int) | Render certain page to a Bitmap object. |
 | [ToImage](toimage)(int, Stream) | Render certain page to a stream. |
 | [ToImage](toimage)(int, string) | Render certain page to a file. |
+| [ToImage](toimage)(int, Graphics, float, float) | Render certain page to a Graphics |
+| [ToImage](toimage)(int, Graphics, float, float, float, float) | Render certain page to a Graphics |
 | [ToPrinter](toprinter)(PrinterSettings) | Render worksheet to Printer |
 | [ToPrinter](toprinter)(string) | Render worksheet to Printer |
 | [ToPrinter](toprinter)(PrinterSettings, string) | Render worksheet to Printer |

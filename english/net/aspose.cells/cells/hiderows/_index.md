@@ -3,7 +3,7 @@ title: HideRows
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 910
+weight: 920
 url: /net/aspose.cells/cells/hiderows/
 ---
 ## Cells.HideRows method

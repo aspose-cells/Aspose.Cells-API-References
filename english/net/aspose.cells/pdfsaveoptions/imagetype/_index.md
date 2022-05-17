@@ -11,12 +11,11 @@ url: /net/aspose.cells/pdfsaveoptions/imagetype/
 Represents the image type when converting the chart and shape .
 
 ```csharp
-public ImageType ImageType { get; set; }
+public ImageFormat ImageType { get; set; }
 ```
 
 ### See Also
 
-* enum [ImageType](../../../aspose.cells.drawing/imagetype)
 * class [PdfSaveOptions](../../pdfsaveoptions)
 * namespace [Aspose.Cells](../../pdfsaveoptions)
 * assembly [Aspose.Cells](../../../)

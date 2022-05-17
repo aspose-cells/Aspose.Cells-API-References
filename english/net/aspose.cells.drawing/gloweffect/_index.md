@@ -3,7 +3,7 @@ title: GlowEffect
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2010
+weight: 2030
 url: /net/aspose.cells.drawing/gloweffect/
 ---
 ## GlowEffect class

@@ -3,7 +3,7 @@ title: WorkbookRender
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5260
+weight: 5280
 url: /net/aspose.cells.rendering/workbookrender/
 ---
 ## WorkbookRender class
@@ -32,6 +32,7 @@ public class WorkbookRender
 | --- | --- |
 | [CustomPrint](customprint)(bool, PrintPageEventArgs) | Client can control page setting of printer when print each page using this function. |
 | [GetPageSizeInch](getpagesizeinch)(int) | Get page size in inch of output image. |
+| [ToImage](toimage)(int) | Render certain page to a Bitmap object. |
 | [ToImage](toimage)(Stream) | Render whole workbook as Tiff Image to stream. |
 | [ToImage](toimage)(string) | Render whole workbook as Tiff Image to a file. |
 | [ToImage](toimage)(int, Stream) | Render certain page to a stream. |

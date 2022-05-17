@@ -14,9 +14,9 @@ Gets a [`SmartTagCollection`](../../smarttagcollection) object by the index.
 public SmartTagCollection this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index of the [`SmartTagCollection`](../../smarttagcollection) object in the list. |
+| Parameter | Description |
+| --- | --- |
+| index | The index of the [`SmartTagCollection`](../../smarttagcollection) object in the list. |
 
 ### See Also
 
@@ -35,10 +35,10 @@ Gets the [`SmartTagCollection`](../../smarttagcollection) object of the cell.
 public SmartTagCollection this[int row, int column] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| row |  | The row index of the cell. |
-| column |  | The column index of the cell |
+| Parameter | Description |
+| --- | --- |
+| row | The row index of the cell. |
+| column | The column index of the cell |
 
 ## Return Value
 
@@ -61,9 +61,9 @@ Gets the [`SmartTagCollection`](../../smarttagcollection) object of the cell.
 public SmartTagCollection this[string cellName] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| cellName |  | The name of the cell. |
+| Parameter | Description |
+| --- | --- |
+| cellName | The name of the cell. |
 
 ## Return Value
 

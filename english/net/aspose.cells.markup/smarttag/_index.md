@@ -3,7 +3,7 @@ title: SmartTag
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4030
+weight: 4050
 url: /net/aspose.cells.markup/smarttag/
 ---
 ## SmartTag class

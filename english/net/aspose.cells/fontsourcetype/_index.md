@@ -3,7 +3,7 @@ title: FontSourceType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3510
+weight: 3530
 url: /net/aspose.cells/fontsourcetype/
 ---
 ## FontSourceType enumeration

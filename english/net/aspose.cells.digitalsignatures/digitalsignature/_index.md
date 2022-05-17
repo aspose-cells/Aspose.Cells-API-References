@@ -3,7 +3,7 @@ title: DigitalSignature
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1360
+weight: 1380
 url: /net/aspose.cells.digitalsignatures/digitalsignature/
 ---
 ## DigitalSignature class

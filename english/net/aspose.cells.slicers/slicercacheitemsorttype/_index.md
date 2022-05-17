@@ -3,7 +3,7 @@ title: SlicerCacheItemSortType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5650
+weight: 5670
 url: /net/aspose.cells.slicers/slicercacheitemsorttype/
 ---
 ## SlicerCacheItemSortType enumeration

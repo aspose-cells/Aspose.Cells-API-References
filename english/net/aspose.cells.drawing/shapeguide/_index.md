@@ -3,7 +3,7 @@ title: ShapeGuide
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2630
+weight: 2650
 url: /net/aspose.cells.drawing/shapeguide/
 ---
 ## ShapeGuide class

@@ -85,7 +85,7 @@ FormatCondition fc = fcs[conditionIndex];
 fc.Style.BackgroundColor = Color.Red;
 
 //Saving the Excel file
-workbook.Save("C:\\output.xls");
+workbook.Save("output.xls");
 
 [VB.NET]
 
@@ -140,7 +140,7 @@ Dim fc As FormatCondition = fcs(conditionIndex)
 fc.Style.BackgroundColor = Color.Red
 
 'Saving the Excel file
-workbook.Save("C:\output.xls")
+workbook.Save("output.xls")
 ```
 
 ### See Also

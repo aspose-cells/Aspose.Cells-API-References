@@ -3,7 +3,7 @@ title: WebExtensionStoreType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6420
+weight: 6440
 url: /net/aspose.cells.webextensions/webextensionstoretype/
 ---
 ## WebExtensionStoreType enumeration

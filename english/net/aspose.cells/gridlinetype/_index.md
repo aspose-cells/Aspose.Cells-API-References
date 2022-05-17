@@ -3,7 +3,7 @@ title: GridlineType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3600
+weight: 3620
 url: /net/aspose.cells/gridlinetype/
 ---
 ## GridlineType enumeration

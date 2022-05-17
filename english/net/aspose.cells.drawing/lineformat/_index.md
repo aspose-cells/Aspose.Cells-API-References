@@ -3,7 +3,7 @@ title: LineFormat
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2190
+weight: 2210
 url: /net/aspose.cells.drawing/lineformat/
 ---
 ## LineFormat class
@@ -34,8 +34,23 @@ public class LineFormat : FillFormat
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) |  |
+| override [Equals](equals)(object) | Determines whether this instance has the same value as another specified [`LineFormat`](../lineformat) object. |
 | override [GetHashCode](gethashcode)() | Gets the hash code. |
+
+### Examples
+
+```csharp
+
+[C#]
+//Instantiating a Workbook object
+Workbook workbook = new Workbook();
+ShapeCollection shapes = workbook.Worksheets[0].Shapes;
+Shape shape = shapes.AddRectangle(1, 0, 1, 0, 50, 100);
+LineFormat lineFmt = shape.Line;
+
+//do your business
+
+```
 
 ### See Also
 

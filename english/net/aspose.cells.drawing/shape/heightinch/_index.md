@@ -3,7 +3,7 @@ title: HeightInch
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 170
 url: /net/aspose.cells.drawing/shape/heightinch/
 ---
 ## Shape.HeightInch property

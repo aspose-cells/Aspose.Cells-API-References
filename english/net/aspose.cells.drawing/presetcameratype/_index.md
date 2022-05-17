@@ -3,7 +3,7 @@ title: PresetCameraType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2480
+weight: 2500
 url: /net/aspose.cells.drawing/presetcameratype/
 ---
 ## PresetCameraType enumeration

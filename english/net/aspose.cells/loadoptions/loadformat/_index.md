@@ -3,7 +3,7 @@ title: LoadFormat
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.cells/loadoptions/loadformat/
 ---
 ## LoadOptions.LoadFormat property

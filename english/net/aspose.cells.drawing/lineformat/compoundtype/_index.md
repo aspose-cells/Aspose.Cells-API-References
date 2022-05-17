@@ -14,6 +14,14 @@ Specifies the line compound type.
 public MsoLineStyle CompoundType { get; set; }
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+lineFmt.CompoundType = MsoLineStyle.Single;
+```
+
 ### See Also
 
 * enum [MsoLineStyle](../../msolinestyle)

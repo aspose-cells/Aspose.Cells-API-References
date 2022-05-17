@@ -18,6 +18,15 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | The text box index. |
 
+### Examples
+
+```csharp
+
+[C#]
+int index3 = textBoxCollection.Count - 1;
+textBoxCollection.RemoveAt(index3);
+```
+
 ### See Also
 
 * class [TextBoxCollection](../../textboxcollection)

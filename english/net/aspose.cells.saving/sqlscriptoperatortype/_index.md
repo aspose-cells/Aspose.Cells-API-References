@@ -3,7 +3,7 @@ title: SqlScriptOperatorType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5520
+weight: 5540
 url: /net/aspose.cells.saving/sqlscriptoperatortype/
 ---
 ## SqlScriptOperatorType enumeration

@@ -3,7 +3,7 @@ title: IsFlippedVertically
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 280
 url: /net/aspose.cells.drawing/shape/isflippedvertically/
 ---
 ## Shape.IsFlippedVertically property

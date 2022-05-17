@@ -3,7 +3,7 @@ title: TextOrientationType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5950
+weight: 5970
 url: /net/aspose.cells/textorientationtype/
 ---
 ## TextOrientationType enumeration

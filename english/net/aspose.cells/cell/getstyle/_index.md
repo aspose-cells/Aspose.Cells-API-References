@@ -11,7 +11,7 @@ url: /net/aspose.cells/cell/getstyle/
 Gets the cell style.
 
 ```csharp
-public virtual Style GetStyle()
+public Style GetStyle()
 ```
 
 ## Return Value

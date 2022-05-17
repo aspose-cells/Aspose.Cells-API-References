@@ -3,7 +3,7 @@ title: ThreeDFormat
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3040
+weight: 3060
 url: /net/aspose.cells.drawing/threedformat/
 ---
 ## ThreeDFormat class

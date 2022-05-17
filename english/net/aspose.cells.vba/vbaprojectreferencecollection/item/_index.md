@@ -14,9 +14,9 @@ Get the reference in the list by the index.
 public VbaProjectReference this[int i] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| i |  | The index. |
+| Parameter | Description |
+| --- | --- |
+| i | The index. |
 
 ### See Also
 

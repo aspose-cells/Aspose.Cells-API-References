@@ -14,6 +14,14 @@ Specifies the line join type.
 public LineJoinType JoinType { get; set; }
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+lineFmt.JoinType = LineJoinType.Round;
+```
+
 ### See Also
 
 * enum [LineJoinType](../../linejointype)

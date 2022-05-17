@@ -3,7 +3,7 @@ title: OleObjectCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2410
+weight: 2430
 url: /net/aspose.cells.drawing/oleobjectcollection/
 ---
 ## OleObjectCollection class

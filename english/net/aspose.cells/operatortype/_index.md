@@ -3,7 +3,7 @@ title: OperatorType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4350
+weight: 4370
 url: /net/aspose.cells/operatortype/
 ---
 ## OperatorType enumeration

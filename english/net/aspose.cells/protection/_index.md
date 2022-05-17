@@ -3,7 +3,7 @@ title: Protection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4880
+weight: 4900
 url: /net/aspose.cells/protection/
 ---
 ## Protection class

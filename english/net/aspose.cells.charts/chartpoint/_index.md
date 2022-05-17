@@ -119,7 +119,7 @@ for (int i = 0; i  < chart.NSeries[0].Points.Count; i++)
 }
 
 //Saving the Excel file
-workbook.Save("D:\\book1.xls");
+workbook.Save("book1.xls");
 
 [VB.NET]
 
@@ -169,7 +169,7 @@ For i As Integer = 0 To chart.NSeries(0).Points.Count - 1
 Next i
 
 'Saving the Excel file
-workbook.Save("D:\book1.xls")
+workbook.Save("book1.xls")
 
 ```
 

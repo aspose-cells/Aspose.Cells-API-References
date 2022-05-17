@@ -3,7 +3,7 @@ title: DataBarAxisPosition
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1230
+weight: 1240
 url: /net/aspose.cells/databaraxisposition/
 ---
 ## DataBarAxisPosition enumeration

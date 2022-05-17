@@ -3,7 +3,7 @@ title: AutoShapeType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1740
+weight: 1760
 url: /net/aspose.cells.drawing/autoshapetype/
 ---
 ## AutoShapeType enumeration

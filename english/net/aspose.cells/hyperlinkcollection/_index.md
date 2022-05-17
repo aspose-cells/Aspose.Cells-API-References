@@ -3,7 +3,7 @@ title: HyperlinkCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3730
+weight: 3750
 url: /net/aspose.cells/hyperlinkcollection/
 ---
 ## HyperlinkCollection class
@@ -50,7 +50,7 @@ HyperlinkCollection hyperlinks = worksheet.Hyperlinks;
 hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
 
 //Saving the Excel file
-workbook.Save("D:\\book1.xls");
+workbook.Save("book1.xls");
 
 [VB.NET]
 
@@ -67,7 +67,7 @@ Dim hyperlinks As HyperlinkCollection = worksheet.Hyperlinks
 hyperlinks.Add("A1", 1, 1, "http://www.aspose.com")
 
 'Saving the Excel file
-workbook.Save("D:\book1.xls")
+workbook.Save("book1.xls")
 ```
 
 ### See Also

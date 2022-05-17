@@ -14,9 +14,9 @@ Gets the [`ChartPoint`](../../chartpoint) element at the specified index in the 
 public ChartPoint this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index of chart point in the series. |
+| Parameter | Description |
+| --- | --- |
+| index | The index of chart point in the series. |
 
 ## Return Value
 

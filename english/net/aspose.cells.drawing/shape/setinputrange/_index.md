@@ -3,7 +3,7 @@ title: SetInputRange
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1100
+weight: 1110
 url: /net/aspose.cells.drawing/shape/setinputrange/
 ---
 ## Shape.SetInputRange method

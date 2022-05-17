@@ -3,7 +3,7 @@ title: MemoryFontSource
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4100
+weight: 4120
 url: /net/aspose.cells/memoryfontsource/
 ---
 ## MemoryFontSource class

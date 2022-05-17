@@ -14,9 +14,9 @@ Gets the [`ExternalConnection`](../../externalconnection) element at the specifi
 public ExternalConnection this[int index] { get; set; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The zero based index of the element. |
+| Parameter | Description |
+| --- | --- |
+| index | The zero based index of the element. |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Gets the [`ExternalConnection`](../../externalconnection) element with the speci
 public ExternalConnection this[string connectionName] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connectionName |  | data connection name |
+| Parameter | Description |
+| --- | --- |
+| connectionName | data connection name |
 
 ## Return Value
 

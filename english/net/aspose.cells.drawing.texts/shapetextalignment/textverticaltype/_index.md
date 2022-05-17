@@ -14,6 +14,14 @@ Gets and sets the text direction.
 public TextVerticalType TextVerticalType { get; set; }
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+shapeTextAlignment.TextVerticalType = Aspose.Cells.Drawing.Texts.TextVerticalType.Horizontal;
+```
+
 ### See Also
 
 * enum [TextVerticalType](../../textverticaltype)

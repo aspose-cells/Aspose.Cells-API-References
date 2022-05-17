@@ -3,7 +3,7 @@ title: RectangleAlignmentType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2530
+weight: 2550
 url: /net/aspose.cells.drawing/rectanglealignmenttype/
 ---
 ## RectangleAlignmentType enumeration

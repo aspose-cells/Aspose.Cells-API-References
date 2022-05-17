@@ -3,7 +3,7 @@ title: OdsPageBackground
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4260
+weight: 4280
 url: /net/aspose.cells.ods/odspagebackground/
 ---
 ## OdsPageBackground class

@@ -3,7 +3,7 @@ title: GradientStop
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2070
+weight: 2090
 url: /net/aspose.cells.drawing/gradientstop/
 ---
 ## GradientStop class

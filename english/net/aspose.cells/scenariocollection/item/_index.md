@@ -14,9 +14,9 @@ Gets the [`Scenario`](../../scenario) object by the index.
 public Scenario this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The specific index in the list. |
+| Parameter | Description |
+| --- | --- |
+| index | The specific index in the list. |
 
 ### See Also
 

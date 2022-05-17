@@ -3,7 +3,7 @@ title: NegativeBarFormat
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4200
+weight: 4220
 url: /net/aspose.cells/negativebarformat/
 ---
 ## NegativeBarFormat class

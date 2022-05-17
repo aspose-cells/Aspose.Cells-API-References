@@ -3,7 +3,7 @@ title: UnhideRow
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1320
+weight: 1360
 url: /net/aspose.cells/cells/unhiderow/
 ---
 ## Cells.UnhideRow method

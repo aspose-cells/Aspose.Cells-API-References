@@ -3,7 +3,7 @@ title: ShadowEffect
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2590
+weight: 2610
 url: /net/aspose.cells.drawing/shadoweffect/
 ---
 ## ShadowEffect class

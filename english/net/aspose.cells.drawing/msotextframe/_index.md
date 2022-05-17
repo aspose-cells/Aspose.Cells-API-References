@@ -3,7 +3,7 @@ title: MsoTextFrame
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2380
+weight: 2400
 url: /net/aspose.cells.drawing/msotextframe/
 ---
 ## MsoTextFrame class

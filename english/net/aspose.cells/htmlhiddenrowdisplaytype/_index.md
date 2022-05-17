@@ -3,7 +3,7 @@ title: HtmlHiddenRowDisplayType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3680
+weight: 3700
 url: /net/aspose.cells/htmlhiddenrowdisplaytype/
 ---
 ## HtmlHiddenRowDisplayType enumeration

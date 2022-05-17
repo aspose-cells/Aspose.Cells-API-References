@@ -3,7 +3,7 @@ title: FormatSetType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1990
+weight: 2010
 url: /net/aspose.cells.drawing/formatsettype/
 ---
 ## FormatSetType enumeration

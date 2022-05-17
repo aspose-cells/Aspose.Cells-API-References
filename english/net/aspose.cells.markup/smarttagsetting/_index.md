@@ -3,7 +3,7 @@ title: SmartTagSetting
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4080
+weight: 4100
 url: /net/aspose.cells.markup/smarttagsetting/
 ---
 ## SmartTagSetting class

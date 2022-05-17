@@ -3,7 +3,7 @@ title: ControlMousePointerType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1520
+weight: 1540
 url: /net/aspose.cells.drawing.activexcontrols/controlmousepointertype/
 ---
 ## ControlMousePointerType enumeration

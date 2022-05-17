@@ -3,7 +3,7 @@ title: OLEDBCommandType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3290
+weight: 3310
 url: /net/aspose.cells.externalconnections/oledbcommandtype/
 ---
 ## OLEDBCommandType enumeration

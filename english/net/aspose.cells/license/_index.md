@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3910
+weight: 3930
 url: /net/aspose.cells/license/
 ---
 ## License class

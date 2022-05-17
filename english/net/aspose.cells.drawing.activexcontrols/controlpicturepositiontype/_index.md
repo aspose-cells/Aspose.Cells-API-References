@@ -3,7 +3,7 @@ title: ControlPicturePositionType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1540
+weight: 1560
 url: /net/aspose.cells.drawing.activexcontrols/controlpicturepositiontype/
 ---
 ## ControlPicturePositionType enumeration

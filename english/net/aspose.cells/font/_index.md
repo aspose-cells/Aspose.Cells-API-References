@@ -3,7 +3,7 @@ title: Font
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3460
+weight: 3480
 url: /net/aspose.cells/font/
 ---
 ## Font class
@@ -74,7 +74,7 @@ font.Size = 14;
 font.Color = System.Drawing.Color.Red;           
 
 //Saving the Excel file
-workbook.Save(@"d:\dest.xls");
+workbook.Save(@"dest.xls");
 
 [VB.NET]
 
@@ -102,7 +102,7 @@ font.Size = 14
 font.Color = System.Drawing.Color.Red
 
 'Saving the Excel file
-workbook.Save("d:\dest.xls")
+workbook.Save("dest.xls")
 ```
 
 ### See Also

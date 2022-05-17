@@ -14,9 +14,9 @@ Gets a shape guide by index
 public ShapeGuide this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  |  |
+| Parameter | Description |
+| --- | --- |
+| index |  |
 
 ### See Also
 

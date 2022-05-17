@@ -3,7 +3,7 @@ title: SetTwoColorGradient
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 380
+weight: 390
 url: /net/aspose.cells/style/settwocolorgradient/
 ---
 ## Style.SetTwoColorGradient method

@@ -3,7 +3,7 @@ title: PropertyType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4850
+weight: 4870
 url: /net/aspose.cells.properties/propertytype/
 ---
 ## PropertyType enumeration

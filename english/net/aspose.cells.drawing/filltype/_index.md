@@ -3,7 +3,7 @@ title: FillType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1970
+weight: 1990
 url: /net/aspose.cells.drawing/filltype/
 ---
 ## FillType enumeration

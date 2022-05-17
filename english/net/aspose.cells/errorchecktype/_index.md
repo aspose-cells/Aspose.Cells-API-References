@@ -3,7 +3,7 @@ title: ErrorCheckType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3160
+weight: 3180
 url: /net/aspose.cells/errorchecktype/
 ---
 ## ErrorCheckType enumeration

@@ -3,7 +3,7 @@ title: TextOptions
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2950
+weight: 2970
 url: /net/aspose.cells.drawing.texts/textoptions/
 ---
 ## TextOptions class

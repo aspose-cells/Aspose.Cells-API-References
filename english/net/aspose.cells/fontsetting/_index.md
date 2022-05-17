@@ -3,7 +3,7 @@ title: FontSetting
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3490
+weight: 3510
 url: /net/aspose.cells/fontsetting/
 ---
 ## FontSetting class
@@ -67,7 +67,7 @@ charactor.Font.IsBold = true;
 charactor.Font.Color = Color.Blue;
 
 //Saving the Excel file
-workbook.Save("D:\\book1.xls");
+workbook.Save("book1.xls");
 
 [VB.NET]
 
@@ -96,7 +96,7 @@ charactor.Font.IsBold = True
 charactor.Font.Color = Color.Blue
 
 'Saving the Excel file
-workbook.Save("D:\book1.xls")
+workbook.Save("book1.xls")
  
 ```
 

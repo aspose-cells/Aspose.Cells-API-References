@@ -3,7 +3,7 @@ title: RevisionMergeConflict
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5430
+weight: 5450
 url: /net/aspose.cells.revisions/revisionmergeconflict/
 ---
 ## RevisionMergeConflict class

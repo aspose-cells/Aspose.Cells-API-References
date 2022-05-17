@@ -3,7 +3,7 @@ title: FolderFontSource
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3450
+weight: 3470
 url: /net/aspose.cells/folderfontsource/
 ---
 ## FolderFontSource class

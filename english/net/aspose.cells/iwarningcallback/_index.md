@@ -3,7 +3,7 @@ title: IWarningCallback
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3800
+weight: 3820
 url: /net/aspose.cells/iwarningcallback/
 ---
 ## IWarningCallback interface

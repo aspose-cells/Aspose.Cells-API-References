@@ -3,7 +3,7 @@ title: StyleModifyFlag
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5740
+weight: 5760
 url: /net/aspose.cells/stylemodifyflag/
 ---
 ## StyleModifyFlag enumeration
@@ -18,55 +18,53 @@ public enum StyleModifyFlag
 
 | Name | Value | Description |
 | --- | --- | --- |
-| All | `0` | Indicates whether one or more properties have been modified for the style. |
-| Borders | `1` | Indicates whether one or more borders(LeftBorder, RightBorder, TopBorder, BottomBorder, Diagonal, HorizontalBorder, VerticalBorder) have been modified for the style. |
-| LeftBorder | `2` | Indicates whether left border has been modified for the style. |
-| RightBorder | `3` | Indicates whether right border has been modified for the style. |
-| TopBorder | `4` | Indicates whether top border has been modified for the style. |
-| BottomBorder | `5` | Indicates whether bottom border has been modified for the style. |
-| HorizontalBorder | `6` | Indicates whether horizontal border has been modified for the style. Only for dynamic style, such as conditional formatting. |
-| VerticalBorder | `7` | Indicates whether vertical border has been modified for the style. Only for dynamic style, such as conditional formatting. |
-| Diagonal | `8` | Indicates whether one or more diagonal borders(DiagonalDownBorder, DiagonalUpBorder) have been modified for the style. |
-| DiagonalDownBorder | `9` | Indicates whether diagonal-down border has been modified for the style. |
-| DiagonalUpBorder | `10` | Indicates whether diagonal-up border has been modified for the style. |
-| Font | `11` | Indicates whether one or more properties have been modified for the font of the style. |
-| FontSize | `12` | Indicates whether font size has been modified. |
-| FontName | `13` | Indicates whether font name has been modified. |
-| FontFamily | `14` | Indicates whether font family has been modified. |
-| FontCharset | `15` | Indicates whether charset of the font has been modified. |
-| FontColor | `16` | Indicates whether font color has been modified. |
-| FontWeight | `17` | Indicates whether font weight has been modified. |
-| FontItalic | `18` | Indicates whether italic property of font has been modified. |
-| FontUnderline | `19` | Indicates whether underline property of font has been modified. |
-| FontStrike | `20` | Indicates whether strike property font has been modified. |
-| FontSubscript | `21` |  |
-| FontSuperscript | `22` |  |
-| FontScript | `23` | Indicates whether subscript or superscript property of font has been modified. |
-| NumberFormat | `24` | Indicates whether numberformat has been modified. |
-| HorizontalAlignment | `25` | Indicates whether horizontal alignment has been modified. |
-| VerticalAlignment | `26` | Indicates whether vertical alignment has been modified. |
-| Indent | `27` | Indicates whether indent property has been modified. |
-| Rotation | `28` | Indicates whether rotation property has been modified. |
-| WrapText | `29` | Indicates whether wrap text property has been modified. |
-| ShrinkToFit | `30` | Indicates whether shrink to fit property has been modified. |
-| TextDirection | `31` | Indicates whether text direction property has been modified. |
-| CellShading | `32` | Indicates whether one or more shading-related properties(Pattern, ForegroundColor, BackgroundColor) have been modified. |
-| Pattern | `33` | Indicates whether pattern of the shading has been modified. |
-| ForegroundColor | `34` | Indicates whether foreground color has been modified. |
-| BackgroundColor | `35` | Indicates whether background color has been modified. |
-| Locked | `36` | Indicates whether locked property has been modified. |
-| HideFormula | `37` | Indicates whether hide formula has been modified. |
-| AlignmentSettings | `38` | Indicates whether one or more alignment-related properties(HorizontalAlignment, VerticalAlignment, Rotation, WrapText, WrapText, Indent, ShrinkToFit, TextDirection, RelativeIndent) have been modified. |
-| ProtectionSettings | `39` | Indicates whether one or more protection-related properties(Locked, HideFormula) have been modified. |
-| FontScheme | `40` | unused. |
-| FontDirty | `41` | unused. |
-| FontSpellingError | `42` | unused. |
-| FontUFillTx | `43` | unused. |
-| FontSpacing | `44` | unused. |
-| FontKerning | `45` | unused. |
-| FontEqualize | `46` | unused. |
-| FontCap | `47` | unused. |
-| RelativeIndent | `48` | Indicates whether relative indent property has been modified for the style. Only for dynamic style, such as conditional formatting. |
+| LeftBorder | `256` | Indicates whether left border has been modified for the style. |
+| RightBorder | `512` | Indicates whether right border has been modified for the style. |
+| TopBorder | `1024` | Indicates whether top border has been modified for the style. |
+| BottomBorder | `2048` | Indicates whether bottom border has been modified for the style. |
+| DiagonalDownBorder | `4096` | Indicates whether diagonal-down border has been modified for the style. |
+| DiagonalUpBorder | `8192` | Indicates whether diagonal-up border has been modified for the style. |
+| Diagonal | `12288` | Indicates whether one or more diagonal borders(DiagonalDownBorder, DiagonalUpBorder) have been modified for the style. |
+| HorizontalBorder | `32` | Indicates whether horizontal border has been modified for the style. Only for dynamic style, such as conditional formatting. |
+| VerticalBorder | `64` | Indicates whether vertical border has been modified for the style. Only for dynamic style, such as conditional formatting. |
+| Borders | `16224` | Indicates whether one or more borders(LeftBorder, RightBorder, TopBorder, BottomBorder, Diagonal, HorizontalBorder, VerticalBorder) have been modified for the style. |
+| NumberFormat | `16384` | Indicates whether numberformat has been modified. |
+| HorizontalAlignment | `32768` | Indicates whether horizontal alignment has been modified. |
+| VerticalAlignment | `65536` | Indicates whether vertical alignment has been modified. |
+| Indent | `131072` | Indicates whether indent property has been modified. |
+| Rotation | `262144` | Indicates whether rotation property has been modified. |
+| WrapText | `524288` | Indicates whether wrap text property has been modified. |
+| ShrinkToFit | `1048576` | Indicates whether shrink to fit property has been modified. |
+| TextDirection | `2097152` | Indicates whether text direction property has been modified. |
+| RelativeIndent | `128` | Indicates whether relative indent property has been modified for the style. Only for dynamic style, such as conditional formatting. |
+| AlignmentSettings | `4161664` | Indicates whether one or more alignment-related properties(HorizontalAlignment, VerticalAlignment, Rotation, WrapText, WrapText, Indent, ShrinkToFit, TextDirection, RelativeIndent) have been modified. |
+| Pattern | `4194304` | Indicates whether pattern of the shading has been modified. |
+| ForegroundColor | `8388608` | Indicates whether foreground color has been modified. |
+| BackgroundColor | `16777216` | Indicates whether background color has been modified. |
+| CellShading | `29360128` | Indicates whether one or more shading-related properties(Pattern, ForegroundColor, BackgroundColor) have been modified. |
+| Locked | `67108864` | Indicates whether locked property has been modified. |
+| HideFormula | `134217728` | Indicates whether hide formula has been modified. |
+| ProtectionSettings | `201326592` | Indicates whether one or more protection-related properties(Locked, HideFormula) have been modified. |
+| FontSize | `1` | Indicates whether font size has been modified. |
+| FontName | `2` | Indicates whether font name has been modified. |
+| FontColor | `3` | Indicates whether font color has been modified. |
+| FontWeight | `4` | Indicates whether font weight has been modified. |
+| FontItalic | `5` | Indicates whether italic property of font has been modified. |
+| FontUnderline | `6` | Indicates whether underline property of font has been modified. |
+| FontStrike | `7` | Indicates whether strike property font has been modified. |
+| FontScript | `8` | Indicates whether subscript or superscript property of font has been modified. |
+| FontFamily | `9` | Indicates whether font family has been modified. |
+| FontCharset | `10` | Indicates whether charset of the font has been modified. |
+| FontScheme | `11` | unused. |
+| FontDirty | `12` | unused. |
+| FontSpellingError | `13` | unused. |
+| FontUFillTx | `14` | unused. |
+| FontSpacing | `15` | unused. |
+| FontKerning | `16` | unused. |
+| FontEqualize | `17` | unused. |
+| FontCap | `18` | unused. |
+| Font | `19` | Indicates whether one or more properties have been modified for the font of the style. |
+| All | `234881011` | Indicates whether one or more properties have been modified for the style. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: WebExtensionBinding
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6350
+weight: 6370
 url: /net/aspose.cells.webextensions/webextensionbinding/
 ---
 ## WebExtensionBinding class

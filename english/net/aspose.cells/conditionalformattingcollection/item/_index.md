@@ -14,9 +14,9 @@ Gets the FormatConditions element at the specified index.
 public FormatConditionCollection this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The zero based index of the element. |
+| Parameter | Description |
+| --- | --- |
+| index | The zero based index of the element. |
 
 ### See Also
 

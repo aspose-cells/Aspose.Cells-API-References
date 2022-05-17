@@ -3,7 +3,7 @@ title: GroupBox
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2100
+weight: 2120
 url: /net/aspose.cells.drawing/groupbox/
 ---
 ## GroupBox class
@@ -145,7 +145,7 @@ Aspose.Cells.Shape[] shapeobjects = new Aspose.Cells.Shape[] { box, radio1, radi
 Aspose.Cells.GroupShape group = excelbook.Worksheets[0].Shapes.Group(shapeobjects);
  
 //Save the excel file.
-excelbook.Save("d:\\test\\groupshapes.xls");
+excelbook.Save("groupshapes.xls");
 
 [VB.NET]
 
@@ -268,7 +268,7 @@ Dim shapeobjects() As Aspose.Cells.Shape = New Aspose.Cells.Shape() {box, radio1
 Dim group As Aspose.Cells.GroupShape = excelbook.Worksheets(0).Shapes.Group(shapeobjects)
  
 'Save the excel file.
-excelbook.Save("d:\test\groupshapes.xls")
+excelbook.Save("groupshapes.xls")
 ```
 
 ### See Also

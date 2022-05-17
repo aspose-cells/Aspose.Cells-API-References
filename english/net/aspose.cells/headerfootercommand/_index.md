@@ -3,7 +3,7 @@ title: HeaderFooterCommand
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3610
+weight: 3630
 url: /net/aspose.cells/headerfootercommand/
 ---
 ## HeaderFooterCommand class

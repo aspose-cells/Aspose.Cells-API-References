@@ -3,7 +3,7 @@ title: FileFormatUtil
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3390
+weight: 3410
 url: /net/aspose.cells/fileformatutil/
 ---
 ## FileFormatUtil class

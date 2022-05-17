@@ -3,7 +3,7 @@ title: Number
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 230
 url: /net/aspose.cells/style/number/
 ---
 ## Style.Number property

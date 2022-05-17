@@ -3,7 +3,7 @@ title: Button
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1800
+weight: 1820
 url: /net/aspose.cells.drawing/button/
 ---
 ## Button class
@@ -48,7 +48,7 @@ public class Button : Shape
  button.AddHyperlink("http://www.aspose.com/");
  
  //Saves the file.
- workbook.Save(@"d:\test\tstbutton.xls");
+ workbook.Save(@"tstbutton.xls");
 
  [VB.NET]
  
@@ -81,7 +81,7 @@ public class Button : Shape
  button.AddHyperlink("http://www.aspose.com/")
  
  'Saves the file.
- workbook.Save("d:\test\tstbutton.xls")
+ workbook.Save("tstbutton.xls")
 ```
 
 ### See Also

@@ -3,7 +3,7 @@ title: IsGradient
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.cells/style/isgradient/
 ---
 ## Style.IsGradient property

@@ -3,7 +3,7 @@ title: IStreamProvider
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3790
+weight: 3810
 url: /net/aspose.cells/istreamprovider/
 ---
 ## IStreamProvider interface

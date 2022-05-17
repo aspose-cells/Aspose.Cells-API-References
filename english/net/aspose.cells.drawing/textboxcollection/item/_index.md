@@ -14,13 +14,22 @@ Gets the [`TextBox`](../../textbox) element at the specified index.
 public TextBox this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The zero based index of the element. |
+| Parameter | Description |
+| --- | --- |
+| index | The zero based index of the element. |
 
 ## Return Value
 
 The element at the specified index.
+
+### Examples
+
+```csharp
+
+[C#]
+int index = textBoxCollection.Count - 1;
+TextBox txb = textBoxCollection[index];
+```
 
 ### See Also
 
@@ -39,9 +48,22 @@ Gets the [`TextBox`](../../textbox) element by the name.
 public TextBox this[string name] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name |  | The name of the text box. |
+| Parameter | Description |
+| --- | --- |
+| name | The name of the text box. |
+
+### Examples
+
+```csharp
+
+[C#]
+string txtboxName = "textbox 1"; 
+TextBox txb2 = textBoxCollection[txtboxName];
+if(txb2 != null)
+{
+    //do what you want
+}
+```
 
 ### See Also
 

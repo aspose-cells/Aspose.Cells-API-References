@@ -14,9 +14,9 @@ Gets the [`Name`](../../name) element at the specified index.
 public Name this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The zero based index of the element. |
+| Parameter | Description |
+| --- | --- |
+| index | The zero based index of the element. |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Gets the [`Name`](../../name) element with the specified name.
 public Name this[string text] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| text |  | Name text. |
+| Parameter | Description |
+| --- | --- |
+| text | Name text. |
 
 ## Return Value
 

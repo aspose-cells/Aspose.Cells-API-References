@@ -3,7 +3,7 @@ title: PivotFieldSubtotalType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4530
+weight: 4550
 url: /net/aspose.cells.pivot/pivotfieldsubtotaltype/
 ---
 ## PivotFieldSubtotalType enumeration

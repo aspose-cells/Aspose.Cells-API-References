@@ -14,9 +14,9 @@ Gets web extension binding relationship by the specific index.
 public WebExtensionBinding this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index. |
+| Parameter | Description |
+| --- | --- |
+| index | The index. |
 
 ## Return Value
 

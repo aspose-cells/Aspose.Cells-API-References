@@ -14,9 +14,9 @@ Gets the field by the index.
 public OdsCellField this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index. |
+| Parameter | Description |
+| --- | --- |
+| index | The index. |
 
 ### See Also
 
@@ -35,10 +35,10 @@ Gets the field by row and column index.
 public OdsCellField this[int row, int column] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| row |  | The row index. |
-| column |  | The column index. |
+| Parameter | Description |
+| --- | --- |
+| row | The row index. |
+| column | The column index. |
 
 ### See Also
 

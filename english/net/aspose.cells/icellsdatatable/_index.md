@@ -3,7 +3,7 @@ title: ICellsDataTable
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3740
+weight: 3760
 url: /net/aspose.cells/icellsdatatable/
 ---
 ## ICellsDataTable interface

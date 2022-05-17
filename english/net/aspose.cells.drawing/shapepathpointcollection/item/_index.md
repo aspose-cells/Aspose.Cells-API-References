@@ -14,9 +14,9 @@ Gets shape path point by index.
 public ShapePathPoint this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index |
+| Parameter | Description |
+| --- | --- |
+| index | The index |
 
 ## Return Value
 

@@ -14,9 +14,9 @@ Gets and sets [`CellWatch`](../../cellwatch) by index.
 public CellWatch this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index. |
+| Parameter | Description |
+| --- | --- |
+| index | The index. |
 
 ### See Also
 
@@ -35,9 +35,9 @@ Gets and sets [`CellWatch`](../../cellwatch) by the name of the cell.
 public CellWatch this[string cellName] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| cellName |  | The name of the cell. |
+| Parameter | Description |
+| --- | --- |
+| cellName | The name of the cell. |
 
 ### See Also
 

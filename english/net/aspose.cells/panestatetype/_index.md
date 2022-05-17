@@ -3,7 +3,7 @@ title: PaneStateType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 4410
+weight: 4430
 url: /net/aspose.cells/panestatetype/
 ---
 ## PaneStateType enumeration

@@ -3,7 +3,7 @@ title: HtmlFormatHandlingType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3280
+weight: 3300
 url: /net/aspose.cells.externalconnections/htmlformathandlingtype/
 ---
 ## HtmlFormatHandlingType enumeration

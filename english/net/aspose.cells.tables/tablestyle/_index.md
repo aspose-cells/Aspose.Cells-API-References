@@ -3,7 +3,7 @@ title: TableStyle
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 5820
+weight: 5840
 url: /net/aspose.cells.tables/tablestyle/
 ---
 ## TableStyle class
@@ -65,7 +65,7 @@ ListObject table = tables[0];
 table.ShowTableStyleFirstColumn = true;
 table.ShowTableStyleLastColumn = true;
 table.TableStyleName = tableStyleName;
-workbook.Save(@"C:\Book1.xlsx");
+workbook.Save(@"Book1.xlsx");
 
 [Visual Basic]
 
@@ -105,7 +105,7 @@ Dim table As ListObject = tables(0)
 table.ShowTableStyleFirstColumn = True
 table.ShowTableStyleLastColumn = True
 table.TableStyleName = tableStyleName
-workbook.Save("C:\Book1.xlsx")
+workbook.Save("Book1.xlsx")
 ```
 
 ### See Also

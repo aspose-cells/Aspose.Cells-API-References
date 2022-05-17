@@ -3,7 +3,7 @@ title: ControlData
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.cells.drawing/shape/controldata/
 ---
 ## Shape.ControlData property

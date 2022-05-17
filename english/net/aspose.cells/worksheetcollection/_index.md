@@ -3,7 +3,7 @@ title: WorksheetCollection
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 6490
+weight: 6510
 url: /net/aspose.cells/worksheetcollection/
 ---
 ## WorksheetCollection class
