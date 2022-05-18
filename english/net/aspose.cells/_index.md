@@ -21,12 +21,12 @@ Contains all basic classes of Aspose.Cells.
 | [AutoFilter](./autofilter) | Represents autofiltering for the specified worksheet. |
 | [AutoFitterOptions](./autofitteroptions) | Represents all auto fitter options. |
 | [Border](./border) | Encapsulates the object that represents the cell border. |
-| [BorderCollection](./bordercollection) | Encapsulates a collection of [`Border`](../(aspose.cells/border)) objects. |
+| [BorderCollection](./bordercollection) | Encapsulates a collection of [`Border`](../aspose.cells/border) objects. |
 | [CalculationCell](./calculationcell) | Represents the calculation relevant data about one cell which is being calculated. |
 | [CalculationData](./calculationdata) | Represents the required data when calculating one function, such as function name, parameters, ...etc. |
 | [CalculationOptions](./calculationoptions) | Represents options for calculation. |
 | [Cell](./cell) | Encapsulates the object that represents a single Workbook cell. |
-| [Cells](./cells) | Encapsulates a collection of cell relevant objects, such as [`Cell`](../(aspose.cells/cell)), [`Row`](../(aspose.cells/row)), ...etc. |
+| [Cells](./cells) | Encapsulates a collection of cell relevant objects, such as [`Cell`](../aspose.cells/cell), [`Row`](../aspose.cells/row), ...etc. |
 | [CellsColor](./cellscolor) | Represents all types of color. |
 | [CellsException](./cellsexception) | The exception that is thrown when Aspose.Cells specified error occurs. |
 | [CellsFactory](./cellsfactory) | Utility for instantiating classes of Cells model. |
@@ -37,12 +37,12 @@ Contains all basic classes of Aspose.Cells.
 | [ColorFilter](./colorfilter) | Represents the color filter. |
 | [ColorScale](./colorscale) | Describe the ColorScale conditional formatting rule. This conditional formatting rule creates a gradated color scale on the cells. |
 | [Column](./column) | Represents a single column in a worksheet. |
-| [ColumnCollection](./columncollection) | Collection of the  objects that represent the individual column(../(setting))s in a worksheet. The Column object only represents the settings such as column width, styles, .etc. for the whole column, has nothing to do with the fact that there are non-empty cells(../(data)) or not in corresponding column. And the "Count" of this collection only represents the count Column objects that have been instantiated in this collection, has nothing to do with the fact that there are non-empty cells(../(data)) or not in the worksheet. |
+| [ColumnCollection](./columncollection) | Collection of the  objects that represent the individual column(../setting)s in a worksheet. The Column object only represents the settings such as column width, styles, .etc. for the whole column, has nothing to do with the fact that there are non-empty cells(../data) or not in corresponding column. And the "Count" of this collection only represents the count Column objects that have been instantiated in this collection, has nothing to do with the fact that there are non-empty cells(../data) or not in the worksheet. |
 | [Comment](./comment) | Encapsulates the object that represents a cell comment. |
-| [CommentCollection](./commentcollection) | Encapsulates a collection of [`Comment`](../(aspose.cells/comment)) objects. |
-| [ConditionalFormattingCollection](./conditionalformattingcollection) | Encapsulates a collection of [`FormatCondition`](../(aspose.cells/formatcondition)) objects. |
+| [CommentCollection](./commentcollection) | Encapsulates a collection of [`Comment`](../aspose.cells/comment) objects. |
+| [ConditionalFormattingCollection](./conditionalformattingcollection) | Encapsulates a collection of [`FormatCondition`](../aspose.cells/formatcondition) objects. |
 | [ConditionalFormattingIcon](./conditionalformattingicon) | Represents the custom icon of conditional formatting rule. |
-| [ConditionalFormattingIconCollection](./conditionalformattingiconcollection) | Represents a collection of [`ConditionalFormattingIcon`](../(aspose.cells/conditionalformattingicon)) objects. |
+| [ConditionalFormattingIconCollection](./conditionalformattingiconcollection) | Represents a collection of [`ConditionalFormattingIcon`](../aspose.cells/conditionalformattingicon) objects. |
 | [ConditionalFormattingResult](./conditionalformattingresult) | Represents the result of conditional formatting which applies to a cell. |
 | [ConditionalFormattingValue](./conditionalformattingvalue) | Describes the values of the interpolation points in a gradient scale, dataBar or iconSet. |
 | [ConditionalFormattingValueCollection](./conditionalformattingvaluecollection) | Describes a collection of CFValueObject. Use only for icon sets. |
@@ -69,7 +69,7 @@ Contains all basic classes of Aspose.Cells.
 | [ExternalLink](./externallink) | Represents an external link in a workbook. |
 | [ExternalLinkCollection](./externallinkcollection) | Represents external links collection in a workbook. |
 | [FileFontSource](./filefontsource) | Represents the single TrueType font file stored in the file system. |
-| [FileFormatInfo](./fileformatinfo) | Contains data returned by [`FileFormatUtil`](../(aspose.cells/fileformatutil)) file format detection methods. |
+| [FileFormatInfo](./fileformatinfo) | Contains data returned by [`FileFormatUtil`](../aspose.cells/fileformatutil) file format detection methods. |
 | [FileFormatUtil](./fileformatutil) | Provides utility methods for converting file format enums to strings or file extensions and back. |
 | [FilterColumn](./filtercolumn) | Represents a filter for a single column. The Filter object is a member of the Filters collection |
 | [FilterColumnCollection](./filtercolumncollection) | A collection of Filter objects that represents all the filters in an autofiltered range. |
@@ -86,16 +86,16 @@ Contains all basic classes of Aspose.Cells.
 | [GlobalizationSettings](./globalizationsettings) | Represents the globalization settings. |
 | [HeaderFooterCommand](./headerfootercommand) | Represents the command of header/footer |
 | [HorizontalPageBreak](./horizontalpagebreak) | Encapsulates the object that represents a horizontal page break. |
-| [HorizontalPageBreakCollection](./horizontalpagebreakcollection) | Encapsulates a collection of [`HorizontalPageBreak`](../(aspose.cells/horizontalpagebreak)) objects. |
+| [HorizontalPageBreakCollection](./horizontalpagebreakcollection) | Encapsulates a collection of [`HorizontalPageBreak`](../aspose.cells/horizontalpagebreak) objects. |
 | [HtmlLoadOptions](./htmlloadoptions) | Represents options when importing a html file. |
 | [HtmlSaveOptions](./htmlsaveoptions) | Represents the options for saving html file. |
 | [Hyperlink](./hyperlink) | Encapsulates the object that represents a hyperlink. |
-| [HyperlinkCollection](./hyperlinkcollection) | Encapsulates a collection of [`Hyperlink`](../(aspose.cells/hyperlink)) objects. |
+| [HyperlinkCollection](./hyperlinkcollection) | Encapsulates a collection of [`Hyperlink`](../aspose.cells/hyperlink) objects. |
 | [IconFilter](./iconfilter) | Represents icon filter. |
 | [IconSet](./iconset) | Describe the IconSet conditional formatting rule. This conditional formatting rule applies icons to cells according to their values. |
 | [ImageSaveOptions](./imagesaveoptions) | Represents image save options |
 | [ImportTableOptions](./importtableoptions) | Represents the options of importing data into cells. |
-| [IndividualFontConfigs](./individualfontconfigs) | Font configs for each [`Workbook`](../(aspose.cells/workbook)) object. |
+| [IndividualFontConfigs](./individualfontconfigs) | Font configs for each [`Workbook`](../aspose.cells/workbook) object. |
 | [InsertOptions](./insertoptions) | Represents the options of inserting. |
 | [InterruptMonitor](./interruptmonitor) | Represents all operator about the interrupt. |
 | [JsonLoadOptions](./jsonloadoptions) | Represents the options of loading json files |
@@ -108,7 +108,7 @@ Contains all basic classes of Aspose.Cells.
 | [Metered](./metered) | Provides methods to set metered key. |
 | [MultipleFilterCollection](./multiplefiltercollection) | Represents the multiple filter collection. |
 | [Name](./name) | Represents a defined name for a range of cells. |
-| [NameCollection](./namecollection) | Represents a collection of all the [`Name`](../(aspose.cells/name)) objects in the spreadsheet. |
+| [NameCollection](./namecollection) | Represents a collection of all the [`Name`](../aspose.cells/name) objects in the spreadsheet. |
 | [NegativeBarFormat](./negativebarformat) | Represents the color settings of the data bars for negative values that are defined by a data bar conditional formatting rule. |
 | [OdsLoadOptions](./odsloadoptions) | Represents the options of loading ods file. |
 | [OdsSaveOptions](./odssaveoptions) | Represents the options of saving ods file. |
@@ -120,12 +120,12 @@ Contains all basic classes of Aspose.Cells.
 | [PdfSaveOptions](./pdfsaveoptions) | Represents the options for saving pdf file. |
 | [PptxSaveOptions](./pptxsaveoptions) | Represents the pptx save options. |
 | [ProtectedRange](./protectedrange) | A specified range to be allowed to edit when the sheet protection is ON. |
-| [ProtectedRangeCollection](./protectedrangecollection) | Encapsulates a collection of [`ProtectedRange`](../(aspose.cells/protectedrange)) objects. |
+| [ProtectedRangeCollection](./protectedrangecollection) | Encapsulates a collection of [`ProtectedRange`](../aspose.cells/protectedrange) objects. |
 | [Protection](./protection) | Represents the various types of protection options available for a worksheet. |
 | [QueryTable](./querytable) | Represents QueryTable information. |
-| [QueryTableCollection](./querytablecollection) | A collection of [`QueryTableCollection`](../(aspose.cells/querytablecollection)) objects that represent QueryTable collection information. |
+| [QueryTableCollection](./querytablecollection) | A collection of [`QueryTableCollection`](../aspose.cells/querytablecollection) objects that represent QueryTable collection information. |
 | [Range](./range) | Encapsulates the object that represents a range of cells within a spreadsheet. |
-| [RangeCollection](./rangecollection) | Encapsulates a collection of [`Range`](../(aspose.cells/range)) objects. |
+| [RangeCollection](./rangecollection) | Encapsulates a collection of [`Range`](../aspose.cells/range) objects. |
 | [ReferredArea](./referredarea) | Represents a referred area by the formula. |
 | [ReferredAreaCollection](./referredareacollection) | Represents all referred cells and areas. |
 | [ReplaceOptions](./replaceoptions) | Represent the replace options. |
@@ -155,13 +155,13 @@ Contains all basic classes of Aspose.Cells.
 | [Validation](./validation) | Represents data validation.settings. |
 | [ValidationCollection](./validationcollection) | Represents data validation collection. |
 | [VerticalPageBreak](./verticalpagebreak) | Encapsulates the object that represents a vertical page break. |
-| [VerticalPageBreakCollection](./verticalpagebreakcollection) | Encapsulates a collection of [`VerticalPageBreak`](../(aspose.cells/verticalpagebreak)) objects. |
+| [VerticalPageBreakCollection](./verticalpagebreakcollection) | Encapsulates a collection of [`VerticalPageBreak`](../aspose.cells/verticalpagebreak) objects. |
 | [WarningInfo](./warninginfo) | Warning info |
 | [Workbook](./workbook) | Represents a root object to create an Excel spreadsheet. |
 | [WorkbookDesigner](./workbookdesigner) | Encapsulates the object that represents a designer spreadsheet. |
 | [WorkbookSettings](./workbooksettings) | Represents all settings of the workbook. |
 | [Worksheet](./worksheet) | Encapsulates the object that represents a single worksheet. |
-| [WorksheetCollection](./worksheetcollection) | Encapsulates a collection of [`Worksheet`](../(aspose.cells/worksheet)) objects. |
+| [WorksheetCollection](./worksheetcollection) | Encapsulates a collection of [`Worksheet`](../aspose.cells/worksheet) objects. |
 | [WriteProtection](./writeprotection) | Specifies write protection settings for a workbook. |
 | [XlsbSaveOptions](./xlsbsaveoptions) | Represents the options for saving xlsb file. |
 | [XlsSaveOptions](./xlssaveoptions) | Represents the save options for the Excel 97-2003 file format: xls and xlt. |
@@ -169,7 +169,7 @@ Contains all basic classes of Aspose.Cells.
 | [XmlDataBinding](./xmldatabinding) | Represents Xml Data Binding information. |
 | [XmlLoadOptions](./xmlloadoptions) | Represents the options of loading xml. |
 | [XmlMap](./xmlmap) | Represents Xml map information. |
-| [XmlMapCollection](./xmlmapcollection) | A collection of [`XmlMap`](../(aspose.cells/xmlmap)) objects that represent XmlMap information. |
+| [XmlMapCollection](./xmlmapcollection) | A collection of [`XmlMap`](../aspose.cells/xmlmap) objects that represent XmlMap information. |
 | [XmlSaveOptions](./xmlsaveoptions) | Represents the options of saving the workbook as an xml file. |
 | [XpsSaveOptions](./xpssaveoptions) | Represents the additional options when saving the file as the Xps. |
 ## Interfaces

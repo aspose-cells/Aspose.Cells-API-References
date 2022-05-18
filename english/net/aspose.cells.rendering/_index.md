@@ -20,7 +20,7 @@ Contains all classes of Rendering image and pdf.
 | [PageStartSavingArgs](./pagestartsavingargs) | Info for a page starts saving process. |
 | [PdfBookmarkEntry](./pdfbookmarkentry) | PdfBookmarkEntry is an entry in pdf bookmark. if Text property of current instance is null or "", current instance will be hidden and children will be inserted on current level. |
 | [SheetPrintingPreview](./sheetprintingpreview) | Worksheet printing preview. |
-| [SheetRender](./sheetrender) | Represents a worksheet render which can render worksheet to various images such as (../(BMP, PNG, JPEG, TIFF..)) The constructor of this class , must be used after modification of pagesetup, cell style. |
+| [SheetRender](./sheetrender) | Represents a worksheet render which can render worksheet to various images such as (../BMP, PNG, JPEG, TIFF..) The constructor of this class , must be used after modification of pagesetup, cell style. |
 | [WorkbookPrintingPreview](./workbookprintingpreview) | Workbook printing preview. |
 | [WorkbookRender](./workbookrender) | Represents a Workbook render. The constructor of this class , must be used after modification of pagesetup, cell style. |
 ## Interfaces
@@ -37,7 +37,7 @@ Contains all classes of Rendering image and pdf.
 | [DrawObjectEnum](./drawobjectenum) | Indicate Cell or Image of DrawObject. |
 | [PdfCompliance](./pdfcompliance) | Allowing user to set PDF conversion's Compatibility |
 | [PdfCompressionCore](./pdfcompressioncore) | Specifies a type of compression applied to all content in the PDF file except images. |
-| [PdfCustomPropertiesExport](./pdfcustompropertiesexport) | Specifies the way [`CustomDocumentPropertyCollection`](../(aspose.cells.properties/customdocumentpropertycollection)) are exported to PDF file. |
+| [PdfCustomPropertiesExport](./pdfcustompropertiesexport) | Specifies the way [`CustomDocumentPropertyCollection`](../aspose.cells.properties/customdocumentpropertycollection) are exported to PDF file. |
 | [PdfFontEncoding](./pdffontencoding) | Represents pdf embedded font encoding. |
 | [PdfOptimizationType](./pdfoptimizationtype) | Specifies a type of optimization. |
 | [TiffCompression](./tiffcompression) | Specifies what type of compression to apply when saving images into TIFF format file. |

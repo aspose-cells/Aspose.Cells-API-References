@@ -13,10 +13,10 @@ Contains all classes of external connections.
 | Class | Description |
 | --- | --- |
 | [ConnectionParameter](./connectionparameter) | Specifies properties about any parameters used with external data connections Parameters are valid for ODBC and web queries. |
-| [ConnectionParameterCollection](./connectionparametercollection) | Specifies the [`ConnectionParameter`](../(aspose.cells.externalconnections/connectionparameter)) collection |
+| [ConnectionParameterCollection](./connectionparametercollection) | Specifies the [`ConnectionParameter`](../aspose.cells.externalconnections/connectionparameter) collection |
 | [DBConnection](./dbconnection) | Specifies all properties associated with an ODBC or OLE DB external data connection. |
 | [ExternalConnection](./externalconnection) | Specifies an external data connection |
-| [ExternalConnectionCollection](./externalconnectioncollection) | Specifies the [`ExternalConnection`](../(aspose.cells.externalconnections/externalconnection)) collection |
+| [ExternalConnectionCollection](./externalconnectioncollection) | Specifies the [`ExternalConnection`](../aspose.cells.externalconnections/externalconnection) collection |
 | [WebQueryConnection](./webqueryconnection) | Specifies the properties for a web query source. A web query will retrieve data from HTML tables, and can also supply HTTP "Get" parameters to be processed by the web server in generating the HTML by including the parameters and parameter elements. |
 ## Enumeration
 
