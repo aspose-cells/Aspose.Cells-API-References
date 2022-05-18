@@ -21,7 +21,7 @@ Contains all classes of shapes and fill format.
 | [CellsDrawing](./cellsdrawing) | Represents the auto shape and drawing object. |
 | [ChartShape](./chartshape) | Represents the shape of the chart. Properties and methods for the ChartObject object control the appearance and size of the embedded chart on the worksheet. |
 | [CheckBox](./checkbox) | Represents a check box object in a worksheet. |
-| [CheckBoxCollection](./checkboxcollection) | Represents a collection of [`CheckBox`](aspose.cells.drawing/checkbox) objects in a worksheet. |
+| [CheckBoxCollection](./checkboxcollection) | Represents a collection of [`CheckBox`](../(aspose.cells.drawing/checkbox)) objects in a worksheet. |
 | [ColorHelper](./colorhelper) | Provides helper functions about color. |
 | [ComboBox](./combobox) | Represents the control form ComboBox. |
 | [CommentShape](./commentshape) | Represents the shape of the comment. |
@@ -57,7 +57,7 @@ Contains all classes of shapes and fill format.
 | [PatternFill](./patternfill) | Encapsulates the object that represents pattern fill format |
 | [PicFormatOption](./picformatoption) | Represents picture format option |
 | [Picture](./picture) | Encapsulates the object that represents a single picture in a spreadsheet. |
-| [PictureCollection](./picturecollection) | Encapsulates a collection of [`Picture`](aspose.cells.drawing/picture) objects. |
+| [PictureCollection](./picturecollection) | Encapsulates a collection of [`Picture`](../(aspose.cells.drawing/picture)) objects. |
 | [RadioButton](./radiobutton) | Represents a radio button. |
 | [RectangleShape](./rectangleshape) | Represents the rectangle shape. |
 | [ReflectionEffect](./reflectioneffect) | This class specifies a reflection effect. |
@@ -79,7 +79,7 @@ Contains all classes of shapes and fill format.
 | [SolidFill](./solidfill) | Encapsulates the object that represents solid fill format |
 | [Spinner](./spinner) | Represents the Forms control: Spinner. |
 | [TextBox](./textbox) | Encapsulates the object that represents a textbox in a spreadsheet. |
-| [TextBoxCollection](./textboxcollection) | Encapsulates a collection of [`TextBox`](aspose.cells.drawing/textbox) objects. |
+| [TextBoxCollection](./textboxcollection) | Encapsulates a collection of [`TextBox`](../(aspose.cells.drawing/textbox)) objects. |
 | [TextEffectFormat](./texteffectformat) | Contains properties and methods that apply to WordArt objects. |
 | [TextureFill](./texturefill) | Encapsulates the object that represents texture fill format |
 | [ThreeDFormat](./threedformat) | Represents a shape's three-dimensional formatting. |
@@ -104,12 +104,12 @@ Contains all classes of shapes and fill format.
 | [GradientFillType](./gradientfilltype) | Represents all Gradient fill type. |
 | [GradientPresetType](./gradientpresettype) | Represents gradient preset color type. |
 | [GradientStyleType](./gradientstyletype) | Represents gradient shading style. |
-| [ImageType](./imagetype) | Specifies the type (format) of an image. |
+| [ImageType](./imagetype) | Specifies the type (../(format)) of an image. |
 | [LightRigDirectionType](./lightrigdirectiontype) | Represents the light rig direction type. |
 | [LightRigType](./lightrigtype) | Represents a preset light right that can be applied to a shape |
 | [LineCapType](./linecaptype) | Represents the caps of a line |
 | [LineJoinType](./linejointype) | Represents the join styles of a line. |
-| [LineType](./linetype) | Enumerates the type of [`Picture`](aspose.cells.drawing/picture) border or [`Chart`](aspose.cells.charts/chart) line. |
+| [LineType](./linetype) | Enumerates the type of [`Picture`](../(aspose.cells.drawing/picture)) border or [`Chart`](../(aspose.cells.charts/chart)) line. |
 | [MirrorType](./mirrortype) | Represents mirror type of texture fill |
 | [MsoArrowheadLength](./msoarrowheadlength) | Enumerates the line end width of the shape border line. |
 | [MsoArrowheadStyle](./msoarrowheadstyle) | Enumerates the line end type of the shape border line. |

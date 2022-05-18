@@ -16,7 +16,7 @@ Contains all classes of Texts.
 | [Bullet](./bullet) | Represents the bullet. |
 | [BulletValue](./bulletvalue) | Represents the value of the bullet. |
 | [CharacterBulletValue](./characterbulletvalue) | Represents the character bullet. |
-| [FontSettingCollection](./fontsettingcollection) | Represents the list of [`FontSetting`](aspose.cells/fontsetting). |
+| [FontSettingCollection](./fontsettingcollection) | Represents the list of [`FontSetting`](../(aspose.cells/fontsetting)). |
 | [NoneBulletValue](./nonebulletvalue) | Represents no bullet. |
 | [PictureBulletValue](./picturebulletvalue) | Represents the value of the image bullet. |
 | [ShapeTextAlignment](./shapetextalignment) | Represents the setting of shape's text alignment; |

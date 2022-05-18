@@ -16,7 +16,7 @@ Contains all classes of chart and sparkline.
 | [AxisBins](./axisbins) | Represents axis bins |
 | [Chart](./chart) | Encapsulates the object that represents a single Excel chart. |
 | [ChartArea](./chartarea) | Encapsulates the object that represents the chart area in the worksheet. |
-| [ChartCollection](./chartcollection) | Encapsulates a collection of [`Chart`](aspose.cells.charts/chart) objects. |
+| [ChartCollection](./chartcollection) | Encapsulates a collection of [`Chart`](../(aspose.cells.charts/chart)) objects. |
 | [ChartDataTable](./chartdatatable) | Represents a chart data table. |
 | [ChartFrame](./chartframe) | Encapsulates the object that represents the frame object in a chart. |
 | [ChartGlobalizationSettings](./chartglobalizationsettings) | Represents the globalization settings for chart. |
@@ -30,22 +30,22 @@ Contains all classes of chart and sparkline.
 | [Floor](./floor) | Encapsulates the object that represents the floor of a 3-D chart. |
 | [Legend](./legend) | Encapsulates the object that represents the chart legend. |
 | [LegendEntry](./legendentry) | Represents a legend entry in a chart legend. |
-| [LegendEntryCollection](./legendentrycollection) | Represents a collection of all the [`LegendEntry`](aspose.cells.charts/legendentry) objects in the specified chart legend. |
+| [LegendEntryCollection](./legendentrycollection) | Represents a collection of all the [`LegendEntry`](../(aspose.cells.charts/legendentry)) objects in the specified chart legend. |
 | [Marker](./marker) | Represents the marker in a line chart, scatter chart, or radar chart. |
 | [PivotOptions](./pivotoptions) | Represents a complex type that specifies the pivot controls that appear on the chart |
 | [PlotArea](./plotarea) | Encapsulates the object that represents the plot area in a chart. |
 | [Series](./series) | Encapsulates the object that represents a single data series in a chart. |
-| [SeriesCollection](./seriescollection) | Encapsulates a collection of [`Series`](aspose.cells.charts/series) objects. |
+| [SeriesCollection](./seriescollection) | Encapsulates a collection of [`Series`](../(aspose.cells.charts/series)) objects. |
 | [SeriesLayoutProperties](./serieslayoutproperties) |  |
 | [Sparkline](./sparkline) | A sparkline represents a tiny chart or graphic in a worksheet cell that provides a visual representation of data. |
-| [SparklineCollection](./sparklinecollection) | Encapsulates a collection of [`Sparkline`](aspose.cells.charts/sparkline) objects. |
-| [SparklineGroup](./sparklinegroup) | [`Sparkline`](aspose.cells.charts/sparkline) is organized into sparkline group. A SparklineGroup contains a variable number of sparkline items. A sparkline group specifies the type, display settings and axis settings for the sparklines. |
-| [SparklineGroupCollection](./sparklinegroupcollection) | Encapsulates a collection of [`SparklineGroup`](aspose.cells.charts/sparklinegroup) objects. |
+| [SparklineCollection](./sparklinecollection) | Encapsulates a collection of [`Sparkline`](../(aspose.cells.charts/sparkline)) objects. |
+| [SparklineGroup](./sparklinegroup) | [`Sparkline`](../(aspose.cells.charts/sparkline)) is organized into sparkline group. A SparklineGroup contains a variable number of sparkline items. A sparkline group specifies the type, display settings and axis settings for the sparklines. |
+| [SparklineGroupCollection](./sparklinegroupcollection) | Encapsulates a collection of [`SparklineGroup`](../(aspose.cells.charts/sparklinegroup)) objects. |
 | [TickLabelItem](./ticklabelitem) | Include information of a Ticklabel item |
 | [TickLabels](./ticklabels) | Represents the tick-mark labels associated with tick marks on a chart axis. |
 | [Title](./title) | Encapsulates the object that represents the title of chart or axis. |
 | [Trendline](./trendline) | Represents a trendline in a chart. |
-| [TrendlineCollection](./trendlinecollection) | Represents a collection of all the [`Trendline`](aspose.cells.charts/trendline) objects for the specified data series. |
+| [TrendlineCollection](./trendlinecollection) | Represents a collection of all the [`Trendline`](../(aspose.cells.charts/trendline)) objects for the specified data series. |
 | [Walls](./walls) | Encapsulates the object that represents the walls of a 3-D chart. |
 ## Enumeration
 
@@ -66,7 +66,7 @@ Contains all classes of chart and sparkline.
 | [DisplayUnitType](./displayunittype) | Represents the type of display unit. |
 | [ErrorBarDisplayType](./errorbardisplaytype) | Represents error bar display type. |
 | [ErrorBarType](./errorbartype) | Represents error bar amount type. |
-| [FormattingType](./formattingtype) | Represents the type of formatting applied to an [`Area`](aspose.cells.drawing/area) object or a [`Line`](aspose.cells.drawing/line) object. |
+| [FormattingType](./formattingtype) | Represents the type of formatting applied to an [`Area`](../(aspose.cells.drawing/area)) object or a [`Line`](../(aspose.cells.drawing/line)) object. |
 | [LabelPositionType](./labelpositiontype) | Represents data label position type. |
 | [LegendPositionType](./legendpositiontype) | Enumerates the legend position types. |
 | [MapChartLabelLayout](./mapchartlabellayout) | Represents the layout of map chart's labels. |
