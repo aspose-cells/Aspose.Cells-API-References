@@ -18,18 +18,18 @@ public class Column
 
 | Name | Description |
 | --- | --- |
-| [GroupLevel](grouplevel) { get; } | Gets the group level of the column. |
-| [Index](index) { get; } | Gets the index of this column. |
-| [IsCollapsed](iscollapsed) { get; set; } | whether the column is collapsed |
-| [IsHidden](ishidden) { get; set; } | Indicates whether the column is hidden. |
-| [Style](style) { get; } | Gets the style of this column. |
-| [Width](width) { get; set; } | Gets and sets the column width in unit of characters. |
+| [GroupLevel](../../aspose.cells/column/grouplevel) { get; } | Gets the group level of the column. |
+| [Index](../../aspose.cells/column/index) { get; } | Gets the index of this column. |
+| [IsCollapsed](../../aspose.cells/column/iscollapsed) { get; set; } | whether the column is collapsed |
+| [IsHidden](../../aspose.cells/column/ishidden) { get; set; } | Indicates whether the column is hidden. |
+| [Style](../../aspose.cells/column/style) { get; } | Gets the style of this column. |
+| [Width](../../aspose.cells/column/width) { get; set; } | Gets and sets the column width in unit of characters. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ApplyStyle](applystyle)(Style, StyleFlag) | Applies formats for a whole column. |
+| [ApplyStyle](../../aspose.cells/column/applystyle)(Style, StyleFlag) | Applies formats for a whole column. |
 
 ### Examples
 

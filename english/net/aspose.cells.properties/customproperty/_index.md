@@ -24,8 +24,8 @@ public class CustomProperty
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; set; } | Returns or sets the name of the object. |
-| [Value](value) { get; set; } | Returns or sets the value of the custom property. |
+| [Name](../../aspose.cells.properties/customproperty/name) { get; set; } | Returns or sets the name of the object. |
+| [Value](../../aspose.cells.properties/customproperty/value) { get; set; } | Returns or sets the value of the custom property. |
 
 ### See Also
 

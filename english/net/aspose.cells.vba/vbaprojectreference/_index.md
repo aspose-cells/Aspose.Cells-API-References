@@ -18,18 +18,18 @@ public class VbaProjectReference
 
 | Name | Description |
 | --- | --- |
-| [ExtendedLibid](extendedlibid) { get; set; } | Gets and sets the extended Libid of the reference. |
-| [Libid](libid) { get; set; } | Gets and sets the Libid of the reference. |
-| [Name](name) { get; set; } | Gets and sets the name of the reference. |
-| [RelativeLibid](relativelibid) { get; set; } | Gets and sets the referenced VBA project's identifier with an relative path. |
-| [Twiddledlibid](twiddledlibid) { get; set; } | Gets and sets the twiddled Libid of the reference. |
-| [Type](type) { get; } | Gets the type of this reference. |
+| [ExtendedLibid](../../aspose.cells.vba/vbaprojectreference/extendedlibid) { get; set; } | Gets and sets the extended Libid of the reference. |
+| [Libid](../../aspose.cells.vba/vbaprojectreference/libid) { get; set; } | Gets and sets the Libid of the reference. |
+| [Name](../../aspose.cells.vba/vbaprojectreference/name) { get; set; } | Gets and sets the name of the reference. |
+| [RelativeLibid](../../aspose.cells.vba/vbaprojectreference/relativelibid) { get; set; } | Gets and sets the referenced VBA project's identifier with an relative path. |
+| [Twiddledlibid](../../aspose.cells.vba/vbaprojectreference/twiddledlibid) { get; set; } | Gets and sets the twiddled Libid of the reference. |
+| [Type](../../aspose.cells.vba/vbaprojectreference/type) { get; } | Gets the type of this reference. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Copy](copy)(VbaProjectReference) |  |
+| [Copy](../../aspose.cells.vba/vbaprojectreference/copy)(VbaProjectReference) |  |
 
 ### Examples
 

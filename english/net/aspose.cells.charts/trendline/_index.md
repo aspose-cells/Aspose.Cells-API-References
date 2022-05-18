@@ -18,18 +18,40 @@ public class Trendline : Line
 
 | Name | Description |
 | --- | --- |
-| [Backward](backward) { get; set; } | Returns or sets the number of periods (or units on a scatter chart) that the trendline extends backward. The number of periods must be greater than and equal to zero. If the chart type is column ,the number of periods must be between 0 and 0.5 |
-| [DataLabels](datalabels) { get; } | Represents the DataLabels object for the specified ASeries. |
-| [DisplayEquation](displayequation) { get; set; } | Represents if the equation for the trendline is displayed on the chart (in the same data label as the R-squared value). Setting this property to True automatically turns on data labels. |
-| [DisplayRSquared](displayrsquared) { get; set; } | Represents if the R-squared value of the trendline is displayed on the chart (in the same data label as the equation). Setting this property to True automatically turns on data labels. |
-| [Forward](forward) { get; set; } | Returns or sets the number of periods (or units on a scatter chart) that the trendline extends forward. The number of periods must be greater than and equal to zero. |
-| [Intercept](intercept) { get; set; } | Returns or sets the point where the trendline crosses the value axis. |
-| [IsNameAuto](isnameauto) { get; set; } | Returns if Microsoft Excel automatically determines the name of the trendline. |
-| [LegendEntry](legendentry) { get; } | Gets the legend entry according to this trendline |
-| [Name](name) { get; set; } | Returns the name of the trendline. |
-| [Order](order) { get; set; } | Returns or sets the trendline order (an integer greater than 1) when the trendline type is Polynomial. The order must be between 2 and 6. |
-| [Period](period) { get; set; } | Returns or sets the period for the moving-average trendline. |
-| [Type](type) { get; } | Returns the trendline type. |
+| [Backward](../../aspose.cells.charts/trendline/backward) { get; set; } | Returns or sets the number of periods (or units on a scatter chart) that the trendline extends backward. The number of periods must be greater than and equal to zero. If the chart type is column ,the number of periods must be between 0 and 0.5 |
+| [BeginArrowLength](../../aspose.cells.drawing/line/beginarrowlength) { get; set; } | Specifies the length of the arrowhead for the begin of a line. |
+| [BeginArrowWidth](../../aspose.cells.drawing/line/beginarrowwidth) { get; set; } | Specifies the width of the arrowhead for the begin of a line. |
+| [BeginType](../../aspose.cells.drawing/line/begintype) { get; set; } | Specifies an arrowhead for the begin of a line. |
+| [CapType](../../aspose.cells.drawing/line/captype) { get; set; } | Specifies the ending caps. |
+| [Color](../../aspose.cells.drawing/line/color) { get; set; } | Represents the Color of the line. |
+| [CompoundType](../../aspose.cells.drawing/line/compoundtype) { get; set; } | Specifies the compound line type |
+| [DashType](../../aspose.cells.drawing/line/dashtype) { get; set; } | Specifies the dash line type |
+| [DataLabels](../../aspose.cells.charts/trendline/datalabels) { get; } | Represents the DataLabels object for the specified ASeries. |
+| [DisplayEquation](../../aspose.cells.charts/trendline/displayequation) { get; set; } | Represents if the equation for the trendline is displayed on the chart (in the same data label as the R-squared value). Setting this property to True automatically turns on data labels. |
+| [DisplayRSquared](../../aspose.cells.charts/trendline/displayrsquared) { get; set; } | Represents if the R-squared value of the trendline is displayed on the chart (in the same data label as the equation). Setting this property to True automatically turns on data labels. |
+| [EndArrowLength](../../aspose.cells.drawing/line/endarrowlength) { get; set; } | Specifies the length of the arrowhead for the end of a line. |
+| [EndArrowWidth](../../aspose.cells.drawing/line/endarrowwidth) { get; set; } | Specifies the width of the arrowhead for the end of a line. |
+| [EndType](../../aspose.cells.drawing/line/endtype) { get; set; } | Specifies an arrowhead for the end of a line. |
+| [FormattingType](../../aspose.cells.drawing/line/formattingtype) { get; set; } | Gets or sets format type. |
+| [Forward](../../aspose.cells.charts/trendline/forward) { get; set; } | Returns or sets the number of periods (or units on a scatter chart) that the trendline extends forward. The number of periods must be greater than and equal to zero. |
+| [GradientFill](../../aspose.cells.drawing/line/gradientfill) { get; } | Represents gradient fill. |
+| [Intercept](../../aspose.cells.charts/trendline/intercept) { get; set; } | Returns or sets the point where the trendline crosses the value axis. |
+| [IsAuto](../../aspose.cells.drawing/line/isauto) { get; set; } | Indicates whether this line style is auto assigned. |
+| [IsAutomaticColor](../../aspose.cells.drawing/line/isautomaticcolor) { get; } | Indicates whether the color of line is automatic assigned. |
+| [IsNameAuto](../../aspose.cells.charts/trendline/isnameauto) { get; set; } | Returns if Microsoft Excel automatically determines the name of the trendline. |
+| [IsVisible](../../aspose.cells.drawing/line/isvisible) { get; set; } | Represents whether the line is visible. |
+| [JoinType](../../aspose.cells.drawing/line/jointype) { get; set; } | Specifies the joining caps. |
+| [LegendEntry](../../aspose.cells.charts/trendline/legendentry) { get; } | Gets the legend entry according to this trendline |
+| [Name](../../aspose.cells.charts/trendline/name) { get; set; } | Returns the name of the trendline. |
+| [Order](../../aspose.cells.charts/trendline/order) { get; set; } | Returns or sets the trendline order (an integer greater than 1) when the trendline type is Polynomial. The order must be between 2 and 6. |
+| [Period](../../aspose.cells.charts/trendline/period) { get; set; } | Returns or sets the period for the moving-average trendline. |
+| [Style](../../aspose.cells.drawing/line/style) { get; set; } | Represents the style of the line. |
+| [ThemeColor](../../aspose.cells.drawing/line/themecolor) { get; set; } | Gets and sets the theme color. |
+| [Transparency](../../aspose.cells.drawing/line/transparency) { get; set; } | Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). |
+| [Type](../../aspose.cells.charts/trendline/type) { get; } | Returns the trendline type. |
+| [Weight](../../aspose.cells.drawing/line/weight) { get; set; } | Gets or sets the [`WeightType`](../../aspose.cells.drawing/weighttype) of the line. |
+| [WeightPt](../../aspose.cells.drawing/line/weightpt) { get; set; } | Gets or sets the weight of the line in unit of points. |
+| [WeightPx](../../aspose.cells.drawing/line/weightpx) { get; set; } | Gets or sets the weight of the line in unit of pixels. |
 
 ### Examples
 

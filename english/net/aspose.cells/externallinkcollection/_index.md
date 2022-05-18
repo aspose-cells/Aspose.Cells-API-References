@@ -18,20 +18,20 @@ public class ExternalLinkCollection : IEnumerable
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements actually contained in the collection. |
-| [Item](item) { get; } | Gets the [`ExternalLink`](../externallink) element at the specified index. |
+| [Count](../../aspose.cells/externallinkcollection/count) { get; } | Gets the number of elements actually contained in the collection. |
+| [Item](../../aspose.cells/externallinkcollection/item) { get; } | Gets the [`ExternalLink`](../externallink) element at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(string, string[]) | Adds an external link. |
-| [Add](add)(DirectoryType, string, string[]) | Add an external link . |
-| [Clear](clear)() | Removes all external links. |
-| [Clear](clear)(bool) | Removes all external links. |
-| [GetEnumerator](getenumerator)() | Get an enumerator that iterates through this collection. |
-| [RemoveAt](removeat)(int) | Removes the specified external link from the workbook. |
-| [RemoveAt](removeat)(int, bool) | Removes the specified external link from the workbook. |
+| [Add](../../aspose.cells/externallinkcollection/add)(string, string[]) | Adds an external link. |
+| [Add](../../aspose.cells/externallinkcollection/add)(DirectoryType, string, string[]) | Add an external link . |
+| [Clear](../../aspose.cells/externallinkcollection/clear)() | Removes all external links. |
+| [Clear](../../aspose.cells/externallinkcollection/clear)(bool) | Removes all external links. |
+| [GetEnumerator](../../aspose.cells/externallinkcollection/getenumerator)() | Get an enumerator that iterates through this collection. |
+| [RemoveAt](../../aspose.cells/externallinkcollection/removeat)(int) | Removes the specified external link from the workbook. |
+| [RemoveAt](../../aspose.cells/externallinkcollection/removeat)(int, bool) | Removes the specified external link from the workbook. |
 
 ### Examples
 

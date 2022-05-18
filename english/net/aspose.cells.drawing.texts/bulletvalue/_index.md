@@ -18,7 +18,7 @@ public abstract class BulletValue
 
 | Name | Description |
 | --- | --- |
-| abstract [Type](type) { get; } | Gets the type of the bullet's value. |
+| abstract [Type](../../aspose.cells.drawing.texts/bulletvalue/type) { get; } | Gets the type of the bullet's value. |
 
 ### See Also
 

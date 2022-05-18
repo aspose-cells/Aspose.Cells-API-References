@@ -18,22 +18,22 @@ public class PivotItem
 
 | Name | Description |
 | --- | --- |
-| [Index](index) { get; set; } | Gets the index of the pivot item in the pivot field |
-| [IsHidden](ishidden) { get; set; } | Gets and Sets whether the pivot item is hidden. |
-| [IsHideDetail](ishidedetail) { get; set; } | Gets and Sets whether the pivot item hides detail. |
-| [Name](name) { get; } | Gets the name of the pivot item. |
-| [Position](position) { set; } | Specifying the position index in all the PivotItems,not the PivotItems under the same parent node. |
-| [PositionInSameParentNode](positioninsameparentnode) { set; } | Specifying the position index in the PivotItems under the same parent node. |
-| [Value](value) { get; } | Gets the value of the pivot item |
+| [Index](../../aspose.cells.pivot/pivotitem/index) { get; set; } | Gets the index of the pivot item in the pivot field |
+| [IsHidden](../../aspose.cells.pivot/pivotitem/ishidden) { get; set; } | Gets and Sets whether the pivot item is hidden. |
+| [IsHideDetail](../../aspose.cells.pivot/pivotitem/ishidedetail) { get; set; } | Gets and Sets whether the pivot item hides detail. |
+| [Name](../../aspose.cells.pivot/pivotitem/name) { get; } | Gets the name of the pivot item. |
+| [Position](../../aspose.cells.pivot/pivotitem/position) { set; } | Specifying the position index in all the PivotItems,not the PivotItems under the same parent node. |
+| [PositionInSameParentNode](../../aspose.cells.pivot/pivotitem/positioninsameparentnode) { set; } | Specifying the position index in the PivotItems under the same parent node. |
+| [Value](../../aspose.cells.pivot/pivotitem/value) { get; } | Gets the value of the pivot item |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetDateTimeValue](getdatetimevalue)() | Gets the date time value of the pivot item If the value is null ,it will return DateTime.MinValue |
-| [GetDoubleValue](getdoublevalue)() | Gets the double value of the pivot item If the value is null or not number ,it will return 0 |
-| [GetStringValue](getstringvalue)() | Gets the string value of the pivot item If the value is null, it will return "" |
-| [Move](move)(int, bool) | Moves the item up or down |
+| [GetDateTimeValue](../../aspose.cells.pivot/pivotitem/getdatetimevalue)() | Gets the date time value of the pivot item If the value is null ,it will return DateTime.MinValue |
+| [GetDoubleValue](../../aspose.cells.pivot/pivotitem/getdoublevalue)() | Gets the double value of the pivot item If the value is null or not number ,it will return 0 |
+| [GetStringValue](../../aspose.cells.pivot/pivotitem/getstringvalue)() | Gets the string value of the pivot item If the value is null, it will return "" |
+| [Move](../../aspose.cells.pivot/pivotitem/move)(int, bool) | Moves the item up or down |
 
 ### See Also
 

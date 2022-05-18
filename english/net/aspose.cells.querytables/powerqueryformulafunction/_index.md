@@ -18,7 +18,10 @@ public class PowerQueryFormulaFunction : PowerQueryFormula
 
 | Name | Description |
 | --- | --- |
-| [F](f) { get; set; } | Gets and sets the definition of function. |
+| [F](../../aspose.cells.querytables/powerqueryformulafunction/f) { get; set; } | Gets and sets the definition of function. |
+| [FormulaDefinition](../../aspose.cells.querytables/powerqueryformula/formuladefinition) { get; } | Gets the definition of the power query formula. |
+| [Name](../../aspose.cells.querytables/powerqueryformula/name) { get; set; } | Gets and sets the name of the power query formula. |
+| [PowerQueryFormulaItems](../../aspose.cells.querytables/powerqueryformula/powerqueryformulaitems) { get; } | Gets all items of power query formula. |
 
 ### See Also
 

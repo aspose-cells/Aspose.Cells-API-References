@@ -24,8 +24,8 @@ public class InsertOptions
 
 | Name | Description |
 | --- | --- |
-| [CopyFormatType](copyformattype) { get; set; } |  |
-| [UpdateReference](updatereference) { get; set; } | Indicates if references in other worksheets will be updated. |
+| [CopyFormatType](../../aspose.cells/insertoptions/copyformattype) { get; set; } |  |
+| [UpdateReference](../../aspose.cells/insertoptions/updatereference) { get; set; } | Indicates if references in other worksheets will be updated. |
 
 ### See Also
 

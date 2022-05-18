@@ -18,16 +18,16 @@ public class SmartTag
 
 | Name | Description |
 | --- | --- |
-| [Deleted](deleted) { get; set; } | Indicates whether the smart tag is deleted. |
-| [Name](name) { get; } | Gets the name of the smart tag. |
-| [Properties](properties) { get; set; } | Gets and set the properties of the smart tag. |
-| [Uri](uri) { get; } | Gets the namespace URI of the smart tag. |
+| [Deleted](../../aspose.cells.markup/smarttag/deleted) { get; set; } | Indicates whether the smart tag is deleted. |
+| [Name](../../aspose.cells.markup/smarttag/name) { get; } | Gets the name of the smart tag. |
+| [Properties](../../aspose.cells.markup/smarttag/properties) { get; set; } | Gets and set the properties of the smart tag. |
+| [Uri](../../aspose.cells.markup/smarttag/uri) { get; } | Gets the namespace URI of the smart tag. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetLink](setlink)(string, string) | Change the name and the namespace URI of the smart tag. |
+| [SetLink](../../aspose.cells.markup/smarttag/setlink)(string, string) | Change the name and the namespace URI of the smart tag. |
 
 ### See Also
 

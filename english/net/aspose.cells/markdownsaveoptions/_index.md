@@ -24,10 +24,21 @@ public class MarkdownSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [Encoding](encoding) { get; set; } | Gets and sets the default encoding. |
-| [FormatStrategy](formatstrategy) { get; set; } | Gets and sets the format strategy when exporting the cell value as string. |
-| [LightCellsDataProvider](lightcellsdataprovider) { get; set; } | The Data provider to provide cells data for saving workbook in light mode. |
-| [LineSeparator](lineseparator) { get; set; } | Gets and sets the line separator. |
+| [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder) { get; set; } | The cached file folder is used to store some large data. |
+| [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | Make the workbook empty after saving the file. |
+| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [Encoding](../../aspose.cells/markdownsaveoptions/encoding) { get; set; } | Gets and sets the default encoding. |
+| [FormatStrategy](../../aspose.cells/markdownsaveoptions/formatstrategy) { get; set; } | Gets and sets the format strategy when exporting the cell value as string. |
+| [LightCellsDataProvider](../../aspose.cells/markdownsaveoptions/lightcellsdataprovider) { get; set; } | The Data provider to provide cells data for saving workbook in light mode. |
+| [LineSeparator](../../aspose.cells/markdownsaveoptions/lineseparator) { get; set; } | Gets and sets the line separator. |
+| [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Indicates whether refreshing chart cache data |
+| [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Gets the save file format. |
+| [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | Indicates whether sorting external defined names before saving file. |
+| [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | Indicates whether sorting defined names before saving file. |
+| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Indicates whether updating smart art setting. The default value is false. |
+| [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas) { get; set; } | Indicates whether validate merged cells before saving the file. |
+| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Gets or sets warning callback. |
 
 ### See Also
 

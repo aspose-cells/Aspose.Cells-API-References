@@ -18,30 +18,30 @@ public class Row : IEnumerable
 
 | Name | Description |
 | --- | --- |
-| [FirstCell](firstcell) { get; } | Gets the first cell object in the row. |
-| [FirstDataCell](firstdatacell) { get; } | Gets the first non-blank cell in the row. |
-| [GroupLevel](grouplevel) { get; } | Gets the group level of the row. |
-| [Height](height) { get; set; } | Gets and sets the row height in unit of Points. |
-| [Index](index) { get; } | Gets the index of this row. |
-| [IsBlank](isblank) { get; } | Indicates whether the row contains any data |
-| [IsCollapsed](iscollapsed) { get; set; } | whether the row is collapsed |
-| [IsHeightMatched](isheightmatched) { get; set; } | Indicates that row height and default font height matches. |
-| [IsHidden](ishidden) { get; set; } | Indicates whether the row is hidden. |
-| [Item](item) { get; } | Gets the cell. |
-| [LastCell](lastcell) { get; } | Gets the last cell object in the row. |
-| [LastDataCell](lastdatacell) { get; } | Gets the last non-blank cell in the row. |
-| [Style](style) { get; } | Represents the style of this row. |
+| [FirstCell](../../aspose.cells/row/firstcell) { get; } | Gets the first cell object in the row. |
+| [FirstDataCell](../../aspose.cells/row/firstdatacell) { get; } | Gets the first non-blank cell in the row. |
+| [GroupLevel](../../aspose.cells/row/grouplevel) { get; } | Gets the group level of the row. |
+| [Height](../../aspose.cells/row/height) { get; set; } | Gets and sets the row height in unit of Points. |
+| [Index](../../aspose.cells/row/index) { get; } | Gets the index of this row. |
+| [IsBlank](../../aspose.cells/row/isblank) { get; } | Indicates whether the row contains any data |
+| [IsCollapsed](../../aspose.cells/row/iscollapsed) { get; set; } | whether the row is collapsed |
+| [IsHeightMatched](../../aspose.cells/row/isheightmatched) { get; set; } | Indicates that row height and default font height matches. |
+| [IsHidden](../../aspose.cells/row/ishidden) { get; set; } | Indicates whether the row is hidden. |
+| [Item](../../aspose.cells/row/item) { get; } | Gets the cell. |
+| [LastCell](../../aspose.cells/row/lastcell) { get; } | Gets the last cell object in the row. |
+| [LastDataCell](../../aspose.cells/row/lastdatacell) { get; } | Gets the last non-blank cell in the row. |
+| [Style](../../aspose.cells/row/style) { get; } | Represents the style of this row. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ApplyStyle](applystyle)(Style, StyleFlag) | Applies formats for a whole row. |
-| [CopySettings](copysettings)(Row, bool) | Copy settings of row, such as style, height, visibility, ...etc. |
-| [Equals](equals)(object) | Checks whether this object refers to the same row with another. |
-| [Equals](equals)(Row) | Checks whether this object refers to the same row with another row object. |
-| [GetCellOrNull](getcellornull)(int) | Gets the cell or null in the specific index. |
-| [GetEnumerator](getenumerator)() | Gets the cells enumerator |
+| [ApplyStyle](../../aspose.cells/row/applystyle)(Style, StyleFlag) | Applies formats for a whole row. |
+| [CopySettings](../../aspose.cells/row/copysettings)(Row, bool) | Copy settings of row, such as style, height, visibility, ...etc. |
+| [Equals](../../aspose.cells/row/equals)(object) | Checks whether this object refers to the same row with another. |
+| [Equals](../../aspose.cells/row/equals)(Row) | Checks whether this object refers to the same row with another row object. |
+| [GetCellOrNull](../../aspose.cells/row/getcellornull)(int) | Gets the cell or null in the specific index. |
+| [GetEnumerator](../../aspose.cells/row/getenumerator)() | Gets the cells enumerator |
 
 ### Examples
 

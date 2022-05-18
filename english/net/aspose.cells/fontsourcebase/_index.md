@@ -18,7 +18,7 @@ public abstract class FontSourceBase
 
 | Name | Description |
 | --- | --- |
-| abstract [Type](type) { get; } | Returns the type of the font source. |
+| abstract [Type](../../aspose.cells/fontsourcebase/type) { get; } | Returns the type of the font source. |
 
 ### See Also
 

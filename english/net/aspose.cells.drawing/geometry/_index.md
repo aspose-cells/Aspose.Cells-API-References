@@ -18,7 +18,7 @@ public abstract class Geometry
 
 | Name | Description |
 | --- | --- |
-| [ShapeAdjustValues](shapeadjustvalues) { get; } | Gets a collection of shape adjust value |
+| [ShapeAdjustValues](../../aspose.cells.drawing/geometry/shapeadjustvalues) { get; } | Gets a collection of shape adjust value |
 
 ### See Also
 

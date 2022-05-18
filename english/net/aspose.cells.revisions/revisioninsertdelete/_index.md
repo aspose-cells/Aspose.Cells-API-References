@@ -18,10 +18,12 @@ public class RevisionInsertDelete : Revision
 
 | Name | Description |
 | --- | --- |
-| [ActionType](actiontype) { get; } | Gets the action type of this revision. |
-| [CellArea](cellarea) { get; } | Gets the inserting/deleting range. |
-| [Revisions](revisions) { get; } | Gets revision list by this operation. |
-| override [Type](type) { get; } | Represents the type of revision. |
+| [ActionType](../../aspose.cells.revisions/revisioninsertdelete/actiontype) { get; } | Gets the action type of this revision. |
+| [CellArea](../../aspose.cells.revisions/revisioninsertdelete/cellarea) { get; } | Gets the inserting/deleting range. |
+| [Id](../../aspose.cells.revisions/revision/id) { get; } | Gets the number of this revision. |
+| [Revisions](../../aspose.cells.revisions/revisioninsertdelete/revisions) { get; } | Gets revision list by this operation. |
+| override [Type](../../aspose.cells.revisions/revisioninsertdelete/type) { get; } | Represents the type of revision. |
+| [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Gets the worksheet. |
 
 ### See Also
 

@@ -18,17 +18,17 @@ public class Hyperlink
 
 | Name | Description |
 | --- | --- |
-| [Address](address) { get; set; } | Represents the address of a hyperlink. |
-| [Area](area) { get; } | Gets the range of hyperlink. |
-| [LinkType](linktype) { get; } | Gets the link type. |
-| [ScreenTip](screentip) { get; set; } | Returns or sets the ScreenTip text for the specified hyperlink. |
-| [TextToDisplay](texttodisplay) { get; set; } | Represents the text to be displayed for the specified hyperlink. The default value is the address of the hyperlink. |
+| [Address](../../aspose.cells/hyperlink/address) { get; set; } | Represents the address of a hyperlink. |
+| [Area](../../aspose.cells/hyperlink/area) { get; } | Gets the range of hyperlink. |
+| [LinkType](../../aspose.cells/hyperlink/linktype) { get; } | Gets the link type. |
+| [ScreenTip](../../aspose.cells/hyperlink/screentip) { get; set; } | Returns or sets the ScreenTip text for the specified hyperlink. |
+| [TextToDisplay](../../aspose.cells/hyperlink/texttodisplay) { get; set; } | Represents the text to be displayed for the specified hyperlink. The default value is the address of the hyperlink. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Delete](delete)() | Deletes this hyperlink |
+| [Delete](../../aspose.cells/hyperlink/delete)() | Deletes this hyperlink |
 
 ### Examples
 

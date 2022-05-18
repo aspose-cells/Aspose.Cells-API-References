@@ -14,6 +14,13 @@ Represents no fill.
 public class NoneFill : Fill
 ```
 
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.cells.drawing/fill/equals)(object) | / |
+| override [GetHashCode](../../aspose.cells.drawing/fill/gethashcode)() | Gets the hash code. |
+
 ### See Also
 
 * class [Fill](../fill)

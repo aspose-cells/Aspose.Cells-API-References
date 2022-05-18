@@ -18,10 +18,10 @@ public class DefaultStyleSettings
 
 | Name | Description |
 | --- | --- |
-| [FontName](fontname) { get; set; } | Gets/Sets the default font name for the workbook |
-| [FontSize](fontsize) { get; set; } | Gets/Sets the default standard font size for the workbook. |
-| [HorizontalAlignment](horizontalalignment) { get; set; } | Gets/Sets the default value for horizontal alignment |
-| [VerticalAlignment](verticalalignment) { get; set; } | Gets/Sets the default value for vertical alignment |
+| [FontName](../../aspose.cells/defaultstylesettings/fontname) { get; set; } | Gets/Sets the default font name for the workbook |
+| [FontSize](../../aspose.cells/defaultstylesettings/fontsize) { get; set; } | Gets/Sets the default standard font size for the workbook. |
+| [HorizontalAlignment](../../aspose.cells/defaultstylesettings/horizontalalignment) { get; set; } | Gets/Sets the default value for horizontal alignment |
+| [VerticalAlignment](../../aspose.cells/defaultstylesettings/verticalalignment) { get; set; } | Gets/Sets the default value for vertical alignment |
 
 ### See Also
 

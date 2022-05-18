@@ -24,10 +24,10 @@ public class FileFormatInfo
 
 | Name | Description |
 | --- | --- |
-| [FileFormatType](fileformattype) { get; } | Gets the detected file format. |
-| [IsEncrypted](isencrypted) { get; } | Returns true if the document is encrypted and requires a password to open. |
-| [IsProtectedByRMS](isprotectedbyrms) { get; } | Gets whether the file is protected by Microsoft Rights Management Server. |
-| [LoadFormat](loadformat) { get; } | Gets the detected load format. |
+| [FileFormatType](../../aspose.cells/fileformatinfo/fileformattype) { get; } | Gets the detected file format. |
+| [IsEncrypted](../../aspose.cells/fileformatinfo/isencrypted) { get; } | Returns true if the document is encrypted and requires a password to open. |
+| [IsProtectedByRMS](../../aspose.cells/fileformatinfo/isprotectedbyrms) { get; } | Gets whether the file is protected by Microsoft Rights Management Server. |
+| [LoadFormat](../../aspose.cells/fileformatinfo/loadformat) { get; } | Gets the detected load format. |
 
 ### See Also
 

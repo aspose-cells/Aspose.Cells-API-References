@@ -18,17 +18,17 @@ public class CalculationCell
 
 | Name | Description |
 | --- | --- |
-| [Cell](cell) { get; } | Gets the Cell object which is being calculated. |
-| [CellColumn](cellcolumn) { get; } | Gets the column index of the cell. |
-| [CellRow](cellrow) { get; } | Gets the row index of the cell. |
-| [Workbook](workbook) { get; } | Gets the Workbook object. |
-| [Worksheet](worksheet) { get; } | Gets the Worksheet object where the cell is in. |
+| [Cell](../../aspose.cells/calculationcell/cell) { get; } | Gets the Cell object which is being calculated. |
+| [CellColumn](../../aspose.cells/calculationcell/cellcolumn) { get; } | Gets the column index of the cell. |
+| [CellRow](../../aspose.cells/calculationcell/cellrow) { get; } | Gets the row index of the cell. |
+| [Workbook](../../aspose.cells/calculationcell/workbook) { get; } | Gets the Workbook object. |
+| [Worksheet](../../aspose.cells/calculationcell/worksheet) { get; } | Gets the Worksheet object where the cell is in. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetCalculatedValue](setcalculatedvalue)(object) | Sets the calculated value for the cell. |
+| [SetCalculatedValue](../../aspose.cells/calculationcell/setcalculatedvalue)(object) | Sets the calculated value for the cell. |
 
 ### Remarks
 

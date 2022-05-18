@@ -18,12 +18,12 @@ public interface LightCellsDataProvider
 
 | Name | Description |
 | --- | --- |
-| [IsGatherString](isgatherstring)() | Checks whether the current string value of cell needs to be gathered into a global pool. |
-| [NextCell](nextcell)() | Gets next cell to be saved. |
-| [NextRow](nextrow)() | Gets the next row to be saved. |
-| [StartCell](startcell)(Cell) | Starts to save data of one cell. |
-| [StartRow](startrow)(Row) | Starts to save data of one row. |
-| [StartSheet](startsheet)(int) | Starts to save a worksheet. |
+| [IsGatherString](../../aspose.cells/lightcellsdataprovider/isgatherstring)() | Checks whether the current string value of cell needs to be gathered into a global pool. |
+| [NextCell](../../aspose.cells/lightcellsdataprovider/nextcell)() | Gets next cell to be saved. |
+| [NextRow](../../aspose.cells/lightcellsdataprovider/nextrow)() | Gets the next row to be saved. |
+| [StartCell](../../aspose.cells/lightcellsdataprovider/startcell)(Cell) | Starts to save data of one cell. |
+| [StartRow](../../aspose.cells/lightcellsdataprovider/startrow)(Row) | Starts to save data of one row. |
+| [StartSheet](../../aspose.cells/lightcellsdataprovider/startsheet)(int) | Starts to save a worksheet. |
 
 ### Remarks
 

@@ -18,14 +18,43 @@ public class TrendlineCollection : CollectionBase<Trendline>
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Gets a  object by its index. |
+| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
+| [Item](../../aspose.cells.charts/trendlinecollection/item) { get; } | Gets a  object by its index. |
+| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(TrendlineType) | Adds a  object to this collection with specified type. |
-| [Add](add)(TrendlineType, string) | Adds a  object to this collection with specified type and name. |
+| [Add](../../aspose.cells.charts/trendlinecollection/add)(TrendlineType) | Adds a  object to this collection with specified type. |
+| [Add](../../aspose.cells.charts/trendlinecollection/add)(TrendlineType, string) | Adds a  object to this collection with specified type and name. |
+| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Trendline) |  |
+| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Trendline, IComparer&lt;Trendline&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Trendline, IComparer&lt;Trendline&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase`1/clear)() |  |
+| [Contains](../../aspose.cells/collectionbase`1/contains)(Trendline) |  |
+| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Trendline[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Trendline[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, Trendline[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;Trendline&gt;) |  |
+| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;Trendline&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;Trendline&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;Trendline&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;Trendline&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;Trendline&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;Trendline&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;Trendline&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;Trendline&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;Trendline&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
+| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Trendline) |  |
+| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Trendline, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Trendline, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Trendline) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Trendline, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Trendline, int, int) |  |
+| [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
 
 ### Examples
 

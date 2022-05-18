@@ -18,8 +18,8 @@ public abstract class AbstractGlobalizationSettings
 
 | Name | Description |
 | --- | --- |
-| virtual [Compare](compare)(string, string, bool) | Compares two string values according to certain collation rules. |
-| virtual [GetCollationKey](getcollationkey)(string, bool) | Transforms the string into a comparable object according to certain collation rules. |
+| virtual [Compare](../../aspose.cells/abstractglobalizationsettings/compare)(string, string, bool) | Compares two string values according to certain collation rules. |
+| virtual [GetCollationKey](../../aspose.cells/abstractglobalizationsettings/getcollationkey)(string, bool) | Transforms the string into a comparable object according to certain collation rules. |
 
 ### See Also
 

@@ -24,7 +24,7 @@ public class NoneBulletValue : BulletValue
 
 | Name | Description |
 | --- | --- |
-| override [Type](type) { get; } | Gets the type of the bullet's value. |
+| override [Type](../../aspose.cells.drawing.texts/nonebulletvalue/type) { get; } | Gets the type of the bullet's value. |
 
 ### See Also
 

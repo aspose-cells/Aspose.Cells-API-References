@@ -18,21 +18,49 @@ public class CommentCollection : CollectionBase<Comment>
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Gets the [`Comment`](../comment) element at the specified index. (3 indexers) |
+| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
+| [Item](../../aspose.cells/commentcollection/item) { get; } | Gets the [`Comment`](../comment) element at the specified index. (3 indexers) |
+| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(string) | Adds a comment to the collection. |
-| [Add](add)(int, int) | Adds a comment to the collection. |
-| [AddThreadedComment](addthreadedcomment)(string, string, ThreadedCommentAuthor) | Adds a threaded comment. |
-| [AddThreadedComment](addthreadedcomment)(int, int, string, ThreadedCommentAuthor) | Adds a threaded comment. |
-| [Clear](clear)() | Removes all comments; |
-| [GetThreadedComments](getthreadedcomments)(string) | Gets the threaded comments by cell name. |
-| [GetThreadedComments](getthreadedcomments)(int, int) | Gets the threaded comments by row and column index. |
-| [RemoveAt](removeat)(string) | Removes the comment of the specific cell. |
-| [RemoveAt](removeat)(int, int) | Removes the comment of the specific cell. |
+| [Add](../../aspose.cells/commentcollection/add)(string) | Adds a comment to the collection. |
+| [Add](../../aspose.cells/commentcollection/add)(int, int) | Adds a comment to the collection. |
+| [AddThreadedComment](../../aspose.cells/commentcollection/addthreadedcomment)(string, string, ThreadedCommentAuthor) | Adds a threaded comment. |
+| [AddThreadedComment](../../aspose.cells/commentcollection/addthreadedcomment)(int, int, string, ThreadedCommentAuthor) | Adds a threaded comment. |
+| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Comment) |  |
+| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Comment, IComparer&lt;Comment&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Comment, IComparer&lt;Comment&gt;) |  |
+| [Clear](../../aspose.cells/commentcollection/clear)() | Removes all comments; (2 methods) |
+| [Contains](../../aspose.cells/collectionbase`1/contains)(Comment) |  |
+| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Comment[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Comment[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, Comment[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;Comment&gt;) |  |
+| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;Comment&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;Comment&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;Comment&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;Comment&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;Comment&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;Comment&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;Comment&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;Comment&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;Comment&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
+| [GetThreadedComments](../../aspose.cells/commentcollection/getthreadedcomments)(string) | Gets the threaded comments by cell name. |
+| [GetThreadedComments](../../aspose.cells/commentcollection/getthreadedcomments)(int, int) | Gets the threaded comments by row and column index. |
+| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Comment) |  |
+| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Comment, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Comment, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Comment) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Comment, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Comment, int, int) |  |
+| [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
+| [RemoveAt](../../aspose.cells/commentcollection/removeat)(string) | Removes the comment of the specific cell. |
+| [RemoveAt](../../aspose.cells/commentcollection/removeat)(int, int) | Removes the comment of the specific cell. |
 
 ### Examples
 

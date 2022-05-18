@@ -24,7 +24,7 @@ public class ShapePath
 
 | Name | Description |
 | --- | --- |
-| [PathSegementList](pathsegementlist) { get; } | Gets [`ShapeSegmentPathCollection`](../shapesegmentpathcollection) list |
+| [PathSegementList](../../aspose.cells.drawing/shapepath/pathsegementlist) { get; } | Gets [`ShapeSegmentPathCollection`](../shapesegmentpathcollection) list |
 
 ### See Also
 

@@ -24,8 +24,8 @@ public class JsonUtility
 
 | Name | Description |
 | --- | --- |
-| static [ExportRangeToJson](exportrangetojson)(Range, ExportRangeToJsonOptions) | Exporting the range to json file. |
-| static [ImportData](importdata)(string, Cells, int, int, JsonLayoutOptions) | Import the json string. |
+| static [ExportRangeToJson](../../aspose.cells.utility/jsonutility/exportrangetojson)(Range, ExportRangeToJsonOptions) | Exporting the range to json file. |
+| static [ImportData](../../aspose.cells.utility/jsonutility/importdata)(string, Cells, int, int, JsonLayoutOptions) | Import the json string. |
 
 ### See Also
 

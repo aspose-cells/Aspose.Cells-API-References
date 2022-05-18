@@ -18,10 +18,10 @@ public class FilterColumn
 
 | Name | Description |
 | --- | --- |
-| [FieldIndex](fieldindex) { get; set; } |  |
-| [Filter](filter) { get; set; } |  |
-| [FilterType](filtertype) { get; set; } |  |
-| [IsDropdownVisible](isdropdownvisible) { get; set; } | Indicates whether the AutoFilter button for this column is visible. |
+| [FieldIndex](../../aspose.cells/filtercolumn/fieldindex) { get; set; } |  |
+| [Filter](../../aspose.cells/filtercolumn/filter) { get; set; } |  |
+| [FilterType](../../aspose.cells/filtercolumn/filtertype) { get; set; } |  |
+| [IsDropdownVisible](../../aspose.cells/filtercolumn/isdropdownvisible) { get; set; } | Indicates whether the AutoFilter button for this column is visible. |
 
 ### See Also
 

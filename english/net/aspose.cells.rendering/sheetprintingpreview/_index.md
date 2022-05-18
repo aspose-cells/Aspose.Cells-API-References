@@ -24,7 +24,7 @@ public class SheetPrintingPreview
 
 | Name | Description |
 | --- | --- |
-| [EvaluatedPageCount](evaluatedpagecount) { get; } | Evaluate the total page count of this worksheet |
+| [EvaluatedPageCount](../../aspose.cells.rendering/sheetprintingpreview/evaluatedpagecount) { get; } | Evaluate the total page count of this worksheet |
 
 ### See Also
 

@@ -18,17 +18,17 @@ public class ExternalLink
 
 | Name | Description |
 | --- | --- |
-| [DataSource](datasource) { get; set; } | Represents data source of the external link. |
-| [IsReferred](isreferred) { get; } | Indicates whether this external link is referenced by others. |
-| [IsVisible](isvisible) { get; } | Indicates whether this external link is visible in MS Excel. |
-| [OriginalDataSource](originaldatasource) { get; set; } | Represents stored data source of the external link. |
-| [Type](type) { get; } | Gets the type of external link. |
+| [DataSource](../../aspose.cells/externallink/datasource) { get; set; } | Represents data source of the external link. |
+| [IsReferred](../../aspose.cells/externallink/isreferred) { get; } | Indicates whether this external link is referenced by others. |
+| [IsVisible](../../aspose.cells/externallink/isvisible) { get; } | Indicates whether this external link is visible in MS Excel. |
+| [OriginalDataSource](../../aspose.cells/externallink/originaldatasource) { get; set; } | Represents stored data source of the external link. |
+| [Type](../../aspose.cells/externallink/type) { get; } | Gets the type of external link. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddExternalName](addexternalname)(string, string) | Adds an external name. |
+| [AddExternalName](../../aspose.cells/externallink/addexternalname)(string, string) | Adds an external name. |
 
 ### Examples
 

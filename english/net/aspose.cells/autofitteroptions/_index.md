@@ -24,13 +24,13 @@ public class AutoFitterOptions
 
 | Name | Description |
 | --- | --- |
-| [AutoFitMergedCellsType](autofitmergedcellstype) { get; set; } | Gets and set the type of auto fitting row height of merged cells. |
-| [AutoFitWrappedTextType](autofitwrappedtexttype) { get; set; } | Gets and sets the type of auto fitting wrapped text. |
-| [DefaultEditLanguage](defaulteditlanguage) { get; set; } | Gets or sets default edit language. |
-| [FormatStrategy](formatstrategy) { get; set; } | Gets and sets the formatted strategy. |
-| [IgnoreHidden](ignorehidden) { get; set; } | Ignores the hidden rows/columns. |
-| [MaxRowHeight](maxrowheight) { get; set; } | Gets and sets the max row height(in unit of Point) when autofitting rows. |
-| [OnlyAuto](onlyauto) { get; set; } | Indicates whether only fit the rows which height are not customed. |
+| [AutoFitMergedCellsType](../../aspose.cells/autofitteroptions/autofitmergedcellstype) { get; set; } | Gets and set the type of auto fitting row height of merged cells. |
+| [AutoFitWrappedTextType](../../aspose.cells/autofitteroptions/autofitwrappedtexttype) { get; set; } | Gets and sets the type of auto fitting wrapped text. |
+| [DefaultEditLanguage](../../aspose.cells/autofitteroptions/defaulteditlanguage) { get; set; } | Gets or sets default edit language. |
+| [FormatStrategy](../../aspose.cells/autofitteroptions/formatstrategy) { get; set; } | Gets and sets the formatted strategy. |
+| [IgnoreHidden](../../aspose.cells/autofitteroptions/ignorehidden) { get; set; } | Ignores the hidden rows/columns. |
+| [MaxRowHeight](../../aspose.cells/autofitteroptions/maxrowheight) { get; set; } | Gets and sets the max row height(in unit of Point) when autofitting rows. |
+| [OnlyAuto](../../aspose.cells/autofitteroptions/onlyauto) { get; set; } | Indicates whether only fit the rows which height are not customed. |
 
 ### See Also
 

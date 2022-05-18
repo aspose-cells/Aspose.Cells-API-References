@@ -24,17 +24,17 @@ public class FontSetting
 
 | Name | Description |
 | --- | --- |
-| [Font](font) { get; } | Returns the font of this object. |
-| [Length](length) { get; } | Gets the length of the characters. |
-| [StartIndex](startindex) { get; } | Gets the start index of the characters. |
-| [TextOptions](textoptions) { get; } | Returns the text options. |
-| virtual [Type](type) { get; } | Gets the type of text node. |
+| [Font](../../aspose.cells/fontsetting/font) { get; } | Returns the font of this object. |
+| [Length](../../aspose.cells/fontsetting/length) { get; } | Gets the length of the characters. |
+| [StartIndex](../../aspose.cells/fontsetting/startindex) { get; } | Gets the start index of the characters. |
+| [TextOptions](../../aspose.cells/fontsetting/textoptions) { get; } | Returns the text options. |
+| virtual [Type](../../aspose.cells/fontsetting/type) { get; } | Gets the type of text node. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetWordArtStyle](setwordartstyle)(PresetWordArtStyle) | Sets the preset WordArt style. |
+| [SetWordArtStyle](../../aspose.cells/fontsetting/setwordartstyle)(PresetWordArtStyle) | Sets the preset WordArt style. |
 
 ### Examples
 

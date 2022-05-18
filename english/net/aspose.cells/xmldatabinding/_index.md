@@ -18,7 +18,7 @@ public class XmlDataBinding
 
 | Name | Description |
 | --- | --- |
-| [Url](url) { get; } | Gets source url of this data binding. |
+| [Url](../../aspose.cells/xmldatabinding/url) { get; } | Gets source url of this data binding. |
 
 ### See Also
 

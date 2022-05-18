@@ -18,10 +18,10 @@ public class WebExtensionReference
 
 | Name | Description |
 | --- | --- |
-| [Id](id) { get; set; } | Gets and sets the identifier associated with the Office Add-in within a catalog provider. The identifier MUST be unique within a catalog provider. |
-| [StoreName](storename) { get; set; } | Gets and sets the instance of the marketplace where the Office Add-in is stored. . |
-| [StoreType](storetype) { get; set; } | Gets and sets the type of marketplace that the store attribute identifies. |
-| [Version](version) { get; set; } | Gets and sets the version. |
+| [Id](../../aspose.cells.webextensions/webextensionreference/id) { get; set; } | Gets and sets the identifier associated with the Office Add-in within a catalog provider. The identifier MUST be unique within a catalog provider. |
+| [StoreName](../../aspose.cells.webextensions/webextensionreference/storename) { get; set; } | Gets and sets the instance of the marketplace where the Office Add-in is stored. . |
+| [StoreType](../../aspose.cells.webextensions/webextensionreference/storetype) { get; set; } | Gets and sets the type of marketplace that the store attribute identifies. |
+| [Version](../../aspose.cells.webextensions/webextensionreference/version) { get; set; } | Gets and sets the version. |
 
 ### See Also
 

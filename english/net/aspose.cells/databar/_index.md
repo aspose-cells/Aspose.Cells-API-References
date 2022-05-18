@@ -18,24 +18,24 @@ public class DataBar
 
 | Name | Description |
 | --- | --- |
-| [AxisColor](axiscolor) { get; set; } | Gets the color of the axis for cells with conditional formatting as data bars. |
-| [AxisPosition](axisposition) { get; set; } | Gets or sets the position of the axis of the data bars specified by a conditional formatting rule. |
-| [BarBorder](barborder) { get; } | Gets an object that specifies the border of a data bar. |
-| [BarFillType](barfilltype) { get; set; } | Gets or sets how a data bar is filled with color. |
-| [Color](color) { get; set; } | Get or set this DataBar's Color. |
-| [Direction](direction) { get; set; } | Gets or sets the direction the databar is displayed. |
-| [MaxCfvo](maxcfvo) { get; } | Get or set this DataBar's max value object. Cannot set null or CFValueObject with type FormatConditionValueType.Min to it. |
-| [MaxLength](maxlength) { get; set; } | Represents the max length of data bar . |
-| [MinCfvo](mincfvo) { get; } | Get or set this DataBar's min value object. Cannot set null or CFValueObject with type FormatConditionValueType.Max to it. |
-| [MinLength](minlength) { get; set; } | Represents the min length of data bar . |
-| [NegativeBarFormat](negativebarformat) { get; } | Gets the NegativeBarFormat object associated with a data bar conditional formatting rule. |
-| [ShowValue](showvalue) { get; set; } | Get or set the flag indicating whether to show the values of the cells on which this data bar is applied. Default value is true. |
+| [AxisColor](../../aspose.cells/databar/axiscolor) { get; set; } | Gets the color of the axis for cells with conditional formatting as data bars. |
+| [AxisPosition](../../aspose.cells/databar/axisposition) { get; set; } | Gets or sets the position of the axis of the data bars specified by a conditional formatting rule. |
+| [BarBorder](../../aspose.cells/databar/barborder) { get; } | Gets an object that specifies the border of a data bar. |
+| [BarFillType](../../aspose.cells/databar/barfilltype) { get; set; } | Gets or sets how a data bar is filled with color. |
+| [Color](../../aspose.cells/databar/color) { get; set; } | Get or set this DataBar's Color. |
+| [Direction](../../aspose.cells/databar/direction) { get; set; } | Gets or sets the direction the databar is displayed. |
+| [MaxCfvo](../../aspose.cells/databar/maxcfvo) { get; } | Get or set this DataBar's max value object. Cannot set null or CFValueObject with type FormatConditionValueType.Min to it. |
+| [MaxLength](../../aspose.cells/databar/maxlength) { get; set; } | Represents the max length of data bar . |
+| [MinCfvo](../../aspose.cells/databar/mincfvo) { get; } | Get or set this DataBar's min value object. Cannot set null or CFValueObject with type FormatConditionValueType.Max to it. |
+| [MinLength](../../aspose.cells/databar/minlength) { get; set; } | Represents the min length of data bar . |
+| [NegativeBarFormat](../../aspose.cells/databar/negativebarformat) { get; } | Gets the NegativeBarFormat object associated with a data bar conditional formatting rule. |
+| [ShowValue](../../aspose.cells/databar/showvalue) { get; set; } | Get or set the flag indicating whether to show the values of the cells on which this data bar is applied. Default value is true. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ToImage](toimage)(Cell, ImageOrPrintOptions) | Render data bar in cell to image byte array. |
+| [ToImage](../../aspose.cells/databar/toimage)(Cell, ImageOrPrintOptions) | Render data bar in cell to image byte array. |
 
 ### Examples
 

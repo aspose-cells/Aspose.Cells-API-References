@@ -18,14 +18,14 @@ public class TextParagraphCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the count of text paragraphs. |
-| [Item](item) { get; } | Gets the [`TextParagraph`](../textparagraph) object at specific index. |
+| [Count](../../aspose.cells.drawing.texts/textparagraphcollection/count) { get; } | Gets the count of text paragraphs. |
+| [Item](../../aspose.cells.drawing.texts/textparagraphcollection/item) { get; } | Gets the [`TextParagraph`](../textparagraph) object at specific index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetEnumerator](getenumerator)() | Gets the enumerator of the paragraphs. |
+| [GetEnumerator](../../aspose.cells.drawing.texts/textparagraphcollection/getenumerator)() | Gets the enumerator of the paragraphs. |
 
 ### See Also
 

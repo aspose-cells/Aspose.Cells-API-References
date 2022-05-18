@@ -24,8 +24,8 @@ public class DigitalSignatureCollection : IEnumerable
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(DigitalSignature) | Add one signature to DigitalSignatureCollection. |
-| [GetEnumerator](getenumerator)() | Get the enumerator for DigitalSignatureCollection, this enumerator allows iteration over the collection |
+| [Add](../../aspose.cells.digitalsignatures/digitalsignaturecollection/add)(DigitalSignature) | Add one signature to DigitalSignatureCollection. |
+| [GetEnumerator](../../aspose.cells.digitalsignatures/digitalsignaturecollection/getenumerator)() | Get the enumerator for DigitalSignatureCollection, this enumerator allows iteration over the collection |
 
 ### Examples
 

@@ -18,9 +18,9 @@ public class CustomXmlPart
 
 | Name | Description |
 | --- | --- |
-| [Data](data) { get; set; } | Gets or sets the XML content of this Custom XML Data Storage Part. |
-| [ID](id) { get; set; } | Gets and sets the id of the custom xml part. |
-| [SchemaData](schemadata) { get; set; } | Gets or sets the XML content of this Custom XML Schema Data Storage Part. |
+| [Data](../../aspose.cells.markup/customxmlpart/data) { get; set; } | Gets or sets the XML content of this Custom XML Data Storage Part. |
+| [ID](../../aspose.cells.markup/customxmlpart/id) { get; set; } | Gets and sets the id of the custom xml part. |
+| [SchemaData](../../aspose.cells.markup/customxmlpart/schemadata) { get; set; } | Gets or sets the XML content of this Custom XML Schema Data Storage Part. |
 
 ### See Also
 

@@ -18,38 +18,38 @@ public class UnionRange
 
 | Name | Description |
 | --- | --- |
-| [CellCount](cellcount) { get; } | Gets all cell count in the range. |
-| [ColumnCount](columncount) { get; } | Gets the count of rows in the range. |
-| [FirstColumn](firstcolumn) { get; } | Gets the index of the first column of the range. |
-| [FirstRow](firstrow) { get; } | Gets the index of the first row of the range. |
-| [HasRange](hasrange) { get; } | Indicates whether this has range. |
-| [Hyperlinks](hyperlinks) { get; } | Gets all hyperlink in the range. |
-| [Name](name) { get; set; } | Gets or sets the name of the range. |
-| [RangeCount](rangecount) { get; } | Gets the count of the ranges. |
-| [Ranges](ranges) { get; } | Gets all union ranges. |
-| [RefersTo](refersto) { get; } | Gets the range's refers to. |
-| [RowCount](rowcount) { get; } | Gets the count of rows in the range. |
-| [Value](value) { get; set; } | Gets and sets the values of the range. |
+| [CellCount](../../aspose.cells/unionrange/cellcount) { get; } | Gets all cell count in the range. |
+| [ColumnCount](../../aspose.cells/unionrange/columncount) { get; } | Gets the count of rows in the range. |
+| [FirstColumn](../../aspose.cells/unionrange/firstcolumn) { get; } | Gets the index of the first column of the range. |
+| [FirstRow](../../aspose.cells/unionrange/firstrow) { get; } | Gets the index of the first row of the range. |
+| [HasRange](../../aspose.cells/unionrange/hasrange) { get; } | Indicates whether this has range. |
+| [Hyperlinks](../../aspose.cells/unionrange/hyperlinks) { get; } | Gets all hyperlink in the range. |
+| [Name](../../aspose.cells/unionrange/name) { get; set; } | Gets or sets the name of the range. |
+| [RangeCount](../../aspose.cells/unionrange/rangecount) { get; } | Gets the count of the ranges. |
+| [Ranges](../../aspose.cells/unionrange/ranges) { get; } | Gets all union ranges. |
+| [RefersTo](../../aspose.cells/unionrange/refersto) { get; } | Gets the range's refers to. |
+| [RowCount](../../aspose.cells/unionrange/rowcount) { get; } | Gets the count of rows in the range. |
+| [Value](../../aspose.cells/unionrange/value) { get; set; } | Gets and sets the values of the range. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ApplyStyle](applystyle)(Style, StyleFlag) | Applies formats for a whole range. |
-| [Copy](copy)(UnionRange, PasteOptions) | Copying the range with paste special options. |
-| [GetEnumerator](getenumerator)() | Gets the enumerator for cells in this Range. |
-| [Intersect](intersect)(Range[]) | Intersects another range. |
-| [Intersect](intersect)(string) | Intersects another range. |
-| [Intersect](intersect)(UnionRange) | Intersects another range. |
-| [Merge](merge)() | Combines a range of cells into a single cell. |
-| [PutValue](putvalue)(string, bool, bool) | Puts a value into the range, if appropriate the value will be converted to other data type and cell's number format will be reset. |
-| [SetOutlineBorders](setoutlineborders)(CellBorderType, Color) | Sets the outline borders around a range of cells with same border style and color. |
-| [SetOutlineBorders](setoutlineborders)(CellBorderType[], Color[]) | Sets out line borders around a range of cells. |
-| [SetStyle](setstyle)(Style) | Sets the style of the range. |
-| [Union](union)(Range[]) | Union the ranges. |
-| [Union](union)(string) | Union another range. |
-| [Union](union)(UnionRange) | Union another range. |
-| [UnMerge](unmerge)() | Unmerges merged cells of this range. |
+| [ApplyStyle](../../aspose.cells/unionrange/applystyle)(Style, StyleFlag) | Applies formats for a whole range. |
+| [Copy](../../aspose.cells/unionrange/copy)(UnionRange, PasteOptions) | Copying the range with paste special options. |
+| [GetEnumerator](../../aspose.cells/unionrange/getenumerator)() | Gets the enumerator for cells in this Range. |
+| [Intersect](../../aspose.cells/unionrange/intersect)(Range[]) | Intersects another range. |
+| [Intersect](../../aspose.cells/unionrange/intersect)(string) | Intersects another range. |
+| [Intersect](../../aspose.cells/unionrange/intersect)(UnionRange) | Intersects another range. |
+| [Merge](../../aspose.cells/unionrange/merge)() | Combines a range of cells into a single cell. |
+| [PutValue](../../aspose.cells/unionrange/putvalue)(string, bool, bool) | Puts a value into the range, if appropriate the value will be converted to other data type and cell's number format will be reset. |
+| [SetOutlineBorders](../../aspose.cells/unionrange/setoutlineborders)(CellBorderType, Color) | Sets the outline borders around a range of cells with same border style and color. |
+| [SetOutlineBorders](../../aspose.cells/unionrange/setoutlineborders)(CellBorderType[], Color[]) | Sets out line borders around a range of cells. |
+| [SetStyle](../../aspose.cells/unionrange/setstyle)(Style) | Sets the style of the range. |
+| [Union](../../aspose.cells/unionrange/union)(Range[]) | Union the ranges. |
+| [Union](../../aspose.cells/unionrange/union)(string) | Union another range. |
+| [Union](../../aspose.cells/unionrange/union)(UnionRange) | Union another range. |
+| [UnMerge](../../aspose.cells/unionrange/unmerge)() | Unmerges merged cells of this range. |
 
 ### See Also
 

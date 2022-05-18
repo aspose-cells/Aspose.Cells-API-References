@@ -24,11 +24,22 @@ public class JsonSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [ExportArea](exportarea) { get; set; } | Gets or sets the exporting range. |
-| [ExportAsString](exportasstring) { get; set; } | Exports the string value of the cells to json. |
-| [HasHeaderRow](hasheaderrow) { get; set; } | Indicates whether the range contains header row. |
-| [Indent](indent) { get; set; } | Indicates the indent. |
-| [SheetIndexes](sheetindexes) { get; set; } | Represents the indexes of exported sheets. |
+| [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder) { get; set; } | The cached file folder is used to store some large data. |
+| [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | Make the workbook empty after saving the file. |
+| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [ExportArea](../../aspose.cells/jsonsaveoptions/exportarea) { get; set; } | Gets or sets the exporting range. |
+| [ExportAsString](../../aspose.cells/jsonsaveoptions/exportasstring) { get; set; } | Exports the string value of the cells to json. |
+| [HasHeaderRow](../../aspose.cells/jsonsaveoptions/hasheaderrow) { get; set; } | Indicates whether the range contains header row. |
+| [Indent](../../aspose.cells/jsonsaveoptions/indent) { get; set; } | Indicates the indent. |
+| [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Indicates whether refreshing chart cache data |
+| [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Gets the save file format. |
+| [SheetIndexes](../../aspose.cells/jsonsaveoptions/sheetindexes) { get; set; } | Represents the indexes of exported sheets. |
+| [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | Indicates whether sorting external defined names before saving file. |
+| [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | Indicates whether sorting defined names before saving file. |
+| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Indicates whether updating smart art setting. The default value is false. |
+| [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas) { get; set; } | Indicates whether validate merged cells before saving the file. |
+| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Gets or sets warning callback. |
 
 ### See Also
 

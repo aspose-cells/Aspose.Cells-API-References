@@ -18,12 +18,12 @@ public class WebExtension
 
 | Name | Description |
 | --- | --- |
-| [AlterReferences](alterreferences) { get; } | Gets a list of alter references. |
-| [Bindings](bindings) { get; } | Gets all bindings relationship between an Office Add-in and the data in the document. |
-| [Id](id) { get; set; } | Gets and sets the uniquely identifies the Office Add-in instance in the current document. |
-| [IsFrozen](isfrozen) { get; set; } | Indicates whether the user can interact with the Office Add-in or not. |
-| [Properties](properties) { get; } | Gets all properties of web extension. |
-| [Reference](reference) { get; } | Get the primary reference to an Office Add-in. |
+| [AlterReferences](../../aspose.cells.webextensions/webextension/alterreferences) { get; } | Gets a list of alter references. |
+| [Bindings](../../aspose.cells.webextensions/webextension/bindings) { get; } | Gets all bindings relationship between an Office Add-in and the data in the document. |
+| [Id](../../aspose.cells.webextensions/webextension/id) { get; set; } | Gets and sets the uniquely identifies the Office Add-in instance in the current document. |
+| [IsFrozen](../../aspose.cells.webextensions/webextension/isfrozen) { get; set; } | Indicates whether the user can interact with the Office Add-in or not. |
+| [Properties](../../aspose.cells.webextensions/webextension/properties) { get; } | Gets all properties of web extension. |
+| [Reference](../../aspose.cells.webextensions/webextension/reference) { get; } | Get the primary reference to an Office Add-in. |
 
 ### See Also
 

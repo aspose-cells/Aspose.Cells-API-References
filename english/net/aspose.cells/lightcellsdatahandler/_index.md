@@ -18,11 +18,11 @@ public interface LightCellsDataHandler
 
 | Name | Description |
 | --- | --- |
-| [ProcessCell](processcell)(Cell) | Starts to process one cell. |
-| [ProcessRow](processrow)(Row) | Starts to process one row. |
-| [StartCell](startcell)(int) | Prepares to process a cell. |
-| [StartRow](startrow)(int) | Prepares to process a row. |
-| [StartSheet](startsheet)(Worksheet) | Starts to process a worksheet. |
+| [ProcessCell](../../aspose.cells/lightcellsdatahandler/processcell)(Cell) | Starts to process one cell. |
+| [ProcessRow](../../aspose.cells/lightcellsdatahandler/processrow)(Row) | Starts to process one row. |
+| [StartCell](../../aspose.cells/lightcellsdatahandler/startcell)(int) | Prepares to process a cell. |
+| [StartRow](../../aspose.cells/lightcellsdatahandler/startrow)(int) | Prepares to process a row. |
+| [StartSheet](../../aspose.cells/lightcellsdatahandler/startsheet)(Worksheet) | Starts to process a worksheet. |
 
 ### Remarks
 

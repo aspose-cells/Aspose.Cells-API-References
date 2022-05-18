@@ -24,9 +24,9 @@ public class ReplaceOptions
 
 | Name | Description |
 | --- | --- |
-| [CaseSensitive](casesensitive) { get; set; } | Indicates if the searched string is case sensitive. |
-| [MatchEntireCellContents](matchentirecellcontents) { get; set; } | Indicates whether to match entire cells contents |
-| [RegexKey](regexkey) { get; set; } | Indicates whether the searched key is regex. If true then the searched key will be taken as regex. |
+| [CaseSensitive](../../aspose.cells/replaceoptions/casesensitive) { get; set; } | Indicates if the searched string is case sensitive. |
+| [MatchEntireCellContents](../../aspose.cells/replaceoptions/matchentirecellcontents) { get; set; } | Indicates whether to match entire cells contents |
+| [RegexKey](../../aspose.cells/replaceoptions/regexkey) { get; set; } | Indicates whether the searched key is regex. If true then the searched key will be taken as regex. |
 
 ### See Also
 

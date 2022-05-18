@@ -18,17 +18,17 @@ public class RowCollection : IEnumerable
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of rows in this collection. |
-| [Item](item) { get; } | Gets a  object by given row index. The Row object of given row index will be instantiated if it does not exist before. |
+| [Count](../../aspose.cells/rowcollection/count) { get; } | Gets the number of rows in this collection. |
+| [Item](../../aspose.cells/rowcollection/item) { get; } | Gets a  object by given row index. The Row object of given row index will be instantiated if it does not exist before. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Clear](clear)() | Clear all rows and cells. |
-| [GetEnumerator](getenumerator)() | Gets an enumerator that iterates through this collection |
-| [GetRowByIndex](getrowbyindex)(int) | Gets the row object by the position in the list. |
-| [RemoveAt](removeat)(int) | Remove the row at the specified index |
+| [Clear](../../aspose.cells/rowcollection/clear)() | Clear all rows and cells. |
+| [GetEnumerator](../../aspose.cells/rowcollection/getenumerator)() | Gets an enumerator that iterates through this collection |
+| [GetRowByIndex](../../aspose.cells/rowcollection/getrowbyindex)(int) | Gets the row object by the position in the list. |
+| [RemoveAt](../../aspose.cells/rowcollection/removeat)(int) | Remove the row at the specified index |
 
 ### Examples
 

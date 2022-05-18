@@ -18,8 +18,8 @@ public class SmartTagProperty
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; set; } | Gets and sets the name of the property. |
-| [Value](value) { get; set; } | Gets and sets the value of the property. |
+| [Name](../../aspose.cells.markup/smarttagproperty/name) { get; set; } | Gets and sets the name of the property. |
+| [Value](../../aspose.cells.markup/smarttagproperty/value) { get; set; } | Gets and sets the value of the property. |
 
 ### See Also
 

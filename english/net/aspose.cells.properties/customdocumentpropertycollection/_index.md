@@ -14,18 +14,32 @@ A collection of custom document properties.
 public class CustomDocumentPropertyCollection : DocumentPropertyCollection
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Count](../../aspose.cells.properties/documentpropertycollection/count) { get; } | Gets number of items in the collection. |
+| [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Returns a [`DocumentProperty`](../documentproperty) object by index. |
+| virtual [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Returns a [`DocumentProperty`](../documentproperty) object by the name of the property. |
+
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(string, bool) | Creates a new custom document property of the **PropertyType.Boolean** data type. |
-| [Add](add)(string, DateTime) | Creates a new custom document property of the **PropertyType.DateTime** data type. |
-| [Add](add)(string, double) | Creates a new custom document property of the **PropertyType.Float** data type. |
-| [Add](add)(string, int) | Creates a new custom document property of the **PropertyType.Number** data type. |
-| [Add](add)(string, string) | Creates a new custom document property of the **PropertyType.String** data type. |
-| [AddLinkToContent](addlinktocontent)(string, string) | Creates a new custom document property which links to content. |
-| [UpdateLinkedPropertyValue](updatelinkedpropertyvalue)() | Update custom document property value which links to content. |
-| [UpdateLinkedRange](updatelinkedrange)() | Update custom document property value to linked range. |
+| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add)(string, bool) | Creates a new custom document property of the **PropertyType.Boolean** data type. |
+| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add)(string, DateTime) | Creates a new custom document property of the **PropertyType.DateTime** data type. |
+| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add)(string, double) | Creates a new custom document property of the **PropertyType.Float** data type. |
+| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add)(string, int) | Creates a new custom document property of the **PropertyType.Number** data type. |
+| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add)(string, string) | Creates a new custom document property of the **PropertyType.String** data type. |
+| [AddLinkToContent](../../aspose.cells.properties/customdocumentpropertycollection/addlinktocontent)(string, string) | Creates a new custom document property which links to content. |
+| [Clear](../../aspose.cells.properties/documentpropertycollection/clear)() | Removes all properties from the collection. |
+| [Contains](../../aspose.cells.properties/documentpropertycollection/contains)(string) | Returns true if a property with the specified name exists in the collection. |
+| [GetEnumerator](../../aspose.cells.properties/documentpropertycollection/getenumerator)() |  |
+| [IndexOf](../../aspose.cells.properties/documentpropertycollection/indexof)(string) | Gets the index of a property by name. |
+| [Remove](../../aspose.cells.properties/documentpropertycollection/remove)(string) | Removes a property with the specified name from the collection. |
+| [RemoveAt](../../aspose.cells.properties/documentpropertycollection/removeat)(int) | Removes a property at the specified index. |
+| [UpdateLinkedPropertyValue](../../aspose.cells.properties/customdocumentpropertycollection/updatelinkedpropertyvalue)() | Update custom document property value which links to content. |
+| [UpdateLinkedRange](../../aspose.cells.properties/customdocumentpropertycollection/updatelinkedrange)() | Update custom document property value to linked range. |
 
 ### Remarks
 

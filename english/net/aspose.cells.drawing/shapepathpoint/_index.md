@@ -18,8 +18,8 @@ public class ShapePathPoint
 
 | Name | Description |
 | --- | --- |
-| [X](x) { get; set; } | Gets and sets x coordinate for this position coordinate. |
-| [Y](y) { get; set; } | Gets y coordinate for this position coordinate. |
+| [X](../../aspose.cells.drawing/shapepathpoint/x) { get; set; } | Gets and sets x coordinate for this position coordinate. |
+| [Y](../../aspose.cells.drawing/shapepathpoint/y) { get; set; } | Gets y coordinate for this position coordinate. |
 
 ### See Also
 

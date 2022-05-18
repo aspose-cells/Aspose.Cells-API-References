@@ -18,7 +18,7 @@ public interface IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| [Warning](warning)(WarningInfo) | Our callback only needs to implement the "Warning" method. |
+| [Warning](../../aspose.cells/iwarningcallback/warning)(WarningInfo) | Our callback only needs to implement the "Warning" method. |
 
 ### See Also
 

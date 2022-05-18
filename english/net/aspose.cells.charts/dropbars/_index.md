@@ -18,8 +18,8 @@ public class DropBars
 
 | Name | Description |
 | --- | --- |
-| [Area](area) { get; } | Gets the [`Area`](./area). |
-| [Border](border) { get; } | Gets the border [`Line`](../../aspose.cells.drawing/line). |
+| [Area](../../aspose.cells.charts/dropbars/area) { get; } | Gets the [`Area`](./area). |
+| [Border](../../aspose.cells.charts/dropbars/border) { get; } | Gets the border [`Line`](../../aspose.cells.drawing/line). |
 
 ### See Also
 

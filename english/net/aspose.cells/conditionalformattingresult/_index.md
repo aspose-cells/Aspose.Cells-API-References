@@ -18,11 +18,11 @@ public class ConditionalFormattingResult
 
 | Name | Description |
 | --- | --- |
-| [ColorScaleResult](colorscaleresult) { get; } | Gets the display color of color scale. |
-| [ConditionalFormattingColorScale](conditionalformattingcolorscale) { get; } | Gets the ColorScale object. |
-| [ConditionalFormattingDataBar](conditionalformattingdatabar) { get; } | Gets the DataBar object. |
-| [ConditionalFormattingIcon](conditionalformattingicon) { get; } | Gets the image of icon set. |
-| [ConditionalStyle](conditionalstyle) { get; } | Gets the conditional result style. |
+| [ColorScaleResult](../../aspose.cells/conditionalformattingresult/colorscaleresult) { get; } | Gets the display color of color scale. |
+| [ConditionalFormattingColorScale](../../aspose.cells/conditionalformattingresult/conditionalformattingcolorscale) { get; } | Gets the ColorScale object. |
+| [ConditionalFormattingDataBar](../../aspose.cells/conditionalformattingresult/conditionalformattingdatabar) { get; } | Gets the DataBar object. |
+| [ConditionalFormattingIcon](../../aspose.cells/conditionalformattingresult/conditionalformattingicon) { get; } | Gets the image of icon set. |
+| [ConditionalStyle](../../aspose.cells/conditionalformattingresult/conditionalstyle) { get; } | Gets the conditional result style. |
 
 ### See Also
 

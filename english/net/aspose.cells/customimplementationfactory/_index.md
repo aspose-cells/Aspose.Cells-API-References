@@ -24,10 +24,10 @@ public class CustomImplementationFactory
 
 | Name | Description |
 | --- | --- |
-| virtual [CreateCultureInfo](createcultureinfo)(int) | Create one CultureInfo by given id. |
-| virtual [CreateMemoryStream](creatememorystream)() | Create one instance of MemoryStream or custom implementation of MemoryStream. |
-| virtual [CreateMemoryStream](creatememorystream)(int) | Create one instance of MemoryStream or custom implementation of MemoryStream. |
-| virtual [CreateRandomInstance](createrandominstance)() | Create one instance of random number generator. |
+| virtual [CreateCultureInfo](../../aspose.cells/customimplementationfactory/createcultureinfo)(int) | Create one CultureInfo by given id. |
+| virtual [CreateMemoryStream](../../aspose.cells/customimplementationfactory/creatememorystream)() | Create one instance of MemoryStream or custom implementation of MemoryStream. |
+| virtual [CreateMemoryStream](../../aspose.cells/customimplementationfactory/creatememorystream)(int) | Create one instance of MemoryStream or custom implementation of MemoryStream. |
+| virtual [CreateRandomInstance](../../aspose.cells/customimplementationfactory/createrandominstance)() | Create one instance of random number generator. |
 
 ### See Also
 

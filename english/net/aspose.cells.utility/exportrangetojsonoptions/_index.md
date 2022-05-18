@@ -24,9 +24,9 @@ public class ExportRangeToJsonOptions
 
 | Name | Description |
 | --- | --- |
-| [ExportAsString](exportasstring) { get; set; } | Exports the string value of the cells to json. |
-| [HasHeaderRow](hasheaderrow) { get; set; } | Indicates whether the range contains header row. |
-| [Indent](indent) { get; set; } | Indicates the indent. |
+| [ExportAsString](../../aspose.cells.utility/exportrangetojsonoptions/exportasstring) { get; set; } | Exports the string value of the cells to json. |
+| [HasHeaderRow](../../aspose.cells.utility/exportrangetojsonoptions/hasheaderrow) { get; set; } | Indicates whether the range contains header row. |
+| [Indent](../../aspose.cells.utility/exportrangetojsonoptions/indent) { get; set; } | Indicates the indent. |
 
 ### See Also
 

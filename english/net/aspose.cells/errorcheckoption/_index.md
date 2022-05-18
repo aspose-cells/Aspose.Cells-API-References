@@ -18,12 +18,12 @@ public class ErrorCheckOption
 
 | Name | Description |
 | --- | --- |
-| [AddRange](addrange)(CellArea) | Adds one influenced range by this setting. |
-| [GetCountOfRange](getcountofrange)() | Gets the count of ranges that influenced by this setting. |
-| [GetRange](getrange)(int) | Gets the influenced range of this setting by given index. |
-| [IsErrorCheck](iserrorcheck)(ErrorCheckType) | Checks whether given error type will be checked. |
-| [RemoveRange](removerange)(int) | Removes one range by given index. |
-| [SetErrorCheck](seterrorcheck)(ErrorCheckType, bool) | Sets whether given error type will be checked. |
+| [AddRange](../../aspose.cells/errorcheckoption/addrange)(CellArea) | Adds one influenced range by this setting. |
+| [GetCountOfRange](../../aspose.cells/errorcheckoption/getcountofrange)() | Gets the count of ranges that influenced by this setting. |
+| [GetRange](../../aspose.cells/errorcheckoption/getrange)(int) | Gets the influenced range of this setting by given index. |
+| [IsErrorCheck](../../aspose.cells/errorcheckoption/iserrorcheck)(ErrorCheckType) | Checks whether given error type will be checked. |
+| [RemoveRange](../../aspose.cells/errorcheckoption/removerange)(int) | Removes one range by given index. |
+| [SetErrorCheck](../../aspose.cells/errorcheckoption/seterrorcheck)(ErrorCheckType, bool) | Sets whether given error type will be checked. |
 
 ### Examples
 

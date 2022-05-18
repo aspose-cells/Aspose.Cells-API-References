@@ -18,16 +18,16 @@ public class BorderCollection
 
 | Name | Description |
 | --- | --- |
-| [DiagonalColor](diagonalcolor) { get; set; } | Gets or sets the Color of Diagonal lines. |
-| [DiagonalStyle](diagonalstyle) { get; set; } | Gets or sets the style of Diagonal lines. |
-| [Item](item) { get; } | Gets the [`Border`](../border) element at the specified index. |
+| [DiagonalColor](../../aspose.cells/bordercollection/diagonalcolor) { get; set; } | Gets or sets the Color of Diagonal lines. |
+| [DiagonalStyle](../../aspose.cells/bordercollection/diagonalstyle) { get; set; } | Gets or sets the style of Diagonal lines. |
+| [Item](../../aspose.cells/bordercollection/item) { get; } | Gets the [`Border`](../border) element at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetColor](setcolor)(Color) | Sets the Color of all borders in the collection. |
-| [SetStyle](setstyle)(CellBorderType) | Sets the style of all borders of the collection. |
+| [SetColor](../../aspose.cells/bordercollection/setcolor)(Color) | Sets the Color of all borders in the collection. |
+| [SetStyle](../../aspose.cells/bordercollection/setstyle)(CellBorderType) | Sets the style of all borders of the collection. |
 
 ### Examples
 

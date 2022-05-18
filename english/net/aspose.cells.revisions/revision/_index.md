@@ -18,9 +18,9 @@ public abstract class Revision
 
 | Name | Description |
 | --- | --- |
-| [Id](id) { get; } | Gets the number of this revision. |
-| virtual [Type](type) { get; } | Represents the type of revision. |
-| [Worksheet](worksheet) { get; } | Gets the worksheet. |
+| [Id](../../aspose.cells.revisions/revision/id) { get; } | Gets the number of this revision. |
+| virtual [Type](../../aspose.cells.revisions/revision/type) { get; } | Represents the type of revision. |
+| [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Gets the worksheet. |
 
 ### See Also
 

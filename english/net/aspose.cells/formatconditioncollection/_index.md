@@ -18,22 +18,22 @@ public class FormatConditionCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the count of the conditions. |
-| [Item](item) { get; } | Gets the formatting condition by index. |
-| [RangeCount](rangecount) { get; } | Gets count of conditionally formatted ranges. |
+| [Count](../../aspose.cells/formatconditioncollection/count) { get; } | Gets the count of the conditions. |
+| [Item](../../aspose.cells/formatconditioncollection/item) { get; } | Gets the formatting condition by index. |
+| [RangeCount](../../aspose.cells/formatconditioncollection/rangecount) { get; } | Gets count of conditionally formatted ranges. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(CellArea, FormatConditionType, OperatorType, string, string) | Adds a formatting condition and effected cell rang to the FormatConditions The FormatConditions can contain up to three conditional formats. References to the other sheets are not allowed in the formulas of conditional formatting. |
-| [AddArea](addarea)(CellArea) | Adds a conditional formatted cell range. |
-| [AddCondition](addcondition)(FormatConditionType) | Add a format condition. |
-| [AddCondition](addcondition)(FormatConditionType, OperatorType, string, string) | Adds a formatting condition. |
-| [GetCellArea](getcellarea)(int) | Gets the conditional formatted cell range by index. |
-| [RemoveArea](removearea)(int) | Removes conditional formatted cell range by index. |
-| [RemoveArea](removearea)(int, int, int, int) | Remove conditional formatting int the range. |
-| [RemoveCondition](removecondition)(int) | Removes the formatting condition by index. |
+| [Add](../../aspose.cells/formatconditioncollection/add)(CellArea, FormatConditionType, OperatorType, string, string) | Adds a formatting condition and effected cell rang to the FormatConditions The FormatConditions can contain up to three conditional formats. References to the other sheets are not allowed in the formulas of conditional formatting. |
+| [AddArea](../../aspose.cells/formatconditioncollection/addarea)(CellArea) | Adds a conditional formatted cell range. |
+| [AddCondition](../../aspose.cells/formatconditioncollection/addcondition)(FormatConditionType) | Add a format condition. |
+| [AddCondition](../../aspose.cells/formatconditioncollection/addcondition)(FormatConditionType, OperatorType, string, string) | Adds a formatting condition. |
+| [GetCellArea](../../aspose.cells/formatconditioncollection/getcellarea)(int) | Gets the conditional formatted cell range by index. |
+| [RemoveArea](../../aspose.cells/formatconditioncollection/removearea)(int) | Removes conditional formatted cell range by index. |
+| [RemoveArea](../../aspose.cells/formatconditioncollection/removearea)(int, int, int, int) | Remove conditional formatting int the range. |
+| [RemoveCondition](../../aspose.cells/formatconditioncollection/removecondition)(int) | Removes the formatting condition by index. |
 
 ### Examples
 

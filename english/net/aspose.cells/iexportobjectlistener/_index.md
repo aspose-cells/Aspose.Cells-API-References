@@ -18,7 +18,7 @@ public interface IExportObjectListener
 
 | Name | Description |
 | --- | --- |
-| [ExportObject](exportobject)(ExportObjectEvent) | Export one object. |
+| [ExportObject](../../aspose.cells/iexportobjectlistener/exportobject)(ExportObjectEvent) | Export one object. |
 
 ### Examples
 

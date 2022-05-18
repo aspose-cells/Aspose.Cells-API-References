@@ -18,14 +18,14 @@ public class SmartTagSetting : CollectionBase
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Gets a [`SmartTagCollection`](../smarttagcollection) object by the index. (3 indexers) |
+| [Item](../../aspose.cells.markup/smarttagsetting/item) { get; } | Gets a [`SmartTagCollection`](../smarttagcollection) object by the index. (3 indexers) |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(string) | Add a cell smart tags. |
-| [Add](add)(int, int) | Adds a [`SmartTagCollection`](../smarttagcollection) object to a cell. |
+| [Add](../../aspose.cells.markup/smarttagsetting/add)(string) | Add a cell smart tags. |
+| [Add](../../aspose.cells.markup/smarttagsetting/add)(int, int) | Adds a [`SmartTagCollection`](../smarttagcollection) object to a cell. |
 
 ### See Also
 

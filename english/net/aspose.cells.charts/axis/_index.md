@@ -18,44 +18,44 @@ public class Axis
 
 | Name | Description |
 | --- | --- |
-| [Area](area) { get; } | Gets the [`Area`](./area). |
-| [AxisBetweenCategories](axisbetweencategories) { get; set; } | Represents if the value axis crosses the category axis between categories. |
-| [AxisLabels](axislabels) { get; } | Gets the labels of the axis after call Chart.Calculate() method. |
-| [AxisLine](axisline) { get; } | Gets the appearance of an Axis. |
-| [BaseUnitScale](baseunitscale) { get; set; } | Represents the base unit scale for the category axis. |
-| [Bins](bins) { get; } | Represents bins on a chart(Histogram/Pareto) axis |
-| [CategoryType](categorytype) { get; set; } | Represents the category axis type. |
-| [CrossAt](crossat) { get; set; } | Represents the point on the value axis where the category axis crosses it. |
-| [CrossType](crosstype) { get; set; } | Represents the [`CrossType`](./crosstype) on the specified axis where the other axis crosses. |
-| [CustUnit](custunit) { get; set; } | Specifies a custom value for the display unit. |
-| [DisplayUnit](displayunit) { get; set; } | Represents the unit label for the specified axis. |
-| [DisplayUnitLabel](displayunitlabel) { get; } | Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values— for example, in the millions or billions. |
-| [HasMultiLevelLabels](hasmultilevellabels) { get; set; } | Indicates whether the labels shall be shown as multi level. |
-| [IsAutomaticMajorUnit](isautomaticmajorunit) { get; set; } | Indicates whether the major unit of the axis is automatically assigned. |
-| [IsAutomaticMaxValue](isautomaticmaxvalue) { get; set; } | Indicates whether the max value is automatically assigned. |
-| [IsAutomaticMinorUnit](isautomaticminorunit) { get; set; } | Indicates whether the minor unit of the axis is automatically assigned. |
-| [IsAutomaticMinValue](isautomaticminvalue) { get; set; } | Indicates whether the min value is automatically assigned. |
-| [IsAutoTickLabelSpacing](isautoticklabelspacing) { get; set; } | Indicates whether the spacing of tick label is automatic |
-| [IsDisplayUnitLabelShown](isdisplayunitlabelshown) { get; set; } | Represents if the display unit label is shown on the specified axis. |
-| [IsLogarithmic](islogarithmic) { get; set; } | Represents if the value axis scale type is logarithmic or not. |
-| [IsPlotOrderReversed](isplotorderreversed) { get; set; } | Represents if Microsoft Excel plots data points from last to first. |
-| [IsVisible](isvisible) { get; set; } | Represents if the axis is visible. |
-| [LogBase](logbase) { get; set; } | Represents the logarithmic base. Default value is 10.Only applies for Excel2007. |
-| [MajorGridLines](majorgridlines) { get; } | Represents major gridlines on a chart axis. |
-| [MajorTickMark](majortickmark) { get; set; } | Represents the type of major tick mark for the specified axis. |
-| [MajorUnit](majorunit) { get; set; } | Represents the major units for the axis. |
-| [MajorUnitScale](majorunitscale) { get; set; } | Represents the major unit scale for the category axis. |
-| [MaxValue](maxvalue) { get; set; } | Represents the maximum value on the value axis. |
-| [MinorGridLines](minorgridlines) { get; } | Represents minor gridlines on a chart axis. |
-| [MinorTickMark](minortickmark) { get; set; } | Represents the type of minor tick mark for the specified axis. |
-| [MinorUnit](minorunit) { get; set; } | Represents the minor units for the axis. |
-| [MinorUnitScale](minorunitscale) { get; set; } | Represents the major unit scale for the category axis. |
-| [MinValue](minvalue) { get; set; } | Represents the minimum value on the value axis. |
-| [TickLabelPosition](ticklabelposition) { get; set; } | Represents the position of tick-mark labels on the specified axis. |
-| [TickLabels](ticklabels) { get; } | Returns a [`TickLabels`](./ticklabels) object that represents the tick-mark labels for the specified axis. |
-| [TickLabelSpacing](ticklabelspacing) { get; set; } | Represents the number of categories or series between tick-mark labels. Applies only to category and series axes. |
-| [TickMarkSpacing](tickmarkspacing) { get; set; } | Returns or sets the number of categories or series between tick marks. Applies only to category and series axes. |
-| [Title](title) { get; } | Gets the axis' title. |
+| [Area](../../aspose.cells.charts/axis/area) { get; } | Gets the [`Area`](./area). |
+| [AxisBetweenCategories](../../aspose.cells.charts/axis/axisbetweencategories) { get; set; } | Represents if the value axis crosses the category axis between categories. |
+| [AxisLabels](../../aspose.cells.charts/axis/axislabels) { get; } | Gets the labels of the axis after call Chart.Calculate() method. |
+| [AxisLine](../../aspose.cells.charts/axis/axisline) { get; } | Gets the appearance of an Axis. |
+| [BaseUnitScale](../../aspose.cells.charts/axis/baseunitscale) { get; set; } | Represents the base unit scale for the category axis. |
+| [Bins](../../aspose.cells.charts/axis/bins) { get; } | Represents bins on a chart(Histogram/Pareto) axis |
+| [CategoryType](../../aspose.cells.charts/axis/categorytype) { get; set; } | Represents the category axis type. |
+| [CrossAt](../../aspose.cells.charts/axis/crossat) { get; set; } | Represents the point on the value axis where the category axis crosses it. |
+| [CrossType](../../aspose.cells.charts/axis/crosstype) { get; set; } | Represents the [`CrossType`](./crosstype) on the specified axis where the other axis crosses. |
+| [CustUnit](../../aspose.cells.charts/axis/custunit) { get; set; } | Specifies a custom value for the display unit. |
+| [DisplayUnit](../../aspose.cells.charts/axis/displayunit) { get; set; } | Represents the unit label for the specified axis. |
+| [DisplayUnitLabel](../../aspose.cells.charts/axis/displayunitlabel) { get; } | Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values— for example, in the millions or billions. |
+| [HasMultiLevelLabels](../../aspose.cells.charts/axis/hasmultilevellabels) { get; set; } | Indicates whether the labels shall be shown as multi level. |
+| [IsAutomaticMajorUnit](../../aspose.cells.charts/axis/isautomaticmajorunit) { get; set; } | Indicates whether the major unit of the axis is automatically assigned. |
+| [IsAutomaticMaxValue](../../aspose.cells.charts/axis/isautomaticmaxvalue) { get; set; } | Indicates whether the max value is automatically assigned. |
+| [IsAutomaticMinorUnit](../../aspose.cells.charts/axis/isautomaticminorunit) { get; set; } | Indicates whether the minor unit of the axis is automatically assigned. |
+| [IsAutomaticMinValue](../../aspose.cells.charts/axis/isautomaticminvalue) { get; set; } | Indicates whether the min value is automatically assigned. |
+| [IsAutoTickLabelSpacing](../../aspose.cells.charts/axis/isautoticklabelspacing) { get; set; } | Indicates whether the spacing of tick label is automatic |
+| [IsDisplayUnitLabelShown](../../aspose.cells.charts/axis/isdisplayunitlabelshown) { get; set; } | Represents if the display unit label is shown on the specified axis. |
+| [IsLogarithmic](../../aspose.cells.charts/axis/islogarithmic) { get; set; } | Represents if the value axis scale type is logarithmic or not. |
+| [IsPlotOrderReversed](../../aspose.cells.charts/axis/isplotorderreversed) { get; set; } | Represents if Microsoft Excel plots data points from last to first. |
+| [IsVisible](../../aspose.cells.charts/axis/isvisible) { get; set; } | Represents if the axis is visible. |
+| [LogBase](../../aspose.cells.charts/axis/logbase) { get; set; } | Represents the logarithmic base. Default value is 10.Only applies for Excel2007. |
+| [MajorGridLines](../../aspose.cells.charts/axis/majorgridlines) { get; } | Represents major gridlines on a chart axis. |
+| [MajorTickMark](../../aspose.cells.charts/axis/majortickmark) { get; set; } | Represents the type of major tick mark for the specified axis. |
+| [MajorUnit](../../aspose.cells.charts/axis/majorunit) { get; set; } | Represents the major units for the axis. |
+| [MajorUnitScale](../../aspose.cells.charts/axis/majorunitscale) { get; set; } | Represents the major unit scale for the category axis. |
+| [MaxValue](../../aspose.cells.charts/axis/maxvalue) { get; set; } | Represents the maximum value on the value axis. |
+| [MinorGridLines](../../aspose.cells.charts/axis/minorgridlines) { get; } | Represents minor gridlines on a chart axis. |
+| [MinorTickMark](../../aspose.cells.charts/axis/minortickmark) { get; set; } | Represents the type of minor tick mark for the specified axis. |
+| [MinorUnit](../../aspose.cells.charts/axis/minorunit) { get; set; } | Represents the minor units for the axis. |
+| [MinorUnitScale](../../aspose.cells.charts/axis/minorunitscale) { get; set; } | Represents the major unit scale for the category axis. |
+| [MinValue](../../aspose.cells.charts/axis/minvalue) { get; set; } | Represents the minimum value on the value axis. |
+| [TickLabelPosition](../../aspose.cells.charts/axis/ticklabelposition) { get; set; } | Represents the position of tick-mark labels on the specified axis. |
+| [TickLabels](../../aspose.cells.charts/axis/ticklabels) { get; } | Returns a [`TickLabels`](./ticklabels) object that represents the tick-mark labels for the specified axis. |
+| [TickLabelSpacing](../../aspose.cells.charts/axis/ticklabelspacing) { get; set; } | Represents the number of categories or series between tick-mark labels. Applies only to category and series axes. |
+| [TickMarkSpacing](../../aspose.cells.charts/axis/tickmarkspacing) { get; set; } | Returns or sets the number of categories or series between tick marks. Applies only to category and series axes. |
+| [Title](../../aspose.cells.charts/axis/title) { get; } | Gets the axis' title. |
 
 ### Examples
 

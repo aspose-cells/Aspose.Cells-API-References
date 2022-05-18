@@ -24,9 +24,9 @@ public class CellWatch
 
 | Name | Description |
 | --- | --- |
-| [CellName](cellname) { get; set; } | Gets and sets the name of the cell. |
-| [Column](column) { get; set; } | Gets and sets the column of the cell. |
-| [Row](row) { get; set; } | Gets and sets the row of the cell. |
+| [CellName](../../aspose.cells/cellwatch/cellname) { get; set; } | Gets and sets the name of the cell. |
+| [Column](../../aspose.cells/cellwatch/column) { get; set; } | Gets and sets the column of the cell. |
+| [Row](../../aspose.cells/cellwatch/row) { get; set; } | Gets and sets the row of the cell. |
 
 ### See Also
 

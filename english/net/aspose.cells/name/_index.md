@@ -18,29 +18,29 @@ public class Name
 
 | Name | Description |
 | --- | --- |
-| [Comment](comment) { get; set; } | Gets and sets the comment of the name. Only applies for Excel 2007. |
-| [FullText](fulltext) { get; } | Gets the name full text of the object with the scope setting. |
-| [IsReferred](isreferred) { get; } | Indicates whether this name is referred by other formulas. |
-| [IsVisible](isvisible) { get; set; } | Indicates whether the name is visible. |
-| [R1C1RefersTo](r1c1refersto) { get; set; } | Gets or sets a R1C1 reference of the [`Name`](../name). |
-| [RefersTo](refersto) { get; set; } | Returns or sets the formula that the name is defined to refer to, beginning with an equal sign. |
-| [SheetIndex](sheetindex) { get; set; } | Indicates this name belongs to Workbook or Worksheet. 0 = Global name, otherwise index to sheet (one-based) |
-| [Text](text) { get; set; } | Gets the name text of the object. |
+| [Comment](../../aspose.cells/name/comment) { get; set; } | Gets and sets the comment of the name. Only applies for Excel 2007. |
+| [FullText](../../aspose.cells/name/fulltext) { get; } | Gets the name full text of the object with the scope setting. |
+| [IsReferred](../../aspose.cells/name/isreferred) { get; } | Indicates whether this name is referred by other formulas. |
+| [IsVisible](../../aspose.cells/name/isvisible) { get; set; } | Indicates whether the name is visible. |
+| [R1C1RefersTo](../../aspose.cells/name/r1c1refersto) { get; set; } | Gets or sets a R1C1 reference of the [`Name`](../name). |
+| [RefersTo](../../aspose.cells/name/refersto) { get; set; } | Returns or sets the formula that the name is defined to refer to, beginning with an equal sign. |
+| [SheetIndex](../../aspose.cells/name/sheetindex) { get; set; } | Indicates this name belongs to Workbook or Worksheet. 0 = Global name, otherwise index to sheet (one-based) |
+| [Text](../../aspose.cells/name/text) { get; set; } | Gets the name text of the object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetRange](getrange)() | Gets the range if this name refers to a range. |
-| [GetRange](getrange)(bool) | Gets the range if this name refers to a range |
-| [GetRange](getrange)(int, int, int) | Gets the range if this name refers to a range. If the reference of this name is not absolute, the range may be different for different cell. |
-| [GetRanges](getranges)() | Gets all ranges referred by this name. |
-| [GetRanges](getranges)(bool) | Gets all ranges referred by this name. |
-| [GetReferredAreas](getreferredareas)(bool) | Gets all references referred by this name. |
-| [GetRefersTo](getrefersto)(bool, bool) | Get the reference of this Name. |
-| [GetRefersTo](getrefersto)(bool, bool, int, int) | Get the reference of this Name based on specified cell. |
-| [SetRefersTo](setrefersto)(string, bool, bool) | Set the reference of this Name. |
-| override [ToString](tostring)() | Returns a string represents the current Range object. |
+| [GetRange](../../aspose.cells/name/getrange)() | Gets the range if this name refers to a range. |
+| [GetRange](../../aspose.cells/name/getrange)(bool) | Gets the range if this name refers to a range |
+| [GetRange](../../aspose.cells/name/getrange)(int, int, int) | Gets the range if this name refers to a range. If the reference of this name is not absolute, the range may be different for different cell. |
+| [GetRanges](../../aspose.cells/name/getranges)() | Gets all ranges referred by this name. |
+| [GetRanges](../../aspose.cells/name/getranges)(bool) | Gets all ranges referred by this name. |
+| [GetReferredAreas](../../aspose.cells/name/getreferredareas)(bool) | Gets all references referred by this name. |
+| [GetRefersTo](../../aspose.cells/name/getrefersto)(bool, bool) | Get the reference of this Name. |
+| [GetRefersTo](../../aspose.cells/name/getrefersto)(bool, bool, int, int) | Get the reference of this Name based on specified cell. |
+| [SetRefersTo](../../aspose.cells/name/setrefersto)(string, bool, bool) | Set the reference of this Name. |
+| override [ToString](../../aspose.cells/name/tostring)() | Returns a string represents the current Range object. |
 
 ### Examples
 

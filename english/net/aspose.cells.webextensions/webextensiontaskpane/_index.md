@@ -18,12 +18,12 @@ public class WebExtensionTaskPane
 
 | Name | Description |
 | --- | --- |
-| [DockState](dockstate) { get; set; } | Gets and sets the last-docked location of this taskpane object. |
-| [IsLocked](islocked) { get; set; } | Indicates whether the taskpane is locked to the document in the UI and cannot be closed by the user. |
-| [IsVisible](isvisible) { get; set; } | Indicates whether the Task Pane shows as visible by default when the document opens. |
-| [Row](row) { get; set; } | Gets and sets the index, enumerating from the outside to the inside, of this taskpane among other persisted taskpanes docked in the same default location. |
-| [WebExtension](webextension) { get; set; } | Gets and sets the web extension part associated with the taskpane instance |
-| [Width](width) { get; set; } | Gets and sets the default width value for this taskpane instance. |
+| [DockState](../../aspose.cells.webextensions/webextensiontaskpane/dockstate) { get; set; } | Gets and sets the last-docked location of this taskpane object. |
+| [IsLocked](../../aspose.cells.webextensions/webextensiontaskpane/islocked) { get; set; } | Indicates whether the taskpane is locked to the document in the UI and cannot be closed by the user. |
+| [IsVisible](../../aspose.cells.webextensions/webextensiontaskpane/isvisible) { get; set; } | Indicates whether the Task Pane shows as visible by default when the document opens. |
+| [Row](../../aspose.cells.webextensions/webextensiontaskpane/row) { get; set; } | Gets and sets the index, enumerating from the outside to the inside, of this taskpane among other persisted taskpanes docked in the same default location. |
+| [WebExtension](../../aspose.cells.webextensions/webextensiontaskpane/webextension) { get; set; } | Gets and sets the web extension part associated with the taskpane instance |
+| [Width](../../aspose.cells.webextensions/webextensiontaskpane/width) { get; set; } | Gets and sets the default width value for this taskpane instance. |
 
 ### See Also
 

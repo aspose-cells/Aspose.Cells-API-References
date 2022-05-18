@@ -24,9 +24,9 @@ public class WebExtensionBinding
 
 | Name | Description |
 | --- | --- |
-| [Appref](appref) { get; set; } | Gets and sets the binding key used to map the binding entry in this list with the bound data in the document. |
-| [Id](id) { get; set; } | Gets and sets the binding identifier. |
-| [Type](type) { get; set; } | Gets and sets the binding type. |
+| [Appref](../../aspose.cells.webextensions/webextensionbinding/appref) { get; set; } | Gets and sets the binding key used to map the binding entry in this list with the bound data in the document. |
+| [Id](../../aspose.cells.webextensions/webextensionbinding/id) { get; set; } | Gets and sets the binding identifier. |
+| [Type](../../aspose.cells.webextensions/webextensionbinding/type) { get; set; } | Gets and sets the binding type. |
 
 ### See Also
 

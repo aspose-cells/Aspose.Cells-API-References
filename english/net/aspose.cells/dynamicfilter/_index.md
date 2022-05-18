@@ -18,9 +18,9 @@ public class DynamicFilter
 
 | Name | Description |
 | --- | --- |
-| [DynamicFilterType](dynamicfiltertype) { get; set; } | Gets and sets the dynamic filter type. |
-| [MaxValue](maxvalue) { get; set; } | Gets and sets the dynamic filter max value. |
-| [Value](value) { get; set; } | Gets and sets the dynamic filter value. |
+| [DynamicFilterType](../../aspose.cells/dynamicfilter/dynamicfiltertype) { get; set; } | Gets and sets the dynamic filter type. |
+| [MaxValue](../../aspose.cells/dynamicfilter/maxvalue) { get; set; } | Gets and sets the dynamic filter max value. |
+| [Value](../../aspose.cells/dynamicfilter/value) { get; set; } | Gets and sets the dynamic filter value. |
 
 ### See Also
 

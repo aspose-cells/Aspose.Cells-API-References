@@ -18,40 +18,40 @@ public class ListObject
 
 | Name | Description |
 | --- | --- |
-| [AlternativeDescription](alternativedescription) { get; set; } | Gets and sets the alternative description. |
-| [AlternativeText](alternativetext) { get; set; } | Gets and sets the alternative text. |
-| [AutoFilter](autofilter) { get; } | Gets auto filter. |
-| [Comment](comment) { get; set; } | Gets and sets the comment of the table. |
-| [DataRange](datarange) { get; } | Gets the data range of the ListObject. |
-| [DataSourceType](datasourcetype) { get; } | Gets the data source type of the table. |
-| [DisplayName](displayname) { get; set; } | Gets and sets the display name. |
-| [EndColumn](endcolumn) { get; } | Gets the end column of the range. |
-| [EndRow](endrow) { get; } | Gets the end row of the range. |
-| [ListColumns](listcolumns) { get; } | Gets ListColumns of the ListObject. |
-| [QueryTable](querytable) { get; } | Gets the linked QueryTable. |
-| [ShowHeaderRow](showheaderrow) { get; set; } | Gets and sets whether this ListObject show header row. |
-| [ShowTableStyleColumnStripes](showtablestylecolumnstripes) { get; set; } | Indicates whether column stripe formatting is applied. |
-| [ShowTableStyleFirstColumn](showtablestylefirstcolumn) { get; set; } | Indicates whether the first column in the table should have the style applied. |
-| [ShowTableStyleLastColumn](showtablestylelastcolumn) { get; set; } | Indicates whether the last column in the table should have the style applied. |
-| [ShowTableStyleRowStripes](showtablestylerowstripes) { get; set; } | Indicates whether row stripe formatting is applied. |
-| [ShowTotals](showtotals) { get; set; } | Gets and sets whether this ListObject show total row. |
-| [StartColumn](startcolumn) { get; } | Gets the start column of the range. |
-| [StartRow](startrow) { get; } | Gets the start row of the range. |
-| [TableStyleName](tablestylename) { get; set; } | Gets and sets the table style name. |
-| [TableStyleType](tablestyletype) { get; set; } | Gets and the built-in table style. |
-| [XmlMap](xmlmap) { get; } | Gets an [`XmlMap`](./xmlmap) used for this list. |
+| [AlternativeDescription](../../aspose.cells.tables/listobject/alternativedescription) { get; set; } | Gets and sets the alternative description. |
+| [AlternativeText](../../aspose.cells.tables/listobject/alternativetext) { get; set; } | Gets and sets the alternative text. |
+| [AutoFilter](../../aspose.cells.tables/listobject/autofilter) { get; } | Gets auto filter. |
+| [Comment](../../aspose.cells.tables/listobject/comment) { get; set; } | Gets and sets the comment of the table. |
+| [DataRange](../../aspose.cells.tables/listobject/datarange) { get; } | Gets the data range of the ListObject. |
+| [DataSourceType](../../aspose.cells.tables/listobject/datasourcetype) { get; } | Gets the data source type of the table. |
+| [DisplayName](../../aspose.cells.tables/listobject/displayname) { get; set; } | Gets and sets the display name. |
+| [EndColumn](../../aspose.cells.tables/listobject/endcolumn) { get; } | Gets the end column of the range. |
+| [EndRow](../../aspose.cells.tables/listobject/endrow) { get; } | Gets the end row of the range. |
+| [ListColumns](../../aspose.cells.tables/listobject/listcolumns) { get; } | Gets ListColumns of the ListObject. |
+| [QueryTable](../../aspose.cells.tables/listobject/querytable) { get; } | Gets the linked QueryTable. |
+| [ShowHeaderRow](../../aspose.cells.tables/listobject/showheaderrow) { get; set; } | Gets and sets whether this ListObject show header row. |
+| [ShowTableStyleColumnStripes](../../aspose.cells.tables/listobject/showtablestylecolumnstripes) { get; set; } | Indicates whether column stripe formatting is applied. |
+| [ShowTableStyleFirstColumn](../../aspose.cells.tables/listobject/showtablestylefirstcolumn) { get; set; } | Indicates whether the first column in the table should have the style applied. |
+| [ShowTableStyleLastColumn](../../aspose.cells.tables/listobject/showtablestylelastcolumn) { get; set; } | Indicates whether the last column in the table should have the style applied. |
+| [ShowTableStyleRowStripes](../../aspose.cells.tables/listobject/showtablestylerowstripes) { get; set; } | Indicates whether row stripe formatting is applied. |
+| [ShowTotals](../../aspose.cells.tables/listobject/showtotals) { get; set; } | Gets and sets whether this ListObject show total row. |
+| [StartColumn](../../aspose.cells.tables/listobject/startcolumn) { get; } | Gets the start column of the range. |
+| [StartRow](../../aspose.cells.tables/listobject/startrow) { get; } | Gets the start row of the range. |
+| [TableStyleName](../../aspose.cells.tables/listobject/tablestylename) { get; set; } | Gets and sets the table style name. |
+| [TableStyleType](../../aspose.cells.tables/listobject/tablestyletype) { get; set; } | Gets and the built-in table style. |
+| [XmlMap](../../aspose.cells.tables/listobject/xmlmap) { get; } | Gets an [`XmlMap`](./xmlmap) used for this list. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ApplyStyleToRange](applystyletorange)() | Apply the table style to the range. |
-| [ConvertToRange](converttorange)() | Convert the table to range. |
-| [ConvertToRange](converttorange)(TableToRangeOptions) | Convert the table to range. |
-| [Filter](filter)() | Filter the table. |
-| [PutCellValue](putcellvalue)(int, int, object) | Put the value to the cell. |
-| [Resize](resize)(int, int, int, int, bool) | Resize the range of the list object. |
-| [UpdateColumnName](updatecolumnname)() | Updates all list columns' name from the worksheet. |
+| [ApplyStyleToRange](../../aspose.cells.tables/listobject/applystyletorange)() | Apply the table style to the range. |
+| [ConvertToRange](../../aspose.cells.tables/listobject/converttorange)() | Convert the table to range. |
+| [ConvertToRange](../../aspose.cells.tables/listobject/converttorange)(TableToRangeOptions) | Convert the table to range. |
+| [Filter](../../aspose.cells.tables/listobject/filter)() | Filter the table. |
+| [PutCellValue](../../aspose.cells.tables/listobject/putcellvalue)(int, int, object) | Put the value to the cell. |
+| [Resize](../../aspose.cells.tables/listobject/resize)(int, int, int, int, bool) | Resize the range of the list object. |
+| [UpdateColumnName](../../aspose.cells.tables/listobject/updatecolumnname)() | Updates all list columns' name from the worksheet. |
 
 ### Examples
 

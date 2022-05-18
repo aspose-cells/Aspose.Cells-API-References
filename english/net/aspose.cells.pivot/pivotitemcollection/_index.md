@@ -18,15 +18,15 @@ public class PivotItemCollection : IEnumerable
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the count of the pivot items. |
-| [Item](item) { get; } | Gets the PivotItem Object at the specific index. (2 indexers) |
+| [Count](../../aspose.cells.pivot/pivotitemcollection/count) { get; } | Gets the count of the pivot items. |
+| [Item](../../aspose.cells.pivot/pivotitemcollection/item) { get; } | Gets the PivotItem Object at the specific index. (2 indexers) |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ChangeitemsOrder](changeitemsorder)(int, int) | Directly changes the orders of the two items. |
-| [GetEnumerator](getenumerator)() | Gets an enumerator over the elements in this collection in proper sequence. |
+| [ChangeitemsOrder](../../aspose.cells.pivot/pivotitemcollection/changeitemsorder)(int, int) | Directly changes the orders of the two items. |
+| [GetEnumerator](../../aspose.cells.pivot/pivotitemcollection/getenumerator)() | Gets an enumerator over the elements in this collection in proper sequence. |
 
 ### See Also
 

@@ -24,23 +24,23 @@ public class WorkbookRender
 
 | Name | Description |
 | --- | --- |
-| [PageCount](pagecount) { get; } | Gets the total page count of workbook. |
+| [PageCount](../../aspose.cells.rendering/workbookrender/pagecount) { get; } | Gets the total page count of workbook. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CustomPrint](customprint)(bool, PrintPageEventArgs) | Client can control page setting of printer when print each page using this function. |
-| [GetPageSizeInch](getpagesizeinch)(int) | Get page size in inch of output image. |
-| [ToImage](toimage)(int) | Render certain page to a Bitmap object. |
-| [ToImage](toimage)(Stream) | Render whole workbook as Tiff Image to stream. |
-| [ToImage](toimage)(string) | Render whole workbook as Tiff Image to a file. |
-| [ToImage](toimage)(int, Stream) | Render certain page to a stream. |
-| [ToImage](toimage)(int, string) | Render certain page to a file. |
-| [ToPrinter](toprinter)(PrinterSettings) | Render workbook to Printer |
-| [ToPrinter](toprinter)(string) | Render workbook to Printer |
-| [ToPrinter](toprinter)(PrinterSettings, string) | Render workbook to Printer |
-| [ToPrinter](toprinter)(string, string) | Render workbook to Printer |
+| [CustomPrint](../../aspose.cells.rendering/workbookrender/customprint)(bool, PrintPageEventArgs) | Client can control page setting of printer when print each page using this function. |
+| [GetPageSizeInch](../../aspose.cells.rendering/workbookrender/getpagesizeinch)(int) | Get page size in inch of output image. |
+| [ToImage](../../aspose.cells.rendering/workbookrender/toimage)(int) | Render certain page to a Bitmap object. |
+| [ToImage](../../aspose.cells.rendering/workbookrender/toimage)(Stream) | Render whole workbook as Tiff Image to stream. |
+| [ToImage](../../aspose.cells.rendering/workbookrender/toimage)(string) | Render whole workbook as Tiff Image to a file. |
+| [ToImage](../../aspose.cells.rendering/workbookrender/toimage)(int, Stream) | Render certain page to a stream. |
+| [ToImage](../../aspose.cells.rendering/workbookrender/toimage)(int, string) | Render certain page to a file. |
+| [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter)(PrinterSettings) | Render workbook to Printer |
+| [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter)(string) | Render workbook to Printer |
+| [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter)(PrinterSettings, string) | Render workbook to Printer |
+| [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter)(string, string) | Render workbook to Printer |
 
 ### See Also
 

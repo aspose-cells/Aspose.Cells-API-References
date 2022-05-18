@@ -18,9 +18,9 @@ public class XmlMap
 
 | Name | Description |
 | --- | --- |
-| [DataBinding](databinding) { get; } | Gets an [`XmlDataBinding`](../xmldatabinding) of this map. |
-| [Name](name) { get; set; } | Returns or sets the name of the object. |
-| [RootElementName](rootelementname) { get; } | Gets root element name. |
+| [DataBinding](../../aspose.cells/xmlmap/databinding) { get; } | Gets an [`XmlDataBinding`](../xmldatabinding) of this map. |
+| [Name](../../aspose.cells/xmlmap/name) { get; set; } | Returns or sets the name of the object. |
+| [RootElementName](../../aspose.cells/xmlmap/rootelementname) { get; } | Gets root element name. |
 
 ### See Also
 

@@ -18,7 +18,7 @@ public class ExportObjectEvent
 
 | Name | Description |
 | --- | --- |
-| [GetSource](getsource)() | Gets the object to be exported. |
+| [GetSource](../../aspose.cells/exportobjectevent/getsource)() | Gets the object to be exported. |
 
 ### See Also
 

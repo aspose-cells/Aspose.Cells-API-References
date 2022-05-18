@@ -18,12 +18,12 @@ public class IconSet
 
 | Name | Description |
 | --- | --- |
-| [CfIcons](cficons) { get; } | Get the[`ConditionalFormattingIcon`](../conditionalformattingicon) from the collection |
-| [Cfvos](cfvos) { get; } | Get the CFValueObjects instance. |
-| [IsCustom](iscustom) { get; } | Indicates whether the icon set is custom. Default value is false. |
-| [Reverse](reverse) { get; set; } | Get or set the flag indicating whether to reverses the default order of the icons in this icon set. Default value is false. |
-| [ShowValue](showvalue) { get; set; } | Get or set the flag indicating whether to show the values of the cells on which this icon set is applied. Default value is true. |
-| [Type](type) { get; set; } | Get or Set the icon set type to display. Setting the type will auto check if the current Cfvos's count is accord with the new type. If not accord, old Cfvos will be cleaned and default Cfvos will be added. |
+| [CfIcons](../../aspose.cells/iconset/cficons) { get; } | Get the[`ConditionalFormattingIcon`](../conditionalformattingicon) from the collection |
+| [Cfvos](../../aspose.cells/iconset/cfvos) { get; } | Get the CFValueObjects instance. |
+| [IsCustom](../../aspose.cells/iconset/iscustom) { get; } | Indicates whether the icon set is custom. Default value is false. |
+| [Reverse](../../aspose.cells/iconset/reverse) { get; set; } | Get or set the flag indicating whether to reverses the default order of the icons in this icon set. Default value is false. |
+| [ShowValue](../../aspose.cells/iconset/showvalue) { get; set; } | Get or set the flag indicating whether to show the values of the cells on which this icon set is applied. Default value is true. |
+| [Type](../../aspose.cells/iconset/type) { get; set; } | Get or Set the icon set type to display. Setting the type will auto check if the current Cfvos's count is accord with the new type. If not accord, old Cfvos will be cleaned and default Cfvos will be added. |
 
 ### Examples
 

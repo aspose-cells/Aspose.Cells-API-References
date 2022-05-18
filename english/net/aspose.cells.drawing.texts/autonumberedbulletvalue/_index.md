@@ -24,9 +24,9 @@ public class AutoNumberedBulletValue : BulletValue
 
 | Name | Description |
 | --- | --- |
-| [AutonumberScheme](autonumberscheme) { get; set; } | Represents the scheme of automatic number. |
-| [StartAt](startat) { get; set; } | Gets and sets the starting number of the bullet. |
-| override [Type](type) { get; } | Gets the type of the bullet. |
+| [AutonumberScheme](../../aspose.cells.drawing.texts/autonumberedbulletvalue/autonumberscheme) { get; set; } | Represents the scheme of automatic number. |
+| [StartAt](../../aspose.cells.drawing.texts/autonumberedbulletvalue/startat) { get; set; } | Gets and sets the starting number of the bullet. |
+| override [Type](../../aspose.cells.drawing.texts/autonumberedbulletvalue/type) { get; } | Gets the type of the bullet. |
 
 ### See Also
 

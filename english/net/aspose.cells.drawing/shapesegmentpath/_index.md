@@ -18,8 +18,8 @@ public class ShapeSegmentPath
 
 | Name | Description |
 | --- | --- |
-| [Points](points) { get; } | Gets the points in path segment |
-| [Type](type) { get; } | Gets the path segment type |
+| [Points](../../aspose.cells.drawing/shapesegmentpath/points) { get; } | Gets the points in path segment |
+| [Type](../../aspose.cells.drawing/shapesegmentpath/type) { get; } | Gets the path segment type |
 
 ### See Also
 

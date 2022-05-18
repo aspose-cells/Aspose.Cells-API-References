@@ -18,8 +18,8 @@ public class PageSavingArgs
 
 | Name | Description |
 | --- | --- |
-| [PageCount](pagecount) { get; } | Total page count. |
-| [PageIndex](pageindex) { get; } | Current page index, zero based. |
+| [PageCount](../../aspose.cells.rendering/pagesavingargs/pagecount) { get; } | Total page count. |
+| [PageIndex](../../aspose.cells.rendering/pagesavingargs/pageindex) { get; } | Current page index, zero based. |
 
 ### See Also
 

@@ -18,7 +18,7 @@ public abstract class DrawObjectEventHandler
 
 | Name | Description |
 | --- | --- |
-| virtual [Draw](draw)(DrawObject, float, float, float, float) | Implements this interface to get DrawObject and Bound when rendering. |
+| virtual [Draw](../../aspose.cells.rendering/drawobjecteventhandler/draw)(DrawObject, float, float, float, float) | Implements this interface to get DrawObject and Bound when rendering. |
 
 ### See Also
 

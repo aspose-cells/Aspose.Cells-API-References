@@ -24,14 +24,14 @@ public class JsonLayoutOptions
 
 | Name | Description |
 | --- | --- |
-| [ArrayAsTable](arrayastable) { get; set; } | Processes Array as table. |
-| [ConvertNumericOrDate](convertnumericordate) { get; set; } | Gets or sets a value that indicates whether the string in json is converted to numeric or date. |
-| [DateFormat](dateformat) { get; set; } | Gets and sets the format of date value. |
-| [IgnoreArrayTitle](ignorearraytitle) { get; set; } | Indicates whether ignore title if array is a property of object. |
-| [IgnoreNull](ignorenull) { get; set; } | Indicates whether ignoring null value. |
-| [IgnoreObjectTitle](ignoreobjecttitle) { get; set; } | Indicates whether ignore title if object is a property of object. |
-| [NumberFormat](numberformat) { get; set; } | Gets and sets the format of numeric value. |
-| [TitleStyle](titlestyle) { get; set; } | Gets and sets the style of the title. |
+| [ArrayAsTable](../../aspose.cells.utility/jsonlayoutoptions/arrayastable) { get; set; } | Processes Array as table. |
+| [ConvertNumericOrDate](../../aspose.cells.utility/jsonlayoutoptions/convertnumericordate) { get; set; } | Gets or sets a value that indicates whether the string in json is converted to numeric or date. |
+| [DateFormat](../../aspose.cells.utility/jsonlayoutoptions/dateformat) { get; set; } | Gets and sets the format of date value. |
+| [IgnoreArrayTitle](../../aspose.cells.utility/jsonlayoutoptions/ignorearraytitle) { get; set; } | Indicates whether ignore title if array is a property of object. |
+| [IgnoreNull](../../aspose.cells.utility/jsonlayoutoptions/ignorenull) { get; set; } | Indicates whether ignoring null value. |
+| [IgnoreObjectTitle](../../aspose.cells.utility/jsonlayoutoptions/ignoreobjecttitle) { get; set; } | Indicates whether ignore title if object is a property of object. |
+| [NumberFormat](../../aspose.cells.utility/jsonlayoutoptions/numberformat) { get; set; } | Gets and sets the format of numeric value. |
+| [TitleStyle](../../aspose.cells.utility/jsonlayoutoptions/titlestyle) { get; set; } | Gets and sets the style of the title. |
 
 ### See Also
 

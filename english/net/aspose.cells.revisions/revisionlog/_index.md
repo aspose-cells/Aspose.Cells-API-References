@@ -18,7 +18,7 @@ public class RevisionLog
 
 | Name | Description |
 | --- | --- |
-| [Revisions](revisions) { get; } | Gets all revisions in this log. |
+| [Revisions](../../aspose.cells.revisions/revisionlog/revisions) { get; } | Gets all revisions in this log. |
 
 ### See Also
 

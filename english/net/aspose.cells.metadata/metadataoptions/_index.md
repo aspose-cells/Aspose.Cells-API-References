@@ -24,9 +24,9 @@ public class MetadataOptions
 
 | Name | Description |
 | --- | --- |
-| [KeyLength](keylength) { get; set; } | The key length. |
-| [MetadataType](metadatatype) { get; } | Gets and sets the type of the metadata which is loading. |
-| [Password](password) { get; set; } | Represents Workbook file encryption password. |
+| [KeyLength](../../aspose.cells.metadata/metadataoptions/keylength) { get; set; } | The key length. |
+| [MetadataType](../../aspose.cells.metadata/metadataoptions/metadatatype) { get; } | Gets and sets the type of the metadata which is loading. |
+| [Password](../../aspose.cells.metadata/metadataoptions/password) { get; set; } | Represents Workbook file encryption password. |
 
 ### See Also
 

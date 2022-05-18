@@ -18,19 +18,21 @@ public class GradientFill : Fill
 
 | Name | Description |
 | --- | --- |
-| [Angle](angle) { get; set; } | The angle of linear fill. |
-| [DirectionType](directiontype) { get; } | Gets the gradient direction type. |
-| [FillType](filltype) { get; } | Gets the gradient fill type. |
-| [GradientStops](gradientstops) { get; } | Represents the gradient stop collection. |
+| [Angle](../../aspose.cells.drawing/gradientfill/angle) { get; set; } | The angle of linear fill. |
+| [DirectionType](../../aspose.cells.drawing/gradientfill/directiontype) { get; } | Gets the gradient direction type. |
+| [FillType](../../aspose.cells.drawing/gradientfill/filltype) { get; } | Gets the gradient fill type. |
+| [GradientStops](../../aspose.cells.drawing/gradientfill/gradientstops) { get; } | Represents the gradient stop collection. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetGradient](setgradient)(GradientFillType, double, GradientDirectionType) | Set the gradient fill type and direction. |
-| [SetOneColorGradient](setonecolorgradient)(Color, double, GradientStyleType, int) | Sets the specified fill to a one-color gradient. Only applies for Excel 2007. |
-| [SetTwoColorGradient](settwocolorgradient)(Color, Color, GradientStyleType, int) | Sets the specified fill to a two-color gradient. Only applies for Excel 2007. |
-| [SetTwoColorGradient](settwocolorgradient)(Color, double, Color, double, GradientStyleType, int) | Sets the specified fill to a two-color gradient. Only applies for Excel 2007. |
+| override [Equals](../../aspose.cells.drawing/fill/equals)(object) | / |
+| override [GetHashCode](../../aspose.cells.drawing/fill/gethashcode)() | Gets the hash code. |
+| [SetGradient](../../aspose.cells.drawing/gradientfill/setgradient)(GradientFillType, double, GradientDirectionType) | Set the gradient fill type and direction. |
+| [SetOneColorGradient](../../aspose.cells.drawing/gradientfill/setonecolorgradient)(Color, double, GradientStyleType, int) | Sets the specified fill to a one-color gradient. Only applies for Excel 2007. |
+| [SetTwoColorGradient](../../aspose.cells.drawing/gradientfill/settwocolorgradient)(Color, Color, GradientStyleType, int) | Sets the specified fill to a two-color gradient. Only applies for Excel 2007. |
+| [SetTwoColorGradient](../../aspose.cells.drawing/gradientfill/settwocolorgradient)(Color, double, Color, double, GradientStyleType, int) | Sets the specified fill to a two-color gradient. Only applies for Excel 2007. |
 
 ### See Also
 

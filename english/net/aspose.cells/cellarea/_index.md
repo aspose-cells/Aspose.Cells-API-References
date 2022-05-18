@@ -18,10 +18,10 @@ public struct CellArea : IComparable
 
 | Name | Description |
 | --- | --- |
-| static [CreateCellArea](createcellarea)(string, string) | Creates a cell area. |
-| static [CreateCellArea](createcellarea)(int, int, int, int) | Creates a cell area. |
-| [CompareTo](compareto)(object) | Internal use only. |
-| override [ToString](tostring)() | Returns a string represents the current Worksheet object. |
+| static [CreateCellArea](../../aspose.cells/cellarea/createcellarea)(string, string) | Creates a cell area. |
+| static [CreateCellArea](../../aspose.cells/cellarea/createcellarea)(int, int, int, int) | Creates a cell area. |
+| [CompareTo](../../aspose.cells/cellarea/compareto)(object) | Internal use only. |
+| override [ToString](../../aspose.cells/cellarea/tostring)() | Returns a string represents the current Worksheet object. |
 
 ## Other Members
 

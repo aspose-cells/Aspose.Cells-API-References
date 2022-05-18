@@ -18,14 +18,14 @@ public abstract class AbstractCalculationEngine
 
 | Name | Description |
 | --- | --- |
-| virtual [IsParamLiteralRequired](isparamliteralrequired) { get; } | Indicates whether this engine needs the literal text of parameter while doing calculation. Default value is false. |
-| virtual [ProcessBuiltInFunctions](processbuiltinfunctions) { get; } | Whether built-in functions that have been supported by the built-in engine should be checked and processed by this implementation. Default is false. If user needs to change the calculation logic of some built-in functions, this property should be set as true. |
+| virtual [IsParamLiteralRequired](../../aspose.cells/abstractcalculationengine/isparamliteralrequired) { get; } | Indicates whether this engine needs the literal text of parameter while doing calculation. Default value is false. |
+| virtual [ProcessBuiltInFunctions](../../aspose.cells/abstractcalculationengine/processbuiltinfunctions) { get; } | Whether built-in functions that have been supported by the built-in engine should be checked and processed by this implementation. Default is false. If user needs to change the calculation logic of some built-in functions, this property should be set as true. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| abstract [Calculate](calculate)(CalculationData) | Calculates one function with given data. |
+| abstract [Calculate](../../aspose.cells/abstractcalculationengine/calculate)(CalculationData) | Calculates one function with given data. |
 
 ### Remarks
 

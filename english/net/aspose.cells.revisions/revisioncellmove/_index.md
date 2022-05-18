@@ -18,10 +18,12 @@ public class RevisionCellMove : Revision
 
 | Name | Description |
 | --- | --- |
-| [DestinationArea](destinationarea) { get; } | Gets the destination area. |
-| [SourceArea](sourcearea) { get; } | Gets the source area. |
-| [SourceWorksheet](sourceworksheet) { get; } | Gets the source worksheet. |
-| override [Type](type) { get; } | Represents the type of revision. |
+| [DestinationArea](../../aspose.cells.revisions/revisioncellmove/destinationarea) { get; } | Gets the destination area. |
+| [Id](../../aspose.cells.revisions/revision/id) { get; } | Gets the number of this revision. |
+| [SourceArea](../../aspose.cells.revisions/revisioncellmove/sourcearea) { get; } | Gets the source area. |
+| [SourceWorksheet](../../aspose.cells.revisions/revisioncellmove/sourceworksheet) { get; } | Gets the source worksheet. |
+| override [Type](../../aspose.cells.revisions/revisioncellmove/type) { get; } | Represents the type of revision. |
+| [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Gets the worksheet. |
 
 ### See Also
 

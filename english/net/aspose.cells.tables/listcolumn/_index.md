@@ -18,19 +18,19 @@ public class ListColumn
 
 | Name | Description |
 | --- | --- |
-| [Formula](formula) { get; set; } | Gets and sets the formula of the list column. |
-| [Name](name) { get; set; } | Gets and sets the name of the column. |
-| [Range](range) { get; } | Gets the range of this list column. |
-| [TotalsCalculation](totalscalculation) { get; set; } | Gets and sets the type of calculation in the Totals row of the list column. |
+| [Formula](../../aspose.cells.tables/listcolumn/formula) { get; set; } | Gets and sets the formula of the list column. |
+| [Name](../../aspose.cells.tables/listcolumn/name) { get; set; } | Gets and sets the name of the column. |
+| [Range](../../aspose.cells.tables/listcolumn/range) { get; } | Gets the range of this list column. |
+| [TotalsCalculation](../../aspose.cells.tables/listcolumn/totalscalculation) { get; set; } | Gets and sets the type of calculation in the Totals row of the list column. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetCustomCalculatedFormula](getcustomcalculatedformula)(bool, bool) | Gets the formula of this list column. |
-| [GetCustomTotalsRowFormula](getcustomtotalsrowformula)(bool, bool) | Gets the formula of totals row of this list column. |
-| [SetCustomCalculatedFormula](setcustomcalculatedformula)(string, bool, bool) | Sets the formula for this list column. |
-| [SetCustomTotalsRowFormula](setcustomtotalsrowformula)(string, bool, bool) | Gets the formula of totals row of this list column. |
+| [GetCustomCalculatedFormula](../../aspose.cells.tables/listcolumn/getcustomcalculatedformula)(bool, bool) | Gets the formula of this list column. |
+| [GetCustomTotalsRowFormula](../../aspose.cells.tables/listcolumn/getcustomtotalsrowformula)(bool, bool) | Gets the formula of totals row of this list column. |
+| [SetCustomCalculatedFormula](../../aspose.cells.tables/listcolumn/setcustomcalculatedformula)(string, bool, bool) | Sets the formula for this list column. |
+| [SetCustomTotalsRowFormula](../../aspose.cells.tables/listcolumn/setcustomtotalsrowformula)(string, bool, bool) | Gets the formula of totals row of this list column. |
 
 ### Examples
 

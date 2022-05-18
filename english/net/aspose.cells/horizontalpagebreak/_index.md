@@ -18,9 +18,9 @@ public class HorizontalPageBreak
 
 | Name | Description |
 | --- | --- |
-| [EndColumn](endcolumn) { get; } | Gets the end column index of this horizontal page break. |
-| [Row](row) { get; } | Gets the zero based row index. |
-| [StartColumn](startcolumn) { get; } | Gets the start column index of this horizontal page break. |
+| [EndColumn](../../aspose.cells/horizontalpagebreak/endcolumn) { get; } | Gets the end column index of this horizontal page break. |
+| [Row](../../aspose.cells/horizontalpagebreak/row) { get; } | Gets the zero based row index. |
+| [StartColumn](../../aspose.cells/horizontalpagebreak/startcolumn) { get; } | Gets the start column index of this horizontal page break. |
 
 ### Examples
 

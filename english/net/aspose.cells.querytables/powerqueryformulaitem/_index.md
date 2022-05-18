@@ -18,8 +18,8 @@ public class PowerQueryFormulaItem
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; } | Gets the name of the item. |
-| [Value](value) { get; set; } | Gets the value of the item. |
+| [Name](../../aspose.cells.querytables/powerqueryformulaitem/name) { get; } | Gets the name of the item. |
+| [Value](../../aspose.cells.querytables/powerqueryformulaitem/value) { get; set; } | Gets the value of the item. |
 
 ### See Also
 

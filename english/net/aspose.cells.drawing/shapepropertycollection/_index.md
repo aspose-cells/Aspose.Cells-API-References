@@ -18,21 +18,21 @@ public class ShapePropertyCollection
 
 | Name | Description |
 | --- | --- |
-| [Format3D](format3d) { get; } | Represents a  object that specifies 3D shape properties for the chart element or shape. |
-| [GlowEffect](gloweffect) { get; } | Represents a  object that specifies glow effect for the chart element or shape. |
-| [ShadowEffect](shadoweffect) { get; } | Represents a  object that specifies shadow effect for the chart element or shape. |
-| [SoftEdgeRadius](softedgeradius) { get; set; } | Gets and sets the radius of blur to apply to the edges, in unit of points. |
+| [Format3D](../../aspose.cells.drawing/shapepropertycollection/format3d) { get; } | Represents a  object that specifies 3D shape properties for the chart element or shape. |
+| [GlowEffect](../../aspose.cells.drawing/shapepropertycollection/gloweffect) { get; } | Represents a  object that specifies glow effect for the chart element or shape. |
+| [ShadowEffect](../../aspose.cells.drawing/shapepropertycollection/shadoweffect) { get; } | Represents a  object that specifies shadow effect for the chart element or shape. |
+| [SoftEdgeRadius](../../aspose.cells.drawing/shapepropertycollection/softedgeradius) { get; set; } | Gets and sets the radius of blur to apply to the edges, in unit of points. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ClearFormat3D](clearformat3d)() | Clears the 3D shape properties of the shape. |
-| [ClearGlowEffect](cleargloweffect)() | Clears the glow effect of the shape. |
-| [ClearShadowEffect](clearshadoweffect)() | Clears the shadow effect of the chart element or shape. |
-| [HasFormat3D](hasformat3d)() | Indicates if the shape has 3d format data. |
-| [HasGlowEffect](hasgloweffect)() | Indicates if the shape has glow effect data. |
-| [HasShadowEffect](hasshadoweffect)() | Indicates if the shape has shadow effect data. |
+| [ClearFormat3D](../../aspose.cells.drawing/shapepropertycollection/clearformat3d)() | Clears the 3D shape properties of the shape. |
+| [ClearGlowEffect](../../aspose.cells.drawing/shapepropertycollection/cleargloweffect)() | Clears the glow effect of the shape. |
+| [ClearShadowEffect](../../aspose.cells.drawing/shapepropertycollection/clearshadoweffect)() | Clears the shadow effect of the chart element or shape. |
+| [HasFormat3D](../../aspose.cells.drawing/shapepropertycollection/hasformat3d)() | Indicates if the shape has 3d format data. |
+| [HasGlowEffect](../../aspose.cells.drawing/shapepropertycollection/hasgloweffect)() | Indicates if the shape has glow effect data. |
+| [HasShadowEffect](../../aspose.cells.drawing/shapepropertycollection/hasshadoweffect)() | Indicates if the shape has shadow effect data. |
 
 ### See Also
 

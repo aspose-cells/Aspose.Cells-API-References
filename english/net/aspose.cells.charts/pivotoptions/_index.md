@@ -18,11 +18,11 @@ public class PivotOptions
 
 | Name | Description |
 | --- | --- |
-| [DropZoneCategories](dropzonecategories) { get; set; } | Specifies whether a control for each PivotTable field on the PivotTable row axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
-| [DropZoneData](dropzonedata) { get; set; } | Specifies whether a control for each PivotTable field on the PivotTable data axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
-| [DropZoneFilter](dropzonefilter) { get; set; } | Specifies whether a control for each PivotTable field on the PivotTable page axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
-| [DropZoneSeries](dropzoneseries) { get; set; } | Specifies whether a control for each PivotTable field on the PivotTable column axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
-| [DropZonesVisible](dropzonesvisible) { get; set; } | Specifies whether any pivot controls can appear on the pivot chart. |
+| [DropZoneCategories](../../aspose.cells.charts/pivotoptions/dropzonecategories) { get; set; } | Specifies whether a control for each PivotTable field on the PivotTable row axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
+| [DropZoneData](../../aspose.cells.charts/pivotoptions/dropzonedata) { get; set; } | Specifies whether a control for each PivotTable field on the PivotTable data axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
+| [DropZoneFilter](../../aspose.cells.charts/pivotoptions/dropzonefilter) { get; set; } | Specifies whether a control for each PivotTable field on the PivotTable page axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
+| [DropZoneSeries](../../aspose.cells.charts/pivotoptions/dropzoneseries) { get; set; } | Specifies whether a control for each PivotTable field on the PivotTable column axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
+| [DropZonesVisible](../../aspose.cells.charts/pivotoptions/dropzonesvisible) { get; set; } | Specifies whether any pivot controls can appear on the pivot chart. |
 
 ### See Also
 

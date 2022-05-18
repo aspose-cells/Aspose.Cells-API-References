@@ -18,11 +18,11 @@ public class LegendEntry
 
 | Name | Description |
 | --- | --- |
-| [AutoScaleFont](autoscalefont) { get; set; } | True if the text in the object changes font size when the object size changes. The default value is True. |
-| [BackgroundMode](backgroundmode) { get; set; } | Gets and sets the display mode of the background |
-| [Font](font) { get; } | Gets a [`Font`](./font) object of the specified ChartFrame object. |
-| [IsDeleted](isdeleted) { get; set; } | Gets and sets whether the legend entry is deleted. |
-| [IsTextNoFill](istextnofill) { get; set; } | Gets or sets no fill of the text. |
+| [AutoScaleFont](../../aspose.cells.charts/legendentry/autoscalefont) { get; set; } | True if the text in the object changes font size when the object size changes. The default value is True. |
+| [BackgroundMode](../../aspose.cells.charts/legendentry/backgroundmode) { get; set; } | Gets and sets the display mode of the background |
+| [Font](../../aspose.cells.charts/legendentry/font) { get; } | Gets a [`Font`](./font) object of the specified ChartFrame object. |
+| [IsDeleted](../../aspose.cells.charts/legendentry/isdeleted) { get; set; } | Gets and sets whether the legend entry is deleted. |
+| [IsTextNoFill](../../aspose.cells.charts/legendentry/istextnofill) { get; set; } | Gets or sets no fill of the text. |
 
 ### See Also
 

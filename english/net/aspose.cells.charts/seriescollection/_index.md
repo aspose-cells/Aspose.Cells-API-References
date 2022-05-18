@@ -18,23 +18,50 @@ public class SeriesCollection : CollectionBase<Series>
 
 | Name | Description |
 | --- | --- |
-| [CategoryData](categorydata) { get; set; } | Gets or sets the range of category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). |
-| [IsColorVaried](iscolorvaried) { get; set; } | Represents if the color of points is varied. |
-| [Item](item) { get; } | Gets the [`Series`](../series) element at the specified index. |
-| [SecondCategoryData](secondcategorydata) { get; set; } | Gets or sets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). Only effects when some ASerieses plot on the second axis. |
+| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
+| [CategoryData](../../aspose.cells.charts/seriescollection/categorydata) { get; set; } | Gets or sets the range of category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). |
+| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
+| [IsColorVaried](../../aspose.cells.charts/seriescollection/iscolorvaried) { get; set; } | Represents if the color of points is varied. |
+| [Item](../../aspose.cells.charts/seriescollection/item) { get; } | Gets the [`Series`](../series) element at the specified index. |
+| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
+| [SecondCategoryData](../../aspose.cells.charts/seriescollection/secondcategorydata) { get; set; } | Gets or sets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). Only effects when some ASerieses plot on the second axis. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(string, bool) | Adds the [`SeriesCollection`](../seriescollection) collection to a chart. |
-| [Add](add)(string, bool, bool) | Adds the [`SeriesCollection`](../seriescollection) collection to a chart. |
-| [AddR1C1](addr1c1)(string, bool) | Adds the [`SeriesCollection`](../seriescollection) collection to a chart. |
-| [ChangeSeriesOrder](changeseriesorder)(int, int) | Directly changes the orders of the two series. |
-| [Clear](clear)() | Clears the collection |
-| [GetSeriesByOrder](getseriesbyorder)(int) | Gets the [`Series`](../series) element by order. |
-| [RemoveAt](removeat)(int) | Remove at a series at the specific index. |
-| [SetSeriesNames](setseriesnames)(int, string, bool) | Sets the name of all the serieses in the chart. |
+| [Add](../../aspose.cells.charts/seriescollection/add)(string, bool) | Adds the [`SeriesCollection`](../seriescollection) collection to a chart. |
+| [Add](../../aspose.cells.charts/seriescollection/add)(string, bool, bool) | Adds the [`SeriesCollection`](../seriescollection) collection to a chart. |
+| [AddR1C1](../../aspose.cells.charts/seriescollection/addr1c1)(string, bool) | Adds the [`SeriesCollection`](../seriescollection) collection to a chart. |
+| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Series) |  |
+| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Series, IComparer&lt;Series&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Series, IComparer&lt;Series&gt;) |  |
+| [ChangeSeriesOrder](../../aspose.cells.charts/seriescollection/changeseriesorder)(int, int) | Directly changes the orders of the two series. |
+| [Clear](../../aspose.cells.charts/seriescollection/clear)() | Clears the collection (2 methods) |
+| [Contains](../../aspose.cells/collectionbase`1/contains)(Series) |  |
+| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Series[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Series[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, Series[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;Series&gt;) |  |
+| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;Series&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;Series&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;Series&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;Series&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;Series&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;Series&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;Series&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;Series&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;Series&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
+| [GetSeriesByOrder](../../aspose.cells.charts/seriescollection/getseriesbyorder)(int) | Gets the [`Series`](../series) element by order. |
+| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Series) |  |
+| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Series, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Series, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Series) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Series, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Series, int, int) |  |
+| [RemoveAt](../../aspose.cells.charts/seriescollection/removeat)(int) | Remove at a series at the specific index. (2 methods) |
+| [SetSeriesNames](../../aspose.cells.charts/seriescollection/setseriesnames)(int, string, bool) | Sets the name of all the serieses in the chart. |
 
 ### Examples
 

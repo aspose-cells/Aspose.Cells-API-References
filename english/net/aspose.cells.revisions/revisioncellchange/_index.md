@@ -18,18 +18,20 @@ public class RevisionCellChange : Revision
 
 | Name | Description |
 | --- | --- |
-| [CellName](cellname) { get; } | Gets the name of the cell. |
-| [Column](column) { get; } | Gets the column index of the cell. |
-| [IsNewFormatted](isnewformatted) { get; } | Indicates whether this cell is new formatted. |
-| [IsOldFormatted](isoldformatted) { get; } | Indicates whether this cell is old formatted. |
-| [NewFormula](newformula) { get; } | Gets the old formula. |
-| [NewStyle](newstyle) { get; } | Gets the new style of the cell. |
-| [NewValue](newvalue) { get; } | Gets new value of the cell. |
-| [OldFormula](oldformula) { get; } | Gets the old formula. |
-| [OldStyle](oldstyle) { get; } | Gets the old style of the cell. |
-| [OldValue](oldvalue) { get; } | Gets old value of the cell. |
-| [Row](row) { get; } | Gets the row index of the cell. |
-| override [Type](type) { get; } | Represents the type of revision. |
+| [CellName](../../aspose.cells.revisions/revisioncellchange/cellname) { get; } | Gets the name of the cell. |
+| [Column](../../aspose.cells.revisions/revisioncellchange/column) { get; } | Gets the column index of the cell. |
+| [Id](../../aspose.cells.revisions/revision/id) { get; } | Gets the number of this revision. |
+| [IsNewFormatted](../../aspose.cells.revisions/revisioncellchange/isnewformatted) { get; } | Indicates whether this cell is new formatted. |
+| [IsOldFormatted](../../aspose.cells.revisions/revisioncellchange/isoldformatted) { get; } | Indicates whether this cell is old formatted. |
+| [NewFormula](../../aspose.cells.revisions/revisioncellchange/newformula) { get; } | Gets the old formula. |
+| [NewStyle](../../aspose.cells.revisions/revisioncellchange/newstyle) { get; } | Gets the new style of the cell. |
+| [NewValue](../../aspose.cells.revisions/revisioncellchange/newvalue) { get; } | Gets new value of the cell. |
+| [OldFormula](../../aspose.cells.revisions/revisioncellchange/oldformula) { get; } | Gets the old formula. |
+| [OldStyle](../../aspose.cells.revisions/revisioncellchange/oldstyle) { get; } | Gets the old style of the cell. |
+| [OldValue](../../aspose.cells.revisions/revisioncellchange/oldvalue) { get; } | Gets old value of the cell. |
+| [Row](../../aspose.cells.revisions/revisioncellchange/row) { get; } | Gets the row index of the cell. |
+| override [Type](../../aspose.cells.revisions/revisioncellchange/type) { get; } | Represents the type of revision. |
+| [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Gets the worksheet. |
 
 ### See Also
 

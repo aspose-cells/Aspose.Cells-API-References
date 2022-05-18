@@ -18,7 +18,8 @@ public class CustomGeometry : Geometry
 
 | Name | Description |
 | --- | --- |
-| [Paths](paths) { get; } | Gets path collection information when shape is a NotPrimitive autoshape |
+| [Paths](../../aspose.cells.drawing/customgeometry/paths) { get; } | Gets path collection information when shape is a NotPrimitive autoshape |
+| [ShapeAdjustValues](../../aspose.cells.drawing/geometry/shapeadjustvalues) { get; } | Gets a collection of shape adjust value |
 
 ### See Also
 

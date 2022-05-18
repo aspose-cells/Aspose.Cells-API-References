@@ -18,8 +18,8 @@ public class WebExtensionProperty
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; set; } | Gets and set a custom property name. |
-| [Value](value) { get; set; } | Gets and sets a custom property value. |
+| [Name](../../aspose.cells.webextensions/webextensionproperty/name) { get; set; } | Gets and set a custom property name. |
+| [Value](../../aspose.cells.webextensions/webextensionproperty/value) { get; set; } | Gets and sets a custom property value. |
 
 ### See Also
 

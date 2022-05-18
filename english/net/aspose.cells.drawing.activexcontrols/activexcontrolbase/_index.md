@@ -18,19 +18,19 @@ public abstract class ActiveXControlBase
 
 | Name | Description |
 | --- | --- |
-| [BackOleColor](backolecolor) { get; set; } | Gets and sets the ole color of the background. |
-| virtual [Data](data) { get; } | Gets and sets the binary data of the control. |
-| virtual [ForeOleColor](foreolecolor) { get; set; } | Gets and sets the ole color of the foreground. |
-| virtual [Height](height) { get; set; } | Gets and sets the height of the control in unit of points. |
-| virtual [IsVisible](isvisible) { get; set; } | Indicates whether this control is visible. |
-| [LinkedCell](linkedcell) { get; set; } | Gets and sets the linked cell. |
-| [ListFillRange](listfillrange) { get; set; } | Gets and sets the list fill range. |
-| [MouseIcon](mouseicon) { get; set; } | Gets and sets a custom icon to display as the mouse pointer for the control. |
-| [MousePointer](mousepointer) { get; set; } | Gets and sets the type of icon displayed as the mouse pointer for the control. |
-| virtual [Shadow](shadow) { get; set; } | Indicates whether to show a shadow. |
-| abstract [Type](type) { get; } | Gets the type of the ActiveX control. |
-| virtual [Width](width) { get; set; } | Gets and sets the width of the control in unit of points. |
-| [Workbook](workbook) { get; } | Gets the [`Workbook`](./workbook) object. |
+| [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Gets and sets the ole color of the background. |
+| virtual [Data](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/data) { get; } | Gets and sets the binary data of the control. |
+| virtual [ForeOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/foreolecolor) { get; set; } | Gets and sets the ole color of the foreground. |
+| virtual [Height](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/height) { get; set; } | Gets and sets the height of the control in unit of points. |
+| virtual [IsVisible](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/isvisible) { get; set; } | Indicates whether this control is visible. |
+| [LinkedCell](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/linkedcell) { get; set; } | Gets and sets the linked cell. |
+| [ListFillRange](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/listfillrange) { get; set; } | Gets and sets the list fill range. |
+| [MouseIcon](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mouseicon) { get; set; } | Gets and sets a custom icon to display as the mouse pointer for the control. |
+| [MousePointer](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mousepointer) { get; set; } | Gets and sets the type of icon displayed as the mouse pointer for the control. |
+| virtual [Shadow](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/shadow) { get; set; } | Indicates whether to show a shadow. |
+| abstract [Type](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/type) { get; } | Gets the type of the ActiveX control. |
+| virtual [Width](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/width) { get; set; } | Gets and sets the width of the control in unit of points. |
+| [Workbook](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook) { get; } | Gets the [`Workbook`](./workbook) object. |
 
 ### See Also
 

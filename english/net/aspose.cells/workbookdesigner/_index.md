@@ -25,32 +25,32 @@ public class WorkbookDesigner
 
 | Name | Description |
 | --- | --- |
-| [CalculateFormula](calculateformula) { get; set; } | Indicates whether formulas should be calculated. |
-| [CallBack](callback) { get; set; } | Gets and sets callback interface of processing smartmarker. |
-| [LineByLine](linebyline) { get; set; } | Indicates whether processing the smart marker line by line. |
-| [RepeatFormulasWithSubtotal](repeatformulaswithsubtotal) { get; set; } | Indicates whether repeating formulas with subtotal row. |
-| [UpdateEmptyStringAsNull](updateemptystringasnull) { get; set; } | If TRUE, Null will be inserted if the value is ""; |
-| [UpdateReference](updatereference) { get; set; } | Indicates if references in other worksheets will be updated. |
-| [Workbook](workbook) { get; set; } | Gets and sets the [`Workbook`](./workbook) object. |
+| [CalculateFormula](../../aspose.cells/workbookdesigner/calculateformula) { get; set; } | Indicates whether formulas should be calculated. |
+| [CallBack](../../aspose.cells/workbookdesigner/callback) { get; set; } | Gets and sets callback interface of processing smartmarker. |
+| [LineByLine](../../aspose.cells/workbookdesigner/linebyline) { get; set; } | Indicates whether processing the smart marker line by line. |
+| [RepeatFormulasWithSubtotal](../../aspose.cells/workbookdesigner/repeatformulaswithsubtotal) { get; set; } | Indicates whether repeating formulas with subtotal row. |
+| [UpdateEmptyStringAsNull](../../aspose.cells/workbookdesigner/updateemptystringasnull) { get; set; } | If TRUE, Null will be inserted if the value is ""; |
+| [UpdateReference](../../aspose.cells/workbookdesigner/updatereference) { get; set; } | Indicates if references in other worksheets will be updated. |
+| [Workbook](../../aspose.cells/workbookdesigner/workbook) { get; set; } | Gets and sets the [`Workbook`](./workbook) object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ClearDataSource](cleardatasource)() | Clears all data sources. |
-| [GetSmartMarkers](getsmartmarkers)() | Returns a collection of smart markers in a spreadsheet. |
-| [Process](process)() | Processes the smart markers and populates the data source values. |
-| [Process](process)(bool) | Processes the smart markers and populates the data source values. |
-| [Process](process)(int, bool) | Processes the smart markers and populates the data source values. |
-| [SetDataSource](setdatasource)(DataSet) | Sets data source of a DataSet object. |
-| [SetDataSource](setdatasource)(DataTable) | Sets data source of a DataTable object. |
-| [SetDataSource](setdatasource)(DataView) | Sets data source of a DataView object. |
-| [SetDataSource](setdatasource)(OleDbConnection) | Sets data source of a OleDbConnection object. |
-| [SetDataSource](setdatasource)(SqlConnection) | Sets data source of a SqlConnection object. |
-| [SetDataSource](setdatasource)(string, DataView) | Sets data source of a DataView object and binds it to a data source name. |
-| [SetDataSource](setdatasource)(string, ICellsDataTable) | Sets data source of a [`ICellsDataTable`](../icellsdatatable) object. |
-| [SetDataSource](setdatasource)(string, object) | Sets data binding to a variable. |
-| [SetDataSource](setdatasource)(string, IDataReader, int) | Sets data source of a IDataReader object. |
+| [ClearDataSource](../../aspose.cells/workbookdesigner/cleardatasource)() | Clears all data sources. |
+| [GetSmartMarkers](../../aspose.cells/workbookdesigner/getsmartmarkers)() | Returns a collection of smart markers in a spreadsheet. |
+| [Process](../../aspose.cells/workbookdesigner/process)() | Processes the smart markers and populates the data source values. |
+| [Process](../../aspose.cells/workbookdesigner/process)(bool) | Processes the smart markers and populates the data source values. |
+| [Process](../../aspose.cells/workbookdesigner/process)(int, bool) | Processes the smart markers and populates the data source values. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource)(DataSet) | Sets data source of a DataSet object. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource)(DataTable) | Sets data source of a DataTable object. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource)(DataView) | Sets data source of a DataView object. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource)(OleDbConnection) | Sets data source of a OleDbConnection object. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource)(SqlConnection) | Sets data source of a SqlConnection object. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource)(string, DataView) | Sets data source of a DataView object and binds it to a data source name. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource)(string, ICellsDataTable) | Sets data source of a [`ICellsDataTable`](../icellsdatatable) object. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource)(string, object) | Sets data binding to a variable. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource)(string, IDataReader, int) | Sets data source of a IDataReader object. |
 
 ### Examples
 

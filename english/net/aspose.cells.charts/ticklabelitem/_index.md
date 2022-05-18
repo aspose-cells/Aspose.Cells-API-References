@@ -18,10 +18,10 @@ public class TickLabelItem
 
 | Name | Description |
 | --- | --- |
-| [Height](height) { get; } | Height of Ticklabel item in ratio of chart height. |
-| [Width](width) { get; } | Width of Ticklabel item in ratio of chart width. |
-| [X](x) { get; } | X coordinates of Ticklabel item in ratio of chart width. |
-| [Y](y) { get; } | Y coordinates of Ticklabel item in ratio of chart height. |
+| [Height](../../aspose.cells.charts/ticklabelitem/height) { get; } | Height of Ticklabel item in ratio of chart height. |
+| [Width](../../aspose.cells.charts/ticklabelitem/width) { get; } | Width of Ticklabel item in ratio of chart width. |
+| [X](../../aspose.cells.charts/ticklabelitem/x) { get; } | X coordinates of Ticklabel item in ratio of chart width. |
+| [Y](../../aspose.cells.charts/ticklabelitem/y) { get; } | Y coordinates of Ticklabel item in ratio of chart height. |
 
 ### See Also
 

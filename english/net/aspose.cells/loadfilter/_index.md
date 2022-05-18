@@ -25,14 +25,14 @@ public class LoadFilter
 
 | Name | Description |
 | --- | --- |
-| [LoadDataFilterOptions](loaddatafilteroptions) { get; set; } | The filter options to denote what data should be loaded. |
-| virtual [SheetsInLoadingOrder](sheetsinloadingorder) { get; } | Specifies the sheets(indices) and order to be loaded. Default is null, that denotes to load all sheets in the default order in template file. If not null and some sheet's index is not in the returned array, then the sheet will not be loaded. |
+| [LoadDataFilterOptions](../../aspose.cells/loadfilter/loaddatafilteroptions) { get; set; } | The filter options to denote what data should be loaded. |
+| virtual [SheetsInLoadingOrder](../../aspose.cells/loadfilter/sheetsinloadingorder) { get; } | Specifies the sheets(indices) and order to be loaded. Default is null, that denotes to load all sheets in the default order in template file. If not null and some sheet's index is not in the returned array, then the sheet will not be loaded. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| virtual [StartSheet](startsheet)(Worksheet) | Prepares filter options before loading given worksheet. User's implementation of LoadFilter can change the LoadDataFilterOptions here to denote how to load data for this worksheet. |
+| virtual [StartSheet](../../aspose.cells/loadfilter/startsheet)(Worksheet) | Prepares filter options before loading given worksheet. User's implementation of LoadFilter can change the LoadDataFilterOptions here to denote how to load data for this worksheet. |
 
 ### Remarks
 

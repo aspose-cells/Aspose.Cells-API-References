@@ -18,7 +18,7 @@ public class CellsException : ApplicationException
 
 | Name | Description |
 | --- | --- |
-| [Code](code) { get; } | Represents custom exception code. |
+| [Code](../../aspose.cells/cellsexception/code) { get; } | Represents custom exception code. |
 
 ### See Also
 

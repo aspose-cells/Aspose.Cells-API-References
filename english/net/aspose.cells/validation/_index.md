@@ -18,41 +18,41 @@ public class Validation
 
 | Name | Description |
 | --- | --- |
-| [AlertStyle](alertstyle) { get; set; } | Represents the validation alert style. |
-| [Areas](areas) { get; } | Gets all [`CellArea`](../cellarea) which contain the data validation settings. |
-| [ErrorMessage](errormessage) { get; set; } | Represents the data validation error message. |
-| [ErrorTitle](errortitle) { get; set; } | Represents the title of the data-validation error dialog box. |
-| [Formula1](formula1) { get; set; } | Represents the value or expression associated with the data validation. |
-| [Formula2](formula2) { get; set; } | Represents the value or expression associated with the data validation. |
-| [IgnoreBlank](ignoreblank) { get; set; } | Indicates whether blank values are permitted by the range data validation. |
-| [InCellDropDown](incelldropdown) { get; set; } | Indicates whether data validation displays a drop-down list that contains acceptable values. |
-| [InputMessage](inputmessage) { get; set; } | Represents the data validation input message. |
-| [InputTitle](inputtitle) { get; set; } | Represents the title of the data-validation input dialog box. |
-| [Operator](operator) { get; set; } | Represents the operator for the data validation. |
-| [ShowError](showerror) { get; set; } | Indicates whether the data validation error message will be displayed whenever the user enters invalid data. |
-| [ShowInput](showinput) { get; set; } | Indicates whether the data validation input message will be displayed whenever the user selects a cell in the data validation range. |
-| [Type](type) { get; set; } | Represents the data validation type. |
-| [Value1](value1) { get; set; } | Represents the first value associated with the data validation. |
-| [Value2](value2) { get; set; } | Represents the second value associated with the data validation. |
+| [AlertStyle](../../aspose.cells/validation/alertstyle) { get; set; } | Represents the validation alert style. |
+| [Areas](../../aspose.cells/validation/areas) { get; } | Gets all [`CellArea`](../cellarea) which contain the data validation settings. |
+| [ErrorMessage](../../aspose.cells/validation/errormessage) { get; set; } | Represents the data validation error message. |
+| [ErrorTitle](../../aspose.cells/validation/errortitle) { get; set; } | Represents the title of the data-validation error dialog box. |
+| [Formula1](../../aspose.cells/validation/formula1) { get; set; } | Represents the value or expression associated with the data validation. |
+| [Formula2](../../aspose.cells/validation/formula2) { get; set; } | Represents the value or expression associated with the data validation. |
+| [IgnoreBlank](../../aspose.cells/validation/ignoreblank) { get; set; } | Indicates whether blank values are permitted by the range data validation. |
+| [InCellDropDown](../../aspose.cells/validation/incelldropdown) { get; set; } | Indicates whether data validation displays a drop-down list that contains acceptable values. |
+| [InputMessage](../../aspose.cells/validation/inputmessage) { get; set; } | Represents the data validation input message. |
+| [InputTitle](../../aspose.cells/validation/inputtitle) { get; set; } | Represents the title of the data-validation input dialog box. |
+| [Operator](../../aspose.cells/validation/operator) { get; set; } | Represents the operator for the data validation. |
+| [ShowError](../../aspose.cells/validation/showerror) { get; set; } | Indicates whether the data validation error message will be displayed whenever the user enters invalid data. |
+| [ShowInput](../../aspose.cells/validation/showinput) { get; set; } | Indicates whether the data validation input message will be displayed whenever the user selects a cell in the data validation range. |
+| [Type](../../aspose.cells/validation/type) { get; set; } | Represents the data validation type. |
+| [Value1](../../aspose.cells/validation/value1) { get; set; } | Represents the first value associated with the data validation. |
+| [Value2](../../aspose.cells/validation/value2) { get; set; } | Represents the second value associated with the data validation. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddArea](addarea)(CellArea) | Applies the validation to the area. |
-| [AddArea](addarea)(CellArea, bool, bool) | Applies the validation to the area. |
-| [AddAreas](addareas)(CellArea[], bool, bool) | Applies the validation to given areas. |
-| [Copy](copy)(Validation, CopyOptions) | Copy validation. |
-| [GetFormula1](getformula1)(bool, bool) | Gets the value or expression associated with this validation. |
-| [GetFormula1](getformula1)(bool, bool, int, int) | Gets the value or expression associated with this validation for specific cell. |
-| [GetFormula2](getformula2)(bool, bool) | Gets the value or expression associated with this validation. |
-| [GetFormula2](getformula2)(bool, bool, int, int) | Gets the value or expression associated with this validation for specific cell. |
-| [GetListValue](getlistvalue)(int, int) | Get the value for list of the validation for the specified cell. |
-| [RemoveACell](removeacell)(int, int) | Remove the validation settings in the cell. |
-| [RemoveArea](removearea)(CellArea) | Remove the validation settings in the range. |
-| [RemoveAreas](removeareas)(CellArea[]) | Removes this validation from given areas. |
-| [SetFormula1](setformula1)(string, bool, bool) | Sets the value or expression associated with this validation. |
-| [SetFormula2](setformula2)(string, bool, bool) | Sets the value or expression associated with this validation. |
+| [AddArea](../../aspose.cells/validation/addarea)(CellArea) | Applies the validation to the area. |
+| [AddArea](../../aspose.cells/validation/addarea)(CellArea, bool, bool) | Applies the validation to the area. |
+| [AddAreas](../../aspose.cells/validation/addareas)(CellArea[], bool, bool) | Applies the validation to given areas. |
+| [Copy](../../aspose.cells/validation/copy)(Validation, CopyOptions) | Copy validation. |
+| [GetFormula1](../../aspose.cells/validation/getformula1)(bool, bool) | Gets the value or expression associated with this validation. |
+| [GetFormula1](../../aspose.cells/validation/getformula1)(bool, bool, int, int) | Gets the value or expression associated with this validation for specific cell. |
+| [GetFormula2](../../aspose.cells/validation/getformula2)(bool, bool) | Gets the value or expression associated with this validation. |
+| [GetFormula2](../../aspose.cells/validation/getformula2)(bool, bool, int, int) | Gets the value or expression associated with this validation for specific cell. |
+| [GetListValue](../../aspose.cells/validation/getlistvalue)(int, int) | Get the value for list of the validation for the specified cell. |
+| [RemoveACell](../../aspose.cells/validation/removeacell)(int, int) | Remove the validation settings in the cell. |
+| [RemoveArea](../../aspose.cells/validation/removearea)(CellArea) | Remove the validation settings in the range. |
+| [RemoveAreas](../../aspose.cells/validation/removeareas)(CellArea[]) | Removes this validation from given areas. |
+| [SetFormula1](../../aspose.cells/validation/setformula1)(string, bool, bool) | Sets the value or expression associated with this validation. |
+| [SetFormula2](../../aspose.cells/validation/setformula2)(string, bool, bool) | Sets the value or expression associated with this validation. |
 
 ### Examples
 

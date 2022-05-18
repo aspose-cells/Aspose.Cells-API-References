@@ -18,8 +18,8 @@ public class DataBarBorder
 
 | Name | Description |
 | --- | --- |
-| [Color](color) { get; set; } | Gets or sets the border's color of data bars specified by a conditional formatting rule. |
-| [Type](type) { get; set; } | Gets or sets the border's type of data bars specified by a conditional formatting rule. |
+| [Color](../../aspose.cells/databarborder/color) { get; set; } | Gets or sets the border's color of data bars specified by a conditional formatting rule. |
+| [Type](../../aspose.cells/databarborder/type) { get; set; } | Gets or sets the border's type of data bars specified by a conditional formatting rule. |
 
 ### See Also
 

@@ -18,8 +18,8 @@ public class TableStyle
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; } | Gets the name of table style. |
-| [TableStyleElements](tablestyleelements) { get; } | Gets all elements of the table style. |
+| [Name](../../aspose.cells.tables/tablestyle/name) { get; } | Gets the name of table style. |
+| [TableStyleElements](../../aspose.cells.tables/tablestyle/tablestyleelements) { get; } | Gets all elements of the table style. |
 
 ### Examples
 

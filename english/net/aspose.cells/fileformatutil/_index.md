@@ -18,18 +18,18 @@ public class FileFormatUtil
 
 | Name | Description |
 | --- | --- |
-| static [DetectFileFormat](detectfileformat)(Stream) | Detects and returns the information about a format of an excel stored in a stream. |
-| static [DetectFileFormat](detectfileformat)(string) | Detects and returns the information about a format of an excel stored in a file. |
-| static [DetectFileFormat](detectfileformat)(Stream, string) | Detects and returns the information about a format of an excel stored in a stream. |
-| static [DetectFileFormat](detectfileformat)(string, string) | Detects and returns the information about a format of an excel stored in a file. |
-| static [ExtensionToSaveFormat](extensiontosaveformat)(string) | Converts a file name extension into a SaveFormat value. |
-| static [FileFormatToSaveFormat](fileformattosaveformat)(FileFormatType) | Converting file format to save format. |
-| static [IsTemplateFormat](istemplateformat)(string) | Returns true if the extension is .xlt, .xltX, .xltm,.ots. |
-| static [LoadFormatToExtension](loadformattoextension)(LoadFormat) | Converts a load format enumerated value into a file extension. |
-| static [LoadFormatToSaveFormat](loadformattosaveformat)(LoadFormat) | Converts a LoadFormat value to a SaveFormat value if possible. |
-| static [SaveFormatToExtension](saveformattoextension)(SaveFormat) | Converts a save format enumerated value into a file extension. |
-| static [SaveFormatToLoadFormat](saveformattoloadformat)(SaveFormat) | Converts a SaveFormat value to a LoadFormat value if possible. |
-| static [VerifyPassword](verifypassword)(Stream, string) | Detects and returns the information about a format of an excel stored in a stream. |
+| static [DetectFileFormat](../../aspose.cells/fileformatutil/detectfileformat)(Stream) | Detects and returns the information about a format of an excel stored in a stream. |
+| static [DetectFileFormat](../../aspose.cells/fileformatutil/detectfileformat)(string) | Detects and returns the information about a format of an excel stored in a file. |
+| static [DetectFileFormat](../../aspose.cells/fileformatutil/detectfileformat)(Stream, string) | Detects and returns the information about a format of an excel stored in a stream. |
+| static [DetectFileFormat](../../aspose.cells/fileformatutil/detectfileformat)(string, string) | Detects and returns the information about a format of an excel stored in a file. |
+| static [ExtensionToSaveFormat](../../aspose.cells/fileformatutil/extensiontosaveformat)(string) | Converts a file name extension into a SaveFormat value. |
+| static [FileFormatToSaveFormat](../../aspose.cells/fileformatutil/fileformattosaveformat)(FileFormatType) | Converting file format to save format. |
+| static [IsTemplateFormat](../../aspose.cells/fileformatutil/istemplateformat)(string) | Returns true if the extension is .xlt, .xltX, .xltm,.ots. |
+| static [LoadFormatToExtension](../../aspose.cells/fileformatutil/loadformattoextension)(LoadFormat) | Converts a load format enumerated value into a file extension. |
+| static [LoadFormatToSaveFormat](../../aspose.cells/fileformatutil/loadformattosaveformat)(LoadFormat) | Converts a LoadFormat value to a SaveFormat value if possible. |
+| static [SaveFormatToExtension](../../aspose.cells/fileformatutil/saveformattoextension)(SaveFormat) | Converts a save format enumerated value into a file extension. |
+| static [SaveFormatToLoadFormat](../../aspose.cells/fileformatutil/saveformattoloadformat)(SaveFormat) | Converts a SaveFormat value to a LoadFormat value if possible. |
+| static [VerifyPassword](../../aspose.cells/fileformatutil/verifypassword)(Stream, string) | Detects and returns the information about a format of an excel stored in a stream. |
 
 ### See Also
 

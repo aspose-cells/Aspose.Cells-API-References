@@ -18,20 +18,20 @@ public abstract class DocumentPropertyCollection : IEnumerable
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets number of items in the collection. |
-| [Item](item) { get; } | Returns a [`DocumentProperty`](../documentproperty) object by index. |
-| virtual [Item](item) { get; } | Returns a [`DocumentProperty`](../documentproperty) object by the name of the property. |
+| [Count](../../aspose.cells.properties/documentpropertycollection/count) { get; } | Gets number of items in the collection. |
+| [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Returns a [`DocumentProperty`](../documentproperty) object by index. |
+| virtual [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Returns a [`DocumentProperty`](../documentproperty) object by the name of the property. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Clear](clear)() | Removes all properties from the collection. |
-| [Contains](contains)(string) | Returns true if a property with the specified name exists in the collection. |
-| [GetEnumerator](getenumerator)() |  |
-| [IndexOf](indexof)(string) | Gets the index of a property by name. |
-| [Remove](remove)(string) | Removes a property with the specified name from the collection. |
-| [RemoveAt](removeat)(int) | Removes a property at the specified index. |
+| [Clear](../../aspose.cells.properties/documentpropertycollection/clear)() | Removes all properties from the collection. |
+| [Contains](../../aspose.cells.properties/documentpropertycollection/contains)(string) | Returns true if a property with the specified name exists in the collection. |
+| [GetEnumerator](../../aspose.cells.properties/documentpropertycollection/getenumerator)() |  |
+| [IndexOf](../../aspose.cells.properties/documentpropertycollection/indexof)(string) | Gets the index of a property by name. |
+| [Remove](../../aspose.cells.properties/documentpropertycollection/remove)(string) | Removes a property with the specified name from the collection. |
+| [RemoveAt](../../aspose.cells.properties/documentpropertycollection/removeat)(int) | Removes a property at the specified index. |
 
 ### Examples
 

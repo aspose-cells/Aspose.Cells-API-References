@@ -18,12 +18,12 @@ public class Scenario
 
 | Name | Description |
 | --- | --- |
-| [Comment](comment) { get; set; } | Gets and sets the comment of scenario. |
-| [InputCells](inputcells) { get; } | Gets the input cells of scenario. |
-| [IsHidden](ishidden) { get; set; } | Indicates whether scenario is hidden. |
-| [IsLocked](islocked) { get; set; } | Indicates whether scenario is locked for editing when the sheet is protected. |
-| [Name](name) { get; set; } | Gets and sets the name of scenario. |
-| [User](user) { get; } | Gets name of user who last changed the scenario. |
+| [Comment](../../aspose.cells/scenario/comment) { get; set; } | Gets and sets the comment of scenario. |
+| [InputCells](../../aspose.cells/scenario/inputcells) { get; } | Gets the input cells of scenario. |
+| [IsHidden](../../aspose.cells/scenario/ishidden) { get; set; } | Indicates whether scenario is hidden. |
+| [IsLocked](../../aspose.cells/scenario/islocked) { get; set; } | Indicates whether scenario is locked for editing when the sheet is protected. |
+| [Name](../../aspose.cells/scenario/name) { get; set; } | Gets and sets the name of scenario. |
+| [User](../../aspose.cells/scenario/user) { get; } | Gets name of user who last changed the scenario. |
 
 ### See Also
 

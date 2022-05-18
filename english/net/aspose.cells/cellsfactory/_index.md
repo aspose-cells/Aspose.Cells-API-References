@@ -24,7 +24,7 @@ public class CellsFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateStyle](createstyle)() | Creates a new style. |
+| [CreateStyle](../../aspose.cells/cellsfactory/createstyle)() | Creates a new style. |
 
 ### See Also
 

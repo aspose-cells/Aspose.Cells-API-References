@@ -18,8 +18,8 @@ public abstract class Fill
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | / |
-| override [GetHashCode](gethashcode)() | Gets the hash code. |
+| override [Equals](../../aspose.cells.drawing/fill/equals)(object) | / |
+| override [GetHashCode](../../aspose.cells.drawing/fill/gethashcode)() | Gets the hash code. |
 
 ### See Also
 

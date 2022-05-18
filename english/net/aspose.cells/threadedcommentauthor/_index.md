@@ -18,9 +18,9 @@ public class ThreadedCommentAuthor
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; set; } | Gets and sets the name. |
-| [ProviderId](providerid) { get; set; } | Gets the id of the provider. |
-| [UserId](userid) { get; set; } | Gets and sets the id of the user. |
+| [Name](../../aspose.cells/threadedcommentauthor/name) { get; set; } | Gets and sets the name. |
+| [ProviderId](../../aspose.cells/threadedcommentauthor/providerid) { get; set; } | Gets the id of the provider. |
+| [UserId](../../aspose.cells/threadedcommentauthor/userid) { get; set; } | Gets and sets the id of the user. |
 
 ### See Also
 

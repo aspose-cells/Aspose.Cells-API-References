@@ -18,30 +18,30 @@ public class DataSorter
 
 | Name | Description |
 | --- | --- |
-| [CaseSensitive](casesensitive) { get; set; } | Gets and sets whether case sensitive when comparing string. |
-| [HasHeaders](hasheaders) { get; set; } | Represents whether the range has headers. |
-| [Key1](key1) { get; set; } | Represents first sorted column index(absolute position, column A is 0, B is 1, ...). |
-| [Key2](key2) { get; set; } | Represents second sorted column index(absolute position, column A is 0, B is 1, ...). |
-| [Key3](key3) { get; set; } | Represents third sorted column index(absolute position, column A is 0, B is 1, ...). |
-| [Keys](keys) { get; } | Gets the key list of data sorter. |
-| [Order1](order1) { get; set; } | Represents sort order of the first key. |
-| [Order2](order2) { get; set; } | Represents sort order of the second key. |
-| [Order3](order3) { get; set; } | Represents sort order of the third key. |
-| [SortAsNumber](sortasnumber) { get; set; } | Indicates whether sorting anything that looks like a number. |
-| [SortLeftToRight](sortlefttoright) { get; set; } | True means that sorting orientation is from left to right. False means that sorting orientation is from top to bottom. The default value is false. |
+| [CaseSensitive](../../aspose.cells/datasorter/casesensitive) { get; set; } | Gets and sets whether case sensitive when comparing string. |
+| [HasHeaders](../../aspose.cells/datasorter/hasheaders) { get; set; } | Represents whether the range has headers. |
+| [Key1](../../aspose.cells/datasorter/key1) { get; set; } | Represents first sorted column index(absolute position, column A is 0, B is 1, ...). |
+| [Key2](../../aspose.cells/datasorter/key2) { get; set; } | Represents second sorted column index(absolute position, column A is 0, B is 1, ...). |
+| [Key3](../../aspose.cells/datasorter/key3) { get; set; } | Represents third sorted column index(absolute position, column A is 0, B is 1, ...). |
+| [Keys](../../aspose.cells/datasorter/keys) { get; } | Gets the key list of data sorter. |
+| [Order1](../../aspose.cells/datasorter/order1) { get; set; } | Represents sort order of the first key. |
+| [Order2](../../aspose.cells/datasorter/order2) { get; set; } | Represents sort order of the second key. |
+| [Order3](../../aspose.cells/datasorter/order3) { get; set; } | Represents sort order of the third key. |
+| [SortAsNumber](../../aspose.cells/datasorter/sortasnumber) { get; set; } | Indicates whether sorting anything that looks like a number. |
+| [SortLeftToRight](../../aspose.cells/datasorter/sortlefttoright) { get; set; } | True means that sorting orientation is from left to right. False means that sorting orientation is from top to bottom. The default value is false. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddKey](addkey)(int, SortOrder) | Adds sorted column index and sort order. |
-| [AddKey](addkey)(int, SortOrder, string) | Adds sorted column index and sort order with custom sort list. |
-| [AddKey](addkey)(int, SortOrder, string[]) | Adds sorted column index and sort order with custom sort list. |
-| [AddKey](addkey)(int, SortOnType, SortOrder, object) | Adds sorted column index and sort order with custom sort list. |
-| [Clear](clear)() | Clear all settings. |
-| [Sort](sort)() | Sort the data in the range. |
-| [Sort](sort)(Cells, CellArea) | Sort the data of the area. |
-| [Sort](sort)(Cells, int, int, int, int) | Sorts the data of the area. |
+| [AddKey](../../aspose.cells/datasorter/addkey)(int, SortOrder) | Adds sorted column index and sort order. |
+| [AddKey](../../aspose.cells/datasorter/addkey)(int, SortOrder, string) | Adds sorted column index and sort order with custom sort list. |
+| [AddKey](../../aspose.cells/datasorter/addkey)(int, SortOrder, string[]) | Adds sorted column index and sort order with custom sort list. |
+| [AddKey](../../aspose.cells/datasorter/addkey)(int, SortOnType, SortOrder, object) | Adds sorted column index and sort order with custom sort list. |
+| [Clear](../../aspose.cells/datasorter/clear)() | Clear all settings. |
+| [Sort](../../aspose.cells/datasorter/sort)() | Sort the data in the range. |
+| [Sort](../../aspose.cells/datasorter/sort)(Cells, CellArea) | Sort the data of the area. |
+| [Sort](../../aspose.cells/datasorter/sort)(Cells, int, int, int, int) | Sorts the data of the area. |
 
 ### Examples
 

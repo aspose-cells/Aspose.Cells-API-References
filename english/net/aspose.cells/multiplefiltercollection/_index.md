@@ -24,14 +24,14 @@ public class MultipleFilterCollection : CollectionBase
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | DateTimeGroupItem or a simple object. |
-| [MatchBlank](matchblank) { get; set; } | Indicates whether to filter by blank. |
+| [Item](../../aspose.cells/multiplefiltercollection/item) { get; } | DateTimeGroupItem or a simple object. |
+| [MatchBlank](../../aspose.cells/multiplefiltercollection/matchblank) { get; set; } | Indicates whether to filter by blank. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(string) | Adds string filter. |
+| [Add](../../aspose.cells/multiplefiltercollection/add)(string) | Adds string filter. |
 
 ### See Also
 

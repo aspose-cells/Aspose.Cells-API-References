@@ -24,8 +24,8 @@ public class SmartTagOptions
 
 | Name | Description |
 | --- | --- |
-| [EmbedSmartTags](embedsmarttags) { get; set; } | Indicates whether saving smart tags with the workbook. |
-| [ShowType](showtype) { get; set; } | Represents the show type of smart tag. |
+| [EmbedSmartTags](../../aspose.cells.markup/smarttagoptions/embedsmarttags) { get; set; } | Indicates whether saving smart tags with the workbook. |
+| [ShowType](../../aspose.cells.markup/smarttagoptions/showtype) { get; set; } | Represents the show type of smart tag. |
 
 ### See Also
 

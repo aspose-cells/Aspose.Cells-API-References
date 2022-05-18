@@ -24,13 +24,13 @@ public class CopyOptions
 
 | Name | Description |
 | --- | --- |
-| [ColumnCharacterWidth](columncharacterwidth) { get; set; } | Indicates whether copying column width in unit of characters. |
-| [CopyInvalidFormulasAsValues](copyinvalidformulasasvalues) { get; set; } | If the formula is not valid for the dest destination, only copy values. |
-| [CopyNames](copynames) { get; set; } | Indicates whether copying the names. |
-| [ExtendToAdjacentRange](extendtoadjacentrange) { get; set; } | Indicates whether extend ranges when copying the range to adjacent range. |
-| [KeepMacros](keepmacros) { get; set; } | Indicates whether keeping macros; |
-| [ReferToDestinationSheet](refertodestinationsheet) { get; set; } | When copying the range in the same file and the chart refers to the source sheet, False means the copied chart's data source will not be changed. True means the copied chart's data source refers to the destination sheet. |
-| [ReferToSheetWithSameName](refertosheetwithsamename) { get; set; } | When copying a worksheet to another workbook and the worksheet contains the formulas which refer to other worksheets in MS Excel, the copied formulas should refer to source workbook. But sometimes we have copied other worksheets and we hope the copied formulas refer to other worksheets with the name in the same workbook, please set this property as true. |
+| [ColumnCharacterWidth](../../aspose.cells/copyoptions/columncharacterwidth) { get; set; } | Indicates whether copying column width in unit of characters. |
+| [CopyInvalidFormulasAsValues](../../aspose.cells/copyoptions/copyinvalidformulasasvalues) { get; set; } | If the formula is not valid for the dest destination, only copy values. |
+| [CopyNames](../../aspose.cells/copyoptions/copynames) { get; set; } | Indicates whether copying the names. |
+| [ExtendToAdjacentRange](../../aspose.cells/copyoptions/extendtoadjacentrange) { get; set; } | Indicates whether extend ranges when copying the range to adjacent range. |
+| [KeepMacros](../../aspose.cells/copyoptions/keepmacros) { get; set; } | Indicates whether keeping macros; |
+| [ReferToDestinationSheet](../../aspose.cells/copyoptions/refertodestinationsheet) { get; set; } | When copying the range in the same file and the chart refers to the source sheet, False means the copied chart's data source will not be changed. True means the copied chart's data source refers to the destination sheet. |
+| [ReferToSheetWithSameName](../../aspose.cells/copyoptions/refertosheetwithsamename) { get; set; } | When copying a worksheet to another workbook and the worksheet contains the formulas which refer to other worksheets in MS Excel, the copied formulas should refer to source workbook. But sometimes we have copied other worksheets and we hope the copied formulas refer to other worksheets with the name in the same workbook, please set this property as true. |
 
 ### See Also
 

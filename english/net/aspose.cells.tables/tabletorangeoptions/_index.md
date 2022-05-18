@@ -24,7 +24,7 @@ public class TableToRangeOptions
 
 | Name | Description |
 | --- | --- |
-| [LastRow](lastrow) { get; set; } | Gets and sets the last row index of the table. |
+| [LastRow](../../aspose.cells.tables/tabletorangeoptions/lastrow) { get; set; } | Gets and sets the last row index of the table. |
 
 ### See Also
 

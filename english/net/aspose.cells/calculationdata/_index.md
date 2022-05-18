@@ -18,21 +18,21 @@ public class CalculationData
 
 | Name | Description |
 | --- | --- |
-| [CalculatedValue](calculatedvalue) { get; set; } | Gets or sets the calculated value for this function. |
-| [Cell](cell) { get; } | Gets the Cell object where the function is in. |
-| [CellColumn](cellcolumn) { get; } | Gets the column index of the cell where the function is in. |
-| [CellRow](cellrow) { get; } | Gets the row index of the cell where the function is in. |
-| [FunctionName](functionname) { get; } | Gets the function name to be calculated. |
-| [ParamCount](paramcount) { get; } | Gets the count of parameters |
-| [Workbook](workbook) { get; } | Gets the Workbook object where the function is in. |
-| [Worksheet](worksheet) { get; } | Gets the Worksheet object where the function is in. |
+| [CalculatedValue](../../aspose.cells/calculationdata/calculatedvalue) { get; set; } | Gets or sets the calculated value for this function. |
+| [Cell](../../aspose.cells/calculationdata/cell) { get; } | Gets the Cell object where the function is in. |
+| [CellColumn](../../aspose.cells/calculationdata/cellcolumn) { get; } | Gets the column index of the cell where the function is in. |
+| [CellRow](../../aspose.cells/calculationdata/cellrow) { get; } | Gets the row index of the cell where the function is in. |
+| [FunctionName](../../aspose.cells/calculationdata/functionname) { get; } | Gets the function name to be calculated. |
+| [ParamCount](../../aspose.cells/calculationdata/paramcount) { get; } | Gets the count of parameters |
+| [Workbook](../../aspose.cells/calculationdata/workbook) { get; } | Gets the Workbook object where the function is in. |
+| [Worksheet](../../aspose.cells/calculationdata/worksheet) { get; } | Gets the Worksheet object where the function is in. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetParamText](getparamtext)(int) | Gets the literal text of the parameter at given index. |
-| [GetParamValue](getparamvalue)(int) | Gets the represented value object of the parameter at given index. |
+| [GetParamText](../../aspose.cells/calculationdata/getparamtext)(int) | Gets the literal text of the parameter at given index. |
+| [GetParamValue](../../aspose.cells/calculationdata/getparamvalue)(int) | Gets the represented value object of the parameter at given index. |
 
 ### Remarks
 

@@ -18,24 +18,24 @@ public class ReferredArea
 
 | Name | Description |
 | --- | --- |
-| [EndColumn](endcolumn) { get; } | The end column of the area. |
-| [EndRow](endrow) { get; } | The end row of the area. |
-| [ExternalFileName](externalfilename) { get; } | Get the external file name if this is an external reference. |
-| [IsArea](isarea) { get; } | Indicates whether this is an area. |
-| [IsExternalLink](isexternallink) { get; } | Indicates whether this is an external link. |
-| [SheetName](sheetname) { get; } | Indicates which sheet this reference is in. |
-| [StartColumn](startcolumn) { get; } | The start column of the area. |
-| [StartRow](startrow) { get; } | The start row of the area. |
+| [EndColumn](../../aspose.cells/referredarea/endcolumn) { get; } | The end column of the area. |
+| [EndRow](../../aspose.cells/referredarea/endrow) { get; } | The end row of the area. |
+| [ExternalFileName](../../aspose.cells/referredarea/externalfilename) { get; } | Get the external file name if this is an external reference. |
+| [IsArea](../../aspose.cells/referredarea/isarea) { get; } | Indicates whether this is an area. |
+| [IsExternalLink](../../aspose.cells/referredarea/isexternallink) { get; } | Indicates whether this is an external link. |
+| [SheetName](../../aspose.cells/referredarea/sheetname) { get; } | Indicates which sheet this reference is in. |
+| [StartColumn](../../aspose.cells/referredarea/startcolumn) { get; } | The start column of the area. |
+| [StartRow](../../aspose.cells/referredarea/startrow) { get; } | The start row of the area. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetValue](getvalue)(int, int) | Gets cell value with given offset from the top-left of this area. |
-| [GetValue](getvalue)(int, int, bool) | Gets cell value with given offset from the top-left of this area. |
-| [GetValues](getvalues)() | Gets cell values in this area. |
-| [GetValues](getvalues)(bool) | Gets cell values in this area. |
-| override [ToString](tostring)() | Returns the simple string representation of this area. |
+| [GetValue](../../aspose.cells/referredarea/getvalue)(int, int) | Gets cell value with given offset from the top-left of this area. |
+| [GetValue](../../aspose.cells/referredarea/getvalue)(int, int, bool) | Gets cell value with given offset from the top-left of this area. |
+| [GetValues](../../aspose.cells/referredarea/getvalues)() | Gets cell values in this area. |
+| [GetValues](../../aspose.cells/referredarea/getvalues)(bool) | Gets cell values in this area. |
+| override [ToString](../../aspose.cells/referredarea/tostring)() | Returns the simple string representation of this area. |
 
 ### See Also
 

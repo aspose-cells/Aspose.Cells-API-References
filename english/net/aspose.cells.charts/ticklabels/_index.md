@@ -18,19 +18,19 @@ public class TickLabels
 
 | Name | Description |
 | --- | --- |
-| [AutoScaleFont](autoscalefont) { get; set; } | True if the text in the object changes font size when the object size changes. The default value is True. |
-| [BackgroundMode](backgroundmode) { get; set; } | Gets and sets the display mode of the background |
-| [DirectionType](directiontype) { get; set; } | Gets and sets the direction of text. |
-| [DisplayNumberFormat](displaynumberformat) { get; } | Gets and sets the display number format of tick labels. |
-| [Font](font) { get; } | Returns a [`Font`](./font) object that represents the font of the specified TickLabels object. |
-| [IsAutomaticRotation](isautomaticrotation) { get; set; } | Indicates whether the rotation angle is automatic |
-| [Number](number) { get; set; } | Represents the format number for the TickLabels object. |
-| [NumberFormat](numberformat) { get; set; } | Represents the format string for the TickLabels object. |
-| [NumberFormatLinked](numberformatlinked) { get; set; } | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
-| [Offset](offset) { get; set; } | Gets and sets the distance of labels from the axis. |
-| [ReadingOrder](readingorder) { get; set; } | Represents text reading order. |
-| [RotationAngle](rotationangle) { get; set; } | Represents text rotation angle in clockwise. |
-| [TickLabelItems](ticklabelitems) { get; } | Gets the items' info of TickLabel. |
+| [AutoScaleFont](../../aspose.cells.charts/ticklabels/autoscalefont) { get; set; } | True if the text in the object changes font size when the object size changes. The default value is True. |
+| [BackgroundMode](../../aspose.cells.charts/ticklabels/backgroundmode) { get; set; } | Gets and sets the display mode of the background |
+| [DirectionType](../../aspose.cells.charts/ticklabels/directiontype) { get; set; } | Gets and sets the direction of text. |
+| [DisplayNumberFormat](../../aspose.cells.charts/ticklabels/displaynumberformat) { get; } | Gets and sets the display number format of tick labels. |
+| [Font](../../aspose.cells.charts/ticklabels/font) { get; } | Returns a [`Font`](./font) object that represents the font of the specified TickLabels object. |
+| [IsAutomaticRotation](../../aspose.cells.charts/ticklabels/isautomaticrotation) { get; set; } | Indicates whether the rotation angle is automatic |
+| [Number](../../aspose.cells.charts/ticklabels/number) { get; set; } | Represents the format number for the TickLabels object. |
+| [NumberFormat](../../aspose.cells.charts/ticklabels/numberformat) { get; set; } | Represents the format string for the TickLabels object. |
+| [NumberFormatLinked](../../aspose.cells.charts/ticklabels/numberformatlinked) { get; set; } | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
+| [Offset](../../aspose.cells.charts/ticklabels/offset) { get; set; } | Gets and sets the distance of labels from the axis. |
+| [ReadingOrder](../../aspose.cells.charts/ticklabels/readingorder) { get; set; } | Represents text reading order. |
+| [RotationAngle](../../aspose.cells.charts/ticklabels/rotationangle) { get; set; } | Represents text rotation angle in clockwise. |
+| [TickLabelItems](../../aspose.cells.charts/ticklabels/ticklabelitems) { get; } | Gets the items' info of TickLabel. |
 
 ### See Also
 

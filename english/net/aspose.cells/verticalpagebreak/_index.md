@@ -18,9 +18,9 @@ public class VerticalPageBreak
 
 | Name | Description |
 | --- | --- |
-| [Column](column) { get; } | Gets the column index of the vertical page break. |
-| [EndRow](endrow) { get; } | Gets the end row index of the vertical page break. |
-| [StartRow](startrow) { get; } | Gets the start row index of the vertical page break. |
+| [Column](../../aspose.cells/verticalpagebreak/column) { get; } | Gets the column index of the vertical page break. |
+| [EndRow](../../aspose.cells/verticalpagebreak/endrow) { get; } | Gets the end row index of the vertical page break. |
+| [StartRow](../../aspose.cells/verticalpagebreak/startrow) { get; } | Gets the start row index of the vertical page break. |
 
 ### Examples
 

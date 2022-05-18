@@ -18,11 +18,11 @@ public class ScenarioInputCell
 
 | Name | Description |
 | --- | --- |
-| [Column](column) { get; } | Gets and sets the column index of the input cell. |
-| [IsDeleted](isdeleted) { get; set; } | Indicates whether input cell is deleted. |
-| [Name](name) { get; } | Gets and sets the input cell address. |
-| [Row](row) { get; } | Gets and sets the row index of the input cell. |
-| [Value](value) { get; set; } | Gets and sets value of the input cell. |
+| [Column](../../aspose.cells/scenarioinputcell/column) { get; } | Gets and sets the column index of the input cell. |
+| [IsDeleted](../../aspose.cells/scenarioinputcell/isdeleted) { get; set; } | Indicates whether input cell is deleted. |
+| [Name](../../aspose.cells/scenarioinputcell/name) { get; } | Gets and sets the input cell address. |
+| [Row](../../aspose.cells/scenarioinputcell/row) { get; } | Gets and sets the row index of the input cell. |
+| [Value](../../aspose.cells/scenarioinputcell/value) { get; set; } | Gets and sets value of the input cell. |
 
 ### See Also
 

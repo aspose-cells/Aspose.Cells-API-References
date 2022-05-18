@@ -18,7 +18,7 @@ public interface ISmartMarkerCallBack
 
 | Name | Description |
 | --- | --- |
-| [Process](process)(int, int, int, string, string) | Callback for processing a smart marker. |
+| [Process](../../aspose.cells/ismartmarkercallback/process)(int, int, int, string, string) | Callback for processing a smart marker. |
 
 ### See Also
 

@@ -18,11 +18,30 @@ public class ChartArea : ChartFrame
 
 | Name | Description |
 | --- | --- |
-| override [Font](font) { get; } | Gets a [`Font`](./font) object of the specified chartarea object. |
-| override [Height](height) { get; set; } | Gets or sets the vertical offset from its lower right corner row. |
-| override [Width](width) { get; set; } | Gets or sets the horizontal offset from its lower right corner column. |
-| override [X](x) { get; set; } | Gets or gets the horizontal offset from its upper left corner column. |
-| override [Y](y) { get; set; } | Gets or gets the vertical offset from its upper left corner row. |
+| virtual [Area](../../aspose.cells.charts/chartframe/area) { get; } | Gets the [`area`](../chartframe/area). |
+| virtual [AutoScaleFont](../../aspose.cells.charts/chartframe/autoscalefont) { get; set; } | True if the text in the object changes font size when the object size changes. The default value is True. |
+| [BackgroundMode](../../aspose.cells.charts/chartframe/backgroundmode) { get; set; } | Gets and sets the display mode of the background |
+| virtual [Border](../../aspose.cells.charts/chartframe/border) { get; } | Gets the [`border`](../../aspose.cells.drawing/line). |
+| [DefaultHeight](../../aspose.cells.charts/chartframe/defaultheight) { get; } | Represents height of default position |
+| [DefaultWidth](../../aspose.cells.charts/chartframe/defaultwidth) { get; } | Represents width of default position |
+| [DefaultX](../../aspose.cells.charts/chartframe/defaultx) { get; } | Represents x of default position |
+| [DefaultY](../../aspose.cells.charts/chartframe/defaulty) { get; } | Represents y of default position |
+| override [Font](../../aspose.cells.charts/chartarea/font) { get; } | Gets a [`Font`](./font) object of the specified chartarea object. |
+| override [Height](../../aspose.cells.charts/chartarea/height) { get; set; } | Gets or sets the vertical offset from its lower right corner row. |
+| virtual [IsAutomaticSize](../../aspose.cells.charts/chartframe/isautomaticsize) { get; set; } | Indicates whether the chart frame is automatic sized. |
+| [IsDefaultPosBeSet](../../aspose.cells.charts/chartframe/isdefaultposbeset) { get; } | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
+| [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode) { get; set; } | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
+| [Shadow](../../aspose.cells.charts/chartframe/shadow) { get; set; } | True if the frame has a shadow. |
+| [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties) { get; } | Gets the [`ShapeProperties`](../chartframe/shapeproperties) object. |
+| override [Width](../../aspose.cells.charts/chartarea/width) { get; set; } | Gets or sets the horizontal offset from its lower right corner column. |
+| override [X](../../aspose.cells.charts/chartarea/x) { get; set; } | Gets or gets the horizontal offset from its upper left corner column. |
+| override [Y](../../aspose.cells.charts/chartarea/y) { get; set; } | Gets or gets the vertical offset from its upper left corner row. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| virtual [SetPositionAuto](../../aspose.cells.charts/chartframe/setpositionauto)() | Set position of the frame to automatic |
 
 ### Examples
 

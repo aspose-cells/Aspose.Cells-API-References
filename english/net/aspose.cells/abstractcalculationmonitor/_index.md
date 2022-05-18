@@ -18,17 +18,17 @@ public abstract class AbstractCalculationMonitor
 
 | Name | Description |
 | --- | --- |
-| [CalculatedValue](calculatedvalue) { get; } | Gets the newly calculated value of the cell. Should be used only in [`AfterCalculate`](./aftercalculate). |
-| [OriginalValue](originalvalue) { get; } | Gets the old value of the calculated cell. Should be used only in [`BeforeCalculate`](./beforecalculate) and [`AfterCalculate`](./aftercalculate). |
-| [ValueChanged](valuechanged) { get; } | Whether the cell's value has been changed after the calculation. Should be used only in [`AfterCalculate`](./aftercalculate). |
+| [CalculatedValue](../../aspose.cells/abstractcalculationmonitor/calculatedvalue) { get; } | Gets the newly calculated value of the cell. Should be used only in [`AfterCalculate`](./aftercalculate). |
+| [OriginalValue](../../aspose.cells/abstractcalculationmonitor/originalvalue) { get; } | Gets the old value of the calculated cell. Should be used only in [`BeforeCalculate`](./beforecalculate) and [`AfterCalculate`](./aftercalculate). |
+| [ValueChanged](../../aspose.cells/abstractcalculationmonitor/valuechanged) { get; } | Whether the cell's value has been changed after the calculation. Should be used only in [`AfterCalculate`](./aftercalculate). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| virtual [AfterCalculate](aftercalculate)(int, int, int) | Implement this method to do business after one cell has been calculated. |
-| virtual [BeforeCalculate](beforecalculate)(int, int, int) | Implement this method to do business before calculating one cell. |
-| virtual [OnCircular](oncircular)(IEnumerator) | Implement this method to do business when calculating formulas with circular references. |
+| virtual [AfterCalculate](../../aspose.cells/abstractcalculationmonitor/aftercalculate)(int, int, int) | Implement this method to do business after one cell has been calculated. |
+| virtual [BeforeCalculate](../../aspose.cells/abstractcalculationmonitor/beforecalculate)(int, int, int) | Implement this method to do business before calculating one cell. |
+| virtual [OnCircular](../../aspose.cells/abstractcalculationmonitor/oncircular)(IEnumerator) | Implement this method to do business when calculating formulas with circular references. |
 
 ### Examples
 

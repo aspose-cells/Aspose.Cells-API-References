@@ -18,10 +18,10 @@ public class ContentTypeProperty
 
 | Name | Description |
 | --- | --- |
-| [IsNillable](isnillable) { get; set; } | Indicates whether the value could be empty. |
-| [Name](name) { get; set; } | Returns or sets the name of the object. |
-| [Type](type) { get; set; } | Gets and sets the type of the property. |
-| [Value](value) { get; set; } | Returns or sets the value of the content type property. |
+| [IsNillable](../../aspose.cells.properties/contenttypeproperty/isnillable) { get; set; } | Indicates whether the value could be empty. |
+| [Name](../../aspose.cells.properties/contenttypeproperty/name) { get; set; } | Returns or sets the name of the object. |
+| [Type](../../aspose.cells.properties/contenttypeproperty/type) { get; set; } | Gets and sets the type of the property. |
+| [Value](../../aspose.cells.properties/contenttypeproperty/value) { get; set; } | Returns or sets the value of the content type property. |
 
 ### Examples
 

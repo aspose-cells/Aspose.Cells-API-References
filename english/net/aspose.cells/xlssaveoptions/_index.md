@@ -25,9 +25,20 @@ public class XlsSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [IsTemplate](istemplate) { get; set; } | Indicates whether saving a template file. |
-| [LightCellsDataProvider](lightcellsdataprovider) { get; set; } | The Data provider to provide cells data for saving workbook in light mode. |
-| [MatchColor](matchcolor) { get; set; } | Indicates whether matching font color because there are 56 colors in the standard color palette. |
+| [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder) { get; set; } | The cached file folder is used to store some large data. |
+| [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | Make the workbook empty after saving the file. |
+| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [IsTemplate](../../aspose.cells/xlssaveoptions/istemplate) { get; set; } | Indicates whether saving a template file. |
+| [LightCellsDataProvider](../../aspose.cells/xlssaveoptions/lightcellsdataprovider) { get; set; } | The Data provider to provide cells data for saving workbook in light mode. |
+| [MatchColor](../../aspose.cells/xlssaveoptions/matchcolor) { get; set; } | Indicates whether matching font color because there are 56 colors in the standard color palette. |
+| [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Indicates whether refreshing chart cache data |
+| [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Gets the save file format. |
+| [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | Indicates whether sorting external defined names before saving file. |
+| [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | Indicates whether sorting defined names before saving file. |
+| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Indicates whether updating smart art setting. The default value is false. |
+| [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas) { get; set; } | Indicates whether validate merged cells before saving the file. |
+| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Gets or sets warning callback. |
 
 ### See Also
 

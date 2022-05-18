@@ -18,8 +18,8 @@ public interface ICustomParser
 
 | Name | Description |
 | --- | --- |
-| [GetFormat](getformat)() | Gets the formatting pattern corresponding to the parsed value by last invocation of [`ParseObject`](./parseobject). |
-| [ParseObject](parseobject)(string) | Parses given string to proper value object. |
+| [GetFormat](../../aspose.cells/icustomparser/getformat)() | Gets the formatting pattern corresponding to the parsed value by last invocation of [`ParseObject`](./parseobject). |
+| [ParseObject](../../aspose.cells/icustomparser/parseobject)(string) | Parses given string to proper value object. |
 
 ### See Also
 

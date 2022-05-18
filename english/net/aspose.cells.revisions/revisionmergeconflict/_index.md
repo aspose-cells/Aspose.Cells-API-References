@@ -18,7 +18,9 @@ public class RevisionMergeConflict : Revision
 
 | Name | Description |
 | --- | --- |
-| override [Type](type) { get; } | Gets the type of revision. |
+| [Id](../../aspose.cells.revisions/revision/id) { get; } | Gets the number of this revision. |
+| override [Type](../../aspose.cells.revisions/revisionmergeconflict/type) { get; } | Gets the type of revision. |
+| [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Gets the worksheet. |
 
 ### See Also
 

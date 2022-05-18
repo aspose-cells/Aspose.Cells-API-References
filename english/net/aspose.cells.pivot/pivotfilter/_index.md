@@ -18,15 +18,15 @@ public class PivotFilter
 
 | Name | Description |
 | --- | --- |
-| [AutoFilter](autofilter) { get; } | Gets the autofilter of the pivot filter. |
-| [EvaluationOrder](evaluationorder) { get; set; } | Gets the Evaluation Order of the pivot filter. |
-| [FieldIndex](fieldindex) { get; } | Gets the field index of the pivot filter. |
-| [FilterType](filtertype) { get; } | Gets the autofilter type of the pivot filter. |
-| [MeasureFldIndex](measurefldindex) { get; set; } | Gets the measure field index of the pivot filter. |
-| [MemberPropertyFieldIndex](memberpropertyfieldindex) { get; set; } | Gets the member property field index of the pivot filter. |
-| [Name](name) { get; set; } | Gets the name of the pivot filter. |
-| [Value1](value1) { get; set; } | Gets the string value1 of the label pivot filter. |
-| [Value2](value2) { get; set; } | Gets the string value2 of the label pivot filter. |
+| [AutoFilter](../../aspose.cells.pivot/pivotfilter/autofilter) { get; } | Gets the autofilter of the pivot filter. |
+| [EvaluationOrder](../../aspose.cells.pivot/pivotfilter/evaluationorder) { get; set; } | Gets the Evaluation Order of the pivot filter. |
+| [FieldIndex](../../aspose.cells.pivot/pivotfilter/fieldindex) { get; } | Gets the field index of the pivot filter. |
+| [FilterType](../../aspose.cells.pivot/pivotfilter/filtertype) { get; } | Gets the autofilter type of the pivot filter. |
+| [MeasureFldIndex](../../aspose.cells.pivot/pivotfilter/measurefldindex) { get; set; } | Gets the measure field index of the pivot filter. |
+| [MemberPropertyFieldIndex](../../aspose.cells.pivot/pivotfilter/memberpropertyfieldindex) { get; set; } | Gets the member property field index of the pivot filter. |
+| [Name](../../aspose.cells.pivot/pivotfilter/name) { get; set; } | Gets the name of the pivot filter. |
+| [Value1](../../aspose.cells.pivot/pivotfilter/value1) { get; set; } | Gets the string value1 of the label pivot filter. |
+| [Value2](../../aspose.cells.pivot/pivotfilter/value2) { get; set; } | Gets the string value2 of the label pivot filter. |
 
 ### Examples
 

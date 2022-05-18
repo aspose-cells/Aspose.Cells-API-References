@@ -18,22 +18,22 @@ public class DocumentProperty
 
 | Name | Description |
 | --- | --- |
-| [IsGeneratedName](isgeneratedname) { get; } | Returns true if this property does not have a name in the OLE2 storage and a unique name was generated only for the public API. |
-| [IsLinkedToContent](islinkedtocontent) { get; } | Indicates whether this property is linked to content |
-| [Name](name) { get; } | Returns the name of the property. |
-| [Source](source) { get; } | The linked content source. |
-| [Type](type) { get; } | Gets the data type of the property. |
-| [Value](value) { get; set; } | Gets or sets the value of the property. |
+| [IsGeneratedName](../../aspose.cells.properties/documentproperty/isgeneratedname) { get; } | Returns true if this property does not have a name in the OLE2 storage and a unique name was generated only for the public API. |
+| [IsLinkedToContent](../../aspose.cells.properties/documentproperty/islinkedtocontent) { get; } | Indicates whether this property is linked to content |
+| [Name](../../aspose.cells.properties/documentproperty/name) { get; } | Returns the name of the property. |
+| [Source](../../aspose.cells.properties/documentproperty/source) { get; } | The linked content source. |
+| [Type](../../aspose.cells.properties/documentproperty/type) { get; } | Gets the data type of the property. |
+| [Value](../../aspose.cells.properties/documentproperty/value) { get; set; } | Gets or sets the value of the property. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ToBool](tobool)() | Returns the property value as bool. |
-| [ToDateTime](todatetime)() | Returns the property value as DateTime in local timezone. |
-| [ToDouble](todouble)() | Returns the property value as double. |
-| [ToInt](toint)() | Returns the property value as integer. |
-| override [ToString](tostring)() | Returns the property value as a string. |
+| [ToBool](../../aspose.cells.properties/documentproperty/tobool)() | Returns the property value as bool. |
+| [ToDateTime](../../aspose.cells.properties/documentproperty/todatetime)() | Returns the property value as DateTime in local timezone. |
+| [ToDouble](../../aspose.cells.properties/documentproperty/todouble)() | Returns the property value as double. |
+| [ToInt](../../aspose.cells.properties/documentproperty/toint)() | Returns the property value as integer. |
+| override [ToString](../../aspose.cells.properties/documentproperty/tostring)() | Returns the property value as a string. |
 
 ### Examples
 

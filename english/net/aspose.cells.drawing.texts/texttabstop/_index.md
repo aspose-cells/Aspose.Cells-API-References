@@ -18,8 +18,8 @@ public class TextTabStop
 
 | Name | Description |
 | --- | --- |
-| [TabAlignment](tabalignment) { get; set; } | Specifies the alignment that is to be applied to text using this tab stop. |
-| [TabPosition](tabposition) { get; set; } | Specifies the position of the tab stop relative to the left margin. |
+| [TabAlignment](../../aspose.cells.drawing.texts/texttabstop/tabalignment) { get; set; } | Specifies the alignment that is to be applied to text using this tab stop. |
+| [TabPosition](../../aspose.cells.drawing.texts/texttabstop/tabposition) { get; set; } | Specifies the position of the tab stop relative to the left margin. |
 
 ### See Also
 

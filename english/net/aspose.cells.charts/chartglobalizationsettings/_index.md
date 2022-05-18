@@ -24,14 +24,16 @@ public class ChartGlobalizationSettings : AbstractGlobalizationSettings
 
 | Name | Description |
 | --- | --- |
-| virtual [GetAxisTitleName](getaxistitlename)() | Gets the name of Title for Axis. |
-| virtual [GetAxisUnitName](getaxisunitname)(DisplayUnitType) | Gets the Name of Axis Unit. |
-| virtual [GetChartTitleName](getcharttitlename)() | Gets the name of Chart Title. |
-| virtual [GetLegendDecreaseName](getlegenddecreasename)() | Gets the name of Decrease for Legend. |
-| virtual [GetLegendIncreaseName](getlegendincreasename)() | Gets the name of increase for Legend. |
-| virtual [GetLegendTotalName](getlegendtotalname)() | Gets the name of Total for Legend. |
-| virtual [GetOtherName](getothername)() | Gets the name of "Other" labels for Chart. |
-| virtual [GetSeriesName](getseriesname)() | Gets the name of Series in the Chart. |
+| virtual [Compare](../../aspose.cells/abstractglobalizationsettings/compare)(string, string, bool) | Compares two string values according to certain collation rules. |
+| virtual [GetAxisTitleName](../../aspose.cells.charts/chartglobalizationsettings/getaxistitlename)() | Gets the name of Title for Axis. |
+| virtual [GetAxisUnitName](../../aspose.cells.charts/chartglobalizationsettings/getaxisunitname)(DisplayUnitType) | Gets the Name of Axis Unit. |
+| virtual [GetChartTitleName](../../aspose.cells.charts/chartglobalizationsettings/getcharttitlename)() | Gets the name of Chart Title. |
+| virtual [GetCollationKey](../../aspose.cells/abstractglobalizationsettings/getcollationkey)(string, bool) | Transforms the string into a comparable object according to certain collation rules. |
+| virtual [GetLegendDecreaseName](../../aspose.cells.charts/chartglobalizationsettings/getlegenddecreasename)() | Gets the name of Decrease for Legend. |
+| virtual [GetLegendIncreaseName](../../aspose.cells.charts/chartglobalizationsettings/getlegendincreasename)() | Gets the name of increase for Legend. |
+| virtual [GetLegendTotalName](../../aspose.cells.charts/chartglobalizationsettings/getlegendtotalname)() | Gets the name of Total for Legend. |
+| virtual [GetOtherName](../../aspose.cells.charts/chartglobalizationsettings/getothername)() | Gets the name of "Other" labels for Chart. |
+| virtual [GetSeriesName](../../aspose.cells.charts/chartglobalizationsettings/getseriesname)() | Gets the name of Series in the Chart. |
 
 ### See Also
 

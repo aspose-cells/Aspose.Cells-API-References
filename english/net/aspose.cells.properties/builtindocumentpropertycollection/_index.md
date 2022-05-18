@@ -18,36 +18,49 @@ public class BuiltInDocumentPropertyCollection : DocumentPropertyCollection
 
 | Name | Description |
 | --- | --- |
-| [Author](author) { get; set; } | Gets or sets the name of the document's author. |
-| [Category](category) { get; set; } | Gets or sets the category of the document. |
-| [Comments](comments) { get; set; } | Gets or sets the document comments. |
-| [Company](company) { get; set; } | Gets or sets the company property. |
-| [ContentStatus](contentstatus) { get; set; } | Gets or sets the content status of the document. |
-| [ContentType](contenttype) { get; set; } | Gets or sets the content type of the document. |
-| [CreatedTime](createdtime) { get; set; } | Gets or sets date of the document creation in local timezone. |
-| [CreatedUniversalTime](createduniversaltime) { get; set; } | Gets or sets the Universal time of the document creation. |
-| [DocumentVersion](documentversion) { get; set; } | Represents the version of the file. |
-| [HyperlinkBase](hyperlinkbase) { get; set; } | Gets or sets the hyperlinkbase property. |
-| override [Item](item) { get; } | Returns a [`DocumentProperty`](../documentproperty) object by the name of the property. |
-| [Keywords](keywords) { get; set; } | Gets or sets the document keywords. |
-| [Language](language) { get; set; } | Gets or sets the document's language. |
-| [LastPrinted](lastprinted) { get; set; } | Gets or sets the date when the document was last printed in local timezone. |
-| [LastPrintedUniversalTime](lastprinteduniversaltime) { get; set; } | Gets or sets the Universal time when the document was last printed. |
-| [LastSavedBy](lastsavedby) { get; set; } | Gets or sets the name of the last author. |
-| [LastSavedTime](lastsavedtime) { get; set; } | Gets or sets the time of the last save in local timezone. |
-| [LastSavedUniversalTime](lastsaveduniversaltime) { get; set; } | Gets or sets the universal time of the last save. |
-| [LinksUpToDate](linksuptodate) { get; set; } | Indicates whether hyperlinks in a document are up-to-date. |
-| [Manager](manager) { get; set; } | Gets or sets the manager property. |
-| [NameOfApplication](nameofapplication) { get; set; } | Gets or sets the name of the application. |
-| [Pages](pages) { get; set; } | Represents an estimate of the number of pages in the document. |
-| [RevisionNumber](revisionnumber) { get; set; } | Gets or sets the document revision number. |
-| [ScaleCrop](scalecrop) { get; set; } | Indicates the display mode of the document thumbnail. |
-| [Subject](subject) { get; set; } | Gets or sets the subject of the document. |
-| [Template](template) { get; set; } | Gets or sets the informational name of the document template. |
-| [Title](title) { get; set; } | Gets or sets the title of the document. |
-| [TotalEditingTime](totaleditingtime) { get; set; } | Gets or sets the total editing time in minutes. |
-| [Version](version) { get; set; } | Represents the version number of the application that created the document. |
-| [Words](words) { get; set; } | Represents an estimate of the number of words in the document. |
+| [Author](../../aspose.cells.properties/builtindocumentpropertycollection/author) { get; set; } | Gets or sets the name of the document's author. |
+| [Category](../../aspose.cells.properties/builtindocumentpropertycollection/category) { get; set; } | Gets or sets the category of the document. |
+| [Comments](../../aspose.cells.properties/builtindocumentpropertycollection/comments) { get; set; } | Gets or sets the document comments. |
+| [Company](../../aspose.cells.properties/builtindocumentpropertycollection/company) { get; set; } | Gets or sets the company property. |
+| [ContentStatus](../../aspose.cells.properties/builtindocumentpropertycollection/contentstatus) { get; set; } | Gets or sets the content status of the document. |
+| [ContentType](../../aspose.cells.properties/builtindocumentpropertycollection/contenttype) { get; set; } | Gets or sets the content type of the document. |
+| [Count](../../aspose.cells.properties/documentpropertycollection/count) { get; } | Gets number of items in the collection. |
+| [CreatedTime](../../aspose.cells.properties/builtindocumentpropertycollection/createdtime) { get; set; } | Gets or sets date of the document creation in local timezone. |
+| [CreatedUniversalTime](../../aspose.cells.properties/builtindocumentpropertycollection/createduniversaltime) { get; set; } | Gets or sets the Universal time of the document creation. |
+| [DocumentVersion](../../aspose.cells.properties/builtindocumentpropertycollection/documentversion) { get; set; } | Represents the version of the file. |
+| [HyperlinkBase](../../aspose.cells.properties/builtindocumentpropertycollection/hyperlinkbase) { get; set; } | Gets or sets the hyperlinkbase property. |
+| [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Returns a [`DocumentProperty`](../documentproperty) object by index. |
+| override [Item](../../aspose.cells.properties/builtindocumentpropertycollection/item) { get; } | Returns a [`DocumentProperty`](../documentproperty) object by the name of the property. |
+| [Keywords](../../aspose.cells.properties/builtindocumentpropertycollection/keywords) { get; set; } | Gets or sets the document keywords. |
+| [Language](../../aspose.cells.properties/builtindocumentpropertycollection/language) { get; set; } | Gets or sets the document's language. |
+| [LastPrinted](../../aspose.cells.properties/builtindocumentpropertycollection/lastprinted) { get; set; } | Gets or sets the date when the document was last printed in local timezone. |
+| [LastPrintedUniversalTime](../../aspose.cells.properties/builtindocumentpropertycollection/lastprinteduniversaltime) { get; set; } | Gets or sets the Universal time when the document was last printed. |
+| [LastSavedBy](../../aspose.cells.properties/builtindocumentpropertycollection/lastsavedby) { get; set; } | Gets or sets the name of the last author. |
+| [LastSavedTime](../../aspose.cells.properties/builtindocumentpropertycollection/lastsavedtime) { get; set; } | Gets or sets the time of the last save in local timezone. |
+| [LastSavedUniversalTime](../../aspose.cells.properties/builtindocumentpropertycollection/lastsaveduniversaltime) { get; set; } | Gets or sets the universal time of the last save. |
+| [LinksUpToDate](../../aspose.cells.properties/builtindocumentpropertycollection/linksuptodate) { get; set; } | Indicates whether hyperlinks in a document are up-to-date. |
+| [Manager](../../aspose.cells.properties/builtindocumentpropertycollection/manager) { get; set; } | Gets or sets the manager property. |
+| [NameOfApplication](../../aspose.cells.properties/builtindocumentpropertycollection/nameofapplication) { get; set; } | Gets or sets the name of the application. |
+| [Pages](../../aspose.cells.properties/builtindocumentpropertycollection/pages) { get; set; } | Represents an estimate of the number of pages in the document. |
+| [RevisionNumber](../../aspose.cells.properties/builtindocumentpropertycollection/revisionnumber) { get; set; } | Gets or sets the document revision number. |
+| [ScaleCrop](../../aspose.cells.properties/builtindocumentpropertycollection/scalecrop) { get; set; } | Indicates the display mode of the document thumbnail. |
+| [Subject](../../aspose.cells.properties/builtindocumentpropertycollection/subject) { get; set; } | Gets or sets the subject of the document. |
+| [Template](../../aspose.cells.properties/builtindocumentpropertycollection/template) { get; set; } | Gets or sets the informational name of the document template. |
+| [Title](../../aspose.cells.properties/builtindocumentpropertycollection/title) { get; set; } | Gets or sets the title of the document. |
+| [TotalEditingTime](../../aspose.cells.properties/builtindocumentpropertycollection/totaleditingtime) { get; set; } | Gets or sets the total editing time in minutes. |
+| [Version](../../aspose.cells.properties/builtindocumentpropertycollection/version) { get; set; } | Represents the version number of the application that created the document. |
+| [Words](../../aspose.cells.properties/builtindocumentpropertycollection/words) { get; set; } | Represents an estimate of the number of words in the document. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Clear](../../aspose.cells.properties/documentpropertycollection/clear)() | Removes all properties from the collection. |
+| [Contains](../../aspose.cells.properties/documentpropertycollection/contains)(string) | Returns true if a property with the specified name exists in the collection. |
+| [GetEnumerator](../../aspose.cells.properties/documentpropertycollection/getenumerator)() |  |
+| [IndexOf](../../aspose.cells.properties/documentpropertycollection/indexof)(string) | Gets the index of a property by name. |
+| [Remove](../../aspose.cells.properties/documentpropertycollection/remove)(string) | Removes a property with the specified name from the collection. |
+| [RemoveAt](../../aspose.cells.properties/documentpropertycollection/removeat)(int) | Removes a property at the specified index. |
 
 ### Remarks
 

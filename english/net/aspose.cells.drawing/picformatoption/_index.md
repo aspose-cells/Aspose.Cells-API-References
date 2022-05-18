@@ -24,12 +24,12 @@ public class PicFormatOption
 
 | Name | Description |
 | --- | --- |
-| [Bottom](bottom) { get; set; } | Gets or sets the bottom offset for stretching picture. |
-| [Left](left) { get; set; } | Gets or sets the left offset for stretching picture. |
-| [Right](right) { get; set; } | Gets or sets the right offset for stretching picture. |
-| [Scale](scale) { get; set; } | Gets or sets how many the picture stack and scale with. |
-| [Top](top) { get; set; } | Gets or sets the top offset for stretching picture. |
-| [Type](type) { get; set; } | Gets or sets the picture fill type. |
+| [Bottom](../../aspose.cells.drawing/picformatoption/bottom) { get; set; } | Gets or sets the bottom offset for stretching picture. |
+| [Left](../../aspose.cells.drawing/picformatoption/left) { get; set; } | Gets or sets the left offset for stretching picture. |
+| [Right](../../aspose.cells.drawing/picformatoption/right) { get; set; } | Gets or sets the right offset for stretching picture. |
+| [Scale](../../aspose.cells.drawing/picformatoption/scale) { get; set; } | Gets or sets how many the picture stack and scale with. |
+| [Top](../../aspose.cells.drawing/picformatoption/top) { get; set; } | Gets or sets the top offset for stretching picture. |
+| [Type](../../aspose.cells.drawing/picformatoption/type) { get; set; } | Gets or sets the picture fill type. |
 
 ### See Also
 

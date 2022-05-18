@@ -18,15 +18,15 @@ public class TableStyleElement
 
 | Name | Description |
 | --- | --- |
-| [Size](size) { get; set; } | Number of rows or columns in a single band of striping. Applies only when type is firstRowStripe, secondRowStripe, firstColumnStripe, or secondColumnStripe. |
-| [Type](type) { get; } | Gets the element type. |
+| [Size](../../aspose.cells.tables/tablestyleelement/size) { get; set; } | Number of rows or columns in a single band of striping. Applies only when type is firstRowStripe, secondRowStripe, firstColumnStripe, or secondColumnStripe. |
+| [Type](../../aspose.cells.tables/tablestyleelement/type) { get; } | Gets the element type. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetElementStyle](getelementstyle)() | Gets the element style. |
-| [SetElementStyle](setelementstyle)(Style) | Sets the element style. |
+| [GetElementStyle](../../aspose.cells.tables/tablestyleelement/getelementstyle)() | Gets the element style. |
+| [SetElementStyle](../../aspose.cells.tables/tablestyleelement/setelementstyle)(Style) | Sets the element style. |
 
 ### See Also
 

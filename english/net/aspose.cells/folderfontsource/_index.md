@@ -24,9 +24,9 @@ public class FolderFontSource : FontSourceBase
 
 | Name | Description |
 | --- | --- |
-| [FolderPath](folderpath) { get; } | Path to fonts folder. |
-| [ScanSubFolders](scansubfolders) { get; } | Determines whether or not to scan the subfolders. |
-| override [Type](type) { get; } | Returns the type of the font source. |
+| [FolderPath](../../aspose.cells/folderfontsource/folderpath) { get; } | Path to fonts folder. |
+| [ScanSubFolders](../../aspose.cells/folderfontsource/scansubfolders) { get; } | Determines whether or not to scan the subfolders. |
+| override [Type](../../aspose.cells/folderfontsource/type) { get; } | Returns the type of the font source. |
 
 ### See Also
 

@@ -24,8 +24,8 @@ public class PictureBulletValue : BulletValue
 
 | Name | Description |
 | --- | --- |
-| [ImageData](imagedata) { get; set; } | Gets and sets image data of the bullet. |
-| override [Type](type) { get; } | Gets the type of the bullet's value. |
+| [ImageData](../../aspose.cells.drawing.texts/picturebulletvalue/imagedata) { get; set; } | Gets and sets image data of the bullet. |
+| override [Type](../../aspose.cells.drawing.texts/picturebulletvalue/type) { get; } | Gets the type of the bullet's value. |
 
 ### See Also
 

@@ -24,8 +24,8 @@ public class MemoryFontSource : FontSourceBase
 
 | Name | Description |
 | --- | --- |
-| [FontData](fontdata) { get; } | Binary font data. |
-| override [Type](type) { get; } | Returns the type of the font source. |
+| [FontData](../../aspose.cells/memoryfontsource/fontdata) { get; } | Binary font data. |
+| override [Type](../../aspose.cells/memoryfontsource/type) { get; } | Returns the type of the font source. |
 
 ### See Also
 

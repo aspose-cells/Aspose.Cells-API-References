@@ -18,14 +18,14 @@ public class CustomFilter
 
 | Name | Description |
 | --- | --- |
-| [Criteria](criteria) { get; set; } | Gets and sets the criteria. |
-| [FilterOperatorType](filteroperatortype) { get; set; } | Gets and sets the filter operator type. |
+| [Criteria](../../aspose.cells/customfilter/criteria) { get; set; } | Gets and sets the criteria. |
+| [FilterOperatorType](../../aspose.cells/customfilter/filteroperatortype) { get; set; } | Gets and sets the filter operator type. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetCriteria](setcriteria)(FilterOperatorType, object) | Sets the filter criteria. |
+| [SetCriteria](../../aspose.cells/customfilter/setcriteria)(FilterOperatorType, object) | Sets the filter criteria. |
 
 ### See Also
 

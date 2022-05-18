@@ -24,16 +24,16 @@ public class WriteProtection
 
 | Name | Description |
 | --- | --- |
-| [Author](author) { get; set; } | Gets and sets the author. |
-| [IsWriteProtected](iswriteprotected) { get; } | Indicates whether this workbook is write protected. |
-| [Password](password) { set; } | Sets the protected password to modify the file. |
-| [RecommendReadOnly](recommendreadonly) { get; set; } | Indicates if the Read Only Recommended option is selected. |
+| [Author](../../aspose.cells/writeprotection/author) { get; set; } | Gets and sets the author. |
+| [IsWriteProtected](../../aspose.cells/writeprotection/iswriteprotected) { get; } | Indicates whether this workbook is write protected. |
+| [Password](../../aspose.cells/writeprotection/password) { set; } | Sets the protected password to modify the file. |
+| [RecommendReadOnly](../../aspose.cells/writeprotection/recommendreadonly) { get; set; } | Indicates if the Read Only Recommended option is selected. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ValidatePassword](validatepassword)(string) | Returns true if the specified password is the same as the write-protection password the file was protected with. |
+| [ValidatePassword](../../aspose.cells/writeprotection/validatepassword)(string) | Returns true if the specified password is the same as the write-protection password the file was protected with. |
 
 ### See Also
 

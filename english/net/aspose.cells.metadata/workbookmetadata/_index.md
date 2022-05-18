@@ -25,16 +25,16 @@ public class WorkbookMetadata
 
 | Name | Description |
 | --- | --- |
-| [BuiltInDocumentProperties](builtindocumentproperties) { get; } | Returns a [`DocumentProperty`](../../aspose.cells.properties/documentproperty) collection that represents all the built-in document properties of the spreadsheet. |
-| [CustomDocumentProperties](customdocumentproperties) { get; } | Returns a [`DocumentProperty`](../../aspose.cells.properties/documentproperty) collection that represents all the custom document properties of the spreadsheet. |
-| [Options](options) { get; } | Gets the options of the metadata. |
+| [BuiltInDocumentProperties](../../aspose.cells.metadata/workbookmetadata/builtindocumentproperties) { get; } | Returns a [`DocumentProperty`](../../aspose.cells.properties/documentproperty) collection that represents all the built-in document properties of the spreadsheet. |
+| [CustomDocumentProperties](../../aspose.cells.metadata/workbookmetadata/customdocumentproperties) { get; } | Returns a [`DocumentProperty`](../../aspose.cells.properties/documentproperty) collection that represents all the custom document properties of the spreadsheet. |
+| [Options](../../aspose.cells.metadata/workbookmetadata/options) { get; } | Gets the options of the metadata. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Save](save)(Stream) | Save the modified metadata to the stream. |
-| [Save](save)(string) | Save the modified metadata to the file. |
+| [Save](../../aspose.cells.metadata/workbookmetadata/save)(Stream) | Save the modified metadata to the stream. |
+| [Save](../../aspose.cells.metadata/workbookmetadata/save)(string) | Save the modified metadata to the file. |
 
 ### Examples
 

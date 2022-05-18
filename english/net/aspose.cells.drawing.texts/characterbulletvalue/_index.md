@@ -24,8 +24,8 @@ public class CharacterBulletValue : BulletValue
 
 | Name | Description |
 | --- | --- |
-| [Character](character) { get; set; } | Gets and sets character of the bullet. |
-| override [Type](type) { get; } | Gets the type of the bullet. |
+| [Character](../../aspose.cells.drawing.texts/characterbulletvalue/character) { get; set; } | Gets and sets character of the bullet. |
+| override [Type](../../aspose.cells.drawing.texts/characterbulletvalue/type) { get; } | Gets the type of the bullet. |
 
 ### See Also
 

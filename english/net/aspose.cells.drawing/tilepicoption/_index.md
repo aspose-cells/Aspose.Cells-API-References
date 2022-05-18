@@ -24,12 +24,12 @@ public class TilePicOption
 
 | Name | Description |
 | --- | --- |
-| [AlignmentType](alignmenttype) { get; set; } | Gets or sets the alignment for tiling. |
-| [MirrorType](mirrortype) { get; set; } | Gets or sets the mirror type for tiling. |
-| [OffsetX](offsetx) { get; set; } | Gets or sets the X offset for tiling picture. |
-| [OffsetY](offsety) { get; set; } | Gets or sets the Y offset for tiling picture. |
-| [ScaleX](scalex) { get; set; } | Gets or sets the X scale for tiling picture. |
-| [ScaleY](scaley) { get; set; } | Gets or sets the Y scale for tiling picture. |
+| [AlignmentType](../../aspose.cells.drawing/tilepicoption/alignmenttype) { get; set; } | Gets or sets the alignment for tiling. |
+| [MirrorType](../../aspose.cells.drawing/tilepicoption/mirrortype) { get; set; } | Gets or sets the mirror type for tiling. |
+| [OffsetX](../../aspose.cells.drawing/tilepicoption/offsetx) { get; set; } | Gets or sets the X offset for tiling picture. |
+| [OffsetY](../../aspose.cells.drawing/tilepicoption/offsety) { get; set; } | Gets or sets the Y offset for tiling picture. |
+| [ScaleX](../../aspose.cells.drawing/tilepicoption/scalex) { get; set; } | Gets or sets the X scale for tiling picture. |
+| [ScaleY](../../aspose.cells.drawing/tilepicoption/scaley) { get; set; } | Gets or sets the Y scale for tiling picture. |
 
 ### See Also
 

@@ -24,23 +24,23 @@ public class FindOptions
 
 | Name | Description |
 | --- | --- |
-| [CaseSensitive](casesensitive) { get; set; } | Indicates if the searched string is case sensitive. |
-| [ConvertNumericData](convertnumericdata) { get; set; } | Gets or sets a value that indicates whether converting the searched string value to numeric data. |
-| [IsRangeSet](israngeset) { get; } | Indicates whether the searched range is set. |
-| [LookAtType](lookattype) { get; set; } | Look at type. |
-| [LookInType](lookintype) { get; set; } | Look in type. |
-| [RegexKey](regexkey) { get; set; } | Indicates whether the searched key is regex. If true then the searched key will be taken as regex. |
-| [SeachOrderByRows](seachorderbyrows) { get; set; } | Indicates whether search order by rows or columns. |
-| [SearchBackward](searchbackward) { get; set; } | Whether search backward for cells. |
-| [Style](style) { get; set; } | The format to search for. |
-| [ValueTypeSensitive](valuetypesensitive) { get; set; } | Indicates whether searched cell value type should be same with the searched key. |
+| [CaseSensitive](../../aspose.cells/findoptions/casesensitive) { get; set; } | Indicates if the searched string is case sensitive. |
+| [ConvertNumericData](../../aspose.cells/findoptions/convertnumericdata) { get; set; } | Gets or sets a value that indicates whether converting the searched string value to numeric data. |
+| [IsRangeSet](../../aspose.cells/findoptions/israngeset) { get; } | Indicates whether the searched range is set. |
+| [LookAtType](../../aspose.cells/findoptions/lookattype) { get; set; } | Look at type. |
+| [LookInType](../../aspose.cells/findoptions/lookintype) { get; set; } | Look in type. |
+| [RegexKey](../../aspose.cells/findoptions/regexkey) { get; set; } | Indicates whether the searched key is regex. If true then the searched key will be taken as regex. |
+| [SeachOrderByRows](../../aspose.cells/findoptions/seachorderbyrows) { get; set; } | Indicates whether search order by rows or columns. |
+| [SearchBackward](../../aspose.cells/findoptions/searchbackward) { get; set; } | Whether search backward for cells. |
+| [Style](../../aspose.cells/findoptions/style) { get; set; } | The format to search for. |
+| [ValueTypeSensitive](../../aspose.cells/findoptions/valuetypesensitive) { get; set; } | Indicates whether searched cell value type should be same with the searched key. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetRange](getrange)() | Gets and sets the searched range. |
-| [SetRange](setrange)(CellArea) | Sets the searched range. |
+| [GetRange](../../aspose.cells/findoptions/getrange)() | Gets and sets the searched range. |
+| [SetRange](../../aspose.cells/findoptions/setrange)(CellArea) | Sets the searched range. |
 
 ### Examples
 

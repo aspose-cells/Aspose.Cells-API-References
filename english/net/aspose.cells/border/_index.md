@@ -18,10 +18,10 @@ public class Border
 
 | Name | Description |
 | --- | --- |
-| [ArgbColor](argbcolor) { get; set; } | Gets and sets the color with a 32-bit ARGB value. |
-| [Color](color) { get; set; } | Gets or sets the Color of the border. |
-| [LineStyle](linestyle) { get; set; } | Gets or sets the cell border type. |
-| [ThemeColor](themecolor) { get; set; } | Gets and sets the theme color of the border. |
+| [ArgbColor](../../aspose.cells/border/argbcolor) { get; set; } | Gets and sets the color with a 32-bit ARGB value. |
+| [Color](../../aspose.cells/border/color) { get; set; } | Gets or sets the Color of the border. |
+| [LineStyle](../../aspose.cells/border/linestyle) { get; set; } | Gets or sets the cell border type. |
+| [ThemeColor](../../aspose.cells/border/themecolor) { get; set; } | Gets and sets the theme color of the border. |
 
 ### Examples
 

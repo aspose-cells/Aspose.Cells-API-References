@@ -18,8 +18,8 @@ public class Outline
 
 | Name | Description |
 | --- | --- |
-| [SummaryColumnRight](summarycolumnright) { get; set; } | Indicates if the summary column will be positioned to the right of the detail columns in the outline. |
-| [SummaryRowBelow](summaryrowbelow) { get; set; } | Indicates if the summary row will be positioned below the detail rows in the outline. |
+| [SummaryColumnRight](../../aspose.cells/outline/summarycolumnright) { get; set; } | Indicates if the summary column will be positioned to the right of the detail columns in the outline. |
+| [SummaryRowBelow](../../aspose.cells/outline/summaryrowbelow) { get; set; } | Indicates if the summary row will be positioned below the detail rows in the outline. |
 
 ### See Also
 

@@ -18,32 +18,32 @@ public class Protection
 
 | Name | Description |
 | --- | --- |
-| [AllowDeletingColumn](allowdeletingcolumn) { get; set; } | Represents if the deletion of columns is allowed on a protected worksheet. |
-| [AllowDeletingRow](allowdeletingrow) { get; set; } | Represents if the deletion of rows is allowed on a protected worksheet. |
-| [AllowEditingContent](alloweditingcontent) { get; set; } | Represents if the user is allowed to edit contents of locked cells on a protected worksheet. |
-| [AllowEditingObject](alloweditingobject) { get; set; } | Represents if the user is allowed to manipulate drawing objects on a protected worksheet. |
-| [AllowEditingScenario](alloweditingscenario) { get; set; } | Represents if the user is allowed to edit scenarios on a protected worksheet. |
-| [AllowFiltering](allowfiltering) { get; set; } | Represents if the user is allowed to make use of an AutoFilter that was created before the sheet was protected. |
-| [AllowFormattingCell](allowformattingcell) { get; set; } | Represents if the formatting of cells is allowed on a protected worksheet. |
-| [AllowFormattingColumn](allowformattingcolumn) { get; set; } | Represents if the formatting of columns is allowed on a protected worksheet |
-| [AllowFormattingRow](allowformattingrow) { get; set; } | Represents if the formatting of rows is allowed on a protected worksheet |
-| [AllowInsertingColumn](allowinsertingcolumn) { get; set; } | Represents if the insertion of columns is allowed on a protected worksheet |
-| [AllowInsertingHyperlink](allowinsertinghyperlink) { get; set; } | Represents if the insertion of hyperlinks is allowed on a protected worksheet |
-| [AllowInsertingRow](allowinsertingrow) { get; set; } | Represents if the insertion of rows is allowed on a protected worksheet |
-| [AllowSelectingLockedCell](allowselectinglockedcell) { get; set; } | Represents if the user is allowed to select locked cells on a protected worksheet. |
-| [AllowSelectingUnlockedCell](allowselectingunlockedcell) { get; set; } | Represents if the user is allowed to select unlocked cells on a protected worksheet. |
-| [AllowSorting](allowsorting) { get; set; } | Represents if the sorting option is allowed on a protected worksheet. |
-| [AllowUsingPivotTable](allowusingpivottable) { get; set; } | Represents if the user is allowed to manipulate pivot tables on a protected worksheet. |
-| [IsProtectedWithPassword](isprotectedwithpassword) { get; } | Indicates whether the worksheets is protected with password. |
-| [Password](password) { get; set; } | Represents the password to protect the worksheet. |
+| [AllowDeletingColumn](../../aspose.cells/protection/allowdeletingcolumn) { get; set; } | Represents if the deletion of columns is allowed on a protected worksheet. |
+| [AllowDeletingRow](../../aspose.cells/protection/allowdeletingrow) { get; set; } | Represents if the deletion of rows is allowed on a protected worksheet. |
+| [AllowEditingContent](../../aspose.cells/protection/alloweditingcontent) { get; set; } | Represents if the user is allowed to edit contents of locked cells on a protected worksheet. |
+| [AllowEditingObject](../../aspose.cells/protection/alloweditingobject) { get; set; } | Represents if the user is allowed to manipulate drawing objects on a protected worksheet. |
+| [AllowEditingScenario](../../aspose.cells/protection/alloweditingscenario) { get; set; } | Represents if the user is allowed to edit scenarios on a protected worksheet. |
+| [AllowFiltering](../../aspose.cells/protection/allowfiltering) { get; set; } | Represents if the user is allowed to make use of an AutoFilter that was created before the sheet was protected. |
+| [AllowFormattingCell](../../aspose.cells/protection/allowformattingcell) { get; set; } | Represents if the formatting of cells is allowed on a protected worksheet. |
+| [AllowFormattingColumn](../../aspose.cells/protection/allowformattingcolumn) { get; set; } | Represents if the formatting of columns is allowed on a protected worksheet |
+| [AllowFormattingRow](../../aspose.cells/protection/allowformattingrow) { get; set; } | Represents if the formatting of rows is allowed on a protected worksheet |
+| [AllowInsertingColumn](../../aspose.cells/protection/allowinsertingcolumn) { get; set; } | Represents if the insertion of columns is allowed on a protected worksheet |
+| [AllowInsertingHyperlink](../../aspose.cells/protection/allowinsertinghyperlink) { get; set; } | Represents if the insertion of hyperlinks is allowed on a protected worksheet |
+| [AllowInsertingRow](../../aspose.cells/protection/allowinsertingrow) { get; set; } | Represents if the insertion of rows is allowed on a protected worksheet |
+| [AllowSelectingLockedCell](../../aspose.cells/protection/allowselectinglockedcell) { get; set; } | Represents if the user is allowed to select locked cells on a protected worksheet. |
+| [AllowSelectingUnlockedCell](../../aspose.cells/protection/allowselectingunlockedcell) { get; set; } | Represents if the user is allowed to select unlocked cells on a protected worksheet. |
+| [AllowSorting](../../aspose.cells/protection/allowsorting) { get; set; } | Represents if the sorting option is allowed on a protected worksheet. |
+| [AllowUsingPivotTable](../../aspose.cells/protection/allowusingpivottable) { get; set; } | Represents if the user is allowed to manipulate pivot tables on a protected worksheet. |
+| [IsProtectedWithPassword](../../aspose.cells/protection/isprotectedwithpassword) { get; } | Indicates whether the worksheets is protected with password. |
+| [Password](../../aspose.cells/protection/password) { get; set; } | Represents the password to protect the worksheet. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Copy](copy)(Protection) | Copy protection info. |
-| [GetPasswordHash](getpasswordhash)() | Gets the hash of current password. |
-| [VerifyPassword](verifypassword)(string) | Verifies password. |
+| [Copy](../../aspose.cells/protection/copy)(Protection) | Copy protection info. |
+| [GetPasswordHash](../../aspose.cells/protection/getpasswordhash)() | Gets the hash of current password. |
+| [VerifyPassword](../../aspose.cells/protection/verifypassword)(string) | Verifies password. |
 
 ### Examples
 

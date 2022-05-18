@@ -18,8 +18,8 @@ public interface IStreamProvider
 
 | Name | Description |
 | --- | --- |
-| [CloseStream](closestream)(StreamProviderOptions) | Closes the stream. |
-| [InitStream](initstream)(StreamProviderOptions) | Gets the stream. |
+| [CloseStream](../../aspose.cells/istreamprovider/closestream)(StreamProviderOptions) | Closes the stream. |
+| [InitStream](../../aspose.cells/istreamprovider/initstream)(StreamProviderOptions) | Gets the stream. |
 
 ### See Also
 

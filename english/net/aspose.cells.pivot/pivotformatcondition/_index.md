@@ -18,21 +18,21 @@ public class PivotFormatCondition
 
 | Name | Description |
 | --- | --- |
-| [FormatConditions](formatconditions) { get; } | Get formatconditions for the pivot table condition format . |
-| [RuleType](ruletype) { get; set; } | Get and set rule type for the pivot table condition format . |
-| [ScopeType](scopetype) { get; set; } | Get and set scope type for the pivot table condition format . |
+| [FormatConditions](../../aspose.cells.pivot/pivotformatcondition/formatconditions) { get; } | Get formatconditions for the pivot table condition format . |
+| [RuleType](../../aspose.cells.pivot/pivotformatcondition/ruletype) { get; set; } | Get and set rule type for the pivot table condition format . |
+| [ScopeType](../../aspose.cells.pivot/pivotformatcondition/scopetype) { get; set; } | Get and set scope type for the pivot table condition format . |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddColumnAreaCondition](addcolumnareacondition)(PivotField) | Adds PivotTable conditional format limit in the column fields. |
-| [AddColumnAreaCondition](addcolumnareacondition)(string) | Adds PivotTable conditional format limit in the column fields. |
-| [AddDataAreaCondition](adddataareacondition)(PivotField) | Adds PivotTable conditional format limit in the data fields. |
-| [AddDataAreaCondition](adddataareacondition)(string) | Adds PivotTable conditional format limit in the data fields. |
-| [AddRowAreaCondition](addrowareacondition)(PivotField) | Adds PivotTable conditional format limit in the row fields. |
-| [AddRowAreaCondition](addrowareacondition)(string) | Adds PivotTable conditional format limit in the row fields. |
-| [SetConditionalAreas](setconditionalareas)() | Sets conditional areas of PivotFormatCondition object. |
+| [AddColumnAreaCondition](../../aspose.cells.pivot/pivotformatcondition/addcolumnareacondition)(PivotField) | Adds PivotTable conditional format limit in the column fields. |
+| [AddColumnAreaCondition](../../aspose.cells.pivot/pivotformatcondition/addcolumnareacondition)(string) | Adds PivotTable conditional format limit in the column fields. |
+| [AddDataAreaCondition](../../aspose.cells.pivot/pivotformatcondition/adddataareacondition)(PivotField) | Adds PivotTable conditional format limit in the data fields. |
+| [AddDataAreaCondition](../../aspose.cells.pivot/pivotformatcondition/adddataareacondition)(string) | Adds PivotTable conditional format limit in the data fields. |
+| [AddRowAreaCondition](../../aspose.cells.pivot/pivotformatcondition/addrowareacondition)(PivotField) | Adds PivotTable conditional format limit in the row fields. |
+| [AddRowAreaCondition](../../aspose.cells.pivot/pivotformatcondition/addrowareacondition)(string) | Adds PivotTable conditional format limit in the row fields. |
+| [SetConditionalAreas](../../aspose.cells.pivot/pivotformatcondition/setconditionalareas)() | Sets conditional areas of PivotFormatCondition object. |
 
 ### Examples
 

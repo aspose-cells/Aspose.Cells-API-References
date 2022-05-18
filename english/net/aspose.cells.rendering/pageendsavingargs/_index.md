@@ -18,7 +18,9 @@ public class PageEndSavingArgs : PageSavingArgs
 
 | Name | Description |
 | --- | --- |
-| [HasMorePages](hasmorepages) { get; set; } | Gets or sets a value indicating whether having more pages to be output. The default value is true. |
+| [HasMorePages](../../aspose.cells.rendering/pageendsavingargs/hasmorepages) { get; set; } | Gets or sets a value indicating whether having more pages to be output. The default value is true. |
+| [PageCount](../../aspose.cells.rendering/pagesavingargs/pagecount) { get; } | Total page count. |
+| [PageIndex](../../aspose.cells.rendering/pagesavingargs/pageindex) { get; } | Current page index, zero based. |
 
 ### See Also
 

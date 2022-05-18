@@ -18,10 +18,10 @@ public class SubtotalSetting
 
 | Name | Description |
 | --- | --- |
-| [GroupBy](groupby) { get; } | The field to group by, as a zero-based integer offset |
-| [SubtotalFunction](subtotalfunction) { get; } | The subtotal function. |
-| [SummaryBelowData](summarybelowdata) { get; } | Indicates whether add summary below data. |
-| [TotalList](totallist) { get; } | An array of zero-based field offsets, indicating the fields to which the subtotals are added. |
+| [GroupBy](../../aspose.cells/subtotalsetting/groupby) { get; } | The field to group by, as a zero-based integer offset |
+| [SubtotalFunction](../../aspose.cells/subtotalsetting/subtotalfunction) { get; } | The subtotal function. |
+| [SummaryBelowData](../../aspose.cells/subtotalsetting/summarybelowdata) { get; } | Indicates whether add summary below data. |
+| [TotalList](../../aspose.cells/subtotalsetting/totallist) { get; } | An array of zero-based field offsets, indicating the fields to which the subtotals are added. |
 
 ### See Also
 

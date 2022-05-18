@@ -44,17 +44,17 @@ public class Sparkline
 
 | Name | Description |
 | --- | --- |
-| [Column](column) { get; } | Gets the column index of the sparkline. |
-| [DataRange](datarange) { get; set; } | Represents the data range of the sparkline. |
-| [Row](row) { get; } | Gets the row index of the sparkline. |
+| [Column](../../aspose.cells.charts/sparkline/column) { get; } | Gets the column index of the sparkline. |
+| [DataRange](../../aspose.cells.charts/sparkline/datarange) { get; set; } | Represents the data range of the sparkline. |
+| [Row](../../aspose.cells.charts/sparkline/row) { get; } | Gets the row index of the sparkline. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ToImage](toimage)(ImageOrPrintOptions) | Converts a sparkline to an image. |
-| [ToImage](toimage)(Stream, ImageOrPrintOptions) | Converts a sparkline to an image. |
-| [ToImage](toimage)(string, ImageOrPrintOptions) | Converts a sparkline to an image. |
+| [ToImage](../../aspose.cells.charts/sparkline/toimage)(ImageOrPrintOptions) | Converts a sparkline to an image. |
+| [ToImage](../../aspose.cells.charts/sparkline/toimage)(Stream, ImageOrPrintOptions) | Converts a sparkline to an image. |
+| [ToImage](../../aspose.cells.charts/sparkline/toimage)(string, ImageOrPrintOptions) | Converts a sparkline to an image. |
 
 ### See Also
 

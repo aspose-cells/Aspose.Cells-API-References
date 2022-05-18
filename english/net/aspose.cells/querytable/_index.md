@@ -18,12 +18,12 @@ public class QueryTable
 
 | Name | Description |
 | --- | --- |
-| [AdjustColumnWidth](adjustcolumnwidth) { get; set; } | Returns or sets the AdjustColumnWidth of the object. |
-| [ConnectionId](connectionid) { get; } | Gets the connection id of the query table. |
-| [ExternalConnection](externalconnection) { get; } | Gets the relate external connection. |
-| [Name](name) { get; } | Gets the name of querytable. |
-| [PreserveFormatting](preserveformatting) { get; set; } | Returns or sets the PreserveFormatting of the object. |
-| [ResultRange](resultrange) { get; } | Gets the range of the result. |
+| [AdjustColumnWidth](../../aspose.cells/querytable/adjustcolumnwidth) { get; set; } | Returns or sets the AdjustColumnWidth of the object. |
+| [ConnectionId](../../aspose.cells/querytable/connectionid) { get; } | Gets the connection id of the query table. |
+| [ExternalConnection](../../aspose.cells/querytable/externalconnection) { get; } | Gets the relate external connection. |
+| [Name](../../aspose.cells/querytable/name) { get; } | Gets the name of querytable. |
+| [PreserveFormatting](../../aspose.cells/querytable/preserveformatting) { get; set; } | Returns or sets the PreserveFormatting of the object. |
+| [ResultRange](../../aspose.cells/querytable/resultrange) { get; } | Gets the range of the result. |
 
 ### Examples
 

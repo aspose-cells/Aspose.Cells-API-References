@@ -24,9 +24,9 @@ public class PowerQueryFormulaParameter
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; set; } | Gets the name of parameter. |
-| [ParameterDefinition](parameterdefinition) { get; } | Gets the definition of the parameter. |
-| [Value](value) { get; set; } | Gets the value of parameter. |
+| [Name](../../aspose.cells.querytables/powerqueryformulaparameter/name) { get; set; } | Gets the name of parameter. |
+| [ParameterDefinition](../../aspose.cells.querytables/powerqueryformulaparameter/parameterdefinition) { get; } | Gets the definition of the parameter. |
+| [Value](../../aspose.cells.querytables/powerqueryformulaparameter/value) { get; set; } | Gets the value of parameter. |
 
 ### See Also
 

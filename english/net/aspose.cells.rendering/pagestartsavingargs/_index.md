@@ -18,7 +18,9 @@ public class PageStartSavingArgs : PageSavingArgs
 
 | Name | Description |
 | --- | --- |
-| [IsToOutput](istooutput) { get; set; } | Gets or sets a value indicating whether the page should be output. The default value is true. |
+| [IsToOutput](../../aspose.cells.rendering/pagestartsavingargs/istooutput) { get; set; } | Gets or sets a value indicating whether the page should be output. The default value is true. |
+| [PageCount](../../aspose.cells.rendering/pagesavingargs/pagecount) { get; } | Total page count. |
+| [PageIndex](../../aspose.cells.rendering/pagesavingargs/pageindex) { get; } | Current page index, zero based. |
 
 ### See Also
 

@@ -24,8 +24,8 @@ public class ThemeColor
 
 | Name | Description |
 | --- | --- |
-| [ColorType](colortype) { get; set; } | Gets and sets the theme type. |
-| [Tint](tint) { get; set; } | Gets and sets the tint value. |
+| [ColorType](../../aspose.cells/themecolor/colortype) { get; set; } | Gets and sets the theme type. |
+| [Tint](../../aspose.cells/themecolor/tint) { get; set; } | Gets and sets the tint value. |
 
 ### Examples
 

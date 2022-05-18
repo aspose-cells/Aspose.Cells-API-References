@@ -24,13 +24,13 @@ public class OdsPageBackground
 
 | Name | Description |
 | --- | --- |
-| [Color](color) { get; set; } | Gets and sets the color of background. |
-| [GraphicData](graphicdata) { get; set; } | Gets and sets the graphic data. |
-| [GraphicPositionType](graphicpositiontype) { get; set; } | Gets and set the background graphic position. |
-| [GraphicType](graphictype) { get; set; } | Gets and sets the page background graphic type. |
-| [IsLink](islink) { get; } | Indicates whether it's a linked graphic. |
-| [LinkedGraphic](linkedgraphic) { get; set; } | Gets and sets the linked graphic path. |
-| [Type](type) { get; set; } | Gets and sets the page background type. |
+| [Color](../../aspose.cells.ods/odspagebackground/color) { get; set; } | Gets and sets the color of background. |
+| [GraphicData](../../aspose.cells.ods/odspagebackground/graphicdata) { get; set; } | Gets and sets the graphic data. |
+| [GraphicPositionType](../../aspose.cells.ods/odspagebackground/graphicpositiontype) { get; set; } | Gets and set the background graphic position. |
+| [GraphicType](../../aspose.cells.ods/odspagebackground/graphictype) { get; set; } | Gets and sets the page background graphic type. |
+| [IsLink](../../aspose.cells.ods/odspagebackground/islink) { get; } | Indicates whether it's a linked graphic. |
+| [LinkedGraphic](../../aspose.cells.ods/odspagebackground/linkedgraphic) { get; set; } | Gets and sets the linked graphic path. |
+| [Type](../../aspose.cells.ods/odspagebackground/type) { get; set; } | Gets and sets the page background type. |
 
 ### See Also
 

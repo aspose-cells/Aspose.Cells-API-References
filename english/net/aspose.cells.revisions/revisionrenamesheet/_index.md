@@ -18,9 +18,11 @@ public class RevisionRenameSheet : Revision
 
 | Name | Description |
 | --- | --- |
-| [NewName](newname) { get; } | Gets the new name of the worksheet. |
-| [OldName](oldname) { get; } | Gets the old name of the worksheet. |
-| override [Type](type) { get; } | Represents the type of the revision. |
+| [Id](../../aspose.cells.revisions/revision/id) { get; } | Gets the number of this revision. |
+| [NewName](../../aspose.cells.revisions/revisionrenamesheet/newname) { get; } | Gets the new name of the worksheet. |
+| [OldName](../../aspose.cells.revisions/revisionrenamesheet/oldname) { get; } | Gets the old name of the worksheet. |
+| override [Type](../../aspose.cells.revisions/revisionrenamesheet/type) { get; } | Represents the type of the revision. |
+| [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Gets the worksheet. |
 
 ### See Also
 

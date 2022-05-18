@@ -18,10 +18,12 @@ public class RevisionDefinedName : Revision
 
 | Name | Description |
 | --- | --- |
-| [NewFormula](newformula) { get; } | Gets the formula. |
-| [OldFormula](oldformula) { get; } | Gets the old formula. |
-| [Text](text) { get; } | Gets the text of the defined name. |
-| override [Type](type) { get; } | Represents the type of revision. |
+| [Id](../../aspose.cells.revisions/revision/id) { get; } | Gets the number of this revision. |
+| [NewFormula](../../aspose.cells.revisions/revisiondefinedname/newformula) { get; } | Gets the formula. |
+| [OldFormula](../../aspose.cells.revisions/revisiondefinedname/oldformula) { get; } | Gets the old formula. |
+| [Text](../../aspose.cells.revisions/revisiondefinedname/text) { get; } | Gets the text of the defined name. |
+| override [Type](../../aspose.cells.revisions/revisiondefinedname/type) { get; } | Represents the type of revision. |
+| [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Gets the worksheet. |
 
 ### See Also
 

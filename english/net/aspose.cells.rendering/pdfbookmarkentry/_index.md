@@ -24,12 +24,12 @@ public class PdfBookmarkEntry
 
 | Name | Description |
 | --- | --- |
-| [Destination](destination) { get; set; } | The cell to which the bookmark link. |
-| [DestinationName](destinationname) { get; set; } | Gets or sets name of destination. |
-| [IsCollapse](iscollapse) { get; set; } | When this property is true, the bookmarkentry will collapse, otherwise it will expand. |
-| [IsOpen](isopen) { get; set; } | When this property is true, the bookmarkentry will expand, otherwise it will collapse. |
-| [SubEntry](subentry) { get; set; } | SubEntry of a bookmark. |
-| [Text](text) { get; set; } | Title of a bookmark. |
+| [Destination](../../aspose.cells.rendering/pdfbookmarkentry/destination) { get; set; } | The cell to which the bookmark link. |
+| [DestinationName](../../aspose.cells.rendering/pdfbookmarkentry/destinationname) { get; set; } | Gets or sets name of destination. |
+| [IsCollapse](../../aspose.cells.rendering/pdfbookmarkentry/iscollapse) { get; set; } | When this property is true, the bookmarkentry will collapse, otherwise it will expand. |
+| [IsOpen](../../aspose.cells.rendering/pdfbookmarkentry/isopen) { get; set; } | When this property is true, the bookmarkentry will expand, otherwise it will collapse. |
+| [SubEntry](../../aspose.cells.rendering/pdfbookmarkentry/subentry) { get; set; } | SubEntry of a bookmark. |
+| [Text](../../aspose.cells.rendering/pdfbookmarkentry/text) { get; set; } | Title of a bookmark. |
 
 ### Examples
 

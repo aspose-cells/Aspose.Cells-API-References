@@ -24,15 +24,15 @@ public class SignatureLine
 
 | Name | Description |
 | --- | --- |
-| [AllowComments](allowcomments) { get; set; } | Indicates whether comments could be attached. |
-| [Email](email) { get; set; } | Gets and sets the email of singer. |
-| [Id](id) { get; set; } | Gets or sets identifier for this signature line. |
-| [Instructions](instructions) { get; set; } | Gets and sets the text shown to user at signing time. |
-| [IsLine](isline) { get; set; } | Indicates whether it is a signature line. |
-| [ProviderId](providerid) { get; set; } | Gets and sets the id of signature provider. |
-| [ShowSignedDate](showsigneddate) { get; set; } | Indicates whether show signed date. |
-| [Signer](signer) { get; set; } | Gets and sets the signer. |
-| [Title](title) { get; set; } | Gets and sets the title of singer. |
+| [AllowComments](../../aspose.cells.drawing/signatureline/allowcomments) { get; set; } | Indicates whether comments could be attached. |
+| [Email](../../aspose.cells.drawing/signatureline/email) { get; set; } | Gets and sets the email of singer. |
+| [Id](../../aspose.cells.drawing/signatureline/id) { get; set; } | Gets or sets identifier for this signature line. |
+| [Instructions](../../aspose.cells.drawing/signatureline/instructions) { get; set; } | Gets and sets the text shown to user at signing time. |
+| [IsLine](../../aspose.cells.drawing/signatureline/isline) { get; set; } | Indicates whether it is a signature line. |
+| [ProviderId](../../aspose.cells.drawing/signatureline/providerid) { get; set; } | Gets and sets the id of signature provider. |
+| [ShowSignedDate](../../aspose.cells.drawing/signatureline/showsigneddate) { get; set; } | Indicates whether show signed date. |
+| [Signer](../../aspose.cells.drawing/signatureline/signer) { get; set; } | Gets and sets the signer. |
+| [Title](../../aspose.cells.drawing/signatureline/title) { get; set; } | Gets and sets the title of singer. |
 
 ### Examples
 

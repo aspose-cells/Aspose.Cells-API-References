@@ -18,9 +18,9 @@ public class HeaderFooterCommand
 
 | Name | Description |
 | --- | --- |
-| [Font](font) { get; } | Gets the font of the command's value. |
-| [Text](text) { get; } | Gets the text of the command. |
-| [Type](type) { get; } | Gets the header/footer' command type . |
+| [Font](../../aspose.cells/headerfootercommand/font) { get; } | Gets the font of the command's value. |
+| [Text](../../aspose.cells/headerfootercommand/text) { get; } | Gets the text of the command. |
+| [Type](../../aspose.cells/headerfootercommand/type) { get; } | Gets the header/footer' command type . |
 
 ### See Also
 

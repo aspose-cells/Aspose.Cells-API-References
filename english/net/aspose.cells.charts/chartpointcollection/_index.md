@@ -18,16 +18,16 @@ public class ChartPointCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the count of the chart point. |
-| [Item](item) { get; } | Gets the [`ChartPoint`](../chartpoint) element at the specified index in the series. |
+| [Count](../../aspose.cells.charts/chartpointcollection/count) { get; } | Gets the count of the chart point. |
+| [Item](../../aspose.cells.charts/chartpointcollection/item) { get; } | Gets the [`ChartPoint`](../chartpoint) element at the specified index in the series. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Clear](clear)() | Remove all setting of the chart points. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for the entire [`ChartPointCollection`](../chartpointcollection). |
-| [RemoveAt](removeat)(int) | Removes point at the index of the series.. |
+| [Clear](../../aspose.cells.charts/chartpointcollection/clear)() | Remove all setting of the chart points. |
+| [GetEnumerator](../../aspose.cells.charts/chartpointcollection/getenumerator)() | Returns an enumerator for the entire [`ChartPointCollection`](../chartpointcollection). |
+| [RemoveAt](../../aspose.cells.charts/chartpointcollection/removeat)(int) | Removes point at the index of the series.. |
 
 ### Examples
 

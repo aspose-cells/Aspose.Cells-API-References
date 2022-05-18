@@ -24,21 +24,32 @@ public class SqlScriptSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [AddBlankLineBetweenRows](addblanklinebetweenrows) { get; set; } | Insert blank line between each data. |
-| [CheckAllDataForColumnType](checkalldataforcolumntype) { get; set; } | Check all data to find columns' data type. |
-| [CheckIfTableExists](checkiftableexists) { get; set; } | Check if the table name exists before creating |
-| [ColumnTypeMap](columntypemap) { get; set; } | Gets and sets the map of column type for different database. |
-| [CreateTable](createtable) { get; set; } | Indicates whether exporting sql of creating table. |
-| [ExportArea](exportarea) { get; set; } | Gets or sets the exporting range. |
-| [ExportAsString](exportasstring) { get; set; } | Indicates whether exporting all data as string value. |
-| [HasHeaderRow](hasheaderrow) { get; set; } | Indicates whether the range contains header row. |
-| [IdName](idname) { get; set; } | Gets and sets the name of id column. |
-| [OperatorType](operatortype) { get; set; } | Gets and sets the operator type of sql. |
-| [PrimaryKey](primarykey) { get; set; } | Represents which column is primary key of the data table. |
-| [Separator](separator) { get; set; } | Gets and sets character separator of sql script. |
-| [SheetIndexes](sheetindexes) { get; set; } | Represents the indexes of exported sheets. |
-| [StartId](startid) { get; set; } | Gets and sets the start id. |
-| [TableName](tablename) { get; set; } | Gets and sets the table name. |
+| [AddBlankLineBetweenRows](../../aspose.cells.saving/sqlscriptsaveoptions/addblanklinebetweenrows) { get; set; } | Insert blank line between each data. |
+| [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder) { get; set; } | The cached file folder is used to store some large data. |
+| [CheckAllDataForColumnType](../../aspose.cells.saving/sqlscriptsaveoptions/checkalldataforcolumntype) { get; set; } | Check all data to find columns' data type. |
+| [CheckIfTableExists](../../aspose.cells.saving/sqlscriptsaveoptions/checkiftableexists) { get; set; } | Check if the table name exists before creating |
+| [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | Make the workbook empty after saving the file. |
+| [ColumnTypeMap](../../aspose.cells.saving/sqlscriptsaveoptions/columntypemap) { get; set; } | Gets and sets the map of column type for different database. |
+| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [CreateTable](../../aspose.cells.saving/sqlscriptsaveoptions/createtable) { get; set; } | Indicates whether exporting sql of creating table. |
+| [ExportArea](../../aspose.cells.saving/sqlscriptsaveoptions/exportarea) { get; set; } | Gets or sets the exporting range. |
+| [ExportAsString](../../aspose.cells.saving/sqlscriptsaveoptions/exportasstring) { get; set; } | Indicates whether exporting all data as string value. |
+| [HasHeaderRow](../../aspose.cells.saving/sqlscriptsaveoptions/hasheaderrow) { get; set; } | Indicates whether the range contains header row. |
+| [IdName](../../aspose.cells.saving/sqlscriptsaveoptions/idname) { get; set; } | Gets and sets the name of id column. |
+| [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [OperatorType](../../aspose.cells.saving/sqlscriptsaveoptions/operatortype) { get; set; } | Gets and sets the operator type of sql. |
+| [PrimaryKey](../../aspose.cells.saving/sqlscriptsaveoptions/primarykey) { get; set; } | Represents which column is primary key of the data table. |
+| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Indicates whether refreshing chart cache data |
+| [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Gets the save file format. |
+| [Separator](../../aspose.cells.saving/sqlscriptsaveoptions/separator) { get; set; } | Gets and sets character separator of sql script. |
+| [SheetIndexes](../../aspose.cells.saving/sqlscriptsaveoptions/sheetindexes) { get; set; } | Represents the indexes of exported sheets. |
+| [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | Indicates whether sorting external defined names before saving file. |
+| [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | Indicates whether sorting defined names before saving file. |
+| [StartId](../../aspose.cells.saving/sqlscriptsaveoptions/startid) { get; set; } | Gets and sets the start id. |
+| [TableName](../../aspose.cells.saving/sqlscriptsaveoptions/tablename) { get; set; } | Gets and sets the table name. |
+| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Indicates whether updating smart art setting. The default value is false. |
+| [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas) { get; set; } | Indicates whether validate merged cells before saving the file. |
+| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Gets or sets warning callback. |
 
 ### See Also
 

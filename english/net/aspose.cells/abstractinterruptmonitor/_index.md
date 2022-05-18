@@ -18,8 +18,8 @@ public abstract class AbstractInterruptMonitor
 
 | Name | Description |
 | --- | --- |
-| abstract [IsInterruptionRequested](isinterruptionrequested) { get; } | Indicates whether interruption is requested for current operation. If true then current operation will be interrupted. Implementation should perform fast and efficient check here, otherwise it may become another bottleneck for the procedure. |
-| virtual [TerminateWithoutException](terminatewithoutexception) { get; } | When procedure is interrupted, whether terminate the procedure quietly or throw an Exception. Default is false, that is, when [`IsInterruptionRequested`](./isinterruptionrequested) is true, a [`CellsException`](../cellsexception) with code Interrupted will be thrown. |
+| abstract [IsInterruptionRequested](../../aspose.cells/abstractinterruptmonitor/isinterruptionrequested) { get; } | Indicates whether interruption is requested for current operation. If true then current operation will be interrupted. Implementation should perform fast and efficient check here, otherwise it may become another bottleneck for the procedure. |
+| virtual [TerminateWithoutException](../../aspose.cells/abstractinterruptmonitor/terminatewithoutexception) { get; } | When procedure is interrupted, whether terminate the procedure quietly or throw an Exception. Default is false, that is, when [`IsInterruptionRequested`](./isinterruptionrequested) is true, a [`CellsException`](../cellsexception) with code Interrupted will be thrown. |
 
 ### See Also
 

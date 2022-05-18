@@ -18,9 +18,11 @@ public class RevisionFormat : Revision
 
 | Name | Description |
 | --- | --- |
-| [Areas](areas) { get; } | The range to which this formatting was applied. |
-| [Style](style) { get; } | Gets the applied style. |
-| override [Type](type) { get; } | Gets the type of revision. |
+| [Areas](../../aspose.cells.revisions/revisionformat/areas) { get; } | The range to which this formatting was applied. |
+| [Id](../../aspose.cells.revisions/revision/id) { get; } | Gets the number of this revision. |
+| [Style](../../aspose.cells.revisions/revisionformat/style) { get; } | Gets the applied style. |
+| override [Type](../../aspose.cells.revisions/revisionformat/type) { get; } | Gets the type of revision. |
+| [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Gets the worksheet. |
 
 ### See Also
 

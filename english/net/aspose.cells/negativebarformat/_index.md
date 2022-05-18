@@ -18,10 +18,10 @@ public class NegativeBarFormat
 
 | Name | Description |
 | --- | --- |
-| [BorderColor](bordercolor) { get; set; } | Gets or sets a FormatColor object that you can use to specify the border color for negative data bars. |
-| [BorderColorType](bordercolortype) { get; set; } | Gets whether to use the same border color as positive data bars. |
-| [Color](color) { get; set; } | Gets or sets a FormatColor object that you can use to specify the fill color for negative data bars. |
-| [ColorType](colortype) { get; set; } | Gets or sets whether to use the same fill color as positive data bars. |
+| [BorderColor](../../aspose.cells/negativebarformat/bordercolor) { get; set; } | Gets or sets a FormatColor object that you can use to specify the border color for negative data bars. |
+| [BorderColorType](../../aspose.cells/negativebarformat/bordercolortype) { get; set; } | Gets whether to use the same border color as positive data bars. |
+| [Color](../../aspose.cells/negativebarformat/color) { get; set; } | Gets or sets a FormatColor object that you can use to specify the fill color for negative data bars. |
+| [ColorType](../../aspose.cells/negativebarformat/colortype) { get; set; } | Gets or sets whether to use the same fill color as positive data bars. |
 
 ### See Also
 

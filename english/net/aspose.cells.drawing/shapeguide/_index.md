@@ -18,7 +18,7 @@ public class ShapeGuide : BaseShapeGuide
 
 | Name | Description |
 | --- | --- |
-| [Value](value) { get; set; } | Gets or sets value of this guide |
+| [Value](../../aspose.cells.drawing/shapeguide/value) { get; set; } | Gets or sets value of this guide |
 
 ### See Also
 

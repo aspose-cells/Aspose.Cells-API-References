@@ -18,17 +18,17 @@ public class ProtectedRange
 
 | Name | Description |
 | --- | --- |
-| [CellArea](cellarea) { get; } | Gets the [`CellArea`](./cellarea) object represents the cell area to be protected. |
-| [Name](name) { get; set; } | Gets the Range title. This is used as a descriptor, not as a named range definition. |
-| [Password](password) { get; set; } | Represents the password to protect the range. |
-| [SecurityDescriptor](securitydescriptor) { get; set; } | The security descriptor defines user accounts who may edit this range without providing a password to access the range. |
+| [CellArea](../../aspose.cells/protectedrange/cellarea) { get; } | Gets the [`CellArea`](./cellarea) object represents the cell area to be protected. |
+| [Name](../../aspose.cells/protectedrange/name) { get; set; } | Gets the Range title. This is used as a descriptor, not as a named range definition. |
+| [Password](../../aspose.cells/protectedrange/password) { get; set; } | Represents the password to protect the range. |
+| [SecurityDescriptor](../../aspose.cells/protectedrange/securitydescriptor) { get; set; } | The security descriptor defines user accounts who may edit this range without providing a password to access the range. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddArea](addarea)(int, int, int, int) | Adds a referred area to this |
-| [GetAreas](getareas)() | Gets all referred areas. |
+| [AddArea](../../aspose.cells/protectedrange/addarea)(int, int, int, int) | Adds a referred area to this |
+| [GetAreas](../../aspose.cells/protectedrange/getareas)() | Gets all referred areas. |
 
 ### See Also
 

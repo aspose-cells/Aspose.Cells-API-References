@@ -24,7 +24,7 @@ public class DeleteOptions
 
 | Name | Description |
 | --- | --- |
-| [UpdateReference](updatereference) { get; set; } | Indicates if update references in other worksheets. |
+| [UpdateReference](../../aspose.cells/deleteoptions/updatereference) { get; set; } | Indicates if update references in other worksheets. |
 
 ### See Also
 

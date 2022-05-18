@@ -18,18 +18,18 @@ public class MsoFillFormatHelper
 
 | Name | Description |
 | --- | --- |
-| [BackColor](backcolor) { get; set; } | Gets and sets the file back color. |
-| [ForeColor](forecolor) { get; set; } | Gets and sets the fill fore color. |
-| [ForeColorTransparency](forecolortransparency) { get; set; } | Returns or sets the degree of fore color of the specified fill as a value from 0.0 (opaque) through 1.0 (clear). |
-| [ImageData](imagedata) { get; set; } | Gets and sets the Texture and Picture fill data. |
-| [IsVisible](isvisible) { get; set; } | Indicates whether there is fill. |
-| [Texture](texture) { get; } | Gets the texture fill type. |
+| [BackColor](../../aspose.cells.drawing/msofillformathelper/backcolor) { get; set; } | Gets and sets the file back color. |
+| [ForeColor](../../aspose.cells.drawing/msofillformathelper/forecolor) { get; set; } | Gets and sets the fill fore color. |
+| [ForeColorTransparency](../../aspose.cells.drawing/msofillformathelper/forecolortransparency) { get; set; } | Returns or sets the degree of fore color of the specified fill as a value from 0.0 (opaque) through 1.0 (clear). |
+| [ImageData](../../aspose.cells.drawing/msofillformathelper/imagedata) { get; set; } | Gets and sets the Texture and Picture fill data. |
+| [IsVisible](../../aspose.cells.drawing/msofillformathelper/isvisible) { get; set; } | Indicates whether there is fill. |
+| [Texture](../../aspose.cells.drawing/msofillformathelper/texture) { get; } | Gets the texture fill type. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetOneColorGradient](setonecolorgradient)(Color, double, GradientStyleType, int) | Sets the specified fill to a one-color gradient. |
+| [SetOneColorGradient](../../aspose.cells.drawing/msofillformathelper/setonecolorgradient)(Color, double, GradientStyleType, int) | Sets the specified fill to a one-color gradient. |
 
 ### See Also
 

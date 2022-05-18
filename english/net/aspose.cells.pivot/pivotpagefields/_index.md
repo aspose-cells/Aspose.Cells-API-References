@@ -24,14 +24,14 @@ public class PivotPageFields
 
 | Name | Description |
 | --- | --- |
-| [PageFieldCount](pagefieldcount) { get; } | Gets the number of page fields. |
+| [PageFieldCount](../../aspose.cells.pivot/pivotpagefields/pagefieldcount) { get; } | Gets the number of page fields. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddIdentify](addidentify)(int, int[]) | Sets which item label in each page field to use to identify the data range. The pageItemIndex.Length must be equal to PageFieldCount, so please add the page field first. |
-| [AddPageField](addpagefield)(string[]) | Adds a page field. |
+| [AddIdentify](../../aspose.cells.pivot/pivotpagefields/addidentify)(int, int[]) | Sets which item label in each page field to use to identify the data range. The pageItemIndex.Length must be equal to PageFieldCount, so please add the page field first. |
+| [AddPageField](../../aspose.cells.pivot/pivotpagefields/addpagefield)(string[]) | Adds a page field. |
 
 ### See Also
 

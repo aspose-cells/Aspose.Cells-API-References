@@ -18,9 +18,11 @@ public class RevisionCustomView : Revision
 
 | Name | Description |
 | --- | --- |
-| [ActionType](actiontype) { get; } | Gets the type of action. |
-| [Guid](guid) { get; } | Gets the globally unique identifier of the custom view. |
-| override [Type](type) { get; } | Gets the type of revision. |
+| [ActionType](../../aspose.cells.revisions/revisioncustomview/actiontype) { get; } | Gets the type of action. |
+| [Guid](../../aspose.cells.revisions/revisioncustomview/guid) { get; } | Gets the globally unique identifier of the custom view. |
+| [Id](../../aspose.cells.revisions/revision/id) { get; } | Gets the number of this revision. |
+| override [Type](../../aspose.cells.revisions/revisioncustomview/type) { get; } | Gets the type of revision. |
+| [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Gets the worksheet. |
 
 ### See Also
 

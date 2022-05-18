@@ -18,9 +18,9 @@ public class PaneCollection
 
 | Name | Description |
 | --- | --- |
-| [AcitvePaneType](acitvepanetype) { get; set; } | Gets and sets the active pane. |
-| [FirstVisibleColumnOfRightPane](firstvisiblecolumnofrightpane) { get; set; } | Gets and sets the first visible column of the right pane. |
-| [FirstVisibleRowOfBottomPane](firstvisiblerowofbottompane) { get; set; } | Gets and sets the first visible row of the bottom pane. |
+| [AcitvePaneType](../../aspose.cells/panecollection/acitvepanetype) { get; set; } | Gets and sets the active pane. |
+| [FirstVisibleColumnOfRightPane](../../aspose.cells/panecollection/firstvisiblecolumnofrightpane) { get; set; } | Gets and sets the first visible column of the right pane. |
+| [FirstVisibleRowOfBottomPane](../../aspose.cells/panecollection/firstvisiblerowofbottompane) { get; set; } | Gets and sets the first visible row of the bottom pane. |
 
 ### See Also
 

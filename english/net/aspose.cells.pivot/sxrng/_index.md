@@ -18,12 +18,12 @@ public class SxRng
 
 | Name | Description |
 | --- | --- |
-| [By](by) { get; } | Represents the interval object for the group range. |
-| [End](end) { get; } | Represents the end object for the group range. |
-| [GroupByTypes](groupbytypes) { get; } | Represents the group type for the group range. rangeofvalue Seconds Minutes Hours Days Months Quarters Years |
-| [IsAutoEnd](isautoend) { get; } | Specifies a boolean value that indicates whether the application will use the source data to set the end range value. |
-| [IsAutoStart](isautostart) { get; } | Specifies a boolean value that indicates whether the application will use the source data to set the beginning range value. |
-| [Start](start) { get; } | Represents the start object for the group range. |
+| [By](../../aspose.cells.pivot/sxrng/by) { get; } | Represents the interval object for the group range. |
+| [End](../../aspose.cells.pivot/sxrng/end) { get; } | Represents the end object for the group range. |
+| [GroupByTypes](../../aspose.cells.pivot/sxrng/groupbytypes) { get; } | Represents the group type for the group range. rangeofvalue Seconds Minutes Hours Days Months Quarters Years |
+| [IsAutoEnd](../../aspose.cells.pivot/sxrng/isautoend) { get; } | Specifies a boolean value that indicates whether the application will use the source data to set the end range value. |
+| [IsAutoStart](../../aspose.cells.pivot/sxrng/isautostart) { get; } | Specifies a boolean value that indicates whether the application will use the source data to set the beginning range value. |
+| [Start](../../aspose.cells.pivot/sxrng/start) { get; } | Represents the start object for the group range. |
 
 ### See Also
 

@@ -18,19 +18,19 @@ public class TextEffectFormat
 
 | Name | Description |
 | --- | --- |
-| [FontBold](fontbold) { get; set; } | Indicates whether font is bold. |
-| [FontItalic](fontitalic) { get; set; } | Indicates whether font is italic. |
-| [FontName](fontname) { get; set; } | The name of the font used in the WordArt. |
-| [FontSize](fontsize) { get; set; } | The size (in points) of the font used in the WordArt. |
-| [PresetShape](presetshape) { get; set; } | Gets and sets the preset shape type. |
-| [RotatedChars](rotatedchars) { get; set; } | If true,characters in the specified WordArt are rotated 90 degrees relative to the WordArt's bounding shape. |
-| [Text](text) { get; set; } | The text in the WordArt. |
+| [FontBold](../../aspose.cells.drawing/texteffectformat/fontbold) { get; set; } | Indicates whether font is bold. |
+| [FontItalic](../../aspose.cells.drawing/texteffectformat/fontitalic) { get; set; } | Indicates whether font is italic. |
+| [FontName](../../aspose.cells.drawing/texteffectformat/fontname) { get; set; } | The name of the font used in the WordArt. |
+| [FontSize](../../aspose.cells.drawing/texteffectformat/fontsize) { get; set; } | The size (in points) of the font used in the WordArt. |
+| [PresetShape](../../aspose.cells.drawing/texteffectformat/presetshape) { get; set; } | Gets and sets the preset shape type. |
+| [RotatedChars](../../aspose.cells.drawing/texteffectformat/rotatedchars) { get; set; } | If true,characters in the specified WordArt are rotated 90 degrees relative to the WordArt's bounding shape. |
+| [Text](../../aspose.cells.drawing/texteffectformat/text) { get; set; } | The text in the WordArt. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetTextEffect](settexteffect)(MsoPresetTextEffect) | Sets the preset text effect. |
+| [SetTextEffect](../../aspose.cells.drawing/texteffectformat/settexteffect)(MsoPresetTextEffect) | Sets the preset text effect. |
 
 ### Examples
 

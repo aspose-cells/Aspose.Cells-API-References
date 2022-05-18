@@ -14,6 +14,13 @@ Represents this fill format should inherit the fill properties of the group.
 public class GroupFill : Fill
 ```
 
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.cells.drawing/fill/equals)(object) | / |
+| override [GetHashCode](../../aspose.cells.drawing/fill/gethashcode)() | Gets the hash code. |
+
 ### See Also
 
 * class [Fill](../fill)

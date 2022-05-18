@@ -18,7 +18,13 @@ public class Floor : Area
 
 | Name | Description |
 | --- | --- |
-| [Border](border) { get; set; } | Gets or sets the border [`Line`](../../aspose.cells.drawing/line). |
+| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor) { get; set; } | Gets or sets the background Color of the [`Area`](../../aspose.cells.drawing/area). |
+| [Border](../../aspose.cells.charts/floor/border) { get; set; } | Gets or sets the border [`Line`](../../aspose.cells.drawing/line). |
+| [FillFormat](../../aspose.cells.drawing/area/fillformat) { get; } | Represents a  object that contains fill formatting properties for the specified chart or shape. |
+| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor) { get; set; } | Gets or sets the foreground Color. |
+| [Formatting](../../aspose.cells.drawing/area/formatting) { get; set; } | Represents the formatting of the area. |
+| [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative) { get; set; } | If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
+| [Transparency](../../aspose.cells.drawing/area/transparency) { get; set; } | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 
 ### Examples
 

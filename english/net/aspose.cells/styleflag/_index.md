@@ -24,36 +24,36 @@ public class StyleFlag
 
 | Name | Description |
 | --- | --- |
-| [Alignments](alignments) { get; set; } | Alignment setting will be applied. |
-| [All](all) { get; set; } | All properties will be applied. |
-| [Borders](borders) { get; set; } | All borders settings will be applied. |
-| [BottomBorder](bottomborder) { get; set; } | Bottom border settings will be applied. |
-| [CellShading](cellshading) { get; set; } | Cell shading setting will be applied. |
-| [DiagonalDownBorder](diagonaldownborder) { get; set; } | Diagonal down border settings will be applied. |
-| [DiagonalUpBorder](diagonalupborder) { get; set; } | Diagonal up border settings will be applied. |
-| [Font](font) { get; set; } | Font settings will be applied. |
-| [FontBold](fontbold) { get; set; } | Font bold setting will be applied. |
-| [FontColor](fontcolor) { get; set; } | Font color setting will be applied. |
-| [FontItalic](fontitalic) { get; set; } | Font italic setting will be applied. |
-| [FontName](fontname) { get; set; } | Font name setting will be applied. |
-| [FontScript](fontscript) { get; set; } | Font script setting will be applied. |
-| [FontSize](fontsize) { get; set; } | Font size setting will be applied. |
-| [FontStrike](fontstrike) { get; set; } | Font strikeout setting will be applied. |
-| [FontUnderline](fontunderline) { get; set; } | Font underline setting will be applied. |
-| [HideFormula](hideformula) { get; set; } | Hide formula setting will be applied. |
-| [HorizontalAlignment](horizontalalignment) { get; set; } | Horizontal alignment setting will be applied. |
-| [Indent](indent) { get; set; } | Indent level setting will be applied. |
-| [LeftBorder](leftborder) { get; set; } | Left border settings will be applied. |
-| [Locked](locked) { get; set; } | Locked setting will be applied. |
-| [NumberFormat](numberformat) { get; set; } | Number format setting will be applied. |
-| [QuotePrefix](quoteprefix) { get; set; } | Hide formula setting will be applied. |
-| [RightBorder](rightborder) { get; set; } | Right border settings will be applied. |
-| [Rotation](rotation) { get; set; } | Rotation setting will be applied. |
-| [ShrinkToFit](shrinktofit) { get; set; } | Shrink to fit setting will be applied. |
-| [TextDirection](textdirection) { get; set; } | Text direction setting will be applied. |
-| [TopBorder](topborder) { get; set; } | Top border settings will be applied. |
-| [VerticalAlignment](verticalalignment) { get; set; } | Vertical alignment setting will be applied. |
-| [WrapText](wraptext) { get; set; } | Wrap text setting will be applied. |
+| [Alignments](../../aspose.cells/styleflag/alignments) { get; set; } | Alignment setting will be applied. |
+| [All](../../aspose.cells/styleflag/all) { get; set; } | All properties will be applied. |
+| [Borders](../../aspose.cells/styleflag/borders) { get; set; } | All borders settings will be applied. |
+| [BottomBorder](../../aspose.cells/styleflag/bottomborder) { get; set; } | Bottom border settings will be applied. |
+| [CellShading](../../aspose.cells/styleflag/cellshading) { get; set; } | Cell shading setting will be applied. |
+| [DiagonalDownBorder](../../aspose.cells/styleflag/diagonaldownborder) { get; set; } | Diagonal down border settings will be applied. |
+| [DiagonalUpBorder](../../aspose.cells/styleflag/diagonalupborder) { get; set; } | Diagonal up border settings will be applied. |
+| [Font](../../aspose.cells/styleflag/font) { get; set; } | Font settings will be applied. |
+| [FontBold](../../aspose.cells/styleflag/fontbold) { get; set; } | Font bold setting will be applied. |
+| [FontColor](../../aspose.cells/styleflag/fontcolor) { get; set; } | Font color setting will be applied. |
+| [FontItalic](../../aspose.cells/styleflag/fontitalic) { get; set; } | Font italic setting will be applied. |
+| [FontName](../../aspose.cells/styleflag/fontname) { get; set; } | Font name setting will be applied. |
+| [FontScript](../../aspose.cells/styleflag/fontscript) { get; set; } | Font script setting will be applied. |
+| [FontSize](../../aspose.cells/styleflag/fontsize) { get; set; } | Font size setting will be applied. |
+| [FontStrike](../../aspose.cells/styleflag/fontstrike) { get; set; } | Font strikeout setting will be applied. |
+| [FontUnderline](../../aspose.cells/styleflag/fontunderline) { get; set; } | Font underline setting will be applied. |
+| [HideFormula](../../aspose.cells/styleflag/hideformula) { get; set; } | Hide formula setting will be applied. |
+| [HorizontalAlignment](../../aspose.cells/styleflag/horizontalalignment) { get; set; } | Horizontal alignment setting will be applied. |
+| [Indent](../../aspose.cells/styleflag/indent) { get; set; } | Indent level setting will be applied. |
+| [LeftBorder](../../aspose.cells/styleflag/leftborder) { get; set; } | Left border settings will be applied. |
+| [Locked](../../aspose.cells/styleflag/locked) { get; set; } | Locked setting will be applied. |
+| [NumberFormat](../../aspose.cells/styleflag/numberformat) { get; set; } | Number format setting will be applied. |
+| [QuotePrefix](../../aspose.cells/styleflag/quoteprefix) { get; set; } | Hide formula setting will be applied. |
+| [RightBorder](../../aspose.cells/styleflag/rightborder) { get; set; } | Right border settings will be applied. |
+| [Rotation](../../aspose.cells/styleflag/rotation) { get; set; } | Rotation setting will be applied. |
+| [ShrinkToFit](../../aspose.cells/styleflag/shrinktofit) { get; set; } | Shrink to fit setting will be applied. |
+| [TextDirection](../../aspose.cells/styleflag/textdirection) { get; set; } | Text direction setting will be applied. |
+| [TopBorder](../../aspose.cells/styleflag/topborder) { get; set; } | Top border settings will be applied. |
+| [VerticalAlignment](../../aspose.cells/styleflag/verticalalignment) { get; set; } | Vertical alignment setting will be applied. |
+| [WrapText](../../aspose.cells/styleflag/wraptext) { get; set; } | Wrap text setting will be applied. |
 
 ### See Also
 

@@ -18,8 +18,8 @@ public class ColorHelper
 
 | Name | Description |
 | --- | --- |
-| static [FromOleColor](fromolecolor)(int) | Convert OLE_COLOR. |
-| static [ToOleColor](toolecolor)(Color, Workbook) | Convert color to OLE_COLOR |
+| static [FromOleColor](../../aspose.cells.drawing/colorhelper/fromolecolor)(int) | Convert OLE_COLOR. |
+| static [ToOleColor](../../aspose.cells.drawing/colorhelper/toolecolor)(Color, Workbook) | Convert color to OLE_COLOR |
 
 ### See Also
 

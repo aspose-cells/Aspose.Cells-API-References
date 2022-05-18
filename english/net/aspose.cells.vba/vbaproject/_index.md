@@ -18,23 +18,23 @@ public class VbaProject
 
 | Name | Description |
 | --- | --- |
-| [CertRawData](certrawdata) { get; } | Gets certificate raw data if this VBA project is signed. |
-| [IslockedForViewing](islockedforviewing) { get; } | Indicates whether this VBA project is locked for viewing. |
-| [IsProtected](isprotected) { get; } | Indicates whether this VBA project is protected. |
-| [IsSigned](issigned) { get; } | Indicates whether VBAcode is signed or not. |
-| [IsValidSigned](isvalidsigned) { get; } | Indicates whether the signature of VBA project is valid or not. |
-| [Modules](modules) { get; } | Gets all [`VbaModule`](../vbamodule) objects. |
-| [Name](name) { get; set; } | Gets and sets the name of the VBA project. |
-| [References](references) { get; } | Gets all references of VBA project. |
+| [CertRawData](../../aspose.cells.vba/vbaproject/certrawdata) { get; } | Gets certificate raw data if this VBA project is signed. |
+| [IslockedForViewing](../../aspose.cells.vba/vbaproject/islockedforviewing) { get; } | Indicates whether this VBA project is locked for viewing. |
+| [IsProtected](../../aspose.cells.vba/vbaproject/isprotected) { get; } | Indicates whether this VBA project is protected. |
+| [IsSigned](../../aspose.cells.vba/vbaproject/issigned) { get; } | Indicates whether VBAcode is signed or not. |
+| [IsValidSigned](../../aspose.cells.vba/vbaproject/isvalidsigned) { get; } | Indicates whether the signature of VBA project is valid or not. |
+| [Modules](../../aspose.cells.vba/vbaproject/modules) { get; } | Gets all [`VbaModule`](../vbamodule) objects. |
+| [Name](../../aspose.cells.vba/vbaproject/name) { get; set; } | Gets and sets the name of the VBA project. |
+| [References](../../aspose.cells.vba/vbaproject/references) { get; } | Gets all references of VBA project. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Copy](copy)(VbaProject) | Copy VBA project from other file. |
-| [Protect](protect)(bool, string) | Protects or unprotects this VBA project. |
-| [Sign](sign)(DigitalSignature) | Sign this VBA project by a DigitalSignature |
-| [ValidatePassword](validatepassword)(string) | Validates protection password. |
+| [Copy](../../aspose.cells.vba/vbaproject/copy)(VbaProject) | Copy VBA project from other file. |
+| [Protect](../../aspose.cells.vba/vbaproject/protect)(bool, string) | Protects or unprotects this VBA project. |
+| [Sign](../../aspose.cells.vba/vbaproject/sign)(DigitalSignature) | Sign this VBA project by a DigitalSignature |
+| [ValidatePassword](../../aspose.cells.vba/vbaproject/validatepassword)(string) | Validates protection password. |
 
 ### Examples
 
