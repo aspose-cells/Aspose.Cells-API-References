@@ -12,8 +12,8 @@ Contains all classes of smart tag.
 
 | Class | Description |
 | --- | --- |
-| [CustomXmlPart](./customxmlpart) | Represents a Custom XML Data Storage Part (../custom XML data within a package). |
-| [CustomXmlPartCollection](./customxmlpartcollection) | Represents a Custom XML Data Storage Part (../custom XML data within a package). |
+| [CustomXmlPart](./customxmlpart) | Represents a Custom XML Data Storage Part (custom XML data within a package). |
+| [CustomXmlPartCollection](./customxmlpartcollection) | Represents a Custom XML Data Storage Part (custom XML data within a package). |
 | [SmartTag](./smarttag) | Represents a smart tag. |
 | [SmartTagCollection](./smarttagcollection) | Represents all smart tags in the cell. |
 | [SmartTagOptions](./smarttagoptions) | Represents the options of the smart tag. |

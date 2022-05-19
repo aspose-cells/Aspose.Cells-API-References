@@ -16,7 +16,7 @@ url: /net/aspose.cells.revisions/
 | [RevisionAutoFormat](./revisionautoformat) | represents a revision record of information about a formatting change. |
 | [RevisionCellChange](./revisioncellchange) | Represents the revision that changing cells. |
 | [RevisionCellComment](./revisioncellcomment) | Represents a revision record of a cell comment change. |
-| [RevisionCellMove](./revisioncellmove) | Represents a revision record on a cell(../s) that moved. |
+| [RevisionCellMove](./revisioncellmove) | Represents a revision record on a cell(s) that moved. |
 | [RevisionCollection](./revisioncollection) | Represents all revision logs. |
 | [RevisionCustomView](./revisioncustomview) | Represents a revision record of adding or removing a custom view to the workbook |
 | [RevisionDefinedName](./revisiondefinedname) | Represents a revision record of a defined name change. |

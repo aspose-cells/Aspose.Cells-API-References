@@ -104,7 +104,7 @@ Contains all classes of shapes and fill format.
 | [GradientFillType](./gradientfilltype) | Represents all Gradient fill type. |
 | [GradientPresetType](./gradientpresettype) | Represents gradient preset color type. |
 | [GradientStyleType](./gradientstyletype) | Represents gradient shading style. |
-| [ImageType](./imagetype) | Specifies the type (../format) of an image. |
+| [ImageType](./imagetype) | Specifies the type (format) of an image. |
 | [LightRigDirectionType](./lightrigdirectiontype) | Represents the light rig direction type. |
 | [LightRigType](./lightrigtype) | Represents a preset light right that can be applied to a shape |
 | [LineCapType](./linecaptype) | Represents the caps of a line |
