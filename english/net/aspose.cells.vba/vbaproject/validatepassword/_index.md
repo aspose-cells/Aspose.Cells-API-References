@@ -18,7 +18,7 @@ public bool ValidatePassword(string password)
 | --- | --- | --- |
 | password | String | the password |
 
-## Return Value
+### Return Value
 
 Whether password is the protection password of this VBA project
 

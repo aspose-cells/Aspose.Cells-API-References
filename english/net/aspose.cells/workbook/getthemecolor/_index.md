@@ -18,7 +18,7 @@ public Color GetThemeColor(ThemeColorType type)
 | --- | --- | --- |
 | type | ThemeColorType | The theme color type. |
 
-## Return Value
+### Return Value
 
 The theme color.
 

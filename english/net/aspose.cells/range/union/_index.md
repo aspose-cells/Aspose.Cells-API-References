@@ -18,7 +18,7 @@ public ArrayList Union(Range range)
 | --- | --- | --- |
 | range | Range | The range |
 
-## Return Value
+### Return Value
 
 The union of two ranges.
 

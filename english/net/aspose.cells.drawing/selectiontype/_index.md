@@ -14,7 +14,7 @@ The selection type of list box.
 public enum SelectionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

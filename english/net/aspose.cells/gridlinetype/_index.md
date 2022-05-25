@@ -14,7 +14,7 @@ Enumerates grid line Type.
 public enum GridlineType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

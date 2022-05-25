@@ -14,7 +14,7 @@ Specifies external database source type
 public enum ConnectionDataSourceType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public Cell GetCellByDisplayName(string displayName)
 | --- | --- | --- |
 | displayName | String | the DisplayName of PivotField |
 
-## Return Value
+### Return Value
 
 the Cell object
 

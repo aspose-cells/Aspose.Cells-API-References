@@ -14,7 +14,7 @@ Enumerates a cell's border type.
 public enum CellBorderType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

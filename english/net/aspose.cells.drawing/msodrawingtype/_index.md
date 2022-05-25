@@ -14,7 +14,7 @@ Represents office drawing objects type.
 public enum MsoDrawingType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

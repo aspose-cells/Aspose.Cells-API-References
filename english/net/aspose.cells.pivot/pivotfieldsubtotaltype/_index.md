@@ -14,7 +14,7 @@ Summary description for PivotFieldSubtotalType.
 public enum PivotFieldSubtotalType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

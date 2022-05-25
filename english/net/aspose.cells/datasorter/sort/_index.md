@@ -22,7 +22,7 @@ public int[] Sort(Cells cells, int startRow, int startColumn, int endRow, int en
 | endRow | Int32 | The end row of the area. |
 | endColumn | Int32 | The end column of the area. |
 
-## Return Value
+### Return Value
 
 the original indices(absolute position, for example, column A is 0, B is 1, ...) of the sorted rows/columns. If no rows/columns needs to be moved by this sorting operation, null will be returned.
 
@@ -48,7 +48,7 @@ public int[] Sort(Cells cells, CellArea area)
 | cells | Cells | The cells contains the data area. |
 | area | CellArea | The area needed to sort |
 
-## Return Value
+### Return Value
 
 the original indices(absolute position, for example, column A is 0, B is 1, ...) of the sorted rows/columns. If no rows/columns needs to be moved by this sorting operation, null will be returned.
 
@@ -70,7 +70,7 @@ Sort the data in the range.
 public int[] Sort()
 ```
 
-## Return Value
+### Return Value
 
 the original indices(absolute position, for example, column A is 0, B is 1, ...) of the sorted rows/columns. If no rows/columns needs to be moved by this sorting operation, null will be returned.
 

@@ -14,7 +14,7 @@ Represents comment title type while rendering when comment is set to display at 
 public enum CommentTitleType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

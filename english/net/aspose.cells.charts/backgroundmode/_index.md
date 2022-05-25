@@ -14,7 +14,7 @@ Represents the display mode of the background.
 public enum BackgroundMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

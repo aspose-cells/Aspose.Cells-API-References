@@ -14,7 +14,7 @@ Specifies the parameter type of external connection
 public enum ConnectionParameterType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

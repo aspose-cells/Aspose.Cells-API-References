@@ -14,7 +14,7 @@ Gets the name of "Grand Total" label in the PivotTable.
 public virtual string GetPivotGrandTotalName()
 ```
 
-## Return Value
+### Return Value
 
 The name of "Grand Total" label
 

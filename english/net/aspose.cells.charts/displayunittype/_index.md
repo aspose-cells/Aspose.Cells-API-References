@@ -14,7 +14,7 @@ Represents the type of display unit.
 public enum DisplayUnitType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

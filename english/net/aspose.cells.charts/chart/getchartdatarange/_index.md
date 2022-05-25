@@ -14,7 +14,7 @@ Gets the data source range of the chart .
 public string GetChartDataRange()
 ```
 
-## Return Value
+### Return Value
 
 The data source.
 

@@ -14,7 +14,7 @@ Adds task pane.
 public int Add()
 ```
 
-## Return Value
+### Return Value
 
 The index.
 

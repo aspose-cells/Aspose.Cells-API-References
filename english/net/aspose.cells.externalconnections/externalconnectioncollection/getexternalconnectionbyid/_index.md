@@ -18,7 +18,7 @@ public ExternalConnection GetExternalConnectionById(int connId)
 | --- | --- | --- |
 | connId | Int32 | external connection id |
 
-## Return Value
+### Return Value
 
 The element with the specified id.
 

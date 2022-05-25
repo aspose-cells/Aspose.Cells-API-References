@@ -14,7 +14,7 @@ Represents PivotTable auto format type.
 public enum PivotTableAutoFormatType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

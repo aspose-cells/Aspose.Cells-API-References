@@ -14,7 +14,7 @@ Represents the node type.
 public enum TextNodeType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Memory usage options.
 public enum MemorySetting
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

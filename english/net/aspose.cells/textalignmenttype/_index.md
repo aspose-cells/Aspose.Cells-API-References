@@ -14,7 +14,7 @@ Enumerates text alignment types.
 public enum TextAlignmentType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

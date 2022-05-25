@@ -22,7 +22,7 @@ public Picture SetPicture(bool isFirst, bool isEven, bool isHeader, int section,
 | section | Int32 | 0:Left Section. |
 | imageData | Byte[] | Image data. |
 
-## Return Value
+### Return Value
 
 Returns [`Picture`](../../../aspose.cells.drawing/picture) object.
 

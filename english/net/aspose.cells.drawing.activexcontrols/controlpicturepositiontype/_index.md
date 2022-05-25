@@ -14,7 +14,7 @@ Represents the location of the control's picture relative to its caption.
 public enum ControlPicturePositionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

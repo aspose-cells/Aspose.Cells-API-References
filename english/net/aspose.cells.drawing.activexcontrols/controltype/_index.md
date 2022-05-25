@@ -14,7 +14,7 @@ Represents all type of ActiveX control.
 public enum ControlType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

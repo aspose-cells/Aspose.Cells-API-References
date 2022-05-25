@@ -18,7 +18,7 @@ public PivotFieldCollection Fields(PivotFieldType fieldType)
 | --- | --- | --- |
 | fieldType | PivotFieldType | the field type. |
 
-## Return Value
+### Return Value
 
 the specific fields
 

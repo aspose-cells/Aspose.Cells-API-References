@@ -19,7 +19,7 @@ public object GetListValue(int row, int column)
 | row | Int32 | The row index. |
 | column | Int32 | The column index. |
 
-## Return Value
+### Return Value
 
 The value to produce the list of this validation for the specified cell. If the list references to a range, then the returned value will be a [`ReferredArea`](../../referredarea) object; Otherwise the returned value may be null, object[], or simple object.
 

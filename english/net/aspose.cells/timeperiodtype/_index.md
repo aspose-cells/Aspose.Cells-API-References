@@ -14,7 +14,7 @@ Used in a FormatConditionType.TimePeriod conditional formatting rule. These are 
 public enum TimePeriodType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

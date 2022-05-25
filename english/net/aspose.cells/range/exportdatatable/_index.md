@@ -14,7 +14,7 @@ Exports data in this range to a DataTable object.
 public DataTable ExportDataTable()
 ```
 
-## Return Value
+### Return Value
 
 Exported DataTable object.
 
@@ -38,7 +38,7 @@ public DataTable ExportDataTable(ExportTableOptions options)
 | --- | --- | --- |
 | options | ExportTableOptions | The options of exporting range to datatable. |
 
-## Return Value
+### Return Value
 
 Exported DataTable object.
 

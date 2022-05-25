@@ -14,7 +14,7 @@ Gets the range if this name refers to a range.
 public Range GetRange()
 ```
 
-## Return Value
+### Return Value
 
 The range.
 
@@ -39,7 +39,7 @@ public Range GetRange(bool recalculate)
 | --- | --- | --- |
 | recalculate | Boolean | whether recalculate it if this name has been calculated before this invocation. |
 
-## Return Value
+### Return Value
 
 The range.
 
@@ -66,7 +66,7 @@ public Range GetRange(int sheetIndex, int row, int column)
 | row | Int32 | The according row index. |
 | column | Int32 | The according column index |
 
-## Return Value
+### Return Value
 
 The range.
 

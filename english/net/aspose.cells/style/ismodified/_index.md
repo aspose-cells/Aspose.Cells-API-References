@@ -18,7 +18,7 @@ public bool IsModified(StyleModifyFlag modifyFlag)
 | --- | --- | --- |
 | modifyFlag | StyleModifyFlag | Style modified flags |
 
-## Return Value
+### Return Value
 
 true if the specified properties have been modified
 

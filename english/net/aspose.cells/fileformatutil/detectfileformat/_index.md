@@ -18,7 +18,7 @@ public static FileFormatInfo DetectFileFormat(Stream stream)
 | --- | --- | --- |
 | stream | Stream |  |
 
-## Return Value
+### Return Value
 
 A [`FileFormatInfo`](../../fileformatinfo) object that contains the detected information.
 
@@ -44,7 +44,7 @@ public static FileFormatInfo DetectFileFormat(Stream stream, string password)
 | stream | Stream |  |
 | password | String | The password for encrypted ooxml files. |
 
-## Return Value
+### Return Value
 
 A [`FileFormatInfo`](../../fileformatinfo) object that contains the detected information.
 
@@ -69,7 +69,7 @@ public static FileFormatInfo DetectFileFormat(string filePath)
 | --- | --- | --- |
 | filePath | String | The file path. |
 
-## Return Value
+### Return Value
 
 A [`FileFormatInfo`](../../fileformatinfo) object that contains the detected information.
 
@@ -95,7 +95,7 @@ public static FileFormatInfo DetectFileFormat(string filePath, string password)
 | filePath | String | The file path. |
 | password | String | The password for encrypted ooxml files. |
 
-## Return Value
+### Return Value
 
 A [`FileFormatInfo`](../../fileformatinfo) object that contains the detected information.
 

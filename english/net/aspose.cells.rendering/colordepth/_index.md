@@ -14,7 +14,7 @@ Enumerates Bit Depth Type for tiff image.
 public enum ColorDepth
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

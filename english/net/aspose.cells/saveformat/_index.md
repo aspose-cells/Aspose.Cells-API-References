@@ -14,7 +14,7 @@ Represents the format in which the workbook is saved.
 public enum SaveFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

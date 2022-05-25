@@ -14,7 +14,7 @@ Represents gradient shading style.
 public enum GradientStyleType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

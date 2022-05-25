@@ -18,7 +18,7 @@ public int GetGroupedRowOutlineLevel(int rowIndex)
 | --- | --- | --- |
 | rowIndex | Int32 | The row index. |
 
-## Return Value
+### Return Value
 
 The outline level (zero-based) of the row.
 

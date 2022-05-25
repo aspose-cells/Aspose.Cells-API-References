@@ -18,7 +18,7 @@ public CustomProperty this[int index] { get; }
 | --- | --- |
 | index | The index. |
 
-## Return Value
+### Return Value
 
 The custom property
 
@@ -43,7 +43,7 @@ public CustomProperty this[string name] { get; }
 | --- | --- |
 | name | The property name. |
 
-## Return Value
+### Return Value
 
 The custom property
 

@@ -18,7 +18,7 @@ public bool IsColumnHidden(int columnIndex)
 | --- | --- | --- |
 | columnIndex | Int32 | column index |
 
-## Return Value
+### Return Value
 
 true if the column is hidden.
 

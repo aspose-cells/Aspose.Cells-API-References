@@ -21,7 +21,7 @@ public object[] ExportArray(int firstRow, int firstColumn, int totalRows, int to
 | totalRows | Int32 | Number of rows to be exported |
 | totalColumns | Int32 | Number of columns to be exported |
 
-## Return Value
+### Return Value
 
 Exported cell value array object.
 

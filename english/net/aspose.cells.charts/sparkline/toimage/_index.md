@@ -18,7 +18,7 @@ public Bitmap ToImage(ImageOrPrintOptions options)
 | --- | --- | --- |
 | options | ImageOrPrintOptions | The image options |
 
-## Return Value
+### Return Value
 
 Returns a Bitmap object.
 

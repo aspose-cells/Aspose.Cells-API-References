@@ -14,7 +14,7 @@ Represents gradient preset color type.
 public enum GradientPresetType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

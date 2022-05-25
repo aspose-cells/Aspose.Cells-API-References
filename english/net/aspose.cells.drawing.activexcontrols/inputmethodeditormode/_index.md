@@ -14,7 +14,7 @@ Represents the default run-time mode of the Input Method Editor.
 public enum InputMethodEditorMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public int AddCopy(string sheetName)
 | --- | --- | --- |
 | sheetName | String | Name of source worksheet. |
 
-## Return Value
+### Return Value
 
 [`Worksheet`](../../worksheet) object index.
 
@@ -48,7 +48,7 @@ public int AddCopy(int sheetIndex)
 | --- | --- | --- |
 | sheetIndex | Int32 | Index of source worksheet. |
 
-## Return Value
+### Return Value
 
 [`Worksheet`](../../worksheet) object index.
 

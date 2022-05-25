@@ -14,7 +14,7 @@ Represent print order constants.
 public enum PrintOrderType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

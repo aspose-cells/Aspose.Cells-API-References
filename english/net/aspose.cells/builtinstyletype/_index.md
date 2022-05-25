@@ -14,7 +14,7 @@ Represents all built-in style type
 public enum BuiltinStyleType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

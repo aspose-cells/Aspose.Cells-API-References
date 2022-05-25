@@ -14,7 +14,7 @@ Dynamic filter type.
 public enum DynamicFilterType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

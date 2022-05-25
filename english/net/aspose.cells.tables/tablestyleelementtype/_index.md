@@ -14,7 +14,7 @@ Represents the Table or PivotTable style element type.
 public enum TableStyleElementType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

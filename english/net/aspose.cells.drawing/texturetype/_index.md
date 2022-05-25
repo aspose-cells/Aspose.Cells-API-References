@@ -14,7 +14,7 @@ Represents the preset texture type.
 public enum TextureType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

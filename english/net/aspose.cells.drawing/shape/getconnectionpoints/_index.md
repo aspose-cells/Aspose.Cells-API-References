@@ -14,7 +14,7 @@ Get the connection points
 public float[][] GetConnectionPoints()
 ```
 
-## Return Value
+### Return Value
 
 [X,Y] pairs of the connection point. Every item is a float[2] array, [0] represents x and [1] represents y.
 

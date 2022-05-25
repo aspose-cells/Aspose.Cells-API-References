@@ -14,7 +14,7 @@ Specifies the axis position for a range of cells with conditional formatting as 
 public enum DataBarAxisPosition
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

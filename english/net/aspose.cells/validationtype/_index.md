@@ -14,7 +14,7 @@ Represents data validation type.
 public enum ValidationType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

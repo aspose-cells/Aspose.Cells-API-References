@@ -18,7 +18,7 @@ public static Color FromOleColor(int oleColor)
 | --- | --- | --- |
 | oleColor | Int32 | The value of OLE_COLOR. |
 
-## Return Value
+### Return Value
 
 The Color object.
 

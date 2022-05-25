@@ -14,7 +14,7 @@ Represents the symbol displayed on the drop button.
 public enum DropButtonStyle
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Enumerates the weight types for a picture border or a chart line.
 public enum WeightType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

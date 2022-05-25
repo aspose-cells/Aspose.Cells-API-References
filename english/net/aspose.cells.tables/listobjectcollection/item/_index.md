@@ -18,7 +18,7 @@ public ListObject this[int index] { get; }
 | --- | --- |
 | index | The index. |
 
-## Return Value
+### Return Value
 
 The ListObject
 
@@ -43,7 +43,7 @@ public ListObject this[string tableName] { get; }
 | --- | --- |
 | tableName | ListObject name. |
 
-## Return Value
+### Return Value
 
 The ListObject
 

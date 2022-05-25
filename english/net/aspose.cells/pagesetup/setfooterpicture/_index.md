@@ -19,7 +19,7 @@ public Picture SetFooterPicture(int section, byte[] footerPicture)
 | section | Int32 | 0:Left Section. |
 | footerPicture | Byte[] | Image data. |
 
-## Return Value
+### Return Value
 
 Returns [`Picture`](../../../aspose.cells.drawing/picture) object.
 

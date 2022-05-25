@@ -14,7 +14,7 @@ Gets all referred areas.
 public CellArea[] GetAreas()
 ```
 
-## Return Value
+### Return Value
 
 Returns all referred areas.
 

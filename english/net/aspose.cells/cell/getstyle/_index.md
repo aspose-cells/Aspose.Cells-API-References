@@ -14,7 +14,7 @@ Gets the cell style.
 public Style GetStyle()
 ```
 
-## Return Value
+### Return Value
 
 Style object.
 
@@ -43,7 +43,7 @@ public Style GetStyle(bool checkBorders)
 | --- | --- | --- |
 | checkBorders | Boolean | Check other cells' borders |
 
-## Return Value
+### Return Value
 
 Style object.
 

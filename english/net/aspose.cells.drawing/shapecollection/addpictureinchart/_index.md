@@ -22,7 +22,7 @@ public Picture AddPictureInChart(int top, int left, Stream stream, int widthScal
 | widthScale | Int32 | Scale of image width, a percentage. |
 | heightScale | Int32 | Scale of image height, a percentage. |
 
-## Return Value
+### Return Value
 
 Returns a Picture object.
 

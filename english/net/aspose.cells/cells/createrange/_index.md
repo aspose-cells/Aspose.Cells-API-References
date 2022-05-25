@@ -19,7 +19,7 @@ public Range CreateRange(string upperLeftCell, string lowerRightCell)
 | upperLeftCell | String | Upper left cell name. |
 | lowerRightCell | String | Lower right cell name. |
 
-## Return Value
+### Return Value
 
 A [`Range`](../../range) object
 
@@ -47,7 +47,7 @@ public Range CreateRange(int firstRow, int firstColumn, int totalRows, int total
 | totalRows | Int32 | Number of rows |
 | totalColumns | Int32 | Number of columns |
 
-## Return Value
+### Return Value
 
 A [`Range`](../../range) object
 
@@ -72,7 +72,7 @@ public Range CreateRange(string address)
 | --- | --- | --- |
 | address | String | The address of the range. |
 
-## Return Value
+### Return Value
 
 A [`Range`](../../range) object
 
@@ -99,7 +99,7 @@ public Range CreateRange(int firstIndex, int number, bool isVertical)
 | number | Int32 | Total number of rows or columns, one based. |
 | isVertical | Boolean | True - Range created from columns of cells. False - Range created from rows of cells. |
 
-## Return Value
+### Return Value
 
 A [`Range`](../../range) object.
 

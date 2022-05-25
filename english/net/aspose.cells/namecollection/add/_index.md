@@ -18,7 +18,7 @@ public int Add(string text)
 | --- | --- | --- |
 | text | String | The text to use as the name. |
 
-## Return Value
+### Return Value
 
 [`Name`](../../name) object index.
 

@@ -14,7 +14,7 @@ Represents the category axis type.
 public enum CategoryType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

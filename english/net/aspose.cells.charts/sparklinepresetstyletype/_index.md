@@ -14,7 +14,7 @@ Represents the preset style types for sparkline.
 public enum SparklinePresetStyleType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

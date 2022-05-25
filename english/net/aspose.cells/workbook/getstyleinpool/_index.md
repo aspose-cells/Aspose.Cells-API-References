@@ -18,7 +18,7 @@ public Style GetStyleInPool(int index)
 | --- | --- | --- |
 | index | Int32 | The index. |
 
-## Return Value
+### Return Value
 
 The style in the pool corresponds to given index, may be null.
 

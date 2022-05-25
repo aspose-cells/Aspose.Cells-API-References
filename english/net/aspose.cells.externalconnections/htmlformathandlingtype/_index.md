@@ -14,7 +14,7 @@ Specifies how to handle formatting from the HTML source
 public enum HtmlFormatHandlingType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public int AddArea(CellArea cellArea)
 | --- | --- | --- |
 | cellArea | CellArea | Conditional formatted cell range. |
 
-## Return Value
+### Return Value
 
 Conditional formatted cell rang index.
 

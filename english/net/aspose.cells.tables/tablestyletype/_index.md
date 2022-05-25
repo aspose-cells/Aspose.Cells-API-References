@@ -14,7 +14,7 @@ Represents the built-in table style type.
 public enum TableStyleType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

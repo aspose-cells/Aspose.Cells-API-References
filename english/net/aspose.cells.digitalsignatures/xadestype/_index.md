@@ -14,7 +14,7 @@ Type of XML Advanced Electronic Signature (XAdES).
 public enum XAdESType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

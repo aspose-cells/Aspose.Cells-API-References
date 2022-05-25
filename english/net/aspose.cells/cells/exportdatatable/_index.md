@@ -21,7 +21,7 @@ public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, i
 | totalRows | Int32 | Number of rows to be imported. |
 | totalColumns | Int32 | Number of columns to be imported. |
 
-## Return Value
+### Return Value
 
 Exported DataTable object.
 
@@ -74,7 +74,7 @@ public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, i
 | totalColumns | Int32 | Number of columns to be imported. |
 | exportColumnName | Boolean | Indicates whether the data in the first row are exported to the column name of the DataTable. |
 
-## Return Value
+### Return Value
 
 Exported DataTable object.
 
@@ -103,7 +103,7 @@ public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, i
 | totalColumns | Int32 | Number of columns to be imported. |
 | options | ExportTableOptions | All export table options |
 
-## Return Value
+### Return Value
 
 Exported DataTable object.
 

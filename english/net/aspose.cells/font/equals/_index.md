@@ -18,7 +18,7 @@ public bool Equals(Font font)
 | --- | --- | --- |
 | font | Font | Compared font object. |
 
-## Return Value
+### Return Value
 
 True if equal to the compared font object.
 

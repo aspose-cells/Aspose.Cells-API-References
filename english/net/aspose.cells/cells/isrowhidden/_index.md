@@ -18,7 +18,7 @@ public bool IsRowHidden(int rowIndex)
 | --- | --- | --- |
 | rowIndex | Int32 | row index |
 
-## Return Value
+### Return Value
 
 true if the row is hidden
 

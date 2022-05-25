@@ -14,7 +14,7 @@ Specifies the preset shape geometry that is to be used for a chart.
 public enum DataLabelShapeType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

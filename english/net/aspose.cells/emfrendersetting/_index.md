@@ -14,7 +14,7 @@ Setting for rendering Emf metafile.
 public enum EmfRenderSetting
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -22,7 +22,7 @@ public int Add(int upperLeftRow, int upperLeftColumn, int height, int width, byt
 | width | Int32 | Width of oleObject, in unit of pixel. |
 | imageData | Byte[] | Image of ole object as byte array. |
 
-## Return Value
+### Return Value
 
 [`OleObject`](../../oleobject) object index.
 
@@ -52,7 +52,7 @@ public int Add(int upperLeftRow, int upperLeftColumn, int height, int width, byt
 | imageData | Byte[] | Image of ole object as byte array. |
 | linkedFile | String |  |
 
-## Return Value
+### Return Value
 
 [`OleObject`](../../oleobject) object index.
 

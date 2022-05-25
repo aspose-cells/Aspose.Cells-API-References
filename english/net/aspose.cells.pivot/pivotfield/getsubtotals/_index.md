@@ -18,7 +18,7 @@ public bool GetSubtotals(PivotFieldSubtotalType subtotalType)
 | --- | --- | --- |
 | subtotalType | PivotFieldSubtotalType | subtotals type. |
 
-## Return Value
+### Return Value
 
 whether the specified field shows that subtotals.
 

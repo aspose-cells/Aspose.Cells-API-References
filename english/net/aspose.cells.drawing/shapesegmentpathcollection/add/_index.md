@@ -18,7 +18,7 @@ public int Add(ShapePathType type)
 | --- | --- | --- |
 | type | ShapePathType | The path type. |
 
-## Return Value
+### Return Value
 
 Returns the position of [`ShapeSegmentPath`](../../shapesegmentpath) object in the list.
 

@@ -14,7 +14,7 @@ Gets the max grouped row outline level (zero-based).
 public int GetMaxGroupedRowOutlineLevel()
 ```
 
-## Return Value
+### Return Value
 
 The max grouped row outline level (zero-based)
 

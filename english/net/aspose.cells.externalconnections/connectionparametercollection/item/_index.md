@@ -18,7 +18,7 @@ public ConnectionParameter this[int index] { get; set; }
 | --- | --- |
 | index | The zero based index of the element. |
 
-## Return Value
+### Return Value
 
 The element at the specified index.
 
@@ -43,7 +43,7 @@ public ConnectionParameter this[string connParamName] { get; }
 | --- | --- |
 | connParamName | connection parameter name |
 
-## Return Value
+### Return Value
 
 The element with the specified name.
 

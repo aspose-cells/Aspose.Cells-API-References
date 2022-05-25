@@ -14,7 +14,7 @@ Represents preset text effect shape type of WordArt.
 public enum MsoPresetTextEffectShape
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

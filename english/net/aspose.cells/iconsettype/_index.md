@@ -14,7 +14,7 @@ Icon set type for conditional formatting. The threshold values for triggering th
 public enum IconSetType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

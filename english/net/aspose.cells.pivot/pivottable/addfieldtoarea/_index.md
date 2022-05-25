@@ -19,7 +19,7 @@ public int AddFieldToArea(PivotFieldType fieldType, string fieldName)
 | fieldType | PivotFieldType | The fields area type. |
 | fieldName | String | The name in the base fields. |
 
-## Return Value
+### Return Value
 
 The field position in the specific fields.If there is no field named as it, return -1.
 
@@ -45,7 +45,7 @@ public int AddFieldToArea(PivotFieldType fieldType, int baseFieldIndex)
 | fieldType | PivotFieldType | The fields area type. |
 | baseFieldIndex | Int32 | The field index in the base fields. |
 
-## Return Value
+### Return Value
 
 The field position in the specific fields.
 
@@ -71,7 +71,7 @@ public int AddFieldToArea(PivotFieldType fieldType, PivotField pivotField)
 | fieldType | PivotFieldType | the fields area type.It could be one of the following values: PivotFieldType.RowPivotFieldType.ColumnPivotFieldType.DataPivotFieldType.Page |
 | pivotField | PivotField | the field in the base fields. |
 
-## Return Value
+### Return Value
 
 the field position in the specific fields.
 

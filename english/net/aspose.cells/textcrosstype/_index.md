@@ -14,7 +14,7 @@ Enumerates displaying text type when the text width is larger than cell width.
 public enum TextCrossType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

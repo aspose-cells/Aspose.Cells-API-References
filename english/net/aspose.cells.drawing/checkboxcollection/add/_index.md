@@ -21,7 +21,7 @@ public int Add(int upperLeftRow, int upperLeftColumn, int height, int width)
 | height | Int32 | Height of checkBox, in unit of pixel. |
 | width | Int32 | Width of checkBox, in unit of pixel. |
 
-## Return Value
+### Return Value
 
 [`CheckBox`](../../checkbox) object index.
 

@@ -14,7 +14,7 @@ Represents the sparkline types.
 public enum SparklineType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

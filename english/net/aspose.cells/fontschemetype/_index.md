@@ -14,7 +14,7 @@ Represents the scheme type of the font.
 public enum FontSchemeType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

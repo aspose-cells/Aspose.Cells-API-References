@@ -18,7 +18,7 @@ public virtual CultureInfo CreateCultureInfo(int lcid)
 | --- | --- | --- |
 | lcid | Int32 |  |
 
-## Return Value
+### Return Value
 
 The CultureInfo instance.
 

@@ -14,7 +14,7 @@ Gets the type name of table rows that consists of the table header. Default is "
 public virtual string GetTableRowTypeOfHeaders()
 ```
 
-## Return Value
+### Return Value
 
 the type name of table rows
 

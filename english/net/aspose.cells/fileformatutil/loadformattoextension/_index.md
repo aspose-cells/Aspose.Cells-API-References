@@ -18,7 +18,7 @@ public static string LoadFormatToExtension(LoadFormat loadFormat)
 | --- | --- | --- |
 | loadFormat | LoadFormat | The loaded file format. |
 
-## Return Value
+### Return Value
 
 The returned extension is a lower-case string with a leading dot.
 

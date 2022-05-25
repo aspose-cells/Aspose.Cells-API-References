@@ -14,7 +14,7 @@ Represents two types of showing the hidden columns in html.
 public enum HtmlHiddenColDisplayType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -21,7 +21,7 @@ public int ImportDataGridAsString(DataGrid dataGrid, int firstRow, int firstColu
 | firstColumn | Int32 | The column number of the first cell to import in. |
 | insertRows | Boolean | Indicates whether extra rows are added to fit data. |
 
-## Return Value
+### Return Value
 
 Total number of rows imported
 

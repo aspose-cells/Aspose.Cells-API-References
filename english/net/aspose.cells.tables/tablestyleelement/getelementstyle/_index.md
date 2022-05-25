@@ -14,7 +14,7 @@ Gets the element style.
 public Style GetElementStyle()
 ```
 
-## Return Value
+### Return Value
 
 Returns the [`Style`](../../../aspose.cells/style) object.
 

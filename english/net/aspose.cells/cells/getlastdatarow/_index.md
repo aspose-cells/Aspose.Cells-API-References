@@ -18,7 +18,7 @@ public int GetLastDataRow(int column)
 | --- | --- | --- |
 | column | Int32 | Column index. |
 
-## Return Value
+### Return Value
 
 last row index.
 

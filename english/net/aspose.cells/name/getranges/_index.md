@@ -14,7 +14,7 @@ Gets all ranges referred by this name.
 public Range[] GetRanges()
 ```
 
-## Return Value
+### Return Value
 
 All ranges.
 
@@ -39,7 +39,7 @@ public Range[] GetRanges(bool recalculate)
 | --- | --- | --- |
 | recalculate | Boolean | whether recalculate it if this name has been calculated before this invocation. |
 
-## Return Value
+### Return Value
 
 All ranges.
 

@@ -14,7 +14,7 @@ Represents the mode type of calculating formulas.
 public enum CalcModeType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

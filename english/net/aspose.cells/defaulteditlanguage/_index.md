@@ -14,7 +14,7 @@ Represents the default edit language.
 public enum DefaultEditLanguage
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

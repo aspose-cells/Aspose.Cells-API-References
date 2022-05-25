@@ -14,7 +14,7 @@ Represents the text direct type.
 public enum TextVerticalType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

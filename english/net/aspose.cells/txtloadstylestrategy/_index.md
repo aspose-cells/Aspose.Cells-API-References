@@ -14,7 +14,7 @@ Specifies how to apply style for parsed values when converting string value to n
 public enum TxtLoadStyleStrategy
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

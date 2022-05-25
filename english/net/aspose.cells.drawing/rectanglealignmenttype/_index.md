@@ -14,7 +14,7 @@ Represents how to position two rectangles relative to each other.
 public enum RectangleAlignmentType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

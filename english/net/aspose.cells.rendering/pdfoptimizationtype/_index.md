@@ -14,7 +14,7 @@ Specifies a type of optimization.
 public enum PdfOptimizationType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

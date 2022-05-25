@@ -14,7 +14,7 @@ Represents the shape used with the 3-D bar or column chart.
 public enum Bar3DShapeType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

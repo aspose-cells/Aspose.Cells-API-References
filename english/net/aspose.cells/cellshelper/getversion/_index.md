@@ -14,7 +14,7 @@ Get the release version.
 public static string GetVersion()
 ```
 
-## Return Value
+### Return Value
 
 The release version.
 

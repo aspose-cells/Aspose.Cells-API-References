@@ -14,7 +14,7 @@ Gets and sets the searched range.
 public CellArea GetRange()
 ```
 
-## Return Value
+### Return Value
 
 Returns the searched range.
 

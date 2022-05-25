@@ -14,7 +14,7 @@ Represents the alignment of the picture inside the Form or Image.
 public enum ControlPictureAlignmentType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

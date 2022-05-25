@@ -14,7 +14,7 @@ Represents projection type of the map chart.
 public enum MapChartProjectionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

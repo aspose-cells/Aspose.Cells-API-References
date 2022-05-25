@@ -14,7 +14,7 @@ Represents the type of operating data.
 public enum SqlScriptOperatorType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

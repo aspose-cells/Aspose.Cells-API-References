@@ -19,7 +19,7 @@ public Worksheet Insert(int index, SheetType sheetType)
 | index | Int32 | The sheet index |
 | sheetType | SheetType | The sheet type. |
 
-## Return Value
+### Return Value
 
 Returns an inserted worksheet.
 
@@ -47,7 +47,7 @@ public Worksheet Insert(int index, SheetType sheetType, string sheetName)
 | sheetType | SheetType | The sheet type. |
 | sheetName | String | The sheet name. |
 
-## Return Value
+### Return Value
 
 Returns an inserted worksheet.
 

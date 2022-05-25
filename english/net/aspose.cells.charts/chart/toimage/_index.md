@@ -14,7 +14,7 @@ Gets a 32-bit `Bitmap` object of the chart.
 public Bitmap ToImage()
 ```
 
-## Return Value
+### Return Value
 
 the picture of the chart.
 
@@ -42,7 +42,7 @@ public Bitmap ToImage(ImageOrPrintOptions options)
 | --- | --- | --- |
 | options | ImageOrPrintOptions | Additional image creation options |
 
-## Return Value
+### Return Value
 
 the picture of the chart.
 

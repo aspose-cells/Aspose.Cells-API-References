@@ -18,7 +18,7 @@ public ChartPoint this[int index] { get; }
 | --- | --- |
 | index | The index of chart point in the series. |
 
-## Return Value
+### Return Value
 
 The ChartPoint object.
 

@@ -14,7 +14,7 @@ Specifies the border type of a data bar.
 public enum DataBarBorderType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Represents the operator type of conditional format and data validation.
 public enum OperatorType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

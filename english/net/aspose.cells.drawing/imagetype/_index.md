@@ -14,7 +14,7 @@ Specifies the type (format) of an image.
 public enum ImageType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Represents the store type of web extension.
 public enum WebExtensionStoreType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

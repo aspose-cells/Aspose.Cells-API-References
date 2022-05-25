@@ -14,7 +14,7 @@ Represents a preset light right that can be applied to a shape
 public enum LightRigType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

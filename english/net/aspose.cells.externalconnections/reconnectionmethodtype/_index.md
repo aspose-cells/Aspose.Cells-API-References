@@ -14,7 +14,7 @@ Specifies what the spreadsheet application should do when a connection fails.
 public enum ReConnectionMethodType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

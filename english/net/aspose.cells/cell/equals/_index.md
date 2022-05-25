@@ -18,7 +18,7 @@ public bool Equals(Cell cell)
 | --- | --- | --- |
 | cell | Cell | another cell object |
 
-## Return Value
+### Return Value
 
 true if two cell objects refers to the same cell.
 
@@ -42,7 +42,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | another object |
 
-## Return Value
+### Return Value
 
 true if two objects refers to the same cell.
 

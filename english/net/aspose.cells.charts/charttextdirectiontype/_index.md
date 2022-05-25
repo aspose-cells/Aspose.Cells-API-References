@@ -14,7 +14,7 @@ Represents the text direction type of the chart.
 public enum ChartTextDirectionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

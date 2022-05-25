@@ -23,7 +23,7 @@ public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int low
 | lowerRightColumn | Int32 | Lower right column index |
 | stream | Stream | Stream object which contains the image data. |
 
-## Return Value
+### Return Value
 
 [`Picture`](../../picture) object index.
 
@@ -64,7 +64,7 @@ public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int low
 | lowerRightColumn | Int32 | Lower right column index |
 | fileName | String | Image filename. |
 
-## Return Value
+### Return Value
 
 [`Picture`](../../picture) object index.
 
@@ -99,7 +99,7 @@ public int Add(int upperLeftRow, int upperLeftColumn, Stream stream)
 | upperLeftColumn | Int32 | Upper left column index. |
 | stream | Stream | Stream object which contains the image data. |
 
-## Return Value
+### Return Value
 
 [`Picture`](../../picture) object index.
 
@@ -137,7 +137,7 @@ public int Add(int upperLeftRow, int upperLeftColumn, string fileName)
 | upperLeftColumn | Int32 | Upper left column index. |
 | fileName | String | Image filename. |
 
-## Return Value
+### Return Value
 
 [`Picture`](../../picture) object index.
 
@@ -175,7 +175,7 @@ public int Add(int upperLeftRow, int upperLeftColumn, Stream stream, int widthSc
 | widthScale | Int32 | Scale of image width, a percentage. |
 | heightScale | Int32 | Scale of image height, a percentage. |
 
-## Return Value
+### Return Value
 
 [`Picture`](../../picture) object index.
 
@@ -216,7 +216,7 @@ public int Add(int upperLeftRow, int upperLeftColumn, string fileName, int width
 | widthScale | Int32 | Scale of image width, a percentage. |
 | heightScale | Int32 | Scale of image height, a percentage. |
 
-## Return Value
+### Return Value
 
 [`Picture`](../../picture) object index.
 

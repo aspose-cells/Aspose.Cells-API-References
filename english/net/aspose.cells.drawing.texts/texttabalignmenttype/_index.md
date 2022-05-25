@@ -14,7 +14,7 @@ Represents the text tab alignment types.
 public enum TextTabAlignmentType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets the Children Pivot Tables which use this PivotTable data as data source.
 public PivotTable[] GetChildren()
 ```
 
-## Return Value
+### Return Value
 
 the PivotTable array object
 

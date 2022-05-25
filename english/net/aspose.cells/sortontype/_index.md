@@ -14,7 +14,7 @@ Sorted value type.
 public enum SortOnType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

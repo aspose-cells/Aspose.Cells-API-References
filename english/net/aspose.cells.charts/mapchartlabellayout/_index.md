@@ -14,7 +14,7 @@ Represents the layout of map chart's labels.
 public enum MapChartLabelLayout
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

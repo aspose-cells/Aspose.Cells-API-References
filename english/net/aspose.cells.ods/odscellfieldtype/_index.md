@@ -14,7 +14,7 @@ Represents the cell field type of ods.
 public enum OdsCellFieldType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

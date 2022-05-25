@@ -14,7 +14,7 @@ Represents the position.
 public enum OdsPageBackgroundGraphicPositionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

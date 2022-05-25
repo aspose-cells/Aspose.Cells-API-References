@@ -14,7 +14,7 @@ Enumerates the line end type of the shape border line.
 public enum MsoArrowheadStyle
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

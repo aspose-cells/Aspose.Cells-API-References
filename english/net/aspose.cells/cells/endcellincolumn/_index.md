@@ -18,7 +18,7 @@ public Cell EndCellInColumn(short columnIndex)
 | --- | --- | --- |
 | columnIndex | Int16 | Column index. |
 
-## Return Value
+### Return Value
 
 Cell object.
 
@@ -46,7 +46,7 @@ public Cell EndCellInColumn(int startRow, int endRow, short startColumn, short e
 | startColumn | Int16 | Start column index. |
 | endColumn | Int16 | End column index. |
 
-## Return Value
+### Return Value
 
 Cell object.
 

@@ -14,7 +14,7 @@ Gets the count of ranges that influenced by this setting.
 public int GetCountOfRange()
 ```
 
-## Return Value
+### Return Value
 
 the count of ranges that influenced by this setting.
 

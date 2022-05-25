@@ -14,7 +14,7 @@ Represents the marker style in a line chart, scatter chart, or radar chart.
 public enum ChartMarkerType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

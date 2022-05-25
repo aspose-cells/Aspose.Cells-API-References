@@ -14,7 +14,7 @@ Represents how to display the picture.
 public enum ControlPictureSizeMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

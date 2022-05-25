@@ -18,7 +18,7 @@ public int GetViewColumnWidthPixel(int column)
 | --- | --- | --- |
 | column | Int32 | The column index. |
 
-## Return Value
+### Return Value
 
 the column width in unit of pixels
 

@@ -14,7 +14,7 @@ The Ooxml compression type
 public enum OoxmlCompressionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Enumerates the type of [`Picture`](../picture) border or [`Chart`](../../aspose.
 public enum LineType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

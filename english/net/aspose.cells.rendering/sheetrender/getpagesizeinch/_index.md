@@ -18,7 +18,7 @@ public float[] GetPageSizeInch(int pageIndex)
 | --- | --- | --- |
 | pageIndex | Int32 | The page index is based on zero. |
 
-## Return Value
+### Return Value
 
 Page size of image, [0] for width and [1] for height
 

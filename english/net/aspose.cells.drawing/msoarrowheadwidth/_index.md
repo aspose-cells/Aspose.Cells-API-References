@@ -14,7 +14,7 @@ Enumerates the line end width of the shape border line.
 public enum MsoArrowheadWidth
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Represents custom exception type code.
 public enum ExceptionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

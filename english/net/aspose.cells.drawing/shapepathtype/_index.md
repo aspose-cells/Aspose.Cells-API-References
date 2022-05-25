@@ -14,7 +14,7 @@ Represents path segment type.
 public enum ShapePathType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

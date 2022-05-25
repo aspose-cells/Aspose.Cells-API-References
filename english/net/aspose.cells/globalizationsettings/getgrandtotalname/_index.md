@@ -18,7 +18,7 @@ public virtual string GetGrandTotalName(ConsolidationFunction functionType)
 | --- | --- | --- |
 | functionType | ConsolidationFunction | The function type. |
 
-## Return Value
+### Return Value
 
 The grand total name of the function.
 

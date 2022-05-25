@@ -14,7 +14,7 @@ Represents the type of scroll bar.
 public enum ControlScrollBarType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

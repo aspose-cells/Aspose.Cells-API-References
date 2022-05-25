@@ -14,7 +14,7 @@ Represents the preset WordArt styles.
 public enum PresetWordArtStyle
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

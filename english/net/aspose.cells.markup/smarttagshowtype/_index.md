@@ -14,7 +14,7 @@ Represents the show type of the smart tag.
 public enum SmartTagShowType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

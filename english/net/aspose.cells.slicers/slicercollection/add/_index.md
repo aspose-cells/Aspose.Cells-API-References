@@ -20,7 +20,7 @@ public int Add(PivotTable pivot, string destCellName, string baseFieldName)
 | destCellName | String | The cell in the upper-left corner of the Slicer range. |
 | baseFieldName | String | The name of PivotField in PivotTable.BaseFields |
 
-## Return Value
+### Return Value
 
 The new add Slicer index
 
@@ -57,7 +57,7 @@ public int Add(PivotTable pivot, int row, int column, string baseFieldName)
 | column | Int32 | Column index of the cell in the upper-left corner of the Slicer range. |
 | baseFieldName | String | The name of PivotField in PivotTable.BaseFields |
 
-## Return Value
+### Return Value
 
 The new add Slicer index
 
@@ -94,7 +94,7 @@ public int Add(PivotTable pivot, int row, int column, int baseFieldIndex)
 | column | Int32 | Column index of the cell in the upper-left corner of the Slicer range. |
 | baseFieldIndex | Int32 | The index of PivotField in PivotTable.BaseFields |
 
-## Return Value
+### Return Value
 
 The new add Slicer index
 
@@ -130,7 +130,7 @@ public int Add(PivotTable pivot, string destCellName, int baseFieldIndex)
 | destCellName | String | The cell in the upper-left corner of the Slicer range. |
 | baseFieldIndex | Int32 | The index of PivotField in PivotTable.BaseFields |
 
-## Return Value
+### Return Value
 
 The new add Slicer index
 
@@ -167,7 +167,7 @@ public int Add(PivotTable pivot, int row, int column, PivotField baseField)
 | column | Int32 | Column index of the cell in the upper-left corner of the Slicer range. |
 | baseField | PivotField | The PivotField in PivotTable.BaseFields |
 
-## Return Value
+### Return Value
 
 The new add Slicer index
 
@@ -204,7 +204,7 @@ public int Add(PivotTable pivot, string destCellName, PivotField baseField)
 | destCellName | String | The cell in the upper-left corner of the Slicer range. |
 | baseField | PivotField | The PivotField in PivotTable.BaseFields |
 
-## Return Value
+### Return Value
 
 The new add Slicer index
 
@@ -241,7 +241,7 @@ public int Add(ListObject table, int index, string destCellName)
 | index | Int32 | The index of ListColumn in ListObject.ListColumns |
 | destCellName | String | The cell in the upper-left corner of the Slicer range. |
 
-## Return Value
+### Return Value
 
 The new add Slicer index
 
@@ -277,7 +277,7 @@ public int Add(ListObject table, ListColumn listColumn, string destCellName)
 | listColumn | ListColumn | The ListColumn in ListObject.ListColumns |
 | destCellName | String | The cell in the upper-left corner of the Slicer range. |
 
-## Return Value
+### Return Value
 
 The new add Slicer index
 
@@ -315,7 +315,7 @@ public int Add(ListObject table, ListColumn listColumn, int row, int column)
 | row | Int32 | Row index of the cell in the upper-left corner of the Slicer range. |
 | column | Int32 | Column index of the cell in the upper-left corner of the Slicer range. |
 
-## Return Value
+### Return Value
 
 The new add Slicer index
 

@@ -14,7 +14,7 @@ Gets the name of "Total" label in the PivotTable. You need to override this meth
 public virtual string GetPivotTotalName()
 ```
 
-## Return Value
+### Return Value
 
 The name of "Total" label
 

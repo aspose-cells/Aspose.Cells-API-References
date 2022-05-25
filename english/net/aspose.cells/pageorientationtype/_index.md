@@ -14,7 +14,7 @@ Represents print orientation constants.
 public enum PageOrientationType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

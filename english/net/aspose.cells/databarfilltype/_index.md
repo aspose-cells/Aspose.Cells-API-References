@@ -14,7 +14,7 @@ Specifies how a data bar is filled with color.
 public enum DataBarFillType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

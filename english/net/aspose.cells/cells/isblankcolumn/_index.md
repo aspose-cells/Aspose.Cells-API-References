@@ -18,7 +18,7 @@ public bool IsBlankColumn(int columnIndex)
 | --- | --- | --- |
 | columnIndex | Int32 | the column index |
 
-## Return Value
+### Return Value
 
 true if given column does not contain any data
 

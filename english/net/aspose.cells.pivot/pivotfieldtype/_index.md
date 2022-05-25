@@ -14,7 +14,7 @@ Represents PivotTable field type.
 public enum PivotFieldType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

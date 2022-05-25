@@ -14,7 +14,7 @@ Enumerates text orientation types.
 public enum TextOrientationType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Enumerates strategies for handling calculation precision. Because of the precisi
 public enum CalculationPrecisionStrategy
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

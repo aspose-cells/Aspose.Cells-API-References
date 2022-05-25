@@ -14,7 +14,7 @@ Represents line format type of chart line.
 public enum ChartLineFormattingType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

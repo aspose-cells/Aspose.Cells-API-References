@@ -14,7 +14,7 @@ Gets format conditions which applies to this cell.
 public FormatConditionCollection[] GetFormatConditions()
 ```
 
-## Return Value
+### Return Value
 
 Returns [`FormatConditionCollection`](../../formatconditioncollection) object
 

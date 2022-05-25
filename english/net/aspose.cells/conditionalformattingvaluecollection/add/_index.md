@@ -19,7 +19,7 @@ public int Add(FormatConditionValueType type, string value)
 | type | FormatConditionValueType | The value type. |
 | value | String | The value. |
 
-## Return Value
+### Return Value
 
 Returns the index of new object in the list.
 

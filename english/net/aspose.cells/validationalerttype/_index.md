@@ -14,7 +14,7 @@ Represents the data validation alert style.
 public enum ValidationAlertType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

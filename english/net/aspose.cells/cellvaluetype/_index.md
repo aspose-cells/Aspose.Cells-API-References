@@ -14,7 +14,7 @@ Specifies a cell value type.
 public enum CellValueType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

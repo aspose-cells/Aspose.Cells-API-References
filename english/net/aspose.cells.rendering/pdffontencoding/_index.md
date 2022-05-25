@@ -14,7 +14,7 @@ Represents pdf embedded font encoding.
 public enum PdfFontEncoding
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

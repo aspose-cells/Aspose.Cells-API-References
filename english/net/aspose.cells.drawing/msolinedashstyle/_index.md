@@ -14,7 +14,7 @@ Represents style of dash drawing lines.
 public enum MsoLineDashStyle
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

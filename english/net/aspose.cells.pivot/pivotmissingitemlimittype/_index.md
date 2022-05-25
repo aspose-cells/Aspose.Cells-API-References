@@ -14,7 +14,7 @@ Represents number of items to retain per field.
 public enum PivotMissingItemLimitType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

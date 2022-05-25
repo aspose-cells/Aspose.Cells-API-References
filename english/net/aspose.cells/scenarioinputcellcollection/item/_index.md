@@ -18,7 +18,7 @@ public ScenarioInputCell this[int index] { get; }
 | --- | --- |
 | index | The specific index in the list |
 
-## Return Value
+### Return Value
 
 The [`ScenarioInputCell`](../../scenarioinputcell) object
 

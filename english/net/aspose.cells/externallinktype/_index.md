@@ -14,7 +14,7 @@ Represents the type of external link.
 public enum ExternalLinkType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

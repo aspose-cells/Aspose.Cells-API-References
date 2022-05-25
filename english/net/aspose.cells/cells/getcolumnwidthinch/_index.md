@@ -18,7 +18,7 @@ public double GetColumnWidthInch(int column)
 | --- | --- | --- |
 | column | Int32 | Column index |
 
-## Return Value
+### Return Value
 
 Width of column
 

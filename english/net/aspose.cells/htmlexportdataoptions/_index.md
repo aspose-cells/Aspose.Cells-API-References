@@ -14,7 +14,7 @@ Represents the options for exporting html data.
 public enum HtmlExportDataOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

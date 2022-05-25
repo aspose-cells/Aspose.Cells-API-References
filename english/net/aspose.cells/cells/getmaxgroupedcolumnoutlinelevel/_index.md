@@ -14,7 +14,7 @@ Gets the max grouped column outline level (zero-based).
 public int GetMaxGroupedColumnOutlineLevel()
 ```
 
-## Return Value
+### Return Value
 
 The max grouped column outline level (zero-based)
 

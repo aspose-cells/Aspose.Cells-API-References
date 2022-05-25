@@ -14,7 +14,7 @@ Gets cell values in this area.
 public object GetValues()
 ```
 
-## Return Value
+### Return Value
 
 If this area is invalid, "#REF!" will be returned; If this area is one single cell, then return the cell value object; Otherwise return one 2D array for all values in this area.
 
@@ -38,7 +38,7 @@ public object GetValues(bool calculateFormulas)
 | --- | --- | --- |
 | calculateFormulas | Boolean | In this range, if there are some formulas that have not been calculated, this flag denotes whether those formulas should be calculated recursively |
 
-## Return Value
+### Return Value
 
 If this area is invalid, "#REF!" will be returned; If this area is one single cell, then return the cell value object; Otherwise return one 2D array for all values in this area.
 

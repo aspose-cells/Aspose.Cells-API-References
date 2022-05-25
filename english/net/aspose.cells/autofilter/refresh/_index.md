@@ -14,7 +14,7 @@ Refresh auto filters to hide or unhide the rows.
 public int[] Refresh()
 ```
 
-## Return Value
+### Return Value
 
 Returns all hidden rows' indexes.
 
@@ -38,7 +38,7 @@ public int[] Refresh(bool hideRows)
 | --- | --- | --- |
 | hideRows | Boolean | If true, hide the filtered rows. |
 
-## Return Value
+### Return Value
 
 Returns all hidden rows indexes.
 

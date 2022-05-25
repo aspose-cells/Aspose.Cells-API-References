@@ -14,7 +14,7 @@ The style modified flags.
 public enum StyleModifyFlag
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

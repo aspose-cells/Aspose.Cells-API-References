@@ -14,7 +14,7 @@ Gets the type name of table rows that consists of the current row in referenced 
 public virtual string GetTableRowTypeOfCurrent()
 ```
 
-## Return Value
+### Return Value
 
 the type name of table rows
 

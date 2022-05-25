@@ -19,7 +19,7 @@ public DocumentProperty Add(string name, string value)
 | name | String | The name of the property. |
 | value | String | The value of the property. |
 
-## Return Value
+### Return Value
 
 The newly created property object.
 
@@ -45,7 +45,7 @@ public DocumentProperty Add(string name, int value)
 | name | String | The name of the property. |
 | value | Int32 | The value of the property. |
 
-## Return Value
+### Return Value
 
 The newly created property object.
 
@@ -71,7 +71,7 @@ public DocumentProperty Add(string name, DateTime value)
 | name | String | The name of the property. |
 | value | DateTime | The value of the property. |
 
-## Return Value
+### Return Value
 
 The newly created property object.
 
@@ -97,7 +97,7 @@ public DocumentProperty Add(string name, bool value)
 | name | String | The name of the property. |
 | value | Boolean | The value of the property. |
 
-## Return Value
+### Return Value
 
 The newly created property object.
 
@@ -123,7 +123,7 @@ public DocumentProperty Add(string name, double value)
 | name | String | The name of the property. |
 | value | Double | The value of the property. |
 
-## Return Value
+### Return Value
 
 The newly created property object.
 

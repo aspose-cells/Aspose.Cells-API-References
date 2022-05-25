@@ -18,7 +18,7 @@ public WebExtensionReference this[int index] { get; }
 | --- | --- |
 | index | The index. |
 
-## Return Value
+### Return Value
 
 The web extension
 

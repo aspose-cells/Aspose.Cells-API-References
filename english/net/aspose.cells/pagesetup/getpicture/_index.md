@@ -19,7 +19,7 @@ public Picture GetPicture(bool isHeader, int section)
 | isHeader | Boolean | Indicates whether it is in the header or footer. |
 | section | Int32 | 0:Left Section. |
 
-## Return Value
+### Return Value
 
 Returns [`Picture`](../../../aspose.cells.drawing/picture) object. Returns null if there is no picture.
 
@@ -47,7 +47,7 @@ public Picture GetPicture(bool isFirst, bool isEven, bool isHeader, int section)
 | isHeader | Boolean | Indicates whether getting the picture of header/footer. |
 | section | Int32 | 0:Left Section. |
 
-## Return Value
+### Return Value
 
 Returns [`Picture`](../../../aspose.cells.drawing/picture) object.
 

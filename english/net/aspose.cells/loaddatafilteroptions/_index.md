@@ -14,7 +14,7 @@ Represents the options to filter data when loading workbook from template.
 public enum LoadDataFilterOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

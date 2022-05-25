@@ -21,7 +21,7 @@ public int ImportDataGrid(DataGrid dataGrid, int firstRow, int firstColumn, bool
 | firstColumn | Int32 | The column number of the first cell to import in. |
 | insertRows | Boolean | Indicates whether extra rows are added to fit data. |
 
-## Return Value
+### Return Value
 
 Total number of rows imported
 
@@ -51,7 +51,7 @@ public int ImportDataGrid(DataGrid dataGrid, int firstRow, int firstColumn, int 
 | totalColumns | Int32 | Number of columns to be imported. |
 | insertRows | Boolean | Indicates whether extra rows are added to fit data. |
 
-## Return Value
+### Return Value
 
 Total number of rows imported
 
@@ -82,7 +82,7 @@ public int ImportDataGrid(DataGrid dataGrid, int firstRow, int firstColumn, int 
 | insertRows | Boolean | Indicates whether extra rows are added to fit data. |
 | importStyle | Boolean | Indicates whether importing the cell style. |
 
-## Return Value
+### Return Value
 
 Total number of rows imported
 

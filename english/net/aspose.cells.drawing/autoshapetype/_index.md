@@ -14,7 +14,7 @@ Represents all built-in auto shape type.
 public enum AutoShapeType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

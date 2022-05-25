@@ -18,7 +18,7 @@ public CellArea GetRange(int index)
 | --- | --- | --- |
 | index | Int32 | the index of range |
 
-## Return Value
+### Return Value
 
 return influenced range at given index.
 

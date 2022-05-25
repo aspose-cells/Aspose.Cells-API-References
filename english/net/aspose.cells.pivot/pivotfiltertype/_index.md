@@ -14,7 +14,7 @@ Represents PivotTable Filter type.
 public enum PivotFilterType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

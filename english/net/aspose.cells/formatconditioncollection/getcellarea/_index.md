@@ -18,7 +18,7 @@ public CellArea GetCellArea(int index)
 | --- | --- | --- |
 | index | Int32 | the index of the conditional formatted cell range. |
 
-## Return Value
+### Return Value
 
 the conditional formatted cell range
 

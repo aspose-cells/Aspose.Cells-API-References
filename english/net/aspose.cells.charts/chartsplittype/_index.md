@@ -14,7 +14,7 @@ Represents the way the two sections of either a pie of pie chart or a bar of pie
 public enum ChartSplitType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Adds a pivot FormatCondition to the collection.
 public int Add()
 ```
 
-## Return Value
+### Return Value
 
 pivot FormatCondition object index.
 

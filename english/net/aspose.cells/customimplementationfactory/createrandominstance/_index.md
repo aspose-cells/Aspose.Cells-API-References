@@ -14,7 +14,7 @@ Create one instance of random number generator.
 public virtual Random CreateRandomInstance()
 ```
 
-## Return Value
+### Return Value
 
 instance of random number generator
 

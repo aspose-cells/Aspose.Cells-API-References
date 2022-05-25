@@ -14,7 +14,7 @@ Represents the directory type of the file name.
 public enum DirectoryType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

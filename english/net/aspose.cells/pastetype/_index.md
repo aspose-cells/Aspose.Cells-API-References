@@ -14,7 +14,7 @@ Represents the paste special type.
 public enum PasteType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

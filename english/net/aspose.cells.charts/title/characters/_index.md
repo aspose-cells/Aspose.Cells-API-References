@@ -14,7 +14,7 @@ Gets rich text formatting of this Title.
 public FontSetting[] Characters()
 ```
 
-## Return Value
+### Return Value
 
 returns FontSetting array
 

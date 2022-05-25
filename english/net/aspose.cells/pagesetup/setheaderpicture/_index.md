@@ -19,7 +19,7 @@ public Picture SetHeaderPicture(int section, byte[] headerPicture)
 | section | Int32 | 0:Left Section. |
 | headerPicture | Byte[] | Image data. |
 
-## Return Value
+### Return Value
 
 Returns [`Picture`](../../../aspose.cells.drawing/picture) object.
 

@@ -18,7 +18,7 @@ public GradientStop this[int index] { get; set; }
 | --- | --- |
 | index | The index. |
 
-## Return Value
+### Return Value
 
 The gradient stop.
 

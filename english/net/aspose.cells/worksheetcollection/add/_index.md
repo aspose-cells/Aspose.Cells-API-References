@@ -18,7 +18,7 @@ public int Add(SheetType type)
 | --- | --- | --- |
 | type | SheetType | Worksheet type. |
 
-## Return Value
+### Return Value
 
 [`Worksheet`](../../worksheet) object index.
 
@@ -71,7 +71,7 @@ Adds a worksheet to the collection.
 public int Add()
 ```
 
-## Return Value
+### Return Value
 
 [`Worksheet`](../../worksheet) object index.
 
@@ -95,7 +95,7 @@ public Worksheet Add(string sheetName)
 | --- | --- | --- |
 | sheetName | String | Worksheet name |
 
-## Return Value
+### Return Value
 
 [`Worksheet`](../../worksheet) object.
 

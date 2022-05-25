@@ -18,7 +18,7 @@ public int AddTableStyle(string name)
 | --- | --- | --- |
 | name | String | The table style name. |
 
-## Return Value
+### Return Value
 
 The index of the table style.
 

@@ -21,7 +21,7 @@ public int AddThreadedComment(int row, int column, string text, ThreadedCommentA
 | text | String | The text of the comment |
 | author | ThreadedCommentAuthor | The user of this threaded comment. |
 
-## Return Value
+### Return Value
 
 [`ThreadedComment`](../../threadedcomment) object index.
 
@@ -48,7 +48,7 @@ public int AddThreadedComment(string cellName, string text, ThreadedCommentAutho
 | text | String | The text of the comment |
 | author | ThreadedCommentAuthor | The user of this threaded comment. |
 
-## Return Value
+### Return Value
 
 [`ThreadedComment`](../../threadedcomment) object index.
 

@@ -12,7 +12,7 @@ url: /net/aspose.cells.drawing/reflectioneffecttype/
 public enum ReflectionEffectType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

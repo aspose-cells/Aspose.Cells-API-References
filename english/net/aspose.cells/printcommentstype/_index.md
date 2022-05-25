@@ -14,7 +14,7 @@ Represents the way comments are printed with the sheet.
 public enum PrintCommentsType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

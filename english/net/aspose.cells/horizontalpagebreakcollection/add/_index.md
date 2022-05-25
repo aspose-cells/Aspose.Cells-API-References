@@ -20,7 +20,7 @@ public int Add(int row, int startColumn, int endColumn)
 | startColumn | Int32 | Start column index, zero based. |
 | endColumn | Int32 | End column index, zero based. |
 
-## Return Value
+### Return Value
 
 [`HorizontalPageBreak`](../../horizontalpagebreak) object index.
 
@@ -48,7 +48,7 @@ public int Add(int row)
 | --- | --- | --- |
 | row | Int32 | Cell row index, zero based. |
 
-## Return Value
+### Return Value
 
 [`HorizontalPageBreak`](../../horizontalpagebreak) object index.
 
@@ -77,7 +77,7 @@ public int Add(int row, int column)
 | row | Int32 | Cell row index, zero based. |
 | column | Int32 | Cell column index, zero based. |
 
-## Return Value
+### Return Value
 
 [`HorizontalPageBreak`](../../horizontalpagebreak) object index.
 
@@ -105,7 +105,7 @@ public int Add(string cellName)
 | --- | --- | --- |
 | cellName | String | Cell name. |
 
-## Return Value
+### Return Value
 
 [`HorizontalPageBreak`](../../horizontalpagebreak) object index.
 

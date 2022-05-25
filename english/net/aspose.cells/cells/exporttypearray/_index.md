@@ -22,7 +22,7 @@ public CellValueType[] ExportTypeArray(int firstRow, int firstColumn, int totalR
 | totalRows | Int32 | Number of rows to be exported. |
 | totalColumns | Int32 | Number of columns to be exported. |
 
-## Return Value
+### Return Value
 
 Exported [`CellValueType`](../../cellvaluetype) array object.
 

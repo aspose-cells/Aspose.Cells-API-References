@@ -18,7 +18,7 @@ public GroupShape Group(Shape[] groupItems)
 | --- | --- | --- |
 | groupItems | Shape[] | the group items. |
 
-## Return Value
+### Return Value
 
 Return the group shape.
 

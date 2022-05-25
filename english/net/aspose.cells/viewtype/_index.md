@@ -14,7 +14,7 @@ Represents the view type of the worksheet.
 public enum ViewType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

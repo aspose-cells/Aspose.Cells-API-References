@@ -18,7 +18,7 @@ public static string SaveFormatToExtension(SaveFormat format)
 | --- | --- | --- |
 | format | SaveFormat | The save format. |
 
-## Return Value
+### Return Value
 
 The returned extension is a lower-case string with a leading dot.
 

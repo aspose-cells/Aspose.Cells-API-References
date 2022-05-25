@@ -19,7 +19,7 @@ public Cell Find(object what, Cell previousCell)
 | what | Object | The object to search for. The type should be int,double,DateTime,string,bool. |
 | previousCell | Cell | Previous cell with the same object. This parameter can be set to null if searching from the start. |
 
-## Return Value
+### Return Value
 
 Cell object.
 
@@ -50,7 +50,7 @@ public Cell Find(object what, Cell previousCell, FindOptions findOptions)
 | previousCell | Cell | Previous cell with the same object. This parameter can be set to null if searching from the start. |
 | findOptions | FindOptions | Find options |
 
-## Return Value
+### Return Value
 
 Cell object.
 

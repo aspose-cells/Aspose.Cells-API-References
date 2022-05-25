@@ -14,7 +14,7 @@ Represents the page background type of ods.
 public enum OdsPageBackgroundType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

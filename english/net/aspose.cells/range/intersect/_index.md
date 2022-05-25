@@ -18,7 +18,7 @@ public Range Intersect(Range range)
 | --- | --- | --- |
 | range | Range | The intersecting range. |
 
-## Return Value
+### Return Value
 
 Returns a [`Range`](../../range) object
 

@@ -14,7 +14,7 @@ Enumerates shape fill pattern types.
 public enum FillPattern
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

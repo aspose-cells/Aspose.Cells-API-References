@@ -14,7 +14,7 @@ Gets the pivot FormatCondition object at the specific index.
 public PivotFormatCondition this[int index] { get; }
 ```
 
-## Return Value
+### Return Value
 
 pivot FormatCondition object.
 

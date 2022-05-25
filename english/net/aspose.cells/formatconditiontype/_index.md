@@ -14,7 +14,7 @@ Conditional format rule type.
 public enum FormatConditionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

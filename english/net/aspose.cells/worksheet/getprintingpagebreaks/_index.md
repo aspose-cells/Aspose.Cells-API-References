@@ -18,7 +18,7 @@ public CellArea[] GetPrintingPageBreaks(ImageOrPrintOptions options)
 | --- | --- | --- |
 | options | ImageOrPrintOptions | The print options |
 
-## Return Value
+### Return Value
 
 The automatic page breaks areas.
 

@@ -14,7 +14,7 @@ Represents type of scroll orientation
 public enum ControlScrollOrientation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

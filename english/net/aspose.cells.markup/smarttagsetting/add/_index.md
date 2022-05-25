@@ -19,7 +19,7 @@ public int Add(int row, int column)
 | row | Int32 | The row of the cell. |
 | column | Int32 | The column of the cell. |
 
-## Return Value
+### Return Value
 
 Returns index of a [`SmartTagCollection`](../../smarttagcollection) object in the worksheet.
 

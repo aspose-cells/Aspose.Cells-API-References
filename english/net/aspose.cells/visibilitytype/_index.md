@@ -14,7 +14,7 @@ Represents the states for sheet visibility.
 public enum VisibilityType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

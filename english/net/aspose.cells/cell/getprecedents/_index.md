@@ -14,7 +14,7 @@ Gets all cells or ranges which this cell's formula depends on.
 public ReferredAreaCollection GetPrecedents()
 ```
 
-## Return Value
+### Return Value
 
 Returns all cells or ranges.
 

@@ -18,7 +18,7 @@ public bool IsSelected(int itemIndex)
 | --- | --- | --- |
 | itemIndex | Int32 | The item index. |
 
-## Return Value
+### Return Value
 
 whether the item is selected.
 

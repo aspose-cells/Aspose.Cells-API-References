@@ -14,7 +14,7 @@ Gets selected ranges of cells in the designer spreadsheet.
 public ArrayList GetSelectedRanges()
 ```
 
-## Return Value
+### Return Value
 
 An ArrayList which contains selected ranges.
 

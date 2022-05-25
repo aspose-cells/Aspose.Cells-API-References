@@ -14,7 +14,7 @@ Determines the type of calculation in the Totals row of the list column.
 public enum TotalsCalculation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

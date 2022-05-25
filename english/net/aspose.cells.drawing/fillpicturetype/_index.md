@@ -14,7 +14,7 @@ Represents the picture fill type.
 public enum FillPictureType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

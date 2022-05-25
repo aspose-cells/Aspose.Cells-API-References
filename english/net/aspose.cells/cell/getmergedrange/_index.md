@@ -14,7 +14,7 @@ Returns a [`Range`](../../range) object which represents a merged range.
 public Range GetMergedRange()
 ```
 
-## Return Value
+### Return Value
 
 [`Range`](../../range) object. Null if this cell is not merged.
 

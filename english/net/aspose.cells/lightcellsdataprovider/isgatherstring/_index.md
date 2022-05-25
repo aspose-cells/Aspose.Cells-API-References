@@ -14,7 +14,7 @@ Checks whether the current string value of cell needs to be gathered into a glob
 public bool IsGatherString()
 ```
 
-## Return Value
+### Return Value
 
 true if string value need to be gathered into a global pool for the resultant file.
 

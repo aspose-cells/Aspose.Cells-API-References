@@ -14,7 +14,7 @@ The filter type.
 public enum FilterType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Specifies the way [`CustomDocumentPropertyCollection`](../../aspose.cells.proper
 public enum PdfCustomPropertiesExport
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

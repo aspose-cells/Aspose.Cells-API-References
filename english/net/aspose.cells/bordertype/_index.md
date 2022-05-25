@@ -15,7 +15,7 @@ Enumerates the border line and diagonal line types.
 public enum BorderType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

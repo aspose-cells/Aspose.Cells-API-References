@@ -14,7 +14,7 @@ Represents how to update links to other workbooks when the workbook is opened.
 public enum UpdateLinksType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

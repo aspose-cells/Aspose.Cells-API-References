@@ -14,7 +14,7 @@ Represents what the bubble size represents on a bubble chart.
 public enum BubbleSizeRepresents
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

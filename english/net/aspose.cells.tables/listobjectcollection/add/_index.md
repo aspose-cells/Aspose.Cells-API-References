@@ -22,7 +22,7 @@ public int Add(int startRow, int startColumn, int endRow, int endColumn, bool ha
 | endColumn | Int32 | The start row of the list range. |
 | hasHeaders | Boolean | Whether the range has headers. |
 
-## Return Value
+### Return Value
 
 The index of the new ListObject
 
@@ -48,7 +48,7 @@ public int Add(string startCell, string endCell, bool hasHeaders)
 | endCell | String | The end cell of the list range. |
 | hasHeaders | Boolean | Whether the range has headers. |
 
-## Return Value
+### Return Value
 
 The index of the new ListObject
 

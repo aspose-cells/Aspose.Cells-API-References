@@ -18,7 +18,7 @@ public WebExtensionTaskPane this[int index] { get; }
 | --- | --- |
 | index | The index. |
 
-## Return Value
+### Return Value
 
 The task pane.
 

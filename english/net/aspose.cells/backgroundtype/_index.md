@@ -14,7 +14,7 @@ Enumerates cell background pattern types.
 public enum BackgroundType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

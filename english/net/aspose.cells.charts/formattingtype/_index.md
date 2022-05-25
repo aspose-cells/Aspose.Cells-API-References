@@ -14,7 +14,7 @@ Represents the type of formatting applied to an [`Area`](../../aspose.cells.draw
 public enum FormattingType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets the name of "Column Labels" label in the PivotTable.
 public virtual string GetColumnLabelsOfPivotTable()
 ```
 
-## Return Value
+### Return Value
 
 The name of column labels
 

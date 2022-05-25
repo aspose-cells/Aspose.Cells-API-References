@@ -14,7 +14,7 @@ Condition value type.
 public enum FormatConditionValueType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

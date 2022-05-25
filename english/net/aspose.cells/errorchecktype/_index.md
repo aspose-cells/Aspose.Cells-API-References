@@ -14,7 +14,7 @@ Represents all error check type.
 public enum ErrorCheckType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

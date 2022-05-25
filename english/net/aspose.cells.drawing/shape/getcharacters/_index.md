@@ -14,7 +14,7 @@ Returns all Characters objects that represents a range of characters within the 
 public ArrayList GetCharacters()
 ```
 
-## Return Value
+### Return Value
 
 All Characters objects
 

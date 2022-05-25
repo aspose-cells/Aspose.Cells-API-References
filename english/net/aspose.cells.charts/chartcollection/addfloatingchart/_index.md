@@ -22,7 +22,7 @@ public int AddFloatingChart(ChartType type, int left, int top, int width, int he
 | width | Int32 | The chart width |
 | height | Int32 | The chart height |
 
-## Return Value
+### Return Value
 
 [`Chart`](../../chart) object index.
 

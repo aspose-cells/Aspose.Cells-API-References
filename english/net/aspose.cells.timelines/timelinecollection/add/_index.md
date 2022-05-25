@@ -21,7 +21,7 @@ public int Add(PivotTable pivot, int row, int column, string baseFieldName)
 | column | Int32 | Column index of the cell in the upper-left corner of the Timeline range. |
 | baseFieldName | String | The name of PivotField in PivotTable.BaseFields |
 
-## Return Value
+### Return Value
 
 The new add Timeline index
 
@@ -57,7 +57,7 @@ public int Add(PivotTable pivot, string destCellName, string baseFieldName)
 | destCellName | String | The cell name in the upper-left corner of the Timeline range. |
 | baseFieldName | String | The name of PivotField in PivotTable.BaseFields |
 
-## Return Value
+### Return Value
 
 The new add Timeline index
 
@@ -94,7 +94,7 @@ public int Add(PivotTable pivot, int row, int column, int baseFieldIndex)
 | column | Int32 | Column index of the cell in the upper-left corner of the Timeline range. |
 | baseFieldIndex | Int32 | The index of PivotField in PivotTable.BaseFields |
 
-## Return Value
+### Return Value
 
 The new add Timeline index
 
@@ -130,7 +130,7 @@ public int Add(PivotTable pivot, string destCellName, int baseFieldIndex)
 | destCellName | String | The cell name in the upper-left corner of the Timeline range. |
 | baseFieldIndex | Int32 | The index of PivotField in PivotTable.BaseFields |
 
-## Return Value
+### Return Value
 
 The new add Timeline index
 
@@ -167,7 +167,7 @@ public int Add(PivotTable pivot, int row, int column, PivotField baseField)
 | column | Int32 | Column index of the cell in the upper-left corner of the Timeline range. |
 | baseField | PivotField | The PivotField in PivotTable.BaseFields |
 
-## Return Value
+### Return Value
 
 The new add Timeline index
 
@@ -204,7 +204,7 @@ public int Add(PivotTable pivot, string destCellName, PivotField baseField)
 | destCellName | String | The cell name in the upper-left corner of the Timeline range. |
 | baseField | PivotField | The PivotField in PivotTable.BaseFields |
 
-## Return Value
+### Return Value
 
 The new add Timeline index
 

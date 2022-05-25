@@ -14,7 +14,7 @@ Represents how a ListBox or ComboBox searches its list as the user types.
 public enum ControlMatchEntryType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

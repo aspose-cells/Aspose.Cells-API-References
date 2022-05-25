@@ -18,7 +18,7 @@ public int Add(CellArea ca)
 | --- | --- | --- |
 | ca | CellArea | The area contains this validation. |
 
-## Return Value
+### Return Value
 
 [`Validation`](../../validation) object index.
 

@@ -14,7 +14,7 @@ Represents quartile calculation methods.
 public enum QuartileCalculationType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

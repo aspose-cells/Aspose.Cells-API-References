@@ -14,7 +14,7 @@ Represents the revision type.
 public enum RevisionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

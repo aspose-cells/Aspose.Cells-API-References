@@ -18,7 +18,7 @@ public Style CreateBuiltinStyle(BuiltinStyleType type)
 | --- | --- | --- |
 | type | BuiltinStyleType |  |
 
-## Return Value
+### Return Value
 
 style object
 

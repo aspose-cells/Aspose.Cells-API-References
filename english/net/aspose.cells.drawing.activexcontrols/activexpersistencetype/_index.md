@@ -14,7 +14,7 @@ Represents the persistence method to persist an ActiveX control.
 public enum ActiveXPersistenceType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Saves Excel file to a MemoryStream object and returns it.
 public MemoryStream SaveToStream()
 ```
 
-## Return Value
+### Return Value
 
 MemoryStream object which contains an Excel file.
 

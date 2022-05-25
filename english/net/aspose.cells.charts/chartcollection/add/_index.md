@@ -23,7 +23,7 @@ public int Add(ChartType type, int upperLeftRow, int upperLeftColumn, int lowerR
 | lowerRightRow | Int32 | Lower right row index |
 | lowerRightColumn | Int32 | Lower right column index |
 
-## Return Value
+### Return Value
 
 [`Chart`](../../chart) object index.
 
@@ -54,7 +54,7 @@ public int Add(ChartType type, string dataRange, int upperLeftRow, int upperLeft
 | lowerRightRow | Int32 | Lower right row index |
 | lowerRightColumn | Int32 | Lower right column index |
 
-## Return Value
+### Return Value
 
 [`Chart`](../../chart) object index.
 

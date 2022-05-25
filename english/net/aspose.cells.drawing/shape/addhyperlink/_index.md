@@ -18,7 +18,7 @@ public Hyperlink AddHyperlink(string address)
 | --- | --- | --- |
 | address | String | Address of the hyperlink. |
 
-## Return Value
+### Return Value
 
 Return the new hyperlink object.
 

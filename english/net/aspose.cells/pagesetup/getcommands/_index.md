@@ -18,7 +18,7 @@ public HeaderFooterCommand[] GetCommands(string headerFooterScript)
 | --- | --- | --- |
 | headerFooterScript | String | The header/footer script |
 
-## Return Value
+### Return Value
 
 Returns all commands of header or footer.
 

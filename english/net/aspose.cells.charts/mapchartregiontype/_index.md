@@ -14,7 +14,7 @@ Represents the region type of the map chart.
 public enum MapChartRegionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

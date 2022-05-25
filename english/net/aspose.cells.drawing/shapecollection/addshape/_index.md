@@ -25,7 +25,7 @@ public Shape AddShape(MsoDrawingType type, int upperLeftRow, int top, int upperL
 | height | Int32 | Represents the height of Shape, in unit of pixel. |
 | width | Int32 | Represents the width of Shape, in unit of pixel. |
 
-## Return Value
+### Return Value
 
 A Shape object.
 

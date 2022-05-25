@@ -14,7 +14,7 @@ Represent the type of SlicerCacheCrossFilterType
 public enum SlicerCacheCrossFilterType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

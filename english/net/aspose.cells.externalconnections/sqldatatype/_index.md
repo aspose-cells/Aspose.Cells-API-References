@@ -14,7 +14,7 @@ Specifies SQL data type of the parameter. Only valid for ODBC sources.
 public enum SqlDataType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

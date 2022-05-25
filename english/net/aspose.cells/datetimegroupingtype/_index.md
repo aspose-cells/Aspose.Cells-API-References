@@ -14,7 +14,7 @@ Specifies how to group dateTime values.
 public enum DateTimeGroupingType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -100,7 +100,7 @@ public Bitmap ToImage(int pageIndex)
 | --- | --- | --- |
 | pageIndex | Int32 | indicate which page is to be converted |
 
-## Return Value
+### Return Value
 
 the bitmap object of the page
 

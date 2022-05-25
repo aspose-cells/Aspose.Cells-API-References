@@ -20,7 +20,7 @@ public bool SetBorder(BorderType borderEdge, CellBorderType borderStyle, Color b
 | borderStyle | CellBorderType | The style of the border. |
 | borderColor | Color | The color of the border. |
 
-## Return Value
+### Return Value
 
 Returns whether changing the current borders.
 

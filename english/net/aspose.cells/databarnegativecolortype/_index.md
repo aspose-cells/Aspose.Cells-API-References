@@ -14,7 +14,7 @@ Specifies whether to use the same border and fill color as positive data bars.
 public enum DataBarNegativeColorType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

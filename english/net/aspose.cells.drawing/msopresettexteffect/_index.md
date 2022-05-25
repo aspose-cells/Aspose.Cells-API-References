@@ -14,7 +14,7 @@ Represents preset text effect type of WordArt.
 public enum MsoPresetTextEffect
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

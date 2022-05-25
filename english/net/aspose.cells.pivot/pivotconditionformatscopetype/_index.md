@@ -14,7 +14,7 @@ Represents PivotTable condition formatting scope type.
 public enum PivotConditionFormatScopeType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

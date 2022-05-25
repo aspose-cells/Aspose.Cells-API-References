@@ -19,7 +19,7 @@ public int Add(int row, int column)
 | row | Int32 | Cell row index. |
 | column | Int32 | Cell column index. |
 
-## Return Value
+### Return Value
 
 [`Comment`](../../comment) object index.
 
@@ -54,7 +54,7 @@ public int Add(string cellName)
 | --- | --- | --- |
 | cellName | String | Cell name. |
 
-## Return Value
+### Return Value
 
 [`Comment`](../../comment) object index.
 

@@ -14,7 +14,7 @@ Gets the name of "(All)" label in the PivotTable.
 public virtual string GetAllName()
 ```
 
-## Return Value
+### Return Value
 
 The name of "(All)" label
 

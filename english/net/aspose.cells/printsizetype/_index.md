@@ -14,7 +14,7 @@ Represents the printed chart size.
 public enum PrintSizeType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

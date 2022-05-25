@@ -18,7 +18,7 @@ public bool GetLockedProperty(ShapeLockType type)
 | --- | --- | --- |
 | type | ShapeLockType | The type of the shape locked property. |
 
-## Return Value
+### Return Value
 
 Returns the value of locked property.
 

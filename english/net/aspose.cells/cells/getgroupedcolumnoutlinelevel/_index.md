@@ -18,7 +18,7 @@ public int GetGroupedColumnOutlineLevel(int columnIndex)
 | --- | --- | --- |
 | columnIndex | Int32 | The column index |
 
-## Return Value
+### Return Value
 
 The outline level of the column
 

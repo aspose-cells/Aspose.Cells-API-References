@@ -14,7 +14,7 @@ Represents the tick mark type for the specified axis.
 public enum TickMarkType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

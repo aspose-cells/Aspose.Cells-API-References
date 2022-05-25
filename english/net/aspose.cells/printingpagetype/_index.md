@@ -14,7 +14,7 @@ Indicates which pages will not be printed.
 public enum PrintingPageType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

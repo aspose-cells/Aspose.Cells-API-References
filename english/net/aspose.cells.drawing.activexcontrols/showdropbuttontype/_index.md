@@ -14,7 +14,7 @@ Specifies when to show the drop button
 public enum ShowDropButtonType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

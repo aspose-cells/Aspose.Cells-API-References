@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The [`ShapeTextAlignment`](../../shapetextalignment) object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 true if the value of the obj parameter is the same as the value of this instance; otherwise, false. If obj is null, this method returns false.
 

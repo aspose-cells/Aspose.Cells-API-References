@@ -14,7 +14,7 @@ Enumerates page layout alignment types.
 public enum PageLayoutAlignmentType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

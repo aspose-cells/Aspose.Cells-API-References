@@ -14,7 +14,7 @@ Represents PivotTable base item Next/Previous/All position in the base field .
 public enum PivotItemPosition
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Represents the scope type of defined names.
 public enum NameScopeType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

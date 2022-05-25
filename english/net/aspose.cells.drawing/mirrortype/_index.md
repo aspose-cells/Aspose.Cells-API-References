@@ -14,7 +14,7 @@ Represents mirror type of texture fill
 public enum MirrorType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

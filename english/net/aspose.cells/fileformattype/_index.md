@@ -14,7 +14,7 @@ Represents the file format types.
 public enum FileFormatType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

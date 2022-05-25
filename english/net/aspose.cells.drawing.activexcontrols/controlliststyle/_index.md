@@ -14,7 +14,7 @@ Represents the visual appearance of the list in a ListBox or ComboBox.
 public enum ControlListStyle
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

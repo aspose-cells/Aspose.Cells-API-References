@@ -14,7 +14,7 @@ Represents the join styles of a line.
 public enum LineJoinType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

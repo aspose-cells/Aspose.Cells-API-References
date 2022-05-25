@@ -14,7 +14,7 @@ Represents the gradient color type for the specified fill.
 public enum GradientColorType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

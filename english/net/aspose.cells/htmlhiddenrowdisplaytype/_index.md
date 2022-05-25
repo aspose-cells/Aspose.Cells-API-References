@@ -14,7 +14,7 @@ Represents two types of showing the hidden rows in html.
 public enum HtmlHiddenRowDisplayType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

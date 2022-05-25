@@ -14,7 +14,7 @@ Represents sort order for the data range.
 public enum SortOrder
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

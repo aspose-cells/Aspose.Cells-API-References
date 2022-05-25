@@ -14,7 +14,7 @@ Moves the cursor down one row from its current position.
 public bool Next()
 ```
 
-## Return Value
+### Return Value
 
 if the new current row is valid; false if there are no more rows
 

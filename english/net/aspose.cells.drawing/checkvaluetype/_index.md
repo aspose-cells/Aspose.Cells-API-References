@@ -14,7 +14,7 @@ Represents the check value type of the check box.
 public enum CheckValueType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

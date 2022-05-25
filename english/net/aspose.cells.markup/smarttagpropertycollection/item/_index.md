@@ -18,7 +18,7 @@ public SmartTagProperty this[int index] { get; }
 | --- | --- |
 | index | The index |
 
-## Return Value
+### Return Value
 
 Returns a [`SmartTagProperty`](../../smarttagproperty) object.
 
@@ -43,7 +43,7 @@ public SmartTagProperty this[string name] { get; }
 | --- | --- |
 | name | The name of the property. |
 
-## Return Value
+### Return Value
 
 Returns a [`SmartTagProperty`](../../smarttagproperty) object.
 

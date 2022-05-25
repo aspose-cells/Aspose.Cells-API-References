@@ -18,7 +18,7 @@ public int AddPivotTableStyle(string name)
 | --- | --- | --- |
 | name | String | The pivot table style name. |
 
-## Return Value
+### Return Value
 
 The index of the pivot table style.
 

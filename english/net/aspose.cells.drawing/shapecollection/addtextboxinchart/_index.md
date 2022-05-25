@@ -21,7 +21,7 @@ public TextBox AddTextBoxInChart(int top, int left, int height, int width)
 | height | Int32 | Represents the height of textbox, in units of 1/4000 of the chart area. |
 | width | Int32 | Represents the width of textbox, in units of 1/4000 of the chart area. |
 
-## Return Value
+### Return Value
 
 A TextBox object.
 

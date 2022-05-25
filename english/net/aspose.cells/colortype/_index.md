@@ -14,7 +14,7 @@ Represents all color type
 public enum ColorType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

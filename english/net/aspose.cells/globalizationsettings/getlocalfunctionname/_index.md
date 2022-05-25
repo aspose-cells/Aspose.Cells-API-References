@@ -18,7 +18,7 @@ public virtual string GetLocalFunctionName(string standardName)
 | --- | --- | --- |
 | standardName | String | Standard(en-US locale) function name. |
 
-## Return Value
+### Return Value
 
 Locale dependent function name. The locale was specified by the Workbook for which this settings is used.
 

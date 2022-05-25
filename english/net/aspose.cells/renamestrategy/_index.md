@@ -14,7 +14,7 @@ Strategy option for duplicate names of columns.
 public enum RenameStrategy
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

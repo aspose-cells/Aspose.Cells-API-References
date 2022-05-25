@@ -19,7 +19,7 @@ public int Add(string uri, string name)
 | uri | String | Specifies the namespace URI of the smart tag |
 | name | String | Specifies the name of the smart tag. |
 
-## Return Value
+### Return Value
 
 The index of smart tag in the list.
 

@@ -14,7 +14,7 @@ Returns all Characters objects that represents a range of characters within the 
 public FontSetting[] GetCharacters()
 ```
 
-## Return Value
+### Return Value
 
 All Characters objects
 
@@ -39,7 +39,7 @@ public FontSetting[] GetCharacters(bool flag)
 | --- | --- | --- |
 | flag | Boolean | Indicates whether applying table style to the cell if the cell is in the table. |
 
-## Return Value
+### Return Value
 
 All Characters objects
 

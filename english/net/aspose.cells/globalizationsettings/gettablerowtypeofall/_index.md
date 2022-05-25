@@ -14,7 +14,7 @@ Gets the type name of table rows that consists of all rows in referenced table. 
 public virtual string GetTableRowTypeOfAll()
 ```
 
-## Return Value
+### Return Value
 
 the type name of table rows
 

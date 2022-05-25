@@ -14,7 +14,7 @@ Represents the type of auto fitting wrapped text.
 public enum AutoFitWrappedTextType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

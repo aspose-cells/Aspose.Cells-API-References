@@ -14,7 +14,7 @@ Represents PivotTable condition formatting rule type.
 public enum PivotConditionFormatRuleType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

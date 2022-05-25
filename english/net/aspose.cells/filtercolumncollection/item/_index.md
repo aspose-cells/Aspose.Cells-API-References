@@ -18,7 +18,7 @@ public FilterColumn this[int fieldIndex] { get; }
 | --- | --- |
 | fieldIndex | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
 
-## Return Value
+### Return Value
 
 Returns [`FilterColumn`](../../filtercolumn) object.
 

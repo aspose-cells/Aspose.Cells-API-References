@@ -14,7 +14,7 @@ Represents the type of icon displayed as the mouse pointer for the control.
 public enum ControlMousePointerType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

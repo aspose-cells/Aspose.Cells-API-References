@@ -14,7 +14,7 @@ Represents the type of revision action.
 public enum RevisionActionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

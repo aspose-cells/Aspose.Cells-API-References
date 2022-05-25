@@ -28,7 +28,7 @@ public int ImportCustomObjects(ICollection list, string[] propertyNames, bool is
 | dateFormatString | String | Date format string for cells. |
 | convertStringToNumber | Boolean | Indicates if this method will try to convert string to number. |
 
-## Return Value
+### Return Value
 
 Total number of rows imported.
 
@@ -60,7 +60,7 @@ public int ImportCustomObjects(ICollection list, int firstRow, int firstColumn,
 | firstColumn | Int32 | The column number of the first cell to import in. |
 | options | ImportTableOptions | The import options. |
 
-## Return Value
+### Return Value
 
 Total number of rows imported.
 

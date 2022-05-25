@@ -14,7 +14,7 @@ Represents the type of ODS generator.
 public enum OdsGeneratorType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

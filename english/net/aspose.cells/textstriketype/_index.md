@@ -14,7 +14,7 @@ This type specifies the strike type.
 public enum TextStrikeType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Represents the way the drawing object is attached to the cells below it.
 public enum PlacementType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

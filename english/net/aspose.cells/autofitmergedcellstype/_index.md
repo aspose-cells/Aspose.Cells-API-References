@@ -14,7 +14,7 @@ Represents the type of auto fitting merged cells.
 public enum AutoFitMergedCellsType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

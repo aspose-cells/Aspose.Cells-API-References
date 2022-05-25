@@ -18,7 +18,7 @@ public FormatCondition this[int index] { get; }
 | --- | --- |
 | index | the index of the formatting condition to return. |
 
-## Return Value
+### Return Value
 
 the formatting condition
 

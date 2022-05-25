@@ -19,7 +19,7 @@ public static int ToOleColor(Color color, Workbook workbook)
 | color | Color | The Color object. |
 | workbook | Workbook |  |
 
-## Return Value
+### Return Value
 
 The value of OLE_COLOR
 

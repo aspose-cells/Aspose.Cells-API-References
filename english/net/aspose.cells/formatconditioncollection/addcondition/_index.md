@@ -22,7 +22,7 @@ public int AddCondition(FormatConditionType type, OperatorType operatorType, str
 | formula1 | String | The value or expression associated with conditional formatting. If the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool). For text value that starts with '=', user may input it as formula in format: "=\"=...\"". |
 | formula2 | String | The value or expression associated with conditional formatting. The input format is same with formula1 |
 
-## Return Value
+### Return Value
 
 Formatting condition object index;
 
@@ -48,7 +48,7 @@ public int AddCondition(FormatConditionType type)
 | --- | --- | --- |
 | type | FormatConditionType | Format condition type. |
 
-## Return Value
+### Return Value
 
 Formatting condition object index;
 

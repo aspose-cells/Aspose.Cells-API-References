@@ -14,7 +14,7 @@ Represents the type of target mode.
 public enum TargetModeType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

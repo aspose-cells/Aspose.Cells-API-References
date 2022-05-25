@@ -14,7 +14,7 @@ Specifies the worksheet type.
 public enum SheetType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

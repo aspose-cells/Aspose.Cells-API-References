@@ -18,7 +18,7 @@ public Color GetMatchingColor(Color rawColor)
 | --- | --- | --- |
 | rawColor | Color | Raw color. |
 
-## Return Value
+### Return Value
 
 Best matching color.
 

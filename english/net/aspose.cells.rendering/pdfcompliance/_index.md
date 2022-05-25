@@ -14,7 +14,7 @@ Allowing user to set PDF conversion's Compatibility
 public enum PdfCompliance
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Represents five types of html cross string.
 public enum HtmlCrossType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

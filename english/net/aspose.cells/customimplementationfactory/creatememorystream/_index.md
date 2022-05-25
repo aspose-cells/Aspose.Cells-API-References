@@ -14,7 +14,7 @@ Create one instance of MemoryStream or custom implementation of MemoryStream.
 public virtual MemoryStream CreateMemoryStream()
 ```
 
-## Return Value
+### Return Value
 
 The MemoryStream instance.
 
@@ -38,7 +38,7 @@ public virtual MemoryStream CreateMemoryStream(int capacity)
 | --- | --- | --- |
 | capacity | Int32 | Initial capacity for the MemoryStream |
 
-## Return Value
+### Return Value
 
 The MemoryStream instance.
 

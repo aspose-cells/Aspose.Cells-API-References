@@ -14,7 +14,7 @@ Gets the type name of table rows that consists of the total row of referenced ta
 public virtual string GetTableRowTypeOfTotals()
 ```
 
-## Return Value
+### Return Value
 
 the type name of table rows
 

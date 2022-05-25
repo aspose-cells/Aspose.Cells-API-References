@@ -14,7 +14,7 @@ Represents the auto fill type.
 public enum AutoFillType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Encryption Type. Only used by excel2003. We will encrypt 2007/2010 workbook usin
 public enum EncryptionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

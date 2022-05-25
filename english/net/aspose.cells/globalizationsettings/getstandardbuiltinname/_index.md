@@ -18,7 +18,7 @@ public virtual string GetStandardBuiltInName(string localName)
 | --- | --- | --- |
 | localName | String | Locale dependent text of built-in Name. The locale was specified by the Workbook for which this settings is used. |
 
-## Return Value
+### Return Value
 
 Standard(en-US locale) text.
 

@@ -14,7 +14,7 @@ Represents data label position type.
 public enum LabelPositionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

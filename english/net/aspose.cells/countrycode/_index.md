@@ -14,7 +14,7 @@ Represents Excel country identifiers.
 public enum CountryCode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

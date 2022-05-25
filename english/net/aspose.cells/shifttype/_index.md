@@ -14,7 +14,7 @@ Represent the shift options when deleting a range of cells.
 public enum ShiftType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

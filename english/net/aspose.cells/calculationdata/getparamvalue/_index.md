@@ -18,7 +18,7 @@ public object GetParamValue(int index)
 | --- | --- | --- |
 | index | Int32 | index of the parameter(0 based) |
 
-## Return Value
+### Return Value
 
 If the parameter is plain value, then returns the plain value. If the parameter is reference, then returns ReferredArea object. If the parameter references to multiple datasets, then returns array of objects.
 

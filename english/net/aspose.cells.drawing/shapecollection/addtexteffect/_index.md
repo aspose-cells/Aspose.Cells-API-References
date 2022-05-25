@@ -31,7 +31,7 @@ public Shape AddTextEffect(MsoPresetTextEffect effect, string text, string fontN
 | height | Int32 | Represents the height of shape, in unit of pixel. |
 | width | Int32 | Represents the width of shape, in unit of pixel. |
 
-## Return Value
+### Return Value
 
 Returns a Shape object that represents the new WordArt object.
 

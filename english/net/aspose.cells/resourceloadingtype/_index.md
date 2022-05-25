@@ -14,7 +14,7 @@ Represents how to loading the linked resource.
 public enum ResourceLoadingType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

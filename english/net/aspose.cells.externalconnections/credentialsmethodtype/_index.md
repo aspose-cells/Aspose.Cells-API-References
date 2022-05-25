@@ -14,7 +14,7 @@ Specifies Credentials method used for server access.
 public enum CredentialsMethodType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

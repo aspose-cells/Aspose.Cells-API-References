@@ -18,7 +18,7 @@ public int Add(TrendlineType type)
 | --- | --- | --- |
 | type | TrendlineType | Trendline type. |
 
-## Return Value
+### Return Value
 
 [`Trendline`](../../trendline) object index.
 
@@ -44,7 +44,7 @@ public int Add(TrendlineType type, string name)
 | type | TrendlineType | Trendline type. |
 | name | String | Trendline name. |
 
-## Return Value
+### Return Value
 
 [`Trendline`](../../trendline) object index.
 

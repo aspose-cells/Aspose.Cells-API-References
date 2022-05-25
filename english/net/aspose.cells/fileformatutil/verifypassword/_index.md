@@ -19,7 +19,7 @@ public static bool VerifyPassword(Stream stream, string password)
 | stream | Stream |  |
 | password | String | The password for encrypted ooxml files. |
 
-## Return Value
+### Return Value
 
 Returns whether the password is corrected.
 

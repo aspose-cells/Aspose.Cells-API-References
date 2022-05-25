@@ -14,7 +14,7 @@ WaringType
 public enum WarningType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

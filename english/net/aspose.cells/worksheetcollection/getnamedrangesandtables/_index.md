@@ -14,7 +14,7 @@ Gets all pre-defined named ranges in the spreadsheet.
 public Range[] GetNamedRangesAndTables()
 ```
 
-## Return Value
+### Return Value
 
 An array of Range objects.
 

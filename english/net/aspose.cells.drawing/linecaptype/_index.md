@@ -14,7 +14,7 @@ Represents the caps of a line
 public enum LineCapType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

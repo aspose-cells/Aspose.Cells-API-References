@@ -14,7 +14,7 @@ Represents the different types of font alignment.
 public enum TextFontAlignType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

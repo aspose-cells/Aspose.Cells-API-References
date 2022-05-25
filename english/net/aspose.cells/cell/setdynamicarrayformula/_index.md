@@ -21,7 +21,7 @@ public CellArea SetDynamicArrayFormula(string arrayFormula, FormulaParseOptions 
 | options | FormulaParseOptions | options to parse formula. "Parse" option will be ignored and the formula will always be parsed immediately |
 | calculateValue | Boolean | whether calculate this dynamic array formula for those cells in the spilled range. |
 
-## Return Value
+### Return Value
 
 the range that the formula should spill into.
 
@@ -52,7 +52,7 @@ public CellArea SetDynamicArrayFormula(string arrayFormula, FormulaParseOptions 
 | calculateRange | Boolean | Whether calculate the spilled range for this dynamic array formula. If the "values" parameter is not null and this flag is false, then the spilled range's height will be values.Length and width will be values[0].Length. |
 | calculateValue | Boolean | whether calculate this dynamic array formula for those cells in the spilled range when "values" is null or corresponding item in "values" for one cell is null. |
 
-## Return Value
+### Return Value
 
 the range that the formula should spill into.
 

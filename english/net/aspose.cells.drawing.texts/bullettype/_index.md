@@ -14,7 +14,7 @@ Represents the type of the bullet.
 public enum BulletType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

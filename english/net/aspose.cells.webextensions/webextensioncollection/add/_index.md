@@ -14,7 +14,7 @@ Adds a web extension.
 public int Add()
 ```
 
-## Return Value
+### Return Value
 
 The index.
 

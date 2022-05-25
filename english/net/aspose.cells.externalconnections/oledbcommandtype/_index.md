@@ -14,7 +14,7 @@ Specifies the OLE DB command type.
 public enum OLEDBCommandType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

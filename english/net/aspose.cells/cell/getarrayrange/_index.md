@@ -14,7 +14,7 @@ Gets the array range if the cell's formula is an array formula.
 public CellArea GetArrayRange()
 ```
 
-## Return Value
+### Return Value
 
 The array range.
 

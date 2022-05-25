@@ -14,7 +14,7 @@ Represents the position of the Caption relative to the control.
 public enum ControlCaptionAlignmentType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Represents the type of special effect.
 public enum ControlSpecialEffectType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

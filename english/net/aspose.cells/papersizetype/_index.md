@@ -14,7 +14,7 @@ Represents paper size constants.
 public enum PaperSizeType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

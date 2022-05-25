@@ -14,7 +14,7 @@ Represents the type of VBA project reference.
 public enum VbaProjectReferenceType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

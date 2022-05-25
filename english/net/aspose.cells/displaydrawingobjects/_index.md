@@ -14,7 +14,7 @@ Represents whether and how to show objects in the workbook.
 public enum DisplayDrawingObjects
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

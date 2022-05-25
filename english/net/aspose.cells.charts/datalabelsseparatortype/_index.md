@@ -14,7 +14,7 @@ Represents the separator type of DataLabels.
 public enum DataLabelsSeparatorType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

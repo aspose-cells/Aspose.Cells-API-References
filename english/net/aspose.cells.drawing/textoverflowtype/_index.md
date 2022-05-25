@@ -14,7 +14,7 @@ Represents the way the text vertical or horizontal overflow.
 public enum TextOverflowType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

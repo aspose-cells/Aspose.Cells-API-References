@@ -18,7 +18,7 @@ public int IndexOf(ThreadedCommentAuthor author)
 | --- | --- | --- |
 | author | ThreadedCommentAuthor | The ThreadedCommentAuthor object |
 
-## Return Value
+### Return Value
 
 The index in the ThreadedCommentAuthor collection
 

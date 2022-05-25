@@ -14,7 +14,7 @@ Fill format set type.
 public enum FormatSetType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

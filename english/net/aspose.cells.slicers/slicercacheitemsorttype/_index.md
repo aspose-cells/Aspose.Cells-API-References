@@ -14,7 +14,7 @@ Specify the sort type of SlicerCacheItem
 public enum SlicerCacheItemSortType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Represents consolidation function.
 public enum ConsolidationFunction
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

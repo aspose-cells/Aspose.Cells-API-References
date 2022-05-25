@@ -23,7 +23,7 @@ public int[] Add(CellArea cellArea, FormatConditionType type, OperatorType opera
 | formula1 | String | The value or expression associated with conditional formatting. |
 | formula2 | String | The value or expression associated with conditional formatting |
 
-## Return Value
+### Return Value
 
 [0]:Formatting condition object index;[1] Effected cell rang index.
 

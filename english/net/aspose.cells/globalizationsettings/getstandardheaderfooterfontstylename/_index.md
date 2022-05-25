@@ -18,7 +18,7 @@ public virtual string GetStandardHeaderFooterFontStyleName(string localfontStyle
 | --- | --- | --- |
 | localfontStyleName | String | Locale font style name for Header/Footer. |
 
-## Return Value
+### Return Value
 
 Standard English font style name(Regular, Bold, Italic)
 

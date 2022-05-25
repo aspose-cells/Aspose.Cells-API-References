@@ -14,7 +14,7 @@ Represents the light rig direction type.
 public enum LightRigDirectionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -19,7 +19,7 @@ public int Add(string name, string value)
 | name | String | The name of the property |
 | value | String | The value of the property. |
 
-## Return Value
+### Return Value
 
 return [`SmartTagProperty`](../../smarttagproperty)
 

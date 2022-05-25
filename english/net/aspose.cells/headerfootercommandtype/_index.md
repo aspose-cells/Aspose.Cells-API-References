@@ -14,7 +14,7 @@ Represents the command type of header and footer.
 public enum HeaderFooterCommandType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | another object |
 
-## Return Value
+### Return Value
 
 true if two objects refers to the same row.
 
@@ -42,7 +42,7 @@ public bool Equals(Row row)
 | --- | --- | --- |
 | row | Row | another row object |
 
-## Return Value
+### Return Value
 
 true if two row objects refers to the same row.
 

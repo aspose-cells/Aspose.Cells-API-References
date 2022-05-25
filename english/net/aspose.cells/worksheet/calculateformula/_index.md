@@ -18,7 +18,7 @@ public object CalculateFormula(string formula)
 | --- | --- | --- |
 | formula | String | Formula to be calculated. |
 
-## Return Value
+### Return Value
 
 Calculated formula result.
 
@@ -43,7 +43,7 @@ public object CalculateFormula(string formula, CalculationOptions opts)
 | formula | String | Formula to be calculated. |
 | opts | CalculationOptions | Options for calculating formula |
 
-## Return Value
+### Return Value
 
 Calculated formula result.
 

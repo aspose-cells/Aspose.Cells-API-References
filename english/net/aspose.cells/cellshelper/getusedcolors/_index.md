@@ -18,7 +18,7 @@ public static Color[] GetUsedColors(Workbook workbook)
 | --- | --- | --- |
 | workbook | Workbook | The workbook object. |
 
-## Return Value
+### Return Value
 
 The used colors.
 

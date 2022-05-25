@@ -14,7 +14,7 @@ Adds a FormatConditions to the collection.
 public int Add()
 ```
 
-## Return Value
+### Return Value
 
 FormatConditions object index.
 

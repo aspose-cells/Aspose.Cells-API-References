@@ -14,7 +14,7 @@ Represents the position type of tick-mark labels on the specified axis.
 public enum TickLabelPositionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Represents the axis type.
 public enum AxisType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Represents the load file format.
 public enum LoadFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

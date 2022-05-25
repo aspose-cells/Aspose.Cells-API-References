@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The Style object to compare with the current Style object. |
 
-## Return Value
+### Return Value
 
 true if the specified Object is equal to the current Object; otherwise, false.
 

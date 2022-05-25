@@ -14,7 +14,7 @@ Represents type of copying format when inserting rows.
 public enum CopyFormatType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

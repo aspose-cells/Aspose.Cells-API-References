@@ -41,7 +41,7 @@ public bool RemoveArea(int startRow, int startColumn, int totalRows, int totalCo
 | totalRows | Int32 | The number of rows of the range. |
 | totalColumns | Int32 | The number of columns of the range. |
 
-## Return Value
+### Return Value
 
 Returns TRUE, this FormatCondtionCollection should be removed.
 

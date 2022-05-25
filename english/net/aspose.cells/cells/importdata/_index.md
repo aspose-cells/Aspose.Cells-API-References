@@ -20,7 +20,7 @@ public int ImportData(IDataReader reader, int firstRow, int firstColumn)
 | firstRow | Int32 | The row number of the first cell to import in. |
 | firstColumn | Int32 | The column number of the first cell to import in. |
 
-## Return Value
+### Return Value
 
 Total number of rows imported.
 
@@ -47,7 +47,7 @@ public int ImportData(IDataReader reader, int firstRow, int firstColumn, ImportT
 | firstColumn | Int32 | The column number of the first cell to import in. |
 | options | ImportTableOptions | The options of importing table. |
 
-## Return Value
+### Return Value
 
 Total number of rows imported.
 
@@ -101,7 +101,7 @@ public int ImportData(DataTable table, int firstRow, int firstColumn, ImportTabl
 | firstColumn | Int32 | First column index. |
 | options | ImportTableOptions | The import options |
 
-## Return Value
+### Return Value
 
 Total number of rows imported.
 
@@ -185,7 +185,7 @@ public int ImportData(DataView dataView, int firstRow, int firstColumn, ImportTa
 | firstColumn | Int32 | First column index. |
 | options | ImportTableOptions | The import options |
 
-## Return Value
+### Return Value
 
 Total number of rows imported.
 

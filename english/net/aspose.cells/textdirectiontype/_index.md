@@ -14,7 +14,7 @@ Represents the direction of the text flow for this paragraph.
 public enum TextDirectionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

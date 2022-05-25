@@ -19,7 +19,7 @@ public object GetValue(int rowOffset, int colOffset)
 | rowOffset | Int32 | row offset from the start row of this area |
 | colOffset | Int32 | column offset from the start row of this area |
 
-## Return Value
+### Return Value
 
 "#REF!" if this area is invalid; "#N/A" if given offset out of this area; Otherwise return the cell value at given position.
 
@@ -45,7 +45,7 @@ public object GetValue(int rowOffset, int colOffset, bool calculateFormulas)
 | colOffset | Int32 | column offset from the start row of this area |
 | calculateFormulas | Boolean | Whether calculate it recursively if the specified reference is formula |
 
-## Return Value
+### Return Value
 
 "#REF!" if this area is invalid; "#N/A" if given offset out of this area; Otherwise return the cell value at given position.
 

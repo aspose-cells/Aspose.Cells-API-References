@@ -14,7 +14,7 @@ Exports data in this range to a DataTable object.
 public DataTable ExportDataTableAsString()
 ```
 
-## Return Value
+### Return Value
 
 Exported DataTable object.
 

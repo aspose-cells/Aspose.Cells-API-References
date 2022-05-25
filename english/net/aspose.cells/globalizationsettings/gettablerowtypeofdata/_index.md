@@ -14,7 +14,7 @@ Gets the type name of table rows that consists of data region of referenced tabl
 public virtual string GetTableRowTypeOfData()
 ```
 
-## Return Value
+### Return Value
 
 the type name of table rows
 

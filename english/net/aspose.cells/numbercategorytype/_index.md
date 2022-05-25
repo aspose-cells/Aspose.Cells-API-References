@@ -14,7 +14,7 @@ Represents category type of cell's number formatting.
 public enum NumberCategoryType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

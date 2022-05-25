@@ -19,7 +19,7 @@ public UnionRange CreateUnionRange(string address, int sheetIndex)
 | address | String | The address of the range. |
 | sheetIndex | Int32 | The sheet index. |
 
-## Return Value
+### Return Value
 
 A [`Range`](../../range) object
 

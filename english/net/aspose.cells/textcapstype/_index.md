@@ -14,7 +14,7 @@ This type specifies the cap types of the text.
 public enum TextCapsType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

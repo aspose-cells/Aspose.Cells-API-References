@@ -18,7 +18,7 @@ public SmartTag this[int index] { get; }
 | --- | --- |
 | index | The index. |
 
-## Return Value
+### Return Value
 
 returns a [`SmartTag`](../../smarttag) object.
 

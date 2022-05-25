@@ -14,7 +14,7 @@ Custom Filter operator type.
 public enum FilterOperatorType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

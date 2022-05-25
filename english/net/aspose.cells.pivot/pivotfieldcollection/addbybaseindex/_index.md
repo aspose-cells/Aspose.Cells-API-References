@@ -18,7 +18,7 @@ public int AddByBaseIndex(int baseFieldIndex)
 | --- | --- | --- |
 | baseFieldIndex | Int32 | field index in the base PivotFields. |
 
-## Return Value
+### Return Value
 
 the index of the PivotField Object in this PivotFields.
 

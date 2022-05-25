@@ -18,7 +18,7 @@ public int Add(TableStyleElementType type)
 | --- | --- | --- |
 | type | TableStyleElementType | The type of the element |
 
-## Return Value
+### Return Value
 
 Returns the index of the element in the list.
 

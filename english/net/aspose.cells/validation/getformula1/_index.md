@@ -19,7 +19,7 @@ public string GetFormula1(bool isR1C1, bool isLocal)
 | isR1C1 | Boolean | Whether the formula needs to be formatted as R1C1. |
 | isLocal | Boolean | Whether the formula needs to be formatted by locale. |
 
-## Return Value
+### Return Value
 
 The value or expression associated with this validation.
 
@@ -46,7 +46,7 @@ public string GetFormula1(bool isR1C1, bool isLocal, int row, int column)
 | row | Int32 | The row index. |
 | column | Int32 | The column index. |
 
-## Return Value
+### Return Value
 
 The value or expression associated with this validation.
 

@@ -14,7 +14,7 @@ Enumerates the font underline types.
 public enum FontUnderlineType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

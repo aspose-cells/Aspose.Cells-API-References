@@ -23,7 +23,7 @@ public Picture AddPicture(int upperLeftRow, int upperLeftColumn, int lowerRightR
 | lowerRightColumn | Int32 | Lower right column index |
 | stream | Stream | Stream object which contains the image data. |
 
-## Return Value
+### Return Value
 
 [`Picture`](../../picture) Picture object.
 
@@ -65,7 +65,7 @@ public Picture AddPicture(int upperLeftRow, int upperLeftColumn, Stream stream, 
 | widthScale | Int32 | Scale of image width, a percentage. |
 | heightScale | Int32 | Scale of image height, a percentage. |
 
-## Return Value
+### Return Value
 
 [`Picture`](../../picture) Picture object.
 

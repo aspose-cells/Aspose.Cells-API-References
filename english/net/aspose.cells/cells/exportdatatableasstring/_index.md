@@ -22,7 +22,7 @@ public DataTable ExportDataTableAsString(int firstRow, int firstColumn, int tota
 | totalRows | Int32 | Number of rows to be imported. |
 | totalColumns | Int32 | Number of columns to be imported. |
 
-## Return Value
+### Return Value
 
 Exported DataTable object.
 
@@ -55,7 +55,7 @@ public DataTable ExportDataTableAsString(int firstRow, int firstColumn, int tota
 | totalColumns | Int32 | Number of columns to be imported. |
 | exportColumnName | Boolean | Indicates whether the data in the first row are exported to the column name of the DataTable. |
 
-## Return Value
+### Return Value
 
 Exported DataTable object.
 

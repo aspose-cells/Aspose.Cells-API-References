@@ -14,7 +14,7 @@ Gets the name of "(Multiple Items)" label in the PivotTable.
 public virtual string GetMultipleItemsName()
 ```
 
-## Return Value
+### Return Value
 
 The name of "(Multiple Items)" label
 

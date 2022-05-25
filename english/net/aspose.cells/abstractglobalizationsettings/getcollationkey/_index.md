@@ -19,7 +19,7 @@ public virtual IComparable GetCollationKey(string v, bool ignoreCase)
 | v | String | String value needs to be compared with others. |
 | ignoreCase | Boolean | whether ignore case when comparing values |
 
-## Return Value
+### Return Value
 
 Object can be used to compare or sort string values
 

@@ -14,7 +14,7 @@ Represents the anchor type.
 public enum ShapeAnchorType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

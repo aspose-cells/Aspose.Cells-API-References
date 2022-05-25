@@ -15,7 +15,7 @@ Represents the type of metadata.
 public enum MetadataType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

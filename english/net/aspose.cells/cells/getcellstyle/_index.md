@@ -19,7 +19,7 @@ public Style GetCellStyle(int row, int column)
 | row | Int32 | row index |
 | column | Int32 | column |
 
-## Return Value
+### Return Value
 
 the style of given cell.
 

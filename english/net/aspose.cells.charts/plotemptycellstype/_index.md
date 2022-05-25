@@ -14,7 +14,7 @@ Represents all plot empty cells type of a chart.
 public enum PlotEmptyCellsType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

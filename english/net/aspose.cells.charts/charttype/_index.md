@@ -14,7 +14,7 @@ Enumerates all chart types used in Excel.
 public enum ChartType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

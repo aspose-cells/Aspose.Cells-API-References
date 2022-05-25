@@ -20,7 +20,7 @@ public static string ConvertA1FormulaToR1C1(string formula, int row, int column)
 | row | Int32 | The row index of the cell. |
 | column | Int32 | The column index of the cell. |
 
-## Return Value
+### Return Value
 
 The R1C1 formula.
 

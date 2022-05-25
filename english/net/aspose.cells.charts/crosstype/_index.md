@@ -14,7 +14,7 @@ Represents the axis cross type.
 public enum CrossType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

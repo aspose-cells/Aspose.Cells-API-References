@@ -14,7 +14,7 @@ Enumerates the legend position types.
 public enum LegendPositionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

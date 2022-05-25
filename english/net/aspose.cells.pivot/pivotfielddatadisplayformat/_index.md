@@ -14,7 +14,7 @@ Represents data display format in the PivotTable data field.
 public enum PivotFieldDataDisplayFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -19,7 +19,7 @@ public int AddR1C1(string area, bool isVertical)
 | area | String | Specifies values from which to plot the data series |
 | isVertical | Boolean | Specifies whether to plot the series from a range of cell values by row or by column. |
 
-## Return Value
+### Return Value
 
 Return the first index of the added ASeries in the NSeries.
 

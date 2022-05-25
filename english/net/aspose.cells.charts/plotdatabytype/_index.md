@@ -14,7 +14,7 @@ Represents the type of data plot by row or column.
 public enum PlotDataByType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

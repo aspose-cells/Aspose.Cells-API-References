@@ -18,7 +18,7 @@ public ContentTypeProperty this[int index] { get; }
 | --- | --- |
 | index | The index. |
 
-## Return Value
+### Return Value
 
 The content type property
 
@@ -43,7 +43,7 @@ public ContentTypeProperty this[string name] { get; }
 | --- | --- |
 | name | The property name. |
 
-## Return Value
+### Return Value
 
 The content type property
 

@@ -24,7 +24,7 @@ public ScrollBar AddScrollBar(int upperLeftRow, int top, int upperLeftColumn, in
 | height | Int32 | Represents the height of ScrollBar, in unit of pixel. |
 | width | Int32 | Represents the width of ScrollBar, in unit of pixel. |
 
-## Return Value
+### Return Value
 
 A ScrollBar object.
 

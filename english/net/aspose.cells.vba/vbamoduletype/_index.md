@@ -14,7 +14,7 @@ Represents the type of VBA module.
 public enum VbaModuleType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

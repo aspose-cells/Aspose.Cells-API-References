@@ -14,7 +14,7 @@ Represents the type of target attribute in HTML  tag.
 public enum HtmlLinkTargetType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

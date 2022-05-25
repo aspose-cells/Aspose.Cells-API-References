@@ -14,7 +14,7 @@ Indicate Cell or Image of DrawObject.
 public enum DrawObjectEnum
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

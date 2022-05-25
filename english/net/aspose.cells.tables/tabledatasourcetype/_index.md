@@ -14,7 +14,7 @@ Represents the table's data source type.
 public enum TableDataSourceType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

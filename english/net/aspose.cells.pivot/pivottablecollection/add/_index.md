@@ -20,7 +20,7 @@ public int Add(string sourceData, string destCellName, string tableName)
 | destCellName | String | The cell in the upper-left corner of the PivotTable report's destination range. |
 | tableName | String | The name of the new PivotTable report. |
 
-## Return Value
+### Return Value
 
 The new added cache index.
 
@@ -47,7 +47,7 @@ public int Add(string sourceData, string destCellName, string tableName, bool us
 | tableName | String | The name of the new PivotTable report. |
 | useSameSource | Boolean | Indicates whether using same data source when another existing pivot table has used this data source. If the property is true, it will save memory. |
 
-## Return Value
+### Return Value
 
 The new added cache index.
 
@@ -74,7 +74,7 @@ public int Add(string sourceData, int row, int column, string tableName)
 | column | Int32 | Column index of the cell in the upper-left corner of the PivotTable report's destination range. |
 | tableName | String | The name of the new PivotTable report. |
 
-## Return Value
+### Return Value
 
 The new added cache index.
 
@@ -102,7 +102,7 @@ public int Add(string sourceData, int row, int column, string tableName, bool us
 | tableName | String | The name of the new PivotTable report. |
 | useSameSource | Boolean | Indicates whether using same data source when another existing pivot table has used this data source. If the property is true, it will save memory. |
 
-## Return Value
+### Return Value
 
 The new added cache index.
 
@@ -128,7 +128,7 @@ public int Add(PivotTable pivotTable, string destCellName, string tableName)
 | destCellName | String | The cell in the upper-left corner of the PivotTable report's destination range. |
 | tableName | String | The name of the new PivotTable report. |
 
-## Return Value
+### Return Value
 
 The new added PivotTable index.
 
@@ -156,7 +156,7 @@ public int Add(PivotTable pivotTable, int row, int column, string tableName)
 | column | Int32 | Column index of the cell in the upper-left corner of the PivotTable report's destination range. |
 | tableName | String | The name of the new PivotTable report. |
 
-## Return Value
+### Return Value
 
 The new added PivotTable index.
 
@@ -186,7 +186,7 @@ public int Add(string[] sourceData, bool isAutoPage, PivotPageFields pageFields,
 | destCellName | String | destCellName The name of the new PivotTable report. |
 | tableName | String | the name of the new PivotTable report. |
 
-## Return Value
+### Return Value
 
 The new added PivotTable index.
 
@@ -217,7 +217,7 @@ public int Add(string[] sourceData, bool isAutoPage, PivotPageFields pageFields,
 | column | Int32 | Column index of the cell in the upper-left corner of the PivotTable report's destination range. |
 | tableName | String | The name of the new PivotTable report. |
 
-## Return Value
+### Return Value
 
 The new added PivotTable index.
 

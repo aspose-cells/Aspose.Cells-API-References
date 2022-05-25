@@ -14,7 +14,7 @@ Returns a collection of smart markers in a spreadsheet.
 public string[] GetSmartMarkers()
 ```
 
-## Return Value
+### Return Value
 
 A collection of smart markers
 

@@ -18,7 +18,7 @@ public TableStyleElement this[int index] { get; }
 | --- | --- |
 | index | The index. |
 
-## Return Value
+### Return Value
 
 Returns [`TableStyleElement`](../../tablestyleelement) object
 
@@ -43,7 +43,7 @@ public TableStyleElement this[TableStyleElementType type] { get; }
 | --- | --- |
 | type | The element type. |
 
-## Return Value
+### Return Value
 
 Returns [`TableStyleElement`](../../tablestyleelement) object
 

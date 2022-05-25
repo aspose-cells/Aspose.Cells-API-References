@@ -21,7 +21,7 @@ public int Add(SparklineType type, string dataRange, bool isVertical, CellArea l
 | isVertical | Boolean | Specifies whether to plot the sparklines from the data range by row or by column. |
 | locationRange | CellArea | Specifies where the sparklines to be placed. |
 
-## Return Value
+### Return Value
 
 [`SparklineGroup`](../../sparklinegroup) object index.
 

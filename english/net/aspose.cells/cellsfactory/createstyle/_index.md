@@ -14,7 +14,7 @@ Creates a new style.
 public Style CreateStyle()
 ```
 
-## Return Value
+### Return Value
 
 Returns a style object.
 

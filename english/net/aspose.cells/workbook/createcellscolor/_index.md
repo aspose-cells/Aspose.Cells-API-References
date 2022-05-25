@@ -14,7 +14,7 @@ Creates a [`CellsColor`](../../cellscolor) object.
 public CellsColor CreateCellsColor()
 ```
 
-## Return Value
+### Return Value
 
 Returns a [`CellsColor`](../../cellscolor) object.
 

@@ -19,7 +19,7 @@ public int Add(string fileName, string[] sheetNames)
 | fileName | String | The external file name. |
 | sheetNames | String[] | All sheet names of the external file. |
 
-## Return Value
+### Return Value
 
 The position of the external name in this list.
 
@@ -45,7 +45,7 @@ public int Add(DirectoryType directoryType, string fileName, string[] sheetNames
 | fileName | String | the file name. |
 | sheetNames | String[] | All sheet names of the external file. |
 
-## Return Value
+### Return Value
 
 The position of the external name in this list.
 

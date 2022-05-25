@@ -14,7 +14,7 @@ Represents the border type of the ActiveX control.
 public enum ControlBorderType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

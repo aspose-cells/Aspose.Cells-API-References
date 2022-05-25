@@ -14,7 +14,7 @@ Represents all direction type of gradient.
 public enum GradientDirectionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public ExternalConnection this[int index] { get; set; }
 | --- | --- |
 | index | The zero based index of the element. |
 
-## Return Value
+### Return Value
 
 The element at the specified index.
 
@@ -43,7 +43,7 @@ public ExternalConnection this[string connectionName] { get; }
 | --- | --- |
 | connectionName | data connection name |
 
-## Return Value
+### Return Value
 
 The element with the specified name.
 

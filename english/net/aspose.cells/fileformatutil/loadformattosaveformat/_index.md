@@ -18,7 +18,7 @@ public static SaveFormat LoadFormatToSaveFormat(LoadFormat loadFormat)
 | --- | --- | --- |
 | loadFormat | LoadFormat | The load format. |
 
-## Return Value
+### Return Value
 
 The save format.
 

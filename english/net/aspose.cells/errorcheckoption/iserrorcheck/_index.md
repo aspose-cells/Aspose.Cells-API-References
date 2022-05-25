@@ -18,7 +18,7 @@ public bool IsErrorCheck(ErrorCheckType errorCheckType)
 | --- | --- | --- |
 | errorCheckType | ErrorCheckType | error type can be checked |
 
-## Return Value
+### Return Value
 
 return true if given error type will be checked(green triangle will be shown for cell if the check failed).
 

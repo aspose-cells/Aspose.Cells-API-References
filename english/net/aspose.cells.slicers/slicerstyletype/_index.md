@@ -14,7 +14,7 @@ Specify the style of slicer view
 public enum SlicerStyleType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Represents state of the sheet's pane.
 public enum PaneStateType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

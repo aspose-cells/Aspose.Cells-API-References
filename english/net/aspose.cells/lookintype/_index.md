@@ -14,7 +14,7 @@ Represents look in type.
 public enum LookInType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

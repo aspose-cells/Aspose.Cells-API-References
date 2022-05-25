@@ -28,7 +28,7 @@ public Shape AddTextEffectInChart(MsoPresetTextEffect effect, string text, strin
 | height | Int32 | Represents the height of shape, in units of 1/4000 of the chart area. |
 | width | Int32 | Represents the width of shape, in units of 1/4000 of the chart area. |
 
-## Return Value
+### Return Value
 
 Returns a Shape object that represents the new WordArt object.
 

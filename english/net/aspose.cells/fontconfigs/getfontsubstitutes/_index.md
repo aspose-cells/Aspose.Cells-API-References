@@ -18,7 +18,7 @@ public static string[] GetFontSubstitutes(string originalFontName)
 | --- | --- | --- |
 | originalFontName | String | originalFontName |
 
-## Return Value
+### Return Value
 
 An array containing font substitute names to be used if original font is not presented.
 

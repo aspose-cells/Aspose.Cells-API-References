@@ -14,7 +14,7 @@ Represents the type of formatting page background with image.
 public enum OdsPageBackgroundGraphicType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

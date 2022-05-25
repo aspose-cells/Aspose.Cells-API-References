@@ -14,7 +14,7 @@ Represents all Gradient fill type.
 public enum GradientFillType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

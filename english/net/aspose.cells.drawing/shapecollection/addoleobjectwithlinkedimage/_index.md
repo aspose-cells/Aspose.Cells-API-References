@@ -23,7 +23,7 @@ public OleObject AddOleObjectWithLinkedImage(int upperLeftRow, int upperLeftColu
 | width | Int32 | The width of the shape. In unit of pixels |
 | sourceFullName | String | The path and name of the source file for the linked image |
 
-## Return Value
+### Return Value
 
 [`Picture`](../../picture) Picture object.
 

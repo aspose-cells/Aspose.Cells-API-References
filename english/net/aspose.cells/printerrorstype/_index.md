@@ -14,7 +14,7 @@ Represents print errors constants.
 public enum PrintErrorsType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

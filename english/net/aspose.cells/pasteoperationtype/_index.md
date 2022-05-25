@@ -14,7 +14,7 @@ Represents operation type when pasting range.
 public enum PasteOperationType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

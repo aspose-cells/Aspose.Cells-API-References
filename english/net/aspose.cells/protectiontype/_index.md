@@ -14,7 +14,7 @@ Represents workbook/worksheet protection type.
 public enum ProtectionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

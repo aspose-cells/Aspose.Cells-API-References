@@ -14,7 +14,7 @@ Detects if a chart's data source has changed.
 public bool IsChartDataChanged()
 ```
 
-## Return Value
+### Return Value
 
 Returns true if the chart has changed otherwise returns false
 

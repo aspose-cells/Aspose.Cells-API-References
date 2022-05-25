@@ -14,7 +14,7 @@ Represents PivotTable groupby type.
 public enum PivotGroupByType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

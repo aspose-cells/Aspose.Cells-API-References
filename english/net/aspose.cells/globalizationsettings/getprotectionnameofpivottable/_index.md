@@ -14,7 +14,7 @@ Gets the protection name in the PivotTable.
 public virtual string GetProtectionNameOfPivotTable()
 ```
 
-## Return Value
+### Return Value
 
 The protection name of PivotTable
 

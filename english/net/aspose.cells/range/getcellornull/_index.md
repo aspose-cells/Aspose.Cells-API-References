@@ -19,7 +19,7 @@ public Cell GetCellOrNull(int rowOffset, int columnOffset)
 | rowOffset | Int32 | Row offset in this range, zero based. |
 | columnOffset | Int32 | Column offset in this range, zero based. |
 
-## Return Value
+### Return Value
 
 [`Cell`](../../cell) object.
 

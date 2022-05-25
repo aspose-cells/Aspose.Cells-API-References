@@ -14,7 +14,7 @@ Specifies the type of using quotation marks for values in text format files.
 public enum TxtValueQuoteType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public virtual string GetSubTotalName(PivotFieldSubtotalType subTotalType)
 | --- | --- | --- |
 | subTotalType | PivotFieldSubtotalType | The [`PivotFieldSubtotalType`](../../../aspose.cells.pivot/pivotfieldsubtotaltype) type |
 
-## Return Value
+### Return Value
 
 The name of [`PivotFieldSubtotalType`](../../../aspose.cells.pivot/pivotfieldsubtotaltype) type
 

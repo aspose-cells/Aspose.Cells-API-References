@@ -18,7 +18,7 @@ public WebExtensionProperty this[int index] { get; }
 | --- | --- |
 | index | The index. |
 
-## Return Value
+### Return Value
 
 The property of web extension.
 
@@ -43,7 +43,7 @@ public WebExtensionProperty this[string name] { get; }
 | --- | --- |
 | name | The name of property. |
 
-## Return Value
+### Return Value
 
 The property of web extension.
 

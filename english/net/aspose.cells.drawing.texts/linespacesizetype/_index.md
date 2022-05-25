@@ -14,7 +14,7 @@ Represents the unit type of line space size.
 public enum LineSpaceSizeType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

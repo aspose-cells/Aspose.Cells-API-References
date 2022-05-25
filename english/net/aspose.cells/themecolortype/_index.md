@@ -14,7 +14,7 @@ Enumerates the theme color types.
 public enum ThemeColorType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

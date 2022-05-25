@@ -14,7 +14,7 @@ Represents the minimum and maximum value types for the sparkline vertical axis.
 public enum SparklineAxisMinMaxType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Specifies how to apply style for the value of the cell.
 public enum CellValueFormatStrategy
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

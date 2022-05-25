@@ -18,7 +18,7 @@ public bool IsColorInPalette(Color color)
 | --- | --- | --- |
 | color | Color | Color structure. |
 
-## Return Value
+### Return Value
 
 Returns true if this color is in the palette. Otherwise, returns false
 

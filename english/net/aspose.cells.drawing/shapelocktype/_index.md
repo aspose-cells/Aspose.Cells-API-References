@@ -14,7 +14,7 @@ Represents type of the property to be locked.
 public enum ShapeLockType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
