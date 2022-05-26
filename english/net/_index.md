@@ -18,6 +18,13 @@ is_root: true
 | [Aspose.Cells.Drawing.ActiveXControls](./aspose.cells.drawing.activexcontrols) | Contains all classes of ActiveXControl. |
 | [Aspose.Cells.Drawing.Texts](./aspose.cells.drawing.texts) | Contains all classes of Texts. |
 | [Aspose.Cells.ExternalConnections](./aspose.cells.externalconnections) | Contains all classes of external connections. |
+| [Aspose.Cells.GridDesktop](./aspose.cells.griddesktop) | The basic namespace of GridDesktop. |
+| [Aspose.Cells.GridDesktop.Data](./aspose.cells.griddesktop.data) | The namespace of basic data represented classes of GridDesktop. |
+| [Aspose.Cells.GridDesktop.ToolBar](./aspose.cells.griddesktop.toolbar) | The namespace of toolbar for GridDesktop control. |
+| [Aspose.Cells.GridJs](./aspose.cells.gridjs) |  |
+| [Aspose.Cells.GridWeb](./aspose.cells.gridweb) | The basic namespace of GridWeb. |
+| [Aspose.Cells.GridWeb.Data](./aspose.cells.gridweb.data) | The namespace of basic data represented classes of GridWeb. |
+| [Aspose.Cells.GridWeb.Design](./aspose.cells.gridweb.design) | The namespace of basic designer represented classes of GridWeb. |
 | [Aspose.Cells.Markup](./aspose.cells.markup) | Contains all classes of smart tag. |
 | [Aspose.Cells.Metadata](./aspose.cells.metadata) | Contains all classes of loading and saving metadata. |
 | [Aspose.Cells.Ods](./aspose.cells.ods) |  |

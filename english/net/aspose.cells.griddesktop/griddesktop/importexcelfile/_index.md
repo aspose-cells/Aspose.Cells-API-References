@@ -1,0 +1,202 @@
+---
+title: ImportExcelFile
+second_title: Aspose.Cells for .NET API Reference
+description: 
+type: docs
+weight: 730
+url: /net/aspose.cells.griddesktop/griddesktop/importexcelfile/
+---
+## GridDesktop.ImportExcelFile method (1 of 7)
+
+Imports from an excel file stream, including disk file stream or memory stream.
+
+```csharp
+public void ImportExcelFile(Stream stream)
+```
+
+### Examples
+
+```csharp
+[C#]
+private void button1_Click(object sender, System.EventArgs e)
+{
+	FileStream fs = new FileStream("d:\\bookx.xls", FileMode.Open);
+	try
+	{
+		gridDesktop1.ImportExcelFile(fs);
+	}
+	catch(Exception ex)
+	{
+	}
+	finally
+	{
+		fs.Close();
+	}
+}
+
+[Visual Basic]
+Private Sub menuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles menuItem6.Click
+	Dim fs As FileStream =  New FileStream("d:\bookx.xls",FileMode.Open)
+	Try
+		gridDesktop1.ImportExcelFile(fs)
+	Catch ex As Exception
+		Throw ex
+	Finally
+		fs.Close()
+	End Try
+End Sub
+
+```
+
+### See Also
+
+* class [GridDesktop](../../griddesktop)
+* namespace [Aspose.Cells.GridDesktop](../../griddesktop)
+* assembly [Aspose.Cells.GridDesktop](../../../)
+
+---
+
+## GridDesktop.ImportExcelFile method (2 of 7)
+
+Imports from an excel file stream, including disk file stream or memory stream.
+
+```csharp
+public void ImportExcelFile(Stream stream, bool runFormulas)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | stream object. |
+| runFormulas | Boolean | if true, this method will invoke RunAllFormulas method. |
+
+### See Also
+
+* class [GridDesktop](../../griddesktop)
+* namespace [Aspose.Cells.GridDesktop](../../griddesktop)
+* assembly [Aspose.Cells.GridDesktop](../../../)
+
+---
+
+## GridDesktop.ImportExcelFile method (3 of 7)
+
+Imports from an excel file.
+
+```csharp
+public void ImportExcelFile(string fileName)
+```
+
+### Examples
+
+```csharp
+[C#]
+private void button1_Click(object sender, System.EventArgs e)
+{
+	gridDesktop1.ImportExcelFile("FinancialPlan.xls");
+}
+
+[Visual Basic]
+Private Sub menuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles menuItem6.Click
+	gridDesktop1.ImportExcelFile("FinancialPlan.xls")
+End Sub
+
+```
+
+### See Also
+
+* class [GridDesktop](../../griddesktop)
+* namespace [Aspose.Cells.GridDesktop](../../griddesktop)
+* assembly [Aspose.Cells.GridDesktop](../../../)
+
+---
+
+## GridDesktop.ImportExcelFile method (4 of 7)
+
+Imports from an excel file.
+
+```csharp
+public void ImportExcelFile(string fileName, bool runFormulas)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | String | excel file name. |
+| runFormulas | Boolean | if true, this method will invoke RunAllFormulas method. |
+
+### See Also
+
+* class [GridDesktop](../../griddesktop)
+* namespace [Aspose.Cells.GridDesktop](../../griddesktop)
+* assembly [Aspose.Cells.GridDesktop](../../../)
+
+---
+
+## GridDesktop.ImportExcelFile method (5 of 7)
+
+Imports from an excel file.
+
+```csharp
+public void ImportExcelFile(Stream stream, string passwordtoOpen, string passwordtoModify, 
+    bool openasReadOnly, bool runFormulas)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | stream of excel file . |
+| passwordtoOpen | String | the open password for the file which is encrypted . |
+| passwordtoOpen | String | the modify password for the file which is protected . |
+| openasReadOnly | Boolean | whether to open the file as ReadOnly . |
+| runFormulas | Boolean | if true, this method will invoke RunAllFormulas method. |
+
+### See Also
+
+* class [GridDesktop](../../griddesktop)
+* namespace [Aspose.Cells.GridDesktop](../../griddesktop)
+* assembly [Aspose.Cells.GridDesktop](../../../)
+
+---
+
+## GridDesktop.ImportExcelFile method (6 of 7)
+
+Imports from an excel file.
+
+```csharp
+public void ImportExcelFile(string fileName, string passwordtoOpen, string passwordtoModify, 
+    bool openasReadOnly, bool runFormulas)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | String | excel file name. |
+| passwordtoOpen | String | the open password for the file which is encrypted . |
+| passwordtoOpen | String | the modify password for the file which is protected . |
+| openasReadOnly | Boolean | whether to open the file as ReadOnly . |
+| runFormulas | Boolean | if true, this method will invoke RunAllFormulas method. |
+
+### See Also
+
+* class [GridDesktop](../../griddesktop)
+* namespace [Aspose.Cells.GridDesktop](../../griddesktop)
+* assembly [Aspose.Cells.GridDesktop](../../../)
+
+---
+
+## GridDesktop.ImportExcelFile method (7 of 7)
+
+Imports a worksheet from an excel file.
+
+```csharp
+public void ImportExcelFile(string fileName, int sheetIndex)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | String | excel file name. |
+| sheetIndex | Int32 | index of sheet to be imported. |
+
+### See Also
+
+* class [GridDesktop](../../griddesktop)
+* namespace [Aspose.Cells.GridDesktop](../../griddesktop)
+* assembly [Aspose.Cells.GridDesktop](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
