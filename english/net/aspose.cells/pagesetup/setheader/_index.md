@@ -22,8 +22,21 @@ public void SetHeader(int section, string headerScript)
 ### Remarks
 
 Script commands:
+| **Command** | **Description** |
+| --- | --- |
+| &P  | Current page number |
+| &N  | Page count |
+| &D  | Current date |
+| &T  | Current time |
+| &A  | Sheet name |
+| &F  | File name without path |
+| &"&lt;FontName&gt;" | Font name, for example: &"Arial" |
+| &"&lt;FontName&gt;, &lt;FontStyle&gt;" | Font name and font style, for example: &"Arial,Bold" |
+| &&lt;FontSize&gt; | Font size. If this command is followed by a plain number to be printed in the header, it will be separated from the font height with a space character. |
+| &"<K" | Font color, for example(RED): &FF0000 |
+| &G  | Image script |
 
-**Command** **Description** &amp;PCurrent page number &amp;NPage count &amp;DCurrent date &amp;TCurrent time&amp;ASheet name&amp;FFile name without path&amp;"&lt;FontName&gt;"Font name, for example: &amp;"Arial"&amp;"&lt;FontName&gt;, &lt;FontStyle&gt;"Font name and font style, for example: &amp;"Arial,Bold"&amp;&lt;FontSize&gt;Font size. If this command is followed by a plain number to be printed in the header, it will be separated from the font height with a space character.&amp;"&lt;K"Font color, for example(RED): &amp;FF0000&amp;GImage script For example: "&amp;Arial,Bold&amp;8Header Note"
+For example: "&Arial,Bold&8Header Note"
 
 ### See Also
 
