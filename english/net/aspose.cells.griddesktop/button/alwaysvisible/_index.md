@@ -1,7 +1,7 @@
 ---
 title: AlwaysVisible
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets if the Button should always visible only work for Cell Control Button.
 type: docs
 weight: 10
 url: /net/aspose.cells.griddesktop/button/alwaysvisible/

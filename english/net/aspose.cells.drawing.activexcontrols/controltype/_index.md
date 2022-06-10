@@ -1,9 +1,9 @@
 ---
 title: ControlType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents all type of ActiveX control.
 type: docs
-weight: 1610
+weight: 1630
 url: /net/aspose.cells.drawing.activexcontrols/controltype/
 ---
 ## ControlType enumeration

@@ -1,7 +1,7 @@
 ---
 title: AddFillColorFilter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a fill color filter.
 type: docs
 weight: 60
 url: /net/aspose.cells/autofilter/addfillcolorfilter/

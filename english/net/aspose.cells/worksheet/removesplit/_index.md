@@ -1,7 +1,7 @@
 ---
 title: RemoveSplit
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Removes split window.
 type: docs
 weight: 810
 url: /net/aspose.cells/worksheet/removesplit/

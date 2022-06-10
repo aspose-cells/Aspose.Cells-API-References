@@ -1,7 +1,7 @@
 ---
 title: Sources
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the format sources list of CellRange.
 type: docs
 weight: 30
 url: /net/aspose.cells.griddesktop/cellformateventargs/sources/

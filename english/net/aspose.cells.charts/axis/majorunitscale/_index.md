@@ -1,7 +1,7 @@
 ---
 title: MajorUnitScale
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the major unit scale for the category axis.
 type: docs
 weight: 270
 url: /net/aspose.cells.charts/axis/majorunitscale/

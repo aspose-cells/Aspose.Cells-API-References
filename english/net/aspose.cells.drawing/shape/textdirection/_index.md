@@ -1,9 +1,9 @@
 ---
 title: TextDirection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets/Sets the direction of the text flow for this object.
 type: docs
-weight: 650
+weight: 700
 url: /net/aspose.cells.drawing/shape/textdirection/
 ---
 ## Shape.TextDirection property

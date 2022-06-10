@@ -1,7 +1,7 @@
 ---
 title: FilePath
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Path to font file.
 type: docs
 weight: 20
 url: /net/aspose.cells/filefontsource/filepath/

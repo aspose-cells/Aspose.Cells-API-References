@@ -1,7 +1,7 @@
 ---
 title: Column
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the column of the cell location.
 type: docs
 weight: 20
 url: /net/aspose.cells.griddesktop/celllocation/column/

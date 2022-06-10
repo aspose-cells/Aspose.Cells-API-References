@@ -1,7 +1,7 @@
 ---
 title: ActiveHeaderBgColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the background color of the active row/column header.
 type: docs
 weight: 50
 url: /net/aspose.cells.gridweb/mainweb/activeheaderbgcolor/

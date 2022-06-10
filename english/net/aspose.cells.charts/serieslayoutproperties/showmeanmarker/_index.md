@@ -1,7 +1,7 @@
 ---
 title: ShowMeanMarker
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether showing markers denoting the mean.
 type: docs
 weight: 90
 url: /net/aspose.cells.charts/serieslayoutproperties/showmeanmarker/

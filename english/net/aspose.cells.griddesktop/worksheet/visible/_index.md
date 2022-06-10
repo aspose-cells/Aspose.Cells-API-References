@@ -1,7 +1,7 @@
 ---
 title: Visible
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents if the worksheet is visible.
 type: docs
 weight: 400
 url: /net/aspose.cells.griddesktop/worksheet/visible/

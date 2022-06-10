@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /net/aspose.cells/collectionbase-1/binarysearch/
 ---
-## CollectionBase&lt;T&gt;.BinarySearch method (1 of 3)
+## BinarySearch(T) {#binarysearch_1}
 
 ```csharp
 public int BinarySearch(T item)
@@ -24,7 +24,7 @@ public int BinarySearch(T item)
 
 ---
 
-## CollectionBase&lt;T&gt;.BinarySearch method (2 of 3)
+## BinarySearch(T, IComparer&lt;T&gt;) {#binarysearch_2}
 
 ```csharp
 public int BinarySearch(T item, IComparer<T> comparer)
@@ -43,7 +43,7 @@ public int BinarySearch(T item, IComparer<T> comparer)
 
 ---
 
-## CollectionBase&lt;T&gt;.BinarySearch method (3 of 3)
+## BinarySearch(int, int, T, IComparer&lt;T&gt;) {#binarysearch}
 
 ```csharp
 public int BinarySearch(int index, int count, T item, IComparer<T> comparer)

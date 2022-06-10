@@ -1,9 +1,9 @@
 ---
 title: Font
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets a Fontaspose.cells/style/font object.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.cells/style/font/
 ---
 ## Style.Font property

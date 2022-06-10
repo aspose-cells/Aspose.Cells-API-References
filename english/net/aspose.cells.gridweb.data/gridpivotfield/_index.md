@@ -1,9 +1,9 @@
 ---
 title: GridPivotField
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a field in a PivotTable report.
 type: docs
-weight: 350
+weight: 360
 url: /net/aspose.cells.gridweb.data/gridpivotfield/
 ---
 ## GridPivotField class

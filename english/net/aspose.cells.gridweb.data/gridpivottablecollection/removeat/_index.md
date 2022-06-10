@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Remove the PivotTable at the specified index.
 type: docs
 weight: 50
 url: /net/aspose.cells.gridweb.data/gridpivottablecollection/removeat/

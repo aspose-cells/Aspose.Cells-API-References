@@ -1,7 +1,7 @@
 ---
 title: ShowAllItems
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether all items in the PivotTable report are displayed even if they dont contain summary data. show items with no data The default value is false.
 type: docs
 weight: 370
 url: /net/aspose.cells.pivot/pivotfield/showallitems/

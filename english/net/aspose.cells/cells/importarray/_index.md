@@ -3,10 +3,10 @@ title: ImportArray
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 930
+weight: 960
 url: /net/aspose.cells/cells/importarray/
 ---
-## Cells.ImportArray method (1 of 6)
+## ImportArray(string[], int, int) {#importarray_4}
 
 ```csharp
 public void ImportArray(string[] stringArray, int firstRow, int firstColumn)
@@ -20,7 +20,7 @@ public void ImportArray(string[] stringArray, int firstRow, int firstColumn)
 
 ---
 
-## Cells.ImportArray method (2 of 6)
+## ImportArray(string[], int, int, bool) {#importarray_5}
 
 Imports an array of string into a worksheet.
 
@@ -43,7 +43,7 @@ public void ImportArray(string[] stringArray, int firstRow, int firstColumn, boo
 
 ---
 
-## Cells.ImportArray method (3 of 6)
+## ImportArray(int[], int, int) {#importarray_2}
 
 ```csharp
 public void ImportArray(int[] intArray, int firstRow, int firstColumn)
@@ -57,7 +57,7 @@ public void ImportArray(int[] intArray, int firstRow, int firstColumn)
 
 ---
 
-## Cells.ImportArray method (4 of 6)
+## ImportArray(int[], int, int, bool) {#importarray_3}
 
 Imports an array of integer into a worksheet.
 
@@ -80,7 +80,7 @@ public void ImportArray(int[] intArray, int firstRow, int firstColumn, bool isVe
 
 ---
 
-## Cells.ImportArray method (5 of 6)
+## ImportArray(double[], int, int) {#importarray}
 
 ```csharp
 public void ImportArray(double[] doubleArray, int firstRow, int firstColumn)
@@ -94,7 +94,7 @@ public void ImportArray(double[] doubleArray, int firstRow, int firstColumn)
 
 ---
 
-## Cells.ImportArray method (6 of 6)
+## ImportArray(double[], int, int, bool) {#importarray_1}
 
 Imports an array of double into a worksheet.
 

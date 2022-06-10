@@ -26,6 +26,8 @@ The basic namespace of GridWeb.
 | [License](./license) | Provides methods to license the component. |
 | [MainWeb](./mainweb) | Parent class of GridWeb control.Internal use only. |
 | [RowColumnEventArgs](./rowcolumneventargs) | Provides data for row/column events. |
+| [TableItemStyle](./tableitemstyle) |  |
+| [Validation](./validation) |  |
 | [ViewerStyleTemplate](./viewerstyletemplate) | ViewerStyleTemplate. |
 | [WebBorderStyle](./webborderstyle) | Encapsulates the style of web table or cell border. |
 | [WorksheetDesign](./worksheetdesign) | Inherited from WebWorksheet. Used in design-time only. |

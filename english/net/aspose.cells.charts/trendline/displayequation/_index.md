@@ -1,7 +1,7 @@
 ---
 title: DisplayEquation
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents if the equation for the trendline is displayed on the chart in the same data label as the R-squared value. Setting this property to True automatically turns on data labels.
 type: docs
 weight: 30
 url: /net/aspose.cells.charts/trendline/displayequation/

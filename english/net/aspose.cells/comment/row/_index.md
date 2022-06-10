@@ -1,7 +1,7 @@
 ---
 title: Row
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the row index of the comment.
 type: docs
 weight: 130
 url: /net/aspose.cells/comment/row/

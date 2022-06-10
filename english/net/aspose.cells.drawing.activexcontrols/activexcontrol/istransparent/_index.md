@@ -1,7 +1,7 @@
 ---
 title: IsTransparent
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the control is transparent.
 type: docs
 weight: 70
 url: /net/aspose.cells.drawing.activexcontrols/activexcontrol/istransparent/

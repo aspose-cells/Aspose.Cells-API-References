@@ -1,12 +1,12 @@
 ---
 title: PutValue
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Puts a DateTime value into the cell.
 type: docs
 weight: 340
 url: /net/aspose.cells.griddesktop.data/gridcell/putvalue/
 ---
-## GridCell.PutValue method (1 of 8)
+## PutValue(DateTime) {#putvalue_3}
 
 Puts a DateTime value into the cell.
 
@@ -26,7 +26,7 @@ public void PutValue(DateTime param_date)
 
 ---
 
-## GridCell.PutValue method (2 of 8)
+## PutValue(string) {#putvalue_5}
 
 Puts a String value into the cell.
 
@@ -46,7 +46,7 @@ public void PutValue(string param_string)
 
 ---
 
-## GridCell.PutValue method (3 of 8)
+## PutValue(object) {#putvalue_4}
 
 Puts an object value into the cell.same as setValue(Object param_object)
 
@@ -66,7 +66,7 @@ public void PutValue(object param_object)
 
 ---
 
-## GridCell.PutValue method (4 of 8)
+## PutValue(int) {#putvalue_2}
 
 Puts a int value into the cell.
 
@@ -86,7 +86,7 @@ public void PutValue(int param_int)
 
 ---
 
-## GridCell.PutValue method (5 of 8)
+## PutValue(string, bool, bool) {#putvalue_7}
 
 Puts a value into the cell, if appropriate the value will be converted to other data type and cell's number format will be reset.
 
@@ -108,7 +108,7 @@ public void PutValue(string stringValue, bool isConverted, bool setStyle)
 
 ---
 
-## GridCell.PutValue method (6 of 8)
+## PutValue(string, bool) {#putvalue_6}
 
 Puts a string value into the cell and converts the value to other data type if appropriate.
 
@@ -129,7 +129,7 @@ public void PutValue(string stringValue, bool isConverted)
 
 ---
 
-## GridCell.PutValue method (7 of 8)
+## PutValue(bool) {#putvalue}
 
 Puts a boolean value into the cell.
 
@@ -149,7 +149,7 @@ public void PutValue(bool param_boolean)
 
 ---
 
-## GridCell.PutValue method (8 of 8)
+## PutValue(double) {#putvalue_1}
 
 Puts a double value into the cell.
 

@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticMinorUnit
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the minor unit of the axis is automatically assigned.
 type: docs
 weight: 160
 url: /net/aspose.cells.charts/axis/isautomaticminorunit/

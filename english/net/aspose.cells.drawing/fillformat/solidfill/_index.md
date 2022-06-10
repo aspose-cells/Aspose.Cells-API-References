@@ -1,9 +1,9 @@
 ---
 title: SolidFill
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets SolidFillaspose.cells.drawing/fillformat/solidfill object.
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.cells.drawing/fillformat/solidfill/
 ---
 ## FillFormat.SolidFill property

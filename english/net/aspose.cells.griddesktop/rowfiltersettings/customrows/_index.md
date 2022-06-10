@@ -1,12 +1,12 @@
 ---
 title: CustomRows
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Filters a list with a custom criteria.
 type: docs
 weight: 70
 url: /net/aspose.cells.griddesktop/rowfiltersettings/customrows/
 ---
-## RowFilterSettings.CustomRows method (1 of 2)
+## CustomRows(int, GridFilterOperatorType, object) {#customrows}
 
 Filters a list with a custom criteria.
 
@@ -29,7 +29,7 @@ public void CustomRows(int column, GridFilterOperatorType operatorType1, object 
 
 ---
 
-## RowFilterSettings.CustomRows method (2 of 2)
+## CustomRows(int, GridFilterOperatorType, object, bool, GridFilterOperatorType, object) {#customrows_1}
 
 Filters a list with a custom criteria.
 

@@ -1,7 +1,7 @@
 ---
 title: CategoryData
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the range of category Axis values. It can be a range of cells such as d1e10 or a sequence of values such as26810.
 type: docs
 weight: 10
 url: /net/aspose.cells.charts/seriescollection/categorydata/

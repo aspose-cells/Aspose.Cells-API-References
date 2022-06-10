@@ -1,7 +1,7 @@
 ---
 title: DefaultGridLineColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the default grid lines color.
 type: docs
 weight: 200
 url: /net/aspose.cells.gridweb/mainweb/defaultgridlinecolor/

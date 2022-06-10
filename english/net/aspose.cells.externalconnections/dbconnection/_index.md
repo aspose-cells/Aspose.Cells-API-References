@@ -1,9 +1,9 @@
 ---
 title: DBConnection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies all properties associated with an ODBC or OLE DB external data connection.
 type: docs
-weight: 3270
+weight: 3300
 url: /net/aspose.cells.externalconnections/dbconnection/
 ---
 ## DBConnection class
@@ -24,6 +24,7 @@ public class DBConnection : ExternalConnection
 | [ConnectionDescription](../../aspose.cells.externalconnections/externalconnection/connectiondescription) { get; set; } | Specifies the user description for this connection |
 | [ConnectionId](../../aspose.cells.externalconnections/externalconnection/connectionid) { get; } | Specifies The unique identifier of this connection. |
 | [ConnectionInfo](../../aspose.cells.externalconnections/dbconnection/connectioninfo) { get; set; } | The connection information string is used to make contact with an OLE DB or ODBC data source. |
+| [Credentials](../../aspose.cells.externalconnections/externalconnection/credentials) { get; set; } | Specifies the authentication method to be used when establishing (or re-establishing) the connection. |
 | [CredentialsMethodType](../../aspose.cells.externalconnections/externalconnection/credentialsmethodtype) { get; set; } | Specifies the authentication method to be used when establishing (or re-establishing) the connection. |
 | [Id](../../aspose.cells.externalconnections/externalconnection/id) { get; } | Gets the id of the connection. |
 | [IsDeleted](../../aspose.cells.externalconnections/externalconnection/isdeleted) { get; set; } | Indicates whether the associated workbook connection has been deleted. true if the connection has been deleted; otherwise, false. |
@@ -34,6 +35,7 @@ public class DBConnection : ExternalConnection
 | [OnlyUseConnectionFile](../../aspose.cells.externalconnections/externalconnection/onlyuseconnectionfile) { get; set; } | Indicates whether the spreadsheet application should always and only use the connection information in the external connection file indicated by the odcFile attribute when the connection is refreshed. If false, then the spreadsheet application should follow the procedure indicated by the reconnectionMethod attribute |
 | [Parameters](../../aspose.cells.externalconnections/externalconnection/parameters) { get; } | Gets [`ConnectionParameterCollection`](../connectionparametercollection) for an ODBC or web query. |
 | override [PowerQueryFormula](../../aspose.cells.externalconnections/dbconnection/powerqueryformula) { get; } | Gets the definition of power query formula. |
+| [ReconnectionMethod](../../aspose.cells.externalconnections/externalconnection/reconnectionmethod) { get; set; } | Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required. |
 | [ReconnectionMethodType](../../aspose.cells.externalconnections/externalconnection/reconnectionmethodtype) { get; set; } | Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required. |
 | [RefreshInternal](../../aspose.cells.externalconnections/externalconnection/refreshinternal) { get; set; } | Specifies the number of minutes between automatic refreshes of the connection. |
 | [RefreshOnLoad](../../aspose.cells.externalconnections/externalconnection/refreshonload) { get; set; } | True if this connection should be refreshed when opening the file; otherwise, false. |

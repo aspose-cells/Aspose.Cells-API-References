@@ -1,9 +1,9 @@
 ---
 title: IsWorkbookProtectedWithPassword
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether structure or window is protected with password.
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.cells/workbook/isworkbookprotectedwithpassword/
 ---
 ## Workbook.IsWorkbookProtectedWithPassword property

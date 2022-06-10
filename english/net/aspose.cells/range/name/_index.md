@@ -1,9 +1,9 @@
 ---
 title: Name
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the name of the range.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.cells/range/name/
 ---
 ## Range.Name property

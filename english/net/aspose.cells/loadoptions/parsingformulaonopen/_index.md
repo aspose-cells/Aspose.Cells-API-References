@@ -1,7 +1,7 @@
 ---
 title: ParsingFormulaOnOpen
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether parsing the formula when reading the file.
 type: docs
 weight: 170
 url: /net/aspose.cells/loadoptions/parsingformulaonopen/

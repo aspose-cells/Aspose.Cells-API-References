@@ -1,7 +1,7 @@
 ---
 title: DoubleValue
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the double value contained in the cell.
 type: docs
 weight: 50
 url: /net/aspose.cells.griddesktop.data/gridcell/doublevalue/

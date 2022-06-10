@@ -1,7 +1,7 @@
 ---
 title: SheetName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates which sheet this is in
 type: docs
 weight: 60
 url: /net/aspose.cells.gridjs/gridreferredarea/sheetname/

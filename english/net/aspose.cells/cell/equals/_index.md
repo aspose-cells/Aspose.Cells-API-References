@@ -1,36 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Checks whether this object refers to the same cell with another.
 type: docs
-weight: 340
+weight: 370
 url: /net/aspose.cells/cell/equals/
 ---
-## Cell.Equals method (1 of 2)
-
-Checks whether this object refers to the same cell with another cell object.
-
-```csharp
-public bool Equals(Cell cell)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| cell | Cell | another cell object |
-
-### Return Value
-
-true if two cell objects refers to the same cell.
-
-### See Also
-
-* class [Cell](../../cell)
-* namespace [Aspose.Cells](../../cell)
-* assembly [Aspose.Cells](../../../)
-
----
-
-## Cell.Equals method (2 of 2)
+## Equals(object) {#equals_1}
 
 Checks whether this object refers to the same cell with another.
 
@@ -45,6 +21,30 @@ public override bool Equals(object obj)
 ### Return Value
 
 true if two objects refers to the same cell.
+
+### See Also
+
+* class [Cell](../../cell)
+* namespace [Aspose.Cells](../../cell)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Equals(Cell) {#equals}
+
+Checks whether this object refers to the same cell with another cell object.
+
+```csharp
+public bool Equals(Cell cell)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cell | Cell | another cell object |
+
+### Return Value
+
+true if two cell objects refers to the same cell.
 
 ### See Also
 

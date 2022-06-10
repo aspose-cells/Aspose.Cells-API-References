@@ -1,9 +1,9 @@
 ---
 title: PivotFilterCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a collection of all the PivotFilter objects
 type: docs
-weight: 4580
+weight: 4620
 url: /net/aspose.cells.pivot/pivotfiltercollection/
 ---
 ## PivotFilterCollection class

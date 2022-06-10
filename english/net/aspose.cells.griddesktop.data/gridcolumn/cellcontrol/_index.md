@@ -1,7 +1,7 @@
 ---
 title: CellControl
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the CellControl object of the column.
 type: docs
 weight: 10
 url: /net/aspose.cells.griddesktop.data/gridcolumn/cellcontrol/

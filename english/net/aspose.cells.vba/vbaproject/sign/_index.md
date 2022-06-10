@@ -1,7 +1,7 @@
 ---
 title: Sign
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sign this VBA project by a DigitalSignature
 type: docs
 weight: 110
 url: /net/aspose.cells.vba/vbaproject/sign/

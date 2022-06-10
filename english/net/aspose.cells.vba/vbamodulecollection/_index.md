@@ -1,9 +1,9 @@
 ---
 title: VbaModuleCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the list of VbaModule./vbamodule
 type: docs
-weight: 6240
+weight: 6280
 url: /net/aspose.cells.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection class
@@ -27,8 +27,8 @@ public class VbaModuleCollection : CollectionBase<VbaModule>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.vba/vbamodulecollection/add)(Worksheet) | Adds module for a worksheet. |
-| [Add](../../aspose.cells.vba/vbamodulecollection/add)(VbaModuleType, string) | Adds module. |
+| [Add](../../aspose.cells.vba/vbamodulecollection/add#add_1)(Worksheet) | Adds module for a worksheet. |
+| [Add](../../aspose.cells.vba/vbamodulecollection/add#add)(VbaModuleType, string) | Adds module. |
 | [AddDesignerStorage](../../aspose.cells.vba/vbamodulecollection/adddesignerstorage)(string, byte[]) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(VbaModule) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(VbaModule, IComparer&lt;VbaModule&gt;) |  |
@@ -56,8 +56,8 @@ public class VbaModuleCollection : CollectionBase<VbaModule>
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(VbaModule) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(VbaModule, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(VbaModule, int, int) |  |
-| [Remove](../../aspose.cells.vba/vbamodulecollection/remove)(string) | Remove the module by the name |
-| [Remove](../../aspose.cells.vba/vbamodulecollection/remove)(Worksheet) | Removes module for a worksheet. |
+| [Remove](../../aspose.cells.vba/vbamodulecollection/remove#remove_1)(string) | Remove the module by the name |
+| [Remove](../../aspose.cells.vba/vbamodulecollection/remove#remove)(Worksheet) | Removes module for a worksheet. |
 | [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
 
 ### Examples

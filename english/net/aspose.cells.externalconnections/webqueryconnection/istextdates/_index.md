@@ -1,9 +1,9 @@
 ---
 title: IsTextDates
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Flag indicating whether dates should be imported into cells in the worksheet as text rather than dates.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.cells.externalconnections/webqueryconnection/istextdates/
 ---
 ## WebQueryConnection.IsTextDates property

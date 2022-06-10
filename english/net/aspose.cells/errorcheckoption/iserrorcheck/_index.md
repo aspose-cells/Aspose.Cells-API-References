@@ -1,7 +1,7 @@
 ---
 title: IsErrorCheck
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Checks whether given error type will be checked.
 type: docs
 weight: 40
 url: /net/aspose.cells/errorcheckoption/iserrorcheck/

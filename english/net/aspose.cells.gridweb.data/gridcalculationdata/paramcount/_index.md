@@ -1,7 +1,7 @@
 ---
 title: ParamCount
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the count of parameters
 type: docs
 weight: 40
 url: /net/aspose.cells.gridweb.data/gridcalculationdata/paramcount/

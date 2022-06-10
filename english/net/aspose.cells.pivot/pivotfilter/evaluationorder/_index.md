@@ -1,7 +1,7 @@
 ---
 title: EvaluationOrder
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the Evaluation Order of the pivot filter.
 type: docs
 weight: 20
 url: /net/aspose.cells.pivot/pivotfilter/evaluationorder/

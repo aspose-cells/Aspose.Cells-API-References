@@ -1,7 +1,7 @@
 ---
 title: GetColumnWidthPixel
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the width of the specified column in units of pixel.
 type: docs
 weight: 420
 url: /net/aspose.cells.gridweb.data/gridcells/getcolumnwidthpixel/

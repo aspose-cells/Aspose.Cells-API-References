@@ -1,7 +1,7 @@
 ---
 title: IsAutoTickLabelSpacing
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the spacing of tick label is automatic
 type: docs
 weight: 180
 url: /net/aspose.cells.charts/axis/isautoticklabelspacing/

@@ -1,9 +1,9 @@
 ---
 title: Picture
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the object that represents a single picture in a spreadsheet.
 type: docs
-weight: 2470
+weight: 2490
 url: /net/aspose.cells.drawing/picture/
 ---
 ## Picture class
@@ -26,11 +26,15 @@ public class Picture : Shape
 | [BorderLineColor](../../aspose.cells.drawing/picture/borderlinecolor) { get; set; } | Represents the Color of the border line of a picture. |
 | [BorderWeight](../../aspose.cells.drawing/picture/borderweight) { get; set; } | Gets or sets the weight of the border line of a picture in units of pt. |
 | [Bottom](../../aspose.cells.drawing/shape/bottom) { get; set; } | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
+| [ConnectionPoints](../../aspose.cells.drawing/shape/connectionpoints) { get; } | Get the connection points |
 | [ControlData](../../aspose.cells.drawing/shape/controldata) { get; } | Gets the data of control. |
+| [CreateId](../../aspose.cells.drawing/shape/createid) { get; set; } | Gets and sets create id for this shape. |
 | [Data](../../aspose.cells.drawing/picture/data) { get; set; } | Gets the data of the picture. |
 | [DisplayAsIcon](../../aspose.cells.drawing/picture/displayasicon) { get; set; } | True if the specified object is displayed as an icon and the image will not be auto changed. |
-| [Fill](../../aspose.cells.drawing/shape/fill) { get; } | Returns a FillFormat object that contains fill formatting properties for the specified shape. |
+| [Fill](../../aspose.cells.drawing/shape/fill) { get; } | Returns a [`FillFormat`](../shape/fillformat) object that contains fill formatting properties for the specified shape. |
+| [FillFormat](../../aspose.cells.drawing/shape/fillformat) { get; } | Returns a MsoFillFormat object that contains fill formatting properties for the specified shape. |
 | [Font](../../aspose.cells.drawing/shape/font) { get; set; } | Represents the font of shape. |
+| [Format](../../aspose.cells.drawing/shape/format) { get; } | Represents the setting of the shape's formatting. |
 | [FormatPicture](../../aspose.cells.drawing/shape/formatpicture) { get; } | Gets and sets the options of the picture format. |
 | [Formula](../../aspose.cells.drawing/picture/formula) { get; set; } | Gets and sets the data of the formula. |
 | [Geometry](../../aspose.cells.drawing/shape/geometry) { get; } | Gets the geometry |
@@ -71,6 +75,7 @@ public class Picture : Shape
 | [LeftInShape](../../aspose.cells.drawing/shape/leftinshape) { get; set; } | Represents the horizontal offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape. |
 | [LeftToCorner](../../aspose.cells.drawing/shape/lefttocorner) { get; set; } | Gets and sets the horizonal offset of shape from worksheet left border. |
 | [Line](../../aspose.cells.drawing/shape/line) { get; } | Gets line style |
+| [LineFormat](../../aspose.cells.drawing/shape/lineformat) { get; } | Returns a MsoLineFormat object that contains line formatting properties for the specified shape. |
 | [LinkedCell](../../aspose.cells.drawing/shape/linkedcell) { get; set; } | Gets or sets the worksheet range linked to the control's value. |
 | [LowerDeltaX](../../aspose.cells.drawing/shape/lowerdeltax) { get; set; } | Gets or sets the shape's horizontal offset from its lower right corner column. The range of value is 0 to 1024. |
 | [LowerDeltaY](../../aspose.cells.drawing/shape/lowerdeltay) { get; set; } | Gets or sets the shape's vertical offset from its lower right corner row. The range of value is 0 to 256. |
@@ -101,6 +106,7 @@ public class Picture : Shape
 | [TextBody](../../aspose.cells.drawing/shape/textbody) { get; } | Gets and sets the setting of the shape's text. |
 | [TextDirection](../../aspose.cells.drawing/shape/textdirection) { get; set; } | Gets/Sets the direction of the text flow for this object. |
 | [TextEffect](../../aspose.cells.drawing/shape/texteffect) { get; } | Returns a TextEffectFormat object that contains text-effect formatting properties for the specified shape. Applies to Shape objects that represent WordArt. |
+| [TextFrame](../../aspose.cells.drawing/shape/textframe) { get; } | Returns a TextFrame object that contains the alignment and anchoring properties for the specified shape. |
 | [TextHorizontalAlignment](../../aspose.cells.drawing/shape/texthorizontalalignment) { get; set; } | Gets and sets the text horizontal alignment type of the shape. |
 | [TextHorizontalOverflow](../../aspose.cells.drawing/shape/texthorizontaloverflow) { get; set; } | Gets and sets the text horizontal overflow type of the shape which contains text. |
 | [TextOptions](../../aspose.cells.drawing/shape/textoptions) { get; set; } | Represents the text options of the shape. |
@@ -140,6 +146,7 @@ public class Picture : Shape
 | [CalculateTextSize](../../aspose.cells.drawing/shape/calculatetextsize)() | Recalculate the text area |
 | [Characters](../../aspose.cells.drawing/shape/characters)(int, int) | Returns a Characters object that represents a range of characters within the text. |
 | [Copy](../../aspose.cells.drawing/picture/copy)(Picture, CopyOptions) | Copy the picture. |
+| [FormatCharacters](../../aspose.cells.drawing/shape/formatcharacters)(int, int, Font) | Formats some characters with the font setting. |
 | [FormatCharacters](../../aspose.cells.drawing/shape/formatcharacters)(int, int, Font, StyleFlag) | Formats some characters with the font setting. |
 | [GetCharacters](../../aspose.cells.drawing/shape/getcharacters)() | Returns all Characters objects that represents a range of characters within the text . |
 | [GetConnectionPoints](../../aspose.cells.drawing/shape/getconnectionpoints)() | Get the connection points |

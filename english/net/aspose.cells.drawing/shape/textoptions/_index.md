@@ -1,9 +1,9 @@
 ---
 title: TextOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the text options of the shape.
 type: docs
-weight: 690
+weight: 750
 url: /net/aspose.cells.drawing/shape/textoptions/
 ---
 ## Shape.TextOptions property

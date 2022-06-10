@@ -1,7 +1,7 @@
 ---
 title: CustomPrintPageEventHandler
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Client can special output to printer when print each page using this EventHandler
 type: docs
 weight: 50
 url: /net/aspose.cells.rendering/imageorprintoptions/customprintpageeventhandler/

@@ -1,7 +1,7 @@
 ---
 title: IsCloudPlatform
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Please set this property True when running on a cloud platform such as Azure AWSLambda etc
 type: docs
 weight: 40
 url: /net/aspose.cells/cellshelper/iscloudplatform/

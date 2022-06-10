@@ -1,7 +1,7 @@
 ---
 title: ClearGlowEffect
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Clears the glow effect of the shape.
 type: docs
 weight: 60
 url: /net/aspose.cells.drawing/shapepropertycollection/cleargloweffect/

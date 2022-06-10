@@ -1,9 +1,9 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns a DocumentPropertyaspose.cells.properties/documentproperty object by the name of the property.
 type: docs
-weight: 110
+weight: 140
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/item/
 ---
 ## BuiltInDocumentPropertyCollection indexer

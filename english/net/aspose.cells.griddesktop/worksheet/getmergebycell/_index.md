@@ -1,7 +1,7 @@
 ---
 title: GetMergeByCell
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: get the the merge area that contains the cell at rowcolumn location return null if all the merge areas does not include this cell location
 type: docs
 weight: 790
 url: /net/aspose.cells.griddesktop/worksheet/getmergebycell/

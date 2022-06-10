@@ -1,12 +1,12 @@
 ---
 title: ImportObjectArray
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Imports an array of data into a worksheet.
 type: docs
-weight: 1040
+weight: 1100
 url: /net/aspose.cells/cells/importobjectarray/
 ---
-## Cells.ImportObjectArray method (1 of 2)
+## ImportObjectArray(object[], int, int, bool) {#importobjectarray}
 
 Imports an array of data into a worksheet.
 
@@ -29,7 +29,7 @@ public void ImportObjectArray(object[] objArray, int firstRow, int firstColumn, 
 
 ---
 
-## Cells.ImportObjectArray method (2 of 2)
+## ImportObjectArray(object[], int, int, bool, int) {#importobjectarray_1}
 
 Imports an array of data into a worksheet.
 

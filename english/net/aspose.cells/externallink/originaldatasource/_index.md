@@ -1,7 +1,7 @@
 ---
 title: OriginalDataSource
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents stored data source of the external link.
 type: docs
 weight: 40
 url: /net/aspose.cells/externallink/originaldatasource/

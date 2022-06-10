@@ -1,7 +1,7 @@
 ---
 title: ShowInOutlineForm
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether layout this field in outline form on the Pivot Table view
 type: docs
 weight: 390
 url: /net/aspose.cells.pivot/pivotfield/showinoutlineform/

@@ -1,7 +1,7 @@
 ---
 title: BulletValue
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets bullet value
 type: docs
 weight: 10
 url: /net/aspose.cells.drawing.texts/bullet/bulletvalue/

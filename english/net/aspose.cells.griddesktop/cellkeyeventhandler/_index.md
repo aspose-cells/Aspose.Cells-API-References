@@ -1,7 +1,7 @@
 ---
 title: CellKeyEventHandler
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the method that intend to handle cell key events.
 type: docs
 weight: 170
 url: /net/aspose.cells.griddesktop/cellkeyeventhandler/

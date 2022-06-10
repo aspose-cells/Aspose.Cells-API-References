@@ -1,9 +1,9 @@
 ---
 title: CopyStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Copies style settings from a source range.
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.cells/range/copystyle/
 ---
 ## Range.CopyStyle method

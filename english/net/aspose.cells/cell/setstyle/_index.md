@@ -1,12 +1,12 @@
 ---
 title: SetStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the cell style.
 type: docs
-weight: 620
+weight: 670
 url: /net/aspose.cells/cell/setstyle/
 ---
-## Cell.SetStyle method (1 of 3)
+## SetStyle(Style) {#setstyle}
 
 Sets the cell style.
 
@@ -31,7 +31,7 @@ If the border settings are changed, the border of adjust cells will be updated t
 
 ---
 
-## Cell.SetStyle method (2 of 3)
+## SetStyle(Style, bool) {#setstyle_2}
 
 Apply the cell style.
 
@@ -53,7 +53,7 @@ public void SetStyle(Style style, bool explicitFlag)
 
 ---
 
-## Cell.SetStyle method (3 of 3)
+## SetStyle(Style, StyleFlag) {#setstyle_1}
 
 Apply the cell style.
 

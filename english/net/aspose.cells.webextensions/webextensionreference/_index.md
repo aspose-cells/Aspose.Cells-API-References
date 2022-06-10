@@ -1,9 +1,9 @@
 ---
 title: WebExtensionReference
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents identify the provider location and version of the extension.
 type: docs
-weight: 6420
+weight: 6460
 url: /net/aspose.cells.webextensions/webextensionreference/
 ---
 ## WebExtensionReference class

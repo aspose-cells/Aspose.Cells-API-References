@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the name of querytable.
 type: docs
 weight: 40
 url: /net/aspose.cells/querytable/name/

@@ -1,7 +1,7 @@
 ---
 title: DiagonalStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the style of Diagonal lines.
 type: docs
 weight: 20
 url: /net/aspose.cells/bordercollection/diagonalstyle/

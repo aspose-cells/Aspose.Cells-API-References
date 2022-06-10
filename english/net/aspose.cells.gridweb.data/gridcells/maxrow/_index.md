@@ -1,7 +1,7 @@
 ---
 title: MaxRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Maximum row index of cell which contains data or style.
 type: docs
 weight: 90
 url: /net/aspose.cells.gridweb.data/gridcells/maxrow/

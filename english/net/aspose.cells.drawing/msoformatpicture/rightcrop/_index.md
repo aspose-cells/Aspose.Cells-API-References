@@ -1,7 +1,7 @@
 ---
 title: RightCrop
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the location of the right of the crop rectangle expressed expressed as a ratio of the images width.
 type: docs
 weight: 80
 url: /net/aspose.cells.drawing/msoformatpicture/rightcrop/

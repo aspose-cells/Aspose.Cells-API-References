@@ -1,7 +1,7 @@
 ---
 title: WidthInch
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the width of the shape in unit of inch.
 type: docs
 weight: 520
 url: /net/aspose.cells.gridweb.data/gridpicture/widthinch/

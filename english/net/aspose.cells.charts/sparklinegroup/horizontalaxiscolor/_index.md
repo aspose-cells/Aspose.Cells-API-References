@@ -1,7 +1,7 @@
 ---
 title: HorizontalAxisColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the color of the horizontal axis in the sparkline group.
 type: docs
 weight: 40
 url: /net/aspose.cells.charts/sparklinegroup/horizontalaxiscolor/

@@ -1,12 +1,12 @@
 ---
 title: ExportDataTable
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Exports data in the Cells collection of a Worksheet to a specifed DataTable object.
 type: docs
 weight: 650
 url: /net/aspose.cells.griddesktop/worksheet/exportdatatable/
 ---
-## Worksheet.ExportDataTable method (1 of 2)
+## ExportDataTable(DataTable, int, int, int, int, bool) {#exportdatatable_1}
 
 Exports data in the Cells collection of a Worksheet to a specifed DataTable object.
 
@@ -68,7 +68,7 @@ DataGrid1.SetDataBinding(exportTable)
 
 ---
 
-## Worksheet.ExportDataTable method (2 of 2)
+## ExportDataTable(int, int, int, int, bool, bool) {#exportdatatable}
 
 Exports data in the Cells collection of a Worksheet to a new DataTable object.
 

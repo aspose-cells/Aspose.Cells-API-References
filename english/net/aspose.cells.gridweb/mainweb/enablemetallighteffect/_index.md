@@ -1,7 +1,7 @@
 ---
 title: EnableMetalLightEffect
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets whether to apply metal light effect.
 type: docs
 weight: 310
 url: /net/aspose.cells.gridweb/mainweb/enablemetallighteffect/

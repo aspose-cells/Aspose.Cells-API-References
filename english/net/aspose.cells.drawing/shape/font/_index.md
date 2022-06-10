@@ -1,9 +1,9 @@
 ---
 title: Font
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the font of shape.
 type: docs
-weight: 90
+weight: 120
 url: /net/aspose.cells.drawing/shape/font/
 ---
 ## Shape.Font property

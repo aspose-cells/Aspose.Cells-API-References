@@ -1,9 +1,9 @@
 ---
 title: IsPrintable
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: True if the object is printable
 type: docs
-weight: 340
+weight: 380
 url: /net/aspose.cells.drawing/shape/isprintable/
 ---
 ## Shape.IsPrintable property

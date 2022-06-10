@@ -6,7 +6,7 @@ type: docs
 weight: 150
 url: /net/aspose.cells/collectionbase-1/indexof/
 ---
-## CollectionBase&lt;T&gt;.IndexOf method (1 of 3)
+## IndexOf(T) {#indexof}
 
 ```csharp
 public int IndexOf(T item)
@@ -24,7 +24,7 @@ public int IndexOf(T item)
 
 ---
 
-## CollectionBase&lt;T&gt;.IndexOf method (2 of 3)
+## IndexOf(T, int) {#indexof_1}
 
 ```csharp
 public int IndexOf(T item, int index)
@@ -43,7 +43,7 @@ public int IndexOf(T item, int index)
 
 ---
 
-## CollectionBase&lt;T&gt;.IndexOf method (3 of 3)
+## IndexOf(T, int, int) {#indexof_2}
 
 ```csharp
 public int IndexOf(T item, int index, int count)

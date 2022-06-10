@@ -1,7 +1,7 @@
 ---
 title: HtmlNote
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the html string which contains data and some formats in this comment.
 type: docs
 weight: 90
 url: /net/aspose.cells/comment/htmlnote/

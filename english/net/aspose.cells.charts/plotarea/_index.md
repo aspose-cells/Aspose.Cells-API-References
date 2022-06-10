@@ -1,9 +1,9 @@
 ---
 title: PlotArea
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the object that represents the plot area in a chart.
 type: docs
-weight: 770
+weight: 790
 url: /net/aspose.cells.charts/plotarea/
 ---
 ## PlotArea class
@@ -20,6 +20,7 @@ public class PlotArea : ChartFrame
 | --- | --- |
 | virtual [Area](../../aspose.cells.charts/chartframe/area) { get; } | Gets the [`area`](../chartframe/area). |
 | virtual [AutoScaleFont](../../aspose.cells.charts/chartframe/autoscalefont) { get; set; } | True if the text in the object changes font size when the object size changes. The default value is True. |
+| [Background](../../aspose.cells.charts/chartframe/background) { get; set; } | Gets and sets the display mode of the background |
 | [BackgroundMode](../../aspose.cells.charts/chartframe/backgroundmode) { get; set; } | Gets and sets the display mode of the background |
 | virtual [Border](../../aspose.cells.charts/chartframe/border) { get; } | Gets the [`border`](../../aspose.cells.drawing/line). |
 | [DefaultHeight](../../aspose.cells.charts/chartframe/defaultheight) { get; } | Represents height of default position |
@@ -37,6 +38,7 @@ public class PlotArea : ChartFrame
 | [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode) { get; set; } | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [Shadow](../../aspose.cells.charts/chartframe/shadow) { get; set; } | True if the frame has a shadow. |
 | [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties) { get; } | Gets the [`ShapeProperties`](../chartframe/shapeproperties) object. |
+| virtual [TextFont](../../aspose.cells.charts/chartframe/textfont) { get; } | Gets a [`Font`](../chartframe/font) object of the specified ChartFrame object. |
 | override [Width](../../aspose.cells.charts/plotarea/width) { get; set; } | Gets or sets the width of plot-area bounding box in units of 1/4000 of the chart area. |
 | override [X](../../aspose.cells.charts/plotarea/x) { get; set; } | Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of 1/4000 of the chart area. |
 | override [Y](../../aspose.cells.charts/plotarea/y) { get; set; } | Gets or gets the y coordinate of the upper top corner of plot-area bounding box in units of 1/4000 of the chart area. |

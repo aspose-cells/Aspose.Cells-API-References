@@ -1,7 +1,7 @@
 ---
 title: ShowCompact
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether display labels from the next field in the same column on the Pivot Table view
 type: docs
 weight: 380
 url: /net/aspose.cells.pivot/pivotfield/showcompact/

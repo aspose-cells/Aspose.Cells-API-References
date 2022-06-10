@@ -1,7 +1,7 @@
 ---
 title: ExportSingleTab
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether exporting the single tab when the file only has one worksheet. The default value is false.
 type: docs
 weight: 130
 url: /net/aspose.cells.gridweb.data/gridhtmlsaveoptions/exportsingletab/

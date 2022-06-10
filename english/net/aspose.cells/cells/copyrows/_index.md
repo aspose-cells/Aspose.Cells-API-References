@@ -1,12 +1,12 @@
 ---
 title: CopyRows
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Copies data and formats of some whole rows.
 type: docs
 weight: 480
 url: /net/aspose.cells/cells/copyrows/
 ---
-## Cells.CopyRows method (1 of 3)
+## CopyRows(Cells, int, int, int) {#copyrows}
 
 Copies data and formats of some whole rows.
 
@@ -29,7 +29,7 @@ public void CopyRows(Cells sourceCells, int sourceRowIndex, int destinationRowIn
 
 ---
 
-## Cells.CopyRows method (2 of 3)
+## CopyRows(Cells, int, int, int, CopyOptions) {#copyrows_1}
 
 Copies data and formats of some whole rows.
 
@@ -55,7 +55,7 @@ public void CopyRows(Cells sourceCells0, int sourceRowIndex, int destinationRowI
 
 ---
 
-## Cells.CopyRows method (3 of 3)
+## CopyRows(Cells, int, int, int, CopyOptions, PasteOptions) {#copyrows_2}
 
 Copies data and formats of some whole rows.
 

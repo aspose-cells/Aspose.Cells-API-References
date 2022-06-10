@@ -1,7 +1,7 @@
 ---
 title: RemoveHyperlink
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Remove the hyperlink of the shape.
 type: docs
 weight: 710
 url: /net/aspose.cells.griddesktop.data/gridpicture/removehyperlink/

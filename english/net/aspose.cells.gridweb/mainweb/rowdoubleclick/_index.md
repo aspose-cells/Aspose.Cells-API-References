@@ -1,7 +1,7 @@
 ---
 title: RowDoubleClick
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Occurs when the row header is double-clicked.
 type: docs
 weight: 1290
 url: /net/aspose.cells.gridweb/mainweb/rowdoubleclick/

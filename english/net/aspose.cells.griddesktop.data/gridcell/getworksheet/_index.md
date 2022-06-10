@@ -1,7 +1,7 @@
 ---
 title: GetWorksheet
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the parent worksheet.
 type: docs
 weight: 310
 url: /net/aspose.cells.griddesktop.data/gridcell/getworksheet/

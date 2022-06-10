@@ -1,7 +1,7 @@
 ---
 title: GetGridLoadFormat
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get GridLoadFormat by file extension
 type: docs
 weight: 230
 url: /net/aspose.cells.gridjs/gridjsworkbook/getgridloadformat/

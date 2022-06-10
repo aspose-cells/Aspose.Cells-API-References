@@ -1,9 +1,9 @@
 ---
 title: ShapePathPoint
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents an x-y coordinate within the path coordinate space.
 type: docs
-weight: 2700
+weight: 2730
 url: /net/aspose.cells.drawing/shapepathpoint/
 ---
 ## ShapePathPoint class

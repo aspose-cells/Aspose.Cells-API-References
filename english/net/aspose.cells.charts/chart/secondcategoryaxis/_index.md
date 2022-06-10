@@ -1,7 +1,7 @@
 ---
 title: SecondCategoryAxis
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the charts second X axis.
 type: docs
 weight: 350
 url: /net/aspose.cells.charts/chart/secondcategoryaxis/

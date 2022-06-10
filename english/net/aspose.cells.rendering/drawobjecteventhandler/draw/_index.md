@@ -1,7 +1,7 @@
 ---
 title: Draw
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Implements this interface to get DrawObject and Bound when rendering.
 type: docs
 weight: 10
 url: /net/aspose.cells.rendering/drawobjecteventhandler/draw/

@@ -1,9 +1,9 @@
 ---
 title: IsFilled
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the fill format is visible.
 type: docs
-weight: 260
+weight: 300
 url: /net/aspose.cells.drawing/shape/isfilled/
 ---
 ## Shape.IsFilled property

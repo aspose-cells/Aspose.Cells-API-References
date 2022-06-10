@@ -1,7 +1,7 @@
 ---
 title: ShowSaveButton
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets whether to show the save button.
 type: docs
 weight: 950
 url: /net/aspose.cells.gridweb/mainweb/showsavebutton/

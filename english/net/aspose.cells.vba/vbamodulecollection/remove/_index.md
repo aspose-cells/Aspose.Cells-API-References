@@ -1,12 +1,12 @@
 ---
 title: Remove
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Removes module for a worksheet.
 type: docs
 weight: 50
 url: /net/aspose.cells.vba/vbamodulecollection/remove/
 ---
-## VbaModuleCollection.Remove method (1 of 2)
+## Remove(Worksheet) {#remove}
 
 Removes module for a worksheet.
 
@@ -27,7 +27,7 @@ public void Remove(Worksheet sheet)
 
 ---
 
-## VbaModuleCollection.Remove method (2 of 2)
+## Remove(string) {#remove_1}
 
 Remove the module by the name
 

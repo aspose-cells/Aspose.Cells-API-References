@@ -1,7 +1,7 @@
 ---
 title: SubtotalHiddenPageItems
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether hidden page field items in the PivotTable report are included in row and column subtotals block totals and grand totals. The default value is False.
 type: docs
 weight: 700
 url: /net/aspose.cells.pivot/pivottable/subtotalhiddenpageitems/

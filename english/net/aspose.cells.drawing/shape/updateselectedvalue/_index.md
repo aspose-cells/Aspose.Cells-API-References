@@ -1,9 +1,9 @@
 ---
 title: UpdateSelectedValue
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Update the selected value by the value of the linked cell.
 type: docs
-weight: 1160
+weight: 1220
 url: /net/aspose.cells.drawing/shape/updateselectedvalue/
 ---
 ## Shape.UpdateSelectedValue method

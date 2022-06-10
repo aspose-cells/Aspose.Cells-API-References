@@ -1,12 +1,12 @@
 ---
 title: UngroupRows
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Ungroups rows.
 type: docs
 weight: 1130
 url: /net/aspose.cells.griddesktop/worksheet/ungrouprows/
 ---
-## Worksheet.UngroupRows method (1 of 2)
+## UngroupRows(int, int) {#ungrouprows}
 
 Ungroups rows.
 
@@ -27,7 +27,7 @@ public void UngroupRows(int firstRow, int lastRow)
 
 ---
 
-## Worksheet.UngroupRows method (2 of 2)
+## UngroupRows(int, int, bool) {#ungrouprows_1}
 
 Ungroups rows.
 

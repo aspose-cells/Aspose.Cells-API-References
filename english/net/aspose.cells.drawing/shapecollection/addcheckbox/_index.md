@@ -1,7 +1,7 @@
 ---
 title: AddCheckBox
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a checkbox to the worksheet.
 type: docs
 weight: 70
 url: /net/aspose.cells.drawing/shapecollection/addcheckbox/

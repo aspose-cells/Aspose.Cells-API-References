@@ -1,7 +1,7 @@
 ---
 title: CustomCommandButtonCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the collection of CustomCommandButton.
 type: docs
 weight: 60
 url: /net/aspose.cells.gridweb/customcommandbuttoncollection/

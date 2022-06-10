@@ -1,7 +1,7 @@
 ---
 title: AddR1C1
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds the SeriesCollectionaspose.cells.charts/seriescollection collection to a chart.
 type: docs
 weight: 60
 url: /net/aspose.cells.charts/seriescollection/addr1c1/

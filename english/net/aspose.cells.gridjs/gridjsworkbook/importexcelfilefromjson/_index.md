@@ -1,7 +1,7 @@
 ---
 title: ImportExcelFileFromJson
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Import file from json
 type: docs
 weight: 100
 url: /net/aspose.cells.gridjs/gridjsworkbook/importexcelfilefromjson/

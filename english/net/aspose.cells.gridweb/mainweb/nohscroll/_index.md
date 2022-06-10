@@ -1,7 +1,7 @@
 ---
 title: NoHScroll
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the horizontal scroll bar is hidden.
 type: docs
 weight: 530
 url: /net/aspose.cells.gridweb/mainweb/nohscroll/

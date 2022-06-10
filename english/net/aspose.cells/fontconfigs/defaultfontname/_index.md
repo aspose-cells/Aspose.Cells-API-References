@@ -1,7 +1,7 @@
 ---
 title: DefaultFontName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the default font name.
 type: docs
 weight: 20
 url: /net/aspose.cells/fontconfigs/defaultfontname/

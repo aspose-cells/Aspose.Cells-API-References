@@ -1,7 +1,7 @@
 ---
 title: StartRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Prepares to process a row.
 type: docs
 weight: 40
 url: /net/aspose.cells/lightcellsdatahandler/startrow/

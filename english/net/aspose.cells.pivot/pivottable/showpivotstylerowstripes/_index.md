@@ -1,7 +1,7 @@
 ---
 title: ShowPivotStyleRowStripes
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether row stripe formatting is applied.
 type: docs
 weight: 670
 url: /net/aspose.cells.pivot/pivottable/showpivotstylerowstripes/

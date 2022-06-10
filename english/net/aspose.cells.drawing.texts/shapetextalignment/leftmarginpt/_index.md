@@ -1,7 +1,7 @@
 ---
 title: LeftMarginPt
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns the left margin in unit of Points
 type: docs
 weight: 50
 url: /net/aspose.cells.drawing.texts/shapetextalignment/leftmarginpt/

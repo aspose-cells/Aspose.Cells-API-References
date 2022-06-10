@@ -1,9 +1,9 @@
 ---
 title: FileFormatUtil
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Provides utility methods for converting file format enums to strings or file extensions and back.
 type: docs
-weight: 3410
+weight: 3440
 url: /net/aspose.cells/fileformatutil/
 ---
 ## FileFormatUtil class
@@ -18,10 +18,10 @@ public class FileFormatUtil
 
 | Name | Description |
 | --- | --- |
-| static [DetectFileFormat](../../aspose.cells/fileformatutil/detectfileformat)(Stream) | Detects and returns the information about a format of an excel stored in a stream. |
-| static [DetectFileFormat](../../aspose.cells/fileformatutil/detectfileformat)(string) | Detects and returns the information about a format of an excel stored in a file. |
-| static [DetectFileFormat](../../aspose.cells/fileformatutil/detectfileformat)(Stream, string) | Detects and returns the information about a format of an excel stored in a stream. |
-| static [DetectFileFormat](../../aspose.cells/fileformatutil/detectfileformat)(string, string) | Detects and returns the information about a format of an excel stored in a file. |
+| static [DetectFileFormat](../../aspose.cells/fileformatutil/detectfileformat#detectfileformat)(Stream) | Detects and returns the information about a format of an excel stored in a stream. |
+| static [DetectFileFormat](../../aspose.cells/fileformatutil/detectfileformat#detectfileformat_2)(string) | Detects and returns the information about a format of an excel stored in a file. |
+| static [DetectFileFormat](../../aspose.cells/fileformatutil/detectfileformat#detectfileformat_1)(Stream, string) | Detects and returns the information about a format of an excel stored in a stream. |
+| static [DetectFileFormat](../../aspose.cells/fileformatutil/detectfileformat#detectfileformat_3)(string, string) | Detects and returns the information about a format of an excel stored in a file. |
 | static [ExtensionToSaveFormat](../../aspose.cells/fileformatutil/extensiontosaveformat)(string) | Converts a file name extension into a SaveFormat value. |
 | static [FileFormatToSaveFormat](../../aspose.cells/fileformatutil/fileformattosaveformat)(FileFormatType) | Converting file format to save format. |
 | static [IsTemplateFormat](../../aspose.cells/fileformatutil/istemplateformat)(string) | Returns true if the extension is .xlt, .xltX, .xltm,.ots. |

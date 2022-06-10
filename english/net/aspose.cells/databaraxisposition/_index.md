@@ -1,9 +1,9 @@
 ---
 title: DataBarAxisPosition
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the axis position for a range of cells with conditional formatting as data bars.
 type: docs
-weight: 1240
+weight: 1260
 url: /net/aspose.cells/databaraxisposition/
 ---
 ## DataBarAxisPosition enumeration

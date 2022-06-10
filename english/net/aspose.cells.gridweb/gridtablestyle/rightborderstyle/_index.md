@@ -1,7 +1,7 @@
 ---
 title: RightBorderStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the style of right border of the table.
 type: docs
 weight: 110
 url: /net/aspose.cells.gridweb/gridtablestyle/rightborderstyle/

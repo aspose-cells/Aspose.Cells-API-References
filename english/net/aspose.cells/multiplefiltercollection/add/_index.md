@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds string filter.
 type: docs
 weight: 40
 url: /net/aspose.cells/multiplefiltercollection/add/

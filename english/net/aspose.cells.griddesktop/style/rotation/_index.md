@@ -1,7 +1,7 @@
 ---
 title: Rotation
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents text rotation angle.
 type: docs
 weight: 120
 url: /net/aspose.cells.griddesktop/style/rotation/

@@ -1,9 +1,9 @@
 ---
 title: RetrieveSubtotalSetting
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Retrieves subtotals setting of the range.
 type: docs
-weight: 1210
+weight: 1270
 url: /net/aspose.cells/cells/retrievesubtotalsetting/
 ---
 ## Cells.RetrieveSubtotalSetting method

@@ -1,9 +1,9 @@
 ---
 title: ShapeTextAlignment
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the setting of shapes text alignment
 type: docs
-weight: 2930
+weight: 2960
 url: /net/aspose.cells.drawing.texts/shapetextalignment/
 ---
 ## ShapeTextAlignment class

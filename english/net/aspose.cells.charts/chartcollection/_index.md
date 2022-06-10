@@ -1,9 +1,9 @@
 ---
 title: ChartCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates a collection of Chart./chart objects.
 type: docs
-weight: 440
+weight: 450
 url: /net/aspose.cells.charts/chartcollection/
 ---
 ## ChartCollection class
@@ -27,13 +27,14 @@ public class ChartCollection : CollectionBase<Chart>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.charts/chartcollection/add)(ChartType, int, int, int, int) | Adds a chart to the collection. |
-| [Add](../../aspose.cells.charts/chartcollection/add)(ChartType, string, int, int, int, int) | Adds a chart to the collection. |
+| [Add](../../aspose.cells.charts/chartcollection/add#add)(ChartType, int, int, int, int) | Adds a chart to the collection. |
+| [Add](../../aspose.cells.charts/chartcollection/add#add_2)(ChartType, string, int, int, int, int) |  |
+| [Add](../../aspose.cells.charts/chartcollection/add#add_1)(ChartType, string, bool, int, int, int, int) | Adds a chart to the collection. |
 | [AddFloatingChart](../../aspose.cells.charts/chartcollection/addfloatingchart)(ChartType, int, int, int, int) | Adds a chart to the collection. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Chart) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Chart, IComparer&lt;Chart&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Chart, IComparer&lt;Chart&gt;) |  |
-| [Clear](../../aspose.cells.charts/chartcollection/clear)() | Clear all charts. (2 methods) |
+| [Clear](../../aspose.cells.charts/chartcollection/clear#clear)() | Clear all charts. (2 methods) |
 | [Contains](../../aspose.cells/collectionbase`1/contains)(Chart) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Chart[]) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Chart[], int) |  |
@@ -55,7 +56,7 @@ public class ChartCollection : CollectionBase<Chart>
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Chart) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Chart, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Chart, int, int) |  |
-| [RemoveAt](../../aspose.cells.charts/chartcollection/removeat)(int) | Remove a chart at the specific index. (2 methods) |
+| [RemoveAt](../../aspose.cells.charts/chartcollection/removeat#removeat)(int) | Remove a chart at the specific index. (2 methods) |
 
 ### Examples
 

@@ -1,7 +1,7 @@
 ---
 title: EndColumn
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the end column of the range.
 type: docs
 weight: 80
 url: /net/aspose.cells.tables/listobject/endcolumn/

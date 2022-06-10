@@ -1,9 +1,9 @@
 ---
 title: GridSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents all save options
 type: docs
-weight: 470
+weight: 480
 url: /net/aspose.cells.gridweb.data/gridsaveoptions/
 ---
 ## GridSaveOptions class

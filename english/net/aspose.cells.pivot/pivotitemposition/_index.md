@@ -1,9 +1,9 @@
 ---
 title: PivotItemPosition
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents PivotTable base item Next/Previous/All position in the base field .
 type: docs
-weight: 4650
+weight: 4690
 url: /net/aspose.cells.pivot/pivotitemposition/
 ---
 ## PivotItemPosition enumeration

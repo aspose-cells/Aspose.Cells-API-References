@@ -1,7 +1,7 @@
 ---
 title: PrinterSettings
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the settings of the default printer.
 type: docs
 weight: 330
 url: /net/aspose.cells/pagesetup/printersettings/

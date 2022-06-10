@@ -1,12 +1,12 @@
 ---
 title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Deletes the PivotTable at the specified index and delete the PivotTable data
 type: docs
 weight: 60
 url: /net/aspose.cells.pivot/pivottablecollection/removeat/
 ---
-## PivotTableCollection.RemoveAt method (1 of 2)
+## RemoveAt(int) {#removeat}
 
 Deletes the PivotTable at the specified index and delete the PivotTable data
 
@@ -26,7 +26,7 @@ public void RemoveAt(int index)
 
 ---
 
-## PivotTableCollection.RemoveAt method (2 of 2)
+## RemoveAt(int, bool) {#removeat_2}
 
 Deletes the PivotTable at the specified index
 

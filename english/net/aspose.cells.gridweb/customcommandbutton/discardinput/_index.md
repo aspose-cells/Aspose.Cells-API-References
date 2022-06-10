@@ -1,7 +1,7 @@
 ---
 title: DiscardInput
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether to discard user input at client browser when user click this button. Could be used as an undo action.
 type: docs
 weight: 50
 url: /net/aspose.cells.gridweb/customcommandbutton/discardinput/

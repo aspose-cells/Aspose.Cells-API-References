@@ -1,7 +1,7 @@
 ---
 title: HideFormula
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Hide formula setting will be applied.
 type: docs
 weight: 180
 url: /net/aspose.cells/styleflag/hideformula/

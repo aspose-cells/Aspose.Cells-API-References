@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds ConditionalFormattingValueaspose.cells/conditionalformattingvalue object.
 type: docs
 weight: 20
 url: /net/aspose.cells/conditionalformattingvaluecollection/add/

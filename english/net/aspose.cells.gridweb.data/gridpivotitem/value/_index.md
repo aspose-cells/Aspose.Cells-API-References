@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the value of the pivot item
 type: docs
 weight: 40
 url: /net/aspose.cells.gridweb.data/gridpivotitem/value/

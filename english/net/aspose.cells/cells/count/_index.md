@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the total count of instantiated Cell objects.
 type: docs
 weight: 20
 url: /net/aspose.cells/cells/count/

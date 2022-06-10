@@ -1,12 +1,12 @@
 ---
 title: Process
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Processes the smart markers and populates the data source values.
 type: docs
 weight: 110
 url: /net/aspose.cells/workbookdesigner/process/
 ---
-## WorkbookDesigner.Process method (1 of 3)
+## Process() {#process}
 
 Processes the smart markers and populates the data source values.
 
@@ -22,7 +22,7 @@ public void Process()
 
 ---
 
-## WorkbookDesigner.Process method (2 of 3)
+## Process(bool) {#process_1}
 
 Processes the smart markers and populates the data source values.
 
@@ -42,7 +42,7 @@ public void Process(bool isPreserved)
 
 ---
 
-## WorkbookDesigner.Process method (3 of 3)
+## Process(int, bool) {#process_2}
 
 Processes the smart markers and populates the data source values.
 

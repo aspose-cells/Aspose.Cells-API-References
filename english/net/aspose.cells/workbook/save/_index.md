@@ -1,12 +1,12 @@
 ---
 title: Save
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Saves the workbook to the disk.
 type: docs
-weight: 570
+weight: 600
 url: /net/aspose.cells/workbook/save/
 ---
-## Workbook.Save method (1 of 7)
+## Save(string, SaveFormat) {#save_3}
 
 Saves the workbook to the disk.
 
@@ -28,7 +28,7 @@ public void Save(string fileName, SaveFormat saveFormat)
 
 ---
 
-## Workbook.Save method (2 of 7)
+## Save(string) {#save_2}
 
 Save the workbook to the disk.
 
@@ -48,7 +48,7 @@ public void Save(string fileName)
 
 ---
 
-## Workbook.Save method (3 of 7)
+## Save(string, SaveOptions) {#save_4}
 
 Saves the workbook to the disk.
 
@@ -70,7 +70,7 @@ public void Save(string fileName, SaveOptions saveOptions)
 
 ---
 
-## Workbook.Save method (4 of 7)
+## Save(Stream, SaveFormat) {#save}
 
 Saves the workbook to the stream.
 
@@ -92,7 +92,7 @@ public void Save(Stream stream, SaveFormat saveFormat)
 
 ---
 
-## Workbook.Save method (5 of 7)
+## Save(Stream, SaveOptions) {#save_1}
 
 Saves the workbook to the stream.
 
@@ -114,7 +114,7 @@ public void Save(Stream stream, SaveOptions saveOptions)
 
 ---
 
-## Workbook.Save method (6 of 7)
+## Save(HttpResponse, string, ContentDisposition, SaveOptions) {#save_5}
 
 Creates the result spreadsheet and transfer it to the client then open it in the browser or MS Workbook.
 
@@ -140,7 +140,7 @@ public void Save(HttpResponse response, string fileName, ContentDisposition cont
 
 ---
 
-## Workbook.Save method (7 of 7)
+## Save(HttpResponse, string, ContentDisposition, SaveOptions, bool) {#save_6}
 
 Creates the result spreadsheet and transfer it to the client then open it in the browser or MS Workbook.
 

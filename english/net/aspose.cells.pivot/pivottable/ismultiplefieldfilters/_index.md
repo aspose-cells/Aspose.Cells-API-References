@@ -1,7 +1,7 @@
 ---
 title: IsMultipleFieldFilters
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
 type: docs
 weight: 310
 url: /net/aspose.cells.pivot/pivottable/ismultiplefieldfilters/

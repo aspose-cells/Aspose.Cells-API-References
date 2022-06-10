@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds an a binding relationship between an Office Add-in and the data in the document.
 type: docs
 weight: 30
 url: /net/aspose.cells.webextensions/webextensionbindingcollection/add/

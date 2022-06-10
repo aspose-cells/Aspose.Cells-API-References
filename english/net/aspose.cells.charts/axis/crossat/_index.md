@@ -1,7 +1,7 @@
 ---
 title: CrossAt
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the point on the value axis where the category axis crosses it.
 type: docs
 weight: 80
 url: /net/aspose.cells.charts/axis/crossat/

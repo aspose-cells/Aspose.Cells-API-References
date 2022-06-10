@@ -1,7 +1,7 @@
 ---
 title: IsHideDetail
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and Sets whether the pivot item hides detail.
 type: docs
 weight: 30
 url: /net/aspose.cells.pivot/pivotitem/ishidedetail/

@@ -1,7 +1,7 @@
 ---
 title: EndCol
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The end col number of the filter range.
 type: docs
 weight: 30
 url: /net/aspose.cells.griddesktop/rowfiltersettings/endcol/

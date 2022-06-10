@@ -1,9 +1,9 @@
 ---
 title: Update
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Apply the named style to the styles of the cells which use this named style. It works like clicking the ok button after you finished modifying the style. Only applies for named style.
 type: docs
-weight: 400
+weight: 410
 url: /net/aspose.cells/style/update/
 ---
 ## Style.Update method

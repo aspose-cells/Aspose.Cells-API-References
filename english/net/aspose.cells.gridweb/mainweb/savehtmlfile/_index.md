@@ -1,12 +1,12 @@
 ---
 title: SaveHTMLFile
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Saves data to a HTML file.
 type: docs
 weight: 1480
 url: /net/aspose.cells.gridweb/mainweb/savehtmlfile/
 ---
-## MainWeb.SaveHTMLFile method (1 of 2)
+## SaveHTMLFile(string) {#savehtmlfile_1}
 
 Saves data to a HTML file.
 
@@ -26,7 +26,7 @@ public void SaveHTMLFile(string targetFile)
 
 ---
 
-## MainWeb.SaveHTMLFile method (2 of 2)
+## SaveHTMLFile(Stream) {#savehtmlfile}
 
 Saves data to a HTML file stream.
 

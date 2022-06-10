@@ -1,7 +1,7 @@
 ---
 title: Dispose
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Performs application-defined tasks associated with freeing releasing or resetting unmanaged resources.
 type: docs
 weight: 810
 url: /net/aspose.cells.pivot/pivottable/dispose/

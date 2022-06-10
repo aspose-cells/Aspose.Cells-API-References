@@ -1,7 +1,7 @@
 ---
 title: IsOverLay
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets whether other chart elements shall be allowed to overlap this chart element.
 type: docs
 weight: 10
 url: /net/aspose.cells.charts/legend/isoverlay/

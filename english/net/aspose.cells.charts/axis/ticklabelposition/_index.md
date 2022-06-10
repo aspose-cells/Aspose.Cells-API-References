@@ -1,7 +1,7 @@
 ---
 title: TickLabelPosition
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the position of tick-mark labels on the specified axis.
 type: docs
 weight: 340
 url: /net/aspose.cells.charts/axis/ticklabelposition/

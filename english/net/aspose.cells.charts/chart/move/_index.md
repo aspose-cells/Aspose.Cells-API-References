@@ -1,9 +1,9 @@
 ---
 title: Move
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Moves the chart to a specified location.
 type: docs
-weight: 550
+weight: 560
 url: /net/aspose.cells.charts/chart/move/
 ---
 ## Chart.Move method

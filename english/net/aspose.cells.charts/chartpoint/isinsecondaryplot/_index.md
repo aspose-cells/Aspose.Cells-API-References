@@ -1,7 +1,7 @@
 ---
 title: IsInSecondaryPlot
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a value indicates whether this data points is in the second pie or bar on a pie of pie or bar of pie chart
 type: docs
 weight: 160
 url: /net/aspose.cells.charts/chartpoint/isinsecondaryplot/

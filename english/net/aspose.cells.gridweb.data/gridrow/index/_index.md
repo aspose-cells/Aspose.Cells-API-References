@@ -1,7 +1,7 @@
 ---
 title: Index
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the index of this row.
 type: docs
 weight: 40
 url: /net/aspose.cells.gridweb.data/gridrow/index/

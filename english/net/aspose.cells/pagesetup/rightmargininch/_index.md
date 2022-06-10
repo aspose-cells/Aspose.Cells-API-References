@@ -1,7 +1,7 @@
 ---
 title: RightMarginInch
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the size of the right margin in unit of inches.
 type: docs
 weight: 400
 url: /net/aspose.cells/pagesetup/rightmargininch/

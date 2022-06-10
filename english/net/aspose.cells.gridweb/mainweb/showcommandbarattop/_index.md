@@ -1,7 +1,7 @@
 ---
 title: ShowCommandBarAtTop
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies whether to show the command barincludes command bar and tab bar at the top of the control.
 type: docs
 weight: 890
 url: /net/aspose.cells.gridweb/mainweb/showcommandbarattop/

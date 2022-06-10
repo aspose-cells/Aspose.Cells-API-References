@@ -1,9 +1,9 @@
 ---
 title: JsonLayoutOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the options of json layout type.
 type: docs
-weight: 6170
+weight: 6210
 url: /net/aspose.cells.utility/jsonlayoutoptions/
 ---
 ## JsonLayoutOptions class

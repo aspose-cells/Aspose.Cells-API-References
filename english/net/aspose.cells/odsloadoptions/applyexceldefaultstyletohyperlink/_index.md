@@ -1,7 +1,7 @@
 ---
 title: ApplyExcelDefaultStyleToHyperlink
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether applying the default style of the Excel to hyperlink.
 type: docs
 weight: 20
 url: /net/aspose.cells/odsloadoptions/applyexceldefaultstyletohyperlink/

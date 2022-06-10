@@ -1,9 +1,9 @@
 ---
 title: DocumentVersion
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the version of the file.
 type: docs
-weight: 90
+weight: 120
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/documentversion/
 ---
 ## BuiltInDocumentPropertyCollection.DocumentVersion property

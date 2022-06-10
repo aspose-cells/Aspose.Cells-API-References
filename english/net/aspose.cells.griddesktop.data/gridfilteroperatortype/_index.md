@@ -1,7 +1,7 @@
 ---
 title: GridFilterOperatorType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Custom Filter operator type.
 type: docs
 weight: 460
 url: /net/aspose.cells.griddesktop.data/gridfilteroperatortype/

@@ -1,12 +1,12 @@
 ---
 title: GetRangeByName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets Range object by pre-defined name.
 type: docs
 weight: 250
 url: /net/aspose.cells/worksheetcollection/getrangebyname/
 ---
-## WorksheetCollection.GetRangeByName method (1 of 2)
+## GetRangeByName(string) {#getrangebyname}
 
 Gets Range object by pre-defined name.
 
@@ -33,7 +33,7 @@ Returns null if the named range does not exist.
 
 ---
 
-## WorksheetCollection.GetRangeByName method (2 of 2)
+## GetRangeByName(string, int, bool) {#getrangebyname_1}
 
 Gets [`Range`](../../range) by pre-defined name or table's name
 

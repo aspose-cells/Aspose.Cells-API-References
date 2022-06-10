@@ -1,7 +1,7 @@
 ---
 title: Properties
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and set the properties of the smart tag.
 type: docs
 weight: 30
 url: /net/aspose.cells.markup/smarttag/properties/

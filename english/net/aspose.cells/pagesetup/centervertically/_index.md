@@ -1,7 +1,7 @@
 ---
 title: CenterVertically
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represent if the sheet is printed centered vertically.
 type: docs
 weight: 50
 url: /net/aspose.cells/pagesetup/centervertically/

@@ -1,7 +1,7 @@
 ---
 title: SetFirstVisibleColumn
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Set the first visible column index of sheet view.
 type: docs
 weight: 1020
 url: /net/aspose.cells.griddesktop/worksheet/setfirstvisiblecolumn/

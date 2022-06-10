@@ -1,9 +1,9 @@
 ---
 title: CellsHelper
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Provides helper functions.
 type: docs
-weight: 340
+weight: 350
 url: /net/aspose.cells/cellshelper/
 ---
 ## CellsHelper class
@@ -30,14 +30,15 @@ public class CellsHelper
 
 | Name | Description |
 | --- | --- |
+| static [AddAddInFunction](../../aspose.cells/cellshelper/addaddinfunction)(string, int, int, ParameterType[], ParameterType) | Add addin function. |
 | static [CellIndexToName](../../aspose.cells/cellshelper/cellindextoname)(int, int) | Gets cell name according to its row and column indexes. |
 | static [CellNameToIndex](../../aspose.cells/cellshelper/cellnametoindex)(string, out int, out int) | Gets the cell row and column indexes according to its name. |
 | static [ColumnIndexToName](../../aspose.cells/cellshelper/columnindextoname)(int) | Gets column name according to column index. |
 | static [ColumnNameToIndex](../../aspose.cells/cellshelper/columnnametoindex)(string) | Gets column index according to column name. |
 | static [ConvertA1FormulaToR1C1](../../aspose.cells/cellshelper/converta1formulator1c1)(string, int, int) | Converts A1 formula of the cell to the r1c1 formula. |
 | static [ConvertR1C1FormulaToA1](../../aspose.cells/cellshelper/convertr1c1formulatoa1)(string, int, int) | Converts the r1c1 formula of the cell to A1 formula. |
-| static [CreateSafeSheetName](../../aspose.cells/cellshelper/createsafesheetname)(string) | Checks given sheet name and create a valid one when needed. If given sheet name conforms to the rules of excel sheet name, then return it. Otherwise string will be truncated if length exceeds the limit and invalid characters will be replaced with ' ', then return the rebuilt string value. |
-| static [CreateSafeSheetName](../../aspose.cells/cellshelper/createsafesheetname)(string, char) | Checks given sheet name and create a valid one when needed. If given sheet name conforms to the rules of excel sheet name, then return it. Otherwise string will be truncated if length exceeds the limit and invalid characters will be replaced with given character, then return the rebuilt string value. |
+| static [CreateSafeSheetName](../../aspose.cells/cellshelper/createsafesheetname#createsafesheetname)(string) | Checks given sheet name and create a valid one when needed. If given sheet name conforms to the rules of excel sheet name, then return it. Otherwise string will be truncated if length exceeds the limit and invalid characters will be replaced with ' ', then return the rebuilt string value. |
+| static [CreateSafeSheetName](../../aspose.cells/cellshelper/createsafesheetname#createsafesheetname_1)(string, char) | Checks given sheet name and create a valid one when needed. If given sheet name conforms to the rules of excel sheet name, then return it. Otherwise string will be truncated if length exceeds the limit and invalid characters will be replaced with given character, then return the rebuilt string value. |
 | static [GetDateTimeFromDouble](../../aspose.cells/cellshelper/getdatetimefromdouble)(double, bool) | Convert the double value to the date time value. |
 | static [GetDoubleFromDateTime](../../aspose.cells/cellshelper/getdoublefromdatetime)(DateTime, bool) | Convert the date time to double value. |
 | static [GetTextWidth](../../aspose.cells/cellshelper/gettextwidth)(string, Font, double) | Get width of text in unit of points. |

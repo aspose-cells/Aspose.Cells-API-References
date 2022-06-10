@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Add a gradient stop.
 type: docs
 weight: 20
 url: /net/aspose.cells.drawing/gradientstopcollection/add/
 ---
-## GradientStopCollection.Add method (1 of 2)
+## Add(double, CellsColor, int) {#add}
 
 Add a gradient stop.
 
@@ -29,7 +29,7 @@ public void Add(double position, CellsColor color, int alpha)
 
 ---
 
-## GradientStopCollection.Add method (2 of 2)
+## Add(double, Color, int) {#add_1}
 
 Add a gradient stop.
 

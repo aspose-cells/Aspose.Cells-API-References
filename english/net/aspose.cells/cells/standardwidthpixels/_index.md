@@ -1,7 +1,7 @@
 ---
 title: StandardWidthPixels
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the default column width in the worksheet in unit of pixels.
 type: docs
 weight: 300
 url: /net/aspose.cells/cells/standardwidthpixels/

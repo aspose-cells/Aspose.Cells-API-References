@@ -1,7 +1,7 @@
 ---
 title: MatchBlanks
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Match all blank cell in the list.
 type: docs
 weight: 150
 url: /net/aspose.cells/autofilter/matchblanks/

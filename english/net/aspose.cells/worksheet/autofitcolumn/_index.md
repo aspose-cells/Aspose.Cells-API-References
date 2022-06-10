@@ -1,12 +1,12 @@
 ---
 title: AutoFitColumn
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Autofits the column width.
 type: docs
 weight: 620
 url: /net/aspose.cells/worksheet/autofitcolumn/
 ---
-## Worksheet.AutoFitColumn method (1 of 2)
+## AutoFitColumn(int, int, int) {#autofitcolumn_1}
 
 Autofits the column width.
 
@@ -32,7 +32,7 @@ This method autofits a row based on content in a range of cells within the row.
 
 ---
 
-## Worksheet.AutoFitColumn method (2 of 2)
+## AutoFitColumn(int) {#autofitcolumn}
 
 Autofits the column width.
 

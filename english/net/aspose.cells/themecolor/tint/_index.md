@@ -1,7 +1,7 @@
 ---
 title: Tint
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the tint value.
 type: docs
 weight: 30
 url: /net/aspose.cells/themecolor/tint/

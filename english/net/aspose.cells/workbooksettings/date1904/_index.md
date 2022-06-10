@@ -1,9 +1,9 @@
 ---
 title: Date1904
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a value which represents if the workbook uses the 1904 date system.
 type: docs
-weight: 120
+weight: 160
 url: /net/aspose.cells/workbooksettings/date1904/
 ---
 ## WorkbookSettings.Date1904 property

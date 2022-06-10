@@ -1,7 +1,7 @@
 ---
 title: HighPointColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the color of the highest points of data in the sparkline group.
 type: docs
 weight: 30
 url: /net/aspose.cells.charts/sparklinegroup/highpointcolor/

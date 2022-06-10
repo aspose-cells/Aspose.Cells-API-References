@@ -1,7 +1,7 @@
 ---
 title: Comment
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the comment of scenario.
 type: docs
 weight: 10
 url: /net/aspose.cells/scenario/comment/

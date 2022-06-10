@@ -1,9 +1,9 @@
 ---
 title: MergeAreas
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether merge the areas of conditional formatting and validation before saving the file.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.cells/saveoptions/mergeareas/
 ---
 ## SaveOptions.MergeAreas property

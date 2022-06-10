@@ -1,9 +1,9 @@
 ---
 title: ColorType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents all color type
 type: docs
-weight: 1040
+weight: 1060
 url: /net/aspose.cells/colortype/
 ---
 ## ColorType enumeration

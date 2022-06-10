@@ -1,7 +1,7 @@
 ---
 title: PasteType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates which paste type when do paste actiononly available when EnableClipboardCopyPaste is false .
 type: docs
 weight: 200
 url: /net/aspose.cells.griddesktop/griddesktop/pastetype/

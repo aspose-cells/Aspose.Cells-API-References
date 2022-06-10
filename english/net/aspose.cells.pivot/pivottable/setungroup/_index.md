@@ -1,12 +1,12 @@
 ---
 title: SetUngroup
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets ungroup by the PivotTable
 type: docs
-weight: 940
+weight: 950
 url: /net/aspose.cells.pivot/pivottable/setungroup/
 ---
-## PivotTable.SetUngroup method (1 of 2)
+## SetUngroup(int) {#setungroup_1}
 
 Sets ungroup by the PivotTable
 
@@ -26,7 +26,7 @@ public void SetUngroup(int baseFieldIndex)
 
 ---
 
-## PivotTable.SetUngroup method (2 of 2)
+## SetUngroup(PivotField) {#setungroup}
 
 Sets ungroup by the PivotTable
 

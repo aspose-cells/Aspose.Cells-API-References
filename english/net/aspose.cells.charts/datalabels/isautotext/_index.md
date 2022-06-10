@@ -1,7 +1,7 @@
 ---
 title: IsAutoText
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates the text is auto generated.
 type: docs
 weight: 60
 url: /net/aspose.cells.charts/datalabels/isautotext/

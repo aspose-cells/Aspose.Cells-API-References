@@ -1,7 +1,7 @@
 ---
 title: Copy
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Copying the range with paste special options.
 type: docs
 weight: 140
 url: /net/aspose.cells/unionrange/copy/

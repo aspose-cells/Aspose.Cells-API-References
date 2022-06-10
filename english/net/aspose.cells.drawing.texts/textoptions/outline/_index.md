@@ -1,7 +1,7 @@
 ---
 title: Outline
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the outline format of the text.
 type: docs
 weight: 60
 url: /net/aspose.cells.drawing.texts/textoptions/outline/

@@ -1,12 +1,12 @@
 ---
 title: CalculateFormula
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Calculates a formula.
 type: docs
 weight: 660
 url: /net/aspose.cells/worksheet/calculateformula/
 ---
-## Worksheet.CalculateFormula method (1 of 3)
+## CalculateFormula(string) {#calculateformula}
 
 Calculates a formula.
 
@@ -30,7 +30,7 @@ Calculated formula result.
 
 ---
 
-## Worksheet.CalculateFormula method (2 of 3)
+## CalculateFormula(string, CalculationOptions) {#calculateformula_1}
 
 Calculates a formula.
 
@@ -56,7 +56,36 @@ Calculated formula result.
 
 ---
 
-## Worksheet.CalculateFormula method (3 of 3)
+## CalculateFormula(bool, bool, ICustomFunction) {#calculateformula_3}
+
+Calculates all formulas in this worksheet.
+
+```csharp
+[Obsolete("Use CalculateFormula(CalculationOptions, bool) method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
+public void CalculateFormula(bool recursive, bool ignoreError, ICustomFunction customFunction)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| recursive | Boolean | True means if the worksheet' cells depend on the cells of other worksheets, the dependent cells in other worksheets will be calculated too. False means all the formulas in the worksheet have been calculated and the values are right. |
+| ignoreError | Boolean | Indicates if hide the error in calculating formulas. The error may be unsupported function, external links, etc. |
+| customFunction | ICustomFunction | The custom formula calculation functions to extend the calculation engine. |
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use CalculateFormula(CalculationOptions, bool) method. This method will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
+
+### See Also
+
+* interface [ICustomFunction](../../icustomfunction)
+* class [Worksheet](../../worksheet)
+* namespace [Aspose.Cells](../../worksheet)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## CalculateFormula(CalculationOptions, bool) {#calculateformula_2}
 
 Calculates all formulas in this worksheet.
 

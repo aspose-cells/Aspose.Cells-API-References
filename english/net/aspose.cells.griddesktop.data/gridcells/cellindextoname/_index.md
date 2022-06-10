@@ -1,7 +1,7 @@
 ---
 title: CellIndexToName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets cell name according to its row and column indexes.
 type: docs
 weight: 750
 url: /net/aspose.cells.griddesktop.data/gridcells/cellindextoname/

@@ -1,7 +1,7 @@
 ---
 title: CellFormatEventArgs
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Provides data for grid cell format event.
 type: docs
 weight: 140
 url: /net/aspose.cells.griddesktop/cellformateventargs/

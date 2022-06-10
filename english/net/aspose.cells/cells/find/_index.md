@@ -1,12 +1,12 @@
 ---
 title: Find
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Finds the cell containing with the input object.
 type: docs
 weight: 640
 url: /net/aspose.cells/cells/find/
 ---
-## Cells.Find method (1 of 2)
+## Find(object, Cell) {#find}
 
 Finds the cell containing with the input object.
 
@@ -36,7 +36,7 @@ Returns null (Nothing) if no cell is found.
 
 ---
 
-## Cells.Find method (2 of 2)
+## Find(object, Cell, FindOptions) {#find_1}
 
 Finds the cell containing with the input object.
 

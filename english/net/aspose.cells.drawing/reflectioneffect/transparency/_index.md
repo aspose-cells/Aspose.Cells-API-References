@@ -1,7 +1,7 @@
 ---
 title: Transparency
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the degree of the starting reflection transparency as a value from 0.0 opaque through 1.0 clear.
 type: docs
 weight: 70
 url: /net/aspose.cells.drawing/reflectioneffect/transparency/

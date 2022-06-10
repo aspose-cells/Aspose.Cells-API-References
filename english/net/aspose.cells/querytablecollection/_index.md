@@ -1,9 +1,9 @@
 ---
 title: QueryTableCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: A collection of QueryTableCollection./querytablecollection objects that represent QueryTable collection information.
 type: docs
-weight: 4930
+weight: 4970
 url: /net/aspose.cells/querytablecollection/
 ---
 ## QueryTableCollection class

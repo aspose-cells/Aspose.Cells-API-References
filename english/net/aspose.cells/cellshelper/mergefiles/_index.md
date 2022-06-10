@@ -1,9 +1,9 @@
 ---
 title: MergeFiles
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Merges some large xls files to a xls file.
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.cells/cellshelper/mergefiles/
 ---
 ## CellsHelper.MergeFiles method

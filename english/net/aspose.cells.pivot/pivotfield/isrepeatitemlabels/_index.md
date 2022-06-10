@@ -1,7 +1,7 @@
 ---
 title: IsRepeatItemLabels
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: indicates whether the field can repeat items labels The default value is false.
 type: docs
 weight: 270
 url: /net/aspose.cells.pivot/pivotfield/isrepeatitemlabels/

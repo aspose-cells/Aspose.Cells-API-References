@@ -1,7 +1,7 @@
 ---
 title: Font
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the font of the control.
 type: docs
 weight: 20
 url: /net/aspose.cells.drawing.activexcontrols/activexcontrol/font/

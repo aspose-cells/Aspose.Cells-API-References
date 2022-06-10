@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a formatting condition and effected cell rang to the FormatConditions The FormatConditions can contain up to three conditional formats. References to the other sheets are not allowed in the formulas of conditional formatting.
 type: docs
 weight: 40
 url: /net/aspose.cells/formatconditioncollection/add/

@@ -1,9 +1,9 @@
 ---
 title: FillType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Fill format type.
 type: docs
-weight: 1990
+weight: 2010
 url: /net/aspose.cells.drawing/filltype/
 ---
 ## FillType enumeration

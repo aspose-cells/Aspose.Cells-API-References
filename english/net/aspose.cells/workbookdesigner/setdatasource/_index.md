@@ -1,12 +1,12 @@
 ---
 title: SetDataSource
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets data source of a ICellsDataTableaspose.cells/icellsdatatable object.
 type: docs
 weight: 120
 url: /net/aspose.cells/workbookdesigner/setdatasource/
 ---
-## WorkbookDesigner.SetDataSource method (1 of 9)
+## SetDataSource(string, ICellsDataTable) {#setdatasource_5}
 
 Sets data source of a [`ICellsDataTable`](../../icellsdatatable) object.
 
@@ -28,7 +28,7 @@ public void SetDataSource(string dataSource, ICellsDataTable cellsDataTable)
 
 ---
 
-## WorkbookDesigner.SetDataSource method (2 of 9)
+## SetDataSource(DataSet) {#setdatasource}
 
 Sets data source of a DataSet object.
 
@@ -112,7 +112,7 @@ wd.Workbook.Save("outSmartMarker_Designer.xls")
 
 ---
 
-## WorkbookDesigner.SetDataSource method (3 of 9)
+## SetDataSource(DataTable) {#setdatasource_1}
 
 Sets data source of a DataTable object.
 
@@ -132,7 +132,7 @@ public void SetDataSource(DataTable dataTable)
 
 ---
 
-## WorkbookDesigner.SetDataSource method (4 of 9)
+## SetDataSource(string, DataView) {#setdatasource_6}
 
 Sets data source of a DataView object and binds it to a data source name.
 
@@ -153,7 +153,7 @@ public void SetDataSource(string dataSourceName, DataView dataView)
 
 ---
 
-## WorkbookDesigner.SetDataSource method (5 of 9)
+## SetDataSource(DataView) {#setdatasource_2}
 
 Sets data source of a DataView object.
 
@@ -173,7 +173,7 @@ public void SetDataSource(DataView dataView)
 
 ---
 
-## WorkbookDesigner.SetDataSource method (6 of 9)
+## SetDataSource(string, IDataReader, int) {#setdatasource_7}
 
 Sets data source of a IDataReader object.
 
@@ -195,7 +195,7 @@ public void SetDataSource(string name, IDataReader dataReader, int rowCount)
 
 ---
 
-## WorkbookDesigner.SetDataSource method (7 of 9)
+## SetDataSource(string, object) {#setdatasource_8}
 
 Sets data binding to a variable.
 
@@ -216,7 +216,7 @@ public void SetDataSource(string variable, object data)
 
 ---
 
-## WorkbookDesigner.SetDataSource method (8 of 9)
+## SetDataSource(OleDbConnection) {#setdatasource_3}
 
 Sets data source of a OleDbConnection object.
 
@@ -236,7 +236,7 @@ public void SetDataSource(OleDbConnection connection)
 
 ---
 
-## WorkbookDesigner.SetDataSource method (9 of 9)
+## SetDataSource(SqlConnection) {#setdatasource_4}
 
 Sets data source of a SqlConnection object.
 

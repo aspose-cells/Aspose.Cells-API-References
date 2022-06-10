@@ -6,7 +6,7 @@ type: docs
 weight: 120
 url: /net/aspose.cells.griddesktop.data/gridcolumn/addvalidation/
 ---
-## GridColumn.AddValidation method (1 of 2)
+## AddValidation(ICustomValidation) {#addvalidation}
 
 ```csharp
 public void AddValidation(ICustomValidation val)
@@ -21,7 +21,7 @@ public void AddValidation(ICustomValidation val)
 
 ---
 
-## GridColumn.AddValidation method (2 of 2)
+## AddValidation(bool, string) {#addvalidation_1}
 
 Adds a validation to the column.
 

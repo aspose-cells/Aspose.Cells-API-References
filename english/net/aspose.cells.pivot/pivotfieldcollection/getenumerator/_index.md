@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets an enumerator over the elements in this collection in proper sequence.
 type: docs
 weight: 70
 url: /net/aspose.cells.pivot/pivotfieldcollection/getenumerator/

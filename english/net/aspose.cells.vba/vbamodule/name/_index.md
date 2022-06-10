@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the name of Module.
 type: docs
 weight: 20
 url: /net/aspose.cells.vba/vbamodule/name/

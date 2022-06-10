@@ -1,7 +1,7 @@
 ---
 title: CellIndexToR1C1
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets cell r1c1 style name according to its row and column indexes.
 type: docs
 weight: 1180
 url: /net/aspose.cells.griddesktop/worksheet/cellindextor1c1/

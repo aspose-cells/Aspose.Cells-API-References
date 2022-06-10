@@ -1,9 +1,9 @@
 ---
 title: RangeCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates a collection of Range./range objects.
 type: docs
-weight: 5030
+weight: 5070
 url: /net/aspose.cells/rangecollection/
 ---
 ## RangeCollection class

@@ -1,7 +1,7 @@
 ---
 title: FilterRows
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Filters rows using criteria string.
 type: docs
 weight: 80
 url: /net/aspose.cells.griddesktop/rowfiltersettings/filterrows/

@@ -1,7 +1,7 @@
 ---
 title: ExportAsString
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Exports the string value of the cells to the DataTable.
 type: docs
 weight: 50
 url: /net/aspose.cells/exporttableoptions/exportasstring/

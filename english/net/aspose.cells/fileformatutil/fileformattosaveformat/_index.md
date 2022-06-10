@@ -1,7 +1,7 @@
 ---
 title: FileFormatToSaveFormat
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Converting file format to save format.
 type: docs
 weight: 30
 url: /net/aspose.cells/fileformatutil/fileformattosaveformat/

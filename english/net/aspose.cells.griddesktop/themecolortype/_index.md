@@ -1,7 +1,7 @@
 ---
 title: ThemeColorType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Enumerates the theme color types.
 type: docs
 weight: 1010
 url: /net/aspose.cells.griddesktop/themecolortype/

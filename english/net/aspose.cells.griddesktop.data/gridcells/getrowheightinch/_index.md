@@ -1,7 +1,7 @@
 ---
 title: GetRowHeightInch
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the height of a specified row in unit of inches.
 type: docs
 weight: 460
 url: /net/aspose.cells.griddesktop.data/gridcells/getrowheightinch/

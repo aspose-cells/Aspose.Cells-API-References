@@ -1,7 +1,7 @@
 ---
 title: Scale
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the picture format scale.
 type: docs
 weight: 50
 url: /net/aspose.cells.drawing/texturefill/scale/

@@ -1,7 +1,7 @@
 ---
 title: getVScrollBar
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: return vertical scroll bar
 type: docs
 weight: 720
 url: /net/aspose.cells.griddesktop/griddesktop/getvscrollbar/

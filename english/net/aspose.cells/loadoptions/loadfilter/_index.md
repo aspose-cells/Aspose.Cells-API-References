@@ -1,7 +1,7 @@
 ---
 title: LoadFilter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The filter to denote how to load data.
 type: docs
 weight: 140
 url: /net/aspose.cells/loadoptions/loadfilter/

@@ -1,7 +1,7 @@
 ---
 title: PrintErrors
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the type of print error displayed.
 type: docs
 weight: 320
 url: /net/aspose.cells/pagesetup/printerrors/

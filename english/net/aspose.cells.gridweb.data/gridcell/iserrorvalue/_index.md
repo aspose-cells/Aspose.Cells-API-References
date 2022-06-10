@@ -1,7 +1,7 @@
 ---
 title: IsErrorValue
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Checks if a formula can properly evaluate a result.
 type: docs
 weight: 270
 url: /net/aspose.cells.gridweb.data/gridcell/iserrorvalue/

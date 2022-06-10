@@ -1,12 +1,12 @@
 ---
 title: AutoFitRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Autofits the row height.
 type: docs
 weight: 500
 url: /net/aspose.cells.griddesktop/worksheet/autofitrow/
 ---
-## Worksheet.AutoFitRow method (1 of 3)
+## AutoFitRow(int) {#autofitrow}
 
 Autofits the row height.
 
@@ -30,7 +30,7 @@ AutoFitRow is an imprecise function.
 
 ---
 
-## Worksheet.AutoFitRow method (2 of 3)
+## AutoFitRow(int, int, int) {#autofitrow_1}
 
 Autofits the row height.
 
@@ -56,7 +56,7 @@ This method autofits a row based on content in a range of cells within the row.
 
 ---
 
-## Worksheet.AutoFitRow method (3 of 3)
+## AutoFitRow(int, int, int, int) {#autofitrow_2}
 
 Autofits row height in a rectangle range.
 

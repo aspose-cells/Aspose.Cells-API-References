@@ -1,7 +1,7 @@
 ---
 title: IsAutoMargin
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the margin of the text frame is automatic.
 type: docs
 weight: 30
 url: /net/aspose.cells.drawing.texts/shapetextalignment/isautomargin/

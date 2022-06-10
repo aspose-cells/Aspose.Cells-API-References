@@ -1,12 +1,12 @@
 ---
 title: LoadOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Creates an options of loading the file.
 type: docs
 weight: 10
 url: /net/aspose.cells/loadoptions/loadoptions/
 ---
-## LoadOptions constructor (1 of 2)
+## LoadOptions() {#constructor}
 
 Creates an options of loading the file.
 
@@ -22,7 +22,7 @@ public LoadOptions()
 
 ---
 
-## LoadOptions constructor (2 of 2)
+## LoadOptions(LoadFormat) {#constructor_1}
 
 Creates an options of loading the file.
 

@@ -1,7 +1,7 @@
 ---
 title: IsColumnHidden
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Checks whether a column at given index is hidden.
 type: docs
 weight: 600
 url: /net/aspose.cells.gridweb.data/gridcells/iscolumnhidden/

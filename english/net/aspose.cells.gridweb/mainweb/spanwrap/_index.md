@@ -1,7 +1,7 @@
 ---
 title: SpanWrap
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies whether to wrap content in the cell span.the default value is true.
 type: docs
 weight: 1000
 url: /net/aspose.cells.gridweb/mainweb/spanwrap/

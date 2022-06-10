@@ -1,9 +1,9 @@
 ---
 title: MaxRowsOfSharedFormula
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the max row number of shared formula.
 type: docs
-weight: 290
+weight: 370
 url: /net/aspose.cells/workbooksettings/maxrowsofsharedformula/
 ---
 ## WorkbookSettings.MaxRowsOfSharedFormula property

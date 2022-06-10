@@ -1,7 +1,7 @@
 ---
 title: PowerQueryFormula
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the definition of power query formula.
 type: docs
 weight: 40
 url: /net/aspose.cells.externalconnections/dbconnection/powerqueryformula/

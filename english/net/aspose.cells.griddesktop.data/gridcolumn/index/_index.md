@@ -1,7 +1,7 @@
 ---
 title: Index
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the index of this column.
 type: docs
 weight: 50
 url: /net/aspose.cells.griddesktop.data/gridcolumn/index/

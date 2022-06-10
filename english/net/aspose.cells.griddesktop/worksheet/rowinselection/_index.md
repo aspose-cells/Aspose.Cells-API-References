@@ -1,7 +1,7 @@
 ---
 title: RowInSelection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Determines whether the specified row at index is in selected.
 type: docs
 weight: 980
 url: /net/aspose.cells.griddesktop/worksheet/rowinselection/

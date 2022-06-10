@@ -1,9 +1,9 @@
 ---
 title: GridComment
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the object that represents a cell comment.
 type: docs
-weight: 220
+weight: 230
 url: /net/aspose.cells.gridweb.data/gridcomment/
 ---
 ## GridComment class

@@ -1,9 +1,9 @@
 ---
 title: HasLeaderLines
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: True if the series has leader lines.
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.cells.charts/series/hasleaderlines/
 ---
 ## Series.HasLeaderLines property

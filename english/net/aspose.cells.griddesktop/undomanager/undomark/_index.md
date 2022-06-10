@@ -1,7 +1,7 @@
 ---
 title: UndoMark
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Performs an undo operation with mark.
 type: docs
 weight: 130
 url: /net/aspose.cells.griddesktop/undomanager/undomark/

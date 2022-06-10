@@ -1,7 +1,7 @@
 ---
 title: ReCalculateOnOpen
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets whether re-calculate all formulas on opening file.
 type: docs
 weight: 110
 url: /net/aspose.cells.gridweb.data/gridworkbooksettings/recalculateonopen/

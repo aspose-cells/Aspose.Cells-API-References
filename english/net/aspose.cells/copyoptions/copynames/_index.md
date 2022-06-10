@@ -1,7 +1,7 @@
 ---
 title: CopyNames
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether copying the names.
 type: docs
 weight: 40
 url: /net/aspose.cells/copyoptions/copynames/

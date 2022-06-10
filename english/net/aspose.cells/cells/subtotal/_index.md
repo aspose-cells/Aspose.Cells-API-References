@@ -1,12 +1,12 @@
 ---
 title: Subtotal
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Creates subtotals for the range.
 type: docs
-weight: 1300
+weight: 1360
 url: /net/aspose.cells/cells/subtotal/
 ---
-## Cells.Subtotal method (1 of 2)
+## Subtotal(CellArea, int, ConsolidationFunction, int[]) {#subtotal}
 
 Creates subtotals for the range.
 
@@ -31,7 +31,7 @@ public void Subtotal(CellArea ca, int groupBy, ConsolidationFunction function, i
 
 ---
 
-## Cells.Subtotal method (2 of 2)
+## Subtotal(CellArea, int, ConsolidationFunction, int[], bool, bool, bool) {#subtotal_1}
 
 Creates subtotals for the range.
 

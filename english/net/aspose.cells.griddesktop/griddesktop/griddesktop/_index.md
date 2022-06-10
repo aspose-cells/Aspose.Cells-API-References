@@ -1,7 +1,7 @@
 ---
 title: GridDesktop
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Aspose GridDesktop class
 type: docs
 weight: 10
 url: /net/aspose.cells.griddesktop/griddesktop/griddesktop/

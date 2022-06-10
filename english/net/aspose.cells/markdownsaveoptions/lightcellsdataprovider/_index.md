@@ -1,7 +1,7 @@
 ---
 title: LightCellsDataProvider
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The Data provider to provide cells data for saving workbook in light mode.
 type: docs
 weight: 40
 url: /net/aspose.cells/markdownsaveoptions/lightcellsdataprovider/

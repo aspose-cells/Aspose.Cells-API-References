@@ -1,9 +1,9 @@
 ---
 title: HasBorderHorizontal
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: True if the chart data table has horizontal cell borders
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.cells.charts/chartdatatable/hasborderhorizontal/
 ---
 ## ChartDataTable.HasBorderHorizontal property

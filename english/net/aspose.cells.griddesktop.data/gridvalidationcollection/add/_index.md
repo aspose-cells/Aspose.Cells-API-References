@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Add a GridValidationaspose.cells.griddesktop.data/gridvalidation to the collection.
 type: docs
 weight: 30
 url: /net/aspose.cells.griddesktop.data/gridvalidationcollection/add/
 ---
-## GridValidationCollection.Add method (1 of 8)
+## Add(GridValidation) {#add_3}
 
 Add a [`GridValidation`](../../gridvalidation) to the collection.
 
@@ -31,7 +31,7 @@ public int Add(GridValidation validation)
 
 ---
 
-## GridValidationCollection.Add method (2 of 8)
+## Add() {#add}
 
 Add a [`GridValidation`](../../gridvalidation) to the collection.
 
@@ -52,7 +52,7 @@ public GridValidation Add()
 
 ---
 
-## GridValidationCollection.Add method (3 of 8)
+## Add(string) {#add_2}
 
 Add a [`GridValidation`](../../gridvalidation) to the collection.the validation is applied to the specificed cell.
 
@@ -77,7 +77,7 @@ public GridValidation Add(string cellname)
 
 ---
 
-## GridValidationCollection.Add method (4 of 8)
+## Add(int, int) {#add_1}
 
 Add a [`GridValidation`](../../gridvalidation) to the collection.the validation is applied to the specificed cell.
 
@@ -103,7 +103,7 @@ public GridValidation Add(int row, int col)
 
 ---
 
-## GridValidationCollection.Add method (5 of 8)
+## Add(string, bool, string) {#add_7}
 
 Adds a validation to a specified cell by cell name.
 
@@ -125,7 +125,7 @@ public void Add(string cellName, bool isRequired, string regEx)
 
 ---
 
-## GridValidationCollection.Add method (6 of 8)
+## Add(int, int, ICustomValidation) {#add_4}
 
 Adds a validation to a specified cell at row column index.
 
@@ -148,7 +148,7 @@ public void Add(int row, int col, ICustomValidation customValidation)
 
 ---
 
-## GridValidationCollection.Add method (7 of 8)
+## Add(int, int, bool, string) {#add_5}
 
 Adds a validation to a specified cell at row column index.
 
@@ -171,7 +171,7 @@ public void Add(int row, int col, bool isRequired, string regEx)
 
 ---
 
-## GridValidationCollection.Add method (8 of 8)
+## Add(string, ICustomValidation) {#add_6}
 
 Adds a validation to a specified cell by cell name.
 

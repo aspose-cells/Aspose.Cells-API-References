@@ -1,7 +1,7 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the column is readonly.
 type: docs
 weight: 120
 url: /net/aspose.cells.gridweb/bindcolumn/isreadonly/

@@ -1,7 +1,7 @@
 ---
 title: CellsColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the CellsColoraspose.cells.drawing/solidfill/cellscolor object.
 type: docs
 weight: 10
 url: /net/aspose.cells.drawing/solidfill/cellscolor/

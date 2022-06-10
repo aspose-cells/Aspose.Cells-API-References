@@ -1,9 +1,9 @@
 ---
 title: ColorHelper
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Provides helper functions about color.
 type: docs
-weight: 1880
+weight: 1900
 url: /net/aspose.cells.drawing/colorhelper/
 ---
 ## ColorHelper class

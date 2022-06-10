@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets PowerQueryFormulaParameteraspose.cells.querytables/powerqueryformulaparameter by the index in the list.
 type: docs
 weight: 20
 url: /net/aspose.cells.querytables/powerqueryformulaparametercollection/item/

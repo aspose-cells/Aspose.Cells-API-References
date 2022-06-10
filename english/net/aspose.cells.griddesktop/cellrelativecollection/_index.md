@@ -1,7 +1,7 @@
 ---
 title: CellRelativeCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Internal use only.
 type: docs
 weight: 230
 url: /net/aspose.cells.griddesktop/cellrelativecollection/
@@ -18,8 +18,8 @@ public class CellRelativeCollection
 
 | Name | Description |
 | --- | --- |
-| [Remove](../../aspose.cells.griddesktop/cellrelativecollection/remove)(string) | Removes the item by cell name. |
-| virtual [Remove](../../aspose.cells.griddesktop/cellrelativecollection/remove)(int, int) | Removes the item at the specified row column index of the cell. |
+| [Remove](../../aspose.cells.griddesktop/cellrelativecollection/remove#remove_1)(string) | Removes the item by cell name. |
+| virtual [Remove](../../aspose.cells.griddesktop/cellrelativecollection/remove#remove)(int, int) | Removes the item at the specified row column index of the cell. |
 
 ### See Also
 

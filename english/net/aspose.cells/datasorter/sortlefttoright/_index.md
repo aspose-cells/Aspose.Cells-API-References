@@ -1,7 +1,7 @@
 ---
 title: SortLeftToRight
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: True means that sorting orientation is from left to right. False means that sorting orientation is from top to bottom. The default value is false.
 type: docs
 weight: 110
 url: /net/aspose.cells/datasorter/sortlefttoright/

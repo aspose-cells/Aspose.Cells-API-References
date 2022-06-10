@@ -1,12 +1,12 @@
 ---
 title: Aspose.Cells.Utility
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Contains all utility classes.
 type: docs
 weight: 210
 url: /net/aspose.cells.utility/
 ---
-
+Contains all utility classes.
 
 ## Classes
 

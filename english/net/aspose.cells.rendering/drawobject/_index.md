@@ -1,9 +1,9 @@
 ---
 title: DrawObject
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: DrawObject will be initialized and returned when rendering.
 type: docs
-weight: 5090
+weight: 5130
 url: /net/aspose.cells.rendering/drawobject/
 ---
 ## DrawObject class

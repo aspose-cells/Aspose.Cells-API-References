@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Clears all PivotFields.
 type: docs
 weight: 40
 url: /net/aspose.cells.gridweb.data/gridpivotfieldcollection/clear/

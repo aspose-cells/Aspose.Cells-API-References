@@ -1,9 +1,9 @@
 ---
 title: Geometry
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the geometry
 type: docs
-weight: 110
+weight: 150
 url: /net/aspose.cells.drawing/shape/geometry/
 ---
 ## Shape.Geometry property

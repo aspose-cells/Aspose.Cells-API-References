@@ -1,7 +1,7 @@
 ---
 title: SVGFitToViewPort
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: if this property is true the generated svg will fit to view port.
 type: docs
 weight: 300
 url: /net/aspose.cells.rendering/imageorprintoptions/svgfittoviewport/

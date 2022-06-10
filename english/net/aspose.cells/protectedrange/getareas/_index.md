@@ -1,7 +1,7 @@
 ---
 title: GetAreas
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets all referred areas.
 type: docs
 weight: 60
 url: /net/aspose.cells/protectedrange/getareas/

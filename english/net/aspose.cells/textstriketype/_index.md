@@ -1,9 +1,9 @@
 ---
 title: TextStrikeType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: This type specifies the strike type.
 type: docs
-weight: 5980
+weight: 6020
 url: /net/aspose.cells/textstriketype/
 ---
 ## TextStrikeType enumeration

@@ -1,7 +1,7 @@
 ---
 title: SoftEdgeRadius
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the radius of blur to apply to the edges in unit of points.
 type: docs
 weight: 40
 url: /net/aspose.cells.drawing/shapepropertycollection/softedgeradius/

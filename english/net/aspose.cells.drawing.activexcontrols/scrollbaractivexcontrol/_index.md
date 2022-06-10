@@ -1,9 +1,9 @@
 ---
 title: ScrollBarActiveXControl
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the ScrollBar control.
 type: docs
-weight: 1680
+weight: 1700
 url: /net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/
 ---
 ## ScrollBarActiveXControl class

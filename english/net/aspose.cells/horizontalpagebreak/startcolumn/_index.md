@@ -1,7 +1,7 @@
 ---
 title: StartColumn
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the start column index of this horizontal page break.
 type: docs
 weight: 30
 url: /net/aspose.cells/horizontalpagebreak/startcolumn/

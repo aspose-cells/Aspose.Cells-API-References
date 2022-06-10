@@ -28,6 +28,7 @@ Contains all basic classes of Aspose.Cells.
 | [Cell](./cell) | Encapsulates the object that represents a single Workbook cell. |
 | [Cells](./cells) | Encapsulates a collection of cell relevant objects, such as [`Cell`](../aspose.cells/cell), [`Row`](../aspose.cells/row), ...etc. |
 | [CellsColor](./cellscolor) | Represents all types of color. |
+| [CellsDataTableFactory](./cellsdatatablefactory) | Utility to build ICellsDataTable from custom objects for user's convenience. |
 | [CellsException](./cellsexception) | The exception that is thrown when Aspose.Cells specified error occurs. |
 | [CellsFactory](./cellsfactory) | Utility for instantiating classes of Cells model. |
 | [CellsHelper](./cellshelper) | Provides helper functions. |
@@ -177,6 +178,7 @@ Contains all basic classes of Aspose.Cells.
 | Interface | Description |
 | --- | --- |
 | [ICellsDataTable](./icellsdatatable) | Represents data table. |
+| [ICustomFunction](./icustomfunction) |  |
 | [ICustomParser](./icustomparser) | Allows users to add their custom value parser for parsing string values to other proper cell value object. |
 | [IExportObjectListener](./iexportobjectlistener) | Allows users to manipulate objects while exporting. |
 | [IFilePathProvider](./ifilepathprovider) | Represents the exported file path provider. |

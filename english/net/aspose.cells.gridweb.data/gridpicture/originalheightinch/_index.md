@@ -1,7 +1,7 @@
 ---
 title: OriginalHeightInch
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the original height of picture in unit of inches.
 type: docs
 weight: 330
 url: /net/aspose.cells.gridweb.data/gridpicture/originalheightinch/

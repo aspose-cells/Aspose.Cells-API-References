@@ -1,9 +1,9 @@
 ---
 title: ShapeSegmentPath
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a segment path in a path of the freeform.
 type: docs
-weight: 2740
+weight: 2770
 url: /net/aspose.cells.drawing/shapesegmentpath/
 ---
 ## ShapeSegmentPath class

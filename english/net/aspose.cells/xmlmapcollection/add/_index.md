@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Add a XmlMapaspose.cells/xmlmap by the url/path of a xml/xsd file.
 type: docs
 weight: 20
 url: /net/aspose.cells/xmlmapcollection/add/

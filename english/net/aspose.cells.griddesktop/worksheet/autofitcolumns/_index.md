@@ -1,12 +1,12 @@
 ---
 title: AutoFitColumns
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Autofits all columns in this worksheet.
 type: docs
 weight: 490
 url: /net/aspose.cells.griddesktop/worksheet/autofitcolumns/
 ---
-## Worksheet.AutoFitColumns method (1 of 3)
+## AutoFitColumns() {#autofitcolumns}
 
 Autofits all columns in this worksheet.
 
@@ -22,7 +22,7 @@ public void AutoFitColumns()
 
 ---
 
-## Worksheet.AutoFitColumns method (2 of 3)
+## AutoFitColumns(int, int) {#autofitcolumns_1}
 
 Autofits the columns width.
 
@@ -47,7 +47,7 @@ AutoFitColumn is an imprecise function.
 
 ---
 
-## Worksheet.AutoFitColumns method (3 of 3)
+## AutoFitColumns(int, int, int, int) {#autofitcolumns_2}
 
 Autofits the columns width.
 

@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Deletes the Slicer at the specified index
 type: docs
 weight: 40
 url: /net/aspose.cells.slicers/slicercollection/removeat/

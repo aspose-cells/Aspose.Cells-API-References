@@ -1,7 +1,7 @@
 ---
 title: ShowImportMessage
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: wether to show message box when fail to import the file the default value is true
 type: docs
 weight: 320
 url: /net/aspose.cells.griddesktop/griddesktop/showimportmessage/

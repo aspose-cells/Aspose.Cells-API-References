@@ -1,9 +1,9 @@
 ---
 title: Validation
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents data validation.settings.
 type: docs
-weight: 6190
+weight: 6230
 url: /net/aspose.cells/validation/
 ---
 ## Validation class
@@ -39,14 +39,14 @@ public class Validation
 
 | Name | Description |
 | --- | --- |
-| [AddArea](../../aspose.cells/validation/addarea)(CellArea) | Applies the validation to the area. |
-| [AddArea](../../aspose.cells/validation/addarea)(CellArea, bool, bool) | Applies the validation to the area. |
+| [AddArea](../../aspose.cells/validation/addarea#addarea)(CellArea) | Applies the validation to the area. |
+| [AddArea](../../aspose.cells/validation/addarea#addarea_1)(CellArea, bool, bool) | Applies the validation to the area. |
 | [AddAreas](../../aspose.cells/validation/addareas)(CellArea[], bool, bool) | Applies the validation to given areas. |
 | [Copy](../../aspose.cells/validation/copy)(Validation, CopyOptions) | Copy validation. |
-| [GetFormula1](../../aspose.cells/validation/getformula1)(bool, bool) | Gets the value or expression associated with this validation. |
-| [GetFormula1](../../aspose.cells/validation/getformula1)(bool, bool, int, int) | Gets the value or expression associated with this validation for specific cell. |
-| [GetFormula2](../../aspose.cells/validation/getformula2)(bool, bool) | Gets the value or expression associated with this validation. |
-| [GetFormula2](../../aspose.cells/validation/getformula2)(bool, bool, int, int) | Gets the value or expression associated with this validation for specific cell. |
+| [GetFormula1](../../aspose.cells/validation/getformula1#getformula1)(bool, bool) | Gets the value or expression associated with this validation. |
+| [GetFormula1](../../aspose.cells/validation/getformula1#getformula1_1)(bool, bool, int, int) | Gets the value or expression associated with this validation for specific cell. |
+| [GetFormula2](../../aspose.cells/validation/getformula2#getformula2)(bool, bool) | Gets the value or expression associated with this validation. |
+| [GetFormula2](../../aspose.cells/validation/getformula2#getformula2_1)(bool, bool, int, int) | Gets the value or expression associated with this validation for specific cell. |
 | [GetListValue](../../aspose.cells/validation/getlistvalue)(int, int) | Get the value for list of the validation for the specified cell. |
 | [RemoveACell](../../aspose.cells/validation/removeacell)(int, int) | Remove the validation settings in the cell. |
 | [RemoveArea](../../aspose.cells/validation/removearea)(CellArea) | Remove the validation settings in the range. |

@@ -1,9 +1,9 @@
 ---
 title: GetCellStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get the style of given cell.
 type: docs
-weight: 660
+weight: 680
 url: /net/aspose.cells/cells/getcellstyle/
 ---
 ## Cells.GetCellStyle method

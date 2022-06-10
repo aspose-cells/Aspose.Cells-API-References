@@ -1,7 +1,7 @@
 ---
 title: SetCellValue
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: If the value is a formulathis method set cells value as FormulaType
 type: docs
 weight: 360
 url: /net/aspose.cells.griddesktop.data/gridcell/setcellvalue/

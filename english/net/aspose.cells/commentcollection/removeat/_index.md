@@ -1,12 +1,12 @@
 ---
 title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Removes the comment of the specific cell.
 type: docs
 weight: 60
 url: /net/aspose.cells/commentcollection/removeat/
 ---
-## CommentCollection.RemoveAt method (1 of 2)
+## RemoveAt(string) {#removeat_2}
 
 Removes the comment of the specific cell.
 
@@ -34,7 +34,7 @@ comments.RemoveAt("B2");
 
 ---
 
-## CommentCollection.RemoveAt method (2 of 2)
+## RemoveAt(int, int) {#removeat_1}
 
 Removes the comment of the specific cell.
 

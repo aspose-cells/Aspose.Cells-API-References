@@ -1,7 +1,7 @@
 ---
 title: PrintSize
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the printed chart size.
 type: docs
 weight: 320
 url: /net/aspose.cells.charts/chart/printsize/

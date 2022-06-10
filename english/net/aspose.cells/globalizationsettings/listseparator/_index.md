@@ -1,7 +1,7 @@
 ---
 title: ListSeparator
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the separator for list parameters of function ...etc.
 type: docs
 weight: 40
 url: /net/aspose.cells/globalizationsettings/listseparator/

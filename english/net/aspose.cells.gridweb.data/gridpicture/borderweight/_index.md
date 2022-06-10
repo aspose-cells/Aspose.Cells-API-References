@@ -1,7 +1,7 @@
 ---
 title: BorderWeight
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the weight of the border line of a picture in units of pt.
 type: docs
 weight: 30
 url: /net/aspose.cells.gridweb.data/gridpicture/borderweight/

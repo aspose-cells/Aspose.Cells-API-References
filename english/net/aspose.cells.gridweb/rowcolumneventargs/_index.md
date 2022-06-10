@@ -1,9 +1,9 @@
 ---
 title: RowColumnEventArgs
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Provides data for row/column events.
 type: docs
-weight: 870
+weight: 1080
 url: /net/aspose.cells.gridweb/rowcolumneventargs/
 ---
 ## RowColumnEventArgs class

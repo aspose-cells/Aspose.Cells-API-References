@@ -1,7 +1,7 @@
 ---
 title: ExtractContentPermissionObsolete
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Permission to copy or extract content Obsoleted according to PDF reference.
 type: docs
 weight: 60
 url: /net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/extractcontentpermissionobsolete/

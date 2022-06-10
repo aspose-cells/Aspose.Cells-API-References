@@ -1,9 +1,9 @@
 ---
 title: TextCrossType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Enumerates displaying text type when the text width is larger than cell width.
 type: docs
-weight: 5950
+weight: 5990
 url: /net/aspose.cells/textcrosstype/
 ---
 ## TextCrossType enumeration

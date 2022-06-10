@@ -1,7 +1,7 @@
 ---
 title: GetFontColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets cell font color. When change the coloryou should invoke SetFontColor method to set font color to cell.
 type: docs
 weight: 260
 url: /net/aspose.cells.griddesktop.data/gridcell/getfontcolor/

@@ -1,7 +1,7 @@
 ---
 title: Cells
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the Cellsaspose.cells/worksheet/cells collection.
 type: docs
 weight: 50
 url: /net/aspose.cells/worksheet/cells/

@@ -1,7 +1,7 @@
 ---
 title: RightMarginPt
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns the right margin in unit of Points
 type: docs
 weight: 60
 url: /net/aspose.cells.drawing.texts/shapetextalignment/rightmarginpt/

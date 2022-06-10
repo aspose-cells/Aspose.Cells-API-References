@@ -1,7 +1,7 @@
 ---
 title: AxisLabels
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the labels of the axis after call Chart.Calculate method.
 type: docs
 weight: 30
 url: /net/aspose.cells.charts/axis/axislabels/

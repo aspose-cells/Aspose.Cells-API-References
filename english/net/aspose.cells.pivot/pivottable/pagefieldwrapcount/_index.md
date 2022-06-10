@@ -1,7 +1,7 @@
 ---
 title: PageFieldWrapCount
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the number of page fields in each column or row in the PivotTable report.
 type: docs
 weight: 410
 url: /net/aspose.cells.pivot/pivottable/pagefieldwrapcount/

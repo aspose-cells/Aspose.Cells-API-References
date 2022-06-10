@@ -1,9 +1,9 @@
 ---
 title: SetBorderPosition
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the border position to be set of a cells range.
 type: docs
-weight: 900
+weight: 1110
 url: /net/aspose.cells.gridweb/setborderposition/
 ---
 ## SetBorderPosition enumeration

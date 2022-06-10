@@ -1,7 +1,7 @@
 ---
 title: EnableDoubleClickEvent
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets whether to enable customer side double-click event.
 type: docs
 weight: 300
 url: /net/aspose.cells.gridweb/mainweb/enabledoubleclickevent/

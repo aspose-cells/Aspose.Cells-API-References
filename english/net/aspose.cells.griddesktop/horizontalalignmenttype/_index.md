@@ -1,7 +1,7 @@
 ---
 title: HorizontalAlignmentType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies how a gridcell is horizontally aligned.
 type: docs
 weight: 860
 url: /net/aspose.cells.griddesktop/horizontalalignmenttype/

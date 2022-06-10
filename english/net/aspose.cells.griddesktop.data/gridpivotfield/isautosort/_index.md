@@ -1,7 +1,7 @@
 ---
 title: IsAutoSort
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the specified PivotTable field is automatically sorted.
 type: docs
 weight: 40
 url: /net/aspose.cells.griddesktop.data/gridpivotfield/isautosort/

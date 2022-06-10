@@ -1,7 +1,7 @@
 ---
 title: IsBlankColumn
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Checks whether given column is blankdoes not contain any data.
 type: docs
 weight: 590
 url: /net/aspose.cells.gridweb.data/gridcells/isblankcolumn/

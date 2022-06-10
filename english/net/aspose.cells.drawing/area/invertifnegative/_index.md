@@ -1,7 +1,7 @@
 ---
 title: InvertIfNegative
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: If the property is true and the value of chart point is a negative number the foreground color and background color will be exchanged.
 type: docs
 weight: 50
 url: /net/aspose.cells.drawing/area/invertifnegative/

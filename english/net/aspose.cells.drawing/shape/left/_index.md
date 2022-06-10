@@ -1,9 +1,9 @@
 ---
 title: Left
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the horizontal offset of shape from its left column in unit of pixels.
 type: docs
-weight: 390
+weight: 430
 url: /net/aspose.cells.drawing/shape/left/
 ---
 ## Shape.Left property

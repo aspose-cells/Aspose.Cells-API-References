@@ -1,9 +1,9 @@
 ---
 title: WarningType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: WaringType
 type: docs
-weight: 6350
+weight: 6390
 url: /net/aspose.cells/warningtype/
 ---
 ## WarningType enumeration
@@ -26,6 +26,7 @@ public enum WarningType
 | InvalidAutoFilterRange | `5` | Invalid autofilter range. |
 | IO | `6` | The file is corrupted. |
 | Limitation | `7` | Out of MS Excel limitation error. |
+| InvalidData | `8` | Invalid data. |
 
 ### See Also
 

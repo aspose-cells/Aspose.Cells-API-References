@@ -1,9 +1,9 @@
 ---
 title: RevisionInsertDelete
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a revision record of a row/column insert/delete action.
 type: docs
-weight: 5410
+weight: 5450
 url: /net/aspose.cells.revisions/revisioninsertdelete/
 ---
 ## RevisionInsertDelete class

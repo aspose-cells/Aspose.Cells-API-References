@@ -1,7 +1,7 @@
 ---
 title: ImageUrl
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The image url of the command hyperlink.
 type: docs
 weight: 100
 url: /net/aspose.cells.gridweb/bindcolumn/imageurl/

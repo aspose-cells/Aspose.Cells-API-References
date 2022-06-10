@@ -1,7 +1,7 @@
 ---
 title: CellPadding
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Always returns -1.
 type: docs
 weight: 50
 url: /net/aspose.cells.gridweb/gridtablestyle/cellpadding/

@@ -1,9 +1,9 @@
 ---
 title: CustomDocumentPropertyCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: A collection of custom document properties.
 type: docs
-weight: 4820
+weight: 4860
 url: /net/aspose.cells.properties/customdocumentpropertycollection/
 ---
 ## CustomDocumentPropertyCollection class
@@ -26,11 +26,11 @@ public class CustomDocumentPropertyCollection : DocumentPropertyCollection
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add)(string, bool) | Creates a new custom document property of the **PropertyType.Boolean** data type. |
-| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add)(string, DateTime) | Creates a new custom document property of the **PropertyType.DateTime** data type. |
-| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add)(string, double) | Creates a new custom document property of the **PropertyType.Float** data type. |
-| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add)(string, int) | Creates a new custom document property of the **PropertyType.Number** data type. |
-| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add)(string, string) | Creates a new custom document property of the **PropertyType.String** data type. |
+| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add)(string, bool) | Creates a new custom document property of the **PropertyType.Boolean** data type. |
+| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add_3)(string, DateTime) | Creates a new custom document property of the **PropertyType.DateTime** data type. |
+| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add_1)(string, double) | Creates a new custom document property of the **PropertyType.Float** data type. |
+| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add_2)(string, int) | Creates a new custom document property of the **PropertyType.Number** data type. |
+| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add_4)(string, string) | Creates a new custom document property of the **PropertyType.String** data type. |
 | [AddLinkToContent](../../aspose.cells.properties/customdocumentpropertycollection/addlinktocontent)(string, string) | Creates a new custom document property which links to content. |
 | [Clear](../../aspose.cells.properties/documentpropertycollection/clear)() | Removes all properties from the collection. |
 | [Contains](../../aspose.cells.properties/documentpropertycollection/contains)(string) | Returns true if a property with the specified name exists in the collection. |

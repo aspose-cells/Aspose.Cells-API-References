@@ -1,9 +1,9 @@
 ---
 title: Pattern
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the cell background pattern type.
 type: docs
-weight: 250
+weight: 260
 url: /net/aspose.cells/style/pattern/
 ---
 ## Style.Pattern property

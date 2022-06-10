@@ -1,9 +1,9 @@
 ---
 title: RevisionMergeConflict
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a revision record which indicates that there was a merge conflict.
 type: docs
-weight: 5450
+weight: 5490
 url: /net/aspose.cells.revisions/revisionmergeconflict/
 ---
 ## RevisionMergeConflict class

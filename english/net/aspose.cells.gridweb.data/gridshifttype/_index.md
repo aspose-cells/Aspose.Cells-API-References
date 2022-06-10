@@ -1,9 +1,9 @@
 ---
 title: GridShiftType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represent the shift options when deleting a range of cells.
 type: docs
-weight: 500
+weight: 510
 url: /net/aspose.cells.gridweb.data/gridshifttype/
 ---
 ## GridShiftType enumeration

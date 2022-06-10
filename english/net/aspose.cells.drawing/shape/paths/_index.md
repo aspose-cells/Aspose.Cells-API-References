@@ -1,9 +1,9 @@
 ---
 title: Paths
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the paths of a custom geometric shape.
 type: docs
-weight: 530
+weight: 580
 url: /net/aspose.cells.drawing/shape/paths/
 ---
 ## Shape.Paths property

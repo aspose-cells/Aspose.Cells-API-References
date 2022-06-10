@@ -1,9 +1,9 @@
 ---
 title: FormatPicture
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the options of the picture format.
 type: docs
-weight: 100
+weight: 140
 url: /net/aspose.cells.drawing/shape/formatpicture/
 ---
 ## Shape.FormatPicture property

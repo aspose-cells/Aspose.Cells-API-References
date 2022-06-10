@@ -1,7 +1,7 @@
 ---
 title: ShowConnectorLines
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether showing connector lines between data points.
 type: docs
 weight: 60
 url: /net/aspose.cells.charts/serieslayoutproperties/showconnectorlines/

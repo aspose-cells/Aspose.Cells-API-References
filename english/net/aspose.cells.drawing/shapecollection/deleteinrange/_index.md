@@ -1,7 +1,7 @@
 ---
 title: DeleteInRange
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Delete shapes in the range.Comment shapes will not be deleted.
 type: docs
 weight: 390
 url: /net/aspose.cells.drawing/shapecollection/deleteinrange/

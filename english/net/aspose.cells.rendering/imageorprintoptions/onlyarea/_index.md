@@ -1,7 +1,7 @@
 ---
 title: OnlyArea
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: If this property is true  one Area will be output and no scale will take effect.
 type: docs
 weight: 190
 url: /net/aspose.cells.rendering/imageorprintoptions/onlyarea/

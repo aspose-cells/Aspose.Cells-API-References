@@ -1,7 +1,7 @@
 ---
 title: Password
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the password to protect the range.
 type: docs
 weight: 30
 url: /net/aspose.cells/protectedrange/password/

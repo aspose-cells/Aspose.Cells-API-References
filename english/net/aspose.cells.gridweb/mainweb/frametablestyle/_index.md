@@ -1,7 +1,7 @@
 ---
 title: FrameTableStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the frame style of the control.
 type: docs
 weight: 360
 url: /net/aspose.cells.gridweb/mainweb/frametablestyle/

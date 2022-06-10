@@ -1,7 +1,7 @@
 ---
 title: TextVerticalType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the text direction.
 type: docs
 weight: 120
 url: /net/aspose.cells.drawing.texts/shapetextalignment/textverticaltype/

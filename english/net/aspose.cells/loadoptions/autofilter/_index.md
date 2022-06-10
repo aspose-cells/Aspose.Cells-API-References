@@ -1,7 +1,7 @@
 ---
 title: AutoFilter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether auto filtering the data when loading the files.
 type: docs
 weight: 20
 url: /net/aspose.cells/loadoptions/autofilter/

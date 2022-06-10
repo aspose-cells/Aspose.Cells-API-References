@@ -1,9 +1,9 @@
 ---
 title: GetCellOrNull
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the cell or null in the specific index.
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.cells/row/getcellornull/
 ---
 ## Row.GetCellOrNull method

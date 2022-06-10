@@ -1,9 +1,9 @@
 ---
 title: IsIntersect
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the range is intersect.
 type: docs
-weight: 290
+weight: 300
 url: /net/aspose.cells/range/isintersect/
 ---
 ## Range.IsIntersect method

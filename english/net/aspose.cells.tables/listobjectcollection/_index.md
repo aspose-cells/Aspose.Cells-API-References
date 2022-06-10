@@ -1,9 +1,9 @@
 ---
 title: ListObjectCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a collection of ListObject./listobject objects in the worksheet.
 type: docs
-weight: 5820
+weight: 5860
 url: /net/aspose.cells.tables/listobjectcollection/
 ---
 ## ListObjectCollection class
@@ -27,8 +27,8 @@ public class ListObjectCollection : CollectionBase<ListObject>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.tables/listobjectcollection/add)(string, string, bool) | Adds a ListObject to the worksheet. |
-| [Add](../../aspose.cells.tables/listobjectcollection/add)(int, int, int, int, bool) | Adds a ListObject to the worksheet. |
+| [Add](../../aspose.cells.tables/listobjectcollection/add#add_1)(string, string, bool) | Adds a ListObject to the worksheet. |
+| [Add](../../aspose.cells.tables/listobjectcollection/add#add)(int, int, int, int, bool) | Adds a ListObject to the worksheet. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ListObject) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ListObject, IComparer&lt;ListObject&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, ListObject, IComparer&lt;ListObject&gt;) |  |

@@ -1,7 +1,7 @@
 ---
 title: TextWrapped
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the text within a cell is wrapped.
 type: docs
 weight: 150
 url: /net/aspose.cells.griddesktop/style/textwrapped/

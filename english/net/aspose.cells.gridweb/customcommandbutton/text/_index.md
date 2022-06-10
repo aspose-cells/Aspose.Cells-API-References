@@ -1,7 +1,7 @@
 ---
 title: Text
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the alternative text of the command button.
 type: docs
 weight: 70
 url: /net/aspose.cells.gridweb/customcommandbutton/text/

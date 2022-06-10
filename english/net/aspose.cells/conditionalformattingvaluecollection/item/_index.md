@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get the CFValueObject element at the specified index.
 type: docs
 weight: 10
 url: /net/aspose.cells/conditionalformattingvaluecollection/item/

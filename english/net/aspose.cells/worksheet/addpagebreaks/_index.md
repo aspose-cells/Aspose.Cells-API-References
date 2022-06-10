@@ -1,7 +1,7 @@
 ---
 title: AddPageBreaks
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds page break.
 type: docs
 weight: 600
 url: /net/aspose.cells/worksheet/addpagebreaks/

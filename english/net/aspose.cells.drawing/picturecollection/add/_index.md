@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a picture to the collection.
 type: docs
 weight: 20
 url: /net/aspose.cells.drawing/picturecollection/add/
 ---
-## PictureCollection.Add method (1 of 6)
+## Add(int, int, int, int, Stream) {#add}
 
 Adds a picture to the collection.
 
@@ -47,7 +47,7 @@ using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
 
 ---
 
-## PictureCollection.Add method (2 of 6)
+## Add(int, int, int, int, string) {#add_1}
 
 Adds a picture to the collection.
 
@@ -85,7 +85,7 @@ pictures.Add(1, 1, 5, 5, "image.jpg");
 
 ---
 
-## PictureCollection.Add method (3 of 6)
+## Add(int, int, Stream) {#add_2}
 
 Adds a picture to the collection.
 
@@ -123,7 +123,7 @@ using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
 
 ---
 
-## PictureCollection.Add method (4 of 6)
+## Add(int, int, string) {#add_4}
 
 Adds a picture to the collection.
 
@@ -158,7 +158,7 @@ pictures.Add(1, 1, "image.jpg");
 
 ---
 
-## PictureCollection.Add method (5 of 6)
+## Add(int, int, Stream, int, int) {#add_3}
 
 Adds a picture to the collection.
 
@@ -199,7 +199,7 @@ using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
 
 ---
 
-## PictureCollection.Add method (6 of 6)
+## Add(int, int, string, int, int) {#add_5}
 
 Adds a picture to the collection.
 

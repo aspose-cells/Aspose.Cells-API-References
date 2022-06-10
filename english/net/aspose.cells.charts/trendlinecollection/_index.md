@@ -1,9 +1,9 @@
 ---
 title: TrendlineCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a collection of all the Trendline./trendline objects for the specified data series.
 type: docs
-weight: 980
+weight: 1000
 url: /net/aspose.cells.charts/trendlinecollection/
 ---
 ## TrendlineCollection class
@@ -27,8 +27,8 @@ public class TrendlineCollection : CollectionBase<Trendline>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.charts/trendlinecollection/add)(TrendlineType) | Adds a  object to this collection with specified type. |
-| [Add](../../aspose.cells.charts/trendlinecollection/add)(TrendlineType, string) | Adds a  object to this collection with specified type and name. |
+| [Add](../../aspose.cells.charts/trendlinecollection/add#add)(TrendlineType) | Adds a  object to this collection with specified type. |
+| [Add](../../aspose.cells.charts/trendlinecollection/add#add_1)(TrendlineType, string) | Adds a  object to this collection with specified type and name. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Trendline) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Trendline, IComparer&lt;Trendline&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Trendline, IComparer&lt;Trendline&gt;) |  |

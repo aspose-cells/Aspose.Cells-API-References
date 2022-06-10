@@ -1,9 +1,9 @@
 ---
 title: CrashSave
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: indicates whether the application last saved the workbook file after a crash.
 type: docs
-weight: 90
+weight: 120
 url: /net/aspose.cells/workbooksettings/crashsave/
 ---
 ## WorkbookSettings.CrashSave property

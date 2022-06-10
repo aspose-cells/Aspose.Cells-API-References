@@ -1,9 +1,9 @@
 ---
 title: RevisionDefinedName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a revision record of a defined name change.
 type: docs
-weight: 5390
+weight: 5430
 url: /net/aspose.cells.revisions/revisiondefinedname/
 ---
 ## RevisionDefinedName class

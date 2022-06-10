@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds module for a worksheet.
 type: docs
 weight: 20
 url: /net/aspose.cells.vba/vbamodulecollection/add/
 ---
-## VbaModuleCollection.Add method (1 of 2)
+## Add(Worksheet) {#add_1}
 
 Adds module for a worksheet.
 
@@ -27,7 +27,7 @@ public int Add(Worksheet sheet)
 
 ---
 
-## VbaModuleCollection.Add method (2 of 2)
+## Add(VbaModuleType, string) {#add}
 
 Adds module.
 

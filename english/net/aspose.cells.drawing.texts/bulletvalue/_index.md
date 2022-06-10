@@ -1,9 +1,9 @@
 ---
 title: BulletValue
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the value of the bullet.
 type: docs
-weight: 2870
+weight: 2900
 url: /net/aspose.cells.drawing.texts/bulletvalue/
 ---
 ## BulletValue class

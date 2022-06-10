@@ -1,9 +1,9 @@
 ---
 title: SeriesCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates a collection of Series./series objects.
 type: docs
-weight: 820
+weight: 840
 url: /net/aspose.cells.charts/seriescollection/
 ---
 ## SeriesCollection class
@@ -30,14 +30,14 @@ public class SeriesCollection : CollectionBase<Series>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.charts/seriescollection/add)(string, bool) | Adds the [`SeriesCollection`](../seriescollection) collection to a chart. |
-| [Add](../../aspose.cells.charts/seriescollection/add)(string, bool, bool) | Adds the [`SeriesCollection`](../seriescollection) collection to a chart. |
+| [Add](../../aspose.cells.charts/seriescollection/add#add)(string, bool) | Adds the [`SeriesCollection`](../seriescollection) collection to a chart. |
+| [Add](../../aspose.cells.charts/seriescollection/add#add_1)(string, bool, bool) | Adds the [`SeriesCollection`](../seriescollection) collection to a chart. |
 | [AddR1C1](../../aspose.cells.charts/seriescollection/addr1c1)(string, bool) | Adds the [`SeriesCollection`](../seriescollection) collection to a chart. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Series) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Series, IComparer&lt;Series&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Series, IComparer&lt;Series&gt;) |  |
 | [ChangeSeriesOrder](../../aspose.cells.charts/seriescollection/changeseriesorder)(int, int) | Directly changes the orders of the two series. |
-| [Clear](../../aspose.cells.charts/seriescollection/clear)() | Clears the collection (2 methods) |
+| [Clear](../../aspose.cells.charts/seriescollection/clear#clear)() | Clears the collection (2 methods) |
 | [Contains](../../aspose.cells/collectionbase`1/contains)(Series) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Series[]) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Series[], int) |  |
@@ -60,7 +60,7 @@ public class SeriesCollection : CollectionBase<Series>
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Series) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Series, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Series, int, int) |  |
-| [RemoveAt](../../aspose.cells.charts/seriescollection/removeat)(int) | Remove at a series at the specific index. (2 methods) |
+| [RemoveAt](../../aspose.cells.charts/seriescollection/removeat#removeat)(int) | Remove at a series at the specific index. (2 methods) |
 | [SetSeriesNames](../../aspose.cells.charts/seriescollection/setseriesnames)(int, string, bool) | Sets the name of all the serieses in the chart. |
 
 ### Examples

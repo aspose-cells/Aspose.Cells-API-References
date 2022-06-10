@@ -1,9 +1,9 @@
 ---
 title: IsEncrypted
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets a value that indicates whether a password is required to open this workbook.
 type: docs
-weight: 200
+weight: 250
 url: /net/aspose.cells/workbooksettings/isencrypted/
 ---
 ## WorkbookSettings.IsEncrypted property

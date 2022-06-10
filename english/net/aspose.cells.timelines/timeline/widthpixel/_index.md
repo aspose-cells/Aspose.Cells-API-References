@@ -1,7 +1,7 @@
 ---
 title: WidthPixel
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns or sets the width of the specified timeline in pixels.
 type: docs
 weight: 60
 url: /net/aspose.cells.timelines/timeline/widthpixel/

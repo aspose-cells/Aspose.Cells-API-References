@@ -1,7 +1,7 @@
 ---
 title: DisplayNumberFormat
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the display number format of tick labels.
 type: docs
 weight: 40
 url: /net/aspose.cells.charts/ticklabels/displaynumberformat/

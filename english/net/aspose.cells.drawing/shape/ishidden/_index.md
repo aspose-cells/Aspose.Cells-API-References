@@ -1,9 +1,9 @@
 ---
 title: IsHidden
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the object is visible.
 type: docs
-weight: 300
+weight: 340
 url: /net/aspose.cells.drawing/shape/ishidden/
 ---
 ## Shape.IsHidden property

@@ -1,12 +1,12 @@
 ---
 title: Sort
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sorts the datas ascend in the range by index.
 type: docs
 weight: 20
 url: /net/aspose.cells.griddesktop/sortrange/sort/
 ---
-## SortRange.Sort method (1 of 4)
+## Sort(int) {#sort}
 
 Sorts the datas ascend in the range by index.
 
@@ -26,7 +26,7 @@ public void Sort(int index)
 
 ---
 
-## SortRange.Sort method (2 of 4)
+## Sort(int, SortOrder) {#sort_1}
 
 Sorts the datas in the range by index.
 
@@ -48,7 +48,7 @@ public void Sort(int index, SortOrder order)
 
 ---
 
-## SortRange.Sort method (3 of 4)
+## Sort(int[]) {#sort_2}
 
 Sorts the datas ascend in the range by some field that are specifed by array indexes.
 
@@ -68,7 +68,7 @@ public void Sort(int[] indexes)
 
 ---
 
-## SortRange.Sort method (4 of 4)
+## Sort(int[], SortOrder[]) {#sort_3}
 
 Sorts the datas in the range by some field that are specifed by array indexes.
 

@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a  object to this collection with specified type.
 type: docs
 weight: 20
 url: /net/aspose.cells.charts/trendlinecollection/add/
 ---
-## TrendlineCollection.Add method (1 of 2)
+## Add(TrendlineType) {#add}
 
 Adds a  object to this collection with specified type.
 
@@ -31,7 +31,7 @@ public int Add(TrendlineType type)
 
 ---
 
-## TrendlineCollection.Add method (2 of 2)
+## Add(TrendlineType, string) {#add_1}
 
 Adds a  object to this collection with specified type and name.
 

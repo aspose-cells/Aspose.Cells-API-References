@@ -1,7 +1,7 @@
 ---
 title: ShowTotals
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets whether this ListObject show total row.
 type: docs
 weight: 170
 url: /net/aspose.cells.tables/listobject/showtotals/

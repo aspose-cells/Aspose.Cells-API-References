@@ -1,7 +1,7 @@
 ---
 title: IsValidSigned
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the signature of VBA project is valid or not.
 type: docs
 weight: 50
 url: /net/aspose.cells.vba/vbaproject/isvalidsigned/

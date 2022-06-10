@@ -1,7 +1,7 @@
 ---
 title: PrintHeadings
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents if row and column headings are printed with this page.
 type: docs
 weight: 350
 url: /net/aspose.cells/pagesetup/printheadings/

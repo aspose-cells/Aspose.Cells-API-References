@@ -1,7 +1,7 @@
 ---
 title: Image
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies an image for the digital signature. Default value is null.
 type: docs
 weight: 50
 url: /net/aspose.cells.digitalsignatures/digitalsignature/image/

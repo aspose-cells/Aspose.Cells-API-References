@@ -1,7 +1,7 @@
 ---
 title: Shadow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the shape has 3-D shading.
 type: docs
 weight: 60
 url: /net/aspose.cells.drawing/spinner/shadow/

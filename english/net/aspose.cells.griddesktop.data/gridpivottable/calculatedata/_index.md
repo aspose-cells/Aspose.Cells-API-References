@@ -1,7 +1,7 @@
 ---
 title: CalculateData
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Calculates pivottables data to cells.
 type: docs
 weight: 20
 url: /net/aspose.cells.griddesktop.data/gridpivottable/calculatedata/

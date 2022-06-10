@@ -1,9 +1,9 @@
 ---
 title: IconSet
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Describe the IconSet conditional formatting rule. This conditional formatting rule applies icons to cells according to their values.
 type: docs
-weight: 3840
+weight: 3880
 url: /net/aspose.cells/iconset/
 ---
 ## IconSet class

@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets Cell item within the worksheet
 type: docs
 weight: 40
 url: /net/aspose.cells.griddesktop.data/gridcells/item/

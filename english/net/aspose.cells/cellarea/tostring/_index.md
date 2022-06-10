@@ -1,7 +1,7 @@
 ---
 title: ToString
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns a string represents the current Worksheet object.
 type: docs
 weight: 70
 url: /net/aspose.cells/cellarea/tostring/

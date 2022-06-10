@@ -1,7 +1,7 @@
 ---
 title: ShowStyleDialog
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Opens a style dialogto set cells stylefontcolors etc.
 type: docs
 weight: 790
 url: /net/aspose.cells.griddesktop/griddesktop/showstyledialog/

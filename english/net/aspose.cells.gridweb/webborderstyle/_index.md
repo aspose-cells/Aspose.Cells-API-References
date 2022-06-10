@@ -1,9 +1,9 @@
 ---
 title: WebBorderStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the style of web table or cell border.
 type: docs
-weight: 930
+weight: 1160
 url: /net/aspose.cells.gridweb/webborderstyle/
 ---
 ## WebBorderStyle class

@@ -1,9 +1,9 @@
 ---
 title: IsRangeSet
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the searched range is set.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.cells/findoptions/israngeset/
 ---
 ## FindOptions.IsRangeSet property

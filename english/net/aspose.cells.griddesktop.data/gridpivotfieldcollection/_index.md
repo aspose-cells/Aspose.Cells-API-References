@@ -1,7 +1,7 @@
 ---
 title: GridPivotFieldCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates a collection of PivotField objects.
 type: docs
 weight: 600
 url: /net/aspose.cells.griddesktop.data/gridpivotfieldcollection/

@@ -1,7 +1,7 @@
 ---
 title: CalculateFormula
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether formulas should be calculated.
 type: docs
 weight: 20
 url: /net/aspose.cells/workbookdesigner/calculateformula/

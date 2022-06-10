@@ -1,7 +1,7 @@
 ---
 title: GridColumn
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a single column in a worksheet.
 type: docs
 weight: 420
 url: /net/aspose.cells.griddesktop.data/gridcolumn/
@@ -32,10 +32,10 @@ public class GridColumn
 | --- | --- |
 | [AddButton](../../aspose.cells.griddesktop.data/gridcolumn/addbutton)(int, int, string) | Adds a button to the column. |
 | [AddCheckBox](../../aspose.cells.griddesktop.data/gridcolumn/addcheckbox)() | Adds a checkbox to the column. |
-| [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox)(ICollection) | Adds a combobox to the column. |
-| [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox)(ICollection, ICollection) | Adds a combobox to the column. |
-| [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation)(ICustomValidation) |  |
-| [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation)(bool, string) | Adds a validation to the column. |
+| [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox#addcombobox)(ICollection) | Adds a combobox to the column. |
+| [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox#addcombobox_1)(ICollection, ICollection) | Adds a combobox to the column. |
+| [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation#addvalidation)(ICustomValidation) |  |
+| [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation#addvalidation_1)(bool, string) | Adds a validation to the column. |
 | [GetStyle](../../aspose.cells.griddesktop.data/gridcolumn/getstyle)() |  |
 | [RemoveCellControl](../../aspose.cells.griddesktop.data/gridcolumn/removecellcontrol)() | Removes the CellControl object of the column. |
 | [SetStyle](../../aspose.cells.griddesktop.data/gridcolumn/setstyle)(Style) |  |

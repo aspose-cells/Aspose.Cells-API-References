@@ -1,7 +1,7 @@
 ---
 title: ScrollBars
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates specifies whether the control has vertical scroll bars horizontal scroll bars both or neither.
 type: docs
 weight: 100
 url: /net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/scrollbars/

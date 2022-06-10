@@ -1,9 +1,9 @@
 ---
 title: VerifyPassword
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Verifies password.
 type: docs
-weight: 210
+weight: 370
 url: /net/aspose.cells/protection/verifypassword/
 ---
 ## Protection.VerifyPassword method

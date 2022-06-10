@@ -1,7 +1,7 @@
 ---
 title: RowEnumerator
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the rows enumerator
 type: docs
 weight: 150
 url: /net/aspose.cells.gridweb.data/gridcells/rowenumerator/

@@ -1,7 +1,7 @@
 ---
 title: SheetPosition
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the zero based position of the new sheet in the sheet tab bar.
 type: docs
 weight: 30
 url: /net/aspose.cells.revisions/revisioninsertsheet/sheetposition/

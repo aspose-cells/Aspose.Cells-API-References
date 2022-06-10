@@ -1,9 +1,9 @@
 ---
 title: Name
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a defined name for a range of cells.
 type: docs
-weight: 4190
+weight: 4230
 url: /net/aspose.cells/name/
 ---
 ## Name class
@@ -31,14 +31,14 @@ public class Name
 
 | Name | Description |
 | --- | --- |
-| [GetRange](../../aspose.cells/name/getrange)() | Gets the range if this name refers to a range. |
-| [GetRange](../../aspose.cells/name/getrange)(bool) | Gets the range if this name refers to a range |
-| [GetRange](../../aspose.cells/name/getrange)(int, int, int) | Gets the range if this name refers to a range. If the reference of this name is not absolute, the range may be different for different cell. |
-| [GetRanges](../../aspose.cells/name/getranges)() | Gets all ranges referred by this name. |
-| [GetRanges](../../aspose.cells/name/getranges)(bool) | Gets all ranges referred by this name. |
+| [GetRange](../../aspose.cells/name/getrange#getrange)() | Gets the range if this name refers to a range. |
+| [GetRange](../../aspose.cells/name/getrange#getrange_1)(bool) | Gets the range if this name refers to a range |
+| [GetRange](../../aspose.cells/name/getrange#getrange_2)(int, int, int) | Gets the range if this name refers to a range. If the reference of this name is not absolute, the range may be different for different cell. |
+| [GetRanges](../../aspose.cells/name/getranges#getranges)() | Gets all ranges referred by this name. |
+| [GetRanges](../../aspose.cells/name/getranges#getranges_1)(bool) | Gets all ranges referred by this name. |
 | [GetReferredAreas](../../aspose.cells/name/getreferredareas)(bool) | Gets all references referred by this name. |
-| [GetRefersTo](../../aspose.cells/name/getrefersto)(bool, bool) | Get the reference of this Name. |
-| [GetRefersTo](../../aspose.cells/name/getrefersto)(bool, bool, int, int) | Get the reference of this Name based on specified cell. |
+| [GetRefersTo](../../aspose.cells/name/getrefersto#getrefersto)(bool, bool) | Get the reference of this Name. |
+| [GetRefersTo](../../aspose.cells/name/getrefersto#getrefersto_1)(bool, bool, int, int) | Get the reference of this Name based on specified cell. |
 | [SetRefersTo](../../aspose.cells/name/setrefersto)(string, bool, bool) | Set the reference of this Name. |
 | override [ToString](../../aspose.cells/name/tostring)() | Returns a string represents the current Range object. |
 

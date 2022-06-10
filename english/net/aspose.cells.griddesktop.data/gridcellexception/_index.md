@@ -1,7 +1,7 @@
 ---
 title: GridCellException
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a cell operation error.
 type: docs
 weight: 400
 url: /net/aspose.cells.griddesktop.data/gridcellexception/

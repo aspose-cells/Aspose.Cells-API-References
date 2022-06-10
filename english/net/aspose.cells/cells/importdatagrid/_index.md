@@ -1,12 +1,12 @@
 ---
 title: ImportDataGrid
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Imports a DataGrid into a worksheet.
 type: docs
-weight: 980
+weight: 1010
 url: /net/aspose.cells/cells/importdatagrid/
 ---
-## Cells.ImportDataGrid method (1 of 3)
+## ImportDataGrid(DataGrid, int, int, bool) {#importdatagrid}
 
 Imports a DataGrid into a worksheet.
 
@@ -33,7 +33,7 @@ Total number of rows imported
 
 ---
 
-## Cells.ImportDataGrid method (2 of 3)
+## ImportDataGrid(DataGrid, int, int, int, int, bool) {#importdatagrid_1}
 
 Imports a DataGrid into a worksheet.
 
@@ -63,7 +63,7 @@ Total number of rows imported
 
 ---
 
-## Cells.ImportDataGrid method (3 of 3)
+## ImportDataGrid(DataGrid, int, int, int, int, bool, bool) {#importdatagrid_2}
 
 Imports a DataGrid into a worksheet.
 

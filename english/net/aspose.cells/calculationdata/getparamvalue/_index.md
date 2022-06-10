@@ -1,7 +1,7 @@
 ---
 title: GetParamValue
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the represented value object of the parameter at given index.
 type: docs
 weight: 100
 url: /net/aspose.cells/calculationdata/getparamvalue/

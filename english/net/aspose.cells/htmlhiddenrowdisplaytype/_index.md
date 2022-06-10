@@ -1,9 +1,9 @@
 ---
 title: HtmlHiddenRowDisplayType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents two types of showing the hidden rows in html.
 type: docs
-weight: 3700
+weight: 3730
 url: /net/aspose.cells/htmlhiddenrowdisplaytype/
 ---
 ## HtmlHiddenRowDisplayType enumeration

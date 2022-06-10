@@ -1,7 +1,7 @@
 ---
 title: Formula1
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the value or expression associated with the data validation.
 type: docs
 weight: 60
 url: /net/aspose.cells.gridweb.data/gridvalidation/formula1/

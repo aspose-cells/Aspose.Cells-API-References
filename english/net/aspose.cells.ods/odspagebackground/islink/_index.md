@@ -1,7 +1,7 @@
 ---
 title: IsLink
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether its a linked graphic.
 type: docs
 weight: 60
 url: /net/aspose.cells.ods/odspagebackground/islink/

@@ -1,7 +1,7 @@
 ---
 title: ForceValid
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Internal used only.
 type: docs
 weight: 160
 url: /net/aspose.cells.gridweb.design/designparameters/forcevalid/

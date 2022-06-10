@@ -1,9 +1,9 @@
 ---
 title: VerticalPageBreak
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the object that represents a vertical page break.
 type: docs
-weight: 6300
+weight: 6340
 url: /net/aspose.cells/verticalpagebreak/
 ---
 ## VerticalPageBreak class

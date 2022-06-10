@@ -1,9 +1,9 @@
 ---
 title: CheckCompatibility
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether check compatibility with earlier versions when saving workbook.
 type: docs
-weight: 50
+weight: 80
 url: /net/aspose.cells/workbooksettings/checkcompatibility/
 ---
 ## WorkbookSettings.CheckCompatibility property

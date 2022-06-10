@@ -1,12 +1,12 @@
 ---
 title: Insert
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Insert a worksheet.
 type: docs
 weight: 270
 url: /net/aspose.cells/worksheetcollection/insert/
 ---
-## WorksheetCollection.Insert method (1 of 2)
+## Insert(int, SheetType) {#insert}
 
 Insert a worksheet.
 
@@ -33,7 +33,7 @@ Returns an inserted worksheet.
 
 ---
 
-## WorksheetCollection.Insert method (2 of 2)
+## Insert(int, SheetType, string) {#insert_1}
 
 Insert a worksheet.
 

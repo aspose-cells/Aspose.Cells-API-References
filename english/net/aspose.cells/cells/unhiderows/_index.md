@@ -1,9 +1,9 @@
 ---
 title: UnhideRows
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Unhides the hidden rows.
 type: docs
-weight: 1370
+weight: 1430
 url: /net/aspose.cells/cells/unhiderows/
 ---
 ## Cells.UnhideRows method

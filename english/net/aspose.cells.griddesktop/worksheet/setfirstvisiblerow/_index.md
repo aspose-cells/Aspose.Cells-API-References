@@ -1,7 +1,7 @@
 ---
 title: SetFirstVisibleRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Set the first visible row index of sheet view.
 type: docs
 weight: 1030
 url: /net/aspose.cells.griddesktop/worksheet/setfirstvisiblerow/

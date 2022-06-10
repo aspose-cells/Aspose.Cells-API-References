@@ -1,9 +1,9 @@
 ---
 title: ShowLegendKey
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: True if the data label legend key is visible.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.cells.charts/chartdatatable/showlegendkey/
 ---
 ## ChartDataTable.ShowLegendKey property

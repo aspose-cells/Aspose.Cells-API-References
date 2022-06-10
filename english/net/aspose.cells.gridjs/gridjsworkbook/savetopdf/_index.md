@@ -1,12 +1,12 @@
 ---
 title: SaveToPdf
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Saves the worksheets to the file paththe save format is pdf
 type: docs
 weight: 160
 url: /net/aspose.cells.gridjs/gridjsworkbook/savetopdf/
 ---
-## GridJsWorkbook.SaveToPdf method (1 of 2)
+## SaveToPdf(string) {#savetopdf_1}
 
 Saves the worksheets to the file path,the save format is pdf
 
@@ -26,7 +26,7 @@ public void SaveToPdf(string path)
 
 ---
 
-## GridJsWorkbook.SaveToPdf method (2 of 2)
+## SaveToPdf(Stream) {#savetopdf}
 
 Saves the worksheets to the sream,the save format is pdf
 

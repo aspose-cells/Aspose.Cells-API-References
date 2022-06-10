@@ -1,9 +1,9 @@
 ---
 title: LinkToXmlMap
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Link to a xml map.
 type: docs
-weight: 1160
+weight: 1220
 url: /net/aspose.cells/cells/linktoxmlmap/
 ---
 ## Cells.LinkToXmlMap method

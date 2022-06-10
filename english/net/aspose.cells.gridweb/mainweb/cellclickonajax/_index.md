@@ -1,7 +1,7 @@
 ---
 title: CellClickOnAjax
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Occurs when the cell is clickedand need to do ajaxcallback for this event.
 type: docs
 weight: 1140
 url: /net/aspose.cells.gridweb/mainweb/cellclickonajax/

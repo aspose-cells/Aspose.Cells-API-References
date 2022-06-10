@@ -1,9 +1,9 @@
 ---
 title: GetTableRowTypeOfCurrent
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the type name of table rows that consists of the current row in referenced table. Default is This Row so in formula This Row represents the current row in referenced table.
 type: docs
-weight: 260
+weight: 280
 url: /net/aspose.cells/globalizationsettings/gettablerowtypeofcurrent/
 ---
 ## GlobalizationSettings.GetTableRowTypeOfCurrent method

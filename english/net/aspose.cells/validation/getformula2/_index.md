@@ -1,12 +1,12 @@
 ---
 title: GetFormula2
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the value or expression associated with this validation.
 type: docs
 weight: 210
 url: /net/aspose.cells/validation/getformula2/
 ---
-## Validation.GetFormula2 method (1 of 2)
+## GetFormula2(bool, bool) {#getformula2}
 
 Gets the value or expression associated with this validation.
 
@@ -31,7 +31,7 @@ The value or expression associated with this validation.
 
 ---
 
-## Validation.GetFormula2 method (2 of 2)
+## GetFormula2(bool, bool, int, int) {#getformula2_1}
 
 Gets the value or expression associated with this validation for specific cell.
 

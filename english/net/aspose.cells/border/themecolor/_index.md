@@ -1,7 +1,7 @@
 ---
 title: ThemeColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the theme color of the border.
 type: docs
 weight: 40
 url: /net/aspose.cells/border/themecolor/

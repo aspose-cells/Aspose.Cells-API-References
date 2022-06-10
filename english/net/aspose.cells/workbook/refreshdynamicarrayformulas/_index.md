@@ -1,9 +1,9 @@
 ---
 title: RefreshDynamicArrayFormulas
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Refreshes dynamic array formulasspill into new range of neighboring cells according to current data
 type: docs
-weight: 510
+weight: 530
 url: /net/aspose.cells/workbook/refreshdynamicarrayformulas/
 ---
 ## Workbook.RefreshDynamicArrayFormulas method

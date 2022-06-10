@@ -1,7 +1,7 @@
 ---
 title: CellArea
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the CellAreaaspose.cells/protectedrange/cellarea object represents the cell area to be protected.
 type: docs
 weight: 10
 url: /net/aspose.cells/protectedrange/cellarea/

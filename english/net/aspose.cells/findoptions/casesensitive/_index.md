@@ -1,7 +1,7 @@
 ---
 title: CaseSensitive
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates if the searched string is case sensitive.
 type: docs
 weight: 20
 url: /net/aspose.cells/findoptions/casesensitive/

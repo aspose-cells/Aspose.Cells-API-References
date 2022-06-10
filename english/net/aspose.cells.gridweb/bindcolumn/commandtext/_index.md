@@ -1,7 +1,7 @@
 ---
 title: CommandText
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The displaying command text of the column. If set to null the cell will use the field value as the command text.
 type: docs
 weight: 60
 url: /net/aspose.cells.gridweb/bindcolumn/commandtext/

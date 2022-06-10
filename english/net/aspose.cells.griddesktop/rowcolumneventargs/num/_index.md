@@ -1,7 +1,7 @@
 ---
 title: Num
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The row or column number starts from zero.
 type: docs
 weight: 30
 url: /net/aspose.cells.griddesktop/rowcolumneventargs/num/

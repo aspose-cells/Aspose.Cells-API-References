@@ -1,12 +1,12 @@
 ---
 title: ToPrinter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Render workbook to Printer
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.cells.rendering/workbookrender/toprinter/
 ---
-## WorkbookRender.ToPrinter method (1 of 4)
+## ToPrinter(string) {#toprinter_2}
 
 Render workbook to Printer
 
@@ -26,7 +26,7 @@ public void ToPrinter(string printerName)
 
 ---
 
-## WorkbookRender.ToPrinter method (2 of 4)
+## ToPrinter(string, string) {#toprinter_4}
 
 Render workbook to Printer
 
@@ -47,7 +47,7 @@ public void ToPrinter(string printerName, string jobName)
 
 ---
 
-## WorkbookRender.ToPrinter method (3 of 4)
+## ToPrinter(PrinterSettings) {#toprinter}
 
 Render workbook to Printer
 
@@ -67,7 +67,7 @@ public void ToPrinter(PrinterSettings PrinterSettings)
 
 ---
 
-## WorkbookRender.ToPrinter method (4 of 4)
+## ToPrinter(PrinterSettings, string) {#toprinter_1}
 
 Render workbook to Printer
 
@@ -79,6 +79,33 @@ public void ToPrinter(PrinterSettings PrinterSettings, string jobName)
 | --- | --- | --- |
 | PrinterSettings | PrinterSettings | the settings of printer, e.g. PrinterName, Duplex |
 | jobName | String | set the print job name |
+
+### See Also
+
+* class [WorkbookRender](../../workbookrender)
+* namespace [Aspose.Cells.Rendering](../../workbookrender)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## ToPrinter(string, int, int) {#toprinter_3}
+
+Render workbook to Printer
+
+```csharp
+[Obsolete("Use ToPrinter(string PrinterName) and ImageOrPrintOptions.PageIndex, PageCount instead.")]
+public void ToPrinter(string printerName, int printPageIndex, int printPageCount)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| printerName | String | the name of the printer , for example: "Microsoft Office Document Image Writer" |
+| printPageIndex | Int32 | the 0-based index of the first page to print, it must be in Range [0, WorkbookRender.PageCount-1] |
+| printPageCount | Int32 | the number of pages to print, it must be greater than zero |
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use ToPrinter(string PrinterName) and ImageOrPrintOptions.PageIndex, PageCount to set the first page and the number of pages to print. This property will be removed 12 months later since December 2021. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

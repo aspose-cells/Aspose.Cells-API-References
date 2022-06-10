@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Determines whether this instance has the same value as another specified ShapeTextAlignmentaspose.cells.drawing.texts/shapetextalignment object.
 type: docs
 weight: 140
 url: /net/aspose.cells.drawing.texts/shapetextalignment/equals/

@@ -1,7 +1,7 @@
 ---
 title: Title
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the axis title.
 type: docs
 weight: 380
 url: /net/aspose.cells.charts/axis/title/

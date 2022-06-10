@@ -1,9 +1,9 @@
 ---
 title: TopCM
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the vertical offset of shape from its top row in unit of centimeters.
 type: docs
-weight: 770
+weight: 830
 url: /net/aspose.cells.drawing/shape/topcm/
 ---
 ## Shape.TopCM property

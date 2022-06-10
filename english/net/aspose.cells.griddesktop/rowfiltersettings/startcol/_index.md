@@ -1,7 +1,7 @@
 ---
 title: StartCol
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The start col number of the filter range.
 type: docs
 weight: 50
 url: /net/aspose.cells.griddesktop/rowfiltersettings/startcol/

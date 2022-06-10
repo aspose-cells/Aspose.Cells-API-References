@@ -1,7 +1,7 @@
 ---
 title: PageIndexChanged
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Occurs when the controls sheet page index changed.
 type: docs
 weight: 1260
 url: /net/aspose.cells.gridweb/mainweb/pageindexchanged/

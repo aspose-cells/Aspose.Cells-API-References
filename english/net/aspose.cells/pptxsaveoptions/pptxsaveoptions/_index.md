@@ -1,12 +1,12 @@
 ---
 title: PptxSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the pptx save options.
 type: docs
 weight: 10
 url: /net/aspose.cells/pptxsaveoptions/pptxsaveoptions/
 ---
-## PptxSaveOptions constructor (1 of 2)
+## PptxSaveOptions() {#constructor}
 
 Represents the pptx save options.
 
@@ -22,7 +22,7 @@ public PptxSaveOptions()
 
 ---
 
-## PptxSaveOptions constructor (2 of 2)
+## PptxSaveOptions(bool) {#constructor_1}
 
 Represents options of saving .pptx file.
 

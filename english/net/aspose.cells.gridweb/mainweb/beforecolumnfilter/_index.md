@@ -1,7 +1,7 @@
 ---
 title: BeforeColumnFilter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Occurs before the column to be filtered.
 type: docs
 weight: 1130
 url: /net/aspose.cells.gridweb/mainweb/beforecolumnfilter/

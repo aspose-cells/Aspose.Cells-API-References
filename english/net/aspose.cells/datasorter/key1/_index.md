@@ -1,7 +1,7 @@
 ---
 title: Key1
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents first sorted column indexabsolute position column A is 0 B is 1 ....
 type: docs
 weight: 30
 url: /net/aspose.cells/datasorter/key1/

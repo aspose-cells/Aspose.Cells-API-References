@@ -1,9 +1,9 @@
 ---
 title: ControlMatchEntryType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents how a ListBox or ComboBox searches its list as the user types.
 type: docs
-weight: 1530
+weight: 1550
 url: /net/aspose.cells.drawing.activexcontrols/controlmatchentrytype/
 ---
 ## ControlMatchEntryType enumeration

@@ -1,7 +1,7 @@
 ---
 title: X
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or gets the horizontal offset from its upper left corner column.
 type: docs
 weight: 40
 url: /net/aspose.cells.charts/chartarea/x/

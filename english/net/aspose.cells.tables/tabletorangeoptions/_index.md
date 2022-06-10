@@ -1,9 +1,9 @@
 ---
 title: TableToRangeOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the options when converting table to range.
 type: docs
-weight: 5900
+weight: 5940
 url: /net/aspose.cells.tables/tabletorangeoptions/
 ---
 ## TableToRangeOptions class

@@ -1,7 +1,7 @@
 ---
 title: ShowLegend
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the chart legend will be displayed. Default is true.
 type: docs
 weight: 400
 url: /net/aspose.cells.charts/chart/showlegend/

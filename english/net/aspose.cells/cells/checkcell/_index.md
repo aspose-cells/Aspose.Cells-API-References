@@ -1,7 +1,7 @@
 ---
 title: CheckCell
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the Cellaspose.cells/cell element or null at the specified cell row index and column index.
 type: docs
 weight: 360
 url: /net/aspose.cells/cells/checkcell/

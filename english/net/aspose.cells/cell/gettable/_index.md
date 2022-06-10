@@ -1,9 +1,9 @@
 ---
 title: GetTable
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the table which contains this cell.
 type: docs
-weight: 500
+weight: 550
 url: /net/aspose.cells/cell/gettable/
 ---
 ## Cell.GetTable method

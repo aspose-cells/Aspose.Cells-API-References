@@ -1,7 +1,7 @@
 ---
 title: IsBiLevel
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether this picture should be displayed in two-color black and white.
 type: docs
 weight: 50
 url: /net/aspose.cells.drawing/msoformatpicture/isbilevel/

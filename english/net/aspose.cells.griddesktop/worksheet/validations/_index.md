@@ -1,7 +1,7 @@
 ---
 title: Validations
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the data validation setting collection in the worksheet.
 type: docs
 weight: 390
 url: /net/aspose.cells.griddesktop/worksheet/validations/

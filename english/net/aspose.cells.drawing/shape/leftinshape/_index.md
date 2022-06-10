@@ -1,9 +1,9 @@
 ---
 title: LeftInShape
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the horizontal offset of shape from the left border of the parent shape in unit of 1/4000 of width of the parent shape.
 type: docs
-weight: 420
+weight: 460
 url: /net/aspose.cells.drawing/shape/leftinshape/
 ---
 ## Shape.LeftInShape property

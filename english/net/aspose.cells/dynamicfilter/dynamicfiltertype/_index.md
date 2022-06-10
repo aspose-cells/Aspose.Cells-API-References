@@ -1,7 +1,7 @@
 ---
 title: DynamicFilterType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the dynamic filter type.
 type: docs
 weight: 10
 url: /net/aspose.cells/dynamicfilter/dynamicfiltertype/

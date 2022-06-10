@@ -1,9 +1,9 @@
 ---
 title: Walls
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the object that represents the walls of a 3-D chart.
 type: docs
-weight: 1000
+weight: 1020
 url: /net/aspose.cells.charts/walls/
 ---
 ## Walls class

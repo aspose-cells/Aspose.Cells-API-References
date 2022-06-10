@@ -1,7 +1,7 @@
 ---
 title: GridPivotTableCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates a collection of PivotTable objects.
 type: docs
 weight: 660
 url: /net/aspose.cells.griddesktop.data/gridpivottablecollection/
@@ -25,10 +25,10 @@ public class GridPivotTableCollection
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.griddesktop.data/gridpivottablecollection/add)(string, string, string) | Adds a new PivotTable cache to a PivotCaches collection. |
-| [Add](../../aspose.cells.griddesktop.data/gridpivottablecollection/add)(string, GridCellArea, string, string) | Adds a new PivotTable cache to a PivotCaches collection. |
-| [Add](../../aspose.cells.griddesktop.data/gridpivottablecollection/add)(Worksheet, GridCellArea, string, string) | Adds a new PivotTable cache to a PivotCaches collection. |
-| [Add](../../aspose.cells.griddesktop.data/gridpivottablecollection/add)(string, GridCellArea, int, int, string) | Adds a new PivotTable cache to a PivotCaches collection. |
+| [Add](../../aspose.cells.griddesktop.data/gridpivottablecollection/add#add_3)(string, string, string) | Adds a new PivotTable cache to a PivotCaches collection. |
+| [Add](../../aspose.cells.griddesktop.data/gridpivottablecollection/add#add_2)(string, GridCellArea, string, string) | Adds a new PivotTable cache to a PivotCaches collection. |
+| [Add](../../aspose.cells.griddesktop.data/gridpivottablecollection/add#add)(Worksheet, GridCellArea, string, string) | Adds a new PivotTable cache to a PivotCaches collection. |
+| [Add](../../aspose.cells.griddesktop.data/gridpivottablecollection/add#add_1)(string, GridCellArea, int, int, string) | Adds a new PivotTable cache to a PivotCaches collection. |
 | [Clear](../../aspose.cells.griddesktop.data/gridpivottablecollection/clear)() | Clears all PivotTables. |
 | [RemoveAt](../../aspose.cells.griddesktop.data/gridpivottablecollection/removeat)(int) | Remove the PivotTable at the specified index. |
 

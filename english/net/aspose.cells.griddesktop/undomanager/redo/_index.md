@@ -1,7 +1,7 @@
 ---
 title: Redo
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Performs a redo operation.
 type: docs
 weight: 100
 url: /net/aspose.cells.griddesktop/undomanager/redo/

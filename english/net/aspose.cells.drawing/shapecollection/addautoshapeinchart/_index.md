@@ -1,7 +1,7 @@
 ---
 title: AddAutoShapeInChart
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a AutoShape to the chart.
 type: docs
 weight: 50
 url: /net/aspose.cells.drawing/shapecollection/addautoshapeinchart/

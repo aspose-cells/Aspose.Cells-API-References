@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the width of column object.in unit of pixel
 type: docs
 weight: 70
 url: /net/aspose.cells.griddesktop.data/gridcolumn/width/

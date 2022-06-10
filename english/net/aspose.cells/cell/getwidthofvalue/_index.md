@@ -1,9 +1,9 @@
 ---
 title: GetWidthOfValue
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the width of the value in unit of pixels.
 type: docs
-weight: 530
+weight: 580
 url: /net/aspose.cells/cell/getwidthofvalue/
 ---
 ## Cell.GetWidthOfValue method

@@ -1,12 +1,12 @@
 ---
 title: PutValue
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Puts a boolean value into the cell.
 type: docs
-weight: 550
+weight: 600
 url: /net/aspose.cells/cell/putvalue/
 ---
-## Cell.PutValue method (1 of 8)
+## PutValue(bool) {#putvalue}
 
 Puts a boolean value into the cell.
 
@@ -26,7 +26,7 @@ public void PutValue(bool boolValue)
 
 ---
 
-## Cell.PutValue method (2 of 8)
+## PutValue(int) {#putvalue_2}
 
 Puts an integer value into the cell.
 
@@ -46,7 +46,7 @@ public void PutValue(int intValue)
 
 ---
 
-## Cell.PutValue method (3 of 8)
+## PutValue(double) {#putvalue_1}
 
 Puts a double value into the cell.
 
@@ -66,7 +66,7 @@ public void PutValue(double doubleValue)
 
 ---
 
-## Cell.PutValue method (4 of 8)
+## PutValue(string, bool, bool) {#putvalue_7}
 
 Puts a value into the cell, if appropriate the value will be converted to other data type and cell's number format will be reset.
 
@@ -88,7 +88,7 @@ public void PutValue(string stringValue, bool isConverted, bool setStyle)
 
 ---
 
-## Cell.PutValue method (5 of 8)
+## PutValue(string, bool) {#putvalue_6}
 
 Puts a string value into the cell and converts the value to other data type if appropriate.
 
@@ -109,7 +109,7 @@ public void PutValue(string stringValue, bool isConverted)
 
 ---
 
-## Cell.PutValue method (6 of 8)
+## PutValue(string) {#putvalue_5}
 
 Puts a string value into the cell.
 
@@ -129,7 +129,7 @@ public void PutValue(string stringValue)
 
 ---
 
-## Cell.PutValue method (7 of 8)
+## PutValue(DateTime) {#putvalue_3}
 
 Puts a DateTime value into the cell.
 
@@ -149,7 +149,7 @@ public void PutValue(DateTime dateTime)
 
 ---
 
-## Cell.PutValue method (8 of 8)
+## PutValue(object) {#putvalue_4}
 
 Puts an object value into the cell.
 

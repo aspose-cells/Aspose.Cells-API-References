@@ -1,7 +1,7 @@
 ---
 title: IsHidden
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether scenario is hidden.
 type: docs
 weight: 30
 url: /net/aspose.cells/scenario/ishidden/

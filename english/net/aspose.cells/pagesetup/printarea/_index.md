@@ -1,7 +1,7 @@
 ---
 title: PrintArea
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the range to be printed.
 type: docs
 weight: 280
 url: /net/aspose.cells/pagesetup/printarea/

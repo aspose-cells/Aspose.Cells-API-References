@@ -1,7 +1,7 @@
 ---
 title: HasTextQualifier
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Whether there is text qualifier for cell value. Default is true.
 type: docs
 weight: 40
 url: /net/aspose.cells/txtloadoptions/hastextqualifier/

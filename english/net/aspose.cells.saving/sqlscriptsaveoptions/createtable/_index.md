@@ -1,7 +1,7 @@
 ---
 title: CreateTable
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether exporting sql of creating table.
 type: docs
 weight: 60
 url: /net/aspose.cells.saving/sqlscriptsaveoptions/createtable/

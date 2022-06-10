@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or set the count of axis bins
 type: docs
 weight: 20
 url: /net/aspose.cells.charts/axisbins/count/

@@ -1,7 +1,7 @@
 ---
 title: AddButton
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a Button to the worksheet.
 type: docs
 weight: 60
 url: /net/aspose.cells.drawing/shapecollection/addbutton/

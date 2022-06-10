@@ -1,7 +1,7 @@
 ---
 title: SpaceBefore
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the amount of vertical white space that will be present before a paragraph.
 type: docs
 weight: 160
 url: /net/aspose.cells.drawing.texts/textparagraph/spacebefore/

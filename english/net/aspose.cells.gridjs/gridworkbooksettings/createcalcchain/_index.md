@@ -1,7 +1,7 @@
 ---
 title: CreateCalcChain
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether create calculated formulas chain. Default is false.
 type: docs
 weight: 40
 url: /net/aspose.cells.gridjs/gridworkbooksettings/createcalcchain/

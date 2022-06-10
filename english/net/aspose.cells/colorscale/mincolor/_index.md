@@ -1,7 +1,7 @@
 ---
 title: MinColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get or set the min value objects corresponding color.
 type: docs
 weight: 70
 url: /net/aspose.cells/colorscale/mincolor/

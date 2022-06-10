@@ -1,7 +1,7 @@
 ---
 title: CreateAutoGenratedColumns
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: After setting a datasource for the worksheet call this method to generate the bind columns automatically.
 type: docs
 weight: 470
 url: /net/aspose.cells.gridweb.data/gridworksheet/createautogenratedcolumns/

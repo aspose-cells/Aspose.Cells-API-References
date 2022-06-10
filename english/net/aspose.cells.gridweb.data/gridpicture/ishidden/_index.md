@@ -1,7 +1,7 @@
 ---
 title: IsHidden
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the object is visible.
 type: docs
 weight: 180
 url: /net/aspose.cells.gridweb.data/gridpicture/ishidden/

@@ -1,7 +1,7 @@
 ---
 title: Ungroup
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Ungroups the shape items.
 type: docs
 weight: 440
 url: /net/aspose.cells.drawing/shapecollection/ungroup/

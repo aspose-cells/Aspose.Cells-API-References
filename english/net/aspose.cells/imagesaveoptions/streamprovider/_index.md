@@ -1,7 +1,7 @@
 ---
 title: StreamProvider
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the IStreamProvider for exporting objects.
 type: docs
 weight: 30
 url: /net/aspose.cells/imagesaveoptions/streamprovider/

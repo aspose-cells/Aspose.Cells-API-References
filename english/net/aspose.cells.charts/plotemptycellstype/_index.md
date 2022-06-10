@@ -1,9 +1,9 @@
 ---
 title: PlotEmptyCellsType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents all plot empty cells type of a chart.
 type: docs
-weight: 790
+weight: 810
 url: /net/aspose.cells.charts/plotemptycellstype/
 ---
 ## PlotEmptyCellsType enumeration

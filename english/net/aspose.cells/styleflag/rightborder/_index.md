@@ -1,7 +1,7 @@
 ---
 title: RightBorder
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Right border settings will be applied.
 type: docs
 weight: 250
 url: /net/aspose.cells/styleflag/rightborder/

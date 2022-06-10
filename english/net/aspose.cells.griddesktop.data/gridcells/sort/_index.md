@@ -1,12 +1,12 @@
 ---
 title: Sort
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sorts the datas ascend/decend top to bottom in a range of a Worksheet by specified column index. Sorts the datas ascend/decend left to right in a range of a Worksheet by specified row index.
 type: docs
 weight: 690
 url: /net/aspose.cells.griddesktop.data/gridcells/sort/
 ---
-## GridCells.Sort method (1 of 2)
+## Sort(int, int, int, int, int, bool, bool, bool) {#sort}
 
 Sorts the datas ascend/decend top to bottom in a range of a Worksheet by specified column index. Sorts the datas ascend/decend left to right in a range of a Worksheet by specified row index.
 
@@ -48,7 +48,7 @@ public void Sort(int startRow, int startColumn, int rows, int columns, int index
 
 ---
 
-## GridCells.Sort method (2 of 2)
+## Sort(int, int, int, int, int[], SortOrder[], SortOrientation, bool) {#sort_1}
 
 ```csharp
 public void Sort(int startRow, int startColumn, int rows, int columns, int[] indexes, 

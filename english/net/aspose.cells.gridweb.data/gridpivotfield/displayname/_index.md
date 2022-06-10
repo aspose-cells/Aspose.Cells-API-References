@@ -1,7 +1,7 @@
 ---
 title: DisplayName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the PivotField display name.
 type: docs
 weight: 10
 url: /net/aspose.cells.gridweb.data/gridpivotfield/displayname/

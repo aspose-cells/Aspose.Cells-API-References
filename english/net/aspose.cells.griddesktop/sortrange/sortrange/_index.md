@@ -1,7 +1,7 @@
 ---
 title: SortRange
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Intializes a new instance of the SortRangeaspose.cells.griddesktop/sortrange class by specifing a worksheet range and sort orientation.
 type: docs
 weight: 10
 url: /net/aspose.cells.griddesktop/sortrange/sortrange/

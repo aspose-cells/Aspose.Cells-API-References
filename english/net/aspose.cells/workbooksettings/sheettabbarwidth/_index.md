@@ -1,9 +1,9 @@
 ---
 title: SheetTabBarWidth
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Width of worksheet tab bar in 1/1000 of window width.
 type: docs
-weight: 420
+weight: 540
 url: /net/aspose.cells/workbooksettings/sheettabbarwidth/
 ---
 ## WorkbookSettings.SheetTabBarWidth property

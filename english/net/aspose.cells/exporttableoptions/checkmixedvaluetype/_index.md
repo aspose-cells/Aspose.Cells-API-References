@@ -1,7 +1,7 @@
 ---
 title: CheckMixedValueType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: False Aspose.Cells will set the DataColumns type by the value type of the first row for performance. True Aspose.Cells will check whether the value type in the column are mixed before set the DataColumns type And the value type are mixed the DataColumns type will be string.
 type: docs
 weight: 20
 url: /net/aspose.cells/exporttableoptions/checkmixedvaluetype/

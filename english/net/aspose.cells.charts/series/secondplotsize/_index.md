@@ -1,9 +1,9 @@
 ---
 title: SecondPlotSize
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns or sets the size of the secondary section of either a pie of pie chart or a bar of pie chart as a percentage of the size of the primary pie. Can be a value from 5 to 200.
 type: docs
-weight: 340
+weight: 350
 url: /net/aspose.cells.charts/series/secondplotsize/
 ---
 ## Series.SecondPlotSize property

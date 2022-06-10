@@ -1,12 +1,12 @@
 ---
 title: ClearFormats
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Clears formatting of a range.
 type: docs
 weight: 250
 url: /net/aspose.cells.griddesktop.data/gridcells/clearformats/
 ---
-## GridCells.ClearFormats method (1 of 2)
+## ClearFormats(int, int, int, int) {#clearformats_1}
 
 Clears formatting of a range.
 
@@ -29,7 +29,7 @@ public void ClearFormats(int startRow, int startColumn, int endRow, int endColum
 
 ---
 
-## GridCells.ClearFormats method (2 of 2)
+## ClearFormats(GridCellArea) {#clearformats}
 
 Clears formatting of a range.
 

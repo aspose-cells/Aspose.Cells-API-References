@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and set a custom property name.
 type: docs
 weight: 10
 url: /net/aspose.cells.webextensions/webextensionproperty/name/

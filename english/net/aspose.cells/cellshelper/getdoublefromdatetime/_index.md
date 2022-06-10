@@ -1,9 +1,9 @@
 ---
 title: GetDoubleFromDateTime
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Convert the date time to double value.
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.cells/cellshelper/getdoublefromdatetime/
 ---
 ## CellsHelper.GetDoubleFromDateTime method

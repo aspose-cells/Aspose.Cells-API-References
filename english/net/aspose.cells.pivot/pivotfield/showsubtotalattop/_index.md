@@ -1,7 +1,7 @@
 ---
 title: ShowSubtotalAtTop
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: when ShowInOutlineForm is true then display subtotals at the top of the list of items instead of at the bottom
 type: docs
 weight: 400
 url: /net/aspose.cells.pivot/pivotfield/showsubtotalattop/

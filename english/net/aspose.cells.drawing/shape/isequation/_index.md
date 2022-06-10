@@ -1,9 +1,9 @@
 ---
 title: IsEquation
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the shape only contains an equation.
 type: docs
-weight: 250
+weight: 290
 url: /net/aspose.cells.drawing/shape/isequation/
 ---
 ## Shape.IsEquation property

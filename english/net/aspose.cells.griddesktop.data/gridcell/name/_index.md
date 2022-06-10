@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the name of the cell. For example A1 F102.
 type: docs
 weight: 120
 url: /net/aspose.cells.griddesktop.data/gridcell/name/

@@ -1,7 +1,7 @@
 ---
 title: MinCfvo
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get or set this DataBars min value object. Cannot set null or CFValueObject with type FormatConditionValueType.Max to it.
 type: docs
 weight: 90
 url: /net/aspose.cells/databar/mincfvo/

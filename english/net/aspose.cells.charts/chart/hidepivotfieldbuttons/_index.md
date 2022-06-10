@@ -1,14 +1,14 @@
 ---
 title: HidePivotFieldButtons
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether hide the pivot chart field buttons only when the chart is PivotChart.
 type: docs
 weight: 160
 url: /net/aspose.cells.charts/chart/hidepivotfieldbuttons/
 ---
 ## Chart.HidePivotFieldButtons property
 
-Indicates whether hide the pivot chart field buttons only when the chart is PivotChart
+Indicates whether hide the pivot chart field buttons only when the chart is PivotChart.
 
 ```csharp
 public bool HidePivotFieldButtons { get; set; }

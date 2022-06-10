@@ -1,7 +1,7 @@
 ---
 title: EnablePaging
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Internal used only.
 type: docs
 weight: 130
 url: /net/aspose.cells.gridweb.design/designparameters/enablepaging/

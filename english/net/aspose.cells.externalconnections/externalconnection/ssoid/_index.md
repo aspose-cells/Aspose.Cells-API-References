@@ -1,9 +1,9 @@
 ---
 title: SSOId
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Identifier for Single Sign On SSO used for authentication between an intermediate spreadsheetML server and the external data source.
 type: docs
-weight: 200
+weight: 220
 url: /net/aspose.cells.externalconnections/externalconnection/ssoid/
 ---
 ## ExternalConnection.SSOId property

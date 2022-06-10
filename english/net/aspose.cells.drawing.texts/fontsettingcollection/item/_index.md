@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the FontSettingaspose.cells/fontsetting by the index.
 type: docs
 weight: 20
 url: /net/aspose.cells.drawing.texts/fontsettingcollection/item/

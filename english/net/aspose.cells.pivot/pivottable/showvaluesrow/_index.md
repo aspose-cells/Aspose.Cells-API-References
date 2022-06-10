@@ -1,7 +1,7 @@
 ---
 title: ShowValuesRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies a boolean value that indicates whether show values row. show the values row
 type: docs
 weight: 690
 url: /net/aspose.cells.pivot/pivottable/showvaluesrow/

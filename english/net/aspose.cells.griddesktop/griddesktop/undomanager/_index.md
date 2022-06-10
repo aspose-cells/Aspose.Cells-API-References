@@ -1,7 +1,7 @@
 ---
 title: UndoManager
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the UndoManager instance.
 type: docs
 weight: 290
 url: /net/aspose.cells.griddesktop/griddesktop/undomanager/

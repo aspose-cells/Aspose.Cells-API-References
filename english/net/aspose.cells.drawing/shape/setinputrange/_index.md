@@ -1,9 +1,9 @@
 ---
 title: SetInputRange
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the range used to fill the control.
 type: docs
-weight: 1110
+weight: 1170
 url: /net/aspose.cells.drawing/shape/setinputrange/
 ---
 ## Shape.SetInputRange method

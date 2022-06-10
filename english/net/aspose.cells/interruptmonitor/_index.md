@@ -1,9 +1,9 @@
 ---
 title: InterruptMonitor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents all operator about the interrupt.
 type: docs
-weight: 3900
+weight: 3940
 url: /net/aspose.cells/interruptmonitor/
 ---
 ## InterruptMonitor class

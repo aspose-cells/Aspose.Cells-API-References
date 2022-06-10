@@ -1,7 +1,7 @@
 ---
 title: IsOldComment
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether its an old comment.
 type: docs
 weight: 40
 url: /net/aspose.cells.revisions/revisioncellcomment/isoldcomment/

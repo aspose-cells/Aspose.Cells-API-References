@@ -1,7 +1,7 @@
 ---
 title: CodeName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets worksheet code name.
 type: docs
 weight: 90
 url: /net/aspose.cells/worksheet/codename/

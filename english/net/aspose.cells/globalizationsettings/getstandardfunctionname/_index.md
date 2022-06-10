@@ -1,9 +1,9 @@
 ---
 title: GetStandardFunctionName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the standard function name according to given locale dependent function name.
 type: docs
-weight: 220
+weight: 240
 url: /net/aspose.cells/globalizationsettings/getstandardfunctionname/
 ---
 ## GlobalizationSettings.GetStandardFunctionName method

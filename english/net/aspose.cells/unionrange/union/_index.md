@@ -1,12 +1,12 @@
 ---
 title: Union
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Union another range.
 type: docs
 weight: 210
 url: /net/aspose.cells/unionrange/union/
 ---
-## UnionRange.Union method (1 of 3)
+## Union(string) {#union_2}
 
 Union another range.
 
@@ -26,7 +26,7 @@ public UnionRange Union(string range)
 
 ---
 
-## UnionRange.Union method (2 of 3)
+## Union(UnionRange) {#union_1}
 
 Union another range.
 
@@ -46,7 +46,7 @@ public UnionRange Union(UnionRange unionRange)
 
 ---
 
-## UnionRange.Union method (3 of 3)
+## Union(Range[]) {#union}
 
 Union the ranges.
 

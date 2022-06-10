@@ -1,7 +1,7 @@
 ---
 title: MenuItemAvailable_ClearContents
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the context menu item ClearContents is available.
 type: docs
 weight: 40
 url: /net/aspose.cells.griddesktop/contextmenumanager/menuitemavailable_clearcontents/

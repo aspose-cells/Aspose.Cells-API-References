@@ -1,7 +1,7 @@
 ---
 title: ClearData
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Clear PivotTables data and formatting
 type: docs
 weight: 790
 url: /net/aspose.cells.pivot/pivottable/cleardata/

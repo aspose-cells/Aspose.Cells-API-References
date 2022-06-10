@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a tab stop.
 type: docs
 weight: 30
 url: /net/aspose.cells.drawing.texts/texttabstopcollection/add/

@@ -1,9 +1,9 @@
 ---
 title: PivotConditionFormatScopeType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents PivotTable condition formatting scope type.
 type: docs
-weight: 4510
+weight: 4550
 url: /net/aspose.cells.pivot/pivotconditionformatscopetype/
 ---
 ## PivotConditionFormatScopeType enumeration

@@ -1,7 +1,7 @@
 ---
 title: Range
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the range of this list column.
 type: docs
 weight: 30
 url: /net/aspose.cells.tables/listcolumn/range/

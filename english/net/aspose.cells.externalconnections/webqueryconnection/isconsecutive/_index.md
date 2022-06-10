@@ -1,9 +1,9 @@
 ---
 title: IsConsecutive
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Flag indicating whether consecutive delimiters should be treated as just one delimiter.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.cells.externalconnections/webqueryconnection/isconsecutive/
 ---
 ## WebQueryConnection.IsConsecutive property

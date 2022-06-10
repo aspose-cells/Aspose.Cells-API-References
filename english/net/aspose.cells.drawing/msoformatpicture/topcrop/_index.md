@@ -1,7 +1,7 @@
 ---
 title: TopCrop
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the location of the top of the crop rectangle expressed expressed as a ratio of the images height.
 type: docs
 weight: 90
 url: /net/aspose.cells.drawing/msoformatpicture/topcrop/

@@ -1,9 +1,9 @@
 ---
 title: SetCustom
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the Custom number format string of a cell.
 type: docs
-weight: 370
+weight: 380
 url: /net/aspose.cells/style/setcustom/
 ---
 ## Style.SetCustom method

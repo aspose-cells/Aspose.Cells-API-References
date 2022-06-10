@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the type of external link.
 type: docs
 weight: 50
 url: /net/aspose.cells/externallink/type/

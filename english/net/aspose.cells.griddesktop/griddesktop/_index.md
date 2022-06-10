@@ -1,7 +1,7 @@
 ---
 title: GridDesktop
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Aspose GridDesktop class Represents a root object to create an GridDesktop control. To use this control simply drag it from your toolbox to a form or usercontrol.
 type: docs
 weight: 840
 url: /net/aspose.cells.griddesktop/griddesktop/
@@ -63,20 +63,20 @@ public class GridDesktop : UserControl
 | [Cut](../../aspose.cells.griddesktop/griddesktop/cut)() | Cuts focused cell content to clipboard. |
 | [DoSplit](../../aspose.cells.griddesktop/griddesktop/dosplit)() | Sets Split view. |
 | [EndFormatPainter](../../aspose.cells.griddesktop/griddesktop/endformatpainter)() | Notifies GridDesktop to end FormatPainter. |
-| [ExportExcelFile](../../aspose.cells.griddesktop/griddesktop/exportexcelfile)(Stream) | Exports to a excel file stream, including disk IO stream or memory stream. |
-| [ExportExcelFile](../../aspose.cells.griddesktop/griddesktop/exportexcelfile)(string) | Exports to an excel file. |
-| [ExportExcelFile](../../aspose.cells.griddesktop/griddesktop/exportexcelfile)(Stream, FileFormatType) | Exports to a excel file stream, including disk IO stream or memory stream. |
-| [ExportExcelFile](../../aspose.cells.griddesktop/griddesktop/exportexcelfile)(string, FileFormatType) | Exports to a excel file. |
+| [ExportExcelFile](../../aspose.cells.griddesktop/griddesktop/exportexcelfile#exportexcelfile)(Stream) | Exports to a excel file stream, including disk IO stream or memory stream. |
+| [ExportExcelFile](../../aspose.cells.griddesktop/griddesktop/exportexcelfile#exportexcelfile_2)(string) | Exports to an excel file. |
+| [ExportExcelFile](../../aspose.cells.griddesktop/griddesktop/exportexcelfile#exportexcelfile_1)(Stream, FileFormatType) | Exports to a excel file stream, including disk IO stream or memory stream. |
+| [ExportExcelFile](../../aspose.cells.griddesktop/griddesktop/exportexcelfile#exportexcelfile_3)(string, FileFormatType) | Exports to a excel file. |
 | [GetActiveWorksheet](../../aspose.cells.griddesktop/griddesktop/getactiveworksheet)() | Gets current active worksheet. |
 | [getHScrollBar](../../aspose.cells.griddesktop/griddesktop/gethscrollbar)() | return horizontal scroll bar |
 | [getVScrollBar](../../aspose.cells.griddesktop/griddesktop/getvscrollbar)() | return vertical scroll bar |
-| [ImportExcelFile](../../aspose.cells.griddesktop/griddesktop/importexcelfile)(Stream) | Imports from an excel file stream, including disk file stream or memory stream. |
-| [ImportExcelFile](../../aspose.cells.griddesktop/griddesktop/importexcelfile)(string) | Imports from an excel file. |
-| [ImportExcelFile](../../aspose.cells.griddesktop/griddesktop/importexcelfile)(Stream, bool) | Imports from an excel file stream, including disk file stream or memory stream. |
-| [ImportExcelFile](../../aspose.cells.griddesktop/griddesktop/importexcelfile)(string, bool) | Imports from an excel file. |
-| [ImportExcelFile](../../aspose.cells.griddesktop/griddesktop/importexcelfile)(string, int) | Imports a worksheet from an excel file. |
-| [ImportExcelFile](../../aspose.cells.griddesktop/griddesktop/importexcelfile)(Stream, string, string, bool, bool) | Imports from an excel file. |
-| [ImportExcelFile](../../aspose.cells.griddesktop/griddesktop/importexcelfile)(string, string, string, bool, bool) | Imports from an excel file. |
+| [ImportExcelFile](../../aspose.cells.griddesktop/griddesktop/importexcelfile#importexcelfile)(Stream) | Imports from an excel file stream, including disk file stream or memory stream. |
+| [ImportExcelFile](../../aspose.cells.griddesktop/griddesktop/importexcelfile#importexcelfile_3)(string) | Imports from an excel file. |
+| [ImportExcelFile](../../aspose.cells.griddesktop/griddesktop/importexcelfile#importexcelfile_1)(Stream, bool) | Imports from an excel file stream, including disk file stream or memory stream. |
+| [ImportExcelFile](../../aspose.cells.griddesktop/griddesktop/importexcelfile#importexcelfile_4)(string, bool) | Imports from an excel file. |
+| [ImportExcelFile](../../aspose.cells.griddesktop/griddesktop/importexcelfile#importexcelfile_5)(string, int) | Imports a worksheet from an excel file. |
+| [ImportExcelFile](../../aspose.cells.griddesktop/griddesktop/importexcelfile#importexcelfile_2)(Stream, string, string, bool, bool) | Imports from an excel file. |
+| [ImportExcelFile](../../aspose.cells.griddesktop/griddesktop/importexcelfile#importexcelfile_6)(string, string, string, bool, bool) | Imports from an excel file. |
 | [OpenFindReplaceDialog](../../aspose.cells.griddesktop/griddesktop/openfindreplacedialog)(bool) | Opens the FindReplace dialog to find or replace cells. |
 | [Paste](../../aspose.cells.griddesktop/griddesktop/paste)() | Pastes clipboard content to focused cell. |
 | [RefreshControl](../../aspose.cells.griddesktop/griddesktop/refreshcontrol)() | Refresh the GridDesktop control. |

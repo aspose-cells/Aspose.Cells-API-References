@@ -1,7 +1,7 @@
 ---
 title: ID
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets /Sets the ID of the picture.
 type: docs
 weight: 140
 url: /net/aspose.cells.gridweb.data/gridpicture/id/

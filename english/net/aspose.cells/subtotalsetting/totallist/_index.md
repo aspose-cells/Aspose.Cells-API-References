@@ -1,7 +1,7 @@
 ---
 title: TotalList
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: An array of zero-based field offsets indicating the fields to which the subtotals are added.
 type: docs
 weight: 40
 url: /net/aspose.cells/subtotalsetting/totallist/

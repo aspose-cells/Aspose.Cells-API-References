@@ -1,7 +1,7 @@
 ---
 title: CustomCommandEventHandler
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the interface that intend to handle Custom Command events.
 type: docs
 weight: 350
 url: /net/aspose.cells.griddesktop.data/customcommandeventhandler/

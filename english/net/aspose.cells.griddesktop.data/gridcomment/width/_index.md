@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get or set the width of the comment. Default value is 140. The input value should between 20 and 1000. It will be set to 20 if a value less than 20 is inputted. It will be set to 1000 if a value greater than 1000 is inputed.
 type: docs
 weight: 130
 url: /net/aspose.cells.griddesktop.data/gridcomment/width/

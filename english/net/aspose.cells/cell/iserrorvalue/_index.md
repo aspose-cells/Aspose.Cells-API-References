@@ -1,14 +1,14 @@
 ---
 title: IsErrorValue
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Checks if the value of this cell is an error.
 type: docs
 weight: 150
 url: /net/aspose.cells/cell/iserrorvalue/
 ---
 ## Cell.IsErrorValue property
 
-Checks if a formula can properly evaluate a result.
+Checks if the value of this cell is an error.
 
 ```csharp
 public bool IsErrorValue { get; }
@@ -16,7 +16,7 @@ public bool IsErrorValue { get; }
 
 ### Remarks
 
-Also applies to formula cell to check the calculated result
+Also applies to formula cell to check whether the calculated result is an error.
 
 ### See Also
 

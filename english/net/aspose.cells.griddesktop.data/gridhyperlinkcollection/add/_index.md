@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a hyperlink to a specified cell or a range of cells.
 type: docs
 weight: 30
 url: /net/aspose.cells.griddesktop.data/gridhyperlinkcollection/add/
 ---
-## GridHyperlinkCollection.Add method (1 of 5)
+## Add(int, int, int, int, string) {#add}
 
 Adds a hyperlink to a specified cell or a range of cells.
 
@@ -51,7 +51,7 @@ worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls")
 
 ---
 
-## GridHyperlinkCollection.Add method (2 of 5)
+## Add(string, int, int, string) {#add_1}
 
 Adds a hyperlink to a specified cell or a range of cells.
 
@@ -78,7 +78,7 @@ Hyperlink object index.
 
 ---
 
-## GridHyperlinkCollection.Add method (3 of 5)
+## Add(string, string) {#add_2}
 
 Adds a hyperlink to a specified cell .
 
@@ -103,7 +103,7 @@ Hyperlink object index.
 
 ---
 
-## GridHyperlinkCollection.Add method (4 of 5)
+## Add(string, string, string, string, string) {#add_3}
 
 Adds a hyperlink to a specified cell or a range of cells.
 
@@ -132,7 +132,7 @@ Hyperlink object index.
 
 ---
 
-## GridHyperlinkCollection.Add method (5 of 5)
+## Add(int, int, string) {#add_4}
 
 Adds a hyperlink to a specified cell at row column index.
 

@@ -1,7 +1,7 @@
 ---
 title: CopyCommentsInRange
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Copy all comments in the range.
 type: docs
 weight: 370
 url: /net/aspose.cells.drawing/shapecollection/copycommentsinrange/

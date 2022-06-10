@@ -1,7 +1,7 @@
 ---
 title: IsGatherString
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Checks whether the current string value of cell needs to be gathered into a global pool.
 type: docs
 weight: 10
 url: /net/aspose.cells/lightcellsdataprovider/isgatherstring/

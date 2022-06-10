@@ -1,9 +1,9 @@
 ---
 title: OdsPageBackground
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the page background of ods.
 type: docs
-weight: 4280
+weight: 4320
 url: /net/aspose.cells.ods/odspagebackground/
 ---
 ## OdsPageBackground class

@@ -1,7 +1,7 @@
 ---
 title: FieldListSortAscending
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies a boolean value that indicates whether fields in the PivotTable are sorted in non-default order in the field list.
 type: docs
 weight: 240
 url: /net/aspose.cells.pivot/pivottable/fieldlistsortascending/

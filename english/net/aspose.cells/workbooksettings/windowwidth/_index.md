@@ -1,9 +1,9 @@
 ---
 title: WindowWidth
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The width of the window in unit of point.
 type: docs
-weight: 570
+weight: 700
 url: /net/aspose.cells/workbooksettings/windowwidth/
 ---
 ## WorkbookSettings.WindowWidth property

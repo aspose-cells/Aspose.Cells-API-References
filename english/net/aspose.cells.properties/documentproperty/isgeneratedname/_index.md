@@ -1,7 +1,7 @@
 ---
 title: IsGeneratedName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns true if this property does not have a name in the OLE2 storage and a unique name was generated only for the public API.
 type: docs
 weight: 10
 url: /net/aspose.cells.properties/documentproperty/isgeneratedname/

@@ -1,12 +1,14 @@
 ---
 title: GridReferredArea
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a referred area by the formula.
 type: docs
 weight: 100
 url: /net/aspose.cells.gridjs/gridreferredarea/
 ---
 ## GridReferredArea class
+
+Represents a referred area by the formula.
 
 ```csharp
 public class GridReferredArea

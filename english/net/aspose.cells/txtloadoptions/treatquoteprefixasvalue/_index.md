@@ -1,7 +1,7 @@
 ---
 title: TreatQuotePrefixAsValue
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the leading single quote sign should be taken as part of the value of one cell. Default is true. If it is false the leading single quote will be removed from corresponding cells value and QuotePrefixaspose.cells/style/quoteprefix will be set as true for the cell.
 type: docs
 weight: 110
 url: /net/aspose.cells/txtloadoptions/treatquoteprefixasvalue/

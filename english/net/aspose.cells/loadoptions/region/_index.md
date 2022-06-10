@@ -1,7 +1,7 @@
 ---
 title: Region
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the system regional settings based on CountryCode at the time the file was loaded.
 type: docs
 weight: 200
 url: /net/aspose.cells/loadoptions/region/

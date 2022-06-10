@@ -1,7 +1,7 @@
 ---
 title: XmlMap
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets an XmlMapaspose.cells.tables/listobject/xmlmap used for this list.
 type: docs
 weight: 220
 url: /net/aspose.cells.tables/listobject/xmlmap/

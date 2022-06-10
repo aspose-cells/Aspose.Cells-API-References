@@ -1,7 +1,7 @@
 ---
 title: SmartTagSetting
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets all SmartTagCollectionaspose.cells.markup/smarttagcollection objects of the worksheet.
 type: docs
 weight: 440
 url: /net/aspose.cells/worksheet/smarttagsetting/

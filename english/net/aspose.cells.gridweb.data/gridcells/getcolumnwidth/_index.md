@@ -1,7 +1,7 @@
 ---
 title: GetColumnWidth
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the width of the specified column
 type: docs
 weight: 400
 url: /net/aspose.cells.gridweb.data/gridcells/getcolumnwidth/

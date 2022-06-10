@@ -1,7 +1,7 @@
 ---
 title: InitStream
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the stream.
 type: docs
 weight: 20
 url: /net/aspose.cells/istreamprovider/initstream/

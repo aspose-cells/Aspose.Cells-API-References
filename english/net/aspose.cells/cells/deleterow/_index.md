@@ -1,7 +1,7 @@
 ---
 title: DeleteRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Deletes a row.
 type: docs
 weight: 550
 url: /net/aspose.cells/cells/deleterow/

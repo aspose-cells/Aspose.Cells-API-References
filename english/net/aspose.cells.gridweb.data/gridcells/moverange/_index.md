@@ -1,7 +1,7 @@
 ---
 title: MoveRange
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Moves the range.
 type: docs
 weight: 630
 url: /net/aspose.cells.gridweb.data/gridcells/moverange/

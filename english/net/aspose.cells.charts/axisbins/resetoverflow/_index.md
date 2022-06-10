@@ -1,7 +1,7 @@
 ---
 title: ResetOverflow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Reset the overflow
 type: docs
 weight: 80
 url: /net/aspose.cells.charts/axisbins/resetoverflow/

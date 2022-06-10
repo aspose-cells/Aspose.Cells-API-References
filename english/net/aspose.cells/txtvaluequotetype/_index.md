@@ -1,9 +1,9 @@
 ---
 title: TxtValueQuoteType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the type of using quotation marks for values in text format files.
 type: docs
-weight: 6130
+weight: 6170
 url: /net/aspose.cells/txtvaluequotetype/
 ---
 ## TxtValueQuoteType enumeration

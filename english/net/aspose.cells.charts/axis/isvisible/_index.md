@@ -1,7 +1,7 @@
 ---
 title: IsVisible
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents if the axis is visible.
 type: docs
 weight: 220
 url: /net/aspose.cells.charts/axis/isvisible/

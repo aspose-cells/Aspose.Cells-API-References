@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Remove the property by the name.
 type: docs
 weight: 40
 url: /net/aspose.cells.webextensions/webextensionpropertycollection/removeat/

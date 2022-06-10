@@ -1,7 +1,7 @@
 ---
 title: CellSpacing
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Always returns -1.
 type: docs
 weight: 60
 url: /net/aspose.cells.gridweb/gridtablestyle/cellspacing/

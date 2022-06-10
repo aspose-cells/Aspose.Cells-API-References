@@ -1,9 +1,9 @@
 ---
 title: WindowLeftCM
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The distance from the left edge of the client area to the left edge of the window. In unit of centimeter.
 type: docs
-weight: 520
+weight: 650
 url: /net/aspose.cells/workbooksettings/windowleftcm/
 ---
 ## WorkbookSettings.WindowLeftCM property

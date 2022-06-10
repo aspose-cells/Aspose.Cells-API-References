@@ -1,9 +1,9 @@
 ---
 title: WorksheetCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates a collection of Worksheet./worksheet objects.
 type: docs
-weight: 6510
+weight: 6550
 url: /net/aspose.cells/worksheetcollection/
 ---
 ## WorksheetCollection class
@@ -42,15 +42,15 @@ public class WorksheetCollection : CollectionBase<Worksheet>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells/worksheetcollection/add)() | Adds a worksheet to the collection. |
-| [Add](../../aspose.cells/worksheetcollection/add)(SheetType) | Adds a worksheet to the collection. |
-| [Add](../../aspose.cells/worksheetcollection/add)(string) | Adds a worksheet to the collection. |
-| [AddCopy](../../aspose.cells/worksheetcollection/addcopy)(int) | Adds a worksheet to the collection and copies data from an existed worksheet. |
-| [AddCopy](../../aspose.cells/worksheetcollection/addcopy)(string) | Adds a worksheet to the collection and copies data from an existed worksheet. |
+| [Add](../../aspose.cells/worksheetcollection/add#add_1)() | Adds a worksheet to the collection. |
+| [Add](../../aspose.cells/worksheetcollection/add#add_2)(SheetType) | Adds a worksheet to the collection. |
+| [Add](../../aspose.cells/worksheetcollection/add#add)(string) | Adds a worksheet to the collection. |
+| [AddCopy](../../aspose.cells/worksheetcollection/addcopy#addcopy)(int) | Adds a worksheet to the collection and copies data from an existed worksheet. |
+| [AddCopy](../../aspose.cells/worksheetcollection/addcopy#addcopy_1)(string) | Adds a worksheet to the collection and copies data from an existed worksheet. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Worksheet) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Worksheet, IComparer&lt;Worksheet&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Worksheet, IComparer&lt;Worksheet&gt;) |  |
-| [Clear](../../aspose.cells/worksheetcollection/clear)() | Clear all worksheets. (2 methods) |
+| [Clear](../../aspose.cells/worksheetcollection/clear#clear)() | Clear all worksheets. (2 methods) |
 | [ClearPivottables](../../aspose.cells/worksheetcollection/clearpivottables)() | Clears pivot tables from the spreadsheet. |
 | [Contains](../../aspose.cells/collectionbase`1/contains)(Worksheet) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Worksheet[]) |  |
@@ -71,22 +71,22 @@ public class WorksheetCollection : CollectionBase<Worksheet>
 | [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
 | [GetNamedRanges](../../aspose.cells/worksheetcollection/getnamedranges)() | Gets all pre-defined named ranges in the spreadsheet. |
 | [GetNamedRangesAndTables](../../aspose.cells/worksheetcollection/getnamedrangesandtables)() | Gets all pre-defined named ranges in the spreadsheet. |
-| [GetRangeByName](../../aspose.cells/worksheetcollection/getrangebyname)(string) | Gets Range object by pre-defined name. |
-| [GetRangeByName](../../aspose.cells/worksheetcollection/getrangebyname)(string, int, bool) | Gets [`Range`](../range) by pre-defined name or table's name |
+| [GetRangeByName](../../aspose.cells/worksheetcollection/getrangebyname#getrangebyname)(string) | Gets Range object by pre-defined name. |
+| [GetRangeByName](../../aspose.cells/worksheetcollection/getrangebyname#getrangebyname_1)(string, int, bool) | Gets [`Range`](../range) by pre-defined name or table's name |
 | [GetSheetByCodeName](../../aspose.cells/worksheetcollection/getsheetbycodename)(string) | Gets the worksheet by the code name. |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Worksheet) |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Worksheet, int) |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Worksheet, int, int) |  |
-| [Insert](../../aspose.cells/worksheetcollection/insert)(int, SheetType) | Insert a worksheet. |
-| [Insert](../../aspose.cells/worksheetcollection/insert)(int, SheetType, string) | Insert a worksheet. |
+| [Insert](../../aspose.cells/worksheetcollection/insert#insert)(int, SheetType) | Insert a worksheet. |
+| [Insert](../../aspose.cells/worksheetcollection/insert#insert_1)(int, SheetType, string) | Insert a worksheet. |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Worksheet) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Worksheet, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Worksheet, int, int) |  |
 | [RefreshPivotTables](../../aspose.cells/worksheetcollection/refreshpivottables)() | Refreshes all the PivotTables in the WorksheetCollection. |
-| [RegisterAddInFunction](../../aspose.cells/worksheetcollection/registeraddinfunction)(int, string) | Adds addin function into the workbook |
-| [RegisterAddInFunction](../../aspose.cells/worksheetcollection/registeraddinfunction)(string, string, bool) | Adds addin function into the workbook |
-| [RemoveAt](../../aspose.cells/worksheetcollection/removeat)(int) | Removes the element at a specified index. (2 methods) |
-| [RemoveAt](../../aspose.cells/worksheetcollection/removeat)(string) | Removes the element at a specified name. |
+| [RegisterAddInFunction](../../aspose.cells/worksheetcollection/registeraddinfunction#registeraddinfunction_1)(int, string) | Adds addin function into the workbook |
+| [RegisterAddInFunction](../../aspose.cells/worksheetcollection/registeraddinfunction#registeraddinfunction)(string, string, bool) | Adds addin function into the workbook |
+| [RemoveAt](../../aspose.cells/worksheetcollection/removeat#removeat)(int) | Removes the element at a specified index. (2 methods) |
+| [RemoveAt](../../aspose.cells/worksheetcollection/removeat#removeat_2)(string) | Removes the element at a specified name. |
 | [SetOleSize](../../aspose.cells/worksheetcollection/setolesize)(int, int, int, int) | Sets displayed size when Workbook file is used as an Ole object. |
 | [SortNames](../../aspose.cells/worksheetcollection/sortnames)() | Sorts the defined names. |
 | [SwapSheet](../../aspose.cells/worksheetcollection/swapsheet)(int, int) | Swaps the two sheets. |

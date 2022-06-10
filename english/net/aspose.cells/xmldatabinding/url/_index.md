@@ -1,7 +1,7 @@
 ---
 title: Url
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets source url of this data binding.
 type: docs
 weight: 10
 url: /net/aspose.cells/xmldatabinding/url/

@@ -1,12 +1,12 @@
 ---
 title: SaveSpreadSheetMLFile
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Saves data to a SpreadSheetML file.
 type: docs
 weight: 1490
 url: /net/aspose.cells.gridweb/mainweb/savespreadsheetmlfile/
 ---
-## MainWeb.SaveSpreadSheetMLFile method (1 of 2)
+## SaveSpreadSheetMLFile(string) {#savespreadsheetmlfile_1}
 
 Saves data to a SpreadSheetML file.
 
@@ -26,7 +26,7 @@ public void SaveSpreadSheetMLFile(string targetFile)
 
 ---
 
-## MainWeb.SaveSpreadSheetMLFile method (2 of 2)
+## SaveSpreadSheetMLFile(Stream) {#savespreadsheetmlfile}
 
 Saves data to a SpreadSheetML file stream.
 

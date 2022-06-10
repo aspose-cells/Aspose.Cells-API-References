@@ -1,7 +1,7 @@
 ---
 title: FinishLoadFile
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Occurs when the workbook is loaded.
 type: docs
 weight: 550
 url: /net/aspose.cells.griddesktop/griddesktop/finishloadfile/

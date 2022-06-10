@@ -1,7 +1,7 @@
 ---
 title: ForeColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the border line fore color.
 type: docs
 weight: 30
 url: /net/aspose.cells.drawing/msolineformat/forecolor/

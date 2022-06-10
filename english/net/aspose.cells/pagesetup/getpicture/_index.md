@@ -1,12 +1,12 @@
 ---
 title: GetPicture
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the Pictureaspose.cells.drawing/picture object of the header / footer.
 type: docs
 weight: 540
 url: /net/aspose.cells/pagesetup/getpicture/
 ---
-## PageSetup.GetPicture method (1 of 2)
+## GetPicture(bool, int) {#getpicture_1}
 
 Gets the [`Picture`](../../../aspose.cells.drawing/picture) object of the header / footer.
 
@@ -32,7 +32,7 @@ Returns [`Picture`](../../../aspose.cells.drawing/picture) object. Returns null 
 
 ---
 
-## PageSetup.GetPicture method (2 of 2)
+## GetPicture(bool, bool, bool, int) {#getpicture}
 
 Gets the [`Picture`](../../../aspose.cells.drawing/picture) object of the header / footer.
 

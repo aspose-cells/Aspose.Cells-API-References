@@ -1,9 +1,9 @@
 ---
 title: ToString
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns a string represents the current Range object.
 type: docs
-weight: 370
+weight: 380
 url: /net/aspose.cells/range/tostring/
 ---
 ## Range.ToString method

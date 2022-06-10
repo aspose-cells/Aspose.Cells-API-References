@@ -1,9 +1,9 @@
 ---
 title: Equals
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Determines whether two Style instances are equal.
 type: docs
-weight: 320
+weight: 330
 url: /net/aspose.cells/style/equals/
 ---
 ## Style.Equals method

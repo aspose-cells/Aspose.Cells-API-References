@@ -1,7 +1,7 @@
 ---
 title: ImageOrPrintOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Additional image creation options
 type: docs
 weight: 20
 url: /net/aspose.cells/imagesaveoptions/imageorprintoptions/

@@ -1,7 +1,7 @@
 ---
 title: WebExtension
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and set the web extension.
 type: docs
 weight: 10
 url: /net/aspose.cells.drawing/webextensionshape/webextension/

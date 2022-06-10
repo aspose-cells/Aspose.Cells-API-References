@@ -1,7 +1,7 @@
 ---
 title: IsRulerVisible
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the ruler is visible. This property is only applied for page break preview.
 type: docs
 weight: 270
 url: /net/aspose.cells/worksheet/isrulervisible/

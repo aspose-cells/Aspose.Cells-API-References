@@ -1,7 +1,7 @@
 ---
 title: UpdateLinkedPropertyValue
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Update custom document property value which links to content.
 type: docs
 weight: 30
 url: /net/aspose.cells.properties/customdocumentpropertycollection/updatelinkedpropertyvalue/

@@ -1,7 +1,7 @@
 ---
 title: CellClientUpdate
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Occurs when a client cell update happen . When this event is fired its parameter e.Argument contains the commands name.
 type: docs
 weight: 1150
 url: /net/aspose.cells.gridweb/mainweb/cellclientupdate/

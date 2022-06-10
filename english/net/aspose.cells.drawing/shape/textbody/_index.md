@@ -1,9 +1,9 @@
 ---
 title: TextBody
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the setting of the shapes text.
 type: docs
-weight: 640
+weight: 690
 url: /net/aspose.cells.drawing/shape/textbody/
 ---
 ## Shape.TextBody property

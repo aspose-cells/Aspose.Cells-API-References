@@ -1,7 +1,7 @@
 ---
 title: CompareTo
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Internal use only.
 type: docs
 weight: 60
 url: /net/aspose.cells/cellarea/compareto/

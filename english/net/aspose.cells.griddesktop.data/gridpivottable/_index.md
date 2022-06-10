@@ -1,7 +1,7 @@
 ---
 title: GridPivotTable
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a PivotTable report on a worksheet. The PivotTable object is a member of the PivotTables collection. The PivotTables collection contains all the PivotTable objects on a control.
 type: docs
 weight: 650
 url: /net/aspose.cells.griddesktop.data/gridpivottable/
@@ -18,12 +18,12 @@ public class GridPivotTable
 
 | Name | Description |
 | --- | --- |
-| [AddFieldToArea](../../aspose.cells.griddesktop.data/gridpivottable/addfieldtoarea)(GridPivotFieldType, int) | Adds the field to the specific area. |
-| [AddFieldToArea](../../aspose.cells.griddesktop.data/gridpivottable/addfieldtoarea)(GridPivotFieldType, string) | Adds the field to the specific area. |
+| [AddFieldToArea](../../aspose.cells.griddesktop.data/gridpivottable/addfieldtoarea#addfieldtoarea)(GridPivotFieldType, int) | Adds the field to the specific area. |
+| [AddFieldToArea](../../aspose.cells.griddesktop.data/gridpivottable/addfieldtoarea#addfieldtoarea_1)(GridPivotFieldType, string) | Adds the field to the specific area. |
 | [CalculateData](../../aspose.cells.griddesktop.data/gridpivottable/calculatedata)() | Calculates pivottable's data to cells. |
 | [ClearAllFields](../../aspose.cells.griddesktop.data/gridpivottable/clearallfields)() | clear all pivot fields. |
-| [Fields](../../aspose.cells.griddesktop.data/gridpivottable/fields)(GridPivotFieldType) | Gets the specific fields by the field type. |
-| [Fields](../../aspose.cells.griddesktop.data/gridpivottable/fields)(string) | Gets the specific field by the field name. |
+| [Fields](../../aspose.cells.griddesktop.data/gridpivottable/fields#fields_1)(GridPivotFieldType) | Gets the specific fields by the field type. |
+| [Fields](../../aspose.cells.griddesktop.data/gridpivottable/fields#fields)(string) | Gets the specific field by the field name. |
 | [RefreshData](../../aspose.cells.griddesktop.data/gridpivottable/refreshdata)() | Refreshes pivottable's data and setting from it's data source. |
 
 ### See Also

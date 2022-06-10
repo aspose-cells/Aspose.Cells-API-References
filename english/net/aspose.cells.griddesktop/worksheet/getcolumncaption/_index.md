@@ -1,7 +1,7 @@
 ---
 title: GetColumnCaption
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the column caption. If the caption is not set returns empty string.
 type: docs
 weight: 700
 url: /net/aspose.cells.griddesktop/worksheet/getcolumncaption/

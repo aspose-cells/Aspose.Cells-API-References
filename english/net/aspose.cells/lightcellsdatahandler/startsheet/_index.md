@@ -1,7 +1,7 @@
 ---
 title: StartSheet
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Starts to process a worksheet.
 type: docs
 weight: 50
 url: /net/aspose.cells/lightcellsdatahandler/startsheet/

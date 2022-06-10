@@ -1,7 +1,7 @@
 ---
 title: BarFillType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets how a data bar is filled with color.
 type: docs
 weight: 40
 url: /net/aspose.cells/databar/barfilltype/

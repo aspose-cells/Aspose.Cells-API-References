@@ -1,7 +1,7 @@
 ---
 title: AddRegisteredReference
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Add a reference to an Automation type library.
 type: docs
 weight: 40
 url: /net/aspose.cells.vba/vbaprojectreferencecollection/addregisteredreference/

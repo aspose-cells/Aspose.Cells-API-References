@@ -1,12 +1,12 @@
 ---
 title: Custom
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Filters a list with a custom criteria.
 type: docs
 weight: 100
 url: /net/aspose.cells/autofilter/custom/
 ---
-## AutoFilter.Custom method (1 of 2)
+## Custom(int, FilterOperatorType, object) {#custom}
 
 Filters a list with a custom criteria.
 
@@ -29,7 +29,7 @@ public void Custom(int fieldIndex, FilterOperatorType operatorType1, object crit
 
 ---
 
-## AutoFilter.Custom method (2 of 2)
+## Custom(int, FilterOperatorType, object, bool, FilterOperatorType, object) {#custom_1}
 
 Filters a list with custom criteria.
 

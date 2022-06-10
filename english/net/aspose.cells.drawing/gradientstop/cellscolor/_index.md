@@ -1,7 +1,7 @@
 ---
 title: CellsColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the color of this gradient stop.
 type: docs
 weight: 10
 url: /net/aspose.cells.drawing/gradientstop/cellscolor/

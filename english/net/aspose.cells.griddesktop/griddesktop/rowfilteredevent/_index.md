@@ -1,7 +1,7 @@
 ---
 title: RowFilteredEvent
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Occurs after row filter item selected.
 type: docs
 weight: 580
 url: /net/aspose.cells.griddesktop/griddesktop/rowfilteredevent/

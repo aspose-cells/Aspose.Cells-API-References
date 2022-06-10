@@ -1,9 +1,9 @@
 ---
 title: SortOrder
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents what order the data sort by.
 type: docs
-weight: 690
+weight: 830
 url: /net/aspose.cells.gridweb.data/sortorder/
 ---
 ## SortOrder enumeration

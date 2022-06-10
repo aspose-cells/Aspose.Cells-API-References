@@ -1,7 +1,7 @@
 ---
 title: IsVeryHidden
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates wether the sheet is hidden and cannot be shown in the user interface UI.
 type: docs
 weight: 240
 url: /net/aspose.cells.griddesktop/worksheet/isveryhidden/

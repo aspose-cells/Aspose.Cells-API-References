@@ -1,9 +1,9 @@
 ---
 title: SetOneColorGradient
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the specified fill to a one-color gradient. Only applies for Excel 2007.
 type: docs
-weight: 210
+weight: 230
 url: /net/aspose.cells.drawing/fillformat/setonecolorgradient/
 ---
 ## FillFormat.SetOneColorGradient method

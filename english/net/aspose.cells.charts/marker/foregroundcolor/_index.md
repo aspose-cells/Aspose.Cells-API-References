@@ -1,7 +1,7 @@
 ---
 title: ForegroundColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the marker foreground color in a line chart scatter chart or radar chart.
 type: docs
 weight: 50
 url: /net/aspose.cells.charts/marker/foregroundcolor/

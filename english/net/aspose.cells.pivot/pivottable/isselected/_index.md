@@ -1,7 +1,7 @@
 ---
 title: IsSelected
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the PivotTable is selected.
 type: docs
 weight: 320
 url: /net/aspose.cells.pivot/pivottable/isselected/

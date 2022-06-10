@@ -1,7 +1,7 @@
 ---
 title: ShowDefaultGridLine
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Internal used only.
 type: docs
 weight: 260
 url: /net/aspose.cells.gridweb.design/designparameters/showdefaultgridline/

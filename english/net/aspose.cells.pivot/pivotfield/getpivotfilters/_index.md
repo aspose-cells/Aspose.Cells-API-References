@@ -1,7 +1,7 @@
 ---
 title: GetPivotFilters
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the pivot filters of the pivot field
 type: docs
 weight: 440
 url: /net/aspose.cells.pivot/pivotfield/getpivotfilters/

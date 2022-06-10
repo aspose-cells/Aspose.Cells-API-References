@@ -1,9 +1,9 @@
 ---
 title: CustomFilter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the custom filter.
 type: docs
-weight: 1200
+weight: 1220
 url: /net/aspose.cells/customfilter/
 ---
 ## CustomFilter class

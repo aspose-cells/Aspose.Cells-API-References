@@ -1,9 +1,9 @@
 ---
 title: SessionMode
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the session mode of the grid.
 type: docs
-weight: 890
+weight: 1100
 url: /net/aspose.cells.gridweb/sessionmode/
 ---
 ## SessionMode enumeration

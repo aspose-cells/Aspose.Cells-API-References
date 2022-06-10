@@ -1,7 +1,7 @@
 ---
 title: TabAlignment
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the alignment that is to be applied to text using this tab stop.
 type: docs
 weight: 10
 url: /net/aspose.cells.drawing.texts/texttabstop/tabalignment/

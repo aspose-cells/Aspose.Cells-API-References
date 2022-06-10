@@ -1,7 +1,7 @@
 ---
 title: ReferToDestinationSheet
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: When copying the range in the same file and the chart refers to the source sheet False means the copied charts data source will not be changed. True means the copied charts data source refers to the destination sheet.
 type: docs
 weight: 70
 url: /net/aspose.cells/copyoptions/refertodestinationsheet/

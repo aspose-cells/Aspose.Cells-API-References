@@ -1,7 +1,7 @@
 ---
 title: StartRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Starts to save data of one row.
 type: docs
 weight: 50
 url: /net/aspose.cells/lightcellsdataprovider/startrow/

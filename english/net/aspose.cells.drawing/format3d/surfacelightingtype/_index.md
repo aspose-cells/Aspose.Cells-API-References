@@ -1,7 +1,7 @@
 ---
 title: SurfaceLightingType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the lighting type which is to be applied to the scene of the shape. Default value is LightRigType.ThreePoint.
 type: docs
 weight: 20
 url: /net/aspose.cells.drawing/format3d/surfacelightingtype/

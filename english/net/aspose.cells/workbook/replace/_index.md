@@ -1,12 +1,12 @@
 ---
 title: Replace
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Replaces a cells value with a new string.
 type: docs
-weight: 560
+weight: 590
 url: /net/aspose.cells/workbook/replace/
 ---
-## Workbook.Replace method (1 of 10)
+## Replace(string, string) {#replace_7}
 
 Replaces a cell's value with a new string.
 
@@ -43,7 +43,7 @@ orkbook.Replace("AnOldValue", "NewValue")
 
 ---
 
-## Workbook.Replace method (2 of 10)
+## Replace(string, int) {#replace_4}
 
 Replaces a cell's value with a new integer.
 
@@ -82,7 +82,7 @@ orkbook.Replace("AnOldValue", NewValue)
 
 ---
 
-## Workbook.Replace method (3 of 10)
+## Replace(string, double) {#replace_2}
 
 Replaces a cell's value with a new double.
 
@@ -123,7 +123,7 @@ orkbook.Replace("AnOldValue", NewValue)
 
 ---
 
-## Workbook.Replace method (4 of 10)
+## Replace(string, string[], bool) {#replace_9}
 
 Replaces a cell's value with a new string array.
 
@@ -164,7 +164,7 @@ orkbook.Replace("AnOldValue", NewValues, True)
 
 ---
 
-## Workbook.Replace method (5 of 10)
+## Replace(string, int[], bool) {#replace_5}
 
 Replaces cells' values with an integer array.
 
@@ -204,7 +204,7 @@ orkbook.Replace("AnOldValue", NewValues, True)
 
 ---
 
-## Workbook.Replace method (6 of 10)
+## Replace(string, double[], bool) {#replace_3}
 
 Replaces cells' values with a double array.
 
@@ -245,7 +245,7 @@ workbook.Replace("AnOldValue", NewValues, True)
 
 ---
 
-## Workbook.Replace method (7 of 10)
+## Replace(string, DataTable) {#replace_6}
 
 Replaces cells' values with data from a DataTable.
 
@@ -286,7 +286,7 @@ workbook.Replace("AnOldValue", myDataTable)
 
 ---
 
-## Workbook.Replace method (8 of 10)
+## Replace(bool, object) {#replace}
 
 Replaces cells' values with new data.
 
@@ -307,7 +307,7 @@ public int Replace(bool boolValue, object newValue)
 
 ---
 
-## Workbook.Replace method (9 of 10)
+## Replace(int, object) {#replace_1}
 
 Replaces cells' values with new data.
 
@@ -328,7 +328,7 @@ public int Replace(int intValue, object newValue)
 
 ---
 
-## Workbook.Replace method (10 of 10)
+## Replace(string, string, ReplaceOptions) {#replace_8}
 
 Replaces a cell's value with a new string.
 

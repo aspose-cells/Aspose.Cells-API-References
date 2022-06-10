@@ -1,7 +1,7 @@
 ---
 title: R1C1Style
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Whether the formula is R1C1 reference style. Default is false.
 type: docs
 weight: 50
 url: /net/aspose.cells/formulaparseoptions/r1c1style/

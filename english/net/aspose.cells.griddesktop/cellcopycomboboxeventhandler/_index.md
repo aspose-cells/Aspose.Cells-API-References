@@ -1,7 +1,7 @@
 ---
 title: CellCopyComboBoxEventHandler
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the method that intend to handle cell copy events.
 type: docs
 weight: 110
 url: /net/aspose.cells.griddesktop/cellcopycomboboxeventhandler/

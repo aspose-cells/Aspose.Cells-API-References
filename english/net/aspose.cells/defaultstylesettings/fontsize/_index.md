@@ -1,7 +1,7 @@
 ---
 title: FontSize
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets/Sets the default standard font size for the workbook.
 type: docs
 weight: 20
 url: /net/aspose.cells/defaultstylesettings/fontsize/

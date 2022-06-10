@@ -1,7 +1,7 @@
 ---
 title: Areas
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The range to which this formatting was applied.
 type: docs
 weight: 10
 url: /net/aspose.cells.revisions/revisionformat/areas/

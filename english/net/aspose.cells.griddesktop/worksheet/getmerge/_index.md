@@ -1,7 +1,7 @@
 ---
 title: GetMerge
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the cell range of the merge at the specified index.
 type: docs
 weight: 780
 url: /net/aspose.cells.griddesktop/worksheet/getmerge/

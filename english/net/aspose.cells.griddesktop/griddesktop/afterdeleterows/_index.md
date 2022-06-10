@@ -1,7 +1,7 @@
 ---
 title: AfterDeleteRows
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Occurs after row is deleted.
 type: docs
 weight: 340
 url: /net/aspose.cells.griddesktop/griddesktop/afterdeleterows/

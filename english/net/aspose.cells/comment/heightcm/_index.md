@@ -1,7 +1,7 @@
 ---
 title: HeightCM
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the height of the comment in unit of centimeters.
 type: docs
 weight: 70
 url: /net/aspose.cells/comment/heightcm/

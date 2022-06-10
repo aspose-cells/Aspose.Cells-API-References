@@ -1,7 +1,7 @@
 ---
 title: AutoUpdate
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies whether the link to the OleObject is automatically updated or not.
 type: docs
 weight: 20
 url: /net/aspose.cells.drawing/oleobject/autoupdate/

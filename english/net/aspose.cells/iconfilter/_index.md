@@ -1,9 +1,9 @@
 ---
 title: IconFilter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents icon filter.
 type: docs
-weight: 3830
+weight: 3870
 url: /net/aspose.cells/iconfilter/
 ---
 ## IconFilter class

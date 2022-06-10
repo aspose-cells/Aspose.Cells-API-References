@@ -1,7 +1,7 @@
 ---
 title: ObjectData
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents embedded ole object data as byte array.
 type: docs
 weight: 130
 url: /net/aspose.cells.drawing/oleobject/objectdata/

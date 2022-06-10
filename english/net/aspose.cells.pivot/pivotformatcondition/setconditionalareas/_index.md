@@ -1,7 +1,7 @@
 ---
 title: SetConditionalAreas
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets conditional areas of PivotFormatCondition object.
 type: docs
 weight: 70
 url: /net/aspose.cells.pivot/pivotformatcondition/setconditionalareas/

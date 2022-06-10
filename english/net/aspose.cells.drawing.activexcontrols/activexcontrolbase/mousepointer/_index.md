@@ -1,7 +1,7 @@
 ---
 title: MousePointer
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the type of icon displayed as the mouse pointer for the control.
 type: docs
 weight: 90
 url: /net/aspose.cells.drawing.activexcontrols/activexcontrolbase/mousepointer/

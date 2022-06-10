@@ -1,9 +1,9 @@
 ---
 title: AutoFitColsAndRows
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether auto-fit columns and rows. The default value is false.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.cells/htmlloadoptions/autofitcolsandrows/
 ---
 ## HtmlLoadOptions.AutoFitColsAndRows property

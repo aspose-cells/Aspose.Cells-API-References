@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a new PivotTable cache to a PivotCaches collection.
 type: docs
 weight: 30
 url: /net/aspose.cells.griddesktop.data/gridpivottablecollection/add/
 ---
-## GridPivotTableCollection.Add method (1 of 4)
+## Add(string, string, string) {#add_3}
 
 Adds a new PivotTable cache to a PivotCaches collection.
 
@@ -32,7 +32,7 @@ The new added cache index.
 
 ---
 
-## GridPivotTableCollection.Add method (2 of 4)
+## Add(Worksheet, GridCellArea, string, string) {#add}
 
 Adds a new PivotTable cache to a PivotCaches collection.
 
@@ -63,7 +63,7 @@ The new added cache index.
 
 ---
 
-## GridPivotTableCollection.Add method (3 of 4)
+## Add(string, GridCellArea, int, int, string) {#add_1}
 
 Adds a new PivotTable cache to a PivotCaches collection.
 
@@ -93,7 +93,7 @@ The new added cache index.
 
 ---
 
-## GridPivotTableCollection.Add method (4 of 4)
+## Add(string, GridCellArea, string, string) {#add_2}
 
 Adds a new PivotTable cache to a PivotCaches collection.
 

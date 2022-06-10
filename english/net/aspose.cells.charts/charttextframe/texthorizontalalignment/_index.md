@@ -1,9 +1,9 @@
 ---
 title: TextHorizontalAlignment
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the text horizontal alignment.
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.cells.charts/charttextframe/texthorizontalalignment/
 ---
 ## ChartTextFrame.TextHorizontalAlignment property

@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Add an error check option.
 type: docs
 weight: 20
 url: /net/aspose.cells/errorcheckoptioncollection/add/

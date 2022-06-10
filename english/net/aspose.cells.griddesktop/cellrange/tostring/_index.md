@@ -1,7 +1,7 @@
 ---
 title: ToString
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns a String that represents the current CellRange.
 type: docs
 weight: 130
 url: /net/aspose.cells.griddesktop/cellrange/tostring/

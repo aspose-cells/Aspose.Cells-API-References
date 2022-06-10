@@ -1,12 +1,12 @@
 ---
 title: DeleteBlankRows
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Delete all blank rows which do not contain any data.
 type: docs
 weight: 510
 url: /net/aspose.cells/cells/deleteblankrows/
 ---
-## Cells.DeleteBlankRows method (1 of 2)
+## DeleteBlankRows() {#deleteblankrows}
 
 Delete all blank rows which do not contain any data.
 
@@ -22,7 +22,7 @@ public void DeleteBlankRows()
 
 ---
 
-## Cells.DeleteBlankRows method (2 of 2)
+## DeleteBlankRows(DeleteOptions) {#deleteblankrows_1}
 
 Delete all blank rows which do not contain any data.
 

@@ -1,12 +1,12 @@
 ---
 title: LoadCSVFile
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Loads data from a CSV file.
 type: docs
 weight: 1410
 url: /net/aspose.cells.gridweb/mainweb/loadcsvfile/
 ---
-## MainWeb.LoadCSVFile method (1 of 2)
+## LoadCSVFile(string) {#loadcsvfile_1}
 
 Loads data from a CSV file.
 
@@ -26,7 +26,7 @@ public void LoadCSVFile(string fileName)
 
 ---
 
-## MainWeb.LoadCSVFile method (2 of 2)
+## LoadCSVFile(Stream) {#loadcsvfile}
 
 Loads data from a CSV file stream.
 

@@ -1,7 +1,7 @@
 ---
 title: CopyColumn
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Copies data and formattings of a whole column.
 type: docs
 weight: 270
 url: /net/aspose.cells.griddesktop.data/gridcells/copycolumn/

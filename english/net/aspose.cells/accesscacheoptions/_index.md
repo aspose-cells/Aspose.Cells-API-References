@@ -1,7 +1,7 @@
 ---
 title: AccessCacheOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Cache options for data access. Can be combined with x7C operator for multiple options together.
 type: docs
 weight: 70
 url: /net/aspose.cells/accesscacheoptions/

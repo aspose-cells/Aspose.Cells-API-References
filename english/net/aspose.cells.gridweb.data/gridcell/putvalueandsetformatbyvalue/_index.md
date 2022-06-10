@@ -1,7 +1,7 @@
 ---
 title: PutValueAndSetFormatByValue
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the cells value with a string value and set cell format by this value.
 type: docs
 weight: 300
 url: /net/aspose.cells.gridweb.data/gridcell/putvalueandsetformatbyvalue/

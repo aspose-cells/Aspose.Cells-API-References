@@ -1,7 +1,7 @@
 ---
 title: WidthPixel
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns or sets the width of the specified slicer in pixels.
 type: docs
 weight: 240
 url: /net/aspose.cells.slicers/slicer/widthpixel/

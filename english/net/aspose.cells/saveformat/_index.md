@@ -1,9 +1,9 @@
 ---
 title: SaveFormat
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the format in which the workbook is saved.
 type: docs
-weight: 5510
+weight: 5550
 url: /net/aspose.cells/saveformat/
 ---
 ## SaveFormat enumeration

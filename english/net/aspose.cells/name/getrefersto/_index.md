@@ -1,12 +1,12 @@
 ---
 title: GetRefersTo
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get the reference of this Name.
 type: docs
 weight: 120
 url: /net/aspose.cells/name/getrefersto/
 ---
-## Name.GetRefersTo method (1 of 2)
+## GetRefersTo(bool, bool) {#getrefersto}
 
 Get the reference of this Name.
 
@@ -27,7 +27,7 @@ public string GetRefersTo(bool isR1C1, bool isLocal)
 
 ---
 
-## Name.GetRefersTo method (2 of 2)
+## GetRefersTo(bool, bool, int, int) {#getrefersto_1}
 
 Get the reference of this Name based on specified cell.
 

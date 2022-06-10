@@ -1,7 +1,7 @@
 ---
 title: FormatCharacters
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Format some characters with the font setting.
 type: docs
 weight: 220
 url: /net/aspose.cells/comment/formatcharacters/

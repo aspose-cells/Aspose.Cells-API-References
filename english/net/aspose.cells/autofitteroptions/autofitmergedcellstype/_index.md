@@ -1,9 +1,9 @@
 ---
 title: AutoFitMergedCellsType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and set the type of auto fitting row height of merged cells.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.cells/autofitteroptions/autofitmergedcellstype/
 ---
 ## AutoFitterOptions.AutoFitMergedCellsType property

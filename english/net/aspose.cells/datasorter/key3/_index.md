@@ -1,7 +1,7 @@
 ---
 title: Key3
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents third sorted column indexabsolute position column A is 0 B is 1 ....
 type: docs
 weight: 50
 url: /net/aspose.cells/datasorter/key3/

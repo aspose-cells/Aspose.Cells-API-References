@@ -1,7 +1,7 @@
 ---
 title: SetFontFolder
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the fonts folder
 type: docs
 weight: 60
 url: /net/aspose.cells/fontconfigs/setfontfolder/

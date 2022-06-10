@@ -1,12 +1,12 @@
 ---
 title: XmlLoadOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the options of loading ods file.
 type: docs
 weight: 10
 url: /net/aspose.cells/xmlloadoptions/xmlloadoptions/
 ---
-## XmlLoadOptions constructor (1 of 2)
+## XmlLoadOptions() {#constructor}
 
 Represents the options of loading ods file.
 
@@ -22,7 +22,7 @@ public XmlLoadOptions()
 
 ---
 
-## XmlLoadOptions constructor (2 of 2)
+## XmlLoadOptions(LoadFormat) {#constructor_1}
 
 Represents the options of loading ods file.
 

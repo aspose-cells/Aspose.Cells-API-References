@@ -1,7 +1,7 @@
 ---
 title: TransitionEvaluation
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the Transition Formula Evaluation Lotus compatibility option is enabled.
 type: docs
 weight: 510
 url: /net/aspose.cells/worksheet/transitionevaluation/

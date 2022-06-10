@@ -1,9 +1,9 @@
 ---
 title: SparklinePresetStyleType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the preset style types for sparkline.
 type: docs
-weight: 890
+weight: 910
 url: /net/aspose.cells.charts/sparklinepresetstyletype/
 ---
 ## SparklinePresetStyleType enumeration

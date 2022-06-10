@@ -1,9 +1,9 @@
 ---
 title: IsVScrollBarVisible
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the generated spreadsheet will contain a vertical scroll bar.
 type: docs
-weight: 250
+weight: 300
 url: /net/aspose.cells/workbooksettings/isvscrollbarvisible/
 ---
 ## WorkbookSettings.IsVScrollBarVisible property

@@ -1,9 +1,9 @@
 ---
 title: SetEncryptionOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Set Encryption Options.
 type: docs
-weight: 600
+weight: 630
 url: /net/aspose.cells/workbook/setencryptionoptions/
 ---
 ## Workbook.SetEncryptionOptions method

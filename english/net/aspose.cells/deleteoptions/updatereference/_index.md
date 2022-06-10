@@ -1,7 +1,7 @@
 ---
 title: UpdateReference
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates if update references in other worksheets.
 type: docs
 weight: 20
 url: /net/aspose.cells/deleteoptions/updatereference/

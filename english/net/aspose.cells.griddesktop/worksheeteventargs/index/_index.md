@@ -1,7 +1,7 @@
 ---
 title: Index
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets row or column index of worksheet
 type: docs
 weight: 10
 url: /net/aspose.cells.griddesktop/worksheeteventargs/index/

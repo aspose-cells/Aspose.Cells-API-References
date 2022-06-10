@@ -1,9 +1,9 @@
 ---
 title: XmlDataBinding
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents Xml Data Binding information.
 type: docs
-weight: 6560
+weight: 6600
 url: /net/aspose.cells/xmldatabinding/
 ---
 ## XmlDataBinding class

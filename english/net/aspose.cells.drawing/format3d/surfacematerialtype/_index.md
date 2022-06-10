@@ -1,7 +1,7 @@
 ---
 title: SurfaceMaterialType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the material type which is combined with the lighting properties to give the final look and feel of a shape. Default value is PresetMaterialType.WarmMatte.
 type: docs
 weight: 30
 url: /net/aspose.cells.drawing/format3d/surfacematerialtype/

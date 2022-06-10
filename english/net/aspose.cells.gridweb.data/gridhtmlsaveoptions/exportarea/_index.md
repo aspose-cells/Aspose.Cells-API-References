@@ -1,7 +1,7 @@
 ---
 title: ExportArea
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or Sets the exporting CellArea of current active Worksheet. If you set this attribute the print area of current active Worksheet will be omited. Only the specified area will be exported when saving the file to html.
 type: docs
 weight: 70
 url: /net/aspose.cells.gridweb.data/gridhtmlsaveoptions/exportarea/

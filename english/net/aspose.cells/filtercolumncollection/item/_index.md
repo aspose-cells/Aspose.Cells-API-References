@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets FilterColumnaspose.cells/filtercolumn object at the special field.
 type: docs
 weight: 10
 url: /net/aspose.cells/filtercolumncollection/item/

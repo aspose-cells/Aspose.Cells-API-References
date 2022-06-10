@@ -1,12 +1,12 @@
 ---
 title: SetStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the style to a specified range of cells.
 type: docs
 weight: 680
 url: /net/aspose.cells.griddesktop.data/gridcells/setstyle/
 ---
-## GridCells.SetStyle method (1 of 2)
+## SetStyle(int, int, int, int, Style) {#setstyle_1}
 
 Sets the style to a specified range of cells.
 
@@ -31,7 +31,7 @@ public void SetStyle(int firstRow, int firstColumn, int rowNumber, int columnNum
 
 ---
 
-## GridCells.SetStyle method (2 of 2)
+## SetStyle(string, Style) {#setstyle_2}
 
 Sets the style to a specified range of cells.
 
@@ -46,6 +46,29 @@ public void SetStyle(string cellRange, Style style)
 
 ### See Also
 
+* class [Style](../../../aspose.cells.griddesktop/style)
+* class [GridCells](../../gridcells)
+* namespace [Aspose.Cells.GridDesktop.Data](../../gridcells)
+* assembly [Aspose.Cells.GridDesktop](../../../)
+
+---
+
+## SetStyle(CellRange, Style) {#setstyle}
+
+Sets the style to a specified range of cells.
+
+```csharp
+public void SetStyle(CellRange cellRange, Style style)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cellRange | CellRange | The range of cells |
+| style | Style | The style object to be set |
+
+### See Also
+
+* class [CellRange](../../../aspose.cells.griddesktop/cellrange)
 * class [Style](../../../aspose.cells.griddesktop/style)
 * class [GridCells](../../gridcells)
 * namespace [Aspose.Cells.GridDesktop.Data](../../gridcells)

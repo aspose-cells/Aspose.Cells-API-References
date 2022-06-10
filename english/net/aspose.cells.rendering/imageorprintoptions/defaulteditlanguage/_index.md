@@ -1,7 +1,7 @@
 ---
 title: DefaultEditLanguage
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets default edit language.
 type: docs
 weight: 70
 url: /net/aspose.cells.rendering/imageorprintoptions/defaulteditlanguage/

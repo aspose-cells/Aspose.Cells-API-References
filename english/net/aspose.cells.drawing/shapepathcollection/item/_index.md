@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets a creation path.
 type: docs
 weight: 20
 url: /net/aspose.cells.drawing/shapepathcollection/item/

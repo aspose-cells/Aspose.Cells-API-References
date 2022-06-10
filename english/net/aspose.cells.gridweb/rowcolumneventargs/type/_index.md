@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The row or column type.
 type: docs
 weight: 40
 url: /net/aspose.cells.gridweb/rowcolumneventargs/type/

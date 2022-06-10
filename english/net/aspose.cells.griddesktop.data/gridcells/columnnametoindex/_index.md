@@ -1,7 +1,7 @@
 ---
 title: ColumnNameToIndex
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets column index according to column name.
 type: docs
 weight: 780
 url: /net/aspose.cells.griddesktop.data/gridcells/columnnametoindex/

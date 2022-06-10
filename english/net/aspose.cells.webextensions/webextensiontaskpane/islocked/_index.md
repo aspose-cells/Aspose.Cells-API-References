@@ -1,7 +1,7 @@
 ---
 title: IsLocked
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the taskpane is locked to the document in the UI and cannot be closed by the user.
 type: docs
 weight: 20
 url: /net/aspose.cells.webextensions/webextensiontaskpane/islocked/

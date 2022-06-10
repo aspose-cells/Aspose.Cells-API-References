@@ -1,9 +1,9 @@
 ---
 title: Axis
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the object that represents a charts axis.
 type: docs
-weight: 350
+weight: 360
 url: /net/aspose.cells.charts/axis/
 ---
 ## Axis class

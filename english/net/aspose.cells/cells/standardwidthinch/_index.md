@@ -1,7 +1,7 @@
 ---
 title: StandardWidthInch
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the default column width in the worksheet in unit of inches.
 type: docs
 weight: 290
 url: /net/aspose.cells/cells/standardwidthinch/

@@ -1,9 +1,9 @@
 ---
 title: CurrentRegion
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns a Range object that represents the current region. The current region is a range bounded by any combination of blank rows and blank columns.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.cells/range/currentregion/
 ---
 ## Range.CurrentRegion property

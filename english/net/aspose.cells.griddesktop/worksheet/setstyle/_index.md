@@ -1,12 +1,12 @@
 ---
 title: SetStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets style object to cellRange.
 type: docs
 weight: 1100
 url: /net/aspose.cells.griddesktop/worksheet/setstyle/
 ---
-## Worksheet.SetStyle method (1 of 2)
+## SetStyle(CellRange, Style) {#setstyle}
 
 Sets style object to cellRange.
 
@@ -29,7 +29,7 @@ public void SetStyle(CellRange range, Style style)
 
 ---
 
-## Worksheet.SetStyle method (2 of 2)
+## SetStyle(GridCellArea, Style) {#setstyle_1}
 
 Sets style object to cellRange.
 

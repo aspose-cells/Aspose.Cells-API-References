@@ -1,9 +1,9 @@
 ---
 title: ReferredArea
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a referred area by the formula.
 type: docs
-weight: 5040
+weight: 5080
 url: /net/aspose.cells/referredarea/
 ---
 ## ReferredArea class
@@ -31,10 +31,10 @@ public class ReferredArea
 
 | Name | Description |
 | --- | --- |
-| [GetValue](../../aspose.cells/referredarea/getvalue)(int, int) | Gets cell value with given offset from the top-left of this area. |
-| [GetValue](../../aspose.cells/referredarea/getvalue)(int, int, bool) | Gets cell value with given offset from the top-left of this area. |
-| [GetValues](../../aspose.cells/referredarea/getvalues)() | Gets cell values in this area. |
-| [GetValues](../../aspose.cells/referredarea/getvalues)(bool) | Gets cell values in this area. |
+| [GetValue](../../aspose.cells/referredarea/getvalue#getvalue)(int, int) | Gets cell value with given offset from the top-left of this area. |
+| [GetValue](../../aspose.cells/referredarea/getvalue#getvalue_1)(int, int, bool) | Gets cell value with given offset from the top-left of this area. |
+| [GetValues](../../aspose.cells/referredarea/getvalues#getvalues)() | Gets cell values in this area. |
+| [GetValues](../../aspose.cells/referredarea/getvalues#getvalues_1)(bool) | Gets cell values in this area. |
 | override [ToString](../../aspose.cells/referredarea/tostring)() | Returns the simple string representation of this area. |
 
 ### See Also

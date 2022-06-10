@@ -1,7 +1,7 @@
 ---
 title: SetColumnReadonly
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets a column to readonly so user cant delete it from client side. this is extended method of GridWeb specificallyit will not keep and take affect in actual excel file
 type: docs
 weight: 740
 url: /net/aspose.cells.gridweb.data/gridworksheet/setcolumnreadonly/

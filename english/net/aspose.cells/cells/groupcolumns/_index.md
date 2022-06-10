@@ -1,12 +1,12 @@
 ---
 title: GroupColumns
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Groups columns.
 type: docs
-weight: 860
+weight: 880
 url: /net/aspose.cells/cells/groupcolumns/
 ---
-## Cells.GroupColumns method (1 of 2)
+## GroupColumns(int, int) {#groupcolumns}
 
 Groups columns.
 
@@ -27,7 +27,7 @@ public void GroupColumns(int firstIndex, int lastIndex)
 
 ---
 
-## Cells.GroupColumns method (2 of 2)
+## GroupColumns(int, int, bool) {#groupcolumns_1}
 
 Groups columns.
 

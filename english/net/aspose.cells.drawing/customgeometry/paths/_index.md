@@ -1,7 +1,7 @@
 ---
 title: Paths
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets path collection information when shape is a NotPrimitive autoshape
 type: docs
 weight: 10
 url: /net/aspose.cells.drawing/customgeometry/paths/

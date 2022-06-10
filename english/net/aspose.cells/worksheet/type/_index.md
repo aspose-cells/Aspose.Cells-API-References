@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents worksheet type.
 type: docs
 weight: 520
 url: /net/aspose.cells/worksheet/type/

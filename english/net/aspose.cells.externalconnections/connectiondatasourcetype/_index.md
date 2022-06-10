@@ -1,9 +1,9 @@
 ---
 title: ConnectionDataSourceType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies external database source type
 type: docs
-weight: 3220
+weight: 3250
 url: /net/aspose.cells.externalconnections/connectiondatasourcetype/
 ---
 ## ConnectionDataSourceType enumeration

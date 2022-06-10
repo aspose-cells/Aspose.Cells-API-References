@@ -1,7 +1,7 @@
 ---
 title: IsTemplate
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether saving a template file.
 type: docs
 weight: 20
 url: /net/aspose.cells/xlssaveoptions/istemplate/

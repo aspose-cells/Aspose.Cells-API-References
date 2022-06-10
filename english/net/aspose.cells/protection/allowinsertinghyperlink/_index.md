@@ -1,7 +1,7 @@
 ---
 title: AllowInsertingHyperlink
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents if the insertion of hyperlinks is allowed on a protected worksheet
 type: docs
 weight: 110
 url: /net/aspose.cells/protection/allowinsertinghyperlink/

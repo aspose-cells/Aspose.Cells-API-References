@@ -1,9 +1,9 @@
 ---
 title: ThreadedCommentAuthorCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents all persons who .
 type: docs
-weight: 6030
+weight: 6070
 url: /net/aspose.cells/threadedcommentauthorcollection/
 ---
 ## ThreadedCommentAuthorCollection class
@@ -54,7 +54,7 @@ public class ThreadedCommentAuthorCollection : CollectionBase<ThreadedCommentAut
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;ThreadedCommentAuthor&gt;) |  |
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;ThreadedCommentAuthor&gt;) |  |
 | [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/threadedcommentauthorcollection/indexof)(ThreadedCommentAuthor) | Gets the index of ThreadedCommentAuthor object (2 methods) |
+| [IndexOf](../../aspose.cells/threadedcommentauthorcollection/indexof#indexof)(ThreadedCommentAuthor) | Gets the index of ThreadedCommentAuthor object (2 methods) |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(ThreadedCommentAuthor, int) |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(ThreadedCommentAuthor, int, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(ThreadedCommentAuthor) |  |

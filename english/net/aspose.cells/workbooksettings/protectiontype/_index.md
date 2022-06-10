@@ -1,9 +1,9 @@
 ---
 title: ProtectionType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the protection type of the workbook.
 type: docs
-weight: 350
+weight: 450
 url: /net/aspose.cells/workbooksettings/protectiontype/
 ---
 ## WorkbookSettings.ProtectionType property

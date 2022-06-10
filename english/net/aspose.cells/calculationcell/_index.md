@@ -1,7 +1,7 @@
 ---
 title: CalculationCell
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the calculation relevant data about one cell which is being calculated.
 type: docs
 weight: 190
 url: /net/aspose.cells/calculationcell/

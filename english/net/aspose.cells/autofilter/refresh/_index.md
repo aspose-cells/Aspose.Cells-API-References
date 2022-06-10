@@ -1,12 +1,12 @@
 ---
 title: Refresh
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Refresh auto filters to hide or unhide the rows.
 type: docs
 weight: 170
 url: /net/aspose.cells/autofilter/refresh/
 ---
-## AutoFilter.Refresh method (1 of 2)
+## Refresh() {#refresh}
 
 Refresh auto filters to hide or unhide the rows.
 
@@ -26,7 +26,7 @@ Returns all hidden rows' indexes.
 
 ---
 
-## AutoFilter.Refresh method (2 of 2)
+## Refresh(bool) {#refresh_1}
 
 Gets all hidden rows' indexes.
 

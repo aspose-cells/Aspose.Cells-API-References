@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the number of elements.
 type: docs
 weight: 20
 url: /net/aspose.cells/collectionbase-1/count/

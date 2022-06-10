@@ -1,9 +1,9 @@
 ---
 title: LastPrinted
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the date when the document was last printed in local timezone.
 type: docs
-weight: 140
+weight: 170
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/lastprinted/
 ---
 ## BuiltInDocumentPropertyCollection.LastPrinted property

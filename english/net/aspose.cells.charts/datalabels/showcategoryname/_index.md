@@ -1,9 +1,9 @@
 ---
 title: ShowCategoryName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a specified charts data label category name display behavior.True to display the category name for the data labels on a chart. False to hide.
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.cells.charts/datalabels/showcategoryname/
 ---
 ## DataLabels.ShowCategoryName property

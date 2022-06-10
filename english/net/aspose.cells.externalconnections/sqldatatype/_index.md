@@ -1,9 +1,9 @@
 ---
 title: SqlDataType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies SQL data type of the parameter. Only valid for ODBC sources.
 type: docs
-weight: 3330
+weight: 3360
 url: /net/aspose.cells.externalconnections/sqldatatype/
 ---
 ## SqlDataType enumeration

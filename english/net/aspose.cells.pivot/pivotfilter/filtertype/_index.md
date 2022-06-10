@@ -1,7 +1,7 @@
 ---
 title: FilterType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the autofilter type of the pivot filter.
 type: docs
 weight: 40
 url: /net/aspose.cells.pivot/pivotfilter/filtertype/

@@ -1,9 +1,9 @@
 ---
 title: InsertCutCells
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Insert cut range.
 type: docs
-weight: 1080
+weight: 1140
 url: /net/aspose.cells/cells/insertcutcells/
 ---
 ## Cells.InsertCutCells method

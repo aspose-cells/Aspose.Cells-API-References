@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Remove all elements.
 type: docs
 weight: 50
 url: /net/aspose.cells/collectionbase-1/clear/

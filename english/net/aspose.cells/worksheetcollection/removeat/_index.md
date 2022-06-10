@@ -1,12 +1,12 @@
 ---
 title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Removes the element at a specified name.
 type: docs
 weight: 300
 url: /net/aspose.cells/worksheetcollection/removeat/
 ---
-## WorksheetCollection.RemoveAt method (1 of 2)
+## RemoveAt(string) {#removeat_2}
 
 Removes the element at a specified name.
 
@@ -26,7 +26,7 @@ public void RemoveAt(string name)
 
 ---
 
-## WorksheetCollection.RemoveAt method (2 of 2)
+## RemoveAt(int) {#removeat}
 
 Removes the element at a specified index.
 

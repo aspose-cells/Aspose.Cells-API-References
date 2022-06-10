@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the type of the ActiveX control.
 type: docs
 weight: 70
 url: /net/aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/type/

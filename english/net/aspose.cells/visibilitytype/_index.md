@@ -1,9 +1,9 @@
 ---
 title: VisibilityType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the states for sheet visibility.
 type: docs
-weight: 6330
+weight: 6370
 url: /net/aspose.cells/visibilitytype/
 ---
 ## VisibilityType enumeration

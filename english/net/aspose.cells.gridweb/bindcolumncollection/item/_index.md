@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the bind column by an integer index or a data field name.
 type: docs
 weight: 50
 url: /net/aspose.cells.gridweb/bindcolumncollection/item/

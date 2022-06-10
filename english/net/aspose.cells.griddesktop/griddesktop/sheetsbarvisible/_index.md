@@ -1,7 +1,7 @@
 ---
 title: SheetsBarVisible
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether sheet bar is visible.
 type: docs
 weight: 250
 url: /net/aspose.cells.griddesktop/griddesktop/sheetsbarvisible/

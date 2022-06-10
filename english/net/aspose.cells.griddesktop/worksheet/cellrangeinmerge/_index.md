@@ -1,7 +1,7 @@
 ---
 title: CellRangeInMerge
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets a value that indicates whether the specified cell range in merges.
 type: docs
 weight: 550
 url: /net/aspose.cells.griddesktop/worksheet/cellrangeinmerge/

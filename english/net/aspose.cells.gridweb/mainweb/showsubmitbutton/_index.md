@@ -1,7 +1,7 @@
 ---
 title: ShowSubmitButton
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets whether to show the submit button.
 type: docs
 weight: 960
 url: /net/aspose.cells.gridweb/mainweb/showsubmitbutton/

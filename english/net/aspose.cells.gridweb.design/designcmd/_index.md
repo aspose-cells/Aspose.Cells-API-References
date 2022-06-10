@@ -1,9 +1,9 @@
 ---
 title: DesignCmd
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Internal used only.
 type: docs
-weight: 750
+weight: 960
 url: /net/aspose.cells.gridweb.design/designcmd/
 ---
 ## DesignCmd enumeration

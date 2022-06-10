@@ -1,7 +1,7 @@
 ---
 title: DeleteShape
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Delete a shape. If the shape is in the group or is a comment shape it will not be deleted.
 type: docs
 weight: 400
 url: /net/aspose.cells.drawing/shapecollection/deleteshape/

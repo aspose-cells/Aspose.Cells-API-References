@@ -1,7 +1,7 @@
 ---
 title: AddDateFilter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a date filter.
 type: docs
 weight: 50
 url: /net/aspose.cells/autofilter/adddatefilter/

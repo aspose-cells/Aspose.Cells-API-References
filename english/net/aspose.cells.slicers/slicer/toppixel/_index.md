@@ -1,7 +1,7 @@
 ---
 title: TopPixel
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns or sets the vertical offset of slicer shape from its top row in pixels.
 type: docs
 weight: 220
 url: /net/aspose.cells.slicers/slicer/toppixel/

@@ -1,9 +1,9 @@
 ---
 title: ShapeLockType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents type of the property to be locked.
 type: docs
-weight: 2670
+weight: 2700
 url: /net/aspose.cells.drawing/shapelocktype/
 ---
 ## ShapeLockType enumeration

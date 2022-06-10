@@ -1,9 +1,9 @@
 ---
 title: Copy
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Copy protection info.
 type: docs
-weight: 190
+weight: 350
 url: /net/aspose.cells/protection/copy/
 ---
 ## Protection.Copy method

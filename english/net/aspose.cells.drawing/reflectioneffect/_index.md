@@ -1,9 +1,9 @@
 ---
 title: ReflectionEffect
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: This class specifies a reflection effect.
 type: docs
-weight: 2570
+weight: 2590
 url: /net/aspose.cells.drawing/reflectioneffect/
 ---
 ## ReflectionEffect class

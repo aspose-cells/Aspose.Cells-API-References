@@ -1,9 +1,9 @@
 ---
 title: ActiveXControlBase
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the ActiveX control.
 type: docs
-weight: 1450
+weight: 1470
 url: /net/aspose.cells.drawing.activexcontrols/activexcontrolbase/
 ---
 ## ActiveXControlBase class

@@ -1,7 +1,7 @@
 ---
 title: Direction
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the direction the databar is displayed.
 type: docs
 weight: 60
 url: /net/aspose.cells/databar/direction/

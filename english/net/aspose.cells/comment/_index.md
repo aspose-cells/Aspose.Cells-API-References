@@ -1,9 +1,9 @@
 ---
 title: Comment
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the object that represents a cell comment.
 type: docs
-weight: 1070
+weight: 1090
 url: /net/aspose.cells/comment/
 ---
 ## Comment class

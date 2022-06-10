@@ -1,9 +1,9 @@
 ---
 title: OoxmlSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the options of saving office open xml file.
 type: docs
-weight: 4360
+weight: 4400
 url: /net/aspose.cells/ooxmlsaveoptions/
 ---
 ## OoxmlSaveOptions class
@@ -18,8 +18,8 @@ public class OoxmlSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [OoxmlSaveOptions](ooxmlsaveoptions)() | Creates the options for saving office open xml file. |
-| [OoxmlSaveOptions](ooxmlsaveoptions)(SaveFormat) | Creates the options for saving office open xml file. |
+| [OoxmlSaveOptions](ooxmlsaveoptions#constructor)() | Creates the options for saving office open xml file. |
+| [OoxmlSaveOptions](ooxmlsaveoptions#constructor_1)(SaveFormat) | Creates the options for saving office open xml file. |
 
 ## Properties
 
@@ -30,10 +30,12 @@ public class OoxmlSaveOptions : SaveOptions
 | [CompressionType](../../aspose.cells/ooxmlsaveoptions/compressiontype) { get; set; } | Gets and sets the compression type for ooxml file. |
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [EmbedOoxmlAsOleObject](../../aspose.cells/ooxmlsaveoptions/embedooxmlasoleobject) { get; set; } | Indicates whether embedding Ooxml files of OleObject as ole object. |
+| [EnableHTTPCompression](../../aspose.cells/saveoptions/enablehttpcompression) { get; set; } | Indicates if http compression is to be used in user's IIS. |
 | [EnableZip64](../../aspose.cells/ooxmlsaveoptions/enablezip64) { get; set; } | Always use ZIP64 extensions when writing zip archives, even when unnecessary. |
 | [ExportCellName](../../aspose.cells/ooxmlsaveoptions/exportcellname) { get; set; } | Indicates if export cell name to Excel2007 .xlsx (.xlsm, .xltx, .xltm) file. If the output file may be accessed by SQL Server DTS, this value must be true. Setting the value to false will highly increase the performance and reduce the file size when creating large file. Default value is true. |
 | [LightCellsDataProvider](../../aspose.cells/ooxmlsaveoptions/lightcellsdataprovider) { get; set; } | The Data provider to provide cells data for saving workbook in light mode. |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [PdfExportImagesFolder](../../aspose.cells/saveoptions/pdfexportimagesfolder) { get; set; } | The physical folder where images will be saved when exporting a workbook to Aspose.Pdf XML format. Default is an empty string. |
 | [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Indicates whether refreshing chart cache data |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Gets the save file format. |
 | [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | Indicates whether sorting external defined names before saving file. |

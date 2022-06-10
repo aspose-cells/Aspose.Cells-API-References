@@ -1,7 +1,7 @@
 ---
 title: IsLink
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns true if the OleObject links to the file.
 type: docs
 weight: 110
 url: /net/aspose.cells.drawing/oleobject/islink/

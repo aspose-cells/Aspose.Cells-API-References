@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the Range title. This is used as a descriptor not as a named range definition.
 type: docs
 weight: 20
 url: /net/aspose.cells/protectedrange/name/

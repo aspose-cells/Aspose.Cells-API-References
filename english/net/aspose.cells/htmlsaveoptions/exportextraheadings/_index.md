@@ -1,7 +1,7 @@
 ---
 title: ExportExtraHeadings
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether exporting extra headings when the length of text is longer than max display column. The default value is false. If you want to import the html file to excel please keep the default value.
 type: docs
 weight: 160
 url: /net/aspose.cells/htmlsaveoptions/exportextraheadings/

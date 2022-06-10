@@ -1,9 +1,9 @@
 ---
 title: IsGradient
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the cell shading is a gradient pattern.
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.cells/style/isgradient/
 ---
 ## Style.IsGradient property

@@ -1,7 +1,7 @@
 ---
 title: CaseSensitive
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets whether case sensitive when comparing string.
 type: docs
 weight: 10
 url: /net/aspose.cells/datasorter/casesensitive/

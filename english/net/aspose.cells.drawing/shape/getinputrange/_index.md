@@ -1,9 +1,9 @@
 ---
 title: GetInputRange
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the range used to fill the control.
 type: docs
-weight: 1030
+weight: 1090
 url: /net/aspose.cells.drawing/shape/getinputrange/
 ---
 ## Shape.GetInputRange method

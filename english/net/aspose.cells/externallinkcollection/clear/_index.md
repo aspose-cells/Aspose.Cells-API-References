@@ -1,12 +1,12 @@
 ---
 title: Clear
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Removes all external links.
 type: docs
 weight: 40
 url: /net/aspose.cells/externallinkcollection/clear/
 ---
-## ExternalLinkCollection.Clear method (1 of 2)
+## Clear() {#clear}
 
 Removes all external links.
 
@@ -26,7 +26,7 @@ When removing external links, all formulas that reference to them will be remove
 
 ---
 
-## ExternalLinkCollection.Clear method (2 of 2)
+## Clear(bool) {#clear_1}
 
 Removes all external links.
 

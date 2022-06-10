@@ -1,12 +1,12 @@
 ---
 title: RemoveField
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Removes a field from specific field area
 type: docs
-weight: 910
+weight: 920
 url: /net/aspose.cells.pivot/pivottable/removefield/
 ---
-## PivotTable.RemoveField method (1 of 3)
+## RemoveField(PivotFieldType, string) {#removefield_2}
 
 Removes a field from specific field area
 
@@ -28,7 +28,7 @@ public void RemoveField(PivotFieldType fieldType, string fieldName)
 
 ---
 
-## PivotTable.RemoveField method (2 of 3)
+## RemoveField(PivotFieldType, int) {#removefield_1}
 
 Removes a field from specific field area
 
@@ -50,7 +50,7 @@ public void RemoveField(PivotFieldType fieldType, int baseFieldIndex)
 
 ---
 
-## PivotTable.RemoveField method (3 of 3)
+## RemoveField(PivotFieldType, PivotField) {#removefield}
 
 Remove field from specific field area
 

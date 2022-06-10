@@ -1,7 +1,7 @@
 ---
 title: UserPassword
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the user password
 type: docs
 weight: 120
 url: /net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/userpassword/

@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets value of this guide
 type: docs
 weight: 10
 url: /net/aspose.cells.drawing/shapeguide/value/

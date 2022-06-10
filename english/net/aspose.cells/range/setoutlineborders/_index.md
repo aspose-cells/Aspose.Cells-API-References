@@ -1,12 +1,12 @@
 ---
 title: SetOutlineBorders
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the outline borders around a range of cells with same border style and color.
 type: docs
-weight: 350
+weight: 360
 url: /net/aspose.cells/range/setoutlineborders/
 ---
-## Range.SetOutlineBorders method (1 of 2)
+## SetOutlineBorders(CellBorderType, Color) {#setoutlineborders}
 
 Sets the outline borders around a range of cells with same border style and color.
 
@@ -28,7 +28,7 @@ public void SetOutlineBorders(CellBorderType borderStyle, Color borderColor)
 
 ---
 
-## Range.SetOutlineBorders method (2 of 2)
+## SetOutlineBorders(CellBorderType[], Color[]) {#setoutlineborders_1}
 
 Sets out line borders around a range of cells.
 

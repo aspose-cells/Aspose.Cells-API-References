@@ -1,9 +1,9 @@
 ---
 title: Font
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the font object used in a spreadsheet.
 type: docs
-weight: 3480
+weight: 3510
 url: /net/aspose.cells/font/
 ---
 ## Font class
@@ -41,7 +41,7 @@ public class Font
 
 | Name | Description |
 | --- | --- |
-| [Equals](../../aspose.cells/font/equals)(Font) | Checks if two fonts are equals. |
+| [Equals](../../aspose.cells/font/equals#equals)(Font) | Checks if two fonts are equals. |
 | override [ToString](../../aspose.cells/font/tostring)() | Returns a string represents the current Cell object. |
 
 ### Examples

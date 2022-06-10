@@ -1,12 +1,12 @@
 ---
 title: AutoFitRows
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Autofits all rows in this worksheet.
 type: docs
 weight: 410
 url: /net/aspose.cells.gridweb.data/gridworksheet/autofitrows/
 ---
-## GridWorksheet.AutoFitRows method (1 of 3)
+## AutoFitRows() {#autofitrows}
 
 Autofits all rows in this worksheet.
 
@@ -22,7 +22,7 @@ public void AutoFitRows()
 
 ---
 
-## GridWorksheet.AutoFitRows method (2 of 3)
+## AutoFitRows(bool) {#autofitrows_1}
 
 Autofits all rows in this worksheet.
 
@@ -42,7 +42,7 @@ public void AutoFitRows(bool onlyAuto)
 
 ---
 
-## GridWorksheet.AutoFitRows method (3 of 3)
+## AutoFitRows(int, int) {#autofitrows_2}
 
 Autofits row height in a range.
 

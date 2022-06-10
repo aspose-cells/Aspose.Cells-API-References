@@ -1,9 +1,9 @@
 ---
 title: IsInnerMode
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the size of the plot area size includes the tick marks and the axis labels. False specifies that the size shall determine the size of the plot area the tick marks and the axis labels.
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.cells.charts/chartframe/isinnermode/
 ---
 ## ChartFrame.IsInnerMode property

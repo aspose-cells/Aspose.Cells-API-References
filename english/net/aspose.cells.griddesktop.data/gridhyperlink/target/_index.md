@@ -1,7 +1,7 @@
 ---
 title: Target
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get or Set web link target typeplease note this is an extension attribute and can not keep in excel file
 type: docs
 weight: 70
 url: /net/aspose.cells.griddesktop.data/gridhyperlink/target/

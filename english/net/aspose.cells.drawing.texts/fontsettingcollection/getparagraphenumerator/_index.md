@@ -1,7 +1,7 @@
 ---
 title: GetParagraphEnumerator
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the enumerator of the paragraphs.
 type: docs
 weight: 120
 url: /net/aspose.cells.drawing.texts/fontsettingcollection/getparagraphenumerator/

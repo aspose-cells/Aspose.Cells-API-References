@@ -1,9 +1,9 @@
 ---
 title: LineFormat
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents all setting of the line.
 type: docs
-weight: 2210
+weight: 2230
 url: /net/aspose.cells.drawing/lineformat/
 ---
 ## LineFormat class
@@ -42,10 +42,12 @@ public class LineFormat : FillFormat
 | [PictureFormatType](../../aspose.cells.drawing/fillformat/pictureformattype) { get; set; } | Gets and sets the picture format type. |
 | [PresetColor](../../aspose.cells.drawing/fillformat/presetcolor) { get; } | Returns the gradient preset color for the specified fill. |
 | [Scale](../../aspose.cells.drawing/fillformat/scale) { get; set; } | Gets and sets the picture format scale. |
+| [SetType](../../aspose.cells.drawing/fillformat/settype) { get; set; } | Gets the fill format set type. |
 | [SolidFill](../../aspose.cells.drawing/fillformat/solidfill) { get; } | Gets [`SolidFill`](../fillformat/solidfill) object. |
 | [Texture](../../aspose.cells.drawing/fillformat/texture) { get; set; } | Represents the texture type for the specified fill. |
 | [TextureFill](../../aspose.cells.drawing/fillformat/texturefill) { get; } | Gets [`TextureFill`](../fillformat/texturefill) object. |
 | [Transparency](../../aspose.cells.drawing/fillformat/transparency) { get; set; } | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
+| [Type](../../aspose.cells.drawing/fillformat/type) { get; set; } | Gets and sets the fill type. |
 | [Weight](../../aspose.cells.drawing/lineformat/weight) { get; set; } | Gets or sets the weight of the line in unit of points. |
 
 ## Methods

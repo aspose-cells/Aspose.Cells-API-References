@@ -1,7 +1,7 @@
 ---
 title: LogBase
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the logarithmic base. Default value is 10.Only applies for Excel2007.
 type: docs
 weight: 230
 url: /net/aspose.cells.charts/axis/logbase/

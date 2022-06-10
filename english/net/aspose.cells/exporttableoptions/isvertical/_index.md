@@ -1,7 +1,7 @@
 ---
 title: IsVertical
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: True if a row in Workbook file represents a row in DataTable. False if a column in Workbook file represents a row in DataTable.
 type: docs
 weight: 90
 url: /net/aspose.cells/exporttableoptions/isvertical/

@@ -1,9 +1,9 @@
 ---
 title: FontSetting
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a range of characters within the cell text.
 type: docs
-weight: 3510
+weight: 3540
 url: /net/aspose.cells/fontsetting/
 ---
 ## FontSetting class

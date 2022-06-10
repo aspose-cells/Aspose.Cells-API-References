@@ -1,7 +1,7 @@
 ---
 title: TextCrossType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets displaying text type when the text width is larger than cell width.
 type: docs
 weight: 320
 url: /net/aspose.cells/pdfsaveoptions/textcrosstype/

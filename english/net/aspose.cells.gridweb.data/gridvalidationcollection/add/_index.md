@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Add a GridValidationaspose.cells.gridweb.data/gridvalidation to the collection.
 type: docs
 weight: 30
 url: /net/aspose.cells.gridweb.data/gridvalidationcollection/add/
 ---
-## GridValidationCollection.Add method (1 of 4)
+## Add(GridValidation) {#add_4}
 
 Add a [`GridValidation`](../../gridvalidation) to the collection.
 
@@ -31,7 +31,33 @@ public int Add(GridValidation validation)
 
 ---
 
-## GridValidationCollection.Add method (2 of 4)
+## Add() {#add}
+
+Add a [`GridValidation`](../../gridvalidation) to the collection.
+
+```csharp
+[Obsolete("Use GridValidationCollection.Add(row,col) method instead.")]
+public GridValidation Add()
+```
+
+### Return Value
+
+[`GridValidation`](../../gridvalidation) the added GridValidation instance.
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use GridValidationCollection.Add(row,col) method. This property will be removed 12 months later since JANUARY 2015. Aspose apologizes for any inconvenience you may have experienced.
+
+### See Also
+
+* class [GridValidation](../../gridvalidation)
+* class [GridValidationCollection](../../gridvalidationcollection)
+* namespace [Aspose.Cells.GridWeb.Data](../../gridvalidationcollection)
+* assembly [Aspose.Cells.GridWeb](../../../)
+
+---
+
+## Add(GridCellArea) {#add_1}
 
 Adds a data validation to the collection.
 
@@ -57,7 +83,7 @@ public GridValidation Add(GridCellArea ca)
 
 ---
 
-## GridValidationCollection.Add method (3 of 4)
+## Add(string) {#add_3}
 
 Add a [`GridValidation`](../../gridvalidation) to the collection.the validation is applied to the specificed cell.
 
@@ -82,7 +108,7 @@ public GridValidation Add(string cellname)
 
 ---
 
-## GridValidationCollection.Add method (4 of 4)
+## Add(int, int) {#add_2}
 
 Add a [`GridValidation`](../../gridvalidation) to the collection.the validation is applied to the specificed cell.
 

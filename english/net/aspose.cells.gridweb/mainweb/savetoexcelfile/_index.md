@@ -1,12 +1,12 @@
 ---
 title: SaveToExcelFile
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Saves the worksheets to an excel file with Excel 2003 format.
 type: docs
 weight: 1500
 url: /net/aspose.cells.gridweb/mainweb/savetoexcelfile/
 ---
-## MainWeb.SaveToExcelFile method (1 of 6)
+## SaveToExcelFile(string) {#savetoexcelfile_3}
 
 Saves the worksheets to an excel file with Excel 2003 format.
 
@@ -26,7 +26,7 @@ public void SaveToExcelFile(string targetFile)
 
 ---
 
-## MainWeb.SaveToExcelFile method (2 of 6)
+## SaveToExcelFile(Stream) {#savetoexcelfile}
 
 Saves the worksheets to an excel file.
 
@@ -47,7 +47,7 @@ public void SaveToExcelFile(Stream stream)
 
 ---
 
-## MainWeb.SaveToExcelFile method (3 of 6)
+## SaveToExcelFile(Stream, GridSaveFormat) {#savetoexcelfile_1}
 
 Saves the worksheets to an excel file.
 
@@ -69,7 +69,7 @@ public void SaveToExcelFile(Stream stream, GridSaveFormat format)
 
 ---
 
-## MainWeb.SaveToExcelFile method (4 of 6)
+## SaveToExcelFile(Stream, GridSaveOptions) {#savetoexcelfile_2}
 
 Saves the worksheets to an excel file.
 
@@ -91,7 +91,7 @@ public void SaveToExcelFile(Stream stream, GridSaveOptions saveOptions)
 
 ---
 
-## MainWeb.SaveToExcelFile method (5 of 6)
+## SaveToExcelFile(string, GridSaveFormat) {#savetoexcelfile_4}
 
 Saves the worksheets to an excel file.
 
@@ -113,7 +113,7 @@ public void SaveToExcelFile(string targetFile, GridSaveFormat format)
 
 ---
 
-## MainWeb.SaveToExcelFile method (6 of 6)
+## SaveToExcelFile(string, GridSaveOptions) {#savetoexcelfile_5}
 
 Saves the worksheets to an excel file.
 

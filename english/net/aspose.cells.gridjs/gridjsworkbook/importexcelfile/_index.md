@@ -1,12 +1,12 @@
 ---
 title: ImportExcelFile
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Imports from an excel file.
 type: docs
 weight: 90
 url: /net/aspose.cells.gridjs/gridjsworkbook/importexcelfile/
 ---
-## GridJsWorkbook.ImportExcelFile method (1 of 9)
+## ImportExcelFile(string, string, string) {#importexcelfile_8}
 
 Imports from an excel file.
 
@@ -28,7 +28,7 @@ public void ImportExcelFile(string uid, string fileName, string password)
 
 ---
 
-## GridJsWorkbook.ImportExcelFile method (2 of 9)
+## ImportExcelFile(string, string) {#importexcelfile_7}
 
 Imports from an excel file.
 
@@ -49,7 +49,7 @@ public void ImportExcelFile(string uid, string fileName)
 
 ---
 
-## GridJsWorkbook.ImportExcelFile method (3 of 9)
+## ImportExcelFile(string) {#importexcelfile_3}
 
 Imports from an excel file.
 
@@ -69,7 +69,7 @@ public void ImportExcelFile(string fileName)
 
 ---
 
-## GridJsWorkbook.ImportExcelFile method (4 of 9)
+## ImportExcelFile(Workbook) {#importexcelfile}
 
 Imports from Workbook.
 
@@ -89,7 +89,7 @@ public void ImportExcelFile(Workbook wb)
 
 ---
 
-## GridJsWorkbook.ImportExcelFile method (5 of 9)
+## ImportExcelFile(string, Workbook) {#importexcelfile_4}
 
 Imports from an excel file.
 
@@ -110,7 +110,7 @@ public void ImportExcelFile(string uid, Workbook wb)
 
 ---
 
-## GridJsWorkbook.ImportExcelFile method (6 of 9)
+## ImportExcelFile(string, Stream, GridLoadFormat, string) {#importexcelfile_6}
 
 Imports from an excel file stream.must provide loadformat and can set GridJsWorkbook.CacheImp to implement stream cache
 
@@ -134,7 +134,7 @@ public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format
 
 ---
 
-## GridJsWorkbook.ImportExcelFile method (7 of 9)
+## ImportExcelFile(string, Stream, GridLoadFormat) {#importexcelfile_5}
 
 Imports from an excel file stream.must provide loadformat and can set GridJsWorkbook.CacheImp to implement stream cache
 
@@ -157,7 +157,7 @@ public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format
 
 ---
 
-## GridJsWorkbook.ImportExcelFile method (8 of 9)
+## ImportExcelFile(Stream, GridLoadFormat, string) {#importexcelfile_2}
 
 Imports from an excel file stream.must provide loadformat and can set GridJsWorkbook.CacheImp to implement stream cache
 
@@ -180,7 +180,7 @@ public void ImportExcelFile(Stream filestream, GridLoadFormat format, string pas
 
 ---
 
-## GridJsWorkbook.ImportExcelFile method (9 of 9)
+## ImportExcelFile(Stream, GridLoadFormat) {#importexcelfile_1}
 
 Imports from an excel file stream.must provide loadformat and can set GridJsWorkbook.CacheImp to implement stream cache
 

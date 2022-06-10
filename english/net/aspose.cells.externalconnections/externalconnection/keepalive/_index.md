@@ -1,9 +1,9 @@
 ---
 title: KeepAlive
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: True when the spreadsheet application should make efforts to keep the connection open. When false the application should close the connection after retrieving the information.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.cells.externalconnections/externalconnection/keepalive/
 ---
 ## ExternalConnection.KeepAlive property

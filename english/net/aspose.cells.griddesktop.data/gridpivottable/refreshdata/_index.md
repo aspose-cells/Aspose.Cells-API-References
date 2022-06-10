@@ -1,7 +1,7 @@
 ---
 title: RefreshData
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Refreshes pivottables data and setting from its data source.
 type: docs
 weight: 50
 url: /net/aspose.cells.griddesktop.data/gridpivottable/refreshdata/

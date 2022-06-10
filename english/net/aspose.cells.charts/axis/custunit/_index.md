@@ -1,7 +1,7 @@
 ---
 title: CustUnit
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies a custom value for the display unit.
 type: docs
 weight: 100
 url: /net/aspose.cells.charts/axis/custunit/

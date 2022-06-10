@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets RevisionLogaspose.cells.revisions/revisionlog by index.
 type: docs
 weight: 20
 url: /net/aspose.cells.revisions/revisionlogcollection/item/

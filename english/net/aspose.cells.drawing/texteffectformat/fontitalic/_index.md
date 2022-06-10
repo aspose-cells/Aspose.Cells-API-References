@@ -1,7 +1,7 @@
 ---
 title: FontItalic
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether font is italic.
 type: docs
 weight: 20
 url: /net/aspose.cells.drawing/texteffectformat/fontitalic/

@@ -1,7 +1,7 @@
 ---
 title: SetBorderLine
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the border line type of the specified border.
 type: docs
 weight: 190
 url: /net/aspose.cells.griddesktop/style/setborderline/

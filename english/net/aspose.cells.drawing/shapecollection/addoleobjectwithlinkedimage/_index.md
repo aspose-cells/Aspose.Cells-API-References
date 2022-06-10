@@ -1,7 +1,7 @@
 ---
 title: AddOleObjectWithLinkedImage
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Add a linked picture.
 type: docs
 weight: 190
 url: /net/aspose.cells.drawing/shapecollection/addoleobjectwithlinkedimage/

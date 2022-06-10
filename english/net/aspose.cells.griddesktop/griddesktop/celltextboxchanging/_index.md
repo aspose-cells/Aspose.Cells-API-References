@@ -1,7 +1,7 @@
 ---
 title: CellTextBoxChanging
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Occurs when typing characters in a grid cell.
 type: docs
 weight: 480
 url: /net/aspose.cells.griddesktop/griddesktop/celltextboxchanging/

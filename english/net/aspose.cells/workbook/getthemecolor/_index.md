@@ -1,9 +1,9 @@
 ---
 title: GetThemeColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets theme color.
 type: docs
-weight: 450
+weight: 460
 url: /net/aspose.cells/workbook/getthemecolor/
 ---
 ## Workbook.GetThemeColor method

@@ -1,9 +1,9 @@
 ---
 title: OleObject
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents an OleObject in a worksheet.
 type: docs
-weight: 2420
+weight: 2440
 url: /net/aspose.cells.drawing/oleobject/
 ---
 ## OleObject class
@@ -27,11 +27,15 @@ public class OleObject : Shape
 | [AutoUpdate](../../aspose.cells.drawing/oleobject/autoupdate) { get; set; } | Specifies whether the link to the OleObject is automatically updated or not. |
 | [Bottom](../../aspose.cells.drawing/shape/bottom) { get; set; } | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [ClassIdentifier](../../aspose.cells.drawing/oleobject/classidentifier) { get; set; } | Gets and sets the class identifier of the embedded object. It means which application opens the embedded file. |
+| [ConnectionPoints](../../aspose.cells.drawing/shape/connectionpoints) { get; } | Get the connection points |
 | [ControlData](../../aspose.cells.drawing/shape/controldata) { get; } | Gets the data of control. |
+| [CreateId](../../aspose.cells.drawing/shape/createid) { get; set; } | Gets and sets create id for this shape. |
 | [DisplayAsIcon](../../aspose.cells.drawing/oleobject/displayasicon) { get; set; } | True if the specified object is displayed as an icon and the image will not be auto changed. |
 | [FileFormatType](../../aspose.cells.drawing/oleobject/fileformattype) { get; set; } | Gets and sets the file type of the embedded ole object data |
-| [Fill](../../aspose.cells.drawing/shape/fill) { get; } | Returns a FillFormat object that contains fill formatting properties for the specified shape. |
+| [Fill](../../aspose.cells.drawing/shape/fill) { get; } | Returns a [`FillFormat`](../shape/fillformat) object that contains fill formatting properties for the specified shape. |
+| [FillFormat](../../aspose.cells.drawing/shape/fillformat) { get; } | Returns a MsoFillFormat object that contains fill formatting properties for the specified shape. |
 | [Font](../../aspose.cells.drawing/shape/font) { get; set; } | Represents the font of shape. |
+| [Format](../../aspose.cells.drawing/shape/format) { get; } | Represents the setting of the shape's formatting. |
 | [FormatPicture](../../aspose.cells.drawing/shape/formatpicture) { get; } | Gets and sets the options of the picture format. |
 | [FullObjectBin](../../aspose.cells.drawing/oleobject/fullobjectbin) { get; } | Gets the full embedded ole object binary data in the template file. |
 | [Geometry](../../aspose.cells.drawing/shape/geometry) { get; } | Gets the geometry |
@@ -74,6 +78,7 @@ public class OleObject : Shape
 | [LeftInShape](../../aspose.cells.drawing/shape/leftinshape) { get; set; } | Represents the horizontal offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape. |
 | [LeftToCorner](../../aspose.cells.drawing/shape/lefttocorner) { get; set; } | Gets and sets the horizonal offset of shape from worksheet left border. |
 | [Line](../../aspose.cells.drawing/shape/line) { get; } | Gets line style |
+| [LineFormat](../../aspose.cells.drawing/shape/lineformat) { get; } | Returns a MsoLineFormat object that contains line formatting properties for the specified shape. |
 | [LinkedCell](../../aspose.cells.drawing/shape/linkedcell) { get; set; } | Gets or sets the worksheet range linked to the control's value. |
 | [LowerDeltaX](../../aspose.cells.drawing/shape/lowerdeltax) { get; set; } | Gets or sets the shape's horizontal offset from its lower right corner column. The range of value is 0 to 1024. |
 | [LowerDeltaY](../../aspose.cells.drawing/shape/lowerdeltay) { get; set; } | Gets or sets the shape's vertical offset from its lower right corner row. The range of value is 0 to 256. |
@@ -93,12 +98,14 @@ public class OleObject : Shape
 | [RotationAngle](../../aspose.cells.drawing/shape/rotationangle) { get; set; } | Gets and sets the rotation of the shape. |
 | [ShadowEffect](../../aspose.cells.drawing/shape/shadoweffect) { get; } | Represents a  object that specifies shadow effect for the chart element or shape. |
 | [SoftEdges](../../aspose.cells.drawing/shape/softedges) { get; set; } | Gets and sets the radius of blur to apply to the edges, in unit of points. |
+| [SourceFullName](../../aspose.cells.drawing/oleobject/sourcefullname) { get; set; } | Returns the source full name of the source file for the linked OLE object. |
 | [Spid](../../aspose.cells.drawing/shape/spid) { get; } | Specifies an optional string that an application can use to Identify the particular shape. |
 | [Spt](../../aspose.cells.drawing/shape/spt) { get; } | Specifies an optional number that an application can use to associate the particular shape with a defined shape type. |
 | [Text](../../aspose.cells.drawing/shape/text) { get; set; } | Represents the string in this TextBox object. |
 | [TextBody](../../aspose.cells.drawing/shape/textbody) { get; } | Gets and sets the setting of the shape's text. |
 | [TextDirection](../../aspose.cells.drawing/shape/textdirection) { get; set; } | Gets/Sets the direction of the text flow for this object. |
 | [TextEffect](../../aspose.cells.drawing/shape/texteffect) { get; } | Returns a TextEffectFormat object that contains text-effect formatting properties for the specified shape. Applies to Shape objects that represent WordArt. |
+| [TextFrame](../../aspose.cells.drawing/shape/textframe) { get; } | Returns a TextFrame object that contains the alignment and anchoring properties for the specified shape. |
 | [TextHorizontalAlignment](../../aspose.cells.drawing/shape/texthorizontalalignment) { get; set; } | Gets and sets the text horizontal alignment type of the shape. |
 | [TextHorizontalOverflow](../../aspose.cells.drawing/shape/texthorizontaloverflow) { get; set; } | Gets and sets the text horizontal overflow type of the shape which contains text. |
 | [TextOptions](../../aspose.cells.drawing/shape/textoptions) { get; set; } | Represents the text options of the shape. |
@@ -137,6 +144,7 @@ public class OleObject : Shape
 | [AlignTopRightCorner](../../aspose.cells.drawing/shape/aligntoprightcorner)(int, int) | Moves the picture to the top-right corner. |
 | [CalculateTextSize](../../aspose.cells.drawing/shape/calculatetextsize)() | Recalculate the text area |
 | [Characters](../../aspose.cells.drawing/shape/characters)(int, int) | Returns a Characters object that represents a range of characters within the text. |
+| [FormatCharacters](../../aspose.cells.drawing/shape/formatcharacters)(int, int, Font) | Formats some characters with the font setting. |
 | [FormatCharacters](../../aspose.cells.drawing/shape/formatcharacters)(int, int, Font, StyleFlag) | Formats some characters with the font setting. |
 | [GetCharacters](../../aspose.cells.drawing/shape/getcharacters)() | Returns all Characters objects that represents a range of characters within the text . |
 | [GetConnectionPoints](../../aspose.cells.drawing/shape/getconnectionpoints)() | Get the connection points |
@@ -148,8 +156,8 @@ public class OleObject : Shape
 | [MoveToRange](../../aspose.cells.drawing/shape/movetorange)(int, int, int, int) | Moves the shape to a specified range. |
 | [RemoveActiveXControl](../../aspose.cells.drawing/shape/removeactivexcontrol)() | Remove activeX control. |
 | [RemoveHyperlink](../../aspose.cells.drawing/shape/removehyperlink)() | Remove the hyperlink of the shape. |
-| [SetEmbeddedObject](../../aspose.cells.drawing/oleobject/setembeddedobject)(bool, byte[], string, bool, string) | Sets embedded object data. |
-| [SetEmbeddedObject](../../aspose.cells.drawing/oleobject/setembeddedobject)(bool, byte[], string, bool, string, bool) | Sets embedded object data. |
+| [SetEmbeddedObject](../../aspose.cells.drawing/oleobject/setembeddedobject#setembeddedobject)(bool, byte[], string, bool, string) | Sets embedded object data. |
+| [SetEmbeddedObject](../../aspose.cells.drawing/oleobject/setembeddedobject#setembeddedobject_1)(bool, byte[], string, bool, string, bool) | Sets embedded object data. |
 | [SetInputRange](../../aspose.cells.drawing/shape/setinputrange)(string, bool, bool) | Sets the range used to fill the control. |
 | [SetLinkedCell](../../aspose.cells.drawing/shape/setlinkedcell)(string, bool, bool) | Sets the range linked to the control's value. |
 | [SetLockedProperty](../../aspose.cells.drawing/shape/setlockedproperty)(ShapeLockType, bool) | Set the locked property. |

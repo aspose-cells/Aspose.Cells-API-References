@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns or sets the value of the content type property.
 type: docs
 weight: 40
 url: /net/aspose.cells.properties/contenttypeproperty/value/

@@ -1,7 +1,7 @@
 ---
 title: GridlineType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets gridline type.
 type: docs
 weight: 120
 url: /net/aspose.cells.rendering/imageorprintoptions/gridlinetype/

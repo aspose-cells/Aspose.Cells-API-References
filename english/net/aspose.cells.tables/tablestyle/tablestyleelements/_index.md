@@ -1,7 +1,7 @@
 ---
 title: TableStyleElements
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets all elements of the table style.
 type: docs
 weight: 20
 url: /net/aspose.cells.tables/tablestyle/tablestyleelements/

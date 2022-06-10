@@ -1,7 +1,7 @@
 ---
 title: GetGroupedShapes
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the shapes grouped by this shape.
 type: docs
 weight: 20
 url: /net/aspose.cells.drawing/groupshape/getgroupedshapes/

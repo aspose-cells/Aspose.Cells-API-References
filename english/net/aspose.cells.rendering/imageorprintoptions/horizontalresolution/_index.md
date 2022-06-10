@@ -1,7 +1,7 @@
 ---
 title: HorizontalResolution
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the horizontal resolution for generated images in dots per inch. Applies generating image method except Emf format images.
 type: docs
 weight: 130
 url: /net/aspose.cells.rendering/imageorprintoptions/horizontalresolution/

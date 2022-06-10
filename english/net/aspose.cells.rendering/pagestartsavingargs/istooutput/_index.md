@@ -1,7 +1,7 @@
 ---
 title: IsToOutput
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the page should be output. The default value is true.
 type: docs
 weight: 10
 url: /net/aspose.cells.rendering/pagestartsavingargs/istooutput/

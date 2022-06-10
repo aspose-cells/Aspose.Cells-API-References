@@ -1,12 +1,12 @@
 ---
 title: StreamProviderOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Initializes a new instance of the StreamProviderOptionsaspose.cells/streamprovideroptions class.
 type: docs
 weight: 10
 url: /net/aspose.cells/streamprovideroptions/streamprovideroptions/
 ---
-## StreamProviderOptions constructor (1 of 2)
+## StreamProviderOptions(ResourceLoadingType, string) {#constructor_1}
 
 Initializes a new instance of the [`StreamProviderOptions`](../../streamprovideroptions) class.
 
@@ -28,7 +28,7 @@ public StreamProviderOptions(ResourceLoadingType loadingType, string defaultPath
 
 ---
 
-## StreamProviderOptions constructor (2 of 2)
+## StreamProviderOptions() {#constructor}
 
 Initializes a new instance of the [`StreamProviderOptions`](../../streamprovideroptions) class.
 

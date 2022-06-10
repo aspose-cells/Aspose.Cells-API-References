@@ -1,7 +1,7 @@
 ---
 title: StackTrace
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets a string representation of the immediate frames on the call stack.
 type: docs
 weight: 40
 url: /net/aspose.cells.gridjs/gridcellexception/stacktrace/

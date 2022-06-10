@@ -1,7 +1,7 @@
 ---
 title: BorderWidthPx
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the width of border in units of pixels after calls Chart.Calculate method.
 type: docs
 weight: 70
 url: /net/aspose.cells.charts/chartpoint/borderwidthpx/

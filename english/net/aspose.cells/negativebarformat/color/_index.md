@@ -1,7 +1,7 @@
 ---
 title: Color
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a FormatColor object that you can use to specify the fill color for negative data bars.
 type: docs
 weight: 30
 url: /net/aspose.cells/negativebarformat/color/

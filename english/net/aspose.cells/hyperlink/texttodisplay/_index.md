@@ -1,7 +1,7 @@
 ---
 title: TextToDisplay
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the text to be displayed for the specified hyperlink. The default value is the address of the hyperlink.
 type: docs
 weight: 50
 url: /net/aspose.cells/hyperlink/texttodisplay/

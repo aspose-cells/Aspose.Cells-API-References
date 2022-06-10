@@ -1,7 +1,7 @@
 ---
 title: Range
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the group range of the pivot field
 type: docs
 weight: 360
 url: /net/aspose.cells.pivot/pivotfield/range/

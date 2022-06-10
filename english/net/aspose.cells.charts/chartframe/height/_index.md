@@ -1,9 +1,9 @@
 ---
 title: Height
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the height of frame in units of 1/4000 of the chart area.
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.cells.charts/chartframe/height/
 ---
 ## ChartFrame.Height property

@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds content type property information.
 type: docs
 weight: 20
 url: /net/aspose.cells.properties/contenttypepropertycollection/add/
 ---
-## ContentTypePropertyCollection.Add method (1 of 2)
+## Add(string, string) {#add}
 
 Adds content type property information.
 
@@ -27,7 +27,7 @@ public int Add(string name, string value)
 
 ---
 
-## ContentTypePropertyCollection.Add method (2 of 2)
+## Add(string, string, string) {#add_1}
 
 Adds content type property information.
 

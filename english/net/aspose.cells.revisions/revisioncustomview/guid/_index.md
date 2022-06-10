@@ -1,7 +1,7 @@
 ---
 title: Guid
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the globally unique identifier of the custom view.
 type: docs
 weight: 20
 url: /net/aspose.cells.revisions/revisioncustomview/guid/

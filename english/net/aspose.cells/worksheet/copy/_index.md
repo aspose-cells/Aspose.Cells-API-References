@@ -1,12 +1,12 @@
 ---
 title: Copy
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Copies contents and formats from another worksheet.
 type: docs
 weight: 690
 url: /net/aspose.cells/worksheet/copy/
 ---
-## Worksheet.Copy method (1 of 2)
+## Copy(Worksheet) {#copy}
 
 Copies contents and formats from another worksheet.
 
@@ -26,7 +26,7 @@ public void Copy(Worksheet sourceSheet)
 
 ---
 
-## Worksheet.Copy method (2 of 2)
+## Copy(Worksheet, CopyOptions) {#copy_1}
 
 Copies contents and formats from another worksheet.
 

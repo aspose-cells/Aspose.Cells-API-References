@@ -1,9 +1,9 @@
 ---
 title: WorkbookMetadata
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the meta data.
 type: docs
-weight: 4160
+weight: 4200
 url: /net/aspose.cells.metadata/workbookmetadata/
 ---
 ## WorkbookMetadata class
@@ -18,8 +18,8 @@ public class WorkbookMetadata
 
 | Name | Description |
 | --- | --- |
-| [WorkbookMetadata](workbookmetadata)(Stream, MetadataOptions) | Create the meta data object. |
-| [WorkbookMetadata](workbookmetadata)(string, MetadataOptions) | Create the meta data object. |
+| [WorkbookMetadata](workbookmetadata#constructor)(Stream, MetadataOptions) | Create the meta data object. |
+| [WorkbookMetadata](workbookmetadata#constructor_1)(string, MetadataOptions) | Create the meta data object. |
 
 ## Properties
 
@@ -33,8 +33,8 @@ public class WorkbookMetadata
 
 | Name | Description |
 | --- | --- |
-| [Save](../../aspose.cells.metadata/workbookmetadata/save)(Stream) | Save the modified metadata to the stream. |
-| [Save](../../aspose.cells.metadata/workbookmetadata/save)(string) | Save the modified metadata to the file. |
+| [Save](../../aspose.cells.metadata/workbookmetadata/save#save)(Stream) | Save the modified metadata to the stream. |
+| [Save](../../aspose.cells.metadata/workbookmetadata/save#save_1)(string) | Save the modified metadata to the file. |
 
 ### Examples
 

@@ -1,7 +1,7 @@
 ---
 title: ShowTableStyleRowStripes
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether row stripe formatting is applied.
 type: docs
 weight: 160
 url: /net/aspose.cells.tables/listobject/showtablestylerowstripes/

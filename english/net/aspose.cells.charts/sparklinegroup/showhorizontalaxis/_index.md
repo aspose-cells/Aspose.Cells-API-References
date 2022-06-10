@@ -1,7 +1,7 @@
 ---
 title: ShowHorizontalAxis
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether to show the sparkline horizontal axis. The horizontal axis appears if the sparkline has data that crosses the zero axis.
 type: docs
 weight: 170
 url: /net/aspose.cells.charts/sparklinegroup/showhorizontalaxis/

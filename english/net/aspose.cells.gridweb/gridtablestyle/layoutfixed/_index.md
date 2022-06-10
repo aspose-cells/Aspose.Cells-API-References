@@ -1,7 +1,7 @@
 ---
 title: LayoutFixed
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies whether the layout of the table is fixednot extended automatically when it contain large objects.
 type: docs
 weight: 90
 url: /net/aspose.cells.gridweb/gridtablestyle/layoutfixed/

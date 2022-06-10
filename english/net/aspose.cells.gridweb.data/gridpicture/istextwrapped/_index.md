@@ -1,7 +1,7 @@
 ---
 title: IsTextWrapped
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the text wrapped type of the shape which contains text.
 type: docs
 weight: 210
 url: /net/aspose.cells.gridweb.data/gridpicture/istextwrapped/

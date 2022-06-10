@@ -1,7 +1,7 @@
 ---
 title: ValidatePassword
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Validates protection password.
 type: docs
 weight: 120
 url: /net/aspose.cells.vba/vbaproject/validatepassword/

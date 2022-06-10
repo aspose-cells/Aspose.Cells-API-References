@@ -1,7 +1,7 @@
 ---
 title: cmd
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Internal used only.
 type: docs
 weight: 50
 url: /net/aspose.cells.gridweb.design/designparameters/cmd/

@@ -1,7 +1,7 @@
 ---
 title: ChangeSeriesOrder
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Directly changes the orders of the two series.
 type: docs
 weight: 70
 url: /net/aspose.cells.charts/seriescollection/changeseriesorder/

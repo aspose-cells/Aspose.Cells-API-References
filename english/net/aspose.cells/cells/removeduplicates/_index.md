@@ -1,12 +1,12 @@
 ---
 title: RemoveDuplicates
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Removes duplicate rows in the sheet.
 type: docs
-weight: 1190
+weight: 1250
 url: /net/aspose.cells/cells/removeduplicates/
 ---
-## Cells.RemoveDuplicates method (1 of 3)
+## RemoveDuplicates() {#removeduplicates}
 
 Removes duplicate rows in the sheet.
 
@@ -22,7 +22,7 @@ public void RemoveDuplicates()
 
 ---
 
-## Cells.RemoveDuplicates method (2 of 3)
+## RemoveDuplicates(int, int, int, int) {#removeduplicates_1}
 
 Removes duplicate values in the range.
 
@@ -45,7 +45,7 @@ public void RemoveDuplicates(int startRow, int startColumn, int endRow, int endC
 
 ---
 
-## Cells.RemoveDuplicates method (3 of 3)
+## RemoveDuplicates(int, int, int, int, bool, int[]) {#removeduplicates_2}
 
 Removes duplicate data of the range.
 

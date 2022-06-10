@@ -1,7 +1,7 @@
 ---
 title: Keys
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the key list of data sorter.
 type: docs
 weight: 60
 url: /net/aspose.cells/datasorter/keys/

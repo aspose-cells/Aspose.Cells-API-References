@@ -1,7 +1,7 @@
 ---
 title: LineByLine
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether processing the smart marker line by line.
 type: docs
 weight: 40
 url: /net/aspose.cells/workbookdesigner/linebyline/

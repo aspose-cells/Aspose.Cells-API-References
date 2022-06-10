@@ -1,9 +1,9 @@
 ---
 title: ShapeCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents all the shape in a worksheet/chart.
 type: docs
-weight: 2640
+weight: 2660
 url: /net/aspose.cells.drawing/shapecollection/
 ---
 ## ShapeCollection class
@@ -46,17 +46,17 @@ public class ShapeCollection : CollectionBase<Shape>
 | [AddOleObject](../../aspose.cells.drawing/shapecollection/addoleobject)(int, int, int, int, int, int, byte[]) |  |
 | [AddOleObjectWithLinkedImage](../../aspose.cells.drawing/shapecollection/addoleobjectwithlinkedimage)(int, int, int, int, string) | Add a linked picture. |
 | [AddOval](../../aspose.cells.drawing/shapecollection/addoval)(int, int, int, int, int, int) | Adds a Oval to the worksheet. |
-| [AddPicture](../../aspose.cells.drawing/shapecollection/addpicture)(int, int, int, int, Stream) | Adds a picture to the collection. |
-| [AddPicture](../../aspose.cells.drawing/shapecollection/addpicture)(int, int, Stream, int, int) | Adds a picture to the collection. |
+| [AddPicture](../../aspose.cells.drawing/shapecollection/addpicture#addpicture)(int, int, int, int, Stream) | Adds a picture to the collection. |
+| [AddPicture](../../aspose.cells.drawing/shapecollection/addpicture#addpicture_1)(int, int, Stream, int, int) | Adds a picture to the collection. |
 | [AddPictureInChart](../../aspose.cells.drawing/shapecollection/addpictureinchart)(int, int, Stream, int, int) | Adds a picture to the chart. |
 | [AddRadioButton](../../aspose.cells.drawing/shapecollection/addradiobutton)(int, int, int, int, int, int) | Adds a RadioButton to the worksheet. |
 | [AddRectangle](../../aspose.cells.drawing/shapecollection/addrectangle)(int, int, int, int, int, int) | Adds a RectangleShape to the worksheet. |
 | [AddScrollBar](../../aspose.cells.drawing/shapecollection/addscrollbar)(int, int, int, int, int, int) | Adds a ScrollBar to the worksheet. |
 | [AddShape](../../aspose.cells.drawing/shapecollection/addshape)(MsoDrawingType, int, int, int, int, int, int) | Adds a Shape to the worksheet. |
-| [AddShapeInChart](../../aspose.cells.drawing/shapecollection/addshapeinchart)(MsoDrawingType, PlacementType, int, int, int, int) | Add a shape to chart .All unit is 1/4000 of chart area. |
-| [AddShapeInChart](../../aspose.cells.drawing/shapecollection/addshapeinchart)(MsoDrawingType, PlacementType, int, int, int, int, byte[]) | Add a shape to chart .All unit is 1/4000 of chart area. |
-| [AddShapeInChartByScale](../../aspose.cells.drawing/shapecollection/addshapeinchartbyscale)(MsoDrawingType, PlacementType, double, double, double, double) | Add a shape to chart. All unit is percent scale of chart area. |
-| [AddShapeInChartByScale](../../aspose.cells.drawing/shapecollection/addshapeinchartbyscale)(MsoDrawingType, PlacementType, double, double, double, double, byte[]) | Add a shape to chart .All unit is 1/4000 of chart area. |
+| [AddShapeInChart](../../aspose.cells.drawing/shapecollection/addshapeinchart#addshapeinchart)(MsoDrawingType, PlacementType, int, int, int, int) | Add a shape to chart .All unit is 1/4000 of chart area. |
+| [AddShapeInChart](../../aspose.cells.drawing/shapecollection/addshapeinchart#addshapeinchart_1)(MsoDrawingType, PlacementType, int, int, int, int, byte[]) | Add a shape to chart .All unit is 1/4000 of chart area. |
+| [AddShapeInChartByScale](../../aspose.cells.drawing/shapecollection/addshapeinchartbyscale#addshapeinchartbyscale)(MsoDrawingType, PlacementType, double, double, double, double) | Add a shape to chart. All unit is percent scale of chart area. |
+| [AddShapeInChartByScale](../../aspose.cells.drawing/shapecollection/addshapeinchartbyscale#addshapeinchartbyscale_1)(MsoDrawingType, PlacementType, double, double, double, double, byte[]) | Add a shape to chart .All unit is 1/4000 of chart area. |
 | [AddSpinner](../../aspose.cells.drawing/shapecollection/addspinner)(int, int, int, int, int, int) | Adds a Spinner to the worksheet. |
 | [AddSvg](../../aspose.cells.drawing/shapecollection/addsvg)(int, int, int, int, int, int, byte[], byte[]) | Adds svg image. |
 | [AddTextBox](../../aspose.cells.drawing/shapecollection/addtextbox)(int, int, int, int, int, int) | Adds a text box to the worksheet. |
@@ -67,7 +67,7 @@ public class ShapeCollection : CollectionBase<Shape>
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Shape) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Shape, IComparer&lt;Shape&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Shape, IComparer&lt;Shape&gt;) |  |
-| [Clear](../../aspose.cells.drawing/shapecollection/clear)() | Clear all shapes. (2 methods) |
+| [Clear](../../aspose.cells.drawing/shapecollection/clear#clear)() | Clear all shapes. (2 methods) |
 | [Contains](../../aspose.cells/collectionbase`1/contains)(Shape) |  |
 | [CopyCommentsInRange](../../aspose.cells.drawing/shapecollection/copycommentsinrange)(ShapeCollection, CellArea, int, int) | Copy all comments in the range. |
 | [CopyInRange](../../aspose.cells.drawing/shapecollection/copyinrange)(ShapeCollection, CellArea, int, int, bool) | Copy shapes in the range to destination range. |
@@ -95,7 +95,7 @@ public class ShapeCollection : CollectionBase<Shape>
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Shape, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Shape, int, int) |  |
 | [Remove](../../aspose.cells.drawing/shapecollection/remove)(Shape) | Remove the shape. |
-| [RemoveAt](../../aspose.cells.drawing/shapecollection/removeat)(int) | Remove the shape. (2 methods) |
+| [RemoveAt](../../aspose.cells.drawing/shapecollection/removeat#removeat)(int) | Remove the shape. (2 methods) |
 | [Ungroup](../../aspose.cells.drawing/shapecollection/ungroup)(GroupShape) | Ungroups the shape items. |
 | [UpdateSelectedValue](../../aspose.cells.drawing/shapecollection/updateselectedvalue)() | Update the selected value by the value of the linked cell of the shapes. |
 

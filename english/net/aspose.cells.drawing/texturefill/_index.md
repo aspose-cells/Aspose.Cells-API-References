@@ -1,9 +1,9 @@
 ---
 title: TextureFill
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the object that represents texture fill format
 type: docs
-weight: 3040
+weight: 3070
 url: /net/aspose.cells.drawing/texturefill/
 ---
 ## TextureFill class

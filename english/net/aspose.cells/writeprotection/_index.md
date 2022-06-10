@@ -1,9 +1,9 @@
 ---
 title: WriteProtection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies write protection settings for a workbook.
 type: docs
-weight: 6520
+weight: 6560
 url: /net/aspose.cells/writeprotection/
 ---
 ## WriteProtection class

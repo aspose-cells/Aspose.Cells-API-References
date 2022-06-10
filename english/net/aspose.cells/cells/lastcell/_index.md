@@ -1,7 +1,7 @@
 ---
 title: LastCell
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the last cell in this worksheet.
 type: docs
 weight: 80
 url: /net/aspose.cells/cells/lastcell/

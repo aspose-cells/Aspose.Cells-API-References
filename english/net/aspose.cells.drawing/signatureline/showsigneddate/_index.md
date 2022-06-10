@@ -1,7 +1,7 @@
 ---
 title: ShowSignedDate
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether show signed date.
 type: docs
 weight: 80
 url: /net/aspose.cells.drawing/signatureline/showsigneddate/

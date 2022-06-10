@@ -1,9 +1,9 @@
 ---
 title: Transparency
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the degree of transparency of the glow effect. Range from 0.0 opaque to 1.0 clear.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.cells.drawing/gloweffect/transparency/
 ---
 ## GlowEffect.Transparency property

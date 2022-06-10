@@ -1,9 +1,9 @@
 ---
 title: WindowWidthInch
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The width of the window in unit of inch.
 type: docs
-weight: 590
+weight: 720
 url: /net/aspose.cells/workbooksettings/windowwidthinch/
 ---
 ## WorkbookSettings.WindowWidthInch property

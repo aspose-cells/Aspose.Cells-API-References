@@ -1,12 +1,12 @@
 ---
 title: Remove
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Remove an array of name
 type: docs
 weight: 50
 url: /net/aspose.cells/namecollection/remove/
 ---
-## NameCollection.Remove method (1 of 2)
+## Remove(string[]) {#remove_1}
 
 Remove an array of name
 
@@ -26,7 +26,7 @@ public void Remove(string[] names)
 
 ---
 
-## NameCollection.Remove method (2 of 2)
+## Remove(string) {#remove}
 
 Remove the name.
 

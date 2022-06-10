@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Remove all embedded OLE objects.
 type: docs
 weight: 30
 url: /net/aspose.cells.drawing/oleobjectcollection/clear/

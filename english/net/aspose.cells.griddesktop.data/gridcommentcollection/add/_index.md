@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a comment to the collection.
 type: docs
 weight: 30
 url: /net/aspose.cells.griddesktop.data/gridcommentcollection/add/
 ---
-## GridCommentCollection.Add method (1 of 4)
+## Add(int, int) {#add}
 
 Adds a comment to the collection.
 
@@ -31,7 +31,7 @@ Comment object index.
 
 ---
 
-## GridCommentCollection.Add method (2 of 4)
+## Add(string) {#add_1}
 
 Adds a comment to the collection.
 
@@ -55,7 +55,7 @@ Comment object index.
 
 ---
 
-## GridCommentCollection.Add method (3 of 4)
+## Add(string, string) {#add_3}
 
 Adds a comment to a specified cell by cell name.
 
@@ -76,7 +76,7 @@ public void Add(string cellName, string text)
 
 ---
 
-## GridCommentCollection.Add method (4 of 4)
+## Add(int, int, string) {#add_2}
 
 ```csharp
 public void Add(int row, int column, string text)

@@ -1,9 +1,9 @@
 ---
 title: GradientFill
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the gradient fill.
 type: docs
-weight: 2060
+weight: 2080
 url: /net/aspose.cells.drawing/gradientfill/
 ---
 ## GradientFill class
@@ -31,8 +31,8 @@ public class GradientFill : Fill
 | override [GetHashCode](../../aspose.cells.drawing/fill/gethashcode)() | Gets the hash code. |
 | [SetGradient](../../aspose.cells.drawing/gradientfill/setgradient)(GradientFillType, double, GradientDirectionType) | Set the gradient fill type and direction. |
 | [SetOneColorGradient](../../aspose.cells.drawing/gradientfill/setonecolorgradient)(Color, double, GradientStyleType, int) | Sets the specified fill to a one-color gradient. Only applies for Excel 2007. |
-| [SetTwoColorGradient](../../aspose.cells.drawing/gradientfill/settwocolorgradient)(Color, Color, GradientStyleType, int) | Sets the specified fill to a two-color gradient. Only applies for Excel 2007. |
-| [SetTwoColorGradient](../../aspose.cells.drawing/gradientfill/settwocolorgradient)(Color, double, Color, double, GradientStyleType, int) | Sets the specified fill to a two-color gradient. Only applies for Excel 2007. |
+| [SetTwoColorGradient](../../aspose.cells.drawing/gradientfill/settwocolorgradient#settwocolorgradient_1)(Color, Color, GradientStyleType, int) | Sets the specified fill to a two-color gradient. Only applies for Excel 2007. |
+| [SetTwoColorGradient](../../aspose.cells.drawing/gradientfill/settwocolorgradient#settwocolorgradient)(Color, double, Color, double, GradientStyleType, int) | Sets the specified fill to a two-color gradient. Only applies for Excel 2007. |
 
 ### See Also
 

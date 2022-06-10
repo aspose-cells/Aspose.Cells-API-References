@@ -1,7 +1,7 @@
 ---
 title: SetRefersTo
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Set the reference of this Name.
 type: docs
 weight: 130
 url: /net/aspose.cells/name/setrefersto/

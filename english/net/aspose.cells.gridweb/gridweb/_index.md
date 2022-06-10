@@ -3,7 +3,7 @@ title: GridWeb
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 800
+weight: 1010
 url: /net/aspose.cells.gridweb/gridweb/
 ---
 ## GridWeb class
@@ -152,7 +152,7 @@ public class GridWeb : MainWeb
 | override [RenderBeginTag](../../aspose.cells.gridweb/mainweb/renderbegintag)(HtmlTextWriter) |  |
 | [SaveCSVFile](../../aspose.cells.gridweb/mainweb/savecsvfile)(Stream) | Saves data to a CSV file stream. |
 | [SaveCSVFile](../../aspose.cells.gridweb/mainweb/savecsvfile)(string) | Saves data to a CSV file. |
-| [SaveCustomStyleFile](../../aspose.cells.gridweb/gridweb/savecustomstylefile)(string) | Saves current style data of the control to an xml file. Can be used to create your customized style file. (2 methods) |
+| [SaveCustomStyleFile](../../aspose.cells.gridweb/gridweb/savecustomstylefile#savecustomstylefile)(string) | Saves current style data of the control to an xml file. Can be used to create your customized style file. (2 methods) |
 | [SaveHTMLFile](../../aspose.cells.gridweb/mainweb/savehtmlfile)(Stream) | Saves data to a HTML file stream. |
 | [SaveHTMLFile](../../aspose.cells.gridweb/mainweb/savehtmlfile)(string) | Saves data to a HTML file. |
 | [SaveSpreadSheetMLFile](../../aspose.cells.gridweb/mainweb/savespreadsheetmlfile)(Stream) | Saves data to a SpreadSheetML file stream. |

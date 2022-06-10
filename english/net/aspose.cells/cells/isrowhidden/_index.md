@@ -1,9 +1,9 @@
 ---
 title: IsRowHidden
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Checks whether a row at given index is hidden.
 type: docs
-weight: 1150
+weight: 1210
 url: /net/aspose.cells/cells/isrowhidden/
 ---
 ## Cells.IsRowHidden method

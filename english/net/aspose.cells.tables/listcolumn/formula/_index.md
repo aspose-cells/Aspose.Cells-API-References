@@ -1,7 +1,7 @@
 ---
 title: Formula
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the formula of the list column.
 type: docs
 weight: 10
 url: /net/aspose.cells.tables/listcolumn/formula/

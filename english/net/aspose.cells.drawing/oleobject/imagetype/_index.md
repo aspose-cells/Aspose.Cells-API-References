@@ -1,7 +1,7 @@
 ---
 title: ImageType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the image format of the ole object.
 type: docs
 weight: 90
 url: /net/aspose.cells.drawing/oleobject/imagetype/

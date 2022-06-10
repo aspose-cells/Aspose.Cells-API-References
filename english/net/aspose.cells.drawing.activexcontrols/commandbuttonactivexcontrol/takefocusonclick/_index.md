@@ -1,7 +1,7 @@
 ---
 title: TakeFocusOnClick
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the control takes the focus when clicked.
 type: docs
 weight: 60
 url: /net/aspose.cells.drawing.activexcontrols/commandbuttonactivexcontrol/takefocusonclick/

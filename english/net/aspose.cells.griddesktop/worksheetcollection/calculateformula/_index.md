@@ -1,7 +1,7 @@
 ---
 title: CalculateFormula
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Calculates the result of formulas.
 type: docs
 weight: 80
 url: /net/aspose.cells.griddesktop/worksheetcollection/calculateformula/

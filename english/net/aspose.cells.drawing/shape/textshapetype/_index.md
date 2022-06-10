@@ -1,9 +1,9 @@
 ---
 title: TextShapeType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the preset text shape type.
 type: docs
-weight: 710
+weight: 770
 url: /net/aspose.cells.drawing/shape/textshapetype/
 ---
 ## Shape.TextShapeType property

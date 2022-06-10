@@ -1,7 +1,7 @@
 ---
 title: PrintingPageType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates which pages will not be printed.
 type: docs
 weight: 290
 url: /net/aspose.cells/pdfsaveoptions/printingpagetype/

@@ -1,7 +1,7 @@
 ---
 title: CalculationMode
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the mode for workbook calculation in ms excel.
 type: docs
 weight: 40
 url: /net/aspose.cells/formulasettings/calculationmode/

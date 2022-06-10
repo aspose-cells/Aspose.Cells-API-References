@@ -1,7 +1,7 @@
 ---
 title: ReferToSheetWithSameName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: When copying a worksheet to another workbook and the worksheet contains the formulas which refer to other worksheets in MS Excel the copied formulas should refer to source workbook. But sometimes we have copied other worksheets and we hope the copied formulas refer to other worksheets with the name in the same workbook please set this property as true.
 type: docs
 weight: 80
 url: /net/aspose.cells/copyoptions/refertosheetwithsamename/

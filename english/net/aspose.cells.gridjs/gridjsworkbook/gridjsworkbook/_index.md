@@ -1,7 +1,7 @@
 ---
 title: GridJsWorkbook
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The default constructor.
 type: docs
 weight: 10
 url: /net/aspose.cells.gridjs/gridjsworkbook/gridjsworkbook/

@@ -1,9 +1,9 @@
 ---
 title: GetGroupedRowOutlineLevel
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the outline level zero-based of the row.
 type: docs
-weight: 730
+weight: 750
 url: /net/aspose.cells/cells/getgroupedrowoutlinelevel/
 ---
 ## Cells.GetGroupedRowOutlineLevel method

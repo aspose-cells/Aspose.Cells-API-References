@@ -1,7 +1,7 @@
 ---
 title: Column
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the column index of the input cell.
 type: docs
 weight: 10
 url: /net/aspose.cells/scenarioinputcell/column/

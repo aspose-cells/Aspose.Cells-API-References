@@ -1,12 +1,12 @@
 ---
 title: ToPdf
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Saves the chart to a pdf file.
 type: docs
-weight: 600
+weight: 610
 url: /net/aspose.cells.charts/chart/topdf/
 ---
-## Chart.ToPdf method (1 of 4)
+## ToPdf(string) {#topdf_2}
 
 Saves the chart to a pdf file.
 
@@ -26,7 +26,7 @@ public void ToPdf(string fileName)
 
 ---
 
-## Chart.ToPdf method (2 of 4)
+## ToPdf(string, float, float, PageLayoutAlignmentType, PageLayoutAlignmentType) {#topdf_3}
 
 Saves the chart to a pdf file.
 
@@ -52,7 +52,7 @@ public void ToPdf(string fileName, float desiredPageWidth, float desiredPageHeig
 
 ---
 
-## Chart.ToPdf method (3 of 4)
+## ToPdf(Stream) {#topdf}
 
 Creates the chart pdf and saves it to a stream.
 
@@ -72,7 +72,7 @@ public void ToPdf(Stream stream)
 
 ---
 
-## Chart.ToPdf method (4 of 4)
+## ToPdf(Stream, float, float, PageLayoutAlignmentType, PageLayoutAlignmentType) {#topdf_1}
 
 Creates the chart pdf and saves it to a stream.
 

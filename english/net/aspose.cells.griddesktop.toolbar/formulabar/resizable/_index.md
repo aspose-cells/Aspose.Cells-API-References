@@ -1,9 +1,9 @@
 ---
 title: Resizable
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: get set Resizable for Formula Boxdefault value is false. not suitable when set ScrollBars.None
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.cells.griddesktop.toolbar/formulabar/resizable/
 ---
 ## FormulaBar.Resizable property

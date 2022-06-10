@@ -1,7 +1,7 @@
 ---
 title: LockedAspectRatio
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether locking aspect ratio.
 type: docs
 weight: 110
 url: /net/aspose.cells.slicers/slicer/lockedaspectratio/

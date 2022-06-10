@@ -1,7 +1,7 @@
 ---
 title: GradientFill
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets GradientFillaspose.cells.drawing/fillformat/gradientfill object.
 type: docs
 weight: 60
 url: /net/aspose.cells.drawing/fillformat/gradientfill/

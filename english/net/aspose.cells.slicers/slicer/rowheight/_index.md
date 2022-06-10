@@ -1,7 +1,7 @@
 ---
 title: RowHeight
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns or sets the height in points of each row in the specified slicer.
 type: docs
 weight: 170
 url: /net/aspose.cells.slicers/slicer/rowheight/

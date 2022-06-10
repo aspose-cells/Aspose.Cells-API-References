@@ -1,7 +1,7 @@
 ---
 title: ShowLoading
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies whether to show a loading dialogbox while postbacking to server.
 type: docs
 weight: 930
 url: /net/aspose.cells.gridweb/mainweb/showloading/

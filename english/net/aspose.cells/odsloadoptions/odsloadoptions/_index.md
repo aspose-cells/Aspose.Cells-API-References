@@ -1,12 +1,12 @@
 ---
 title: OdsLoadOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the options of loading ods file.
 type: docs
 weight: 10
 url: /net/aspose.cells/odsloadoptions/odsloadoptions/
 ---
-## OdsLoadOptions constructor (1 of 2)
+## OdsLoadOptions() {#constructor}
 
 Represents the options of loading ods file.
 
@@ -22,7 +22,7 @@ public OdsLoadOptions()
 
 ---
 
-## OdsLoadOptions constructor (2 of 2)
+## OdsLoadOptions(LoadFormat) {#constructor_1}
 
 Represents the options of loading ods file.
 

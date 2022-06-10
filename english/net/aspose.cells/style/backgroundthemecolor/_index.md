@@ -1,9 +1,9 @@
 ---
 title: BackgroundThemeColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the background theme color.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.cells/style/backgroundthemecolor/
 ---
 ## Style.BackgroundThemeColor property

@@ -1,9 +1,9 @@
 ---
 title: ApplyStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Applies formats for a whole range.
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.cells/range/applystyle/
 ---
 ## Range.ApplyStyle method

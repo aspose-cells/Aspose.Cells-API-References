@@ -1,12 +1,14 @@
 ---
 title: GridCalculationData
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the required data when calculating one function such as function name parameters ...etc.
 type: docs
 weight: 40
 url: /net/aspose.cells.gridjs/gridcalculationdata/
 ---
 ## GridCalculationData class
+
+Represents the required data when calculating one function, such as function name, parameters, ...etc.
 
 ```csharp
 public class GridCalculationData
@@ -32,6 +34,10 @@ public class GridCalculationData
 | --- | --- |
 | [GetParamText](../../aspose.cells.gridjs/gridcalculationdata/getparamtext)(int) | Gets the literal text of the parameter at given index. |
 | [GetParamValue](../../aspose.cells.gridjs/gridcalculationdata/getparamvalue)(int) | Gets the represented value object of the parameter at given index. |
+
+### Remarks
+
+All objects provided by this class are for "read" purpose only. User should not change any data in the Workbook during the formula calculation process, Otherwise unexpected result or Exception may be caused.
 
 ### See Also
 

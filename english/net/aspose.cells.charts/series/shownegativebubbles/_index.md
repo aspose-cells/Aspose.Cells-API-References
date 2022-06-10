@@ -1,9 +1,9 @@
 ---
 title: ShowNegativeBubbles
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: True if negative bubbles are shown for the chart group. Valid only for bubble charts.
 type: docs
-weight: 380
+weight: 390
 url: /net/aspose.cells.charts/series/shownegativebubbles/
 ---
 ## Series.ShowNegativeBubbles property

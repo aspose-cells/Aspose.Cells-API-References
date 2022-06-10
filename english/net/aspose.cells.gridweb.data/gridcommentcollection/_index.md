@@ -1,9 +1,9 @@
 ---
 title: GridCommentCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates a collection of Comment objects.
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.cells.gridweb.data/gridcommentcollection/
 ---
 ## GridCommentCollection class
@@ -25,12 +25,12 @@ public class GridCommentCollection
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.gridweb.data/gridcommentcollection/add)(string) | Adds a comment to the collection. |
-| [Add](../../aspose.cells.gridweb.data/gridcommentcollection/add)(int, int) | Adds a comment to the collection. |
+| [Add](../../aspose.cells.gridweb.data/gridcommentcollection/add#add_1)(string) | Adds a comment to the collection. |
+| [Add](../../aspose.cells.gridweb.data/gridcommentcollection/add#add)(int, int) | Adds a comment to the collection. |
 | [Clear](../../aspose.cells.gridweb.data/gridcommentcollection/clear)() | Removes all comments; |
 | [GetEnumerator](../../aspose.cells.gridweb.data/gridcommentcollection/getenumerator)() | Gets the rows enumerator |
-| [RemoveAt](../../aspose.cells.gridweb.data/gridcommentcollection/removeat)(string) | Removes the comment of the specific cell. |
-| [RemoveAt](../../aspose.cells.gridweb.data/gridcommentcollection/removeat)(int, int) | Removes the comment of the specific cell. |
+| [RemoveAt](../../aspose.cells.gridweb.data/gridcommentcollection/removeat#removeat_1)(string) | Removes the comment of the specific cell. |
+| [RemoveAt](../../aspose.cells.gridweb.data/gridcommentcollection/removeat#removeat)(int, int) | Removes the comment of the specific cell. |
 
 ### See Also
 

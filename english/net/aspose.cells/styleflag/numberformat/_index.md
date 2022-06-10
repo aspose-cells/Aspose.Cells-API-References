@@ -1,7 +1,7 @@
 ---
 title: NumberFormat
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Number format setting will be applied.
 type: docs
 weight: 230
 url: /net/aspose.cells/styleflag/numberformat/

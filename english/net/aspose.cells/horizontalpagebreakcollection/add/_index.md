@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a horizontal page break to the collection.
 type: docs
 weight: 20
 url: /net/aspose.cells/horizontalpagebreakcollection/add/
 ---
-## HorizontalPageBreakCollection.Add method (1 of 4)
+## Add(int, int, int) {#add_2}
 
 Adds a horizontal page break to the collection.
 
@@ -36,7 +36,7 @@ This method is used to add a horizontal pagebreak within a print area.
 
 ---
 
-## HorizontalPageBreakCollection.Add method (2 of 4)
+## Add(int) {#add}
 
 Adds a horizontal page break to the collection.
 
@@ -64,7 +64,7 @@ Page break is added in the top left of the cell. Please set a horizontal page br
 
 ---
 
-## HorizontalPageBreakCollection.Add method (3 of 4)
+## Add(int, int) {#add_1}
 
 Adds a horizontal page break to the collection.
 
@@ -93,7 +93,7 @@ Page break is added in the top left of the cell. Please set a horizontal page br
 
 ---
 
-## HorizontalPageBreakCollection.Add method (4 of 4)
+## Add(string) {#add_3}
 
 Adds a horizontal page break to the collection.
 

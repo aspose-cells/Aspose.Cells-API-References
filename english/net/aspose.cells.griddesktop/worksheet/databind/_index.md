@@ -1,7 +1,7 @@
 ---
 title: DataBind
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Binds data from data source object with Worksheet object.
 type: docs
 weight: 630
 url: /net/aspose.cells.griddesktop/worksheet/databind/

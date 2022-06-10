@@ -1,9 +1,9 @@
 ---
 title: SetThemeColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the theme color
 type: docs
-weight: 610
+weight: 640
 url: /net/aspose.cells/workbook/setthemecolor/
 ---
 ## Workbook.SetThemeColor method

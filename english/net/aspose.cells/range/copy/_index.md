@@ -1,12 +1,12 @@
 ---
 title: Copy
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Copying the range with paste special options.
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.cells/range/copy/
 ---
-## Range.Copy method (1 of 2)
+## Copy(Range, PasteOptions) {#copy_1}
 
 Copying the range with paste special options.
 
@@ -28,7 +28,7 @@ public void Copy(Range range, PasteOptions options)
 
 ---
 
-## Range.Copy method (2 of 2)
+## Copy(Range) {#copy}
 
 Copies data (including formulas), formatting, drawing objects etc. from a source range.
 

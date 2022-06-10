@@ -1,7 +1,7 @@
 ---
 title: CertRawData
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets certificate raw data if this VBA project is signed.
 type: docs
 weight: 10
 url: /net/aspose.cells.vba/vbaproject/certrawdata/

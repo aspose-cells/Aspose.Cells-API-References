@@ -1,7 +1,7 @@
 ---
 title: Shrink
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets Shrink to fit attribute.
 type: docs
 weight: 70
 url: /net/aspose.cells.griddesktop.data/defaultemptystyle/shrink/

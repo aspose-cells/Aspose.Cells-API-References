@@ -1,7 +1,7 @@
 ---
 title: LimitAsXls
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Limit as xls the max row index is 65535 and the max column index is 255.
 type: docs
 weight: 40
 url: /net/aspose.cells/spreadsheetml2003saveoptions/limitasxls/

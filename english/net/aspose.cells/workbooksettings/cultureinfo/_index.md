@@ -1,9 +1,9 @@
 ---
 title: CultureInfo
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the system culture info.
 type: docs
-weight: 100
+weight: 140
 url: /net/aspose.cells/workbooksettings/cultureinfo/
 ---
 ## WorkbookSettings.CultureInfo property

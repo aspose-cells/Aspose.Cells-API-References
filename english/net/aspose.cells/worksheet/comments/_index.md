@@ -1,7 +1,7 @@
 ---
 title: Comments
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the Commentaspose.cells/comment collection.
 type: docs
 weight: 100
 url: /net/aspose.cells/worksheet/comments/

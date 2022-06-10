@@ -1,7 +1,7 @@
 ---
 title: SetPicture
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets an image in the header/footer of a worksheet.
 type: docs
 weight: 640
 url: /net/aspose.cells/pagesetup/setpicture/

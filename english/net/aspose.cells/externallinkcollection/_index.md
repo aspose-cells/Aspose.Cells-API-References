@@ -1,9 +1,9 @@
 ---
 title: ExternalLinkCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents external links collection in a workbook.
 type: docs
-weight: 3360
+weight: 3390
 url: /net/aspose.cells/externallinkcollection/
 ---
 ## ExternalLinkCollection class
@@ -25,13 +25,13 @@ public class ExternalLinkCollection : IEnumerable
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells/externallinkcollection/add)(string, string[]) | Adds an external link. |
-| [Add](../../aspose.cells/externallinkcollection/add)(DirectoryType, string, string[]) | Add an external link . |
-| [Clear](../../aspose.cells/externallinkcollection/clear)() | Removes all external links. |
-| [Clear](../../aspose.cells/externallinkcollection/clear)(bool) | Removes all external links. |
+| [Add](../../aspose.cells/externallinkcollection/add#add_1)(string, string[]) | Adds an external link. |
+| [Add](../../aspose.cells/externallinkcollection/add#add)(DirectoryType, string, string[]) | Add an external link . |
+| [Clear](../../aspose.cells/externallinkcollection/clear#clear)() | Removes all external links. |
+| [Clear](../../aspose.cells/externallinkcollection/clear#clear_1)(bool) | Removes all external links. |
 | [GetEnumerator](../../aspose.cells/externallinkcollection/getenumerator)() | Get an enumerator that iterates through this collection. |
-| [RemoveAt](../../aspose.cells/externallinkcollection/removeat)(int) | Removes the specified external link from the workbook. |
-| [RemoveAt](../../aspose.cells/externallinkcollection/removeat)(int, bool) | Removes the specified external link from the workbook. |
+| [RemoveAt](../../aspose.cells/externallinkcollection/removeat#removeat)(int) | Removes the specified external link from the workbook. |
+| [RemoveAt](../../aspose.cells/externallinkcollection/removeat#removeat_1)(int, bool) | Removes the specified external link from the workbook. |
 
 ### Examples
 

@@ -1,7 +1,7 @@
 ---
 title: ShowNegativePoints
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether to highlight the negative values on the sparkline group with a different color or marker.
 type: docs
 weight: 210
 url: /net/aspose.cells.charts/sparklinegroup/shownegativepoints/

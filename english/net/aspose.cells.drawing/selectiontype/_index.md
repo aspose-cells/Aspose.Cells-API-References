@@ -1,9 +1,9 @@
 ---
 title: SelectionType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The selection type of list box.
 type: docs
-weight: 2600
+weight: 2620
 url: /net/aspose.cells.drawing/selectiontype/
 ---
 ## SelectionType enumeration

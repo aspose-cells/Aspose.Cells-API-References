@@ -1,12 +1,12 @@
 ---
 title: GroupRows
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Groups rows.
 type: docs
 weight: 810
 url: /net/aspose.cells.griddesktop/worksheet/grouprows/
 ---
-## Worksheet.GroupRows method (1 of 5)
+## GroupRows(int, int, int, bool) {#grouprows_3}
 
 Groups rows.
 
@@ -29,7 +29,7 @@ public void GroupRows(int firstRow, int lastRow, int outlineLevel, bool isHidden
 
 ---
 
-## Worksheet.GroupRows method (2 of 5)
+## GroupRows(int, int, bool) {#grouprows_1}
 
 Groups rows.
 
@@ -51,7 +51,7 @@ public void GroupRows(int firstRow, int lastRow, bool isHidden)
 
 ---
 
-## Worksheet.GroupRows method (3 of 5)
+## GroupRows(int, int, int, bool, bool) {#grouprows_4}
 
 Groups rows.
 
@@ -75,7 +75,7 @@ public void GroupRows(int firstRow, int lastRow, int outlineLevel, bool isHidden
 
 ---
 
-## Worksheet.GroupRows method (4 of 5)
+## GroupRows(int, int, bool, bool) {#grouprows_2}
 
 Groups rows.
 
@@ -98,7 +98,7 @@ public void GroupRows(int firstRow, int lastRow, bool isHidden, bool addToUndo)
 
 ---
 
-## Worksheet.GroupRows method (5 of 5)
+## GroupRows(int, int) {#grouprows}
 
 Groups rows.
 

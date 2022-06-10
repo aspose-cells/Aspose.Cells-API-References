@@ -1,7 +1,7 @@
 ---
 title: ConnectionId
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the connection id of the query table.
 type: docs
 weight: 20
 url: /net/aspose.cells/querytable/connectionid/

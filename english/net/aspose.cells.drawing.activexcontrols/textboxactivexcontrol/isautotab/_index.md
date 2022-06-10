@@ -1,7 +1,7 @@
 ---
 title: IsAutoTab
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the focus will automatically move to the next control when the user enters the maximum number of characters.
 type: docs
 weight: 80
 url: /net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/isautotab/

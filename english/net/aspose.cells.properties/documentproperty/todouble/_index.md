@@ -1,7 +1,7 @@
 ---
 title: ToDouble
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns the property value as double.
 type: docs
 weight: 90
 url: /net/aspose.cells.properties/documentproperty/todouble/

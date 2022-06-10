@@ -1,9 +1,9 @@
 ---
 title: GridWorksheetCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Collects the  objects that represent the individual rows in a worksheet.
 type: docs
-weight: 580
+weight: 590
 url: /net/aspose.cells.gridweb.data/gridworksheetcollection/
 ---
 ## GridWorksheetCollection class
@@ -32,20 +32,20 @@ public class GridWorksheetCollection : ICollection, ISerializable
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.gridweb.data/gridworksheetcollection/add)() | Adds a worksheet to the collection. |
-| [Add](../../aspose.cells.gridweb.data/gridworksheetcollection/add)(object) | Adds a sheet object. |
-| [Add](../../aspose.cells.gridweb.data/gridworksheetcollection/add)(string) | Adds a worksheet to the collection. |
-| [AddCopy](../../aspose.cells.gridweb.data/gridworksheetcollection/addcopy)(int) | Adds a worksheet to the collection and copies data from an existed worksheet. |
-| [AddCopy](../../aspose.cells.gridweb.data/gridworksheetcollection/addcopy)(string) | Adds a worksheet to the collection and copies data from an existed worksheet. |
+| [Add](../../aspose.cells.gridweb.data/gridworksheetcollection/add#add_1)() | Adds a worksheet to the collection. |
+| [Add](../../aspose.cells.gridweb.data/gridworksheetcollection/add#add_2)(object) | Adds a sheet object. |
+| [Add](../../aspose.cells.gridweb.data/gridworksheetcollection/add#add)(string) | Adds a worksheet to the collection. |
+| [AddCopy](../../aspose.cells.gridweb.data/gridworksheetcollection/addcopy#addcopy)(int) | Adds a worksheet to the collection and copies data from an existed worksheet. |
+| [AddCopy](../../aspose.cells.gridweb.data/gridworksheetcollection/addcopy#addcopy_1)(string) | Adds a worksheet to the collection and copies data from an existed worksheet. |
 | [CalculateFormula](../../aspose.cells.gridweb.data/gridworksheetcollection/calculateformula)() | Calculates the result of formulas. |
 | [Clear](../../aspose.cells.gridweb.data/gridworksheetcollection/clear)() | Clear all worksheets. |
 | [CopyTo](../../aspose.cells.gridweb.data/gridworksheetcollection/copyto)(Array, int) | Copys contents to an array. |
 | [GetEnumerator](../../aspose.cells.gridweb.data/gridworksheetcollection/getenumerator)() | Gets the rows enumerator |
-| [ImportDataView](../../aspose.cells.gridweb.data/gridworksheetcollection/importdataview)(DataView, TableItemStyle, TableItemStyle) | Imports from a DataView. Creates a sheet with the DataView's table name automatically. |
-| [ImportDataView](../../aspose.cells.gridweb.data/gridworksheetcollection/importdataview)(DataView, TableItemStyle, TableItemStyle, string, int, int) | Imports from a DataView to the specified sheet and position. |
+| [ImportDataView](../../aspose.cells.gridweb.data/gridworksheetcollection/importdataview#importdataview)(DataView, TableItemStyle, TableItemStyle) | Imports from a DataView. Creates a sheet with the DataView's table name automatically. |
+| [ImportDataView](../../aspose.cells.gridweb.data/gridworksheetcollection/importdataview#importdataview_1)(DataView, TableItemStyle, TableItemStyle, string, int, int) | Imports from a DataView to the specified sheet and position. |
 | [Insert](../../aspose.cells.gridweb.data/gridworksheetcollection/insert)(int, string) |  |
-| [RemoveAt](../../aspose.cells.gridweb.data/gridworksheetcollection/removeat)(int) | Removes the element at a specified index. |
-| [RemoveAt](../../aspose.cells.gridweb.data/gridworksheetcollection/removeat)(string) | Removes the element at a specified name. |
+| [RemoveAt](../../aspose.cells.gridweb.data/gridworksheetcollection/removeat#removeat)(int) | Removes the element at a specified index. |
+| [RemoveAt](../../aspose.cells.gridweb.data/gridworksheetcollection/removeat#removeat_1)(string) | Removes the element at a specified name. |
 | [SetVisible](../../aspose.cells.gridweb.data/gridworksheetcollection/setvisible)(string, bool) | Sets the visible options. |
 | [SwapSheet](../../aspose.cells.gridweb.data/gridworksheetcollection/swapsheet)(int, int) | Swaps the two sheets. |
 

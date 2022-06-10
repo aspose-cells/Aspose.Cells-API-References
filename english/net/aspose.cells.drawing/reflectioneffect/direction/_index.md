@@ -1,7 +1,7 @@
 ---
 title: Direction
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the direction of the alpha gradient ramp relative to the shape itself.
 type: docs
 weight: 20
 url: /net/aspose.cells.drawing/reflectioneffect/direction/

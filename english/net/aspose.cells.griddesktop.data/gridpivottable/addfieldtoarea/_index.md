@@ -1,12 +1,12 @@
 ---
 title: AddFieldToArea
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds the field to the specific area.
 type: docs
 weight: 10
 url: /net/aspose.cells.griddesktop.data/gridpivottable/addfieldtoarea/
 ---
-## GridPivotTable.AddFieldToArea method (1 of 2)
+## AddFieldToArea(GridPivotFieldType, int) {#addfieldtoarea}
 
 Adds the field to the specific area.
 
@@ -32,7 +32,7 @@ The field position in the specific fields.
 
 ---
 
-## GridPivotTable.AddFieldToArea method (2 of 2)
+## AddFieldToArea(GridPivotFieldType, string) {#addfieldtoarea_1}
 
 Adds the field to the specific area.
 

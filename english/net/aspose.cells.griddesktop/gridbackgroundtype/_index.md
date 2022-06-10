@@ -1,7 +1,7 @@
 ---
 title: GridBackgroundType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Enumerates cell background pattern types.
 type: docs
 weight: 830
 url: /net/aspose.cells.griddesktop/gridbackgroundtype/

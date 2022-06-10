@@ -1,9 +1,9 @@
 ---
 title: TextHorizontalAlignment
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the text horizontal alignment type of the shape.
 type: docs
-weight: 670
+weight: 730
 url: /net/aspose.cells.drawing/shape/texthorizontalalignment/
 ---
 ## Shape.TextHorizontalAlignment property

@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Add a segment path in creation path.
 type: docs
 weight: 30
 url: /net/aspose.cells.drawing/shapesegmentpathcollection/add/

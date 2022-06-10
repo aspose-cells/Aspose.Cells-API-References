@@ -1,7 +1,7 @@
 ---
 title: IsHFDiffFirst
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: True means that the header/footer of the first page is different with other pages.
 type: docs
 weight: 160
 url: /net/aspose.cells/pagesetup/ishfdifffirst/

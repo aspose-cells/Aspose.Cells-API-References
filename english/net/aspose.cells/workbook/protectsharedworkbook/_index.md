@@ -1,9 +1,9 @@
 ---
 title: ProtectSharedWorkbook
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Protects a shared workbook.
 type: docs
-weight: 500
+weight: 520
 url: /net/aspose.cells/workbook/protectsharedworkbook/
 ---
 ## Workbook.ProtectSharedWorkbook method

@@ -1,12 +1,12 @@
 ---
 title: AddKey
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds sorted column index and sort order.
 type: docs
 weight: 120
 url: /net/aspose.cells/datasorter/addkey/
 ---
-## DataSorter.AddKey method (1 of 4)
+## AddKey(int, SortOrder) {#addkey_1}
 
 Adds sorted column index and sort order.
 
@@ -28,7 +28,7 @@ public void AddKey(int key, SortOrder order)
 
 ---
 
-## DataSorter.AddKey method (2 of 4)
+## AddKey(int, SortOrder, string) {#addkey_2}
 
 Adds sorted column index and sort order with custom sort list.
 
@@ -51,7 +51,7 @@ public void AddKey(int key, SortOrder order, string customList)
 
 ---
 
-## DataSorter.AddKey method (3 of 4)
+## AddKey(int, SortOnType, SortOrder, object) {#addkey}
 
 Adds sorted column index and sort order with custom sort list.
 
@@ -80,7 +80,7 @@ If type is SortOnType.CellColor or SortOnType.FontColor, the customList is Color
 
 ---
 
-## DataSorter.AddKey method (4 of 4)
+## AddKey(int, SortOrder, string[]) {#addkey_3}
 
 Adds sorted column index and sort order with custom sort list.
 

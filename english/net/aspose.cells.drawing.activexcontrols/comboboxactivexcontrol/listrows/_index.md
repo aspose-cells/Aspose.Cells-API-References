@@ -1,7 +1,7 @@
 ---
 title: ListRows
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the maximum number of rows to display in the list.
 type: docs
 weight: 120
 url: /net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/listrows/

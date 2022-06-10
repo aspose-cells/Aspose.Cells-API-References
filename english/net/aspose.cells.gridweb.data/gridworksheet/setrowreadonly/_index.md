@@ -1,7 +1,7 @@
 ---
 title: SetRowReadonly
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets a row to readonly so user cant delete it from client side. this is extended method of GridWeb specificallyit will not keep and take affect in actual excel file
 type: docs
 weight: 810
 url: /net/aspose.cells.gridweb.data/gridworksheet/setrowreadonly/

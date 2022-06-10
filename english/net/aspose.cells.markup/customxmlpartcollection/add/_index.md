@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds an item to the collection.
 type: docs
 weight: 20
 url: /net/aspose.cells.markup/customxmlpartcollection/add/

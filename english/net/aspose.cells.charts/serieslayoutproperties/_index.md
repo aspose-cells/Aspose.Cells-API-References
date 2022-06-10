@@ -3,7 +3,7 @@ title: SeriesLayoutProperties
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 830
+weight: 850
 url: /net/aspose.cells.charts/serieslayoutproperties/
 ---
 ## SeriesLayoutProperties class

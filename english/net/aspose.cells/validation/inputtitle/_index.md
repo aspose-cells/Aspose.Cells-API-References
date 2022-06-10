@@ -1,7 +1,7 @@
 ---
 title: InputTitle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the title of the data-validation input dialog box.
 type: docs
 weight: 100
 url: /net/aspose.cells/validation/inputtitle/

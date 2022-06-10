@@ -1,7 +1,7 @@
 ---
 title: TextAlignment
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the alignment setting of the text body.
 type: docs
 weight: 40
 url: /net/aspose.cells.drawing.texts/fontsettingcollection/textalignment/

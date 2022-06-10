@@ -1,9 +1,9 @@
 ---
 title: SetPositionAuto
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Set position of the frame to automatic
 type: docs
-weight: 190
+weight: 210
 url: /net/aspose.cells.charts/chartframe/setpositionauto/
 ---
 ## ChartFrame.SetPositionAuto method

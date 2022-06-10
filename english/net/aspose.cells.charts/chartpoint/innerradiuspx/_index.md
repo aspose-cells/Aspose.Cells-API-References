@@ -1,7 +1,7 @@
 ---
 title: InnerRadiusPx
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the inner radius of doughnut slice in units of pixels after calls Chart.Calculate method. Applies to Doughnut chart.
 type: docs
 weight: 150
 url: /net/aspose.cells.charts/chartpoint/innerradiuspx/

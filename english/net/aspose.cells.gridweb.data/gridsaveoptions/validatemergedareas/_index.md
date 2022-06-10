@@ -1,7 +1,7 @@
 ---
 title: ValidateMergedAreas
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether validate merged cells before saving the file.
 type: docs
 weight: 80
 url: /net/aspose.cells.gridweb.data/gridsaveoptions/validatemergedareas/

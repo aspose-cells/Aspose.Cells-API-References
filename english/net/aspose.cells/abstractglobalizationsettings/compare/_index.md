@@ -1,7 +1,7 @@
 ---
 title: Compare
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Compares two string values according to certain collation rules.
 type: docs
 weight: 10
 url: /net/aspose.cells/abstractglobalizationsettings/compare/

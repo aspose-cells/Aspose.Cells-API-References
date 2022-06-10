@@ -1,7 +1,7 @@
 ---
 title: NewStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the new style of the cell.
 type: docs
 weight: 60
 url: /net/aspose.cells.revisions/revisioncellchange/newstyle/

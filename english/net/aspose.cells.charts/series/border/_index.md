@@ -1,9 +1,9 @@
 ---
 title: Border
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents border of Series object.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.cells.charts/series/border/
 ---
 ## Series.Border property

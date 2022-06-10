@@ -1,7 +1,7 @@
 ---
 title: InnerArcStartPointYPx
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the y coordinate of starting point for the pie section after calls Chart.Calculate method. Applies to Doughnut chart.
 type: docs
 weight: 140
 url: /net/aspose.cells.charts/chartpoint/innerarcstartpointypx/

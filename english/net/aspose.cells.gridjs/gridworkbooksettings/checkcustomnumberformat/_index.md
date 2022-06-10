@@ -1,7 +1,7 @@
 ---
 title: CheckCustomNumberFormat
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether checking custom number format when setting Style.Custom.
 type: docs
 weight: 30
 url: /net/aspose.cells.gridjs/gridworkbooksettings/checkcustomnumberformat/

@@ -1,9 +1,9 @@
 ---
 title: NameOfApplication
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the name of the application.
 type: docs
-weight: 210
+weight: 250
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/nameofapplication/
 ---
 ## BuiltInDocumentPropertyCollection.NameOfApplication property

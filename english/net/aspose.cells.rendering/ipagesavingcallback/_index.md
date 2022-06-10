@@ -1,9 +1,9 @@
 ---
 title: IPageSavingCallback
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Control/Indicate progress of page saving process.
 type: docs
-weight: 5120
+weight: 5160
 url: /net/aspose.cells.rendering/ipagesavingcallback/
 ---
 ## IPageSavingCallback interface

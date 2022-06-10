@@ -1,9 +1,9 @@
 ---
 title: HeightCM
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the height of the shape in unit of centimeters.
 type: docs
-weight: 160
+weight: 200
 url: /net/aspose.cells.drawing/shape/heightcm/
 ---
 ## Shape.HeightCM property

@@ -1,7 +1,7 @@
 ---
 title: DataLabels
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns a DataLabels object that represents the data label associated with the point.
 type: docs
 weight: 80
 url: /net/aspose.cells.charts/chartpoint/datalabels/

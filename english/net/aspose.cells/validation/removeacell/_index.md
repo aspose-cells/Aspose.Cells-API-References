@@ -1,7 +1,7 @@
 ---
 title: RemoveACell
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Remove the validation settings in the cell.
 type: docs
 weight: 230
 url: /net/aspose.cells/validation/removeacell/

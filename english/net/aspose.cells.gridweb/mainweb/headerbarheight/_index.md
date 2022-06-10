@@ -1,7 +1,7 @@
 ---
 title: HeaderBarHeight
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the height System.Web.UI.WebControl.Unit  of the top header bar of the control.
 type: docs
 weight: 380
 url: /net/aspose.cells.gridweb/mainweb/headerbarheight/

@@ -1,7 +1,7 @@
 ---
 title: Message
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the exception message.
 type: docs
 weight: 20
 url: /net/aspose.cells.gridjs/gridcellexception/message/

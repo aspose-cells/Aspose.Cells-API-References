@@ -1,12 +1,12 @@
 ---
 title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Removes the specified external link from the workbook.
 type: docs
 weight: 60
 url: /net/aspose.cells/externallinkcollection/removeat/
 ---
-## ExternalLinkCollection.RemoveAt method (1 of 2)
+## RemoveAt(int) {#removeat}
 
 Removes the specified external link from the workbook.
 
@@ -30,7 +30,7 @@ When removing the external link, all formulas that reference to it will be remov
 
 ---
 
-## ExternalLinkCollection.RemoveAt method (2 of 2)
+## RemoveAt(int, bool) {#removeat_1}
 
 Removes the specified external link from the workbook.
 

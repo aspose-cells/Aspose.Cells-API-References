@@ -1,12 +1,12 @@
 ---
 title: ImportDataView
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Imports from a DataView. Creates a sheet with the DataViews table name automatically.
 type: docs
 weight: 160
 url: /net/aspose.cells.gridweb.data/gridworksheetcollection/importdataview/
 ---
-## GridWorksheetCollection.ImportDataView method (1 of 2)
+## ImportDataView(DataView, TableItemStyle, TableItemStyle) {#importdataview}
 
 Imports from a DataView. Creates a sheet with the DataView's table name automatically.
 
@@ -23,13 +23,14 @@ public void ImportDataView(DataView dataView, TableItemStyle colHeaderStyle,
 
 ### See Also
 
+* class [TableItemStyle](../../../aspose.cells.gridweb/tableitemstyle)
 * class [GridWorksheetCollection](../../gridworksheetcollection)
 * namespace [Aspose.Cells.GridWeb.Data](../../gridworksheetcollection)
 * assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
-## GridWorksheetCollection.ImportDataView method (2 of 2)
+## ImportDataView(DataView, TableItemStyle, TableItemStyle, string, int, int) {#importdataview_1}
 
 Imports from a DataView to the specified sheet and position.
 
@@ -49,6 +50,7 @@ public void ImportDataView(DataView dataView, TableItemStyle colHeaderStyle,
 
 ### See Also
 
+* class [TableItemStyle](../../../aspose.cells.gridweb/tableitemstyle)
 * class [GridWorksheetCollection](../../gridworksheetcollection)
 * namespace [Aspose.Cells.GridWeb.Data](../../gridworksheetcollection)
 * assembly [Aspose.Cells.GridWeb](../../../)

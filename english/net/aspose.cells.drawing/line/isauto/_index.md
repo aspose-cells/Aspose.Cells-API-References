@@ -1,7 +1,7 @@
 ---
 title: IsAuto
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether this line style is auto assigned.
 type: docs
 weight: 130
 url: /net/aspose.cells.drawing/line/isauto/

@@ -1,7 +1,7 @@
 ---
 title: CellInMerged
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets a value whether the specified cell location is in merges.
 type: docs
 weight: 540
 url: /net/aspose.cells.griddesktop/worksheet/cellinmerged/

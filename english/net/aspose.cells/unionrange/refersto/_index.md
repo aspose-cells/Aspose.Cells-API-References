@@ -1,7 +1,7 @@
 ---
 title: RefersTo
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the ranges refers to.
 type: docs
 weight: 100
 url: /net/aspose.cells/unionrange/refersto/

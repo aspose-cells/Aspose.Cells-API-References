@@ -1,7 +1,7 @@
 ---
 title: NewValue
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets new value of the cell.
 type: docs
 weight: 70
 url: /net/aspose.cells.revisions/revisioncellchange/newvalue/

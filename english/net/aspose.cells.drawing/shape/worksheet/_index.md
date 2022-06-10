@@ -1,9 +1,9 @@
 ---
 title: Worksheet
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the Worksheetaspose.cells.drawing/shape/worksheet object which contains this shape.
 type: docs
-weight: 920
+weight: 980
 url: /net/aspose.cells.drawing/shape/worksheet/
 ---
 ## Shape.Worksheet property

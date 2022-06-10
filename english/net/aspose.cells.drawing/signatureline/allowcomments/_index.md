@@ -1,7 +1,7 @@
 ---
 title: AllowComments
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether comments could be attached.
 type: docs
 weight: 20
 url: /net/aspose.cells.drawing/signatureline/allowcomments/

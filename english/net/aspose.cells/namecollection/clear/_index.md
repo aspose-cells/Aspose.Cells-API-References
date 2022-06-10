@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Remove all defined names which are not referenced by the formulas and data source. If the defined name is referred we only set Name.ReferTo as null and hide them.
 type: docs
 weight: 30
 url: /net/aspose.cells/namecollection/clear/

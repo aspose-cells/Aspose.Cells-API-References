@@ -1,7 +1,7 @@
 ---
 title: ShowDataTips
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells.
 type: docs
 weight: 580
 url: /net/aspose.cells.pivot/pivottable/showdatatips/

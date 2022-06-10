@@ -1,7 +1,7 @@
 ---
 title: Move
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Moves the item up or down.
 type: docs
 weight: 80
 url: /net/aspose.cells.griddesktop.data/gridpivotitem/move/

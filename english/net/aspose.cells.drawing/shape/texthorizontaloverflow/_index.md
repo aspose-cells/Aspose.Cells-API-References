@@ -1,9 +1,9 @@
 ---
 title: TextHorizontalOverflow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the text horizontal overflow type of the shape which contains text.
 type: docs
-weight: 680
+weight: 740
 url: /net/aspose.cells.drawing/shape/texthorizontaloverflow/
 ---
 ## Shape.TextHorizontalOverflow property

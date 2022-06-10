@@ -1,7 +1,7 @@
 ---
 title: EnablePaging
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets whether to enable the controls paging mode.
 type: docs
 weight: 320
 url: /net/aspose.cells.gridweb/mainweb/enablepaging/

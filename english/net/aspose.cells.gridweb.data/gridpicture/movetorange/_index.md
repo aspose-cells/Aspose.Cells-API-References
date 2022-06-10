@@ -1,7 +1,7 @@
 ---
 title: MoveToRange
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Moves the shape to a specified range.
 type: docs
 weight: 620
 url: /net/aspose.cells.gridweb.data/gridpicture/movetorange/

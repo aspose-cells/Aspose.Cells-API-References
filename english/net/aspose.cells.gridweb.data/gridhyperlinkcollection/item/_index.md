@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the Hyperlinkaspose.cells.gridweb.data/hyperlink element at the specified index.
 type: docs
 weight: 20
 url: /net/aspose.cells.gridweb.data/gridhyperlinkcollection/item/
 ---
 ## GridHyperlinkCollection indexer
 
-Gets the Hyperlink element at the specified index.
+Gets the [`Hyperlink`](../../hyperlink) element at the specified index.
 
 ```csharp
 public GridHyperlink this[int index] { get; }

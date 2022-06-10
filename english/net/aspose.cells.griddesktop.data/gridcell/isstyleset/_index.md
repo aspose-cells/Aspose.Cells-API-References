@@ -1,7 +1,7 @@
 ---
 title: IsStyleSet
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates if the cells style is set. If return false it means this cell has a default cell format.
 type: docs
 weight: 100
 url: /net/aspose.cells.griddesktop.data/gridcell/isstyleset/

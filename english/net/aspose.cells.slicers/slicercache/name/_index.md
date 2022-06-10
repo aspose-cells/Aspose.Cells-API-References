@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns the name of the slicer cache.
 type: docs
 weight: 30
 url: /net/aspose.cells.slicers/slicercache/name/

@@ -1,9 +1,9 @@
 ---
 title: SpinButtonActiveXControl
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the SpinButton control.
 type: docs
-weight: 1700
+weight: 1720
 url: /net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/
 ---
 ## SpinButtonActiveXControl class

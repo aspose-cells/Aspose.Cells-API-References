@@ -1,9 +1,9 @@
 ---
 title: HtmlSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the options for saving html file.
 type: docs
-weight: 3730
+weight: 3760
 url: /net/aspose.cells/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class
@@ -18,8 +18,8 @@ public class HtmlSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [HtmlSaveOptions](htmlsaveoptions)() | Creates options for saving html file. |
-| [HtmlSaveOptions](htmlsaveoptions)(SaveFormat) | Creates options for saving htm file. |
+| [HtmlSaveOptions](htmlsaveoptions#constructor)() | Creates options for saving html file. |
+| [HtmlSaveOptions](htmlsaveoptions#constructor_1)(SaveFormat) | Creates options for saving htm file. |
 
 ## Properties
 
@@ -34,6 +34,7 @@ public class HtmlSaveOptions : SaveOptions
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [DefaultFontName](../../aspose.cells/htmlsaveoptions/defaultfontname) { get; set; } | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, Aspose.Cells will use universal font which have the same family with the original font, the default value is null. |
 | [DisableDownlevelRevealedComments](../../aspose.cells/htmlsaveoptions/disabledownlevelrevealedcomments) { get; set; } | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
+| [EnableHTTPCompression](../../aspose.cells/saveoptions/enablehttpcompression) { get; set; } | Indicates if http compression is to be used in user's IIS. |
 | [Encoding](../../aspose.cells/htmlsaveoptions/encoding) { get; set; } | If not set,use Encoding.UTF8 as default enconding type. |
 | [ExcludeUnusedStyles](../../aspose.cells/htmlsaveoptions/excludeunusedstyles) { get; set; } | Indicating whether excludes unused styles. For the generated html files, excluding unused styles can make the file size smaller without affecting the visual effects. So the default value of this property is true. If user needs to keep all styles in the workbook for the generated html(such as the scenario that user needs to restore the workbook from the generated html later), please set this property as false. |
 | [ExportActiveWorksheetOnly](../../aspose.cells/htmlsaveoptions/exportactiveworksheetonly) { get; set; } | Indicates if exporting the whole workbook to html file. |
@@ -49,6 +50,7 @@ public class HtmlSaveOptions : SaveOptions
 | [ExportHeadings](../../aspose.cells/htmlsaveoptions/exportheadings) { get; set; } | Indicates whether exporting headings when saving file to html.The default value is false. If you want to import the html file to excel, please keep the default value. |
 | [ExportHiddenWorksheet](../../aspose.cells/htmlsaveoptions/exporthiddenworksheet) { get; set; } | Indicating if exporting the hidden worksheet content.The default value is true. |
 | [ExportImagesAsBase64](../../aspose.cells/htmlsaveoptions/exportimagesasbase64) { get; set; } | Specifies whether images are saved in Base64 format to HTML, MHTML or EPUB. |
+| [ExportObjectListener](../../aspose.cells/htmlsaveoptions/exportobjectlistener) { get; set; } | Gets or sets the ExportObjectListener for exporting objects. |
 | [ExportPrintAreaOnly](../../aspose.cells/htmlsaveoptions/exportprintareaonly) { get; set; } | Indicates if only exporting the print area to html file. The default value is false. |
 | [ExportSimilarBorderStyle](../../aspose.cells/htmlsaveoptions/exportsimilarborderstyle) { get; set; } | Indicating whether exporting the similar border style when the border style is not supported by browsers. If you want to import the html or mht file to excel, please keep the default value. The default value is false. |
 | [ExportSingleTab](../../aspose.cells/htmlsaveoptions/exportsingletab) { get; set; } | Indicates whether exporting the single tab when the file only has one worksheet. The default value is false. |
@@ -70,6 +72,7 @@ public class HtmlSaveOptions : SaveOptions
 | [MergeEmptyTdForcely](../../aspose.cells/htmlsaveoptions/mergeemptytdforcely) { get; set; } | Indicates whether merging empty TD element forcedly when exporting file to html. The size of html file will be reduced significantly after setting value to true. The default value is false. If you want to import the html file to excel or export perfect grid lines when saving file to html, please keep the default value. |
 | [PageTitle](../../aspose.cells/htmlsaveoptions/pagetitle) { get; set; } | The title of the html page. Only for saving to html stream. |
 | [ParseHtmlTagInCell](../../aspose.cells/htmlsaveoptions/parsehtmltagincell) { get; set; } | Parse html tag in cell,like ,as cell value,or as html tag,default is true |
+| [PdfExportImagesFolder](../../aspose.cells/saveoptions/pdfexportimagesfolder) { get; set; } | The physical folder where images will be saved when exporting a workbook to Aspose.Pdf XML format. Default is an empty string. |
 | [PresentationPreference](../../aspose.cells/htmlsaveoptions/presentationpreference) { get; set; } | Indicating if html or mht file is presentation preference.The default value is false.if you want to get more beautiful presentation,please set the value to true. |
 | [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Indicates whether refreshing chart cache data |
 | [SaveAsSingleFile](../../aspose.cells/htmlsaveoptions/saveassinglefile) { get; set; } | Indicates whether save the html as single file. The default value is false. |

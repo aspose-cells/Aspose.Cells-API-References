@@ -1,7 +1,7 @@
 ---
 title: PreserveFormatting
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns or sets the PreserveFormatting of the object.
 type: docs
 weight: 50
 url: /net/aspose.cells/querytable/preserveformatting/

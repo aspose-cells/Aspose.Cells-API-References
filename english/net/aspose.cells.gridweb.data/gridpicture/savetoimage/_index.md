@@ -1,7 +1,7 @@
 ---
 title: SaveToImage
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Creates the image and saves it to a stream .
 type: docs
 weight: 640
 url: /net/aspose.cells.gridweb.data/gridpicture/savetoimage/

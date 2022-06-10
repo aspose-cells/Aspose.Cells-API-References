@@ -1,7 +1,7 @@
 ---
 title: Shape
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a shape object.
 type: docs
 weight: 940
 url: /net/aspose.cells.griddesktop/shape/

@@ -1,14 +1,14 @@
 ---
 title: GridPivotTable
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a PivotTable report on a worksheet. The PivotTable object is a member of the PivotTables./pivottables collection. The PivotTables collection contains all the PivotTable objects on a control.
 type: docs
-weight: 410
+weight: 420
 url: /net/aspose.cells.gridweb.data/gridpivottable/
 ---
 ## GridPivotTable class
 
-Represents a PivotTable report on a worksheet. The PivotTable object is a member of the PivotTables collection. The PivotTables collection contains all the PivotTable objects on a control.
+Represents a PivotTable report on a worksheet. The PivotTable object is a member of the [`PivotTables`](../pivottables) collection. The PivotTables collection contains all the PivotTable objects on a control.
 
 ```csharp
 public class GridPivotTable
@@ -18,12 +18,12 @@ public class GridPivotTable
 
 | Name | Description |
 | --- | --- |
-| [AddFieldToArea](../../aspose.cells.gridweb.data/gridpivottable/addfieldtoarea)(GridPivotFieldType, int) | Adds the field to the specific area. |
-| [AddFieldToArea](../../aspose.cells.gridweb.data/gridpivottable/addfieldtoarea)(GridPivotFieldType, string) | Adds the field to the specific area. |
+| [AddFieldToArea](../../aspose.cells.gridweb.data/gridpivottable/addfieldtoarea#addfieldtoarea)(GridPivotFieldType, int) | Adds the field to the specific area. |
+| [AddFieldToArea](../../aspose.cells.gridweb.data/gridpivottable/addfieldtoarea#addfieldtoarea_1)(GridPivotFieldType, string) | Adds the field to the specific area. |
 | [CalculateData](../../aspose.cells.gridweb.data/gridpivottable/calculatedata)() | Calculates pivottable's data to cells. |
 | [ClearAllFields](../../aspose.cells.gridweb.data/gridpivottable/clearallfields)() | clear all pivot fields. |
-| [Fields](../../aspose.cells.gridweb.data/gridpivottable/fields)(GridPivotFieldType) | Gets the specific fields by the field type. |
-| [Fields](../../aspose.cells.gridweb.data/gridpivottable/fields)(string) | Gets the specific field by the field name. |
+| [Fields](../../aspose.cells.gridweb.data/gridpivottable/fields#fields_1)(GridPivotFieldType) | Gets the specific fields by the field type. |
+| [Fields](../../aspose.cells.gridweb.data/gridpivottable/fields#fields)(string) | Gets the specific field by the field name. |
 | [RefreshData](../../aspose.cells.gridweb.data/gridpivottable/refreshdata)() | Refreshes pivottable's data and setting from it's data source. |
 
 ### See Also

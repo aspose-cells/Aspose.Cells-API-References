@@ -1,7 +1,7 @@
 ---
 title: PivotTables
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets all pivot tables in this worksheet.
 type: docs
 weight: 370
 url: /net/aspose.cells/worksheet/pivottables/

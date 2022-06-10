@@ -1,7 +1,7 @@
 ---
 title: BottomCrop
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the location of the bottom of the crop rectangle expressed expressed as a ratio of the images height.
 type: docs
 weight: 10
 url: /net/aspose.cells.drawing/msoformatpicture/bottomcrop/

@@ -1,7 +1,7 @@
 ---
 title: SheetDataUpdated
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Occurs when the control has loaded the posted data and updated the sheet data.
 type: docs
 weight: 1330
 url: /net/aspose.cells.gridweb/mainweb/sheetdataupdated/

@@ -1,7 +1,7 @@
 ---
 title: ImageData
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the picture image data.
 type: docs
 weight: 90
 url: /net/aspose.cells.drawing/fillformat/imagedata/

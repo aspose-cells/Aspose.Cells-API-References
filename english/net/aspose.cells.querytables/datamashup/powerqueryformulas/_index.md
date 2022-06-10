@@ -1,7 +1,7 @@
 ---
 title: PowerQueryFormulas
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets all power query formulas.
 type: docs
 weight: 20
 url: /net/aspose.cells.querytables/datamashup/powerqueryformulas/

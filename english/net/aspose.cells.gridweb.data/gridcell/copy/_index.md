@@ -1,7 +1,7 @@
 ---
 title: Copy
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Copies data from a source cell.
 type: docs
 weight: 180
 url: /net/aspose.cells.gridweb.data/gridcell/copy/

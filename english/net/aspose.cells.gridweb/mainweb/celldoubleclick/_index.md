@@ -1,7 +1,7 @@
 ---
 title: CellDoubleClick
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Occurs when the cell is double-clicked.
 type: docs
 weight: 1170
 url: /net/aspose.cells.gridweb/mainweb/celldoubleclick/

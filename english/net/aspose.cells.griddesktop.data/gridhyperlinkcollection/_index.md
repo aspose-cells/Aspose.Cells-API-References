@@ -1,7 +1,7 @@
 ---
 title: GridHyperlinkCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates a collection of Hyperlink objects.
 type: docs
 weight: 490
 url: /net/aspose.cells.griddesktop.data/gridhyperlinkcollection/
@@ -25,11 +25,11 @@ public class GridHyperlinkCollection
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add)(string, string) | Adds a hyperlink to a specified cell . |
-| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add)(int, int, string) | Adds a hyperlink to a specified cell at row column index. |
-| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add)(string, int, int, string) | Adds a hyperlink to a specified cell or a range of cells. |
-| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add)(int, int, int, int, string) | Adds a hyperlink to a specified cell or a range of cells. |
-| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add)(string, string, string, string, string) | Adds a hyperlink to a specified cell or a range of cells. |
+| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add#add_2)(string, string) | Adds a hyperlink to a specified cell . |
+| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add#add_4)(int, int, string) | Adds a hyperlink to a specified cell at row column index. |
+| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add#add_1)(string, int, int, string) | Adds a hyperlink to a specified cell or a range of cells. |
+| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add#add)(int, int, int, int, string) | Adds a hyperlink to a specified cell or a range of cells. |
+| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add#add_3)(string, string, string, string, string) | Adds a hyperlink to a specified cell or a range of cells. |
 | [Clear](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/clear)() | Clears all hyperlinks. |
 | [Remove](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/remove)(int, int) |  |
 | [RemoveAt](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/removeat)(int) | Remove the hyperlink at the specified index. |

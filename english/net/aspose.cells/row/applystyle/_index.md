@@ -1,7 +1,7 @@
 ---
 title: ApplyStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Applies formats for a whole row.
 type: docs
 weight: 140
 url: /net/aspose.cells/row/applystyle/

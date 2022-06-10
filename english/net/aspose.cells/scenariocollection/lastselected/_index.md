@@ -1,7 +1,7 @@
 ---
 title: LastSelected
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates which scenario was last selected by the user to be run/shown.
 type: docs
 weight: 30
 url: /net/aspose.cells/scenariocollection/lastselected/

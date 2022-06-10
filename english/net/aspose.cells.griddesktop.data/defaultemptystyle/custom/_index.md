@@ -1,7 +1,7 @@
 ---
 title: Custom
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the custom number format string.
 type: docs
 weight: 30
 url: /net/aspose.cells.griddesktop.data/defaultemptystyle/custom/

@@ -1,7 +1,7 @@
 ---
 title: SelectCellColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the color of the selected cells in multi-select range.
 type: docs
 weight: 790
 url: /net/aspose.cells.gridweb/mainweb/selectcellcolor/

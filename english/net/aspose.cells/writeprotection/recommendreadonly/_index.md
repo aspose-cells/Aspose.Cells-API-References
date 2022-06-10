@@ -1,7 +1,7 @@
 ---
 title: RecommendReadOnly
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates if the Read Only Recommended option is selected.
 type: docs
 weight: 50
 url: /net/aspose.cells/writeprotection/recommendreadonly/

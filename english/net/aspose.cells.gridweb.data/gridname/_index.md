@@ -1,9 +1,9 @@
 ---
 title: GridName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the object that represents a name object.
 type: docs
-weight: 300
+weight: 310
 url: /net/aspose.cells.gridweb.data/gridname/
 ---
 ## GridName class

@@ -1,7 +1,7 @@
 ---
 title: IsParamLiteralRequired
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether this engine needs the literal text of parameter while doing calculation. Default value is false.
 type: docs
 weight: 10
 url: /net/aspose.cells/abstractcalculationengine/isparamliteralrequired/

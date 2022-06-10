@@ -1,7 +1,7 @@
 ---
 title: FormatStrategy
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the format strategy when exporting the cell value as string.
 type: docs
 weight: 30
 url: /net/aspose.cells/markdownsaveoptions/formatstrategy/

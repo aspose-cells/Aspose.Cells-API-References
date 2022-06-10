@@ -1,9 +1,9 @@
 ---
 title: Bevel
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a bevel of a shape
 type: docs
-weight: 1790
+weight: 1810
 url: /net/aspose.cells.drawing/bevel/
 ---
 ## Bevel class

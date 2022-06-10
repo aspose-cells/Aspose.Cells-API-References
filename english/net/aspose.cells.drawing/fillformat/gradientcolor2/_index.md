@@ -1,7 +1,7 @@
 ---
 title: GradientColor2
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns the gradient color 2 for the specified fill.
 type: docs
 weight: 30
 url: /net/aspose.cells.drawing/fillformat/gradientcolor2/

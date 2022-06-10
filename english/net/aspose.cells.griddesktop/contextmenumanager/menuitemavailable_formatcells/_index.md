@@ -1,7 +1,7 @@
 ---
 title: MenuItemAvailable_FormatCells
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the context menu item FormatCells is available.
 type: docs
 weight: 120
 url: /net/aspose.cells.griddesktop/contextmenumanager/menuitemavailable_formatcells/

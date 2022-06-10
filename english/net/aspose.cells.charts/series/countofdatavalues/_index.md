@@ -1,9 +1,9 @@
 ---
 title: CountOfDataValues
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the number of the data values.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.cells.charts/series/countofdatavalues/
 ---
 ## Series.CountOfDataValues property

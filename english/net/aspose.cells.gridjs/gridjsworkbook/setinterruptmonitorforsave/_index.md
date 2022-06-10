@@ -1,7 +1,7 @@
 ---
 title: SetInterruptMonitorForSave
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: set InterruptMonitor for save operation for workbook
 type: docs
 weight: 190
 url: /net/aspose.cells.gridjs/gridjsworkbook/setinterruptmonitorforsave/

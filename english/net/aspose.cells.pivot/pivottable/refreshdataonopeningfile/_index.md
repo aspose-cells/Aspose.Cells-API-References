@@ -1,7 +1,7 @@
 ---
 title: RefreshDataOnOpeningFile
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether Refresh Data when Opening File.
 type: docs
 weight: 500
 url: /net/aspose.cells.pivot/pivottable/refreshdataonopeningfile/

@@ -1,7 +1,7 @@
 ---
 title: Ranges
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the collection of Rangeaspose.cells/range objects created at run time.
 type: docs
 weight: 230
 url: /net/aspose.cells/cells/ranges/

@@ -1,7 +1,7 @@
 ---
 title: SmoothingMode
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies whether smoothing antialiasing is applied to lines and curves and the edges of filled areas. The default value is SmoothingMode.None
 type: docs
 weight: 290
 url: /net/aspose.cells.rendering/imageorprintoptions/smoothingmode/

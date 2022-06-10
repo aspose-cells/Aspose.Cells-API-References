@@ -6,7 +6,7 @@ type: docs
 weight: 130
 url: /net/aspose.cells/collectionbase-1/findlastindex/
 ---
-## CollectionBase&lt;T&gt;.FindLastIndex method (1 of 3)
+## FindLastIndex(Predicate&lt;T&gt;) {#findlastindex_2}
 
 ```csharp
 public int FindLastIndex(Predicate<T> match)
@@ -24,7 +24,7 @@ public int FindLastIndex(Predicate<T> match)
 
 ---
 
-## CollectionBase&lt;T&gt;.FindLastIndex method (2 of 3)
+## FindLastIndex(int, Predicate&lt;T&gt;) {#findlastindex_1}
 
 ```csharp
 public int FindLastIndex(int startIndex, Predicate<T> match)
@@ -43,7 +43,7 @@ public int FindLastIndex(int startIndex, Predicate<T> match)
 
 ---
 
-## CollectionBase&lt;T&gt;.FindLastIndex method (3 of 3)
+## FindLastIndex(int, int, Predicate&lt;T&gt;) {#findlastindex}
 
 ```csharp
 public int FindLastIndex(int startIndex, int count, Predicate<T> match)

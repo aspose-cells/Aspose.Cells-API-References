@@ -1,7 +1,7 @@
 ---
 title: AddActiveXControl
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Creates an Activex Control.
 type: docs
 weight: 20
 url: /net/aspose.cells.drawing/shapecollection/addactivexcontrol/

@@ -1,9 +1,9 @@
 ---
 title: CustomImplementationFactory
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Factory to create some instances which may be re-implemented by user for special purpose.
 type: docs
-weight: 1220
+weight: 1240
 url: /net/aspose.cells/customimplementationfactory/
 ---
 ## CustomImplementationFactory class
@@ -25,8 +25,8 @@ public class CustomImplementationFactory
 | Name | Description |
 | --- | --- |
 | virtual [CreateCultureInfo](../../aspose.cells/customimplementationfactory/createcultureinfo)(int) | Create one CultureInfo by given id. |
-| virtual [CreateMemoryStream](../../aspose.cells/customimplementationfactory/creatememorystream)() | Create one instance of MemoryStream or custom implementation of MemoryStream. |
-| virtual [CreateMemoryStream](../../aspose.cells/customimplementationfactory/creatememorystream)(int) | Create one instance of MemoryStream or custom implementation of MemoryStream. |
+| virtual [CreateMemoryStream](../../aspose.cells/customimplementationfactory/creatememorystream#creatememorystream)() | Create one instance of MemoryStream or custom implementation of MemoryStream. |
+| virtual [CreateMemoryStream](../../aspose.cells/customimplementationfactory/creatememorystream#creatememorystream_1)(int) | Create one instance of MemoryStream or custom implementation of MemoryStream. |
 | virtual [CreateRandomInstance](../../aspose.cells/customimplementationfactory/createrandominstance)() | Create one instance of random number generator. |
 
 ### See Also

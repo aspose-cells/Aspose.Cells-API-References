@@ -1,7 +1,7 @@
 ---
 title: ExportArray
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Exports data in the Cellsaspose.cells/cells collection to a two-dimension array object.
 type: docs
 weight: 600
 url: /net/aspose.cells/cells/exportarray/

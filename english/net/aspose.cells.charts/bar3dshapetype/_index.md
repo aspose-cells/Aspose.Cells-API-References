@@ -1,9 +1,9 @@
 ---
 title: Bar3DShapeType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the shape used with the 3-D bar or column chart.
 type: docs
-weight: 390
+weight: 400
 url: /net/aspose.cells.charts/bar3dshapetype/
 ---
 ## Bar3DShapeType enumeration

@@ -1,7 +1,7 @@
 ---
 title: DiscardInput
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether to discard user input at client browser when user click this CellCommand hyperlink. Could be used as an undo action.
 type: docs
 weight: 40
 url: /net/aspose.cells.griddesktop.data/gridhyperlink/discardinput/

@@ -1,9 +1,9 @@
 ---
 title: DataLabels
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates a collection of all the DataLabel objects for the specified Series.
 type: docs
-weight: 570
+weight: 580
 url: /net/aspose.cells.charts/datalabels/
 ---
 ## DataLabels class
@@ -20,6 +20,7 @@ public class DataLabels : ChartTextFrame
 | --- | --- |
 | override [Area](../../aspose.cells.charts/datalabels/area) { get; } | Gets the [`area`](./area). |
 | virtual [AutoScaleFont](../../aspose.cells.charts/chartframe/autoscalefont) { get; set; } | True if the text in the object changes font size when the object size changes. The default value is True. |
+| [Background](../../aspose.cells.charts/chartframe/background) { get; set; } | Gets and sets the display mode of the background |
 | [BackgroundMode](../../aspose.cells.charts/datalabels/backgroundmode) { get; set; } | Gets and sets the display mode of the background |
 | override [Border](../../aspose.cells.charts/datalabels/border) { get; } | Gets the [`border`](../../aspose.cells.drawing/line). |
 | [DefaultHeight](../../aspose.cells.charts/chartframe/defaultheight) { get; } | Represents height of default position |
@@ -44,6 +45,7 @@ public class DataLabels : ChartTextFrame
 | [Position](../../aspose.cells.charts/datalabels/position) { get; set; } | Represents the position of the data label. |
 | [ReadingOrder](../../aspose.cells.charts/charttextframe/readingorder) { get; set; } | Represents text reading order. |
 | [RotationAngle](../../aspose.cells.charts/charttextframe/rotationangle) { get; set; } | Represents text rotation angle. |
+| [Separator](../../aspose.cells.charts/datalabels/separator) { get; set; } | Gets or sets the separator type used for the data labels on a chart. |
 | [SeparatorType](../../aspose.cells.charts/datalabels/separatortype) { get; set; } | Gets or sets the separator type used for the data labels on a chart. |
 | [SeparatorValue](../../aspose.cells.charts/datalabels/separatorvalue) { get; set; } | Gets or sets the separator value used for the data labels on a chart. |
 | [Shadow](../../aspose.cells.charts/chartframe/shadow) { get; set; } | True if the frame has a shadow. |
@@ -57,6 +59,8 @@ public class DataLabels : ChartTextFrame
 | [ShowSeriesName](../../aspose.cells.charts/datalabels/showseriesname) { get; set; } | Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. True to show the series name. False to hide. |
 | [ShowValue](../../aspose.cells.charts/datalabels/showvalue) { get; set; } | Represents a specified chart's data label values display behavior. True displays the values. False to hide. |
 | override [Text](../../aspose.cells.charts/datalabels/text) { get; set; } | Gets or sets the text of data label. |
+| [TextDirection](../../aspose.cells.charts/charttextframe/textdirection) { get; set; } | Represents text reading order. |
+| virtual [TextFont](../../aspose.cells.charts/chartframe/textfont) { get; } | Gets a [`Font`](../chartframe/font) object of the specified ChartFrame object. |
 | [TextHorizontalAlignment](../../aspose.cells.charts/charttextframe/texthorizontalalignment) { get; set; } | Gets and sets the text horizontal alignment. |
 | [TextVerticalAlignment](../../aspose.cells.charts/charttextframe/textverticalalignment) { get; set; } | Gets or sets the text vertical alignment of text. |
 | virtual [Width](../../aspose.cells.charts/chartframe/width) { get; set; } | Gets or sets the width of frame in units of 1/4000 of the chart area. |

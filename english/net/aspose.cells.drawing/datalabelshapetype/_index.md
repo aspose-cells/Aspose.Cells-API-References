@@ -1,9 +1,9 @@
 ---
 title: DataLabelShapeType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the preset shape geometry that is to be used for a chart.
 type: docs
-weight: 1930
+weight: 1950
 url: /net/aspose.cells.drawing/datalabelshapetype/
 ---
 ## DataLabelShapeType enumeration

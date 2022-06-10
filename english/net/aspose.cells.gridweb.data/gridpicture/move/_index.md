@@ -1,7 +1,7 @@
 ---
 title: Move
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Moves the picture to a specified location.
 type: docs
 weight: 610
 url: /net/aspose.cells.gridweb.data/gridpicture/move/

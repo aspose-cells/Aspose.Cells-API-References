@@ -1,7 +1,7 @@
 ---
 title: AllowDeletingRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents if the deletion of rows is allowed on a protected worksheet.
 type: docs
 weight: 20
 url: /net/aspose.cells/protection/allowdeletingrow/

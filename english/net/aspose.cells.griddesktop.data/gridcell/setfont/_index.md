@@ -1,7 +1,7 @@
 ---
 title: SetFont
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets font to cell. To improve performanceimplement SetFont method not implement Font property.
 type: docs
 weight: 380
 url: /net/aspose.cells.griddesktop.data/gridcell/setfont/

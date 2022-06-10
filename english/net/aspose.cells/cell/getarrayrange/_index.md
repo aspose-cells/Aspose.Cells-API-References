@@ -1,9 +1,9 @@
 ---
 title: GetArrayRange
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the array range if the cells formula is an array formula.
 type: docs
-weight: 350
+weight: 380
 url: /net/aspose.cells/cell/getarrayrange/
 ---
 ## Cell.GetArrayRange method

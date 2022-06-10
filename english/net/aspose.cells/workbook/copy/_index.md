@@ -1,12 +1,12 @@
 ---
 title: Copy
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Copies data from a source Workbook object.
 type: docs
-weight: 320
+weight: 330
 url: /net/aspose.cells/workbook/copy/
 ---
-## Workbook.Copy method (1 of 2)
+## Copy(Workbook, CopyOptions) {#copy_1}
 
 Copies data from a source Workbook object.
 
@@ -28,7 +28,7 @@ public void Copy(Workbook source, CopyOptions copyOptions)
 
 ---
 
-## Workbook.Copy method (2 of 2)
+## Copy(Workbook) {#copy}
 
 Copies data from a source Workbook object.
 

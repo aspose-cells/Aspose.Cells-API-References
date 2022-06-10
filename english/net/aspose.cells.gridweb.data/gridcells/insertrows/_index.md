@@ -1,12 +1,12 @@
 ---
 title: InsertRows
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Inserts multiple rows into the worksheet.
 type: docs
 weight: 580
 url: /net/aspose.cells.gridweb.data/gridcells/insertrows/
 ---
-## GridCells.InsertRows method (1 of 2)
+## InsertRows(int, int, bool) {#insertrows_1}
 
 Inserts multiple rows into the worksheet.
 
@@ -28,7 +28,7 @@ public void InsertRows(int rowIndex, int totalRows, bool updateReference)
 
 ---
 
-## GridCells.InsertRows method (2 of 2)
+## InsertRows(int, int) {#insertrows}
 
 Inserts multiple rows into the worksheet.
 

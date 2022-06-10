@@ -1,7 +1,7 @@
 ---
 title: PresetStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the preset style type of the sparkline group.
 type: docs
 weight: 130
 url: /net/aspose.cells.charts/sparklinegroup/presetstyle/

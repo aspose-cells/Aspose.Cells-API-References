@@ -1,9 +1,9 @@
 ---
 title: ViewType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the view type of the worksheet.
 type: docs
-weight: 6320
+weight: 6360
 url: /net/aspose.cells/viewtype/
 ---
 ## ViewType enumeration

@@ -1,9 +1,9 @@
 ---
 title: WebExtensionPropertyCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the list of web extension properties.
 type: docs
-weight: 6410
+weight: 6450
 url: /net/aspose.cells.webextensions/webextensionpropertycollection/
 ---
 ## WebExtensionPropertyCollection class
@@ -60,7 +60,7 @@ public class WebExtensionPropertyCollection : CollectionBase<WebExtensionPropert
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(WebExtensionProperty, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(WebExtensionProperty, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
-| [RemoveAt](../../aspose.cells.webextensions/webextensionpropertycollection/removeat)(string) | Remove the property by the name. |
+| [RemoveAt](../../aspose.cells.webextensions/webextensionpropertycollection/removeat#removeat_1)(string) | Remove the property by the name. |
 
 ### See Also
 

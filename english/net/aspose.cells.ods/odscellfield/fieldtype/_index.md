@@ -1,7 +1,7 @@
 ---
 title: FieldType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the type of the field.
 type: docs
 weight: 30
 url: /net/aspose.cells.ods/odscellfield/fieldtype/

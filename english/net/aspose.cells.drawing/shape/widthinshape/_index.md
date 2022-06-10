@@ -1,9 +1,9 @@
 ---
 title: WidthInShape
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the width of the shape in unit of 1/4000 of the parent shape.
 type: docs
-weight: 890
+weight: 950
 url: /net/aspose.cells.drawing/shape/widthinshape/
 ---
 ## Shape.WidthInShape property

@@ -1,7 +1,7 @@
 ---
 title: PrecisionAsDisplayed
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: True if calculations in this workbook will be done using only the precision of the numbers as theyre displayed
 type: docs
 weight: 100
 url: /net/aspose.cells.gridweb.data/gridworkbooksettings/precisionasdisplayed/

@@ -1,7 +1,7 @@
 ---
 title: Blur
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the blur radiusin unit of points.
 type: docs
 weight: 10
 url: /net/aspose.cells.drawing/reflectioneffect/blur/

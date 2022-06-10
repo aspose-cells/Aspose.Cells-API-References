@@ -1,9 +1,9 @@
 ---
 title: HtmlFormatHandlingType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies how to handle formatting from the HTML source
 type: docs
-weight: 3300
+weight: 3330
 url: /net/aspose.cells.externalconnections/htmlformathandlingtype/
 ---
 ## HtmlFormatHandlingType enumeration

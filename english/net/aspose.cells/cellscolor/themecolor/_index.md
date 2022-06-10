@@ -1,7 +1,7 @@
 ---
 title: ThemeColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the theme color. Only applies for theme color type.
 type: docs
 weight: 50
 url: /net/aspose.cells/cellscolor/themecolor/

@@ -1,9 +1,9 @@
 ---
 title: GetHtmlString
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the html string which contains data and some formats in this cell.
 type: docs
-weight: 440
+weight: 480
 url: /net/aspose.cells/cell/gethtmlstring/
 ---
 ## Cell.GetHtmlString method

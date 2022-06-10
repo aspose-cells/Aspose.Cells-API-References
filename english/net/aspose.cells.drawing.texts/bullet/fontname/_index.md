@@ -1,7 +1,7 @@
 ---
 title: FontName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get and sets the name of the font.
 type: docs
 weight: 20
 url: /net/aspose.cells.drawing.texts/bullet/fontname/

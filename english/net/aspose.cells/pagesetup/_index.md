@@ -1,9 +1,9 @@
 ---
 title: PageSetup
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the object that represents the page setup description. The PageSetup object contains all page setup options.
 type: docs
-weight: 4410
+weight: 4450
 url: /net/aspose.cells/pagesetup/
 ---
 ## PageSetup class
@@ -76,8 +76,8 @@ public class PageSetup
 | [GetFirstPageHeader](../../aspose.cells/pagesetup/getfirstpageheader)(int) | Gets a script formatting the first page header of an Excel file. |
 | [GetFooter](../../aspose.cells/pagesetup/getfooter)(int) | Gets a script formatting the footer of an Excel file. |
 | [GetHeader](../../aspose.cells/pagesetup/getheader)(int) | Gets a script formatting the header of an Excel file. |
-| [GetPicture](../../aspose.cells/pagesetup/getpicture)(bool, int) | Gets the [`Picture`](../../aspose.cells.drawing/picture) object of the header / footer. |
-| [GetPicture](../../aspose.cells/pagesetup/getpicture)(bool, bool, bool, int) | Gets the [`Picture`](../../aspose.cells.drawing/picture) object of the header / footer. |
+| [GetPicture](../../aspose.cells/pagesetup/getpicture#getpicture_1)(bool, int) | Gets the [`Picture`](../../aspose.cells.drawing/picture) object of the header / footer. |
+| [GetPicture](../../aspose.cells/pagesetup/getpicture#getpicture)(bool, bool, bool, int) | Gets the [`Picture`](../../aspose.cells.drawing/picture) object of the header / footer. |
 | [SetEvenFooter](../../aspose.cells/pagesetup/setevenfooter)(int, string) | Sets a script formatting the even page footer of an Excel file. Only effect in Excel 2007 when IsHFDiffOddEven is true. |
 | [SetEvenHeader](../../aspose.cells/pagesetup/setevenheader)(int, string) | Sets a script formatting the even page header of an Excel file. Only effect in Excel 2007 when IsHFDiffOddEven is true. |
 | [SetFirstPageFooter](../../aspose.cells/pagesetup/setfirstpagefooter)(int, string) | Sets a script formatting the first page footer of an Excel file. |

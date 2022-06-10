@@ -1,12 +1,12 @@
 ---
 title: GetDisplayStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the display style of the cell. If this cell is also affected by other settings such as conditional formatting list objects etc. then the display style may be different from cell.GetStyle.
 type: docs
-weight: 390
+weight: 430
 url: /net/aspose.cells/cell/getdisplaystyle/
 ---
-## Cell.GetDisplayStyle method (1 of 2)
+## GetDisplayStyle() {#getdisplaystyle}
 
 Gets the display style of the cell. If this cell is also affected by other settings such as conditional formatting, list objects, etc., then the display style may be different from cell.GetStyle().
 
@@ -23,7 +23,7 @@ public Style GetDisplayStyle()
 
 ---
 
-## Cell.GetDisplayStyle method (2 of 2)
+## GetDisplayStyle(bool) {#getdisplaystyle_1}
 
 Gets the display style of the cell. If the cell is conditional formatted, the display style is not same as the cell.GetStyle().
 

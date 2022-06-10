@@ -1,7 +1,7 @@
 ---
 title: GradientVariant
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns the gradient variant for the specified fill. Only applies for Excel 2007.
 type: docs
 weight: 80
 url: /net/aspose.cells.drawing/fillformat/gradientvariant/

@@ -1,9 +1,9 @@
 ---
 title: GradientStyleType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents gradient shading style.
 type: docs
-weight: 2110
+weight: 2130
 url: /net/aspose.cells.drawing/gradientstyletype/
 ---
 ## GradientStyleType enumeration

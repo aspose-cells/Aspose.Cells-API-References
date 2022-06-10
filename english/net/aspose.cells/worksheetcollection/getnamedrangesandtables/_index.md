@@ -1,7 +1,7 @@
 ---
 title: GetNamedRangesAndTables
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets all pre-defined named ranges in the spreadsheet.
 type: docs
 weight: 240
 url: /net/aspose.cells/worksheetcollection/getnamedrangesandtables/

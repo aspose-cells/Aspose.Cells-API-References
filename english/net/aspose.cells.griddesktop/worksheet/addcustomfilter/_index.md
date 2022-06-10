@@ -1,12 +1,12 @@
 ---
 title: AddCustomFilter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Add custom filter for the specified row range from start row to end row.
 type: docs
 weight: 450
 url: /net/aspose.cells.griddesktop/worksheet/addcustomfilter/
 ---
-## Worksheet.AddCustomFilter method (1 of 2)
+## AddCustomFilter(int, int, object[], GridFilterOperatorType[]) {#addcustomfilter}
 
 Add custom filter for the specified row range from start row to end row.
 
@@ -31,7 +31,7 @@ public void AddCustomFilter(int startrow, int startcolumn, object[] critiras,
 
 ---
 
-## Worksheet.AddCustomFilter method (2 of 2)
+## AddCustomFilter(int, string) {#addcustomfilter_1}
 
 Add custom filter for the specified row.
 

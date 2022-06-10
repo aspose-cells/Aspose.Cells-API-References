@@ -1,9 +1,9 @@
 ---
 title: DigitalSignatureCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Provides a collection of digital signatures attached to a document.
 type: docs
-weight: 1390
+weight: 1410
 url: /net/aspose.cells.digitalsignatures/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection class

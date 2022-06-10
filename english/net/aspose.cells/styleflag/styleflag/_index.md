@@ -1,7 +1,7 @@
 ---
 title: StyleFlag
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Constructs an object with all flags as false.
 type: docs
 weight: 10
 url: /net/aspose.cells/styleflag/styleflag/

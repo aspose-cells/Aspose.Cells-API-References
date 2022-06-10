@@ -1,7 +1,7 @@
 ---
 title: BuiltinStyleType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents all built-in style type
 type: docs
 weight: 170
 url: /net/aspose.cells/builtinstyletype/

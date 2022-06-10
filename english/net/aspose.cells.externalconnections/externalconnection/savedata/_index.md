@@ -1,9 +1,9 @@
 ---
 title: SaveData
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: True if the external data fetched over the connection to populate a table is to be saved with the workbook otherwise false.
 type: docs
-weight: 170
+weight: 190
 url: /net/aspose.cells.externalconnections/externalconnection/savedata/
 ---
 ## ExternalConnection.SaveData property

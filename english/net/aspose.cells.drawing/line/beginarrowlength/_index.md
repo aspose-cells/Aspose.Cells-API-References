@@ -1,7 +1,7 @@
 ---
 title: BeginArrowLength
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the length of the arrowhead for the begin of a line.
 type: docs
 weight: 10
 url: /net/aspose.cells.drawing/line/beginarrowlength/

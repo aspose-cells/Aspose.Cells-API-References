@@ -1,7 +1,7 @@
 ---
 title: IsOutlineVisible
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the line border of the shape is visible.
 type: docs
 weight: 220
 url: /net/aspose.cells.griddesktop.data/gridpicture/isoutlinevisible/

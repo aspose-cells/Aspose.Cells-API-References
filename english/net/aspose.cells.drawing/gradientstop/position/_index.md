@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The position of the stop.
 type: docs
 weight: 20
 url: /net/aspose.cells.drawing/gradientstop/position/

@@ -1,7 +1,7 @@
 ---
 title: BorderWidth
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the width of the border. Please refer to System.Web.UI.WebControls.Unit struct.
 type: docs
 weight: 40
 url: /net/aspose.cells.gridweb/webborderstyle/borderwidth/

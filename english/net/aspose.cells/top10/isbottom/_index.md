@@ -1,7 +1,7 @@
 ---
 title: IsBottom
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get or set whether a top/bottom n rule is a bottom n rule. Default value is false.
 type: docs
 weight: 20
 url: /net/aspose.cells/top10/isbottom/

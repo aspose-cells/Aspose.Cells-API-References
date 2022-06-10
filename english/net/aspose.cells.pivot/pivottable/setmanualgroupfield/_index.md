@@ -1,12 +1,12 @@
 ---
 title: SetManualGroupField
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets manual field group by the PivotTable.
 type: docs
-weight: 930
+weight: 940
 url: /net/aspose.cells.pivot/pivottable/setmanualgroupfield/
 ---
-## PivotTable.SetManualGroupField method (1 of 4)
+## SetManualGroupField(int, double, double, ArrayList, double) {#setmanualgroupfield_2}
 
 Sets manual field group by the PivotTable.
 
@@ -31,7 +31,7 @@ public void SetManualGroupField(int baseFieldIndex, double startVal, double endV
 
 ---
 
-## PivotTable.SetManualGroupField method (2 of 4)
+## SetManualGroupField(PivotField, double, double, ArrayList, double) {#setmanualgroupfield}
 
 Sets manual field group by the PivotTable.
 
@@ -57,7 +57,7 @@ public void SetManualGroupField(PivotField pivotField, double startVal, double e
 
 ---
 
-## PivotTable.SetManualGroupField method (3 of 4)
+## SetManualGroupField(int, DateTime, DateTime, ArrayList, int) {#setmanualgroupfield_3}
 
 Sets manual field group by the PivotTable.
 
@@ -82,7 +82,7 @@ public void SetManualGroupField(int baseFieldIndex, DateTime startVal, DateTime 
 
 ---
 
-## PivotTable.SetManualGroupField method (4 of 4)
+## SetManualGroupField(PivotField, DateTime, DateTime, ArrayList, int) {#setmanualgroupfield_1}
 
 Sets manual field group by the PivotTable.
 

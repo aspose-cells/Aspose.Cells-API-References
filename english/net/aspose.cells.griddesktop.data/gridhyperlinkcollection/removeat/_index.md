@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Remove the hyperlink at the specified index.
 type: docs
 weight: 60
 url: /net/aspose.cells.griddesktop.data/gridhyperlinkcollection/removeat/

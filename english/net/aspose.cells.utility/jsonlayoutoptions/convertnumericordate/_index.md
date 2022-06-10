@@ -1,7 +1,7 @@
 ---
 title: ConvertNumericOrDate
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a value that indicates whether the string in json is converted to numeric or date.
 type: docs
 weight: 30
 url: /net/aspose.cells.utility/jsonlayoutoptions/convertnumericordate/

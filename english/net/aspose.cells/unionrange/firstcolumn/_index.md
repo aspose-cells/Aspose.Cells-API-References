@@ -1,7 +1,7 @@
 ---
 title: FirstColumn
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the index of the first column of the range.
 type: docs
 weight: 30
 url: /net/aspose.cells/unionrange/firstcolumn/

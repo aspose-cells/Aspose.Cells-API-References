@@ -1,9 +1,9 @@
 ---
 title: ExtWebControl
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Extend the WebControl class internal use only.
 type: docs
-weight: 770
+weight: 980
 url: /net/aspose.cells.gridweb/extwebcontrol/
 ---
 ## ExtWebControl class

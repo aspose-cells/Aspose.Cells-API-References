@@ -1,7 +1,7 @@
 ---
 title: AutoFitMergedCellsType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the type of auto fitting merged cells.
 type: docs
 weight: 100
 url: /net/aspose.cells/autofitmergedcellstype/

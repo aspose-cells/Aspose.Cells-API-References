@@ -1,7 +1,7 @@
 ---
 title: ChartSettings
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the Chart of thisChartGlobalizationSettingsaspose.cells.charts/chartglobalizationsettings
 type: docs
 weight: 20
 url: /net/aspose.cells/globalizationsettings/chartsettings/

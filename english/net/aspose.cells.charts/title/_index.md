@@ -1,9 +1,9 @@
 ---
 title: Title
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the object that represents the title of chart or axis.
 type: docs
-weight: 960
+weight: 980
 url: /net/aspose.cells.charts/title/
 ---
 ## Title class
@@ -20,6 +20,7 @@ public class Title : ChartTextFrame
 | --- | --- |
 | virtual [Area](../../aspose.cells.charts/chartframe/area) { get; } | Gets the [`area`](../chartframe/area). |
 | virtual [AutoScaleFont](../../aspose.cells.charts/chartframe/autoscalefont) { get; set; } | True if the text in the object changes font size when the object size changes. The default value is True. |
+| [Background](../../aspose.cells.charts/chartframe/background) { get; set; } | Gets and sets the display mode of the background |
 | [BackgroundMode](../../aspose.cells.charts/chartframe/backgroundmode) { get; set; } | Gets and sets the display mode of the background |
 | virtual [Border](../../aspose.cells.charts/chartframe/border) { get; } | Gets the [`border`](../../aspose.cells.drawing/line). |
 | [DefaultHeight](../../aspose.cells.charts/chartframe/defaultheight) { get; } | Represents height of default position |
@@ -44,6 +45,8 @@ public class Title : ChartTextFrame
 | [Shadow](../../aspose.cells.charts/chartframe/shadow) { get; set; } | True if the frame has a shadow. |
 | [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties) { get; } | Gets the [`ShapeProperties`](../chartframe/shapeproperties) object. |
 | override [Text](../../aspose.cells.charts/title/text) { get; set; } | Gets or sets the text of display unit label. |
+| [TextDirection](../../aspose.cells.charts/charttextframe/textdirection) { get; set; } | Represents text reading order. |
+| virtual [TextFont](../../aspose.cells.charts/chartframe/textfont) { get; } | Gets a [`Font`](../chartframe/font) object of the specified ChartFrame object. |
 | [TextHorizontalAlignment](../../aspose.cells.charts/charttextframe/texthorizontalalignment) { get; set; } | Gets and sets the text horizontal alignment. |
 | [TextVerticalAlignment](../../aspose.cells.charts/charttextframe/textverticalalignment) { get; set; } | Gets or sets the text vertical alignment of text. |
 | virtual [Width](../../aspose.cells.charts/chartframe/width) { get; set; } | Gets or sets the width of frame in units of 1/4000 of the chart area. |
@@ -54,7 +57,7 @@ public class Title : ChartTextFrame
 
 | Name | Description |
 | --- | --- |
-| [Characters](../../aspose.cells.charts/title/characters)() | Gets rich text formatting of this Title. |
+| [Characters](../../aspose.cells.charts/title/characters#characters_1)() | Gets rich text formatting of this Title. |
 | [Characters](../../aspose.cells.charts/charttextframe/characters)(int, int) | Returns a Characters object that represents a range of characters within the text. |
 | virtual [SetPositionAuto](../../aspose.cells.charts/chartframe/setpositionauto)() | Set position of the frame to automatic |
 

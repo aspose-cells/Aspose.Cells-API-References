@@ -1,7 +1,7 @@
 ---
 title: Color
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the Color of the line.
 type: docs
 weight: 50
 url: /net/aspose.cells.drawing/line/color/

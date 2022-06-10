@@ -1,9 +1,9 @@
 ---
 title: SvgSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents Svg save options
 type: docs
-weight: 5780
+weight: 5820
 url: /net/aspose.cells/svgsaveoptions/
 ---
 ## SvgSaveOptions class
@@ -18,8 +18,8 @@ public class SvgSaveOptions : ImageSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [SvgSaveOptions](svgsaveoptions)() | Creates the options for saving svg file. |
-| [SvgSaveOptions](svgsaveoptions)(SaveFormat) | Creates the options for saving svg file. |
+| [SvgSaveOptions](svgsaveoptions#constructor)() | Creates the options for saving svg file. |
+| [SvgSaveOptions](svgsaveoptions#constructor_1)(SaveFormat) | Creates the options for saving svg file. |
 
 ## Properties
 
@@ -28,8 +28,10 @@ public class SvgSaveOptions : ImageSaveOptions
 | [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder) { get; set; } | The cached file folder is used to store some large data. |
 | [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | Make the workbook empty after saving the file. |
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [EnableHTTPCompression](../../aspose.cells/saveoptions/enablehttpcompression) { get; set; } | Indicates if http compression is to be used in user's IIS. |
 | [ImageOrPrintOptions](../../aspose.cells/imagesaveoptions/imageorprintoptions) { get; } | Additional image creation options |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [PdfExportImagesFolder](../../aspose.cells/saveoptions/pdfexportimagesfolder) { get; set; } | The physical folder where images will be saved when exporting a workbook to Aspose.Pdf XML format. Default is an empty string. |
 | [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Indicates whether refreshing chart cache data |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Gets the save file format. |
 | [SheetIndex](../../aspose.cells/svgsaveoptions/sheetindex) { get; set; } | Gets and sets which worksheet should be exported. If the value is -1, the active worksheet will be exported. |

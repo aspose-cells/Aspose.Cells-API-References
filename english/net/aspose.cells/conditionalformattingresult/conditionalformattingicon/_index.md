@@ -1,7 +1,7 @@
 ---
 title: ConditionalFormattingIcon
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the image of icon set.
 type: docs
 weight: 40
 url: /net/aspose.cells/conditionalformattingresult/conditionalformattingicon/

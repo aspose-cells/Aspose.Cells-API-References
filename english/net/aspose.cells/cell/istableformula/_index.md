@@ -1,9 +1,9 @@
 ---
 title: IsTableFormula
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether this cell is part of table formula.
 type: docs
-weight: 210
+weight: 230
 url: /net/aspose.cells/cell/istableformula/
 ---
 ## Cell.IsTableFormula property

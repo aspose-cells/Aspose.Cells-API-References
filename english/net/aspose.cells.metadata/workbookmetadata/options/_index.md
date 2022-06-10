@@ -1,7 +1,7 @@
 ---
 title: Options
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the options of the metadata.
 type: docs
 weight: 40
 url: /net/aspose.cells.metadata/workbookmetadata/options/

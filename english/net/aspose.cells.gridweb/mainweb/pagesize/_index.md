@@ -1,7 +1,7 @@
 ---
 title: PageSize
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the page size in paging mode.
 type: docs
 weight: 710
 url: /net/aspose.cells.gridweb/mainweb/pagesize/

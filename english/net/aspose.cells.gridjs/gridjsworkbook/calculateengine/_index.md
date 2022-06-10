@@ -1,7 +1,7 @@
 ---
 title: CalculateEngine
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Custom implemention for calculation engine If you want to do custom calculation you need to set and implement it
 type: docs
 weight: 220
 url: /net/aspose.cells.gridjs/gridjsworkbook/calculateengine/

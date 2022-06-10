@@ -63,6 +63,7 @@ Contains all classes of chart and sparkline.
 | [ChartType](./charttype) | Enumerates all chart types used in Excel. |
 | [CrossType](./crosstype) | Represents the axis cross type. |
 | [DataLabelsSeparatorType](./datalabelsseparatortype) | Represents the separator type of DataLabels. |
+| [DataLablesSeparatorType](./datalablesseparatortype) | Represents the separator type of DataLabels. |
 | [DisplayUnitType](./displayunittype) | Represents the type of display unit. |
 | [ErrorBarDisplayType](./errorbardisplaytype) | Represents error bar display type. |
 | [ErrorBarType](./errorbartype) | Represents error bar amount type. |

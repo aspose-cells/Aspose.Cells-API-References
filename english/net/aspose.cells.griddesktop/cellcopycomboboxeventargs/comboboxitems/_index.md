@@ -1,7 +1,7 @@
 ---
 title: ComboBoxItems
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets an object representing the collection of the items contained in this ComboBox.
 type: docs
 weight: 20
 url: /net/aspose.cells.griddesktop/cellcopycomboboxeventargs/comboboxitems/

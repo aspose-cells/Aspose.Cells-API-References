@@ -1,12 +1,12 @@
 ---
 title: RemoveFilter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Removes a filter for a filter column.
 type: docs
 weight: 190
 url: /net/aspose.cells/autofilter/removefilter/
 ---
-## AutoFilter.RemoveFilter method (1 of 2)
+## RemoveFilter(int, string) {#removefilter_1}
 
 Removes a filter for a filter column.
 
@@ -27,7 +27,7 @@ public void RemoveFilter(int fieldIndex, string criteria)
 
 ---
 
-## AutoFilter.RemoveFilter method (2 of 2)
+## RemoveFilter(int) {#removefilter}
 
 Remove the specific filter.
 

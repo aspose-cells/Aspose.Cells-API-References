@@ -65,6 +65,7 @@ Contains all classes of shapes and fill format.
 | [ShadowEffect](./shadoweffect) | This class specifies the shadow effect of the chart element or shape. |
 | [Shape](./shape) | Represents the msodrawing object. |
 | [ShapeCollection](./shapecollection) | Represents all the shape in a worksheet/chart. |
+| [ShapeFormat](./shapeformat) |  |
 | [ShapeGuide](./shapeguide) | Encapsulates a shape guide specifies the presence of a shape guide that will be used to govern the geometry of the specified shape |
 | [ShapeGuideCollection](./shapeguidecollection) | Encapsulates a collection of shape guide |
 | [ShapePath](./shapepath) | Represents a creation path consisting of a series of moves, lines and curves that when combined will form a geometric shape. |

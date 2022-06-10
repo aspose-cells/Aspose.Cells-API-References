@@ -1,7 +1,7 @@
 ---
 title: GetListValue
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get the value for list of the validation for the specified cell.
 type: docs
 weight: 210
 url: /net/aspose.cells.gridweb.data/gridvalidation/getlistvalue/

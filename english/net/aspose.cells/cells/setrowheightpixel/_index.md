@@ -1,9 +1,9 @@
 ---
 title: SetRowHeightPixel
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets row height in unit of pixels.
 type: docs
-weight: 1270
+weight: 1330
 url: /net/aspose.cells/cells/setrowheightpixel/
 ---
 ## Cells.SetRowHeightPixel method

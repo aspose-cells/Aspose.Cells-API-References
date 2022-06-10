@@ -1,7 +1,7 @@
 ---
 title: AcitvePaneType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the active pane.
 type: docs
 weight: 10
 url: /net/aspose.cells/panecollection/acitvepanetype/

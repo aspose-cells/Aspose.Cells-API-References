@@ -1,9 +1,9 @@
 ---
 title: SetStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the style of the range.
 type: docs
-weight: 360
+weight: 370
 url: /net/aspose.cells/range/setstyle/
 ---
 ## Range.SetStyle method

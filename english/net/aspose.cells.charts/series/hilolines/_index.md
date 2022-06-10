@@ -1,9 +1,9 @@
 ---
 title: HiLoLines
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns a HiLoLines object that represents the high-low lines for a series on a line chart. Applies only to line charts.
 type: docs
-weight: 220
+weight: 230
 url: /net/aspose.cells.charts/series/hilolines/
 ---
 ## Series.HiLoLines property

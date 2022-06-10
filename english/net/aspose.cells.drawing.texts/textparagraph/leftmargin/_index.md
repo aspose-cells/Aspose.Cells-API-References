@@ -1,7 +1,7 @@
 ---
 title: LeftMargin
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the left margin of the paragraph.
 type: docs
 weight: 100
 url: /net/aspose.cells.drawing.texts/textparagraph/leftmargin/

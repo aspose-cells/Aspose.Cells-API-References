@@ -1,7 +1,7 @@
 ---
 title: Column
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets column number zero based of the cell.
 type: docs
 weight: 20
 url: /net/aspose.cells/cell/column/

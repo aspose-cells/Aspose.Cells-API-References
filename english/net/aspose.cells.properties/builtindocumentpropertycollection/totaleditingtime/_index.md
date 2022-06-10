@@ -1,9 +1,9 @@
 ---
 title: TotalEditingTime
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the total editing time in minutes.
 type: docs
-weight: 280
+weight: 330
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/totaleditingtime/
 ---
 ## BuiltInDocumentPropertyCollection.TotalEditingTime property

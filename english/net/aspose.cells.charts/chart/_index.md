@@ -1,9 +1,9 @@
 ---
 title: Chart
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the object that represents a single Excel chart.
 type: docs
-weight: 420
+weight: 430
 url: /net/aspose.cells.charts/chart/
 ---
 ## Chart class
@@ -18,11 +18,11 @@ public class Chart
 
 | Name | Description |
 | --- | --- |
-| [ActualChartSize](../../aspose.cells.charts/chart/actualchartsize) { get; } | Gets actual size of chart |
+| [ActualChartSize](../../aspose.cells.charts/chart/actualchartsize) { get; } | Gets actual size of chart in unit of pixels. |
 | [AutoScaling](../../aspose.cells.charts/chart/autoscaling) { get; set; } | True if Microsoft Excel scales a 3-D chart so that it's closer in size to the equivalent 2-D chart. The RightAngleAxes property must be True. |
 | [BackWall](../../aspose.cells.charts/chart/backwall) { get; } | Returns a [`Walls`](./walls) object that represents the back wall of a 3-D chart. |
 | [CategoryAxis](../../aspose.cells.charts/chart/categoryaxis) { get; } | Gets the chart's X axis. |
-| [ChartArea](../../aspose.cells.charts/chart/chartarea) { get; } | Gets the chart area in the worksheet |
+| [ChartArea](../../aspose.cells.charts/chart/chartarea) { get; } | Gets the chart area in the worksheet. |
 | [ChartDataTable](../../aspose.cells.charts/chart/chartdatatable) { get; } | Represents the chart data table. |
 | [ChartObject](../../aspose.cells.charts/chart/chartobject) { get; } | Represents the chartShape; |
 | [DepthPercent](../../aspose.cells.charts/chart/depthpercent) { get; set; } | Represents the depth of a 3-D chart as a percentage of the chart width (between 20 and 2000 percent). |
@@ -33,7 +33,7 @@ public class Chart
 | [GapDepth](../../aspose.cells.charts/chart/gapdepth) { get; set; } | Gets or sets the distance between the data series in a 3-D chart, as a percentage of the marker width. The value of this property must be between 0 and 500. |
 | [GapWidth](../../aspose.cells.charts/chart/gapwidth) { get; set; } | Returns or sets the space between bar or column clusters, as a percentage of the bar or column width. The value of this property must be between 0 and 500. |
 | [HeightPercent](../../aspose.cells.charts/chart/heightpercent) { get; set; } | Returns or sets the height of a 3-D chart as a percentage of the chart width (between 5 and 500 percent). |
-| [HidePivotFieldButtons](../../aspose.cells.charts/chart/hidepivotfieldbuttons) { get; set; } | Indicates whether hide the pivot chart field buttons only when the chart is PivotChart |
+| [HidePivotFieldButtons](../../aspose.cells.charts/chart/hidepivotfieldbuttons) { get; set; } | Indicates whether hide the pivot chart field buttons only when the chart is PivotChart. |
 | [Is3D](../../aspose.cells.charts/chart/is3d) { get; } | Indicates whether the chart is a 3d chart. |
 | [IsRectangularCornered](../../aspose.cells.charts/chart/isrectangularcornered) { get; set; } | Gets or sets a value indicating whether the chart area is rectangular cornered. Default is true. |
 | [Legend](../../aspose.cells.charts/chart/legend) { get; } | Gets the chart legend. |
@@ -74,26 +74,27 @@ public class Chart
 | Name | Description |
 | --- | --- |
 | [Calculate](../../aspose.cells.charts/chart/calculate)() | Calculates the custom position of plot area, axes if the position of them are auto assigned. |
-| [GetChartDataRange](../../aspose.cells.charts/chart/getchartdatarange)() | Gets the data source range of the chart . |
+| [GetActualSize](../../aspose.cells.charts/chart/getactualsize)() | Gets actual size of chart in unit of pixels. |
+| [GetChartDataRange](../../aspose.cells.charts/chart/getchartdatarange)() | Gets the data source range of the chart. |
 | [HasAxis](../../aspose.cells.charts/chart/hasaxis)(AxisType, bool) | Returns which axes exist on the chart. |
 | [IsChartDataChanged](../../aspose.cells.charts/chart/ischartdatachanged)() | Detects if a chart's data source has changed. |
 | [Move](../../aspose.cells.charts/chart/move)(int, int, int, int) | Moves the chart to a specified location. |
 | [RefreshPivotData](../../aspose.cells.charts/chart/refreshpivotdata)() | Refreshes pivot chart's data from it's pivot data source. |
 | [SetChartDataRange](../../aspose.cells.charts/chart/setchartdatarange)(string, bool) | Specifies data range for a chart. |
 | [SwitchRowColumn](../../aspose.cells.charts/chart/switchrowcolumn)() | Switches row/column. |
-| [ToImage](../../aspose.cells.charts/chart/toimage)() | Gets a 32-bit `Bitmap` object of the chart. |
-| [ToImage](../../aspose.cells.charts/chart/toimage)(ImageOrPrintOptions) | Gets a 32-bit `Bitmap` object of the chart. `ImageOrPrintOptions.ImageFormat`, ImageOrPrintOptions.TiffCompression and ImageOrPrintOptions.Quality attributes are ignored. |
-| [ToImage](../../aspose.cells.charts/chart/toimage)(string) | Creates the chart image and saves it to a file. The extension of the file name determines the format of the image. |
-| [ToImage](../../aspose.cells.charts/chart/toimage)(Stream, ImageFormat) | Creates the chart image and saves it to a stream in the specified format. |
-| [ToImage](../../aspose.cells.charts/chart/toimage)(Stream, ImageOrPrintOptions) | Creates the chart image and saves it to a stream in the specified format. |
-| [ToImage](../../aspose.cells.charts/chart/toimage)(Stream, long) | Creates the chart image and saves it to a stream in the Jpeg format. |
-| [ToImage](../../aspose.cells.charts/chart/toimage)(string, ImageFormat) | Creates the chart image and saves it to a file in the specified format. |
-| [ToImage](../../aspose.cells.charts/chart/toimage)(string, ImageOrPrintOptions) | Creates the chart image and saves it to a file. The extension of the file name determines the format of the image. |
-| [ToImage](../../aspose.cells.charts/chart/toimage)(string, long) | Creates the chart image and saves it to a file in the Jpeg format. |
-| [ToPdf](../../aspose.cells.charts/chart/topdf)(Stream) | Creates the chart pdf and saves it to a stream. |
-| [ToPdf](../../aspose.cells.charts/chart/topdf)(string) | Saves the chart to a pdf file. |
-| [ToPdf](../../aspose.cells.charts/chart/topdf)(Stream, float, float, PageLayoutAlignmentType, PageLayoutAlignmentType) | Creates the chart pdf and saves it to a stream. |
-| [ToPdf](../../aspose.cells.charts/chart/topdf)(string, float, float, PageLayoutAlignmentType, PageLayoutAlignmentType) | Saves the chart to a pdf file. |
+| [ToImage](../../aspose.cells.charts/chart/toimage#toimage)() | Gets a 32-bit `Bitmap` object of the chart. |
+| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_1)(ImageOrPrintOptions) | Gets a 32-bit `Bitmap` object of the chart. `ImageOrPrintOptions.ImageFormat`, ImageOrPrintOptions.TiffCompression and ImageOrPrintOptions.Quality attributes are ignored. |
+| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_5)(string) | Creates the chart image and saves it to a file. The extension of the file name determines the format of the image. |
+| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_4)(Stream, ImageFormat) | Creates the chart image and saves it to a stream in the specified format. |
+| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_2)(Stream, ImageOrPrintOptions) | Creates the chart image and saves it to a stream in the specified format. |
+| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_3)(Stream, long) | Creates the chart image and saves it to a stream in the Jpeg format. |
+| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_8)(string, ImageFormat) | Creates the chart image and saves it to a file in the specified format. |
+| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_6)(string, ImageOrPrintOptions) | Creates the chart image and saves it to a file. The extension of the file name determines the format of the image. |
+| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_7)(string, long) | Creates the chart image and saves it to a file in the Jpeg format. |
+| [ToPdf](../../aspose.cells.charts/chart/topdf#topdf)(Stream) | Creates the chart pdf and saves it to a stream. |
+| [ToPdf](../../aspose.cells.charts/chart/topdf#topdf_2)(string) | Saves the chart to a pdf file. |
+| [ToPdf](../../aspose.cells.charts/chart/topdf#topdf_1)(Stream, float, float, PageLayoutAlignmentType, PageLayoutAlignmentType) | Creates the chart pdf and saves it to a stream. |
+| [ToPdf](../../aspose.cells.charts/chart/topdf#topdf_3)(string, float, float, PageLayoutAlignmentType, PageLayoutAlignmentType) | Saves the chart to a pdf file. |
 
 ### Examples
 

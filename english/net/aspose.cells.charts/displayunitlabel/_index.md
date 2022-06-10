@@ -1,9 +1,9 @@
 ---
 title: DisplayUnitLabel
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the display unit label.
 type: docs
-weight: 590
+weight: 610
 url: /net/aspose.cells.charts/displayunitlabel/
 ---
 ## DisplayUnitLabel class
@@ -20,6 +20,7 @@ public class DisplayUnitLabel : ChartTextFrame
 | --- | --- |
 | virtual [Area](../../aspose.cells.charts/chartframe/area) { get; } | Gets the [`area`](../chartframe/area). |
 | override [AutoScaleFont](../../aspose.cells.charts/displayunitlabel/autoscalefont) { get; set; } | True if the text in the object changes font size when the object size changes. The default value is True. |
+| [Background](../../aspose.cells.charts/chartframe/background) { get; set; } | Gets and sets the display mode of the background |
 | [BackgroundMode](../../aspose.cells.charts/chartframe/backgroundmode) { get; set; } | Gets and sets the display mode of the background |
 | virtual [Border](../../aspose.cells.charts/chartframe/border) { get; } | Gets the [`border`](../../aspose.cells.drawing/line). |
 | [DefaultHeight](../../aspose.cells.charts/chartframe/defaultheight) { get; } | Represents height of default position |
@@ -42,6 +43,8 @@ public class DisplayUnitLabel : ChartTextFrame
 | [Shadow](../../aspose.cells.charts/chartframe/shadow) { get; set; } | True if the frame has a shadow. |
 | [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties) { get; } | Gets the [`ShapeProperties`](../chartframe/shapeproperties) object. |
 | override [Text](../../aspose.cells.charts/displayunitlabel/text) { get; set; } | Gets or sets the text of display unit label. |
+| [TextDirection](../../aspose.cells.charts/charttextframe/textdirection) { get; set; } | Represents text reading order. |
+| virtual [TextFont](../../aspose.cells.charts/chartframe/textfont) { get; } | Gets a [`Font`](../chartframe/font) object of the specified ChartFrame object. |
 | [TextHorizontalAlignment](../../aspose.cells.charts/charttextframe/texthorizontalalignment) { get; set; } | Gets and sets the text horizontal alignment. |
 | [TextVerticalAlignment](../../aspose.cells.charts/charttextframe/textverticalalignment) { get; set; } | Gets or sets the text vertical alignment of text. |
 | virtual [Width](../../aspose.cells.charts/chartframe/width) { get; set; } | Gets or sets the width of frame in units of 1/4000 of the chart area. |

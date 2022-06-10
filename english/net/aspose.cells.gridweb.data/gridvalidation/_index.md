@@ -1,9 +1,9 @@
 ---
 title: GridValidation
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents data validation.settings.
 type: docs
-weight: 510
+weight: 520
 url: /net/aspose.cells.gridweb.data/gridvalidation/
 ---
 ## GridValidation class
@@ -45,8 +45,8 @@ public class GridValidation
 
 | Name | Description |
 | --- | --- |
-| [AddACell](../../aspose.cells.gridweb.data/gridvalidation/addacell)(string) | add the validation settings in the cell. |
-| [AddACell](../../aspose.cells.gridweb.data/gridvalidation/addacell)(int, int) | add the validation settings in the cell. |
+| [AddACell](../../aspose.cells.gridweb.data/gridvalidation/addacell#addacell_1)(string) | add the validation settings in the cell. |
+| [AddACell](../../aspose.cells.gridweb.data/gridvalidation/addacell#addacell)(int, int) | add the validation settings in the cell. |
 | [AddArea](../../aspose.cells.gridweb.data/gridvalidation/addarea)(GridCellArea) | Applies the validation to the area. |
 | [GetListValue](../../aspose.cells.gridweb.data/gridvalidation/getlistvalue)(int, int) | Get the value for list of the validation for the specified cell. |
 | [LoadValueList](../../aspose.cells.gridweb.data/gridvalidation/loadvaluelist)(DataView, string, string, bool) | Loads value list from a DataView object. You can specify the value field and text field of the DataView. Each value and text pair will be combined to one string, with a comma between them. |

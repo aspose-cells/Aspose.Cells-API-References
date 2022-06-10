@@ -1,7 +1,7 @@
 ---
 title: ICustomValidation
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Interface of a gridcells custom validation.
 type: docs
 weight: 890
 url: /net/aspose.cells.griddesktop/icustomvalidation/

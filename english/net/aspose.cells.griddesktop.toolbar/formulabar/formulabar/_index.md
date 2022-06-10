@@ -1,12 +1,12 @@
 ---
 title: FormulaBar
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Default constructor.
 type: docs
 weight: 10
 url: /net/aspose.cells.griddesktop.toolbar/formulabar/formulabar/
 ---
-## FormulaBar constructor (1 of 2)
+## FormulaBar() {#constructor}
 
 Default constructor.
 
@@ -22,7 +22,7 @@ public FormulaBar()
 
 ---
 
-## FormulaBar constructor (2 of 2)
+## FormulaBar(GridDesktop) {#constructor_1}
 
 Constructs a FormulaBar with the specified GridDesktop control.
 

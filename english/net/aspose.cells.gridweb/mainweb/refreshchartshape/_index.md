@@ -1,7 +1,7 @@
 ---
 title: RefreshChartShape
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: refresh all the chart image for the active worksheet .
 type: docs
 weight: 1440
 url: /net/aspose.cells.gridweb/mainweb/refreshchartshape/

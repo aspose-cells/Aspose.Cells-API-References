@@ -1,9 +1,9 @@
 ---
 title: SlicerCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the collection of all the Slicer objects on the specified worksheet.
 type: docs
-weight: 5680
+weight: 5720
 url: /net/aspose.cells.slicers/slicercollection/
 ---
 ## SlicerCollection class
@@ -27,15 +27,15 @@ public class SlicerCollection : CollectionBase<Slicer>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.slicers/slicercollection/add)(ListObject, int, string) | Add a new Slicer using ListObjet as data source |
-| [Add](../../aspose.cells.slicers/slicercollection/add)(ListObject, ListColumn, string) | Add a new Slicer using ListObjet as data source |
-| [Add](../../aspose.cells.slicers/slicercollection/add)(PivotTable, string, int) | Add a new Slicer using PivotTable as data source |
-| [Add](../../aspose.cells.slicers/slicercollection/add)(PivotTable, string, PivotField) | Add a new Slicer using PivotTable as data source |
-| [Add](../../aspose.cells.slicers/slicercollection/add)(PivotTable, string, string) | Add a new Slicer using PivotTable as data source |
-| [Add](../../aspose.cells.slicers/slicercollection/add)(ListObject, ListColumn, int, int) | Add a new Slicer using ListObjet as data source |
-| [Add](../../aspose.cells.slicers/slicercollection/add)(PivotTable, int, int, int) | Add a new Slicer using PivotTable as data source |
-| [Add](../../aspose.cells.slicers/slicercollection/add)(PivotTable, int, int, PivotField) | Add a new Slicer using PivotTable as data source |
-| [Add](../../aspose.cells.slicers/slicercollection/add)(PivotTable, int, int, string) | Add a new Slicer using PivotTable as data source |
+| [Add](../../aspose.cells.slicers/slicercollection/add#add_8)(ListObject, int, string) | Add a new Slicer using ListObjet as data source |
+| [Add](../../aspose.cells.slicers/slicercollection/add#add_7)(ListObject, ListColumn, string) | Add a new Slicer using ListObjet as data source |
+| [Add](../../aspose.cells.slicers/slicercollection/add#add_4)(PivotTable, string, int) | Add a new Slicer using PivotTable as data source |
+| [Add](../../aspose.cells.slicers/slicercollection/add#add_3)(PivotTable, string, PivotField) | Add a new Slicer using PivotTable as data source |
+| [Add](../../aspose.cells.slicers/slicercollection/add#add_5)(PivotTable, string, string) | Add a new Slicer using PivotTable as data source |
+| [Add](../../aspose.cells.slicers/slicercollection/add#add_6)(ListObject, ListColumn, int, int) | Add a new Slicer using ListObjet as data source |
+| [Add](../../aspose.cells.slicers/slicercollection/add#add_1)(PivotTable, int, int, int) | Add a new Slicer using PivotTable as data source |
+| [Add](../../aspose.cells.slicers/slicercollection/add#add)(PivotTable, int, int, PivotField) | Add a new Slicer using PivotTable as data source |
+| [Add](../../aspose.cells.slicers/slicercollection/add#add_2)(PivotTable, int, int, string) | Add a new Slicer using PivotTable as data source |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Slicer) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Slicer, IComparer&lt;Slicer&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Slicer, IComparer&lt;Slicer&gt;) |  |
@@ -62,7 +62,7 @@ public class SlicerCollection : CollectionBase<Slicer>
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Slicer, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Slicer, int, int) |  |
 | [Remove](../../aspose.cells.slicers/slicercollection/remove)(Slicer) | Remove the specified Slicer |
-| [RemoveAt](../../aspose.cells.slicers/slicercollection/removeat)(int) | Deletes the Slicer at the specified index (2 methods) |
+| [RemoveAt](../../aspose.cells.slicers/slicercollection/removeat#removeat)(int) | Deletes the Slicer at the specified index (2 methods) |
 
 ### Examples
 

@@ -1,7 +1,7 @@
 ---
 title: GridCells
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates a collection of Cell objects.
 type: docs
 weight: 410
 url: /net/aspose.cells.griddesktop.data/gridcells/
@@ -46,24 +46,24 @@ public class GridCells : IEnumerable
 | --- | --- |
 | [CheckCell](../../aspose.cells.griddesktop.data/gridcells/checkcell)(int, int) | Gets the Cell element or null at the specified cell row index and column index. |
 | [Clear](../../aspose.cells.griddesktop.data/gridcells/clear)() | Clear all cells in the collection. |
-| [ClearContents](../../aspose.cells.griddesktop.data/gridcells/clearcontents)(GridCellArea) | Clears contents of a range. |
-| [ClearContents](../../aspose.cells.griddesktop.data/gridcells/clearcontents)(int, int, int, int) | Clears contents of a range. |
-| [ClearFormats](../../aspose.cells.griddesktop.data/gridcells/clearformats)(GridCellArea) | Clears formatting of a range. |
-| [ClearFormats](../../aspose.cells.griddesktop.data/gridcells/clearformats)(int, int, int, int) | Clears formatting of a range. |
-| [ClearRange](../../aspose.cells.griddesktop.data/gridcells/clearrange)(GridCellArea) | Clears contents and formatting of a range. |
-| [ClearRange](../../aspose.cells.griddesktop.data/gridcells/clearrange)(int, int, int, int) | Clears contents and formatting of a range. |
+| [ClearContents](../../aspose.cells.griddesktop.data/gridcells/clearcontents#clearcontents)(GridCellArea) | Clears contents of a range. |
+| [ClearContents](../../aspose.cells.griddesktop.data/gridcells/clearcontents#clearcontents_1)(int, int, int, int) | Clears contents of a range. |
+| [ClearFormats](../../aspose.cells.griddesktop.data/gridcells/clearformats#clearformats)(GridCellArea) | Clears formatting of a range. |
+| [ClearFormats](../../aspose.cells.griddesktop.data/gridcells/clearformats#clearformats_1)(int, int, int, int) | Clears formatting of a range. |
+| [ClearRange](../../aspose.cells.griddesktop.data/gridcells/clearrange#clearrange)(GridCellArea) | Clears contents and formatting of a range. |
+| [ClearRange](../../aspose.cells.griddesktop.data/gridcells/clearrange#clearrange_1)(int, int, int, int) | Clears contents and formatting of a range. |
 | [CopyColumn](../../aspose.cells.griddesktop.data/gridcells/copycolumn)(GridCells, int, int) | Copies data and formattings of a whole column. |
 | [CopyColumns](../../aspose.cells.griddesktop.data/gridcells/copycolumns)(GridCells, int, int, int) | Copies data and formattings of a whole column. |
 | [CopyRow](../../aspose.cells.griddesktop.data/gridcells/copyrow)(GridCells, int, int) | Copies data and formattings of a whole row. |
 | [CopyRows](../../aspose.cells.griddesktop.data/gridcells/copyrows)(GridCells, int, int, int) | Copies data and formattings of some whole rows. |
 | [DeleteBlankColumns](../../aspose.cells.griddesktop.data/gridcells/deleteblankcolumns)() | Delete all blank columns which do not contain any data. |
 | [DeleteBlankRows](../../aspose.cells.griddesktop.data/gridcells/deleteblankrows)() | Delete all blank rows which do not contain any data. |
-| [DeleteColumn](../../aspose.cells.griddesktop.data/gridcells/deletecolumn)(int) | Deletes a column. |
-| [DeleteColumn](../../aspose.cells.griddesktop.data/gridcells/deletecolumn)(int, bool) | Deletes a column. |
+| [DeleteColumn](../../aspose.cells.griddesktop.data/gridcells/deletecolumn#deletecolumn)(int) | Deletes a column. |
+| [DeleteColumn](../../aspose.cells.griddesktop.data/gridcells/deletecolumn#deletecolumn_1)(int, bool) | Deletes a column. |
 | [DeleteColumns](../../aspose.cells.griddesktop.data/gridcells/deletecolumns)(int, int, bool) | Deletes several columns. |
 | [DeleteRow](../../aspose.cells.griddesktop.data/gridcells/deleterow)(int) | Deletes a row. |
-| [DeleteRows](../../aspose.cells.griddesktop.data/gridcells/deleterows)(int, int) | Deletes several rows. |
-| [DeleteRows](../../aspose.cells.griddesktop.data/gridcells/deleterows)(int, int, bool) | Deletes multiple rows in the worksheet. |
+| [DeleteRows](../../aspose.cells.griddesktop.data/gridcells/deleterows#deleterows)(int, int) | Deletes several rows. |
+| [DeleteRows](../../aspose.cells.griddesktop.data/gridcells/deleterows#deleterows_1)(int, int, bool) | Deletes multiple rows in the worksheet. |
 | [GetCell](../../aspose.cells.griddesktop.data/gridcells/getcell)(int, int) | Gets the Cell element or null at the specified cell row index and column index. |
 | [GetCellStyle](../../aspose.cells.griddesktop.data/gridcells/getcellstyle)(int, int) | Get the style of given cell. |
 | [GetColumn](../../aspose.cells.griddesktop.data/gridcells/getcolumn)(int) | Gets the [`GridColumn`](../gridcolumn) element or at the specified cell column index. |
@@ -76,18 +76,18 @@ public class GridCells : IEnumerable
 | [GetRowHeightInch](../../aspose.cells.griddesktop.data/gridcells/getrowheightinch)(int) | Gets the height of a specified row in unit of inches. |
 | [GetRowHeightPixel](../../aspose.cells.griddesktop.data/gridcells/getrowheightpixel)(int) | Gets the height of a specified row in unit of pixel. |
 | [GetViewColumnWidthPixel](../../aspose.cells.griddesktop.data/gridcells/getviewcolumnwidthpixel)(int) | Get the width in different view type. |
-| [GroupColumns](../../aspose.cells.griddesktop.data/gridcells/groupcolumns)(int, int) | Groups columns. |
-| [GroupColumns](../../aspose.cells.griddesktop.data/gridcells/groupcolumns)(int, int, bool) | Groups columns. |
+| [GroupColumns](../../aspose.cells.griddesktop.data/gridcells/groupcolumns#groupcolumns)(int, int) | Groups columns. |
+| [GroupColumns](../../aspose.cells.griddesktop.data/gridcells/groupcolumns#groupcolumns_1)(int, int, bool) | Groups columns. |
 | [GroupRows](../../aspose.cells.griddesktop.data/gridcells/grouprows)(int, int) | Groups rows. |
 | [HideColumn](../../aspose.cells.griddesktop.data/gridcells/hidecolumn)(int) | Hides a column. |
 | [HideRow](../../aspose.cells.griddesktop.data/gridcells/hiderow)(int) | Hides a row. |
-| [InsertColumn](../../aspose.cells.griddesktop.data/gridcells/insertcolumn)(int) | Inserts a new column into the worksheet. |
-| [InsertColumn](../../aspose.cells.griddesktop.data/gridcells/insertcolumn)(int, bool) | Inserts a new column into the worksheet. |
-| [InsertColumns](../../aspose.cells.griddesktop.data/gridcells/insertcolumns)(int, int) | Inserts some columns into the worksheet. |
-| [InsertColumns](../../aspose.cells.griddesktop.data/gridcells/insertcolumns)(int, int, bool) | Inserts some columns into the worksheet. |
+| [InsertColumn](../../aspose.cells.griddesktop.data/gridcells/insertcolumn#insertcolumn)(int) | Inserts a new column into the worksheet. |
+| [InsertColumn](../../aspose.cells.griddesktop.data/gridcells/insertcolumn#insertcolumn_1)(int, bool) | Inserts a new column into the worksheet. |
+| [InsertColumns](../../aspose.cells.griddesktop.data/gridcells/insertcolumns#insertcolumns)(int, int) | Inserts some columns into the worksheet. |
+| [InsertColumns](../../aspose.cells.griddesktop.data/gridcells/insertcolumns#insertcolumns_1)(int, int, bool) | Inserts some columns into the worksheet. |
 | [InsertRow](../../aspose.cells.griddesktop.data/gridcells/insertrow)(int) | Inserts a new row into the worksheet. |
-| [InsertRows](../../aspose.cells.griddesktop.data/gridcells/insertrows)(int, int) | Inserts multiple rows into the worksheet. |
-| [InsertRows](../../aspose.cells.griddesktop.data/gridcells/insertrows)(int, int, bool) | Inserts multiple rows into the worksheet. |
+| [InsertRows](../../aspose.cells.griddesktop.data/gridcells/insertrows#insertrows)(int, int) | Inserts multiple rows into the worksheet. |
+| [InsertRows](../../aspose.cells.griddesktop.data/gridcells/insertrows#insertrows_1)(int, int, bool) | Inserts multiple rows into the worksheet. |
 | [IsBlankColumn](../../aspose.cells.griddesktop.data/gridcells/isblankcolumn)(int) | Checks whether given column is blank(does not contain any data). |
 | [IsColumnHidden](../../aspose.cells.griddesktop.data/gridcells/iscolumnhidden)(int) | Checks whether a column at given index is hidden. |
 | [IsRowHidden](../../aspose.cells.griddesktop.data/gridcells/isrowhidden)(int) | Checks whether a row at given index is hidden. |
@@ -99,10 +99,11 @@ public class GridCells : IEnumerable
 | [SetRowHeight](../../aspose.cells.griddesktop.data/gridcells/setrowheight)(int, double) | Sets the height of the specified row. |
 | [SetRowHeightInch](../../aspose.cells.griddesktop.data/gridcells/setrowheightinch)(int, double) | Sets row height in unit of inches. |
 | [SetRowHeightPixel](../../aspose.cells.griddesktop.data/gridcells/setrowheightpixel)(int, int) | Sets row height in unit of pixels. |
-| [SetStyle](../../aspose.cells.griddesktop.data/gridcells/setstyle)(string, Style) | Sets the style to a specified range of cells. |
-| [SetStyle](../../aspose.cells.griddesktop.data/gridcells/setstyle)(int, int, int, int, Style) | Sets the style to a specified range of cells. |
-| [Sort](../../aspose.cells.griddesktop.data/gridcells/sort)(int, int, int, int, int, bool, bool, bool) | Sorts the datas ascend/decend top to bottom in a range of a Worksheet by specified column index. Sorts the datas ascend/decend left to right in a range of a Worksheet by specified row index. |
-| [Sort](../../aspose.cells.griddesktop.data/gridcells/sort)(int, int, int, int, int[], SortOrder[], SortOrientation, bool) |  |
+| [SetStyle](../../aspose.cells.griddesktop.data/gridcells/setstyle#setstyle)(CellRange, Style) | Sets the style to a specified range of cells. |
+| [SetStyle](../../aspose.cells.griddesktop.data/gridcells/setstyle#setstyle_2)(string, Style) | Sets the style to a specified range of cells. |
+| [SetStyle](../../aspose.cells.griddesktop.data/gridcells/setstyle#setstyle_1)(int, int, int, int, Style) | Sets the style to a specified range of cells. |
+| [Sort](../../aspose.cells.griddesktop.data/gridcells/sort#sort)(int, int, int, int, int, bool, bool, bool) | Sorts the datas ascend/decend top to bottom in a range of a Worksheet by specified column index. Sorts the datas ascend/decend left to right in a range of a Worksheet by specified row index. |
+| [Sort](../../aspose.cells.griddesktop.data/gridcells/sort#sort_1)(int, int, int, int, int[], SortOrder[], SortOrientation, bool) |  |
 | [UngroupColumns](../../aspose.cells.griddesktop.data/gridcells/ungroupcolumns)(int, int) | Ungroups columns. |
 | [UngroupRows](../../aspose.cells.griddesktop.data/gridcells/ungrouprows)(int, int) | Ungroups rows. |
 | [UnhideColumn](../../aspose.cells.griddesktop.data/gridcells/unhidecolumn)(int, double) | Unhides a column |

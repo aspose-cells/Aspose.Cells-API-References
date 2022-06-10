@@ -1,9 +1,9 @@
 ---
 title: HtmlHiddenColDisplayType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents two types of showing the hidden columns in html.
 type: docs
-weight: 3690
+weight: 3720
 url: /net/aspose.cells/htmlhiddencoldisplaytype/
 ---
 ## HtmlHiddenColDisplayType enumeration

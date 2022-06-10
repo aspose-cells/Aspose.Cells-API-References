@@ -1,7 +1,7 @@
 ---
 title: XmlMapName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether exporting xml map in the file.
 type: docs
 weight: 50
 url: /net/aspose.cells/xmlsaveoptions/xmlmapname/

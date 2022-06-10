@@ -1,7 +1,7 @@
 ---
 title: CopyFrom
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Copies from another style object.
 type: docs
 weight: 140
 url: /net/aspose.cells.gridweb/gridtableitemstyle/copyfrom/

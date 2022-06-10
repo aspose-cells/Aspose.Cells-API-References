@@ -1,9 +1,9 @@
 ---
 title: PasteOperationType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents operation type when pasting range.
 type: docs
-weight: 4460
+weight: 4500
 url: /net/aspose.cells/pasteoperationtype/
 ---
 ## PasteOperationType enumeration

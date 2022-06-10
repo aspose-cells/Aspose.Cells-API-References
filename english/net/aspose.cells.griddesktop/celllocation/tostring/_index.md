@@ -1,7 +1,7 @@
 ---
 title: ToString
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Override the ToString of the object.
 type: docs
 weight: 60
 url: /net/aspose.cells.griddesktop/celllocation/tostring/

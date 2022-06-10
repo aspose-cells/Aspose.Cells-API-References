@@ -1,7 +1,7 @@
 ---
 title: GetDesignerStorage
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the data of Designer.
 type: docs
 weight: 40
 url: /net/aspose.cells.vba/vbamodulecollection/getdesignerstorage/

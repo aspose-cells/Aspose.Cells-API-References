@@ -1,9 +1,9 @@
 ---
 title: ArcShape
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the arc shape.
 type: docs
-weight: 1740
+weight: 1760
 url: /net/aspose.cells.drawing/arcshape/
 ---
 ## ArcShape class
@@ -23,10 +23,20 @@ public class ArcShape : Shape
 | [AlternativeText](../../aspose.cells.drawing/shape/alternativetext) { get; set; } | Returns or sets the descriptive (alternative) text string of the [`Shape`](../shape) object. |
 | [AnchorType](../../aspose.cells.drawing/shape/anchortype) { get; set; } | Gets and set the shape anchor placeholder. |
 | [AutoShapeType](../../aspose.cells.drawing/shape/autoshapetype) { get; set; } | Gets and sets the auto shape type. |
+| [BeginArrowheadLength](../../aspose.cells.drawing/arcshape/beginarrowheadlength) { get; set; } | Gets and sets the begin arrow head length of the line. |
+| [BeginArrowheadStyle](../../aspose.cells.drawing/arcshape/beginarrowheadstyle) { get; set; } | Gets and sets the begin arrow head style of the line. |
+| [BeginArrowheadWidth](../../aspose.cells.drawing/arcshape/beginarrowheadwidth) { get; set; } | Gets and sets the begin arrow head width of the line. |
 | [Bottom](../../aspose.cells.drawing/shape/bottom) { get; set; } | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
+| [ConnectionPoints](../../aspose.cells.drawing/shape/connectionpoints) { get; } | Get the connection points |
 | [ControlData](../../aspose.cells.drawing/shape/controldata) { get; } | Gets the data of control. |
-| [Fill](../../aspose.cells.drawing/shape/fill) { get; } | Returns a FillFormat object that contains fill formatting properties for the specified shape. |
+| [CreateId](../../aspose.cells.drawing/shape/createid) { get; set; } | Gets and sets create id for this shape. |
+| [EndArrowheadLength](../../aspose.cells.drawing/arcshape/endarrowheadlength) { get; set; } | Gets and sets the end arrow head length of the line. |
+| [EndArrowheadStyle](../../aspose.cells.drawing/arcshape/endarrowheadstyle) { get; set; } | Gets and sets the end arrow head style of the line. |
+| [EndArrowheadWidth](../../aspose.cells.drawing/arcshape/endarrowheadwidth) { get; set; } | Gets and sets the end arrow head width of the line. |
+| [Fill](../../aspose.cells.drawing/shape/fill) { get; } | Returns a [`FillFormat`](../shape/fillformat) object that contains fill formatting properties for the specified shape. |
+| [FillFormat](../../aspose.cells.drawing/shape/fillformat) { get; } | Returns a MsoFillFormat object that contains fill formatting properties for the specified shape. |
 | [Font](../../aspose.cells.drawing/shape/font) { get; set; } | Represents the font of shape. |
+| [Format](../../aspose.cells.drawing/shape/format) { get; } | Represents the setting of the shape's formatting. |
 | [FormatPicture](../../aspose.cells.drawing/shape/formatpicture) { get; } | Gets and sets the options of the picture format. |
 | [Geometry](../../aspose.cells.drawing/shape/geometry) { get; } | Gets the geometry |
 | [Glow](../../aspose.cells.drawing/shape/glow) { get; } | Represents a  object that specifies glow effect for the chart element or shape. |
@@ -62,6 +72,7 @@ public class ArcShape : Shape
 | [LeftInShape](../../aspose.cells.drawing/shape/leftinshape) { get; set; } | Represents the horizontal offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape. |
 | [LeftToCorner](../../aspose.cells.drawing/shape/lefttocorner) { get; set; } | Gets and sets the horizonal offset of shape from worksheet left border. |
 | [Line](../../aspose.cells.drawing/shape/line) { get; } | Gets line style |
+| [LineFormat](../../aspose.cells.drawing/shape/lineformat) { get; } | Returns a MsoLineFormat object that contains line formatting properties for the specified shape. |
 | [LinkedCell](../../aspose.cells.drawing/shape/linkedcell) { get; set; } | Gets or sets the worksheet range linked to the control's value. |
 | [LowerDeltaX](../../aspose.cells.drawing/shape/lowerdeltax) { get; set; } | Gets or sets the shape's horizontal offset from its lower right corner column. The range of value is 0 to 1024. |
 | [LowerDeltaY](../../aspose.cells.drawing/shape/lowerdeltay) { get; set; } | Gets or sets the shape's vertical offset from its lower right corner row. The range of value is 0 to 256. |
@@ -84,6 +95,7 @@ public class ArcShape : Shape
 | [TextBody](../../aspose.cells.drawing/shape/textbody) { get; } | Gets and sets the setting of the shape's text. |
 | [TextDirection](../../aspose.cells.drawing/shape/textdirection) { get; set; } | Gets/Sets the direction of the text flow for this object. |
 | [TextEffect](../../aspose.cells.drawing/shape/texteffect) { get; } | Returns a TextEffectFormat object that contains text-effect formatting properties for the specified shape. Applies to Shape objects that represent WordArt. |
+| [TextFrame](../../aspose.cells.drawing/shape/textframe) { get; } | Returns a TextFrame object that contains the alignment and anchoring properties for the specified shape. |
 | [TextHorizontalAlignment](../../aspose.cells.drawing/shape/texthorizontalalignment) { get; set; } | Gets and sets the text horizontal alignment type of the shape. |
 | [TextHorizontalOverflow](../../aspose.cells.drawing/shape/texthorizontaloverflow) { get; set; } | Gets and sets the text horizontal overflow type of the shape which contains text. |
 | [TextOptions](../../aspose.cells.drawing/shape/textoptions) { get; set; } | Represents the text options of the shape. |
@@ -122,6 +134,7 @@ public class ArcShape : Shape
 | [AlignTopRightCorner](../../aspose.cells.drawing/shape/aligntoprightcorner)(int, int) | Moves the picture to the top-right corner. |
 | [CalculateTextSize](../../aspose.cells.drawing/shape/calculatetextsize)() | Recalculate the text area |
 | [Characters](../../aspose.cells.drawing/shape/characters)(int, int) | Returns a Characters object that represents a range of characters within the text. |
+| [FormatCharacters](../../aspose.cells.drawing/shape/formatcharacters)(int, int, Font) | Formats some characters with the font setting. |
 | [FormatCharacters](../../aspose.cells.drawing/shape/formatcharacters)(int, int, Font, StyleFlag) | Formats some characters with the font setting. |
 | [GetCharacters](../../aspose.cells.drawing/shape/getcharacters)() | Returns all Characters objects that represents a range of characters within the text . |
 | [GetConnectionPoints](../../aspose.cells.drawing/shape/getconnectionpoints)() | Get the connection points |

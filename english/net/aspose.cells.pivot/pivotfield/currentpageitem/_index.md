@@ -1,7 +1,7 @@
 ---
 title: CurrentPageItem
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the current page item showing for the page field valid only for page fields.
 type: docs
 weight: 80
 url: /net/aspose.cells.pivot/pivotfield/currentpageitem/

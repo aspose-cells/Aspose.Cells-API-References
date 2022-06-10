@@ -1,7 +1,7 @@
 ---
 title: IsNameAuto
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns if Microsoft Excel automatically determines the name of the trendline.
 type: docs
 weight: 70
 url: /net/aspose.cells.charts/trendline/isnameauto/

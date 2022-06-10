@@ -1,7 +1,7 @@
 ---
 title: SetCriteria
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the filter criteria.
 type: docs
 weight: 30
 url: /net/aspose.cells/customfilter/setcriteria/

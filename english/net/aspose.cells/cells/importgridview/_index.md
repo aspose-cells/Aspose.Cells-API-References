@@ -1,9 +1,9 @@
 ---
 title: ImportGridView
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Imports a grid view to this cells.
 type: docs
-weight: 1030
+weight: 1090
 url: /net/aspose.cells/cells/importgridview/
 ---
 ## Cells.ImportGridView method

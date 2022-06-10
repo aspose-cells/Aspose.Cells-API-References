@@ -1,9 +1,9 @@
 ---
 title: MoveRange
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Moves the range.
 type: docs
-weight: 1180
+weight: 1240
 url: /net/aspose.cells/cells/moverange/
 ---
 ## Cells.MoveRange method

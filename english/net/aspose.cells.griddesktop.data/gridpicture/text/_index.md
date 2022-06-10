@@ -1,7 +1,7 @@
 ---
 title: Text
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the string in this TextBox object.
 type: docs
 weight: 460
 url: /net/aspose.cells.griddesktop.data/gridpicture/text/

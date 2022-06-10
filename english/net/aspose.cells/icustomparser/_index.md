@@ -1,9 +1,9 @@
 ---
 title: ICustomParser
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Allows users to add their custom value parser for parsing string values to other proper cell value object.
 type: docs
-weight: 3770
+weight: 3810
 url: /net/aspose.cells/icustomparser/
 ---
 ## ICustomParser interface

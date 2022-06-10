@@ -1,9 +1,9 @@
 ---
 title: SaveToStream
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Saves Excel file to a MemoryStream object and returns it.
 type: docs
-weight: 580
+weight: 610
 url: /net/aspose.cells/workbook/savetostream/
 ---
 ## Workbook.SaveToStream method

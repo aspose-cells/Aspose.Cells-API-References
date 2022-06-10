@@ -1,7 +1,7 @@
 ---
 title: GetFilterValueList
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Provides a value list to the specified column for filtering.
 type: docs
 weight: 20
 url: /net/aspose.cells.gridweb.data/icustomfilter/getfiltervaluelist/
@@ -21,6 +21,7 @@ public IDictionary GetFilterValueList(WebWorksheet sheet, int columnIndex)
 
 ### See Also
 
+* class [WebWorksheet](../../webworksheet)
 * interface [ICustomFilter](../../icustomfilter)
 * namespace [Aspose.Cells.GridWeb.Data](../../icustomfilter)
 * assembly [Aspose.Cells.GridWeb](../../../)

@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the width of left to right in units of 1/4000 of charts width after calls Chart.Calculate method.
 type: docs
 weight: 90
 url: /net/aspose.cells.charts/walls/width/

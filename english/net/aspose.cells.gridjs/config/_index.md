@@ -1,14 +1,14 @@
 ---
 title: Config
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents all the settings for GridJs
 type: docs
 weight: 10
 url: /net/aspose.cells.gridjs/config/
 ---
 ## Config class
 
-represents all the settings for GridJs
+Represents all the settings for GridJs
 
 ```csharp
 public class Config

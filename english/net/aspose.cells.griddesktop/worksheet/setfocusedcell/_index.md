@@ -1,12 +1,12 @@
 ---
 title: SetFocusedCell
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the cell focus at the specified location.
 type: docs
 weight: 1040
 url: /net/aspose.cells.griddesktop/worksheet/setfocusedcell/
 ---
-## Worksheet.SetFocusedCell method (1 of 2)
+## SetFocusedCell(CellLocation) {#setfocusedcell}
 
 Sets the cell focus at the specified location.
 
@@ -27,7 +27,7 @@ public void SetFocusedCell(CellLocation cellLocation)
 
 ---
 
-## Worksheet.SetFocusedCell method (2 of 2)
+## SetFocusedCell(int, int) {#setfocusedcell_1}
 
 Sets the cell focus at the specified column and row.
 

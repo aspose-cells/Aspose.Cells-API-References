@@ -1,9 +1,9 @@
 ---
 title: EncryptionType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encryption Type. Only used by excel2003. We will encrypt 2007/2010 workbook using SHA AES the same as Excel does and this EncryptionType will be ignored.
 type: docs
-weight: 3150
+weight: 3180
 url: /net/aspose.cells/encryptiontype/
 ---
 ## EncryptionType enumeration

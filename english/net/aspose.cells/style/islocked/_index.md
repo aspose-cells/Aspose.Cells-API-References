@@ -1,9 +1,9 @@
 ---
 title: IsLocked
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether a cell can be modified or not.
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.cells/style/islocked/
 ---
 ## Style.IsLocked property

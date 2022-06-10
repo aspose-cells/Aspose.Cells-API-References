@@ -1,7 +1,7 @@
 ---
 title: ClearComments
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Clears all comments in designer spreadsheet.
 type: docs
 weight: 440
 url: /net/aspose.cells.gridweb.data/gridworksheet/clearcomments/

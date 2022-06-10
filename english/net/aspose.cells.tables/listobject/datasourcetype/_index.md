@@ -1,7 +1,7 @@
 ---
 title: DataSourceType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the data source type of the table.
 type: docs
 weight: 60
 url: /net/aspose.cells.tables/listobject/datasourcetype/

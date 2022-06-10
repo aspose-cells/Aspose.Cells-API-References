@@ -1,9 +1,9 @@
 ---
 title: FormatCondition
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents conditional formatting condition.
 type: docs
-weight: 3550
+weight: 3580
 url: /net/aspose.cells/formatcondition/
 ---
 ## FormatCondition class
@@ -37,12 +37,12 @@ public class FormatCondition
 
 | Name | Description |
 | --- | --- |
-| [GetFormula1](../../aspose.cells/formatcondition/getformula1)(bool, bool) | Gets the value or expression associated with this format condition. |
-| [GetFormula1](../../aspose.cells/formatcondition/getformula1)(int, int) | Gets the formula of the conditional formatting of the cell. |
-| [GetFormula1](../../aspose.cells/formatcondition/getformula1)(bool, bool, int, int) | Gets the value or expression of the conditional formatting of the cell. |
-| [GetFormula2](../../aspose.cells/formatcondition/getformula2)(bool, bool) | Gets the value or expression associated with this format condition. |
-| [GetFormula2](../../aspose.cells/formatcondition/getformula2)(int, int) | Gets the formula of the conditional formatting of the cell. |
-| [GetFormula2](../../aspose.cells/formatcondition/getformula2)(bool, bool, int, int) | Gets the value or expression of the conditional formatting of the cell. |
+| [GetFormula1](../../aspose.cells/formatcondition/getformula1#getformula1)(bool, bool) | Gets the value or expression associated with this format condition. |
+| [GetFormula1](../../aspose.cells/formatcondition/getformula1#getformula1_2)(int, int) | Gets the formula of the conditional formatting of the cell. |
+| [GetFormula1](../../aspose.cells/formatcondition/getformula1#getformula1_1)(bool, bool, int, int) | Gets the value or expression of the conditional formatting of the cell. |
+| [GetFormula2](../../aspose.cells/formatcondition/getformula2#getformula2)(bool, bool) | Gets the value or expression associated with this format condition. |
+| [GetFormula2](../../aspose.cells/formatcondition/getformula2#getformula2_2)(int, int) | Gets the formula of the conditional formatting of the cell. |
+| [GetFormula2](../../aspose.cells/formatcondition/getformula2#getformula2_1)(bool, bool, int, int) | Gets the value or expression of the conditional formatting of the cell. |
 | [SetFormula1](../../aspose.cells/formatcondition/setformula1)(string, bool, bool) | Sets the value or expression associated with this format condition. |
 | [SetFormula2](../../aspose.cells/formatcondition/setformula2)(string, bool, bool) | Sets the value or expression associated with this format condition. |
 | [SetFormulas](../../aspose.cells/formatcondition/setformulas)(string, string, bool, bool) | Sets the value or expression associated with this format condition. |

@@ -1,9 +1,9 @@
 ---
 title: VerticalPageBreakCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates a collection of VerticalPageBreak./verticalpagebreak objects.
 type: docs
-weight: 6310
+weight: 6350
 url: /net/aspose.cells/verticalpagebreakcollection/
 ---
 ## VerticalPageBreakCollection class
@@ -27,10 +27,10 @@ public class VerticalPageBreakCollection : CollectionBase<VerticalPageBreak>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells/verticalpagebreakcollection/add)(int) | Adds a vertical page break to the collection. |
-| [Add](../../aspose.cells/verticalpagebreakcollection/add)(string) | Adds a vertical page break to the collection. |
-| [Add](../../aspose.cells/verticalpagebreakcollection/add)(int, int) | Adds a vertical page break to the collection. |
-| [Add](../../aspose.cells/verticalpagebreakcollection/add)(int, int, int) | Adds a vertical page break to the collection. |
+| [Add](../../aspose.cells/verticalpagebreakcollection/add#add)(int) | Adds a vertical page break to the collection. |
+| [Add](../../aspose.cells/verticalpagebreakcollection/add#add_3)(string) | Adds a vertical page break to the collection. |
+| [Add](../../aspose.cells/verticalpagebreakcollection/add#add_1)(int, int) | Adds a vertical page break to the collection. |
+| [Add](../../aspose.cells/verticalpagebreakcollection/add#add_2)(int, int, int) | Adds a vertical page break to the collection. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(VerticalPageBreak) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(VerticalPageBreak, IComparer&lt;VerticalPageBreak&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, VerticalPageBreak, IComparer&lt;VerticalPageBreak&gt;) |  |
@@ -56,7 +56,7 @@ public class VerticalPageBreakCollection : CollectionBase<VerticalPageBreak>
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(VerticalPageBreak) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(VerticalPageBreak, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(VerticalPageBreak, int, int) |  |
-| [RemoveAt](../../aspose.cells/verticalpagebreakcollection/removeat)(int) | Removes the VPageBreak element at a specified name. (2 methods) |
+| [RemoveAt](../../aspose.cells/verticalpagebreakcollection/removeat#removeat)(int) | Removes the VPageBreak element at a specified name. (2 methods) |
 
 ### See Also
 

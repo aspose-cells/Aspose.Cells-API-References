@@ -1,7 +1,7 @@
 ---
 title: Format
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Format the cell in the pivottable area
 type: docs
 weight: 830
 url: /net/aspose.cells.pivot/pivottable/format/
@@ -16,7 +16,7 @@ public void Format(int row, int column, Style style)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| row | Int32 | RowIndex of the cell |
+| row | Int32 | Row Index of the cell |
 | column | Int32 | Column index of the cell |
 | style | Style | Style which is to format the cell |
 

@@ -1,7 +1,7 @@
 ---
 title: VerticalAlignment
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets/Sets the default value for vertical alignment
 type: docs
 weight: 40
 url: /net/aspose.cells/defaultstylesettings/verticalalignment/

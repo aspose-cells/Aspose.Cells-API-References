@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the number of this revision.
 type: docs
 weight: 10
 url: /net/aspose.cells.revisions/revision/id/

@@ -1,7 +1,7 @@
 ---
 title: ShowDropButtonTypeWhen
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the symbol displayed on the drop button
 type: docs
 weight: 190
 url: /net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/showdropbuttontypewhen/

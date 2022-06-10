@@ -1,7 +1,7 @@
 ---
 title: Cells
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates a collection of cell relevant objects such as Cell./cell Row./row ...etc.
 type: docs
 weight: 300
 url: /net/aspose.cells/cells/
@@ -24,7 +24,7 @@ public class Cells : IDisposable, IEnumerable
 | [FirstCell](../../aspose.cells/cells/firstcell) { get; } | Gets the first cell in this worksheet. |
 | [IsDefaultRowHeightMatched](../../aspose.cells/cells/isdefaultrowheightmatched) { get; set; } | Indicates that row height and default font height matches |
 | [IsDefaultRowHidden](../../aspose.cells/cells/isdefaultrowhidden) { get; set; } | Indicates whether the row is default hidden. |
-| [Item](../../aspose.cells/cells/item) { get; } | Gets the [`Cell`](../cell) element at the specified cell row index and column index. (2 indexers) |
+| [Item](../../aspose.cells/cells/item) { get; } | Gets [`Cell`](../cell) item within the worksheet (3 indexers) |
 | [LastCell](../../aspose.cells/cells/lastcell) { get; } | Gets the last cell in this worksheet. |
 | [MaxColumn](../../aspose.cells/cells/maxcolumn) { get; } | Minimum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it). |
 | [MaxDataColumn](../../aspose.cells/cells/maxdatacolumn) { get; } | Maximum column index of cell which contains data. |
@@ -62,51 +62,53 @@ public class Cells : IDisposable, IEnumerable
 | [CheckColumn](../../aspose.cells/cells/checkcolumn)(int) | Gets the [`Column`](../column) element or null at the specified column index. |
 | [CheckRow](../../aspose.cells/cells/checkrow)(int) | Gets the [`Row`](../row) element or at the specified cell row index. |
 | [Clear](../../aspose.cells/cells/clear)() | Clears all cell and row objects. |
-| [ClearContents](../../aspose.cells/cells/clearcontents)(CellArea) | Clears contents of a range. |
-| [ClearContents](../../aspose.cells/cells/clearcontents)(int, int, int, int) | Clears contents of a range. |
-| [ClearFormats](../../aspose.cells/cells/clearformats)(CellArea) | Clears formatting of a range. |
-| [ClearFormats](../../aspose.cells/cells/clearformats)(int, int, int, int) | Clears formatting of a range. |
+| [ClearContents](../../aspose.cells/cells/clearcontents#clearcontents)(CellArea) | Clears contents of a range. |
+| [ClearContents](../../aspose.cells/cells/clearcontents#clearcontents_1)(int, int, int, int) | Clears contents of a range. |
+| [ClearFormats](../../aspose.cells/cells/clearformats#clearformats)(CellArea) | Clears formatting of a range. |
+| [ClearFormats](../../aspose.cells/cells/clearformats#clearformats_1)(int, int, int, int) | Clears formatting of a range. |
 | [ClearMergedCells](../../aspose.cells/cells/clearmergedcells)() | Clears all merged ranges. |
-| [ClearRange](../../aspose.cells/cells/clearrange)(CellArea) | Clears contents and formatting of a range. |
-| [ClearRange](../../aspose.cells/cells/clearrange)(int, int, int, int) | Clears contents and formatting of a range. |
+| [ClearRange](../../aspose.cells/cells/clearrange#clearrange)(CellArea) | Clears contents and formatting of a range. |
+| [ClearRange](../../aspose.cells/cells/clearrange#clearrange_1)(int, int, int, int) | Clears contents and formatting of a range. |
 | [ConvertStringToNumericValue](../../aspose.cells/cells/convertstringtonumericvalue)() | Converts string data in cells to numeric value if possible. |
 | [CopyColumn](../../aspose.cells/cells/copycolumn)(Cells, int, int) | Copies data and formats of a whole column. |
-| [CopyColumns](../../aspose.cells/cells/copycolumns)(Cells, int, int, int) | Copies data and formats of a whole column. |
-| [CopyColumns](../../aspose.cells/cells/copycolumns)(Cells, int, int, int, int) | Copies data and formats of the whole columns. |
-| [CopyColumns](../../aspose.cells/cells/copycolumns)(Cells, int, int, int, PasteOptions) | Copies data and formats of a whole column. |
+| [CopyColumns](../../aspose.cells/cells/copycolumns#copycolumns)(Cells, int, int, int) | Copies data and formats of a whole column. |
+| [CopyColumns](../../aspose.cells/cells/copycolumns#copycolumns_2)(Cells, int, int, int, int) | Copies data and formats of the whole columns. |
+| [CopyColumns](../../aspose.cells/cells/copycolumns#copycolumns_1)(Cells, int, int, int, PasteOptions) | Copies data and formats of a whole column. |
 | [CopyRow](../../aspose.cells/cells/copyrow)(Cells, int, int) | Copies data and formats of a whole row. |
-| [CopyRows](../../aspose.cells/cells/copyrows)(Cells, int, int, int) | Copies data and formats of some whole rows. |
-| [CopyRows](../../aspose.cells/cells/copyrows)(Cells, int, int, int, CopyOptions) | Copies data and formats of some whole rows. |
-| [CopyRows](../../aspose.cells/cells/copyrows)(Cells, int, int, int, CopyOptions, PasteOptions) | Copies data and formats of some whole rows. |
-| [CreateRange](../../aspose.cells/cells/createrange)(string) | Creates a [`Range`](../range) object from an address of the range. |
-| [CreateRange](../../aspose.cells/cells/createrange)(string, string) | Creates a [`Range`](../range) object from a range of cells. |
-| [CreateRange](../../aspose.cells/cells/createrange)(int, int, bool) | Creates a [`Range`](../range) object from rows of cells or columns of cells. |
-| [CreateRange](../../aspose.cells/cells/createrange)(int, int, int, int) | Creates a [`Range`](../range) object from a range of cells. |
-| [DeleteBlankColumns](../../aspose.cells/cells/deleteblankcolumns)() | Delete all blank columns which do not contain any data. |
-| [DeleteBlankColumns](../../aspose.cells/cells/deleteblankcolumns)(DeleteOptions) | Delete all blank columns which do not contain any data. |
-| [DeleteBlankRows](../../aspose.cells/cells/deleteblankrows)() | Delete all blank rows which do not contain any data. |
-| [DeleteBlankRows](../../aspose.cells/cells/deleteblankrows)(DeleteOptions) | Delete all blank rows which do not contain any data. |
-| [DeleteColumn](../../aspose.cells/cells/deletecolumn)(int) | Deletes a column. |
-| [DeleteColumn](../../aspose.cells/cells/deletecolumn)(int, bool) | Deletes a column. |
+| [CopyRows](../../aspose.cells/cells/copyrows#copyrows)(Cells, int, int, int) | Copies data and formats of some whole rows. |
+| [CopyRows](../../aspose.cells/cells/copyrows#copyrows_1)(Cells, int, int, int, CopyOptions) | Copies data and formats of some whole rows. |
+| [CopyRows](../../aspose.cells/cells/copyrows#copyrows_2)(Cells, int, int, int, CopyOptions, PasteOptions) | Copies data and formats of some whole rows. |
+| [CreateRange](../../aspose.cells/cells/createrange#createrange_2)(string) | Creates a [`Range`](../range) object from an address of the range. |
+| [CreateRange](../../aspose.cells/cells/createrange#createrange_3)(string, string) | Creates a [`Range`](../range) object from a range of cells. |
+| [CreateRange](../../aspose.cells/cells/createrange#createrange)(int, int, bool) | Creates a [`Range`](../range) object from rows of cells or columns of cells. |
+| [CreateRange](../../aspose.cells/cells/createrange#createrange_1)(int, int, int, int) | Creates a [`Range`](../range) object from a range of cells. |
+| [DeleteBlankColumns](../../aspose.cells/cells/deleteblankcolumns#deleteblankcolumns)() | Delete all blank columns which do not contain any data. |
+| [DeleteBlankColumns](../../aspose.cells/cells/deleteblankcolumns#deleteblankcolumns_1)(DeleteOptions) | Delete all blank columns which do not contain any data. |
+| [DeleteBlankRows](../../aspose.cells/cells/deleteblankrows#deleteblankrows)() | Delete all blank rows which do not contain any data. |
+| [DeleteBlankRows](../../aspose.cells/cells/deleteblankrows#deleteblankrows_1)(DeleteOptions) | Delete all blank rows which do not contain any data. |
+| [DeleteColumn](../../aspose.cells/cells/deletecolumn#deletecolumn)(int) | Deletes a column. |
+| [DeleteColumn](../../aspose.cells/cells/deletecolumn#deletecolumn_1)(int, bool) | Deletes a column. |
 | [DeleteColumns](../../aspose.cells/cells/deletecolumns)(int, int, bool) | Deletes several columns. |
 | [DeleteRange](../../aspose.cells/cells/deleterange)(int, int, int, int, ShiftType) | Deletes a range of cells and shift cells according to the shift option. |
 | [DeleteRow](../../aspose.cells/cells/deleterow)(int) | Deletes a row. |
-| [DeleteRows](../../aspose.cells/cells/deleterows)(int, int) | Deletes several rows. |
-| [DeleteRows](../../aspose.cells/cells/deleterows)(int, int, bool) | Deletes multiple rows in the worksheet. |
+| [DeleteRows](../../aspose.cells/cells/deleterows#deleterows)(int, int) | Deletes several rows. |
+| [DeleteRows](../../aspose.cells/cells/deleterows#deleterows_1)(int, int, bool) | Deletes multiple rows in the worksheet. |
 | [Dispose](../../aspose.cells/cells/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| [EndCellInColumn](../../aspose.cells/cells/endcellincolumn)(short) | Gets the last cell in this column. |
-| [EndCellInColumn](../../aspose.cells/cells/endcellincolumn)(int, int, short, short) | Gets the last cell with maximum column index in this range. |
-| [EndCellInRow](../../aspose.cells/cells/endcellinrow)(int) | Gets the last cell in this row. |
-| [EndCellInRow](../../aspose.cells/cells/endcellinrow)(int, int, int, int) | Gets the last cell with maximum row index in this range. |
+| [EndCellInColumn](../../aspose.cells/cells/endcellincolumn#endcellincolumn)(short) | Gets the last cell in this column. |
+| [EndCellInColumn](../../aspose.cells/cells/endcellincolumn#endcellincolumn_1)(int, int, short, short) | Gets the last cell with maximum column index in this range. |
+| [EndCellInRow](../../aspose.cells/cells/endcellinrow#endcellinrow)(int) | Gets the last cell in this row. |
+| [EndCellInRow](../../aspose.cells/cells/endcellinrow#endcellinrow_1)(int, int, int, int) | Gets the last cell with maximum row index in this range. |
 | [ExportArray](../../aspose.cells/cells/exportarray)(int, int, int, int) | Exports data in the [`Cells`](../cells) collection to a two-dimension array object. |
-| [ExportDataTable](../../aspose.cells/cells/exportdatatable)(int, int, int, int) | Exports data in the [`Cells`](../cells) collection to a DataTable object. |
-| [ExportDataTable](../../aspose.cells/cells/exportdatatable)(int, int, int, int, bool) | Exports data in the [`Cells`](../cells) collection to a DataTable object. |
-| [ExportDataTable](../../aspose.cells/cells/exportdatatable)(int, int, int, int, ExportTableOptions) | Exports data in the [`Cells`](../cells) collection to a DataTable object. |
-| [ExportDataTableAsString](../../aspose.cells/cells/exportdatatableasstring)(int, int, int, int) | Exports data in the [`Cells`](../cells) collection to a DataTable object. |
-| [ExportDataTableAsString](../../aspose.cells/cells/exportdatatableasstring)(int, int, int, int, bool) | Exports data in the [`Cells`](../cells) collection to a DataTable object. |
+| [ExportDataTable](../../aspose.cells/cells/exportdatatable#exportdatatable)(int, int, int, int) | Exports data in the [`Cells`](../cells) collection to a DataTable object. |
+| [ExportDataTable](../../aspose.cells/cells/exportdatatable#exportdatatable_2)(int, int, int, int, bool) | Exports data in the [`Cells`](../cells) collection to a DataTable object. |
+| [ExportDataTable](../../aspose.cells/cells/exportdatatable#exportdatatable_1)(int, int, int, int, ExportTableOptions) | Exports data in the [`Cells`](../cells) collection to a DataTable object. |
+| [ExportDataTableAsString](../../aspose.cells/cells/exportdatatableasstring#exportdatatableasstring)(int, int, int, int) | Exports data in the [`Cells`](../cells) collection to a DataTable object. |
+| [ExportDataTableAsString](../../aspose.cells/cells/exportdatatableasstring#exportdatatableasstring_1)(int, int, int, int, bool) | Exports data in the [`Cells`](../cells) collection to a DataTable object. |
 | [ExportTypeArray](../../aspose.cells/cells/exporttypearray)(int, int, int, int) | Exports cell value type in the [`Cells`](../cells) collection to a two-dimension array object. |
-| [Find](../../aspose.cells/cells/find)(object, Cell) | Finds the cell containing with the input object. |
-| [Find](../../aspose.cells/cells/find)(object, Cell, FindOptions) | Finds the cell containing with the input object. |
+| [Find](../../aspose.cells/cells/find#find)(object, Cell) | Finds the cell containing with the input object. |
+| [Find](../../aspose.cells/cells/find#find_1)(object, Cell, FindOptions) | Finds the cell containing with the input object. |
+| [FindFormula](../../aspose.cells/cells/findformula)(string, Cell) | Finds the cell with the input string. |
+| [FindFormulaContains](../../aspose.cells/cells/findformulacontains)(string, Cell) | Finds the cell with formula which contains the input string. |
 | [GetCell](../../aspose.cells/cells/getcell)(int, int) | Gets the [`Cell`](../cell) element or null at the specified cell row index and column index. |
 | [GetCellStyle](../../aspose.cells/cells/getcellstyle)(int, int) | Get the style of given cell. |
 | [GetColumnWidth](../../aspose.cells/cells/getcolumnwidth)(int) | Gets the width of the specified column in normal view |
@@ -128,71 +130,99 @@ public class Cells : IDisposable, IEnumerable
 | [GetViewColumnWidthPixel](../../aspose.cells/cells/getviewcolumnwidthpixel)(int) | Get the width in different view type. |
 | [GetViewRowHeight](../../aspose.cells/cells/getviewrowheight)(int) | Gets the height of a specified row. |
 | [GetViewRowHeightInch](../../aspose.cells/cells/getviewrowheightinch)(int) | Gets the height of a specified row in unit of inches. |
-| [GroupColumns](../../aspose.cells/cells/groupcolumns)(int, int) | Groups columns. |
-| [GroupColumns](../../aspose.cells/cells/groupcolumns)(int, int, bool) | Groups columns. |
-| [GroupRows](../../aspose.cells/cells/grouprows)(int, int) | Groups rows. |
-| [GroupRows](../../aspose.cells/cells/grouprows)(int, int, bool) | Groups rows. |
+| [GroupColumns](../../aspose.cells/cells/groupcolumns#groupcolumns)(int, int) | Groups columns. |
+| [GroupColumns](../../aspose.cells/cells/groupcolumns#groupcolumns_1)(int, int, bool) | Groups columns. |
+| [GroupRows](../../aspose.cells/cells/grouprows#grouprows)(int, int) | Groups rows. |
+| [GroupRows](../../aspose.cells/cells/grouprows#grouprows_1)(int, int, bool) | Groups rows. |
 | [HideColumn](../../aspose.cells/cells/hidecolumn)(int) | Hides a column. |
 | [HideColumns](../../aspose.cells/cells/hidecolumns)(int, int) | Hide multiple columns. |
 | [HideGroupDetail](../../aspose.cells/cells/hidegroupdetail)(bool, int) | Collapses the grouped rows/columns. |
 | [HideRow](../../aspose.cells/cells/hiderow)(int) | Hides a row. |
 | [HideRows](../../aspose.cells/cells/hiderows)(int, int) | Hides multiple rows. |
-| [ImportArray](../../aspose.cells/cells/importarray)(double[], int, int) |  |
-| [ImportArray](../../aspose.cells/cells/importarray)(int[], int, int) |  |
-| [ImportArray](../../aspose.cells/cells/importarray)(string[], int, int) |  |
-| [ImportArray](../../aspose.cells/cells/importarray)(double[], int, int, bool) | Imports an array of double into a worksheet. |
-| [ImportArray](../../aspose.cells/cells/importarray)(int[], int, int, bool) | Imports an array of integer into a worksheet. |
-| [ImportArray](../../aspose.cells/cells/importarray)(string[], int, int, bool) | Imports an array of string into a worksheet. |
+| [Import](../../aspose.cells/cells/import)(IDataReader, int, int, ImportTableOptions) | Import data from data view. |
+| [ImportArray](../../aspose.cells/cells/importarray#importarray)(double[], int, int) |  |
+| [ImportArray](../../aspose.cells/cells/importarray#importarray_2)(int[], int, int) |  |
+| [ImportArray](../../aspose.cells/cells/importarray#importarray_4)(string[], int, int) |  |
+| [ImportArray](../../aspose.cells/cells/importarray#importarray_1)(double[], int, int, bool) | Imports an array of double into a worksheet. |
+| [ImportArray](../../aspose.cells/cells/importarray#importarray_3)(int[], int, int, bool) | Imports an array of integer into a worksheet. |
+| [ImportArray](../../aspose.cells/cells/importarray#importarray_5)(string[], int, int, bool) | Imports an array of string into a worksheet. |
 | [ImportArrayList](../../aspose.cells/cells/importarraylist)(ArrayList, int, int, bool) | Imports an arraylist of data into a worksheet. |
-| [ImportCSV](../../aspose.cells/cells/importcsv)(Stream, TxtLoadOptions, int, int) | Import a CSV file to the cells. |
-| [ImportCSV](../../aspose.cells/cells/importcsv)(string, TxtLoadOptions, int, int) | Import a CSV file to the cells. |
-| [ImportCSV](../../aspose.cells/cells/importcsv)(Stream, string, bool, int, int) | Import a CSV file to the cells. |
-| [ImportCSV](../../aspose.cells/cells/importcsv)(string, string, bool, int, int) | Import a CSV file to the cells. |
-| [ImportCustomObjects](../../aspose.cells/cells/importcustomobjects)(ICollection, int, int, ImportTableOptions) | Imports custom objects. |
-| [ImportCustomObjects](../../aspose.cells/cells/importcustomobjects)(ICollection, string[], bool, int, int, int, bool, string, bool) | Imports custom objects. |
-| [ImportData](../../aspose.cells/cells/importdata)(IDataReader, int, int) | Imports data from a IDataReader object. |
-| [ImportData](../../aspose.cells/cells/importdata)(DataTable, int, int, ImportTableOptions) | Import data from custom data table. |
-| [ImportData](../../aspose.cells/cells/importdata)(DataView, int, int, ImportTableOptions) | Import data from data view. |
-| [ImportData](../../aspose.cells/cells/importdata)(ICellsDataTable, int, int, ImportTableOptions) | Import data from custom data table. |
-| [ImportData](../../aspose.cells/cells/importdata)(IDataReader, int, int, ImportTableOptions) | Imports data from a IDataReader object. |
-| [ImportDataGrid](../../aspose.cells/cells/importdatagrid)(DataGrid, int, int, bool) | Imports a DataGrid into a worksheet. |
-| [ImportDataGrid](../../aspose.cells/cells/importdatagrid)(DataGrid, int, int, int, int, bool) | Imports a DataGrid into a worksheet. |
-| [ImportDataGrid](../../aspose.cells/cells/importdatagrid)(DataGrid, int, int, int, int, bool, bool) | Imports a DataGrid into a worksheet. |
+| [ImportCSV](../../aspose.cells/cells/importcsv#importcsv)(Stream, TxtLoadOptions, int, int) | Import a CSV file to the cells. |
+| [ImportCSV](../../aspose.cells/cells/importcsv#importcsv_2)(string, TxtLoadOptions, int, int) | Import a CSV file to the cells. |
+| [ImportCSV](../../aspose.cells/cells/importcsv#importcsv_1)(Stream, string, bool, int, int) | Import a CSV file to the cells. |
+| [ImportCSV](../../aspose.cells/cells/importcsv#importcsv_3)(string, string, bool, int, int) | Import a CSV file to the cells. |
+| [ImportCustomObjects](../../aspose.cells/cells/importcustomobjects#importcustomobjects)(ICollection, int, int, ImportTableOptions) | Imports custom objects. |
+| [ImportCustomObjects](../../aspose.cells/cells/importcustomobjects#importcustomobjects_1)(ICollection, string[], bool, int, int, int, bool, string, bool) | Imports custom objects. |
+| [ImportData](../../aspose.cells/cells/importdata#importdata_3)(IDataReader, int, int) | Imports data from a IDataReader object. |
+| [ImportData](../../aspose.cells/cells/importdata#importdata_1)(DataTable, int, int, ImportTableOptions) | Import data from custom data table. |
+| [ImportData](../../aspose.cells/cells/importdata#importdata_2)(DataView, int, int, ImportTableOptions) | Import data from data view. |
+| [ImportData](../../aspose.cells/cells/importdata#importdata)(ICellsDataTable, int, int, ImportTableOptions) | Import data from custom data table. |
+| [ImportData](../../aspose.cells/cells/importdata#importdata_4)(IDataReader, int, int, ImportTableOptions) | Imports data from a IDataReader object. |
+| [ImportDataGrid](../../aspose.cells/cells/importdatagrid#importdatagrid)(DataGrid, int, int, bool) | Imports a DataGrid into a worksheet. |
+| [ImportDataGrid](../../aspose.cells/cells/importdatagrid#importdatagrid_1)(DataGrid, int, int, int, int, bool) | Imports a DataGrid into a worksheet. |
+| [ImportDataGrid](../../aspose.cells/cells/importdatagrid#importdatagrid_2)(DataGrid, int, int, int, int, bool, bool) | Imports a DataGrid into a worksheet. |
 | [ImportDataGridAsString](../../aspose.cells/cells/importdatagridasstring)(DataGrid, int, int, bool) | Imports a DataGrid into a worksheet. This method doesn't try to convert text into numeric values. |
+| [ImportDataReader](../../aspose.cells/cells/importdatareader#importdatareader_3)(OleDbDataReader, int, int, bool) | Imports data from a OleDbDataReader object. |
+| [ImportDataReader](../../aspose.cells/cells/importdatareader#importdatareader_6)(SqlDataReader, int, int, bool) | Imports data from a SqlDataReader object. |
+| [ImportDataReader](../../aspose.cells/cells/importdatareader#importdatareader_1)(OleDbDataReader, bool, int, int, bool) | Imports data from a OleDbDataReader object. |
+| [ImportDataReader](../../aspose.cells/cells/importdatareader#importdatareader_4)(SqlDataReader, bool, int, int, bool) | Imports data from a SqlDataReader object. |
+| [ImportDataReader](../../aspose.cells/cells/importdatareader#importdatareader)(IDataReader, bool, int, int, bool, string, bool) | Imports data from a IDataReader object. |
+| [ImportDataReader](../../aspose.cells/cells/importdatareader#importdatareader_2)(OleDbDataReader, bool, int, int, bool, string, bool) | Imports data from a OleDbDataReader object. |
+| [ImportDataReader](../../aspose.cells/cells/importdatareader#importdatareader_5)(SqlDataReader, bool, int, int, bool, string, bool) | Imports data from a SqlDataReader object. |
 | [ImportDataRow](../../aspose.cells/cells/importdatarow)(DataRow, int, int) | Imports a DataRow into the Excel file. |
-| [ImportDataView](../../aspose.cells/cells/importdataview)(DataView, int, int) | Imports a DataView into a worksheet. |
+| [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable_7)(DataTable, bool, string) | Imports a DataTable object into a worksheet. |
+| [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable)(DataTable, bool, int, int) | Imports a DataTable object into a worksheet. |
+| [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable_1)(DataTable, bool, int, int, bool) | Imports a DataTable object into a worksheet. |
+| [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable_2)(DataTable, bool, int, int, bool, bool) | Imports a DataTable object into a worksheet. |
+| [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable_3)(DataTable, bool, int, int, int, int) | Imports a DataTable into a worksheet. |
+| [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable_4)(DataTable, bool, int, int, int, int, bool) | Imports a DataTable into a worksheet. |
+| [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable_5)(DataTable, bool, int, int, int, int, bool, string) | Imports a DataTable into a worksheet. |
+| [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable_6)(DataTable, bool, int, int, int, int, bool, string, bool) | Imports a DataTable into a worksheet. |
+| [ImportDataView](../../aspose.cells/cells/importdataview#importdataview_3)(DataView, int, int) | Imports a DataView into a worksheet. |
+| [ImportDataView](../../aspose.cells/cells/importdataview#importdataview_4)(DataView, int, int, bool) |  |
+| [ImportDataView](../../aspose.cells/cells/importdataview#importdataview)(DataView, bool, int, int, bool) | Imports a DataView into a worksheet. |
+| [ImportDataView](../../aspose.cells/cells/importdataview#importdataview_5)(DataView, int, int, int, int) | Imports a DataView into a worksheet. |
+| [ImportDataView](../../aspose.cells/cells/importdataview#importdataview_6)(DataView, int, int, int, int, bool) | Imports a DataView into a worksheet. |
+| [ImportDataView](../../aspose.cells/cells/importdataview#importdataview_1)(DataView, bool, int, int, int, int, bool) | Imports a DataView into a worksheet. |
+| [ImportDataView](../../aspose.cells/cells/importdataview#importdataview_2)(DataView, bool, int, int, int, int, bool, string) | Imports a DataView into a worksheet. |
 | [ImportFormulaArray](../../aspose.cells/cells/importformulaarray)(string[], int, int, bool) | Imports an array of formula into a worksheet. |
+| [ImportFromDataReader](../../aspose.cells/cells/importfromdatareader#importfromdatareader_2)(OleDbDataReader, int, int, bool) | Imports data from a OleDbDataReader object. |
+| [ImportFromDataReader](../../aspose.cells/cells/importfromdatareader#importfromdatareader_5)(SqlDataReader, int, int, bool) | Imports data from a SqlDataReader object. |
+| [ImportFromDataReader](../../aspose.cells/cells/importfromdatareader#importfromdatareader)(OleDbDataReader, bool, int, int, bool) | Imports data from a OleDbDataReader object. |
+| [ImportFromDataReader](../../aspose.cells/cells/importfromdatareader#importfromdatareader_3)(SqlDataReader, bool, int, int, bool) | Imports data from a SqlDataReader object. |
+| [ImportFromDataReader](../../aspose.cells/cells/importfromdatareader#importfromdatareader_1)(OleDbDataReader, bool, int, int, bool, string, bool) | Imports data from a OleDbDataReader object. |
+| [ImportFromDataReader](../../aspose.cells/cells/importfromdatareader#importfromdatareader_4)(SqlDataReader, bool, int, int, bool, string, bool) | Imports data from a SqlDataReader object. |
 | [ImportGridView](../../aspose.cells/cells/importgridview)(GridView, int, int, ImportTableOptions) | Imports a grid view to this cells. |
-| [ImportObjectArray](../../aspose.cells/cells/importobjectarray)(object[], int, int, bool) | Imports an array of data into a worksheet. |
-| [ImportObjectArray](../../aspose.cells/cells/importobjectarray)(object[], int, int, bool, int) | Imports an array of data into a worksheet. |
-| [ImportTwoDimensionArray](../../aspose.cells/cells/importtwodimensionarray)(object[], int, int) |  |
-| [ImportTwoDimensionArray](../../aspose.cells/cells/importtwodimensionarray)(object[], int, int, bool) |  |
-| [ImportTwoDimensionArray](../../aspose.cells/cells/importtwodimensionarray)(object[], object[], int, int, bool) |  |
-| [ImportTwoDimensionArray](../../aspose.cells/cells/importtwodimensionarray)(object[], object[], int, int, TxtLoadOptions) |  |
-| [InsertColumn](../../aspose.cells/cells/insertcolumn)(int) | Inserts a new column into the worksheet. |
-| [InsertColumn](../../aspose.cells/cells/insertcolumn)(int, bool) | Inserts a new column into the worksheet. |
-| [InsertColumns](../../aspose.cells/cells/insertcolumns)(int, int) | Inserts some columns into the worksheet. |
-| [InsertColumns](../../aspose.cells/cells/insertcolumns)(int, int, bool) | Inserts some columns into the worksheet. |
+| [ImportObjectArray](../../aspose.cells/cells/importobjectarray#importobjectarray)(object[], int, int, bool) | Imports an array of data into a worksheet. |
+| [ImportObjectArray](../../aspose.cells/cells/importobjectarray#importobjectarray_1)(object[], int, int, bool, int) | Imports an array of data into a worksheet. |
+| [ImportTwoDimensionArray](../../aspose.cells/cells/importtwodimensionarray#importtwodimensionarray)(object[], int, int) |  |
+| [ImportTwoDimensionArray](../../aspose.cells/cells/importtwodimensionarray#importtwodimensionarray_1)(object[], int, int, bool) |  |
+| [ImportTwoDimensionArray](../../aspose.cells/cells/importtwodimensionarray#importtwodimensionarray_3)(object[], object[], int, int, bool) |  |
+| [ImportTwoDimensionArray](../../aspose.cells/cells/importtwodimensionarray#importtwodimensionarray_2)(object[], object[], int, int, TxtLoadOptions) |  |
+| [InsertColumn](../../aspose.cells/cells/insertcolumn#insertcolumn)(int) | Inserts a new column into the worksheet. |
+| [InsertColumn](../../aspose.cells/cells/insertcolumn#insertcolumn_1)(int, bool) | Inserts a new column into the worksheet. |
+| [InsertColumns](../../aspose.cells/cells/insertcolumns#insertcolumns)(int, int) | Inserts some columns into the worksheet. |
+| [InsertColumns](../../aspose.cells/cells/insertcolumns#insertcolumns_1)(int, int, bool) | Inserts some columns into the worksheet. |
 | [InsertCutCells](../../aspose.cells/cells/insertcutcells)(Range, int, int, ShiftType) | Insert cut range. |
-| [InsertRange](../../aspose.cells/cells/insertrange)(CellArea, ShiftType) | Inserts a range of cells and shift cells according to the shift option. |
-| [InsertRange](../../aspose.cells/cells/insertrange)(CellArea, int, ShiftType) | Inserts a range of cells and shift cells according to the shift option. |
-| [InsertRange](../../aspose.cells/cells/insertrange)(CellArea, int, ShiftType, bool) | Inserts a range of cells and shift cells according to the shift option. |
+| [InsertRange](../../aspose.cells/cells/insertrange#insertrange)(CellArea, ShiftType) | Inserts a range of cells and shift cells according to the shift option. |
+| [InsertRange](../../aspose.cells/cells/insertrange#insertrange_1)(CellArea, int, ShiftType) | Inserts a range of cells and shift cells according to the shift option. |
+| [InsertRange](../../aspose.cells/cells/insertrange#insertrange_2)(CellArea, int, ShiftType, bool) | Inserts a range of cells and shift cells according to the shift option. |
 | [InsertRow](../../aspose.cells/cells/insertrow)(int) | Inserts a new row into the worksheet. |
-| [InsertRows](../../aspose.cells/cells/insertrows)(int, int) | Inserts multiple rows into the worksheet. |
-| [InsertRows](../../aspose.cells/cells/insertrows)(int, int, bool) | Inserts multiple rows into the worksheet. |
-| [InsertRows](../../aspose.cells/cells/insertrows)(int, int, InsertOptions) | Inserts multiple rows into the worksheet. |
+| [InsertRows](../../aspose.cells/cells/insertrows#insertrows)(int, int) | Inserts multiple rows into the worksheet. |
+| [InsertRows](../../aspose.cells/cells/insertrows#insertrows_2)(int, int, bool) | Inserts multiple rows into the worksheet. |
+| [InsertRows](../../aspose.cells/cells/insertrows#insertrows_1)(int, int, InsertOptions) | Inserts multiple rows into the worksheet. |
 | [IsBlankColumn](../../aspose.cells/cells/isblankcolumn)(int) | Checks whether given column is blank(does not contain any data). |
 | [IsColumnHidden](../../aspose.cells/cells/iscolumnhidden)(int) | Checks whether a column at given index is hidden. |
 | [IsDeletingRangeEnabled](../../aspose.cells/cells/isdeletingrangeenabled)(int, int, int, int) | Check whether the range could be deleted. |
 | [IsRowHidden](../../aspose.cells/cells/isrowhidden)(int) | Checks whether a row at given index is hidden. |
 | [LinkToXmlMap](../../aspose.cells/cells/linktoxmlmap)(string, int, int, string) | Link to a xml map. |
-| [Merge](../../aspose.cells/cells/merge)(int, int, int, int) | Merges a specified range of cells into a single cell. |
-| [Merge](../../aspose.cells/cells/merge)(int, int, int, int, bool) | Merges a specified range of cells into a single cell. |
-| [Merge](../../aspose.cells/cells/merge)(int, int, int, int, bool, bool) | Merges a specified range of cells into a single cell. |
+| [Merge](../../aspose.cells/cells/merge#merge)(int, int, int, int) | Merges a specified range of cells into a single cell. |
+| [Merge](../../aspose.cells/cells/merge#merge_1)(int, int, int, int, bool) | Merges a specified range of cells into a single cell. |
+| [Merge](../../aspose.cells/cells/merge#merge_2)(int, int, int, int, bool, bool) | Merges a specified range of cells into a single cell. |
 | [MoveRange](../../aspose.cells/cells/moverange)(CellArea, int, int) | Moves the range. |
-| [RemoveDuplicates](../../aspose.cells/cells/removeduplicates)() | Removes duplicate rows in the sheet. |
-| [RemoveDuplicates](../../aspose.cells/cells/removeduplicates)(int, int, int, int) | Removes duplicate values in the range. |
-| [RemoveDuplicates](../../aspose.cells/cells/removeduplicates)(int, int, int, int, bool, int[]) | Removes duplicate data of the range. |
+| [RemoveDuplicates](../../aspose.cells/cells/removeduplicates#removeduplicates)() | Removes duplicate rows in the sheet. |
+| [RemoveDuplicates](../../aspose.cells/cells/removeduplicates#removeduplicates_1)(int, int, int, int) | Removes duplicate values in the range. |
+| [RemoveDuplicates](../../aspose.cells/cells/removeduplicates#removeduplicates_2)(int, int, int, int, bool, int[]) | Removes duplicate data of the range. |
 | [RemoveFormulas](../../aspose.cells/cells/removeformulas)() | Removes all formula and replaces with the value of the formula. |
 | [RetrieveSubtotalSetting](../../aspose.cells/cells/retrievesubtotalsetting)(CellArea) | Retrieves subtotals setting of the range. |
 | [SetColumnWidth](../../aspose.cells/cells/setcolumnwidth)(int, double) | Sets the width of the specified column in normal view. |
@@ -203,12 +233,12 @@ public class Cells : IDisposable, IEnumerable
 | [SetRowHeightPixel](../../aspose.cells/cells/setrowheightpixel)(int, int) | Sets row height in unit of pixels. |
 | [SetViewColumnWidthPixel](../../aspose.cells/cells/setviewcolumnwidthpixel)(int, int) | Sets the width of the column in different view. |
 | [ShowGroupDetail](../../aspose.cells/cells/showgroupdetail)(bool, int) | Expands the grouped rows/columns. |
-| [Subtotal](../../aspose.cells/cells/subtotal)(CellArea, int, ConsolidationFunction, int[]) | Creates subtotals for the range. |
-| [Subtotal](../../aspose.cells/cells/subtotal)(CellArea, int, ConsolidationFunction, int[], bool, bool, bool) | Creates subtotals for the range. |
+| [Subtotal](../../aspose.cells/cells/subtotal#subtotal)(CellArea, int, ConsolidationFunction, int[]) | Creates subtotals for the range. |
+| [Subtotal](../../aspose.cells/cells/subtotal#subtotal_1)(CellArea, int, ConsolidationFunction, int[], bool, bool, bool) | Creates subtotals for the range. |
 | [TextToColumns](../../aspose.cells/cells/texttocolumns)(int, int, int, TxtLoadOptions) | Splits the text in the column to columns. |
 | [UngroupColumns](../../aspose.cells/cells/ungroupcolumns)(int, int) | Ungroups columns. |
-| [UngroupRows](../../aspose.cells/cells/ungrouprows)(int, int) | Ungroups rows. |
-| [UngroupRows](../../aspose.cells/cells/ungrouprows)(int, int, bool) | Ungroups rows. |
+| [UngroupRows](../../aspose.cells/cells/ungrouprows#ungrouprows)(int, int) | Ungroups rows. |
+| [UngroupRows](../../aspose.cells/cells/ungrouprows#ungrouprows_1)(int, int, bool) | Ungroups rows. |
 | [UnhideColumn](../../aspose.cells/cells/unhidecolumn)(int, double) | Unhides a column |
 | [UnhideColumns](../../aspose.cells/cells/unhidecolumns)(int, int, double) | Unhide multiple columns. |
 | [UnhideRow](../../aspose.cells/cells/unhiderow)(int, double) | Unhides a row. |

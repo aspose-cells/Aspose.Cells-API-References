@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the value of the property.
 type: docs
 weight: 60
 url: /net/aspose.cells.properties/documentproperty/value/

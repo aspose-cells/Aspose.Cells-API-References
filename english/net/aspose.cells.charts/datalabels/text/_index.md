@@ -1,9 +1,9 @@
 ---
 title: Text
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the text of data label.
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.cells.charts/datalabels/text/
 ---
 ## DataLabels.Text property

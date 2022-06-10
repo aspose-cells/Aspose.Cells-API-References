@@ -1,9 +1,9 @@
 ---
 title: CreatedUniversalTime
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the Universal time of the document creation.
 type: docs
-weight: 80
+weight: 110
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/createduniversaltime/
 ---
 ## BuiltInDocumentPropertyCollection.CreatedUniversalTime property

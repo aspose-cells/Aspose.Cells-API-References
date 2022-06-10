@@ -1,7 +1,7 @@
 ---
 title: FileCacheDirectory
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets/Gets the cache directory for workbook file
 type: docs
 weight: 50
 url: /net/aspose.cells.gridjs/config/filecachedirectory/

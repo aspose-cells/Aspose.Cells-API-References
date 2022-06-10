@@ -3,10 +3,10 @@ title: ImportTwoDimensionArray
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1050
+weight: 1110
 url: /net/aspose.cells/cells/importtwodimensionarray/
 ---
-## Cells.ImportTwoDimensionArray method (1 of 4)
+## ImportTwoDimensionArray(object[], int, int) {#importtwodimensionarray}
 
 ```csharp
 public void ImportTwoDimensionArray(object[] objArray, int firstRow, int firstColumn)
@@ -20,7 +20,7 @@ public void ImportTwoDimensionArray(object[] objArray, int firstRow, int firstCo
 
 ---
 
-## Cells.ImportTwoDimensionArray method (2 of 4)
+## ImportTwoDimensionArray(object[], int, int, bool) {#importtwodimensionarray_1}
 
 ```csharp
 public void ImportTwoDimensionArray(object[] objArray, int firstRow, int firstColumn, 
@@ -35,7 +35,7 @@ public void ImportTwoDimensionArray(object[] objArray, int firstRow, int firstCo
 
 ---
 
-## Cells.ImportTwoDimensionArray method (3 of 4)
+## ImportTwoDimensionArray(object[], object[], int, int, bool) {#importtwodimensionarray_3}
 
 ```csharp
 public void ImportTwoDimensionArray(object[] objArray, object[] styles, int firstRow, 
@@ -50,7 +50,7 @@ public void ImportTwoDimensionArray(object[] objArray, object[] styles, int firs
 
 ---
 
-## Cells.ImportTwoDimensionArray method (4 of 4)
+## ImportTwoDimensionArray(object[], object[], int, int, TxtLoadOptions) {#importtwodimensionarray_2}
 
 ```csharp
 public void ImportTwoDimensionArray(object[] objArray, object[] styles, int firstRow, 

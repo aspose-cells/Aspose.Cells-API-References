@@ -1,7 +1,7 @@
 ---
 title: AddFilter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a filter for a filter column.
 type: docs
 weight: 70
 url: /net/aspose.cells/autofilter/addfilter/

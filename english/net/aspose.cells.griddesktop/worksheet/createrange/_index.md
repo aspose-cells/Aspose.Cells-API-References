@@ -6,7 +6,7 @@ type: docs
 weight: 620
 url: /net/aspose.cells.griddesktop/worksheet/createrange/
 ---
-## Worksheet.CreateRange method (1 of 2)
+## CreateRange(string, string) {#createrange_1}
 
 ```csharp
 public CellRange CreateRange(string upperLeftCell, string lowerRightCell)
@@ -21,7 +21,7 @@ public CellRange CreateRange(string upperLeftCell, string lowerRightCell)
 
 ---
 
-## Worksheet.CreateRange method (2 of 2)
+## CreateRange(int, int, int, int) {#createrange}
 
 ```csharp
 public CellRange CreateRange(int cStartRow, int cStartCol, int cEndRow, int cEndCol)

@@ -1,9 +1,9 @@
 ---
 title: MsoDrawingType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets mso drawing type.
 type: docs
-weight: 510
+weight: 560
 url: /net/aspose.cells.drawing/shape/msodrawingtype/
 ---
 ## Shape.MsoDrawingType property

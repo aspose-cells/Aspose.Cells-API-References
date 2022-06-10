@@ -1,7 +1,7 @@
 ---
 title: BorderColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the color of the border. Please refer to System.Drawing.Color struct.
 type: docs
 weight: 20
 url: /net/aspose.cells.gridweb/webborderstyle/bordercolor/

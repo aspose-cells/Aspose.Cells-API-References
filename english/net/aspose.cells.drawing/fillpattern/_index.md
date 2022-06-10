@@ -1,9 +1,9 @@
 ---
 title: FillPattern
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Enumerates shape fill pattern types.
 type: docs
-weight: 1970
+weight: 1990
 url: /net/aspose.cells.drawing/fillpattern/
 ---
 ## FillPattern enumeration

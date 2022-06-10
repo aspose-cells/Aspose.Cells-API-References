@@ -1,7 +1,7 @@
 ---
 title: IsProtected
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates if the worksheet is protected.
 type: docs
 weight: 640
 url: /net/aspose.cells.gridweb.data/gridworksheet/isprotected/

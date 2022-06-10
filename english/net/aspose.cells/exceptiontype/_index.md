@@ -1,9 +1,9 @@
 ---
 title: ExceptionType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents custom exception type code.
 type: docs
-weight: 3190
+weight: 3220
 url: /net/aspose.cells/exceptiontype/
 ---
 ## ExceptionType enumeration

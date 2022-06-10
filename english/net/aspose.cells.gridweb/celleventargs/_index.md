@@ -1,7 +1,7 @@
 ---
 title: CellEventArgs
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Provides data for cell events.
 type: docs
 weight: 40
 url: /net/aspose.cells.gridweb/celleventargs/
@@ -31,7 +31,7 @@ public class CellEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [ToString](../../aspose.cells.gridweb/celleventargs/tostring)() | Returns a string represents the current object. |
+| [ToString](../../aspose.cells.gridweb/celleventargs/tostring#tostring)() | Returns a string represents the current object. |
 
 ### See Also
 

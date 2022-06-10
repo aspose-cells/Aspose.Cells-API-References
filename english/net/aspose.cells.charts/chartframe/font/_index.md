@@ -1,9 +1,9 @@
 ---
 title: Font
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets a Fontaspose.cells.charts/chartframe/font object of the specified ChartFrame object.
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.cells.charts/chartframe/font/
 ---
 ## ChartFrame.Font property

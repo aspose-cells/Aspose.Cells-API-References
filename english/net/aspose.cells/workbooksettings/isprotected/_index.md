@@ -1,9 +1,9 @@
 ---
 title: IsProtected
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets a value that indicates whether the structure or window of the Workbook is protected.
 type: docs
-weight: 240
+weight: 290
 url: /net/aspose.cells/workbooksettings/isprotected/
 ---
 ## WorkbookSettings.IsProtected property

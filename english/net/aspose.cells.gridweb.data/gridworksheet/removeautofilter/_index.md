@@ -1,7 +1,7 @@
 ---
 title: RemoveAutoFilter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Remove the auto filter of the worksheet.
 type: docs
 weight: 670
 url: /net/aspose.cells.gridweb.data/gridworksheet/removeautofilter/

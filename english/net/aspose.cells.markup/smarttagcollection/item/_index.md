@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets a SmartTagaspose.cells.markup/smarttag object at the specific index
 type: docs
 weight: 20
 url: /net/aspose.cells.markup/smarttagcollection/item/

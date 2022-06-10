@@ -1,9 +1,9 @@
 ---
 title: GridWorksheet
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the object that represents a single worksheet.
 type: docs
-weight: 570
+weight: 580
 url: /net/aspose.cells.gridweb.data/gridworksheet/
 ---
 ## GridWorksheet class
@@ -60,14 +60,14 @@ public class GridWorksheet : Control, ISerializable
 | --- | --- |
 | [AddAutoFilter](../../aspose.cells.gridweb.data/gridworksheet/addautofilter)(int, int, int) | Sets the range to which the specified AutoFilter applies. |
 | [AddCustomFilter](../../aspose.cells.gridweb.data/gridworksheet/addcustomfilter)(int, string) | Add custom filter for the specified row. |
-| [AutoFitColumn](../../aspose.cells.gridweb.data/gridworksheet/autofitcolumn)(int) | Autofits the column width. |
-| [AutoFitColumn](../../aspose.cells.gridweb.data/gridworksheet/autofitcolumn)(int, int, int) | Autofits the column width. |
-| [AutoFitRow](../../aspose.cells.gridweb.data/gridworksheet/autofitrow)(int) | Autofits the row height. |
-| [AutoFitRow](../../aspose.cells.gridweb.data/gridworksheet/autofitrow)(int, int, int) | Autofits the row height. |
-| [AutoFitRow](../../aspose.cells.gridweb.data/gridworksheet/autofitrow)(int, int, int, int) | Autofits row height in a rectangle range. |
-| [AutoFitRows](../../aspose.cells.gridweb.data/gridworksheet/autofitrows)() | Autofits all rows in this worksheet. |
-| [AutoFitRows](../../aspose.cells.gridweb.data/gridworksheet/autofitrows)(bool) | Autofits all rows in this worksheet. |
-| [AutoFitRows](../../aspose.cells.gridweb.data/gridworksheet/autofitrows)(int, int) | Autofits row height in a range. |
+| [AutoFitColumn](../../aspose.cells.gridweb.data/gridworksheet/autofitcolumn#autofitcolumn)(int) | Autofits the column width. |
+| [AutoFitColumn](../../aspose.cells.gridweb.data/gridworksheet/autofitcolumn#autofitcolumn_1)(int, int, int) | Autofits the column width. |
+| [AutoFitRow](../../aspose.cells.gridweb.data/gridworksheet/autofitrow#autofitrow)(int) | Autofits the row height. |
+| [AutoFitRow](../../aspose.cells.gridweb.data/gridworksheet/autofitrow#autofitrow_1)(int, int, int) | Autofits the row height. |
+| [AutoFitRow](../../aspose.cells.gridweb.data/gridworksheet/autofitrow#autofitrow_2)(int, int, int, int) | Autofits row height in a rectangle range. |
+| [AutoFitRows](../../aspose.cells.gridweb.data/gridworksheet/autofitrows#autofitrows)() | Autofits all rows in this worksheet. |
+| [AutoFitRows](../../aspose.cells.gridweb.data/gridworksheet/autofitrows#autofitrows_1)(bool) | Autofits all rows in this worksheet. |
+| [AutoFitRows](../../aspose.cells.gridweb.data/gridworksheet/autofitrows#autofitrows_2)(int, int) | Autofits row height in a range. |
 | [CalculateFormula](../../aspose.cells.gridweb.data/gridworksheet/calculateformula)(string) | Calculates a formula. |
 | [CancelNewBindRow](../../aspose.cells.gridweb.data/gridworksheet/cancelnewbindrow)() | Cancels and deletes the new added bind row. |
 | [ClearComments](../../aspose.cells.gridweb.data/gridworksheet/clearcomments)() | Clears all comments in designer spreadsheet. |
@@ -75,14 +75,14 @@ public class GridWorksheet : Control, ISerializable
 | [Copy](../../aspose.cells.gridweb.data/gridworksheet/copy)(GridWorksheet) | Copies contents and formats from another worksheet. |
 | [CreateAutoGenratedColumns](../../aspose.cells.gridweb.data/gridworksheet/createautogenratedcolumns)() | After setting a datasource for the worksheet, call this method to generate the bind columns automatically. |
 | [CreateNewBindRow](../../aspose.cells.gridweb.data/gridworksheet/createnewbindrow)() | Creates a new bind row and bind to the datasource. |
-| [CreateSubtotal](../../aspose.cells.gridweb.data/gridworksheet/createsubtotal)(int, int, int, SubtotalFunction, int[]) | Creates subtotal in the sheet. |
-| [CreateSubtotal](../../aspose.cells.gridweb.data/gridworksheet/createsubtotal)(int, int, int, SubtotalFunction, int[], string, GridTableItemStyle, GridTableItemStyle, NumberType, string) | Creates subtotal in the sheet. |
+| [CreateSubtotal](../../aspose.cells.gridweb.data/gridworksheet/createsubtotal#createsubtotal)(int, int, int, SubtotalFunction, int[]) | Creates subtotal in the sheet. |
+| [CreateSubtotal](../../aspose.cells.gridweb.data/gridworksheet/createsubtotal#createsubtotal_1)(int, int, int, SubtotalFunction, int[], string, GridTableItemStyle, GridTableItemStyle, NumberType, string) | Creates subtotal in the sheet. |
 | override [DataBind](../../aspose.cells.gridweb.data/gridworksheet/databind)() | Bind the sheet to the DataSource. |
 | [DataSourceControlUpdate](../../aspose.cells.gridweb.data/gridworksheet/datasourcecontrolupdate)(AccessDataSource) | Bind the sheet to the DataSource. |
 | [DeleteBindRow](../../aspose.cells.gridweb.data/gridworksheet/deletebindrow)(int) | Deletes a bind row. |
 | [FilterString](../../aspose.cells.gridweb.data/gridworksheet/filterstring)(int, string) | Sets the filter for the column.notice we shall call AddAutoFilter before calling of filterString The filter criteria string. notice we use comma-&gt;"," as split char,so the cell value you want to filter shall not contains with comma filterString(10,"123,456") means column 10 shall contain 123 or 456, filterString(10,"123") means column10 shall contain 123 value split with comma,eg. 123,456,789 or abc |
-| [FreezePanes](../../aspose.cells.gridweb.data/gridworksheet/freezepanes)(string, int, int) | Freezes panes at the specified cell in the worksheet. |
-| [FreezePanes](../../aspose.cells.gridweb.data/gridworksheet/freezepanes)(int, int, int, int) | Freezes panes at the specified cell in the worksheet. |
+| [FreezePanes](../../aspose.cells.gridweb.data/gridworksheet/freezepanes#freezepanes_1)(string, int, int) | Freezes panes at the specified cell in the worksheet. |
+| [FreezePanes](../../aspose.cells.gridweb.data/gridworksheet/freezepanes#freezepanes)(int, int, int, int) | Freezes panes at the specified cell in the worksheet. |
 | [GetColumnCaption](../../aspose.cells.gridweb.data/gridworksheet/getcolumncaption)(int) | Gets the column caption. If the caption is not set, returns empty string. |
 | [GetColumnHeaderToolTip](../../aspose.cells.gridweb.data/gridworksheet/getcolumnheadertooltip)(int) | Gets the columnheader's tooltip text. |
 | [GetColumnReadonly](../../aspose.cells.gridweb.data/gridworksheet/getcolumnreadonly)(int) | Gets if a column is readonly. this is extended method of GridWeb specifically,it will not keep and take affect in actual excel file |

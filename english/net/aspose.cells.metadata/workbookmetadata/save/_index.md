@@ -1,12 +1,12 @@
 ---
 title: Save
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Save the modified metadata to the file.
 type: docs
 weight: 50
 url: /net/aspose.cells.metadata/workbookmetadata/save/
 ---
-## WorkbookMetadata.Save method (1 of 2)
+## Save(string) {#save_1}
 
 Save the modified metadata to the file.
 
@@ -26,7 +26,7 @@ public void Save(string fileName)
 
 ---
 
-## WorkbookMetadata.Save method (2 of 2)
+## Save(Stream) {#save}
 
 Save the modified metadata to the stream.
 

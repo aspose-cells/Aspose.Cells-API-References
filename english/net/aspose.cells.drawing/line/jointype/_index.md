@@ -1,7 +1,7 @@
 ---
 title: JoinType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the joining caps.
 type: docs
 weight: 160
 url: /net/aspose.cells.drawing/line/jointype/

@@ -1,7 +1,7 @@
 ---
 title: TextDirectionType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the direction of the text flow for this paragraph.
 type: docs
 weight: 990
 url: /net/aspose.cells.griddesktop/textdirectiontype/

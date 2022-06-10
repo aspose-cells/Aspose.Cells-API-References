@@ -1,9 +1,9 @@
 ---
 title: Scenario
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents an individual scenario.
 type: docs
-weight: 5560
+weight: 5600
 url: /net/aspose.cells/scenario/
 ---
 ## Scenario class

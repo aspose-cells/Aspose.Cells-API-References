@@ -1,9 +1,9 @@
 ---
 title: SlicerStyleType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specify the style of slicer view
 type: docs
-weight: 5690
+weight: 5730
 url: /net/aspose.cells.slicers/slicerstyletype/
 ---
 ## SlicerStyleType enumeration

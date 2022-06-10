@@ -1,7 +1,7 @@
 ---
 title: HasTopBevelData
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates if the shape has top bevel data.
 type: docs
 weight: 50
 url: /net/aspose.cells.drawing/format3d/hastopbeveldata/

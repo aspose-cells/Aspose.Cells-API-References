@@ -1,7 +1,7 @@
 ---
 title: EnableAsync
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets whether load cells data in asynchronous waysuggest to apply for one sheet with more than 10000 cells.
 type: docs
 weight: 240
 url: /net/aspose.cells.gridweb/mainweb/enableasync/

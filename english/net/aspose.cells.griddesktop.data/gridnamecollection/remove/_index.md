@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Remove an array of name
 type: docs
 weight: 60
 url: /net/aspose.cells.griddesktop.data/gridnamecollection/remove/

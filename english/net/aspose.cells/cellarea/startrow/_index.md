@@ -1,7 +1,7 @@
 ---
 title: StartRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or set the start row of this area.
 type: docs
 weight: 50
 url: /net/aspose.cells/cellarea/startrow/

@@ -1,7 +1,7 @@
 ---
 title: ShowTableStyleColumnStripes
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether column stripe formatting is applied.
 type: docs
 weight: 130
 url: /net/aspose.cells.tables/listobject/showtablestylecolumnstripes/

@@ -1,7 +1,7 @@
 ---
 title: CheckDataValid
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Check whether data is valid in the template file.
 type: docs
 weight: 40
 url: /net/aspose.cells/loadoptions/checkdatavalid/

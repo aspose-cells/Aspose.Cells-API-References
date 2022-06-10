@@ -1,7 +1,7 @@
 ---
 title: Workbook
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the Workbook object.
 type: docs
 weight: 40
 url: /net/aspose.cells/calculationcell/workbook/

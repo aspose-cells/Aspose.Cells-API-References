@@ -1,7 +1,7 @@
 ---
 title: IsEastAsianLineBreak
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies whether an East Asian word can be broken in half and wrapped onto the next line without a hyphen being added.
 type: docs
 weight: 70
 url: /net/aspose.cells.drawing.texts/textparagraph/iseastasianlinebreak/

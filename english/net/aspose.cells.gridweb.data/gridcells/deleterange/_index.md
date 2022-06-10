@@ -1,7 +1,7 @@
 ---
 title: DeleteRange
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Deletes a range of cells and shift cells according to the shift option.
 type: docs
 weight: 340
 url: /net/aspose.cells.gridweb.data/gridcells/deleterange/

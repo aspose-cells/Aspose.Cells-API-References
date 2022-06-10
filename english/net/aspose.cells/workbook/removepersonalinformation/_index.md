@@ -1,9 +1,9 @@
 ---
 title: RemovePersonalInformation
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Removes personal information.
 type: docs
-weight: 540
+weight: 570
 url: /net/aspose.cells/workbook/removepersonalinformation/
 ---
 ## Workbook.RemovePersonalInformation method

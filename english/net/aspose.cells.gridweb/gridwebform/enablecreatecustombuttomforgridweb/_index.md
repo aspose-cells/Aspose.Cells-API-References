@@ -1,7 +1,7 @@
 ---
 title: EnableCreateCustomButtomForGridWeb
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets whether to create a switching button in the GridWeb controls command bar.
 type: docs
 weight: 30
 url: /net/aspose.cells.gridweb/gridwebform/enablecreatecustombuttomforgridweb/

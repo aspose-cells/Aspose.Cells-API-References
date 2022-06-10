@@ -1,7 +1,7 @@
 ---
 title: LoadPresetStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Load a preset style.
 type: docs
 weight: 210
 url: /net/aspose.cells.gridweb/viewerstyletemplate/loadpresetstyle/

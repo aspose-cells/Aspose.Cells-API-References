@@ -1,12 +1,12 @@
 ---
 title: HtmlLoadOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Creates an options of loading the file.
 type: docs
 weight: 10
 url: /net/aspose.cells/htmlloadoptions/htmlloadoptions/
 ---
-## HtmlLoadOptions constructor (1 of 2)
+## HtmlLoadOptions() {#constructor}
 
 Creates an options of loading the file.
 
@@ -22,7 +22,7 @@ public HtmlLoadOptions()
 
 ---
 
-## HtmlLoadOptions constructor (2 of 2)
+## HtmlLoadOptions(LoadFormat) {#constructor_1}
 
 Creates an options of loading the file.
 

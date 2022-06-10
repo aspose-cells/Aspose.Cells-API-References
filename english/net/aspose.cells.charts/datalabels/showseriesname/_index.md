@@ -1,9 +1,9 @@
 ---
 title: ShowSeriesName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. True to show the series name. False to hide.
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.cells.charts/datalabels/showseriesname/
 ---
 ## DataLabels.ShowSeriesName property

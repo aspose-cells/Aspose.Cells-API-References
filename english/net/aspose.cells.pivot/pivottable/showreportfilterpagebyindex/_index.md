@@ -1,9 +1,9 @@
 ---
 title: ShowReportFilterPageByIndex
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Show all the report filter pages according to the position index in the PageFields
 type: docs
-weight: 990
+weight: 1000
 url: /net/aspose.cells.pivot/pivottable/showreportfilterpagebyindex/
 ---
 ## PivotTable.ShowReportFilterPageByIndex method

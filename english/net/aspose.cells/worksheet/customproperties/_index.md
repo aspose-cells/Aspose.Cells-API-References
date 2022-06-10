@@ -1,7 +1,7 @@
 ---
 title: CustomProperties
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets an object representing the identifier information associated with a worksheet.
 type: docs
 weight: 120
 url: /net/aspose.cells/worksheet/customproperties/

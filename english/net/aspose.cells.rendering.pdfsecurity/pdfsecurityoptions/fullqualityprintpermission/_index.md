@@ -1,7 +1,7 @@
 ---
 title: FullQualityPrintPermission
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Permission to print in high quality.
 type: docs
 weight: 80
 url: /net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/fullqualityprintpermission/

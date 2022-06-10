@@ -1,7 +1,7 @@
 ---
 title: NumberFormat
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the display format of numbers and dates.
 type: docs
 weight: 90
 url: /net/aspose.cells.griddesktop/style/numberformat/

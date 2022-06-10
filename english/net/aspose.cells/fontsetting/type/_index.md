@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the type of text node.
 type: docs
 weight: 60
 url: /net/aspose.cells/fontsetting/type/

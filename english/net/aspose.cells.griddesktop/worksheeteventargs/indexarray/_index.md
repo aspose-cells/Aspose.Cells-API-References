@@ -1,7 +1,7 @@
 ---
 title: IndexArray
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets row or column index array of worksheet
 type: docs
 weight: 20
 url: /net/aspose.cells.griddesktop/worksheeteventargs/indexarray/

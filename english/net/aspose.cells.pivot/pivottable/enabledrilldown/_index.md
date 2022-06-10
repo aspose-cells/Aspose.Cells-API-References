@@ -1,7 +1,7 @@
 ---
 title: EnableDrilldown
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets whether drilldown is enabled.
 type: docs
 weight: 180
 url: /net/aspose.cells.pivot/pivottable/enabledrilldown/

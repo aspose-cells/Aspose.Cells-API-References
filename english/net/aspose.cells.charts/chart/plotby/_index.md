@@ -1,7 +1,7 @@
 ---
 title: PlotBy
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets whether plot by row or column.
 type: docs
 weight: 290
 url: /net/aspose.cells.charts/chart/plotby/

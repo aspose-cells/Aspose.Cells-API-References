@@ -1,7 +1,7 @@
 ---
 title: MoveTo
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Moves the sheet to another location in the spreadsheet.
 type: docs
 weight: 900
 url: /net/aspose.cells.griddesktop/worksheet/moveto/

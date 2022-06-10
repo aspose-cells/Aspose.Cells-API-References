@@ -1,9 +1,9 @@
 ---
 title: PictureCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates a collection of Picture./picture objects.
 type: docs
-weight: 2480
+weight: 2500
 url: /net/aspose.cells.drawing/picturecollection/
 ---
 ## PictureCollection class
@@ -27,16 +27,16 @@ public class PictureCollection : CollectionBase<Picture>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.drawing/picturecollection/add)(int, int, Stream) | Adds a picture to the collection. |
-| [Add](../../aspose.cells.drawing/picturecollection/add)(int, int, string) | Adds a picture to the collection. |
-| [Add](../../aspose.cells.drawing/picturecollection/add)(int, int, int, int, Stream) | Adds a picture to the collection. |
-| [Add](../../aspose.cells.drawing/picturecollection/add)(int, int, int, int, string) | Adds a picture to the collection. |
-| [Add](../../aspose.cells.drawing/picturecollection/add)(int, int, Stream, int, int) | Adds a picture to the collection. |
-| [Add](../../aspose.cells.drawing/picturecollection/add)(int, int, string, int, int) | Adds a picture to the collection. |
+| [Add](../../aspose.cells.drawing/picturecollection/add#add_2)(int, int, Stream) | Adds a picture to the collection. |
+| [Add](../../aspose.cells.drawing/picturecollection/add#add_4)(int, int, string) | Adds a picture to the collection. |
+| [Add](../../aspose.cells.drawing/picturecollection/add#add)(int, int, int, int, Stream) | Adds a picture to the collection. |
+| [Add](../../aspose.cells.drawing/picturecollection/add#add_1)(int, int, int, int, string) | Adds a picture to the collection. |
+| [Add](../../aspose.cells.drawing/picturecollection/add#add_3)(int, int, Stream, int, int) | Adds a picture to the collection. |
+| [Add](../../aspose.cells.drawing/picturecollection/add#add_5)(int, int, string, int, int) | Adds a picture to the collection. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Picture) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Picture, IComparer&lt;Picture&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Picture, IComparer&lt;Picture&gt;) |  |
-| [Clear](../../aspose.cells.drawing/picturecollection/clear)() | Clear all pictures. (2 methods) |
+| [Clear](../../aspose.cells.drawing/picturecollection/clear#clear)() | Clear all pictures. (2 methods) |
 | [Contains](../../aspose.cells/collectionbase`1/contains)(Picture) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Picture[]) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Picture[], int) |  |
@@ -58,7 +58,7 @@ public class PictureCollection : CollectionBase<Picture>
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Picture) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Picture, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Picture, int, int) |  |
-| [RemoveAt](../../aspose.cells.drawing/picturecollection/removeat)(int) | Remove shapes at the specific index (2 methods) |
+| [RemoveAt](../../aspose.cells.drawing/picturecollection/removeat#removeat)(int) | Remove shapes at the specific index (2 methods) |
 
 ### Examples
 

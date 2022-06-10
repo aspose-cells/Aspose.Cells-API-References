@@ -1,7 +1,7 @@
 ---
 title: ExportToJsonStringBuilder
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get json from workbook
 type: docs
 weight: 70
 url: /net/aspose.cells.gridjs/gridjsworkbook/exporttojsonstringbuilder/

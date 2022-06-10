@@ -1,7 +1,7 @@
 ---
 title: ToBool
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns the property value as bool.
 type: docs
 weight: 70
 url: /net/aspose.cells.properties/documentproperty/tobool/

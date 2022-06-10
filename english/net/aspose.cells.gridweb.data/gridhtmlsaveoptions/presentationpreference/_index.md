@@ -1,7 +1,7 @@
 ---
 title: PresentationPreference
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicating if html or mht file is presentation preference.The default value is false.if you want to get more beautiful presentationplease set the value to true.
 type: docs
 weight: 180
 url: /net/aspose.cells.gridweb.data/gridhtmlsaveoptions/presentationpreference/

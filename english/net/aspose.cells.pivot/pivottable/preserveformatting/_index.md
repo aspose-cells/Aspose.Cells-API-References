@@ -1,7 +1,7 @@
 ---
 title: PreserveFormatting
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated.
 type: docs
 weight: 460
 url: /net/aspose.cells.pivot/pivottable/preserveformatting/

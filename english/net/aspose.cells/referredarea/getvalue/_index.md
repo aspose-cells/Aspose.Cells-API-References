@@ -1,12 +1,12 @@
 ---
 title: GetValue
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets cell value with given offset from the top-left of this area.
 type: docs
 weight: 90
 url: /net/aspose.cells/referredarea/getvalue/
 ---
-## ReferredArea.GetValue method (1 of 2)
+## GetValue(int, int) {#getvalue}
 
 Gets cell value with given offset from the top-left of this area.
 
@@ -31,7 +31,7 @@ public object GetValue(int rowOffset, int colOffset)
 
 ---
 
-## ReferredArea.GetValue method (2 of 2)
+## GetValue(int, int, bool) {#getvalue_1}
 
 Gets cell value with given offset from the top-left of this area.
 

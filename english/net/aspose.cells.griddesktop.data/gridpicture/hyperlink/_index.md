@@ -1,7 +1,7 @@
 ---
 title: Hyperlink
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the hyperlink of the shape.
 type: docs
 weight: 150
 url: /net/aspose.cells.griddesktop.data/gridpicture/hyperlink/

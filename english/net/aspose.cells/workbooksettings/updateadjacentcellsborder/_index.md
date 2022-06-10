@@ -1,9 +1,9 @@
 ---
 title: UpdateAdjacentCellsBorder
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether update adjacent cells border.
 type: docs
-weight: 450
+weight: 580
 url: /net/aspose.cells/workbooksettings/updateadjacentcellsborder/
 ---
 ## WorkbookSettings.UpdateAdjacentCellsBorder property

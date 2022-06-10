@@ -1,7 +1,7 @@
 ---
 title: Replace
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Replace the text.
 type: docs
 weight: 140
 url: /net/aspose.cells.drawing.texts/fontsettingcollection/replace/

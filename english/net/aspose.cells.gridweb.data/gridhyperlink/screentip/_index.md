@@ -1,7 +1,7 @@
 ---
 title: ScreenTip
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns or sets the ScreenTip text for the specified hyperlink.
 type: docs
 weight: 70
 url: /net/aspose.cells.gridweb.data/gridhyperlink/screentip/

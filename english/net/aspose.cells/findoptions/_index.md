@@ -1,9 +1,9 @@
 ---
 title: FindOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents find options.
 type: docs
-weight: 3460
+weight: 3490
 url: /net/aspose.cells/findoptions/
 ---
 ## FindOptions class
@@ -26,12 +26,14 @@ public class FindOptions
 | --- | --- |
 | [CaseSensitive](../../aspose.cells/findoptions/casesensitive) { get; set; } | Indicates if the searched string is case sensitive. |
 | [ConvertNumericData](../../aspose.cells/findoptions/convertnumericdata) { get; set; } | Gets or sets a value that indicates whether converting the searched string value to numeric data. |
+| [IsCaseSensitive](../../aspose.cells/findoptions/iscasesensitive) { get; set; } | Indicates if the searched string is case sensitive. |
 | [IsRangeSet](../../aspose.cells/findoptions/israngeset) { get; } | Indicates whether the searched range is set. |
 | [LookAtType](../../aspose.cells/findoptions/lookattype) { get; set; } | Look at type. |
 | [LookInType](../../aspose.cells/findoptions/lookintype) { get; set; } | Look in type. |
 | [RegexKey](../../aspose.cells/findoptions/regexkey) { get; set; } | Indicates whether the searched key is regex. If true then the searched key will be taken as regex. |
 | [SeachOrderByRows](../../aspose.cells/findoptions/seachorderbyrows) { get; set; } | Indicates whether search order by rows or columns. |
 | [SearchBackward](../../aspose.cells/findoptions/searchbackward) { get; set; } | Whether search backward for cells. |
+| [SearchNext](../../aspose.cells/findoptions/searchnext) { get; set; } | Search order. True: search next. False: search previous. |
 | [Style](../../aspose.cells/findoptions/style) { get; set; } | The format to search for. |
 | [ValueTypeSensitive](../../aspose.cells/findoptions/valuetypesensitive) { get; set; } | Indicates whether searched cell value type should be same with the searched key. |
 

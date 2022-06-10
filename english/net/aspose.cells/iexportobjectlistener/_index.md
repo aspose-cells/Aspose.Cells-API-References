@@ -1,9 +1,9 @@
 ---
 title: IExportObjectListener
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Allows users to manipulate objects while exporting.
 type: docs
-weight: 3780
+weight: 3820
 url: /net/aspose.cells/iexportobjectlistener/
 ---
 ## IExportObjectListener interface

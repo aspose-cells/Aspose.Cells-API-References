@@ -1,9 +1,9 @@
 ---
 title: GetGrandTotalName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the grand total name of the function.
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.cells/globalizationsettings/getgrandtotalname/
 ---
 ## GlobalizationSettings.GetGrandTotalName method

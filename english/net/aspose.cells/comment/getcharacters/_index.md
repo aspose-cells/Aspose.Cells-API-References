@@ -1,7 +1,7 @@
 ---
 title: GetCharacters
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns all Characters objects that represents a range of characters within the comment text.
 type: docs
 weight: 230
 url: /net/aspose.cells/comment/getcharacters/

@@ -1,7 +1,7 @@
 ---
 title: FilteredPaging
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets whether to enable the paging after data filteredwill take affect when EnablePaging is true.
 type: docs
 weight: 340
 url: /net/aspose.cells.gridweb/mainweb/filteredpaging/

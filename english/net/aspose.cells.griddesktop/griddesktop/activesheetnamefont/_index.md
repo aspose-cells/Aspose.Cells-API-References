@@ -1,7 +1,7 @@
 ---
 title: ActiveSheetNameFont
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the active sheet displaying font of sheet bar.
 type: docs
 weight: 30
 url: /net/aspose.cells.griddesktop/griddesktop/activesheetnamefont/

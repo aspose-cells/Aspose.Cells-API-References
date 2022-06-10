@@ -1,7 +1,7 @@
 ---
 title: JoinType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the line join type.
 type: docs
 weight: 100
 url: /net/aspose.cells.drawing/lineformat/jointype/

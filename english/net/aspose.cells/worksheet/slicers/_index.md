@@ -1,7 +1,7 @@
 ---
 title: Slicers
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get the Slicer collection in the worksheet
 type: docs
 weight: 430
 url: /net/aspose.cells/worksheet/slicers/

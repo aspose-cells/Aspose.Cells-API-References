@@ -1,7 +1,7 @@
 ---
 title: UndoManager
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the object that manages the undo/redo operations.
 type: docs
 weight: 1030
 url: /net/aspose.cells.griddesktop/undomanager/

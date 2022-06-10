@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the type of sorting.
 type: docs
 weight: 60
 url: /net/aspose.cells/datasorterkey/type/

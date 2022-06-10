@@ -1,7 +1,7 @@
 ---
 title: HAlignment
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets horizontal alignment attribute.
 type: docs
 weight: 70
 url: /net/aspose.cells.griddesktop/style/halignment/

@@ -1,7 +1,7 @@
 ---
 title: Year
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the year of the grouped date time.
 type: docs
 weight: 90
 url: /net/aspose.cells/datetimegroupitem/year/

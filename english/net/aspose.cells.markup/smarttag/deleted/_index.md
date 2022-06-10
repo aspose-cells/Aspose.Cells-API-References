@@ -1,7 +1,7 @@
 ---
 title: Deleted
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the smart tag is deleted.
 type: docs
 weight: 10
 url: /net/aspose.cells.markup/smarttag/deleted/

@@ -1,7 +1,7 @@
 ---
 title: ArgbColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the color with a 32-bit ARGB value.
 type: docs
 weight: 10
 url: /net/aspose.cells/font/argbcolor/

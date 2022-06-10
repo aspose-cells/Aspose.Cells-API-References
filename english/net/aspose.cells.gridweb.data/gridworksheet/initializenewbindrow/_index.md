@@ -1,7 +1,7 @@
 ---
 title: InitializeNewBindRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Occurs when the worksheet has created a new bind row and need to initialize it.
 type: docs
 weight: 360
 url: /net/aspose.cells.gridweb.data/gridworksheet/initializenewbindrow/

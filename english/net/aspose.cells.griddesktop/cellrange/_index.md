@@ -1,7 +1,7 @@
 ---
 title: CellRange
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the object that represents a range of cells within a spreadsheet.
 type: docs
 weight: 190
 url: /net/aspose.cells.griddesktop/cellrange/
@@ -18,9 +18,9 @@ public class CellRange
 
 | Name | Description |
 | --- | --- |
-| [CellRange](cellrange)() | Default Constructor. |
-| [CellRange](cellrange)(string, string) | CellRange Constructor. |
-| [CellRange](cellrange)(int, int, int, int) | CellRange Constructor. |
+| [CellRange](cellrange#constructor)() | Default Constructor. |
+| [CellRange](cellrange#constructor_2)(string, string) | CellRange Constructor. |
+| [CellRange](cellrange#constructor_1)(int, int, int, int) | CellRange Constructor. |
 
 ## Properties
 

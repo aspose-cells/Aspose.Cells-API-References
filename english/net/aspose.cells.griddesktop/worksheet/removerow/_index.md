@@ -1,7 +1,7 @@
 ---
 title: RemoveRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Removes a row at the specified index.
 type: docs
 weight: 940
 url: /net/aspose.cells.griddesktop/worksheet/removerow/

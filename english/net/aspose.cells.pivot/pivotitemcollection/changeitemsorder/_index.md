@@ -1,7 +1,7 @@
 ---
 title: ChangeitemsOrder
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Directly changes the orders of the two items.
 type: docs
 weight: 30
 url: /net/aspose.cells.pivot/pivotitemcollection/changeitemsorder/

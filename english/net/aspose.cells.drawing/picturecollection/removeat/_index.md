@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Remove shapes at the specific index
 type: docs
 weight: 40
 url: /net/aspose.cells.drawing/picturecollection/removeat/

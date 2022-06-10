@@ -1,12 +1,12 @@
 ---
 title: AddShapeInChart
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Add a shape to chart .All unit is 1/4000 of chart area.
 type: docs
 weight: 270
 url: /net/aspose.cells.drawing/shapecollection/addshapeinchart/
 ---
-## ShapeCollection.AddShapeInChart method (1 of 2)
+## AddShapeInChart(MsoDrawingType, PlacementType, int, int, int, int, byte[]) {#addshapeinchart_1}
 
 Add a shape to chart .All unit is 1/4000 of chart area.
 
@@ -36,7 +36,7 @@ public Shape AddShapeInChart(MsoDrawingType type, PlacementType placement, int l
 
 ---
 
-## ShapeCollection.AddShapeInChart method (2 of 2)
+## AddShapeInChart(MsoDrawingType, PlacementType, int, int, int, int) {#addshapeinchart}
 
 Add a shape to chart .All unit is 1/4000 of chart area.
 

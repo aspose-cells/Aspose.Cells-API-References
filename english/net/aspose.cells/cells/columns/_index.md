@@ -1,7 +1,7 @@
 ---
 title: Columns
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the collection of Columnaspose.cells/column objects that represents the individual columns in this worksheet.
 type: docs
 weight: 10
 url: /net/aspose.cells/cells/columns/

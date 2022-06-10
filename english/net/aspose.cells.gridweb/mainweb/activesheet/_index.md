@@ -1,7 +1,7 @@
 ---
 title: ActiveSheet
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the active sheet
 type: docs
 weight: 70
 url: /net/aspose.cells.gridweb/mainweb/activesheet/

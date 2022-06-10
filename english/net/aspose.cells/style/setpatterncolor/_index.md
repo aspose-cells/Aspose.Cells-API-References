@@ -1,9 +1,9 @@
 ---
 title: SetPatternColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the background color.
 type: docs
-weight: 380
+weight: 390
 url: /net/aspose.cells/style/setpatterncolor/
 ---
 ## Style.SetPatternColor method

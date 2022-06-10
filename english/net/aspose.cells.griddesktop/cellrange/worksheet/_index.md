@@ -1,7 +1,7 @@
 ---
 title: Worksheet
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets worksheet object.
 type: docs
 weight: 90
 url: /net/aspose.cells.griddesktop/cellrange/worksheet/

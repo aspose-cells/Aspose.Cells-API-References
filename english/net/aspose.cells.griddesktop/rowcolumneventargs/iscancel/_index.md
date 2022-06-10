@@ -1,7 +1,7 @@
 ---
 title: IsCancel
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: shall we cancel the operation.
 type: docs
 weight: 20
 url: /net/aspose.cells.griddesktop/rowcolumneventargs/iscancel/

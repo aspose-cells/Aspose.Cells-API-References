@@ -1,7 +1,7 @@
 ---
 title: SetSeriesNames
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the name of all the serieses in the chart.
 type: docs
 weight: 110
 url: /net/aspose.cells.charts/seriescollection/setseriesnames/

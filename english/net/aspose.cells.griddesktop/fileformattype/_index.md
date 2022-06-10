@@ -1,7 +1,7 @@
 ---
 title: FileFormatType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Enumerates spreadsheet file format types
 type: docs
 weight: 810
 url: /net/aspose.cells.griddesktop/fileformattype/

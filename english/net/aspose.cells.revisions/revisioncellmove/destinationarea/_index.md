@@ -1,7 +1,7 @@
 ---
 title: DestinationArea
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the destination area.
 type: docs
 weight: 10
 url: /net/aspose.cells.revisions/revisioncellmove/destinationarea/

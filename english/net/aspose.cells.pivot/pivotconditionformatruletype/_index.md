@@ -1,9 +1,9 @@
 ---
 title: PivotConditionFormatRuleType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents PivotTable condition formatting rule type.
 type: docs
-weight: 4500
+weight: 4540
 url: /net/aspose.cells.pivot/pivotconditionformatruletype/
 ---
 ## PivotConditionFormatRuleType enumeration

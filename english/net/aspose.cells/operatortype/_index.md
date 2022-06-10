@@ -1,9 +1,9 @@
 ---
 title: OperatorType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the operator type of conditional format and data validation.
 type: docs
-weight: 4370
+weight: 4410
 url: /net/aspose.cells/operatortype/
 ---
 ## OperatorType enumeration

@@ -1,7 +1,7 @@
 ---
 title: SessionStorePath
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the session cache store path when session mode is File or ViewState etc gridweb.SessionStorePathc/mytempdir/session then it will store session data in c/mytempdir/session
 type: docs
 weight: 830
 url: /net/aspose.cells.gridweb/mainweb/sessionstorepath/

@@ -1,7 +1,7 @@
 ---
 title: ScriptOffset
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the script offsetin unit of percentage
 type: docs
 weight: 140
 url: /net/aspose.cells/font/scriptoffset/

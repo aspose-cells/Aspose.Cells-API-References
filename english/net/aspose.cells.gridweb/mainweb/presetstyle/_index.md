@@ -1,7 +1,7 @@
 ---
 title: PresetStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the preset style.
 type: docs
 weight: 730
 url: /net/aspose.cells.gridweb/mainweb/presetstyle/

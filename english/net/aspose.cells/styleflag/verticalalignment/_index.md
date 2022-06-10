@@ -1,7 +1,7 @@
 ---
 title: VerticalAlignment
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Vertical alignment setting will be applied.
 type: docs
 weight: 300
 url: /net/aspose.cells/styleflag/verticalalignment/

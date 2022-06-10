@@ -1,7 +1,7 @@
 ---
 title: DragToRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the specified field can be dragged to the row position. The default value is true.
 type: docs
 weight: 150
 url: /net/aspose.cells.pivot/pivotfield/dragtorow/

@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the Cell value where the function is in.
 type: docs
 weight: 90
 url: /net/aspose.cells.gridjs/gridcalculationdata/value/

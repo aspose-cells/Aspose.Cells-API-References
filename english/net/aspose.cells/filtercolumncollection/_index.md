@@ -1,9 +1,9 @@
 ---
 title: FilterColumnCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: A collection of Filter objects that represents all the filters in an autofiltered range.
 type: docs
-weight: 3430
+weight: 3460
 url: /net/aspose.cells/filtercolumncollection/
 ---
 ## FilterColumnCollection class
@@ -53,7 +53,7 @@ public class FilterColumnCollection : CollectionBase<FilterColumn>
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(FilterColumn) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(FilterColumn, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(FilterColumn, int, int) |  |
-| [RemoveAt](../../aspose.cells/filtercolumncollection/removeat)(int) |  (2 methods) |
+| [RemoveAt](../../aspose.cells/filtercolumncollection/removeat#removeat)(int) |  (2 methods) |
 
 ### See Also
 

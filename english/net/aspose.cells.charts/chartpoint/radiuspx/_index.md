@@ -1,7 +1,7 @@
 ---
 title: RadiusPx
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the radius of bubble pie or doughnut in units of pixels after calls Chart.Calculate method.
 type: docs
 weight: 180
 url: /net/aspose.cells.charts/chartpoint/radiuspx/

@@ -1,9 +1,9 @@
 ---
 title: ContentTypePropertyCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: A collection of ContentTypeProperty./contenttypeproperty objects that represent additional information.
 type: docs
-weight: 4810
+weight: 4850
 url: /net/aspose.cells.properties/contenttypepropertycollection/
 ---
 ## ContentTypePropertyCollection class
@@ -27,8 +27,8 @@ public class ContentTypePropertyCollection : CollectionBase<ContentTypeProperty>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.properties/contenttypepropertycollection/add)(string, string) | Adds content type property information. |
-| [Add](../../aspose.cells.properties/contenttypepropertycollection/add)(string, string, string) | Adds content type property information. |
+| [Add](../../aspose.cells.properties/contenttypepropertycollection/add#add)(string, string) | Adds content type property information. |
+| [Add](../../aspose.cells.properties/contenttypepropertycollection/add#add_1)(string, string, string) | Adds content type property information. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ContentTypeProperty) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ContentTypeProperty, IComparer&lt;ContentTypeProperty&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, ContentTypeProperty, IComparer&lt;ContentTypeProperty&gt;) |  |

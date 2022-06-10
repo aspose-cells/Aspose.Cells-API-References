@@ -1,7 +1,7 @@
 ---
 title: AddFloatingChart
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a chart to the collection.
 type: docs
 weight: 30
 url: /net/aspose.cells.charts/chartcollection/addfloatingchart/

@@ -1,7 +1,7 @@
 ---
 title: HasRange
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether this has range.
 type: docs
 weight: 50
 url: /net/aspose.cells/unionrange/hasrange/

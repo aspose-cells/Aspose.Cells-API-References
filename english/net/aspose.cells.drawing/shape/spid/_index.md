@@ -1,9 +1,9 @@
 ---
 title: Spid
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies an optional string that an application can use to Identify the particular shape.
 type: docs
-weight: 610
+weight: 660
 url: /net/aspose.cells.drawing/shape/spid/
 ---
 ## Shape.Spid property

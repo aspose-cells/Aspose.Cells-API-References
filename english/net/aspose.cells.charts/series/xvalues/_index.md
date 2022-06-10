@@ -1,9 +1,9 @@
 ---
 title: XValues
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the x values of the chart series.
 type: docs
-weight: 490
+weight: 500
 url: /net/aspose.cells.charts/series/xvalues/
 ---
 ## Series.XValues property

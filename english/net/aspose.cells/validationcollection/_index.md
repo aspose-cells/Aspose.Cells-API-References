@@ -1,9 +1,9 @@
 ---
 title: ValidationCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents data validation collection.
 type: docs
-weight: 6210
+weight: 6250
 url: /net/aspose.cells/validationcollection/
 ---
 ## ValidationCollection class
@@ -27,7 +27,8 @@ public class ValidationCollection : CollectionBase<Validation>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells/validationcollection/add)(CellArea) | Adds a data validation to the collection. |
+| [Add](../../aspose.cells/validationcollection/add#add)() | Adds a data validation to the collection. |
+| [Add](../../aspose.cells/validationcollection/add#add_1)(CellArea) | Adds a data validation to the collection. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Validation) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Validation, IComparer&lt;Validation&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Validation, IComparer&lt;Validation&gt;) |  |

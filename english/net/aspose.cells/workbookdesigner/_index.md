@@ -1,9 +1,9 @@
 ---
 title: WorkbookDesigner
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the object that represents a designer spreadsheet.
 type: docs
-weight: 6480
+weight: 6520
 url: /net/aspose.cells/workbookdesigner/
 ---
 ## WorkbookDesigner class
@@ -18,8 +18,8 @@ public class WorkbookDesigner
 
 | Name | Description |
 | --- | --- |
-| [WorkbookDesigner](workbookdesigner)() | Initializes a new instance of the [`WorkbookDesigner`](../workbookdesigner) class. |
-| [WorkbookDesigner](workbookdesigner)(Workbook) | Initializes a new instance of the [`WorkbookDesigner`](../workbookdesigner) class. |
+| [WorkbookDesigner](workbookdesigner#constructor)() | Initializes a new instance of the [`WorkbookDesigner`](../workbookdesigner) class. |
+| [WorkbookDesigner](workbookdesigner#constructor_1)(Workbook) | Initializes a new instance of the [`WorkbookDesigner`](../workbookdesigner) class. |
 
 ## Properties
 
@@ -39,18 +39,18 @@ public class WorkbookDesigner
 | --- | --- |
 | [ClearDataSource](../../aspose.cells/workbookdesigner/cleardatasource)() | Clears all data sources. |
 | [GetSmartMarkers](../../aspose.cells/workbookdesigner/getsmartmarkers)() | Returns a collection of smart markers in a spreadsheet. |
-| [Process](../../aspose.cells/workbookdesigner/process)() | Processes the smart markers and populates the data source values. |
-| [Process](../../aspose.cells/workbookdesigner/process)(bool) | Processes the smart markers and populates the data source values. |
-| [Process](../../aspose.cells/workbookdesigner/process)(int, bool) | Processes the smart markers and populates the data source values. |
-| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource)(DataSet) | Sets data source of a DataSet object. |
-| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource)(DataTable) | Sets data source of a DataTable object. |
-| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource)(DataView) | Sets data source of a DataView object. |
-| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource)(OleDbConnection) | Sets data source of a OleDbConnection object. |
-| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource)(SqlConnection) | Sets data source of a SqlConnection object. |
-| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource)(string, DataView) | Sets data source of a DataView object and binds it to a data source name. |
-| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource)(string, ICellsDataTable) | Sets data source of a [`ICellsDataTable`](../icellsdatatable) object. |
-| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource)(string, object) | Sets data binding to a variable. |
-| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource)(string, IDataReader, int) | Sets data source of a IDataReader object. |
+| [Process](../../aspose.cells/workbookdesigner/process#process)() | Processes the smart markers and populates the data source values. |
+| [Process](../../aspose.cells/workbookdesigner/process#process_1)(bool) | Processes the smart markers and populates the data source values. |
+| [Process](../../aspose.cells/workbookdesigner/process#process_2)(int, bool) | Processes the smart markers and populates the data source values. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource)(DataSet) | Sets data source of a DataSet object. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource_1)(DataTable) | Sets data source of a DataTable object. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource_2)(DataView) | Sets data source of a DataView object. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource_3)(OleDbConnection) | Sets data source of a OleDbConnection object. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource_4)(SqlConnection) | Sets data source of a SqlConnection object. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource_6)(string, DataView) | Sets data source of a DataView object and binds it to a data source name. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource_5)(string, ICellsDataTable) | Sets data source of a [`ICellsDataTable`](../icellsdatatable) object. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource_8)(string, object) | Sets data binding to a variable. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource_7)(string, IDataReader, int) | Sets data source of a IDataReader object. |
 
 ### Examples
 

@@ -1,9 +1,9 @@
 ---
 title: SheetRender
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a worksheet render which can render worksheet to various images such as BMP PNG JPEG TIFF.. The constructor of this class  must be used after modification of pagesetup cell style.
 type: docs
-weight: 5250
+weight: 5290
 url: /net/aspose.cells.rendering/sheetrender/
 ---
 ## SheetRender class
@@ -32,18 +32,20 @@ public class SheetRender
 | Name | Description |
 | --- | --- |
 | [CustomPrint](../../aspose.cells.rendering/sheetrender/customprint)(bool, PrintPageEventArgs) | Client can control page setting of printer when print each page using this function. |
+| [GetPageSize](../../aspose.cells.rendering/sheetrender/getpagesize)(int) | Get page size of output image. The size unit is in pixel. |
 | [GetPageSizeInch](../../aspose.cells.rendering/sheetrender/getpagesizeinch)(int) | Get page size in inch of output image. |
-| [ToImage](../../aspose.cells.rendering/sheetrender/toimage)(int) | Render certain page to a Bitmap object. |
-| [ToImage](../../aspose.cells.rendering/sheetrender/toimage)(int, Stream) | Render certain page to a stream. |
-| [ToImage](../../aspose.cells.rendering/sheetrender/toimage)(int, string) | Render certain page to a file. |
-| [ToImage](../../aspose.cells.rendering/sheetrender/toimage)(int, Graphics, float, float) | Render certain page to a Graphics |
-| [ToImage](../../aspose.cells.rendering/sheetrender/toimage)(int, Graphics, float, float, float, float) | Render certain page to a Graphics |
-| [ToPrinter](../../aspose.cells.rendering/sheetrender/toprinter)(PrinterSettings) | Render worksheet to Printer |
-| [ToPrinter](../../aspose.cells.rendering/sheetrender/toprinter)(string) | Render worksheet to Printer |
-| [ToPrinter](../../aspose.cells.rendering/sheetrender/toprinter)(PrinterSettings, string) | Render worksheet to Printer |
-| [ToPrinter](../../aspose.cells.rendering/sheetrender/toprinter)(string, string) | Render worksheet to Printer |
-| [ToTiff](../../aspose.cells.rendering/sheetrender/totiff)(Stream) | Render whole worksheet as Tiff Image to stream. |
-| [ToTiff](../../aspose.cells.rendering/sheetrender/totiff)(string) | Render whole worksheet as Tiff Image to a file. |
+| [ToImage](../../aspose.cells.rendering/sheetrender/toimage#toimage)(int) | Render certain page to a Bitmap object. |
+| [ToImage](../../aspose.cells.rendering/sheetrender/toimage#toimage_3)(int, Stream) | Render certain page to a stream. |
+| [ToImage](../../aspose.cells.rendering/sheetrender/toimage#toimage_4)(int, string) | Render certain page to a file. |
+| [ToImage](../../aspose.cells.rendering/sheetrender/toimage#toimage_1)(int, Graphics, float, float) | Render certain page to a Graphics |
+| [ToImage](../../aspose.cells.rendering/sheetrender/toimage#toimage_2)(int, Graphics, float, float, float, float) | Render certain page to a Graphics |
+| [ToPrinter](../../aspose.cells.rendering/sheetrender/toprinter#toprinter)(PrinterSettings) | Render worksheet to Printer |
+| [ToPrinter](../../aspose.cells.rendering/sheetrender/toprinter#toprinter_2)(string) | Render worksheet to Printer |
+| [ToPrinter](../../aspose.cells.rendering/sheetrender/toprinter#toprinter_1)(PrinterSettings, string) | Render worksheet to Printer |
+| [ToPrinter](../../aspose.cells.rendering/sheetrender/toprinter#toprinter_4)(string, string) | Render worksheet to Printer |
+| [ToPrinter](../../aspose.cells.rendering/sheetrender/toprinter#toprinter_3)(string, int, int) | Render worksheet to Printer |
+| [ToTiff](../../aspose.cells.rendering/sheetrender/totiff#totiff)(Stream) | Render whole worksheet as Tiff Image to stream. |
+| [ToTiff](../../aspose.cells.rendering/sheetrender/totiff#totiff_1)(string) | Render whole worksheet as Tiff Image to a file. |
 
 ### See Also
 

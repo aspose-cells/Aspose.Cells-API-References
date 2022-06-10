@@ -1,7 +1,7 @@
 ---
 title: TabStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the style of the tab bar.
 type: docs
 weight: 1010
 url: /net/aspose.cells.gridweb/mainweb/tabstyle/

@@ -1,12 +1,12 @@
 ---
 title: DeleteBlankColumns
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Delete all blank columns which do not contain any data.
 type: docs
 weight: 500
 url: /net/aspose.cells/cells/deleteblankcolumns/
 ---
-## Cells.DeleteBlankColumns method (1 of 2)
+## DeleteBlankColumns() {#deleteblankcolumns}
 
 Delete all blank columns which do not contain any data.
 
@@ -22,7 +22,7 @@ public void DeleteBlankColumns()
 
 ---
 
-## Cells.DeleteBlankColumns method (2 of 2)
+## DeleteBlankColumns(DeleteOptions) {#deleteblankcolumns_1}
 
 Delete all blank columns which do not contain any data.
 

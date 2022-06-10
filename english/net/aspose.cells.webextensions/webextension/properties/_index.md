@@ -1,7 +1,7 @@
 ---
 title: Properties
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets all properties of web extension.
 type: docs
 weight: 50
 url: /net/aspose.cells.webextensions/webextension/properties/

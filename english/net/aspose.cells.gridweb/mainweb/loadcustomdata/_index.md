@@ -1,7 +1,7 @@
 ---
 title: LoadCustomData
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Fires when the controls SessionMode is set to Custom and needs to load sheet data. You may handle this event in Custom Session mode to load sheet data from file or database.
 type: docs
 weight: 1250
 url: /net/aspose.cells.gridweb/mainweb/loadcustomdata/

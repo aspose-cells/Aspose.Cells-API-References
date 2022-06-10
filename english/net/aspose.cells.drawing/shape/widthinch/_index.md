@@ -1,9 +1,9 @@
 ---
 title: WidthInch
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the width of the shape in unit of inch.
 type: docs
-weight: 880
+weight: 940
 url: /net/aspose.cells.drawing/shape/widthinch/
 ---
 ## Shape.WidthInch property

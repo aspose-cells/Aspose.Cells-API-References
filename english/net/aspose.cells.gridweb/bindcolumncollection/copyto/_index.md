@@ -1,7 +1,7 @@
 ---
 title: CopyTo
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Copies to an array.
 type: docs
 weight: 100
 url: /net/aspose.cells.gridweb/bindcolumncollection/copyto/

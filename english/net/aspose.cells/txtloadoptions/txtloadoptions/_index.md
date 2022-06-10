@@ -1,12 +1,12 @@
 ---
 title: TxtLoadOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Creates the options for loading text file.
 type: docs
 weight: 10
 url: /net/aspose.cells/txtloadoptions/txtloadoptions/
 ---
-## TxtLoadOptions constructor (1 of 2)
+## TxtLoadOptions() {#constructor}
 
 Creates the options for loading text file.
 
@@ -26,7 +26,7 @@ The default load file type is CSV .
 
 ---
 
-## TxtLoadOptions constructor (2 of 2)
+## TxtLoadOptions(LoadFormat) {#constructor_1}
 
 Creates the options for loading text file.
 

@@ -1,9 +1,9 @@
 ---
 title: MainWeb
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Parent class of GridWeb control.Internal use only.
 type: docs
-weight: 850
+weight: 1060
 url: /net/aspose.cells.gridweb/mainweb/
 ---
 ## MainWeb class
@@ -143,29 +143,29 @@ public class MainWeb : ExtWebControl, INamingContainer, IPostBackDataHandler,
 | [CalculateFormula](../../aspose.cells.gridweb/mainweb/calculateformula)() | Calculates the result of formulas. |
 | override [DataBind](../../aspose.cells.gridweb/mainweb/databind)() | Bind the control and all its child contorls to the its datasource. |
 | override [Dispose](../../aspose.cells.gridweb/mainweb/dispose)() |  |
-| [ImportExcelFile](../../aspose.cells.gridweb/mainweb/importexcelfile)(Stream) | Imports from an excel file stream, including disk file stream or memory stream. |
-| [ImportExcelFile](../../aspose.cells.gridweb/mainweb/importexcelfile)(string) | Imports from an excel file. |
-| [LoadCSVFile](../../aspose.cells.gridweb/mainweb/loadcsvfile)(Stream) | Loads data from a CSV file stream. |
-| [LoadCSVFile](../../aspose.cells.gridweb/mainweb/loadcsvfile)(string) | Loads data from a CSV file. |
-| [LoadHTMLFile](../../aspose.cells.gridweb/mainweb/loadhtmlfile)(Stream) | Loads data from a HTML file stream. |
-| [LoadHTMLFile](../../aspose.cells.gridweb/mainweb/loadhtmlfile)(string) | Loads data from a HTML file. |
-| [LoadSpreadSheetMLFile](../../aspose.cells.gridweb/mainweb/loadspreadsheetmlfile)(Stream) | Loads data from a SpreadSheetML file stream. |
-| [LoadSpreadSheetMLFile](../../aspose.cells.gridweb/mainweb/loadspreadsheetmlfile)(string) | Loads data from a SpreadSheetML file. |
+| [ImportExcelFile](../../aspose.cells.gridweb/mainweb/importexcelfile#importexcelfile)(Stream) | Imports from an excel file stream, including disk file stream or memory stream. |
+| [ImportExcelFile](../../aspose.cells.gridweb/mainweb/importexcelfile#importexcelfile_1)(string) | Imports from an excel file. |
+| [LoadCSVFile](../../aspose.cells.gridweb/mainweb/loadcsvfile#loadcsvfile)(Stream) | Loads data from a CSV file stream. |
+| [LoadCSVFile](../../aspose.cells.gridweb/mainweb/loadcsvfile#loadcsvfile_1)(string) | Loads data from a CSV file. |
+| [LoadHTMLFile](../../aspose.cells.gridweb/mainweb/loadhtmlfile#loadhtmlfile)(Stream) | Loads data from a HTML file stream. |
+| [LoadHTMLFile](../../aspose.cells.gridweb/mainweb/loadhtmlfile#loadhtmlfile_1)(string) | Loads data from a HTML file. |
+| [LoadSpreadSheetMLFile](../../aspose.cells.gridweb/mainweb/loadspreadsheetmlfile#loadspreadsheetmlfile)(Stream) | Loads data from a SpreadSheetML file stream. |
+| [LoadSpreadSheetMLFile](../../aspose.cells.gridweb/mainweb/loadspreadsheetmlfile#loadspreadsheetmlfile_1)(string) | Loads data from a SpreadSheetML file. |
 | [RefreshChartShape](../../aspose.cells.gridweb/mainweb/refreshchartshape)() | refresh all the chart image for the active worksheet . |
 | override [RenderBeginTag](../../aspose.cells.gridweb/mainweb/renderbegintag)(HtmlTextWriter) |  |
-| [SaveCSVFile](../../aspose.cells.gridweb/mainweb/savecsvfile)(Stream) | Saves data to a CSV file stream. |
-| [SaveCSVFile](../../aspose.cells.gridweb/mainweb/savecsvfile)(string) | Saves data to a CSV file. |
+| [SaveCSVFile](../../aspose.cells.gridweb/mainweb/savecsvfile#savecsvfile)(Stream) | Saves data to a CSV file stream. |
+| [SaveCSVFile](../../aspose.cells.gridweb/mainweb/savecsvfile#savecsvfile_1)(string) | Saves data to a CSV file. |
 | [SaveCustomStyleFile](../../aspose.cells.gridweb/mainweb/savecustomstylefile)(string) | Saves current style data of the control to an xml file. Can be used to create your customized style file. |
-| [SaveHTMLFile](../../aspose.cells.gridweb/mainweb/savehtmlfile)(Stream) | Saves data to a HTML file stream. |
-| [SaveHTMLFile](../../aspose.cells.gridweb/mainweb/savehtmlfile)(string) | Saves data to a HTML file. |
-| [SaveSpreadSheetMLFile](../../aspose.cells.gridweb/mainweb/savespreadsheetmlfile)(Stream) | Saves data to a SpreadSheetML file stream. |
-| [SaveSpreadSheetMLFile](../../aspose.cells.gridweb/mainweb/savespreadsheetmlfile)(string) | Saves data to a SpreadSheetML file. |
-| [SaveToExcelFile](../../aspose.cells.gridweb/mainweb/savetoexcelfile)(Stream) | Saves the worksheets to an excel file. |
-| [SaveToExcelFile](../../aspose.cells.gridweb/mainweb/savetoexcelfile)(string) | Saves the worksheets to an excel file with Excel 2003 format. |
-| [SaveToExcelFile](../../aspose.cells.gridweb/mainweb/savetoexcelfile)(Stream, GridSaveFormat) | Saves the worksheets to an excel file. |
-| [SaveToExcelFile](../../aspose.cells.gridweb/mainweb/savetoexcelfile)(Stream, GridSaveOptions) | Saves the worksheets to an excel file. |
-| [SaveToExcelFile](../../aspose.cells.gridweb/mainweb/savetoexcelfile)(string, GridSaveFormat) | Saves the worksheets to an excel file. |
-| [SaveToExcelFile](../../aspose.cells.gridweb/mainweb/savetoexcelfile)(string, GridSaveOptions) | Saves the worksheets to an excel file. |
+| [SaveHTMLFile](../../aspose.cells.gridweb/mainweb/savehtmlfile#savehtmlfile)(Stream) | Saves data to a HTML file stream. |
+| [SaveHTMLFile](../../aspose.cells.gridweb/mainweb/savehtmlfile#savehtmlfile_1)(string) | Saves data to a HTML file. |
+| [SaveSpreadSheetMLFile](../../aspose.cells.gridweb/mainweb/savespreadsheetmlfile#savespreadsheetmlfile)(Stream) | Saves data to a SpreadSheetML file stream. |
+| [SaveSpreadSheetMLFile](../../aspose.cells.gridweb/mainweb/savespreadsheetmlfile#savespreadsheetmlfile_1)(string) | Saves data to a SpreadSheetML file. |
+| [SaveToExcelFile](../../aspose.cells.gridweb/mainweb/savetoexcelfile#savetoexcelfile)(Stream) | Saves the worksheets to an excel file. |
+| [SaveToExcelFile](../../aspose.cells.gridweb/mainweb/savetoexcelfile#savetoexcelfile_3)(string) | Saves the worksheets to an excel file with Excel 2003 format. |
+| [SaveToExcelFile](../../aspose.cells.gridweb/mainweb/savetoexcelfile#savetoexcelfile_1)(Stream, GridSaveFormat) | Saves the worksheets to an excel file. |
+| [SaveToExcelFile](../../aspose.cells.gridweb/mainweb/savetoexcelfile#savetoexcelfile_2)(Stream, GridSaveOptions) | Saves the worksheets to an excel file. |
+| [SaveToExcelFile](../../aspose.cells.gridweb/mainweb/savetoexcelfile#savetoexcelfile_4)(string, GridSaveFormat) | Saves the worksheets to an excel file. |
+| [SaveToExcelFile](../../aspose.cells.gridweb/mainweb/savetoexcelfile#savetoexcelfile_5)(string, GridSaveOptions) | Saves the worksheets to an excel file. |
 | [SetCustomStyle](../../aspose.cells.gridweb/mainweb/setcustomstyle)(Stream) | sets the custom style file from stream including disk file stream or memory stream. |
 
 ### See Also

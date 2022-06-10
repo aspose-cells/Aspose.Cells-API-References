@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the dynamic filter value.
 type: docs
 weight: 30
 url: /net/aspose.cells/dynamicfilter/value/

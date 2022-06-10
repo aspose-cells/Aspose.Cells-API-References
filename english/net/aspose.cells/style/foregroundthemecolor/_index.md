@@ -1,9 +1,9 @@
 ---
 title: ForegroundThemeColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the foreground theme color.
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.cells/style/foregroundthemecolor/
 ---
 ## Style.ForegroundThemeColor property

@@ -1,7 +1,7 @@
 ---
 title: ParsingPivotCachedRecords
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether parsing pivot cached records when loading the file. The default value is false.
 type: docs
 weight: 180
 url: /net/aspose.cells/loadoptions/parsingpivotcachedrecords/

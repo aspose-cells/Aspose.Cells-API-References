@@ -1,7 +1,7 @@
 ---
 title: PrecisionAsDisplayed
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Whether the precision of calculated result be set as they are displayed while calculating formulas
 type: docs
 weight: 100
 url: /net/aspose.cells/formulasettings/precisionasdisplayed/

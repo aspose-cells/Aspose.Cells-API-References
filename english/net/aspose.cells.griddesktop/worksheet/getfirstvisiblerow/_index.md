@@ -1,7 +1,7 @@
 ---
 title: GetFirstVisibleRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get the first visible row index of sheet view.
 type: docs
 weight: 720
 url: /net/aspose.cells.griddesktop/worksheet/getfirstvisiblerow/

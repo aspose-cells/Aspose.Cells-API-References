@@ -1,7 +1,7 @@
 ---
 title: Height
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the vertical offset from its lower right corner row.
 type: docs
 weight: 20
 url: /net/aspose.cells.charts/chartarea/height/

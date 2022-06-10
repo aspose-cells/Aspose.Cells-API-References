@@ -1,9 +1,9 @@
 ---
 title: WindowHeightInch
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The height of the window in unit of inch.
 type: docs
-weight: 500
+weight: 630
 url: /net/aspose.cells/workbooksettings/windowheightinch/
 ---
 ## WorkbookSettings.WindowHeightInch property

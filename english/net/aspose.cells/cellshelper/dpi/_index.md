@@ -1,7 +1,7 @@
 ---
 title: DPI
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the DPI of the machine.
 type: docs
 weight: 30
 url: /net/aspose.cells/cellshelper/dpi/

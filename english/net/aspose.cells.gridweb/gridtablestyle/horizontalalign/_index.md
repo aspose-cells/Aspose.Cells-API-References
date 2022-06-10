@@ -1,7 +1,7 @@
 ---
 title: HorizontalAlign
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Horizontal align.
 type: docs
 weight: 80
 url: /net/aspose.cells.gridweb/gridtablestyle/horizontalalign/

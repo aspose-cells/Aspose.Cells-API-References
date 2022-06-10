@@ -1,7 +1,7 @@
 ---
 title: CellRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the row index of the cell where the function is in.
 type: docs
 weight: 40
 url: /net/aspose.cells/calculationdata/cellrow/

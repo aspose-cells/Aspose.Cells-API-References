@@ -1,12 +1,12 @@
 ---
 title: ExportExcelFile
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Exports to an excel file.
 type: docs
 weight: 690
 url: /net/aspose.cells.griddesktop/griddesktop/exportexcelfile/
 ---
-## GridDesktop.ExportExcelFile method (1 of 4)
+## ExportExcelFile(string) {#exportexcelfile_2}
 
 Exports to an excel file.
 
@@ -38,7 +38,7 @@ End Sub
 
 ---
 
-## GridDesktop.ExportExcelFile method (2 of 4)
+## ExportExcelFile(string, FileFormatType) {#exportexcelfile_3}
 
 Exports to a excel file.
 
@@ -60,7 +60,7 @@ public void ExportExcelFile(string fileName, FileFormatType fileFormatType)
 
 ---
 
-## GridDesktop.ExportExcelFile method (3 of 4)
+## ExportExcelFile(Stream) {#exportexcelfile}
 
 Exports to a excel file stream, including disk IO stream or memory stream.
 
@@ -110,7 +110,7 @@ End Sub
 
 ---
 
-## GridDesktop.ExportExcelFile method (4 of 4)
+## ExportExcelFile(Stream, FileFormatType) {#exportexcelfile_1}
 
 Exports to a excel file stream, including disk IO stream or memory stream.
 

@@ -1,7 +1,7 @@
 ---
 title: IsOldFormatted
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether this cell is old formatted.
 type: docs
 weight: 40
 url: /net/aspose.cells.revisions/revisioncellchange/isoldformatted/

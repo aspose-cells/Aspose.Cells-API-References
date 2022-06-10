@@ -1,9 +1,9 @@
 ---
 title: IsRichText
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the cell string value is a rich text.
 type: docs
-weight: 540
+weight: 590
 url: /net/aspose.cells/cell/isrichtext/
 ---
 ## Cell.IsRichText method

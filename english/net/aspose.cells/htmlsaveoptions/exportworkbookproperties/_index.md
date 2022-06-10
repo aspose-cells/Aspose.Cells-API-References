@@ -1,9 +1,9 @@
 ---
 title: ExportWorkbookProperties
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicating whether exporting workbook properties.The default value is true.If you want to import the html or mht file to excel please keep the default value.
 type: docs
-weight: 260
+weight: 270
 url: /net/aspose.cells/htmlsaveoptions/exportworkbookproperties/
 ---
 ## HtmlSaveOptions.ExportWorkbookProperties property

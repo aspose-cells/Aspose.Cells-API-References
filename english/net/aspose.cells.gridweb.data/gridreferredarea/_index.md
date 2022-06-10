@@ -1,9 +1,9 @@
 ---
 title: GridReferredArea
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a referred objcet by the formula.
 type: docs
-weight: 430
+weight: 440
 url: /net/aspose.cells.gridweb.data/gridreferredarea/
 ---
 ## GridReferredArea class

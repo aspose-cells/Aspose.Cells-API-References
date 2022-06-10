@@ -1,12 +1,12 @@
 ---
 title: SaveCSVFile
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Saves data to a CSV file.
 type: docs
 weight: 1460
 url: /net/aspose.cells.gridweb/mainweb/savecsvfile/
 ---
-## MainWeb.SaveCSVFile method (1 of 2)
+## SaveCSVFile(string) {#savecsvfile_1}
 
 Saves data to a CSV file.
 
@@ -26,7 +26,7 @@ public void SaveCSVFile(string targetFile)
 
 ---
 
-## MainWeb.SaveCSVFile method (2 of 2)
+## SaveCSVFile(Stream) {#savecsvfile}
 
 Saves data to a CSV file stream.
 

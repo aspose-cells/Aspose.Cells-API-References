@@ -1,7 +1,7 @@
 ---
 title: RowFilterSettings
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Summary description for RowFilter.
 type: docs
 weight: 930
 url: /net/aspose.cells.griddesktop/rowfiltersettings/
@@ -29,8 +29,8 @@ public class RowFilterSettings : IComparer
 | Name | Description |
 | --- | --- |
 | [Compare](../../aspose.cells.griddesktop/rowfiltersettings/compare)(object, object) | internal uses only. |
-| [CustomRows](../../aspose.cells.griddesktop/rowfiltersettings/customrows)(int, GridFilterOperatorType, object) | Filters a list with a custom criteria. |
-| [CustomRows](../../aspose.cells.griddesktop/rowfiltersettings/customrows)(int, GridFilterOperatorType, object, bool, GridFilterOperatorType, object) | Filters a list with a custom criteria. |
+| [CustomRows](../../aspose.cells.griddesktop/rowfiltersettings/customrows#customrows)(int, GridFilterOperatorType, object) | Filters a list with a custom criteria. |
+| [CustomRows](../../aspose.cells.griddesktop/rowfiltersettings/customrows#customrows_1)(int, GridFilterOperatorType, object, bool, GridFilterOperatorType, object) | Filters a list with a custom criteria. |
 | [FilterRows](../../aspose.cells.griddesktop/rowfiltersettings/filterrows)(int, string) | Filters rows using criteria string. |
 | [ShowAll](../../aspose.cells.griddesktop/rowfiltersettings/showall)() | Unhide all rows. |
 

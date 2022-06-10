@@ -1,9 +1,9 @@
 ---
 title: NameCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a collection of all the Name./name objects in the spreadsheet.
 type: docs
-weight: 4200
+weight: 4240
 url: /net/aspose.cells/namecollection/
 ---
 ## NameCollection class
@@ -31,7 +31,7 @@ public class NameCollection : CollectionBase<Name>
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Name) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Name, IComparer&lt;Name&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Name, IComparer&lt;Name&gt;) |  |
-| [Clear](../../aspose.cells/namecollection/clear)() | Remove all defined names which are not referenced by the formulas and data source. If the defined name is referred, we only set Name.ReferTo as null and hide them. (2 methods) |
+| [Clear](../../aspose.cells/namecollection/clear#clear)() | Remove all defined names which are not referenced by the formulas and data source. If the defined name is referred, we only set Name.ReferTo as null and hide them. (2 methods) |
 | [Contains](../../aspose.cells/collectionbase`1/contains)(Name) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Name[]) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Name[], int) |  |
@@ -54,9 +54,9 @@ public class NameCollection : CollectionBase<Name>
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Name) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Name, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Name, int, int) |  |
-| [Remove](../../aspose.cells/namecollection/remove)(string) | Remove the name. |
-| [Remove](../../aspose.cells/namecollection/remove)(string[]) | Remove an array of name |
-| [RemoveAt](../../aspose.cells/namecollection/removeat)(int) | Remove the name at the specific index. (2 methods) |
+| [Remove](../../aspose.cells/namecollection/remove#remove)(string) | Remove the name. |
+| [Remove](../../aspose.cells/namecollection/remove#remove_1)(string[]) | Remove an array of name |
+| [RemoveAt](../../aspose.cells/namecollection/removeat#removeat)(int) | Remove the name at the specific index. (2 methods) |
 | [RemoveDuplicateNames](../../aspose.cells/namecollection/removeduplicatenames)() | Remove the duplicate defined names |
 | [Sort](../../aspose.cells/namecollection/sort)() | Sorts defined names. |
 

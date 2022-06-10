@@ -1,9 +1,9 @@
 ---
 title: Worksheet
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the object that represents a single worksheet.
 type: docs
-weight: 6500
+weight: 6540
 url: /net/aspose.cells/worksheet/
 ---
 ## Worksheet class
@@ -84,53 +84,55 @@ public class Worksheet : IDisposable
 | --- | --- |
 | [AddPageBreaks](../../aspose.cells/worksheet/addpagebreaks)(string) | Adds page break. |
 | [AdvancedFilter](../../aspose.cells/worksheet/advancedfilter)(bool, string, string, string, bool) | Filters data using complex criteria. |
-| [AutoFitColumn](../../aspose.cells/worksheet/autofitcolumn)(int) | Autofits the column width. |
-| [AutoFitColumn](../../aspose.cells/worksheet/autofitcolumn)(int, int, int) | Autofits the column width. |
-| [AutoFitColumns](../../aspose.cells/worksheet/autofitcolumns)() | Autofits all columns in this worksheet. |
-| [AutoFitColumns](../../aspose.cells/worksheet/autofitcolumns)(AutoFitterOptions) | Autofits all columns in this worksheet. |
-| [AutoFitColumns](../../aspose.cells/worksheet/autofitcolumns)(int, int) | Autofits the columns width. |
-| [AutoFitColumns](../../aspose.cells/worksheet/autofitcolumns)(int, int, AutoFitterOptions) | Autofits the columns width. |
-| [AutoFitColumns](../../aspose.cells/worksheet/autofitcolumns)(int, int, int, int) | Autofits the columns width. |
-| [AutoFitColumns](../../aspose.cells/worksheet/autofitcolumns)(int, int, int, int, AutoFitterOptions) | Autofits the columns width. |
-| [AutoFitRow](../../aspose.cells/worksheet/autofitrow)(int) | Autofits the row height. |
-| [AutoFitRow](../../aspose.cells/worksheet/autofitrow)(int, int, int) | Autofits the row height. |
-| [AutoFitRow](../../aspose.cells/worksheet/autofitrow)(int, int, int, AutoFitterOptions) | Autofits the row height. |
-| [AutoFitRow](../../aspose.cells/worksheet/autofitrow)(int, int, int, int) | Autofits row height in a rectangle range. |
-| [AutoFitRows](../../aspose.cells/worksheet/autofitrows)() | Autofits all rows in this worksheet. |
-| [AutoFitRows](../../aspose.cells/worksheet/autofitrows)(AutoFitterOptions) | Autofits all rows in this worksheet. |
-| [AutoFitRows](../../aspose.cells/worksheet/autofitrows)(bool) | Autofits all rows in this worksheet. |
-| [AutoFitRows](../../aspose.cells/worksheet/autofitrows)(int, int) | Autofits row height in a range. |
-| [AutoFitRows](../../aspose.cells/worksheet/autofitrows)(int, int, AutoFitterOptions) | Autofits row height in a range. |
-| [CalculateFormula](../../aspose.cells/worksheet/calculateformula)(string) | Calculates a formula. |
-| [CalculateFormula](../../aspose.cells/worksheet/calculateformula)(CalculationOptions, bool) | Calculates all formulas in this worksheet. |
-| [CalculateFormula](../../aspose.cells/worksheet/calculateformula)(string, CalculationOptions) | Calculates a formula. |
+| [AutoFitColumn](../../aspose.cells/worksheet/autofitcolumn#autofitcolumn)(int) | Autofits the column width. |
+| [AutoFitColumn](../../aspose.cells/worksheet/autofitcolumn#autofitcolumn_1)(int, int, int) | Autofits the column width. |
+| [AutoFitColumns](../../aspose.cells/worksheet/autofitcolumns#autofitcolumns)() | Autofits all columns in this worksheet. |
+| [AutoFitColumns](../../aspose.cells/worksheet/autofitcolumns#autofitcolumns_1)(AutoFitterOptions) | Autofits all columns in this worksheet. |
+| [AutoFitColumns](../../aspose.cells/worksheet/autofitcolumns#autofitcolumns_2)(int, int) | Autofits the columns width. |
+| [AutoFitColumns](../../aspose.cells/worksheet/autofitcolumns#autofitcolumns_3)(int, int, AutoFitterOptions) | Autofits the columns width. |
+| [AutoFitColumns](../../aspose.cells/worksheet/autofitcolumns#autofitcolumns_4)(int, int, int, int) | Autofits the columns width. |
+| [AutoFitColumns](../../aspose.cells/worksheet/autofitcolumns#autofitcolumns_5)(int, int, int, int, AutoFitterOptions) | Autofits the columns width. |
+| [AutoFitRow](../../aspose.cells/worksheet/autofitrow#autofitrow)(int) | Autofits the row height. |
+| [AutoFitRow](../../aspose.cells/worksheet/autofitrow#autofitrow_1)(int, int, int) | Autofits the row height. |
+| [AutoFitRow](../../aspose.cells/worksheet/autofitrow#autofitrow_2)(int, int, int, AutoFitterOptions) | Autofits the row height. |
+| [AutoFitRow](../../aspose.cells/worksheet/autofitrow#autofitrow_3)(int, int, int, int) | Autofits row height in a rectangle range. |
+| [AutoFitRows](../../aspose.cells/worksheet/autofitrows#autofitrows)() | Autofits all rows in this worksheet. |
+| [AutoFitRows](../../aspose.cells/worksheet/autofitrows#autofitrows_1)(AutoFitterOptions) | Autofits all rows in this worksheet. |
+| [AutoFitRows](../../aspose.cells/worksheet/autofitrows#autofitrows_2)(bool) | Autofits all rows in this worksheet. |
+| [AutoFitRows](../../aspose.cells/worksheet/autofitrows#autofitrows_3)(int, int) | Autofits row height in a range. |
+| [AutoFitRows](../../aspose.cells/worksheet/autofitrows#autofitrows_4)(int, int, AutoFitterOptions) | Autofits row height in a range. |
+| [CalculateFormula](../../aspose.cells/worksheet/calculateformula#calculateformula)(string) | Calculates a formula. |
+| [CalculateFormula](../../aspose.cells/worksheet/calculateformula#calculateformula_2)(CalculationOptions, bool) | Calculates all formulas in this worksheet. |
+| [CalculateFormula](../../aspose.cells/worksheet/calculateformula#calculateformula_1)(string, CalculationOptions) | Calculates a formula. |
+| [CalculateFormula](../../aspose.cells/worksheet/calculateformula#calculateformula_3)(bool, bool, ICustomFunction) | Calculates all formulas in this worksheet. |
 | [ClearComments](../../aspose.cells/worksheet/clearcomments)() | Clears all comments in designer spreadsheet. |
 | [CloseAccessCache](../../aspose.cells/worksheet/closeaccesscache)(AccessCacheOptions) | Closes the session that uses caches to access the data in this worksheet. |
-| [Copy](../../aspose.cells/worksheet/copy)(Worksheet) | Copies contents and formats from another worksheet. |
-| [Copy](../../aspose.cells/worksheet/copy)(Worksheet, CopyOptions) | Copies contents and formats from another worksheet. |
+| [Copy](../../aspose.cells/worksheet/copy#copy)(Worksheet) | Copies contents and formats from another worksheet. |
+| [Copy](../../aspose.cells/worksheet/copy#copy_1)(Worksheet, CopyOptions) | Copies contents and formats from another worksheet. |
 | [Dispose](../../aspose.cells/worksheet/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| [FreezePanes](../../aspose.cells/worksheet/freezepanes)(string, int, int) | Freezes panes at the specified cell in the worksheet. |
-| [FreezePanes](../../aspose.cells/worksheet/freezepanes)(int, int, int, int) | Freezes panes at the specified cell in the worksheet. |
+| [FreezePanes](../../aspose.cells/worksheet/freezepanes#freezepanes_1)(string, int, int) | Freezes panes at the specified cell in the worksheet. |
+| [FreezePanes](../../aspose.cells/worksheet/freezepanes#freezepanes)(int, int, int, int) | Freezes panes at the specified cell in the worksheet. |
 | [GetFreezedPanes](../../aspose.cells/worksheet/getfreezedpanes)(out int, out int, out int, out int) | Gets the freeze panes. |
 | [GetPanes](../../aspose.cells/worksheet/getpanes)() | Gets the window panes. |
 | [GetPrintingPageBreaks](../../aspose.cells/worksheet/getprintingpagebreaks)(ImageOrPrintOptions) | Gets automatic page breaks. |
 | [GetSelectedRanges](../../aspose.cells/worksheet/getselectedranges)() | Gets selected ranges of cells in the designer spreadsheet. |
 | [MoveTo](../../aspose.cells/worksheet/moveto)(int) | Moves the sheet to another location in the spreadsheet. |
-| [Protect](../../aspose.cells/worksheet/protect)(ProtectionType) | Protects worksheet. |
-| [Protect](../../aspose.cells/worksheet/protect)(ProtectionType, string, string) | Protects worksheet. |
+| [Protect](../../aspose.cells/worksheet/protect#protect)(ProtectionType) | Protects worksheet. |
+| [Protect](../../aspose.cells/worksheet/protect#protect_1)(ProtectionType, string, string) | Protects worksheet. |
 | [RefreshPivotTables](../../aspose.cells/worksheet/refreshpivottables)() | Refreshes all the PivotTables in this Worksheet. |
 | [RemoveAllDrawingObjects](../../aspose.cells/worksheet/removealldrawingobjects)() | Removes all drawing objects in this worksheet. |
 | [RemoveAutoFilter](../../aspose.cells/worksheet/removeautofilter)() | Removes the auto filter of the worksheet. |
 | [RemoveSplit](../../aspose.cells/worksheet/removesplit)() | Removes split window. |
 | [Replace](../../aspose.cells/worksheet/replace)(string, string) | Replaces all cells' text with a new string. |
 | [SelectRange](../../aspose.cells/worksheet/selectrange)(int, int, int, int, bool) | Selects a range. |
+| [SetBackground](../../aspose.cells/worksheet/setbackground)(byte[]) | Sets worksheet background image. |
 | [SetVisible](../../aspose.cells/worksheet/setvisible)(bool, bool) | Sets the visible options. |
 | [Split](../../aspose.cells/worksheet/split)() | Splits window. |
 | [StartAccessCache](../../aspose.cells/worksheet/startaccesscache)(AccessCacheOptions) | Starts the session that uses caches to access the data in this worksheet. |
 | override [ToString](../../aspose.cells/worksheet/tostring)() | Returns a string represents the current Worksheet object. |
 | [UnFreezePanes](../../aspose.cells/worksheet/unfreezepanes)() | Unfreezes panes in the worksheet. |
-| [Unprotect](../../aspose.cells/worksheet/unprotect)() | Unprotects worksheet. |
-| [Unprotect](../../aspose.cells/worksheet/unprotect)(string) | Unprotects worksheet. |
+| [Unprotect](../../aspose.cells/worksheet/unprotect#unprotect)() | Unprotects worksheet. |
+| [Unprotect](../../aspose.cells/worksheet/unprotect#unprotect_1)(string) | Unprotects worksheet. |
 | [XmlMapQuery](../../aspose.cells/worksheet/xmlmapquery)(string, XmlMap) | Query cell areas that mapped/linked to the specific path of xml map. |
 
 ### Examples

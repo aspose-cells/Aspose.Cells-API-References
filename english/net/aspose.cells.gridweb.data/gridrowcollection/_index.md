@@ -1,9 +1,9 @@
 ---
 title: GridRowCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates a collection of GridRow./gridrow objects.
 type: docs
-weight: 450
+weight: 460
 url: /net/aspose.cells.gridweb.data/gridrowcollection/
 ---
 ## GridRowCollection class

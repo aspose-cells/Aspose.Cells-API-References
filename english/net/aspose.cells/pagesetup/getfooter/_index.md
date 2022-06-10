@@ -1,7 +1,7 @@
 ---
 title: GetFooter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets a script formatting the footer of an Excel file.
 type: docs
 weight: 520
 url: /net/aspose.cells/pagesetup/getfooter/

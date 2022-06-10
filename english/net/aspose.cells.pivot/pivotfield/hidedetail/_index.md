@@ -1,7 +1,7 @@
 ---
 title: HideDetail
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets whether the PivotItems in a pivot field is hidden detail.That is collapse/expand this field.
 type: docs
 weight: 460
 url: /net/aspose.cells.pivot/pivotfield/hidedetail/

@@ -1,9 +1,9 @@
 ---
 title: CreateStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Creates a new style.
 type: docs
-weight: 360
+weight: 370
 url: /net/aspose.cells/workbook/createstyle/
 ---
 ## Workbook.CreateStyle method

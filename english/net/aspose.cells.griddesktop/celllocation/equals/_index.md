@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Determines whether the specified Object is equal to the current Object.
 type: docs
 weight: 40
 url: /net/aspose.cells.griddesktop/celllocation/equals/

@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Creates a new custom document property of the PropertyType.String data type.
 type: docs
 weight: 10
 url: /net/aspose.cells.properties/customdocumentpropertycollection/add/
 ---
-## CustomDocumentPropertyCollection.Add method (1 of 5)
+## Add(string, string) {#add_4}
 
 Creates a new custom document property of the **PropertyType.String** data type.
 
@@ -32,7 +32,7 @@ The newly created property object.
 
 ---
 
-## CustomDocumentPropertyCollection.Add method (2 of 5)
+## Add(string, int) {#add_2}
 
 Creates a new custom document property of the **PropertyType.Number** data type.
 
@@ -58,7 +58,7 @@ The newly created property object.
 
 ---
 
-## CustomDocumentPropertyCollection.Add method (3 of 5)
+## Add(string, DateTime) {#add_3}
 
 Creates a new custom document property of the **PropertyType.DateTime** data type.
 
@@ -84,7 +84,7 @@ The newly created property object.
 
 ---
 
-## CustomDocumentPropertyCollection.Add method (4 of 5)
+## Add(string, bool) {#add}
 
 Creates a new custom document property of the **PropertyType.Boolean** data type.
 
@@ -110,7 +110,7 @@ The newly created property object.
 
 ---
 
-## CustomDocumentPropertyCollection.Add method (5 of 5)
+## Add(string, double) {#add_1}
 
 Creates a new custom document property of the **PropertyType.Float** data type.
 

@@ -1,7 +1,7 @@
 ---
 title: ConvertGridStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether apply the style of the grid view to cells.
 type: docs
 weight: 40
 url: /net/aspose.cells/importtableoptions/convertgridstyle/

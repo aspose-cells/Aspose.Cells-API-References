@@ -1,12 +1,12 @@
 ---
 title: ImageSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Creates the options for saving image file.
 type: docs
 weight: 10
 url: /net/aspose.cells/imagesaveoptions/imagesaveoptions/
 ---
-## ImageSaveOptions constructor (1 of 2)
+## ImageSaveOptions() {#constructor}
 
 Creates the options for saving image file.
 
@@ -22,7 +22,7 @@ public ImageSaveOptions()
 
 ---
 
-## ImageSaveOptions constructor (2 of 2)
+## ImageSaveOptions(SaveFormat) {#constructor_1}
 
 Creates the options for saving image file.
 

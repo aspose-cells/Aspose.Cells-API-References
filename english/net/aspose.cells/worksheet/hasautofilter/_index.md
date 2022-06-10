@@ -1,7 +1,7 @@
 ---
 title: HasAutofilter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether this worksheet has auto filter.
 type: docs
 weight: 180
 url: /net/aspose.cells/worksheet/hasautofilter/

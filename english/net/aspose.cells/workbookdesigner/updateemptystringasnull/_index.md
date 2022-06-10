@@ -1,7 +1,7 @@
 ---
 title: UpdateEmptyStringAsNull
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: If TRUE Null will be inserted if the value is 
 type: docs
 weight: 60
 url: /net/aspose.cells/workbookdesigner/updateemptystringasnull/

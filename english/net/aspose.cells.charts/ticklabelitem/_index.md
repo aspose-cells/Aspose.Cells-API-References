@@ -1,9 +1,9 @@
 ---
 title: TickLabelItem
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Include information of a Ticklabel item
 type: docs
-weight: 910
+weight: 930
 url: /net/aspose.cells.charts/ticklabelitem/
 ---
 ## TickLabelItem class

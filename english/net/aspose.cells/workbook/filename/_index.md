@@ -1,9 +1,9 @@
 ---
 title: FileName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the current file name.
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.cells/workbook/filename/
 ---
 ## Workbook.FileName property

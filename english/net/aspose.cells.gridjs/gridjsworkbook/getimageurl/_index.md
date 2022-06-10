@@ -1,7 +1,7 @@
 ---
 title: GetImageUrl
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get the image URL
 type: docs
 weight: 250
 url: /net/aspose.cells.gridjs/gridjsworkbook/getimageurl/

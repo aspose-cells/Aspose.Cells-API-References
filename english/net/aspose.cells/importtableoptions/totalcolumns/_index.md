@@ -1,7 +1,7 @@
 ---
 title: TotalColumns
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets total column count to import from data source. -1 means all rows of given data source.
 type: docs
 weight: 140
 url: /net/aspose.cells/importtableoptions/totalcolumns/

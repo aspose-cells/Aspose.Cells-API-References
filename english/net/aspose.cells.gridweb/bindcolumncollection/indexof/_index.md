@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the index of the specified bind column object.
 type: docs
 weight: 120
 url: /net/aspose.cells.gridweb/bindcolumncollection/indexof/

@@ -1,7 +1,7 @@
 ---
 title: SetCustomTotalsRowFormula
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the formula of totals row of this list column.
 type: docs
 weight: 80
 url: /net/aspose.cells.tables/listcolumn/setcustomtotalsrowformula/

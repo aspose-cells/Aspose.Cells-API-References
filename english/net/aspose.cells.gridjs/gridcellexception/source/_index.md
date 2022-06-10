@@ -1,7 +1,7 @@
 ---
 title: Source
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the name of the application or the object that causes the error.
 type: docs
 weight: 30
 url: /net/aspose.cells.gridjs/gridcellexception/source/

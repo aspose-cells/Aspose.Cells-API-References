@@ -1,9 +1,9 @@
 ---
 title: WebCellException
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a cell operation error.
 type: docs
-weight: 730
+weight: 890
 url: /net/aspose.cells.gridweb.data/webcellexception/
 ---
 ## WebCellException class

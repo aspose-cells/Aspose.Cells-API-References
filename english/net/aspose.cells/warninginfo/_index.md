@@ -1,9 +1,9 @@
 ---
 title: WarningInfo
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Warning info
 type: docs
-weight: 6340
+weight: 6380
 url: /net/aspose.cells/warninginfo/
 ---
 ## WarningInfo class

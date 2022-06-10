@@ -1,9 +1,9 @@
 ---
 title: TextToColumns
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Splits the text in the column to columns.
 type: docs
-weight: 1310
+weight: 1370
 url: /net/aspose.cells/cells/texttocolumns/
 ---
 ## Cells.TextToColumns method

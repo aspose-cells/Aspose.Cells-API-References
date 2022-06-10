@@ -1,7 +1,7 @@
 ---
 title: Color
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the Color of the font.
 type: docs
 weight: 40
 url: /net/aspose.cells/font/color/

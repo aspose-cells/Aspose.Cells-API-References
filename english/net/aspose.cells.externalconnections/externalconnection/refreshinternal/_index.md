@@ -1,9 +1,9 @@
 ---
 title: RefreshInternal
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the number of minutes between automatic refreshes of the connection.
 type: docs
-weight: 150
+weight: 170
 url: /net/aspose.cells.externalconnections/externalconnection/refreshinternal/
 ---
 ## ExternalConnection.RefreshInternal property

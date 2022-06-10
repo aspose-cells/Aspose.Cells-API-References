@@ -1,9 +1,9 @@
 ---
 title: LinkedCell
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the worksheet range linked to the controls value.
 type: docs
-weight: 450
+weight: 500
 url: /net/aspose.cells.drawing/shape/linkedcell/
 ---
 ## Shape.LinkedCell property

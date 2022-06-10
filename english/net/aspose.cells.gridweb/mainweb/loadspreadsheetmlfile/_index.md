@@ -1,12 +1,12 @@
 ---
 title: LoadSpreadSheetMLFile
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Loads data from a SpreadSheetML file.
 type: docs
 weight: 1430
 url: /net/aspose.cells.gridweb/mainweb/loadspreadsheetmlfile/
 ---
-## MainWeb.LoadSpreadSheetMLFile method (1 of 2)
+## LoadSpreadSheetMLFile(string) {#loadspreadsheetmlfile_1}
 
 Loads data from a SpreadSheetML file.
 
@@ -26,7 +26,7 @@ public void LoadSpreadSheetMLFile(string fileName)
 
 ---
 
-## MainWeb.LoadSpreadSheetMLFile method (2 of 2)
+## LoadSpreadSheetMLFile(Stream) {#loadspreadsheetmlfile}
 
 Loads data from a SpreadSheetML file stream.
 

@@ -1,12 +1,12 @@
 ---
 title: ConvertToRange
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Convert the table to range.
 type: docs
 weight: 240
 url: /net/aspose.cells.tables/listobject/converttorange/
 ---
-## ListObject.ConvertToRange method (1 of 2)
+## ConvertToRange() {#converttorange}
 
 Convert the table to range.
 
@@ -22,7 +22,7 @@ public void ConvertToRange()
 
 ---
 
-## ListObject.ConvertToRange method (2 of 2)
+## ConvertToRange(TableToRangeOptions) {#converttorange_1}
 
 Convert the table to range.
 

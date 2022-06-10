@@ -1,7 +1,7 @@
 ---
 title: PageTitle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The title of the html page. Only for saving to html stream.
 type: docs
 weight: 160
 url: /net/aspose.cells.gridweb.data/gridhtmlsaveoptions/pagetitle/

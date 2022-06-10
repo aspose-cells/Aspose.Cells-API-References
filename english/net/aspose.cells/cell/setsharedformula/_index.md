@@ -1,12 +1,43 @@
 ---
 title: SetSharedFormula
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets a formula to a range of cells.
 type: docs
-weight: 610
+weight: 660
 url: /net/aspose.cells/cell/setsharedformula/
 ---
-## Cell.SetSharedFormula method (1 of 3)
+## SetSharedFormula(string, int, int, bool, bool) {#setsharedformula_3}
+
+Sets a formula to a range of cells.
+
+```csharp
+[Obsolete("Use FormulaParseOptions for more options instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
+public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumber, bool isR1C1, 
+    bool isLocal)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sharedFormula | String | Shared formula. |
+| rowNumber | Int32 | Number of rows to populate the formula. |
+| columnNumber | Int32 | Number of columns to populate the formula. |
+| isR1C1 | Boolean | whether the formula is R1C1 formula |
+| isLocal | Boolean | whether the formula is locale formatted |
+
+### Remarks
+
+NOTE: This class is now obsolete. Instead, please use Cell.SetSharedFormula(string,int,int,FormulaParseOptions). This property will be removed 12 months later since December 2019. Aspose apologizes for any inconvenience you may have experienced.
+
+### See Also
+
+* class [Cell](../../cell)
+* namespace [Aspose.Cells](../../cell)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## SetSharedFormula(string, int, int, FormulaParseOptions) {#setsharedformula_1}
 
 Sets a formula to a range of cells.
 
@@ -31,7 +62,7 @@ public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumb
 
 ---
 
-## Cell.SetSharedFormula method (2 of 3)
+## SetSharedFormula(string, int, int, FormulaParseOptions, object[][]) {#setsharedformula_2}
 
 Sets a formula to a range of cells.
 
@@ -57,7 +88,7 @@ public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumb
 
 ---
 
-## Cell.SetSharedFormula method (3 of 3)
+## SetSharedFormula(string, int, int) {#setsharedformula}
 
 Sets a formula to a range of cells.
 

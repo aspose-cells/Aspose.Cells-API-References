@@ -1,9 +1,9 @@
 ---
 title: DigitalSignature
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Signature in file.
 type: docs
-weight: 1380
+weight: 1400
 url: /net/aspose.cells.digitalsignatures/digitalsignature/
 ---
 ## DigitalSignature class
@@ -18,8 +18,8 @@ public class DigitalSignature
 
 | Name | Description |
 | --- | --- |
-| [DigitalSignature](digitalsignature)(X509Certificate2, string, DateTime) | Constructor of digitalSignature. Uses .Net implementation. |
-| [DigitalSignature](digitalsignature)(byte[], string, string, DateTime) | Constructor of digitalSignature. Uses Bouncy Castle implementation. |
+| [DigitalSignature](digitalsignature#constructor_1)(X509Certificate2, string, DateTime) | Constructor of digitalSignature. Uses .Net implementation. |
+| [DigitalSignature](digitalsignature#constructor)(byte[], string, string, DateTime) | Constructor of digitalSignature. Uses Bouncy Castle implementation. |
 
 ## Properties
 

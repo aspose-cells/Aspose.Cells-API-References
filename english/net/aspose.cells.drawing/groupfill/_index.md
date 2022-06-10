@@ -1,9 +1,9 @@
 ---
 title: GroupFill
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents this fill format should inherit the fill properties of the group.
 type: docs
-weight: 2130
+weight: 2150
 url: /net/aspose.cells.drawing/groupfill/
 ---
 ## GroupFill class

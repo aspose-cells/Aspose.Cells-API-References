@@ -1,7 +1,7 @@
 ---
 title: Order3
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents sort order of the third key.
 type: docs
 weight: 90
 url: /net/aspose.cells/datasorter/order3/

@@ -1,7 +1,7 @@
 ---
 title: EndRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the end row of this area.
 type: docs
 weight: 30
 url: /net/aspose.cells.griddesktop.data/gridcellarea/endrow/

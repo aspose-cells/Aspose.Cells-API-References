@@ -1,7 +1,7 @@
 ---
 title: CacheImp
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Custom implemention for cache storageIf you want to store cache in stream way you need to set and implement it
 type: docs
 weight: 210
 url: /net/aspose.cells.gridjs/gridjsworkbook/cacheimp/

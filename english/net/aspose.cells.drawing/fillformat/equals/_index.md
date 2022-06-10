@@ -3,7 +3,7 @@ title: Equals
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 210
 url: /net/aspose.cells.drawing/fillformat/equals/
 ---
 ## FillFormat.Equals method

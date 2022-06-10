@@ -1,9 +1,9 @@
 ---
 title: ColumnCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Collection of the  objects that represent the individual columnsettings in a worksheet. The Column object only represents the settings such as column width styles .etc. for the whole column has nothing to do with the fact that there are non-empty cellsdata or not in corresponding column. And the Count of this collection only represents the count Column objects that have been instantiated in this collection has nothing to do with the fact that there are non-empty cellsdata or not in the worksheet.
 type: docs
-weight: 1060
+weight: 1080
 url: /net/aspose.cells/columncollection/
 ---
 ## ColumnCollection class
@@ -45,6 +45,7 @@ public class ColumnCollection : CollectionBase<Column>
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;Column&gt;) |  |
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;Column&gt;) |  |
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;Column&gt;) |  |
+| [GetByIndex](../../aspose.cells/columncollection/getbyindex)(int) | Gets the column object by the index. |
 | [GetColumnByIndex](../../aspose.cells/columncollection/getcolumnbyindex)(int) | Gets the [`Column`](../column) object by the position in the list. |
 | [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Column) |  |

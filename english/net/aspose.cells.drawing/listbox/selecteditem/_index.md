@@ -1,7 +1,7 @@
 ---
 title: SelectedItem
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets whether the item is selected
 type: docs
 weight: 80
 url: /net/aspose.cells.drawing/listbox/selecteditem/

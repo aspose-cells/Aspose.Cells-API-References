@@ -1,7 +1,7 @@
 ---
 title: PrimaryKey
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents which column is primary key of the data table.
 type: docs
 weight: 120
 url: /net/aspose.cells.saving/sqlscriptsaveoptions/primarykey/

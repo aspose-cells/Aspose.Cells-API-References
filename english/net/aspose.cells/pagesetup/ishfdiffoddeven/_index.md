@@ -1,7 +1,7 @@
 ---
 title: IsHFDiffOddEven
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: True means that the header/footer of the odd pages is different with odd pages.
 type: docs
 weight: 170
 url: /net/aspose.cells/pagesetup/ishfdiffoddeven/

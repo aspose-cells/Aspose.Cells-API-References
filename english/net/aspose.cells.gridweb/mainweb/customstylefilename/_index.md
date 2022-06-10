@@ -1,7 +1,7 @@
 ---
 title: CustomStyleFileName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the custom style file name.
 type: docs
 weight: 170
 url: /net/aspose.cells.gridweb/mainweb/customstylefilename/

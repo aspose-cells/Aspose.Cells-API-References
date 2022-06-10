@@ -1,7 +1,7 @@
 ---
 title: IsRectangularCornered
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the chart area is rectangular cornered. Default is true.
 type: docs
 weight: 180
 url: /net/aspose.cells.charts/chart/isrectangularcornered/

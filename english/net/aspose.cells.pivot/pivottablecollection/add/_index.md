@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a new PivotTable cache to a PivotCaches collection.
 type: docs
 weight: 20
 url: /net/aspose.cells.pivot/pivottablecollection/add/
 ---
-## PivotTableCollection.Add method (1 of 8)
+## Add(string, string, string) {#add_4}
 
 Adds a new PivotTable cache to a PivotCaches collection.
 
@@ -32,7 +32,7 @@ The new added cache index.
 
 ---
 
-## PivotTableCollection.Add method (2 of 8)
+## Add(string, string, string, bool) {#add_5}
 
 Adds a new PivotTable cache to a PivotCaches collection.
 
@@ -59,7 +59,7 @@ The new added cache index.
 
 ---
 
-## PivotTableCollection.Add method (3 of 8)
+## Add(string, int, int, string) {#add_2}
 
 Adds a new PivotTable cache to a PivotCaches collection.
 
@@ -86,7 +86,7 @@ The new added cache index.
 
 ---
 
-## PivotTableCollection.Add method (4 of 8)
+## Add(string, int, int, string, bool) {#add_3}
 
 Adds a new PivotTable cache to a PivotCaches collection.
 
@@ -114,7 +114,7 @@ The new added cache index.
 
 ---
 
-## PivotTableCollection.Add method (5 of 8)
+## Add(PivotTable, string, string) {#add_1}
 
 Adds a new PivotTable Object to the collection from another PivotTable.
 
@@ -141,7 +141,7 @@ The new added PivotTable index.
 
 ---
 
-## PivotTableCollection.Add method (6 of 8)
+## Add(PivotTable, int, int, string) {#add}
 
 Adds a new PivotTable Object to the collection from another PivotTable.
 
@@ -169,7 +169,7 @@ The new added PivotTable index.
 
 ---
 
-## PivotTableCollection.Add method (7 of 8)
+## Add(string[], bool, PivotPageFields, string, string) {#add_7}
 
 Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source.
 
@@ -199,7 +199,7 @@ The new added PivotTable index.
 
 ---
 
-## PivotTableCollection.Add method (8 of 8)
+## Add(string[], bool, PivotPageFields, int, int, string) {#add_6}
 
 Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source.
 

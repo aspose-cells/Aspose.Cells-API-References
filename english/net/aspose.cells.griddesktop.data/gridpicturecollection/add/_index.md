@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a picture to the collection.
 type: docs
 weight: 30
 url: /net/aspose.cells.griddesktop.data/gridpicturecollection/add/
 ---
-## GridPictureCollection.Add method (1 of 7)
+## Add(int, int, int, int, Stream) {#add}
 
 Adds a picture to the collection.
 
@@ -35,7 +35,7 @@ Picture object index.
 
 ---
 
-## GridPictureCollection.Add method (2 of 7)
+## Add(int, int, int, int, string) {#add_1}
 
 Adds a picture to the collection.
 
@@ -64,7 +64,7 @@ Picture object index.
 
 ---
 
-## GridPictureCollection.Add method (3 of 7)
+## Add(int, int, Stream) {#add_2}
 
 Adds a picture to the collection.
 
@@ -90,7 +90,7 @@ Picture object index.
 
 ---
 
-## GridPictureCollection.Add method (4 of 7)
+## Add(int, int, string) {#add_3}
 
 Adds a picture to the collection.
 
@@ -116,7 +116,7 @@ Picture object index.
 
 ---
 
-## GridPictureCollection.Add method (5 of 7)
+## Add(int, int, string, int, int) {#add_4}
 
 Adds a picture to the collection.
 
@@ -145,7 +145,7 @@ Picture object index.
 
 ---
 
-## GridPictureCollection.Add method (6 of 7)
+## Add(string, string) {#add_6}
 
 Adds a Picture to a specified cell by cell name.
 
@@ -166,7 +166,7 @@ public void Add(string cellName, string fileName)
 
 ---
 
-## GridPictureCollection.Add method (7 of 7)
+## Add(int, int, Image) {#add_5}
 
 Adds a Picture to a specified cell at row column index.
 

@@ -1,7 +1,7 @@
 ---
 title: Order
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the order that Microsoft Excel uses to number pages when printing a large worksheet.
 type: docs
 weight: 230
 url: /net/aspose.cells/pagesetup/order/

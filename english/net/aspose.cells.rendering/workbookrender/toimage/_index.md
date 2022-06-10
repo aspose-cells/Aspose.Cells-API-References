@@ -1,12 +1,12 @@
 ---
 title: ToImage
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Render whole workbook as Tiff Image to stream.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.cells.rendering/workbookrender/toimage/
 ---
-## WorkbookRender.ToImage method (1 of 5)
+## ToImage(Stream) {#toimage_3}
 
 Render whole workbook as Tiff Image to stream.
 
@@ -26,7 +26,7 @@ public void ToImage(Stream stream)
 
 ---
 
-## WorkbookRender.ToImage method (2 of 5)
+## ToImage(string) {#toimage_4}
 
 Render whole workbook as Tiff Image to a file.
 
@@ -46,7 +46,7 @@ public void ToImage(string filename)
 
 ---
 
-## WorkbookRender.ToImage method (3 of 5)
+## ToImage(int, string) {#toimage_2}
 
 Render certain page to a file.
 
@@ -67,7 +67,7 @@ public void ToImage(int pageIndex, string fileName)
 
 ---
 
-## WorkbookRender.ToImage method (4 of 5)
+## ToImage(int, Stream) {#toimage_1}
 
 Render certain page to a stream.
 
@@ -88,7 +88,7 @@ public void ToImage(int pageIndex, Stream stream)
 
 ---
 
-## WorkbookRender.ToImage method (5 of 5)
+## ToImage(int) {#toimage}
 
 Render certain page to a Bitmap object.
 

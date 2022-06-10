@@ -1,7 +1,7 @@
 ---
 title: CellLocation
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates the cell location.
 type: docs
 weight: 180
 url: /net/aspose.cells.griddesktop/celllocation/
@@ -18,8 +18,8 @@ public class CellLocation
 
 | Name | Description |
 | --- | --- |
-| [CellLocation](celllocation)() | The default constructor. |
-| [CellLocation](celllocation)(int, int) |  |
+| [CellLocation](celllocation#constructor)() | The default constructor. |
+| [CellLocation](celllocation#constructor_1)(int, int) |  |
 
 ## Properties
 

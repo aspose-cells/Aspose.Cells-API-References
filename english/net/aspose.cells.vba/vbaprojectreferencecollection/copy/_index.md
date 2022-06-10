@@ -1,7 +1,7 @@
 ---
 title: Copy
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Copies references from other VBA project.
 type: docs
 weight: 50
 url: /net/aspose.cells.vba/vbaprojectreferencecollection/copy/

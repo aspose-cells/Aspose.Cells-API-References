@@ -1,9 +1,9 @@
 ---
 title: PivotTable
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Summary description for PivotTable.
 type: docs
-weight: 4680
+weight: 4720
 url: /net/aspose.cells.pivot/pivottable/
 ---
 ## PivotTable class
@@ -96,11 +96,11 @@ public class PivotTable : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [AddCalculatedField](../../aspose.cells.pivot/pivottable/addcalculatedfield)(string, string) | Adds a calculated field to pivot field and drag it to data area. |
-| [AddCalculatedField](../../aspose.cells.pivot/pivottable/addcalculatedfield)(string, string, bool) | Adds a calculated field to pivot field. |
-| [AddFieldToArea](../../aspose.cells.pivot/pivottable/addfieldtoarea)(PivotFieldType, int) | Adds the field to the specific area. |
-| [AddFieldToArea](../../aspose.cells.pivot/pivottable/addfieldtoarea)(PivotFieldType, PivotField) | Adds the field to the specific area. |
-| [AddFieldToArea](../../aspose.cells.pivot/pivottable/addfieldtoarea)(PivotFieldType, string) | Adds the field to the specific area. |
+| [AddCalculatedField](../../aspose.cells.pivot/pivottable/addcalculatedfield#addcalculatedfield)(string, string) | Adds a calculated field to pivot field and drag it to data area. |
+| [AddCalculatedField](../../aspose.cells.pivot/pivottable/addcalculatedfield#addcalculatedfield_1)(string, string, bool) | Adds a calculated field to pivot field. |
+| [AddFieldToArea](../../aspose.cells.pivot/pivottable/addfieldtoarea#addfieldtoarea_1)(PivotFieldType, int) | Adds the field to the specific area. |
+| [AddFieldToArea](../../aspose.cells.pivot/pivottable/addfieldtoarea#addfieldtoarea)(PivotFieldType, PivotField) | Adds the field to the specific area. |
+| [AddFieldToArea](../../aspose.cells.pivot/pivottable/addfieldtoarea#addfieldtoarea_2)(PivotFieldType, string) | Adds the field to the specific area. |
 | [CalculateData](../../aspose.cells.pivot/pivottable/calculatedata)() | Calculates pivottable's data to cells. |
 | [CalculateRange](../../aspose.cells.pivot/pivottable/calculaterange)() | Calculates pivottable's range. |
 | [ChangeDataSource](../../aspose.cells.pivot/pivottable/changedatasource)(string[]) | Set pivottable's source data. Sheet1!$A$1:$C$3 |
@@ -110,24 +110,25 @@ public class PivotTable : IDisposable
 | [Fields](../../aspose.cells.pivot/pivottable/fields)(PivotFieldType) | Gets the specific fields by the field type. |
 | [Format](../../aspose.cells.pivot/pivottable/format)(int, int, Style) | Format the cell in the pivottable area |
 | [FormatAll](../../aspose.cells.pivot/pivottable/formatall)(Style) | Format all the cell in the pivottable area |
+| [FormatRow](../../aspose.cells.pivot/pivottable/formatrow)(int, Style) | Format the row data in the pivottable area |
 | [GetCellByDisplayName](../../aspose.cells.pivot/pivottable/getcellbydisplayname)(string) | Gets the Cell object by the DisplayName of PivotField |
 | [GetChildren](../../aspose.cells.pivot/pivottable/getchildren)() | Gets the Children Pivot Tables which use this PivotTable data as data source. |
 | [GetHorizontalBreaks](../../aspose.cells.pivot/pivottable/gethorizontalbreaks)() | get pivot table row index list of horizontal pagebreaks |
 | [GetSource](../../aspose.cells.pivot/pivottable/getsource)() | Get pivottable's source data. |
-| [Move](../../aspose.cells.pivot/pivottable/move)(string) | Moves the PivotTable to a different location in the worksheet. |
-| [Move](../../aspose.cells.pivot/pivottable/move)(int, int) | Moves the PivotTable to a different location in the worksheet. |
+| [Move](../../aspose.cells.pivot/pivottable/move#move_1)(string) | Moves the PivotTable to a different location in the worksheet. |
+| [Move](../../aspose.cells.pivot/pivottable/move#move)(int, int) | Moves the PivotTable to a different location in the worksheet. |
 | [RefreshData](../../aspose.cells.pivot/pivottable/refreshdata)() | Refreshes pivottable's data and setting from it's data source. |
-| [RemoveField](../../aspose.cells.pivot/pivottable/removefield)(PivotFieldType, int) | Removes a field from specific field area |
-| [RemoveField](../../aspose.cells.pivot/pivottable/removefield)(PivotFieldType, PivotField) | Remove field from specific field area |
-| [RemoveField](../../aspose.cells.pivot/pivottable/removefield)(PivotFieldType, string) | Removes a field from specific field area |
-| [SetAutoGroupField](../../aspose.cells.pivot/pivottable/setautogroupfield)(int) | Sets auto field group by the PivotTable. |
-| [SetAutoGroupField](../../aspose.cells.pivot/pivottable/setautogroupfield)(PivotField) | Sets auto field group by the PivotTable. |
-| [SetManualGroupField](../../aspose.cells.pivot/pivottable/setmanualgroupfield)(int, DateTime, DateTime, ArrayList, int) | Sets manual field group by the PivotTable. |
-| [SetManualGroupField](../../aspose.cells.pivot/pivottable/setmanualgroupfield)(int, double, double, ArrayList, double) | Sets manual field group by the PivotTable. |
-| [SetManualGroupField](../../aspose.cells.pivot/pivottable/setmanualgroupfield)(PivotField, DateTime, DateTime, ArrayList, int) | Sets manual field group by the PivotTable. |
-| [SetManualGroupField](../../aspose.cells.pivot/pivottable/setmanualgroupfield)(PivotField, double, double, ArrayList, double) | Sets manual field group by the PivotTable. |
-| [SetUngroup](../../aspose.cells.pivot/pivottable/setungroup)(int) | Sets ungroup by the PivotTable |
-| [SetUngroup](../../aspose.cells.pivot/pivottable/setungroup)(PivotField) | Sets ungroup by the PivotTable |
+| [RemoveField](../../aspose.cells.pivot/pivottable/removefield#removefield_1)(PivotFieldType, int) | Removes a field from specific field area |
+| [RemoveField](../../aspose.cells.pivot/pivottable/removefield#removefield)(PivotFieldType, PivotField) | Remove field from specific field area |
+| [RemoveField](../../aspose.cells.pivot/pivottable/removefield#removefield_2)(PivotFieldType, string) | Removes a field from specific field area |
+| [SetAutoGroupField](../../aspose.cells.pivot/pivottable/setautogroupfield#setautogroupfield_1)(int) | Sets auto field group by the PivotTable. |
+| [SetAutoGroupField](../../aspose.cells.pivot/pivottable/setautogroupfield#setautogroupfield)(PivotField) | Sets auto field group by the PivotTable. |
+| [SetManualGroupField](../../aspose.cells.pivot/pivottable/setmanualgroupfield#setmanualgroupfield_3)(int, DateTime, DateTime, ArrayList, int) | Sets manual field group by the PivotTable. |
+| [SetManualGroupField](../../aspose.cells.pivot/pivottable/setmanualgroupfield#setmanualgroupfield_2)(int, double, double, ArrayList, double) | Sets manual field group by the PivotTable. |
+| [SetManualGroupField](../../aspose.cells.pivot/pivottable/setmanualgroupfield#setmanualgroupfield_1)(PivotField, DateTime, DateTime, ArrayList, int) | Sets manual field group by the PivotTable. |
+| [SetManualGroupField](../../aspose.cells.pivot/pivottable/setmanualgroupfield#setmanualgroupfield)(PivotField, double, double, ArrayList, double) | Sets manual field group by the PivotTable. |
+| [SetUngroup](../../aspose.cells.pivot/pivottable/setungroup#setungroup_1)(int) | Sets ungroup by the PivotTable |
+| [SetUngroup](../../aspose.cells.pivot/pivottable/setungroup#setungroup)(PivotField) | Sets ungroup by the PivotTable |
 | [ShowInCompactForm](../../aspose.cells.pivot/pivottable/showincompactform)() | Layouts the PivotTable in compact form. |
 | [ShowInOutlineForm](../../aspose.cells.pivot/pivottable/showinoutlineform)() | Layouts the PivotTable in outline form. |
 | [ShowInTabularForm](../../aspose.cells.pivot/pivottable/showintabularform)() | Layouts the PivotTable in tabular form. |

@@ -1,7 +1,7 @@
 ---
 title: LinkedSource
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets a reference to the worksheet.
 type: docs
 weight: 60
 url: /net/aspose.cells.charts/charttextframe/linkedsource/

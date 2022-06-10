@@ -1,9 +1,9 @@
 ---
 title: DataBarNegativeColorType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies whether to use the same border and fill color as positive data bars.
 type: docs
-weight: 1280
+weight: 1300
 url: /net/aspose.cells/databarnegativecolortype/
 ---
 ## DataBarNegativeColorType enumeration

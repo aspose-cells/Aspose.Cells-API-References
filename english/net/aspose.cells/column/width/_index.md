@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the column width in unit of characters.
 type: docs
 weight: 60
 url: /net/aspose.cells/column/width/

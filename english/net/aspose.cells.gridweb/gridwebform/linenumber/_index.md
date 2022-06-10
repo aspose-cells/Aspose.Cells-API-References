@@ -1,7 +1,7 @@
 ---
 title: LineNumber
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the current record line number of the sheet.
 type: docs
 weight: 70
 url: /net/aspose.cells.gridweb/gridwebform/linenumber/

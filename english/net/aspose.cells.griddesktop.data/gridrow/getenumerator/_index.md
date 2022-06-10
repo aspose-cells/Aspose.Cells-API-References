@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the cells enumerator
 type: docs
 weight: 100
 url: /net/aspose.cells.griddesktop.data/gridrow/getenumerator/

@@ -1,9 +1,9 @@
 ---
 title: IsXml
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: true if the web query source is XML versus HTML otherwise false.
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.cells.externalconnections/webqueryconnection/isxml/
 ---
 ## WebQueryConnection.IsXml property

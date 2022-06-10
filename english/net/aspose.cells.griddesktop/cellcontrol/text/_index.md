@@ -1,7 +1,7 @@
 ---
 title: Text
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the text associated with this control.
 type: docs
 weight: 10
 url: /net/aspose.cells.griddesktop/cellcontrol/text/

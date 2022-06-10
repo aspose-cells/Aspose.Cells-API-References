@@ -1,7 +1,7 @@
 ---
 title: ProcessRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Starts to process one row.
 type: docs
 weight: 20
 url: /net/aspose.cells/lightcellsdatahandler/processrow/

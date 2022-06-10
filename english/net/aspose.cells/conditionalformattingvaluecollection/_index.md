@@ -1,9 +1,9 @@
 ---
 title: ConditionalFormattingValueCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Describes a collection of CFValueObject. Use only for icon sets.
 type: docs
-weight: 1140
+weight: 1160
 url: /net/aspose.cells/conditionalformattingvaluecollection/
 ---
 ## ConditionalFormattingValueCollection class

@@ -1,7 +1,7 @@
 ---
 title: ImageData
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the icon set data.
 type: docs
 weight: 10
 url: /net/aspose.cells/conditionalformattingicon/imagedata/

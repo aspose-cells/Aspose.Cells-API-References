@@ -1,7 +1,7 @@
 ---
 title: DashStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the line dash type.
 type: docs
 weight: 60
 url: /net/aspose.cells.drawing/lineformat/dashstyle/

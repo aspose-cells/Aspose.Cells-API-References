@@ -1,7 +1,7 @@
 ---
 title: PrintCopies
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get and sets number of copies to print.
 type: docs
 weight: 300
 url: /net/aspose.cells/pagesetup/printcopies/

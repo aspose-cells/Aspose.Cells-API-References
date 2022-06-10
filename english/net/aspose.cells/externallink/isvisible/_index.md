@@ -1,7 +1,7 @@
 ---
 title: IsVisible
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether this external link is visible in MS Excel.
 type: docs
 weight: 30
 url: /net/aspose.cells/externallink/isvisible/

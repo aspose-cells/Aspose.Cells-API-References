@@ -1,12 +1,12 @@
 ---
 title: InsertColumns
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Inserts some columns into the worksheet.
 type: docs
-weight: 1070
+weight: 1130
 url: /net/aspose.cells/cells/insertcolumns/
 ---
-## Cells.InsertColumns method (1 of 2)
+## InsertColumns(int, int) {#insertcolumns}
 
 Inserts some columns into the worksheet.
 
@@ -27,7 +27,7 @@ public void InsertColumns(int columnIndex, int totalColumns)
 
 ---
 
-## Cells.InsertColumns method (2 of 2)
+## InsertColumns(int, int, bool) {#insertcolumns_1}
 
 Inserts some columns into the worksheet.
 

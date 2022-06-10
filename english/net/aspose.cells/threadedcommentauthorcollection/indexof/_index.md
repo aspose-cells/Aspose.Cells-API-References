@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the index of ThreadedCommentAuthor object
 type: docs
 weight: 50
 url: /net/aspose.cells/threadedcommentauthorcollection/indexof/

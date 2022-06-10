@@ -1,9 +1,9 @@
 ---
 title: IconSetType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Icon set type for conditional formatting. The threshold values for triggering the different icons within a set are configurable and the icon order is reversible.
 type: docs
-weight: 3850
+weight: 3890
 url: /net/aspose.cells/iconsettype/
 ---
 ## IconSetType enumeration

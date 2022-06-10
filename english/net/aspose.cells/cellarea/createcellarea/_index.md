@@ -1,12 +1,12 @@
 ---
 title: CreateCellArea
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Creates a cell area.
 type: docs
 weight: 10
 url: /net/aspose.cells/cellarea/createcellarea/
 ---
-## CellArea.CreateCellArea method (1 of 2)
+## CreateCellArea(int, int, int, int) {#createcellarea}
 
 Creates a cell area.
 
@@ -33,7 +33,7 @@ Return a [`CellArea`](../../cellarea).
 
 ---
 
-## CellArea.CreateCellArea method (2 of 2)
+## CreateCellArea(string, string) {#createcellarea_1}
 
 Creates a cell area.
 

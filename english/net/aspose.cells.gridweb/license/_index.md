@@ -1,9 +1,9 @@
 ---
 title: License
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Provides methods to license the component.
 type: docs
-weight: 840
+weight: 1050
 url: /net/aspose.cells.gridweb/license/
 ---
 ## License class
@@ -24,8 +24,8 @@ public class License
 
 | Name | Description |
 | --- | --- |
-| [SetLicense](../../aspose.cells.gridweb/license/setlicense)(Stream) | Licenses the component. |
-| [SetLicense](../../aspose.cells.gridweb/license/setlicense)(string) | Licenses the component. |
+| [SetLicense](../../aspose.cells.gridweb/license/setlicense#setlicense)(Stream) | Licenses the component. |
+| [SetLicense](../../aspose.cells.gridweb/license/setlicense#setlicense_1)(string) | Licenses the component. |
 
 ### See Also
 

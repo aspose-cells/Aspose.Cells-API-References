@@ -1,12 +1,12 @@
 ---
 title: HideItem
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets whether the specific PivotItem in a data field is hidden.
 type: docs
 weight: 470
 url: /net/aspose.cells.pivot/pivotfield/hideitem/
 ---
-## PivotField.HideItem method (1 of 2)
+## HideItem(int, bool) {#hideitem}
 
 Sets whether the specific PivotItem in a data field is hidden.
 
@@ -27,7 +27,7 @@ public void HideItem(int index, bool isHidden)
 
 ---
 
-## PivotField.HideItem method (2 of 2)
+## HideItem(string, bool) {#hideitem_1}
 
 Sets whether the specific PivotItem in a data field is hidden.
 

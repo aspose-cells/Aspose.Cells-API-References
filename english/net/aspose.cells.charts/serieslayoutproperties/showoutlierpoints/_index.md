@@ -1,7 +1,7 @@
 ---
 title: ShowOutlierPoints
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether showing outlier data points.
 type: docs
 weight: 100
 url: /net/aspose.cells.charts/serieslayoutproperties/showoutlierpoints/

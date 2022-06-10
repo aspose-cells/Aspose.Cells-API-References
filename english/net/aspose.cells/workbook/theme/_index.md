@@ -1,9 +1,9 @@
 ---
 title: Theme
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the theme name.
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.cells/workbook/theme/
 ---
 ## Workbook.Theme property

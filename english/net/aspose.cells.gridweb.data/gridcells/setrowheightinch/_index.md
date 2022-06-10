@@ -1,7 +1,7 @@
 ---
 title: SetRowHeightInch
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets row height in unit of inches.
 type: docs
 weight: 700
 url: /net/aspose.cells.gridweb.data/gridcells/setrowheightinch/

@@ -1,9 +1,9 @@
 ---
 title: MsoTextFrame
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the text frame in a Shape object.
 type: docs
-weight: 2400
+weight: 2420
 url: /net/aspose.cells.drawing/msotextframe/
 ---
 ## MsoTextFrame class

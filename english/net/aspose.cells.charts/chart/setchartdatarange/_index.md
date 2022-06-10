@@ -1,9 +1,9 @@
 ---
 title: SetChartDataRange
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies data range for a chart.
 type: docs
-weight: 570
+weight: 580
 url: /net/aspose.cells.charts/chart/setchartdatarange/
 ---
 ## Chart.SetChartDataRange method

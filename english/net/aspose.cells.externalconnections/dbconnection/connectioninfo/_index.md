@@ -1,7 +1,7 @@
 ---
 title: ConnectionInfo
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The connection information string is used to make contact with an OLE DB or ODBC data source.
 type: docs
 weight: 30
 url: /net/aspose.cells.externalconnections/dbconnection/connectioninfo/

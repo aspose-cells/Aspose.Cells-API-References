@@ -1,7 +1,7 @@
 ---
 title: EndArrowheadStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the end arrow type of the line.
 type: docs
 weight: 80
 url: /net/aspose.cells.drawing/lineformat/endarrowheadstyle/

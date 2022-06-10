@@ -1,7 +1,7 @@
 ---
 title: GetViewColumnWidthPixel
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get the width in different view type.
 type: docs
 weight: 490
 url: /net/aspose.cells.gridweb.data/gridcells/getviewcolumnwidthpixel/

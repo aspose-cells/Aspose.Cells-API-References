@@ -1,9 +1,9 @@
 ---
 title: DefaultX
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents x of default position
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.cells.charts/chartframe/defaultx/
 ---
 ## ChartFrame.DefaultX property

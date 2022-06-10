@@ -1,7 +1,7 @@
 ---
 title: OleSize
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and Sets displayed size when Workbook file is used as an Ole object.
 type: docs
 weight: 100
 url: /net/aspose.cells/worksheetcollection/olesize/

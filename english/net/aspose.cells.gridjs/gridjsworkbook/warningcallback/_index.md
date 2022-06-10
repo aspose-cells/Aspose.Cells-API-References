@@ -1,14 +1,14 @@
 ---
 title: WarningCallback
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets warning callback for import file.
 type: docs
 weight: 30
 url: /net/aspose.cells.gridjs/gridjsworkbook/warningcallback/
 ---
 ## GridJsWorkbook.WarningCallback property
 
-Callback interface of warning.
+Gets or sets warning callback for import file.
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }

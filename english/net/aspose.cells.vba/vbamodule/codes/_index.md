@@ -1,7 +1,7 @@
 ---
 title: Codes
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the codes of module.
 type: docs
 weight: 10
 url: /net/aspose.cells.vba/vbamodule/codes/

@@ -1,7 +1,7 @@
 ---
 title: RefreshPivotTables
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Refreshes all the PivotTables in the WorksheetCollection.
 type: docs
 weight: 280
 url: /net/aspose.cells/worksheetcollection/refreshpivottables/

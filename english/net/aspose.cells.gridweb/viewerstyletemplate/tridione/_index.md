@@ -1,7 +1,7 @@
 ---
 title: Tridione
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Internal used only.
 type: docs
 weight: 270
 url: /net/aspose.cells.gridweb/viewerstyletemplate/tridione/

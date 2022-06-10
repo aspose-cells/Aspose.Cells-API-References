@@ -1,7 +1,7 @@
 ---
 title: Signer
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the signer.
 type: docs
 weight: 90
 url: /net/aspose.cells.drawing/signatureline/signer/

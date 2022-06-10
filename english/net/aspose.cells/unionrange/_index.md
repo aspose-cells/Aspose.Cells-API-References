@@ -1,9 +1,9 @@
 ---
 title: UnionRange
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents union range.
 type: docs
-weight: 6140
+weight: 6180
 url: /net/aspose.cells/unionrange/
 ---
 ## UnionRange class
@@ -38,17 +38,17 @@ public class UnionRange
 | [ApplyStyle](../../aspose.cells/unionrange/applystyle)(Style, StyleFlag) | Applies formats for a whole range. |
 | [Copy](../../aspose.cells/unionrange/copy)(UnionRange, PasteOptions) | Copying the range with paste special options. |
 | [GetEnumerator](../../aspose.cells/unionrange/getenumerator)() | Gets the enumerator for cells in this Range. |
-| [Intersect](../../aspose.cells/unionrange/intersect)(Range[]) | Intersects another range. |
-| [Intersect](../../aspose.cells/unionrange/intersect)(string) | Intersects another range. |
-| [Intersect](../../aspose.cells/unionrange/intersect)(UnionRange) | Intersects another range. |
+| [Intersect](../../aspose.cells/unionrange/intersect#intersect)(Range[]) | Intersects another range. |
+| [Intersect](../../aspose.cells/unionrange/intersect#intersect_2)(string) | Intersects another range. |
+| [Intersect](../../aspose.cells/unionrange/intersect#intersect_1)(UnionRange) | Intersects another range. |
 | [Merge](../../aspose.cells/unionrange/merge)() | Combines a range of cells into a single cell. |
 | [PutValue](../../aspose.cells/unionrange/putvalue)(string, bool, bool) | Puts a value into the range, if appropriate the value will be converted to other data type and cell's number format will be reset. |
-| [SetOutlineBorders](../../aspose.cells/unionrange/setoutlineborders)(CellBorderType, Color) | Sets the outline borders around a range of cells with same border style and color. |
-| [SetOutlineBorders](../../aspose.cells/unionrange/setoutlineborders)(CellBorderType[], Color[]) | Sets out line borders around a range of cells. |
+| [SetOutlineBorders](../../aspose.cells/unionrange/setoutlineborders#setoutlineborders)(CellBorderType, Color) | Sets the outline borders around a range of cells with same border style and color. |
+| [SetOutlineBorders](../../aspose.cells/unionrange/setoutlineborders#setoutlineborders_1)(CellBorderType[], Color[]) | Sets out line borders around a range of cells. |
 | [SetStyle](../../aspose.cells/unionrange/setstyle)(Style) | Sets the style of the range. |
-| [Union](../../aspose.cells/unionrange/union)(Range[]) | Union the ranges. |
-| [Union](../../aspose.cells/unionrange/union)(string) | Union another range. |
-| [Union](../../aspose.cells/unionrange/union)(UnionRange) | Union another range. |
+| [Union](../../aspose.cells/unionrange/union#union)(Range[]) | Union the ranges. |
+| [Union](../../aspose.cells/unionrange/union#union_2)(string) | Union another range. |
+| [Union](../../aspose.cells/unionrange/union#union_1)(UnionRange) | Union another range. |
 | [UnMerge](../../aspose.cells/unionrange/unmerge)() | Unmerges merged cells of this range. |
 
 ### See Also

@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Add a custom command button object to the collection.
 type: docs
 weight: 70
 url: /net/aspose.cells.gridweb/customcommandbuttoncollection/add/

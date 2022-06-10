@@ -1,7 +1,7 @@
 ---
 title: Criteria
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The filter criteria string.
 type: docs
 weight: 10
 url: /net/aspose.cells.griddesktop/rowfiltersettings/criteria/

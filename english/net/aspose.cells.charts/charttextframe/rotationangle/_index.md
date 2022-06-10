@@ -1,7 +1,7 @@
 ---
 title: RotationAngle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents text rotation angle.
 type: docs
 weight: 80
 url: /net/aspose.cells.charts/charttextframe/rotationangle/

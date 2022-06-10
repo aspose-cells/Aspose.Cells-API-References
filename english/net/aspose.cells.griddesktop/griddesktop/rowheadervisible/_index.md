@@ -1,7 +1,7 @@
 ---
 title: RowHeaderVisible
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether row header is visible.
 type: docs
 weight: 230
 url: /net/aspose.cells.griddesktop/griddesktop/rowheadervisible/

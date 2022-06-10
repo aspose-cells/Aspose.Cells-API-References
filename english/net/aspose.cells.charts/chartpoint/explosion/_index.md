@@ -1,7 +1,7 @@
 ---
 title: Explosion
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter.
 type: docs
 weight: 100
 url: /net/aspose.cells.charts/chartpoint/explosion/

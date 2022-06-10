@@ -1,7 +1,7 @@
 ---
 title: ClearData
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Make the workbook empty after saving the file.
 type: docs
 weight: 20
 url: /net/aspose.cells.gridweb.data/gridsaveoptions/cleardata/

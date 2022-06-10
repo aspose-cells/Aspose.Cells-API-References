@@ -1,9 +1,9 @@
 ---
 title: ContentType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the content type of the document.
 type: docs
-weight: 60
+weight: 90
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/contenttype/
 ---
 ## BuiltInDocumentPropertyCollection.ContentType property

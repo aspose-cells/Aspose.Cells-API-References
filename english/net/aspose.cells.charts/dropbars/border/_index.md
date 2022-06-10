@@ -1,7 +1,7 @@
 ---
 title: Border
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the border Lineaspose.cells.drawing/line.
 type: docs
 weight: 20
 url: /net/aspose.cells.charts/dropbars/border/

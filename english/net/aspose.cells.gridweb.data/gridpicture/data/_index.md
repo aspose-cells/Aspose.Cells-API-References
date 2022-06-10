@@ -1,7 +1,7 @@
 ---
 title: Data
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the data of the picture.
 type: docs
 weight: 50
 url: /net/aspose.cells.gridweb.data/gridpicture/data/

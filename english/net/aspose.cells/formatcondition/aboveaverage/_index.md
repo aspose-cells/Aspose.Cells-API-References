@@ -1,7 +1,7 @@
 ---
 title: AboveAverage
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get the conditional formattings AboveAverage instance. The default instances rule highlights cells that are above the average for all values in the range. Valid only for type  AboveAverage.
 type: docs
 weight: 10
 url: /net/aspose.cells/formatcondition/aboveaverage/

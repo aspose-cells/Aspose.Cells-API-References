@@ -1,9 +1,9 @@
 ---
 title: RemoveHyperlink
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Remove the hyperlink of the shape.
 type: docs
-weight: 1100
+weight: 1160
 url: /net/aspose.cells.drawing/shape/removehyperlink/
 ---
 ## Shape.RemoveHyperlink method

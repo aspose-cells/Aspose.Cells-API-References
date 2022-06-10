@@ -1,7 +1,7 @@
 ---
 title: PathSegementList
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets ShapeSegmentPathCollectionaspose.cells.drawing/shapesegmentpathcollection list
 type: docs
 weight: 20
 url: /net/aspose.cells.drawing/shapepath/pathsegementlist/

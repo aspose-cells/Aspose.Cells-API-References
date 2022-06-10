@@ -1,7 +1,7 @@
 ---
 title: CopyRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Copies data and formats of a whole row.
 type: docs
 weight: 470
 url: /net/aspose.cells/cells/copyrow/

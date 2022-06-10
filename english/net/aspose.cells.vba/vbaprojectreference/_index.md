@@ -1,9 +1,9 @@
 ---
 title: VbaProjectReference
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the reference of VBA project.
 type: docs
-weight: 6270
+weight: 6310
 url: /net/aspose.cells.vba/vbaprojectreference/
 ---
 ## VbaProjectReference class

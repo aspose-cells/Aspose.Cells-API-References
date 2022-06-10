@@ -1,9 +1,9 @@
 ---
 title: ContentDisposition
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The content disposition type.
 type: docs
-weight: 1160
+weight: 1180
 url: /net/aspose.cells/contentdisposition/
 ---
 ## ContentDisposition enumeration

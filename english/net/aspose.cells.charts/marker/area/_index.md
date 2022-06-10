@@ -1,7 +1,7 @@
 ---
 title: Area
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the areaaspose.cells.charts/marker/area.
 type: docs
 weight: 10
 url: /net/aspose.cells.charts/marker/area/

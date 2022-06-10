@@ -1,7 +1,7 @@
 ---
 title: IsPlotOrderReversed
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents if Microsoft Excel plots data points from last to first.
 type: docs
 weight: 210
 url: /net/aspose.cells.charts/axis/isplotorderreversed/

@@ -1,9 +1,9 @@
 ---
 title: MsoLineFormat
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents line and arrowhead formatting.
 type: docs
-weight: 2350
+weight: 2370
 url: /net/aspose.cells.drawing/msolineformat/
 ---
 ## MsoLineFormat class

@@ -1,12 +1,12 @@
 ---
 title: Protect
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Protects worksheet.
 type: docs
 weight: 770
 url: /net/aspose.cells/worksheet/protect/
 ---
-## Worksheet.Protect method (1 of 2)
+## Protect(ProtectionType) {#protect}
 
 Protects worksheet.
 
@@ -31,7 +31,7 @@ This method protects worksheet without password. It can protect worksheet in all
 
 ---
 
-## Worksheet.Protect method (2 of 2)
+## Protect(ProtectionType, string, string) {#protect_1}
 
 Protects worksheet.
 

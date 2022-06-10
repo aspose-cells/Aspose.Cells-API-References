@@ -1,7 +1,7 @@
 ---
 title: SaveFormat
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the save file format.
 type: docs
 weight: 60
 url: /net/aspose.cells.gridweb.data/gridsaveoptions/saveformat/

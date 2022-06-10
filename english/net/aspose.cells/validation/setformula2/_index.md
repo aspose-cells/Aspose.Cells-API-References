@@ -1,7 +1,7 @@
 ---
 title: SetFormula2
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the value or expression associated with this validation.
 type: docs
 weight: 270
 url: /net/aspose.cells/validation/setformula2/

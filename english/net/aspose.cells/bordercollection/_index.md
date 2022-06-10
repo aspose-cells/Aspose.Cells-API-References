@@ -1,7 +1,7 @@
 ---
 title: BorderCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates a collection of Border./border objects.
 type: docs
 weight: 150
 url: /net/aspose.cells/bordercollection/

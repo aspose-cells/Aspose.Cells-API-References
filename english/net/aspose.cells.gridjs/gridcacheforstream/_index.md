@@ -1,7 +1,7 @@
 ---
 title: GridCacheForStream
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: This class contains the cache operations for GridJs. User shall implement his own business logic for storage based on it..
 type: docs
 weight: 30
 url: /net/aspose.cells.gridjs/gridcacheforstream/

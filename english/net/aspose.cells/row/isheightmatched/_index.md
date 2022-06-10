@@ -1,7 +1,7 @@
 ---
 title: IsHeightMatched
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates that row height and default font height matches.
 type: docs
 weight: 80
 url: /net/aspose.cells/row/isheightmatched/

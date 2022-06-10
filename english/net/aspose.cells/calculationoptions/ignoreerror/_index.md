@@ -1,9 +1,9 @@
 ---
 title: IgnoreError
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates if you need to hide the error in calculating formulas. The error may be unsupported function external links etc.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.cells/calculationoptions/ignoreerror/
 ---
 ## CalculationOptions.IgnoreError property

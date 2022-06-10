@@ -1,7 +1,7 @@
 ---
 title: Height
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the Height of the comment in unit of pixels.
 type: docs
 weight: 40
 url: /net/aspose.cells.gridweb.data/gridcomment/height/

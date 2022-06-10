@@ -1,7 +1,7 @@
 ---
 title: Alignment
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and set the position of the Caption relative to the control.
 type: docs
 weight: 10
 url: /net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/alignment/

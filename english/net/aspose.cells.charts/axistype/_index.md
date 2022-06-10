@@ -1,9 +1,9 @@
 ---
 title: AxisType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the axis type.
 type: docs
-weight: 370
+weight: 380
 url: /net/aspose.cells.charts/axistype/
 ---
 ## AxisType enumeration

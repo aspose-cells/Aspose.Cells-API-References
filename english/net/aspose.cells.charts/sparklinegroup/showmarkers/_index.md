@@ -1,7 +1,7 @@
 ---
 title: ShowMarkers
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether to highlight each point in each line sparkline in the sparkline group.
 type: docs
 weight: 200
 url: /net/aspose.cells.charts/sparklinegroup/showmarkers/

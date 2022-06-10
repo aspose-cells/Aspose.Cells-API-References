@@ -1,7 +1,7 @@
 ---
 title: FirstPointColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the color of the first point of data in the sparkline group.
 type: docs
 weight: 20
 url: /net/aspose.cells.charts/sparklinegroup/firstpointcolor/

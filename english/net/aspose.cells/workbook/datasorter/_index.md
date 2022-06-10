@@ -1,9 +1,9 @@
 ---
 title: DataSorter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets a DataSorter object to sort data.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.cells/workbook/datasorter/
 ---
 ## Workbook.DataSorter property

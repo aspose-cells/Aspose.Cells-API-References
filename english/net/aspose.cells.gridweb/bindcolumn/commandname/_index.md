@@ -1,7 +1,7 @@
 ---
 title: CommandName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The command name of the column. A CellCommand Hyperlink will be created in the bound cell if the CommandName property is set.
 type: docs
 weight: 50
 url: /net/aspose.cells.gridweb/bindcolumn/commandname/

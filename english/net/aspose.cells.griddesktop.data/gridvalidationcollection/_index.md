@@ -1,7 +1,7 @@
 ---
 title: GridValidationCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates a collection of GridValidation./gridvalidation objects.
 type: docs
 weight: 720
 url: /net/aspose.cells.griddesktop.data/gridvalidationcollection/
@@ -25,14 +25,14 @@ public class GridValidationCollection
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add)() | Add a [`GridValidation`](../gridvalidation) to the collection. |
-| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add)(GridValidation) | Add a [`GridValidation`](../gridvalidation) to the collection. |
-| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add)(string) | Add a [`GridValidation`](../gridvalidation) to the collection.the validation is applied to the specificed cell. |
-| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add)(int, int) | Add a [`GridValidation`](../gridvalidation) to the collection.the validation is applied to the specificed cell. |
-| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add)(string, ICustomValidation) | Adds a validation to a specified cell by cell name. |
-| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add)(int, int, ICustomValidation) | Adds a validation to a specified cell at row column index. |
-| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add)(string, bool, string) | Adds a validation to a specified cell by cell name. |
-| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add)(int, int, bool, string) | Adds a validation to a specified cell at row column index. |
+| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add)() | Add a [`GridValidation`](../gridvalidation) to the collection. |
+| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_3)(GridValidation) | Add a [`GridValidation`](../gridvalidation) to the collection. |
+| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_2)(string) | Add a [`GridValidation`](../gridvalidation) to the collection.the validation is applied to the specificed cell. |
+| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_1)(int, int) | Add a [`GridValidation`](../gridvalidation) to the collection.the validation is applied to the specificed cell. |
+| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_6)(string, ICustomValidation) | Adds a validation to a specified cell by cell name. |
+| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_4)(int, int, ICustomValidation) | Adds a validation to a specified cell at row column index. |
+| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_7)(string, bool, string) | Adds a validation to a specified cell by cell name. |
+| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_5)(int, int, bool, string) | Adds a validation to a specified cell at row column index. |
 | [Clear](../../aspose.cells.griddesktop.data/gridvalidationcollection/clear)() | Clears all validations. |
 | [RemoveAt](../../aspose.cells.griddesktop.data/gridvalidationcollection/removeat)(int) | Remove the validation at the specified index. |
 

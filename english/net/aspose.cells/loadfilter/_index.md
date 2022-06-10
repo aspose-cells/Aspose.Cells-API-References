@@ -1,9 +1,9 @@
 ---
 title: LoadFilter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the filter that provides options for loading data when loading workbook from template.
 type: docs
-weight: 3970
+weight: 4010
 url: /net/aspose.cells/loadfilter/
 ---
 ## LoadFilter class
@@ -18,8 +18,8 @@ public class LoadFilter
 
 | Name | Description |
 | --- | --- |
-| [LoadFilter](loadfilter)() | Constructs one LoadFilter with default filter options LoadDataFilterOptions.All. |
-| [LoadFilter](loadfilter)(LoadDataFilterOptions) | Constructs one LoadFilter with given filter options. |
+| [LoadFilter](loadfilter#constructor)() | Constructs one LoadFilter with default filter options LoadDataFilterOptions.All. |
+| [LoadFilter](loadfilter#constructor_1)(LoadDataFilterOptions) | Constructs one LoadFilter with given filter options. |
 
 ## Properties
 

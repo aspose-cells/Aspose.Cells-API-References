@@ -1,9 +1,9 @@
 ---
 title: PdfBookmarkEntry
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: PdfBookmarkEntry is an entry in pdf bookmark. if Text property of current instance is null or  current instance will be hidden and children will be inserted on current level.
 type: docs
-weight: 5170
+weight: 5210
 url: /net/aspose.cells.rendering/pdfbookmarkentry/
 ---
 ## PdfBookmarkEntry class

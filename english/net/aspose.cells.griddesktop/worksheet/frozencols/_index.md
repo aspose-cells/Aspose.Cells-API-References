@@ -1,7 +1,7 @@
 ---
 title: FrozenCols
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets Worksheets frozen column count. Frozen will start at first column.
 type: docs
 weight: 180
 url: /net/aspose.cells.griddesktop/worksheet/frozencols/

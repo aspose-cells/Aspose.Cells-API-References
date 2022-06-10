@@ -1,7 +1,7 @@
 ---
 title: CustomMsgTitle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the custom message title to show when a invalid value input.
 type: docs
 weight: 60
 url: /net/aspose.cells.griddesktop.data/gridvalidation/custommsgtitle/

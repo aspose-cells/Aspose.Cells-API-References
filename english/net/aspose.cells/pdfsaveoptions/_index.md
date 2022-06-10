@@ -1,9 +1,9 @@
 ---
 title: PdfSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the options for saving pdf file.
 type: docs
-weight: 4490
+weight: 4530
 url: /net/aspose.cells/pdfsaveoptions/
 ---
 ## PdfSaveOptions class
@@ -18,7 +18,8 @@ public class PdfSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [PdfSaveOptions](pdfsaveoptions)() | Creates the options for saving pdf file. |
+| [PdfSaveOptions](pdfsaveoptions#constructor)() | Creates the options for saving pdf file. |
+| [PdfSaveOptions](pdfsaveoptions#constructor_1)(SaveFormat) | Creates the options for saving pdf file. |
 
 ## Properties
 
@@ -41,6 +42,7 @@ public class PdfSaveOptions : SaveOptions
 | [DrawObjectEventHandler](../../aspose.cells/pdfsaveoptions/drawobjecteventhandler) { get; set; } | Implements this interface to get DrawObject and Bound when rendering. |
 | [EmbedStandardWindowsFonts](../../aspose.cells/pdfsaveoptions/embedstandardwindowsfonts) { get; set; } | True to embed true type fonts. Affects only ASCII characters 32-127. Fonts for character codes greater than 127 are always embedded. Fonts are always embedded for PDF/A-1a, PDF/A-1b standard. Default is true. |
 | [EmfRenderSetting](../../aspose.cells/pdfsaveoptions/emfrendersetting) { get; set; } | Setting for rendering Emf metafile. |
+| [EnableHTTPCompression](../../aspose.cells/saveoptions/enablehttpcompression) { get; set; } | Indicates if http compression is to be used in user's IIS. |
 | [ExportDocumentStructure](../../aspose.cells/pdfsaveoptions/exportdocumentstructure) { get; set; } | Indicates whether to export document structure. |
 | [FontEncoding](../../aspose.cells/pdfsaveoptions/fontencoding) { get; set; } | Gets or sets embedded font encoding in pdf. |
 | [GridlineType](../../aspose.cells/pdfsaveoptions/gridlinetype) { get; set; } | Gets or sets gridline type. |
@@ -55,6 +57,7 @@ public class PdfSaveOptions : SaveOptions
 | [PageIndex](../../aspose.cells/pdfsaveoptions/pageindex) { get; set; } | Gets or sets the 0-based index of the first page to save. |
 | [PageSavingCallback](../../aspose.cells/pdfsaveoptions/pagesavingcallback) { get; set; } | Control/Indicate progress of page saving process. |
 | [PdfCompression](../../aspose.cells/pdfsaveoptions/pdfcompression) { get; set; } | Indicate the compression algorithm |
+| [PdfExportImagesFolder](../../aspose.cells/saveoptions/pdfexportimagesfolder) { get; set; } | The physical folder where images will be saved when exporting a workbook to Aspose.Pdf XML format. Default is an empty string. |
 | [PrintingPageType](../../aspose.cells/pdfsaveoptions/printingpagetype) { get; set; } | Indicates which pages will not be printed. |
 | [Producer](../../aspose.cells/pdfsaveoptions/producer) { get; set; } | Gets and sets producer of generated pdf document. |
 | [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Indicates whether refreshing chart cache data |

@@ -1,9 +1,9 @@
 ---
 title: Encoding
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the default encoding.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.cells/txtsaveoptions/encoding/
 ---
 ## TxtSaveOptions.Encoding property

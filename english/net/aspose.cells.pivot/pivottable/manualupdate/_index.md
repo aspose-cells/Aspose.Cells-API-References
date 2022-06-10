@@ -1,7 +1,7 @@
 ---
 title: ManualUpdate
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the PivotTable report is recalculated only at the users request.
 type: docs
 weight: 340
 url: /net/aspose.cells.pivot/pivottable/manualupdate/

@@ -1,9 +1,9 @@
 ---
 title: FormatConditionCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents conditional formatting. The FormatConditions can contain up to three conditional formats.
 type: docs
-weight: 3560
+weight: 3590
 url: /net/aspose.cells/formatconditioncollection/
 ---
 ## FormatConditionCollection class
@@ -28,11 +28,11 @@ public class FormatConditionCollection
 | --- | --- |
 | [Add](../../aspose.cells/formatconditioncollection/add)(CellArea, FormatConditionType, OperatorType, string, string) | Adds a formatting condition and effected cell rang to the FormatConditions The FormatConditions can contain up to three conditional formats. References to the other sheets are not allowed in the formulas of conditional formatting. |
 | [AddArea](../../aspose.cells/formatconditioncollection/addarea)(CellArea) | Adds a conditional formatted cell range. |
-| [AddCondition](../../aspose.cells/formatconditioncollection/addcondition)(FormatConditionType) | Add a format condition. |
-| [AddCondition](../../aspose.cells/formatconditioncollection/addcondition)(FormatConditionType, OperatorType, string, string) | Adds a formatting condition. |
+| [AddCondition](../../aspose.cells/formatconditioncollection/addcondition#addcondition)(FormatConditionType) | Add a format condition. |
+| [AddCondition](../../aspose.cells/formatconditioncollection/addcondition#addcondition_1)(FormatConditionType, OperatorType, string, string) | Adds a formatting condition. |
 | [GetCellArea](../../aspose.cells/formatconditioncollection/getcellarea)(int) | Gets the conditional formatted cell range by index. |
-| [RemoveArea](../../aspose.cells/formatconditioncollection/removearea)(int) | Removes conditional formatted cell range by index. |
-| [RemoveArea](../../aspose.cells/formatconditioncollection/removearea)(int, int, int, int) | Remove conditional formatting int the range. |
+| [RemoveArea](../../aspose.cells/formatconditioncollection/removearea#removearea_1)(int) | Removes conditional formatted cell range by index. |
+| [RemoveArea](../../aspose.cells/formatconditioncollection/removearea#removearea)(int, int, int, int) | Remove conditional formatting int the range. |
 | [RemoveCondition](../../aspose.cells/formatconditioncollection/removecondition)(int) | Removes the formatting condition by index. |
 
 ### Examples

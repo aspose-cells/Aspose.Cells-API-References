@@ -1,9 +1,9 @@
 ---
 title: ConsolidationFunction
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents consolidation function.
 type: docs
-weight: 1150
+weight: 1170
 url: /net/aspose.cells/consolidationfunction/
 ---
 ## ConsolidationFunction enumeration

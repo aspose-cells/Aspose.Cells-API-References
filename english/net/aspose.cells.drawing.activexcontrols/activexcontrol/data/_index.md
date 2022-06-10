@@ -1,7 +1,7 @@
 ---
 title: Data
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the binary data of the control.
 type: docs
 weight: 10
 url: /net/aspose.cells.drawing.activexcontrols/activexcontrol/data/

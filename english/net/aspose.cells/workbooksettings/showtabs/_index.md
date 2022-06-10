@@ -1,9 +1,9 @@
 ---
 title: ShowTabs
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get or sets a value whether the Workbook tabs are displayed.
 type: docs
-weight: 430
+weight: 550
 url: /net/aspose.cells/workbooksettings/showtabs/
 ---
 ## WorkbookSettings.ShowTabs property

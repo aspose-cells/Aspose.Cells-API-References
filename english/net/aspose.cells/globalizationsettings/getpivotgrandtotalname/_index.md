@@ -1,9 +1,9 @@
 ---
 title: GetPivotGrandTotalName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the name of Grand Total label in the PivotTable.
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.cells/globalizationsettings/getpivotgrandtotalname/
 ---
 ## GlobalizationSettings.GetPivotGrandTotalName method

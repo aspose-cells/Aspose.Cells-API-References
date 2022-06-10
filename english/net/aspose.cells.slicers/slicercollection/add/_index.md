@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Add a new Slicer using PivotTable as data source
 type: docs
 weight: 20
 url: /net/aspose.cells.slicers/slicercollection/add/
 ---
-## SlicerCollection.Add method (1 of 9)
+## Add(PivotTable, string, string) {#add_5}
 
 Add a new Slicer using PivotTable as data source
 
@@ -42,7 +42,7 @@ slicers.Add(pivot, "E3", "fruit");
 
 ---
 
-## SlicerCollection.Add method (2 of 9)
+## Add(PivotTable, int, int, string) {#add_2}
 
 Add a new Slicer using PivotTable as data source
 
@@ -79,7 +79,7 @@ slicers.Add(pivot, 20, 12, "fruit");
 
 ---
 
-## SlicerCollection.Add method (3 of 9)
+## Add(PivotTable, int, int, int) {#add_1}
 
 Add a new Slicer using PivotTable as data source
 
@@ -116,7 +116,7 @@ slicers.Add(pivot, 20, 8, 0);
 
 ---
 
-## SlicerCollection.Add method (4 of 9)
+## Add(PivotTable, string, int) {#add_4}
 
 Add a new Slicer using PivotTable as data source
 
@@ -152,7 +152,7 @@ slicers.Add(pivot, "E20", 0);
 
 ---
 
-## SlicerCollection.Add method (5 of 9)
+## Add(PivotTable, int, int, PivotField) {#add}
 
 Add a new Slicer using PivotTable as data source
 
@@ -190,7 +190,7 @@ slicers.Add(pivot, 3, 12, pivot.BaseFields[0]);
 
 ---
 
-## SlicerCollection.Add method (6 of 9)
+## Add(PivotTable, string, PivotField) {#add_3}
 
 Add a new Slicer using PivotTable as data source
 
@@ -227,7 +227,7 @@ slicers.Add(pivot, "I3", pivot.BaseFields[0]);
 
 ---
 
-## SlicerCollection.Add method (7 of 9)
+## Add(ListObject, int, string) {#add_8}
 
 Add a new Slicer using ListObjet as data source
 
@@ -263,7 +263,7 @@ slicers.Add(table, 1, "E38");
 
 ---
 
-## SlicerCollection.Add method (8 of 9)
+## Add(ListObject, ListColumn, string) {#add_7}
 
 Add a new Slicer using ListObjet as data source
 
@@ -300,7 +300,7 @@ slicers.Add(table, table.ListColumns[1], "I38");
 
 ---
 
-## SlicerCollection.Add method (9 of 9)
+## Add(ListObject, ListColumn, int, int) {#add_6}
 
 Add a new Slicer using ListObjet as data source
 

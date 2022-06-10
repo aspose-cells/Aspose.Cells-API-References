@@ -1,9 +1,9 @@
 ---
 title: LegendEntry
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the legend entry according to this series.
 type: docs
-weight: 280
+weight: 290
 url: /net/aspose.cells.charts/series/legendentry/
 ---
 ## Series.LegendEntry property

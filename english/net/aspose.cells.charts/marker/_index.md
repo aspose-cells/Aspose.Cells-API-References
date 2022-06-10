@@ -1,9 +1,9 @@
 ---
 title: Marker
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the marker in a line chart scatter chart or radar chart.
 type: docs
-weight: 750
+weight: 770
 url: /net/aspose.cells.charts/marker/
 ---
 ## Marker class

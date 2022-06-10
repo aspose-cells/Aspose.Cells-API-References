@@ -1,9 +1,9 @@
 ---
 title: Type
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a data series type.
 type: docs
-weight: 440
+weight: 450
 url: /net/aspose.cells.charts/series/type/
 ---
 ## Series.Type property

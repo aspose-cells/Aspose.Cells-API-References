@@ -1,7 +1,7 @@
 ---
 title: ToString
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns a string represents the current Cell object.
 type: docs
 weight: 370
 url: /net/aspose.cells.gridweb.data/gridcell/tostring/

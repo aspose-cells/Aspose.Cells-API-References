@@ -1,7 +1,7 @@
 ---
 title: GetRowHeight
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the height of a specified row.
 type: docs
 weight: 450
 url: /net/aspose.cells.gridweb.data/gridcells/getrowheight/

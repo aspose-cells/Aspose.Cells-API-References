@@ -1,7 +1,7 @@
 ---
 title: Border
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the borderaspose.cells.drawing/line.
 type: docs
 weight: 60
 url: /net/aspose.cells.charts/chartpoint/border/

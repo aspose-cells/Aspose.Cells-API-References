@@ -1,7 +1,7 @@
 ---
 title: IsPercentScale
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: If this property is False the FitToPagesWide and FitToPagesTall properties control how the worksheet is scaled.
 type: docs
 weight: 190
 url: /net/aspose.cells/pagesetup/ispercentscale/

@@ -1,12 +1,12 @@
 ---
 title: ImportExcelFile
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Imports from an excel file stream including disk file stream or memory stream.
 type: docs
 weight: 730
 url: /net/aspose.cells.griddesktop/griddesktop/importexcelfile/
 ---
-## GridDesktop.ImportExcelFile method (1 of 7)
+## ImportExcelFile(Stream) {#importexcelfile}
 
 Imports from an excel file stream, including disk file stream or memory stream.
 
@@ -56,7 +56,7 @@ End Sub
 
 ---
 
-## GridDesktop.ImportExcelFile method (2 of 7)
+## ImportExcelFile(Stream, bool) {#importexcelfile_1}
 
 Imports from an excel file stream, including disk file stream or memory stream.
 
@@ -77,7 +77,7 @@ public void ImportExcelFile(Stream stream, bool runFormulas)
 
 ---
 
-## GridDesktop.ImportExcelFile method (3 of 7)
+## ImportExcelFile(string) {#importexcelfile_3}
 
 Imports from an excel file.
 
@@ -109,7 +109,7 @@ End Sub
 
 ---
 
-## GridDesktop.ImportExcelFile method (4 of 7)
+## ImportExcelFile(string, bool) {#importexcelfile_4}
 
 Imports from an excel file.
 
@@ -130,7 +130,7 @@ public void ImportExcelFile(string fileName, bool runFormulas)
 
 ---
 
-## GridDesktop.ImportExcelFile method (5 of 7)
+## ImportExcelFile(Stream, string, string, bool, bool) {#importexcelfile_2}
 
 Imports from an excel file.
 
@@ -155,7 +155,7 @@ public void ImportExcelFile(Stream stream, string passwordtoOpen, string passwor
 
 ---
 
-## GridDesktop.ImportExcelFile method (6 of 7)
+## ImportExcelFile(string, string, string, bool, bool) {#importexcelfile_6}
 
 Imports from an excel file.
 
@@ -180,7 +180,7 @@ public void ImportExcelFile(string fileName, string passwordtoOpen, string passw
 
 ---
 
-## GridDesktop.ImportExcelFile method (7 of 7)
+## ImportExcelFile(string, int) {#importexcelfile_5}
 
 Imports a worksheet from an excel file.
 

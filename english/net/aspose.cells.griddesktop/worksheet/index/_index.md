@@ -1,7 +1,7 @@
 ---
 title: Index
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the index of sheet in the worksheets collection.
 type: docs
 weight: 230
 url: /net/aspose.cells.griddesktop/worksheet/index/

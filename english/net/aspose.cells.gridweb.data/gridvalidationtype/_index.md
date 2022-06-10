@@ -1,9 +1,9 @@
 ---
 title: GridValidationType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents data validation type.
 type: docs
-weight: 530
+weight: 540
 url: /net/aspose.cells.gridweb.data/gridvalidationtype/
 ---
 ## GridValidationType enumeration

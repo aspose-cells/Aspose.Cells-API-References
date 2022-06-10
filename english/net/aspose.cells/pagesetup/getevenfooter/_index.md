@@ -1,7 +1,7 @@
 ---
 title: GetEvenFooter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets a script formatting the even footer of an Excel file.
 type: docs
 weight: 480
 url: /net/aspose.cells/pagesetup/getevenfooter/

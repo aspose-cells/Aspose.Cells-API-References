@@ -1,7 +1,7 @@
 ---
 title: RowColumnEventHandler
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the interface that intend to handle row/column events.
 type: docs
 weight: 780
 url: /net/aspose.cells.griddesktop.data/rowcolumneventhandler/

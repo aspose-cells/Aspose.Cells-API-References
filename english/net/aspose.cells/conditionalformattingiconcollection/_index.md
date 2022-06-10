@@ -1,9 +1,9 @@
 ---
 title: ConditionalFormattingIconCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a collection of ConditionalFormattingIcon./conditionalformattingicon objects.
 type: docs
-weight: 1110
+weight: 1130
 url: /net/aspose.cells/conditionalformattingiconcollection/
 ---
 ## ConditionalFormattingIconCollection class
@@ -27,8 +27,8 @@ public class ConditionalFormattingIconCollection : CollectionBase<ConditionalFor
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells/conditionalformattingiconcollection/add)(ConditionalFormattingIcon) | Adds [`ConditionalFormattingIcon`](../conditionalformattingicon) object. |
-| [Add](../../aspose.cells/conditionalformattingiconcollection/add)(IconSetType, int) | Adds [`ConditionalFormattingIcon`](../conditionalformattingicon) object. |
+| [Add](../../aspose.cells/conditionalformattingiconcollection/add#add)(ConditionalFormattingIcon) | Adds [`ConditionalFormattingIcon`](../conditionalformattingicon) object. |
+| [Add](../../aspose.cells/conditionalformattingiconcollection/add#add_1)(IconSetType, int) | Adds [`ConditionalFormattingIcon`](../conditionalformattingicon) object. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ConditionalFormattingIcon) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ConditionalFormattingIcon, IComparer&lt;ConditionalFormattingIcon&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, ConditionalFormattingIcon, IComparer&lt;ConditionalFormattingIcon&gt;) |  |

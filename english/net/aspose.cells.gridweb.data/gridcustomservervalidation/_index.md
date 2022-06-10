@@ -1,9 +1,9 @@
 ---
 title: GridCustomServerValidation
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: the interface you need to implement when use server side validation. CustomServerFunction.
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.cells.gridweb.data/gridcustomservervalidation/
 ---
 ## GridCustomServerValidation interface

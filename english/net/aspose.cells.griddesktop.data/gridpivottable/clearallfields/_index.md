@@ -1,7 +1,7 @@
 ---
 title: ClearAllFields
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: clear all pivot fields.
 type: docs
 weight: 30
 url: /net/aspose.cells.griddesktop.data/gridpivottable/clearallfields/

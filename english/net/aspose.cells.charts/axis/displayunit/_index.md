@@ -1,7 +1,7 @@
 ---
 title: DisplayUnit
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the unit label for the specified axis.
 type: docs
 weight: 110
 url: /net/aspose.cells.charts/axis/displayunit/

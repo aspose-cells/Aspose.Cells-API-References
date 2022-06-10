@@ -1,7 +1,7 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Alway true.
 type: docs
 weight: 30
 url: /net/aspose.cells.gridweb/bindcolumncollection/isreadonly/

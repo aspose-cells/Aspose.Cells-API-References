@@ -1,7 +1,7 @@
 ---
 title: ShowDataTable
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the chart displays a data table.
 type: docs
 weight: 390
 url: /net/aspose.cells.charts/chart/showdatatable/

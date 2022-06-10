@@ -1,9 +1,9 @@
 ---
 title: MoveToRange
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Moves the shape to a specified range.
 type: docs
-weight: 1080
+weight: 1140
 url: /net/aspose.cells.drawing/shape/movetorange/
 ---
 ## Shape.MoveToRange method

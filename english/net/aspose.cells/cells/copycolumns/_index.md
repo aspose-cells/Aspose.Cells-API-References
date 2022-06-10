@@ -1,12 +1,12 @@
 ---
 title: CopyColumns
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Copies data and formats of a whole column.
 type: docs
 weight: 460
 url: /net/aspose.cells/cells/copycolumns/
 ---
-## Cells.CopyColumns method (1 of 3)
+## CopyColumns(Cells, int, int, int, PasteOptions) {#copycolumns_1}
 
 Copies data and formats of a whole column.
 
@@ -32,7 +32,7 @@ public void CopyColumns(Cells sourceCells0, int sourceColumnIndex, int destinati
 
 ---
 
-## Cells.CopyColumns method (2 of 3)
+## CopyColumns(Cells, int, int, int) {#copycolumns}
 
 Copies data and formats of a whole column.
 
@@ -56,7 +56,7 @@ public void CopyColumns(Cells sourceCells0, int sourceColumnIndex, int destinati
 
 ---
 
-## Cells.CopyColumns method (3 of 3)
+## CopyColumns(Cells, int, int, int, int) {#copycolumns_2}
 
 Copies data and formats of the whole columns.
 

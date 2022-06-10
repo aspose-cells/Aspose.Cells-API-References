@@ -1,7 +1,7 @@
 ---
 title: AddPageField
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a page field.
 type: docs
 weight: 40
 url: /net/aspose.cells.pivot/pivotpagefields/addpagefield/

@@ -1,7 +1,7 @@
 ---
 title: Color
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the borders color of data bars specified by a conditional formatting rule.
 type: docs
 weight: 10
 url: /net/aspose.cells/databarborder/color/

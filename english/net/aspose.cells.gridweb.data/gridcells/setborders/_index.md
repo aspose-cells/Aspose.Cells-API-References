@@ -1,7 +1,7 @@
 ---
 title: SetBorders
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets borders for a cells range.
 type: docs
 weight: 650
 url: /net/aspose.cells.gridweb.data/gridcells/setborders/

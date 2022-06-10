@@ -1,9 +1,9 @@
 ---
 title: WidthCM
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the width of the shape in unit of centimeters.
 type: docs
-weight: 870
+weight: 930
 url: /net/aspose.cells.drawing/shape/widthcm/
 ---
 ## Shape.WidthCM property

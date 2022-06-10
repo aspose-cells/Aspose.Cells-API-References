@@ -1,9 +1,9 @@
 ---
 title: Company
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the company property.
 type: docs
-weight: 40
+weight: 70
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/company/
 ---
 ## BuiltInDocumentPropertyCollection.Company property

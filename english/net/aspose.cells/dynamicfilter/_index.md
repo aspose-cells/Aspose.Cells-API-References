@@ -1,9 +1,9 @@
 ---
 title: DynamicFilter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the dynamic filter.
 type: docs
-weight: 3120
+weight: 3150
 url: /net/aspose.cells/dynamicfilter/
 ---
 ## DynamicFilter class

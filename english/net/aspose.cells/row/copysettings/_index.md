@@ -1,7 +1,7 @@
 ---
 title: CopySettings
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Copy settings of row such as style height visibility ...etc.
 type: docs
 weight: 150
 url: /net/aspose.cells/row/copysettings/

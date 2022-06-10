@@ -1,12 +1,12 @@
 ---
 title: Aspose.Cells.WebExtensions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Contains all classes of WebExtension.
 type: docs
 weight: 230
 url: /net/aspose.cells.webextensions/
 ---
-
+Contains all classes of WebExtension.
 
 ## Classes
 

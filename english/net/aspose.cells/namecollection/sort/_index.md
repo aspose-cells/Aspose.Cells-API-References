@@ -1,7 +1,7 @@
 ---
 title: Sort
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sorts defined names.
 type: docs
 weight: 80
 url: /net/aspose.cells/namecollection/sort/

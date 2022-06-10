@@ -1,7 +1,7 @@
 ---
 title: EndRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the index of the end row of the range.
 type: docs
 weight: 50
 url: /net/aspose.cells.griddesktop/cellrange/endrow/

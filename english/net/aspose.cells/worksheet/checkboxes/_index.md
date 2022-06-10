@@ -1,7 +1,7 @@
 ---
 title: CheckBoxes
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets a CheckBoxaspose.cells.drawing/checkbox collection.
 type: docs
 weight: 80
 url: /net/aspose.cells/worksheet/checkboxes/

@@ -1,9 +1,9 @@
 ---
 title: GridCellArea
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents an area of cells.
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.cells.gridweb.data/gridcellarea/
 ---
 ## GridCellArea class
@@ -18,8 +18,8 @@ public class GridCellArea
 
 | Name | Description |
 | --- | --- |
-| [GridCellArea](gridcellarea)() | Creat a cell area. |
-| [GridCellArea](gridcellarea)(int, int, int, int) | Creat a cell area. |
+| [GridCellArea](gridcellarea#constructor)() | Creat a cell area. |
+| [GridCellArea](gridcellarea#constructor_1)(int, int, int, int) | Creat a cell area. |
 
 ## Methods
 

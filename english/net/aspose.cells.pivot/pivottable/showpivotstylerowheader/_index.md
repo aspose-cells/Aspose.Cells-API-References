@@ -1,7 +1,7 @@
 ---
 title: ShowPivotStyleRowHeader
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the row header in the pivot table should have the style applied.
 type: docs
 weight: 660
 url: /net/aspose.cells.pivot/pivottable/showpivotstylerowheader/

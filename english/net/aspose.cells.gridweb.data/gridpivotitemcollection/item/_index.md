@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the PivotItemaspose.cells.gridweb.data/pivotitem element at the specified index.
 type: docs
 weight: 20
 url: /net/aspose.cells.gridweb.data/gridpivotitemcollection/item/
 ---
 ## GridPivotItemCollection indexer
 
-Gets the PivotItem element at the specified index.
+Gets the [`PivotItem`](../../pivotitem) element at the specified index.
 
 ```csharp
 public GridPivotItem this[int index] { get; }

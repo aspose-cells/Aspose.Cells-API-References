@@ -1,7 +1,7 @@
 ---
 title: FilterRows
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Filters data by specified column and filter index.
 type: docs
 weight: 10
 url: /net/aspose.cells.gridweb.data/icustomfilter/filterrows/
@@ -22,6 +22,7 @@ public void FilterRows(WebWorksheet sheet, int columnIndex, int filterIndex)
 
 ### See Also
 
+* class [WebWorksheet](../../webworksheet)
 * interface [ICustomFilter](../../icustomfilter)
 * namespace [Aspose.Cells.GridWeb.Data](../../icustomfilter)
 * assembly [Aspose.Cells.GridWeb](../../../)

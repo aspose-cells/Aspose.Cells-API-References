@@ -1,7 +1,7 @@
 ---
 title: CustomPropertiesExport
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a value determining the way CustomDocumentPropertyCollectionaspose.cells.properties/customdocumentpropertycollection are exported to PDF file. Default value is None.
 type: docs
 weight: 90
 url: /net/aspose.cells/pdfsaveoptions/custompropertiesexport/

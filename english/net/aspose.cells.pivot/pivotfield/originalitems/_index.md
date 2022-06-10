@@ -1,7 +1,7 @@
 ---
 title: OriginalItems
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get the original base items
 type: docs
 weight: 330
 url: /net/aspose.cells.pivot/pivotfield/originalitems/

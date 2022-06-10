@@ -1,9 +1,9 @@
 ---
 title: ListObject
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a list object on a worksheet. The ListObject object is a member of the ListObjects collection. The ListObjects collection contains all the list objects on a worksheet.
 type: docs
-weight: 5810
+weight: 5850
 url: /net/aspose.cells.tables/listobject/
 ---
 ## ListObject class
@@ -46,8 +46,8 @@ public class ListObject
 | Name | Description |
 | --- | --- |
 | [ApplyStyleToRange](../../aspose.cells.tables/listobject/applystyletorange)() | Apply the table style to the range. |
-| [ConvertToRange](../../aspose.cells.tables/listobject/converttorange)() | Convert the table to range. |
-| [ConvertToRange](../../aspose.cells.tables/listobject/converttorange)(TableToRangeOptions) | Convert the table to range. |
+| [ConvertToRange](../../aspose.cells.tables/listobject/converttorange#converttorange)() | Convert the table to range. |
+| [ConvertToRange](../../aspose.cells.tables/listobject/converttorange#converttorange_1)(TableToRangeOptions) | Convert the table to range. |
 | [Filter](../../aspose.cells.tables/listobject/filter)() | Filter the table. |
 | [PutCellValue](../../aspose.cells.tables/listobject/putcellvalue)(int, int, object) | Put the value to the cell. |
 | [Resize](../../aspose.cells.tables/listobject/resize)(int, int, int, int, bool) | Resize the range of the list object. |

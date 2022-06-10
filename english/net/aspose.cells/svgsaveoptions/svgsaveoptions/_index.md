@@ -1,12 +1,12 @@
 ---
 title: SvgSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Creates the options for saving svg file.
 type: docs
 weight: 10
 url: /net/aspose.cells/svgsaveoptions/svgsaveoptions/
 ---
-## SvgSaveOptions constructor (1 of 2)
+## SvgSaveOptions() {#constructor}
 
 Creates the options for saving svg file.
 
@@ -22,7 +22,7 @@ public SvgSaveOptions()
 
 ---
 
-## SvgSaveOptions constructor (2 of 2)
+## SvgSaveOptions(SaveFormat) {#constructor_1}
 
 Creates the options for saving svg file.
 

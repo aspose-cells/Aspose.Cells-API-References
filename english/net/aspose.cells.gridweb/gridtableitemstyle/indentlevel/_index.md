@@ -1,7 +1,7 @@
 ---
 title: IndentLevel
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets indent level.
 type: docs
 weight: 60
 url: /net/aspose.cells.gridweb/gridtableitemstyle/indentlevel/

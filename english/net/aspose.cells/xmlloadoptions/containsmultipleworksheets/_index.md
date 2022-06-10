@@ -1,7 +1,7 @@
 ---
 title: ContainsMultipleWorksheets
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether importing xml as multiple worksheets.
 type: docs
 weight: 20
 url: /net/aspose.cells/xmlloadoptions/containsmultipleworksheets/

@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the Worksheet element at the specified index.
 type: docs
 weight: 60
 url: /net/aspose.cells.gridweb.data/gridworksheetcollection/item/

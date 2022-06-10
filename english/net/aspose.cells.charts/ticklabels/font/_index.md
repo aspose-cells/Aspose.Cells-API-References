@@ -1,7 +1,7 @@
 ---
 title: Font
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns a Fontaspose.cells.charts/ticklabels/font object that represents the font of the specified TickLabels object.
 type: docs
 weight: 50
 url: /net/aspose.cells.charts/ticklabels/font/

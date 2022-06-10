@@ -1,9 +1,9 @@
 ---
 title: TrendLines
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns an object that represents a collection of all the trendlines for the series.
 type: docs
-weight: 430
+weight: 440
 url: /net/aspose.cells.charts/series/trendlines/
 ---
 ## Series.TrendLines property

@@ -1,7 +1,7 @@
 ---
 title: BindColumns
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Bind columns collection.
 type: docs
 weight: 30
 url: /net/aspose.cells.gridweb.data/gridworksheet/bindcolumns/

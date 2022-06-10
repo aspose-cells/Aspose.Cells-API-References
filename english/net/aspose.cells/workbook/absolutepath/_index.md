@@ -1,7 +1,7 @@
 ---
 title: AbsolutePath
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the absolute path of the file.
 type: docs
 weight: 20
 url: /net/aspose.cells/workbook/absolutepath/

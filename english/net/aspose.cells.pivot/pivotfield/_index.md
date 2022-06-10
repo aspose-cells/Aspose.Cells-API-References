@@ -1,9 +1,9 @@
 ---
 title: PivotField
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a field in a PivotTable report.
 type: docs
-weight: 4520
+weight: 4560
 url: /net/aspose.cells.pivot/pivotfield/
 ---
 ## PivotField class
@@ -69,8 +69,8 @@ public class PivotField
 | [GetPivotFilters](../../aspose.cells.pivot/pivotfield/getpivotfilters)() | Gets the pivot filters of the pivot field |
 | [GetSubtotals](../../aspose.cells.pivot/pivotfield/getsubtotals)(PivotFieldSubtotalType) | Gets whether the specified field shows that subtotals. |
 | [HideDetail](../../aspose.cells.pivot/pivotfield/hidedetail)(bool) | Sets whether the PivotItems in a pivot field is hidden detail.That is collapse/expand this field. |
-| [HideItem](../../aspose.cells.pivot/pivotfield/hideitem)(int, bool) | Sets whether the specific PivotItem in a data field is hidden. |
-| [HideItem](../../aspose.cells.pivot/pivotfield/hideitem)(string, bool) | Sets whether the specific PivotItem in a data field is hidden. |
+| [HideItem](../../aspose.cells.pivot/pivotfield/hideitem#hideitem)(int, bool) | Sets whether the specific PivotItem in a data field is hidden. |
+| [HideItem](../../aspose.cells.pivot/pivotfield/hideitem#hideitem_1)(string, bool) | Sets whether the specific PivotItem in a data field is hidden. |
 | [HideItemDetail](../../aspose.cells.pivot/pivotfield/hideitemdetail)(int, bool) | Sets whether the specific PivotItem in a pivot field is hidden detail. |
 | [InitPivotItems](../../aspose.cells.pivot/pivotfield/initpivotitems)() | Init the pivot items of the pivot field |
 | [IsHiddenItem](../../aspose.cells.pivot/pivotfield/ishiddenitem)(int) | Indicates whether the specific PivotItem is hidden. |

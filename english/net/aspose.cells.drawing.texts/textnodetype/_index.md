@@ -1,9 +1,9 @@
 ---
 title: TextNodeType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the node type.
 type: docs
-weight: 2960
+weight: 2990
 url: /net/aspose.cells.drawing.texts/textnodetype/
 ---
 ## TextNodeType enumeration

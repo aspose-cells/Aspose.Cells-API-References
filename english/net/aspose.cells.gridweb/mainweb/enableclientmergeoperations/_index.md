@@ -1,7 +1,7 @@
 ---
 title: EnableClientMergeOperations
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets whether to enable the client side merge operations.
 type: docs
 weight: 270
 url: /net/aspose.cells.gridweb/mainweb/enableclientmergeoperations/

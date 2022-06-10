@@ -1,9 +1,9 @@
 ---
 title: LegendPositionType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Enumerates the legend position types.
 type: docs
-weight: 710
+weight: 730
 url: /net/aspose.cells.charts/legendpositiontype/
 ---
 ## LegendPositionType enumeration

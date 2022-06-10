@@ -1,7 +1,7 @@
 ---
 title: HorizontalAxisDateRange
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the range that contains the date values for the sparkline data.
 type: docs
 weight: 50
 url: /net/aspose.cells.charts/sparklinegroup/horizontalaxisdaterange/

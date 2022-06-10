@@ -1,7 +1,7 @@
 ---
 title: Worksheet
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the worksheet which contains this chart.
 type: docs
 weight: 500
 url: /net/aspose.cells.charts/chart/worksheet/

@@ -1,7 +1,7 @@
 ---
 title: CellWatchCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the collection of cells on this worksheet being watched in the watch window.
 type: docs
 weight: 290
 url: /net/aspose.cells/cellwatchcollection/
@@ -33,8 +33,8 @@ public class CellWatchCollection : CollectionBase<CellWatch>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells/cellwatchcollection/add)(string) | Adds |
-| [Add](../../aspose.cells/cellwatchcollection/add)(int, int) | Adds [`CellWatch`](../cellwatch) with row and column. |
+| [Add](../../aspose.cells/cellwatchcollection/add#add_1)(string) | Adds |
+| [Add](../../aspose.cells/cellwatchcollection/add#add)(int, int) | Adds [`CellWatch`](../cellwatch) with row and column. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(CellWatch) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(CellWatch, IComparer&lt;CellWatch&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, CellWatch, IComparer&lt;CellWatch&gt;) |  |

@@ -1,7 +1,7 @@
 ---
 title: NumberType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: same as NumberFormat
 type: docs
 weight: 100
 url: /net/aspose.cells.griddesktop/style/numbertype/

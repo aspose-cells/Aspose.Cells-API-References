@@ -1,7 +1,7 @@
 ---
 title: MaxTotalShapeOrImageCount
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets /Gets the total display shape/image count inside the whole workbookit will take affec when IslimitShapestrue
 type: docs
 weight: 110
 url: /net/aspose.cells.gridjs/config/maxtotalshapeorimagecount/

@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the name of the shape.
 type: docs
 weight: 50
 url: /net/aspose.cells.drawing.texts/textoptions/name/

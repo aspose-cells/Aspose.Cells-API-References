@@ -1,12 +1,12 @@
 ---
 title: XlsbSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Creates xlsb file save options.
 type: docs
 weight: 10
 url: /net/aspose.cells/xlsbsaveoptions/xlsbsaveoptions/
 ---
-## XlsbSaveOptions constructor
+## XlsbSaveOptions() {#constructor}
 
 Creates xlsb file save options.
 
@@ -16,6 +16,32 @@ public XlsbSaveOptions()
 
 ### See Also
 
+* class [XlsbSaveOptions](../../xlsbsaveoptions)
+* namespace [Aspose.Cells](../../xlsbsaveoptions)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## XlsbSaveOptions(SaveFormat) {#constructor_1}
+
+Creates xlsb file save options.
+
+```csharp
+[Obsolete("Use XlsbSaveOptions() constructor instead.")]
+public XlsbSaveOptions(SaveFormat saveFormat)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| saveFormat | SaveFormat | The save format . It must be xlsb. |
+
+### Remarks
+
+NOTE: This constructor is now obsolete. Instead, please use XlsbSaveOptions() constructor. This property will be removed 12 months later since January 2021. Aspose apologizes for any inconvenience you may have experienced.
+
+### See Also
+
+* enum [SaveFormat](../../saveformat)
 * class [XlsbSaveOptions](../../xlsbsaveoptions)
 * namespace [Aspose.Cells](../../xlsbsaveoptions)
 * assembly [Aspose.Cells](../../../)

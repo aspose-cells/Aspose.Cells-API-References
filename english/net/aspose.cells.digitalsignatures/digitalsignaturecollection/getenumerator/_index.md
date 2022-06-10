@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get the enumerator for DigitalSignatureCollection this enumerator allows iteration over the collection
 type: docs
 weight: 30
 url: /net/aspose.cells.digitalsignatures/digitalsignaturecollection/getenumerator/

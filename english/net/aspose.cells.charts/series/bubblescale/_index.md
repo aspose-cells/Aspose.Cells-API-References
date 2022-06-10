@@ -1,9 +1,9 @@
 ---
 title: BubbleScale
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the scale factor for bubbles in the specified chart group. It can be an integer value from 0 zero to 300 corresponding to a percentage of the default size. Applies only to bubble charts.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.cells.charts/series/bubblescale/
 ---
 ## Series.BubbleScale property

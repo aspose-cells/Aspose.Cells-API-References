@@ -1,7 +1,7 @@
 ---
 title: RefersTo
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns or sets the formula that the name is defined to refer to beginning with an equal sign.
 type: docs
 weight: 10
 url: /net/aspose.cells.gridweb.data/gridname/refersto/

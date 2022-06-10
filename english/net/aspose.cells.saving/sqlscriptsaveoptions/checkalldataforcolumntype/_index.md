@@ -1,7 +1,7 @@
 ---
 title: CheckAllDataForColumnType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Check all data to find columns data type.
 type: docs
 weight: 30
 url: /net/aspose.cells.saving/sqlscriptsaveoptions/checkalldataforcolumntype/

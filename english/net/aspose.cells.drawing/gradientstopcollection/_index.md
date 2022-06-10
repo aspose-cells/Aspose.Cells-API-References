@@ -1,9 +1,9 @@
 ---
 title: GradientStopCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the gradient stop collection.
 type: docs
-weight: 2100
+weight: 2120
 url: /net/aspose.cells.drawing/gradientstopcollection/
 ---
 ## GradientStopCollection class
@@ -26,8 +26,8 @@ public class GradientStopCollection : CollectionBase<GradientStop>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.drawing/gradientstopcollection/add)(double, CellsColor, int) | Add a gradient stop. |
-| [Add](../../aspose.cells.drawing/gradientstopcollection/add)(double, Color, int) | Add a gradient stop. |
+| [Add](../../aspose.cells.drawing/gradientstopcollection/add#add)(double, CellsColor, int) | Add a gradient stop. |
+| [Add](../../aspose.cells.drawing/gradientstopcollection/add#add_1)(double, Color, int) | Add a gradient stop. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(GradientStop) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(GradientStop, IComparer&lt;GradientStop&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, GradientStop, IComparer&lt;GradientStop&gt;) |  |

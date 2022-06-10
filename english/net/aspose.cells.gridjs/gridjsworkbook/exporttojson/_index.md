@@ -1,12 +1,12 @@
 ---
 title: ExportToJson
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get json from workbook
 type: docs
 weight: 60
 url: /net/aspose.cells.gridjs/gridjsworkbook/exporttojson/
 ---
-## GridJsWorkbook.ExportToJson method (1 of 2)
+## ExportToJson(string) {#exporttojson_1}
 
 Get json from workbook
 
@@ -30,7 +30,7 @@ the json string
 
 ---
 
-## GridJsWorkbook.ExportToJson method (2 of 2)
+## ExportToJson() {#exporttojson}
 
 Get json from workbook
 

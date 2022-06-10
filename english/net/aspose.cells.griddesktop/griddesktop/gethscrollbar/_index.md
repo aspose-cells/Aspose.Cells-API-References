@@ -1,7 +1,7 @@
 ---
 title: getHScrollBar
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: return horizontal scroll bar
 type: docs
 weight: 710
 url: /net/aspose.cells.griddesktop/griddesktop/gethscrollbar/

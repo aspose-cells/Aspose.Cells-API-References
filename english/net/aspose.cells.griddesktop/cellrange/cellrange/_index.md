@@ -1,12 +1,12 @@
 ---
 title: CellRange
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Default Constructor.
 type: docs
 weight: 10
 url: /net/aspose.cells.griddesktop/cellrange/cellrange/
 ---
-## CellRange constructor (1 of 3)
+## CellRange() {#constructor}
 
 Default Constructor.
 
@@ -22,7 +22,7 @@ public CellRange()
 
 ---
 
-## CellRange constructor (2 of 3)
+## CellRange(int, int, int, int) {#constructor_1}
 
 CellRange Constructor.
 
@@ -45,7 +45,7 @@ public CellRange(int cStartRow, int cStartCol, int cEndRow, int cEndCol)
 
 ---
 
-## CellRange constructor (3 of 3)
+## CellRange(string, string) {#constructor_2}
 
 CellRange Constructor.
 

@@ -1,7 +1,7 @@
 ---
 title: IsAutoSize
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: True indicates that the size of the ole object will be auto changed as the size of snapshot of the embedded content when the ole object is activated.
 type: docs
 weight: 100
 url: /net/aspose.cells.drawing/oleobject/isautosize/

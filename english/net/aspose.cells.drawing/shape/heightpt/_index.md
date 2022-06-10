@@ -1,9 +1,9 @@
 ---
 title: HeightPt
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the height of the shape in unit of points.
 type: docs
-weight: 190
+weight: 230
 url: /net/aspose.cells.drawing/shape/heightpt/
 ---
 ## Shape.HeightPt property

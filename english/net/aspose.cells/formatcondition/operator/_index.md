@@ -1,7 +1,7 @@
 ---
 title: Operator
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the conditional format operator type.
 type: docs
 weight: 70
 url: /net/aspose.cells/formatcondition/operator/

@@ -1,9 +1,9 @@
 ---
 title: Copy
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Copies data from a source cell.
 type: docs
-weight: 330
+weight: 360
 url: /net/aspose.cells/cell/copy/
 ---
 ## Cell.Copy method

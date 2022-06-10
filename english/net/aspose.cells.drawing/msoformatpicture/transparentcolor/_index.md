@@ -1,7 +1,7 @@
 ---
 title: TransparentColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the transparent color of the picture.
 type: docs
 weight: 110
 url: /net/aspose.cells.drawing/msoformatpicture/transparentcolor/

@@ -1,7 +1,7 @@
 ---
 title: ForeTransparency
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the transparency of foreground color.
 type: docs
 weight: 60
 url: /net/aspose.cells.drawing/patternfill/foretransparency/

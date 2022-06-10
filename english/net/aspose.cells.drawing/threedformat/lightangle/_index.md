@@ -1,7 +1,7 @@
 ---
 title: LightAngle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the angle of the extrusion lights.
 type: docs
 weight: 80
 url: /net/aspose.cells.drawing/threedformat/lightangle/

@@ -1,7 +1,7 @@
 ---
 title: LastCell
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the last cell in the row.
 type: docs
 weight: 60
 url: /net/aspose.cells.gridweb.data/gridrow/lastcell/

@@ -1,7 +1,7 @@
 ---
 title: NumberFormat
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the format of numeric value.
 type: docs
 weight: 80
 url: /net/aspose.cells.utility/jsonlayoutoptions/numberformat/

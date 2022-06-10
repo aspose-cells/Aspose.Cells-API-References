@@ -1,7 +1,7 @@
 ---
 title: Texture
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the texture fill type.
 type: docs
 weight: 60
 url: /net/aspose.cells.drawing/msofillformathelper/texture/

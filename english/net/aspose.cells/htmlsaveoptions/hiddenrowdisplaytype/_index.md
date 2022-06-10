@@ -1,9 +1,9 @@
 ---
 title: HiddenRowDisplayType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Hidden rowthe height of this row is 0 in excelbefore save this into html format if HtmlHiddenRowDisplayType is Removethe hidden row would not been output if the value is Hidden the row would been outputbut was hiddenthe default value is Hidden
 type: docs
-weight: 310
+weight: 320
 url: /net/aspose.cells/htmlsaveoptions/hiddenrowdisplaytype/
 ---
 ## HtmlSaveOptions.HiddenRowDisplayType property

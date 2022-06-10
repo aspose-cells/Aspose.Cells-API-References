@@ -1,7 +1,7 @@
 ---
 title: StyleType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specify the type of Built-in slicer style the default type is SlicerStyleLight1
 type: docs
 weight: 200
 url: /net/aspose.cells.slicers/slicer/styletype/

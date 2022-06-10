@@ -1,7 +1,7 @@
 ---
 title: Color
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the color of the shadow.
 type: docs
 weight: 30
 url: /net/aspose.cells.drawing/shadoweffect/color/

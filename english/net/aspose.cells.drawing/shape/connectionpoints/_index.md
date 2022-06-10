@@ -1,7 +1,7 @@
 ---
 title: ConnectionPoints
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get the connection points
 type: docs
 weight: 70
 url: /net/aspose.cells.drawing/shape/connectionpoints/
@@ -11,6 +11,8 @@ url: /net/aspose.cells.drawing/shape/connectionpoints/
 Get the connection points
 
 ```csharp
+[Obsolete("Use GetConnectionPoints() method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public PointF[] ConnectionPoints { get; }
 ```
 

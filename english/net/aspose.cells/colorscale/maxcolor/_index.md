@@ -1,7 +1,7 @@
 ---
 title: MaxColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get or set the max value objects corresponding color.
 type: docs
 weight: 30
 url: /net/aspose.cells/colorscale/maxcolor/

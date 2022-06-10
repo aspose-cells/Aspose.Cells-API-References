@@ -1,9 +1,9 @@
 ---
 title: Dispose
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Releases resources.
 type: docs
-weight: 610
+weight: 740
 url: /net/aspose.cells/workbooksettings/dispose/
 ---
 ## WorkbookSettings.Dispose method

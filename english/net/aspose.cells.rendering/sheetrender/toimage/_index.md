@@ -1,12 +1,12 @@
 ---
 title: ToImage
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Render certain page to a Graphics
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.cells.rendering/sheetrender/toimage/
 ---
-## SheetRender.ToImage method (1 of 5)
+## ToImage(int, Graphics, float, float, float, float) {#toimage_2}
 
 Render certain page to a Graphics
 
@@ -31,7 +31,7 @@ public void ToImage(int pageIndex, Graphics g, float x, float y, float width, fl
 
 ---
 
-## SheetRender.ToImage method (2 of 5)
+## ToImage(int, Graphics, float, float) {#toimage_1}
 
 Render certain page to a Graphics
 
@@ -54,7 +54,7 @@ public void ToImage(int pageIndex, Graphics g, float x, float y)
 
 ---
 
-## SheetRender.ToImage method (3 of 5)
+## ToImage(int, string) {#toimage_4}
 
 Render certain page to a file.
 
@@ -95,7 +95,7 @@ sr.ToImage(0, "output.png");
 
 ---
 
-## SheetRender.ToImage method (4 of 5)
+## ToImage(int, Stream) {#toimage_3}
 
 Render certain page to a stream.
 
@@ -116,7 +116,7 @@ public void ToImage(int pageIndex, Stream stream)
 
 ---
 
-## SheetRender.ToImage method (5 of 5)
+## ToImage(int) {#toimage}
 
 Render certain page to a Bitmap object.
 

@@ -1,7 +1,7 @@
 ---
 title: Fill
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the fill format of the text.
 type: docs
 weight: 20
 url: /net/aspose.cells.drawing.texts/textoptions/fill/

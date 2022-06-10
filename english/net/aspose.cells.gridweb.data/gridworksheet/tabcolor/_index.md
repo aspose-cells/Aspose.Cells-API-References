@@ -1,7 +1,7 @@
 ---
 title: TabColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents worksheet tab color.
 type: docs
 weight: 310
 url: /net/aspose.cells.gridweb.data/gridworksheet/tabcolor/

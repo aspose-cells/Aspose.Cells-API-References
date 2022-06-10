@@ -1,7 +1,7 @@
 ---
 title: Cell
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the Cell object which is being calculated.
 type: docs
 weight: 10
 url: /net/aspose.cells/calculationcell/cell/

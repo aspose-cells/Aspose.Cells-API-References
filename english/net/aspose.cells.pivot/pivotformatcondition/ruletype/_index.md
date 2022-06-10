@@ -1,7 +1,7 @@
 ---
 title: RuleType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get and set rule type for the pivot table condition format .
 type: docs
 weight: 20
 url: /net/aspose.cells.pivot/pivotformatcondition/ruletype/

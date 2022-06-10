@@ -1,7 +1,7 @@
 ---
 title: JsonSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Creates options for saving json file.
 type: docs
 weight: 10
 url: /net/aspose.cells/jsonsaveoptions/jsonsaveoptions/

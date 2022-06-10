@@ -1,7 +1,7 @@
 ---
 title: ContourWidth
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the contour width on the shape in unit of points.
 type: docs
 weight: 50
 url: /net/aspose.cells.drawing/threedformat/contourwidth/

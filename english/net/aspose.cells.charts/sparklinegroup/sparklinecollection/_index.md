@@ -1,7 +1,7 @@
 ---
 title: SparklineCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the SparklineCollectionaspose.cells.charts/sparklinegroup/sparklinecollection object of the sparkline group.
 type: docs
 weight: 220
 url: /net/aspose.cells.charts/sparklinegroup/sparklinecollection/

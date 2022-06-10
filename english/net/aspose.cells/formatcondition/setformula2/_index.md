@@ -1,7 +1,7 @@
 ---
 title: SetFormula2
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the value or expression associated with this format condition.
 type: docs
 weight: 180
 url: /net/aspose.cells/formatcondition/setformula2/

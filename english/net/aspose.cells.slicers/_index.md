@@ -1,12 +1,12 @@
 ---
 title: Aspose.Cells.Slicers
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Contains all classes of Pivot Table Slicer.
 type: docs
 weight: 180
 url: /net/aspose.cells.slicers/
 ---
-
+Contains all classes of Pivot Table Slicer.
 
 ## Classes
 

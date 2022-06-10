@@ -1,9 +1,9 @@
 ---
 title: TrimTailingBlankCells
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether tailing blank cells in one row should be trimmed. Default is false.
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.cells/txtsaveoptions/trimtailingblankcells/
 ---
 ## TxtSaveOptions.TrimTailingBlankCells property

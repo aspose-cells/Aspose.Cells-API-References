@@ -1,7 +1,7 @@
 ---
 title: GetRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the Row element or at the specified cell row index.
 type: docs
 weight: 440
 url: /net/aspose.cells.gridweb.data/gridcells/getrow/

@@ -1,7 +1,7 @@
 ---
 title: DisableDownlevelRevealedComments
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates if disable Downlevel-revealed conditional comments when exporting file to html the default value is false.
 type: docs
 weight: 70
 url: /net/aspose.cells/htmlsaveoptions/disabledownlevelrevealedcomments/

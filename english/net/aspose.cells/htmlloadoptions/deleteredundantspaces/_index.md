@@ -1,9 +1,9 @@
 ---
 title: DeleteRedundantSpaces
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether delete redundant spaces when the text wraps lines using ltbrgttag.The default value is false.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.cells/htmlloadoptions/deleteredundantspaces/
 ---
 ## HtmlLoadOptions.DeleteRedundantSpaces property

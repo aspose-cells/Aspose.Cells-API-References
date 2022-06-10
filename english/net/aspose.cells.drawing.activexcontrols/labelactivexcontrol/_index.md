@@ -1,9 +1,9 @@
 ---
 title: LabelActiveXControl
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the label ActiveX control.
 type: docs
-weight: 1650
+weight: 1670
 url: /net/aspose.cells.drawing.activexcontrols/labelactivexcontrol/
 ---
 ## LabelActiveXControl class

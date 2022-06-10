@@ -1,9 +1,9 @@
 ---
 title: UnknownControl
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Unknow control.
 type: docs
-weight: 1730
+weight: 1750
 url: /net/aspose.cells.drawing.activexcontrols/unknowncontrol/
 ---
 ## UnknownControl class

@@ -1,7 +1,7 @@
 ---
 title: BoundColumn
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents how the Value property is determined for a ComboBox or ListBox when the MultiSelect properties value fmMultiSelectSingle.
 type: docs
 weight: 30
 url: /net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/boundcolumn/

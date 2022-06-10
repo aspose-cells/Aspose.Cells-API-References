@@ -1,9 +1,9 @@
 ---
 title: UpdateLinksType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets how updates external links when the workbook is opened.
 type: docs
-weight: 460
+weight: 590
 url: /net/aspose.cells/workbooksettings/updatelinkstype/
 ---
 ## WorkbookSettings.UpdateLinksType property

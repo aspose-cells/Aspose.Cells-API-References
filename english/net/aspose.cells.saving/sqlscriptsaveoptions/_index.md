@@ -1,9 +1,9 @@
 ---
 title: SqlScriptSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the options of saving sql.
 type: docs
-weight: 5550
+weight: 5590
 url: /net/aspose.cells.saving/sqlscriptsaveoptions/
 ---
 ## SqlScriptSaveOptions class
@@ -32,12 +32,14 @@ public class SqlScriptSaveOptions : SaveOptions
 | [ColumnTypeMap](../../aspose.cells.saving/sqlscriptsaveoptions/columntypemap) { get; set; } | Gets and sets the map of column type for different database. |
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [CreateTable](../../aspose.cells.saving/sqlscriptsaveoptions/createtable) { get; set; } | Indicates whether exporting sql of creating table. |
+| [EnableHTTPCompression](../../aspose.cells/saveoptions/enablehttpcompression) { get; set; } | Indicates if http compression is to be used in user's IIS. |
 | [ExportArea](../../aspose.cells.saving/sqlscriptsaveoptions/exportarea) { get; set; } | Gets or sets the exporting range. |
 | [ExportAsString](../../aspose.cells.saving/sqlscriptsaveoptions/exportasstring) { get; set; } | Indicates whether exporting all data as string value. |
 | [HasHeaderRow](../../aspose.cells.saving/sqlscriptsaveoptions/hasheaderrow) { get; set; } | Indicates whether the range contains header row. |
 | [IdName](../../aspose.cells.saving/sqlscriptsaveoptions/idname) { get; set; } | Gets and sets the name of id column. |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [OperatorType](../../aspose.cells.saving/sqlscriptsaveoptions/operatortype) { get; set; } | Gets and sets the operator type of sql. |
+| [PdfExportImagesFolder](../../aspose.cells/saveoptions/pdfexportimagesfolder) { get; set; } | The physical folder where images will be saved when exporting a workbook to Aspose.Pdf XML format. Default is an empty string. |
 | [PrimaryKey](../../aspose.cells.saving/sqlscriptsaveoptions/primarykey) { get; set; } | Represents which column is primary key of the data table. |
 | [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Indicates whether refreshing chart cache data |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Gets the save file format. |

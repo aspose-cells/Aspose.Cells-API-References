@@ -1,7 +1,7 @@
 ---
 title: GridRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the object that represents a single picture in a spreadsheet.
 type: docs
 weight: 670
 url: /net/aspose.cells.griddesktop.data/gridrow/

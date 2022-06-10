@@ -1,7 +1,7 @@
 ---
 title: GetHeader
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets a script formatting the header of an Excel file.
 type: docs
 weight: 530
 url: /net/aspose.cells/pagesetup/getheader/

@@ -1,9 +1,9 @@
 ---
 title: TextBoxCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates a collection of TextBox./textbox objects.
 type: docs
-weight: 2810
+weight: 2840
 url: /net/aspose.cells.drawing/textboxcollection/
 ---
 ## TextBoxCollection class
@@ -31,7 +31,7 @@ public class TextBoxCollection : CollectionBase<TextBox>
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(TextBox) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(TextBox, IComparer&lt;TextBox&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, TextBox, IComparer&lt;TextBox&gt;) |  |
-| [Clear](../../aspose.cells.drawing/textboxcollection/clear)() | Clear all text boxes. (2 methods) |
+| [Clear](../../aspose.cells.drawing/textboxcollection/clear#clear)() | Clear all text boxes. (2 methods) |
 | [Contains](../../aspose.cells/collectionbase`1/contains)(TextBox) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(TextBox[]) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(TextBox[], int) |  |
@@ -53,7 +53,7 @@ public class TextBoxCollection : CollectionBase<TextBox>
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(TextBox) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(TextBox, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(TextBox, int, int) |  |
-| [RemoveAt](../../aspose.cells.drawing/textboxcollection/removeat)(int) | Remove a text box from the file. (2 methods) |
+| [RemoveAt](../../aspose.cells.drawing/textboxcollection/removeat#removeat)(int) | Remove a text box from the file. (2 methods) |
 
 ### Examples
 

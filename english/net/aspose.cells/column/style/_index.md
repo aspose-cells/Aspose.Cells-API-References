@@ -1,7 +1,7 @@
 ---
 title: Style
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the style of this column.
 type: docs
 weight: 50
 url: /net/aspose.cells/column/style/

@@ -1,7 +1,7 @@
 ---
 title: IsTemplateFormat
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns true if the extension is .xlt .xltX .xltm.ots.
 type: docs
 weight: 40
 url: /net/aspose.cells/fileformatutil/istemplateformat/

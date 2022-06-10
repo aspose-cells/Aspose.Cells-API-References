@@ -1,9 +1,9 @@
 ---
 title: ShapeProperties
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the  object that holds the visual shape properties of the Series.
 type: docs
-weight: 370
+weight: 380
 url: /net/aspose.cells.charts/series/shapeproperties/
 ---
 ## Series.ShapeProperties property

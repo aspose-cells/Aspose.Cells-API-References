@@ -1,7 +1,7 @@
 ---
 title: Selected
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether this worksheet is selected when the workbook is opened.
 type: docs
 weight: 350
 url: /net/aspose.cells.griddesktop/worksheet/selected/

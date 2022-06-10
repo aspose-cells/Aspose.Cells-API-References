@@ -1,7 +1,7 @@
 ---
 title: IsStrikeout
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the font is single strikeout.
 type: docs
 weight: 90
 url: /net/aspose.cells/font/isstrikeout/

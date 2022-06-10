@@ -1,12 +1,12 @@
 ---
 title: OdsSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Creates the options of saving ods file.
 type: docs
 weight: 10
 url: /net/aspose.cells/odssaveoptions/odssaveoptions/
 ---
-## OdsSaveOptions constructor (1 of 2)
+## OdsSaveOptions() {#constructor}
 
 Creates the options of saving ods file.
 
@@ -22,7 +22,7 @@ public OdsSaveOptions()
 
 ---
 
-## OdsSaveOptions constructor (2 of 2)
+## OdsSaveOptions(SaveFormat) {#constructor_1}
 
 Creates the options of saving ods file.
 

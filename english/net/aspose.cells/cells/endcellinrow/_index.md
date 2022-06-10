@@ -1,12 +1,12 @@
 ---
 title: EndCellInRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the last cell in this row.
 type: docs
 weight: 590
 url: /net/aspose.cells/cells/endcellinrow/
 ---
-## Cells.EndCellInRow method (1 of 2)
+## EndCellInRow(int) {#endcellinrow}
 
 Gets the last cell in this row.
 
@@ -31,7 +31,7 @@ Cell object.
 
 ---
 
-## Cells.EndCellInRow method (2 of 2)
+## EndCellInRow(int, int, int, int) {#endcellinrow_1}
 
 Gets the last cell with maximum row index in this range.
 

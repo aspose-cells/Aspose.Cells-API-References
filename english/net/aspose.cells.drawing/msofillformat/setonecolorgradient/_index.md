@@ -1,7 +1,7 @@
 ---
 title: SetOneColorGradient
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the specified fill to a one-color gradient.
 type: docs
 weight: 70
 url: /net/aspose.cells.drawing/msofillformat/setonecolorgradient/

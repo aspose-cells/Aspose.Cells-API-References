@@ -1,7 +1,7 @@
 ---
 title: ShapeXPx
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the x coordinate of the upper left corner in units of pixels after calls Chart.Calculate method.
 type: docs
 weight: 260
 url: /net/aspose.cells.charts/chartpoint/shapexpx/

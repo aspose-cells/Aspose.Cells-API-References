@@ -1,7 +1,7 @@
 ---
 title: IsSameSetting
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns whether the shape is same.
 type: docs
 weight: 190
 url: /net/aspose.cells.drawing/picture/issamesetting/

@@ -1,7 +1,7 @@
 ---
 title: WorkbookEventHandler
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the method that intend to handle workbook events.
 type: docs
 weight: 1060
 url: /net/aspose.cells.griddesktop/workbookeventhandler/

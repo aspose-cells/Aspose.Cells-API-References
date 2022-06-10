@@ -1,9 +1,9 @@
 ---
 title: SmartTagCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents all smart tags in the cell.
 type: docs
-weight: 4060
+weight: 4100
 url: /net/aspose.cells.markup/smarttagcollection/
 ---
 ## SmartTagCollection class

@@ -1,7 +1,7 @@
 ---
 title: GradientStops
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the gradient stop collection.
 type: docs
 weight: 40
 url: /net/aspose.cells.drawing/gradientfill/gradientstops/

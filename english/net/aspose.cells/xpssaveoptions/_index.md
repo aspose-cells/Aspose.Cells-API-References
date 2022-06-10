@@ -1,9 +1,9 @@
 ---
 title: XpsSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the additional options when saving the file as the Xps.
 type: docs
-weight: 6610
+weight: 6650
 url: /net/aspose.cells/xpssaveoptions/
 ---
 ## XpsSaveOptions class
@@ -18,8 +18,8 @@ public class XpsSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [XpsSaveOptions](xpssaveoptions)() | Creates options for saving xps file. |
-| [XpsSaveOptions](xpssaveoptions)(SaveFormat) | Creates options for saving xps file. |
+| [XpsSaveOptions](xpssaveoptions#constructor)() | Creates options for saving xps file. |
+| [XpsSaveOptions](xpssaveoptions#constructor_1)(SaveFormat) | Creates options for saving xps file. |
 
 ## Properties
 
@@ -28,10 +28,12 @@ public class XpsSaveOptions : SaveOptions
 | [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder) { get; set; } | The cached file folder is used to store some large data. |
 | [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | Make the workbook empty after saving the file. |
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [EnableHTTPCompression](../../aspose.cells/saveoptions/enablehttpcompression) { get; set; } | Indicates if http compression is to be used in user's IIS. |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [OnePagePerSheet](../../aspose.cells/xpssaveoptions/onepagepersheet) { get; set; } | If OnePagePerSheet is true , all content of one sheet will output to only one page in result. The paper size of pagesetup will be invalid, and the other settings of pagesetup will still take effect. |
 | [PageCount](../../aspose.cells/xpssaveoptions/pagecount) { get; set; } | Gets or sets the number of pages to save. |
 | [PageIndex](../../aspose.cells/xpssaveoptions/pageindex) { get; set; } | Gets or sets the 0-based index of the first page to save. |
+| [PdfExportImagesFolder](../../aspose.cells/saveoptions/pdfexportimagesfolder) { get; set; } | The physical folder where images will be saved when exporting a workbook to Aspose.Pdf XML format. Default is an empty string. |
 | [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Indicates whether refreshing chart cache data |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Gets the save file format. |
 | [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | Indicates whether sorting external defined names before saving file. |

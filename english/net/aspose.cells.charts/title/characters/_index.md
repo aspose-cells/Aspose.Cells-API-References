@@ -1,7 +1,7 @@
 ---
 title: Characters
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets rich text formatting of this Title.
 type: docs
 weight: 60
 url: /net/aspose.cells.charts/title/characters/

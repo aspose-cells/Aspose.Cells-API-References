@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Remove the shape.
 type: docs
 weight: 420
 url: /net/aspose.cells.drawing/shapecollection/remove/

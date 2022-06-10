@@ -1,9 +1,9 @@
 ---
 title: ExternalLinkType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the type of external link.
 type: docs
-weight: 3370
+weight: 3400
 url: /net/aspose.cells/externallinktype/
 ---
 ## ExternalLinkType enumeration

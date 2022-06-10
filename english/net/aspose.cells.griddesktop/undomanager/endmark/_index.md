@@ -1,7 +1,7 @@
 ---
 title: EndMark
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Ends to mark changes.
 type: docs
 weight: 90
 url: /net/aspose.cells.griddesktop/undomanager/endmark/

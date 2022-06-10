@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Clear all text boxes.
 type: docs
 weight: 30
 url: /net/aspose.cells.drawing/textboxcollection/clear/

@@ -1,7 +1,7 @@
 ---
 title: BaseFields
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns a PivotFields object that includes all fields in the PivotTable report
 type: docs
 weight: 40
 url: /net/aspose.cells.pivot/pivottable/basefields/

@@ -1,7 +1,7 @@
 ---
 title: StartAngle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the starting angle for the pie section measured in degrees clockwise from the x-axis after calls Chart.Calculate method. Applies to Pie chart.
 type: docs
 weight: 290
 url: /net/aspose.cells.charts/chartpoint/startangle/

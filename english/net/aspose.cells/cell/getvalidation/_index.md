@@ -1,9 +1,9 @@
 ---
 title: GetValidation
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the validation applied to this cell.
 type: docs
-weight: 510
+weight: 560
 url: /net/aspose.cells/cell/getvalidation/
 ---
 ## Cell.GetValidation method

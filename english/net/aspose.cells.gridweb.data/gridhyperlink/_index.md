@@ -1,9 +1,9 @@
 ---
 title: GridHyperlink
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the object that represents a hyperlink.
 type: docs
-weight: 260
+weight: 270
 url: /net/aspose.cells.gridweb.data/gridhyperlink/
 ---
 ## GridHyperlink class

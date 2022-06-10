@@ -1,12 +1,12 @@
 ---
 title: AddArea
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Applies the validation to the area.
 type: docs
 weight: 170
 url: /net/aspose.cells/validation/addarea/
 ---
-## Validation.AddArea method (1 of 2)
+## AddArea(CellArea) {#addarea}
 
 Applies the validation to the area.
 
@@ -31,7 +31,7 @@ It is equivalent to use [`AddArea`](../addarea) with checking intersection and e
 
 ---
 
-## Validation.AddArea method (2 of 2)
+## AddArea(CellArea, bool, bool) {#addarea_1}
 
 Applies the validation to the area.
 

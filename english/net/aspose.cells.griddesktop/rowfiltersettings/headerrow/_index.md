@@ -1,7 +1,7 @@
 ---
 title: HeaderRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The header row number which will display filter dropdown buttons.
 type: docs
 weight: 40
 url: /net/aspose.cells.griddesktop/rowfiltersettings/headerrow/

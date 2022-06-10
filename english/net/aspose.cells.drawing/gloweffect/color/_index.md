@@ -1,7 +1,7 @@
 ---
 title: Color
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the color of the glow effect.
 type: docs
 weight: 10
 url: /net/aspose.cells.drawing/gloweffect/color/

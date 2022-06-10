@@ -1,9 +1,9 @@
 ---
 title: TextTabStop
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents tab stop.
 type: docs
-weight: 3010
+weight: 3040
 url: /net/aspose.cells.drawing.texts/texttabstop/
 ---
 ## TextTabStop class

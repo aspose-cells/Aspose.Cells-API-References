@@ -1,7 +1,7 @@
 ---
 title: IsDeleted
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether this data labels is deleted.
 type: docs
 weight: 30
 url: /net/aspose.cells.charts/charttextframe/isdeleted/

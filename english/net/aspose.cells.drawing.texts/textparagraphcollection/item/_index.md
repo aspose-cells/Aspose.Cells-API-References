@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the TextParagraphaspose.cells.drawing.texts/textparagraph object at specific index.
 type: docs
 weight: 20
 url: /net/aspose.cells.drawing.texts/textparagraphcollection/item/

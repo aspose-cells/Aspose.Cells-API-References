@@ -1,9 +1,9 @@
 ---
 title: XmlLoadOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the options of loading xml.
 type: docs
-weight: 6570
+weight: 6610
 url: /net/aspose.cells/xmlloadoptions/
 ---
 ## XmlLoadOptions class
@@ -18,8 +18,8 @@ public class XmlLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [XmlLoadOptions](xmlloadoptions)() | Represents the options of loading ods file. |
-| [XmlLoadOptions](xmlloadoptions)(LoadFormat) | Represents the options of loading ods file. |
+| [XmlLoadOptions](xmlloadoptions#constructor)() | Represents the options of loading ods file. |
+| [XmlLoadOptions](xmlloadoptions#constructor_1)(LoadFormat) | Represents the options of loading ods file. |
 
 ## Properties
 
@@ -46,6 +46,8 @@ public class XmlLoadOptions : LoadOptions
 | [ParsingPivotCachedRecords](../../aspose.cells/loadoptions/parsingpivotcachedrecords) { get; set; } | Indicates whether parsing pivot cached records when loading the file. The default value is false. |
 | [Password](../../aspose.cells/loadoptions/password) { get; set; } | Gets and set the password of the workbook. |
 | [Region](../../aspose.cells/loadoptions/region) { get; set; } | Gets or sets the system regional settings based on CountryCode at the time the file was loaded. |
+| [StandardFont](../../aspose.cells/loadoptions/standardfont) { get; set; } | Sets the default standard font name |
+| [StandardFontSize](../../aspose.cells/loadoptions/standardfontsize) { get; set; } | Sets the default standard font size. |
 | [StartCell](../../aspose.cells/xmlloadoptions/startcell) { get; set; } | Gets and sets the start cell. |
 | [WarningCallback](../../aspose.cells/loadoptions/warningcallback) { get; set; } | Gets or sets warning callback. |
 

@@ -1,7 +1,7 @@
 ---
 title: Protected
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates if the cell is protected. If the value is true user can not modify the cell through the user interface. This attribute has nothing to do with the Style.CellLocked property and will not be saved to file when grid data exported. The default value is false.
 type: docs
 weight: 130
 url: /net/aspose.cells.griddesktop.data/gridcell/protected/

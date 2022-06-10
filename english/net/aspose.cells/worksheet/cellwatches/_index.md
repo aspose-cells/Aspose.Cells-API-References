@@ -1,7 +1,7 @@
 ---
 title: CellWatches
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets collection of cells on this worksheet being watched in the watch window.
 type: docs
 weight: 60
 url: /net/aspose.cells/worksheet/cellwatches/

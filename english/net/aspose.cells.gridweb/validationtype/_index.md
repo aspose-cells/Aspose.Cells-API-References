@@ -1,9 +1,9 @@
 ---
 title: ValidationType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents customer side validation type. AnyValue represents no validation.
 type: docs
-weight: 910
+weight: 1140
 url: /net/aspose.cells.gridweb/validationtype/
 ---
 ## ValidationType enumeration

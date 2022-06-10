@@ -1,9 +1,9 @@
 ---
 title: ColorScale
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Describe the ColorScale conditional formatting rule. This conditional formatting rule creates a gradated color scale on the cells.
 type: docs
-weight: 1030
+weight: 1050
 url: /net/aspose.cells/colorscale/
 ---
 ## ColorScale class

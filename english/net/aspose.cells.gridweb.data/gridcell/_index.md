@@ -1,9 +1,9 @@
 ---
 title: GridCell
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a cell object.
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.cells.gridweb.data/gridcell/
 ---
 ## GridCell class
@@ -51,14 +51,14 @@ public class GridCell
 | [GetWidthOfValue](../../aspose.cells.gridweb.data/gridcell/getwidthofvalue)() | Gets the width of the value in unit of pixels. |
 | [IsErrorValue](../../aspose.cells.gridweb.data/gridcell/iserrorvalue)() | Checks if a formula can properly evaluate a result. |
 | [IsFormula](../../aspose.cells.gridweb.data/gridcell/isformula)() | Represents if the specified cell contains formula. |
-| [PutValue](../../aspose.cells.gridweb.data/gridcell/putvalue)(bool) | Puts a boolean value into the cell. |
-| [PutValue](../../aspose.cells.gridweb.data/gridcell/putvalue)(DateTime) | Puts a DateTime value into the cell. |
-| [PutValue](../../aspose.cells.gridweb.data/gridcell/putvalue)(double) | Puts a double value into the cell. |
-| [PutValue](../../aspose.cells.gridweb.data/gridcell/putvalue)(int) | Puts a int value into the cell. |
-| [PutValue](../../aspose.cells.gridweb.data/gridcell/putvalue)(object) | Puts an object value into the cell.same as setValue(Object param_object) |
-| [PutValue](../../aspose.cells.gridweb.data/gridcell/putvalue)(string) | Puts a String value into the cell. |
-| [PutValue](../../aspose.cells.gridweb.data/gridcell/putvalue)(string, bool) | Puts a string value into the cell and converts the value to other data type if appropriate. |
-| [PutValue](../../aspose.cells.gridweb.data/gridcell/putvalue)(string, bool, bool) | Puts a value into the cell, if appropriate the value will be converted to other data type and cell's number format will be reset. |
+| [PutValue](../../aspose.cells.gridweb.data/gridcell/putvalue#putvalue)(bool) | Puts a boolean value into the cell. |
+| [PutValue](../../aspose.cells.gridweb.data/gridcell/putvalue#putvalue_3)(DateTime) | Puts a DateTime value into the cell. |
+| [PutValue](../../aspose.cells.gridweb.data/gridcell/putvalue#putvalue_1)(double) | Puts a double value into the cell. |
+| [PutValue](../../aspose.cells.gridweb.data/gridcell/putvalue#putvalue_2)(int) | Puts a int value into the cell. |
+| [PutValue](../../aspose.cells.gridweb.data/gridcell/putvalue#putvalue_4)(object) | Puts an object value into the cell.same as setValue(Object param_object) |
+| [PutValue](../../aspose.cells.gridweb.data/gridcell/putvalue#putvalue_5)(string) | Puts a String value into the cell. |
+| [PutValue](../../aspose.cells.gridweb.data/gridcell/putvalue#putvalue_6)(string, bool) | Puts a string value into the cell and converts the value to other data type if appropriate. |
+| [PutValue](../../aspose.cells.gridweb.data/gridcell/putvalue#putvalue_7)(string, bool, bool) | Puts a value into the cell, if appropriate the value will be converted to other data type and cell's number format will be reset. |
 | [PutValueAndSetFormatByValue](../../aspose.cells.gridweb.data/gridcell/putvalueandsetformatbyvalue)(string) | Sets the cell's value with a string value and set cell format by this value. |
 | [RemoveComment](../../aspose.cells.gridweb.data/gridcell/removecomment)() | Removes the comment object of the cell. |
 | [RemoveValidation](../../aspose.cells.gridweb.data/gridcell/removevalidation)() | Removes the validation object of the cell. |
@@ -66,7 +66,7 @@ public class GridCell
 | [SetCustom](../../aspose.cells.gridweb.data/gridcell/setcustom)(string) | sets the custom format, null or empty string means no custom format. |
 | [SetFormula](../../aspose.cells.gridweb.data/gridcell/setformula)(string, object) | Set the formula and the value of the formula. |
 | [SetNumberType](../../aspose.cells.gridweb.data/gridcell/setnumbertype)(int) | set the display format of numbers and dates |
-| [ToString](../../aspose.cells.gridweb.data/gridcell/tostring)() | Returns a string represents the current Cell object. |
+| [ToString](../../aspose.cells.gridweb.data/gridcell/tostring#tostring)() | Returns a string represents the current Cell object. |
 | [operator ==](../../aspose.cells.gridweb.data/gridcell/op_equality) |  |
 | [operator !=](../../aspose.cells.gridweb.data/gridcell/op_inequality) |  |
 

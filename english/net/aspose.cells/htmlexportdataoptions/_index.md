@@ -1,9 +1,9 @@
 ---
 title: HtmlExportDataOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the options for exporting html data.
 type: docs
-weight: 3680
+weight: 3710
 url: /net/aspose.cells/htmlexportdataoptions/
 ---
 ## HtmlExportDataOptions enumeration

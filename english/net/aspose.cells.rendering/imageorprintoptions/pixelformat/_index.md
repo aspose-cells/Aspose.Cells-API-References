@@ -1,7 +1,7 @@
 ---
 title: PixelFormat
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the pixel format for the generated images.
 type: docs
 weight: 240
 url: /net/aspose.cells.rendering/imageorprintoptions/pixelformat/

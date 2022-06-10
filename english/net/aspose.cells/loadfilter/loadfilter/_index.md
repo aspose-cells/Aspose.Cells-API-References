@@ -1,12 +1,12 @@
 ---
 title: LoadFilter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Constructs one LoadFilter with default filter options LoadDataFilterOptions.All.
 type: docs
 weight: 10
 url: /net/aspose.cells/loadfilter/loadfilter/
 ---
-## LoadFilter constructor (1 of 2)
+## LoadFilter() {#constructor}
 
 Constructs one LoadFilter with default filter options LoadDataFilterOptions.All.
 
@@ -22,7 +22,7 @@ public LoadFilter()
 
 ---
 
-## LoadFilter constructor (2 of 2)
+## LoadFilter(LoadDataFilterOptions) {#constructor_1}
 
 Constructs one LoadFilter with given filter options.
 

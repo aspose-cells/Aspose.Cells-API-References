@@ -1,7 +1,7 @@
 ---
 title: EnableFieldDialog
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the PivotTable Field dialog box is available when the user double-clicks the PivotTable field.
 type: docs
 weight: 190
 url: /net/aspose.cells.pivot/pivottable/enablefielddialog/

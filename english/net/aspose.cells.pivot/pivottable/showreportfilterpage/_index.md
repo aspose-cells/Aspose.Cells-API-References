@@ -1,9 +1,9 @@
 ---
 title: ShowReportFilterPage
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Show all the report filter pages according to PivotField the PivotField must be located in the PageFields.
 type: docs
-weight: 980
+weight: 990
 url: /net/aspose.cells.pivot/pivottable/showreportfilterpage/
 ---
 ## PivotTable.ShowReportFilterPage method

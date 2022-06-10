@@ -1,9 +1,9 @@
 ---
 title: ActiveXPersistenceType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the persistence method to persist an ActiveX control.
 type: docs
-weight: 1460
+weight: 1480
 url: /net/aspose.cells.drawing.activexcontrols/activexpersistencetype/
 ---
 ## ActiveXPersistenceType enumeration

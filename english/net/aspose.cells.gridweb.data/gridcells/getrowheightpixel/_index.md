@@ -1,7 +1,7 @@
 ---
 title: GetRowHeightPixel
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the height of a specified row in unit of pixel.
 type: docs
 weight: 470
 url: /net/aspose.cells.gridweb.data/gridcells/getrowheightpixel/

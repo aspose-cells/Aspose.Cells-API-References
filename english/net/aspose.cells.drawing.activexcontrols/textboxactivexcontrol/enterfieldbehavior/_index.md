@@ -1,7 +1,7 @@
 ---
 title: EnterFieldBehavior
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies selection behavior when entering the control. True specifies that the selection remains unchanged from last time the control was active. False specifies that all the text in the control will be selected when entering the control.
 type: docs
 weight: 40
 url: /net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/enterfieldbehavior/

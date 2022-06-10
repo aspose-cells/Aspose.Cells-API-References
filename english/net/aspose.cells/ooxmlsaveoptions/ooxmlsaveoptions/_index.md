@@ -1,12 +1,12 @@
 ---
 title: OoxmlSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Creates the options for saving office open xml file.
 type: docs
 weight: 10
 url: /net/aspose.cells/ooxmlsaveoptions/ooxmlsaveoptions/
 ---
-## OoxmlSaveOptions constructor (1 of 2)
+## OoxmlSaveOptions() {#constructor}
 
 Creates the options for saving office open xml file.
 
@@ -22,7 +22,7 @@ public OoxmlSaveOptions()
 
 ---
 
-## OoxmlSaveOptions constructor (2 of 2)
+## OoxmlSaveOptions(SaveFormat) {#constructor_1}
 
 Creates the options for saving office open xml file.
 

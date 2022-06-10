@@ -1,7 +1,7 @@
 ---
 title: FormatConditions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get formatconditions for the pivot table condition format .
 type: docs
 weight: 10
 url: /net/aspose.cells.pivot/pivotformatcondition/formatconditions/

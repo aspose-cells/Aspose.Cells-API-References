@@ -1,7 +1,7 @@
 ---
 title: CellKeyEventArgs
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Provides data for grid cell key events.
 type: docs
 weight: 160
 url: /net/aspose.cells.griddesktop/cellkeyeventargs/

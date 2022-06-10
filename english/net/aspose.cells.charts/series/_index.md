@@ -1,9 +1,9 @@
 ---
 title: Series
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the object that represents a single data series in a chart.
 type: docs
-weight: 810
+weight: 830
 url: /net/aspose.cells.charts/series/
 ---
 ## Series class
@@ -20,6 +20,7 @@ public class Series
 | --- | --- |
 | [Area](../../aspose.cells.charts/series/area) { get; } | Represents the background area of Series object. |
 | [Bar3DShapeType](../../aspose.cells.charts/series/bar3dshapetype) { get; set; } | Gets or sets the 3D shape type used with the 3-D bar or column chart. |
+| [BarShape](../../aspose.cells.charts/series/barshape) { get; set; } | Gets or sets the 3D shape type used with the 3-D bar or column chart. |
 | [Border](../../aspose.cells.charts/series/border) { get; } | Represents border of Series object. |
 | [BubbleScale](../../aspose.cells.charts/series/bubblescale) { get; set; } | Gets or sets the scale factor for bubbles in the specified chart group. It can be an integer value from 0 (zero) to 300, corresponding to a percentage of the default size. Applies only to bubble charts. |
 | [BubbleSizes](../../aspose.cells.charts/series/bubblesizes) { get; set; } | Gets or sets the bubble sizes values of the chart series. |

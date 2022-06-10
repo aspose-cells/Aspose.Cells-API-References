@@ -1,7 +1,7 @@
 ---
 title: IgnoreBlank
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether blank values are permitted by the range data validation.
 type: docs
 weight: 70
 url: /net/aspose.cells/validation/ignoreblank/

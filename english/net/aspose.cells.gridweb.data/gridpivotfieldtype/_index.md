@@ -1,9 +1,9 @@
 ---
 title: GridPivotFieldType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents PivotTable field type.
 type: docs
-weight: 380
+weight: 390
 url: /net/aspose.cells.gridweb.data/gridpivotfieldtype/
 ---
 ## GridPivotFieldType enumeration

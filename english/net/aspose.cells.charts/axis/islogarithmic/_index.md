@@ -1,7 +1,7 @@
 ---
 title: IsLogarithmic
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents if the value axis scale type is logarithmic or not.
 type: docs
 weight: 200
 url: /net/aspose.cells.charts/axis/islogarithmic/

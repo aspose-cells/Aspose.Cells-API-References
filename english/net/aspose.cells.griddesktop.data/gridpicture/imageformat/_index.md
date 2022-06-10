@@ -1,7 +1,7 @@
 ---
 title: ImageFormat
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the image format of the picture.
 type: docs
 weight: 170
 url: /net/aspose.cells.griddesktop.data/gridpicture/imageformat/

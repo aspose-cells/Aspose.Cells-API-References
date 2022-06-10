@@ -1,25 +1,25 @@
 ---
 title: Aspose.Cells.GridJs
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Contains all classes of of GridJs.
 type: docs
 weight: 10
 url: /net/aspose.cells.gridjs/
 ---
-
+Contains all classes of of GridJs.
 
 ## Classes
 
 | Class | Description |
 | --- | --- |
-| [Config](./config) | represents all the settings for GridJs |
-| [GridAbstractCalculationEngine](./gridabstractcalculationengine) |  |
+| [Config](./config) | Represents all the settings for GridJs |
+| [GridAbstractCalculationEngine](./gridabstractcalculationengine) | Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells. |
 | [GridCacheForStream](./gridcacheforstream) | This class contains the cache operations for GridJs. User shall implement his own business logic for storage based on it.. |
-| [GridCalculationData](./gridcalculationdata) |  |
+| [GridCalculationData](./gridcalculationdata) | Represents the required data when calculating one function, such as function name, parameters, ...etc. |
 | [GridCellException](./gridcellexception) | The exception that is thrown when GridJs specified error occurs. |
 | [GridInterruptMonitor](./gridinterruptmonitor) | Represents all operator about the interrupt. |
-| [GridJsWorkbook](./gridjsworkbook) | the main entry class for GridJs |
-| [GridReferredArea](./gridreferredarea) |  |
+| [GridJsWorkbook](./gridjsworkbook) | Represents the main entry class for GridJs |
+| [GridReferredArea](./gridreferredarea) | Represents a referred area by the formula. |
 | [GridWorkbookSettings](./gridworkbooksettings) | Represents settings of the workbook. |
 ## Enumeration
 

@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the name of parameter.
 type: docs
 weight: 20
 url: /net/aspose.cells.querytables/powerqueryformulaparameter/name/

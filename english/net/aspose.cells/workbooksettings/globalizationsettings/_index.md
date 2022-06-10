@@ -1,9 +1,9 @@
 ---
 title: GlobalizationSettings
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the globalization settings.
 type: docs
-weight: 170
+weight: 220
 url: /net/aspose.cells/workbooksettings/globalizationsettings/
 ---
 ## WorkbookSettings.GlobalizationSettings property

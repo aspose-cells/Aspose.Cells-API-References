@@ -1,7 +1,7 @@
 ---
 title: SheetTabWidth
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets /Gets width of Sheet Tab.
 type: docs
 weight: 260
 url: /net/aspose.cells.griddesktop/griddesktop/sheettabwidth/

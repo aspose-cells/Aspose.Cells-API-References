@@ -1,7 +1,7 @@
 ---
 title: WeightPt
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the weight of the line in unit of points.
 type: docs
 weight: 210
 url: /net/aspose.cells.drawing/line/weightpt/

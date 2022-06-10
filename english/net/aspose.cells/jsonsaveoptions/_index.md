@@ -1,9 +1,9 @@
 ---
 title: JsonSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the options of saving the workbook as a json file.
 type: docs
-weight: 3920
+weight: 3960
 url: /net/aspose.cells/jsonsaveoptions/
 ---
 ## JsonSaveOptions class
@@ -27,11 +27,13 @@ public class JsonSaveOptions : SaveOptions
 | [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder) { get; set; } | The cached file folder is used to store some large data. |
 | [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | Make the workbook empty after saving the file. |
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [EnableHTTPCompression](../../aspose.cells/saveoptions/enablehttpcompression) { get; set; } | Indicates if http compression is to be used in user's IIS. |
 | [ExportArea](../../aspose.cells/jsonsaveoptions/exportarea) { get; set; } | Gets or sets the exporting range. |
 | [ExportAsString](../../aspose.cells/jsonsaveoptions/exportasstring) { get; set; } | Exports the string value of the cells to json. |
 | [HasHeaderRow](../../aspose.cells/jsonsaveoptions/hasheaderrow) { get; set; } | Indicates whether the range contains header row. |
 | [Indent](../../aspose.cells/jsonsaveoptions/indent) { get; set; } | Indicates the indent. |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [PdfExportImagesFolder](../../aspose.cells/saveoptions/pdfexportimagesfolder) { get; set; } | The physical folder where images will be saved when exporting a workbook to Aspose.Pdf XML format. Default is an empty string. |
 | [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Indicates whether refreshing chart cache data |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Gets the save file format. |
 | [SheetIndexes](../../aspose.cells/jsonsaveoptions/sheetindexes) { get; set; } | Represents the indexes of exported sheets. |

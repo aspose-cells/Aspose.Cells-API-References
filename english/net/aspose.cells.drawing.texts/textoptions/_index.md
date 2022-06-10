@@ -1,9 +1,9 @@
 ---
 title: TextOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the text options.
 type: docs
-weight: 2970
+weight: 3000
 url: /net/aspose.cells.drawing.texts/textoptions/
 ---
 ## TextOptions class

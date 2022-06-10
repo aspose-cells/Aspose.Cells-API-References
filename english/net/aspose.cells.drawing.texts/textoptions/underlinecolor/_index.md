@@ -1,7 +1,7 @@
 ---
 title: UnderlineColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the color of underline.
 type: docs
 weight: 90
 url: /net/aspose.cells.drawing.texts/textoptions/underlinecolor/

@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a property of cells smart tag.
 type: docs
 weight: 30
 url: /net/aspose.cells.markup/smarttagpropertycollection/add/

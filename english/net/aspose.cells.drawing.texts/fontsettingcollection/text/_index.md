@@ -1,7 +1,7 @@
 ---
 title: Text
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the text of the shape.
 type: docs
 weight: 30
 url: /net/aspose.cells.drawing.texts/fontsettingcollection/text/

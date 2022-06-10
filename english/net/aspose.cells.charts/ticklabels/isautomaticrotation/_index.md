@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticRotation
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the rotation angle is automatic
 type: docs
 weight: 60
 url: /net/aspose.cells.charts/ticklabels/isautomaticrotation/

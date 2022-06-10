@@ -1,7 +1,7 @@
 ---
 title: OldLength
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets Length of the comment text added in this revision.
 type: docs
 weight: 60
 url: /net/aspose.cells.revisions/revisioncellcomment/oldlength/

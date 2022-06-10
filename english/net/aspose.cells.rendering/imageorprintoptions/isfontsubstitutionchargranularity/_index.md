@@ -1,7 +1,7 @@
 ---
 title: IsFontSubstitutionCharGranularity
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether to only substitute the font of character when the cell font is not compatibility for it.
 type: docs
 weight: 160
 url: /net/aspose.cells.rendering/imageorprintoptions/isfontsubstitutionchargranularity/

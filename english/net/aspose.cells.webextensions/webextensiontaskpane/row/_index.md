@@ -1,7 +1,7 @@
 ---
 title: Row
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the index enumerating from the outside to the inside of this taskpane among other persisted taskpanes docked in the same default location.
 type: docs
 weight: 40
 url: /net/aspose.cells.webextensions/webextensiontaskpane/row/

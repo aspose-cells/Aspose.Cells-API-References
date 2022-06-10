@@ -1,9 +1,9 @@
 ---
 title: StandardFontSize
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the default standard font size.
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.cells/loadoptions/standardfontsize/
 ---
 ## LoadOptions.StandardFontSize property
@@ -11,6 +11,8 @@ url: /net/aspose.cells/loadoptions/standardfontsize/
 Sets the default standard font size.
 
 ```csharp
+[Obsolete("Use DefaultStyleSettings.FontSize property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public double StandardFontSize { get; set; }
 ```
 

@@ -1,7 +1,7 @@
 ---
 title: BackWall
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns a Wallsaspose.cells.charts/chart/walls object that represents the back wall of a 3-D chart.
 type: docs
 weight: 30
 url: /net/aspose.cells.charts/chart/backwall/

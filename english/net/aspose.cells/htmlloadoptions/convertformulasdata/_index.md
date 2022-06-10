@@ -1,9 +1,9 @@
 ---
 title: ConvertFormulasData
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: if true convert string to formula when string value starts with character the default value is false.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.cells/htmlloadoptions/convertformulasdata/
 ---
 ## HtmlLoadOptions.ConvertFormulasData property

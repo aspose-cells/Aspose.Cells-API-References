@@ -1,12 +1,12 @@
 ---
 title: AutoFill
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Automaticall fill the target range.
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.cells/range/autofill/
 ---
-## Range.AutoFill method (1 of 2)
+## AutoFill(Range) {#autofill}
 
 Automaticall fill the target range.
 
@@ -61,7 +61,7 @@ workbook.Save("book1.xlsm")
 
 ---
 
-## Range.AutoFill method (2 of 2)
+## AutoFill(Range, AutoFillType) {#autofill_1}
 
 Automaticall fill the target range.
 

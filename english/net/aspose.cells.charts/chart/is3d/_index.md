@@ -1,7 +1,7 @@
 ---
 title: Is3D
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the chart is a 3d chart.
 type: docs
 weight: 170
 url: /net/aspose.cells.charts/chart/is3d/

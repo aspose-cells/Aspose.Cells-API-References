@@ -1,7 +1,7 @@
 ---
 title: MidColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get or set the mid value objects corresponding color.
 type: docs
 weight: 50
 url: /net/aspose.cells/colorscale/midcolor/

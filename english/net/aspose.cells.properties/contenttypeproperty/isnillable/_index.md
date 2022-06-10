@@ -1,7 +1,7 @@
 ---
 title: IsNillable
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the value could be empty.
 type: docs
 weight: 10
 url: /net/aspose.cells.properties/contenttypeproperty/isnillable/

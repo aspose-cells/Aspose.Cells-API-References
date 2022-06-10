@@ -1,7 +1,7 @@
 ---
 title: ShowValue
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get or set the flag indicating whether to show the values of the cells on which this data bar is applied. Default value is true.
 type: docs
 weight: 120
 url: /net/aspose.cells/databar/showvalue/

@@ -1,7 +1,7 @@
 ---
 title: SetFont
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets font object to cellRange.
 type: docs
 weight: 1050
 url: /net/aspose.cells.griddesktop/worksheet/setfont/

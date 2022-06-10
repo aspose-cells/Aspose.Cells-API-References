@@ -1,7 +1,7 @@
 ---
 title: AddCustomFilter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Add custom filter for the specified row.
 type: docs
 weight: 380
 url: /net/aspose.cells.gridweb.data/gridworksheet/addcustomfilter/

@@ -1,7 +1,7 @@
 ---
 title: SubEntry
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: SubEntry of a bookmark.
 type: docs
 weight: 60
 url: /net/aspose.cells.rendering/pdfbookmarkentry/subentry/

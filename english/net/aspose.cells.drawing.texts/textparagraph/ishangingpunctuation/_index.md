@@ -1,7 +1,7 @@
 ---
 title: IsHangingPunctuation
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies whether punctuation is to be forcefully laid out on a line of text or put on a different line of text.
 type: docs
 weight: 80
 url: /net/aspose.cells.drawing.texts/textparagraph/ishangingpunctuation/

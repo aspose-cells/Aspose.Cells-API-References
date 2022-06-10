@@ -1,7 +1,7 @@
 ---
 title: Comments
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The purpose to signature.
 type: docs
 weight: 30
 url: /net/aspose.cells.digitalsignatures/digitalsignature/comments/

@@ -1,9 +1,9 @@
 ---
 title: ExportQuotePrefix
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the single quote sign should be exported as part of the value of one cell when QuotePrefixaspose.cells/style/quoteprefix is true for it. Default is false.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.cells/txtsaveoptions/exportquoteprefix/
 ---
 ## TxtSaveOptions.ExportQuotePrefix property

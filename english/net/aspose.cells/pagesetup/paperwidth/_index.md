@@ -1,7 +1,7 @@
 ---
 title: PaperWidth
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the width of the paper in unit of inches considered page orientation.
 type: docs
 weight: 270
 url: /net/aspose.cells/pagesetup/paperwidth/

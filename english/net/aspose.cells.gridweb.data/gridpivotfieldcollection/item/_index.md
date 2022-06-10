@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the PivotFieldaspose.cells.gridweb.data/pivotfield element at the specified index.
 type: docs
 weight: 20
 url: /net/aspose.cells.gridweb.data/gridpivotfieldcollection/item/
 ---
 ## GridPivotFieldCollection indexer
 
-Gets the PivotField element at the specified index.
+Gets the [`PivotField`](../../pivotfield) element at the specified index.
 
 ```csharp
 public GridPivotField this[int index] { get; }

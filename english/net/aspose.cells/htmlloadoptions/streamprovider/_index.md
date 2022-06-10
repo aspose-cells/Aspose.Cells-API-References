@@ -1,9 +1,9 @@
 ---
 title: StreamProvider
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the StreamProviderImportHtmlFile for importing objects.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.cells/htmlloadoptions/streamprovider/
 ---
 ## HtmlLoadOptions.StreamProvider property

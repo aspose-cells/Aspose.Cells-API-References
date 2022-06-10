@@ -1,7 +1,7 @@
 ---
 title: DefaultValues
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Default value for the value in the table is null.
 type: docs
 weight: 70
 url: /net/aspose.cells/importtableoptions/defaultvalues/

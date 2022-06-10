@@ -1,7 +1,7 @@
 ---
 title: Command
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns or sets the self defined command value text for the specified hyperlink.
 type: docs
 weight: 30
 url: /net/aspose.cells.griddesktop.data/gridhyperlink/command/

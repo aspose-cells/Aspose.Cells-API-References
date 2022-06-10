@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns an enumerator for the entire ChartPointCollectionaspose.cells.charts/chartpointcollection.
 type: docs
 weight: 40
 url: /net/aspose.cells.charts/chartpointcollection/getenumerator/

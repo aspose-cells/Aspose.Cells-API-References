@@ -1,9 +1,9 @@
 ---
 title: AcceptAllRevisions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Accepts all tracked changes in the workbook.
 type: docs
-weight: 260
+weight: 270
 url: /net/aspose.cells/workbook/acceptallrevisions/
 ---
 ## Workbook.AcceptAllRevisions method

@@ -1,7 +1,7 @@
 ---
 title: ExportActiveWorksheetOnly
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates if exporting the whole workbook to html file.
 type: docs
 weight: 100
 url: /net/aspose.cells/htmlsaveoptions/exportactiveworksheetonly/

@@ -1,7 +1,7 @@
 ---
 title: CellComboBoxCopy
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Occurs when a grid cell ComboBox is being copied.
 type: docs
 weight: 420
 url: /net/aspose.cells.griddesktop/griddesktop/cellcomboboxcopy/

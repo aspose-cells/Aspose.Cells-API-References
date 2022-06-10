@@ -1,7 +1,7 @@
 ---
 title: Row
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get and sets the row index of the cell.
 type: docs
 weight: 40
 url: /net/aspose.cells.ods/odscellfield/row/

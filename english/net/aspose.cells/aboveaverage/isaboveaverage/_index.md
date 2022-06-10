@@ -1,7 +1,7 @@
 ---
 title: IsAboveAverage
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get or set the flag indicating whether the rule is an above average rule. true indicates above average. Default value is true.
 type: docs
 weight: 20
 url: /net/aspose.cells/aboveaverage/isaboveaverage/

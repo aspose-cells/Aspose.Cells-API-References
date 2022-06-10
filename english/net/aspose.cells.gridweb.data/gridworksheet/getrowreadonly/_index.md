@@ -1,7 +1,7 @@
 ---
 title: GetRowReadonly
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets if a row is readonly. this is extended method of GridWeb specificallyit will not keep and take affect in actual excel file
 type: docs
 weight: 620
 url: /net/aspose.cells.gridweb.data/gridworksheet/getrowreadonly/

@@ -1,7 +1,7 @@
 ---
 title: CellError
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Occurs when a cells input value error.
 type: docs
 weight: 1180
 url: /net/aspose.cells.gridweb/mainweb/cellerror/

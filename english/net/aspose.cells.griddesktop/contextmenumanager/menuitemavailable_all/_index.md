@@ -1,7 +1,7 @@
 ---
 title: MenuItemAvailable_All
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets a value indicating whether all the context menu items are available.
 type: docs
 weight: 30
 url: /net/aspose.cells.griddesktop/contextmenumanager/menuitemavailable_all/

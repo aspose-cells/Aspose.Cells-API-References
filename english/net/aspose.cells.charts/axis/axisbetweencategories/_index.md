@@ -1,7 +1,7 @@
 ---
 title: AxisBetweenCategories
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents if the value axis crosses the category axis between categories.
 type: docs
 weight: 20
 url: /net/aspose.cells.charts/axis/axisbetweencategories/

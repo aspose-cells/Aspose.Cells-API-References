@@ -1,9 +1,9 @@
 ---
 title: GridShapeCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates a collection of GridShape./gridshape objects.
 type: docs
-weight: 490
+weight: 500
 url: /net/aspose.cells.gridweb.data/gridshapecollection/
 ---
 ## GridShapeCollection class

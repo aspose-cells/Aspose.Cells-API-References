@@ -1,7 +1,7 @@
 ---
 title: Password
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents Workbook file encryption password.
 type: docs
 weight: 40
 url: /net/aspose.cells.metadata/metadataoptions/password/

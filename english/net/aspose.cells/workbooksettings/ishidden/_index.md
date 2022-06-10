@@ -1,9 +1,9 @@
 ---
 title: IsHidden
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether this workbook is hidden.
 type: docs
-weight: 210
+weight: 260
 url: /net/aspose.cells/workbooksettings/ishidden/
 ---
 ## WorkbookSettings.IsHidden property

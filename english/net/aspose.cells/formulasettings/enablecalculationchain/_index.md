@@ -1,7 +1,7 @@
 ---
 title: EnableCalculationChain
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Whether enable calculation chain for formulas. Default is false.
 type: docs
 weight: 50
 url: /net/aspose.cells/formulasettings/enablecalculationchain/

@@ -1,7 +1,7 @@
 ---
 title: IsDisplayUnitLabelShown
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents if the display unit label is shown on the specified axis.
 type: docs
 weight: 190
 url: /net/aspose.cells.charts/axis/isdisplayunitlabelshown/

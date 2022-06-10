@@ -1,9 +1,9 @@
 ---
 title: TxtLoadOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the options for loading text file.
 type: docs
-weight: 6100
+weight: 6140
 url: /net/aspose.cells/txtloadoptions/
 ---
 ## TxtLoadOptions class
@@ -18,8 +18,8 @@ public class TxtLoadOptions : AbstractTextLoadOptions
 
 | Name | Description |
 | --- | --- |
-| [TxtLoadOptions](txtloadoptions)() | Creates the options for loading text file. |
-| [TxtLoadOptions](txtloadoptions)(LoadFormat) | Creates the options for loading text file. |
+| [TxtLoadOptions](txtloadoptions#constructor)() | Creates the options for loading text file. |
+| [TxtLoadOptions](txtloadoptions#constructor_1)(LoadFormat) | Creates the options for loading text file. |
 
 ## Properties
 
@@ -56,6 +56,8 @@ public class TxtLoadOptions : AbstractTextLoadOptions
 | [Region](../../aspose.cells/loadoptions/region) { get; set; } | Gets or sets the system regional settings based on CountryCode at the time the file was loaded. |
 | [Separator](../../aspose.cells/txtloadoptions/separator) { get; set; } | Gets and sets character separator of text file. |
 | [SeparatorString](../../aspose.cells/txtloadoptions/separatorstring) { get; set; } | Gets and sets a string value as separator. |
+| [StandardFont](../../aspose.cells/loadoptions/standardfont) { get; set; } | Sets the default standard font name |
+| [StandardFontSize](../../aspose.cells/loadoptions/standardfontsize) { get; set; } | Sets the default standard font size. |
 | [TextQualifier](../../aspose.cells/txtloadoptions/textqualifier) { get; set; } | Specifies the text qualifier for cell values. Default qualifier is '"'. |
 | [TreatConsecutiveDelimitersAsOne](../../aspose.cells/txtloadoptions/treatconsecutivedelimitersasone) { get; set; } | Whether consecutive delimiters should be treated as one. |
 | [TreatQuotePrefixAsValue](../../aspose.cells/txtloadoptions/treatquoteprefixasvalue) { get; set; } | Indicates whether the leading single quote sign should be taken as part of the value of one cell. Default is true. If it is false, the leading single quote will be removed from corresponding cell's value and [`QuotePrefix`](../style/quoteprefix) will be set as true for the cell. |

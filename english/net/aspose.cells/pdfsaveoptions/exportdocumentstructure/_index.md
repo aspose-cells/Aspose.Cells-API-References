@@ -1,7 +1,7 @@
 ---
 title: ExportDocumentStructure
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether to export document structure.
 type: docs
 weight: 160
 url: /net/aspose.cells/pdfsaveoptions/exportdocumentstructure/

@@ -1,7 +1,7 @@
 ---
 title: SelectedCellRangeChanged
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Occurs when the selected cellrange is changed.
 type: docs
 weight: 610
 url: /net/aspose.cells.griddesktop/griddesktop/selectedcellrangechanged/

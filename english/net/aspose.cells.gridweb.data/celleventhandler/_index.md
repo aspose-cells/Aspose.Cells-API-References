@@ -1,9 +1,9 @@
 ---
 title: CellEventHandler
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the interface that intend to handle cell events.
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.cells.gridweb.data/celleventhandler/
 ---
 ## CellEventHandler delegate

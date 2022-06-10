@@ -1,9 +1,9 @@
 ---
 title: Row
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets row number zero based of the cell.
 type: docs
-weight: 250
+weight: 270
 url: /net/aspose.cells/cell/row/
 ---
 ## Cell.Row property

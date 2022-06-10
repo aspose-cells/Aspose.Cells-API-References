@@ -1,7 +1,7 @@
 ---
 title: CellValueType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies a cell value type.
 type: docs
 weight: 270
 url: /net/aspose.cells/cellvaluetype/

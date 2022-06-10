@@ -1,7 +1,7 @@
 ---
 title: OnCellUpdatedClientFunction
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the client side function name to be called when a cells value is updated. The client function should be declared like this function MyOnCellUpdatedcell  alertthis.getCellValueByCellcell Note You may use the this pointer in the client function to point the grid control which fires the event.
 type: docs
 weight: 610
 url: /net/aspose.cells.gridweb/mainweb/oncellupdatedclientfunction/

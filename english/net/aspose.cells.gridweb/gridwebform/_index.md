@@ -1,9 +1,9 @@
 ---
 title: GridWebForm
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: GridWebForm control. It works with the GridWeb control. Set the GridWebControl property for it before run it.
 type: docs
-weight: 810
+weight: 1020
 url: /net/aspose.cells.gridweb/gridwebform/
 ---
 ## GridWebForm class

@@ -1,9 +1,9 @@
 ---
 title: WindowTop
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The distance from the top edge of the client area to the top edge of the window in unit of point.
 type: docs
-weight: 540
+weight: 670
 url: /net/aspose.cells/workbooksettings/windowtop/
 ---
 ## WorkbookSettings.WindowTop property

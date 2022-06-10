@@ -1,7 +1,7 @@
 ---
 title: EnableFieldList
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets whether enable the field list for the PivotTable.
 type: docs
 weight: 200
 url: /net/aspose.cells.pivot/pivottable/enablefieldlist/

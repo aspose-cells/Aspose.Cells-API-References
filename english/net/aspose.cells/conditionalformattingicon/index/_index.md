@@ -1,7 +1,7 @@
 ---
 title: Index
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the icons index in the icon set.
 type: docs
 weight: 20
 url: /net/aspose.cells/conditionalformattingicon/index/

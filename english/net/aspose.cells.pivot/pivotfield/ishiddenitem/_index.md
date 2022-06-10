@@ -1,7 +1,7 @@
 ---
 title: IsHiddenItem
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the specific PivotItem is hidden.
 type: docs
 weight: 500
 url: /net/aspose.cells.pivot/pivotfield/ishiddenitem/

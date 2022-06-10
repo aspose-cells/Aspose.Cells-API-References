@@ -1,9 +1,9 @@
 ---
 title: Group
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the group shape which contains this shape.
 type: docs
-weight: 130
+weight: 170
 url: /net/aspose.cells.drawing/shape/group/
 ---
 ## Shape.Group property

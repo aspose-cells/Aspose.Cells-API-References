@@ -1,9 +1,9 @@
 ---
 title: GridTableStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Inherited from System.Web.UI.WebControls.TableStyle. Represents the style of a web table. Please refer to .NET SDK document about System.Web.UI.WebControls.TableStyle for further information.
 type: docs
-weight: 790
+weight: 1000
 url: /net/aspose.cells.gridweb/gridtablestyle/
 ---
 ## GridTableStyle class
@@ -40,7 +40,7 @@ public class GridTableStyle : TableStyle
 
 | Name | Description |
 | --- | --- |
-| override [AddAttributesToRender](../../aspose.cells.gridweb/gridtablestyle/addattributestorender)(HtmlTextWriter, WebControl) | Internal use only. Do not call this method directly. |
+| override [AddAttributesToRender](../../aspose.cells.gridweb/gridtablestyle/addattributestorender#addattributestorender_1)(HtmlTextWriter, WebControl) | Internal use only. Do not call this method directly. |
 | override [CopyFrom](../../aspose.cells.gridweb/gridtablestyle/copyfrom)(Style) | Copies from another style object. |
 | override [MergeWith](../../aspose.cells.gridweb/gridtablestyle/mergewith)(Style) | Merges with another style object. |
 

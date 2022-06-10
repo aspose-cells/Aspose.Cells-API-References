@@ -1,7 +1,7 @@
 ---
 title: Index
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the index of the pivot item in the pivot field
 type: docs
 weight: 10
 url: /net/aspose.cells.gridweb.data/gridpivotitem/index/

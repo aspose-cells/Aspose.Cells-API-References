@@ -1,9 +1,9 @@
 ---
 title: JsonLoadOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the options of loading json files
 type: docs
-weight: 3910
+weight: 3950
 url: /net/aspose.cells/jsonloadoptions/
 ---
 ## JsonLoadOptions class
@@ -45,6 +45,8 @@ public class JsonLoadOptions : LoadOptions
 | [ParsingPivotCachedRecords](../../aspose.cells/loadoptions/parsingpivotcachedrecords) { get; set; } | Indicates whether parsing pivot cached records when loading the file. The default value is false. |
 | [Password](../../aspose.cells/loadoptions/password) { get; set; } | Gets and set the password of the workbook. |
 | [Region](../../aspose.cells/loadoptions/region) { get; set; } | Gets or sets the system regional settings based on CountryCode at the time the file was loaded. |
+| [StandardFont](../../aspose.cells/loadoptions/standardfont) { get; set; } | Sets the default standard font name |
+| [StandardFontSize](../../aspose.cells/loadoptions/standardfontsize) { get; set; } | Sets the default standard font size. |
 | [StartCell](../../aspose.cells/jsonloadoptions/startcell) { get; set; } | Gets and sets the start cell. |
 | [WarningCallback](../../aspose.cells/loadoptions/warningcallback) { get; set; } | Gets or sets warning callback. |
 

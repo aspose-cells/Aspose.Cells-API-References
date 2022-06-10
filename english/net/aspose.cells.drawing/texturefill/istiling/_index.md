@@ -1,7 +1,7 @@
 ---
 title: IsTiling
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether tile picture as texture.
 type: docs
 weight: 20
 url: /net/aspose.cells.drawing/texturefill/istiling/

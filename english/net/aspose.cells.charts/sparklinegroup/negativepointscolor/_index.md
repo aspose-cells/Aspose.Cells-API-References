@@ -1,7 +1,7 @@
 ---
 title: NegativePointsColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the color of the negative values on the sparkline group.
 type: docs
 weight: 100
 url: /net/aspose.cells.charts/sparklinegroup/negativepointscolor/

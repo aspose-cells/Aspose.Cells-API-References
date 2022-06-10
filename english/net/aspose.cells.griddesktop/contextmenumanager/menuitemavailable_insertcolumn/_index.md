@@ -1,7 +1,7 @@
 ---
 title: MenuItemAvailable_InsertColumn
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the context menu item InsertColumn is available.
 type: docs
 weight: 160
 url: /net/aspose.cells.griddesktop/contextmenumanager/menuitemavailable_insertcolumn/

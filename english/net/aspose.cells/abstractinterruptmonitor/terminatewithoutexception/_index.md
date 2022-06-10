@@ -1,7 +1,7 @@
 ---
 title: TerminateWithoutException
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: When procedure is interrupted whether terminate the procedure quietly or throw an Exception. Default is false that is when IsInterruptionRequestedaspose.cells/abstractinterruptmonitor/isinterruptionrequested is true a CellsExceptionaspose.cells/cellsexception with code Interrupted will be thrown.
 type: docs
 weight: 20
 url: /net/aspose.cells/abstractinterruptmonitor/terminatewithoutexception/

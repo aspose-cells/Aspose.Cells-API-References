@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the type of the bullet.
 type: docs
 weight: 30
 url: /net/aspose.cells.drawing.texts/characterbulletvalue/type/

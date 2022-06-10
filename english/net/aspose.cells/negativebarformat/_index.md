@@ -1,9 +1,9 @@
 ---
 title: NegativeBarFormat
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the color settings of the data bars for negative values that are defined by a data bar conditional formatting rule.
 type: docs
-weight: 4220
+weight: 4260
 url: /net/aspose.cells/negativebarformat/
 ---
 ## NegativeBarFormat class

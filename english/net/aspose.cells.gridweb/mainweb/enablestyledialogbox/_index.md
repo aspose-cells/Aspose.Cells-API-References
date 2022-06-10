@@ -1,7 +1,7 @@
 ---
 title: EnableStyleDialogbox
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets whether to enable the client side style dialogbox.
 type: docs
 weight: 330
 url: /net/aspose.cells.gridweb/mainweb/enablestyledialogbox/

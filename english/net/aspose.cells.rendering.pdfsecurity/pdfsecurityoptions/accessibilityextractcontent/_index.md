@@ -1,7 +1,7 @@
 ---
 title: AccessibilityExtractContent
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Permission to copy or extract content in support of accessibility to disabled users or for other purposes.
 type: docs
 weight: 20
 url: /net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/accessibilityextractcontent/

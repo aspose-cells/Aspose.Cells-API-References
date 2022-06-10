@@ -1,7 +1,7 @@
 ---
 title: Indexes
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The indexes of columns/rows which should be exported out.
 type: docs
 weight: 80
 url: /net/aspose.cells/exporttableoptions/indexes/

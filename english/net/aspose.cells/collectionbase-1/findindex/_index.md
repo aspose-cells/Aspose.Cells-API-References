@@ -6,7 +6,7 @@ type: docs
 weight: 110
 url: /net/aspose.cells/collectionbase-1/findindex/
 ---
-## CollectionBase&lt;T&gt;.FindIndex method (1 of 3)
+## FindIndex(Predicate&lt;T&gt;) {#findindex_2}
 
 ```csharp
 public int FindIndex(Predicate<T> match)
@@ -24,7 +24,7 @@ public int FindIndex(Predicate<T> match)
 
 ---
 
-## CollectionBase&lt;T&gt;.FindIndex method (2 of 3)
+## FindIndex(int, Predicate&lt;T&gt;) {#findindex_1}
 
 ```csharp
 public int FindIndex(int startIndex, Predicate<T> match)
@@ -43,7 +43,7 @@ public int FindIndex(int startIndex, Predicate<T> match)
 
 ---
 
-## CollectionBase&lt;T&gt;.FindIndex method (3 of 3)
+## FindIndex(int, int, Predicate&lt;T&gt;) {#findindex}
 
 ```csharp
 public int FindIndex(int startIndex, int count, Predicate<T> match)

@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the name of the chart.
 type: docs
 weight: 210
 url: /net/aspose.cells.charts/chart/name/

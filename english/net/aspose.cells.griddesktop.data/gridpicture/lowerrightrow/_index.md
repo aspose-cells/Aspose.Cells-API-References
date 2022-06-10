@@ -1,7 +1,7 @@
 ---
 title: LowerRightRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents lower right corner row index.
 type: docs
 weight: 330
 url: /net/aspose.cells.griddesktop.data/gridpicture/lowerrightrow/

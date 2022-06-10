@@ -1,7 +1,7 @@
 ---
 title: WorkBookEvents
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: WorkBook Events category.
 type: docs
 weight: 1050
 url: /net/aspose.cells.griddesktop/workbookevents/

@@ -1,9 +1,9 @@
 ---
 title: IsMerged
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Checks if a cell is part of a merged range or not.
 type: docs
-weight: 170
+weight: 190
 url: /net/aspose.cells/cell/ismerged/
 ---
 ## Cell.IsMerged property

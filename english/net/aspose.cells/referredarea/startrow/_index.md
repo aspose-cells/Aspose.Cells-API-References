@@ -1,7 +1,7 @@
 ---
 title: StartRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The start row of the area.
 type: docs
 weight: 80
 url: /net/aspose.cells/referredarea/startrow/

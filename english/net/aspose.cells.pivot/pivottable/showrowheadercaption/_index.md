@@ -1,7 +1,7 @@
 ---
 title: ShowRowHeaderCaption
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs
 type: docs
 weight: 680
 url: /net/aspose.cells.pivot/pivottable/showrowheadercaption/

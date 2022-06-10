@@ -1,7 +1,7 @@
 ---
 title: Top
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the top offset for stretching picture.
 type: docs
 weight: 60
 url: /net/aspose.cells.drawing/picformatoption/top/

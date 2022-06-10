@@ -1,9 +1,9 @@
 ---
 title: HtmlLoadOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents options when importing a html file.
 type: docs
-weight: 3720
+weight: 3750
 url: /net/aspose.cells/htmlloadoptions/
 ---
 ## HtmlLoadOptions class
@@ -18,13 +18,14 @@ public class HtmlLoadOptions : AbstractTextLoadOptions
 
 | Name | Description |
 | --- | --- |
-| [HtmlLoadOptions](htmlloadoptions)() | Creates an options of loading the file. |
-| [HtmlLoadOptions](htmlloadoptions)(LoadFormat) | Creates an options of loading the file. |
+| [HtmlLoadOptions](htmlloadoptions#constructor)() | Creates an options of loading the file. |
+| [HtmlLoadOptions](htmlloadoptions#constructor_1)(LoadFormat) | Creates an options of loading the file. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
+| [AttachedFilesDirectory](../../aspose.cells/htmlloadoptions/attachedfilesdirectory) { get; set; } | The directory that the attached files will be saved to. |
 | [AutoFilter](../../aspose.cells/loadoptions/autofilter) { get; set; } | Indicates whether auto filtering the data when loading the files. |
 | [AutoFitColsAndRows](../../aspose.cells/htmlloadoptions/autofitcolsandrows) { get; set; } | Indicates whether auto-fit columns and rows. The default value is false. |
 | [AutoFitterOptions](../../aspose.cells/loadoptions/autofitteroptions) { get; set; } | Gets and sets the auto fitter options |
@@ -54,6 +55,8 @@ public class HtmlLoadOptions : AbstractTextLoadOptions
 | [Password](../../aspose.cells/loadoptions/password) { get; set; } | Gets and set the password of the workbook. |
 | [ProgId](../../aspose.cells/htmlloadoptions/progid) { get; } | Gets the program id of creating the file. Only for MHT files. |
 | [Region](../../aspose.cells/loadoptions/region) { get; set; } | Gets or sets the system regional settings based on CountryCode at the time the file was loaded. |
+| [StandardFont](../../aspose.cells/loadoptions/standardfont) { get; set; } | Sets the default standard font name |
+| [StandardFontSize](../../aspose.cells/loadoptions/standardfontsize) { get; set; } | Sets the default standard font size. |
 | [StreamProvider](../../aspose.cells/htmlloadoptions/streamprovider) { get; set; } | Gets or sets the StreamProviderImportHtmlFile for importing objects. |
 | [SupportDivTag](../../aspose.cells/htmlloadoptions/supportdivtag) { get; set; } | Indicates whether support the layout of &lt;div&gt; tag when the html file contains &lt;div&gt; tags. The default value is false. |
 | [WarningCallback](../../aspose.cells/loadoptions/warningcallback) { get; set; } | Gets or sets warning callback. |

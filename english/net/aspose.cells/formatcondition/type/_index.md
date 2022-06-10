@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets whether the conditional format Type.
 type: docs
 weight: 140
 url: /net/aspose.cells/formatcondition/type/

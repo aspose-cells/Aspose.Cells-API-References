@@ -1,7 +1,7 @@
 ---
 title: IsTripleState
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates how the specified control will display Null values.
 type: docs
 weight: 50
 url: /net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/istriplestate/

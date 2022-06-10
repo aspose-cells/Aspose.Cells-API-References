@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the name of the PivotTable
 type: docs
 weight: 370
 url: /net/aspose.cells.pivot/pivottable/name/

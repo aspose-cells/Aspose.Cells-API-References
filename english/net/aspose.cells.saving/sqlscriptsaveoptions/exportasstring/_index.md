@@ -1,7 +1,7 @@
 ---
 title: ExportAsString
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether exporting all data as string value.
 type: docs
 weight: 80
 url: /net/aspose.cells.saving/sqlscriptsaveoptions/exportasstring/

@@ -1,7 +1,7 @@
 ---
 title: MinorUnit
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the minor units for the axis.
 type: docs
 weight: 310
 url: /net/aspose.cells.charts/axis/minorunit/

@@ -1,7 +1,7 @@
 ---
 title: DeleteText
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Delete some characters.
 type: docs
 weight: 80
 url: /net/aspose.cells.drawing.texts/fontsettingcollection/deletetext/

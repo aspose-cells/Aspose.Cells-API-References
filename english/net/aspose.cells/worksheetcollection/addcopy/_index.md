@@ -1,12 +1,12 @@
 ---
 title: AddCopy
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a worksheet to the collection and copies data from an existed worksheet.
 type: docs
 weight: 180
 url: /net/aspose.cells/worksheetcollection/addcopy/
 ---
-## WorksheetCollection.AddCopy method (1 of 2)
+## AddCopy(string) {#addcopy_1}
 
 Adds a worksheet to the collection and copies data from an existed worksheet.
 
@@ -36,7 +36,7 @@ public int AddCopy(string sheetName)
 
 ---
 
-## WorksheetCollection.AddCopy method (2 of 2)
+## AddCopy(int) {#addcopy}
 
 Adds a worksheet to the collection and copies data from an existed worksheet.
 

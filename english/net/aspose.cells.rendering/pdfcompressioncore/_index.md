@@ -1,9 +1,9 @@
 ---
 title: PdfCompressionCore
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies a type of compression applied to all content in the PDF file except images.
 type: docs
-weight: 5190
+weight: 5230
 url: /net/aspose.cells.rendering/pdfcompressioncore/
 ---
 ## PdfCompressionCore enumeration

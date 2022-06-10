@@ -1,7 +1,7 @@
 ---
 title: GetActiveWorksheet
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets current active worksheet.
 type: docs
 weight: 700
 url: /net/aspose.cells.griddesktop/griddesktop/getactiveworksheet/

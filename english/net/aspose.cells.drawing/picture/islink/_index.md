@@ -1,7 +1,7 @@
 ---
 title: IsLink
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns true if the picture is linked to a file.
 type: docs
 weight: 90
 url: /net/aspose.cells.drawing/picture/islink/

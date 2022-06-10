@@ -1,12 +1,12 @@
 ---
 title: ToImage
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Creates the shape image and saves it to a stream in the specified format.
 type: docs
-weight: 1150
+weight: 1210
 url: /net/aspose.cells.drawing/shape/toimage/
 ---
-## Shape.ToImage method (1 of 4)
+## ToImage(Stream, ImageFormat) {#toimage_2}
 
 Creates the shape image and saves it to a stream in the specified format.
 
@@ -40,7 +40,7 @@ shape.ToImage(imageStream, System.Drawing.Imaging.ImageFormat.Png);
 
 ---
 
-## Shape.ToImage method (2 of 4)
+## ToImage(string, ImageOrPrintOptions) {#toimage_3}
 
 Saves the shape to a file.
 
@@ -66,7 +66,7 @@ shape.ToImage("exmaple.png", op);
 
 ---
 
-## Shape.ToImage method (3 of 4)
+## ToImage(Stream, ImageOrPrintOptions) {#toimage_1}
 
 Saves the shape to a stream.
 
@@ -93,7 +93,7 @@ shape.ToImage(imageStream, op);
 
 ---
 
-## Shape.ToImage method (4 of 4)
+## ToImage(ImageOrPrintOptions) {#toimage}
 
 Returns the bitmap object of the shape .
 

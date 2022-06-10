@@ -1,7 +1,7 @@
 ---
 title: SetEvenHeader
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets a script formatting the even page header of an Excel file. Only effect in Excel 2007 when IsHFDiffOddEven is true.
 type: docs
 weight: 560
 url: /net/aspose.cells/pagesetup/setevenheader/

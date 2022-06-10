@@ -1,9 +1,9 @@
 ---
 title: ConnectionParameterCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the ConnectionParameter./connectionparameter collection
 type: docs
-weight: 3240
+weight: 3270
 url: /net/aspose.cells.externalconnections/connectionparametercollection/
 ---
 ## ConnectionParameterCollection class

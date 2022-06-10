@@ -1,7 +1,7 @@
 ---
 title: PivotItems
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the pivot items of the pivot field
 type: docs
 weight: 340
 url: /net/aspose.cells.pivot/pivotfield/pivotitems/

@@ -1,7 +1,7 @@
 ---
 title: IsIndentedFormatting
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Causes child elements to be indented.
 type: docs
 weight: 30
 url: /net/aspose.cells/spreadsheetml2003saveoptions/isindentedformatting/

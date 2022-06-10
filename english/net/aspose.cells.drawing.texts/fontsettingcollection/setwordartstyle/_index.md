@@ -1,7 +1,7 @@
 ---
 title: SetWordArtStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the preset WordArt style.
 type: docs
 weight: 150
 url: /net/aspose.cells.drawing.texts/fontsettingcollection/setwordartstyle/

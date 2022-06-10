@@ -1,9 +1,9 @@
 ---
 title: PowerQueryFormulaParameter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the parameter of power query formula.
 type: docs
-weight: 5000
+weight: 5040
 url: /net/aspose.cells.querytables/powerqueryformulaparameter/
 ---
 ## PowerQueryFormulaParameter class

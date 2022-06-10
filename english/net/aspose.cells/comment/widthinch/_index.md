@@ -1,7 +1,7 @@
 ---
 title: WidthInch
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the width of the comment in unit of inches.
 type: docs
 weight: 200
 url: /net/aspose.cells/comment/widthinch/

@@ -1,9 +1,9 @@
 ---
 title: IsMinimized
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents whether the generated spreadsheet will be opened Minimized.
 type: docs
-weight: 230
+weight: 280
 url: /net/aspose.cells/workbooksettings/isminimized/
 ---
 ## WorkbookSettings.IsMinimized property

@@ -1,9 +1,9 @@
 ---
 title: ErrorBarType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents error bar amount type.
 type: docs
-weight: 640
+weight: 660
 url: /net/aspose.cells.charts/errorbartype/
 ---
 ## ErrorBarType enumeration

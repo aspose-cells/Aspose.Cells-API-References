@@ -1,7 +1,7 @@
 ---
 title: PrintWithStatusDialog
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: If PrintWithStatusDialog  true  there will be a dialog that shows current print status. else no such dialog will show.
 type: docs
 weight: 260
 url: /net/aspose.cells.rendering/imageorprintoptions/printwithstatusdialog/

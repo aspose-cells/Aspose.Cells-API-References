@@ -1,7 +1,7 @@
 ---
 title: PatternFill
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets PatternFillaspose.cells.drawing/fillformat/patternfill object.
 type: docs
 weight: 110
 url: /net/aspose.cells.drawing/fillformat/patternfill/

@@ -1,9 +1,9 @@
 ---
 title: Borders
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the BorderCollectionaspose.cells/bordercollection of the style.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.cells/style/borders/
 ---
 ## Style.Borders property

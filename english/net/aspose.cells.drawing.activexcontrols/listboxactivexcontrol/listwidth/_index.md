@@ -1,7 +1,7 @@
 ---
 title: ListWidth
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and set the width in unit of points.
 type: docs
 weight: 80
 url: /net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/listwidth/

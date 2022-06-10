@@ -1,9 +1,9 @@
 ---
 title: FormulaParseOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents options when parsing formula.
 type: docs
-weight: 3590
+weight: 3620
 url: /net/aspose.cells/formulaparseoptions/
 ---
 ## FormulaParseOptions class

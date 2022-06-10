@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the type of module.
 type: docs
 weight: 30
 url: /net/aspose.cells.vba/vbamodule/type/

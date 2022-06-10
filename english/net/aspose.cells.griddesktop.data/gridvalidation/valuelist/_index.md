@@ -1,7 +1,7 @@
 ---
 title: ValueList
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets/Sets the value list object.
 type: docs
 weight: 200
 url: /net/aspose.cells.griddesktop.data/gridvalidation/valuelist/

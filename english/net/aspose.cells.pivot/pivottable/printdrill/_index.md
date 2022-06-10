@@ -1,7 +1,7 @@
 ---
 title: PrintDrill
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies a boolean value that indicates whether drill indicators should be printed. print expand/collapse buttons when displayed on pivottable.
 type: docs
 weight: 470
 url: /net/aspose.cells.pivot/pivottable/printdrill/

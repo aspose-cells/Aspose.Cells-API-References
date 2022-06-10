@@ -1,14 +1,14 @@
 ---
 title: GridHyperlinkCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates a collection of Hyperlink./hyperlink objects.
 type: docs
-weight: 270
+weight: 280
 url: /net/aspose.cells.gridweb.data/gridhyperlinkcollection/
 ---
 ## GridHyperlinkCollection class
 
-Encapsulates a collection of Hyperlink objects.
+Encapsulates a collection of [`Hyperlink`](../hyperlink) objects.
 
 ```csharp
 public class GridHyperlinkCollection
@@ -19,19 +19,19 @@ public class GridHyperlinkCollection
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.cells.gridweb.data/gridhyperlinkcollection/count) { get; } |  |
-| [Item](../../aspose.cells.gridweb.data/gridhyperlinkcollection/item) { get; } | Gets the Hyperlink element at the specified index. |
+| [Item](../../aspose.cells.gridweb.data/gridhyperlinkcollection/item) { get; } | Gets the [`Hyperlink`](../hyperlink) element at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.gridweb.data/gridhyperlinkcollection/add)(string, string) | Adds a hyperlink to a specified cell . |
-| [Add](../../aspose.cells.gridweb.data/gridhyperlinkcollection/add)(string, int, int, string) | Adds a hyperlink to a specified cell or a range of cells. |
-| [Add](../../aspose.cells.gridweb.data/gridhyperlinkcollection/add)(int, int, int, int, string) | Adds a hyperlink to a specified cell or a range of cells. |
-| [Add](../../aspose.cells.gridweb.data/gridhyperlinkcollection/add)(string, string, string, string, string) | Adds a hyperlink to a specified cell or a range of cells. |
+| [Add](../../aspose.cells.gridweb.data/gridhyperlinkcollection/add#add_2)(string, string) | Adds a hyperlink to a specified cell . |
+| [Add](../../aspose.cells.gridweb.data/gridhyperlinkcollection/add#add_1)(string, int, int, string) | Adds a hyperlink to a specified cell or a range of cells. |
+| [Add](../../aspose.cells.gridweb.data/gridhyperlinkcollection/add#add)(int, int, int, int, string) | Adds a hyperlink to a specified cell or a range of cells. |
+| [Add](../../aspose.cells.gridweb.data/gridhyperlinkcollection/add#add_3)(string, string, string, string, string) | Adds a hyperlink to a specified cell or a range of cells. |
 | [Clear](../../aspose.cells.gridweb.data/gridhyperlinkcollection/clear)() | Clears all hyperlinks. |
-| [GetHyperlink](../../aspose.cells.gridweb.data/gridhyperlinkcollection/gethyperlink)(GridCell) | Gets the cell's Hyperlink object. If there is no Hyperlink of the cell, returns null. |
-| [GetHyperlink](../../aspose.cells.gridweb.data/gridhyperlinkcollection/gethyperlink)(int, int) | Gets the cell's Hyperlink object. If there is no Hyperlink of the cell, returns null. |
+| [GetHyperlink](../../aspose.cells.gridweb.data/gridhyperlinkcollection/gethyperlink#gethyperlink)(GridCell) | Gets the cell's Hyperlink object. If there is no Hyperlink of the cell, returns null. |
+| [GetHyperlink](../../aspose.cells.gridweb.data/gridhyperlinkcollection/gethyperlink#gethyperlink_1)(int, int) | Gets the cell's Hyperlink object. If there is no Hyperlink of the cell, returns null. |
 | [Remove](../../aspose.cells.gridweb.data/gridhyperlinkcollection/remove)(GridCellArea) | Remove the hyperlink at the specified area. |
 | [RemoveAt](../../aspose.cells.gridweb.data/gridhyperlinkcollection/removeat)(int) | Remove the hyperlink at the specified index. |
 

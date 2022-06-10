@@ -1,12 +1,12 @@
 ---
 title: Aspose.Cells.Revisions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Contains all classes of Revision.
 type: docs
 weight: 160
 url: /net/aspose.cells.revisions/
 ---
-
+Contains all classes of Revision.
 
 ## Classes
 

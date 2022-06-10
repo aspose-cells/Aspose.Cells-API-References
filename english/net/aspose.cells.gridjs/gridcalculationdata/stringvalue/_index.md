@@ -1,7 +1,7 @@
 ---
 title: StringValue
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the Cell DisplayStringValue where the function is in.
 type: docs
 weight: 80
 url: /net/aspose.cells.gridjs/gridcalculationdata/stringvalue/

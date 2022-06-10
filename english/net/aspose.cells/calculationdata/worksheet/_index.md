@@ -1,7 +1,7 @@
 ---
 title: Worksheet
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the Worksheet object where the function is in.
 type: docs
 weight: 80
 url: /net/aspose.cells/calculationdata/worksheet/

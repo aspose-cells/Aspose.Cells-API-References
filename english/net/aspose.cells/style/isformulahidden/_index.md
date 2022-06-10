@@ -1,9 +1,9 @@
 ---
 title: IsFormulaHidden
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents if the formula will be hidden when the worksheet is protected.
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.cells/style/isformulahidden/
 ---
 ## Style.IsFormulaHidden property

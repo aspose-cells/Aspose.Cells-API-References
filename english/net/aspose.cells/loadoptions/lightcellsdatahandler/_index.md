@@ -1,7 +1,7 @@
 ---
 title: LightCellsDataHandler
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The data handler for processing cells data when reading template file.
 type: docs
 weight: 130
 url: /net/aspose.cells/loadoptions/lightcellsdatahandler/

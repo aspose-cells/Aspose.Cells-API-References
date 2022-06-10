@@ -1,7 +1,7 @@
 ---
 title: WarningCallback
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets warning callback.
 type: docs
 weight: 370
 url: /net/aspose.cells.rendering/imageorprintoptions/warningcallback/

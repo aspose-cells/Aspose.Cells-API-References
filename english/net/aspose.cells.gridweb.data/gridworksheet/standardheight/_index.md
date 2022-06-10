@@ -1,7 +1,7 @@
 ---
 title: StandardHeight
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the default row height in this worksheetin unit of points.
 type: docs
 weight: 290
 url: /net/aspose.cells.gridweb.data/gridworksheet/standardheight/

@@ -1,9 +1,9 @@
 ---
 title: ImageOrPrintOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Allows to specify options when rendering worksheet to images printing worksheet or rendering chart to image.
 type: docs
-weight: 5130
+weight: 5170
 url: /net/aspose.cells.rendering/imageorprintoptions/
 ---
 ## ImageOrPrintOptions class

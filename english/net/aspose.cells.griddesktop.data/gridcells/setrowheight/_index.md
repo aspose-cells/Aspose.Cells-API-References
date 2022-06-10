@@ -1,7 +1,7 @@
 ---
 title: SetRowHeight
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the height of the specified row.
 type: docs
 weight: 650
 url: /net/aspose.cells.griddesktop.data/gridcells/setrowheight/

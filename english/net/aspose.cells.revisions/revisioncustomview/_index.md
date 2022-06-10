@@ -1,9 +1,9 @@
 ---
 title: RevisionCustomView
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a revision record of adding or removing a custom view to the workbook
 type: docs
-weight: 5380
+weight: 5420
 url: /net/aspose.cells.revisions/revisioncustomview/
 ---
 ## RevisionCustomView class

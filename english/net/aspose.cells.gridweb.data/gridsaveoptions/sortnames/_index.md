@@ -1,7 +1,7 @@
 ---
 title: SortNames
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether sorting defined names before saving file.
 type: docs
 weight: 70
 url: /net/aspose.cells.gridweb.data/gridsaveoptions/sortnames/

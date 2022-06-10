@@ -1,12 +1,43 @@
 ---
 title: SetArrayFormula
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets an array formula to a range of cells.
 type: docs
-weight: 570
+weight: 620
 url: /net/aspose.cells/cell/setarrayformula/
 ---
-## Cell.SetArrayFormula method (1 of 3)
+## SetArrayFormula(string, int, int, bool, bool) {#setarrayformula_3}
+
+Sets an array formula to a range of cells.
+
+```csharp
+[Obsolete("Use FormulaParseOptions for more options instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
+public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber, bool isR1C1, 
+    bool isLocal)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arrayFormula | String | Array formula. |
+| rowNumber | Int32 | Number of rows to populate result of the array formula. |
+| columnNumber | Int32 | Number of columns to populate result of the array formula. |
+| isR1C1 | Boolean | whether the formula is R1C1 formula |
+| isLocal | Boolean | whether the formula is locale formatted |
+
+### Remarks
+
+NOTE: This class is now obsolete. Instead, please use Cell.SetArrayFormula(string,int,int,FormulaParseOptions). This property will be removed 12 months later since December 2019. Aspose apologizes for any inconvenience you may have experienced.
+
+### See Also
+
+* class [Cell](../../cell)
+* namespace [Aspose.Cells](../../cell)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## SetArrayFormula(string, int, int, FormulaParseOptions) {#setarrayformula_1}
 
 Sets an array formula to a range of cells.
 
@@ -31,7 +62,7 @@ public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber
 
 ---
 
-## Cell.SetArrayFormula method (2 of 3)
+## SetArrayFormula(string, int, int, FormulaParseOptions, object[][]) {#setarrayformula_2}
 
 Sets an array formula to a range of cells.
 
@@ -57,7 +88,7 @@ public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber
 
 ---
 
-## Cell.SetArrayFormula method (3 of 3)
+## SetArrayFormula(string, int, int) {#setarrayformula}
 
 Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells.
 

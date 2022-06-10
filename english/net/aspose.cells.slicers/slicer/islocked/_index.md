@@ -1,7 +1,7 @@
 ---
 title: IsLocked
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the slicer shape is locked.
 type: docs
 weight: 80
 url: /net/aspose.cells.slicers/slicer/islocked/

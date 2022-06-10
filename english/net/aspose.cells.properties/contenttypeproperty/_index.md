@@ -1,9 +1,9 @@
 ---
 title: ContentTypeProperty
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents identifier information.
 type: docs
-weight: 4800
+weight: 4840
 url: /net/aspose.cells.properties/contenttypeproperty/
 ---
 ## ContentTypeProperty class

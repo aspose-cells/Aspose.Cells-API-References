@@ -1,7 +1,7 @@
 ---
 title: ListStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the visual appearance.
 type: docs
 weight: 70
 url: /net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/liststyle/

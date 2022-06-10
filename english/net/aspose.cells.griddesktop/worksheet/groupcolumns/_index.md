@@ -1,12 +1,12 @@
 ---
 title: GroupColumns
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Groups columns.
 type: docs
 weight: 800
 url: /net/aspose.cells.griddesktop/worksheet/groupcolumns/
 ---
-## Worksheet.GroupColumns method (1 of 3)
+## GroupColumns(int, int, bool, bool) {#groupcolumns_1}
 
 Groups columns.
 
@@ -29,7 +29,7 @@ public void GroupColumns(int firstColumn, int lastColumn, bool isHidden, bool ad
 
 ---
 
-## Worksheet.GroupColumns method (2 of 3)
+## GroupColumns(int, int, int, bool) {#groupcolumns_2}
 
 Groups columns.
 
@@ -52,7 +52,7 @@ public void GroupColumns(int firstColumn, int lastColumn, int outlineLevel, bool
 
 ---
 
-## Worksheet.GroupColumns method (3 of 3)
+## GroupColumns(int, int) {#groupcolumns}
 
 Groups columns.
 

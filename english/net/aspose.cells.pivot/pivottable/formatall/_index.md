@@ -1,7 +1,7 @@
 ---
 title: FormatAll
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Format all the cell in the pivottable area
 type: docs
 weight: 840
 url: /net/aspose.cells.pivot/pivottable/formatall/

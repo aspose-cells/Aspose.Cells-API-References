@@ -1,7 +1,7 @@
 ---
 title: CustomListSort
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether consider built-in custom list when sort data
 type: docs
 weight: 90
 url: /net/aspose.cells.pivot/pivottable/customlistsort/

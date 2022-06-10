@@ -1,7 +1,7 @@
 ---
 title: MergedCells
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the collection of merged cells.
 type: docs
 weight: 100
 url: /net/aspose.cells.gridweb.data/gridcells/mergedcells/

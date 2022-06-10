@@ -1,9 +1,9 @@
 ---
 title: ConditionalFormattingIcon
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the custom icon of conditional formatting rule.
 type: docs
-weight: 1100
+weight: 1120
 url: /net/aspose.cells/conditionalformattingicon/
 ---
 ## ConditionalFormattingIcon class

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the PivotTableaspose.cells.gridweb.data/pivottable element at the specified index.
 type: docs
 weight: 20
 url: /net/aspose.cells.gridweb.data/gridpivottablecollection/item/
 ---
 ## GridPivotTableCollection indexer
 
-Gets the PivotTable element at the specified index.
+Gets the [`PivotTable`](../../pivottable) element at the specified index.
 
 ```csharp
 public GridPivotTable this[int index] { get; }

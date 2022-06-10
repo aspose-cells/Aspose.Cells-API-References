@@ -1,12 +1,12 @@
 ---
 title: ExportDataTable
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Exports data in the Cellsaspose.cells/cells collection to a DataTable object.
 type: docs
 weight: 610
 url: /net/aspose.cells/cells/exportdatatable/
 ---
-## Cells.ExportDataTable method (1 of 3)
+## ExportDataTable(int, int, int, int) {#exportdatatable}
 
 Exports data in the [`Cells`](../../cells) collection to a DataTable object.
 
@@ -57,7 +57,7 @@ Dim dt As DataTable = sheet.Cells.ExportDataTable(6, 1, 69, 4)
 
 ---
 
-## Cells.ExportDataTable method (2 of 3)
+## ExportDataTable(int, int, int, int, bool) {#exportdatatable_2}
 
 Exports data in the [`Cells`](../../cells) collection to a DataTable object.
 
@@ -86,7 +86,7 @@ Exported DataTable object.
 
 ---
 
-## Cells.ExportDataTable method (3 of 3)
+## ExportDataTable(int, int, int, int, ExportTableOptions) {#exportdatatable_1}
 
 Exports data in the [`Cells`](../../cells) collection to a DataTable object.
 

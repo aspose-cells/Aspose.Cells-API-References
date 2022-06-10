@@ -1,14 +1,14 @@
 ---
 title: Fill
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns a FillFormataspose.cells.drawing/shape/fillformat object that contains fill formatting properties for the specified shape.
 type: docs
-weight: 80
+weight: 100
 url: /net/aspose.cells.drawing/shape/fill/
 ---
 ## Shape.Fill property
 
-Returns a FillFormat object that contains fill formatting properties for the specified shape.
+Returns a [`FillFormat`](../fillformat) object that contains fill formatting properties for the specified shape.
 
 ```csharp
 public FillFormat Fill { get; }

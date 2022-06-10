@@ -1,12 +1,12 @@
 ---
 title: ToImage
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets a 32-bit Bitmap object of the chart.
 type: docs
-weight: 590
+weight: 600
 url: /net/aspose.cells.charts/chart/toimage/
 ---
-## Chart.ToImage method (1 of 9)
+## ToImage() {#toimage}
 
 Gets a 32-bit `Bitmap` object of the chart.
 
@@ -30,7 +30,7 @@ If the width or height is zero or the chart is not supported according to Suppor
 
 ---
 
-## Chart.ToImage method (2 of 9)
+## ToImage(ImageOrPrintOptions) {#toimage_1}
 
 Gets a 32-bit `Bitmap` object of the chart. `ImageOrPrintOptions.ImageFormat`, ImageOrPrintOptions.TiffCompression and ImageOrPrintOptions.Quality attributes are ignored.
 
@@ -83,7 +83,7 @@ Dim chartObject As Bitmap = book.Worksheets(0).Charts(0).ToImage(options)
 
 ---
 
-## Chart.ToImage method (3 of 9)
+## ToImage(string) {#toimage_5}
 
 Creates the chart image and saves it to a file. The extension of the file name determines the format of the image.
 
@@ -109,7 +109,7 @@ If the width or height is zero or the chart is not supported according to Suppor
 
 ---
 
-## Chart.ToImage method (4 of 9)
+## ToImage(string, ImageFormat) {#toimage_8}
 
 Creates the chart image and saves it to a file in the specified format.
 
@@ -136,7 +136,7 @@ If the width or height is zero or the chart is not supported according to Suppor
 
 ---
 
-## Chart.ToImage method (5 of 9)
+## ToImage(string, long) {#toimage_7}
 
 Creates the chart image and saves it to a file in the Jpeg format.
 
@@ -161,7 +161,7 @@ If the width or height is zero or the chart is not supported according to Suppor
 
 ---
 
-## Chart.ToImage method (6 of 9)
+## ToImage(Stream, long) {#toimage_3}
 
 Creates the chart image and saves it to a stream in the Jpeg format.
 
@@ -186,7 +186,7 @@ If the width or height is zero or the chart is not supported according to Suppor
 
 ---
 
-## Chart.ToImage method (7 of 9)
+## ToImage(Stream, ImageFormat) {#toimage_4}
 
 Creates the chart image and saves it to a stream in the specified format.
 
@@ -213,7 +213,7 @@ If the width or height is zero or the chart is not supported according to Suppor
 
 ---
 
-## Chart.ToImage method (8 of 9)
+## ToImage(string, ImageOrPrintOptions) {#toimage_6}
 
 Creates the chart image and saves it to a file. The extension of the file name determines the format of the image.
 
@@ -291,7 +291,7 @@ book.Worksheets(0).Charts(0).ToImage("chart.Jpeg", options)
 
 ---
 
-## Chart.ToImage method (9 of 9)
+## ToImage(Stream, ImageOrPrintOptions) {#toimage_2}
 
 Creates the chart image and saves it to a stream in the specified format.
 

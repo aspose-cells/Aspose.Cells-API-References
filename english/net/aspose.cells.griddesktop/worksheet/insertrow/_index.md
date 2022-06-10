@@ -1,7 +1,7 @@
 ---
 title: InsertRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Inserts a new row.
 type: docs
 weight: 850
 url: /net/aspose.cells.griddesktop/worksheet/insertrow/

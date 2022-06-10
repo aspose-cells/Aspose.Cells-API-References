@@ -1,7 +1,7 @@
 ---
 title: IsItalic
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the font is italic.
 type: docs
 weight: 70
 url: /net/aspose.cells/font/isitalic/

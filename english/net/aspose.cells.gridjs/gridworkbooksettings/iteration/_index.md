@@ -1,7 +1,7 @@
 ---
 title: Iteration
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether use iteration to resolve circular references.
 type: docs
 weight: 80
 url: /net/aspose.cells.gridjs/gridworkbooksettings/iteration/

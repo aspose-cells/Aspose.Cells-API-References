@@ -1,7 +1,7 @@
 ---
 title: Font
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Font settings will be applied.
 type: docs
 weight: 90
 url: /net/aspose.cells/styleflag/font/

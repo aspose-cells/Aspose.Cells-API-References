@@ -1,7 +1,7 @@
 ---
 title: AddExternalName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds an external name.
 type: docs
 weight: 60
 url: /net/aspose.cells/externallink/addexternalname/

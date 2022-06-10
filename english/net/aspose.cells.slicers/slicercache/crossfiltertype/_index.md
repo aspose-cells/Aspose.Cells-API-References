@@ -1,7 +1,7 @@
 ---
 title: CrossFilterType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns or sets whether a slicer is participating in cross filtering with other slicers that share the same slicer cache and how cross filtering is displayed. Read/write
 type: docs
 weight: 10
 url: /net/aspose.cells.slicers/slicercache/crossfiltertype/

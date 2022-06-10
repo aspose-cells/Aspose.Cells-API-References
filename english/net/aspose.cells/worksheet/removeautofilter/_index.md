@@ -1,7 +1,7 @@
 ---
 title: RemoveAutoFilter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Removes the auto filter of the worksheet.
 type: docs
 weight: 800
 url: /net/aspose.cells/worksheet/removeautofilter/

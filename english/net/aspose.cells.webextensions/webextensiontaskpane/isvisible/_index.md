@@ -1,7 +1,7 @@
 ---
 title: IsVisible
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the Task Pane shows as visible by default when the document opens.
 type: docs
 weight: 30
 url: /net/aspose.cells.webextensions/webextensiontaskpane/isvisible/

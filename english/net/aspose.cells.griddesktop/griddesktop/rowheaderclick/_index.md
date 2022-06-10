@@ -1,7 +1,7 @@
 ---
 title: RowHeaderClick
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Occurs when the row header clicked.
 type: docs
 weight: 590
 url: /net/aspose.cells.griddesktop/griddesktop/rowheaderclick/

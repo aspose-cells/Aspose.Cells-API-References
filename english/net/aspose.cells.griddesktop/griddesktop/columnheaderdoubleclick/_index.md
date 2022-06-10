@@ -1,7 +1,7 @@
 ---
 title: ColumnHeaderDoubleClick
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Occurs when the column header double clicked.
 type: docs
 weight: 510
 url: /net/aspose.cells.griddesktop/griddesktop/columnheaderdoubleclick/

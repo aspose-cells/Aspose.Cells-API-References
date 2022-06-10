@@ -1,7 +1,7 @@
 ---
 title: ExtrusionHeight
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the extrusion height of the applied to the shape in unit of points.
 type: docs
 weight: 70
 url: /net/aspose.cells.drawing/threedformat/extrusionheight/

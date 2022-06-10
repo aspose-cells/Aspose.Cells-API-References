@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets identifier for this signature line.
 type: docs
 weight: 40
 url: /net/aspose.cells.drawing/signatureline/id/

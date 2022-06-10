@@ -1,9 +1,9 @@
 ---
 title: CheckBoxCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a collection of CheckBox./checkbox objects in a worksheet.
 type: docs
-weight: 1860
+weight: 1880
 url: /net/aspose.cells.drawing/checkboxcollection/
 ---
 ## CheckBoxCollection class

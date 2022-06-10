@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Defines a new global name.
 type: docs
 weight: 30
 url: /net/aspose.cells.gridweb.data/gridnamecollection/add/
 ---
-## GridNameCollection.Add method (1 of 2)
+## Add(string, string) {#add_1}
 
 Defines a new global name.
 
@@ -31,7 +31,7 @@ Name object index.
 
 ---
 
-## GridNameCollection.Add method (2 of 2)
+## Add(int, string, string) {#add}
 
 Defines a new name in the specified sheet.
 

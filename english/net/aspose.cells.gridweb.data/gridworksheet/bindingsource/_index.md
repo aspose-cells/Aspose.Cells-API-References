@@ -1,7 +1,7 @@
 ---
 title: BindingSource
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The actually binding datasource object at run-time. It is a DataView object when the DataSource property is a DataSet DataTable or DataView object.
 type: docs
 weight: 40
 url: /net/aspose.cells.gridweb.data/gridworksheet/bindingsource/

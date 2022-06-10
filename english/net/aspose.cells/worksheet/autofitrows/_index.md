@@ -1,12 +1,12 @@
 ---
 title: AutoFitRows
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Autofits all rows in this worksheet.
 type: docs
 weight: 650
 url: /net/aspose.cells/worksheet/autofitrows/
 ---
-## Worksheet.AutoFitRows method (1 of 5)
+## AutoFitRows() {#autofitrows}
 
 Autofits all rows in this worksheet.
 
@@ -22,7 +22,7 @@ public void AutoFitRows()
 
 ---
 
-## Worksheet.AutoFitRows method (2 of 5)
+## AutoFitRows(bool) {#autofitrows_2}
 
 Autofits all rows in this worksheet.
 
@@ -42,7 +42,7 @@ public void AutoFitRows(bool onlyAuto)
 
 ---
 
-## Worksheet.AutoFitRows method (3 of 5)
+## AutoFitRows(AutoFitterOptions) {#autofitrows_1}
 
 Autofits all rows in this worksheet.
 
@@ -63,7 +63,7 @@ public void AutoFitRows(AutoFitterOptions options)
 
 ---
 
-## Worksheet.AutoFitRows method (4 of 5)
+## AutoFitRows(int, int) {#autofitrows_3}
 
 Autofits row height in a range.
 
@@ -84,7 +84,7 @@ public void AutoFitRows(int startRow, int endRow)
 
 ---
 
-## Worksheet.AutoFitRows method (5 of 5)
+## AutoFitRows(int, int, AutoFitterOptions) {#autofitrows_4}
 
 Autofits row height in a range.
 

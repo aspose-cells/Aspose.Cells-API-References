@@ -1,9 +1,9 @@
 ---
 title: IsBlank
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the row contains any data
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.cells.gridweb.data/gridrow/isblank/
 ---
 ## GridRow.IsBlank method

@@ -1,7 +1,7 @@
 ---
 title: GetColumnHeaderToolTip
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the columnheaders tooltip text.
 type: docs
 weight: 560
 url: /net/aspose.cells.gridweb.data/gridworksheet/getcolumnheadertooltip/

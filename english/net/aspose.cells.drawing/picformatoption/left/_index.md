@@ -1,7 +1,7 @@
 ---
 title: Left
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the left offset for stretching picture.
 type: docs
 weight: 30
 url: /net/aspose.cells.drawing/picformatoption/left/

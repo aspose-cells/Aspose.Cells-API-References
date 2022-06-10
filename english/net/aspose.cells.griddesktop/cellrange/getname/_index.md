@@ -1,7 +1,7 @@
 ---
 title: getName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: get the name defined for the cellrange.if no name defined for this cellrange just return null
 type: docs
 weight: 110
 url: /net/aspose.cells.griddesktop/cellrange/getname/

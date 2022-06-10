@@ -1,9 +1,9 @@
 ---
 title: Trendline
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a trendline in a chart.
 type: docs
-weight: 970
+weight: 990
 url: /net/aspose.cells.charts/trendline/
 ---
 ## Trendline class

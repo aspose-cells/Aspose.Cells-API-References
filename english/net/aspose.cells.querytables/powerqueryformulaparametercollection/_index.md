@@ -1,9 +1,9 @@
 ---
 title: PowerQueryFormulaParameterCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the
 type: docs
-weight: 5010
+weight: 5050
 url: /net/aspose.cells.querytables/powerqueryformulaparametercollection/
 ---
 ## PowerQueryFormulaParameterCollection class

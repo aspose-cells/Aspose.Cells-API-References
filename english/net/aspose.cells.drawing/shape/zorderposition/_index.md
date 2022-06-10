@@ -1,9 +1,9 @@
 ---
 title: ZOrderPosition
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns the position of a shape in the z-order.
 type: docs
-weight: 950
+weight: 1010
 url: /net/aspose.cells.drawing/shape/zorderposition/
 ---
 ## Shape.ZOrderPosition property

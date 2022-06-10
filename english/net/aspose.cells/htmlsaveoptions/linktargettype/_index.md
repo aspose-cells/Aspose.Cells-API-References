@@ -1,9 +1,9 @@
 ---
 title: LinkTargetType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicating the type of target attribute in ltagt linkThe default value is HtmlLinkTargetType.Parent.
 type: docs
-weight: 390
+weight: 400
 url: /net/aspose.cells/htmlsaveoptions/linktargettype/
 ---
 ## HtmlSaveOptions.LinkTargetType property

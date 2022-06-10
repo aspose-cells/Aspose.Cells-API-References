@@ -1,9 +1,9 @@
 ---
 title: IsJustifyDistributed
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates if the cells justified or distributed alignment should be used on the last line of text.
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.cells/style/isjustifydistributed/
 ---
 ## Style.IsJustifyDistributed property

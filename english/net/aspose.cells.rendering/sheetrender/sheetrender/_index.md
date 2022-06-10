@@ -1,7 +1,7 @@
 ---
 title: SheetRender
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: the construct of SheetRender need worksheet and ImageOrPrintOptions as params
 type: docs
 weight: 10
 url: /net/aspose.cells.rendering/sheetrender/sheetrender/

@@ -1,14 +1,14 @@
 ---
 title: GetPrecedents
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets all references appearing in this cells formula.
 type: docs
-weight: 470
+weight: 510
 url: /net/aspose.cells/cell/getprecedents/
 ---
 ## Cell.GetPrecedents method
 
-Gets all cells or ranges which this cell's formula depends on.
+Gets all references appearing in this cell's formula.
 
 ```csharp
 public ReferredAreaCollection GetPrecedents()
@@ -16,50 +16,48 @@ public ReferredAreaCollection GetPrecedents()
 
 ### Return Value
 
-Returns all cells or ranges.
+Collection of all references appearing in this cell's formula.
 
 ### Remarks
 
-Returns null if this is not a formula cell.
+Returns null if this is not a formula cell.All references appearing in this cell's formula will be returned no matter they are referenced or not while calculating. For example, although cell A2 in formula "=IF(TRUE,A1,A2)" is not used while calculating, it is still taken as the formula's precedents.To get those references which influence the calculation only, please use [`GetPrecedentsInCalculation`](../getprecedentsincalculation).
 
 ### Examples
 
 ```csharp
-
 [C#]
 
 Workbook workbook = new Workbook();
 Cells cells = workbook.Worksheets[0].Cells;
-cells["A1"].Formula = "= B1 + SUM(B1:B10) + [Book1.xls]Sheet1!A1";
- ReferredAreaCollection areas = cells["A1"].GetPrecedents();
+cells["A1"].Formula = "=B1+SUM(B1:B10)+[Book1.xls]Sheet1!A1";
+ReferredAreaCollection areas = cells["A1"].GetPrecedents();
 for (int i = 0; i < areas.Count; i++)
 {
-    ReferredArea area = areas[i];
+     ReferredArea area = areas[i];
      StringBuilder stringBuilder = new StringBuilder();
      if (area.IsExternalLink)
      {
          stringBuilder.Append("[");
-          stringBuilder.Append(area.ExternalFileName);
-          stringBuilder.Append("]");
-      }
-      stringBuilder.Append(area.SheetName);
-      stringBuilder.Append("!");
-      stringBuilder.Append(CellsHelper.CellIndexToName(area.StartRow, area.StartColumn));
-      if (area.IsArea)
-       {
-           stringBuilder.Append(":");
-           stringBuilder.Append(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
-       }
-       Console.WriteLine(stringBuilder.ToString());
-    }
- workbook.Save(@"Book2.xls");
+         stringBuilder.Append(area.ExternalFileName);
+         stringBuilder.Append("]");
+     }
+     stringBuilder.Append(area.SheetName);
+     stringBuilder.Append("!");
+     stringBuilder.Append(CellsHelper.CellIndexToName(area.StartRow, area.StartColumn));
+     if (area.IsArea)
+     {
+         stringBuilder.Append(":");
+         stringBuilder.Append(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
+     }
+     Console.WriteLine(stringBuilder.ToString());
+}
 
 [Visual Basic]
 
 Dim workbook As Workbook = New Workbook()
 Dim cells As Cells = workbook.Worksheets(0).Cells
 cells("A1").Formula = "= B1 + SUM(B1:B10) + [Book1.xls]Sheet1!A1"
- Dim areas As ReferredAreaCollection = cells("A1").GetPrecedents()
+Dim areas As ReferredAreaCollection = cells("A1").GetPrecedents()
 For i As Integer = 0 To areas.Count - 1
     Dim area As ReferredArea = areas(i)
     Dim stringBuilder As StringBuilder = New StringBuilder()
@@ -74,10 +72,9 @@ For i As Integer = 0 To areas.Count - 1
     If (area.IsArea) Then
         stringBuilder.Append(":")
         stringBuilder.Append(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn))
-     End If
+    End If
     Console.WriteLine(stringBuilder.ToString())
- Next
- workbook.Save("Book2.xls")
+Next
 ```
 
 ### See Also

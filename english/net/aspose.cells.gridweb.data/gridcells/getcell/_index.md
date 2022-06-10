@@ -1,7 +1,7 @@
 ---
 title: GetCell
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the Cell element or null at the specified cell row index and column index.
 type: docs
 weight: 390
 url: /net/aspose.cells.gridweb.data/gridcells/getcell/

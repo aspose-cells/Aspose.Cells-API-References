@@ -1,12 +1,12 @@
 ---
 title: CalculateFormula
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Calculates the result of formulas.
 type: docs
-weight: 280
+weight: 290
 url: /net/aspose.cells/workbook/calculateformula/
 ---
-## Workbook.CalculateFormula method (1 of 3)
+## CalculateFormula() {#calculateformula}
 
 Calculates the result of formulas.
 
@@ -26,7 +26,7 @@ For all supported formulas, please see the list at https://docs.aspose.com/displ
 
 ---
 
-## Workbook.CalculateFormula method (2 of 3)
+## CalculateFormula(bool) {#calculateformula_2}
 
 Calculates the result of formulas.
 
@@ -46,7 +46,35 @@ public void CalculateFormula(bool ignoreError)
 
 ---
 
-## Workbook.CalculateFormula method (3 of 3)
+## CalculateFormula(bool, ICustomFunction) {#calculateformula_3}
+
+Calculates the result of formulas.
+
+```csharp
+[Obsolete("Use CalculateFormula(CalculationOptions) method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
+public void CalculateFormula(bool ignoreError, ICustomFunction customFunction)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ignoreError | Boolean | Indicates if hide the error in calculating formulas. The error may be unsupported function, external links, etc. |
+| customFunction | ICustomFunction | The custom formula calculation functions to extend the calculation engine. |
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use CalculateFormula(CalculationOptions) method. This method will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
+
+### See Also
+
+* interface [ICustomFunction](../../icustomfunction)
+* class [Workbook](../../workbook)
+* namespace [Aspose.Cells](../../workbook)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## CalculateFormula(CalculationOptions) {#calculateformula_1}
 
 Calculating formulas in this workbook.
 

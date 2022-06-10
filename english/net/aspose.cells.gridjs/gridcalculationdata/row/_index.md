@@ -1,7 +1,7 @@
 ---
 title: Row
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the Cell Row index where the function is in.
 type: docs
 weight: 60
 url: /net/aspose.cells.gridjs/gridcalculationdata/row/

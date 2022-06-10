@@ -1,7 +1,7 @@
 ---
 title: IgnoreError
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates if you need to hide the error while rendering. The error can be error in shape image chart rendering etc.
 type: docs
 weight: 190
 url: /net/aspose.cells/pdfsaveoptions/ignoreerror/

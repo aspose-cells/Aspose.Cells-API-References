@@ -1,7 +1,7 @@
 ---
 title: ViewPanelScrollLeft
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the position of the scroll bar of the grids view panel.
 type: docs
 weight: 1040
 url: /net/aspose.cells.gridweb/mainweb/viewpanelscrollleft/

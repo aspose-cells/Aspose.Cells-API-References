@@ -1,7 +1,7 @@
 ---
 title: DisplayHidden
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether to show data in hidden rows and columns.
 type: docs
 weight: 10
 url: /net/aspose.cells.charts/sparklinegroup/displayhidden/

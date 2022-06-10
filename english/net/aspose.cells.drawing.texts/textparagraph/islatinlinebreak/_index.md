@@ -1,7 +1,7 @@
 ---
 title: IsLatinLineBreak
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies whether a Latin word can be broken in half and wrapped onto the next line without a hyphen being added.
 type: docs
 weight: 90
 url: /net/aspose.cells.drawing.texts/textparagraph/islatinlinebreak/

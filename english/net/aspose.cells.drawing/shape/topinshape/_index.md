@@ -1,9 +1,9 @@
 ---
 title: TopInShape
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the vertical offset of shape from the top border of the parent shape in unit of 1/4000 of height of the parent shape.
 type: docs
-weight: 790
+weight: 850
 url: /net/aspose.cells.drawing/shape/topinshape/
 ---
 ## Shape.TopInShape property

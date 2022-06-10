@@ -1,9 +1,9 @@
 ---
 title: ResourceProvider
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the stream provider for external resource such as loading image data for picture of type LinkToFile.
 type: docs
-weight: 400
+weight: 520
 url: /net/aspose.cells/workbooksettings/resourceprovider/
 ---
 ## WorkbookSettings.ResourceProvider property

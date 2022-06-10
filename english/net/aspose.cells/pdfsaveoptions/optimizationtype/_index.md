@@ -1,7 +1,7 @@
 ---
 title: OptimizationType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets pdf optimization type.
 type: docs
 weight: 230
 url: /net/aspose.cells/pdfsaveoptions/optimizationtype/

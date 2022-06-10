@@ -1,7 +1,7 @@
 ---
 title: ExportAllColumnIndexes
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether exporting all column indexes for cells.
 type: docs
 weight: 30
 url: /net/aspose.cells/xlsbsaveoptions/exportallcolumnindexes/

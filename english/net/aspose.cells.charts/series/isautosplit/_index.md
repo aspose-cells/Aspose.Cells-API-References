@@ -1,9 +1,9 @@
 ---
 title: IsAutoSplit
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the threshold value is automatic.
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.cells.charts/series/isautosplit/
 ---
 ## Series.IsAutoSplit property

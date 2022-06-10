@@ -1,9 +1,9 @@
 ---
 title: PowerQueryFormulaFunction
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the function of power query.
 type: docs
-weight: 4970
+weight: 5010
 url: /net/aspose.cells.querytables/powerqueryformulafunction/
 ---
 ## PowerQueryFormulaFunction class

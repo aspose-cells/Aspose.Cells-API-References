@@ -1,7 +1,7 @@
 ---
 title: PageSetup
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the page setup description in this chart.
 type: docs
 weight: 230
 url: /net/aspose.cells.charts/chart/pagesetup/

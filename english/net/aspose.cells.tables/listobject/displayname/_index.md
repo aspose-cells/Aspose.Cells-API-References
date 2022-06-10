@@ -1,7 +1,7 @@
 ---
 title: DisplayName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the display name.
 type: docs
 weight: 70
 url: /net/aspose.cells.tables/listobject/displayname/

@@ -1,7 +1,7 @@
 ---
 title: Height
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Height of Ticklabel item in ratio of chart height.
 type: docs
 weight: 10
 url: /net/aspose.cells.charts/ticklabelitem/height/

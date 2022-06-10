@@ -1,7 +1,7 @@
 ---
 title: ShowLoadingPosition
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the lefttop postionin px to show the loading dialogbox while postbacking to server etc. 100200 means the loading dialogboxs lefttop postion is at 100px200px .
 type: docs
 weight: 940
 url: /net/aspose.cells.gridweb/mainweb/showloadingposition/

@@ -1,7 +1,7 @@
 ---
 title: GetLegendIncreaseName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the name of increase for Legend.
 type: docs
 weight: 60
 url: /net/aspose.cells.charts/chartglobalizationsettings/getlegendincreasename/

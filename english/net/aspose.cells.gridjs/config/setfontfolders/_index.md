@@ -1,7 +1,7 @@
 ---
 title: SetFontFolders
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the fonts folders
 type: docs
 weight: 170
 url: /net/aspose.cells.gridjs/config/setfontfolders/

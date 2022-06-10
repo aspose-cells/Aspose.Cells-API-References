@@ -1,7 +1,7 @@
 ---
 title: Copy
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Copies conditional formatting.
 type: docs
 weight: 30
 url: /net/aspose.cells/conditionalformattingcollection/copy/

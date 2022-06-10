@@ -1,7 +1,7 @@
 ---
 title: ComboBox
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a cell combobox control.
 type: docs
 weight: 270
 url: /net/aspose.cells.griddesktop/combobox/

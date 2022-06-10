@@ -1,7 +1,7 @@
 ---
 title: FontAlignType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Determines where vertically on a line of text the actual words are positioned. This deals with vertical placement of the characters with respect to the baselines.
 type: docs
 weight: 60
 url: /net/aspose.cells.drawing.texts/textparagraph/fontaligntype/

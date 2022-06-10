@@ -1,7 +1,7 @@
 ---
 title: ClearFilter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Clear PivotFilter from the specific PivotField
 type: docs
 weight: 30
 url: /net/aspose.cells.pivot/pivotfiltercollection/clearfilter/

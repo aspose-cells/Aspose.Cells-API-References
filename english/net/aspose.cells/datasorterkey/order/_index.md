@@ -1,7 +1,7 @@
 ---
 title: Order
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates the order of sorting.
 type: docs
 weight: 50
 url: /net/aspose.cells/datasorterkey/order/

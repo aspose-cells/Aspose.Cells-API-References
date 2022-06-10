@@ -1,12 +1,12 @@
 ---
 title: CreateSafeSheetName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Checks given sheet name and create a valid one when needed. If given sheet name conforms to the rules of excel sheet name then return it. Otherwise string will be truncated if length exceeds the limit and invalid characters will be replaced with   then return the rebuilt string value.
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.cells/cellshelper/createsafesheetname/
 ---
-## CellsHelper.CreateSafeSheetName method (1 of 2)
+## CreateSafeSheetName(string) {#createsafesheetname}
 
 Checks given sheet name and create a valid one when needed. If given sheet name conforms to the rules of excel sheet name, then return it. Otherwise string will be truncated if length exceeds the limit and invalid characters will be replaced with ' ', then return the rebuilt string value.
 
@@ -26,7 +26,7 @@ public static string CreateSafeSheetName(string nameProposal)
 
 ---
 
-## CellsHelper.CreateSafeSheetName method (2 of 2)
+## CreateSafeSheetName(string, char) {#createsafesheetname_1}
 
 Checks given sheet name and create a valid one when needed. If given sheet name conforms to the rules of excel sheet name, then return it. Otherwise string will be truncated if length exceeds the limit and invalid characters will be replaced with given character, then return the rebuilt string value.
 

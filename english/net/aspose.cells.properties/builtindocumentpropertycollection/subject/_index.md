@@ -1,9 +1,9 @@
 ---
 title: Subject
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the subject of the document.
 type: docs
-weight: 250
+weight: 300
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/subject/
 ---
 ## BuiltInDocumentPropertyCollection.Subject property

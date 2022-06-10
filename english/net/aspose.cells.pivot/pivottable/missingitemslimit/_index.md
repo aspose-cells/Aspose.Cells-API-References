@@ -1,7 +1,7 @@
 ---
 title: MissingItemsLimit
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
 type: docs
 weight: 360
 url: /net/aspose.cells.pivot/pivottable/missingitemslimit/

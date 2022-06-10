@@ -1,7 +1,7 @@
 ---
 title: CheckFontCompatibility
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether to check font compatibility for every character in text.
 type: docs
 weight: 50
 url: /net/aspose.cells/pdfsaveoptions/checkfontcompatibility/

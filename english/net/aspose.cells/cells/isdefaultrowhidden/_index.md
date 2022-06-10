@@ -1,7 +1,7 @@
 ---
 title: IsDefaultRowHidden
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the row is default hidden.
 type: docs
 weight: 60
 url: /net/aspose.cells/cells/isdefaultrowhidden/

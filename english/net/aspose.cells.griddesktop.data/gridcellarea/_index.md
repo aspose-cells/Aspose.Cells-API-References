@@ -1,7 +1,7 @@
 ---
 title: GridCellArea
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents an area of cells.
 type: docs
 weight: 380
 url: /net/aspose.cells.griddesktop.data/gridcellarea/

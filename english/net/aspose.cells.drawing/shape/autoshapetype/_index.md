@@ -1,7 +1,7 @@
 ---
 title: AutoShapeType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the auto shape type.
 type: docs
 weight: 50
 url: /net/aspose.cells.drawing/shape/autoshapetype/

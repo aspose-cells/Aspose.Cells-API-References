@@ -1,12 +1,12 @@
 ---
 title: Unprotect
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Unprotects worksheet.
 type: docs
-weight: 890
+weight: 900
 url: /net/aspose.cells/worksheet/unprotect/
 ---
-## Worksheet.Unprotect method (1 of 2)
+## Unprotect() {#unprotect}
 
 Unprotects worksheet.
 
@@ -26,7 +26,7 @@ This method unprotects worksheet which is protected without password.
 
 ---
 
-## Worksheet.Unprotect method (2 of 2)
+## Unprotect(string) {#unprotect_1}
 
 Unprotects worksheet.
 

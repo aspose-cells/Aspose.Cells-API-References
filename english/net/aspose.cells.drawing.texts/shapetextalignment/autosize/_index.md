@@ -1,7 +1,7 @@
 ---
 title: AutoSize
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates if size of shape is adjusted automatically according to its content.
 type: docs
 weight: 10
 url: /net/aspose.cells.drawing.texts/shapetextalignment/autosize/

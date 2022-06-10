@@ -1,7 +1,7 @@
 ---
 title: AddControlRefrernce
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Add a reference to a twiddled type library and its extended type library.
 type: docs
 weight: 20
 url: /net/aspose.cells.vba/vbaprojectreferencecollection/addcontrolrefrernce/

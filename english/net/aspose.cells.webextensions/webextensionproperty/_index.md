@@ -1,9 +1,9 @@
 ---
 title: WebExtensionProperty
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents an Office Add-in custom property.
 type: docs
-weight: 6400
+weight: 6440
 url: /net/aspose.cells.webextensions/webextensionproperty/
 ---
 ## WebExtensionProperty class

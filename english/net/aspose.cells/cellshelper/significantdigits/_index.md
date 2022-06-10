@@ -1,7 +1,7 @@
 ---
 title: SignificantDigits
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the number of significant digits. The default value is 17.
 type: docs
 weight: 60
 url: /net/aspose.cells/cellshelper/significantdigits/

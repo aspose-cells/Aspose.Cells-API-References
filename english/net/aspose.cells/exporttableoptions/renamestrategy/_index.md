@@ -1,7 +1,7 @@
 ---
 title: RenameStrategy
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Strategy for duplicate names of columns.
 type: docs
 weight: 130
 url: /net/aspose.cells/exporttableoptions/renamestrategy/

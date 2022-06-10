@@ -1,7 +1,7 @@
 ---
 title: GetAllSelectedRanges
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets all selected ranges of this worksheet.
 type: docs
 weight: 680
 url: /net/aspose.cells.griddesktop/worksheet/getallselectedranges/

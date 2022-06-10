@@ -1,7 +1,7 @@
 ---
 title: AddFontColorFilter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a font color filter.
 type: docs
 weight: 80
 url: /net/aspose.cells/autofilter/addfontcolorfilter/

@@ -1,7 +1,7 @@
 ---
 title: PaperSize
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the size of the paper.
 type: docs
 weight: 260
 url: /net/aspose.cells/pagesetup/papersize/

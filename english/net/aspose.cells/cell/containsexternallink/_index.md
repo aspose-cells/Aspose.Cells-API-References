@@ -1,7 +1,7 @@
 ---
 title: ContainsExternalLink
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether this cell contains an external link. Only applies when the cell is a formula cell.
 type: docs
 weight: 40
 url: /net/aspose.cells/cell/containsexternallink/

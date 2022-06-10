@@ -1,12 +1,12 @@
 ---
 title: Merge
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Merges a specified range of cells into a single cell.
 type: docs
-weight: 1170
+weight: 1230
 url: /net/aspose.cells/cells/merge/
 ---
-## Cells.Merge method (1 of 3)
+## Merge(int, int, int, int) {#merge}
 
 Merges a specified range of cells into a single cell.
 
@@ -33,7 +33,7 @@ Reference the merged cell via the address of the upper-left cell in the range.
 
 ---
 
-## Cells.Merge method (2 of 3)
+## Merge(int, int, int, int, bool) {#merge_1}
 
 Merges a specified range of cells into a single cell.
 
@@ -62,7 +62,7 @@ Reference the merged cell via the address of the upper-left cell in the range. I
 
 ---
 
-## Cells.Merge method (3 of 3)
+## Merge(int, int, int, int, bool, bool) {#merge_2}
 
 Merges a specified range of cells into a single cell.
 

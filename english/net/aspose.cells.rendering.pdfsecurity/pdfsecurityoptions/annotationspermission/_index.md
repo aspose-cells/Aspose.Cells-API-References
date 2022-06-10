@@ -1,7 +1,7 @@
 ---
 title: AnnotationsPermission
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Permission to comment on the document.
 type: docs
 weight: 30
 url: /net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/annotationspermission/

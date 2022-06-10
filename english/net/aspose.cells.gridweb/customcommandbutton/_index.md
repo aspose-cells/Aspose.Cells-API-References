@@ -1,7 +1,7 @@
 ---
 title: CustomCommandButton
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a custom command button in the tab bar of the GridWeb control.
 type: docs
 weight: 50
 url: /net/aspose.cells.gridweb/customcommandbutton/

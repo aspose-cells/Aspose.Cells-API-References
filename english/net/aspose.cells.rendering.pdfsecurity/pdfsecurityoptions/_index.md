@@ -1,9 +1,9 @@
 ---
 title: PdfSecurityOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Settings of pdf when converting excel to pdf PDF/A does not allow security setting.
 type: docs
-weight: 5230
+weight: 5270
 url: /net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/
 ---
 ## PdfSecurityOptions class

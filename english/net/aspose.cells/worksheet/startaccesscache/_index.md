@@ -1,9 +1,9 @@
 ---
 title: StartAccessCache
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Starts the session that uses caches to access the data in this worksheet.
 type: docs
-weight: 860
+weight: 870
 url: /net/aspose.cells/worksheet/startaccesscache/
 ---
 ## Worksheet.StartAccessCache method

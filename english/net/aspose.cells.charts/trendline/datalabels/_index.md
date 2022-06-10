@@ -1,7 +1,7 @@
 ---
 title: DataLabels
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the DataLabels object for the specified ASeries.
 type: docs
 weight: 20
 url: /net/aspose.cells.charts/trendline/datalabels/

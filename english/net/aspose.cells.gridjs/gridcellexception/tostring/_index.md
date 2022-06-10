@@ -1,7 +1,7 @@
 ---
 title: ToString
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Creates and returns a string representation of the current exception.
 type: docs
 weight: 50
 url: /net/aspose.cells.gridjs/gridcellexception/tostring/

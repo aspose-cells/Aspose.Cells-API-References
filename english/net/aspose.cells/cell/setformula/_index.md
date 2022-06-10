@@ -1,12 +1,12 @@
 ---
 title: SetFormula
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Set the formula and the value of the formula.
 type: docs
-weight: 600
+weight: 650
 url: /net/aspose.cells/cell/setformula/
 ---
-## Cell.SetFormula method (1 of 2)
+## SetFormula(string, object) {#setformula_2}
 
 Set the formula and the value of the formula.
 
@@ -27,7 +27,36 @@ public void SetFormula(string formula, object value)
 
 ---
 
-## Cell.SetFormula method (2 of 2)
+## SetFormula(string, bool, bool, object) {#setformula_1}
+
+Set the formula and the value of the formula.
+
+```csharp
+[Obsolete("Use FormulaParseOptions for more options instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
+public void SetFormula(string formula, bool isR1C1, bool isLocal, object value)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | String | The formula. |
+| isR1C1 | Boolean | Whether the formula is R1C1 formula. |
+| isLocal | Boolean | Whether the formula is locale formatted. |
+| value | Object | The value of the formula. |
+
+### Remarks
+
+NOTE: This class is now obsolete. Instead, please use Cell.SetFormula(string,FormulaParseOptions,object). This property will be removed 12 months later since December 2019. Aspose apologizes for any inconvenience you may have experienced.
+
+### See Also
+
+* class [Cell](../../cell)
+* namespace [Aspose.Cells](../../cell)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## SetFormula(string, FormulaParseOptions, object) {#setformula}
 
 Set the formula and the value of the formula.
 

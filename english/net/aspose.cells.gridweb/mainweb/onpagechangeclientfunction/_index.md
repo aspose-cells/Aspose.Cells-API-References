@@ -1,7 +1,7 @@
 ---
 title: OnPageChangeClientFunction
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the client side function to be called after page index changing.only take effect when EnablePaging is true. The client function should be declared like this function MyOnPageChangeindex  console.logcurrent page isindex Note You may use the this pointer in the client function to point the grid control which fires the event.
 type: docs
 weight: 670
 url: /net/aspose.cells.gridweb/mainweb/onpagechangeclientfunction/

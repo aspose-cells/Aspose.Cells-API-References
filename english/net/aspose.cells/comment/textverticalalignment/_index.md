@@ -1,7 +1,7 @@
 ---
 title: TextVerticalAlignment
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the text vertical alignment type of the comment.
 type: docs
 weight: 160
 url: /net/aspose.cells/comment/textverticalalignment/

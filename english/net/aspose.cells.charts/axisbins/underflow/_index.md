@@ -1,7 +1,7 @@
 ---
 title: Underflow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or set the underflow of axis bins
 type: docs
 weight: 60
 url: /net/aspose.cells.charts/axisbins/underflow/

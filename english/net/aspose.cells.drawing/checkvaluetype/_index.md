@@ -1,9 +1,9 @@
 ---
 title: CheckValueType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the check value type of the check box.
 type: docs
-weight: 1870
+weight: 1890
 url: /net/aspose.cells.drawing/checkvaluetype/
 ---
 ## CheckValueType enumeration

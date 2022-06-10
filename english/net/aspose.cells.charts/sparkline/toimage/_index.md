@@ -1,12 +1,12 @@
 ---
 title: ToImage
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Converts a sparkline to an image.
 type: docs
 weight: 40
 url: /net/aspose.cells.charts/sparkline/toimage/
 ---
-## Sparkline.ToImage method (1 of 3)
+## ToImage(ImageOrPrintOptions) {#toimage}
 
 Converts a sparkline to an image.
 
@@ -31,7 +31,7 @@ Returns a Bitmap object.
 
 ---
 
-## Sparkline.ToImage method (2 of 3)
+## ToImage(string, ImageOrPrintOptions) {#toimage_2}
 
 Converts a sparkline to an image.
 
@@ -53,7 +53,7 @@ public void ToImage(string fileName, ImageOrPrintOptions options)
 
 ---
 
-## Sparkline.ToImage method (3 of 3)
+## ToImage(Stream, ImageOrPrintOptions) {#toimage_1}
 
 Converts a sparkline to an image.
 

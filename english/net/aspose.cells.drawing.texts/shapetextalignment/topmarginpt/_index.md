@@ -1,7 +1,7 @@
 ---
 title: TopMarginPt
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns the top margin in unit of Points
 type: docs
 weight: 130
 url: /net/aspose.cells.drawing.texts/shapetextalignment/topmarginpt/

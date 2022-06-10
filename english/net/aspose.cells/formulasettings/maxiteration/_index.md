@@ -1,7 +1,7 @@
 ---
 title: MaxIteration
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The maximum iterations to resolve a circular reference.
 type: docs
 weight: 90
 url: /net/aspose.cells/formulasettings/maxiteration/

@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the type of the property.
 type: docs
 weight: 30
 url: /net/aspose.cells.properties/contenttypeproperty/type/

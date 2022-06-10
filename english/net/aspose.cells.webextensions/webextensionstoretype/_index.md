@@ -1,9 +1,9 @@
 ---
 title: WebExtensionStoreType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the store type of web extension.
 type: docs
-weight: 6440
+weight: 6480
 url: /net/aspose.cells.webextensions/webextensionstoretype/
 ---
 ## WebExtensionStoreType enumeration

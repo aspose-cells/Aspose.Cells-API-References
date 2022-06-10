@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a comment to the collection.
 type: docs
 weight: 20
 url: /net/aspose.cells/commentcollection/add/
 ---
-## CommentCollection.Add method (1 of 2)
+## Add(int, int) {#add}
 
 Adds a comment to the collection.
 
@@ -42,7 +42,7 @@ comment1.Font.Name = "Times New Roman";
 
 ---
 
-## CommentCollection.Add method (2 of 2)
+## Add(string) {#add_1}
 
 Adds a comment to the collection.
 

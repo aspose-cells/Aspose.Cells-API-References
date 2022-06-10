@@ -1,7 +1,7 @@
 ---
 title: EditMode
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the Edit Mode of the GridWebForm control.
 type: docs
 weight: 20
 url: /net/aspose.cells.gridweb/gridwebform/editmode/

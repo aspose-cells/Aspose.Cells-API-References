@@ -1,7 +1,7 @@
 ---
 title: IsSigned
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether VBAcode is signed or not.
 type: docs
 weight: 40
 url: /net/aspose.cells.vba/vbaproject/issigned/

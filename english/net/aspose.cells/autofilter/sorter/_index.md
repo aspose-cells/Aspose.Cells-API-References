@@ -1,7 +1,7 @@
 ---
 title: Sorter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the data sorter.
 type: docs
 weight: 40
 url: /net/aspose.cells/autofilter/sorter/

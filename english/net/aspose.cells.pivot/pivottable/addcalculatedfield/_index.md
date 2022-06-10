@@ -1,12 +1,12 @@
 ---
 title: AddCalculatedField
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a calculated field to pivot field.
 type: docs
 weight: 740
 url: /net/aspose.cells.pivot/pivottable/addcalculatedfield/
 ---
-## PivotTable.AddCalculatedField method (1 of 2)
+## AddCalculatedField(string, string, bool) {#addcalculatedfield_1}
 
 Adds a calculated field to pivot field.
 
@@ -28,7 +28,7 @@ public void AddCalculatedField(string name, string formula, bool dragToDataArea)
 
 ---
 
-## PivotTable.AddCalculatedField method (2 of 2)
+## AddCalculatedField(string, string) {#addcalculatedfield}
 
 Adds a calculated field to pivot field and drag it to data area.
 

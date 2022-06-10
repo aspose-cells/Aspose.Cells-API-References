@@ -1,7 +1,7 @@
 ---
 title: ActualLowerRightRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get the actual bottom row.
 type: docs
 weight: 20
 url: /net/aspose.cells.drawing/shape/actuallowerrightrow/

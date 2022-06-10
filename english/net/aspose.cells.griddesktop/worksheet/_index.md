@@ -1,7 +1,7 @@
 ---
 title: Worksheet
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the object that represents a single worksheet.
 type: docs
 weight: 1080
 url: /net/aspose.cells.griddesktop/worksheet/
@@ -67,20 +67,20 @@ public class Worksheet
 | --- | --- |
 | [AddAutoFilter](../../aspose.cells.griddesktop/worksheet/addautofilter)(int, int, int) | Sets the range to which the specified AutoFilter applies. |
 | [AddColumn](../../aspose.cells.griddesktop/worksheet/addcolumn)() | Adds a new column. |
-| [AddCustomFilter](../../aspose.cells.griddesktop/worksheet/addcustomfilter)(int, string) | Add custom filter for the specified row. |
-| [AddCustomFilter](../../aspose.cells.griddesktop/worksheet/addcustomfilter)(int, int, object[], GridFilterOperatorType[]) | Add custom filter for the specified row range from start row to end row. |
+| [AddCustomFilter](../../aspose.cells.griddesktop/worksheet/addcustomfilter#addcustomfilter_1)(int, string) | Add custom filter for the specified row. |
+| [AddCustomFilter](../../aspose.cells.griddesktop/worksheet/addcustomfilter#addcustomfilter)(int, int, object[], GridFilterOperatorType[]) | Add custom filter for the specified row range from start row to end row. |
 | [AddRow](../../aspose.cells.griddesktop/worksheet/addrow)() | Adds a new row. |
 | [AddSelectedRange](../../aspose.cells.griddesktop/worksheet/addselectedrange)(CellRange) | Add a new selected range to the worksheet. |
-| [AutoFitColumn](../../aspose.cells.griddesktop/worksheet/autofitcolumn)(int) | Autofits the column width. |
-| [AutoFitColumn](../../aspose.cells.griddesktop/worksheet/autofitcolumn)(int, int, int) | Autofits the column width. |
-| [AutoFitColumns](../../aspose.cells.griddesktop/worksheet/autofitcolumns)() | Autofits all columns in this worksheet. |
-| [AutoFitColumns](../../aspose.cells.griddesktop/worksheet/autofitcolumns)(int, int) | Autofits the columns width. |
-| [AutoFitColumns](../../aspose.cells.griddesktop/worksheet/autofitcolumns)(int, int, int, int) | Autofits the columns width. |
-| [AutoFitRow](../../aspose.cells.griddesktop/worksheet/autofitrow)(int) | Autofits the row height. |
-| [AutoFitRow](../../aspose.cells.griddesktop/worksheet/autofitrow)(int, int, int) | Autofits the row height. |
-| [AutoFitRow](../../aspose.cells.griddesktop/worksheet/autofitrow)(int, int, int, int) | Autofits row height in a rectangle range. |
-| [AutoFitRows](../../aspose.cells.griddesktop/worksheet/autofitrows)() | Autofits all rows in this worksheet. |
-| [AutoFitRows](../../aspose.cells.griddesktop/worksheet/autofitrows)(int, int) | Autofits row height in a range. |
+| [AutoFitColumn](../../aspose.cells.griddesktop/worksheet/autofitcolumn#autofitcolumn)(int) | Autofits the column width. |
+| [AutoFitColumn](../../aspose.cells.griddesktop/worksheet/autofitcolumn#autofitcolumn_1)(int, int, int) | Autofits the column width. |
+| [AutoFitColumns](../../aspose.cells.griddesktop/worksheet/autofitcolumns#autofitcolumns)() | Autofits all columns in this worksheet. |
+| [AutoFitColumns](../../aspose.cells.griddesktop/worksheet/autofitcolumns#autofitcolumns_1)(int, int) | Autofits the columns width. |
+| [AutoFitColumns](../../aspose.cells.griddesktop/worksheet/autofitcolumns#autofitcolumns_2)(int, int, int, int) | Autofits the columns width. |
+| [AutoFitRow](../../aspose.cells.griddesktop/worksheet/autofitrow#autofitrow)(int) | Autofits the row height. |
+| [AutoFitRow](../../aspose.cells.griddesktop/worksheet/autofitrow#autofitrow_1)(int, int, int) | Autofits the row height. |
+| [AutoFitRow](../../aspose.cells.griddesktop/worksheet/autofitrow#autofitrow_2)(int, int, int, int) | Autofits row height in a rectangle range. |
+| [AutoFitRows](../../aspose.cells.griddesktop/worksheet/autofitrows#autofitrows)() | Autofits all rows in this worksheet. |
+| [AutoFitRows](../../aspose.cells.griddesktop/worksheet/autofitrows#autofitrows_1)(int, int) | Autofits row height in a range. |
 | [AutoFitRowsMerged](../../aspose.cells.griddesktop/worksheet/autofitrowsmerged)() | Autofits all rows in this worksheet.It will also auto fit row height when the cells is merged in a row. |
 | [CalculateFormula](../../aspose.cells.griddesktop/worksheet/calculateformula)(string) | Calculates a formula. |
 | [CellInMerged](../../aspose.cells.griddesktop/worksheet/cellinmerged)(CellLocation) | Gets a value whether the specified cell location is in merges. |
@@ -91,15 +91,15 @@ public class Worksheet
 | [ColInMerged](../../aspose.cells.griddesktop/worksheet/colinmerged)(int) | Gets a value that indicates whether the specified column in merges. |
 | [ColInSelection](../../aspose.cells.griddesktop/worksheet/colinselection)(int) | Determines whether the specified column at index is in selected. |
 | [Copy](../../aspose.cells.griddesktop/worksheet/copy)(Worksheet) | Copies contents and formats from another worksheet. |
-| [CreateRange](../../aspose.cells.griddesktop/worksheet/createrange)(string, string) |  |
-| [CreateRange](../../aspose.cells.griddesktop/worksheet/createrange)(int, int, int, int) |  |
+| [CreateRange](../../aspose.cells.griddesktop/worksheet/createrange#createrange_1)(string, string) |  |
+| [CreateRange](../../aspose.cells.griddesktop/worksheet/createrange#createrange)(int, int, int, int) |  |
 | [DataBind](../../aspose.cells.griddesktop/worksheet/databind)(object, string) | Binds data from data source object with Worksheet object. |
 | [DataUnbind](../../aspose.cells.griddesktop/worksheet/dataunbind)() | Unbind data from data source object with Worksheet object. |
-| [ExportDataTable](../../aspose.cells.griddesktop/worksheet/exportdatatable)(DataTable, int, int, int, int, bool) | Exports data in the Cells collection of a Worksheet to a specifed DataTable object. |
-| [ExportDataTable](../../aspose.cells.griddesktop/worksheet/exportdatatable)(int, int, int, int, bool, bool) | Exports data in the Cells collection of a Worksheet to a new DataTable object. |
+| [ExportDataTable](../../aspose.cells.griddesktop/worksheet/exportdatatable#exportdatatable_1)(DataTable, int, int, int, int, bool) | Exports data in the Cells collection of a Worksheet to a specifed DataTable object. |
+| [ExportDataTable](../../aspose.cells.griddesktop/worksheet/exportdatatable#exportdatatable)(int, int, int, int, bool, bool) | Exports data in the Cells collection of a Worksheet to a new DataTable object. |
 | [FilterString](../../aspose.cells.griddesktop/worksheet/filterstring)(int, string) | Sets the filter for the column.notice we shall call AddAutoFilter before calling of filterString The filter criteria string. notice we use comma-&gt;"," as split char,so the cell value you want to filter shall not contains with comma filterString(10,"123,456") means column 10 shall contain 123 or 456, filterString(10,"123") means column10 shall contain 123 value split with comma,eg. 123,456,789 or abc |
-| [FreezePanes](../../aspose.cells.griddesktop/worksheet/freezepanes)(string, int, int) | Freezes panes at the specified cell in the worksheet. |
-| [FreezePanes](../../aspose.cells.griddesktop/worksheet/freezepanes)(int, int, int, int) | Freezes panes at the specified cell in the worksheet. |
+| [FreezePanes](../../aspose.cells.griddesktop/worksheet/freezepanes#freezepanes_1)(string, int, int) | Freezes panes at the specified cell in the worksheet. |
+| [FreezePanes](../../aspose.cells.griddesktop/worksheet/freezepanes#freezepanes)(int, int, int, int) | Freezes panes at the specified cell in the worksheet. |
 | [GetAllSelectedRanges](../../aspose.cells.griddesktop/worksheet/getallselectedranges)() | Gets all selected ranges of this worksheet. |
 | [GetCellLocationByClientPoint](../../aspose.cells.griddesktop/worksheet/getcelllocationbyclientpoint)(Point) | Gets the cell location by client coordinates point. |
 | [GetColumnCaption](../../aspose.cells.griddesktop/worksheet/getcolumncaption)(int) | Gets the column caption. If the caption is not set, returns empty string. |
@@ -112,14 +112,14 @@ public class Worksheet
 | [GetLastSelection](../../aspose.cells.griddesktop/worksheet/getlastselection)() | Gets the cell range of last selected. |
 | [GetMerge](../../aspose.cells.griddesktop/worksheet/getmerge)(int) | Gets the cell range of the merge at the specified index. |
 | [GetMergeByCell](../../aspose.cells.griddesktop/worksheet/getmergebycell)(int, int) | get the the merge area that contains the cell at row,column location ,return null if all the merge areas does not include this cell location |
-| [GroupColumns](../../aspose.cells.griddesktop/worksheet/groupcolumns)(int, int) | Groups columns. |
-| [GroupColumns](../../aspose.cells.griddesktop/worksheet/groupcolumns)(int, int, bool, bool) | Groups columns. |
-| [GroupColumns](../../aspose.cells.griddesktop/worksheet/groupcolumns)(int, int, int, bool) | Groups columns. |
-| [GroupRows](../../aspose.cells.griddesktop/worksheet/grouprows)(int, int) | Groups rows. |
-| [GroupRows](../../aspose.cells.griddesktop/worksheet/grouprows)(int, int, bool) | Groups rows. |
-| [GroupRows](../../aspose.cells.griddesktop/worksheet/grouprows)(int, int, bool, bool) | Groups rows. |
-| [GroupRows](../../aspose.cells.griddesktop/worksheet/grouprows)(int, int, int, bool) | Groups rows. |
-| [GroupRows](../../aspose.cells.griddesktop/worksheet/grouprows)(int, int, int, bool, bool) | Groups rows. |
+| [GroupColumns](../../aspose.cells.griddesktop/worksheet/groupcolumns#groupcolumns)(int, int) | Groups columns. |
+| [GroupColumns](../../aspose.cells.griddesktop/worksheet/groupcolumns#groupcolumns_1)(int, int, bool, bool) | Groups columns. |
+| [GroupColumns](../../aspose.cells.griddesktop/worksheet/groupcolumns#groupcolumns_2)(int, int, int, bool) | Groups columns. |
+| [GroupRows](../../aspose.cells.griddesktop/worksheet/grouprows#grouprows)(int, int) | Groups rows. |
+| [GroupRows](../../aspose.cells.griddesktop/worksheet/grouprows#grouprows_1)(int, int, bool) | Groups rows. |
+| [GroupRows](../../aspose.cells.griddesktop/worksheet/grouprows#grouprows_2)(int, int, bool, bool) | Groups rows. |
+| [GroupRows](../../aspose.cells.griddesktop/worksheet/grouprows#grouprows_3)(int, int, int, bool) | Groups rows. |
+| [GroupRows](../../aspose.cells.griddesktop/worksheet/grouprows#grouprows_4)(int, int, int, bool, bool) | Groups rows. |
 | [ImportDataTable](../../aspose.cells.griddesktop/worksheet/importdatatable)(DataTable, bool, int, int) | Imports a DataTable object into a worksheet. |
 | [InSelection](../../aspose.cells.griddesktop/worksheet/inselection)(CellLocation) | Determines whether the specified cell location is in selected. |
 | [InsertColumn](../../aspose.cells.griddesktop/worksheet/insertcolumn)(int) | Inserts a new column. |
@@ -142,23 +142,23 @@ public class Worksheet
 | [SetColumnCaption](../../aspose.cells.griddesktop/worksheet/setcolumncaption)(int, string) | Sets the caption for the column.please note this is an extension attribute and can not keep in excel file |
 | [SetFirstVisibleColumn](../../aspose.cells.griddesktop/worksheet/setfirstvisiblecolumn)(int) | Set the first visible column index of sheet view. |
 | [SetFirstVisibleRow](../../aspose.cells.griddesktop/worksheet/setfirstvisiblerow)(int) | Set the first visible row index of sheet view. |
-| [SetFocusedCell](../../aspose.cells.griddesktop/worksheet/setfocusedcell)(CellLocation) | Sets the cell focus at the specified location. |
-| [SetFocusedCell](../../aspose.cells.griddesktop/worksheet/setfocusedcell)(int, int) | Sets the cell focus at the specified column and row. |
+| [SetFocusedCell](../../aspose.cells.griddesktop/worksheet/setfocusedcell#setfocusedcell)(CellLocation) | Sets the cell focus at the specified location. |
+| [SetFocusedCell](../../aspose.cells.griddesktop/worksheet/setfocusedcell#setfocusedcell_1)(int, int) | Sets the cell focus at the specified column and row. |
 | [SetFont](../../aspose.cells.griddesktop/worksheet/setfont)(CellRange, Font) | Sets font object to cellRange. |
 | [SetFontColor](../../aspose.cells.griddesktop/worksheet/setfontcolor)(CellRange, Color) | Sets font color to cellRange. |
 | [SetIsReadonly](../../aspose.cells.griddesktop/worksheet/setisreadonly)(int, int, bool) | Sets whether the cell is readonly.this is an extended attribute ,it will not keep in actual excel file |
 | [SetProtect](../../aspose.cells.griddesktop/worksheet/setprotect)() | Protects worksheet. |
 | [SetProtected](../../aspose.cells.griddesktop/worksheet/setprotected)(CellRange, bool) | Sets cellRange whether it is protected.this is an extended method used only in Grid. This method has nothing to do with the cell.Style.CellLocked property It will not take affect after save to excel file. |
-| [SetStyle](../../aspose.cells.griddesktop/worksheet/setstyle)(CellRange, Style) | Sets style object to cellRange. |
-| [SetStyle](../../aspose.cells.griddesktop/worksheet/setstyle)(GridCellArea, Style) | Sets style object to cellRange. |
+| [SetStyle](../../aspose.cells.griddesktop/worksheet/setstyle#setstyle)(CellRange, Style) | Sets style object to cellRange. |
+| [SetStyle](../../aspose.cells.griddesktop/worksheet/setstyle#setstyle_1)(GridCellArea, Style) | Sets style object to cellRange. |
 | [UnFreezePanes](../../aspose.cells.griddesktop/worksheet/unfreezepanes)() | Unfreezes panes in the worksheet. |
-| [UngroupColumns](../../aspose.cells.griddesktop/worksheet/ungroupcolumns)(int, int) | Ungroups columns. |
-| [UngroupColumns](../../aspose.cells.griddesktop/worksheet/ungroupcolumns)(int, int, bool) | Ungroups columns. |
-| [UngroupRows](../../aspose.cells.griddesktop/worksheet/ungrouprows)(int, int) | Ungroups rows. |
-| [UngroupRows](../../aspose.cells.griddesktop/worksheet/ungrouprows)(int, int, bool) | Ungroups rows. |
-| [Unmerge](../../aspose.cells.griddesktop/worksheet/unmerge)(CellLocation) | Remove the specified cell location from merges. |
-| [Unmerge](../../aspose.cells.griddesktop/worksheet/unmerge)(CellRange) | Unmerges a specified range of cells into a single cell. |
-| [Unmerge](../../aspose.cells.griddesktop/worksheet/unmerge)(int, int) | Remove the specified cell row column index from merges. |
+| [UngroupColumns](../../aspose.cells.griddesktop/worksheet/ungroupcolumns#ungroupcolumns)(int, int) | Ungroups columns. |
+| [UngroupColumns](../../aspose.cells.griddesktop/worksheet/ungroupcolumns#ungroupcolumns_1)(int, int, bool) | Ungroups columns. |
+| [UngroupRows](../../aspose.cells.griddesktop/worksheet/ungrouprows#ungrouprows)(int, int) | Ungroups rows. |
+| [UngroupRows](../../aspose.cells.griddesktop/worksheet/ungrouprows#ungrouprows_1)(int, int, bool) | Ungroups rows. |
+| [Unmerge](../../aspose.cells.griddesktop/worksheet/unmerge#unmerge)(CellLocation) | Remove the specified cell location from merges. |
+| [Unmerge](../../aspose.cells.griddesktop/worksheet/unmerge#unmerge_1)(CellRange) | Unmerges a specified range of cells into a single cell. |
+| [Unmerge](../../aspose.cells.griddesktop/worksheet/unmerge#unmerge_2)(int, int) | Remove the specified cell row column index from merges. |
 | [UnProtect](../../aspose.cells.griddesktop/worksheet/unprotect)() | unProtects worksheet. |
 | static [CellIndexToR1C1](../../aspose.cells.griddesktop/worksheet/cellindextor1c1)(int, int) | Gets cell r1c1 style name according to its row and column indexes. |
 

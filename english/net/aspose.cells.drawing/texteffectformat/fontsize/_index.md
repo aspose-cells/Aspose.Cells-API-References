@@ -1,7 +1,7 @@
 ---
 title: FontSize
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The size in points of the font used in the WordArt.
 type: docs
 weight: 40
 url: /net/aspose.cells.drawing/texteffectformat/fontsize/

@@ -1,7 +1,7 @@
 ---
 title: ResetFilter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: reset filter type to none
 type: docs
 weight: 950
 url: /net/aspose.cells.griddesktop/worksheet/resetfilter/

@@ -1,9 +1,9 @@
 ---
 title: GetRowHeight
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the height of a specified row.
 type: docs
-weight: 790
+weight: 810
 url: /net/aspose.cells/cells/getrowheight/
 ---
 ## Cells.GetRowHeight method

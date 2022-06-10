@@ -1,12 +1,12 @@
 ---
 title: FreezePanes
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Freezes panes at the specified cell in the worksheet.
 type: docs
 weight: 670
 url: /net/aspose.cells.griddesktop/worksheet/freezepanes/
 ---
-## Worksheet.FreezePanes method (1 of 2)
+## FreezePanes(string, int, int) {#freezepanes_1}
 
 Freezes panes at the specified cell in the worksheet.
 
@@ -32,7 +32,7 @@ Row index and column index cannot all be zero. Number of rows and number of colu
 
 ---
 
-## Worksheet.FreezePanes method (2 of 2)
+## FreezePanes(int, int, int, int) {#freezepanes}
 
 Freezes panes at the specified cell in the worksheet.
 

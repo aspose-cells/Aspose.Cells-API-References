@@ -1,7 +1,7 @@
 ---
 title: DefaultFontName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the controls default font name.
 type: docs
 weight: 30
 url: /net/aspose.cells.griddesktop/worksheetcollection/defaultfontname/

@@ -1,9 +1,9 @@
 ---
 title: ShapePathPointCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents all shape path points.
 type: docs
-weight: 2710
+weight: 2740
 url: /net/aspose.cells.drawing/shapepathpointcollection/
 ---
 ## ShapePathPointCollection class

@@ -1,7 +1,7 @@
 ---
 title: MarkerSizePx
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the marker size in unit of pixels. Applies to line chart scatter chart or radar chart.
 type: docs
 weight: 80
 url: /net/aspose.cells.charts/marker/markersizepx/

@@ -1,9 +1,9 @@
 ---
 title: DxfCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the master differential formatting records.
 type: docs
-weight: 3110
+weight: 3140
 url: /net/aspose.cells/dxfcollection/
 ---
 ## DxfCollection class

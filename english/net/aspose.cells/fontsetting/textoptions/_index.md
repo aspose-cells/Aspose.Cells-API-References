@@ -1,7 +1,7 @@
 ---
 title: TextOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns the text options.
 type: docs
 weight: 50
 url: /net/aspose.cells/fontsetting/textoptions/

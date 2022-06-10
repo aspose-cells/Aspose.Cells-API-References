@@ -1,7 +1,7 @@
 ---
 title: CurrentPerson
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the current user.
 type: docs
 weight: 20
 url: /net/aspose.cells/threadedcommentauthorcollection/currentperson/

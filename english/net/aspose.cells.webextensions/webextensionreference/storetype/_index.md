@@ -1,7 +1,7 @@
 ---
 title: StoreType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the type of marketplace that the store attribute identifies.
 type: docs
 weight: 30
 url: /net/aspose.cells.webextensions/webextensionreference/storetype/

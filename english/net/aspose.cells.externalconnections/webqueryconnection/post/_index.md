@@ -1,9 +1,9 @@
 ---
 title: Post
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns or sets the string used with the post method of inputting data into a web server to return data from a web query.
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.cells.externalconnections/webqueryconnection/post/
 ---
 ## WebQueryConnection.Post property

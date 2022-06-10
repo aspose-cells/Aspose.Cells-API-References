@@ -1,7 +1,7 @@
 ---
 title: TopMargin
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the size of the top margin in unit of centimeters.
 type: docs
 weight: 410
 url: /net/aspose.cells/pagesetup/topmargin/

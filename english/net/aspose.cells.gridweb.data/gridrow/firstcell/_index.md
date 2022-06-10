@@ -1,7 +1,7 @@
 ---
 title: FirstCell
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the first cell in the row.
 type: docs
 weight: 10
 url: /net/aspose.cells.gridweb.data/gridrow/firstcell/

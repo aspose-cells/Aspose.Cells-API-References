@@ -1,7 +1,7 @@
 ---
 title: IsNeverOverlap
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the datalabels display never overlap. For Pie chart
 type: docs
 weight: 70
 url: /net/aspose.cells.charts/datalabels/isneveroverlap/

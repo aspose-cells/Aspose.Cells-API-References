@@ -1,7 +1,7 @@
 ---
 title: Image
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the Image object.
 type: docs
 weight: 150
 url: /net/aspose.cells.gridweb.data/gridpicture/image/

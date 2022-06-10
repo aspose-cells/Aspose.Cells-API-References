@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets VbaModuleaspose.cells.vba/vbamodule in the list by the index.
 type: docs
 weight: 10
 url: /net/aspose.cells.vba/vbamodulecollection/item/

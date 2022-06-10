@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets task pane by the specific index.
 type: docs
 weight: 10
 url: /net/aspose.cells.webextensions/webextensiontaskpanecollection/item/

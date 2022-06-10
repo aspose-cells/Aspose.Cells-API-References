@@ -1,7 +1,7 @@
 ---
 title: MajorGridLines
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents major gridlines on a chart axis.
 type: docs
 weight: 240
 url: /net/aspose.cells.charts/axis/majorgridlines/

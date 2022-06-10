@@ -1,7 +1,7 @@
 ---
 title: ShapeClick
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Occurs when the shape is clicked.
 type: docs
 weight: 630
 url: /net/aspose.cells.griddesktop/griddesktop/shapeclick/

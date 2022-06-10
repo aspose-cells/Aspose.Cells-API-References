@@ -1,7 +1,7 @@
 ---
 title: IsXmlMap
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether mapping xml to Excel. The default value is false.
 type: docs
 weight: 30
 url: /net/aspose.cells/xmlloadoptions/isxmlmap/

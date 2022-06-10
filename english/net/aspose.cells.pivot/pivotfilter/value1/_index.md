@@ -1,7 +1,7 @@
 ---
 title: Value1
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the string value1 of the label pivot filter.
 type: docs
 weight: 80
 url: /net/aspose.cells.pivot/pivotfilter/value1/

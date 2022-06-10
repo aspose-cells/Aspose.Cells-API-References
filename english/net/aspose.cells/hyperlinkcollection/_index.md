@@ -1,9 +1,9 @@
 ---
 title: HyperlinkCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates a collection of Hyperlink./hyperlink objects.
 type: docs
-weight: 3750
+weight: 3780
 url: /net/aspose.cells/hyperlinkcollection/
 ---
 ## HyperlinkCollection class
@@ -27,13 +27,13 @@ public class HyperlinkCollection : CollectionBase<Hyperlink>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells/hyperlinkcollection/add)(string, int, int, string) | Adds a hyperlink to a specified cell or a range of cells. |
-| [Add](../../aspose.cells/hyperlinkcollection/add)(int, int, int, int, string) | Adds a hyperlink to a specified cell or a range of cells. |
-| [Add](../../aspose.cells/hyperlinkcollection/add)(string, string, string, string, string) | Adds a hyperlink to a specified cell or a range of cells. |
+| [Add](../../aspose.cells/hyperlinkcollection/add#add_1)(string, int, int, string) | Adds a hyperlink to a specified cell or a range of cells. |
+| [Add](../../aspose.cells/hyperlinkcollection/add#add)(int, int, int, int, string) | Adds a hyperlink to a specified cell or a range of cells. |
+| [Add](../../aspose.cells/hyperlinkcollection/add#add_2)(string, string, string, string, string) | Adds a hyperlink to a specified cell or a range of cells. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Hyperlink) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Hyperlink, IComparer&lt;Hyperlink&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Hyperlink, IComparer&lt;Hyperlink&gt;) |  |
-| [Clear](../../aspose.cells/hyperlinkcollection/clear)() | Clears all hyperlinks. (2 methods) |
+| [Clear](../../aspose.cells/hyperlinkcollection/clear#clear)() | Clears all hyperlinks. (2 methods) |
 | [Contains](../../aspose.cells/collectionbase`1/contains)(Hyperlink) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Hyperlink[]) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Hyperlink[], int) |  |
@@ -55,7 +55,7 @@ public class HyperlinkCollection : CollectionBase<Hyperlink>
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Hyperlink) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Hyperlink, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Hyperlink, int, int) |  |
-| [RemoveAt](../../aspose.cells/hyperlinkcollection/removeat)(int) | Remove the hyperlink at the specified index. (2 methods) |
+| [RemoveAt](../../aspose.cells/hyperlinkcollection/removeat#removeat)(int) | Remove the hyperlink at the specified index. (2 methods) |
 
 ### Examples
 

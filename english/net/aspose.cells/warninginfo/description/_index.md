@@ -1,7 +1,7 @@
 ---
 title: Description
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get description of warning info.
 type: docs
 weight: 20
 url: /net/aspose.cells/warninginfo/description/

@@ -1,7 +1,7 @@
 ---
 title: SetColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the Color of all borders in the collection.
 type: docs
 weight: 40
 url: /net/aspose.cells/bordercollection/setcolor/

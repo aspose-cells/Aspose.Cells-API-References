@@ -1,9 +1,9 @@
 ---
 title: WebQueryConnection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the properties for a web query source. A web query will retrieve data from HTML tables and can also supply HTTP Get parameters to be processed by the web server in generating the HTML by including the parameters and parameter elements.
 type: docs
-weight: 3340
+weight: 3370
 url: /net/aspose.cells.externalconnections/webqueryconnection/
 ---
 ## WebQueryConnection class
@@ -21,7 +21,9 @@ public class WebQueryConnection : ExternalConnection
 | [BackgroundRefresh](../../aspose.cells.externalconnections/externalconnection/backgroundrefresh) { get; set; } | Indicates whether the connection can be refreshed in the background (asynchronously). true if preferred usage of the connection is to refresh asynchronously in the background; false if preferred usage of the connection is to refresh synchronously in the foreground. |
 | [ConnectionDescription](../../aspose.cells.externalconnections/externalconnection/connectiondescription) { get; set; } | Specifies the user description for this connection |
 | [ConnectionId](../../aspose.cells.externalconnections/externalconnection/connectionid) { get; } | Specifies The unique identifier of this connection. |
+| [Credentials](../../aspose.cells.externalconnections/externalconnection/credentials) { get; set; } | Specifies the authentication method to be used when establishing (or re-establishing) the connection. |
 | [CredentialsMethodType](../../aspose.cells.externalconnections/externalconnection/credentialsmethodtype) { get; set; } | Specifies the authentication method to be used when establishing (or re-establishing) the connection. |
+| [EditPage](../../aspose.cells.externalconnections/webqueryconnection/editpage) { get; set; } | The URL of the user-facing web page showing the web query data. This URL is persisted in the case that sourceData="true" and url has been redirected to reference an XML file. Then the user-facing page can be shown in the UI, and the XML data can be retrieved behind the scenes. |
 | [EditWebPage](../../aspose.cells.externalconnections/webqueryconnection/editwebpage) { get; set; } | The URL of the user-facing web page showing the web query data. This URL is persisted in the case that sourceData="true" and url has been redirected to reference an XML file. Then the user-facing page can be shown in the UI, and the XML data can be retrieved behind the scenes. |
 | [HtmlFormat](../../aspose.cells.externalconnections/webqueryconnection/htmlformat) { get; set; } | How to handle formatting from the HTML source when bringing web query data into the worksheet. Relevant when sourceData is True. |
 | [Id](../../aspose.cells.externalconnections/externalconnection/id) { get; } | Gets the id of the connection. |
@@ -43,6 +45,7 @@ public class WebQueryConnection : ExternalConnection
 | [Parameters](../../aspose.cells.externalconnections/externalconnection/parameters) { get; } | Gets [`ConnectionParameterCollection`](../connectionparametercollection) for an ODBC or web query. |
 | [Post](../../aspose.cells.externalconnections/webqueryconnection/post) { get; set; } | Returns or sets the string used with the post method of inputting data into a web server to return data from a web query. |
 | virtual [PowerQueryFormula](../../aspose.cells.externalconnections/externalconnection/powerqueryformula) { get; } | Gets the definition of power query formula. |
+| [ReconnectionMethod](../../aspose.cells.externalconnections/externalconnection/reconnectionmethod) { get; set; } | Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required. |
 | [ReconnectionMethodType](../../aspose.cells.externalconnections/externalconnection/reconnectionmethodtype) { get; set; } | Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required. |
 | [RefreshInternal](../../aspose.cells.externalconnections/externalconnection/refreshinternal) { get; set; } | Specifies the number of minutes between automatic refreshes of the connection. |
 | [RefreshOnLoad](../../aspose.cells.externalconnections/externalconnection/refreshonload) { get; set; } | True if this connection should be refreshed when opening the file; otherwise, false. |

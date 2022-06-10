@@ -1,7 +1,7 @@
 ---
 title: Bins
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents bins on a chartHistogram/Pareto axis
 type: docs
 weight: 60
 url: /net/aspose.cells.charts/axis/bins/

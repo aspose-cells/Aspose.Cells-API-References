@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds task pane.
 type: docs
 weight: 20
 url: /net/aspose.cells.webextensions/webextensiontaskpanecollection/add/

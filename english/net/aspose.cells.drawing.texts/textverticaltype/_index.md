@@ -1,9 +1,9 @@
 ---
 title: TextVerticalType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the text direct type.
 type: docs
-weight: 3030
+weight: 3060
 url: /net/aspose.cells.drawing.texts/textverticaltype/
 ---
 ## TextVerticalType enumeration

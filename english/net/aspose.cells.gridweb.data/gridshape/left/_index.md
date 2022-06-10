@@ -1,7 +1,7 @@
 ---
 title: Left
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the horizontal offset of shape from its left column in unit of pixels.
 type: docs
 weight: 40
 url: /net/aspose.cells.gridweb.data/gridshape/left/

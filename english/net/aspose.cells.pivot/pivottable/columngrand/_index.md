@@ -1,7 +1,7 @@
 ---
 title: ColumnGrand
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the PivotTable report shows grand totals for columns.
 type: docs
 weight: 60
 url: /net/aspose.cells.pivot/pivottable/columngrand/

@@ -1,7 +1,7 @@
 ---
 title: IsAutoFirstPageNumber
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the first the page number is automatically assigned.
 type: docs
 weight: 130
 url: /net/aspose.cells/pagesetup/isautofirstpagenumber/

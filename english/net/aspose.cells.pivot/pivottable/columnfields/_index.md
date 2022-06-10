@@ -1,7 +1,7 @@
 ---
 title: ColumnFields
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns a PivotFields object that are currently shown as column fields.
 type: docs
 weight: 50
 url: /net/aspose.cells.pivot/pivottable/columnfields/

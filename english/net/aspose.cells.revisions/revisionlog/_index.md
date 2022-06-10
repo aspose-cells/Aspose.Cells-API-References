@@ -1,9 +1,9 @@
 ---
 title: RevisionLog
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the revision log.
 type: docs
-weight: 5430
+weight: 5470
 url: /net/aspose.cells.revisions/revisionlog/
 ---
 ## RevisionLog class

@@ -1,7 +1,7 @@
 ---
 title: HeaderBarTableStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the header bar style of the control.
 type: docs
 weight: 400
 url: /net/aspose.cells.gridweb/mainweb/headerbartablestyle/

@@ -1,7 +1,7 @@
 ---
 title: RepeatFormulasWithSubtotal
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether repeating formulas with subtotal row.
 type: docs
 weight: 50
 url: /net/aspose.cells/workbookdesigner/repeatformulaswithsubtotal/

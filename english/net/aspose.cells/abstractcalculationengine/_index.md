@@ -1,7 +1,7 @@
 ---
 title: AbstractCalculationEngine
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents users custom calculation engine to extend the default calculation engine of Aspose.Cells.
 type: docs
 weight: 20
 url: /net/aspose.cells/abstractcalculationengine/

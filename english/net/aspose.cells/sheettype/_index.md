@@ -1,9 +1,9 @@
 ---
 title: SheetType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the worksheet type.
 type: docs
-weight: 5600
+weight: 5640
 url: /net/aspose.cells/sheettype/
 ---
 ## SheetType enumeration

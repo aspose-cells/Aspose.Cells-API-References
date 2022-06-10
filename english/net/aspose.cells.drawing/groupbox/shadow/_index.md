@@ -1,7 +1,7 @@
 ---
 title: Shadow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the groupbox has shadow.
 type: docs
 weight: 10
 url: /net/aspose.cells.drawing/groupbox/shadow/

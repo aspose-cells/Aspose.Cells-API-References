@@ -1,7 +1,7 @@
 ---
 title: Offset
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the distance of labels from the axis.
 type: docs
 weight: 100
 url: /net/aspose.cells.charts/ticklabels/offset/

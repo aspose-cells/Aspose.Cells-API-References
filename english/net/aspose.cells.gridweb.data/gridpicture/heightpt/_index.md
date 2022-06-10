@@ -1,7 +1,7 @@
 ---
 title: HeightPt
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the height of the shape in unit of points.
 type: docs
 weight: 100
 url: /net/aspose.cells.gridweb.data/gridpicture/heightpt/

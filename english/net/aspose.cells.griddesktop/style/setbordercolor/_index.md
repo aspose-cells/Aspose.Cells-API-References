@@ -1,7 +1,7 @@
 ---
 title: SetBorderColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the color of the specified border.
 type: docs
 weight: 180
 url: /net/aspose.cells.griddesktop/style/setbordercolor/

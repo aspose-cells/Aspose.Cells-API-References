@@ -1,9 +1,9 @@
 ---
 title: LegendEntryCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a collection of all the LegendEntry./legendentry objects in the specified chart legend.
 type: docs
-weight: 700
+weight: 720
 url: /net/aspose.cells.charts/legendentrycollection/
 ---
 ## LegendEntryCollection class

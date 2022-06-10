@@ -1,9 +1,9 @@
 ---
 title: GridTableItemStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Inherited from System.Web.UI.WebControls.TableItemStyle. Encapsulates the styles of a WebCell.
 type: docs
-weight: 780
+weight: 990
 url: /net/aspose.cells.gridweb/gridtableitemstyle/
 ---
 ## GridTableItemStyle class
@@ -40,7 +40,7 @@ public class GridTableItemStyle : TableItemStyle
 
 | Name | Description |
 | --- | --- |
-| override [AddAttributesToRender](../../aspose.cells.gridweb/gridtableitemstyle/addattributestorender)(HtmlTextWriter, WebControl) | Internal use only. Implementation method Do not call this method directly. |
+| override [AddAttributesToRender](../../aspose.cells.gridweb/gridtableitemstyle/addattributestorender#addattributestorender_1)(HtmlTextWriter, WebControl) | Internal use only. Implementation method Do not call this method directly. |
 | override [CopyFrom](../../aspose.cells.gridweb/gridtableitemstyle/copyfrom)(Style) | Copies from another style object. |
 | override [GetHashCode](../../aspose.cells.gridweb/gridtableitemstyle/gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 | override [MergeWith](../../aspose.cells.gridweb/gridtableitemstyle/mergewith)(Style) | Merges with another style object. |

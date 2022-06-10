@@ -1,9 +1,9 @@
 ---
 title: GridHtmlSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the options for saving html file.
 type: docs
-weight: 250
+weight: 260
 url: /net/aspose.cells.gridweb.data/gridhtmlsaveoptions/
 ---
 ## GridHtmlSaveOptions class
@@ -18,8 +18,8 @@ public class GridHtmlSaveOptions : GridSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [GridHtmlSaveOptions](gridhtmlsaveoptions)() | Creates options for saving html file. |
-| [GridHtmlSaveOptions](gridhtmlsaveoptions)(GridSaveFormat) | Creates options for saving htm file. |
+| [GridHtmlSaveOptions](gridhtmlsaveoptions#constructor)() | Creates options for saving html file. |
+| [GridHtmlSaveOptions](gridhtmlsaveoptions#constructor_1)(GridSaveFormat) | Creates options for saving htm file. |
 
 ## Properties
 

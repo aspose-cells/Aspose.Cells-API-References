@@ -1,7 +1,7 @@
 ---
 title: LastCell
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the last cell object in the row.
 type: docs
 weight: 110
 url: /net/aspose.cells/row/lastcell/

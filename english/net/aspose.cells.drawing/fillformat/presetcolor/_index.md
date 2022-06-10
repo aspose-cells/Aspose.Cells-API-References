@@ -1,7 +1,7 @@
 ---
 title: PresetColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns the gradient preset color for the specified fill.
 type: docs
 weight: 130
 url: /net/aspose.cells.drawing/fillformat/presetcolor/

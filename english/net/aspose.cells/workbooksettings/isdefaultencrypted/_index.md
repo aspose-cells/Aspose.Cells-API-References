@@ -1,9 +1,9 @@
 ---
 title: IsDefaultEncrypted
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether encrypting the workbook with default password if Structure and Windows of the workbook are locked.
 type: docs
-weight: 190
+weight: 240
 url: /net/aspose.cells/workbooksettings/isdefaultencrypted/
 ---
 ## WorkbookSettings.IsDefaultEncrypted property

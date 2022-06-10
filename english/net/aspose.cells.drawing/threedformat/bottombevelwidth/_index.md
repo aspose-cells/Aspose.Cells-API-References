@@ -1,7 +1,7 @@
 ---
 title: BottomBevelWidth
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the width of the bottom bevel or how far into the shape it is applied. In unit of Points.
 type: docs
 weight: 30
 url: /net/aspose.cells.drawing/threedformat/bottombevelwidth/

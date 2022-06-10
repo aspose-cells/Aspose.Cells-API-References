@@ -1,9 +1,9 @@
 ---
 title: Manager
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the manager property.
 type: docs
-weight: 200
+weight: 240
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/manager/
 ---
 ## BuiltInDocumentPropertyCollection.Manager property

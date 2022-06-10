@@ -1,9 +1,9 @@
 ---
 title: SmartTagSetting
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents all SmartTagCollection./smarttagcollection object in the worksheet.
 type: docs
-weight: 4100
+weight: 4140
 url: /net/aspose.cells.markup/smarttagsetting/
 ---
 ## SmartTagSetting class
@@ -24,8 +24,8 @@ public class SmartTagSetting : CollectionBase
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.markup/smarttagsetting/add)(string) | Add a cell smart tags. |
-| [Add](../../aspose.cells.markup/smarttagsetting/add)(int, int) | Adds a [`SmartTagCollection`](../smarttagcollection) object to a cell. |
+| [Add](../../aspose.cells.markup/smarttagsetting/add#add_1)(string) | Add a cell smart tags. |
+| [Add](../../aspose.cells.markup/smarttagsetting/add#add)(int, int) | Adds a [`SmartTagCollection`](../smarttagcollection) object to a cell. |
 
 ### See Also
 

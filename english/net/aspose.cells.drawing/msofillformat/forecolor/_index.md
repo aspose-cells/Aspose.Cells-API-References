@@ -1,7 +1,7 @@
 ---
 title: ForeColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the fill fore color.
 type: docs
 weight: 20
 url: /net/aspose.cells.drawing/msofillformat/forecolor/

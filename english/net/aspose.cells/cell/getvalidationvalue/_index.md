@@ -1,9 +1,9 @@
 ---
 title: GetValidationValue
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the value of validation which applied to this cell.
 type: docs
-weight: 520
+weight: 570
 url: /net/aspose.cells/cell/getvalidationvalue/
 ---
 ## Cell.GetValidationValue method

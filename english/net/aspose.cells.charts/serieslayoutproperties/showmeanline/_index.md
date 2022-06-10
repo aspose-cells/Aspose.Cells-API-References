@@ -1,7 +1,7 @@
 ---
 title: ShowMeanLine
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether showing the line connecting all mean points.
 type: docs
 weight: 80
 url: /net/aspose.cells.charts/serieslayoutproperties/showmeanline/

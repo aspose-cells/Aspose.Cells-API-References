@@ -1,7 +1,7 @@
 ---
 title: HideSelection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether selected text in the control appears highlighted when the control does not have focus.
 type: docs
 weight: 80
 url: /net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/hideselection/

@@ -1,9 +1,9 @@
 ---
 title: EntireColumn
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets a Range object that represents the entire column or columns that contains the specified range.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.cells/range/entirecolumn/
 ---
 ## Range.EntireColumn property

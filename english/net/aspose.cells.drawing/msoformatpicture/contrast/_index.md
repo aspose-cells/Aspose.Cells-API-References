@@ -1,7 +1,7 @@
 ---
 title: Contrast
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the contrast modification for the picture.in unit of percentage.
 type: docs
 weight: 30
 url: /net/aspose.cells.drawing/msoformatpicture/contrast/

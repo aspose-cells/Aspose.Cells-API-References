@@ -1,7 +1,7 @@
 ---
 title: ShapeWidth
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the width in units of 1/4000 of charts width after calls Chart.Calculate method.
 type: docs
 weight: 230
 url: /net/aspose.cells.charts/chartpoint/shapewidth/

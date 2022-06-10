@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the name of the reference.
 type: docs
 weight: 30
 url: /net/aspose.cells.vba/vbaprojectreference/name/

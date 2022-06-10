@@ -1,7 +1,7 @@
 ---
 title: BarBorder
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets an object that specifies the border of a data bar.
 type: docs
 weight: 30
 url: /net/aspose.cells/databar/barborder/

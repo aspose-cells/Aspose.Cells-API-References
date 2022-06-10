@@ -1,7 +1,7 @@
 ---
 title: GetCellArea
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the conditional formatted cell range by index.
 type: docs
 weight: 70
 url: /net/aspose.cells/formatconditioncollection/getcellarea/

@@ -1,9 +1,9 @@
 ---
 title: CountOfStylesInPool
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets number of the styles in the style pool.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.cells/workbook/countofstylesinpool/
 ---
 ## Workbook.CountOfStylesInPool property

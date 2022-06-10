@@ -1,7 +1,7 @@
 ---
 title: CompoundType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the compound line type
 type: docs
 weight: 60
 url: /net/aspose.cells.drawing/line/compoundtype/

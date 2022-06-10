@@ -1,9 +1,9 @@
 ---
 title: RemoveMacro
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Removes VBA/macro from this spreadsheet.
 type: docs
-weight: 530
+weight: 560
 url: /net/aspose.cells/workbook/removemacro/
 ---
 ## Workbook.RemoveMacro method

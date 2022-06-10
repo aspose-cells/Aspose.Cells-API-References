@@ -1,9 +1,9 @@
 ---
 title: TextVerticalAlignment
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the text vertical alignment of text.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.cells.charts/charttextframe/textverticalalignment/
 ---
 ## ChartTextFrame.TextVerticalAlignment property

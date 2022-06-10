@@ -1,9 +1,9 @@
 ---
 title: UpdateLinksType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents how to update links to other workbooks when the workbook is opened.
 type: docs
-weight: 6150
+weight: 6190
 url: /net/aspose.cells/updatelinkstype/
 ---
 ## UpdateLinksType enumeration

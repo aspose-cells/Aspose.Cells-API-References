@@ -1,7 +1,7 @@
 ---
 title: CellArea
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the location where the formatting was applied.
 type: docs
 weight: 10
 url: /net/aspose.cells.revisions/revisionautoformat/cellarea/

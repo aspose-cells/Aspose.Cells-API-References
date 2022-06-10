@@ -1,7 +1,7 @@
 ---
 title: ArrayAsTable
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Processes Array as table.
 type: docs
 weight: 20
 url: /net/aspose.cells.utility/jsonlayoutoptions/arrayastable/

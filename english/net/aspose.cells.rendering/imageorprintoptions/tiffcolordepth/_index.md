@@ -1,7 +1,7 @@
 ---
 title: TiffColorDepth
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets bit depth to apply only when saving pages to the Tiff format.
 type: docs
 weight: 330
 url: /net/aspose.cells.rendering/imageorprintoptions/tiffcolordepth/

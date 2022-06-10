@@ -1,9 +1,9 @@
 ---
 title: GridPictureCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates a collection of Picture objects.
 type: docs
-weight: 340
+weight: 350
 url: /net/aspose.cells.gridweb.data/gridpicturecollection/
 ---
 ## GridPictureCollection class
@@ -25,11 +25,11 @@ public class GridPictureCollection
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.gridweb.data/gridpicturecollection/add)(int, int, Stream) | Adds a picture to the collection. |
-| [Add](../../aspose.cells.gridweb.data/gridpicturecollection/add)(int, int, string) | Adds a picture to the collection. |
-| [Add](../../aspose.cells.gridweb.data/gridpicturecollection/add)(int, int, int, int, Stream) | Adds a picture to the collection. |
-| [Add](../../aspose.cells.gridweb.data/gridpicturecollection/add)(int, int, int, int, string) | Adds a picture to the collection. |
-| [Add](../../aspose.cells.gridweb.data/gridpicturecollection/add)(int, int, string, int, int) | Adds a picture to the collection. |
+| [Add](../../aspose.cells.gridweb.data/gridpicturecollection/add#add_2)(int, int, Stream) | Adds a picture to the collection. |
+| [Add](../../aspose.cells.gridweb.data/gridpicturecollection/add#add_3)(int, int, string) | Adds a picture to the collection. |
+| [Add](../../aspose.cells.gridweb.data/gridpicturecollection/add#add)(int, int, int, int, Stream) | Adds a picture to the collection. |
+| [Add](../../aspose.cells.gridweb.data/gridpicturecollection/add#add_1)(int, int, int, int, string) | Adds a picture to the collection. |
+| [Add](../../aspose.cells.gridweb.data/gridpicturecollection/add#add_4)(int, int, string, int, int) | Adds a picture to the collection. |
 | [Clear](../../aspose.cells.gridweb.data/gridpicturecollection/clear)() |  |
 | [GetEnumerator](../../aspose.cells.gridweb.data/gridpicturecollection/getenumerator)() | Gets the rows enumerator |
 | [RemoveAt](../../aspose.cells.gridweb.data/gridpicturecollection/removeat)(int) |  |

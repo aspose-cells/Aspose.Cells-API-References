@@ -1,7 +1,7 @@
 ---
 title: BeforeFirst
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Move the cursor to the front of this object just before the first row.
 type: docs
 weight: 40
 url: /net/aspose.cells/icellsdatatable/beforefirst/

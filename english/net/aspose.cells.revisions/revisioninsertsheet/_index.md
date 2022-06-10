@@ -1,9 +1,9 @@
 ---
 title: RevisionInsertSheet
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a revision record of a sheet that was inserted.
 type: docs
-weight: 5420
+weight: 5460
 url: /net/aspose.cells.revisions/revisioninsertsheet/
 ---
 ## RevisionInsertSheet class

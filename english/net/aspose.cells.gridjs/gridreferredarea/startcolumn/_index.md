@@ -1,7 +1,7 @@
 ---
 title: StartColumn
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The start column of the area.
 type: docs
 weight: 70
 url: /net/aspose.cells.gridjs/gridreferredarea/startcolumn/

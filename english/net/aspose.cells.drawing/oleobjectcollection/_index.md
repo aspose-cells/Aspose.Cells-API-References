@@ -1,9 +1,9 @@
 ---
 title: OleObjectCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents embedded OLE objects.
 type: docs
-weight: 2430
+weight: 2450
 url: /net/aspose.cells.drawing/oleobjectcollection/
 ---
 ## OleObjectCollection class
@@ -27,12 +27,12 @@ public class OleObjectCollection : CollectionBase<OleObject>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.drawing/oleobjectcollection/add)(int, int, int, int, byte[]) | Adds an OleObject to the collection. |
-| [Add](../../aspose.cells.drawing/oleobjectcollection/add)(int, int, int, int, byte[], string) | Adds a linked OleObject to the collection. |
+| [Add](../../aspose.cells.drawing/oleobjectcollection/add#add)(int, int, int, int, byte[]) | Adds an OleObject to the collection. |
+| [Add](../../aspose.cells.drawing/oleobjectcollection/add#add_1)(int, int, int, int, byte[], string) | Adds a linked OleObject to the collection. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(OleObject) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(OleObject, IComparer&lt;OleObject&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, OleObject, IComparer&lt;OleObject&gt;) |  |
-| [Clear](../../aspose.cells.drawing/oleobjectcollection/clear)() | Remove all embedded OLE objects. (2 methods) |
+| [Clear](../../aspose.cells.drawing/oleobjectcollection/clear#clear)() | Remove all embedded OLE objects. (2 methods) |
 | [Contains](../../aspose.cells/collectionbase`1/contains)(OleObject) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(OleObject[]) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(OleObject[], int) |  |
@@ -54,7 +54,7 @@ public class OleObjectCollection : CollectionBase<OleObject>
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(OleObject) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(OleObject, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(OleObject, int, int) |  |
-| [RemoveAt](../../aspose.cells.drawing/oleobjectcollection/removeat)(int) | Removes the element at the specified index. (2 methods) |
+| [RemoveAt](../../aspose.cells.drawing/oleobjectcollection/removeat#removeat)(int) | Removes the element at the specified index. (2 methods) |
 
 ### See Also
 

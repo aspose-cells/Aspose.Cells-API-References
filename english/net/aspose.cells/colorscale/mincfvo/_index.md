@@ -1,7 +1,7 @@
 ---
 title: MinCfvo
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get or set this ColorScales min value object. Cannot set null or CFValueObject with type FormatConditionValueType.Max to it.
 type: docs
 weight: 60
 url: /net/aspose.cells/colorscale/mincfvo/

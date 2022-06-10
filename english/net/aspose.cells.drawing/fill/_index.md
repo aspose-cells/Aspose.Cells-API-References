@@ -1,9 +1,9 @@
 ---
 title: Fill
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the fill format of the shape.
 type: docs
-weight: 1950
+weight: 1970
 url: /net/aspose.cells.drawing/fill/
 ---
 ## Fill class

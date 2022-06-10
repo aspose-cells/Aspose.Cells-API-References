@@ -1,7 +1,7 @@
 ---
 title: LastDataCell
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the last non-blank cell in the row.
 type: docs
 weight: 120
 url: /net/aspose.cells/row/lastdatacell/

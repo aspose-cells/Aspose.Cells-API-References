@@ -1,7 +1,7 @@
 ---
 title: IsWordWrapped
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the contents of the control automatically wrap at the end of a line.
 type: docs
 weight: 130
 url: /net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/iswordwrapped/

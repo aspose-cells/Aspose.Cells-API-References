@@ -1,9 +1,9 @@
 ---
 title: Timeline
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: summary description of Timeline View
 type: docs
-weight: 6060
+weight: 6100
 url: /net/aspose.cells.timelines/timeline/
 ---
 ## Timeline class

@@ -6,7 +6,7 @@ type: docs
 weight: 70
 url: /net/aspose.cells/collectionbase-1/copyto/
 ---
-## CollectionBase&lt;T&gt;.CopyTo method (1 of 3)
+## CopyTo(T[]) {#copyto_1}
 
 ```csharp
 public void CopyTo(T[] array)
@@ -24,7 +24,7 @@ public void CopyTo(T[] array)
 
 ---
 
-## CollectionBase&lt;T&gt;.CopyTo method (2 of 3)
+## CopyTo(T[], int) {#copyto_2}
 
 ```csharp
 public void CopyTo(T[] array, int arrayIndex)
@@ -43,7 +43,7 @@ public void CopyTo(T[] array, int arrayIndex)
 
 ---
 
-## CollectionBase&lt;T&gt;.CopyTo method (3 of 3)
+## CopyTo(int, T[], int, int) {#copyto}
 
 ```csharp
 public void CopyTo(int index, T[] array, int arrayIndex, int count)

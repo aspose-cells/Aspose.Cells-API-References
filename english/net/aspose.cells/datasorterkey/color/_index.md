@@ -1,7 +1,7 @@
 ---
 title: Color
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the sorted color.
 type: docs
 weight: 10
 url: /net/aspose.cells/datasorterkey/color/

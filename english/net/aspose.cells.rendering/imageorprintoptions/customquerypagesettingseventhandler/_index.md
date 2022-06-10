@@ -1,7 +1,7 @@
 ---
 title: CustomQueryPageSettingsEventHandler
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Client can control page setting of printer when print each page using this EventHandler
 type: docs
 weight: 60
 url: /net/aspose.cells.rendering/imageorprintoptions/customquerypagesettingseventhandler/

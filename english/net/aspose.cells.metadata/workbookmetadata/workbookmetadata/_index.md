@@ -1,12 +1,12 @@
 ---
 title: WorkbookMetadata
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Create the meta data object.
 type: docs
 weight: 10
 url: /net/aspose.cells.metadata/workbookmetadata/workbookmetadata/
 ---
-## WorkbookMetadata constructor (1 of 2)
+## WorkbookMetadata(string, MetadataOptions) {#constructor_1}
 
 Create the meta data object.
 
@@ -28,7 +28,7 @@ public WorkbookMetadata(string fileName, MetadataOptions options)
 
 ---
 
-## WorkbookMetadata constructor (2 of 2)
+## WorkbookMetadata(Stream, MetadataOptions) {#constructor}
 
 Create the meta data object.
 

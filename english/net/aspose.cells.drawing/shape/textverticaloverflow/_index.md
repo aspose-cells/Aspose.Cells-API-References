@@ -1,9 +1,9 @@
 ---
 title: TextVerticalOverflow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the text vertical overflow type of the shape which contains text.
 type: docs
-weight: 730
+weight: 790
 url: /net/aspose.cells.drawing/shape/textverticaloverflow/
 ---
 ## Shape.TextVerticalOverflow property

@@ -1,7 +1,7 @@
 ---
 title: IsArrayHeader
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates the cells formula is and array formula and it is the first cell of the array.
 type: docs
 weight: 140
 url: /net/aspose.cells/cell/isarrayheader/

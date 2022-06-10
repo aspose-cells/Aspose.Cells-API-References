@@ -1,7 +1,7 @@
 ---
 title: PlotVisibleCells
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether only plot visible cells.
 type: docs
 weight: 310
 url: /net/aspose.cells.charts/chart/plotvisiblecells/

@@ -1,7 +1,7 @@
 ---
 title: Handled
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the value indicating whether the event should be handled.
 type: docs
 weight: 20
 url: /net/aspose.cells.griddesktop/cellvalidationeventargs/handled/

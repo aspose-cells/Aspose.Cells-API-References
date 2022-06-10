@@ -1,7 +1,7 @@
 ---
 title: SaveStream
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Implement this method to save cachesave the stream to the cache with the key uid.
 type: docs
 weight: 50
 url: /net/aspose.cells.gridjs/gridcacheforstream/savestream/

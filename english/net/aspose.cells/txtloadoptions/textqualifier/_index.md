@@ -1,7 +1,7 @@
 ---
 title: TextQualifier
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the text qualifier for cell values. Default qualifier is .
 type: docs
 weight: 90
 url: /net/aspose.cells/txtloadoptions/textqualifier/

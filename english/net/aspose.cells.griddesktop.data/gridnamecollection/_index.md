@@ -1,7 +1,7 @@
 ---
 title: GridNameCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates a collection of Name objects.
 type: docs
 weight: 540
 url: /net/aspose.cells.griddesktop.data/gridnamecollection/
@@ -25,8 +25,8 @@ public class GridNameCollection
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.griddesktop.data/gridnamecollection/add)(string, string) | Defines a new global name. |
-| [Add](../../aspose.cells.griddesktop.data/gridnamecollection/add)(int, string, string) | Defines a new name in the specified sheet. |
+| [Add](../../aspose.cells.griddesktop.data/gridnamecollection/add#add_1)(string, string) | Defines a new global name. |
+| [Add](../../aspose.cells.griddesktop.data/gridnamecollection/add#add)(int, string, string) | Defines a new name in the specified sheet. |
 | [Clear](../../aspose.cells.griddesktop.data/gridnamecollection/clear)() | Removes all Names; |
 | [GetEnumerator](../../aspose.cells.griddesktop.data/gridnamecollection/getenumerator)() | Gets the rows enumerator |
 | [Remove](../../aspose.cells.griddesktop.data/gridnamecollection/remove)(string[]) | Remove an array of name |

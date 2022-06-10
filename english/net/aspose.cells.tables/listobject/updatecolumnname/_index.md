@@ -1,7 +1,7 @@
 ---
 title: UpdateColumnName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Updates all list columns name from the worksheet.
 type: docs
 weight: 280
 url: /net/aspose.cells.tables/listobject/updatecolumnname/

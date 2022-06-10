@@ -1,7 +1,7 @@
 ---
 title: IsGridlinesVisible
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the gridlines are visible.Default is true.
 type: docs
 weight: 220
 url: /net/aspose.cells/worksheet/isgridlinesvisible/

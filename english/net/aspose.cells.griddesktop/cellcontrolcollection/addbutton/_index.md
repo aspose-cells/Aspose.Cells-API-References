@@ -1,12 +1,12 @@
 ---
 title: AddButton
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a button to a specified cell at row column index.
 type: docs
 weight: 20
 url: /net/aspose.cells.griddesktop/cellcontrolcollection/addbutton/
 ---
-## CellControlCollection.AddButton method (1 of 4)
+## AddButton(int, int, int, int, string) {#addbutton}
 
 Adds a button to a specified cell at row column index.
 
@@ -35,7 +35,7 @@ The added button.
 
 ---
 
-## CellControlCollection.AddButton method (2 of 4)
+## AddButton(string, int, int, string) {#addbutton_2}
 
 Adds a button to a specified cell by cell name.
 
@@ -63,7 +63,7 @@ The added button.
 
 ---
 
-## CellControlCollection.AddButton method (3 of 4)
+## AddButton(int, int, int, int, string, bool) {#addbutton_1}
 
 Adds a button to a specified cell at row column index.
 
@@ -93,7 +93,7 @@ The added button.
 
 ---
 
-## CellControlCollection.AddButton method (4 of 4)
+## AddButton(string, int, int, string, bool) {#addbutton_3}
 
 Adds a button to a specified cell by cell name.
 

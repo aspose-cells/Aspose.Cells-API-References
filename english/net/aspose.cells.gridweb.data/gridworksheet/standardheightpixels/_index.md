@@ -1,7 +1,7 @@
 ---
 title: StandardHeightPixels
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the default row height in this worksheetin unit of pixels.
 type: docs
 weight: 300
 url: /net/aspose.cells.gridweb.data/gridworksheet/standardheightpixels/

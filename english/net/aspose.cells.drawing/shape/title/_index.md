@@ -1,9 +1,9 @@
 ---
 title: Title
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the title caption of the current shape object.
 type: docs
-weight: 750
+weight: 810
 url: /net/aspose.cells.drawing/shape/title/
 ---
 ## Shape.Title property

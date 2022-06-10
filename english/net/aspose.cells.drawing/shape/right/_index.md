@@ -1,9 +1,9 @@
 ---
 title: Right
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the width of the shapes horizontal offset from its lower right corner column in unit of pixels.
 type: docs
-weight: 570
+weight: 620
 url: /net/aspose.cells.drawing/shape/right/
 ---
 ## Shape.Right property

@@ -1,9 +1,9 @@
 ---
 title: ColumnCount
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the count of columns in the range.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.cells/range/columncount/
 ---
 ## Range.ColumnCount property

@@ -1,9 +1,9 @@
 ---
 title: IsDateTime
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the number format is a date format.
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.cells/style/isdatetime/
 ---
 ## Style.IsDateTime property

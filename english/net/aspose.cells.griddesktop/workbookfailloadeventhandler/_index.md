@@ -1,7 +1,7 @@
 ---
 title: WorkbookFailLoadEventHandler
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the method that intend to handle workbook fail to load file.
 type: docs
 weight: 1070
 url: /net/aspose.cells.griddesktop/workbookfailloadeventhandler/

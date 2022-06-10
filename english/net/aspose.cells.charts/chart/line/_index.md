@@ -1,7 +1,7 @@
 ---
 title: Line
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the line.
 type: docs
 weight: 200
 url: /net/aspose.cells.charts/chart/line/

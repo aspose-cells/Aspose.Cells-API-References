@@ -1,9 +1,9 @@
 ---
 title: FillPictureType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the picture fill type.
 type: docs
-weight: 1980
+weight: 2000
 url: /net/aspose.cells.drawing/fillpicturetype/
 ---
 ## FillPictureType enumeration

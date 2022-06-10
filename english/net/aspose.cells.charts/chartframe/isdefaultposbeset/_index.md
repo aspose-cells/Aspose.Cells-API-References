@@ -1,9 +1,9 @@
 ---
 title: IsDefaultPosBeSet
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether default positionDefaultX DefaultY DefaultWidth and DefaultHeight are set.
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.cells.charts/chartframe/isdefaultposbeset/
 ---
 ## ChartFrame.IsDefaultPosBeSet property

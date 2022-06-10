@@ -1,7 +1,7 @@
 ---
 title: AddByBaseIndex
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a PivotField Object to the specific type PivotFields.
 type: docs
 weight: 50
 url: /net/aspose.cells.pivot/pivotfieldcollection/addbybaseindex/

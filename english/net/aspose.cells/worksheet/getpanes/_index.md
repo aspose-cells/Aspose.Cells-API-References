@@ -1,7 +1,7 @@
 ---
 title: GetPanes
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the window panes.
 type: docs
 weight: 730
 url: /net/aspose.cells/worksheet/getpanes/

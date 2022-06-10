@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the person who create threaded comments.
 type: docs
 weight: 30
 url: /net/aspose.cells/threadedcommentauthorcollection/item/

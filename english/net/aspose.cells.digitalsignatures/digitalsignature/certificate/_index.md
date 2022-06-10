@@ -1,7 +1,7 @@
 ---
 title: Certificate
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Certificate object that was used to sign the document.
 type: docs
 weight: 20
 url: /net/aspose.cells.digitalsignatures/digitalsignature/certificate/

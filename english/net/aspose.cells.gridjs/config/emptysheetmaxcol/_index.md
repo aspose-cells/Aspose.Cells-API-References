@@ -1,7 +1,7 @@
 ---
 title: EmptySheetMaxCol
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets/Gets default max column for an empty worksheet
 type: docs
 weight: 30
 url: /net/aspose.cells.gridjs/config/emptysheetmaxcol/

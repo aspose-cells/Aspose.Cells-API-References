@@ -1,7 +1,7 @@
 ---
 title: QuartileCalculation
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the statistical properties for the series.
 type: docs
 weight: 50
 url: /net/aspose.cells.charts/serieslayoutproperties/quartilecalculation/

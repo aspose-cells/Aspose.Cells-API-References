@@ -1,7 +1,7 @@
 ---
 title: Validate
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Validate a gridcells data is valid or not.
 type: docs
 weight: 10
 url: /net/aspose.cells.griddesktop/icustomvalidation/validate/

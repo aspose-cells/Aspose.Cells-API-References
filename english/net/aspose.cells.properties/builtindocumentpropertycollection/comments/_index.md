@@ -1,9 +1,9 @@
 ---
 title: Comments
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the document comments.
 type: docs
-weight: 30
+weight: 60
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/comments/
 ---
 ## BuiltInDocumentPropertyCollection.Comments property

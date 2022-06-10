@@ -1,9 +1,9 @@
 ---
 title: PivotItemCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a collection of all the PivotItem objects in the PivotFields
 type: docs
-weight: 4640
+weight: 4680
 url: /net/aspose.cells.pivot/pivotitemcollection/
 ---
 ## PivotItemCollection class

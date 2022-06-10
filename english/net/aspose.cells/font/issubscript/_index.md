@@ -1,7 +1,7 @@
 ---
 title: IsSubscript
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the font is subscript.
 type: docs
 weight: 100
 url: /net/aspose.cells/font/issubscript/

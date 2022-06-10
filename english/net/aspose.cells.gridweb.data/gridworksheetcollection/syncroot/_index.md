@@ -1,7 +1,7 @@
 ---
 title: SyncRoot
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets an object that can be used to synchronize access to the ICollection.
 type: docs
 weight: 90
 url: /net/aspose.cells.gridweb.data/gridworksheetcollection/syncroot/

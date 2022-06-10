@@ -1,12 +1,12 @@
 ---
 title: CreateSubtotal
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Creates subtotal in the sheet.
 type: docs
 weight: 490
 url: /net/aspose.cells.gridweb.data/gridworksheet/createsubtotal/
 ---
-## GridWorksheet.CreateSubtotal method (1 of 2)
+## CreateSubtotal(int, int, int, SubtotalFunction, int[], string, GridTableItemStyle, GridTableItemStyle, NumberType, string) {#createsubtotal_1}
 
 Creates subtotal in the sheet.
 
@@ -41,7 +41,7 @@ public void CreateSubtotal(int columnNameRowIndex, int dataRows, int groupByColu
 
 ---
 
-## GridWorksheet.CreateSubtotal method (2 of 2)
+## CreateSubtotal(int, int, int, SubtotalFunction, int[]) {#createsubtotal}
 
 Creates subtotal in the sheet.
 

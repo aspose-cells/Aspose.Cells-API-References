@@ -1,7 +1,7 @@
 ---
 title: UnhideColumn
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Unhides a column
 type: docs
 weight: 770
 url: /net/aspose.cells.gridweb.data/gridcells/unhidecolumn/

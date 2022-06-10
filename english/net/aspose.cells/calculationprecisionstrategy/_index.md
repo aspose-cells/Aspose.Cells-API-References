@@ -1,7 +1,7 @@
 ---
 title: CalculationPrecisionStrategy
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Enumerates strategies for handling calculation precision. Because of the precision issue of IEEE 754 Floating-Point Arithmetic some seemingly simple formulas may not be calculated as the expected result. Such as formula -0.450.430.02 when calculating operands by  operator directly the result is not zero. For such kind of precision issue some special strategies may give the expected result.
 type: docs
 weight: 220
 url: /net/aspose.cells/calculationprecisionstrategy/

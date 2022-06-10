@@ -1,12 +1,12 @@
 ---
 title: SetLicense
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Licenses the component.
 type: docs
 weight: 20
 url: /net/aspose.cells/license/setlicense/
 ---
-## License.SetLicense method (1 of 2)
+## SetLicense(string) {#setlicense_1}
 
 Licenses the component.
 
@@ -61,7 +61,7 @@ Can be a full or short file name or name of an embedded resource. Use an empty s
 
 ---
 
-## License.SetLicense method (2 of 2)
+## SetLicense(Stream) {#setlicense}
 
 Licenses the component.
 

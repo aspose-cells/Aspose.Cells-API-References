@@ -1,7 +1,7 @@
 ---
 title: ParseHtmlTagInCell
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Parse html tag in celllike as cell valueor as html tagdefault is true
 type: docs
 weight: 170
 url: /net/aspose.cells.gridweb.data/gridhtmlsaveoptions/parsehtmltagincell/

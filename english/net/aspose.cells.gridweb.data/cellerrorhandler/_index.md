@@ -1,9 +1,9 @@
 ---
 title: CellErrorHandler
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the interface that intend to handle cell error events.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.cells.gridweb.data/cellerrorhandler/
 ---
 ## CellErrorHandler delegate

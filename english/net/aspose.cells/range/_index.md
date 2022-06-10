@@ -1,9 +1,9 @@
 ---
 title: Range
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the object that represents a range of cells within a spreadsheet.
 type: docs
-weight: 5020
+weight: 5060
 url: /net/aspose.cells/range/
 ---
 ## Range class
@@ -19,6 +19,7 @@ public class Range
 | Name | Description |
 | --- | --- |
 | [Address](../../aspose.cells/range/address) { get; } | Gets address of the range. |
+| [CellCount](../../aspose.cells/range/cellcount) { get; } | Gets all cell count in the range. |
 | [ColumnCount](../../aspose.cells/range/columncount) { get; } | Gets the count of columns in the range. |
 | [ColumnWidth](../../aspose.cells/range/columnwidth) { get; set; } | Sets or gets the column width of this range |
 | [CurrentRegion](../../aspose.cells/range/currentregion) { get; } | Returns a Range object that represents the current region. The current region is a range bounded by any combination of blank rows and blank columns. |
@@ -40,15 +41,15 @@ public class Range
 | Name | Description |
 | --- | --- |
 | [ApplyStyle](../../aspose.cells/range/applystyle)(Style, StyleFlag) | Applies formats for a whole range. |
-| [AutoFill](../../aspose.cells/range/autofill)(Range) | Automaticall fill the target range. |
-| [AutoFill](../../aspose.cells/range/autofill)(Range, AutoFillType) | Automaticall fill the target range. |
-| [Copy](../../aspose.cells/range/copy)(Range) | Copies data (including formulas), formatting, drawing objects etc. from a source range. |
-| [Copy](../../aspose.cells/range/copy)(Range, PasteOptions) | Copying the range with paste special options. |
+| [AutoFill](../../aspose.cells/range/autofill#autofill)(Range) | Automaticall fill the target range. |
+| [AutoFill](../../aspose.cells/range/autofill#autofill_1)(Range, AutoFillType) | Automaticall fill the target range. |
+| [Copy](../../aspose.cells/range/copy#copy)(Range) | Copies data (including formulas), formatting, drawing objects etc. from a source range. |
+| [Copy](../../aspose.cells/range/copy#copy_1)(Range, PasteOptions) | Copying the range with paste special options. |
 | [CopyData](../../aspose.cells/range/copydata)(Range) | Copies cell data (including formulas) from a source range. |
 | [CopyStyle](../../aspose.cells/range/copystyle)(Range) | Copies style settings from a source range. |
 | [CopyValue](../../aspose.cells/range/copyvalue)(Range) | Copies cell value from a source range. |
-| [ExportDataTable](../../aspose.cells/range/exportdatatable)() | Exports data in this range to a DataTable object. |
-| [ExportDataTable](../../aspose.cells/range/exportdatatable)(ExportTableOptions) | Exports data in this range to a DataTable object. |
+| [ExportDataTable](../../aspose.cells/range/exportdatatable#exportdatatable)() | Exports data in this range to a DataTable object. |
+| [ExportDataTable](../../aspose.cells/range/exportdatatable#exportdatatable_1)(ExportTableOptions) | Exports data in this range to a DataTable object. |
 | [ExportDataTableAsString](../../aspose.cells/range/exportdatatableasstring)() | Exports data in this range to a DataTable object. |
 | [GetCellOrNull](../../aspose.cells/range/getcellornull)(int, int) | Gets [`Cell`](../cell) object or null in this range. |
 | [GetEnumerator](../../aspose.cells/range/getenumerator)() | Gets the enumerator for cells in this Range. |
@@ -60,8 +61,8 @@ public class Range
 | [PutValue](../../aspose.cells/range/putvalue)(string, bool, bool) | Puts a value into the range, if appropriate the value will be converted to other data type and cell's number format will be reset. |
 | [SetInsideBorders](../../aspose.cells/range/setinsideborders)(BorderType, CellBorderType, CellsColor) | Set inside borders of the range. |
 | [SetOutlineBorder](../../aspose.cells/range/setoutlineborder)(BorderType, CellBorderType, Color) | Sets outline border around a range of cells. |
-| [SetOutlineBorders](../../aspose.cells/range/setoutlineborders)(CellBorderType, Color) | Sets the outline borders around a range of cells with same border style and color. |
-| [SetOutlineBorders](../../aspose.cells/range/setoutlineborders)(CellBorderType[], Color[]) | Sets out line borders around a range of cells. |
+| [SetOutlineBorders](../../aspose.cells/range/setoutlineborders#setoutlineborders)(CellBorderType, Color) | Sets the outline borders around a range of cells with same border style and color. |
+| [SetOutlineBorders](../../aspose.cells/range/setoutlineborders#setoutlineborders_1)(CellBorderType[], Color[]) | Sets out line borders around a range of cells. |
 | [SetStyle](../../aspose.cells/range/setstyle)(Style) | Sets the style of the range. |
 | override [ToString](../../aspose.cells/range/tostring)() | Returns a string represents the current Range object. |
 | [Union](../../aspose.cells/range/union)(Range) | Returns the union of two ranges. |

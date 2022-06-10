@@ -1,9 +1,9 @@
 ---
 title: ImageOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get the ImageOrPrintOptions object before exporting
 type: docs
-weight: 340
+weight: 350
 url: /net/aspose.cells/htmlsaveoptions/imageoptions/
 ---
 ## HtmlSaveOptions.ImageOptions property

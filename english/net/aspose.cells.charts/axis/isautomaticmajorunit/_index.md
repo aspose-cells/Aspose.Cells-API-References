@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticMajorUnit
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the major unit of the axis is automatically assigned.
 type: docs
 weight: 140
 url: /net/aspose.cells.charts/axis/isautomaticmajorunit/

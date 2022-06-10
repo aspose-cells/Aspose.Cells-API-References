@@ -1,9 +1,9 @@
 ---
 title: ChartSplitType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the way the two sections of either a pie of pie chart or a bar of pie chart are split.
 type: docs
-weight: 520
+weight: 530
 url: /net/aspose.cells.charts/chartsplittype/
 ---
 ## ChartSplitType enumeration

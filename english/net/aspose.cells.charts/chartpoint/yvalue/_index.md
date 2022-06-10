@@ -1,7 +1,7 @@
 ---
 title: YValue
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the Y value of the chart point.
 type: docs
 weight: 320
 url: /net/aspose.cells.charts/chartpoint/yvalue/

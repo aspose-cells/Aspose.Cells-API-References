@@ -1,9 +1,9 @@
 ---
 title: MirrorType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents mirror type of texture fill
 type: docs
-weight: 2260
+weight: 2280
 url: /net/aspose.cells.drawing/mirrortype/
 ---
 ## MirrorType enumeration

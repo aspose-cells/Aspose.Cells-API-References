@@ -1,7 +1,7 @@
 ---
 title: Underline
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the font underline type.
 type: docs
 weight: 180
 url: /net/aspose.cells/font/underline/

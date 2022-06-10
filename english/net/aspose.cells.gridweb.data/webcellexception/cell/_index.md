@@ -1,7 +1,7 @@
 ---
 title: Cell
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the error cell. If the Cell is null the error is cause by an CommitNewBindRow operation that means the DataTable rejected the new created row.
 type: docs
 weight: 10
 url: /net/aspose.cells.gridweb.data/webcellexception/cell/
@@ -16,6 +16,7 @@ public WebCell Cell { get; }
 
 ### See Also
 
+* class [WebCell](../../webcell)
 * class [WebCellException](../../webcellexception)
 * namespace [Aspose.Cells.GridWeb.Data](../../webcellexception)
 * assembly [Aspose.Cells.GridWeb](../../../)

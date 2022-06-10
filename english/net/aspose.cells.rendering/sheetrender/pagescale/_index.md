@@ -1,7 +1,7 @@
 ---
 title: PageScale
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets calculated page scale of the sheet. Returns the set scale if Zoomaspose.cells/pagesetup/zoom is set. Otherwise returns the calculated scale according to FitToPagesWideaspose.cells/pagesetup/fittopageswide and FitToPagesTallaspose.cells/pagesetup/fittopagestall.
 type: docs
 weight: 30
 url: /net/aspose.cells.rendering/sheetrender/pagescale/

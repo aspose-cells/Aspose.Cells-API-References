@@ -1,9 +1,9 @@
 ---
 title: WebExtensionCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the list of web extension.
 type: docs
-weight: 6390
+weight: 6430
 url: /net/aspose.cells.webextensions/webextensioncollection/
 ---
 ## WebExtensionCollection class
@@ -53,7 +53,7 @@ public class WebExtensionCollection : CollectionBase<WebExtension>
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(WebExtension) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(WebExtension, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(WebExtension, int, int) |  |
-| [RemoveAt](../../aspose.cells.webextensions/webextensioncollection/removeat)(int) | Remove web extension by the index. (2 methods) |
+| [RemoveAt](../../aspose.cells.webextensions/webextensioncollection/removeat#removeat)(int) | Remove web extension by the index. (2 methods) |
 
 ### See Also
 

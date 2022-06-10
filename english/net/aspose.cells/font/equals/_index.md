@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Checks if two fonts are equals.
 type: docs
 weight: 190
 url: /net/aspose.cells/font/equals/

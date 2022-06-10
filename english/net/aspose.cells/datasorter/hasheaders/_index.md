@@ -1,7 +1,7 @@
 ---
 title: HasHeaders
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents whether the range has headers.
 type: docs
 weight: 20
 url: /net/aspose.cells/datasorter/hasheaders/

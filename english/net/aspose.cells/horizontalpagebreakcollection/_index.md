@@ -1,9 +1,9 @@
 ---
 title: HorizontalPageBreakCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates a collection of HorizontalPageBreak./horizontalpagebreak objects.
 type: docs
-weight: 3660
+weight: 3690
 url: /net/aspose.cells/horizontalpagebreakcollection/
 ---
 ## HorizontalPageBreakCollection class
@@ -27,10 +27,10 @@ public class HorizontalPageBreakCollection : CollectionBase<HorizontalPageBreak>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells/horizontalpagebreakcollection/add)(int) | Adds a horizontal page break to the collection. |
-| [Add](../../aspose.cells/horizontalpagebreakcollection/add)(string) | Adds a horizontal page break to the collection. |
-| [Add](../../aspose.cells/horizontalpagebreakcollection/add)(int, int) | Adds a horizontal page break to the collection. |
-| [Add](../../aspose.cells/horizontalpagebreakcollection/add)(int, int, int) | Adds a horizontal page break to the collection. |
+| [Add](../../aspose.cells/horizontalpagebreakcollection/add#add)(int) | Adds a horizontal page break to the collection. |
+| [Add](../../aspose.cells/horizontalpagebreakcollection/add#add_3)(string) | Adds a horizontal page break to the collection. |
+| [Add](../../aspose.cells/horizontalpagebreakcollection/add#add_1)(int, int) | Adds a horizontal page break to the collection. |
+| [Add](../../aspose.cells/horizontalpagebreakcollection/add#add_2)(int, int, int) | Adds a horizontal page break to the collection. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(HorizontalPageBreak) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(HorizontalPageBreak, IComparer&lt;HorizontalPageBreak&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, HorizontalPageBreak, IComparer&lt;HorizontalPageBreak&gt;) |  |
@@ -56,7 +56,7 @@ public class HorizontalPageBreakCollection : CollectionBase<HorizontalPageBreak>
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(HorizontalPageBreak) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(HorizontalPageBreak, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(HorizontalPageBreak, int, int) |  |
-| [RemoveAt](../../aspose.cells/horizontalpagebreakcollection/removeat)(int) | Removes the HPageBreak element at a specified name. (2 methods) |
+| [RemoveAt](../../aspose.cells/horizontalpagebreakcollection/removeat#removeat)(int) | Removes the HPageBreak element at a specified name. (2 methods) |
 
 ### Examples
 

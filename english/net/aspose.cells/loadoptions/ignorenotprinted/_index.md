@@ -1,7 +1,7 @@
 ---
 title: IgnoreNotPrinted
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Ignore the data which are not printed if directly printing the file
 type: docs
 weight: 90
 url: /net/aspose.cells/loadoptions/ignorenotprinted/

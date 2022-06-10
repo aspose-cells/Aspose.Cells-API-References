@@ -1,7 +1,7 @@
 ---
 title: Min
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the minimum value of a scroll bar or spinner range.
 type: docs
 weight: 50
 url: /net/aspose.cells.drawing/spinner/min/

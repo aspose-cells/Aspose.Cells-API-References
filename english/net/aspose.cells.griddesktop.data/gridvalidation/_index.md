@@ -1,7 +1,7 @@
 ---
 title: GridValidation
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents data validation.settings.
 type: docs
 weight: 710
 url: /net/aspose.cells.griddesktop.data/gridvalidation/
@@ -48,8 +48,8 @@ public class GridValidation
 
 | Name | Description |
 | --- | --- |
-| [AddACell](../../aspose.cells.griddesktop.data/gridvalidation/addacell)(string) | add the validation settings in the cell. |
-| [AddACell](../../aspose.cells.griddesktop.data/gridvalidation/addacell)(int, int) | add the validation settings in the cell. |
+| [AddACell](../../aspose.cells.griddesktop.data/gridvalidation/addacell#addacell_1)(string) | add the validation settings in the cell. |
+| [AddACell](../../aspose.cells.griddesktop.data/gridvalidation/addacell#addacell)(int, int) | add the validation settings in the cell. |
 | [AddArea](../../aspose.cells.griddesktop.data/gridvalidation/addarea)(GridCellArea) | Applies the validation to the area. |
 | [RemoveACell](../../aspose.cells.griddesktop.data/gridvalidation/removeacell)(int, int) | Remove the validation settings in the cell. |
 | [RemoveArea](../../aspose.cells.griddesktop.data/gridvalidation/removearea)(GridCellArea) | Remove the validation settings in the range. |

@@ -1,7 +1,7 @@
 ---
 title: FitToPagesTall
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the number of pages tall the worksheet will be scaled to when its printed. The default value is 1.
 type: docs
 weight: 70
 url: /net/aspose.cells/pagesetup/fittopagestall/

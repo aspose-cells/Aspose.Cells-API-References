@@ -1,7 +1,7 @@
 ---
 title: Style
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns a Style object that represents the style of the specified range.
 type: docs
 weight: 50
 url: /net/aspose.cells.drawing/msolineformathelper/style/

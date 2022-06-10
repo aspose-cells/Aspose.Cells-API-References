@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates the sparkline type of the sparkline group.
 type: docs
 weight: 230
 url: /net/aspose.cells.charts/sparklinegroup/type/

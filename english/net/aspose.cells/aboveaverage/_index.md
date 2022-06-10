@@ -1,7 +1,7 @@
 ---
 title: AboveAverage
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Describe the AboveAverage conditional formatting rule. This conditional formatting rule highlights cells that are above or below the average for all values in the range.
 type: docs
 weight: 10
 url: /net/aspose.cells/aboveaverage/

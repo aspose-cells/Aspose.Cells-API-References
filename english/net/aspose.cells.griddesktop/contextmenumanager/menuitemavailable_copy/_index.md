@@ -1,7 +1,7 @@
 ---
 title: MenuItemAvailable_Copy
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the context menu item Copy is available.
 type: docs
 weight: 50
 url: /net/aspose.cells.griddesktop/contextmenumanager/menuitemavailable_copy/

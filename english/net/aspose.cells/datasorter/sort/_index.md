@@ -1,12 +1,12 @@
 ---
 title: Sort
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sorts the data of the area.
 type: docs
 weight: 140
 url: /net/aspose.cells/datasorter/sort/
 ---
-## DataSorter.Sort method (1 of 3)
+## Sort(Cells, int, int, int, int) {#sort_2}
 
 Sorts the data of the area.
 
@@ -35,7 +35,7 @@ the original indices(absolute position, for example, column A is 0, B is 1, ...)
 
 ---
 
-## DataSorter.Sort method (2 of 3)
+## Sort(Cells, CellArea) {#sort_1}
 
 Sort the data of the area.
 
@@ -62,7 +62,7 @@ the original indices(absolute position, for example, column A is 0, B is 1, ...)
 
 ---
 
-## DataSorter.Sort method (3 of 3)
+## Sort() {#sort}
 
 Sort the data in the range.
 

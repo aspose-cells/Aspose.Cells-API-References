@@ -1,7 +1,7 @@
 ---
 title: DisplayRightToLeft
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates if the specified worksheet is displayed from right to left instead of from left to right. Default is false.
 type: docs
 weight: 130
 url: /net/aspose.cells/worksheet/displayrighttoleft/

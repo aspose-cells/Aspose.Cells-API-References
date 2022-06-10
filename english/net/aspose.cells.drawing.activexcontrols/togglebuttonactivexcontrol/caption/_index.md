@@ -1,7 +1,7 @@
 ---
 title: Caption
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and set the descriptive text that appears on a control.
 type: docs
 weight: 20
 url: /net/aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/caption/

@@ -1,12 +1,12 @@
 ---
 title: Unmerge
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Unmerges a specified range of cells into a single cell.
 type: docs
 weight: 1140
 url: /net/aspose.cells.griddesktop/worksheet/unmerge/
 ---
-## Worksheet.Unmerge method (1 of 3)
+## Unmerge(CellRange) {#unmerge_1}
 
 Unmerges a specified range of cells into a single cell.
 
@@ -31,7 +31,7 @@ Reference the merged cell via the address of the upper-left cell in the range.
 
 ---
 
-## Worksheet.Unmerge method (2 of 3)
+## Unmerge(CellLocation) {#unmerge}
 
 Remove the specified cell location from merges.
 
@@ -52,7 +52,7 @@ public void Unmerge(CellLocation location)
 
 ---
 
-## Worksheet.Unmerge method (3 of 3)
+## Unmerge(int, int) {#unmerge_2}
 
 Remove the specified cell row column index from merges.
 

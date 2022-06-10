@@ -1,7 +1,7 @@
 ---
 title: AddRadioButton
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a RadioButton to the worksheet.
 type: docs
 weight: 230
 url: /net/aspose.cells.drawing/shapecollection/addradiobutton/

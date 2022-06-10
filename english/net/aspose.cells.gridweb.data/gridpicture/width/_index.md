@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the width of shape in unit of pixels.
 type: docs
 weight: 500
 url: /net/aspose.cells.gridweb.data/gridpicture/width/

@@ -1,9 +1,9 @@
 ---
 title: IsDeletingRangeEnabled
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Check whether the range could be deleted.
 type: docs
-weight: 1140
+weight: 1200
 url: /net/aspose.cells/cells/isdeletingrangeenabled/
 ---
 ## Cells.IsDeletingRangeEnabled method

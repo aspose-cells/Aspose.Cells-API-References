@@ -1,7 +1,7 @@
 ---
 title: UpperDeltaX
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the shapes horizontal offset from its upper left corner column. The range of value is 0 to 1024.
 type: docs
 weight: 460
 url: /net/aspose.cells.gridweb.data/gridpicture/upperdeltax/

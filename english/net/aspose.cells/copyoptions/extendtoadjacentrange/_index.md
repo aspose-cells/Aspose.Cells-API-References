@@ -1,7 +1,7 @@
 ---
 title: ExtendToAdjacentRange
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether extend ranges when copying the range to adjacent range.
 type: docs
 weight: 50
 url: /net/aspose.cells/copyoptions/extendtoadjacentrange/

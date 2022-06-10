@@ -1,9 +1,9 @@
 ---
 title: GridWorksheetDesign
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Inherited from GridWorksheet. Used in design-time only.
 type: docs
-weight: 820
+weight: 1030
 url: /net/aspose.cells.gridweb/gridworksheetdesign/
 ---
 ## GridWorksheetDesign class
@@ -18,8 +18,8 @@ public class GridWorksheetDesign : GridWorksheet
 
 | Name | Description |
 | --- | --- |
-| [GridWorksheetDesign](gridworksheetdesign)() | Default constructor. |
-| [GridWorksheetDesign](gridworksheetdesign)(GridWorkbook) |  |
+| [GridWorksheetDesign](gridworksheetdesign#constructor)() | Default constructor. |
+| [GridWorksheetDesign](gridworksheetdesign#constructor_1)(GridWorkbook) |  |
 
 ## Properties
 

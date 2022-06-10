@@ -1,7 +1,7 @@
 ---
 title: ShowDrill
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets whether expand/collapse buttons is shown.
 type: docs
 weight: 590
 url: /net/aspose.cells.pivot/pivottable/showdrill/

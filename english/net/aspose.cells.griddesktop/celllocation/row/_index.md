@@ -1,7 +1,7 @@
 ---
 title: Row
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the row of the cell location.
 type: docs
 weight: 30
 url: /net/aspose.cells.griddesktop/celllocation/row/

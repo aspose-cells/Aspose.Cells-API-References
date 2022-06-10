@@ -1,7 +1,7 @@
 ---
 title: Values
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets an object representing the collection of the values contained in this ComboBox.
 type: docs
 weight: 50
 url: /net/aspose.cells.griddesktop/combobox/values/

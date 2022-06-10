@@ -1,9 +1,9 @@
 ---
 title: GridColumn
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a single column in a worksheet.
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.cells.gridweb.data/gridcolumn/
 ---
 ## GridColumn class

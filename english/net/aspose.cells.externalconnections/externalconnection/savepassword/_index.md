@@ -1,9 +1,9 @@
 ---
 title: SavePassword
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: True if the password is to be saved as part of the connection string otherwise False.
 type: docs
-weight: 180
+weight: 200
 url: /net/aspose.cells.externalconnections/externalconnection/savepassword/
 ---
 ## ExternalConnection.SavePassword property

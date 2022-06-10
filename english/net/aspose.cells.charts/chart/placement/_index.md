@@ -1,7 +1,7 @@
 ---
 title: Placement
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the way the chart is attached to the cells below it.
 type: docs
 weight: 270
 url: /net/aspose.cells.charts/chart/placement/

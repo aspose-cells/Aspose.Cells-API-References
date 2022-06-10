@@ -1,9 +1,9 @@
 ---
 title: SeparatorValue
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the separator value used for the data labels on a chart.
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.cells.charts/datalabels/separatorvalue/
 ---
 ## DataLabels.SeparatorValue property

@@ -1,7 +1,7 @@
 ---
 title: Paste
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Pastes clipboard content to focused cell.
 type: docs
 weight: 750
 url: /net/aspose.cells.griddesktop/griddesktop/paste/

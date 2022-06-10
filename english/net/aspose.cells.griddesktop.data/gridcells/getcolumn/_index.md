@@ -1,7 +1,7 @@
 ---
 title: GetColumn
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the GridColumnaspose.cells.griddesktop.data/gridcolumn element or at the specified cell column index.
 type: docs
 weight: 390
 url: /net/aspose.cells.griddesktop.data/gridcells/getcolumn/

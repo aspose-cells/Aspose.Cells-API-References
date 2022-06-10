@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a worksheet to the collection.
 type: docs
 weight: 60
 url: /net/aspose.cells.griddesktop/worksheetcollection/add/
 ---
-## WorksheetCollection.Add method (1 of 2)
+## Add() {#add_1}
 
 Adds a worksheet to the collection.
 
@@ -26,7 +26,7 @@ public int Add()
 
 ---
 
-## WorksheetCollection.Add method (2 of 2)
+## Add(string) {#add}
 
 Adds a worksheet to the collection.
 

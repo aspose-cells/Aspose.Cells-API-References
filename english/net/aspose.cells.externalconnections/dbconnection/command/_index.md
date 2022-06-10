@@ -1,7 +1,7 @@
 ---
 title: Command
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data
 type: docs
 weight: 10
 url: /net/aspose.cells.externalconnections/dbconnection/command/

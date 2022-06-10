@@ -1,12 +1,12 @@
 ---
 title: Remove
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Removes the item at the specified row column index of the cell.
 type: docs
 weight: 10
 url: /net/aspose.cells.griddesktop/cellrelativecollection/remove/
 ---
-## CellRelativeCollection.Remove method (1 of 2)
+## Remove(int, int) {#remove}
 
 Removes the item at the specified row column index of the cell.
 
@@ -27,7 +27,7 @@ public virtual void Remove(int row, int col)
 
 ---
 
-## CellRelativeCollection.Remove method (2 of 2)
+## Remove(string) {#remove_1}
 
 Removes the item by cell name.
 

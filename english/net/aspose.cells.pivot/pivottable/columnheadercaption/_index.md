@@ -1,7 +1,7 @@
 ---
 title: ColumnHeaderCaption
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the Column Header Caption of the PivotTable.
 type: docs
 weight: 70
 url: /net/aspose.cells.pivot/pivottable/columnheadercaption/

@@ -1,12 +1,12 @@
 ---
 title: UngroupRows
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Ungroups rows.
 type: docs
-weight: 1330
+weight: 1390
 url: /net/aspose.cells/cells/ungrouprows/
 ---
-## Cells.UngroupRows method (1 of 2)
+## UngroupRows(int, int, bool) {#ungrouprows_1}
 
 Ungroups rows.
 
@@ -28,7 +28,7 @@ public void UngroupRows(int firstIndex, int lastIndex, bool isAll)
 
 ---
 
-## Cells.UngroupRows method (2 of 2)
+## UngroupRows(int, int) {#ungrouprows}
 
 Ungroups rows.
 

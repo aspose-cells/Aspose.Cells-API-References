@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticPaperSize
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the paper size is automatic.
 type: docs
 weight: 140
 url: /net/aspose.cells/pagesetup/isautomaticpapersize/

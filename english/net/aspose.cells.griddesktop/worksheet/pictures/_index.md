@@ -1,7 +1,7 @@
 ---
 title: Pictures
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets a Picturesaspose.cells.griddesktop/worksheet/pictures collection.
 type: docs
 weight: 290
 url: /net/aspose.cells.griddesktop/worksheet/pictures/

@@ -1,7 +1,7 @@
 ---
 title: RemoveCondition
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Removes the formatting condition by index.
 type: docs
 weight: 90
 url: /net/aspose.cells/formatconditioncollection/removecondition/

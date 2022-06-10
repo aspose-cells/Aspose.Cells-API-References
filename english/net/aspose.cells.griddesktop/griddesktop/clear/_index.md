@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Clears GridDesktop control.
 type: docs
 weight: 640
 url: /net/aspose.cells.griddesktop/griddesktop/clear/

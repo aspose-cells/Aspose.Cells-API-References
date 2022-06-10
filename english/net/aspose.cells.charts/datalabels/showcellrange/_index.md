@@ -1,9 +1,9 @@
 ---
 title: ShowCellRange
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether showing cell range as the data labels.
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.cells.charts/datalabels/showcellrange/
 ---
 ## DataLabels.ShowCellRange property

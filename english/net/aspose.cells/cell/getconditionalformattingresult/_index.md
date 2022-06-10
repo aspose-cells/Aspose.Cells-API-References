@@ -1,9 +1,9 @@
 ---
 title: GetConditionalFormattingResult
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get the result of the conditional formatting.
 type: docs
-weight: 370
+weight: 400
 url: /net/aspose.cells/cell/getconditionalformattingresult/
 ---
 ## Cell.GetConditionalFormattingResult method

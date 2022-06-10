@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Removes all XmlMaps.
 type: docs
 weight: 30
 url: /net/aspose.cells/xmlmapcollection/clear/

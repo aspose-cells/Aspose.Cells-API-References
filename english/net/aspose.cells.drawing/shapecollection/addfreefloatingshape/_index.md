@@ -1,7 +1,7 @@
 ---
 title: AddFreeFloatingShape
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a free floating shape to the worksheet.Only applies for line/image shape.
 type: docs
 weight: 100
 url: /net/aspose.cells.drawing/shapecollection/addfreefloatingshape/

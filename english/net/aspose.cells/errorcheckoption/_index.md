@@ -1,9 +1,9 @@
 ---
 title: ErrorCheckOption
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Error check setting applied on certain ranges.
 type: docs
-weight: 3160
+weight: 3190
 url: /net/aspose.cells/errorcheckoption/
 ---
 ## ErrorCheckOption class

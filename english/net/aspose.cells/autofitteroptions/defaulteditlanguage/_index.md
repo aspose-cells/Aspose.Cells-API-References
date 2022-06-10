@@ -1,9 +1,9 @@
 ---
 title: DefaultEditLanguage
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets default edit language.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.cells/autofitteroptions/defaulteditlanguage/
 ---
 ## AutoFitterOptions.DefaultEditLanguage property

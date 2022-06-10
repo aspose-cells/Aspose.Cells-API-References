@@ -1,7 +1,7 @@
 ---
 title: ShowContextMenu
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the control can show context menu.
 type: docs
 weight: 270
 url: /net/aspose.cells.griddesktop/griddesktop/showcontextmenu/

@@ -1,9 +1,9 @@
 ---
 title: LightRigDirectionType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the light rig direction type.
 type: docs
-weight: 2170
+weight: 2190
 url: /net/aspose.cells.drawing/lightrigdirectiontype/
 ---
 ## LightRigDirectionType enumeration

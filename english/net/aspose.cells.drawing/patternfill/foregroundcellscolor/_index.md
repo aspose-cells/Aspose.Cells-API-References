@@ -1,7 +1,7 @@
 ---
 title: ForegroundCellsColor
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the foreground CellsColoraspose.cells/cellscolor object.
 type: docs
 weight: 40
 url: /net/aspose.cells.drawing/patternfill/foregroundcellscolor/

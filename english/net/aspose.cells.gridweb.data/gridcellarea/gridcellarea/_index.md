@@ -1,12 +1,12 @@
 ---
 title: GridCellArea
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Creat a cell area.
 type: docs
 weight: 10
 url: /net/aspose.cells.gridweb.data/gridcellarea/gridcellarea/
 ---
-## GridCellArea constructor (1 of 2)
+## GridCellArea() {#constructor}
 
 Creat a cell area.
 
@@ -22,7 +22,7 @@ public GridCellArea()
 
 ---
 
-## GridCellArea constructor (2 of 2)
+## GridCellArea(int, int, int, int) {#constructor_1}
 
 Creat a cell area.
 

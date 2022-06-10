@@ -1,12 +1,12 @@
 ---
 title: ClearRange
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Clears contents and formatting of a range.
 type: docs
 weight: 430
 url: /net/aspose.cells/cells/clearrange/
 ---
-## Cells.ClearRange method (1 of 2)
+## ClearRange(CellArea) {#clearrange}
 
 Clears contents and formatting of a range.
 
@@ -27,7 +27,7 @@ public void ClearRange(CellArea range)
 
 ---
 
-## Cells.ClearRange method (2 of 2)
+## ClearRange(int, int, int, int) {#clearrange_1}
 
 Clears contents and formatting of a range.
 

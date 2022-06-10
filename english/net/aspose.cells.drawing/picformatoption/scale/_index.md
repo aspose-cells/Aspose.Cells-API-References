@@ -1,7 +1,7 @@
 ---
 title: Scale
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets how many the picture stack and scale with.
 type: docs
 weight: 50
 url: /net/aspose.cells.drawing/picformatoption/scale/

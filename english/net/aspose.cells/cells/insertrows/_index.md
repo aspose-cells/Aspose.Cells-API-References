@@ -1,12 +1,12 @@
 ---
 title: InsertRows
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Inserts multiple rows into the worksheet.
 type: docs
-weight: 1110
+weight: 1170
 url: /net/aspose.cells/cells/insertrows/
 ---
-## Cells.InsertRows method (1 of 3)
+## InsertRows(int, int, bool) {#insertrows_2}
 
 Inserts multiple rows into the worksheet.
 
@@ -28,7 +28,7 @@ public void InsertRows(int rowIndex, int totalRows, bool updateReference)
 
 ---
 
-## Cells.InsertRows method (2 of 3)
+## InsertRows(int, int, InsertOptions) {#insertrows_1}
 
 Inserts multiple rows into the worksheet.
 
@@ -51,7 +51,7 @@ public void InsertRows(int rowIndex, int totalRows, InsertOptions options)
 
 ---
 
-## Cells.InsertRows method (3 of 3)
+## InsertRows(int, int) {#insertrows}
 
 Inserts multiple rows into the worksheet.
 

@@ -1,7 +1,7 @@
 ---
 title: RemoveArea
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Remove all conditional formatting in the range.
 type: docs
 weight: 40
 url: /net/aspose.cells/conditionalformattingcollection/removearea/

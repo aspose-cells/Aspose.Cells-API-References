@@ -1,9 +1,9 @@
 ---
 title: DesignParameters
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Internal used only.
 type: docs
-weight: 760
+weight: 970
 url: /net/aspose.cells.gridweb.design/designparameters/
 ---
 ## DesignParameters class

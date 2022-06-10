@@ -1,9 +1,9 @@
 ---
 title: KeepSeparatorsForBlankRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether separators should be output for blank row. Default value is false so by default the content for blank row will be empty.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.cells/txtsaveoptions/keepseparatorsforblankrow/
 ---
 ## TxtSaveOptions.KeepSeparatorsForBlankRow property

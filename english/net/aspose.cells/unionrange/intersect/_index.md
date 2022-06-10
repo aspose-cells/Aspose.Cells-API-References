@@ -1,12 +1,12 @@
 ---
 title: Intersect
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Intersects another range.
 type: docs
 weight: 160
 url: /net/aspose.cells/unionrange/intersect/
 ---
-## UnionRange.Intersect method (1 of 3)
+## Intersect(string) {#intersect_2}
 
 Intersects another range.
 
@@ -30,7 +30,7 @@ If the two union ranges are not intersected, returns null.
 
 ---
 
-## UnionRange.Intersect method (2 of 3)
+## Intersect(UnionRange) {#intersect_1}
 
 Intersects another range.
 
@@ -54,7 +54,7 @@ If the two union ranges are not intersected, returns null.
 
 ---
 
-## UnionRange.Intersect method (3 of 3)
+## Intersect(Range[]) {#intersect}
 
 Intersects another range.
 

@@ -1,9 +1,9 @@
 ---
 title: ValueTypeSensitive
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether searched cell value type should be same with the searched key.
 type: docs
-weight: 110
+weight: 130
 url: /net/aspose.cells/findoptions/valuetypesensitive/
 ---
 ## FindOptions.ValueTypeSensitive property

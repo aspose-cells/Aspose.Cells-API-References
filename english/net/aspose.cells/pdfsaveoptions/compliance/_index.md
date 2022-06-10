@@ -1,7 +1,7 @@
 ---
 title: Compliance
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Workbook converts to pdf will according to PdfCompliance in this property.
 type: docs
 weight: 70
 url: /net/aspose.cells/pdfsaveoptions/compliance/

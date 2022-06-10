@@ -1,7 +1,7 @@
 ---
 title: ColumnTypeMap
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the map of column type for different database.
 type: docs
 weight: 50
 url: /net/aspose.cells.saving/sqlscriptsaveoptions/columntypemap/

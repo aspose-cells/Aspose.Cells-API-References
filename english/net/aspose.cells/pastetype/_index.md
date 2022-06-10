@@ -1,9 +1,9 @@
 ---
 title: PasteType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the paste special type.
 type: docs
-weight: 4480
+weight: 4520
 url: /net/aspose.cells/pastetype/
 ---
 ## PasteType enumeration

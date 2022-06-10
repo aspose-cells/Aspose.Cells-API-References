@@ -1,9 +1,9 @@
 ---
 title: HasBorders
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Checks whether there are borders have been set for the style.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.cells/style/hasborders/
 ---
 ## Style.HasBorders property

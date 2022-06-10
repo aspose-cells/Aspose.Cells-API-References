@@ -1,7 +1,7 @@
 ---
 title: Capacity
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the number of elements that the list can contain.
 type: docs
 weight: 10
 url: /net/aspose.cells/collectionbase-1/capacity/

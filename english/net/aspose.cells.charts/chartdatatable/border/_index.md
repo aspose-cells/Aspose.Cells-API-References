@@ -1,9 +1,9 @@
 ---
 title: Border
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns a Border object that represents the border of the object
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.cells.charts/chartdatatable/border/
 ---
 ## ChartDataTable.Border property

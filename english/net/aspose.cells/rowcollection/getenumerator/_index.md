@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets an enumerator that iterates through this collection
 type: docs
 weight: 40
 url: /net/aspose.cells/rowcollection/getenumerator/

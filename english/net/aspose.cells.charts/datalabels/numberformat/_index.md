@@ -1,7 +1,7 @@
 ---
 title: NumberFormat
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the format string for the DataLabels object.
 type: docs
 weight: 100
 url: /net/aspose.cells.charts/datalabels/numberformat/

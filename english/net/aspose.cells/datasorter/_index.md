@@ -1,9 +1,9 @@
 ---
 title: DataSorter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Summary description for DataSorter.
 type: docs
-weight: 1290
+weight: 1310
 url: /net/aspose.cells/datasorter/
 ---
 ## DataSorter class
@@ -34,14 +34,14 @@ public class DataSorter
 
 | Name | Description |
 | --- | --- |
-| [AddKey](../../aspose.cells/datasorter/addkey)(int, SortOrder) | Adds sorted column index and sort order. |
-| [AddKey](../../aspose.cells/datasorter/addkey)(int, SortOrder, string) | Adds sorted column index and sort order with custom sort list. |
-| [AddKey](../../aspose.cells/datasorter/addkey)(int, SortOrder, string[]) | Adds sorted column index and sort order with custom sort list. |
-| [AddKey](../../aspose.cells/datasorter/addkey)(int, SortOnType, SortOrder, object) | Adds sorted column index and sort order with custom sort list. |
+| [AddKey](../../aspose.cells/datasorter/addkey#addkey_1)(int, SortOrder) | Adds sorted column index and sort order. |
+| [AddKey](../../aspose.cells/datasorter/addkey#addkey_2)(int, SortOrder, string) | Adds sorted column index and sort order with custom sort list. |
+| [AddKey](../../aspose.cells/datasorter/addkey#addkey_3)(int, SortOrder, string[]) | Adds sorted column index and sort order with custom sort list. |
+| [AddKey](../../aspose.cells/datasorter/addkey#addkey)(int, SortOnType, SortOrder, object) | Adds sorted column index and sort order with custom sort list. |
 | [Clear](../../aspose.cells/datasorter/clear)() | Clear all settings. |
-| [Sort](../../aspose.cells/datasorter/sort)() | Sort the data in the range. |
-| [Sort](../../aspose.cells/datasorter/sort)(Cells, CellArea) | Sort the data of the area. |
-| [Sort](../../aspose.cells/datasorter/sort)(Cells, int, int, int, int) | Sorts the data of the area. |
+| [Sort](../../aspose.cells/datasorter/sort#sort)() | Sort the data in the range. |
+| [Sort](../../aspose.cells/datasorter/sort#sort_1)(Cells, CellArea) | Sort the data of the area. |
+| [Sort](../../aspose.cells/datasorter/sort#sort_2)(Cells, int, int, int, int) | Sorts the data of the area. |
 
 ### Examples
 

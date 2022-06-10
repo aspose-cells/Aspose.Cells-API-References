@@ -1,7 +1,7 @@
 ---
 title: FilterColumns
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the collection of the filter columns.
 type: docs
 weight: 10
 url: /net/aspose.cells/autofilter/filtercolumns/

@@ -1,7 +1,7 @@
 ---
 title: OriginalHeight
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the original height of the picture.
 type: docs
 weight: 350
 url: /net/aspose.cells.griddesktop.data/gridpicture/originalheight/

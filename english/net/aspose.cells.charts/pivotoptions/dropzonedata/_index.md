@@ -1,7 +1,7 @@
 ---
 title: DropZoneData
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies whether a control for each PivotTable field on the PivotTable data axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
 type: docs
 weight: 20
 url: /net/aspose.cells.charts/pivotoptions/dropzonedata/

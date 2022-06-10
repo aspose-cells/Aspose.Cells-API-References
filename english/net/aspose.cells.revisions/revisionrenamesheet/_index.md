@@ -1,9 +1,9 @@
 ---
 title: RevisionRenameSheet
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a revision of renaming sheet.
 type: docs
-weight: 5470
+weight: 5510
 url: /net/aspose.cells.revisions/revisionrenamesheet/
 ---
 ## RevisionRenameSheet class

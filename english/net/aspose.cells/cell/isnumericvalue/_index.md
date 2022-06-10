@@ -1,9 +1,9 @@
 ---
 title: IsNumericValue
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the inner value of this cell is numericint double and datetime
 type: docs
-weight: 180
+weight: 200
 url: /net/aspose.cells/cell/isnumericvalue/
 ---
 ## Cell.IsNumericValue property

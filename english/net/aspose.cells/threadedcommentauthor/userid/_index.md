@@ -1,7 +1,7 @@
 ---
 title: UserId
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the id of the user.
 type: docs
 weight: 30
 url: /net/aspose.cells/threadedcommentauthor/userid/

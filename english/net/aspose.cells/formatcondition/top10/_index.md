@@ -1,7 +1,7 @@
 ---
 title: Top10
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get the conditional formattings Top10 instance. The default instances rule highlights cells whose values fall in the top 10 bracket. Valid only for type is Top10.
 type: docs
 weight: 130
 url: /net/aspose.cells/formatcondition/top10/

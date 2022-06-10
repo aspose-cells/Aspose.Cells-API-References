@@ -1,7 +1,7 @@
 ---
 title: ParamCount
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the count of parameters
 type: docs
 weight: 60
 url: /net/aspose.cells/calculationdata/paramcount/

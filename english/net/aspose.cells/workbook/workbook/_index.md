@@ -1,12 +1,12 @@
 ---
 title: Workbook
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Initializes a new instance of the Workbookaspose.cells/workbook class.
 type: docs
 weight: 10
 url: /net/aspose.cells/workbook/workbook/
 ---
-## Workbook constructor (1 of 6)
+## Workbook() {#constructor}
 
 Initializes a new instance of the [`Workbook`](../../workbook) class.
 
@@ -42,7 +42,7 @@ Dim workbook as Workbook = new Workbook()
 
 ---
 
-## Workbook constructor (2 of 6)
+## Workbook(FileFormatType) {#constructor_1}
 
 Initializes a new instance of the [`Workbook`](../../workbook) class.
 
@@ -83,7 +83,7 @@ Dim workbook as Workbook = new Workbook(FileFormatType.Xlsx)
 
 ---
 
-## Workbook constructor (3 of 6)
+## Workbook(string) {#constructor_4}
 
 Initializes a new instance of the [`Workbook`](../../workbook) class and open a file.
 
@@ -103,7 +103,7 @@ public Workbook(string file)
 
 ---
 
-## Workbook constructor (4 of 6)
+## Workbook(Stream) {#constructor_2}
 
 Initializes a new instance of the [`Workbook`](../../workbook) class and open a stream.
 
@@ -123,7 +123,7 @@ public Workbook(Stream stream)
 
 ---
 
-## Workbook constructor (5 of 6)
+## Workbook(string, LoadOptions) {#constructor_5}
 
 Initializes a new instance of the [`Workbook`](../../workbook) class and open a file.
 
@@ -145,7 +145,7 @@ public Workbook(string file, LoadOptions loadOptions)
 
 ---
 
-## Workbook constructor (6 of 6)
+## Workbook(Stream, LoadOptions) {#constructor_3}
 
 Initializes a new instance of the [`Workbook`](../../workbook) class and open stream.
 

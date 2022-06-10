@@ -1,9 +1,9 @@
 ---
 title: TickMarkType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the tick mark type for the specified axis.
 type: docs
-weight: 940
+weight: 960
 url: /net/aspose.cells.charts/tickmarktype/
 ---
 ## TickMarkType enumeration

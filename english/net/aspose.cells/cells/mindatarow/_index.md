@@ -1,7 +1,7 @@
 ---
 title: MinDataRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Minimum row index of cell which contains data.
 type: docs
 weight: 180
 url: /net/aspose.cells/cells/mindatarow/

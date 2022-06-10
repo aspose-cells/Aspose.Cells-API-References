@@ -1,7 +1,7 @@
 ---
 title: OperatorType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the operator type of sql.
 type: docs
 weight: 110
 url: /net/aspose.cells.saving/sqlscriptsaveoptions/operatortype/

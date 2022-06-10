@@ -1,7 +1,7 @@
 ---
 title: MarkerStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the marker style. Applies to line chart scatter chart or radar chart.
 type: docs
 weight: 90
 url: /net/aspose.cells.charts/marker/markerstyle/

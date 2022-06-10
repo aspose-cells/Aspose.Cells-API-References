@@ -1,7 +1,7 @@
 ---
 title: ExportHiddenWorksheet
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicating if exporting the hidden worksheet content.The default value is true.
 type: docs
 weight: 210
 url: /net/aspose.cells/htmlsaveoptions/exporthiddenworksheet/

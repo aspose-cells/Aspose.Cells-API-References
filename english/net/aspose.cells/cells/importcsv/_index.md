@@ -1,12 +1,12 @@
 ---
 title: ImportCSV
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Import a CSV file to the cells.
 type: docs
-weight: 950
+weight: 980
 url: /net/aspose.cells/cells/importcsv/
 ---
-## Cells.ImportCSV method (1 of 4)
+## ImportCSV(string, string, bool, int, int) {#importcsv_3}
 
 Import a CSV file to the cells.
 
@@ -31,7 +31,7 @@ public void ImportCSV(string fileName, string splitter, bool convertNumericData,
 
 ---
 
-## Cells.ImportCSV method (2 of 4)
+## ImportCSV(Stream, string, bool, int, int) {#importcsv_1}
 
 Import a CSV file to the cells.
 
@@ -56,7 +56,7 @@ public void ImportCSV(Stream stream, string splitter, bool convertNumericData, i
 
 ---
 
-## Cells.ImportCSV method (3 of 4)
+## ImportCSV(string, TxtLoadOptions, int, int) {#importcsv_2}
 
 Import a CSV file to the cells.
 
@@ -80,7 +80,7 @@ public void ImportCSV(string fileName, TxtLoadOptions options, int firstRow, int
 
 ---
 
-## Cells.ImportCSV method (4 of 4)
+## ImportCSV(Stream, TxtLoadOptions, int, int) {#importcsv}
 
 Import a CSV file to the cells.
 

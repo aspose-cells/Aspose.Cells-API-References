@@ -1,9 +1,9 @@
 ---
 title: CollectionBaseT
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Provides the abstract base class for a strongly typed collection.
 type: docs
-weight: 1010
+weight: 1030
 url: /net/aspose.cells/collectionbase-1/
 ---
 ## CollectionBase&lt;T&gt; class
@@ -26,31 +26,31 @@ public abstract class CollectionBase<T> : ICollection, IList<T>
 
 | Name | Description |
 | --- | --- |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(T) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(T, IComparer&lt;T&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, T, IComparer&lt;T&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch#binarysearch_1)(T) |  |
+| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch#binarysearch_2)(T, IComparer&lt;T&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch#binarysearch)(int, int, T, IComparer&lt;T&gt;) |  |
 | [Clear](../../aspose.cells/collectionbase`1/clear)() | Remove all elements. |
 | [Contains](../../aspose.cells/collectionbase`1/contains)(T) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(T[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(T[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, T[], int, int) |  |
+| [CopyTo](../../aspose.cells/collectionbase`1/copyto#copyto_1)(T[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase`1/copyto#copyto_2)(T[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase`1/copyto#copyto)(int, T[], int, int) |  |
 | [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;T&gt;) |  |
 | [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;T&gt;) |  |
 | [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;T&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;T&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;T&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;T&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase`1/findindex#findindex_2)(Predicate&lt;T&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase`1/findindex#findindex_1)(int, Predicate&lt;T&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase`1/findindex#findindex)(int, int, Predicate&lt;T&gt;) |  |
 | [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;T&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;T&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;T&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;T&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex#findlastindex_2)(Predicate&lt;T&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex#findlastindex_1)(int, Predicate&lt;T&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex#findlastindex)(int, int, Predicate&lt;T&gt;) |  |
 | [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(T) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(T, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(T, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(T) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(T, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(T, int, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase`1/indexof#indexof)(T) |  |
+| [IndexOf](../../aspose.cells/collectionbase`1/indexof#indexof_1)(T, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase`1/indexof#indexof_2)(T, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof#lastindexof)(T) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof#lastindexof_1)(T, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof#lastindexof_2)(T, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) | Removes the element at the specified index. |
 
 ### See Also

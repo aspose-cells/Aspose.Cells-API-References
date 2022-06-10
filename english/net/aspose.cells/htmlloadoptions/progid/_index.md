@@ -1,9 +1,9 @@
 ---
 title: ProgId
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the program id of creating the file. Only for MHT files.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.cells/htmlloadoptions/progid/
 ---
 ## HtmlLoadOptions.ProgId property

@@ -1,9 +1,9 @@
 ---
 title: AutoFitWrappedTextType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the type of auto fitting wrapped text.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.cells/autofitteroptions/autofitwrappedtexttype/
 ---
 ## AutoFitterOptions.AutoFitWrappedTextType property

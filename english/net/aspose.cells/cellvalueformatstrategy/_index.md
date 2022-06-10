@@ -1,7 +1,7 @@
 ---
 title: CellValueFormatStrategy
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies how to apply style for the value of the cell.
 type: docs
 weight: 260
 url: /net/aspose.cells/cellvalueformatstrategy/

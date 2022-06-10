@@ -1,9 +1,9 @@
 ---
 title: RevisionCellMove
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a revision record on a cells that moved.
 type: docs
-weight: 5360
+weight: 5400
 url: /net/aspose.cells.revisions/revisioncellmove/
 ---
 ## RevisionCellMove class

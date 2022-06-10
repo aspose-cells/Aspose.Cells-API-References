@@ -1,12 +1,12 @@
 ---
 title: SetEmbeddedObject
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets embedded object data.
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.cells.drawing/oleobject/setembeddedobject/
 ---
-## OleObject.SetEmbeddedObject method (1 of 2)
+## SetEmbeddedObject(bool, byte[], string, bool, string) {#setembeddedobject}
 
 Sets embedded object data.
 
@@ -31,7 +31,7 @@ public void SetEmbeddedObject(bool linkToFile, byte[] objectData, string sourceF
 
 ---
 
-## OleObject.SetEmbeddedObject method (2 of 2)
+## SetEmbeddedObject(bool, byte[], string, bool, string, bool) {#setembeddedobject_1}
 
 Sets embedded object data.
 

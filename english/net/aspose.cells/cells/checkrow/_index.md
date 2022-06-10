@@ -1,7 +1,7 @@
 ---
 title: CheckRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the Rowaspose.cells/row element or at the specified cell row index.
 type: docs
 weight: 380
 url: /net/aspose.cells/cells/checkrow/

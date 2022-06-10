@@ -1,7 +1,7 @@
 ---
 title: SetColumnWidthPixel
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets column width in unit of pixels.
 type: docs
 weight: 640
 url: /net/aspose.cells.griddesktop.data/gridcells/setcolumnwidthpixel/

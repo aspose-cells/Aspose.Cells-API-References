@@ -1,7 +1,7 @@
 ---
 title: SelectCells
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the select cells collection.
 type: docs
 weight: 20
 url: /net/aspose.cells.gridweb/gridweb/selectcells/

@@ -1,7 +1,7 @@
 ---
 title: ToString
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns the simple string representation of this area.
 type: docs
 weight: 110
 url: /net/aspose.cells/referredarea/tostring/

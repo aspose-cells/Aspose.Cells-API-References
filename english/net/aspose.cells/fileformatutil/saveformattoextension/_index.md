@@ -1,7 +1,7 @@
 ---
 title: SaveFormatToExtension
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Converts a save format enumerated value into a file extension.
 type: docs
 weight: 70
 url: /net/aspose.cells/fileformatutil/saveformattoextension/

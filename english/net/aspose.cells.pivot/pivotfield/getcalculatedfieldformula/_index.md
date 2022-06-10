@@ -1,7 +1,7 @@
 ---
 title: GetCalculatedFieldFormula
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get the formula string of the specified calculated field .
 type: docs
 weight: 420
 url: /net/aspose.cells.pivot/pivotfield/getcalculatedfieldformula/

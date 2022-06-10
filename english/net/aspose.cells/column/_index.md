@@ -1,9 +1,9 @@
 ---
 title: Column
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a single column in a worksheet.
 type: docs
-weight: 1050
+weight: 1070
 url: /net/aspose.cells/column/
 ---
 ## Column class

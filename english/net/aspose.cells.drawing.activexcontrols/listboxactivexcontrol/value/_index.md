@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the value of the control.
 type: docs
 weight: 160
 url: /net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/value/

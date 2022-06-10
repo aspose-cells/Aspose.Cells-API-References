@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Removes the VPageBreak element at a specified name.
 type: docs
 weight: 30
 url: /net/aspose.cells/verticalpagebreakcollection/removeat/

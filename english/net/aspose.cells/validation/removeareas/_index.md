@@ -1,7 +1,7 @@
 ---
 title: RemoveAreas
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Removes this validation from given areas.
 type: docs
 weight: 250
 url: /net/aspose.cells/validation/removeareas/

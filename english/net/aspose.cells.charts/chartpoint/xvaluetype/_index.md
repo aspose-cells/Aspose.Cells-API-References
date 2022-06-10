@@ -1,7 +1,7 @@
 ---
 title: XValueType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets X value type of the chart point.
 type: docs
 weight: 310
 url: /net/aspose.cells.charts/chartpoint/xvaluetype/

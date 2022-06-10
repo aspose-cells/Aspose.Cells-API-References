@@ -1,12 +1,12 @@
 ---
 title: XlsSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Creates options for saving Excel 97-2003 xls/xlt file.
 type: docs
 weight: 10
 url: /net/aspose.cells/xlssaveoptions/xlssaveoptions/
 ---
-## XlsSaveOptions constructor (1 of 2)
+## XlsSaveOptions() {#constructor}
 
 Creates options for saving Excel 97-2003 xls/xlt file.
 
@@ -22,7 +22,7 @@ public XlsSaveOptions()
 
 ---
 
-## XlsSaveOptions constructor (2 of 2)
+## XlsSaveOptions(SaveFormat) {#constructor_1}
 
 Creates options for saving Excel 97-2003 xls/xlt file.
 

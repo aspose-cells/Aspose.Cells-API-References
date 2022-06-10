@@ -1,7 +1,7 @@
 ---
 title: IsInputable
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates if the user can input text to the combobox. The inputted text will be saved as the cells value. The default value is false.
 type: docs
 weight: 20
 url: /net/aspose.cells.griddesktop/combobox/isinputable/

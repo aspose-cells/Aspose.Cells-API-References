@@ -1,7 +1,7 @@
 ---
 title: IsTextWrapped
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the text is wrapped.
 type: docs
 weight: 50
 url: /net/aspose.cells.charts/charttextframe/istextwrapped/

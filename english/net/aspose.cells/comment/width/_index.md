@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the width of the comment in unit of pixels.
 type: docs
 weight: 180
 url: /net/aspose.cells/comment/width/

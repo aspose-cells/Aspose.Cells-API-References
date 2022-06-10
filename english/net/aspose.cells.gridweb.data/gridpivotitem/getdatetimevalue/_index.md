@@ -1,7 +1,7 @@
 ---
 title: GetDateTimeValue
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the date time value of the pivot item If the value is null it will return DateTime.MinValue
 type: docs
 weight: 50
 url: /net/aspose.cells.gridweb.data/gridpivotitem/getdatetimevalue/

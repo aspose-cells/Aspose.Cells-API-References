@@ -1,7 +1,7 @@
 ---
 title: UpperLeftColumn
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents upper left corner column index.
 type: docs
 weight: 550
 url: /net/aspose.cells.griddesktop.data/gridpicture/upperleftcolumn/

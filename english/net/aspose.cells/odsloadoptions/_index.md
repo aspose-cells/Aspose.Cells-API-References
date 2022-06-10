@@ -1,9 +1,9 @@
 ---
 title: OdsLoadOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the options of loading ods file.
 type: docs
-weight: 4320
+weight: 4360
 url: /net/aspose.cells/odsloadoptions/
 ---
 ## OdsLoadOptions class
@@ -18,8 +18,8 @@ public class OdsLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [OdsLoadOptions](odsloadoptions)() | Represents the options of loading ods file. |
-| [OdsLoadOptions](odsloadoptions)(LoadFormat) | Represents the options of loading ods file. |
+| [OdsLoadOptions](odsloadoptions#constructor)() | Represents the options of loading ods file. |
+| [OdsLoadOptions](odsloadoptions#constructor_1)(LoadFormat) | Represents the options of loading ods file. |
 
 ## Properties
 
@@ -46,6 +46,8 @@ public class OdsLoadOptions : LoadOptions
 | [Password](../../aspose.cells/loadoptions/password) { get; set; } | Gets and set the password of the workbook. |
 | [RefreshPivotTables](../../aspose.cells/odsloadoptions/refreshpivottables) { get; set; } | Indicates whether refresh pivot tables when loading file. |
 | [Region](../../aspose.cells/loadoptions/region) { get; set; } | Gets or sets the system regional settings based on CountryCode at the time the file was loaded. |
+| [StandardFont](../../aspose.cells/loadoptions/standardfont) { get; set; } | Sets the default standard font name |
+| [StandardFontSize](../../aspose.cells/loadoptions/standardfontsize) { get; set; } | Sets the default standard font size. |
 | [WarningCallback](../../aspose.cells/loadoptions/warningcallback) { get; set; } | Gets or sets warning callback. |
 
 ## Methods

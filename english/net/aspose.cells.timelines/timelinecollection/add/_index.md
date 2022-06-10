@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Add a new Timeline using PivotTable as data source
 type: docs
 weight: 20
 url: /net/aspose.cells.timelines/timelinecollection/add/
 ---
-## TimelineCollection.Add method (1 of 6)
+## Add(PivotTable, int, int, string) {#add_2}
 
 Add a new Timeline using PivotTable as data source
 
@@ -43,7 +43,7 @@ sheet.Timelines.Add(pivot, 10, 5, "date");
 
 ---
 
-## TimelineCollection.Add method (2 of 6)
+## Add(PivotTable, string, string) {#add_5}
 
 Add a new Timeline using PivotTable as data source
 
@@ -79,7 +79,7 @@ sheet.Timelines.Add(pivot, "i15", "date");
 
 ---
 
-## TimelineCollection.Add method (3 of 6)
+## Add(PivotTable, int, int, int) {#add_1}
 
 Add a new Timeline using PivotTable as data source
 
@@ -116,7 +116,7 @@ sheet.Timelines.Add(pivot, 15, 5, 1);
 
 ---
 
-## TimelineCollection.Add method (4 of 6)
+## Add(PivotTable, string, int) {#add_4}
 
 Add a new Timeline using PivotTable as data source
 
@@ -152,7 +152,7 @@ sheet.Timelines.Add(pivot, "i5", 1);
 
 ---
 
-## TimelineCollection.Add method (5 of 6)
+## Add(PivotTable, int, int, PivotField) {#add}
 
 Add a new Timeline using PivotTable as data source
 
@@ -190,7 +190,7 @@ sheet.Timelines.Add(pivot, 20, 5, pivot.BaseFields[1]);
 
 ---
 
-## TimelineCollection.Add method (6 of 6)
+## Add(PivotTable, string, PivotField) {#add_3}
 
 Add a new Timeline using PivotTable as data source
 

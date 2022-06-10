@@ -1,7 +1,7 @@
 ---
 title: MemorySetting
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the memory usage option for this cells.
 type: docs
 weight: 140
 url: /net/aspose.cells/cells/memorysetting/

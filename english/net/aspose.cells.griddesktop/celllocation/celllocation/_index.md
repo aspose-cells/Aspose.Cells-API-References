@@ -1,12 +1,12 @@
 ---
 title: CellLocation
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The default constructor.
 type: docs
 weight: 10
 url: /net/aspose.cells.griddesktop/celllocation/celllocation/
 ---
-## CellLocation constructor (1 of 2)
+## CellLocation() {#constructor}
 
 The default constructor.
 
@@ -28,7 +28,7 @@ public CellLocation()
 
 ---
 
-## CellLocation constructor (2 of 2)
+## CellLocation(int, int) {#constructor_1}
 
 ```csharp
 public CellLocation(int cRow, int cCol)

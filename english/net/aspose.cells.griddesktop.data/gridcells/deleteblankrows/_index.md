@@ -1,7 +1,7 @@
 ---
 title: DeleteBlankRows
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Delete all blank rows which do not contain any data.
 type: docs
 weight: 320
 url: /net/aspose.cells.griddesktop.data/gridcells/deleteblankrows/

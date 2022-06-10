@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the PivotField name.
 type: docs
 weight: 300
 url: /net/aspose.cells.pivot/pivotfield/name/

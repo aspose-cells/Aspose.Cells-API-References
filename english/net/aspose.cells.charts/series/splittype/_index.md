@@ -1,9 +1,9 @@
 ---
 title: SplitType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns or sets a value that how to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart.
 type: docs
-weight: 410
+weight: 420
 url: /net/aspose.cells.charts/series/splittype/
 ---
 ## Series.SplitType property

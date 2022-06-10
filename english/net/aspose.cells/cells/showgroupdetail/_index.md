@@ -1,9 +1,9 @@
 ---
 title: ShowGroupDetail
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Expands the grouped rows/columns.
 type: docs
-weight: 1290
+weight: 1350
 url: /net/aspose.cells/cells/showgroupdetail/
 ---
 ## Cells.ShowGroupDetail method

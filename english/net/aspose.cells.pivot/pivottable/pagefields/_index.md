@@ -1,7 +1,7 @@
 ---
 title: PageFields
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns a PivotFields object that are currently shown as page fields.
 type: docs
 weight: 400
 url: /net/aspose.cells.pivot/pivottable/pagefields/

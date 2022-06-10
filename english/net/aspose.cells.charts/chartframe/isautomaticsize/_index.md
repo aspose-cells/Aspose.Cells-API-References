@@ -1,9 +1,9 @@
 ---
 title: IsAutomaticSize
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the chart frame is automatic sized.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.cells.charts/chartframe/isautomaticsize/
 ---
 ## ChartFrame.IsAutomaticSize property

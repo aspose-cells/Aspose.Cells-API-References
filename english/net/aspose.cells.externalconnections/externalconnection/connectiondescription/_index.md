@@ -1,7 +1,7 @@
 ---
 title: ConnectionDescription
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the user description for this connection
 type: docs
 weight: 20
 url: /net/aspose.cells.externalconnections/externalconnection/connectiondescription/

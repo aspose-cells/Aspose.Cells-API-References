@@ -1,7 +1,7 @@
 ---
 title: SetFooterPicture
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets an image in the footer of a worksheet.
 type: docs
 weight: 610
 url: /net/aspose.cells/pagesetup/setfooterpicture/

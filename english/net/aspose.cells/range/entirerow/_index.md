@@ -1,9 +1,9 @@
 ---
 title: EntireRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets a Range object that represents the entire row or rows that contains the specified range.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.cells/range/entirerow/
 ---
 ## Range.EntireRow property

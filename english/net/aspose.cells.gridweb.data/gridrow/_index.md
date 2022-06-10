@@ -1,9 +1,9 @@
 ---
 title: GridRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the object that represents a single picture in a spreadsheet.
 type: docs
-weight: 440
+weight: 450
 url: /net/aspose.cells.gridweb.data/gridrow/
 ---
 ## GridRow class
@@ -31,6 +31,7 @@ public class GridRow
 
 | Name | Description |
 | --- | --- |
+| [GetCellByIndex](../../aspose.cells.gridweb.data/gridrow/getcellbyindex)(int) | Get the cell by specific index in the list. |
 | [GetEnumerator](../../aspose.cells.gridweb.data/gridrow/getenumerator)() | Gets the cells enumerator |
 | [IsBlank](../../aspose.cells.gridweb.data/gridrow/isblank)() | Indicates whether the row contains any data |
 

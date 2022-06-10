@@ -1,7 +1,7 @@
 ---
 title: Interrupt
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Interrupt the current operator.
 type: docs
 weight: 20
 url: /net/aspose.cells.gridjs/gridinterruptmonitor/interrupt/

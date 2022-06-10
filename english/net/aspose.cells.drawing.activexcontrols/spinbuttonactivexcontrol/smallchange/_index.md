@@ -1,7 +1,7 @@
 ---
 title: SmallChange
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the amount by which the Position property changes
 type: docs
 weight: 50
 url: /net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/smallchange/

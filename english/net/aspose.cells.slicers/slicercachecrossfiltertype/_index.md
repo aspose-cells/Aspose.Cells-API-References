@@ -1,9 +1,9 @@
 ---
 title: SlicerCacheCrossFilterType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represent the type of SlicerCacheCrossFilterType
 type: docs
-weight: 5640
+weight: 5680
 url: /net/aspose.cells.slicers/slicercachecrossfiltertype/
 ---
 ## SlicerCacheCrossFilterType enumeration

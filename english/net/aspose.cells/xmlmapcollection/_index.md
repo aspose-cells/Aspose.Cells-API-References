@@ -1,9 +1,9 @@
 ---
 title: XmlMapCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: A collection of XmlMap./xmlmap objects that represent XmlMap information.
 type: docs
-weight: 6590
+weight: 6630
 url: /net/aspose.cells/xmlmapcollection/
 ---
 ## XmlMapCollection class
@@ -31,7 +31,7 @@ public class XmlMapCollection : CollectionBase<XmlMap>
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(XmlMap) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(XmlMap, IComparer&lt;XmlMap&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, XmlMap, IComparer&lt;XmlMap&gt;) |  |
-| [Clear](../../aspose.cells/xmlmapcollection/clear)() | Removes all XmlMaps. (2 methods) |
+| [Clear](../../aspose.cells/xmlmapcollection/clear#clear)() | Removes all XmlMaps. (2 methods) |
 | [Contains](../../aspose.cells/collectionbase`1/contains)(XmlMap) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(XmlMap[]) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(XmlMap[], int) |  |

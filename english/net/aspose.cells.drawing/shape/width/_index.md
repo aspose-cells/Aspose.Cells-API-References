@@ -1,9 +1,9 @@
 ---
 title: Width
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the width of shape in unit of pixels.
 type: docs
-weight: 860
+weight: 920
 url: /net/aspose.cells.drawing/shape/width/
 ---
 ## Shape.Width property

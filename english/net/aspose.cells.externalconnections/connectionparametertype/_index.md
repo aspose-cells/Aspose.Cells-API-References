@@ -1,9 +1,9 @@
 ---
 title: ConnectionParameterType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the parameter type of external connection
 type: docs
-weight: 3250
+weight: 3280
 url: /net/aspose.cells.externalconnections/connectionparametertype/
 ---
 ## ConnectionParameterType enumeration

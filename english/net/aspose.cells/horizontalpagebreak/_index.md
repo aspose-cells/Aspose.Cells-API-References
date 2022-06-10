@@ -1,9 +1,9 @@
 ---
 title: HorizontalPageBreak
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Encapsulates the object that represents a horizontal page break.
 type: docs
-weight: 3650
+weight: 3680
 url: /net/aspose.cells/horizontalpagebreak/
 ---
 ## HorizontalPageBreak class

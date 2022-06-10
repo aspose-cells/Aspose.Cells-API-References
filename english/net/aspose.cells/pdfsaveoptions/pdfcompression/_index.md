@@ -1,7 +1,7 @@
 ---
 title: PdfCompression
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicate the compression algorithm
 type: docs
 weight: 280
 url: /net/aspose.cells/pdfsaveoptions/pdfcompression/

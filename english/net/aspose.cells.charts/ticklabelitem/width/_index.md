@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Width of Ticklabel item in ratio of chart width.
 type: docs
 weight: 20
 url: /net/aspose.cells.charts/ticklabelitem/width/

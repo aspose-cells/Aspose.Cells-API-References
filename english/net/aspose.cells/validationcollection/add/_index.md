@@ -1,12 +1,38 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds a data validation to the collection.
 type: docs
 weight: 20
 url: /net/aspose.cells/validationcollection/add/
 ---
-## ValidationCollection.Add method
+## Add() {#add}
+
+Adds a data validation to the collection.
+
+```csharp
+[Obsolete("Use ValidationCollection.Add(CellArea) method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
+public int Add()
+```
+
+### Return Value
+
+[`Validation`](../../validation) object index.
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use ValidationCollection.Add(CellArea) method. This property will be removed 12 months later since JANUARY 2015. Aspose apologizes for any inconvenience you may have experienced.
+
+### See Also
+
+* class [ValidationCollection](../../validationcollection)
+* namespace [Aspose.Cells](../../validationcollection)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Add(CellArea) {#add_1}
 
 Adds a data validation to the collection.
 

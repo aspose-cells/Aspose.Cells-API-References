@@ -1,7 +1,7 @@
 ---
 title: DisplayStringValue
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the formatted string value of this cell by cells display style.
 type: docs
 weight: 60
 url: /net/aspose.cells/cell/displaystringvalue/

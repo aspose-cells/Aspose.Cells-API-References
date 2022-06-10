@@ -1,12 +1,12 @@
 ---
 title: SetTwoColorGradient
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the specified fill to a two-color gradient. Only applies for Excel 2007.
 type: docs
 weight: 70
 url: /net/aspose.cells.drawing/gradientfill/settwocolorgradient/
 ---
-## GradientFill.SetTwoColorGradient method (1 of 2)
+## SetTwoColorGradient(Color, Color, GradientStyleType, int) {#settwocolorgradient_1}
 
 Sets the specified fill to a two-color gradient. Only applies for Excel 2007.
 
@@ -30,7 +30,7 @@ public void SetTwoColorGradient(Color color1, Color color2, GradientStyleType st
 
 ---
 
-## GradientFill.SetTwoColorGradient method (2 of 2)
+## SetTwoColorGradient(Color, double, Color, double, GradientStyleType, int) {#settwocolorgradient}
 
 Sets the specified fill to a two-color gradient. Only applies for Excel 2007.
 

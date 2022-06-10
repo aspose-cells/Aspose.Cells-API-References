@@ -1,7 +1,7 @@
 ---
 title: AddAreas
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Applies the validation to given areas.
 type: docs
 weight: 180
 url: /net/aspose.cells/validation/addareas/

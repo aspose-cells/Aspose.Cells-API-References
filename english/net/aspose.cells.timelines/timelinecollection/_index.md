@@ -1,9 +1,9 @@
 ---
 title: TimelineCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies the collection of all the Timeline objects on the specified worksheet.
 type: docs
-weight: 6070
+weight: 6110
 url: /net/aspose.cells.timelines/timelinecollection/
 ---
 ## TimelineCollection class
@@ -27,12 +27,12 @@ public class TimelineCollection : CollectionBase<Timeline>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.timelines/timelinecollection/add)(PivotTable, string, int) | Add a new Timeline using PivotTable as data source |
-| [Add](../../aspose.cells.timelines/timelinecollection/add)(PivotTable, string, PivotField) | Add a new Timeline using PivotTable as data source |
-| [Add](../../aspose.cells.timelines/timelinecollection/add)(PivotTable, string, string) | Add a new Timeline using PivotTable as data source |
-| [Add](../../aspose.cells.timelines/timelinecollection/add)(PivotTable, int, int, int) | Add a new Timeline using PivotTable as data source |
-| [Add](../../aspose.cells.timelines/timelinecollection/add)(PivotTable, int, int, PivotField) | Add a new Timeline using PivotTable as data source |
-| [Add](../../aspose.cells.timelines/timelinecollection/add)(PivotTable, int, int, string) | Add a new Timeline using PivotTable as data source |
+| [Add](../../aspose.cells.timelines/timelinecollection/add#add_4)(PivotTable, string, int) | Add a new Timeline using PivotTable as data source |
+| [Add](../../aspose.cells.timelines/timelinecollection/add#add_3)(PivotTable, string, PivotField) | Add a new Timeline using PivotTable as data source |
+| [Add](../../aspose.cells.timelines/timelinecollection/add#add_5)(PivotTable, string, string) | Add a new Timeline using PivotTable as data source |
+| [Add](../../aspose.cells.timelines/timelinecollection/add#add_1)(PivotTable, int, int, int) | Add a new Timeline using PivotTable as data source |
+| [Add](../../aspose.cells.timelines/timelinecollection/add#add)(PivotTable, int, int, PivotField) | Add a new Timeline using PivotTable as data source |
+| [Add](../../aspose.cells.timelines/timelinecollection/add#add_2)(PivotTable, int, int, string) | Add a new Timeline using PivotTable as data source |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Timeline) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Timeline, IComparer&lt;Timeline&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Timeline, IComparer&lt;Timeline&gt;) |  |

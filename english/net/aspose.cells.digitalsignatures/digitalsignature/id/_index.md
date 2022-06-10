@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies a GUID which can be cross-referenced with the GUID of the signature line stored in the document content. Default value is Empty all zeroes Guid.
 type: docs
 weight: 40
 url: /net/aspose.cells.digitalsignatures/digitalsignature/id/

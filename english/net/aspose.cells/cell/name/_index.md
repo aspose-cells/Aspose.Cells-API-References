@@ -1,9 +1,9 @@
 ---
 title: Name
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the name of the cell.
 type: docs
-weight: 220
+weight: 240
 url: /net/aspose.cells/cell/name/
 ---
 ## Cell.Name property

@@ -1,7 +1,7 @@
 ---
 title: Right
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the right offset for stretching picture.
 type: docs
 weight: 40
 url: /net/aspose.cells.drawing/picformatoption/right/

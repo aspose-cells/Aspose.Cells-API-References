@@ -1,7 +1,7 @@
 ---
 title: DisplayUnitLabel
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values for example in the millions or billions.
 type: docs
 weight: 120
 url: /net/aspose.cells.charts/axis/displayunitlabel/

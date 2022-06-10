@@ -1,7 +1,7 @@
 ---
 title: MergeFocused
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the index of the focused merge.
 type: docs
 weight: 890
 url: /net/aspose.cells.griddesktop/worksheet/mergefocused/

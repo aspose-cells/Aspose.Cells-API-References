@@ -1,7 +1,7 @@
 ---
 title: UnFreezePanes
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Unfreezes panes in the worksheet.
 type: docs
 weight: 1110
 url: /net/aspose.cells.griddesktop/worksheet/unfreezepanes/

@@ -1,7 +1,7 @@
 ---
 title: IdName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the name of id column.
 type: docs
 weight: 100
 url: /net/aspose.cells.saving/sqlscriptsaveoptions/idname/

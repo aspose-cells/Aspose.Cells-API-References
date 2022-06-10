@@ -1,9 +1,9 @@
 ---
 title: FontSettingCollection
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the list of FontSetting../aspose.cells/fontsetting.
 type: docs
-weight: 2890
+weight: 2920
 url: /net/aspose.cells.drawing.texts/fontsettingcollection/
 ---
 ## FontSettingCollection class
@@ -35,7 +35,7 @@ public class FontSettingCollection : CollectionBase<FontSetting>
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(FontSetting) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(FontSetting, IComparer&lt;FontSetting&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, FontSetting, IComparer&lt;FontSetting&gt;) |  |
-| [Clear](../../aspose.cells.drawing.texts/fontsettingcollection/clear)() | Clear all setting. (2 methods) |
+| [Clear](../../aspose.cells.drawing.texts/fontsettingcollection/clear#clear)() | Clear all setting. (2 methods) |
 | [Contains](../../aspose.cells/collectionbase`1/contains)(FontSetting) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(FontSetting[]) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(FontSetting[], int) |  |

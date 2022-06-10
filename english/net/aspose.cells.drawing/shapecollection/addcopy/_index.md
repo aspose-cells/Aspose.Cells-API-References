@@ -1,7 +1,7 @@
 ---
 title: AddCopy
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds and copy a shape to the worksheet.
 type: docs
 weight: 90
 url: /net/aspose.cells.drawing/shapecollection/addcopy/

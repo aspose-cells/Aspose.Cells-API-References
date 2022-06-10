@@ -1,7 +1,7 @@
 ---
 title: HasHeaderRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the range contains header row.
 type: docs
 weight: 40
 url: /net/aspose.cells/jsonsaveoptions/hasheaderrow/

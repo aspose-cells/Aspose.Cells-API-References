@@ -1,7 +1,7 @@
 ---
 title: SetColumnHeaderToolTip
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the columnheaders tooltip text.
 type: docs
 weight: 730
 url: /net/aspose.cells.gridweb.data/gridworksheet/setcolumnheadertooltip/

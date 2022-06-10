@@ -1,7 +1,7 @@
 ---
 title: GetExternalConnectionById
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the ExternalConnectionaspose.cells.externalconnections/externalconnection element with the specified id.
 type: docs
 weight: 20
 url: /net/aspose.cells.externalconnections/externalconnectioncollection/getexternalconnectionbyid/

@@ -1,7 +1,7 @@
 ---
 title: SetSubtotals
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets whether the specified field shows that subtotals.
 type: docs
 weight: 520
 url: /net/aspose.cells.pivot/pivotfield/setsubtotals/

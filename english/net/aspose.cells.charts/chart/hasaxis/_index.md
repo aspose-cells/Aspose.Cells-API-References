@@ -1,9 +1,9 @@
 ---
 title: HasAxis
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns which axes exist on the chart.
 type: docs
-weight: 530
+weight: 540
 url: /net/aspose.cells.charts/chart/hasaxis/
 ---
 ## Chart.HasAxis method

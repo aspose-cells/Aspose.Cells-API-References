@@ -1,9 +1,9 @@
 ---
 title: LeftInch
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the horizontal offset of shape from its left column in unit of inches.
 type: docs
-weight: 410
+weight: 450
 url: /net/aspose.cells.drawing/shape/leftinch/
 ---
 ## Shape.LeftInch property

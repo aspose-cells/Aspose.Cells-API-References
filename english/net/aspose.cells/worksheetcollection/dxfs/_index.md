@@ -1,7 +1,7 @@
 ---
 title: Dxfs
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the master differential formatting records.
 type: docs
 weight: 50
 url: /net/aspose.cells/worksheetcollection/dxfs/

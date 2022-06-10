@@ -1,7 +1,7 @@
 ---
 title: Shapes
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets a Picturesaspose.cells.gridweb.data/gridworksheet/pictures collection.
 type: docs
 weight: 280
 url: /net/aspose.cells.gridweb.data/gridworksheet/shapes/

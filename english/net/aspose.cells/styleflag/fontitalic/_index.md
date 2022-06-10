@@ -1,7 +1,7 @@
 ---
 title: FontItalic
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Font italic setting will be applied.
 type: docs
 weight: 120
 url: /net/aspose.cells/styleflag/fontitalic/

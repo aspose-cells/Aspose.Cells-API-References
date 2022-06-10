@@ -1,9 +1,9 @@
 ---
 title: ControlListStyle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the visual appearance of the list in a ListBox or ComboBox.
 type: docs
-weight: 1520
+weight: 1540
 url: /net/aspose.cells.drawing.activexcontrols/controlliststyle/
 ---
 ## ControlListStyle enumeration

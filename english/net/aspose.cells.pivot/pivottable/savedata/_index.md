@@ -1,7 +1,7 @@
 ---
 title: SaveData
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether data for the PivotTable report is saved with the workbook.
 type: docs
 weight: 570
 url: /net/aspose.cells.pivot/pivottable/savedata/

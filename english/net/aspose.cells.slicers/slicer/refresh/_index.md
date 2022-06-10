@@ -1,7 +1,7 @@
 ---
 title: Refresh
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Refreshing the slicer.Meanwhile Refreshing and Calculating relative PivotTables.
 type: docs
 weight: 260
 url: /net/aspose.cells.slicers/slicer/refresh/

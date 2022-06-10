@@ -1,7 +1,7 @@
 ---
 title: GridPasteType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the paste special type.
 type: docs
 weight: 560
 url: /net/aspose.cells.griddesktop.data/gridpastetype/

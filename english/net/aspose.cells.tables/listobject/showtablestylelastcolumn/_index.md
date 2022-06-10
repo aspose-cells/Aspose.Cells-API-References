@@ -1,7 +1,7 @@
 ---
 title: ShowTableStyleLastColumn
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates whether the last column in the table should have the style applied.
 type: docs
 weight: 150
 url: /net/aspose.cells.tables/listobject/showtablestylelastcolumn/

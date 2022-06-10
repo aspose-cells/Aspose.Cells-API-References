@@ -1,9 +1,9 @@
 ---
 title: RefreshData
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Refreshes pivottables data and setting from its data source.
 type: docs
-weight: 900
+weight: 910
 url: /net/aspose.cells.pivot/pivottable/refreshdata/
 ---
 ## PivotTable.RefreshData method

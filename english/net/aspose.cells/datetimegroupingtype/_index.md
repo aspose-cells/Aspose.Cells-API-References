@@ -1,9 +1,9 @@
 ---
 title: DateTimeGroupingType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Specifies how to group dateTime values.
 type: docs
-weight: 1330
+weight: 1350
 url: /net/aspose.cells/datetimegroupingtype/
 ---
 ## DateTimeGroupingType enumeration

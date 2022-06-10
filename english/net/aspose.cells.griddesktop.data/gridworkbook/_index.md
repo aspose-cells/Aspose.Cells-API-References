@@ -1,7 +1,7 @@
 ---
 title: GridWorkbook
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a root object to create an Excel spreadsheet.
 type: docs
 weight: 740
 url: /net/aspose.cells.griddesktop.data/gridworkbook/

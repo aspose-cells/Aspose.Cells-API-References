@@ -1,7 +1,7 @@
 ---
 title: AddSelectedRange
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Add a new selected range to the worksheet.
 type: docs
 weight: 470
 url: /net/aspose.cells.griddesktop/worksheet/addselectedrange/

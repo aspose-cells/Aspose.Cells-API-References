@@ -1,7 +1,7 @@
 ---
 title: IgnoreEmptyContent
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets whether to show the max range which includes data style merged cells and shapes. the default value is true .if the last row or column contains cells with no value and formula but has custom style then we will not show this row/column when this vlaue is true
 type: docs
 weight: 60
 url: /net/aspose.cells.gridjs/config/ignoreemptycontent/

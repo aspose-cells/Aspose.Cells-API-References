@@ -1,9 +1,9 @@
 ---
 title: CategoryType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the category axis type.
 type: docs
-weight: 410
+weight: 420
 url: /net/aspose.cells.charts/categorytype/
 ---
 ## CategoryType enumeration

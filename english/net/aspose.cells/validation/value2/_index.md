@@ -1,7 +1,7 @@
 ---
 title: Value2
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the second value associated with the data validation.
 type: docs
 weight: 160
 url: /net/aspose.cells/validation/value2/

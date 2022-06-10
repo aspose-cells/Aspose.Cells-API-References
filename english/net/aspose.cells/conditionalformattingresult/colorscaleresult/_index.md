@@ -1,7 +1,7 @@
 ---
 title: ColorScaleResult
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the display color of color scale.
 type: docs
 weight: 10
 url: /net/aspose.cells/conditionalformattingresult/colorscaleresult/

@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds CellWatchaspose.cells/cellwatch with row and column.
 type: docs
 weight: 30
 url: /net/aspose.cells/cellwatchcollection/add/
 ---
-## CellWatchCollection.Add method (1 of 2)
+## Add(int, int) {#add}
 
 Adds [`CellWatch`](../../cellwatch) with row and column.
 
@@ -31,7 +31,7 @@ Returns the position of this item in the collection.
 
 ---
 
-## CellWatchCollection.Add method (2 of 2)
+## Add(string) {#add_1}
 
 Adds
 

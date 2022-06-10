@@ -1,9 +1,9 @@
 ---
 title: Unprotect
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Unprotects a workbook.
 type: docs
-weight: 630
+weight: 660
 url: /net/aspose.cells/workbook/unprotect/
 ---
 ## Workbook.Unprotect method

@@ -1,9 +1,9 @@
 ---
 title: Value
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates if the checkbox is checked or not.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.cells.drawing/checkbox/value/
 ---
 ## CheckBox.Value property

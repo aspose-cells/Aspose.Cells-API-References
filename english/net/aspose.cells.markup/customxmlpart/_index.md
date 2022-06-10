@@ -1,9 +1,9 @@
 ---
 title: CustomXmlPart
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a Custom XML Data Storage Part custom XML data within a package.
 type: docs
-weight: 4030
+weight: 4070
 url: /net/aspose.cells.markup/customxmlpart/
 ---
 ## CustomXmlPart class

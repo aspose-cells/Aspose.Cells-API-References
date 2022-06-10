@@ -1,9 +1,9 @@
 ---
 title: WindowTopInch
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The distance from the top edge of the client area to the top edge of the window in unit of inch.
 type: docs
-weight: 560
+weight: 690
 url: /net/aspose.cells/workbooksettings/windowtopinch/
 ---
 ## WorkbookSettings.WindowTopInch property

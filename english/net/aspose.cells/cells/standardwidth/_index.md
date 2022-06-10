@@ -1,7 +1,7 @@
 ---
 title: StandardWidth
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the default column width in the worksheet in unit of characters.
 type: docs
 weight: 280
 url: /net/aspose.cells/cells/standardwidth/

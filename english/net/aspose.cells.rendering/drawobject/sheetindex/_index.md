@@ -1,7 +1,7 @@
 ---
 title: SheetIndex
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Indicates current sheet index of DrawObject.
 type: docs
 weight: 50
 url: /net/aspose.cells.rendering/drawobject/sheetindex/

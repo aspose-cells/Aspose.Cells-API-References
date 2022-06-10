@@ -1,12 +1,12 @@
 ---
 title: DocxSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents options of saving .docx file.
 type: docs
 weight: 10
 url: /net/aspose.cells/docxsaveoptions/docxsaveoptions/
 ---
-## DocxSaveOptions constructor (1 of 2)
+## DocxSaveOptions() {#constructor}
 
 Represents options of saving .docx file.
 
@@ -22,7 +22,7 @@ public DocxSaveOptions()
 
 ---
 
-## DocxSaveOptions constructor (2 of 2)
+## DocxSaveOptions(bool) {#constructor_1}
 
 Represents options of saving .docx file.
 

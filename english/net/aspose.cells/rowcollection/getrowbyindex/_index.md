@@ -1,7 +1,7 @@
 ---
 title: GetRowByIndex
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the row object by the position in the list.
 type: docs
 weight: 50
 url: /net/aspose.cells/rowcollection/getrowbyindex/

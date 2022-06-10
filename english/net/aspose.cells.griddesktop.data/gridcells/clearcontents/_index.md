@@ -1,12 +1,12 @@
 ---
 title: ClearContents
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Clears contents of a range.
 type: docs
 weight: 240
 url: /net/aspose.cells.griddesktop.data/gridcells/clearcontents/
 ---
-## GridCells.ClearContents method (1 of 2)
+## ClearContents(GridCellArea) {#clearcontents}
 
 Clears contents of a range.
 
@@ -27,7 +27,7 @@ public void ClearContents(GridCellArea range)
 
 ---
 
-## GridCells.ClearContents method (2 of 2)
+## ClearContents(int, int, int, int) {#clearcontents_1}
 
 Clears contents of a range.
 

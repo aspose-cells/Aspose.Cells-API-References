@@ -1,9 +1,9 @@
 ---
 title: IsChartDataChanged
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Detects if a charts data source has changed.
 type: docs
-weight: 540
+weight: 550
 url: /net/aspose.cells.charts/chart/ischartdatachanged/
 ---
 ## Chart.IsChartDataChanged method

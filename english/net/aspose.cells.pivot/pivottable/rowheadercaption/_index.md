@@ -1,7 +1,7 @@
 ---
 title: RowHeaderCaption
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the Row Header Caption of the PivotTable.
 type: docs
 weight: 550
 url: /net/aspose.cells.pivot/pivottable/rowheadercaption/

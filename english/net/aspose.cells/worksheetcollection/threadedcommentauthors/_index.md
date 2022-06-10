@@ -1,7 +1,7 @@
 ---
 title: ThreadedCommentAuthors
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the list of threaded comment authors.
 type: docs
 weight: 130
 url: /net/aspose.cells/worksheetcollection/threadedcommentauthors/

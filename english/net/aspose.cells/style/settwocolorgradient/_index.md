@@ -1,9 +1,9 @@
 ---
 title: SetTwoColorGradient
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Sets the specified fill to a two-color gradient.
 type: docs
-weight: 390
+weight: 400
 url: /net/aspose.cells/style/settwocolorgradient/
 ---
 ## Style.SetTwoColorGradient method

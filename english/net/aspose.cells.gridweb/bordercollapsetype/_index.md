@@ -1,7 +1,7 @@
 ---
 title: BorderCollapseType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Collapse type of a tables border object.
 type: docs
 weight: 30
 url: /net/aspose.cells.gridweb/bordercollapsetype/

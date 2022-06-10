@@ -1,7 +1,7 @@
 ---
 title: IsLockAspectRatio
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: True means that dont allow changes in aspect ratio.
 type: docs
 weight: 190
 url: /net/aspose.cells.gridweb.data/gridpicture/islockaspectratio/

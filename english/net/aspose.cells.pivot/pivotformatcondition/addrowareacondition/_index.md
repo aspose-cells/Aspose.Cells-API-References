@@ -1,12 +1,12 @@
 ---
 title: AddRowAreaCondition
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Adds PivotTable conditional format limit in the row fields.
 type: docs
 weight: 60
 url: /net/aspose.cells.pivot/pivotformatcondition/addrowareacondition/
 ---
-## PivotFormatCondition.AddRowAreaCondition method (1 of 2)
+## AddRowAreaCondition(string) {#addrowareacondition_1}
 
 Adds PivotTable conditional format limit in the row fields.
 
@@ -26,7 +26,7 @@ public void AddRowAreaCondition(string fieldName)
 
 ---
 
-## PivotFormatCondition.AddRowAreaCondition method (2 of 2)
+## AddRowAreaCondition(PivotField) {#addrowareacondition}
 
 Adds PivotTable conditional format limit in the row fields.
 

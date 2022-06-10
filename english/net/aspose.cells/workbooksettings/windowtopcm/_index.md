@@ -1,9 +1,9 @@
 ---
 title: WindowTopCM
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The distance from the top edge of the client area to the top edge of the window in unit of centimeter.
 type: docs
-weight: 550
+weight: 680
 url: /net/aspose.cells/workbooksettings/windowtopcm/
 ---
 ## WorkbookSettings.WindowTopCM property

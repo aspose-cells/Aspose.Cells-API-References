@@ -1,7 +1,7 @@
 ---
 title: GetFirstVisibleColumn
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Get the first visible column index of sheet view.
 type: docs
 weight: 710
 url: /net/aspose.cells.griddesktop/worksheet/getfirstvisiblecolumn/

@@ -1,7 +1,7 @@
 ---
 title: Shapes
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Returns all drawing shapes in this worksheet.
 type: docs
 weight: 410
 url: /net/aspose.cells/worksheet/shapes/

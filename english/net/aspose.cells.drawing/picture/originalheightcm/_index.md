@@ -1,7 +1,7 @@
 ---
 title: OriginalHeightCM
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the original height of picture in unit of centimeters.
 type: docs
 weight: 110
 url: /net/aspose.cells.drawing/picture/originalheightcm/

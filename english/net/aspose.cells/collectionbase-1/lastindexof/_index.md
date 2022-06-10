@@ -6,7 +6,7 @@ type: docs
 weight: 160
 url: /net/aspose.cells/collectionbase-1/lastindexof/
 ---
-## CollectionBase&lt;T&gt;.LastIndexOf method (1 of 3)
+## LastIndexOf(T) {#lastindexof}
 
 ```csharp
 public int LastIndexOf(T item)
@@ -24,7 +24,7 @@ public int LastIndexOf(T item)
 
 ---
 
-## CollectionBase&lt;T&gt;.LastIndexOf method (2 of 3)
+## LastIndexOf(T, int) {#lastindexof_1}
 
 ```csharp
 public int LastIndexOf(T item, int index)
@@ -43,7 +43,7 @@ public int LastIndexOf(T item, int index)
 
 ---
 
-## CollectionBase&lt;T&gt;.LastIndexOf method (3 of 3)
+## LastIndexOf(T, int, int) {#lastindexof_2}
 
 ```csharp
 public int LastIndexOf(T item, int index, int count)

@@ -1,7 +1,7 @@
 ---
 title: User
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets name of user who last changed the scenario.
 type: docs
 weight: 60
 url: /net/aspose.cells/scenario/user/

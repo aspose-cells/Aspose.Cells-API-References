@@ -1,9 +1,9 @@
 ---
 title: Sparkline
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: A sparkline represents a tiny chart or graphic in a worksheet cell that provides a visual representation of data.
 type: docs
-weight: 840
+weight: 860
 url: /net/aspose.cells.charts/sparkline/
 ---
 ## Sparkline class
@@ -52,9 +52,9 @@ public class Sparkline
 
 | Name | Description |
 | --- | --- |
-| [ToImage](../../aspose.cells.charts/sparkline/toimage)(ImageOrPrintOptions) | Converts a sparkline to an image. |
-| [ToImage](../../aspose.cells.charts/sparkline/toimage)(Stream, ImageOrPrintOptions) | Converts a sparkline to an image. |
-| [ToImage](../../aspose.cells.charts/sparkline/toimage)(string, ImageOrPrintOptions) | Converts a sparkline to an image. |
+| [ToImage](../../aspose.cells.charts/sparkline/toimage#toimage)(ImageOrPrintOptions) | Converts a sparkline to an image. |
+| [ToImage](../../aspose.cells.charts/sparkline/toimage#toimage_1)(Stream, ImageOrPrintOptions) | Converts a sparkline to an image. |
+| [ToImage](../../aspose.cells.charts/sparkline/toimage#toimage_2)(string, ImageOrPrintOptions) | Converts a sparkline to an image. |
 
 ### See Also
 

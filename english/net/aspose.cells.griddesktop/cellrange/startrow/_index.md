@@ -1,7 +1,7 @@
 ---
 title: StartRow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets the index of the start row of the range.
 type: docs
 weight: 80
 url: /net/aspose.cells.griddesktop/cellrange/startrow/

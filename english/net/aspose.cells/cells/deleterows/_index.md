@@ -1,12 +1,12 @@
 ---
 title: DeleteRows
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Deletes several rows.
 type: docs
 weight: 560
 url: /net/aspose.cells/cells/deleterows/
 ---
-## Cells.DeleteRows method (1 of 2)
+## DeleteRows(int, int) {#deleterows}
 
 Deletes several rows.
 
@@ -31,7 +31,7 @@ If the deleted range contains the top part(not whole) of the table(ListObject), 
 
 ---
 
-## Cells.DeleteRows method (2 of 2)
+## DeleteRows(int, int, bool) {#deleterows_1}
 
 Deletes multiple rows in the worksheet.
 

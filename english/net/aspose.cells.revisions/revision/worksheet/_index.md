@@ -1,7 +1,7 @@
 ---
 title: Worksheet
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the worksheet.
 type: docs
 weight: 30
 url: /net/aspose.cells.revisions/revision/worksheet/

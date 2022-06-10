@@ -1,9 +1,9 @@
 ---
 title: Id
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets the identifier of this shape.
 type: docs
-weight: 230
+weight: 270
 url: /net/aspose.cells.drawing/shape/id/
 ---
 ## Shape.Id property

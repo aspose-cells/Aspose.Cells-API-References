@@ -1,9 +1,9 @@
 ---
 title: GetFonts
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets all fonts in the style pool.
 type: docs
-weight: 410
+weight: 420
 url: /net/aspose.cells/workbook/getfonts/
 ---
 ## Workbook.GetFonts method

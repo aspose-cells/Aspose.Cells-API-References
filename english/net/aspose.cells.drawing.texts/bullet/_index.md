@@ -1,9 +1,9 @@
 ---
 title: Bullet
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the bullet.
 type: docs
-weight: 2850
+weight: 2880
 url: /net/aspose.cells.drawing.texts/bullet/
 ---
 ## Bullet class

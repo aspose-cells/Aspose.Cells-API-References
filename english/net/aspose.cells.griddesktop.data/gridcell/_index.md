@@ -1,7 +1,7 @@
 ---
 title: GridCell
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a cell object.
 type: docs
 weight: 370
 url: /net/aspose.cells.griddesktop.data/gridcell/
@@ -56,14 +56,14 @@ public class GridCell
 | [GetWorksheet](../../aspose.cells.griddesktop.data/gridcell/getworksheet)() | Gets the parent worksheet. |
 | [IsErrorValue](../../aspose.cells.griddesktop.data/gridcell/iserrorvalue)() | Checks if a formula can properly evaluate a result. |
 | [IsFormula](../../aspose.cells.griddesktop.data/gridcell/isformula)() | Represents if the specified cell contains formula. |
-| [PutValue](../../aspose.cells.griddesktop.data/gridcell/putvalue)(bool) | Puts a boolean value into the cell. |
-| [PutValue](../../aspose.cells.griddesktop.data/gridcell/putvalue)(DateTime) | Puts a DateTime value into the cell. |
-| [PutValue](../../aspose.cells.griddesktop.data/gridcell/putvalue)(double) | Puts a double value into the cell. |
-| [PutValue](../../aspose.cells.griddesktop.data/gridcell/putvalue)(int) | Puts a int value into the cell. |
-| [PutValue](../../aspose.cells.griddesktop.data/gridcell/putvalue)(object) | Puts an object value into the cell.same as setValue(Object param_object) |
-| [PutValue](../../aspose.cells.griddesktop.data/gridcell/putvalue)(string) | Puts a String value into the cell. |
-| [PutValue](../../aspose.cells.griddesktop.data/gridcell/putvalue)(string, bool) | Puts a string value into the cell and converts the value to other data type if appropriate. |
-| [PutValue](../../aspose.cells.griddesktop.data/gridcell/putvalue)(string, bool, bool) | Puts a value into the cell, if appropriate the value will be converted to other data type and cell's number format will be reset. |
+| [PutValue](../../aspose.cells.griddesktop.data/gridcell/putvalue#putvalue)(bool) | Puts a boolean value into the cell. |
+| [PutValue](../../aspose.cells.griddesktop.data/gridcell/putvalue#putvalue_3)(DateTime) | Puts a DateTime value into the cell. |
+| [PutValue](../../aspose.cells.griddesktop.data/gridcell/putvalue#putvalue_1)(double) | Puts a double value into the cell. |
+| [PutValue](../../aspose.cells.griddesktop.data/gridcell/putvalue#putvalue_2)(int) | Puts a int value into the cell. |
+| [PutValue](../../aspose.cells.griddesktop.data/gridcell/putvalue#putvalue_4)(object) | Puts an object value into the cell.same as setValue(Object param_object) |
+| [PutValue](../../aspose.cells.griddesktop.data/gridcell/putvalue#putvalue_5)(string) | Puts a String value into the cell. |
+| [PutValue](../../aspose.cells.griddesktop.data/gridcell/putvalue#putvalue_6)(string, bool) | Puts a string value into the cell and converts the value to other data type if appropriate. |
+| [PutValue](../../aspose.cells.griddesktop.data/gridcell/putvalue#putvalue_7)(string, bool, bool) | Puts a value into the cell, if appropriate the value will be converted to other data type and cell's number format will be reset. |
 | [PutValueAndSetFormatByValue](../../aspose.cells.griddesktop.data/gridcell/putvalueandsetformatbyvalue)(string) | Sets the cell's value with a string value and set cell format by this value. |
 | [SetCellValue](../../aspose.cells.griddesktop.data/gridcell/setcellvalue)(object) | If the value is a formula,this method set cell's value as FormulaType, |
 | [SetCustom](../../aspose.cells.griddesktop.data/gridcell/setcustom)(string) | sets the custom format, null or empty string means no custom format. |
@@ -72,7 +72,7 @@ public class GridCell
 | [SetFormula](../../aspose.cells.griddesktop.data/gridcell/setformula)(string, object) | Set the formula and the value of the formula. |
 | [SetNumberType](../../aspose.cells.griddesktop.data/gridcell/setnumbertype)(int) | set the display format of numbers and dates |
 | [SetStyle](../../aspose.cells.griddesktop.data/gridcell/setstyle)(Style) | Sets style to cell. To improve performance,implement "SetStyle" method, not implement "Style" property. |
-| [ToString](../../aspose.cells.griddesktop.data/gridcell/tostring)() | Returns a string represents the current Cell object. |
+| [ToString](../../aspose.cells.griddesktop.data/gridcell/tostring#tostring)() | Returns a string represents the current Cell object. |
 | [operator ==](../../aspose.cells.griddesktop.data/gridcell/op_equality) |  |
 | [operator !=](../../aspose.cells.griddesktop.data/gridcell/op_inequality) |  |
 

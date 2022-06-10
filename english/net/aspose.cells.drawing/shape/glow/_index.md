@@ -1,9 +1,9 @@
 ---
 title: Glow
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents a  object that specifies glow effect for the chart element or shape.
 type: docs
-weight: 120
+weight: 160
 url: /net/aspose.cells.drawing/shape/glow/
 ---
 ## Shape.Glow property

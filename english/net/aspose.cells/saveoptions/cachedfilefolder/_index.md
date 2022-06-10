@@ -1,7 +1,7 @@
 ---
 title: CachedFileFolder
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The cached file folder is used to store some large data.
 type: docs
 weight: 10
 url: /net/aspose.cells/saveoptions/cachedfilefolder/

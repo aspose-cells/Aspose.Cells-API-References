@@ -1,7 +1,7 @@
 ---
 title: GetFirstPageHeader
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets a script formatting the first page header of an Excel file.
 type: docs
 weight: 510
 url: /net/aspose.cells/pagesetup/getfirstpageheader/

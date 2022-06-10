@@ -1,7 +1,7 @@
 ---
 title: RotationAngle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets or sets Rotation attribute.
 type: docs
 weight: 110
 url: /net/aspose.cells.gridweb/gridtableitemstyle/rotationangle/

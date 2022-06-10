@@ -1,7 +1,7 @@
 ---
 title: PrintGridlines
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents if cell gridlines are printed on the page.
 type: docs
 weight: 340
 url: /net/aspose.cells/pagesetup/printgridlines/

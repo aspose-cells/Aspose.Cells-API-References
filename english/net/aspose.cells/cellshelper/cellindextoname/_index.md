@@ -1,9 +1,9 @@
 ---
 title: CellIndexToName
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets cell name according to its row and column indexes.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.cells/cellshelper/cellindextoname/
 ---
 ## CellsHelper.CellIndexToName method

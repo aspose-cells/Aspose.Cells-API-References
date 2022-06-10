@@ -1,7 +1,7 @@
 ---
 title: BaseFieldIndex
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents the base field for a custom calculation.
 type: docs
 weight: 40
 url: /net/aspose.cells.pivot/pivotfield/basefieldindex/

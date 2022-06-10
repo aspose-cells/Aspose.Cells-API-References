@@ -1,12 +1,12 @@
 ---
 title: GroupRows
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Groups rows.
 type: docs
-weight: 870
+weight: 890
 url: /net/aspose.cells/cells/grouprows/
 ---
-## Cells.GroupRows method (1 of 2)
+## GroupRows(int, int, bool) {#grouprows_1}
 
 Groups rows.
 
@@ -28,7 +28,7 @@ public void GroupRows(int firstIndex, int lastIndex, bool isHidden)
 
 ---
 
-## Cells.GroupRows method (2 of 2)
+## GroupRows(int, int) {#grouprows}
 
 Groups rows.
 
