@@ -1,0 +1,107 @@
+---
+title: HyperlinkCollection
+second_title: Справочник по Aspose.Cells для .NET API
+description: Инкапсулирует набор объектовHyperlink./hyperlink.
+type: docs
+weight: 3760
+url: /ru/net/aspose.cells/hyperlinkcollection/
+---
+## HyperlinkCollection class
+
+Инкапсулирует набор объектов[`Hyperlink`](../hyperlink).
+
+```csharp
+public class HyperlinkCollection : CollectionBase<Hyperlink>
+```
+
+## Характеристики
+
+| Имя | Описание |
+| --- | --- |
+| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
+| [Item](../../aspose.cells/hyperlinkcollection/item) { get; } | Получает элемент[`Hyperlink`](../hyperlink)по указанному индексу. |
+| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
+
+## Методы
+
+| Имя | Описание |
+| --- | --- |
+| [Add](../../aspose.cells/hyperlinkcollection/add#add_1)(string, int, int, string) | Добавляет гиперссылку на указанную ячейку или диапазон ячеек. |
+| [Add](../../aspose.cells/hyperlinkcollection/add#add)(int, int, int, int, string) | Добавляет гиперссылку на указанную ячейку или диапазон ячеек. |
+| [Add](../../aspose.cells/hyperlinkcollection/add#add_2)(string, string, string, string, string) | Добавляет гиперссылку на указанную ячейку или диапазон ячеек. |
+| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Hyperlink) |  |
+| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Hyperlink, IComparer&lt;Hyperlink&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Hyperlink, IComparer&lt;Hyperlink&gt;) |  |
+| [Clear](../../aspose.cells/hyperlinkcollection/clear#clear)() | Очищает все гиперссылки. (2 methods) |
+| [Contains](../../aspose.cells/collectionbase`1/contains)(Hyperlink) |  |
+| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Hyperlink[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Hyperlink[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, Hyperlink[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;Hyperlink&gt;) |  |
+| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;Hyperlink&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;Hyperlink&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;Hyperlink&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;Hyperlink&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;Hyperlink&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;Hyperlink&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;Hyperlink&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;Hyperlink&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;Hyperlink&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
+| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Hyperlink) |  |
+| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Hyperlink, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Hyperlink, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Hyperlink) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Hyperlink, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Hyperlink, int, int) |  |
+| [RemoveAt](../../aspose.cells/hyperlinkcollection/removeat#removeat)(int) | Удалить гиперссылку по указанному индексу. (2 methods) |
+
+### Примеры
+
+```csharp
+
+
+[C#]
+
+  //Создание экземпляра рабочей книги object
+Workbook workbook = new Workbook();
+
+  //Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
+Worksheet worksheet = workbook.Worksheets[0];
+
+  //Получить коллекцию гиперссылок
+HyperlinkCollection hyperlinks = worksheet.Hyperlinks;
+
+  //Добавление гиперссылки к URL-адресу «A1» cell
+hyperlinks.Add("A1", 1, 1, "http:  //www.aspose.com");
+
+  //Сохранение файла Excel
+workbook.Save("book1.xls");
+
+[VB.NET]
+
+'Instantiating a Workbook object
+Dim workbook As Workbook = New Workbook()
+
+'Obtaining the reference of the newly added worksheet by passing its sheet index
+Dim worksheet As Worksheet = workbook.Worksheets(0)
+
+'Get Hyperlinks Collection
+Dim hyperlinks As HyperlinkCollection = worksheet.Hyperlinks
+
+'Adding a hyperlink to a URL at "A1" cell
+hyperlinks.Add("A1", 1, 1, "http:  //www.aspose.com")
+
+'Saving the Excel file
+workbook.Save("book1.xls")
+```
+
+### Смотрите также
+
+* class [CollectionBase&lt;T&gt;](../collectionbase-1)
+* class [Hyperlink](../hyperlink)
+* пространство имен [Aspose.Cells](../../aspose.cells)
+* сборка [Aspose.Cells](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
