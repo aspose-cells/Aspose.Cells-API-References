@@ -1,0 +1,207 @@
+---
+title: DataBar
+second_title: Aspose.Cells for .NET API 参考
+description: 描述DataBar条件格式规则 此条件格式规则在单元格范围内显示渐变的 数据条
+type: docs
+weight: 1240
+url: /zh/net/aspose.cells/databar/
+---
+## DataBar class
+
+描述DataBar条件格式规则。 此条件格式规则在单元格范围内显示渐变的 数据条。
+
+```csharp
+public class DataBar
+```
+
+## 特性
+
+| 姓名 | 描述 |
+| --- | --- |
+| [AxisColor](../../aspose.cells/databar/axiscolor) { get; set; } | 获取条件格式为数据条的单元格的轴颜色。 |
+| [AxisPosition](../../aspose.cells/databar/axisposition) { get; set; } | 获取或设置条件格式规则指定的数据条轴的位置。 |
+| [BarBorder](../../aspose.cells/databar/barborder) { get; } | 获取指定数据栏边框的对象。 |
+| [BarFillType](../../aspose.cells/databar/barfilltype) { get; set; } | 获取或设置数据条如何填充颜色。 |
+| [Color](../../aspose.cells/databar/color) { get; set; } | 获取或设置此 DataBar 的颜色。 |
+| [Direction](../../aspose.cells/databar/direction) { get; set; } | 获取或设置数据栏的显示方向。 |
+| [MaxCfvo](../../aspose.cells/databar/maxcfvo) { get; } | 获取或设置此 DataBar 的最大值对象。 无法设置 null 或类型为 FormatConditionValueType.Min 的 CFValueObject。 |
+| [MaxLength](../../aspose.cells/databar/maxlength) { get; set; } | 表示数据条的最大长度。 |
+| [MinCfvo](../../aspose.cells/databar/mincfvo) { get; } | 获取或设置此 DataBar 的最小值对象。 无法设置 null 或类型为 FormatConditionValueType.Max 的 CFValueObject。 |
+| [MinLength](../../aspose.cells/databar/minlength) { get; set; } | 表示数据条的最小长度。 |
+| [NegativeBarFormat](../../aspose.cells/databar/negativebarformat) { get; } | 获取与数据栏条件格式规则关联的 NegativeBarFormat 对象。 |
+| [ShowValue](../../aspose.cells/databar/showvalue) { get; set; } | 获取或设置指示是否显示应用此数据栏的单元格值的标志。 默认值为真。 |
+
+## 方法
+
+| 姓名 | 描述 |
+| --- | --- |
+| [ToImage](../../aspose.cells/databar/toimage)(Cell, ImageOrPrintOptions) | 将单元格中的数据条渲染为图像字节数组。 |
+
+### 例子
+
+```csharp
+
+[C#]
+
+ //实例化一个工作簿对象
+Workbook workbook = new Workbook();
+
+Worksheet sheet = workbook.Worksheets[0];
+
+ //添加一个空的条件格式
+int index = sheet.ConditionalFormattings.Add();
+
+FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
+
+ //设置条件格式范围.
+CellArea ca = new CellArea();
+
+ca.StartRow = 0;
+
+ca.EndRow = 2;
+
+ca.StartColumn = 0;
+
+ca.EndColumn = 0;
+
+fcs.AddArea(ca);
+
+ //添加条件.
+int idx = fcs.AddCondition(FormatConditionType.DataBar);
+
+fcs.AddArea(ca);
+
+FormatCondition cond = fcs[idx];
+
+//获取Databar
+DataBar dataBar = cond.DataBar;
+
+dataBar.Color = Color.Orange;
+
+ //设置数据栏属性
+dataBar.MinCfvo.Type = FormatConditionValueType.Percentile;
+
+dataBar.MinCfvo.Value = 30;
+
+dataBar.ShowValue = false;
+
+dataBar.BarBorder.Type = DataBarBorderType.Solid;
+
+dataBar.BarBorder.Color = Color.Plum;
+
+ dataBar.BarFillType = DataBarFillType.Solid;
+  
+ dataBar.AxisColor = Color.Red;
+ 
+ dataBar.AxisPosition = DataBarAxisPosition.Midpoint;
+ 
+ dataBar.NegativeBarFormat.ColorType = DataBarNegativeColorType.Color;
+ 
+ dataBar.NegativeBarFormat.Color = Color.White;
+ 
+ dataBar.NegativeBarFormat.BorderColorType = DataBarNegativeColorType.Color;
+ 
+ dataBar.NegativeBarFormat.BorderColor = Color.Yellow;
+ 
+ //把单元格Values
+Aspose.Cells.Cell cell1 = sheet.Cells["A1"];
+
+cell1.PutValue(10);
+
+Aspose.Cells.Cell cell2 = sheet.Cells["A2"];
+
+cell2.PutValue(120);
+
+Aspose.Cells.Cell cell3 = sheet.Cells["A3"];
+
+cell3.PutValue(260);
+
+ //保存Excel文件
+workbook.Save("book1.xlsx");
+
+[VB.NET]
+
+'Instantiating a Workbook object
+Dim workbook As Workbook = New Workbook()
+
+Dim sheet As Worksheet = workbook.Worksheets(0)
+
+'Adds an empty conditional formatting
+Dim index As Integer = sheet.ConditionalFormattings.Add()
+
+Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
+
+'Sets the conditional format range.
+Dim ca As New CellArea()
+
+ca.StartRow = 0
+
+ca.EndRow = 2
+
+ca.StartColumn = 0
+
+ca.EndColumn = 0
+
+fcs.AddArea(ca)
+
+'Adds condition.
+Dim idx As Integer = fcs.AddCondition(FormatConditionType.DataBar)
+
+fcs.AddArea(ca)
+
+Dim cond As FormatCondition = fcs(idx)
+
+'Get Databar
+Dim dataBar As DataBar = cond.DataBar
+
+dataBar.Color = Color.Orange
+
+'Set Databar properties
+dataBar.MinCfvo.Type = FormatConditionValueType.Percentile
+
+dataBar.MinCfvo.Value = 30
+
+dataBar.ShowValue = False
+
+dataBar.BarBorder.Type = DataBarBorderType.Solid
+
+dataBar.BarBorder.Color = Color.Plum
+
+ dataBar.BarFillType = DataBarFillType.Solid
+  
+ dataBar.AxisColor = Color.Red
+ 
+ dataBar.AxisPosition = DataBarAxisPosition.Midpoint
+ 
+ dataBar.NegativeBarFormat.ColorType = DataBarNegativeColorType.Color
+ 
+ dataBar.NegativeBarFormat.Color = Color.White
+ 
+ dataBar.NegativeBarFormat.BorderColorType = DataBarNegativeColorType.Color
+ 
+ dataBar.NegativeBarFormat.BorderColor = Color.Yellow
+
+'Put Cell Values
+Dim cell1 As Aspose.Cells.Cell = sheet.Cells("A1")
+
+cell1.PutValue(10)
+
+Dim cell2 As Aspose.Cells.Cell = sheet.Cells("A2")
+
+cell2.PutValue(120)
+
+Dim cell3 As Aspose.Cells.Cell = sheet.Cells("A3")
+
+cell3.PutValue(260)
+
+'Saving the Excel file
+workbook.Save("book1.xlsx")
+
+```
+
+### 也可以看看
+
+* 命名空间 [Aspose.Cells](../../aspose.cells)
+* 部件 [Aspose.Cells](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->

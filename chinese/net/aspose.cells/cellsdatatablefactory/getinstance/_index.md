@@ -1,0 +1,233 @@
+---
+title: GetInstance
+second_title: Aspose.Cells for .NET API 参考
+description: 从给定的 int 值序列创建 ICellsDataTable
+type: docs
+weight: 10
+url: /zh/net/aspose.cells/cellsdatatablefactory/getinstance/
+---
+## GetInstance(int[], string[]) {#getinstance_5}
+
+从给定的 int 值序列创建 ICellsDataTable。
+
+```csharp
+public ICellsDataTable GetInstance(int[] vals, string[] columnNames)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| vals | Int32[] | int 值来构建表 |
+| columnNames | String[] | 列名的表。 它的长度只能是 1（垂直按 int 值构建表） 或 int 值的长度（按 int 值水平构建表） |
+
+### 返回值
+
+ICellsDataTable 的实例
+
+### 也可以看看
+
+* interface [ICellsDataTable](../../icellsdatatable)
+* class [CellsDataTableFactory](../../cellsdatatablefactory)
+* 命名空间 [Aspose.Cells](../../cellsdatatablefactory)
+* 部件 [Aspose.Cells](../../../)
+
+---
+
+## GetInstance(int[], bool) {#getinstance_4}
+
+从给定的 int 值序列创建 ICellsDataTable。
+
+```csharp
+public ICellsDataTable GetInstance(int[] vals, bool vertial)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| vals | Int32[] | int 值构建表 |
+| vertial | Boolean | 是否构建表格由 int 值垂直（真）或水平（假） |
+
+### 返回值
+
+ICellsDataTable
+
+### 也可以看看
+
+* interface [ICellsDataTable](../../icellsdatatable)
+* class [CellsDataTableFactory](../../cellsdatatablefactory)
+* 命名空间 [Aspose.Cells](../../cellsdatatablefactory)
+* 部件 [Aspose.Cells](../../../)
+
+---
+
+## GetInstance(double[], string[]) {#getinstance_2}
+
+从给定的双精度值序列创建 ICellsDataTable。
+
+```csharp
+public ICellsDataTable GetInstance(double[] vals, string[] columnNames)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| vals | Double[] | double 值构建表 |
+| columnNames | String[] | 列名的表。 它的长度只能是1（垂直双值构建表） 或双值长度（水平双值构建表） |
+
+### 返回值
+
+ICellsDataTable 的实例
+
+### 也可以看看
+
+* interface [ICellsDataTable](../../icellsdatatable)
+* class [CellsDataTableFactory](../../cellsdatatablefactory)
+* 命名空间 [Aspose.Cells](../../cellsdatatablefactory)
+* 部件 [Aspose.Cells](../../../)
+
+---
+
+## GetInstance(double[], bool) {#getinstance_1}
+
+从给定的双精度值序列创建 ICellsDataTable。
+
+```csharp
+public ICellsDataTable GetInstance(double[] vals, bool vertial)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| vals | Double[] | 双值建表 |
+| vertial | Boolean | 是否建表垂直（真）或水平（假）的双值表 |
+
+### 返回值
+
+ICellsDataTable
+
+### 也可以看看
+
+* interface [ICellsDataTable](../../icellsdatatable)
+* class [CellsDataTableFactory](../../cellsdatatablefactory)
+* 命名空间 [Aspose.Cells](../../cellsdatatablefactory)
+* 部件 [Aspose.Cells](../../../)
+
+---
+
+## GetInstance(object[], string[]) {#getinstance_9}
+
+从给定的对象序列创建 ICellsDataTable。
+
+```csharp
+public ICellsDataTable GetInstance(object[] vals, string[] columnNames)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| vals | Object[] | 构建表的对象 |
+| columnNames | String[] | 的列名桌子。 它的长度只能是 1（按对象垂直构建表） 或对象长度（按对象水平构建表） |
+
+### 返回值
+
+ICellsDataTable 的实例
+
+### 也可以看看
+
+* interface [ICellsDataTable](../../icellsdatatable)
+* class [CellsDataTableFactory](../../cellsdatatablefactory)
+* 命名空间 [Aspose.Cells](../../cellsdatatablefactory)
+* 部件 [Aspose.Cells](../../../)
+
+---
+
+## GetInstance(object[], bool) {#getinstance_8}
+
+从给定的对象序列创建 ICellsDataTable。
+
+```csharp
+public ICellsDataTable GetInstance(object[] vals, bool vertial)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| vals | Object[] | 要建表的对象 |
+| vertial | Boolean | 是否建表通过对象垂直（真）或水平（假） |
+
+### 返回值
+
+ICellsDataTable
+
+### 也可以看看
+
+* interface [ICellsDataTable](../../icellsdatatable)
+* class [CellsDataTableFactory](../../cellsdatatablefactory)
+* 命名空间 [Aspose.Cells](../../cellsdatatablefactory)
+* 部件 [Aspose.Cells](../../../)
+
+---
+
+## GetInstance(int[]) {#getinstance_3}
+
+```csharp
+public ICellsDataTable GetInstance(int[] vals)
+```
+
+### 也可以看看
+
+* interface [ICellsDataTable](../../icellsdatatable)
+* class [CellsDataTableFactory](../../cellsdatatablefactory)
+* 命名空间 [Aspose.Cells](../../cellsdatatablefactory)
+* 部件 [Aspose.Cells](../../../)
+
+---
+
+## GetInstance(double[]) {#getinstance}
+
+```csharp
+public ICellsDataTable GetInstance(double[] vals)
+```
+
+### 也可以看看
+
+* interface [ICellsDataTable](../../icellsdatatable)
+* class [CellsDataTableFactory](../../cellsdatatablefactory)
+* 命名空间 [Aspose.Cells](../../cellsdatatablefactory)
+* 部件 [Aspose.Cells](../../../)
+
+---
+
+## GetInstance(object[]) {#getinstance_7}
+
+```csharp
+public ICellsDataTable GetInstance(object[] vals)
+```
+
+### 也可以看看
+
+* interface [ICellsDataTable](../../icellsdatatable)
+* class [CellsDataTableFactory](../../cellsdatatablefactory)
+* 命名空间 [Aspose.Cells](../../cellsdatatablefactory)
+* 部件 [Aspose.Cells](../../../)
+
+---
+
+## GetInstance(ICollection) {#getinstance_6}
+
+从给定集合创建 ICellsDataTable。
+
+```csharp
+public ICellsDataTable GetInstance(ICollection collection)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| collection | ICollection | 建立表的集合 |
+
+### 返回值
+
+ICellsDataTable 的实例
+
+### 也可以看看
+
+* interface [ICellsDataTable](../../icellsdatatable)
+* class [CellsDataTableFactory](../../cellsdatatablefactory)
+* 命名空间 [Aspose.Cells](../../cellsdatatablefactory)
+* 部件 [Aspose.Cells](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
