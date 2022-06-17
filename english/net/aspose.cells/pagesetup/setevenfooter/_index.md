@@ -16,7 +16,7 @@ public void SetEvenFooter(int section, string footerScript)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| section | Int32 | 0:Left Section. |
+| section | Int32 | 0: Left Section, 1: Center Section, 2: Right Section. |
 | footerScript | String | Footer format script. |
 
 ### See Also

@@ -16,7 +16,7 @@ public Picture SetHeaderPicture(int section, byte[] headerPicture)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| section | Int32 | 0:Left Section. |
+| section | Int32 | 0: Left Section, 1: Center Section, 2: Right Section. |
 | headerPicture | Byte[] | Image data. |
 
 ### Return Value

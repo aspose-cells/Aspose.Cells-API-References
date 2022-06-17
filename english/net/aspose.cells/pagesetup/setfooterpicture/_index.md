@@ -16,7 +16,7 @@ public Picture SetFooterPicture(int section, byte[] footerPicture)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| section | Int32 | 0:Left Section. |
+| section | Int32 | 0: Left Section, 1: Center Section, 2: Right Section. |
 | footerPicture | Byte[] | Image data. |
 
 ### Return Value

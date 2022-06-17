@@ -68,7 +68,7 @@ public int AddFieldToArea(PivotFieldType fieldType, PivotField pivotField)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldType | PivotFieldType | the fields area type.It could be one of the following values: PivotFieldType.RowPivotFieldType.ColumnPivotFieldType.DataPivotFieldType.Page |
+| fieldType | PivotFieldType | the fields area type. |
 | pivotField | PivotField | the field in the base fields. |
 
 ### Return Value

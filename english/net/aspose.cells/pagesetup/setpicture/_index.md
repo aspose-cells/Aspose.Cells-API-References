@@ -19,7 +19,7 @@ public Picture SetPicture(bool isFirst, bool isEven, bool isHeader, int section,
 | isFirst | Boolean | Indicates whether setting the picture of first page header/footer. |
 | isEven | Boolean | Indicates whether setting the picture of even page header/footer. |
 | isHeader | Boolean | Indicates whether setting the picture of header/footer. |
-| section | Int32 | 0:Left Section. |
+| section | Int32 | 0: Left Section, 1: Center Section, 2: Right Section. |
 | imageData | Byte[] | Image data. |
 
 ### Return Value
