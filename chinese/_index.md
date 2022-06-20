@@ -2,6 +2,7 @@
 title: Aspose.Cells 产品系列
 additionalTitle: Aspose API 参考
 type: docs
+description: "Aspose.Cells 是一组软件开发工具包，用于处理、处理和转换 Word、Excel、PowerPoint 和更多文档格式。"
 weight: 10
 url: /zh/
 ---
