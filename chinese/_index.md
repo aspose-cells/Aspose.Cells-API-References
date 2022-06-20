@@ -2,7 +2,7 @@
 title: Aspose.Cells 产品系列
 additionalTitle: Aspose API 参考
 type: docs
-description: "Aspose.Cells 是一组软件开发工具包，用于处理、处理和转换 Word、Excel、PowerPoint 和更多文档格式。"
+description: "Aspose.Cell 是易于使用的 API，用于创建、转换和处理 Excel 文件。 在 .NET、Java、C++ 和更多平台中创建基于 Excel 的应用程序。"
 weight: 10
 url: /zh/
 ---
