@@ -3,7 +3,7 @@ title: Aspose.Cells Product Family
 additionalTitle: Aspose API References
 type: docs
 weight: 10
-description: "Aspose.Cell is easy-to-use APIs for creating, converting, and processing Excel files. Create your Excel-based Application in .NET, Java, C++, and more platforms."
+description: "Aspose.Cells is easy-to-use APIs for creating, converting, and processing Excel files. Create your Excel-based Application in .NET, Java, C++, and more platforms."
 url: /
 ---
 
