@@ -2,6 +2,7 @@
 title: Семейство продуктов Aspose.Cells
 additionalTitle: Ссылки на API Aspose
 type: docs
+description: "Aspose.Cells — это набор средств разработки программного обеспечения для управления, обработки и преобразования документов Word, Excel, PowerPoint и многих других форматов."
 weight: 10
 url: /ru/
 ---
