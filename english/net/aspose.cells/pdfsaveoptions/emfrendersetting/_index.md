@@ -16,7 +16,7 @@ public EmfRenderSetting EmfRenderSetting { get; set; }
 
 ### Remarks
 
-EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When !:EmfRenderSetting.EmfPlusPrefer is set, then EMF+ records will be parsed while rendering to pdf, otherwise only EMF records will be parsed. Default value is !:EmfRenderSetting.EmfOnly.
+EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When EmfPlusPrefer is set, then EMF+ records will be parsed while rendering to pdf, otherwise only EMF records will be parsed. Default value is EmfOnly.
 
 ### See Also
 

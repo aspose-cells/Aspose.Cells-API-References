@@ -16,7 +16,7 @@ public DefaultEditLanguage DefaultEditLanguage { get; set; }
 
 ### Remarks
 
-It may display/render different layouts for text paragraph when different edit languages is set. Default is !:DefaultEditLanguage.Auto.
+It may display/render different layouts for text paragraph when different edit languages is set. Default is Auto.
 
 ### See Also
 
