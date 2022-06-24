@@ -43,17 +43,17 @@ workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'Instantiating a Workbook object
+'实例化一个工作簿对象
 Dim workbook As Workbook = New Workbook()
-'Init VBA project.
+'初始化 VBA 项目。
 Dim vbaProject as VbaProject  = workbook.VbaProject
-'Add a new module.
+'添加一个新模块。
 Dim index as Integer = vbaProject.Modules.Add(VbaModuleType.Class, "test")
-'Get vba module
+'获取 vba 模块
 Dim vbaModule as VbaModule = vbaProject.Modules(index)
-'Set codes
+'设置代码
 vbaModule.Codes = "Sub ShowMessage()\r\nMsgBox \"Welcome to Aspose!\"\r\nEnd Sub"
-'Saving the Excel file
+'保存 Excel 文件
 workbook.Save("book1.xlsm")
 ```
 

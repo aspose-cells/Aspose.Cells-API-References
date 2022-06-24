@@ -274,125 +274,125 @@ excelbook.Save("groupshapes.xls");
 
 [VB.NET]
 
-'Instantiate a new Workbook.
+'实例化一个新的Workbook.
 Dim excelbook As Workbook = New Workbook()
  
-'Add a group box to the first worksheet.
+'将组框添加到第一个工作表。
 Dim box As Aspose.Cells.GroupBox = excelbook.Worksheets(0).Shapes.AddGroupBox(1, 0, 1, 0, 300, 250)
  
-'Set the caption of the group box.
+'设置组框的标题。
 box.Text = "Age Groups"
 box.Placement = PlacementType.FreeFloating
  
-'Make it 2-D box.
+'使其成为二维盒子。
 box.Shadow = False
  
-'Add a radio button.
+'添加一个单选按钮。
 Dim radio1 As Aspose.Cells.RadioButton = excelbook.Worksheets(0).Shapes.AddRadioButton(3, 0, 2, 0, 30, 110)
  
-'Set its text string.
+'设置其文本字符串。
 radio1.Text = "20-29"
  
-'Set A1 cell as a linked cell for the radio button.
+'将 A1 单元格设置为单选按钮的链接单元格。
 radio1.LinkedCell = "A1"
  
-'Make the radio button 3-D.
+'将单选按钮设为 3-D。
 radio1.Shadow = True
  
-'Set the foreground color of the radio button.
+'设置单选按钮的前景色。
 radio1.FillFormat.ForeColor = Color.LightGreen
  
-'Set the line style of the radio button.
+'设置单选按钮的线条样式。
 radio1.LineFormat.Style = MsoLineStyle.ThickThin
  
-'Set the weight of the radio button.
+'设置单选按钮的权重。
 radio1.LineFormat.Weight = 4
  
-'Set the line color of the radio button.
+'设置单选按钮的线条颜色。
 radio1.LineFormat.ForeColor = Color.Blue
  
-'Set the dash style of the radio button.
+'设置单选按钮的破折号样式。
 radio1.LineFormat.DashStyle = MsoLineDashStyle.Solid
  
-'Make the line format visible.
+'使行格式可见。
 radio1.LineFormat.IsVisible = True
  
-'Make the fill format visible.
+'使填充格式可见。
 radio1.FillFormat.IsVisible = True
  
-'Add another radio button.
+'添加另一个单选按钮。
 Dim radio2 As Aspose.Cells.RadioButton = excelbook.Worksheets(0).Shapes.AddRadioButton(6, 0, 2, 0, 30, 110)
  
-'Set its text string.
+'设置其文本字符串。
 radio2.Text = "30-39"
  
-'Set A1 cell as a linked cell for the radio button.
+'将 A1 单元格设置为单选按钮的链接单元格。
 radio2.LinkedCell = "A1"
  
-'Make the radio button 3-D.
+'将单选按钮设为 3-D。
 radio2.Shadow = True
  
-'Set the foreground color of the radio button.
+'设置单选按钮的前景色。
 radio2.FillFormat.ForeColor = Color.LightGreen
  
-'Set the line style of the radio button.
+'设置单选按钮的线条样式。
 radio2.LineFormat.Style = MsoLineStyle.ThickThin
  
-'Set the weight of the radio button.
+'设置单选按钮的权重。
 radio2.LineFormat.Weight = 4
  
-'Set the line color of the radio button.
+'设置单选按钮的线条颜色。
 radio2.LineFormat.ForeColor = Color.Blue
  
-'Set the dash style of the radio button.
+'设置单选按钮的破折号样式。
 radio2.LineFormat.DashStyle = MsoLineDashStyle.Solid
  
-'Make the line format visible.
+'使行格式可见。
 radio2.LineFormat.IsVisible = True
  
-'Make the fill format visible.
+'使填充格式可见。
 radio2.FillFormat.IsVisible = True
  
-'Add another radio button.
+'添加另一个单选按钮。
 Dim radio3 As Aspose.Cells.RadioButton = excelbook.Worksheets(0).Shapes.AddRadioButton(9, 0, 2, 0, 30, 110)
  
-'Set its text string.
+'设置其文本字符串。
 radio3.Text = "40-49"
  
-'Set A1 cell as a linked cell for the radio button.
+'将 A1 单元格设置为单选按钮的链接单元格。
 radio3.LinkedCell = "A1"
  
-'Make the radio button 3-D.
+'将单选按钮设为 3-D。
 radio3.Shadow = True
  
-'Set the foreground color of the radio button.
+'设置单选按钮的前景色。
 radio3.FillFormat.ForeColor = Color.LightGreen
  
-'Set the line style of the radio button.
+'设置单选按钮的线条样式。
 radio3.LineFormat.Style = MsoLineStyle.ThickThin
  
-'Set the weight of the radio button.
+'设置单选按钮的权重。
 radio3.LineFormat.Weight = 4
  
-'Set the line color of the radio button.
+'设置单选按钮的线条颜色。
 radio3.LineFormat.ForeColor = Color.Blue
  
-'Set the dash style of the radio button.
+'设置单选按钮的破折号样式。
 radio3.LineFormat.DashStyle = MsoLineDashStyle.Solid
  
-'Make the line format visible.
+'使行格式可见。
 radio3.LineFormat.IsVisible = True
  
-'Make the fill format visible.
+'使填充格式可见。
 radio3.FillFormat.IsVisible = True
  
-'Get the shapes.
+'获取形状。
 Dim shapeobjects() As Aspose.Cells.Shape = New Aspose.Cells.Shape() {box, radio1, radio2, radio3}
  
-'Group the shapes.
+'对形状进行分组。
 Dim group As Aspose.Cells.GroupShape = excelbook.Worksheets(0).Shapes.Group(shapeobjects)
  
-'Save the excel file.
+'保存excel文件。
 excelbook.Save("groupshapes.xls")
 ```
 

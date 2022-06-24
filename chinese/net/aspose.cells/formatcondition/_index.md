@@ -90,15 +90,15 @@ workbook.Save("output.xls");
 
 [VB.NET]
 
-'Instantiating a Workbook object
+'实例化一个 Workbook 目的
 Dim workbook As Workbook = New Workbook()
 Dim sheet As Worksheet = workbook.Worksheets(0)
  
-' Adds an empty conditional formatting
+'添加一个空的条件格式
 Dim index As Integer = sheet.ConditionalFormattings.Add()
 Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
  
-'Sets the conditional format range.
+'设置条件格式范围。
 Dim ca As CellArea = New CellArea()
 ca.StartRow = 0
 ca.EndRow = 0
@@ -112,17 +112,17 @@ ca.StartColumn = 1
 ca.EndColumn = 1
 fcs.AddArea(ca)
  
-'Adds condition.
+'添加条件。
 Dim conditionIndex As Integer = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100")
  
-'Adds condition.
+'添加条件。
 Dim conditionIndex2 As Integer = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100")
  
-'Sets the background color.
+'设置背景颜色。
 Dim fc As FormatCondition = fcs(conditionIndex)
 fc.Style.BackgroundColor = Color.Red
  
-'Saving the Excel file
+'保存 Excel 文件
 workbook.Save("output.xls")
 ```
 

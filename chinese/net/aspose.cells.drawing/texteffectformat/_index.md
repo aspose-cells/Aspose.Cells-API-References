@@ -48,7 +48,7 @@ workbook.Save("Book1.xls");
 
 [Visual Basic]
 
-'Instantiating a Workbook object
+'实例化一个工作簿对象
 Dim workbook As Workbook = New Workbook()
 Dim shapes As Aspose.Cells.Drawing.ShapeCollection = workbook.Worksheets(0).Shapes
 shapes.AddTextEffect(MsoPresetTextEffect.TextEffect1, "Aspose", "Arial", 30, false, false, 0, 0, 0, 0, 100, 200)

@@ -87,40 +87,40 @@ orkbook.Save("book1.xls");
 
 VB.NET]
 
-Instantiating a Workbook object
+实例化一个Workbook目的
 im workbook As Workbook = New Workbook()
 
-Obtaining the reference of the first worksheet
+获取第一个工作表的引用
 im worksheet As Worksheet = workbook.Worksheets(0)
 
-Adding a sample value to "A1" cell
+将样本值添加到至 "A1" cell
 orksheet.Cells("A1").PutValue(50)
 
-Adding a sample value to "A2" cell
+将样本值添加到至 "A2" cell
 orksheet.Cells("A2").PutValue(100)
 
-Adding a sample value to "A3" cell
+将样本值添加到至 "A3" cell
 orksheet.Cells("A3").PutValue(150)
 
-Adding a sample value to "B1" cell
+将样本值添加到至 "B1" cell
 orksheet.Cells("B1").PutValue(60)
 
-Adding a sample value to "B2" cell
+将样本值添加到至 "B2" cell
 orksheet.Cells("B2").PutValue(32)
 
-Adding a sample value to "B3" cell
+将样本值添加到 to "B3" cell
 orksheet.Cells("B3").PutValue(50)
 
-Adding a chart to the worksheet
+将图表添加到工作表
 im chartIndex As Integer = worksheet.Charts.Add(ChartType.PieExploded, 5, 0, 25, 10)
 
-Accessing the instance of the newly added chart
+访问新添加图表的实例
 im chart As Chart = worksheet.Charts(chartIndex)
 
-Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
+将 NSeries（图表数据源）添加到图表中，范围从“A1”单元格到“B3”
 hart.NSeries.Add("A1:B3", True)
 
-Show Data Labels 
+显示数据标签 
 hart.NSeries(0).DataLabels.IsValueShown = True
 
 im points As ChartPointCollection = chart.NSeries(0).Points
@@ -134,7 +134,7 @@ or i As Integer = 0 To points.Count - 1
    point.Border.Color = System.Drawing.Color.Red
 ext i
 
-Saving the Excel file
+保存 Excel 文件
 orkbook.Save("book1.xls")
 
 ```

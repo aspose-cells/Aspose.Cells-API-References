@@ -257,16 +257,16 @@ Pivot.AddFieldToArea(PivotFieldType.Data, "amount")
 
 pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10
 
-'Change PivotField's attributes
+'改变PivotField的属性
 Dim rowField As PivotField = pivot.RowFields(0)
 rowField.DisplayName = "custom display name"
 
-'Add PivotFilter
+'添加PivotFilter
 Dim filterIndex As Int32 = pivot.PivotFilters.Add(0, PivotFilterType.Count)
 Dim filter As PivotFilter = pivot.PivotFilters(filterIndex)
 filter.AutoFilter.FilterTop10(0, False, False, 2)
 
-'Add PivotFormatCondition
+'添加PivotFormatCondition
 Dim formatIndex As Int32 = pivot.PivotFormatConditions.Add()
 Dim pfc As PivotFormatCondition = pivot.PivotFormatConditions(formatIndex)
 Dim fcc As FormatConditionCollection = pfc.FormatConditions

@@ -79,33 +79,33 @@ Cell cell = cells.Find(0, null, findOptions);
 
 [VB.NET]
 
-'Instantiate the workbook object
+'实例化工作簿对象
 Dim workbook As New Workbook("book1.xls")
 
-'Get Cells collection 
+'获取细胞集合 
 Dim cells As Cells = workbook.Worksheets(0).Cells
 
-'Instantiate FindOptions Object
+'实例化 FindOptions 对象
 Dim findOptions As New FindOptions()
 
-'Create a Cells Area
+'创建单元格区域
 Dim ca As New CellArea()
 ca.StartRow = 8
 ca.StartColumn = 2
 ca.EndRow = 17
 ca.EndColumn = 13
 
-'Set cells area for find options
+'为查找选项设置单元格区域
 findOptions.SetRange(ca)
 
-'Set searching properties
+'设置搜索属性
 findOptions.SearchBackward = True
 
 findOptions.SeachOrderByRows = True
 
 findOptions.LookInType = LookInType.Values
 
-'Find the cell with 0 value
+'查找值为 0 的单元格
 Dim cell As Cell = cells.Find(0, Nothing, findOptions)
 
 ```

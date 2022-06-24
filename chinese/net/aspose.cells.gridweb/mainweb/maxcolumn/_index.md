@@ -25,7 +25,7 @@ public int MaxColumn { get; set; }
 	GridWeb1.MaxColumn = 6;
 
 [Visual Basic]
-	' Creates a 4x4 "display window".
+	' 创建一个 4x4 的“显示窗口”.
 	GridWeb1.MinRow = 2
 	GridWeb1.MaxRow = 5
 	GridWeb1.MinColumn = 3

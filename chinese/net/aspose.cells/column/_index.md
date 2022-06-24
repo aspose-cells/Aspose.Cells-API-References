@@ -71,36 +71,36 @@ workbook.Save("book1.xls");
 
 [VB.NET]
 
-'Instantiating a Workbook object
+'实例化一个 Workbook 目的
 Dim workbook As Workbook = New Workbook()
 
-'Obtaining the reference of the first worksheet
+'获取第一个参考 worksheet
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
 Dim style As Style = workbook.CreateStyle()
 
-'Setting the background color to Blue
+'将背景颜色设置为蓝色
 style.BackgroundColor = Color.Blue
 
-'Setting the foreground color to Red
+'将前景色设置为红色
 style.ForegroundColor = Color.Red
 
-'setting Background Pattern
+'设置背景图案
 style.Pattern = BackgroundType.DiagonalStripe
 
-'New Style Flag
+'新风格旗帜
 Dim styleFlag As New StyleFlag()
 
-'Set All Styles
+'设置所有样式
 styleFlag.All = True
 
-'Get first Column
+'获取第一列
 Dim column As Column = worksheet.Cells.Columns(0)
 
-'Apply Style to first Column
+'将样式应用于第一列
 column.ApplyStyle(style, styleFlag)
 
-'Saving the Excel file
+'保存 Excel 文件
 workbook.Save("book1.xls")
 ```
 

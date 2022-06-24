@@ -40,17 +40,17 @@ workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'Instantiating a Workbook object
+'实例化一个 Workbook 目的
 Dim workbook As Workbook = New Workbook("Book1.xlsx")
-// 获取第一个 Worksheet Cells.
+' 获取第一个 Worksheet Cells.
 Dim cells as Cells = workbook.Worksheets[0].Cells
 cells("A1").PutValue(1)
 cells("A2").PutValue(2)
 Dim source as Aspose.Cells.Range = cells.CreateRange("A1:A2")
 Dim target as Aspose.Cells.Range = cells.CreateRange("A3:A10")
-'fill 3,4,5....10 to the range A3:A10
+'将 3,4,5....10 填充到 A3:A10
 source.AutoFill(target)
-'Save the Excel file
+'保存Excel文件
 workbook.Save("book1.xlsm")
 ```
 

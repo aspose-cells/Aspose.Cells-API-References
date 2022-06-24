@@ -134,7 +134,7 @@ Pivot.AddFieldToArea(PivotFieldType.Data, "amount")
 
 pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10
 
-'Add PivotFilter
+'添加 PivotFilter
 Dim filterIndex As Int32 = pivot.PivotFilters.Add(0, PivotFilterType.Count)
 Dim filter As PivotFilter = pivot.PivotFilters(filterIndex)
 filter.AutoFilter.FilterTop10(0, False, False, 2)

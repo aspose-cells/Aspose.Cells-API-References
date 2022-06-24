@@ -55,19 +55,20 @@ workbook.Save("book1.xls");
 
 [Visual Basic]
 
-'Instantiating a Workbook object
+'实例化一个工作簿对象
 Dim workbook As Workbook = New Workbook()
-'Adding a new worksheet to the Workbook object
+'添加一个新的工作表到工作簿对象
 workbook.Worksheets.Add()
-'Obtaining the reference of the newly added worksheet by passing its sheet index
+'通过传递其工作表索引来获取新添加工作表的引用
 Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Adding a hyperlink to a URL at "A1" cell
+'在“A1”处添加指向 URL 的超链接 cell
 Dim index as Integer = worksheet.Hyperlinks.Add("A1", 1, 1, "http: //www.aspose.com")
-'Getting a Hyperlink by index.
+'通过index.
+
 Dim hyperlink as Hyperlink = worksheet.Hyperlinks(index);
-'Setting display text of this hyperlink.
+'设置此超链接的显示文本。
 hyperlink.TextToDisplay = "Aspose";
-'Saving the Excel file
+'保存Excel文件
 workbook.Save("book1.xls")
 ```
 

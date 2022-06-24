@@ -206,25 +206,25 @@ workbook.Save(@"tstcombobox.xls");
 
 [VB.NET]
 
-'Create a new Workbook.
+'创建一个新的工作簿。 
 Dim workbook As Workbook = New Workbook()
  
-'Get the first worksheet.
+'获取第一个工作表。
 Dim sheet As Worksheet = workbook.Worksheets(0)
  
-'Get the worksheet cells collection.
+'获取工作表单元格集合。
 Dim cells As Cells = sheet.Cells
  
-'Input a value.
+'输入一个值。
 cells("B3").PutValue("Employee:")
  
-'Set it bold.
+'设置为粗体。
 Dim style As Style = cells("B3").GetStyle()
 style.Font.IsBold = true
 cells("B3").SetStyle(style)
  
-'Input some values that denote the input range
-'for the combo box.
+'输入一些表示输入范围的值
+'对于组合框。
 cells("A2").PutValue("Emp001")
 cells("A3").PutValue("Emp002")
 cells("A4").PutValue("Emp003")
@@ -232,26 +232,26 @@ cells("A5").PutValue("Emp004")
 cells("A6").PutValue("Emp005")
 cells("A7").PutValue("Emp006")
  
-'Add a new combo box.
+'添加一个新的组合框。
 Dim comboBox As Aspose.Cells.Drawing.ComboBox = sheet.Shapes.AddComboBox(2, 0, 2, 0, 22, 100)
  
-'Set the linked cell;
+'设置链接单元格
 comboBox.LinkedCell = "A1"
  
-'Set the input range.
+'设置输入范围。
 comboBox.InputRange = "A2:A7"
  
-'Set no. of list lines displayed in the combo
-'box's list portion.
+'设置编号 组合中显示的列表行数
+'框的列表部分。
 comboBox.DropDownLines = 5
  
-'Set the combo box with 3-D shading.
+'使用 3-D 着色设置组合框。
 comboBox.Shadow = True
  
-'AutoFit Columns
+'自动调整列
 sheet.AutoFitColumns()
  
-'Saves the file.
+'保存文件。
 workbook.Save("tstcombobox.xls")
 
 ```

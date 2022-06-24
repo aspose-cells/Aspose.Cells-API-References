@@ -104,41 +104,41 @@ workbook.Save("book1.xls");
 
 [VB.NET]
 
-'Instantiating a Workbook object
+'实例化一个 Workbook 目的
 Dim workbook As Workbook = New Workbook()
 
-'Obtaining the reference of the first worksheet
+'获取第一个参考 worksheet
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-'Add new Style to Workbook
+'将新样式添加到 Workbook
 Dim style As Style = workbook.CreateStyles()
 
-'Setting the background color to Blue
+'将背景颜色设置为蓝色
 style.ForegroundColor = Color.Blue
 
-'setting Background Pattern
+'设置背景图案
 style.Pattern = BackgroundType.Solid
 
-'New Style Flag
+'新风格旗帜
 Dim styleFlag As New StyleFlag()
 
-'Set All Styles
+'设置所有样式
 styleFlag.All = True
 
-'Change the default width of first ten columns
+'更改前十列的默认宽度
 For i As Integer = 0 To 9
     worksheet.Cells.Columns(i).Width = 20
 Next i
 
-'Get the Column with non default formatting
+'获取具有非默认格式的列
 Dim columns As ColumnCollection = worksheet.Cells.Columns
 
 For Each column As Column In columns
-    'Apply Style to first ten Columns
+    '将样式应用于前十列
     column.ApplyStyle(style, styleFlag)
 Next column
 
-'Saving the Excel file
+'保存 Excel 文件
 workbook.Save("book1.xls")
 
 ```

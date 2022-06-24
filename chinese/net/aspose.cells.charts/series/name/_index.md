@@ -26,10 +26,10 @@ chart.NSeries[0].Name = "=A1";
 chart.NSeries[0].Name = "First Series";
 [Visual Basic]
 
-'Reference name to a cell
+'引用单元格的名称
 chart.NSeries[0].Name = "=A1"
 
-'Set a string to name
+'设置一个字符串来命名
 chart.NSeries[0].Name = "First Series"
 ```
 

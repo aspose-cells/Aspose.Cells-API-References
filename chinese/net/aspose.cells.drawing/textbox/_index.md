@@ -200,52 +200,52 @@ workbook.Save("tsttextboxes.xlsx");
 
 [Visual Basic]
 
-'Instantiate a new Workbook.
+'实例化一个新的工作簿。
 Dim workbook As Workbook = New Workbook()
-'Get the first worksheet in the book.
+'获取书中的第一个工作表。
 Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Add a new textbox to the collection.
+'向集合中添加一个新文本框。
 Dim textboxIndex As Integer = worksheet.TextBoxes.Add(2, 1, 160, 200)
-'Get the textbox object.
+'获取文本框对象。
 Dim textbox0 As Aspose.Cells.Drawing.TextBox = worksheet.TextBoxes(textboxIndex)
-'Fill the text.
+'填写文本。
 textbox0.Text = "ASPOSE______The .NET and JAVA Component Publisher!"
-'Set the textbox to adjust it according to its contents.
+'设置文本框以根据其内容进行调整。
 textbox0.TextBody.TextAlignment.AutoSize = True
-'Set the placement.
+'设置位置。
 textbox0.Placement = PlacementType.FreeFloating
-'Set the font color.
+'设置字体颜色。
 textbox0.Font.Color = Color.Blue
-'Set the font to bold.
+'将字体设置为粗体。
 textbox0.Font.IsBold = True
-'Set the font size.
+'设置字体大小。
 textbox0.Font.Size = 14
-'Set font attribute to italic.
+'将字体属性设置为斜体。
 textbox0.Font.IsItalic = True
-'Add a hyperlink to the textbox.
+'向文本框添加超链接。
 textbox0.AddHyperlink("http: //www.aspose.com/")
-'Get the filformat of the textbox.
+'获取文本框的文件格式。
 Dim fillformat As FillFormat = textbox0.Fill
-'Set the fillcolor.
+'设置填充颜色。
 fillformat.SolidFill.Color = Color.Silver
-'Get the lineformat type of the textbox.
+'获取文本框的 lineformat 类型。
 Dim lineformat As LineFormat = textbox0.Line
-'Set the line style.
+'设置线条样式.
 lineformat.CompoundType = MsoLineStyle.ThinThick
-'Set the line weight.
+'设置线宽。
 lineformat.Weight = 6
-'Set the dash style to squaredot.
+'将破折号样式设置为方点。
 lineformat.DashStyle = MsoLineDashStyle.SquareDot
-'Add another textbox.
+'添加另一个文本框。
 textboxIndex = worksheet.TextBoxes.Add(15, 4, 85, 120)
-'Get the second textbox.
+'获取第二个文本框。
 Dim textbox1 As Aspose.Cells.Drawing.TextBox = worksheet.TextBoxes(textboxIndex)
-'Input some text to it.
+'输入一些文字给它。
 textbox1.Text = "This is another simple text box"
-'Set the placement type as the textbox will move and
-'resize with cells.
+'将放置类型设置为文本框将移动和
+'用单元格调整大小。
 textbox1.Placement = PlacementType.MoveAndSize
-'Save the excel file.
+'保存 Excel 文件
 workbook.Save("tsttextboxes.xlsx")
 ```
 

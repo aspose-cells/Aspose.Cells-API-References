@@ -149,15 +149,15 @@ workbook.Save("result.xls");
 
 [Visual Basic]
 
-'Open a designer file
+'打开设计器文件
 Dim designerFile as String = "\designer.xls"
 Dim workbook as Workbook = new Workbook(designerFile)
 
-'Set scroll bars
+'设置滚动条
 workbook.IsHScrollBarVisible = False
 workbook.IsVScrollBarVisible = False
 
-'Replace the placeholder string with new values
+'用新值替换占位符字符串
 Dim newInt as Integer = 100
 workbook.Replace("OldInt", newInt)
 

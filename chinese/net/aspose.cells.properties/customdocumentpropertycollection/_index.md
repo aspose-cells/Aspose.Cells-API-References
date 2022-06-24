@@ -59,10 +59,10 @@ CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDo
 
 [VB.NET]
 
-'Instantiate a Workbook object
+'实例化一个工作簿对象
 Dim workbook As New Workbook("book1.xls")
 
-'Retrieve a list of all custom document properties of the Excel file
+'检索Excel文件的所有自定义文档属性列表
 Dim customProperties As CustomDocumentPropertyCollection = workbook.Worksheets.CustomDocumentProperties
 
 ```

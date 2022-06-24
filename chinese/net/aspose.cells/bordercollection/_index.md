@@ -85,50 +85,50 @@ workbook.Save("book1.xls");
 
 [VB.NET]
 
-'Instantiating a Workbook object
+'实例化一个工作簿对象
 Dim workbook As Workbook = New Workbook()
 
-'Adding a new worksheet to the Workbook object
+'将新工作表添加到 Workbook 对象
 workbook.Worksheets.Add()
 
-'Obtaining the reference of the newly added worksheet by passing its sheet index
+'通过传递其工作表索引来获取新添加工作表的引用
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-'Accessing the "A1" cell from the worksheet
+'从工作表访问“A1”单元格
 Dim cell As Cell = worksheet.Cells("A1")
 
-'Adding some value to the "A1" cell
+'增加一些价值 "A1" cell
 cell.PutValue("Visit Aspose!")
 
 Dim style as Style = cell.GetStyle()
 
-'Setting the line style of the top border
+'设置上边框线型
 style.Borders(BorderType.TopBorder).LineStyle = CellBorderType.Thick
 
-'Setting the color of the top border
+'设置上边框的颜色
 style.Borders(BorderType.TopBorder).Color = Color.Black
 
-'Setting the line style of the bottom border
+'设置下边框的线条样式
 style.Borders(BorderType.BottomBorder).LineStyle = CellBorderType.Thick
 
-'Setting the color of the bottom border
+'设置下边框的颜色
 style.Borders(BorderType.BottomBorder).Color = Color.Black
 
-'Setting the line style of the left border
+'设置左边框线型
 style.Borders(BorderType.LeftBorder).LineStyle = CellBorderType.Thick
 
-'Setting the color of the left border
+'设置左边框的颜色
 style.Borders(BorderType.LeftBorder).Color = Color.Black
 
-'Setting the line style of the right border
+'设置右边框的线型
 style.Borders(BorderType.RightBorder).LineStyle = CellBorderType.Thick
 
-'Setting the color of the right border
+'设置右边框的颜色
 style.Borders(BorderType.RightBorder).Color = Color.Black
 
 cell.SetStyle(style)
 
-'Saving the Excel file
+'保存 Excel 文件
 workbook.Save("book1.xls")
 ```
 

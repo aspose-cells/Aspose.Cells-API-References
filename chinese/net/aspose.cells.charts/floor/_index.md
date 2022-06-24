@@ -81,50 +81,51 @@ workbook.Save(@"dest.xls");
 
 [VB.NET]
 
-'Instantiate the License class
+'实例化License class
 Dim license As New Aspose.Cells.License()
 
-'Pass only the name of the license file embedded in the assembly
+'只传递嵌入在assembly
+
 license.SetLicense("Aspose.Cells.lic")
 
-'Instantiate the workbook object
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 
-'Get cells collection
+'获取细胞集合
 Dim cells As Cells = workbook.Worksheets(0).Cells
 
-'Put values in cells
+'将值放入单元格中
 cells("A1").PutValue(1)
 
 cells("A2").PutValue(2)
 
 cells("A3").PutValue(3)
 
-'get charts colletion
+'获取图表集合
 Dim charts As ChartCollection = workbook.Worksheets(0).Charts
 
-'add a new chart 
+'添加新图表 
 Dim index As Integer = charts.Add(ChartType.Column3DStacked, 5, 0, 15, 5)
 
-'get the newly added chart
+'获取新添加的图表
 Dim chart As Chart = charts(index)
 
-'set charts nseries
+'设置图表 nseries
 chart.NSeries.Add("A1:A3", True)
 
-'Show data labels
+'显示数据标签
 chart.NSeries(0).DataLabels.ShowValue = True
 
-'Get chart's floor
+'获取图表的楼层
 Dim floor As Floor = chart.Floor
 
-'set floor's border as red
+'将地板的边框设置为红色
 floor.Border.Color = System.Drawing.Color.Red
 
-'set fill format
+'设置填充格式
 floor.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2)
 
-'save the file
+'保存文件
 workbook.Save("dest.xls")
 
 ```

@@ -69,9 +69,9 @@ internal void SignSignature()
 [Visual Basic]
    Sub ValidateSignature()
    Dim workbook As Workbook = New Workbook("newfile.xlsx")
-   'Workbook.IsDigitallySigned is true when the workbook is signed already.
+   '当工作簿已签名时，Workbook.IsDigitallySigned 为真。
    System.Console.WriteLine(workbook.IsDigitallySigned)
-   'get digitalSignature collection from workbook
+   '从工作簿中获取 digitalSignature 集合
    Dim dsc As DigitalSignatureCollection = workbook.GetDigitalSignature()
    Dim ds As DigitalSignature
    For Each ds In dsc
@@ -82,15 +82,15 @@ internal void SignSignature()
 End Sub
 
 Sub SignSignature()
-   'dsc is signature collection contains one or more signature needed to sign
+   'dsc 是签名集合，包含签名所需的一个或多个签名
    Dim dsc As DigitalSignatureCollection = New DigitalSignatureCollection()
-   'cert must contain private key, it can be contructed from cert file or windows certificate collection.
+   'cert 必须包含私钥，它可以从 cert 文件或 windows 证书集合中构造。
    Dim cert As X509Certificate2 = New X509Certificate2("mykey2.pfx", "123456")
-   'create a signature with certificate, sign purpose and sign time
+   '创建带有证书、签名目的和签名时间的签名
    Dim ds As DigitalSignature = New DigitalSignature(cert, "test for sign", DateTime.Now)
    dsc.Add(ds)
    Dim workbook As Workbook = New Workbook()
-   'workbook.SetDigitalSignature sign all signatures in dsc
+   'workbook.SetDigitalSignature 签署 dsc 中的所有签名
    workbook.SetDigitalSignature(dsc)
    workbook.Save("newfile.xlsx")
 End Sub

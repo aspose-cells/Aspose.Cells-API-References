@@ -48,13 +48,13 @@ workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'Instantiating a Workbook object
+'实例化一个工作簿对象
 Dim workbook As Workbook = New Workbook()
-'Init VBA project.
+'初始化 VBA 项目。
 Dim vbaProject as VbaProject  = workbook.VbaProject
-'Add vba project reference
+'添加vba项目reference
 vbaProject.References.AddRegisteredReference("stdole", "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation")
-'Saving the Excel file
+'保存Excel文件
 workbook.Save("book1.xlsm")
 ```
 

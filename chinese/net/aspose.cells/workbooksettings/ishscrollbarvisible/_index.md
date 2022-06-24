@@ -28,7 +28,7 @@ public bool IsHScrollBarVisible { get; set; }
 settings.IsHScrollBarVisible = false;
 
 [Visual Basic]
-' Hide the horizontal scroll bar of the Excel file.
+'隐藏Excel文件的水平滚动条
 settings.IsHScrollBarVisible = False
 ```
 

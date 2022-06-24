@@ -56,16 +56,19 @@ DocumentProperty customProperty2 = customProperties["Owner"];
 
 [VB.NET]
 
-'Instantiate a Workbook object by calling its empty constructor
+'通过调用它的空构造函数
+ok对象
 Dim workbook As Workbook = New Workbook("book1.xls")
  
-'Retrieve a list of all custom document properties of the Excel file
+'检索Excel文件的所有自定义文档属性列表
 Dim customProperties As DocumentPropertyCollection = workbook.Worksheets.CustomDocumentProperties
  
-'Accessng a custom document property by using the property index
+'使用属性 index
+
 Dim customProperty1 As DocumentProperty = customProperties(3)
  
-'Accessng a custom document property by using the property name
+'使用属性名
+
 Dim customProperty2 As DocumentProperty = customProperties("Owner")
 
 ```

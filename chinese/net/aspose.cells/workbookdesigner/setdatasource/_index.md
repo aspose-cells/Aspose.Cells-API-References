@@ -75,32 +75,32 @@ wd.Workbook.Save("outSmartMarker_Designer.xls");
 
 [Visual Basic]
 
-'Create a connection object, specify the provider info and set the data source.
+'创建连接对象，指定提供者信息并设置数据源。
 Dim con As OleDbConnection = New OleDbConnection("provider=microsoft.jet.oledb.4.0;data source=Northwind.mdb")
-'Open the connection object.
+'打开连接对象。
 con.Open()
-'Create a command object and specify the SQL query.
+'创建命令对象并指定 SQL 查询。
 Dim cmd As OleDbCommand = New OleDbCommand("Select * from [Order Details]", con)
-'Create a data adapter object.
+'创建一个数据适配器对象。
 Dim da As OleDbDataAdapter = New OleDbDataAdapter()
-'Specify the command.
+'指定命令。
 da.SelectCommand = cmd
-'Create a dataset object.
+'创建一个数据集对象。
 Dim ds As DataSet = New DataSet()
-'Fill the dataset with the table records.
+'用表记录填充数据集。
 da.Fill(ds, "Order Details")
-'Create a datatable with respect to dataset table.
+'相对于数据集表创建一个数据表。
 Dim dt As DataTable = ds.Tables("Order Details")
-'Create WorkbookDesigner object.
+'创建 WorkbookDesigner 对象。
 Dim wd As WorkbookDesigner = New WorkbookDesigner()
-'Open the template file (which contains smart markers).
+'打开模板文件（其中包含智能标记）。
 Dim workbook As Workbook = New Workbook("SmartMarker_Designer.xls")
 wd.Workbook = workbook
-'Set the datatable as the data source.
+'将数据表设置为数据源。
 wd.SetDataSource(dt)
 'Process the smart markers to fill the data into the worksheets.
 wd.Process(True)
-'Save the excel file.
+'保存 Excel 文件。
 wd.Workbook.Save("outSmartMarker_Designer.xls")
 ```
 

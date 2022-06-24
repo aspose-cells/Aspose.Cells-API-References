@@ -205,36 +205,36 @@ workbook.Save(@"oleobjects.xls");
 
 [Visual Basic]
 
-'Instantiate a new Workbook.
+'实例化一个新的工作簿。
 Dim workbook As Workbook = New Workbook()
-'Get the first worksheet. 
+'获取第一个工作表。 
 Dim sheet As Worksheet = workbook.Worksheets(0)
-'Define a string variable to store the image path.
+'定义一个字符串变量来存储图像路径。
 Dim ImageUrl As String = @"school.jpg"
-'Get the picture into the streams.
+'将图片放入流中。
 Dim fs As FileStream = File.OpenRead(ImageUrl)
-'Define a byte array.
+'定义一个字节数组。
 Dim imageData(fs.Length) As Byte
-'Obtain the picture into the array of bytes from streams.
+'从流中获取图片到字节数组中。
 fs.Read(imageData, 0, imageData.Length)
-'Close the stream.
+'关闭流。
 fs.Close()
-'Get an excel file path in a variable.
+'在变量中获取 excel 文件路径。
 Dim path As String = @"Book1.xls"
 'Get the file into the streams.
 fs = File.OpenRead(path)
-'Define an array of bytes. 
+'定义一个字节数组。
 Dim objectData(fs.Length) As Byte
-'Store the file from streams.
+'从流中存储文件。
 fs.Read(objectData, 0, objectData.Length)
-'Close the stream.
+'关闭流。
 fs.Close()
-'Add an Ole object into the worksheet with the image
-'shown in MS Excel.
+'将 Ole 对象与图像一起添加到工作表中
+'显示在 MS Excel 中。
 sheet.OleObjects.Add(14, 3, 200, 220, imageData)
-'Set embedded ole object data.     
+'设置嵌入的ole对象数据。     
 sheet.OleObjects(0).ObjectData = objectData
-'Save the excel file
+'保存excel文件
 workbook.Save("oleobjects.xls")
 ```
 

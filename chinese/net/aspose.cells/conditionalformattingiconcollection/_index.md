@@ -133,21 +133,21 @@ workbook.Save("output.xls");
 
 [VB.NET]
 
-'Instantiating a Workbook object
+'实例化一个工作簿对象
 Dim workbook As Workbook = New Workbook()
 
 Dim sheet As Worksheet = workbook.Worksheets(0)
 
-'Get Conditional Formatting
+'获取条件格式
 Dim cformattings As ConditionalFormattingCollection = sheet.ConditionalFormattings
 
-'Adds an empty conditional formatting
+'添加一个空的条件格式
 Dim index As Integer = cformattings.Add()
 
-'Get newly added Conditional formatting
+'获取新添加的条件格式
 Dim fcs As FormatConditionCollection = cformattings(index)
 
-'Sets the conditional format range.
+'设置条件格式范围。
 Dim ca As New CellArea()
 
 ca.StartRow = 0
@@ -172,15 +172,15 @@ ca.EndColumn = 1
 
 fcs.AddArea(ca)
 
- //设置条件
+'设置条件
 Dim idx As Integer =fcs.AddCondition(FormatConditionType.IconSet)
 
 Dim cond As FormatCondition=fcs[idx]
 
- //设置条件的type
+'设置条件的type
 cfIcon.Type = IconSetType.ArrowsGray3
 
-'Add custom iconset  condition.
+'添加自定义图标集条件。
 Dim cfIcon As ConditionalFormattingIcon = cond.IconSet.CfIcons[0]
 
 cfIcon.Type = IconSetType.Arrows3
@@ -199,7 +199,7 @@ cfIcon2.Type = IconSetType.Boxes5
 
 cfIcon2.Index=2
 
-'Saving the Excel file
+'保存 Excel 文件
 workbook.Save("output.xls")
 ```
 

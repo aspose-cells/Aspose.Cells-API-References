@@ -62,12 +62,13 @@ worksheet.Protection.AllowSelectingUnlockedCell = true;
 
 [Visual Basic]
 
-'Instantiating a Workbook object
+'实例化一个工作簿对象
 Dim workbook As Workbook = New Workbook()
 Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Allowing users to select locked cells of the worksheet
+'允许用户选择工作表的锁定单元格
 worksheet.Protection.AllowSelectingLockedCell = True
-'Allowing users to select unlocked cells of the worksheet
+'允许用户选择worksheet
+
 worksheet.Protection.AllowSelectingUnlockedCell = True
 ```
 

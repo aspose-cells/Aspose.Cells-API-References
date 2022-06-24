@@ -89,11 +89,12 @@ line.Color = Color.Red;
 
 [Visual Basic]
 
-'Instantiating a Workbook object
+'实例化一个工作簿对象
 Dim workbook As Workbook = New Workbook()
-'Adding a new worksheet to the Excel object
+'向Excel对象添加新工作表
 Dim sheetIndex As Int32 = workbook.Worksheets.Add()
-'Obtaining the reference of the newly added worksheet by passing its sheet index
+'通过传入其sheet index
+et的引用
 Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
 worksheet.Cells("A1").PutValue(50)
 worksheet.Cells("A2").PutValue(100)
@@ -104,7 +105,7 @@ worksheet.Cells("B2").PutValue(32)
 worksheet.Cells("B3").PutValue(50)
 worksheet.Cells("B4").PutValue(40)
 
-'Adding a chart to the worksheet
+'将图表添加到工作表
 Dim chartIndex As Integer =  workbook.Worksheets(0).Charts.Add(ChartType.Column,3,3,15,10) 
 Dim chart As Chart =  workbook.Worksheets(0).Charts(chartIndex) 
 chart.NSeries.Add("A1:a3", True)

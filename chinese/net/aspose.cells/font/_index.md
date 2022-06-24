@@ -80,30 +80,30 @@ workbook.Save(@"dest.xls");
 
 [VB.NET]
 
-'Instantiating a Workbook object
+'实例化一个工作簿对象
 Dim workbook As Workbook = New Workbook()
 
-'Obtaining the reference of the newly added worksheet by passing its sheet index
+'通过传入其sheet index 获取新添加的worksheet的引用
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-'Accessing the "A1" cell from the worksheet
+'从访问“A1”单元格worksheet
 Dim cell As Aspose.Cells.Cell = worksheet.Cells("A1")
 
-'Adding some value to the "A1" cell
+'增加一些价值 "A1" cell
 cell.PutValue("Hello Aspose!")
 
 Dim font As Aspose.Cells.Font = cell.GetStyle().Font
 
-'Setting the font name to "Times New Roman"
+'设置字体名称为"Times New Roman"
 font.Name = "Times New Roman"
 
-'Setting font size to 14
+'将字体大小设置为 14
 font.Size = 14
 
-'setting font color as Red
+'将字体颜色设置为红色
 font.Color = System.Drawing.Color.Red
 
-'Saving the Excel file
+'保存Excel文件
 workbook.Save("dest.xls")
 ```
 

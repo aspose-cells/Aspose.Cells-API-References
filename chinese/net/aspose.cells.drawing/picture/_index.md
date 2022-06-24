@@ -184,16 +184,18 @@ workbook.Save("book1.xls", SaveFormat.Excel97To2003);
 
 [Visual Basic]
 
-'Instantiating a Workbook object
+'实例化一个工作簿对象
 Dim workbook As Workbook = New Workbook()
-'Adding a new worksheet to the Workbook object
+'添加一个新的工作表到工作簿对象
 Dim sheetIndex As Integer = workbook.Worksheets.Add()
-'Obtaining the reference of the newly added worksheet by passing its sheet index
+'通过传入其sheet index
+eet的引用
 Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
-'Adding a picture at the location of a cell whose row and column indices
-'are 5 in the worksheet. It is "F6" cell
+'在行列索引
+
+'在工作表中是 5。它是“F6” cell
 worksheet.Pictures.Add(5, 5, "image.gif")
-'Saving the Excel file
+'保存Excel文件
 workbook.Save("book1.xls", SaveFormat.Excel97To2003)
 ```
 

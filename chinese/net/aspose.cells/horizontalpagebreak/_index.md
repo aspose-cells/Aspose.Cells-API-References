@@ -44,16 +44,17 @@ HorizontalPageBreak hPageBreak = worksheet.HorizontalPageBreaks[Index];
 
 [VB.NET]
 
-'Instantiating a Workbook object
+'实例化一个工作簿对象
 Dim workbook As Workbook = New Workbook()
 
-'Obtaining the reference of the newly added worksheet by passing its sheet index
+'通过传入其sheet index
+eet的引用
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-'Add a page break at cell Y30
+'在单元格Y30
 Dim Index As Integer = worksheet.HorizontalPageBreaks.Add("Y30")
 
-'get the newly added horizontal page break
+'获取新添加的横向分页break
 Dim hPageBreak As HorizontalPageBreak = worksheet.HorizontalPageBreaks(Index)
 ```
 

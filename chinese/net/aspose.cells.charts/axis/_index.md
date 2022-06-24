@@ -107,41 +107,41 @@ workbook.Save("book1.xlsx");
 
 [Visual Basic]
 
-'Instantiating a Workbook object
+'实例化一个工作簿对象
 Dim workbook As Workbook = New Workbook()
-'Adding a new worksheet to the Excel object
+'向Excel对象添加新工作表
 Dim sheetIndex As Int32 = workbook.Worksheets.Add()
-'Obtaining the reference of the newly added worksheet by passing its sheet index
+'通过传递其工作表索引来获取新添加工作表的引用
 Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
-'Adding a sample value to "A1" cell
+'将样本值添加到至 "A1" cell
 worksheet.Cells("A1").PutValue(50)
-'Adding a sample value to "A2" cell
+'将样本值添加到至 "A2" cell
 worksheet.Cells("A2").PutValue(100)
-'Adding a sample value to "A3" cell
+'将样本值添加到至 "A3" cell
 worksheet.Cells("A3").PutValue(150)
-'Adding a sample value to "B1" cell
+'将样本值添加到至 "B1" cell
 worksheet.Cells("B1").PutValue(4)
-'Adding a sample value to "B2" cell
+'将样本值添加到至 "B2" cell
 worksheet.Cells("B2").PutValue(20)
-'Adding a sample value to "B3" cell
+'将样本值添加到至 "B3" cell
 worksheet.Cells("B3").PutValue(50)
-'Adding a chart to the worksheet
+'将图表添加到工作表
 Dim chartIndex As Int32 = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 5)
-'Accessing the instance of the newly added chart
+'访问新添加图表的实例
 Dim chart As Chart = worksheet.Charts(chartIndex)
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
+'将 NSeries（图表数据源）添加到图表中，范围从“A1”单元格到“B3”
 chart.NSeries.Add("A1:B3", True)
-'Set the max value of value axis
+'设置数值轴的最大值
 chart.ValueAxis.MaxValue = 200
-'Set the min value of value axis
+'设置数值轴的最小值
 chart.ValueAxis.MinValue = 0
-'Set the major unit
+'设置主要单位
 chart.ValueAxis.MajorUnit = 25
-'Category(X) axis crosses at the maxinum value.
+'Category(X) 轴在最大值处交叉。
 chart.ValueAxis.CrossType = CrossType.Maximum
-'Set he number of categories or series between tick-mark labels. 
+'在刻度线标签之间设置类别或系列的数量。 
 chart.CategoryAxis.TickLabelSpacing = 2
-'Saving the Excel file
+'保存 Excel 文件
 workbook.Save("book1.xlsx")
 ```
 

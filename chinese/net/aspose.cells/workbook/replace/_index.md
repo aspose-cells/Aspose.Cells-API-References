@@ -273,7 +273,7 @@ workbook.Replace("AnOldValue", myDataTable);
 
 Dim workbook As Workbook =  New Workbook() 
 Dim myDataTable As DataTable =  New DataTable("Customers") 
-' Adds data to myDataTable
+' 将数据添加到 myDataTable
 ............
 workbook.Replace("AnOldValue", myDataTable)
 ```

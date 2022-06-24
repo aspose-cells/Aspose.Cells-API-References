@@ -67,9 +67,9 @@ excel.Save("output.xls");
 
 [Visual Basic]
 
-'Creating a file stream containing the Excel file to be opened
+'创建包含要打开的 Excel 文件的文件流
 Dim fstream As FileStream = New FileStream("book1.xls", FileMode.Open)
-'Instantiating a Workbook object and Opening the Excel file through the file stream
+'实例化一个 Workbook 对象并通过文件流打开Excel文件
 Dim excel As Workbook = New Workbook(fstream)
 'Accessing the first worksheet in the Excel file
 Dim worksheet As Worksheet = excel.Worksheets(0)
@@ -77,7 +77,7 @@ Dim worksheet As Worksheet = excel.Worksheets(0)
 worksheet.Protect(ProtectionType.All, "aspose", DBNull.Value.ToString())
 'Saving the modified Excel file in default (that is Excel 20003) format
 excel.Save("output.xls")
-'Closing the file stream to free all resources
+'关闭文件流以释放所有资源
 fstream.Close()
 
 ```
