@@ -155,10 +155,10 @@ Dim workbook as Workbook = new Workbook()
 
 Dim sheet as Worksheet = workbook.Worksheets(0)
 
-'Freeze panes at "AS40" with 10 rows and 10 columns
+'在“AS40”处冻结10行10列的窗格
 sheet.FreezePanes("AS40", 10, 10)
 
-'Add a hyperlink in Cell A1
+'在单元格A1
 sheet.Hyperlinks.Add("A1", 1, 1, "http: //www.aspose.com")
 ```
 

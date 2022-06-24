@@ -61,15 +61,15 @@ workbook.Save("output.xls");
 
 [Visual Basic]
 
-'Instantiating a Workbook object
+'实例化一个工作簿对象
 Dim workbook As Workbook = New Workbook()
-'Accessing the first worksheet in the Excel file
+'访问Excel文件中的第一个工作表
 Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Creating a named range
+'创建一个命名范围
 Dim range As Range = worksheet.Cells.CreateRange("B4", "G14")
-'Setting the name of the named range
+'设置命名范围的名称
 range.Name = "TestRange"
-'Saving the modified Excel file in default (that is Excel 2000) format
+'默认保存修改后的Excel文件（即Excel 2000） format
 workbook.Save("output.xls")
 ```
 

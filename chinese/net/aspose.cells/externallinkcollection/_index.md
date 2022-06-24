@@ -45,10 +45,10 @@ workbook.Worksheets.ExternalLinks[0].DataSource = "d:\\link.xls";
 
 
 [Visual Basic]
-'Open a file with external links
+'打开带有外部链接的文件
 Dim workbook As Workbook =  New Workbook("book1.xls")
 
-'Change external link data source
+'更改外部链接数据源
 workbook.Worksheets.ExternalLinks(0).DataSource = "d:\\link.xls"
 ```
 

@@ -160,7 +160,7 @@ cell.SetStyle(style);
 Dim excel as Workbook = new Workbook()
 Dim cells as Cells = exce.Worksheets(0).Cells
 
-'Put a string into a cell
+//将一个字符串放入一个 cell
 Dim cell as Cell = cells(0, 0)
 cell.PutValue("Hello")
 

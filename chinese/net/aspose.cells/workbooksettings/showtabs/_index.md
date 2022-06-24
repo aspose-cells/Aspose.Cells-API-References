@@ -28,7 +28,7 @@ orkbook.Settings.ShowTabs = false;
 
 Visual Basic]
 
- Hide the spreadsheet tabs.
+ 隐藏电子表格标签。.
 orkbook.Settings.ShowTabs = False
 ```
 

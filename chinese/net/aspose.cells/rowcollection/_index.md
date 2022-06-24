@@ -47,12 +47,12 @@ Row row = worksheet.Cells.Rows[0];
 
 [VB.NET]
 
-'Instantiating a Workbook object
+'实例化一个 Workbook 目的
 Dim workbook As Workbook = New Workbook()
 
-'Obtaining the reference of the first worksheet
+'获取第一个参考 worksheet
 Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Get first row
+'获取第一行
 Dim row as Row = worksheet.Cells.Rows(0)
 ```
 

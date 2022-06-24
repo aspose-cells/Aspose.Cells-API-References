@@ -207,25 +207,25 @@ workbook.Save(@"tstlistbox.xls");
 
 [VB.NET]
 
-'Create a new Workbook.
+'创建一个新的工作簿.
 Dim workbook As Aspose.Cells.Workbook = New Aspose.Cells.Workbook()
  
-'Get the first worksheet.
+'获取第一个工作表.
 Dim sheet As Worksheet = workbook.Worksheets(0)
  
-'Get the worksheet cells collection.
+'获取工作表单元格集合。
 Dim cells As Cells = sheet.Cells
  
-'Input a value.
+'输入一个值。
 cells("B3").PutValue("Choose Dept:")
  
-'Set it bold.
+'设置为粗体。
 Dim style As Style = cells("B3").GetStyle()
 style.Font.IsBold = True
 cells("B3").SetStyle(style)
  
-'Input some values that denote the input range
-'for the list box.
+'输入一些表示输入范围的值
+'对于列表框.
 cells("A2").PutValue("Sales")
 cells("A3").PutValue("Finance")
 cells("A4").PutValue("MIS")
@@ -233,25 +233,25 @@ cells("A5").PutValue("R&D")
 cells("A6").PutValue("Marketing")
 cells("A7").PutValue("HRA")
  
-'Add a new list box.
+'添加一个新的列表框
 Dim listBox As Aspose.Cells.ListBox = sheet.Shapes.AddListBox(2, 0, 3, 0, 122, 100)
  
-'Set the placement type.
+'设置放置类型.
 listBox.Placement = PlacementType.FreeFloating
  
-'Set the linked cell.
+'设置链接单元格.
 listBox.LinkedCell = "A1"
  
-'Set the input range.
+'设置输入范围.
 listBox.InputRange = "A2:A7"
  
-'Set the selection tyle.
+'设置选择类型。
 listBox.SelectionType = SelectionType.Single
  
-'Set the list box with 3-D shading.
+'设置列表框为3-D着色。
 listBox.Shadow = True
  
-'Saves the file.
+'保存文件.
 workbook.Save("tstlistbox.xls")
 ```
 

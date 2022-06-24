@@ -199,52 +199,52 @@ excelbook.Save("tstarcs.xls");
 
 [VB..NET]
 
-Instantiate a new Workbook.
+实例化一个新的Workbook.
 im excelbook As Workbook = New Workbook()
 
-Add an arc shape.
+添加弧形。
 im arc1 As Aspose.Cells.Drawing.ArcShape = excelbook.Worksheets(0).Shapes.AddArc(2, 0, 2, 0, 130, 130)
 
-Set the placement of the arc.
+设置圆弧的位置。
 rc1.Placement = PlacementType.FreeFloating
 
-Set the fill format.
+设置填充格式。
 rc1.Fill.FillType = FillType.Solid
 rc1.Fill.SolidFill.Color = Color.Blue
 
-Set the line style.
+设置线条样式。
 rc1.Line.CompoundType = MsoLineStyle.Single
 
-Set the line weight.
+设置线宽。
 rc1.Line.Weight = 2
 
-Set the color of the arc line.
+设置弧线的颜色。
 rc1.Line.FillType = FillType.Solid
 rc1.Line.SolidFill.Color = Color.Red
 
-Set the dash style of the arc.
+设置圆弧的虚线样式。
 rc1.Line.DashStyle = MsoLineDashStyle.Solid
 
-Add another arc shape.
+添加另一个弧形。
 im arc2 As Aspose.Cells.Drawing.ArcShape = excelbook.Worksheets(0).Shapes.AddArc(9, 0, 2, 0, 130, 130)
 
-Set the placement of the arc.
+设置圆弧的位置。
 rc2.Placement = PlacementType.FreeFloating
 
-Set the line style.
+设置线条样式。
 rc2.Line.CompoundType = MsoLineStyle.Single
 
-Set the line weight.
+设置线宽。
 rc2.Line.Weight = 1
 
-Set the color of the arc line.
+设置弧线的颜色。
 rc2.Line.FillType = FillType.Solid
 rc2.Line.SolidFill.Color = Color.Blue
 
 Set the dash style of the arc.
 rc2.Line.DashStyle = MsoLineDashStyle.Solid
 
-Save the excel file.
+保存 Excel 文件
 xcelbook.Save("tstarcs.xls")
 ```
 

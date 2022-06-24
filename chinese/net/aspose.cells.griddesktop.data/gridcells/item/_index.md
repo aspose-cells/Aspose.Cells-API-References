@@ -63,7 +63,7 @@ Cell cell = cells[0, 0];	 //获取“A1”处的单元格
 [Visual Basic]
 
 Dim cells As Cells =  excel.WorkSheets(0).Cells
-Dim cell As Cell =  cells(0,0)  'Gets the cell at "A1"
+Dim cell As Cell =  cells(0,0)  '获取“A1”处的单元格
 ```
 
 ### 也可以看看
@@ -102,7 +102,7 @@ Cell cell = cells["A1"];	 //获取“A1”处的单元格
 [Visual Basic]
 
 Dim cells As Cells =  excel.Worksheets(0).Cells
-Dim cell As Cell =  cells("A1")  'Gets the cell at "A1"
+Dim cell As Cell =  cells("A1")  '获取“A1”处的单元格
 ```
 
 ### 也可以看看

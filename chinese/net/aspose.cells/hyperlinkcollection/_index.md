@@ -82,19 +82,20 @@ workbook.Save("book1.xls");
 
 [VB.NET]
 
-'Instantiating a Workbook object
+'实例化一个工作簿对象
 Dim workbook As Workbook = New Workbook()
 
-'Obtaining the reference of the newly added worksheet by passing its sheet index
+'通过传入其sheet index
+eet的引用
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-'Get Hyperlinks Collection
+'获取超链接集合
 Dim hyperlinks As HyperlinkCollection = worksheet.Hyperlinks
 
-'Adding a hyperlink to a URL at "A1" cell
+'在“A1”处添加指向 URL 的超链接 cell
 hyperlinks.Add("A1", 1, 1, "http: //www.aspose.com")
 
-'Saving the Excel file
+'保存Excel文件
 workbook.Save("book1.xls")
 ```
 

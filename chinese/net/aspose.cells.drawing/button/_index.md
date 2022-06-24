@@ -182,35 +182,35 @@ public class Button : Shape
 
  [VB.NET]
  
- 'Create a new Workbook.
+ '创建一个新的工作簿。
  Dim workbook As Workbook = New Workbook()
  
- 'Get the first worksheet in the workbook.
+ '获取工作簿中的第一个工作表。
  Dim sheet As Worksheet = workbook.Worksheets(0)
  
- 'Add a new button to the worksheet.
+ '向工作表添加一个新按钮。
  Dim button As Aspose.Cells.Drawing.Button = sheet.Shapes.AddButton(2, 0, 2, 0, 28, 80)
  
- 'Set the caption of the button.
+ '设置按钮的标题.
  button.Text = "Aspose"
  
- 'Set the Placement Type, the way the
- 'button is attached to the cells.
+ '设置Placement Type，方式为the
+ '按钮附加到单元格.
  button.Placement = PlacementType.FreeFloating
  
- 'Set the font name.
+ '设置字体名称.
  button.Font.Name = "Tahoma"
  
- 'Set the caption string bold.
+ '设置标题字符串加粗.
  button.Font.IsBold = True
  
- 'Set the color to blue.
+ '设置颜色为蓝色.
  button.Font.Color = Color.Blue
  
- 'Set the hyperlink for the button.
+ '设置按钮的超链接
  button.AddHyperlink("http: //www.aspose.com/")
  
- 'Saves the file.
+ '保存文件.
  workbook.Save("tstbutton.xls")
 ```
 

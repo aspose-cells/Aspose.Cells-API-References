@@ -86,15 +86,15 @@ workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'Instantiating a Workbook object
+'实例化一个 Workbook 目的
 Dim workbook As Workbook = New Workbook()
-'Get the first Worksheet Cells.
+'获得第一个 Worksheet Cells.
 Dim cells as Cells = workbook.Worksheets[0].Cells
-'Create a range (A1:D3).
+'创建一个 range (A1:D3).
 Dim range as Range = cells.CreateRange("A1", "D3")
-'Set value to the range.
+'将值设置为 range.
 range.Value = "Hello"
-'Save the Excel file
+'保存 Excel 文件
 workbook.Save("book1.xlsm")
 ```
 

@@ -87,12 +87,14 @@ cells(3,1).PutValue(30000)
 		
 Dim chartIndex as Integer = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15)     ///
 Dim chart as Chart = sheet.Charts(chartIndex)
-'Applying a dotted line style on the lines of an NSeries
+'在 NSeries
+
 chart.NSeries(0).Border.Style = LineType.Dot
 chart.NSeries(0).Border.Color = Color.Red
-'Applying a triangular marker style on the data markers of an NSeries
+'在 NSeries
+记样式
 chart.NSeries(0).Marker.MarkerStyle = ChartMarkerType.Triangle
-'Setting the weight of all lines in an NSeries to medium
+'将NSeries中所有行的权重设置为medium
 chart.NSeries(0).Border.Weight = WeightType.MediumLine
 ```
 

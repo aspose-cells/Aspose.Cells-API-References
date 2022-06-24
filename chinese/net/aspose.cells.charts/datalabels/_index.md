@@ -99,20 +99,23 @@ for (int i = 0; i  <chart.NSeries.Count; i++)
 
 [Visual Basic]
 
-'Set the DataLabels in the chart
+'设置图表中的DataLabels
 Dim datalabels As DataLabels
 Dim i As Integer
 For i = 0 To chart.NSeries.Count - 1 Step 1
     datalabels = chart.NSeries(i).DataLabels
-    'Set the position of DataLabels
+    '设置DataLabels
+
     datalabels.Position = LabelPositionType.InsideBase
-    'Show the category name in the DataLabels
+    '在DataLabels
+
     datalabels.ShowCategoryName= True
-    'Show the value in the DataLabels
+    '在 DataLabels 中显示值
     datalabels.ShowValue = True
-    'Not show the percentage in the DataLabels
+    '不显示DataLabels
+
     datalabels.ShowPercentage = False
-    'Not show the legend key.
+    '不显示图例键.
     datalabels.ShowLegendKey = False
 Next
 ```

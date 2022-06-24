@@ -121,17 +121,17 @@ workbook.Save("book1.xlsx");
 
 [VB.NET]
 
-'Instantiating a Workbook object
+'实例化一个工作簿对象
 Dim workbook As Workbook = New Workbook()
 
 Dim sheet As Worksheet = workbook.Worksheets(0)
 
-'Adds an empty conditional formatting
+'添加一个空的条件格式
 Dim index As Integer = sheet.ConditionalFormattings.Add()
 
 Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
 
-'Sets the conditional format range.
+'设置条件格式范围。
 Dim ca As New CellArea()
 
 ca.StartRow = 0
@@ -144,19 +144,19 @@ ca.EndColumn = 0
 
 fcs.AddArea(ca)
 
-'Adds condition.
+'添加条件。
 Dim idx As Integer = fcs.AddCondition(FormatConditionType.DataBar)
 
 fcs.AddArea(ca)
 
 Dim cond As FormatCondition = fcs(idx)
 
-'Get Databar
+'得到 Databar
 Dim dataBar As DataBar = cond.DataBar
 
 dataBar.Color = Color.Orange
 
-'Set Databar properties
+'放 Databar 特性
 dataBar.MinCfvo.Type = FormatConditionValueType.Percentile
 
 dataBar.MinCfvo.Value = 30
@@ -181,7 +181,7 @@ dataBar.BarBorder.Color = Color.Plum
  
  dataBar.NegativeBarFormat.BorderColor = Color.Yellow
 
-'Put Cell Values
+'放置单元格值
 Dim cell1 As Aspose.Cells.Cell = sheet.Cells("A1")
 
 cell1.PutValue(10)
@@ -194,7 +194,7 @@ Dim cell3 As Aspose.Cells.Cell = sheet.Cells("A3")
 
 cell3.PutValue(260)
 
-'Saving the Excel file
+'保存 Excel 文件
 workbook.Save("book1.xlsx")
 
 ```

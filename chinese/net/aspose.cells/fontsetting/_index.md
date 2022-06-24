@@ -73,31 +73,31 @@ workbook.Save("book1.xls");
 
 [VB.NET]
 
-'Instantiating a Workbook object
+'实例化一个 Workbook 目的
 Dim workbook As Workbook = New Workbook()
 
-'Adding a new worksheet to the Excel object
+'添加一个新的 worksheet 到 Excel 对象
 workbook.Worksheets.Add()
 
-'Obtaining the reference of the newly added worksheet by passing its sheet index
+'获取新添加的引用 worksheet 通过传递其工作表索引
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-'Accessing the "A1" cell from the worksheet
+'从访问“A1”单元格 worksheet
 Dim cell As Aspose.Cells.Cell = worksheet.Cells("A1")
 
-'Adding some value to the "A1" cell
+'增加一些价值 "A1" cell
 cell.PutValue("Visit Aspose!")
 
-'getting charactor
+'得到 charactor
 Dim charactor As FontSetting = cell.Characters(6, 7)
 
-'Setting the font of selected characters to bold
+'将所选字符的字体设置为粗体
 charactor.Font.IsBold = True
 
-'Setting the font color of selected characters to blue
+'将所选字符的字体颜色设置为蓝色
 charactor.Font.Color = Color.Blue
 
-'Saving the Excel file
+'保存 Excel 文件
 workbook.Save("book1.xls")
  
 ```

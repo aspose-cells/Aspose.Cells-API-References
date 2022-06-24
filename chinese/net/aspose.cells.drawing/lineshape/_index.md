@@ -194,46 +194,46 @@ workbook.Save("tstlines.xls");
 
 [VB.NET]
 
-'Instantiate a new Workbook.
+'实例化一个新的Workbook.
 Dim workbook As Workbook = New Workbook()
  
-'Get the first worksheet in the book.
+'获取书中的第一个工作表.
 Dim worksheet As Worksheet = workbook.Worksheets(0)
  
-'Add a new line to the worksheet.
+'在工作表中添加一个新行。
 Dim line1 As Aspose.Cells.Drawing.LineShape = worksheet.Shapes.AddLine(5, 0, 1, 0, 0, 250)
  
-'Set the line dash style
+'设置划线样式
 line1.Line.DashStyle = MsoLineDashStyle.Solid
  
-'Set the placement.
+'设置位置。
 line1.Placement = PlacementType.FreeFloating
  
-'Add another line to the worksheet.
+'在工作表中添加另一行。
 Dim line2 As Aspose.Cells.Drawing.LineShape = worksheet.Shapes.AddLine(7, 0, 1, 0, 85, 250)
  
-'Set the line dash style.
+'设置划线样式。
 line2.Line.DashStyle = MsoLineDashStyle.DashLongDash
  
-'Set the weight of the line.
+'设置线的重量。
 line2.Line.Weight = 4
  
-'Set the placement.
+'设置位置。
 line2.Placement = PlacementType.FreeFloating
  
-'Add the third line to the worksheet.
+'将第三行添加到工作表。
 Dim line3 As Aspose.Cells.Drawing.LineShape = worksheet.Shapes.AddLine(13, 0, 1, 0, 0, 250)
  
-'Set the line dash style
+'设置划线样式
 line3.Line.DashStyle = MsoLineDashStyle.Solid
  
-'Set the placement.
+'设置位置。
 line3.Placement = PlacementType.FreeFloating
  
-'Make the gridlines invisible in the first worksheet.
+'使网格线在第一个工作表中不可见。
 workbook.Worksheets(0).IsGridlinesVisible = False
  
-'Save the excel file.
+'保存excel文件.
 workbook.Save("tstlines.xls") 
 ```
 

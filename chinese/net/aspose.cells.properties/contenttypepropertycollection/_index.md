@@ -71,11 +71,11 @@ workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'Instantiating a Workbook object
+'实例化一个工作簿对象
 Dim workbook As Workbook = New Workbook()
 'Add a new property.
  workbook.ContentTypeProperties.Add("Admin", "Aspose", "text")
-'Save the Excel file
+'保存Excel文件
 workbook.Save("book1.xlsm")
 ```
 

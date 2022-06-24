@@ -69,16 +69,16 @@ workbook.Save("output.xls");
 
 [Visual Basic]
    
-'Creating a file stream containing the Excel file to be opened
-'Instantiating a Workbook object
+//创建包含要打开的 Excel 文件的文件流
+//实例化工作簿对象
 Dim workbook As Workbook = New Workbook("template.xlsx")
-'Accessing the first worksheet in the Excel file
+//访问 Excel 文件中的第一个工作表
 Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Creating AutoFilter by giving the cells range of the heading row
+//通过给出标题行的单元格范围来创建自动筛选
 worksheet.AutoFilter.Range = "A1:B1"
-'Filtering columns with specified values
+//过滤具有指定值的列
 Worksheet.AutoFilter.Filter(1, "Bananas")
-'Saving the modified Excel file 
+//保存修改后的 Excel 文件 
 workbook.Save("output.xls")
 ```
 

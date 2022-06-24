@@ -116,13 +116,13 @@ Dim excel as Workbook = new Workbook()
 
 Dim sheets as WorksheetCollection = excel.Worksheets
 
-'Add a worksheet
+'添加工作表
 sheets.Add()
 
-'Change the name of a worksheet
+'更改工作表的名称
 sheets(0).Name = "First Sheet"
 
-'Set the active sheet to the second worksheet
+'将活动工作表设置为第二个工作表
 sheets.ActiveSheetIndex = 1
 ```
 

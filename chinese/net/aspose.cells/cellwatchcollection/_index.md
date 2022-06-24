@@ -77,11 +77,11 @@ sheet.CellWatches.Add("B2");
 
  [Visual Basic]
 
-'Instantiating a Workbook object
+//实例化一个 Workbook 目的
 Dim workbook As Workbook = New Workbook()
-'Get the first Worksheet.
+//获得第一个 Worksheet.
 Dim sheet as Worksheet = workbook.Worksheets(0);
-'Add Cell Watch Item into the watch window
+//将单元格监视项添加到监视窗口
 sheet.CellWatches.Add("B2")
 ```
 

@@ -172,27 +172,27 @@ orkbook.Save("tstlabel.xls");
 
 VB.NET]
 
-reate a new Workbook.
+建一个新的工作簿.
 im workbook As Workbook = New Workbook()
 
-Get the first worksheet in the workbook.
+获取工作簿中的第一个工作表。
 im sheet As Worksheet = workbook.Worksheets(0)
 
-Add a new label to the worksheet.
+给工作表添加一个新标签。
 im label As Aspose.Cells.Drawing.Label = sheet.Shapes.AddLabel(2, 0, 2, 0, 60, 120)
 
-Set the caption of the label.
+设置标签的标题。
 abel.Text = "This is a Label"
 
-Set the Placement Type, the way the
-label is attached to the cells.
+设置Placement Type，方式为the
+标签附加到单元格.
 abel.Placement = PlacementType.FreeFloating
 
-Set the fill color of the label.
+设置标签的填充颜色.
 abel.Fill.FillType = FillType.Solid
 abel.Fill.SolidFill.Color = Color.Yellow
 
-Saves the file.
+保存文件.
 orkbook.Save("tstlabel.xls")
 ```
 

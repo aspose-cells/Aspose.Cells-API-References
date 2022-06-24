@@ -111,7 +111,7 @@ Dim excel as Workbook = new Workbook()
 
 Dim sheets as WorksheetCollection = excel.Worksheets
 
-'Add a worksheet
+'添加工作表
 sheets.Add()
 Dim sheet as Worksheet = sheets(1)
 Dim pageSetup as PageSetup = sheet.PageSetup

@@ -78,31 +78,31 @@ workbook.Save("outBook.xls");
 
 [Visual Basic]
 
-'Instantiate a new Workbook object.
+'实例化一个新的Workbook对象.
 Dim workbook As Workbook = New Workbook("Book1.xls")
-'Get the workbook datasorter object.
+'获取工作簿数据排序器对象.
 Dim sorter As DataSorter = workbook.DataSorter
-'Set the first order for datasorter object
+'设置datasorter对象的第一顺序
 sorter.Order1 = Aspose.Cells.SortOrder.Descending
-'Define the first key.
+'定义第一个key.
 sorter.Key1 = 0
 'Set the second order for datasorter object.
 sorter.Order2 = Aspose.Cells.SortOrder.Ascending
-'Define the second key.
+'定义第二个key.
 sorter.Key2 = 1
-'Create a cells area (range).
+'创建一个单元格区域（范围）.
 Dim ca As CellArea = New CellArea
-'Specify the start row index.
+'指定起始行索引。
 ca.StartRow = 0
-'Specify the start column index.
+'指定起始列索引。
 ca.StartColumn = 0
-'Specify the last row index.
+'指定最后一行索引。
 ca.EndRow = 13
-'Specify the last column index.
+'指定最后一列索引。
 ca.EndColumn = 1
-'Sort the data in the specified data range (A1:B14)
+'对指定数据范围内的数据进行排序（A1:B14）
 sorter.Sort(workbook.Worksheets(0).Cells, ca)
-'Save the excel file.
+'保存 Excel 文件
 workbook.Save("outBook.xls")
 
 ```

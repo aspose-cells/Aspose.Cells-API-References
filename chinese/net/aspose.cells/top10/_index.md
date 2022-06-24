@@ -58,27 +58,27 @@ workbook.Save("output.xls");
 
 [VB.NET]
 
-'Instantiating a Workbook object
+'实例化一个工作簿对象
 Dim workbook As Workbook = New Workbook()
 Dim sheet As Worksheet = workbook.Worksheets(0)
  
-' Adds an empty conditional formatting
+' 添加一个空的条件格式
 Dim index As Integer = sheet.ConditionalFormattings.Add()
 Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
  
-'Sets the conditional format range.
+'设置条件格式范围.
 Dim ca As CellArea = CellArea.CreateCellArea(0, 0, 10, 10)
 fcs.AddArea(ca)
  
-'Adds condition.
+'添加条件。
 Dim conditionIndex As Integer = fcs.AddCondition(FormatConditionType.Top10, OperatorType.None, null, null);   
 'Sets the background color.
 Dim fc As FormatCondition = fcs(conditionIndex)
 fc.Style.BackgroundColor = Color.Red
 Dim top10 as Top10  = fc.Top10
-'Set the Top N 
+'设置前 N 个 
 top10.Rank = 5
-'Saving the Excel file
+'保存 Excel 文件
 workbook.Save("output.xls")
 ```
 

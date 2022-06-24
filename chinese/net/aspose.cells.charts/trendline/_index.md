@@ -116,54 +116,55 @@ workbook.Save("book1.xls");
 
 [Visual Basic]
 
-'Instantiating a Workbook object
+'实例化一个工作簿对象
 Dim workbook As Workbook = New Workbook()
-'Adding a new worksheet to the Excel object
+'向Excel对象添加新工作表
 Dim sheetIndex As Int32 = workbook.Worksheets.Add()
-'Obtaining the reference of the newly added worksheet by passing its sheet index
+'通过传入其sheet index
+eet的引用
 Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
-'Adding a sample value to "A1" cell
+'向“A1”添加样本值 cell
 worksheet.Cells("A1").PutValue(50)
-'Adding a sample value to "A2" cell
+'向“A2”添加样本值 cell
 worksheet.Cells("A2").PutValue(100)
-'Adding a sample value to "A3" cell
+'向“A3”添加样本值 cell
 worksheet.Cells("A3").PutValue(150)
-'Adding a sample value to "A4" cell
+'向“A4”添加样本值 cell
 worksheet.Cells("A4").PutValue(200)
-'Adding a sample value to "B1" cell
+'向“B1”添加样本值 cell
 worksheet.Cells("B1").PutValue(60)
-'Adding a sample value to "B2" cell
+'向“B2”添加样本值 cell
 worksheet.Cells("B2").PutValue(32)
-'Adding a sample value to "B3" cell
+'向“B3”添加样本值 cell
 worksheet.Cells("B3").PutValue(50)
-'Adding a sample value to "B4" cell
+'向“B4”添加样本值 cell
 worksheet.Cells("B4").PutValue(40)
-'Adding a sample value to "C1" cell as category data
+'将样本值添加到“C1”单元格作为类别 data
 worksheet.Cells("C1").PutValue("Q1")
-'Adding a sample value to "C2" cell as category data
+'将样本值添加到“C2”单元格作为类别 data
 worksheet.Cells("C2").PutValue("Q2")
-'Adding a sample value to "C3" cell as category data
+'将样本值添加到“C3”单元格作为类别 data
 worksheet.Cells("C3").PutValue("Y1")
-'Adding a sample value to "C4" cell as category data
+'将样本值添加到“C4”单元格作为类别 data
 worksheet.Cells("C4").PutValue("Y2")
-'Adding a chart to the worksheet
+'将图表添加到工作表
 Dim chartIndex As Int32 = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5)
-'Accessing the instance of the newly added chart
+'访问新添加图表的实例
 Dim chart As Chart = worksheet.Charts(chartIndex)
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B4"
+'将 NSeries（图表数据源）添加到图表中，范围从“A1”单元格到“B4”
 chart.NSeries.Add("A1:B4", True)
-'Setting the data source for the category data of NSeries
+'为 NSeries 的类别数据设置数据源
 Chart.NSeries.CategoryData = "C1:C4"
-'adding a linear trendline
+'添加线性趋势线
 Dim index As Int32 = chart.NSeries(0).TrendLines.Add(TrendlineType.Linear)
 Dim trendline As Trendline = chart.NSeries(0).TrendLines(index)
-'Setting the custom name of the trendline.
+'设置趋势线的自定义名称。
 trendline.Name = "Linear"
-'Displaying the equation on chart
+'在图表上显示方程
 trendline.DisplayEquation = True
-'Displaying the R-Squared value on chart
+'在图表上显示 R 平方值
 trendline.DisplayRSquared = True
-'Saving the Excel file
+'保存 Excel 文件
 workbook.Save("book1.xls")
 ```
 

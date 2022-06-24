@@ -49,20 +49,20 @@ workbook.Save("book1.xlsx");
 
 [Visual Basic]
 
-'Instantiating a Workbook object
+'实例化一个工作簿对象
 Dim workbook As Workbook = New Workbook()
 Dim cells As Cells = workbook.Worksheets(0).Cells
 cells("A1").PutValue("Hello World")
-'Get the cell style
+'获取单元格样式
 Dim style As Style = cells("A1").GetStyle()
-'Set ThemeColorType.Text2 color type with 40% lighten as the font color.
+'设置 ThemeColorType.Text2 颜色类型 40% 变亮为字体颜色.
 Style.Font.ThemeColor = New ThemeColor(ThemeColorType.Text2, 0.4)
 Style.Pattern = BackgroundType.Solid
-'Set ThemeColorType.Background2 color type with 75% darken as the foreground color
+'设置 ThemeColorType.Background2 颜色类型 75% 变暗为前景色
 style.ForegroundThemeColor = New ThemeColor(ThemeColorType.Background2, -0.75)
-'Set the cell style
+'设置单元格样式
 cells("A1").SetStyle(style)
-'Saving the Excel file
+'保存 Excel 文件
 Workbook.Save("book1.xlsx")
 ```
 

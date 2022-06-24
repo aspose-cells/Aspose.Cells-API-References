@@ -53,7 +53,7 @@ Dim g as GridJsWorkbook = new GridJsWorkbook()
 Dim gsettings as GridWorkbookSettings = new GridWorkbookSettings()
  g.Settings=gsettings;
  
-'do your business
+'做你的事
 ```
 
 ### 也可以看看

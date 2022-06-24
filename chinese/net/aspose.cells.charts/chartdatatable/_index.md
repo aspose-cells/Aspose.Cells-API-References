@@ -84,51 +84,51 @@ workbook.Save("book1.xls");
 
 [VB.NET]
 
-'Instantiating a Workbook object
+'实例化一个Workbook目的
 Dim workbook As Workbook = New Workbook()
 
 'Obtaining the reference of the first worksheet
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-'Adding a sample value to "A1" cell
+'将样本值添加到至 "A1" cell
 worksheet.Cells("A1").PutValue(50)
 
-'Adding a sample value to "A2" cell
+ "A2" cell
 worksheet.Cells("A2").PutValue(100)
 
-'Adding a sample value to "A3" cell
+'将样本值添加到至 "A3" cell
 worksheet.Cells("A3").PutValue(150)
 
-'Adding a sample value to "B1" cell
+'将样本值添加到至 "B1" cell
 worksheet.Cells("B1").PutValue(60)
 
-'Adding a sample value to "B2" cell
+'将样本值添加到至 "B2" cell
 worksheet.Cells("B2").PutValue(32)
 
-'Adding a sample value to "B3" cell
+'将样本值添加到至 "B3" cell
 worksheet.Cells("B3").PutValue(50)
 
-'Adding a chart to the worksheet
+'将图表添加到工作表
 Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10)
 
-'Accessing the instance of the newly added chart
+'访问新添加图表的实例
 Dim chart As Chart = worksheet.Charts(chartIndex)
 
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
+'将 NSeries（图表数据源）添加到图表中，范围从“A1”单元格到“B3”
 chart.NSeries.Add("A1:B3", True)
 
 chart.ShowDataTable = True
 
-'Getting Chart Table
+'获取图表表
 Dim chartTable As ChartDataTable = chart.ChartDataTable
 
-'Setting Chart Table Font Color
+'设置图表表格字体颜色
 chartTable.Font.Color = System.Drawing.Color.Red
 
-'Setting Legend Key VisibilityOptions
+'设置图例键 VisibilityOptions
 chartTable.ShowLegendKey = False
 
-'Saving the Excel file
+'保存 Excel 文件
 workbook.Save("book1.xls")
 
 ```

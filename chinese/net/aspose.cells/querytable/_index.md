@@ -45,14 +45,14 @@ string address = qt.ResultRange.Address;
 
 [VB.NET]
 
-'Instantiating a Workbook object
+'实例化一个工作簿对象
 Dim workbook As Workbook = New Workbook()
 
-'Obtaining the reference of the first worksheet
+'获取第一个参考 worksheet
 Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Getting the first query table in the worksheet
+'获取第一个查询表 worksheet
 QueryTable qt = worksheet.QueryTables[0];
-'Getting display address of the query table.
+'获取查询表的显示地址。
 string address = qt.ResultRange.Address;
 ```
 

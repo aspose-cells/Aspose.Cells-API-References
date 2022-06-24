@@ -47,13 +47,13 @@ externalLink.DataSource = "d:\\link.xls";
 
 [VB.NET]
 
-'Open a file with external links
+'打开带有外部链接的文件
 Dim workbook As New Workbook("book1.xls")
 
-'Get External Link 
+'获取外部链接
 Dim externalLink As ExternalLink = workbook.Worksheets.ExternalLinks(0)
 
-'Change External Link's Data Source
+'更改外部链接的数据源
 externalLink.DataSource = "d:\link.xls"
 ```
 

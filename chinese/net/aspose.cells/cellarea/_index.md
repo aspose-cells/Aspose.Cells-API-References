@@ -47,7 +47,7 @@ ca.EndColumn = 0;
 
 [VB.NET]
 
-'Create Cell Area
+'创建单元格区域
 Dim ca As CellArea = New CellArea()
 ca.StartRow = 0
 ca.EndRow = 0
