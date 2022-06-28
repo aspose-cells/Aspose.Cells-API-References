@@ -63,7 +63,7 @@ Cell cell = cells[0, 0];	 // Получает ячейку в "A1"
 [Visual Basic]
 
 Dim cells As Cells =  excel.WorkSheets(0).Cells
-Dim cell As Cell =  cells(0,0)  'Gets the cell at "A1"
+Dim cell As Cell =  cells(0,0)  ' Получает ячейку в "A1"
 ```
 
 ### Смотрите также
@@ -102,7 +102,7 @@ Cell cell = cells["A1"];	 // Получает ячейку в "A1"
 [Visual Basic]
 
 Dim cells As Cells =  excel.Worksheets(0).Cells
-Dim cell As Cell =  cells("A1")  'Gets the cell at "A1"
+Dim cell As Cell =  cells("A1")  ' Получает ячейку в "A1"
 ```
 
 ### Смотрите также

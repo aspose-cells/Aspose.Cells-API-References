@@ -97,45 +97,45 @@ chart.NSeries[seriesIndex].Area.FillFormat.SetOneColorGradient(Color.Lime, 1, Gr
 
 [Visual Basic]
 
-Instantiating a Workbook object
+Создание экземпляра рабочей книги object
 Dim workbook As Workbook = New Workbook()
-'Adding a new worksheet to the Excel object
+'Добавление нового рабочего листа в Excel object
 Dim sheetIndex As Int32 = workbook.Worksheets.Add()
-'Obtaining the reference of the newly added worksheet by passing its sheet index
+'Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
 Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
-'Adding a sample value to "A1" cell
+'Добавление значения выборки в "A1" cell
 worksheet.Cells("A1").PutValue(50)
-'Adding a sample value to "A2" cell
+'Добавление значения выборки в "A2" cell
 worksheet.Cells("A2").PutValue(100)
-'Adding a sample value to "A3" cell
+'Добавление значения выборки в "A3" cell
 worksheet.Cells("A3").PutValue(150)
-'Adding a sample value to "A4" cell
+'Добавление значения выборки в "A4" cell
 worksheet.Cells("A4").PutValue(200)
-'Adding a sample value to "B1" cell
+'Добавление значения выборки в "B1" cell
 worksheet.Cells("B1").PutValue(60)
-'Adding a sample value to "B2" cell
+'Добавление значения выборки в "B2" cell
 worksheet.Cells("B2").PutValue(32)
-'Adding a sample value to "B3" cell
+'Добавление значения выборки в "B3" cell
 worksheet.Cells("B3").PutValue(50)
-'Adding a sample value to "B4" cell
+'Добавление значения выборки в "B4" cell
 worksheet.Cells("B4").PutValue(40)
-'Adding a sample value to "C1" cell as category data
+'Добавление образца значения в ячейку "C1" как категория data
 worksheet.Cells("C1").PutValue("Q1")
-'Adding a sample value to "C2" cell as category data
+'Добавление образца значения в ячейку "C2" как категория data
 worksheet.Cells("C2").PutValue("Q2")
-'Adding a sample value to "C3" cell as category data
+'Добавление образца значения в ячейку "C3" как категория data
 worksheet.Cells("C3").PutValue("Y1")
-'Adding a sample value to "C4" cell as category data
+'Добавление образца значения в ячейку "C4" как категория data
 worksheet.Cells("C4").PutValue("Y2")
-'Adding a chart to the worksheet
+'Добавление диаграммы на рабочий лист
 Dim chartIndex As Int32 = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5)
-'Accessing the instance of the newly added chart
+'Доступ к экземпляру вновь добавленной диаграммы
 Dim chart As Chart = worksheet.Charts(chartIndex)
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B4"
+'Добавление NSeries (источника данных диаграммы) на диаграмму в диапазоне от ячейки "A1" до "B4"
 Dim seriesIndex As Int32 = chart.NSeries.Add("A1:B4", True)
-'Setting the data source for the category data of NSeries
+'Установка источника данных для данных категории NSeries
 chart.NSeries.CategoryData = "C1:C4"
-'Filling the area of the 2nd NSeries with a gradient
+'Заливка области 2-го NSeries градиентом
 chart.NSeries(seriesIndex).Area.FillFormat.SetOneColorGradient(Color.Lime, 1, GradientStyleType.Horizontal, 1)
 ```
 

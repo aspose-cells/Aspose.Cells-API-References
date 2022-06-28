@@ -105,41 +105,41 @@ workbook.Save("book1.xlsx");
 
 [Visual Basic]
 
-'Instantiating a Workbook object
+'Создание экземпляра рабочей книги object
 Dim workbook As Workbook = New Workbook()
-'Adding a new worksheet to the Excel object
+'Добавление нового рабочего листа в Excel object
 Dim sheetIndex As Int32 = workbook.Worksheets.Add()
-'Obtaining the reference of the newly added worksheet by passing its sheet index
+'Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
 Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
-'Adding a sample value to "A1" cell
+'Добавление значения выборки в "A1" cell
 worksheet.Cells("A1").PutValue(50)
-'Adding a sample value to "A2" cell
+'Добавление значения выборки в "A2" cell
 worksheet.Cells("A2").PutValue(100)
-'Adding a sample value to "A3" cell
+'Добавление значения выборки в "A3" cell
 worksheet.Cells("A3").PutValue(150)
-'Adding a sample value to "B1" cell
+'Добавление образца значения в "B1" cell
 worksheet.Cells("B1").PutValue(4)
-'Adding a sample value to "B2" cell
+'Добавление образца значения в "B2" cell
 worksheet.Cells("B2").PutValue(20)
-'Adding a sample value to "B3" cell
+'Добавление образца значения в "B3" cell
 worksheet.Cells("B3").PutValue(50)
-'Adding a chart to the worksheet
+'Добавление диаграммы на лист
 Dim chartIndex As Int32 = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 5)
-'Accessing the instance of the newly added chart
+'Доступ к экземпляру только что добавленного chart
 Dim chart As Chart = worksheet.Charts(chartIndex)
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
+'Добавление NSeries (источника данных диаграммы) на диаграмму в диапазоне от ячейки "A1" до "B3"
 chart.NSeries.Add("A1:B3", True)
-'Set the max value of value axis
+'Установите максимальное значение оси значений
 chart.ValueAxis.MaxValue = 200
-'Set the min value of value axis
+'Установите минимальное значение оси значений
 chart.ValueAxis.MinValue = 0
-'Set the major unit
+'Установите основную единицу
 chart.ValueAxis.MajorUnit = 25
-'Category(X) axis crosses at the maxinum value.
+'Ось категории (X) пересекает максимальное значение.
 chart.ValueAxis.CrossType = CrossType.Maximum
-'Set he number of categories or series between tick-mark labels. 
+'Установите количество категорий или серий между галочками. 
 chart.CategoryAxis.TickLabelSpacing = 2
-'Saving the Excel file
+'Сохранение файла Excel
 workbook.Save("book1.xlsx")
 ```
 

@@ -105,13 +105,13 @@ cells(3,1).PutValue(30000)
 Dim chartIndex as Integer = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15)      ///
 Dim chart as Chart = sheet.Charts(chartIndex)
 
-'Setting the title of a chart
+'Установка заголовка диаграммы
 chart.Title.Text = "Title"
-'Setting the font color of the chart title to blue
+'Установка цвета шрифта заголовка диаграммы на blue
 chart.Title.Font.Color = Color.Blue
-'Setting the title of category axis of the chart
+'Установка заголовка оси категорий диаграммы
 chart.CategoryAxis.Title.Text = "Category"
-'Setting the title of value axis of the chart
+'Установка заголовка оси значений диаграммы
 chart.ValueAxis.Title.Text = "Value"
 
 ```

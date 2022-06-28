@@ -25,7 +25,7 @@ public int MinRow { get; set; }
 	GridWeb1.MaxColumn = 6;
 
 [Visual Basic]
-	' Creates a 4x4 "display window".
+	' Создает "окно дисплея" 4x4.
 	GridWeb1.MinRow = 2
 	GridWeb1.MaxRow = 5
 	GridWeb1.MinColumn = 3

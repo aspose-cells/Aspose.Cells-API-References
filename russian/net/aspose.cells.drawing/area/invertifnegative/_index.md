@@ -49,31 +49,31 @@ workbook.Save("book1.xls");
 
 [Visual Basic]
 
-'Instantiating a Workbook object
+'Создание экземпляра рабочей книги object
 Dim workbook As Workbook = New Workbook()
-'Adding a new worksheet to the Workbook object
+'Добавление нового рабочего листа в рабочую книгу object
 Dim sheetIndex As Integer = workbook.Worksheets.Add()
-'Obtaining the reference of the newly added worksheet by passing its sheet index
+'Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
 Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
-'Adding a sample value to "A1" cell
+'Добавление значения выборки в "A1" cell
 worksheet.Cells("A1").PutValue(50)
-'Adding a sample value to "A2" cell
+'Добавление значения выборки в "A2" cell
 worksheet.Cells("A2").PutValue(-100)
-'Adding a sample value to "A3" cell
+'Добавление значения выборки в "A3" cell
 worksheet.Cells("A3").PutValue(150)
-'Adding a chart to the worksheet
+'Добавление диаграммы на лист
 Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5)
-'Accessing the instance of the newly added chart
+'Доступ к экземпляру только что добавленного chart
 Dim chart As Chart = worksheet.Charts(chartIndex)
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "A3"
+'Добавление NSeries (источника данных диаграммы) на диаграмму в диапазоне от ячейки "A1" до "A3"
 chart.NSeries.Add("A1:A3", True)
 chart.NSeries(0).Area.InvertIfNegative = True
-'Setting the foreground color of the 1st NSeries area
+'Установка цвета переднего плана 1-го NSeries area
 chart.NSeries(0).Area.ForegroundColor = Color.Red
-'Setting the background color of the 1st NSeries area.
-'The displayed area color of second chart point will be the background color.
+'Установка цвета фона 1-й области NSeries.
+' Цвет отображаемой области второй точки графика будет цветом фона.
 chart.NSeries(0).Area.BackgroundColor = Color.Yellow
-'Saving the Excel file
+'Сохранение файла Excel
 workbook.Save("book1.xls")
 
 ```

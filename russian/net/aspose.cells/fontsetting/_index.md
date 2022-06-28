@@ -71,31 +71,31 @@ workbook.Save("book1.xls");
 
 [VB.NET]
 
-'Instantiating a Workbook object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
 
-'Adding a new worksheet to the Excel object
+'Добавление нового рабочего листа в объект Excel
 workbook.Worksheets.Add()
 
-'Obtaining the reference of the newly added worksheet by passing its sheet index
+'Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-'Accessing the "A1" cell from the worksheet
+'Доступ к ячейке "A1" из рабочего листа
 Dim cell As Aspose.Cells.Cell = worksheet.Cells("A1")
 
-'Adding some value to the "A1" cell
+'Добавление некоторого значения в ячейку "A1"
 cell.PutValue("Visit Aspose!")
 
-'getting charactor
+'получение характера
 Dim charactor As FontSetting = cell.Characters(6, 7)
 
-'Setting the font of selected characters to bold
+'Установка шрифта выбранных символов жирным шрифтом
 charactor.Font.IsBold = True
 
-'Setting the font color of selected characters to blue
+'Установка цвета шрифта выбранных символов на синий
 charactor.Font.Color = Color.Blue
 
-'Saving the Excel file
+'Сохранение файла Excel
 workbook.Save("book1.xls")
  
 ```

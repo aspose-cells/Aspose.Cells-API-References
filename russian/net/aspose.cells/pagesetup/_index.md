@@ -111,7 +111,7 @@ Dim excel as Workbook = new Workbook()
 
 Dim sheets as WorksheetCollection = excel.Worksheets
 
-'Add a worksheet
+'Добавить рабочий лист
 sheets.Add()
 Dim sheet as Worksheet = sheets(1)
 Dim pageSetup as PageSetup = sheet.PageSetup

@@ -83,50 +83,50 @@ workbook.Save("book1.xls");
 
 [VB.NET]
 
-'Instantiating a Workbook object
+'Создание экземпляра рабочей книги object
 Dim workbook As Workbook = New Workbook()
 
-'Adding a new worksheet to the Workbook object
+'Добавление нового рабочего листа в Excel object
 workbook.Worksheets.Add()
 
-'Obtaining the reference of the newly added worksheet by passing its sheet index
+'Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-'Accessing the "A1" cell from the worksheet
+'Доступ к ячейке "A1" из worksheet
 Dim cell As Cell = worksheet.Cells("A1")
 
-'Adding some value to the "A1" cell
+'Добавление некоторого значения в "A1" cell
 cell.PutValue("Visit Aspose!")
 
 Dim style as Style = cell.GetStyle()
 
-'Setting the line style of the top border
+'Настройка стиля линии верхней границы
 style.Borders(BorderType.TopBorder).LineStyle = CellBorderType.Thick
 
-'Setting the color of the top border
+'Установка цвета верхней границы
 style.Borders(BorderType.TopBorder).Color = Color.Black
 
-'Setting the line style of the bottom border
+'Настройка стиля линии нижней границы
 style.Borders(BorderType.BottomBorder).LineStyle = CellBorderType.Thick
 
-'Setting the color of the bottom border
+'Установка цвета нижней границы
 style.Borders(BorderType.BottomBorder).Color = Color.Black
 
-'Setting the line style of the left border
+'Настройка стиля линии левой границы
 style.Borders(BorderType.LeftBorder).LineStyle = CellBorderType.Thick
 
-'Setting the color of the left border
+'Установка цвета левой границы
 style.Borders(BorderType.LeftBorder).Color = Color.Black
 
-'Setting the line style of the right border
+'Настройка стиля линии правой границы
 style.Borders(BorderType.RightBorder).LineStyle = CellBorderType.Thick
 
-'Setting the color of the right border
+'Установка цвета правой границы
 style.Borders(BorderType.RightBorder).Color = Color.Black
 
 cell.SetStyle(style)
 
-'Saving the Excel file
+'Сохранение файла Excel
 workbook.Save("book1.xls")
 ```
 

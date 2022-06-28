@@ -110,16 +110,16 @@ Dim chartIndex as Integer = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15)
 Dim chart as Chart = sheet.Charts(chartIndex)
 chart.SetChartDataRange("A1:B4", True);
  
-'Set Legend's width and height
+'Установить ширину и высоту легенды
 Dim legend as Legend = chart.Legend
 
-'Legend is at right side of chart by default.
-'If the legend is at left or right side of the chart, setting Legend.X property will not take effect.
-'If the legend is at top or bottom side of the chart, setting Legend.Y property will not take effect.
+'Легенда по умолчанию находится в правой части графика.
+'Если легенда находится слева или справа от графика, установка свойства Legend.X не вступит в силу.
+'Если легенда находится в верхней или нижней части графика, установка свойства Legend.Y не вступит в силу.
 legend.Y = 1500
 legend.Width = 50
 legend.Height = 50
-'Set legend's position
+'Установить позицию легенды
 legend.Position = LegendPositionType.Left
 ```
 

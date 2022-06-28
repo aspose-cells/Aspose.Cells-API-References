@@ -182,16 +182,16 @@ workbook.Save("book1.xls", SaveFormat.Excel97To2003);
 
 [Visual Basic]
 
-'Instantiating a Workbook object
+'Создание экземпляра рабочей книги object
 Dim workbook As Workbook = New Workbook()
-'Adding a new worksheet to the Workbook object
+'Добавление нового рабочего листа в рабочую книгу object
 Dim sheetIndex As Integer = workbook.Worksheets.Add()
-'Obtaining the reference of the newly added worksheet by passing its sheet index
+'Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
 Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
-'Adding a picture at the location of a cell whose row and column indices
-'are 5 in the worksheet. It is "F6" cell
+'Добавление картинки на место ячейки, у которой индексы строки и столбца
+'есть 5 на листе. Это "F6" cell
 worksheet.Pictures.Add(5, 5, "image.gif")
-'Saving the Excel file
+'Сохранение файла Excel
 workbook.Save("book1.xls", SaveFormat.Excel97To2003)
 ```
 

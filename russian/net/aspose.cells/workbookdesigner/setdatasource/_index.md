@@ -75,32 +75,32 @@ wd.Workbook.Save("outSmartMarker_Designer.xls");
 
 [Visual Basic]
 
-'Create a connection object, specify the provider info and set the data source.
+'Создаем объект подключения, указываем информацию о провайдере и устанавливаем источник данных.
 Dim con As OleDbConnection = New OleDbConnection("provider=microsoft.jet.oledb.4.0;data source=Northwind.mdb")
-'Open the connection object.
+'Открываем объект подключения.
 con.Open()
-'Create a command object and specify the SQL query.
+'Создаем командный объект и указываем SQL-запрос.
 Dim cmd As OleDbCommand = New OleDbCommand("Select * from [Order Details]", con)
-'Create a data adapter object.
+'Создаем объект адаптера данных.
 Dim da As OleDbDataAdapter = New OleDbDataAdapter()
-'Specify the command.
+'Указываем команду.
 da.SelectCommand = cmd
-'Create a dataset object.
+'Создаем объект набора данных.
 Dim ds As DataSet = New DataSet()
-'Fill the dataset with the table records.
+'Заполняем набор данных записями таблицы.
 da.Fill(ds, "Order Details")
-'Create a datatable with respect to dataset table.
+'Создаем таблицу данных относительно таблицы набора данных.
 Dim dt As DataTable = ds.Tables("Order Details")
-'Create WorkbookDesigner object.
+'Создать объект WorkbookDesigner.
 Dim wd As WorkbookDesigner = New WorkbookDesigner()
-'Open the template file (which contains smart markers).
+'Откройте файл шаблона (который содержит смарт-маркеры).
 Dim workbook As Workbook = New Workbook("SmartMarker_Designer.xls")
 wd.Workbook = workbook
-'Set the datatable as the data source.
+'Установите datatable в качестве источника данных.
 wd.SetDataSource(dt)
-'Process the smart markers to fill the data into the worksheets.
+'Обработайте смарт-маркеры, чтобы заполнить данные на рабочих листах.
 wd.Process(True)
-'Save the excel file.
+'Сохраняем файл Excel.
 wd.Workbook.Save("outSmartMarker_Designer.xls")
 ```
 

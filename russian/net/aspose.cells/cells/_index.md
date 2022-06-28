@@ -250,20 +250,20 @@ object[,] arr = cells.ExportArray(0, 0, 10, 10);
 Dim excel as Workbook = new Workbook()
 Dim cells as Cells = excel.Worksheets(0).Cells
 
-'Set default row height
+'Установить высоту строки по умолчанию
 cells.StandardHeight = 20
-'Set row height
+'Установить высоту строки
 cells.SetRowHeight(2, 20.5)
 
-'Set default colum width
+'Установить ширину столбца по умолчанию
 cells.StandardWidth = 15
-'Set column width
+'Установить ширину столбца
 cells.SetColumnWidth(3, 12.57)
 
-'Merge cells
+'Объединить ячейки
 cells.Merge(5, 4, 2, 2)
 
-'Export data
+'Экспорт data
 Dim outDataTable as DataTable = cells.ExportDataTable(12, 12, 10, 10)
 ```
 

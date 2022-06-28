@@ -92,22 +92,22 @@ book.Worksheets[0].Charts[0].ToImage("chart.png", options);
 
 [VB.NET]
 
-'Set Image Or Print Options
+'Установить параметры изображения или печати
 Dim options As New ImageOrPrintOptions()
 
-'Set output image format
+'Установить выходное изображение format
 options.ImageType = ImageType.Png
 
-'Set Horizontal resolution
+'Установить горизонтальное разрешение
 options.HorizontalResolution = 300
 
-'Set Vertical Resolution
+'Установить вертикальное разрешение
 options.VerticalResolution = 300
 
-'Instantiate Workbook
+'Создать экземпляр Workbook
 Dim book As New Workbook("test.xls")
 
-'Save chart as Image using ImageOrPrint Options
+'Сохранить диаграмму как изображение с помощью ImageOrPrint Options
 book.Worksheets(0).Charts(0).ToImage("chart.png", options)
 ```
 

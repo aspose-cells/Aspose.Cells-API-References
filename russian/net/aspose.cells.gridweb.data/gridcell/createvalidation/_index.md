@@ -29,7 +29,7 @@ public GridValidation CreateValidation(GridValidationType validationType, bool i
 	
 [Visual Basic]
 	Dim v As Validation =  cell1.CreateValidation(GridValidationType.CustomExpression,True) 
-	 ' Sets to number validation expression.
+	 ' Устанавливает выражение проверки числа.
 	v.RegEx = "\\d+"
 ```
 

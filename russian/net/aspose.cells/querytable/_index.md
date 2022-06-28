@@ -43,14 +43,14 @@ string address = qt.ResultRange.Address;
 
 [VB.NET]
 
-'Instantiating a Workbook object
+'Создание экземпляра рабочей книги object
 Dim workbook As Workbook = New Workbook()
 
-'Obtaining the reference of the first worksheet
+'Получение ссылки на первый worksheet
 Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Getting the first query table in the worksheet
+'Получение первой таблицы запросов в worksheet
 QueryTable qt = worksheet.QueryTables[0];
-'Getting display address of the query table.
+'Получение отображаемого адреса таблицы запросов.
 string address = qt.ResultRange.Address;
 ```
 

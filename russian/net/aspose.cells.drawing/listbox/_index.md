@@ -207,25 +207,25 @@ workbook.Save(@"tstlistbox.xls");
 
 [VB.NET]
 
-'Create a new Workbook.
+'Создать новую книгу.
 Dim workbook As Aspose.Cells.Workbook = New Aspose.Cells.Workbook()
  
-'Get the first worksheet.
+'Получить первый рабочий лист.
 Dim sheet As Worksheet = workbook.Worksheets(0)
  
-'Get the worksheet cells collection.
+'Получить коллекцию ячеек рабочего листа.
 Dim cells As Cells = sheet.Cells
  
-'Input a value.
+'Введите значение.
 cells("B3").PutValue("Choose Dept:")
  
-'Set it bold.
+'Выделите его полужирным шрифтом.
 Dim style As Style = cells("B3").GetStyle()
 style.Font.IsBold = True
 cells("B3").SetStyle(style)
  
-'Input some values that denote the input range
-'for the list box.
+'Введите некоторые значения, обозначающие входной диапазон
+'для списка.
 cells("A2").PutValue("Sales")
 cells("A3").PutValue("Finance")
 cells("A4").PutValue("MIS")
@@ -233,25 +233,25 @@ cells("A5").PutValue("R&D")
 cells("A6").PutValue("Marketing")
 cells("A7").PutValue("HRA")
  
-'Add a new list box.
+'Добавить новый список.
 Dim listBox As Aspose.Cells.ListBox = sheet.Shapes.AddListBox(2, 0, 3, 0, 122, 100)
  
-'Set the placement type.
+'Задаем тип размещения.
 listBox.Placement = PlacementType.FreeFloating
  
-'Set the linked cell.
+'Установить связанную ячейку.
 listBox.LinkedCell = "A1"
  
-'Set the input range.
+'Установить диапазон ввода.
 listBox.InputRange = "A2:A7"
  
-'Set the selection tyle.
+'Установить стиль выделения
 listBox.SelectionType = SelectionType.Single
  
-'Set the list box with 3-D shading.
+'Установите поле списка с трехмерным затенением.
 listBox.Shadow = True
  
-'Saves the file.
+'Сохраняет файл.
 workbook.Save("tstlistbox.xls")
 ```
 

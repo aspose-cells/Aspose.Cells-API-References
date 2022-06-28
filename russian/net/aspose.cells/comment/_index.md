@@ -76,13 +76,13 @@ workbook.Save("exmaple.xlsx");
 Dim workbook as Workbook = new Workbook()
 Dim comments as CommentCollection = workbook.Worksheets(0).Comments
  
-'Add comment to cell A1
+'Добавить комментарий к ячейке A1
 Dim commentIndex1 as Integer = comments.Add(0, 0)
 Dim comment1 as Comment = comments(commentIndex1)
 comment1.Note = "First note."
 comment1.Font.Name = "Times New Roman"
 
-'Add comment to cell B2
+'Добавить комментарий к ячейке B2
 comments.Add("B2")
 Dim comment2 As Comment = comments("B2")
 comment2.Note = "Second note."

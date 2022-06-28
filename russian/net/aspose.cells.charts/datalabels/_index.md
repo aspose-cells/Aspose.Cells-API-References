@@ -95,20 +95,20 @@ for (int i = 0; i  <chart.NSeries.Count; i++)
 
 [Visual Basic]
 
-'Set the DataLabels in the chart
+'Устанавливаем метки данных в chart
 Dim datalabels As DataLabels
 Dim i As Integer
 For i = 0 To chart.NSeries.Count - 1 Step 1
     datalabels = chart.NSeries(i).DataLabels
-    'Set the position of DataLabels
+    'Устанавливаем позицию DataLabels
     datalabels.Position = LabelPositionType.InsideBase
-    'Show the category name in the DataLabels
+    'Показать название категории в DataLabels
     datalabels.ShowCategoryName= True
-    'Show the value in the DataLabels
+    'Показать значение в DataLabels
     datalabels.ShowValue = True
-    'Not show the percentage in the DataLabels
+    'Не показывать процент в DataLabels
     datalabels.ShowPercentage = False
-    'Not show the legend key.
+    'Не показывать ключ легенды.
     datalabels.ShowLegendKey = False
 Next
 ```

@@ -75,13 +75,13 @@ workbook.Save("output.xls");
 
 [Visual Basic]
 
-'Instantiating a Workbook object
+'Создать новую книгу.
 Dim workbook As Workbook = New Workbook()
 Dim sheet As Worksheet = workbook.Worksheets(0)
-' Adds an empty conditional formatting
+' Получить первый рабочий лист.
 Dim index As Integer = sheet.ConditionalFormattings.Add()
 Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
-'Sets the conditional format range.
+'Задает диапазон условного формата.
 Dim ca As CellArea = New CellArea()
 ca.StartRow = 0
 ca.EndRow = 0
@@ -94,14 +94,14 @@ ca.EndRow = 1
 ca.StartColumn = 1
 ca.EndColumn = 1
 fcs.AddArea(ca)
-'Adds condition.
+'Добавляет условие.
 Dim conditionIndex As Integer = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100")
-'Adds condition.
+'Добавляет условие.
 Dim conditionIndex2 As Integer = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100")
-'Sets the background color.
+'Устанавливает цвет фона.
 Dim fc As FormatCondition = fcs(conditionIndex)
 fc.Style.BackgroundColor = Color.Red
-'Saving the Excel file
+'Сохранение файла Excel
 workbook.Save("output.xls")
 ```
 

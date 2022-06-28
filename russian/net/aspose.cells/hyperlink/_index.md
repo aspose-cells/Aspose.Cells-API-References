@@ -42,7 +42,7 @@ Workbook workbook = new Workbook();
 workbook.Worksheets.Add();
   //Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
 Worksheet worksheet = workbook.Worksheets[0];
-  //Добавление гиперссылки к URL-адресу «A1» cell
+  //Добавление гиперссылки к URL-адресу "A1" cell
 int index = worksheet.Hyperlinks.Add("A1", 1, 1, "http:  //www.aspose.com");
   //Получение гиперссылки по индексу.
 Hyperlink hyperlink = worksheet.Hyperlinks[index];
@@ -53,19 +53,19 @@ workbook.Save("book1.xls");
 
 [Visual Basic]
 
-'Instantiating a Workbook object
+'Создание экземпляра рабочей книги object
 Dim workbook As Workbook = New Workbook()
-'Adding a new worksheet to the Workbook object
+'Добавление нового рабочего листа в рабочую книгу object
 workbook.Worksheets.Add()
-'Obtaining the reference of the newly added worksheet by passing its sheet index
+'Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
 Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Adding a hyperlink to a URL at "A1" cell
+'Добавление гиперссылки к URL-адресу "A1" cell
 Dim index as Integer = worksheet.Hyperlinks.Add("A1", 1, 1, "http:  //www.aspose.com")
-'Getting a Hyperlink by index.
+'Получение гиперссылки по индексу.
 Dim hyperlink as Hyperlink = worksheet.Hyperlinks(index);
-'Setting display text of this hyperlink.
+'Установка отображаемого текста этой гиперссылки.
 hyperlink.TextToDisplay = "Aspose";
-'Saving the Excel file
+'Сохранение файла Excel
 workbook.Save("book1.xls")
 ```
 

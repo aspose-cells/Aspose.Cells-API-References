@@ -77,7 +77,7 @@ Dim count As Integer = dataConns.Count - 1
 Dim i As Integer
 For i = 0 To count Step 1
     dataConn = dataConns(i)
-    'get external connection id
+    'получить внешнее соединение id
     Console.WriteLine(dataConn.ConnectionId)
 Next
 ```

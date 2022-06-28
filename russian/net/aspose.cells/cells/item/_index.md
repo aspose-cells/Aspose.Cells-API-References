@@ -34,7 +34,7 @@ Cell cell = cells[0, 0];	  // Получает ячейку в "A1"
 [Visual Basic]
 Dim excel as Workbook = New Workbook()
 Dim cells As Cells =  excel.Worksheets(0).Cells 
-Dim cell As Cell =  cells(0,0)  'Gets the cell at "A1"
+Dim cell As Cell =  cells(0,0)  'Получает ячейку в "A1"
 ```
 
 ### Смотрите также

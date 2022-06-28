@@ -48,13 +48,13 @@ workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'Instantiating a Workbook object
+'Создание экземпляра рабочей книги object
 Dim workbook As Workbook = New Workbook()
-'Init VBA project.
+'Инициируем проект VBA.
 Dim vbaProject as VbaProject  = workbook.VbaProject
-'Add vba project reference
+'Добавляем проект vba reference
 vbaProject.References.AddRegisteredReference("stdole", "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation")
-'Saving the Excel file
+'Сохранение файла Excel
 workbook.Save("book1.xlsm")
 ```
 

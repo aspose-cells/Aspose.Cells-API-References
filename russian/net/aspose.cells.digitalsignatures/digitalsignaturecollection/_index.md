@@ -65,9 +65,9 @@ internal void SignSignature()
 [Visual Basic]
    Sub ValidateSignature()
    Dim workbook As Workbook = New Workbook("newfile.xlsx")
-   'Workbook.IsDigitallySigned is true when the workbook is signed already.
+   'wb.IsDigitallySigned имеет значение true, если рабочая книга уже подписана.
    System.Console.WriteLine(workbook.IsDigitallySigned)
-   'get digitalSignature collection from workbook
+   'получаем коллекцию digitalSignature из workbook
    Dim dsc As DigitalSignatureCollection = workbook.GetDigitalSignature()
    Dim ds As DigitalSignature
    For Each ds In dsc
@@ -78,15 +78,15 @@ internal void SignSignature()
 End Sub
 
 Sub SignSignature()
-   'dsc is signature collection contains one or more signature needed to sign
+   'dsc — коллекция подписей, содержащая одну или несколько подписей, необходимых для sign
    Dim dsc As DigitalSignatureCollection = New DigitalSignatureCollection()
-   'cert must contain private key, it can be contructed from cert file or windows certificate collection.
+   'сертификат должен содержать закрытый ключ, его можно создать из файла сертификата или коллекции сертификатов Windows.
    Dim cert As X509Certificate2 = New X509Certificate2("mykey2.pfx", "123456")
-   'create a signature with certificate, sign purpose and sign time
+   'создать подпись с сертификатом, цель подписи и время подписи
    Dim ds As DigitalSignature = New DigitalSignature(cert, "test for sign", DateTime.Now)
    dsc.Add(ds)
    Dim workbook As Workbook = New Workbook()
-   'workbook.SetDigitalSignature sign all signatures in dsc
+   'workbook.SetDigitalSignature подписывает все подписи в dsc
    workbook.SetDigitalSignature(dsc)
    workbook.Save("newfile.xlsx")
 End Sub

@@ -53,7 +53,7 @@ gridweb.Settings=gsettings;
 Dim gsettings as GridWorkbookSettings = new GridWorkbookSettings()
  gridweb..Settings=gsettings;
  
-'do your business
+'делай свое дело
 ```
 
 ### Смотрите также

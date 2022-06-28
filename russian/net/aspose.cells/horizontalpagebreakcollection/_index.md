@@ -71,7 +71,7 @@ excel.Worksheets[0].VerticalPageBreaks.Add("G5");
 [VB]
 Dim excel as Workbook = new Workbook()
 
-'Add a pagebreak at G5
+'Добавить разрыв страницы в G5
 excel.Worksheets(0).HorizontalPageBreaks.Add("G5")
 excel.Worksheets(0).VerticalPageBreaks.Add("G5")
 ```

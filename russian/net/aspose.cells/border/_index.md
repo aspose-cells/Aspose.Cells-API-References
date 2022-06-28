@@ -45,7 +45,7 @@ Dim workbook as Workbook  = New Workbook()
 Dim sheets as WorksheetCollection  = workbook.Worksheets
 Cell cell = sheets(0).Cells("A1");
 Dim style as Style = cell.GetStyle()
-'Set top border style and color
+'Установить стиль верхней границы и color
 Dim border as Border = style.Borders(BorderType.TopBorder)
 border.LineStyle = CellBorderType.Medium
 border.Color = Color.Red

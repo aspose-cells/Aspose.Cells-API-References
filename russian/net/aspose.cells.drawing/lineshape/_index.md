@@ -194,46 +194,46 @@ workbook.Save("tstlines.xls");
 
 [VB.NET]
 
-'Instantiate a new Workbook.
+'Создайте новую рабочую книгу.
 Dim workbook As Workbook = New Workbook()
  
-'Get the first worksheet in the book.
+'Получить первый рабочий лист в книге.
 Dim worksheet As Worksheet = workbook.Worksheets(0)
  
-'Add a new line to the worksheet.
+'Добавить новую строку на лист.
 Dim line1 As Aspose.Cells.Drawing.LineShape = worksheet.Shapes.AddLine(5, 0, 1, 0, 0, 250)
  
-'Set the line dash style
+'Установить пунктирную линию style
 line1.Line.DashStyle = MsoLineDashStyle.Solid
  
-'Set the placement.
+'Установить место размещения.
 line1.Placement = PlacementType.FreeFloating
  
-'Add another line to the worksheet.
+'Добавить еще одну строку на лист.
 Dim line2 As Aspose.Cells.Drawing.LineShape = worksheet.Shapes.AddLine(7, 0, 1, 0, 85, 250)
  
-'Set the line dash style.
+'Установить стиль пунктира.
 line2.Line.DashStyle = MsoLineDashStyle.DashLongDash
  
-'Set the weight of the line.
+'Установить вес линии.
 line2.Line.Weight = 4
  
-'Set the placement.
+'Установить место размещения.
 line2.Placement = PlacementType.FreeFloating
  
-'Add the third line to the worksheet.
+'Добавить третью строку на лист.
 Dim line3 As Aspose.Cells.Drawing.LineShape = worksheet.Shapes.AddLine(13, 0, 1, 0, 0, 250)
  
-'Set the line dash style
+'Установить пунктирную линию style
 line3.Line.DashStyle = MsoLineDashStyle.Solid
  
-'Set the placement.
+'Установить место размещения.
 line3.Placement = PlacementType.FreeFloating
  
-'Make the gridlines invisible in the first worksheet.
+'Сделайте линии сетки невидимыми на первом листе.
 workbook.Worksheets(0).IsGridlinesVisible = False
  
-'Save the excel file.
+'Сохраняем файл Excel.
 workbook.Save("tstlines.xls") 
 ```
 

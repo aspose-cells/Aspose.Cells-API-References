@@ -77,11 +77,11 @@ sheet.CellWatches.Add("B2");
 
  [Visual Basic]
 
-'Instantiating a Workbook object
+'Создание экземпляра рабочей книги object
 Dim workbook As Workbook = New Workbook()
-'Get the first Worksheet.
+'Получить первый рабочий лист.
 Dim sheet as Worksheet = workbook.Worksheets(0);
-'Add Cell Watch Item into the watch window
+'Добавить элемент Cell Watch в окно просмотра
 sheet.CellWatches.Add("B2")
 ```
 

@@ -202,36 +202,36 @@ workbook.Save(@"oleobjects.xls");
 
 [Visual Basic]
 
-'Instantiate a new Workbook.
+'Создание новой рабочей книги.
 Dim workbook As Workbook = New Workbook()
-'Get the first worksheet. 
+'Получить первый рабочий лист.
 Dim sheet As Worksheet = workbook.Worksheets(0)
-'Define a string variable to store the image path.
+'Определяем строковую переменную для хранения пути к изображению.
 Dim ImageUrl As String = @"school.jpg"
-'Get the picture into the streams.
+'Получить картинку в потоки.
 Dim fs As FileStream = File.OpenRead(ImageUrl)
-'Define a byte array.
+'Определяем массив байтов.
 Dim imageData(fs.Length) As Byte
-'Obtain the picture into the array of bytes from streams.
+'Получить картинку в массив байтов из потоков.
 fs.Read(imageData, 0, imageData.Length)
-'Close the stream.
+'Закрыть поток.
 fs.Close()
-'Get an excel file path in a variable.
+'Получить путь к файлу excel в переменной.
 Dim path As String = @"Book1.xls"
-'Get the file into the streams.
+'Получить файл в потоки.
 fs = File.OpenRead(path)
-'Define an array of bytes. 
+'Определите массив байтов. 
 Dim objectData(fs.Length) As Byte
-'Store the file from streams.
+'Сохраните файл из потоков.
 fs.Read(objectData, 0, objectData.Length)
-'Close the stream.
+'Закрыть поток.
 fs.Close()
-'Add an Ole object into the worksheet with the image
-'shown in MS Excel.
+'Добавить объект Ole на рабочий лист с помощью image
+'показано в MS Excel.
 sheet.OleObjects.Add(14, 3, 200, 220, imageData)
-'Set embedded ole object data.     
+'Установка встроенных данных объекта ole.   
 sheet.OleObjects(0).ObjectData = objectData
-'Save the excel file
+'Сохраняем файл excel
 workbook.Save("oleobjects.xls")
 ```
 

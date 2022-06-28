@@ -39,17 +39,17 @@ workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'Instantiating a Workbook object
+'Создание экземпляра рабочей книги object
 Dim workbook As Workbook = New Workbook("Book1.xlsx")
-// Получить первые ячейки рабочего листа.
+' Получить первые ячейки рабочего листа.
 Dim cells as Cells = workbook.Worksheets[0].Cells
 cells("A1").PutValue(1)
 cells("A2").PutValue(2)
 Dim source as Aspose.Cells.Range = cells.CreateRange("A1:A2")
 Dim target as Aspose.Cells.Range = cells.CreateRange("A3:A10")
-'fill 3,4,5....10 to the range A3:A10
+'заполняем 3,4,5....10 в диапазоне A3:A10
 source.AutoFill(target)
-'Save the Excel file
+'Сохраняем файл Excel
 workbook.Save("book1.xlsm")
 ```
 

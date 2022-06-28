@@ -68,16 +68,16 @@ workbook.Save("output.xls");
 
 [Visual Basic]
    
-'Creating a file stream containing the Excel file to be opened
-'Instantiating a Workbook object
+'Создание файлового потока, содержащего открываемый файл Excel
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook("template.xlsx")
-'Accessing the first worksheet in the Excel file
+'Доступ к первому рабочему листу в Excel file
 Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Creating AutoFilter by giving the cells range of the heading row
+'Создание автофильтра путем предоставления диапазона ячеек заголовка row
 worksheet.AutoFilter.Range = "A1:B1"
-'Filtering columns with specified values
+'Фильтрация столбцов с указанными значениями
 Worksheet.AutoFilter.Filter(1, "Bananas")
-'Saving the modified Excel file 
+'Сохранение измененного файла Excel.
 workbook.Save("output.xls")
 ```
 
