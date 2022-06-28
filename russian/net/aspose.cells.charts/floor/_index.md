@@ -80,50 +80,50 @@ workbook.Save(@"dest.xls");
 
 [VB.NET]
 
-'Instantiate the License class
+'Создаем экземпляр лицензии class
 Dim license As New Aspose.Cells.License()
 
-'Pass only the name of the license file embedded in the assembly
+'Передаем только имя файла лицензии, встроенного в сборку
 license.SetLicense("Aspose.Cells.lic")
 
-'Instantiate the workbook object
+'Создаем экземпляр книги object
 Dim workbook As Workbook = New Workbook()
 
-'Get cells collection
+'Получить ячейки collection
 Dim cells As Cells = workbook.Worksheets(0).Cells
 
-'Put values in cells
+'Помещаем значения в cell
 cells("A1").PutValue(1)
 
 cells("A2").PutValue(2)
 
 cells("A3").PutValue(3)
 
-'get charts colletion
+'получить графики colletion
 Dim charts As ChartCollection = workbook.Worksheets(0).Charts
 
-'add a new chart 
+'добавляем новый график 
 Dim index As Integer = charts.Add(ChartType.Column3DStacked, 5, 0, 15, 5)
 
-'get the newly added chart
+'получаем только что добавленный chart
 Dim chart As Chart = charts(index)
 
-'set charts nseries
+'устанавливаем графики nseries
 chart.NSeries.Add("A1:A3", True)
 
-'Show data labels
+'Показать метки данных
 chart.NSeries(0).DataLabels.ShowValue = True
 
-'Get chart's floor
+'Получить пол диаграммы
 Dim floor As Floor = chart.Floor
 
-'set floor's border as red
+'сделать границу пола красной
 floor.Border.Color = System.Drawing.Color.Red
 
-'set fill format
+'установить заливку format
 floor.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2)
 
-'save the file
+'сохраняем файл
 workbook.Save("dest.xls")
 
 ```

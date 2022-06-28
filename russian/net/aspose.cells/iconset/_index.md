@@ -85,17 +85,17 @@ workbook.Save("book1.xlsx");
 
 [VB.NET]
 
-'Instantiating a Workbook object
+'Создание экземпляра рабочей книги object
 Dim workbook As Workbook = New Workbook()
 
 Dim sheet As Worksheet = workbook.Worksheets(0)
 
-'Adds an empty conditional formatting
+'Добавляет пустое условное форматирование
 Dim index As Integer = sheet.ConditionalFormattings.Add()
 
 Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
 
-'Sets the conditional format range.
+'Задает диапазон условного формата.
 Dim ca As New CellArea()
 
 ca.StartRow = 0
@@ -108,20 +108,20 @@ ca.EndColumn = 0
 
 fcs.AddArea(ca)
 
-'Adds condition.
+'Добавляет условие.
 Dim idx As Integer = fcs.AddCondition(FormatConditionType.IconSet)
 
 fcs.AddArea(ca)
 
 Dim cond As FormatCondition = fcs(idx)
 
-'Get Icon Set
+'Получить набор иконок
 Dim iconSet As IconSet = cond.IconSet
 
 'Set Icon Type
 iconSet.Type = IconSetType.Arrows3
 
-'Put Cell Values
+'Поместите значения ячеек
 Dim cell1 As Aspose.Cells.Cell = sheet.Cells("A1")
 
 cell1.PutValue(10)
@@ -134,7 +134,7 @@ Dim cell3 As Aspose.Cells.Cell = sheet.Cells("A3")
 
 cell3.PutValue(260)
 
-'Saving the Excel file
+'Сохранение файла Excel
 workbook.Save("book1.xlsx") 
 ```
 

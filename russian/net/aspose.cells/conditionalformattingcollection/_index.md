@@ -118,21 +118,21 @@ workbook.Save("output.xls");
 
 [VB.NET]
 
-'Instantiating a Workbook object
+'Создание экземпляра рабочей книги object
 DDim workbook As Workbook = New Workbook()
 
 Dim sheet As Worksheet = workbook.Worksheets(0)
 
-'Get Conditional Formatting
+'Получить условное форматирование
 Dim cformattings As ConditionalFormattingCollection = sheet.ConditionalFormattings
 
-'Adds an empty conditional formatting
+'Добавляет пустое условное форматирование
 Dim index As Integer = cformattings.Add()
 
-'Get newly added Conditional formatting
+'Получить недавно добавленное условное форматирование
 Dim fcs As FormatConditionCollection = cformattings(index)
 
-'Sets the conditional format range.
+'Устанавливает диапазон условного формата.
 Dim ca As New CellArea()
 
 ca.StartRow = 0
@@ -157,18 +157,18 @@ ca.EndColumn = 1
 
 fcs.AddArea(ca)
 
-'Add condition.
+'Добавить условие.
 Dim conditionIndex As Integer = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100")
 
-'Add condition.
+'Добавить условие.
 Dim conditionIndex2 As Integer = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100")
 
-'Sets the background color.
+'Устанавливает цвет фона.
 Dim fc As FormatCondition = fcs(conditionIndex)
 
 fc.Style.BackgroundColor = Color.Red
 
-'Saving the Excel file
+'Сохранение файла Excel
 workbook.Save("output.xls")
 ```
 

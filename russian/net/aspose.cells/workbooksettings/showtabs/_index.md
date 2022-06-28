@@ -28,7 +28,7 @@ rkbook.Settings.ShowTabs = false;
 
 isual Basic]
 
-Hide the spreadsheet tabs.
+Скрыть вкладки электронной таблицы.
 rkbook.Settings.ShowTabs = False
 ```
 

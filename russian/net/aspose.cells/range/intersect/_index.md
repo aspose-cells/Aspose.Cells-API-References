@@ -45,15 +45,15 @@ workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'Instantiating a Workbook object
+'Создание экземпляра рабочей книги object
 Dim workbook As Workbook = New Workbook()
-'Get the first Worksheet Cells.
+'Получить первые ячейки рабочего листа.
 Dim cells as Cells = workbook.Worksheets[0].Cells
 Range range1 = cells.CreateRange("A1:A5")
 Range range2 = cells.CreateRange("A3:A10")
-'Get intersected range of the two ranges.
+'Получить пересекающийся диапазон двух диапазонов.
 Range intersectRange = range1.Intersect(range2)
-'Save the Excel file
+'Сохраняем файл Excel
 workbook.Save("book1.xlsm")
 ```
 

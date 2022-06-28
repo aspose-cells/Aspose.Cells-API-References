@@ -182,7 +182,7 @@ Pivot.AddFieldToArea(PivotFieldType.Data, "amount")
 
 pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10
 
-'Change PivotField's attributes
+'Изменить атрибуты PivotField
 Dim rowField As PivotField = pivot.RowFields(0)
 rowField.DisplayName = "custom display name"
 

@@ -138,7 +138,7 @@ cells.ImportData(dt, 12, 12, options);
 Dim excel as Workbook = new Workbook()
 Dim cells as Cells = excel.Worksheets(0).Cells
 
-'Import data
+'Импорт данных
 Dim dt as DataTable = new DataTable("Employee")
 dt.Columns.Add("Employee_ID",typeof(Int32))
 dt.Columns.Add("Employee_Name",typeof(string))
@@ -157,7 +157,7 @@ Dim options as ImportTableOptions = new ImportTableOptions()
 options.IsFieldNameShown = True
 cells.ImportData(dt, 12, 12, options)
 
-'Export data
+'Импорт данных
 Dim outDataTable as DataTable = cells.ExportDataTable(12, 12, 10, 10)
 ```
 

@@ -24,7 +24,7 @@ aseries.YErrorBar.PlusValue = "=Sheet1!A1";
 aseries.YErrorBar.MinusValue = "=Sheet1!A2";
 
 [Visual Basic]
-'Sets custom error bar type
+'Устанавливает пользовательскую панель ошибок type
 aseries.YErrorBar.Type = ErrorBarType.InnerCustom
 aseries.YErrorBar.PlusValue = "=Sheet1!A1"
 aseries.YErrorBar.MinusValue = "=Sheet1!A2"

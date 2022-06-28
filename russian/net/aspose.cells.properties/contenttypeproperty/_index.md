@@ -38,11 +38,11 @@ workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'Instantiating a Workbook object
+'Создание экземпляра рабочей книги object
 Dim workbook As Workbook = New Workbook()
-'Add a new property.
+'Добавить новое свойство.
  workbook.ContentTypeProperties.Add("Admin", "Aspose", "text")
-'Save the Excel file
+'Сохраняем файл Excel
 workbook.Save("book1.xlsm")
 ```
 

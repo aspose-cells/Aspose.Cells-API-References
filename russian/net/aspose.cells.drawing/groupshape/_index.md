@@ -276,125 +276,125 @@ excelbook.Save("groupshapes.xls");
 
 [VB.NET]
 
-'Instantiate a new Workbook.
+'Создайте новую рабочую книгу.
 Dim excelbook As Workbook = New Workbook()
  
-'Add a group box to the first worksheet.
+'Добавьте групповое поле на первый рабочий лист.
 Dim box As Aspose.Cells.GroupBox = excelbook.Worksheets(0).Shapes.AddGroupBox(1, 0, 1, 0, 300, 250)
  
-'Set the caption of the group box.
+'Установите заголовок группового поля.
 box.Text = "Age Groups"
 box.Placement = PlacementType.FreeFloating
  
-'Make it 2-D box.
+'Сделайте это 2-D коробкой.
 box.Shadow = False
  
-'Add a radio button.
+'Добавьте переключатель.
 Dim radio1 As Aspose.Cells.RadioButton = excelbook.Worksheets(0).Shapes.AddRadioButton(3, 0, 2, 0, 30, 110)
  
-'Set its text string.
+'Установите его текстовую строку.
 radio1.Text = "20-29"
  
-'Set A1 cell as a linked cell for the radio button.
+'Установите ячейку A1 в качестве связанной ячейки для переключателя.
 radio1.LinkedCell = "A1"
  
-'Make the radio button 3-D.
+'Сделайте радиокнопку трехмерной.
 radio1.Shadow = True
  
-'Set the foreground color of the radio button.
+'Установите цвет переднего плана переключателя.
 radio1.FillFormat.ForeColor = Color.LightGreen
  
-'Set the line style of the radio button.
+'Установите стиль линии переключателя.
 radio1.LineFormat.Style = MsoLineStyle.ThickThin
  
-'Set the weight of the radio button.
+'Установите вес переключателя.
 radio1.LineFormat.Weight = 4
  
-'Set the line color of the radio button.
+'Установите цвет линии переключателя.
 radio1.LineFormat.ForeColor = Color.Blue
  
-'Set the dash style of the radio button.
+'Установите стиль тире для переключателя.
 radio1.LineFormat.DashStyle = MsoLineDashStyle.Solid
  
-'Make the line format visible.
+'Сделайте формат линии видимым.
 radio1.LineFormat.IsVisible = True
  
-'Make the fill format visible.
+'Сделайте видимым формат заливки.
 radio1.FillFormat.IsVisible = True
  
-'Add another radio button.
+'Добавьте еще один переключатель.
 Dim radio2 As Aspose.Cells.RadioButton = excelbook.Worksheets(0).Shapes.AddRadioButton(6, 0, 2, 0, 30, 110)
  
-'Set its text string.
+'Установите его текстовую строку.
 radio2.Text = "30-39"
  
-'Set A1 cell as a linked cell for the radio button.
+'Установите ячейку A1 в качестве связанной ячейки для переключателя.
 radio2.LinkedCell = "A1"
  
-'Make the radio button 3-D.
+'Сделайте радиокнопку трехмерной.
 radio2.Shadow = True
  
-'Set the foreground color of the radio button.
+'Установите цвет переднего плана переключателя.
 radio2.FillFormat.ForeColor = Color.LightGreen
  
-'Set the line style of the radio button.
+'Установите стиль линии переключателя.
 radio2.LineFormat.Style = MsoLineStyle.ThickThin
  
-'Set the weight of the radio button.
+'Установите вес переключателя.
 radio2.LineFormat.Weight = 4
  
-'Set the line color of the radio button.
+'Установите цвет линии переключателя.
 radio2.LineFormat.ForeColor = Color.Blue
  
-'Set the dash style of the radio button.
+'Установите стиль тире для переключателя.
 radio2.LineFormat.DashStyle = MsoLineDashStyle.Solid
  
-'Make the line format visible.
+'Сделайте формат линии видимым.
 radio2.LineFormat.IsVisible = True
  
-'Make the fill format visible.
+'Сделайте формат линии видимым.
 radio2.FillFormat.IsVisible = True
  
-'Add another radio button.
+'Добавьте еще один переключатель.
 Dim radio3 As Aspose.Cells.RadioButton = excelbook.Worksheets(0).Shapes.AddRadioButton(9, 0, 2, 0, 30, 110)
  
-'Set its text string.
+'Установите его текстовую строку.
 radio3.Text = "40-49"
  
-'Set A1 cell as a linked cell for the radio button.
+'Установите ячейку A1 в качестве связанной ячейки для переключателя.
 radio3.LinkedCell = "A1"
  
-'Make the radio button 3-D.
+'Сделайте радиокнопку трехмерной.
 radio3.Shadow = True
  
-'Set the foreground color of the radio button.
+'Установите цвет переднего плана переключателя.
 radio3.FillFormat.ForeColor = Color.LightGreen
  
-'Set the line style of the radio button.
+'Установите стиль линии переключателя.
 radio3.LineFormat.Style = MsoLineStyle.ThickThin
  
-'Set the weight of the radio button.
+'Установите вес переключателя.
 radio3.LineFormat.Weight = 4
  
-'Set the line color of the radio button.
+'Установите цвет линии переключателя.
 radio3.LineFormat.ForeColor = Color.Blue
  
-'Set the dash style of the radio button.
+'Установите стиль тире для переключателя.
 radio3.LineFormat.DashStyle = MsoLineDashStyle.Solid
  
-'Make the line format visible.
+'Сделайте формат линии видимым.
 radio3.LineFormat.IsVisible = True
  
-'Make the fill format visible.
+'Сделайте видимым формат заливки.
 radio3.FillFormat.IsVisible = True
  
-'Get the shapes.
+'Получите формы.
 Dim shapeobjects() As Aspose.Cells.Shape = New Aspose.Cells.Shape() {box, radio1, radio2, radio3}
  
-'Group the shapes.
+'Сгруппируйте фигуры.
 Dim group As Aspose.Cells.GroupShape = excelbook.Worksheets(0).Shapes.Group(shapeobjects)
  
-'Save the excel file.
+'Сохраните файл Excel.
 excelbook.Save("groupshapes.xls")
 ```
 

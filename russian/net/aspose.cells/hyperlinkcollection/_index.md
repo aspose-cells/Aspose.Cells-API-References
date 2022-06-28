@@ -73,7 +73,7 @@ Worksheet worksheet = workbook.Worksheets[0];
   //Получить коллекцию гиперссылок
 HyperlinkCollection hyperlinks = worksheet.Hyperlinks;
 
-  //Добавление гиперссылки к URL-адресу «A1» cell
+  //Добавление гиперссылки к URL-адресу "A1" cell
 hyperlinks.Add("A1", 1, 1, "http:  //www.aspose.com");
 
   //Сохранение файла Excel
@@ -81,19 +81,19 @@ workbook.Save("book1.xls");
 
 [VB.NET]
 
-'Instantiating a Workbook object
+'Создание экземпляра рабочей книги object
 Dim workbook As Workbook = New Workbook()
 
-'Obtaining the reference of the newly added worksheet by passing its sheet index
+'Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-'Get Hyperlinks Collection
+'Получить коллекцию гиперссылок
 Dim hyperlinks As HyperlinkCollection = worksheet.Hyperlinks
 
-'Adding a hyperlink to a URL at "A1" cell
+'Добавление гиперссылки к URL-адресу "A1" cell
 hyperlinks.Add("A1", 1, 1, "http:  //www.aspose.com")
 
-'Saving the Excel file
+'Сохранение файла Excel
 workbook.Save("book1.xls")
 ```
 

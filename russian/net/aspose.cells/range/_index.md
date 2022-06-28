@@ -86,15 +86,15 @@ workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'Instantiating a Workbook object
+'Создание экземпляра рабочей книги object
 Dim workbook As Workbook = New Workbook()
-'Get the first Worksheet Cells.
+'Получите первые ячейки рабочего листа.
 Dim cells as Cells = workbook.Worksheets[0].Cells
-'Create a range (A1:D3).
+'Создаем диапазон (A1:D3).
 Dim range as Range = cells.CreateRange("A1", "D3")
-'Set value to the range.
+'Установить значение в диапазоне.
 range.Value = "Hello"
-'Save the Excel file
+'Сохранение файла Excel
 workbook.Save("book1.xlsm")
 ```
 

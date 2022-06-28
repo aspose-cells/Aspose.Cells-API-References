@@ -116,13 +116,13 @@ Dim excel as Workbook = new Workbook()
 
 Dim sheets as WorksheetCollection = excel.Worksheets
 
-'Add a worksheet
+'Добавить рабочий лист
 sheets.Add()
 
-'Change the name of a worksheet
+'Изменить имя рабочего листа
 sheets(0).Name = "First Sheet"
 
-'Set the active sheet to the second worksheet
+'Установите активный лист на второй рабочий лист
 sheets.ActiveSheetIndex = 1
 ```
 

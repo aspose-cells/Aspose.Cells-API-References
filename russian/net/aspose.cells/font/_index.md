@@ -78,30 +78,30 @@ workbook.Save(@"dest.xls");
 
 [VB.NET]
 
-'Instantiating a Workbook object
+'Создание экземпляра рабочей книги object
 Dim workbook As Workbook = New Workbook()
 
-'Obtaining the reference of the newly added worksheet by passing its sheet index
+'Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-'Accessing the "A1" cell from the worksheet
+'Доступ к ячейке "A1" из worksheet
 Dim cell As Aspose.Cells.Cell = worksheet.Cells("A1")
 
-'Adding some value to the "A1" cell
+'Добавление некоторого значения в "A1" cell
 cell.PutValue("Hello Aspose!")
 
 Dim font As Aspose.Cells.Font = cell.GetStyle().Font
 
-'Setting the font name to "Times New Roman"
+'Установка имени шрифта на "Times New Roman"
 font.Name = "Times New Roman"
 
-'Setting font size to 14
+'Установка размера шрифта на 14
 font.Size = 14
 
-'setting font color as Red
+'установка цвета шрифта как Red
 font.Color = System.Drawing.Color.Red
 
-'Saving the Excel file
+'Сохранение файла Excel
 workbook.Save("dest.xls")
 ```
 

@@ -73,10 +73,10 @@ checkBox.Text = "Check Box 1";
 
 [Visual Basic]
 
-'Create a new Workbook.
+'Создать новую книгу.
 Dim workbook As Workbook = new Workbook()
 
-'Get the first worksheet in the workbook.
+'Получить первый рабочий лист в рабочей книге.
 Dim sheet As Worksheet = workbook.Worksheets(0)
 
 Dim index as integer = sheet.CheckBoxes.Add(15, 15, 20, 100)

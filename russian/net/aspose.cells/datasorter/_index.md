@@ -78,31 +78,31 @@ workbook.Save("outBook.xls");
 
 [Visual Basic]
 
-'Instantiate a new Workbook object.
+'Создаем новый объект Workbook.
 Dim workbook As Workbook = New Workbook("Book1.xls")
-'Get the workbook datasorter object.
+'Получить объект сортировщика данных рабочей книги.
 Dim sorter As DataSorter = workbook.DataSorter
-'Set the first order for datasorter object
+'Установить первый порядок для объекта сортировщика данных.
 sorter.Order1 = Aspose.Cells.SortOrder.Descending
-'Define the first key.
+'Определяем первый ключ.
 sorter.Key1 = 0
-'Set the second order for datasorter object.
+'Установить второй порядок для объекта сортировщика данных.
 sorter.Order2 = Aspose.Cells.SortOrder.Ascending
-'Define the second key.
+'Определяем второй ключ.
 sorter.Key2 = 1
-'Create a cells area (range).
+'Создаем область ячеек (диапазон).
 Dim ca As CellArea = New CellArea
-'Specify the start row index.
+'Укажите индекс начальной строки.
 ca.StartRow = 0
-'Specify the start column index.
+'Укажите индекс начального столбца.
 ca.StartColumn = 0
-'Specify the last row index.
+'Укажите индекс последней строки.
 ca.EndRow = 13
-'Specify the last column index.
+'Укажите индекс последнего столбца.
 ca.EndColumn = 1
-'Sort the data in the specified data range (A1:B14)
+'Сортировка данных в указанном диапазоне данных (A1:B14)
 sorter.Sort(workbook.Worksheets(0).Cells, ca)
-'Save the excel file.
+'Сохраняем файл Excel.
 workbook.Save("outBook.xls")
 
 ```

@@ -38,7 +38,7 @@ worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls");
 
 [Visual Basic]
 
-'Instantiating a Workbook object
+'Создание экземпляра рабочей книги object
 Dim excel As Workbook = New Workbook()
 Dim worksheet as Worksheet = excel.Worksheets(0)
 worksheet.Hyperlinks.Add("A4", 1, 1, "http:  //www.aspose.com")

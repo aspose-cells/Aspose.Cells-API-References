@@ -172,27 +172,27 @@ rkbook.Save("tstlabel.xls");
 
 B.NET]
 
-eate a new Workbook.
+здать новую книгу.
 m workbook As Workbook = New Workbook()
 
-et the first worksheet in the workbook.
+олучить первый рабочий лист в рабочей книге.
 m sheet As Worksheet = workbook.Worksheets(0)
 
-dd a new label to the worksheet.
+обавить новую метку на лист.
 m label As Aspose.Cells.Drawing.Label = sheet.Shapes.AddLabel(2, 0, 2, 0, 60, 120)
 
-et the caption of the label.
+станавливаем заголовок метки.
 bel.Text = "This is a Label"
 
-et the Placement Type, the way the
-abel is attached to the cells.
+становите тип размещения, как the
+етка прикрепляется к ячейкам.
 bel.Placement = PlacementType.FreeFloating
 
-et the fill color of the label.
+адаем цвет заливки метки.
 bel.Fill.FillType = FillType.Solid
 bel.Fill.SolidFill.Color = Color.Yellow
 
-aves the file.
+охраняет файл.
 rkbook.Save("tstlabel.xls")
 ```
 

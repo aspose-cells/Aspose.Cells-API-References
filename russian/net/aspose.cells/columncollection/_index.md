@@ -102,41 +102,41 @@ workbook.Save("book1.xls");
 
 [VB.NET]
 
-'Instantiating a Workbook object
+'Создание экземпляра рабочей книги object
 Dim workbook As Workbook = New Workbook()
 
-'Obtaining the reference of the first worksheet
+'Получение ссылки на первый worksheet
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-'Add new Style to Workbook
+'Добавить новый стиль в книгу
 Dim style As Style = workbook.CreateStyles()
 
-'Setting the background color to Blue
+'Установка цвета фона на синий
 style.ForegroundColor = Color.Blue
 
-'setting Background Pattern
+'настройка фонового рисунка
 style.Pattern = BackgroundType.Solid
 
-'New Style Flag
+'Флаг нового стиля
 Dim styleFlag As New StyleFlag()
 
-'Set All Styles
+'Установить все стили
 styleFlag.All = True
 
-'Change the default width of first ten columns
+'Изменить ширину по умолчанию первых десяти столбцов
 For i As Integer = 0 To 9
     worksheet.Cells.Columns(i).Width = 20
 Next i
 
-'Get the Column with non default formatting
+'Получить столбец с форматированием не по умолчанию
 Dim columns As ColumnCollection = worksheet.Cells.Columns
 
 For Each column As Column In columns
-    'Apply Style to first ten Columns
+    'Применить стиль к первым десяти столбцам
     column.ApplyStyle(style, styleFlag)
 Next column
 
-'Saving the Excel file
+'Сохранение файла Excel
 workbook.Save("book1.xls")
 
 ```

@@ -149,15 +149,15 @@ workbook.Save("result.xls");
 
 [Visual Basic]
 
-'Open a designer file
+'Открываем конструктор file
 Dim designerFile as String = "\designer.xls"
 Dim workbook as Workbook = new Workbook(designerFile)
 
-'Set scroll bars
+'Установить полосы прокрутки
 workbook.IsHScrollBarVisible = False
 workbook.IsVScrollBarVisible = False
 
-'Replace the placeholder string with new values
+'Замените строку-заполнитель новыми значениями
 Dim newInt as Integer = 100
 workbook.Replace("OldInt", newInt)
 

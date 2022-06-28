@@ -42,16 +42,16 @@ HorizontalPageBreak hPageBreak = worksheet.HorizontalPageBreaks[Index];
 
 [VB.NET]
 
-'Instantiating a Workbook object
+'Создание экземпляра рабочей книги object
 Dim workbook As Workbook = New Workbook()
 
-'Obtaining the reference of the newly added worksheet by passing its sheet index
+'Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-'Add a page break at cell Y30
+'Добавить разрыв страницы в ячейку Y30
 Dim Index As Integer = worksheet.HorizontalPageBreaks.Add("Y30")
 
-'get the newly added horizontal page break
+'получаем только что добавленную горизонтальную страницу break
 Dim hPageBreak As HorizontalPageBreak = worksheet.HorizontalPageBreaks(Index)
 ```
 

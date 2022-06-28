@@ -88,11 +88,11 @@ line.Color = Color.Red;
 
 [Visual Basic]
 
-'Instantiating a Workbook object
+'Создание экземпляра рабочей книги object
 Dim workbook As Workbook = New Workbook()
-'Adding a new worksheet to the Excel object
+'Добавление нового рабочего листа в Excel object
 Dim sheetIndex As Int32 = workbook.Worksheets.Add()
-'Obtaining the reference of the newly added worksheet by passing its sheet index
+'Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
 Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
 worksheet.Cells("A1").PutValue(50)
 worksheet.Cells("A2").PutValue(100)
@@ -103,7 +103,7 @@ worksheet.Cells("B2").PutValue(32)
 worksheet.Cells("B3").PutValue(50)
 worksheet.Cells("B4").PutValue(40)
 
-'Adding a chart to the worksheet
+'Добавление диаграммы на лист
 Dim chartIndex As Integer =  workbook.Worksheets(0).Charts.Add(ChartType.Column,3,3,15,10) 
 Dim chart As Chart =  workbook.Worksheets(0).Charts(chartIndex) 
 chart.NSeries.Add("A1:a3", True)

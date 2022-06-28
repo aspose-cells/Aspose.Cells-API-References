@@ -49,20 +49,20 @@ workbook.Save("book1.xlsx");
 
 [Visual Basic]
 
-'Instantiating a Workbook object
+'Создание экземпляра рабочей книги object
 Dim workbook As Workbook = New Workbook()
 Dim cells As Cells = workbook.Worksheets(0).Cells
 cells("A1").PutValue("Hello World")
-'Get the cell style
+'Получить стиль ячейки
 Dim style As Style = cells("A1").GetStyle()
-'Set ThemeColorType.Text2 color type with 40% lighten as the font color.
+'Установите тип цвета ThemeColorType.Text2 с 40% осветлением в качестве цвета шрифта.
 Style.Font.ThemeColor = New ThemeColor(ThemeColorType.Text2, 0.4)
 Style.Pattern = BackgroundType.Solid
-'Set ThemeColorType.Background2 color type with 75% darken as the foreground color
+'Установите тип цвета ThemeColorType.Background2 с затемнением на 75% в качестве цвета переднего плана.
 style.ForegroundThemeColor = New ThemeColor(ThemeColorType.Background2, -0.75)
-'Set the cell style
+'Установить стиль ячейки
 cells("A1").SetStyle(style)
-'Saving the Excel file
+'Сохранение файла Excel
 Workbook.Save("book1.xlsx")
 ```
 

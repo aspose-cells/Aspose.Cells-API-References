@@ -200,52 +200,52 @@ workbook.Save("tsttextboxes.xlsx");
 
 [Visual Basic]
 
-'Instantiate a new Workbook.
+'Создайте новую рабочую книгу.
 Dim workbook As Workbook = New Workbook()
-'Get the first worksheet in the book.
+'Получить первый рабочий лист в книге.
 Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Add a new textbox to the collection.
+'Добавить новое текстовое поле в коллекцию.
 Dim textboxIndex As Integer = worksheet.TextBoxes.Add(2, 1, 160, 200)
-'Get the textbox object.
+'Получить объект текстового поля.
 Dim textbox0 As Aspose.Cells.Drawing.TextBox = worksheet.TextBoxes(textboxIndex)
-'Fill the text.
+'Заполняем текст.
 textbox0.Text = "ASPOSE______The .NET and JAVA Component Publisher!"
-'Set the textbox to adjust it according to its contents.
+'Установите текстовое поле, чтобы настроить его в соответствии с его содержимым.
 textbox0.TextBody.TextAlignment.AutoSize = True
-'Set the placement.
+'Установите размещение.
 textbox0.Placement = PlacementType.FreeFloating
-'Set the font color.
+'Установите цвет шрифта.
 textbox0.Font.Color = Color.Blue
-'Set the font to bold.
+'Установите жирный шрифт.
 textbox0.Font.IsBold = True
-'Set the font size.
+'Установите размер шрифта.
 textbox0.Font.Size = 14
-'Set font attribute to italic.
+'Установите атрибут шрифта курсивом.
 textbox0.Font.IsItalic = True
-'Add a hyperlink to the textbox.
+'Добавьте гиперссылку в текстовое поле.
 textbox0.AddHyperlink("http:  //www.aspose.com/")
-'Get the filformat of the textbox.
+'Получите filformat текстового поля.
 Dim fillformat As FillFormat = textbox0.Fill
-'Set the fillcolor.
+'Установите цвет заливки.
 fillformat.SolidFill.Color = Color.Silver
-'Get the lineformat type of the textbox.
+'Получите тип формата строки текстового поля.
 Dim lineformat As LineFormat = textbox0.Line
-'Set the line style.
+'Установите стиль линии.
 lineformat.CompoundType = MsoLineStyle.ThinThick
-'Set the line weight.
+'Установите вес линии.
 lineformat.Weight = 6
-'Set the dash style to squaredot.
+'Установите стиль тире на квадратную точку.
 lineformat.DashStyle = MsoLineDashStyle.SquareDot
-'Add another textbox.
+'Добавьте еще одно текстовое поле.
 textboxIndex = worksheet.TextBoxes.Add(15, 4, 85, 120)
-'Get the second textbox.
+'Получите второе текстовое поле.
 Dim textbox1 As Aspose.Cells.Drawing.TextBox = worksheet.TextBoxes(textboxIndex)
-'Input some text to it.
+'Вводим в него текст.
 textbox1.Text = "This is another simple text box"
-'Set the placement type as the textbox will move and
-'resize with cells.
+'Установите тип размещения, так как текстовое поле будет перемещаться and
+'изменить размер с помощью ячеек.
 textbox1.Placement = PlacementType.MoveAndSize
-'Save the excel file.
+'Сохраняем файл Excel.
 workbook.Save("tsttextboxes.xlsx")
 ```
 

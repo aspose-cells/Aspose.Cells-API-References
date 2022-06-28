@@ -103,7 +103,7 @@ Dim workbook as Workbook = new Workbook()
 
 Dim settings as WorkbookSettings = workbook.Settings
 
-'do your business
+'делай свое дело
 ```
 
 ### Смотрите также

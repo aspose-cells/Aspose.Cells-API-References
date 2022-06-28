@@ -81,35 +81,35 @@ workbook.Save("book1.xls");
 
 [VB.NET]
 
-'Instantiating a Workbook object
+'Создание экземпляра рабочей книги object
 Dim workbook As Workbook = New Workbook()
 
-'Obtaining the reference of the first worksheet
+'Получение ссылки на первый worksheet
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
 Dim style As Style = workbook.CreateStyle()
 
-'Setting the background color to Blue
+'Установка цвета фона на Blue
 style.BackgroundColor = Color.Blue
 
-'Setting the foreground color to Red
+'Установка цвета переднего плана на Red
 style.ForegroundColor = Color.Red
 
-'setting Background Pattern
+'настройка фонового рисунка
 style.Pattern = BackgroundType.DiagonalStripe
 
-'New Style Flag
+'Флаг нового стиля
 Dim styleFlag As New StyleFlag()
 
-'Set All Styles
+'Установить все стили
 styleFlag.All = True
 
- 'Get first row
+ 'Получить первую строку
 Dim row as Row = worksheet.Cells.Rows(0)
- 'Apply Style to first row
+ 'Применить стиль к первой строке
 row.ApplyStyle(style, styleFlag)
 
-'Saving the Excel file
+'Сохранение файла Excel
 workbook.Save("book1.xls")
 ```
 

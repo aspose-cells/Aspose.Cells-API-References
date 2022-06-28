@@ -67,17 +67,17 @@ excel.Save("output.xls");
 
 [Visual Basic]
 
-'Creating a file stream containing the Excel file to be opened
+'Создание экземпляра рабочей книги object
 Dim fstream As FileStream = New FileStream("book1.xls", FileMode.Open)
-'Instantiating a Workbook object and Opening the Excel file through the file stream
+'Доступ к первому рабочему листу в Excel file
 Dim excel As Workbook = New Workbook(fstream)
-'Accessing the first worksheet in the Excel file
+'Защита рабочего листа с помощью пароля
 Dim worksheet As Worksheet = excel.Worksheets(0)
-'Protecting the worksheet with a password
+'Защита рабочего листа с помощью пароля
 worksheet.Protect(ProtectionType.All, "aspose", DBNull.Value.ToString())
-'Saving the modified Excel file in default (that is Excel 20003) format
+'Сохранение измененного файла Excel по умолчанию (то есть Excel 20003) format
 excel.Save("output.xls")
-'Closing the file stream to free all resources
+'Закрытие файлового потока для освобождения всех ресурсов
 fstream.Close()
 
 ```

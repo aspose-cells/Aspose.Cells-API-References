@@ -146,7 +146,7 @@ Pivot.AddFieldToArea(PivotFieldType.Data, "amount")
 
 pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10
 
-'Add PivotFormatCondition
+'Добавлять PivotFormatCondition
 Dim formatIndex As Int32 = pivot.PivotFormatConditions.Add()
 Dim pfc As PivotFormatCondition = pivot.PivotFormatConditions(formatIndex)
 Dim fcc As FormatConditionCollection = pfc.FormatConditions

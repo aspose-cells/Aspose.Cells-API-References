@@ -27,7 +27,7 @@ gridDesktop1.EndFormatPainter();
 [Visual Basic]
 gridDesktop1.StartFormatPainter(False)
 ...
-'User Interface Operation
+'Пользовательский интерфейс Operation
 ...
 gridDesktop1.EndFormatPainter()
 

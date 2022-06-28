@@ -199,52 +199,52 @@ excelbook.Save("tstarcs.xls");
 
 [VB..NET]
 
-Instantiate a new Workbook.
+Создание новой рабочей книги.
 im excelbook As Workbook = New Workbook()
 
-Add an arc shape.
+Добавьте форму дуги.
 im arc1 As Aspose.Cells.Drawing.ArcShape = excelbook.Worksheets(0).Shapes.AddArc(2, 0, 2, 0, 130, 130)
 
-Set the placement of the arc.
+Задайте положение дуги.
 rc1.Placement = PlacementType.FreeFloating
 
-Set the fill format.
+Установите формат заполнения.
 rc1.Fill.FillType = FillType.Solid
 rc1.Fill.SolidFill.Color = Color.Blue
 
-Set the line style.
+Установите стиль линии.
 rc1.Line.CompoundType = MsoLineStyle.Single
 
-Set the line weight.
+Установите вес линии.
 rc1.Line.Weight = 2
 
-Set the color of the arc line.
+Установите цвет линии дуги.
 rc1.Line.FillType = FillType.Solid
 rc1.Line.SolidFill.Color = Color.Red
 
-Set the dash style of the arc.
+Установите стиль пунктира дуги.
 rc1.Line.DashStyle = MsoLineDashStyle.Solid
 
-Add another arc shape.
+Добавьте еще одну форму дуги.
 im arc2 As Aspose.Cells.Drawing.ArcShape = excelbook.Worksheets(0).Shapes.AddArc(9, 0, 2, 0, 130, 130)
 
-Set the placement of the arc.
+Задайте положение дуги.
 rc2.Placement = PlacementType.FreeFloating
 
-Set the line style.
+Установите стиль линии.
 rc2.Line.CompoundType = MsoLineStyle.Single
 
-Set the line weight.
+Установите вес линии.
 rc2.Line.Weight = 1
 
-Set the color of the arc line.
+Установите цвет линии дуги.
 rc2.Line.FillType = FillType.Solid
 rc2.Line.SolidFill.Color = Color.Blue
 
-Set the dash style of the arc.
+Установите стиль пунктира дуги.
 rc2.Line.DashStyle = MsoLineDashStyle.Solid
 
-Save the excel file.
+Сохранение файла Excel
 xcelbook.Save("tstarcs.xls")
 ```
 

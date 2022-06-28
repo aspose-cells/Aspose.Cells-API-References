@@ -205,25 +205,25 @@ workbook.Save(@"tstcombobox.xls");
 
 [VB.NET]
 
-'Create a new Workbook.
+'Создать новую книгу.
 Dim workbook As Workbook = New Workbook()
  
-'Get the first worksheet.
+'Получите первый рабочий лист.
 Dim sheet As Worksheet = workbook.Worksheets(0)
  
-'Get the worksheet cells collection.
+'Получите коллекцию ячеек рабочего листа.
 Dim cells As Cells = sheet.Cells
  
-'Input a value.
+'Введите значение.
 cells("B3").PutValue("Employee:")
  
-'Set it bold.
+'Выделите его жирным шрифтом.
 Dim style As Style = cells("B3").GetStyle()
 style.Font.IsBold = true
 cells("B3").SetStyle(style)
  
-'Input some values that denote the input range
-'for the combo box.
+'Введите некоторые значения, которые обозначают диапазон ввода
+ 'для поля со списком.
 cells("A2").PutValue("Emp001")
 cells("A3").PutValue("Emp002")
 cells("A4").PutValue("Emp003")
@@ -231,26 +231,26 @@ cells("A5").PutValue("Emp004")
 cells("A6").PutValue("Emp005")
 cells("A7").PutValue("Emp006")
  
-'Add a new combo box.
+'Добавить новое поле со списком.
 Dim comboBox As Aspose.Cells.Drawing.ComboBox = sheet.Shapes.AddComboBox(2, 0, 2, 0, 22, 100)
  
-'Set the linked cell;
+'Установить связанную ячейку
 comboBox.LinkedCell = "A1"
  
-'Set the input range.
+'Установить диапазон ввода.
 comboBox.InputRange = "A2:A7"
  
-'Set no. of list lines displayed in the combo
-'box's list portion.
+'Установить номер. строк списка, отображаемых в комбо 
+'часть списка коробки.
 comboBox.DropDownLines = 5
  
-'Set the combo box with 3-D shading.
+'Установите поле со списком с трехмерным затенением.
 comboBox.Shadow = True
  
-'AutoFit Columns
+'Автоподбор столбцов
 sheet.AutoFitColumns()
  
-'Saves the file.
+'Сохраняет файл.
 workbook.Save("tstcombobox.xls")
 
 ```

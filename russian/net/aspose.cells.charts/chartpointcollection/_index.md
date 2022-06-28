@@ -85,54 +85,54 @@ rkbook.Save("book1.xls");
 
 B.NET]
 
-nstantiating a Workbook object
+оздание экземпляра рабочей книги object
 m workbook As Workbook = New Workbook()
 
-btaining the reference of the first worksheet
+олучение ссылки на первый worksheet
 m worksheet As Worksheet = workbook.Worksheets(0)
 
-dding a sample value to "A1" cell
+обавление значения выборки в "A1" cell
 rksheet.Cells("A1").PutValue(50)
 
-dding a sample value to "A2" cell
+обавление значения выборки в "A2" cell
 rksheet.Cells("A2").PutValue(100)
 
-dding a sample value to "A3" cell
+обавление значения выборки в "A3" cell
 rksheet.Cells("A3").PutValue(150)
 
-dding a sample value to "B1" cell
+обавление значения образца в "B1" cell
 rksheet.Cells("B1").PutValue(60)
 
-dding a sample value to "B2" cell
+обавление значения образца в "B2" cell
 rksheet.Cells("B2").PutValue(32)
 
-dding a sample value to "B3" cell
+обавление значения образца в "B3" cell
 rksheet.Cells("B3").PutValue(50)
 
-dding a chart to the worksheet
+обавление диаграммы на лист
 m chartIndex As Integer = worksheet.Charts.Add(ChartType.PieExploded, 5, 0, 25, 10)
 
-ccessing the instance of the newly added chart
+оступ к экземпляру только что добавленного chart
 m chart As Chart = worksheet.Charts(chartIndex)
 
-dding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
+обавление NSeries (источника данных диаграммы) на диаграмму в диапазоне от ячейки "A1" до "B3"
 art.NSeries.Add("A1:B3", True)
 
-how Data Labels 
+оказать метки данных 
 art.NSeries(0).DataLabels.IsValueShown = True
 
 m points As ChartPointCollection = chart.NSeries(0).Points
 
 r i As Integer = 0 To points.Count - 1
-  'Get Data Point
+  'Получить данные Point
   Dim point As ChartPoint = points(i)
-  'Set Pir Explosion
+  'Установить Пир Explosion
   point.Explosion = 15
-  'Set Border Color
+  'Установить цвет границы
   point.Border.Color = System.Drawing.Color.Red
 xt i
 
-aving the Excel file
+охранение файла Excel
 rkbook.Save("book1.xls")
 
 ```

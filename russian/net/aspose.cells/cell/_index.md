@@ -157,19 +157,19 @@ cell.SetStyle(style);
 Dim excel as Workbook = new Workbook()
 Dim cells as Cells = exce.Worksheets(0).Cells
 
-'Put a string into a cell
+'Поместите строку в ячейку
 Dim cell as Cell = cells(0, 0)
 cell.PutValue("Hello")
 
 Dim first as String = cell.StringValue
 	
-   // Поместите целое число в ячейку
+'Поместите целое число в ячейку
 cell = cells("B1")
 cell.PutValue(12)
 
 Dim second as Integer = cell.IntValue
 
-   // Поместите двойник в ячейку
+' Поместите двойник в ячейку
 cell = cells(0, 2)
 cell.PutValue(-1.234)
 
@@ -179,16 +179,16 @@ Dim third as Double = cell.DoubleValue
 cell = cells("D1")
 cell.Formula = "=B1 + C1"
 
-   // Поместите комбинированную формулу: «сумма (среднее (b1, c1), b1)» в ячейку по адресу b2
+' Поместите комбинированную формулу: «сумма (среднее (b1, c1), b1)» в ячейку по адресу b2
 cell = cells("b2")
 cell.Formula = "=sum(average(b1,c1), b1)"
 	
-   //Установить стиль ячейки
+'Установить стиль ячейки
 Dim style as Style = cell.GetStyle()
 
-   //Установить цвет фона
+'Установить цвет фона
 style.BackgroundColor = Color.Yellow
-  //Установить шрифт ячейки
+'Установить шрифт ячейки
 style.Font.Name = "Courier New"
 style.VerticalAlignment = TextAlignmentType.Top
 cell.SetStyle(style)

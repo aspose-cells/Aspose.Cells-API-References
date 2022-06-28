@@ -26,10 +26,10 @@ chart.NSeries[0].Name = "=A1";
 chart.NSeries[0].Name = "First Series";
 [Visual Basic]
 
-'Reference name to a cell
+'Имя ссылки на ячейку
 chart.NSeries[0].Name = "=A1"
 
-'Set a string to name
+'Установить строку name
 chart.NSeries[0].Name = "First Series"
 ```
 

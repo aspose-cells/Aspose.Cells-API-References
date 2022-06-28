@@ -51,11 +51,11 @@ workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'Instantiating a Workbook object
+'Создание экземпляра рабочей книги object
 Dim workbook As Workbook = New Workbook()
-'Init VBA project.
+'Инициируем проект VBA.
 Dim vbaProject as VbaProject  = workbook.VbaProject
-'Saving the Excel file
+'Сохранение файла Excel
 workbook.Save("book1.xlsm")
 ```
 
