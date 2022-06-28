@@ -18,43 +18,43 @@ public class ColumnCollection : CollectionBase<Column>
 
 | Name | Description |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count) { get; } |  |
 | [Item](../../aspose.cells/columncollection/item) { get; } | Gets a  object by column index. The Column object of given column index will be instantiated if it does not exist before. |
-| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
+| [Item](../../aspose.cells/collectionbase-1/item) { get; set; } |  |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Column) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Column, IComparer&lt;Column&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Column, IComparer&lt;Column&gt;) |  |
-| [Clear](../../aspose.cells/collectionbase`1/clear)() |  |
-| [Contains](../../aspose.cells/collectionbase`1/contains)(Column) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Column[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Column[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, Column[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;Column&gt;) |  |
-| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;Column&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;Column&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;Column&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;Column&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;Column&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;Column&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;Column&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;Column&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;Column&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(Column) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(Column, IComparer&lt;Column&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(int, int, Column, IComparer&lt;Column&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear)() |  |
+| [Contains](../../aspose.cells/collectionbase-1/contains)(Column) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(Column[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(Column[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(int, Column[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists)(Predicate&lt;Column&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find)(Predicate&lt;Column&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall)(Predicate&lt;Column&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(Predicate&lt;Column&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(int, Predicate&lt;Column&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(int, int, Predicate&lt;Column&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast)(Predicate&lt;Column&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(Predicate&lt;Column&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(int, Predicate&lt;Column&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(int, int, Predicate&lt;Column&gt;) |  |
 | [GetByIndex](../../aspose.cells/columncollection/getbyindex)(int) | Gets the column object by the index. |
 | [GetColumnByIndex](../../aspose.cells/columncollection/getcolumnbyindex)(int) | Gets the [`Column`](../column) object by the position in the list. |
-| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Column) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Column, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Column, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Column) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Column, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Column, int, int) |  |
-| [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(Column) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(Column, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(Column, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(Column) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(Column, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(Column, int, int) |  |
+| [RemoveAt](../../aspose.cells/collectionbase-1/removeat)(int) |  |
 
 ### Examples
 

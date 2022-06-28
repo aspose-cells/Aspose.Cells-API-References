@@ -18,41 +18,41 @@ public class DxfCollection : CollectionBase<Style>
 
 | Name | Description |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count) { get; } |  |
 | [Item](../../aspose.cells/dxfcollection/item) { get; } | Gets the element at the specified index. |
-| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
+| [Item](../../aspose.cells/collectionbase-1/item) { get; set; } |  |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Style) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Style, IComparer&lt;Style&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Style, IComparer&lt;Style&gt;) |  |
-| [Clear](../../aspose.cells/collectionbase`1/clear)() |  |
-| [Contains](../../aspose.cells/collectionbase`1/contains)(Style) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Style[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Style[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, Style[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;Style&gt;) |  |
-| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;Style&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;Style&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;Style&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;Style&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;Style&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;Style&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;Style&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;Style&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;Style&gt;) |  |
-| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Style) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Style, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Style, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Style) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Style, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Style, int, int) |  |
-| [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(Style) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(Style, IComparer&lt;Style&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(int, int, Style, IComparer&lt;Style&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear)() |  |
+| [Contains](../../aspose.cells/collectionbase-1/contains)(Style) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(Style[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(Style[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(int, Style[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists)(Predicate&lt;Style&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find)(Predicate&lt;Style&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall)(Predicate&lt;Style&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(Predicate&lt;Style&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(int, Predicate&lt;Style&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(int, int, Predicate&lt;Style&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast)(Predicate&lt;Style&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(Predicate&lt;Style&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(int, Predicate&lt;Style&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(int, int, Predicate&lt;Style&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(Style) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(Style, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(Style, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(Style) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(Style, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(Style, int, int) |  |
+| [RemoveAt](../../aspose.cells/collectionbase-1/removeat)(int) |  |
 
 ### See Also
 

@@ -18,10 +18,10 @@ public class ShapeCollection : CollectionBase<Shape>
 
 | Name | Description |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count) { get; } |  |
 | [Item](../../aspose.cells.drawing/shapecollection/item) { get; } | Gets the shape object at the specific index. (2 indexers) |
-| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
+| [Item](../../aspose.cells/collectionbase-1/item) { get; set; } |  |
 
 ## Methods
 
@@ -64,36 +64,36 @@ public class ShapeCollection : CollectionBase<Shape>
 | [AddTextEffect](../../aspose.cells.drawing/shapecollection/addtexteffect)(MsoPresetTextEffect, string, string, int, bool, bool, int, int, int, int, int, int) | Inserts a WordArt object. |
 | [AddTextEffectInChart](../../aspose.cells.drawing/shapecollection/addtexteffectinchart)(MsoPresetTextEffect, string, string, int, bool, bool, int, int, int, int) | Inserts a WordArt object to the chart |
 | [AddWordArt](../../aspose.cells.drawing/shapecollection/addwordart)(PresetWordArtStyle, string, int, int, int, int, int, int) | Adds preset WordArt since Excel 2007.s |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Shape) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Shape, IComparer&lt;Shape&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Shape, IComparer&lt;Shape&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(Shape) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(Shape, IComparer&lt;Shape&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(int, int, Shape, IComparer&lt;Shape&gt;) |  |
 | [Clear](../../aspose.cells.drawing/shapecollection/clear#clear)() | Clear all shapes. (2 methods) |
-| [Contains](../../aspose.cells/collectionbase`1/contains)(Shape) |  |
+| [Contains](../../aspose.cells/collectionbase-1/contains)(Shape) |  |
 | [CopyCommentsInRange](../../aspose.cells.drawing/shapecollection/copycommentsinrange)(ShapeCollection, CellArea, int, int) | Copy all comments in the range. |
 | [CopyInRange](../../aspose.cells.drawing/shapecollection/copyinrange)(ShapeCollection, CellArea, int, int, bool) | Copy shapes in the range to destination range. |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Shape[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Shape[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, Shape[], int, int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(Shape[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(Shape[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(int, Shape[], int, int) |  |
 | [DeleteInRange](../../aspose.cells.drawing/shapecollection/deleteinrange)(CellArea) | Delete shapes in the range.Comment shapes will not be deleted. |
 | [DeleteShape](../../aspose.cells.drawing/shapecollection/deleteshape)(Shape) | Delete a shape. If the shape is in the group or is a comment shape, it will not be deleted. |
-| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;Shape&gt;) |  |
-| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;Shape&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;Shape&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;Shape&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;Shape&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;Shape&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;Shape&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;Shape&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;Shape&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;Shape&gt;) |  |
-| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists)(Predicate&lt;Shape&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find)(Predicate&lt;Shape&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall)(Predicate&lt;Shape&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(Predicate&lt;Shape&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(int, Predicate&lt;Shape&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(int, int, Predicate&lt;Shape&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast)(Predicate&lt;Shape&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(Predicate&lt;Shape&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(int, Predicate&lt;Shape&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(int, int, Predicate&lt;Shape&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator)() |  |
 | [Group](../../aspose.cells.drawing/shapecollection/group)(Shape[]) | Group the shapes. |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Shape) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Shape, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Shape, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Shape) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Shape, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Shape, int, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(Shape) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(Shape, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(Shape, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(Shape) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(Shape, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(Shape, int, int) |  |
 | [Remove](../../aspose.cells.drawing/shapecollection/remove)(Shape) | Remove the shape. |
 | [RemoveAt](../../aspose.cells.drawing/shapecollection/removeat#removeat)(int) | Remove the shape. (2 methods) |
 | [Ungroup](../../aspose.cells.drawing/shapecollection/ungroup)(GroupShape) | Ungroups the shape items. |
