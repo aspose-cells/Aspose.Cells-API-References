@@ -14,7 +14,7 @@ Contains all classes of Query Table.
 | --- | --- |
 | [DataMashup](./datamashup) | Represents mashup data. |
 | [PowerQueryFormula](./powerqueryformula) | Represents the definition of power query formula. |
-| [PowerQueryFormulaCollction](./powerqueryformulacollction) | Represents all power query formulas in the mashup data. |
+| [PowerQueryFormulaCollection](./powerqueryformulacollection) | Represents all power query formulas in the mashup data. |
 | [PowerQueryFormulaFunction](./powerqueryformulafunction) | Represents the function of power query. |
 | [PowerQueryFormulaItem](./powerqueryformulaitem) | Represents the item of the power query formula. |
 | [PowerQueryFormulaItemCollection](./powerqueryformulaitemcollection) | Represents all item of the power query formula. |

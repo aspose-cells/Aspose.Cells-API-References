@@ -1,17 +1,17 @@
 ---
-title: PowerQueryFormulaCollction
+title: PowerQueryFormulaCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents all power query formulas in the mashup data.
 type: docs
 weight: 5000
-url: /net/aspose.cells.querytables/powerqueryformulacollction/
+url: /net/aspose.cells.querytables/powerqueryformulacollection/
 ---
-## PowerQueryFormulaCollction class
+## PowerQueryFormulaCollection class
 
 Represents all power query formulas in the mashup data.
 
 ```csharp
-public class PowerQueryFormulaCollction : CollectionBase<PowerQueryFormula>
+public class PowerQueryFormulaCollection : CollectionBase<PowerQueryFormula>
 ```
 
 ## Properties
@@ -20,7 +20,7 @@ public class PowerQueryFormulaCollction : CollectionBase<PowerQueryFormula>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase-1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase-1/count) { get; } |  |
-| [Item](../../aspose.cells.querytables/powerqueryformulacollction/item) { get; } | Gets [`PowerQueryFormula`](../powerqueryformula) by the index in the list. (2 indexers) |
+| [Item](../../aspose.cells.querytables/powerqueryformulacollection/item) { get; } | Gets [`PowerQueryFormula`](../powerqueryformula) by the index in the list. (2 indexers) |
 | [Item](../../aspose.cells/collectionbase-1/item) { get; set; } |  |
 
 ## Methods

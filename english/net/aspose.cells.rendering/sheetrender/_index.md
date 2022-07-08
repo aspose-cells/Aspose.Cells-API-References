@@ -32,7 +32,7 @@ public class SheetRender
 | Name | Description |
 | --- | --- |
 | [CustomPrint](../../aspose.cells.rendering/sheetrender/customprint)(bool, PrintPageEventArgs) | Client can control page setting of printer when print each page using this function. |
-| [GetPageSize](../../aspose.cells.rendering/sheetrender/getpagesize)(int) | Get page size of output image. The size unit is in pixel. |
+| [GetPageSize](../../aspose.cells.rendering/sheetrender/getpagesize)(int) | (**Obsolete.**) Get page size of output image. The size unit is in pixel. |
 | [GetPageSizeInch](../../aspose.cells.rendering/sheetrender/getpagesizeinch)(int) | Get page size in inch of output image. |
 | [ToImage](../../aspose.cells.rendering/sheetrender/toimage#toimage)(int) | Render certain page to a Bitmap object. |
 | [ToImage](../../aspose.cells.rendering/sheetrender/toimage#toimage_3)(int, Stream) | Render certain page to a stream. |
@@ -43,7 +43,7 @@ public class SheetRender
 | [ToPrinter](../../aspose.cells.rendering/sheetrender/toprinter#toprinter_2)(string) | Render worksheet to Printer |
 | [ToPrinter](../../aspose.cells.rendering/sheetrender/toprinter#toprinter_1)(PrinterSettings, string) | Render worksheet to Printer |
 | [ToPrinter](../../aspose.cells.rendering/sheetrender/toprinter#toprinter_4)(string, string) | Render worksheet to Printer |
-| [ToPrinter](../../aspose.cells.rendering/sheetrender/toprinter#toprinter_3)(string, int, int) | Render worksheet to Printer |
+| [ToPrinter](../../aspose.cells.rendering/sheetrender/toprinter#toprinter_3)(string, int, int) | (**Obsolete.**) Render worksheet to Printer |
 | [ToTiff](../../aspose.cells.rendering/sheetrender/totiff#totiff)(Stream) | Render whole worksheet as Tiff Image to stream. |
 | [ToTiff](../../aspose.cells.rendering/sheetrender/totiff#totiff_1)(string) | Render whole worksheet as Tiff Image to a file. |
 

@@ -27,7 +27,7 @@ public class ValidationCollection : CollectionBase<Validation>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells/validationcollection/add#add)() | Adds a data validation to the collection. |
+| [Add](../../aspose.cells/validationcollection/add#add)() | (**Obsolete.**) Adds a data validation to the collection. |
 | [Add](../../aspose.cells/validationcollection/add#add_1)(CellArea) | Adds a data validation to the collection. |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(Validation) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(Validation, IComparer&lt;Validation&gt;) |  |

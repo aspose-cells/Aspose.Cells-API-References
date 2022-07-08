@@ -1,12 +1,12 @@
 ---
 title: Aspose.Cells.Properties
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all core classes of Aspose.Cells.
+description: Contains all classes of document properties.
 type: docs
 weight: 120
 url: /net/aspose.cells.properties/
 ---
-Contains all core classes of Aspose.Cells.
+Contains all classes of document properties.
 
 ## Classes
 

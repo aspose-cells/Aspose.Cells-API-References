@@ -3,7 +3,7 @@ title: SetColumnWidthInch
 second_title: Aspose.Cells for .NET API Reference
 description: Sets column width in unit of inches in normal view.
 type: docs
-weight: 1290
+weight: 1300
 url: /net/aspose.cells/cells/setcolumnwidthinch/
 ---
 ## Cells.SetColumnWidthInch method

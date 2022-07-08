@@ -11,12 +11,11 @@ url: /net/aspose.cells.gridweb.data/gridworksheet/setisreadonly/
 Sets whether the cell is readonly.this is an extended attribute of GridWeb ,it will not keep in actual excel file
 
 ```csharp
-public void SetIsReadonly(GridCell cell, bool value)
+public void SetIsReadonly(int row, int col, bool value)
 ```
 
 ### See Also
 
-* class [GridCell](../../gridcell)
 * class [GridWorksheet](../../gridworksheet)
 * namespace [Aspose.Cells.GridWeb.Data](../../gridworksheet)
 * assembly [Aspose.Cells.GridWeb](../../../)

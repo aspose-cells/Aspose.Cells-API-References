@@ -18,9 +18,9 @@ public class CustomDocumentPropertyCollection : DocumentPropertyCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.cells.properties/documentpropertycollection/count) { get; } | Gets number of items in the collection. |
-| [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Returns a [`DocumentProperty`](../documentproperty) object by index. |
-| virtual [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Returns a [`DocumentProperty`](../documentproperty) object by the name of the property. |
+| [Count](../../aspose.cells.properties/documentpropertycollection/count) { get; } | Gets number of items in the collection.(Inherited from [`DocumentPropertyCollection`](../documentpropertycollection).) |
+| [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Returns a [`DocumentProperty`](../documentproperty) object by index.(Inherited from [`DocumentPropertyCollection`](../documentpropertycollection).) |
+| virtual [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Returns a [`DocumentProperty`](../documentproperty) object by the name of the property.(Inherited from [`DocumentPropertyCollection`](../documentpropertycollection).) |
 
 ## Methods
 
@@ -32,12 +32,12 @@ public class CustomDocumentPropertyCollection : DocumentPropertyCollection
 | [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add_2)(string, int) | Creates a new custom document property of the **PropertyType.Number** data type. |
 | [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add_4)(string, string) | Creates a new custom document property of the **PropertyType.String** data type. |
 | [AddLinkToContent](../../aspose.cells.properties/customdocumentpropertycollection/addlinktocontent)(string, string) | Creates a new custom document property which links to content. |
-| [Clear](../../aspose.cells.properties/documentpropertycollection/clear)() | Removes all properties from the collection. |
-| [Contains](../../aspose.cells.properties/documentpropertycollection/contains)(string) | Returns true if a property with the specified name exists in the collection. |
-| [GetEnumerator](../../aspose.cells.properties/documentpropertycollection/getenumerator)() |  |
-| [IndexOf](../../aspose.cells.properties/documentpropertycollection/indexof)(string) | Gets the index of a property by name. |
-| [Remove](../../aspose.cells.properties/documentpropertycollection/remove)(string) | Removes a property with the specified name from the collection. |
-| [RemoveAt](../../aspose.cells.properties/documentpropertycollection/removeat)(int) | Removes a property at the specified index. |
+| [Clear](../../aspose.cells.properties/documentpropertycollection/clear)() | Removes all properties from the collection.(Inherited from [`DocumentPropertyCollection`](../documentpropertycollection).) |
+| [Contains](../../aspose.cells.properties/documentpropertycollection/contains)(string) | Returns true if a property with the specified name exists in the collection.(Inherited from [`DocumentPropertyCollection`](../documentpropertycollection).) |
+| [GetEnumerator](../../aspose.cells.properties/documentpropertycollection/getenumerator)() | (Inherited from [`DocumentPropertyCollection`](../documentpropertycollection).) |
+| [IndexOf](../../aspose.cells.properties/documentpropertycollection/indexof)(string) | Gets the index of a property by name.(Inherited from [`DocumentPropertyCollection`](../documentpropertycollection).) |
+| [Remove](../../aspose.cells.properties/documentpropertycollection/remove)(string) | Removes a property with the specified name from the collection.(Inherited from [`DocumentPropertyCollection`](../documentpropertycollection).) |
+| [RemoveAt](../../aspose.cells.properties/documentpropertycollection/removeat)(int) | Removes a property at the specified index.(Inherited from [`DocumentPropertyCollection`](../documentpropertycollection).) |
 | [UpdateLinkedPropertyValue](../../aspose.cells.properties/customdocumentpropertycollection/updatelinkedpropertyvalue)() | Update custom document property value which links to content. |
 | [UpdateLinkedRange](../../aspose.cells.properties/customdocumentpropertycollection/updatelinkedrange)() | Update custom document property value to linked range. |
 

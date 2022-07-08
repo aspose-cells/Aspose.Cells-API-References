@@ -11,12 +11,12 @@ url: /net/aspose.cells.querytables/datamashup/powerqueryformulas/
 Gets all power query formulas.
 
 ```csharp
-public PowerQueryFormulaCollction PowerQueryFormulas { get; }
+public PowerQueryFormulaCollection PowerQueryFormulas { get; }
 ```
 
 ### See Also
 
-* class [PowerQueryFormulaCollction](../../powerqueryformulacollction)
+* class [PowerQueryFormulaCollection](../../powerqueryformulacollection)
 * class [DataMashup](../../datamashup)
 * namespace [Aspose.Cells.QueryTables](../../datamashup)
 * assembly [Aspose.Cells](../../../)

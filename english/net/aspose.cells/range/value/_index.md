@@ -3,7 +3,7 @@ title: Value
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the value of the range.
 type: docs
-weight: 160
+weight: 190
 url: /net/aspose.cells/range/value/
 ---
 ## Range.Value property

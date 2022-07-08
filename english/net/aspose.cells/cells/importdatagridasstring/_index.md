@@ -3,7 +3,7 @@ title: ImportDataGridAsString
 second_title: Aspose.Cells for .NET API Reference
 description: Imports a DataGrid into a worksheet. This method doesnt try to convert text into numeric values.
 type: docs
-weight: 1020
+weight: 1030
 url: /net/aspose.cells/cells/importdatagridasstring/
 ---
 ## Cells.ImportDataGridAsString method

@@ -3,7 +3,7 @@ title: WarningCallback
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets warning callback.
 type: docs
-weight: 130
+weight: 110
 url: /net/aspose.cells/saveoptions/warningcallback/
 ---
 ## SaveOptions.WarningCallback property

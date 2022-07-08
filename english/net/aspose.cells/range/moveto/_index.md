@@ -3,7 +3,7 @@ title: MoveTo
 second_title: Aspose.Cells for .NET API Reference
 description: Move the current range to the dest range.
 type: docs
-weight: 320
+weight: 360
 url: /net/aspose.cells/range/moveto/
 ---
 ## Range.MoveTo method

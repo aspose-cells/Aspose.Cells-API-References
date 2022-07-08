@@ -3,7 +3,7 @@ title: RemoveFormulas
 second_title: Aspose.Cells for .NET API Reference
 description: Removes all formula and replaces with the value of the formula.
 type: docs
-weight: 1260
+weight: 1270
 url: /net/aspose.cells/cells/removeformulas/
 ---
 ## Cells.RemoveFormulas method

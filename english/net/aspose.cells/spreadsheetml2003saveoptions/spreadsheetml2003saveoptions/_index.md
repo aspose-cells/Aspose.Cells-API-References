@@ -28,6 +28,7 @@ Creates the options for saving Excel 2003 spreadml file.
 
 ```csharp
 [Obsolete("Use SpreadsheetML2003SaveOptions() constructor instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public SpreadsheetML2003SaveOptions(SaveFormat saveFormat)
 ```
 

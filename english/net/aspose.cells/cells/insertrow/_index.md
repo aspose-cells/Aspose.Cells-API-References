@@ -3,7 +3,7 @@ title: InsertRow
 second_title: Aspose.Cells for .NET API Reference
 description: Inserts a new row into the worksheet.
 type: docs
-weight: 1160
+weight: 1170
 url: /net/aspose.cells/cells/insertrow/
 ---
 ## Cells.InsertRow method

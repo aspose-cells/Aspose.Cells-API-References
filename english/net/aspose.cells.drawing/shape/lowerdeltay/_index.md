@@ -1,18 +1,22 @@
 ---
 title: LowerDeltaY
 second_title: Aspose.Cells for .NET API Reference
-description: Gets or sets the shapes vertical offset from its lower right corner row. The range of value is 0 to 256.
+description: Gets or sets the shapes vertical offset from its lower right corner row.
 type: docs
 weight: 520
 url: /net/aspose.cells.drawing/shape/lowerdeltay/
 ---
 ## Shape.LowerDeltaY property
 
-Gets or sets the shape's vertical offset from its lower right corner row. The range of value is 0 to 256.
+Gets or sets the shape's vertical offset from its lower right corner row.
 
 ```csharp
 public int LowerDeltaY { get; set; }
 ```
+
+### Remarks
+
+The range of value is 0 to 256.
 
 ### Examples
 

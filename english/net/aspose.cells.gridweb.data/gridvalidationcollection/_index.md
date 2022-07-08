@@ -25,7 +25,7 @@ public class GridValidationCollection
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.gridweb.data/gridvalidationcollection/add#add)() | Add a [`GridValidation`](../gridvalidation) to the collection. |
+| [Add](../../aspose.cells.gridweb.data/gridvalidationcollection/add#add)() | (**Obsolete.**) Add a [`GridValidation`](../gridvalidation) to the collection. |
 | [Add](../../aspose.cells.gridweb.data/gridvalidationcollection/add#add_1)(GridCellArea) | Adds a data validation to the collection. |
 | [Add](../../aspose.cells.gridweb.data/gridvalidationcollection/add#add_4)(GridValidation) | Add a [`GridValidation`](../gridvalidation) to the collection. |
 | [Add](../../aspose.cells.gridweb.data/gridvalidationcollection/add#add_3)(string) | Add a [`GridValidation`](../gridvalidation) to the collection.the validation is applied to the specificed cell. |

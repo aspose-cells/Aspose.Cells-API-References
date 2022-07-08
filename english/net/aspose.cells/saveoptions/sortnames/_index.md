@@ -3,7 +3,7 @@ title: SortNames
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether sorting defined names before saving file.
 type: docs
-weight: 100
+weight: 80
 url: /net/aspose.cells/saveoptions/sortnames/
 ---
 ## SaveOptions.SortNames property

@@ -87,7 +87,7 @@ public class GridWorksheet : Control, ISerializable
 | [GetColumnHeaderToolTip](../../aspose.cells.gridweb.data/gridworksheet/getcolumnheadertooltip)(int) | Gets the columnheader's tooltip text. |
 | [GetColumnReadonly](../../aspose.cells.gridweb.data/gridworksheet/getcolumnreadonly)(int) | Gets if a column is readonly. this is extended method of GridWeb specifically,it will not keep and take affect in actual excel file |
 | [GetFreezedPanes](../../aspose.cells.gridweb.data/gridworksheet/getfreezedpanes)(out int, out int, out int, out int) | Gets the freeze panes. |
-| [GetIsReadonly](../../aspose.cells.gridweb.data/gridworksheet/getisreadonly)(GridCell) | Gets whether the cell is readonly.this is an extended attribute of GridWeb ,it will not keep in actual excel file |
+| [GetIsReadonly](../../aspose.cells.gridweb.data/gridworksheet/getisreadonly)(int, int) | Gets whether the cell is readonly.this is an extended attribute of GridWeb ,it will not keep in actual excel file |
 | [GetRowCaption](../../aspose.cells.gridweb.data/gridworksheet/getrowcaption)(int) | Gets the row caption. If the caption is not set, returns empty string. |
 | [GetRowHeaderToolTip](../../aspose.cells.gridweb.data/gridworksheet/getrowheadertooltip)(int) | Gets the rowheader's tooltip text. |
 | [GetRowReadonly](../../aspose.cells.gridweb.data/gridworksheet/getrowreadonly)(int) | Gets if a row is readonly. this is extended method of GridWeb specifically,it will not keep and take affect in actual excel file |
@@ -104,7 +104,7 @@ public class GridWorksheet : Control, ISerializable
 | [SetColumnHeaderToolTip](../../aspose.cells.gridweb.data/gridworksheet/setcolumnheadertooltip)(int, string) | Sets the columnheader's tooltip text. |
 | [SetColumnReadonly](../../aspose.cells.gridweb.data/gridworksheet/setcolumnreadonly)(int, bool) | Sets a column to readonly so user can't delete it from client side. this is extended method of GridWeb specifically,it will not keep and take affect in actual excel file |
 | [SetEditableRange](../../aspose.cells.gridweb.data/gridworksheet/seteditablerange)(int, int, int, int) | Makes a range of cells editable. http://docs.aspose.com:8082/docs/display/cellsnet/Protecting+Cells Make all cells read only by calling the SetAllCellsReadonly method. then call this method to Specify the range of cells that to be editable |
-| [SetIsReadonly](../../aspose.cells.gridweb.data/gridworksheet/setisreadonly)(GridCell, bool) | Sets whether the cell is readonly.this is an extended attribute of GridWeb ,it will not keep in actual excel file |
+| [SetIsReadonly](../../aspose.cells.gridweb.data/gridworksheet/setisreadonly)(int, int, bool) | Sets whether the cell is readonly.this is an extended attribute of GridWeb ,it will not keep in actual excel file |
 | [SetProtect](../../aspose.cells.gridweb.data/gridworksheet/setprotect)() | Protects worksheet. |
 | [SetReadonlyRange](../../aspose.cells.gridweb.data/gridworksheet/setreadonlyrange)(int, int, int, int) | Makes a range of cells readonly. http://docs.aspose.com:8082/docs/display/cellsnet/Protecting+Cells First make all cells editable by calling the SetAllCellsEditable method. then call this method to Specify the range of cells that to be readonly |
 | [SetRowCaption](../../aspose.cells.gridweb.data/gridworksheet/setrowcaption)(int, string) | Sets the caption for the row. |

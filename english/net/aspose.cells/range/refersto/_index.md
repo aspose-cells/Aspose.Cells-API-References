@@ -3,7 +3,7 @@ title: RefersTo
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the ranges refers to.
 type: docs
-weight: 130
+weight: 150
 url: /net/aspose.cells/range/refersto/
 ---
 ## Range.RefersTo property

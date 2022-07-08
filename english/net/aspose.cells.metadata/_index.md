@@ -1,12 +1,12 @@
 ---
 title: Aspose.Cells.Metadata
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all classes of loading and saving metadata.
+description: Contains all classes of loading and saving metadata of the files.s
 type: docs
 weight: 90
 url: /net/aspose.cells.metadata/
 ---
-Contains all classes of loading and saving metadata.
+Contains all classes of loading and saving metadata of the files.s
 
 ## Classes
 

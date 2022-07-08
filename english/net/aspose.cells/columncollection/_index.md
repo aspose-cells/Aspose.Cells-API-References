@@ -45,7 +45,7 @@ public class ColumnCollection : CollectionBase<Column>
 | [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(Predicate&lt;Column&gt;) |  |
 | [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(int, Predicate&lt;Column&gt;) |  |
 | [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(int, int, Predicate&lt;Column&gt;) |  |
-| [GetByIndex](../../aspose.cells/columncollection/getbyindex)(int) | Gets the column object by the index. |
+| [GetByIndex](../../aspose.cells/columncollection/getbyindex)(int) | (**Obsolete.**) Gets the column object by the index. |
 | [GetColumnByIndex](../../aspose.cells/columncollection/getcolumnbyindex)(int) | Gets the [`Column`](../column) object by the position in the list. |
 | [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator)() |  |
 | [IndexOf](../../aspose.cells/collectionbase-1/indexof)(Column) |  |

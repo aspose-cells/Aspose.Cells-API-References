@@ -3,7 +3,7 @@ title: GetMaxGroupedColumnOutlineLevel
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the max grouped column outline level zero-based.
 type: docs
-weight: 770
+weight: 780
 url: /net/aspose.cells/cells/getmaxgroupedcolumnoutlinelevel/
 ---
 ## Cells.GetMaxGroupedColumnOutlineLevel method

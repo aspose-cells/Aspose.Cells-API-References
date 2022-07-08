@@ -3,7 +3,7 @@ title: SetInsideBorders
 second_title: Aspose.Cells for .NET API Reference
 description: Set inside borders of the range.
 type: docs
-weight: 340
+weight: 380
 url: /net/aspose.cells/range/setinsideborders/
 ---
 ## Range.SetInsideBorders method

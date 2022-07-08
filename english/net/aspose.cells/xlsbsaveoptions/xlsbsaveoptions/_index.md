@@ -28,6 +28,7 @@ Creates xlsb file save options.
 
 ```csharp
 [Obsolete("Use XlsbSaveOptions() constructor instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public XlsbSaveOptions(SaveFormat saveFormat)
 ```
 

@@ -20,7 +20,7 @@ public class ChartFrame
 | --- | --- |
 | virtual [Area](../../aspose.cells.charts/chartframe/area) { get; } | Gets the [`area`](./area). |
 | virtual [AutoScaleFont](../../aspose.cells.charts/chartframe/autoscalefont) { get; set; } | True if the text in the object changes font size when the object size changes. The default value is True. |
-| [Background](../../aspose.cells.charts/chartframe/background) { get; set; } | Gets and sets the display mode of the background |
+| [Background](../../aspose.cells.charts/chartframe/background) { get; set; } | (**Obsolete.**) Gets and sets the display mode of the background |
 | [BackgroundMode](../../aspose.cells.charts/chartframe/backgroundmode) { get; set; } | Gets and sets the display mode of the background |
 | virtual [Border](../../aspose.cells.charts/chartframe/border) { get; } | Gets the [`border`](../../aspose.cells.drawing/line). |
 | [DefaultHeight](../../aspose.cells.charts/chartframe/defaultheight) { get; } | Represents height of default position |
@@ -34,7 +34,7 @@ public class ChartFrame
 | [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode) { get; set; } | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [Shadow](../../aspose.cells.charts/chartframe/shadow) { get; set; } | True if the frame has a shadow. |
 | [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties) { get; } | Gets the [`ShapeProperties`](./shapeproperties) object. |
-| virtual [TextFont](../../aspose.cells.charts/chartframe/textfont) { get; } | Gets a [`Font`](./font) object of the specified ChartFrame object. |
+| virtual [TextFont](../../aspose.cells.charts/chartframe/textfont) { get; } | (**Obsolete.**) Gets a [`Font`](./font) object of the specified ChartFrame object. |
 | virtual [Width](../../aspose.cells.charts/chartframe/width) { get; set; } | Gets or sets the width of frame in units of 1/4000 of the chart area. |
 | virtual [X](../../aspose.cells.charts/chartframe/x) { get; set; } | Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the chart area. |
 | virtual [Y](../../aspose.cells.charts/chartframe/y) { get; set; } | Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |

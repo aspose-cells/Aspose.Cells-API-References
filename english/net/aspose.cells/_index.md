@@ -139,7 +139,7 @@ Contains all basic classes of Aspose.Cells.
 | [ScenarioInputCellCollection](./scenarioinputcellcollection) | Represents the list of the scenario's input cells. |
 | [SpreadsheetML2003SaveOptions](./spreadsheetml2003saveoptions) | Represents the options for saving Excel 2003 spreadml file. |
 | [StreamProviderOptions](./streamprovideroptions) | Represents the stream options. |
-| [Style](./style) | Represents display style of excel document,such as font,color,alignment,border,etc. |
+| [Style](./style) | Represents display style of excel document,such as font,color,alignment,border,etc. The Style object contains all style attributes (font, number format, alignment, and so on) as properties. |
 | [StyleFlag](./styleflag) | Represents flags which indicates applied formatting properties. |
 | [SubtotalSetting](./subtotalsetting) | Represents the setting of the subtotal . |
 | [SvgSaveOptions](./svgsaveoptions) | Represents Svg save options |

@@ -3,7 +3,7 @@ title: RowHeight
 second_title: Aspose.Cells for .NET API Reference
 description: Sets or gets the height of rows in this range
 type: docs
-weight: 150
+weight: 170
 url: /net/aspose.cells/range/rowheight/
 ---
 ## Range.RowHeight property

@@ -31,7 +31,7 @@ public class GridRow
 
 | Name | Description |
 | --- | --- |
-| [GetCellByIndex](../../aspose.cells.gridweb.data/gridrow/getcellbyindex)(int) | Get the cell by specific index in the list. |
+| [GetCellByIndex](../../aspose.cells.gridweb.data/gridrow/getcellbyindex)(int) | (**Obsolete.**) Get the cell by specific index in the list. |
 | [GetEnumerator](../../aspose.cells.gridweb.data/gridrow/getenumerator)() | Gets the cells enumerator |
 | [IsBlank](../../aspose.cells.gridweb.data/gridrow/isblank)() | Indicates whether the row contains any data |
 

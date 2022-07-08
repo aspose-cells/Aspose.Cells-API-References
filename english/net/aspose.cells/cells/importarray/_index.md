@@ -3,7 +3,7 @@ title: ImportArray
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 960
+weight: 970
 url: /net/aspose.cells/cells/importarray/
 ---
 ## ImportArray(string[], int, int) {#importarray_4}

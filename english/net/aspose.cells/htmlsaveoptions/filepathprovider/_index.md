@@ -3,7 +3,7 @@ title: FilePathProvider
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the IFilePathProvider for exporting Worksheet to html separately.
 type: docs
-weight: 300
+weight: 330
 url: /net/aspose.cells/htmlsaveoptions/filepathprovider/
 ---
 ## HtmlSaveOptions.FilePathProvider property

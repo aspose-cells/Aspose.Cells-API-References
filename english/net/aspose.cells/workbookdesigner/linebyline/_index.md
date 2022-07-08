@@ -16,7 +16,7 @@ public bool LineByLine { get; set; }
 
 ### Remarks
 
-The default value is false. If False, the template file must contain a range which is named as "_CellsSmartMarkers".
+The default value is true. If False, the template file must contain a range which is named as "_CellsSmartMarkers".
 
 ### See Also
 

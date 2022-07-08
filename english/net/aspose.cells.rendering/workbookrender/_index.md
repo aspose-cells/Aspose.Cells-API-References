@@ -31,7 +31,7 @@ public class WorkbookRender
 | Name | Description |
 | --- | --- |
 | [CustomPrint](../../aspose.cells.rendering/workbookrender/customprint)(bool, PrintPageEventArgs) | Client can control page setting of printer when print each page using this function. |
-| [GetPageSize](../../aspose.cells.rendering/workbookrender/getpagesize)(int) | Get page size of output image. The size unit is in pixel. |
+| [GetPageSize](../../aspose.cells.rendering/workbookrender/getpagesize)(int) | (**Obsolete.**) Get page size of output image. The size unit is in pixel. |
 | [GetPageSizeInch](../../aspose.cells.rendering/workbookrender/getpagesizeinch)(int) | Get page size in inch of output image. |
 | [ToImage](../../aspose.cells.rendering/workbookrender/toimage#toimage)(int) | Render certain page to a Bitmap object. |
 | [ToImage](../../aspose.cells.rendering/workbookrender/toimage#toimage_3)(Stream) | Render whole workbook as Tiff Image to stream. |
@@ -42,7 +42,7 @@ public class WorkbookRender
 | [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter#toprinter_2)(string) | Render workbook to Printer |
 | [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter#toprinter_1)(PrinterSettings, string) | Render workbook to Printer |
 | [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter#toprinter_4)(string, string) | Render workbook to Printer |
-| [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter#toprinter_3)(string, int, int) | Render workbook to Printer |
+| [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter#toprinter_3)(string, int, int) | (**Obsolete.**) Render workbook to Printer |
 
 ### See Also
 

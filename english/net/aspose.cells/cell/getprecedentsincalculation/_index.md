@@ -30,11 +30,14 @@ This method can only work with the situation that [`EnableCalculationChain`](../
 Workbook workbook = new Workbook();
 Cells cells = workbook.Worksheets[0].Cells;
 cells["A2"].Formula = "=IF(TRUE,B2,B1)";
+workbook.Settings.FormulaSettings.EnableCalculationChain = true;
+workbook.CalculateFormula();
 IEnumerator en = cells["A2"].GetPrecedentsInCalculation();
+Console.WriteLine("A2's calculation precedents:");
 while(en.MoveNext())
 {
-     ReferredArea r = (ReferredArea)en.Current;
-     Console.WriteLine(r.SheetName + "!" + CellsHelper.CellIndexToName(r.StartRow, r.StartColumn));
+    ReferredArea r = (ReferredArea)en.Current;
+    Console.WriteLine(r);
 }
 ```
 

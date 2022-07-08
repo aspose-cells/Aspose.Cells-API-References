@@ -3,7 +3,7 @@ title: ImportDataTable
 second_title: Aspose.Cells for .NET API Reference
 description: Imports a DataTable object into a worksheet.
 type: docs
-weight: 1050
+weight: 1060
 url: /net/aspose.cells/cells/importdatatable/
 ---
 ## ImportDataTable(DataTable, bool, int, int) {#importdatatable}

@@ -3,7 +3,7 @@ title: UnhideColumns
 second_title: Aspose.Cells for .NET API Reference
 description: Unhide multiple columns.
 type: docs
-weight: 1410
+weight: 1420
 url: /net/aspose.cells/cells/unhidecolumns/
 ---
 ## Cells.UnhideColumns method

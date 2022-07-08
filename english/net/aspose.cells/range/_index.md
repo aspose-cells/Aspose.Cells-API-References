@@ -19,7 +19,7 @@ public class Range
 | Name | Description |
 | --- | --- |
 | [Address](../../aspose.cells/range/address) { get; } | Gets address of the range. |
-| [CellCount](../../aspose.cells/range/cellcount) { get; } | Gets all cell count in the range. |
+| [CellCount](../../aspose.cells/range/cellcount) { get; } | (**Obsolete.**) Gets all cell count in the range. |
 | [ColumnCount](../../aspose.cells/range/columncount) { get; } | Gets the count of columns in the range. |
 | [ColumnWidth](../../aspose.cells/range/columnwidth) { get; set; } | Sets or gets the column width of this range |
 | [CurrentRegion](../../aspose.cells/range/currentregion) { get; } | Returns a Range object that represents the current region. The current region is a range bounded by any combination of blank rows and blank columns. |
@@ -27,13 +27,17 @@ public class Range
 | [EntireRow](../../aspose.cells/range/entirerow) { get; } | Gets a Range object that represents the entire row (or rows) that contains the specified range. |
 | [FirstColumn](../../aspose.cells/range/firstcolumn) { get; } | Gets the index of the first column of the range. |
 | [FirstRow](../../aspose.cells/range/firstrow) { get; } | Gets the index of the first row of the range. |
+| [Height](../../aspose.cells/range/height) { get; } | Gets the width of a range in points. |
 | [Hyperlinks](../../aspose.cells/range/hyperlinks) { get; } | Gets all hyperlink in the range. |
 | [Item](../../aspose.cells/range/item) { get; } | Gets [`Cell`](../cell) object in this range. |
+| [Left](../../aspose.cells/range/left) { get; } | Gets the distance, in points, from the left edge of column A to the left edge of the range. |
 | [Name](../../aspose.cells/range/name) { get; set; } | Gets or sets the name of the range. |
 | [RefersTo](../../aspose.cells/range/refersto) { get; } | Gets the range's refers to. |
 | [RowCount](../../aspose.cells/range/rowcount) { get; } | Gets the count of rows in the range. |
 | [RowHeight](../../aspose.cells/range/rowheight) { get; set; } | Sets or gets the height of rows in this range |
+| [Top](../../aspose.cells/range/top) { get; } | Gets the distance, in points, from the top edge of row 1 to the top edge of the range. |
 | [Value](../../aspose.cells/range/value) { get; set; } | Gets and sets the value of the range. |
+| [Width](../../aspose.cells/range/width) { get; } | Gets the width of a range in points. |
 | [Worksheet](../../aspose.cells/range/worksheet) { get; } | Gets the [`Worksheet`](./worksheet)object which contains this range. |
 
 ## Methods

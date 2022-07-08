@@ -1,14 +1,14 @@
 ---
 title: Style
 second_title: Aspose.Cells for .NET API Reference
-description: Represents display style of excel documentsuch as fontcoloralignmentborderetc.
+description: Represents display style of excel documentsuch as fontcoloralignmentborderetc. The Style object contains all style attributes font number format alignment and so on as properties.
 type: docs
 weight: 5780
 url: /net/aspose.cells/style/
 ---
 ## Style class
 
-Represents display style of excel document,such as font,color,alignment,border,etc.
+Represents display style of excel document,such as font,color,alignment,border,etc. The Style object contains all style attributes (font, number format, alignment, and so on) as properties.
 
 ```csharp
 public class Style
@@ -18,7 +18,7 @@ public class Style
 
 | Name | Description |
 | --- | --- |
-| [Style](style)() | Initializes a new instance of the [`Style`](../style) class. |
+| [Style](style)() | (**Obsolete.**) Initializes a new instance of the [`Style`](../style) class. |
 
 ## Properties
 

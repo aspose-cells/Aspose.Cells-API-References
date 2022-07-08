@@ -3,7 +3,7 @@ title: GetRowOriginalHeightPoint
 second_title: Aspose.Cells for .NET API Reference
 description: Gets original rows height in unit of point if the row is hidden
 type: docs
-weight: 840
+weight: 850
 url: /net/aspose.cells/cells/getroworiginalheightpoint/
 ---
 ## Cells.GetRowOriginalHeightPoint method

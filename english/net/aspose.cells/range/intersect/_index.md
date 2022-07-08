@@ -3,7 +3,7 @@ title: Intersect
 second_title: Aspose.Cells for .NET API Reference
 description: Returns a Rangeaspose.cells/range object that represents the rectangular intersection of two ranges.
 type: docs
-weight: 290
+weight: 330
 url: /net/aspose.cells/range/intersect/
 ---
 ## Range.Intersect method

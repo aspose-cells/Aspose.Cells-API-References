@@ -38,12 +38,31 @@ public int Add(ChartType type, int upperLeftRow, int upperLeftColumn, int lowerR
 
 ## Add(ChartType, string, int, int, int, int) {#add_2}
 
+Adds a chart to the collection.
+
 ```csharp
 [Obsolete("Use ChartCollection.Add(ChartType, string, bool ,int , int, int, int ) instead.")]
 [EditorBrowsable(EditorBrowsableState.Never)]
 public int Add(ChartType type, string dataRange, int topRow, int leftColumn, int rightRow, 
     int bottomColumn)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | ChartType | Chart type |
+| dataRange | String | Specifies the data range of the chart |
+| topRow | Int32 | Upper left row index. |
+| leftColumn | Int32 | Upper left column index. |
+| rightRow | Int32 | Lower right row index |
+| bottomColumn | Int32 | Lower right column index |
+
+### Return Value
+
+[`Chart`](../../chart) object index.
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use [`Add`](../add) property. This property will be removed 12 months later since May 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

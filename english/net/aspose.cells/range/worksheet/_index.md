@@ -3,7 +3,7 @@ title: Worksheet
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Worksheetaspose.cells/range/worksheetobject which contains this range.
 type: docs
-weight: 170
+weight: 210
 url: /net/aspose.cells/range/worksheet/
 ---
 ## Range.Worksheet property

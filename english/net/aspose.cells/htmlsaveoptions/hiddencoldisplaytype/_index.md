@@ -3,7 +3,7 @@ title: HiddenColDisplayType
 second_title: Aspose.Cells for .NET API Reference
 description: Hidden columnthe width of this column is 0 in excelbefore save this into html format if HtmlHiddenColDisplayType is Removethe hidden column would not been output if the value is Hidden the column would been outputbut was hiddenthe default value is Hidden
 type: docs
-weight: 310
+weight: 340
 url: /net/aspose.cells/htmlsaveoptions/hiddencoldisplaytype/
 ---
 ## HtmlSaveOptions.HiddenColDisplayType property

@@ -18,7 +18,7 @@ public class Chart
 
 | Name | Description |
 | --- | --- |
-| [ActualChartSize](../../aspose.cells.charts/chart/actualchartsize) { get; } | Gets actual size of chart in unit of pixels. |
+| [ActualChartSize](../../aspose.cells.charts/chart/actualchartsize) { get; } | (**Obsolete.**) Gets actual size of chart in unit of pixels. |
 | [AutoScaling](../../aspose.cells.charts/chart/autoscaling) { get; set; } | True if Microsoft Excel scales a 3-D chart so that it's closer in size to the equivalent 2-D chart. The RightAngleAxes property must be True. |
 | [BackWall](../../aspose.cells.charts/chart/backwall) { get; } | Returns a [`Walls`](./walls) object that represents the back wall of a 3-D chart. |
 | [CategoryAxis](../../aspose.cells.charts/chart/categoryaxis) { get; } | Gets the chart's X axis. |
@@ -84,13 +84,15 @@ public class Chart
 | [SwitchRowColumn](../../aspose.cells.charts/chart/switchrowcolumn)() | Switches row/column. |
 | [ToImage](../../aspose.cells.charts/chart/toimage#toimage)() | Gets a 32-bit `Bitmap` object of the chart. |
 | [ToImage](../../aspose.cells.charts/chart/toimage#toimage_1)(ImageOrPrintOptions) | Gets a 32-bit `Bitmap` object of the chart. `ImageOrPrintOptions.ImageFormat`, ImageOrPrintOptions.TiffCompression and ImageOrPrintOptions.Quality attributes are ignored. |
-| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_5)(string) | Creates the chart image and saves it to a file. The extension of the file name determines the format of the image. |
-| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_4)(Stream, ImageFormat) | Creates the chart image and saves it to a stream in the specified format. |
-| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_2)(Stream, ImageOrPrintOptions) | Creates the chart image and saves it to a stream in the specified format. |
-| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_3)(Stream, long) | Creates the chart image and saves it to a stream in the Jpeg format. |
-| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_8)(string, ImageFormat) | Creates the chart image and saves it to a file in the specified format. |
-| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_6)(string, ImageOrPrintOptions) | Creates the chart image and saves it to a file. The extension of the file name determines the format of the image. |
-| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_7)(string, long) | Creates the chart image and saves it to a file in the Jpeg format. |
+| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_6)(string) | Creates the chart image and saves it to a file. The extension of the file name determines the format of the image. |
+| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_5)(Stream, ImageFormat) | (**Obsolete.**) Creates the chart image and saves it to a stream in the specified format. |
+| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_3)(Stream, ImageOrPrintOptions) | Creates the chart image and saves it to a stream in the specified format. |
+| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_2)(Stream, ImageType) | Creates the chart image and saves it to a stream in the specified format. |
+| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_4)(Stream, long) | Creates the chart image and saves it to a stream in the Jpeg format. |
+| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_10)(string, ImageFormat) | (**Obsolete.**) Creates the chart image and saves it to a file in the specified format. |
+| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_8)(string, ImageOrPrintOptions) | Creates the chart image and saves it to a file. The extension of the file name determines the format of the image. |
+| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_7)(string, ImageType) | Creates the chart image and saves it to a file in the specified image type. |
+| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_9)(string, long) | Creates the chart image and saves it to a file in the Jpeg format. |
 | [ToPdf](../../aspose.cells.charts/chart/topdf#topdf)(Stream) | Creates the chart pdf and saves it to a stream. |
 | [ToPdf](../../aspose.cells.charts/chart/topdf#topdf_2)(string) | Saves the chart to a pdf file. |
 | [ToPdf](../../aspose.cells.charts/chart/topdf#topdf_1)(Stream, float, float, PageLayoutAlignmentType, PageLayoutAlignmentType) | Creates the chart pdf and saves it to a stream. |

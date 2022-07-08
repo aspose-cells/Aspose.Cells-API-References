@@ -25,7 +25,7 @@ public class ImageOrPrintOptions
 | Name | Description |
 | --- | --- |
 | [AllColumnsInOnePagePerSheet](../../aspose.cells.rendering/imageorprintoptions/allcolumnsinonepagepersheet) { get; set; } | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result. The width of paper size of pagesetup will be invalid, and the other settings of pagesetup will still take effect. |
-| [ChartImageType](../../aspose.cells.rendering/imageorprintoptions/chartimagetype) { get; set; } | Indicate the chart imagetype when converting. default value: PNG. |
+| [ChartImageType](../../aspose.cells.rendering/imageorprintoptions/chartimagetype) { get; set; } | (**Obsolete.**) Indicate the chart imagetype when converting. default value: PNG. |
 | [CheckWorkbookDefaultFont](../../aspose.cells.rendering/imageorprintoptions/checkworkbookdefaultfont) { get; set; } | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set this to true to try to use workbook's default font to show these characters first. |
 | [CustomPrintPageEventHandler](../../aspose.cells.rendering/imageorprintoptions/customprintpageeventhandler) { get; set; } | Client can special output to printer when print each page using this EventHandler |
 | [CustomQueryPageSettingsEventHandler](../../aspose.cells.rendering/imageorprintoptions/customquerypagesettingseventhandler) { get; set; } | Client can control page setting of printer when print each page using this EventHandler |

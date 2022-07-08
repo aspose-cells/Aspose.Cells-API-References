@@ -31,8 +31,8 @@ Workbook workbook = new Workbook();
 Cells cells = workbook.Worksheets[0].Cells;
 cells["A1"].Formula = "=B1+SUM(B1:B10)+[Book1.xls]Sheet1!B2";
 cells["A2"].Formula = "=IF(TRUE,B2,B1)";
-Cell[] dependents = cells["B1"].GetDependents();
-for (int i = 0; i < dependents.Count; i++)
+Cell[] dependents = cells["B1"].GetDependents(true);
+for (int i = 0; i < dependents.Length; i++)
 {
      Console.WriteLine(dependents[i].Name);
 }

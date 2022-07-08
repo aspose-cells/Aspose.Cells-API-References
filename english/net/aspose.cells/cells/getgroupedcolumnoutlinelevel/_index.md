@@ -3,7 +3,7 @@ title: GetGroupedColumnOutlineLevel
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the outline level zero-based of the column.
 type: docs
-weight: 740
+weight: 750
 url: /net/aspose.cells/cells/getgroupedcolumnoutlinelevel/
 ---
 ## Cells.GetGroupedColumnOutlineLevel method

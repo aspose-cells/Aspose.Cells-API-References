@@ -3,7 +3,7 @@ title: Copy
 second_title: Aspose.Cells for .NET API Reference
 description: Copying the range with paste special options.
 type: docs
-weight: 200
+weight: 240
 url: /net/aspose.cells/range/copy/
 ---
 ## Copy(Range, PasteOptions) {#copy_1}

@@ -16,7 +16,7 @@ The namespace of basic data represented classes of GridWeb.
 | [CellErrorHandler](./cellerrorhandler) | Represents the interface that intend to handle cell error events. |
 | [CellEventHandler](./celleventhandler) | Represents the interface that intend to handle cell events. |
 | [CellEventStringHandler](./celleventstringhandler) | Represents the method that intend to handle cell events. same as CellEventHandler interface,but return string result |
-| [CellImage](./cellimage) |  |
+| [CellImage](./cellimage) | Reprensents a hyperlink with image src. |
 | [CustomCommandEventHandler](./customcommandeventhandler) | Represents the interface that intend to handle Custom Command events. |
 | [GridAbstractCalculationEngine](./gridabstractcalculationengine) | Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells. |
 | [GridCalculationData](./gridcalculationdata) | Represents the required data when calculating one function, such as function name, parameters, ...etc. |

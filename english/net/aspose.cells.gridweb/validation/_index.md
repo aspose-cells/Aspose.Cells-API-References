@@ -24,7 +24,7 @@ public class Validation : CellAttachObject
 
 | Name | Description |
 | --- | --- |
-| [Cell](../../aspose.cells.gridweb.data/cellattachobject/cell) { get; } | Gets the relative cell of the object. |
+| [Cell](../../aspose.cells.gridweb.data/cellattachobject/cell) { get; } | Gets the relative cell of the object.(Inherited from [`CellAttachObject`](../../aspose.cells.gridweb.data/cellattachobject).) |
 | [ClientValidationFunction](../../aspose.cells.gridweb/validation/clientvalidationfunction) { get; set; } | Gets or sets the client validation javascript function name. |
 | [ClientValidationOpType](../../aspose.cells.gridweb/validation/clientvalidationoptype) { get; set; } | Gets or sets the validation op type ,Between/NotBetween/Equal/NotEqual/Greater/GreaterOrEqual/Less/LessOrEqual. |
 | [ClientValidationValue1](../../aspose.cells.gridweb/validation/clientvalidationvalue1) { get; set; } | Gets or sets the operator target value 1 |

@@ -3,7 +3,7 @@ title: RefreshChartCache
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether refreshing chart cache data
 type: docs
-weight: 70
+weight: 50
 url: /net/aspose.cells/saveoptions/refreshchartcache/
 ---
 ## SaveOptions.RefreshChartCache property
