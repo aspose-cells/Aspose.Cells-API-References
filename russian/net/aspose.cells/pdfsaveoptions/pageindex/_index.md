@@ -23,19 +23,19 @@ public int PageIndex { get; set; }
 В следующем примере показано, как преобразовать диапазон страниц (3 и 4) в файле Microsoft Excel в формат PDF.
 
 ```csharp
-//Открыть файл Excel
-rkbook wb = new Workbook("Book1.xlsx");
+//Открываем файл Excel
+Workbook wb = new Workbook("Book1.xlsx");
 
-fSaveOptions options = new PdfSaveOptions();
+PdfSaveOptions options = new PdfSaveOptions();
 
-// Печатать только страницу 3 и страницу 4 в выходном файле PDF
+// Печатать только страницу 3 и страницу 4 в выходном PDF
 // Индекс начальной страницы (индекс на основе 0)
-tions.PageIndex = 3;
+options.PageIndex = 3;
 //Количество страниц для печати
-tions.PageCount = 2;
+options.PageCount = 2;
 
 // Сохраняем файл PDF
-.Save("output.pdf", options);
+wb.Save("output.pdf", options);
 ```
 
 ### Смотрите также

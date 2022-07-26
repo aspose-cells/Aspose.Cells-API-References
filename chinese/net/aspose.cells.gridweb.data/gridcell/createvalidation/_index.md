@@ -1,14 +1,14 @@
 ---
 title: CreateValidation
 second_title: Aspose.Cells for .NET API 参考
-description: 为单元格创建验证对象
+description: 为单元格创建一个验证对象
 type: docs
 weight: 210
 url: /zh/net/aspose.cells.gridweb.data/gridcell/createvalidation/
 ---
 ## GridCell.CreateValidation method
 
-为单元格创建验证对象。
+为单元格创建一个验证对象。
 
 ```csharp
 public GridValidation CreateValidation(GridValidationType validationType, bool isRequried)
@@ -24,12 +24,12 @@ public GridValidation CreateValidation(GridValidationType validationType, bool i
 ```csharp
 [C#]
 	Validation v = cell1.CreateValidation(GridValidationType.CustomExpression, true);
-	// 设置为数字验证表达式.
+	// 设置为数字验证表达式。
 	v.RegEx = "\\d+";
 	
 [Visual Basic]
 	Dim v As Validation =  cell1.CreateValidation(GridValidationType.CustomExpression,True) 
-	 ' 设置为数字验证表达式.
+	 '设置为数字验证表达式。
 	v.RegEx = "\\d+"
 ```
 

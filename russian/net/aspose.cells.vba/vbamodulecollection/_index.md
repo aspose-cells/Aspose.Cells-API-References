@@ -20,7 +20,7 @@ public class VbaModuleCollection : CollectionBase<VbaModule>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.vba/vbamodulecollection/item) { get; } | Получает[`VbaModule`](../vbamodule)в списке по индексу. (2 indexers) |
+| [Item](../../aspose.cells.vba/vbamodulecollection/item) { get; } | получает[`VbaModule`](../vbamodule) в списке по индексу. (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы
@@ -66,22 +66,22 @@ public class VbaModuleCollection : CollectionBase<VbaModule>
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
-   // Инициируем проект VBA.
+ // Запустить проект VBA.
 VbaProject vbaProject = workbook.VbaProject; 
-  // Добавляем новый модуль.
+// Добавляем новый модуль.
 vbaProject.Modules.Add(VbaModuleType.Class, "test");
-  //Сохранение файла Excel
+//Сохранение файла Excel
 workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
-'Инициируем проект VBA.
+'Запустите проект VBA.
 Dim vbaProject as VbaProject  = workbook.VbaProject
-'Добавляем новый модуль.
+'Добавьте новый модуль.
 vbaProject.Modules.Add(VbaModuleType.Class, "test")
 'Сохранение файла Excel
 workbook.Save("book1.xlsm")

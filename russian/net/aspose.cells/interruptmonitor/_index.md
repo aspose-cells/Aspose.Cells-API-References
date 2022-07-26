@@ -1,14 +1,14 @@
 ---
 title: InterruptMonitor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет весь оператор о прерывании.
+description: Представляет весь оператор прерывания.
 type: docs
 weight: 3910
 url: /ru/net/aspose.cells/interruptmonitor/
 ---
 ## InterruptMonitor class
 
-Представляет весь оператор о прерывании.
+Представляет весь оператор прерывания.
 
 ```csharp
 public class InterruptMonitor : AbstractInterruptMonitor
@@ -25,13 +25,13 @@ public class InterruptMonitor : AbstractInterruptMonitor
 | Имя | Описание |
 | --- | --- |
 | override [IsInterruptionRequested](../../aspose.cells/interruptmonitor/isinterruptionrequested) { get; } | Пометить монитор как запрашивающий прерывание |
-| virtual [TerminateWithoutException](../../aspose.cells/abstractinterruptmonitor/terminatewithoutexception) { get; } | Когда процедура прерывается, следует ли тихо завершить процедуру или выдать исключение. Значение по умолчанию равно false, то есть когда[`IsInterruptionRequested`](../abstractinterruptmonitor/isinterruptionrequested)равно true, a[`CellsException`](../cellsexception)с кодомInterruptedбудет выброшен. |
+| virtual [TerminateWithoutException](../../aspose.cells/abstractinterruptmonitor/terminatewithoutexception) { get; } | Когда процедура прерывается, следует ли завершить процедуру тихо или вызвать исключение. Значение по умолчанию — false, то есть когда[`IsInterruptionRequested`](../abstractinterruptmonitor/isinterruptionrequested) верно, a[`CellsException`](../cellsexception) с кодомInterrupted будет брошен. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Interrupt](../../aspose.cells/interruptmonitor/interrupt)() | Прервать текущий оператор. |
+| [Interrupt](../../aspose.cells/interruptmonitor/interrupt)() | Прервать текущего оператора. |
 
 ### Смотрите также
 

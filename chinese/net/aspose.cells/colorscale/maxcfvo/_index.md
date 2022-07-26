@@ -1,14 +1,14 @@
 ---
 title: MaxCfvo
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置此 ColorScale 的最大值对象 无法设置 null 或类型为 FormatConditionValueType.Min 的 CFValueObject
+description: 获取或设置此 ColorScale 的最大值对象 无法将其设置为 FormatConditionValueType.Min 类型的 null 或 CFValueObject
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/colorscale/maxcfvo/
 ---
 ## ColorScale.MaxCfvo property
 
-获取或设置此 ColorScale 的最大值对象。 无法设置 null 或类型为 FormatConditionValueType.Min 的 CFValueObject。
+获取或设置此 ColorScale 的最大值对象。 无法将其设置为 FormatConditionValueType.Min 类型的 null 或 CFValueObject。
 
 ```csharp
 public ConditionalFormattingValue MaxCfvo { get; }

@@ -1,14 +1,14 @@
 ---
 title: ExtrusionHeight
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает высоту экструзии применяемую к фигуре в пунктах.
+description: Получает и задает высоту экструзии примененную к фигуре в пунктах.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.drawing/threedformat/extrusionheight/
 ---
 ## ThreeDFormat.ExtrusionHeight property
 
-Получает и задает высоту экструзии, применяемую к фигуре, в пунктах.
+Получает и задает высоту экструзии, примененную к фигуре, в пунктах.
 
 ```csharp
 public double ExtrusionHeight { get; set; }

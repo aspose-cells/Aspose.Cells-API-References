@@ -21,7 +21,7 @@ public void SetColumnWidth(int column, double width)
 
 ### 评论
 
-隐藏列，将列宽设置为零。
+要隐藏列，请将列宽设置为零。
 
 ### 也可以看看
 

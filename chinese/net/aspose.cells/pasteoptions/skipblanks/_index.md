@@ -1,14 +1,14 @@
 ---
 title: SkipBlanks
 second_title: Aspose.Cells for .NET API 参考
-description: 指示是否跳过空白单元格
+description: 表示是否跳过空白单元格
 type: docs
 weight: 50
 url: /zh/net/aspose.cells/pasteoptions/skipblanks/
 ---
 ## PasteOptions.SkipBlanks property
 
-指示是否跳过空白单元格。
+表示是否跳过空白单元格。
 
 ```csharp
 public bool SkipBlanks { get; set; }

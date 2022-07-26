@@ -1,14 +1,14 @@
 ---
 title: SideWall
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает объектWallsaspose.cells.charts/chart/walls представляющий боковую стенку трехмерной диаграммы.
+description: ВозвращаетWallsaspose.cells.charts/chart/wallsобъект который представляет собой боковую стенку трехмерной диаграммы.
 type: docs
 weight: 400
 url: /ru/net/aspose.cells.charts/chart/sidewall/
 ---
 ## Chart.SideWall property
 
-Возвращает объект[`Walls`](../walls), представляющий боковую стенку трехмерной диаграммы.
+Возвращает[`Walls`](../walls)объект, который представляет собой боковую стенку трехмерной диаграммы.
 
 ```csharp
 public Walls SideWall { get; }

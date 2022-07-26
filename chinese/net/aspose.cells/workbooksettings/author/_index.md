@@ -16,7 +16,7 @@ public string Author { get; set; }
 
 ### 评论
 
-没有设置，检查[`Author`](../../../aspose.cells.properties/builtindocumentpropertycollection/author)首先，然后检查环境的用户。
+没有设置，检查[`Author`](../../../aspose.cells.properties/builtindocumentpropertycollection/author)首先，然后检查 Environment. 的用户
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: GetRowReadonly
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает доступна ли строка только для чтения. это расширенный метод GridWeb он не будет сохраняться и влиять на реальный файл excel
+description: Получает если строка доступна только для чтения. это расширенный метод GridWeb в частности он не будет сохраняться и влиять на фактический файл Excel
 type: docs
 weight: 620
 url: /ru/net/aspose.cells.gridweb.data/gridworksheet/getrowreadonly/
 ---
 ## GridWorksheet.GetRowReadonly method
 
-Получает, доступна ли строка только для чтения. это расширенный метод GridWeb, он не будет сохраняться и влиять на реальный файл excel
+Получает, если строка доступна только для чтения. это расширенный метод GridWeb, в частности, он не будет сохраняться и влиять на фактический файл Excel
 
 ```csharp
 public bool GetRowReadonly(int rowIndex)

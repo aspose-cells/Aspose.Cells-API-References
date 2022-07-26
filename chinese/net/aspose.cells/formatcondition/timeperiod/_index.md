@@ -1,14 +1,14 @@
 ---
 title: TimePeriod
 second_title: Aspose.Cells for .NET API 参考
-description: 日期发生条件格式规则中的适用时间段 仅对 type  timePeriod 有效 默认值为 TimePeriodType.Today
+description: 日期发生条件格式规则中的适用时间段 仅对 type  timePeriod. 有效默认值为 TimePeriodType.Today.
 type: docs
 weight: 120
 url: /zh/net/aspose.cells/formatcondition/timeperiod/
 ---
 ## FormatCondition.TimePeriod property
 
-“日期发生……”条件格式规则中的适用时间段。 仅对 type = timePeriod 有效。 默认值为 TimePeriodType.Today。
+“日期发生…”条件格式规则中的适用时间段。 仅对 type = timePeriod. 有效，默认值为 TimePeriodType.Today.
 
 ```csharp
 public TimePeriodType TimePeriod { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: SaveToXlsx
 second_title: Aspose.Cells for .NET API 参考
-description: 将工作表保存到文件路径保存格式为 xlsx
+description: 将工作表保存到文件路径保存格式为xlsx
 type: docs
 weight: 170
 url: /zh/net/aspose.cells.gridjs/gridjsworkbook/savetoxlsx/
 ---
 ## SaveToXlsx(string) {#savetoxlsx_1}
 
-将工作表保存到文件路径，保存格式为 xlsx
+将工作表保存到文件路径，保存格式为xlsx
 
 ```csharp
 public void SaveToXlsx(string path)

@@ -1,14 +1,14 @@
 ---
 title: ShowEmptyRow
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает логическое значение указывающее следует ли включать пустые строки в таблицу.
+description: Задает логическое значение указывающее следует ли включать пустые строки в таблицу.
 type: docs
 weight: 610
 url: /ru/net/aspose.cells.pivot/pivottable/showemptyrow/
 ---
 ## PivotTable.ShowEmptyRow property
 
-Указывает логическое значение, указывающее, следует ли включать пустые строки в таблицу.
+Задает логическое значение, указывающее, следует ли включать пустые строки в таблицу.
 
 ```csharp
 public bool ShowEmptyRow { get; set; }

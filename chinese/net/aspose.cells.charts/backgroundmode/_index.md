@@ -1,14 +1,14 @@
 ---
 title: BackgroundMode
 second_title: Aspose.Cells for .NET API 参考
-description: 表示背景的显示方式
+description: 代表背景的显示方式
 type: docs
 weight: 390
 url: /zh/net/aspose.cells.charts/backgroundmode/
 ---
 ## BackgroundMode enumeration
 
-表示背景的显示方式。
+代表背景的显示方式。
 
 ```csharp
 public enum BackgroundMode

@@ -21,13 +21,13 @@ public enum GridImageType
 | Unknown | `0` | 未知图像类型。 |
 | Emf | `2` | Windows 增强元文件。 |
 | Wmf | `3` | Windows 元文件。 |
-| Pict | `4` | Macintosh PICT。 |
-| Jpeg | `5` | JPEG JFIF。 |
+| Pict | `4` | Macintosh PICT. |
+| Jpeg | `5` | JPEG JFIF. |
 | Png | `6` | 便携式网络图形。 |
 | Bmp | `7` | Windows Bitmam |
 | Gif | `66` | Gif |
 | Tiff | `67` | Tiff |
-| Svg | `68` | Svg |
+| Svg | `68` | SVG |
 | Svm | `69` | Svm |
 | Gltf | `70` | glTF |
 

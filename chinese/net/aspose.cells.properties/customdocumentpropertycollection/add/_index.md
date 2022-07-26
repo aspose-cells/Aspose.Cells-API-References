@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 创建 PropertyType.String 的新自定义文档属性数据类型
+description: 创建一个新的自定义文档属性 属性类型字符串数据类型.
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.properties/customdocumentpropertycollection/add/
 ---
 ## Add(string, string) {#add_4}
 
-创建 **PropertyType.String** 的新自定义文档属性数据类型。
+创建一个新的自定义文档属性 **属性类型字符串**数据类型.
 
 ```csharp
 public DocumentProperty Add(string name, string value)
@@ -17,7 +17,7 @@ public DocumentProperty Add(string name, string value)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | 属性的名称。 |
-| value | String | 属性的值。 |
+| value | String | 财产的价值。 |
 
 ### 返回值
 
@@ -34,7 +34,7 @@ public DocumentProperty Add(string name, string value)
 
 ## Add(string, int) {#add_2}
 
-创建 **PropertyType.Number** 数据类型的新自定义文档属性。
+创建一个新的自定义文档属性 **PropertyType.Number**数据类型.
 
 ```csharp
 public DocumentProperty Add(string name, int value)
@@ -43,7 +43,7 @@ public DocumentProperty Add(string name, int value)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | 属性的名称。 |
-| value | Int32 | 属性的值。 |
+| value | Int32 | 财产的价值。 |
 
 ### 返回值
 
@@ -60,7 +60,7 @@ public DocumentProperty Add(string name, int value)
 
 ## Add(string, DateTime) {#add_3}
 
-创建 **PropertyType.DateTime** 数据类型的新自定义文档属性。
+创建一个新的自定义文档属性 **属性类型.日期时间**数据类型.
 
 ```csharp
 public DocumentProperty Add(string name, DateTime value)
@@ -69,7 +69,7 @@ public DocumentProperty Add(string name, DateTime value)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | 属性的名称。 |
-| value | DateTime | 属性的值。 |
+| value | DateTime | 财产的价值。 |
 
 ### 返回值
 
@@ -86,7 +86,7 @@ public DocumentProperty Add(string name, DateTime value)
 
 ## Add(string, bool) {#add}
 
-创建 **PropertyType.Boolean** 数据类型的新自定义文档属性。
+创建一个新的自定义文档属性 **PropertyType.Boolean**数据类型.
 
 ```csharp
 public DocumentProperty Add(string name, bool value)
@@ -95,7 +95,7 @@ public DocumentProperty Add(string name, bool value)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | 属性的名称。 |
-| value | Boolean | 属性的值。 |
+| value | Boolean | 财产的价值。 |
 
 ### 返回值
 
@@ -112,7 +112,7 @@ public DocumentProperty Add(string name, bool value)
 
 ## Add(string, double) {#add_1}
 
-创建 **PropertyType.Float** 数据类型的新自定义文档属性。
+创建一个新的自定义文档属性 **PropertyType.Float**数据类型.
 
 ```csharp
 public DocumentProperty Add(string name, double value)
@@ -121,7 +121,7 @@ public DocumentProperty Add(string name, double value)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | 属性的名称。 |
-| value | Double | 属性的值。 |
+| value | Double | 财产的价值。 |
 
 ### 返回值
 

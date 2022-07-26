@@ -18,13 +18,13 @@ public ErrorBarType Type { get; set; }
 
 ```csharp
 [C#]
- //设置自定义误差条 type
+//设置自定义错误栏类型
 aseries.YErrorBar.Type = ErrorBarType.InnerCustom;
 aseries.YErrorBar.PlusValue = "=Sheet1!A1";
 aseries.YErrorBar.MinusValue = "=Sheet1!A2";
 
 [Visual Basic]
-'设置自定义误差条 type
+'设置自定义错误栏类型
 aseries.YErrorBar.Type = ErrorBarType.InnerCustom
 aseries.YErrorBar.PlusValue = "=Sheet1!A1"
 aseries.YErrorBar.MinusValue = "=Sheet1!A2"

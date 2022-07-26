@@ -1,14 +1,14 @@
 ---
 title: CenterXPx
 second_title: Aspose.Cells for .NET API 参考
-description: 调用 Chart.Calculate 方法后以像素为单位获取墙中心左下角的 x 坐标
+description: 调用Chart.Calculate方法后以像素为单位获取墙中心左下角的x坐标
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.charts/walls/centerxpx/
 ---
 ## Walls.CenterXPx property
 
-调用 Chart.Calculate() 方法后，以像素为单位获取墙中心左下角的 x 坐标。
+调用Chart.Calculate()方法后，以像素为单位获取墙中心左下角的x坐标。
 
 ```csharp
 public int CenterXPx { get; }

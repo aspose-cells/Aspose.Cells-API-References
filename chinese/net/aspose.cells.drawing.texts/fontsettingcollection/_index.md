@@ -1,14 +1,14 @@
 ---
 title: FontSettingCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示FontSetting../aspose.cells/fontsetting的列表
+description: 代表列表FontSetting../aspose.cells/fontsetting.
 type: docs
 weight: 2900
 url: /zh/net/aspose.cells.drawing.texts/fontsettingcollection/
 ---
 ## FontSettingCollection class
 
-表示[`FontSetting`](../../aspose.cells/fontsetting)的列表。
+代表列表[`FontSetting`](../../aspose.cells/fontsetting).
 
 ```csharp
 public class FontSettingCollection : CollectionBase<FontSetting>
@@ -20,11 +20,11 @@ public class FontSettingCollection : CollectionBase<FontSetting>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [HtmlString](../../aspose.cells.drawing.texts/fontsettingcollection/htmlstring) { get; set; } | 获取并设置包含此形状的数据和某些格式的 html 字符串。 |
-| [Item](../../aspose.cells.drawing.texts/fontsettingcollection/item) { get; } | 通过索引获取[`FontSetting`](../../aspose.cells/fontsetting)。 |
+| [HtmlString](../../aspose.cells.drawing.texts/fontsettingcollection/htmlstring) { get; set; } | 获取并设置包含此形状的数据和一些格式的html字符串。 |
+| [Item](../../aspose.cells.drawing.texts/fontsettingcollection/item) { get; } | 获取[`FontSetting`](../../aspose.cells/fontsetting)按索引. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 | [Text](../../aspose.cells.drawing.texts/fontsettingcollection/text) { get; set; } | 获取和设置形状的文本。 |
-| [TextAlignment](../../aspose.cells.drawing.texts/fontsettingcollection/textalignment) { get; } | 表示文本正文的对齐设置。 |
+| [TextAlignment](../../aspose.cells.drawing.texts/fontsettingcollection/textalignment) { get; } | 表示文本体的对齐方式设置。 |
 | [TextParagraphs](../../aspose.cells.drawing.texts/fontsettingcollection/textparagraphs) { get; } | 获取所有段落。 |
 
 ## 方法
@@ -65,7 +65,7 @@ public class FontSettingCollection : CollectionBase<FontSetting>
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(FontSetting, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
 | [Replace](../../aspose.cells.drawing.texts/fontsettingcollection/replace)(int, int, string) | 替换文本。 |
-| [SetWordArtStyle](../../aspose.cells.drawing.texts/fontsettingcollection/setwordartstyle)(PresetWordArtStyle) | 设置预设艺术字样式。 |
+| [SetWordArtStyle](../../aspose.cells.drawing.texts/fontsettingcollection/setwordartstyle)(PresetWordArtStyle) | 设置预设的艺术字样式。 |
 
 ### 也可以看看
 

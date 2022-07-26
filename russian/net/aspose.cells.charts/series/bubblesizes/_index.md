@@ -1,14 +1,14 @@
 ---
 title: BubbleSizes
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает значения размеров пузырьков ряда диаграммы.
+description: Получает или задает значения размеров пузырьков серии диаграммы.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.charts/series/bubblesizes/
 ---
 ## Series.BubbleSizes property
 
-Получает или задает значения размеров пузырьков ряда диаграммы.
+Получает или задает значения размеров пузырьков серии диаграммы.
 
 ```csharp
 public string BubbleSizes { get; set; }

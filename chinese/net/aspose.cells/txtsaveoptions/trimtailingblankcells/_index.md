@@ -1,14 +1,14 @@
 ---
 title: TrimTailingBlankCells
 second_title: Aspose.Cells for .NET API 参考
-description: 指示是否应修剪一行中的尾部空白单元格默认为假
+description: 指示是否应修剪一行中的拖尾空白单元格默认为假
 type: docs
 weight: 130
 url: /zh/net/aspose.cells/txtsaveoptions/trimtailingblankcells/
 ---
 ## TxtSaveOptions.TrimTailingBlankCells property
 
-指示是否应修剪一行中的尾部空白单元格。默认为假。
+指示是否应修剪一行中的拖尾空白单元格。默认为假。
 
 ```csharp
 public bool TrimTailingBlankCells { get; set; }
@@ -16,7 +16,7 @@ public bool TrimTailingBlankCells { get; set; }
 
 ### 评论
 
-使用 LightCells 模式和TxtSaveOptions保存时。ExportArea未指定， 此选项无效，一行将被扩展到仅由 提供的最后一个单元格实现[`LightCellsDataProvider`](../lightcellsdataprovider)
+使用 LightCells 模式保存时[`ExportArea`](../exportarea)未指定， 此选项无效，一行将扩展到仅由 实现提供的最后一个单元格[`LightCellsDataProvider`](../lightcellsdataprovider)
 
 ### 也可以看看
 

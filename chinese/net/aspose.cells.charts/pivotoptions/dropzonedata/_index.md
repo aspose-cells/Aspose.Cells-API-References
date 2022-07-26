@@ -1,14 +1,14 @@
 ---
 title: DropZoneData
 second_title: Aspose.Cells for .NET API 参考
-description: 指定当 dropZonesVisible 设置为 true 时源数据透视表的数据透视表 上的每个数据透视表字段的控件是否显示在图表上
+description: 指定当 dropZonesVisible 设置为 true 时源数据透视表的数据透视表数据轴 上的每个数据透视表字段的控件是否出现在图表上
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.charts/pivotoptions/dropzonedata/
 ---
 ## PivotOptions.DropZoneData property
 
-指定当 dropZonesVisible 设置为 true 时，源数据透视表的数据透视表 上的每个数据透视表字段的控件是否显示在图表上。
+指定当 dropZonesVisible 设置为 true 时，源数据透视表的数据透视表数据轴 上的每个数据透视表字段的控件是否出现在图表上。
 
 ```csharp
 public bool DropZoneData { get; set; }

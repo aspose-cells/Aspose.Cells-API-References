@@ -1,14 +1,14 @@
 ---
 title: SlicerCache
 second_title: Aspose.Cells for .NET API 参考
-description: 切片器缓存摘要说明
+description: 切片器缓存概要描述
 type: docs
 weight: 5640
 url: /zh/net/aspose.cells.slicers/slicercache/
 ---
 ## SlicerCache class
 
-切片器缓存摘要说明
+切片器缓存概要描述
 
 ```csharp
 public class SlicerCache
@@ -18,7 +18,7 @@ public class SlicerCache
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CrossFilterType](../../aspose.cells.slicers/slicercache/crossfiltertype) { get; set; } | 返回或设置一个切片器是否与共享相同切片器缓存的其他切片器 参与交叉过滤，以及如何显示交叉过滤。读/写 |
+| [CrossFilterType](../../aspose.cells.slicers/slicercache/crossfiltertype) { get; set; } | 返回或设置切片器是否与共享相同切片器缓存的其他切片器 参与交叉过滤，以及如何显示交叉过滤。读/写 |
 | [List](../../aspose.cells.slicers/slicercache/list) { get; } | 返回与指定切片器缓存关联的切片器是否基于非 OLAP 数据源。只读 |
 | [Name](../../aspose.cells.slicers/slicercache/name) { get; } | 返回切片器缓存的名称。 |
 | [SlicerCacheItems](../../aspose.cells.slicers/slicercache/slicercacheitems) { get; } | 返回一个 SlicerCacheItem 集合，其中包含切片器缓存中所有项目的集合。只读 |
@@ -80,11 +80,10 @@ int slicerIndex = slicers.Add(pivot, "E12", "fruit");
 Slicer slicer = slicers[slicerIndex];
 slicer.StyleType = SlicerStyleType.SlicerStyleLight2;
 
- //获取当前 slicer
-e 对象
+//获取当前切片器的SlicerCache对象
 SlicerCache slicerCache = slicer.SlicerCache;
 
- //做你的事
+//做你的事
 
 book.Save("out.xlsx");
 ```

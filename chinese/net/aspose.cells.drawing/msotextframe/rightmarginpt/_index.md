@@ -1,14 +1,14 @@
 ---
 title: RightMarginPt
 second_title: Aspose.Cells for .NET API 参考
-description: 以点为单位返回右边距
+description: 以Points为单位返回右边距
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.drawing/msotextframe/rightmarginpt/
 ---
 ## MsoTextFrame.RightMarginPt property
 
-以点为单位返回右边距
+以Points为单位返回右边距
 
 ```csharp
 public double RightMarginPt { get; set; }

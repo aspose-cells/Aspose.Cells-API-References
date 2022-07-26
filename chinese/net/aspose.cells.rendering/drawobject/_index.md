@@ -1,14 +1,14 @@
 ---
 title: DrawObject
 second_title: Aspose.Cells for .NET API 参考
-description: DrawObject 将在渲染时被初始化并返回
+description: 渲染时会初始化并返回DrawObject
 type: docs
 weight: 5100
 url: /zh/net/aspose.cells.rendering/drawobject/
 ---
 ## DrawObject class
 
-DrawObject 将在渲染时被初始化并返回。
+渲染时会初始化并返回DrawObject。
 
 ```csharp
 public class DrawObject
@@ -18,13 +18,13 @@ public class DrawObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Cell](../../aspose.cells.rendering/drawobject/cell) { get; } | 表示渲染时的 Cell 对象。 可以访问单元格的所有属性。 |
-| [CurrentPage](../../aspose.cells.rendering/drawobject/currentpage) { get; } | 表示DrawObject的页面索引。 页面索引基于零。 一张表在渲染时包含多个页面。 |
+| [Cell](../../aspose.cells.rendering/drawobject/cell) { get; } | 表示渲染时的Cell对象。 可以访问cell的所有属性。 |
+| [CurrentPage](../../aspose.cells.rendering/drawobject/currentpage) { get; } | 表示 DrawObject 的页面索引。 页面索引基于零。 渲染时一张工作表包含多个页面。 |
 | [ImageBytes](../../aspose.cells.rendering/drawobject/imagebytes) { get; } | 表示渲染时Chart、Shape的图像字节数。 |
-| [Shape](../../aspose.cells.rendering/drawobject/shape) { get; } | 表示渲染时的Shape对象。 shape 的所有属性都可以访问。 |
+| [Shape](../../aspose.cells.rendering/drawobject/shape) { get; } | 表示渲染时的Shape 对象。 shape 的所有属性都可以访问。 |
 | [SheetIndex](../../aspose.cells.rendering/drawobject/sheetindex) { get; } | 表示 DrawObject 的当前图纸索引。 |
 | [TotalPages](../../aspose.cells.rendering/drawobject/totalpages) { get; } | 表示当前渲染中的总页数。 |
-| [Type](../../aspose.cells.rendering/drawobject/type) { get; } | 表示DrawObject的类型。 |
+| [Type](../../aspose.cells.rendering/drawobject/type) { get; } | 表示 DrawObject 的类型。 |
 
 ### 也可以看看
 

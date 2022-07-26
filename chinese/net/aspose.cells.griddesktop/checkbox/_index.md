@@ -1,14 +1,14 @@
 ---
 title: CheckBox
 second_title: Aspose.Cells for .NET API 参考
-description: 表示单元格复选框控件
+description: 表示一个单元格复选框控件
 type: docs
 weight: 260
 url: /zh/net/aspose.cells.griddesktop/checkbox/
 ---
 ## CheckBox class
 
-表示单元格复选框控件。
+表示一个单元格复选框控件。
 
 ```csharp
 public class CheckBox : CellControl

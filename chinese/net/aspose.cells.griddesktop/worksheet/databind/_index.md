@@ -1,14 +1,14 @@
 ---
 title: DataBind
 second_title: Aspose.Cells for .NET API 参考
-description: 将来自数据源对象的数据与 Worksheet 对象绑定
+description: 将数据源对象中的数据与 Worksheet 对象绑定
 type: docs
 weight: 630
 url: /zh/net/aspose.cells.griddesktop/worksheet/databind/
 ---
 ## Worksheet.DataBind method
 
-将来自数据源对象的数据与 Worksheet 对象绑定。
+将数据源对象中的数据与 Worksheet 对象绑定。
 
 ```csharp
 public void DataBind(object dataSource, string dataMember)
@@ -17,7 +17,7 @@ public void DataBind(object dataSource, string dataMember)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | dataSource | Object | GridDesktop 控件的数据源。 |
-| dataMember | String | 数据成员字符串，用于指定要在数据源对象中绑定的表。 |
+| dataMember | String | 数据成员字符串，它指定要在数据源对象中绑定的表。 |
 
 ### 也可以看看
 

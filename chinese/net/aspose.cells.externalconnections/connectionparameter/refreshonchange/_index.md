@@ -1,14 +1,14 @@
 ---
 title: RefreshOnChange
 second_title: Aspose.Cells for .NET API 参考
-description: 标志指示当提供参数值的 单元格的内容发生变化时查询是否应自动刷新如果为 true则每次发生更改时都会使用新参数值刷新外部数据 如果为 false则外部数据 仅在用户请求或某些其他事件触发刷新例如工作簿打开时刷新
+description: 标志指示当提供参数值的 单元格的内容更改时查询是否应自动刷新如果为 true则每次发生更改时都会使用新参数值刷新外部数据 如果为 false则外部数据 仅在用户请求时刷新或者某些其他事件触发刷新例如工作簿打开
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.externalconnections/connectionparameter/refreshonchange/
 ---
 ## ConnectionParameter.RefreshOnChange property
 
-标志，指示当提供参数值的 单元格的内容发生变化时查询是否应自动刷新。如果为 true，则每次发生更改时都会使用新参数值刷新外部数据 。如果为 false，则外部数据 仅在用户请求或某些其他事件触发刷新（例如，工作簿打开）时刷新。
+标志，指示当提供参数值的 单元格的内容更改时查询是否应自动刷新。如果为 true，则每次发生更改时都会使用新参数值刷新外部数据 。如果为 false，则外部数据 仅在用户请求时刷新，或者某些其他事件触发刷新（例如，工作簿打开）。
 
 ```csharp
 public bool RefreshOnChange { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: CustomCommand
 second_title: Справочник по Aspose.Cells для .NET API
-description: Происходит когда пользователь нажимает пользовательскую командную кнопку.
+description: Происходит когда пользователь нажимает настраиваемую командную кнопку.
 type: docs
 weight: 1240
 url: /ru/net/aspose.cells.gridweb/mainweb/customcommand/
 ---
 ## MainWeb.CustomCommand event
 
-Происходит, когда пользователь нажимает пользовательскую командную кнопку.
+Происходит, когда пользователь нажимает настраиваемую командную кнопку.
 
 ```csharp
 public event CustomCommandEventHandler CustomCommand;

@@ -1,14 +1,14 @@
 ---
 title: GridValidation
 second_title: Aspose.Cells for .NET API 参考
-description: 表示数据验证.settings
+description: 代表数据验证.settings.
 type: docs
 weight: 510
 url: /zh/net/aspose.cells.gridweb.data/gridvalidation/
 ---
 ## GridValidation class
 
-表示数据验证.settings。
+代表数据验证.settings.
 
 ```csharp
 public class GridValidation
@@ -24,8 +24,8 @@ public class GridValidation
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AreaList](../../aspose.cells.gridweb.data/gridvalidation/arealist) { get; } | 表示CellArea的集合，其中包含数据验证设置。 |
-| [ClientValidationFunction](../../aspose.cells.gridweb.data/gridvalidation/clientvalidationfunction) { get; set; } | 获取或设置客户端验证javascript函数名称。 |
+| [AreaList](../../aspose.cells.gridweb.data/gridvalidation/arealist) { get; } | 代表一个集合CellArea其中包含数据验证设置。 |
+| [ClientValidationFunction](../../aspose.cells.gridweb.data/gridvalidation/clientvalidationfunction) { get; set; } | 获取或设置客户端验证javascript函数名。 |
 | [ErrorMessage](../../aspose.cells.gridweb.data/gridvalidation/errormessage) { get; set; } | 表示数据验证错误信息。 |
 | [ErrorTitle](../../aspose.cells.gridweb.data/gridvalidation/errortitle) { get; set; } | 表示数据验证错误对话框的标题。 |
 | [Formula1](../../aspose.cells.gridweb.data/gridvalidation/formula1) { get; set; } | 表示与数据验证关联的值或表达式。 |
@@ -35,7 +35,7 @@ public class GridValidation
 | [IsRequired](../../aspose.cells.gridweb.data/gridvalidation/isrequired) { get; set; } |  |
 | [Operator](../../aspose.cells.gridweb.data/gridvalidation/operator) { get; set; } | 表示用于数据验证的运算符。 |
 | [RegEx](../../aspose.cells.gridweb.data/gridvalidation/regex) { get; set; } | 获取或设置正则表达式字符串。 |
-| [ShowError](../../aspose.cells.gridweb.data/gridvalidation/showerror) { get; set; } | 表示用户输入无效数据时是否显示数据验证错误信息。 |
+| [ShowError](../../aspose.cells.gridweb.data/gridvalidation/showerror) { get; set; } | 指示是否在用户输入无效数据时显示数据验证错误消息。 |
 | [ShowInput](../../aspose.cells.gridweb.data/gridvalidation/showinput) { get; set; } |  |
 | [ValidationType](../../aspose.cells.gridweb.data/gridvalidation/validationtype) { get; set; } | 获取或设置验证类型。 |
 | [Value1](../../aspose.cells.gridweb.data/gridvalidation/value1) { get; } | 表示与数据验证关联的值。 |
@@ -49,9 +49,9 @@ public class GridValidation
 | [AddACell](../../aspose.cells.gridweb.data/gridvalidation/addacell#addacell)(int, int) | 在单元格中添加验证设置。 |
 | [AddArea](../../aspose.cells.gridweb.data/gridvalidation/addarea)(GridCellArea) | 将验证应用于区域。 |
 | [GetListValue](../../aspose.cells.gridweb.data/gridvalidation/getlistvalue)(int, int) | 获取指定单元格的验证列表的值。 |
-| [LoadValueList](../../aspose.cells.gridweb.data/gridvalidation/loadvaluelist)(DataView, string, string, bool) | 从 DataView 对象加载值列表。您可以指定 DataView 的值字段和文本字段。 每个值和文本对将组合成一个字符串，它们之间用逗号分隔。 |
+| [LoadValueList](../../aspose.cells.gridweb.data/gridvalidation/loadvaluelist)(DataView, string, string, bool) | 从 DataView 对象加载值列表。您可以指定DataView的值字段和文本字段。 每个值和文本对将组合成一个字符串，它们之间用逗号隔开。 |
 | [RemoveACell](../../aspose.cells.gridweb.data/gridvalidation/removeacell)(int, int) | 删除单元格中的验证设置。 |
-| [RemoveArea](../../aspose.cells.gridweb.data/gridvalidation/removearea)(GridCellArea) | 删除范围内的验证设置。 |
+| [RemoveArea](../../aspose.cells.gridweb.data/gridvalidation/removearea)(GridCellArea) | 移除范围内的验证设置。 |
 
 ## 字段
 

@@ -1,14 +1,14 @@
 ---
 title: LimitAsXls
 second_title: Aspose.Cells for .NET API 参考
-description: 限制为 xls最大行索引为 65535最大列索引为 255
+description: 限制为xls最大行索引为65535最大列索引为255.
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/spreadsheetml2003saveoptions/limitasxls/
 ---
 ## SpreadsheetML2003SaveOptions.LimitAsXls property
 
-限制为 xls，最大行索引为 65535，最大列索引为 255。
+限制为xls，最大行索引为65535，最大列索引为255.
 
 ```csharp
 public bool LimitAsXls { get; set; }

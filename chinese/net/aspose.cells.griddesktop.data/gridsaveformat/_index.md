@@ -19,22 +19,22 @@ public enum GridSaveFormat
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | CSV | `1` | CSV |
-| Excel2003 | `5` | Excel 2003，Excel97-2003 xls 文件。 |
-| Excel2007 | `6` | Excel 2007 表示 xlsx 文件 |
+| Excel2003 | `5` | Excel 2003、Excel97-2003 xls 文件。 |
+| Excel2007 | `6` | Excel 2007 表示一个 xlsx 文件 |
 | XLSM | `7` | 启用宏的 Excel 2007 xlsm 文件 |
 | XLTX | `8` | Excel 模板文件 |
 | XLTM | `9` | 表示启用宏的 Xltx 文件。 |
 | TABDELIMITED | `11` | 表示制表符分隔的文本文件，txt 文件。 |
-| HTML | `12` | 表示一个html文件。 |
-| PDF | `13` | 代表一个pdf文件。 |
-| ODS | `14` | 代表一个ods文件。 |
+| HTML | `12` | 表示一个 html 文件。 |
+| PDF | `13` | 代表一个 pdf 文件。 |
+| ODS | `14` | 表示 ods 文件。 |
 | SpreadsheetML | `15` | SpreadsheetML，表示 Excel 2003 xml 文件。 |
 | XLSB | `16` | 表示 XLSB 文件。 |
-| MHTML | `17` | 表示一个mhtml文件。 |
+| MHTML | `17` | 表示一个 mhtml 文件。 |
 | XPS | `20` | 表示 XPS 文件。 |
 | TIFF | `21` | 表示 TIFF 文件。 |
 | SVG | `22` | 表示 SVG 文件。 |
-| DIF | `30` | 数据交换格式。 |
+| DIF | `30` | 数据交换格式. |
 
 ### 也可以看看
 

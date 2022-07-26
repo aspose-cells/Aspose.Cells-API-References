@@ -18,8 +18,8 @@ public enum HtmlCrossType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Default | `0` | 像 MS Excel 一样显示，取决于下一个单元格。 如果下一个单元格为空，则字符串将交叉，否则将被截断 |
-| MSExport | `1` | 显示字符串，如 MS Excel 导出 html。 |
+| Default | `0` | 像 MS Excel 一样显示，取决于下一个单元格。 如果下一个单元格为空，字符串会交叉，否则会被截断 |
+| MSExport | `1` | 显示字符串，如 MS Excel 导出 html. |
 | Cross | `2` | 显示 HTML 交叉字符串，这种创建大型 html 文件的性能将比将值设置为 Default 或 FitToCell 快十倍以上。 |
 | CrossHideRight | `3` | 显示 HTML 交叉字符串并在文本重叠时隐藏正确的字符串。 |
 | FitToCell | `4` | 只显示单元格宽度内的字符串。 |

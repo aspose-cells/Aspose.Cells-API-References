@@ -1,14 +1,14 @@
 ---
 title: Post
 second_title: Aspose.Cells for .NET API 参考
-description: 返回或设置用于将数据输入到 Web 服务器的 post 方法的字符串 从 Web 查询返回数据
+description: 返回或设置用于将数据输入 Web 服务器的 post 方法的字符串 从 Web 查询返回数据
 type: docs
 weight: 120
 url: /zh/net/aspose.cells.externalconnections/webqueryconnection/post/
 ---
 ## WebQueryConnection.Post property
 
-返回或设置用于将数据输入到 Web 服务器的 post 方法的字符串 从 Web 查询返回数据。
+返回或设置用于将数据输入 Web 服务器的 post 方法的字符串 从 Web 查询返回数据。
 
 ```csharp
 public string Post { get; set; }

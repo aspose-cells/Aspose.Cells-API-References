@@ -3,7 +3,7 @@ title: Name
 second_title: Aspose.Cells for .NET API 参考
 description: 获取或设置范围的名称
 type: docs
-weight: 110
+weight: 130
 url: /zh/net/aspose.cells/range/name/
 ---
 ## Range.Name property
@@ -16,7 +16,7 @@ public string Name { get; set; }
 
 ### 评论
 
-支持命名范围。例如
+支持命名范围。例如，
 
 range.Name = "Sheet1!MyRange";
 

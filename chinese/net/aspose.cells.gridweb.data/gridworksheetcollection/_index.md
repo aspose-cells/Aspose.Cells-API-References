@@ -1,14 +1,14 @@
 ---
 title: GridWorksheetCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 收集代表工作表中各个行的对象
+description: 收集表示工作表中各个行的对象
 type: docs
 weight: 580
 url: /zh/net/aspose.cells.gridweb.data/gridworksheetcollection/
 ---
 ## GridWorksheetCollection class
 
-收集代表工作表中各个行的对象。
+收集表示工作表中各个行的对象。
 
 ```csharp
 public class GridWorksheetCollection : ICollection, ISerializable
@@ -22,10 +22,10 @@ public class GridWorksheetCollection : ICollection, ISerializable
 | [Count](../../aspose.cells.gridweb.data/gridworksheetcollection/count) { get; } |  |
 | [DefaultFontName](../../aspose.cells.gridweb.data/gridworksheetcollection/defaultfontname) { get; set; } | 获取或设置控件的默认字体名称。 |
 | [DefaultFontSize](../../aspose.cells.gridweb.data/gridworksheetcollection/defaultfontsize) { get; set; } | 获取或设置控件的默认字体大小。 |
-| [IsSynchronized](../../aspose.cells.gridweb.data/gridworksheetcollection/issynchronized) { get; } | 获取一个值，该值指示对 ICollection 的访问是否是同步的（线程安全的）。 |
-| [Item](../../aspose.cells.gridweb.data/gridworksheetcollection/item) { get; } | 获取指定索引处的Worksheet元素。 (2 indexers) |
+| [IsSynchronized](../../aspose.cells.gridweb.data/gridworksheetcollection/issynchronized) { get; } | 获取一个值，该值指示对 ICollection 的访问是否同步（线程安全）。 |
+| [Item](../../aspose.cells.gridweb.data/gridworksheetcollection/item) { get; } | 获取Worksheet指定索引处的元素。 (2 indexers) |
 | [Names](../../aspose.cells.gridweb.data/gridworksheetcollection/names) { get; } | 获取电子表格中所有 Name 对象的集合。 |
-| [NumberDecimalSeparator](../../aspose.cells.gridweb.data/gridworksheetcollection/numberdecimalseparator) { get; set; } | 获取或设置用于格式化/解析数值的小数分隔符。默认为当前 Region 的小数点分隔符。 |
+| [NumberDecimalSeparator](../../aspose.cells.gridweb.data/gridworksheetcollection/numberdecimalseparator) { get; set; } | 获取或设置用于格式化/解析数值的小数分隔符。默认为当前 Region. 的小数点分隔符 |
 | [SyncRoot](../../aspose.cells.gridweb.data/gridworksheetcollection/syncroot) { get; } | 获取可用于同步访问 ICollection 的对象。 |
 
 ## 方法
@@ -39,8 +39,8 @@ public class GridWorksheetCollection : ICollection, ISerializable
 | [AddCopy](../../aspose.cells.gridweb.data/gridworksheetcollection/addcopy#addcopy_1)(string) | 将工作表添加到集合并从现有工作表复制数据。 |
 | [CalculateFormula](../../aspose.cells.gridweb.data/gridworksheetcollection/calculateformula)() | 计算公式的结果。 |
 | [Clear](../../aspose.cells.gridweb.data/gridworksheetcollection/clear)() | 清除所有工作表。 |
-| [CopyTo](../../aspose.cells.gridweb.data/gridworksheetcollection/copyto)(Array, int) | 将内容复制到数组。 |
-| [GetEnumerator](../../aspose.cells.gridweb.data/gridworksheetcollection/getenumerator)() | 获取行枚举器 |
+| [CopyTo](../../aspose.cells.gridweb.data/gridworksheetcollection/copyto)(Array, int) | 将内容复制到数组中。 |
+| [GetEnumerator](../../aspose.cells.gridweb.data/gridworksheetcollection/getenumerator)() | 获取行 enumerator |
 | [ImportDataView](../../aspose.cells.gridweb.data/gridworksheetcollection/importdataview#importdataview)(DataView, TableItemStyle, TableItemStyle) | 从 DataView 导入。使用 DataView 的表名自动创建一个工作表。 |
 | [ImportDataView](../../aspose.cells.gridweb.data/gridworksheetcollection/importdataview#importdataview_1)(DataView, TableItemStyle, TableItemStyle, string, int, int) | 从 DataView 导入到指定的工作表和位置。 |
 | [Insert](../../aspose.cells.gridweb.data/gridworksheetcollection/insert)(int, string) |  |

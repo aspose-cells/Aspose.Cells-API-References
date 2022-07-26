@@ -1,14 +1,14 @@
 ---
 title: HasSeriesLines
 second_title: Aspose.Cells for .NET API 参考
-description: 如果堆积柱形图或条形图有系列线或 如果饼图或饼图之间有连接线则为真两个部分 仅适用于堆积柱形图条形图饼图或饼图
+description: 如果堆积柱形图或条形图有系列线则为真或 如果饼图或饼图在两个部分之间有连接线 仅适用于堆积柱形图条形图饼图或饼图
 type: docs
 weight: 200
 url: /zh/net/aspose.cells.charts/series/hasserieslines/
 ---
 ## Series.HasSeriesLines property
 
-如果堆积柱形图或条形图有系列线或 如果饼图或饼图之间有连接线，则为真两个部分。 仅适用于堆积柱形图、条形图、饼图或饼图。
+如果堆积柱形图或条形图有系列线，则为真；或 如果饼图或饼图在两个部分之间有连接线。 仅适用于堆积柱形图、条形图、饼图或饼图。
 
 ```csharp
 public bool HasSeriesLines { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: TitleStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置标题的样式
+description: 获取并设置标题的样式
 type: docs
 weight: 90
 url: /zh/net/aspose.cells.utility/jsonlayoutoptions/titlestyle/
 ---
 ## JsonLayoutOptions.TitleStyle property
 
-获取和设置标题的样式。
+获取并设置标题的样式。
 
 ```csharp
 public Style TitleStyle { get; set; }

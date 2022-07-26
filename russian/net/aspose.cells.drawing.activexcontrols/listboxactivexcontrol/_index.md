@@ -18,10 +18,10 @@ public class ListBoxActiveXControl : ActiveXControl
 
 | Имя | Описание |
 | --- | --- |
-| [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Получает и устанавливает цвет фона. |
-| [BorderOleColor](../../aspose.cells.drawing.activexcontrols/listboxactivexcontrol/borderolecolor) { get; set; } | Получает и устанавливает цвет фона. |
+| [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Получает и устанавливает цвет фона ole. |
+| [BorderOleColor](../../aspose.cells.drawing.activexcontrols/listboxactivexcontrol/borderolecolor) { get; set; } | Получает и устанавливает цвет фона ole. |
 | [BorderStyle](../../aspose.cells.drawing.activexcontrols/listboxactivexcontrol/borderstyle) { get; set; } | Получает и устанавливает тип границы, используемой элементом управления. |
-| [BoundColumn](../../aspose.cells.drawing.activexcontrols/listboxactivexcontrol/boundcolumn) { get; set; } | Представляет, как свойство Value определяется для ComboBox или ListBox при значении свойства MultiSelect (fmMultiSelectSingle). |
+| [BoundColumn](../../aspose.cells.drawing.activexcontrols/listboxactivexcontrol/boundcolumn) { get; set; } | Представляет, как определяется свойство Value для ComboBox или ListBox , когда значение свойства MultiSelect (fmMultiSelectSingle). |
 | [ColumnCount](../../aspose.cells.drawing.activexcontrols/listboxactivexcontrol/columncount) { get; set; } | Представляет количество столбцов для отображения в ComboBox или ListBox. |
 | [ColumnWidths](../../aspose.cells.drawing.activexcontrols/listboxactivexcontrol/columnwidths) { get; set; } | Получает и задает ширину столбца. |
 | override [Data](../../aspose.cells.drawing.activexcontrols/activexcontrol/data) { get; } | Получает и устанавливает двоичные данные элемента управления. |
@@ -30,8 +30,8 @@ public class ListBoxActiveXControl : ActiveXControl
 | virtual [Height](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/height) { get; set; } | Получает и задает высоту элемента управления в пунктах. |
 | [IMEMode](../../aspose.cells.drawing.activexcontrols/activexcontrol/imemode) { get; set; } | Получает и задает режим времени выполнения по умолчанию редактора метода ввода для элемента управления, когда он получает фокус. |
 | [IntegralHeight](../../aspose.cells.drawing.activexcontrols/listboxactivexcontrol/integralheight) { get; set; } | Указывает, будет ли элемент управления отображать только полные строки текста без отображения каких-либо частичных строк. |
-| virtual [IsAutoSize](../../aspose.cells.drawing.activexcontrols/activexcontrol/isautosize) { get; set; } | Указывает, будет ли размер элемента управления автоматически изменяться для отображения всего его содержимого. |
-| [IsEnabled](../../aspose.cells.drawing.activexcontrols/activexcontrol/isenabled) { get; set; } | Указывает, может ли элемент управления получать фокус и реагировать на генерируемые пользователем события. |
+| virtual [IsAutoSize](../../aspose.cells.drawing.activexcontrols/activexcontrol/isautosize) { get; set; } | Указывает, будет ли автоматически изменяться размер элемента управления для отображения всего его содержимого. |
+| [IsEnabled](../../aspose.cells.drawing.activexcontrols/activexcontrol/isenabled) { get; set; } | Указывает, может ли элемент управления получать фокус и реагировать на события, созданные пользователем. |
 | [IsLocked](../../aspose.cells.drawing.activexcontrols/activexcontrol/islocked) { get; set; } | Указывает, заблокированы ли данные в элементе управления для редактирования. |
 | [IsTransparent](../../aspose.cells.drawing.activexcontrols/activexcontrol/istransparent) { get; set; } | Указывает, является ли элемент управления прозрачным. |
 | virtual [IsVisible](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/isvisible) { get; set; } | Указывает, виден ли этот элемент управления. |
@@ -39,8 +39,8 @@ public class ListBoxActiveXControl : ActiveXControl
 | [ListFillRange](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/listfillrange) { get; set; } | Получает и задает диапазон заполнения списка. |
 | [ListStyle](../../aspose.cells.drawing.activexcontrols/listboxactivexcontrol/liststyle) { get; set; } | Получает и задает внешний вид. |
 | [ListWidth](../../aspose.cells.drawing.activexcontrols/listboxactivexcontrol/listwidth) { get; set; } | Получает и устанавливает ширину в пунктах. |
-| [MatchEntry](../../aspose.cells.drawing.activexcontrols/listboxactivexcontrol/matchentry) { get; set; } | Указывает, как ListBox или ComboBox ищет свой список по мере ввода пользователем. |
-| [MouseIcon](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mouseicon) { get; set; } | Получает и задает пользовательский значок, отображаемый в качестве указателя мыши для элемента управления. |
+| [MatchEntry](../../aspose.cells.drawing.activexcontrols/listboxactivexcontrol/matchentry) { get; set; } | Указывает, как ListBox или ComboBox выполняет поиск в своем списке по мере того, как пользователь вводит. |
+| [MouseIcon](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mouseicon) { get; set; } | Получает и задает пользовательский значок для отображения в качестве указателя мыши для элемента управления. |
 | [MousePointer](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mousepointer) { get; set; } | Получает и задает тип значка, отображаемого в качестве указателя мыши для элемента управления. |
 | [ScrollBars](../../aspose.cells.drawing.activexcontrols/listboxactivexcontrol/scrollbars) { get; set; } | Указывает, имеет ли элемент управления вертикальные полосы прокрутки, горизонтальные полосы прокрутки, и то, и другое или ни одно из них. |
 | [SelectionType](../../aspose.cells.drawing.activexcontrols/listboxactivexcontrol/selectiontype) { get; set; } | Указывает, разрешает ли элемент управления множественный выбор. |
@@ -50,9 +50,9 @@ public class ListBoxActiveXControl : ActiveXControl
 | [TextAlign](../../aspose.cells.drawing.activexcontrols/activexcontrol/textalign) { get; set; } | Представляет способ выравнивания текста, используемого элементом управления. |
 | [TextColumn](../../aspose.cells.drawing.activexcontrols/listboxactivexcontrol/textcolumn) { get; set; } | Представляет столбец в ComboBox или ListBox для отображения пользователю. |
 | override [Type](../../aspose.cells.drawing.activexcontrols/listboxactivexcontrol/type) { get; } | Получает тип элемента управления ActiveX. |
-| [Value](../../aspose.cells.drawing.activexcontrols/listboxactivexcontrol/value) { get; set; } | Получает и задает значение элемента управления. |
-| virtual [Width](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/width) { get; set; } | Получает и задает ширину элемента управления в точках. |
-| [Workbook](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook) { get; } | Получает объект[`Workbook`](../activexcontrolbase/workbook). |
+| [Value](../../aspose.cells.drawing.activexcontrols/listboxactivexcontrol/value) { get; set; } | Получает и устанавливает значение элемента управления. |
+| virtual [Width](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/width) { get; set; } | Получает и задает ширину элемента управления в пунктах. |
+| [Workbook](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook) { get; } | Получает[`Workbook`](../activexcontrolbase/workbook) объект. |
 
 ### Смотрите также
 

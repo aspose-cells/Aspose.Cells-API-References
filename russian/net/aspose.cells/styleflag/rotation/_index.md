@@ -1,14 +1,14 @@
 ---
 title: Rotation
 second_title: Справочник по Aspose.Cells для .NET API
-description: Будет применена настройка вращения.
+description: Будет применена настройка поворота .
 type: docs
 weight: 260
 url: /ru/net/aspose.cells/styleflag/rotation/
 ---
 ## StyleFlag.Rotation property
 
-Будет применена настройка вращения.
+Будет применена настройка поворота .
 
 ```csharp
 public bool Rotation { get; set; }

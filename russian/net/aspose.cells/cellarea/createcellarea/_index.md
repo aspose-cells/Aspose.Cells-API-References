@@ -1,14 +1,14 @@
 ---
 title: CreateCellArea
 second_title: Справочник по Aspose.Cells для .NET API
-description: Создает область ячеек.
+description: Создает область ячейки.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/cellarea/createcellarea/
 ---
 ## CreateCellArea(int, int, int, int) {#createcellarea}
 
-Создает область ячеек.
+Создает область ячейки.
 
 ```csharp
 public static CellArea CreateCellArea(int startRow, int startColumn, int endRow, int endColumn)
@@ -16,14 +16,14 @@ public static CellArea CreateCellArea(int startRow, int startColumn, int endRow,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startRow | Int32 | Начальная строка. |
-| startColumn | Int32 | Начальный столбец. |
-| endRow | Int32 | Конечная строка. |
+| startRow | Int32 | Стартовый ряд. |
+| startColumn | Int32 | Стартовая колонка. |
+| endRow | Int32 | Конечный ряд. |
 | endColumn | Int32 | Конечный столбец. |
 
 ### Возвращаемое значение
 
-Возвращает[`CellArea`](../../cellarea).
+Вернуть[`CellArea`](../../cellarea).
 
 ### Смотрите также
 
@@ -35,7 +35,7 @@ public static CellArea CreateCellArea(int startRow, int startColumn, int endRow,
 
 ## CreateCellArea(string, string) {#createcellarea_1}
 
-Создает область ячеек.
+Создает область ячейки.
 
 ```csharp
 public static CellArea CreateCellArea(string startCellName, string endCellName)
@@ -48,7 +48,7 @@ public static CellArea CreateCellArea(string startCellName, string endCellName)
 
 ### Возвращаемое значение
 
-Возвращает[`CellArea`](../../cellarea).
+Вернуть[`CellArea`](../../cellarea).
 
 ### Смотрите также
 

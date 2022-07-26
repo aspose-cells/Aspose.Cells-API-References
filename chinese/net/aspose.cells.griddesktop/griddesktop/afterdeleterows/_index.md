@@ -1,14 +1,14 @@
 ---
 title: AfterDeleteRows
 second_title: Aspose.Cells for .NET API 参考
-description: 删除行后发生
+description: 在行被删除后发生
 type: docs
 weight: 340
 url: /zh/net/aspose.cells.griddesktop/griddesktop/afterdeleterows/
 ---
 ## GridDesktop.AfterDeleteRows event
 
-删除行后发生。
+在行被删除后发生。
 
 ```csharp
 public event WorksheetEventHandler AfterDeleteRows;

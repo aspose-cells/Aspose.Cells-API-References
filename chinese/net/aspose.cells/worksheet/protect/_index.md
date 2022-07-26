@@ -55,27 +55,27 @@ public void Protect(ProtectionType type, string password, string oldPassword)
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook excel = new Workbook("template.xlsx");
- //访问Excel文件中的第一个工作表
+//访问Excel文件中的第一个工作表
 Worksheet worksheet = excel.Worksheets[0];
- //用密码保护工作表
+//用密码保护工作表
 worksheet.Protect(ProtectionType.All, "aspose", null);
- //默认保存修改后的Excel文件（即Excel 20003） format
+//将修改后的Excel文件保存为默认（即Excel 20003）格式
 excel.Save("output.xls");
- //关闭文件流释放所有资源
+//关闭文件流释放所有资源
 
 [Visual Basic]
 
 '创建包含要打开的 Excel 文件的文件流
 Dim fstream As FileStream = New FileStream("book1.xls", FileMode.Open)
-'实例化一个 Workbook 对象并通过文件流打开Excel文件
+'实例化工作簿对象并通过文件流打开 Excel 文件
 Dim excel As Workbook = New Workbook(fstream)
-'Accessing the first worksheet in the Excel file
+'访问 Excel 文件中的第一个工作表
 Dim worksheet As Worksheet = excel.Worksheets(0)
-'Protecting the worksheet with a password
+'使用密码保护工作表
 worksheet.Protect(ProtectionType.All, "aspose", DBNull.Value.ToString())
-'Saving the modified Excel file in default (that is Excel 20003) format
+'以默认（即 Excel 20003）格式保存修改后的 Excel 文件
 excel.Save("output.xls")
 '关闭文件流以释放所有资源
 fstream.Close()

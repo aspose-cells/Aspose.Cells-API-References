@@ -18,9 +18,9 @@ public void MoveToRange(int upperLeftRow, int upperLeftColumn, int lowerRightRow
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
-| lowerRightRow | Int32 | Нижний правый индекс строки |
-| lowerRightColumn | Int32 | Нижний правый индекс столбца |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
+| lowerRightRow | Int32 | Нижний индекс правой строки |
+| lowerRightColumn | Int32 | Индекс нижнего правого столбца |
 
 ### Примеры
 

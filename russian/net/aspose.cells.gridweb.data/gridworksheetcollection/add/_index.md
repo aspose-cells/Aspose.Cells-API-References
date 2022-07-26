@@ -16,7 +16,7 @@ public int Add()
 
 ### Возвращаемое значение
 
-Worksheetиндекс объекта.
+Worksheet индекс объекта.
 
 ### Смотрите также
 
@@ -36,11 +36,11 @@ public GridWorksheet Add(string sheetName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sheetName | String | Имя листа |
+| sheetName | String | Имя рабочего листа |
 
 ### Возвращаемое значение
 
-Worksheetобъект.
+Worksheet объект.
 
 ### Смотрите также
 

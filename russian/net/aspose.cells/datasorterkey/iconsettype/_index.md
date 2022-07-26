@@ -16,7 +16,7 @@ public IconSetType IconSetType { get; }
 
 ### Примечания
 
-Эффекты только в том случае, если[`SortOnType`](../../sortontype)is SortOnType .Значок.
+Действует только при[`SortOnType`](../../sortontype) это SortOnType.Icon.
 
 ### Смотрите также
 

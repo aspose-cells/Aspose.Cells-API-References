@@ -1,14 +1,14 @@
 ---
 title: IsCancel
 second_title: Aspose.Cells for .NET API 参考
-description: 我们是否应该取消操作
+description: 我们要不要取消操作
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.griddesktop/rowcolumneventargs/iscancel/
 ---
 ## RowColumnEventArgs.IsCancel property
 
-我们是否应该取消操作。
+我们要不要取消操作。
 
 ```csharp
 public bool IsCancel { get; }

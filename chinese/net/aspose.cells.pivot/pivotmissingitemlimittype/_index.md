@@ -18,9 +18,9 @@ public enum PivotMissingItemLimitType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Automatic | `0` | 每个数据透视字段允许的默认唯一项目数。 |
-| Max | `1` | 每个 PivotField 允许的最大唯一项数 (&gt;32,500)。 |
-| None | `2` | 每个 PivotField 不允许唯一项目。 |
+| Automatic | `0` | 每个 PivotField 允许的默认唯一项目数。 |
+| Max | `1` | 每个数据透视字段允许的最大唯一项目数 (&gt;32,500)。 |
+| None | `2` | 每个数据透视字段不允许唯一项目。 |
 
 ### 也可以看看
 

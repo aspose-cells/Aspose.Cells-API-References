@@ -1,14 +1,14 @@
 ---
 title: Prompt
 second_title: Aspose.Cells for .NET API 参考
-description: 参数的提示字符串与输入 UI 一起呈现给电子表格用户以在刷新外部数据之前收集参数值仅在 parameterType  prompt 时使用
+description: 参数的提示字符串与输入 UI 一起呈现给电子表格用户以在刷新外部数据之前收集参数值仅在 parameterType  prompt. 时使用
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.externalconnections/connectionparameter/prompt/
 ---
 ## ConnectionParameter.Prompt property
 
-参数的提示字符串。与输入 UI 一起呈现给电子表格用户，以在刷新外部数据之前收集参数值。仅在 parameterType = prompt 时使用。
+参数的提示字符串。与输入 UI 一起呈现给电子表格用户，以在刷新外部数据之前收集参数值。仅在 parameterType = prompt. 时使用
 
 ```csharp
 public string Prompt { get; set; }

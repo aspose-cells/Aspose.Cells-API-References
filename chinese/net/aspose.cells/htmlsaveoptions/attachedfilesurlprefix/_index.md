@@ -1,14 +1,14 @@
 ---
 title: AttachedFilesUrlPrefix
 second_title: Aspose.Cells for .NET API 参考
-description: 指定html文件中图片等附件的Url前缀 仅用于保存到 html 流
+description: 指定html文件中图片等附件的Url前缀 仅用于保存到html流
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/htmlsaveoptions/attachedfilesurlprefix/
 ---
 ## HtmlSaveOptions.AttachedFilesUrlPrefix property
 
-指定html文件中图片等附件的Url前缀。 仅用于保存到 html 流。
+指定html文件中图片等附件的Url前缀 仅用于保存到html流
 
 ```csharp
 public string AttachedFilesUrlPrefix { get; set; }

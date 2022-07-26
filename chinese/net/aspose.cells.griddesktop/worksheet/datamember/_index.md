@@ -1,14 +1,14 @@
 ---
 title: DataMember
 second_title: Aspose.Cells for .NET API 参考
-description: 获取 Worksheet 对象为其显示数据的数据源
+description: 获取工作表对象为其显示数据的数据源
 type: docs
 weight: 120
 url: /zh/net/aspose.cells.griddesktop/worksheet/datamember/
 ---
 ## Worksheet.DataMember property
 
-获取 Worksheet 对象为其显示数据的数据源。
+获取工作表对象为其显示数据的数据源。
 
 ```csharp
 public string DataMember { get; }

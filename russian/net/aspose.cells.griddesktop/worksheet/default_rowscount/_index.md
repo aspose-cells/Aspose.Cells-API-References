@@ -1,14 +1,14 @@
 ---
 title: DEFAULT_ROWSCOUNT
 second_title: Справочник по Aspose.Cells для .NET API
-description: Количество строк по умолчанию на рабочем листе.
+description: Количество строк рабочего листа по умолчанию.
 type: docs
 weight: 1170
 url: /ru/net/aspose.cells.griddesktop/worksheet/default_rowscount/
 ---
 ## Worksheet.DEFAULT_ROWSCOUNT field
 
-Количество строк по умолчанию на рабочем листе.
+Количество строк рабочего листа по умолчанию.
 
 ```csharp
 public static int DEFAULT_ROWSCOUNT;

@@ -1,14 +1,14 @@
 ---
 title: RevisionCellMove
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет запись о ревизии перемещенных ячеек.
+description: Представляет запись ревизии для перемещенных ячеек.
 type: docs
 weight: 5370
 url: /ru/net/aspose.cells.revisions/revisioncellmove/
 ---
 ## RevisionCellMove class
 
-Представляет запись о ревизии перемещенных ячеек.
+Представляет запись ревизии для перемещенных ячеек.
 
 ```csharp
 public class RevisionCellMove : Revision

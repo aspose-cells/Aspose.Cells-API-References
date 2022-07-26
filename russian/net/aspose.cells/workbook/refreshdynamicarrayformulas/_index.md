@@ -1,14 +1,14 @@
 ---
 title: RefreshDynamicArrayFormulas
 second_title: Справочник по Aspose.Cells для .NET API
-description: Обновляет формулы динамического массива переливается в новый диапазон соседних ячеек в соответствии с текущими данными
+description: Обновляет формулы динамического массива переносится в новый диапазон соседних ячеек в соответствии с текущими данными
 type: docs
 weight: 520
 url: /ru/net/aspose.cells/workbook/refreshdynamicarrayformulas/
 ---
 ## Workbook.RefreshDynamicArrayFormulas method
 
-Обновляет формулы динамического массива (переливается в новый диапазон соседних ячеек в соответствии с текущими данными)
+Обновляет формулы динамического массива (переносится в новый диапазон соседних ячеек в соответствии с текущими данными)
 
 ```csharp
 public void RefreshDynamicArrayFormulas(bool calculate)

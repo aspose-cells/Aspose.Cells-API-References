@@ -3,7 +3,7 @@ title: SetOutlineBorder
 second_title: Aspose.Cells for .NET API 参考
 description: 围绕一系列单元格设置轮廓边框
 type: docs
-weight: 340
+weight: 380
 url: /zh/net/aspose.cells/range/setoutlineborder/
 ---
 ## Range.SetOutlineBorder method
@@ -16,7 +16,7 @@ public void SetOutlineBorder(BorderType borderEdge, CellBorderType borderStyle, 
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| borderEdge | BorderType | 边界边缘。 |
+| borderEdge | BorderType | 边框边缘。 |
 | borderStyle | CellBorderType | 边框样式。 |
 | borderColor | Color | 边框颜色。 |
 

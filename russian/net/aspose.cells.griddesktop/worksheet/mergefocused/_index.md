@@ -1,14 +1,14 @@
 ---
 title: MergeFocused
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает индекс слияния в фокусе.
+description: Получает индекс целевого слияния.
 type: docs
 weight: 890
 url: /ru/net/aspose.cells.griddesktop/worksheet/mergefocused/
 ---
 ## Worksheet.MergeFocused method
 
-Получает индекс слияния в фокусе.
+Получает индекс целевого слияния.
 
 ```csharp
 public int MergeFocused(CellLocation cl)

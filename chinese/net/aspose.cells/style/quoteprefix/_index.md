@@ -1,14 +1,14 @@
 ---
 title: QuotePrefix
 second_title: Aspose.Cells for .NET API 参考
-description: 指示单元格的值是否以单引号开头
+description: 表示单元格的值是否以单引号开头
 type: docs
 weight: 260
 url: /zh/net/aspose.cells/style/quoteprefix/
 ---
 ## Style.QuotePrefix property
 
-指示单元格的值是否以单引号开头。
+表示单元格的值是否以单引号开头。
 
 ```csharp
 public bool QuotePrefix { get; set; }

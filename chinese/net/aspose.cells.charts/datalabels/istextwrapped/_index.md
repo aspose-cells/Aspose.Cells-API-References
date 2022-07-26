@@ -1,14 +1,14 @@
 ---
 title: IsTextWrapped
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置一个指示文本是否被换行的值
+description: 获取或设置一个值该值指示文本是否被换行
 type: docs
 weight: 80
 url: /zh/net/aspose.cells.charts/datalabels/istextwrapped/
 ---
 ## DataLabels.IsTextWrapped property
 
-获取或设置一个指示文本是否被换行的值。
+获取或设置一个值，该值指示文本是否被换行。
 
 ```csharp
 public override bool IsTextWrapped { get; set; }

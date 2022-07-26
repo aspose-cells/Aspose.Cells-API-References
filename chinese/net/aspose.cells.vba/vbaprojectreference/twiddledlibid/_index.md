@@ -16,7 +16,7 @@ public string Twiddledlibid { get; set; }
 
 ### 评论
 
-仅供控制参考。
+仅用于控制参考。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: RowSeparatorOfFormulaArray
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает разделитель строк в массиве данных в формуле.
+description: Получает разделитель строк в данных массива в формуле.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells/globalizationsettings/rowseparatorofformulaarray/
 ---
 ## GlobalizationSettings.RowSeparatorOfFormulaArray property
 
-Получает разделитель строк в массиве данных в формуле.
+Получает разделитель строк в данных массива в формуле.
 
 ```csharp
 public virtual char RowSeparatorOfFormulaArray { get; }

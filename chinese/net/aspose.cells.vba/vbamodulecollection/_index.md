@@ -1,14 +1,14 @@
 ---
 title: VbaModuleCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示VbaModule./vbamodule
+description: 代表列表VbaModule./vbamodule
 type: docs
 weight: 6250
 url: /zh/net/aspose.cells.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection class
 
-表示[`VbaModule`](../vbamodule)
+代表列表[`VbaModule`](../vbamodule)
 
 ```csharp
 public class VbaModuleCollection : CollectionBase<VbaModule>
@@ -20,7 +20,7 @@ public class VbaModuleCollection : CollectionBase<VbaModule>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.vba/vbamodulecollection/item) { get; } | 通过索引获取列表中的[`VbaModule`](../vbamodule)。 (2 indexers) |
+| [Item](../../aspose.cells.vba/vbamodulecollection/item) { get; } | 获取[`VbaModule`](../vbamodule)在索引列表中。 (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法
@@ -48,7 +48,7 @@ public class VbaModuleCollection : CollectionBase<VbaModule>
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;VbaModule&gt;) |  |
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;VbaModule&gt;) |  |
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;VbaModule&gt;) |  |
-| [GetDesignerStorage](../../aspose.cells.vba/vbamodulecollection/getdesignerstorage)(string) | 代表Designer的数据。 |
+| [GetDesignerStorage](../../aspose.cells.vba/vbamodulecollection/getdesignerstorage)(string) | 代表 Designer 的数据。 |
 | [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(VbaModule) |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(VbaModule, int) |  |
@@ -66,18 +66,18 @@ public class VbaModuleCollection : CollectionBase<VbaModule>
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
-  // 初始化 VBA 项目。
+ // 初始化 VBA 项目。
 VbaProject vbaProject = workbook.VbaProject; 
- // 添加一个新模块.
+// 添加一个新模块。
 vbaProject.Modules.Add(VbaModuleType.Class, "test");
- //保存Excel文件
+//保存Excel文件
 workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 '初始化 VBA 项目。
 Dim vbaProject as VbaProject  = workbook.VbaProject

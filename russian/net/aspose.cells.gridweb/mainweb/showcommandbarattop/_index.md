@@ -1,14 +1,14 @@
 ---
 title: ShowCommandBarAtTop
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает отображать ли панель команд включая панель команд и панель вкладок в верхней части элемента управления.
+description: Указывает показывать ли панель команд включая панель команд и панель вкладок в верхней части элемента управления.
 type: docs
 weight: 890
 url: /ru/net/aspose.cells.gridweb/mainweb/showcommandbarattop/
 ---
 ## MainWeb.ShowCommandBarAtTop property
 
-Указывает, отображать ли панель команд (включая панель команд и панель вкладок) в верхней части элемента управления.
+Указывает, показывать ли панель команд (включая панель команд и панель вкладок) в верхней части элемента управления.
 
 ```csharp
 public bool ShowCommandBarAtTop { get; set; }

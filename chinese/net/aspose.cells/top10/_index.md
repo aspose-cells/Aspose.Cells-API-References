@@ -1,14 +1,14 @@
 ---
 title: Top10
 second_title: Aspose.Cells for .NET API 参考
-description: 描述Top10条件格式规则 此条件格式规则突出显示 值位于前 N 或下 N 括号中的单元格如指定的那样
+description: 描述 Top10 条件格式规则 此条件格式规则突出显示其 值位于前 N 或底部 N 括号中的单元格如指定的那样
 type: docs
 weight: 6090
 url: /zh/net/aspose.cells/top10/
 ---
 ## Top10 class
 
-描述Top10条件格式规则。 此条件格式规则突出显示 值位于前 N 或下 N 括号中的单元格，如指定的那样。
+描述 Top10 条件格式规则。 此条件格式规则突出显示其 值位于前 N 或底部 N 括号中的单元格，如指定的那样。
 
 ```csharp
 public class Top10
@@ -24,55 +24,55 @@ public class Top10
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IsBottom](../../aspose.cells/top10/isbottom) { get; set; } | 获取或设置“top/bottom n”规则是否为“bottom n”规则。 默认值为假。 |
-| [IsPercent](../../aspose.cells/top10/ispercent) { get; set; } | 获取或设置“top/bottom n”规则是否为“top/bottom n percent”规则。 默认值为假。 |
-| [Rank](../../aspose.cells/top10/rank) { get; set; } | 在“top/bottom n”条件格式规则中获取或设置“n”的值。 如果 IsPercent 为真，则该值必须介于 0 和 100 之间。 否则必须介于 0 和 1000 之间。 默认值为 10。 |
+| [IsBottom](../../aspose.cells/top10/isbottom) { get; set; } | 获取或设置“top/bottom n”规则是否为“bottom n”规则。 默认值为false。 |
+| [IsPercent](../../aspose.cells/top10/ispercent) { get; set; } | 获取或设置“top/bottom n”规则是否为“top/bottom n percent”规则。 默认值为false。 |
+| [Rank](../../aspose.cells/top10/rank) { get; set; } | 在“top/bottom n”条件格式规则中获取或设置“n”的值。 如果 IsPercent 为真，该值必须介于 0 和 100 之间。 否则必须介于 0 和 1000 之间。 默认值为 10 . |
 
 ### 例子
 
 ```csharp
 
 [C#]
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
  
- //添加一个空的条件格式
+//添加一个空的条件格式
 int index = sheet.ConditionalFormattings.Add();
 FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
  
- //设置条件格式范围.
+//设置条件格式范围。
 CellArea ca = CellArea.CreateCellArea(0, 0, 10, 10);
 fcs.AddArea(ca);
  
- //添加条件.
+//添加条件。
 int conditionIndex = fcs.AddCondition(FormatConditionType.Top10, OperatorType.None, null, null);   
- //设置背景颜色.
+//设置背景颜色。
 FormatCondition fc = fcs[conditionIndex];
 fc.Style.BackgroundColor = Color.Red;
 Top10 top10 = fc.Top10;
- //设置前N个
+//设置前N 
 top10.Rank = 5;  
- //保存Excel文件
+//保存Excel文件
 workbook.Save("output.xls");
 
 [VB.NET]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 Dim sheet As Worksheet = workbook.Worksheets(0)
  
-' 添加一个空的条件格式
+'添加一个空的条件格式
 Dim index As Integer = sheet.ConditionalFormattings.Add()
 Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
  
-'设置条件格式范围.
+'设置条件格式范围。
 Dim ca As CellArea = CellArea.CreateCellArea(0, 0, 10, 10)
 fcs.AddArea(ca)
  
 '添加条件。
 Dim conditionIndex As Integer = fcs.AddCondition(FormatConditionType.Top10, OperatorType.None, null, null);   
-'Sets the background color.
+'设置背景颜色。
 Dim fc As FormatCondition = fcs(conditionIndex)
 fc.Style.BackgroundColor = Color.Red
 Dim top10 as Top10  = fc.Top10

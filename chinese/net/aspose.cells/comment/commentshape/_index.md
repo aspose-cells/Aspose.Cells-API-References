@@ -1,14 +1,14 @@
 ---
 title: CommentShape
 second_title: Aspose.Cells for .NET API 参考
-description: 获取表示附加到指定注释的形状的 Shape 对象
+description: 获取一个Shape对象表示附加到指定注释的形状
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/comment/commentshape/
 ---
 ## Comment.CommentShape property
 
-获取表示附加到指定注释的形状的 Shape 对象。
+获取一个Shape对象，表示附加到指定注释的形状。
 
 ```csharp
 public CommentShape CommentShape { get; }

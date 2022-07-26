@@ -1,14 +1,14 @@
 ---
 title: GetPicture
 second_title: Aspose.Cells for .NET API 参考
-description: 获取页眉/页脚的Pictureaspose.cells.drawing/picture对象
+description: 获取Pictureaspose.cells.drawing/picture页眉/页脚的对象.
 type: docs
 weight: 540
 url: /zh/net/aspose.cells/pagesetup/getpicture/
 ---
 ## GetPicture(bool, int) {#getpicture_1}
 
-获取页眉/页脚的[`Picture`](../../../aspose.cells.drawing/picture)对象。
+获取[`Picture`](../../../aspose.cells.drawing/picture)页眉/页脚的对象.
 
 ```csharp
 public Picture GetPicture(bool isHeader, int section)
@@ -16,12 +16,12 @@ public Picture GetPicture(bool isHeader, int section)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| isHeader | Boolean | 表示是在页眉还是页脚。 |
-| section | Int32 | 0:Left Section。 |
+| isHeader | Boolean | 指示它是在页眉还是页脚中。 |
+| section | Int32 | 0：左侧部分，1：中间部分，2：右侧部分。 |
 
 ### 返回值
 
-返回[`Picture`](../../../aspose.cells.drawing/picture)对象。 如果没有图片，则返回 null。
+退货[`Picture`](../../../aspose.cells.drawing/picture) object. 如果没有图片，则返回 null。
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public Picture GetPicture(bool isHeader, int section)
 
 ## GetPicture(bool, bool, bool, int) {#getpicture}
 
-获取页眉/页脚的[`Picture`](../../../aspose.cells.drawing/picture)对象。
+获取[`Picture`](../../../aspose.cells.drawing/picture)页眉/页脚的对象.
 
 ```csharp
 public Picture GetPicture(bool isFirst, bool isEven, bool isHeader, int section)
@@ -42,14 +42,14 @@ public Picture GetPicture(bool isFirst, bool isEven, bool isHeader, int section)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| isFirst | Boolean | 表示是否获取第一页页眉/页脚的图片。 |
-| isEven | Boolean | 表示是否获取偶数页页眉/页脚的图片。 |
-| isHeader | Boolean | 表示是否获取页眉/页脚的图片。 |
-| section | Int32 | 0:Left Section。 |
+| isFirst | Boolean | 指示是否获取第一页页眉/页脚的图片。 |
+| isEven | Boolean | 指示是否获取偶数页页眉/页脚的图片。 |
+| isHeader | Boolean | 指示是否获取页眉/页脚的图片。 |
+| section | Int32 | 0：左侧部分，1：中间部分，2：右侧部分。 |
 
 ### 返回值
 
-返回[`Picture`](../../../aspose.cells.drawing/picture)对象。
+退货[`Picture`](../../../aspose.cells.drawing/picture)目的。
 
 ### 也可以看看
 

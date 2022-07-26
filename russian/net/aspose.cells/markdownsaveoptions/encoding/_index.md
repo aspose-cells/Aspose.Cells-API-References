@@ -1,14 +1,14 @@
 ---
 title: Encoding
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает кодировку по умолчанию.
+description: Получает и устанавливает кодировку по умолчанию.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/markdownsaveoptions/encoding/
 ---
 ## MarkdownSaveOptions.Encoding property
 
-Получает и задает кодировку по умолчанию.
+Получает и устанавливает кодировку по умолчанию.
 
 ```csharp
 public Encoding Encoding { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Index
 second_title: Aspose.Cells for .NET API 参考
-description: 获取排好序的列索引绝对位置A列为0B为1...
+description: 获取排好序的列索引绝对位置A列为0B为1....
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/datasorterkey/index/
 ---
 ## DataSorterKey.Index property
 
-获取排好序的列索引（绝对位置，A列为0，B为1，...）。
+获取排好序的列索引（绝对位置，A列为0，B为1，...）.
 
 ```csharp
 public int Index { get; }

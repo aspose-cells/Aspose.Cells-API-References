@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.gridweb/mainweb/cellclickonajax/
 ---
 ## MainWeb.CellClickOnAjax event
 
-单元格被点击时发生，需要对该事件做ajaxcallback。
+单元格被点击时发生，需要对该事件做ajaxcallback
 
 ```csharp
 public event CellEventStringHandler CellClickOnAjax;

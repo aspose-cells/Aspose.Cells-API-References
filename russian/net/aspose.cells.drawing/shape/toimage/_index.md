@@ -1,27 +1,27 @@
 ---
 title: ToImage
 second_title: Справочник по Aspose.Cells для .NET API
-description: Создает изображение формы и сохраняет его в потоке в указанном формате.
+description: Создает изображение фигуры и сохраняет его в потоке в указанном формате.
 type: docs
 weight: 1160
 url: /ru/net/aspose.cells.drawing/shape/toimage/
 ---
-## ToImage(Stream, ImageFormat) {#toimage_2}
+## ToImage(Stream, ImageType) {#toimage_1}
 
-Создает изображение формы и сохраняет его в потоке в указанном формате.
+Создает изображение фигуры и сохраняет его в потоке в указанном формате.
 
 ```csharp
-public void ToImage(Stream stream, ImageFormat imageFormat)
+public void ToImage(Stream stream, ImageType imageType)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Выходной поток. |
-| imageFormat | ImageFormat | Формат сохранения изображения. |
+| imageType | ImageType | Тип, в котором нужно сохранить изображение. |
 
 ### Примечания
 
-Поддерживаются следующие форматы: .bmp, .gif, .jpg, .jpeg, . TIFF, .EMF.
+Поддерживаются следующие форматы: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.
 
 ### Примеры
 
@@ -29,18 +29,19 @@ public void ToImage(Stream stream, ImageFormat imageFormat)
 
 [C#]
 MemoryStream imageStream = new MemoryStream();
-shape.ToImage(imageStream, System.Drawing.Imaging.ImageFormat.Png);
+shape.ToImage(imageStream, ImageType.Png);
 ```
 
 ### Смотрите также
 
+* enum [ImageType](../../imagetype)
 * class [Shape](../../shape)
 * пространство имен [Aspose.Cells.Drawing](../../shape)
 * сборка [Aspose.Cells](../../../)
 
 ---
 
-## ToImage(string, ImageOrPrintOptions) {#toimage_3}
+## ToImage(string, ImageOrPrintOptions) {#toimage_4}
 
 Сохраняет фигуру в файл.
 
@@ -66,7 +67,7 @@ shape.ToImage("exmaple.png", op);
 
 ---
 
-## ToImage(Stream, ImageOrPrintOptions) {#toimage_1}
+## ToImage(Stream, ImageOrPrintOptions) {#toimage_2}
 
 Сохраняет форму в поток.
 
@@ -95,7 +96,7 @@ shape.ToImage(imageStream, op);
 
 ## ToImage(ImageOrPrintOptions) {#toimage}
 
-Возвращает растровый объект формы.
+Возвращает растровый объект формы .
 
 ```csharp
 public Bitmap ToImage(ImageOrPrintOptions options)

@@ -1,14 +1,14 @@
 ---
 title: Ranges
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает коллекцию объектовRangeaspose.cells/range созданных во время выполнения.
+description: Получает коллекциюRangeaspose.cells/rangeобъекты созданные во время выполнения.
 type: docs
 weight: 230
 url: /ru/net/aspose.cells/cells/ranges/
 ---
 ## Cells.Ranges property
 
-Получает коллекцию объектов[`Range`](../../range), созданных во время выполнения.
+Получает коллекцию[`Range`](../../range)объекты, созданные во время выполнения.
 
 ```csharp
 public RangeCollection Ranges { get; }

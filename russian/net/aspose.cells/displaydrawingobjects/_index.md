@@ -1,14 +1,14 @@
 ---
 title: DisplayDrawingObjects
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает следует ли и как отображать объекты в книге.
+description: Указывает следует ли отображать объекты в книге и каким образом.
 type: docs
 weight: 1430
 url: /ru/net/aspose.cells/displaydrawingobjects/
 ---
 ## DisplayDrawingObjects enumeration
 
-Указывает, следует ли и как отображать объекты в книге.
+Указывает, следует ли отображать объекты в книге и каким образом.
 
 ```csharp
 public enum DisplayDrawingObjects

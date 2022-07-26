@@ -16,7 +16,7 @@ public int AddByBaseIndex(int baseFieldIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| baseFieldIndex | Int32 | индекс поля в базовых сводных полях. |
+| baseFieldIndex | Int32 | индекс поля в базе PivotFields. |
 
 ### Возвращаемое значение
 

@@ -1,14 +1,14 @@
 ---
 title: DEFAULT_HEIGHT
 second_title: Aspose.Cells for .NET API 参考
-description: 网格行的默认高度
+description: gridrow 的默认高度
 type: docs
 weight: 120
 url: /zh/net/aspose.cells.griddesktop.data/gridrow/default_height/
 ---
 ## GridRow.DEFAULT_HEIGHT field
 
-网格行的默认高度。
+gridrow 的默认高度。
 
 ```csharp
 public static int DEFAULT_HEIGHT;

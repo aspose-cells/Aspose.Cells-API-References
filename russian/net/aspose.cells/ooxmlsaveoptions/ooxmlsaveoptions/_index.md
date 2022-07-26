@@ -32,7 +32,7 @@ public OoxmlSaveOptions(SaveFormat saveFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| saveFormat | SaveFormat | Формат файла. Это должно быть xlsx,xltx,xlsm,xltm. |
+| saveFormat | SaveFormat | Формат файла. Должен быть xlsx,xltx,xlsm,xltm. |
 
 ### Смотрите также
 

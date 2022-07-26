@@ -19,7 +19,7 @@ public void Clear()
 ```csharp
 
 [C#]
-  //очистить все textbox
+//очистить все текстовое поле
 textBoxCollection.Clear();
 ```
 

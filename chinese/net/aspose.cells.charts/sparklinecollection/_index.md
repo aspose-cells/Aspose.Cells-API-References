@@ -1,14 +1,14 @@
 ---
 title: SparklineCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装Sparkline./sparkline对象的集合
+description: 封装了一个集合Sparkline./sparkline对象.
 type: docs
 weight: 870
 url: /zh/net/aspose.cells.charts/sparklinecollection/
 ---
 ## SparklineCollection class
 
-封装[`Sparkline`](../sparkline)对象的集合。
+封装了一个集合[`Sparkline`](../sparkline)对象.
 
 ```csharp
 public class SparklineCollection : CollectionBase<Sparkline>
@@ -20,7 +20,7 @@ public class SparklineCollection : CollectionBase<Sparkline>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.charts/sparklinecollection/item) { get; } | 获取指定索引处的[`Sparkline`](../sparkline)元素。 |
+| [Item](../../aspose.cells.charts/sparklinecollection/item) { get; } | 获取[`Sparkline`](../sparkline)指定索引处的元素。 |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法
@@ -68,7 +68,7 @@ sheet.Cells["B1"].PutValue(2);
 sheet.Cells["C1"].PutValue(1);
 sheet.Cells["D1"].PutValue(3);
 
- // 定义 CellArea
+// 定义单元格区域
 CellArea ca = new CellArea();
 ca.StartColumn = 4;
 ca.EndColumn = 4;

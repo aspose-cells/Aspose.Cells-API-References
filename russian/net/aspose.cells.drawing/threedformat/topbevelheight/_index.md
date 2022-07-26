@@ -1,14 +1,14 @@
 ---
 title: TopBevelHeight
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает высоту верхнего скоса или то насколько глубоко он применяется к фигуре. В баллах.
+description: Получает и задает высоту верхнего скоса или глубину его применения в форме. В единицах измерения Points.
 type: docs
 weight: 170
 url: /ru/net/aspose.cells.drawing/threedformat/topbevelheight/
 ---
 ## ThreeDFormat.TopBevelHeight property
 
-Получает и задает высоту верхнего скоса или то, насколько глубоко он применяется к фигуре. В баллах.
+Получает и задает высоту верхнего скоса или глубину его применения в форме. В единицах измерения Points.
 
 ```csharp
 public double TopBevelHeight { get; set; }

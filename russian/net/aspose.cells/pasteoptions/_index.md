@@ -27,8 +27,8 @@ public class PasteOptions
 | [OnlyVisibleCells](../../aspose.cells/pasteoptions/onlyvisiblecells) { get; set; } | True означает копирование только видимых ячеек. |
 | [OperationType](../../aspose.cells/pasteoptions/operationtype) { get; set; } | Получает и задает тип операции при вставке диапазона. |
 | [PasteType](../../aspose.cells/pasteoptions/pastetype) { get; set; } | Специальный тип вставки. |
-| [SkipBlanks](../../aspose.cells/pasteoptions/skipblanks) { get; set; } | Указывает, пропускает ли пустые ячейки. |
-| [Transpose](../../aspose.cells/pasteoptions/transpose) { get; set; } | Значение true для транспонирования строк и столбцов при вставке диапазона. Значение по умолчанию неверно. |
+| [SkipBlanks](../../aspose.cells/pasteoptions/skipblanks) { get; set; } | Указывает, пропускаются ли пустые ячейки. |
+| [Transpose](../../aspose.cells/pasteoptions/transpose) { get; set; } | Истина для транспонирования строк и столбцов при вставке диапазона. Значение по умолчанию — False. . |
 
 ### Смотрите также
 

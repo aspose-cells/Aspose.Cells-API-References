@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定索引处的Seriesaspose.cells.charts/series元素
+description: 获取Seriesaspose.cells.charts/series指定索引处的元素
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.charts/seriescollection/item/
 ---
 ## SeriesCollection indexer
 
-获取指定索引处的[`Series`](../../series)元素。
+获取[`Series`](../../series)指定索引处的元素。
 
 ```csharp
 public Series this[int index] { get; }

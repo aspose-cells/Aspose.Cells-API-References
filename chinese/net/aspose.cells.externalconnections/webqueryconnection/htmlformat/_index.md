@@ -1,14 +1,14 @@
 ---
 title: HtmlFormat
 second_title: Aspose.Cells for .NET API 参考
-description: 在将 Web 查询数据引入 工作表时如何处理来自 HTML 源的格式设置当 sourceData 为 True 时相关
+description: 将 Web 查询数据带入 工作表时如何处理来自 HTML 源的格式设置当 sourceData 为 True 时相关
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.externalconnections/webqueryconnection/htmlformat/
 ---
 ## WebQueryConnection.HtmlFormat property
 
-在将 Web 查询数据引入 工作表时如何处理来自 HTML 源的格式设置。当 sourceData 为 True 时相关。
+将 Web 查询数据带入 工作表时如何处理来自 HTML 源的格式设置。当 sourceData 为 True 时相关。
 
 ```csharp
 public HtmlFormatHandlingType HtmlFormat { get; set; }

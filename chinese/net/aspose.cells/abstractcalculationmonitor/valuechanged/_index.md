@@ -1,14 +1,14 @@
 ---
 title: ValueChanged
 second_title: Aspose.Cells for .NET API 参考
-description: 计算后单元格的值是否发生变化 应该只在AfterCalculateaspose.cells/abstractcalculationmonitor/aftercalculate中使用
+description: 计算后单元格的值是否发生变化 应该只用于AfterCalculateaspose.cells/abstractcalculationmonitor/aftercalculate.
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/abstractcalculationmonitor/valuechanged/
 ---
 ## AbstractCalculationMonitor.ValueChanged property
 
-计算后单元格的值是否发生变化。 应该只在[`AfterCalculate`](../aftercalculate)中使用。
+计算后单元格的值是否发生变化。 应该只用于[`AfterCalculate`](../aftercalculate).
 
 ```csharp
 public bool ValueChanged { get; }

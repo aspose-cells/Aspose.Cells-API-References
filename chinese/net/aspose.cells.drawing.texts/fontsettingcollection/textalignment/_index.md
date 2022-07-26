@@ -1,14 +1,14 @@
 ---
 title: TextAlignment
 second_title: Aspose.Cells for .NET API 参考
-description: 表示文本正文的对齐设置
+description: 表示文本体的对齐方式设置
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.drawing.texts/fontsettingcollection/textalignment/
 ---
 ## FontSettingCollection.TextAlignment property
 
-表示文本正文的对齐设置。
+表示文本体的对齐方式设置。
 
 ```csharp
 public ShapeTextAlignment TextAlignment { get; }

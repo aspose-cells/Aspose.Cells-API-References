@@ -1,14 +1,14 @@
 ---
 title: ViewType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает тип представления.
+description: Получает и устанавливает тип представления.
 type: docs
 weight: 560
 url: /ru/net/aspose.cells/worksheet/viewtype/
 ---
 ## Worksheet.ViewType property
 
-Получает и задает тип представления.
+Получает и устанавливает тип представления.
 
 ```csharp
 public ViewType ViewType { get; set; }

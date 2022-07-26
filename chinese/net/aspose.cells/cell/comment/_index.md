@@ -16,7 +16,7 @@ public Comment Comment { get; }
 
 ### 评论
 
-如果没有注释适用于单元格，则返回 null。
+如果没有注释适用于单元格，则返回null。
 
 ### 也可以看看
 

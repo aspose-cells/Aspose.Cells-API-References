@@ -3,7 +3,7 @@ title: SetRowHeightInch
 second_title: Справочник по Aspose.Cells для .NET API
 description: Устанавливает высоту строки в дюймах.
 type: docs
-weight: 1260
+weight: 1270
 url: /ru/net/aspose.cells/cells/setrowheightinch/
 ---
 ## Cells.SetRowHeightInch method
@@ -17,7 +17,7 @@ public void SetRowHeightInch(int row, double inches)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | row | Int32 | Индекс строки. |
-| дюймы | Double | Количество дюймов. Оно должно быть между 0 и 409,5/72. |
+| inches | Double | Количество дюймов. Оно должно быть между 0 и 409,5/72. |
 
 ### Смотрите также
 

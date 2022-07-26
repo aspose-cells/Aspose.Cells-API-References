@@ -1,14 +1,14 @@
 ---
 title: DrawObjectEnum
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указать ячейку или изображение DrawObject.
+description: Указывает ячейку или изображение DrawObject.
 type: docs
 weight: 5110
 url: /ru/net/aspose.cells.rendering/drawobjectenum/
 ---
 ## DrawObjectEnum enumeration
 
-Указать ячейку или изображение DrawObject.
+Указывает ячейку или изображение DrawObject.
 
 ```csharp
 public enum DrawObjectEnum
@@ -19,7 +19,7 @@ public enum DrawObjectEnum
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Image | `0` | Указывает, что DrawObject является изображением |
-| Cell | `1` | указать, что DrawObject является ячейкой |
+| Cell | `1` | указывает, что DrawObject является Cell |
 
 ### Смотрите также
 

@@ -3,7 +3,7 @@ title: RemoveFormulas
 second_title: Справочник по Aspose.Cells для .NET API
 description: Удаляет все формулы и заменяет значением формулы.
 type: docs
-weight: 1200
+weight: 1210
 url: /ru/net/aspose.cells/cells/removeformulas/
 ---
 ## Cells.RemoveFormulas method

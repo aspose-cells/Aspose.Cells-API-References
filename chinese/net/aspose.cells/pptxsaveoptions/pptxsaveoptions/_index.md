@@ -1,14 +1,14 @@
 ---
 title: PptxSaveOptions
 second_title: Aspose.Cells for .NET API 参考
-description: 代表pptx保存选项
+description: 表示 pptx 保存选项
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/pptxsaveoptions/pptxsaveoptions/
 ---
 ## PptxSaveOptions() {#constructor}
 
-代表pptx保存选项。
+表示 pptx 保存选项。
 
 ```csharp
 public PptxSaveOptions()
@@ -32,7 +32,7 @@ public PptxSaveOptions(bool saveAsImage)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| saveAsImage | Boolean | 如果为 True，则工作簿将转换为 .pptx 文件的一些图片。 如果为 False，工作簿将被转换为 .pptx 文件的一些表格。 |
+| saveAsImage | Boolean | 如果为True，工作簿将被转换为.pptx文件的一些图片。 如果为False，工作簿将被转换为.pptx文件的一些表格。 |
 
 ### 也可以看看
 

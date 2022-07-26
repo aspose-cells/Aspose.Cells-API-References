@@ -3,7 +3,7 @@ title: SetViewColumnWidthPixel
 second_title: Справочник по Aspose.Cells для .NET API
 description: Устанавливает ширину столбца в другом представлении.
 type: docs
-weight: 1280
+weight: 1290
 url: /ru/net/aspose.cells/cells/setviewcolumnwidthpixel/
 ---
 ## Cells.SetViewColumnWidthPixel method
@@ -17,11 +17,11 @@ public void SetViewColumnWidthPixel(int column, int pixels)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | column | Int32 | Индекс столбца. |
-| пиксели | Int32 | Ширина в пикселях. |
+| pixels | Int32 | Ширина в пикселях. |
 
 ### Примечания
 
-Если текущий тип представленияPageLayoutView, ширина столбца соответствует печатной ширине.
+Если текущий тип представленияPageLayoutView , ширина столбца равна печатной ширине.
 
 ### Смотрите также
 

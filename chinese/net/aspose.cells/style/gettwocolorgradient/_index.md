@@ -19,7 +19,7 @@ public void GetTwoColorGradient(out Color color1, out Color color2,
 | --- | --- | --- |
 | color1 | Color& | 一种渐变色。 |
 | color2 | Color& | 两种渐变色。 |
-| gradientStyleType | GradientStyleType& | 渐变着色样式。 |
+| gradientStyleType | GradientStyleType& | 渐变阴影样式。 |
 | variant | Int32& | 渐变变体。 |
 
 ### 也可以看看

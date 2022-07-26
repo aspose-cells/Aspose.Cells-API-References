@@ -32,7 +32,7 @@ public OoxmlSaveOptions(SaveFormat saveFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| saveFormat | SaveFormat | 文件格式。 必须是 xlsx,xltx,xlsm,xltm。 |
+| saveFormat | SaveFormat | 文件格式. 必须是xlsx,xltx,xlsm,xltm。 |
 
 ### 也可以看看
 

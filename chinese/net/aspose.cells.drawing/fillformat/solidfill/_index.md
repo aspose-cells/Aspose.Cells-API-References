@@ -1,14 +1,14 @@
 ---
 title: SolidFill
 second_title: Aspose.Cells for .NET API 参考
-description: 获取SolidFillaspose.cells.drawing/fillformat/solidfill对象
+description: 获取SolidFillaspose.cells.drawing/fillformat/solidfill对象.
 type: docs
 weight: 150
 url: /zh/net/aspose.cells.drawing/fillformat/solidfill/
 ---
 ## FillFormat.SolidFill property
 
-获取`SolidFill`对象。
+获取`SolidFill`对象.
 
 ```csharp
 public SolidFill SolidFill { get; }

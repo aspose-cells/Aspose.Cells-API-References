@@ -1,14 +1,14 @@
 ---
 title: Source
 second_title: Aspose.Cells for .NET API 参考
-description: 链接的内容源
+description: 链接的内容来源
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.properties/documentproperty/source/
 ---
 ## DocumentProperty.Source property
 
-链接的内容源。
+链接的内容来源。
 
 ```csharp
 public string Source { get; }

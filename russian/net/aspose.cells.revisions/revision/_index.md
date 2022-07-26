@@ -1,14 +1,14 @@
 ---
 title: Revision
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет редакцию.
+description: Представляет версию.
 type: docs
 weight: 5320
 url: /ru/net/aspose.cells.revisions/revision/
 ---
 ## Revision class
 
-Представляет редакцию.
+Представляет версию.
 
 ```csharp
 public abstract class Revision

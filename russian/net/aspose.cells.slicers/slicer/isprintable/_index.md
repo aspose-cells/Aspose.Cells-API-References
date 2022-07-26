@@ -1,14 +1,14 @@
 ---
 title: IsPrintable
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает доступен ли для печати объект среза.
+description: Указывает доступен ли объект среза для печати.
 type: docs
 weight: 90
 url: /ru/net/aspose.cells.slicers/slicer/isprintable/
 ---
 ## Slicer.IsPrintable property
 
-Указывает, доступен ли для печати объект среза.
+Указывает, доступен ли объект среза для печати.
 
 ```csharp
 public bool IsPrintable { get; set; }

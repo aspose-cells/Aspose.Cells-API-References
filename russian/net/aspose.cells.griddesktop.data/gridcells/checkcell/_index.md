@@ -1,14 +1,14 @@
 ---
 title: CheckCell
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементCellили null в указанном индексе строки ячейки и индексе столбца.
+description: ПолучаетCell элемент или нуль в указанном индексе строки ячейки и индексе столбца.
 type: docs
 weight: 220
 url: /ru/net/aspose.cells.griddesktop.data/gridcells/checkcell/
 ---
 ## GridCells.CheckCell method
 
-Получает элементCellили null в указанном индексе строки ячейки и индексе столбца.
+ПолучаетCell элемент или нуль в указанном индексе строки ячейки и индексе столбца.
 
 ```csharp
 public GridCell CheckCell(int row, int column)
@@ -21,7 +21,7 @@ public GridCell CheckCell(int row, int column)
 
 ### Возвращаемое значение
 
-Возвращает объект GridCell, если объект Cell существует. Возвращает null, если ячейка не существует.
+Возвращает объект GridCell, если объект Cell существует. Возвращает значение null, если ячейка не существует.
 
 ### Смотрите также
 

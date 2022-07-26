@@ -1,14 +1,14 @@
 ---
 title: Style
 second_title: Aspose.Cells for .NET API 参考
-description: 表示这一行的样式
+description: 代表这一行的样式
 type: docs
 weight: 130
 url: /zh/net/aspose.cells/row/style/
 ---
 ## Row.Style property
 
-表示这一行的样式。
+代表这一行的样式。
 
 ```csharp
 public Style Style { get; }
@@ -16,7 +16,7 @@ public Style Style { get; }
 
 ### 评论
 
-您必须调用 Row.ApplyStyle() 方法以使用行样式保存更改， 否则它不会影响。
+您必须调用 Row.ApplyStyle() 方法来保存您对行样式的更改， 否则它不会生效。
 
 ### 也可以看看
 

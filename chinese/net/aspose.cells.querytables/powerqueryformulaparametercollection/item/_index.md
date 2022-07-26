@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 通过列表中的索引获取PowerQueryFormulaParameteraspose.cells.querytables/powerqueryformulaparameter
+description: 获取PowerQueryFormulaParameteraspose.cells.querytables/powerqueryformulaparameter按列表中的索引
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.querytables/powerqueryformulaparametercollection/item/
 ---
 ## PowerQueryFormulaParameterCollection indexer (1 of 2)
 
-通过列表中的索引获取[`PowerQueryFormulaParameter`](../../powerqueryformulaparameter)。
+获取[`PowerQueryFormulaParameter`](../../powerqueryformulaparameter)按列表中的索引。
 
 ```csharp
 public PowerQueryFormulaParameter this[int index] { get; }
@@ -16,7 +16,7 @@ public PowerQueryFormulaParameter this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引。 |
+| index | 指数。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public PowerQueryFormulaParameter this[int index] { get; }
 
 ## PowerQueryFormulaParameterCollection indexer (2 of 2)
 
-通过项目名称获取[`PowerQueryFormulaParameter`](../../powerqueryformulaparameter)。
+获取[`PowerQueryFormulaParameter`](../../powerqueryformulaparameter)按项目名称.
 
 ```csharp
 public PowerQueryFormulaParameter this[string name] { get; }

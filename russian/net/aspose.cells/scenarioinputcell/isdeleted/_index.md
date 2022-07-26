@@ -1,14 +1,14 @@
 ---
 title: IsDeleted
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает удалена ли входная ячейка.
+description: Указывает удалена ли ячейка ввода.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/scenarioinputcell/isdeleted/
 ---
 ## ScenarioInputCell.IsDeleted property
 
-Указывает, удалена ли входная ячейка.
+Указывает, удалена ли ячейка ввода.
 
 ```csharp
 public bool IsDeleted { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Ranges
 second_title: Aspose.Cells for .NET API 参考
-description: 获取运行时创建的Rangeaspose.cells/range对象的集合
+description: 获取集合Rangeaspose.cells/range在运行时创建的对象
 type: docs
 weight: 230
 url: /zh/net/aspose.cells/cells/ranges/
 ---
 ## Cells.Ranges property
 
-获取运行时创建的[`Range`](../../range)对象的集合。
+获取集合[`Range`](../../range)在运行时创建的对象。
 
 ```csharp
 public RangeCollection Ranges { get; }

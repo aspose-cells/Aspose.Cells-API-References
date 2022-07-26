@@ -1,14 +1,14 @@
 ---
 title: InitializeNewBindRowHandler
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет метод предназначенный для обработки события InitializeNewBindRow. отправительобъект рабочего листа. bindObjectНовый созданный объект привязки. Обычно это объект DataRowView.
+description: Представляет метод предназначенный для обработки события InitializeNewBindRow. sender объект рабочего листа. bindObject новый созданный объект привязки. Обычно это объект DataRowView.
 type: docs
 weight: 610
 url: /ru/net/aspose.cells.gridweb.data/initializenewbindrowhandler/
 ---
 ## InitializeNewBindRowHandler delegate
 
-Представляет метод, предназначенный для обработки события InitializeNewBindRow. отправитель:объект рабочего листа. bindObject:Новый созданный объект привязки. Обычно это объект DataRowView.
+Представляет метод, предназначенный для обработки события InitializeNewBindRow. sender: объект рабочего листа. bindObject: новый созданный объект привязки. Обычно это объект DataRowView.
 
 ```csharp
 public delegate void InitializeNewBindRowHandler(GridWorksheet sender, object bindObject);

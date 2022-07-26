@@ -19,7 +19,7 @@ public enum MsoDrawingType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Group | `0` | 组 |
-| Line | `1` | 行 |
+| Line | `1` | 线 |
 | Rectangle | `2` | 矩形 |
 | Oval | `3` | 椭圆形 |
 | Arc | `4` | 弧 |
@@ -29,24 +29,24 @@ public enum MsoDrawingType
 | Picture | `8` | 图片 |
 | Polygon | `9` | 多边形 |
 | CheckBox | `11` | 复选框 |
-| RadioButton | `12` | RadioButton |
+| RadioButton | `12` | 单选按钮 |
 | Label | `14` | 标签 |
 | DialogBox | `15` | 对话框 |
 | Spinner | `16` | 微调器 |
 | ScrollBar | `17` | 滚动条 |
 | ListBox | `18` | 列表框 |
-| GroupBox | `19` | GroupBox |
+| GroupBox | `19` | 组框 |
 | ComboBox | `20` | 组合框 |
 | Comment | `25` | 评论 |
 | OleObject | `24` | OleObject |
 | CellsDrawing | `30` | 仅用于保留模板文件中的绘图对象。 |
 | Unknown | `29` | 仅用于保存 xlsx 文件中的绘图对象。 |
-| Slicer | `31` | 切片器 |
+| Slicer | `31` | 切片机 |
 | WebExtension | `32` | 网络扩展 |
 | SmartArt | `33` | 智能艺术 |
-| CustomXml | `34` | 自定义 xml 形状，如 Ink。 |
+| CustomXml | `34` | 自定义 xml 形状，如 Ink. |
 | Timeline | `35` | 时间线 |
-| Model3D | `36` | 3D 模型 |
+| Model3D | `36` | 3D模型 |
 
 ### 也可以看看
 

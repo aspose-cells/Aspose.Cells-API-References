@@ -1,14 +1,14 @@
 ---
 title: FontConfigs
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает отдельные конфигурации шрифтов. Работает только дляWorkbookaspose.cells/workbookкоторый использует этотLoadOptionsaspose.cells/loadoptionsдля загрузки.gt
+description: Получает и устанавливает отдельные конфигурации шрифтов. Работает только дляWorkbookaspose.cells/workbook который использует этоLoadOptionsaspose.cells/loadoptions для загрузки.gt
 type: docs
 weight: 80
 url: /ru/net/aspose.cells/loadoptions/fontconfigs/
 ---
 ## LoadOptions.FontConfigs property
 
-Получает и устанавливает отдельные конфигурации шрифтов. Работает только для[`Workbook`](../../workbook)который использует этот[`LoadOptions`](../../loadoptions)для загрузки.&gt;
+Получает и устанавливает отдельные конфигурации шрифтов. Работает только для[`Workbook`](../../workbook) который использует это[`LoadOptions`](../../loadoptions) для загрузки.&gt;
 
 ```csharp
 public IndividualFontConfigs FontConfigs { get; set; }

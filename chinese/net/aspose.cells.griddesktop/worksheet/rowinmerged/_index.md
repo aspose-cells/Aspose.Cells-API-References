@@ -1,14 +1,14 @@
 ---
 title: RowInMerged
 second_title: Aspose.Cells for .NET API 参考
-description: 获取表示指定行是否合并的值
+description: 获取一个值该值指示是否合并中的指定行
 type: docs
 weight: 970
 url: /zh/net/aspose.cells.griddesktop/worksheet/rowinmerged/
 ---
 ## Worksheet.RowInMerged method
 
-获取表示指定行是否合并的值。
+获取一个值，该值指示是否合并中的指定行。
 
 ```csharp
 public bool RowInMerged(int index)

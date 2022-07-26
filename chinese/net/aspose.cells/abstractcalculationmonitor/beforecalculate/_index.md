@@ -1,14 +1,14 @@
 ---
 title: BeforeCalculate
 second_title: Aspose.Cells for .NET API 参考
-description: 实现这个方法在计算一个cell之前做生意
+description: 实现这个方法先做生意再计算一个cell
 type: docs
 weight: 50
 url: /zh/net/aspose.cells/abstractcalculationmonitor/beforecalculate/
 ---
 ## AbstractCalculationMonitor.BeforeCalculate method
 
-实现这个方法在计算一个cell之前做生意。
+实现这个方法先做生意再计算一个cell。
 
 ```csharp
 public virtual void BeforeCalculate(int sheetIndex, int rowIndex, int colIndex)

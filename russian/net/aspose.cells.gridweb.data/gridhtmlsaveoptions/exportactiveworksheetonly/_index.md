@@ -1,14 +1,14 @@
 ---
 title: ExportActiveWorksheetOnly
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает экспортируется ли вся книга в html-файл.
+description: Указывает экспортируется ли вся книга в файл html.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.gridweb.data/gridhtmlsaveoptions/exportactiveworksheetonly/
 ---
 ## GridHtmlSaveOptions.ExportActiveWorksheetOnly property
 
-Указывает, экспортируется ли вся книга в html-файл.
+Указывает, экспортируется ли вся книга в файл html.
 
 ```csharp
 public bool ExportActiveWorksheetOnly { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: SetPicture
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает изображение в верхний/нижний колонтитул рабочего листа.
+description: Устанавливает изображение в верхний/нижний колонтитул листа.
 type: docs
 weight: 640
 url: /ru/net/aspose.cells/pagesetup/setpicture/
 ---
 ## PageSetup.SetPicture method
 
-Устанавливает изображение в верхний/нижний колонтитул рабочего листа.
+Устанавливает изображение в верхний/нижний колонтитул листа.
 
 ```csharp
 public Picture SetPicture(bool isFirst, bool isEven, bool isHeader, int section, byte[] imageData)
@@ -19,12 +19,12 @@ public Picture SetPicture(bool isFirst, bool isEven, bool isHeader, int section,
 | isFirst | Boolean | Указывает, устанавливается ли изображение верхнего/нижнего колонтитула первой страницы. |
 | isEven | Boolean | Указывает, устанавливается ли изображение четного верхнего/нижнего колонтитула страницы. |
 | isHeader | Boolean | Указывает, устанавливается ли изображение верхнего/нижнего колонтитула. |
-| section | Int32 | 0:Левая секция. |
+| section | Int32 | 0: левая часть, 1: центральная часть, 2: правая часть. |
 | imageData | Byte[] | Данные изображения. |
 
 ### Возвращаемое значение
 
-Возвращает объект[`Picture`](../../../aspose.cells.drawing/picture).
+Возвращает[`Picture`](../../../aspose.cells.drawing/picture) объект.
 
 ### Смотрите также
 

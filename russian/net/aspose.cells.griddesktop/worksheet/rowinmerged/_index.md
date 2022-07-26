@@ -1,14 +1,14 @@
 ---
 title: RowInMerged
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает значение указывающее объединяется ли указанная строка.
+description: Получает значение указывающее объединяется ли указанная строка при слиянии.
 type: docs
 weight: 970
 url: /ru/net/aspose.cells.griddesktop/worksheet/rowinmerged/
 ---
 ## Worksheet.RowInMerged method
 
-Получает значение, указывающее, объединяется ли указанная строка.
+Получает значение, указывающее, объединяется ли указанная строка при слиянии.
 
 ```csharp
 public bool RowInMerged(int index)

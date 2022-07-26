@@ -1,14 +1,14 @@
 ---
 title: ForegroundCellsColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает передний планCellsColoraspose.cells/cellscolorобъект.
+description: Получает и устанавливает передний планCellsColoraspose.cells/cellscolor объект.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.drawing/patternfill/foregroundcellscolor/
 ---
 ## PatternFill.ForegroundCellsColor property
 
-Получает и устанавливает передний план[`CellsColor`](../../../aspose.cells/cellscolor)объект.
+Получает и устанавливает передний план[`CellsColor`](../../../aspose.cells/cellscolor) объект.
 
 ```csharp
 public CellsColor ForegroundCellsColor { get; set; }

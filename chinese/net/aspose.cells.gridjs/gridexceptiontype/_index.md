@@ -23,7 +23,7 @@ public enum GridExceptionType
 | DataValidation | `2` | 无效的数据验证设置。 |
 | ConditionalFormatting | `3` | 无效的数据验证设置。 |
 | FileFormat | `4` | 文件格式无效。 |
-| Formula | `5` | 公式无效。 |
+| Formula | `5` | 无效的公式。 |
 | InvalidData | `6` | 无效数据。 |
 | InvalidOperator | `7` | 无效的运算符。 |
 | IncorrectPassword | `8` | 密码错误。 |
@@ -35,11 +35,11 @@ public enum GridExceptionType
 | Sparkline | `14` | 无效的迷你图对象设置。 |
 | SheetName | `15` | 无效的工作表名称。 |
 | SheetType | `16` | 无效的工作表类型。 |
-| Interrupted | `17` | 进程中断。 |
+| Interrupted | `17` | 进程被中断。 |
 | IO | `18` | 文件无效。 |
-| Permission | `19` | 打开此文件需要权限。 |
+| Permission | `19` | 需要权限才能打开此文件。 |
 | UnsupportedFeature | `20` | 不支持的功能。 |
-| UnsupportedStream | `21` | 不支持打开的流。 |
+| UnsupportedStream | `21` | 要打开的流不受支持。 |
 | UndisclosedInformation | `22` | 文件包含一些未公开的信息。 |
 
 ### 也可以看看

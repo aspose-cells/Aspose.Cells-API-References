@@ -1,14 +1,14 @@
 ---
 title: Children
 second_title: Aspose.Cells for .NET API 参考
-description: 获取此段落中的所有文本 如果此段落为空则返回段落本身
+description: 获取此段落中运行的所有文本 如果此段落为空则返回段落本身
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.drawing.texts/textparagraph/children/
 ---
 ## TextParagraph.Children property
 
-获取此段落中的所有文本。 如果此段落为空，则返回段落本身。
+获取此段落中运行的所有文本。 如果此段落为空，则返回段落本身。
 
 ```csharp
 public FontSetting[] Children { get; }

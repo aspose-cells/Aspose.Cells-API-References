@@ -25,7 +25,7 @@ public enum OdsPageBackgroundGraphicPositionType
 | CenterCenter | `4` | Центр. |
 | CenterRight | `5` | В центре справа. |
 | BottomLeft | `6` | Внизу слева. |
-| BottomCenter | `7` | Внизу по центру. |
+| BottomCenter | `7` | Нижний центр. |
 | BottomRight | `8` | Внизу справа. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: GridCells
 second_title: Aspose.Cells for .NET API 参考
-description: 封装Cell对象的集合
+description: 封装了一个集合Cell对象.
 type: docs
 weight: 190
 url: /zh/net/aspose.cells.gridweb.data/gridcells/
 ---
 ## GridCells class
 
-封装Cell对象的集合。
+封装了一个集合Cell对象.
 
 ```csharp
 public class GridCells : IEnumerable
@@ -32,9 +32,9 @@ public class GridCells : IEnumerable
 | [MinDataColumn](../../aspose.cells.gridweb.data/gridcells/mindatacolumn) { get; } |  |
 | [MinDataRow](../../aspose.cells.gridweb.data/gridcells/mindatarow) { get; } |  |
 | [MinRow](../../aspose.cells.gridweb.data/gridcells/minrow) { get; } |  |
-| [RowEnumerator](../../aspose.cells.gridweb.data/gridcells/rowenumerator) { get; } | 获取行枚举器 |
+| [RowEnumerator](../../aspose.cells.gridweb.data/gridcells/rowenumerator) { get; } | 获取行 enumerator |
 | [Rows](../../aspose.cells.gridweb.data/gridcells/rows) { get; } |  |
-| [StandardHeight](../../aspose.cells.gridweb.data/gridcells/standardheight) { get; set; } | 获取或设置此工作表中的默认行高，以磅为单位。 |
+| [StandardHeight](../../aspose.cells.gridweb.data/gridcells/standardheight) { get; set; } | 获取或设置此工作表的默认行高，以点为单位。 |
 | [StandardHeightPixels](../../aspose.cells.gridweb.data/gridcells/standardheightpixels) { get; set; } | 获取或设置此工作表中的默认行高，以像素为单位。 |
 | [StandardWidth](../../aspose.cells.gridweb.data/gridcells/standardwidth) { get; set; } | 获取或设置工作表的默认列宽，以字符为单位。 |
 | [StandardWidthInch](../../aspose.cells.gridweb.data/gridcells/standardwidthinch) { get; set; } |  |
@@ -54,40 +54,40 @@ public class GridCells : IEnumerable
 | [CopyColumn](../../aspose.cells.gridweb.data/gridcells/copycolumn)(GridCells, int, int) | 复制整列的数据和格式。 |
 | [CopyColumns](../../aspose.cells.gridweb.data/gridcells/copycolumns)(GridCells, int, int, int) | 复制整列的数据和格式。 |
 | [CopyRow](../../aspose.cells.gridweb.data/gridcells/copyrow)(GridCells, int, int) | 复制整行的数据和格式。 |
-| [CopyRows](../../aspose.cells.gridweb.data/gridcells/copyrows)(GridCells, int, int, int) | 复制一些整行的数据和格式。 |
+| [CopyRows](../../aspose.cells.gridweb.data/gridcells/copyrows)(GridCells, int, int, int) | 复制某些整行的数据和格式。 |
 | [DeleteBlankColumns](../../aspose.cells.gridweb.data/gridcells/deleteblankcolumns)() | 删除所有不包含任何数据的空白列。 |
 | [DeleteBlankRows](../../aspose.cells.gridweb.data/gridcells/deleteblankrows)() | 删除所有不包含任何数据的空白行。 |
 | [DeleteColumn](../../aspose.cells.gridweb.data/gridcells/deletecolumn#deletecolumn)(int) | 删除一列。 |
 | [DeleteColumn](../../aspose.cells.gridweb.data/gridcells/deletecolumn#deletecolumn_1)(int, bool) | 删除一列。 |
 | [DeleteColumns](../../aspose.cells.gridweb.data/gridcells/deletecolumns)(int, int, bool) | 删除几列。 |
-| [DeleteRange](../../aspose.cells.gridweb.data/gridcells/deleterange)(int, int, int, int, GridShiftType) | 删除一系列单元格并根据 shift 选项移动单元格。 |
+| [DeleteRange](../../aspose.cells.gridweb.data/gridcells/deleterange)(int, int, int, int, GridShiftType) | 删除一系列单元格并根据移位选项移位单元格。 |
 | [DeleteRow](../../aspose.cells.gridweb.data/gridcells/deleterow)(int) | 删除一行。 |
 | [DeleteRows](../../aspose.cells.gridweb.data/gridcells/deleterows#deleterows)(int, int) | 删除几行。 |
 | [DeleteRows](../../aspose.cells.gridweb.data/gridcells/deleterows#deleterows_1)(int, int, bool) | 删除工作表中的多行。 |
 | [Export](../../aspose.cells.gridweb.data/gridcells/export)(int, int, int, int, bool, bool) | 将 WebWorksheet 的 Cells 集合中的数据导出到新的 DataTable 对象 |
-| [ExportArray](../../aspose.cells.gridweb.data/gridcells/exportarray)(int, int, int, int) | 将Cells集合中的数据导出到二维数组对象。 |
-| [GetCell](../../aspose.cells.gridweb.data/gridcells/getcell)(int, int) | 获取指定单元格行索引和列索引处的Cell元素或 null。 |
+| [ExportArray](../../aspose.cells.gridweb.data/gridcells/exportarray)(int, int, int, int) | 导出数据Cells集合到一个二维数组对象. |
+| [GetCell](../../aspose.cells.gridweb.data/gridcells/getcell)(int, int) | 获取Cell指定单元格行索引和列索引处的元素或空值。 |
 | [GetColumnWidth](../../aspose.cells.gridweb.data/gridcells/getcolumnwidth)(int) | 获取指定列的宽度 |
-| [GetColumnWidthInch](../../aspose.cells.gridweb.data/gridcells/getcolumnwidthinch)(int) | 获取指定列的宽度，单位为英寸。 |
+| [GetColumnWidthInch](../../aspose.cells.gridweb.data/gridcells/getcolumnwidthinch)(int) | 获取指定列的宽度，以英寸为单位。 |
 | [GetColumnWidthPixel](../../aspose.cells.gridweb.data/gridcells/getcolumnwidthpixel)(int) | 获取指定列的宽度，以像素为单位。 |
-| [GetEnumerator](../../aspose.cells.gridweb.data/gridcells/getenumerator)() | 获取行枚举器 |
-| [GetRow](../../aspose.cells.gridweb.data/gridcells/getrow)(int) | 获取Row元素或指定单元格行索引处。 |
+| [GetEnumerator](../../aspose.cells.gridweb.data/gridcells/getenumerator)() | 获取行 enumerator |
+| [GetRow](../../aspose.cells.gridweb.data/gridcells/getrow)(int) | 获取Row元素或在指定的单元格行索引处。 |
 | [GetRowHeight](../../aspose.cells.gridweb.data/gridcells/getrowheight)(int) | 获取指定行的高度。 |
-| [GetRowHeightInch](../../aspose.cells.gridweb.data/gridcells/getrowheightinch)(int) | 获取指定行的高度，以英寸为单位。 |
-| [GetRowHeightPixel](../../aspose.cells.gridweb.data/gridcells/getrowheightpixel)(int) | 获取指定行的高度，以像素为单位。 |
+| [GetRowHeightInch](../../aspose.cells.gridweb.data/gridcells/getrowheightinch)(int) | 以英寸为单位获取指定行的高度。 |
+| [GetRowHeightPixel](../../aspose.cells.gridweb.data/gridcells/getrowheightpixel)(int) | 以像素为单位获取指定行的高度。 |
 | [GetRowOutlineLevel](../../aspose.cells.gridweb.data/gridcells/getrowoutlinelevel)(int) | 获取行的大纲级别。 |
 | [GetViewColumnWidthPixel](../../aspose.cells.gridweb.data/gridcells/getviewcolumnwidthpixel)(int) | 获取不同视图类型的宽度。 |
-| [GroupColumns](../../aspose.cells.gridweb.data/gridcells/groupcolumns#groupcolumns)(int, int) | 分组列。 |
-| [GroupColumns](../../aspose.cells.gridweb.data/gridcells/groupcolumns#groupcolumns_1)(int, int, bool) | 分组列。 |
-| [GroupRows](../../aspose.cells.gridweb.data/gridcells/grouprows)(int, int) | 分组行。 |
-| [HideColumn](../../aspose.cells.gridweb.data/gridcells/hidecolumn)(int) | 隐藏列。 |
+| [GroupColumns](../../aspose.cells.gridweb.data/gridcells/groupcolumns#groupcolumns)(int, int) | 对列进行分组。 |
+| [GroupColumns](../../aspose.cells.gridweb.data/gridcells/groupcolumns#groupcolumns_1)(int, int, bool) | 对列进行分组。 |
+| [GroupRows](../../aspose.cells.gridweb.data/gridcells/grouprows)(int, int) | 对行进行分组。 |
+| [HideColumn](../../aspose.cells.gridweb.data/gridcells/hidecolumn)(int) | 隐藏一列。 |
 | [HideRow](../../aspose.cells.gridweb.data/gridcells/hiderow)(int) | 隐藏一行。 |
 | [InsertColumn](../../aspose.cells.gridweb.data/gridcells/insertcolumn#insertcolumn)(int) | 在工作表中插入一个新列。 |
 | [InsertColumn](../../aspose.cells.gridweb.data/gridcells/insertcolumn#insertcolumn_1)(int, bool) | 在工作表中插入一个新列。 |
 | [InsertColumns](../../aspose.cells.gridweb.data/gridcells/insertcolumns#insertcolumns)(int, int) | 在工作表中插入一些列。 |
 | [InsertColumns](../../aspose.cells.gridweb.data/gridcells/insertcolumns#insertcolumns_1)(int, int, bool) | 在工作表中插入一些列。 |
-| [InsertRange](../../aspose.cells.gridweb.data/gridcells/insertrange#insertrange)(GridCellArea, GridShiftType) | 插入一系列单元格并根据 shift 选项移动单元格。 |
-| [InsertRange](../../aspose.cells.gridweb.data/gridcells/insertrange#insertrange_1)(GridCellArea, int, GridShiftType, bool) | 插入一系列单元格并根据 shift 选项移动单元格。 |
+| [InsertRange](../../aspose.cells.gridweb.data/gridcells/insertrange#insertrange)(GridCellArea, GridShiftType) | 插入一系列单元格并根据移位选项移位单元格。 |
+| [InsertRange](../../aspose.cells.gridweb.data/gridcells/insertrange#insertrange_1)(GridCellArea, int, GridShiftType, bool) | 插入一系列单元格并根据移位选项移位单元格。 |
 | [InsertRow](../../aspose.cells.gridweb.data/gridcells/insertrow)(int) | 在工作表中插入一个新行。 |
 | [InsertRows](../../aspose.cells.gridweb.data/gridcells/insertrows#insertrows)(int, int) | 在工作表中插入多行。 |
 | [InsertRows](../../aspose.cells.gridweb.data/gridcells/insertrows#insertrows_1)(int, int, bool) | 在工作表中插入多行。 |
@@ -105,17 +105,17 @@ public class GridCells : IEnumerable
 | [SetRowHeightInch](../../aspose.cells.gridweb.data/gridcells/setrowheightinch)(int, double) | 以英寸为单位设置行高。 |
 | [SetRowHeightPixel](../../aspose.cells.gridweb.data/gridcells/setrowheightpixel)(int, int) | 以像素为单位设置行高。 |
 | [SetRowOutlineLevel](../../aspose.cells.gridweb.data/gridcells/setrowoutlinelevel)(int, int) | 设置行的大纲级别。 |
-| [SetStyle](../../aspose.cells.gridweb.data/gridcells/setstyle#setstyle_1)(string, GridTableItemStyle) | 将样式设置为指定的单元格范围。 |
-| [SetStyle](../../aspose.cells.gridweb.data/gridcells/setstyle#setstyle)(int, int, int, int, GridTableItemStyle) | 将样式设置为指定的单元格范围。 |
-| [Sort](../../aspose.cells.gridweb.data/gridcells/sort#sort)(int, int, int, int, int, bool, bool, bool) | 按指定的列索引对工作表范围内的数据从上到下进行升序/降序排序。 按指定的行索引对工作表范围内的数据从左到右进行升序/降序排序。 |
+| [SetStyle](../../aspose.cells.gridweb.data/gridcells/setstyle#setstyle_1)(string, GridTableItemStyle) | 将样式设置为指定范围的单元格。 |
+| [SetStyle](../../aspose.cells.gridweb.data/gridcells/setstyle#setstyle)(int, int, int, int, GridTableItemStyle) | 将样式设置为指定范围的单元格。 |
+| [Sort](../../aspose.cells.gridweb.data/gridcells/sort#sort)(int, int, int, int, int, bool, bool, bool) | 按指定列索引对工作表范围内的数据从上到下进行升序/降序排序。 按指定行索引对工作表范围内的数据从左到右升序/降序排序。 |
 | [Sort](../../aspose.cells.gridweb.data/gridcells/sort#sort_1)(int, int, int, int, int[], SortOrder[], SortOrientation, bool) |  |
-| [UngroupColumns](../../aspose.cells.gridweb.data/gridcells/ungroupcolumns)(int, int) | 取消分组列。 |
+| [UngroupColumns](../../aspose.cells.gridweb.data/gridcells/ungroupcolumns)(int, int) | 取消组合列。 |
 | [UngroupRows](../../aspose.cells.gridweb.data/gridcells/ungrouprows)(int, int) | 取消组合行。 |
 | [UnhideColumn](../../aspose.cells.gridweb.data/gridcells/unhidecolumn)(int, double) | 取消隐藏列 |
 | [UnhideRow](../../aspose.cells.gridweb.data/gridcells/unhiderow)(int) | 取消隐藏一行。 |
 | [UnMerge](../../aspose.cells.gridweb.data/gridcells/unmerge)(int, int, int, int) | 取消合并指定范围的合并单元格。 |
-| static [CellIndexToName](../../aspose.cells.gridweb.data/gridcells/cellindextoname)(int, int) | 根据行和列索引获取单元格名称。 |
-| static [CellNameToIndex](../../aspose.cells.gridweb.data/gridcells/cellnametoindex)(string, out int, out int) | 根据名称获取单元格行和列索引 |
+| static [CellIndexToName](../../aspose.cells.gridweb.data/gridcells/cellindextoname)(int, int) | 根据行列索引获取单元格名称。 |
+| static [CellNameToIndex](../../aspose.cells.gridweb.data/gridcells/cellnametoindex)(string, out int, out int) | 根据名称获取单元格行列索引 |
 | static [ColumnIndexToName](../../aspose.cells.gridweb.data/gridcells/columnindextoname)(int) | 根据列索引获取列名。 |
 | static [ColumnNameToIndex](../../aspose.cells.gridweb.data/gridcells/columnnametoindex)(string) | 根据列名获取列索引。 |
 

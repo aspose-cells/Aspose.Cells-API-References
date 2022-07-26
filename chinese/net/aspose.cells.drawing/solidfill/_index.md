@@ -18,9 +18,9 @@ public class SolidFill : Fill
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CellsColor](../../aspose.cells.drawing/solidfill/cellscolor) { get; set; } | 获取和设置[`CellsColor`](./cellscolor)对象。 |
-| [Color](../../aspose.cells.drawing/solidfill/color) { get; set; } | 获取或设置Color。 |
-| [Transparency](../../aspose.cells.drawing/solidfill/transparency) { get; set; } | 以从 0.0（不透明）到 1.0（透明）的值返回或设置区域的透明度。 |
+| [CellsColor](../../aspose.cells.drawing/solidfill/cellscolor) { get; set; } | 获取并设置[`CellsColor`](./cellscolor)对象. |
+| [Color](../../aspose.cells.drawing/solidfill/color) { get; set; } | 获取或设置Color. |
+| [Transparency](../../aspose.cells.drawing/solidfill/transparency) { get; set; } | 将区域的透明度返回或设置为从 0.0（不透明）到 1.0（透明）的值。 |
 
 ## 方法
 

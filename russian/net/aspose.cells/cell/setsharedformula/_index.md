@@ -1,14 +1,14 @@
 ---
 title: SetSharedFormula
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает формулу в диапазон ячеек.
+description: Задает формулу для диапазона ячеек.
 type: docs
 weight: 620
 url: /ru/net/aspose.cells/cell/setsharedformula/
 ---
 ## SetSharedFormula(string, int, int, FormulaParseOptions) {#setsharedformula_1}
 
-Устанавливает формулу в диапазон ячеек.
+Задает формулу для диапазона ячеек.
 
 ```csharp
 public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumber, 
@@ -20,7 +20,7 @@ public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumb
 | sharedFormula | String | Общая формула. |
 | rowNumber | Int32 | Количество строк для заполнения формулы. |
 | columnNumber | Int32 | Количество столбцов для заполнения формулы. |
-| options | FormulaParseOptions | Опции разбора формулы. |
+| options | FormulaParseOptions | Варианты разбора формулы. |
 
 ### Смотрите также
 
@@ -33,7 +33,7 @@ public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumb
 
 ## SetSharedFormula(string, int, int, FormulaParseOptions, object[][]) {#setsharedformula_2}
 
-Устанавливает формулу в диапазон ячеек.
+Задает формулу для диапазона ячеек.
 
 ```csharp
 public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumber, 
@@ -45,8 +45,8 @@ public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumb
 | sharedFormula | String | Общая формула. |
 | rowNumber | Int32 | Количество строк для заполнения формулы. |
 | columnNumber | Int32 | Количество столбцов для заполнения формулы. |
-| options | FormulaParseOptions | Опции разбора формулы. |
-| values | Object[][] | значения для тех ячеек с данной общей формулой |
+| options | FormulaParseOptions | Варианты разбора формулы. |
+| values | Object[][] | значения для тех ячеек с заданной общей формулой |
 
 ### Смотрите также
 
@@ -59,7 +59,7 @@ public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumb
 
 ## SetSharedFormula(string, int, int) {#setsharedformula}
 
-Устанавливает формулу в диапазон ячеек.
+Задает формулу для диапазона ячеек.
 
 ```csharp
 public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumber)

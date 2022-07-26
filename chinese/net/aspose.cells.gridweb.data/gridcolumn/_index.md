@@ -19,7 +19,7 @@ public class GridColumn
 | 姓名 | 描述 |
 | --- | --- |
 | [Caption](../../aspose.cells.gridweb.data/gridcolumn/caption) { get; set; } |  |
-| [Hidden](../../aspose.cells.gridweb.data/gridcolumn/hidden) { get; set; } | 表示列是否隐藏。 |
+| [Hidden](../../aspose.cells.gridweb.data/gridcolumn/hidden) { get; set; } | 表示该列是否隐藏。 |
 | [Index](../../aspose.cells.gridweb.data/gridcolumn/index) { get; } | 获取该列的索引。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: Glow
 second_title: Aspose.Cells for .NET API 参考
-description: 表示对象该对象指定图表元素或形状的发光效果
+description: 代表一个为图表元素或形状指定发光效果的对象
 type: docs
 weight: 130
 url: /zh/net/aspose.cells.drawing/shape/glow/
 ---
 ## Shape.Glow property
 
-表示对象，该对象指定图表元素或形状的发光效果。
+代表一个为图表元素或形状指定发光效果的对象。
 
 ```csharp
 public GlowEffect Glow { get; }

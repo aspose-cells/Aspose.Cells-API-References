@@ -1,14 +1,14 @@
 ---
 title: ProviderId
 second_title: Aspose.Cells for .NET API 参考
-description: 获取提供者的 ID
+description: 获取提供者的id
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/threadedcommentauthor/providerid/
 ---
 ## ThreadedCommentAuthor.ProviderId property
 
-获取提供者的 ID。
+获取提供者的id。
 
 ```csharp
 public string ProviderId { get; set; }

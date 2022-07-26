@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Cells for .NET API 参考
-description: 获取行枚举器
+description: 获取行 enumerator
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.gridweb.data/gridshapecollection/getenumerator/
 ---
 ## GridShapeCollection.GetEnumerator method
 
-获取行枚举器
+获取行 enumerator
 
 ```csharp
 public IEnumerator GetEnumerator()

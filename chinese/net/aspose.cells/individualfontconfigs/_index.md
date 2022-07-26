@@ -1,14 +1,14 @@
 ---
 title: IndividualFontConfigs
 second_title: Aspose.Cells for .NET API 参考
-description: 每个Workbook./workbook对象的字体配置
+description: 每个字体配置Workbook./workbook对象.
 type: docs
 weight: 3890
 url: /zh/net/aspose.cells/individualfontconfigs/
 ---
 ## IndividualFontConfigs class
 
-每个[`Workbook`](../workbook)对象的字体配置。
+每个字体配置[`Workbook`](../workbook)对象.
 
 ```csharp
 public class IndividualFontConfigs
@@ -18,7 +18,7 @@ public class IndividualFontConfigs
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IndividualFontConfigs](individualfontconfigs)() | 克托尔。 |
+| [IndividualFontConfigs](individualfontconfigs)() | 克托尔. |
 
 ## 方法
 

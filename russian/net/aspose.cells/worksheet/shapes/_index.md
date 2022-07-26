@@ -1,14 +1,14 @@
 ---
 title: Shapes
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает все фигуры на этом рабочем листе.
+description: Возвращает все фигуры чертежа на этом листе.
 type: docs
 weight: 410
 url: /ru/net/aspose.cells/worksheet/shapes/
 ---
 ## Worksheet.Shapes property
 
-Возвращает все фигуры на этом рабочем листе.
+Возвращает все фигуры чертежа на этом листе.
 
 ```csharp
 public ShapeCollection Shapes { get; }

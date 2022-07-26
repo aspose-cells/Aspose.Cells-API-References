@@ -17,7 +17,7 @@ public void MoveRange(GridCellArea sourceArea, int destRow, int destColumn)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sourceArea | GridCellArea | 应该移动的范围。 |
-| destRow | Int32 | dest 行。 |
+| destRow | Int32 | 最末行。 |
 | destColumn | Int32 | dest 列。 |
 
 ### 也可以看看

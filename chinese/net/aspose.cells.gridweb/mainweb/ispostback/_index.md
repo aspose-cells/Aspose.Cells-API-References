@@ -1,14 +1,14 @@
 ---
 title: IsPostBack
 second_title: Aspose.Cells for .NET API 参考
-description: 获取一个值该值指示是否正在加载 gridweb 以响应客户端回发 还是第一次加载和访问它.
+description: 获取一个值该值指示是否正在加载 gridweb 以响应客户端回发 还是第一次加载和访问它
 type: docs
 weight: 440
 url: /zh/net/aspose.cells.gridweb/mainweb/ispostback/
 ---
 ## MainWeb.IsPostBack property
 
-获取一个值，该值指示是否正在加载 gridweb 以响应客户端回发， 还是第一次加载和访问它.
+获取一个值，该值指示是否正在加载 gridweb 以响应客户端回发， 还是第一次加载和访问它。
 
 ```csharp
 public bool IsPostBack { get; }

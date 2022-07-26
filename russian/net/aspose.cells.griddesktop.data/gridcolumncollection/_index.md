@@ -19,13 +19,13 @@ public class GridColumnCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.cells.griddesktop.data/gridcolumncollection/count) { get; } |  |
-| [Item](../../aspose.cells.griddesktop.data/gridcolumncollection/item) { get; } | Получает объектпо индексу столбца. Объект Column данного индекса столбца будет создан, если он не существовал ранее. |
+| [Item](../../aspose.cells.griddesktop.data/gridcolumncollection/item) { get; } | Получает объект по индексу столбца. Будет создан экземпляр объекта столбца с заданным индексом столбца, если он не существовал ранее. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetColumnByIndex](../../aspose.cells.griddesktop.data/gridcolumncollection/getcolumnbyindex)(int) | Получает объектColumnпо позиции в списке. |
+| [GetColumnByIndex](../../aspose.cells.griddesktop.data/gridcolumncollection/getcolumnbyindex)(int) | ПолучаетColumnобъект по позиции в списке. |
 | [GetEnumerator](../../aspose.cells.griddesktop.data/gridcolumncollection/getenumerator)() | Получает перечислитель строк |
 
 ### Смотрите также

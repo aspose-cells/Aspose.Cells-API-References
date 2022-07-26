@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定索引处的Rangeaspose.cells/range元素
+description: 获取Rangeaspose.cells/range指定索引处的元素
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/rangecollection/item/
 ---
 ## RangeCollection indexer
 
-获取指定索引处的[`Range`](../../range)元素。
+获取[`Range`](../../range)指定索引处的元素。
 
 ```csharp
 public Range this[int index] { get; }

@@ -18,7 +18,7 @@ public class FolderFontSource : FontSourceBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FolderFontSource](folderfontsource)(string, bool) | 克托尔。 |
+| [FolderFontSource](folderfontsource)(string, bool) | 克托尔. |
 
 ## 特性
 

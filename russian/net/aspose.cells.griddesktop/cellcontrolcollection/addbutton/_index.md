@@ -24,7 +24,7 @@ public Button AddButton(int row, int col, int width, int height, string text)
 
 ### Возвращаемое значение
 
-Добавлена кнопка.
+Добавленная кнопка.
 
 ### Смотрите также
 
@@ -52,7 +52,7 @@ public Button AddButton(string cellName, int width, int height, string text)
 
 ### Возвращаемое значение
 
-Добавлена кнопка.
+Добавленная кнопка.
 
 ### Смотрите также
 
@@ -82,7 +82,7 @@ public Button AddButton(int row, int col, int width, int height, string text, bo
 
 ### Возвращаемое значение
 
-Добавлена кнопка.
+Добавленная кнопка.
 
 ### Смотрите также
 
@@ -111,7 +111,7 @@ public Button AddButton(string cellName, int width, int height, string text, boo
 
 ### Возвращаемое значение
 
-Добавлена кнопка.
+Добавленная кнопка.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: SortLeftToRight
 second_title: Справочник по Aspose.Cells для .NET API
-description: True означает что сортировка осуществляется слева направо. False означает что сортировка осуществляется сверху вниз. Значение по умолчанию  false.
+description: True означает что сортировка выполняется слева направо. False означает что сортировка выполняется сверху вниз. Значение по умолчанию  false.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells/datasorter/sortlefttoright/
 ---
 ## DataSorter.SortLeftToRight property
 
-True означает, что сортировка осуществляется слева направо. False означает, что сортировка осуществляется сверху вниз. Значение по умолчанию — false.
+True означает, что сортировка выполняется слева направо. False означает, что сортировка выполняется сверху вниз. Значение по умолчанию — false.
 
 ```csharp
 public bool SortLeftToRight { get; set; }

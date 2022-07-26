@@ -16,7 +16,7 @@ public TickLabelItem[] TickLabelItems { get; }
 
 ### Примечания
 
-Существует только после вызова[`Calculate`](../../chart/calculate)метод.
+существует только после вызова[`Calculate`](../../chart/calculate) метод.
 
 ### Смотрите также
 

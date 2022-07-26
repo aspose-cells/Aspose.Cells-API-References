@@ -1,14 +1,14 @@
 ---
 title: CheckBoxCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示工作表中CheckBox./checkbox对象的集合
+description: 代表一个集合CheckBox./checkbox工作表中的对象
 type: docs
 weight: 1870
 url: /zh/net/aspose.cells.drawing/checkboxcollection/
 ---
 ## CheckBoxCollection class
 
-表示工作表中[`CheckBox`](../checkbox)对象的集合。
+代表一个集合[`CheckBox`](../checkbox)工作表中的对象。
 
 ```csharp
 public class CheckBoxCollection : CollectionBase<CheckBox>
@@ -20,7 +20,7 @@ public class CheckBoxCollection : CollectionBase<CheckBox>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.drawing/checkboxcollection/item) { get; } | 获取指定索引处的[`CheckBox`](../checkbox)元素。 |
+| [Item](../../aspose.cells.drawing/checkboxcollection/item) { get; } | 获取[`CheckBox`](../checkbox)指定索引处的元素。 |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法
@@ -60,10 +60,10 @@ public class CheckBoxCollection : CollectionBase<CheckBox>
 ```csharp
 [C#]
 
- //创建一个新的工作簿.
+//创建一个新的工作簿。
 Workbook workbook = new Workbook();
 
- //获取工作簿中的第一个工作表。
+//获取工作簿中的第一个工作表。
 Worksheet sheet = workbook.Worksheets[0];
 
 int index = sheet.CheckBoxes.Add(15, 15, 20, 100);
@@ -73,7 +73,7 @@ checkBox.Text = "Check Box 1";
 
 [Visual Basic]
 
-'创建一个新的工作簿.
+'创建一个新的工作簿。
 Dim workbook As Workbook = new Workbook()
 
 '获取工作簿中的第一个工作表。

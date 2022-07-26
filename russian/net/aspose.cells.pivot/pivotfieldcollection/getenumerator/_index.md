@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает перечислитель по элементам в этой коллекции в правильной последовательности.
+description: Получает перечислитель элементов в этой коллекции в правильной последовательности.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.pivot/pivotfieldcollection/getenumerator/
 ---
 ## PivotFieldCollection.GetEnumerator method
 
-Получает перечислитель по элементам в этой коллекции в правильной последовательности.
+Получает перечислитель элементов в этой коллекции в правильной последовательности.
 
 ```csharp
 public IEnumerator GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator GetEnumerator()
 
 ### Возвращаемое значение
 
-перечислитель
+нумератор
 
 ### Смотрите также
 

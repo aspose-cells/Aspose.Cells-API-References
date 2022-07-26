@@ -1,14 +1,14 @@
 ---
 title: FocusedCellChanged
 second_title: Aspose.Cells for .NET API 参考
-description: 当焦点单元格改变时发生
+description: 在焦点单元格更改时发生
 type: docs
 weight: 560
 url: /zh/net/aspose.cells.griddesktop/griddesktop/focusedcellchanged/
 ---
 ## GridDesktop.FocusedCellChanged event
 
-当焦点单元格改变时发生。
+在焦点单元格更改时发生。
 
 ```csharp
 public event CellEventHandler FocusedCellChanged;

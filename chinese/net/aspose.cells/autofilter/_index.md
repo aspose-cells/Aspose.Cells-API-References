@@ -18,8 +18,8 @@ public class AutoFilter
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FilterColumns](../../aspose.cells/autofilter/filtercolumns) { get; } | 获取筛选列的集合。 |
-| [Range](../../aspose.cells/autofilter/range) { get; set; } | 表示指定自动筛选适用的范围。 |
+| [FilterColumns](../../aspose.cells/autofilter/filtercolumns) { get; } | 获取过滤列的集合。 |
+| [Range](../../aspose.cells/autofilter/range) { get; set; } | 表示应用指定自动筛选的范围。 |
 | [ShowFilterButton](../../aspose.cells/autofilter/showfilterbutton) { get; set; } | 指示此列的自动筛选按钮是否可见。 |
 | [Sorter](../../aspose.cells/autofilter/sorter) { get; } | 获取数据排序器。 |
 
@@ -37,7 +37,7 @@ public class AutoFilter
 | [DynamicFilter](../../aspose.cells/autofilter/dynamicfilter)(int, DynamicFilterType) | 添加动态过滤器。 |
 | [Filter](../../aspose.cells/autofilter/filter)(int, string) | 过滤具有指定条件的列表。 |
 | [FilterTop10](../../aspose.cells/autofilter/filtertop10)(int, bool, bool, int) | 过滤列表中的前 10 项 |
-| [GetCellArea](../../aspose.cells/autofilter/getcellarea)() | 获取[`CellArea`](../cellarea)应用指定自动筛选的位置。 |
+| [GetCellArea](../../aspose.cells/autofilter/getcellarea)() | 获取[`CellArea`](../cellarea)指定的自动筛选适用于. |
 | [MatchBlanks](../../aspose.cells/autofilter/matchblanks)(int) | 匹配列表中的所有空白单元格。 |
 | [MatchNonBlanks](../../aspose.cells/autofilter/matchnonblanks)(int) | 匹配列表中所有非空白单元格。 |
 | [Refresh](../../aspose.cells/autofilter/refresh#refresh)() | 刷新自动过滤器以隐藏或取消隐藏行。 |
@@ -45,7 +45,7 @@ public class AutoFilter
 | [RemoveDateFilter](../../aspose.cells/autofilter/removedatefilter)(int, DateTimeGroupingType, int, int, int, int, int, int) | 删除日期过滤器。 |
 | [RemoveFilter](../../aspose.cells/autofilter/removefilter#removefilter)(int) | 移除特定过滤器。 |
 | [RemoveFilter](../../aspose.cells/autofilter/removefilter#removefilter_1)(int, string) | 删除过滤器列的过滤器。 |
-| [SetRange](../../aspose.cells/autofilter/setrange)(int, int, int) | 设置指定自动筛选应用的范围。 |
+| [SetRange](../../aspose.cells/autofilter/setrange)(int, int, int) | 设置应用指定自动筛选的范围。 |
 | [ShowAll](../../aspose.cells/autofilter/showall)() | 取消隐藏所有行。 |
 
 ### 例子
@@ -55,30 +55,29 @@ public class AutoFilter
 [C#]
 
 //创建一个包含要打开的Excel文件的文件流
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook("template.xlsx");
- //访问Excel文件中的第一个工作表
+//访问Excel文件中的第一个工作表
 Worksheet worksheet = workbook.Worksheets[0];
- //通过给出标题行
-选
+//通过给出标题行的单元格范围来创建自动筛选
 worksheet.AutoFilter.Range = "A1:B1";
 //过滤指定值的列
 worksheet.AutoFilter.Filter(1, "Bananas");
- //保存修改后的Excel文件.
+//保存修改后的Excel文件。
 workbook.Save("output.xls");
 
 [Visual Basic]
    
-//创建包含要打开的 Excel 文件的文件流
-//实例化工作簿对象
+'创建包含要打开的 Excel 文件的文件流
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook("template.xlsx")
-//访问 Excel 文件中的第一个工作表
+'访问 Excel 文件中的第一个工作表
 Dim worksheet As Worksheet = workbook.Worksheets(0)
-//通过给出标题行的单元格范围来创建自动筛选
+'通过给出标题行的单元格范围来创建自动筛选
 worksheet.AutoFilter.Range = "A1:B1"
-//过滤具有指定值的列
+'过滤具有指定值的列
 Worksheet.AutoFilter.Filter(1, "Bananas")
-//保存修改后的 Excel 文件 
+'保存修改后的 Excel 文件 
 workbook.Save("output.xls")
 ```
 

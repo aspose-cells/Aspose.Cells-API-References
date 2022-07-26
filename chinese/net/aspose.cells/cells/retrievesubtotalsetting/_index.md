@@ -3,7 +3,7 @@ title: RetrieveSubtotalSetting
 second_title: Aspose.Cells for .NET API 参考
 description: 检索范围的小计设置
 type: docs
-weight: 1210
+weight: 1220
 url: /zh/net/aspose.cells/cells/retrievesubtotalsetting/
 ---
 ## Cells.RetrieveSubtotalSetting method

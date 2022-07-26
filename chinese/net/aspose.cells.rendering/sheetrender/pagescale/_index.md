@@ -1,14 +1,14 @@
 ---
 title: PageScale
 second_title: Aspose.Cells for .NET API 参考
-description: 获取工作表的计算页面比例 如果设置了Zoomaspose.cells/pagesetup/zoom则返回设置的比例否则根据FitToPagesWideaspose.cells/pagesetup/fittopageswide和FitToPagesTallaspose.cells/pagesetup/fittopagestall返回计算的比例
+description: 获取工作表的计算页面比例 返回设置的比例如果Zoomaspose.cells/pagesetup/zoom已设置否则根据FitToPagesWideaspose.cells/pagesetup/fittopageswide和FitToPagesTallaspose.cells/pagesetup/fittopagestall.
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.rendering/sheetrender/pagescale/
 ---
 ## SheetRender.PageScale property
 
-获取工作表的计算页面比例。 如果设置了[`Zoom`](../../../aspose.cells/pagesetup/zoom)则返回设置的比例。否则，根据[`FitToPagesWide`](../../../aspose.cells/pagesetup/fittopageswide)和[`FitToPagesTall`](../../../aspose.cells/pagesetup/fittopagestall)返回计算的比例。
+获取工作表的计算页面比例。 返回设置的比例，如果[`Zoom`](../../../aspose.cells/pagesetup/zoom)已设置。否则，根据[`FitToPagesWide`](../../../aspose.cells/pagesetup/fittopageswide)和[`FitToPagesTall`](../../../aspose.cells/pagesetup/fittopagestall).
 
 ```csharp
 public double PageScale { get; }
@@ -21,7 +21,7 @@ Workbook wb = new Workbook("Book1.xlsx");
 
 SheetRender sheetRender = new SheetRender(wb.Worksheets[0], new ImageOrPrintOptions());
 
- //获取工作表的计算页面比例。
+//获取工作表的计算页面比例。
 double pageScale = sheetRender.PageScale;
 ```
 

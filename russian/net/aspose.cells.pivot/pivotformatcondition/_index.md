@@ -18,9 +18,9 @@ public class PivotFormatCondition
 
 | Имя | Описание |
 | --- | --- |
-| [FormatConditions](../../aspose.cells.pivot/pivotformatcondition/formatconditions) { get; } | Получить formatconditions для формата условия сводной таблицы. |
-| [RuleType](../../aspose.cells.pivot/pivotformatcondition/ruletype) { get; set; } | Получить и установить тип правила для формата условия сводной таблицы. |
-| [ScopeType](../../aspose.cells.pivot/pivotformatcondition/scopetype) { get; set; } | Получить и установить тип области для формата условий сводной таблицы. |
+| [FormatConditions](../../aspose.cells.pivot/pivotformatcondition/formatconditions) { get; } | Получить условия формата для формата условий сводной таблицы . |
+| [RuleType](../../aspose.cells.pivot/pivotformatcondition/ruletype) { get; set; } | Получить и установить тип правила для формата условия сводной таблицы . |
+| [ScopeType](../../aspose.cells.pivot/pivotformatcondition/scopetype) { get; set; } | Получить и установить тип области для формата условия сводной таблицы . |
 
 ## Методы
 
@@ -83,7 +83,7 @@ pivot.AddFieldToArea(PivotFieldType.Data, "amount");
 
 pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
 
-  //Добавить PivotFormatCondition
+//Добавить PivotFormatCondition
 int formatIndex = pivot.PivotFormatConditions.Add();
 PivotFormatCondition pfc = pivot.PivotFormatConditions[formatIndex];
 FormatConditionCollection fcc = pfc.FormatConditions;
@@ -97,7 +97,7 @@ fc.Style.BackgroundColor = Color.Red;
 pivot.RefreshData();
 pivot.CalculateData();
 
-  //делай свое дело
+//делай свое дело
 
 book.Save("out.xlsx");
 
@@ -146,7 +146,7 @@ Pivot.AddFieldToArea(PivotFieldType.Data, "amount")
 
 pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10
 
-'Добавлять PivotFormatCondition
+'Добавить PivotFormatCondition
 Dim formatIndex As Int32 = pivot.PivotFormatConditions.Add()
 Dim pfc As PivotFormatCondition = pivot.PivotFormatConditions(formatIndex)
 Dim fcc As FormatConditionCollection = pfc.FormatConditions

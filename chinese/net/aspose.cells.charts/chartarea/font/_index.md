@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定图表区域对象的Fontaspose.cells.charts/chartarea/font对象
+description: 得到一个Fontaspose.cells.charts/chartarea/font指定图表区域对象的对象
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.charts/chartarea/font/
 ---
 ## ChartArea.Font property
 
-获取指定图表区域对象的`Font`对象。
+得到一个`Font`指定图表区域对象的对象。
 
 ```csharp
 public override Font Font { get; }

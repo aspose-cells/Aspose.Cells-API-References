@@ -1,14 +1,14 @@
 ---
 title: Title
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает заголовок заголовок текущего объекта формы.
+description: Указывает заголовок заголовок текущего объекта формы.
 type: docs
 weight: 760
 url: /ru/net/aspose.cells.drawing/shape/title/
 ---
 ## Shape.Title property
 
-Задает заголовок (заголовок) текущего объекта формы.
+Указывает заголовок (заголовок) текущего объекта формы.
 
 ```csharp
 public string Title { get; set; }

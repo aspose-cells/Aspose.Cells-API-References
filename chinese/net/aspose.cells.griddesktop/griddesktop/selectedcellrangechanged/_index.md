@@ -1,14 +1,14 @@
 ---
 title: SelectedCellRangeChanged
 second_title: Aspose.Cells for .NET API 参考
-description: 在选定单元格范围更改时发生
+description: 在选定的单元格范围更改时发生
 type: docs
 weight: 610
 url: /zh/net/aspose.cells.griddesktop/griddesktop/selectedcellrangechanged/
 ---
 ## GridDesktop.SelectedCellRangeChanged event
 
-在选定单元格范围更改时发生。
+在选定的单元格范围更改时发生。
 
 ```csharp
 public event CellRangeEventHandler SelectedCellRangeChanged;

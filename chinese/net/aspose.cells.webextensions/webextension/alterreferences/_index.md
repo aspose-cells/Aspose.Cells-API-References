@@ -1,14 +1,14 @@
 ---
 title: AlterReferences
 second_title: Aspose.Cells for .NET API 参考
-description: 获取变更引用列表
+description: 获取更改引用列表
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.webextensions/webextension/alterreferences/
 ---
 ## WebExtension.AlterReferences property
 
-获取变更引用列表。
+获取更改引用列表。
 
 ```csharp
 public WebExtensionReferenceCollection AlterReferences { get; }

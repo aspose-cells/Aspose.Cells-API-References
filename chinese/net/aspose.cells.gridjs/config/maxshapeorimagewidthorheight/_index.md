@@ -1,14 +1,14 @@
 ---
 title: MaxShapeOrImageWidthOrHeight
 second_title: Aspose.Cells for .NET API 参考
-description: 设置/获取形状/图像的最大宽度或高度GridJs将忽略宽度或高度大于此的形状/图像当IslimitShapestrue
+description: 设置/获取形状/图像的最大宽度或高度GridJs 将忽略宽度或高度大于此的形状/图像当 IslimitShapestrue 时会受到影响
 type: docs
 weight: 100
 url: /zh/net/aspose.cells.gridjs/config/maxshapeorimagewidthorheight/
 ---
 ## Config.MaxShapeOrImageWidthOrHeight property
 
-设置/获取形状/图像的最大宽度或高度，GridJs将忽略宽度或高度大于此的形状/图像，当IslimitShapes=true
+设置/获取形状/图像的最大宽度或高度，GridJs 将忽略宽度或高度大于此的形状/图像，当 IslimitShapes=true 时会受到影响
 
 ```csharp
 public static int MaxShapeOrImageWidthOrHeight { get; set; }

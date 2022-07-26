@@ -1,14 +1,14 @@
 ---
 title: CrossType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示CrossTypeaspose.cells.charts/axis/crosstype在另一个轴相交的指定轴上
+description: 代表CrossTypeaspose.cells.charts/axis/crosstype在另一个轴相交的指定轴上
 type: docs
 weight: 90
 url: /zh/net/aspose.cells.charts/axis/crosstype/
 ---
 ## Axis.CrossType property
 
-表示`CrossType`在另一个轴相交的指定轴上。
+代表`CrossType`在另一个轴相交的指定轴上。
 
 ```csharp
 public CrossType CrossType { get; set; }

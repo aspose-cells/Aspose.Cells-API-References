@@ -25,14 +25,14 @@ public class GridWorkbookSettings
 | 姓名 | 描述 |
 | --- | --- |
 | [Author](../../aspose.cells.gridjs/gridworkbooksettings/author) { get; set; } | 获取和设置文件的作者。 |
-| [CheckCustomNumberFormat](../../aspose.cells.gridjs/gridworkbooksettings/checkcustomnumberformat) { get; set; } | 表示设置 Style.Custom 时是否检查自定义数字格式。 |
+| [CheckCustomNumberFormat](../../aspose.cells.gridjs/gridworkbooksettings/checkcustomnumberformat) { get; set; } | 设置Style.Custom. 时是否检查自定义数字格式 |
 | [CreateCalcChain](../../aspose.cells.gridjs/gridworkbooksettings/createcalcchain) { get; set; } | 表示是否创建计算公式链。默认为假。 |
 | [Date1904](../../aspose.cells.gridjs/gridworkbooksettings/date1904) { get; set; } | 获取或设置一个值，该值表示工作簿是否使用 1904 日期系统。 |
 | [EnableMacros](../../aspose.cells.gridjs/gridworkbooksettings/enablemacros) { get; set; } | 启用宏；现在它仅在将工作表复制到工作簿中的其他工作表时才有效。 |
-| [ForceFullCalculate](../../aspose.cells.gridjs/gridworkbooksettings/forcefullcalculate) { get; set; } | 每次触发计算时是否完全计算。 |
-| [Iteration](../../aspose.cells.gridjs/gridworkbooksettings/iteration) { get; set; } | 表示是否使用迭代来解析循环引用。 |
-| [MaxIteration](../../aspose.cells.gridjs/gridworkbooksettings/maxiteration) { get; set; } | 返回或设置解析循环引用的最大迭代次数，默认值为 100。 |
-| [PrecisionAsDisplayed](../../aspose.cells.gridjs/gridworkbooksettings/precisionasdisplayed) { get; set; } | 如果此工作簿中的计算将仅使用显示时的数字精度完成，则为真 |
+| [ForceFullCalculate](../../aspose.cells.gridjs/gridworkbooksettings/forcefullcalculate) { get; set; } | 表示每次触发计算时是否完全计算。 |
+| [Iteration](../../aspose.cells.gridjs/gridworkbooksettings/iteration) { get; set; } | 表示是否使用迭代来解决循环引用。 |
+| [MaxIteration](../../aspose.cells.gridjs/gridworkbooksettings/maxiteration) { get; set; } | 返回或设置解析循环引用的最大迭代次数，默认值为100. |
+| [PrecisionAsDisplayed](../../aspose.cells.gridjs/gridworkbooksettings/precisionasdisplayed) { get; set; } | 如果本工作簿中的计算仅使用所显示数字的精度来完成，则为真 |
 | [ReCalculateOnOpen](../../aspose.cells.gridjs/gridworkbooksettings/recalculateonopen) { get; set; } | 表示是否在打开文件时重新计算所有公式。 |
 
 ### 例子
@@ -45,7 +45,7 @@ GridJsWorkbook g = new GridJsWorkbook();
 GridWorkbookSettings gsettings = new GridWorkbookSettings();
 g.Settings=gsettings;
 
- //做你的事
+//做你的事
 
 [Visual Basic]
 Dim g as GridJsWorkbook = new GridJsWorkbook()

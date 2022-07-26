@@ -1,14 +1,14 @@
 ---
 title: Rotation
 second_title: Aspose.Cells for .NET API 参考
-description: 表示文字旋转角度
+description: 代表文字旋转角度
 type: docs
 weight: 120
 url: /zh/net/aspose.cells.griddesktop/style/rotation/
 ---
 ## Style.Rotation property
 
-表示文字旋转角度。
+代表文字旋转角度。
 
 ```csharp
 public int Rotation { get; set; }
@@ -16,13 +16,13 @@ public int Rotation { get; set; }
 
 ### 评论
 
-0:未旋转。
+0：不旋转。
 
-255:从上到下。
+255：从上到下。
 
--90:向下。
+-90：向下。
 
-90:向上。
+90：向上
 
 您可以设置 255 或范围从 -90 到 90 的值。
 

@@ -1,14 +1,14 @@
 ---
 title: MetadataOptions
 second_title: Справочник по Aspose.Cells для .NET API
-description: Создает опции загрузки метаданных.
+description: Создает возможность загрузки метаданных.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.metadata/metadataoptions/metadataoptions/
 ---
 ## MetadataOptions constructor
 
-Создает опции загрузки метаданных.
+Создает возможность загрузки метаданных.
 
 ```csharp
 public MetadataOptions(MetadataType metadataType)

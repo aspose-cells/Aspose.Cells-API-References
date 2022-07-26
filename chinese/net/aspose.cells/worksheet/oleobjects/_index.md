@@ -1,14 +1,14 @@
 ---
 title: OleObjects
 second_title: Aspose.Cells for .NET API 参考
-description: 表示工作表中OleObjectaspose.cells.drawing/oleobject的集合
+description: 代表一个集合OleObjectaspose.cells.drawing/oleobject在工作表中
 type: docs
 weight: 320
 url: /zh/net/aspose.cells/worksheet/oleobjects/
 ---
 ## Worksheet.OleObjects property
 
-表示工作表中[`OleObject`](../../../aspose.cells.drawing/oleobject)的集合。
+代表一个集合[`OleObject`](../../../aspose.cells.drawing/oleobject)在工作表中。
 
 ```csharp
 public OleObjectCollection OleObjects { get; }

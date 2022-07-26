@@ -20,7 +20,7 @@ public static string ColumnIndexToName(int column)
 
 ### 返回值
 
-列名。
+列的名称。
 
 ### 也可以看看
 

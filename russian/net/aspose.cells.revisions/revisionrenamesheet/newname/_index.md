@@ -1,14 +1,14 @@
 ---
 title: NewName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает новое имя листа.
+description: Получает новое имя рабочего листа.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.revisions/revisionrenamesheet/newname/
 ---
 ## RevisionRenameSheet.NewName property
 
-Получает новое имя листа.
+Получает новое имя рабочего листа.
 
 ```csharp
 public string NewName { get; }

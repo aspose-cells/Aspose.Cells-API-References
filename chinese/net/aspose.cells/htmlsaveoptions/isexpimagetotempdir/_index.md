@@ -1,14 +1,14 @@
 ---
 title: IsExpImageToTempDir
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否将图像文件导出到临时目录 仅用于保存到 html 流
+description: 表示是否将图片文件导出到临时目录 仅用于保存到html流
 type: docs
-weight: 360
+weight: 380
 url: /zh/net/aspose.cells/htmlsaveoptions/isexpimagetotempdir/
 ---
 ## HtmlSaveOptions.IsExpImageToTempDir property
 
-表示是否将图像文件导出到临时目录。 仅用于保存到 html 流。
+表示是否将图片文件导出到临时目录。 仅用于保存到html流。
 
 ```csharp
 public bool IsExpImageToTempDir { get; set; }

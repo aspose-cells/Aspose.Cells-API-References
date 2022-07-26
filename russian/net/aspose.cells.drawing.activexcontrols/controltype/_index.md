@@ -19,15 +19,15 @@ public enum ControlType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | CommandButton | `0` | Кнопка |
-| ComboBox | `1` | ComboBox |
+| ComboBox | `1` | Поле со списком |
 | CheckBox | `2` | Флажок |
 | ListBox | `3` | ListBox |
-| TextBox | `4` | TextBox |
+| TextBox | `4` | Текстовое поле |
 | SpinButton | `5` | Спиннер |
-| RadioButton | `6` | RadioButton |
-| Label | `7` | Метка |
+| RadioButton | `6` | Радиокнопка |
+| Label | `7` | Этикетка |
 | Image | `8` | Изображение |
-| ToggleButton | `9` | ToggleButton |
+| ToggleButton | `9` | Переключатель |
 | ScrollBar | `10` | Полоса прокрутки |
 | Unknown | `11` | Неизвестно |
 

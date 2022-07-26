@@ -21,8 +21,8 @@ public enum SubtotalFunction
 | AVERAGE | `1` | 平均 |
 | COUNT | `2` | 计算数字单元格。 |
 | COUNTA | `3` | 计算非空单元格 |
-| MAX | `4` | Max |
-| MIN | `5` | Min |
+| MAX | `4` | 最大 |
+| MIN | `5` | 最小 |
 | PRODUCT | `6` | 产品 |
 | SUM | `9` | 总和 |
 

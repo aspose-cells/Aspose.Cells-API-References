@@ -1,14 +1,14 @@
 ---
 title: SheetRender
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет визуализацию рабочего листа который может отображать рабочий лист в различные изображения такие как BMP PNG JPEG TIFF.. Конструктор этого class  должен использоваться после модификации pagesetup стиля ячейки.
+description: Представляет визуализацию рабочего листа который может отображать рабочий лист в различные изображения такие как BMP PNG JPEG TIFF.. Конструктор этого класса должен использоваться после модификации pagesetup стиля ячейки.
 type: docs
 weight: 5260
 url: /ru/net/aspose.cells.rendering/sheetrender/
 ---
 ## SheetRender class
 
-Представляет визуализацию рабочего листа, который может отображать рабочий лист в различные изображения, такие как (BMP, PNG, JPEG, TIFF..) Конструктор этого class , должен использоваться после модификации pagesetup, стиля ячейки.
+Представляет визуализацию рабочего листа, который может отображать рабочий лист в различные изображения, такие как (BMP, PNG, JPEG, TIFF..) Конструктор этого класса должен использоваться после модификации pagesetup, стиля ячейки.
 
 ```csharp
 public class SheetRender
@@ -18,26 +18,26 @@ public class SheetRender
 
 | Имя | Описание |
 | --- | --- |
-| [SheetRender](sheetrender)(Worksheet, ImageOrPrintOptions) | конструкция SheetRender, нужен рабочий лист и ImageOrPrintOptions в качестве параметров |
+| [SheetRender](sheetrender)(Worksheet, ImageOrPrintOptions) | конструкция SheetRender, нужен рабочий лист и ImageOrPrintOptions как params |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [PageCount](../../aspose.cells.rendering/sheetrender/pagecount) { get; } | Получает общее количество страниц текущего рабочего листа. |
-| [PageScale](../../aspose.cells.rendering/sheetrender/pagescale) { get; } | Получает рассчитанный масштаб страницы листа. Возвращает установленный масштаб, если[`Zoom`](../../aspose.cells/pagesetup/zoom)установлен. В противном случае возвращает рассчитанный масштаб в соответствии с[`FitToPagesWide`](../../aspose.cells/pagesetup/fittopageswide)и[`FitToPagesTall`](../../aspose.cells/pagesetup/fittopagestall). |
+| [PageScale](../../aspose.cells.rendering/sheetrender/pagescale) { get; } | Получает рассчитанный масштаб страницы листа. Возвращает установленный масштаб, если[`Zoom`](../../aspose.cells/pagesetup/zoom) установлен. В противном случае возвращает рассчитанный масштаб в соответствии с[`FitToPagesWide`](../../aspose.cells/pagesetup/fittopageswide) а также[`FitToPagesTall`](../../aspose.cells/pagesetup/fittopagestall) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CustomPrint](../../aspose.cells.rendering/sheetrender/customprint)(bool, PrintPageEventArgs) | Клиент может управлять настройками страницы принтера при печати каждой страницы с помощью этой функции. |
-| [GetPageSizeInch](../../aspose.cells.rendering/sheetrender/getpagesizeinch)(int) | Получить размер страницы выходного изображения в дюймах. |
-| [ToImage](../../aspose.cells.rendering/sheetrender/toimage#toimage)(int) | Рендеринг определенной страницы в объект Bitmap. |
-| [ToImage](../../aspose.cells.rendering/sheetrender/toimage#toimage_3)(int, Stream) | Рендерить определенную страницу в поток. |
-| [ToImage](../../aspose.cells.rendering/sheetrender/toimage#toimage_4)(int, string) | Рендерит определенную страницу в файл. |
-| [ToImage](../../aspose.cells.rendering/sheetrender/toimage#toimage_1)(int, Graphics, float, float) | Визуализация определенной страницы в графику |
-| [ToImage](../../aspose.cells.rendering/sheetrender/toimage#toimage_2)(int, Graphics, float, float, float, float) | Визуализация определенной страницы в графику |
+| [CustomPrint](../../aspose.cells.rendering/sheetrender/customprint)(bool, PrintPageEventArgs) | Клиент может управлять настройкой страницы принтера при печати каждой страницы с помощью этой функции. |
+| [GetPageSizeInch](../../aspose.cells.rendering/sheetrender/getpagesizeinch)(int) | Получить размер страницы в дюймах выходного изображения. |
+| [ToImage](../../aspose.cells.rendering/sheetrender/toimage#toimage)(int) | Визуализация определенной страницы в объект Bitmap. |
+| [ToImage](../../aspose.cells.rendering/sheetrender/toimage#toimage_3)(int, Stream) | Визуализация определенной страницы в поток. |
+| [ToImage](../../aspose.cells.rendering/sheetrender/toimage#toimage_4)(int, string) | Визуализация определенной страницы в файл. |
+| [ToImage](../../aspose.cells.rendering/sheetrender/toimage#toimage_1)(int, Graphics, float, float) | Визуализация определенной страницы в Graphics |
+| [ToImage](../../aspose.cells.rendering/sheetrender/toimage#toimage_2)(int, Graphics, float, float, float, float) | Визуализация определенной страницы в Graphics |
 | [ToPrinter](../../aspose.cells.rendering/sheetrender/toprinter#toprinter)(PrinterSettings) | Рендеринг рабочего листа на принтер |
 | [ToPrinter](../../aspose.cells.rendering/sheetrender/toprinter#toprinter_2)(string) | Рендеринг рабочего листа на принтер |
 | [ToPrinter](../../aspose.cells.rendering/sheetrender/toprinter#toprinter_1)(PrinterSettings, string) | Рендеринг рабочего листа на принтер |

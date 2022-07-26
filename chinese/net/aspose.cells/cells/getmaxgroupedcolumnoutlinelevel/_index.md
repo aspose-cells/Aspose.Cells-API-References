@@ -3,7 +3,7 @@ title: GetMaxGroupedColumnOutlineLevel
 second_title: Aspose.Cells for .NET API 参考
 description: 获取最大分组列大纲级别从零开始
 type: docs
-weight: 750
+weight: 760
 url: /zh/net/aspose.cells/cells/getmaxgroupedcolumnoutlinelevel/
 ---
 ## Cells.GetMaxGroupedColumnOutlineLevel method

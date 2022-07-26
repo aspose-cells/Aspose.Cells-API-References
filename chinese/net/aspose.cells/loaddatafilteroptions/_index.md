@@ -18,28 +18,28 @@ public enum LoadDataFilterOptions
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 不加载工作表数据 |
+| None | `0` | 不为工作表数据加载任何内容 |
 | All | `2147483647` | 加载所有 |
-| CellBlank | `1` | 值为空的称重传感器 |
-| CellString | `2` | 称重值为字符串 |
-| CellNumeric | `4` | 称重值为数值的单元格（包括日期时间） |
-| CellError | `8` | 称重传感器值为错误 |
-| CellBool | `16` | 值为 bool |
+| CellBlank | `1` | 值为空白的称重传感器 |
+| CellString | `2` | 值为string 的称重传感器 |
+| CellNumeric | `4` | 值为数值的称重传感器（包括日期时间） |
+| CellError | `8` | 值为error 的称重传感器 |
+| CellBool | `16` | 值为 bool 的称重传感器 |
 | CellValue | `31` | 仅称重传感器值（所有值类型） |
-| Formula | `32` | 加载单元格公式。 |
-| CellData | `67108927` | 加载单元格数据，包括值、公式和格式 |
+| Formula | `32` | 称重传感器公式。 |
+| CellData | `67108927` | 称重单元数据，包括值、公式和格式 |
 | Chart | `256` | 加载图表 |
 | Shape | `402653696` | 加载形状 |
 | Drawing | `402653952` | 绘图对象（包括图表、图片、OleObject 和所有其他绘图对象） |
-| MergedArea | `1024` | 加载合并单元格 |
+| MergedArea | `1024` | 加载合并的单元格 |
 | ConditionalFormatting | `2048` | 加载条件格式 |
 | DataValidation | `4096` | 加载数据验证 |
 | PivotTable | `8192` | 加载数据透视表 |
 | Table | `16384` | 加载表 |
 | Hyperlinks | `32768` | 加载超链接 |
-| SheetSettings | `65536` | 加载工作表设置 |
-| SheetData | `403701759` | 加载工作表的所有数据，如单元格数据、设置、对象等。 |
-| BookSettings | `1048576` | 加载工作簿设置 |
+| SheetSettings | `65536` | 加载工作表的设置 |
+| SheetData | `403701759` | 加载工作表的所有数据，例如单元格数据、设置、对象等。 |
+| BookSettings | `1048576` | 加载工作簿的设置 |
 | Settings | `1114112` | 加载工作簿和工作表的设置 |
 | XmlMap | `2097152` | 加载 XmlMap |
 | Structure | `4194304` | 加载工作簿的结构 |

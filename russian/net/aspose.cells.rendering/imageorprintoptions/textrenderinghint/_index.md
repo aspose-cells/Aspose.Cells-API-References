@@ -1,14 +1,14 @@
 ---
 title: TextRenderingHint
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает качество рендеринга текста. Значение по умолчанию  TextRenderingHint.SystemDefault
+description: Определяет качество рендеринга текста. Значение по умолчанию  TextRenderingHint.SystemDefault
 type: docs
 weight: 310
 url: /ru/net/aspose.cells.rendering/imageorprintoptions/textrenderinghint/
 ---
 ## ImageOrPrintOptions.TextRenderingHint property
 
-Указывает качество рендеринга текста. Значение по умолчанию — TextRenderingHint.SystemDefault
+Определяет качество рендеринга текста. Значение по умолчанию — TextRenderingHint.SystemDefault
 
 ```csharp
 public TextRenderingHint TextRenderingHint { get; set; }

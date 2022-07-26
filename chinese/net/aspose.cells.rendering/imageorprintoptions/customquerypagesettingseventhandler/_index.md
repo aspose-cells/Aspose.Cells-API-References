@@ -1,14 +1,14 @@
 ---
 title: CustomQueryPageSettingsEventHandler
 second_title: Aspose.Cells for .NET API 参考
-description: 客户端可以在使用此事件处理程序打印每一页时控制打印机的页面设置
+description: 客户端可以在使用此EventHandler 打印每一页时控制打印机的页面设置
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.rendering/imageorprintoptions/customquerypagesettingseventhandler/
 ---
 ## ImageOrPrintOptions.CustomQueryPageSettingsEventHandler property
 
-客户端可以在使用此事件处理程序打印每一页时控制打印机的页面设置
+客户端可以在使用此EventHandler 打印每一页时控制打印机的页面设置
 
 ```csharp
 public QueryPageSettingsEventHandler CustomQueryPageSettingsEventHandler { get; set; }

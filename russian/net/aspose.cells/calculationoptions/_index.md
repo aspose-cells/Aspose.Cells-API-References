@@ -1,14 +1,14 @@
 ---
 title: CalculationOptions
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет варианты расчета.
+description: Представляет параметры для расчета.
 type: docs
 weight: 210
 url: /ru/net/aspose.cells/calculationoptions/
 ---
 ## CalculationOptions class
 
-Представляет варианты расчета.
+Представляет параметры для расчета.
 
 ```csharp
 public class CalculationOptions
@@ -24,12 +24,12 @@ public class CalculationOptions
 
 | Имя | Описание |
 | --- | --- |
-| [CalcStackSize](../../aspose.cells/calculationoptions/calcstacksize) { get; set; } | Указывает размер стека для рекурсивного вычисления ячеек. |
+| [CalcStackSize](../../aspose.cells/calculationoptions/calcstacksize) { get; set; } | Задает размер стека для рекурсивного вычисления ячеек. |
 | [CalculationMonitor](../../aspose.cells/calculationoptions/calculationmonitor) { get; set; } | Монитор для отслеживания пользователем хода вычисления формулы. |
 | [CustomEngine](../../aspose.cells/calculationoptions/customengine) { get; set; } | Механизм расчета пользовательских формул для расширения механизма расчета по умолчанию Aspose.Cells. |
-| [IgnoreError](../../aspose.cells/calculationoptions/ignoreerror) { get; set; } | Указывает, нужно ли скрыть ошибку при вычислении формул. Ошибка может быть неподдерживаемой функцией, внешними ссылками и т.п. |
-| [PrecisionStrategy](../../aspose.cells/calculationoptions/precisionstrategy) { get; set; } | Задает стратегию обработки точности вычисления. |
-| [Recursive](../../aspose.cells/calculationoptions/recursive) { get; set; } | Указывает, вычислять ли зависимые ячейки рекурсивно при вычислении одной ячейки и зависит ли это от других ячеек. |
+| [IgnoreError](../../aspose.cells/calculationoptions/ignoreerror) { get; set; } | Указывает, нужно ли скрыть ошибку при вычислении формул. Ошибка может быть связана с неподдерживаемой функцией, внешними ссылками и т. д. |
+| [PrecisionStrategy](../../aspose.cells/calculationoptions/precisionstrategy) { get; set; } | Задает стратегию обработки точности расчета. |
+| [Recursive](../../aspose.cells/calculationoptions/recursive) { get; set; } | Указывает, вычисляются ли зависимые ячейки рекурсивно при вычислении одной ячейки и зависят ли они от других ячеек. |
 
 ### Смотрите также
 

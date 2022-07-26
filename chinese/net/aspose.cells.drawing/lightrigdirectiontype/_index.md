@@ -20,12 +20,12 @@ public enum LightRigDirectionType
 | --- | --- | --- |
 | Bottom | `0` | 底部 |
 | BottomLeft | `1` | 左下角。 |
-| BottomRight | `2` | 右下角。 |
+| BottomRight | `2` | 右下角. |
 | Left | `3` | 左。 |
 | Right | `4` | 对。 |
-| Top | `5` | 顶部。 |
+| Top | `5` | 顶部. |
 | TopLeft | `6` | 左上角。 |
-| TopRight | `7` | 右上角。 |
+| TopRight | `7` | 右上角. |
 
 ### 也可以看看
 

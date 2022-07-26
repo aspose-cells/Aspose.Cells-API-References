@@ -43,7 +43,7 @@ public void Insert(int index)
 
 ### 返回值
 
-添加返回工作表对象。
+添加了返回工作表对象。
 
 ### 也可以看看
 

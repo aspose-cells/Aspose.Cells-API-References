@@ -1,14 +1,14 @@
 ---
 title: Marker
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получаетmarkeraspose.cells.charts/series/marker .
+description: Получаетмаркерaspose.cells.charts/series/marker .
 type: docs
 weight: 290
 url: /ru/net/aspose.cells.charts/series/marker/
 ---
 ## Series.Marker property
 
-Получает`marker` .
+Получает`маркер` .
 
 ```csharp
 public Marker Marker { get; }

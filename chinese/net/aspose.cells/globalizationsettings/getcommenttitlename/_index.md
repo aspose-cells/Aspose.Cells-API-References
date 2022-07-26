@@ -1,14 +1,14 @@
 ---
 title: GetCommentTitleName
 second_title: Aspose.Cells for .NET API 参考
-description: 根据评论标题类型获取与语言环境相关的评论标题名称
+description: 根据评论标题类型获取依赖语言环境的评论标题名称
 type: docs
 weight: 90
 url: /zh/net/aspose.cells/globalizationsettings/getcommenttitlename/
 ---
 ## GlobalizationSettings.GetCommentTitleName method
 
-根据评论标题类型获取与语言环境相关的评论标题名称。
+根据评论标题类型获取依赖语言环境的评论标题名称。
 
 ```csharp
 public virtual string GetCommentTitleName(CommentTitleType type)

@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает название Range. Это используется как дескриптор а не как определение именованного диапазона.
+description: Получает заголовок Range. Используется как дескриптор а не как определение именованного диапазона.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/protectedrange/name/
 ---
 ## ProtectedRange.Name property
 
-Получает название Range. Это используется как дескриптор, а не как определение именованного диапазона.
+Получает заголовок Range. Используется как дескриптор, а не как определение именованного диапазона.
 
 ```csharp
 public string Name { get; set; }

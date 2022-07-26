@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет новый кэш сводной таблицы в коллекцию сводных кешей.
+description: Добавляет новый кэш сводной таблицы в коллекцию PivotCaches.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.pivot/pivottablecollection/add/
 ---
 ## Add(string, string, string) {#add_4}
 
-Добавляет новый кэш сводной таблицы в коллекцию сводных кешей.
+Добавляет новый кэш сводной таблицы в коллекцию PivotCaches.
 
 ```csharp
 public int Add(string sourceData, string destCellName, string tableName)
@@ -22,7 +22,7 @@ public int Add(string sourceData, string destCellName, string tableName)
 
 ### Возвращаемое значение
 
-Новый добавленный индекс кэша.
+Новый добавленный кеш-индекс.
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public int Add(string sourceData, string destCellName, string tableName)
 
 ## Add(string, string, string, bool) {#add_5}
 
-Добавляет новый кэш сводной таблицы в коллекцию сводных кешей.
+Добавляет новый кэш сводной таблицы в коллекцию PivotCaches.
 
 ```csharp
 public int Add(string sourceData, string destCellName, string tableName, bool useSameSource)
@@ -45,11 +45,11 @@ public int Add(string sourceData, string destCellName, string tableName, bool us
 | sourceData | String | Данные для нового кэша сводной таблицы. |
 | destCellName | String | Ячейка в верхнем левом углу диапазона назначения отчета сводной таблицы. |
 | tableName | String | Имя нового отчета сводной таблицы. |
-| useSameSource | Boolean | Указывает, используется ли тот же источник данных, когда другая существующая сводная таблица использовала этот источник данных. Если свойство истинно, оно сэкономит память. |
+| useSameSource | Boolean | Указывает, используется ли тот же источник данных, когда другая существующая сводная таблица использовала этот источник данных. Если свойство имеет значение true, оно будет экономить память. |
 
 ### Возвращаемое значение
 
-Новый добавленный индекс кэша.
+Новый добавленный кеш-индекс.
 
 ### Смотрите также
 
@@ -61,7 +61,7 @@ public int Add(string sourceData, string destCellName, string tableName, bool us
 
 ## Add(string, int, int, string) {#add_2}
 
-Добавляет новый кэш сводной таблицы в коллекцию сводных кешей.
+Добавляет новый кэш сводной таблицы в коллекцию PivotCaches.
 
 ```csharp
 public int Add(string sourceData, int row, int column, string tableName)
@@ -69,14 +69,14 @@ public int Add(string sourceData, int row, int column, string tableName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sourceData | String | Диапазон ячеек данных для новой сводной таблицы. Пример:Sheet1!A1:C8 |
+| sourceData | String | Диапазон ячеек данных для новой сводной таблицы. Пример: Sheet1!A1:C8. |
 | row | Int32 | Индекс строки ячейки в верхнем левом углу диапазона назначения отчета сводной таблицы. |
-| column | Int32 | Индекс столбца ячейки в левом верхнем углу диапазона назначения отчета сводной таблицы. |
+| column | Int32 | Индекс столбца ячейки в верхнем левом углу диапазона назначения отчета сводной таблицы. |
 | tableName | String | Имя нового отчета сводной таблицы. |
 
 ### Возвращаемое значение
 
-Новый добавленный индекс кэша.
+Новый добавленный кеш-индекс.
 
 ### Смотрите также
 
@@ -88,7 +88,7 @@ public int Add(string sourceData, int row, int column, string tableName)
 
 ## Add(string, int, int, string, bool) {#add_3}
 
-Добавляет новый кэш сводной таблицы в коллекцию сводных кешей.
+Добавляет новый кэш сводной таблицы в коллекцию PivotCaches.
 
 ```csharp
 public int Add(string sourceData, int row, int column, string tableName, bool useSameSource)
@@ -96,15 +96,15 @@ public int Add(string sourceData, int row, int column, string tableName, bool us
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sourceData | String | Диапазон ячеек данных для новой сводной таблицы. Пример:Sheet1!A1:C8 |
+| sourceData | String | Диапазон ячеек данных для новой сводной таблицы. Пример: Sheet1!A1:C8. |
 | row | Int32 | Индекс строки ячейки в верхнем левом углу диапазона назначения отчета сводной таблицы. |
-| column | Int32 | Индекс столбца ячейки в левом верхнем углу диапазона назначения отчета сводной таблицы. |
+| column | Int32 | Индекс столбца ячейки в верхнем левом углу диапазона назначения отчета сводной таблицы. |
 | tableName | String | Имя нового отчета сводной таблицы. |
-| useSameSource | Boolean | Указывает, используется ли тот же источник данных, когда другая существующая сводная таблица использовала этот источник данных. Если свойство истинно, оно сэкономит память. |
+| useSameSource | Boolean | Указывает, используется ли тот же источник данных, когда другая существующая сводная таблица использовала этот источник данных. Если свойство имеет значение true, оно будет экономить память. |
 
 ### Возвращаемое значение
 
-Новый добавленный индекс кэша.
+Новый добавленный кеш-индекс.
 
 ### Смотрите также
 
@@ -153,7 +153,7 @@ public int Add(PivotTable pivotTable, int row, int column, string tableName)
 | --- | --- | --- |
 | pivotTable | PivotTable | Исходная сводная таблица. |
 | row | Int32 | Индекс строки ячейки в верхнем левом углу диапазона назначения отчета сводной таблицы. |
-| column | Int32 | Индекс столбца ячейки в левом верхнем углу диапазона назначения отчета сводной таблицы. |
+| column | Int32 | Индекс столбца ячейки в верхнем левом углу диапазона назначения отчета сводной таблицы. |
 | tableName | String | Имя нового отчета сводной таблицы. |
 
 ### Возвращаемое значение
@@ -181,7 +181,7 @@ public int Add(string[] sourceData, bool isAutoPage, PivotPageFields pageFields,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceData | String[] | Несколько диапазонов консолидации, например {"Лист1!A1:C8","Лист2!A1:B8"} |
-| isAutoPage | Boolean | Будет ли автоматически создаваться одностраничное поле. Если true, следующие параметры pageFields будут игнорироваться. |
+| isAutoPage | Boolean | Будет ли автоматически создаваться одно поле страницы. Если true, следующие параметры pageFields будут игнорироваться. |
 | pageFields | PivotPageFields | Элементы поля сводной страницы. |
 | destCellName | String | destCellName Имя нового отчета сводной таблицы. |
 | tableName | String | имя нового отчета сводной таблицы. |
@@ -211,10 +211,10 @@ public int Add(string[] sourceData, bool isAutoPage, PivotPageFields pageFields,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceData | String[] | Несколько диапазонов консолидации, например {"Лист1!A1:C8","Лист2!A1:B8"} |
-| isAutoPage | Boolean | Будет ли автоматически создаваться одностраничное поле. Если true, следующий параметр pageFields будет игнорироваться |
+| isAutoPage | Boolean | Будет ли автоматически создаваться одно поле страницы. Если true, следующие параметры pageFields будут игнорироваться. |
 | pageFields | PivotPageFields | Элементы поля сводной страницы. |
 | row | Int32 | Индекс строки ячейки в верхнем левом углу диапазона назначения отчета сводной таблицы. |
-| column | Int32 | Индекс столбца ячейки в левом верхнем углу диапазона назначения отчета сводной таблицы. |
+| column | Int32 | Индекс столбца ячейки в верхнем левом углу диапазона назначения отчета сводной таблицы. |
 | tableName | String | Имя нового отчета сводной таблицы. |
 
 ### Возвращаемое значение

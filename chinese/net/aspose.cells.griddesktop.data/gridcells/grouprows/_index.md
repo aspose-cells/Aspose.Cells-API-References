@@ -1,14 +1,14 @@
 ---
 title: GroupRows
 second_title: Aspose.Cells for .NET API 参考
-description: 分组行
+description: 对行进行分组
 type: docs
 weight: 500
 url: /zh/net/aspose.cells.griddesktop.data/gridcells/grouprows/
 ---
 ## GridCells.GroupRows method
 
-分组行。
+对行进行分组。
 
 ```csharp
 public void GroupRows(int firstIndex, int lastIndex)

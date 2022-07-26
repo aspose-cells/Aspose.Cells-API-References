@@ -1,14 +1,14 @@
 ---
 title: AutomaticFill
 second_title: Aspose.Cells for .NET API 参考
-description: 表示自动填充
+description: 代表自动填充
 type: docs
 weight: 1780
 url: /zh/net/aspose.cells.drawing/automaticfill/
 ---
 ## AutomaticFill class
 
-表示自动填充。
+代表自动填充。
 
 ```csharp
 public class AutomaticFill : Fill

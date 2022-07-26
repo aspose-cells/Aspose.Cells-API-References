@@ -17,7 +17,7 @@ public void ClearRange(int startRow, int startColumn, int endRow, int endColumn)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | startRow | Int32 | Индекс начальной строки. |
-| startColumn | Int32 | Индекс начального столбца. |
+| startColumn | Int32 | Начальный индекс столбца. |
 | endRow | Int32 | Индекс конечной строки. |
 | endColumn | Int32 | Конечный индекс столбца. |
 
@@ -39,7 +39,7 @@ public void ClearRange(GridCellArea range)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| range | GridCellArea | Диапазон для очистки. |
+| range | GridCellArea | Диапазон, который нужно очистить. |
 
 ### Смотрите также
 

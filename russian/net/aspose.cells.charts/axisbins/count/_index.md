@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или устанавливает количество интервалов оси
+description: Получает или устанавливает количество осей bins
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.charts/axisbins/count/
 ---
 ## AxisBins.Count property
 
-Получает или устанавливает количество интервалов оси
+Получает или устанавливает количество осей bins
 
 ```csharp
 public int Count { get; set; }

@@ -20,7 +20,7 @@ public class WebExtensionTaskPaneCollection : CollectionBase<WebExtensionTaskPan
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.webextensions/webextensiontaskpanecollection/item) { get; } | Получает панель задач по заданному индексу. |
+| [Item](../../aspose.cells.webextensions/webextensiontaskpanecollection/item) { get; } | Получает панель задач по определенному индексу. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы

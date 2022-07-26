@@ -16,7 +16,7 @@ public string Text { get; }
 
 ### 评论
 
-仅对 HeaderFooterCommandType.Text 有效。
+仅对 HeaderFooterCommandType.Text. 有效
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементVerticalPageBreakaspose.cells/verticalpagebreakпо указанному индексу.
+description: ПолучаетVerticalPageBreakaspose.cells/verticalpagebreak элемент по указанному индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/verticalpagebreakcollection/item/
 ---
 ## VerticalPageBreakCollection indexer (1 of 2)
 
-Получает элемент[`VerticalPageBreak`](../../verticalpagebreak)по указанному индексу.
+Получает[`VerticalPageBreak`](../../verticalpagebreak) элемент по указанному индексу.
 
 ```csharp
 public VerticalPageBreak this[int index] { get; }
@@ -33,7 +33,7 @@ public VerticalPageBreak this[int index] { get; }
 
 ## VerticalPageBreakCollection indexer (2 of 2)
 
-Получает элемент[`VerticalPageBreak`](../../verticalpagebreak)с указанным именем ячейки.
+Получает[`VerticalPageBreak`](../../verticalpagebreak) элемент с указанным именем ячейки.
 
 ```csharp
 public VerticalPageBreak this[string cellName] { get; }

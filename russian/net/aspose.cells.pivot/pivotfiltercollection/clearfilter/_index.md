@@ -1,14 +1,14 @@
 ---
 title: ClearFilter
 second_title: Справочник по Aspose.Cells для .NET API
-description: Очистить PivotFilter от определенного PivotField
+description: Очистить PivotFilter из определенного PivotField
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.pivot/pivotfiltercollection/clearfilter/
 ---
 ## PivotFilterCollection.ClearFilter method
 
-Очистить PivotFilter от определенного PivotField
+Очистить PivotFilter из определенного PivotField
 
 ```csharp
 public void ClearFilter(int fieldIndex)
@@ -16,7 +16,7 @@ public void ClearFilter(int fieldIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldIndex | Int32 | индекса PivotField |
+| fieldIndex | Int32 | индекс PivotField |
 
 ### Смотрите также
 

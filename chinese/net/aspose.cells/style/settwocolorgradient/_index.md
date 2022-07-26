@@ -19,7 +19,7 @@ public void SetTwoColorGradient(Color color1, Color color2, GradientStyleType gr
 | --- | --- | --- |
 | color1 | Color | 一种渐变色。 |
 | color2 | Color | 两种渐变色。 |
-| gradientStyleType | GradientStyleType | 渐变着色样式。 |
+| gradientStyleType | GradientStyleType | 渐变阴影样式。 |
 | variant | Int32 | 渐变变体。可以是 1 到 4 之间的值，对应于“填充效果”对话框中“渐变”选项卡上的四个变体之一。如果 style 是 GradientStyle.FromCenter，则 Variant 参数只能是 1 或 2。 |
 
 ### 也可以看看

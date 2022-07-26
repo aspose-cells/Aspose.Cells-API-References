@@ -1,14 +1,14 @@
 ---
 title: GridPivotField
 second_title: Aspose.Cells for .NET API 参考
-description: 表示数据透视表中的字段
+description: 表示数据透视表中的一个字段
 type: docs
 weight: 590
 url: /zh/net/aspose.cells.griddesktop.data/gridpivotfield/
 ---
 ## GridPivotField class
 
-表示数据透视表中的字段。
+表示数据透视表中的一个字段。
 
 ```csharp
 public class GridPivotField
@@ -18,7 +18,7 @@ public class GridPivotField
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DisplayName](../../aspose.cells.griddesktop.data/gridpivotfield/displayname) { get; set; } | 表示数据透视字段的显示名称。 |
+| [DisplayName](../../aspose.cells.griddesktop.data/gridpivotfield/displayname) { get; set; } | 表示 PivotField 显示名称。 |
 | [Function](../../aspose.cells.griddesktop.data/gridpivotfield/function) { get; set; } | 表示用于汇总数据透视表数据字段的函数。 |
 | [IsAscendSort](../../aspose.cells.griddesktop.data/gridpivotfield/isascendsort) { get; set; } | 指示指定的数据透视表字段是否自动升序排序。 |
 | [IsAutoSort](../../aspose.cells.griddesktop.data/gridpivotfield/isautosort) { get; set; } | 表示指定的数据透视表字段是否自动排序。 |

@@ -1,14 +1,14 @@
 ---
 title: WebBorderStyle
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует стиль границы веб-таблицы или ячейки.
+description: Инкапсулирует стиль веб-таблицы или границы ячейки.
 type: docs
 weight: 930
 url: /ru/net/aspose.cells.gridweb/webborderstyle/
 ---
 ## WebBorderStyle class
 
-Инкапсулирует стиль границы веб-таблицы или ячейки.
+Инкапсулирует стиль веб-таблицы или границы ячейки.
 
 ```csharp
 public class WebBorderStyle
@@ -26,7 +26,7 @@ public class WebBorderStyle
 | --- | --- |
 | [BorderColor](../../aspose.cells.gridweb/webborderstyle/bordercolor) { get; set; } | Получает или задает цвет границы. См. структуру System.Drawing.Color. |
 | [BorderStyle](../../aspose.cells.gridweb/webborderstyle/borderstyle) { get; set; } | Получает или задает стиль границы. См. документ .NET SDK о перечислении System.Web.UI.WebControls.BorderStyle. |
-| [BorderWidth](../../aspose.cells.gridweb/webborderstyle/borderwidth) { get; set; } | Получает или задает ширину границы. См. структуру System.Web.UI.WebControls.Unit. |
+| [BorderWidth](../../aspose.cells.gridweb/webborderstyle/borderwidth) { get; set; } | Получает или задает ширину границы. См. System.Web.UI.WebControls.Unit struct. |
 
 ## Методы
 

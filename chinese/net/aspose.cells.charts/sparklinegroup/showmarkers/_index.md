@@ -1,14 +1,14 @@
 ---
 title: ShowMarkers
 second_title: Aspose.Cells for .NET API 参考
-description: 指示是否突出显示迷你图组中每条线迷你图中的每个点
+description: 表示是否突出显示迷你图组中每条线迷你图中的每个点
 type: docs
 weight: 200
 url: /zh/net/aspose.cells.charts/sparklinegroup/showmarkers/
 ---
 ## SparklineGroup.ShowMarkers property
 
-指示是否突出显示迷你图组中每条线迷你图中的每个点。
+表示是否突出显示迷你图组中每条线迷你图中的每个点。
 
 ```csharp
 public bool ShowMarkers { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ShapeProperties
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объект содержащий свойства визуальной формы серии.
+description: Получает объект который содержит свойства визуальной формы Series.
 type: docs
 weight: 370
 url: /ru/net/aspose.cells.charts/series/shapeproperties/
 ---
 ## Series.ShapeProperties property
 
-Получает объект, содержащий свойства визуальной формы серии.
+Получает объект, который содержит свойства визуальной формы Series.
 
 ```csharp
 public ShapePropertyCollection ShapeProperties { get; }

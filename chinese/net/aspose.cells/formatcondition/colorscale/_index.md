@@ -1,14 +1,14 @@
 ---
 title: ColorScale
 second_title: Aspose.Cells for .NET API 参考
-description: 获取条件格式的ColorScale实例 默认实例是green-yellow-red 3ColorScale  仅对 type  ColorScale 有效
+description: 获取条件格式的ColorScale实例 默认实例是green-yellow-red3ColorScale . 仅对type  ColorScale有效
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/formatcondition/colorscale/
 ---
 ## FormatCondition.ColorScale property
 
-获取条件格式的“ColorScale”实例。 默认实例是“green-yellow-red” 3ColorScale 。 仅对 type = ColorScale 有效。
+获取条件格式的“ColorScale”实例。 默认实例是“green-yellow-red”3ColorScale . 仅对type = ColorScale有效。
 
 ```csharp
 public ColorScale ColorScale { get; }

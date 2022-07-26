@@ -18,7 +18,7 @@ public void CustomRows(int column, GridFilterOperatorType operatorType1, object 
 | --- | --- | --- |
 | column | Int32 | 工作表的列 |
 | operatorType1 | GridFilterOperatorType | 过滤器运算符类型 |
-| criteria1 | Object | 自定义条件 |
+| criteria1 | Object | 自定义标准 |
 
 ### 也可以看看
 
@@ -42,10 +42,10 @@ public void CustomRows(int column, GridFilterOperatorType operatorType1, object 
 | --- | --- | --- |
 | column | Int32 | 工作表的列 |
 | operatorType1 | GridFilterOperatorType | 过滤器运算符类型 |
-| criteria1 | Object | 自定义条件 |
+| criteria1 | Object | 自定义标准 |
 | isAnd | Boolean |  |
-| operatorType2 | GridFilterOperatorType | 过滤运算符类型 |
-| criteria2 | Object | 自定义条件 |
+| operatorType2 | GridFilterOperatorType | 过滤器运算符类型 |
+| criteria2 | Object | 自定义标准 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Cells for .NET API 参考
-description: 获取条件计数
+description: 获取条件的计数
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/formatconditioncollection/count/
 ---
 ## FormatConditionCollection.Count property
 
-获取条件计数。
+获取条件的计数。
 
 ```csharp
 public int Count { get; }

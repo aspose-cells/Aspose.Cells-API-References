@@ -18,14 +18,14 @@ public int MaxColumn { get; set; }
 
 ```csharp
 [C#]
-	 // Создает "окно дисплея" 4x4.
+	// Создает "окно дисплея" 4x4.
 	GridWeb1.MinRow = 2;
 	GridWeb1.MaxRow = 5;
 	GridWeb1.MinColumn = 3;
 	GridWeb1.MaxColumn = 6;
 
 [Visual Basic]
-	' Создает "окно дисплея" 4x4.
+	' Creates a 4x4 "display window".
 	GridWeb1.MinRow = 2
 	GridWeb1.MaxRow = 5
 	GridWeb1.MinColumn = 3

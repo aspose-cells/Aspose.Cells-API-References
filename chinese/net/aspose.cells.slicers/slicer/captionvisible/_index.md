@@ -1,14 +1,14 @@
 ---
 title: CaptionVisible
 second_title: Aspose.Cells for .NET API 参考
-description: 返回或设置显示切片器 Caption 的标头是否可见 默认值为 true
+description: 返回或设置显示切片器Caption的表头是否可见 默认值为true
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.slicers/slicer/captionvisible/
 ---
 ## Slicer.CaptionVisible property
 
-返回或设置显示切片器 Caption 的标头是否可见 默认值为 true
+返回或设置显示切片器Caption的表头是否可见 默认值为true
 
 ```csharp
 public bool CaptionVisible { get; set; }

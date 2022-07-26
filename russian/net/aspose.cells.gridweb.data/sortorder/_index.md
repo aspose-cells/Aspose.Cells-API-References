@@ -1,14 +1,14 @@
 ---
 title: SortOrder
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет порядок сортировки данных.
+description: Указывает порядок сортировки данных.
 type: docs
 weight: 690
 url: /ru/net/aspose.cells.gridweb.data/sortorder/
 ---
 ## SortOrder enumeration
 
-Представляет порядок сортировки данных.
+Указывает порядок сортировки данных.
 
 ```csharp
 public enum SortOrder

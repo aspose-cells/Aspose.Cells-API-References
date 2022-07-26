@@ -16,7 +16,7 @@ public DefaultEditLanguage DefaultEditLanguage { get; set; }
 
 ### 评论
 
-当设置不同的编辑语言时，它可能会显示/渲染文本段落的不同布局。 默认为!:DefaultEditLanguage.Auto。
+设置不同的编辑语言时，它可能会显示/渲染文本段落的不同布局。 默认为Auto.
 
 ### 也可以看看
 

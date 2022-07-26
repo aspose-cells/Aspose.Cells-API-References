@@ -1,14 +1,14 @@
 ---
 title: BackgroundColor
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置单元格背景颜色如果样式模式未设置为纯色则生效
+description: 获取或设置单元格背景颜色如果样式样式不设置为纯色则生效
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.griddesktop/style/backgroundcolor/
 ---
 ## Style.BackgroundColor property
 
-获取或设置单元格背景颜色，如果样式模式未设置为纯色，则生效
+获取或设置单元格背景颜色，如果样式样式不设置为纯色，则生效
 
 ```csharp
 public Color BackgroundColor { get; set; }

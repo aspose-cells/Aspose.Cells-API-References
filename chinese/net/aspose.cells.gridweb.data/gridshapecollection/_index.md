@@ -1,14 +1,14 @@
 ---
 title: GridShapeCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装GridShape./gridshape对象的集合
+description: 封装了一个集合GridShape./gridshape对象.
 type: docs
 weight: 490
 url: /zh/net/aspose.cells.gridweb.data/gridshapecollection/
 ---
 ## GridShapeCollection class
 
-封装[`GridShape`](../gridshape)对象的集合。
+封装了一个集合[`GridShape`](../gridshape)对象.
 
 ```csharp
 public class GridShapeCollection
@@ -19,14 +19,14 @@ public class GridShapeCollection
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.cells.gridweb.data/gridshapecollection/count) { get; } |  |
-| [Item](../../aspose.cells.gridweb.data/gridshapecollection/item) { get; } | 获取指定索引处的Picture元素。 |
+| [Item](../../aspose.cells.gridweb.data/gridshapecollection/item) { get; } | 获取Picture指定索引处的元素。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Clear](../../aspose.cells.gridweb.data/gridshapecollection/clear)() |  |
-| [GetEnumerator](../../aspose.cells.gridweb.data/gridshapecollection/getenumerator)() | 获取行枚举器 |
+| [GetEnumerator](../../aspose.cells.gridweb.data/gridshapecollection/getenumerator)() | 获取行 enumerator |
 
 ### 也可以看看
 

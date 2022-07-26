@@ -1,14 +1,14 @@
 ---
 title: GetLegendTotalName
 second_title: Aspose.Cells for .NET API 参考
-description: 获取 Legend 的 Total 名称
+description: 获取图例的总计名称
 type: docs
 weight: 70
 url: /zh/net/aspose.cells.charts/chartglobalizationsettings/getlegendtotalname/
 ---
 ## ChartGlobalizationSettings.GetLegendTotalName method
 
-获取 Legend 的 Total 名称。
+获取图例的总计名称。
 
 ```csharp
 public virtual string GetLegendTotalName()

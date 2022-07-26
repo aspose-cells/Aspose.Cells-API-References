@@ -1,14 +1,14 @@
 ---
 title: SortOnType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Тип сортированного значения.
+description: Тип отсортированного значения.
 type: docs
 weight: 5710
 url: /ru/net/aspose.cells/sortontype/
 ---
 ## SortOnType enumeration
 
-Тип сортированного значения.
+Тип отсортированного значения.
 
 ```csharp
 public enum SortOnType
@@ -18,7 +18,7 @@ public enum SortOnType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Value | `0` | Сортирует по значению ячейки. |
+| Value | `0` | Сортировка по значению ячеек. |
 | CellColor | `1` | Сортировка по цвету ячеек. |
 | FontColor | `2` | Сортировка по цвету шрифта ячеек. |
 | Icon | `3` | Сортировка по условному значку. |

@@ -1,14 +1,14 @@
 ---
 title: Placement
 second_title: Aspose.Cells for .NET API 参考
-description: 表示绘图对象附加到它下面的单元格的方式 该属性控制对象在工作表上的位置
+description: 表示绘图对象附加到其下方单元格的方式 该属性控制对象在工作表上的放置
 type: docs
 weight: 550
 url: /zh/net/aspose.cells.drawing/shape/placement/
 ---
 ## Shape.Placement property
 
-表示绘图对象附加到它下面的单元格的方式。 该属性控制对象在工作表上的位置。
+表示绘图对象附加到其下方单元格的方式。 该属性控制对象在工作表上的放置。
 
 ```csharp
 public PlacementType Placement { get; set; }

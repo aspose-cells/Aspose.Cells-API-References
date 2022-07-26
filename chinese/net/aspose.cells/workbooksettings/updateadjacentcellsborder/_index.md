@@ -16,7 +16,7 @@ public bool UpdateAdjacentCellsBorder { get; set; }
 
 ### 评论
 
-默认值为 false。 例如:单元格 A1 的下边框更新， 单元格 A2 的上边框也应该更改。
+默认值为false。 例如：单元格A1的下边框更新， 单元格A2的上边框也应该改变。
 
 ### 也可以看看
 

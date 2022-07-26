@@ -1,14 +1,14 @@
 ---
 title: StreamProviderOptions
 second_title: Aspose.Cells for .NET API 参考
-description: 初始化StreamProviderOptionsaspose.cells/streamprovideroptions类的新实例
+description: 初始化StreamProviderOptionsaspose.cells/streamprovideroptions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/streamprovideroptions/streamprovideroptions/
 ---
 ## StreamProviderOptions(ResourceLoadingType, string) {#constructor_1}
 
-初始化[`StreamProviderOptions`](../../streamprovideroptions)类的新实例。
+初始化[`StreamProviderOptions`](../../streamprovideroptions)类.
 
 ```csharp
 public StreamProviderOptions(ResourceLoadingType loadingType, string defaultPath)
@@ -30,7 +30,7 @@ public StreamProviderOptions(ResourceLoadingType loadingType, string defaultPath
 
 ## StreamProviderOptions() {#constructor}
 
-初始化[`StreamProviderOptions`](../../streamprovideroptions)类的新实例。
+初始化[`StreamProviderOptions`](../../streamprovideroptions)类.
 
 ```csharp
 public StreamProviderOptions()

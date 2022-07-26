@@ -1,14 +1,14 @@
 ---
 title: GridTableItemStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 继承自 System.Web.UI.WebControls.TableItemStyle 封装 WebCell 的样式
+description: 继承自 System.Web.UI.WebControls.TableItemStyle. 封装了 WebCell 的样式
 type: docs
 weight: 780
 url: /zh/net/aspose.cells.gridweb/gridtableitemstyle/
 ---
 ## GridTableItemStyle class
 
-继承自 System.Web.UI.WebControls.TableItemStyle。 封装 WebCell 的样式。
+继承自 System.Web.UI.WebControls.TableItemStyle. 封装了 WebCell 的样式。
 
 ```csharp
 public class GridTableItemStyle : TableItemStyle
@@ -25,13 +25,13 @@ public class GridTableItemStyle : TableItemStyle
 | 姓名 | 描述 |
 | --- | --- |
 | [BackImageAttributes](../../aspose.cells.gridweb/gridtableitemstyle/backimageattributes) { get; set; } | 背景图片属性。 |
-| [BackImageUrl](../../aspose.cells.gridweb/gridtableitemstyle/backimageurl) { get; set; } | 背景图片网址。 |
+| [BackImageUrl](../../aspose.cells.gridweb/gridtableitemstyle/backimageurl) { get; set; } | 背景图片 url. |
 | [BottomBorderStyle](../../aspose.cells.gridweb/gridtableitemstyle/bottomborderstyle) { get; set; } | 指定单元格底部边框的样式。 |
 | [Custom](../../aspose.cells.gridweb/gridtableitemstyle/custom) { get; set; } | 获取或设置自定义格式，null或空字符串表示没有自定义格式。 |
 | [IndentLevel](../../aspose.cells.gridweb/gridtableitemstyle/indentlevel) { get; set; } | 获取或设置缩进级别。 |
-| [IsLocked](../../aspose.cells.gridweb/gridtableitemstyle/islocked) { get; set; } | 获取或设置一个值，该值指示单元格在其工作表受到保护时是否可以修改。 当其工作表受到保护且 IsLocked 为 true 时，无法编辑单元格。当其工作表为 protected 且 IsLocked 为 false 时，可以编辑该单元格。 |
+| [IsLocked](../../aspose.cells.gridweb/gridtableitemstyle/islocked) { get; set; } | 获取或设置一个值，该值指示单元格在其工作表受保护时是否可以修改。 当其工作表受保护且IsLocked 为真时，该单元格不能被编辑。当其工作表 is protected 且 IsLocked 为 false 时，可以编辑单元格。 |
 | [LeftBorderStyle](../../aspose.cells.gridweb/gridtableitemstyle/leftborderstyle) { get; set; } | 指定单元格左边框的样式。 |
-| [NumberType](../../aspose.cells.gridweb/gridtableitemstyle/numbertype) { get; set; } | 获取或设置数字和日期的显示格式。 |
+| [NumberType](../../aspose.cells.gridweb/gridtableitemstyle/numbertype) { get; set; } | 获取或设置数字和日期的显示格式 |
 | [RightBorderStyle](../../aspose.cells.gridweb/gridtableitemstyle/rightborderstyle) { get; set; } | 指定单元格右边框的样式。 |
 | [RotationAngle](../../aspose.cells.gridweb/gridtableitemstyle/rotationangle) { get; set; } | 获取或设置旋转属性。 |
 | [TopBorderStyle](../../aspose.cells.gridweb/gridtableitemstyle/topborderstyle) { get; set; } | 指定单元格上边框的样式。 |
@@ -40,7 +40,7 @@ public class GridTableItemStyle : TableItemStyle
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [AddAttributesToRender](../../aspose.cells.gridweb/gridtableitemstyle/addattributestorender#addattributestorender_1)(HtmlTextWriter, WebControl) | 仅供内部使用。 实现方法不要直接调用这个方法。 |
+| override [AddAttributesToRender](../../aspose.cells.gridweb/gridtableitemstyle/addattributestorender#addattributestorender_1)(HtmlTextWriter, WebControl) | 仅供内部使用。 实现方法不要直接调用此方法。 |
 | override [CopyFrom](../../aspose.cells.gridweb/gridtableitemstyle/copyfrom)(Style) | 从另一个样式对象复制。 |
 | override [GetHashCode](../../aspose.cells.gridweb/gridtableitemstyle/gethashcode)() | 用作特定类型的哈希函数，适用于哈希算法和哈希表等数据结构。 |
 | override [MergeWith](../../aspose.cells.gridweb/gridtableitemstyle/mergewith)(Style) | 与另一个样式对象合并。 |

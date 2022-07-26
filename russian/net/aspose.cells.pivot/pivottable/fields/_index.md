@@ -20,7 +20,7 @@ public PivotFieldCollection Fields(PivotFieldType fieldType)
 
 ### Возвращаемое значение
 
-определенные поля
+конкретные поля
 
 ### Смотрите также
 

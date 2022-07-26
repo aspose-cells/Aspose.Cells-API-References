@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions
 second_title: Aspose.Cells for .NET API 参考
-description: 表示图像保存选项
+description: 代表图片保存选项
 type: docs
 weight: 3870
 url: /zh/net/aspose.cells/imagesaveoptions/
 ---
 ## ImageSaveOptions class
 
-表示图像保存选项
+代表图片保存选项
 
 ```csharp
 public class ImageSaveOptions : SaveOptions
@@ -18,8 +18,8 @@ public class ImageSaveOptions : SaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImageSaveOptions](imagesaveoptions#constructor)() | 创建用于保存图像文件的选项。 |
-| [ImageSaveOptions](imagesaveoptions#constructor_1)(SaveFormat) | 创建用于保存图像文件的选项。 |
+| [ImageSaveOptions](imagesaveoptions#constructor)() | 创建保存图像文件的选项。 |
+| [ImageSaveOptions](imagesaveoptions#constructor_1)(SaveFormat) | 创建保存图像文件的选项。 |
 
 ## 特性
 
@@ -27,15 +27,15 @@ public class ImageSaveOptions : SaveOptions
 | --- | --- |
 | [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder) { get; set; } | 缓存的文件夹是用来存放一些大数据的。 |
 | [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | 保存文件后使工作簿为空。 |
-| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | 如果为true且目录不存在，则在保存文件之前会自动创建目录。 |
-| [ImageOrPrintOptions](../../aspose.cells/imagesaveoptions/imageorprintoptions) { get; } | 附加图像创建选项 |
+| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | 如果为true且目录不存在，会在保存文件前自动创建目录。 |
+| [ImageOrPrintOptions](../../aspose.cells/imagesaveoptions/imageorprintoptions) { get; } | 其他图像创建选项 |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | 表示是否在保存文件之前合并条件格式和验证区域。 |
 | [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | 表示是否刷新图表缓存数据 |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | 获取保存文件格式。 |
 | [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | 表示是否在保存文件之前对外部定义的名称进行排序。 |
 | [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | 表示是否在保存文件之前对定义的名称进行排序。 |
 | [StreamProvider](../../aspose.cells/imagesaveoptions/streamprovider) { get; set; } | 获取或设置用于导出对象的 IStreamProvider。 |
-| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | 表示是否更新智能艺术设置。 默认值为假。 |
+| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | 表示是否更新智能艺术设置。 默认值为false。 |
 | [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas) { get; set; } | 表示是否在保存文件之前验证合并的单元格。 |
 | [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | 获取或设置警告回调。 |
 

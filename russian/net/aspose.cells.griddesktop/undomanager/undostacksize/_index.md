@@ -1,14 +1,14 @@
 ---
 title: UndoStackSize
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает размер стека отмены/возврата. Значение по умолчанию  300.
+description: Получает или задает размер стека отмены/возврата. Значение по умолчанию 300. .
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.griddesktop/undomanager/undostacksize/
 ---
 ## UndoManager.UndoStackSize property
 
-Получает или задает размер стека отмены/возврата. Значение по умолчанию — 300.
+Получает или задает размер стека отмены/возврата. Значение по умолчанию: 300. .
 
 ```csharp
 public int UndoStackSize { get; set; }

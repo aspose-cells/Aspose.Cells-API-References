@@ -1,14 +1,14 @@
 ---
 title: Border
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает границуLineaspose.cells.drawing/line.
+description: Получает границуLineaspose.cells.drawing/line .
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.charts/dropbars/border/
 ---
 ## DropBars.Border property
 
-Получает границу[`Line`](../../../aspose.cells.drawing/line).
+Получает границу[`Line`](../../../aspose.cells.drawing/line) .
 
 ```csharp
 public Line Border { get; }

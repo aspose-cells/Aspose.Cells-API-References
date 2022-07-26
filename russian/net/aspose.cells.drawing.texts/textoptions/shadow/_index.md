@@ -1,14 +1,14 @@
 ---
 title: Shadow
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет объект определяющий эффект тени для элемента диаграммы или фигуры.
+description: Представляет объект определяющий эффект тени для элемента диаграммы или формы.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.drawing.texts/textoptions/shadow/
 ---
 ## TextOptions.Shadow property
 
-Представляет объект, определяющий эффект тени для элемента диаграммы или фигуры.
+Представляет объект, определяющий эффект тени для элемента диаграммы или формы.
 
 ```csharp
 public ShadowEffect Shadow { get; }

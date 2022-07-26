@@ -20,7 +20,7 @@ public Color GetThemeColor(ThemeColorType type)
 
 ### 返回值
 
-主题颜色。
+主题色。
 
 ### 也可以看看
 

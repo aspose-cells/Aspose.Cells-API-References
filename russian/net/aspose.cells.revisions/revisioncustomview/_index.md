@@ -1,14 +1,14 @@
 ---
 title: RevisionCustomView
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет запись ревизии о добавлении или удалении пользовательского представления в книгу
+description: Представляет запись редакции о добавлении или удалении пользовательского представления в workbook
 type: docs
 weight: 5390
 url: /ru/net/aspose.cells.revisions/revisioncustomview/
 ---
 ## RevisionCustomView class
 
-Представляет запись ревизии о добавлении или удалении пользовательского представления в книгу
+Представляет запись редакции о добавлении или удалении пользовательского представления в workbook
 
 ```csharp
 public class RevisionCustomView : Revision
@@ -19,7 +19,7 @@ public class RevisionCustomView : Revision
 | Имя | Описание |
 | --- | --- |
 | [ActionType](../../aspose.cells.revisions/revisioncustomview/actiontype) { get; } | Получает тип действия. |
-| [Guid](../../aspose.cells.revisions/revisioncustomview/guid) { get; } | Получает глобально уникальный идентификатор пользовательского представления. |
+| [Guid](../../aspose.cells.revisions/revisioncustomview/guid) { get; } | Получает глобальный уникальный идентификатор пользовательского представления. |
 | [Id](../../aspose.cells.revisions/revision/id) { get; } | Получает номер этой версии. |
 | override [Type](../../aspose.cells.revisions/revisioncustomview/type) { get; } | Получает тип редакции. |
 | [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Получает рабочий лист. |

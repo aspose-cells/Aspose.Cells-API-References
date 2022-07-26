@@ -1,14 +1,14 @@
 ---
 title: FilterColumnCollection
 second_title: Aspose.Cells for .NET API 参考
-description: Filter 对象的集合表示自动过滤范围内的所有过滤器
+description: 过滤器对象的集合表示自动过滤范围内的所有过滤器
 type: docs
 weight: 3440
 url: /zh/net/aspose.cells/filtercolumncollection/
 ---
 ## FilterColumnCollection class
 
-Filter 对象的集合，表示自动过滤范围内的所有过滤器。
+过滤器对象的集合，表示自动过滤范围内的所有过滤器。
 
 ```csharp
 public class FilterColumnCollection : CollectionBase<FilterColumn>
@@ -20,7 +20,7 @@ public class FilterColumnCollection : CollectionBase<FilterColumn>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/filtercolumncollection/item) { get; } | 在特殊字段中获取[`FilterColumn`](../filtercolumn)对象。 |
+| [Item](../../aspose.cells/filtercolumncollection/item) { get; } | 获取[`FilterColumn`](../filtercolumn)特殊领域的对象. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法
@@ -45,7 +45,7 @@ public class FilterColumnCollection : CollectionBase<FilterColumn>
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;FilterColumn&gt;) |  |
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;FilterColumn&gt;) |  |
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;FilterColumn&gt;) |  |
-| [GetByIndex](../../aspose.cells/filtercolumncollection/getbyindex)(int) | 从集合中返回单个 Filter 对象。 |
+| [GetByIndex](../../aspose.cells/filtercolumncollection/getbyindex)(int) | 从集合中返回单个过滤器对象。 |
 | [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(FilterColumn) |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(FilterColumn, int) |  |

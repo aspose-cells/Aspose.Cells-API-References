@@ -1,14 +1,14 @@
 ---
 title: Intersect
 second_title: Aspose.Cells for .NET API 参考
-description: 返回一个Rangeaspose.cells/range对象表示两个范围的矩形交集
+description: 返回一个Rangeaspose.cells/range表示两个范围的矩形交集的对象
 type: docs
-weight: 280
+weight: 320
 url: /zh/net/aspose.cells/range/intersect/
 ---
 ## Range.Intersect method
 
-返回一个[`Range`](../../range)对象，表示两个范围的矩形交集。
+返回一个[`Range`](../../range)表示两个范围的矩形交集的对象。
 
 ```csharp
 public Range Intersect(Range range)
@@ -20,7 +20,7 @@ public Range Intersect(Range range)
 
 ### 返回值
 
-返回一个[`Range`](../../range)对象
+返回一个[`Range`](../../range)目的
 
 ### 评论
 
@@ -32,28 +32,28 @@ public Range Intersect(Range range)
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
-// 获取第一个 Worksheet Cells.
+// 获取第一个工作表单元格。
 Cells cells = workbook.Worksheets[0].Cells;
 Range range1 = cells.CreateRange("A1:A5");
 Range range2 = cells.CreateRange("A3:A10");
-//获取两个范围的相交范围
+//获取两个范围的相交范围。
 Range intersectRange = range1.Intersect(range2);
- //保存Excel文件
+//保存Excel文件
 workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'实例化一个 Workbook 目的
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
-'获取第一个 Worksheet Cells.
+'获取第一个工作表单元格。
 Dim cells as Cells = workbook.Worksheets[0].Cells
 Range range1 = cells.CreateRange("A1:A5")
 Range range2 = cells.CreateRange("A3:A10")
-'获取两个范围的相交范围
+'获取两个范围的相交范围。
 Range intersectRange = range1.Intersect(range2)
-'保存Excel文件
+'保存 Excel 文件
 workbook.Save("book1.xlsm")
 ```
 

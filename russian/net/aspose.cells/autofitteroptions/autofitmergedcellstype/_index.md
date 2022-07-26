@@ -1,14 +1,14 @@
 ---
 title: AutoFitMergedCellsType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает тип автоподбора высоты строки объединенных ячеек.
+description: Получает и устанавливает тип автоматической подгонки высоты строки объединенных ячеек.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/autofitteroptions/autofitmergedcellstype/
 ---
 ## AutoFitterOptions.AutoFitMergedCellsType property
 
-Получает и устанавливает тип автоподбора высоты строки объединенных ячеек.
+Получает и устанавливает тип автоматической подгонки высоты строки объединенных ячеек.
 
 ```csharp
 public AutoFitMergedCellsType AutoFitMergedCellsType { get; set; }
@@ -16,7 +16,7 @@ public AutoFitMergedCellsType AutoFitMergedCellsType { get; set; }
 
 ### Примечания
 
-Excel по умолчанию игнорирует объединенные ячейки при подборе высоты строки, поэтому Aspose.Cells работает как MS Excel дефолт. Пожалуйста, установите этот тип, чтобы изменить способ автоподбора высоты строки объединенных ячеек.
+По умолчанию Excel игнорирует объединенные ячейки при подборе высоты строки, поэтому Aspose.Cells работает как MS Excel по умолчанию. Установите этот тип, чтобы изменить способ автоматического подбора высоты строки объединенных ячеек.
 
 ### Смотрите также
 

@@ -18,7 +18,7 @@ public interface IFilePathProvider
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetFullName](../../aspose.cells/ifilepathprovider/getfullname)(string) | 单独将Worksheet导出为html时，通过Worksheet名称获取文件的完整路径。 所以工作表之间的引用可以正确导出。 |
+| [GetFullName](../../aspose.cells/ifilepathprovider/getfullname)(string) | 单独将Worksheet导出为html时，通过Worksheet名称获取文件的完整路径 这样可以正确导出Worksheets之间的引用 |
 
 ### 也可以看看
 

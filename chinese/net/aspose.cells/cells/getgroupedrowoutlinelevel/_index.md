@@ -3,7 +3,7 @@ title: GetGroupedRowOutlineLevel
 second_title: Aspose.Cells for .NET API 参考
 description: 获取行的大纲级别从零开始
 type: docs
-weight: 730
+weight: 740
 url: /zh/net/aspose.cells/cells/getgroupedrowoutlinelevel/
 ---
 ## Cells.GetGroupedRowOutlineLevel method
@@ -24,7 +24,7 @@ public int GetGroupedRowOutlineLevel(int rowIndex)
 
 ### 评论
 
-如果行未分组，则返回零。
+如果该行未分组，则返回零。
 
 ### 也可以看看
 

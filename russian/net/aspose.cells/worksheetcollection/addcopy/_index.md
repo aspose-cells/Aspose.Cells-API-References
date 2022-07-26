@@ -1,14 +1,14 @@
 ---
 title: AddCopy
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет рабочий лист в коллекцию и копирует данные из существующего рабочего листа.
+description: Добавляет лист в коллекцию и копирует данные из существующего листа.
 type: docs
 weight: 180
 url: /ru/net/aspose.cells/worksheetcollection/addcopy/
 ---
 ## AddCopy(string) {#addcopy_1}
 
-Добавляет рабочий лист в коллекцию и копирует данные из существующего рабочего листа.
+Добавляет лист в коллекцию и копирует данные из существующего листа.
 
 ```csharp
 public int AddCopy(string sheetName)
@@ -16,17 +16,17 @@ public int AddCopy(string sheetName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sheetName | String | Имя исходного листа. |
+| sheetName | String | Имя исходного рабочего листа. |
 
 ### Возвращаемое значение
 
-[`Worksheet`](../../worksheet)индекс объекта.
+[`Worksheet`](../../worksheet) индекс объекта.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [CellsException](../../cellsexception) | Указывает недопустимое имя листа. |
+| [CellsException](../../cellsexception) | Задает недопустимое имя рабочего листа. |
 
 ### Смотрите также
 
@@ -38,7 +38,7 @@ public int AddCopy(string sheetName)
 
 ## AddCopy(int) {#addcopy}
 
-Добавляет рабочий лист в коллекцию и копирует данные из существующего рабочего листа.
+Добавляет лист в коллекцию и копирует данные из существующего листа.
 
 ```csharp
 public int AddCopy(int sheetIndex)
@@ -46,11 +46,11 @@ public int AddCopy(int sheetIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sheetIndex | Int32 | Индекс исходного листа. |
+| sheetIndex | Int32 | Указатель исходного листа. |
 
 ### Возвращаемое значение
 
-[`Worksheet`](../../worksheet)индекс объекта.
+[`Worksheet`](../../worksheet) индекс объекта.
 
 ### Смотрите также
 

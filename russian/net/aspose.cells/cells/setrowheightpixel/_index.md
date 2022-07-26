@@ -3,7 +3,7 @@ title: SetRowHeightPixel
 second_title: Справочник по Aspose.Cells для .NET API
 description: Устанавливает высоту строки в пикселях.
 type: docs
-weight: 1270
+weight: 1280
 url: /ru/net/aspose.cells/cells/setrowheightpixel/
 ---
 ## Cells.SetRowHeightPixel method
@@ -17,7 +17,7 @@ public void SetRowHeightPixel(int row, int pixels)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | row | Int32 | Индекс строки. |
-| пиксели | Int32 | Количество пикселей. |
+| pixels | Int32 | Количество пикселей. |
 
 ### Смотрите также
 

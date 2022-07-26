@@ -1,14 +1,14 @@
 ---
 title: ToImage
 second_title: Справочник по Aspose.Cells для .NET API
-description: Визуализация определенной страницы в графику
+description: Визуализация определенной страницы в Graphics
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.rendering/sheetrender/toimage/
 ---
 ## ToImage(int, Graphics, float, float, float, float) {#toimage_2}
 
-Визуализация определенной страницы в графику
+Визуализация определенной страницы в Graphics
 
 ```csharp
 public void ToImage(int pageIndex, Graphics g, float x, float y, float width, float height)
@@ -16,8 +16,8 @@ public void ToImage(int pageIndex, Graphics g, float x, float y, float width, fl
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pageIndex | Int32 | указать, какая страница для преобразования |
-| g | Graphics | Объект, в который выполняется рендеринг. |
+| pageIndex | Int32 | указать, какая страница должна быть преобразована |
+| g | Graphics | Объект, на который выполняется рендеринг. |
 | x | Single | Координата X (в пикселях) верхнего левого угла отображаемой страницы. |
 | y | Single | Координата Y (в пикселях) верхнего левого угла отображаемой страницы. |
 | width | Single | Максимальная ширина (в пикселях), которую может занимать отображаемая страница. |
@@ -33,7 +33,7 @@ public void ToImage(int pageIndex, Graphics g, float x, float y, float width, fl
 
 ## ToImage(int, Graphics, float, float) {#toimage_1}
 
-Визуализация определенной страницы в графику
+Визуализация определенной страницы в Graphics
 
 ```csharp
 public void ToImage(int pageIndex, Graphics g, float x, float y)
@@ -41,8 +41,8 @@ public void ToImage(int pageIndex, Graphics g, float x, float y)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pageIndex | Int32 | указать, какая страница для преобразования |
-| g | Graphics | Объект, в который выполняется рендеринг. |
+| pageIndex | Int32 | указать, какая страница должна быть преобразована |
+| g | Graphics | Объект, на который выполняется рендеринг. |
 | x | Single | Координата X (в пикселях) верхнего левого угла отображаемой страницы. |
 | y | Single | Координата Y (в пикселях) верхнего левого угла отображаемой страницы. |
 
@@ -56,7 +56,7 @@ public void ToImage(int pageIndex, Graphics g, float x, float y)
 
 ## ToImage(int, string) {#toimage_4}
 
-Рендерит определенную страницу в файл.
+Визуализация определенной страницы в файл.
 
 ```csharp
 public void ToImage(int pageIndex, string fileName)
@@ -72,19 +72,19 @@ public void ToImage(int pageIndex, string fileName)
 Следующий код выводит первую страницу первого листа в изображение png.
 
 ```csharp
-//загрузить исходный файл с изображениями.
-rkbook wb = new Workbook("Book1.xlsx");
+//загружаем исходный файл с изображениями.
+Workbook wb = new Workbook("Book1.xlsx");
 
-ageOrPrintOptions imgOpt = new ImageOrPrintOptions();
+ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
 
 //установить тип выходного изображения.
-gOpt.ImageType = ImageType.Png;
+imgOpt.ImageType = ImageType.Png;
 
-//рендерим первый лист.
-eetRender sr = new SheetRender(wb.Worksheets[0], imgOpt);
+// рендерим первый лист.
+SheetRender sr = new SheetRender(wb.Worksheets[0], imgOpt);
 
-//выводим первую страницу листа в image.
-.ToImage(0, "output.png");
+//выводим первую страницу листа в изображение.
+sr.ToImage(0, "output.png");
 ```
 
 ### Смотрите также
@@ -97,7 +97,7 @@ eetRender sr = new SheetRender(wb.Worksheets[0], imgOpt);
 
 ## ToImage(int, Stream) {#toimage_3}
 
-Рендерить определенную страницу в поток.
+Визуализация определенной страницы в поток.
 
 ```csharp
 public void ToImage(int pageIndex, Stream stream)
@@ -118,7 +118,7 @@ public void ToImage(int pageIndex, Stream stream)
 
 ## ToImage(int) {#toimage}
 
-Рендеринг определенной страницы в объект Bitmap.
+Визуализация определенной страницы в объект Bitmap.
 
 ```csharp
 public Bitmap ToImage(int pageIndex)
@@ -130,7 +130,7 @@ public Bitmap ToImage(int pageIndex)
 
 ### Возвращаемое значение
 
-растровое изображение объект страницы
+растровый объект страницы
 
 ### Смотрите также
 

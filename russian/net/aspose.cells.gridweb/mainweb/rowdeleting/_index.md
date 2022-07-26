@@ -1,14 +1,14 @@
 ---
 title: RowDeleting
 second_title: Справочник по Aspose.Cells для .NET API
-description: Происходит когда пользователь пытается удалить строку из клиентского меню. Вы можете обработать это событие и создать исключение RejectDeleteException чтобы отменить операцию удаления.
+description: Происходит когда пользователь пытается удалить строку из клиентского меню. Вы можете обработать это событие и создать исключение RejectDeleteException для отмены операции удаления.
 type: docs
 weight: 1280
 url: /ru/net/aspose.cells.gridweb/mainweb/rowdeleting/
 ---
 ## MainWeb.RowDeleting event
 
-Происходит, когда пользователь пытается удалить строку из клиентского меню. Вы можете обработать это событие и создать исключение RejectDeleteException, чтобы отменить операцию удаления.
+Происходит, когда пользователь пытается удалить строку из клиентского меню. Вы можете обработать это событие и создать исключение RejectDeleteException для отмены операции удаления.
 
 ```csharp
 public event RowColumnEventHandler RowDeleting;

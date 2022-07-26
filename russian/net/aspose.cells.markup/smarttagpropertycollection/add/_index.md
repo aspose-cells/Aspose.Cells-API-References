@@ -16,12 +16,12 @@ public int Add(string name, string value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя свойства |
-| value | String | Значение имущества. |
+| name | String | Название свойства |
+| value | String | Стоимость имущества. |
 
 ### Возвращаемое значение
 
-return[`SmartTagProperty`](../../smarttagproperty)
+возвращаться[`SmartTagProperty`](../../smarttagproperty)
 
 ### Смотрите также
 

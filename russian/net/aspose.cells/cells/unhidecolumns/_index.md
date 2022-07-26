@@ -3,7 +3,7 @@ title: UnhideColumns
 second_title: Справочник по Aspose.Cells для .NET API
 description: Показать несколько столбцов.
 type: docs
-weight: 1350
+weight: 1360
 url: /ru/net/aspose.cells/cells/unhidecolumns/
 ---
 ## Cells.UnhideColumns method
@@ -18,7 +18,7 @@ public void UnhideColumns(int column, int totalColumns, double width)
 | --- | --- | --- |
 | column | Int32 | Индекс столбца. |
 | totalColumns | Int32 | Номер столбца |
-| width | Double | Ширина столбца. |
+| width | Double | Ширина колонки. |
 
 ### Примечания
 

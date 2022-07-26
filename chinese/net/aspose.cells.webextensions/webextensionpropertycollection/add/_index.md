@@ -16,8 +16,8 @@ public int Add(string name, string value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 属性名称。 |
-| value | String | 属性值。 |
+| name | String | 财产的名称。 |
+| value | String | 财产的价值。 |
 
 ### 返回值
 

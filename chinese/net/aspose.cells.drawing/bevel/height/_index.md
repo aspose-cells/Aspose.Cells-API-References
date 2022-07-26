@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置斜角的高度或者它应用的形状高出多远 以点为单位
+description: 获取和设置斜面的高度或者它所应用的形状高出多远 以点为单位
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.drawing/bevel/height/
 ---
 ## Bevel.Height property
 
-获取和设置斜角的高度，或者它应用的形状高出多远。 以点为单位。
+获取和设置斜面的高度，或者它所应用的形状高出多远。 以点为单位。
 
 ```csharp
 public double Height { get; set; }

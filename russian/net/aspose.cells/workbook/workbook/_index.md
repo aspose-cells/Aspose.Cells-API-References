@@ -1,14 +1,14 @@
 ---
 title: Workbook
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инициализирует новый экземпляр классаWorkbookaspose.cells/workbook.
+description: Инициализирует новый экземплярWorkbookaspose.cells/workbook класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/workbook/workbook/
 ---
 ## Workbook() {#constructor}
 
-Инициализирует новый экземпляр класса[`Workbook`](../../workbook).
+Инициализирует новый экземпляр[`Workbook`](../../workbook) класс.
 
 ```csharp
 public Workbook()
@@ -16,11 +16,11 @@ public Workbook()
 
 ### Примечания
 
-Тип формата файла по умолчанию - Excel97To2003. Если вы хотите создать файл другого формата, вызовите Workbook( FileFormatType (тип файла).
+Тип формата файла по умолчанию — Excel97To2003. Если вы хотите создать файл другого формата, вызовите Workbook(FileFormatType fileFormatType).
 
 ### Примеры
 
-В следующем коде показано, как использовать конструктор Workbook для создания и инициализации нового экземпляра класса .
+В следующем коде показано, как использовать конструктор Workbook для создания и инициализации нового экземпляра класса.
 
 ```csharp
 [C#]
@@ -44,7 +44,7 @@ Dim workbook as Workbook = new Workbook()
 
 ## Workbook(FileFormatType) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`Workbook`](../../workbook).
+Инициализирует новый экземпляр[`Workbook`](../../workbook) класс.
 
 ```csharp
 public Workbook(FileFormatType fileFormatType)
@@ -56,11 +56,11 @@ public Workbook(FileFormatType fileFormatType)
 
 ### Примечания
 
-Формат файла по умолчанию - Excel97To2003.
+Тип формата файла по умолчанию — Excel97To2003.
 
 ### Примеры
 
-В следующем коде показано, как использовать конструктор Workbook для создания и инициализации нового экземпляра класса .
+В следующем коде показано, как использовать конструктор Workbook для создания и инициализации нового экземпляра класса.
 
 ```csharp
 [C#]
@@ -85,7 +85,7 @@ Dim workbook as Workbook = new Workbook(FileFormatType.Xlsx)
 
 ## Workbook(string) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`Workbook`](../../workbook)и открывает файл.
+Инициализирует новый экземпляр[`Workbook`](../../workbook) class и откройте файл.
 
 ```csharp
 public Workbook(string file)
@@ -105,7 +105,7 @@ public Workbook(string file)
 
 ## Workbook(Stream) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`Workbook`](../../workbook)и открывает поток.
+Инициализирует новый экземпляр[`Workbook`](../../workbook) class и откройте поток.
 
 ```csharp
 public Workbook(Stream stream)
@@ -125,7 +125,7 @@ public Workbook(Stream stream)
 
 ## Workbook(string, LoadOptions) {#constructor_5}
 
-Инициализирует новый экземпляр класса[`Workbook`](../../workbook)и открывает файл.
+Инициализирует новый экземпляр[`Workbook`](../../workbook) class и откройте файл.
 
 ```csharp
 public Workbook(string file, LoadOptions loadOptions)
@@ -147,7 +147,7 @@ public Workbook(string file, LoadOptions loadOptions)
 
 ## Workbook(Stream, LoadOptions) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`Workbook`](../../workbook)и открытый поток.
+Инициализирует новый экземпляр[`Workbook`](../../workbook) класс и открытый поток.
 
 ```csharp
 public Workbook(Stream stream, LoadOptions loadOptions)

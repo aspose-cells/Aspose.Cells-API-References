@@ -1,14 +1,14 @@
 ---
 title: Spacing
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает интервал между символами в текстовом фрагменте.
+description: Задает интервал между символами в текстовом наборе.
 type: docs
 weight: 80
 url: /ru/net/aspose.cells.drawing.texts/textoptions/spacing/
 ---
 ## TextOptions.Spacing property
 
-Задает интервал между символами в текстовом фрагменте.
+Задает интервал между символами в текстовом наборе.
 
 ```csharp
 public double Spacing { get; set; }

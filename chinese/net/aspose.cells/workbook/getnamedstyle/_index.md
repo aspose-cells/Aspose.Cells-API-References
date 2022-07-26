@@ -20,7 +20,7 @@ public Style GetNamedStyle(string name)
 
 ### 返回值
 
-命名样式，可能为空.
+命名样式，可能为空。
 
 ### 也可以看看
 

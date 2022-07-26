@@ -26,15 +26,15 @@ public class GridTableItemStyle : TableItemStyle
 | --- | --- |
 | [BackImageAttributes](../../aspose.cells.gridweb/gridtableitemstyle/backimageattributes) { get; set; } | Атрибуты фонового изображения. |
 | [BackImageUrl](../../aspose.cells.gridweb/gridtableitemstyle/backimageurl) { get; set; } | URL фонового изображения. |
-| [BottomBorderStyle](../../aspose.cells.gridweb/gridtableitemstyle/bottomborderstyle) { get; set; } | Задает стиль нижней границы ячейки. |
+| [BottomBorderStyle](../../aspose.cells.gridweb/gridtableitemstyle/bottomborderstyle) { get; set; } | Определяет стиль нижней границы ячейки. |
 | [Custom](../../aspose.cells.gridweb/gridtableitemstyle/custom) { get; set; } | Получает или задает пользовательский формат, нулевая или пустая строка означает отсутствие пользовательского формата. |
-| [IndentLevel](../../aspose.cells.gridweb/gridtableitemstyle/indentlevel) { get; set; } | Получает или устанавливает уровень отступа. |
-| [IsLocked](../../aspose.cells.gridweb/gridtableitemstyle/islocked) { get; set; } | Получает или задает значение, указывающее, можно ли изменять ячейку, когда ее рабочий лист защищен. Когда рабочий лист защищен и IsLocked имеет значение true, ячейку нельзя редактировать. Когда его рабочий лист защищен, а IsLocked имеет значение false, ячейку можно редактировать. |
-| [LeftBorderStyle](../../aspose.cells.gridweb/gridtableitemstyle/leftborderstyle) { get; set; } | Задает стиль левой границы ячейки. |
+| [IndentLevel](../../aspose.cells.gridweb/gridtableitemstyle/indentlevel) { get; set; } | Получает или задает уровень отступа. |
+| [IsLocked](../../aspose.cells.gridweb/gridtableitemstyle/islocked) { get; set; } | Получает или задает значение, указывающее, можно ли изменять ячейку, когда ее рабочий лист защищен. Когда ее рабочий лист защищен и IsLocked имеет значение true, ячейку нельзя редактировать. Когда его рабочий лист защищен , а IsLocked имеет значение false, ячейку можно редактировать. |
+| [LeftBorderStyle](../../aspose.cells.gridweb/gridtableitemstyle/leftborderstyle) { get; set; } | Определяет стиль левой границы ячейки. |
 | [NumberType](../../aspose.cells.gridweb/gridtableitemstyle/numbertype) { get; set; } | Получает или задает формат отображения чисел и дат. |
-| [RightBorderStyle](../../aspose.cells.gridweb/gridtableitemstyle/rightborderstyle) { get; set; } | Задает стиль правой границы ячейки. |
-| [RotationAngle](../../aspose.cells.gridweb/gridtableitemstyle/rotationangle) { get; set; } | Получает или устанавливает атрибут вращения. |
-| [TopBorderStyle](../../aspose.cells.gridweb/gridtableitemstyle/topborderstyle) { get; set; } | Задает стиль верхней границы ячейки. |
+| [RightBorderStyle](../../aspose.cells.gridweb/gridtableitemstyle/rightborderstyle) { get; set; } | Определяет стиль правой границы ячейки. |
+| [RotationAngle](../../aspose.cells.gridweb/gridtableitemstyle/rotationangle) { get; set; } | Получает или задает атрибут вращения. |
+| [TopBorderStyle](../../aspose.cells.gridweb/gridtableitemstyle/topborderstyle) { get; set; } | Определяет стиль верхней границы ячейки. |
 
 ## Методы
 
@@ -42,7 +42,7 @@ public class GridTableItemStyle : TableItemStyle
 | --- | --- |
 | override [AddAttributesToRender](../../aspose.cells.gridweb/gridtableitemstyle/addattributestorender#addattributestorender_1)(HtmlTextWriter, WebControl) | Только для внутреннего использования. Метод реализации Не вызывайте этот метод напрямую. |
 | override [CopyFrom](../../aspose.cells.gridweb/gridtableitemstyle/copyfrom)(Style) | Копирует из другого объекта стиля. |
-| override [GetHashCode](../../aspose.cells.gridweb/gridtableitemstyle/gethashcode)() | Служит хеш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица. |
+| override [GetHashCode](../../aspose.cells.gridweb/gridtableitemstyle/gethashcode)() | Служит хеш-функцией для определенного типа, подходящей для использования в алгоритмах хэширования и структурах данных, таких как хэш-таблица. |
 | override [MergeWith](../../aspose.cells.gridweb/gridtableitemstyle/mergewith)(Style) | Сливается с другим объектом стиля. |
 
 ### Примеры

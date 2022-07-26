@@ -27,16 +27,16 @@ public class XpsSaveOptions : SaveOptions
 | --- | --- |
 | [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder) { get; set; } | 缓存的文件夹是用来存放一些大数据的。 |
 | [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | 保存文件后使工作簿为空。 |
-| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | 如果为true且目录不存在，则在保存文件之前会自动创建目录。 |
+| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | 如果为true且目录不存在，会在保存文件前自动创建目录。 |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | 表示是否在保存文件之前合并条件格式和验证区域。 |
-| [OnePagePerSheet](../../aspose.cells/xpssaveoptions/onepagepersheet) { get; set; } | 如果 OnePagePerSheet 为 true ，则结果中一张表的所有内容将仅输出到一页。 pagesetup 的纸张大小会失效，pagesetup 的其他设置仍然有效。 |
+| [OnePagePerSheet](../../aspose.cells/xpssaveoptions/onepagepersheet) { get; set; } | 如果 OnePagePerSheet 为 true ，则一张表的所有内容将只输出到结果中的一页。 pagesetup 的纸张大小会失效，pagesetup 的其他设置仍然有效。 |
 | [PageCount](../../aspose.cells/xpssaveoptions/pagecount) { get; set; } | 获取或设置要保存的页数。 |
-| [PageIndex](../../aspose.cells/xpssaveoptions/pageindex) { get; set; } | 获取或设置要保存的第一页的从 0 开始的索引。 |
+| [PageIndex](../../aspose.cells/xpssaveoptions/pageindex) { get; set; } | 获取或设置要保存的第一页的从0开始的索引。 |
 | [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | 表示是否刷新图表缓存数据 |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | 获取保存文件格式。 |
 | [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | 表示是否在保存文件之前对外部定义的名称进行排序。 |
 | [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | 表示是否在保存文件之前对定义的名称进行排序。 |
-| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | 表示是否更新智能艺术设置。 默认值为假。 |
+| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | 表示是否更新智能艺术设置。 默认值为false。 |
 | [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas) { get; set; } | 表示是否在保存文件之前验证合并的单元格。 |
 | [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | 获取或设置警告回调。 |
 

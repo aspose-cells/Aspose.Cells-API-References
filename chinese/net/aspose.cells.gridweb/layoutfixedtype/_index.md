@@ -1,14 +1,14 @@
 ---
 title: LayoutFixedType
 second_title: Aspose.Cells for .NET API 参考
-description: 表格对象的布局固定类型
+description: 表对象的布局固定类型
 type: docs
 weight: 830
 url: /zh/net/aspose.cells.gridweb/layoutfixedtype/
 ---
 ## LayoutFixedType enumeration
 
-表格对象的布局固定类型。
+表对象的布局固定类型。
 
 ```csharp
 public enum LayoutFixedType
@@ -19,8 +19,8 @@ public enum LayoutFixedType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | NotSet | `0` | 未设置。 |
-| Fixed | `1` | 已修复。 |
-| Auto | `2` | 自动。 |
+| Fixed | `1` | 固定。 |
+| Auto | `2` | 自动. |
 
 ### 也可以看看
 

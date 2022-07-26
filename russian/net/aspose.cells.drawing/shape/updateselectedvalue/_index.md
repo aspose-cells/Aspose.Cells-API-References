@@ -19,8 +19,8 @@ public void UpdateSelectedValue()
 ```csharp
 
 [C#]
-  //Инициализировать новую книгу.
-  //Рабочая книга = новая рабочая книга();
+// Инициализировать новую книгу.
+//Книга рабочей книги = новая рабочая книга();
 
 Cell cell = null;
 for (int i = 0; i< 10; ++i)
@@ -29,43 +29,43 @@ for (int i = 0; i< 10; ++i)
     cell.Value = i + 1;
 }
    
-  //Создаем ListBox object
+//Создаем объект ListBox
 
-  //Элементы управления ActiveX
-  //Aspose.Cells.Drawing.Shape listBox = book.Worksheets[0].Shapes.AddActiveXControl( Aspose.Cells.Drawing.ActiveXControls.ControlType.ListBox,2, 0, 2, 0, 130, 130);
+//Элементы управления ActiveX
+//Aspose.Cells.Drawing.Shape listBox = book.Worksheets[0].Shapes.AddActiveXControl( Aspose.Cells.Drawing.ActiveXControls.ControlType.ListBox,2, 0, 2, 0, 130, 130);
 
-  //Форма Controls
+//Элементы управления формой
 Aspose.Cells.Drawing.Shape listBox = book.Worksheets[0].Shapes.AddListBox(2, 0, 2, 0, 130, 130);
 
-  //Устанавливает диапазон, используемый для заполнения элемента управления.
+//Устанавливает диапазон, используемый для заполнения элемента управления.
 listBox.SetInputRange("$A$1:$A$6", false, false);
 
-  //Устанавливает диапазон, связанный со значением элемента управления.
+//Устанавливает диапазон, связанный со значением элемента управления.
 listBox.SetLinkedCell("$A$12", false, true);
 
 ListBox listbx = (ListBox)listBox;
 
-  //Установить значение ячейки A12
+//Установить значение ячейки A12
 cell = book.Worksheets[0].Cells[11, 0];
 cell.Value = 3;
 
-   // Обновить выбранное значение значением связанной ячейки.
+// Обновить выбранное значение значением связанной ячейки.
 listBox.UpdateSelectedValue();
 
-  //-1 по умолчанию, без опции selected
+//-1 по умолчанию, опция не выбрана
 if(listbx.IsSelected(2))
 {
-    // Вариант 3 ListBox выбран
+    //Выбран вариант 3 ListBox
 }
 
-  //Изменить значение связанной ячейки cell
+//Изменить значение связанной ячейки
 cell.Value = 4;
 
-   // Обновить выбранное значение значением связанной ячейки.
+// Обновить выбранное значение значением связанной ячейки.
 listBox.UpdateSelectedValue();
 if(listbx.IsSelected(3))
 {
-      // Вариант 4 ListBox выбран
+    //Выбран вариант 4 ListBox
 }
 
 ```

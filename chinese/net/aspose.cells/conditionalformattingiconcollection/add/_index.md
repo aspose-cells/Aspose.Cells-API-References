@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 添加ConditionalFormattingIconaspose.cells/conditionalformattingicon对象
+description: 添加ConditionalFormattingIconaspose.cells/conditionalformattingicon对象.
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/conditionalformattingiconcollection/add/
 ---
 ## Add(IconSetType, int) {#add_1}
 
-添加[`ConditionalFormattingIcon`](../../conditionalformattingicon)对象。
+添加[`ConditionalFormattingIcon`](../../conditionalformattingicon)对象.
 
 ```csharp
 public int Add(IconSetType type, int index)
@@ -34,7 +34,7 @@ public int Add(IconSetType type, int index)
 
 ## Add(ConditionalFormattingIcon) {#add}
 
-添加[`ConditionalFormattingIcon`](../../conditionalformattingicon)对象。
+添加[`ConditionalFormattingIcon`](../../conditionalformattingicon)对象.
 
 ```csharp
 public int Add(ConditionalFormattingIcon cficon)

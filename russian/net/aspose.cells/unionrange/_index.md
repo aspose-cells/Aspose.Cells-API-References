@@ -42,11 +42,11 @@ public class UnionRange
 | [Intersect](../../aspose.cells/unionrange/intersect#intersect_2)(string) | Пересекает другой диапазон. |
 | [Intersect](../../aspose.cells/unionrange/intersect#intersect_1)(UnionRange) | Пересекает другой диапазон. |
 | [Merge](../../aspose.cells/unionrange/merge)() | Объединяет диапазон ячеек в одну ячейку. |
-| [PutValue](../../aspose.cells/unionrange/putvalue)(string, bool, bool) | Помещает значение в диапазон, при необходимости значение будет преобразовано в другой тип данных, а формат номера ячейки будет сброшен. |
+| [PutValue](../../aspose.cells/unionrange/putvalue)(string, bool, bool) | Помещает значение в диапазон, при необходимости значение будет преобразовано в другой тип данных, а числовой формат ячейки будет сброшен. |
 | [SetOutlineBorders](../../aspose.cells/unionrange/setoutlineborders#setoutlineborders)(CellBorderType, Color) | Устанавливает границы контура вокруг диапазона ячеек с одинаковым стилем и цветом границы. |
 | [SetOutlineBorders](../../aspose.cells/unionrange/setoutlineborders#setoutlineborders_1)(CellBorderType[], Color[]) | Устанавливает границы строки вокруг диапазона ячеек. |
 | [SetStyle](../../aspose.cells/unionrange/setstyle)(Style) | Устанавливает стиль диапазона. |
-| [Union](../../aspose.cells/unionrange/union#union)(Range[]) | Объедините диапазоны. |
+| [Union](../../aspose.cells/unionrange/union#union)(Range[]) | Объединить диапазоны. |
 | [Union](../../aspose.cells/unionrange/union#union_2)(string) | Объединение другого диапазона. |
 | [Union](../../aspose.cells/unionrange/union#union_1)(UnionRange) | Объединение другого диапазона. |
 | [UnMerge](../../aspose.cells/unionrange/unmerge)() | Разъединяет объединенные ячейки этого диапазона. |

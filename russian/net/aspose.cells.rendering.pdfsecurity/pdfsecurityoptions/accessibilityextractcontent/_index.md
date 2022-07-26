@@ -1,14 +1,14 @@
 ---
 title: AccessibilityExtractContent
 second_title: Справочник по Aspose.Cells для .NET API
-description: Разрешение на копирование или извлечение содержимого в поддержку доступности для пользователей с ограниченными возможностями или для других целей.
+description: Разрешение на копирование или извлечение контента в поддержку доступности для пользователей с ограниченными возможностями или для других целей.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/accessibilityextractcontent/
 ---
 ## PdfSecurityOptions.AccessibilityExtractContent property
 
-Разрешение на копирование или извлечение содержимого (в поддержку доступности для пользователей с ограниченными возможностями или для других целей).
+Разрешение на копирование или извлечение контента (в поддержку доступности для пользователей с ограниченными возможностями или для других целей).
 
 ```csharp
 public bool AccessibilityExtractContent { get; set; }

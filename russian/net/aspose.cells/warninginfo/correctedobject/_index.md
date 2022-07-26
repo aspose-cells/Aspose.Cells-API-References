@@ -1,14 +1,14 @@
 ---
 title: CorrectedObject
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает исправленный объект.
+description: Получает и устанавливает исправленный объект.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/warninginfo/correctedobject/
 ---
 ## WarningInfo.CorrectedObject property
 
-Получает и задает исправленный объект.
+Получает и устанавливает исправленный объект.
 
 ```csharp
 public object CorrectedObject { get; set; }

@@ -16,7 +16,7 @@ public void AddRowAreaCondition(string fieldName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldName | String | PivotField 的名称。 |
+| fieldName | String | 数据透视字段的名称。 |
 
 ### 也可以看看
 
@@ -36,7 +36,7 @@ public void AddRowAreaCondition(PivotField rowField)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rowField | PivotField | 行字段中的数据透视字段。 |
+| rowField | PivotField | 行字段中的 PivotField。 |
 
 ### 也可以看看
 

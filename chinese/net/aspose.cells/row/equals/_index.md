@@ -20,7 +20,7 @@ public bool Equals(object obj)
 
 ### 返回值
 
-如果两个对象引用同一行。
+如果两个对象引用同一行，则为 true。
 
 ### 也可以看看
 
@@ -44,7 +44,7 @@ public bool Equals(Row row)
 
 ### 返回值
 
-如果两个行对象引用，则为 true到同一行。
+如果两个行对象引用同一行，则为 true。
 
 ### 也可以看看
 

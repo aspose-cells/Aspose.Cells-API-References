@@ -1,14 +1,14 @@
 ---
 title: Parameters
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПолучаетConnectionParameterCollectionaspose.cells.externalconnections/connectionparametercollectionдля ODBC или веб-запроса.
+description: получаетConnectionParameterCollectionaspose.cells.externalconnections/connectionparametercollection для ODBC или веб-запроса.
 type: docs
 weight: 120
 url: /ru/net/aspose.cells.externalconnections/externalconnection/parameters/
 ---
 ## ExternalConnection.Parameters property
 
-Получает[`ConnectionParameterCollection`](../../connectionparametercollection)для ODBC или веб-запроса.
+получает[`ConnectionParameterCollection`](../../connectionparametercollection) для ODBC или веб-запроса.
 
 ```csharp
 public ConnectionParameterCollection Parameters { get; }

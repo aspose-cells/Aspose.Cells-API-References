@@ -1,14 +1,14 @@
 ---
 title: SeverCommand
 second_title: Aspose.Cells for .NET API 参考
-description: 指定在使用基于数据透视表服务器的 页面字段时保留的第二个命令文本字符串 对于 ODBC 连接serverCommand 通常是比 command 更广泛的查询没有 WHERE 子句出现在前者中基于这 2 个命令Command 和 ServerCommand可以填充 参数 UI 并可以构造参数化查询
+description: 指定在使用基于数据透视表服务器的 页字段时保留的第二个命令文本字符串 对于 ODBC 连接serverCommand 通常是比 command 更广泛的查询前者中不存在 WHERE 子句基于这 2 个命令Command 和 ServerCommand 可以填充参数 UI 并可以构造参数化查询
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.externalconnections/dbconnection/severcommand/
 ---
 ## DBConnection.SeverCommand property
 
-指定在使用基于数据透视表服务器的 页面字段时保留的第二个命令文本字符串。 对于 ODBC 连接，serverCommand 通常是比 command 更广泛的查询（没有 WHERE 子句出现在前者中）。基于这 2 个命令（Command 和 ServerCommand），可以填充 参数 UI 并可以构造参数化查询
+指定在使用基于数据透视表服务器的 页字段时保留的第二个命令文本字符串。 对于 ODBC 连接，serverCommand 通常是比 command 更广泛的查询（前者中不存在 WHERE 子句）。基于这 2 个命令（Command 和 ServerCommand）， 可以填充参数 UI 并可以构造参数化查询
 
 ```csharp
 public string SeverCommand { get; set; }

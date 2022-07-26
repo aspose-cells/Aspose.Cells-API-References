@@ -1,14 +1,14 @@
 ---
 title: BackWall
 second_title: Aspose.Cells for .NET API 参考
-description: 返回一个Wallsaspose.cells.charts/chart/walls对象该对象表示 3-D 图表的后墙
+description: 返回一个Wallsaspose.cells.charts/chart/walls表示 3-D 图表后壁的对象
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.charts/chart/backwall/
 ---
 ## Chart.BackWall property
 
-返回一个[`Walls`](../walls)对象，该对象表示 3-D 图表的后墙。
+返回一个[`Walls`](../walls)表示 3-D 图表后壁的对象。
 
 ```csharp
 public Walls BackWall { get; }

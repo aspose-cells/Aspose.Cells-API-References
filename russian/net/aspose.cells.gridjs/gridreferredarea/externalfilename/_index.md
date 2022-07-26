@@ -1,14 +1,14 @@
 ---
 title: ExternalFileName
 second_title: Справочник по Aspose.Cells для .NET API
-description: this.KeepedRels  source.KeepedRels
+description: this.KeepedRels  источник.KeepedRels
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.gridjs/gridreferredarea/externalfilename/
 ---
 ## GridReferredArea.ExternalFileName property
 
-this.KeepedRels = source.KeepedRels;
+this.KeepedRels = источник.KeepedRels;
 
 ```csharp
 public string ExternalFileName { get; }

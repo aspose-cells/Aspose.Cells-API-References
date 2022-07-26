@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.gridweb.data/gridpicture/originalwidth/
 ---
 ## GridPicture.OriginalWidth property
 
-获取图片的原始宽度。
+获取图片的原始宽度
 
 ```csharp
 public int OriginalWidth { get; }

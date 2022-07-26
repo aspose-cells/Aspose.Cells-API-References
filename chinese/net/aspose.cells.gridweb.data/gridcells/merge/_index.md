@@ -18,12 +18,12 @@ public void Merge(int firstRow, int firstColumn, int totalRows, int totalColumns
 | --- | --- | --- |
 | firstRow | Int32 | 此范围的第一行（从零开始） |
 | firstColumn | Int32 | 此范围的第一列（从零开始） |
-| totalRows | Int32 | 行数（从一个开始） |
-| totalColumns | Int32 | 列数（从一开始） |
+| totalRows | Int32 | 行数（基于一个） |
+| totalColumns | Int32 | 列数（基于一个） |
 
 ### 评论
 
-通过范围内左上角单元格的地址引用合并单元格.
+通过范围内左上角单元格的地址引用合并的单元格。
 
 ### 也可以看看
 

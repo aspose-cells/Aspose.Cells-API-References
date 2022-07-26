@@ -1,14 +1,14 @@
 ---
 title: SolidFill
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектSolidFillaspose.cells.drawing/fillformat/solidfill.
+description: получаетSolidFillaspose.cells.drawing/fillformat/solidfill объект.
 type: docs
 weight: 150
 url: /ru/net/aspose.cells.drawing/fillformat/solidfill/
 ---
 ## FillFormat.SolidFill property
 
-Получает объект`SolidFill`.
+получает`SolidFill` объект.
 
 ```csharp
 public SolidFill SolidFill { get; }

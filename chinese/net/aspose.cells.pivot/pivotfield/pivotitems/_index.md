@@ -1,14 +1,14 @@
 ---
 title: PivotItems
 second_title: Aspose.Cells for .NET API 参考
-description: 获取pivot字段的pivot项
+description: 获取枢轴字段的枢轴项
 type: docs
 weight: 340
 url: /zh/net/aspose.cells.pivot/pivotfield/pivotitems/
 ---
 ## PivotField.PivotItems property
 
-获取pivot字段的pivot项
+获取枢轴字段的枢轴项
 
 ```csharp
 public PivotItemCollection PivotItems { get; }

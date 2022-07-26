@@ -1,14 +1,14 @@
 ---
 title: ContentTypeProperties
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает список объектовContentTypePropertyaspose.cells.properties/contenttypepropertyв книге.
+description: Получает списокContentTypePropertyaspose.cells.properties/contenttypeproperty объекты в книге.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells/workbook/contenttypeproperties/
 ---
 ## Workbook.ContentTypeProperties property
 
-Получает список объектов[`ContentTypeProperty`](../../../aspose.cells.properties/contenttypeproperty)в книге.
+Получает список[`ContentTypeProperty`](../../../aspose.cells.properties/contenttypeproperty) объекты в книге.
 
 ```csharp
 public ContentTypePropertyCollection ContentTypeProperties { get; }

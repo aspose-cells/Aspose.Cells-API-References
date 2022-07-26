@@ -1,14 +1,14 @@
 ---
 title: CaptionVisible
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает или устанавливает виден ли заголовок отображающий Caption слайсера значение по умолчанию - true
+description: Возвращает или устанавливает является ли заголовок отображающий заголовок слайсера видимым значением по умолчанию является true
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.slicers/slicer/captionvisible/
 ---
 ## Slicer.CaptionVisible property
 
-Возвращает или устанавливает, виден ли заголовок, отображающий Caption слайсера значение по умолчанию - true
+Возвращает или устанавливает, является ли заголовок, отображающий заголовок слайсера, видимым значением по умолчанию является true
 
 ```csharp
 public bool CaptionVisible { get; set; }

@@ -53,7 +53,7 @@ public void Process(int sheetIndex, bool isPreserved)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sheetIndex | Int32 | Индекс рабочего листа. |
-| isPreserved | Boolean | Истинно, если нераспознанный интеллектуальный маркер сохраняется. |
+| isPreserved | Boolean | Истинно, если нераспознанный смарт-маркер сохраняется. |
 
 ### Примечания
 

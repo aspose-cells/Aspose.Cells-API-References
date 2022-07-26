@@ -1,14 +1,14 @@
 ---
 title: RefreshChartCache
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает обновляются ли данные кэша диаграммы
+description: Указывает нужно ли обновлять кэш диаграммы data
 type: docs
 weight: 50
 url: /ru/net/aspose.cells/saveoptions/refreshchartcache/
 ---
 ## SaveOptions.RefreshChartCache property
 
-Указывает, обновляются ли данные кэша диаграммы
+Указывает, нужно ли обновлять кэш диаграммы data
 
 ```csharp
 public bool RefreshChartCache { get; set; }

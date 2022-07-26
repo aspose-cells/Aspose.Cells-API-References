@@ -1,14 +1,14 @@
 ---
 title: IsVisible
 second_title: Aspose.Cells for .NET API 参考
-description: 指示此控件是否可见
+description: 表示这个控件是否可见
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.drawing.activexcontrols/activexcontrolbase/isvisible/
 ---
 ## ActiveXControlBase.IsVisible property
 
-指示此控件是否可见。
+表示这个控件是否可见。
 
 ```csharp
 public virtual bool IsVisible { get; set; }

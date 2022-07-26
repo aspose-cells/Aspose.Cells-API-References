@@ -1,14 +1,14 @@
 ---
 title: XErrorBar
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет линейку погрешностей направления X ряда.
+description: Представляет линейку погрешностей направления X серии.
 type: docs
 weight: 480
 url: /ru/net/aspose.cells.charts/series/xerrorbar/
 ---
 ## Series.XErrorBar property
 
-Представляет линейку погрешностей направления X ряда.
+Представляет линейку погрешностей направления X серии.
 
 ```csharp
 public ErrorBar XErrorBar { get; }

@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Справочник по Aspose.Cells для .NET API
-description: Очистить все графики.
+description: Очистить все диаграммы.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.charts/chartcollection/clear/
 ---
 ## ChartCollection.Clear method
 
-Очистить все графики.
+Очистить все диаграммы.
 
 ```csharp
 public void Clear()

@@ -3,7 +3,7 @@ title: GetGroupedRowOutlineLevel
 second_title: Справочник по Aspose.Cells для .NET API
 description: Получает уровень структуры отсчитываемый от нуля строки.
 type: docs
-weight: 730
+weight: 740
 url: /ru/net/aspose.cells/cells/getgroupedrowoutlinelevel/
 ---
 ## Cells.GetGroupedRowOutlineLevel method
@@ -20,7 +20,7 @@ public int GetGroupedRowOutlineLevel(int rowIndex)
 
 ### Возвращаемое значение
 
-Уровень структуры (отсчитываемый от нуля) строки.
+Уровень контура (отсчитываемый от нуля) строки.
 
 ### Примечания
 

@@ -1,14 +1,14 @@
 ---
 title: SecurityDescriptor
 second_title: Aspose.Cells for .NET API 参考
-description: 安全描述符定义了可以编辑此范围而无需提供访问该范围的密码的用户帐户
+description: 安全描述符定义了可以编辑此范围而无需提供访问范围的密码的用户帐户
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/protectedrange/securitydescriptor/
 ---
 ## ProtectedRange.SecurityDescriptor property
 
-安全描述符定义了可以编辑此范围而无需提供访问该范围的密码的用户帐户。
+安全描述符定义了可以编辑此范围而无需提供访问范围的密码的用户帐户。
 
 ```csharp
 public string SecurityDescriptor { get; set; }

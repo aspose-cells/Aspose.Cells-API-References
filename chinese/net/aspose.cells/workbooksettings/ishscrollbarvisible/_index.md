@@ -16,19 +16,19 @@ public bool IsHScrollBarVisible { get; set; }
 
 ### 评论
 
-默认值为真。
+默认值是true。
 
 ### 例子
 
-以下代码使水平滚动条对电子表格不可见。
+以下代码使电子表格的水平滚动条不可见。
 
 ```csharp
 [C#]
- //隐藏Excel文件的水平滚动条
+//隐藏Excel文件的水平滚动条。
 settings.IsHScrollBarVisible = false;
 
 [Visual Basic]
-'隐藏Excel文件的水平滚动条
+'隐藏 Excel 文件的水平滚动条。
 settings.IsHScrollBarVisible = False
 ```
 

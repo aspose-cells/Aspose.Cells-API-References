@@ -1,14 +1,14 @@
 ---
 title: Unmerge
 second_title: Aspose.Cells for .NET API 参考
-description: 将指定范围的单元格合并为一个单元格
+description: 将指定范围的单元格取消合并为单个单元格
 type: docs
 weight: 1140
 url: /zh/net/aspose.cells.griddesktop/worksheet/unmerge/
 ---
 ## Unmerge(CellRange) {#unmerge_1}
 
-将指定范围的单元格合并为一个单元格。
+将指定范围的单元格取消合并为单个单元格。
 
 ```csharp
 public void Unmerge(CellRange r)
@@ -16,7 +16,7 @@ public void Unmerge(CellRange r)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| r | CellRange | 此范围的单元格范围（从零开始） |
+| r | CellRange | 此范围的 CellRange（从零开始） |
 
 ### 评论
 

@@ -1,14 +1,14 @@
 ---
 title: DefaultX
 second_title: Aspose.Cells for .NET API 参考
-description: 表示默认位置的 x
+description: 代表默认位置的 x
 type: docs
 weight: 70
 url: /zh/net/aspose.cells.charts/chartframe/defaultx/
 ---
 ## ChartFrame.DefaultX property
 
-表示默认位置的 x
+代表默认位置的 x
 
 ```csharp
 public int DefaultX { get; }

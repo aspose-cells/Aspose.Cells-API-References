@@ -1,14 +1,14 @@
 ---
 title: TableCssId
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает префикс имени типа css например trcoltd и т. д. они содержатся в элементе таблицы который имеет определенный атрибут TableCssId. Значение по умолчанию  .
+description: Получает и устанавливает префикс имени типа css такой как tr col td и т. д. они содержатся в элементе таблицы  который имеет определенный атрибут TableCssId. Значение по умолчанию .
 type: docs
-weight: 460
+weight: 490
 url: /ru/net/aspose.cells/htmlsaveoptions/tablecssid/
 ---
 ## HtmlSaveOptions.TableCssId property
 
-Получает и устанавливает префикс имени типа css, например, tr,col,td и т. д., они содержатся в элементе таблицы который имеет определенный атрибут TableCssId. Значение по умолчанию — «».
+Получает и устанавливает префикс имени типа css, такой как tr, col, td и т. д., они содержатся в элементе таблицы , который имеет определенный атрибут TableCssId. Значение по умолчанию: "".
 
 ```csharp
 public string TableCssId { get; set; }

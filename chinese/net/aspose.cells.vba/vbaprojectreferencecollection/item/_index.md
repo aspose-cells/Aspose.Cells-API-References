@@ -16,7 +16,7 @@ public VbaProjectReference this[int i] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| i | 索引。 |
+| i | 指数。 |
 
 ### 也可以看看
 

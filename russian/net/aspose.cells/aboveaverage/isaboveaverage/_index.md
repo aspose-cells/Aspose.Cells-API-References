@@ -8,7 +8,7 @@ url: /ru/net/aspose.cells/aboveaverage/isaboveaverage/
 ---
 ## AboveAverage.IsAboveAverage property
 
-Получить или установить флаг, указывающий, является ли правило правилом "выше среднего". "true" означает "выше среднего". Значение по умолчанию — true.
+Получить или установить флаг, указывающий, является ли правило правилом «выше среднего». «true» означает «выше среднего». Значение по умолчанию — true.
 
 ```csharp
 public bool IsAboveAverage { get; set; }

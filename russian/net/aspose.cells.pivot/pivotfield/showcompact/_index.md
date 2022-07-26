@@ -1,14 +1,14 @@
 ---
 title: ShowCompact
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает отображать ли метки из следующего поля в том же столбце в представлении сводной таблицы
+description: Указывает отображать ли метки из следующего поля в том же столбце сводной таблицы view
 type: docs
 weight: 380
 url: /ru/net/aspose.cells.pivot/pivotfield/showcompact/
 ---
 ## PivotField.ShowCompact property
 
-Указывает, отображать ли метки из следующего поля в том же столбце в представлении сводной таблицы
+Указывает, отображать ли метки из следующего поля в том же столбце сводной таблицы view
 
 ```csharp
 public bool ShowCompact { get; set; }

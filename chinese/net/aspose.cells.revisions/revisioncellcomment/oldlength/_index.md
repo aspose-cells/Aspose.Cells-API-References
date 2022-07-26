@@ -1,14 +1,14 @@
 ---
 title: OldLength
 second_title: Aspose.Cells for .NET API 参考
-description: 获取此修订中添加的注释文本的长度
+description: 获取此修订中添加的评论文本的长度
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.revisions/revisioncellcomment/oldlength/
 ---
 ## RevisionCellComment.OldLength property
 
-获取此修订中添加的注释文本的长度。
+获取此修订中添加的评论文本的长度。
 
 ```csharp
 public int OldLength { get; }

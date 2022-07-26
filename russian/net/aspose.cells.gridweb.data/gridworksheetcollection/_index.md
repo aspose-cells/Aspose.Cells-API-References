@@ -1,14 +1,14 @@
 ---
 title: GridWorksheetCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Собирает объекты представляющие отдельные строки на листе.
+description: Собирает объекты которые представляют отдельные строки на листе.
 type: docs
 weight: 580
 url: /ru/net/aspose.cells.gridweb.data/gridworksheetcollection/
 ---
 ## GridWorksheetCollection class
 
-Собирает объекты, представляющие отдельные строки на листе.
+Собирает объекты, которые представляют отдельные строки на листе.
 
 ```csharp
 public class GridWorksheetCollection : ICollection, ISerializable
@@ -23,7 +23,7 @@ public class GridWorksheetCollection : ICollection, ISerializable
 | [DefaultFontName](../../aspose.cells.gridweb.data/gridworksheetcollection/defaultfontname) { get; set; } | Получает или задает имя шрифта элемента управления по умолчанию. |
 | [DefaultFontSize](../../aspose.cells.gridweb.data/gridworksheetcollection/defaultfontsize) { get; set; } | Получает или задает размер шрифта элемента управления по умолчанию. |
 | [IsSynchronized](../../aspose.cells.gridweb.data/gridworksheetcollection/issynchronized) { get; } | Получает значение, указывающее, является ли доступ к ICollection синхронизированным (потокобезопасным). |
-| [Item](../../aspose.cells.gridweb.data/gridworksheetcollection/item) { get; } | Получает элементWorksheetпо указанному индексу. (2 indexers) |
+| [Item](../../aspose.cells.gridweb.data/gridworksheetcollection/item) { get; } | ПолучаетWorksheet элемент по указанному индексу. (2 indexers) |
 | [Names](../../aspose.cells.gridweb.data/gridworksheetcollection/names) { get; } | Получает коллекцию всех объектов Name в электронной таблице. |
 | [NumberDecimalSeparator](../../aspose.cells.gridweb.data/gridworksheetcollection/numberdecimalseparator) { get; set; } | Получает или задает десятичный разделитель для форматирования/анализа числовых значений. По умолчанию используется десятичный разделитель текущего региона. |
 | [SyncRoot](../../aspose.cells.gridweb.data/gridworksheetcollection/syncroot) { get; } | Получает объект, который можно использовать для синхронизации доступа к ICollection. |
@@ -35,8 +35,8 @@ public class GridWorksheetCollection : ICollection, ISerializable
 | [Add](../../aspose.cells.gridweb.data/gridworksheetcollection/add#add_1)() | Добавляет рабочий лист в коллекцию. |
 | [Add](../../aspose.cells.gridweb.data/gridworksheetcollection/add#add_2)(object) | Добавляет объект листа. |
 | [Add](../../aspose.cells.gridweb.data/gridworksheetcollection/add#add)(string) | Добавляет рабочий лист в коллекцию. |
-| [AddCopy](../../aspose.cells.gridweb.data/gridworksheetcollection/addcopy#addcopy)(int) | Добавляет рабочий лист в коллекцию и копирует данные из существующего рабочего листа. |
-| [AddCopy](../../aspose.cells.gridweb.data/gridworksheetcollection/addcopy#addcopy_1)(string) | Добавляет рабочий лист в коллекцию и копирует данные из существующего рабочего листа. |
+| [AddCopy](../../aspose.cells.gridweb.data/gridworksheetcollection/addcopy#addcopy)(int) | Добавляет лист в коллекцию и копирует данные из существующего листа. |
+| [AddCopy](../../aspose.cells.gridweb.data/gridworksheetcollection/addcopy#addcopy_1)(string) | Добавляет лист в коллекцию и копирует данные из существующего листа. |
 | [CalculateFormula](../../aspose.cells.gridweb.data/gridworksheetcollection/calculateformula)() | Вычисляет результат формул. |
 | [Clear](../../aspose.cells.gridweb.data/gridworksheetcollection/clear)() | Очистить все листы. |
 | [CopyTo](../../aspose.cells.gridweb.data/gridworksheetcollection/copyto)(Array, int) | Копирует содержимое в массив. |

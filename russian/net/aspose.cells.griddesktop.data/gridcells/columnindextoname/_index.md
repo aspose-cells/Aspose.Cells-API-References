@@ -1,14 +1,14 @@
 ---
 title: ColumnIndexToName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает имя столбца по индексу столбца.
+description: Получает имя столбца в соответствии с индексом столбца.
 type: docs
 weight: 770
 url: /ru/net/aspose.cells.griddesktop.data/gridcells/columnindextoname/
 ---
 ## GridCells.ColumnIndexToName method
 
-Получает имя столбца по индексу столбца.
+Получает имя столбца в соответствии с индексом столбца.
 
 ```csharp
 public static string ColumnIndexToName(int column)

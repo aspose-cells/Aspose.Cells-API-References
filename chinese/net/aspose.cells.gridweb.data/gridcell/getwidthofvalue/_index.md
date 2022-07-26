@@ -1,14 +1,14 @@
 ---
 title: GetWidthOfValue
 second_title: Aspose.Cells for .NET API 参考
-description: 获取值的宽度以像素为单位
+description: 以像素为单位获取值的宽度
 type: docs
 weight: 260
 url: /zh/net/aspose.cells.gridweb.data/gridcell/getwidthofvalue/
 ---
 ## GridCell.GetWidthOfValue method
 
-获取值的宽度，以像素为单位。
+以像素为单位获取值的宽度。
 
 ```csharp
 public int GetWidthOfValue()

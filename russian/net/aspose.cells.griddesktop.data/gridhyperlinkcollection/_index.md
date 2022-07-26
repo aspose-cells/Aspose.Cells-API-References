@@ -1,14 +1,14 @@
 ---
 title: GridHyperlinkCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует набор объектовHyperlink.
+description: Инкапсулирует наборHyperlinkобъекты.
 type: docs
 weight: 490
 url: /ru/net/aspose.cells.griddesktop.data/gridhyperlinkcollection/
 ---
 ## GridHyperlinkCollection class
 
-Инкапсулирует набор объектовHyperlink.
+Инкапсулирует наборHyperlinkобъекты.
 
 ```csharp
 public class GridHyperlinkCollection
@@ -19,18 +19,18 @@ public class GridHyperlinkCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/count) { get; } |  |
-| [Item](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/item) { get; } | Получает элементHyperlinkпо указанному индексу. (2 indexers) |
+| [Item](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/item) { get; } | ПолучаетHyperlink элемент по указанному индексу. (2 indexers) |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add#add_2)(string, string) | Добавляет гиперссылку в указанную ячейку. |
-| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add#add_4)(int, int, string) | Добавляет гиперссылку на указанную ячейку по индексу столбца строки. |
-| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add#add_1)(string, int, int, string) | Добавляет гиперссылку на указанную ячейку или диапазон ячеек. |
-| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add#add)(int, int, int, int, string) | Добавляет гиперссылку на указанную ячейку или диапазон ячеек. |
-| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add#add_3)(string, string, string, string, string) | Добавляет гиперссылку на указанную ячейку или диапазон ячеек. |
-| [Clear](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/clear)() | Очищает все гиперссылки. |
+| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add#add_2)(string, string) | Добавляет гиперссылку в указанную ячейку . |
+| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add#add_4)(int, int, string) | Добавляет гиперссылку в указанную ячейку в индексе столбца строки. |
+| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add#add_1)(string, int, int, string) | Добавляет гиперссылку к указанной ячейке или диапазону ячеек. |
+| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add#add)(int, int, int, int, string) | Добавляет гиперссылку к указанной ячейке или диапазону ячеек. |
+| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add#add_3)(string, string, string, string, string) | Добавляет гиперссылку к указанной ячейке или диапазону ячеек. |
+| [Clear](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/clear)() | Удаляет все гиперссылки. |
 | [Remove](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/remove)(int, int) |  |
 | [RemoveAt](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/removeat)(int) | Удалить гиперссылку по указанному индексу. |
 

@@ -18,7 +18,7 @@ public class SlicerCacheItem
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Selected](../../aspose.cells.slicers/slicercacheitem/selected) { get; set; } | 指定是否选择 SlicerItem。 |
+| [Selected](../../aspose.cells.slicers/slicercacheitem/selected) { get; set; } | 指定 SlicerItem 是否被选中。 |
 | [Value](../../aspose.cells.slicers/slicercacheitem/value) { get; } | 返回切片器项目的标签文本。只读。 |
 
 ### 也可以看看

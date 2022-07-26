@@ -1,14 +1,14 @@
 ---
 title: IsMultiEncoded
 second_title: Aspose.Cells for .NET API 参考
-description: True 表示文件包含多个编码
+description: 真表示文件包含几种编码
 type: docs
 weight: 50
 url: /zh/net/aspose.cells/txtloadoptions/ismultiencoded/
 ---
 ## TxtLoadOptions.IsMultiEncoded property
 
-True 表示文件包含多个编码。
+真表示文件包含几种编码。
 
 ```csharp
 public bool IsMultiEncoded { get; set; }

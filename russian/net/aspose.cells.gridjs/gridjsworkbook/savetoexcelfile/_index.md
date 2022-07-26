@@ -1,14 +1,14 @@
 ---
 title: SaveToExcelFile
 second_title: Справочник по Aspose.Cells для .NET API
-description: Сохраняет рабочие листы в поток на основе исходного формата файла.
+description: Сохраняет рабочие листы в поток на основе исходного формата файла .
 type: docs
 weight: 140
 url: /ru/net/aspose.cells.gridjs/gridjsworkbook/savetoexcelfile/
 ---
 ## SaveToExcelFile(Stream) {#savetoexcelfile}
 
-Сохраняет рабочие листы в поток на основе исходного формата файла.
+Сохраняет рабочие листы в поток на основе исходного формата файла .
 
 ```csharp
 public void SaveToExcelFile(Stream stream)
@@ -28,7 +28,7 @@ public void SaveToExcelFile(Stream stream)
 
 ## SaveToExcelFile(string) {#savetoexcelfile_1}
 
-Сохраняет рабочие листы по пути к файлу, если файл имеет расширение, формат сохранения основан на расширении файла.
+Сохраняет рабочие листы по пути к файлу, если файл имеет расширение, формат сохранения основан на расширении файла .
 
 ```csharp
 public void SaveToExcelFile(string path)

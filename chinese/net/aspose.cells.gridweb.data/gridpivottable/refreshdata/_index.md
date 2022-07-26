@@ -1,14 +1,14 @@
 ---
 title: RefreshData
 second_title: Aspose.Cells for .NET API 参考
-description: 刷新数据透视表的数据并从其数据源设置
+description: 刷新数据透视表的数据并从它的数据源设置
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.gridweb.data/gridpivottable/refreshdata/
 ---
 ## GridPivotTable.RefreshData method
 
-刷新数据透视表的数据并从其数据源设置。
+刷新数据透视表的数据并从它的数据源设置。
 
 ```csharp
 public void RefreshData()
@@ -16,7 +16,7 @@ public void RefreshData()
 
 ### 评论
 
-我们将从数据源收集数据到数据透视缓存，然后将缓存中的数据计算为细胞。 此方法仅用于将所有数据收集到数据透视缓存。
+我们将从数据源收集数据到数据透视缓存，然后将缓存中的数据计算到单元格。 此方法仅用于将所有数据收集到数据透视缓存。
 
 ### 也可以看看
 

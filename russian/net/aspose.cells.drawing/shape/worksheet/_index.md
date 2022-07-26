@@ -1,14 +1,14 @@
 ---
 title: Worksheet
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектWorksheetaspose.cells.drawing/shape/worksheet содержащий эту фигуру.
+description: ПолучаетWorksheetaspose.cells.drawing/shape/worksheet объект который содержит эту форму.
 type: docs
 weight: 930
 url: /ru/net/aspose.cells.drawing/shape/worksheet/
 ---
 ## Shape.Worksheet property
 
-Получает объект`Worksheet`, содержащий эту фигуру.
+Получает`Worksheet` объект, который содержит эту форму.
 
 ```csharp
 public Worksheet Worksheet { get; }

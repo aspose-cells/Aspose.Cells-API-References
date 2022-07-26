@@ -1,14 +1,14 @@
 ---
 title: IsXmlMap
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否将xml映射到Excel 默认值为假
+description: 表示是否将xml映射到Excel 默认值为false
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/xmlloadoptions/isxmlmap/
 ---
 ## XmlLoadOptions.IsXmlMap property
 
-表示是否将xml映射到Excel。 默认值为假。
+表示是否将xml映射到Excel。 默认值为false。
 
 ```csharp
 public bool IsXmlMap { get; set; }

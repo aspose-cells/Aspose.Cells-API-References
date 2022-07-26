@@ -1,14 +1,14 @@
 ---
 title: TextVerticalOverflow
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置包含文本的形状的文本垂直溢出类型
+description: 获取并设置包含文本的形状的文本垂直溢出类型
 type: docs
 weight: 740
 url: /zh/net/aspose.cells.drawing/shape/textverticaloverflow/
 ---
 ## Shape.TextVerticalOverflow property
 
-获取和设置包含文本的形状的文本垂直溢出类型。
+获取并设置包含文本的形状的文本垂直溢出类型。
 
 ```csharp
 public TextOverflowType TextVerticalOverflow { get; set; }

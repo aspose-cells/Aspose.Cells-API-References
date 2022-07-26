@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задаетColorграницы.
+description: Получает или задаетColor границы.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/border/color/
 ---
 ## Border.Color property
 
-Получает или задаетColorграницы.
+Получает или задаетColor границы.
 
 ```csharp
 public Color Color { get; set; }

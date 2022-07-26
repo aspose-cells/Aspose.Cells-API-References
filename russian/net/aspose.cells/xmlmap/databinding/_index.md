@@ -1,14 +1,14 @@
 ---
 title: DataBinding
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПолучаетXmlDataBindingaspose.cells/xmldatabindingэтой карты.
+description: ПолучаетXmlDataBindingaspose.cells/xmldatabinding этой карты.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/xmlmap/databinding/
 ---
 ## XmlMap.DataBinding property
 
-Получает[`XmlDataBinding`](../../xmldatabinding)этой карты.
+Получает[`XmlDataBinding`](../../xmldatabinding) этой карты.
 
 ```csharp
 public XmlDataBinding DataBinding { get; }

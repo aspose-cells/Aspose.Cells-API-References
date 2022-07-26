@@ -1,14 +1,14 @@
 ---
 title: GetTableRowTypeOfAll
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает имя типа строк таблицы состоящее из всех строк в указанной таблице. По умолчанию Все поэтому в формуле Все представляет все строки в таблице на которую ссылаются.
+description: Получает имя типа строк таблицы которые состоят из всех строк в таблице на которую ссылаются.
 type: docs
 weight: 250
 url: /ru/net/aspose.cells/globalizationsettings/gettablerowtypeofall/
 ---
 ## GlobalizationSettings.GetTableRowTypeOfAll method
 
-Получает имя типа строк таблицы, состоящее из всех строк в указанной таблице. По умолчанию "Все", поэтому в формуле "#Все" представляет все строки в таблице, на которую ссылаются.
+Получает имя типа строк таблицы, которые состоят из всех строк в таблице, на которую ссылаются.
 
 ```csharp
 public virtual string GetTableRowTypeOfAll()

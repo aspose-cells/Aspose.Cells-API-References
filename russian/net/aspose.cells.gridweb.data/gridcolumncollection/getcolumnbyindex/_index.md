@@ -1,14 +1,14 @@
 ---
 title: GetColumnByIndex
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектColumnпо позиции в списке.
+description: ПолучаетColumnобъект по позиции в списке.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.gridweb.data/gridcolumncollection/getcolumnbyindex/
 ---
 ## GridColumnCollection.GetColumnByIndex method
 
-Получает объектColumnпо позиции в списке.
+ПолучаетColumnобъект по позиции в списке.
 
 ```csharp
 public GridColumn GetColumnByIndex(int index)

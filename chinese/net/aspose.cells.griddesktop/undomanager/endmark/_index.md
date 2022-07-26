@@ -1,14 +1,14 @@
 ---
 title: EndMark
 second_title: Aspose.Cells for .NET API 参考
-description: 结束以标记更改
+description: 结束标记更改
 type: docs
 weight: 90
 url: /zh/net/aspose.cells.griddesktop/undomanager/endmark/
 ---
 ## UndoManager.EndMark method
 
-结束以标记更改。
+结束标记更改。
 
 ```csharp
 public void EndMark()

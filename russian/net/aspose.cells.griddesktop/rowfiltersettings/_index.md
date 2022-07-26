@@ -19,8 +19,8 @@ public class RowFilterSettings : IComparer
 | Имя | Описание |
 | --- | --- |
 | [Criteria](../../aspose.cells.griddesktop/rowfiltersettings/criteria) { get; set; } | Строка критериев фильтра. |
-| [EnableAutoFilter](../../aspose.cells.griddesktop/rowfiltersettings/enableautofilter) { get; set; } | Включает автоматическую фильтрацию. HeaderRow будет отображать раскрывающиеся кнопки, позволяющие пользователю выбрать значение столбца для фильтрации. |
-| [EndCol](../../aspose.cells.griddesktop/rowfiltersettings/endcol) { get; set; } | Конечный номер столбца диапазона фильтра. |
+| [EnableAutoFilter](../../aspose.cells.griddesktop/rowfiltersettings/enableautofilter) { get; set; } | Включает автоматическую фильтрацию. В HeaderRow будут отображаться кнопки раскрывающегося списка, позволяющие пользователю выбрать значение столбца для фильтрации. |
+| [EndCol](../../aspose.cells.griddesktop/rowfiltersettings/endcol) { get; set; } | Номер конечного столбца диапазона фильтра. |
 | [HeaderRow](../../aspose.cells.griddesktop/rowfiltersettings/headerrow) { get; set; } | Номер строки заголовка, в которой будут отображаться кнопки раскрывающегося списка фильтров. |
 | [StartCol](../../aspose.cells.griddesktop/rowfiltersettings/startcol) { get; set; } | Номер начального столбца диапазона фильтра. |
 
@@ -29,8 +29,8 @@ public class RowFilterSettings : IComparer
 | Имя | Описание |
 | --- | --- |
 | [Compare](../../aspose.cells.griddesktop/rowfiltersettings/compare)(object, object) | только для внутреннего использования. |
-| [CustomRows](../../aspose.cells.griddesktop/rowfiltersettings/customrows#customrows)(int, GridFilterOperatorType, object) | Фильтрует список по заданным критериям. |
-| [CustomRows](../../aspose.cells.griddesktop/rowfiltersettings/customrows#customrows_1)(int, GridFilterOperatorType, object, bool, GridFilterOperatorType, object) | Фильтрует список по заданным критериям. |
+| [CustomRows](../../aspose.cells.griddesktop/rowfiltersettings/customrows#customrows)(int, GridFilterOperatorType, object) | Фильтрует список с пользовательскими критериями. |
+| [CustomRows](../../aspose.cells.griddesktop/rowfiltersettings/customrows#customrows_1)(int, GridFilterOperatorType, object, bool, GridFilterOperatorType, object) | Фильтрует список с пользовательскими критериями. |
 | [FilterRows](../../aspose.cells.griddesktop/rowfiltersettings/filterrows)(int, string) | Фильтрует строки, используя строку критериев. |
 | [ShowAll](../../aspose.cells.griddesktop/rowfiltersettings/showall)() | Показать все строки. |
 

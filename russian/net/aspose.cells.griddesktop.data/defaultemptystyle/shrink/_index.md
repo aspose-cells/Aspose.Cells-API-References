@@ -1,14 +1,14 @@
 ---
 title: Shrink
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает атрибут Shrink to fit.
+description: Получает или задает сжатие по размеру атрибута.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.griddesktop.data/defaultemptystyle/shrink/
 ---
 ## DefaultEmptyStyle.Shrink field
 
-Получает или задает атрибут Shrink to fit.
+Получает или задает сжатие по размеру атрибута.
 
 ```csharp
 public bool Shrink;

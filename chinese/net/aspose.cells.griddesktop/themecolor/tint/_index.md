@@ -1,14 +1,14 @@
 ---
 title: Tint
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置色调值 色调值存储为从 -1.0 .. 1.0 开始的双精度值其中 -1.0 表示 100 变暗1.0 表示 100 变亮此外0.0 表示没有变化
+description: 获取和设置色调值 色调值存储为从 -1.0 到 1.0 的双精度值其中 -1.0 表示 100 变暗1.0 表示 100 变亮此外0.0 表示没有变化
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.griddesktop/themecolor/tint/
 ---
 ## ThemeColor.Tint property
 
-获取和设置色调值。 色调值存储为从 -1.0 .. 1.0 开始的双精度值，其中 -1.0 表示 100% 变暗，1.0 表示 100% 变亮。此外，0.0 表示没有变化。
+获取和设置色调值。 色调值存储为从 -1.0 到 1.0 的双精度值，其中 -1.0 表示 100% 变暗，1.0 表示 100% 变亮。此外，0.0 表示没有变化。
 
 ```csharp
 public double Tint { get; set; }

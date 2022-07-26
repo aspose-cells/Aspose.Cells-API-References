@@ -25,7 +25,7 @@ public class Protection
 | [AllowEditingScenario](../../aspose.cells/protection/alloweditingscenario) { get; set; } | 表示是否允许用户在受保护的工作表上编辑场景。 |
 | [AllowFiltering](../../aspose.cells/protection/allowfiltering) { get; set; } | 表示是否允许用户使用在工作表受到保护之前创建的自动筛选。 |
 | [AllowFormattingCell](../../aspose.cells/protection/allowformattingcell) { get; set; } | 表示是否允许在受保护的工作表上设置单元格格式。 |
-| [AllowFormattingColumn](../../aspose.cells/protection/allowformattingcolumn) { get; set; } | 表示是否允许在受保护的工作表上格式化列 |
+| [AllowFormattingColumn](../../aspose.cells/protection/allowformattingcolumn) { get; set; } | 表示在受保护的工作表上是否允许列格式 |
 | [AllowFormattingRow](../../aspose.cells/protection/allowformattingrow) { get; set; } | 表示是否允许在受保护的工作表上格式化行 |
 | [AllowInsertingColumn](../../aspose.cells/protection/allowinsertingcolumn) { get; set; } | 表示是否允许在受保护的工作表上插入列 |
 | [AllowInsertingHyperlink](../../aspose.cells/protection/allowinsertinghyperlink) { get; set; } | 表示是否允许在受保护的工作表上插入超链接 |
@@ -50,25 +50,23 @@ public class Protection
 ```csharp
 
 [C#]
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 
 Worksheet worksheet = workbook.Worksheets[0];
- //允许用户选择工作表的锁定单元格
+//允许用户选择工作表的锁定单元格
 worksheet.Protection.AllowSelectingLockedCell = true;
- //允许用户选择worksheet
-
+//允许用户选择工作表的未锁定单元格
 worksheet.Protection.AllowSelectingUnlockedCell = true;  
 
 [Visual Basic]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 '允许用户选择工作表的锁定单元格
 worksheet.Protection.AllowSelectingLockedCell = True
-'允许用户选择worksheet
-
+'允许用户选择工作表的未锁定单元格
 worksheet.Protection.AllowSelectingUnlockedCell = True
 ```
 

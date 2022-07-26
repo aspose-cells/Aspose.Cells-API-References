@@ -16,7 +16,7 @@ public string GetStringValue(CellValueFormatStrategy formatStrategy)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| formatStrategy | CellValueFormatStrategy | 格式化策略。 |
+| formatStrategy | CellValueFormatStrategy | 格式化的策略。 |
 
 ### 也可以看看
 

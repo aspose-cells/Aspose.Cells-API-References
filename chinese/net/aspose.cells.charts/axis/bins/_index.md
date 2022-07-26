@@ -1,14 +1,14 @@
 ---
 title: Bins
 second_title: Aspose.Cells for .NET API 参考
-description: 表示图表直方图/帕累托轴上的 bin
+description: 表示图表上的 bin直方图/Paretoaxis
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.charts/axis/bins/
 ---
 ## Axis.Bins property
 
-表示图表（直方图/帕累托）轴上的 bin
+表示图表上的 bin（直方图/Pareto）axis
 
 ```csharp
 public AxisBins Bins { get; }

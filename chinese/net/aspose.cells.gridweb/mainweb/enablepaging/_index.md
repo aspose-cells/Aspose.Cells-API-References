@@ -16,7 +16,7 @@ public bool EnablePaging { get; set; }
 
 ### 评论
 
-当设置为true时，控件将显示PageSize行数据一次， 并在标签栏中显示页面选择控件。
+设置为true时，控件将显示PageSize行数据一次， 并在标签栏中显示页面选择控件
 
 ### 也可以看看
 

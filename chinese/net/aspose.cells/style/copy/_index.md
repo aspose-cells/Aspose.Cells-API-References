@@ -20,7 +20,7 @@ public void Copy(Style style)
 
 ### 评论
 
-此方法不复制样式名称。 如果要复制名称，请在复制样式后调用以下代码: destStyle.Name = style.Name。
+此方法不复制样式名称。 如果要复制名称，请在复制样式后调用以下代码： destStyle.Name = style.Name。
 
 ### 也可以看看
 

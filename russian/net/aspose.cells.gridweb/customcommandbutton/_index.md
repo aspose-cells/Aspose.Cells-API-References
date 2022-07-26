@@ -1,14 +1,14 @@
 ---
 title: CustomCommandButton
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет кнопку пользовательской команды на панели вкладок элемента управления GridWeb.
+description: Представляет настраиваемую командную кнопку на панели вкладок элемента управления GridWeb.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.gridweb/customcommandbutton/
 ---
 ## CustomCommandButton class
 
-Представляет кнопку пользовательской команды на панели вкладок элемента управления GridWeb.
+Представляет настраиваемую командную кнопку на панели вкладок элемента управления GridWeb.
 
 ```csharp
 public class CustomCommandButton : Control, ISerializable
@@ -24,10 +24,10 @@ public class CustomCommandButton : Control, ISerializable
 
 | Имя | Описание |
 | --- | --- |
-| [ClientClickEvent](../../aspose.cells.gridweb/customcommandbutton/clientclickevent) { get; set; } | Получает или задает обработчик события клика на стороне клиента. |
+| [ClientClickEvent](../../aspose.cells.gridweb/customcommandbutton/clientclickevent) { get; set; } | Получает или задает обработчик события щелчка на стороне клиента. |
 | [Command](../../aspose.cells.gridweb/customcommandbutton/command) { get; set; } | Получает или задает имя команды. |
-| [CommandType](../../aspose.cells.gridweb/customcommandbutton/commandtype) { get; set; } | Получает или задает тип рендеринга команды. Тип может быть командной кнопкой или пунктом контекстного меню. |
-| [DiscardInput](../../aspose.cells.gridweb/customcommandbutton/discardinput) { get; set; } | Указывает, следует ли отбрасывать пользовательский ввод в браузере клиента, когда пользователь нажимает эту кнопку. Может использоваться как действие «отменить». |
+| [CommandType](../../aspose.cells.gridweb/customcommandbutton/commandtype) { get; set; } | Получает или задает тип рендеринга команды. Типом может быть командная кнопка или пункт контекстного меню. |
+| [DiscardInput](../../aspose.cells.gridweb/customcommandbutton/discardinput) { get; set; } | Указывает, следует ли отклонять пользовательский ввод в браузере клиента, когда пользователь нажимает эту кнопку. Может использоваться как действие «отменить». |
 | [ImageUrl](../../aspose.cells.gridweb/customcommandbutton/imageurl) { get; set; } | Получает или задает URL-адрес изображения командной кнопки. Если установлено значение null или пустая строка, кнопка будет отображать только текст. |
 | [Text](../../aspose.cells.gridweb/customcommandbutton/text) { get; set; } | Получает или задает альтернативный текст командной кнопки. |
 | [ToolTip](../../aspose.cells.gridweb/customcommandbutton/tooltip) { get; set; } | Получает или задает всплывающую подсказку командной кнопки. |

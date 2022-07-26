@@ -1,14 +1,14 @@
 ---
 title: Worksheets
 second_title: Aspose.Cells for .NET API 参考
-description: 获取电子表格中的WorksheetCollectionaspose.cells/worksheetcollection集合
+description: 获取WorksheetCollectionaspose.cells/worksheetcollection电子表格中的集合
 type: docs
 weight: 260
 url: /zh/net/aspose.cells/workbook/worksheets/
 ---
 ## Workbook.Worksheets property
 
-获取电子表格中的[`WorksheetCollection`](../../worksheetcollection)集合。
+获取[`WorksheetCollection`](../../worksheetcollection)电子表格中的集合。
 
 ```csharp
 public WorksheetCollection Worksheets { get; }
@@ -16,7 +16,7 @@ public WorksheetCollection Worksheets { get; }
 
 ### 返回值
 
-[`WorksheetCollection`](../../worksheetcollection)集合
+[`WorksheetCollection`](../../worksheetcollection)收藏
 
 ### 也可以看看
 

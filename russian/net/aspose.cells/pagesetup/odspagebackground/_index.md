@@ -1,14 +1,14 @@
 ---
 title: ODSPageBackground
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает предысторию ODS.
+description: Получает фон ODS.
 type: docs
 weight: 220
 url: /ru/net/aspose.cells/pagesetup/odspagebackground/
 ---
 ## PageSetup.ODSPageBackground property
 
-Получает предысторию ODS.
+Получает фон ODS.
 
 ```csharp
 public OdsPageBackground ODSPageBackground { get; }

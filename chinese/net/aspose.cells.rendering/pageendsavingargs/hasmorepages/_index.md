@@ -1,14 +1,14 @@
 ---
 title: HasMorePages
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置一个值指示是否有更多的页面要输出 默认值为真
+description: 获取或设置一个值表示是否有更多页要输出 默认值为true
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.rendering/pageendsavingargs/hasmorepages/
 ---
 ## PageEndSavingArgs.HasMorePages property
 
-获取或设置一个值，指示是否有更多的页面要输出。 默认值为真。
+获取或设置一个值，表示是否有更多页要输出。 默认值为true。
 
 ```csharp
 public bool HasMorePages { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: GetSeriesByOrder
 second_title: Aspose.Cells for .NET API 参考
-description: 按顺序获取Seriesaspose.cells.charts/series元素
+description: 获取Seriesaspose.cells.charts/series按顺序排列元素
 type: docs
 weight: 90
 url: /zh/net/aspose.cells.charts/seriescollection/getseriesbyorder/
 ---
 ## SeriesCollection.GetSeriesByOrder method
 
-按顺序获取[`Series`](../../series)元素。
+获取[`Series`](../../series)按顺序排列元素。
 
 ```csharp
 public Series GetSeriesByOrder(int order)
@@ -16,7 +16,7 @@ public Series GetSeriesByOrder(int order)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| order | Int32 | 系列顺序 |
+| order | Int32 | 系列的顺序 |
 
 ### 返回值
 

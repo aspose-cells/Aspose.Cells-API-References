@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置轴箱的计数
+description: 获取或设置轴箱数
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.charts/axisbins/count/
 ---
 ## AxisBins.Count property
 
-获取或设置轴箱的计数
+获取或设置轴箱数
 
 ```csharp
 public int Count { get; set; }

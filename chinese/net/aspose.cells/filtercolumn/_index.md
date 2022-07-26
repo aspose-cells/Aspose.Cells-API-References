@@ -1,14 +1,14 @@
 ---
 title: FilterColumn
 second_title: Aspose.Cells for .NET API 参考
-description: 表示单个列的过滤器 Filter 对象是 Filters 集合
+description: 表示单个列的过滤器 Filter 对象是 Filters 集合的成员
 type: docs
 weight: 3430
 url: /zh/net/aspose.cells/filtercolumn/
 ---
 ## FilterColumn class
 
-表示单个列的过滤器。 Filter 对象是 Filters 集合
+表示单个列的过滤器。 Filter 对象是 Filters 集合的成员
 
 ```csharp
 public class FilterColumn

@@ -19,121 +19,121 @@ public class ChartPointCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.cells.charts/chartpointcollection/count) { get; } | Получает количество точек на графике. |
-| [Item](../../aspose.cells.charts/chartpointcollection/item) { get; } | Получает элемент[`ChartPoint`](../chartpoint)по указанному индексу в ряду. |
+| [Item](../../aspose.cells.charts/chartpointcollection/item) { get; } | Получает[`ChartPoint`](../chartpoint) элемент по указанному индексу в серии. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [Clear](../../aspose.cells.charts/chartpointcollection/clear)() | Удалить все настройки точек графика. |
-| [GetEnumerator](../../aspose.cells.charts/chartpointcollection/getenumerator)() | Возвращает перечислитель для всего[`ChartPointCollection`](../chartpointcollection). |
+| [GetEnumerator](../../aspose.cells.charts/chartpointcollection/getenumerator)() | Возвращает перечислитель для всего[`ChartPointCollection`](../chartpointcollection) . |
 | [RemoveAt](../../aspose.cells.charts/chartpointcollection/removeat)(int) | Удаляет точку в индексе ряда.. |
 
 ### Примеры
 
 ```csharp
-//Создание экземпляра рабочей книги object
-rkbook workbook = new Workbook();
+//Создание экземпляра объекта Workbook
+Workbook workbook = new Workbook();
 
-Получение ссылки на первый worksheet
-rksheet worksheet = workbook.Worksheets[0];
+//Получение ссылки на первый рабочий лист
+Worksheet worksheet = workbook.Worksheets[0];
 
-//Добавление значения выборки в "A1" cell
-rksheet.Cells["A1"].PutValue(50);
+//Добавление пробного значения в ячейку "A1"
+worksheet.Cells["A1"].PutValue(50);
 
-Добавление значения образца в "A2" cell
-rksheet.Cells["A2"].PutValue(100);
+//Добавление образца значения в ячейку "A2"
+worksheet.Cells["A2"].PutValue(100);
 
-//Добавление значения образца в "A3" cell
-rksheet.Cells["A3"].PutValue(150);
+//Добавление образца значения в ячейку "A3"
+worksheet.Cells["A3"].PutValue(150);
 
-//Добавление образца значения в "B1" cell
-rksheet.Cells["B1"].PutValue(60);
+//Добавление образца значения в ячейку "B1"
+worksheet.Cells["B1"].PutValue(60);
 
-//Добавление значения образца в "B2" cell
-rksheet.Cells["B2"].PutValue(32);
+//Добавление образца значения в ячейку "B2"
+worksheet.Cells["B2"].PutValue(32);
 
-//Добавление значения образца в "B3" cell
-rksheet.Cells["B3"].PutValue(50);
+//Добавление образца значения в ячейку "B3"
+worksheet.Cells["B3"].PutValue(50);
 
-//Добавление диаграммы на лист
-t chartIndex = worksheet.Charts.Add(ChartType.PieExploded, 5, 0, 25, 10);
+//Добавляем диаграмму на рабочий лист
+int chartIndex = worksheet.Charts.Add(ChartType.PieExploded, 5, 0, 25, 10);
 
-//Доступ к экземпляру только что добавленного chart
-art chart = worksheet.Charts[chartIndex];
+//Доступ к экземпляру только что добавленного графика
+Chart chart = worksheet.Charts[chartIndex];
 
 //Добавление NSeries (источника данных диаграммы) на диаграмму в диапазоне от ячейки "A1" до "B3"
-art.NSeries.Add("A1:B3", true);
+chart.NSeries.Add("A1:B3", true);
 
 //Показать метки данных 
-art.NSeries[0].DataLabels.IsValueShown = true;
+chart.NSeries[0].DataLabels.IsValueShown = true;
 
-artPointCollection points = chart.NSeries[0].Points;
+ChartPointCollection points = chart.NSeries[0].Points;
 
-r (int i = 0; i < points.Count; i++)
-
-    //Получить данные Point
-  ChartPoint point = points[i];
-    //Установить Пир Explosion
-  point.Explosion = 15;
+for (int i = 0; i < points.Count; i++)
+{
+    //Получить точку данных
+    ChartPoint point = points[i];
+    //Установить взрыв пира
+    point.Explosion = 15;
     //Установить цвет границы
-  point.Border.Color = System.Drawing.Color.Red;
-
+    point.Border.Color = System.Drawing.Color.Red;
+}
 
 //Сохранение файла Excel
-rkbook.Save("book1.xls");
+workbook.Save("book1.xls");
 
-B.NET]
+[VB.NET]
 
-оздание экземпляра рабочей книги object
-m workbook As Workbook = New Workbook()
+'Создание экземпляра объекта Workbook
+Dim workbook As Workbook = New Workbook()
 
-олучение ссылки на первый worksheet
-m worksheet As Worksheet = workbook.Worksheets(0)
+'Получение ссылки на первый рабочий лист
+Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-обавление значения выборки в "A1" cell
-rksheet.Cells("A1").PutValue(50)
+'Adding a sample value to "A1" cell
+worksheet.Cells("A1").PutValue(50)
 
-обавление значения выборки в "A2" cell
-rksheet.Cells("A2").PutValue(100)
+'Adding a sample value to "A2" cell
+worksheet.Cells("A2").PutValue(100)
 
-обавление значения выборки в "A3" cell
-rksheet.Cells("A3").PutValue(150)
+'Adding a sample value to "A3" cell
+worksheet.Cells("A3").PutValue(150)
 
-обавление значения образца в "B1" cell
-rksheet.Cells("B1").PutValue(60)
+'Adding a sample value to "B1" cell
+worksheet.Cells("B1").PutValue(60)
 
-обавление значения образца в "B2" cell
-rksheet.Cells("B2").PutValue(32)
+'Adding a sample value to "B2" cell
+worksheet.Cells("B2").PutValue(32)
 
-обавление значения образца в "B3" cell
-rksheet.Cells("B3").PutValue(50)
+'Adding a sample value to "B3" cell
+worksheet.Cells("B3").PutValue(50)
 
-обавление диаграммы на лист
-m chartIndex As Integer = worksheet.Charts.Add(ChartType.PieExploded, 5, 0, 25, 10)
+'Добавление диаграммы на рабочий лист
+Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.PieExploded, 5, 0, 25, 10)
 
-оступ к экземпляру только что добавленного chart
-m chart As Chart = worksheet.Charts(chartIndex)
+'Доступ к экземпляру вновь добавленной диаграммы
+Dim chart As Chart = worksheet.Charts(chartIndex)
 
-обавление NSeries (источника данных диаграммы) на диаграмму в диапазоне от ячейки "A1" до "B3"
-art.NSeries.Add("A1:B3", True)
+'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
+chart.NSeries.Add("A1:B3", True)
 
-оказать метки данных 
-art.NSeries(0).DataLabels.IsValueShown = True
+'Показать метки данных 
+chart.NSeries(0).DataLabels.IsValueShown = True
 
-m points As ChartPointCollection = chart.NSeries(0).Points
+Dim points As ChartPointCollection = chart.NSeries(0).Points
 
-r i As Integer = 0 To points.Count - 1
-  'Получить данные Point
-  Dim point As ChartPoint = points(i)
-  'Установить Пир Explosion
-  point.Explosion = 15
-  'Установить цвет границы
-  point.Border.Color = System.Drawing.Color.Red
-xt i
+For i As Integer = 0 To points.Count - 1
+    'Получить точку данных
+    Dim point As ChartPoint = points(i)
+    'Установить Пир Взрыв
+    point.Explosion = 15
+    'Установить цвет границы
+    point.Border.Color = System.Drawing.Color.Red
+Next i
 
-охранение файла Excel
-rkbook.Save("book1.xls")
+'Сохранение файла Excel
+workbook.Save("book1.xls")
 
 ```
 

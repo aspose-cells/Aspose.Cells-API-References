@@ -1,14 +1,14 @@
 ---
 title: ColorDepth
 second_title: Справочник по Aspose.Cells для .NET API
-description: Перечисляет тип битовой глубины для изображения в формате TIFF.
+description: Перечисляет тип разрядности для изображения в формате TIFF.
 type: docs
 weight: 5080
 url: /ru/net/aspose.cells.rendering/colordepth/
 ---
 ## ColorDepth enumeration
 
-Перечисляет тип битовой глубины для изображения в формате TIFF.
+Перечисляет тип разрядности для изображения в формате TIFF.
 
 ```csharp
 public enum ColorDepth

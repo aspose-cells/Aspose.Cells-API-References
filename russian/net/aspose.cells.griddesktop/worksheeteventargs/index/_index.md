@@ -1,14 +1,14 @@
 ---
 title: Index
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает индекс строки или столбца листа
+description: Получает индекс строки или столбца рабочего листа
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.griddesktop/worksheeteventargs/index/
 ---
 ## WorksheetEventArgs.Index property
 
-Получает индекс строки или столбца листа
+Получает индекс строки или столбца рабочего листа
 
 ```csharp
 public int Index { get; }

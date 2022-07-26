@@ -18,34 +18,34 @@ public class LoadFilter
 
 | 姓名 | 描述 |
 | --- | --- |
-| [LoadFilter](loadfilter#constructor)() | 使用默认过滤器选项 LoadDataFilterOptions.All 构造一个 LoadFilter。 |
-| [LoadFilter](loadfilter#constructor_1)(LoadDataFilterOptions) | 构造一个具有给定过滤器选项的 LoadFilter。 |
+| [LoadFilter](loadfilter#constructor)() | 使用默认过滤器选项 LoadDataFilterOptions.All. 构造一个 LoadFilter |
+| [LoadFilter](loadfilter#constructor_1)(LoadDataFilterOptions) | 使用给定的过滤器选项构造一个 LoadFilter。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [LoadDataFilterOptions](../../aspose.cells/loadfilter/loaddatafilteroptions) { get; set; } | 表示应该加载哪些数据的过滤器选项。 |
-| virtual [SheetsInLoadingOrder](../../aspose.cells/loadfilter/sheetsinloadingorder) { get; } | 指定要加载的工作表（索引）和顺序。 默认为空，表示在模板文件中按默认顺序加载所有工作表。 如果不为 null 并且某些工作表的索引不在返回的数组中，则不会加载工作表。 |
+| virtual [SheetsInLoadingOrder](../../aspose.cells/loadfilter/sheetsinloadingorder) { get; } | 指定要加载的工作表（索引）和顺序。 默认为空，表示在模板文件中按默认顺序加载所有工作表。 如果不为空且某些工作表的索引不在返回的数组中，则工作表不会被加载。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [StartSheet](../../aspose.cells/loadfilter/startsheet)(Worksheet) | 在加载给定工作表之前准备过滤器选项。 用户的 LoadFilter 实现可以在这里更改 LoadDataFilterOptions 来表示如何为这个工作表加载数据。 |
+| virtual [StartSheet](../../aspose.cells/loadfilter/startsheet)(Worksheet) | 在加载给定的工作表之前准备过滤器选项。 用户的 LoadFilter 实现可以在这里更改 LoadDataFilterOptions 以表示如何为此工作表加载数据。 |
 
 ### 评论
 
-用户可以指定过滤器选项或实现自己的 LoadFilter 来指定如何加载数据。
+用户可以指定过滤器选项或实现自己的LoadFilter来指定如何加载数据。
 
 ### 例子
 
-以下示例显示如何根据工作表的属性确定筛选选项。
+以下示例显示如何根据工作表的属性确定过滤器选项。
 
 ```csharp
 [C#]
 Workbook wb = new Workbook(template, new LoadOptions() { LoadFilter = new LoadFilterSheet() });
- //自定义LoadFilter implementation
+//自定义LoadFilter实现
 class LoadFilterSheet : LoadFilter
 {
     public override void StartSheet(Worksheet sheet) 

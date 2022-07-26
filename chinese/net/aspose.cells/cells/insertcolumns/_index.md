@@ -3,7 +3,7 @@ title: InsertColumns
 second_title: Aspose.Cells for .NET API 参考
 description: 在工作表中插入一些列
 type: docs
-weight: 1070
+weight: 1080
 url: /zh/net/aspose.cells/cells/insertcolumns/
 ---
 ## InsertColumns(int, int) {#insertcolumns}

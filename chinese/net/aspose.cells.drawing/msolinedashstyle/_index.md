@@ -1,14 +1,14 @@
 ---
 title: MsoLineDashStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 表示虚线画线的样式
+description: 代表虚线画线的样式
 type: docs
 weight: 2350
 url: /zh/net/aspose.cells.drawing/msolinedashstyle/
 ---
 ## MsoLineDashStyle enumeration
 
-表示虚线画线的样式。
+代表虚线画线的样式。
 
 ```csharp
 public enum MsoLineDashStyle
@@ -22,7 +22,7 @@ public enum MsoLineDashStyle
 | DashDot | `1` | 表示点划线。 |
 | DashDotDot | `2` | 表示点划线。 |
 | DashLongDash | `3` | 表示长划-短划线。 |
-| DashLongDashDot | `4` | 表示长点划线。 |
+| DashLongDashDot | `4` | 表示长短划线。 |
 | RoundDot | `5` | 表示圆点线。 |
 | Solid | `6` | 表示实线。 |
 | SquareDot | `7` | 表示方点线。 |

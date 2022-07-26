@@ -1,14 +1,14 @@
 ---
 title: PivotFieldCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет коллекцию всех объектов PivotField в конкретном типе PivotFields сводной таблицы.
+description: Представляет коллекцию всех объектов PivotField в определенном для сводной таблицы типе PivotFields.
 type: docs
 weight: 4540
 url: /ru/net/aspose.cells.pivot/pivotfieldcollection/
 ---
 ## PivotFieldCollection class
 
-Представляет коллекцию всех объектов PivotField в конкретном типе PivotFields сводной таблицы.
+Представляет коллекцию всех объектов PivotField в определенном для сводной таблицы типе PivotFields.
 
 ```csharp
 public class PivotFieldCollection : IEnumerable
@@ -29,7 +29,7 @@ public class PivotFieldCollection : IEnumerable
 | [Add](../../aspose.cells.pivot/pivotfieldcollection/add)(PivotField) | Добавляет объект PivotField к определенному типу PivotFields. |
 | [AddByBaseIndex](../../aspose.cells.pivot/pivotfieldcollection/addbybaseindex)(int) | Добавляет объект PivotField к определенному типу PivotFields. |
 | [Clear](../../aspose.cells.pivot/pivotfieldcollection/clear)() | очистить все поля PivotFieldCollection |
-| [GetEnumerator](../../aspose.cells.pivot/pivotfieldcollection/getenumerator)() | Получает перечислитель по элементам в этой коллекции в правильной последовательности. |
+| [GetEnumerator](../../aspose.cells.pivot/pivotfieldcollection/getenumerator)() | Получает перечислитель элементов в этой коллекции в правильной последовательности. |
 
 ### Смотрите также
 

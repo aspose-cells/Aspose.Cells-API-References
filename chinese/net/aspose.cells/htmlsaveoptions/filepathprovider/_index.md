@@ -3,7 +3,7 @@ title: FilePathProvider
 second_title: Aspose.Cells for .NET API 参考
 description: 获取或设置 IFilePathProvider 用于单独将 Worksheet 导出为 html
 type: docs
-weight: 290
+weight: 310
 url: /zh/net/aspose.cells/htmlsaveoptions/filepathprovider/
 ---
 ## HtmlSaveOptions.FilePathProvider property

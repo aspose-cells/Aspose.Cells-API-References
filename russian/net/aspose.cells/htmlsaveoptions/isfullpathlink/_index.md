@@ -1,14 +1,14 @@
 ---
 title: IsFullPathLink
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает используется ли полный путь в файлах sheet00x.htmfilelist.xml и tabstrip.htm. Значение по умолчанию  false.
+description: Указывает используется ли полный путь в файлах sheet00x.htm filelist.xml и tabstrip.htm. Значение по умолчанию  false.
 type: docs
-weight: 380
+weight: 400
 url: /ru/net/aspose.cells/htmlsaveoptions/isfullpathlink/
 ---
 ## HtmlSaveOptions.IsFullPathLink property
 
-Указывает, используется ли полный путь в файлах sheet00x.htm,filelist.xml и tabstrip.htm. Значение по умолчанию — false.
+Указывает, используется ли полный путь в файлах sheet00x.htm, filelist.xml и tabstrip.htm. Значение по умолчанию — false.
 
 ```csharp
 public bool IsFullPathLink { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: CheckCustomNumberFormat
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает проверяется ли проверка пользовательского числового формата при установке Style.Custom.
+description: Указывает проверяется ли пользовательский формат номера при установке Style.Custom.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.gridjs/gridworkbooksettings/checkcustomnumberformat/
 ---
 ## GridWorkbookSettings.CheckCustomNumberFormat property
 
-Указывает, проверяется ли проверка пользовательского числового формата при установке Style.Custom.
+Указывает, проверяется ли пользовательский формат номера при установке Style.Custom.
 
 ```csharp
 public bool CheckCustomNumberFormat { get; set; }

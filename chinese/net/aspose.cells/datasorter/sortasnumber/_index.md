@@ -1,14 +1,14 @@
 ---
 title: SortAsNumber
 second_title: Aspose.Cells for .NET API 参考
-description: 指示是否对看起来像数字的任何内容进行排序
+description: 指示是否对任何看起来像数字的东西进行排序
 type: docs
 weight: 100
 url: /zh/net/aspose.cells/datasorter/sortasnumber/
 ---
 ## DataSorter.SortAsNumber property
 
-指示是否对看起来像数字的任何内容进行排序。
+指示是否对任何看起来像数字的东西进行排序。
 
 ```csharp
 public bool SortAsNumber { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: IsTextWrapped
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает значение указывающее переносится ли текст внутри ячейки.
+description: Получает или задает значение указывающее переносится ли текст в ячейке.
 type: docs
 weight: 210
 url: /ru/net/aspose.cells/style/istextwrapped/
 ---
 ## Style.IsTextWrapped property
 
-Получает или задает значение, указывающее, переносится ли текст внутри ячейки.
+Получает или задает значение, указывающее, переносится ли текст в ячейке.
 
 ```csharp
 public bool IsTextWrapped { get; set; }

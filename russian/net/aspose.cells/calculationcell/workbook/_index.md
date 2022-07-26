@@ -1,14 +1,14 @@
 ---
 title: Workbook
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объект Workbook.
+description: Получает объект книги.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/calculationcell/workbook/
 ---
 ## CalculationCell.Workbook property
 
-Получает объект Workbook.
+Получает объект книги.
 
 ```csharp
 public Workbook Workbook { get; }

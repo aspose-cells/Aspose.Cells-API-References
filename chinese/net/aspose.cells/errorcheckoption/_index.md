@@ -18,11 +18,11 @@ public class ErrorCheckOption
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddRange](../../aspose.cells/errorcheckoption/addrange)(CellArea) | 添加一个受此设置影响的范围。 |
+| [AddRange](../../aspose.cells/errorcheckoption/addrange)(CellArea) | 增加一个受此设置影响的范围。 |
 | [GetCountOfRange](../../aspose.cells/errorcheckoption/getcountofrange)() | 获取受此设置影响的范围计数。 |
 | [GetRange](../../aspose.cells/errorcheckoption/getrange)(int) | 通过给定索引获取此设置的影响范围。 |
-| [IsErrorCheck](../../aspose.cells/errorcheckoption/iserrorcheck)(ErrorCheckType) | 检查是否检查给定的错误类型。 |
-| [RemoveRange](../../aspose.cells/errorcheckoption/removerange)(int) | 删除给定索引的一个范围。 |
+| [IsErrorCheck](../../aspose.cells/errorcheckoption/iserrorcheck)(ErrorCheckType) | 检查是否将检查给定的错误类型。 |
+| [RemoveRange](../../aspose.cells/errorcheckoption/removerange)(int) | 按给定索引删除一个范围。 |
 | [SetErrorCheck](../../aspose.cells/errorcheckoption/seterrorcheck)(ErrorCheckType, bool) | 设置是否检查给定的错误类型。 |
 
 ### 例子

@@ -1,14 +1,14 @@
 ---
 title: Visible
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает отображается ли имя этого листа на вкладках листов элемента управления.
+description: Указывает отображается ли имя этого листа на вкладках листа элемента управления.
 type: docs
 weight: 330
 url: /ru/net/aspose.cells.gridweb.data/gridworksheet/visible/
 ---
 ## GridWorksheet.Visible property
 
-Указывает, отображается ли имя этого листа на вкладках листов элемента управления.
+Указывает, отображается ли имя этого листа на вкладках листа элемента управления.
 
 ```csharp
 public override bool Visible { get; set; }

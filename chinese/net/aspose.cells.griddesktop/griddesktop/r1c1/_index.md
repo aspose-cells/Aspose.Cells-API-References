@@ -1,14 +1,14 @@
 ---
 title: R1C1
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置一个值该值指示控件是否使用 R1C1 引用样式
+description: 获取或设置一个值该值指示控件是否使用R1C1引用样式
 type: docs
 weight: 210
 url: /zh/net/aspose.cells.griddesktop/griddesktop/r1c1/
 ---
 ## GridDesktop.R1C1 property
 
-获取或设置一个值，该值指示控件是否使用 R1C1 引用样式。
+获取或设置一个值，该值指示控件是否使用R1C1引用样式。
 
 ```csharp
 public bool R1C1 { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: QuartileCalculationType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示四分位数计算方法
+description: 代表四分位数的计算方法
 type: docs
 weight: 810
 url: /zh/net/aspose.cells.charts/quartilecalculationtype/
 ---
 ## QuartileCalculationType enumeration
 
-表示四分位数计算方法。
+代表四分位数的计算方法。
 
 ```csharp
 public enum QuartileCalculationType
@@ -19,7 +19,7 @@ public enum QuartileCalculationType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Exclusive | `0` | 四分位数计算包括将数据集拆分为四分位数时的中位数。 |
-| Inclusive | `1` | 四分位数计算在将数据集拆分为四分位数时不包括中位数。 |
+| Inclusive | `1` | 将数据集拆分为四分位数时，四分位数计算不包括中位数。 |
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: RetrieveSubtotalSetting
 second_title: Справочник по Aspose.Cells для .NET API
 description: Извлекает настройку промежуточных итогов диапазона.
 type: docs
-weight: 1210
+weight: 1220
 url: /ru/net/aspose.cells/cells/retrievesubtotalsetting/
 ---
 ## Cells.RetrieveSubtotalSetting method

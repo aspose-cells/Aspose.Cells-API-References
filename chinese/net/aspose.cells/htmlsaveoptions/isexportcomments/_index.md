@@ -3,7 +3,7 @@ title: IsExportComments
 second_title: Aspose.Cells for .NET API 参考
 description: 表示是否在将文件保存为html时导出注释默认值为false
 type: docs
-weight: 370
+weight: 390
 url: /zh/net/aspose.cells/htmlsaveoptions/isexportcomments/
 ---
 ## HtmlSaveOptions.IsExportComments property

@@ -1,14 +1,14 @@
 ---
 title: CellModifiedOnAjax
 second_title: Aspose.Cells for .NET API 参考
-description: 在 ajaxcall 中修改单元格时发生
+description: 在ajaxcall中修改单元格时发生
 type: docs
 weight: 1190
 url: /zh/net/aspose.cells.gridweb/mainweb/cellmodifiedonajax/
 ---
 ## MainWeb.CellModifiedOnAjax event
 
-在 ajaxcall 中修改单元格时发生。
+在ajaxcall中修改单元格时发生。
 
 ```csharp
 public event CellEventHandler CellModifiedOnAjax;

@@ -1,14 +1,14 @@
 ---
 title: DeleteOptions
 second_title: Aspose.Cells for .NET API 参考
-description: 表示删除行/列的设置
+description: 代表删除行/列的设置
 type: docs
 weight: 1370
 url: /zh/net/aspose.cells/deleteoptions/
 ---
 ## DeleteOptions class
 
-表示删除行/列的设置。
+代表删除行/列的设置。
 
 ```csharp
 public class DeleteOptions

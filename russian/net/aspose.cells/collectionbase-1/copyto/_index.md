@@ -14,7 +14,7 @@ public void CopyTo(T[] array)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| массив | T[] |  |
+| array | T[] |  |
 
 ### Смотрите также
 
@@ -32,7 +32,7 @@ public void CopyTo(T[] array, int arrayIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| массив | T[] |  |
+| array | T[] |  |
 | arrayIndex | Int32 |  |
 
 ### Смотрите также
@@ -51,8 +51,8 @@ public void CopyTo(int index, T[] array, int arrayIndex, int count)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| индекс | Int32 |  |
-| массив | T[] |  |
+| index | Int32 |  |
+| array | T[] |  |
 | arrayIndex | Int32 |  |
 | count | Int32 |  |
 

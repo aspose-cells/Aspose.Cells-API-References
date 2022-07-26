@@ -1,14 +1,14 @@
 ---
 title: AddDigitalSignature
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет цифровую подпись к файлу электронной таблицы OOXML Excel2007 и более поздние версии.
+description: Добавляет цифровую подпись в файл электронной таблицы OOXML Excel2007 и более поздние версии.
 type: docs
 weight: 280
 url: /ru/net/aspose.cells/workbook/adddigitalsignature/
 ---
 ## Workbook.AddDigitalSignature method
 
-Добавляет цифровую подпись к файлу электронной таблицы OOXML (Excel2007 и более поздние версии).
+Добавляет цифровую подпись в файл электронной таблицы OOXML (Excel2007 и более поздние версии).
 
 ```csharp
 public void AddDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)
@@ -20,7 +20,7 @@ public void AddDigitalSignature(DigitalSignatureCollection digitalSignatureColle
 
 ### Примечания
 
-Поддерживается только добавление цифровой подписи Xmldsig в OOXML файл электронной таблицы
+Поддерживается только добавление цифровой подписи Xmldsig в файл электронной таблицы OOXML.
 
 ### Смотрите также
 

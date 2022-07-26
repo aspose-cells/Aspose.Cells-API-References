@@ -16,7 +16,7 @@ public bool IsFontSubstitutionCharGranularity { get; set; }
 
 ### Примечания
 
-По умолчанию - false. Сначала мы попробуем шрифт Workbook по умолчанию и PdfSaveOption/system для шрифта ячейки.
+Значение по умолчанию — false. Сначала мы попробуем шрифт Workbook по умолчанию и PdfSaveOption/system для шрифта ячейки.
 
 ### Смотрите также
 

@@ -15,19 +15,19 @@ url: /ru/net/aspose.cells.gridweb/
 | [BindColumn](./bindcolumn) | BindColumn. |
 | [BindColumnCollection](./bindcolumncollection) | BindColumnCollection. |
 | [CellEventArgs](./celleventargs) | Предоставляет данные для событий ячейки. |
-| [CustomCommandButton](./customcommandbutton) | Представляет кнопку пользовательской команды на панели вкладок элемента управления GridWeb. |
+| [CustomCommandButton](./customcommandbutton) | Представляет настраиваемую командную кнопку на панели вкладок элемента управления GridWeb. |
 | [CustomCommandButtonCollection](./customcommandbuttoncollection) | Представляет коллекцию CustomCommandButton. |
 | [ExtWebControl](./extwebcontrol) | Расширение класса WebControl, только для внутреннего использования. |
 | [GridTableItemStyle](./gridtableitemstyle) | Унаследовано от System.Web.UI.WebControls.TableItemStyle. Инкапсулирует стили WebCell. |
-| [GridTableStyle](./gridtablestyle) | Унаследовано от System.Web.UI.WebControls.TableStyle. Представляет стиль веб-таблицы. Дополнительные сведения см. в документе .NET SDK о System.Web.UI.WebControls.TableStyle. |
+| [GridTableStyle](./gridtablestyle) | Унаследовано от System.Web.UI.WebControls.TableStyle. Представляет стиль веб-таблицы. Дополнительную информацию см. в документе .NET SDK о System.Web.UI.WebControls.TableStyle. |
 | [GridWeb](./gridweb) |  |
-| [GridWebForm](./gridwebform) | Элемент управления GridWebForm. Он работает с элементом управления GridWeb. Задайте для него свойство GridWebControl перед его запуском. |
+| [GridWebForm](./gridwebform) | Элемент управления GridWebForm. Он работает с элементом управления GridWeb. Перед запуском задайте для него свойство GridWebControl. |
 | [GridWorksheetDesign](./gridworksheetdesign) | Унаследовано от GridWorksheet. Используется только во время разработки. |
-| [License](./license) | Предоставляет методы для лицензирования компонента. |
+| [License](./license) | Предоставляет методы лицензирования компонента. |
 | [MainWeb](./mainweb) | Родительский класс элемента управления GridWeb. Только для внутреннего использования. |
 | [RowColumnEventArgs](./rowcolumneventargs) | Предоставляет данные для событий строки/столбца. |
-| [ViewerStyleTemplate](./viewerstyletemplate) | ViewerStyleTemplate. |
-| [WebBorderStyle](./webborderstyle) | Инкапсулирует стиль границы веб-таблицы или ячейки. |
+| [ViewerStyleTemplate](./viewerstyletemplate) | Шаблон стиля просмотра. |
+| [WebBorderStyle](./webborderstyle) | Инкапсулирует стиль веб-таблицы или границы ячейки. |
 | [WorksheetDesign](./worksheetdesign) | Унаследовано от WebWorksheet. Используется только во время разработки. |
 ## перечисление
 
@@ -36,7 +36,7 @@ url: /ru/net/aspose.cells.gridweb/
 | [BorderCollapseType](./bordercollapsetype) | Тип сворачивания объекта границы таблицы. |
 | [CustomCommandButtonType](./customcommandbuttontype) | Представляет тип пользовательской команды. |
 | [LayoutFixedType](./layoutfixedtype) | Фиксированный тип макета табличного объекта. |
-| [PresetStyle](./presetstyle) | Представляет предустановленный стиль или элемент управления GridWeb. На сегодняшний день мы предоставляем 7 предустановленных стилей. |
+| [PresetStyle](./presetstyle) | Представляет предустановленный стиль или элемент управления GridWeb. На данный момент мы предоставляем 7 предустановленных стилей. |
 | [RowColumnType](./rowcolumntype) | Представляет тип строки/столбца событий строки/столбца. |
 | [SessionMode](./sessionmode) | Представляет режим сеанса сетки. |
 | [SetBorderPosition](./setborderposition) | Представляет позицию границы, которая будет установлена для диапазона ячеек. |

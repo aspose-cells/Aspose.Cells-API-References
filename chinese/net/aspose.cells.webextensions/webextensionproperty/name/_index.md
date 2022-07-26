@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.Cells for .NET API 参考
-description: 获取并设置自定义属性名称
+description: 获取和设置自定义属性名称
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.webextensions/webextensionproperty/name/
 ---
 ## WebExtensionProperty.Name property
 
-获取并设置自定义属性名称。
+获取和设置自定义属性名称。
 
 ```csharp
 public string Name { get; set; }

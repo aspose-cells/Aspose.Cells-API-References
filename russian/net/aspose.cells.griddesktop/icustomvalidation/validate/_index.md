@@ -1,14 +1,14 @@
 ---
 title: Validate
 second_title: Справочник по Aspose.Cells для .NET API
-description: Проверить допустимость данных gridcell.
+description: Проверить правильность данных gridcell.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.griddesktop/icustomvalidation/validate/
 ---
 ## ICustomValidation.Validate method
 
-Проверить допустимость данных gridcell.
+Проверить правильность данных gridcell.
 
 ```csharp
 public bool Validate(Worksheet worksheet, int row, int col, object value)

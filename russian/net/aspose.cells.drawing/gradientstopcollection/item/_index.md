@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает точку градиента по индексу.
+description: Получает остановку градиента по индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.drawing/gradientstopcollection/item/
 ---
 ## GradientStopCollection indexer
 
-Получает точку градиента по индексу.
+Получает остановку градиента по индексу.
 
 ```csharp
 public GradientStop this[int index] { get; set; }

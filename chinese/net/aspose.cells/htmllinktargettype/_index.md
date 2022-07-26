@@ -1,14 +1,14 @@
 ---
 title: HtmlLinkTargetType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示 HTML lta /gt 标签中目标属性的类型
+description: 表示 HTML 中目标属性的类型标签.
 type: docs
 weight: 3720
 url: /zh/net/aspose.cells/htmllinktargettype/
 ---
 ## HtmlLinkTargetType enumeration
 
-表示 HTML &lt;a /&gt; 标签中目标属性的类型。
+表示 HTML 中目标属性的类型标签.
 
 ```csharp
 public enum HtmlLinkTargetType
@@ -20,7 +20,7 @@ public enum HtmlLinkTargetType
 | --- | --- | --- |
 | Blank | `0` | 在新窗口或选项卡中打开链接的文档 |
 | Parent | `1` | 在父框架中打开链接文档 |
-| Self | `2` | 在单击的同一框架中打开链接的文档（这是默认设置） |
+| Self | `2` | 在单击的同一框架中打开链接文档（这是默认设置） |
 | Top | `3` | 在整个窗口中打开链接文档 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: ValidationCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет набор проверки данных.
+description: Представляет коллекцию проверки данных.
 type: docs
 weight: 6220
 url: /ru/net/aspose.cells/validationcollection/
 ---
 ## ValidationCollection class
 
-Представляет набор проверки данных.
+Представляет коллекцию проверки данных.
 
 ```csharp
 public class ValidationCollection : CollectionBase<Validation>
@@ -20,7 +20,7 @@ public class ValidationCollection : CollectionBase<Validation>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/validationcollection/item) { get; } | Получает элемент[`Validation`](../validation)по указанному индексу. |
+| [Item](../../aspose.cells/validationcollection/item) { get; } | Получает[`Validation`](../validation) элемент по указанному индексу. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы
@@ -47,15 +47,15 @@ public class ValidationCollection : CollectionBase<Validation>
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;Validation&gt;) |  |
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;Validation&gt;) |  |
 | [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [GetValidationInCell](../../aspose.cells/validationcollection/getvalidationincell)(int, int) | Получает проверку, применяемую к данной ячейке. |
+| [GetValidationInCell](../../aspose.cells/validationcollection/getvalidationincell)(int, int) | Получает проверку, примененную к данной ячейке. |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Validation) |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Validation, int) |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Validation, int, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Validation) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Validation, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Validation, int, int) |  |
-| [RemoveACell](../../aspose.cells/validationcollection/removeacell)(int, int) | Удаляет все настройки проверки для ячейки. |
-| [RemoveArea](../../aspose.cells/validationcollection/removearea)(CellArea) | Удаляет все настройки проверки диапазона.. |
+| [RemoveACell](../../aspose.cells/validationcollection/removeacell)(int, int) | Удаляет все настройки проверки в ячейке. |
+| [RemoveArea](../../aspose.cells/validationcollection/removearea)(CellArea) | Удаляет все настройки проверки в диапазоне.. |
 | [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
 
 ### Примеры

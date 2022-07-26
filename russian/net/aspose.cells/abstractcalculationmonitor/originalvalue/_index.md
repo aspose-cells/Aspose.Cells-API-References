@@ -1,14 +1,14 @@
 ---
 title: OriginalValue
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает старое значение вычисляемой ячейки. Следует использовать только вBeforeCalculateaspose.cells/abstractcalculationmonitor/beforecalculateиAfterCalculateaspose.cells/abstractcalculationmonitor/aftercalculate.
+description: Получает старое значение вычисляемой ячейки. Следует использовать только вBeforeCalculateaspose.cells/abstractcalculationmonitor/beforecalculate а такжеAfterCalculateaspose.cells/abstractcalculationmonitor/aftercalculate .
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/abstractcalculationmonitor/originalvalue/
 ---
 ## AbstractCalculationMonitor.OriginalValue property
 
-Получает старое значение вычисляемой ячейки. Следует использовать только в[`BeforeCalculate`](../beforecalculate)и[`AfterCalculate`](../aftercalculate).
+Получает старое значение вычисляемой ячейки. Следует использовать только в[`BeforeCalculate`](../beforecalculate) а также[`AfterCalculate`](../aftercalculate) .
 
 ```csharp
 public object OriginalValue { get; }

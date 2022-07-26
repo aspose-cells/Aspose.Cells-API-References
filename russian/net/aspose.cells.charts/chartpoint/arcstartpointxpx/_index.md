@@ -1,14 +1,14 @@
 ---
 title: ArcStartPointXPx
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает координату x начальной точки сектора круга после вызова метода Chart.Calculate. Применяется к круговой и кольцевой диаграммам.
+description: Получает координату x начальной точки круговой секции после вызова метода Chart.Calculate. Применяется к круговой и кольцевой диаграммам.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.charts/chartpoint/arcstartpointxpx/
 ---
 ## ChartPoint.ArcStartPointXPx property
 
-Получает координату x начальной точки сектора круга после вызова метода Chart.Calculate(). Применяется к круговой и кольцевой диаграммам.
+Получает координату x начальной точки круговой секции после вызова метода Chart.Calculate(). Применяется к круговой и кольцевой диаграммам.
 
 ```csharp
 public float ArcStartPointXPx { get; }

@@ -1,14 +1,14 @@
 ---
 title: Cell
 second_title: Aspose.Cells for .NET API 参考
-description: 表示渲染时的 Cell 对象 可以访问单元格的所有属性
+description: 表示渲染时的Cell对象 可以访问cell的所有属性
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.rendering/drawobject/cell/
 ---
 ## DrawObject.Cell property
 
-表示渲染时的 Cell 对象。 可以访问单元格的所有属性。
+表示渲染时的Cell对象。 可以访问cell的所有属性。
 
 ```csharp
 public Cell Cell { get; }

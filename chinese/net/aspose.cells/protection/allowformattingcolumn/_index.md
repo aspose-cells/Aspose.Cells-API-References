@@ -1,14 +1,14 @@
 ---
 title: AllowFormattingColumn
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否允许在受保护的工作表上格式化列
+description: 表示在受保护的工作表上是否允许列格式
 type: docs
 weight: 80
 url: /zh/net/aspose.cells/protection/allowformattingcolumn/
 ---
 ## Protection.AllowFormattingColumn property
 
-表示是否允许在受保护的工作表上格式化列
+表示在受保护的工作表上是否允许列格式
 
 ```csharp
 public bool AllowFormattingColumn { get; set; }

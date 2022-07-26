@@ -18,19 +18,19 @@ public class AbstractTextLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AutoFilter](../../aspose.cells/loadoptions/autofilter) { get; set; } | 表示是否在加载文件时自动过滤数据。 |
+| [AutoFilter](../../aspose.cells/loadoptions/autofilter) { get; set; } | 表示加载文件时是否自动过滤数据。 |
 | [AutoFitterOptions](../../aspose.cells/loadoptions/autofitteroptions) { get; set; } | 获取和设置自动拟合选项 |
-| [CheckDataValid](../../aspose.cells/loadoptions/checkdatavalid) { get; set; } | 检查模板文件中的数据是否有效。 |
-| [CheckExcelRestriction](../../aspose.cells/loadoptions/checkexcelrestriction) { get; set; } | 用户修改单元格相关对象时是否检查excel文件的限制。 例如，excel不允许输入超过32K的字符串值。 当你输入一个超过 32K 的值时，比如通过 Cell.PutValue(string)，如果这个属性为真，你会得到一个 Exception。 如果此属性为 false，我们将接受您输入的字符串值作为单元格的值，以便稍后 您可以为其他文件格式（例如 CSV）输出完整的字符串值。 但是，如果您设置了这种对 excel 文件格式无效的值，则 以后不应将工作簿保存为 excel 文件格式。否则生成的excel文件可能会出现意外错误。 |
+| [CheckDataValid](../../aspose.cells/loadoptions/checkdatavalid) { get; set; } | 检查模板文件中的数据是否有效 |
+| [CheckExcelRestriction](../../aspose.cells/loadoptions/checkexcelrestriction) { get; set; } | 当用户修改单元格相关对象时是否检查excel文件的限制。 例如，excel不允许输入超过32K的字符串值。 当你输入一个超过32K的值时，例如通过Cell.PutValue(string)，如果这样属性为真，您将得到一个异常。 如果此属性为假，我们将接受您输入的字符串值作为单元格的值，以便稍后 您可以为其他文件格式输出完整的字符串值，例如 CSV. 但是，如果您设置的此类值对 excel 文件格式无效， 您以后不应将工作簿另存为 excel 文件格式。否则生成的excel文件可能会出现意外错误。 |
 | [ConvertDateTimeData](../../aspose.cells/abstracttextloadoptions/convertdatetimedata) { get; set; } | 获取或设置一个值，该值指示文本文件中的字符串是否转换为日期数据。 |
-| [ConvertNumericData](../../aspose.cells/abstracttextloadoptions/convertnumericdata) { get; set; } | 获取或设置一个值，该值指示文本文件中的字符串是否转换为数字数据。 |
+| [ConvertNumericData](../../aspose.cells/abstracttextloadoptions/convertnumericdata) { get; set; } | 获取或设置一个值，该值指示文本文件中的字符串是否转换为数值数据。 |
 | [CultureInfo](../../aspose.cells/loadoptions/cultureinfo) { get; set; } | 获取或设置文件加载时的系统文化信息。 |
 | [DefaultStyleSettings](../../aspose.cells/loadoptions/defaultstylesettings) { get; } | 获取用于初始化工作簿样式的默认样式设置 |
 | [Encoding](../../aspose.cells/abstracttextloadoptions/encoding) { get; set; } | 获取和设置默认编码。仅适用于 csv 文件。 |
-| [FontConfigs](../../aspose.cells/loadoptions/fontconfigs) { get; set; } | 获取和设置单独的字体配置。 仅适用于[`Workbook`](../workbook)使用此[`LoadOptions`](../loadoptions)加载。&gt; |
-| [IgnoreNotPrinted](../../aspose.cells/loadoptions/ignorenotprinted) { get; set; } | 如果直接打印文件，则忽略不打印的数据 |
+| [FontConfigs](../../aspose.cells/loadoptions/fontconfigs) { get; set; } | 获取和设置单独的字体配置。 仅适用于[`Workbook`](../workbook)它使用这个[`LoadOptions`](../loadoptions)加载。&gt; |
+| [IgnoreNotPrinted](../../aspose.cells/loadoptions/ignorenotprinted) { get; set; } | 直接打印文件忽略不打印的数据 |
 | [InterruptMonitor](../../aspose.cells/loadoptions/interruptmonitor) { get; set; } | 获取和设置中断监视器。 |
-| [KeepPrecision](../../aspose.cells/abstracttextloadoptions/keepprecision) { get; set; } | 表示如果长度为 15 是否不解析字符串值。 |
+| [KeepPrecision](../../aspose.cells/abstracttextloadoptions/keepprecision) { get; set; } | 表示如果长度为15，是否不解析字符串值。 |
 | [KeepUnparsedData](../../aspose.cells/loadoptions/keepunparseddata) { get; set; } | 从模板文件加载工作簿时，是否将未解析的数据保留在内存中。默认为真。 |
 | [LanguageCode](../../aspose.cells/loadoptions/languagecode) { get; set; } | 根据保存文件的 CountryCode 获取或设置 Workbook 版本的用户界面语言。 |
 | [LightCellsDataHandler](../../aspose.cells/loadoptions/lightcellsdatahandler) { get; set; } | 读取模板文件时处理单元格数据的数据处理程序。 |
@@ -38,8 +38,8 @@ public class AbstractTextLoadOptions : LoadOptions
 | [LoadFormat](../../aspose.cells/loadoptions/loadformat) { get; } | 获取加载格式。 |
 | [LoadStyleStrategy](../../aspose.cells/abstracttextloadoptions/loadstylestrategy) { get; set; } | 表示将字符串值转换为数字或日期时间时为解析值应用样式的策略。 |
 | [MemorySetting](../../aspose.cells/loadoptions/memorysetting) { get; set; } | 获取或设置内存使用选项。 |
-| [ParsingFormulaOnOpen](../../aspose.cells/loadoptions/parsingformulaonopen) { get; set; } | 表示读取文件时是否解析公式。 |
-| [ParsingPivotCachedRecords](../../aspose.cells/loadoptions/parsingpivotcachedrecords) { get; set; } | 表示加载文件时是否解析pivot缓存记录。 默认值为假。 |
+| [ParsingFormulaOnOpen](../../aspose.cells/loadoptions/parsingformulaonopen) { get; set; } | 读取文件时是否解析公式 |
+| [ParsingPivotCachedRecords](../../aspose.cells/loadoptions/parsingpivotcachedrecords) { get; set; } | 表示加载文件时是否解析pivot缓存记录。 默认值为false。 |
 | [Password](../../aspose.cells/loadoptions/password) { get; set; } | 获取和设置工作簿的密码。 |
 | [Region](../../aspose.cells/loadoptions/region) { get; set; } | 根据加载文件时的 CountryCode 获取或设置系统区域设置。 |
 | [WarningCallback](../../aspose.cells/loadoptions/warningcallback) { get; set; } | 获取或设置警告回调。 |

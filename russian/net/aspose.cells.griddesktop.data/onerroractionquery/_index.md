@@ -1,14 +1,14 @@
 ---
 title: OnErrorActionQuery
 second_title: Справочник по Aspose.Cells для .NET API
-description: Используется в событии CellError в GridWeb.
+description: Используется в событии CellError GridWeb.
 type: docs
 weight: 760
 url: /ru/net/aspose.cells.griddesktop.data/onerroractionquery/
 ---
 ## OnErrorActionQuery class
 
-Используется в событии CellError в GridWeb.
+Используется в событии CellError GridWeb.
 
 ```csharp
 public class OnErrorActionQuery

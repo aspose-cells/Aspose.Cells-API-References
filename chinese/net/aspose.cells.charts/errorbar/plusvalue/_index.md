@@ -1,14 +1,14 @@
 ---
 title: PlusValue
 second_title: Aspose.Cells for .NET API 参考
-description: 当错误栏类型为自定义时表示正错误量
+description: 表示误差条类型为自定义时的正误差量
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.charts/errorbar/plusvalue/
 ---
 ## ErrorBar.PlusValue property
 
-当错误栏类型为自定义时，表示正错误量。
+表示误差条类型为自定义时的正误差量。
 
 ```csharp
 public string PlusValue { get; set; }

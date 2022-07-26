@@ -1,14 +1,14 @@
 ---
 title: SecondPlotSize
 second_title: Aspose.Cells for .NET API 参考
-description: 返回或设置饼图或饼图条形图的次要部分的大小 主饼的大小 可以是 5 到 200 之间的值
+description: 返回或设置饼图或饼图条形图的次要部分的大小 作为主要饼图大小的百分比 可以是 5 到 200 之间的值
 type: docs
 weight: 340
 url: /zh/net/aspose.cells.charts/series/secondplotsize/
 ---
 ## Series.SecondPlotSize property
 
-返回或设置饼图或饼图条形图的次要部分的大小， 主饼的大小。 可以是 5 到 200 之间的值。
+返回或设置饼图或饼图条形图的次要部分的大小， 作为主要饼图大小的百分比。 可以是 5 到 200 之间的值。
 
 ```csharp
 public short SecondPlotSize { get; set; }

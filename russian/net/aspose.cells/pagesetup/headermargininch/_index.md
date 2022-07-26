@@ -1,14 +1,14 @@
 ---
 title: HeaderMarginInch
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет расстояние от верхней части страницы до верхнего колонтитула в дюймах.
+description: Представляет расстояние от верхней части страницы до заголовка в дюймах.
 type: docs
 weight: 120
 url: /ru/net/aspose.cells/pagesetup/headermargininch/
 ---
 ## PageSetup.HeaderMarginInch property
 
-Представляет расстояние от верхней части страницы до верхнего колонтитула в дюймах.
+Представляет расстояние от верхней части страницы до заголовка в дюймах.
 
 ```csharp
 public double HeaderMarginInch { get; set; }

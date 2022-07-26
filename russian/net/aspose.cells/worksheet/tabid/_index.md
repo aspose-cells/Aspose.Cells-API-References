@@ -1,14 +1,14 @@
 ---
 title: TabId
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает внутренний идентификатор листа.
+description: Указывает внутренний идентификатор листа.
 type: docs
 weight: 470
 url: /ru/net/aspose.cells/worksheet/tabid/
 ---
 ## Worksheet.TabId property
 
-Задает внутренний идентификатор листа.
+Указывает внутренний идентификатор листа.
 
 ```csharp
 public int TabId { get; set; }

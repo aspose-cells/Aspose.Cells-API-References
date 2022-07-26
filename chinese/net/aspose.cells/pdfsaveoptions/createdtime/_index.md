@@ -1,14 +1,14 @@
 ---
 title: CreatedTime
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置生成pdf文档的时间
+description: 获取并设置生成pdf文档的时间
 type: docs
 weight: 80
 url: /zh/net/aspose.cells/pdfsaveoptions/createdtime/
 ---
 ## PdfSaveOptions.CreatedTime property
 
-获取和设置生成pdf文档的时间。
+获取并设置生成pdf文档的时间。
 
 ```csharp
 public DateTime CreatedTime { get; set; }
@@ -16,7 +16,7 @@ public DateTime CreatedTime { get; set; }
 
 ### 评论
 
-如果不设置，则为生成pdf的时间。
+如果不设置，就是生成pdf的时间。
 
 ### 也可以看看
 

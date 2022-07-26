@@ -16,7 +16,7 @@ public Color Color { get; }
 
 ### 评论
 
-仅在[`SortOnType`](../../sortontype)为 SortOnType 时有效.CellColor 或 SortOnType.FontColor。
+仅在以下情况下生效[`SortOnType`](../../sortontype)是 SortOnType.CellColor 或 SortOnType.FontColor.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Z
 second_title: Справочник по Aspose.Cells для .NET API
-description: Определяет расстояние от земли для трехмерной формы.
+description: Определяет расстояние от земли для 3D-формы.
 type: docs
 weight: 200
 url: /ru/net/aspose.cells.drawing/threedformat/z/
 ---
 ## ThreeDFormat.Z property
 
-Определяет расстояние от земли для трехмерной формы.
+Определяет расстояние от земли для 3D-формы.
 
 ```csharp
 public double Z { get; set; }

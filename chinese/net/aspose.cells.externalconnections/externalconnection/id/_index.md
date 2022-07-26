@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: Aspose.Cells for .NET API 参考
-description: 获取连接的ID
+description: 获取连接的id
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.externalconnections/externalconnection/id/
 ---
 ## ExternalConnection.Id property
 
-获取连接的ID。
+获取连接的id。
 
 ```csharp
 public int Id { get; }

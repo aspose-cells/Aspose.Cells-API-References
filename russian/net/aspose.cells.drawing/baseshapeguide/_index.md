@@ -1,12 +1,14 @@
 ---
 title: BaseShapeGuide
 second_title: Справочник по Aspose.Cells для .NET API
-description: 
+description: Представляет направляющую формы.
 type: docs
 weight: 1790
 url: /ru/net/aspose.cells.drawing/baseshapeguide/
 ---
 ## BaseShapeGuide class
+
+Представляет направляющую формы.
 
 ```csharp
 public class BaseShapeGuide

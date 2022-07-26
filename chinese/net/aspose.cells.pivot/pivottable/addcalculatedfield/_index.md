@@ -18,7 +18,7 @@ public void AddCalculatedField(string name, string formula, bool dragToDataArea)
 | --- | --- | --- |
 | name | String | 计算字段的名称 |
 | formula | String | 计算字段的公式。 |
-| dragToDataArea | Boolean | True，立即将该字段拖到数据区 |
+| dragToDataArea | Boolean | 是的，立即将此字段拖到数据区 |
 
 ### 也可以看看
 

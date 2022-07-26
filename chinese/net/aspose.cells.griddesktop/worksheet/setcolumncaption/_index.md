@@ -1,14 +1,14 @@
 ---
 title: SetColumnCaption
 second_title: Aspose.Cells for .NET API 参考
-description: 设置列的标题请注意这是扩展属性不能保留在 Excel 文件中
+description: 为列设置标题请注意这是一个扩展属性不能保留在 excel 文件中
 type: docs
 weight: 1010
 url: /zh/net/aspose.cells.griddesktop/worksheet/setcolumncaption/
 ---
 ## Worksheet.SetColumnCaption method
 
-设置列的标题。请注意这是扩展属性，不能保留在 Excel 文件中
+为列设置标题。请注意这是一个扩展属性，不能保留在 excel 文件中
 
 ```csharp
 public void SetColumnCaption(int column, string caption)

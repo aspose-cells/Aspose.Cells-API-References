@@ -1,14 +1,14 @@
 ---
 title: QueryTableCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Набор объектовQueryTableCollection./querytablecollection которые представляют информацию коллекции QueryTable.
+description: КоллекцияQueryTableCollection./querytablecollection объекты которые представляют информацию коллекции QueryTable.
 type: docs
 weight: 4940
 url: /ru/net/aspose.cells/querytablecollection/
 ---
 ## QueryTableCollection class
 
-Набор объектов[`QueryTableCollection`](../querytablecollection), которые представляют информацию коллекции QueryTable.
+Коллекция[`QueryTableCollection`](../querytablecollection) объекты, которые представляют информацию коллекции QueryTable.
 
 ```csharp
 public class QueryTableCollection : CollectionBase<QueryTable>
@@ -20,7 +20,7 @@ public class QueryTableCollection : CollectionBase<QueryTable>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/querytablecollection/item) { get; } | Получает запрашиваемую таблицу по заданному индексу. |
+| [Item](../../aspose.cells/querytablecollection/item) { get; } | Получает запрашиваемую таблицу по указанному индексу. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы

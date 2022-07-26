@@ -18,13 +18,13 @@ public enum GradientStyleType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| DiagonalDown | `0` | 对角向下着色样式 |
+| DiagonalDown | `0` | 对角线下阴影样式 |
 | DiagonalUp | `1` | 对角向上着色样式 |
-| FromCenter | `2` | 从中心着色样式 |
+| FromCenter | `2` | 从中心阴影样式 |
 | FromCorner | `3` | 来自角落阴影样式 |
-| Horizontal | `4` | 水平阴影样式 |
-| Vertical | `5` | 垂直阴影样式 |
-| Unknown | `6` | Unknown shading style。仅适用于模板文件中的shading style（不是 GradientStyleType 的任何成员）。 |
+| Horizontal | `4` | 水平底纹样式 |
+| Vertical | `5` | 垂直底纹样式 |
+| Unknown | `6` | 未知的着色样式。仅适用于模板文件中的着色样式（不是 GradientStyleType 的任何成员）。 |
 
 ### 也可以看看
 

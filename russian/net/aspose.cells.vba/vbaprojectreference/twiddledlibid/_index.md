@@ -1,14 +1,14 @@
 ---
 title: Twiddledlibid
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает перевернутый либид ссылки.
+description: Получает и устанавливает перевернутый либид ссылки.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.vba/vbaprojectreference/twiddledlibid/
 ---
 ## VbaProjectReference.Twiddledlibid property
 
-Получает и задает перевернутый либид ссылки.
+Получает и устанавливает перевернутый либид ссылки.
 
 ```csharp
 public string Twiddledlibid { get; set; }

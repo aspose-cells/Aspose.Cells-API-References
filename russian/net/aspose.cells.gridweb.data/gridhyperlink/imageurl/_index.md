@@ -1,14 +1,14 @@
 ---
 title: ImageURL
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получить или установить URL-адрес изображения для ссылки в гиперссылке нет свойств imageurl поэтому на самом деле используйте TextToDisplay для записи этого значения TextToDisplay будет должно быть установлено значение ltimg srcvalue gt поэтому он изменит значение TextToDisplay
+description: Получить или установить URL-адрес изображения для ссылки в гиперссылке нет свойств imageurl  поэтому на самом деле используйте TextToDisplay для записи этого значения. TextToDisplay будет установлен на ltimg srcvaluegt  поэтому он изменит значение TextToDisplay
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.gridweb.data/gridhyperlink/imageurl/
 ---
 ## GridHyperlink.ImageURL property
 
-Получить или установить URL-адрес изображения для ссылки, в гиперссылке нет свойств imageurl, поэтому на самом деле используйте TextToDisplay для записи этого значения, TextToDisplay будет должно быть установлено значение &lt;img src=value &gt; поэтому он изменит значение TextToDisplay
+Получить или установить URL-адрес изображения для ссылки, в гиперссылке нет свойств imageurl, , поэтому на самом деле используйте TextToDisplay для записи этого значения. TextToDisplay будет установлен на &lt;img src=value&gt; , поэтому он изменит значение TextToDisplay
 
 ```csharp
 public string ImageURL { get; set; }

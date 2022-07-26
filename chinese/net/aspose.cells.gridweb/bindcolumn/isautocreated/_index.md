@@ -1,14 +1,14 @@
 ---
 title: IsAutoCreated
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否自动创建列如果为 true则当用户在设计时更改数据源时该列将被删除
+description: 指示是否自动创建列如果为真则当用户在设计时更改数据源时该列将被删除
 type: docs
 weight: 110
 url: /zh/net/aspose.cells.gridweb/bindcolumn/isautocreated/
 ---
 ## BindColumn.IsAutoCreated property
 
-表示是否自动创建列。如果为 true，则当用户在设计时更改数据源时，该列将被删除。
+指示是否自动创建列。如果为真，则当用户在设计时更改数据源时，该列将被删除。
 
 ```csharp
 public bool IsAutoCreated { get; set; }

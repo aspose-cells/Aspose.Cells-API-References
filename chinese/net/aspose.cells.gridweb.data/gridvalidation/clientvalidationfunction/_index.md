@@ -1,14 +1,14 @@
 ---
 title: ClientValidationFunction
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置客户端验证javascript函数名称
+description: 获取或设置客户端验证javascript函数名
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.gridweb.data/gridvalidation/clientvalidationfunction/
 ---
 ## GridValidation.ClientValidationFunction property
 
-获取或设置客户端验证javascript函数名称。
+获取或设置客户端验证javascript函数名。
 
 ```csharp
 public string ClientValidationFunction { get; set; }
@@ -16,7 +16,7 @@ public string ClientValidationFunction { get; set; }
 
 ### 评论
 
-使用 ClientValidationFunction 属性指定客户端验证函数的名称。 函数应该这样声明:&lt;br /&gt; function customValicationFunction(source, value)&lt;br /&gt; 参数“source”是单元格对象。 参数“value”是要检查的单元格的字符串值。 如果值有效，该函数应返回 true。
+使用 ClientValidationFunction 属性指定客户端验证函数的名称。 该函数应声明为以下形式： 函数 customValicationFunction(source, value) 参数“source”是单元格对象。 参数“value”是要检查的单元格的字符串值。 如果值有效，函数应该返回true。
 
 ### 也可以看看
 

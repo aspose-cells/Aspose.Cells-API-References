@@ -16,7 +16,7 @@ public void RemoveAt(string name)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 要删除的元素的名称。 |
+| name | String | 要移除的元素的名称。 |
 
 ### 也可以看看
 
@@ -36,7 +36,7 @@ public void RemoveAt(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 要删除的元素的索引值。 |
+| index | Int32 | 要移除的元素的索引值。 |
 
 ### 也可以看看
 

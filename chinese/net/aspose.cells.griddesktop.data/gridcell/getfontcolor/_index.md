@@ -1,14 +1,14 @@
 ---
 title: GetFontColor
 second_title: Aspose.Cells for .NET API 参考
-description: 获取单元格字体颜色 更改颜色时应调用SetFontColor方法 设置单元格的字体颜色
+description: 获取单元格字体颜色 更改颜色时应调用SetFontColor方法 设置单元格字体颜色
 type: docs
 weight: 260
 url: /zh/net/aspose.cells.griddesktop.data/gridcell/getfontcolor/
 ---
 ## GridCell.GetFontColor method
 
-获取单元格字体颜色。 更改颜色时，应调用“SetFontColor”方法， 设置单元格的字体颜色。
+获取单元格字体颜色。 更改颜色时，应调用“SetFontColor”方法， 设置单元格字体颜色。
 
 ```csharp
 public Color GetFontColor()

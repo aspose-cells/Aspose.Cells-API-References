@@ -1,14 +1,14 @@
 ---
 title: CreateSafeSheetName
 second_title: Aspose.Cells for .NET API 参考
-description: 检查给定的工作表名称并在需要时创建一个有效的工作表 如果给定的表名符合excel表名的规则则返回 否则如果长度超过限制字符串将被截断 并且无效字符将被替换为 然后返回重建的字符串值
+description: 检查给定的工作表名称并在需要时创建一个有效的 如果给定的工作表名称符合excel工作表名称的规则则返回它 否则如果长度超过限制字符串将被截断 并将无效字符替换为 然后返回重建后的字符串值
 type: docs
 weight: 140
 url: /zh/net/aspose.cells/cellshelper/createsafesheetname/
 ---
 ## CreateSafeSheetName(string) {#createsafesheetname}
 
-检查给定的工作表名称并在需要时创建一个有效的工作表。 如果给定的表名符合excel表名的规则，则返回。 否则如果长度超过限制，字符串将被截断 并且无效字符将被替换为' '，然后返回重建的字符串值。
+检查给定的工作表名称，并在需要时创建一个有效的。 如果给定的工作表名称符合excel工作表名称的规则，则返回它。 否则如果长度超过限制，字符串将被截断 并将无效字符替换为' '，然后返回重建后的字符串值。
 
 ```csharp
 public static string CreateSafeSheetName(string nameProposal)
@@ -28,7 +28,7 @@ public static string CreateSafeSheetName(string nameProposal)
 
 ## CreateSafeSheetName(string, char) {#createsafesheetname_1}
 
-检查给定的工作表名称并在需要时创建一个有效的工作表。 如果给定的表名符合excel表名的规则，则返回。 否则，如果长度超过限制，将截断字符串 并将无效字符替换为给定字符，然后返回重建的字符串值。
+检查给定的工作表名称，并在需要时创建一个有效的。 如果给定的工作表名称符合excel工作表名称的规则，则返回它。 否则如果长度超过限制，字符串将被截断 并将无效字符替换为给定字符，然后返回重建的字符串值。
 
 ```csharp
 public static string CreateSafeSheetName(string nameProposal, char replaceChar)
@@ -37,7 +37,7 @@ public static string CreateSafeSheetName(string nameProposal, char replaceChar)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | nameProposal | String | 要使用的工作表名称 |
-| replaceChar | Char | 字符将用于替换给定工作表名称中的无效字符 |
+| replaceChar | Char | 将用于替换给定工作表名称中的无效字符的字符 |
 
 ### 也可以看看
 

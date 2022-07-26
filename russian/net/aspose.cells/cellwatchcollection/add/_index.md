@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Cells для .NET API
-description: ДобавляетCellWatchaspose.cells/cellwatchсо строкой и столбцом.
+description: ДобавляетCellWatchaspose.cells/cellwatch со строкой и столбцом.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/cellwatchcollection/add/
 ---
 ## Add(int, int) {#add}
 
-Добавляет[`CellWatch`](../../cellwatch)со строкой и столбцом.
+Добавляет[`CellWatch`](../../cellwatch) со строкой и столбцом.
 
 ```csharp
 public int Add(int row, int column)

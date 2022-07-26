@@ -16,7 +16,7 @@ public int Add(PivotField pivotField)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pivotField | PivotField | объект PivotField. |
+| pivotField | PivotField | Объект PivotField. |
 
 ### Возвращаемое значение
 

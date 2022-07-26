@@ -1,14 +1,14 @@
 ---
 title: Style
 second_title: Aspose.Cells for .NET API 参考
-description: 表示线条的样式
+description: 代表线条的样式
 type: docs
 weight: 170
 url: /zh/net/aspose.cells.drawing/line/style/
 ---
 ## Line.Style property
 
-表示线条的样式。
+代表线条的样式。
 
 ```csharp
 public LineType Style { get; set; }

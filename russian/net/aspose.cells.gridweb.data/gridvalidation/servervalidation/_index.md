@@ -16,7 +16,7 @@ public GridCustomServerValidation ServerValidation;
 
 ### Примечания
 
-Используйте свойство GridCustomServerValidation, чтобы указать проверку на стороне сервера.
+Используйте свойство GridCustomServerValidation, чтобы указать проверку на стороне сервера .
 
 ### Смотрите также
 

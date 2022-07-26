@@ -10,7 +10,7 @@ url: /zh/net/aspose.cells.gridweb.data/cellerrorhandler/
 
 表示打算处理单元格错误事件的接口。
 
-void **handleCellEvent** （对象发送者，GridCellException ex，OnErrorActionQuery 查询）；
+空白 **处理细胞事件**（对象发送者，GridCellException ex，OnErrorActionQuery 查询）；
 
 ```csharp
 public delegate void CellErrorHandler(object sender, WebCellException ex, 
@@ -19,7 +19,7 @@ public delegate void CellErrorHandler(object sender, WebCellException ex,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sender | Object | 事件源。 |
+| sender | Object | 事件的来源。 |
 | ex | WebCellException | 单元格操作错误。 |
 | action | OnErrorActionQuery | 可以获得onerror动作类型信息。 |
 

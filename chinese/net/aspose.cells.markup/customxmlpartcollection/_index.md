@@ -27,7 +27,7 @@ public class CustomXmlPartCollection : CollectionBase<CustomXmlPart>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells.markup/customxmlpartcollection/add)(byte[], byte[]) | 将项目添加到集合中。 |
+| [Add](../../aspose.cells.markup/customxmlpartcollection/add)(byte[], byte[]) | 将一个项目添加到集合中。 |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(CustomXmlPart) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(CustomXmlPart, IComparer&lt;CustomXmlPart&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, CustomXmlPart, IComparer&lt;CustomXmlPart&gt;) |  |

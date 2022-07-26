@@ -18,13 +18,13 @@ public int AddFloatingChart(ChartType type, int left, int top, int width, int he
 | --- | --- | --- |
 | type | ChartType | 图表类型 |
 | left | Int32 | 到角的 x 偏移 |
-| top | Int32 | 到角点的 y 偏移量 |
+| top | Int32 | 到角的 y 偏移 |
 | width | Int32 | 图表宽度 |
 | height | Int32 | 图表高度 |
 
 ### 返回值
 
-[`Chart`](../../chart)对象索引.
+[`Chart`](../../chart)对象索引。
 
 ### 也可以看看
 

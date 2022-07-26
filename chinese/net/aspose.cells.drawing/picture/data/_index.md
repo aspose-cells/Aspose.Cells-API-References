@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.drawing/picture/data/
 ---
 ## Picture.Data property
 
-获取图片的数据。
+获取图片的数据
 
 ```csharp
 public byte[] Data { get; set; }
@@ -19,20 +19,20 @@ public byte[] Data { get; set; }
 ```csharp
 
 [C#]
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 //插入第一张图片
 int imgIndex1 = worksheet.Pictures.Add(1, 1, "example1.png");
- //获取插入的图片object
+//获取插入的图片对象
 Picture pic1 = worksheet.Pictures[imgIndex1];
- //插入第二张图片
+//插入第二张图片
 int imgIndex2 = worksheet.Pictures.Add(1, 9, "example2.jpeg");
- //获取插入的图片object
+//获取插入的图片对象
 Picture pic2 = worksheet.Pictures[imgIndex2];
- //将第一张图片的字节数据赋值给第二张图片
+//将第一张图片的字节数据赋值给第二张图片
 pic2.Data = pic1.Data;
- //保存excel文件.
+//保存excel文件。
 workbook.Save("result.xlsx");
 ```
 

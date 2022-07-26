@@ -1,14 +1,14 @@
 ---
 title: FormulaLocal
 second_title: Aspose.Cells for .NET API 参考
-description: 获取单元格的区域设置格式公式
+description: 获取单元格的语言环境格式公式
 type: docs
 weight: 100
 url: /zh/net/aspose.cells/cell/formulalocal/
 ---
 ## Cell.FormulaLocal property
 
-获取单元格的区域设置格式公式。
+获取单元格的语言环境格式公式。
 
 ```csharp
 public string FormulaLocal { get; set; }

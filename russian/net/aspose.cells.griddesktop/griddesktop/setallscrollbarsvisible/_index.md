@@ -1,14 +1,14 @@
 ---
 title: SetAllScrollBarsVisible
 second_title: Справочник по Aspose.Cells для .NET API
-description: Делает видимыми все полосы прокрутки.
+description: Делает все полосы прокрутки видимыми.
 type: docs
 weight: 780
 url: /ru/net/aspose.cells.griddesktop/griddesktop/setallscrollbarsvisible/
 ---
 ## GridDesktop.SetAllScrollBarsVisible method
 
-Делает видимыми все полосы прокрутки.
+Делает все полосы прокрутки видимыми.
 
 ```csharp
 public void SetAllScrollBarsVisible()

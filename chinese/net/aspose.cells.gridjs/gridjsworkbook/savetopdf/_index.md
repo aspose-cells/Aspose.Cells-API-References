@@ -28,7 +28,7 @@ public void SaveToPdf(string path)
 
 ## SaveToPdf(Stream) {#savetopdf}
 
-将工作表保存到 sream，保存格式为 pdf
+将工作表保存到sream，保存格式为pdf
 
 ```csharp
 public void SaveToPdf(Stream stream)

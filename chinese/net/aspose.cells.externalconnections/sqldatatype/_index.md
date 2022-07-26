@@ -19,26 +19,26 @@ public enum SqlDataType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | SqlUnsignedOffset | `-22` | sql 无符号偏移量 |
-| SqlSignedOffset | `-20` | sql 有符号偏移量 |
+| SqlSignedOffset | `-20` | sql 签名偏移量 |
 | SqlGUID | `-11` | sql guid |
 | SqlWLongVarchar | `-10` | sql 宽长变量 char |
 | SqlWVarchar | `-9` | sql 宽变量 char |
 | SqlWChar | `-8` | sql 宽字符 |
 | SqlBit | `-7` | sql 位 |
-| SqlTinyInt | `-6` | sql tiny int |
-| SqlBigInt | `-5` | sql big int |
-| SqlLongVarBinary | `-4` | sql long variable binary |
-| SqlVarBinary | `-3` | sql 变量二进制 |
+| SqlTinyInt | `-6` | sql 微小的 int |
+| SqlBigInt | `-5` | sql 大整数 |
+| SqlLongVarBinary | `-4` | sql 长变量 binary |
+| SqlVarBinary | `-3` | sql 变量 binary |
 | SqlBinary | `-2` | sql 二进制 |
-| SqlLongVarChar | `-1` | sql long variable char |
+| SqlLongVarChar | `-1` | sql 长变量 char |
 | SqlUnknownType | `0` | sql 未知类型 |
-| SqlChar | `1` | sql char |
+| SqlChar | `1` | sql 字符 |
 | SqlNumeric | `2` | sql 数字 |
 | SqlDecimal | `3` | sql 十进制 |
 | SqlInteger | `4` | sql 整数 |
-| SqlSmallInt | `5` | sql small int |
-| SqlFloat | `6` | sql float |
-| SqlReal | `7` | sql 实数 |
+| SqlSmallInt | `5` | sql 小整数 |
+| SqlFloat | `6` | sql 浮点数 |
+| SqlReal | `7` | sql 真实 |
 | SqlDouble | `8` | sql double |
 | SqlTypeDate | `9` | sql 日期类型 |
 | SqlTypeTime | `10` | sql时间类型 |
@@ -51,9 +51,9 @@ public enum SqlDataType
 | SqlIntervalMinute | `105` | sql 间隔分钟 |
 | SqlIntervalSecond | `106` | sql 间隔秒 |
 | SqlIntervalYearToMonth | `107` | sql 间隔年到月 |
-| SqlIntervalDayToHour | `108` | sql 每天到小时的间隔 |
-| SqlIntervalDayToMinute | `109` | sql 间隔日到分钟 |
-| SqlIntervalDayToSecond | `110` | sql 间隔日到秒 |
+| SqlIntervalDayToHour | `108` | sql 间隔天到小时 |
+| SqlIntervalDayToMinute | `109` | sql 间隔天到分钟 |
+| SqlIntervalDayToSecond | `110` | sql 间隔天到秒 |
 | SqlIntervalHourToMinute | `111` | sql 间隔小时到分钟 |
 | SqlIntervalHourToSecond | `112` | sql 间隔小时到秒 |
 | SqlIntervalMinuteToSecond | `113` | sql 间隔分钟到秒 |

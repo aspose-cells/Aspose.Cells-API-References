@@ -1,14 +1,14 @@
 ---
 title: FontSize
 second_title: Справочник по Aspose.Cells для .NET API
-description: Будет применена настройка размера шрифта.
+description: Будет применена настройка размера шрифта .
 type: docs
 weight: 150
 url: /ru/net/aspose.cells/styleflag/fontsize/
 ---
 ## StyleFlag.FontSize property
 
-Будет применена настройка размера шрифта.
+Будет применена настройка размера шрифта .
 
 ```csharp
 public bool FontSize { get; set; }

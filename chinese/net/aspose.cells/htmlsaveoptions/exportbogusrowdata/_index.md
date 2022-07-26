@@ -1,14 +1,14 @@
 ---
 title: ExportBogusRowData
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否导出假底行数据默认值为true如果要将html或mht文件 导入excel请保持默认值
+description: 表示是否导出假底行数据默认值为true如果要导入html或mht文件 到excel请保持默认值
 type: docs
 weight: 120
 url: /zh/net/aspose.cells/htmlsaveoptions/exportbogusrowdata/
 ---
 ## HtmlSaveOptions.ExportBogusRowData property
 
-表示是否导出假底行数据。默认值为true。如果要将html或mht文件 导入excel，请保持默认值。
+表示是否导出假底行数据。默认值为true。如果要导入html或mht文件 到excel，请保持默认值。
 
 ```csharp
 public bool ExportBogusRowData { get; set; }

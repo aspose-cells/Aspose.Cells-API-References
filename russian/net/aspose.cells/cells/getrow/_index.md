@@ -1,14 +1,14 @@
 ---
 title: GetRow
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементRowaspose.cells/rowпо указанному индексу строки ячейки.
+description: ПолучаетRowaspose.cells/row элемент по указанному индексу строки ячейки.
 type: docs
-weight: 770
+weight: 780
 url: /ru/net/aspose.cells/cells/getrow/
 ---
 ## Cells.GetRow method
 
-Получает элемент[`Row`](../../row)по указанному индексу строки ячейки.
+Получает[`Row`](../../row) элемент по указанному индексу строки ячейки.
 
 ```csharp
 public Row GetRow(int row)
@@ -20,7 +20,7 @@ public Row GetRow(int row)
 
 ### Возвращаемое значение
 
-Если объект строки существует, вернуть объект Row, в противном случае вернуть null.
+Если объект строки существует, вернуть объект Row, иначе вернуть null.
 
 ### Смотрите также
 

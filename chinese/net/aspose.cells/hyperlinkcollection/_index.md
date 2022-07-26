@@ -1,14 +1,14 @@
 ---
 title: HyperlinkCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装Hyperlink./hyperlink对象的集合
+description: 封装了一个集合Hyperlink./hyperlink对象.
 type: docs
 weight: 3760
 url: /zh/net/aspose.cells/hyperlinkcollection/
 ---
 ## HyperlinkCollection class
 
-封装[`Hyperlink`](../hyperlink)对象的集合。
+封装了一个集合[`Hyperlink`](../hyperlink)对象.
 
 ```csharp
 public class HyperlinkCollection : CollectionBase<Hyperlink>
@@ -20,16 +20,16 @@ public class HyperlinkCollection : CollectionBase<Hyperlink>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/hyperlinkcollection/item) { get; } | 获取指定索引处的[`Hyperlink`](../hyperlink)元素。 |
+| [Item](../../aspose.cells/hyperlinkcollection/item) { get; } | 获取[`Hyperlink`](../hyperlink)指定索引处的元素。 |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells/hyperlinkcollection/add#add_1)(string, int, int, string) | 将超链接添加到指定单元格或单元格区域。 |
-| [Add](../../aspose.cells/hyperlinkcollection/add#add)(int, int, int, int, string) | 将超链接添加到指定单元格或单元格区域。 |
-| [Add](../../aspose.cells/hyperlinkcollection/add#add_2)(string, string, string, string, string) | 将超链接添加到指定单元格或单元格区域。 |
+| [Add](../../aspose.cells/hyperlinkcollection/add#add_1)(string, int, int, string) | 向指定单元格或单元格范围添加超链接。 |
+| [Add](../../aspose.cells/hyperlinkcollection/add#add)(int, int, int, int, string) | 向指定单元格或单元格范围添加超链接。 |
+| [Add](../../aspose.cells/hyperlinkcollection/add#add_2)(string, string, string, string, string) | 向指定单元格或单元格范围添加超链接。 |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Hyperlink) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Hyperlink, IComparer&lt;Hyperlink&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Hyperlink, IComparer&lt;Hyperlink&gt;) |  |
@@ -64,38 +64,36 @@ public class HyperlinkCollection : CollectionBase<Hyperlink>
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 
- //通过传入其sheet index
-eet的引用
+//通过传入工作表的索引来获取新添加的工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
 
- //获取超链接集合
+//获取超链接集合
 HyperlinkCollection hyperlinks = worksheet.Hyperlinks;
 
-//在“A1”处添加指向 URL 的超链接 cell
+//在“A1”单元格处添加指向 URL 的超链接
 hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
 
- //保存Excel文件
+//保存Excel文件
 workbook.Save("book1.xls");
 
 [VB.NET]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 
-'通过传入其sheet index
-eet的引用
+'通过传入工作表的索引来获取新添加的工作表的引用
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
 '获取超链接集合
 Dim hyperlinks As HyperlinkCollection = worksheet.Hyperlinks
 
-'在“A1”处添加指向 URL 的超链接 cell
-hyperlinks.Add("A1", 1, 1, "http: //www.aspose.com")
+'Adding a hyperlink to a URL at "A1" cell
+hyperlinks.Add("A1", 1, 1, "http://www.aspose.com")
 
-'保存Excel文件
+'保存 Excel 文件
 workbook.Save("book1.xls")
 ```
 

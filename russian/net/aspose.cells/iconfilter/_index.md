@@ -19,7 +19,7 @@ public class IconFilter
 | Имя | Описание |
 | --- | --- |
 | [IconId](../../aspose.cells/iconfilter/iconid) { get; set; } | Получает и задает Отсчитываемый от нуля индекс значка в наборе значков. |
-| [IconSetType](../../aspose.cells/iconfilter/iconsettype) { get; set; } | Получает и устанавливает, какой набор значков используется в критериях фильтрации. |
+| [IconSetType](../../aspose.cells/iconfilter/iconsettype) { get; set; } | Получает и задает, какой набор значков используется в критериях фильтра. |
 
 ### Смотрите также
 

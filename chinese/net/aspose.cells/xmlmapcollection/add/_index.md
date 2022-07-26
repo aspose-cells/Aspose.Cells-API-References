@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 通过 xml/xsd 文件的 url/路径添加XmlMapaspose.cells/xmlmap
+description: 添加一个XmlMapaspose.cells/xmlmap通过 xml/xsd 文件的 url/路径
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/xmlmapcollection/add/
 ---
 ## XmlMapCollection.Add method
 
-通过 xml/xsd 文件的 url/路径添加[`XmlMap`](../../xmlmap)。
+添加一个[`XmlMap`](../../xmlmap)通过 xml/xsd 文件的 url/路径。
 
 ```csharp
 public int Add(string url)
@@ -24,17 +24,17 @@ public int Add(string url)
 
 ### 例子
 
-以下代码通过一个 xsd 文件和一个 xml 添加两个[`XmlMap`](../../xmlmap)文件。
+下面的代码增加了两个[`XmlMap`](../../xmlmap)通过一个 xsd 文件和一个 xml 文件。
 
 ```csharp
 Workbook wb = new Workbook();
 
 XmlMapCollection xmlMapCollection = wb.Worksheets.XmlMaps;
 
-//通过xsd文件添加一个.
+//通过xsd文件添加一个<see cref="T:Aspose.Cells.XmlMap" />。
 xmlMapCollection.Add("schema.xsd");
 
- //通过xml文件添加一个.
+//通过xml文件添加一个<see cref="T:Aspose.Cells.XmlMap" />。
 xmlMapCollection.Add("xml.xml");
 
 wb.Save("twoXmlMaps.xlsx");

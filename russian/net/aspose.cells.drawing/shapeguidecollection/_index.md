@@ -1,14 +1,14 @@
 ---
 title: ShapeGuideCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует набор направляющих фигур
+description: Инкапсулирует коллекцию направляющих фигур
 type: docs
 weight: 2670
 url: /ru/net/aspose.cells.drawing/shapeguidecollection/
 ---
 ## ShapeGuideCollection class
 
-Инкапсулирует набор направляющих фигур
+Инкапсулирует коллекцию направляющих фигур
 
 ```csharp
 public class ShapeGuideCollection : CollectionBase<ShapeGuide>
@@ -26,14 +26,14 @@ public class ShapeGuideCollection : CollectionBase<ShapeGuide>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.drawing/shapeguidecollection/item) { get; } | Получает направляющую формы по индексу |
+| [Item](../../aspose.cells.drawing/shapeguidecollection/item) { get; } | Получает направляющую формы по index |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells.drawing/shapeguidecollection/add)(string, double) | Добавляет направляющую формы. (Важно:эта функция в настоящее время доступна только для Excel07 и выше) |
+| [Add](../../aspose.cells.drawing/shapeguidecollection/add)(string, double) | Добавляет направляющую формы. (Важно: эта функция в настоящее время доступна только для Excel07 и выше) |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ShapeGuide) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ShapeGuide, IComparer&lt;ShapeGuide&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, ShapeGuide, IComparer&lt;ShapeGuide&gt;) |  |

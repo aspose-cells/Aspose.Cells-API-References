@@ -1,14 +1,14 @@
 ---
 title: ImportFormulaArray
 second_title: Справочник по Aspose.Cells для .NET API
-description: Импортирует массив формул на рабочий лист.
+description: Импортирует массив формул на лист.
 type: docs
-weight: 1020
+weight: 1030
 url: /ru/net/aspose.cells/cells/importformulaarray/
 ---
 ## Cells.ImportFormulaArray method
 
-Импортирует массив формул на рабочий лист.
+Импортирует массив формул на лист.
 
 ```csharp
 public void ImportFormulaArray(string[] stringArray, int firstRow, int firstColumn, bool isVertical)

@@ -1,14 +1,14 @@
 ---
 title: CellCommand
 second_title: Справочник по Aspose.Cells для .NET API
-description: Происходит при нажатии гиперссылки команды ячейки. При запуске этого события его параметр e.Argument содержит имя команды.
+description: Происходит при щелчке гиперссылки команды ячейки. Когда это событие запускается его параметр e.Argument содержит имя команды.
 type: docs
 weight: 1160
 url: /ru/net/aspose.cells.gridweb/mainweb/cellcommand/
 ---
 ## MainWeb.CellCommand event
 
-Происходит при нажатии гиперссылки команды ячейки. При запуске этого события его параметр e.Argument содержит имя команды.
+Происходит при щелчке гиперссылки команды ячейки. Когда это событие запускается, его параметр e.Argument содержит имя команды.
 
 ```csharp
 public event CellEventHandler CellCommand;

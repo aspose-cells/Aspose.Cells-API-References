@@ -1,14 +1,14 @@
 ---
 title: GridInterruptMonitor
 second_title: Aspose.Cells for .NET API 参考
-description: 代表所有关于中断的操作符
+description: 代表所有关于中断的算子
 type: docs
 weight: 70
 url: /zh/net/aspose.cells.gridjs/gridinterruptmonitor/
 ---
 ## GridInterruptMonitor class
 
-代表所有关于中断的操作符。
+代表所有关于中断的算子。
 
 ```csharp
 public class GridInterruptMonitor
@@ -24,7 +24,7 @@ public class GridInterruptMonitor
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Interrupt](../../aspose.cells.gridjs/gridinterruptmonitor/interrupt)() | 中断当前操作符。 |
+| [Interrupt](../../aspose.cells.gridjs/gridinterruptmonitor/interrupt)() | 中断当前操作员。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: IsProtectedWithPassword
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает защищены ли рабочие листы паролем.
+description: Указывает защищены ли листы паролем.
 type: docs
 weight: 170
 url: /ru/net/aspose.cells/protection/isprotectedwithpassword/
 ---
 ## Protection.IsProtectedWithPassword property
 
-Указывает, защищены ли рабочие листы паролем.
+Указывает, защищены ли листы паролем.
 
 ```csharp
 public bool IsProtectedWithPassword { get; }

@@ -1,14 +1,14 @@
 ---
 title: FilteredPaging
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置数据过滤后是否开启分页EnablePaging为true时生效
+description: 获取或设置数据过滤后是否开启分页当EnablePaging为true时生效
 type: docs
 weight: 340
 url: /zh/net/aspose.cells.gridweb/mainweb/filteredpaging/
 ---
 ## MainWeb.FilteredPaging property
 
-获取或设置数据过滤后是否开启分页，EnablePaging为true时生效。
+获取或设置数据过滤后是否开启分页，当EnablePaging为true时生效
 
 ```csharp
 public bool FilteredPaging { get; set; }
@@ -16,7 +16,7 @@ public bool FilteredPaging { get; set; }
 
 ### 评论
 
-当设置为true时，控件将根据过滤后的数据进行分页，默认值为false。
+当设置为true时，控件会根据过滤后的数据进行分页，默认值为false。
 
 ### 也可以看看
 

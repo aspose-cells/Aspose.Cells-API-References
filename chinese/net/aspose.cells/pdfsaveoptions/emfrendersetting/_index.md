@@ -1,14 +1,14 @@
 ---
 title: EmfRenderSetting
 second_title: Aspose.Cells for .NET API 参考
-description: 渲染 Emf 图元文件的设置
+description: 渲染 Emf 元文件的设置
 type: docs
 weight: 150
 url: /zh/net/aspose.cells/pdfsaveoptions/emfrendersetting/
 ---
 ## PdfSaveOptions.EmfRenderSetting property
 
-渲染 Emf 图元文件的设置。
+渲染 Emf 元文件的设置。
 
 ```csharp
 public EmfRenderSetting EmfRenderSetting { get; set; }
@@ -16,7 +16,7 @@ public EmfRenderSetting EmfRenderSetting { get; set; }
 
 ### 评论
 
-标识为“EMF+ Dual”的 EMF 元文件可以同时包含 EMF+ 记录和 EMF 记录。 任何一种类型的记录都可用于渲染图像，仅 EMF+ 记录或仅 EMF 记录。 如果设置了!:EmfRenderSetting.EmfPlusPrefer，则在渲染为 pdf 时将解析 EMF+ 记录，否则将仅解析 EMF 记录。 默认值为!:EmfRenderSetting.EmfOnly。
+标识为“EMF+ Dual”的 EMF 元文件可以包含 EMF+ 记录和 EMF 记录。 可以使用任一类型的记录来渲染图像，仅 EMF+ 记录，或仅 EMF 记录。 当EmfPlusPrefer设置，则在渲染为 pdf 时将解析 EMF+ 记录，否则将仅解析 EMF 记录。 默认值为EmfOnly.
 
 ### 也可以看看
 

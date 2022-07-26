@@ -21,7 +21,7 @@ public FontSetting Characters(int startIndex, int length)
 
 ### Возвращаемое значение
 
-Персонажи объекта.
+Возражают персонажи.
 
 ### Примеры
 

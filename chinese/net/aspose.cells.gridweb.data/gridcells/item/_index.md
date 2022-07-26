@@ -37,7 +37,7 @@ public GridCell this[int index] { get; }
 
 ## GridCells indexer (2 of 3)
 
-获取指定单元格行索引和列索引处的Cell元素。
+获取Cell指定单元格行索引和列索引处的元素。
 
 ```csharp
 public GridCell this[int row, int column] { get; }
@@ -50,7 +50,7 @@ public GridCell this[int row, int column] { get; }
 
 ### 返回值
 
-Cell对象。
+这Cell目的。
 
 ### 例子
 
@@ -58,13 +58,13 @@ Cell对象。
 [C#]
 
 Cells cells = excel.Worksheets[0].Cells;
-  //获取“A1”处的单元格
+//获取“A1”处的单元格
 Cell cell = cells[0, 0];	
 
 [Visual Basic]
 
 Dim cells As Cells =  excel.WorkSheets(0).Cells
- '获取“A1”处的单元格
+ 'Gets the cell at "A1"
 Dim cell As Cell =  cells(0,0) 
 ```
 
@@ -79,7 +79,7 @@ Dim cell As Cell =  cells(0,0)
 
 ## GridCells indexer (3 of 3)
 
-获取指定单元名称处的Cell元素。
+获取Cell指定单元格名称处的元素。
 
 ```csharp
 public GridCell this[string cellName] { get; }
@@ -87,11 +87,11 @@ public GridCell this[string cellName] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| cellName | 单元格名称，包括其列字母和行号，例如A5。 |
+| cellName | 单元格名称，包括其列字母和行号，例如 A5。 |
 
 ### 返回值
 
-ACell对象
+一个Cell目的
 
 ### 例子
 
@@ -99,12 +99,12 @@ ACell对象
 [C#]
 
 Cells cells = excel.Worksheets[0].Cells;
-Cell cell = cells["A1"];	  //获取“A1”处的单元格
+Cell cell = cells["A1"];	//获取“A1”处的单元格
 
 [Visual Basic]
 
 Dim cells As Cells =  excel.Worksheets(0).Cells
-Dim cell As Cell =  cells("A1")  '获取“A1”处的单元格
+Dim cell As Cell =  cells("A1")  'Gets the cell at "A1"
 ```
 
 ### 也可以看看

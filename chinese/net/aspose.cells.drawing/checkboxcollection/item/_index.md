@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定索引处的CheckBoxaspose.cells.drawing/checkbox元素
+description: 获取CheckBoxaspose.cells.drawing/checkbox指定索引处的元素
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.drawing/checkboxcollection/item/
 ---
 ## CheckBoxCollection indexer
 
-获取指定索引处的[`CheckBox`](../../checkbox)元素。
+获取[`CheckBox`](../../checkbox)指定索引处的元素。
 
 ```csharp
 public CheckBox this[int index] { get; }

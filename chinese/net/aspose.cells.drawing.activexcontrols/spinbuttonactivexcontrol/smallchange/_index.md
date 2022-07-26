@@ -1,14 +1,14 @@
 ---
 title: SmallChange
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置 Position 属性更改的量
+description: 获取和设置 Position 属性的变化量
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/smallchange/
 ---
 ## SpinButtonActiveXControl.SmallChange property
 
-获取和设置 Position 属性更改的量
+获取和设置 Position 属性的变化量
 
 ```csharp
 public int SmallChange { get; set; }

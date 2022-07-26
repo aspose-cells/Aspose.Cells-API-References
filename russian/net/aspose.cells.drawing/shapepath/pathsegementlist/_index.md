@@ -1,14 +1,14 @@
 ---
 title: PathSegementList
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПолучаетShapeSegmentPathCollectionaspose.cells.drawing/shapesegmentpathcollectionсписок
+description: получаетShapeSegmentPathCollectionaspose.cells.drawing/shapesegmentpathcollection список
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.drawing/shapepath/pathsegementlist/
 ---
 ## ShapePath.PathSegementList property
 
-Получает[`ShapeSegmentPathCollection`](../../shapesegmentpathcollection)список
+получает[`ShapeSegmentPathCollection`](../../shapesegmentpathcollection) список
 
 ```csharp
 public ShapeSegmentPathCollection PathSegementList { get; }

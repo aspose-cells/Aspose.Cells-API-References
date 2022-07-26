@@ -16,7 +16,7 @@ public void RemoveAt(string cellName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cellName | String | 包含注释的单元格名称。 |
+| cellName | String | 包含评论的单元格的名称。 |
 
 ### 也可以看看
 

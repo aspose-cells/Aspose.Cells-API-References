@@ -1,14 +1,14 @@
 ---
 title: OldName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает старое имя листа.
+description: Получает старое имя рабочего листа.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.revisions/revisionrenamesheet/oldname/
 ---
 ## RevisionRenameSheet.OldName property
 
-Получает старое имя листа.
+Получает старое имя рабочего листа.
 
 ```csharp
 public string OldName { get; }

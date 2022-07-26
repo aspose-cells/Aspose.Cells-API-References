@@ -20,7 +20,7 @@ public SlicerCacheItemCollection SlicerCacheItems { get; }
 
 [C#]
 
-//获取包含切片器缓存中所有项目的集合的SlicerCacheItem集合。
+//获取包含切片器缓存中所有项目的集合的 SlicerCacheItem 集合。
 SlicerCacheItemCollection slicerCacheItems = slicerCache.SlicerCacheItems;
 Console.WriteLine(slicerCacheItems.Count);
 ```

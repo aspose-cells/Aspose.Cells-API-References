@@ -1,14 +1,14 @@
 ---
 title: IsParsePre
 second_title: Aspose.Cells for .NET API 参考
-description: 指示网页中 HTML PRE 标记中包含的数据是否为 在将页面导入查询表时解析为列的标志
+description: 在将页面导入查询表时指示网页中 HTML PRE 标记中包含的数据是否 解析为列的标志
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.externalconnections/webqueryconnection/isparsepre/
 ---
 ## WebQueryConnection.IsParsePre property
 
-指示网页中 HTML PRE 标记中包含的数据是否为 在将页面导入查询表时解析为列的标志。
+在将页面导入查询表时，指示网页中 HTML PRE 标记中包含的数据是否 解析为列的标志。
 
 ```csharp
 public bool IsParsePre { get; set; }

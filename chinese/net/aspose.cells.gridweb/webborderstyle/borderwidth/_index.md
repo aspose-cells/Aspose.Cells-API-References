@@ -1,14 +1,14 @@
 ---
 title: BorderWidth
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置边框的宽度 请参考 System.Web.UI.WebControls.Unit 结构
+description: 获取或设置边框宽度 请参考System.Web.UI.WebControls.Unit struct.
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.gridweb/webborderstyle/borderwidth/
 ---
 ## WebBorderStyle.BorderWidth property
 
-获取或设置边框的宽度。 请参考 System.Web.UI.WebControls.Unit 结构。
+获取或设置边框宽度。 请参考System.Web.UI.WebControls.Unit struct.
 
 ```csharp
 public Unit BorderWidth { get; set; }

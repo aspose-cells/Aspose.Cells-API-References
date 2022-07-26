@@ -1,14 +1,14 @@
 ---
 title: ParentStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 获取该样式的父样式
+description: 获取此样式的父样式
 type: docs
 weight: 240
 url: /zh/net/aspose.cells/style/parentstyle/
 ---
 ## Style.ParentStyle property
 
-获取该样式的父样式。
+获取此样式的父样式。
 
 ```csharp
 public Style ParentStyle { get; }

@@ -1,14 +1,14 @@
 ---
 title: FilterString
 second_title: Aspose.Cells for .NET API 参考
-description: 为列设置过滤器注意我们将在调用 filterString 过滤条件字符串之前调用 AddAutoFilter注意我们使用逗号-gt 作为拆分字符因此您要过滤的单元格值不应包含逗号 filterString10123456 表示第 10 列应包含 123 或 456  filterString10123 表示 column10 应包含 123  值用逗号分隔例如 123456789 或 abc
+description: 为列设置过滤器请注意我们将在调用 filterString 过滤条件字符串之前调用 AddAutoFilter注意我们使用 comma-gt 作为拆分字符因此您要过滤的单元格值不应包含 comma filterString10123456 表示第 10 列应包含 123 或 456filterString10123  表示第 10 列应包含 123 用逗号分隔值例如 123456789 或 abc
 type: docs
 weight: 660
 url: /zh/net/aspose.cells.griddesktop/worksheet/filterstring/
 ---
 ## Worksheet.FilterString method
 
-为列设置过滤器。注意我们将在调用 filterString 过滤条件字符串之前调用 AddAutoFilter。注意我们使用逗号-&gt;"," 作为拆分字符，因此您要过滤的单元格值不应包含逗号 filterString(10,"123,456") 表示第 10 列应包含 123 或 456 , filterString(10,"123") 表示 column10 应包含 123  值，用逗号分隔，例如。 123,456,789 或 abc
+为列设置过滤器。请注意，我们将在调用 filterString 过滤条件字符串之前调用 AddAutoFilter。注意我们使用 comma-&gt;"," 作为拆分字符，因此您要过滤的单元格值不应包含 comma filterString(10,"123,456") 表示第 10 列应包含 123 或 456，filterString(10,"123" ) 表示第 10 列应包含 123 用逗号分隔值，例如。 123,456,789 或 abc
 
 ```csharp
 public void FilterString(int column, string criteria)

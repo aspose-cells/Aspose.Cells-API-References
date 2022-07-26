@@ -16,7 +16,7 @@ public void ToPdf(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 带有完整路径的pdf文件名 |
+| fileName | String | 带有完整路径的 pdf 文件名 |
 
 ### 也可以看看
 
@@ -37,7 +37,7 @@ public void ToPdf(string fileName, float desiredPageWidth, float desiredPageHeig
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 带有完整路径的pdf文件名 |
+| fileName | String | 带有完整路径的 pdf 文件名 |
 | desiredPageWidth | Single | 所需的页面宽度（以英寸为单位）。 |
 | desiredPageHeight | Single | 所需的页面高度（以英寸为单位）。 |
 | hAlignmentType | PageLayoutAlignmentType | 输出页面中的图表水平对齐类型。 |
@@ -84,7 +84,7 @@ public void ToPdf(Stream stream, float desiredPageWidth, float desiredPageHeight
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 输出流。 |
-| desiredPageWidth | Single | 所需的页面宽度，以英寸为单位。 |
+| desiredPageWidth | Single | 所需的页面宽度（以英寸为单位）。 |
 | desiredPageHeight | Single | 所需的页面高度（以英寸为单位）。 |
 | hAlignmentType | PageLayoutAlignmentType | 输出页面中的图表水平对齐类型。 |
 | vAlignmentType | PageLayoutAlignmentType | 输出页面中的图表垂直对齐类型。 |

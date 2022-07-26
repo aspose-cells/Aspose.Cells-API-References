@@ -16,7 +16,7 @@ public bool IsArea { get; }
 
 ### 评论
 
-如果这不是一个区域，只有 StartRow 和 StartColumn 效果。
+如果这不是一个区域，只有StartRow和StartColumn效果。
 
 ### 也可以看看
 

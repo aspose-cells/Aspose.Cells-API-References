@@ -16,7 +16,7 @@ public void Copy(PageSetup source, CopyOptions copyOptions)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | PageSetup | 源。 |
+| source | PageSetup | 来源。 |
 | copyOptions | CopyOptions | 复制选项。 |
 
 ### 也可以看看

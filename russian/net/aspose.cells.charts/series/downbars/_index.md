@@ -1,14 +1,14 @@
 ---
 title: DownBars
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает объектDropBarsaspose.cells.charts/dropbars представляющий нижние бары на линейной диаграмме. Применяется только к линейным графикам.
+description: ВозвращаетDropBarsaspose.cells.charts/dropbars объект представляющий нижние бары на линейном графике. Применяется только к линейным графикам.
 type: docs
 weight: 100
 url: /ru/net/aspose.cells.charts/series/downbars/
 ---
 ## Series.DownBars property
 
-Возвращает объект[`DropBars`](../../dropbars), представляющий нижние бары на линейной диаграмме. Применяется только к линейным графикам.
+Возвращает[`DropBars`](../../dropbars) объект, представляющий нижние бары на линейном графике. Применяется только к линейным графикам.
 
 ```csharp
 public DropBars DownBars { get; }

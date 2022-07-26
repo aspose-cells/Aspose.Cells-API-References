@@ -1,14 +1,14 @@
 ---
 title: AddOval
 second_title: Aspose.Cells for .NET API 参考
-description: 向工作表添加椭圆
+description: 在工作表中添加一个椭圆形
 type: docs
 weight: 200
 url: /zh/net/aspose.cells.drawing/shapecollection/addoval/
 ---
 ## ShapeCollection.AddOval method
 
-向工作表添加椭圆。
+在工作表中添加一个椭圆形。
 
 ```csharp
 public Oval AddOval(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)
@@ -25,14 +25,14 @@ public Oval AddOval(int upperLeftRow, int top, int upperLeftColumn, int left, in
 
 ### 返回值
 
-椭圆形对象。
+椭圆形物体。
 
 ### 例子
 
 ```csharp
 
 [C#]
- //添加一个椭圆形
+//添加一个椭圆
 Oval oval = shapes.AddOval(1, 0, 1, 0, 50, 50);
 ```
 

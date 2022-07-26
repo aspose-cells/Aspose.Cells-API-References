@@ -16,7 +16,7 @@ public ConditionalFormattingResult GetConditionalFormattingResult()
 
 ### 评论
 
-如果没有条件格式应用于此单元格，则返回 null
+如果没有条件格式应用于此单元格，则返回 null，
 
 ### 也可以看看
 

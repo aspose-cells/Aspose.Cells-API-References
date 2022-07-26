@@ -19,33 +19,33 @@ public class GridHtmlSaveOptions : GridSaveOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [GridHtmlSaveOptions](gridhtmlsaveoptions#constructor)() | 创建用于保存 html 文件的选项。 |
-| [GridHtmlSaveOptions](gridhtmlsaveoptions#constructor_1)(GridSaveFormat) | 创建用于保存 htm 文件的选项。 |
+| [GridHtmlSaveOptions](gridhtmlsaveoptions#constructor_1)(GridSaveFormat) | 创建保存 htm 文件的选项。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AttachedFilesDirectory](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/attachedfilesdirectory) { get; set; } | 附件将被保存到的目录。 仅用于保存到 html 流。 |
-| [AttachedFilesUrlPrefix](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/attachedfilesurlprefix) { get; set; } | 指定html文件中图片等附件的Url前缀。 仅用于保存到 html 流。 |
+| [AttachedFilesDirectory](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/attachedfilesdirectory) { get; set; } | 附件要保存到的目录。 仅用于保存到html流。 |
+| [AttachedFilesUrlPrefix](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/attachedfilesurlprefix) { get; set; } | 指定html文件中图片等附件的Url前缀 仅用于保存到html流 |
 | [CachedFileFolder](../../aspose.cells.gridweb.data/gridsaveoptions/cachedfilefolder) { get; set; } | 缓存的文件夹是用来存放一些大数据的。 |
 | [ClearData](../../aspose.cells.gridweb.data/gridsaveoptions/cleardata) { get; set; } | 保存文件后使工作簿为空。 |
-| [CreateDirectory](../../aspose.cells.gridweb.data/gridsaveoptions/createdirectory) { get; set; } | 如果为true且目录不存在，则在保存文件之前会自动创建目录。 |
-| [DefaultFontName](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/defaultfontname) { get; set; } | 指定导出html的默认字体名称，当style的字体不存在时使用默认字体, 如果该属性为null，Aspose.Cells 将使用与原始字体同族的通用字体， 默认值为 null。 |
+| [CreateDirectory](../../aspose.cells.gridweb.data/gridsaveoptions/createdirectory) { get; set; } | 如果为true且目录不存在，会在保存文件前自动创建目录。 |
+| [DefaultFontName](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/defaultfontname) { get; set; } | 指定导出html的默认字体名称，当style的字体不存在时使用默认字体， 如果该属性为空，Aspose.Cells将使用与原始字体同族的通用字体， 默认值为空。 |
 | [Encoding](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/encoding) { get; set; } | 如果未设置，则使用 Encoding.UTF8 作为默认编码类型。 |
-| [ExportActiveWorksheetOnly](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/exportactiveworksheetonly) { get; set; } | 指示是否将整个工作簿导出为 html 文件。 |
-| [ExportArea](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/exportarea) { get; set; } | 获取或设置当前活动工作表的导出单元格区域。 如果设置此属性，当前活动工作表的打印区域将被忽略。 将文件保存为html时只会导出指定区域。 |
+| [ExportActiveWorksheetOnly](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/exportactiveworksheetonly) { get; set; } | 表示是否将整个工作簿导出到 html 文件。 |
+| [ExportArea](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/exportarea) { get; set; } | 获取或设置当前活动Worksheet的导出CellArea |
 | [ExportGridLines](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/exportgridlines) { get; set; } | 表示是否导出网格线。默认值为false。 |
-| [ExportHeadings](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/exportheadings) { get; set; } | 表示将文件保存为html时是否导出标题。默认值为false。 如果要将html文件导入excel，请保持默认值。 |
+| [ExportHeadings](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/exportheadings) { get; set; } | 表示保存文件到html时是否导出标题。默认值为false。 如果要将html文件导入excel，请保持默认值。 |
 | [ExportHiddenWorksheet](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/exporthiddenworksheet) { get; set; } | 表示是否导出隐藏的工作表内容。默认值为true。 |
 | [ExportImagesAsBase64](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/exportimagesasbase64) { get; set; } | 指定图像是否以 Base64 格式保存为 HTML、MHTML 或 EPUB。 |
 | [ExportPrintAreaOnly](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/exportprintareaonly) { get; set; } | 表示是否仅将打印区域导出为 html 文件。默认值为假。 |
-| [ExportSingleTab](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/exportsingletab) { get; set; } | 表示当文件只有一个工作表时是否导出单个选项卡。 默认值为假。 |
+| [ExportSingleTab](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/exportsingletab) { get; set; } | 表示文件只有一个工作表时是否导出单个选项卡。 默认值为false。 |
 | [IsExportComments](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/isexportcomments) { get; set; } | 表示是否在将文件保存为html时导出注释，默认值为false。 |
-| [IsFullPathLink](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/isfullpathlink) { get; set; } | 表示sheet00x.htm、filelist.xml、tabstrip.htm中是否使用全路径链接。 默认值为假。 |
+| [IsFullPathLink](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/isfullpathlink) { get; set; } | 表示sheet00x.htm、filelist.xml和tabstrip.htm中是否使用全路径链接。 默认值为false。 |
 | [MergeAreas](../../aspose.cells.gridweb.data/gridsaveoptions/mergeareas) { get; set; } | 表示是否在保存文件之前合并条件格式和验证区域。 |
-| [PageTitle](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/pagetitle) { get; set; } | html 页面的标题。 仅用于保存到 html 流。 |
-| [ParseHtmlTagInCell](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/parsehtmltagincell) { get; set; } | 解析单元格中的 html 标签，如 &lt;div&gt;&lt;/div&gt;，作为单元格值，或作为 html 标签，默认为 true |
-| [PresentationPreference](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/presentationpreference) { get; set; } | 表示 html 或 mht 文件是呈现偏好。默认值为 false。如果您想获得 更漂亮的呈现，请设置值为真。 |
+| [PageTitle](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/pagetitle) { get; set; } | html页面的标题。 仅用于保存到html流。 |
+| [ParseHtmlTagInCell](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/parsehtmltagincell) { get; set; } | 解析单元格中的 html 标签，例如，作为单元格值，或作为 html 标记，默认为 true |
+| [PresentationPreference](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/presentationpreference) { get; set; } | 表示html或mht文件是否为演示偏好。默认值为false。如果您想获得 更漂亮的演示，请将值设置为true。 |
 | [RefreshChartCache](../../aspose.cells.gridweb.data/gridsaveoptions/refreshchartcache) { get; set; } | 表示是否刷新图表缓存数据 |
 | [SaveFormat](../../aspose.cells.gridweb.data/gridsaveoptions/saveformat) { get; } | 获取保存文件格式。 |
 | [SortNames](../../aspose.cells.gridweb.data/gridsaveoptions/sortnames) { get; set; } | 表示是否在保存文件之前对定义的名称进行排序。 |

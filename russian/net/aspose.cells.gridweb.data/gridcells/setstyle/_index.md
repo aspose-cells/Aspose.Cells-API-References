@@ -18,8 +18,8 @@ public void SetStyle(int firstRow, int firstColumn, int rowNumber, int columnNum
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | firstRow | Int32 | Первая строка этого диапазона (с нуля) |
-| firstColumn | Int32 | Первый столбец этого диапазона (начиная с нуля) |
-| rowNumber | Int32 | Количество строк (на основе одного) |
+| firstColumn | Int32 | Первый столбец этого диапазона (с нуля) |
+| rowNumber | Int32 | Количество рядов (на основе одного) |
 | columnNumber | Int32 | Количество столбцов (на основе одного) |
 | style | GridTableItemStyle | Устанавливаемый объект стиля |
 

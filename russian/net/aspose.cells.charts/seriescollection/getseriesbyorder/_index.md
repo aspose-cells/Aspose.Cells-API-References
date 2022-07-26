@@ -1,14 +1,14 @@
 ---
 title: GetSeriesByOrder
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементSeriesaspose.cells.charts/seriesпо порядку.
+description: ПолучаетSeriesaspose.cells.charts/series элемент по заказу.
 type: docs
 weight: 90
 url: /ru/net/aspose.cells.charts/seriescollection/getseriesbyorder/
 ---
 ## SeriesCollection.GetSeriesByOrder method
 
-Получает элемент[`Series`](../../series)по порядку.
+Получает[`Series`](../../series) элемент по заказу.
 
 ```csharp
 public Series GetSeriesByOrder(int order)
@@ -16,7 +16,7 @@ public Series GetSeriesByOrder(int order)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| order | Int32 | Порядок серии |
+| order | Int32 | Порядок серий |
 
 ### Возвращаемое значение
 

@@ -1,14 +1,14 @@
 ---
 title: ShadowEffect
 second_title: Aspose.Cells for .NET API 参考
-description: 此类指定图表元素或形状的阴影效果
+description: 该类指定图表元素或形状的阴影效果
 type: docs
 weight: 2620
 url: /zh/net/aspose.cells.drawing/shadoweffect/
 ---
 ## ShadowEffect class
 
-此类指定图表元素或形状的阴影效果。
+该类指定图表元素或形状的阴影效果。
 
 ```csharp
 public class ShadowEffect
@@ -23,7 +23,7 @@ public class ShadowEffect
 | [Color](../../aspose.cells.drawing/shadoweffect/color) { get; set; } | 获取和设置阴影的颜色。 |
 | [Distance](../../aspose.cells.drawing/shadoweffect/distance) { get; set; } | 获取和设置阴影的距离。范围从 0 到 200 点。 |
 | [PresetType](../../aspose.cells.drawing/shadoweffect/presettype) { get; set; } | 获取和设置阴影的预设阴影类型。 |
-| [Size](../../aspose.cells.drawing/shadoweffect/size) { get; set; } | 获取和设置阴影的大小。范围从 0 到 2.0。 在内影中毫无意义。 |
+| [Size](../../aspose.cells.drawing/shadoweffect/size) { get; set; } | 获取和设置阴影的大小。范围从 0 到 2.0。 在阴影中毫无意义。 |
 | [Transparency](../../aspose.cells.drawing/shadoweffect/transparency) { get; set; } | 获取和设置阴影的透明度。范围从 0.0（不透明）到 1.0（透明）。 |
 
 ### 也可以看看

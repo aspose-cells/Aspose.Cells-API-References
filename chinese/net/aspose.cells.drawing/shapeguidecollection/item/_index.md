@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 通过索引获取形状指南
+description: 通过 index 获取形状指南
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.drawing/shapeguidecollection/item/
 ---
 ## ShapeGuideCollection indexer
 
-通过索引获取形状指南
+通过 index 获取形状指南
 
 ```csharp
 public ShapeGuide this[int index] { get; }

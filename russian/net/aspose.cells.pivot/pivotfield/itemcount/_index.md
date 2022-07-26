@@ -1,14 +1,14 @@
 ---
 title: ItemCount
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает количество базовых элементов этого сводного поля.
+description: Получает количество базовых элементов в этом сводном поле.
 type: docs
 weight: 280
 url: /ru/net/aspose.cells.pivot/pivotfield/itemcount/
 ---
 ## PivotField.ItemCount property
 
-Получает количество базовых элементов этого сводного поля.
+Получает количество базовых элементов в этом сводном поле.
 
 ```csharp
 public int ItemCount { get; }

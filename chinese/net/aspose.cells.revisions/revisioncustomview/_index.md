@@ -19,9 +19,9 @@ public class RevisionCustomView : Revision
 | 姓名 | 描述 |
 | --- | --- |
 | [ActionType](../../aspose.cells.revisions/revisioncustomview/actiontype) { get; } | 获取动作的类型。 |
-| [Guid](../../aspose.cells.revisions/revisioncustomview/guid) { get; } | 获取自定义视图的全局唯一标识符。 |
+| [Guid](../../aspose.cells.revisions/revisioncustomview/guid) { get; } | 获取自定义视图的全局唯一标识。 |
 | [Id](../../aspose.cells.revisions/revision/id) { get; } | 获取此修订的编号。 |
-| override [Type](../../aspose.cells.revisions/revisioncustomview/type) { get; } | 获取修订类型。 |
+| override [Type](../../aspose.cells.revisions/revisioncustomview/type) { get; } | 获取修订的类型。 |
 | [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | 获取工作表。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: FinishCalculate
 second_title: Справочник по Aspose.Cells для .NET API
-description: Происходит после вычисления формулы в книге.
+description: Происходит после расчета формулы в книге.
 type: docs
 weight: 540
 url: /ru/net/aspose.cells.griddesktop/griddesktop/finishcalculate/
 ---
 ## GridDesktop.FinishCalculate event
 
-Происходит после вычисления формулы в книге.
+Происходит после расчета формулы в книге.
 
 ```csharp
 public event WorkbookEventHandler FinishCalculate;

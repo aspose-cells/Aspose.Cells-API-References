@@ -16,7 +16,7 @@ public WorkbookPrintingPreview(Workbook workbook, ImageOrPrintOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| workbook | Workbook | Указывает, какую книгу нужно распечатать . |
+| workbook | Workbook | Укажите, какую книгу нужно распечатать. |
 | options | ImageOrPrintOptions | ImageOrPrintOptions содержит некоторое свойство вывода |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: IsGeneratedName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает true если это свойство не имеет имени в хранилище OLE2 и уникальное имя было сгенерировано только для публичного API.
+description: Возвращает значение true если это свойство не имеет имени в хранилище OLE2 и уникальное имя было сгенерировано только для общедоступного API.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.properties/documentproperty/isgeneratedname/
 ---
 ## DocumentProperty.IsGeneratedName property
 
-Возвращает true, если это свойство не имеет имени в хранилище OLE2 и уникальное имя было сгенерировано только для публичного API.
+Возвращает значение true, если это свойство не имеет имени в хранилище OLE2 и уникальное имя было сгенерировано только для общедоступного API.
 
 ```csharp
 public bool IsGeneratedName { get; }

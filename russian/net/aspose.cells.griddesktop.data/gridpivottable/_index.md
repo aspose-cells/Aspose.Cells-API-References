@@ -1,14 +1,14 @@
 ---
 title: GridPivotTable
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет отчет сводной таблицы на листе. Объект PivotTable является членом коллекцииPivotTables. Коллекция PivotTables содержит все объекты PivotTable в элементе управления.
+description: Представляет отчет сводной таблицы на листе. Объект сводной таблицы является членомPivotTables collection. Коллекция PivotTables содержит все объекты PivotTable в элементе управления.
 type: docs
 weight: 650
 url: /ru/net/aspose.cells.griddesktop.data/gridpivottable/
 ---
 ## GridPivotTable class
 
-Представляет отчет сводной таблицы на листе. Объект PivotTable является членом коллекции!:PivotTables. Коллекция PivotTables содержит все объекты PivotTable в элементе управления.
+Представляет отчет сводной таблицы на листе. Объект сводной таблицы является членом!:PivotTables collection. Коллекция PivotTables содержит все объекты PivotTable в элементе управления.
 
 ```csharp
 public class GridPivotTable
@@ -24,7 +24,7 @@ public class GridPivotTable
 | [ClearAllFields](../../aspose.cells.griddesktop.data/gridpivottable/clearallfields)() | очистить все сводные поля. |
 | [Fields](../../aspose.cells.griddesktop.data/gridpivottable/fields#fields_1)(GridPivotFieldType) | Получает определенные поля по типу поля. |
 | [Fields](../../aspose.cells.griddesktop.data/gridpivottable/fields#fields)(string) | Получает конкретное поле по имени поля. |
-| [RefreshData](../../aspose.cells.griddesktop.data/gridpivottable/refreshdata)() | Обновляет данные сводной таблицы и настройки из ее источника данных. |
+| [RefreshData](../../aspose.cells.griddesktop.data/gridpivottable/refreshdata)() | Обновляет данные и настройки сводной таблицы из ее источника данных. |
 
 ### Смотрите также
 

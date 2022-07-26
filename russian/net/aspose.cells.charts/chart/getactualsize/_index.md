@@ -1,14 +1,14 @@
 ---
 title: GetActualSize
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает реальный размер диаграммы в пикселях.
+description: Получает фактический размер диаграммы в пикселях.
 type: docs
 weight: 510
 url: /ru/net/aspose.cells.charts/chart/getactualsize/
 ---
 ## Chart.GetActualSize method
 
-Получает реальный размер диаграммы в пикселях.
+Получает фактический размер диаграммы в пикселях.
 
 ```csharp
 public int[] GetActualSize()
@@ -16,7 +16,7 @@ public int[] GetActualSize()
 
 ### Возвращаемое значение
 
-Фактический размер в массиве (ширина и высота). [0] — ширина; [1] — высота.
+Фактический размер массива (ширина и высота). [0] — ширина; [1] — высота.
 
 ### Смотрите также
 

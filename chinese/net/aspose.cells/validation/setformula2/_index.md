@@ -17,7 +17,7 @@ public void SetFormula2(string formula, bool isR1C1, bool isLocal)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | formula | String | 与此格式条件关联的值或表达式。 |
-| isR1C1 | Boolean | 公式是否为R1C1公式。 |
+| isR1C1 | Boolean | 公式是否为 R1C1 公式。 |
 | isLocal | Boolean | 公式是否为区域设置格式。 |
 
 ### 也可以看看

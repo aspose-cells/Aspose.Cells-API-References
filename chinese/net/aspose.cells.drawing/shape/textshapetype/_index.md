@@ -1,14 +1,14 @@
 ---
 title: TextShapeType
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置预设文本形状类型
+description: 获取和设置预设的文字形状类型
 type: docs
 weight: 720
 url: /zh/net/aspose.cells.drawing/shape/textshapetype/
 ---
 ## Shape.TextShapeType property
 
-获取和设置预设文本形状类型。
+获取和设置预设的文字形状类型。
 
 ```csharp
 public AutoShapeType TextShapeType { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: CellArea
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет собой область ячеек.
+description: Представляет область ячеек.
 type: docs
 weight: 240
 url: /ru/net/aspose.cells/cellarea/
 ---
 ## CellArea structure
 
-Представляет собой область ячеек.
+Представляет область ячеек.
 
 ```csharp
 public struct CellArea : IComparable
@@ -18,8 +18,8 @@ public struct CellArea : IComparable
 
 | Имя | Описание |
 | --- | --- |
-| static [CreateCellArea](../../aspose.cells/cellarea/createcellarea#createcellarea_1)(string, string) | Создает область ячеек. |
-| static [CreateCellArea](../../aspose.cells/cellarea/createcellarea#createcellarea)(int, int, int, int) | Создает область ячеек. |
+| static [CreateCellArea](../../aspose.cells/cellarea/createcellarea#createcellarea_1)(string, string) | Создает область ячейки. |
+| static [CreateCellArea](../../aspose.cells/cellarea/createcellarea#createcellarea)(int, int, int, int) | Создает область ячейки. |
 | [CompareTo](../../aspose.cells/cellarea/compareto)(object) | Только для внутреннего использования. |
 | override [ToString](../../aspose.cells/cellarea/tostring)() | Возвращает строку, представляющую текущий объект Worksheet. |
 
@@ -38,7 +38,7 @@ public struct CellArea : IComparable
 
 [C#]
 
-  //Создать ячейку Area
+//Создаем область ячеек
 CellArea ca = new CellArea();
 ca.StartRow = 0;
 ca.EndRow = 0;
@@ -47,7 +47,7 @@ ca.EndColumn = 0;
 
 [VB.NET]
 
-'Создать ячейку Area
+'Создать область ячеек
 Dim ca As CellArea = New CellArea()
 ca.StartRow = 0
 ca.EndRow = 0

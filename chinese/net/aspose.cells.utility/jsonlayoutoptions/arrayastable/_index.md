@@ -1,14 +1,14 @@
 ---
 title: ArrayAsTable
 second_title: Aspose.Cells for .NET API 参考
-description: 将数组作为表处理
+description: 将数组处理为表
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.utility/jsonlayoutoptions/arrayastable/
 ---
 ## JsonLayoutOptions.ArrayAsTable property
 
-将数组作为表处理。
+将数组处理为表。
 
 ```csharp
 public bool ArrayAsTable { get; set; }

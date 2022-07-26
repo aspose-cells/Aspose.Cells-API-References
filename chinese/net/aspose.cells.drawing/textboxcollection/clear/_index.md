@@ -19,7 +19,7 @@ public void Clear()
 ```csharp
 
 [C#]
- //清除所有文本框
+//清除所有文本框
 textBoxCollection.Clear();
 ```
 

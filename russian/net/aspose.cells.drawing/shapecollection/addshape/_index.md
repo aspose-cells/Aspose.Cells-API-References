@@ -1,14 +1,14 @@
 ---
 title: AddShape
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет фигуру на рабочий лист.
+description: Добавляет фигуру на лист.
 type: docs
 weight: 260
 url: /ru/net/aspose.cells.drawing/shapecollection/addshape/
 ---
 ## ShapeCollection.AddShape method
 
-Добавляет фигуру на рабочий лист.
+Добавляет фигуру на лист.
 
 ```csharp
 public Shape AddShape(MsoDrawingType type, int upperLeftRow, int top, int upperLeftColumn, 
@@ -17,28 +17,28 @@ public Shape AddShape(MsoDrawingType type, int upperLeftRow, int top, int upperL
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | MsoDrawingType | Тип чертежа Mso. |
+| type | MsoDrawingType | Тип рисунка МСО. |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| top | Int32 | Представляет вертикальное смещение формы от ее левой строки в единицах пикселя. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
-| left | Int32 | Представляет горизонтальное смещение Shape от его левого столбца в единицах пикселя. |
-| height | Int32 | Представляет высоту формы в пикселях. |
-| width | Int32 | Представляет ширину формы в пикселях. |
+| top | Int32 | Представляет вертикальное смещение Shape от его левой строки в единицах пикселя. |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
+| left | Int32 | Представляет горизонтальное смещение Shape от его левого столбца в пикселях. |
+| height | Int32 | Представляет высоту объекта Shape в пикселях. |
+| width | Int32 | Представляет ширину Shape в пикселях. |
 
 ### Возвращаемое значение
 
-Объект Shape.
+Объект формы.
 
 ### Примечания
 
-Тип не может быть Chart/Comment/Picture/OleObject/Polygon/DialogBox
+Тип не может быть Chart/Comment/Picture/OleObject/Polygon/DialogBox.
 
 ### Примеры
 
 ```csharp
 
 [C#]
-  //Добавляем форму указанного type
+//Добавляем фигуру указанного типа
 Shape shapeByType = shapes.AddShape(MsoDrawingType.CellsDrawing, 1, 0, 1, 0, 100, 50);
 ```
 

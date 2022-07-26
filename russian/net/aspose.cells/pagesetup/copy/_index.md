@@ -1,14 +1,14 @@
 ---
 title: Copy
 second_title: Справочник по Aspose.Cells для .NET API
-description: Копирует настройку настройки страницы.
+description: Копирует настройку страницы setup.
 type: docs
 weight: 450
 url: /ru/net/aspose.cells/pagesetup/copy/
 ---
 ## PageSetup.Copy method
 
-Копирует настройку настройки страницы.
+Копирует настройку страницы setup.
 
 ```csharp
 public void Copy(PageSetup source, CopyOptions copyOptions)
@@ -17,7 +17,7 @@ public void Copy(PageSetup source, CopyOptions copyOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | source | PageSetup | Источник. |
-| copyOptions | CopyOptions | Параметры копирования. |
+| copyOptions | CopyOptions | Варианты копирования. |
 
 ### Смотрите также
 

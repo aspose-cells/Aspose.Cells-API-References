@@ -1,14 +1,14 @@
 ---
 title: SheetIndex
 second_title: Aspose.Cells for .NET API 参考
-description: 表示此名称属于 Workbook 或 Worksheet 0  全局名称否则索引到工作表从一开始
+description: 表示此名称属于工作簿或工作表 0  全局名称否则索引到工作表从一开始
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.gridweb.data/gridname/sheetindex/
 ---
 ## GridName.SheetIndex property
 
-表示此名称属于 Workbook 或 Worksheet。 0 = 全局名称，否则索引到工作表（从一开始）
+表示此名称属于工作簿或工作表。 0 = 全局名称，否则索引到工作表（从一开始）
 
 ```csharp
 public int SheetIndex { get; set; }

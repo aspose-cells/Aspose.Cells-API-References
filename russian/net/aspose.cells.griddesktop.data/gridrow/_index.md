@@ -1,14 +1,14 @@
 ---
 title: GridRow
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует объект представляющий одно изображение в электронной таблице.
+description: Инкапсулирует объект представляющий отдельное изображение в электронной таблице.
 type: docs
 weight: 670
 url: /ru/net/aspose.cells.griddesktop.data/gridrow/
 ---
 ## GridRow class
 
-Инкапсулирует объект, представляющий одно изображение в электронной таблице.
+Инкапсулирует объект, представляющий отдельное изображение в электронной таблице.
 
 ```csharp
 public class GridRow
@@ -19,7 +19,7 @@ public class GridRow
 | Имя | Описание |
 | --- | --- |
 | [FirstCell](../../aspose.cells.griddesktop.data/gridrow/firstcell) { get; } |  |
-| [Height](../../aspose.cells.griddesktop.data/gridrow/height) { get; set; } | Получает или задает высоту строки object.in в пикселях |
+| [Height](../../aspose.cells.griddesktop.data/gridrow/height) { get; set; } | Получает или задает высоту объекта строки в единицах пикселя |
 | [Hidden](../../aspose.cells.griddesktop.data/gridrow/hidden) { get; set; } |  |
 | [Index](../../aspose.cells.griddesktop.data/gridrow/index) { get; } |  |
 | [Item](../../aspose.cells.griddesktop.data/gridrow/item) { get; } | Получает ячейку. |

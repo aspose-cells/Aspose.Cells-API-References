@@ -18,7 +18,7 @@ public enum PrintOrderType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| DownThenOver | `0` | 向下，然后向上 |
+| DownThenOver | `0` | 下降，然后过度 |
 | OverThenDown | `1` | 结束，然后下降 |
 
 ### 也可以看看

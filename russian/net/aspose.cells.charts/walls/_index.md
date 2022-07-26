@@ -18,18 +18,18 @@ public class Walls : Floor
 
 | Имя | Описание |
 | --- | --- |
-| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor) { get; set; } | Получает или устанавливает фонColorдляОбласть. |
-| [Border](../../aspose.cells.charts/floor/border) { get; set; } | Получает или устанавливает границу[`Line`](../../aspose.cells.drawing/line). |
+| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor) { get; set; } | Получает или устанавливает фонColor принадлежащий[`Area`](../../aspose.cells.drawing/area) . |
+| [Border](../../aspose.cells.charts/floor/border) { get; set; } | Получает или устанавливает границу[`Line`](../../aspose.cells.drawing/line) . |
 | [CenterX](../../aspose.cells.charts/walls/centerx) { get; } | Получает координату x левого нижнего угла центра стены в единицах 1/4000 ширины графика после вызова метода Chart.Calculate(). |
 | [CenterXPx](../../aspose.cells.charts/walls/centerxpx) { get; } | Получает координату x левого нижнего угла центра стены в пикселях после вызова метода Chart.Calculate(). |
 | [CenterY](../../aspose.cells.charts/walls/centery) { get; } | Получает координату y левого нижнего угла центра стены в единицах 1/4000 высоты графика после вызова метода Chart.Calculate(). |
 | [CenterYPx](../../aspose.cells.charts/walls/centerypx) { get; } | Получает координату y левого нижнего угла центра стены в пикселях после вызова метода Chart.Calculate(). |
-| [Depth](../../aspose.cells.charts/walls/depth) { get; } | Получает глубину от начала до конца в единицах 1/4000 ширины графика после вызова метода Chart.Calculate(). |
-| [DepthPx](../../aspose.cells.charts/walls/depthpx) { get; } | Получает глубину от начала до конца в единицах пикселей после вызова метода Chart.Calculate(). |
+| [Depth](../../aspose.cells.charts/walls/depth) { get; } | Получает глубину спереди назад в единицах 1/4000 ширины графика после вызова метода Chart.Calculate(). |
+| [DepthPx](../../aspose.cells.charts/walls/depthpx) { get; } | Получает глубину спереди назад в единицах пикселей после вызова метода Chart.Calculate(). |
 | [FillFormat](../../aspose.cells.drawing/area/fillformat) { get; } | Представляет объект, содержащий свойства форматирования заливки для указанной диаграммы или фигуры. |
-| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor) { get; set; } | Получает или задает передний планColor. |
+| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor) { get; set; } | Получает или устанавливает передний планColor . |
 | [Formatting](../../aspose.cells.drawing/area/formatting) { get; set; } | Представляет форматирование области. |
-| [Height](../../aspose.cells.charts/walls/height) { get; } | Получает высоту от верха до низа в единицах 1/4000 высоты графика после вызова метода Chart.Calculate(). |
+| [Height](../../aspose.cells.charts/walls/height) { get; } | Получает высоту сверху вниз в единицах 1/4000 высоты графика после вызова метода Chart.Calculate(). |
 | [HeightPx](../../aspose.cells.charts/walls/heightpx) { get; } | Получает высоту от верха до низа в пикселях после вызова метода Chart.Calculate(). |
 | [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative) { get; set; } | Если свойство истинно и значение точки диаграммы является отрицательным числом, цвет переднего плана и цвет фона будут заменены местами. |
 | [Transparency](../../aspose.cells.drawing/area/transparency) { get; set; } | Возвращает или задает степень прозрачности области в виде значения от 0,0 (непрозрачная) до 1,0 (прозрачная). |
@@ -41,8 +41,8 @@ public class Walls : Floor
 | Имя | Описание |
 | --- | --- |
 | [GetCubePointCount](../../aspose.cells.charts/walls/getcubepointcount)() | Получает количество точек куба после вызова метода Chart.Calculate(). |
-| [GetCubePointXPx](../../aspose.cells.charts/walls/getcubepointxpx)(int) | Получает x-координату точки вершины куба стен после вызова метода Chart.Calculate(). Число вершин куба стен равно восьми |
-| [GetCubePointYPx](../../aspose.cells.charts/walls/getcubepointypx)(int) | Получает координату y точки вершины куба стен после вызова метода Chart.Calculate(). Число вершин куба стен равно восьми. |
+| [GetCubePointXPx](../../aspose.cells.charts/walls/getcubepointxpx)(int) | Получает x-координату точки вершины куба стен после вызова метода Chart.Calculate(). Количество точек вершины куба стен равно восьми |
+| [GetCubePointYPx](../../aspose.cells.charts/walls/getcubepointypx)(int) | Получает y-координату вершины куба стен после вызова метода Chart.Calculate(). Количество вершин куба стен равно восьми. |
 
 ### Смотрите также
 

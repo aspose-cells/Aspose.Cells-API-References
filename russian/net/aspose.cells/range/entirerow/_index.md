@@ -1,14 +1,14 @@
 ---
 title: EntireRow
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объект Range представляющий всю строку или строки содержащие указанный диапазон.
+description: Получает объект Range представляющий всю строку или строки содержащую указанный диапазон.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells/range/entirerow/
 ---
 ## Range.EntireRow property
 
-Получает объект Range, представляющий всю строку (или строки), содержащие указанный диапазон.
+Получает объект Range, представляющий всю строку (или строки), содержащую указанный диапазон.
 
 ```csharp
 public Range EntireRow { get; }

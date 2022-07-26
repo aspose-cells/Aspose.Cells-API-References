@@ -1,14 +1,14 @@
 ---
 title: IsRefreshAllConnections
 second_title: Aspose.Cells for .NET API 参考
-description: 指示是否在 MS Excel 中打开文件时刷新所有连接
+description: 表示在 MS Excel 中打开文件时是否刷新所有连接
 type: docs
 weight: 70
 url: /zh/net/aspose.cells/worksheetcollection/isrefreshallconnections/
 ---
 ## WorksheetCollection.IsRefreshAllConnections property
 
-指示是否在 MS Excel 中打开文件时刷新所有连接。
+表示在 MS Excel 中打开文件时是否刷新所有连接。
 
 ```csharp
 public bool IsRefreshAllConnections { get; set; }

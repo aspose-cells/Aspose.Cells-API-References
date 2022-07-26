@@ -25,7 +25,7 @@ public void CreateSubtotal(int columnNameRowIndex, int dataRows, int groupByColu
 | subtotalFunction | SubtotalFunction | 小计函数类型。 |
 | subtotalColumnIndexList | Int32[] | 要小计的列索引。 |
 | functionLabel | String | 小计函数的标签。 |
-| grandCellStyle | GridTableItemStyle | 总行的样式。 |
+| grandCellStyle | GridTableItemStyle | 大总线的风格。 |
 | subtotalCellStyle | GridTableItemStyle | 小计线的样式。 |
 | numberType | NumberType | 小计结果单元格的数字类型。 |
 | customString | String | 小计结果单元格的自定义格式字符串。可以为空。 |

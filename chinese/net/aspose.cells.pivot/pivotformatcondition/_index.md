@@ -18,7 +18,7 @@ public class PivotFormatCondition
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FormatConditions](../../aspose.cells.pivot/pivotformatcondition/formatconditions) { get; } | 获取数据透视表条件格式的格式条件。 |
+| [FormatConditions](../../aspose.cells.pivot/pivotformatcondition/formatconditions) { get; } | 获取数据透视表条件格式的 formatconditions . |
 | [RuleType](../../aspose.cells.pivot/pivotformatcondition/ruletype) { get; set; } | 获取和设置数据透视表条件格式的规则类型。 |
 | [ScopeType](../../aspose.cells.pivot/pivotformatcondition/scopetype) { get; set; } | 获取和设置数据透视表条件格式的范围类型。 |
 
@@ -83,7 +83,7 @@ pivot.AddFieldToArea(PivotFieldType.Data, "amount");
 
 pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
 
- //添加PivotFormatCondition
+//添加PivotFormatCondition
 int formatIndex = pivot.PivotFormatConditions.Add();
 PivotFormatCondition pfc = pivot.PivotFormatConditions[formatIndex];
 FormatConditionCollection fcc = pfc.FormatConditions;
@@ -97,7 +97,7 @@ fc.Style.BackgroundColor = Color.Red;
 pivot.RefreshData();
 pivot.CalculateData();
 
- //做你的事
+//做你的事
 
 book.Save("out.xlsx");
 

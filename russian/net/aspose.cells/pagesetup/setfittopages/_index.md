@@ -1,14 +1,14 @@
 ---
 title: SetFitToPages
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает количество страниц до которых рабочий лист будет масштабироваться при печати.
+description: Устанавливает количество страниц до которых рабочий лист будет масштабирован при печати.
 type: docs
 weight: 590
 url: /ru/net/aspose.cells/pagesetup/setfittopages/
 ---
 ## PageSetup.SetFitToPages method
 
-Устанавливает количество страниц, до которых рабочий лист будет масштабироваться при печати.
+Устанавливает количество страниц, до которых рабочий лист будет масштабирован при печати.
 
 ```csharp
 public void SetFitToPages(int wide, int tall)
@@ -16,8 +16,8 @@ public void SetFitToPages(int wide, int tall)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| широкий | Int32 | Ширина страниц. |
-| высота | Int32 | Высота страниц. |
+| wide | Int32 | Страницы широкие. |
+| tall | Int32 | Страницы высокие. |
 
 ### Смотрите также
 

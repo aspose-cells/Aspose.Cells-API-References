@@ -21,29 +21,29 @@ public class CellsHelper
 | static [AltStartPath](../../aspose.cells/cellshelper/altstartpath) { get; set; } | 获取或设置备用启动路径，由一些外部公式引用引用。 |
 | static [CustomImplementationFactory](../../aspose.cells/cellshelper/customimplementationfactory) { get; set; } | 获取或设置用于创建具有特殊实现的实例的工厂。 |
 | static [DPI](../../aspose.cells/cellshelper/dpi) { get; set; } | 获取机器的 DPI。 |
-| static [IsCloudPlatform](../../aspose.cells/cellshelper/iscloudplatform) { get; set; } | 在云平台上运行时请将此属性设置为True，例如:Azure，AWSLambda等， |
+| static [IsCloudPlatform](../../aspose.cells/cellshelper/iscloudplatform) { get; set; } | 在云平台上运行时请将此属性设置为True，如：Azure、AWSLambda等， |
 | static [LibraryPath](../../aspose.cells/cellshelper/librarypath) { get; set; } | 获取或设置某些外部公式引用所引用的库路径。 |
-| static [SignificantDigits](../../aspose.cells/cellshelper/significantdigits) { get; set; } | 获取和设置有效位数。 默认值为 17。 |
-| static [StartupPath](../../aspose.cells/cellshelper/startuppath) { get; set; } | 获取或设置启动路径，由一些外部公式引用引用。 |
+| static [SignificantDigits](../../aspose.cells/cellshelper/significantdigits) { get; set; } | 获取和设置有效位数。 默认值为17。 |
+| static [StartupPath](../../aspose.cells/cellshelper/startuppath) { get; set; } | 获取或设置启动路径，被一些外部公式引用引用。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [CellIndexToName](../../aspose.cells/cellshelper/cellindextoname)(int, int) | 根据其行和列索引获取单元格名称。 |
+| static [CellIndexToName](../../aspose.cells/cellshelper/cellindextoname)(int, int) | 根据行列索引获取单元格名称。 |
 | static [CellNameToIndex](../../aspose.cells/cellshelper/cellnametoindex)(string, out int, out int) | 根据名称获取单元格行列索引。 |
 | static [ColumnIndexToName](../../aspose.cells/cellshelper/columnindextoname)(int) | 根据列索引获取列名。 |
 | static [ColumnNameToIndex](../../aspose.cells/cellshelper/columnnametoindex)(string) | 根据列名获取列索引。 |
 | static [ConvertA1FormulaToR1C1](../../aspose.cells/cellshelper/converta1formulator1c1)(string, int, int) | 将单元格的 A1 公式转换为 r1c1 公式。 |
 | static [ConvertR1C1FormulaToA1](../../aspose.cells/cellshelper/convertr1c1formulatoa1)(string, int, int) | 将单元格的r1c1公式转换为A1公式。 |
-| static [CreateSafeSheetName](../../aspose.cells/cellshelper/createsafesheetname#createsafesheetname)(string) | 检查给定的工作表名称并在需要时创建一个有效的工作表。 如果给定的表名符合excel表名的规则，则返回。 否则如果长度超过限制，字符串将被截断 并且无效字符将被替换为' '，然后返回重建的字符串值。 |
-| static [CreateSafeSheetName](../../aspose.cells/cellshelper/createsafesheetname#createsafesheetname_1)(string, char) | 检查给定的工作表名称并在需要时创建一个有效的工作表。 如果给定的表名符合excel表名的规则，则返回。 否则，如果长度超过限制，将截断字符串 并将无效字符替换为给定字符，然后返回重建的字符串值。 |
+| static [CreateSafeSheetName](../../aspose.cells/cellshelper/createsafesheetname#createsafesheetname)(string) | 检查给定的工作表名称，并在需要时创建一个有效的。 如果给定的工作表名称符合excel工作表名称的规则，则返回它。 否则如果长度超过限制，字符串将被截断 并将无效字符替换为' '，然后返回重建后的字符串值。 |
+| static [CreateSafeSheetName](../../aspose.cells/cellshelper/createsafesheetname#createsafesheetname_1)(string, char) | 检查给定的工作表名称，并在需要时创建一个有效的。 如果给定的工作表名称符合excel工作表名称的规则，则返回它。 否则如果长度超过限制，字符串将被截断 并将无效字符替换为给定字符，然后返回重建的字符串值。 |
 | static [GetDateTimeFromDouble](../../aspose.cells/cellshelper/getdatetimefromdouble)(double, bool) | 将双精度值转换为日期时间值。 |
 | static [GetDoubleFromDateTime](../../aspose.cells/cellshelper/getdoublefromdatetime)(DateTime, bool) | 将日期时间转换为双精度值。 |
 | static [GetTextWidth](../../aspose.cells/cellshelper/gettextwidth)(string, Font, double) | 以点为单位获取文本的宽度。 |
 | static [GetUsedColors](../../aspose.cells/cellshelper/getusedcolors)(Workbook) | 获取工作簿中所有使用的颜色。 |
 | static [GetVersion](../../aspose.cells/cellshelper/getversion)() | 获取发布版本。 |
-| static [MergeFiles](../../aspose.cells/cellshelper/mergefiles)(string[], string, string) | 将一些大的 xls 文件合并为一个 xls 文件。 |
+| static [MergeFiles](../../aspose.cells/cellshelper/mergefiles)(string[], string, string) | 将一些大的 xls 文件合并到一个 xls 文件中。 |
 | static [RowIndexToName](../../aspose.cells/cellshelper/rowindextoname)(int) | 根据行索引获取行名。 |
 | static [RowNameToIndex](../../aspose.cells/cellshelper/rownametoindex)(string) | 根据行名获取行索引。 |
 

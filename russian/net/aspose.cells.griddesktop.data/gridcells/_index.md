@@ -1,14 +1,14 @@
 ---
 title: GridCells
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует набор объектовCell.
+description: Инкапсулирует наборCellобъекты.
 type: docs
 weight: 410
 url: /ru/net/aspose.cells.griddesktop.data/gridcells/
 ---
 ## GridCells class
 
-Инкапсулирует набор объектовCell.
+Инкапсулирует наборCellобъекты.
 
 ```csharp
 public class GridCells : IEnumerable
@@ -21,7 +21,7 @@ public class GridCells : IEnumerable
 | [Columns](../../aspose.cells.griddesktop.data/gridcells/columns) { get; } |  |
 | [Count](../../aspose.cells.griddesktop.data/gridcells/count) { get; } | Получает количество ячеек. |
 | [FirstCell](../../aspose.cells.griddesktop.data/gridcells/firstcell) { get; } |  |
-| [Item](../../aspose.cells.griddesktop.data/gridcells/item) { get; } | ПолучаетCellэлемент на листе (3 indexers) |
+| [Item](../../aspose.cells.griddesktop.data/gridcells/item) { get; } | получаетCell элемент в рабочем листе (3 indexers) |
 | [LastCell](../../aspose.cells.griddesktop.data/gridcells/lastcell) { get; } |  |
 | [MaxColumn](../../aspose.cells.griddesktop.data/gridcells/maxcolumn) { get; } | Максимальный индекс столбца ячейки, содержащей данные или стиль. |
 | [MaxDataColumn](../../aspose.cells.griddesktop.data/gridcells/maxdatacolumn) { get; } |  |
@@ -33,7 +33,7 @@ public class GridCells : IEnumerable
 | [MinDataRow](../../aspose.cells.griddesktop.data/gridcells/mindatarow) { get; } |  |
 | [MinRow](../../aspose.cells.griddesktop.data/gridcells/minrow) { get; } |  |
 | [RowEnumerator](../../aspose.cells.griddesktop.data/gridcells/rowenumerator) { get; } | Получает перечислитель строк |
-| [Rows](../../aspose.cells.griddesktop.data/gridcells/rows) { get; } | Получает коллекцию объектов[`GridRow`](../gridrow), представляющих отдельные строки на этом листе. |
+| [Rows](../../aspose.cells.griddesktop.data/gridcells/rows) { get; } | Получает коллекцию[`GridRow`](../gridrow) объекты, представляющие отдельные строки на этом листе. |
 | [StandardHeight](../../aspose.cells.griddesktop.data/gridcells/standardheight) { get; set; } | Получает или задает высоту строки по умолчанию на этом листе в пунктах. |
 | [StandardHeightPixels](../../aspose.cells.griddesktop.data/gridcells/standardheightpixels) { get; set; } | Получает или задает высоту строки по умолчанию на этом листе в пикселях. |
 | [StandardWidth](../../aspose.cells.griddesktop.data/gridcells/standardwidth) { get; set; } | Получает или задает ширину столбца по умолчанию на листе в единицах символов. |
@@ -44,7 +44,7 @@ public class GridCells : IEnumerable
 
 | Имя | Описание |
 | --- | --- |
-| [CheckCell](../../aspose.cells.griddesktop.data/gridcells/checkcell)(int, int) | Получает элементCellили null в указанном индексе строки ячейки и индексе столбца. |
+| [CheckCell](../../aspose.cells.griddesktop.data/gridcells/checkcell)(int, int) | ПолучаетCell элемент или нуль в указанном индексе строки ячейки и индексе столбца. |
 | [Clear](../../aspose.cells.griddesktop.data/gridcells/clear)() | Очистить все ячейки коллекции. |
 | [ClearContents](../../aspose.cells.griddesktop.data/gridcells/clearcontents#clearcontents)(GridCellArea) | Очищает содержимое диапазона. |
 | [ClearContents](../../aspose.cells.griddesktop.data/gridcells/clearcontents#clearcontents_1)(int, int, int, int) | Очищает содержимое диапазона. |
@@ -64,14 +64,14 @@ public class GridCells : IEnumerable
 | [DeleteRow](../../aspose.cells.griddesktop.data/gridcells/deleterow)(int) | Удаляет строку. |
 | [DeleteRows](../../aspose.cells.griddesktop.data/gridcells/deleterows#deleterows)(int, int) | Удаляет несколько строк. |
 | [DeleteRows](../../aspose.cells.griddesktop.data/gridcells/deleterows#deleterows_1)(int, int, bool) | Удаляет несколько строк на листе. |
-| [GetCell](../../aspose.cells.griddesktop.data/gridcells/getcell)(int, int) | Получает элементCellили null в указанном индексе строки ячейки и индексе столбца. |
+| [GetCell](../../aspose.cells.griddesktop.data/gridcells/getcell)(int, int) | ПолучаетCell элемент или нуль в указанном индексе строки ячейки и индексе столбца. |
 | [GetCellStyle](../../aspose.cells.griddesktop.data/gridcells/getcellstyle)(int, int) | Получить стиль данной ячейки. |
-| [GetColumn](../../aspose.cells.griddesktop.data/gridcells/getcolumn)(int) | Получает элемент[`GridColumn`](../gridcolumn)или указанный индекс столбца ячейки. |
+| [GetColumn](../../aspose.cells.griddesktop.data/gridcells/getcolumn)(int) | Получает[`GridColumn`](../gridcolumn) элемента или по указанному индексу столбца ячейки. |
 | [GetColumnWidth](../../aspose.cells.griddesktop.data/gridcells/getcolumnwidth)(int) | Получает ширину указанного столбца |
 | [GetColumnWidthInch](../../aspose.cells.griddesktop.data/gridcells/getcolumnwidthinch)(int) | Получает ширину указанного столбца в дюймах. |
 | [GetColumnWidthPixel](../../aspose.cells.griddesktop.data/gridcells/getcolumnwidthpixel)(int) | Получает ширину указанного столбца в пикселях. |
 | [GetEnumerator](../../aspose.cells.griddesktop.data/gridcells/getenumerator)() | Получает перечислитель строк |
-| [GetRow](../../aspose.cells.griddesktop.data/gridcells/getrow)(int) | Получает элемент[`GridRow`](../gridrow)или указанный индекс строки ячейки. |
+| [GetRow](../../aspose.cells.griddesktop.data/gridcells/getrow)(int) | Получает[`GridRow`](../gridrow) элемента или по указанному индексу строки ячейки. |
 | [GetRowHeight](../../aspose.cells.griddesktop.data/gridcells/getrowheight)(int) | Получает высоту указанной строки. |
 | [GetRowHeightInch](../../aspose.cells.griddesktop.data/gridcells/getrowheightinch)(int) | Получает высоту указанной строки в дюймах. |
 | [GetRowHeightPixel](../../aspose.cells.griddesktop.data/gridcells/getrowheightpixel)(int) | Получает высоту указанной строки в пикселях. |
@@ -83,14 +83,14 @@ public class GridCells : IEnumerable
 | [HideRow](../../aspose.cells.griddesktop.data/gridcells/hiderow)(int) | Скрывает строку. |
 | [InsertColumn](../../aspose.cells.griddesktop.data/gridcells/insertcolumn#insertcolumn)(int) | Вставляет новый столбец в рабочий лист. |
 | [InsertColumn](../../aspose.cells.griddesktop.data/gridcells/insertcolumn#insertcolumn_1)(int, bool) | Вставляет новый столбец в рабочий лист. |
-| [InsertColumns](../../aspose.cells.griddesktop.data/gridcells/insertcolumns#insertcolumns)(int, int) | Вставляет несколько столбцов в рабочий лист. |
-| [InsertColumns](../../aspose.cells.griddesktop.data/gridcells/insertcolumns#insertcolumns_1)(int, int, bool) | Вставляет несколько столбцов в рабочий лист. |
+| [InsertColumns](../../aspose.cells.griddesktop.data/gridcells/insertcolumns#insertcolumns)(int, int) | Вставляет несколько столбцов на лист. |
+| [InsertColumns](../../aspose.cells.griddesktop.data/gridcells/insertcolumns#insertcolumns_1)(int, int, bool) | Вставляет несколько столбцов на лист. |
 | [InsertRow](../../aspose.cells.griddesktop.data/gridcells/insertrow)(int) | Вставляет новую строку в рабочий лист. |
 | [InsertRows](../../aspose.cells.griddesktop.data/gridcells/insertrows#insertrows)(int, int) | Вставляет несколько строк в рабочий лист. |
 | [InsertRows](../../aspose.cells.griddesktop.data/gridcells/insertrows#insertrows_1)(int, int, bool) | Вставляет несколько строк в рабочий лист. |
 | [IsBlankColumn](../../aspose.cells.griddesktop.data/gridcells/isblankcolumn)(int) | Проверяет, является ли данный столбец пустым (не содержит данных). |
-| [IsColumnHidden](../../aspose.cells.griddesktop.data/gridcells/iscolumnhidden)(int) | Проверяет, скрыт ли столбец с заданным индексом. |
-| [IsRowHidden](../../aspose.cells.griddesktop.data/gridcells/isrowhidden)(int) | Проверяет, скрыта ли строка с заданным индексом. |
+| [IsColumnHidden](../../aspose.cells.griddesktop.data/gridcells/iscolumnhidden)(int) | Проверяет, скрыт ли столбец с данным индексом. |
+| [IsRowHidden](../../aspose.cells.griddesktop.data/gridcells/isrowhidden)(int) | Проверяет, скрыта ли строка с данным индексом. |
 | [Merge](../../aspose.cells.griddesktop.data/gridcells/merge)(int, int, int, int) | Объединяет указанный диапазон ячеек в одну ячейку. |
 | [RemoveFormulas](../../aspose.cells.griddesktop.data/gridcells/removeformulas)() | Удаляет все формулы и заменяет значением формулы. |
 | [SetColumnWidth](../../aspose.cells.griddesktop.data/gridcells/setcolumnwidth)(int, double) | Устанавливает ширину указанного столбца. |
@@ -102,17 +102,17 @@ public class GridCells : IEnumerable
 | [SetStyle](../../aspose.cells.griddesktop.data/gridcells/setstyle#setstyle)(CellRange, Style) | Устанавливает стиль для указанного диапазона ячеек. |
 | [SetStyle](../../aspose.cells.griddesktop.data/gridcells/setstyle#setstyle_2)(string, Style) | Устанавливает стиль для указанного диапазона ячеек. |
 | [SetStyle](../../aspose.cells.griddesktop.data/gridcells/setstyle#setstyle_1)(int, int, int, int, Style) | Устанавливает стиль для указанного диапазона ячеек. |
-| [Sort](../../aspose.cells.griddesktop.data/gridcells/sort#sort)(int, int, int, int, int, bool, bool, bool) | Сортирует данные по возрастанию/убыванию сверху вниз в диапазоне рабочего листа по указанному индексу столбца. Сортирует данные по возрастанию/убыванию слева направо в диапазоне рабочего листа по указанному индексу строки. |
+| [Sort](../../aspose.cells.griddesktop.data/gridcells/sort#sort)(int, int, int, int, int, bool, bool, bool) | Сортирует данные по возрастанию/убыванию сверху вниз в диапазоне таблицы по указанному индексу столбца. Сортирует данные по возрастанию/убыванию слева направо в диапазоне таблицы по указанному индексу строки. |
 | [Sort](../../aspose.cells.griddesktop.data/gridcells/sort#sort_1)(int, int, int, int, int[], SortOrder[], SortOrientation, bool) |  |
 | [UngroupColumns](../../aspose.cells.griddesktop.data/gridcells/ungroupcolumns)(int, int) | Разгруппирует столбцы. |
 | [UngroupRows](../../aspose.cells.griddesktop.data/gridcells/ungrouprows)(int, int) | Разгруппирует строки. |
-| [UnhideColumn](../../aspose.cells.griddesktop.data/gridcells/unhidecolumn)(int, double) | Отображает столбец |
+| [UnhideColumn](../../aspose.cells.griddesktop.data/gridcells/unhidecolumn)(int, double) | Отображает скрытый столбец |
 | [UnhideRow](../../aspose.cells.griddesktop.data/gridcells/unhiderow)(int) | Отображает строку. |
 | [UnMerge](../../aspose.cells.griddesktop.data/gridcells/unmerge)(int, int, int, int) | Разъединяет указанный диапазон объединенных ячеек. |
 | static [CellIndexToName](../../aspose.cells.griddesktop.data/gridcells/cellindextoname)(int, int) | Получает имя ячейки в соответствии с ее индексами строки и столбца. |
 | static [CellNameToIndex](../../aspose.cells.griddesktop.data/gridcells/cellnametoindex)(string, out int, out int) | Получает индексы строки и столбца ячейки в соответствии с ее именем |
-| static [ColumnIndexToName](../../aspose.cells.griddesktop.data/gridcells/columnindextoname)(int) | Получает имя столбца по индексу столбца. |
-| static [ColumnNameToIndex](../../aspose.cells.griddesktop.data/gridcells/columnnametoindex)(string) | Получает индекс столбца по имени столбца. |
+| static [ColumnIndexToName](../../aspose.cells.griddesktop.data/gridcells/columnindextoname)(int) | Получает имя столбца в соответствии с индексом столбца. |
+| static [ColumnNameToIndex](../../aspose.cells.griddesktop.data/gridcells/columnnametoindex)(string) | Получает индекс столбца в соответствии с именем столбца. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Cells for .NET API 参考
-description: 确定此实例是否与另一个指定的LineFormataspose.cells.drawing/lineformat对象具有相同的值
+description: 确定此实例是否与另一个指定的值相同LineFormataspose.cells.drawing/lineformat对象.
 type: docs
 weight: 120
 url: /zh/net/aspose.cells.drawing/lineformat/equals/
 ---
 ## LineFormat.Equals method
 
-确定此实例是否与另一个指定的[`LineFormat`](../../lineformat)对象具有相同的值。
+确定此实例是否与另一个指定的值相同[`LineFormat`](../../lineformat)对象.
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,22 +16,22 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | [`LineFormat`](../../lineformat)对象与此实例进行比较。 |
+| obj | Object | 这[`LineFormat`](../../lineformat)要与此实例进行比较的对象。 |
 
 ### 返回值
 
-如果obj参数的值与此实例的值相同，则为true；否则为假。如果 obj 为 null，则此方法返回 false。
+如果 obj 参数的值与此实例的值相同，则为 true；否则为假。如果 obj 为 null，则此方法返回 false。
 
 ### 例子
 
 ```csharp
 
 [C#]
-//你要确保这行代码中的索引值exists
+//你要确保这行代码中的索引值存在
 LineFormat obj = workbook.Worksheets[0].Shapes[0].Line;
 if (lineFmt.Equals(obj))
 {
-     //做你想做的
+    //做你想做的
 }
 
 ```

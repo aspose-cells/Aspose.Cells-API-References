@@ -1,14 +1,14 @@
 ---
 title: ConditionalFormattingValueCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Описывает коллекцию CFValueObject. Используйте только для наборов иконок.
+description: Описывает коллекцию CFValueObject. Используется только для наборов значков.
 type: docs
 weight: 1150
 url: /ru/net/aspose.cells/conditionalformattingvaluecollection/
 ---
 ## ConditionalFormattingValueCollection class
 
-Описывает коллекцию CFValueObject. Используйте только для наборов иконок.
+Описывает коллекцию CFValueObject. Используется только для наборов значков.
 
 ```csharp
 public class ConditionalFormattingValueCollection : CollectionBase<ConditionalFormattingValue>
@@ -27,7 +27,7 @@ public class ConditionalFormattingValueCollection : CollectionBase<ConditionalFo
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells/conditionalformattingvaluecollection/add)(FormatConditionValueType, string) | Добавляет[`ConditionalFormattingValue`](../conditionalformattingvalue)объект. |
+| [Add](../../aspose.cells/conditionalformattingvaluecollection/add)(FormatConditionValueType, string) | Добавляет[`ConditionalFormattingValue`](../conditionalformattingvalue) объект. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ConditionalFormattingValue) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ConditionalFormattingValue, IComparer&lt;ConditionalFormattingValue&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, ConditionalFormattingValue, IComparer&lt;ConditionalFormattingValue&gt;) |  |

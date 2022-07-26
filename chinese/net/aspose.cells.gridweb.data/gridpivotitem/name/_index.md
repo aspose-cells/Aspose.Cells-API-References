@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.Cells for .NET API 参考
-description: 获取枢轴项的名称
+description: 获取数据透视项目的名称
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.gridweb.data/gridpivotitem/name/
 ---
 ## GridPivotItem.Name property
 
-获取枢轴项的名称。
+获取数据透视项目的名称。
 
 ```csharp
 public string Name { get; }

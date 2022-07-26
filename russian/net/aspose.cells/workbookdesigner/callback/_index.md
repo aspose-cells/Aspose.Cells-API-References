@@ -1,14 +1,14 @@
 ---
 title: CallBack
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает интерфейс обратного вызова обработки смартмаркера.
+description: Получает и задает интерфейс обратного вызова обработки смартмаркера.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/workbookdesigner/callback/
 ---
 ## WorkbookDesigner.CallBack property
 
-Получает и устанавливает интерфейс обратного вызова обработки смартмаркера.
+Получает и задает интерфейс обратного вызова обработки смартмаркера.
 
 ```csharp
 public ISmartMarkerCallBack CallBack { get; set; }

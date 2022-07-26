@@ -16,14 +16,62 @@ public void SetFooter(int section, string footerScript)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| section | Int32 | 0:Left Section。 |
+| section | Int32 | 0：左侧部分，1：中间部分，2：右侧部分。 |
 | footerScript | String | 页脚格式脚本。 |
 
 ### 评论
 
-脚本命令:
+脚本命令：
 
-&#x7C; **命令**&#x7C; **说明**&#x7C; &#x7C; --- &#x7C; --- &#x7C; &#x7C; &amp;P &#x7C;当前页码 &#x7C; &#x7C; &amp;N &#x7C;页数 &#x7C; &#x7C; &amp;D &#x7C;当前日期 &#x7C; &#x7C; &amp;T &#x7C;当前时间 &#x7C; &#x7C; &amp;A &#x7C;工作表名称 &#x7C; &#x7C; &amp;F &#x7C;不带路径的文件名 &#x7C; &#x7C; &amp;"&amp;lt;字体名称&amp;gt;" &#x7C;字体名称，例如:&amp;"Arial" &#x7C; &#x7C; &amp;"&amp;lt;FontName&amp;gt;, &amp;lt;FontStyle&amp;gt;" &#x7C;字体名称和字体样式，例如:&amp;"Arial,Bold" &#x7C; &#x7C; &amp;&amp;lt;字体大小&amp;gt; &#x7C;字体大小。如果此命令后跟要打印在页眉中的纯数字，它将与字体高度用空格字符分隔。 &#x7C; &#x7C; &amp;G &#x7C;图片脚本 &#x7C; 例如:“&amp;Arial,Bold&amp;8Footer Note”
+**命令**
+
+**描述**
+
+&amp;P
+
+当前页码
+
+&amp;N
+
+页数
+
+&amp;D
+
+当前的日期
+
+&amp;T
+
+当前时间
+
+＆一个
+
+工作表名称
+
+＆F
+
+没有路径的文件名
+
+&amp;"&lt;字体名称&gt;"
+
+字体名称，例如：&amp;"Arial"
+
+&amp;"&lt;字体名称&gt;, &lt;字体样式&gt;"
+
+字体名称和字体样式，例如：&amp;"Arial,Bold"
+
+&amp;&lt;字体大小&gt;
+
+字体大小。如果此命令后跟要打印在页眉中的纯数字，它将与字体高度用空格字符分隔。
+
+&amp;K&lt;RRGGBB&gt;
+
+字体颜色，例如（RED）：&amp;KFF0000
+
+＆G
+
+图像脚本
+
+例如：“&amp;Arial,Bold&amp;8Footer Note”
 
 ### 也可以看看
 

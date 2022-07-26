@@ -1,14 +1,14 @@
 ---
 title: IsEqualAverage
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置标志指示 aboveAverage 和 belowAverage 标准 是包含平均值本身还是不包含该值. true 表示在标准中包含平均值 默认值为假
+description: 获取或设置标志指示aboveAverage和belowAverage标准 是包含平均值本身还是不包含该值 真表示在标准中包括平均值 默认值为假
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/aboveaverage/isequalaverage/
 ---
 ## AboveAverage.IsEqualAverage property
 
-获取或设置标志，指示 'aboveAverage' 和 'belowAverage' 标准 是包含平均值本身，还是不包含该值. 'true' 表示在标准中包含平均值。 默认值为假。
+获取或设置标志，指示“aboveAverage”和“belowAverage”标准 是包含平均值本身还是不包含该值。 “真”表示在标准中包括平均值。 默认值为假。
 
 ```csharp
 public bool IsEqualAverage { get; set; }

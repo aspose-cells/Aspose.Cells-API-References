@@ -1,14 +1,14 @@
 ---
 title: Hyperlinks
 second_title: Aspose.Cells for .NET API 参考
-description: 获取HyperlinkCollectionaspose.cells/hyperlinkcollection集合
+description: 获取HyperlinkCollectionaspose.cells/hyperlinkcollection集合.
 type: docs
 weight: 200
 url: /zh/net/aspose.cells/worksheet/hyperlinks/
 ---
 ## Worksheet.Hyperlinks property
 
-获取[`HyperlinkCollection`](../../hyperlinkcollection)集合。
+获取[`HyperlinkCollection`](../../hyperlinkcollection)集合.
 
 ```csharp
 public HyperlinkCollection Hyperlinks { get; }

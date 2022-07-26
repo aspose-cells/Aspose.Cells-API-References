@@ -1,14 +1,14 @@
 ---
 title: IsAutoTickLabelSpacing
 second_title: Aspose.Cells for .NET API 参考
-description: 表示刻度标签的间距是否自动
+description: 表示刻度标签的间距是否为自动
 type: docs
 weight: 180
 url: /zh/net/aspose.cells.charts/axis/isautoticklabelspacing/
 ---
 ## Axis.IsAutoTickLabelSpacing property
 
-表示刻度标签的间距是否自动
+表示刻度标签的间距是否为自动
 
 ```csharp
 public bool IsAutoTickLabelSpacing { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Insert
 second_title: Справочник по Aspose.Cells для .NET API
-description: Вставляет кнопку в индекс.
+description: Вставляет кнопку по индексу.
 type: docs
 weight: 130
 url: /ru/net/aspose.cells.gridweb/customcommandbuttoncollection/insert/
 ---
 ## CustomCommandButtonCollection.Insert method
 
-Вставляет кнопку в индекс.
+Вставляет кнопку по индексу.
 
 ```csharp
 public void Insert(int index, object value)

@@ -1,14 +1,14 @@
 ---
 title: ThreadedCommentCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示线程注释列表
+description: 表示线程评论列表
 type: docs
 weight: 6050
 url: /zh/net/aspose.cells/threadedcommentcollection/
 ---
 ## ThreadedCommentCollection class
 
-表示线程注释列表。
+表示线程评论列表。
 
 ```csharp
 public class ThreadedCommentCollection : CollectionBase<ThreadedComment>
@@ -20,7 +20,7 @@ public class ThreadedCommentCollection : CollectionBase<ThreadedComment>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/threadedcommentcollection/item) { get; } | 通过特定索引获取线程注释。 |
+| [Item](../../aspose.cells/threadedcommentcollection/item) { get; } | 获取特定索引的线程注释。 |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法

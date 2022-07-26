@@ -20,8 +20,8 @@ public enum PdfCompressionCore
 | --- | --- | --- |
 | None | `0` | 无 |
 | Rle | `1` | Rle |
-| Lzw | `2` | Lzw |
-| Flate | `3` | Flate |
+| Lzw | `2` | lzw |
+| Flate | `3` | 弗拉特 |
 
 ### 也可以看看
 

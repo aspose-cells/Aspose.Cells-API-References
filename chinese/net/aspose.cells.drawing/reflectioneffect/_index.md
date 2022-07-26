@@ -1,14 +1,14 @@
 ---
 title: ReflectionEffect
 second_title: Aspose.Cells for .NET API 参考
-description: 此类指定反射效果
+description: 这个类指定了反射效果
 type: docs
 weight: 2580
 url: /zh/net/aspose.cells.drawing/reflectioneffect/
 ---
 ## ReflectionEffect class
 
-此类指定反射效果。
+这个类指定了反射效果。
 
 ```csharp
 public class ReflectionEffect
@@ -20,7 +20,7 @@ public class ReflectionEffect
 | --- | --- |
 | [Blur](../../aspose.cells.drawing/reflectioneffect/blur) { get; set; } | 获取和设置模糊半径，以点为单位。 |
 | [Direction](../../aspose.cells.drawing/reflectioneffect/direction) { get; set; } | 获取和设置 alpha 渐变渐变相对于形状本身的方向。 |
-| [Distance](../../aspose.cells.drawing/reflectioneffect/distance) { get; set; } | 获取和设置距离阴影的距离，以点为单位。 |
+| [Distance](../../aspose.cells.drawing/reflectioneffect/distance) { get; set; } | 获取和设置阴影的距离，以点为单位。 |
 | [FadeDirection](../../aspose.cells.drawing/reflectioneffect/fadedirection) { get; set; } | 获取并设置偏移反射的方向。 |
 | [RotWithShape](../../aspose.cells.drawing/reflectioneffect/rotwithshape) { get; set; } | 获取并设置反射是否应随形状旋转。 |
 | [Size](../../aspose.cells.drawing/reflectioneffect/size) { get; set; } | 获取和设置结束 alpha 值的结束位置（沿着 alpha 渐变斜坡），以百分比为单位 |

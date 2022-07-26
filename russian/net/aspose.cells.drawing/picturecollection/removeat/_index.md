@@ -21,7 +21,7 @@ public void RemoveAt(int index)
 [C#]
 //добавляем картинку
 int index2 = pictures.Add(1, 1, "image.png");
-  //delete
+//Удалить
 pictures.RemoveAt(index2);
 ```
 

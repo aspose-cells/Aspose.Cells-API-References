@@ -18,7 +18,7 @@ public class RevisionInsertDelete : Revision
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ActionType](../../aspose.cells.revisions/revisioninsertdelete/actiontype) { get; } | 获取此修订的操作类型。 |
+| [ActionType](../../aspose.cells.revisions/revisioninsertdelete/actiontype) { get; } | 获取本次修订的动作类型。 |
 | [CellArea](../../aspose.cells.revisions/revisioninsertdelete/cellarea) { get; } | 获取插入/删除范围。 |
 | [Id](../../aspose.cells.revisions/revision/id) { get; } | 获取此修订的编号。 |
 | [Revisions](../../aspose.cells.revisions/revisioninsertdelete/revisions) { get; } | 通过此操作获取修订列表。 |

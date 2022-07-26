@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет элементProtectedRangeaspose.cells/protectedrangeв коллекцию.
+description: ДобавляетProtectedRangeaspose.cells/protectedrange предмет в коллекцию.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/protectedrangecollection/add/
 ---
 ## ProtectedRangeCollection.Add method
 
-Добавляет элемент[`ProtectedRange`](../../protectedrange)в коллекцию.
+Добавляет[`ProtectedRange`](../../protectedrange) предмет в коллекцию.
 
 ```csharp
 public int Add(string name, int startRow, int startColumn, int endRow, int endColumn)
@@ -17,8 +17,8 @@ public int Add(string name, int startRow, int startColumn, int endRow, int endCo
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Название диапазона. Это используется как дескриптор, а не как определение именованного диапазона. |
-| startRow | Int32 | Индекс начальной строки диапазона. |
-| startColumn | Int32 | Индекс начального столбца диапазона. |
+| startRow | Int32 | Начальный индекс строки диапазона. |
+| startColumn | Int32 | Начальный индекс столбца диапазона. |
 | endRow | Int32 | Индекс конечной строки диапазона. |
 | endColumn | Int32 | Индекс конечного столбца диапазона. |
 

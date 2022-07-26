@@ -1,14 +1,14 @@
 ---
 title: GetSubTotalName
 second_title: Aspose.Cells for .NET API 参考
-description: 获取数据透视表中PivotFieldSubtotalTypeaspose.cells.pivot/pivotfieldsubtotaltype类型的名称
+description: 获取名称PivotFieldSubtotalTypeaspose.cells.pivot/pivotfieldsubtotaltype输入数据透视表.
 type: docs
 weight: 240
 url: /zh/net/aspose.cells/globalizationsettings/getsubtotalname/
 ---
 ## GlobalizationSettings.GetSubTotalName method
 
-获取数据透视表中[`PivotFieldSubtotalType`](../../../aspose.cells.pivot/pivotfieldsubtotaltype)类型的名称。
+获取名称[`PivotFieldSubtotalType`](../../../aspose.cells.pivot/pivotfieldsubtotaltype)输入数据透视表.
 
 ```csharp
 public virtual string GetSubTotalName(PivotFieldSubtotalType subTotalType)
@@ -16,11 +16,11 @@ public virtual string GetSubTotalName(PivotFieldSubtotalType subTotalType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| subTotalType | PivotFieldSubtotalType | [`PivotFieldSubtotalType`](../../../aspose.cells.pivot/pivotfieldsubtotaltype)类型 |
+| subTotalType | PivotFieldSubtotalType | 这[`PivotFieldSubtotalType`](../../../aspose.cells.pivot/pivotfieldsubtotaltype)类型 |
 
 ### 返回值
 
-[`PivotFieldSubtotalType`](../../../aspose.cells.pivot/pivotfieldsubtotaltype)type
+的名字[`PivotFieldSubtotalType`](../../../aspose.cells.pivot/pivotfieldsubtotaltype)类型
 
 ### 也可以看看
 

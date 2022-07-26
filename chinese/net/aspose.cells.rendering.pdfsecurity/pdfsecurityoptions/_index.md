@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/
 ---
 ## PdfSecurityOptions class
 
-excel转pdf时pdf的设置，PDF/A不允许安全设置。
+excel转pdf时pdf的设置，PDF/A不允许安全设置
 
 ```csharp
 public class PdfSecurityOptions
@@ -30,7 +30,7 @@ public class PdfSecurityOptions
 | [ExtractContentPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/extractcontentpermission) { get; set; } | 复制或提取内容的权限。 |
 | [ExtractContentPermissionObsolete](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/extractcontentpermissionobsolete) { get; set; } | 复制或提取内容的权限 根据 PDF 参考已作废。 |
 | [FillFormsPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/fillformspermission) { get; set; } | 填写表单域的权限。 |
-| [FullQualityPrintPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/fullqualityprintpermission) { get; set; } | 高质量打印权限。 |
+| [FullQualityPrintPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/fullqualityprintpermission) { get; set; } | 高质量打印的许可。 |
 | [ModifyDocumentPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/modifydocumentpermission) { get; set; } | 修改pdf文档的权限 |
 | [OwnerPassword](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/ownerpassword) { get; set; } | 获取或设置文档的所有者密码 |
 | [PrintPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/printpermission) { get; set; } | 打印pdf文档的权限 |

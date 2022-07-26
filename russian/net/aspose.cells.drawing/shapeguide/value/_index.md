@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или устанавливает значение этого руководства
+description: Получает или задает значение этого руководства
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.drawing/shapeguide/value/
 ---
 ## ShapeGuide.Value property
 
-Получает или устанавливает значение этого руководства
+Получает или задает значение этого руководства
 
 ```csharp
 public double Value { get; set; }

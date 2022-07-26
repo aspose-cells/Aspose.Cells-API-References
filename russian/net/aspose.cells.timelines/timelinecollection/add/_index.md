@@ -16,21 +16,21 @@ public int Add(PivotTable pivot, int row, int column, string baseFieldName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pivot | PivotTable | PivotTable object |
+| pivot | PivotTable | Объект сводной таблицы |
 | row | Int32 | Индекс строки ячейки в верхнем левом углу диапазона временной шкалы. |
 | column | Int32 | Индекс столбца ячейки в верхнем левом углу диапазона временной шкалы. |
 | baseFieldName | String | Имя PivotField в PivotTable.BaseFields |
 
 ### Возвращаемое значение
 
-Новый добавленный индекс временной шкалы
+Новый индекс добавления временной шкалы
 
 ### Примеры
 
 ```csharp
 
 [C#]
-  //Добавить новую временную шкалу, используя сводную таблицу в качестве данных source
+//Добавить новую временную шкалу, используя сводную таблицу в качестве источника данных
 sheet.Timelines.Add(pivot, 10, 5, "date");
 ```
 
@@ -53,20 +53,20 @@ public int Add(PivotTable pivot, string destCellName, string baseFieldName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pivot | PivotTable | PivotTable object |
+| pivot | PivotTable | Объект сводной таблицы |
 | destCellName | String | Имя ячейки в верхнем левом углу диапазона временной шкалы. |
 | baseFieldName | String | Имя PivotField в PivotTable.BaseFields |
 
 ### Возвращаемое значение
 
-Новый добавленный индекс временной шкалы
+Новый индекс добавления временной шкалы
 
 ### Примеры
 
 ```csharp
 
 [C#]
-  //Добавить новую временную шкалу, используя сводную таблицу в качестве данных source
+//Добавить новую временную шкалу, используя сводную таблицу в качестве источника данных
 sheet.Timelines.Add(pivot, "i15", "date");
 ```
 
@@ -89,21 +89,21 @@ public int Add(PivotTable pivot, int row, int column, int baseFieldIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pivot | PivotTable | PivotTable object |
+| pivot | PivotTable | Объект сводной таблицы |
 | row | Int32 | Индекс строки ячейки в верхнем левом углу диапазона временной шкалы. |
 | column | Int32 | Индекс столбца ячейки в верхнем левом углу диапазона временной шкалы. |
 | baseFieldIndex | Int32 | Индекс PivotField в PivotTable.BaseFields |
 
 ### Возвращаемое значение
 
-Новый добавленный индекс временной шкалы
+Новый индекс добавления временной шкалы
 
 ### Примеры
 
 ```csharp
 
 [C#]
-  //Добавить новую временную шкалу, используя сводную таблицу в качестве данных source
+//Добавить новую временную шкалу, используя сводную таблицу в качестве источника данных
 sheet.Timelines.Add(pivot, 15, 5, 1);
 ```
 
@@ -126,20 +126,20 @@ public int Add(PivotTable pivot, string destCellName, int baseFieldIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pivot | PivotTable | PivotTable object |
+| pivot | PivotTable | Объект сводной таблицы |
 | destCellName | String | Имя ячейки в верхнем левом углу диапазона временной шкалы. |
 | baseFieldIndex | Int32 | Индекс PivotField в PivotTable.BaseFields |
 
 ### Возвращаемое значение
 
-Новый добавленный индекс временной шкалы
+Новый индекс добавления временной шкалы
 
 ### Примеры
 
 ```csharp
 
 [C#]
-  //Добавить новую временную шкалу, используя сводную таблицу в качестве данных source
+//Добавить новую временную шкалу, используя сводную таблицу в качестве источника данных
 sheet.Timelines.Add(pivot, "i5", 1);
 ```
 
@@ -162,21 +162,21 @@ public int Add(PivotTable pivot, int row, int column, PivotField baseField)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pivot | PivotTable | PivotTable object |
+| pivot | PivotTable | Объект сводной таблицы |
 | row | Int32 | Индекс строки ячейки в верхнем левом углу диапазона временной шкалы. |
 | column | Int32 | Индекс столбца ячейки в верхнем левом углу диапазона временной шкалы. |
 | baseField | PivotField | PivotField в PivotTable.BaseFields |
 
 ### Возвращаемое значение
 
-Новый индекс временной шкалы
+Новый индекс добавления временной шкалы
 
 ### Примеры
 
 ```csharp
 
 [C#]
-  //Добавить новую временную шкалу, используя сводную таблицу в качестве данных source
+//Добавить новую временную шкалу, используя сводную таблицу в качестве источника данных
 sheet.Timelines.Add(pivot, 20, 5, pivot.BaseFields[1]);
 ```
 
@@ -200,20 +200,20 @@ public int Add(PivotTable pivot, string destCellName, PivotField baseField)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pivot | PivotTable | PivotTable object |
+| pivot | PivotTable | Объект сводной таблицы |
 | destCellName | String | Имя ячейки в верхнем левом углу диапазона временной шкалы. |
 | baseField | PivotField | PivotField в PivotTable.BaseFields |
 
 ### Возвращаемое значение
 
-Новый индекс временной шкалы
+Новый индекс добавления временной шкалы
 
 ### Примеры
 
 ```csharp
 
 [C#]
-  //Добавить новую временную шкалу, используя сводную таблицу в качестве данных source
+//Добавить новую временную шкалу, используя сводную таблицу в качестве источника данных
 sheet.Timelines.Add(pivot, "i10", pivot.BaseFields[1]);
 ```
 

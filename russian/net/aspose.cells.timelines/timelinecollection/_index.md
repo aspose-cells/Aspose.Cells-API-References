@@ -1,14 +1,14 @@
 ---
 title: TimelineCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Определяет коллекцию всех объектов временной шкалы на указанном рабочем листе.
+description: Определяет коллекцию всех объектов временной шкалы на указанном листе.
 type: docs
 weight: 6080
 url: /ru/net/aspose.cells.timelines/timelinecollection/
 ---
 ## TimelineCollection class
 
-Определяет коллекцию всех объектов временной шкалы на указанном рабочем листе.
+Определяет коллекцию всех объектов временной шкалы на указанном листе.
 
 ```csharp
 public class TimelineCollection : CollectionBase<Timeline>
@@ -74,7 +74,7 @@ cells[2, 0].Value = "blueberry";
 cells[3, 0].Value = "kiwi";
 cells[4, 0].Value = "cherry";
 
-  //Создать дату style
+//Создаем стиль даты
 Style dateStyle = new CellsFactory().CreateStyle();
 dateStyle.Custom = "m/d/yyyy";
 cells[0, 1].Value = "date";
@@ -82,7 +82,7 @@ cells[1, 1].Value = new DateTime(2021, 2, 5);
 cells[2, 1].Value = new DateTime(2022, 3, 8);
 cells[3, 1].Value = new DateTime(2023, 4, 10);
 cells[4, 1].Value = new DateTime(2024, 5, 16);
-  //Установить дату style
+//Установить стиль даты
 cells[1, 1].SetStyle(dateStyle);
 cells[2, 1].SetStyle(dateStyle);
 cells[3, 1].SetStyle(dateStyle);
@@ -95,7 +95,7 @@ cells[3, 2].Value = 70;
 cells[4, 2].Value = 80;
 
 PivotTableCollection pivots = sheet.PivotTables;
-  //Добавить сводную таблицу
+// Добавляем сводную таблицу
 int pivotIndex = pivots.Add("=Sheet1!A1:C5", "A12", "TestPivotTable");
 PivotTable pivot = pivots[pivotIndex];
 pivot.AddFieldToArea(PivotFieldType.Row, "fruit");
@@ -103,11 +103,11 @@ pivot.AddFieldToArea(PivotFieldType.Column, "date");
 pivot.AddFieldToArea(PivotFieldType.Data, "amount");
 pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
 
-  // Обновить сводную таблицу data
+// Обновить данные сводной таблицы
 pivot.RefreshData();
 pivot.CalculateData();
 
-  //делай свое дело
+//делай свое дело
 book.Save("out.xlsx");
 
 ```

@@ -16,7 +16,7 @@ public virtual string GetRowLabelsNameOfPivotTable()
 
 ### Возвращаемое значение
 
-Имя метки строки
+Название меток строк
 
 ### Смотрите также
 

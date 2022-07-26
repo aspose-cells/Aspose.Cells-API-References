@@ -1,14 +1,14 @@
 ---
 title: LineByLine
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает обрабатывается ли смарт-маркер построчно.
+description: Указывает обрабатывается ли интеллектуальный маркер построчно.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/workbookdesigner/linebyline/
 ---
 ## WorkbookDesigner.LineByLine property
 
-Указывает, обрабатывается ли смарт-маркер построчно.
+Указывает, обрабатывается ли интеллектуальный маркер построчно.
 
 ```csharp
 public bool LineByLine { get; set; }
@@ -16,7 +16,7 @@ public bool LineByLine { get; set; }
 
 ### Примечания
 
-Значение по умолчанию - false. Если False, файл шаблона должен содержать диапазон с именем "_CellsSmartMarkers".
+Значение по умолчанию — true. Если установлено значение False, файл шаблона должен содержать диапазон с именем «_CellsSmartMarkers».
 
 ### Смотрите также
 

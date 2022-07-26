@@ -1,14 +1,14 @@
 ---
 title: GridMsoDrawingType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет тип офисных чертежных объектов.
+description: Представляет тип объектов офисного чертежа.
 type: docs
 weight: 520
 url: /ru/net/aspose.cells.griddesktop.data/gridmsodrawingtype/
 ---
 ## GridMsoDrawingType enumeration
 
-Представляет тип офисных чертежных объектов.
+Представляет тип объектов офисного чертежа.
 
 ```csharp
 public enum GridMsoDrawingType

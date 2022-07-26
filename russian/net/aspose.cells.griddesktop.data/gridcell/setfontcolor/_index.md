@@ -16,7 +16,7 @@ public void SetFontColor(Color color)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| color | Color | Цвет шрифта для установки. |
+| color | Color | установить цвет шрифта. |
 
 ### Примеры
 

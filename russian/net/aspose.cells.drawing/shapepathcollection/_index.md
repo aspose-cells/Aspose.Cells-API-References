@@ -1,14 +1,14 @@
 ---
 title: ShapePathCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет информацию о наборе путей в автоформе NotPrimitive
+description: Представляет информацию о коллекции путей в NotPrimitive autoshape
 type: docs
 weight: 2700
 url: /ru/net/aspose.cells.drawing/shapepathcollection/
 ---
 ## ShapePathCollection class
 
-Представляет информацию о наборе путей в автоформе NotPrimitive
+Представляет информацию о коллекции путей в NotPrimitive autoshape
 
 ```csharp
 public class ShapePathCollection : CollectionBase<ShapePath>

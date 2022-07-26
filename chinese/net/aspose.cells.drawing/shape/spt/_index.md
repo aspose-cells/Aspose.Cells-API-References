@@ -1,14 +1,14 @@
 ---
 title: Spt
 second_title: Aspose.Cells for .NET API 参考
-description: 指定应用程序可用于将特定形状与定义的形状类型相关联的可选数字
+description: 指定一个可选数字应用程序可以使用该数字将特定形状与定义的形状类型相关联
 type: docs
 weight: 630
 url: /zh/net/aspose.cells.drawing/shape/spt/
 ---
 ## Shape.Spt property
 
-指定应用程序可用于将特定形状与定义的形状类型相关联的可选数字。
+指定一个可选数字，应用程序可以使用该数字将特定形状与定义的形状类型相关联。
 
 ```csharp
 public int Spt { get; }

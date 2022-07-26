@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементExternalConnectionaspose.cells.externalconnections/externalconnectionпо указанному индексу.
+description: ПолучаетExternalConnectionaspose.cells.externalconnections/externalconnection элемент по указанному индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.externalconnections/externalconnectioncollection/item/
 ---
 ## ExternalConnectionCollection indexer (1 of 2)
 
-Получает элемент[`ExternalConnection`](../../externalconnection)по указанному индексу.
+Получает[`ExternalConnection`](../../externalconnection) элемент по указанному индексу.
 
 ```csharp
 public ExternalConnection this[int index] { get; set; }
@@ -33,7 +33,7 @@ public ExternalConnection this[int index] { get; set; }
 
 ## ExternalConnectionCollection indexer (2 of 2)
 
-Получает элемент[`ExternalConnection`](../../externalconnection)с указанным именем.
+Получает[`ExternalConnection`](../../externalconnection) элемент с указанным именем.
 
 ```csharp
 public ExternalConnection this[string connectionName] { get; }
@@ -45,7 +45,7 @@ public ExternalConnection this[string connectionName] { get; }
 
 ### Возвращаемое значение
 
-Элемент с указанным именем .
+Элемент с указанным именем.
 
 ### Смотрите также
 

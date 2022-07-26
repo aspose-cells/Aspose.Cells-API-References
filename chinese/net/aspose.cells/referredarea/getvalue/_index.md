@@ -16,12 +16,12 @@ public object GetValue(int rowOffset, int colOffset)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rowOffset | Int32 | 距该区域起始行的行偏移量 |
-| colOffset | Int32 | 从该区域起始行开始的列偏移量 |
+| rowOffset | Int32 | 相对于该区域起始行的行偏移 |
+| colOffset | Int32 | 从该区域的起始行开始的列偏移量 |
 
 ### 返回值
 
-"#REF!"如果该区域无效； "#N/A" 如果在此区域外给出偏移量； 否则返回给定位置的单元格值。
+“#REF！”如果该区域无效； 如果给定超出该区域的偏移量，则为“#N/A”； 否则返回给定位置的单元格值。
 
 ### 也可以看看
 
@@ -41,13 +41,13 @@ public object GetValue(int rowOffset, int colOffset, bool calculateFormulas)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rowOffset | Int32 | 距该区域起始行的行偏移量 |
-| colOffset | Int32 | 与该区域起始行的列偏移量 |
-| calculateFormulas | Boolean | 如果指定引用为公式时是否递归计算 |
+| rowOffset | Int32 | 相对于该区域起始行的行偏移 |
+| colOffset | Int32 | 从该区域的起始行开始的列偏移量 |
+| calculateFormulas | Boolean | 如果指定的引用是公式，是否递归计算 |
 
 ### 返回值
 
-"#REF!"如果该区域无效； "#N/A" 如果在此区域外给出偏移量； 否则返回给定位置的单元格值。
+“#REF！”如果该区域无效； 如果给定超出该区域的偏移量，则为“#N/A”； 否则返回给定位置的单元格值。
 
 ### 也可以看看
 

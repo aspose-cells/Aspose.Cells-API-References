@@ -1,14 +1,14 @@
 ---
 title: RefreshOnLoad
 second_title: Справочник по Aspose.Cells для .NET API
-description: True если это соединение должно обновляться при открытии файла в противном случае ложно.
+description: Истинно если это соединение должно обновляться при открытии файла в противном случае false.
 type: docs
 weight: 160
 url: /ru/net/aspose.cells.externalconnections/externalconnection/refreshonload/
 ---
 ## ExternalConnection.RefreshOnLoad property
 
-True, если это соединение должно обновляться при открытии файла; в противном случае ложно.
+Истинно, если это соединение должно обновляться при открытии файла; в противном случае false.
 
 ```csharp
 public bool RefreshOnLoad { get; set; }

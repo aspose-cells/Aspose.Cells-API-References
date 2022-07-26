@@ -1,14 +1,14 @@
 ---
 title: SetHeaderPicture
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает изображение в заголовке рабочего листа.
+description: Устанавливает изображение в заголовок рабочего листа.
 type: docs
 weight: 630
 url: /ru/net/aspose.cells/pagesetup/setheaderpicture/
 ---
 ## PageSetup.SetHeaderPicture method
 
-Устанавливает изображение в заголовке рабочего листа.
+Устанавливает изображение в заголовок рабочего листа.
 
 ```csharp
 public Picture SetHeaderPicture(int section, byte[] headerPicture)
@@ -16,12 +16,12 @@ public Picture SetHeaderPicture(int section, byte[] headerPicture)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| section | Int32 | 0:Левая секция. |
+| section | Int32 | 0: левая часть, 1: центральная часть, 2: правая часть. |
 | headerPicture | Byte[] | Данные изображения. |
 
 ### Возвращаемое значение
 
-Возвращает объект[`Picture`](../../../aspose.cells.drawing/picture).
+Возвращает[`Picture`](../../../aspose.cells.drawing/picture) объект.
 
 ### Смотрите также
 

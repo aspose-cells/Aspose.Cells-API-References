@@ -1,14 +1,14 @@
 ---
 title: Image
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置背景图像
+description: 获取或设置背景图片
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.griddesktop/button/image/
 ---
 ## Button.Image property
 
-获取或设置背景图像。
+获取或设置背景图片。
 
 ```csharp
 public Image Image { get; set; }

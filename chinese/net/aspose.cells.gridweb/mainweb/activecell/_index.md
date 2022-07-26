@@ -1,14 +1,14 @@
 ---
 title: ActiveCell
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置当前工作表的活动单元格 从 1.9.0.1 版本开始更改为可写
+description: 获取或设置当前工作表的活动单元格 从版本 1.9.0.1 开始更改为可写
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.gridweb/mainweb/activecell/
 ---
 ## MainWeb.ActiveCell property
 
-获取或设置当前工作表的活动单元格。 从 1.9.0.1 版本开始更改为可写。
+获取或设置当前工作表的活动单元格。 从版本 1.9.0.1 开始更改为可写。
 
 ```csharp
 public GridCell ActiveCell { get; set; }

@@ -16,7 +16,7 @@ public void SetBorderColor(BorderType borderType, Color colorvalue)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| borderType | BorderType | borderType 设置哪个边框。 |
+| borderType | BorderType | borderType 要设置的边框。 |
 | color | Color | 的指定边框。 |
 
 ### 也可以看看

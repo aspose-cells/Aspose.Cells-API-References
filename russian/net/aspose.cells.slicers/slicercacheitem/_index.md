@@ -1,14 +1,14 @@
 ---
 title: SlicerCacheItem
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет элемент источника данных среза
+description: Представляет источник данных среза item
 type: docs
 weight: 5660
 url: /ru/net/aspose.cells.slicers/slicercacheitem/
 ---
 ## SlicerCacheItem class
 
-Представляет элемент источника данных среза
+Представляет источник данных среза item
 
 ```csharp
 public class SlicerCacheItem

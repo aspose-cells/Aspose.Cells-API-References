@@ -1,14 +1,14 @@
 ---
 title: LeftInShape
 second_title: Aspose.Cells for .NET API 参考
-description: 表示形状相对于父形状左边框的水平偏移量 以父形状宽度的1/4000为单位
+description: 表示 shape 与父 shape 左边框的水平偏移量 以父 shape 宽度的 1/4000 为单位
 type: docs
 weight: 430
 url: /zh/net/aspose.cells.drawing/shape/leftinshape/
 ---
 ## Shape.LeftInShape property
 
-表示形状相对于父形状左边框的水平偏移量， 以父形状宽度的1/4000为单位。
+表示 shape 与父 shape 左边框的水平偏移量， 以父 shape 宽度的 1/4000 为单位。
 
 ```csharp
 public int LeftInShape { get; set; }

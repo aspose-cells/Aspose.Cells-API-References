@@ -23,7 +23,7 @@ public Shape this[int index] { get; }
 ```csharp
 
 [C#]
-  //получить shape
+// получаем форму
 Shape shape = shapes[shapes.Count -1];
 ```
 
@@ -38,7 +38,7 @@ Shape shape = shapes[shapes.Count -1];
 
 ## ShapeCollection indexer (2 of 2)
 
-Получает объект фигуры по изображению фигуры
+Получает объект формы по форме image
 
 ```csharp
 public Shape this[string name] { get; }
@@ -53,13 +53,13 @@ public Shape this[string name] { get; }
 ```csharp
 
 [C#]
-  //добавляем shape
+//добавляем форму
 shapes.AddRectangle(2, 0, 2, 0, 130, 130);
-  //получить shape
+// получаем форму
 Shape shape1 = shapes["Rectangle 1"];
 if(shape1 != null)
 {
-      // Получили фигуру с именем «Прямоугольник 1».
+    // Получили фигуру с именем «Прямоугольник 1».
 }
 ```
 

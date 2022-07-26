@@ -22,7 +22,7 @@ public override GroupShape GetResultOfSmartArt()
 Aspose.Cells.Drawing.GroupShape groupShape = shape.GetResultOfSmartArt();
 if(groupShape != null)
 {
-      //делай что хочешь
+    //делай что хочешь
 }
 ```
 

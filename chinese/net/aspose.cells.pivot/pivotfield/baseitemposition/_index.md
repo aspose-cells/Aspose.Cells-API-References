@@ -1,14 +1,14 @@
 ---
 title: BaseItemPosition
 second_title: Aspose.Cells for .NET API 参考
-description: 表示自定义计算的基本字段中的项目 仅对数据字段有效 因为 PivotItemPosition.Custom 是只读的如果需要设置 PivotItemPosition.Custom 请设置 PivotField.BaseItemIndex 属性
+description: 表示自定义计算的基本字段中的项目 仅对数据字段有效 因为PivotItemPosition.Custom是只读的如果需要设置PivotItemPosition.Custom 请设置PivotField.BaseItemIndex属性
 type: docs
 weight: 70
 url: /zh/net/aspose.cells.pivot/pivotfield/baseitemposition/
 ---
 ## PivotField.BaseItemPosition property
 
-表示自定义计算的基本字段中的项目。 仅对数据字段有效。 因为 PivotItemPosition.Custom 是只读的，如果需要设置 PivotItemPosition.Custom, 请设置 PivotField.BaseItemIndex 属性。
+表示自定义计算的基本字段中的项目。 仅对数据字段有效。 因为PivotItemPosition.Custom是只读的，如果需要设置PivotItemPosition.Custom， 请设置PivotField.BaseItemIndex属性。
 
 ```csharp
 public PivotItemPosition BaseItemPosition { get; set; }

@@ -3,7 +3,7 @@ title: FilePathProvider
 second_title: Справочник по Aspose.Cells для .NET API
 description: Получает или задает IFilePathProvider для отдельного экспорта рабочего листа в html.
 type: docs
-weight: 290
+weight: 310
 url: /ru/net/aspose.cells/htmlsaveoptions/filepathprovider/
 ---
 ## HtmlSaveOptions.FilePathProvider property

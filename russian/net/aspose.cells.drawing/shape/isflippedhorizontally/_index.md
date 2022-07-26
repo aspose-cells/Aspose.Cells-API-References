@@ -1,14 +1,14 @@
 ---
 title: IsFlippedHorizontally
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает отражается ли фигура по горизонтали.
+description: Получает и устанавливает отражается ли фигура по горизонтали .
 type: docs
 weight: 280
 url: /ru/net/aspose.cells.drawing/shape/isflippedhorizontally/
 ---
 ## Shape.IsFlippedHorizontally property
 
-Получает и устанавливает, отражается ли фигура по горизонтали.
+Получает и устанавливает, отражается ли фигура по горизонтали .
 
 ```csharp
 public bool IsFlippedHorizontally { get; set; }

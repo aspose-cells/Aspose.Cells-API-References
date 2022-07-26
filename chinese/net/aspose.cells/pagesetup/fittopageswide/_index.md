@@ -16,7 +16,7 @@ public int FitToPagesWide { get; set; }
 
 ### 评论
 
-您必须将 FitToPagesTall 设置为零如果您想在一页上容纳所有列。
+如果你想在一页上适合所有列，你必须将 FitToPagesTall 设置为零。
 
 ### 也可以看看
 

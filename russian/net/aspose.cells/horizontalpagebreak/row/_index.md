@@ -1,14 +1,14 @@
 ---
 title: Row
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает индекс строки отсчитываемый от нуля.
+description: Получает индекс строки с отсчетом от нуля.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/horizontalpagebreak/row/
 ---
 ## HorizontalPageBreak.Row property
 
-Получает индекс строки, отсчитываемый от нуля.
+Получает индекс строки с отсчетом от нуля.
 
 ```csharp
 public int Row { get; }

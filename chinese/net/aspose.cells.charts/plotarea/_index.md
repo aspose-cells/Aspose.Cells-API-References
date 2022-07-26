@@ -18,28 +18,28 @@ public class PlotArea : ChartFrame
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [Area](../../aspose.cells.charts/chartframe/area) { get; } | 获取[`区域`](../chartframe/area) 。 |
+| virtual [Area](../../aspose.cells.charts/chartframe/area) { get; } | 获取[`区域`](../chartframe/area). |
 | virtual [AutoScaleFont](../../aspose.cells.charts/chartframe/autoscalefont) { get; set; } | 如果对象中的文本在对象大小更改时更改字体大小，则为真。默认值是true。 |
-| [BackgroundMode](../../aspose.cells.charts/chartframe/backgroundmode) { get; set; } | 获取和设置背景的显示方式 |
-| virtual [Border](../../aspose.cells.charts/chartframe/border) { get; } | 获取[`边框`](../../aspose.cells.drawing/line) 。 |
+| [BackgroundMode](../../aspose.cells.charts/chartframe/backgroundmode) { get; set; } | 获取和设置背景的显示模式 |
+| virtual [Border](../../aspose.cells.charts/chartframe/border) { get; } | 获取[`边界`](../../aspose.cells.drawing/line). |
 | [DefaultHeight](../../aspose.cells.charts/chartframe/defaultheight) { get; } | 表示默认位置的高度 |
 | [DefaultWidth](../../aspose.cells.charts/chartframe/defaultwidth) { get; } | 表示默认位置的宽度 |
-| [DefaultX](../../aspose.cells.charts/chartframe/defaultx) { get; } | 表示默认位置的 x |
+| [DefaultX](../../aspose.cells.charts/chartframe/defaultx) { get; } | 代表默认位置的 x |
 | [DefaultY](../../aspose.cells.charts/chartframe/defaulty) { get; } | 代表默认位置的y |
-| virtual [Font](../../aspose.cells.charts/chartframe/font) { get; } | 获取指定 ChartFrame 对象的[`Font`](../chartframe/font)对象。 |
+| virtual [Font](../../aspose.cells.charts/chartframe/font) { get; } | 得到一个[`Font`](../chartframe/font)指定 ChartFrame 对象的对象。 |
 | override [Height](../../aspose.cells.charts/plotarea/height) { get; set; } | 获取或设置绘图区域边界框的高度，以图表区域的 1/4000 为单位。 |
 | [InnerHeight](../../aspose.cells.charts/plotarea/innerheight) { get; set; } | 获取或设置绘图区域的高度，以图表区域的 1/4000 为单位。 |
 | [InnerWidth](../../aspose.cells.charts/plotarea/innerwidth) { get; set; } | 获取或设置绘图区域的宽度，以图表区域的 1/4000 为单位。 |
-| [InnerX](../../aspose.cells.charts/plotarea/innerx) { get; set; } | 以图表区域的 1/4000 为单位获取或获取绘图区域上上角的 x 坐标。 |
-| [InnerY](../../aspose.cells.charts/plotarea/innery) { get; set; } | 以图表区域的 1/4000 为单位获取或获取绘图区域上上角的 x 坐标。 |
+| [InnerX](../../aspose.cells.charts/plotarea/innerx) { get; set; } | 获取或获取绘图区域上上角的x坐标，单位为图表区域的1/4000。 |
+| [InnerY](../../aspose.cells.charts/plotarea/innery) { get; set; } | 获取或获取绘图区域上角的x坐标，单位为图表区域的1/4000。 |
 | override [IsAutomaticSize](../../aspose.cells.charts/plotarea/isautomaticsize) { get; set; } | 指示绘图区域是否自动调整大小。 |
 | [IsDefaultPosBeSet](../../aspose.cells.charts/chartframe/isdefaultposbeset) { get; } | 表示是否设置了默认位置（DefaultX、DefaultY、DefaultWidth 和 DefaultHeight）。 |
-| [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode) { get; set; } | 指示绘图区域大小的大小是否包括刻度线和轴标签。 False 指定大小应确定绘图区域、刻度线和轴标签的大小。 |
-| [Shadow](../../aspose.cells.charts/chartframe/shadow) { get; set; } | 如果框架有阴影，则为真。 |
-| [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties) { get; } | 获取[`ShapeProperties`](../chartframe/shapeproperties)对象。 |
+| [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode) { get; set; } | 表示绘图区域大小的大小是否包含刻度线和轴标签。 False 指定大小应确定绘图区域的大小、刻度线和轴标签。 |
+| [Shadow](../../aspose.cells.charts/chartframe/shadow) { get; set; } | 如果框架有阴影则为真。 |
+| [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties) { get; } | 获取[`ShapeProperties`](../chartframe/shapeproperties)对象. |
 | override [Width](../../aspose.cells.charts/plotarea/width) { get; set; } | 获取或设置绘图区域边界框的宽度，以图表区域的 1/4000 为单位。 |
-| override [X](../../aspose.cells.charts/plotarea/x) { get; set; } | 获取或获取绘图区域边界框左上角的 x 坐标，单位为图表区域的 1/4000。 |
-| override [Y](../../aspose.cells.charts/plotarea/y) { get; set; } | 以图表区域的 1/4000 为单位获取或获取绘图区域边界框上上角的 y 坐标。 |
+| override [X](../../aspose.cells.charts/plotarea/x) { get; set; } | 获取或获取绘图区域边界框左上角的x坐标，单位为图表区域的1/4000。 |
+| override [Y](../../aspose.cells.charts/plotarea/y) { get; set; } | 获取或获取绘图区域边界框上上角的 y 坐标，单位为图表区域的 1/4000。 |
 
 ## 方法
 

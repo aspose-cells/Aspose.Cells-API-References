@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells/htmlsaveoptions/cellcssprefix/
 ---
 ## HtmlSaveOptions.CellCssPrefix property
 
-获取和设置css名称的前缀，默认值为“”。
+获取和设置css名称的前缀，默认值为""。
 
 ```csharp
 public string CellCssPrefix { get; set; }

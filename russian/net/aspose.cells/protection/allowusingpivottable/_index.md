@@ -1,14 +1,14 @@
 ---
 title: AllowUsingPivotTable
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает разрешено ли пользователю управлять сводными таблицами на защищенном рабочем листе.
+description: Указывает разрешено ли пользователю управлять сводными таблицами на защищенном листе.
 type: docs
 weight: 160
 url: /ru/net/aspose.cells/protection/allowusingpivottable/
 ---
 ## Protection.AllowUsingPivotTable property
 
-Указывает, разрешено ли пользователю управлять сводными таблицами на защищенном рабочем листе.
+Указывает, разрешено ли пользователю управлять сводными таблицами на защищенном листе.
 
 ```csharp
 public bool AllowUsingPivotTable { get; set; }

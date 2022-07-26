@@ -20,7 +20,7 @@ public class Slicer
 | --- | --- |
 | [AlternativeText](../../aspose.cells.slicers/slicer/alternativetext) { get; set; } | 返回或设置切片器对象的描述性（替代）文本字符串。 |
 | [Caption](../../aspose.cells.slicers/slicer/caption) { get; set; } | 返回或设置指定切片器的标题。 |
-| [CaptionVisible](../../aspose.cells.slicers/slicer/captionvisible) { get; set; } | 返回或设置显示切片器 Caption 的标头是否可见 默认值为 true |
+| [CaptionVisible](../../aspose.cells.slicers/slicer/captionvisible) { get; set; } | 返回或设置显示切片器Caption的表头是否可见 默认值为true |
 | [ColumnWidth](../../aspose.cells.slicers/slicer/columnwidth) { get; set; } | 返回或设置切片器中每列的宽度（以磅为单位）。 |
 | [ColumnWidthPixel](../../aspose.cells.slicers/slicer/columnwidthpixel) { get; set; } | 获取或设置切片器每列的宽度（以像素为单位）。 |
 | [Height](../../aspose.cells.slicers/slicer/height) { get; set; } | 返回或设置指定切片器的高度，以磅为单位。 |
@@ -33,11 +33,11 @@ public class Slicer
 | [Name](../../aspose.cells.slicers/slicer/name) { get; set; } | 返回或设置指定切片器的名称 |
 | [NumberOfColumns](../../aspose.cells.slicers/slicer/numberofcolumns) { get; set; } | 返回或设置指定切片器中的列数。 |
 | [Parent](../../aspose.cells.slicers/slicer/parent) { get; } | 返回表示包含切片器的工作表的 Worksheet 对象。只读。 |
-| [Placement](../../aspose.cells.slicers/slicer/placement) { get; set; } | 表示绘图对象附加到它下面的单元格的方式。 该属性控制对象在工作表上的位置。 |
+| [Placement](../../aspose.cells.slicers/slicer/placement) { get; set; } | 表示绘图对象附加到其下方单元格的方式。 该属性控制对象在工作表上的放置。 |
 | [RowHeight](../../aspose.cells.slicers/slicer/rowheight) { get; set; } | 返回或设置指定切片器中每一行的高度（以磅为单位）。 |
 | [RowHeightPixel](../../aspose.cells.slicers/slicer/rowheightpixel) { get; set; } | 返回或设置指定切片器中每一行的高度（以像素为单位）。 |
 | [SlicerCache](../../aspose.cells.slicers/slicer/slicercache) { get; } | 返回与切片器关联的 SlicerCache 对象。只读。 |
-| [StyleType](../../aspose.cells.slicers/slicer/styletype) { get; set; } | 指定内置切片器样式的类型 默认类型为 SlicerStyleLight1 |
+| [StyleType](../../aspose.cells.slicers/slicer/styletype) { get; set; } | 指定内置切片器样式的类型 默认类型为SlicerStyleLight1 |
 | [Title](../../aspose.cells.slicers/slicer/title) { get; set; } | 指定当前切片器对象的标题。 |
 | [TopPixel](../../aspose.cells.slicers/slicer/toppixel) { get; set; } | 返回或设置切片器形状与其顶行的垂直偏移量，以像素为单位。 |
 | [Width](../../aspose.cells.slicers/slicer/width) { get; set; } | 返回或设置指定切片器的宽度，以磅为单位。 |
@@ -48,7 +48,7 @@ public class Slicer
 | 姓名 | 描述 |
 | --- | --- |
 | [AddPivotConnection](../../aspose.cells.slicers/slicer/addpivotconnection)(PivotTable) | 添加数据透视表连接。 |
-| [Refresh](../../aspose.cells.slicers/slicer/refresh)() | 刷新切片器。同时，刷新和计算相关数据透视表。 |
+| [Refresh](../../aspose.cells.slicers/slicer/refresh)() | 刷新切片器。同时，刷新和计算相对数据透视表。 |
 | [RemovePivotConnection](../../aspose.cells.slicers/slicer/removepivotconnection)(PivotTable) | 删除数据透视表连接。 |
 
 ### 例子
@@ -110,7 +110,7 @@ slicer.StyleType = SlicerStyleType.SlicerStyleLight2;
 SlicerCacheItemCollection items = slicer.SlicerCache.SlicerCacheItems;
 SlicerCacheItem item = items[0];
 item.Selected = false;
- //做你的事
+//做你的事
 book.Save("out.xlsx");
 
 [Visual Basic]

@@ -1,14 +1,14 @@
 ---
 title: Charts
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПолучаетChartaspose.cells.charts/chartколлекцию
+description: ПолучаетChartaspose.cells.charts/chart коллекция
 type: docs
 weight: 70
 url: /ru/net/aspose.cells/worksheet/charts/
 ---
 ## Worksheet.Charts property
 
-Получает[`Chart`](../../../aspose.cells.charts/chart)коллекцию
+Получает[`Chart`](../../../aspose.cells.charts/chart) коллекция
 
 ```csharp
 public ChartCollection Charts { get; }

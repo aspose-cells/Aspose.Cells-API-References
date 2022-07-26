@@ -1,14 +1,14 @@
 ---
 title: MouseIcon
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает пользовательский значок отображаемый в качестве указателя мыши для элемента управления.
+description: Получает и задает пользовательский значок для отображения в качестве указателя мыши для элемента управления.
 type: docs
 weight: 80
 url: /ru/net/aspose.cells.drawing.activexcontrols/activexcontrolbase/mouseicon/
 ---
 ## ActiveXControlBase.MouseIcon property
 
-Получает и задает пользовательский значок, отображаемый в качестве указателя мыши для элемента управления.
+Получает и задает пользовательский значок для отображения в качестве указателя мыши для элемента управления.
 
 ```csharp
 public byte[] MouseIcon { get; set; }

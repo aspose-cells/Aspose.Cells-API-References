@@ -18,8 +18,8 @@ public class VbaProjectReference
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ExtendedLibid](../../aspose.cells.vba/vbaprojectreference/extendedlibid) { get; set; } | 获取和设置引用的扩展 Libid。 |
-| [Libid](../../aspose.cells.vba/vbaprojectreference/libid) { get; set; } | 获取和设置引用的 Libid。 |
+| [ExtendedLibid](../../aspose.cells.vba/vbaprojectreference/extendedlibid) { get; set; } | 获取和设置引用的扩展Libid。 |
+| [Libid](../../aspose.cells.vba/vbaprojectreference/libid) { get; set; } | 获取和设置引用的Libid。 |
 | [Name](../../aspose.cells.vba/vbaprojectreference/name) { get; set; } | 获取和设置引用的名称。 |
 | [RelativeLibid](../../aspose.cells.vba/vbaprojectreference/relativelibid) { get; set; } | 使用相对路径获取和设置引用的 VBA 项目的标识符。 |
 | [Twiddledlibid](../../aspose.cells.vba/vbaprojectreference/twiddledlibid) { get; set; } | 获取和设置引用的旋转Libid。 |
@@ -37,24 +37,24 @@ public class VbaProjectReference
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
-  // 初始化 VBA 项目。
+ // 初始化 VBA 项目。
 VbaProject vbaProject = workbook.VbaProject;
-// 添加vba项目reference
+// 添加vba项目引用
 vbaProject.References.AddRegisteredReference("stdole", "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation");
- //保存Excel文件
+//保存Excel文件
 workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 '初始化 VBA 项目。
 Dim vbaProject as VbaProject  = workbook.VbaProject
-'添加vba项目reference
+'添加vba项目引用
 vbaProject.References.AddRegisteredReference("stdole", "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation")
-'保存Excel文件
+'保存 Excel 文件
 workbook.Save("book1.xlsm")
 ```
 

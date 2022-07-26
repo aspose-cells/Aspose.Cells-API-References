@@ -3,7 +3,7 @@ title: UnMerge
 second_title: Справочник по Aspose.Cells для .NET API
 description: Разъединяет объединенные ячейки этого диапазона.
 type: docs
-weight: 390
+weight: 430
 url: /ru/net/aspose.cells/range/unmerge/
 ---
 ## Range.UnMerge method

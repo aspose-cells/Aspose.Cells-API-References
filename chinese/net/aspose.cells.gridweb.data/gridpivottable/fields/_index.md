@@ -1,14 +1,14 @@
 ---
 title: Fields
 second_title: Aspose.Cells for .NET API 参考
-description: 按字段类型获取具体字段
+description: 通过字段类型获取具体字段
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.gridweb.data/gridpivottable/fields/
 ---
 ## Fields(GridPivotFieldType) {#fields_1}
 
-按字段类型获取具体字段。
+通过字段类型获取具体字段
 
 ```csharp
 public GridPivotFieldCollection Fields(GridPivotFieldType fieldType)
@@ -20,7 +20,7 @@ public GridPivotFieldCollection Fields(GridPivotFieldType fieldType)
 
 ### 返回值
 
-具体字段
+具体领域
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public GridPivotFieldCollection Fields(GridPivotFieldType fieldType)
 
 ## Fields(string) {#fields}
 
-通过字段名获取特定字段。
+通过字段名获取特定字段
 
 ```csharp
 public GridPivotField Fields(string fieldName)
@@ -46,7 +46,7 @@ public GridPivotField Fields(string fieldName)
 
 ### 返回值
 
-特定字段
+特定领域
 
 ### 也可以看看
 

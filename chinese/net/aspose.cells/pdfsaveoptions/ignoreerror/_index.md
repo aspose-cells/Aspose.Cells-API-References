@@ -1,14 +1,14 @@
 ---
 title: IgnoreError
 second_title: Aspose.Cells for .NET API 参考
-description: 表示在渲染时是否需要隐藏错误 错误可能是形状图像图表渲染等方面的错误
+description: 表示是否需要在渲染时隐藏错误 错误可以是形状图像图表渲染等方面的错误
 type: docs
 weight: 190
 url: /zh/net/aspose.cells/pdfsaveoptions/ignoreerror/
 ---
 ## PdfSaveOptions.IgnoreError property
 
-表示在渲染时是否需要隐藏错误。 错误可能是形状、图像、图表渲染等方面的错误。
+表示是否需要在渲染时隐藏错误。 错误可以是形状、图像、图表渲染等方面的错误。
 
 ```csharp
 public bool IgnoreError { get; set; }

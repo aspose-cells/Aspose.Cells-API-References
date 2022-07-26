@@ -1,14 +1,14 @@
 ---
 title: BulletValue
 second_title: Aspose.Cells for .NET API 参考
-description: 表示子弹的值
+description: 代表子弹的值
 type: docs
 weight: 2880
 url: /zh/net/aspose.cells.drawing.texts/bulletvalue/
 ---
 ## BulletValue class
 
-表示子弹的值。
+代表子弹的值。
 
 ```csharp
 public abstract class BulletValue

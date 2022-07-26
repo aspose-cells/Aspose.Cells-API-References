@@ -1,14 +1,14 @@
 ---
 title: GetBottomPointXPx
 second_title: Aspose.Cells for .NET API 参考
-description: 调用 Chart.Calculate 方法后获取形状底部点的 x 坐标 应用 3D 图表Column3D Bar3D Cone Cylinder Pyramid
+description: 调用 Chart.Calculate 方法后获取形状底部点的 x 坐标 应用 3D 图表Column3DBar3DConeCylinderPyramid
 type: docs
 weight: 350
 url: /zh/net/aspose.cells.charts/chartpoint/getbottompointxpx/
 ---
 ## ChartPoint.GetBottomPointXPx method
 
-调用 Chart.Calculate() 方法后获取形状底部点的 x 坐标。 应用 3D 图表:Column3D, Bar3D, Cone, Cylinder, Pyramid
+调用 Chart.Calculate() 方法后获取形状底部点的 x 坐标。 应用 3D 图表：Column3D、Bar3D、Cone、Cylinder、Pyramid
 
 ```csharp
 public float GetBottomPointXPx(int index)

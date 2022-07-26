@@ -3,7 +3,7 @@ title: GetViewRowHeight
 second_title: Aspose.Cells for .NET API 参考
 description: 获取指定行的高度
 type: docs
-weight: 840
+weight: 850
 url: /zh/net/aspose.cells/cells/getviewrowheight/
 ---
 ## Cells.GetViewRowHeight method

@@ -1,14 +1,14 @@
 ---
 title: ImportDataGridAsString
 second_title: Aspose.Cells for .NET API 参考
-description: 将DataGrid导入工作表此方法不会尝试将文本转换为数值
+description: 导入一个DataGrid到工作表中此方法不会尝试将文本转换为数值
 type: docs
-weight: 990
+weight: 1000
 url: /zh/net/aspose.cells/cells/importdatagridasstring/
 ---
 ## Cells.ImportDataGridAsString method
 
-将DataGrid导入工作表。此方法不会尝试将文本转换为数值。
+导入一个DataGrid到工作表中。此方法不会尝试将文本转换为数值。
 
 ```csharp
 public int ImportDataGridAsString(DataGrid dataGrid, int firstRow, int firstColumn, bool insertRows)
@@ -16,9 +16,9 @@ public int ImportDataGridAsString(DataGrid dataGrid, int firstRow, int firstColu
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dataGrid | DataGrid | DataGrid要导入的对象。 |
+| dataGrid | DataGrid | 这DataGrid要导入的对象。 |
 | firstRow | Int32 | 要导入的第一个单元格的行号。 |
-| firstColumn | Int32 | 列号要导入的第一个单元格。 |
+| firstColumn | Int32 | 要导入的第一个单元格的列号。 |
 | insertRows | Boolean | 指示是否添加额外的行以适应数据。 |
 
 ### 返回值

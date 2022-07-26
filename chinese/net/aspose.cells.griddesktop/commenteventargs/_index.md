@@ -20,7 +20,7 @@ public class CommentEventArgs : EventArgs
 | --- | --- |
 | [Column](../../aspose.cells.griddesktop/commenteventargs/column) { get; } | 获取列索引。 |
 | [NewText](../../aspose.cells.griddesktop/commenteventargs/newtext) { get; } | 获取评论的新文本数据 |
-| [OldText](../../aspose.cells.griddesktop/commenteventargs/oldtext) { get; } | 获取评论的旧文本数据 |
+| [OldText](../../aspose.cells.griddesktop/commenteventargs/oldtext) { get; } | 获取comment 的旧文本数据 |
 | [Row](../../aspose.cells.griddesktop/commenteventargs/row) { get; } | 获取行索引。 |
 
 ### 也可以看看

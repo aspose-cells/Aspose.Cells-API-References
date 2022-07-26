@@ -1,14 +1,14 @@
 ---
 title: FirstPageNumber
 second_title: Aspose.Cells for .NET API 参考
-description: 表示打印此工作表时将使用的第一个页码
+description: 表示打印此工作表时将使用的第一页码
 type: docs
 weight: 60
 url: /zh/net/aspose.cells/pagesetup/firstpagenumber/
 ---
 ## PageSetup.FirstPageNumber property
 
-表示打印此工作表时将使用的第一个页码。
+表示打印此工作表时将使用的第一页码。
 
 ```csharp
 public int FirstPageNumber { get; set; }

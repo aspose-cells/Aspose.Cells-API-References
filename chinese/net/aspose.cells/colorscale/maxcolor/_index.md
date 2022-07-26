@@ -1,14 +1,14 @@
 ---
 title: MaxColor
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置最大值对象对应的颜色
+description: 获取或设置范围内最大值的渐变颜色
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/colorscale/maxcolor/
 ---
 ## ColorScale.MaxColor property
 
-获取或设置最大值对象对应的颜色。
+获取或设置范围内最大值的渐变颜色。
 
 ```csharp
 public Color MaxColor { get; set; }

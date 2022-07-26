@@ -1,14 +1,14 @@
 ---
 title: PaperHeight
 second_title: Aspose.Cells for .NET API 参考
-description: 以英寸为单位获取纸张高度考虑页面方向
+description: 以英寸为单位获取纸张的高度考虑页面方向
 type: docs
 weight: 250
 url: /zh/net/aspose.cells/pagesetup/paperheight/
 ---
 ## PageSetup.PaperHeight property
 
-以英寸为单位获取纸张高度，考虑页面方向。
+以英寸为单位获取纸张的高度，考虑页面方向。
 
 ```csharp
 public double PaperHeight { get; }

@@ -1,14 +1,14 @@
 ---
 title: CopyTo
 second_title: Aspose.Cells for .NET API 参考
-description: 将内容复制到数组
+description: 将内容复制到数组中
 type: docs
 weight: 140
 url: /zh/net/aspose.cells.gridweb.data/gridworksheetcollection/copyto/
 ---
 ## GridWorksheetCollection.CopyTo method
 
-将内容复制到数组。
+将内容复制到数组中。
 
 ```csharp
 public void CopyTo(Array array, int index)
@@ -16,7 +16,7 @@ public void CopyTo(Array array, int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| array | Array | 一个数组。 |
+| array | Array | 数组。 |
 | index | Int32 | 数组的索引。 |
 
 ### 也可以看看

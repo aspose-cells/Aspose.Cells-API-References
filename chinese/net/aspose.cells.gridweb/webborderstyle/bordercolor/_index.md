@@ -1,14 +1,14 @@
 ---
 title: BorderColor
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置边框颜色 请参考 System.Drawing.Color 结构
+description: 获取或设置边框颜色 请参考System.Drawing.Color struct.
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.gridweb/webborderstyle/bordercolor/
 ---
 ## WebBorderStyle.BorderColor property
 
-获取或设置边框颜色。 请参考 System.Drawing.Color 结构。
+获取或设置边框颜色 请参考System.Drawing.Color struct.
 
 ```csharp
 public Color BorderColor { get; set; }

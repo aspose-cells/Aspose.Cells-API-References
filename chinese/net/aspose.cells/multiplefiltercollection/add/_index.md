@@ -16,7 +16,7 @@ public void Add(string filter)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| filter | String | 过滤器数据。 |
+| filter | String | 过滤数据。 |
 
 ### 也可以看看
 

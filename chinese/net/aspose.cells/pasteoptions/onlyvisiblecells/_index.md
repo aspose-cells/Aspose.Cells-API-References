@@ -1,14 +1,14 @@
 ---
 title: OnlyVisibleCells
 second_title: Aspose.Cells for .NET API 参考
-description: True 表示仅复制可见单元格
+description: True 表示只复制可见单元格
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/pasteoptions/onlyvisiblecells/
 ---
 ## PasteOptions.OnlyVisibleCells property
 
-True 表示仅复制可见单元格。
+True 表示只复制可见单元格。
 
 ```csharp
 public bool OnlyVisibleCells { get; set; }

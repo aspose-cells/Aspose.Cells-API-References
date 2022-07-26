@@ -1,14 +1,14 @@
 ---
 title: GetDateTimeValue
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает значение даты и времени элемента сводки Если значение равно null возвращается DateTime.MinValue
+description: Получает значение даты и времени сводного элемента Если значение равно null возвращается DateTime.MinValue
 type: docs
 weight: 80
 url: /ru/net/aspose.cells.pivot/pivotitem/getdatetimevalue/
 ---
 ## PivotItem.GetDateTimeValue method
 
-Получает значение даты и времени элемента сводки Если значение равно null, возвращается DateTime.MinValue
+Получает значение даты и времени сводного элемента Если значение равно null, возвращается DateTime.MinValue
 
 ```csharp
 public DateTime GetDateTimeValue()

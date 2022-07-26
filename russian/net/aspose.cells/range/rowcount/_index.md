@@ -3,7 +3,7 @@ title: RowCount
 second_title: Справочник по Aspose.Cells для .NET API
 description: Получает количество строк в диапазоне.
 type: docs
-weight: 130
+weight: 150
 url: /ru/net/aspose.cells/range/rowcount/
 ---
 ## Range.RowCount property

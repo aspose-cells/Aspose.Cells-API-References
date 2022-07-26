@@ -1,14 +1,14 @@
 ---
 title: SetCustomStyle
 second_title: Справочник по Aspose.Cells для .NET API
-description: устанавливает файл пользовательского стиля из потока включая поток дискового файла или поток памяти.
+description: задает файл пользовательского стиля из потока включая поток файлов на диске или поток памяти.
 type: docs
 weight: 1510
 url: /ru/net/aspose.cells.gridweb/mainweb/setcustomstyle/
 ---
 ## MainWeb.SetCustomStyle method
 
-устанавливает файл пользовательского стиля из потока, включая поток дискового файла или поток памяти.
+задает файл пользовательского стиля из потока, включая поток файлов на диске или поток памяти.
 
 ```csharp
 public void SetCustomStyle(Stream stream)

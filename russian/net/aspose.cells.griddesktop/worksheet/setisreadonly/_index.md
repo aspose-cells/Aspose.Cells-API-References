@@ -1,14 +1,14 @@
 ---
 title: SetIsReadonly
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает доступна ли ячейка только для чтения. Это расширенный атрибут он не будет храниться в фактическом файле Excel
+description: Устанавливает доступна ли ячейка только для чтения. Это расширенный атрибут он не будет сохраняться в фактическом файле excel
 type: docs
 weight: 1070
 url: /ru/net/aspose.cells.griddesktop/worksheet/setisreadonly/
 ---
 ## Worksheet.SetIsReadonly method
 
-Устанавливает, доступна ли ячейка только для чтения. Это расширенный атрибут, он не будет храниться в фактическом файле Excel
+Устанавливает, доступна ли ячейка только для чтения. Это расширенный атрибут, он не будет сохраняться в фактическом файле excel
 
 ```csharp
 public void SetIsReadonly(int row, int column, bool value)

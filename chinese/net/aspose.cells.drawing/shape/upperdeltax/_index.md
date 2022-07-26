@@ -1,18 +1,22 @@
 ---
 title: UpperDeltaX
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置形状与其左上角列的水平偏移量  取值范围为 0 到 1024
+description: 获取或设置形状与其左上角列的水平偏移量
 type: docs
 weight: 830
 url: /zh/net/aspose.cells.drawing/shape/upperdeltax/
 ---
 ## Shape.UpperDeltaX property
 
-获取或设置形状与其左上角列的水平偏移量。  取值范围为 0 到 1024。
+获取或设置形状与其左上角列的水平偏移量。
 
 ```csharp
 public int UpperDeltaX { get; set; }
 ```
+
+### 评论
+
+取值范围为 0 到 1024。
 
 ### 例子
 

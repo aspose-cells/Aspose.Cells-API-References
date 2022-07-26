@@ -1,14 +1,14 @@
 ---
 title: SVGFitToViewPort
 second_title: Aspose.Cells for .NET API 参考
-description: 如果此属性为真则生成的 svg 将适合查看端口
+description: 如果此属性为真生成的 svg 将适合查看端口
 type: docs
 weight: 290
 url: /zh/net/aspose.cells.rendering/imageorprintoptions/svgfittoviewport/
 ---
 ## ImageOrPrintOptions.SVGFitToViewPort property
 
-如果此属性为真，则生成的 svg 将适合查看端口。
+如果此属性为真，生成的 svg 将适合查看端口。
 
 ```csharp
 public bool SVGFitToViewPort { get; set; }

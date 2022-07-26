@@ -1,14 +1,14 @@
 ---
 title: IconId
 second_title: Aspose.Cells for .NET API 参考
-description: 表示图标集类型的id
+description: 代表图标集类型的id
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/datasorterkey/iconid/
 ---
 ## DataSorterKey.IconId property
 
-表示图标集类型的id。
+代表图标集类型的id。
 
 ```csharp
 public int IconId { get; }
@@ -16,7 +16,7 @@ public int IconId { get; }
 
 ### 评论
 
-仅在[`SortOnType`](../../sortontype)为 SortOnType 时有效。图标。
+仅在以下情况下生效[`SortOnType`](../../sortontype)是 SortOnType.Icon.
 
 ### 也可以看看
 

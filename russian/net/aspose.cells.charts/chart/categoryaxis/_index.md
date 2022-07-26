@@ -1,14 +1,14 @@
 ---
 title: CategoryAxis
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает ось X графика.
+description: Получает ось X диаграммы.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.charts/chart/categoryaxis/
 ---
 ## Chart.CategoryAxis property
 
-Получает ось X графика.
+Получает ось X диаграммы.
 
 ```csharp
 public Axis CategoryAxis { get; }

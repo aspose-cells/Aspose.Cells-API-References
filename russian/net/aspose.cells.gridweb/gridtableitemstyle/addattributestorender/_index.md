@@ -16,8 +16,8 @@ public override void AddAttributesToRender(HtmlTextWriter writer, WebControl own
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| писатель | HtmlTextWriter |  |
-| владелец | WebControl |  |
+| writer | HtmlTextWriter |  |
+| owner | WebControl |  |
 
 ### Смотрите также
 

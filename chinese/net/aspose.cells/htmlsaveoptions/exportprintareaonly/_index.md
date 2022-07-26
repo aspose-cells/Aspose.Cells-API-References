@@ -3,7 +3,7 @@ title: ExportPrintAreaOnly
 second_title: Aspose.Cells for .NET API 参考
 description: 表示是否仅将打印区域导出为 html 文件默认值为假
 type: docs
-weight: 230
+weight: 240
 url: /zh/net/aspose.cells/htmlsaveoptions/exportprintareaonly/
 ---
 ## HtmlSaveOptions.ExportPrintAreaOnly property

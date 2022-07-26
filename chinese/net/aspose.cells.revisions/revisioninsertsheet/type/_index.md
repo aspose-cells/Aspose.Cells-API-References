@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Cells for .NET API 参考
-description: 获取修订类型
+description: 获取修订的类型
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.revisions/revisioninsertsheet/type/
 ---
 ## RevisionInsertSheet.Type property
 
-获取修订类型。
+获取修订的类型。
 
 ```csharp
 public override RevisionType Type { get; }

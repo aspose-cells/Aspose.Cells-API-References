@@ -1,14 +1,14 @@
 ---
 title: ShowLowPoint
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает следует ли выделять самые нижние точки данных в группе спарклайнов.
+description: Указывает следует ли выделять самые низкие точки данных в группе спарклайнов.
 type: docs
 weight: 190
 url: /ru/net/aspose.cells.charts/sparklinegroup/showlowpoint/
 ---
 ## SparklineGroup.ShowLowPoint property
 
-Указывает, следует ли выделять самые нижние точки данных в группе спарклайнов.
+Указывает, следует ли выделять самые низкие точки данных в группе спарклайнов.
 
 ```csharp
 public bool ShowLowPoint { get; set; }

@@ -3,7 +3,7 @@ title: Name
 second_title: Справочник по Aspose.Cells для .NET API
 description: Получает или задает имя диапазона.
 type: docs
-weight: 110
+weight: 130
 url: /ru/net/aspose.cells/range/name/
 ---
 ## Range.Name property
@@ -18,7 +18,7 @@ public string Name { get; set; }
 
 Поддерживается именованный диапазон. Например,
 
-range.Name = "Sheet1!MyRange";
+range.Name = "Лист1!МойДиапазон";
 
 ### Смотрите также
 

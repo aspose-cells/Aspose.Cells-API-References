@@ -16,8 +16,8 @@ public StringBuilder GetJsonByUid(string uid, string filename)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uid | String | 唯一 id对于当前工作簿，如果我们无法通过 uid |
-| filename | String | excel 文件的文件名在缓存中找到文件，将返回 null。如果设置为 null ，默认文件名将是 book1 |
+| uid | String | 当前工作簿的唯一 id，如果我们无法通过 uid 在缓存中找到文件，将返回 null |
+| filename | String | excel文件的文件名。如果设置为null，默认文件名将是book1 |
 
 ### 也可以看看
 

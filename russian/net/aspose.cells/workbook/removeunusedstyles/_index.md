@@ -1,14 +1,14 @@
 ---
 title: RemoveUnusedStyles
 second_title: Справочник по Aspose.Cells для .NET API
-description: Удалите все неиспользуемые стили.
+description: Удалить все неиспользуемые стили.
 type: docs
 weight: 560
 url: /ru/net/aspose.cells/workbook/removeunusedstyles/
 ---
 ## Workbook.RemoveUnusedStyles method
 
-Удалите все неиспользуемые стили.
+Удалить все неиспользуемые стили.
 
 ```csharp
 public void RemoveUnusedStyles()

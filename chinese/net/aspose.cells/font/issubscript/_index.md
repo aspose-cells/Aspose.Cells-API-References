@@ -1,14 +1,14 @@
 ---
 title: IsSubscript
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置表示字体是否为下标的值
+description: 获取或设置字体是否为下标的值
 type: docs
 weight: 100
 url: /zh/net/aspose.cells/font/issubscript/
 ---
 ## Font.IsSubscript property
 
-获取或设置表示字体是否为下标的值。
+获取或设置字体是否为下标的值。
 
 ```csharp
 public bool IsSubscript { get; set; }

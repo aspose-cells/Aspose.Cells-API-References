@@ -1,14 +1,14 @@
 ---
 title: GetTotalName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает полное имя функции.
+description: Получает общее имя функции.
 type: docs
 weight: 300
 url: /ru/net/aspose.cells/globalizationsettings/gettotalname/
 ---
 ## GlobalizationSettings.GetTotalName method
 
-Получает полное имя функции.
+Получает общее имя функции.
 
 ```csharp
 public virtual string GetTotalName(ConsolidationFunction functionType)

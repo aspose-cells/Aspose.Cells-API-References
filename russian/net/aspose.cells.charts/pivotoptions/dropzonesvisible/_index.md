@@ -1,14 +1,14 @@
 ---
 title: DropZonesVisible
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает могут ли на сводной диаграмме появляться какие-либо элементы управления сводкой.
+description: Указывает могут ли на сводной диаграмме отображаться элементы управления сводкой.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.charts/pivotoptions/dropzonesvisible/
 ---
 ## PivotOptions.DropZonesVisible property
 
-Указывает, могут ли на сводной диаграмме появляться какие-либо элементы управления сводкой.
+Указывает, могут ли на сводной диаграмме отображаться элементы управления сводкой.
 
 ```csharp
 public bool DropZonesVisible { get; set; }

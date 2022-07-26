@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 通过索引获取切片器
+description: 按索引获取切片器
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.slicers/slicercollection/item/
 ---
 ## SlicerCollection indexer (1 of 2)
 
-通过索引获取切片器。
+按索引获取切片器。
 
 ```csharp
 public Slicer this[int index] { get; }

@@ -1,14 +1,14 @@
 ---
 title: EndArrowLength
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает длину стрелки для конца строки.
+description: Определяет длину стрелки для конца строки.
 type: docs
 weight: 80
 url: /ru/net/aspose.cells.drawing/line/endarrowlength/
 ---
 ## Line.EndArrowLength property
 
-Указывает длину стрелки для конца строки.
+Определяет длину стрелки для конца строки.
 
 ```csharp
 public MsoArrowheadLength EndArrowLength { get; set; }

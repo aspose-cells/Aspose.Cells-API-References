@@ -1,14 +1,14 @@
 ---
 title: OnCellSelectedClientFunction
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает функцию на стороне клиента которая будет вызываться при выборе ячейки. Клиентская функция должна быть объявлена следующим образомltbr /gt function MyOnSelectCellcellltbr /gt ltbr /gt GridWeb1.setCellValueByCellcell testltbr /gt ltbr /gtltbr /gtПримечание. Вы можете использовать указатель this в клиентской функции. чтобы указать элемент управления сеткой который запускает событие.
+description: Получает или задает функцию на стороне клиента которая будет вызываться при выборе ячейки. Функция клиента должна быть объявлена следующим образом функция MyOnSelectCell ячейка  GridWeb1.setCellValueByCell ячейка тест  Примечание. Вы можете использовать указатель this в клиентской функции чтобы указать элемент управления сеткой который запускает событие.
 type: docs
 weight: 590
 url: /ru/net/aspose.cells.gridweb/mainweb/oncellselectedclientfunction/
 ---
 ## MainWeb.OnCellSelectedClientFunction property
 
-Получает или задает функцию на стороне клиента, которая будет вызываться при выборе ячейки. Клиентская функция должна быть объявлена следующим образом:&lt;br /&gt; function MyOnSelectCell(cell)&lt;br /&gt; {&lt;br /&gt; GridWeb1.setCellValueByCell(cell, "test");&lt;br /&gt; }&lt;br /&gt;&lt;br /&gt;Примечание. Вы можете использовать указатель this в клиентской функции. чтобы указать элемент управления сеткой, который запускает событие.
+Получает или задает функцию на стороне клиента, которая будет вызываться при выборе ячейки. Функция клиента должна быть объявлена следующим образом: функция MyOnSelectCell (ячейка) { GridWeb1.setCellValueByCell (ячейка, «тест»); } Примечание. Вы можете использовать указатель «this» в клиентской функции, чтобы указать элемент управления сеткой, который запускает событие.
 
 ```csharp
 public string OnCellSelectedClientFunction { get; set; }

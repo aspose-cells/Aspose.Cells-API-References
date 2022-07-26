@@ -32,15 +32,15 @@ public class BindColumn : ISerializable
 | [CustomFormat](../../aspose.cells.gridweb/bindcolumn/customformat) { get; set; } | Строка пользовательского формата. |
 | [DataField](../../aspose.cells.gridweb/bindcolumn/datafield) { get; set; } | Получает или задает строку имени поля данных. |
 | [EnableSort](../../aspose.cells.gridweb/bindcolumn/enablesort) { get; set; } | Указывает, может ли пользователь щелкнуть заголовок столбца для сортировки по этому полю. |
-| [ImageUrl](../../aspose.cells.gridweb/bindcolumn/imageurl) { get; set; } | URL-адрес изображения гиперссылки команды. |
+| [ImageUrl](../../aspose.cells.gridweb/bindcolumn/imageurl) { get; set; } | URL изображения гиперссылки команды. |
 | [IsAutoCreated](../../aspose.cells.gridweb/bindcolumn/isautocreated) { get; set; } | Указывает, создается ли столбец автоматически. Если true, столбец будет удален, когда пользователь изменит источник данных во время разработки. |
 | [IsReadOnly](../../aspose.cells.gridweb/bindcolumn/isreadonly) { get; set; } | Указывает, доступен ли столбец только для чтения. |
-| [Name](../../aspose.cells.gridweb/bindcolumn/name) { get; } | Используется только время разработки. |
+| [Name](../../aspose.cells.gridweb/bindcolumn/name) { get; } | Используется только время проектирования. |
 | [NumberType](../../aspose.cells.gridweb/bindcolumn/numbertype) { get; set; } | Получает или задает числовой тип столбца. |
 | [Style](../../aspose.cells.gridweb/bindcolumn/style) { get; set; } | Получает или задает стиль столбца. |
 | [UseAlternativeStyle](../../aspose.cells.gridweb/bindcolumn/usealternativestyle) { get; set; } | Получает или задает, следует ли использовать альтернативный стиль для столбца. |
 | [Validation](../../aspose.cells.gridweb/bindcolumn/validation) { get; set; } | Получает или задает объект проверки столбца. |
-| [Width](../../aspose.cells.gridweb/bindcolumn/width) { get; set; } | Получает наборы значений ширины столбца. Принимаются только пиксели или точки |
+| [Width](../../aspose.cells.gridweb/bindcolumn/width) { get; set; } | Получает наборы ширины столбца. Только пиксели или точки accept |
 
 ### Смотрите также
 

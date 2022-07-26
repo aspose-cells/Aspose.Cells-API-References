@@ -18,7 +18,7 @@ public enum BackgroundMode
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Automatic | `0` | Автоматический |
+| Automatic | `0` | Автоматически |
 | Opaque | `1` | Непрозрачный |
 | Transparent | `2` | Прозрачный |
 

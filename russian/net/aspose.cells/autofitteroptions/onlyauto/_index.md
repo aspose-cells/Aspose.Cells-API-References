@@ -1,14 +1,14 @@
 ---
 title: OnlyAuto
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает подходят ли только строки высота которых не настроена.
+description: Указывает подходят ли только те строки высота которых не настроена пользователем.
 type: docs
 weight: 80
 url: /ru/net/aspose.cells/autofitteroptions/onlyauto/
 ---
 ## AutoFitterOptions.OnlyAuto property
 
-Указывает, подходят ли только строки, высота которых не настроена.
+Указывает, подходят ли только те строки, высота которых не настроена пользователем.
 
 ```csharp
 public bool OnlyAuto { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Checked
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает значение указывающее установлен ли флажок.
+description: Получает или задает значение указывающее находится ли флажок в установленном состоянии.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.griddesktop/checkbox/checked/
 ---
 ## CheckBox.Checked property
 
-Получает или задает значение, указывающее, установлен ли флажок.
+Получает или задает значение, указывающее, находится ли флажок в установленном состоянии.
 
 ```csharp
 public bool Checked { get; set; }

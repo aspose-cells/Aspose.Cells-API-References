@@ -17,7 +17,7 @@ public DocumentProperty AddLinkToContent(string name, string source)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | 属性的名称。 |
-| source | String | 属性的来源 |
+| source | String | 财产来源 |
 
 ### 返回值
 

@@ -1,14 +1,14 @@
 ---
 title: ExportDataTableAsString
 second_title: Aspose.Cells for .NET API 参考
-description: 将此范围内的数据导出到DataTable对象
+description: 将此范围内的数据导出到DataTable对象.
 type: docs
-weight: 240
+weight: 280
 url: /zh/net/aspose.cells/range/exportdatatableasstring/
 ---
 ## Range.ExportDataTableAsString method
 
-将此范围内的数据导出到DataTable对象。
+将此范围内的数据导出到DataTable对象.
 
 ```csharp
 public DataTable ExportDataTableAsString()
@@ -16,11 +16,11 @@ public DataTable ExportDataTableAsString()
 
 ### 返回值
 
-导出DataTable对象。
+出口DataTable目的。
 
 ### 评论
 
-[`Cells`](../../cells)集合中的所有数据都转换为字符串。
+中的所有数据[`Cells`](../../cells)集合被转换为字符串。
 
 ### 也可以看看
 

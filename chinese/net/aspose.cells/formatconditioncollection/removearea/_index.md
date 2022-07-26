@@ -16,7 +16,7 @@ public void RemoveArea(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 要删除的条件格式化单元格范围的索引。 |
+| index | Int32 | 要删除的条件格式单元格范围的索引。 |
 
 ### 也可以看看
 
@@ -37,7 +37,7 @@ public bool RemoveArea(int startRow, int startColumn, int totalRows, int totalCo
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | startRow | Int32 | 范围的起始行。 |
-| startColumn | Int32 | 范围的 startColumn。 |
+| startColumn | Int32 | 范围的起始列。 |
 | totalRows | Int32 | 范围的行数。 |
 | totalColumns | Int32 | 范围的列数。 |
 

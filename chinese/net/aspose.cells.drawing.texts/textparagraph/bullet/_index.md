@@ -1,14 +1,14 @@
 ---
 title: Bullet
 second_title: Aspose.Cells for .NET API 参考
-description: 获取项目符号
+description: 获取子弹
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.drawing.texts/textparagraph/bullet/
 ---
 ## TextParagraph.Bullet property
 
-获取项目符号。
+获取子弹。
 
 ```csharp
 public Bullet Bullet { get; }

@@ -1,14 +1,14 @@
 ---
 title: ShapeAdjustValues
 second_title: Aspose.Cells for .NET API 参考
-description: 获取形状调整值集合
+description: 获取形状调整值的集合
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.drawing/geometry/shapeadjustvalues/
 ---
 ## Geometry.ShapeAdjustValues property
 
-获取形状调整值集合
+获取形状调整值的集合
 
 ```csharp
 public ShapeGuideCollection ShapeAdjustValues { get; }

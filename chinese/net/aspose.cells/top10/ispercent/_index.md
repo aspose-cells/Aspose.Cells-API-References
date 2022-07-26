@@ -1,14 +1,14 @@
 ---
 title: IsPercent
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置top/bottom n规则是否为top/bottom n percent规则 默认值为假
+description: 获取或设置top/bottom n规则是否为top/bottom n percent规则 默认值为false
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/top10/ispercent/
 ---
 ## Top10.IsPercent property
 
-获取或设置“top/bottom n”规则是否为“top/bottom n percent”规则。 默认值为假。
+获取或设置“top/bottom n”规则是否为“top/bottom n percent”规则。 默认值为false。
 
 ```csharp
 public bool IsPercent { get; set; }

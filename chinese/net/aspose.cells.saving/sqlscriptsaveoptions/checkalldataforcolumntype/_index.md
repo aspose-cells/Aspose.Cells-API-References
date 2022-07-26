@@ -16,7 +16,7 @@ public bool CheckAllDataForColumnType { get; set; }
 
 ### 评论
 
-默认值为false，我们只检查第一行的性能。 如果此属性为 true 并且列包含混合值类型，则列的类型将为文本。
+默认值为false，我们只检查第一行的性能。 如果该属性为true并且列包含混合值类型，则列的类型将为文本。
 
 ### 也可以看看
 

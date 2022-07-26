@@ -1,14 +1,14 @@
 ---
 title: SetWordArtStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 设置预设艺术字样式
+description: 设置预设的艺术字样式
 type: docs
 weight: 70
 url: /zh/net/aspose.cells/fontsetting/setwordartstyle/
 ---
 ## FontSetting.SetWordArtStyle method
 
-设置预设艺术字样式。
+设置预设的艺术字样式。
 
 ```csharp
 public void SetWordArtStyle(PresetWordArtStyle style)

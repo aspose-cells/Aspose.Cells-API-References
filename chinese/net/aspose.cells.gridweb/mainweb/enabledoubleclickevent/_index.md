@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.gridweb/mainweb/enabledoubleclickevent/
 ---
 ## MainWeb.EnableDoubleClickEvent property
 
-获取或设置是否开启客户端双击事件。
+获取或设置是否开启客户端双击事件
 
 ```csharp
 public bool EnableDoubleClickEvent { get; set; }
@@ -16,7 +16,7 @@ public bool EnableDoubleClickEvent { get; set; }
 
 ### 评论
 
-当设置为true时，控件将接收客户端双击事件，您可以::47:::在服务器端处理这些事件。否则控件将忽略任何双击 事件。
+设置为true时，控件将接收客户端双击事件，您可以 在服务器端处理这些事件。否则控件将忽略任何双击 事件。
 
 ### 也可以看看
 

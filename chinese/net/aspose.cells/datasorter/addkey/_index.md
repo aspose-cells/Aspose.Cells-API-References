@@ -62,13 +62,13 @@ public void AddKey(int key, SortOnType type, SortOrder order, object customList)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | Int32 | 排好序的列索引（绝对位置，A列为0，B为1，...） |
-| type | SortOnType | 排序值类型。 |
+| type | SortOnType | 排序的值类型。 |
 | order | SortOrder | 排序顺序。 |
 | customList | Object | 自定义排序列表。 |
 
 ### 评论
 
-如果 type 为 SortOnType.CellColor 或 SortOnType.FontColor，则 customList 为 Color。
+如果 type 是 SortOnType.CellColor 或 SortOnType.FontColor，customList 是 Color.
 
 ### 也可以看看
 

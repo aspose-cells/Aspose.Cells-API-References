@@ -1,14 +1,14 @@
 ---
 title: Outline
 second_title: Aspose.Cells for .NET API 参考
-description: 表示文本的大纲格式
+description: 代表文本的轮廓格式
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.drawing.texts/textoptions/outline/
 ---
 ## TextOptions.Outline property
 
-表示文本的大纲格式。
+代表文本的轮廓格式。
 
 ```csharp
 public LineFormat Outline { get; }

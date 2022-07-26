@@ -1,14 +1,14 @@
 ---
 title: ImageType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает тип формат изображения.
+description: Определяет тип формат изображения.
 type: docs
 weight: 2160
 url: /ru/net/aspose.cells.drawing/imagetype/
 ---
 ## ImageType enumeration
 
-Указывает тип (формат) изображения.
+Определяет тип (формат) изображения.
 
 ```csharp
 public enum ImageType
@@ -18,15 +18,15 @@ public enum ImageType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Unknown | `0` | Неизвестный тип образа. |
+| Unknown | `0` | Неизвестный тип изображения. |
 | Emf | `2` | Расширенный метафайл Windows. |
 | Wmf | `3` | Метафайл Windows. |
-| Pict | `4` | Macintosh PICT. |
+| Pict | `4` | Macintosh ИЗОБРАЖЕНИЕ. |
 | Jpeg | `5` | JPEG JFIF. |
 | Png | `6` | Портативная сетевая графика. |
 | Bmp | `7` | Растровое изображение Windows |
-| Gif | `66` | Gif |
-| Tiff | `67` | Tiff |
+| Gif | `66` | GIF |
+| Tiff | `67` | Тифф |
 | Svg | `68` | Svg |
 | Svm | `69` | Свм |
 | Gltf | `70` | glTF |

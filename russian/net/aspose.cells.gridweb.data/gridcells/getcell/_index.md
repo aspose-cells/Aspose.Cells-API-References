@@ -1,14 +1,14 @@
 ---
 title: GetCell
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементCellили null в указанном индексе строки ячейки и индексе столбца.
+description: ПолучаетCell элемент или нуль в указанном индексе строки ячейки и индексе столбца.
 type: docs
 weight: 390
 url: /ru/net/aspose.cells.gridweb.data/gridcells/getcell/
 ---
 ## GridCells.GetCell method
 
-Получает элементCellили null в указанном индексе строки ячейки и индексе столбца.
+ПолучаетCell элемент или нуль в указанном индексе строки ячейки и индексе столбца.
 
 ```csharp
 public GridCell GetCell(int row, int column)

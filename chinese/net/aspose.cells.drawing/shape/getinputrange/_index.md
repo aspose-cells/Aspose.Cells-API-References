@@ -16,7 +16,7 @@ public string GetInputRange(bool isR1C1, bool isLocal)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| isR1C1 | Boolean | 公式是否需要格式化为R1C1。 |
+| isR1C1 | Boolean | 公式是否需要格式化为 R1C1。 |
 | isLocal | Boolean | 公式是否需要按语言环境格式化。 |
 
 ### 返回值
@@ -29,7 +29,7 @@ public string GetInputRange(bool isR1C1, bool isLocal)
 
 [C#]
 string range = shape.GetInputRange(false, true);
- //如果成功，会返回类似“$A$1:$A$3”的值
+//如果成功，将返回类似“$A$1:$A$3”的值
 ```
 
 ### 也可以看看

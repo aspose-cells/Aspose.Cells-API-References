@@ -18,28 +18,28 @@ public class Line
 
 | Имя | Описание |
 | --- | --- |
-| [BeginArrowLength](../../aspose.cells.drawing/line/beginarrowlength) { get; set; } | Указывает длину стрелки для начала строки. |
-| [BeginArrowWidth](../../aspose.cells.drawing/line/beginarrowwidth) { get; set; } | Задает ширину стрелки для начала строки. |
+| [BeginArrowLength](../../aspose.cells.drawing/line/beginarrowlength) { get; set; } | Определяет длину стрелки для начала строки. |
+| [BeginArrowWidth](../../aspose.cells.drawing/line/beginarrowwidth) { get; set; } | Определяет ширину стрелки для начала строки. |
 | [BeginType](../../aspose.cells.drawing/line/begintype) { get; set; } | Указывает стрелку для начала строки. |
-| [CapType](../../aspose.cells.drawing/line/captype) { get; set; } | Определяет конечные заглавные буквы. |
-| [Color](../../aspose.cells.drawing/line/color) { get; set; } | ПредставляетColorлинии. |
-| [CompoundType](../../aspose.cells.drawing/line/compoundtype) { get; set; } | Задает тип составной линии |
-| [DashType](../../aspose.cells.drawing/line/dashtype) { get; set; } | Указывает тип пунктирной линии |
-| [EndArrowLength](../../aspose.cells.drawing/line/endarrowlength) { get; set; } | Указывает длину стрелки для конца строки. |
-| [EndArrowWidth](../../aspose.cells.drawing/line/endarrowwidth) { get; set; } | Задает ширину стрелки для конца строки. |
+| [CapType](../../aspose.cells.drawing/line/captype) { get; set; } | Указывает конечные заглавные буквы. |
+| [Color](../../aspose.cells.drawing/line/color) { get; set; } | ПредставляетColor линии. |
+| [CompoundType](../../aspose.cells.drawing/line/compoundtype) { get; set; } | Указывает тип составной линии |
+| [DashType](../../aspose.cells.drawing/line/dashtype) { get; set; } | Определяет тип пунктирной линии |
+| [EndArrowLength](../../aspose.cells.drawing/line/endarrowlength) { get; set; } | Определяет длину стрелки для конца строки. |
+| [EndArrowWidth](../../aspose.cells.drawing/line/endarrowwidth) { get; set; } | Определяет ширину стрелки для конца строки. |
 | [EndType](../../aspose.cells.drawing/line/endtype) { get; set; } | Указывает конец строки со стрелкой. |
 | [FormattingType](../../aspose.cells.drawing/line/formattingtype) { get; set; } | Получает или задает тип формата. |
 | [GradientFill](../../aspose.cells.drawing/line/gradientfill) { get; } | Представляет градиентную заливку. |
 | [IsAuto](../../aspose.cells.drawing/line/isauto) { get; set; } | Указывает, назначается ли этот стиль линии автоматически. |
 | [IsAutomaticColor](../../aspose.cells.drawing/line/isautomaticcolor) { get; } | Указывает, назначается ли цвет линии автоматически. |
 | [IsVisible](../../aspose.cells.drawing/line/isvisible) { get; set; } | Указывает, видна ли линия. |
-| [JoinType](../../aspose.cells.drawing/line/jointype) { get; set; } | Указывает соединительные заглавные буквы. |
+| [JoinType](../../aspose.cells.drawing/line/jointype) { get; set; } | Определяет соединительные заглавные буквы. |
 | [Style](../../aspose.cells.drawing/line/style) { get; set; } | Представляет стиль линии. |
 | [ThemeColor](../../aspose.cells.drawing/line/themecolor) { get; set; } | Получает и устанавливает цвет темы. |
-| [Transparency](../../aspose.cells.drawing/line/transparency) { get; set; } | Возвращает или задает степень прозрачности линии как значение от 0,0 (непрозрачная) до 1,0 (прозрачная). |
-| [Weight](../../aspose.cells.drawing/line/weight) { get; set; } | Получает или задает[`WeightType`](../weighttype)линии. |
+| [Transparency](../../aspose.cells.drawing/line/transparency) { get; set; } | Возвращает или задает степень прозрачности линии в виде значения от 0,0 (непрозрачная) до 1,0 (прозрачная). |
+| [Weight](../../aspose.cells.drawing/line/weight) { get; set; } | Получает или задает[`WeightType`](../weighttype) линии. |
 | [WeightPt](../../aspose.cells.drawing/line/weightpt) { get; set; } | Получает или задает вес линии в пунктах. |
-| [WeightPx](../../aspose.cells.drawing/line/weightpx) { get; set; } | Получает или задает вес линии в единицах пикселей. |
+| [WeightPx](../../aspose.cells.drawing/line/weightpx) { get; set; } | Получает или задает вес линии в пикселях. |
 
 ### Примеры
 
@@ -61,12 +61,12 @@ cells[3,1].PutValue(30000);
 
 int chartIndex = sheet.Charts.Add(ChartType.Line, 9, 9, 21, 15);
 Chart chart = sheet.Charts[chartIndex];
-  // Применение стиля пунктирной линии к линиям NSeries
+// Применение стиля пунктирной линии к линиям NSeries
 chart.NSeries[0].Border.Style = LineType.Dot;
 chart.NSeries[0].Border.Color = Color.Red;
-  // Применение стиля треугольного маркера к маркерам данных NSeries
+// Применение стиля треугольного маркера к маркерам данных NSeries
 chart.NSeries[0].Marker.MarkerStyle = ChartMarkerType.Triangle;
-  //Установка веса всех линий в NSeries на medium
+//Установка веса всех строк в NSeries на средний
 chart.NSeries[0].Border.Weight = WeightType.MediumLine;
 
 [Visual Basic]
@@ -83,14 +83,14 @@ cells(1,1).PutValue(10000)
 cells(2,1).PutValue(20000)
 cells(3,1).PutValue(30000)
 		
-Dim chartIndex as Integer = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15)      ///
+Dim chartIndex as Integer = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15)    ///
 Dim chart as Chart = sheet.Charts(chartIndex)
 'Применение стиля пунктирной линии к линиям NSeries
 chart.NSeries(0).Border.Style = LineType.Dot
 chart.NSeries(0).Border.Color = Color.Red
 'Применение стиля треугольного маркера к маркерам данных NSeries
 chart.NSeries(0).Marker.MarkerStyle = ChartMarkerType.Triangle
-'Установка веса всех линий в NSeries на medium
+'Установка веса всех линий в NSeries на средний
 chart.NSeries(0).Border.Weight = WeightType.MediumLine
 ```
 

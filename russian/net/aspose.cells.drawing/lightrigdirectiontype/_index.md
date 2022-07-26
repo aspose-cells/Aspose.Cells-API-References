@@ -1,14 +1,14 @@
 ---
 title: LightRigDirectionType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет тип направления световой установки.
+description: Представляет тип направления установки освещения.
 type: docs
 weight: 2180
 url: /ru/net/aspose.cells.drawing/lightrigdirectiontype/
 ---
 ## LightRigDirectionType enumeration
 
-Представляет тип направления световой установки.
+Представляет тип направления установки освещения.
 
 ```csharp
 public enum LightRigDirectionType
@@ -18,12 +18,12 @@ public enum LightRigDirectionType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Bottom | `0` | Снизу |
+| Bottom | `0` | Низ |
 | BottomLeft | `1` | Внизу слева. |
 | BottomRight | `2` | Внизу справа. |
 | Left | `3` | Слева. |
 | Right | `4` | Верно. |
-| Top | `5` | Верх. |
+| Top | `5` | Топ. |
 | TopLeft | `6` | Вверху слева. |
 | TopRight | `7` | Вверху справа. |
 

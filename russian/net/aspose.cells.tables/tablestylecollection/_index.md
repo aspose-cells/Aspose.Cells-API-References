@@ -47,7 +47,7 @@ public class TableStyleCollection : CollectionBase<TableStyle>
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;TableStyle&gt;) |  |
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;TableStyle&gt;) |  |
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;TableStyle&gt;) |  |
-| [GetBuiltinTableStyle](../../aspose.cells.tables/tablestylecollection/getbuiltintablestyle)(TableStyleType) | Получает встроенный стиль таблицы |
+| [GetBuiltinTableStyle](../../aspose.cells.tables/tablestylecollection/getbuiltintablestyle)(TableStyleType) | Получает встроенную таблицу style |
 | [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(TableStyle) |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(TableStyle, int) |  |

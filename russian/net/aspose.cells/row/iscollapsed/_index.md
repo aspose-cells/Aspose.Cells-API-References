@@ -1,14 +1,14 @@
 ---
 title: IsCollapsed
 second_title: Справочник по Aspose.Cells для .NET API
-description: свернута ли строка
+description:  свернута ли строка
 type: docs
 weight: 70
 url: /ru/net/aspose.cells/row/iscollapsed/
 ---
 ## Row.IsCollapsed property
 
-свернута ли строка
+, свернута ли строка
 
 ```csharp
 public bool IsCollapsed { get; set; }

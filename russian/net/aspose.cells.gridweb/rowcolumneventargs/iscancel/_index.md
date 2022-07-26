@@ -1,14 +1,14 @@
 ---
 title: IsCancel
 second_title: Справочник по Aspose.Cells для .NET API
-description: отменить операцию.
+description: мы должны отменить операцию.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.gridweb/rowcolumneventargs/iscancel/
 ---
 ## RowColumnEventArgs.IsCancel property
 
-отменить операцию.
+мы должны отменить операцию.
 
 ```csharp
 public bool IsCancel { get; }

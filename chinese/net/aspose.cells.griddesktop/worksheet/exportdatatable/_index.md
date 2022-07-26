@@ -22,7 +22,7 @@ public DataTable ExportDataTable(DataTable dataTable, int startRow, int startCol
 | startColumn | Int32 | 要导出的第一个单元格的列号。 |
 | rows | Int32 | 要导入的行数。 |
 | columns | Int32 | 要导入的列数。 |
-| isVertical | Boolean | 如果控件中的一行代表 DataTable 中的一行，则为真。如果控件中的列表示 DataTable 中的行，则为 False。 |
+| isVertical | Boolean | 如果控件中的一行表示 DataTable 中的一行，则为真。如果控件中的列表示 DataTable 中的行，则为 False。 |
 
 ### 返回值
 
@@ -30,7 +30,7 @@ public DataTable ExportDataTable(DataTable dataTable, int startRow, int startCol
 
 ### 评论
 
-该方法允许首先创建一个DataTable对象。然后将数据导出到 DataTable 对象。如果 dataTable 未设置为有效，则该方法将通过调用重载方法“Export(bool exportColumnName, bool isVertical)”返回一个新的 DataTable 对象。
+该方法允许首先创建一个DataTable 对象。然后将数据导出到 DataTable 对象。如果 dataTable 未设置为有效，则该方法将通过调用重载方法“Export(bool exportColumnName, bool isVertical)”返回一个新的 DataTable 对象。
 
 ### 例子
 
@@ -70,7 +70,7 @@ DataGrid1.SetDataBinding(exportTable)
 
 ## ExportDataTable(int, int, int, int, bool, bool) {#exportdatatable}
 
-将 Worksheet 的 Cells 集合中的数据导出到新的 DataTable 对象。
+将工作表的 Cells 集合中的数据导出到新的 DataTable 对象。
 
 ```csharp
 public DataTable ExportDataTable(int startRow, int startColumn, int rows, int columns, 
@@ -83,8 +83,8 @@ public DataTable ExportDataTable(int startRow, int startColumn, int rows, int co
 | startColumn | Int32 | 要导出的第一个单元格的列号。 |
 | rows | Int32 | 要导入的行数。 |
 | columns | Int32 | 要导入的列数。 |
-| exportColumnName | Boolean | 表示第一行的数据是否导出到DataTable的列名。 |
-| isVertical | Boolean | 如果控件中的一行代表 DataTable 中的一行，则为真。如果控件中的列表示 DataTable 中的行，则为 False。 |
+| exportColumnName | Boolean | 指示是否将第一行中的数据导出到 DataTable 的列名。 |
+| isVertical | Boolean | 如果控件中的一行表示 DataTable 中的一行，则为真。如果控件中的列表示 DataTable 中的行，则为 False。 |
 
 ### 返回值
 

@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置Fontaspose.cells/font的名称
+description: 获取或设置Fontaspose.cells/font.
 type: docs
 weight: 120
 url: /zh/net/aspose.cells/font/name/
 ---
 ## Font.Name property
 
-获取或设置[`Font`](../../font)的名称。
+获取或设置[`Font`](../../font).
 
 ```csharp
 public virtual string Name { get; set; }

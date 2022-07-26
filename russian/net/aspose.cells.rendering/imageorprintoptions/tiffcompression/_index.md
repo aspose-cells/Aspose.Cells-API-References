@@ -1,14 +1,14 @@
 ---
 title: TiffCompression
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает тип сжатия применяемый только при сохранении страниц в формате Tiff .
+description: Получает или задает тип сжатия применяемый только при сохранении страниц вразмолвка формат.
 type: docs
 weight: 330
 url: /ru/net/aspose.cells.rendering/imageorprintoptions/tiffcompression/
 ---
 ## ImageOrPrintOptions.TiffCompression property
 
-Получает или задает тип сжатия, применяемый только при сохранении страниц в формате` Tiff` .
+Получает или задает тип сжатия, применяемый только при сохранении страниц в`размолвка` формат.
 
 ```csharp
 public TiffCompression TiffCompression { get; set; }

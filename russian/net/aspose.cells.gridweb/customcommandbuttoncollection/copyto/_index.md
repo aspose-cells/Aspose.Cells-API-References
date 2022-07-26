@@ -16,7 +16,7 @@ public void CopyTo(Array array, int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| массив | Array | Массив. |
+| array | Array | Массив. |
 | index | Int32 | Начальный индекс массива. |
 
 ### Смотрите также

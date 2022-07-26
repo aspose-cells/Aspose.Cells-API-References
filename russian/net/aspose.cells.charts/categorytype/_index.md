@@ -18,9 +18,9 @@ public enum CategoryType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| AutomaticScale | `0` | AutomaticScale |
+| AutomaticScale | `0` | Автоматическая шкала |
 | CategoryScale | `1` | КатегорияМасштаб |
-| TimeScale | `2` | TimeScale |
+| TimeScale | `2` | Шкала времени |
 
 ### Смотрите также
 

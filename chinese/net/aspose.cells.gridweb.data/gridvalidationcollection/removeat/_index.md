@@ -1,14 +1,14 @@
 ---
 title: RemoveAt
 second_title: Aspose.Cells for .NET API 参考
-description: 删除指定索引处的验证
+description: 移除指定索引处的验证
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.gridweb.data/gridvalidationcollection/removeat/
 ---
 ## GridValidationCollection.RemoveAt method
 
-删除指定索引处的验证。
+移除指定索引处的验证。
 
 ```csharp
 public void RemoveAt(int index)

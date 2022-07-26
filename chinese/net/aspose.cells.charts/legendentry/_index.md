@@ -19,8 +19,8 @@ public class LegendEntry
 | 姓名 | 描述 |
 | --- | --- |
 | [AutoScaleFont](../../aspose.cells.charts/legendentry/autoscalefont) { get; set; } | 如果对象中的文本在对象大小更改时更改字体大小，则为真。 默认值为 True。 |
-| [BackgroundMode](../../aspose.cells.charts/legendentry/backgroundmode) { get; set; } | 获取和设置背景的显示方式 |
-| [Font](../../aspose.cells.charts/legendentry/font) { get; } | 获取指定 ChartFrame 对象的[`Font`](./font)对象。 |
+| [BackgroundMode](../../aspose.cells.charts/legendentry/backgroundmode) { get; set; } | 获取和设置背景的显示模式 |
+| [Font](../../aspose.cells.charts/legendentry/font) { get; } | 得到一个[`Font`](./font)指定 ChartFrame 对象的对象。 |
 | [IsDeleted](../../aspose.cells.charts/legendentry/isdeleted) { get; set; } | 获取并设置是否删除图例条目。 |
 | [IsTextNoFill](../../aspose.cells.charts/legendentry/istextnofill) { get; set; } | 获取或设置不填充文本。 |
 

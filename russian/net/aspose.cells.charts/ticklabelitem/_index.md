@@ -1,14 +1,14 @@
 ---
 title: TickLabelItem
 second_title: Справочник по Aspose.Cells для .NET API
-description: Включить информацию об элементе Ticklabel
+description: Включить информацию о элементе Ticklabel
 type: docs
 weight: 920
 url: /ru/net/aspose.cells.charts/ticklabelitem/
 ---
 ## TickLabelItem class
 
-Включить информацию об элементе Ticklabel
+Включить информацию о элементе Ticklabel
 
 ```csharp
 public class TickLabelItem
@@ -19,7 +19,7 @@ public class TickLabelItem
 | Имя | Описание |
 | --- | --- |
 | [Height](../../aspose.cells.charts/ticklabelitem/height) { get; } | Высота элемента Ticklabel относительно высоты диаграммы. |
-| [Width](../../aspose.cells.charts/ticklabelitem/width) { get; } | Ширина элемента Ticklabel по отношению к ширине графика. |
+| [Width](../../aspose.cells.charts/ticklabelitem/width) { get; } | Ширина элемента Ticklabel относительно ширины диаграммы. |
 | [X](../../aspose.cells.charts/ticklabelitem/x) { get; } | Координаты X элемента Ticklabel относительно ширины графика. |
 | [Y](../../aspose.cells.charts/ticklabelitem/y) { get; } | Координаты Y элемента Ticklabel относительно высоты графика. |
 

@@ -172,8 +172,8 @@ public int Add(int upperLeftRow, int upperLeftColumn, Stream stream, int widthSc
 | upperLeftRow | Int32 | 左上行索引。 |
 | upperLeftColumn | Int32 | 左上列索引。 |
 | stream | Stream | 包含图像数据的流对象。 |
-| widthScale | Int32 | 图像宽度比例，百分比。 |
-| heightScale | Int32 | 图像高度比例，百分比。 |
+| widthScale | Int32 | 图像宽度的比例，百分比。 |
+| heightScale | Int32 | 图像高度的比例，百分比。 |
 
 ### 返回值
 
@@ -213,8 +213,8 @@ public int Add(int upperLeftRow, int upperLeftColumn, string fileName, int width
 | upperLeftRow | Int32 | 左上行索引。 |
 | upperLeftColumn | Int32 | 左上列索引。 |
 | fileName | String | 图像文件名。 |
-| widthScale | Int32 | 图像宽度比例，百分比。 |
-| heightScale | Int32 | 图像高度比例，百分比。 |
+| widthScale | Int32 | 图像宽度的比例，百分比。 |
+| heightScale | Int32 | 图像高度的比例，百分比。 |
 
 ### 返回值
 

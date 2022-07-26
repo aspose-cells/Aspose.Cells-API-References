@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указание индекса позиции во всех PivotItems а не PivotItems под одним и тем же родительским узлом.
+description: Указание индекса позиции во всех элементах PivotItem а не в элементах PivotItem под одним и тем же родительским узлом.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.pivot/pivotitem/position/
 ---
 ## PivotItem.Position property
 
-Указание индекса позиции во всех PivotItems, а не PivotItems под одним и тем же родительским узлом.
+Указание индекса позиции во всех элементах PivotItem, а не в элементах PivotItem под одним и тем же родительским узлом.
 
 ```csharp
 public int Position { set; }

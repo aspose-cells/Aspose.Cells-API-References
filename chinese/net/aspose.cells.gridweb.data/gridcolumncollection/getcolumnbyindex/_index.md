@@ -1,14 +1,14 @@
 ---
 title: GetColumnByIndex
 second_title: Aspose.Cells for .NET API 参考
-description: 通过列表中的位置获取Column对象
+description: 获取Column对象在列表中的位置
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.gridweb.data/gridcolumncollection/getcolumnbyindex/
 ---
 ## GridColumnCollection.GetColumnByIndex method
 
-通过列表中的位置获取Column对象。
+获取Column对象在列表中的位置。
 
 ```csharp
 public GridColumn GetColumnByIndex(int index)
@@ -16,7 +16,7 @@ public GridColumn GetColumnByIndex(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 在列表中的位置。 |
+| index | Int32 | 列表中的位置。 |
 
 ### 返回值
 

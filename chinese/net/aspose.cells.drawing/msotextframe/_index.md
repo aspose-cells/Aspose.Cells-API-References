@@ -18,13 +18,13 @@ public class MsoTextFrame
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AutoSize](../../aspose.cells.drawing/msotextframe/autosize) { get; set; } | 指示形状的大小是否根据其内容自动调整。 |
-| [BottomMarginPt](../../aspose.cells.drawing/msotextframe/bottommarginpt) { get; set; } | 以点为单位返回下边距 |
+| [AutoSize](../../aspose.cells.drawing/msotextframe/autosize) { get; set; } | 表示形状的大小是否根据其内容自动调整。 |
+| [BottomMarginPt](../../aspose.cells.drawing/msotextframe/bottommarginpt) { get; set; } | 以 Points 为单位返回下边距 |
 | [IsAutoMargin](../../aspose.cells.drawing/msotextframe/isautomargin) { get; set; } | 指示是否自动计算边距。 |
-| [LeftMarginPt](../../aspose.cells.drawing/msotextframe/leftmarginpt) { get; set; } | 以点为单位返回左边距 |
-| [RightMarginPt](../../aspose.cells.drawing/msotextframe/rightmarginpt) { get; set; } | 以点为单位返回右边距 |
-| [RotateTextWithShape](../../aspose.cells.drawing/msotextframe/rotatetextwithshape) { get; set; } | 表示是否带形状旋转文本。 |
-| [TopMarginPt](../../aspose.cells.drawing/msotextframe/topmarginpt) { get; set; } | 以点为单位返回上边距 |
+| [LeftMarginPt](../../aspose.cells.drawing/msotextframe/leftmarginpt) { get; set; } | 以 Points 为单位返回左边距 |
+| [RightMarginPt](../../aspose.cells.drawing/msotextframe/rightmarginpt) { get; set; } | 以Points为单位返回右边距 |
+| [RotateTextWithShape](../../aspose.cells.drawing/msotextframe/rotatetextwithshape) { get; set; } | 表示是否旋转带形状的文本。 |
+| [TopMarginPt](../../aspose.cells.drawing/msotextframe/topmarginpt) { get; set; } | 以 Points 为单位返回上边距 |
 
 ### 也可以看看
 

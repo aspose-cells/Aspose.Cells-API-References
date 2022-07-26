@@ -1,14 +1,14 @@
 ---
 title: AllowEditingScenario
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает разрешено ли пользователю редактировать сценарии на защищенном рабочем листе.
+description: Указывает разрешено ли пользователю редактировать сценарии на защищенном листе.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells/protection/alloweditingscenario/
 ---
 ## Protection.AllowEditingScenario property
 
-Указывает, разрешено ли пользователю редактировать сценарии на защищенном рабочем листе.
+Указывает, разрешено ли пользователю редактировать сценарии на защищенном листе.
 
 ```csharp
 public bool AllowEditingScenario { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: SetBorderColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает цвет указанной границы.
+description: Задает цвет указанной границы.
 type: docs
 weight: 180
 url: /ru/net/aspose.cells.griddesktop/style/setbordercolor/
 ---
 ## Style.SetBorderColor method
 
-Устанавливает цвет указанной границы.
+Задает цвет указанной границы.
 
 ```csharp
 public void SetBorderColor(BorderType borderType, Color colorvalue)
@@ -16,7 +16,7 @@ public void SetBorderColor(BorderType borderType, Color colorvalue)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| borderType | BorderType | borderType какую границу установить. |
+| borderType | BorderType | borderType, какую границу установить. |
 | color | Color | указанной границы. |
 
 ### Смотрите также

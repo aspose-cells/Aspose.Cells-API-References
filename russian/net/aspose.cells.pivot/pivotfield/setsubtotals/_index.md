@@ -1,14 +1,14 @@
 ---
 title: SetSubtotals
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает показывает ли указанное поле эти промежуточные итоги.
+description: Устанавливает будут ли в указанном поле отображаться эти промежуточные итоги.
 type: docs
 weight: 520
 url: /ru/net/aspose.cells.pivot/pivotfield/setsubtotals/
 ---
 ## PivotField.SetSubtotals method
 
-Устанавливает, показывает ли указанное поле эти промежуточные итоги.
+Устанавливает, будут ли в указанном поле отображаться эти промежуточные итоги.
 
 ```csharp
 public void SetSubtotals(PivotFieldSubtotalType subtotalType, bool shown)
@@ -17,7 +17,7 @@ public void SetSubtotals(PivotFieldSubtotalType subtotalType, bool shown)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | subtotalType | PivotFieldSubtotalType | тип промежуточных итогов. |
-| показано | Boolean | показывает ли указанное поле эти промежуточные итоги. |
+| shown | Boolean | показывает ли указанное поле эти промежуточные итоги. |
 
 ### Смотрите также
 

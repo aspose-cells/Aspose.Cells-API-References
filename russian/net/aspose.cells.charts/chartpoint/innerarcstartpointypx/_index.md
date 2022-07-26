@@ -1,14 +1,14 @@
 ---
 title: InnerArcStartPointYPx
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает координату y начальной точки сектора круга после вызова метода Chart.Calculate. Применяется к кольцевой диаграмме.
+description: Получает координату y начальной точки круговой секции после вызова метода Chart.Calculate. Применяется к кольцевой диаграмме.
 type: docs
 weight: 140
 url: /ru/net/aspose.cells.charts/chartpoint/innerarcstartpointypx/
 ---
 ## ChartPoint.InnerArcStartPointYPx property
 
-Получает координату y начальной точки сектора круга после вызова метода Chart.Calculate(). Применяется к кольцевой диаграмме.
+Получает координату y начальной точки круговой секции после вызова метода Chart.Calculate(). Применяется к кольцевой диаграмме.
 
 ```csharp
 public float InnerArcStartPointYPx { get; }

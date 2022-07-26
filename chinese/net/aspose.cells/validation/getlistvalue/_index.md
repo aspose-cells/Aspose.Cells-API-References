@@ -21,11 +21,11 @@ public object GetListValue(int row, int column)
 
 ### 返回值
 
-为指定单元格生成此验证列表的值。 如果列表引用了一个范围，那么返回值将是一个[`ReferredArea`](../../referredarea)对象； 否则返回值可能为 null、object[] 或简单对象。
+为指定单元格生成此验证列表的值。 如果列表引用范围，则返回值将是[`ReferredArea`](../../referredarea)object; 否则返回值可能为 null、object[] 或简单对象。
 
 ### 评论
 
-仅适用于类型为 List 且已应用于给定单元格的验证， 否则将返回 null。
+仅用于类型为 List 且已应用于给定单元格的验证， 否则将返回 null。
 
 ### 也可以看看
 

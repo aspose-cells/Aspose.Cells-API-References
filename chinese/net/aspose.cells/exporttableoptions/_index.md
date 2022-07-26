@@ -24,19 +24,19 @@ public class ExportTableOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CheckMixedValueType](../../aspose.cells/exporttableoptions/checkmixedvaluetype) { get; set; } | False，Aspose.Cells 将通过第一行的值类型设置 DataColumn 的类型以提高性能。 True，Aspose.Cells在设置DataColumn的类型前会检查列中的值类型是否混合: 并且值类型是混合的，DataColumn的类型将是字符串。 |
-| [DataTable](../../aspose.cells/exporttableoptions/datatable) { get; set; } | 获取并设置分配了列数据类型的DataTable。 |
-| [ExportAsHtmlString](../../aspose.cells/exporttableoptions/exportashtmlstring) { get; set; } | 将单元格的 html 字符串值导出到 DataTable。 |
-| [ExportAsString](../../aspose.cells/exporttableoptions/exportasstring) { get; set; } | 将单元格的字符串值导出到 DataTable。 |
-| [ExportColumnName](../../aspose.cells/exporttableoptions/exportcolumnname) { get; set; } | 表示第一行的数据是否导出到DataTable的列名。 默认值为假。 |
+| [CheckMixedValueType](../../aspose.cells/exporttableoptions/checkmixedvaluetype) { get; set; } | False，Aspose.Cells 会根据第一行的值类型来设置DataColumn 的类型以进行性能。 True，Aspose.Cells 会在设置DataColumn 的类型之前检查列中的值类型是否混合 和值类型是混合，DataColumn 的类型将是 string. |
+| [DataTable](../../aspose.cells/exporttableoptions/datatable) { get; set; } | 获取并设置分配了哪些列的数据类型的DataTable。 |
+| [ExportAsHtmlString](../../aspose.cells/exporttableoptions/exportashtmlstring) { get; set; } | 将单元格的 html 字符串值导出到 DataTable. |
+| [ExportAsString](../../aspose.cells/exporttableoptions/exportasstring) { get; set; } | 将单元格的字符串值导出到 DataTable. |
+| [ExportColumnName](../../aspose.cells/exporttableoptions/exportcolumnname) { get; set; } | 表示是否将第一行的数据导出到DataTable的列名。 默认值为false。 |
 | [FormatStrategy](../../aspose.cells/exporttableoptions/formatstrategy) { get; set; } | 获取并设置将值导出为字符串值时的格式策略。 |
 | [Indexes](../../aspose.cells/exporttableoptions/indexes) { get; set; } | 应该导出的列/行的索引。 |
-| [IsVertical](../../aspose.cells/exporttableoptions/isvertical) { get; set; } | 如果工作簿文件中的一行代表 DataTable 中的一行，则为真。如果 Workbook 文件中的列代表 DataTable 中的一行，则为 False。 |
+| [IsVertical](../../aspose.cells/exporttableoptions/isvertical) { get; set; } | 如果工作簿文件中的一行代表 DataTable 中的一行，则为真。如果工作簿文件中的列代表 DataTable 中的一行，则为 False。 |
 | [PlotVisibleCells](../../aspose.cells/exporttableoptions/plotvisiblecells) { get; set; } | 仅导出可见单元格。 |
 | [PlotVisibleColumns](../../aspose.cells/exporttableoptions/plotvisiblecolumns) { get; set; } | 仅导出可见列。 |
 | [PlotVisibleRows](../../aspose.cells/exporttableoptions/plotvisiblerows) { get; set; } | 仅导出可见行。 |
 | [RenameStrategy](../../aspose.cells/exporttableoptions/renamestrategy) { get; set; } | 列重名策略。 |
-| [SkipErrorValue](../../aspose.cells/exporttableoptions/skiperrorvalue) { get; set; } | 指示是否跳过列的无效值。 例如，如果列类型为十进制，则值大于十进制。MaxValue 并且该属性为真，我们将不再抛出异常。 默认值为假。 |
+| [SkipErrorValue](../../aspose.cells/exporttableoptions/skiperrorvalue) { get; set; } | 表示是否跳过该列的无效值。 例如，如果列类型为十进制，则该值大于十进制。最大值 并且该属性为true，我们不会再次抛出异常。 默认值为false。 |
 
 ### 也可以看看
 

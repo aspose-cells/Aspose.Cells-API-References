@@ -10,7 +10,7 @@ url: /zh/net/aspose.cells.gridweb.data/customcommandeventhandler/
 
 表示打算处理自定义命令事件的接口。
 
-void **handleCellEvent** （对象发送者，字符串命令）；
+空白 **处理细胞事件**（对象发送者，字符串命令）；
 
 ```csharp
 public delegate void CustomCommandEventHandler(object sender, string command);

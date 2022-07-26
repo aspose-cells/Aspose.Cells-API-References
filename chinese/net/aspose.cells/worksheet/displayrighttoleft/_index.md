@@ -1,14 +1,14 @@
 ---
 title: DisplayRightToLeft
 second_title: Aspose.Cells for .NET API 参考
-description: 指示指定的工作表是否从右到左而不是从左到右显示 默认为假
+description: 表示指定的工作表是否从右到左而不是从左到右显示 默认为 false
 type: docs
 weight: 130
 url: /zh/net/aspose.cells/worksheet/displayrighttoleft/
 ---
 ## Worksheet.DisplayRightToLeft property
 
-指示指定的工作表是否从右到左而不是从左到右显示。 默认为假。
+表示指定的工作表是否从右到左而不是从左到右显示。 默认为 false。
 
 ```csharp
 public bool DisplayRightToLeft { get; set; }

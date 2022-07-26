@@ -16,7 +16,7 @@ public byte[] ToImage(Cell cell, ImageOrPrintOptions imgOpts)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cell | Cell | Указывает панель данных, в которой ячейка будет отображаться |
+| cell | Cell | Укажите панель данных, в которой ячейка должна быть отображена |
 | imgOpts | ImageOrPrintOptions | ImageOrPrintOptions содержит некоторое свойство выходного изображения |
 
 ### Смотрите также

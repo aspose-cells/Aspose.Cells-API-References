@@ -20,9 +20,9 @@ public class SxRng
 | --- | --- |
 | [By](../../aspose.cells.pivot/sxrng/by) { get; } | 表示组范围的区间对象。 |
 | [End](../../aspose.cells.pivot/sxrng/end) { get; } | 表示组范围的结束对象。 |
-| [GroupByTypes](../../aspose.cells.pivot/sxrng/groupbytypes) { get; } | 表示组范围的组类型。 rangeofvalue 秒 分 小时 日 月 季 年 |
+| [GroupByTypes](../../aspose.cells.pivot/sxrng/groupbytypes) { get; } | 表示组范围的组类型。 rangeofvalue 秒分时天月季度年 |
 | [IsAutoEnd](../../aspose.cells.pivot/sxrng/isautoend) { get; } | 指定一个布尔值，指示应用程序是否将使用源数据来设置结束范围值。 |
-| [IsAutoStart](../../aspose.cells.pivot/sxrng/isautostart) { get; } | 指定一个布尔值，指示应用程序是否将使用源数据来设置开始范围值。 |
+| [IsAutoStart](../../aspose.cells.pivot/sxrng/isautostart) { get; } | 指定一个布尔值，指示应用程序是否将使用源数据来设置起始范围值。 |
 | [Start](../../aspose.cells.pivot/sxrng/start) { get; } | 表示组范围的起始对象。 |
 
 ### 也可以看看

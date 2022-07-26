@@ -1,14 +1,14 @@
 ---
 title: SetInterruptMonitorForSave
 second_title: Справочник по Aspose.Cells для .NET API
-description: установить InterruptMonitor для сохранения операции для книги
+description: установить InterruptMonitor для операции сохранения для workbook
 type: docs
 weight: 190
 url: /ru/net/aspose.cells.gridjs/gridjsworkbook/setinterruptmonitorforsave/
 ---
 ## GridJsWorkbook.SetInterruptMonitorForSave method
 
-установить InterruptMonitor для сохранения операции для книги
+установить InterruptMonitor для операции сохранения для workbook
 
 ```csharp
 public void SetInterruptMonitorForSave(GridInterruptMonitor monitor)

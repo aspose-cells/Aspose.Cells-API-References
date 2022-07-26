@@ -1,14 +1,14 @@
 ---
 title: BottomBevelHeight
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置底部斜角的高度或应用到形状的距离 以点为单位
+description: 获取和设置底部斜面的高度或应用到形状的距离 以点为单位
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.drawing/threedformat/bottombevelheight/
 ---
 ## ThreeDFormat.BottomBevelHeight property
 
-获取和设置底部斜角的高度，或应用到形状的距离。 以点为单位。
+获取和设置底部斜面的高度，或应用到形状的距离。 以点为单位。
 
 ```csharp
 public double BottomBevelHeight { get; set; }

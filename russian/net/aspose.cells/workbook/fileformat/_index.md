@@ -1,14 +1,14 @@
 ---
 title: FileFormat
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает формат файла.
+description: Получает и устанавливает формат файла.
 type: docs
 weight: 140
 url: /ru/net/aspose.cells/workbook/fileformat/
 ---
 ## Workbook.FileFormat property
 
-Получает и задает формат файла.
+Получает и устанавливает формат файла.
 
 ```csharp
 public FileFormatType FileFormat { get; set; }

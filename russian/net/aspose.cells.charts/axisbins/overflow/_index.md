@@ -1,14 +1,14 @@
 ---
 title: Overflow
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или устанавливает переполнение интервалов оси
+description: Получает или устанавливает переполнение оси bins
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.charts/axisbins/overflow/
 ---
 ## AxisBins.Overflow property
 
-Получает или устанавливает переполнение интервалов оси
+Получает или устанавливает переполнение оси bins
 
 ```csharp
 public double Overflow { get; set; }

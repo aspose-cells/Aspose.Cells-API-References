@@ -1,14 +1,14 @@
 ---
 title: NameCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示电子表格中所有Name./name对象的集合
+description: 代表所有的集合Name./name电子表格中的对象
 type: docs
 weight: 4210
 url: /zh/net/aspose.cells/namecollection/
 ---
 ## NameCollection class
 
-表示电子表格中所有[`Name`](../name)对象的集合。
+代表所有的集合[`Name`](../name)电子表格中的对象。
 
 ```csharp
 public class NameCollection : CollectionBase<Name>
@@ -20,7 +20,7 @@ public class NameCollection : CollectionBase<Name>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/namecollection/item) { get; } | 获取指定索引处的[`Name`](../name)元素。 (2 indexers) |
+| [Item](../../aspose.cells/namecollection/item) { get; } | 获取[`Name`](../name)指定索引处的元素。 (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法
@@ -31,7 +31,7 @@ public class NameCollection : CollectionBase<Name>
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Name) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Name, IComparer&lt;Name&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Name, IComparer&lt;Name&gt;) |  |
-| [Clear](../../aspose.cells/namecollection/clear#clear)() | 删除公式和数据源未引用的所有已定义名称。 如果定义的名称被引用，我们只设置 Name.ReferTo 为 null 并隐藏它们。 (2 methods) |
+| [Clear](../../aspose.cells/namecollection/clear#clear)() | 删除所有没有被公式和数据源引用的定义名称。 如果定义的名称被引用，我们只设置Name.ReferTo为null并隐藏它们。 (2 methods) |
 | [Contains](../../aspose.cells/collectionbase`1/contains)(Name) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Name[]) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Name[], int) |  |
@@ -55,7 +55,7 @@ public class NameCollection : CollectionBase<Name>
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Name, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Name, int, int) |  |
 | [Remove](../../aspose.cells/namecollection/remove#remove)(string) | 删除名称。 |
-| [Remove](../../aspose.cells/namecollection/remove#remove_1)(string[]) | 删除名称数组 |
+| [Remove](../../aspose.cells/namecollection/remove#remove_1)(string[]) | 移除名称数组 |
 | [RemoveAt](../../aspose.cells/namecollection/removeat#removeat)(int) | 删除特定索引处的名称。 (2 methods) |
 | [RemoveDuplicateNames](../../aspose.cells/namecollection/removeduplicatenames)() | 删除重复的定义名称 |
 | [Sort](../../aspose.cells/namecollection/sort)() | 对定义的名称进行排序。 |

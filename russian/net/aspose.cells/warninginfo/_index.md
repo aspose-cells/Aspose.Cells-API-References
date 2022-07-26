@@ -1,14 +1,14 @@
 ---
 title: WarningInfo
 second_title: Справочник по Aspose.Cells для .NET API
-description: Предупреждение
+description: Предупреждающая информация
 type: docs
 weight: 6350
 url: /ru/net/aspose.cells/warninginfo/
 ---
 ## WarningInfo class
 
-Предупреждение
+Предупреждающая информация
 
 ```csharp
 public class WarningInfo
@@ -18,8 +18,8 @@ public class WarningInfo
 
 | Имя | Описание |
 | --- | --- |
-| [CorrectedObject](../../aspose.cells/warninginfo/correctedobject) { get; set; } | Получает и задает исправленный объект. |
-| [Description](../../aspose.cells/warninginfo/description) { get; } | Получить описание предупреждающей информации. |
+| [CorrectedObject](../../aspose.cells/warninginfo/correctedobject) { get; set; } | Получает и устанавливает исправленный объект. |
+| [Description](../../aspose.cells/warninginfo/description) { get; } | Получить описание информации о предупреждении. |
 | [ErrorObject](../../aspose.cells/warninginfo/errorobject) { get; } | Объект ошибки. |
 | [WarningType](../../aspose.cells/warninginfo/warningtype) { get; } | Получить тип предупреждения. |
 

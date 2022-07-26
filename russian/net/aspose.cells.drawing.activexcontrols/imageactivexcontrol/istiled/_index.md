@@ -1,14 +1,14 @@
 ---
 title: IsTiled
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает расположено ли изображение на фоне.
+description: Указывает расположено ли изображение на фоне фона.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/istiled/
 ---
 ## ImageActiveXControl.IsTiled property
 
-Указывает, расположено ли изображение на фоне.
+Указывает, расположено ли изображение на фоне фона.
 
 ```csharp
 public bool IsTiled { get; set; }

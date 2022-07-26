@@ -1,14 +1,14 @@
 ---
 title: DataBar
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получить экземпляр условного форматирования DataBar. Цвет экземпляра по умолчанию - синий. Допустимо только для типа DataBar.
+description: Получить экземпляр условного форматирования DataBar. Цвет экземпляра по умолчанию - синий. Допустим только для типа DataBar.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/formatcondition/databar/
 ---
 ## FormatCondition.DataBar property
 
-Получить экземпляр условного форматирования "DataBar". Цвет экземпляра по умолчанию - синий. Допустимо только для типа DataBar.
+Получить экземпляр условного форматирования "DataBar". Цвет экземпляра по умолчанию - синий. Допустим только для типа DataBar.
 
 ```csharp
 public DataBar DataBar { get; }

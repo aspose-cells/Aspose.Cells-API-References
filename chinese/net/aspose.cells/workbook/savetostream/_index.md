@@ -1,14 +1,14 @@
 ---
 title: SaveToStream
 second_title: Aspose.Cells for .NET API 参考
-description: 将 Excel 文件保存到 MemoryStream 对象并返回
+description: 将 Excel 文件保存到 MemoryStream 对象并返回它
 type: docs
 weight: 590
 url: /zh/net/aspose.cells/workbook/savetostream/
 ---
 ## Workbook.SaveToStream method
 
-将 Excel 文件保存到 MemoryStream 对象并返回。
+将 Excel 文件保存到 MemoryStream 对象并返回它。
 
 ```csharp
 public MemoryStream SaveToStream()
@@ -16,11 +16,11 @@ public MemoryStream SaveToStream()
 
 ### 返回值
 
-MemoryStream 对象，其中包含一个 Excel 文件。
+包含 Excel 文件的 MemoryStream 对象。
 
 ### 评论
 
-此方法提供与 Save 方法相同的功能，仅将工作簿保存为 Excel97-2003 xls 文件。 主要用于COM客户端调用。
+此方法提供与保存方法相同的功能，仅将工作簿保存为 Excel97-2003 xls 文件。 主要用于COM客户端调用。
 
 ### 也可以看看
 

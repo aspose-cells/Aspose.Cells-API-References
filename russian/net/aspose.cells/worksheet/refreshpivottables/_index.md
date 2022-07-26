@@ -1,14 +1,14 @@
 ---
 title: RefreshPivotTables
 second_title: Справочник по Aspose.Cells для .NET API
-description: Обновляет все сводные таблицы на этом рабочем листе.
+description: Обновляет все сводные таблицы на этом листе.
 type: docs
 weight: 780
 url: /ru/net/aspose.cells/worksheet/refreshpivottables/
 ---
 ## Worksheet.RefreshPivotTables method
 
-Обновляет все сводные таблицы на этом рабочем листе.
+Обновляет все сводные таблицы на этом листе.
 
 ```csharp
 public void RefreshPivotTables()

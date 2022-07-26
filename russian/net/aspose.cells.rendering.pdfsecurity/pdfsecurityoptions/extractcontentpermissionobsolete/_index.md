@@ -1,14 +1,14 @@
 ---
 title: ExtractContentPermissionObsolete
 second_title: Справочник по Aspose.Cells для .NET API
-description: Разрешение на копирование или извлечение содержимого Устарело согласно ссылке в формате PDF.
+description: Разрешение на копирование или извлечение контента Устарело согласно ссылке в формате PDF.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/extractcontentpermissionobsolete/
 ---
 ## PdfSecurityOptions.ExtractContentPermissionObsolete property
 
-Разрешение на копирование или извлечение содержимого Устарело согласно ссылке в формате PDF.
+Разрешение на копирование или извлечение контента Устарело согласно ссылке в формате PDF.
 
 ```csharp
 public bool ExtractContentPermissionObsolete { get; set; }

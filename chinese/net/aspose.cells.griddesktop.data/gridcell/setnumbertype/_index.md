@@ -16,7 +16,7 @@ public void SetNumberType(int numbertype)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| numbertype | Int32 | 值其他数字类型，请参见 GridTableItemStyle.NumberType |
+| numbertype | Int32 | 数字类型的值，请参见 GridTableItemStyle.NumberType |
 
 ### 也可以看看
 

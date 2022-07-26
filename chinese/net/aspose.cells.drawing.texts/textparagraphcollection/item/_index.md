@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取特定索引处的TextParagraphaspose.cells.drawing.texts/textparagraph对象
+description: 获取TextParagraphaspose.cells.drawing.texts/textparagraph特定索引处的对象
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.drawing.texts/textparagraphcollection/item/
 ---
 ## TextParagraphCollection indexer
 
-获取特定索引处的[`TextParagraph`](../../textparagraph)对象。
+获取[`TextParagraph`](../../textparagraph)特定索引处的对象。
 
 ```csharp
 public TextParagraph this[int index] { get; }
@@ -16,7 +16,7 @@ public TextParagraph this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引。 |
+| index | 指数。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: PicFormatOption
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет параметр формата изображения
+description: Представляет формат изображения option
 type: docs
 weight: 2470
 url: /ru/net/aspose.cells.drawing/picformatoption/
 ---
 ## PicFormatOption class
 
-Представляет параметр формата изображения
+Представляет формат изображения option
 
 ```csharp
 public class PicFormatOption
@@ -24,12 +24,12 @@ public class PicFormatOption
 
 | Имя | Описание |
 | --- | --- |
-| [Bottom](../../aspose.cells.drawing/picformatoption/bottom) { get; set; } | Получает или устанавливает нижнее смещение для растягивания изображения. |
+| [Bottom](../../aspose.cells.drawing/picformatoption/bottom) { get; set; } | Получает или задает нижнее смещение для растягивания изображения. |
 | [Left](../../aspose.cells.drawing/picformatoption/left) { get; set; } | Получает или задает смещение влево для растягивания изображения. |
 | [Right](../../aspose.cells.drawing/picformatoption/right) { get; set; } | Получает или задает правильное смещение для растягивания изображения. |
 | [Scale](../../aspose.cells.drawing/picformatoption/scale) { get; set; } | Получает или задает количество стека и масштабирования изображений. |
 | [Top](../../aspose.cells.drawing/picformatoption/top) { get; set; } | Получает или задает верхнее смещение для растягивания изображения. |
-| [Type](../../aspose.cells.drawing/picformatoption/type) { get; set; } | Получает или задает тип заливки рисунка. |
+| [Type](../../aspose.cells.drawing/picformatoption/type) { get; set; } | Получает или задает тип заливки изображения. |
 
 ### Смотрите также
 

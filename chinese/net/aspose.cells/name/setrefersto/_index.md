@@ -16,8 +16,8 @@ public void SetRefersTo(string refersTo, bool isR1C1, bool isLocal)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| refersTo | String | 引用。 |
-| isR1C1 | Boolean | 引用是否为R1C1格式。 |
+| refersTo | String | 参考资料。 |
+| isR1C1 | Boolean | 引用是否为 R1C1 格式。 |
 | isLocal | Boolean | 引用是否为区域设置格式。 |
 
 ### 也可以看看

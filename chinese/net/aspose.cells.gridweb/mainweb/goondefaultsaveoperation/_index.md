@@ -1,14 +1,14 @@
 ---
 title: GoonDefaultSaveOperation
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置GridWeb是否会做默认保存操作默认值为true
+description: 获取或设置GridWeb是否会做默认的保存操作默认值为true
 type: docs
 weight: 370
 url: /zh/net/aspose.cells.gridweb/mainweb/goondefaultsaveoperation/
 ---
 ## MainWeb.GoonDefaultSaveOperation property
 
-获取或设置GridWeb是否会做默认保存操作，默认值为true。
+获取或设置GridWeb是否会做默认的保存操作，默认值为true。
 
 ```csharp
 public bool GoonDefaultSaveOperation { get; set; }

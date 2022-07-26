@@ -73,7 +73,7 @@ public void AutoFitRows(int startRow, int endRow)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startRow | Int32 | 起始行索引。 |
+| startRow | Int32 | 开始行索引。 |
 | endRow | Int32 | 结束行索引。 |
 
 ### 也可以看看
@@ -94,9 +94,9 @@ public void AutoFitRows(int startRow, int endRow, AutoFitterOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startRow | Int32 | 起始行索引。 |
+| startRow | Int32 | 开始行索引。 |
 | endRow | Int32 | 结束行索引。 |
-| options | AutoFitterOptions | auto fitter的选项。 |
+| options | AutoFitterOptions | 汽车钳工的选项。 |
 
 ### 也可以看看
 

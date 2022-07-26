@@ -19,8 +19,8 @@ public class CommentEventArgs : EventArgs
 | Имя | Описание |
 | --- | --- |
 | [Column](../../aspose.cells.griddesktop/commenteventargs/column) { get; } | Получает индекс столбца. |
-| [NewText](../../aspose.cells.griddesktop/commenteventargs/newtext) { get; } | Получает новые текстовые данные комментария |
-| [OldText](../../aspose.cells.griddesktop/commenteventargs/oldtext) { get; } | Получает старые текстовые данные комментария |
+| [NewText](../../aspose.cells.griddesktop/commenteventargs/newtext) { get; } | Получает новые текстовые данные comment |
+| [OldText](../../aspose.cells.griddesktop/commenteventargs/oldtext) { get; } | Получает старые текстовые данные comment |
 | [Row](../../aspose.cells.griddesktop/commenteventargs/row) { get; } | Получает индекс строки. |
 
 ### Смотрите также

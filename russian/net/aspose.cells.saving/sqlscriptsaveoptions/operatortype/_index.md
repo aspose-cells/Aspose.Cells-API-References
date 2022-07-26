@@ -1,14 +1,14 @@
 ---
 title: OperatorType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает тип оператора sql.
+description: Получает и задает тип оператора sql.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells.saving/sqlscriptsaveoptions/operatortype/
 ---
 ## SqlScriptSaveOptions.OperatorType property
 
-Получает и устанавливает тип оператора sql.
+Получает и задает тип оператора sql.
 
 ```csharp
 public SqlScriptOperatorType OperatorType { get; set; }

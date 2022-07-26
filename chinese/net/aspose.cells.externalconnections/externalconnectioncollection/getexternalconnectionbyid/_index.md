@@ -1,14 +1,14 @@
 ---
 title: GetExternalConnectionById
 second_title: Aspose.Cells for .NET API 参考
-description: 获取具有指定 id 的ExternalConnectionaspose.cells.externalconnections/externalconnection元素
+description: 获取ExternalConnectionaspose.cells.externalconnections/externalconnection具有指定 id. 的元素
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.externalconnections/externalconnectioncollection/getexternalconnectionbyid/
 ---
 ## ExternalConnectionCollection.GetExternalConnectionById method
 
-获取具有指定 id 的[`ExternalConnection`](../../externalconnection)元素。
+获取[`ExternalConnection`](../../externalconnection)具有指定 id. 的元素
 
 ```csharp
 public ExternalConnection GetExternalConnectionById(int connId)
@@ -16,11 +16,11 @@ public ExternalConnection GetExternalConnectionById(int connId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connId | Int32 | 外部连接id |
+| connId | Int32 | 外部连接标识 |
 
 ### 返回值
 
-指定id的元素.
+具有指定 id 的元素。
 
 ### 也可以看看
 

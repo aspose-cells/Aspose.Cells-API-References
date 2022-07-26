@@ -1,14 +1,14 @@
 ---
 title: ShowTableStyleFirstColumn
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает следует ли применять стиль к первому столбцу таблицы.
+description: Указывает следует ли применять стиль к первому столбцу в таблице.
 type: docs
 weight: 140
 url: /ru/net/aspose.cells.tables/listobject/showtablestylefirstcolumn/
 ---
 ## ListObject.ShowTableStyleFirstColumn property
 
-Указывает, следует ли применять стиль к первому столбцу таблицы.
+Указывает, следует ли применять стиль к первому столбцу в таблице.
 
 ```csharp
 public bool ShowTableStyleFirstColumn { get; set; }

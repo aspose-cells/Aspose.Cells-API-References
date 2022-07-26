@@ -1,14 +1,14 @@
 ---
 title: PageEndSavingArgs
 second_title: Справочник по Aspose.Cells для .NET API
-description: Информация для страницы завершает процесс сохранения.
+description: Информация о завершении процесса сохранения страницы.
 type: docs
 weight: 5150
 url: /ru/net/aspose.cells.rendering/pageendsavingargs/
 ---
 ## PageEndSavingArgs class
 
-Информация для страницы завершает процесс сохранения.
+Информация о завершении процесса сохранения страницы.
 
 ```csharp
 public class PageEndSavingArgs : PageSavingArgs

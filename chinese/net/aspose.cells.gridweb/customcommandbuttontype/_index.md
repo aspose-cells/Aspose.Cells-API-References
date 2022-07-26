@@ -18,7 +18,7 @@ public enum CustomCommandButtonType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| CommandButton | `0` | 自定义命令将呈现为命令栏中的命令按钮。 |
+| CommandButton | `0` | 自定义命令将在命令栏中呈现为命令按钮。 |
 | ContextMenuItem | `1` | 自定义命令将呈现为上下文菜单项。 |
 
 ### 也可以看看

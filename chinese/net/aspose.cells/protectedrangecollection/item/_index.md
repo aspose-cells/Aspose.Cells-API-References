@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定索引处的ProtectedRangeaspose.cells/protectedrange元素
+description: 获取ProtectedRangeaspose.cells/protectedrange指定索引处的元素
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/protectedrangecollection/item/
 ---
 ## ProtectedRangeCollection indexer
 
-获取指定索引处的[`ProtectedRange`](../../protectedrange)元素。
+获取[`ProtectedRange`](../../protectedrange)指定索引处的元素。
 
 ```csharp
 public ProtectedRange this[int index] { get; }

@@ -1,14 +1,14 @@
 ---
 title: IsHFScaleWithDoc
 second_title: Aspose.Cells for .NET API 参考
-description: 指示页眉和页脚是否随文档缩放而缩放 仅适用于 Excel 2007
+description: 表示页眉和页脚是否随文档缩放而缩放 仅适用于 Excel 2007
 type: docs
 weight: 180
 url: /zh/net/aspose.cells/pagesetup/ishfscalewithdoc/
 ---
 ## PageSetup.IsHFScaleWithDoc property
 
-指示页眉和页脚是否随文档缩放而缩放。 仅适用于 Excel 2007。
+表示页眉和页脚是否随文档缩放而缩放。 仅适用于 Excel 2007。
 
 ```csharp
 public bool IsHFScaleWithDoc { get; set; }

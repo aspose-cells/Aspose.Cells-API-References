@@ -1,14 +1,14 @@
 ---
 title: TreatConsecutiveDelimitersAsOne
 second_title: Aspose.Cells for .NET API 参考
-description: 连续分隔符是否应视为一个
+description: 是否应将连续分隔符视为一个
 type: docs
 weight: 100
 url: /zh/net/aspose.cells/txtloadoptions/treatconsecutivedelimitersasone/
 ---
 ## TxtLoadOptions.TreatConsecutiveDelimitersAsOne property
 
-连续分隔符是否应视为一个。
+是否应将连续分隔符视为一个。
 
 ```csharp
 public bool TreatConsecutiveDelimitersAsOne { get; set; }

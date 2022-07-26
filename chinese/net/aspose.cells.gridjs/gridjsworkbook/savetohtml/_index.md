@@ -1,14 +1,14 @@
 ---
 title: SaveToHtml
 second_title: Aspose.Cells for .NET API 参考
-description: 将工作表保存到文件路径保存格式为 html
+description: 将工作表保存到文件路径保存格式为html
 type: docs
 weight: 150
 url: /zh/net/aspose.cells.gridjs/gridjsworkbook/savetohtml/
 ---
 ## SaveToHtml(string) {#savetohtml_1}
 
-将工作表保存到文件路径，保存格式为 html
+将工作表保存到文件路径，保存格式为html
 
 ```csharp
 public void SaveToHtml(string path)
@@ -28,7 +28,7 @@ public void SaveToHtml(string path)
 
 ## SaveToHtml(Stream) {#savetohtml}
 
-将工作表保存到 sream，保存格式为 html
+将工作表保存到sream，保存格式为html
 
 ```csharp
 public void SaveToHtml(Stream stream)

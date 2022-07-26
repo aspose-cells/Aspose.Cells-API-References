@@ -1,14 +1,14 @@
 ---
 title: ColumnDeleting
 second_title: Aspose.Cells for .NET API 参考
-description: 当用户试图从客户端菜单中删除列时发生 您可以处理此事件并将取消参数设置为 True 以取消删除操作
+description: 当用户尝试从客户端菜单中删除列时发生 您可以处理此事件并将取消参数设置为 True 以取消删除操作
 type: docs
 weight: 1210
 url: /zh/net/aspose.cells.gridweb/mainweb/columndeleting/
 ---
 ## MainWeb.ColumnDeleting event
 
-当用户试图从客户端菜单中删除列时发生。 您可以处理此事件并将取消参数设置为 True 以取消删除操作。
+当用户尝试从客户端菜单中删除列时发生。 您可以处理此事件并将取消参数设置为 True 以取消删除操作。
 
 ```csharp
 public event RowColumnEventHandler ColumnDeleting;

@@ -1,14 +1,14 @@
 ---
 title: OnCellUpdatedClientFunction
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置更新单元格值时要调用的客户端函数名称 客户端函数应该这样声明ltbr /gt function MyOnCellUpdatedcellltbr /gt ltbr /gt alertthis.getCellValueByCellcellltbr /gt ltbr /gtltbr /gt注意您可以在客户端函数中使用this指针指向触发事件的网格控件
+description: 获取或设置更新单元格值时要调用的客户端函数名称 客户端函数应声明如下 函数 MyOnCellUpdated单元格  alertthis.getCellValueByCellcell 注意您可以在客户端函数中使用this指针来指向触发事件的网格控件
 type: docs
 weight: 610
 url: /zh/net/aspose.cells.gridweb/mainweb/oncellupdatedclientfunction/
 ---
 ## MainWeb.OnCellUpdatedClientFunction property
 
-获取或设置更新单元格值时要调用的客户端函数名称。 客户端函数应该这样声明:&lt;br /&gt; function MyOnCellUpdated(cell)&lt;br /&gt; {&lt;br /&gt; alert(this.getCellValueByCell(cell));&lt;br /&gt; }&lt;br /&gt;&lt;br /&gt;注意:您可以在客户端函数中使用“this”指针指向触发事件的网格控件。
+获取或设置更新单元格值时要调用的客户端函数名称。 客户端函数应声明如下： 函数 MyOnCellUpdated（单元格） { alert(this.getCellValueByCell(cell)); }注意：您可以在客户端函数中使用“this”指针来指向触发事件的网格控件。
 
 ```csharp
 public string OnCellUpdatedClientFunction { get; set; }

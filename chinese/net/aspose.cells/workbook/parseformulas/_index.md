@@ -1,14 +1,14 @@
 ---
 title: ParseFormulas
 second_title: Aspose.Cells for .NET API 参考
-description: 解析从模板文件加载或设置到单元格时尚未解析的所有公式
+description: 解析从模板文件加载或设置为单元格时尚未解析的所有公式
 type: docs
 weight: 490
 url: /zh/net/aspose.cells/workbook/parseformulas/
 ---
 ## Workbook.ParseFormulas method
 
-解析从模板文件加载或设置到单元格时尚未解析的所有公式。
+解析从模板文件加载或设置为单元格时尚未解析的所有公式。
 
 ```csharp
 public void ParseFormulas(bool ignoreError)
@@ -16,7 +16,7 @@ public void ParseFormulas(bool ignoreError)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ignoreError | Boolean | 是否忽略无效公式的错误。 对于一个无效的公式，如果忽略错误则该公式将被忽略 并继续解析其他公式，否则将抛出异常。 |
+| ignoreError | Boolean | 是否忽略无效公式的错误。 对于一个无效公式，如果忽略错误，则忽略此公式 并继续解析其他公式，否则将抛出异常。 |
 
 ### 也可以看看
 

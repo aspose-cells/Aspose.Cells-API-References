@@ -1,14 +1,14 @@
 ---
 title: SheetIndex
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置应导出的工作表 如果值为 -1则将导出活动工作表
+description: 获取并设置应导出哪个工作表 如果值为-1则将导出活动工作表
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/svgsaveoptions/sheetindex/
 ---
 ## SvgSaveOptions.SheetIndex property
 
-获取和设置应导出的工作表。 如果值为 -1，则将导出活动工作表。
+获取并设置应导出哪个工作表。 如果值为-1，则将导出活动工作表。
 
 ```csharp
 public int SheetIndex { get; set; }

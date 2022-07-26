@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.saving/sqlscriptsaveoptions/primarykey/
 ---
 ## SqlScriptSaveOptions.PrimaryKey property
 
-表示哪一列是数据表的主键。
+表示哪一列是数据表的主键
 
 ```csharp
 public int PrimaryKey { get; set; }

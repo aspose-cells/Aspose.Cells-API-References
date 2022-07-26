@@ -1,14 +1,14 @@
 ---
 title: CustomDocumentProperties
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает коллекциюDocumentPropertyaspose.cells.properties/documentproperty которая представляет все настраиваемые свойства документа электронной таблицы.
+description: ВозвращаетDocumentPropertyaspose.cells.properties/documentproperty коллекция которая представляет все настраиваемые свойства документа электронной таблицы.
 type: docs
 weight: 80
 url: /ru/net/aspose.cells/workbook/customdocumentproperties/
 ---
 ## Workbook.CustomDocumentProperties property
 
-Возвращает коллекцию[`DocumentProperty`](../../../aspose.cells.properties/documentproperty), которая представляет все настраиваемые свойства документа электронной таблицы.
+Возвращает[`DocumentProperty`](../../../aspose.cells.properties/documentproperty) коллекция, которая представляет все настраиваемые свойства документа электронной таблицы.
 
 ```csharp
 public CustomDocumentPropertyCollection CustomDocumentProperties { get; }

@@ -19,7 +19,7 @@ public class Validation
 | Имя | Описание |
 | --- | --- |
 | [AlertStyle](../../aspose.cells/validation/alertstyle) { get; set; } | Представляет стиль оповещения о проверке. |
-| [Areas](../../aspose.cells/validation/areas) { get; } | Получает все[`CellArea`](../cellarea), которые содержат настройки проверки данных. |
+| [Areas](../../aspose.cells/validation/areas) { get; } | получает все[`CellArea`](../cellarea) которые содержат настройки проверки данных. |
 | [ErrorMessage](../../aspose.cells/validation/errormessage) { get; set; } | Представляет сообщение об ошибке проверки данных. |
 | [ErrorTitle](../../aspose.cells/validation/errortitle) { get; set; } | Представляет заголовок диалогового окна ошибки проверки данных. |
 | [Formula1](../../aspose.cells/validation/formula1) { get; set; } | Представляет значение или выражение, связанное с проверкой данных. |
@@ -27,8 +27,8 @@ public class Validation
 | [IgnoreBlank](../../aspose.cells/validation/ignoreblank) { get; set; } | Указывает, разрешены ли пустые значения при проверке данных диапазона. |
 | [InCellDropDown](../../aspose.cells/validation/incelldropdown) { get; set; } | Указывает, отображает ли проверка данных раскрывающийся список, содержащий допустимые значения. |
 | [InputMessage](../../aspose.cells/validation/inputmessage) { get; set; } | Представляет входное сообщение проверки данных. |
-| [InputTitle](../../aspose.cells/validation/inputtitle) { get; set; } | Представляет заголовок диалогового окна ввода данных проверки. |
-| [Operator](../../aspose.cells/validation/operator) { get; set; } | Представляет оператор проверки данных. |
+| [InputTitle](../../aspose.cells/validation/inputtitle) { get; set; } | Представляет заголовок диалогового окна ввода данных для проверки данных. |
+| [Operator](../../aspose.cells/validation/operator) { get; set; } | Представляет оператора для проверки данных. |
 | [ShowError](../../aspose.cells/validation/showerror) { get; set; } | Указывает, будет ли отображаться сообщение об ошибке проверки данных всякий раз, когда пользователь вводит недопустимые данные. |
 | [ShowInput](../../aspose.cells/validation/showinput) { get; set; } | Указывает, будет ли отображаться входное сообщение проверки данных всякий раз, когда пользователь выбирает ячейку в диапазоне проверки данных. |
 | [Type](../../aspose.cells/validation/type) { get; set; } | Представляет тип проверки данных. |
@@ -51,8 +51,8 @@ public class Validation
 | [RemoveACell](../../aspose.cells/validation/removeacell)(int, int) | Удалить настройки проверки в ячейке. |
 | [RemoveArea](../../aspose.cells/validation/removearea)(CellArea) | Удалить настройки проверки в диапазоне. |
 | [RemoveAreas](../../aspose.cells/validation/removeareas)(CellArea[]) | Удаляет эту проверку из заданных областей. |
-| [SetFormula1](../../aspose.cells/validation/setformula1)(string, bool, bool) | Устанавливает значение или выражение, связанное с этой проверкой. |
-| [SetFormula2](../../aspose.cells/validation/setformula2)(string, bool, bool) | Устанавливает значение или выражение, связанное с этой проверкой. |
+| [SetFormula1](../../aspose.cells/validation/setformula1)(string, bool, bool) | Задает значение или выражение, связанное с этой проверкой. |
+| [SetFormula2](../../aspose.cells/validation/setformula2)(string, bool, bool) | Задает значение или выражение, связанное с этой проверкой. |
 
 ### Примеры
 

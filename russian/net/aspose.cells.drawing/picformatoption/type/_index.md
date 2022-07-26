@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает тип заливки рисунка.
+description: Получает или задает тип заливки изображения.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.drawing/picformatoption/type/
 ---
 ## PicFormatOption.Type property
 
-Получает или задает тип заливки рисунка.
+Получает или задает тип заливки изображения.
 
 ```csharp
 public FillPictureType Type { get; set; }

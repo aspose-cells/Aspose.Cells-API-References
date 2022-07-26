@@ -1,14 +1,14 @@
 ---
 title: InsertOptions
 second_title: Aspose.Cells for .NET API 参考
-description: 表示插入的选项
+description: 代表插入的选项
 type: docs
 weight: 3900
 url: /zh/net/aspose.cells/insertoptions/
 ---
 ## InsertOptions class
 
-表示插入的选项。
+代表插入的选项。
 
 ```csharp
 public class InsertOptions

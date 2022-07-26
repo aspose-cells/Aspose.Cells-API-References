@@ -1,14 +1,14 @@
 ---
 title: Label
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置链接的ole对象的显示标签
+description: 获取并设置链接的ole对象的显示标签
 type: docs
 weight: 120
 url: /zh/net/aspose.cells.drawing/oleobject/label/
 ---
 ## OleObject.Label property
 
-获取和设置链接的ole对象的显示标签。
+获取并设置链接的ole对象的显示标签。
 
 ```csharp
 public string Label { get; set; }

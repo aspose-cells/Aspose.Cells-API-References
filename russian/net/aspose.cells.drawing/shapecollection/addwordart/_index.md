@@ -1,14 +1,14 @@
 ---
 title: AddWordArt
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет предустановку WordArt начиная с Excel 2007.s
+description: Добавляет предустановленные объекты WordArt начиная с Excel 2007.s
 type: docs
 weight: 350
 url: /ru/net/aspose.cells.drawing/shapecollection/addwordart/
 ---
 ## ShapeCollection.AddWordArt method
 
-Добавляет предустановку WordArt начиная с Excel 2007.s
+Добавляет предустановленные объекты WordArt начиная с Excel 2007.s
 
 ```csharp
 public Shape AddWordArt(PresetWordArtStyle style, string text, int upperLeftRow, int top, 
@@ -17,12 +17,12 @@ public Shape AddWordArt(PresetWordArtStyle style, string text, int upperLeftRow,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| style | PresetWordArtStyle | Предустановка Стиль WordArt. |
+| style | PresetWordArtStyle | Предустановленный стиль WordArt. |
 | text | String | Текст. |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| top | Int32 | Представляет вертикальное смещение фигуры от ее левого ряда в единицах пикселя. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
-| left | Int32 | Представляет горизонтальное смещение фигуры от ее левого столбца в единицах пикселя. |
+| top | Int32 | Представляет вертикальное смещение фигуры от ее левой строки в единицах пикселя. |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
+| left | Int32 | Представляет горизонтальное смещение фигуры от ее левого столбца в пикселях. |
 | height | Int32 | Представляет высоту фигуры в пикселях. |
 | width | Int32 | Представляет ширину фигуры в пикселях. |
 
@@ -31,7 +31,7 @@ public Shape AddWordArt(PresetWordArtStyle style, string text, int upperLeftRow,
 ```csharp
 
 [C#]
-  //добавляем WordArt
+//добавляем WordArt
 Shape wordArt2 = shapes.AddWordArt(PresetWordArtStyle.WordArtStyle1, "WordArt", 3, 0, 3, 0, 50, 200);
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: Quality
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置确定生成图像质量的值 仅在将页面保存到 时应用Jpeg 格式默认值为 100
+description: 获取或设置一个值该值确定生成的图像的质量 仅在将页面保存到JPEG格式默认值为 100
 type: docs
 weight: 260
 url: /zh/net/aspose.cells.rendering/imageorprintoptions/quality/
 ---
 ## ImageOrPrintOptions.Quality property
 
-获取或设置确定生成图像质量的值 仅在将页面保存到` 时应用Jpeg` 格式。默认值为 100
+获取或设置一个值，该值确定生成的图像的质量 仅在将页面保存到`JPEG`格式。默认值为 100
 
 ```csharp
 public int Quality { get; set; }
@@ -16,7 +16,7 @@ public int Quality { get; set; }
 
 ### 评论
 
-仅在保存为 JPEG 时有效。 值必须介于 0 和 100 之间。 默认值为 100。
+仅在保存为JPEG 时有效。 值必须在0 到100 之间。 默认值为100。
 
 ### 也可以看看
 

@@ -23,11 +23,11 @@ public class SeriesLayoutProperties
 | Имя | Описание |
 | --- | --- |
 | [MapChartProjectionType](../../aspose.cells.charts/serieslayoutproperties/mapchartprojectiontype) { get; set; } | Получает и задает тип проекции карты. |
-| [MapChartRegionType](../../aspose.cells.charts/serieslayoutproperties/mapchartregiontype) { get; set; } | Получает и устанавливает тип региона карты. |
+| [MapChartRegionType](../../aspose.cells.charts/serieslayoutproperties/mapchartregiontype) { get; set; } | Получает и задает тип региона карты. |
 | [MapLabelLayout](../../aspose.cells.charts/serieslayoutproperties/maplabellayout) { get; set; } | Получает и задает макет меток карты. |
 | [QuartileCalculation](../../aspose.cells.charts/serieslayoutproperties/quartilecalculation) { get; set; } | Представляет статистические свойства ряда. |
 | [ShowConnectorLines](../../aspose.cells.charts/serieslayoutproperties/showconnectorlines) { get; set; } | Указывает, отображаются ли соединительные линии между точками данных. |
-| [ShowInnerPoints](../../aspose.cells.charts/serieslayoutproperties/showinnerpoints) { get; set; } | Указывает, отображаются ли точки данных, не являющиеся выбросами. |
+| [ShowInnerPoints](../../aspose.cells.charts/serieslayoutproperties/showinnerpoints) { get; set; } | Указывает, отображаются ли точки данных без выбросов. |
 | [ShowMeanLine](../../aspose.cells.charts/serieslayoutproperties/showmeanline) { get; set; } | Указывает, отображается ли линия, соединяющая все средние точки. |
 | [ShowMeanMarker](../../aspose.cells.charts/serieslayoutproperties/showmeanmarker) { get; set; } | Указывает, отображаются ли маркеры, обозначающие среднее значение. |
 | [ShowOutlierPoints](../../aspose.cells.charts/serieslayoutproperties/showoutlierpoints) { get; set; } | Указывает, отображаются ли точки данных с выбросами. |

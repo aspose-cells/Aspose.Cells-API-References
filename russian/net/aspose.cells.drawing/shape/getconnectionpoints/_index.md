@@ -1,14 +1,14 @@
 ---
 title: GetConnectionPoints
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получить точки соединения
+description: Получить точки подключения
 type: docs
 weight: 1030
 url: /ru/net/aspose.cells.drawing/shape/getconnectionpoints/
 ---
 ## Shape.GetConnectionPoints method
 
-Получить точки соединения
+Получить точки подключения
 
 ```csharp
 public float[][] GetConnectionPoints()
@@ -16,7 +16,7 @@ public float[][] GetConnectionPoints()
 
 ### Возвращаемое значение
 
-[X,Y] пары точка подключения. Каждый элемент представляет собой массив с плавающей запятой[2], [0] представляет x, а [1] представляет y.
+[X,Y] пары точки соединения. Каждый элемент представляет собой массив с плавающей запятой[2], [0] представляет x, а [1] представляет y.
 
 ### Примеры
 

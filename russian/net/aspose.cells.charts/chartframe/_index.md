@@ -18,21 +18,21 @@ public class ChartFrame
 
 | Имя | Описание |
 | --- | --- |
-| virtual [Area](../../aspose.cells.charts/chartframe/area) { get; } | Получает[`area`](./area) . |
+| virtual [Area](../../aspose.cells.charts/chartframe/area) { get; } | Получает[`область`](./area) . |
 | virtual [AutoScaleFont](../../aspose.cells.charts/chartframe/autoscalefont) { get; set; } | Истинно, если текст в объекте меняет размер шрифта при изменении размера объекта. Значение по умолчанию верно. |
-| [BackgroundMode](../../aspose.cells.charts/chartframe/backgroundmode) { get; set; } | Получает и устанавливает режим отображения фона |
-| virtual [Border](../../aspose.cells.charts/chartframe/border) { get; } | Получает[`border`](../../aspose.cells.drawing/line) . |
+| [BackgroundMode](../../aspose.cells.charts/chartframe/backgroundmode) { get; set; } | Получает и устанавливает режим отображения background |
+| virtual [Border](../../aspose.cells.charts/chartframe/border) { get; } | Получает[`граница`](../../aspose.cells.drawing/line) . |
 | [DefaultHeight](../../aspose.cells.charts/chartframe/defaultheight) { get; } | Представляет высоту позиции по умолчанию |
 | [DefaultWidth](../../aspose.cells.charts/chartframe/defaultwidth) { get; } | Представляет ширину позиции по умолчанию |
 | [DefaultX](../../aspose.cells.charts/chartframe/defaultx) { get; } | Представляет x позиции по умолчанию |
 | [DefaultY](../../aspose.cells.charts/chartframe/defaulty) { get; } | Представляет y позиции по умолчанию |
-| virtual [Font](../../aspose.cells.charts/chartframe/font) { get; } | Получает объект[`Font`](./font)указанного объекта ChartFrame. |
-| virtual [Height](../../aspose.cells.charts/chartframe/height) { get; set; } | Получает или задает высоту рамки в единицах 1/4000 области диаграммы. |
+| virtual [Font](../../aspose.cells.charts/chartframe/font) { get; } | Получает[`Font`](./font) объект указанного объекта ChartFrame. |
+| virtual [Height](../../aspose.cells.charts/chartframe/height) { get; set; } | Получает или задает высоту кадра в единицах 1/4000 области диаграммы. |
 | virtual [IsAutomaticSize](../../aspose.cells.charts/chartframe/isautomaticsize) { get; set; } | Указывает, имеет ли рамка диаграммы автоматический размер. |
 | [IsDefaultPosBeSet](../../aspose.cells.charts/chartframe/isdefaultposbeset) { get; } | Указывает, установлены ли позиции по умолчанию (DefaultX, DefaultY, DefaultWidth и DefaultHeight). |
-| [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode) { get; set; } | Указывает, включает ли размер области графика деления и метки осей. False указывает, что размер должен определять размер области графика, делений и меток осей. |
+| [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode) { get; set; } | Указывает, включает ли размер области графика деления и метки осей. False указывает, что размер должен определять размер области графика, деления и метки осей. |
 | [Shadow](../../aspose.cells.charts/chartframe/shadow) { get; set; } | Истинно, если у кадра есть тень. |
-| [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties) { get; } | Получает объект[`ShapeProperties`](./shapeproperties). |
+| [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties) { get; } | Получает[`ShapeProperties`](./shapeproperties) объект. |
 | virtual [Width](../../aspose.cells.charts/chartframe/width) { get; set; } | Получает или задает ширину рамки в единицах 1/4000 области диаграммы. |
 | virtual [X](../../aspose.cells.charts/chartframe/x) { get; set; } | Получает или задает координату x левого верхнего угла в единицах 1/4000 области диаграммы. |
 | virtual [Y](../../aspose.cells.charts/chartframe/y) { get; set; } | Получает или задает координату Y верхнего левого угла в единицах 1/4000 области диаграммы. |
@@ -41,7 +41,7 @@ public class ChartFrame
 
 | Имя | Описание |
 | --- | --- |
-| virtual [SetPositionAuto](../../aspose.cells.charts/chartframe/setpositionauto)() | Установить положение кадра автоматически |
+| virtual [SetPositionAuto](../../aspose.cells.charts/chartframe/setpositionauto)() | Установить положение кадра на auto |
 
 ### Смотрите также
 

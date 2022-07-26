@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектShapeSegmentPathaspose.cells.drawing/shapesegmentpath.
+description: получаетShapeSegmentPathaspose.cells.drawing/shapesegmentpath объект.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.drawing/shapesegmentpathcollection/item/
 ---
 ## ShapeSegmentPathCollection indexer
 
-Получает объект[`ShapeSegmentPath`](../../shapesegmentpath).
+получает[`ShapeSegmentPath`](../../shapesegmentpath) объект.
 
 ```csharp
 public ShapeSegmentPath this[int index] { get; }
@@ -20,7 +20,7 @@ public ShapeSegmentPath this[int index] { get; }
 
 ### Возвращаемое значение
 
-Возвращает объект[`ShapeSegmentPath`](../../shapesegmentpath).
+Возвращает[`ShapeSegmentPath`](../../shapesegmentpath) объект.
 
 ### Смотрите также
 

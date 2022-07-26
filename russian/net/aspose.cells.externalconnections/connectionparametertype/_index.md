@@ -1,14 +1,14 @@
 ---
 title: ConnectionParameterType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает тип параметра внешнего соединения
+description: Указывает тип параметра внешнего подключения
 type: docs
 weight: 3260
 url: /ru/net/aspose.cells.externalconnections/connectionparametertype/
 ---
 ## ConnectionParameterType enumeration
 
-Указывает тип параметра внешнего соединения
+Указывает тип параметра внешнего подключения
 
 ```csharp
 public enum ConnectionParameterType

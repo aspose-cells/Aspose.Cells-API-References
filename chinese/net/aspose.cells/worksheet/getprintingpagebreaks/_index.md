@@ -20,7 +20,7 @@ public CellArea[] GetPrintingPageBreaks(ImageOrPrintOptions options)
 
 ### 返回值
 
-自动分页区域。
+自动分页符区域。
 
 ### 评论
 

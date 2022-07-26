@@ -18,7 +18,7 @@ public enum DataBarNegativeColorType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Color | `0` | 使用负值和轴设置对话框 中指定的颜色，或使用 NegativeBarFormat 对象的 ColorType 和 BorderColorType 属性。 |
+| Color | `0` | 使用负值和轴设置对话框中指定的颜色 或使用 NegativeBarFormat 对象的 ColorType 和 BorderColorType 属性。 |
 | SameAsPositive | `1` | 使用与正数据条相同的颜色。 |
 
 ### 也可以看看

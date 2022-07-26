@@ -1,14 +1,14 @@
 ---
 title: ProviderId
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置签名提供者的ID
+description: 获取并设置签名提供者的id
 type: docs
 weight: 70
 url: /zh/net/aspose.cells.drawing/signatureline/providerid/
 ---
 ## SignatureLine.ProviderId property
 
-获取和设置签名提供者的ID。
+获取并设置签名提供者的id。
 
 ```csharp
 public Guid ProviderId { get; set; }
@@ -23,7 +23,7 @@ public Guid ProviderId { get; set; }
 ```csharp
 
 [C#]
- // 创建签名行 object
+// 创建签名线对象
 SignatureLine s2 = new SignatureLine();
 s2.ProviderId = System.Guid.NewGuid();
 ```

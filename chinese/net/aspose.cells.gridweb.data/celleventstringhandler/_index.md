@@ -10,7 +10,7 @@ url: /zh/net/aspose.cells.gridweb.data/celleventstringhandler/
 
 表示打算处理单元格事件的方法。 与 CellEventHandler 接口相同，但返回字符串结果
 
-String **handleCellEvent** (对象发送者，CellEventArgs e)；
+细绳 **处理细胞事件**（对象发送者，CellEventArgs e）；
 
 ```csharp
 public delegate string CellEventStringHandler(object sender, CellEventArgs e);

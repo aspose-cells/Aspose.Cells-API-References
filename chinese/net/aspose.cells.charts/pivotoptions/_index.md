@@ -18,10 +18,10 @@ public class PivotOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DropZoneCategories](../../aspose.cells.charts/pivotoptions/dropzonecategories) { get; set; } | 指定当 dropZonesVisible 设置为 true 时，源数据透视表的数据透视表行轴 上的每个数据透视表字段的控件是否显示在图表上。 |
-| [DropZoneData](../../aspose.cells.charts/pivotoptions/dropzonedata) { get; set; } | 指定当 dropZonesVisible 设置为 true 时，源数据透视表的数据透视表 上的每个数据透视表字段的控件是否显示在图表上。 |
-| [DropZoneFilter](../../aspose.cells.charts/pivotoptions/dropzonefilter) { get; set; } | 指定当 dropZonesVisible 设置为 true 时，源数据透视表的数据透视表页轴 上的每个数据透视表字段的控件是否显示在图表上。 |
-| [DropZoneSeries](../../aspose.cells.charts/pivotoptions/dropzoneseries) { get; set; } | 指定当 dropZonesVisible 设置为 true 时，源数据透视表的数据透视表列轴 上的每个数据透视表字段的控件是否显示在图表上。 |
+| [DropZoneCategories](../../aspose.cells.charts/pivotoptions/dropzonecategories) { get; set; } | 指定当 dropZonesVisible 设置为 true 时，源数据透视表的数据透视表行 axis 上的每个数据透视表字段的控件是否显示在图表上。 |
+| [DropZoneData](../../aspose.cells.charts/pivotoptions/dropzonedata) { get; set; } | 指定当 dropZonesVisible 设置为 true 时，源数据透视表的数据透视表数据轴 上的每个数据透视表字段的控件是否出现在图表上。 |
+| [DropZoneFilter](../../aspose.cells.charts/pivotoptions/dropzonefilter) { get; set; } | 指定当 dropZonesVisible 设置为 true 时，源数据透视表的数据透视表页面 axis 上的每个数据透视表字段的控件是否出现在图表上。 |
+| [DropZoneSeries](../../aspose.cells.charts/pivotoptions/dropzoneseries) { get; set; } | 指定当 dropZonesVisible 设置为 true 时，源数据透视表的数据透视表列 axis 上的每个数据透视表字段的控件是否显示在图表上。 |
 | [DropZonesVisible](../../aspose.cells.charts/pivotoptions/dropzonesvisible) { get; set; } | 指定透视图上是否可以出现任何透视控件。 |
 
 ### 也可以看看

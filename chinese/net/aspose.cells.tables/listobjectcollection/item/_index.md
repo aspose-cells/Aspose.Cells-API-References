@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 按索引获取 ListObject
+description: 通过索引获取ListObject
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.tables/listobjectcollection/item/
 ---
 ## ListObjectCollection indexer (1 of 2)
 
-按索引获取 ListObject。
+通过索引获取ListObject。
 
 ```csharp
 public ListObject this[int index] { get; }
@@ -16,11 +16,11 @@ public ListObject this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引。 |
+| index | 指数。 |
 
 ### 返回值
 
-ListObject
+列表对象
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ ListObject
 
 ## ListObjectCollection indexer (2 of 2)
 
-按指定名称获取 ListObject。
+获取指定名称的ListObject。
 
 ```csharp
 public ListObject this[string tableName] { get; }
@@ -41,11 +41,11 @@ public ListObject this[string tableName] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| tableName | ListObject 名称。 |
+| tableName | 列表对象名称。 |
 
 ### 返回值
 
-ListObject
+列表对象
 
 ### 也可以看看
 

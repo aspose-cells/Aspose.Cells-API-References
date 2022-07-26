@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Справочник по Aspose.Cells для .NET API
-description: Удалить массив имени
+description: Удалить массив name
 type: docs
 weight: 50
 url: /ru/net/aspose.cells/namecollection/remove/
 ---
 ## Remove(string[]) {#remove_1}
 
-Удалить массив имени
+Удалить массив name
 
 ```csharp
 public void Remove(string[] names)

@@ -1,14 +1,14 @@
 ---
 title: DataRange
 second_title: Aspose.Cells for .NET API 参考
-description: 表示迷你图的数据范围
+description: 代表迷你图的数据范围
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.charts/sparkline/datarange/
 ---
 ## Sparkline.DataRange property
 
-表示迷你图的数据范围。
+代表迷你图的数据范围。
 
 ```csharp
 public string DataRange { get; set; }

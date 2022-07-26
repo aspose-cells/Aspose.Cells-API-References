@@ -1,14 +1,14 @@
 ---
 title: DocumentPropertyCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Базовый класс дляBuiltInDocumentPropertyCollection./builtindocumentpropertycollectionиCustomDocumentPropertyCollection./customdocumentpropertycollectionколлекции.
+description: Базовый класс дляBuiltInDocumentPropertyCollection./builtindocumentpropertycollection а такжеCustomDocumentPropertyCollection./customdocumentpropertycollection коллекции.
 type: docs
 weight: 4870
 url: /ru/net/aspose.cells.properties/documentpropertycollection/
 ---
 ## DocumentPropertyCollection class
 
-Базовый класс для[`BuiltInDocumentPropertyCollection`](../builtindocumentpropertycollection)и[`CustomDocumentPropertyCollection`](../customdocumentpropertycollection)коллекции.
+Базовый класс для[`BuiltInDocumentPropertyCollection`](../builtindocumentpropertycollection) а также[`CustomDocumentPropertyCollection`](../customdocumentpropertycollection) коллекции.
 
 ```csharp
 public abstract class DocumentPropertyCollection : IEnumerable
@@ -19,15 +19,15 @@ public abstract class DocumentPropertyCollection : IEnumerable
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.cells.properties/documentpropertycollection/count) { get; } | Получает количество элементов в коллекции. |
-| [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Возвращает объект[`DocumentProperty`](../documentproperty)по индексу. |
-| virtual [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Возвращает объект[`DocumentProperty`](../documentproperty)по имени свойства. |
+| [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Возвращает[`DocumentProperty`](../documentproperty)объект по индексу. |
+| virtual [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Возвращает[`DocumentProperty`](../documentproperty) объект по имени свойства. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [Clear](../../aspose.cells.properties/documentpropertycollection/clear)() | Удаляет все свойства из коллекции. |
-| [Contains](../../aspose.cells.properties/documentpropertycollection/contains)(string) | Возвращает true, если свойство с указанным именем существует в коллекции. |
+| [Contains](../../aspose.cells.properties/documentpropertycollection/contains)(string) | Возвращает значение true, если свойство с указанным именем существует в коллекции. |
 | [GetEnumerator](../../aspose.cells.properties/documentpropertycollection/getenumerator)() |  |
 | [IndexOf](../../aspose.cells.properties/documentpropertycollection/indexof)(string) | Получает индекс свойства по имени. |
 | [Remove](../../aspose.cells.properties/documentpropertycollection/remove)(string) | Удаляет свойство с указанным именем из коллекции. |
@@ -39,30 +39,30 @@ public abstract class DocumentPropertyCollection : IEnumerable
 
 [C#]
 
-  //Создаем экземпляр объекта Workbook, вызвав его пустой конструктор
+//Создаем экземпляр объекта Workbook, вызвав его пустой конструктор
 Workbook workbook = new Workbook("book1.xls");
  
-  //Получение списка всех пользовательских свойств документа Excel file
+//Получение списка всех пользовательских свойств документа файла Excel
 DocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
  
-  //Доступ к пользовательскому свойству документа с помощью свойства index
+//Доступ к пользовательскому свойству документа с помощью индекса свойства
 DocumentProperty customProperty1 = customProperties[3];
  
-  //Доступ к пользовательскому свойству документа с помощью свойства name
+//Доступ к пользовательскому свойству документа с помощью имени свойства
 DocumentProperty customProperty2 = customProperties["Owner"];
 
 [VB.NET]
 
-'Создаем экземпляр объекта Workbook, вызвав его пустой конструктор
+'Создайте экземпляр объекта Workbook, вызвав его пустой конструктор
 Dim workbook As Workbook = New Workbook("book1.xls")
  
-'Получение списка всех пользовательских свойств документа Excel file
+'Получить список всех настраиваемых свойств документа файла Excel
 Dim customProperties As DocumentPropertyCollection = workbook.Worksheets.CustomDocumentProperties
  
-'Доступ к пользовательскому свойству документа с помощью свойства index
+'Доступ к пользовательскому свойству документа с помощью индекса свойства
 Dim customProperty1 As DocumentProperty = customProperties(3)
  
-'Доступ к пользовательскому свойству документа с помощью свойства name
+'Доступ к пользовательскому свойству документа с использованием имени свойства
 Dim customProperty2 As DocumentProperty = customProperties("Owner")
 
 ```

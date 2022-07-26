@@ -1,14 +1,14 @@
 ---
 title: DisplayName
 second_title: Aspose.Cells for .NET API 参考
-description: 表示数据透视字段的显示名称
+description: 表示 PivotField 显示名称
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.gridweb.data/gridpivotfield/displayname/
 ---
 ## GridPivotField.DisplayName property
 
-表示数据透视字段的显示名称。
+表示 PivotField 显示名称。
 
 ```csharp
 public string DisplayName { get; set; }

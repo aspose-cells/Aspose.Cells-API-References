@@ -1,32 +1,32 @@
 ---
 title: Aspose.Cells.ExternalConnections
 second_title: Справочник по Aspose.Cells для .NET API
-description: Содержит все классы внешних соединений.
+description: Содержит все классы внешних подключений.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.externalconnections/
 ---
-Содержит все классы внешних соединений.
+Содержит все классы внешних подключений.
 
 ## Классы
 
 | Учебный класс | Описание |
 | --- | --- |
-| [ConnectionParameter](./connectionparameter) | Задает свойства любых параметров, используемых с подключениями к внешним данным Параметры допустимы для ODBC и веб-запросов. |
-| [ConnectionParameterCollection](./connectionparametercollection) | Указывает[`ConnectionParameter`](../aspose.cells.externalconnections/connectionparameter)коллекцию |
+| [ConnectionParameter](./connectionparameter) | Указывает свойства любых параметров, используемых с подключениями к внешним данным. Параметры действительны для ODBC и веб-запросов. |
+| [ConnectionParameterCollection](./connectionparametercollection) | Указывает[`ConnectionParameter`](../aspose.cells.externalconnections/connectionparameter) коллекция |
 | [DBConnection](./dbconnection) | Задает все свойства, связанные с подключением к внешним данным ODBC или OLE DB. |
-| [ExternalConnection](./externalconnection) | Указывает внешнее соединение для передачи данных |
-| [ExternalConnectionCollection](./externalconnectioncollection) | Определяет коллекцию[`ExternalConnection`](../aspose.cells.externalconnections/externalconnection) |
-| [WebQueryConnection](./webqueryconnection) | Указывает свойства источника веб-запроса. Веб-запрос будет извлекать данные из таблиц HTML, , а также может предоставлять параметры HTTP "Get", которые будут обрабатываться веб-сервером при создании HTML с помощью включая параметры и параметр элементы. |
+| [ExternalConnection](./externalconnection) | Указывает подключение к внешним данным |
+| [ExternalConnectionCollection](./externalconnectioncollection) | Указывает[`ExternalConnection`](../aspose.cells.externalconnections/externalconnection) коллекция |
+| [WebQueryConnection](./webqueryconnection) | Указывает свойства источника веб-запроса. Веб-запрос будет извлекать данные из таблиц HTML, , а также может предоставлять параметры HTTP «Get», которые будут обрабатываться веб-сервером при создании HTML с помощью , включая параметры и элементы параметров. |
 ## перечисление
 
 | перечисление | Описание |
 | --- | --- |
 | [ConnectionDataSourceType](./connectiondatasourcetype) | Указывает тип источника внешней базы данных |
-| [ConnectionParameterType](./connectionparametertype) | Указывает тип параметра внешнего соединения |
+| [ConnectionParameterType](./connectionparametertype) | Указывает тип параметра внешнего подключения |
 | [CredentialsMethodType](./credentialsmethodtype) | Указывает метод учетных данных, используемый для доступа к серверу. |
-| [HtmlFormatHandlingType](./htmlformathandlingtype) | Указывает, как обрабатывать форматирование из источника HTML |
-| [OLEDBCommandType](./oledbcommandtype) | Задает тип команды OLE DB. |
+| [HtmlFormatHandlingType](./htmlformathandlingtype) | Указывает, как обрабатывать форматирование из исходного HTML |
+| [OLEDBCommandType](./oledbcommandtype) | Указывает тип команды OLE DB. |
 | [ReConnectionMethodType](./reconnectionmethodtype) | Указывает, что должно делать приложение для работы с электронными таблицами при сбое соединения. |
 | [SqlDataType](./sqldatatype) | Указывает тип данных SQL параметра. Допустимо только для источников ODBC. |
 

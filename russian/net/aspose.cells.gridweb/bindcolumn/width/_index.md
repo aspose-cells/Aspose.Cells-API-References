@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает наборы значений ширины столбца. Принимаются только пиксели или точки
+description: Получает наборы ширины столбца. Только пиксели или точки accept
 type: docs
 weight: 180
 url: /ru/net/aspose.cells.gridweb/bindcolumn/width/
 ---
 ## BindColumn.Width property
 
-Получает наборы значений ширины столбца. Принимаются только пиксели или точки
+Получает наборы ширины столбца. Только пиксели или точки accept
 
 ```csharp
 public Unit Width { get; set; }

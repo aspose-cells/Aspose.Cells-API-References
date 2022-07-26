@@ -26,26 +26,26 @@ public class LoadFilter
 | Имя | Описание |
 | --- | --- |
 | [LoadDataFilterOptions](../../aspose.cells/loadfilter/loaddatafilteroptions) { get; set; } | Параметры фильтра для обозначения того, какие данные должны быть загружены. |
-| virtual [SheetsInLoadingOrder](../../aspose.cells/loadfilter/sheetsinloadingorder) { get; } | Указывает листы (индексы) и порядок загрузки. Значение по умолчанию равно null, что означает загрузку всех листов в порядке по умолчанию в файле шаблона. Если не null и в возвращаемом массиве нет индекса листа, то лист не будет загружен. |
+| virtual [SheetsInLoadingOrder](../../aspose.cells/loadfilter/sheetsinloadingorder) { get; } | Указывает листы (индексы) и порядок загрузки. Значение по умолчанию равно null, что означает загрузку всех листов в порядке по умолчанию в файле шаблона. не будет загружен. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| virtual [StartSheet](../../aspose.cells/loadfilter/startsheet)(Worksheet) | Подготавливает параметры фильтра перед загрузкой данного рабочего листа. Пользовательская реализация LoadFilter может изменить здесь LoadDataFilterOptions , чтобы указать, как загружать данные для этого рабочего листа. |
+| virtual [StartSheet](../../aspose.cells/loadfilter/startsheet)(Worksheet) | Подготавливает параметры фильтра перед загрузкой данного листа. Пользовательская реализация LoadFilter может изменить LoadDataFilterOptions здесь , чтобы указать, как загружать данные для этого листа. |
 
 ### Примечания
 
-Пользователь может указать параметры фильтра или реализовать свой собственный LoadFilter, чтобы указать, как загружать данные.
+Пользователь может указать параметры фильтра или реализовать собственный LoadFilter, чтобы указать, как загружать данные.
 
 ### Примеры
 
-В следующем примере показано, как определить параметры фильтра в соответствии со свойствами листа.
+В следующем примере показано, как определить параметры фильтра в соответствии со свойствами рабочего листа.
 
 ```csharp
 [C#]
 Workbook wb = new Workbook(template, new LoadOptions() { LoadFilter = new LoadFilterSheet() });
-  //Пользовательская реализация фильтра загрузки
+//Пользовательская реализация LoadFilter
 class LoadFilterSheet : LoadFilter
 {
     public override void StartSheet(Worksheet sheet) 

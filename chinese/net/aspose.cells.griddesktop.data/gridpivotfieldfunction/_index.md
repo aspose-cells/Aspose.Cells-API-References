@@ -21,7 +21,7 @@ public enum GridPivotFieldFunction
 | Sum | `0` | 表示求和函数。 |
 | Count | `1` | 表示计数函数。 |
 | Average | `2` | 表示平均函数。 |
-| Max | `3` | 表示 Max 函数。 |
+| Max | `3` | 表示最大函数。 |
 | Min | `4` | 表示 Min 函数。 |
 | Product | `5` | 代表产品功能。 |
 | CountNums | `6` | 表示计数函数。 |

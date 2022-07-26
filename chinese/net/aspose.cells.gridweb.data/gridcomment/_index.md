@@ -28,7 +28,7 @@ public class GridComment
 | [IsVisible](../../aspose.cells.gridweb.data/gridcomment/isvisible) { get; set; } |  |
 | [Note](../../aspose.cells.gridweb.data/gridcomment/note) { get; set; } |  |
 | [Row](../../aspose.cells.gridweb.data/gridcomment/row) { get; } |  |
-| [Width](../../aspose.cells.gridweb.data/gridcomment/width) { get; set; } | 表示评论的宽度，以像素为单位。 |
+| [Width](../../aspose.cells.gridweb.data/gridcomment/width) { get; set; } | 表示注释的宽度，以像素为单位。 |
 | [WidthCM](../../aspose.cells.gridweb.data/gridcomment/widthcm) { get; set; } |  |
 | [WidthInch](../../aspose.cells.gridweb.data/gridcomment/widthinch) { get; set; } |  |
 

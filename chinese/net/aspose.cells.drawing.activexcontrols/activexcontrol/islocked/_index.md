@@ -1,14 +1,14 @@
 ---
 title: IsLocked
 second_title: Aspose.Cells for .NET API 参考
-description: 指示控件中的数据是否被锁定以进行编辑
+description: 表示控件中的数据是否被锁定编辑
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.drawing.activexcontrols/activexcontrol/islocked/
 ---
 ## ActiveXControl.IsLocked property
 
-指示控件中的数据是否被锁定以进行编辑。
+表示控件中的数据是否被锁定编辑。
 
 ```csharp
 public bool IsLocked { get; set; }

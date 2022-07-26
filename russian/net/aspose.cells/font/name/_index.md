@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает имя шрифтаFontaspose.cells/font.
+description: Получает или задает имяFontaspose.cells/font .
 type: docs
 weight: 120
 url: /ru/net/aspose.cells/font/name/
 ---
 ## Font.Name property
 
-Получает или задает имя шрифта[`Font`](../../font).
+Получает или задает имя[`Font`](../../font) .
 
 ```csharp
 public virtual string Name { get; set; }

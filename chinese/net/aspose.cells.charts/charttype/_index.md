@@ -24,15 +24,15 @@ public enum ChartType
 | Area3D | `3` | 表示 3D 面积图。 |
 | Area3DStacked | `4` | 表示 3D 堆积面积图。 |
 | Area3D100PercentStacked | `5` | 表示 3D 100% 堆积面积图。 |
-| Bar | `6` | 表示条形图:簇状条形图。 |
+| Bar | `6` | 表示条形图：簇状条形图。 |
 | BarStacked | `7` | 表示堆积条形图。 |
 | Bar100PercentStacked | `8` | 表示 100% 堆积条形图。 |
-| Bar3DClustered | `9` | 表示 3D 聚集条形图。 |
-| Bar3DStacked | `10` | 表示 3D 堆叠条形图。 |
+| Bar3DClustered | `9` | 表示 3D 聚类条形图。 |
+| Bar3DStacked | `10` | 表示 3D 堆积条形图。 |
 | Bar3D100PercentStacked | `11` | 表示 3D 100% 堆积条形图。 |
 | Bubble | `12` | 代表气泡图。 |
 | Bubble3D | `13` | 表示 3D 气泡图。 |
-| Column | `14` | 表示柱形图:簇状柱形图。 |
+| Column | `14` | 表示柱形图：簇状柱形图。 |
 | ColumnStacked | `15` | 表示堆积柱形图。 |
 | Column100PercentStacked | `16` | 表示 100% 堆积柱形图。 |
 | Column3D | `17` | 表示 3D 柱形图。 |
@@ -40,10 +40,10 @@ public enum ChartType
 | Column3DStacked | `19` | 表示 3D 堆积柱形图。 |
 | Column3D100PercentStacked | `20` | 表示 3D 100% 堆积柱形图。 |
 | Cone | `21` | 代表圆锥图。 |
-| ConeStacked | `22` | 表示堆积锥图。 |
+| ConeStacked | `22` | 表示堆积圆锥图。 |
 | Cone100PercentStacked | `23` | 表示 100% 堆积圆锥图。 |
 | ConicalBar | `24` | 表示锥形条形图。 |
-| ConicalBarStacked | `25` | 表示堆积圆锥条形图。 |
+| ConicalBarStacked | `25` | 表示堆积锥形条形图。 |
 | ConicalBar100PercentStacked | `26` | 表示 100% 堆积锥形条形图。 |
 | ConicalColumn3D | `27` | 表示 3D 圆锥柱形图。 |
 | Cylinder | `28` | 代表圆柱图。 |
@@ -54,24 +54,24 @@ public enum ChartType
 | CylindricalBar100PercentStacked | `33` | 表示 100% 堆积柱形条形图。 |
 | CylindricalColumn3D | `34` | 表示 3D 圆柱柱形图。 |
 | Doughnut | `35` | 代表圆环图。 |
-| DoughnutExploded | `36` | 代表爆炸圆环图。 |
+| DoughnutExploded | `36` | 代表爆炸的甜甜圈图。 |
 | Line | `37` | 代表折线图。 |
 | LineStacked | `38` | 表示堆积折线图。 |
 | Line100PercentStacked | `39` | 表示 100% 堆积折线图。 |
 | LineWithDataMarkers | `40` | 表示带有数据标记的折线图。 |
-| LineStackedWithDataMarkers | `41` | 表示带有数据标记的堆积折线图。 |
+| LineStackedWithDataMarkers | `41` | 表示带有数据标记的堆叠折线图。 |
 | Line100PercentStackedWithDataMarkers | `42` | 表示带有数据标记的 100% 堆叠折线图。 |
 | Line3D | `43` | 表示 3D 折线图。 |
 | Pie | `44` | 代表饼图。 |
 | Pie3D | `45` | 表示 3D 饼图。 |
-| PiePie | `46` | 表示饼图。 |
+| PiePie | `46` | 代表饼图的饼图。 |
 | PieExploded | `47` | 代表分解饼图。 |
 | Pie3DExploded | `48` | 表示 3D 分解饼图。 |
-| PieBar | `49` | 表示饼图的条形。 |
+| PieBar | `49` | 表示饼图的条形图。 |
 | Pyramid | `50` | 代表金字塔图。 |
 | PyramidStacked | `51` | 表示堆积金字塔图。 |
-| Pyramid100PercentStacked | `52` | 表示 100% 堆积金字塔图。 |
-| PyramidBar | `53` | 代表金字塔条形图。 |
+| Pyramid100PercentStacked | `52` | 表示 100% 堆叠金字塔图。 |
+| PyramidBar | `53` | 表示金字塔条形图。 |
 | PyramidBarStacked | `54` | 表示堆积金字塔条形图。 |
 | PyramidBar100PercentStacked | `55` | 表示 100% 堆积金字塔条形图。 |
 | PyramidColumn3D | `56` | 表示 3D 金字塔柱形图。 |
@@ -81,23 +81,23 @@ public enum ChartType
 | Scatter | `60` | 代表散点图。 |
 | ScatterConnectedByCurvesWithDataMarker | `61` | 表示由曲线连接的散点图，带有数据标记。 |
 | ScatterConnectedByCurvesWithoutDataMarker | `62` | 表示由曲线连接的散点图，没有数据标记。 |
-| ScatterConnectedByLinesWithDataMarker | `63` | 表示以线连接的散点图，带有数据标记。 |
+| ScatterConnectedByLinesWithDataMarker | `63` | 表示散点图，用线连接，带有数据标记。 |
 | ScatterConnectedByLinesWithoutDataMarker | `64` | 表示由线连接的散点图，没有数据标记。 |
-| StockHighLowClose | `65` | 代表高低收盘。 |
+| StockHighLowClose | `65` | 代表高低收盘走势图。 |
 | StockOpenHighLowClose | `66` | 代表开-高-低-收盘。 |
 | StockVolumeHighLowClose | `67` | 代表成交量-高-低-收盘图表。 |
 | StockVolumeOpenHighLowClose | `68` | 代表成交量-开-高-低-收盘。 |
-| Surface3D | `69` | 代表Surface Chart:3D Surface Chart。 |
+| Surface3D | `69` | 代表Surface Chart：3D Surface Chart. |
 | SurfaceWireframe3D | `70` | 表示线框 3D 曲面图。 |
 | SurfaceContour | `71` | 代表等高线图。 |
-| SurfaceContourWireframe | `72` | 表示线框轮廓图。 |
-| BoxWhisker | `73` | 该系列布局为盒子和晶须。 |
+| SurfaceContourWireframe | `72` | 表示线框等高线图。 |
+| BoxWhisker | `73` | 系列布局为盒子和胡须。 |
 | Funnel | `74` | 该系列被布置为漏斗。 |
-| ParetoLine | `75` | 该系列布局为帕累托线。 |
+| ParetoLine | `75` | 系列被布置为帕累托线。 |
 | Sunburst | `76` | 该系列被布置为旭日形。 |
-| Treemap | `77` | 该系列被布置为树状图。 |
-| Waterfall | `78` | 该系列被布置为瀑布。 |
-| Histogram | `79` | 该系列以直方图形式排列。 |
+| Treemap | `77` | 系列被布置为树状图。 |
+| Waterfall | `78` | 该系列被布置成瀑布。 |
+| Histogram | `79` | 系列被布置为直方图。 |
 | Map | `80` | 系列被布置为区域地图。 |
 | RadialHistogram | `81` | 该系列被布置为径向直方图。它仅用于渲染 |
 

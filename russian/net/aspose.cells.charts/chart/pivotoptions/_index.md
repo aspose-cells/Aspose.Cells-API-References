@@ -1,14 +1,14 @@
 ---
 title: PivotOptions
 second_title: Справочник по Aspose.Cells для .NET API
-description: Определяет элементы управления поворотом которые появляются на графике
+description: Определяет элементы управления поворотом которые появляются на диаграмме
 type: docs
 weight: 240
 url: /ru/net/aspose.cells.charts/chart/pivotoptions/
 ---
 ## Chart.PivotOptions property
 
-Определяет элементы управления поворотом, которые появляются на графике
+Определяет элементы управления поворотом, которые появляются на диаграмме
 
 ```csharp
 public PivotOptions PivotOptions { get; }

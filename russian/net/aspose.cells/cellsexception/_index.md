@@ -1,14 +1,14 @@
 ---
 title: CellsException
 second_title: Справочник по Aspose.Cells для .NET API
-description: Исключение возникающее при возникновении указанной ошибки Aspose.Cells.
+description: Исключение которое возникает при возникновении указанной ошибки Aspose.Cells.
 type: docs
 weight: 330
 url: /ru/net/aspose.cells/cellsexception/
 ---
 ## CellsException class
 
-Исключение, возникающее при возникновении указанной ошибки Aspose.Cells.
+Исключение, которое возникает при возникновении указанной ошибки Aspose.Cells.
 
 ```csharp
 public class CellsException : ApplicationException

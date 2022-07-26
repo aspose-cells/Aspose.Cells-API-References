@@ -1,14 +1,14 @@
 ---
 title: ExportDataTableAsString
 second_title: Aspose.Cells for .NET API 参考
-description: 将Cellsaspose.cells/cells集合中的数据导出到DataTable目的
+description: 导出数据Cellsaspose.cells/cells收集到DataTable对象.
 type: docs
 weight: 620
 url: /zh/net/aspose.cells/cells/exportdatatableasstring/
 ---
 ## ExportDataTableAsString(int, int, int, int) {#exportdatatableasstring}
 
-将[`Cells`](../../cells)集合中的数据导出到DataTable目的。
+导出数据[`Cells`](../../cells)收集到DataTable对象.
 
 ```csharp
 public DataTable ExportDataTableAsString(int firstRow, int firstColumn, int totalRows, 
@@ -24,11 +24,11 @@ public DataTable ExportDataTableAsString(int firstRow, int firstColumn, int tota
 
 ### 返回值
 
-导出DataTable对象。
+出口DataTable目的。
 
 ### 评论
 
-[`Cells`](../../cells)集合中的所有数据都转换为字符串。
+中的所有数据[`Cells`](../../cells)集合被转换为字符串。
 
 ### 也可以看看
 
@@ -40,7 +40,7 @@ public DataTable ExportDataTableAsString(int firstRow, int firstColumn, int tota
 
 ## ExportDataTableAsString(int, int, int, int, bool) {#exportdatatableasstring_1}
 
-将[`Cells`](../../cells)集合中的数据导出到DataTable目的。
+导出数据[`Cells`](../../cells)收集到DataTable对象.
 
 ```csharp
 public DataTable ExportDataTableAsString(int firstRow, int firstColumn, int totalRows, 
@@ -53,15 +53,15 @@ public DataTable ExportDataTableAsString(int firstRow, int firstColumn, int tota
 | firstColumn | Int32 | 要导出的第一个单元格的列号。 |
 | totalRows | Int32 | 要导入的行数。 |
 | totalColumns | Int32 | 要导入的列数。 |
-| exportColumnName | Boolean | 表示第一行的数据是否导出到DataTable的列名。 |
+| exportColumnName | Boolean | 指示是否将第一行中的数据导出到 DataTable 的列名。 |
 
 ### 返回值
 
-导出DataTable对象。
+出口DataTable目的。
 
 ### 评论
 
-[`Cells`](../../cells)集合中的所有数据都转换为字符串。
+中的所有数据[`Cells`](../../cells)集合被转换为字符串。
 
 ### 也可以看看
 

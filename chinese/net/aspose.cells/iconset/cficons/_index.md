@@ -1,14 +1,14 @@
 ---
 title: CfIcons
 second_title: Aspose.Cells for .NET API 参考
-description: 从集合
+description: 获取ConditionalFormattingIconaspose.cells/conditionalformattingicon来自集合
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/iconset/cficons/
 ---
 ## IconSet.CfIcons property
 
-从集合
+获取[`ConditionalFormattingIcon`](../../conditionalformattingicon)来自集合
 
 ```csharp
 public ConditionalFormattingIconCollection CfIcons { get; }

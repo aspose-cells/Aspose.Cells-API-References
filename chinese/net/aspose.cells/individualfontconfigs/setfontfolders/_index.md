@@ -16,7 +16,7 @@ public void SetFontFolders(string[] fontFolders, bool recursive)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fontFolders | String[] | 包含 TrueType 字体的文件夹. |
+| fontFolders | String[] | 包含 TrueType 字体的文件夹。 |
 | recursive | Boolean | 确定是否扫描子文件夹。 |
 
 ### 也可以看看

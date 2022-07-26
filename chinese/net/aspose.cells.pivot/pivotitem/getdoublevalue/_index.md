@@ -1,14 +1,14 @@
 ---
 title: GetDoubleValue
 second_title: Aspose.Cells for .NET API 参考
-description: 获取枢轴项的双精度值 如果值为空或非数字则返回 0
+description: 获取pivot item的double值 如果值为null或者不是number则返回0
 type: docs
 weight: 90
 url: /zh/net/aspose.cells.pivot/pivotitem/getdoublevalue/
 ---
 ## PivotItem.GetDoubleValue method
 
-获取枢轴项的双精度值 如果值为空或非数字，则返回 0
+获取pivot item的double值 如果值为null或者不是number，则返回0
 
 ```csharp
 public double GetDoubleValue()

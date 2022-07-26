@@ -1,14 +1,14 @@
 ---
 title: StartFormatPainter
 second_title: Aspose.Cells for .NET API 参考
-description: 通知 GridDesktop 启动 FormatPainter
+description: 通知 GridDesktop 启动 FormatPainter.
 type: docs
 weight: 800
 url: /zh/net/aspose.cells.griddesktop/griddesktop/startformatpainter/
 ---
 ## GridDesktop.StartFormatPainter method
 
-通知 GridDesktop 启动 FormatPainter。
+通知 GridDesktop 启动 FormatPainter.
 
 ```csharp
 public void StartFormatPainter(bool formatOnce)
@@ -16,7 +16,7 @@ public void StartFormatPainter(bool formatOnce)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| formatOnce | Boolean | 如果 formatOnce 为真，FormatPainter 可以使用一次， if formatOnce 为 false，FormatPainter 可以多次使用，直到调用 EndFormatPainter()。 |
+| formatOnce | Boolean | 如果formatOnce为真，FormatPainter可以使用一次， 如果formatOnce为假，FormatPainter可以多次使用，直到调用EndFormatPainter()。 |
 
 ### 例子
 

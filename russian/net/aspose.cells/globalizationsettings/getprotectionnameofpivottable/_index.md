@@ -16,7 +16,7 @@ public virtual string GetProtectionNameOfPivotTable()
 
 ### Возвращаемое значение
 
-Имя защиты сводной таблицы
+Защитное имя сводной таблицы
 
 ### Смотрите также
 

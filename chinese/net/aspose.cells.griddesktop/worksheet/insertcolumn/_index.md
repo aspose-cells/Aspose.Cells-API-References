@@ -16,7 +16,7 @@ public void InsertColumn(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 插入列索引。 |
+| index | Int32 | 插入列的索引。 |
 
 ### 也可以看看
 

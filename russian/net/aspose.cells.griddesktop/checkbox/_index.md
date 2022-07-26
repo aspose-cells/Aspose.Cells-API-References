@@ -18,7 +18,7 @@ public class CheckBox : CellControl
 
 | Имя | Описание |
 | --- | --- |
-| [Checked](../../aspose.cells.griddesktop/checkbox/checked) { get; set; } | Получает или задает значение, указывающее, установлен ли флажок. |
+| [Checked](../../aspose.cells.griddesktop/checkbox/checked) { get; set; } | Получает или задает значение, указывающее, находится ли флажок в установленном состоянии. |
 | [Text](../../aspose.cells.griddesktop/cellcontrol/text) { get; set; } | Получает или задает текст, связанный с этим элементом управления. |
 
 ### Смотрите также

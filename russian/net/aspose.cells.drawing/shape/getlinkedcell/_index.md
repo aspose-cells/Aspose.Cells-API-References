@@ -28,7 +28,7 @@ public string GetLinkedCell(bool isR1C1, bool isLocal)
 ```csharp
 
 [C#]
-  //Вы можете получить такие результаты, как '$A$1'
+//Вы можете получить такие результаты, как '$A$1'
 string link = shape.GetLinkedCell(false, false);
 ```
 

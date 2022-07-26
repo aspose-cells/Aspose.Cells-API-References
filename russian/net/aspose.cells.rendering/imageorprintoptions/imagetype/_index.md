@@ -1,14 +1,14 @@
 ---
 title: ImageType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает формат сгенерированных изображений. значение по умолчаниюPNG.
+description: Получает или задает формат сгенерированных изображений. значение по умолчанию PNG.
 type: docs
 weight: 130
 url: /ru/net/aspose.cells.rendering/imageorprintoptions/imagetype/
 ---
 ## ImageOrPrintOptions.ImageType property
 
-Получает или задает формат сгенерированных изображений. значение по умолчанию:PNG.
+Получает или задает формат сгенерированных изображений. значение по умолчанию: PNG.
 
 ```csharp
 public ImageType ImageType { get; set; }

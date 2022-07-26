@@ -1,14 +1,14 @@
 ---
 title: SaveToHtml
 second_title: Справочник по Aspose.Cells для .NET API
-description: Сохраняет рабочие листы в путь к файлу формат сохранения - html
+description: Сохраняет рабочие листы по пути к файлу формат сохранения  html
 type: docs
 weight: 150
 url: /ru/net/aspose.cells.gridjs/gridjsworkbook/savetohtml/
 ---
 ## SaveToHtml(string) {#savetohtml_1}
 
-Сохраняет рабочие листы в путь к файлу, формат сохранения - html
+Сохраняет рабочие листы по пути к файлу, формат сохранения — html
 
 ```csharp
 public void SaveToHtml(string path)
@@ -28,7 +28,7 @@ public void SaveToHtml(string path)
 
 ## SaveToHtml(Stream) {#savetohtml}
 
-Сохраняет листы в поток, формат сохранения - html
+Сохраняет листы в поток, формат сохранения html
 
 ```csharp
 public void SaveToHtml(Stream stream)

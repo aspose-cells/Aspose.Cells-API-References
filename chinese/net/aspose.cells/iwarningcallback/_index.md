@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells/iwarningcallback/
 ---
 ## IWarningCallback interface
 
-警告回调接口。
+警告回调接口
 
 ```csharp
 public interface IWarningCallback

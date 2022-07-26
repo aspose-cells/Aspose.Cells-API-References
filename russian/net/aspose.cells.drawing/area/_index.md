@@ -18,9 +18,9 @@ public class Area
 
 | Имя | Описание |
 | --- | --- |
-| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor) { get; set; } | Получает или устанавливает фонColorдляОбласть. |
+| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor) { get; set; } | Получает или устанавливает фонColor принадлежащий[`Area`](../area) . |
 | [FillFormat](../../aspose.cells.drawing/area/fillformat) { get; } | Представляет объект, содержащий свойства форматирования заливки для указанной диаграммы или фигуры. |
-| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor) { get; set; } | Получает или задает передний планColor. |
+| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor) { get; set; } | Получает или устанавливает передний планColor . |
 | [Formatting](../../aspose.cells.drawing/area/formatting) { get; set; } | Представляет форматирование области. |
 | [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative) { get; set; } | Если свойство истинно и значение точки диаграммы является отрицательным числом, цвет переднего плана и цвет фона будут заменены местами. |
 | [Transparency](../../aspose.cells.drawing/area/transparency) { get; set; } | Возвращает или задает степень прозрачности области в виде значения от 0,0 (непрозрачная) до 1,0 (прозрачная). |
@@ -30,66 +30,66 @@ public class Area
 ```csharp
 
 [C#]
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
-  //Добавление нового рабочего листа в рабочую книгу object
+//Добавление нового рабочего листа в объект Workbook
 int sheetIndex = workbook.Worksheets.Add();
-  //Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
+//Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
 Worksheet worksheet = workbook.Worksheets[sheetIndex];
-  //Добавление значения выборки в "A1" cell
+//Добавление пробного значения в ячейку "A1"
 worksheet.Cells["A1"].PutValue(50);
-//Добавление значения образца в "A2" cell
+//Добавление образца значения в ячейку "A2"
 worksheet.Cells["A2"].PutValue(100);
-  //Добавление значения образца в "A3" cell
+//Добавление образца значения в ячейку "A3"
 worksheet.Cells["A3"].PutValue(150);
-  //Добавление образца значения в "B1" cell
+//Добавление образца значения в ячейку "B1"
 worksheet.Cells["B1"].PutValue(60);
-  //Добавление значения образца в "B2" cell
+//Добавление образца значения в ячейку "B2"
 worksheet.Cells["B2"].PutValue(32);
-  //Добавление значения образца в "B3" cell
+//Добавление образца значения в ячейку "B3"
 worksheet.Cells["B3"].PutValue(50);
-  //Добавление диаграммы на лист
+//Добавляем диаграмму на рабочий лист
 int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-  //Доступ к экземпляру только что добавленного chart
+//Доступ к экземпляру только что добавленного графика
 Chart chart = worksheet.Charts[chartIndex];
-  //Добавление NSeries (источника данных диаграммы) на диаграмму в диапазоне от ячейки "A1" до "B3"
+//Добавление NSeries (источника данных диаграммы) на диаграмму в диапазоне от ячейки "A1" до "B3"
 chart.NSeries.Add("A1:B3", true);
-   //Установка цвета переднего плана графика area
+//Установка цвета переднего плана области графика
 chart.PlotArea.Area.ForegroundColor = Color.Blue;
-   //Установка цвета переднего плана графика area
+//Установка цвета переднего плана области графика
 chart.ChartArea.Area.ForegroundColor = Color.Yellow;
-  //Установка цвета переднего плана 1-го NSeries area
+//Установка цвета переднего плана 1-й области NSeries
 chart.NSeries[0].Area.ForegroundColor = Color.Red;
-  //Установка цвета переднего плана области 1-го NSeries point
+//Установка цвета переднего плана области 1-й точки NSeries
 chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
-  //Сохранение файла Excel
+//Сохранение файла Excel
 workbook.Save("book1.xls");
 
 [Visual Basic]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
-'Добавление нового рабочего листа в рабочую книгу object
+'Добавление нового рабочего листа в объект Workbook
 Dim sheetIndex As Integer = workbook.Worksheets.Add()
-'Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
+'Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
 Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
-'Добавление значения выборки в "A1" cell
+'Adding a sample value to "A1" cell
 worksheet.Cells("A1").PutValue(50)
-'Добавление значения выборки в "A2" cell
+'Adding a sample value to "A2" cell
 worksheet.Cells("A2").PutValue(100)
-'Добавление значения выборки в "A3" cell
+'Adding a sample value to "A3" cell
 worksheet.Cells("A3").PutValue(150)
-'Добавление значения выборки в "B1" cell
+'Adding a sample value to "B1" cell
 worksheet.Cells("B1").PutValue(60)
-'Добавление значения выборки в "B2" cell
+'Adding a sample value to "B2" cell
 worksheet.Cells("B2").PutValue(32)
-'Добавление значения выборки в "B3" cell
+'Adding a sample value to "B3" cell
 worksheet.Cells("B3").PutValue(50)
-'Добавление диаграммы на лист
+'Добавление диаграммы на рабочий лист
 Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5)
-'Доступ к экземпляру только что добавленного chart
+'Доступ к экземпляру вновь добавленной диаграммы
 Dim chart As Chart = worksheet.Charts(chartIndex)
-'Добавление NSeries (источника данных диаграммы) на диаграмму в диапазоне от ячейки "A1" до "B3"
+'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
 chart.NSeries.Add("A1:B3", True)
 'Установка цвета переднего плана области графика
 chart.PlotArea.Area.ForegroundColor = Color.Blue

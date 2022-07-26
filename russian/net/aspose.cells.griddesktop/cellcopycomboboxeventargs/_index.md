@@ -1,14 +1,14 @@
 ---
 title: CellCopyComboBoxEventArgs
 second_title: Справочник по Aspose.Cells для .NET API
-description: Предоставляет данные для событий ComboBox копирования ячеек.
+description: Предоставляет данные для событий ComboBox копирования ячейки.
 type: docs
 weight: 100
 url: /ru/net/aspose.cells.griddesktop/cellcopycomboboxeventargs/
 ---
 ## CellCopyComboBoxEventArgs class
 
-Предоставляет данные для событий ComboBox копирования ячеек.
+Предоставляет данные для событий ComboBox копирования ячейки.
 
 ```csharp
 public class CellCopyComboBoxEventArgs : EventArgs
@@ -19,8 +19,8 @@ public class CellCopyComboBoxEventArgs : EventArgs
 | Имя | Описание |
 | --- | --- |
 | [Column](../../aspose.cells.griddesktop/cellcopycomboboxeventargs/column) { get; } | Получает индекс столбца рабочего листа. |
-| [ComboBoxItems](../../aspose.cells.griddesktop/cellcopycomboboxeventargs/comboboxitems) { get; } | Получает объект, представляющий набор элементов, содержащихся в этом поле со списком. |
-| [comboBoxValues](../../aspose.cells.griddesktop/cellcopycomboboxeventargs/comboboxvalues) { get; } | Получает объект, представляющий набор значений, содержащихся в этом поле со списком. |
+| [ComboBoxItems](../../aspose.cells.griddesktop/cellcopycomboboxeventargs/comboboxitems) { get; } | Получает объект, представляющий набор элементов, содержащихся в этом ComboBox. |
+| [comboBoxValues](../../aspose.cells.griddesktop/cellcopycomboboxeventargs/comboboxvalues) { get; } | Получает объект, представляющий набор значений, содержащихся в этом ComboBox. |
 | [Handled](../../aspose.cells.griddesktop/cellcopycomboboxeventargs/handled) { get; set; } | Получает или задает значение, указывающее, следует ли обрабатывать событие. |
 | [Row](../../aspose.cells.griddesktop/cellcopycomboboxeventargs/row) { get; } | Получает индекс строки рабочего листа. |
 

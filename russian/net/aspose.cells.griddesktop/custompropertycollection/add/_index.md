@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет информацию о пользовательских свойствах.
+description: Добавляет информацию о пользовательском свойстве.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.griddesktop/custompropertycollection/add/
 ---
 ## CustomPropertyCollection.Add method
 
-Добавляет информацию о пользовательских свойствах.
+Добавляет информацию о пользовательском свойстве.
 
 ```csharp
 public int Add(string name, string value)

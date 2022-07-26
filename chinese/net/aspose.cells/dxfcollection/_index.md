@@ -1,14 +1,14 @@
 ---
 title: DxfCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示主差分格式记录
+description: 代表主差分格式化记录
 type: docs
 weight: 3120
 url: /zh/net/aspose.cells/dxfcollection/
 ---
 ## DxfCollection class
 
-表示主差分格式记录。
+代表主差分格式化记录。
 
 ```csharp
 public class DxfCollection : CollectionBase<Style>

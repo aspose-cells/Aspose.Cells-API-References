@@ -1,14 +1,14 @@
 ---
 title: RevisionCellComment
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет запись ревизии изменения комментария к ячейке.
+description: Представляет запись редакции изменения комментария к ячейке.
 type: docs
 weight: 5360
 url: /ru/net/aspose.cells.revisions/revisioncellcomment/
 ---
 ## RevisionCellComment class
 
-Представляет запись ревизии изменения комментария к ячейке.
+Представляет запись редакции изменения комментария к ячейке.
 
 ```csharp
 public class RevisionCellComment : Revision
@@ -18,12 +18,12 @@ public class RevisionCellComment : Revision
 
 | Имя | Описание |
 | --- | --- |
-| [ActionType](../../aspose.cells.revisions/revisioncellcomment/actiontype) { get; } | Получает тип действия редакции. |
+| [ActionType](../../aspose.cells.revisions/revisioncellcomment/actiontype) { get; } | Получает тип действия ревизии. |
 | [CellName](../../aspose.cells.revisions/revisioncellcomment/cellname) { get; set; } | Получает имя ячейки. |
 | [Column](../../aspose.cells.revisions/revisioncellcomment/column) { get; } | Получает индекс столбца, содержащего комментарий. |
 | [Id](../../aspose.cells.revisions/revision/id) { get; } | Получает номер этой версии. |
 | [IsOldComment](../../aspose.cells.revisions/revisioncellcomment/isoldcomment) { get; } | Указывает, является ли комментарий старым. |
-| [NewLength](../../aspose.cells.revisions/revisioncellcomment/newlength) { get; } | Получает длину комментария до внесения этой редакции. |
+| [NewLength](../../aspose.cells.revisions/revisioncellcomment/newlength) { get; } | Получает длину комментария до того, как была сделана эта редакция. |
 | [OldLength](../../aspose.cells.revisions/revisioncellcomment/oldlength) { get; } | Получает длину текста комментария, добавленного в эту ревизию. |
 | [Row](../../aspose.cells.revisions/revisioncellcomment/row) { get; } | Получает индекс строки, содержащей комментарий. |
 | override [Type](../../aspose.cells.revisions/revisioncellcomment/type) { get; } | Получает тип редакции. |

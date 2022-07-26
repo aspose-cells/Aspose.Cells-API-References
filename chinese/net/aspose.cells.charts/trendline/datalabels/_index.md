@@ -1,14 +1,14 @@
 ---
 title: DataLabels
 second_title: Aspose.Cells for .NET API 参考
-description: 表示指定 ASeries 的 DataLabels 对象
+description: 表示指定系列的 DataLabels 对象
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.charts/trendline/datalabels/
 ---
 ## Trendline.DataLabels property
 
-表示指定 ASeries 的 DataLabels 对象。
+表示指定系列的 DataLabels 对象。
 
 ```csharp
 public DataLabels DataLabels { get; }

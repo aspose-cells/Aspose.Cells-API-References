@@ -26,7 +26,7 @@ public enum TotalsCalculation
 | Var | `8` | 表示 Var 总计计算。 |
 | CountNums | `3` | 表示 Count Nums 总计计算。 |
 | StdDev | `7` | 表示 StdDev 总计计算。 |
-| None | `0` | 表示无总计计算。 |
+| None | `0` | 表示没有总计计算。 |
 | Custom | `9` | 表示自定义计算。 |
 
 ### 也可以看看

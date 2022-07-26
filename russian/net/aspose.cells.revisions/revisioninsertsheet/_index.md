@@ -1,14 +1,14 @@
 ---
 title: RevisionInsertSheet
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет запись ревизии листа который был вставлен.
+description: Представляет запись редакции вставленного листа.
 type: docs
 weight: 5430
 url: /ru/net/aspose.cells.revisions/revisioninsertsheet/
 ---
 ## RevisionInsertSheet class
 
-Представляет запись ревизии листа, который был вставлен.
+Представляет запись редакции вставленного листа.
 
 ```csharp
 public class RevisionInsertSheet : Revision
@@ -18,10 +18,10 @@ public class RevisionInsertSheet : Revision
 
 | Имя | Описание |
 | --- | --- |
-| [ActionType](../../aspose.cells.revisions/revisioninsertsheet/actiontype) { get; } | Получает тип действия редакции. |
+| [ActionType](../../aspose.cells.revisions/revisioninsertsheet/actiontype) { get; } | Получает тип действия ревизии. |
 | [Id](../../aspose.cells.revisions/revision/id) { get; } | Получает номер этой версии. |
-| [Name](../../aspose.cells.revisions/revisioninsertsheet/name) { get; } | Получает имя листа. |
-| [SheetPosition](../../aspose.cells.revisions/revisioninsertsheet/sheetposition) { get; } | Получает отсчитываемую от нуля позицию нового листа на панели вкладок листа. |
+| [Name](../../aspose.cells.revisions/revisioninsertsheet/name) { get; } | Получает имя рабочего листа. |
+| [SheetPosition](../../aspose.cells.revisions/revisioninsertsheet/sheetposition) { get; } | Получает нулевое положение нового листа на панели вкладок листа. |
 | override [Type](../../aspose.cells.revisions/revisioninsertsheet/type) { get; } | Получает тип редакции. |
 | [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Получает рабочий лист. |
 

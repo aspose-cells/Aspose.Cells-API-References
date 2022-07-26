@@ -1,14 +1,14 @@
 ---
 title: SheetName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает имя рабочего листа в котором находится функция.
+description: Получает имя листа на котором находится функция.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.gridjs/gridcalculationdata/sheetname/
 ---
 ## GridCalculationData.SheetName property
 
-Получает имя рабочего листа, в котором находится функция.
+Получает имя листа, на котором находится функция.
 
 ```csharp
 public string SheetName { get; }

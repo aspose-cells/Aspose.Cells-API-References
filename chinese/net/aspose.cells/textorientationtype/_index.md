@@ -19,9 +19,9 @@ public enum TextOrientationType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | ClockWise | `0` | 将文本顺时针旋转 90 度。 |
-| CounterClockWise | `1` | 逆时针旋转文本 90 度。 |
+| CounterClockWise | `1` | 将文本逆时针旋转 90 度。 |
 | NoRotation | `2` | 表示默认值。 |
-| TopToBottom | `3` | 从单元格的顶部到底部显示文本。堆叠的文本。 |
+| TopToBottom | `3` | 从单元格的顶部到底部显示文本。堆叠文本. |
 
 ### 也可以看看
 

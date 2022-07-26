@@ -33,7 +33,7 @@ public class WriteProtection
 
 | Имя | Описание |
 | --- | --- |
-| [ValidatePassword](../../aspose.cells/writeprotection/validatepassword)(string) | Возвращает true, если указанный пароль совпадает с паролем защиты от записи, которым был защищен файл. |
+| [ValidatePassword](../../aspose.cells/writeprotection/validatepassword)(string) | Возвращает значение true, если указанный пароль совпадает с паролем защиты от записи, которым был защищен файл. |
 
 ### Смотрите также
 

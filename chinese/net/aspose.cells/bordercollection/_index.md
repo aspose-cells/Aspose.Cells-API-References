@@ -1,14 +1,14 @@
 ---
 title: BorderCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装Border./border对象的集合
+description: 封装了一个集合Border./border对象.
 type: docs
 weight: 150
 url: /zh/net/aspose.cells/bordercollection/
 ---
 ## BorderCollection class
 
-封装[`Border`](../border)对象的集合。
+封装了一个集合[`Border`](../border)对象.
 
 ```csharp
 public class BorderCollection
@@ -18,15 +18,15 @@ public class BorderCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DiagonalColor](../../aspose.cells/bordercollection/diagonalcolor) { get; set; } | 获取或设置对角线的Color。 |
+| [DiagonalColor](../../aspose.cells/bordercollection/diagonalcolor) { get; set; } | 获取或设置Color对角线. |
 | [DiagonalStyle](../../aspose.cells/bordercollection/diagonalstyle) { get; set; } | 获取或设置对角线的样式。 |
-| [Item](../../aspose.cells/bordercollection/item) { get; } | 获取指定索引处的[`Border`](../border)元素。 |
+| [Item](../../aspose.cells/bordercollection/item) { get; } | 获取[`Border`](../border)指定索引处的元素。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SetColor](../../aspose.cells/bordercollection/setcolor)(Color) | 设置集合中所有边框的Color。 |
+| [SetColor](../../aspose.cells/bordercollection/setcolor)(Color) | 设置Color集合中的所有边框。 |
 | [SetStyle](../../aspose.cells/bordercollection/setstyle)(CellBorderType) | 设置集合所有边框的样式。 |
 
 ### 例子
@@ -35,18 +35,16 @@ public class BorderCollection
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 
- //向Excel对象添加新工作表
+//向Excel对象添加一个新的工作表
 workbook.Worksheets.Add();
 
- //通过传入其sheet index
-et的引用
+//通过传入工作表的索引来获取新添加的工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
 
-//从worksheet
-
+//访问工作表中的“A1”单元格
 Cell cell = worksheet.Cells["A1"];
 
 //向“A1”单元格添加一些值
@@ -54,50 +52,50 @@ cell.PutValue("Visit Aspose!");
 
 Style style = cell.GetStyle();
 
- //设置上边框的线条样式
+//设置上边框的线条样式
 style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thick;
 
- //设置上边框的颜色
+//设置上边框的颜色
 style.Borders[BorderType.TopBorder].Color = Color.Black;
 
 //设置下边框的线条样式
 style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thick;
 
- //设置下边框的颜色
+//设置下边框的颜色
 style.Borders[BorderType.BottomBorder].Color = Color.Black;
 
- //设置左边框的线条样式
+//设置左边框的线条样式
 style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thick;
 
- //设置左边框的颜色
+//设置左边框颜色
 style.Borders[BorderType.LeftBorder].Color = Color.Black;
 
- //设置右边框的线型
+//设置右边框的线型
 style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thick;
 
- //设置右边框的颜色
+//设置右边框的颜色
 style.Borders[BorderType.RightBorder].Color = Color.Black;
 
 cell.SetStyle(style);
 
- //保存Excel文件
+//保存Excel文件
 workbook.Save("book1.xls");
 
 [VB.NET]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 
 '将新工作表添加到 Workbook 对象
 workbook.Worksheets.Add()
 
-'通过传递其工作表索引来获取新添加工作表的引用
+'通过传入工作表的索引来获取新添加的工作表的引用
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-'从工作表访问“A1”单元格
+'Accessing the "A1" cell from the worksheet
 Dim cell As Cell = worksheet.Cells("A1")
 
-'增加一些价值 "A1" cell
+'Adding some value to the "A1" cell
 cell.PutValue("Visit Aspose!")
 
 Dim style as Style = cell.GetStyle()

@@ -1,14 +1,14 @@
 ---
 title: WebExtensionCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示网络扩展列表
+description: 代表网络扩展列表
 type: docs
 weight: 6400
 url: /zh/net/aspose.cells.webextensions/webextensioncollection/
 ---
 ## WebExtensionCollection class
 
-表示网络扩展列表。
+代表网络扩展列表。
 
 ```csharp
 public class WebExtensionCollection : CollectionBase<WebExtension>
@@ -53,7 +53,7 @@ public class WebExtensionCollection : CollectionBase<WebExtension>
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(WebExtension) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(WebExtension, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(WebExtension, int, int) |  |
-| [RemoveAt](../../aspose.cells.webextensions/webextensioncollection/removeat#removeat)(int) | 按索引删除 Web 扩展。 (2 methods) |
+| [RemoveAt](../../aspose.cells.webextensions/webextensioncollection/removeat#removeat)(int) | 按索引删除网络扩展。 (2 methods) |
 
 ### 也可以看看
 

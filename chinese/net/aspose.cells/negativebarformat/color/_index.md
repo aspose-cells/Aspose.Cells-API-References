@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置可用于指定负数据条的填充颜色的 FormatColor 对象
+description: 获取或设置一个 FormatColor 对象您可以使用该对象指定负数据条的填充颜色
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/negativebarformat/color/
 ---
 ## NegativeBarFormat.Color property
 
-获取或设置可用于指定负数据条的填充颜色的 FormatColor 对象。
+获取或设置一个 FormatColor 对象，您可以使用该对象指定负数据条的填充颜色。
 
 ```csharp
 public Color Color { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: GetCalculatedFieldFormula
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定计算字段的公式字符串
+description: 获取指定计算字段的公式字符串.
 type: docs
 weight: 420
 url: /zh/net/aspose.cells.pivot/pivotfield/getcalculatedfieldformula/
 ---
 ## PivotField.GetCalculatedFieldFormula method
 
-获取指定计算字段的公式字符串。
+获取指定计算字段的公式字符串.
 
 ```csharp
 public string GetCalculatedFieldFormula()

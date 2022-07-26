@@ -1,14 +1,14 @@
 ---
 title: GetRowOutlineLevel
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает уровень структуры строки.
+description: Получает уровень контура строки.
 type: docs
 weight: 480
 url: /ru/net/aspose.cells.gridweb.data/gridcells/getrowoutlinelevel/
 ---
 ## GridCells.GetRowOutlineLevel method
 
-Получает уровень структуры строки.
+Получает уровень контура строки.
 
 ```csharp
 public int GetRowOutlineLevel(int rowIndex)
@@ -20,7 +20,7 @@ public int GetRowOutlineLevel(int rowIndex)
 
 ### Возвращаемое значение
 
-уровень структуры.
+уровень контура.
 
 ### Смотрите также
 

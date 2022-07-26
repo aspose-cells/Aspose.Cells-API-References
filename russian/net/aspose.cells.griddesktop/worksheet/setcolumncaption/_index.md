@@ -1,14 +1,14 @@
 ---
 title: SetColumnCaption
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает заголовок для столбца. Обратите внимание что это атрибут расширения который нельзя сохранить в файле Excel
+description: Устанавливает заголовок для столбца. Обратите внимание что это атрибут расширения который нельзя сохранить в файле excel
 type: docs
 weight: 1010
 url: /ru/net/aspose.cells.griddesktop/worksheet/setcolumncaption/
 ---
 ## Worksheet.SetColumnCaption method
 
-Устанавливает заголовок для столбца. Обратите внимание, что это атрибут расширения, который нельзя сохранить в файле Excel
+Устанавливает заголовок для столбца. Обратите внимание, что это атрибут расширения, который нельзя сохранить в файле excel
 
 ```csharp
 public void SetColumnCaption(int column, string caption)

@@ -16,7 +16,7 @@ public int RotationAngle { get; set; }
 
 ### 评论
 
-&lt;br&gt;0:未旋转。&lt;/br&gt;&lt;br&gt;255:从上到下。&lt;/br&gt;&lt;br &gt;-90:向下。&lt;/br&gt;&lt;br&gt;90:向上。&lt;/br&gt;
+0：不旋转。255：从上到下。-90：向下。90：向上
 
 ### 也可以看看
 

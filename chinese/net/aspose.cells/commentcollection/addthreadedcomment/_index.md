@@ -44,7 +44,7 @@ public int AddThreadedComment(string cellName, string text, ThreadedCommentAutho
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cellName | String | 单元的名称。 |
+| cellName | String | 单元格的名称。 |
 | text | String | 评论的文本 |
 | author | ThreadedCommentAuthor | 此线程评论的用户。 |
 

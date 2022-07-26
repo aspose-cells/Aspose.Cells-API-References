@@ -1,14 +1,14 @@
 ---
 title: DiagonalColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задаетColorдиагональных линий.
+description: Получает или задаетColor диагональных линий.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/bordercollection/diagonalcolor/
 ---
 ## BorderCollection.DiagonalColor property
 
-Получает или задаетColorдиагональных линий.
+Получает или задаетColor диагональных линий.
 
 ```csharp
 public Color DiagonalColor { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: IsHFDiffOddEven
 second_title: Справочник по Aspose.Cells для .NET API
-description: True означает что верхний/нижний колонтитулы нечетных страниц отличаются для нечетных страниц.
+description: True означает что верхний/нижний колонтитул нечетных страниц отличается от нечетных страниц.
 type: docs
 weight: 170
 url: /ru/net/aspose.cells/pagesetup/ishfdiffoddeven/
 ---
 ## PageSetup.IsHFDiffOddEven property
 
-True означает, что верхний/нижний колонтитулы нечетных страниц отличаются для нечетных страниц.
+True означает, что верхний/нижний колонтитул нечетных страниц отличается от нечетных страниц.
 
 ```csharp
 public bool IsHFDiffOddEven { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Cells for .NET API 参考
-description: Ticklabel 项目的高度与图表高度的比率
+description: Ticklabel 项的高度与图表高度的比率
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.charts/ticklabelitem/height/
 ---
 ## TickLabelItem.Height property
 
-Ticklabel 项目的高度与图表高度的比率。
+Ticklabel 项的高度与图表高度的比率。
 
 ```csharp
 public double Height { get; }

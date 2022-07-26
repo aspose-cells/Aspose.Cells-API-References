@@ -1,14 +1,14 @@
 ---
 title: HtmlString
 second_title: Aspose.Cells for .NET API 参考
-description: 获取并设置包含此形状的数据和某些格式的 html 字符串
+description: 获取并设置包含此形状的数据和一些格式的html字符串
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.drawing.texts/fontsettingcollection/htmlstring/
 ---
 ## FontSettingCollection.HtmlString property
 
-获取并设置包含此形状的数据和某些格式的 html 字符串。
+获取并设置包含此形状的数据和一些格式的html字符串。
 
 ```csharp
 public string HtmlString { get; set; }

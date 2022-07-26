@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.Cells for .NET API 参考
-description: 返回该区域的简单字符串表示
+description: 返回此区域的简单字符串表示形式
 type: docs
 weight: 110
 url: /zh/net/aspose.cells/referredarea/tostring/
 ---
 ## ReferredArea.ToString method
 
-返回该区域的简单字符串表示。
+返回此区域的简单字符串表示形式。
 
 ```csharp
 public override string ToString()

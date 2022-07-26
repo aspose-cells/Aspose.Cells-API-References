@@ -1,14 +1,14 @@
 ---
 title: CreateRange
 second_title: Aspose.Cells for .NET API 参考
-description: 从一系列单元格中创建Rangeaspose.cells/range对象
+description: 创建一个Rangeaspose.cells/range来自一系列单元格的对象
 type: docs
 weight: 490
 url: /zh/net/aspose.cells/cells/createrange/
 ---
 ## CreateRange(string, string) {#createrange_3}
 
-从一系列单元格中创建[`Range`](../../range)对象。
+创建一个[`Range`](../../range)来自一系列单元格的对象。
 
 ```csharp
 public Range CreateRange(string upperLeftCell, string lowerRightCell)
@@ -17,11 +17,11 @@ public Range CreateRange(string upperLeftCell, string lowerRightCell)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | upperLeftCell | String | 左上角单元格名称。 |
-| lowerRightCell | String | 右下单元格名称。 |
+| lowerRightCell | String | 右下角单元格名称。 |
 
 ### 返回值
 
-A[`Range`](../../range)对象
+一个[`Range`](../../range)目的
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ A[`Range`](../../range)对象
 
 ## CreateRange(int, int, int, int) {#createrange_1}
 
-从一系列单元格中创建[`Range`](../../range)对象。
+创建一个[`Range`](../../range)来自一系列单元格的对象。
 
 ```csharp
 public Range CreateRange(int firstRow, int firstColumn, int totalRows, int totalColumns)
@@ -43,13 +43,13 @@ public Range CreateRange(int firstRow, int firstColumn, int totalRows, int total
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | firstRow | Int32 | 此范围的第一行 |
-| firstColumn | Int32 | 第一列此范围的 |
+| firstColumn | Int32 | 此范围的第一列 |
 | totalRows | Int32 | 行数 |
 | totalColumns | Int32 | 列数 |
 
 ### 返回值
 
-A[`Range`](../../range)对象
+一个[`Range`](../../range)目的
 
 ### 也可以看看
 
@@ -62,7 +62,7 @@ A[`Range`](../../range)对象
 
 ## CreateRange(string) {#createrange_2}
 
-从范围的地址创建[`Range`](../../range)对象。
+创建一个[`Range`](../../range)来自范围地址的对象。
 
 ```csharp
 public Range CreateRange(string address)
@@ -74,7 +74,7 @@ public Range CreateRange(string address)
 
 ### 返回值
 
-A[`Range`](../../range)对象
+一个[`Range`](../../range)目的
 
 ### 也可以看看
 
@@ -87,7 +87,7 @@ A[`Range`](../../range)对象
 
 ## CreateRange(int, int, bool) {#createrange}
 
-从单元格行或单元格列创建[`Range`](../../range)对象。
+创建一个[`Range`](../../range)来自单元格行或单元格列的对象。
 
 ```csharp
 public Range CreateRange(int firstIndex, int number, bool isVertical)
@@ -96,12 +96,12 @@ public Range CreateRange(int firstIndex, int number, bool isVertical)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | firstIndex | Int32 | 第一行索引或第一列索引，从零开始。 |
-| number | Int32 | 总行数或列数，从 1 开始。 |
+| number | Int32 | 总行数或列数，以 1 为基础。 |
 | isVertical | Boolean | True - 从单元格列创建的范围。 False - 从单元格行创建的范围。 |
 
 ### 返回值
 
-A[`Range`](../../range)对象。
+一个[`Range`](../../range)目的。
 
 ### 也可以看看
 

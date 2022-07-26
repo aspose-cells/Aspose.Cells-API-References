@@ -18,9 +18,9 @@ public class ShapePropertyCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Format3D](../../aspose.cells.drawing/shapepropertycollection/format3d) { get; } | 表示对象，该对象指定图表元素或形状的 3D 形状属性。 |
-| [GlowEffect](../../aspose.cells.drawing/shapepropertycollection/gloweffect) { get; } | 表示一个对象，该对象指定图表元素或形状的发光效果。 |
-| [ShadowEffect](../../aspose.cells.drawing/shapepropertycollection/shadoweffect) { get; } | 表示对象，该对象指定图表元素或形状的阴影效果。 |
+| [Format3D](../../aspose.cells.drawing/shapepropertycollection/format3d) { get; } | 代表一个为图表元素或形状指定 3D 形状属性的对象。 |
+| [GlowEffect](../../aspose.cells.drawing/shapepropertycollection/gloweffect) { get; } | 代表一个为图表元素或形状指定发光效果的对象。 |
+| [ShadowEffect](../../aspose.cells.drawing/shapepropertycollection/shadoweffect) { get; } | 代表一个为图表元素或形状指定阴影效果的对象。 |
 | [SoftEdgeRadius](../../aspose.cells.drawing/shapepropertycollection/softedgeradius) { get; set; } | 获取和设置应用于边缘的模糊半径，以点为单位。 |
 
 ## 方法
@@ -30,7 +30,7 @@ public class ShapePropertyCollection
 | [ClearFormat3D](../../aspose.cells.drawing/shapepropertycollection/clearformat3d)() | 清除形状的 3D 形状属性。 |
 | [ClearGlowEffect](../../aspose.cells.drawing/shapepropertycollection/cleargloweffect)() | 清除形状的发光效果。 |
 | [ClearShadowEffect](../../aspose.cells.drawing/shapepropertycollection/clearshadoweffect)() | 清除图表元素或形状的阴影效果。 |
-| [HasFormat3D](../../aspose.cells.drawing/shapepropertycollection/hasformat3d)() | 指示形状是否具有 3d 格式数据。 |
+| [HasFormat3D](../../aspose.cells.drawing/shapepropertycollection/hasformat3d)() | 表示形状是否有 3d 格式数据。 |
 | [HasGlowEffect](../../aspose.cells.drawing/shapepropertycollection/hasgloweffect)() | 表示形状是否有发光效果数据。 |
 | [HasShadowEffect](../../aspose.cells.drawing/shapepropertycollection/hasshadoweffect)() | 表示形状是否有阴影效果数据。 |
 

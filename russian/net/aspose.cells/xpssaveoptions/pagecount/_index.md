@@ -1,14 +1,14 @@
 ---
 title: PageCount
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает количество сохраняемых страниц.
+description: Получает или задает количество страниц для сохранения.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/xpssaveoptions/pagecount/
 ---
 ## XpsSaveOptions.PageCount property
 
-Получает или задает количество сохраняемых страниц.
+Получает или задает количество страниц для сохранения.
 
 ```csharp
 public int PageCount { get; set; }
@@ -16,7 +16,7 @@ public int PageCount { get; set; }
 
 ### Примечания
 
-По умолчанию используется значение System.Int32.MaxValue, что означает, что будут отображаться все страницы..
+По умолчанию используется System.Int32.MaxValue, что означает, что будут отображаться все страницы..
 
 ### Смотрите также
 

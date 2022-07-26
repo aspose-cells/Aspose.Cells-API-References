@@ -1,12 +1,12 @@
 ---
 title: Aspose.Cells.Metadata
 second_title: Aspose.Cells for .NET API 参考
-description: 包含加载和保存元数据的所有类
+description: 包含加载和保存文件元数据的所有类s
 type: docs
 weight: 90
 url: /zh/net/aspose.cells.metadata/
 ---
-包含加载和保存元数据的所有类。
+包含加载和保存文件元数据的所有类。s
 
 ## 课程
 

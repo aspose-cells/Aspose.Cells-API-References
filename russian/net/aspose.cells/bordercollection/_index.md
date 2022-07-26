@@ -1,14 +1,14 @@
 ---
 title: BorderCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует набор объектовBorder./border.
+description: Инкапсулирует наборBorder./border объекты.
 type: docs
 weight: 150
 url: /ru/net/aspose.cells/bordercollection/
 ---
 ## BorderCollection class
 
-Инкапсулирует набор объектов[`Border`](../border).
+Инкапсулирует набор[`Border`](../border) объекты.
 
 ```csharp
 public class BorderCollection
@@ -18,16 +18,16 @@ public class BorderCollection
 
 | Имя | Описание |
 | --- | --- |
-| [DiagonalColor](../../aspose.cells/bordercollection/diagonalcolor) { get; set; } | Получает или задаетColorдиагональных линий. |
+| [DiagonalColor](../../aspose.cells/bordercollection/diagonalcolor) { get; set; } | Получает или задаетColor диагональных линий. |
 | [DiagonalStyle](../../aspose.cells/bordercollection/diagonalstyle) { get; set; } | Получает или задает стиль диагональных линий. |
-| [Item](../../aspose.cells/bordercollection/item) { get; } | Получает элемент[`Border`](../border)по указанному индексу. |
+| [Item](../../aspose.cells/bordercollection/item) { get; } | Получает[`Border`](../border) элемент по указанному индексу. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [SetColor](../../aspose.cells/bordercollection/setcolor)(Color) | УстанавливаетColorвсех границ в коллекции. |
-| [SetStyle](../../aspose.cells/bordercollection/setstyle)(CellBorderType) | Устанавливает стиль всех границ коллекции. |
+| [SetColor](../../aspose.cells/bordercollection/setcolor)(Color) | УстанавливаетColor всех бордюров в коллекции. |
+| [SetStyle](../../aspose.cells/bordercollection/setstyle)(CellBorderType) | Задает стиль всех границ коллекции. |
 
 ### Примеры
 
@@ -35,67 +35,67 @@ public class BorderCollection
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 
-  //Добавление нового рабочего листа в Excel object
+//Добавление нового рабочего листа в объект Excel
 workbook.Worksheets.Add();
 
-  //Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
+//Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
 Worksheet worksheet = workbook.Worksheets[0];
 
-  // Доступ к ячейке "A1" из worksheet
+//Доступ к ячейке "A1" из рабочего листа
 Cell cell = worksheet.Cells["A1"];
 
-  //Добавление некоторого значения в "A1" cell
+//Добавление некоторого значения в ячейку "A1"
 cell.PutValue("Visit Aspose!");
 
 Style style = cell.GetStyle();
 
-  //Установка стиля линии верхней границы
+//Установка стиля линии верхней границы
 style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thick;
 
-  //Установка цвета верхней границы
+//Установка цвета верхней границы
 style.Borders[BorderType.TopBorder].Color = Color.Black;
 
 //Установка стиля линии нижней границы
 style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thick;
 
-  //Установка цвета нижней границы
+//Установка цвета нижней границы
 style.Borders[BorderType.BottomBorder].Color = Color.Black;
 
-  //Установка стиля линии левой границы
+//Установка стиля линии левой границы
 style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thick;
 
-  //Установка цвета левой границы
+//Установка цвета левой границы
 style.Borders[BorderType.LeftBorder].Color = Color.Black;
 
-  //Установка стиля линии правой границы
+//Установка стиля линии правой границы
 style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thick;
 
-  //Установка цвета правой границы
+//Установка цвета правой границы
 style.Borders[BorderType.RightBorder].Color = Color.Black;
 
 cell.SetStyle(style);
 
-  //Сохранение файла Excel
+//Сохранение файла Excel
 workbook.Save("book1.xls");
 
 [VB.NET]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
 
-'Добавление нового рабочего листа в Excel object
+'Добавление нового рабочего листа в объект Workbook
 workbook.Worksheets.Add()
 
-'Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
+'Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-'Доступ к ячейке "A1" из worksheet
+'Accessing the "A1" cell from the worksheet
 Dim cell As Cell = worksheet.Cells("A1")
 
-'Добавление некоторого значения в "A1" cell
+'Adding some value to the "A1" cell
 cell.PutValue("Visit Aspose!")
 
 Dim style as Style = cell.GetStyle()

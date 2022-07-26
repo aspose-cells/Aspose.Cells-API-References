@@ -47,11 +47,11 @@ public void SetEmbeddedObject(bool linkToFile, byte[] objectData, string sourceF
 | sourceFileName | String | 文件名。 |
 | displayAsIcon | Boolean | 指示是否将对象显示为图标。 如果为true，则原始图像数据将被图标覆盖。 |
 | label | String | 图标标签。仅当 displayAsIcon 为 true 时才有效。 |
-| updateIcon | Boolean | 表示是否自动更新图标。 |
+| updateIcon | Boolean | 指示是否自动更新图标。 |
 
 ### 评论
 
-Aspose 可以更新嵌入的所有文件图标，所以最好使用:::R9:updateIcon::添加正确的图标:假的。
+Aspose 可以更新嵌入的所有文件图标，所以最好添加正确的图标*updateIcon*为假。
 
 ### 也可以看看
 

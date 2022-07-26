@@ -1,14 +1,14 @@
 ---
 title: WorkbookDesigner
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инициализирует новый экземпляр классаWorkbookDesigneraspose.cells/workbookdesigner.
+description: Инициализирует новый экземплярWorkbookDesigneraspose.cells/workbookdesigner класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/workbookdesigner/workbookdesigner/
 ---
 ## WorkbookDesigner() {#constructor}
 
-Инициализирует новый экземпляр класса[`WorkbookDesigner`](../../workbookdesigner).
+Инициализирует новый экземпляр[`WorkbookDesigner`](../../workbookdesigner) класс.
 
 ```csharp
 public WorkbookDesigner()
@@ -24,7 +24,7 @@ public WorkbookDesigner()
 
 ## WorkbookDesigner(Workbook) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`WorkbookDesigner`](../../workbookdesigner).
+Инициализирует новый экземпляр[`WorkbookDesigner`](../../workbookdesigner) класс.
 
 ```csharp
 public WorkbookDesigner(Workbook workbook)

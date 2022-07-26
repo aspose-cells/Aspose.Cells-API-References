@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Cells for .NET API 参考
-description: 返回整个ChartPointCollectionaspose.cells.charts/chartpointcollection的枚举数
+description: 返回整个枚举数ChartPointCollectionaspose.cells.charts/chartpointcollection.
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.charts/chartpointcollection/getenumerator/
 ---
 ## ChartPointCollection.GetEnumerator method
 
-返回整个[`ChartPointCollection`](../../chartpointcollection)的枚举数。
+返回整个枚举数[`ChartPointCollection`](../../chartpointcollection).
 
 ```csharp
 public IEnumerator GetEnumerator()

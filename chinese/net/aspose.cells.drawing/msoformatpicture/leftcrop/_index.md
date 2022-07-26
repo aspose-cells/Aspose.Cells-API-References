@@ -1,14 +1,14 @@
 ---
 title: LeftCrop
 second_title: Aspose.Cells for .NET API 参考
-description: 表示裁剪矩形的左侧位置表示为图像宽度的比例
+description: 表示裁剪矩形的左侧位置表示为图像宽度的比率
 type: docs
 weight: 70
 url: /zh/net/aspose.cells.drawing/msoformatpicture/leftcrop/
 ---
 ## MsoFormatPicture.LeftCrop property
 
-表示裁剪矩形的左侧位置，表示为图像宽度的比例。
+表示裁剪矩形的左侧位置，表示为图像宽度的比率。
 
 ```csharp
 public double LeftCrop { get; set; }

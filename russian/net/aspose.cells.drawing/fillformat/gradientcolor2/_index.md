@@ -16,7 +16,7 @@ public Color GradientColor2 { get; }
 
 ### Примечания
 
-Это свойство имеет смысл только в том случае, если тип цвета градиента — GradientColorType.TwoColors.
+Только если тип цвета градиента — GradientColorType.TwoColors, это свойство имеет смысл.
 
 ### Смотрите также
 

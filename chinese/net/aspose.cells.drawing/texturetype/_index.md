@@ -24,7 +24,7 @@ public enum TextureType
 | Canvas | `3` | 表示 Canvas 纹理类型。 |
 | Cork | `4` | 表示软木纹理类型。 |
 | Denim | `5` | 表示 Denim 纹理类型。 |
-| FishFossil | `6` | 表示鱼化石纹理类型。 |
+| FishFossil | `6` | 代表鱼化石纹理类型。 |
 | Granite | `7` | 表示花岗岩纹理类型。 |
 | GreenMarble | `8` | 表示绿色大理石纹理类型。 |
 | MediumWood | `9` | 表示中等木材纹理类型。 |
@@ -32,7 +32,7 @@ public enum TextureType
 | Oak | `11` | 表示橡木纹理类型。 |
 | PaperBag | `12` | 表示纸袋纹理类型。 |
 | Papyrus | `13` | 表示 Papyrus 纹理类型。 |
-| Parchment | `14` | 代表羊皮纸纹理类型。 |
+| Parchment | `14` | 表示羊皮纸纹理类型。 |
 | PinkTissuePaper | `15` | 表示粉色卫生纸纹理类型。 |
 | PurpleMesh | `16` | 表示紫色网格纹理类型。 |
 | RecycledPaper | `17` | 表示再生纸纹理类型。 |
@@ -42,7 +42,7 @@ public enum TextureType
 | WaterDroplets | `21` | 表示水滴纹理类型。 |
 | WhiteMarble | `22` | 表示白色大理石纹理类型。 |
 | WovenMat | `23` | 表示 Woven Mat 纹理类型。 |
-| Unknown | `24` | 表示未知纹理类型。 |
+| Unknown | `24` | 表示未知的纹理类型。 |
 
 ### 也可以看看
 

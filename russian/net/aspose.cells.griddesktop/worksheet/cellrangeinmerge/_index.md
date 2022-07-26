@@ -1,14 +1,14 @@
 ---
 title: CellRangeInMerge
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает значение указывающее происходит ли слияние указанного диапазона ячеек.
+description: Получает значение указывающее объединяется ли указанный диапазон ячеек при слиянии.
 type: docs
 weight: 550
 url: /ru/net/aspose.cells.griddesktop/worksheet/cellrangeinmerge/
 ---
 ## Worksheet.CellRangeInMerge method
 
-Получает значение, указывающее, происходит ли слияние указанного диапазона ячеек.
+Получает значение, указывающее, объединяется ли указанный диапазон ячеек при слиянии.
 
 ```csharp
 public bool CellRangeInMerge(CellRange cr)

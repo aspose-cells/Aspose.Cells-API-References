@@ -20,7 +20,7 @@ public enum CategoryType
 | --- | --- | --- |
 | AutomaticScale | `0` | AutomaticScale |
 | CategoryScale | `1` | CategoryScale |
-| TimeScale | `2` | TimeScale |
+| TimeScale | `2` | 时标 |
 
 ### 也可以看看
 

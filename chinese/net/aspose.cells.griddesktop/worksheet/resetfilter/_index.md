@@ -16,7 +16,7 @@ public void ResetFilter(int fieldIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldIndex | Int32 | 要应用的字段的整数偏移量，基于第一个过滤器列 （从列表的左侧开始；最左侧的字段是字段 0）。 |
+| fieldIndex | Int32 | 您要应用的字段的整数偏移量，基于第一个过滤器 column （从列表的左侧开始；最左侧的字段是字段 0）。 |
 
 ### 也可以看看
 

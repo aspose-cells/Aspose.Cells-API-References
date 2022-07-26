@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 将Rangeaspose.cells/range项添加到集合中
+description: 添加一个Rangeaspose.cells/range项目到集合.
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/rangecollection/add/
 ---
 ## RangeCollection.Add method
 
-将[`Range`](../../range)项添加到集合中。
+添加一个[`Range`](../../range)项目到集合.
 
 ```csharp
 public int Add(Range range)

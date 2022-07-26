@@ -1,14 +1,14 @@
 ---
 title: CheckMergedCells
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否检查合并单元格
+description: 表示是否检查合并的单元格
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/importtableoptions/checkmergedcells/
 ---
 ## ImportTableOptions.CheckMergedCells property
 
-表示是否检查合并单元格。
+表示是否检查合并的单元格。
 
 ```csharp
 public bool CheckMergedCells { get; set; }

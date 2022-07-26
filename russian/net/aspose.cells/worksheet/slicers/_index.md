@@ -1,14 +1,14 @@
 ---
 title: Slicers
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получить коллекцию Slicer на листе
+description: Получить коллекцию слайсеров на листе
 type: docs
 weight: 430
 url: /ru/net/aspose.cells/worksheet/slicers/
 ---
 ## Worksheet.Slicers property
 
-Получить коллекцию Slicer на листе
+Получить коллекцию слайсеров на листе
 
 ```csharp
 public SlicerCollection Slicers { get; }

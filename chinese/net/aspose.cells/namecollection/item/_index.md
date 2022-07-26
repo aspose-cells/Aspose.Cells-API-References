@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定索引处的Nameaspose.cells/name元素
+description: 获取Nameaspose.cells/name指定索引处的元素
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/namecollection/item/
 ---
 ## NameCollection indexer (1 of 2)
 
-获取指定索引处的[`Name`](../../name)元素。
+获取[`Name`](../../name)指定索引处的元素。
 
 ```csharp
 public Name this[int index] { get; }
@@ -33,7 +33,7 @@ public Name this[int index] { get; }
 
 ## NameCollection indexer (2 of 2)
 
-获取具有指定名称的[`Name`](../../name)元素。
+获取[`Name`](../../name)具有指定名称的元素。
 
 ```csharp
 public Name this[string text] { get; }

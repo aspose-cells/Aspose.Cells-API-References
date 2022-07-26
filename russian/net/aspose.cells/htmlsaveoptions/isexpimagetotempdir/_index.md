@@ -1,14 +1,14 @@
 ---
 title: IsExpImageToTempDir
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает экспортируются ли файлы изображений во временный каталог. Только для сохранения в html поток.
+description: Указывает экспортируются ли файлы изображений во временный каталог. Только для сохранения в поток html.
 type: docs
-weight: 360
+weight: 380
 url: /ru/net/aspose.cells/htmlsaveoptions/isexpimagetotempdir/
 ---
 ## HtmlSaveOptions.IsExpImageToTempDir property
 
-Указывает, экспортируются ли файлы изображений во временный каталог. Только для сохранения в html поток.
+Указывает, экспортируются ли файлы изображений во временный каталог. Только для сохранения в поток html.
 
 ```csharp
 public bool IsExpImageToTempDir { get; set; }

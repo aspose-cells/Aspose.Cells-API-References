@@ -19,11 +19,11 @@ public enum GridPasteType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | All | `0` | 复制范围的所有数据。 |
-| Default | `1` | 它作为 MS Excel 的“全部”行为。 |
+| Default | `1` | 它作为 MS Excel 的“全部”行为工作。 |
 | AllExceptBorders | `2` | 复制范围之外的所有数据。 |
 | DefaultExceptBorders | `3` | 它作为 MS Excel 的“除边框外的所有”行为。 |
 | ColumnWidths | `4` | 只复制范围的宽度。 |
-| RowHeights | `5` | 仅复制范围的高度。 |
+| RowHeights | `5` | 只复制范围的高度。 |
 | Comments | `6` |  |
 | Formats | `7` |  |
 | Formulas | `8` |  |

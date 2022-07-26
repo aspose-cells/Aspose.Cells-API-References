@@ -1,14 +1,14 @@
 ---
 title: SetFormula
 second_title: Справочник по Aspose.Cells для .NET API
-description: Установите формулу и значение формулы.
+description: Установить формулу и значение формулы.
 type: docs
 weight: 400
 url: /ru/net/aspose.cells.griddesktop.data/gridcell/setformula/
 ---
 ## GridCell.SetFormula method
 
-Установите формулу и значение формулы.
+Установить формулу и значение формулы.
 
 ```csharp
 public void SetFormula(string formula, object value)

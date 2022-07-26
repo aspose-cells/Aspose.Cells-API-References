@@ -1,14 +1,14 @@
 ---
 title: ExportDataTable
 second_title: Справочник по Aspose.Cells для .NET API
-description: Экспортирует данные из коллекцииCellsaspose.cells/cellsв таблицуDataTableобъект.
+description: Экспортирует данные вCellsaspose.cells/cells сбор вDataTable объект.
 type: docs
 weight: 610
 url: /ru/net/aspose.cells/cells/exportdatatable/
 ---
 ## ExportDataTable(int, int, int, int) {#exportdatatable}
 
-Экспортирует данные из коллекции[`Cells`](../../cells)в таблицуDataTableобъект.
+Экспортирует данные в[`Cells`](../../cells) сбор вDataTable объект.
 
 ```csharp
 public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, int totalColumns)
@@ -16,18 +16,18 @@ public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, i
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| firstRow | Int32 | Номер строки первой экспортируемой ячейки вне. |
-| firstColumn | Int32 | Номер столбца первой экспортируемой ячейки. |
+| firstRow | Int32 | Номер строки первой ячейки для экспорта. |
+| firstColumn | Int32 | Номер столбца первой ячейки для экспорта. |
 | totalRows | Int32 | Количество строк для импорта. |
-| totalColumns | Int32 | Количество импортируемых столбцов. |
+| totalColumns | Int32 | Количество столбцов, которые необходимо импортировать. |
 
 ### Возвращаемое значение
 
-ЭкспортируетсяDataTableобъект.
+ЭкспортированоDataTable объект.
 
 ### Примечания
 
-Если вы используете этот метод для экспорта блока данных, убедитесь, что данные в столбце должен быть тот же тип данных. В противном случае используйте метод[`ExportDataTableAsString`](../exportdatatableasstring)вместо этого.
+Если вы используете этот метод для экспорта блока данных, убедитесь, что данные в столбце должны быть одного типа. В противном случае используйте[`ExportDataTableAsString`](../exportdatatableasstring)метод вместо этого.
 
 ### Примеры
 
@@ -59,7 +59,7 @@ Dim dt As DataTable = sheet.Cells.ExportDataTable(6, 1, 69, 4)
 
 ## ExportDataTable(int, int, int, int, bool) {#exportdatatable_2}
 
-Экспортирует данные из коллекции[`Cells`](../../cells)в таблицуDataTableобъект.
+Экспортирует данные в[`Cells`](../../cells) сбор вDataTable объект.
 
 ```csharp
 public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, int totalColumns, 
@@ -68,15 +68,15 @@ public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, i
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| firstRow | Int32 | Номер строки первой экспортируемой ячейки. |
-| firstColumn | Int32 | Номер столбца первой экспортируемой ячейки. |
+| firstRow | Int32 | Номер строки первой ячейки для экспорта. |
+| firstColumn | Int32 | Номер столбца первой ячейки для экспорта. |
 | totalRows | Int32 | Количество строк для импорта. |
-| totalColumns | Int32 | Количество импортируемых столбцов. |
-| exportColumnName | Boolean | Указывает, экспортируются ли данные в первой строке в имя столбца таблицы данных. |
+| totalColumns | Int32 | Количество столбцов, которые необходимо импортировать. |
+| exportColumnName | Boolean | Указывает, экспортируются ли данные в первой строке в имя столбца DataTable. |
 
 ### Возвращаемое значение
 
-ЭкспортируетсяDataTableобъект.
+ЭкспортированоDataTable объект.
 
 ### Смотрите также
 
@@ -88,7 +88,7 @@ public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, i
 
 ## ExportDataTable(int, int, int, int, ExportTableOptions) {#exportdatatable_1}
 
-Экспортирует данные из коллекции[`Cells`](../../cells)в таблицуDataTableобъект.
+Экспортирует данные в[`Cells`](../../cells) сбор вDataTable объект.
 
 ```csharp
 public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, int totalColumns, 
@@ -97,15 +97,15 @@ public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, i
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| firstRow | Int32 | Номер строки первой экспортируемой ячейки. |
-| firstColumn | Int32 | Номер столбца первой экспортируемой ячейки. |
+| firstRow | Int32 | Номер строки первой ячейки для экспорта. |
+| firstColumn | Int32 | Номер столбца первой ячейки для экспорта. |
 | totalRows | Int32 | Количество строк для импорта. |
-| totalColumns | Int32 | Количество импортируемых столбцов. |
-| options | ExportTableOptions | Все опции таблицы экспорта |
+| totalColumns | Int32 | Количество столбцов, которые необходимо импортировать. |
+| options | ExportTableOptions | Все параметры таблицы экспорта |
 
 ### Возвращаемое значение
 
-ExportedDataTableобъект.
+ЭкспортированоDataTable объект.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Worksheet
 second_title: Aspose.Cells for .NET API 参考
-description: 获取包含此形状的Worksheetaspose.cells.drawing/shape/worksheet对象
+description: 获取Worksheetaspose.cells.drawing/shape/worksheet包含此形状的对象
 type: docs
 weight: 930
 url: /zh/net/aspose.cells.drawing/shape/worksheet/
 ---
 ## Shape.Worksheet property
 
-获取包含此形状的`Worksheet`对象。
+获取`Worksheet`包含此形状的对象。
 
 ```csharp
 public Worksheet Worksheet { get; }

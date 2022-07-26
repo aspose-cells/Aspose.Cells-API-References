@@ -18,7 +18,7 @@ public class MetadataOptions
 
 | Имя | Описание |
 | --- | --- |
-| [MetadataOptions](metadataoptions)(MetadataType) | Создает опции загрузки метаданных. |
+| [MetadataOptions](metadataoptions)(MetadataType) | Создает возможность загрузки метаданных. |
 
 ## Характеристики
 
@@ -26,7 +26,7 @@ public class MetadataOptions
 | --- | --- |
 | [KeyLength](../../aspose.cells.metadata/metadataoptions/keylength) { get; set; } | Длина ключа. |
 | [MetadataType](../../aspose.cells.metadata/metadataoptions/metadatatype) { get; } | Получает и устанавливает тип загружаемых метаданных. |
-| [Password](../../aspose.cells.metadata/metadataoptions/password) { get; set; } | Представляет пароль для шифрования файла рабочей книги. |
+| [Password](../../aspose.cells.metadata/metadataoptions/password) { get; set; } | Представляет пароль шифрования файла рабочей книги. |
 
 ### Смотрите также
 

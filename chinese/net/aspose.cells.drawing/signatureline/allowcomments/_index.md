@@ -1,14 +1,14 @@
 ---
 title: AllowComments
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否可以附加注释
+description: 表示是否可以附加评论
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.drawing/signatureline/allowcomments/
 ---
 ## SignatureLine.AllowComments property
 
-表示是否可以附加注释。
+表示是否可以附加评论。
 
 ```csharp
 public bool AllowComments { get; set; }
@@ -21,7 +21,7 @@ public bool AllowComments { get; set; }
 [C#]
 if(s.AllowComments)
 {
-     // 可以附加评论。
+    // 可以附加评论。
 }
 ```
 

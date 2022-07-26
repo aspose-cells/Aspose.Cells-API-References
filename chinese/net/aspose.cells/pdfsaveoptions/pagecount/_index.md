@@ -20,23 +20,22 @@ public int PageCount { get; set; }
 
 ### 例子
 
-以下示例说明如何将 Microsoft Excel 文件中的一系列页面（3 和 4）呈现为 PDF。
+以下示例显示如何将 Microsoft Excel 文件中的一系列页面（3 和 4）呈现为 PDF。
 
 ```csharp
 //打开一个Excel文件
-orkbook wb = new Workbook("Book1.xlsx");
+Workbook wb = new Workbook("Book1.xlsx");
 
-dfSaveOptions options = new PdfSaveOptions();
+PdfSaveOptions options = new PdfSaveOptions();
 
-//在输出PDF
-
-/起始页索引（从0开始的索引）
-ptions.PageIndex = 3;
+//只打印输出PDF中的第3页和第4页
+//起始页索引（从0开始的索引）
+options.PageIndex = 3;
 //要打印的页数
-ptions.PageCount = 2;
+options.PageCount = 2;
 
 //保存PDF文件
-b.Save("output.pdf", options);
+wb.Save("output.pdf", options);
 ```
 
 ### 也可以看看

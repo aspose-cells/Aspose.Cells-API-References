@@ -1,14 +1,14 @@
 ---
 title: SlicerCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 指定指定工作表上所有 Slicer 对象的集合
+description: 指定指定工作表上所有切片器对象的集合
 type: docs
 weight: 5690
 url: /zh/net/aspose.cells.slicers/slicercollection/
 ---
 ## SlicerCollection class
 
-指定指定工作表上所有 Slicer 对象的集合。
+指定指定工作表上所有切片器对象的集合。
 
 ```csharp
 public class SlicerCollection : CollectionBase<Slicer>
@@ -20,22 +20,22 @@ public class SlicerCollection : CollectionBase<Slicer>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.slicers/slicercollection/item) { get; } | 通过索引获取切片器。 (2 indexers) |
+| [Item](../../aspose.cells.slicers/slicercollection/item) { get; } | 按索引获取切片器。 (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells.slicers/slicercollection/add#add_8)(ListObject, int, string) | 使用 ListObjet 作为数据源添加新切片器 |
-| [Add](../../aspose.cells.slicers/slicercollection/add#add_7)(ListObject, ListColumn, string) | 使用 ListObjet 作为数据源添加新切片器 |
-| [Add](../../aspose.cells.slicers/slicercollection/add#add_4)(PivotTable, string, int) | 添加一个使用数据透视表作为数据源的新切片器 |
-| [Add](../../aspose.cells.slicers/slicercollection/add#add_3)(PivotTable, string, PivotField) | 添加一个使用数据透视表作为数据源的新切片器 |
-| [Add](../../aspose.cells.slicers/slicercollection/add#add_5)(PivotTable, string, string) | 添加一个使用数据透视表作为数据源的新切片器 |
-| [Add](../../aspose.cells.slicers/slicercollection/add#add_6)(ListObject, ListColumn, int, int) | 使用 ListObjet 作为数据源添加新切片器 |
-| [Add](../../aspose.cells.slicers/slicercollection/add#add_1)(PivotTable, int, int, int) | 添加一个使用数据透视表作为数据源的新切片器 |
-| [Add](../../aspose.cells.slicers/slicercollection/add#add)(PivotTable, int, int, PivotField) | 添加一个使用数据透视表作为数据源的新切片器 |
-| [Add](../../aspose.cells.slicers/slicercollection/add#add_2)(PivotTable, int, int, string) | 添加一个使用数据透视表作为数据源的新切片器 |
+| [Add](../../aspose.cells.slicers/slicercollection/add#add_8)(ListObject, int, string) | 使用 ListObjet 作为数据源添加一个新的切片器 |
+| [Add](../../aspose.cells.slicers/slicercollection/add#add_7)(ListObject, ListColumn, string) | 使用 ListObjet 作为数据源添加一个新的切片器 |
+| [Add](../../aspose.cells.slicers/slicercollection/add#add_4)(PivotTable, string, int) | 使用数据透视表作为数据源添加一个新的切片器 |
+| [Add](../../aspose.cells.slicers/slicercollection/add#add_3)(PivotTable, string, PivotField) | 使用数据透视表作为数据源添加一个新的切片器 |
+| [Add](../../aspose.cells.slicers/slicercollection/add#add_5)(PivotTable, string, string) | 使用数据透视表作为数据源添加一个新的切片器 |
+| [Add](../../aspose.cells.slicers/slicercollection/add#add_6)(ListObject, ListColumn, int, int) | 使用 ListObjet 作为数据源添加一个新的切片器 |
+| [Add](../../aspose.cells.slicers/slicercollection/add#add_1)(PivotTable, int, int, int) | 使用数据透视表作为数据源添加一个新的切片器 |
+| [Add](../../aspose.cells.slicers/slicercollection/add#add)(PivotTable, int, int, PivotField) | 使用数据透视表作为数据源添加一个新的切片器 |
+| [Add](../../aspose.cells.slicers/slicercollection/add#add_2)(PivotTable, int, int, string) | 使用数据透视表作为数据源添加一个新的切片器 |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Slicer) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Slicer, IComparer&lt;Slicer&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Slicer, IComparer&lt;Slicer&gt;) |  |
@@ -62,7 +62,7 @@ public class SlicerCollection : CollectionBase<Slicer>
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Slicer, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Slicer, int, int) |  |
 | [Remove](../../aspose.cells.slicers/slicercollection/remove)(Slicer) | 移除指定的 Slicer |
-| [RemoveAt](../../aspose.cells.slicers/slicercollection/removeat#removeat)(int) | 删除指定索引处的 Slicer (2 methods) |
+| [RemoveAt](../../aspose.cells.slicers/slicercollection/removeat#removeat)(int) | 删除指定索引处的切片器 (2 methods) |
 
 ### 例子
 
@@ -120,7 +120,7 @@ SlicerCollection slicers = sheet.Slicers;
 int tableIndex = sheet.ListObjects.Add("A1", "C9", true);
 ListObject table = sheet.ListObjects[tableIndex];
 
- //做你的事
+//做你的事
 
 book.Save("out.xlsx");
 

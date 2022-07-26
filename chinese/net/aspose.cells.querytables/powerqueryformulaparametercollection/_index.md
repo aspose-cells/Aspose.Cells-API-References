@@ -1,14 +1,14 @@
 ---
 title: PowerQueryFormulaParameterCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示
+description: 代表
 type: docs
 weight: 5020
 url: /zh/net/aspose.cells.querytables/powerqueryformulaparametercollection/
 ---
 ## PowerQueryFormulaParameterCollection class
 
-表示
+代表
 
 ```csharp
 public class PowerQueryFormulaParameterCollection : CollectionBase<PowerQueryFormulaParameter>
@@ -26,7 +26,7 @@ public class PowerQueryFormulaParameterCollection : CollectionBase<PowerQueryFor
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.querytables/powerqueryformulaparametercollection/item) { get; } | 通过列表中的索引获取[`PowerQueryFormulaParameter`](../powerqueryformulaparameter)。 (2 indexers) |
+| [Item](../../aspose.cells.querytables/powerqueryformulaparametercollection/item) { get; } | 获取[`PowerQueryFormulaParameter`](../powerqueryformulaparameter)按列表中的索引。 (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法

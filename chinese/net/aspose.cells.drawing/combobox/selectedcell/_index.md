@@ -1,14 +1,14 @@
 ---
 title: SelectedCell
 second_title: Aspose.Cells for .NET API 参考
-description: 获取组合框输入范围内的选定单元格
+description: 获取组合框输入范围内选定的单元格
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.drawing/combobox/selectedcell/
 ---
 ## ComboBox.SelectedCell property
 
-获取组合框输入范围内的选定单元格。
+获取组合框输入范围内选定的单元格。
 
 ```csharp
 public Cell SelectedCell { get; }

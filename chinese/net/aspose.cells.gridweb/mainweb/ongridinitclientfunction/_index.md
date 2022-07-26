@@ -1,14 +1,14 @@
 ---
 title: OnGridInitClientFunction
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置网格初始化时调用的客户端函数名 客户端函数应该这样声明ltbr /gt function MyOnGridInitgridltbr /gt ltbr /gt alert网格初始化  grid.idltbr /gt ltbr /gtltbr /gt注意你可以使用this指针在客户端函数中指向触发事件的网格控件
+description: 获取或设置网格初始化时要调用的客户端函数名称 客户端函数应声明如下 函数 MyOnGridInit网格  alert网格初始化  grid.id 注意您可以在客户端函数中使用this指针来指向触发事件的网格控件
 type: docs
 weight: 650
 url: /zh/net/aspose.cells.gridweb/mainweb/ongridinitclientfunction/
 ---
 ## MainWeb.OnGridInitClientFunction property
 
-获取或设置网格初始化时调用的客户端函数名。 客户端函数应该这样声明:&lt;br /&gt; function MyOnGridInit(grid)&lt;br /&gt; {&lt;br /&gt; alert("网格初始化:" + grid.id);&lt;br /&gt; }&lt;br /&gt;&lt;br /&gt;注意:你可以使用“this”指针在客户端函数中指向触发事件的网格控件。
+获取或设置网格初始化时要调用的客户端函数名称。 客户端函数应声明如下： 函数 MyOnGridInit（网格） { alert("网格初始化：" + grid.id); }注意：您可以在客户端函数中使用“this”指针来指向触发事件的网格控件。
 
 ```csharp
 public string OnGridInitClientFunction { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: HasBlankRows
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否添加空行 该属性仅适用于需要添加空白行的数据透视表自动格式类型
+description: 表示是否添加空白行 该属性仅适用于需要添加空白行的数据透视表自动格式类型
 type: docs
 weight: 260
 url: /zh/net/aspose.cells.pivot/pivottable/hasblankrows/
 ---
 ## PivotTable.HasBlankRows property
 
-表示是否添加空行。 该属性仅适用于需要添加空白行的数据透视表自动格式类型。
+表示是否添加空白行。 该属性仅适用于需要添加空白行的数据透视表自动格式类型。
 
 ```csharp
 public bool HasBlankRows { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: CustomDocumentPropertyCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Коллекция пользовательских свойств документа.
+description: Набор настраиваемых свойств документа.
 type: docs
 weight: 4830
 url: /ru/net/aspose.cells.properties/customdocumentpropertycollection/
 ---
 ## CustomDocumentPropertyCollection class
 
-Коллекция пользовательских свойств документа.
+Набор настраиваемых свойств документа.
 
 ```csharp
 public class CustomDocumentPropertyCollection : DocumentPropertyCollection
@@ -19,21 +19,21 @@ public class CustomDocumentPropertyCollection : DocumentPropertyCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.cells.properties/documentpropertycollection/count) { get; } | Получает количество элементов в коллекции. |
-| [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Возвращает объект[`DocumentProperty`](../documentproperty)по индексу. |
-| virtual [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Возвращает объект[`DocumentProperty`](../documentproperty)по имени свойства. |
+| [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Возвращает[`DocumentProperty`](../documentproperty)объект по индексу. |
+| virtual [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Возвращает[`DocumentProperty`](../documentproperty) объект по имени свойства. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add)(string, bool) | Создает новое пользовательское свойство документа с типом данных **PropertyType.Boolean** . |
-| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add_3)(string, DateTime) | Создает новое пользовательское свойство документа с типом данных **PropertyType.DateTime** . |
-| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add_1)(string, double) | Создает новое пользовательское свойство документа с типом данных **PropertyType.Float** . |
-| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add_2)(string, int) | Создает новое пользовательское свойство документа с типом данных **PropertyType.Number** . |
-| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add_4)(string, string) | Создает новое пользовательское свойство документа **PropertyType.String** тип данных. |
+| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add)(string, bool) | Создает новое пользовательское свойство документа **PropertyType.Boolean** тип данных. |
+| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add_3)(string, DateTime) | Создает новое пользовательское свойство документа **PropertyType.DateTime** тип данных. |
+| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add_1)(string, double) | Создает новое пользовательское свойство документа **PropertyType.Float** тип данных. |
+| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add_2)(string, int) | Создает новое пользовательское свойство документа **PropertyType.Number** тип данных. |
+| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add_4)(string, string) | Создает новое пользовательское свойство документа **Тип свойства.String** тип данных. |
 | [AddLinkToContent](../../aspose.cells.properties/customdocumentpropertycollection/addlinktocontent)(string, string) | Создает новое пользовательское свойство документа, которое ссылается на содержимое. |
 | [Clear](../../aspose.cells.properties/documentpropertycollection/clear)() | Удаляет все свойства из коллекции. |
-| [Contains](../../aspose.cells.properties/documentpropertycollection/contains)(string) | Возвращает true, если свойство с указанным именем существует в коллекции. |
+| [Contains](../../aspose.cells.properties/documentpropertycollection/contains)(string) | Возвращает значение true, если свойство с указанным именем существует в коллекции. |
 | [GetEnumerator](../../aspose.cells.properties/documentpropertycollection/getenumerator)() |  |
 | [IndexOf](../../aspose.cells.properties/documentpropertycollection/indexof)(string) | Получает индекс свойства по имени. |
 | [Remove](../../aspose.cells.properties/documentpropertycollection/remove)(string) | Удаляет свойство с указанным именем из коллекции. |
@@ -43,7 +43,7 @@ public class CustomDocumentPropertyCollection : DocumentPropertyCollection
 
 ### Примечания
 
-Каждый объект[`DocumentProperty`](../documentproperty)представляет пользовательское свойство документа-контейнера.
+Каждый[`DocumentProperty`](../documentproperty) object представляет пользовательское свойство документа-контейнера.
 
 ### Примеры
 
@@ -51,18 +51,18 @@ public class CustomDocumentPropertyCollection : DocumentPropertyCollection
 
 [C#]
 
-  //Создаем экземпляр рабочей книги object
+//Создаем экземпляр объекта Workbook
 Workbook workbook = new Workbook("book1.xls");
 
-  //Получение списка всех пользовательских свойств документа Excel file
+//Получение списка всех пользовательских свойств документа файла Excel
 CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 
 [VB.NET]
 
-'Создаем экземпляр рабочей книги object
+'Создать экземпляр объекта Workbook
 Dim workbook As New Workbook("book1.xls")
 
-'Получение списка всех пользовательских свойств документа Excel file
+'Получить список всех настраиваемых свойств документа файла Excel
 Dim customProperties As CustomDocumentPropertyCollection = workbook.Worksheets.CustomDocumentProperties
 
 ```

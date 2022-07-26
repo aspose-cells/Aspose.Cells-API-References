@@ -1,14 +1,14 @@
 ---
 title: GradientPresetType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示渐变预设颜色类型
+description: 代表渐变预设颜色类型
 type: docs
 weight: 2090
 url: /zh/net/aspose.cells.drawing/gradientpresettype/
 ---
 ## GradientPresetType enumeration
 
-表示渐变预设颜色类型。
+代表渐变预设颜色类型。
 
 ```csharp
 public enum GradientPresetType
@@ -19,7 +19,7 @@ public enum GradientPresetType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Brass | `0` | 黄铜预设颜色 |
-| CalmWater | `1` | 平静水预设颜色 |
+| CalmWater | `1` | 平静的水预设颜色 |
 | Chrome | `2` | Chrome 预设颜色 |
 | ChromeII | `3` | Chrome II 预设颜色 |
 | Daybreak | `4` | 黎明预设颜色 |
@@ -30,10 +30,10 @@ public enum GradientPresetType
 | Gold | `9` | 金色预设颜色 |
 | GoldII | `10` | Gold II 预设颜色 |
 | Horizon | `11` | 地平线预设颜色 |
-| LateSunset | `12` | 日落预设颜色 |
+| LateSunset | `12` | 晚日落预设颜色 |
 | Mahogany | `13` | 桃花心木预设颜色 |
 | Moss | `14` | 苔藓预设颜色 |
-| Nightfall | `15` | 夜幕预设颜色 |
+| Nightfall | `15` | 黄昏预设颜色 |
 | Ocean | `16` | 海洋预设颜色 |
 | Parchment | `17` | 羊皮纸预设颜色 |
 | Peacock | `18` | 孔雀预设颜色 |

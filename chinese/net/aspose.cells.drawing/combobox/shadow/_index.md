@@ -1,14 +1,14 @@
 ---
 title: Shadow
 second_title: Aspose.Cells for .NET API 参考
-description: 指示组合框是否具有 3-D 着色
+description: 指示组合框是否有 3-D 阴影
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.drawing/combobox/shadow/
 ---
 ## ComboBox.Shadow property
 
-指示组合框是否具有 3-D 着色。
+指示组合框是否有 3-D 阴影。
 
 ```csharp
 public bool Shadow { get; set; }

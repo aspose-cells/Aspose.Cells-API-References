@@ -18,10 +18,10 @@ public class DrawObject
 
 | Имя | Описание |
 | --- | --- |
-| [Cell](../../aspose.cells.rendering/drawobject/cell) { get; } | Указывает объект Cell при рендеринге. Доступ ко всем свойствам ячейки. |
+| [Cell](../../aspose.cells.rendering/drawobject/cell) { get; } | Указывает объект ячейки при рендеринге. Можно получить доступ ко всем свойствам ячейки. |
 | [CurrentPage](../../aspose.cells.rendering/drawobject/currentpage) { get; } | Указывает индекс страницы DrawObject. Индекс страницы основан на нуле. Один лист содержит несколько страниц при рендеринге. |
-| [ImageBytes](../../aspose.cells.rendering/drawobject/imagebytes) { get; } | Указывает байты изображения отображаемой диаграммы, формы при рендеринге. |
-| [Shape](../../aspose.cells.rendering/drawobject/shape) { get; } | Указывает объект Shape при рендеринге. Доступ ко всем свойствам фигуры. |
+| [ImageBytes](../../aspose.cells.rendering/drawobject/imagebytes) { get; } | Указывает байты изображения визуализируемой диаграммы, формы при рендеринге. |
+| [Shape](../../aspose.cells.rendering/drawobject/shape) { get; } | Указывает объект Shape при рендеринге. Можно получить доступ ко всем свойствам формы. |
 | [SheetIndex](../../aspose.cells.rendering/drawobject/sheetindex) { get; } | Указывает индекс текущего листа DrawObject. |
 | [TotalPages](../../aspose.cells.rendering/drawobject/totalpages) { get; } | Указывает общее количество страниц в текущем рендеринге. |
 | [Type](../../aspose.cells.rendering/drawobject/type) { get; } | Указывает тип DrawObject. |

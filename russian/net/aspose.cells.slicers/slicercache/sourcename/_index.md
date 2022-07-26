@@ -1,14 +1,14 @@
 ---
 title: SourceName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает имя поля кэша
+description: Возвращает имя кэша field
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.slicers/slicercache/sourcename/
 ---
 ## SlicerCache.SourceName property
 
-Возвращает имя поля кэша
+Возвращает имя кэша field
 
 ```csharp
 public string SourceName { get; }
@@ -20,7 +20,7 @@ public string SourceName { get; }
 
 [C#]
 
-  //получаем имя поля кеша.
+//получаем имя поля кеша.
 Console.WriteLine(slicerCache.SourceName);
 ```
 

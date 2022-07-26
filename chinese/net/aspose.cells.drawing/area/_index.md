@@ -18,83 +18,78 @@ public class Area
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor) { get; set; } | 获取或设置Drawing的背景R5:T:System.Drawing.Color:::。区域:::。 |
-| [FillFormat](../../aspose.cells.drawing/area/fillformat) { get; } | 表示对象，该对象包含指定图表或形状的填充格式属性。 |
-| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor) { get; set; } | 获取或设置前景Color。 |
+| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor) { get; set; } | 获取或设置背景Color的[`Area`](../area). |
+| [FillFormat](../../aspose.cells.drawing/area/fillformat) { get; } | 代表一个包含指定图表或形状的填充格式属性的对象。 |
+| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor) { get; set; } | 获取或设置前景Color. |
 | [Formatting](../../aspose.cells.drawing/area/formatting) { get; set; } | 表示区域的格式。 |
-| [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative) { get; set; } | 如果该属性为真且图表点的值为负数，则 前景色和背景色将互换。 |
-| [Transparency](../../aspose.cells.drawing/area/transparency) { get; set; } | 以从 0.0（不透明）到 1.0（透明）的值返回或设置区域的透明度。 |
+| [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative) { get; set; } | 如果属性为true，图表点的值为负数， 前景色和背景色会互换 |
+| [Transparency](../../aspose.cells.drawing/area/transparency) { get; set; } | 将区域的透明度返回或设置为从 0.0（不透明）到 1.0（透明）的值。 |
 
 ### 例子
 
 ```csharp
 
 [C#]
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
- //添加一个新的工作表到工作簿对象
+//向Workbook对象添加一个新的工作表
 int sheetIndex = workbook.Worksheets.Add();
- //通过传入其sheet index
-eet的引用
+//通过传入工作表的索引来获取新添加的工作表的引用
 Worksheet worksheet = workbook.Worksheets[sheetIndex];
- //向“A1”添加样本值 cell
+//向“A1”单元格添加样本值
 worksheet.Cells["A1"].PutValue(50);
-//向“A2”添加样本值 cell
+//向“A2”单元格添加样本值
 worksheet.Cells["A2"].PutValue(100);
- //向“A3”添加样本值 cell
+//向“A3”单元格添加样本值
 worksheet.Cells["A3"].PutValue(150);
- //向“B1”添加样本值 cell
+//向“B1”单元格添加样本值
 worksheet.Cells["B1"].PutValue(60);
- //将样本值添加到“B2” cell
+//向“B2”单元格添加样本值
 worksheet.Cells["B2"].PutValue(32);
- //将样本值添加到“B3” cell
+//向“B3”单元格添加样本值
 worksheet.Cells["B3"].PutValue(50);
- //将图表添加到工作表
+//向工作表添加图表
 int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
- //访问新添加的chart
-
+//访问新添加图表的实例
 Chart chart = worksheet.Charts[chartIndex];
- //将NSeries（图表数据源）添加到从“A1”单元格到“B3”单元格的图表中
+//将NSeries（图表数据源）添加到从“A1”单元格到“B3”单元格的图表中
 chart.NSeries.Add("A1:B3", true);
- //设置绘图区的前景色
+//设置绘图区域的前景色
 chart.PlotArea.Area.ForegroundColor = Color.Blue;
- //设置图表area
-
+//设置图表区域的前景色
 chart.ChartArea.Area.ForegroundColor = Color.Yellow;
-//设置第一个NSeries area
-
+//设置第一个NSeries区域的前景色
 chart.NSeries[0].Area.ForegroundColor = Color.Red;
-//设置第一个NSeries point
-
+//设置第一个NSeries点区域的前景色
 chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
- //保存Excel文件
+//保存Excel文件
 workbook.Save("book1.xls");
 
 [Visual Basic]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 '将新工作表添加到 Workbook 对象
 Dim sheetIndex As Integer = workbook.Worksheets.Add()
-'通过传递其工作表索引来获取新添加工作表的引用
+'通过传入工作表的索引来获取新添加的工作表的引用
 Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
-'将样本值添加到 to "A1" cell
+'Adding a sample value to "A1" cell
 worksheet.Cells("A1").PutValue(50)
-'将样本值添加到 to "A2" cell
+'Adding a sample value to "A2" cell
 worksheet.Cells("A2").PutValue(100)
-'将样本值添加到 to "A3" cell
+'Adding a sample value to "A3" cell
 worksheet.Cells("A3").PutValue(150)
-'将样本值添加到 to "B1" cell
+'Adding a sample value to "B1" cell
 worksheet.Cells("B1").PutValue(60)
-'将样本值添加到 to "B2" cell
+'Adding a sample value to "B2" cell
 worksheet.Cells("B2").PutValue(32)
-'将样本值添加到 to "B3" cell
+'Adding a sample value to "B3" cell
 worksheet.Cells("B3").PutValue(50)
 '将图表添加到工作表
 Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5)
 '访问新添加图表的实例
 Dim chart As Chart = worksheet.Charts(chartIndex)
-'将 NSeries（图表数据源）添加到图表中，范围从“A1”单元格到“B3”
+'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
 chart.NSeries.Add("A1:B3", True)
 '设置绘图区域的前景色
 chart.PlotArea.Area.ForegroundColor = Color.Blue

@@ -1,14 +1,14 @@
 ---
 title: TextAlignment
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет параметр выравнивания основного текста.
+description: Представляет настройку выравнивания основного текста.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.drawing.texts/fontsettingcollection/textalignment/
 ---
 ## FontSettingCollection.TextAlignment property
 
-Представляет параметр выравнивания основного текста.
+Представляет настройку выравнивания основного текста.
 
 ```csharp
 public ShapeTextAlignment TextAlignment { get; }

@@ -1,14 +1,14 @@
 ---
 title: Characters
 second_title: Aspose.Cells for .NET API 参考
-description: 返回一个 Characters 对象该对象表示单元格文本中的字符范围
+description: 返回一个 Characters 对象该对象表示单元格文本中的一系列字符
 type: docs
 weight: 320
 url: /zh/net/aspose.cells/cell/characters/
 ---
 ## Cell.Characters method
 
-返回一个 Characters 对象，该对象表示单元格文本中的字符范围。
+返回一个 Characters 对象，该对象表示单元格文本中的一系列字符。
 
 ```csharp
 public FontSetting Characters(int startIndex, int length)

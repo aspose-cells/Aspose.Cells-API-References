@@ -1,14 +1,14 @@
 ---
 title: DropZoneCategories
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает будет ли элемент управления для каждого поля сводной таблицы на оси строк сводной таблицы исходной сводной таблицы отображаться на диаграмме когда для dropZonesVisible установлено значение true.
+description: Указывает будет ли элемент управления для каждого поля сводной таблицы в строке сводной таблицы axis исходной сводной таблицы отображаться на диаграмме когда для параметра dropZonesVisible задано значение true.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.charts/pivotoptions/dropzonecategories/
 ---
 ## PivotOptions.DropZoneCategories property
 
-Указывает, будет ли элемент управления для каждого поля сводной таблицы на оси строк сводной таблицы исходной сводной таблицы отображаться на диаграмме, когда для dropZonesVisible установлено значение true.
+Указывает, будет ли элемент управления для каждого поля сводной таблицы в строке сводной таблицы axis исходной сводной таблицы отображаться на диаграмме, когда для параметра dropZonesVisible задано значение true.
 
 ```csharp
 public bool DropZoneCategories { get; set; }

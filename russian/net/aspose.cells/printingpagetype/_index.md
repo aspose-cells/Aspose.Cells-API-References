@@ -1,14 +1,14 @@
 ---
 title: PrintingPageType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает какие страницы не будут распечатаны.
+description: Указывает какие страницы не будут напечатаны.
 type: docs
 weight: 4790
 url: /ru/net/aspose.cells/printingpagetype/
 ---
 ## PrintingPageType enumeration
 
-Указывает, какие страницы не будут распечатаны.
+Указывает, какие страницы не будут напечатаны.
 
 ```csharp
 public enum PrintingPageType
@@ -18,7 +18,7 @@ public enum PrintingPageType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Default | `0` | Печатает все страницы. |
+| Default | `0` | Печать всех страниц. |
 | IgnoreBlank | `1` | Не печатать страницы, ячейки которых пусты. |
 | IgnoreStyle | `2` | Не печатать страницы, ячейки которых содержат только стили. |
 

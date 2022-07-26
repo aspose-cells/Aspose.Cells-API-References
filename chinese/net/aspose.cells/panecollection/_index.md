@@ -20,7 +20,7 @@ public class PaneCollection
 | --- | --- |
 | [AcitvePaneType](../../aspose.cells/panecollection/acitvepanetype) { get; set; } | 获取和设置活动窗格。 |
 | [FirstVisibleColumnOfRightPane](../../aspose.cells/panecollection/firstvisiblecolumnofrightpane) { get; set; } | 获取并设置右窗格的第一个可见列。 |
-| [FirstVisibleRowOfBottomPane](../../aspose.cells/panecollection/firstvisiblerowofbottompane) { get; set; } | 获取和设置底部窗格的第一个可见行。 |
+| [FirstVisibleRowOfBottomPane](../../aspose.cells/panecollection/firstvisiblerowofbottompane) { get; set; } | 获取并设置底部窗格的第一个可见行。 |
 
 ### 也可以看看
 

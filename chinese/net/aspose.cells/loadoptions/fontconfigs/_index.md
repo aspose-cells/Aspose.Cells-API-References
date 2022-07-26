@@ -1,14 +1,14 @@
 ---
 title: FontConfigs
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置单独的字体配置 仅适用于Workbookaspose.cells/workbook使用此LoadOptionsaspose.cells/loadoptions加载gt
+description: 获取和设置单独的字体配置 仅适用于Workbookaspose.cells/workbook它使用这个LoadOptionsaspose.cells/loadoptions加载gt
 type: docs
 weight: 80
 url: /zh/net/aspose.cells/loadoptions/fontconfigs/
 ---
 ## LoadOptions.FontConfigs property
 
-获取和设置单独的字体配置。 仅适用于[`Workbook`](../../workbook)使用此[`LoadOptions`](../../loadoptions)加载。&gt;
+获取和设置单独的字体配置。 仅适用于[`Workbook`](../../workbook)它使用这个[`LoadOptions`](../../loadoptions)加载。&gt;
 
 ```csharp
 public IndividualFontConfigs FontConfigs { get; set; }

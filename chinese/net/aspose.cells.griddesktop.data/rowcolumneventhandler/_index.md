@@ -10,7 +10,7 @@ url: /zh/net/aspose.cells.griddesktop.data/rowcolumneventhandler/
 
 表示打算处理行/列事件的接口。
 
-void **handleCellEvent** （对象发送者，RowColumnEventArgs e）；
+空白 **处理细胞事件**（对象发送者，RowColumnEventArgs e）；
 
 ```csharp
 public delegate void RowColumnEventHandler(object sender, RowColumnEventArgs e);
@@ -18,7 +18,7 @@ public delegate void RowColumnEventHandler(object sender, RowColumnEventArgs e);
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sender | Object | 事件源。 |
+| sender | Object | 事件的来源。 |
 | e | RowColumnEventArgs | 事件参数。如果要取消 RowDeleting 或 ColumnDeleting 事件处理程序中的删除操作，请调用 e.RejectOperation()。 |
 
 ### 也可以看看

@@ -21,7 +21,7 @@ public class ListColumn
 | [Formula](../../aspose.cells.tables/listcolumn/formula) { get; set; } | Получает и задает формулу столбца списка. |
 | [Name](../../aspose.cells.tables/listcolumn/name) { get; set; } | Получает и задает имя столбца. |
 | [Range](../../aspose.cells.tables/listcolumn/range) { get; } | Получает диапазон этого столбца списка. |
-| [TotalsCalculation](../../aspose.cells.tables/listcolumn/totalscalculation) { get; set; } | Получает и задает тип вычисления в строке Итоги столбца списка. |
+| [TotalsCalculation](../../aspose.cells.tables/listcolumn/totalscalculation) { get; set; } | Получает и задает тип расчета в строке Итоги столбца списка. |
 
 ## Методы
 
@@ -29,7 +29,7 @@ public class ListColumn
 | --- | --- |
 | [GetCustomCalculatedFormula](../../aspose.cells.tables/listcolumn/getcustomcalculatedformula)(bool, bool) | Получает формулу этого столбца списка. |
 | [GetCustomTotalsRowFormula](../../aspose.cells.tables/listcolumn/getcustomtotalsrowformula)(bool, bool) | Получает формулу итоговой строки этого столбца списка. |
-| [SetCustomCalculatedFormula](../../aspose.cells.tables/listcolumn/setcustomcalculatedformula)(string, bool, bool) | Устанавливает формулу для этого столбца списка. |
+| [SetCustomCalculatedFormula](../../aspose.cells.tables/listcolumn/setcustomcalculatedformula)(string, bool, bool) | Задает формулу для этого столбца списка. |
 | [SetCustomTotalsRowFormula](../../aspose.cells.tables/listcolumn/setcustomtotalsrowformula)(string, bool, bool) | Получает формулу итоговой строки этого столбца списка. |
 
 ### Примеры

@@ -26,7 +26,7 @@ public class DataSorterKeyCollection : CollectionBase<DataSorterKey>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/datasorterkeycollection/item) { get; } | 按索引获取和设置[`DataSorterKey`](../datasorterkey)。 |
+| [Item](../../aspose.cells/datasorterkeycollection/item) { get; } | 获取和设置[`DataSorterKey`](../datasorterkey)按索引. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法

@@ -1,14 +1,14 @@
 ---
 title: AutoRefreshChart
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置更新单元格值时是否更新图表图像默认为真
+description: 获取或设置更新单元格值时是否更新图表图像默认为true
 type: docs
 weight: 120
 url: /zh/net/aspose.cells.gridweb/mainweb/autorefreshchart/
 ---
 ## MainWeb.AutoRefreshChart property
 
-获取或设置更新单元格值时是否更新图表图像。默认为真
+获取或设置更新单元格值时是否更新图表图像。默认为true
 
 ```csharp
 public bool AutoRefreshChart { get; set; }

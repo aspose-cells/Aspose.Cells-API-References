@@ -1,14 +1,14 @@
 ---
 title: RightBorderStyle
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает стиль правой границы таблицы.
+description: Определяет стиль правой границы таблицы.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells.gridweb/gridtablestyle/rightborderstyle/
 ---
 ## GridTableStyle.RightBorderStyle property
 
-Задает стиль правой границы таблицы.
+Определяет стиль правой границы таблицы.
 
 ```csharp
 public WebBorderStyle RightBorderStyle { get; set; }

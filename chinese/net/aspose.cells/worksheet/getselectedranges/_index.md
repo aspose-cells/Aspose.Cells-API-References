@@ -16,7 +16,7 @@ public ArrayList GetSelectedRanges()
 
 ### 返回值
 
-一个ArrayList包含选定范围。
+一个ArrayList其中包含选定的范围。
 
 ### 也可以看看
 

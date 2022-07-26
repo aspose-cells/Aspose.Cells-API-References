@@ -29,9 +29,9 @@ public class DateTimeGroupItem
 | [Hour](../../aspose.cells/datetimegroupitem/hour) { get; set; } | 获取和设置分组日期时间的小时。 |
 | [Minute](../../aspose.cells/datetimegroupitem/minute) { get; set; } | 获取和设置分组日期时间的分钟。 |
 | [MinValue](../../aspose.cells/datetimegroupitem/minvalue) { get; } | 获取最小值。 |
-| [Month](../../aspose.cells/datetimegroupitem/month) { get; set; } | 获取和设置分组日期时间的月份。 |
-| [Second](../../aspose.cells/datetimegroupitem/second) { get; set; } | 获取并设置分组日期时间的第二个。 |
-| [Year](../../aspose.cells/datetimegroupitem/year) { get; set; } | 获取和设置分组日期时间的年份。 |
+| [Month](../../aspose.cells/datetimegroupitem/month) { get; set; } | 获取并设置分组日期时间的月份。 |
+| [Second](../../aspose.cells/datetimegroupitem/second) { get; set; } | 获取并设置分组日期时间的秒数。 |
+| [Year](../../aspose.cells/datetimegroupitem/year) { get; set; } | 获取并设置分组日期时间的年份。 |
 
 ### 也可以看看
 

@@ -18,18 +18,18 @@ public abstract class AbstractCalculationEngine
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [IsParamLiteralRequired](../../aspose.cells/abstractcalculationengine/isparamliteralrequired) { get; } | 表示此引擎在计算时是否需要参数的文字文本。默认值为假。 |
-| virtual [ProcessBuiltInFunctions](../../aspose.cells/abstractcalculationengine/processbuiltinfunctions) { get; } | 已经被内置引擎支持的内置函数是否应该被这个实现检查和处理。 默认为假。 如果用户需要改变一些内置函数的计算逻辑，这个属性应该设置为true。 |
+| virtual [IsParamLiteralRequired](../../aspose.cells/abstractcalculationengine/isparamliteralrequired) { get; } | 表示该引擎在计算时是否需要参数的文字文本。默认值为假。 |
+| virtual [ProcessBuiltInFunctions](../../aspose.cells/abstractcalculationengine/processbuiltinfunctions) { get; } | 内置引擎已经支持的内置函数是否应该由本实现检查处理。 默认为false。 如果用户需要更改某些内置函数的计算逻辑，该属性应该是设置为真。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| abstract [Calculate](../../aspose.cells/abstractcalculationengine/calculate)(CalculationData) | 用给定数据计算一个函数。 |
+| abstract [Calculate](../../aspose.cells/abstractcalculationengine/calculate)(CalculationData) | 用给定的数据计算一个函数。 |
 
 ### 评论
 
-用户不应直接在这个实现（自定义函数的计算结果除外，可以通过CalculationData.CalculatedValue属性设置）。 否则可能会导致意外结果或异常。 如果用户在某些自定义函数的实现中需要更改计算结果以外的其他数据， 例如，更改单元格的公式、样式等，用户应该收集本实现中的那些数据，并将其更改为公式计算的范围之外。
+用户不应在此实现中直接修改 Workbook 的任何部分（自定义函数的计算结果除外，可以通过 CalculationData.CalculatedValue 属性设置）。 否则可能会导致意外结果或异常。 如果用户需要更改某些自定义函数的实现中计算结果以外的其他数据， 例如，更改单元格的公式、样式等，用户应在此实现中收集这些数据并将其更改为公式计算范围之外。
 
 ### 例子
 
@@ -42,7 +42,7 @@ public class MyEngine : AbstractCalculationEngine
         string funcName = data.FunctionName.ToUpper();
         if ("MYFUNC".Equals(funcName))
         {
-             //在这里计算MYFUNC
+            //这里计算MYFUNC
             int count = data.ParamCount;
             object res = null;
             for (int i = 0; i < count; i++)
@@ -53,8 +53,8 @@ public class MyEngine : AbstractCalculationEngine
                     ReferredArea ra = (ReferredArea)pv;
                     pv = ra.GetValue(0, 0);
                 }
-                 //这里处理参数
-                 //res = ...;
+                //这里处理参数
+                //res = ...;
             }
             data.CalculatedValue = res;
         }

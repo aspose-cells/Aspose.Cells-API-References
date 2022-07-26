@@ -20,7 +20,7 @@ public float[] GetPageSizeInch(int pageIndex)
 
 ### 返回值
 
-图像的页面大小，宽度为 [0]，高度为 [1]
+图片的页面大小，宽度为[0]，高度为[1]
 
 ### 也可以看看
 

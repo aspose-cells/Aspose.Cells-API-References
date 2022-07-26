@@ -1,14 +1,14 @@
 ---
 title: Password
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет пароль для шифрования файла рабочей книги.
+description: Представляет пароль шифрования файла рабочей книги.
 type: docs
 weight: 340
 url: /ru/net/aspose.cells/workbooksettings/password/
 ---
 ## WorkbookSettings.Password property
 
-Представляет пароль для шифрования файла рабочей книги.
+Представляет пароль шифрования файла рабочей книги.
 
 ```csharp
 public string Password { get; set; }

@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.webextensions/webextensionbindingcollection/item/
 ---
 ## WebExtensionBindingCollection indexer
 
-通过特定索引获取web扩展绑定关系。
+通过特定索引获取web扩展绑定关系
 
 ```csharp
 public WebExtensionBinding this[int index] { get; }
@@ -16,7 +16,7 @@ public WebExtensionBinding this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引。 |
+| index | 指数。 |
 
 ### 返回值
 

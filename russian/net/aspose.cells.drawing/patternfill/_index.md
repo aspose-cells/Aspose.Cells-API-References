@@ -1,14 +1,14 @@
 ---
 title: PatternFill
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует объект представляющий формат заполнения шаблона
+description: Инкапсулирует объект представляющий заливку узором format
 type: docs
 weight: 2460
 url: /ru/net/aspose.cells.drawing/patternfill/
 ---
 ## PatternFill class
 
-Инкапсулирует объект, представляющий формат заполнения шаблона
+Инкапсулирует объект, представляющий заливку узором format
 
 ```csharp
 public class PatternFill : Fill
@@ -18,11 +18,11 @@ public class PatternFill : Fill
 
 | Имя | Описание |
 | --- | --- |
-| [BackgroundCellsColor](../../aspose.cells.drawing/patternfill/backgroundcellscolor) { get; set; } | Получает и устанавливает передний план[`CellsColor`](../../aspose.cells/cellscolor)объект. |
-| [BackgroundColor](../../aspose.cells.drawing/patternfill/backgroundcolor) { get; set; } | Получает или устанавливает фонColorдляОбласть. |
-| [BackTransparency](../../aspose.cells.drawing/patternfill/backtransparency) { get; set; } | Получает или устанавливает прозрачность цвета фона. |
-| [ForegroundCellsColor](../../aspose.cells.drawing/patternfill/foregroundcellscolor) { get; set; } | Получает и устанавливает передний план[`CellsColor`](../../aspose.cells/cellscolor)объект. |
-| [ForegroundColor](../../aspose.cells.drawing/patternfill/foregroundcolor) { get; set; } | Получает или задает передний планColor. |
+| [BackgroundCellsColor](../../aspose.cells.drawing/patternfill/backgroundcellscolor) { get; set; } | Получает и устанавливает передний план[`CellsColor`](../../aspose.cells/cellscolor) объект. |
+| [BackgroundColor](../../aspose.cells.drawing/patternfill/backgroundcolor) { get; set; } | Получает или устанавливает фонColor принадлежащий[`Area`](../area) . |
+| [BackTransparency](../../aspose.cells.drawing/patternfill/backtransparency) { get; set; } | Получает или задает прозрачность цвета фона. |
+| [ForegroundCellsColor](../../aspose.cells.drawing/patternfill/foregroundcellscolor) { get; set; } | Получает и устанавливает передний план[`CellsColor`](../../aspose.cells/cellscolor) объект. |
+| [ForegroundColor](../../aspose.cells.drawing/patternfill/foregroundcolor) { get; set; } | Получает или устанавливает передний планColor . |
 | [ForeTransparency](../../aspose.cells.drawing/patternfill/foretransparency) { get; set; } | Получает или задает прозрачность цвета переднего плана. |
 | [Pattern](../../aspose.cells.drawing/patternfill/pattern) { get; set; } | Получает или задает тип узора заливки |
 

@@ -18,12 +18,12 @@ public class MsoFillFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BackColor](../../aspose.cells.drawing/msofillformat/backcolor) { get; set; } | 获取和设置文件背景颜色。 |
+| [BackColor](../../aspose.cells.drawing/msofillformat/backcolor) { get; set; } | 获取并设置文件背景颜色。 |
 | [ForeColor](../../aspose.cells.drawing/msofillformat/forecolor) { get; set; } | 获取和设置填充前景色。 |
 | [ImageData](../../aspose.cells.drawing/msofillformat/imagedata) { get; set; } | 获取和设置纹理和图片填充数据。 |
 | [IsVisible](../../aspose.cells.drawing/msofillformat/isvisible) { get; set; } | 表示是否有填充。 |
 | [Texture](../../aspose.cells.drawing/msofillformat/texture) { get; } | 获取纹理填充类型。 |
-| [Transparency](../../aspose.cells.drawing/msofillformat/transparency) { get; set; } | 以 0.0（不透明）到 1.0（透明）的值返回或设置指定填充的透明度。 |
+| [Transparency](../../aspose.cells.drawing/msofillformat/transparency) { get; set; } | 将指定填充的透明度返回或设置为从 0.0（不透明）到 1.0（透明）的值。 |
 
 ## 方法
 

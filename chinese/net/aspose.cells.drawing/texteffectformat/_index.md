@@ -24,7 +24,7 @@ public class TextEffectFormat
 | [FontSize](../../aspose.cells.drawing/texteffectformat/fontsize) { get; set; } | 艺术字中使用的字体大小（以磅为单位）。 |
 | [PresetShape](../../aspose.cells.drawing/texteffectformat/presetshape) { get; set; } | 获取和设置预设形状类型。 |
 | [RotatedChars](../../aspose.cells.drawing/texteffectformat/rotatedchars) { get; set; } | 如果为真，则指定艺术字中的字符相对于艺术字的边界形状旋转 90 度。 |
-| [Text](../../aspose.cells.drawing/texteffectformat/text) { get; set; } | 艺术字中的文本。 |
+| [Text](../../aspose.cells.drawing/texteffectformat/text) { get; set; } | 艺术字中的文字。 |
 
 ## 方法
 
@@ -38,7 +38,7 @@ public class TextEffectFormat
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 Aspose.Cells.Drawing.ShapeCollection shapes = workbook.Worksheets[0].Shapes;
 shapes.AddTextEffect(MsoPresetTextEffect.TextEffect1, "Aspose", "Arial", 30, false, false, 0, 0, 0, 0, 100, 200);
@@ -48,7 +48,7 @@ workbook.Save("Book1.xls");
 
 [Visual Basic]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 Dim shapes As Aspose.Cells.Drawing.ShapeCollection = workbook.Worksheets(0).Shapes
 shapes.AddTextEffect(MsoPresetTextEffect.TextEffect1, "Aspose", "Arial", 30, false, false, 0, 0, 0, 0, 100, 200)

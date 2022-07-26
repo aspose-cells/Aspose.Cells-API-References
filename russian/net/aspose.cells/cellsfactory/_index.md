@@ -1,14 +1,14 @@
 ---
 title: CellsFactory
 second_title: Справочник по Aspose.Cells для .NET API
-description: Утилита для создания экземпляров классов модели Cells.
+description: Утилита для создания экземпляров классов модели ячеек.
 type: docs
 weight: 340
 url: /ru/net/aspose.cells/cellsfactory/
 ---
 ## CellsFactory class
 
-Утилита для создания экземпляров классов модели Cells.
+Утилита для создания экземпляров классов модели ячеек.
 
 ```csharp
 public class CellsFactory

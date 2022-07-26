@@ -1,14 +1,14 @@
 ---
 title: HiddenColDisplayType
 second_title: Aspose.Cells for .NET API 参考
-description: excel中的隐藏列该列的宽度为0在保存为html格式之前 如果HtmlHiddenColDisplayType为删除隐藏的列不会被输出 如果值为隐藏则该列会被输出但被隐藏默认值为隐藏
+description: excel中隐藏的列该列的宽度为0保存成html格式之前 如果HtmlHiddenColDisplayType为Remove隐藏的列不输出 如果值为Hidden该列将已输出但已隐藏默认值为隐藏
 type: docs
-weight: 300
+weight: 320
 url: /zh/net/aspose.cells/htmlsaveoptions/hiddencoldisplaytype/
 ---
 ## HtmlSaveOptions.HiddenColDisplayType property
 
-excel中的隐藏列（该列的宽度为0），在保存为html格式之前， 如果HtmlHiddenColDisplayType为“删除”，隐藏的列不会被输出， 如果值为“隐藏”，则该列会被输出，但被隐藏，默认值为“隐藏”
+excel中隐藏的列（该列的宽度为0），保存成html格式之前， 如果HtmlHiddenColDisplayType为“Remove”，隐藏的列不输出， 如果值为“Hidden”，该列将已输出，但已隐藏，默认值为“隐藏”
 
 ```csharp
 public HtmlHiddenColDisplayType HiddenColDisplayType { get; set; }

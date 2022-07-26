@@ -1,14 +1,14 @@
 ---
 title: CountOfStylesInPool
 second_title: Aspose.Cells for .NET API 参考
-description: 获取样式池中的样式数
+description: 获取样式池中样式的数量
 type: docs
 weight: 70
 url: /zh/net/aspose.cells/workbook/countofstylesinpool/
 ---
 ## Workbook.CountOfStylesInPool property
 
-获取样式池中的样式数。
+获取样式池中样式的数量。
 
 ```csharp
 public int CountOfStylesInPool { get; }

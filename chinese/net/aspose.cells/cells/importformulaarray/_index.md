@@ -3,7 +3,7 @@ title: ImportFormulaArray
 second_title: Aspose.Cells for .NET API 参考
 description: 将公式数组导入工作表
 type: docs
-weight: 1020
+weight: 1030
 url: /zh/net/aspose.cells/cells/importformulaarray/
 ---
 ## Cells.ImportFormulaArray method
@@ -18,7 +18,7 @@ public void ImportFormulaArray(string[] stringArray, int firstRow, int firstColu
 | --- | --- | --- |
 | stringArray | String[] | 公式数组。 |
 | firstRow | Int32 | 要导入的第一个单元格的行号。 |
-| firstColumn | Int32 | 列号要导入的第一个单元格。 |
+| firstColumn | Int32 | 要导入的第一个单元格的列号。 |
 | isVertical | Boolean | 指定垂直或水平导入数据。 |
 
 ### 也可以看看

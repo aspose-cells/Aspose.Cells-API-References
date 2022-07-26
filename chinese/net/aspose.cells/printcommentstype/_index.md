@@ -1,14 +1,14 @@
 ---
 title: PrintCommentsType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示注释与工作表一起打印的方式
+description: 表示使用工作表打印注释的方式
 type: docs
 weight: 4750
 url: /zh/net/aspose.cells/printcommentstype/
 ---
 ## PrintCommentsType enumeration
 
-表示注释与工作表一起打印的方式。
+表示使用工作表打印注释的方式。
 
 ```csharp
 public enum PrintCommentsType
@@ -19,7 +19,7 @@ public enum PrintCommentsType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | PrintInPlace | `0` | 表示打印在工作表上显示的注释。 |
-| PrintNoComments | `1` | 表示不打印注释。 |
+| PrintNoComments | `1` | 代表不打印评论。 |
 | PrintSheetEnd | `2` | 表示在工作表末尾打印注释。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: YValueType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает тип значения Y точки графика.
+description: Получает тип значения Y точки диаграммы.
 type: docs
 weight: 330
 url: /ru/net/aspose.cells.charts/chartpoint/yvaluetype/
 ---
 ## ChartPoint.YValueType property
 
-Получает тип значения Y точки графика.
+Получает тип значения Y точки диаграммы.
 
 ```csharp
 public CellValueType YValueType { get; }

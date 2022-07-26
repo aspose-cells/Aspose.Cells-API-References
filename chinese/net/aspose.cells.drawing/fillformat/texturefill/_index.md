@@ -1,14 +1,14 @@
 ---
 title: TextureFill
 second_title: Aspose.Cells for .NET API 参考
-description: 获取TextureFillaspose.cells.drawing/fillformat/texturefill对象
+description: 获取TextureFillaspose.cells.drawing/fillformat/texturefill对象.
 type: docs
 weight: 170
 url: /zh/net/aspose.cells.drawing/fillformat/texturefill/
 ---
 ## FillFormat.TextureFill property
 
-获取`TextureFill`对象。
+获取`TextureFill`对象.
 
 ```csharp
 public TextureFill TextureFill { get; }

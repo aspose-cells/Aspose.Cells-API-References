@@ -1,14 +1,14 @@
 ---
 title: StackTrace
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает строковое представление непосредственных кадров в стеке вызовов.
+description: Получает строковое представление ближайших кадров в стеке вызовов.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.gridjs/gridcellexception/stacktrace/
 ---
 ## GridCellException.StackTrace property
 
-Получает строковое представление непосредственных кадров в стеке вызовов.
+Получает строковое представление ближайших кадров в стеке вызовов.
 
 ```csharp
 public string StackTrace { get; }

@@ -1,14 +1,14 @@
 ---
 title: StartRow
 second_title: Справочник по Aspose.Cells для .NET API
-description: Начальный ряд области.
+description: Начальная строка области.
 type: docs
 weight: 80
 url: /ru/net/aspose.cells/referredarea/startrow/
 ---
 ## ReferredArea.StartRow property
 
-Начальный ряд области.
+Начальная строка области.
 
 ```csharp
 public int StartRow { get; }

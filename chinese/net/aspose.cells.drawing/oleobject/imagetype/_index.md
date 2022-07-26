@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.drawing/oleobject/imagetype/
 ---
 ## OleObject.ImageType property
 
-获取ole对象的图片格式。
+获取ole对象的图片格式
 
 ```csharp
 public ImageType ImageType { get; }

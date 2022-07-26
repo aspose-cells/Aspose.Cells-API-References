@@ -1,14 +1,14 @@
 ---
 title: TickLabelPositionType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет тип положения меток деления на указанной оси.
+description: Представляет тип положения меток делений на указанной оси.
 type: docs
 weight: 930
 url: /ru/net/aspose.cells.charts/ticklabelpositiontype/
 ---
 ## TickLabelPositionType enumeration
 
-Представляет тип положения меток деления на указанной оси.
+Представляет тип положения меток делений на указанной оси.
 
 ```csharp
 public enum TickLabelPositionType
@@ -21,7 +21,7 @@ public enum TickLabelPositionType
 | High | `0` | Тип позиции высокий. |
 | Low | `1` | Тип позиции низкий. |
 | NextToAxis | `2` | Тип позиции рядом с осью. |
-| None | `3` | Тип позиции - none. |
+| None | `3` | Тип позиции отсутствует. |
 
 ### Смотрите также
 

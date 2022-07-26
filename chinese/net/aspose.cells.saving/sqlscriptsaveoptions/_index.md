@@ -18,7 +18,7 @@ public class SqlScriptSaveOptions : SaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SqlScriptSaveOptions](sqlscriptsaveoptions)() | 创建用于保存 sql 文件的选项。 |
+| [SqlScriptSaveOptions](sqlscriptsaveoptions)() | 创建保存 sql 文件的选项。 |
 
 ## 特性
 
@@ -30,24 +30,24 @@ public class SqlScriptSaveOptions : SaveOptions
 | [CheckIfTableExists](../../aspose.cells.saving/sqlscriptsaveoptions/checkiftableexists) { get; set; } | 创建前检查表名是否存在 |
 | [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | 保存文件后使工作簿为空。 |
 | [ColumnTypeMap](../../aspose.cells.saving/sqlscriptsaveoptions/columntypemap) { get; set; } | 获取和设置不同数据库的列类型映射。 |
-| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | 如果为true且目录不存在，则在保存文件之前会自动创建目录。 |
+| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | 如果为true且目录不存在，会在保存文件前自动创建目录。 |
 | [CreateTable](../../aspose.cells.saving/sqlscriptsaveoptions/createtable) { get; set; } | 表示是否导出建表的sql。 |
 | [ExportArea](../../aspose.cells.saving/sqlscriptsaveoptions/exportarea) { get; set; } | 获取或设置导出范围。 |
 | [ExportAsString](../../aspose.cells.saving/sqlscriptsaveoptions/exportasstring) { get; set; } | 表示是否将所有数据导出为字符串值。 |
-| [HasHeaderRow](../../aspose.cells.saving/sqlscriptsaveoptions/hasheaderrow) { get; set; } | 指示范围是否包含标题行。 |
-| [IdName](../../aspose.cells.saving/sqlscriptsaveoptions/idname) { get; set; } | 获取和设置 id 列的名称。 |
+| [HasHeaderRow](../../aspose.cells.saving/sqlscriptsaveoptions/hasheaderrow) { get; set; } | 表示范围是否包含标题行。 |
+| [IdName](../../aspose.cells.saving/sqlscriptsaveoptions/idname) { get; set; } | 获取并设置id列的名称。 |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | 表示是否在保存文件之前合并条件格式和验证区域。 |
 | [OperatorType](../../aspose.cells.saving/sqlscriptsaveoptions/operatortype) { get; set; } | 获取和设置sql的运算符类型。 |
-| [PrimaryKey](../../aspose.cells.saving/sqlscriptsaveoptions/primarykey) { get; set; } | 表示哪一列是数据表的主键。 |
+| [PrimaryKey](../../aspose.cells.saving/sqlscriptsaveoptions/primarykey) { get; set; } | 表示哪一列是数据表的主键 |
 | [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | 表示是否刷新图表缓存数据 |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | 获取保存文件格式。 |
-| [Separator](../../aspose.cells.saving/sqlscriptsaveoptions/separator) { get; set; } | 获取和设置 sql 脚本的字符分隔符。 |
+| [Separator](../../aspose.cells.saving/sqlscriptsaveoptions/separator) { get; set; } | 获取和设置sql脚本的字符分隔符。 |
 | [SheetIndexes](../../aspose.cells.saving/sqlscriptsaveoptions/sheetindexes) { get; set; } | 表示导出工作表的索引。 |
 | [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | 表示是否在保存文件之前对外部定义的名称进行排序。 |
 | [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | 表示是否在保存文件之前对定义的名称进行排序。 |
-| [StartId](../../aspose.cells.saving/sqlscriptsaveoptions/startid) { get; set; } | 获取和设置起始ID。 |
+| [StartId](../../aspose.cells.saving/sqlscriptsaveoptions/startid) { get; set; } | 获取和设置起始id。 |
 | [TableName](../../aspose.cells.saving/sqlscriptsaveoptions/tablename) { get; set; } | 获取和设置表名。 |
-| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | 表示是否更新智能艺术设置。 默认值为假。 |
+| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | 表示是否更新智能艺术设置。 默认值为false。 |
 | [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas) { get; set; } | 表示是否在保存文件之前验证合并的单元格。 |
 | [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | 获取或设置警告回调。 |
 

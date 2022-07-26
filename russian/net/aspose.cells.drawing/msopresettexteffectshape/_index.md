@@ -20,28 +20,28 @@ public enum MsoPresetTextEffectShape
 | --- | --- | --- |
 | PlainText | `136` | Обычный текст |
 | Stop | `137` | Стоп |
-| TriangleUp | `138` | TriangleUp |
-| TriangleDown | `139` | TriangleDown |
-| ChevronUp | `140` | ChevronUp |
-| ChevronDown | `141` | ChevronDown |
+| TriangleUp | `138` | ТреугольникВверх |
+| TriangleDown | `139` | ТреугольникВниз |
+| ChevronUp | `140` | ШевронUp |
+| ChevronDown | `141` | ШевронВниз |
 | RingInside | `142` | RingInside |
 | RingOutside | `143` | RingOutside |
 | ArchUpCurve | `144` | ArchUpCurve |
 | ArchDownCurve | `145` | ArchDownCurve |
-| CircleCurve | `146` | CircleCurve |
-| ButtonCurve | `147` | ButtonCurve |
+| CircleCurve | `146` | Круговая кривая |
+| ButtonCurve | `147` | Кривая кнопки |
 | ArchUpPour | `148` | ArchUpPour |
 | ArchDownPour | `149` | ArchDownPour |
 | CirclePour | `150` | CirclePour |
 | ButtonPour | `151` | ButtonPour |
-| CurveUp | `152` | CurveUp |
-| CurveDown | `153` | CurveDown |
+| CurveUp | `152` | КриваяВверх |
+| CurveDown | `153` | КриваяВниз |
 | CanUp | `174` | CanUp |
 | CanDown | `175` | CanDown |
-| Wave1 | `156` | Wave1 |
-| Wave2 | `157` | Wave2 |
-| DoubleWave1 | `158` | DoubleWave1 |
-| DoubleWave2 | `159` | DoubleWave2 |
+| Wave1 | `156` | Волна1 |
+| Wave2 | `157` | Волна2 |
+| DoubleWave1 | `158` | ДаблВейв1 |
+| DoubleWave2 | `159` | ДаблВейв2 |
 | Inflate | `160` | Надуть |
 | Deflate | `161` | Выкачать |
 | InflateBottom | `162` | InflateBottom |
@@ -55,8 +55,8 @@ public enum MsoPresetTextEffectShape
 | FadeUp | `170` | FadeUp |
 | FadeDown | `171` | FadeDown |
 | SlantUp | `172` | SlantUp |
-| SlantDown | `173` | SlantDown |
-| CascadeUp | `154` | CascadeUp |
+| SlantDown | `173` | Наклонный вниз |
+| CascadeUp | `154` | КаскадВверх |
 | CascadeDown | `155` | CascadeDown |
 | Mixed | `255` | Смешанный |
 

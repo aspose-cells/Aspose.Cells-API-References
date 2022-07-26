@@ -1,14 +1,14 @@
 ---
 title: GetExternalConnectionById
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементExternalConnectionaspose.cells.externalconnections/externalconnectionс указанным идентификатором.
+description: ПолучаетExternalConnectionaspose.cells.externalconnections/externalconnection элемент с указанным id.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.externalconnections/externalconnectioncollection/getexternalconnectionbyid/
 ---
 ## ExternalConnectionCollection.GetExternalConnectionById method
 
-Получает элемент[`ExternalConnection`](../../externalconnection)с указанным идентификатором.
+Получает[`ExternalConnection`](../../externalconnection) элемент с указанным id.
 
 ```csharp
 public ExternalConnection GetExternalConnectionById(int connId)
@@ -16,11 +16,11 @@ public ExternalConnection GetExternalConnectionById(int connId)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connId | Int32 | id внешнего соединения |
+| connId | Int32 | идентификатор внешнего соединения |
 
 ### Возвращаемое значение
 
-Элемент с указанным id .
+Элемент с указанным идентификатором.
 
 ### Смотрите также
 

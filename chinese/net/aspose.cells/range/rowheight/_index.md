@@ -3,7 +3,7 @@ title: RowHeight
 second_title: Aspose.Cells for .NET API 参考
 description: 设置或获取此范围内的行高
 type: docs
-weight: 140
+weight: 160
 url: /zh/net/aspose.cells/range/rowheight/
 ---
 ## Range.RowHeight property

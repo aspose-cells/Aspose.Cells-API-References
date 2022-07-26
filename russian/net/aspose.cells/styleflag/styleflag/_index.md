@@ -1,14 +1,14 @@
 ---
 title: StyleFlag
 second_title: Справочник по Aspose.Cells для .NET API
-description: Создает объект со всеми флагами как ложными.
+description: Создает объект со всеми флагами как false.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/styleflag/styleflag/
 ---
 ## StyleFlag constructor
 
-Создает объект со всеми флагами как ложными.
+Создает объект со всеми флагами как false.
 
 ```csharp
 public StyleFlag()

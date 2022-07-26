@@ -19,7 +19,7 @@ public void Clear()
 ```csharp
 
 [C#]
-  //clear
+//Чисто
 pictures.Clear();
 ```
 

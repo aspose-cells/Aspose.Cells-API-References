@@ -1,14 +1,14 @@
 ---
 title: InnerRadiusPx
 second_title: Aspose.Cells for .NET API 参考
-description: 调用 Chart.Calculate 方法后以像素为单位获取圆环切片的内半径 适用于圆环图
+description: 调用 Chart.Calculate 方法后获取圆环切片的内半径以像素为单位 适用于圆环图
 type: docs
 weight: 150
 url: /zh/net/aspose.cells.charts/chartpoint/innerradiuspx/
 ---
 ## ChartPoint.InnerRadiusPx property
 
-调用 Chart.Calculate() 方法后，以像素为单位获取圆环切片的内半径。 适用于圆环图。
+调用 Chart.Calculate() 方法后获取圆环切片的内半径，以像素为单位。 适用于圆环图。
 
 ```csharp
 public int InnerRadiusPx { get; }

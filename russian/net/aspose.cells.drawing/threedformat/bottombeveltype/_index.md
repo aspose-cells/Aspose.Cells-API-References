@@ -1,14 +1,14 @@
 ---
 title: BottomBevelType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает тип нижнего скоса или степень его применения в форме. В баллах.
+description: Получает и задает тип нижнего скоса или степень его применения в форме. В единицах измерения Points.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.drawing/threedformat/bottombeveltype/
 ---
 ## ThreeDFormat.BottomBevelType property
 
-Получает и задает тип нижнего скоса или степень его применения в форме. В баллах.
+Получает и задает тип нижнего скоса или степень его применения в форме. В единицах измерения Points.
 
 ```csharp
 public BevelType BottomBevelType { get; set; }

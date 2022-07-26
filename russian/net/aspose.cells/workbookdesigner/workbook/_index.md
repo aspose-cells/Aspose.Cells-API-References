@@ -1,14 +1,14 @@
 ---
 title: Workbook
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает объектWorkbookaspose.cells/workbookdesigner/workbook.
+description: Получает и устанавливаетWorkbookaspose.cells/workbookdesigner/workbook объект.
 type: docs
 weight: 80
 url: /ru/net/aspose.cells/workbookdesigner/workbook/
 ---
 ## WorkbookDesigner.Workbook property
 
-Получает и задает объект`Workbook`.
+Получает и устанавливает`Workbook` объект.
 
 ```csharp
 public Workbook Workbook { get; set; }

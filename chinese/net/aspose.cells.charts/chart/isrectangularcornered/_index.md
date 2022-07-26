@@ -1,14 +1,14 @@
 ---
 title: IsRectangularCornered
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置一个值指示图表区域是否为矩形角 默认为真
+description: 获取或设置一个值指示图表区域是否为矩形角 默认为true
 type: docs
 weight: 170
 url: /zh/net/aspose.cells.charts/chart/isrectangularcornered/
 ---
 ## Chart.IsRectangularCornered property
 
-获取或设置一个值，指示图表区域是否为矩形角。 默认为真。
+获取或设置一个值，指示图表区域是否为矩形角。 默认为true。
 
 ```csharp
 public bool IsRectangularCornered { get; set; }

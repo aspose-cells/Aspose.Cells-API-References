@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.drawing/picformatoption/type/
 ---
 ## PicFormatOption.Type property
 
-获取或设置图片填充类型。
+获取或设置图片填充类型
 
 ```csharp
 public FillPictureType Type { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取该范围内的Cellaspose.cells/cell对象
+description: 获取Cellaspose.cells/cell此范围内的对象
 type: docs
-weight: 100
+weight: 110
 url: /zh/net/aspose.cells/range/item/
 ---
 ## Range indexer
 
-获取该范围内的[`Cell`](../../cell)对象。
+获取[`Cell`](../../cell)此范围内的对象。
 
 ```csharp
 public Cell this[int rowOffset, int columnOffset] { get; }
@@ -21,7 +21,7 @@ public Cell this[int rowOffset, int columnOffset] { get; }
 
 ### 返回值
 
-[`Cell`](../../cell)对象。
+[`Cell`](../../cell)目的。
 
 ### 也可以看看
 

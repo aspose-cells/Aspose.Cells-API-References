@@ -1,14 +1,14 @@
 ---
 title: NegativeBarFormat
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет настройки цвета гистограмм для отрицательных значений определенных правилом условного форматирования гистограммы.
+description: Представляет настройки цвета гистограмм для отрицательных значений которые определяются правилом условного форматирования гистограммы.
 type: docs
 weight: 4230
 url: /ru/net/aspose.cells/negativebarformat/
 ---
 ## NegativeBarFormat class
 
-Представляет настройки цвета гистограмм для отрицательных значений, определенных правилом условного форматирования гистограммы.
+Представляет настройки цвета гистограмм для отрицательных значений, которые определяются правилом условного форматирования гистограммы.
 
 ```csharp
 public class NegativeBarFormat
@@ -19,9 +19,9 @@ public class NegativeBarFormat
 | Имя | Описание |
 | --- | --- |
 | [BorderColor](../../aspose.cells/negativebarformat/bordercolor) { get; set; } | Получает или задает объект FormatColor, который можно использовать для указания цвета границы для отрицательных гистограмм. |
-| [BorderColorType](../../aspose.cells/negativebarformat/bordercolortype) { get; set; } | Получает, использовать ли тот же цвет границы, что и положительные гистограммы. |
-| [Color](../../aspose.cells/negativebarformat/color) { get; set; } | Получает или задает объект FormatColor, который можно использовать для указания цвета заливки отрицательных столбцов данных. |
-| [ColorType](../../aspose.cells/negativebarformat/colortype) { get; set; } | Получает или задает, следует ли использовать тот же цвет заливки, что и положительные столбцы данных. |
+| [BorderColorType](../../aspose.cells/negativebarformat/bordercolortype) { get; set; } | Указывает, следует ли использовать тот же цвет границы, что и столбцы положительных данных. |
+| [Color](../../aspose.cells/negativebarformat/color) { get; set; } | Получает или задает объект FormatColor, который можно использовать для указания цвета заливки отрицательных гистограмм. |
+| [ColorType](../../aspose.cells/negativebarformat/colortype) { get; set; } | Получает или задает, следует ли использовать тот же цвет заливки, что и положительные гистограммы. |
 
 ### Смотрите также
 

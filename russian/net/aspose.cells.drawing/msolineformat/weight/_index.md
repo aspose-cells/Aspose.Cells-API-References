@@ -1,14 +1,14 @@
 ---
 title: Weight
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает или задает вес линии в точках.
+description: Возвращает или устанавливает вес линии в единицах pt.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.drawing/msolineformat/weight/
 ---
 ## MsoLineFormat.Weight property
 
-Возвращает или задает вес линии в точках.
+Возвращает или устанавливает вес линии в единицах pt.
 
 ```csharp
 public double Weight { get; set; }

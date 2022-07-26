@@ -1,14 +1,14 @@
 ---
 title: CustomPropertiesExport
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает значение определяющее способ экспортаCustomDocumentPropertyCollectionaspose.cells.properties/customdocumentpropertycollectionв файл PDF. Значение по умолчанию  Нет.
+description: Получает или задает значение определяющее способCustomDocumentPropertyCollectionaspose.cells.properties/customdocumentpropertycollection экспортируются в файл PDF. Значение по умолчанию  Нет.
 type: docs
 weight: 90
 url: /ru/net/aspose.cells/pdfsaveoptions/custompropertiesexport/
 ---
 ## PdfSaveOptions.CustomPropertiesExport property
 
-Получает или задает значение, определяющее способ экспорта[`CustomDocumentPropertyCollection`](../../../aspose.cells.properties/customdocumentpropertycollection)в файл PDF. Значение по умолчанию — Нет.
+Получает или задает значение, определяющее способ[`CustomDocumentPropertyCollection`](../../../aspose.cells.properties/customdocumentpropertycollection) экспортируются в файл PDF. Значение по умолчанию — Нет.
 
 ```csharp
 public PdfCustomPropertiesExport CustomPropertiesExport { get; set; }

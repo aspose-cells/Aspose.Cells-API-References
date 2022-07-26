@@ -1,14 +1,14 @@
 ---
 title: IsLockAspectRatio
 second_title: Справочник по Aspose.Cells для .NET API
-description: True означает что нельзя изменять соотношение сторон.
+description: True означает что изменение соотношения сторон запрещено.
 type: docs
 weight: 330
 url: /ru/net/aspose.cells.drawing/shape/islockaspectratio/
 ---
 ## Shape.IsLockAspectRatio property
 
-True означает, что нельзя изменять соотношение сторон.
+True означает, что изменение соотношения сторон запрещено.
 
 ```csharp
 public bool IsLockAspectRatio { get; set; }

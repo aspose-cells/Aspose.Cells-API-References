@@ -1,14 +1,14 @@
 ---
 title: Is3ColorScale
 second_title: Aspose.Cells for .NET API 参考
-description: 表示条件格式是否为 3 色标
+description: 表示条件格式是否为 3 色标度
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/colorscale/is3colorscale/
 ---
 ## ColorScale.Is3ColorScale property
 
-表示条件格式是否为 3 色标。
+表示条件格式是否为 3 色标度。
 
 ```csharp
 public bool Is3ColorScale { get; set; }

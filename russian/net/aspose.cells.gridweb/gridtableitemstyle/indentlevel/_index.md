@@ -1,14 +1,14 @@
 ---
 title: IndentLevel
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или устанавливает уровень отступа.
+description: Получает или задает уровень отступа.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.gridweb/gridtableitemstyle/indentlevel/
 ---
 ## GridTableItemStyle.IndentLevel property
 
-Получает или устанавливает уровень отступа.
+Получает или задает уровень отступа.
 
 ```csharp
 public int IndentLevel { get; set; }

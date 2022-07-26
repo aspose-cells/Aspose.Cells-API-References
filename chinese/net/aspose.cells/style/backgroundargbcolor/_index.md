@@ -1,14 +1,14 @@
 ---
 title: BackgroundArgbColor
 second_title: Aspose.Cells for .NET API 参考
-description: 使用 32 位 ARGB 值获取和设置背景颜色
+description: 获取并设置具有 32 位 ARGB 值的背景颜色
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/style/backgroundargbcolor/
 ---
 ## Style.BackgroundArgbColor property
 
-使用 32 位 ARGB 值获取和设置背景颜色。
+获取并设置具有 32 位 ARGB 值的背景颜色。
 
 ```csharp
 public int BackgroundArgbColor { get; set; }

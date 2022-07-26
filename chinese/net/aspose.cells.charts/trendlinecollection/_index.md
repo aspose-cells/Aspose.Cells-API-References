@@ -1,14 +1,14 @@
 ---
 title: TrendlineCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示指定数据系列的所有Trendline./trendline对象的集合
+description: 代表所有的集合Trendline./trendline指定数据系列的对象
 type: docs
 weight: 990
 url: /zh/net/aspose.cells.charts/trendlinecollection/
 ---
 ## TrendlineCollection class
 
-表示指定数据系列的所有[`Trendline`](../trendline)对象的集合。
+代表所有的集合[`Trendline`](../trendline)指定数据系列的对象。
 
 ```csharp
 public class TrendlineCollection : CollectionBase<Trendline>
@@ -20,15 +20,15 @@ public class TrendlineCollection : CollectionBase<Trendline>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.charts/trendlinecollection/item) { get; } | 通过索引获取对象。 |
+| [Item](../../aspose.cells.charts/trendlinecollection/item) { get; } | 得到一个对象的索引。 |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells.charts/trendlinecollection/add#add)(TrendlineType) | 将对象添加到具有指定类型的此集合中。 |
-| [Add](../../aspose.cells.charts/trendlinecollection/add#add_1)(TrendlineType, string) | 将对象添加到具有指定类型和名称的集合中。 |
+| [Add](../../aspose.cells.charts/trendlinecollection/add#add)(TrendlineType) | 添加一个具有指定类型的此集合的对象。 |
+| [Add](../../aspose.cells.charts/trendlinecollection/add#add_1)(TrendlineType, string) | 添加一个具有指定类型和名称的此集合的对象。 |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Trendline) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Trendline, IComparer&lt;Trendline&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Trendline, IComparer&lt;Trendline&gt;) |  |
@@ -61,12 +61,11 @@ public class TrendlineCollection : CollectionBase<Trendline>
 ```csharp
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
- //向Excel对象添加新工作表
+//向Excel对象添加一个新的工作表
 int sheetIndex = workbook.Worksheets.Add();
- //通过传入其sheet index
-et的引用
+//通过传入工作表的索引来获取新添加的工作表的引用
 Worksheet worksheet = workbook.Worksheets[sheetIndex];
 worksheet.Cells["A1"].PutValue(50);
 worksheet.Cells["A2"].PutValue(100);
@@ -77,7 +76,7 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 worksheet.Cells["B4"].PutValue(40);
 
- //将图表添加到工作表
+//向工作表添加图表
 int chartIndex = workbook.Worksheets[0].Charts.Add(ChartType.Column, 3, 3, 15, 10);
 Chart chart = workbook.Worksheets[0].Charts[chartIndex];
 chart.NSeries.Add("A1:a3", true);
@@ -89,12 +88,11 @@ line.Color = Color.Red;
 
 [Visual Basic]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
-'向Excel对象添加新工作表
+'向 Excel 对象添加新工作表
 Dim sheetIndex As Int32 = workbook.Worksheets.Add()
-'通过传入其sheet index
-et的引用
+'通过传入工作表的索引来获取新添加的工作表的引用
 Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
 worksheet.Cells("A1").PutValue(50)
 worksheet.Cells("A2").PutValue(100)

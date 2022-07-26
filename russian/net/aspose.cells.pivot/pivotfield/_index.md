@@ -20,13 +20,13 @@ public class PivotField
 | --- | --- |
 | [AutoShowCount](../../aspose.cells.pivot/pivotfield/autoshowcount) { get; set; } | Представляет количество верхних или нижних элементов , которые автоматически отображаются в указанном поле сводной таблицы. |
 | [AutoShowField](../../aspose.cells.pivot/pivotfield/autoshowfield) { get; set; } | Представляет индекс поля автопоказа. -1 означает сам PivotField. Это должен быть индекс полей данных. |
-| [AutoSortField](../../aspose.cells.pivot/pivotfield/autosortfield) { get; set; } | Представляет индекс поля автоматической сортировки. -1 означает сам PivotField, остальные означают положение полей данных. |
+| [AutoSortField](../../aspose.cells.pivot/pivotfield/autosortfield) { get; set; } | Представляет индекс поля автоматической сортировки. -1 означает само PivotField, остальные означают положение полей данных. |
 | [BaseFieldIndex](../../aspose.cells.pivot/pivotfield/basefieldindex) { get; set; } | Представляет базовое поле для пользовательского расчета. |
-| [BaseIndex](../../aspose.cells.pivot/pivotfield/baseindex) { get; set; } | Представляет индекс PivotField в базовых полях PivotField. |
-| [BaseItemIndex](../../aspose.cells.pivot/pivotfield/baseitemindex) { get; set; } | Представляет элемент в базовом поле для пользовательского расчета. Действительно только для полей данных. |
-| [BaseItemPosition](../../aspose.cells.pivot/pivotfield/baseitemposition) { get; set; } | Представляет элемент в базовом поле для пользовательского расчета. Действительно только для полей данных. Поскольку PivotItemPosition.Custom предназначен только для чтения, если вам нужно установить PivotItemPosition.Custom, установите атрибут PivotField.BaseItemIndex. |
+| [BaseIndex](../../aspose.cells.pivot/pivotfield/baseindex) { get; set; } | Представляет индекс PivotField в базовых PivotFields. |
+| [BaseItemIndex](../../aspose.cells.pivot/pivotfield/baseitemindex) { get; set; } | Представляет элемент в базовом поле для пользовательского расчета. Допустимо только для полей данных. |
+| [BaseItemPosition](../../aspose.cells.pivot/pivotfield/baseitemposition) { get; set; } | Представляет элемент в базовом поле для пользовательского расчета. Допустимо только для полей данных. Поскольку PivotItemPosition.Custom предназначен только для чтения, если вам нужно установить PivotItemPosition.Custom, установите атрибут PivotField.BaseItemIndex. |
 | [CurrentPageItem](../../aspose.cells.pivot/pivotfield/currentpageitem) { get; set; } | Представляет текущий элемент страницы, отображаемый для поля страницы (действительно только для полей страницы). |
-| [DataDisplayFormat](../../aspose.cells.pivot/pivotfield/datadisplayformat) { get; set; } | Представляет способ отображения значений, содержащихся в поле данных. |
+| [DataDisplayFormat](../../aspose.cells.pivot/pivotfield/datadisplayformat) { get; set; } | Представляет, как отображать значения, содержащиеся в поле данных. |
 | [DisplayName](../../aspose.cells.pivot/pivotfield/displayname) { get; set; } | Представляет отображаемое имя PivotField. |
 | [DragToColumn](../../aspose.cells.pivot/pivotfield/dragtocolumn) { get; set; } | Указывает, можно ли перетащить указанное поле в позицию столбца. Значение по умолчанию — true. |
 | [DragToData](../../aspose.cells.pivot/pivotfield/dragtodata) { get; set; } | Указывает, можно ли перетащить указанное поле в позицию данных. Значение по умолчанию — true. |
@@ -37,15 +37,15 @@ public class PivotField
 | [InsertBlankRow](../../aspose.cells.pivot/pivotfield/insertblankrow) { get; set; } | Указывает, вставляется ли пустая строка после каждого элемента. |
 | [IsAscendShow](../../aspose.cells.pivot/pivotfield/isascendshow) { get; set; } | Указывает, отображается ли указанное поле сводной таблицы автоматически по возрастанию. |
 | [IsAscendSort](../../aspose.cells.pivot/pivotfield/isascendsort) { get; set; } | Указывает, сортируется ли указанное поле сводной таблицы автоматически по возрастанию. |
-| [IsAutoShow](../../aspose.cells.pivot/pivotfield/isautoshow) { get; set; } | Указывает, отображается ли указанное поле сводной таблицы автоматически, только для Excel 2003. |
+| [IsAutoShow](../../aspose.cells.pivot/pivotfield/isautoshow) { get; set; } | Указывает, отображается ли указанное поле сводной таблицы автоматически. Допустимо только для Excel 2003. |
 | [IsAutoSort](../../aspose.cells.pivot/pivotfield/isautosort) { get; set; } | Указывает, сортируется ли указанное поле сводной таблицы автоматически. |
-| [IsAutoSubtotals](../../aspose.cells.pivot/pivotfield/isautosubtotals) { get; set; } | Указывает, отображаются ли в указанном поле автоматические промежуточные итоги. Значение по умолчанию верно. |
+| [IsAutoSubtotals](../../aspose.cells.pivot/pivotfield/isautosubtotals) { get; set; } | Указывает, отображаются ли в указанном поле автоматические промежуточные итоги. Значение по умолчанию — true. |
 | [IsCalculatedField](../../aspose.cells.pivot/pivotfield/iscalculatedfield) { get; } | Указывает, является ли указанное поле сводной таблицы вычисляемым полем. |
-| [IsIncludeNewItemsInFilter](../../aspose.cells.pivot/pivotfield/isincludenewitemsinfilter) { get; set; } | указывает, может ли поле включать новые элементы в ручном фильтре Значение по умолчанию — false. |
-| [IsInsertPageBreaksBetweenItems](../../aspose.cells.pivot/pivotfield/isinsertpagebreaksbetweenitems) { get; set; } | указывает, может ли поле вставлять разрывы страниц между элементами вставлять разрывы страниц после каждого элемента Значение по умолчанию - false . |
-| [IsMultipleItemSelectionAllowed](../../aspose.cells.pivot/pivotfield/ismultipleitemselectionallowed) { get; set; } | указывает, может ли поле иметь несколько элементов выбранных в поле страницы Значение по умолчанию - false. |
-| [IsRepeatItemLabels](../../aspose.cells.pivot/pivotfield/isrepeatitemlabels) { get; set; } | указывает, может ли поле повторять метки элементов Значение по умолчанию — false. |
-| [ItemCount](../../aspose.cells.pivot/pivotfield/itemcount) { get; } | Получает количество базовых элементов этого сводного поля. |
+| [IsIncludeNewItemsInFilter](../../aspose.cells.pivot/pivotfield/isincludenewitemsinfilter) { get; set; } | указывает, может ли поле включать новые элементы в ручном filter Значение по умолчанию — false. |
+| [IsInsertPageBreaksBetweenItems](../../aspose.cells.pivot/pivotfield/isinsertpagebreaksbetweenitems) { get; set; } | указывает, может ли поле вставлять разрывы страниц между элементами вставлять разрывы страниц после каждого элемента Значение по умолчанию — false. |
+| [IsMultipleItemSelectionAllowed](../../aspose.cells.pivot/pivotfield/ismultipleitemselectionallowed) { get; set; } | указывает, может ли поле иметь несколько элементов , выбранных на странице field Значение по умолчанию — false. |
+| [IsRepeatItemLabels](../../aspose.cells.pivot/pivotfield/isrepeatitemlabels) { get; set; } | указывает, может ли поле повторять элементы labels Значение по умолчанию — false. |
+| [ItemCount](../../aspose.cells.pivot/pivotfield/itemcount) { get; } | Получает количество базовых элементов в этом сводном поле. |
 | [Items](../../aspose.cells.pivot/pivotfield/items) { get; } | Получить все базовые предметы; |
 | [Name](../../aspose.cells.pivot/pivotfield/name) { get; } | Представляет имя PivotField. |
 | [Number](../../aspose.cells.pivot/pivotfield/number) { get; set; } | Представляет встроенный формат отображения чисел и дат. |
@@ -54,28 +54,28 @@ public class PivotField
 | [PivotItems](../../aspose.cells.pivot/pivotfield/pivotitems) { get; } | Получает элементы сводки поля сводки |
 | [Position](../../aspose.cells.pivot/pivotfield/position) { get; } | Представляет индекс PivotField в PivotFields. |
 | [Range](../../aspose.cells.pivot/pivotfield/range) { get; } | Получает диапазон группы сводного поля |
-| [ShowAllItems](../../aspose.cells.pivot/pivotfield/showallitems) { get; set; } | Указывает, отображаются ли все элементы в отчете сводной таблицы, даже если они не содержат сводных данных. показать элементы без данных Значение по умолчанию - false. |
-| [ShowCompact](../../aspose.cells.pivot/pivotfield/showcompact) { get; set; } | Указывает, отображать ли метки из следующего поля в том же столбце в представлении сводной таблицы |
-| [ShowInOutlineForm](../../aspose.cells.pivot/pivotfield/showinoutlineform) { get; set; } | Указывает, размещается ли это поле в виде схемы в представлении сводной таблицы |
-| [ShowSubtotalAtTop](../../aspose.cells.pivot/pivotfield/showsubtotalattop) { get; set; } | когда ShowInOutlineForm имеет значение true, то отображать промежуточные итоги вверху списка элементов, а не внизу |
+| [ShowAllItems](../../aspose.cells.pivot/pivotfield/showallitems) { get; set; } | Указывает, отображаются ли все элементы в отчете сводной таблицы, , даже если они не содержат сводных данных. показывать элементы без данных Значение по умолчанию — false. |
+| [ShowCompact](../../aspose.cells.pivot/pivotfield/showcompact) { get; set; } | Указывает, отображать ли метки из следующего поля в том же столбце сводной таблицы view |
+| [ShowInOutlineForm](../../aspose.cells.pivot/pivotfield/showinoutlineform) { get; set; } | Указывает, размещается ли это поле в виде схемы в сводной таблице view |
+| [ShowSubtotalAtTop](../../aspose.cells.pivot/pivotfield/showsubtotalattop) { get; set; } | , когда ShowInOutlineForm имеет значение true, промежуточные итоги отображаются вверху списка элементов, а не внизу |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [AddCalculatedItem](../../aspose.cells.pivot/pivotfield/addcalculateditem)(string, string) | Добавить вычисляемый элемент в сводное поле. |
-| [GetCalculatedFieldFormula](../../aspose.cells.pivot/pivotfield/getcalculatedfieldformula)() | Получить строку формулы указанного вычисляемого поля. |
-| [GetPivotFilterByType](../../aspose.cells.pivot/pivotfield/getpivotfilterbytype)(PivotFilterType) | Получает фильтр сводного поля по типу |
-| [GetPivotFilters](../../aspose.cells.pivot/pivotfield/getpivotfilters)() | Получает сводные фильтры поля сводки |
+| [GetCalculatedFieldFormula](../../aspose.cells.pivot/pivotfield/getcalculatedfieldformula)() | Получить строку формулы указанного вычисляемого поля . |
+| [GetPivotFilterByType](../../aspose.cells.pivot/pivotfield/getpivotfilterbytype)(PivotFilterType) | Получает фильтр сводки поля сводки по типу |
+| [GetPivotFilters](../../aspose.cells.pivot/pivotfield/getpivotfilters)() | Получает сводные фильтры сводного поля |
 | [GetSubtotals](../../aspose.cells.pivot/pivotfield/getsubtotals)(PivotFieldSubtotalType) | Получает, показывает ли указанное поле эти промежуточные итоги. |
 | [HideDetail](../../aspose.cells.pivot/pivotfield/hidedetail)(bool) | Устанавливает, являются ли PivotItems в сводном поле скрытыми деталями. То есть свернуть/развернуть это поле. |
 | [HideItem](../../aspose.cells.pivot/pivotfield/hideitem#hideitem)(int, bool) | Устанавливает, скрыт ли конкретный PivotItem в поле данных. |
 | [HideItem](../../aspose.cells.pivot/pivotfield/hideitem#hideitem_1)(string, bool) | Устанавливает, скрыт ли конкретный PivotItem в поле данных. |
 | [HideItemDetail](../../aspose.cells.pivot/pivotfield/hideitemdetail)(int, bool) | Устанавливает, является ли конкретный PivotItem в сводном поле скрытым. |
-| [InitPivotItems](../../aspose.cells.pivot/pivotfield/initpivotitems)() | Инициировать элементы сводки поля сводки |
+| [InitPivotItems](../../aspose.cells.pivot/pivotfield/initpivotitems)() | Инициализировать сводные элементы сводного поля |
 | [IsHiddenItem](../../aspose.cells.pivot/pivotfield/ishiddenitem)(int) | Указывает, скрыт ли конкретный PivotItem. |
-| [IsHiddenItemDetail](../../aspose.cells.pivot/pivotfield/ishiddenitemdetail)(int) | Указывает, является ли конкретный PivotItem скрытой деталью. |
-| [SetSubtotals](../../aspose.cells.pivot/pivotfield/setsubtotals)(PivotFieldSubtotalType, bool) | Устанавливает, показывает ли указанное поле эти промежуточные итоги. |
+| [IsHiddenItemDetail](../../aspose.cells.pivot/pivotfield/ishiddenitemdetail)(int) | Указывает, скрыт ли конкретный PivotItem. |
+| [SetSubtotals](../../aspose.cells.pivot/pivotfield/setsubtotals)(PivotFieldSubtotalType, bool) | Устанавливает, будут ли в указанном поле отображаться эти промежуточные итоги. |
 
 ### Примеры
 
@@ -126,14 +126,14 @@ pivot.AddFieldToArea(PivotFieldType.Data, "amount");
 
 pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
 
-  //Изменить атрибуты PivotField
+//Изменяем атрибуты PivotField
 PivotField rowField = pivot.RowFields[0];
 rowField.DisplayName = "custom display name";
 
 pivot.RefreshData();
 pivot.CalculateData();
 
-  //делай свое дело
+//делай свое дело
 
 book.Save("out.xlsx");
 
@@ -182,7 +182,7 @@ Pivot.AddFieldToArea(PivotFieldType.Data, "amount")
 
 pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10
 
-'Изменить атрибуты PivotField
+'Change PivotField's attributes
 Dim rowField As PivotField = pivot.RowFields(0)
 rowField.DisplayName = "custom display name"
 

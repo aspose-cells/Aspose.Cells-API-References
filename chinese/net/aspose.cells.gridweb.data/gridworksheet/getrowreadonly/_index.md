@@ -1,14 +1,14 @@
 ---
 title: GetRowReadonly
 second_title: Aspose.Cells for .NET API 参考
-description: 获取一行是否为只读 这是GridWeb的扩展方法在实际的excel文件中不会保留和生效
+description: 获取一行是否为只读 这是GridWeb专门的扩展方法在实际的excel文件中不会保留和生效
 type: docs
 weight: 620
 url: /zh/net/aspose.cells.gridweb.data/gridworksheet/getrowreadonly/
 ---
 ## GridWorksheet.GetRowReadonly method
 
-获取一行是否为只读。 这是GridWeb的扩展方法，在实际的excel文件中不会保留和生效
+获取一行是否为只读。 这是GridWeb专门的扩展方法，在实际的excel文件中不会保留和生效
 
 ```csharp
 public bool GetRowReadonly(int rowIndex)

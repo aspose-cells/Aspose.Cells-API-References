@@ -18,7 +18,7 @@ public enum PageOrientationType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Landscape | `0` | 横向 |
+| Landscape | `0` | 横向方向 |
 | Portrait | `1` | 纵向方向 |
 
 ### 也可以看看

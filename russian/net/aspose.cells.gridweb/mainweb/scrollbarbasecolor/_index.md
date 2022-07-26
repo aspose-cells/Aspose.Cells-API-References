@@ -1,14 +1,14 @@
 ---
 title: ScrollBarBaseColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает цвет полосы прокрутки элемента управления.
+description: Определяет цвет полосы прокрутки элемента управления.
 type: docs
 weight: 770
 url: /ru/net/aspose.cells.gridweb/mainweb/scrollbarbasecolor/
 ---
 ## MainWeb.ScrollBarBaseColor property
 
-Задает цвет полосы прокрутки элемента управления.
+Определяет цвет полосы прокрутки элемента управления.
 
 ```csharp
 public Color ScrollBarBaseColor { get; set; }

@@ -3,7 +3,7 @@ title: UnMerge
 second_title: Aspose.Cells for .NET API 参考
 description: 取消合并此范围内的合并单元格
 type: docs
-weight: 390
+weight: 430
 url: /zh/net/aspose.cells/range/unmerge/
 ---
 ## Range.UnMerge method

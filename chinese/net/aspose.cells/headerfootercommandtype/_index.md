@@ -18,7 +18,7 @@ public enum HeaderFooterCommandType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Text | `0` | 文本。 |
+| Text | `0` | 文本. |
 | CurrentPage | `1` | 当前页码 |
 | Pagecount | `2` | 页数 |
 | CurrentDate | `3` | 当前日期 |

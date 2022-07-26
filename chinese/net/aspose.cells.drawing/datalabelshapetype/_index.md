@@ -1,14 +1,14 @@
 ---
 title: DataLabelShapeType
 second_title: Aspose.Cells for .NET API 参考
-description: 指定要用于图表的预设形状几何
+description: 指定要用于图表的预设形状几何图形
 type: docs
 weight: 1940
 url: /zh/net/aspose.cells.drawing/datalabelshapetype/
 ---
 ## DataLabelShapeType enumeration
 
-指定要用于图表的预设形状几何。
+指定要用于图表的预设形状几何图形。
 
 ```csharp
 public enum DataLabelShapeType
@@ -19,7 +19,7 @@ public enum DataLabelShapeType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Rect | `0` | 表示矩形形状。 |
-| RoundRect | `1` | 表示圆角矩形。 |
+| RoundRect | `1` | 表示圆角矩形形状。 |
 | Ellipse | `2` | 表示椭圆形状。 |
 | RightArrowCallout | `3` | 表示右箭头标注形状。 |
 | DownArrowCallout | `4` | 表示向下箭头标注形状。 |
@@ -30,9 +30,9 @@ public enum DataLabelShapeType
 | WedgeEllipseCallout | `9` | 表示楔形椭圆标注形状。 |
 | LineCallout | `10` | 表示线标注形状。 |
 | BentLineCallout | `11` | 表示弯曲线标注形状。 |
-| LineWithAccentBarCallout | `12` | 表示带有重音条标注形状的线条。 |
+| LineWithAccentBarCallout | `12` | 表示带有重音条标注形状的线。 |
 | BentLineWithAccentBarCallout | `13` | 表示带有重音条标注形状的弯曲线。 |
-| Line | `14` | 该类型仅用于特殊文件处理 |
+| Line | `14` | 该类型只用于特殊文件处理 |
 
 ### 也可以看看
 

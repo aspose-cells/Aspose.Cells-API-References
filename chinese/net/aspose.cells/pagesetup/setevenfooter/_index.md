@@ -1,14 +1,14 @@
 ---
 title: SetEvenFooter
 second_title: Aspose.Cells for .NET API 参考
-description: 设置脚本格式化 Excel 文件的偶数页脚 仅当 IsHFDiffOddEven 为真时在 Excel 2007 中有效
+description: 设置脚本格式化 Excel 文件的偶数页脚 仅当 IsHFDiffOddEven 为 true 时在 Excel 2007 中有效
 type: docs
 weight: 550
 url: /zh/net/aspose.cells/pagesetup/setevenfooter/
 ---
 ## PageSetup.SetEvenFooter method
 
-设置脚本格式化 Excel 文件的偶数页脚。 仅当 IsHFDiffOddEven 为真时在 Excel 2007 中有效。
+设置脚本格式化 Excel 文件的偶数页脚。 仅当 IsHFDiffOddEven 为 true 时在 Excel 2007 中有效。
 
 ```csharp
 public void SetEvenFooter(int section, string footerScript)
@@ -16,7 +16,7 @@ public void SetEvenFooter(int section, string footerScript)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| section | Int32 | 0:Left Section。 |
+| section | Int32 | 0：左侧部分，1：中间部分，2：右侧部分。 |
 | footerScript | String | 页脚格式脚本。 |
 
 ### 也可以看看

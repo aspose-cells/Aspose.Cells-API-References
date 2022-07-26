@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定索引处的PivotTable元素
+description: 获取PivotTable指定索引处的元素
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.gridweb.data/gridpivottablecollection/item/
 ---
 ## GridPivotTableCollection indexer
 
-获取指定索引处的PivotTable元素。
+获取PivotTable指定索引处的元素。
 
 ```csharp
 public GridPivotTable this[int index] { get; }

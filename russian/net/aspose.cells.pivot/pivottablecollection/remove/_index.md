@@ -16,7 +16,7 @@ public void Remove(PivotTable pivotTable)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pivotTable | PivotTable | PivotTable объект |
+| pivotTable | PivotTable | Объект сводной таблицы |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public void Remove(PivotTable pivotTable)
 
 ## Remove(PivotTable, bool) {#remove_1}
 
-Удаляет указанный объект сводной таблицы
+Удаляет указанную сводную таблицу
 
 ```csharp
 public void Remove(PivotTable pivotTable, bool keepData)
@@ -37,7 +37,7 @@ public void Remove(PivotTable pivotTable, bool keepData)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pivotTable | PivotTable | объект сводной таблицы |
+| pivotTable | PivotTable | Объект сводной таблицы |
 | keepData | Boolean | Сохранять ли данные сводной таблицы |
 
 ### Смотрите также

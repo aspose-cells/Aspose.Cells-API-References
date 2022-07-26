@@ -17,7 +17,7 @@ public void Protect(ProtectionType protectionType, string password)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | protectionType | ProtectionType | 保护类型。 |
-| password | String | 保护工作簿的密码。 |
+| password | String | 用于保护工作簿的密码。 |
 
 ### 也可以看看
 

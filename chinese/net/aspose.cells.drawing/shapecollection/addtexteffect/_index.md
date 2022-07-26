@@ -18,12 +18,12 @@ public Shape AddTextEffect(MsoPresetTextEffect effect, string text, string fontN
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| effect | MsoPresetTextEffect | mso 预设文本效果类型。 |
+| effect | MsoPresetTextEffect | mso 预设文字效果类型。 |
 | text | String | 艺术字文本。 |
 | fontName | String | 字体名称。 |
 | size | Int32 | 字体大小 |
-| fontBold | Boolean | 表示字体是否为粗体。 |
-| fontItalic | Boolean | 表示字体是否为斜体。 |
+| fontBold | Boolean | 指示字体是否为粗体。 |
+| fontItalic | Boolean | 指示字体是否为斜体。 |
 | upperLeftRow | Int32 | 左上行索引。 |
 | top | Int32 | 表示形状与其左行的垂直偏移量，以像素为单位。 |
 | upperLeftColumn | Int32 | 左上列索引。 |
@@ -33,14 +33,14 @@ public Shape AddTextEffect(MsoPresetTextEffect effect, string text, string fontN
 
 ### 返回值
 
-返回代表新艺术字对象的 Shape 对象。
+返回一个表示新艺术字对象的 Shape 对象。
 
 ### 例子
 
 ```csharp
 
 [C#]
- //添加一个艺术字
+//添加一个艺术字
 Shape wordArt1 = shapes.AddTextEffect(MsoPresetTextEffect.TextEffect10, "WordArt", "arial", 18, false, false, 3, 0, 3, 0, 200, 50);
 ```
 

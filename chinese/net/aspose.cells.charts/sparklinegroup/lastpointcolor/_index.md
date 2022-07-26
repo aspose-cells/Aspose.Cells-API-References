@@ -1,14 +1,14 @@
 ---
 title: LastPointColor
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置迷你图组中最后一个数据点的颜色
+description: 获取并设置迷你图组中最后一个数据点的颜色
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.charts/sparklinegroup/lastpointcolor/
 ---
 ## SparklineGroup.LastPointColor property
 
-获取和设置迷你图组中最后一个数据点的颜色。
+获取并设置迷你图组中最后一个数据点的颜色。
 
 ```csharp
 public CellsColor LastPointColor { get; set; }

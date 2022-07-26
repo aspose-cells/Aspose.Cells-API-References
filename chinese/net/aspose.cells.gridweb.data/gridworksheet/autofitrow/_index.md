@@ -22,7 +22,7 @@ public void AutoFitRow(int rowIndex, int firstColumn, int lastColumn)
 
 ### 评论
 
-此方法根据行内单元格范围内的内容自动调整行。
+此方法根据行内一系列单元格中的内容自动调整行。
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public void AutoFitRow(int rowIndex, int firstColumn, int lastColumn)
 
 ## AutoFitRow(int, int, int, int) {#autofitrow_2}
 
-自动调整矩形范围内的行高。
+在矩形范围内自动调整行高。
 
 ```csharp
 public void AutoFitRow(int startRow, int endRow, int startColumn, int endColumn)
@@ -42,7 +42,7 @@ public void AutoFitRow(int startRow, int endRow, int startColumn, int endColumn)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startRow | Int32 | 起始行索引。 |
+| startRow | Int32 | 开始行索引。 |
 | endRow | Int32 | 结束行索引。 |
 | startColumn | Int32 | 开始列索引。 |
 | endColumn | Int32 | 结束列索引。 |

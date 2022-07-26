@@ -1,14 +1,14 @@
 ---
 title: Author
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置原始评论作者的姓名
+description: 获取并设置原始评论作者的姓名
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/comment/author/
 ---
 ## Comment.Author property
 
-获取和设置原始评论作者的姓名
+获取并设置原始评论作者的姓名
 
 ```csharp
 public string Author { get; set; }

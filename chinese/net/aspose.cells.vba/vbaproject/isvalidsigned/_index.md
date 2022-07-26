@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.vba/vbaproject/isvalidsigned/
 ---
 ## VbaProject.IsValidSigned property
 
-表示VBA工程的签名是否有效。
+表示VBA工程的签名是否有效
 
 ```csharp
 public bool IsValidSigned { get; }

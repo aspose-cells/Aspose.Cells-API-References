@@ -29,7 +29,7 @@ public class CellControlCollection : CellRelativeCollection
 | [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton#addbutton_3)(string, int, int, string, bool) | Добавляет кнопку в указанную ячейку по имени ячейки. |
 | [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton#addbutton_1)(int, int, int, int, string, bool) | Добавляет кнопку в указанную ячейку по индексу столбца строки. |
 | [AddCheckBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcheckbox#addcheckbox_1)(string, bool) | Добавляет флажок в указанную ячейку по имени ячейки. |
-| [AddCheckBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcheckbox#addcheckbox)(int, int, bool) | Добавляет флажок в указанную ячейку по индексу столбца строки. |
+| [AddCheckBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcheckbox#addcheckbox)(int, int, bool) | Добавляет флажок в указанную ячейку в индексе столбца строки. |
 | [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox#addcombobox_2)(string, ICollection) | Добавляет поле со списком в указанную ячейку по имени ячейки. |
 | [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox#addcombobox)(int, int, ICollection) | Добавляет поле со списком в указанную ячейку по индексу столбца строки. |
 | [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox#addcombobox_3)(string, ICollection, ICollection) | Добавляет поле со списком в указанную ячейку по имени ячейки. |

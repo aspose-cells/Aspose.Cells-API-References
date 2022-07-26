@@ -1,14 +1,14 @@
 ---
 title: CustomXmlParts
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет пользовательскую часть хранения данных XML пользовательские данные XML в пакете.
+description: Представляет часть хранилища пользовательских данных XML пользовательские данные XML в пакете.
 type: docs
 weight: 90
 url: /ru/net/aspose.cells/workbook/customxmlparts/
 ---
 ## Workbook.CustomXmlParts property
 
-Представляет пользовательскую часть хранения данных XML (пользовательские данные XML в пакете).
+Представляет часть хранилища пользовательских данных XML (пользовательские данные XML в пакете).
 
 ```csharp
 public CustomXmlPartCollection CustomXmlParts { get; }

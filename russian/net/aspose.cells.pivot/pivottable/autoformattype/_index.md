@@ -1,14 +1,14 @@
 ---
 title: AutoFormatType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает тип автоматического форматирования сводной таблицы.
+description: Получает тип автоматического формата сводной таблицы.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.pivot/pivottable/autoformattype/
 ---
 ## PivotTable.AutoFormatType property
 
-Получает тип автоматического форматирования сводной таблицы.
+Получает тип автоматического формата сводной таблицы.
 
 ```csharp
 public PivotTableAutoFormatType AutoFormatType { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: FilterColumn
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет фильтр для одного столбца. Объект Filter является членом коллекции Filters
+description: Представляет фильтр для одного столбца. Объект Filter является членом коллекции Filters .
 type: docs
 weight: 3430
 url: /ru/net/aspose.cells/filtercolumn/
 ---
 ## FilterColumn class
 
-Представляет фильтр для одного столбца. Объект Filter является членом коллекции Filters
+Представляет фильтр для одного столбца. Объект Filter является членом коллекции Filters .
 
 ```csharp
 public class FilterColumn

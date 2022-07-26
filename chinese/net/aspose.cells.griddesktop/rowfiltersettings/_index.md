@@ -1,14 +1,14 @@
 ---
 title: RowFilterSettings
 second_title: Aspose.Cells for .NET API 参考
-description: RowFilter 的摘要描述
+description: RowFilter. 的摘要描述
 type: docs
 weight: 930
 url: /zh/net/aspose.cells.griddesktop/rowfiltersettings/
 ---
 ## RowFilterSettings class
 
-RowFilter 的摘要描述。
+RowFilter. 的摘要描述
 
 ```csharp
 public class RowFilterSettings : IComparer
@@ -19,8 +19,8 @@ public class RowFilterSettings : IComparer
 | 姓名 | 描述 |
 | --- | --- |
 | [Criteria](../../aspose.cells.griddesktop/rowfiltersettings/criteria) { get; set; } | 过滤条件字符串。 |
-| [EnableAutoFilter](../../aspose.cells.griddesktop/rowfiltersettings/enableautofilter) { get; set; } | 启用自动过滤。 HeaderRow 将显示下拉按钮，让用户选择要过滤的列的值。 |
-| [EndCol](../../aspose.cells.griddesktop/rowfiltersettings/endcol) { get; set; } | 过滤器范围的结束列号。 |
+| [EnableAutoFilter](../../aspose.cells.griddesktop/rowfiltersettings/enableautofilter) { get; set; } | 启用自动过滤。 HeaderRow 将显示下拉按钮，让用户选择要过滤的列值。 |
+| [EndCol](../../aspose.cells.griddesktop/rowfiltersettings/endcol) { get; set; } | 过滤范围的结束列号。 |
 | [HeaderRow](../../aspose.cells.griddesktop/rowfiltersettings/headerrow) { get; set; } | 将显示过滤器下拉按钮的标题行号。 |
 | [StartCol](../../aspose.cells.griddesktop/rowfiltersettings/startcol) { get; set; } | 过滤器范围的起始列号。 |
 
@@ -31,7 +31,7 @@ public class RowFilterSettings : IComparer
 | [Compare](../../aspose.cells.griddesktop/rowfiltersettings/compare)(object, object) | 仅供内部使用。 |
 | [CustomRows](../../aspose.cells.griddesktop/rowfiltersettings/customrows#customrows)(int, GridFilterOperatorType, object) | 使用自定义条件过滤列表。 |
 | [CustomRows](../../aspose.cells.griddesktop/rowfiltersettings/customrows#customrows_1)(int, GridFilterOperatorType, object, bool, GridFilterOperatorType, object) | 使用自定义条件过滤列表。 |
-| [FilterRows](../../aspose.cells.griddesktop/rowfiltersettings/filterrows)(int, string) | 使用标准字符串过滤行。 |
+| [FilterRows](../../aspose.cells.griddesktop/rowfiltersettings/filterrows)(int, string) | 使用条件字符串过滤行。 |
 | [ShowAll](../../aspose.cells.griddesktop/rowfiltersettings/showall)() | 取消隐藏所有行。 |
 
 ### 也可以看看

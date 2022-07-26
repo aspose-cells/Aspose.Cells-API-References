@@ -1,14 +1,14 @@
 ---
 title: MsoLineStyle
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет стиль рисования линий.
+description: Представляет стиль линий рисования.
 type: docs
 weight: 2380
 url: /ru/net/aspose.cells.drawing/msolinestyle/
 ---
 ## MsoLineStyle enumeration
 
-Представляет стиль рисования линий.
+Представляет стиль линий рисования.
 
 ```csharp
 public enum MsoLineStyle
@@ -21,7 +21,7 @@ public enum MsoLineStyle
 | Single | `0` | Одна строка (шириной lineWidth) |
 | ThickBetweenThin | `1` | Три линии, тонкая, толстая, тонкая |
 | ThinThick | `2` | Двойные линии, одна тонкая, одна толстая |
-| ThickThin | `3` | Двойные линии, одна толстая, одна тонкая |
+| ThickThin | `3` | Двойные линии, одна толстая, другая тонкая |
 | ThinThin | `4` | Двойные линии одинаковой ширины |
 
 ### Смотрите также

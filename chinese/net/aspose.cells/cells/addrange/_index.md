@@ -1,14 +1,14 @@
 ---
 title: AddRange
 second_title: Aspose.Cells for .NET API 参考
-description: 向单元格添加范围对象引用
+description: 将范围对象引用添加到单元格
 type: docs
 weight: 320
 url: /zh/net/aspose.cells/cells/addrange/
 ---
 ## Cells.AddRange method
 
-向单元格添加范围对象引用
+将范围对象引用添加到单元格
 
 ```csharp
 public void AddRange(Range rangeObject)
@@ -16,7 +16,7 @@ public void AddRange(Range rangeObject)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rangeObject | Range | 范围对象将包含在单元格 |
+| rangeObject | Range | 范围对象将包含在单元格中 |
 
 ### 也可以看看
 

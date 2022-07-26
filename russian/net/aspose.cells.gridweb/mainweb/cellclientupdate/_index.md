@@ -1,14 +1,14 @@
 ---
 title: CellClientUpdate
 second_title: Справочник по Aspose.Cells для .NET API
-description: Происходит когда происходит обновление клиентской ячейки. При запуске этого события его параметр e.Argument содержит имя команды.
+description: Происходит когда происходит обновление клиентской ячейки . При запуске этого события его параметр e.Argument содержит имя команды.
 type: docs
 weight: 1150
 url: /ru/net/aspose.cells.gridweb/mainweb/cellclientupdate/
 ---
 ## MainWeb.CellClientUpdate event
 
-Происходит, когда происходит обновление клиентской ячейки. При запуске этого события его параметр e.Argument содержит имя команды.
+Происходит, когда происходит обновление клиентской ячейки . При запуске этого события его параметр e.Argument содержит имя команды.
 
 ```csharp
 public event CellEventHandler CellClientUpdate;

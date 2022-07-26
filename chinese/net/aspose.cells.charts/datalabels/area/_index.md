@@ -1,14 +1,14 @@
 ---
 title: Area
 second_title: Aspose.Cells for .NET API 参考
-description: 获取区域aspose.cells.charts/datalabels/area 
+description: 获取区域aspose.cells.charts/datalabels/area.
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.charts/datalabels/area/
 ---
 ## DataLabels.Area property
 
-获取`区域` 。
+获取`区域`.
 
 ```csharp
 public override Area Area { get; }

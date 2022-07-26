@@ -1,14 +1,14 @@
 ---
 title: AddCopy
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет и копирует фигуру на рабочий лист.
+description: Добавляет и копирует фигуру на лист.
 type: docs
 weight: 90
 url: /ru/net/aspose.cells.drawing/shapecollection/addcopy/
 ---
 ## ShapeCollection.AddCopy method
 
-Добавляет и копирует фигуру на рабочий лист.
+Добавляет и копирует фигуру на лист.
 
 ```csharp
 public Shape AddCopy(Shape sourceShape, int upperLeftRow, int top, int upperLeftColumn, int left)
@@ -19,8 +19,8 @@ public Shape AddCopy(Shape sourceShape, int upperLeftRow, int top, int upperLeft
 | sourceShape | Shape | Исходная форма. |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
 | top | Int32 | Представляет вертикальное смещение флажка от его левой строки в единицах пикселя. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
-| left | Int32 | Представляет горизонтальное смещение текстового поля от его левого столбца в единицах пикселей. |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
+| left | Int32 | Представляет горизонтальное смещение текстового поля от его левого столбца в пикселях. |
 
 ### Возвращаемое значение
 
@@ -31,9 +31,9 @@ public Shape AddCopy(Shape sourceShape, int upperLeftRow, int top, int upperLeft
 ```csharp
 
 [C#]
-  //добавляем shape
+//добавляем форму
 RectangleShape rectangle = shapes.AddRectangle(2, 0, 2, 0, 130, 130);
-  //copy
+// копируем
 shapes.AddCopy(rectangle, 7, 0, 7, 0);
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: PrintOrderType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляют константы порядка печати.
+description: Представляет константы порядка печати.
 type: docs
 weight: 4770
 url: /ru/net/aspose.cells/printordertype/
 ---
 ## PrintOrderType enumeration
 
-Представляют константы порядка печати.
+Представляет константы порядка печати.
 
 ```csharp
 public enum PrintOrderType
@@ -18,8 +18,8 @@ public enum PrintOrderType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| DownThenOver | `0` | Вниз, затем вверх |
-| OverThenDown | `1` | Сверху, затем вниз |
+| DownThenOver | `0` | Вниз, затем выше |
+| OverThenDown | `1` | Больше, затем вниз |
 
 ### Смотрите также
 

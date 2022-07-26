@@ -1,14 +1,14 @@
 ---
 title: PresentationPreference
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает является ли файл html или mht предпочтительным для презентации. Значение по умолчанию - false. Если вы хотите получить более красивую презентацию установите значение истинно.
+description: Указывает является ли файл html или mht предпочтительным для презентации. Значение по умолчанию  false. Если вы хотите получить более красивую презентацию установите значение true.
 type: docs
-weight: 430
+weight: 450
 url: /ru/net/aspose.cells/htmlsaveoptions/presentationpreference/
 ---
 ## HtmlSaveOptions.PresentationPreference property
 
-Указывает, является ли файл html или mht предпочтительным для презентации. Значение по умолчанию - false. Если вы хотите получить более красивую презентацию, установите значение истинно.
+Указывает, является ли файл html или mht предпочтительным для презентации. Значение по умолчанию — false. Если вы хотите получить более красивую презентацию, установите значение true.
 
 ```csharp
 public bool PresentationPreference { get; set; }

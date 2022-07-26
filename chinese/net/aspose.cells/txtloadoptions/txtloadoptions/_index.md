@@ -16,7 +16,7 @@ public TxtLoadOptions()
 
 ### 评论
 
-默认加载文件类型为 CSV 。
+默认加载文件类型是 CSV 。
 
 ### 也可以看看
 

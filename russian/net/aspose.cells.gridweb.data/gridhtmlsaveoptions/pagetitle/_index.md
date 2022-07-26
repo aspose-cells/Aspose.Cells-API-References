@@ -1,14 +1,14 @@
 ---
 title: PageTitle
 second_title: Справочник по Aspose.Cells для .NET API
-description: Заголовок html-страницы. Только для сохранения в html поток.
+description: Заголовок html-страницы. Только для сохранения в html-поток.
 type: docs
 weight: 160
 url: /ru/net/aspose.cells.gridweb.data/gridhtmlsaveoptions/pagetitle/
 ---
 ## GridHtmlSaveOptions.PageTitle property
 
-Заголовок html-страницы. Только для сохранения в html поток.
+Заголовок html-страницы. Только для сохранения в html-поток.
 
 ```csharp
 public string PageTitle { get; set; }

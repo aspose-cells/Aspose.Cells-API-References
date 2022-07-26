@@ -1,14 +1,14 @@
 ---
 title: Notes
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置评论文本
+description: 获取和设置评论的文本
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/threadedcomment/notes/
 ---
 ## ThreadedComment.Notes property
 
-获取和设置评论文本。
+获取和设置评论的文本。
 
 ```csharp
 public string Notes { get; set; }

@@ -21,7 +21,7 @@ public class GridColumn
 | [CellControl](../../aspose.cells.griddesktop.data/gridcolumn/cellcontrol) { get; } | 获取列的 CellControl 对象。 |
 | [FilterIndex](../../aspose.cells.griddesktop.data/gridcolumn/filterindex) { get; set; } |  |
 | [Header](../../aspose.cells.griddesktop.data/gridcolumn/header) { get; set; } |  |
-| [Hidden](../../aspose.cells.griddesktop.data/gridcolumn/hidden) { get; set; } | 表示列是否隐藏。 |
+| [Hidden](../../aspose.cells.griddesktop.data/gridcolumn/hidden) { get; set; } | 表示该列是否隐藏。 |
 | [Index](../../aspose.cells.griddesktop.data/gridcolumn/index) { get; } | 获取该列的索引。 |
 | [OutlineLevel](../../aspose.cells.griddesktop.data/gridcolumn/outlinelevel) { get; set; } |  |
 | [Width](../../aspose.cells.griddesktop.data/gridcolumn/width) { get; set; } | 获取或设置列对象的宽度。以像素为单位 |
@@ -30,14 +30,14 @@ public class GridColumn
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddButton](../../aspose.cells.griddesktop.data/gridcolumn/addbutton)(int, int, string) | 向列添加一个按钮。 |
+| [AddButton](../../aspose.cells.griddesktop.data/gridcolumn/addbutton)(int, int, string) | 在列中添加一个按钮。 |
 | [AddCheckBox](../../aspose.cells.griddesktop.data/gridcolumn/addcheckbox)() | 在列中添加一个复选框。 |
-| [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox#addcombobox)(ICollection) | 向列添加组合框。 |
-| [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox#addcombobox_1)(ICollection, ICollection) | 向列添加组合框。 |
+| [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox#addcombobox)(ICollection) | 在列中添加一个组合框。 |
+| [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox#addcombobox_1)(ICollection, ICollection) | 在列中添加一个组合框。 |
 | [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation#addvalidation)(ICustomValidation) |  |
 | [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation#addvalidation_1)(bool, string) | 向列添加验证。 |
 | [GetStyle](../../aspose.cells.griddesktop.data/gridcolumn/getstyle)() |  |
-| [RemoveCellControl](../../aspose.cells.griddesktop.data/gridcolumn/removecellcontrol)() | 删除列的 CellControl 对象。 |
+| [RemoveCellControl](../../aspose.cells.griddesktop.data/gridcolumn/removecellcontrol)() | 移除列的 CellControl 对象。 |
 | [SetStyle](../../aspose.cells.griddesktop.data/gridcolumn/setstyle)(Style) |  |
 
 ## 字段

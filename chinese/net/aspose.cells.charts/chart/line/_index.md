@@ -1,14 +1,14 @@
 ---
 title: Line
 second_title: Aspose.Cells for .NET API 参考
-description: 获取线路
+description: 获取线
 type: docs
 weight: 190
 url: /zh/net/aspose.cells.charts/chart/line/
 ---
 ## Chart.Line property
 
-获取线路。
+获取线。
 
 ```csharp
 public Line Line { get; }

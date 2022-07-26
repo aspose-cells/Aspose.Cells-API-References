@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定索引处的Commentaspose.cells/comment元素
+description: 获取Commentaspose.cells/comment指定索引处的元素
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/commentcollection/item/
 ---
 ## CommentCollection indexer (1 of 3)
 
-获取指定索引处的[`Comment`](../../comment)元素。
+获取[`Comment`](../../comment)指定索引处的元素。
 
 ```csharp
 public Comment this[int index] { get; }
@@ -42,7 +42,7 @@ comment3.Note = "Three note.";
 
 ## CommentCollection indexer (2 of 3)
 
-获取指定单元格处的[`Comment`](../../comment)元素。
+获取[`Comment`](../../comment)指定单元格处的元素。
 
 ```csharp
 public Comment this[string cellName] { get; }
@@ -50,7 +50,7 @@ public Comment this[string cellName] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| cellName | 单元名称。 |
+| cellName | 单元格名称。 |
 
 ### 返回值
 
@@ -76,7 +76,7 @@ comment4.Note = "Four note.";
 
 ## CommentCollection indexer (3 of 3)
 
-获取指定行索引和列索引处的[`Comment`](../../comment)元素。
+获取[`Comment`](../../comment)指定行索引和列索引处的元素。
 
 ```csharp
 public Comment this[int row, int column] { get; }

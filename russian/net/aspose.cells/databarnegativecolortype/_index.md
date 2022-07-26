@@ -1,14 +1,14 @@
 ---
 title: DataBarNegativeColorType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает использовать ли тот же цвет границы и заливки что и положительные гистограммы.
+description: Указывает использовать ли тот же цвет границы и заливки что и положительные столбцы данных.
 type: docs
 weight: 1290
 url: /ru/net/aspose.cells/databarnegativecolortype/
 ---
 ## DataBarNegativeColorType enumeration
 
-Указывает, использовать ли тот же цвет границы и заливки, что и положительные гистограммы.
+Указывает, использовать ли тот же цвет границы и заливки, что и положительные столбцы данных.
 
 ```csharp
 public enum DataBarNegativeColorType
@@ -18,8 +18,8 @@ public enum DataBarNegativeColorType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Color | `0` | Используйте цвет, указанный в диалоговом окне Negative Value and Axis Setting или с помощью свойств ColorType и BorderColorType объекта NegativeBarFormat. |
-| SameAsPositive | `1` | Используйте тот же цвет, что и столбцы положительных данных. |
+| Color | `0` | Используйте цвет, указанный в диалоговом окне Negative Value and Axis Setting или используя свойства ColorType и BorderColorType объекта NegativeBarFormat. |
+| SameAsPositive | `1` | Использовать тот же цвет, что и столбцы положительных данных. |
 
 ### Смотрите также
 

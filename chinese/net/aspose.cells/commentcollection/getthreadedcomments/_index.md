@@ -1,14 +1,14 @@
 ---
 title: GetThreadedComments
 second_title: Aspose.Cells for .NET API 参考
-description: 按行和列索引获取线程注释
+description: 按行列索引获取线程评论
 type: docs
 weight: 50
 url: /zh/net/aspose.cells/commentcollection/getthreadedcomments/
 ---
 ## GetThreadedComments(int, int) {#getthreadedcomments}
 
-按行和列索引获取线程注释。
+按行列索引获取线程评论。
 
 ```csharp
 public ThreadedCommentCollection GetThreadedComments(int row, int column)
@@ -51,7 +51,7 @@ public ThreadedCommentCollection GetThreadedComments(string cellName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cellName | String | 单元的名称。 |
+| cellName | String | 单元格的名称。 |
 
 ### 例子
 

@@ -3,7 +3,7 @@ title: AutoFill
 second_title: Aspose.Cells for .NET API 参考
 description: 自动填充目标范围
 type: docs
-weight: 180
+weight: 220
 url: /zh/net/aspose.cells/range/autofill/
 ---
 ## AutoFill(Range) {#autofill}
@@ -24,33 +24,32 @@ public void AutoFill(Range target)
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
-// 获取第一个 Worksheet Cells.
+// 获取第一个工作表单元格。
 Cells cells = workbook.Worksheets[0].Cells;
 cells["A1"].PutValue(1);
 cells["A2"].PutValue(2);
 Aspose.Cells.Range source = cells.CreateRange("A1:A2");
 Aspose.Cells.Range target = cells.CreateRange("A3:A10");
- //将 3,4,5....10 填充到 A3:A10
-
+//将 3,4,5....10 填充到范围 A3:A10
 source.AutoFill(target);
- //保存Excel文件
+//保存Excel文件
 workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'实例化一个 Workbook 目的
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook("Book1.xlsx")
-' 获取第一个 Worksheet Cells.
+// 获取第一个工作表单元格。
 Dim cells as Cells = workbook.Worksheets[0].Cells
 cells("A1").PutValue(1)
 cells("A2").PutValue(2)
 Dim source as Aspose.Cells.Range = cells.CreateRange("A1:A2")
 Dim target as Aspose.Cells.Range = cells.CreateRange("A3:A10")
-'将 3,4,5....10 填充到 A3:A10
+'将 3,4,5....10 填充到 A3:A10 范围内
 source.AutoFill(target)
-'保存Excel文件
+'保存 Excel 文件
 workbook.Save("book1.xlsm")
 ```
 

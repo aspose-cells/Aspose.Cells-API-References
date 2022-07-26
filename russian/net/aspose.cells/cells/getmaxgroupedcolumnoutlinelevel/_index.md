@@ -3,7 +3,7 @@ title: GetMaxGroupedColumnOutlineLevel
 second_title: Справочник по Aspose.Cells для .NET API
 description: Получает максимальный уровень структуры сгруппированного столбца отсчитывается от нуля.
 type: docs
-weight: 750
+weight: 760
 url: /ru/net/aspose.cells/cells/getmaxgroupedcolumnoutlinelevel/
 ---
 ## Cells.GetMaxGroupedColumnOutlineLevel method

@@ -1,14 +1,14 @@
 ---
 title: Line
 second_title: Aspose.Cells for .NET API 参考
-description: 获取线型
+description: 获取线条样式
 type: docs
 weight: 450
 url: /zh/net/aspose.cells.drawing/shape/line/
 ---
 ## Shape.Line property
 
-获取线型
+获取线条样式
 
 ```csharp
 public LineFormat Line { get; }

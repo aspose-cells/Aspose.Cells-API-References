@@ -20,7 +20,7 @@ public int AddArea(CellArea cellArea)
 
 ### 返回值
 
-条件格式的单元格响指数。
+条件格式的单元格范围索引。
 
 ### 也可以看看
 

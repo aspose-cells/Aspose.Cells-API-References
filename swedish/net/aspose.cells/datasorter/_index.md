@@ -1,0 +1,115 @@
+---
+title: DataSorter
+second_title: Aspose.Cells för .NET API-referens
+description: Sammanfattningsbeskrivning för DataSorter.
+type: docs
+weight: 1300
+url: /sv/net/aspose.cells/datasorter/
+---
+## DataSorter class
+
+Sammanfattningsbeskrivning för DataSorter.
+
+```csharp
+public class DataSorter
+```
+
+## Egenskaper
+
+| namn | Beskrivning |
+| --- | --- |
+| [CaseSensitive](../../aspose.cells/datasorter/casesensitive) { get; set; } | Hämtar och ställer in om skiftlägeskänslighet vid jämförelse av sträng. |
+| [HasHeaders](../../aspose.cells/datasorter/hasheaders) { get; set; } | Representerar om intervallet har rubriker. |
+| [Key1](../../aspose.cells/datasorter/key1) { get; set; } | Representerar första sorterade kolumnindex (absolut position, kolumn A är 0, B är 1, ...). |
+| [Key2](../../aspose.cells/datasorter/key2) { get; set; } | Representerar andra sorterade kolumnindex (absolut position, kolumn A är 0, B är 1, ...). |
+| [Key3](../../aspose.cells/datasorter/key3) { get; set; } | Representerar tredje sorterade kolumnindex (absolut position, kolumn A är 0, B är 1, ...). |
+| [Keys](../../aspose.cells/datasorter/keys) { get; } | Hämtar nyckellistan över datasorterare. |
+| [Order1](../../aspose.cells/datasorter/order1) { get; set; } | Representerar sorteringsordningen för den första nyckeln. |
+| [Order2](../../aspose.cells/datasorter/order2) { get; set; } | Representerar sorteringsordningen för den andra nyckeln. |
+| [Order3](../../aspose.cells/datasorter/order3) { get; set; } | Representerar sorteringsordningen för den tredje nyckeln. |
+| [SortAsNumber](../../aspose.cells/datasorter/sortasnumber) { get; set; } | Indikerar om allt som ser ut som ett nummer sorteras. |
+| [SortLeftToRight](../../aspose.cells/datasorter/sortlefttoright) { get; set; } | True betyder att sorteringsorienteringen är från vänster till höger. False betyder att sorteringsorienteringen är från topp till botten. Standardvärdet är false. |
+
+## Metoder
+
+| namn | Beskrivning |
+| --- | --- |
+| [AddKey](../../aspose.cells/datasorter/addkey#addkey_1)(int, SortOrder) | Lägger till sorterat kolumnindex och sorteringsordning. |
+| [AddKey](../../aspose.cells/datasorter/addkey#addkey_2)(int, SortOrder, string) | Lägger till sorterat kolumnindex och sorteringsordning med anpassad sorteringslista. |
+| [AddKey](../../aspose.cells/datasorter/addkey#addkey_3)(int, SortOrder, string[]) | Lägger till sorterat kolumnindex och sorteringsordning med anpassad sorteringslista. |
+| [AddKey](../../aspose.cells/datasorter/addkey#addkey)(int, SortOnType, SortOrder, object) | Lägger till sorterat kolumnindex och sorteringsordning med anpassad sorteringslista. |
+| [Clear](../../aspose.cells/datasorter/clear)() | Rensa alla inställningar. |
+| [Sort](../../aspose.cells/datasorter/sort#sort)() | Sortera data i intervallet. |
+| [Sort](../../aspose.cells/datasorter/sort#sort_1)(Cells, CellArea) | Sortera data för området. |
+| [Sort](../../aspose.cells/datasorter/sort#sort_2)(Cells, int, int, int, int) | Sorterar data för området. |
+
+### Exempel
+
+```csharp
+
+[C#]
+
+//Instantiera ett nytt arbetsboksobjekt.
+Workbook workbook = new Workbook("Book1.xls");
+//Hämta arbetsbokens datasorterobjekt.
+DataSorter sorter = workbook.DataSorter;
+//Sätt den första ordningen för datasorterobjekt.
+sorter.Order1 = Aspose.Cells.SortOrder.Descending;
+//Definiera den första nyckeln.
+sorter.Key1 = 0;
+//Ställ in den andra ordningen för datasorterobjekt.
+sorter.Order2 = Aspose.Cells.SortOrder.Ascending;
+//Definiera den andra nyckeln.
+sorter.Key2 = 1;
+//Skapa ett cellområde (intervall).
+CellArea ca = new CellArea();
+//Ange startradindex.
+ca.StartRow = 0;
+//Ange startkolumnindex.
+ca.StartColumn = 0;
+//Ange sista radindex.
+ca.EndRow = 13;
+//Ange det sista kolumnindexet.
+ca.EndColumn = 1;
+//Sortera data i det angivna dataintervallet (A1:B14)
+sorter.Sort(workbook.Worksheets[0].Cells, ca);
+//Spara excel-filen.
+workbook.Save("outBook.xls");
+
+[Visual Basic]
+
+'Instantiera ett nytt arbetsboksobjekt.
+Dim workbook As Workbook = New Workbook("Book1.xls")
+'Hämta arbetsbokens datasorterobjekt.
+Dim sorter As DataSorter = workbook.DataSorter
+'Ställ in den första ordningen för datasorterobjekt
+sorter.Order1 = Aspose.Cells.SortOrder.Descending
+'Definiera den första nyckeln.
+sorter.Key1 = 0
+'Ställ in den andra ordningen för datasorterobjekt.
+sorter.Order2 = Aspose.Cells.SortOrder.Ascending
+'Definiera den andra nyckeln.
+sorter.Key2 = 1
+'Skapa ett cellområde (intervall).
+Dim ca As CellArea = New CellArea
+'Ange startradindex.
+ca.StartRow = 0
+'Ange startkolumnindex.
+ca.StartColumn = 0
+'Ange det sista radens index.
+ca.EndRow = 13
+'Ange det sista kolumnindexet.
+ca.EndColumn = 1
+'Sortera data i det angivna dataintervallet (A1:B14)
+sorter.Sort(workbook.Worksheets(0).Cells, ca)
+'Spara excel-filen.
+workbook.Save("outBook.xls")
+
+```
+
+### Se även
+
+* namnutrymme [Aspose.Cells](../../aspose.cells)
+* hopsättning [Aspose.Cells](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->

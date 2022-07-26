@@ -1,14 +1,14 @@
 ---
 title: CustomMsgForStopOper
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置用户操作带来无效值时显示的自定义消息
+description: 获取或设置当用户操作带来无效值时显示的自定义消息
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.griddesktop.data/gridvalidation/custommsgforstopoper/
 ---
 ## GridValidation.CustomMsgForStopOper property
 
-获取或设置用户操作带来无效值时显示的自定义消息。
+获取或设置当用户操作带来无效值时显示的自定义消息。
 
 ```csharp
 public string CustomMsgForStopOper { get; set; }

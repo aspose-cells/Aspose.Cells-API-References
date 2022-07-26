@@ -1,14 +1,14 @@
 ---
 title: ShapePath
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инициализирует новый экземпляр классаShapePathaspose.cells.drawing/shapepath.
+description: Инициализирует новый экземплярShapePathaspose.cells.drawing/shapepath класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.drawing/shapepath/shapepath/
 ---
 ## ShapePath constructor
 
-Инициализирует новый экземпляр класса[`ShapePath`](../../shapepath).
+Инициализирует новый экземпляр[`ShapePath`](../../shapepath) класс.
 
 ```csharp
 public ShapePath()

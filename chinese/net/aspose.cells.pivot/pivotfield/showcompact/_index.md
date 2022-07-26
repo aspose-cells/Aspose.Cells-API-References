@@ -1,14 +1,14 @@
 ---
 title: ShowCompact
 second_title: Aspose.Cells for .NET API 参考
-description: 指示是否在数据透视表视图的同一列中显示来自下一个字段的标签
+description: 表示是否在数据透视表视图的同一列中显示来自下一个字段的标签
 type: docs
 weight: 380
 url: /zh/net/aspose.cells.pivot/pivotfield/showcompact/
 ---
 ## PivotField.ShowCompact property
 
-指示是否在数据透视表视图的同一列中显示来自下一个字段的标签
+表示是否在数据透视表视图的同一列中显示来自下一个字段的标签
 
 ```csharp
 public bool ShowCompact { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: AddComboBox
 second_title: Aspose.Cells for .NET API 参考
-description: 向列添加组合框
+description: 在列中添加一个组合框
 type: docs
 weight: 110
 url: /zh/net/aspose.cells.griddesktop.data/gridcolumn/addcombobox/
 ---
 ## AddComboBox(ICollection) {#addcombobox}
 
-向列添加组合框。
+在列中添加一个组合框。
 
 ```csharp
 public void AddComboBox(ICollection items)
@@ -28,7 +28,7 @@ public void AddComboBox(ICollection items)
 
 ## AddComboBox(ICollection, ICollection) {#addcombobox_1}
 
-向列添加组合框。
+在列中添加一个组合框。
 
 ```csharp
 public void AddComboBox(ICollection items, ICollection values)

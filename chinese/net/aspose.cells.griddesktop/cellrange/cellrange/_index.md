@@ -1,14 +1,14 @@
 ---
 title: CellRange
 second_title: Aspose.Cells for .NET API 参考
-description: 默认构造函数
+description: 默认构造函数.
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.griddesktop/cellrange/cellrange/
 ---
 ## CellRange() {#constructor}
 
-默认构造函数。
+默认构造函数.
 
 ```csharp
 public CellRange()
@@ -24,7 +24,7 @@ public CellRange()
 
 ## CellRange(int, int, int, int) {#constructor_1}
 
-CellRange 构造函数。
+CellRange 构造函数.
 
 ```csharp
 public CellRange(int cStartRow, int cStartCol, int cEndRow, int cEndCol)
@@ -32,8 +32,8 @@ public CellRange(int cStartRow, int cStartCol, int cEndRow, int cEndCol)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cStartRow | Int32 | 起始行索引。 |
-| cStartCol | Int32 | 起始列索引。 |
+| cStartRow | Int32 | 开始行索引。 |
+| cStartCol | Int32 | 开始列索引。 |
 | cEndRow | Int32 | 结束行索引。 |
 | cEndCol | Int32 | 结束列索引。 |
 
@@ -47,7 +47,7 @@ public CellRange(int cStartRow, int cStartCol, int cEndRow, int cEndCol)
 
 ## CellRange(string, string) {#constructor_2}
 
-CellRange 构造函数。
+CellRange 构造函数.
 
 ```csharp
 public CellRange(string startCellName, string endCellName)
@@ -55,7 +55,7 @@ public CellRange(string startCellName, string endCellName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startCellName | String | 起始单元名称。 |
+| startCellName | String | 起始单元格名称。 |
 | endCellName | String | 结束单元格名称。 |
 
 ### 也可以看看

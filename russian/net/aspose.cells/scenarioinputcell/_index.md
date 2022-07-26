@@ -19,7 +19,7 @@ public class ScenarioInputCell
 | Имя | Описание |
 | --- | --- |
 | [Column](../../aspose.cells/scenarioinputcell/column) { get; } | Получает и задает индекс столбца входной ячейки. |
-| [IsDeleted](../../aspose.cells/scenarioinputcell/isdeleted) { get; set; } | Указывает, удалена ли входная ячейка. |
+| [IsDeleted](../../aspose.cells/scenarioinputcell/isdeleted) { get; set; } | Указывает, удалена ли ячейка ввода. |
 | [Name](../../aspose.cells/scenarioinputcell/name) { get; } | Получает и устанавливает адрес входной ячейки. |
 | [Row](../../aspose.cells/scenarioinputcell/row) { get; } | Получает и задает индекс строки входной ячейки. |
 | [Value](../../aspose.cells/scenarioinputcell/value) { get; set; } | Получает и устанавливает значение входной ячейки. |

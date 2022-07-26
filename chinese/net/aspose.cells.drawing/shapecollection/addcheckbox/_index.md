@@ -1,14 +1,14 @@
 ---
 title: AddCheckBox
 second_title: Aspose.Cells for .NET API 参考
-description: 向工作表添加一个复选框
+description: 在工作表中添加一个复选框
 type: docs
 weight: 70
 url: /zh/net/aspose.cells.drawing/shapecollection/addcheckbox/
 ---
 ## ShapeCollection.AddCheckBox method
 
-向工作表添加一个复选框。
+在工作表中添加一个复选框。
 
 ```csharp
 public CheckBox AddCheckBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, 
@@ -18,9 +18,9 @@ public CheckBox AddCheckBox(int upperLeftRow, int top, int upperLeftColumn, int 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | upperLeftRow | Int32 | 左上行索引。 |
-| top | Int32 | 表示复选框相对左行的垂直偏移量，以像素为单位。 |
+| top | Int32 | 表示复选框与其左行的垂直偏移量，以像素为单位。 |
 | upperLeftColumn | Int32 | 左上列索引。 |
-| left | Int32 | 表示文本框从其左列的水平偏移量，以像素为单位。 |
+| left | Int32 | 表示文本框相对于其左列的水平偏移量，以像素为单位。 |
 | height | Int32 | 文本框的高度，以像素为单位。 |
 | width | Int32 | 文本框的宽度，以像素为单位。 |
 
@@ -34,7 +34,7 @@ public CheckBox AddCheckBox(int upperLeftRow, int top, int upperLeftColumn, int 
 
 [C#]
 
- //添加一个 CheckBox
+//添加一个复选框
 CheckBox checkBox = shapes.AddCheckBox(1, 0, 1, 0, 100, 50);
 ```
 

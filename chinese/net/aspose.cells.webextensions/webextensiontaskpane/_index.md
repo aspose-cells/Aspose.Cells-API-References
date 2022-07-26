@@ -1,14 +1,14 @@
 ---
 title: WebExtensionTaskPane
 second_title: Aspose.Cells for .NET API 参考
-description: 表示持久的任务窗格对象
+description: 表示一个持久化的任务窗格对象
 type: docs
 weight: 6460
 url: /zh/net/aspose.cells.webextensions/webextensiontaskpane/
 ---
 ## WebExtensionTaskPane class
 
-表示持久的任务窗格对象。
+表示一个持久化的任务窗格对象。
 
 ```csharp
 public class WebExtensionTaskPane
@@ -20,8 +20,8 @@ public class WebExtensionTaskPane
 | --- | --- |
 | [DockState](../../aspose.cells.webextensions/webextensiontaskpane/dockstate) { get; set; } | 获取并设置此任务窗格对象的最后停靠位置。 |
 | [IsLocked](../../aspose.cells.webextensions/webextensiontaskpane/islocked) { get; set; } | 指示任务窗格是否锁定到 UI 中的文档，用户无法关闭。 |
-| [IsVisible](../../aspose.cells.webextensions/webextensiontaskpane/isvisible) { get; set; } | 指示当文档打开时任务窗格是否默认显示为可见。 |
-| [Row](../../aspose.cells.webextensions/webextensiontaskpane/row) { get; set; } | 获取和设置索引，从外到内枚举，此任务窗格以及停靠在同一默认位置的其他持久任务窗格。 |
+| [IsVisible](../../aspose.cells.webextensions/webextensiontaskpane/isvisible) { get; set; } | 指示文档打开时任务窗格是否默认显示为可见。 |
+| [Row](../../aspose.cells.webextensions/webextensiontaskpane/row) { get; set; } | 获取和设置索引，从外到内枚举，在停靠在同一默认位置的其他持久任务窗格中，此任务窗格的索引。 |
 | [WebExtension](../../aspose.cells.webextensions/webextensiontaskpane/webextension) { get; set; } | 获取和设置与任务窗格实例关联的 Web 扩展部件 |
 | [Width](../../aspose.cells.webextensions/webextensiontaskpane/width) { get; set; } | 获取并设置此任务窗格实例的默认宽度值。 |
 

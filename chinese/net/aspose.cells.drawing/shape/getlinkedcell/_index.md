@@ -16,7 +16,7 @@ public string GetLinkedCell(bool isR1C1, bool isLocal)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| isR1C1 | Boolean | 公式是否需要格式化为R1C1。 |
+| isR1C1 | Boolean | 公式是否需要格式化为 R1C1。 |
 | isLocal | Boolean | 公式是否需要按语言环境格式化。 |
 
 ### 返回值
@@ -28,8 +28,7 @@ public string GetLinkedCell(bool isR1C1, bool isLocal)
 ```csharp
 
 [C#]
- //你可能会得到类似'$A$1'
-
+//你可能会得到类似'$A$1'的结果
 string link = shape.GetLinkedCell(false, false);
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет информацию о свойствах типа контента.
+description: Добавляет информацию о свойстве типа контента.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.properties/contenttypepropertycollection/add/
 ---
 ## Add(string, string) {#add}
 
-Добавляет информацию о свойствах типа контента.
+Добавляет информацию о свойстве типа контента.
 
 ```csharp
 public int Add(string name, string value)
@@ -29,7 +29,7 @@ public int Add(string name, string value)
 
 ## Add(string, string, string) {#add_1}
 
-Добавляет информацию о свойствах типа контента.
+Добавляет информацию о свойстве типа контента.
 
 ```csharp
 public int Add(string name, string value, string type)

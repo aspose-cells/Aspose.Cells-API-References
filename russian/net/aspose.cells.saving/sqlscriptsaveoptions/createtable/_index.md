@@ -1,14 +1,14 @@
 ---
 title: CreateTable
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает экспортируется ли sql создаваемой таблицы.
+description: Указывает экспортируется ли sql создания таблицы.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.saving/sqlscriptsaveoptions/createtable/
 ---
 ## SqlScriptSaveOptions.CreateTable property
 
-Указывает, экспортируется ли sql создаваемой таблицы.
+Указывает, экспортируется ли sql создания таблицы.
 
 ```csharp
 public bool CreateTable { get; set; }

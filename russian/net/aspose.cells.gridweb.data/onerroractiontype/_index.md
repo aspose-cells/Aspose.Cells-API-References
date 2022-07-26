@@ -1,14 +1,14 @@
 ---
 title: OnErrorActionType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Используется в событии CellError в GridWeb. Пользователь установил OnErrorActionQuery.OnErrorAction чтобы сообщить элементу управления Остановить обработку или Игнорировать ошибку.
+description: Используется в событии CellError в GridWeb. Пользователь установил OnErrorActionQuery.OnErrorAction чтобы указать элементу управления остановить обработку или игнорировать ошибку.
 type: docs
 weight: 640
 url: /ru/net/aspose.cells.gridweb.data/onerroractiontype/
 ---
 ## OnErrorActionType enumeration
 
-Используется в событии CellError в GridWeb. Пользователь установил OnErrorActionQuery.OnErrorAction, чтобы сообщить элементу управления «Остановить обработку» или «Игнорировать ошибку».
+Используется в событии CellError в GridWeb. Пользователь установил OnErrorActionQuery.OnErrorAction, чтобы указать элементу управления остановить обработку или игнорировать ошибку.
 
 ```csharp
 public enum OnErrorActionType

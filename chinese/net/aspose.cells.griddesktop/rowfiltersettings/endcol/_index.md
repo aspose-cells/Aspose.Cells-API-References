@@ -1,14 +1,14 @@
 ---
 title: EndCol
 second_title: Aspose.Cells for .NET API 参考
-description: 过滤器范围的结束列号
+description: 过滤范围的结束列号
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.griddesktop/rowfiltersettings/endcol/
 ---
 ## RowFilterSettings.EndCol property
 
-过滤器范围的结束列号。
+过滤范围的结束列号。
 
 ```csharp
 public int EndCol { get; set; }

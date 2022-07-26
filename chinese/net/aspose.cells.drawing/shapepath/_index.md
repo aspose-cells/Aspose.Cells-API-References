@@ -1,14 +1,14 @@
 ---
 title: ShapePath
 second_title: Aspose.Cells for .NET API 参考
-description: 表示由一系列移动线条和曲线组成的创建路径这些移动线条和曲线组合在一起将形成几何形状
+description: 表示由一系列移动直线和曲线组成的创建路径这些移动直线和曲线组合在一起将形成几何形状
 type: docs
 weight: 2690
 url: /zh/net/aspose.cells.drawing/shapepath/
 ---
 ## ShapePath class
 
-表示由一系列移动、线条和曲线组成的创建路径，这些移动、线条和曲线组合在一起将形成几何形状。
+表示由一系列移动、直线和曲线组成的创建路径，这些移动、直线和曲线组合在一起将形成几何形状。
 
 ```csharp
 public class ShapePath
@@ -18,13 +18,13 @@ public class ShapePath
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ShapePath](shapepath)() | 初始化[`ShapePath`](../shapepath)类的新实例。 |
+| [ShapePath](shapepath)() | 初始化[`ShapePath`](../shapepath)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PathSegementList](../../aspose.cells.drawing/shapepath/pathsegementlist) { get; } | 获取[`ShapeSegmentPathCollection`](../shapesegmentpathcollection)列表 |
+| [PathSegementList](../../aspose.cells.drawing/shapepath/pathsegementlist) { get; } | 获取[`ShapeSegmentPathCollection`](../shapesegmentpathcollection) list |
 
 ### 也可以看看
 

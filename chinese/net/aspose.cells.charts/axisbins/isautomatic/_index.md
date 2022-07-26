@@ -1,14 +1,14 @@
 ---
 title: IsAutomatic
 second_title: Aspose.Cells for .NET API 参考
-description: 指示轴箱是否为自动
+description: 指示轴箱是否是自动的
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.charts/axisbins/isautomatic/
 ---
 ## AxisBins.IsAutomatic property
 
-指示轴箱是否为自动。
+指示轴箱是否是自动的。
 
 ```csharp
 public bool IsAutomatic { get; set; }

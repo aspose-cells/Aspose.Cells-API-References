@@ -18,13 +18,13 @@ public class ColorScale
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Is3ColorScale](../../aspose.cells/colorscale/is3colorscale) { get; set; } | 表示条件格式是否为 3 色标。 |
-| [MaxCfvo](../../aspose.cells/colorscale/maxcfvo) { get; } | 获取或设置此 ColorScale 的最大值对象。 无法设置 null 或类型为 FormatConditionValueType.Min 的 CFValueObject。 |
-| [MaxColor](../../aspose.cells/colorscale/maxcolor) { get; set; } | 获取或设置最大值对象对应的颜色。 |
-| [MidCfvo](../../aspose.cells/colorscale/midcfvo) { get; } | 获取或设置此 ColorScale 的中间值对象。 无法设置 CFValueObject 类型为 FormatConditionValueType.Max 或 FormatConditionValueType.Min。 |
-| [MidColor](../../aspose.cells/colorscale/midcolor) { get; set; } | 获取或设置中间值对象对应的颜色。 |
-| [MinCfvo](../../aspose.cells/colorscale/mincfvo) { get; } | 获取或设置此 ColorScale 的最小值对象。 无法设置 null 或类型为 FormatConditionValueType.Max 的 CFValueObject。 |
-| [MinColor](../../aspose.cells/colorscale/mincolor) { get; set; } | 获取或设置最小值对象对应的颜色。 |
+| [Is3ColorScale](../../aspose.cells/colorscale/is3colorscale) { get; set; } | 表示条件格式是否为 3 色标度。 |
+| [MaxCfvo](../../aspose.cells/colorscale/maxcfvo) { get; } | 获取或设置此 ColorScale 的最大值对象。 无法将其设置为 FormatConditionValueType.Min 类型的 null 或 CFValueObject。 |
+| [MaxColor](../../aspose.cells/colorscale/maxcolor) { get; set; } | 获取或设置范围内最大值的渐变颜色。 |
+| [MidCfvo](../../aspose.cells/colorscale/midcfvo) { get; } | 获取或设置此 ColorScale 的中值对象。 无法将 CFValueObject 设置为 FormatConditionValueType.Max 或 FormatConditionValueType.Min 类型。 |
+| [MidColor](../../aspose.cells/colorscale/midcolor) { get; set; } | 获取或设置范围内中间值的渐变颜色。 |
+| [MinCfvo](../../aspose.cells/colorscale/mincfvo) { get; } | 获取或设置此 ColorScale 的最小值对象。 无法将其设置为 FormatConditionValueType.Max 类型的 null 或 CFValueObject。 |
+| [MinColor](../../aspose.cells/colorscale/mincolor) { get; set; } | 获取或设置范围内最小值的渐变颜色。 |
 
 ### 也可以看看
 

@@ -16,20 +16,20 @@ public bool ShowTabs { get; set; }
 
 ### 评论
 
-默认值为真。
+默认值是true。
 
 ### 例子
 
-以下代码隐藏电子表格的工作表选项卡和选项卡滚动按钮。
+以下代码隐藏了电子表格的工作表选项卡和选项卡滚动按钮。
 
 ```csharp
-// 隐藏电子表格标签。
-orkbook.Settings.ShowTabs = false;
+// 隐藏电子表格选项卡。
+workbook.Settings.ShowTabs = false;
+ 
+[Visual Basic]
 
-Visual Basic]
-
- 隐藏电子表格标签。.
-orkbook.Settings.ShowTabs = False
+'隐藏电子表格选项卡。
+workbook.Settings.ShowTabs = False
 ```
 
 ### 也可以看看

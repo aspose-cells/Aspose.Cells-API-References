@@ -1,14 +1,14 @@
 ---
 title: Area
 second_title: Aspose.Cells for .NET API 参考
-description: 获取区域aspose.cells.charts/chartframe/area 
+description: 获取区域aspose.cells.charts/chartframe/area.
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.charts/chartframe/area/
 ---
 ## ChartFrame.Area property
 
-获取`区域` 。
+获取`区域`.
 
 ```csharp
 public virtual Area Area { get; }

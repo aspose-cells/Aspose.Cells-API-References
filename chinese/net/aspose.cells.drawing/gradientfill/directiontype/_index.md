@@ -1,14 +1,14 @@
 ---
 title: DirectionType
 second_title: Aspose.Cells for .NET API 参考
-description: 获取渐变方向类型
+description: 获取梯度方向类型
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.drawing/gradientfill/directiontype/
 ---
 ## GradientFill.DirectionType property
 
-获取渐变方向类型。
+获取梯度方向类型。
 
 ```csharp
 public GradientDirectionType DirectionType { get; }

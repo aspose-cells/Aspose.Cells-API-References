@@ -1,14 +1,14 @@
 ---
 title: LineType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Перечисляет типPicture./pictureborder илиChart../aspose.cells.charts/chartline.
+description: Перечисляет типPicture./picture граница илиChart../aspose.cells.charts/chart строка.
 type: docs
 weight: 2250
 url: /ru/net/aspose.cells.drawing/linetype/
 ---
 ## LineType enumeration
 
-Перечисляет тип[`Picture`](../picture)border или[`Chart`](../../aspose.cells.charts/chart)line.
+Перечисляет тип[`Picture`](../picture) граница или[`Chart`](../../aspose.cells.charts/chart) строка.
 
 ```csharp
 public enum LineType

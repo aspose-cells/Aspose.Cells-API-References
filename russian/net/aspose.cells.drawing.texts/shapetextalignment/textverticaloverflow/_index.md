@@ -1,14 +1,14 @@
 ---
 title: TextVerticalOverflow
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает тип вертикального переполнения текста текстового поля.
+description: Получает и задает тип вертикального переполнения текста для текстового поля.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells.drawing.texts/shapetextalignment/textverticaloverflow/
 ---
 ## ShapeTextAlignment.TextVerticalOverflow property
 
-Получает и задает тип вертикального переполнения текста текстового поля.
+Получает и задает тип вертикального переполнения текста для текстового поля.
 
 ```csharp
 public TextOverflowType TextVerticalOverflow { get; set; }

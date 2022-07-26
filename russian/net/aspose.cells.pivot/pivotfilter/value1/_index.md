@@ -1,14 +1,14 @@
 ---
 title: Value1
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает строку value1 сводного фильтра метки.
+description: Получает строковое значение1 сводного фильтра метки.
 type: docs
 weight: 80
 url: /ru/net/aspose.cells.pivot/pivotfilter/value1/
 ---
 ## PivotFilter.Value1 property
 
-Получает строку value1 сводного фильтра метки.
+Получает строковое значение1 сводного фильтра метки.
 
 ```csharp
 public string Value1 { get; set; }

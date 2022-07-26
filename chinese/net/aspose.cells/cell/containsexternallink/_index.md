@@ -1,14 +1,14 @@
 ---
 title: ContainsExternalLink
 second_title: Aspose.Cells for .NET API 参考
-description: 指示此单元格是否包含外部链接 仅当单元格是公式单元格时适用
+description: 指示此单元格是否包含外部链接 仅当单元格为公式单元格时适用
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/cell/containsexternallink/
 ---
 ## Cell.ContainsExternalLink property
 
-指示此单元格是否包含外部链接。 仅当单元格是公式单元格时适用。
+指示此单元格是否包含外部链接。 仅当单元格为公式单元格时适用。
 
 ```csharp
 public bool ContainsExternalLink { get; }

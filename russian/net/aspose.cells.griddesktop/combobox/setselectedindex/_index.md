@@ -1,14 +1,14 @@
 ---
 title: SetSelectedIndex
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает выбранный индекс ComboBox. Это не будет вычислять формулу. Чтобы вычислить формулу необходимо вызвать GridDesktop.RunAllFormulas вручную. Он не будет автоматически вычислять формулы в любом случае даже если GridDesktop.RecalculateFormulas имеет значение true.
+description: Устанавливает выбранный индекс ComboBox. Это не будет вычислять формулу. Чтобы вычислить формулу необходимо вызвать GridDesktop.RunAllFormulas вручную.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.griddesktop/combobox/setselectedindex/
 ---
 ## ComboBox.SetSelectedIndex method
 
-Устанавливает выбранный индекс ComboBox. Это не будет вычислять формулу. Чтобы вычислить формулу, необходимо вызвать GridDesktop.RunAllFormulas вручную. Он не будет автоматически вычислять формулы в любом случае, даже если GridDesktop.RecalculateFormulas имеет значение true.
+Устанавливает выбранный индекс ComboBox. Это не будет вычислять формулу. Чтобы вычислить формулу, необходимо вызвать GridDesktop.RunAllFormulas вручную.
 
 ```csharp
 public void SetSelectedIndex(int selIdx)

@@ -16,15 +16,15 @@ public IEnumerator GetDependentsInCalculation(bool recursive)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| recursive | Boolean | 是否返回那些不直接引用此单元格的依赖项 但引用其他叶子此单元格 |
+| recursive | Boolean | 是否返回那些不直接引用此单元格但引用此单元格其他叶子的依赖项 |
 
 ### 返回值
 
-枚举器枚举所有依赖项（单元格）
+枚举器枚举所有依赖项（Cell 对象）
 
 ### 评论
 
-This方法仅适用于[`EnableCalculationChain`](../../formulasettings/enablecalculationchain) 对于工作簿为真且工作簿已被完全计算的情况。 如果没有对该单元格的公式引用，则返回 null。
+要使用此方法，请确保已将工作簿设置为 的真值[`EnableCalculationChain`](../../formulasettings/enablecalculationchain)并且已经用这个设置完全计算过。 如果没有公式引用这个单元格，会返回null
 
 ### 例子
 
@@ -35,10 +35,21 @@ Workbook workbook = new Workbook();
 Cells cells = workbook.Worksheets[0].Cells;
 cells["A1"].Formula = "=B1+SUM(B1:B10)+[Book1.xls]Sheet1!B2";
 cells["A2"].Formula = "=IF(TRUE,B2,B1)";
-IEnumerator en = cells["B1"].GetDependentsInCalculation();
+workbook.Settings.FormulaSettings.EnableCalculationChain = true;
+workbook.CalculateFormula();
+IEnumerator en = cells["B1"].GetDependentsInCalculation(false);
+Console.WriteLine("B1's calculation dependents:");
 while(en.MoveNext())
 {
-     Console.WriteLine(((Cell)en.Current).Name);
+    Cell c = (Cell)en.Current;
+    Console.WriteLine(c.Name);
+}
+en = cells["B2"].GetDependentsInCalculation(false);
+Console.WriteLine("B2's calculation dependents:");
+while(en.MoveNext())
+{
+    Cell c = (Cell)en.Current;
+    Console.WriteLine(c.Name);
 }
 ```
 

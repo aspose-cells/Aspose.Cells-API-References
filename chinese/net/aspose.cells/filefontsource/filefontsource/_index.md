@@ -1,14 +1,14 @@
 ---
 title: FileFontSource
 second_title: Aspose.Cells for .NET API 参考
-description: 克托尔
+description: 克托尔.
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/filefontsource/filefontsource/
 ---
 ## FileFontSource constructor
 
-克托尔。
+克托尔.
 
 ```csharp
 public FileFontSource(string filePath)
@@ -16,7 +16,7 @@ public FileFontSource(string filePath)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| filePath | String | 字体文件路径 |
+| filePath | String | 字体文件的路径 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: DisplayImmediateItems
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает видны ли элементы в области строк и столбцов когда область данных сводной таблицы пуста. Значение по умолчанию верно.
+description: Указывает видны ли элементы в области строк и столбцов  когда область данных сводной таблицы пуста. Значение по умолчанию  true.
 type: docs
 weight: 150
 url: /ru/net/aspose.cells.pivot/pivottable/displayimmediateitems/
 ---
 ## PivotTable.DisplayImmediateItems property
 
-Указывает, видны ли элементы в области строк и столбцов когда область данных сводной таблицы пуста. Значение по умолчанию верно.
+Указывает, видны ли элементы в области строк и столбцов , когда область данных сводной таблицы пуста. Значение по умолчанию — true.
 
 ```csharp
 public bool DisplayImmediateItems { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 在特定索引处获取SmartTagaspose.cells.markup/smarttag对象
+description: 得到一个SmartTagaspose.cells.markup/smarttag特定 index 处的对象
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.markup/smarttagcollection/item/
 ---
 ## SmartTagCollection indexer
 
-在特定索引处获取[`SmartTag`](../../smarttag)对象
+得到一个[`SmartTag`](../../smarttag)特定 index 处的对象
 
 ```csharp
 public SmartTag this[int index] { get; }
@@ -16,11 +16,11 @@ public SmartTag this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引。 |
+| index | 指数。 |
 
 ### 返回值
 
-返回[`SmartTag`](../../smarttag)对象。
+返回一个[`SmartTag`](../../smarttag)目的。
 
 ### 也可以看看
 

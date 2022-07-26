@@ -1,14 +1,14 @@
 ---
 title: OnlyAuto
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置是否只适合不自定义高度的行默认为false
+description: 获取或设置是否只适合不自定义高度的行默认值为false
 type: docs
 weight: 660
 url: /zh/net/aspose.cells.gridweb/mainweb/onlyauto/
 ---
 ## MainWeb.OnlyAuto property
 
-获取或设置是否只适合不自定义高度的行，默认为false
+获取或设置是否只适合不自定义高度的行，默认值为false
 
 ```csharp
 public bool OnlyAuto { get; set; }

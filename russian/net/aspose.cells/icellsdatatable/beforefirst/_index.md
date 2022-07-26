@@ -1,14 +1,14 @@
 ---
 title: BeforeFirst
 second_title: Справочник по Aspose.Cells для .NET API
-description: Переместите курсор в начало этого объекта непосредственно перед первой строкой.
+description: Переместите курсор к передней части этого объекта непосредственно перед первой строкой.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/icellsdatatable/beforefirst/
 ---
 ## ICellsDataTable.BeforeFirst method
 
-Переместите курсор в начало этого объекта, непосредственно перед первой строкой.
+Переместите курсор к передней части этого объекта, непосредственно перед первой строкой.
 
 ```csharp
 public void BeforeFirst()

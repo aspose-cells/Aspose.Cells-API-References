@@ -26,7 +26,7 @@ public interface ICellsDataTable
 
 | Имя | Описание |
 | --- | --- |
-| [BeforeFirst](../../aspose.cells/icellsdatatable/beforefirst)() | Переместите курсор в начало этого объекта, непосредственно перед первой строкой. |
+| [BeforeFirst](../../aspose.cells/icellsdatatable/beforefirst)() | Переместите курсор к передней части этого объекта, непосредственно перед первой строкой. |
 | [Next](../../aspose.cells/icellsdatatable/next)() | Перемещает курсор на одну строку вниз от текущей позиции. |
 
 ### Смотрите также

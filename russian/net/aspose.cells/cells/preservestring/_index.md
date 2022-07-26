@@ -1,14 +1,14 @@
 ---
 title: PreserveString
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает значение указывающее сохраняются ли все значения рабочего листа в виде строк. По умолчанию false.
+description: Получает или задает значение указывающее сохраняются ли все значения рабочего листа в виде строк. Значение по умолчанию  false.
 type: docs
 weight: 220
 url: /ru/net/aspose.cells/cells/preservestring/
 ---
 ## Cells.PreserveString property
 
-Получает или задает значение, указывающее, сохраняются ли все значения рабочего листа в виде строк. По умолчанию false.
+Получает или задает значение, указывающее, сохраняются ли все значения рабочего листа в виде строк. Значение по умолчанию — false.
 
 ```csharp
 public bool PreserveString { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: UnhideColumns
 second_title: Aspose.Cells for .NET API 参考
-description: 取消隐藏多列
+description: 取消隐藏多个列
 type: docs
-weight: 1350
+weight: 1360
 url: /zh/net/aspose.cells/cells/unhidecolumns/
 ---
 ## Cells.UnhideColumns method
 
-取消隐藏多列。
+取消隐藏多个列。
 
 ```csharp
 public void UnhideColumns(int column, int totalColumns, double width)

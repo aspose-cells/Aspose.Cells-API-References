@@ -1,14 +1,14 @@
 ---
 title: Order
 second_title: Aspose.Cells for .NET API 参考
-description: 表示 Microsoft Excel 在打印大型工作表时用于对页进行编号的顺序
+description: 表示 Microsoft Excel 在打印大型工作表时使用的页码顺序
 type: docs
 weight: 230
 url: /zh/net/aspose.cells/pagesetup/order/
 ---
 ## PageSetup.Order property
 
-表示 Microsoft Excel 在打印大型工作表时用于对页进行编号的顺序。
+表示 Microsoft Excel 在打印大型工作表时使用的页码顺序。
 
 ```csharp
 public PrintOrderType Order { get; set; }

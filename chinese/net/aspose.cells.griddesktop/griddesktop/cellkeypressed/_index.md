@@ -1,14 +1,14 @@
 ---
 title: CellKeyPressed
 second_title: Aspose.Cells for .NET API 参考
-description: 在单元格具有焦点时按下键时发生
+description: 在单元格具有焦点时按下某个键时发生
 type: docs
 weight: 460
 url: /zh/net/aspose.cells.griddesktop/griddesktop/cellkeypressed/
 ---
 ## GridDesktop.CellKeyPressed event
 
-在单元格具有焦点时按下键时发生。
+在单元格具有焦点时按下某个键时发生。
 
 ```csharp
 public event CellKeyEventHandler CellKeyPressed;

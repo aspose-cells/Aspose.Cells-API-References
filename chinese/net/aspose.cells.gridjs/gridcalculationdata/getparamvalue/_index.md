@@ -16,11 +16,11 @@ public object GetParamValue(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 参数索引（基于 0） |
+| index | Int32 | 参数索引（基于0） |
 
 ### 返回值
 
-如果参数是纯值，然后返回纯值。 如果参数是reference，则返回ReferredArea对象。
+如果参数是纯值，则返回纯值。 如果参数是引用，则返回ReferredArea对象。
 
 ### 也可以看看
 

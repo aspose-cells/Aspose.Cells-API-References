@@ -21,10 +21,10 @@ public class Row : IEnumerable
 | [FirstCell](../../aspose.cells/row/firstcell) { get; } | Получает первый объект ячейки в строке. |
 | [FirstDataCell](../../aspose.cells/row/firstdatacell) { get; } | Получает первую непустую ячейку в строке. |
 | [GroupLevel](../../aspose.cells/row/grouplevel) { get; } | Получает уровень группы строки. |
-| [Height](../../aspose.cells/row/height) { get; set; } | Получает и задает высоту строки в пунктах. |
+| [Height](../../aspose.cells/row/height) { get; set; } | Получает и задает высоту строки в баллах. |
 | [Index](../../aspose.cells/row/index) { get; } | Получает индекс этой строки. |
-| [IsBlank](../../aspose.cells/row/isblank) { get; } | Указывает, содержит ли строка какие-либо данные |
-| [IsCollapsed](../../aspose.cells/row/iscollapsed) { get; set; } | свернута ли строка |
+| [IsBlank](../../aspose.cells/row/isblank) { get; } | Указывает, содержит ли строка данные |
+| [IsCollapsed](../../aspose.cells/row/iscollapsed) { get; set; } | , свернута ли строка |
 | [IsHeightMatched](../../aspose.cells/row/isheightmatched) { get; set; } | Указывает, что высота строки и высота шрифта по умолчанию совпадают. |
 | [IsHidden](../../aspose.cells/row/ishidden) { get; set; } | Указывает, скрыта ли строка. |
 | [Item](../../aspose.cells/row/item) { get; } | Получает ячейку. |
@@ -36,11 +36,11 @@ public class Row : IEnumerable
 
 | Имя | Описание |
 | --- | --- |
-| [ApplyStyle](../../aspose.cells/row/applystyle)(Style, StyleFlag) | Применяет форматы ко всей строке. |
-| [CopySettings](../../aspose.cells/row/copysettings)(Row, bool) | Копировать настройки строки, такие как стиль, высота, видимость и т.д. |
-| [Equals](../../aspose.cells/row/equals#equals_1)(object) | Проверяет, ссылается ли этот объект на одну и ту же строку с другим. |
+| [ApplyStyle](../../aspose.cells/row/applystyle)(Style, StyleFlag) | Применяет формат ко всей строке. |
+| [CopySettings](../../aspose.cells/row/copysettings)(Row, bool) | Копировать настройки строки, такие как стиль, высота, видимость и т. д. |
+| [Equals](../../aspose.cells/row/equals#equals_1)(object) | Проверяет, ссылается ли этот объект на ту же строку с другим. |
 | [Equals](../../aspose.cells/row/equals#equals)(Row) | Проверяет, ссылается ли этот объект на ту же строку с другим объектом строки. |
-| [GetCellOrNull](../../aspose.cells/row/getcellornull)(int) | Получает ячейку или нуль в указанном индексе. |
+| [GetCellOrNull](../../aspose.cells/row/getcellornull)(int) | Получает ячейку или null в указанном индексе. |
 | [GetEnumerator](../../aspose.cells/row/getenumerator)() | Получает перечислитель ячеек |
 
 ### Примеры
@@ -49,50 +49,50 @@ public class Row : IEnumerable
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 
-//Получение ссылки на первый worksheet
+//Получение ссылки на первый рабочий лист
 Worksheet worksheet = workbook.Worksheets[0];
 Style style = workbook.CreateStyle();
 
-  //Установка цвета фона на Blue
+//Установка цвета фона на синий
 style.BackgroundColor = Color.Blue;
 
-  //Установка цвета переднего плана на Red
+//Установка цвета переднего плана на красный
 style.ForegroundColor= Color.Red;
 
-  //установка фонового рисунка
+//установка фонового рисунка
 style.Pattern = BackgroundType.DiagonalStripe;
 
-  //Флаг нового стиля
+//Флаг нового стиля
 StyleFlag styleFlag = new StyleFlag();
 
-  //Установить все стили
+//Установить все стили
 styleFlag.All = true;
 
-   //Получить первую строку
+ //получить первую строку
 Row row = worksheet.Cells.Rows[0];
-   //Применяем стиль к первому row
+ //Применяем стиль к первой строке
 row.ApplyStyle(style, styleFlag);
 
-  //Сохранение файла Excel
+//Сохранение файла Excel
 workbook.Save("book1.xls");
 
 [VB.NET]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
 
-'Получение ссылки на первый worksheet
+'Получение ссылки на первый рабочий лист
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
 Dim style As Style = workbook.CreateStyle()
 
-'Установка цвета фона на Blue
+'Установка цвета фона на синий
 style.BackgroundColor = Color.Blue
 
-'Установка цвета переднего плана на Red
+'Установка цвета переднего плана на красный
 style.ForegroundColor = Color.Red
 
 'настройка фонового рисунка

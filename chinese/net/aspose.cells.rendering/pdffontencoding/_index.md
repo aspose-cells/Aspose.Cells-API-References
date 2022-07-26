@@ -19,7 +19,7 @@ public enum PdfFontEncoding
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Identity | `0` | 表示对 pdf 中的所有嵌入字体使用 Identity-H 编码。 |
-| AnsiPrefer | `1` | 表示对 32-127 字符的 TrueType 字体更喜欢使用 WinAnsiEncoding， 否则，Identity-H 编码将用于 pdf 中的嵌入字体. |
+| AnsiPrefer | `1` | 表示更喜欢使用 WinAnsiEncoding 对字符为 32-127 的 TrueType 字体， 否则，Identity-H 编码将用于 pdf 中的嵌入字体。 |
 
 ### 也可以看看
 

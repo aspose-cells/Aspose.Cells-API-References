@@ -3,7 +3,7 @@ title: ImportDataRow
 second_title: Aspose.Cells for .NET API 参考
 description: 将 DataRow 导入 Excel 文件
 type: docs
-weight: 1000
+weight: 1010
 url: /zh/net/aspose.cells/cells/importdatarow/
 ---
 ## Cells.ImportDataRow method
@@ -16,7 +16,7 @@ public void ImportDataRow(DataRow dataRow, int row, int firstColumn)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dataRow | DataRow | DataRow 对象。 |
+| dataRow | DataRow | 数据行对象。 |
 | row | Int32 | 行索引。 |
 | firstColumn | Int32 | 第一列索引。 |
 

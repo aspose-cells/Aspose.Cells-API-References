@@ -1,14 +1,14 @@
 ---
 title: PresetStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 表示预设样式或 GridWeb 控件 到目前为止我们提供了 7 种预设样式
+description: 代表预设样式或GridWeb控件 到目前为止我们提供了7种预设样式
 type: docs
 weight: 860
 url: /zh/net/aspose.cells.gridweb/presetstyle/
 ---
 ## PresetStyle enumeration
 
-表示预设样式或 GridWeb 控件。 到目前为止，我们提供了 7 种预设样式。
+代表预设样式或GridWeb控件。 到目前为止，我们提供了7种预设样式。
 
 ```csharp
 public enum PresetStyle
@@ -18,7 +18,7 @@ public enum PresetStyle
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Standard | `0` | 标准款，银色 |
+| Standard | `0` | 标准款式，银色 |
 | Colorful1 | `1` | 玫瑰 |
 | Colorful2 | `2` | 蓝色 |
 | Professional1 | `3` | 青色 |

@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.charts/datalabels/showlegendkey/
 ---
 ## DataLabels.ShowLegendKey property
 
-表示指定图表的数据标签图例键显示行为。 如果数据标签图例键可见，则为真。
+表示指定图表的数据标签图例键显示行为。 如果数据标签图例键可见则为真。
 
 ```csharp
 public bool ShowLegendKey { get; set; }

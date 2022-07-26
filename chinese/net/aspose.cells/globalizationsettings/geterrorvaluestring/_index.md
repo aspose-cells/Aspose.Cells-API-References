@@ -16,7 +16,7 @@ public virtual string GetErrorValueString(string err)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| err | String | 错误#VALUE!,#NAME? 等值 |
+| err | String | 错误值，例如 #VALUE!,#NAME? |
 
 ### 返回值
 

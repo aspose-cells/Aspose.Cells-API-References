@@ -1,14 +1,14 @@
 ---
 title: IncrementalChange
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置滚动条或微调器在行滚动时递增的量
+description: 获取或设置滚动条或微调器增加一行滚动的量
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.drawing/spinner/incrementalchange/
 ---
 ## Spinner.IncrementalChange property
 
-获取或设置滚动条或微调器在行滚动时递增的量。
+获取或设置滚动条或微调器增加一行滚动的量。
 
 ```csharp
 public int IncrementalChange { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: HeightInch
 second_title: Aspose.Cells for .NET API 参考
-description: 表示形状的高度单位为英寸
+description: 表示形状的高度以英寸为单位
 type: docs
 weight: 180
 url: /zh/net/aspose.cells.drawing/shape/heightinch/
 ---
 ## Shape.HeightInch property
 
-表示形状的高度，单位为英寸。
+表示形状的高度，以英寸为单位。
 
 ```csharp
 public double HeightInch { get; set; }

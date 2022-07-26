@@ -21,7 +21,7 @@ public void SetOutlineBorders(CellBorderType[] borderStyles, Color[] borderColor
 
 ### Примечания
 
-Обе длины borderStyles и borderStyles должны быть равны 4. Порядок borderStyles и borderStyles должен быть верхним ,внизу,влево,вправо
+Длина как borderStyles, так и borderStyles должна быть 4. Порядок borderStyles и borderStyles должен быть сверху, снизу, слева, справа
 
 ### Смотрите также
 
@@ -42,7 +42,7 @@ public void SetOutlineBorders(CellBorderType borderStyle, Color borderColor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| borderStyle | CellBorderType | Стиль границы. |
+| borderStyle | CellBorderType | Пограничный стиль. |
 | borderColor | Color | Цвет границы. |
 
 ### Смотрите также

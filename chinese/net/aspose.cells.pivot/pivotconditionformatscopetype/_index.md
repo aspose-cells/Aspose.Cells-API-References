@@ -20,7 +20,7 @@ public enum PivotConditionFormatScopeType
 | --- | --- | --- |
 | Data | `0` | 表示条件格式应用于选定的数据字段。 |
 | Field | `1` | 表示条件格式应用于选定的数据透视表字段交叉点。 |
-| Selection | `2` | 表示条件格式应用于选定的单元格。 |
+| Selection | `2` | 表示将条件格式应用于选定的单元格。 |
 
 ### 也可以看看
 

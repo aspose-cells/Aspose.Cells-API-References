@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементPictureпо указанному индексу.
+description: ПолучаетPicture элемент по указанному индексу.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.griddesktop.data/gridshapecollection/item/
 ---
 ## GridShapeCollection indexer
 
-Получает элементPictureпо указанному индексу.
+ПолучаетPicture элемент по указанному индексу.
 
 ```csharp
 public Shape this[int index] { get; }

@@ -1,16 +1,16 @@
 ---
 title: CellEventHandler
 second_title: Aspose.Cells for .NET API 参考
-description: 表示打算处理单元格事件的接口
+description: 表示打算处理单元事件的接口
 type: docs
 weight: 90
 url: /zh/net/aspose.cells.gridweb.data/celleventhandler/
 ---
 ## CellEventHandler delegate
 
-表示打算处理单元格事件的接口。
+表示打算处理单元事件的接口。
 
-void **handleCellEvent** （对象发送者，CellEventArgs e）；
+空白 **处理细胞事件**（对象发送者，CellEventArgs e）；
 
 ```csharp
 public delegate void CellEventHandler(object sender, CellEventArgs e);

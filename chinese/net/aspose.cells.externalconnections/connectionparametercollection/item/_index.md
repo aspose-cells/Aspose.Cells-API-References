@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定索引处的ConnectionParameteraspose.cells.externalconnections/connectionparameter元素
+description: 获取ConnectionParameteraspose.cells.externalconnections/connectionparameter指定索引处的元素
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.externalconnections/connectionparametercollection/item/
 ---
 ## ConnectionParameterCollection indexer (1 of 2)
 
-获取指定索引处的[`ConnectionParameter`](../../connectionparameter)元素。
+获取[`ConnectionParameter`](../../connectionparameter)指定索引处的元素。
 
 ```csharp
 public ConnectionParameter this[int index] { get; set; }
@@ -33,7 +33,7 @@ public ConnectionParameter this[int index] { get; set; }
 
 ## ConnectionParameterCollection indexer (2 of 2)
 
-获取具有指定名称的[`ConnectionParameter`](../../connectionparameter)元素。
+获取[`ConnectionParameter`](../../connectionparameter)具有指定名称的元素。
 
 ```csharp
 public ConnectionParameter this[string connParamName] { get; }
@@ -45,7 +45,7 @@ public ConnectionParameter this[string connParamName] { get; }
 
 ### 返回值
 
-指定名称的元素.
+具有指定名称的元素。
 
 ### 也可以看看
 

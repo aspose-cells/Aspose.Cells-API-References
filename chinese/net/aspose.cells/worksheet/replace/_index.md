@@ -17,7 +17,7 @@ public int Replace(string oldString, string newString)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | oldString | String | 旧字符串值。 |
-| newString | String | 新字符串值。 |
+| newString | String | 新的字符串值。 |
 
 ### 也可以看看
 

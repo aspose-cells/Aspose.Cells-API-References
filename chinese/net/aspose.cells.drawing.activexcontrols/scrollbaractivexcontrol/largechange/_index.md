@@ -1,14 +1,14 @@
 ---
 title: LargeChange
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置 Position 属性更改的量
+description: 获取和设置 Position 属性的变化量
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/largechange/
 ---
 ## ScrollBarActiveXControl.LargeChange property
 
-获取和设置 Position 属性更改的量
+获取和设置 Position 属性的变化量
 
 ```csharp
 public int LargeChange { get; set; }

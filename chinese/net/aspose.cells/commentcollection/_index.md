@@ -1,14 +1,14 @@
 ---
 title: CommentCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装Comment./comment对象的集合
+description: 封装了一个集合Comment./comment对象.
 type: docs
 weight: 1090
 url: /zh/net/aspose.cells/commentcollection/
 ---
 ## CommentCollection class
 
-封装[`Comment`](../comment)对象的集合。
+封装了一个集合[`Comment`](../comment)对象.
 
 ```csharp
 public class CommentCollection : CollectionBase<Comment>
@@ -20,15 +20,15 @@ public class CommentCollection : CollectionBase<Comment>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/commentcollection/item) { get; } | 获取指定索引处的[`Comment`](../comment)元素。 (3 indexers) |
+| [Item](../../aspose.cells/commentcollection/item) { get; } | 获取[`Comment`](../comment)指定索引处的元素。 (3 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells/commentcollection/add#add_1)(string) | 向集合添加注释。 |
-| [Add](../../aspose.cells/commentcollection/add#add)(int, int) | 向集合添加注释。 |
+| [Add](../../aspose.cells/commentcollection/add#add_1)(string) | 向集合添加评论。 |
+| [Add](../../aspose.cells/commentcollection/add#add)(int, int) | 向集合添加评论。 |
 | [AddThreadedComment](../../aspose.cells/commentcollection/addthreadedcomment#addthreadedcomment_1)(string, string, ThreadedCommentAuthor) | 添加线程注释。 |
 | [AddThreadedComment](../../aspose.cells/commentcollection/addthreadedcomment#addthreadedcomment)(int, int, string, ThreadedCommentAuthor) | 添加线程注释。 |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Comment) |  |
@@ -51,7 +51,7 @@ public class CommentCollection : CollectionBase<Comment>
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;Comment&gt;) |  |
 | [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
 | [GetThreadedComments](../../aspose.cells/commentcollection/getthreadedcomments#getthreadedcomments_1)(string) | 按单元格名称获取线程注释。 |
-| [GetThreadedComments](../../aspose.cells/commentcollection/getthreadedcomments#getthreadedcomments)(int, int) | 按行和列索引获取线程注释。 |
+| [GetThreadedComments](../../aspose.cells/commentcollection/getthreadedcomments#getthreadedcomments)(int, int) | 按行列索引获取线程评论。 |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Comment) |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Comment, int) |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Comment, int, int) |  |
@@ -71,7 +71,7 @@ Workbook workbook = new Workbook();
 
 CommentCollection comments = workbook.Worksheets[0].Comments;
 
- //做你的事
+//做你的事
 
 [Visual Basic]
 

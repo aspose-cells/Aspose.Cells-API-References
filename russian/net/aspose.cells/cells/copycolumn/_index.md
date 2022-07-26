@@ -16,7 +16,7 @@ public void CopyColumn(Cells sourceCells, int sourceColumnIndex, int destination
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sourceCells | Cells | Объект Source Cells содержит данные и форматы для копирования. |
+| sourceCells | Cells | Объект исходных ячеек содержит данные и форматы для копирования. |
 | sourceColumnIndex | Int32 | Индекс исходного столбца. |
 | destinationColumnIndex | Int32 | Индекс столбца назначения. |
 

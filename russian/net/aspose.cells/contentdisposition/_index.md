@@ -1,14 +1,14 @@
 ---
 title: ContentDisposition
 second_title: Справочник по Aspose.Cells для .NET API
-description: Тип размещения содержимого.
+description: Тип размещения контента.
 type: docs
 weight: 1170
 url: /ru/net/aspose.cells/contentdisposition/
 ---
 ## ContentDisposition enumeration
 
-Тип размещения содержимого.
+Тип размещения контента.
 
 ```csharp
 public enum ContentDisposition

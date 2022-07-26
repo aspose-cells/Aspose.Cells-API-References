@@ -3,7 +3,7 @@ title: GetEnumerator
 second_title: Aspose.Cells for .NET API 参考
 description: 获取单元格枚举器
 type: docs
-weight: 710
+weight: 720
 url: /zh/net/aspose.cells/cells/getenumerator/
 ---
 ## Cells.GetEnumerator method
@@ -20,7 +20,7 @@ public IEnumerator GetEnumerator()
 
 ### 评论
 
-当通过返回的枚举器遍历元素时，不应修改单元格集合 （例如将导致实例化新单元格/行或删除现有单元格/行的操作）。 否则枚举器可能无法正确遍历所有单元格（某些元素可能会重复遍历或跳过）。
+返回的Enumerator遍历元素时，cell collection 不应该被修改（例如会导致新的Cell/Row被实例化或现有的Cell/Row被删除的操作）。 否则枚举器可能无法正确遍历所有cell （某些元素可能会被重复遍历或跳过）。
 
 ### 例子
 

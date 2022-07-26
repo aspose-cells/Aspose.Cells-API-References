@@ -20,7 +20,7 @@ public static string RowIndexToName(int row)
 
 ### 返回值
 
-行名。
+行的名称。
 
 ### 也可以看看
 

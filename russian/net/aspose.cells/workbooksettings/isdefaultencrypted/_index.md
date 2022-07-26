@@ -16,7 +16,7 @@ public bool IsDefaultEncrypted { get; set; }
 
 ### Примечания
 
-Значение по умолчанию теперь равно false. То же, что и MS Excel 2013.
+Значение по умолчанию теперь false. То же, что и MS Excel 2013.
 
 ### Смотрите также
 

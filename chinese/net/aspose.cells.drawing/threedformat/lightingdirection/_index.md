@@ -1,14 +1,14 @@
 ---
 title: LightingDirection
 second_title: Aspose.Cells for .NET API 参考
-description: 获取并设置灯光装置相对于场景的定向方向
+description: 获取和设置灯光装置相对于场景的方向
 type: docs
 weight: 100
 url: /zh/net/aspose.cells.drawing/threedformat/lightingdirection/
 ---
 ## ThreeDFormat.LightingDirection property
 
-获取并设置灯光装置相对于场景的定向方向。
+获取和设置灯光装置相对于场景的方向。
 
 ```csharp
 public LightRigDirectionType LightingDirection { get; set; }

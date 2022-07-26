@@ -3,7 +3,7 @@ title: IsIntersect
 second_title: Aspose.Cells for .NET API 参考
 description: 表示范围是否相交
 type: docs
-weight: 290
+weight: 330
 url: /zh/net/aspose.cells/range/isintersect/
 ---
 ## Range.IsIntersect method

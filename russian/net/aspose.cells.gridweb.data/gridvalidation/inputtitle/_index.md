@@ -1,14 +1,14 @@
 ---
 title: InputTitle
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет заголовок диалогового окна ввода данных проверки.
+description: Представляет заголовок диалогового окна ввода данных для проверки данных.
 type: docs
 weight: 90
 url: /ru/net/aspose.cells.gridweb.data/gridvalidation/inputtitle/
 ---
 ## GridValidation.InputTitle property
 
-Представляет заголовок диалогового окна ввода данных проверки.
+Представляет заголовок диалогового окна ввода данных для проверки данных.
 
 ```csharp
 public string InputTitle { get; set; }

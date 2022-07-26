@@ -1,14 +1,14 @@
 ---
 title: Hidden
 second_title: Aspose.Cells for .NET API 参考
-description: 表示列是否隐藏
+description: 表示该列是否隐藏
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.griddesktop.data/gridcolumn/hidden/
 ---
 ## GridColumn.Hidden property
 
-表示列是否隐藏。
+表示该列是否隐藏。
 
 ```csharp
 public bool Hidden { get; set; }

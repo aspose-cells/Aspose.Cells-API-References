@@ -1,14 +1,14 @@
 ---
 title: HasUpDownBars
 second_title: Aspose.Cells for .NET API 参考
-description: 如果折线图有上下柱则为真 仅适用于折线图
+description: 如果折线图有上下柱线则为真 仅适用于折线图
 type: docs
 weight: 210
 url: /zh/net/aspose.cells.charts/series/hasupdownbars/
 ---
 ## Series.HasUpDownBars property
 
-如果折线图有上下柱，则为真。 仅适用于折线图。
+如果折线图有上下柱线，则为真。 仅适用于折线图。
 
 ```csharp
 public bool HasUpDownBars { get; set; }

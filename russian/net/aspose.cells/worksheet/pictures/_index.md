@@ -1,14 +1,14 @@
 ---
 title: Pictures
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает коллекциюPictureaspose.cells.drawing/picture.
+description: ПолучаетPictureaspose.cells.drawing/picture коллекция.
 type: docs
 weight: 360
 url: /ru/net/aspose.cells/worksheet/pictures/
 ---
 ## Worksheet.Pictures property
 
-Получает коллекцию[`Picture`](../../../aspose.cells.drawing/picture).
+Получает[`Picture`](../../../aspose.cells.drawing/picture) коллекция.
 
 ```csharp
 public PictureCollection Pictures { get; }

@@ -1,14 +1,14 @@
 ---
 title: Guid
 second_title: Aspose.Cells for .NET API 参考
-description: 获取自定义视图的全局唯一标识符
+description: 获取自定义视图的全局唯一标识
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.revisions/revisioncustomview/guid/
 ---
 ## RevisionCustomView.Guid property
 
-获取自定义视图的全局唯一标识符。
+获取自定义视图的全局唯一标识。
 
 ```csharp
 public Guid Guid { get; }

@@ -3,7 +3,7 @@ title: ApplyStyle
 second_title: Справочник по Aspose.Cells для .NET API
 description: Применяет форматы ко всему диапазону.
 type: docs
-weight: 170
+weight: 210
 url: /ru/net/aspose.cells/range/applystyle/
 ---
 ## Range.ApplyStyle method
@@ -21,7 +21,7 @@ public void ApplyStyle(Style style, StyleFlag flag)
 
 ### Примечания
 
-Каждая ячейка в этом диапазоне будет содержать объект[`Style`](../../style). Итак, это метод, потребляющий много памяти. Пожалуйста, используйте его осторожно.
+Каждая ячейка в этом диапазоне будет содержать[`Style`](../../style) объект. Так что это метод, потребляющий много памяти. Пожалуйста, используйте его осторожно.
 
 ### Смотрите также
 

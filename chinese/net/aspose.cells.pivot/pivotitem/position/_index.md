@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Aspose.Cells for .NET API 参考
-description: 指定所有PivotItems中的位置索引而不是同一父节点下的PivotItems
+description: 指定所有PivotItem中的位置索引而不是同一父节点下的PivotItems
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.pivot/pivotitem/position/
 ---
 ## PivotItem.Position property
 
-指定所有PivotItems中的位置索引，而不是同一父节点下的PivotItems。
+指定所有PivotItem中的位置索引，而不是同一父节点下的PivotItems。
 
 ```csharp
 public int Position { set; }

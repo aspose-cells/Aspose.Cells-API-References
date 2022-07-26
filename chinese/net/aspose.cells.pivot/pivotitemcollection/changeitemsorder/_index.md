@@ -1,14 +1,14 @@
 ---
 title: ChangeitemsOrder
 second_title: Aspose.Cells for .NET API 参考
-description: 直接改变两项的顺序
+description: 直接改变这两项的顺序
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.pivot/pivotitemcollection/changeitemsorder/
 ---
 ## PivotItemCollection.ChangeitemsOrder method
 
-直接改变两项的顺序。
+直接改变这两项的顺序。
 
 ```csharp
 public void ChangeitemsOrder(int sourceIndex, int destIndex)

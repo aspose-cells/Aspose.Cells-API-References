@@ -1,14 +1,14 @@
 ---
 title: DataTable
 second_title: Aspose.Cells for .NET API 参考
-description: 获取并设置分配了列数据类型的DataTable
+description: 获取并设置分配了哪些列的数据类型的DataTable
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/exporttableoptions/datatable/
 ---
 ## ExportTableOptions.DataTable property
 
-获取并设置分配了列数据类型的DataTable。
+获取并设置分配了哪些列的数据类型的DataTable。
 
 ```csharp
 public DataTable DataTable { get; set; }

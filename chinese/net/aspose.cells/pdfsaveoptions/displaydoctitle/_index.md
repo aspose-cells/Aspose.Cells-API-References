@@ -16,7 +16,7 @@ public bool DisplayDocTitle { get; set; }
 
 ### 评论
 
-如果为假，则标题栏应改为显示 PDF 文件的名称。 默认值为假。
+如果为 false，则标题栏应改为显示 PDF 文件的名称。 默认值为 false。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Date1904
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает значение указывающее используется ли в книге система дат 1904 года.
+description: Получает или задает значение указывающее использует ли книга систему дат 1904 года.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.gridjs/gridworkbooksettings/date1904/
 ---
 ## GridWorkbookSettings.Date1904 property
 
-Получает или задает значение, указывающее, используется ли в книге система дат 1904 года.
+Получает или задает значение, указывающее, использует ли книга систему дат 1904 года.
 
 ```csharp
 public bool Date1904 { get; set; }

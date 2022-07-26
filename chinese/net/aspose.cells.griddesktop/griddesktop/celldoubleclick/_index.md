@@ -1,14 +1,14 @@
 ---
 title: CellDoubleClick
 second_title: Aspose.Cells for .NET API 参考
-description: 双击网格单元格时发生
+description: 双击网格单元时发生
 type: docs
 weight: 440
 url: /zh/net/aspose.cells.griddesktop/griddesktop/celldoubleclick/
 ---
 ## GridDesktop.CellDoubleClick event
 
-双击网格单元格时发生。
+双击网格单元时发生。
 
 ```csharp
 public event CellEventHandler CellDoubleClick;

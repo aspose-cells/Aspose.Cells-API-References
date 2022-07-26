@@ -19,18 +19,18 @@ public double BorderWeight { get; set; }
 ```csharp
 
 [C#]
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-  //Добавление изображения в ячейку, индексы строки и столбца которой равны 1 на рабочем листе. Это "B2" cell
+//Добавление изображения в ячейку, индексы строки и столбца которой равны 1 на рабочем листе. Это ячейка "B2"
 int imgIndex = worksheet.Pictures.Add(1, 1, "example.jpeg");
-  //Получить вставленную картинку object
+//Получить вставленный объект изображения
 Picture pic = worksheet.Pictures[imgIndex];
-  //Устанавливаем цвет границы picture
+//Устанавливаем цвет границы картинки
 pic.BorderLineColor = Color.Red;
-  //Устанавливаем ширину границы picture
+//Устанавливаем ширину границы картинки
 pic.BorderWeight = 3;
-  // Сохраняем файл Excel.
+// Сохраняем файл excel.
 workbook.Save("result.xlsx");
 ```
 

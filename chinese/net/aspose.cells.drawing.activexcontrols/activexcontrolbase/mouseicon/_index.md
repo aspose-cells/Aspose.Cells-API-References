@@ -1,14 +1,14 @@
 ---
 title: MouseIcon
 second_title: Aspose.Cells for .NET API 参考
-description: 获取并设置自定义图标以显示为控件的鼠标指针
+description: 获取并设置一个自定义图标以显示为控件的鼠标指针
 type: docs
 weight: 80
 url: /zh/net/aspose.cells.drawing.activexcontrols/activexcontrolbase/mouseicon/
 ---
 ## ActiveXControlBase.MouseIcon property
 
-获取并设置自定义图标以显示为控件的鼠标指针。
+获取并设置一个自定义图标以显示为控件的鼠标指针。
 
 ```csharp
 public byte[] MouseIcon { get; set; }

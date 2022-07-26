@@ -16,7 +16,7 @@ public void CalculateRange()
 
 ### 评论
 
-如果未调用此方法，则可能未更正数据透视范围。
+如果没有调用这个方法，可能是pivottable范围没有更正。
 
 ### 也可以看看
 

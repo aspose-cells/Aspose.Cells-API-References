@@ -1,14 +1,14 @@
 ---
 title: OleObjects
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет коллекциюOleObjectaspose.cells.drawing/oleobjectна рабочем листе.
+description: Представляет наборOleObjectaspose.cells.drawing/oleobject на листе.
 type: docs
 weight: 320
 url: /ru/net/aspose.cells/worksheet/oleobjects/
 ---
 ## Worksheet.OleObjects property
 
-Представляет коллекцию[`OleObject`](../../../aspose.cells.drawing/oleobject)на рабочем листе.
+Представляет набор[`OleObject`](../../../aspose.cells.drawing/oleobject) на листе.
 
 ```csharp
 public OleObjectCollection OleObjects { get; }

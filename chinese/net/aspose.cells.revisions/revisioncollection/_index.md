@@ -1,14 +1,14 @@
 ---
 title: RevisionCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示所有修订日志
+description: 代表所有修订日志
 type: docs
 weight: 5380
 url: /zh/net/aspose.cells.revisions/revisioncollection/
 ---
 ## RevisionCollection class
 
-表示所有修订日志。
+代表所有修订日志。
 
 ```csharp
 public class RevisionCollection : CollectionBase<Revision>
@@ -20,7 +20,7 @@ public class RevisionCollection : CollectionBase<Revision>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.revisions/revisioncollection/item) { get; } | 通过索引获取[`Revision`](../revision)。 |
+| [Item](../../aspose.cells.revisions/revisioncollection/item) { get; } | 获取[`Revision`](../revision)按索引. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法

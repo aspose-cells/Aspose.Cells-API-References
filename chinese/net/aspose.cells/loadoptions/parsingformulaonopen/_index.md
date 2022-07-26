@@ -1,14 +1,14 @@
 ---
 title: ParsingFormulaOnOpen
 second_title: Aspose.Cells for .NET API 参考
-description: 表示读取文件时是否解析公式
+description: 读取文件时是否解析公式
 type: docs
 weight: 170
 url: /zh/net/aspose.cells/loadoptions/parsingformulaonopen/
 ---
 ## LoadOptions.ParsingFormulaOnOpen property
 
-表示读取文件时是否解析公式。
+读取文件时是否解析公式
 
 ```csharp
 public bool ParsingFormulaOnOpen { get; set; }
@@ -16,7 +16,7 @@ public bool ParsingFormulaOnOpen { get; set; }
 
 ### 评论
 
-仅适用于 Excel Xlsx、Xltx、Xltm 和 Xlsm 文件 因为文件中的公式与字符串公式一起存储。
+仅适用于 Excel Xlsx、Xltx、Xltm 和 Xlsm 文件 因为文件中的公式以字符串公式存储。
 
 ### 也可以看看
 

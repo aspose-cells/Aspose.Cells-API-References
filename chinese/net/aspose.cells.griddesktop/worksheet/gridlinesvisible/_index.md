@@ -1,14 +1,14 @@
 ---
 title: GridlinesVisible
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置一个值指示网格线是否可见默认为 true
+description: 获取或设置网格线是否可见默认为真
 type: docs
 weight: 210
 url: /zh/net/aspose.cells.griddesktop/worksheet/gridlinesvisible/
 ---
 ## Worksheet.GridlinesVisible property
 
-获取或设置一个值，指示网格线是否可见。默认为 true。
+获取或设置网格线是否可见。默认为真。
 
 ```csharp
 public bool GridlinesVisible { get; set; }

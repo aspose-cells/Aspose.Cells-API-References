@@ -16,7 +16,7 @@ public TickLabelItem[] TickLabelItems { get; }
 
 ### 评论
 
-仅在调用Calculate后存在方法。
+调用后才存在[`Calculate`](../../chart/calculate)方法.
 
 ### 也可以看看
 

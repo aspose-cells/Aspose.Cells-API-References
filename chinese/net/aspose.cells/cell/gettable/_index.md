@@ -1,14 +1,14 @@
 ---
 title: GetTable
 second_title: Aspose.Cells for .NET API 参考
-description: 获取包含此单元格的表格
+description: 获取包含此单元格的表
 type: docs
 weight: 510
 url: /zh/net/aspose.cells/cell/gettable/
 ---
 ## Cell.GetTable method
 
-获取包含此单元格的表格。
+获取包含此单元格的表。
 
 ```csharp
 public ListObject GetTable()

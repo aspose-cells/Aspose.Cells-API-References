@@ -1,22 +1,21 @@
 ---
 title: GetIsReadonly
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает доступна ли ячейка только для чтения. Это расширенный атрибут GridWeb он не будет храниться в фактическом файле Excel
+description: Получает доступна ли ячейка только для чтения. Это расширенный атрибут GridWeb он не будет сохраняться в фактическом файле excel
 type: docs
 weight: 590
 url: /ru/net/aspose.cells.gridweb.data/gridworksheet/getisreadonly/
 ---
 ## GridWorksheet.GetIsReadonly method
 
-Получает, доступна ли ячейка только для чтения. Это расширенный атрибут GridWeb, он не будет храниться в фактическом файле Excel
+Получает, доступна ли ячейка только для чтения. Это расширенный атрибут GridWeb, он не будет сохраняться в фактическом файле excel
 
 ```csharp
-public bool GetIsReadonly(GridCell cell)
+public bool GetIsReadonly(int row, int col)
 ```
 
 ### Смотрите также
 
-* class [GridCell](../../gridcell)
 * class [GridWorksheet](../../gridworksheet)
 * пространство имен [Aspose.Cells.GridWeb.Data](../../gridworksheet)
 * сборка [Aspose.Cells.GridWeb](../../../)

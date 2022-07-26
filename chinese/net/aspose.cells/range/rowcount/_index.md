@@ -3,7 +3,7 @@ title: RowCount
 second_title: Aspose.Cells for .NET API 参考
 description: 获取范围内的行数
 type: docs
-weight: 130
+weight: 150
 url: /zh/net/aspose.cells/range/rowcount/
 ---
 ## Range.RowCount property

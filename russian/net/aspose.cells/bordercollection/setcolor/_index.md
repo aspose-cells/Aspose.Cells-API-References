@@ -1,14 +1,14 @@
 ---
 title: SetColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: УстанавливаетColorвсех границ в коллекции.
+description: УстанавливаетColor всех бордюров в коллекции.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/bordercollection/setcolor/
 ---
 ## BorderCollection.SetColor method
 
-УстанавливаетColorвсех границ в коллекции.
+УстанавливаетColor всех бордюров в коллекции.
 
 ```csharp
 public void SetColor(Color color)

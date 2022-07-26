@@ -1,14 +1,14 @@
 ---
 title: CellArea
 second_title: Aspose.Cells for .NET API 参考
-description: 获取CellAreaaspose.cells/protectedrange/cellarea对象表示要保护的单元格区域
+description: 获取CellAreaaspose.cells/protectedrange/cellarea object 表示要保护的单元格区域
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/protectedrange/cellarea/
 ---
 ## ProtectedRange.CellArea property
 
-获取`CellArea`对象表示要保护的单元格区域。
+获取`CellArea` object 表示要保护的单元格区域。
 
 ```csharp
 public CellArea CellArea { get; }

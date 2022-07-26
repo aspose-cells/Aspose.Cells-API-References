@@ -1,14 +1,14 @@
 ---
 title: GridShapeCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует набор объектовShape../aspose.cells.griddesktop/shape.
+description: Инкапсулирует наборShape../aspose.cells.griddesktop/shape объекты.
 type: docs
 weight: 700
 url: /ru/net/aspose.cells.griddesktop.data/gridshapecollection/
 ---
 ## GridShapeCollection class
 
-Инкапсулирует набор объектов[`Shape`](../../aspose.cells.griddesktop/shape).
+Инкапсулирует набор[`Shape`](../../aspose.cells.griddesktop/shape) объекты.
 
 ```csharp
 public class GridShapeCollection
@@ -19,7 +19,7 @@ public class GridShapeCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.cells.griddesktop.data/gridshapecollection/count) { get; } |  |
-| [Item](../../aspose.cells.griddesktop.data/gridshapecollection/item) { get; } | Получает элементPictureпо указанному индексу. |
+| [Item](../../aspose.cells.griddesktop.data/gridshapecollection/item) { get; } | ПолучаетPicture элемент по указанному индексу. |
 
 ## Методы
 

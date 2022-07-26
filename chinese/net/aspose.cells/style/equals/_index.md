@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Cells for .NET API 参考
-description: 确定两个 Style 实例是否相等
+description: 判断两个 Style 实例是否相等
 type: docs
 weight: 320
 url: /zh/net/aspose.cells/style/equals/
 ---
 ## Style.Equals method
 
-确定两个 Style 实例是否相等。
+判断两个 Style 实例是否相等。
 
 ```csharp
 public override bool Equals(object obj)
@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-如果指定的对象等于当前对象，则为真；否则为假。
+如果指定的 Object 等于当前 Object，则为 true；否则为假。
 
 ### 也可以看看
 

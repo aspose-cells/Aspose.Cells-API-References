@@ -17,13 +17,13 @@ public void ImportXml(string url, string sheetName, int row, int col)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | url | String | URL-адрес/путь XML-файла. |
-| sheetName | String | имя конечного листа. |
+| sheetName | String | имя целевого листа. |
 | row | Int32 | строка назначения |
 | col | Int32 | столбец назначения |
 
 ### Примеры
 
-Следующий код импортирует данные xml в рабочий лист «Лист 1» в ячейке A1.
+Следующий код импортирует данные XML в рабочий лист «Лист 1» в ячейке A1.
 
 ```csharp
 Workbook wb = new Workbook("Book1.xlsx");
@@ -51,8 +51,8 @@ public void ImportXml(Stream stream, string sheetName, int row, int col)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | поток файла xml. |
-| sheetName | String | имя конечного листа. |
+| stream | Stream | поток xml-файлов. |
+| sheetName | String | имя целевого листа. |
 | row | Int32 | строка назначения. |
 | col | Int32 | столбец назначения. |
 

@@ -1,14 +1,14 @@
 ---
 title: IsDeleted
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否删除此数据标签
+description: 表示此数据标签是否被删除
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.charts/charttextframe/isdeleted/
 ---
 ## ChartTextFrame.IsDeleted property
 
-表示是否删除此数据标签。
+表示此数据标签是否被删除。
 
 ```csharp
 public bool IsDeleted { get; set; }

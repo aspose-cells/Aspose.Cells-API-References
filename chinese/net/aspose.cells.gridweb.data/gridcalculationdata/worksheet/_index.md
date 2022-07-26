@@ -1,14 +1,14 @@
 ---
 title: Worksheet
 second_title: Aspose.Cells for .NET API 参考
-description: 获取函数所在的 Workbook 对象
+description: 获取函数所在的Workbook对象
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.gridweb.data/gridcalculationdata/worksheet/
 ---
 ## GridCalculationData.Worksheet property
 
-获取函数所在的 Workbook 对象。
+获取函数所在的Workbook对象。
 
 ```csharp
 public GridWorksheet Worksheet { get; }

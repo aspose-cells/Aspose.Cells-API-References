@@ -20,7 +20,7 @@ public static string SaveFormatToExtension(SaveFormat format)
 
 ### 返回值
 
-返回的扩展名是带前导点的小写字符串。
+返回的扩展名是带有前导点的小写字符串。
 
 ### 也可以看看
 

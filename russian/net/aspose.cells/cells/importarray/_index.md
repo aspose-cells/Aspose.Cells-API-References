@@ -3,7 +3,7 @@ title: ImportArray
 second_title: Справочник по Aspose.Cells для .NET API
 description: 
 type: docs
-weight: 930
+weight: 940
 url: /ru/net/aspose.cells/cells/importarray/
 ---
 ## ImportArray(string[], int, int) {#importarray_4}
@@ -22,7 +22,7 @@ public void ImportArray(string[] stringArray, int firstRow, int firstColumn)
 
 ## ImportArray(string[], int, int, bool) {#importarray_5}
 
-Импортирует массив строк на рабочий лист.
+Импортирует массив строк в рабочий лист.
 
 ```csharp
 public void ImportArray(string[] stringArray, int firstRow, int firstColumn, bool isVertical)
@@ -30,7 +30,7 @@ public void ImportArray(string[] stringArray, int firstRow, int firstColumn, boo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stringArray | String[] | Массив строк. |
+| stringArray | String[] | Строковый массив. |
 | firstRow | Int32 | Номер строки первой ячейки для импорта. |
 | firstColumn | Int32 | Номер столбца первой ячейки для импорта. |
 | isVertical | Boolean | Задает импорт данных по вертикали или по горизонтали. |
@@ -59,7 +59,7 @@ public void ImportArray(int[] intArray, int firstRow, int firstColumn)
 
 ## ImportArray(int[], int, int, bool) {#importarray_3}
 
-Импортирует массив целых чисел на рабочий лист.
+Импортирует массив целых чисел в рабочий лист.
 
 ```csharp
 public void ImportArray(int[] intArray, int firstRow, int firstColumn, bool isVertical)
@@ -96,7 +96,7 @@ public void ImportArray(double[] doubleArray, int firstRow, int firstColumn)
 
 ## ImportArray(double[], int, int, bool) {#importarray_1}
 
-Импортирует массив двойных чисел на рабочий лист.
+Импортирует массив двойных чисел в рабочий лист.
 
 ```csharp
 public void ImportArray(double[] doubleArray, int firstRow, int firstColumn, bool isVertical)

@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置模块的名称
+description: 获取并设置模块的名称
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.vba/vbamodule/name/
 ---
 ## VbaModule.Name property
 
-获取和设置模块的名称。
+获取并设置模块的名称。
 
 ```csharp
 public string Name { get; set; }

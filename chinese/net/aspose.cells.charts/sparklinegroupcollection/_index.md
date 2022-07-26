@@ -1,14 +1,14 @@
 ---
 title: SparklineGroupCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装SparklineGroup./sparklinegroup对象的集合
+description: 封装了一个集合SparklineGroup./sparklinegroup对象.
 type: docs
 weight: 890
 url: /zh/net/aspose.cells.charts/sparklinegroupcollection/
 ---
 ## SparklineGroupCollection class
 
-封装[`SparklineGroup`](../sparklinegroup)对象的集合。
+封装了一个集合[`SparklineGroup`](../sparklinegroup)对象.
 
 ```csharp
 public class SparklineGroupCollection : CollectionBase<SparklineGroup>
@@ -20,14 +20,14 @@ public class SparklineGroupCollection : CollectionBase<SparklineGroup>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.charts/sparklinegroupcollection/item) { get; } | 获取指定索引处的[`SparklineGroup`](../sparklinegroup)元素。 |
+| [Item](../../aspose.cells.charts/sparklinegroupcollection/item) { get; } | 获取[`SparklineGroup`](../sparklinegroup)指定索引处的元素。 |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells.charts/sparklinegroupcollection/add)(SparklineType, string, bool, CellArea) | 将[`SparklineGroup`](../sparklinegroup)项添加到集合中。 |
+| [Add](../../aspose.cells.charts/sparklinegroupcollection/add)(SparklineType, string, bool, CellArea) | 添加一个[`SparklineGroup`](../sparklinegroup)项目到集合. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(SparklineGroup) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(SparklineGroup, IComparer&lt;SparklineGroup&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, SparklineGroup, IComparer&lt;SparklineGroup&gt;) |  |
@@ -70,7 +70,7 @@ sheet.Cells["B1"].PutValue(2);
 sheet.Cells["C1"].PutValue(1);
 sheet.Cells["D1"].PutValue(3);
 
- // 定义 CellArea
+// 定义单元格区域
 CellArea ca = new CellArea();
 ca.StartColumn = 4;
 ca.EndColumn = 4;

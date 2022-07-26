@@ -1,14 +1,14 @@
 ---
 title: HAlignment
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или устанавливает атрибут горизонтального выравнивания.
+description: Получает или задает атрибут горизонтального выравнивания.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.griddesktop/style/halignment/
 ---
 ## Style.HAlignment property
 
-Получает или устанавливает атрибут горизонтального выравнивания.
+Получает или задает атрибут горизонтального выравнивания.
 
 ```csharp
 public HorizontalAlignmentType HAlignment { get; set; }

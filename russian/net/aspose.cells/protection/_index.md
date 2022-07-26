@@ -1,14 +1,14 @@
 ---
 title: Protection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет различные типы опций защиты доступные для рабочего листа.
+description: Представляет различные типы параметров защиты доступные для рабочего листа.
 type: docs
 weight: 4910
 url: /ru/net/aspose.cells/protection/
 ---
 ## Protection class
 
-Представляет различные типы опций защиты, доступные для рабочего листа.
+Представляет различные типы параметров защиты, доступные для рабочего листа.
 
 ```csharp
 public class Protection
@@ -21,21 +21,21 @@ public class Protection
 | [AllowDeletingColumn](../../aspose.cells/protection/allowdeletingcolumn) { get; set; } | Указывает, разрешено ли удаление столбцов на защищенном листе. |
 | [AllowDeletingRow](../../aspose.cells/protection/allowdeletingrow) { get; set; } | Указывает, разрешено ли удаление строк на защищенном листе. |
 | [AllowEditingContent](../../aspose.cells/protection/alloweditingcontent) { get; set; } | Указывает, разрешено ли пользователю редактировать содержимое заблокированных ячеек на защищенном листе. |
-| [AllowEditingObject](../../aspose.cells/protection/alloweditingobject) { get; set; } | Указывает, разрешено ли пользователю управлять объектами чертежа на защищенном рабочем листе. |
-| [AllowEditingScenario](../../aspose.cells/protection/alloweditingscenario) { get; set; } | Указывает, разрешено ли пользователю редактировать сценарии на защищенном рабочем листе. |
+| [AllowEditingObject](../../aspose.cells/protection/alloweditingobject) { get; set; } | Указывает, разрешено ли пользователю управлять объектами чертежа на защищенном листе. |
+| [AllowEditingScenario](../../aspose.cells/protection/alloweditingscenario) { get; set; } | Указывает, разрешено ли пользователю редактировать сценарии на защищенном листе. |
 | [AllowFiltering](../../aspose.cells/protection/allowfiltering) { get; set; } | Указывает, разрешено ли пользователю использовать автофильтр, созданный до того, как лист был защищен. |
 | [AllowFormattingCell](../../aspose.cells/protection/allowformattingcell) { get; set; } | Указывает, разрешено ли форматирование ячеек на защищенном листе. |
 | [AllowFormattingColumn](../../aspose.cells/protection/allowformattingcolumn) { get; set; } | Указывает, разрешено ли форматирование столбцов на защищенном листе |
 | [AllowFormattingRow](../../aspose.cells/protection/allowformattingrow) { get; set; } | Указывает, разрешено ли форматирование строк на защищенном листе |
 | [AllowInsertingColumn](../../aspose.cells/protection/allowinsertingcolumn) { get; set; } | Указывает, разрешена ли вставка столбцов на защищенном листе |
-| [AllowInsertingHyperlink](../../aspose.cells/protection/allowinsertinghyperlink) { get; set; } | Указывает, разрешена ли вставка гиперссылок на защищенный рабочий лист |
+| [AllowInsertingHyperlink](../../aspose.cells/protection/allowinsertinghyperlink) { get; set; } | Указывает, разрешена ли вставка гиперссылок на защищенный лист |
 | [AllowInsertingRow](../../aspose.cells/protection/allowinsertingrow) { get; set; } | Указывает, разрешена ли вставка строк на защищенном листе |
 | [AllowSelectingLockedCell](../../aspose.cells/protection/allowselectinglockedcell) { get; set; } | Указывает, разрешено ли пользователю выбирать заблокированные ячейки на защищенном листе. |
 | [AllowSelectingUnlockedCell](../../aspose.cells/protection/allowselectingunlockedcell) { get; set; } | Указывает, разрешено ли пользователю выбирать разблокированные ячейки на защищенном листе. |
 | [AllowSorting](../../aspose.cells/protection/allowsorting) { get; set; } | Указывает, разрешен ли параметр сортировки на защищенном листе. |
-| [AllowUsingPivotTable](../../aspose.cells/protection/allowusingpivottable) { get; set; } | Указывает, разрешено ли пользователю управлять сводными таблицами на защищенном рабочем листе. |
-| [IsProtectedWithPassword](../../aspose.cells/protection/isprotectedwithpassword) { get; } | Указывает, защищены ли рабочие листы паролем. |
-| [Password](../../aspose.cells/protection/password) { get; set; } | Представляет пароль для защиты рабочего листа. |
+| [AllowUsingPivotTable](../../aspose.cells/protection/allowusingpivottable) { get; set; } | Указывает, разрешено ли пользователю управлять сводными таблицами на защищенном листе. |
+| [IsProtectedWithPassword](../../aspose.cells/protection/isprotectedwithpassword) { get; } | Указывает, защищены ли листы паролем. |
+| [Password](../../aspose.cells/protection/password) { get; set; } | Представляет пароль для защиты листа. |
 
 ## Методы
 
@@ -43,30 +43,30 @@ public class Protection
 | --- | --- |
 | [Copy](../../aspose.cells/protection/copy)(Protection) | Информация о защите от копирования. |
 | [GetPasswordHash](../../aspose.cells/protection/getpasswordhash)() | Получает хэш текущего пароля. |
-| [VerifyPassword](../../aspose.cells/protection/verifypassword)(string) | Проверяет пароль. |
+| [VerifyPassword](../../aspose.cells/protection/verifypassword)(string) | Подтверждает пароль. |
 
 ### Примеры
 
 ```csharp
 
 [C#]
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 
 Worksheet worksheet = workbook.Worksheets[0];
-  // Разрешение пользователям выбирать заблокированные ячейки рабочего листа
+// Разрешение пользователям выбирать заблокированные ячейки рабочего листа
 worksheet.Protection.AllowSelectingLockedCell = true;
-  // Разрешение пользователям выбирать разблокированные ячейки worksheet
+// Разрешение пользователям выбирать разблокированные ячейки рабочего листа
 worksheet.Protection.AllowSelectingUnlockedCell = true;  
 
 [Visual Basic]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 'Разрешение пользователям выбирать заблокированные ячейки рабочего листа
 worksheet.Protection.AllowSelectingLockedCell = True
-'Разрешение пользователям выбирать разблокированные ячейки worksheet
+'Разрешение пользователям выбирать разблокированные ячейки рабочего листа
 worksheet.Protection.AllowSelectingUnlockedCell = True
 ```
 

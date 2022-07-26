@@ -1,14 +1,14 @@
 ---
 title: YErrorBar
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет линейку погрешностей направления Y ряда.
+description: Представляет полосу ошибок направления Y серии.
 type: docs
 weight: 500
 url: /ru/net/aspose.cells.charts/series/yerrorbar/
 ---
 ## Series.YErrorBar property
 
-Представляет линейку погрешностей направления Y ряда.
+Представляет полосу ошибок направления Y серии.
 
 ```csharp
 public ErrorBar YErrorBar { get; }

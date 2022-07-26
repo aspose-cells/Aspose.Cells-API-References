@@ -33,7 +33,7 @@ public RectangleShape AddRectangle(int upperLeftRow, int top, int upperLeftColum
 ```csharp
 
 [C#]
- // 添加一个 rectangle
+// 添加一个矩形
 RectangleShape rectangleShape = shapes.AddRectangle(2, 0, 2, 0, 130, 130);
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: Insert
 second_title: Справочник по Aspose.Cells для .NET API
-description: Вставьте рабочий лист.
+description: Вставить рабочий лист.
 type: docs
 weight: 270
 url: /ru/net/aspose.cells/worksheetcollection/insert/
 ---
 ## Insert(int, SheetType) {#insert}
 
-Вставьте рабочий лист.
+Вставить рабочий лист.
 
 ```csharp
 public Worksheet Insert(int index, SheetType sheetType)
@@ -35,7 +35,7 @@ public Worksheet Insert(int index, SheetType sheetType)
 
 ## Insert(int, SheetType, string) {#insert_1}
 
-Вставьте рабочий лист.
+Вставить рабочий лист.
 
 ```csharp
 public Worksheet Insert(int index, SheetType sheetType, string sheetName)

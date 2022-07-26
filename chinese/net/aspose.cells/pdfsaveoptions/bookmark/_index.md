@@ -1,14 +1,14 @@
 ---
 title: Bookmark
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置PdfBookmarkEntryaspose.cells.rendering/pdfbookmarkentry 对象
+description: 获取并设置Pdf书签条目aspose.cells.rendering/pdfbookmarkentry对象.
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/pdfsaveoptions/bookmark/
 ---
 ## PdfSaveOptions.Bookmark property
 
-获取和设置[`PdfBookmarkEntry`](../../../aspose.cells.rendering/pdfbookmarkentry) 对象。
+获取并设置[`Pdf书签条目`](../../../aspose.cells.rendering/pdfbookmarkentry)对象.
 
 ```csharp
 public PdfBookmarkEntry Bookmark { get; set; }

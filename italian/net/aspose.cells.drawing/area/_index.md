@@ -1,0 +1,111 @@
+---
+title: Area
+second_title: Riferimento alle API di Aspose.Cells per .NET
+description: Incapsula loggetto che rappresenta un formato area.
+type: docs
+weight: 1760
+url: /it/net/aspose.cells.drawing/area/
+---
+## Area class
+
+Incapsula l'oggetto che rappresenta un formato area.
+
+```csharp
+public class Area
+```
+
+## Proprietà
+
+| Nome | Descrizione |
+| --- | --- |
+| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor) { get; set; } | Ottiene o imposta lo sfondoColor del[`Area`](../area) . |
+| [FillFormat](../../aspose.cells.drawing/area/fillformat) { get; } | Rappresenta a oggetto che contiene le proprietà di formattazione del riempimento per il grafico o la forma specificati. |
+| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor) { get; set; } | Ottiene o imposta il primo pianoColor . |
+| [Formatting](../../aspose.cells.drawing/area/formatting) { get; set; } | Rappresenta la formattazione dell'area. |
+| [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative) { get; set; } | Se la proprietà è true e il valore del punto del grafico è un numero negativo, verranno scambiati il colore di primo piano e il colore di sfondo. |
+| [Transparency](../../aspose.cells.drawing/area/transparency) { get; set; } | Restituisce o imposta il grado di trasparenza dell'area come un valore compreso tra 0,0 (opaco) e 1,0 (trasparente). |
+
+### Esempi
+
+```csharp
+
+[C#]
+//Creazione di un'istanza di un oggetto cartella di lavoro
+Workbook workbook = new Workbook();
+//Aggiunta di un nuovo foglio di lavoro all'oggetto Cartella di lavoro
+int sheetIndex = workbook.Worksheets.Add();
+//Ottenere il riferimento del foglio di lavoro appena aggiunto passando il relativo indice del foglio
+Worksheet worksheet = workbook.Worksheets[sheetIndex];
+//Aggiunta di un valore di esempio alla cella "A1".
+worksheet.Cells["A1"].PutValue(50);
+//Aggiunta di un valore di esempio alla cella "A2".
+worksheet.Cells["A2"].PutValue(100);
+//Aggiunta di un valore di esempio alla cella "A3".
+worksheet.Cells["A3"].PutValue(150);
+//Aggiunta di un valore di esempio alla cella "B1".
+worksheet.Cells["B1"].PutValue(60);
+//Aggiunta di un valore di esempio alla cella "B2".
+worksheet.Cells["B2"].PutValue(32);
+//Aggiunta di un valore di esempio alla cella "B3".
+worksheet.Cells["B3"].PutValue(50);
+//Aggiunta di un grafico al foglio di lavoro
+int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+//Accesso all'istanza del grafico appena aggiunto
+Chart chart = worksheet.Charts[chartIndex];
+//Aggiunta di NSeries (origine dati grafico) al grafico che va dalla cella "A1" a "B3"
+chart.NSeries.Add("A1:B3", true);
+//Impostazione del colore di primo piano dell'area di stampa
+chart.PlotArea.Area.ForegroundColor = Color.Blue;
+//Impostazione del colore di primo piano dell'area del grafico
+chart.ChartArea.Area.ForegroundColor = Color.Yellow;
+//Impostazione del colore di primo piano della prima area NSeries
+chart.NSeries[0].Area.ForegroundColor = Color.Red;
+//Impostazione del colore di primo piano dell'area del 1° punto NSeries
+chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
+//Salvataggio del file Excel
+workbook.Save("book1.xls");
+
+[Visual Basic]
+
+'Creazione di un'istanza di un oggetto Workbook
+Dim workbook As Workbook = New Workbook()
+'Aggiunta di un nuovo foglio di lavoro all'oggetto Cartella di lavoro
+Dim sheetIndex As Integer = workbook.Worksheets.Add()
+'Ottenere il riferimento del foglio di lavoro appena aggiunto passando il suo indice del foglio
+Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
+'Adding a sample value to "A1" cell
+worksheet.Cells("A1").PutValue(50)
+'Adding a sample value to "A2" cell
+worksheet.Cells("A2").PutValue(100)
+'Adding a sample value to "A3" cell
+worksheet.Cells("A3").PutValue(150)
+'Adding a sample value to "B1" cell
+worksheet.Cells("B1").PutValue(60)
+'Adding a sample value to "B2" cell
+worksheet.Cells("B2").PutValue(32)
+'Adding a sample value to "B3" cell
+worksheet.Cells("B3").PutValue(50)
+'Aggiunta di un grafico al foglio di lavoro
+Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5)
+'Accesso all'istanza del grafico appena aggiunto
+Dim chart As Chart = worksheet.Charts(chartIndex)
+'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
+chart.NSeries.Add("A1:B3", True)
+'Impostazione del colore di primo piano dell'area di stampa
+chart.PlotArea.Area.ForegroundColor = Color.Blue
+'Impostazione del colore di primo piano dell'area del grafico
+chart.ChartArea.Area.ForegroundColor = Color.Yellow
+'Impostazione del colore di primo piano della prima area NSeries
+chart.NSeries(0).Area.ForegroundColor = Color.Red
+'Impostazione del colore di primo piano dell'area del 1° punto NSeries
+chart.NSeries(0).Points(0).Area.ForegroundColor = Color.Cyan
+'Salvataggio del file Excel
+workbook.Save("book1.xls")
+```
+
+### Guarda anche
+
+* spazio dei nomi [Aspose.Cells.Drawing](../../aspose.cells.drawing)
+* assemblea [Aspose.Cells](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->

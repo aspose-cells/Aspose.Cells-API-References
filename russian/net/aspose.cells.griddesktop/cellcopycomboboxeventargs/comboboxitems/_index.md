@@ -1,14 +1,14 @@
 ---
 title: ComboBoxItems
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объект представляющий набор элементов содержащихся в этом поле со списком.
+description: Получает объект представляющий набор элементов содержащихся в этом ComboBox.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.griddesktop/cellcopycomboboxeventargs/comboboxitems/
 ---
 ## CellCopyComboBoxEventArgs.ComboBoxItems property
 
-Получает объект, представляющий набор элементов, содержащихся в этом поле со списком.
+Получает объект, представляющий набор элементов, содержащихся в этом ComboBox.
 
 ```csharp
 public ArrayList ComboBoxItems { get; }

@@ -1,14 +1,14 @@
 ---
 title: CfIcons
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПолучитьConditionalFormattingIconaspose.cells/conditionalformattingiconиз коллекции
+description: ПолучитьConditionalFormattingIconaspose.cells/conditionalformattingicon из коллекции
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/iconset/cficons/
 ---
 ## IconSet.CfIcons property
 
-Получить[`ConditionalFormattingIcon`](../../conditionalformattingicon)из коллекции
+Получить[`ConditionalFormattingIcon`](../../conditionalformattingicon) из коллекции
 
 ```csharp
 public ConditionalFormattingIconCollection CfIcons { get; }

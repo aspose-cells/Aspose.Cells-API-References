@@ -1,14 +1,14 @@
 ---
 title: IsEnabled
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает может ли элемент управления получать фокус и реагировать на генерируемые пользователем события.
+description: Указывает может ли элемент управления получать фокус и реагировать на события созданные пользователем.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.drawing.activexcontrols/activexcontrol/isenabled/
 ---
 ## ActiveXControl.IsEnabled property
 
-Указывает, может ли элемент управления получать фокус и реагировать на генерируемые пользователем события.
+Указывает, может ли элемент управления получать фокус и реагировать на события, созданные пользователем.
 
 ```csharp
 public bool IsEnabled { get; set; }

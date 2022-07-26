@@ -12,14 +12,14 @@ url: /zh/net/aspose.cells.gridjs/
 
 | 班级 | 描述 |
 | --- | --- |
-| [Config](./config) | 表示 GridJs 的所有设置 |
+| [Config](./config) | 代表 GridJs 的所有设置 |
 | [GridAbstractCalculationEngine](./gridabstractcalculationengine) | 代表用户自定义计算引擎，扩展Aspose.Cells的默认计算引擎。 |
-| [GridCacheForStream](./gridcacheforstream) | 此类包含 GridJs 的缓存操作。用户应基于它实现自己的存储业务逻辑。 |
+| [GridCacheForStream](./gridcacheforstream) | 此类包含 GridJs 的缓存操作。用户应基于它实现自己的存储业务逻辑.. |
 | [GridCalculationData](./gridcalculationdata) | 表示计算一个函数时需要的数据，如函数名、参数等。 |
 | [GridCellException](./gridcellexception) | 发生GridJs指定错误时抛出的异常。 |
-| [GridInterruptMonitor](./gridinterruptmonitor) | 代表所有关于中断的操作符。 |
+| [GridInterruptMonitor](./gridinterruptmonitor) | 代表所有关于中断的算子。 |
 | [GridJsWorkbook](./gridjsworkbook) | 表示 GridJs 的主要入口类 |
-| [GridReferredArea](./gridreferredarea) | 用公式表示一个引用区域。 |
+| [GridReferredArea](./gridreferredarea) | 用公式表示一个参考区域。 |
 | [GridWorkbookSettings](./gridworkbooksettings) | 表示工作簿的设置。 |
 ## 枚举
 

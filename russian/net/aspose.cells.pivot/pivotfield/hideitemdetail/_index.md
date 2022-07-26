@@ -16,7 +16,7 @@ public void HideItemDetail(int index, bool isHiddenDetail)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | индекс элемента pivotItem в pivotField. |
+| index | Int32 | индекс сводного элемента в сводном поле. |
 | isHiddenDetail | Boolean | скрыт ли конкретный PivotItem |
 
 ### Смотрите также

@@ -26,7 +26,7 @@ public class SmartTagPropertyCollection : CollectionBase<SmartTagProperty>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.markup/smarttagpropertycollection/item) { get; } | Получает объект[`SmartTagProperty`](../smarttagproperty). (2 indexers) |
+| [Item](../../aspose.cells.markup/smarttagpropertycollection/item) { get; } | Получает[`SmartTagProperty`](../smarttagproperty) объект. (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы

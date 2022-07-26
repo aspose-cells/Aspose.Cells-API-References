@@ -1,14 +1,14 @@
 ---
 title: HtmlText
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает строку html которая содержит данные и некоторые форматы в этом текстовом поле.
+description: Получает и задает строку html содержащую данные и некоторые форматы в этом текстовом поле.
 type: docs
 weight: 220
 url: /ru/net/aspose.cells.drawing/shape/htmltext/
 ---
 ## Shape.HtmlText property
 
-Получает и устанавливает строку html, которая содержит данные и некоторые форматы в этом текстовом поле.
+Получает и задает строку html, содержащую данные и некоторые форматы в этом текстовом поле.
 
 ```csharp
 public string HtmlText { get; set; }

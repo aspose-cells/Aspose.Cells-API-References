@@ -17,8 +17,8 @@ public void MoveRange(GridCellArea sourceArea, int destRow, int destColumn)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceArea | GridCellArea | Диапазон, который необходимо переместить. |
-| destRow | Int32 | Целевая строка. |
-| destColumn | Int32 | Целевой столбец. |
+| destRow | Int32 | Последний ряд. |
+| destColumn | Int32 | Столбец назначения. |
 
 ### Смотрите также
 

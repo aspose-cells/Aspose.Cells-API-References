@@ -1,14 +1,14 @@
 ---
 title: IsWordWrapped
 second_title: Aspose.Cells for .NET API 参考
-description: 指示控件的内容是否在行尾自动换行
+description: 表示控件的内容是否在行尾自动换行
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.drawing.activexcontrols/commandbuttonactivexcontrol/iswordwrapped/
 ---
 ## CommandButtonActiveXControl.IsWordWrapped property
 
-指示控件的内容是否在行尾自动换行。
+表示控件的内容是否在行尾自动换行。
 
 ```csharp
 public bool IsWordWrapped { get; set; }

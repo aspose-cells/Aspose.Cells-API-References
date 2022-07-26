@@ -18,7 +18,7 @@ public abstract class Geometry
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ShapeAdjustValues](../../aspose.cells.drawing/geometry/shapeadjustvalues) { get; } | 获取形状调整值集合 |
+| [ShapeAdjustValues](../../aspose.cells.drawing/geometry/shapeadjustvalues) { get; } | 获取形状调整值的集合 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: RowInSelection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Определяет выбрана ли указанная строка по индексу.
+description: Определяет находится ли указанная строка в индексе в списке selected.
 type: docs
 weight: 980
 url: /ru/net/aspose.cells.griddesktop/worksheet/rowinselection/
 ---
 ## Worksheet.RowInSelection method
 
-Определяет, выбрана ли указанная строка по индексу.
+Определяет, находится ли указанная строка в индексе в списке selected.
 
 ```csharp
 public bool RowInSelection(int index)

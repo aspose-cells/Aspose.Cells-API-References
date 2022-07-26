@@ -3,7 +3,7 @@ title: IsExportComments
 second_title: Справочник по Aspose.Cells для .NET API
 description: Указывает что при экспорте комментариев при сохранении файла в html значение по умолчанию равно false.
 type: docs
-weight: 370
+weight: 390
 url: /ru/net/aspose.cells/htmlsaveoptions/isexportcomments/
 ---
 ## HtmlSaveOptions.IsExportComments property

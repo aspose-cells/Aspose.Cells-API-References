@@ -20,7 +20,7 @@ public string Name { get; set; }
 
 [C#]
 
- //设置指定Timeline的名称.
+//设置指定时间轴的名称。
 timelineObj.Name = "timeline name test";
 ```
 

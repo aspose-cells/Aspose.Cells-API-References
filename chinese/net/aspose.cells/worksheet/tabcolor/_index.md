@@ -16,7 +16,7 @@ public Color TabColor { get; set; }
 
 ### 评论
 
-此功能仅在 ExcelXP(Excel2002) 及更高版本中支持。 如果将文件保存为 Excel97 或 Excel2000 格式，则省略。
+此功能仅在 ExcelXP(Excel2002) 及更高版本中支持。 如果保存为 Excel97 或 Excel2000 格式，则省略。
 
 ### 也可以看看
 

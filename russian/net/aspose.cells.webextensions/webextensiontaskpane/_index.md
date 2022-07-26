@@ -1,14 +1,14 @@
 ---
 title: WebExtensionTaskPane
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет объект сохраняемой области задач.
+description: Представляет сохраняемый объект области задач.
 type: docs
 weight: 6460
 url: /ru/net/aspose.cells.webextensions/webextensiontaskpane/
 ---
 ## WebExtensionTaskPane class
 
-Представляет объект сохраняемой области задач.
+Представляет сохраняемый объект области задач.
 
 ```csharp
 public class WebExtensionTaskPane
@@ -18,12 +18,12 @@ public class WebExtensionTaskPane
 
 | Имя | Описание |
 | --- | --- |
-| [DockState](../../aspose.cells.webextensions/webextensiontaskpane/dockstate) { get; set; } | Получает и задает последнее закрепленное расположение этого объекта области задач. |
-| [IsLocked](../../aspose.cells.webextensions/webextensiontaskpane/islocked) { get; set; } | Указывает, заблокирована ли панель задач для документа в пользовательском интерфейсе и не может быть закрыта пользователем. |
+| [DockState](../../aspose.cells.webextensions/webextensiontaskpane/dockstate) { get; set; } | Получает и задает последнее закрепленное местоположение этого объекта области задач. |
+| [IsLocked](../../aspose.cells.webextensions/webextensiontaskpane/islocked) { get; set; } | Указывает, заблокирована ли область задач для документа в пользовательском интерфейсе и не может быть закрыта пользователем. |
 | [IsVisible](../../aspose.cells.webextensions/webextensiontaskpane/isvisible) { get; set; } | Указывает, отображается ли панель задач как видимая по умолчанию при открытии документа. |
-| [Row](../../aspose.cells.webextensions/webextensiontaskpane/row) { get; set; } | Получает и задает индекс этой области задач, перечисляемый снаружи внутрь, среди других сохраненных областей задач, закрепленных в том же расположении по умолчанию. |
-| [WebExtension](../../aspose.cells.webextensions/webextensiontaskpane/webextension) { get; set; } | Получает и задает часть веб-расширения, связанную с экземпляром панели задач |
-| [Width](../../aspose.cells.webextensions/webextensiontaskpane/width) { get; set; } | Получает и задает значение ширины по умолчанию для этого экземпляра области задач. |
+| [Row](../../aspose.cells.webextensions/webextensiontaskpane/row) { get; set; } | Получает и задает индекс, перечисляемый снаружи внутрь, этой области задач среди других сохраненных областей задач, закрепленных в том же расположении по умолчанию. |
+| [WebExtension](../../aspose.cells.webextensions/webextensiontaskpane/webextension) { get; set; } | Получает и задает часть веб-расширения, связанную с панелью задач instance |
+| [Width](../../aspose.cells.webextensions/webextensiontaskpane/width) { get; set; } | Получает и задает значение ширины по умолчанию для этого экземпляра панели задач. |
 
 ### Смотрите также
 

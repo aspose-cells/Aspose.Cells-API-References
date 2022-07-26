@@ -1,14 +1,14 @@
 ---
 title: SheetName
 second_title: Aspose.Cells for .NET API 参考
-description: 指示此引用所在的工作表
+description: 指示此参考在哪个工作表中
 type: docs
 weight: 60
 url: /zh/net/aspose.cells/referredarea/sheetname/
 ---
 ## ReferredArea.SheetName property
 
-指示此引用所在的工作表。
+指示此参考在哪个工作表中。
 
 ```csharp
 public string SheetName { get; }

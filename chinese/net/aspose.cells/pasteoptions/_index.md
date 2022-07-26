@@ -24,11 +24,11 @@ public class PasteOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OnlyVisibleCells](../../aspose.cells/pasteoptions/onlyvisiblecells) { get; set; } | True 表示仅复制可见单元格。 |
+| [OnlyVisibleCells](../../aspose.cells/pasteoptions/onlyvisiblecells) { get; set; } | True 表示只复制可见单元格。 |
 | [OperationType](../../aspose.cells/pasteoptions/operationtype) { get; set; } | 获取和设置粘贴范围时的操作类型。 |
 | [PasteType](../../aspose.cells/pasteoptions/pastetype) { get; set; } | 粘贴特殊类型。 |
-| [SkipBlanks](../../aspose.cells/pasteoptions/skipblanks) { get; set; } | 指示是否跳过空白单元格。 |
-| [Transpose](../../aspose.cells/pasteoptions/transpose) { get; set; } | True 在粘贴范围时转置行和列。默认值为假。 |
+| [SkipBlanks](../../aspose.cells/pasteoptions/skipblanks) { get; set; } | 表示是否跳过空白单元格。 |
+| [Transpose](../../aspose.cells/pasteoptions/transpose) { get; set; } | 为真，在粘贴范围时转置行和列。默认值为 False. |
 
 ### 也可以看看
 

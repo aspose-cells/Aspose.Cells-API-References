@@ -1,14 +1,14 @@
 ---
 title: SetFormula
 second_title: Справочник по Aspose.Cells для .NET API
-description: Установите формулу и значение формулы.
+description: Установить формулу и значение формулы.
 type: docs
 weight: 610
 url: /ru/net/aspose.cells/cell/setformula/
 ---
 ## SetFormula(string, object) {#setformula_2}
 
-Установите формулу и значение формулы.
+Установить формулу и значение формулы.
 
 ```csharp
 public void SetFormula(string formula, object value)
@@ -16,7 +16,7 @@ public void SetFormula(string formula, object value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| формула | String | Формула. |
+| formula | String | Формула. |
 | value | Object | Значение формулы. |
 
 ### Смотрите также
@@ -29,7 +29,7 @@ public void SetFormula(string formula, object value)
 
 ## SetFormula(string, FormulaParseOptions, object) {#setformula}
 
-Установите формулу и значение формулы.
+Установить формулу и значение формулы.
 
 ```csharp
 public void SetFormula(string formula, FormulaParseOptions options, object value)
@@ -37,8 +37,8 @@ public void SetFormula(string formula, FormulaParseOptions options, object value
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| формула | String | Формула. |
-| options | FormulaParseOptions | Опции разбора формулы. |
+| formula | String | Формула. |
+| options | FormulaParseOptions | Варианты разбора формулы. |
 | value | Object | Значение формулы. |
 
 ### Смотрите также

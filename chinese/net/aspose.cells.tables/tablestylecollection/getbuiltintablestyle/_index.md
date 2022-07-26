@@ -16,7 +16,7 @@ public TableStyle GetBuiltinTableStyle(TableStyleType type)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| type | TableStyleType | 内置表格样式类型. |
+| type | TableStyleType | 内置表格样式类型。 |
 
 ### 也可以看看
 

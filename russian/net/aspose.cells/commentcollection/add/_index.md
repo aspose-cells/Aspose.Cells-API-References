@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет комментарий к коллекции.
+description: Добавляет комментарий в коллекцию.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/commentcollection/add/
 ---
 ## Add(int, int) {#add}
 
-Добавляет комментарий к коллекции.
+Добавляет комментарий в коллекцию.
 
 ```csharp
 public int Add(int row, int column)
@@ -21,7 +21,7 @@ public int Add(int row, int column)
 
 ### Возвращаемое значение
 
-[`Comment`](../../comment)индекс объекта.
+[`Comment`](../../comment) индекс объекта.
 
 ### Примеры
 
@@ -44,7 +44,7 @@ comment1.Font.Name = "Times New Roman";
 
 ## Add(string) {#add_1}
 
-Добавляет комментарий к коллекции.
+Добавляет комментарий в коллекцию.
 
 ```csharp
 public int Add(string cellName)
@@ -56,7 +56,7 @@ public int Add(string cellName)
 
 ### Возвращаемое значение
 
-[`Comment`](../../comment)индекс объекта.
+[`Comment`](../../comment) индекс объекта.
 
 ### Примеры
 

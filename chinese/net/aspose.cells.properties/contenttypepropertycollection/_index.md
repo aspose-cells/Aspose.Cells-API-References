@@ -1,14 +1,14 @@
 ---
 title: ContentTypePropertyCollection
 second_title: Aspose.Cells for .NET API 参考
-description: ContentTypeProperty./contenttypeproperty表示附加信息的对象的集合
+description: 集合ContentTypeProperty./contenttypeproperty表示附加信息的对象
 type: docs
 weight: 4820
 url: /zh/net/aspose.cells.properties/contenttypepropertycollection/
 ---
 ## ContentTypePropertyCollection class
 
-[`ContentTypeProperty`](../contenttypeproperty)表示附加信息的对象的集合。
+集合[`ContentTypeProperty`](../contenttypeproperty)表示附加信息的对象。
 
 ```csharp
 public class ContentTypePropertyCollection : CollectionBase<ContentTypeProperty>
@@ -62,20 +62,20 @@ public class ContentTypePropertyCollection : CollectionBase<ContentTypeProperty>
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
- //添加一个新属性.
+//添加一个新属性。
  workbook.ContentTypeProperties.Add("Admin", "Aspose", "text");
- //保存Excel文件
+//保存Excel文件
 workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
-'Add a new property.
+'添加新属性。
  workbook.ContentTypeProperties.Add("Admin", "Aspose", "text")
-'保存Excel文件
+'保存 Excel 文件
 workbook.Save("book1.xlsm")
 ```
 

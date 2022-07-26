@@ -1,14 +1,14 @@
 ---
 title: IsOpen
 second_title: Справочник по Aspose.Cells для .NET API
-description: Когда это свойство истинно запись закладки будет расширяться иначе она свернется.
+description: Если для этого свойства установлено значение true запись закладки будет расширяться в противном случае она свернется.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.rendering/pdfbookmarkentry/isopen/
 ---
 ## PdfBookmarkEntry.IsOpen property
 
-Когда это свойство истинно, запись закладки будет расширяться, иначе она свернется.
+Если для этого свойства установлено значение true, запись закладки будет расширяться, в противном случае она свернется.
 
 ```csharp
 public bool IsOpen { get; set; }

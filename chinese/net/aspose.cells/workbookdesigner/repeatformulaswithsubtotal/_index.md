@@ -1,14 +1,14 @@
 ---
 title: RepeatFormulasWithSubtotal
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否与小计行重复公式
+description: 指示是否重复带有小计行的公式
 type: docs
 weight: 50
 url: /zh/net/aspose.cells/workbookdesigner/repeatformulaswithsubtotal/
 ---
 ## WorkbookDesigner.RepeatFormulasWithSubtotal property
 
-表示是否与小计行重复公式。
+指示是否重复带有小计行的公式。
 
 ```csharp
 public bool RepeatFormulasWithSubtotal { get; set; }

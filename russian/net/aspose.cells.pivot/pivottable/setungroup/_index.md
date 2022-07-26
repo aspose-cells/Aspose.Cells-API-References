@@ -16,7 +16,7 @@ public void SetUngroup(int baseFieldIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| baseFieldIndex | Int32 | Поле строки или столбца индекс в базовых полях |
+| baseFieldIndex | Int32 | Индекс поля строки или столбца в базовых полях |
 
 ### Смотрите также
 

@@ -17,8 +17,8 @@ public GridComment CreateComment(string note, string author, bool isvisible)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | note | String | примечание к комментарию. |
-| автор | String | автор комментария. |
-| isvisible | Boolean | отображается ли комментарий. |
+| author | String | автор комментария. |
+| isvisible | Boolean | виден ли комментарий. |
 
 ### Возвращаемое значение
 

@@ -1,14 +1,14 @@
 ---
 title: AddRange
 second_title: Aspose.Cells for .NET API 参考
-description: 添加一个受此设置影响的范围
+description: 增加一个受此设置影响的范围
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/errorcheckoption/addrange/
 ---
 ## ErrorCheckOption.AddRange method
 
-添加一个受此设置影响的范围。
+增加一个受此设置影响的范围。
 
 ```csharp
 public int AddRange(CellArea ca)
@@ -20,7 +20,7 @@ public int AddRange(CellArea ca)
 
 ### 返回值
 
-在此设置的范围列表中添加的范围的索引。
+此设置的范围列表中添加的范围的索引。
 
 ### 也可以看看
 

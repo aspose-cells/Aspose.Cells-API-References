@@ -1,14 +1,14 @@
 ---
 title: IsFontSubstitutionCharGranularity
 second_title: Aspose.Cells for .NET API 参考
-description: 表示当单元格字体不兼容时是否只替换字符的字体
+description: 表示是否仅在单元格字体不兼容时替换字符的字体
 type: docs
 weight: 150
 url: /zh/net/aspose.cells.rendering/imageorprintoptions/isfontsubstitutionchargranularity/
 ---
 ## ImageOrPrintOptions.IsFontSubstitutionCharGranularity property
 
-表示当单元格字体不兼容时是否只替换字符的字体。
+表示是否仅在单元格字体不兼容时替换字符的字体。
 
 ```csharp
 public bool IsFontSubstitutionCharGranularity { get; set; }
@@ -16,7 +16,7 @@ public bool IsFontSubstitutionCharGranularity { get; set; }
 
 ### 评论
 
-默认为假。我们将首先尝试使用默认字体 Workbook 和 PdfSaveOption/system 作为单元格字体。
+默认为假。我们将首先尝试使用 Workbook 和 PdfSaveOption/system 的默认字体作为单元格字体。
 
 ### 也可以看看
 

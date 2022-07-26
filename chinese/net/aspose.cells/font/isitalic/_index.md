@@ -1,14 +1,14 @@
 ---
 title: IsItalic
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置一个指示字体是否为斜体的值
+description: 获取或设置字体是否为斜体的值
 type: docs
 weight: 70
 url: /zh/net/aspose.cells/font/isitalic/
 ---
 ## Font.IsItalic property
 
-获取或设置一个指示字体是否为斜体的值。
+获取或设置字体是否为斜体的值。
 
 ```csharp
 public bool IsItalic { get; set; }

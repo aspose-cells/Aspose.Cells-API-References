@@ -3,7 +3,7 @@ title: HideColumn
 second_title: Справочник по Aspose.Cells для .NET API
 description: Скрывает столбец.
 type: docs
-weight: 880
+weight: 890
 url: /ru/net/aspose.cells/cells/hidecolumn/
 ---
 ## Cells.HideColumn method

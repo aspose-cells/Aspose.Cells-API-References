@@ -19,11 +19,11 @@ public class GridHyperlink
 | 姓名 | 描述 |
 | --- | --- |
 | [Address](../../aspose.cells.gridweb.data/gridhyperlink/address) { get; set; } | 表示超链接的地址。 |
-| [AltText](../../aspose.cells.gridweb.data/gridhyperlink/alttext) { get; set; } | 获取或设置图片链接的替代文本，请注意这是扩展属性，不能保存在 excel 文件中 |
+| [AltText](../../aspose.cells.gridweb.data/gridhyperlink/alttext) { get; set; } | 获取或设置图片链接的替代文本，请注意这是扩展属性，不能保存在excel文件中 |
 | [Area](../../aspose.cells.gridweb.data/gridhyperlink/area) { get; } | 获取超链接的范围。 |
 | [Command](../../aspose.cells.gridweb.data/gridhyperlink/command) { get; set; } | 返回或设置指定超链接的自定义命令值文本。 |
 | virtual [DiscardInput](../../aspose.cells.gridweb.data/gridhyperlink/discardinput) { get; set; } | 指示当用户单击此 CellCommand 超链接时是否丢弃客户端浏览器中的用户输入。可以用作“撤消”操作。 |
-| [ImageURL](../../aspose.cells.gridweb.data/gridhyperlink/imageurl) { get; set; } | 获取或设置链接的Image URL，超链接中没有imageurl属性， 所以实际使用TextToDisplay来记录这个值，TextToDisplay会设置为&lt;img src=value&gt; 所以它会改变 TextToDisplay |
+| [ImageURL](../../aspose.cells.gridweb.data/gridhyperlink/imageurl) { get; set; } | 获取或设置链接的Image URL，超链接中没有imageurl属性， 所以实际使用TextToDisplay记录这个值，TextToDisplay会设置为&lt;img src=value&gt; 所以会改变TextToDisplay 的值 |
 | [ScreenTip](../../aspose.cells.gridweb.data/gridhyperlink/screentip) { get; set; } | 返回或设置指定超链接的屏幕提示文本。 |
 | [Target](../../aspose.cells.gridweb.data/gridhyperlink/target) { get; set; } | 获取或设置网页链接目标类型，请注意这是扩展属性，不能保存在excel文件中 |
 | [TextToDisplay](../../aspose.cells.gridweb.data/gridhyperlink/texttodisplay) { get; set; } | 表示要为指定超链接显示的文本。默认值为超链接的地址。 |

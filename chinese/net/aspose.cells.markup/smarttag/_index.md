@@ -1,14 +1,14 @@
 ---
 title: SmartTag
 second_title: Aspose.Cells for .NET API 参考
-description: 表示智能标签
+description: 代表一个智能标签
 type: docs
 weight: 4060
 url: /zh/net/aspose.cells.markup/smarttag/
 ---
 ## SmartTag class
 
-表示智能标签。
+代表一个智能标签。
 
 ```csharp
 public class SmartTag
@@ -18,7 +18,7 @@ public class SmartTag
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Deleted](../../aspose.cells.markup/smarttag/deleted) { get; set; } | 表示是否删除智能标签。 |
+| [Deleted](../../aspose.cells.markup/smarttag/deleted) { get; set; } | 表示智能标签是否被删除。 |
 | [Name](../../aspose.cells.markup/smarttag/name) { get; } | 获取智能标签的名称。 |
 | [Properties](../../aspose.cells.markup/smarttag/properties) { get; set; } | 获取和设置智能标签的属性。 |
 | [Uri](../../aspose.cells.markup/smarttag/uri) { get; } | 获取智能标签的命名空间 URI。 |

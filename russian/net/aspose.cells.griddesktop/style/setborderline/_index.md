@@ -16,8 +16,8 @@ public void SetBorderLine(BorderType borderType, BorderLineType borderLineType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| borderType | BorderType | borderType какую границу установить. |
-| borderLineType | BorderLineType | borderLineType Тип линии границы указанной границы. |
+| borderType | BorderType | borderType, какую границу установить. |
+| borderLineType | BorderLineType | borderLineType тип линии границы указанной границы. |
 
 ### Смотрите также
 

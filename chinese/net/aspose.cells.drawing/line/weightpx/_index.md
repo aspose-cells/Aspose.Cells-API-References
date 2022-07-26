@@ -1,14 +1,14 @@
 ---
 title: WeightPx
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置线条的粗细以像素为单位
+description: 获取或设置线条的权重以像素为单位
 type: docs
 weight: 220
 url: /zh/net/aspose.cells.drawing/line/weightpx/
 ---
 ## Line.WeightPx property
 
-获取或设置线条的粗细，以像素为单位。
+获取或设置线条的权重，以像素为单位。
 
 ```csharp
 public double WeightPx { get; set; }

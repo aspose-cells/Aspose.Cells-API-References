@@ -1,14 +1,14 @@
 ---
 title: SetRange
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает диапазон к которому применяется указанный автофильтр.
+description: Устанавливает диапазон к которому применяется указанный автофильтр.
 type: docs
 weight: 200
 url: /ru/net/aspose.cells/autofilter/setrange/
 ---
 ## AutoFilter.SetRange method
 
-Задает диапазон, к которому применяется указанный автофильтр.
+Устанавливает диапазон, к которому применяется указанный автофильтр.
 
 ```csharp
 public void SetRange(int row, int startColumn, int endColumn)
@@ -17,7 +17,7 @@ public void SetRange(int row, int startColumn, int endColumn)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | row | Int32 | Индекс строки. |
-| startColumn | Int32 | Индекс начального столбца. |
+| startColumn | Int32 | Начальный индекс столбца. |
 | endColumn | Int32 | Индекс конца столбца. |
 
 ### Смотрите также

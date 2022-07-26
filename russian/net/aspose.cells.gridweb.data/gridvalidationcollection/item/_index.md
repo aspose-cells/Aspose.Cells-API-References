@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементHyperlinkпо указанному индексу.
+description: ПолучаетHyperlink элемент по указанному индексу.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.gridweb.data/gridvalidationcollection/item/
 ---
 ## GridValidationCollection indexer
 
-Получает элементHyperlinkпо указанному индексу.
+ПолучаетHyperlink элемент по указанному индексу.
 
 ```csharp
 public GridValidation this[int index] { get; }

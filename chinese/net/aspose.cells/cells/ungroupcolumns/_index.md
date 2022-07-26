@@ -1,14 +1,14 @@
 ---
 title: UngroupColumns
 second_title: Aspose.Cells for .NET API 参考
-description: 取消分组列
+description: 取消组合列
 type: docs
-weight: 1320
+weight: 1330
 url: /zh/net/aspose.cells/cells/ungroupcolumns/
 ---
 ## Cells.UngroupColumns method
 
-取消分组列。
+取消组合列。
 
 ```csharp
 public void UngroupColumns(int firstIndex, int lastIndex)
@@ -17,7 +17,7 @@ public void UngroupColumns(int firstIndex, int lastIndex)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | firstIndex | Int32 | 要取消分组的第一列索引。 |
-| lastIndex | Int32 | 要取消分组的最后一列索引。 |
+| lastIndex | Int32 | 要取消分组的最后一个列索引。 |
 
 ### 也可以看看
 

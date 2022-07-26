@@ -1,14 +1,14 @@
 ---
 title: SetCriteria
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает критерии фильтра.
+description: Задает критерии фильтра.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/customfilter/setcriteria/
 ---
 ## CustomFilter.SetCriteria method
 
-Устанавливает критерии фильтра.
+Задает критерии фильтра.
 
 ```csharp
 public void SetCriteria(FilterOperatorType filterOperator, object criteria)

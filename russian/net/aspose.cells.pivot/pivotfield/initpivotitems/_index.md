@@ -1,14 +1,14 @@
 ---
 title: InitPivotItems
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инициировать элементы сводки поля сводки
+description: Инициализировать сводные элементы сводного поля
 type: docs
 weight: 490
 url: /ru/net/aspose.cells.pivot/pivotfield/initpivotitems/
 ---
 ## PivotField.InitPivotItems method
 
-Инициировать элементы сводки поля сводки
+Инициализировать сводные элементы сводного поля
 
 ```csharp
 public void InitPivotItems()

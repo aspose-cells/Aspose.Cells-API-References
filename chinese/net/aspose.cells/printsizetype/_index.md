@@ -20,7 +20,7 @@ public enum PrintSizeType
 | --- | --- | --- |
 | Full | `0` | 使用整页。 |
 | Fit | `1` | 缩放以适合页面。 |
-| Custom | `2` | 自定义。 |
+| Custom | `2` | 自定义. |
 
 ### 也可以看看
 

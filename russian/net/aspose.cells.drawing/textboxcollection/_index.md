@@ -1,14 +1,14 @@
 ---
 title: TextBoxCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует коллекцию объектовTextBox./textbox.
+description: Инкапсулирует наборTextBox./textbox объекты.
 type: docs
 weight: 2820
 url: /ru/net/aspose.cells.drawing/textboxcollection/
 ---
 ## TextBoxCollection class
 
-Инкапсулирует коллекцию объектов[`TextBox`](../textbox).
+Инкапсулирует набор[`TextBox`](../textbox) объекты.
 
 ```csharp
 public class TextBoxCollection : CollectionBase<TextBox>
@@ -20,7 +20,7 @@ public class TextBoxCollection : CollectionBase<TextBox>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.drawing/textboxcollection/item) { get; } | Получает элемент[`TextBox`](../textbox)по указанному индексу. (2 indexers) |
+| [Item](../../aspose.cells.drawing/textboxcollection/item) { get; } | Получает[`TextBox`](../textbox) элемент по указанному индексу. (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы
@@ -60,18 +60,18 @@ public class TextBoxCollection : CollectionBase<TextBox>
 ```csharp
 
 [C#]
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
-  //получить коллекцию object
+//получаем объект коллекции
 TextBoxCollection textBoxCollection = workbook.Worksheets[0].TextBoxes;
-  //добавляем textbox
+//добавляем текстовое поле
 textBoxCollection.Add(1, 1, 50, 100);
 foreach(TextBox tbox in textBoxCollection)
 {
-      //делай что хочешь
+    //делай что хочешь
 }
 
-  //делай свое дело
+//делай свое дело
 
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: EnableAsync
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置是否异步加载cell数据建议申请10000以上cell的一张表
+description: 获取或设置是否异步加载cells数据建议申请10000以上cells的一张表
 type: docs
 weight: 240
 url: /zh/net/aspose.cells.gridweb/mainweb/enableasync/
 ---
 ## MainWeb.EnableAsync property
 
-获取或设置是否异步加载cell数据，建议申请10000以上cell的一张表。
+获取或设置是否异步加载cells数据，建议申请10000以上cells的一张表
 
 ```csharp
 public bool EnableAsync { get; set; }

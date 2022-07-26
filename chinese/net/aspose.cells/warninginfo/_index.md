@@ -18,7 +18,7 @@ public class WarningInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CorrectedObject](../../aspose.cells/warninginfo/correctedobject) { get; set; } | 获取并设置更正的对象。 |
+| [CorrectedObject](../../aspose.cells/warninginfo/correctedobject) { get; set; } | 获取并设置校正后的对象。 |
 | [Description](../../aspose.cells/warninginfo/description) { get; } | 获取警告信息的描述。 |
 | [ErrorObject](../../aspose.cells/warninginfo/errorobject) { get; } | 错误对象。 |
 | [WarningType](../../aspose.cells/warninginfo/warningtype) { get; } | 获取警告类型。 |

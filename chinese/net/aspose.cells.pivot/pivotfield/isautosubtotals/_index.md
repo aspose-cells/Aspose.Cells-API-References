@@ -1,14 +1,14 @@
 ---
 title: IsAutoSubtotals
 second_title: Aspose.Cells for .NET API 参考
-description: 表示指定字段是否显示自动小计默认为真
+description: 指示指定字段是否显示自动小计默认为真
 type: docs
 weight: 220
 url: /zh/net/aspose.cells.pivot/pivotfield/isautosubtotals/
 ---
 ## PivotField.IsAutoSubtotals property
 
-表示指定字段是否显示自动小计。默认为真。
+指示指定字段是否显示自动小计。默认为真。
 
 ```csharp
 public bool IsAutoSubtotals { get; set; }

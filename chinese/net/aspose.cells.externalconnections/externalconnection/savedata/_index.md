@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.externalconnections/externalconnection/savedata/
 ---
 ## ExternalConnection.SaveData property
 
-如果通过连接获取的用于填充表的外部数据要与工作簿一起保存 则为真；否则为假。
+如果通过连接获取的用于填充表的外部数据要与工作簿一起保存 ，则为真；否则为假。
 
 ```csharp
 public bool SaveData { get; set; }

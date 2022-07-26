@@ -1,14 +1,14 @@
 ---
 title: ChartCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装Chart./chart对象的集合
+description: 封装了一个集合Chart./chart对象.
 type: docs
 weight: 450
 url: /zh/net/aspose.cells.charts/chartcollection/
 ---
 ## ChartCollection class
 
-封装[`Chart`](../chart)对象的集合。
+封装了一个集合[`Chart`](../chart)对象.
 
 ```csharp
 public class ChartCollection : CollectionBase<Chart>
@@ -20,7 +20,7 @@ public class ChartCollection : CollectionBase<Chart>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.charts/chartcollection/item) { get; } | 获取指定索引处的[`Chart`](../chart)元素。 (2 indexers) |
+| [Item](../../aspose.cells.charts/chartcollection/item) { get; } | 获取[`Chart`](../chart)指定索引处的元素。 (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法

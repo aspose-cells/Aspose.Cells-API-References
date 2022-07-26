@@ -1,14 +1,14 @@
 ---
 title: RightMarginPt
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает правое поле в пунктах
+description: Возвращает правое поле в единицах Points
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.drawing/msotextframe/rightmarginpt/
 ---
 ## MsoTextFrame.RightMarginPt property
 
-Возвращает правое поле в пунктах
+Возвращает правое поле в единицах Points
 
 ```csharp
 public double RightMarginPt { get; set; }

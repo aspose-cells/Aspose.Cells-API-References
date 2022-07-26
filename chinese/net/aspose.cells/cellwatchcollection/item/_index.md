@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 按索引获取和设置CellWatchaspose.cells/cellwatch
+description: 获取和设置CellWatchaspose.cells/cellwatch按索引.
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/cellwatchcollection/item/
 ---
 ## CellWatchCollection indexer (1 of 2)
 
-按索引获取和设置[`CellWatch`](../../cellwatch)。
+获取和设置[`CellWatch`](../../cellwatch)按索引.
 
 ```csharp
 public CellWatch this[int index] { get; }
@@ -16,7 +16,7 @@ public CellWatch this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引。 |
+| index | 指数。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public CellWatch this[int index] { get; }
 
 ## CellWatchCollection indexer (2 of 2)
 
-通过单元名称获取和设置[`CellWatch`](../../cellwatch)。
+获取和设置[`CellWatch`](../../cellwatch)按单元格的名称。
 
 ```csharp
 public CellWatch this[string cellName] { get; }
@@ -37,7 +37,7 @@ public CellWatch this[string cellName] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| cellName | 单元的名称。 |
+| cellName | 单元格的名称。 |
 
 ### 也可以看看
 

@@ -26,7 +26,7 @@ public class TextTabStopCollection : CollectionBase<TextTabStop>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.drawing.texts/texttabstopcollection/item) { get; } | 通过索引获取[`TextTabStop`](../texttabstop)。 |
+| [Item](../../aspose.cells.drawing.texts/texttabstopcollection/item) { get; } | 获取[`TextTabStop`](../texttabstop)按索引. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法

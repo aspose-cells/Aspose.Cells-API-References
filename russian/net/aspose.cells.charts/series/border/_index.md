@@ -1,14 +1,14 @@
 ---
 title: Border
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет границу объекта серии.
+description: Представляет границу объекта Series.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.charts/series/border/
 ---
 ## Series.Border property
 
-Представляет границу объекта серии.
+Представляет границу объекта Series.
 
 ```csharp
 public Line Border { get; }

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 通过索引获取对象
+description: 得到一个对象的索引
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.charts/trendlinecollection/item/
 ---
 ## TrendlineCollection indexer
 
-通过索引获取对象。
+得到一个对象的索引。
 
 ```csharp
 public Trendline this[int index] { get; }

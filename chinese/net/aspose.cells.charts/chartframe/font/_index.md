@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定 ChartFrame 对象的Fontaspose.cells.charts/chartframe/font对象
+description: 得到一个Fontaspose.cells.charts/chartframe/font指定 ChartFrame 对象的对象
 type: docs
 weight: 90
 url: /zh/net/aspose.cells.charts/chartframe/font/
 ---
 ## ChartFrame.Font property
 
-获取指定 ChartFrame 对象的`Font`对象。
+得到一个`Font`指定 ChartFrame 对象的对象。
 
 ```csharp
 public virtual Font Font { get; }

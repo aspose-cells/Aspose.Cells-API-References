@@ -1,14 +1,14 @@
 ---
 title: YErrorBar
 second_title: Aspose.Cells for .NET API 参考
-description: 表示序列的 Y 方向误差条
+description: 表示系列的 Y 方向误差条
 type: docs
 weight: 500
 url: /zh/net/aspose.cells.charts/series/yerrorbar/
 ---
 ## Series.YErrorBar property
 
-表示序列的 Y 方向误差条。
+表示系列的 Y 方向误差条。
 
 ```csharp
 public ErrorBar YErrorBar { get; }

@@ -23,7 +23,7 @@ public class GridReferredArea
 | [ExternalFileName](../../aspose.cells.gridweb.data/gridreferredarea/externalfilename) { get; } | this.KeepedRels = source.KeepedRels; |
 | [IsArea](../../aspose.cells.gridweb.data/gridreferredarea/isarea) { get; } | 表示这是否是一个区域。 |
 | [IsExternalLink](../../aspose.cells.gridweb.data/gridreferredarea/isexternallink) { get; } | 表示这是否是外部链接。 |
-| [SheetName](../../aspose.cells.gridweb.data/gridreferredarea/sheetname) { get; } | 指示这是在哪个工作表 |
+| [SheetName](../../aspose.cells.gridweb.data/gridreferredarea/sheetname) { get; } | 表示这是在哪个工作表中 |
 | [StartColumn](../../aspose.cells.gridweb.data/gridreferredarea/startcolumn) { get; } | 区域的起始列。 |
 | [StartRow](../../aspose.cells.gridweb.data/gridreferredarea/startrow) { get; } | 区域的起始行。 |
 

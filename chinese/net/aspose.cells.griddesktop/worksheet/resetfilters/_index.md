@@ -16,8 +16,8 @@ public void ResetFilters(int startFieldIndex, int endFildIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startFieldIndex | Int32 | tht 第一个字段索引，您要应用的字段的整数偏移量，基于在第一个过滤列 上（从列表的左侧开始；最左侧的字段是字段 0）。 |
-| endFildIndex | Int32 | tht 最后一个字段索引，要应用的字段的整数偏移量，基于第一个过滤列 (从列表的左侧开始；最左侧的字段是字段 0)。 |
+| startFieldIndex | Int32 | 第一个字段索引，要应用的字段的整数偏移量，基于第一个过滤器 column （从列表的左侧开始；最左侧的字段是字段 0）。 |
+| endFildIndex | Int32 | 最后一个字段索引，要应用的字段的整数偏移量，基于第一个过滤器 column （从列表的左侧开始；最左侧的字段是字段 0）。 |
 
 ### 也可以看看
 

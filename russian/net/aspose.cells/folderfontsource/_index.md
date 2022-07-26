@@ -18,14 +18,14 @@ public class FolderFontSource : FontSourceBase
 
 | Имя | Описание |
 | --- | --- |
-| [FolderFontSource](folderfontsource)(string, bool) | Ктор. |
+| [FolderFontSource](folderfontsource)(string, bool) | Стор. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [FolderPath](../../aspose.cells/folderfontsource/folderpath) { get; } | Путь к папке со шрифтами. |
-| [ScanSubFolders](../../aspose.cells/folderfontsource/scansubfolders) { get; } | Определяет, сканировать ли вложенные папки. |
+| [ScanSubFolders](../../aspose.cells/folderfontsource/scansubfolders) { get; } | Определяет, сканировать ли подпапки. |
 | override [Type](../../aspose.cells/folderfontsource/type) { get; } | Возвращает тип источника шрифта. |
 
 ### Смотрите также

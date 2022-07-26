@@ -16,7 +16,7 @@ public byte[] ImageData { get; set; }
 
 ### 评论
 
-如果填充格式不是自定义纹理格式，则返回null。
+如果填充格式不是自定义纹理格式，则返回 null。
 
 ### 也可以看看
 

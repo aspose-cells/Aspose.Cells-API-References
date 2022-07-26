@@ -1,14 +1,14 @@
 ---
 title: BindColumnCollection
 second_title: Aspose.Cells for .NET API 参考
-description: BindColumnCollection
+description: BindColumnCollection.
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.gridweb/bindcolumncollection/
 ---
 ## BindColumnCollection class
 
-BindColumnCollection。
+BindColumnCollection.
 
 ```csharp
 public class BindColumnCollection : IList
@@ -19,8 +19,8 @@ public class BindColumnCollection : IList
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.cells.gridweb/bindcolumncollection/count) { get; } | 获取集合的计数。 |
-| [IsFixedSize](../../aspose.cells.gridweb/bindcolumncollection/isfixedsize) { get; } | 总是正确的。 |
-| [IsReadOnly](../../aspose.cells.gridweb/bindcolumncollection/isreadonly) { get; } | 总是正确的。 |
+| [IsFixedSize](../../aspose.cells.gridweb/bindcolumncollection/isfixedsize) { get; } | 始终正确。 |
+| [IsReadOnly](../../aspose.cells.gridweb/bindcolumncollection/isreadonly) { get; } | 始终正确。 |
 | [IsSynchronized](../../aspose.cells.gridweb/bindcolumncollection/issynchronized) { get; } | 仅供内部使用。 |
 | [Item](../../aspose.cells.gridweb/bindcolumncollection/item) { get; } | 通过整数索引或数据字段名称获取绑定列。 |
 | [SyncRoot](../../aspose.cells.gridweb/bindcolumncollection/syncroot) { get; } | 仅供内部使用。 |
@@ -33,10 +33,10 @@ public class BindColumnCollection : IList
 | [Clear](../../aspose.cells.gridweb/bindcolumncollection/clear)() | 清除集合。 |
 | [Contains](../../aspose.cells.gridweb/bindcolumncollection/contains)(object) | 表示绑定列是否在集合中。 |
 | [CopyTo](../../aspose.cells.gridweb/bindcolumncollection/copyto)(Array, int) | 复制到数组。 |
-| [GetEnumerator](../../aspose.cells.gridweb/bindcolumncollection/getenumerator)() | 获取枚举数。 |
+| [GetEnumerator](../../aspose.cells.gridweb/bindcolumncollection/getenumerator)() | 获取一个枚举器。 |
 | [IndexOf](../../aspose.cells.gridweb/bindcolumncollection/indexof)(object) | 获取指定绑定列对象的索引。 |
-| [Insert](../../aspose.cells.gridweb/bindcolumncollection/insert)(int, object) | 插入绑定列对象。 |
-| [Remove](../../aspose.cells.gridweb/bindcolumncollection/remove)(object) | 移除绑定列对象。 |
+| [Insert](../../aspose.cells.gridweb/bindcolumncollection/insert)(int, object) | 插入一个绑定列对象。 |
+| [Remove](../../aspose.cells.gridweb/bindcolumncollection/remove)(object) | 移除一个绑定列对象。 |
 | [RemoveAt](../../aspose.cells.gridweb/bindcolumncollection/removeat)(int) | 在指定索引处删除。 |
 
 ### 也可以看看

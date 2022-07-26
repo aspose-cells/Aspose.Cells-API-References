@@ -24,12 +24,12 @@ public class AutoFitterOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AutoFitMergedCellsType](../../aspose.cells/autofitteroptions/autofitmergedcellstype) { get; set; } | 获取和设置合并单元格自动拟合行高的类型。 |
+| [AutoFitMergedCellsType](../../aspose.cells/autofitteroptions/autofitmergedcellstype) { get; set; } | 获取并设置合并单元格自动拟合行高的类型。 |
 | [AutoFitWrappedTextType](../../aspose.cells/autofitteroptions/autofitwrappedtexttype) { get; set; } | 获取和设置自动调整换行文本的类型。 |
 | [DefaultEditLanguage](../../aspose.cells/autofitteroptions/defaulteditlanguage) { get; set; } | 获取或设置默认编辑语言。 |
-| [FormatStrategy](../../aspose.cells/autofitteroptions/formatstrategy) { get; set; } | 获取和设置格式化策略。 |
+| [FormatStrategy](../../aspose.cells/autofitteroptions/formatstrategy) { get; set; } | 获取并设置格式化策略。 |
 | [IgnoreHidden](../../aspose.cells/autofitteroptions/ignorehidden) { get; set; } | 忽略隐藏的行/列。 |
-| [MaxRowHeight](../../aspose.cells/autofitteroptions/maxrowheight) { get; set; } | 获取和设置自动拟合行时的最大行高（以 Point 为单位）。 |
+| [MaxRowHeight](../../aspose.cells/autofitteroptions/maxrowheight) { get; set; } | 获取和设置自动拟合行时的最大行高（以Point为单位）。 |
 | [OnlyAuto](../../aspose.cells/autofitteroptions/onlyauto) { get; set; } | 表示是否只适合没有自定义高度的行。 |
 
 ### 也可以看看

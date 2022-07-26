@@ -1,14 +1,14 @@
 ---
 title: Index
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает индекс значка в наборе значков.
+description: Получает и устанавливает индекс значка в наборе значков.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/conditionalformattingicon/index/
 ---
 ## ConditionalFormattingIcon.Index property
 
-Получает и задает индекс значка в наборе значков.
+Получает и устанавливает индекс значка в наборе значков.
 
 ```csharp
 public int Index { get; set; }

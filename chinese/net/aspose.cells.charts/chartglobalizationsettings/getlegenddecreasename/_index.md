@@ -1,14 +1,14 @@
 ---
 title: GetLegendDecreaseName
 second_title: Aspose.Cells for .NET API 参考
-description: 为 Legend 获取 Decrease 的名称
+description: 获取 Legend 的 Decrease 名称
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.charts/chartglobalizationsettings/getlegenddecreasename/
 ---
 ## ChartGlobalizationSettings.GetLegendDecreaseName method
 
-为 Legend 获取 Decrease 的名称。
+获取 Legend 的 Decrease 名称。
 
 ```csharp
 public virtual string GetLegendDecreaseName()

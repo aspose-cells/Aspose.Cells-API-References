@@ -1,14 +1,14 @@
 ---
 title: SmallChange
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает величину на которую изменяется свойство Position
+description: Получает и задает величину изменения свойства Position
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/smallchange/
 ---
 ## SpinButtonActiveXControl.SmallChange property
 
-Получает и задает величину, на которую изменяется свойство Position
+Получает и задает величину изменения свойства Position
 
 ```csharp
 public int SmallChange { get; set; }

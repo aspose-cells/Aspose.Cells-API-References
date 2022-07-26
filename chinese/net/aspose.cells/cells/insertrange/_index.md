@@ -1,14 +1,14 @@
 ---
 title: InsertRange
 second_title: Aspose.Cells for .NET API 参考
-description: 插入一系列单元格并根据 shift 选项移动单元格
+description: 插入一系列单元格并根据移位选项移位单元格
 type: docs
-weight: 1090
+weight: 1100
 url: /zh/net/aspose.cells/cells/insertrange/
 ---
 ## InsertRange(CellArea, int, ShiftType, bool) {#insertrange_2}
 
-插入一系列单元格并根据 shift 选项移动单元格。
+插入一系列单元格并根据移位选项移位单元格。
 
 ```csharp
 public void InsertRange(CellArea area, int shiftNumber, ShiftType shiftType, bool updateReference)
@@ -16,7 +16,7 @@ public void InsertRange(CellArea area, int shiftNumber, ShiftType shiftType, boo
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| area | CellArea | 移位区域。 |
+| area | CellArea | 转移区域。 |
 | shiftNumber | Int32 | 要插入的行数或列数。 |
 | shiftType | ShiftType | 移动单元格选项。 |
 | updateReference | Boolean | 指示是否更新其他工作表中的引用。 |
@@ -33,7 +33,7 @@ public void InsertRange(CellArea area, int shiftNumber, ShiftType shiftType, boo
 
 ## InsertRange(CellArea, ShiftType) {#insertrange}
 
-插入一系列单元格并根据 shift 选项移动单元格。
+插入一系列单元格并根据移位选项移位单元格。
 
 ```csharp
 public void InsertRange(CellArea area, ShiftType shiftType)
@@ -41,7 +41,7 @@ public void InsertRange(CellArea area, ShiftType shiftType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| area | CellArea | 移位区域。 |
+| area | CellArea | 转移区域。 |
 | shiftType | ShiftType | 移动单元格选项。 |
 
 ### 也可以看看
@@ -56,7 +56,7 @@ public void InsertRange(CellArea area, ShiftType shiftType)
 
 ## InsertRange(CellArea, int, ShiftType) {#insertrange_1}
 
-插入一系列单元格并根据 shift 选项移动单元格。
+插入一系列单元格并根据移位选项移位单元格。
 
 ```csharp
 public void InsertRange(CellArea area, int shiftNumber, ShiftType shiftType)
@@ -64,7 +64,7 @@ public void InsertRange(CellArea area, int shiftNumber, ShiftType shiftType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| area | CellArea | 移位区域。 |
+| area | CellArea | 转移区域。 |
 | shiftNumber | Int32 | 要插入的行数或列数。 |
 | shiftType | ShiftType | 移动单元格选项。 |
 

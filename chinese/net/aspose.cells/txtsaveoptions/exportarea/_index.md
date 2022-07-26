@@ -16,7 +16,7 @@ public CellArea ExportArea { get; set; }
 
 ### 评论
 
-如果已指定导出区域[`TrimLeadingBlankRowAndColumn`](../trimleadingblankrowandcolumn) 将无效。
+如果已指定导出区域，[`TrimLeadingBlankRowAndColumn`](../trimleadingblankrowandcolumn) 不会生效。
 
 ### 也可以看看
 

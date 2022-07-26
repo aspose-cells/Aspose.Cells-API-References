@@ -18,7 +18,7 @@ public void GroupRows(int firstRow, int lastRow, int outlineLevel, bool isHidden
 | --- | --- | --- |
 | firstRow | Int32 | Индекс первой строки для группировки. |
 | lastRow | Int32 | Индекс последней строки для группировки. |
-| outlineLevel | Int32 | layoutLevel |
+| outlineLevel | Int32 | уровень |
 | isHidden | Boolean | Указывает, отображаются ли сгруппированные строки. |
 
 ### Смотрите также
@@ -63,9 +63,9 @@ public void GroupRows(int firstRow, int lastRow, int outlineLevel, bool isHidden
 | --- | --- | --- |
 | firstRow | Int32 | Индекс первой строки для группировки. |
 | lastRow | Int32 | Индекс последней строки для группировки. |
-| outlineLevel | Int32 | layoutLevel |
+| outlineLevel | Int32 | уровень |
 | isHidden | Boolean | Указывает, отображаются ли сгруппированные строки. |
-| addToUndo | Boolean | Указывает, будет ли эта операция добавлена в диспетчер отмен. И для свойства EnableUndo GridDesktop должно быть установлено значение true. |
+| addToUndo | Boolean | Указывает, будет ли эта операция добавлена в диспетчер отмены. И для свойства EnableUndo GridDesktop должно быть установлено значение true. |
 
 ### Смотрите также
 
@@ -88,7 +88,7 @@ public void GroupRows(int firstRow, int lastRow, bool isHidden, bool addToUndo)
 | firstRow | Int32 | Индекс первой строки для группировки. |
 | lastRow | Int32 | Индекс последней строки для группировки. |
 | isHidden | Boolean | Указывает, отображаются ли сгруппированные строки. |
-| addToUndo | Boolean | Указывает, будет ли эта операция добавлена в диспетчер отмен. И для свойства EnableUndo GridDesktop должно быть установлено значение true. |
+| addToUndo | Boolean | Указывает, будет ли эта операция добавлена в диспетчер отмены. И для свойства EnableUndo GridDesktop должно быть установлено значение true. |
 
 ### Смотрите также
 

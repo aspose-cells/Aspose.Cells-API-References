@@ -19,9 +19,9 @@ public class DocumentProperty
 | 姓名 | 描述 |
 | --- | --- |
 | [IsGeneratedName](../../aspose.cells.properties/documentproperty/isgeneratedname) { get; } | 如果此属性在 OLE2 存储 中没有名称并且仅为公共 API 生成唯一名称，则返回 true。 |
-| [IsLinkedToContent](../../aspose.cells.properties/documentproperty/islinkedtocontent) { get; } | 指示此属性是否链接到内容 |
+| [IsLinkedToContent](../../aspose.cells.properties/documentproperty/islinkedtocontent) { get; } | 指示此属性是否链接到 content |
 | [Name](../../aspose.cells.properties/documentproperty/name) { get; } | 返回属性的名称。 |
-| [Source](../../aspose.cells.properties/documentproperty/source) { get; } | 链接的内容源。 |
+| [Source](../../aspose.cells.properties/documentproperty/source) { get; } | 链接的内容来源。 |
 | [Type](../../aspose.cells.properties/documentproperty/type) { get; } | 获取属性的数据类型。 |
 | [Value](../../aspose.cells.properties/documentproperty/value) { get; set; } | 获取或设置属性的值。 |
 
@@ -44,31 +44,27 @@ public class DocumentProperty
 //实例化一个工作簿对象
 Workbook workbook = new Workbook("book1.xls");
  
-//检索Excel文件的所有自定义文档属性列表
+//检索Excel文件的所有自定义文档属性的列表
 DocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
  
- //使用属性 index
-
+//使用属性索引访问自定义文档属性
 DocumentProperty customProperty1 = customProperties[3];
  
-//使用属性名
-
+//使用属性名称访问自定义文档属性
 DocumentProperty customProperty2 = customProperties["Owner"];
 
 [VB.NET]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook("book1.xls")
  
-'检索Excel文件的所有自定义文档属性列表
+'检索 Excel 文件的所有自定义文档属性的列表
 Dim customProperties As DocumentPropertyCollection = workbook.Worksheets.CustomDocumentProperties
  
-'使用属性 index
-
+'使用属性索引访问自定义文档属性
 Dim customProperty1 As DocumentProperty = customProperties(3)
  
-'使用属性名
-
+'使用属性名称访问自定义文档属性
 Dim customProperty2 As DocumentProperty = customProperties("Owner")
 ```
 

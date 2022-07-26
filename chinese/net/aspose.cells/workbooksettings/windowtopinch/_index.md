@@ -1,14 +1,14 @@
 ---
 title: WindowTopInch
 second_title: Aspose.Cells for .NET API 参考
-description: 客户区上边缘到窗口上边缘的距离单位英寸
+description: 客户区上边缘到窗口上边缘的距离单位为英寸
 type: docs
 weight: 560
 url: /zh/net/aspose.cells/workbooksettings/windowtopinch/
 ---
 ## WorkbookSettings.WindowTopInch property
 
-客户区上边缘到窗口上边缘的距离，单位英寸。
+客户区上边缘到窗口上边缘的距离，单位为英寸。
 
 ```csharp
 public double WindowTopInch { get; set; }

@@ -18,10 +18,10 @@ public class ScenarioCollection : CollectionBase<Scenario>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ActiveIndex](../../aspose.cells/scenariocollection/activeindex) { get; set; } | 获取和设置选择哪个场景。 |
+| [ActiveIndex](../../aspose.cells/scenariocollection/activeindex) { get; set; } | 获取并设置选择哪个场景。 |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/scenariocollection/item) { get; } | 通过索引获取[`Scenario`](../scenario)对象。 |
+| [Item](../../aspose.cells/scenariocollection/item) { get; } | 获取[`Scenario`](../scenario)索引的对象. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 | [LastSelected](../../aspose.cells/scenariocollection/lastselected) { get; set; } | 指示用户最后选择哪个场景来运行/显示。 |
 
@@ -29,7 +29,7 @@ public class ScenarioCollection : CollectionBase<Scenario>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells/scenariocollection/add)(string) | 添加场景。 |
+| [Add](../../aspose.cells/scenariocollection/add)(string) | 添加一个场景。 |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Scenario) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Scenario, IComparer&lt;Scenario&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Scenario, IComparer&lt;Scenario&gt;) |  |

@@ -1,14 +1,14 @@
 ---
 title: IsRangeSet
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает установлен ли искомый диапазон.
+description: Указывает задан ли диапазон поиска.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/findoptions/israngeset/
 ---
 ## FindOptions.IsRangeSet property
 
-Указывает, установлен ли искомый диапазон.
+Указывает, задан ли диапазон поиска.
 
 ```csharp
 public bool IsRangeSet { get; }

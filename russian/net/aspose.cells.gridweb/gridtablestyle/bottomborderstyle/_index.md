@@ -1,14 +1,14 @@
 ---
 title: BottomBorderStyle
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает стиль нижней границы таблицы.
+description: Определяет стиль нижней границы таблицы.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.gridweb/gridtablestyle/bottomborderstyle/
 ---
 ## GridTableStyle.BottomBorderStyle property
 
-Задает стиль нижней границы таблицы.
+Определяет стиль нижней границы таблицы.
 
 ```csharp
 public WebBorderStyle BottomBorderStyle { get; set; }

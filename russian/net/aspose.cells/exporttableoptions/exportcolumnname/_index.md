@@ -1,14 +1,14 @@
 ---
 title: ExportColumnName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает экспортируются ли данные в первой строке в имя столбца таблицы данных. Значение по умолчанию  false.
+description: Указывает экспортируются ли данные в первой строке в имя столбца DataTable. Значение по умолчанию  false.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells/exporttableoptions/exportcolumnname/
 ---
 ## ExportTableOptions.ExportColumnName property
 
-Указывает, экспортируются ли данные в первой строке в имя столбца таблицы данных. Значение по умолчанию — false.
+Указывает, экспортируются ли данные в первой строке в имя столбца DataTable. Значение по умолчанию — false.
 
 ```csharp
 public bool ExportColumnName { get; set; }

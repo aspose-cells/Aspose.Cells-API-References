@@ -21,7 +21,7 @@ public enum GridCellErrorType
 | ValidationError | `0` | 单元格验证失败。 |
 | DataSourceInsertError | `1` | 将工作表的绑定行插入数据源时，发生错误。 |
 | DataSourceUpdateError | `2` | 更新工作表的绑定行或对象的字段时，发生错误。 |
-| DataSourceDeleteError | `3` | 删除工作表绑定到数据源的行时，出现错误。 |
+| DataSourceDeleteError | `3` | 删除sheet绑定到数据源的行时，出现错误 |
 
 ### 也可以看看
 

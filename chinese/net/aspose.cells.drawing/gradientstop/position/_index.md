@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Aspose.Cells for .NET API 参考
-description: 停止位置
+description: 停靠点的位置
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.drawing/gradientstop/position/
 ---
 ## GradientStop.Position property
 
-停止位置。
+停靠点的位置。
 
 ```csharp
 public double Position { get; set; }

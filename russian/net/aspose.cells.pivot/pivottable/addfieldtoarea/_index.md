@@ -16,12 +16,12 @@ public int AddFieldToArea(PivotFieldType fieldType, string fieldName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldType | PivotFieldType | Тип области полей. |
+| fieldType | PivotFieldType | Тип области поля. |
 | fieldName | String | Имя в базовых полях. |
 
 ### Возвращаемое значение
 
-Позиция поля в определенных полях. Если нет поля с таким именем, вернуть -1.
+Позиция поля в определенных полях. Если поля с таким именем нет, вернуть -1.
 
 ### Смотрите также
 
@@ -42,7 +42,7 @@ public int AddFieldToArea(PivotFieldType fieldType, int baseFieldIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldType | PivotFieldType | Тип области полей. |
+| fieldType | PivotFieldType | Тип области поля. |
 | baseFieldIndex | Int32 | Индекс поля в базовых полях. |
 
 ### Возвращаемое значение
@@ -68,12 +68,12 @@ public int AddFieldToArea(PivotFieldType fieldType, PivotField pivotField)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldType | PivotFieldType | тип области полей. Может быть одним из следующих значений:&lt;table border= "1"&gt;&lt;tr&gt;&lt;td&gt;PivotFieldType.Row&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PivotFieldType.Column&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PivotFieldType.Data&lt;/td &gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PivotFieldType.Page&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; |
-| pivotField | PivotField | поле в базовых полях . |
+| fieldType | PivotFieldType | тип области поля. |
+| pivotField | PivotField | поле в базовых полях. |
 
 ### Возвращаемое значение
 
-позиция поля в определенных полях.
+положение поля в конкретных полях.
 
 ### Смотрите также
 

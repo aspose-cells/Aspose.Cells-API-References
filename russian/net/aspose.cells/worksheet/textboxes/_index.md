@@ -1,14 +1,14 @@
 ---
 title: TextBoxes
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает коллекциюTextBoxaspose.cells.drawing/textbox.
+description: ПолучаетTextBoxaspose.cells.drawing/textbox коллекция.
 type: docs
 weight: 480
 url: /ru/net/aspose.cells/worksheet/textboxes/
 ---
 ## Worksheet.TextBoxes property
 
-Получает коллекцию[`TextBox`](../../../aspose.cells.drawing/textbox).
+Получает[`TextBox`](../../../aspose.cells.drawing/textbox) коллекция.
 
 ```csharp
 public TextBoxCollection TextBoxes { get; }

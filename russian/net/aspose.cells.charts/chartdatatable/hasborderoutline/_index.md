@@ -1,14 +1,14 @@
 ---
 title: HasBorderOutline
 second_title: Справочник по Aspose.Cells для .NET API
-description: Истинно если таблица данных диаграммы имеет контурные границы
+description: Истинно если таблица данных диаграммы имеет границы контура
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.charts/chartdatatable/hasborderoutline/
 ---
 ## ChartDataTable.HasBorderOutline property
 
-Истинно, если таблица данных диаграммы имеет контурные границы
+Истинно, если таблица данных диаграммы имеет границы контура
 
 ```csharp
 public bool HasBorderOutline { get; set; }

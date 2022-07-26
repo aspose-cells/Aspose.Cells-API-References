@@ -18,12 +18,12 @@ public static CellArea CreateCellArea(int startRow, int startColumn, int endRow,
 | --- | --- | --- |
 | startRow | Int32 | 起始行。 |
 | startColumn | Int32 | 起始列。 |
-| endRow | Int32 | 结束行。 |
-| endColumn | Int32 | 结束列。 |
+| endRow | Int32 | 最后一排。 |
+| endColumn | Int32 | 最后一栏。 |
 
 ### 返回值
 
-返回[`CellArea`](../../cellarea)。
+返回一个[`CellArea`](../../cellarea).
 
 ### 也可以看看
 
@@ -48,7 +48,7 @@ public static CellArea CreateCellArea(string startCellName, string endCellName)
 
 ### 返回值
 
-返回[`CellArea`](../../cellarea)。
+返回一个[`CellArea`](../../cellarea).
 
 ### 也可以看看
 

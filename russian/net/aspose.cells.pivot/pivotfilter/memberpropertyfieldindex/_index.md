@@ -1,14 +1,14 @@
 ---
 title: MemberPropertyFieldIndex
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает индекс поля свойств элемента сводного фильтра.
+description: Получает индекс поля свойства элемента сводного фильтра.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.pivot/pivotfilter/memberpropertyfieldindex/
 ---
 ## PivotFilter.MemberPropertyFieldIndex property
 
-Получает индекс поля свойств элемента сводного фильтра.
+Получает индекс поля свойства элемента сводного фильтра.
 
 ```csharp
 public int MemberPropertyFieldIndex { get; set; }

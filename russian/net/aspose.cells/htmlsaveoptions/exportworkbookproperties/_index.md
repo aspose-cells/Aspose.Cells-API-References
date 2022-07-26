@@ -1,14 +1,14 @@
 ---
 title: ExportWorkbookProperties
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает экспортируются ли свойства книги. Значение по умолчанию  true. Если вы хотите импортировать файл html или mht в excel сохраните значение по умолчанию.
+description: Указывает экспортируются ли свойства книги. Значение по умолчанию  true. Если вы хотите импортировать файл html или mht в Excel сохраните значение по умолчанию.
 type: docs
-weight: 260
+weight: 280
 url: /ru/net/aspose.cells/htmlsaveoptions/exportworkbookproperties/
 ---
 ## HtmlSaveOptions.ExportWorkbookProperties property
 
-Указывает, экспортируются ли свойства книги. Значение по умолчанию — true. Если вы хотите импортировать файл html или mht в excel, сохраните значение по умолчанию.
+Указывает, экспортируются ли свойства книги. Значение по умолчанию — true. Если вы хотите импортировать файл html или mht в Excel, сохраните значение по умолчанию.
 
 ```csharp
 public bool ExportWorkbookProperties { get; set; }

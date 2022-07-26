@@ -1,14 +1,14 @@
 ---
 title: Area
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получаетareaaspose.cells.charts/datalabels/area .
+description: Получаетобластьaspose.cells.charts/datalabels/area .
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.charts/datalabels/area/
 ---
 ## DataLabels.Area property
 
-Получает`area` .
+Получает`область` .
 
 ```csharp
 public override Area Area { get; }

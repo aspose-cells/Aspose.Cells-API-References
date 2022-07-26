@@ -1,14 +1,14 @@
 ---
 title: NewText
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает новые текстовые данные комментария
+description: Получает новые текстовые данные comment
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.griddesktop/commenteventargs/newtext/
 ---
 ## CommentEventArgs.NewText property
 
-Получает новые текстовые данные комментария
+Получает новые текстовые данные comment
 
 ```csharp
 public string NewText { get; }

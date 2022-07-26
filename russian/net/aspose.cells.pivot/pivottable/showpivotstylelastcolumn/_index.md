@@ -1,14 +1,14 @@
 ---
 title: ShowPivotStyleLastColumn
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает применяется ли форматирование чередования столбцов.
+description: Указывает применяется ли форматирование полос столбцов.
 type: docs
 weight: 650
 url: /ru/net/aspose.cells.pivot/pivottable/showpivotstylelastcolumn/
 ---
 ## PivotTable.ShowPivotStyleLastColumn property
 
-Указывает, применяется ли форматирование чередования столбцов.
+Указывает, применяется ли форматирование полос столбцов.
 
 ```csharp
 public bool ShowPivotStyleLastColumn { get; set; }

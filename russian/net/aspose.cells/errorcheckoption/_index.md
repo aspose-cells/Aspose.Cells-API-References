@@ -1,14 +1,14 @@
 ---
 title: ErrorCheckOption
 second_title: Справочник по Aspose.Cells для .NET API
-description: Настройка проверки ошибок применяется для определенных диапазонов.
+description: Настройка проверки ошибок применяется к определенным диапазонам.
 type: docs
 weight: 3170
 url: /ru/net/aspose.cells/errorcheckoption/
 ---
 ## ErrorCheckOption class
 
-Настройка проверки ошибок применяется для определенных диапазонов.
+Настройка проверки ошибок применяется к определенным диапазонам.
 
 ```csharp
 public class ErrorCheckOption

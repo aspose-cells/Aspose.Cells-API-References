@@ -1,0 +1,125 @@
+---
+title: Title
+second_title: Aspose.Cells for .NET API Referansı
+description: Grafiğin veya eksenin başlığını temsil eden nesneyi kapsüller.
+type: docs
+weight: 970
+url: /tr/net/aspose.cells.charts/title/
+---
+## Title class
+
+Grafiğin veya eksenin başlığını temsil eden nesneyi kapsüller.
+
+```csharp
+public class Title : ChartTextFrame
+```
+
+## Özellikleri
+
+| İsim | Tanım |
+| --- | --- |
+| virtual [Area](../../aspose.cells.charts/chartframe/area) { get; } | [`alan`](../chartframe/area) . |
+| virtual [AutoScaleFont](../../aspose.cells.charts/chartframe/autoscalefont) { get; set; } | Nesne boyutu değiştiğinde nesnedeki metin yazı tipi boyutunu değiştirirse doğrudur. Varsayılan değer True'dur. |
+| [BackgroundMode](../../aspose.cells.charts/chartframe/backgroundmode) { get; set; } | background öğesinin görüntüleme modunu alır ve ayarlar |
+| virtual [Border](../../aspose.cells.charts/chartframe/border) { get; } | [`sınır`](../../aspose.cells.drawing/line) . |
+| [DefaultHeight](../../aspose.cells.charts/chartframe/defaultheight) { get; } | Varsayılan konumun yüksekliğini temsil eder |
+| [DefaultWidth](../../aspose.cells.charts/chartframe/defaultwidth) { get; } | Varsayılan konumun genişliğini temsil eder |
+| [DefaultX](../../aspose.cells.charts/chartframe/defaultx) { get; } | Varsayılan konumun x'ini temsil eder |
+| [DefaultY](../../aspose.cells.charts/chartframe/defaulty) { get; } | Varsayılan konumun y'sini temsil eder |
+| virtual [DirectionType](../../aspose.cells.charts/charttextframe/directiontype) { get; set; } | Metnin yönünü alır ve ayarlar. |
+| virtual [Font](../../aspose.cells.charts/chartframe/font) { get; } | [`Font`](../chartframe/font) belirtilen ChartFrame nesnesinin nesnesi. |
+| virtual [Height](../../aspose.cells.charts/chartframe/height) { get; set; } | Grafik alanının 1/4000 biriminde çerçevenin yüksekliğini alır veya ayarlar. |
+| virtual [IsAutomaticSize](../../aspose.cells.charts/chartframe/isautomaticsize) { get; set; } | Grafik çerçevesinin otomatik boyutlu olup olmadığını gösterir. |
+| virtual [IsAutoText](../../aspose.cells.charts/charttextframe/isautotext) { get; set; } | Metnin otomatik olarak oluşturulduğunu gösterir. |
+| [IsDefaultPosBeSet](../../aspose.cells.charts/chartframe/isdefaultposbeset) { get; } | Varsayılan konumun (DefaultX, DefaultY, DefaultWidth ve DefaultHeight) ayarlanıp ayarlanmadığını gösterir. |
+| [IsDeleted](../../aspose.cells.charts/charttextframe/isdeleted) { get; set; } | Bu veri etiketlerinin silinip silinmediğini gösterir. |
+| [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode) { get; set; } | Çizim alanı boyutunun onay işaretlerini ve eksen etiketlerini içerip içermediğini gösterir. False, boyutun çizim alanının boyutunu, onay işaretlerini ve eksen etiketlerini belirleyeceğini belirtir. |
+| [IsResizeShapeToFitText](../../aspose.cells.charts/charttextframe/isresizeshapetofittext) { get; set; } | Bir şeklin, içinde açıklanan metni tam olarak içermesi için otomatik olarak sığdırılıp sığdırılmaması gerektiğini alır veya ayarlar. Bir şeklin içindeki metin, içindeki tüm metni içerecek şekilde ölçeklendiğinde otomatik sığdırma olur. |
+| virtual [IsTextWrapped](../../aspose.cells.charts/charttextframe/istextwrapped) { get; set; } | Metnin sarılıp sarılmadığını belirten bir değer alır veya ayarlar. |
+| [IsVisible](../../aspose.cells.charts/title/isvisible) { get; set; } | Başlığın görünür olup olmadığını temsil eder. |
+| virtual [LinkedSource](../../aspose.cells.charts/charttextframe/linkedsource) { get; set; } | Çalışma sayfasına bir başvuru alır ve ayarlar. |
+| [OverLay](../../aspose.cells.charts/title/overlay) { get; set; } | Grafiği yeniden boyutlandırmadan grafikte yer paylaşımlı ortalanmış başlığı temsil eder. |
+| [ReadingOrder](../../aspose.cells.charts/charttextframe/readingorder) { get; set; } | Metin okuma sırasını temsil eder. |
+| [RotationAngle](../../aspose.cells.charts/charttextframe/rotationangle) { get; set; } | Metin döndürme açısını temsil eder. |
+| [Shadow](../../aspose.cells.charts/chartframe/shadow) { get; set; } | Çerçevenin gölgesi varsa doğrudur. |
+| [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties) { get; } | [`ShapeProperties`](../chartframe/shapeproperties) nesne. |
+| override [Text](../../aspose.cells.charts/title/text) { get; set; } | Görüntü birimi etiketinin metnini alır veya ayarlar. |
+| [TextHorizontalAlignment](../../aspose.cells.charts/charttextframe/texthorizontalalignment) { get; set; } | Metni yatay hizalamayı alır ve ayarlar. |
+| [TextVerticalAlignment](../../aspose.cells.charts/charttextframe/textverticalalignment) { get; set; } | Metnin dikey hizalamasını alır veya ayarlar. |
+| virtual [Width](../../aspose.cells.charts/chartframe/width) { get; set; } | Grafik alanının 1/4000 biriminde çerçevenin genişliğini alır veya ayarlar. |
+| override [X](../../aspose.cells.charts/title/x) { get; set; } | Grafik alanının 1/4000 biriminde sol üst köşenin x koordinatını alır veya ayarlar. |
+| override [Y](../../aspose.cells.charts/title/y) { get; set; } | Grafik alanının 1/4000 biriminde sol üst köşenin y koordinatını alır veya ayarlar. |
+
+## yöntemler
+
+| İsim | Tanım |
+| --- | --- |
+| [Characters](../../aspose.cells.charts/title/characters#characters_1)() | Bu Başlığın zengin metin biçimlendirmesini alır. |
+| [Characters](../../aspose.cells.charts/charttextframe/characters)(int, int) | Metin içindeki bir dizi karakteri temsil eden bir Karakterler nesnesi döndürür. |
+| virtual [SetPositionAuto](../../aspose.cells.charts/chartframe/setpositionauto)() | Çerçevenin konumunu otomatik olarak ayarlayın |
+
+### Örnekler
+
+```csharp
+
+[C#]
+
+Workbook workbook = new Workbook();
+Worksheet sheet = workbook.Worksheets[0];
+
+Cells cells = sheet.Cells;
+cells[0,1].PutValue("Income");
+cells[1,0].PutValue("Company A");
+cells[2,0].PutValue("Company B");
+cells[3,0].PutValue("Company C");
+cells[1,1].PutValue(10000);
+cells[2,1].PutValue(20000);
+cells[3,1].PutValue(30000);
+		
+int chartIndex = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
+Chart chart = sheet.Charts[chartIndex];
+
+// Bir grafiğin başlığını ayarlama
+chart.Title.Text = "Title";
+// Grafik başlığının yazı tipi rengini mavi olarak ayarlama
+chart.Title.Font.Color = Color.Blue;
+// Grafiğin kategori ekseni başlığının ayarlanması
+chart.CategoryAxis.Title.Text = "Category";
+// Grafiğin değer ekseninin başlığını ayarlama
+chart.ValueAxis.Title.Text = "Value";
+
+[Visual Basic]
+
+Dim workbook as Workbook = new Workbook()
+Dim sheet as Worksheet = workbook.Worksheets(0)
+
+Dim cells as Cells = sheet.Cells
+cells(0,1).PutValue("Income")
+cells(1,0).PutValue("Company A")
+cells(2,0).PutValue("Company B")
+cells(3,0).PutValue("Company C")
+cells(1,1).PutValue(10000)
+cells(2,1).PutValue(20000)
+cells(3,1).PutValue(30000)
+		
+Dim chartIndex as Integer = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15)    ///
+Dim chart as Chart = sheet.Charts(chartIndex)
+
+'Bir grafiğin başlığını ayarlama
+chart.Title.Text = "Title"
+'Grafik başlığının yazı tipi rengini mavi olarak ayarlama
+chart.Title.Font.Color = Color.Blue
+'Grafiğin kategori ekseni başlığını ayarlama
+chart.CategoryAxis.Title.Text = "Category"
+'Grafiğin değer ekseni başlığının ayarlanması
+chart.ValueAxis.Title.Text = "Value"
+
+```
+
+### Ayrıca bakınız
+
+* class [ChartTextFrame](../charttextframe)
+* ad alanı [Aspose.Cells.Charts](../../aspose.cells.charts)
+* toplantı [Aspose.Cells](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->

@@ -1,14 +1,14 @@
 ---
 title: IsHFDiffFirst
 second_title: Aspose.Cells for .NET API 参考
-description: True 表示首页的页眉/页脚与其他页面不同
+description: true 表示第一页的页眉/页脚与其他页面不同
 type: docs
 weight: 160
 url: /zh/net/aspose.cells/pagesetup/ishfdifffirst/
 ---
 ## PageSetup.IsHFDiffFirst property
 
-True 表示首页的页眉/页脚与其他页面不同。
+true 表示第一页的页眉/页脚与其他页面不同。
 
 ```csharp
 public bool IsHFDiffFirst { get; set; }

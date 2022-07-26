@@ -1,14 +1,14 @@
 ---
 title: GetStandardBuiltInName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает стандартный текст встроенного имени согласно заданному тексту зависящему от локали.
+description: Получает стандартный текст встроенного имени в соответствии с заданным текстом зависящим от языкового стандарта.
 type: docs
 weight: 210
 url: /ru/net/aspose.cells/globalizationsettings/getstandardbuiltinname/
 ---
 ## GlobalizationSettings.GetStandardBuiltInName method
 
-Получает стандартный текст встроенного имени согласно заданному тексту, зависящему от локали.
+Получает стандартный текст встроенного имени в соответствии с заданным текстом, зависящим от языкового стандарта.
 
 ```csharp
 public virtual string GetStandardBuiltInName(string localName)

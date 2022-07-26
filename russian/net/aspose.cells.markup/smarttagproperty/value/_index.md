@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает значение свойства.
+description: Получает и устанавливает значение свойства.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.markup/smarttagproperty/value/
 ---
 ## SmartTagProperty.Value property
 
-Получает и задает значение свойства.
+Получает и устанавливает значение свойства.
 
 ```csharp
 public string Value { get; set; }

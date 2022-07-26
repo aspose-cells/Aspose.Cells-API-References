@@ -1,14 +1,14 @@
 ---
 title: HorizontalAlignment
 second_title: Справочник по Aspose.Cells для .NET API
-description: Будет применена настройка горизонтального выравнивания.
+description: Будет применен параметр горизонтального выравнивания.
 type: docs
 weight: 190
 url: /ru/net/aspose.cells/styleflag/horizontalalignment/
 ---
 ## StyleFlag.HorizontalAlignment property
 
-Будет применена настройка горизонтального выравнивания.
+Будет применен параметр горизонтального выравнивания.
 
 ```csharp
 public bool HorizontalAlignment { get; set; }

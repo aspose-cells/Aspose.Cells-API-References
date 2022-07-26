@@ -1,14 +1,14 @@
 ---
 title: Transpose
 second_title: Aspose.Cells for .NET API 参考
-description: True 在粘贴范围时转置行和列默认值为假
+description: 为真在粘贴范围时转置行和列默认值为 False.
 type: docs
 weight: 60
 url: /zh/net/aspose.cells/pasteoptions/transpose/
 ---
 ## PasteOptions.Transpose property
 
-True 在粘贴范围时转置行和列。默认值为假。
+为真，在粘贴范围时转置行和列。默认值为 False.
 
 ```csharp
 public bool Transpose { get; set; }

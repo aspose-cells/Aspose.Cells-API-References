@@ -32,7 +32,7 @@ public void Process(bool isPreserved)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| isPreserved | Boolean | 如果未识别的智能标记被保留，则为真。 |
+| isPreserved | Boolean | 如果保留了无法识别的智能标记，则为真。 |
 
 ### 也可以看看
 
@@ -53,7 +53,7 @@ public void Process(int sheetIndex, bool isPreserved)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sheetIndex | Int32 | 工作表索引。 |
-| isPreserved | Boolean | 如果未识别的智能标记被保留，则为真。 |
+| isPreserved | Boolean | 如果保留了无法识别的智能标记，则为真。 |
 
 ### 评论
 

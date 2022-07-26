@@ -3,7 +3,7 @@ title: StreamProvider
 second_title: Справочник по Aspose.Cells для .NET API
 description: Получает или задает IStreamProvider для экспорта объектов.
 type: docs
-weight: 450
+weight: 480
 url: /ru/net/aspose.cells/htmlsaveoptions/streamprovider/
 ---
 ## HtmlSaveOptions.StreamProvider property

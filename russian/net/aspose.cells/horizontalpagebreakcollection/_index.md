@@ -1,14 +1,14 @@
 ---
 title: HorizontalPageBreakCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует коллекцию объектовHorizontalPageBreak./horizontalpagebreak.
+description: Инкапсулирует наборHorizontalPageBreak./horizontalpagebreak объекты.
 type: docs
 weight: 3670
 url: /ru/net/aspose.cells/horizontalpagebreakcollection/
 ---
 ## HorizontalPageBreakCollection class
 
-Инкапсулирует коллекцию объектов[`HorizontalPageBreak`](../horizontalpagebreak).
+Инкапсулирует набор[`HorizontalPageBreak`](../horizontalpagebreak) объекты.
 
 ```csharp
 public class HorizontalPageBreakCollection : CollectionBase<HorizontalPageBreak>
@@ -20,17 +20,17 @@ public class HorizontalPageBreakCollection : CollectionBase<HorizontalPageBreak>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/horizontalpagebreakcollection/item) { get; } | Получает элемент[`HorizontalPageBreak`](../horizontalpagebreak)по указанному индексу. (2 indexers) |
+| [Item](../../aspose.cells/horizontalpagebreakcollection/item) { get; } | Получает[`HorizontalPageBreak`](../horizontalpagebreak) элемент по указанному индексу. (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells/horizontalpagebreakcollection/add#add)(int) | Добавляет в коллекцию горизонтальный разрыв страницы. |
-| [Add](../../aspose.cells/horizontalpagebreakcollection/add#add_3)(string) | Добавляет в коллекцию горизонтальный разрыв страницы. |
-| [Add](../../aspose.cells/horizontalpagebreakcollection/add#add_1)(int, int) | Добавляет в коллекцию горизонтальный разрыв страницы. |
-| [Add](../../aspose.cells/horizontalpagebreakcollection/add#add_2)(int, int, int) | Добавляет в коллекцию горизонтальный разрыв страницы. |
+| [Add](../../aspose.cells/horizontalpagebreakcollection/add#add)(int) | Добавляет горизонтальный разрыв страницы в коллекцию. |
+| [Add](../../aspose.cells/horizontalpagebreakcollection/add#add_3)(string) | Добавляет горизонтальный разрыв страницы в коллекцию. |
+| [Add](../../aspose.cells/horizontalpagebreakcollection/add#add_1)(int, int) | Добавляет горизонтальный разрыв страницы в коллекцию. |
+| [Add](../../aspose.cells/horizontalpagebreakcollection/add#add_2)(int, int, int) | Добавляет горизонтальный разрыв страницы в коллекцию. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(HorizontalPageBreak) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(HorizontalPageBreak, IComparer&lt;HorizontalPageBreak&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, HorizontalPageBreak, IComparer&lt;HorizontalPageBreak&gt;) |  |
@@ -64,7 +64,7 @@ public class HorizontalPageBreakCollection : CollectionBase<HorizontalPageBreak>
 [C#]
 Workbook excel = new Workbook();
 
-  //Добавить разрыв страницы в G5
+//Добавить разрыв страницы на G5
 excel.Worksheets[0].HorizontalPageBreaks.Add("G5");
 excel.Worksheets[0].VerticalPageBreaks.Add("G5");
 

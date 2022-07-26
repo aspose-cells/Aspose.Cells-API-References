@@ -1,14 +1,14 @@
 ---
 title: CompoundType
 second_title: Aspose.Cells for .NET API 参考
-description: 指定复合线类型
+description: 指定复合线型
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.drawing/line/compoundtype/
 ---
 ## Line.CompoundType property
 
-指定复合线类型
+指定复合线型
 
 ```csharp
 public MsoLineStyle CompoundType { get; set; }

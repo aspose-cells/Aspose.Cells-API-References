@@ -1,14 +1,14 @@
 ---
 title: RefreshChartShape
 second_title: Справочник по Aspose.Cells для .NET API
-description: обновить все изображения диаграммы для активного рабочего листа.
+description: обновить все изображения диаграммы для активного листа .
 type: docs
 weight: 1440
 url: /ru/net/aspose.cells.gridweb/mainweb/refreshchartshape/
 ---
 ## MainWeb.RefreshChartShape method
 
-обновить все изображения диаграммы для активного рабочего листа.
+обновить все изображения диаграммы для активного листа .
 
 ```csharp
 public void RefreshChartShape()

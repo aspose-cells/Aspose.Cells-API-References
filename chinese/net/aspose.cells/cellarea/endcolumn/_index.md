@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells/cellarea/endcolumn/
 ---
 ## CellArea.EndColumn field
 
-获取或设置该区域的结束列。
+获取或设置该区域的结束列
 
 ```csharp
 public int EndColumn;

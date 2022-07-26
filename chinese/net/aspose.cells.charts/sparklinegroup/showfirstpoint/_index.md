@@ -1,14 +1,14 @@
 ---
 title: ShowFirstPoint
 second_title: Aspose.Cells for .NET API 参考
-description: 指示是否突出显示迷你图组中的第一个数据点
+description: 表示是否突出显示迷你图组中的第一个数据点
 type: docs
 weight: 150
 url: /zh/net/aspose.cells.charts/sparklinegroup/showfirstpoint/
 ---
 ## SparklineGroup.ShowFirstPoint property
 
-指示是否突出显示迷你图组中的第一个数据点。
+表示是否突出显示迷你图组中的第一个数据点。
 
 ```csharp
 public bool ShowFirstPoint { get; set; }

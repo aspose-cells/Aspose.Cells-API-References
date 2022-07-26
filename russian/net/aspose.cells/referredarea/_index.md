@@ -25,7 +25,7 @@ public class ReferredArea
 | [IsExternalLink](../../aspose.cells/referredarea/isexternallink) { get; } | Указывает, является ли это внешней ссылкой. |
 | [SheetName](../../aspose.cells/referredarea/sheetname) { get; } | Указывает, на каком листе находится эта ссылка. |
 | [StartColumn](../../aspose.cells/referredarea/startcolumn) { get; } | Начальный столбец области. |
-| [StartRow](../../aspose.cells/referredarea/startrow) { get; } | Начальный ряд области. |
+| [StartRow](../../aspose.cells/referredarea/startrow) { get; } | Начальная строка области. |
 
 ## Методы
 

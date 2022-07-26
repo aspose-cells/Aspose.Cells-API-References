@@ -1,14 +1,14 @@
 ---
 title: ErrorBar
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет планку ошибок ряда данных.
+description: Представляет планку погрешностей ряда данных.
 type: docs
 weight: 630
 url: /ru/net/aspose.cells.charts/errorbar/
 ---
 ## ErrorBar class
 
-Представляет планку ошибок ряда данных.
+Представляет планку погрешностей ряда данных.
 
 ```csharp
 public class ErrorBar : Line
@@ -18,34 +18,34 @@ public class ErrorBar : Line
 
 | Имя | Описание |
 | --- | --- |
-| [Amount](../../aspose.cells.charts/errorbar/amount) { get; set; } | Представляет количество ошибок.  Сумма должна быть больше и равна нулю. |
-| [BeginArrowLength](../../aspose.cells.drawing/line/beginarrowlength) { get; set; } | Указывает длину стрелки для начала строки. |
-| [BeginArrowWidth](../../aspose.cells.drawing/line/beginarrowwidth) { get; set; } | Задает ширину стрелки для начала строки. |
+| [Amount](../../aspose.cells.charts/errorbar/amount) { get; set; } | Представляет количество ошибок bar.  Сумма должна быть больше или равна нулю. |
+| [BeginArrowLength](../../aspose.cells.drawing/line/beginarrowlength) { get; set; } | Определяет длину стрелки для начала строки. |
+| [BeginArrowWidth](../../aspose.cells.drawing/line/beginarrowwidth) { get; set; } | Определяет ширину стрелки для начала строки. |
 | [BeginType](../../aspose.cells.drawing/line/begintype) { get; set; } | Указывает стрелку для начала строки. |
-| [CapType](../../aspose.cells.drawing/line/captype) { get; set; } | Определяет конечные заглавные буквы. |
-| [Color](../../aspose.cells.drawing/line/color) { get; set; } | ПредставляетColorлинии. |
-| [CompoundType](../../aspose.cells.drawing/line/compoundtype) { get; set; } | Задает тип составной линии |
-| [DashType](../../aspose.cells.drawing/line/dashtype) { get; set; } | Указывает тип пунктирной линии |
-| [DisplayType](../../aspose.cells.charts/errorbar/displaytype) { get; set; } | Представляет тип отображения полосы ошибок. |
-| [EndArrowLength](../../aspose.cells.drawing/line/endarrowlength) { get; set; } | Указывает длину стрелки для конца строки. |
-| [EndArrowWidth](../../aspose.cells.drawing/line/endarrowwidth) { get; set; } | Задает ширину стрелки для конца строки. |
+| [CapType](../../aspose.cells.drawing/line/captype) { get; set; } | Указывает конечные заглавные буквы. |
+| [Color](../../aspose.cells.drawing/line/color) { get; set; } | ПредставляетColor линии. |
+| [CompoundType](../../aspose.cells.drawing/line/compoundtype) { get; set; } | Указывает тип составной линии |
+| [DashType](../../aspose.cells.drawing/line/dashtype) { get; set; } | Определяет тип пунктирной линии |
+| [DisplayType](../../aspose.cells.charts/errorbar/displaytype) { get; set; } | Представляет тип отображения панели ошибок. |
+| [EndArrowLength](../../aspose.cells.drawing/line/endarrowlength) { get; set; } | Определяет длину стрелки для конца строки. |
+| [EndArrowWidth](../../aspose.cells.drawing/line/endarrowwidth) { get; set; } | Определяет ширину стрелки для конца строки. |
 | [EndType](../../aspose.cells.drawing/line/endtype) { get; set; } | Указывает конец строки со стрелкой. |
 | [FormattingType](../../aspose.cells.drawing/line/formattingtype) { get; set; } | Получает или задает тип формата. |
 | [GradientFill](../../aspose.cells.drawing/line/gradientfill) { get; } | Представляет градиентную заливку. |
 | [IsAuto](../../aspose.cells.drawing/line/isauto) { get; set; } | Указывает, назначается ли этот стиль линии автоматически. |
 | [IsAutomaticColor](../../aspose.cells.drawing/line/isautomaticcolor) { get; } | Указывает, назначается ли цвет линии автоматически. |
 | [IsVisible](../../aspose.cells.drawing/line/isvisible) { get; set; } | Указывает, видна ли линия. |
-| [JoinType](../../aspose.cells.drawing/line/jointype) { get; set; } | Указывает соединительные заглавные буквы. |
-| [MinusValue](../../aspose.cells.charts/errorbar/minusvalue) { get; set; } | Отображает отрицательное количество ошибок, когда тип полосы ошибок — Пользовательский. |
-| [PlusValue](../../aspose.cells.charts/errorbar/plusvalue) { get; set; } | Представляет положительную величину ошибки, когда тип полосы ошибок - Пользовательский. |
-| [ShowMarkerTTop](../../aspose.cells.charts/errorbar/showmarkerttop) { get; set; } | Указывает, форматируются ли полосы ошибок с Т-образной вершиной. |
+| [JoinType](../../aspose.cells.drawing/line/jointype) { get; set; } | Определяет соединительные заглавные буквы. |
+| [MinusValue](../../aspose.cells.charts/errorbar/minusvalue) { get; set; } | Отображает отрицательное количество ошибок, если тип полосы ошибок — Пользовательский. |
+| [PlusValue](../../aspose.cells.charts/errorbar/plusvalue) { get; set; } | Представляет положительную величину ошибки, когда тип полосы ошибок — Пользовательский. |
+| [ShowMarkerTTop](../../aspose.cells.charts/errorbar/showmarkerttop) { get; set; } | Указывает, форматируются ли полосы ошибок с помощью T-top. |
 | [Style](../../aspose.cells.drawing/line/style) { get; set; } | Представляет стиль линии. |
 | [ThemeColor](../../aspose.cells.drawing/line/themecolor) { get; set; } | Получает и устанавливает цвет темы. |
-| [Transparency](../../aspose.cells.drawing/line/transparency) { get; set; } | Возвращает или задает степень прозрачности линии как значение от 0,0 (непрозрачная) до 1,0 (прозрачная). |
-| [Type](../../aspose.cells.charts/errorbar/type) { get; set; } | Представляет тип количества бара ошибок. |
-| [Weight](../../aspose.cells.drawing/line/weight) { get; set; } | Получает или задает[`WeightType`](../../aspose.cells.drawing/weighttype)линии. |
+| [Transparency](../../aspose.cells.drawing/line/transparency) { get; set; } | Возвращает или задает степень прозрачности линии в виде значения от 0,0 (непрозрачная) до 1,0 (прозрачная). |
+| [Type](../../aspose.cells.charts/errorbar/type) { get; set; } | Представляет тип суммы полосы ошибок. |
+| [Weight](../../aspose.cells.drawing/line/weight) { get; set; } | Получает или задает[`WeightType`](../../aspose.cells.drawing/weighttype) линии. |
 | [WeightPt](../../aspose.cells.drawing/line/weightpt) { get; set; } | Получает или задает вес линии в пунктах. |
-| [WeightPx](../../aspose.cells.drawing/line/weightpx) { get; set; } | Получает или задает вес линии в единицах пикселей. |
+| [WeightPx](../../aspose.cells.drawing/line/weightpx) { get; set; } | Получает или задает вес линии в пикселях. |
 
 ### Примеры
 

@@ -16,7 +16,7 @@ public static string ConvertA1FormulaToR1C1(string formula, int row, int column)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| formula | String | Формула A1. |
+| formula | String | Формула А1. |
 | row | Int32 | Индекс строки ячейки. |
 | column | Int32 | Индекс столбца ячейки. |
 

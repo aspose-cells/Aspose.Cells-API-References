@@ -1,14 +1,14 @@
 ---
 title: ExportDataTable
 second_title: Aspose.Cells for .NET API 参考
-description: 将Cellsaspose.cells/cells集合中的数据导出到DataTable目的
+description: 导出数据Cellsaspose.cells/cells收集到DataTable对象.
 type: docs
 weight: 610
 url: /zh/net/aspose.cells/cells/exportdatatable/
 ---
 ## ExportDataTable(int, int, int, int) {#exportdatatable}
 
-将[`Cells`](../../cells)集合中的数据导出到DataTable目的。
+导出数据[`Cells`](../../cells)收集到DataTable对象.
 
 ```csharp
 public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, int totalColumns)
@@ -16,18 +16,18 @@ public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, i
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| firstRow | Int32 | 要导出的第一个单元格的行号出去。 |
+| firstRow | Int32 | 要导出的第一个单元格的行号。 |
 | firstColumn | Int32 | 要导出的第一个单元格的列号。 |
 | totalRows | Int32 | 要导入的行数。 |
 | totalColumns | Int32 | 要导入的列数。 |
 
 ### 返回值
 
-导出DataTable对象。
+出口DataTable目的。
 
 ### 评论
 
-如果使用此方法导出一个数据块，请确保该列中的数据 应该是相同的数据类型。否则，请改用[`ExportDataTableAsString`](../exportdatatableasstring)方法。
+如果您使用此方法导出一个数据块，请确保 列中的数据应该是相同的数据类型。否则，使用[`ExportDataTableAsString`](../exportdatatableasstring)方法代替。
 
 ### 例子
 
@@ -59,7 +59,7 @@ Dim dt As DataTable = sheet.Cells.ExportDataTable(6, 1, 69, 4)
 
 ## ExportDataTable(int, int, int, int, bool) {#exportdatatable_2}
 
-将[`Cells`](../../cells)集合中的数据导出到DataTable目的。
+导出数据[`Cells`](../../cells)收集到DataTable对象.
 
 ```csharp
 public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, int totalColumns, 
@@ -72,11 +72,11 @@ public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, i
 | firstColumn | Int32 | 要导出的第一个单元格的列号。 |
 | totalRows | Int32 | 要导入的行数。 |
 | totalColumns | Int32 | 要导入的列数。 |
-| exportColumnName | Boolean | 表示第一行的数据是否导出到DataTable的列名。 |
+| exportColumnName | Boolean | 指示是否将第一行中的数据导出到 DataTable 的列名。 |
 
 ### 返回值
 
-导出DataTable对象。
+出口DataTable目的。
 
 ### 也可以看看
 
@@ -88,7 +88,7 @@ public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, i
 
 ## ExportDataTable(int, int, int, int, ExportTableOptions) {#exportdatatable_1}
 
-将[`Cells`](../../cells)集合中的数据导出到DataTable目的。
+导出数据[`Cells`](../../cells)收集到DataTable对象.
 
 ```csharp
 public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, int totalColumns, 
@@ -105,7 +105,7 @@ public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, i
 
 ### 返回值
 
-导出Data。数据表对象。
+出口DataTable目的。
 
 ### 也可以看看
 

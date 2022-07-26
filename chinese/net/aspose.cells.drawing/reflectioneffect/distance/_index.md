@@ -1,14 +1,14 @@
 ---
 title: Distance
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置距离阴影的距离以点为单位
+description: 获取和设置阴影的距离以点为单位
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.drawing/reflectioneffect/distance/
 ---
 ## ReflectionEffect.Distance property
 
-获取和设置距离阴影的距离，以点为单位。
+获取和设置阴影的距离，以点为单位。
 
 ```csharp
 public double Distance { get; set; }

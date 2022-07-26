@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取SmartTagPropertyaspose.cells.markup/smarttagproperty对象
+description: 得到一个SmartTagPropertyaspose.cells.markup/smarttagproperty对象.
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.markup/smarttagpropertycollection/item/
 ---
 ## SmartTagPropertyCollection indexer (1 of 2)
 
-获取[`SmartTagProperty`](../../smarttagproperty)对象。
+得到一个[`SmartTagProperty`](../../smarttagproperty)对象.
 
 ```csharp
 public SmartTagProperty this[int index] { get; }
@@ -16,11 +16,11 @@ public SmartTagProperty this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引 |
+| index | 指数 |
 
 ### 返回值
 
-返回[`SmartTagProperty`](../../smarttagproperty)对象。
+返回一个[`SmartTagProperty`](../../smarttagproperty)目的。
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ public SmartTagProperty this[int index] { get; }
 
 ## SmartTagPropertyCollection indexer (2 of 2)
 
-通过属性名称获取[`SmartTagProperty`](../../smarttagproperty)对象。
+得到一个[`SmartTagProperty`](../../smarttagproperty)按属性名称的对象。
 
 ```csharp
 public SmartTagProperty this[string name] { get; }
@@ -45,7 +45,7 @@ public SmartTagProperty this[string name] { get; }
 
 ### 返回值
 
-返回[`SmartTagProperty`](../../smarttagproperty)对象。
+返回一个[`SmartTagProperty`](../../smarttagproperty)目的。
 
 ### 也可以看看
 

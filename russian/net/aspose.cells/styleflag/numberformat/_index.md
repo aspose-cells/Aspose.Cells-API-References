@@ -1,14 +1,14 @@
 ---
 title: NumberFormat
 second_title: Справочник по Aspose.Cells для .NET API
-description: Будет применена настройка числового формата.
+description: Будет применена настройка числового формата .
 type: docs
 weight: 230
 url: /ru/net/aspose.cells/styleflag/numberformat/
 ---
 ## StyleFlag.NumberFormat property
 
-Будет применена настройка числового формата.
+Будет применена настройка числового формата .
 
 ```csharp
 public bool NumberFormat { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: PdfBookmarkEntry
 second_title: Справочник по Aspose.Cells для .NET API
-description: PdfBookmarkEntry  запись в закладке pdf. если свойство Text текущего экземпляра равно null или  текущий экземпляр будет скрыт а дочерние элементы будут вставлены на текущий уровень.
+description: PdfBookmarkEntry  это запись в закладке pdf.  если свойство Text текущего экземпляра равно null или  текущий экземпляр будет скрыт а дочерние элементы будут вставлены на текущий уровень.
 type: docs
 weight: 5180
 url: /ru/net/aspose.cells.rendering/pdfbookmarkentry/
 ---
 ## PdfBookmarkEntry class
 
-PdfBookmarkEntry — запись в закладке pdf. если свойство Text текущего экземпляра равно null или "", текущий экземпляр будет скрыт, а дочерние элементы будут вставлены на текущий уровень.
+PdfBookmarkEntry — это запись в закладке pdf. , если свойство Text текущего экземпляра равно null или "", текущий экземпляр будет скрыт, а дочерние элементы будут вставлены на текущий уровень.
 
 ```csharp
 public class PdfBookmarkEntry
@@ -25,9 +25,9 @@ public class PdfBookmarkEntry
 | Имя | Описание |
 | --- | --- |
 | [Destination](../../aspose.cells.rendering/pdfbookmarkentry/destination) { get; set; } | Ячейка, на которую ссылается закладка. |
-| [DestinationName](../../aspose.cells.rendering/pdfbookmarkentry/destinationname) { get; set; } | Получает или задает имя пункта назначения. |
-| [IsCollapse](../../aspose.cells.rendering/pdfbookmarkentry/iscollapse) { get; set; } | Когда это свойство имеет значение true, запись закладки будет свернута, иначе она расширится. |
-| [IsOpen](../../aspose.cells.rendering/pdfbookmarkentry/isopen) { get; set; } | Когда это свойство истинно, запись закладки будет расширяться, иначе она свернется. |
+| [DestinationName](../../aspose.cells.rendering/pdfbookmarkentry/destinationname) { get; set; } | Получает или задает имя места назначения. |
+| [IsCollapse](../../aspose.cells.rendering/pdfbookmarkentry/iscollapse) { get; set; } | Если для этого свойства установлено значение true, запись закладки будет свернута, в противном случае она будет расширена. |
+| [IsOpen](../../aspose.cells.rendering/pdfbookmarkentry/isopen) { get; set; } | Если для этого свойства установлено значение true, запись закладки будет расширяться, в противном случае она свернется. |
 | [SubEntry](../../aspose.cells.rendering/pdfbookmarkentry/subentry) { get; set; } | SubEntry закладки. |
 | [Text](../../aspose.cells.rendering/pdfbookmarkentry/text) { get; set; } | Название закладки. |
 
@@ -46,7 +46,7 @@ ellInPage2.PutValue("page2");
 ellInPage3.PutValue("page3");
 
 dfBookmarkEntry pbeRoot = new PdfBookmarkEntry();
-beRoot.Text = "root";    // если pbeRoot.Text = null, все дочерние элементы pbeRoot будут вставлены на верхний уровень в закладке.
+beRoot.Text = "root";  // если pbeRoot.Text = null, все дочерние элементы pbeRoot будут вставлены на верхний уровень закладки.
 beRoot.Destination = cellInPage1;
 beRoot.SubEntry = new ArrayList();
 beRoot.IsOpen = false;

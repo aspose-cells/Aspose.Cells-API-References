@@ -1,14 +1,14 @@
 ---
 title: Hyperlinks
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает коллекциюHyperlinkCollection.
+description: ПолучаетHyperlinkCollection коллекция.
 type: docs
 weight: 220
 url: /ru/net/aspose.cells.griddesktop/worksheet/hyperlinks/
 ---
 ## Worksheet.Hyperlinks property
 
-Получает коллекциюHyperlinkCollection.
+ПолучаетHyperlinkCollection коллекция.
 
 ```csharp
 public GridHyperlinkCollection Hyperlinks { get; }

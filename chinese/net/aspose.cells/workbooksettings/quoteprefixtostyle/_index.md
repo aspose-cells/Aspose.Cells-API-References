@@ -1,14 +1,14 @@
 ---
 title: QuotePrefixToStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 表示输入字符串值以单引号开头时是否设置QuotePrefixaspose.cells/style/quoteprefix属性为单元格
+description: 表示是否设置QuotePrefixaspose.cells/style/quoteprefix将字符串值以单引号开头输入到单元格 时的属性
 type: docs
 weight: 360
 url: /zh/net/aspose.cells/workbooksettings/quoteprefixtostyle/
 ---
 ## WorkbookSettings.QuotePrefixToStyle property
 
-表示输入字符串值（以单引号开头）时是否设置[`QuotePrefix`](../../style/quoteprefix)属性为单元格
+表示是否设置[`QuotePrefix`](../../style/quoteprefix)将字符串值（以单引号开头）输入到单元格 时的属性
 
 ```csharp
 public bool QuotePrefixToStyle { get; set; }

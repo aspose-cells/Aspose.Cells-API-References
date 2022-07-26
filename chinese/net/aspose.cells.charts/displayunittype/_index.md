@@ -28,7 +28,7 @@ public enum DisplayUnitType
 | HundredMillions | `7` | 指定图表上的值应除以 100,000,000。 |
 | Billions | `8` | 指定图表上的值应除以 1,000,000,000。 |
 | Trillions | `9` | 指定图表上的值应除以 1,000,000,000,000。 |
-| Percentage | `10` | 图表上的值应除以 0.01。 |
+| Percentage | `10` | 图表上的值应除以0.01. |
 | Cust | `11` | 指定显示单位的自定义值。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: PowerQueryFormulaItemCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示幂查询公式的所有项
+description: 代表幂查询公式的所有项
 type: docs
 weight: 5000
 url: /zh/net/aspose.cells.querytables/powerqueryformulaitemcollection/
 ---
 ## PowerQueryFormulaItemCollection class
 
-表示幂查询公式的所有项。
+代表幂查询公式的所有项。
 
 ```csharp
 public class PowerQueryFormulaItemCollection : CollectionBase<PowerQueryFormulaItem>
@@ -20,7 +20,7 @@ public class PowerQueryFormulaItemCollection : CollectionBase<PowerQueryFormulaI
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.querytables/powerqueryformulaitemcollection/item) { get; } | 通过列表中的索引获取[`PowerQueryFormulaItem`](../powerqueryformulaitem)。 (2 indexers) |
+| [Item](../../aspose.cells.querytables/powerqueryformulaitemcollection/item) { get; } | 获取[`PowerQueryFormulaItem`](../powerqueryformulaitem)按列表中的索引。 (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法

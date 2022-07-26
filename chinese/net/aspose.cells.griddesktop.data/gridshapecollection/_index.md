@@ -1,14 +1,14 @@
 ---
 title: GridShapeCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装Shape../aspose.cells.griddesktop/shape对象的集合
+description: 封装了一个集合Shape../aspose.cells.griddesktop/shape对象.
 type: docs
 weight: 700
 url: /zh/net/aspose.cells.griddesktop.data/gridshapecollection/
 ---
 ## GridShapeCollection class
 
-封装[`Shape`](../../aspose.cells.griddesktop/shape)对象的集合。
+封装了一个集合[`Shape`](../../aspose.cells.griddesktop/shape)对象.
 
 ```csharp
 public class GridShapeCollection
@@ -19,14 +19,14 @@ public class GridShapeCollection
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.cells.griddesktop.data/gridshapecollection/count) { get; } |  |
-| [Item](../../aspose.cells.griddesktop.data/gridshapecollection/item) { get; } | 获取指定索引处的Picture元素。 |
+| [Item](../../aspose.cells.griddesktop.data/gridshapecollection/item) { get; } | 获取Picture指定索引处的元素。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetEnumerator](../../aspose.cells.griddesktop.data/gridshapecollection/getenumerator)() | 获取行枚举器 |
-| [RemoveAt](../../aspose.cells.griddesktop.data/gridshapecollection/removeat)(int) | 删除形状。 |
+| [GetEnumerator](../../aspose.cells.griddesktop.data/gridshapecollection/getenumerator)() | 获取行 enumerator |
+| [RemoveAt](../../aspose.cells.griddesktop.data/gridshapecollection/removeat)(int) | 移除形状。 |
 
 ### 也可以看看
 

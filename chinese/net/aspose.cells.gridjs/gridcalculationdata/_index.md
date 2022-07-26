@@ -21,12 +21,12 @@ public class GridCalculationData
 | [CalculatedValue](../../aspose.cells.gridjs/gridcalculationdata/calculatedvalue) { get; set; } | 获取或设置此函数的计算值。 |
 | [Column](../../aspose.cells.gridjs/gridcalculationdata/column) { get; } | 获取函数所在的单元格列索引。 |
 | [Formula](../../aspose.cells.gridjs/gridcalculationdata/formula) { get; } | 获取函数所在的单元格公式。 |
-| [FunctionName](../../aspose.cells.gridjs/gridcalculationdata/functionname) { get; } | 获取要计算的函数名。 |
-| [ParamCount](../../aspose.cells.gridjs/gridcalculationdata/paramcount) { get; } | 获取参数个数 |
+| [FunctionName](../../aspose.cells.gridjs/gridcalculationdata/functionname) { get; } | 获取要计算的函数名 |
+| [ParamCount](../../aspose.cells.gridjs/gridcalculationdata/paramcount) { get; } | 获取参数的计数 |
 | [Row](../../aspose.cells.gridjs/gridcalculationdata/row) { get; } | 获取函数所在的单元格行索引。 |
 | [SheetName](../../aspose.cells.gridjs/gridcalculationdata/sheetname) { get; } | 获取函数所在的工作表名称。 |
-| [StringValue](../../aspose.cells.gridjs/gridcalculationdata/stringvalue) { get; } | 获取函数所在的单元格 DisplayStringValue。 |
-| [Value](../../aspose.cells.gridjs/gridcalculationdata/value) { get; } | 获取函数所在的单元格值。 |
+| [StringValue](../../aspose.cells.gridjs/gridcalculationdata/stringvalue) { get; } | 获取函数所在的Cell DisplayStringValue。 |
+| [Value](../../aspose.cells.gridjs/gridcalculationdata/value) { get; } | 获取函数所在的Cell值。 |
 
 ## 方法
 
@@ -37,7 +37,7 @@ public class GridCalculationData
 
 ### 评论
 
-此类提供的所有对象仅用于“读取”目的。 用户在公式计算过程中不要更改工作簿中的任何数据， 否则可能会导致意外结果或异常。
+该类提供的所有对象仅用于“读取”目的。 用户在公式计算过程中不应更改工作簿中的任何数据， 否则可能会导致意外结果或异常。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: TopMarginPt
 second_title: Aspose.Cells for .NET API 参考
-description: 以点为单位返回上边距
+description: 以 Points 为单位返回上边距
 type: docs
 weight: 70
 url: /zh/net/aspose.cells.drawing/msotextframe/topmarginpt/
 ---
 ## MsoTextFrame.TopMarginPt property
 
-以点为单位返回上边距
+以 Points 为单位返回上边距
 
 ```csharp
 public double TopMarginPt { get; set; }

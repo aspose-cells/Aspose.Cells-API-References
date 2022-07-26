@@ -1,14 +1,14 @@
 ---
 title: HasTopBevelData
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает есть ли у формы данные о верхнем скосе.
+description: Указывает есть ли у фигуры данные о верхнем скосе.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.drawing/format3d/hastopbeveldata/
 ---
 ## Format3D.HasTopBevelData method
 
-Указывает, есть ли у формы данные о верхнем скосе.
+Указывает, есть ли у фигуры данные о верхнем скосе.
 
 ```csharp
 public bool HasTopBevelData()

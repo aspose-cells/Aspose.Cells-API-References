@@ -16,7 +16,7 @@ public void SetNativeSourceFullName(string sourceFullName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sourceFullName | String | ole 原生源完整文件名 |
+| sourceFullName | String | ole 本机源完整文件名 |
 
 ### 也可以看看
 

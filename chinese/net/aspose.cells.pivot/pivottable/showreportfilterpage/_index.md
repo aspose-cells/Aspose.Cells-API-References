@@ -1,14 +1,14 @@
 ---
 title: ShowReportFilterPage
 second_title: Aspose.Cells for .NET API 参考
-description: 根据 PivotField 显示所有报表过滤页面PivotField 必须位于 PageFields 中
+description: 根据PivotField显示所有报表过滤页面PivotField必须位于PageFields中
 type: docs
 weight: 990
 url: /zh/net/aspose.cells.pivot/pivottable/showreportfilterpage/
 ---
 ## PivotTable.ShowReportFilterPage method
 
-根据 PivotField 显示所有报表过滤页面，PivotField 必须位于 PageFields 中。
+根据PivotField显示所有报表过滤页面，PivotField必须位于PageFields中。
 
 ```csharp
 public void ShowReportFilterPage(PivotField pageField)
@@ -16,7 +16,7 @@ public void ShowReportFilterPage(PivotField pageField)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageField | PivotField | PivotField 对象 |
+| pageField | PivotField | 数据透视字段对象 |
 
 ### 也可以看看
 

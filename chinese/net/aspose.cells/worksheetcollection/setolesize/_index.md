@@ -16,14 +16,14 @@ public void SetOleSize(int startRow, int endRow, int startColumn, int endColumn)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startRow | Int32 | 起始行索引。 |
+| startRow | Int32 | 开始行索引。 |
 | endRow | Int32 | 结束行索引。 |
-| startColumn | Int32 | 起始列索引。 |
+| startColumn | Int32 | 开始列索引。 |
 | endColumn | Int32 | 结束列索引。 |
 
 ### 评论
 
-此方法一般用于调整ppt文件或doc文件的显示大小。
+此方法一般用于调整 ppt 文件或 doc 文件中的显示大小。
 
 ### 也可以看看
 

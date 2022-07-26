@@ -1,14 +1,14 @@
 ---
 title: WorkbookFailLoadEventHandler
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет метод предназначенный для обработки книги при которой не удается загрузить файл.
+description: Представляет метод предназначенный для обработки книги не позволяющей загрузить файл.
 type: docs
 weight: 1070
 url: /ru/net/aspose.cells.griddesktop/workbookfailloadeventhandler/
 ---
 ## WorkbookFailLoadEventHandler delegate
 
-Представляет метод, предназначенный для обработки книги, при которой не удается загрузить файл.
+Представляет метод, предназначенный для обработки книги, не позволяющей загрузить файл.
 
 ```csharp
 public delegate void WorkbookFailLoadEventHandler(object sender, string msg);

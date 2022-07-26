@@ -1,14 +1,14 @@
 ---
 title: IsExisted
 second_title: Aspose.Cells for .NET API 参考
-description: 检查带有uid的缓存是否存在
+description: 检查uid的缓存是否存在
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.gridjs/gridcacheforstream/isexisted/
 ---
 ## GridCacheForStream.IsExisted method
 
-检查带有uid的缓存是否存在
+检查uid的缓存是否存在
 
 ```csharp
 public virtual bool IsExisted(string uid)

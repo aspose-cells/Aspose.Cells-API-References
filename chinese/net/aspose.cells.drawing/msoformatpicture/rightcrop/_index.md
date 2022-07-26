@@ -1,14 +1,14 @@
 ---
 title: RightCrop
 second_title: Aspose.Cells for .NET API 参考
-description: 表示裁剪矩形右侧的位置表示为图像宽度的比例
+description: 表示表示裁剪矩形右侧的位置表示为图像宽度的比率
 type: docs
 weight: 80
 url: /zh/net/aspose.cells.drawing/msoformatpicture/rightcrop/
 ---
 ## MsoFormatPicture.RightCrop property
 
-表示裁剪矩形右侧的位置，表示为图像宽度的比例。
+表示表示裁剪矩形右侧的位置，表示为图像宽度的比率。
 
 ```csharp
 public double RightCrop { get; set; }

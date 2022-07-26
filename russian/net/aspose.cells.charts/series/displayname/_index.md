@@ -1,14 +1,14 @@
 ---
 title: DisplayName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает имя серии которое отображается на графике диаграммы.
+description: Получает имя серии которое отображается на диаграмме.
 type: docs
 weight: 80
 url: /ru/net/aspose.cells.charts/series/displayname/
 ---
 ## Series.DisplayName property
 
-Получает имя серии, которое отображается на графике диаграммы.
+Получает имя серии, которое отображается на диаграмме.
 
 ```csharp
 public string DisplayName { get; }

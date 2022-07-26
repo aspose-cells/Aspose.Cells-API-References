@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементNameaspose.cells/nameпо указанному индексу.
+description: ПолучаетNameaspose.cells/name элемент по указанному индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/namecollection/item/
 ---
 ## NameCollection indexer (1 of 2)
 
-Получает элемент[`Name`](../../name)по указанному индексу.
+Получает[`Name`](../../name) элемент по указанному индексу.
 
 ```csharp
 public Name this[int index] { get; }
@@ -33,7 +33,7 @@ public Name this[int index] { get; }
 
 ## NameCollection indexer (2 of 2)
 
-Получает элемент[`Name`](../../name)с указанным именем.
+Получает[`Name`](../../name) элемент с указанным именем.
 
 ```csharp
 public Name this[string text] { get; }

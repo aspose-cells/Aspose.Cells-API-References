@@ -1,14 +1,14 @@
 ---
 title: FormatPicture
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает параметры формата изображения.
+description: Получает и задает параметры формата изображения.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells.drawing/shape/formatpicture/
 ---
 ## Shape.FormatPicture property
 
-Получает и устанавливает параметры формата изображения.
+Получает и задает параметры формата изображения.
 
 ```csharp
 public MsoFormatPicture FormatPicture { get; }

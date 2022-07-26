@@ -18,14 +18,14 @@ public enum BevelType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 无斜角 |
+| None | `0` | 没有斜角 |
 | Angle | `1` | 角度 |
 | ArtDeco | `2` | 装饰艺术 |
 | Circle | `3` | 圆 |
 | Convex | `4` | 凸 |
 | CoolSlant | `5` | 酷斜 |
 | Cross | `6` | 交叉 |
-| Divot | `7` | Divot |
+| Divot | `7` | 草皮 |
 | HardEdge | `8` | 硬边 |
 | RelaxedInset | `9` | 宽松插图 |
 | Riblet | `10` | Riblet |

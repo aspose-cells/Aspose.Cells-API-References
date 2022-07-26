@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或获取距其左上角列的水平偏移量
+description: 获取或获取其左上角列的水平偏移量
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.charts/chartarea/x/
 ---
 ## ChartArea.X property
 
-获取或获取距其左上角列的水平偏移量。
+获取或获取其左上角列的水平偏移量。
 
 ```csharp
 public override int X { get; set; }

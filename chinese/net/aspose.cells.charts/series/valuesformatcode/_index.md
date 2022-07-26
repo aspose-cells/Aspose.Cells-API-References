@@ -1,14 +1,14 @@
 ---
 title: ValuesFormatCode
 second_title: Aspose.Cells for .NET API 参考
-description: 代表Values的NumberList的格式码
+description: 表示Values的NumberList的格式码
 type: docs
 weight: 470
 url: /zh/net/aspose.cells.charts/series/valuesformatcode/
 ---
 ## Series.ValuesFormatCode property
 
-代表Values的NumberList的格式码。
+表示Values的NumberList的格式码。
 
 ```csharp
 public string ValuesFormatCode { get; set; }

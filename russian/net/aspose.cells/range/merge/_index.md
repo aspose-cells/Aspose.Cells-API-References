@@ -3,7 +3,7 @@ title: Merge
 second_title: Справочник по Aspose.Cells для .NET API
 description: Объединяет диапазон ячеек в одну ячейку.
 type: docs
-weight: 300
+weight: 340
 url: /ru/net/aspose.cells/range/merge/
 ---
 ## Range.Merge method

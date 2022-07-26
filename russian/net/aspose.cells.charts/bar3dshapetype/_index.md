@@ -20,10 +20,10 @@ public enum Bar3DShapeType
 | --- | --- | --- |
 | Box | `0` | Коробка |
 | PyramidToPoint | `1` | PyramidToPoint |
-| PyramidToMax | `2` | PyramidToMax |
+| PyramidToMax | `2` | ПирамидаToMax |
 | Cylinder | `3` | Цилиндр |
-| ConeToPoint | `4` | ConeToPoint |
-| ConeToMax | `5` | ConeToMax |
+| ConeToPoint | `4` | КонеТоТочка |
+| ConeToMax | `5` | КонеТоМакс |
 
 ### Смотрите также
 

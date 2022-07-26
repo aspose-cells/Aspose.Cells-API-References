@@ -1,14 +1,14 @@
 ---
 title: LowerDeltaY
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает вертикальное смещение фигуры от ее нижнего правого углового ряда.  Диапазон значений от 0 до 256.
+description: Получает или задает вертикальное смещение фигуры от нижнего правого угла строки. Диапазон значений от 0 до 256.
 type: docs
 weight: 310
 url: /ru/net/aspose.cells.griddesktop.data/gridpicture/lowerdeltay/
 ---
 ## GridPicture.LowerDeltaY property
 
-Получает или задает вертикальное смещение фигуры от ее нижнего правого углового ряда.  Диапазон значений от 0 до 256.
+Получает или задает вертикальное смещение фигуры от нижнего правого угла строки. Диапазон значений от 0 до 256.
 
 ```csharp
 public int LowerDeltaY { get; set; }

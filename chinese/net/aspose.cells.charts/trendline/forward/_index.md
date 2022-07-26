@@ -1,14 +1,14 @@
 ---
 title: Forward
 second_title: Aspose.Cells for .NET API 参考
-description: 返回或设置趋势线向前延伸的周期数或散点图上的单位 句点数必须大于等于零
+description: 返回或设置趋势线向前延伸的周期数或散点图上的单位 周期数必须大于或等于零
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.charts/trendline/forward/
 ---
 ## Trendline.Forward property
 
-返回或设置趋势线向前延伸的周期数（或散点图上的单位）。 句点数必须大于等于零。
+返回或设置趋势线向前延伸的周期数（或散点图上的单位）。 周期数必须大于或等于零。
 
 ```csharp
 public double Forward { get; set; }

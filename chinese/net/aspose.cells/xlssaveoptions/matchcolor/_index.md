@@ -1,14 +1,14 @@
 ---
 title: MatchColor
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否匹配字体颜色因为标准调色板中有 56 种颜色
+description: 表示是否匹配字体颜色因为标准调色板中有56种颜色
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/xlssaveoptions/matchcolor/
 ---
 ## XlsSaveOptions.MatchColor property
 
-表示是否匹配字体颜色，因为标准调色板中有 56 种颜色。
+表示是否匹配字体颜色，因为标准调色板中有56种颜色。
 
 ```csharp
 public bool MatchColor { get; set; }

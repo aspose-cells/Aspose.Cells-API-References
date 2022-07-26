@@ -17,7 +17,7 @@ public void ApplyStyle(Style style, StyleFlag flag)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | style | Style | 将应用的样式对象。 |
-| flag | StyleFlag | 指示应用格式属性的标志。 |
+| flag | StyleFlag | 指示应用的格式属性的标志。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 按索引获取和设置DataSorterKeyaspose.cells/datasorterkey
+description: 获取和设置DataSorterKeyaspose.cells/datasorterkey按索引.
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/datasorterkeycollection/item/
 ---
 ## DataSorterKeyCollection indexer
 
-按索引获取和设置[`DataSorterKey`](../../datasorterkey)。
+获取和设置[`DataSorterKey`](../../datasorterkey)按索引.
 
 ```csharp
 public DataSorterKey this[int index] { get; }
@@ -16,7 +16,7 @@ public DataSorterKey this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引。 |
+| index | 指数。 |
 
 ### 也可以看看
 

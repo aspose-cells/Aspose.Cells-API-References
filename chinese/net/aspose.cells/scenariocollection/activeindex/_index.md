@@ -1,14 +1,14 @@
 ---
 title: ActiveIndex
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置选择哪个场景
+description: 获取并设置选择哪个场景
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/scenariocollection/activeindex/
 ---
 ## ScenarioCollection.ActiveIndex property
 
-获取和设置选择哪个场景。
+获取并设置选择哪个场景。
 
 ```csharp
 public int ActiveIndex { get; set; }

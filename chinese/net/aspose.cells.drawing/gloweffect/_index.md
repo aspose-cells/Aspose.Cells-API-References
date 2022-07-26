@@ -1,14 +1,14 @@
 ---
 title: GlowEffect
 second_title: Aspose.Cells for .NET API 参考
-description: 此类指定发光效果其中在对象边缘之外添加颜色模糊轮廓 
+description: 这个类指定了一种发光效果其中在物体边缘之外添加了一个颜色模糊的轮廓 
 type: docs
 weight: 2040
 url: /zh/net/aspose.cells.drawing/gloweffect/
 ---
 ## GlowEffect class
 
-此类指定发光效果，其中在对象边缘之外添加颜色模糊轮廓 。
+这个类指定了一种发光效果，其中在物体边缘之外添加了一个颜色模糊的轮廓 。
 
 ```csharp
 public class GlowEffect

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПолучаетRevisionaspose.cells.revisions/revisionпо индексу.
+description: получаетRevisionaspose.cells.revisions/revision по индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.revisions/revisioncollection/item/
 ---
 ## RevisionCollection indexer
 
-Получает[`Revision`](../../revision)по индексу.
+получает[`Revision`](../../revision) по индексу.
 
 ```csharp
 public Revision this[int index] { get; }

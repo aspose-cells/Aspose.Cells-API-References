@@ -1,14 +1,14 @@
 ---
 title: PresetShadowType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示预设阴影类型
+description: 代表预设阴影类型
 type: docs
 weight: 2530
 url: /zh/net/aspose.cells.drawing/presetshadowtype/
 ---
 ## PresetShadowType enumeration
 
-表示预设阴影类型。
+代表预设阴影类型。
 
 ```csharp
 public enum PresetShadowType
@@ -25,24 +25,24 @@ public enum PresetShadowType
 | OffsetDiagonalBottomLeft | `4` | 外阴影偏移对角线左下角。 |
 | OffsetRight | `5` | 右外阴影偏移。 |
 | OffsetCenter | `6` | 外阴影偏移中心。 |
-| OffsetLeft | `7` | 外阴影偏移左。 |
+| OffsetLeft | `7` | 外阴影向左偏移。 |
 | OffsetDiagonalTopRight | `8` | 外阴影偏移对角线右上角。 |
 | OffsetTop | `9` | 外阴影偏移顶部。 |
 | OffsetDiagonalTopLeft | `10` | 外阴影偏移对角线左上角。 |
 | InsideDiagonalTopLeft | `11` | 左上角对角线内的内部阴影。 |
-| InsideTop | `12` | 顶部内部阴影。 |
+| InsideTop | `12` | 顶部内部的阴影。 |
 | InsideDiagonalTopRight | `13` | 右上角对角线内的内部阴影。 |
 | InsideLeft | `14` | 左内阴影。 |
-| InsideCenter | `15` | 中心内的内部阴影。 |
+| InsideCenter | `15` | 中心内的阴影。 |
 | InsideRight | `16` | 右侧内阴影。 |
 | InsideDiagonalBottomLeft | `17` | 左下角对角线内的内部阴影。 |
-| InsideBottom | `18` | 底部内阴影。 |
+| InsideBottom | `18` | 底部内部的阴影。 |
 | InsideDiagonalBottomRight | `19` | 右下角对角线内的内部阴影。 |
 | PerspectiveDiagonalUpperLeft | `20` | 外阴影透视对角线左上角。 |
 | PerspectiveDiagonalUpperRight | `21` | 外阴影透视对角线右上角。 |
-| Below | `22` | 下面的外阴影。 |
+| Below | `22` | 下方的外阴影。 |
 | PerspectiveDiagonalLowerLeft | `23` | 外阴影透视对角线左下角。 |
-| PerspectiveDiagonalLowerRight | `24` | 外阴影透视对角线右下角。 |
+| PerspectiveDiagonalLowerRight | `24` | 外阴影透视右下角。 |
 
 ### 也可以看看
 

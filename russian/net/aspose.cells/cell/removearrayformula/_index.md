@@ -16,7 +16,7 @@ public void RemoveArrayFormula(bool leaveNormalFormula)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| leaveNormalFormula | Boolean | True представляет преобразование формулы массива в обычную формулу. |
+| leaveNormalFormula | Boolean | True представляет собой преобразование формулы массива в обычную формулу. |
 
 ### Смотрите также
 

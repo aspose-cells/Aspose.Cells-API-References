@@ -1,14 +1,14 @@
 ---
 title: EmbedOoxmlAsOleObject
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает встраиваются ли файлы Ooxml объекта OleObject в качестве объекта ole.
+description: Указывает встраиваются ли файлы Ooxml OleObject в качестве объекта ole.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/ooxmlsaveoptions/embedooxmlasoleobject/
 ---
 ## OoxmlSaveOptions.EmbedOoxmlAsOleObject property
 
-Указывает, встраиваются ли файлы Ooxml объекта OleObject в качестве объекта ole.
+Указывает, встраиваются ли файлы Ooxml OleObject в качестве объекта ole.
 
 ```csharp
 public bool EmbedOoxmlAsOleObject { get; set; }

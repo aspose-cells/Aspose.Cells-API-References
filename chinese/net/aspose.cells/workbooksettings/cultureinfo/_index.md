@@ -16,7 +16,7 @@ public CultureInfo CultureInfo { get; set; }
 
 ### 评论
 
-如果未设置区域性信息和Region未设置。
+如果没有设置文化信息，则返回 null 并且[`Region`](../region)未设置。
 
 ### 也可以看看
 

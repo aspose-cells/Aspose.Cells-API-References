@@ -1,14 +1,14 @@
 ---
 title: DockState
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает последнее закрепленное расположение этого объекта области задач.
+description: Получает и задает последнее закрепленное местоположение этого объекта области задач.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.webextensions/webextensiontaskpane/dockstate/
 ---
 ## WebExtensionTaskPane.DockState property
 
-Получает и задает последнее закрепленное расположение этого объекта области задач.
+Получает и задает последнее закрепленное местоположение этого объекта области задач.
 
 ```csharp
 public string DockState { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: MaxShapeOrImageWidthOrHeight
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает/получает максимальную ширину или высоту для фигуры/изображения. IslimitShapestrue
+description: Устанавливает/получает максимальную ширину или высоту для формы/изображения. GridJs будет игнорировать форму/изображение с шириной или высотой больше этого значения это займет affec когда IslimitShapestrue
 type: docs
 weight: 100
 url: /ru/net/aspose.cells.gridjs/config/maxshapeorimagewidthorheight/
 ---
 ## Config.MaxShapeOrImageWidthOrHeight property
 
-Устанавливает/получает максимальную ширину или высоту для фигуры/изображения. IslimitShapes=true
+Устанавливает/получает максимальную ширину или высоту для формы/изображения. GridJs будет игнорировать форму/изображение с шириной или высотой больше этого значения, это займет affec, когда IslimitShapes=true
 
 ```csharp
 public static int MaxShapeOrImageWidthOrHeight { get; set; }

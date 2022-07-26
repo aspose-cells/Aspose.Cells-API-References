@@ -41,7 +41,7 @@ public object CalculateFormula(string formula, CalculationOptions opts)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | formula | String | Формула для расчета. |
-| opts | CalculationOptions | Опции для расчета формулы |
+| opts | CalculationOptions | Варианты расчета формулы |
 
 ### Возвращаемое значение
 
@@ -66,8 +66,8 @@ public void CalculateFormula(CalculationOptions options, bool recursive)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | CalculationOptions | Опции для расчета |
-| recursive | Boolean | True означает, что ячейки рабочего листа зависят от ячеек других рабочих листов, зависимые ячейки в других рабочих листах также будут вычислены. False означает, что все формулы на листе были рассчитаны и значения верны. |
+| options | CalculationOptions | Варианты расчета |
+| recursive | Boolean | True означает, что если ячейки рабочего листа зависят от ячеек других рабочих листов, зависимые ячейки в других рабочих листах также будут рассчитаны. False означает, что все формулы на рабочем листе были рассчитаны и значения верны. |
 
 ### Смотрите также
 

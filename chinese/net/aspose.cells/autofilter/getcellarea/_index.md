@@ -1,14 +1,14 @@
 ---
 title: GetCellArea
 second_title: Aspose.Cells for .NET API 参考
-description: 获取CellAreaaspose.cells/cellarea应用指定自动筛选的位置
+description: 获取CellAreaaspose.cells/cellarea指定的自动筛选适用于.
 type: docs
 weight: 140
 url: /zh/net/aspose.cells/autofilter/getcellarea/
 ---
 ## AutoFilter.GetCellArea method
 
-获取[`CellArea`](../../cellarea)应用指定自动筛选的位置。
+获取[`CellArea`](../../cellarea)指定的自动筛选适用于.
 
 ```csharp
 public CellArea GetCellArea()

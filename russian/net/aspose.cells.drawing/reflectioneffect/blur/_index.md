@@ -1,14 +1,14 @@
 ---
 title: Blur
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает радиус размытия в точках.
+description: Получает и задает радиус размытия в точках.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.drawing/reflectioneffect/blur/
 ---
 ## ReflectionEffect.Blur property
 
-Получает и устанавливает радиус размытия в точках.
+Получает и задает радиус размытия в точках.
 
 ```csharp
 public double Blur { get; set; }

@@ -27,15 +27,13 @@ public class VerticalPageBreak
 ```csharp
 [C#]
 Workbook excel = new Workbook();
- //在G5
-
+//在G5添加分页符
 excel.Worksheets[0].HorizontalPageBreaks.Add("G5");
 excel.Worksheets[0].VerticalPageBreaks.Add("G5");
 
 [VB]
 Dim excel as Workbook = new Workbook()
-'在G5
-
+'在 G5 添加分页符
 excel.Worksheets(0).HorizontalPageBreaks.Add("G5")
 excel.Worksheets(0).VerticalPageBreaks.Add("G5")
 ```

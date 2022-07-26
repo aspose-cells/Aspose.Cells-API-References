@@ -21,7 +21,7 @@ public class RevisionCellChange : Revision
 | [CellName](../../aspose.cells.revisions/revisioncellchange/cellname) { get; } | 获取单元格的名称。 |
 | [Column](../../aspose.cells.revisions/revisioncellchange/column) { get; } | 获取单元格的列索引。 |
 | [Id](../../aspose.cells.revisions/revision/id) { get; } | 获取此修订的编号。 |
-| [IsNewFormatted](../../aspose.cells.revisions/revisioncellchange/isnewformatted) { get; } | 指示此单元格是否为新格式。 |
+| [IsNewFormatted](../../aspose.cells.revisions/revisioncellchange/isnewformatted) { get; } | 表示此单元格是否为新格式。 |
 | [IsOldFormatted](../../aspose.cells.revisions/revisioncellchange/isoldformatted) { get; } | 指示此单元格是否为旧格式。 |
 | [NewFormula](../../aspose.cells.revisions/revisioncellchange/newformula) { get; } | 获取旧公式。 |
 | [NewStyle](../../aspose.cells.revisions/revisioncellchange/newstyle) { get; } | 获取单元格的新样式。 |

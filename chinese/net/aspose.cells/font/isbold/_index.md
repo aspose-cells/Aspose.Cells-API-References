@@ -1,14 +1,14 @@
 ---
 title: IsBold
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置指示字体是否为粗体的值
+description: 获取或设置字体是否为粗体的值
 type: docs
 weight: 60
 url: /zh/net/aspose.cells/font/isbold/
 ---
 ## Font.IsBold property
 
-获取或设置指示字体是否为粗体的值。
+获取或设置字体是否为粗体的值。
 
 ```csharp
 public bool IsBold { get; set; }

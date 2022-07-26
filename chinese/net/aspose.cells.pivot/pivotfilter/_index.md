@@ -23,10 +23,10 @@ public class PivotFilter
 | [FieldIndex](../../aspose.cells.pivot/pivotfilter/fieldindex) { get; } | 获取枢轴过滤器的字段索引。 |
 | [FilterType](../../aspose.cells.pivot/pivotfilter/filtertype) { get; } | 获取枢轴过滤器的自动过滤器类型。 |
 | [MeasureFldIndex](../../aspose.cells.pivot/pivotfilter/measurefldindex) { get; set; } | 获取枢轴过滤器的度量字段索引。 |
-| [MemberPropertyFieldIndex](../../aspose.cells.pivot/pivotfilter/memberpropertyfieldindex) { get; set; } | 获取枢轴过滤器的成员属性字段索引。 |
+| [MemberPropertyFieldIndex](../../aspose.cells.pivot/pivotfilter/memberpropertyfieldindex) { get; set; } | 获取pivot filter的成员属性字段索引。 |
 | [Name](../../aspose.cells.pivot/pivotfilter/name) { get; set; } | 获取枢轴过滤器的名称。 |
-| [Value1](../../aspose.cells.pivot/pivotfilter/value1) { get; set; } | 获取标签透视过滤器的字符串 value1。 |
-| [Value2](../../aspose.cells.pivot/pivotfilter/value2) { get; set; } | 获取标签透视过滤器的字符串 value2。 |
+| [Value1](../../aspose.cells.pivot/pivotfilter/value1) { get; set; } | 获取标签主元过滤器的字符串 value1。 |
+| [Value2](../../aspose.cells.pivot/pivotfilter/value2) { get; set; } | 获取标签主元过滤器的字符串 value2。 |
 
 ### 例子
 
@@ -77,7 +77,7 @@ pivot.AddFieldToArea(PivotFieldType.Data, "amount");
 
 pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
 
- //添加PivotFilter
+//添加透视过滤器
 int index = pivot.PivotFilters.Add(0, PivotFilterType.Count);
 PivotFilter filter = pivot.PivotFilters[index];
 filter.AutoFilter.FilterTop10(0, false, false, 2);
@@ -85,7 +85,7 @@ filter.AutoFilter.FilterTop10(0, false, false, 2);
 pivot.RefreshData();
 pivot.CalculateData();
 
- //做你的事
+//做你的事
 
 book.Save("out.xlsx");
 
@@ -134,7 +134,7 @@ Pivot.AddFieldToArea(PivotFieldType.Data, "amount")
 
 pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10
 
-'添加 PivotFilter
+'添加透视过滤器
 Dim filterIndex As Int32 = pivot.PivotFilters.Add(0, PivotFilterType.Count)
 Dim filter As PivotFilter = pivot.PivotFilters(filterIndex)
 filter.AutoFilter.FilterTop10(0, False, False, 2)

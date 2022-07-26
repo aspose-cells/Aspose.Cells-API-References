@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: Aspose.Cells for .NET API 参考
-description: 指定可以与存储在文档内容中的签名行的 GUID 交叉引用的 GUID 默认值为空全零Guid
+description: 指定可以与存储在文档内容中的签名行的 GUID 交叉引用的 GUID 默认值为空全零 Guid
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.digitalsignatures/digitalsignature/id/
 ---
 ## DigitalSignature.Id property
 
-指定可以与存储在文档内容中的签名行的 GUID 交叉引用的 GUID。 默认值为空（全零）Guid。
+指定可以与存储在文档内容中的签名行的 GUID 交叉引用的 GUID。 默认值为空（全零） Guid。
 
 ```csharp
 public Guid Id { get; set; }
@@ -16,7 +16,7 @@ public Guid Id { get; set; }
 
 ### 评论
 
-设置时，它关联[`SignatureLine`](../../../aspose.cells.drawing/signatureline)对应的[`DigitalSignature`](../../digitalsignature)。
+设置时，它关联[`SignatureLine`](../../../aspose.cells.drawing/signatureline)与相应的[`DigitalSignature`](../../digitalsignature).
 
 ### 也可以看看
 

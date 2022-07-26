@@ -1,14 +1,14 @@
 ---
 title: GrandTotalName
 second_title: Aspose.Cells for .NET API 参考
-description: 返回显示在总计列或行标题中的文本字符串标签 默认值为字符串Grand Total
+description: 返回显示在总计列或行标题中的文本字符串标签 默认值为字符串总计
 type: docs
 weight: 250
 url: /zh/net/aspose.cells.pivot/pivottable/grandtotalname/
 ---
 ## PivotTable.GrandTotalName property
 
-返回显示在总计列或行标题中的文本字符串标签。 默认值为字符串“Grand Total”。
+返回显示在总计列或行标题中的文本字符串标签。 默认值为字符串“总计”。
 
 ```csharp
 public string GrandTotalName { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: CustomPrintPageEventHandler
 second_title: Aspose.Cells for .NET API 参考
-description: 客户端可以在使用此 EventHandler 打印每一页时特殊输出到打印机
+description: 当使用这个EventHandler 打印每一页时客户端可以特殊输出到打印机
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.rendering/imageorprintoptions/customprintpageeventhandler/
 ---
 ## ImageOrPrintOptions.CustomPrintPageEventHandler property
 
-客户端可以在使用此 EventHandler 打印每一页时特殊输出到打印机
+当使用这个EventHandler 打印每一页时，客户端可以特殊输出到打印机
 
 ```csharp
 public PrintPageEventHandler CustomPrintPageEventHandler { get; set; }

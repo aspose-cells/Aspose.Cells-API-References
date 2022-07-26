@@ -1,14 +1,14 @@
 ---
 title: Geometry
 second_title: Aspose.Cells for .NET API 参考
-description: 获取几何
+description: 获取几何图形
 type: docs
 weight: 120
 url: /zh/net/aspose.cells.drawing/shape/geometry/
 ---
 ## Shape.Geometry property
 
-获取几何
+获取几何图形
 
 ```csharp
 public Geometry Geometry { get; }

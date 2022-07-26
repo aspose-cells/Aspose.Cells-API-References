@@ -3,7 +3,7 @@ title: ImportArrayList
 second_title: Aspose.Cells for .NET API 参考
 description: 将数据数组列表导入工作表
 type: docs
-weight: 940
+weight: 950
 url: /zh/net/aspose.cells/cells/importarraylist/
 ---
 ## Cells.ImportArrayList method
@@ -18,7 +18,7 @@ public void ImportArrayList(ArrayList arrayList, int firstRow, int firstColumn, 
 | --- | --- | --- |
 | arrayList | ArrayList | 数据数组列表。 |
 | firstRow | Int32 | 要导入的第一个单元格的行号。 |
-| firstColumn | Int32 | 列号要导入的第一个单元格。 |
+| firstColumn | Int32 | 要导入的第一个单元格的列号。 |
 | isVertical | Boolean | 指定垂直或水平导入数据。 |
 
 ### 也可以看看

@@ -48,8 +48,8 @@ public int Add(ChartType type, string dataRange, bool isVertical, int topRow, in
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | type | ChartType | 图表类型 |
-| dataRange | String | 指定数据范围图表 |
-| isVertical | Boolean | 指定是按行还是按列绘制一系列单元格值。 |
+| dataRange | String | 指定图表的数据范围 |
+| isVertical | Boolean | 指定是按行还是按列从一系列单元格值中绘制系列。 |
 | topRow | Int32 | 左上行索引。 |
 | leftColumn | Int32 | 左上列索引。 |
 | rightRow | Int32 | 右下行索引 |

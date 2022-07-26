@@ -1,14 +1,14 @@
 ---
 title: IsGradient
 second_title: Aspose.Cells for .NET API 参考
-description: 指示单元格阴影是否为渐变图案
+description: 表示单元格阴影是否为渐变图案
 type: docs
 weight: 170
 url: /zh/net/aspose.cells/style/isgradient/
 ---
 ## Style.IsGradient property
 
-指示单元格阴影是否为渐变图案。
+表示单元格阴影是否为渐变图案。
 
 ```csharp
 public bool IsGradient { get; set; }

@@ -18,57 +18,57 @@ public enum FillPattern
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 表示无背景。 |
+| None | `0` | 表示没有背景。 |
 | Solid | `1` | 表示实心图案。 |
-| Gray5 | `2` | 表示 5% 灰度模式。 |
-| Gray10 | `3` | 表示 10% 灰度模式。 |
-| Gray20 | `4` | 表示 20% 灰度模式。 |
-| Gray30 | `5` | 表示 30% 灰度模式。 |
-| Gray40 | `6` | 表示 40% 灰度模式。 |
-| Gray50 | `7` | 表示 50% 灰度模式。 |
-| Gray60 | `8` | 表示 60% 的灰度模式。 |
-| Gray70 | `9` | 表示 70% 灰度模式。 |
-| Gray75 | `10` | 表示 75% 的灰度模式。 |
-| Gray80 | `11` | 表示 80% 灰度模式。 |
-| Gray90 | `12` | 表示 90% 的灰度模式。 |
-| Gray25 | `13` | 表示 25% 的灰度模式。 |
-| LightDownwardDiagonal | `14` | 表示轻向下对角线图案。 |
-| LightUpwardDiagonal | `15` | 表示浅向上对角线图案。 |
-| DarkDownwardDiagonal | `16` | 表示深色向下对角线图案。 |
-| DarkUpwardDiagonal | `17` | 表示深色向上对角线图案。 |
-| WideDownwardDiagonal | `18` | 表示宽向下对角线图案。 |
-| WideUpwardDiagonal | `19` | 表示宽向上对角线图案。 |
-| LightVertical | `20` | 表示浅色垂直图案。 |
-| LightHorizontal | `21` | 表示浅色水平图案。 |
+| Gray5 | `2` | 表示 5% 的灰度图案。 |
+| Gray10 | `3` | 表示 10% 的灰度图案。 |
+| Gray20 | `4` | 表示 20% 的灰度图案。 |
+| Gray30 | `5` | 表示 30% 的灰度图案。 |
+| Gray40 | `6` | 表示 40% 的灰度图案。 |
+| Gray50 | `7` | 表示 50% 的灰度图案。 |
+| Gray60 | `8` | 表示 60% 的灰度图案。 |
+| Gray70 | `9` | 代表 70% 的灰度图案。 |
+| Gray75 | `10` | 表示 75% 的灰度图案。 |
+| Gray80 | `11` | 代表 80% 的灰度图案。 |
+| Gray90 | `12` | 表示 90% 的灰度图案。 |
+| Gray25 | `13` | 表示 25% 的灰度图案。 |
+| LightDownwardDiagonal | `14` | 代表浅色向下对角线图案。 |
+| LightUpwardDiagonal | `15` | 表示光向上对角线图案。 |
+| DarkDownwardDiagonal | `16` | 代表深色向下对角线图案。 |
+| DarkUpwardDiagonal | `17` | 代表暗向上的对角线图案。 |
+| WideDownwardDiagonal | `18` | 代表宽向下对角线图案。 |
+| WideUpwardDiagonal | `19` | 代表宽向上的对角线图案。 |
+| LightVertical | `20` | 表示光垂直模式。 |
+| LightHorizontal | `21` | 代表浅色水平图案。 |
 | NarrowVertical | `22` | 表示窄垂直模式。 |
-| NarrowHorizontal | `23` | 表示窄水平模式。 |
-| DarkVertical | `24` | 表示深色垂直图案。 |
-| DarkHorizontal | `25` | 表示深色水平图案。 |
+| NarrowHorizontal | `23` | 表示窄水平图案。 |
+| DarkVertical | `24` | 代表深色垂直图案。 |
+| DarkHorizontal | `25` | 代表深色水平图案。 |
 | DashedDownwardDiagonal | `26` | 表示向下对角线的虚线图案。 |
-| DashedUpwardDiagonal | `27` | 表示向上对角线的虚线图案。 |
+| DashedUpwardDiagonal | `27` | 表示向上的对角线虚线图案。 |
 | DashedVertical | `28` | 表示垂直虚线图案。 |
 | DashedHorizontal | `29` | 表示水平虚线图案。 |
 | SmallConfetti | `30` | 代表小五彩纸屑图案。 |
-| LargeConfetti | `31` | 表示大五彩纸屑图案。 |
+| LargeConfetti | `31` | 代表大五彩纸屑图案。 |
 | ZigZag | `32` | 代表锯齿形图案。 |
 | Wave | `33` | 代表波形。 |
 | DiagonalBrick | `34` | 表示对角砖图案。 |
-| HorizontalBrick | `35` | 表示水平砖图案。 |
-| Weave | `36` | 表示编织图案。 |
-| Plaid | `37` | 表示格子图案。 |
-| Divot | `38` | 表示草皮图案。 |
-| DottedGrid | `39` | 表示虚线网格图案。 |
+| HorizontalBrick | `35` | 代表水平砖图案。 |
+| Weave | `36` | 代表编织图案。 |
+| Plaid | `37` | 代表格子图案。 |
+| Divot | `38` | 代表草皮图案。 |
+| DottedGrid | `39` | 表示点状网格图案。 |
 | DottedDiamond | `40` | 代表虚线菱形图案。 |
 | Shingle | `41` | 表示瓦状图案。 |
 | Trellis | `42` | 表示格子图案。 |
-| Sphere | `43` | 表示球体图案。 |
+| Sphere | `43` | 代表球体图案。 |
 | SmallGrid | `44` | 表示小网格图案。 |
 | LargeGrid | `45` | 表示大网格图案。 |
 | SmallCheckerBoard | `46` | 代表小棋盘图案。 |
-| LargeCheckerBoard | `47` | 表示大棋盘图案。 |
+| LargeCheckerBoard | `47` | 代表大棋盘图案。 |
 | OutlinedDiamond | `48` | 表示轮廓菱形图案。 |
 | SolidDiamond | `49` | 表示实心菱形图案。 |
-| Unknown | `50` | 表示未知模式。 |
+| Unknown | `50` | 代表未知模式。 |
 
 ### 也可以看看
 

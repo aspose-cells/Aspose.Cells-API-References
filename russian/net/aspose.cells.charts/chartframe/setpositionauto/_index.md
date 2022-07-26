@@ -1,14 +1,14 @@
 ---
 title: SetPositionAuto
 second_title: Справочник по Aspose.Cells для .NET API
-description: Установить положение кадра автоматически
+description: Установить положение кадра на auto
 type: docs
 weight: 190
 url: /ru/net/aspose.cells.charts/chartframe/setpositionauto/
 ---
 ## ChartFrame.SetPositionAuto method
 
-Установить положение кадра автоматически
+Установить положение кадра на auto
 
 ```csharp
 public virtual void SetPositionAuto()

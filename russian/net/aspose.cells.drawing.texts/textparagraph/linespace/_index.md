@@ -1,14 +1,14 @@
 ---
 title: LineSpace
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает объем вертикального пробела который будет использоваться в абзаце.
+description: Получает и задает объем вертикального пробела который будет использоваться внутри абзаца.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells.drawing.texts/textparagraph/linespace/
 ---
 ## TextParagraph.LineSpace property
 
-Получает и задает объем вертикального пробела, который будет использоваться в абзаце.
+Получает и задает объем вертикального пробела, который будет использоваться внутри абзаца.
 
 ```csharp
 public double LineSpace { get; set; }

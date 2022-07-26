@@ -17,7 +17,7 @@ public void SetThemeColor(ThemeColorType type, Color color)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | type | ThemeColorType | 主题颜色类型。 |
-| color | Color | 主题颜色 |
+| color | Color | 主题色 |
 
 ### 也可以看看
 

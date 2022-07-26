@@ -1,14 +1,14 @@
 ---
 title: TabColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет цвет вкладки рабочего листа.
+description: Представляет цвет вкладки листа.
 type: docs
 weight: 460
 url: /ru/net/aspose.cells/worksheet/tabcolor/
 ---
 ## Worksheet.TabColor property
 
-Представляет цвет вкладки рабочего листа.
+Представляет цвет вкладки листа.
 
 ```csharp
 public Color TabColor { get; set; }

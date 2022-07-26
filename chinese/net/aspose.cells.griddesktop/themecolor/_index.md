@@ -25,7 +25,7 @@ public class ThemeColor
 | 姓名 | 描述 |
 | --- | --- |
 | [ColorType](../../aspose.cells.griddesktop/themecolor/colortype) { get; set; } | 获取和设置主题类型。 |
-| [Tint](../../aspose.cells.griddesktop/themecolor/tint) { get; set; } | 获取和设置色调值。 色调值存储为从 -1.0 .. 1.0 开始的双精度值，其中 -1.0 表示 100% 变暗，1.0 表示 100% 变亮。此外，0.0 表示没有变化。 |
+| [Tint](../../aspose.cells.griddesktop/themecolor/tint) { get; set; } | 获取和设置色调值。 色调值存储为从 -1.0 到 1.0 的双精度值，其中 -1.0 表示 100% 变暗，1.0 表示 100% 变亮。此外，0.0 表示没有变化。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: GetRowHeightPixel
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定行的高度以像素为单位
+description: 以像素为单位获取指定行的高度
 type: docs
 weight: 470
 url: /zh/net/aspose.cells.griddesktop.data/gridcells/getrowheightpixel/
 ---
 ## GridCells.GetRowHeightPixel method
 
-获取指定行的高度，以像素为单位。
+以像素为单位获取指定行的高度。
 
 ```csharp
 public int GetRowHeightPixel(int row)

@@ -1,12 +1,14 @@
 ---
 title: CellImage
 second_title: Aspose.Cells for .NET API 参考
-description: 
+description: 表示带有图像 src 的超链接
 type: docs
 weight: 110
 url: /zh/net/aspose.cells.gridweb.data/cellimage/
 ---
 ## CellImage class
+
+表示带有图像 src 的超链接。
 
 ```csharp
 public class CellImage : Hyperlink

@@ -16,8 +16,8 @@ public Name[] Filter(NameScopeType type, int sheetIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| 类型 | NameScopeType | 范围类型。 |
-| sheetIndex | Int32 | 工作表索引。 仅当作用域类型为Worksheet |
+| type | NameScopeType | 范围类型。 |
+| sheetIndex | Int32 | 工作表索引。 仅当范围类型为Worksheet |
 
 ### 也可以看看
 

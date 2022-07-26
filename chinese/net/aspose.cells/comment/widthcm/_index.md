@@ -1,14 +1,14 @@
 ---
 title: WidthCM
 second_title: Aspose.Cells for .NET API 参考
-description: 表示评论的宽度单位为厘米
+description: 表示注释的宽度单位为厘米
 type: docs
 weight: 190
 url: /zh/net/aspose.cells/comment/widthcm/
 ---
 ## Comment.WidthCM property
 
-表示评论的宽度，单位为厘米。
+表示注释的宽度，单位为厘米。
 
 ```csharp
 public double WidthCM { get; set; }

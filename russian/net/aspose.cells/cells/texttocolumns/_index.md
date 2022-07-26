@@ -3,7 +3,7 @@ title: TextToColumns
 second_title: Справочник по Aspose.Cells для .NET API
 description: Разбивает текст в столбце на столбцы.
 type: docs
-weight: 1310
+weight: 1320
 url: /ru/net/aspose.cells/cells/texttocolumns/
 ---
 ## Cells.TextToColumns method
@@ -18,8 +18,8 @@ public void TextToColumns(int row, int column, int totalRows, TxtLoadOptions opt
 | --- | --- | --- |
 | row | Int32 | Индекс строки. |
 | column | Int32 | Индекс столбца. |
-| totalRows | Int32 | Количество строк. |
-| options | TxtLoadOptions | Параметры разделения. |
+| totalRows | Int32 | Количество рядов. |
+| options | TxtLoadOptions | Варианты разделения. |
 
 ### Смотрите также
 

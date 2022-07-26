@@ -17,8 +17,8 @@ public void AddCalculatedField(string name, string formula, bool dragToDataArea)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Имя вычисляемого поля |
-| formula | String | формула вычисляемого поля. |
-| dragToDataArea | Boolean | True, немедленно перетащите это поле в область данных |
+| formula | String | Формула вычисляемого поля. |
+| dragToDataArea | Boolean | Правда, сразу перетащите это поле в область данных |
 
 ### Смотрите также
 
@@ -39,7 +39,7 @@ public void AddCalculatedField(string name, string formula)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Имя вычисляемого поля |
-| formula | String | формула вычисляемого поля. |
+| formula | String | Формула вычисляемого поля. |
 
 ### Смотрите также
 

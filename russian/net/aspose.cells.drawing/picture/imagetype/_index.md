@@ -19,24 +19,24 @@ public ImageType ImageType { get; }
 ```csharp
 
 [C#]
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 //вставляем первую картинку
 int imgIndex1 = worksheet.Pictures.Add(1, 1, "1.png");
-   //Получить вставленную картинку object
+//Получить вставленный объект изображения
 Picture pic1 = worksheet.Pictures[imgIndex1];
 if(pic1.ImageType == Aspose.Cells.Drawing.ImageType.Png)
 {
-      //Тип изображения - png.";
+    //Тип изображения - png.";
 }
-  // вставляем вторую картинку
+//вставляем вторую картинку
 int imgIndex2 = worksheet.Pictures.Add(1, 9, "2.jpeg");
-   //Получить вставленную картинку object
+//Получить вставленный объект изображения
 Picture pic2 = worksheet.Pictures[imgIndex2];
 if(pic2.ImageType == Aspose.Cells.Drawing.ImageType.Jpeg)
 {
-      //Тип изображения - jpg.";
+    //Тип изображения - jpg.";
 }
 ```
 

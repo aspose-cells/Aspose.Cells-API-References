@@ -24,16 +24,16 @@ public void Move(int upperLeftRow, int upperLeftColumn)
 ```csharp
 
 [C#]
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
- //在工作表中行列索引均为1的单元格位置添加图片。是“B2”cell
+//在工作表中行列索引均为1的单元格位置添加图片。它是“B2”单元格
 int imgIndex = worksheet.Pictures.Add(1, 1, "example.jpeg");
- //获取插入的图片object
+//获取插入的图片对象
 Picture pic = worksheet.Pictures[imgIndex];
- //设置图片的新位置
+//设置图片的新位置
 pic.Move(2, 4);
- //保存excel文件.
+//保存excel文件。
 workbook.Save("result.xlsx");
 ```
 

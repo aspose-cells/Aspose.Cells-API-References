@@ -1,14 +1,14 @@
 ---
 title: GetBottomPointYPx
 second_title: Aspose.Cells for .NET API 参考
-description: 调用 Chart.Calculate 方法后获取形状底部点的 y 坐标 应用 3D 图表Column3D Bar3D Cone Cylinder Pyramid
+description: 调用 Chart.Calculate 方法后获取形状底部的 y 坐标 应用 3D 图表Column3DBar3DConeCylinderPyramid
 type: docs
 weight: 360
 url: /zh/net/aspose.cells.charts/chartpoint/getbottompointypx/
 ---
 ## ChartPoint.GetBottomPointYPx method
 
-调用 Chart.Calculate() 方法后获取形状底部点的 y 坐标。 应用 3D 图表:Column3D, Bar3D, Cone, Cylinder, Pyramid
+调用 Chart.Calculate() 方法后获取形状底部的 y 坐标。 应用 3D 图表：Column3D、Bar3D、Cone、Cylinder、Pyramid
 
 ```csharp
 public float GetBottomPointYPx(int index)

@@ -19,17 +19,17 @@ public class ExternalLinkCollection : IEnumerable
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.cells/externallinkcollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. |
-| [Item](../../aspose.cells/externallinkcollection/item) { get; } | Получает элемент[`ExternalLink`](../externallink)по указанному индексу. |
+| [Item](../../aspose.cells/externallinkcollection/item) { get; } | Получает[`ExternalLink`](../externallink) элемент по указанному индексу. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [Add](../../aspose.cells/externallinkcollection/add#add_1)(string, string[]) | Добавляет внешнюю ссылку. |
-| [Add](../../aspose.cells/externallinkcollection/add#add)(DirectoryType, string, string[]) | Добавить внешнюю ссылку. |
+| [Add](../../aspose.cells/externallinkcollection/add#add)(DirectoryType, string, string[]) | Добавить внешнюю ссылку . |
 | [Clear](../../aspose.cells/externallinkcollection/clear#clear)() | Удаляет все внешние ссылки. |
 | [Clear](../../aspose.cells/externallinkcollection/clear#clear_1)(bool) | Удаляет все внешние ссылки. |
-| [GetEnumerator](../../aspose.cells/externallinkcollection/getenumerator)() | Получите перечислитель, который перебирает эту коллекцию. |
+| [GetEnumerator](../../aspose.cells/externallinkcollection/getenumerator)() | Получите перечислитель, который выполняет итерацию по этой коллекции. |
 | [RemoveAt](../../aspose.cells/externallinkcollection/removeat#removeat)(int) | Удаляет указанную внешнюю ссылку из книги. |
 | [RemoveAt](../../aspose.cells/externallinkcollection/removeat#removeat_1)(int, bool) | Удаляет указанную внешнюю ссылку из книги. |
 
@@ -37,18 +37,18 @@ public class ExternalLinkCollection : IEnumerable
 
 ```csharp
 [C#]
-  //Открываем файл с внешними ссылками
+//Открываем файл с внешними ссылками
 Workbook workbook = new Workbook("book1.xls");
 
-  //Изменить данные внешней ссылки source
+//Изменить источник данных внешней ссылки
 workbook.Worksheets.ExternalLinks[0].DataSource = "d:\\link.xls";
 
 
 [Visual Basic]
-'Открываем файл с внешними ссылками
+'Откройте файл с внешними ссылками
 Dim workbook As Workbook =  New Workbook("book1.xls")
 
-'Изменить данные внешней ссылки source
+'Изменить источник данных внешней ссылки
 workbook.Worksheets.ExternalLinks(0).DataSource = "d:\\link.xls"
 ```
 

@@ -16,7 +16,7 @@ public string GetFormula1(bool isR1C1, bool isLocal)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| isR1C1 | Boolean | 公式是否需要格式化为R1C1。 |
+| isR1C1 | Boolean | 公式是否需要格式化为 R1C1。 |
 | isLocal | Boolean | 公式是否需要按语言环境格式化。 |
 
 ### 返回值
@@ -41,18 +41,18 @@ public string GetFormula1(bool isR1C1, bool isLocal, int row, int column)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| isR1C1 | Boolean | 公式是否需要格式化为R1C1。 |
+| isR1C1 | Boolean | 公式是否需要格式化为 R1C1。 |
 | isLocal | Boolean | 公式是否需要按语言环境格式化。 |
 | row | Int32 | 行索引。 |
 | column | Int32 | 列索引。 |
 
 ### 返回值
 
-与单元格条件格式关联的值或表达式。
+与单元格的条件格式关联的值或表达式。
 
 ### 评论
 
-给定单元格必须包含在此条件格式中，否则将返回 null。
+给定的单元格必须包含在此条件格式中，否则将返回 null。
 
 ### 也可以看看
 

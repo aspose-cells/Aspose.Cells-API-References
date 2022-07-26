@@ -1,14 +1,14 @@
 ---
 title: Shapes
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает коллекциюPicturesaspose.cells.griddesktop/worksheet/pictures.
+description: ПолучаетPicturesaspose.cells.griddesktop/worksheet/pictures коллекция.
 type: docs
 weight: 360
 url: /ru/net/aspose.cells.griddesktop/worksheet/shapes/
 ---
 ## Worksheet.Shapes property
 
-Получает коллекцию[`Pictures`](../pictures).
+Получает[`Pictures`](../pictures) коллекция.
 
 ```csharp
 public GridShapeCollection Shapes { get; }

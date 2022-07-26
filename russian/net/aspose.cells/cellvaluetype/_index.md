@@ -1,14 +1,14 @@
 ---
 title: CellValueType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает тип значения ячейки.
+description: Указывает тип значения ячейки.
 type: docs
 weight: 270
 url: /ru/net/aspose.cells/cellvaluetype/
 ---
 ## CellValueType enumeration
 
-Задает тип значения ячейки.
+Указывает тип значения ячейки.
 
 ```csharp
 public enum CellValueType
@@ -23,7 +23,7 @@ public enum CellValueType
 | IsError | `2` | Ячейка содержит значение ошибки |
 | IsNull | `3` | Пустая ячейка. |
 | IsNumeric | `4` | Значение ячейки числовое. |
-| IsString | `5` | Значением ячейки является строка. |
+| IsString | `5` | Значение ячейки — строка. |
 | IsUnknown | `6` | Тип значения ячейки неизвестен. |
 
 ### Смотрите также

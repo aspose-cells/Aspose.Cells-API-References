@@ -24,7 +24,7 @@ public class CustomFilterCollection : CollectionBase<CustomFilter>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [And](../../aspose.cells/customfiltercollection/and) { get; set; } | 表示两个条件是否存在“与”关系。 |
+| [And](../../aspose.cells/customfiltercollection/and) { get; set; } | 表示两个条件是否有“和”关系。 |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
 | [Item](../../aspose.cells/customfiltercollection/item) { get; } | 获取特定索引中的自定义过滤器。 |

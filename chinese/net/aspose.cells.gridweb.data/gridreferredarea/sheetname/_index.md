@@ -1,14 +1,14 @@
 ---
 title: SheetName
 second_title: Aspose.Cells for .NET API 参考
-description: 指示这是在哪个工作表
+description: 表示这是在哪个工作表中
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.gridweb.data/gridreferredarea/sheetname/
 ---
 ## GridReferredArea.SheetName property
 
-指示这是在哪个工作表
+表示这是在哪个工作表中
 
 ```csharp
 public string SheetName { get; }

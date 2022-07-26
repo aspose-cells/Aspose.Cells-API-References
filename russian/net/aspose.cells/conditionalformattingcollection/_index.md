@@ -1,14 +1,14 @@
 ---
 title: ConditionalFormattingCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует коллекцию объектовFormatCondition./formatcondition.
+description: Инкапсулирует наборFormatCondition./formatcondition объекты.
 type: docs
 weight: 1100
 url: /ru/net/aspose.cells/conditionalformattingcollection/
 ---
 ## ConditionalFormattingCollection class
 
-Инкапсулирует коллекцию объектов[`FormatCondition`](../formatcondition).
+Инкапсулирует набор[`FormatCondition`](../formatcondition) объекты.
 
 ```csharp
 public class ConditionalFormattingCollection : CollectionBase<FormatConditionCollection>
@@ -63,7 +63,7 @@ public class ConditionalFormattingCollection : CollectionBase<FormatConditionCol
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 
 Worksheet sheet = workbook.Worksheets[0];
@@ -71,13 +71,13 @@ Worksheet sheet = workbook.Worksheets[0];
 //Получить условное форматирование
 ConditionalFormattingCollection cformattings = sheet.ConditionalFormattings;
 
-  //Добавляет пустое условное форматирование
+//Добавляет пустое условное форматирование
 int index = cformattings.Add();
 
-  //Получить недавно добавленное условное форматирование
+//Получить недавно добавленное условное форматирование
 FormatConditionCollection fcs = cformattings[index];
 
-  //Устанавливает диапазон условного формата.
+//Устанавливает диапазон условного формата.
 CellArea ca = new CellArea();
 
 ca.StartRow = 0;
@@ -102,23 +102,23 @@ ca.EndColumn = 1;
 
 fcs.AddArea(ca);
 
-   //Добавить условие.
+//Добавить условие.
 int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100");
 
-   //Добавить условие.
+//Добавить условие.
 int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
 
-  //Устанавливает цвет фона.
+//Устанавливаем цвет фона.
 FormatCondition fc = fcs[conditionIndex];
 
 fc.Style.BackgroundColor = Color.Red;
 
-  //Сохранение файла Excel
+//Сохранение файла Excel
 workbook.Save("output.xls");
 
 [VB.NET]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 DDim workbook As Workbook = New Workbook()
 
 Dim sheet As Worksheet = workbook.Worksheets(0)
@@ -132,7 +132,7 @@ Dim index As Integer = cformattings.Add()
 'Получить недавно добавленное условное форматирование
 Dim fcs As FormatConditionCollection = cformattings(index)
 
-'Устанавливает диапазон условного формата.
+'Задает диапазон условного формата.
 Dim ca As New CellArea()
 
 ca.StartRow = 0

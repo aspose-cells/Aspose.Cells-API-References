@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает имя подключения. Каждое соединение должно иметь уникальное имя.
+description: Указывает имя соединения. Каждое соединение должно иметь уникальное имя.
 type: docs
 weight: 90
 url: /ru/net/aspose.cells.externalconnections/externalconnection/name/
 ---
 ## ExternalConnection.Name property
 
-Указывает имя подключения. Каждое соединение должно иметь уникальное имя.
+Указывает имя соединения. Каждое соединение должно иметь уникальное имя.
 
 ```csharp
 public string Name { get; set; }

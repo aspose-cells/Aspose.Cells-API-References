@@ -1,14 +1,14 @@
 ---
 title: AddCopy
 second_title: Aspose.Cells for .NET API 参考
-description: 将形状添加并复制到工作表
+description: 将形状添加并复制到工作表中
 type: docs
 weight: 90
 url: /zh/net/aspose.cells.drawing/shapecollection/addcopy/
 ---
 ## ShapeCollection.AddCopy method
 
-将形状添加并复制到工作表。
+将形状添加并复制到工作表中。
 
 ```csharp
 public Shape AddCopy(Shape sourceShape, int upperLeftRow, int top, int upperLeftColumn, int left)
@@ -18,22 +18,22 @@ public Shape AddCopy(Shape sourceShape, int upperLeftRow, int top, int upperLeft
 | --- | --- | --- |
 | sourceShape | Shape | 源形状。 |
 | upperLeftRow | Int32 | 左上行索引。 |
-| top | Int32 | 表示复选框相对左行的垂直偏移量，以像素为单位。 |
+| top | Int32 | 表示复选框与其左行的垂直偏移量，以像素为单位。 |
 | upperLeftColumn | Int32 | 左上列索引。 |
-| left | Int32 | 表示文本框从其左列的水平偏移量，以像素为单位。 |
+| left | Int32 | 表示文本框相对于其左列的水平偏移量，以像素为单位。 |
 
 ### 返回值
 
-新形状对象索引。
+新的形状对象索引。
 
 ### 例子
 
 ```csharp
 
 [C#]
- //添加一个shape
+//添加一个形状
 RectangleShape rectangle = shapes.AddRectangle(2, 0, 2, 0, 130, 130);
- //copy
+//复制
 shapes.AddCopy(rectangle, 7, 0, 7, 0);
 ```
 

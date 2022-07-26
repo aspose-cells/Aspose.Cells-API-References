@@ -1,14 +1,14 @@
 ---
 title: CommentShape
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получить объект Shape представляющий фигуру прикрепленную к указанному комментарию.
+description: Получить объект Shape представляющий фигуру присоединенную к указанному комментарию.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/comment/commentshape/
 ---
 ## Comment.CommentShape property
 
-Получить объект Shape, представляющий фигуру, прикрепленную к указанному комментарию.
+Получить объект Shape, представляющий фигуру, присоединенную к указанному комментарию.
 
 ```csharp
 public CommentShape CommentShape { get; }

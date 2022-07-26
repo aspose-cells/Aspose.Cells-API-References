@@ -43,7 +43,7 @@ public void ImportDataView(DataView dataView, TableItemStyle colHeaderStyle,
 | dataView | DataView | Объект DataView. |
 | colHeaderStyle | TableItemStyle | Определяет стиль панели заголовка представления данных. |
 | dataStyle | TableItemStyle | Определяет стиль области данных. |
-| sheetName | String | Указывает имя листа. Если лист не существует, он будет создан для вас. |
+| sheetName | String | Задает имя листа. Если лист не существует, он будет создан для вас. |
 | row | Int32 | Указывает позицию импорта. |
 | column | Int32 | Указывает позицию импорта. |
 

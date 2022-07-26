@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементCellaspose.cells/cellпо указанному индексу строки ячейки и индексу столбца.
+description: ПолучаетCellaspose.cells/cell элемент с указанным индексом строки ячейки и индексом столбца.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells/cells/item/
 ---
 ## Cells indexer (1 of 2)
 
-Получает элемент[`Cell`](../../cell)по указанному индексу строки ячейки и индексу столбца.
+Получает[`Cell`](../../cell) элемент с указанным индексом строки ячейки и индексом столбца.
 
 ```csharp
 public Cell this[int row, int column] { get; }
@@ -21,7 +21,7 @@ public Cell this[int row, int column] { get; }
 
 ### Возвращаемое значение
 
-Объект[`Cell`](../../cell).
+[`Cell`](../../cell) объект.
 
 ### Примеры
 
@@ -29,12 +29,12 @@ public Cell this[int row, int column] { get; }
 [C#]
 Workbook excel = new Workbook();
 Cells cells = excel.Worksheets[0].Cells;
-Cell cell = cells[0, 0];	  // Получает ячейку в "A1"
+Cell cell = cells[0, 0];	// Получает ячейку в "A1"
 
 [Visual Basic]
 Dim excel as Workbook = New Workbook()
 Dim cells As Cells =  excel.Worksheets(0).Cells 
-Dim cell As Cell =  cells(0,0)  'Получает ячейку в "A1"
+Dim cell As Cell =  cells(0,0)  'Gets the cell at "A1"
 ```
 
 ### Смотрите также
@@ -48,7 +48,7 @@ Dim cell As Cell =  cells(0,0)  'Получает ячейку в "A1"
 
 ## Cells indexer (2 of 2)
 
-Получает элемент[`Cell`](../../cell)по указанному имени ячейки.
+Получает[`Cell`](../../cell) элемент по указанному имени ячейки.
 
 ```csharp
 public Cell this[string cellName] { get; }
@@ -60,7 +60,7 @@ public Cell this[string cellName] { get; }
 
 ### Возвращаемое значение
 
-A[`Cell`](../../cell)объект
+А[`Cell`](../../cell) объект
 
 ### Примеры
 
@@ -68,7 +68,7 @@ A[`Cell`](../../cell)объект
 [C#]
 Workbook excel = new Workbook();
 Cells cells = excel.Worksheets[0].Cells;
-Cell cell = cells["A1"];	  // Получает ячейку в "A1"
+Cell cell = cells["A1"];	// Получает ячейку в "A1"
 
 [Visual Basic]
 Dim excel as Workbook = New Workbook()

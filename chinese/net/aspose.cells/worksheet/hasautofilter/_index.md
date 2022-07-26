@@ -1,14 +1,14 @@
 ---
 title: HasAutofilter
 second_title: Aspose.Cells for .NET API 参考
-description: 指示此工作表是否具有自动过滤器
+description: 表示此工作表是否有自动过滤器
 type: docs
 weight: 180
 url: /zh/net/aspose.cells/worksheet/hasautofilter/
 ---
 ## Worksheet.HasAutofilter property
 
-指示此工作表是否具有自动过滤器。
+表示此工作表是否有自动过滤器。
 
 ```csharp
 public bool HasAutofilter { get; }

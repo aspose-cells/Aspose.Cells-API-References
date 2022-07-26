@@ -1,14 +1,14 @@
 ---
 title: Rank
 second_title: Aspose.Cells for .NET API 参考
-description: 在top/bottom n条件格式规则中获取或设置n的值 如果 IsPercent 为真则该值必须介于 0 和 100 之间 否则必须介于 0 和 1000 之间 默认值为 10
+description: 在top/bottom n条件格式规则中获取或设置n的值 如果 IsPercent 为真该值必须介于 0 和 100 之间 否则必须介于 0 和 1000 之间 默认值为 10 .
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/top10/rank/
 ---
 ## Top10.Rank property
 
-在“top/bottom n”条件格式规则中获取或设置“n”的值。 如果 IsPercent 为真，则该值必须介于 0 和 100 之间。 否则必须介于 0 和 1000 之间。 默认值为 10。
+在“top/bottom n”条件格式规则中获取或设置“n”的值。 如果 IsPercent 为真，该值必须介于 0 和 100 之间。 否则必须介于 0 和 1000 之间。 默认值为 10 .
 
 ```csharp
 public int Rank { get; set; }

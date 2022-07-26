@@ -1,14 +1,14 @@
 ---
 title: SetInterruptMonitorForSave
 second_title: Aspose.Cells for .NET API 参考
-description: 为工作簿的保存操作设置 InterruptMonitor
+description: 设置 InterruptMonitor 用于工作簿的保存操作
 type: docs
 weight: 190
 url: /zh/net/aspose.cells.gridjs/gridjsworkbook/setinterruptmonitorforsave/
 ---
 ## GridJsWorkbook.SetInterruptMonitorForSave method
 
-为工作簿的保存操作设置 InterruptMonitor
+设置 InterruptMonitor 用于工作簿的保存操作
 
 ```csharp
 public void SetInterruptMonitorForSave(GridInterruptMonitor monitor)

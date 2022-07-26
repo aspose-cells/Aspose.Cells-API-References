@@ -1,14 +1,14 @@
 ---
 title: IsWordArt
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает является ли эта фигура искусством слова.
+description: Указывает является ли эта фигура словом art.
 type: docs
 weight: 390
 url: /ru/net/aspose.cells.drawing/shape/iswordart/
 ---
 ## Shape.IsWordArt property
 
-Указывает, является ли эта фигура искусством слова.
+Указывает, является ли эта фигура словом art.
 
 ```csharp
 public bool IsWordArt { get; }
@@ -16,7 +16,7 @@ public bool IsWordArt { get; }
 
 ### Примечания
 
-Только для устаревшей формы файла xls.
+Только для прежней формы файла xls.
 
 ### Примеры
 
@@ -25,7 +25,7 @@ public bool IsWordArt { get; }
 [C#]
 if(shape.IsWordArt)
 {
-      //Эта фигура является объектом WordArt.
+    //Эта фигура является объектом WordArt.
 }
 ```
 

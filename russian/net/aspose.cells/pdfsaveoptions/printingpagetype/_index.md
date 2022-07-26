@@ -1,14 +1,14 @@
 ---
 title: PrintingPageType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает какие страницы не будут распечатаны.
+description: Указывает какие страницы не будут напечатаны.
 type: docs
 weight: 280
 url: /ru/net/aspose.cells/pdfsaveoptions/printingpagetype/
 ---
 ## PdfSaveOptions.PrintingPageType property
 
-Указывает, какие страницы не будут распечатаны.
+Указывает, какие страницы не будут напечатаны.
 
 ```csharp
 public PrintingPageType PrintingPageType { get; set; }
@@ -16,24 +16,24 @@ public PrintingPageType PrintingPageType { get; set; }
 
 ### Примечания
 
-Если содержимое на листе разрежено, некоторые страницы в выходном pdf будут полностью пустыми файл. Если вам не нужны эти пустые страницы, вы можете использовать эту опцию, чтобы опустить их.
+Если содержимое на листе скудное, некоторые страницы в выходном PDF-файле будут полностью пустыми. Если вам не нужны эти пустые страницы, вы можете использовать эту опцию, чтобы опустить их.
 
 ### Примеры
 
-Следующий код пропускает пустые страницы или страницы, которые содержат только некоторое содержимое стилей, например фон ячейки, границы.
+Следующий код пропускает пустые страницы или страницы, которые содержат только некоторое содержимое стиля, такое как фон ячейки, границы.
 
 ```csharp
 Workbook wb = new Workbook("Book1.xlsx");
 
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
-  //игнорировать пустые страницы
+//игнорировать пустые страницы
 pdfSaveOptions.PrintingPageType = PrintingPageType.IgnoreBlank;
 
 wb.Save("output_ignore_blank_page.pdf", pdfSaveOptions);
 
 
-  //игнорировать пустые страницы и страницы, которые содержат только некоторое содержимое стиля, такое как ячейка background
+//игнорировать пустые страницы and pages which only contains some style content like cell background
 pdfSaveOptions.PrintingPageType = PrintingPageType.IgnoreStyle;
 
 wb.Save("output_ignore_blank_and_style_page.pdf", pdfSaveOptions);

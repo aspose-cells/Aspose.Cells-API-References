@@ -6,22 +6,22 @@ type: docs
 weight: 1160
 url: /zh/net/aspose.cells.drawing/shape/toimage/
 ---
-## ToImage(Stream, ImageFormat) {#toimage_2}
+## ToImage(Stream, ImageType) {#toimage_1}
 
 创建形状图像并将其保存到指定格式的流中。
 
 ```csharp
-public void ToImage(Stream stream, ImageFormat imageFormat)
+public void ToImage(Stream stream, ImageType imageType)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 输出流。 |
-| imageFormat | ImageFormat | 保存图像的格式。 |
+| imageType | ImageType | 保存图像的类型。 |
 
 ### 评论
 
-支持以下格式: .bmp、.gif、.jpg、.jpeg、. tiff，.emf。
+支持以下格式： .bmp、.gif、.jpg、.jpeg、.tiff、.emf。
 
 ### 例子
 
@@ -29,18 +29,19 @@ public void ToImage(Stream stream, ImageFormat imageFormat)
 
 [C#]
 MemoryStream imageStream = new MemoryStream();
-shape.ToImage(imageStream, System.Drawing.Imaging.ImageFormat.Png);
+shape.ToImage(imageStream, ImageType.Png);
 ```
 
 ### 也可以看看
 
+* enum [ImageType](../../imagetype)
 * class [Shape](../../shape)
 * 命名空间 [Aspose.Cells.Drawing](../../shape)
 * 部件 [Aspose.Cells](../../../)
 
 ---
 
-## ToImage(string, ImageOrPrintOptions) {#toimage_3}
+## ToImage(string, ImageOrPrintOptions) {#toimage_4}
 
 将形状保存到文件中。
 
@@ -66,7 +67,7 @@ shape.ToImage("exmaple.png", op);
 
 ---
 
-## ToImage(Stream, ImageOrPrintOptions) {#toimage_1}
+## ToImage(Stream, ImageOrPrintOptions) {#toimage_2}
 
 将形状保存到流中。
 
@@ -95,7 +96,7 @@ shape.ToImage(imageStream, op);
 
 ## ToImage(ImageOrPrintOptions) {#toimage}
 
-返回形状的位图对象。
+返回形状 . 的位图对象
 
 ```csharp
 public Bitmap ToImage(ImageOrPrintOptions options)

@@ -16,11 +16,11 @@ public void UpdateLinkedDataSource(Workbook[] externalWorkbooks)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| externalWorkbooks | Workbook[] | 此工作簿引用了外部工作簿。 如果为空，我们会直接打开外部链接文件。 如果不为空， 我们会检查数组中是否有外部链接第一的; 如果没有，我们将再次打开外部链接文件。 |
+| externalWorkbooks | Workbook[] | 这个工作簿引用了外部工作簿。 如果为null，则直接打开外部链接文件。 如果不为null， 我们会先检查数组中是否有外部链接； 如果没有，我们会打开再次外部链接文件。 |
 
 ### 评论
 
-如果在计算公式之前没有调用该方法， Aspose.Cells将使用以前的信息（缓存在文件中）； 请设置 CellsHelper.StartupPath,CellsHelper.AltStartPath,CellsHelper.LibraryPath。 如果此工作簿来自流，请设置 Workbook.FilePath， 否则 Aspose.Cells 有时无法获取外部链接完整路径。
+如果在计算公式之前没有调用该方法， Aspose.Cells会使用之前的信息（缓存在文件中）； 请设置CellsHelper.StartupPath,CellsHelper.AltStartPath,CellsHelper.LibraryPath。 如果此工作簿来自流，请设置 Workbook.FilePath， 否则 Aspose.Cells 有时无法获取外部链接完整路径。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: FillPictureType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет тип заливки рисунка.
+description: Представляет тип заливки изображения.
 type: docs
 weight: 1990
 url: /ru/net/aspose.cells.drawing/fillpicturetype/
 ---
 ## FillPictureType enumeration
 
-Представляет тип заливки рисунка.
+Представляет тип заливки изображения.
 
 ```csharp
 public enum FillPictureType
@@ -18,7 +18,7 @@ public enum FillPictureType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Stretch | `0` | Растянуть |
+| Stretch | `0` | Растяжка |
 | Stack | `1` | Стек |
 | StackAndScale | `2` | StackAndScale |
 

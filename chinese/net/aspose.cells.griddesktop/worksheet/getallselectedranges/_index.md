@@ -16,7 +16,7 @@ public ArrayList GetAllSelectedRanges()
 
 ### 返回值
 
-ArrayList 包含所有选定的 CellRange 对象。
+一个 ArrayList 包含所有选定的 CellRange 对象。
 
 ### 也可以看看
 

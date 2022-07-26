@@ -1,14 +1,14 @@
 ---
 title: AutoNumberedBulletValue
 second_title: Aspose.Cells for .NET API 参考
-description: 表示自动编号的项目符号
+description: 代表自动编号的子弹
 type: docs
 weight: 2850
 url: /zh/net/aspose.cells.drawing.texts/autonumberedbulletvalue/
 ---
 ## AutoNumberedBulletValue class
 
-表示自动编号的项目符号。
+代表自动编号的子弹。
 
 ```csharp
 public class AutoNumberedBulletValue : BulletValue
@@ -25,7 +25,7 @@ public class AutoNumberedBulletValue : BulletValue
 | 姓名 | 描述 |
 | --- | --- |
 | [AutonumberScheme](../../aspose.cells.drawing.texts/autonumberedbulletvalue/autonumberscheme) { get; set; } | 表示自动编号的方案。 |
-| [StartAt](../../aspose.cells.drawing.texts/autonumberedbulletvalue/startat) { get; set; } | 获取和设置项目符号的起始编号。 |
+| [StartAt](../../aspose.cells.drawing.texts/autonumberedbulletvalue/startat) { get; set; } | 获取和设置子弹的起始编号。 |
 | override [Type](../../aspose.cells.drawing.texts/autonumberedbulletvalue/type) { get; } | 获取子弹的类型。 |
 
 ### 也可以看看

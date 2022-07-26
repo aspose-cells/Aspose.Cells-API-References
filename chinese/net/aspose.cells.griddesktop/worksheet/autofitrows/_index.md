@@ -32,7 +32,7 @@ public void AutoFitRows(int startRow, int endRow)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startRow | Int32 | 起始行索引。 |
+| startRow | Int32 | 开始行索引。 |
 | endRow | Int32 | 结束行索引。 |
 
 ### 也可以看看

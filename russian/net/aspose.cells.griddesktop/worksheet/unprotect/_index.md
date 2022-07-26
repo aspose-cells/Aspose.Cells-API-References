@@ -1,14 +1,14 @@
 ---
 title: UnProtect
 second_title: Справочник по Aspose.Cells для .NET API
-description: Снимает защиту с листа.
+description: снимает защиту с рабочего листа.
 type: docs
 weight: 1150
 url: /ru/net/aspose.cells.griddesktop/worksheet/unprotect/
 ---
 ## Worksheet.UnProtect method
 
-Снимает защиту с листа.
+снимает защиту с рабочего листа.
 
 ```csharp
 public void UnProtect()

@@ -1,14 +1,14 @@
 ---
 title: GetCellOrNull
 second_title: Aspose.Cells for .NET API 参考
-description: 获取Cellaspose.cells/cell对象或在此范围内为 null
+description: 获取Cellaspose.cells/cell此范围内的对象或空值
 type: docs
-weight: 250
+weight: 290
 url: /zh/net/aspose.cells/range/getcellornull/
 ---
 ## Range.GetCellOrNull method
 
-获取[`Cell`](../../cell)对象或在此范围内为 null。
+获取[`Cell`](../../cell)此范围内的对象或空值。
 
 ```csharp
 public Cell GetCellOrNull(int rowOffset, int columnOffset)
@@ -21,7 +21,7 @@ public Cell GetCellOrNull(int rowOffset, int columnOffset)
 
 ### 返回值
 
-[`Cell`](../../cell)对象。
+[`Cell`](../../cell)目的。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: AutoSize
 second_title: Aspose.Cells for .NET API 参考
-description: 指示评论的大小是否根据其内容自动调整
+description: 表示评论的大小是否根据其内容自动调整
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/comment/autosize/
 ---
 ## Comment.AutoSize property
 
-指示评论的大小是否根据其内容自动调整。
+表示评论的大小是否根据其内容自动调整。
 
 ```csharp
 public bool AutoSize { get; set; }
@@ -21,8 +21,7 @@ public bool AutoSize { get; set; }
 [C#]
 if(!comment1.AutoSize)
 {
-     //评论大小随content
-
+    //评论大小随内容变化
     comment1.AutoSize = true;
 }
 ```

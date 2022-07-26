@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПолучаетCellэлемент на листе
+description: получаетCell элемент в рабочем листе
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.gridweb.data/gridcells/item/
 ---
 ## GridCells indexer (1 of 3)
 
-ПолучаетCellэлемент на листе
+получаетCell элемент в рабочем листе
 
 ```csharp
 public GridCell this[int index] { get; }
@@ -37,7 +37,7 @@ public GridCell this[int index] { get; }
 
 ## GridCells indexer (2 of 3)
 
-Получает элементCellпо указанному индексу строки ячейки и индексу столбца.
+ПолучаетCell элемент с указанным индексом строки ячейки и индексом столбца.
 
 ```csharp
 public GridCell this[int row, int column] { get; }
@@ -50,7 +50,7 @@ public GridCell this[int row, int column] { get; }
 
 ### Возвращаемое значение
 
-ОбъектCell.
+Cell объект.
 
 ### Примеры
 
@@ -58,13 +58,13 @@ public GridCell this[int row, int column] { get; }
 [C#]
 
 Cells cells = excel.Worksheets[0].Cells;
- // Получает ячейку в "A1"
+// Получает ячейку в "A1"
 Cell cell = cells[0, 0];	
 
 [Visual Basic]
 
 Dim cells As Cells =  excel.WorkSheets(0).Cells
- 'Получает ячейку в "A1"
+ 'Gets the cell at "A1"
 Dim cell As Cell =  cells(0,0) 
 ```
 
@@ -79,7 +79,7 @@ Dim cell As Cell =  cells(0,0)
 
 ## GridCells indexer (3 of 3)
 
-Получает элементCellпо указанному имени ячейки.
+ПолучаетCell элемент по указанному имени ячейки.
 
 ```csharp
 public GridCell this[string cellName] { get; }
@@ -91,7 +91,7 @@ public GridCell this[string cellName] { get; }
 
 ### Возвращаемое значение
 
-ACellобъект
+АCell объект
 
 ### Примеры
 
@@ -99,12 +99,12 @@ ACellобъект
 [C#]
 
 Cells cells = excel.Worksheets[0].Cells;
-Cell cell = cells["A1"];	 // Получает ячейку в "A1"
+Cell cell = cells["A1"];	// Получает ячейку в "A1"
 
 [Visual Basic]
 
 Dim cells As Cells =  excel.Worksheets(0).Cells
-Dim cell As Cell =  cells("A1")  'Получает ячейку в "A1"
+Dim cell As Cell =  cells("A1")  'Gets the cell at "A1"
 ```
 
 ### Смотрите также

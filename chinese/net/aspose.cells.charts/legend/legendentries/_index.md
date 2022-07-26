@@ -1,14 +1,14 @@
 ---
 title: LegendEntries
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定图表图例中所有 LegendEntry 对象的集合 不支持设置曲面图的图例条目 因此如果图表类型为曲面图表类型它将返回 null
+description: 获取指定图表图例中所有LegendEntry对象的集合 不支持设置曲面图的图例条目 所以如果图表类型为曲面图类型则返回null
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.charts/legend/legendentries/
 ---
 ## Legend.LegendEntries property
 
-获取指定图表图例中所有 LegendEntry 对象的集合。 不支持设置曲面图的图例条目。 因此，如果图表类型为曲面图表类型，它将返回 null。
+获取指定图表图例中所有LegendEntry对象的集合。 不支持设置曲面图的图例条目。 所以如果图表类型为曲面图类型，则返回null。
 
 ```csharp
 public LegendEntryCollection LegendEntries { get; }

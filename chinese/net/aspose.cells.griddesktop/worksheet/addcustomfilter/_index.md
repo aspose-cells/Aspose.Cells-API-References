@@ -17,10 +17,10 @@ public void AddCustomFilter(int startrow, int startcolumn, object[] critiras,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startrow | Int32 | 过滤范围的起始行 |
-| startcolumn | Int32 | 过滤范围的起始列 |
-| critiras | Object[] | 列的critira数组，每个列都适用于每一列 |
-| filterOperatorTypes | GridFilterOperatorType[] | 过滤器对列操作类型数组，每个列应用于每一列 |
+| startrow | Int32 | 过滤器范围的起始行 |
+| startcolumn | Int32 | 过滤器范围的起始列 |
+| critiras | Object[] | 列的critira数组，每个都适用于每一列 |
+| filterOperatorTypes | GridFilterOperatorType[] | 列的过滤器操作类型数组，每一个适用于每一列 |
 
 ### 也可以看看
 
@@ -41,7 +41,7 @@ public void AddCustomFilter(int row, string critira)
 
 ### 评论
 
-过滤条件字符串。注意我们使用 , 和 ;作为拆分字符，因此单元格值不应包含那些拆分字符 以下是标准字符串示例: //column 0 with value 12.3 CELL0 = 12.3 //第 1 列的值为 ABC CELL1 = ABC //第 0 列的值为 123 或 456 或 ABC 和第 1 列的值为ABC CELL0 = 123,456,ABC; CELL1 = ABC
+过滤条件字符串。注意我们使用 , 和 ;作为拆分字符，因此单元格值不应包含那些拆分 char 以下是标准字符串示例： //列 0 与值 12.3 CELL0 = 12.3 //列 1 与值 ABC CELL1 = ABC //列 0 与值为 123 或 456 或 ABC 和第 1 列的值为 ABC CELL0 = 123,456,ABC； CELL1 = ABC
 
 ### 也可以看看
 

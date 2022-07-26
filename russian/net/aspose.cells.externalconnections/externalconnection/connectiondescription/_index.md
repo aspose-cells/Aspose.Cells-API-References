@@ -1,14 +1,14 @@
 ---
 title: ConnectionDescription
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает описание пользователя для этого соединения
+description: Указывает описание пользователя для этого подключения
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.externalconnections/externalconnection/connectiondescription/
 ---
 ## ExternalConnection.ConnectionDescription property
 
-Указывает описание пользователя для этого соединения
+Указывает описание пользователя для этого подключения
 
 ```csharp
 public string ConnectionDescription { get; set; }

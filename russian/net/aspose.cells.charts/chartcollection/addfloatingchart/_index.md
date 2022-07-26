@@ -17,14 +17,14 @@ public int AddFloatingChart(ChartType type, int left, int top, int width, int he
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | type | ChartType | Тип диаграммы |
-| left | Int32 | Смещение x до угла |
-| top | Int32 | Смещение по оси Y относительно угла |
+| left | Int32 | X смещение к углу |
+| top | Int32 | Y смещение к углу |
 | width | Int32 | Ширина диаграммы |
-| height | Int32 | Высота графика |
+| height | Int32 | Высота диаграммы |
 
 ### Возвращаемое значение
 
-[`Chart`](../../chart)индекс объекта .
+[`Chart`](../../chart) индекс объекта.
 
 ### Смотрите также
 

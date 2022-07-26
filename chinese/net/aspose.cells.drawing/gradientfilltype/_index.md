@@ -1,14 +1,14 @@
 ---
 title: GradientFillType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示所有渐变填充类型
+description: 代表所有渐变填充类型
 type: docs
 weight: 2080
 url: /zh/net/aspose.cells.drawing/gradientfilltype/
 ---
 ## GradientFillType enumeration
 
-表示所有渐变填充类型。
+代表所有渐变填充类型。
 
 ```csharp
 public enum GradientFillType

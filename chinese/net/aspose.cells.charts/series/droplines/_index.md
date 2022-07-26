@@ -1,14 +1,14 @@
 ---
 title: DropLines
 second_title: Aspose.Cells for .NET API 参考
-description: 返回一个Lineaspose.cells.drawing/line对象该对象表示折线图或面积图上的系列的下降线. 仅适用于折线图或面积图
+description: 返回一个Lineaspose.cells.drawing/line表示折线图或面积图上系列的下降线的对象 仅适用于折线图或面积图
 type: docs
 weight: 110
 url: /zh/net/aspose.cells.charts/series/droplines/
 ---
 ## Series.DropLines property
 
-返回一个[`Line`](../../../aspose.cells.drawing/line)对象，该对象表示折线图或面积图上的系列的下降线. 仅适用于折线图或面积图。
+返回一个[`Line`](../../../aspose.cells.drawing/line)表示折线图或面积图上系列的下降线的对象。 仅适用于折线图或面积图。
 
 ```csharp
 public Line DropLines { get; }

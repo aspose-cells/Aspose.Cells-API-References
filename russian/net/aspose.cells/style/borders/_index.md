@@ -1,14 +1,14 @@
 ---
 title: Borders
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПолучаетBorderCollectionaspose.cells/bordercollectionстиля.
+description: ПолучаетBorderCollectionaspose.cells/bordercollection стиля.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/style/borders/
 ---
 ## Style.Borders property
 
-Получает[`BorderCollection`](../../bordercollection)стиля.
+Получает[`BorderCollection`](../../bordercollection) стиля.
 
 ```csharp
 public BorderCollection Borders { get; }

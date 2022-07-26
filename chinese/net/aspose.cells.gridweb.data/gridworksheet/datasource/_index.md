@@ -1,14 +1,14 @@
 ---
 title: DataSource
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置数据源 通常它是一个 DataSet 对象
+description: 获取或设置DataSource 一般是DataSet对象
 type: docs
 weight: 120
 url: /zh/net/aspose.cells.gridweb.data/gridworksheet/datasource/
 ---
 ## GridWorksheet.DataSource property
 
-获取或设置数据源。 通常它是一个 DataSet 对象。
+获取或设置DataSource。 一般是DataSet对象。
 
 ```csharp
 public object DataSource { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: GetMergedRange
 second_title: Aspose.Cells for .NET API 参考
-description: 返回代表合并范围的Rangeaspose.cells/range对象
+description: 返回一个Rangeaspose.cells/range表示合并范围的对象
 type: docs
 weight: 460
 url: /zh/net/aspose.cells/cell/getmergedrange/
 ---
 ## Cell.GetMergedRange method
 
-返回代表合并范围的[`Range`](../../range)对象。
+返回一个[`Range`](../../range)表示合并范围的对象。
 
 ```csharp
 public Range GetMergedRange()
@@ -16,7 +16,7 @@ public Range GetMergedRange()
 
 ### 返回值
 
-[`Range`](../../range)对象。如果此单元格未合并，则为 Null。
+[`Range`](../../range)目的。如果此单元格未合并，则为 Null。
 
 ### 也可以看看
 

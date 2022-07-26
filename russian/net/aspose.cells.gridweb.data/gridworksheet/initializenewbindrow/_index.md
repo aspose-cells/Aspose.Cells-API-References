@@ -1,14 +1,14 @@
 ---
 title: InitializeNewBindRow
 second_title: Справочник по Aspose.Cells для .NET API
-description: Происходит когда рабочий лист создал новую строку связывания и необходимо ее инициализировать.
+description: Происходит когда рабочий лист создал новую строку привязки и необходимо ее инициализировать.
 type: docs
 weight: 360
 url: /ru/net/aspose.cells.gridweb.data/gridworksheet/initializenewbindrow/
 ---
 ## GridWorksheet.InitializeNewBindRow event
 
-Происходит, когда рабочий лист создал новую строку связывания и необходимо ее инициализировать.
+Происходит, когда рабочий лист создал новую строку привязки и необходимо ее инициализировать.
 
 ```csharp
 public event InitializeNewBindRowHandler InitializeNewBindRow;

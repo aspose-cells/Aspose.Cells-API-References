@@ -1,14 +1,14 @@
 ---
 title: TopBevelHeight
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置顶部斜角的高度或应用到形状的距离 以点为单位
+description: 获取和设置顶部斜面的高度或应用到形状的距离 以点为单位
 type: docs
 weight: 170
 url: /zh/net/aspose.cells.drawing/threedformat/topbevelheight/
 ---
 ## ThreeDFormat.TopBevelHeight property
 
-获取和设置顶部斜角的高度，或应用到形状的距离。 以点为单位。
+获取和设置顶部斜面的高度，或应用到形状的距离。 以点为单位。
 
 ```csharp
 public double TopBevelHeight { get; set; }

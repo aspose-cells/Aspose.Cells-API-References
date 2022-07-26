@@ -1,14 +1,14 @@
 ---
 title: IsPercentScale
 second_title: Справочник по Aspose.Cells для .NET API
-description: Если для этого свойства установлено значение False свойства FitToPagesWide и FitToPagesTall управляют масштабированием рабочего листа.
+description: Если для этого свойства задано значение False свойства FitToPagesWide и FitToPagesTall управляют масштабированием листа.
 type: docs
 weight: 190
 url: /ru/net/aspose.cells/pagesetup/ispercentscale/
 ---
 ## PageSetup.IsPercentScale property
 
-Если для этого свойства установлено значение False, свойства FitToPagesWide и FitToPagesTall управляют масштабированием рабочего листа.
+Если для этого свойства задано значение False, свойства FitToPagesWide и FitToPagesTall управляют масштабированием листа.
 
 ```csharp
 public bool IsPercentScale { get; set; }

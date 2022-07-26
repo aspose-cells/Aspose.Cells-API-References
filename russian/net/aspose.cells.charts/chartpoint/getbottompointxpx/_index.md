@@ -1,14 +1,14 @@
 ---
 title: GetBottomPointXPx
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает x-координату нижней точки фигуры после вызова метода Chart.Calculate. Применяет трехмерные диаграммыColumn3D Bar3D Cone Cylinder Pyramid
+description: Получает x-координату нижней точки фигуры после вызова метода Chart.Calculate. Применяет трехмерные диаграммы Column3D Bar3D Cone Cylinder Pyramid
 type: docs
 weight: 350
 url: /ru/net/aspose.cells.charts/chartpoint/getbottompointxpx/
 ---
 ## ChartPoint.GetBottomPointXPx method
 
-Получает x-координату нижней точки фигуры после вызова метода Chart.Calculate(). Применяет трехмерные диаграммы:Column3D, Bar3D, Cone, Cylinder, Pyramid
+Получает x-координату нижней точки фигуры после вызова метода Chart.Calculate(). Применяет трехмерные диаграммы: Column3D, Bar3D, Cone, Cylinder, Pyramid
 
 ```csharp
 public float GetBottomPointXPx(int index)

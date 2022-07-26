@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает или задает ширину указанного среза в пунктах.
+description: Возвращает или задает ширину указанного слайсера в пунктах.
 type: docs
 weight: 230
 url: /ru/net/aspose.cells.slicers/slicer/width/
 ---
 ## Slicer.Width property
 
-Возвращает или задает ширину указанного среза в пунктах.
+Возвращает или задает ширину указанного слайсера в пунктах.
 
 ```csharp
 public double Width { get; set; }

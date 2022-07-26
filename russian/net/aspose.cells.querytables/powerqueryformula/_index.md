@@ -1,14 +1,14 @@
 ---
 title: PowerQueryFormula
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет определение формулы мощного запроса.
+description: Представляет определение формулы запроса мощности.
 type: docs
 weight: 4960
 url: /ru/net/aspose.cells.querytables/powerqueryformula/
 ---
 ## PowerQueryFormula class
 
-Представляет определение формулы мощного запроса.
+Представляет определение формулы запроса мощности.
 
 ```csharp
 public class PowerQueryFormula

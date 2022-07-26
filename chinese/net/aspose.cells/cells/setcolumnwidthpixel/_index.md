@@ -3,7 +3,7 @@ title: SetColumnWidthPixel
 second_title: Aspose.Cells for .NET API 参考
 description: 在普通视图中以像素为单位设置列宽
 type: docs
-weight: 1240
+weight: 1250
 url: /zh/net/aspose.cells/cells/setcolumnwidthpixel/
 ---
 ## Cells.SetColumnWidthPixel method

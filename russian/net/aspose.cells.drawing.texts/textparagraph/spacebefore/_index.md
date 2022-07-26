@@ -1,14 +1,14 @@
 ---
 title: SpaceBefore
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает размер вертикального пробела перед абзацем.
+description: Получает и задает количество вертикального пробела перед абзацем.
 type: docs
 weight: 160
 url: /ru/net/aspose.cells.drawing.texts/textparagraph/spacebefore/
 ---
 ## TextParagraph.SpaceBefore property
 
-Получает и задает размер вертикального пробела перед абзацем.
+Получает и задает количество вертикального пробела перед абзацем.
 
 ```csharp
 public double SpaceBefore { get; set; }

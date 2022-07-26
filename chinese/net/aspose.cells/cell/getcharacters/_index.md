@@ -1,14 +1,14 @@
 ---
 title: GetCharacters
 second_title: Aspose.Cells for .NET API 参考
-description: 返回所有 Characters 对象 表示单元格文本中的字符范围
+description: 返回所有字符对象 它表示单元格文本中的字符范围
 type: docs
 weight: 360
 url: /zh/net/aspose.cells/cell/getcharacters/
 ---
 ## GetCharacters() {#getcharacters}
 
-返回所有 Characters 对象 表示单元格文本中的字符范围。
+返回所有字符对象 ，它表示单元格文本中的字符范围。
 
 ```csharp
 public FontSetting[] GetCharacters()
@@ -29,7 +29,7 @@ public FontSetting[] GetCharacters()
 
 ## GetCharacters(bool) {#getcharacters_1}
 
-返回所有 Characters 对象 表示单元格文本中的字符范围。
+返回所有字符对象 ，它表示单元格文本中的字符范围。
 
 ```csharp
 public FontSetting[] GetCharacters(bool flag)
@@ -37,7 +37,7 @@ public FontSetting[] GetCharacters(bool flag)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| flag | Boolean | 表示如果单元格在表格中，是否对单元格应用表格样式。 |
+| flag | Boolean | 指示如果单元格在表格中，是否将表格样式应用到单元格。 |
 
 ### 返回值
 

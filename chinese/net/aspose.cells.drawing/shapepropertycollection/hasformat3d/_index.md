@@ -1,14 +1,14 @@
 ---
 title: HasFormat3D
 second_title: Aspose.Cells for .NET API 参考
-description: 指示形状是否具有 3d 格式数据
+description: 表示形状是否有 3d 格式数据
 type: docs
 weight: 80
 url: /zh/net/aspose.cells.drawing/shapepropertycollection/hasformat3d/
 ---
 ## ShapePropertyCollection.HasFormat3D method
 
-指示形状是否具有 3d 格式数据。
+表示形状是否有 3d 格式数据。
 
 ```csharp
 public bool HasFormat3D()

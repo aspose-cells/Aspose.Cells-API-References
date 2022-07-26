@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: Справочник по Aspose.Cells для .NET API
-description: Отформатируйте текст с настройкой шрифта.
+description: Отформатировать текст с настройкой шрифта.
 type: docs
 weight: 100
 url: /ru/net/aspose.cells.drawing.texts/fontsettingcollection/format/
 ---
 ## FontSettingCollection.Format method
 
-Отформатируйте текст с настройкой шрифта.
+Отформатировать текст с настройкой шрифта.
 
 ```csharp
 public void Format(int startIndex, int length, Font font, StyleFlag flag)

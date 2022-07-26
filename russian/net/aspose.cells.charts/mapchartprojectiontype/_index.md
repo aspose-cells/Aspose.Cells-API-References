@@ -18,7 +18,7 @@ public enum MapChartProjectionType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Automatic | `0` | Автоматический |
+| Automatic | `0` | Автоматически |
 | Mercator | `1` | Меркатор |
 | Miller | `2` | Миллер |
 | Albers | `3` | Альберс |

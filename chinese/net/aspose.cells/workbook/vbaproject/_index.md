@@ -1,14 +1,14 @@
 ---
 title: VbaProject
 second_title: Aspose.Cells for .NET API 参考
-description: 获取电子表格中的VbaProjectaspose.cells/workbook/vbaproject
+description: 获取VbaProjectaspose.cells/workbook/vbaproject在电子表格中
 type: docs
 weight: 250
 url: /zh/net/aspose.cells/workbook/vbaproject/
 ---
 ## Workbook.VbaProject property
 
-获取电子表格中的`VbaProject`。
+获取`VbaProject`在电子表格中。
 
 ```csharp
 public VbaProject VbaProject { get; }

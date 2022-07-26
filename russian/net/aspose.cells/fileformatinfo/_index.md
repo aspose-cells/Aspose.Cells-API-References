@@ -1,14 +1,14 @@
 ---
 title: FileFormatInfo
 second_title: Справочник по Aspose.Cells для .NET API
-description: Содержит данные возвращаемыеFileFormatUtil./fileformatutilметодами определения формата файла.
+description: Содержит данные возвращенныеFileFormatUtil./fileformatutil методы определения формата файла.
 type: docs
 weight: 3400
 url: /ru/net/aspose.cells/fileformatinfo/
 ---
 ## FileFormatInfo class
 
-Содержит данные, возвращаемые[`FileFormatUtil`](../fileformatutil)методами определения формата файла.
+Содержит данные, возвращенные[`FileFormatUtil`](../fileformatutil) методы определения формата файла.
 
 ```csharp
 public class FileFormatInfo
@@ -25,8 +25,8 @@ public class FileFormatInfo
 | Имя | Описание |
 | --- | --- |
 | [FileFormatType](../../aspose.cells/fileformatinfo/fileformattype) { get; } | Получает обнаруженный формат файла. |
-| [IsEncrypted](../../aspose.cells/fileformatinfo/isencrypted) { get; } | Возвращает true, если документ зашифрован и для его открытия требуется пароль. |
-| [IsProtectedByRMS](../../aspose.cells/fileformatinfo/isprotectedbyrms) { get; } | Получает, защищен ли файл Microsoft Rights Management Server. |
+| [IsEncrypted](../../aspose.cells/fileformatinfo/isencrypted) { get; } | Возвращает значение true, если документ зашифрован и для его открытия требуется пароль. |
+| [IsProtectedByRMS](../../aspose.cells/fileformatinfo/isprotectedbyrms) { get; } | Указывает, защищен ли файл Microsoft Rights Management Server. |
 | [LoadFormat](../../aspose.cells/fileformatinfo/loadformat) { get; } | Получает обнаруженный формат загрузки. |
 
 ### Смотрите также

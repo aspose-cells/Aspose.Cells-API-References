@@ -16,7 +16,7 @@ public void SetLink(string uri, string name)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uri | String | 智能标签的命名空间 URI。 |
+| uri | String | 智能标记的命名空间 URI。 |
 | name | String | 智能标签的名称。 |
 
 ### 也可以看看

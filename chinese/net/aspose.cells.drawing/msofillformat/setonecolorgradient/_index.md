@@ -16,9 +16,9 @@ public void SetOneColorGradient(Color color, double degree, GradientStyleType st
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| color | Color | 一种渐变颜色。 |
+| color | Color | 一种渐变色。 |
 | degree | Double | 梯度度。可以是从 0.0（暗）到 1.0（亮）的值。 |
-| style | GradientStyleType | 渐变着色样式。 |
+| style | GradientStyleType | 渐变阴影样式。 |
 | variant | Int32 | 渐变变体。可以是 1 到 4 之间的值，对应于“填充效果”对话框中“渐变”选项卡上的四个变体之一。如果 style 是 GradientStyle.FromCenter，则 Variant 参数只能是 1 或 2。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: EmbedSmartTags
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否将智能标签与工作簿一起保存
+description: 指示是否将智能标记与工作簿一起保存
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.markup/smarttagoptions/embedsmarttags/
 ---
 ## SmartTagOptions.EmbedSmartTags property
 
-表示是否将智能标签与工作簿一起保存。
+指示是否将智能标记与工作簿一起保存。
 
 ```csharp
 public bool EmbedSmartTags { get; set; }

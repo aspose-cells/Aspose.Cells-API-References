@@ -18,11 +18,11 @@ public abstract class GridAbstractCalculationEngine
 
 | 姓名 | 描述 |
 | --- | --- |
-| abstract [Calculate](../../aspose.cells.gridjs/gridabstractcalculationengine/calculate)(GridCalculationData) | 用给定数据计算一个函数。 |
+| abstract [Calculate](../../aspose.cells.gridjs/gridabstractcalculationengine/calculate)(GridCalculationData) | 用给定的数据计算一个函数。 |
 
 ### 评论
 
-用户不应直接在这个实现（自定义函数的计算结果除外，可以通过GridCalculationData.CalculatedValue属性设置）。 否则可能会导致意外结果或异常。 如果用户在某些自定义函数的实现中需要更改计算结果以外的其他数据， 例如，更改单元格的公式、样式等，用户应该收集本实现中的那些数据，并将其更改为公式计算的范围之外。
+用户不应在此实现中直接修改 Workbook 的任何部分（自定义函数的计算结果除外，可以通过 GridCalculationData.CalculatedValue 属性设置）。 否则可能会导致意外结果或异常。 如果用户需要更改某些自定义函数的实现中计算结果以外的其他数据， 例如，更改单元格的公式、样式等，用户应在此实现中收集这些数据并将其更改为公式计算范围之外。
 
 ### 例子
 
@@ -35,7 +35,7 @@ public class MyEngine : GridAbstractCalculationEngine
         string funcName = data.FunctionName.ToUpper();
         if ("MYFUNC".Equals(funcName))
         {
-            //在这里计算MYFUNC
+            //这里计算MYFUNC
             int count = data.ParamCount;
             object res = null;
             for (int i = 0; i < count; i++)
@@ -46,8 +46,8 @@ public class MyEngine : GridAbstractCalculationEngine
                     ReferredArea ra = (ReferredArea)pv;
                     pv = ra.GetValue(0, 0);
                 }
-                 //这里处理参数
-                 //res = ...;
+                //这里处理参数
+                //res = ...;
             }
             data.CalculatedValue = res;
         }

@@ -16,7 +16,7 @@ public ArrayList MergedCells { get; }
 
 ### 评论
 
-在这个集合中，每个项目都是一个[`CellArea`](../../cellarea)结构，它代表一个合并单元格的区域。
+在这个集合中，每个项目都是一个[`CellArea`](../../cellarea)表示合并单元格区域的结构。
 
 ### 也可以看看
 

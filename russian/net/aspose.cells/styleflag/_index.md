@@ -1,14 +1,14 @@
 ---
 title: StyleFlag
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет флаги указывающие на применяемые свойства форматирования.
+description: Представляет флаги указывающие на примененные свойства форматирования.
 type: docs
 weight: 5760
 url: /ru/net/aspose.cells/styleflag/
 ---
 ## StyleFlag class
 
-Представляет флаги, указывающие на применяемые свойства форматирования.
+Представляет флаги, указывающие на примененные свойства форматирования.
 
 ```csharp
 public class StyleFlag
@@ -18,37 +18,37 @@ public class StyleFlag
 
 | Имя | Описание |
 | --- | --- |
-| [StyleFlag](styleflag)() | Создает объект со всеми флагами как ложными. |
+| [StyleFlag](styleflag)() | Создает объект со всеми флагами как false. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Alignments](../../aspose.cells/styleflag/alignments) { get; set; } | Будет применена настройка выравнивания. |
+| [Alignments](../../aspose.cells/styleflag/alignments) { get; set; } | Настройка выравнивания будет применена. |
 | [All](../../aspose.cells/styleflag/all) { get; set; } | Будут применены все свойства. |
 | [Borders](../../aspose.cells/styleflag/borders) { get; set; } | Будут применены все настройки границ. |
 | [BottomBorder](../../aspose.cells/styleflag/bottomborder) { get; set; } | Будут применены настройки нижней границы. |
 | [CellShading](../../aspose.cells/styleflag/cellshading) { get; set; } | Будет применена настройка затенения ячеек. |
 | [DiagonalDownBorder](../../aspose.cells/styleflag/diagonaldownborder) { get; set; } | Будут применены настройки диагональной нижней границы. |
 | [DiagonalUpBorder](../../aspose.cells/styleflag/diagonalupborder) { get; set; } | Будут применены настройки границы по диагонали вверх. |
-| [Font](../../aspose.cells/styleflag/font) { get; set; } | Будут применены настройки шрифта. |
+| [Font](../../aspose.cells/styleflag/font) { get; set; } | Будут применены настройки шрифта . |
 | [FontBold](../../aspose.cells/styleflag/fontbold) { get; set; } | Будет применена настройка полужирного шрифта. |
 | [FontColor](../../aspose.cells/styleflag/fontcolor) { get; set; } | Будет применена настройка цвета шрифта. |
 | [FontItalic](../../aspose.cells/styleflag/fontitalic) { get; set; } | Будет применен курсив шрифта. |
-| [FontName](../../aspose.cells/styleflag/fontname) { get; set; } | Будет применена настройка имени шрифта. |
+| [FontName](../../aspose.cells/styleflag/fontname) { get; set; } | Будет применена настройка имени шрифта . |
 | [FontScript](../../aspose.cells/styleflag/fontscript) { get; set; } | Будет применена настройка сценария шрифта. |
-| [FontSize](../../aspose.cells/styleflag/fontsize) { get; set; } | Будет применена настройка размера шрифта. |
-| [FontStrike](../../aspose.cells/styleflag/fontstrike) { get; set; } | Будет применена настройка зачеркивания шрифта. |
+| [FontSize](../../aspose.cells/styleflag/fontsize) { get; set; } | Будет применена настройка размера шрифта . |
+| [FontStrike](../../aspose.cells/styleflag/fontstrike) { get; set; } | Будет применен параметр зачеркивания шрифта. |
 | [FontUnderline](../../aspose.cells/styleflag/fontunderline) { get; set; } | Будет применена настройка подчеркивания шрифта. |
-| [HideFormula](../../aspose.cells/styleflag/hideformula) { get; set; } | Будет применена настройка скрытия формулы. |
-| [HorizontalAlignment](../../aspose.cells/styleflag/horizontalalignment) { get; set; } | Будет применена настройка горизонтального выравнивания. |
+| [HideFormula](../../aspose.cells/styleflag/hideformula) { get; set; } | Будет применена настройка формулы скрытия. |
+| [HorizontalAlignment](../../aspose.cells/styleflag/horizontalalignment) { get; set; } | Будет применен параметр горизонтального выравнивания. |
 | [Indent](../../aspose.cells/styleflag/indent) { get; set; } | Будет применена настройка уровня отступа. |
 | [LeftBorder](../../aspose.cells/styleflag/leftborder) { get; set; } | Будут применены настройки левой границы. |
 | [Locked](../../aspose.cells/styleflag/locked) { get; set; } | Будет применена заблокированная настройка. |
-| [NumberFormat](../../aspose.cells/styleflag/numberformat) { get; set; } | Будет применена настройка числового формата. |
-| [QuotePrefix](../../aspose.cells/styleflag/quoteprefix) { get; set; } | Будет применена настройка скрытия формулы. |
+| [NumberFormat](../../aspose.cells/styleflag/numberformat) { get; set; } | Будет применена настройка числового формата . |
+| [QuotePrefix](../../aspose.cells/styleflag/quoteprefix) { get; set; } | Будет применена настройка формулы скрытия. |
 | [RightBorder](../../aspose.cells/styleflag/rightborder) { get; set; } | Будут применены настройки правой границы. |
-| [Rotation](../../aspose.cells/styleflag/rotation) { get; set; } | Будет применена настройка вращения. |
+| [Rotation](../../aspose.cells/styleflag/rotation) { get; set; } | Будет применена настройка поворота . |
 | [ShrinkToFit](../../aspose.cells/styleflag/shrinktofit) { get; set; } | Будет применена настройка сжатия. |
 | [TextDirection](../../aspose.cells/styleflag/textdirection) { get; set; } | Будет применена настройка направления текста. |
 | [TopBorder](../../aspose.cells/styleflag/topborder) { get; set; } | Будут применены настройки верхней границы. |

@@ -16,7 +16,7 @@ public PdfSecurityOptions()
 
 ### 例子
 
-以下代码为输出 pdf 设置高分辨率打印权限。
+以下代码设置输出pdf的高分辨率打印权限。
 
 ```csharp
 Workbook wb = new Workbook();
@@ -30,14 +30,13 @@ PdfSecurityOptions pdfSecurityOptions = new PdfSecurityOptions();
 //设置所有者密码
 pdfSecurityOptions.OwnerPassword = "YourOwnerPassword";
 
- //设置用户密码
+//设置用户密码
 pdfSecurityOptions.UserPassword = "YourUserPassword";
 
- //设置打印权限
+//设置打印权限
 pdfSecurityOptions.PrintPermission = true;
 
- //为print
-
+//设置打印的高分辨率
 pdfSecurityOptions.FullQualityPrintPermission = true;
 
 

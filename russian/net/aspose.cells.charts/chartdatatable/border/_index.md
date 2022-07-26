@@ -1,14 +1,14 @@
 ---
 title: Border
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает объект Border представляющий границу объекта
+description: Возвращает объект Border представляющий границу object
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.charts/chartdatatable/border/
 ---
 ## ChartDataTable.Border property
 
-Возвращает объект Border, представляющий границу объекта
+Возвращает объект Border, представляющий границу object
 
 ```csharp
 public Line Border { get; }

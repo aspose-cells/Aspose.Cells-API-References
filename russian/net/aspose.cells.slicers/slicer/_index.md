@@ -19,29 +19,29 @@ public class Slicer
 | Имя | Описание |
 | --- | --- |
 | [AlternativeText](../../aspose.cells.slicers/slicer/alternativetext) { get; set; } | Возвращает или задает описательную (альтернативную) текстовую строку объекта Slicer. |
-| [Caption](../../aspose.cells.slicers/slicer/caption) { get; set; } | Возвращает или устанавливает заголовок указанного слайсера. |
-| [CaptionVisible](../../aspose.cells.slicers/slicer/captionvisible) { get; set; } | Возвращает или устанавливает, виден ли заголовок, отображающий Caption слайсера значение по умолчанию - true |
+| [Caption](../../aspose.cells.slicers/slicer/caption) { get; set; } | Возвращает или задает заголовок указанного слайсера. |
+| [CaptionVisible](../../aspose.cells.slicers/slicer/captionvisible) { get; set; } | Возвращает или устанавливает, является ли заголовок, отображающий заголовок слайсера, видимым значением по умолчанию является true |
 | [ColumnWidth](../../aspose.cells.slicers/slicer/columnwidth) { get; set; } | Возвращает или задает ширину в пунктах каждого столбца в слайсере. |
 | [ColumnWidthPixel](../../aspose.cells.slicers/slicer/columnwidthpixel) { get; set; } | Получает или задает ширину в пикселях для каждого столбца среза. |
-| [Height](../../aspose.cells.slicers/slicer/height) { get; set; } | Возвращает или задает высоту указанного среза в пунктах. |
-| [HeightPixel](../../aspose.cells.slicers/slicer/heightpixel) { get; set; } | Возвращает или задает высоту указанного среза в пикселях. |
+| [Height](../../aspose.cells.slicers/slicer/height) { get; set; } | Возвращает или задает высоту указанного слайсера в пунктах. |
+| [HeightPixel](../../aspose.cells.slicers/slicer/heightpixel) { get; set; } | Возвращает или задает высоту указанного слайсера в пикселях. |
 | [IsLocked](../../aspose.cells.slicers/slicer/islocked) { get; set; } | Указывает, заблокирована ли форма среза. |
-| [IsPrintable](../../aspose.cells.slicers/slicer/isprintable) { get; set; } | Указывает, доступен ли для печати объект среза. |
+| [IsPrintable](../../aspose.cells.slicers/slicer/isprintable) { get; set; } | Указывает, доступен ли объект среза для печати. |
 | [LeftPixel](../../aspose.cells.slicers/slicer/leftpixel) { get; set; } | Возвращает или задает горизонтальное смещение формы среза от его левого столбца в пикселях. |
 | [LockedAspectRatio](../../aspose.cells.slicers/slicer/lockedaspectratio) { get; set; } | Указывает, блокируется ли соотношение сторон. |
-| [LockedPosition](../../aspose.cells.slicers/slicer/lockedposition) { get; set; } | Указывает, можно ли перемещать указанный срез или изменять его размер с помощью пользовательского интерфейса. |
+| [LockedPosition](../../aspose.cells.slicers/slicer/lockedposition) { get; set; } | Указывает, можно ли перемещать указанный слайсер или изменять его размер с помощью пользовательского интерфейса. |
 | [Name](../../aspose.cells.slicers/slicer/name) { get; set; } | Возвращает или задает имя указанного слайсера |
-| [NumberOfColumns](../../aspose.cells.slicers/slicer/numberofcolumns) { get; set; } | Возвращает или задает количество столбцов в указанном срезе. |
+| [NumberOfColumns](../../aspose.cells.slicers/slicer/numberofcolumns) { get; set; } | Возвращает или задает количество столбцов в указанном слайсере. |
 | [Parent](../../aspose.cells.slicers/slicer/parent) { get; } | Возвращает объект Worksheet, представляющий лист, содержащий срез. Только для чтения. |
-| [Placement](../../aspose.cells.slicers/slicer/placement) { get; set; } | Представляет способ прикрепления объекта рисования к ячейкам под ним. Свойство управляет размещением объекта на рабочем листе. |
+| [Placement](../../aspose.cells.slicers/slicer/placement) { get; set; } | Представляет способ прикрепления объекта чертежа к ячейкам под ним. Свойство управляет размещением объекта на рабочем листе. |
 | [RowHeight](../../aspose.cells.slicers/slicer/rowheight) { get; set; } | Возвращает или задает высоту в пунктах каждой строки в указанном срезе. |
 | [RowHeightPixel](../../aspose.cells.slicers/slicer/rowheightpixel) { get; set; } | Возвращает или задает высоту в пикселях каждой строки в указанном срезе. |
 | [SlicerCache](../../aspose.cells.slicers/slicer/slicercache) { get; } | Возвращает объект SlicerCache, связанный со слайсером. Только для чтения. |
-| [StyleType](../../aspose.cells.slicers/slicer/styletype) { get; set; } | Укажите тип встроенного стиля слайсера Тип по умолчанию — SlicerStyleLight1 |
-| [Title](../../aspose.cells.slicers/slicer/title) { get; set; } | Указывает заголовок текущего объекта Slicer. |
+| [StyleType](../../aspose.cells.slicers/slicer/styletype) { get; set; } | Укажите тип встроенного слайсера style тип по умолчанию SlicerStyleLight1 |
+| [Title](../../aspose.cells.slicers/slicer/title) { get; set; } | Определяет заголовок текущего объекта Slicer. |
 | [TopPixel](../../aspose.cells.slicers/slicer/toppixel) { get; set; } | Возвращает или задает вертикальное смещение формы среза от его верхней строки в пикселях. |
-| [Width](../../aspose.cells.slicers/slicer/width) { get; set; } | Возвращает или задает ширину указанного среза в пунктах. |
-| [WidthPixel](../../aspose.cells.slicers/slicer/widthpixel) { get; set; } | Возвращает или задает ширину указанного среза в пикселях. |
+| [Width](../../aspose.cells.slicers/slicer/width) { get; set; } | Возвращает или задает ширину указанного слайсера в пунктах. |
+| [WidthPixel](../../aspose.cells.slicers/slicer/widthpixel) { get; set; } | Возвращает или задает ширину указанного слайсера в пикселях. |
 
 ## Методы
 
@@ -110,7 +110,7 @@ slicer.StyleType = SlicerStyleType.SlicerStyleLight2;
 SlicerCacheItemCollection items = slicer.SlicerCache.SlicerCacheItems;
 SlicerCacheItem item = items[0];
 item.Selected = false;
-  //делай свое дело
+//делай свое дело
 book.Save("out.xlsx");
 
 [Visual Basic]

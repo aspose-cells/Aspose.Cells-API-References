@@ -17,8 +17,8 @@ public static void CellNameToIndex(string cellName, out int row, out int column)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | cellName | String | Имя ячейки. |
-| row | Int32& | Индекс строки вывода |
-| column | Int32& | Индекс столбца вывода |
+| row | Int32& | Индекс выходной строки |
+| column | Int32& | Индекс выходного столбца |
 
 ### Смотрите также
 

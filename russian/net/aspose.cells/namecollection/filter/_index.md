@@ -1,14 +1,14 @@
 ---
 title: Filter
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает все определенные имена по области.
+description: Получает все определенные имена по области действия.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/namecollection/filter/
 ---
 ## NameCollection.Filter method
 
-Получает все определенные имена по области.
+Получает все определенные имена по области действия.
 
 ```csharp
 public Name[] Filter(NameScopeType type, int sheetIndex)
@@ -17,7 +17,7 @@ public Name[] Filter(NameScopeType type, int sheetIndex)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | type | NameScopeType | Тип области. |
-| sheetIndex | Int32 | Индекс листа. Эффекты только при типе областиWorksheet |
+| sheetIndex | Int32 | Индекс листа. Действует только в том случае, если тип областиWorksheet |
 
 ### Смотрите также
 

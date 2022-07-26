@@ -18,9 +18,9 @@ public Spinner AddSpinner(int upperLeftRow, int top, int upperLeftColumn, int le
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| top | Int32 | Представляет вертикальное смещение Spinner от его левого ряда в единицах пикселей. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
-| left | Int32 | Представляет горизонтальное смещение Spinner от его левого столбца в единицах пикселей. |
+| top | Int32 | Представляет вертикальное смещение Spinner от его левой строки в единицах пикселя. |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
+| left | Int32 | Представляет горизонтальное смещение Spinner от его левого столбца в единицах пикселя. |
 | height | Int32 | Представляет высоту счетчика в пикселях. |
 | width | Int32 | Представляет ширину счетчика в пикселях. |
 
@@ -33,7 +33,7 @@ public Spinner AddSpinner(int upperLeftRow, int top, int upperLeftColumn, int le
 ```csharp
 
 [C#]
-  // добавляем spinner
+//добавляем спиннер
 Spinner spinner = shapes.AddSpinner(1, 0, 1, 0, 100, 50);
 ```
 

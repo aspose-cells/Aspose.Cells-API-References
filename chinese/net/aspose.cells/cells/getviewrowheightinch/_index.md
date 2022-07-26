@@ -1,14 +1,14 @@
 ---
 title: GetViewRowHeightInch
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定行的高度以英寸为单位
+description: 以英寸为单位获取指定行的高度
 type: docs
-weight: 850
+weight: 860
 url: /zh/net/aspose.cells/cells/getviewrowheightinch/
 ---
 ## Cells.GetViewRowHeightInch method
 
-获取指定行的高度，以英寸为单位。
+以英寸为单位获取指定行的高度。
 
 ```csharp
 public double GetViewRowHeightInch(int row)

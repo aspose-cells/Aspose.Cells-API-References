@@ -1,14 +1,14 @@
 ---
 title: GridWebForm
 second_title: Aspose.Cells for .NET API 参考
-description: GridWebForm 控件它适用于 GridWeb 控件在运行它之前为其设置 GridWebControl 属性
+description: GridWebForm 控件它适用于 GridWeb 控件在运行之前为其设置 GridWebControl 属性
 type: docs
 weight: 810
 url: /zh/net/aspose.cells.gridweb/gridwebform/
 ---
 ## GridWebForm class
 
-GridWebForm 控件。它适用于 GridWeb 控件。在运行它之前为其设置 GridWebControl 属性。
+GridWebForm 控件。它适用于 GridWeb 控件。在运行之前为其设置 GridWebControl 属性。
 
 ```csharp
 public class GridWebForm : WebControl, INamingContainer, IPostBackDataHandler, IPostBackEventHandler
@@ -25,11 +25,11 @@ public class GridWebForm : WebControl, INamingContainer, IPostBackDataHandler, I
 | 姓名 | 描述 |
 | --- | --- |
 | [EditMode](../../aspose.cells.gridweb/gridwebform/editmode) { get; set; } | 获取或设置 GridWebForm 控件的编辑模式。 |
-| [EnableCreateCustomButtomForGridWeb](../../aspose.cells.gridweb/gridwebform/enablecreatecustombuttomforgridweb) { get; set; } | 获取或设置是否在 GridWeb 控件的命令栏中创建切换按钮。 |
+| [EnableCreateCustomButtomForGridWeb](../../aspose.cells.gridweb/gridwebform/enablecreatecustombuttomforgridweb) { get; set; } | 获取或设置是否在GridWeb控件的命令栏中创建切换按钮。 |
 | [FormName](../../aspose.cells.gridweb/gridwebform/formname) { get; set; } | 获取或设置表单的名称。 |
 | [GridWebControl](../../aspose.cells.gridweb/gridwebform/gridwebcontrol) { get; set; } | 获取或设置链接的 GridWeb 控件。 |
 | override [Height](../../aspose.cells.gridweb/gridwebform/height) { get; set; } | 获取或设置控件的高度。 |
-| [LineNumber](../../aspose.cells.gridweb/gridwebform/linenumber) { get; set; } | 获取或设置工作表的当前记录行号。 |
+| [LineNumber](../../aspose.cells.gridweb/gridwebform/linenumber) { get; set; } | 获取或设置工作表的当前记录行号 |
 | override [Visible](../../aspose.cells.gridweb/gridwebform/visible) { get; set; } | 获取或设置是否显示表单控件。此属性由控件本身控制。不要手动修改。 |
 | override [Width](../../aspose.cells.gridweb/gridwebform/width) { get; set; } | 获取或设置控件的宽度。 |
 
@@ -37,7 +37,7 @@ public class GridWebForm : WebControl, INamingContainer, IPostBackDataHandler, I
 
 | 姓名 | 描述 |
 | --- | --- |
-| [HideForm](../../aspose.cells.gridweb/gridwebform/hideform)() | 隐藏窗体并显示 GridWeb 控件。 |
+| [HideForm](../../aspose.cells.gridweb/gridwebform/hideform)() | 隐藏表单并显示 GridWeb 控件。 |
 | [LoadPostData](../../aspose.cells.gridweb/gridwebform/loadpostdata)(string, NameValueCollection) | 仅供内部使用。 |
 | [RaisePostBackEvent](../../aspose.cells.gridweb/gridwebform/raisepostbackevent)(string) | 仅供内部使用。 |
 | [RaisePostDataChangedEvent](../../aspose.cells.gridweb/gridwebform/raisepostdatachangedevent)() | 仅供内部使用。 |

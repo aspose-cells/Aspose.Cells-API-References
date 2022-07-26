@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: Aspose.Cells for .NET API 参考
-description: 文本包含条件格式规则中的文本值 仅对 type  containsTextnotContainsTextbeginsWith 和 endsWith 有效 默认值为空
+description: 文本包含条件格式规则中的文本值 仅对type  containsTextnotContainsTextbeginsWith和endsWith有效 默认值为null
 type: docs
 weight: 110
 url: /zh/net/aspose.cells/formatcondition/text/
 ---
 ## FormatCondition.Text property
 
-“文本包含”条件格式规则中的文本值。 仅对 type = containsText、notContainsText、beginsWith 和 endsWith 有效。 默认值为空。
+“文本包含”条件格式规则中的文本值。 仅对type = containsText、notContainsText、beginsWith和endsWith有效。 默认值为null。
 
 ```csharp
 public string Text { get; set; }

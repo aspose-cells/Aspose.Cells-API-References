@@ -1,14 +1,14 @@
 ---
 title: FormattingType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет тип форматирования примененный к объектуArea../aspose.cells.drawing/areaили объектуLine../aspose.cells.drawing/lineобъект.
+description: Представляет тип форматирования примененный кArea../aspose.cells.drawing/area объект илиLine../aspose.cells.drawing/line объект.
 type: docs
 weight: 670
 url: /ru/net/aspose.cells.charts/formattingtype/
 ---
 ## FormattingType enumeration
 
-Представляет тип форматирования, примененный к объекту[`Area`](../../aspose.cells.drawing/area)или объекту[`Line`](../../aspose.cells.drawing/line)объект.
+Представляет тип форматирования, примененный к[`Area`](../../aspose.cells.drawing/area) объект или[`Line`](../../aspose.cells.drawing/line) объект.
 
 ```csharp
 public enum FormattingType

@@ -19,8 +19,8 @@ public class RadioButtonActiveXControl : ToggleButtonActiveXControl
 | Имя | Описание |
 | --- | --- |
 | [Accelerator](../../aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/accelerator) { get; set; } | Получает и задает клавишу быстрого доступа для элемента управления. |
-| [Alignment](../../aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/alignment) { get; set; } | Получает и устанавливает положение Caption относительно элемента управления. |
-| [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Получает и устанавливает цвет фона. |
+| [Alignment](../../aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/alignment) { get; set; } | Получает и устанавливает положение заголовка относительно элемента управления. |
+| [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Получает и устанавливает цвет фона ole. |
 | [Caption](../../aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/caption) { get; set; } | Получает и задает описательный текст, отображаемый в элементе управления. |
 | override [Data](../../aspose.cells.drawing.activexcontrols/activexcontrol/data) { get; } | Получает и устанавливает двоичные данные элемента управления. |
 | [Font](../../aspose.cells.drawing.activexcontrols/activexcontrol/font) { get; } | Представляет шрифт элемента управления. |
@@ -28,16 +28,16 @@ public class RadioButtonActiveXControl : ToggleButtonActiveXControl
 | [GroupName](../../aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/groupname) { get; set; } | Получает и задает имя группы. |
 | virtual [Height](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/height) { get; set; } | Получает и задает высоту элемента управления в пунктах. |
 | [IMEMode](../../aspose.cells.drawing.activexcontrols/activexcontrol/imemode) { get; set; } | Получает и задает режим времени выполнения по умолчанию редактора метода ввода для элемента управления, когда он получает фокус. |
-| virtual [IsAutoSize](../../aspose.cells.drawing.activexcontrols/activexcontrol/isautosize) { get; set; } | Указывает, будет ли размер элемента управления автоматически изменяться для отображения всего его содержимого. |
-| [IsEnabled](../../aspose.cells.drawing.activexcontrols/activexcontrol/isenabled) { get; set; } | Указывает, может ли элемент управления получать фокус и реагировать на генерируемые пользователем события. |
+| virtual [IsAutoSize](../../aspose.cells.drawing.activexcontrols/activexcontrol/isautosize) { get; set; } | Указывает, будет ли автоматически изменяться размер элемента управления для отображения всего его содержимого. |
+| [IsEnabled](../../aspose.cells.drawing.activexcontrols/activexcontrol/isenabled) { get; set; } | Указывает, может ли элемент управления получать фокус и реагировать на события, созданные пользователем. |
 | [IsLocked](../../aspose.cells.drawing.activexcontrols/activexcontrol/islocked) { get; set; } | Указывает, заблокированы ли данные в элементе управления для редактирования. |
 | [IsTransparent](../../aspose.cells.drawing.activexcontrols/activexcontrol/istransparent) { get; set; } | Указывает, является ли элемент управления прозрачным. |
 | [IsTripleState](../../aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/istriplestate) { get; set; } | Указывает, как указанный элемент управления будет отображать нулевые значения. |
 | virtual [IsVisible](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/isvisible) { get; set; } | Указывает, виден ли этот элемент управления. |
-| [IsWordWrapped](../../aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/iswordwrapped) { get; set; } | Указывает, переносится ли содержимое элемента управления автоматически в конце строки. |
+| [IsWordWrapped](../../aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/iswordwrapped) { get; set; } | Указывает, будет ли содержимое элемента управления автоматически переноситься в конце строки. |
 | [LinkedCell](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/linkedcell) { get; set; } | Получает и устанавливает связанную ячейку. |
 | [ListFillRange](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/listfillrange) { get; set; } | Получает и задает диапазон заполнения списка. |
-| [MouseIcon](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mouseicon) { get; set; } | Получает и задает пользовательский значок, отображаемый в качестве указателя мыши для элемента управления. |
+| [MouseIcon](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mouseicon) { get; set; } | Получает и задает пользовательский значок для отображения в качестве указателя мыши для элемента управления. |
 | [MousePointer](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mousepointer) { get; set; } | Получает и задает тип значка, отображаемого в качестве указателя мыши для элемента управления. |
 | [Picture](../../aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/picture) { get; set; } | Получает и устанавливает данные изображения. |
 | [PicturePosition](../../aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/pictureposition) { get; set; } | Получает и устанавливает расположение изображения элемента управления относительно его заголовка. |
@@ -46,8 +46,8 @@ public class RadioButtonActiveXControl : ToggleButtonActiveXControl
 | [TextAlign](../../aspose.cells.drawing.activexcontrols/activexcontrol/textalign) { get; set; } | Представляет способ выравнивания текста, используемого элементом управления. |
 | override [Type](../../aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/type) { get; } | Получает тип элемента управления ActiveX. |
 | [Value](../../aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/value) { get; set; } | Указывает, проверен элемент управления или нет. |
-| virtual [Width](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/width) { get; set; } | Получает и задает ширину элемента управления в точках. |
-| [Workbook](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook) { get; } | Получает объект[`Workbook`](../activexcontrolbase/workbook). |
+| virtual [Width](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/width) { get; set; } | Получает и задает ширину элемента управления в пунктах. |
+| [Workbook](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook) { get; } | Получает[`Workbook`](../activexcontrolbase/workbook) объект. |
 
 ### Смотрите также
 

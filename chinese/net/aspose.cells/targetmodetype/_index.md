@@ -20,7 +20,7 @@ public enum TargetModeType
 | --- | --- | --- |
 | External | `0` | 外部链接 |
 | FilePath | `1` | 文件或文件夹的本地和完整路径。 |
-| Email | `2` | 电子邮件。 |
+| Email | `2` | 电子邮件. |
 | CellReference | `3` | 链接单元格或命名范围。 |
 
 ### 也可以看看

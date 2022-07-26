@@ -1,14 +1,14 @@
 ---
 title: HideFormula
 second_title: Справочник по Aspose.Cells для .NET API
-description: Будет применена настройка скрытия формулы.
+description: Будет применена настройка формулы скрытия.
 type: docs
 weight: 180
 url: /ru/net/aspose.cells/styleflag/hideformula/
 ---
 ## StyleFlag.HideFormula property
 
-Будет применена настройка скрытия формулы.
+Будет применена настройка формулы скрытия.
 
 ```csharp
 public bool HideFormula { get; set; }

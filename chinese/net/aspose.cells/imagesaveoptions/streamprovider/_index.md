@@ -16,7 +16,7 @@ public IStreamProvider StreamProvider { get; set; }
 
 ### 评论
 
-如果保存为 SVG 或 Tiff，则忽略此属性。 否则，如果要保存多个图像，我们将以此写入其他图像。
+如果保存为 SVG 或 Tiff，则忽略此属性。 否则，如果要保存多个图像，我们将通过此写入其他图像。
 
 ### 也可以看看
 

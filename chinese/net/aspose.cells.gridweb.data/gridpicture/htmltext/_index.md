@@ -1,14 +1,14 @@
 ---
 title: HtmlText
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置包含此文本框中数据和一些格式的 html 字符串
+description: 获取并设置包含此文本框中数据和一些格式的 html 字符串
 type: docs
 weight: 120
 url: /zh/net/aspose.cells.gridweb.data/gridpicture/htmltext/
 ---
 ## GridPicture.HtmlText property
 
-获取和设置包含此文本框中数据和一些格式的 html 字符串。
+获取并设置包含此文本框中数据和一些格式的 html 字符串。
 
 ```csharp
 public string HtmlText { get; set; }

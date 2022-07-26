@@ -16,7 +16,7 @@ public CellArea ExportArea { get; set; }
 
 ### Примечания
 
-Если указана экспортируемая область,[`TrimLeadingBlankRowAndColumn`](../trimleadingblankrowandcolumn) will не действует.
+Если экспортируемая область была указана,[`TrimLeadingBlankRowAndColumn`](../trimleadingblankrowandcolumn) не будет действовать.
 
 ### Смотрите также
 

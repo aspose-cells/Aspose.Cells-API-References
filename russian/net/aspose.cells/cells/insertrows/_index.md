@@ -3,7 +3,7 @@ title: InsertRows
 second_title: Справочник по Aspose.Cells для .NET API
 description: Вставляет несколько строк в рабочий лист.
 type: docs
-weight: 1110
+weight: 1120
 url: /ru/net/aspose.cells/cells/insertrows/
 ---
 ## InsertRows(int, int, bool) {#insertrows_2}
@@ -18,7 +18,7 @@ public void InsertRows(int rowIndex, int totalRows, bool updateReference)
 | --- | --- | --- |
 | rowIndex | Int32 | Индекс строки. |
 | totalRows | Int32 | Количество вставляемых строк. |
-| updateReference | Boolean | Указывает, будут ли обновляться ссылки в других рабочих листах. |
+| updateReference | Boolean | Указывает, будут ли обновлены ссылки на других рабочих листах. |
 
 ### Смотрите также
 
@@ -40,7 +40,7 @@ public void InsertRows(int rowIndex, int totalRows, InsertOptions options)
 | --- | --- | --- |
 | rowIndex | Int32 | Индекс строки. |
 | totalRows | Int32 | Количество вставляемых строк. |
-| options | InsertOptions | Указывает, будут ли обновляться ссылки в других рабочих листах. |
+| options | InsertOptions | Указывает, будут ли обновлены ссылки на других рабочих листах. |
 
 ### Смотрите также
 

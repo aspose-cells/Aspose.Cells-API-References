@@ -33,7 +33,7 @@ public Style GetStyle()
 
 ## GetStyle(bool) {#getstyle_1}
 
-如果 checkBorders 为真，则检查其他单元格的边框是否会影响该单元格的样式。
+如果checkBorders为真，检查其他单元格的边框是否会影响本单元格的样式
 
 ```csharp
 public Style GetStyle(bool checkBorders)
@@ -41,7 +41,7 @@ public Style GetStyle(bool checkBorders)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| checkBorders | Boolean | 检查其他单元格的边框 |
+| checkBorders | Boolean | 检查其他单元格的边界 |
 
 ### 返回值
 

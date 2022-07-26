@@ -1,14 +1,14 @@
 ---
 title: AddListBox
 second_title: Aspose.Cells for .NET API 参考
-description: 将 ListBox 添加到工作表中
+description: 将列表框添加到工作表中
 type: docs
 weight: 170
 url: /zh/net/aspose.cells.drawing/shapecollection/addlistbox/
 ---
 ## ShapeCollection.AddListBox method
 
-将 ListBox 添加到工作表中。
+将列表框添加到工作表中。
 
 ```csharp
 public ListBox AddListBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, 
@@ -21,19 +21,19 @@ public ListBox AddListBox(int upperLeftRow, int top, int upperLeftColumn, int le
 | top | Int32 | 表示 ListBox 与其左行的垂直偏移量，以像素为单位。 |
 | upperLeftColumn | Int32 | 左上列索引。 |
 | left | Int32 | 表示 ListBox 与其左列的水平偏移量，以像素为单位。 |
-| height | Int32 | 表示ListBox的高度，以像素为单位。 |
-| width | Int32 | 表示ListBox的宽度，以像素为单位。 |
+| height | Int32 | 表示 ListBox 的高度，以像素为单位。 |
+| width | Int32 | 表示 ListBox 的宽度，以像素为单位。 |
 
 ### 返回值
 
-一个 ListBox 对象。
+一个列表框对象。
 
 ### 例子
 
 ```csharp
 
 [C#]
- //添加一个列表框
+//添加一个列表框
 ListBox listBox = shapes.AddListBox(1, 0, 1, 0, 100, 50);
 ```
 

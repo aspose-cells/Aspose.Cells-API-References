@@ -1,14 +1,14 @@
 ---
 title: InitializeNewBindRowHandler
 second_title: Aspose.Cells for .NET API 参考
-description: 表示打算处理 InitializeNewBindRow 事件的方法 发件人工作表对象 bindObject新创建的绑定对象通常它是一个 DataRowView 对象
+description: 表示打算处理 InitializeNewBindRow 事件的方法 sender工作表对象 bindObject新创建的绑定对象通常它是一个 DataRowView 对象
 type: docs
 weight: 610
 url: /zh/net/aspose.cells.gridweb.data/initializenewbindrowhandler/
 ---
 ## InitializeNewBindRowHandler delegate
 
-表示打算处理 InitializeNewBindRow 事件的方法。 发件人:工作表对象。 bindObject:新创建的绑定对象。通常它是一个 DataRowView 对象。
+表示打算处理 InitializeNewBindRow 事件的方法。 sender：工作表对象。 bindObject：新创建的绑定对象。通常它是一个 DataRowView 对象。
 
 ```csharp
 public delegate void InitializeNewBindRowHandler(GridWorksheet sender, object bindObject);

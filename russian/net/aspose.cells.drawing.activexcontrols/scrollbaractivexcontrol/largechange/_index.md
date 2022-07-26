@@ -1,14 +1,14 @@
 ---
 title: LargeChange
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает величину на которую изменяется свойство Position
+description: Получает и задает величину изменения свойства Position
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/largechange/
 ---
 ## ScrollBarActiveXControl.LargeChange property
 
-Получает и задает величину, на которую изменяется свойство Position
+Получает и задает величину изменения свойства Position
 
 ```csharp
 public int LargeChange { get; set; }

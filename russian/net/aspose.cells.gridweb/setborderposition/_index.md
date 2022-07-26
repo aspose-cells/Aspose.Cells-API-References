@@ -23,7 +23,7 @@ public enum SetBorderPosition
 | Left | `2` | Левая граница |
 | Right | `3` | Правая граница |
 | HorizontalMiddle | `4` | Нижняя граница |
-| VerticalMiddle | `5` | ГоризонтальныйСредние границы |
+| VerticalMiddle | `5` | Горизонтальные средние границы |
 | Outline | `6` | Вертикальные средние границы |
 | Cross | `7` | Пересечение границ |
 | None | `8` | Без границ |

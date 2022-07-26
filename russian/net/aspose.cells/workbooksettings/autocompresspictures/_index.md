@@ -1,14 +1,14 @@
 ---
 title: AutoCompressPictures
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает логическое значение указывающее что приложение автоматически сжимает изображения в книге.
+description: Задает логическое значение указывающее что приложение автоматически сжимает изображения в книге.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/workbooksettings/autocompresspictures/
 ---
 ## WorkbookSettings.AutoCompressPictures property
 
-Указывает логическое значение, указывающее, что приложение автоматически сжимает изображения в книге.
+Задает логическое значение, указывающее, что приложение автоматически сжимает изображения в книге.
 
 ```csharp
 public bool AutoCompressPictures { get; set; }

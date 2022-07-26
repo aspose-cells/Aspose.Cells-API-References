@@ -20,7 +20,7 @@ public class RevisionAutoFormat : Revision
 | --- | --- |
 | [CellArea](../../aspose.cells.revisions/revisionautoformat/cellarea) { get; } | Получает место, где было применено форматирование. |
 | [Id](../../aspose.cells.revisions/revision/id) { get; } | Получает номер этой версии. |
-| override [Type](../../aspose.cells.revisions/revisionautoformat/type) { get; } | Получает тип редакции. |
+| override [Type](../../aspose.cells.revisions/revisionautoformat/type) { get; } | Получает тип ревизии. |
 | [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Получает рабочий лист. |
 
 ### Смотрите также

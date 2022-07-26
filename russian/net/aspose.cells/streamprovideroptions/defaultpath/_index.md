@@ -1,14 +1,14 @@
 ---
 title: DefaultPath
 second_title: Справочник по Aspose.Cells для .NET API
-description: Путь по умолчанию URL сохраненный в сгенерированном html-файле для указанного источника. Например данные листа сохраненные в xxx_files/sheet001.htm URL-адрес используемый в основном файле html должен выглядеть такsrcxxx_files/sheet001.htm
+description: Путь URL по умолчанию сохраненный в сгенерированном HTML-файле для указанного источника. .htm
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/streamprovideroptions/defaultpath/
 ---
 ## StreamProviderOptions.DefaultPath property
 
-Путь по умолчанию (URL), сохраненный в сгенерированном html-файле для указанного источника. Например, данные листа, сохраненные в xxx_files/sheet001.htm, URL-адрес, используемый в основном файле html, должен выглядеть так:"src="xxx_files/sheet001.htm""
+Путь (URL) по умолчанию, сохраненный в сгенерированном HTML-файле для указанного источника. .htm""
 
 ```csharp
 public string DefaultPath { get; }

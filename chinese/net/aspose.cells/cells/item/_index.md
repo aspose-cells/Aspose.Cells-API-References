@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定单元格行索引和列索引处的Cellaspose.cells/cell元素
+description: 获取Cellaspose.cells/cell指定单元格行索引和列索引处的元素
 type: docs
 weight: 70
 url: /zh/net/aspose.cells/cells/item/
 ---
 ## Cells indexer (1 of 2)
 
-获取指定单元格行索引和列索引处的[`Cell`](../../cell)元素。
+获取[`Cell`](../../cell)指定单元格行索引和列索引处的元素。
 
 ```csharp
 public Cell this[int row, int column] { get; }
@@ -21,7 +21,7 @@ public Cell this[int row, int column] { get; }
 
 ### 返回值
 
-[`Cell`](../../cell)对象。
+这[`Cell`](../../cell)目的。
 
 ### 例子
 
@@ -29,12 +29,12 @@ public Cell this[int row, int column] { get; }
 [C#]
 Workbook excel = new Workbook();
 Cells cells = excel.Worksheets[0].Cells;
-Cell cell = cells[0, 0];	 //获取“A1”处的单元格
+Cell cell = cells[0, 0];	//获取“A1”处的单元格
 
 [Visual Basic]
 Dim excel as Workbook = New Workbook()
 Dim cells As Cells =  excel.Worksheets(0).Cells 
-Dim cell As Cell =  cells(0,0)  '获取“A1”处的单元格
+Dim cell As Cell =  cells(0,0)  'Gets the cell at "A1"
 ```
 
 ### 也可以看看
@@ -48,7 +48,7 @@ Dim cell As Cell =  cells(0,0)  '获取“A1”处的单元格
 
 ## Cells indexer (2 of 2)
 
-获取指定单元名称处的[`Cell`](../../cell)元素。
+获取[`Cell`](../../cell)指定单元格名称处的元素。
 
 ```csharp
 public Cell this[string cellName] { get; }
@@ -56,11 +56,11 @@ public Cell this[string cellName] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| cellName | 单元格名称，包括其列字母和行号，例如A5。 |
+| cellName | 单元格名称，包括其列字母和行号，例如 A5。 |
 
 ### 返回值
 
-A[`Cell`](../../cell)对象
+一个[`Cell`](../../cell)目的
 
 ### 例子
 
@@ -68,12 +68,12 @@ A[`Cell`](../../cell)对象
 [C#]
 Workbook excel = new Workbook();
 Cells cells = excel.Worksheets[0].Cells;
-Cell cell = cells["A1"];	 //获取“A1”处的单元格
+Cell cell = cells["A1"];	//获取“A1”处的单元格
 
 [Visual Basic]
 Dim excel as Workbook = New Workbook()
 Dim cells As Cells =  excel.Worksheets(0).Cells 
-Dim cell As Cell =  cells("A1")  '获取“A1”处的单元格
+Dim cell As Cell =  cells("A1")  'Gets the cell at "A1"
 ```
 
 ### 也可以看看

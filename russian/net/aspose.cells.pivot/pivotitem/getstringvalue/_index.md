@@ -1,14 +1,14 @@
 ---
 title: GetStringValue
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает строковое значение элемента сводки Если значение равно null возвращается 
+description: Получает строковое значение сводного элемента Если значение равно null возвращается 
 type: docs
 weight: 100
 url: /ru/net/aspose.cells.pivot/pivotitem/getstringvalue/
 ---
 ## PivotItem.GetStringValue method
 
-Получает строковое значение элемента сводки Если значение равно null, возвращается ""
+Получает строковое значение сводного элемента Если значение равно null, возвращается ""
 
 ```csharp
 public string GetStringValue()

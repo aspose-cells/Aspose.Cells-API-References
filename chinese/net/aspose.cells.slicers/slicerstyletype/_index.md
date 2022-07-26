@@ -18,21 +18,21 @@ public enum SlicerStyleType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| SlicerStyleLight1 | `0` | 内置灯光样式一 |
-| SlicerStyleLight2 | `1` | 内置灯光样式二 |
-| SlicerStyleLight3 | `2` | 内置灯光样式三 |
+| SlicerStyleLight1 | `0` | 内置灯样式一 |
+| SlicerStyleLight2 | `1` | 内置灯样式二 |
+| SlicerStyleLight3 | `2` | 内置灯样式三 |
 | SlicerStyleLight4 | `3` | 内置灯光样式四 |
 | SlicerStyleLight5 | `4` | 内置灯光样式五 |
-| SlicerStyleLight6 | `5` | 内置灯光样式六 |
-| SlicerStyleOther1 | `6` | 内置样式 另一种 |
-| SlicerStyleOther2 | `7` | 内置样式 其他两个 |
-| SlicerStyleDark1 | `8` | 内置深色风格一 |
-| SlicerStyleDark2 | `9` | 内置深色拖把 |
-| SlicerStyleDark3 | `10` | 内置深色风格三 |
+| SlicerStyleLight6 | `5` | 内置灯样式六 |
+| SlicerStyleOther1 | `6` | 其他内置样式 |
+| SlicerStyleOther2 | `7` | 内置样式其他两个 |
+| SlicerStyleDark1 | `8` | 内置深色风格 one |
+| SlicerStyleDark2 | `9` | 内置深色风格拖曳 |
+| SlicerStyleDark3 | `10` | 内置深色样式三 |
 | SlicerStyleDark4 | `11` | 内置深色风格四 |
 | SlicerStyleDark5 | `12` | 内置深色风格五 |
 | SlicerStyleDark6 | `13` | 内置深色风格六 |
-| Custom | `14` | 用户自定义样式，暂时不支持 |
+| Custom | `14` | 用户自定义样式，暂不支持 |
 
 ### 也可以看看
 

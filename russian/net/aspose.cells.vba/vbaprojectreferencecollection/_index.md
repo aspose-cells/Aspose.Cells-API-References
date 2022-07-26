@@ -64,22 +64,22 @@ public class VbaProjectReferenceCollection : CollectionBase<VbaProjectReference>
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
-   // Инициируем проект VBA.
+ // Запустить проект VBA.
 VbaProject vbaProject = workbook.VbaProject;
-// Добавляем проект vba reference
+// Добавляем ссылку на проект vba
 vbaProject.References.AddRegisteredReference("stdole", "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation");
-  //Сохранение файла Excel
+//Сохранение файла Excel
 workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
-'Инициируем проект VBA.
+'Запустите проект VBA.
 Dim vbaProject as VbaProject  = workbook.VbaProject
-'Добавляем проект vba reference
+'Добавить ссылку на проект vba
 vbaProject.References.AddRegisteredReference("stdole", "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation")
 'Сохранение файла Excel
 workbook.Save("book1.xlsm")

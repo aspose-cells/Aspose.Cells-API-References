@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 添加ConditionalFormattingValueaspose.cells/conditionalformattingvalue对象
+description: 添加ConditionalFormattingValueaspose.cells/conditionalformattingvalue对象.
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/conditionalformattingvaluecollection/add/
 ---
 ## ConditionalFormattingValueCollection.Add method
 
-添加[`ConditionalFormattingValue`](../../conditionalformattingvalue)对象。
+添加[`ConditionalFormattingValue`](../../conditionalformattingvalue)对象.
 
 ```csharp
 public int Add(FormatConditionValueType type, string value)
@@ -17,7 +17,7 @@ public int Add(FormatConditionValueType type, string value)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | type | FormatConditionValueType | 值类型。 |
-| value | String | 值。 |
+| value | String | 价值。 |
 
 ### 返回值
 

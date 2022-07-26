@@ -1,14 +1,14 @@
 ---
 title: RemoveCellControl
 second_title: Aspose.Cells for .NET API 参考
-description: 删除列的 CellControl 对象
+description: 移除列的 CellControl 对象
 type: docs
 weight: 140
 url: /zh/net/aspose.cells.griddesktop.data/gridcolumn/removecellcontrol/
 ---
 ## GridColumn.RemoveCellControl method
 
-删除列的 CellControl 对象。
+移除列的 CellControl 对象。
 
 ```csharp
 public void RemoveCellControl()

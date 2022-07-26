@@ -22,10 +22,10 @@ public class CalculationData
 | [Cell](../../aspose.cells/calculationdata/cell) { get; } | Получает объект Cell, в котором находится функция. |
 | [CellColumn](../../aspose.cells/calculationdata/cellcolumn) { get; } | Получает индекс столбца ячейки, в которой находится функция. |
 | [CellRow](../../aspose.cells/calculationdata/cellrow) { get; } | Получает индекс строки ячейки, в которой находится функция. |
-| [FunctionName](../../aspose.cells/calculationdata/functionname) { get; } | Получает имя вычисляемой функции. |
+| [FunctionName](../../aspose.cells/calculationdata/functionname) { get; } | Получает имя функции для вычисления. |
 | [ParamCount](../../aspose.cells/calculationdata/paramcount) { get; } | Получает количество параметров |
 | [Workbook](../../aspose.cells/calculationdata/workbook) { get; } | Получает объект Workbook, в котором находится функция. |
-| [Worksheet](../../aspose.cells/calculationdata/worksheet) { get; } | Получает объект Worksheet, в котором находится функция. |
+| [Worksheet](../../aspose.cells/calculationdata/worksheet) { get; } | Получает объект рабочего листа, в котором находится функция. |
 
 ## Методы
 
@@ -36,7 +36,7 @@ public class CalculationData
 
 ### Примечания
 
-Все объекты, предоставляемые этим классом, предназначены только для "чтения". Пользователь не должен изменять какие-либо данные в рабочей книге во время процесса вычисления формулы, В противном случае может быть вызван неожиданный результат или исключение.
+Все объекты, предоставляемые этим классом, предназначены только для «чтения».
 
 ### Смотрите также
 

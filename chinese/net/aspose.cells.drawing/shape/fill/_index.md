@@ -1,14 +1,14 @@
 ---
 title: Fill
 second_title: Aspose.Cells for .NET API 参考
-description: 返回一个FillFormat对象该对象包含指定形状的填充格式属性
+description: 返回一个FillFormat包含指定形状的填充格式属性的对象
 type: docs
 weight: 90
 url: /zh/net/aspose.cells.drawing/shape/fill/
 ---
 ## Shape.Fill property
 
-返回一个FillFormat对象，该对象包含指定形状的填充格式属性。
+返回一个FillFormat包含指定形状的填充格式属性的对象。
 
 ```csharp
 public FillFormat Fill { get; }

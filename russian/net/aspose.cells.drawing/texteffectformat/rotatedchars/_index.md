@@ -1,14 +1,14 @@
 ---
 title: RotatedChars
 second_title: Справочник по Aspose.Cells для .NET API
-description: Если задано значение true символы в указанном объекте WordArt поворачиваются на 90 градусов относительно ограничивающей формы объекта WordArt.
+description: Если true символы в указанном объекте WordArt поворачиваются на 90 градусов относительно ограничивающей формы объекта WordArt.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.drawing/texteffectformat/rotatedchars/
 ---
 ## TextEffectFormat.RotatedChars property
 
-Если задано значение true, символы в указанном объекте WordArt поворачиваются на 90 градусов относительно ограничивающей формы объекта WordArt.
+Если true, символы в указанном объекте WordArt поворачиваются на 90 градусов относительно ограничивающей формы объекта WordArt.
 
 ```csharp
 public bool RotatedChars { get; set; }

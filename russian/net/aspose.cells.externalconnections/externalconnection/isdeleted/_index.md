@@ -1,14 +1,14 @@
 ---
 title: IsDeleted
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает было ли удалено связанное подключение к книге. true если соединение было удалено в противном случае ложно.
+description: Указывает было ли удалено связанное подключение к книге. true если соединение было удалено в противном случае false.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.externalconnections/externalconnection/isdeleted/
 ---
 ## ExternalConnection.IsDeleted property
 
-Указывает, было ли удалено связанное подключение к книге. true, если соединение было удалено; в противном случае ложно.
+Указывает, было ли удалено связанное подключение к книге. true, если соединение было удалено; в противном случае false.
 
 ```csharp
 public bool IsDeleted { get; set; }

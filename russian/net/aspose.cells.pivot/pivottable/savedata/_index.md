@@ -1,14 +1,14 @@
 ---
 title: SaveData
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает сохраняются ли данные для отчета сводной таблицы вместе с рабочей книгой.
+description: Указывает сохраняются ли данные для отчета сводной таблицы вместе с книгой.
 type: docs
 weight: 570
 url: /ru/net/aspose.cells.pivot/pivottable/savedata/
 ---
 ## PivotTable.SaveData property
 
-Указывает, сохраняются ли данные для отчета сводной таблицы вместе с рабочей книгой.
+Указывает, сохраняются ли данные для отчета сводной таблицы вместе с книгой.
 
 ```csharp
 public bool SaveData { get; set; }

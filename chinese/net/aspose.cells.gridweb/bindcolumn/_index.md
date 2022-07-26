@@ -1,14 +1,14 @@
 ---
 title: BindColumn
 second_title: Aspose.Cells for .NET API 参考
-description: BindColumn
+description: BindColumn.
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.gridweb/bindcolumn/
 ---
 ## BindColumn class
 
-BindColumn。
+BindColumn.
 
 ```csharp
 public class BindColumn : ISerializable
@@ -27,13 +27,13 @@ public class BindColumn : ISerializable
 | [AlternativeStyle](../../aspose.cells.gridweb/bindcolumn/alternativestyle) { get; set; } | 获取或设置列的替代样式。 |
 | [Caption](../../aspose.cells.gridweb/bindcolumn/caption) { get; set; } | 列的标题。 |
 | [ColumnHeaderStyle](../../aspose.cells.gridweb/bindcolumn/columnheaderstyle) { get; set; } | 获取或设置列的样式。 |
-| [CommandName](../../aspose.cells.gridweb/bindcolumn/commandname) { get; set; } | 列的命令名称。如果设置了 CommandName 属性，将在绑定单元格中创建一个 CellCommand 超链接。 |
+| [CommandName](../../aspose.cells.gridweb/bindcolumn/commandname) { get; set; } | 列的命令名称。如果设置了 CommandName 属性，将在绑定的单元格中创建 CellCommand 超链接。 |
 | [CommandText](../../aspose.cells.gridweb/bindcolumn/commandtext) { get; set; } | 列的显示命令文本。如果设置为 null，则单元格将使用字段值作为命令文本。 |
 | [CustomFormat](../../aspose.cells.gridweb/bindcolumn/customformat) { get; set; } | 自定义格式字符串。 |
 | [DataField](../../aspose.cells.gridweb/bindcolumn/datafield) { get; set; } | 获取或设置数据字段名称字符串。 |
 | [EnableSort](../../aspose.cells.gridweb/bindcolumn/enablesort) { get; set; } | 表示用户是否可以单击列标题按此字段排序。 |
-| [ImageUrl](../../aspose.cells.gridweb/bindcolumn/imageurl) { get; set; } | 命令超链接的图片 url。 |
-| [IsAutoCreated](../../aspose.cells.gridweb/bindcolumn/isautocreated) { get; set; } | 表示是否自动创建列。如果为 true，则当用户在设计时更改数据源时，该列将被删除。 |
+| [ImageUrl](../../aspose.cells.gridweb/bindcolumn/imageurl) { get; set; } | 命令超链接的图片url。 |
+| [IsAutoCreated](../../aspose.cells.gridweb/bindcolumn/isautocreated) { get; set; } | 指示是否自动创建列。如果为真，则当用户在设计时更改数据源时，该列将被删除。 |
 | [IsReadOnly](../../aspose.cells.gridweb/bindcolumn/isreadonly) { get; set; } | 指示列是否为只读。 |
 | [Name](../../aspose.cells.gridweb/bindcolumn/name) { get; } | 仅使用设计时间。 |
 | [NumberType](../../aspose.cells.gridweb/bindcolumn/numbertype) { get; set; } | 获取或设置列的数字类型。 |

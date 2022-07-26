@@ -1,14 +1,14 @@
 ---
 title: IsResizeShapeToFitText
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置形状是否应自动适应以完全包含其中描述的文本自动拟合是 当形状内的文本被缩放以包含所有文本时
+description: 获取或设置一个形状是否应该自动适应以完全包含其中描述的文本当形状内的文本被缩放以包含其中的所有文本时自动拟合 is 
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.charts/charttextframe/isresizeshapetofittext/
 ---
 ## ChartTextFrame.IsResizeShapeToFitText property
 
-获取或设置形状是否应自动适应以完全包含其中描述的文本。自动拟合是 当形状内的文本被缩放以包含所有文本时。
+获取或设置一个形状是否应该自动适应以完全包含其中描述的文本。当形状内的文本被缩放以包含其中的所有文本时，自动拟合 is 。
 
 ```csharp
 public bool IsResizeShapeToFitText { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: StringValue
 second_title: Aspose.Cells for .NET API 参考
-description: 获取函数所在的单元格 DisplayStringValue
+description: 获取函数所在的Cell DisplayStringValue
 type: docs
 weight: 80
 url: /zh/net/aspose.cells.gridjs/gridcalculationdata/stringvalue/
 ---
 ## GridCalculationData.StringValue property
 
-获取函数所在的单元格 DisplayStringValue。
+获取函数所在的Cell DisplayStringValue。
 
 ```csharp
 public string StringValue { get; }

@@ -1,14 +1,14 @@
 ---
 title: ListObjects
 second_title: Aspose.Cells for .NET API 参考
-description: 获取此工作表中的所有 ListObject
+description: 获取此工作表中的所有 ListObjects
 type: docs
 weight: 300
 url: /zh/net/aspose.cells/worksheet/listobjects/
 ---
 ## Worksheet.ListObjects property
 
-获取此工作表中的所有 ListObject。
+获取此工作表中的所有 ListObjects。
 
 ```csharp
 public ListObjectCollection ListObjects { get; }

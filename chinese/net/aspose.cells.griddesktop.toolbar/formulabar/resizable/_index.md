@@ -1,14 +1,14 @@
 ---
 title: Resizable
 second_title: Aspose.Cells for .NET API 参考
-description: 为公式框设置可调整大小默认值为 false设置时不适合 ScrollBars.None
+description: 为公式框设置可调整大小默认值为 false设置 ScrollBars.None 时不适合
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.griddesktop.toolbar/formulabar/resizable/
 ---
 ## FormulaBar.Resizable property
 
-为公式框设置可调整大小，默认值为 false。设置时不适合 ScrollBars.None
+为公式框设置可调整大小，默认值为 false。设置 ScrollBars.None 时不适合
 
 ```csharp
 public bool Resizable { get; set; }

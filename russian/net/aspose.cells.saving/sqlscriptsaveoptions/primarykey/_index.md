@@ -1,14 +1,14 @@
 ---
 title: PrimaryKey
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет какой столбец является первичным ключом таблицы данных.
+description: Указывает какой столбец является первичным ключом таблицы данных.
 type: docs
 weight: 120
 url: /ru/net/aspose.cells.saving/sqlscriptsaveoptions/primarykey/
 ---
 ## SqlScriptSaveOptions.PrimaryKey property
 
-Представляет, какой столбец является первичным ключом таблицы данных.
+Указывает, какой столбец является первичным ключом таблицы данных.
 
 ```csharp
 public int PrimaryKey { get; set; }

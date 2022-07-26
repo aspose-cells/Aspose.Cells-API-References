@@ -1,14 +1,14 @@
 ---
 title: BackColor
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置文件背景颜色
+description: 获取并设置文件背景颜色
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.drawing/msofillformat/backcolor/
 ---
 ## MsoFillFormat.BackColor property
 
-获取和设置文件背景颜色。
+获取并设置文件背景颜色。
 
 ```csharp
 public Color BackColor { get; set; }

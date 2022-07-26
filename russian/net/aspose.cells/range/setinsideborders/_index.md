@@ -3,7 +3,7 @@ title: SetInsideBorders
 second_title: Справочник по Aspose.Cells для .NET API
 description: Установить внутренние границы диапазона.
 type: docs
-weight: 330
+weight: 370
 url: /ru/net/aspose.cells/range/setinsideborders/
 ---
 ## Range.SetInsideBorders method
@@ -17,7 +17,7 @@ public void SetInsideBorders(BorderType borderEdge, CellBorderType lineStyle,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| borderEdge | BorderType | Внутри бордюрного типа может быть толькоVerticalиHorizontal. |
+| borderEdge | BorderType | Тип внутренней границы, только может бытьVertical а такжеHorizontal. |
 | lineStyle | CellBorderType | Стиль границы. |
 | borderColor | CellsColor | Цвет границы. |
 

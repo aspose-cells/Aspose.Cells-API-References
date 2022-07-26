@@ -1,14 +1,14 @@
 ---
 title: DiscardInput
 second_title: Aspose.Cells for .NET API 参考
-description: 表示当用户单击此按钮时是否丢弃客户端浏览器的用户输入可以用作撤消操作
+description: 指示当用户单击此按钮时是否丢弃客户端浏览器中的用户输入可以用作撤消操作
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.gridweb/customcommandbutton/discardinput/
 ---
 ## CustomCommandButton.DiscardInput property
 
-表示当用户单击此按钮时是否丢弃客户端浏览器的用户输入。可以用作“撤消”操作。
+指示当用户单击此按钮时是否丢弃客户端浏览器中的用户输入。可以用作“撤消”操作。
 
 ```csharp
 public bool DiscardInput { get; set; }

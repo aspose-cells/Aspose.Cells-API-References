@@ -20,10 +20,10 @@ public enum PresetMaterialType
 | --- | --- | --- |
 | Clear | `0` | Очистить |
 | DarkEdge | `1` | Темный край |
-| Flat | `2` | Плоский |
+| Flat | `2` | Flat |
 | LegacyMatte | `3` | Устаревший матовый |
 | LegacyMetal | `4` | Устаревший металл |
-| LegacyPlastic | `5` | Устаревший пластик |
+| LegacyPlastic | `5` | Старый пластик |
 | LegacyWireframe | `6` | Устаревший каркас |
 | Matte | `7` | Матовый |
 | Metal | `8` | Металл |

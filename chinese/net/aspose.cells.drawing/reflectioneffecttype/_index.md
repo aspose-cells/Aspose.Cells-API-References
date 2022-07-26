@@ -16,9 +16,9 @@ public enum ReflectionEffectType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 无反射效果。 |
-| Custom | `1` | 自定义反射效果。 |
-| TightReflectionTouching | `2` | 紧反射，感人。 |
+| None | `0` | 没有反射效果。 |
+| Custom | `1` | 自定义反射效果. |
+| TightReflectionTouching | `2` | 紧密的反射，感人。 |
 | HalfReflectionTouching | `3` | 半反射，感人。 |
 | FullReflectionTouching | `4` | 全反射，感人。 |
 | TightReflection4PtOffset | `5` | 紧密反射，4 pt 偏移。 |

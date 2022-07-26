@@ -1,14 +1,14 @@
 ---
 title: Rows
 second_title: Aspose.Cells for .NET API 参考
-description: 获取GridRowaspose.cells.griddesktop.data/gridrow对象的集合这些对象表示此工作表中的各个行
+description: 获取集合GridRowaspose.cells.griddesktop.data/gridrow表示此工作表中各个行的对象
 type: docs
 weight: 160
 url: /zh/net/aspose.cells.griddesktop.data/gridcells/rows/
 ---
 ## GridCells.Rows property
 
-获取[`GridRow`](../../gridrow)对象的集合，这些对象表示此工作表中的各个行。
+获取集合[`GridRow`](../../gridrow)表示此工作表中各个行的对象。
 
 ```csharp
 public GridRowCollection Rows { get; }

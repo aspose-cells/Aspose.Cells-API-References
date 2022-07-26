@@ -17,18 +17,18 @@ public void AddDateFilter(int fieldIndex, DateTimeGroupingType dateTimeGroupingT
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldIndex | Int32 | Целочисленное смещение поля, на котором вы хотите основывать фильтр (слева списка; крайнее левое поле — поле 0). |
+| fieldIndex | Int32 | Целочисленное смещение поля, на котором вы хотите основывать фильтр (слева в списке; крайнее левое поле — это поле 0). |
 | dateTimeGroupingType | DateTimeGroupingType | [`DateTimeGroupingType`](../../datetimegroupingtype) |
-| год | Int32 | Год. |
+| year | Int32 | Год. |
 | month | Int32 | Месяц. |
 | day | Int32 | День. |
 | hour | Int32 | Час. |
 | minute | Int32 | Минута. |
-| второй | Int32 | Второй. |
+| second | Int32 | Секунда. |
 
 ### Примечания
 
-Если DateTimeGroupingType имеет значение Year, действует только параметр year. Если DateTiemGroupingType имеет значение Month, действуют только параметры года и месяца.
+Если DateTimeGroupingType имеет значение Year, действует только параметр year. Если DateTiemGroupingType имеет значение Month, действует только параметр year и month.
 
 ### Смотрите также
 

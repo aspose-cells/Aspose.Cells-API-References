@@ -1,14 +1,14 @@
 ---
 title: AutoLoad
 second_title: Aspose.Cells for .NET API 参考
-description: 指定在打开父工作簿时是否应调用嵌入对象的宿主应用程序以自动加载 对象数据
+description: 指定在打开父工作簿时是否应调用嵌入对象的主机应用程序以自动加载 对象数据
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.drawing/oleobject/autoload/
 ---
 ## OleObject.AutoLoad property
 
-指定在打开父工作簿时是否应调用嵌入对象的宿主应用程序以自动加载 对象数据。
+指定在打开父工作簿时是否应调用嵌入对象的主机应用程序以自动加载 对象数据。
 
 ```csharp
 public bool AutoLoad { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: R1C1Style
 second_title: Справочник по Aspose.Cells для .NET API
-description: Является ли формула эталонным стилем R1C1. Значение по умолчанию  ложь.
+description: Является ли формула эталонным стилем R1C1. По умолчанию false.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells/formulaparseoptions/r1c1style/
 ---
 ## FormulaParseOptions.R1C1Style property
 
-Является ли формула эталонным стилем R1C1. Значение по умолчанию — ложь.
+Является ли формула эталонным стилем R1C1. По умолчанию false.
 
 ```csharp
 public bool R1C1Style { get; set; }

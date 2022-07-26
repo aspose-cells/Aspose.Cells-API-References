@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定索引处的Sparklineaspose.cells.charts/sparkline元素
+description: 获取Sparklineaspose.cells.charts/sparkline指定索引处的元素
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.charts/sparklinecollection/item/
 ---
 ## SparklineCollection indexer
 
-获取指定索引处的[`Sparkline`](../../sparkline)元素。
+获取[`Sparkline`](../../sparkline)指定索引处的元素。
 
 ```csharp
 public Sparkline this[int index] { get; }

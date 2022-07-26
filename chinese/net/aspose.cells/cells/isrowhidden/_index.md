@@ -3,7 +3,7 @@ title: IsRowHidden
 second_title: Aspose.Cells for .NET API 参考
 description: 检查给定索引处的行是否隐藏
 type: docs
-weight: 1150
+weight: 1160
 url: /zh/net/aspose.cells/cells/isrowhidden/
 ---
 ## Cells.IsRowHidden method

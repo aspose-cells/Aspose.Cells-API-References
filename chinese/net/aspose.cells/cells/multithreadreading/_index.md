@@ -16,7 +16,7 @@ public bool MultiThreadReading { get; set; }
 
 ### 评论
 
-如果有多个线程同时读取此集合中的 Row/Cell 对象， 这个属性应该设置为true，否则可能会产生意想不到的结果。 支持多线程读取可能会降低从此集合访问 Row/Cell 对象的性能。 请注意，某些功能不支持多线程读取， 例如格式化值（通过[`StringValue`](../../cell/stringvalue)，[`DisplayStringValue`](../../cell/displaystringvalue)等）。 因此，即使将此属性设置为 true，这些 API 仍然可能会为多线程读取提供意外结果。
+如果有多个线程同时读取这个集合中的Row/Cell对象， 这个属性应该设置为true，否则可能会产生意想不到的结果。 支持多线程读取可能会降低访问Row/Cell对象的性能这个集合. 请注意，有些功能不支持多线程读取， 比如格式化值（通过[`StringValue`](../../cell/stringvalue) ,[`DisplayStringValue`](../../cell/displaystringvalue) .etc.). 因此，即使将此属性设置为 true，这些 API 仍然可能会为多线程读取提供意外结果。
 
 ### 也可以看看
 

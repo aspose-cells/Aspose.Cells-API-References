@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Cells for .NET API 参考
-description: 删除名称数组
+description: 移除名称数组
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.gridweb.data/gridnamecollection/remove/
 ---
 ## GridNameCollection.Remove method
 
-删除名称数组
+移除名称数组
 
 ```csharp
 public void Remove(string[] names)
@@ -16,7 +16,7 @@ public void Remove(string[] names)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| names | String[] | 名称的文本。 |
+| names | String[] | 姓名的文字。 |
 
 ### 也可以看看
 

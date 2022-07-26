@@ -1,14 +1,14 @@
 ---
 title: GroupColumns
 second_title: Aspose.Cells for .NET API 参考
-description: 分组列
+description: 对列进行分组
 type: docs
 weight: 500
 url: /zh/net/aspose.cells.gridweb.data/gridcells/groupcolumns/
 ---
 ## GroupColumns(int, int) {#groupcolumns}
 
-分组列。
+对列进行分组。
 
 ```csharp
 public void GroupColumns(int firstIndex, int lastIndex)
@@ -17,7 +17,7 @@ public void GroupColumns(int firstIndex, int lastIndex)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | firstIndex | Int32 | 要分组的第一列索引。 |
-| lastIndex | Int32 | 要分组的最后一列索引。 |
+| lastIndex | Int32 | 要分组的最后一个列索引。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public void GroupColumns(int firstIndex, int lastIndex)
 
 ## GroupColumns(int, int, bool) {#groupcolumns_1}
 
-分组列。
+对列进行分组。
 
 ```csharp
 public void GroupColumns(int firstIndex, int lastIndex, bool isHidden)
@@ -38,8 +38,8 @@ public void GroupColumns(int firstIndex, int lastIndex, bool isHidden)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | firstIndex | Int32 | 要分组的第一列索引。 |
-| lastIndex | Int32 | 要分组的最后一列索引。 |
-| isHidden | Boolean | 指定是否隐藏分组列。 |
+| lastIndex | Int32 | 要分组的最后一个列索引。 |
+| isHidden | Boolean | 指定是否隐藏分组的列。 |
 
 ### 也可以看看
 

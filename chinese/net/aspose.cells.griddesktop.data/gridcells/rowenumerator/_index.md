@@ -1,14 +1,14 @@
 ---
 title: RowEnumerator
 second_title: Aspose.Cells for .NET API 参考
-description: 获取行枚举器
+description: 获取行 enumerator
 type: docs
 weight: 150
 url: /zh/net/aspose.cells.griddesktop.data/gridcells/rowenumerator/
 ---
 ## GridCells.RowEnumerator property
 
-获取行枚举器
+获取行 enumerator
 
 ```csharp
 public IEnumerator RowEnumerator { get; }

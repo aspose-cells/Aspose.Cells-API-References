@@ -3,7 +3,7 @@ title: TextToColumns
 second_title: Aspose.Cells for .NET API 参考
 description: 将列中的文本拆分为列
 type: docs
-weight: 1310
+weight: 1320
 url: /zh/net/aspose.cells/cells/texttocolumns/
 ---
 ## Cells.TextToColumns method

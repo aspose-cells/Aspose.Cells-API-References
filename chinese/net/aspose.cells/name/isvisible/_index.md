@@ -1,14 +1,14 @@
 ---
 title: IsVisible
 second_title: Aspose.Cells for .NET API 参考
-description: 表示名称是否可见
+description: 指示名称是否可见
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/name/isvisible/
 ---
 ## Name.IsVisible property
 
-表示名称是否可见。
+指示名称是否可见。
 
 ```csharp
 public bool IsVisible { get; set; }

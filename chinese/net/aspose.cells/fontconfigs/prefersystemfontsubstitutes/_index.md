@@ -1,14 +1,14 @@
 ---
 title: PreferSystemFontSubstitutes
 second_title: Aspose.Cells for .NET API 参考
-description: 指示在没有出现字体且未设置该字体的替代时是否先使用系统字体替代 例如在 Ubuntu 上Arial字体通常由Liberation Sans代替 默认值为假
+description: 表示在没有出现字体且未设置该字体的替代品时是否先使用系统字体替代品 例如在Ubuntu上Arial字体一般被Liberation Sans替代 默认值为false .
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/fontconfigs/prefersystemfontsubstitutes/
 ---
 ## FontConfigs.PreferSystemFontSubstitutes property
 
-指示在没有出现字体且未设置该字体的替代时是否先使用系统字体替代。 例如，在 Ubuntu 上，“Arial”字体通常由“Liberation Sans”代替。 默认值为假。
+表示在没有出现字体且未设置该字体的替代品时是否先使用系统字体替代品。 例如在Ubuntu上，“Arial”字体一般被“Liberation Sans”替代。 默认值为false .
 
 ```csharp
 public static bool PreferSystemFontSubstitutes { get; set; }

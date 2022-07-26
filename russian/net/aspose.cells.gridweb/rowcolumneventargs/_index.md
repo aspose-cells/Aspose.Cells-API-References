@@ -19,8 +19,8 @@ public class RowColumnEventArgs : EventArgs
 | Имя | Описание |
 | --- | --- |
 | [Argument](../../aspose.cells.gridweb/rowcolumneventargs/argument) { get; } | Аргумент события. |
-| [IsCancel](../../aspose.cells.gridweb/rowcolumneventargs/iscancel) { get; } | отменить операцию. |
-| [Num](../../aspose.cells.gridweb/rowcolumneventargs/num) { get; } | Номер строки или столбца начинается с нуля. |
+| [IsCancel](../../aspose.cells.gridweb/rowcolumneventargs/iscancel) { get; } | мы должны отменить операцию. |
+| [Num](../../aspose.cells.gridweb/rowcolumneventargs/num) { get; } | Номер строки или столбца, начиная с нуля. |
 | [Type](../../aspose.cells.gridweb/rowcolumneventargs/type) { get; } | Тип строки или столбца. |
 
 ## Методы

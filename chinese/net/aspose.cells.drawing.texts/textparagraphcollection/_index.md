@@ -19,7 +19,7 @@ public class TextParagraphCollection
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.cells.drawing.texts/textparagraphcollection/count) { get; } | 获取文本段落的计数。 |
-| [Item](../../aspose.cells.drawing.texts/textparagraphcollection/item) { get; } | 获取特定索引处的[`TextParagraph`](../textparagraph)对象。 |
+| [Item](../../aspose.cells.drawing.texts/textparagraphcollection/item) { get; } | 获取[`TextParagraph`](../textparagraph)特定索引处的对象。 |
 
 ## 方法
 

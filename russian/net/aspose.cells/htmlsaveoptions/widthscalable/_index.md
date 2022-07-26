@@ -3,7 +3,7 @@ title: WidthScalable
 second_title: Справочник по Aspose.Cells для .NET API
 description: Указывает используются ли масштабируемые единицы для описания ширины столбца при экспорте файла в html. Значение по умолчанию  false.
 type: docs
-weight: 470
+weight: 500
 url: /ru/net/aspose.cells/htmlsaveoptions/widthscalable/
 ---
 ## HtmlSaveOptions.WidthScalable property

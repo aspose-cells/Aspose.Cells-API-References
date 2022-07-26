@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 要与当前对象比较的对象。 |
+| obj | Object | 与当前对象比较的对象。 |
 
 ### 返回值
 
-如果指定的对象等于当前对象，则为真；否则为假。
+如果指定的 Object 等于当前 Object，则为 true；否则为假。
 
 ### 也可以看看
 

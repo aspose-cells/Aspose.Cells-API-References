@@ -1,14 +1,14 @@
 ---
 title: OnAjaxCallFinishedClientFunction
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置 ajaxcall 完成时要调用的客户端函数名称 客户端函数应该这样声明ltbr /gt function GridAjaxcallFinishedltbr /gt ltbr /gt alertthis.id ajaxcall finished ltbr /gt ltbr /gtltbr /gt注意您可以在客户端函数中使用this指针指向触发事件的网格控件
+description: 获取或设置 ajaxcall 完成时要调用的客户端函数名称 客户端函数应声明如下 函数 GridAjaxcallFinished  alertthis.id ajaxcall 完成 注意您可以在客户端函数中使用this指针来指向触发事件的网格控件
 type: docs
 weight: 560
 url: /zh/net/aspose.cells.gridweb/mainweb/onajaxcallfinishedclientfunction/
 ---
 ## MainWeb.OnAjaxCallFinishedClientFunction property
 
-获取或设置 ajaxcall 完成时要调用的客户端函数名称。 客户端函数应该这样声明:&lt;br /&gt; function GridAjaxcallFinished()&lt;br /&gt; {&lt;br /&gt; alert(this.id+" ajaxcall finished ");&lt;br /&gt; }&lt;br /&gt;&lt;br /&gt;注意:您可以在客户端函数中使用“this”指针指向触发事件的网格控件。
+获取或设置 ajaxcall 完成时要调用的客户端函数名称。 客户端函数应声明如下： 函数 GridAjaxcallFinished() { alert(this.id+" ajaxcall 完成"); }注意：您可以在客户端函数中使用“this”指针来指向触发事件的网格控件。
 
 ```csharp
 public string OnAjaxCallFinishedClientFunction { get; set; }

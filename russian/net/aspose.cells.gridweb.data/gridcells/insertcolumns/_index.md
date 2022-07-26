@@ -1,14 +1,14 @@
 ---
 title: InsertColumns
 second_title: Справочник по Aspose.Cells для .NET API
-description: Вставляет несколько столбцов в рабочий лист.
+description: Вставляет несколько столбцов на лист.
 type: docs
 weight: 550
 url: /ru/net/aspose.cells.gridweb.data/gridcells/insertcolumns/
 ---
 ## InsertColumns(int, int) {#insertcolumns}
 
-Вставляет несколько столбцов в рабочий лист.
+Вставляет несколько столбцов на лист.
 
 ```csharp
 public void InsertColumns(int columnIndex, int totalColumns)
@@ -29,7 +29,7 @@ public void InsertColumns(int columnIndex, int totalColumns)
 
 ## InsertColumns(int, int, bool) {#insertcolumns_1}
 
-Вставляет несколько столбцов в рабочий лист.
+Вставляет несколько столбцов на лист.
 
 ```csharp
 public void InsertColumns(int columnIndex, int totalColumns, bool updateReference)
@@ -39,7 +39,7 @@ public void InsertColumns(int columnIndex, int totalColumns, bool updateReferenc
 | --- | --- | --- |
 | columnIndex | Int32 | Индекс столбца. |
 | totalColumns | Int32 | Количество столбцов. |
-| updateReference | Boolean | Указывает, будут ли обновляться ссылки в других рабочих листах. |
+| updateReference | Boolean | Указывает, будут ли обновлены ссылки на других рабочих листах. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: EndCol
 second_title: Справочник по Aspose.Cells для .NET API
-description: Конечный номер столбца диапазона фильтра.
+description: Номер конечного столбца диапазона фильтра.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.griddesktop/rowfiltersettings/endcol/
 ---
 ## RowFilterSettings.EndCol property
 
-Конечный номер столбца диапазона фильтра.
+Номер конечного столбца диапазона фильтра.
 
 ```csharp
 public int EndCol { get; set; }

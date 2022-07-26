@@ -18,7 +18,7 @@ public class PageEndSavingArgs : PageSavingArgs
 
 | 姓名 | 描述 |
 | --- | --- |
-| [HasMorePages](../../aspose.cells.rendering/pageendsavingargs/hasmorepages) { get; set; } | 获取或设置一个值，指示是否有更多的页面要输出。 默认值为真。 |
+| [HasMorePages](../../aspose.cells.rendering/pageendsavingargs/hasmorepages) { get; set; } | 获取或设置一个值，表示是否有更多页要输出。 默认值为true。 |
 | [PageCount](../../aspose.cells.rendering/pagesavingargs/pagecount) { get; } | 总页数。 |
 | [PageIndex](../../aspose.cells.rendering/pagesavingargs/pageindex) { get; } | 当前页面索引，从零开始。 |
 

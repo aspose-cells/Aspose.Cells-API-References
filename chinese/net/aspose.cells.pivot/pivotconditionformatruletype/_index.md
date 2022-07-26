@@ -1,14 +1,14 @@
 ---
 title: PivotConditionFormatRuleType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示数据透视表条件格式规则类型
+description: 表示数据透视表条件格式化规则类型
 type: docs
 weight: 4510
 url: /zh/net/aspose.cells.pivot/pivotconditionformatruletype/
 ---
 ## PivotConditionFormatRuleType enumeration
 
-表示数据透视表条件格式规则类型。
+表示数据透视表条件格式化规则类型。
 
 ```csharp
 public enum PivotConditionFormatRuleType
@@ -18,10 +18,10 @@ public enum PivotConditionFormatRuleType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 表示不计算 Top N 条件格式 |
-| All | `1` | 表示 Top N 条件格式是 在整个范围范围内评估。 |
+| None | `0` | 表示不计算前 N 个条件格式 |
+| All | `1` | 表示前 N 个条件格式是 在整个范围范围内评估的。 |
 | Row | `2` | 表示对每一行计算前 N 个条件格式。 |
-| Column | `3` | 表示前 N 个条件格式是 为每一列计算的。 |
+| Column | `3` | 表示前 N 个条件格式是 为每一列评估的。 |
 
 ### 也可以看看
 

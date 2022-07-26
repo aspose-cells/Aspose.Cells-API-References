@@ -1,14 +1,14 @@
 ---
 title: GroupRows
 second_title: Aspose.Cells for .NET API 参考
-description: 分组行
+description: 对行进行分组
 type: docs
 weight: 810
 url: /zh/net/aspose.cells.griddesktop/worksheet/grouprows/
 ---
 ## GroupRows(int, int, int, bool) {#grouprows_3}
 
-分组行。
+对行进行分组。
 
 ```csharp
 public void GroupRows(int firstRow, int lastRow, int outlineLevel, bool isHidden)
@@ -18,7 +18,7 @@ public void GroupRows(int firstRow, int lastRow, int outlineLevel, bool isHidden
 | --- | --- | --- |
 | firstRow | Int32 | 要分组的第一行索引。 |
 | lastRow | Int32 | 要分组的最后一行索引。 |
-| outlineLevel | Int32 | outlineLevel |
+| outlineLevel | Int32 | 大纲级别 |
 | isHidden | Boolean | 指定是否显示分组的行。 |
 
 ### 也可以看看
@@ -31,7 +31,7 @@ public void GroupRows(int firstRow, int lastRow, int outlineLevel, bool isHidden
 
 ## GroupRows(int, int, bool) {#grouprows_1}
 
-分组行。
+对行进行分组。
 
 ```csharp
 public void GroupRows(int firstRow, int lastRow, bool isHidden)
@@ -53,7 +53,7 @@ public void GroupRows(int firstRow, int lastRow, bool isHidden)
 
 ## GroupRows(int, int, int, bool, bool) {#grouprows_4}
 
-分组行。
+对行进行分组。
 
 ```csharp
 public void GroupRows(int firstRow, int lastRow, int outlineLevel, bool isHidden, bool addToUndo)
@@ -63,7 +63,7 @@ public void GroupRows(int firstRow, int lastRow, int outlineLevel, bool isHidden
 | --- | --- | --- |
 | firstRow | Int32 | 要分组的第一行索引。 |
 | lastRow | Int32 | 要分组的最后一行索引。 |
-| outlineLevel | Int32 | outlineLevel |
+| outlineLevel | Int32 | 大纲级别 |
 | isHidden | Boolean | 指定是否显示分组的行。 |
 | addToUndo | Boolean | 指定是否将此操作添加到撤消管理器中。并且 GridDesktop 的 EnableUndo 属性必须设置为 true。 |
 
@@ -77,7 +77,7 @@ public void GroupRows(int firstRow, int lastRow, int outlineLevel, bool isHidden
 
 ## GroupRows(int, int, bool, bool) {#grouprows_2}
 
-分组行。
+对行进行分组。
 
 ```csharp
 public void GroupRows(int firstRow, int lastRow, bool isHidden, bool addToUndo)
@@ -100,7 +100,7 @@ public void GroupRows(int firstRow, int lastRow, bool isHidden, bool addToUndo)
 
 ## GroupRows(int, int) {#grouprows}
 
-分组行。
+对行进行分组。
 
 ```csharp
 public void GroupRows(int firstRow, int lastRow)

@@ -1,14 +1,14 @@
 ---
 title: SaveCustomStyleFile
 second_title: Справочник по Aspose.Cells для .NET API
-description: Сохраняет данные текущего стиля элемента управления в XML-файл. Можно использовать для создания собственного файла стиля.
+description: Сохраняет данные текущего стиля элемента управления в XML-файл. Может использоваться для создания файла пользовательского стиля.
 type: docs
 weight: 1470
 url: /ru/net/aspose.cells.gridweb/mainweb/savecustomstylefile/
 ---
 ## MainWeb.SaveCustomStyleFile method
 
-Сохраняет данные текущего стиля элемента управления в XML-файл. Можно использовать для создания собственного файла стиля.
+Сохраняет данные текущего стиля элемента управления в XML-файл. Может использоваться для создания файла пользовательского стиля.
 
 ```csharp
 public void SaveCustomStyleFile(string fileName)

@@ -16,7 +16,7 @@ public class DefaultEmptyStyle
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DefaultEmptyStyle](defaultemptystyle)(GridDesktop) | 样式构造器。 |
+| [DefaultEmptyStyle](defaultemptystyle)(GridDesktop) | 样式构造函数. |
 
 ## 方法
 

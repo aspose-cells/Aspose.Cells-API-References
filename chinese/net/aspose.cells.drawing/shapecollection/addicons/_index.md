@@ -24,14 +24,14 @@ public Picture AddIcons(int upperLeftRow, int top, int upperLeftColumn, int left
 | height | Int32 | 形状的高度，以像素为单位。 |
 | width | Int32 | 形状的宽度，以像素为单位。 |
 | imageByteData | Byte[] | 图像字节数据。 |
-| compatibleImageData | Byte[] | 从 svg 转换的图像数据，以便与 Excel 2016 或更低版本兼容。 |
+| compatibleImageData | Byte[] | 从 svg 转换图像数据，以便与 Excel 2016 或更低版本兼容。 |
 
 ### 例子
 
 ```csharp
 
 [C#]
- //添加图标
+//添加图标
 using (FileStream fs = new FileStream("icon.svg", FileMode.Open))
 {
     int len = (int)fs.Length;

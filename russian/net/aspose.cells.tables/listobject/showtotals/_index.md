@@ -1,14 +1,14 @@
 ---
 title: ShowTotals
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает показывает ли этот ListObject общую строку.
+description: Получает и устанавливает будет ли этот ListObject показывать итоговую строку.
 type: docs
 weight: 170
 url: /ru/net/aspose.cells.tables/listobject/showtotals/
 ---
 ## ListObject.ShowTotals property
 
-Получает и устанавливает, показывает ли этот ListObject общую строку.
+Получает и устанавливает, будет ли этот ListObject показывать итоговую строку.
 
 ```csharp
 public bool ShowTotals { get; set; }

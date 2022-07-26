@@ -1,14 +1,14 @@
 ---
 title: TimePeriod
 second_title: Справочник по Aspose.Cells для .NET API
-description: Применимый период времени в правиле условного форматирования дата наступления. Допустимо только для type  timePeriod. Значение по умолчанию  TimePeriodType.Today.
+description: Применимый период времени в правиле условного форматирования дата появления. Допустимо только для type  timePeriod. Значение по умолчанию  TimePeriodType.Today.
 type: docs
 weight: 120
 url: /ru/net/aspose.cells/formatcondition/timeperiod/
 ---
 ## FormatCondition.TimePeriod property
 
-Применимый период времени в правиле условного форматирования «дата наступления…». Допустимо только для type = timePeriod. Значение по умолчанию — TimePeriodType.Today.
+Применимый период времени в правиле условного форматирования «дата появления…». Допустимо только для type = timePeriod. Значение по умолчанию — TimePeriodType.Today.
 
 ```csharp
 public TimePeriodType TimePeriod { get; set; }

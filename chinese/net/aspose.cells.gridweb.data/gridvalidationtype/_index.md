@@ -29,11 +29,11 @@ public enum GridValidationType
 | DropDownList | `8` | 显示下拉列表。 |
 | FreeList | `9` | 空闲列表验证类型。 |
 | CustomExpression | `10` | 自定义验证类型，使用正则表达式。 |
-| Boolean | `11` | 真或假 |
-| DateTime | `12` | 日期时间（yyyy-MM-dd 或 yyyy-MM-dd hh:mm:ss）。 |
-| CustomFunction | `13` | 自定义 JavaScript 函数验证。 |
+| Boolean | `11` | TRUE 或 FALSE |
+| DateTime | `12` | 日期时间（yyyy-MM-dd 或 yyyy-MM-dd hh:mm:ss）. |
+| CustomFunction | `13` | 自定义 javascript 函数验证。 |
 | CustomServerFunction | `14` | 自定义服务器端函数验证。 |
-| CheckBox | `15` | 将单元格显示为复选框。并且单元格的值是 True of False。 |
+| CheckBox | `15` | 将单元格显示为复选框。并且单元格的值为True of False. |
 
 ### 也可以看看
 

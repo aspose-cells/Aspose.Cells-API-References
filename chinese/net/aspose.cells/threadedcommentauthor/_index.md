@@ -18,9 +18,9 @@ public class ThreadedCommentAuthor
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Name](../../aspose.cells/threadedcommentauthor/name) { get; set; } | 获取和设置名称。 |
-| [ProviderId](../../aspose.cells/threadedcommentauthor/providerid) { get; set; } | 获取提供者的 ID。 |
-| [UserId](../../aspose.cells/threadedcommentauthor/userid) { get; set; } | 获取和设置用户的id。 |
+| [Name](../../aspose.cells/threadedcommentauthor/name) { get; set; } | 获取并设置名称。 |
+| [ProviderId](../../aspose.cells/threadedcommentauthor/providerid) { get; set; } | 获取提供者的id。 |
+| [UserId](../../aspose.cells/threadedcommentauthor/userid) { get; set; } | 获取并设置用户的id。 |
 
 ### 也可以看看
 

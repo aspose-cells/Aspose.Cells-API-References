@@ -21,9 +21,9 @@ public class ScenarioCollection : CollectionBase<Scenario>
 | [ActiveIndex](../../aspose.cells/scenariocollection/activeindex) { get; set; } | Получает и устанавливает выбранный сценарий. |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/scenariocollection/item) { get; } | Получает объект[`Scenario`](../scenario)по индексу. |
+| [Item](../../aspose.cells/scenariocollection/item) { get; } | Получает[`Scenario`](../scenario) объект по индексу. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
-| [LastSelected](../../aspose.cells/scenariocollection/lastselected) { get; set; } | Указывает, какой сценарий был последним выбран пользователем для запуска/показа. |
+| [LastSelected](../../aspose.cells/scenariocollection/lastselected) { get; set; } | Указывает, какой сценарий был последним выбран пользователем для запуска/отображения. |
 
 ## Методы
 

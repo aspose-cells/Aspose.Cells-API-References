@@ -18,12 +18,12 @@ public enum MsoArrowheadStyle
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 无行尾类型。 |
-| Arrow | `1` | 箭头线结束类型。 |
-| ArrowStealth | `2` | Arrow Stealth line end type。 |
+| None | `0` | 没有行尾类型。 |
+| Arrow | `1` | 箭头线端类型。 |
+| ArrowStealth | `2` | 箭头隐身线末端类型。 |
 | ArrowDiamond | `3` | 箭头菱形线末端类型。 |
-| ArrowOval | `4` | 箭头椭圆线端类型。 |
-| ArrowOpen | `5` | 箭头 开放行结束类型。 |
+| ArrowOval | `4` | 箭头椭圆线端型。 |
+| ArrowOpen | `5` | 箭头开口线端类型。 |
 
 ### 也可以看看
 

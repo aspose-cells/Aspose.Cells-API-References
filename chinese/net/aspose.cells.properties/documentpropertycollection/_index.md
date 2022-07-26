@@ -1,14 +1,14 @@
 ---
 title: DocumentPropertyCollection
 second_title: Aspose.Cells for .NET API 参考
-description: BuiltInDocumentPropertyCollection./builtindocumentpropertycollection和CustomDocumentPropertyCollection的基类收藏
+description: 基类BuiltInDocumentPropertyCollection./builtindocumentpropertycollection和CustomDocumentPropertyCollection./customdocumentpropertycollection集合.
 type: docs
 weight: 4870
 url: /zh/net/aspose.cells.properties/documentpropertycollection/
 ---
 ## DocumentPropertyCollection class
 
-[`BuiltInDocumentPropertyCollection`](../builtindocumentpropertycollection)和CustomDocumentPropertyCollection的基类收藏。
+基类[`BuiltInDocumentPropertyCollection`](../builtindocumentpropertycollection)和[`CustomDocumentPropertyCollection`](../customdocumentpropertycollection)集合.
 
 ```csharp
 public abstract class DocumentPropertyCollection : IEnumerable
@@ -19,8 +19,8 @@ public abstract class DocumentPropertyCollection : IEnumerable
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.cells.properties/documentpropertycollection/count) { get; } | 获取集合中的项目数。 |
-| [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | 按索引返回[`DocumentProperty`](../documentproperty)对象。 |
-| virtual [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | 按属性名称返回[`DocumentProperty`](../documentproperty)对象。 |
+| [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | 返回一个[`DocumentProperty`](../documentproperty)按索引的对象. |
+| virtual [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | 返回一个[`DocumentProperty`](../documentproperty)按属性名称的对象。 |
 
 ## 方法
 
@@ -39,36 +39,30 @@ public abstract class DocumentPropertyCollection : IEnumerable
 
 [C#]
 
- //通过调用它的空构造函数
-ok对象
+//通过调用它的空构造函数来实例化一个Workbook对象
 Workbook workbook = new Workbook("book1.xls");
  
-//检索Excel文件的所有自定义文档属性列表
+//检索Excel文件的所有自定义文档属性的列表
 DocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
  
- //使用属性 index
-
+//使用属性索引访问自定义文档属性
 DocumentProperty customProperty1 = customProperties[3];
  
-//使用属性名
-
+//使用属性名称访问自定义文档属性
 DocumentProperty customProperty2 = customProperties["Owner"];
 
 [VB.NET]
 
-'通过调用它的空构造函数
-ok对象
+'通过调用其空构造函数来实例化 Workbook 对象
 Dim workbook As Workbook = New Workbook("book1.xls")
  
-'检索Excel文件的所有自定义文档属性列表
+'检索 Excel 文件的所有自定义文档属性的列表
 Dim customProperties As DocumentPropertyCollection = workbook.Worksheets.CustomDocumentProperties
  
-'使用属性 index
-
+'使用属性索引访问自定义文档属性
 Dim customProperty1 As DocumentProperty = customProperties(3)
  
-'使用属性名
-
+'使用属性名称访问自定义文档属性
 Dim customProperty2 As DocumentProperty = customProperties("Owner")
 
 ```

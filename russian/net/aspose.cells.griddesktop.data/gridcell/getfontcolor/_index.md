@@ -1,14 +1,14 @@
 ---
 title: GetFontColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает цвет шрифта ячейки. При изменении цвета следует вызывать метод SetFontColor для установки цвета шрифта в ячейку.
+description: Получает цвет шрифта ячейки. При изменении цвета следует вызвать метод SetFontColor для установки цвета шрифта ячейки.
 type: docs
 weight: 260
 url: /ru/net/aspose.cells.griddesktop.data/gridcell/getfontcolor/
 ---
 ## GridCell.GetFontColor method
 
-Получает цвет шрифта ячейки. При изменении цвета следует вызывать метод "SetFontColor", для установки цвета шрифта в ячейку.
+Получает цвет шрифта ячейки. При изменении цвета следует вызвать метод "SetFontColor", для установки цвета шрифта ячейки.
 
 ```csharp
 public Color GetFontColor()

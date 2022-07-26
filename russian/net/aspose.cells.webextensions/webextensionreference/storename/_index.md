@@ -1,14 +1,14 @@
 ---
 title: StoreName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает экземпляр рынка в котором хранится надстройка Office. .
+description: Получает и задает экземпляр магазина в котором хранится надстройка Office. .
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.webextensions/webextensionreference/storename/
 ---
 ## WebExtensionReference.StoreName property
 
-Получает и задает экземпляр рынка, в котором хранится надстройка Office. .
+Получает и задает экземпляр магазина, в котором хранится надстройка Office. .
 
 ```csharp
 public string StoreName { get; set; }

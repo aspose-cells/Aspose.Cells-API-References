@@ -1,14 +1,14 @@
 ---
 title: ExcludeUnusedStyles
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否排除未使用的样式 对于生成的 html 文件排除未使用的样式可以使文件变小 而不影响视觉效果所以这个属性的默认值为true 如果用户需要为生成的 html 保留工作簿中的所有样式例如用户 需要稍后从生成的 html 中恢复工作簿的场景请设置此项属性为假
+description: 表示是否排除未使用的样式 对于生成的html文件排除未使用的样式可以使文件体积更小 不影响视觉效果所以该属性的默认值为true 如果用户需要为生成的html保留工作簿中的所有样式比如user 需要稍后从生成的html恢复工作簿的场景请将该属性设置为false .
 type: docs
 weight: 90
 url: /zh/net/aspose.cells/htmlsaveoptions/excludeunusedstyles/
 ---
 ## HtmlSaveOptions.ExcludeUnusedStyles property
 
-表示是否排除未使用的样式。 对于生成的 html 文件，排除未使用的样式可以使文件变小 而不影响视觉效果。所以这个属性的默认值为true。 如果用户需要为生成的 html 保留工作簿中的所有样式（例如用户 需要稍后从生成的 html 中恢复工作簿的场景），请设置此项属性为假。
+表示是否排除未使用的样式。 对于生成的html文件，排除未使用的样式可以使文件体积更小 不影响视觉效果。所以该属性的默认值为true。 如果用户需要为生成的html保留工作簿中的所有样式（比如user 需要稍后从生成的html恢复工作簿的场景），请将该属性设置为false .
 
 ```csharp
 public bool ExcludeUnusedStyles { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ExportCellCoordinate
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает экспортируются ли координаты excel непустых ячеек при сохранении файла в html. Значение по умолчанию неверно. Если вы хотите импортировать выходной HTML-код в Excel оставьте значение по умолчанию.
+description: Указывает экспортируются ли координаты excel непустых ячеек при сохранении файла в html. Значение по умолчанию  false. Если вы хотите импортировать выходной HTML-код в Excel оставьте значение по умолчанию.
 type: docs
 weight: 130
 url: /ru/net/aspose.cells/htmlsaveoptions/exportcellcoordinate/
 ---
 ## HtmlSaveOptions.ExportCellCoordinate property
 
-Указывает, экспортируются ли координаты excel непустых ячеек при сохранении файла в html. Значение по умолчанию неверно. Если вы хотите импортировать выходной HTML-код в Excel, оставьте значение по умолчанию.
+Указывает, экспортируются ли координаты excel непустых ячеек при сохранении файла в html. Значение по умолчанию — false. Если вы хотите импортировать выходной HTML-код в Excel, оставьте значение по умолчанию.
 
 ```csharp
 public bool ExportCellCoordinate { get; set; }

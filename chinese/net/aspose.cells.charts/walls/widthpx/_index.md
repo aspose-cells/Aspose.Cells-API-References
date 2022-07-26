@@ -1,14 +1,14 @@
 ---
 title: WidthPx
 second_title: Aspose.Cells for .NET API 参考
-description: 调用 Chart.Calculate 方法后以像素为单位获取从左到右的宽度
+description: 调用Chart.Calculate方法后获取从左到右的宽度以像素为单位
 type: docs
 weight: 100
 url: /zh/net/aspose.cells.charts/walls/widthpx/
 ---
 ## Walls.WidthPx property
 
-调用 Chart.Calculate() 方法后，以像素为单位获取从左到右的宽度。
+调用Chart.Calculate()方法后获取从左到右的宽度，以像素为单位。
 
 ```csharp
 public int WidthPx { get; }

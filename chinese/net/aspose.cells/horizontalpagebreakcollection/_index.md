@@ -1,14 +1,14 @@
 ---
 title: HorizontalPageBreakCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装HorizontalPageBreak./horizontalpagebreak对象的集合
+description: 封装了一个集合HorizontalPageBreak./horizontalpagebreak对象.
 type: docs
 weight: 3670
 url: /zh/net/aspose.cells/horizontalpagebreakcollection/
 ---
 ## HorizontalPageBreakCollection class
 
-封装[`HorizontalPageBreak`](../horizontalpagebreak)对象的集合。
+封装了一个集合[`HorizontalPageBreak`](../horizontalpagebreak)对象.
 
 ```csharp
 public class HorizontalPageBreakCollection : CollectionBase<HorizontalPageBreak>
@@ -20,7 +20,7 @@ public class HorizontalPageBreakCollection : CollectionBase<HorizontalPageBreak>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/horizontalpagebreakcollection/item) { get; } | 获取指定索引处的[`HorizontalPageBreak`](../horizontalpagebreak)元素。 (2 indexers) |
+| [Item](../../aspose.cells/horizontalpagebreakcollection/item) { get; } | 获取[`HorizontalPageBreak`](../horizontalpagebreak)指定索引处的元素。 (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法
@@ -64,16 +64,14 @@ public class HorizontalPageBreakCollection : CollectionBase<HorizontalPageBreak>
 [C#]
 Workbook excel = new Workbook();
 
- //在G5
-
+//在G5添加分页符
 excel.Worksheets[0].HorizontalPageBreaks.Add("G5");
 excel.Worksheets[0].VerticalPageBreaks.Add("G5");
 
 [VB]
 Dim excel as Workbook = new Workbook()
 
-'在G5
-
+'在 G5 添加分页符
 excel.Worksheets(0).HorizontalPageBreaks.Add("G5")
 excel.Worksheets(0).VerticalPageBreaks.Add("G5")
 ```

@@ -19,8 +19,8 @@ public enum FontSchemeType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 无 |
-| Major | `1` | 主要方案。 |
-| Minor | `2` | 次要方案。 |
+| Major | `1` | 主要方案. |
+| Minor | `2` | 次要方案. |
 
 ### 也可以看看
 

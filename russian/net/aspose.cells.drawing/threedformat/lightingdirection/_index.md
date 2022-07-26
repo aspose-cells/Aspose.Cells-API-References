@@ -1,14 +1,14 @@
 ---
 title: LightingDirection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает направление из которого ориентируется установка освещения относительно сцены.
+description: Получает и задает направление из которого ориентируется установка освещения по отношению к сцене.
 type: docs
 weight: 100
 url: /ru/net/aspose.cells.drawing/threedformat/lightingdirection/
 ---
 ## ThreeDFormat.LightingDirection property
 
-Получает и задает направление, из которого ориентируется установка освещения относительно сцены.
+Получает и задает направление, из которого ориентируется установка освещения по отношению к сцене.
 
 ```csharp
 public LightRigDirectionType LightingDirection { get; set; }

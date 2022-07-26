@@ -1,14 +1,14 @@
 ---
 title: FrozenRows
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置 Worksheet 的冻结行数 Frozen 将从第一行开始
+description: 获取或设置工作表的冻结行数 冻结将从第一行开始
 type: docs
 weight: 190
 url: /zh/net/aspose.cells.griddesktop/worksheet/frozenrows/
 ---
 ## Worksheet.FrozenRows property
 
-获取或设置 Worksheet 的冻结行数。 Frozen 将从第一行开始。
+获取或设置工作表的冻结行数。 冻结将从第一行开始。
 
 ```csharp
 public int FrozenRows { get; set; }

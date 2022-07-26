@@ -16,7 +16,7 @@ public bool CheckCompatibility { get; set; }
 
 ### Примечания
 
-Значение по умолчанию - true. Только для файлов Excel97-2003 xls или xlt.
+Значение по умолчанию — true. Только для файлов Excel97-2003 xls или xlt.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: SetRowReadonly
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает строку только для чтения чтобы пользователь не мог удалить ее со стороны клиента. это расширенный метод GridWeb он не будет сохраняться и влиять на реальный файл excel
+description: Устанавливает строку только для чтения поэтому пользователь не может удалить ее со стороны клиента. это расширенный метод GridWeb он не будет сохраняться и не будет влиять на фактический файл excel
 type: docs
 weight: 810
 url: /ru/net/aspose.cells.gridweb.data/gridworksheet/setrowreadonly/
 ---
 ## GridWorksheet.SetRowReadonly method
 
-Устанавливает строку только для чтения, чтобы пользователь не мог удалить ее со стороны клиента. это расширенный метод GridWeb, он не будет сохраняться и влиять на реальный файл excel
+Устанавливает строку только для чтения, поэтому пользователь не может удалить ее со стороны клиента. это расширенный метод GridWeb, он не будет сохраняться и не будет влиять на фактический файл excel
 
 ```csharp
 public void SetRowReadonly(int rowIndex, bool isReadonly)
@@ -17,7 +17,7 @@ public void SetRowReadonly(int rowIndex, bool isReadonly)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | rowIndex | Int32 | индекс строки. |
-| isReadonly | Boolean | true или false. |
+| isReadonly | Boolean | правда или ложь. |
 
 ### Смотрите также
 

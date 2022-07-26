@@ -1,14 +1,14 @@
 ---
 title: NeedRenderGroupRows
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置是否显示 grouprows 
+description: 获取或设置是否显示 grouprows .
 type: docs
 weight: 520
 url: /zh/net/aspose.cells.gridweb/mainweb/needrendergrouprows/
 ---
 ## MainWeb.NeedRenderGroupRows property
 
-获取或设置是否显示 grouprows 。
+获取或设置是否显示 grouprows .
 
 ```csharp
 public bool NeedRenderGroupRows { get; set; }

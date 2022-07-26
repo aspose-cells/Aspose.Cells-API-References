@@ -1,14 +1,14 @@
 ---
 title: ReadingOrder
 second_title: Aspose.Cells for .NET API 参考
-description: 表示文本阅读顺序
+description: 代表文字阅读顺序
 type: docs
 weight: 70
 url: /zh/net/aspose.cells.charts/charttextframe/readingorder/
 ---
 ## ChartTextFrame.ReadingOrder property
 
-表示文本阅读顺序。
+代表文字阅读顺序。
 
 ```csharp
 public TextDirectionType ReadingOrder { get; set; }

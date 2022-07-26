@@ -16,7 +16,7 @@ public void AddExternalName(string text, string referTo)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| text | String | 外部名称的文本。 如果外部名称属于工作表，则文本应为 Sheet1!Text。 |
+| text | String | 外部名称的文本。 如果外部名称属于工作表，则文本应为 Sheet1!Text. |
 | referTo | String | 外部名称的referTo。它必须是单元格或范围。 |
 
 ### 也可以看看

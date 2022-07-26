@@ -1,14 +1,14 @@
 ---
 title: AlternativeText
 second_title: Aspose.Cells for .NET API 参考
-description: 返回或设置Shapeaspose.cells.drawing/shape对象的描述性替代文本字符串
+description: 返回或设置的描述性替代文本字符串Shapeaspose.cells.drawing/shape对象.
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.drawing/shape/alternativetext/
 ---
 ## Shape.AlternativeText property
 
-返回或设置[`Shape`](../../shape)对象的描述性（替代）文本字符串。
+返回或设置的描述性（替代）文本字符串[`Shape`](../../shape)对象.
 
 ```csharp
 public string AlternativeText { get; set; }

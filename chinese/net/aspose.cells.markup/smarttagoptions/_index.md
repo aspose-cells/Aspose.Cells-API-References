@@ -1,14 +1,14 @@
 ---
 title: SmartTagOptions
 second_title: Aspose.Cells for .NET API 参考
-description: 表示智能标签的选项
+description: 代表智能标签的选项
 type: docs
 weight: 4080
 url: /zh/net/aspose.cells.markup/smarttagoptions/
 ---
 ## SmartTagOptions class
 
-表示智能标签的选项。
+代表智能标签的选项。
 
 ```csharp
 public class SmartTagOptions
@@ -24,8 +24,8 @@ public class SmartTagOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmbedSmartTags](../../aspose.cells.markup/smarttagoptions/embedsmarttags) { get; set; } | 表示是否将智能标签与工作簿一起保存。 |
-| [ShowType](../../aspose.cells.markup/smarttagoptions/showtype) { get; set; } | 表示智能标签的显示类型。 |
+| [EmbedSmartTags](../../aspose.cells.markup/smarttagoptions/embedsmarttags) { get; set; } | 指示是否将智能标记与工作簿一起保存。 |
+| [ShowType](../../aspose.cells.markup/smarttagoptions/showtype) { get; set; } | 代表智能标签的显示类型。 |
 
 ### 也可以看看
 

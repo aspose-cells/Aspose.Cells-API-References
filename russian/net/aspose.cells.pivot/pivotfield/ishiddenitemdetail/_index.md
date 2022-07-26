@@ -1,14 +1,14 @@
 ---
 title: IsHiddenItemDetail
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает является ли конкретный PivotItem скрытой деталью.
+description: Указывает скрыт ли конкретный PivotItem.
 type: docs
 weight: 510
 url: /ru/net/aspose.cells.pivot/pivotfield/ishiddenitemdetail/
 ---
 ## PivotField.IsHiddenItemDetail method
 
-Указывает, является ли конкретный PivotItem скрытой деталью.
+Указывает, скрыт ли конкретный PivotItem.
 
 ```csharp
 public bool IsHiddenItemDetail(int index)
@@ -16,11 +16,11 @@ public bool IsHiddenItemDetail(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | индекс элемента pivotItem в pivotField. |
+| index | Int32 | индекс сводного элемента в сводном поле. |
 
 ### Возвращаемое значение
 
-скрыт ли конкретный элемент PivotItem
+является ли конкретный PivotItem скрытым.
 
 ### Смотрите также
 

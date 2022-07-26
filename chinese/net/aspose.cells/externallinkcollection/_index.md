@@ -18,15 +18,15 @@ public class ExternalLinkCollection : IEnumerable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.cells/externallinkcollection/count) { get; } | 获取集合中实际包含的元素数量。 |
-| [Item](../../aspose.cells/externallinkcollection/item) { get; } | 获取指定索引处的[`ExternalLink`](../externallink)元素。 |
+| [Count](../../aspose.cells/externallinkcollection/count) { get; } | 获取集合中实际包含的元素个数。 |
+| [Item](../../aspose.cells/externallinkcollection/item) { get; } | 获取[`ExternalLink`](../externallink)指定索引处的元素。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../aspose.cells/externallinkcollection/add#add_1)(string, string[]) | 添加外部链接。 |
-| [Add](../../aspose.cells/externallinkcollection/add#add)(DirectoryType, string, string[]) | 添加外部链接。 |
+| [Add](../../aspose.cells/externallinkcollection/add#add)(DirectoryType, string, string[]) | 添加外部链接 . |
 | [Clear](../../aspose.cells/externallinkcollection/clear#clear)() | 删除所有外部链接。 |
 | [Clear](../../aspose.cells/externallinkcollection/clear#clear_1)(bool) | 删除所有外部链接。 |
 | [GetEnumerator](../../aspose.cells/externallinkcollection/getenumerator)() | 获取遍历此集合的枚举器。 |
@@ -37,10 +37,10 @@ public class ExternalLinkCollection : IEnumerable
 
 ```csharp
 [C#]
- //打开带有外部链接的文件
+//打开带有外部链接的文件
 Workbook workbook = new Workbook("book1.xls");
 
- //更改外部链接数据源
+//更改外部链接数据源
 workbook.Worksheets.ExternalLinks[0].DataSource = "d:\\link.xls";
 
 

@@ -1,14 +1,14 @@
 ---
 title: AddAutoShapeInChart
 second_title: Aspose.Cells for .NET API 参考
-description: 将自选图形添加到图表
+description: 将自选图形添加到图表中
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.drawing/shapecollection/addautoshapeinchart/
 ---
 ## ShapeCollection.AddAutoShapeInChart method
 
-将自选图形添加到图表。
+将自选图形添加到图表中。
 
 ```csharp
 public Shape AddAutoShapeInChart(AutoShapeType type, int top, int left, int height, int width)
@@ -19,8 +19,8 @@ public Shape AddAutoShapeInChart(AutoShapeType type, int top, int left, int heig
 | type | AutoShapeType | 自动形状类型。 |
 | top | Int32 | 表示文本框从左上角的垂直偏移量，单位为图表区域的 1/4000。 |
 | left | Int32 | 表示文本框从左上角的垂直偏移量，单位为图表区域的 1/4000。 |
-| height | Int32 | 表示文本框的高度，单位为图表区域的1/4000。 |
-| width | Int32 | 表示文本框的宽度，单位为图表区域的1/4000。 |
+| height | Int32 | 表示文本框的高度，以图表区域的 1/4000 为单位。 |
+| width | Int32 | 表示文本框的宽度，以图表区域的 1/4000 为单位。 |
 
 ### 返回值
 

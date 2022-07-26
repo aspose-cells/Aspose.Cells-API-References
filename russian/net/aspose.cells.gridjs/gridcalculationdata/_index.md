@@ -1,14 +1,14 @@
 ---
 title: GridCalculationData
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет необходимые данные при вычислении одной функции такие как имя функции параметры и т. д.
+description: Представляет необходимые данные при расчете одной функции такие как имя функции параметры и т. д.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.gridjs/gridcalculationdata/
 ---
 ## GridCalculationData class
 
-Представляет необходимые данные при вычислении одной функции, такие как имя функции, параметры и т. д.
+Представляет необходимые данные при расчете одной функции, такие как имя функции, параметры и т. д.
 
 ```csharp
 public class GridCalculationData
@@ -24,7 +24,7 @@ public class GridCalculationData
 | [FunctionName](../../aspose.cells.gridjs/gridcalculationdata/functionname) { get; } | Получает имя функции для вычисления. |
 | [ParamCount](../../aspose.cells.gridjs/gridcalculationdata/paramcount) { get; } | Получает количество параметров |
 | [Row](../../aspose.cells.gridjs/gridcalculationdata/row) { get; } | Получает индекс строки ячейки, в которой находится функция. |
-| [SheetName](../../aspose.cells.gridjs/gridcalculationdata/sheetname) { get; } | Получает имя рабочего листа, в котором находится функция. |
+| [SheetName](../../aspose.cells.gridjs/gridcalculationdata/sheetname) { get; } | Получает имя листа, на котором находится функция. |
 | [StringValue](../../aspose.cells.gridjs/gridcalculationdata/stringvalue) { get; } | Получает ячейку DisplayStringValue, в которой находится функция. |
 | [Value](../../aspose.cells.gridjs/gridcalculationdata/value) { get; } | Получает значение ячейки, в которой находится функция. |
 
@@ -37,7 +37,7 @@ public class GridCalculationData
 
 ### Примечания
 
-Все объекты, предоставляемые этим классом, предназначены только для "чтения". Пользователь не должен изменять какие-либо данные в рабочей книге во время процесса вычисления формулы, В противном случае может быть вызван неожиданный результат или исключение.
+Все объекты, предоставляемые этим классом, предназначены только для «чтения».
 
 ### Смотрите также
 

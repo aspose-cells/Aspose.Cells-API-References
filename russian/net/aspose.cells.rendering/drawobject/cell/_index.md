@@ -1,14 +1,14 @@
 ---
 title: Cell
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает объект Cell при рендеринге. Доступ ко всем свойствам ячейки.
+description: Указывает объект ячейки при рендеринге. Можно получить доступ ко всем свойствам ячейки.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.rendering/drawobject/cell/
 ---
 ## DrawObject.Cell property
 
-Указывает объект Cell при рендеринге. Доступ ко всем свойствам ячейки.
+Указывает объект ячейки при рендеринге. Можно получить доступ ко всем свойствам ячейки.
 
 ```csharp
 public Cell Cell { get; }

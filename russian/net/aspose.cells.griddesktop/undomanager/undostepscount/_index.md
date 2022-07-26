@@ -1,14 +1,14 @@
 ---
 title: UndoStepsCount
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает текущее количество доступных шагов отмены.
+description: Получает текущее доступное количество шагов отмены.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.griddesktop/undomanager/undostepscount/
 ---
 ## UndoManager.UndoStepsCount property
 
-Получает текущее количество доступных шагов отмены.
+Получает текущее доступное количество шагов отмены.
 
 ```csharp
 public int UndoStepsCount { get; }

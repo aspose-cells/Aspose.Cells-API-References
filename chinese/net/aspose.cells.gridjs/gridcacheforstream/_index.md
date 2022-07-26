@@ -1,14 +1,14 @@
 ---
 title: GridCacheForStream
 second_title: Aspose.Cells for .NET API 参考
-description: 此类包含 GridJs 的缓存操作用户应基于它实现自己的存储业务逻辑
+description: 此类包含 GridJs 的缓存操作用户应基于它实现自己的存储业务逻辑..
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.gridjs/gridcacheforstream/
 ---
 ## GridCacheForStream class
 
-此类包含 GridJs 的缓存操作。用户应基于它实现自己的存储业务逻辑。
+此类包含 GridJs 的缓存操作。用户应基于它实现自己的存储业务逻辑..
 
 ```csharp
 public class GridCacheForStream
@@ -24,10 +24,10 @@ public class GridCacheForStream
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [GetFileUrl](../../aspose.cells.gridjs/gridcacheforstream/getfileurl)(string) | 实现此方法从缓存中获取文件 url。 |
-| virtual [IsExisted](../../aspose.cells.gridjs/gridcacheforstream/isexisted)(string) | 检查带有uid的缓存是否存在 |
+| virtual [GetFileUrl](../../aspose.cells.gridjs/gridcacheforstream/getfileurl)(string) | 实现此方法从缓存中获取文件url。 |
+| virtual [IsExisted](../../aspose.cells.gridjs/gridcacheforstream/isexisted)(string) | 检查uid的缓存是否存在 |
 | virtual [LoadStream](../../aspose.cells.gridjs/gridcacheforstream/loadstream)(string) | 实现此方法以使用密钥 uid 加载缓存，从缓存中返回流。 |
-| virtual [SaveStream](../../aspose.cells.gridjs/gridcacheforstream/savestream)(Stream, string) | 实现这个方法来保存缓存，用key uid将流保存到缓存中。 |
+| virtual [SaveStream](../../aspose.cells.gridjs/gridcacheforstream/savestream)(Stream, string) | 实现这个方法保存缓存，用key uid将流保存到缓存中。 |
 
 ### 也可以看看
 

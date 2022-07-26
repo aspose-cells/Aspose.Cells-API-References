@@ -1,14 +1,14 @@
 ---
 title: HasFormula
 second_title: Aspose.Cells for .NET API 参考
-description: 如果以开头则表示文本是否为公式
+description: 如果文本以开头则表示文本是否为公式
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/txtloadoptions/hasformula/
 ---
 ## TxtLoadOptions.HasFormula property
 
-如果以“=”开头，则表示文本是否为公式。
+如果文本以“=”开头，则表示文本是否为公式。
 
 ```csharp
 public bool HasFormula { get; set; }

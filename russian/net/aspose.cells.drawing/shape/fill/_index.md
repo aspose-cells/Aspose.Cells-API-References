@@ -1,14 +1,14 @@
 ---
 title: Fill
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает объектFillFormat содержащий свойства форматирования заливки для указанной формы.
+description: ВозвращаетFillFormat объект содержащий свойства форматирования заливки для указанной формы.
 type: docs
 weight: 90
 url: /ru/net/aspose.cells.drawing/shape/fill/
 ---
 ## Shape.Fill property
 
-Возвращает объектFillFormat, содержащий свойства форматирования заливки для указанной формы.
+ВозвращаетFillFormat объект, содержащий свойства форматирования заливки для указанной формы.
 
 ```csharp
 public FillFormat Fill { get; }

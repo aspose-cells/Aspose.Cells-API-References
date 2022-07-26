@@ -1,14 +1,14 @@
 ---
 title: Hyperlinks
 second_title: Aspose.Cells for .NET API 参考
-description: 获取HyperlinkCollection集合
+description: 获取HyperlinkCollection集合.
 type: docs
 weight: 190
 url: /zh/net/aspose.cells.gridweb.data/gridworksheet/hyperlinks/
 ---
 ## GridWorksheet.Hyperlinks property
 
-获取HyperlinkCollection集合。
+获取HyperlinkCollection集合.
 
 ```csharp
 public GridHyperlinkCollection Hyperlinks { get; }

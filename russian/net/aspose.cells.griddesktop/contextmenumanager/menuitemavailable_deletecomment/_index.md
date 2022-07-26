@@ -8,7 +8,7 @@ url: /ru/net/aspose.cells.griddesktop/contextmenumanager/menuitemavailable_delet
 ---
 ## ContextMenuManager.MenuItemAvailable_DeleteComment property
 
-Получает или задает значение, указывающее, доступен ли пункт контекстного меню «Удалить комментарий».
+Получает или задает значение, указывающее, доступен ли пункт контекстного меню "Удалить комментарий".
 
 ```csharp
 public bool MenuItemAvailable_DeleteComment { get; set; }

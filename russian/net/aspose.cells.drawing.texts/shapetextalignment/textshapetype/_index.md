@@ -19,7 +19,7 @@ public AutoShapeType TextShapeType { get; set; }
 ```csharp
 
 [C#]
-  //Обычно не изменяйте это значение, если вы точно не знаете, к чему приведет изменение
+//Обычно не изменяйте это значение, если вы точно не знаете, к чему приведет изменение
 shapeTextAlignment.TextShapeType = AutoShapeType.TextBox;
 ```
 

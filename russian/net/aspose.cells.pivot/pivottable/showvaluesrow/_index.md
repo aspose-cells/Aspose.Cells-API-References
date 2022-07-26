@@ -1,14 +1,14 @@
 ---
 title: ShowValuesRow
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает логическое значение указывающее показывать ли строку значений. показать строку значений
+description: Задает логическое значение указывающее следует ли отображать значения row. отображать значения row
 type: docs
 weight: 690
 url: /ru/net/aspose.cells.pivot/pivottable/showvaluesrow/
 ---
 ## PivotTable.ShowValuesRow property
 
-Указывает логическое значение, указывающее, показывать ли строку значений. показать строку значений
+Задает логическое значение, указывающее, следует ли отображать значения row. отображать значения row
 
 ```csharp
 public bool ShowValuesRow { get; set; }

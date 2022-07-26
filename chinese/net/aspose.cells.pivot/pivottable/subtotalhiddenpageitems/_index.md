@@ -1,14 +1,14 @@
 ---
 title: SubtotalHiddenPageItems
 second_title: Aspose.Cells for .NET API 参考
-description: 指示数据透视表中的隐藏页面字段项 是否包含在行和列小计块总计和总计中 默认值为 False
+description: 表示数据透视表报表 中隐藏的页面字段项是否包含在行列小计块总计和总计中 默认值为False
 type: docs
 weight: 700
 url: /zh/net/aspose.cells.pivot/pivottable/subtotalhiddenpageitems/
 ---
 ## PivotTable.SubtotalHiddenPageItems property
 
-指示数据透视表中的隐藏页面字段项 是否包含在行和列小计、块总计和总计中。 默认值为 False。
+表示数据透视表报表 中隐藏的页面字段项是否包含在行列小计、块总计和总计中。 默认值为False。
 
 ```csharp
 public bool SubtotalHiddenPageItems { get; set; }

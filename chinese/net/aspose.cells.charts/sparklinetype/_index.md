@@ -1,14 +1,14 @@
 ---
 title: SparklineType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示迷你图类型
+description: 代表迷你图类型
 type: docs
 weight: 910
 url: /zh/net/aspose.cells.charts/sparklinetype/
 ---
 ## SparklineType enumeration
 
-表示迷你图类型。
+代表迷你图类型。
 
 ```csharp
 public enum SparklineType

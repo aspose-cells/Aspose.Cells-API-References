@@ -1,14 +1,14 @@
 ---
 title: BuiltInDocumentProperties
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает коллекциюDocumentPropertyaspose.cells.properties/documentproperty которая представляет все встроенные свойства документа электронной таблицы.
+description: ВозвращаетDocumentPropertyaspose.cells.properties/documentproperty коллекция которая представляет все встроенные свойства документа электронной таблицы.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.metadata/workbookmetadata/builtindocumentproperties/
 ---
 ## WorkbookMetadata.BuiltInDocumentProperties property
 
-Возвращает коллекцию[`DocumentProperty`](../../../aspose.cells.properties/documentproperty), которая представляет все встроенные свойства документа электронной таблицы.
+Возвращает[`DocumentProperty`](../../../aspose.cells.properties/documentproperty) коллекция, которая представляет все встроенные свойства документа электронной таблицы.
 
 ```csharp
 public BuiltInDocumentPropertyCollection BuiltInDocumentProperties { get; }

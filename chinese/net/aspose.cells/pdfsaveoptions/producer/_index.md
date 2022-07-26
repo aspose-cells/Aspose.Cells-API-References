@@ -1,14 +1,14 @@
 ---
 title: Producer
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置生成的 pdf 文档的生产者
+description: 获取并设置生成的pdf文档的生产者
 type: docs
 weight: 290
 url: /zh/net/aspose.cells/pdfsaveoptions/producer/
 ---
 ## PdfSaveOptions.Producer property
 
-获取和设置生成的 pdf 文档的生产者。
+获取并设置生成的pdf文档的生产者。
 
 ```csharp
 public string Producer { get; set; }
@@ -16,7 +16,7 @@ public string Producer { get; set; }
 
 ### 评论
 
-如果值为 null，或者未设置有效的 LICENSE，则字符串 Aspose.Cells vVERSION 将使用。
+如果值为 null，或者未设置有效的 LICENSE，则将使用字符串 Aspose.Cells vVERSION。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ThemeColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает цвет темы. Применяется только для цветового типа темы.
+description: Получает цвет темы. Применяется только для типа цвета темы.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells/cellscolor/themecolor/
 ---
 ## CellsColor.ThemeColor property
 
-Получает цвет темы. Применяется только для цветового типа темы.
+Получает цвет темы. Применяется только для типа цвета темы.
 
 ```csharp
 public ThemeColor ThemeColor { get; set; }

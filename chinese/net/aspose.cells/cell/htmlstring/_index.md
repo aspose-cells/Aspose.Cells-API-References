@@ -1,14 +1,14 @@
 ---
 title: HtmlString
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置包含此单元格中的数据和某些格式的 html 字符串
+description: 获取和设置包含该单元格中的数据和一些格式的html字符串
 type: docs
 weight: 110
 url: /zh/net/aspose.cells/cell/htmlstring/
 ---
 ## Cell.HtmlString property
 
-获取和设置包含此单元格中的数据和某些格式的 html 字符串。
+获取和设置包含该单元格中的数据和一些格式的html字符串。
 
 ```csharp
 public string HtmlString { get; set; }

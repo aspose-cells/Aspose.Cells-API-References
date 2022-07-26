@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает тип команды верхнего/нижнего колонтитула.
+description: Получает тип команды верхнего/нижнего колонтитула .
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/headerfootercommand/type/
 ---
 ## HeaderFooterCommand.Type property
 
-Получает тип команды верхнего/нижнего колонтитула.
+Получает тип команды верхнего/нижнего колонтитула .
 
 ```csharp
 public HeaderFooterCommandType Type { get; }

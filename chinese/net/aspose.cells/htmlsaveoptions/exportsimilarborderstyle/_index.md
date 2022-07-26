@@ -1,14 +1,14 @@
 ---
 title: ExportSimilarBorderStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 表示当浏览器不支持边框样式时是否导出相似边框样式 如果要将html或mht文件导入excel请保持默认值 默认值为假
+description: 表示浏览器不支持边框样式时是否导出相似的边框样式 如果要导入html或mht文件到excel请保持默认值 默认值为false
 type: docs
-weight: 240
+weight: 260
 url: /zh/net/aspose.cells/htmlsaveoptions/exportsimilarborderstyle/
 ---
 ## HtmlSaveOptions.ExportSimilarBorderStyle property
 
-表示当浏览器不支持边框样式时是否导出相似边框样式。 如果要将html或mht文件导入excel，请保持默认值。 默认值为假。
+表示浏览器不支持边框样式时是否导出相似的边框样式。 如果要导入html或mht文件到excel，请保持默认值。 默认值为false。
 
 ```csharp
 public bool ExportSimilarBorderStyle { get; set; }

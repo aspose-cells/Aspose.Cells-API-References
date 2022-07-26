@@ -1,14 +1,14 @@
 ---
 title: ChartSettings
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или устанавливает диаграмму этогоChartGlobalizationSettingsaspose.cells.charts/chartglobalizationsettings
+description: Получает или задает диаграмму этогоChartGlobalizationSettingsaspose.cells.charts/chartglobalizationsettings
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/globalizationsettings/chartsettings/
 ---
 ## GlobalizationSettings.ChartSettings property
 
-Получает или устанавливает диаграмму этого[`ChartGlobalizationSettings`](../../../aspose.cells.charts/chartglobalizationsettings)
+Получает или задает диаграмму этого[`ChartGlobalizationSettings`](../../../aspose.cells.charts/chartglobalizationsettings)
 
 ```csharp
 public ChartGlobalizationSettings ChartSettings { get; set; }

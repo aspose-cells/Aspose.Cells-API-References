@@ -1,14 +1,14 @@
 ---
 title: TotalsCalculation
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает тип вычисления в строке Итоги столбца списка.
+description: Получает и задает тип расчета в строке Итоги столбца списка.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.tables/listcolumn/totalscalculation/
 ---
 ## ListColumn.TotalsCalculation property
 
-Получает и задает тип вычисления в строке Итоги столбца списка.
+Получает и задает тип расчета в строке Итоги столбца списка.
 
 ```csharp
 public TotalsCalculation TotalsCalculation { get; set; }

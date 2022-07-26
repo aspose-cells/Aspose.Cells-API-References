@@ -1,14 +1,14 @@
 ---
 title: WebExtension
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает часть веб-расширения связанную с экземпляром панели задач
+description: Получает и задает часть веб-расширения связанную с панелью задач instance
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.webextensions/webextensiontaskpane/webextension/
 ---
 ## WebExtensionTaskPane.WebExtension property
 
-Получает и задает часть веб-расширения, связанную с экземпляром панели задач
+Получает и задает часть веб-расширения, связанную с панелью задач instance
 
 ```csharp
 public WebExtension WebExtension { get; set; }

@@ -17,7 +17,7 @@ public void ImportDataView(DataView dataView, TableItemStyle colHeaderStyle,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dataView | DataView | DataView 对象。 |
+| dataView | DataView | 数据视图对象。 |
 | colHeaderStyle | TableItemStyle | 指定数据视图标题栏的样式。 |
 | dataStyle | TableItemStyle | 指定数据区的样式。 |
 
@@ -40,7 +40,7 @@ public void ImportDataView(DataView dataView, TableItemStyle colHeaderStyle,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dataView | DataView | DataView 对象。 |
+| dataView | DataView | 数据视图对象。 |
 | colHeaderStyle | TableItemStyle | 指定数据视图标题栏的样式。 |
 | dataStyle | TableItemStyle | 指定数据区的样式。 |
 | sheetName | String | 指定工作表名称。如果工作表不存在，它将为您创建。 |

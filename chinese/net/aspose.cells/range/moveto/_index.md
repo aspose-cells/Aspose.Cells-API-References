@@ -3,7 +3,7 @@ title: MoveTo
 second_title: Aspose.Cells for .NET API 参考
 description: 将当前范围移动到目标范围
 type: docs
-weight: 310
+weight: 350
 url: /zh/net/aspose.cells/range/moveto/
 ---
 ## Range.MoveTo method
@@ -17,7 +17,7 @@ public void MoveTo(int destRow, int destColumn)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | destRow | Int32 | dest 范围的起始行。 |
-| destColumn | Int32 | dest 范围的起始列。 |
+| destColumn | Int32 | 目标范围的起始列。 |
 
 ### 也可以看看
 

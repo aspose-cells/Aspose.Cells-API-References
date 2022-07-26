@@ -1,14 +1,14 @@
 ---
 title: Row
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置索引从外到内枚举此任务窗格以及停靠在同一默认位置的其他持久任务窗格
+description: 获取和设置索引从外到内枚举在停靠在同一默认位置的其他持久任务窗格中此任务窗格的索引
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.webextensions/webextensiontaskpane/row/
 ---
 ## WebExtensionTaskPane.Row property
 
-获取和设置索引，从外到内枚举，此任务窗格以及停靠在同一默认位置的其他持久任务窗格。
+获取和设置索引，从外到内枚举，在停靠在同一默认位置的其他持久任务窗格中，此任务窗格的索引。
 
 ```csharp
 public int Row { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Validations
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает набор параметров проверки данных на листе.
+description: Получает коллекцию параметров проверки данных на листе.
 type: docs
 weight: 390
 url: /ru/net/aspose.cells.griddesktop/worksheet/validations/
 ---
 ## Worksheet.Validations property
 
-Получает набор параметров проверки данных на листе.
+Получает коллекцию параметров проверки данных на листе.
 
 ```csharp
 public GridValidationCollection Validations { get; }

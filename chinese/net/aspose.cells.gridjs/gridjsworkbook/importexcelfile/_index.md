@@ -18,7 +18,7 @@ public void ImportExcelFile(string uid, string fileName, string password)
 | --- | --- | --- |
 | uid | String | 文件缓存的uid，如果设置为null，稍后会生成。 |
 | fileName | String | 带有文件名的 excel 文件完整路径。 |
-| password | String | excel文件的打开密码。该值可以为 null 如果未设置密码 |
+| password | String | excel文件的打开密码。该值可以为 null 如果没有设置密码 |
 
 ### 也可以看看
 
@@ -59,7 +59,7 @@ public void ImportExcelFile(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 带有文件名的excel文件完整路径。 |
+| fileName | String | 带有文件名的 excel 文件完整路径。 |
 
 ### 也可以看看
 
@@ -112,7 +112,7 @@ public void ImportExcelFile(string uid, Workbook wb)
 
 ## ImportExcelFile(string, Stream, GridLoadFormat, string) {#importexcelfile_6}
 
-从 excel 文件流中导入。必须提供 loadformat 并且可以设置 GridJsWorkbook.CacheImp 来实现流缓存
+从excel文件流导入。必须提供加载格式，并且可以设置GridJsWorkbook.CacheImp来实现流缓存
 
 ```csharp
 public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format, string password)
@@ -122,8 +122,8 @@ public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format
 | --- | --- | --- |
 | uid | String | 文件缓存的uid，如果设置为null，稍后会生成。 |
 | filestream | Stream | excel 文件的流。 |
-| format | GridLoadFormat | excel文件的LoadFormat。 |
-| password | String | excel文件的打开密码。该值可以为null 如果没有设置密码 |
+| format | GridLoadFormat | excel 文件的 LoadFormat。 |
+| password | String | excel文件的打开密码。如果没有设置密码，该值可以为null |
 
 ### 也可以看看
 
@@ -136,7 +136,7 @@ public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format
 
 ## ImportExcelFile(string, Stream, GridLoadFormat) {#importexcelfile_5}
 
-从 excel 文件流中导入。必须提供 loadformat 并且可以设置 GridJsWorkbook.CacheImp 来实现流缓存
+从excel文件流导入。必须提供加载格式，并且可以设置GridJsWorkbook.CacheImp来实现流缓存
 
 ```csharp
 public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format)
@@ -146,7 +146,7 @@ public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format
 | --- | --- | --- |
 | uid | String | 文件缓存的uid，如果设置为null，稍后会生成。 |
 | filestream | Stream | excel 文件的流。 |
-| format | GridLoadFormat | excel文件的LoadFormat。 |
+| format | GridLoadFormat | excel 文件的 LoadFormat。 |
 
 ### 也可以看看
 
@@ -159,7 +159,7 @@ public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format
 
 ## ImportExcelFile(Stream, GridLoadFormat, string) {#importexcelfile_2}
 
-从 excel 文件流中导入。必须提供 loadformat 并且可以设置 GridJsWorkbook.CacheImp 来实现流缓存
+从excel文件流导入。必须提供加载格式，并且可以设置GridJsWorkbook.CacheImp来实现流缓存
 
 ```csharp
 public void ImportExcelFile(Stream filestream, GridLoadFormat format, string password)
@@ -168,8 +168,8 @@ public void ImportExcelFile(Stream filestream, GridLoadFormat format, string pas
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | filestream | Stream | excel 文件的流。 |
-| format | GridLoadFormat | excel文件的LoadFormat。 |
-| password | String | excel文件的打开密码。该值可以为null 如果没有设置密码 |
+| format | GridLoadFormat | excel 文件的 LoadFormat。 |
+| password | String | excel文件的打开密码。如果没有设置密码，该值可以为null |
 
 ### 也可以看看
 
@@ -182,7 +182,7 @@ public void ImportExcelFile(Stream filestream, GridLoadFormat format, string pas
 
 ## ImportExcelFile(Stream, GridLoadFormat) {#importexcelfile_1}
 
-从 excel 文件流中导入。必须提供 loadformat 并且可以设置 GridJsWorkbook.CacheImp 来实现流缓存
+从excel文件流导入。必须提供加载格式，并且可以设置GridJsWorkbook.CacheImp来实现流缓存
 
 ```csharp
 public void ImportExcelFile(Stream filestream, GridLoadFormat format)
@@ -191,7 +191,7 @@ public void ImportExcelFile(Stream filestream, GridLoadFormat format)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | filestream | Stream | excel 文件的流。 |
-| format | GridLoadFormat | excel文件的LoadFormat。 |
+| format | GridLoadFormat | excel 文件的 LoadFormat。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: RemoveField
 second_title: Справочник по Aspose.Cells для .NET API
-description: Удаляет поле из определенной области полей
+description: Удаляет поле из определенного поля area
 type: docs
 weight: 920
 url: /ru/net/aspose.cells.pivot/pivottable/removefield/
 ---
 ## RemoveField(PivotFieldType, string) {#removefield_2}
 
-Удаляет поле из определенной области полей
+Удаляет поле из определенного поля area
 
 ```csharp
 public void RemoveField(PivotFieldType fieldType, string fieldName)
@@ -16,7 +16,7 @@ public void RemoveField(PivotFieldType fieldType, string fieldName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldType | PivotFieldType | Область полей тип. |
+| fieldType | PivotFieldType | Тип области поля. |
 | fieldName | String | Имя в базовых полях. |
 
 ### Смотрите также
@@ -30,7 +30,7 @@ public void RemoveField(PivotFieldType fieldType, string fieldName)
 
 ## RemoveField(PivotFieldType, int) {#removefield_1}
 
-Удаляет поле из определенной области полей
+Удаляет поле из определенного поля area
 
 ```csharp
 public void RemoveField(PivotFieldType fieldType, int baseFieldIndex)
@@ -38,7 +38,7 @@ public void RemoveField(PivotFieldType fieldType, int baseFieldIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldType | PivotFieldType | Область полей тип. |
+| fieldType | PivotFieldType | Тип области поля. |
 | baseFieldIndex | Int32 | Индекс поля в базовых полях. |
 
 ### Смотрите также
@@ -52,7 +52,7 @@ public void RemoveField(PivotFieldType fieldType, int baseFieldIndex)
 
 ## RemoveField(PivotFieldType, PivotField) {#removefield}
 
-Удалить поле из определенной области поля
+Удалить поле из определенного поля area
 
 ```csharp
 public void RemoveField(PivotFieldType fieldType, PivotField pivotField)
@@ -60,7 +60,7 @@ public void RemoveField(PivotFieldType fieldType, PivotField pivotField)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldType | PivotFieldType | тип области полей .Это может быть одно из следующих значений:&lt;table border="1"&gt;&lt;tr&gt;&lt;td&gt;PivotFieldType.Row&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PivotFieldType. Столбец&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PivotFieldType.Data&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PivotFieldType.Page&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; |
+| fieldType | PivotFieldType | тип области поля. |
 | pivotField | PivotField | поле в базовых полях. |
 
 ### Смотрите также

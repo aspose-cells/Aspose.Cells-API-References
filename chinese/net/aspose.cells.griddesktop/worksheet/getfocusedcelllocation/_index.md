@@ -1,14 +1,14 @@
 ---
 title: GetFocusedCellLocation
 second_title: Aspose.Cells for .NET API 参考
-description: 获取聚焦的单元格位置
+description: 获取一个被聚焦的单元格位置
 type: docs
 weight: 740
 url: /zh/net/aspose.cells.griddesktop/worksheet/getfocusedcelllocation/
 ---
 ## Worksheet.GetFocusedCellLocation method
 
-获取聚焦的单元格位置。
+获取一个被聚焦的单元格位置。
 
 ```csharp
 public CellLocation GetFocusedCellLocation()

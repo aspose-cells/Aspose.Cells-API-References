@@ -20,58 +20,58 @@ public bool InvertIfNegative { get; set; }
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
-  //Добавление нового рабочего листа в рабочую книгу object
+//Добавление нового рабочего листа в объект Workbook
 int sheetIndex = workbook.Worksheets.Add();
-  //Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
+//Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
 Worksheet worksheet = workbook.Worksheets[sheetIndex];
-  //Добавление значения выборки в "A1" cell
+//Добавление пробного значения в ячейку "A1"
 worksheet.Cells["A1"].PutValue(50);
-//Добавление значения образца в "A2" cell
+//Добавление образца значения в ячейку "A2"
 worksheet.Cells["A2"].PutValue(-100);
-  //Добавление значения образца в "A3" cell
+//Добавление образца значения в ячейку "A3"
 worksheet.Cells["A3"].PutValue(150);
-  //Добавление диаграммы на лист
+//Добавляем диаграмму на рабочий лист
 int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-  //Доступ к экземпляру только что добавленного chart
+//Доступ к экземпляру только что добавленного графика
 Chart chart = worksheet.Charts[chartIndex];
-  //Добавление NSeries (источника данных диаграммы) на диаграмму в диапазоне от ячейки "A1" до "A3"
+//Добавление NSeries (источника данных диаграммы) на диаграмму в диапазоне от ячейки "A1" до "A3"
 chart.NSeries.Add("A1:A3", true);
 chart.NSeries[0].Area.InvertIfNegative = true;
-  //Установка цвета переднего плана 1-го NSeries area
+//Установка цвета переднего плана 1-й области NSeries
 chart.NSeries[0].Area.ForegroundColor = Color.Red;
-  //Установка цвета фона 1-й области NSeries.
+//Установка цвета фона 1-й области NSeries.
 // Цвет отображаемой области второй точки графика будет цветом фона.
 chart.NSeries[0].Area.BackgroundColor = Color.Yellow;
-  //Сохранение файла Excel
+//Сохранение файла Excel
 workbook.Save("book1.xls");
 
 [Visual Basic]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
-'Добавление нового рабочего листа в рабочую книгу object
+'Добавление нового рабочего листа в объект Workbook
 Dim sheetIndex As Integer = workbook.Worksheets.Add()
-'Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
+'Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
 Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
-'Добавление значения выборки в "A1" cell
+'Adding a sample value to "A1" cell
 worksheet.Cells("A1").PutValue(50)
-'Добавление значения выборки в "A2" cell
+'Adding a sample value to "A2" cell
 worksheet.Cells("A2").PutValue(-100)
-'Добавление значения выборки в "A3" cell
+'Adding a sample value to "A3" cell
 worksheet.Cells("A3").PutValue(150)
-'Добавление диаграммы на лист
+'Добавление диаграммы на рабочий лист
 Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5)
-'Доступ к экземпляру только что добавленного chart
+'Доступ к экземпляру вновь добавленной диаграммы
 Dim chart As Chart = worksheet.Charts(chartIndex)
-'Добавление NSeries (источника данных диаграммы) на диаграмму в диапазоне от ячейки "A1" до "A3"
+'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "A3"
 chart.NSeries.Add("A1:A3", True)
 chart.NSeries(0).Area.InvertIfNegative = True
-'Установка цвета переднего плана 1-го NSeries area
+'Установка цвета переднего плана 1-й области NSeries
 chart.NSeries(0).Area.ForegroundColor = Color.Red
 'Установка цвета фона 1-й области NSeries.
-' Цвет отображаемой области второй точки графика будет цветом фона.
+'Цвет отображаемой области второй точки графика будет цветом фона.
 chart.NSeries(0).Area.BackgroundColor = Color.Yellow
 'Сохранение файла Excel
 workbook.Save("book1.xls")

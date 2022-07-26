@@ -18,9 +18,9 @@ public enum GradientColorType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 无渐变色 |
+| None | `0` | 没有渐变色 |
 | OneColor | `1` | 一种渐变色 |
-| PresetColors | `2` | 预设渐变色 |
+| PresetColors | `2` | 预设渐变颜色 |
 | TwoColors | `3` | 两种渐变色 |
 
 ### 也可以看看

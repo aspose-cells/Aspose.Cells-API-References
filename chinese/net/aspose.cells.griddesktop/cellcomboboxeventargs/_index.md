@@ -1,14 +1,14 @@
 ---
 title: CellComboBoxEventArgs
 second_title: Aspose.Cells for .NET API 参考
-description: 为单元格 ComboBox 事件提供数据
+description: 为单元格组合框事件提供数据
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.griddesktop/cellcomboboxeventargs/
 ---
 ## CellComboBoxEventArgs class
 
-为单元格 ComboBox 事件提供数据。
+为单元格组合框事件提供数据。
 
 ```csharp
 public class CellComboBoxEventArgs : CellControlEventArgs
@@ -19,7 +19,7 @@ public class CellComboBoxEventArgs : CellControlEventArgs
 | 姓名 | 描述 |
 | --- | --- |
 | [Column](../../aspose.cells.griddesktop/cellcontroleventargs/column) { get; } | 获取工作表的列索引。 |
-| [Handled](../../aspose.cells.griddesktop/cellcomboboxeventargs/handled) { get; set; } | 获取或设置指示是否应处理事件的值。 |
+| [Handled](../../aspose.cells.griddesktop/cellcomboboxeventargs/handled) { get; set; } | 获取或设置是否应该处理事件的值。 |
 | [NewValue](../../aspose.cells.griddesktop/cellcomboboxeventargs/newvalue) { get; } | 获取要设置的新值。 |
 | [Row](../../aspose.cells.griddesktop/cellcontroleventargs/row) { get; } | 获取工作表的行索引。 |
 

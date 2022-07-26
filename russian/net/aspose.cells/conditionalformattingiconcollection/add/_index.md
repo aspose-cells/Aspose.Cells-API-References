@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Cells для .NET API
-description: ДобавляетConditionalFormattingIconaspose.cells/conditionalformattingiconобъект.
+description: ДобавляетConditionalFormattingIconaspose.cells/conditionalformattingicon объект.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/conditionalformattingiconcollection/add/
 ---
 ## Add(IconSetType, int) {#add_1}
 
-Добавляет[`ConditionalFormattingIcon`](../../conditionalformattingicon)объект.
+Добавляет[`ConditionalFormattingIcon`](../../conditionalformattingicon) объект.
 
 ```csharp
 public int Add(IconSetType type, int index)
@@ -34,7 +34,7 @@ public int Add(IconSetType type, int index)
 
 ## Add(ConditionalFormattingIcon) {#add}
 
-Добавляет[`ConditionalFormattingIcon`](../../conditionalformattingicon)объект.
+Добавляет[`ConditionalFormattingIcon`](../../conditionalformattingicon) объект.
 
 ```csharp
 public int Add(ConditionalFormattingIcon cficon)

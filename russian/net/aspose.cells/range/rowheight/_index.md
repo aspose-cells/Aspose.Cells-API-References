@@ -3,7 +3,7 @@ title: RowHeight
 second_title: Справочник по Aspose.Cells для .NET API
 description: Устанавливает или получает высоту строк в этом диапазоне
 type: docs
-weight: 140
+weight: 160
 url: /ru/net/aspose.cells/range/rowheight/
 ---
 ## Range.RowHeight property

@@ -1,14 +1,14 @@
 ---
 title: GetMergeByCell
 second_title: Справочник по Aspose.Cells для .NET API
-description: получить область слияния содержащую ячейку в строке столбце вернуть ноль если все области слияния не включают эту ячейку
+description: получить область слияния содержащую ячейку в строке расположении столбца вернуть значение null если все области слияния не включают эту ячейку location
 type: docs
 weight: 790
 url: /ru/net/aspose.cells.griddesktop/worksheet/getmergebycell/
 ---
 ## Worksheet.GetMergeByCell method
 
-получить область слияния, содержащую ячейку в строке, столбце, вернуть ноль, если все области слияния не включают эту ячейку
+получить область слияния, содержащую ячейку в строке, расположении столбца, вернуть значение null, если все области слияния не включают эту ячейку location
 
 ```csharp
 public CellRange GetMergeByCell(int row, int col)

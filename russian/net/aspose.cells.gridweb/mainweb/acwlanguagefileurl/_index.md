@@ -1,14 +1,14 @@
 ---
 title: ACWLanguageFileUrl
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает веб-адрес языкового файла элемента управления. Например/acw_client/lang_en.js. ltbrgtПо умолчанию используется встроенный английский файл.lt/brgt
+description: Получает или задает URL-адрес языкового файла элемента управления. Например /acw_client/lang_en.js. По умолчанию используется встроенный английский файл.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells.gridweb/mainweb/acwlanguagefileurl/
 ---
 ## MainWeb.ACWLanguageFileUrl property
 
-Получает или задает веб-адрес языкового файла элемента управления. Например:"/acw_client/lang_en.js". &lt;br&gt;По умолчанию используется встроенный английский файл.&lt;/br&gt;
+Получает или задает URL-адрес языкового файла элемента управления. Например: "/acw_client/lang_en.js". По умолчанию используется встроенный английский файл.
 
 ```csharp
 public string ACWLanguageFileUrl { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: XmlSaveOptions
 second_title: Справочник по Aspose.Cells для .NET API
-description: Создает опции для сохранения файла xml.
+description: Создает параметры для сохранения XML-файла.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/xmlsaveoptions/xmlsaveoptions/
 ---
 ## XmlSaveOptions constructor
 
-Создает опции для сохранения файла xml.
+Создает параметры для сохранения XML-файла.
 
 ```csharp
 public XmlSaveOptions()

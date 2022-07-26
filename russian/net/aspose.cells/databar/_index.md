@@ -1,14 +1,14 @@
 ---
 title: DataBar
 second_title: Справочник по Aspose.Cells для .NET API
-description: Опишите правило условного форматирования DataBar. Это правило условного форматирования отображает градуированную панель данных в диапазоне ячеек.
+description: Опишите правило условного форматирования DataBar. Это правило условного форматирования отображает гистограмму данных gradated в диапазоне ячеек.
 type: docs
 weight: 1240
 url: /ru/net/aspose.cells/databar/
 ---
 ## DataBar class
 
-Опишите правило условного форматирования DataBar. Это правило условного форматирования отображает градуированную панель данных в диапазоне ячеек.
+Опишите правило условного форматирования DataBar. Это правило условного форматирования отображает гистограмму данных gradated в диапазоне ячеек.
 
 ```csharp
 public class DataBar
@@ -20,16 +20,16 @@ public class DataBar
 | --- | --- |
 | [AxisColor](../../aspose.cells/databar/axiscolor) { get; set; } | Получает цвет оси для ячеек с условным форматированием в виде гистограмм. |
 | [AxisPosition](../../aspose.cells/databar/axisposition) { get; set; } | Получает или задает положение оси гистограмм, заданное правилом условного форматирования. |
-| [BarBorder](../../aspose.cells/databar/barborder) { get; } | Получает объект, указывающий границу гистограммы. |
+| [BarBorder](../../aspose.cells/databar/barborder) { get; } | Получает объект, указывающий границу гистограммы данных. |
 | [BarFillType](../../aspose.cells/databar/barfilltype) { get; set; } | Получает или задает способ заполнения панели данных цветом. |
-| [Color](../../aspose.cells/databar/color) { get; set; } | Получить или установить цвет этого DataBar. |
+| [Color](../../aspose.cells/databar/color) { get; set; } | Получить или установить цвет этой панели данных. |
 | [Direction](../../aspose.cells/databar/direction) { get; set; } | Получает или задает направление отображения панели данных. |
-| [MaxCfvo](../../aspose.cells/databar/maxcfvo) { get; } | Получите или установите объект максимального значения этого DataBar. Невозможно установить значение null или CFValueObject с типом FormatConditionValueType.Min. |
+| [MaxCfvo](../../aspose.cells/databar/maxcfvo) { get; } | Получить или установить объект максимального значения этого DataBar. Невозможно установить для него null или CFValueObject с типом FormatConditionValueType.Min. |
 | [MaxLength](../../aspose.cells/databar/maxlength) { get; set; } | Представляет максимальную длину строки данных. |
-| [MinCfvo](../../aspose.cells/databar/mincfvo) { get; } | Получить или установить объект минимального значения этого DataBar. Невозможно установить значение null или CFValueObject с типом FormatConditionValueType.Max. |
+| [MinCfvo](../../aspose.cells/databar/mincfvo) { get; } | Получить или установить объект минимального значения этого DataBar. Невозможно установить для него null или CFValueObject с типом FormatConditionValueType.Max. |
 | [MinLength](../../aspose.cells/databar/minlength) { get; set; } | Представляет минимальную длину строки данных. |
 | [NegativeBarFormat](../../aspose.cells/databar/negativebarformat) { get; } | Получает объект NegativeBarFormat, связанный с правилом условного форматирования гистограммы. |
-| [ShowValue](../../aspose.cells/databar/showvalue) { get; set; } | Получите или установите флаг, указывающий, следует ли отображать значения ячеек, к которым применяется эта панель данных. Значение по умолчанию — true. |
+| [ShowValue](../../aspose.cells/databar/showvalue) { get; set; } | Получить или установить флаг, указывающий, следует ли отображать значения ячеек, к которым применяется эта панель данных. Значение по умолчанию — true. |
 
 ## Методы
 
@@ -43,17 +43,17 @@ public class DataBar
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 
 Worksheet sheet = workbook.Worksheets[0];
 
-  //Добавляет пустое условное форматирование
+//Добавляет пустое условное форматирование
 int index = sheet.ConditionalFormattings.Add();
 
 FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
 
-  //Устанавливает диапазон условного формата.
+//Устанавливает диапазон условного формата.
 CellArea ca = new CellArea();
 
 ca.StartRow = 0;
@@ -66,19 +66,19 @@ ca.EndColumn = 0;
 
 fcs.AddArea(ca);
 
-  //Добавляет условие.
+//Добавляет условие.
 int idx = fcs.AddCondition(FormatConditionType.DataBar);
 
 fcs.AddArea(ca);
 
 FormatCondition cond = fcs[idx];
 
-  //Получить панель данных
+//Получить панель данных
 DataBar dataBar = cond.DataBar;
 
 dataBar.Color = Color.Orange;
 
-  //Установить свойства панели данных
+//Задаем свойства панели данных
 dataBar.MinCfvo.Type = FormatConditionValueType.Percentile;
 
 dataBar.MinCfvo.Value = 30;
@@ -103,7 +103,7 @@ dataBar.BarBorder.Color = Color.Plum;
  
  dataBar.NegativeBarFormat.BorderColor = Color.Yellow;
  
-  //Поместите значения ячеек
+//Помещаем значения ячеек
 Aspose.Cells.Cell cell1 = sheet.Cells["A1"];
 
 cell1.PutValue(10);
@@ -116,12 +116,12 @@ Aspose.Cells.Cell cell3 = sheet.Cells["A3"];
 
 cell3.PutValue(260);
 
-  //Сохранение файла Excel
+//Сохранение файла Excel
 workbook.Save("book1.xlsx");
 
 [VB.NET]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
 
 Dim sheet As Worksheet = workbook.Worksheets(0)
@@ -151,7 +151,7 @@ fcs.AddArea(ca)
 
 Dim cond As FormatCondition = fcs(idx)
 
-'Получить Databar
+'Получить панель данных
 Dim dataBar As DataBar = cond.DataBar
 
 dataBar.Color = Color.Orange

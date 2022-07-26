@@ -20,7 +20,7 @@ public string SourceName { get; }
 
 [C#]
 
- //获取缓存字段的名称.
+//获取缓存字段的名称。
 Console.WriteLine(slicerCache.SourceName);
 ```
 

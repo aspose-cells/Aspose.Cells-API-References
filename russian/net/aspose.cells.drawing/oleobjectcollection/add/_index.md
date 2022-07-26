@@ -17,14 +17,14 @@ public int Add(int upperLeftRow, int upperLeftColumn, int height, int width, byt
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
 | height | Int32 | Высота oleObject в пикселях. |
-| width | Int32 | Ширина объекта oleObject в пикселях. |
+| width | Int32 | Ширина oleObject в пикселях. |
 | imageData | Byte[] | Изображение объекта ole в виде массива байтов. |
 
 ### Возвращаемое значение
 
-[`OleObject`](../../oleobject)индекс объекта.
+[`OleObject`](../../oleobject) индекс объекта.
 
 ### Смотрите также
 
@@ -46,15 +46,15 @@ public int Add(int upperLeftRow, int upperLeftColumn, int height, int width, byt
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
 | height | Int32 | Высота oleObject в пикселях. |
-| width | Int32 | Ширина объекта oleObject в пикселях. |
+| width | Int32 | Ширина oleObject в пикселях. |
 | imageData | Byte[] | Изображение объекта ole в виде массива байтов. |
 | linkedFile | String |  |
 
 ### Возвращаемое значение
 
-[`OleObject`](../../oleobject)индекс объекта.
+[`OleObject`](../../oleobject) индекс объекта.
 
 ### Смотрите также
 

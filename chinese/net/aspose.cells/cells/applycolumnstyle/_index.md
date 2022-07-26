@@ -1,14 +1,14 @@
 ---
 title: ApplyColumnStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 对整列应用格式
+description: 为整列应用格式
 type: docs
 weight: 330
 url: /zh/net/aspose.cells/cells/applycolumnstyle/
 ---
 ## Cells.ApplyColumnStyle method
 
-对整列应用格式。
+为整列应用格式。
 
 ```csharp
 public void ApplyColumnStyle(int column, Style style, StyleFlag flag)
@@ -18,7 +18,7 @@ public void ApplyColumnStyle(int column, Style style, StyleFlag flag)
 | --- | --- | --- |
 | column | Int32 | 列索引。 |
 | style | Style | 将应用的样式对象。 |
-| flag | StyleFlag | 指示应用格式属性的标志。 |
+| flag | StyleFlag | 指示应用的格式属性的标志。 |
 
 ### 也可以看看
 

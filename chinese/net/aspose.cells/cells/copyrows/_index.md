@@ -40,7 +40,7 @@ public void CopyRows(Cells sourceCells0, int sourceRowIndex, int destinationRowI
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sourceCells0 | Cells | 源单元格对象包含要复制的数据和格式。 |
+| sourceCells0 | Cells | Source Cells 对象包含要复制的数据和格式。 |
 | sourceRowIndex | Int32 | 源行索引。 |
 | destinationRowIndex | Int32 | 目标行索引。 |
 | rowNumber | Int32 | 复制的行号。 |
@@ -66,7 +66,7 @@ public void CopyRows(Cells sourceCells0, int sourceRowIndex, int destinationRowI
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sourceCells0 | Cells | 源单元格对象包含要复制的数据和格式。 |
+| sourceCells0 | Cells | Source Cells 对象包含要复制的数据和格式。 |
 | sourceRowIndex | Int32 | 源行索引。 |
 | destinationRowIndex | Int32 | 目标行索引。 |
 | rowNumber | Int32 | 复制的行号。 |

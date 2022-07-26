@@ -1,22 +1,21 @@
 ---
 title: SetIsReadonly
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает доступна ли ячейка только для чтения. Это расширенный атрибут GridWeb он не будет храниться в фактическом файле Excel
+description: Устанавливает доступна ли ячейка только для чтения. Это расширенный атрибут GridWeb он не будет сохраняться в фактическом файле excel
 type: docs
 weight: 760
 url: /ru/net/aspose.cells.gridweb.data/gridworksheet/setisreadonly/
 ---
 ## GridWorksheet.SetIsReadonly method
 
-Устанавливает, доступна ли ячейка только для чтения. Это расширенный атрибут GridWeb, он не будет храниться в фактическом файле Excel
+Устанавливает, доступна ли ячейка только для чтения. Это расширенный атрибут GridWeb, он не будет сохраняться в фактическом файле excel
 
 ```csharp
-public void SetIsReadonly(GridCell cell, bool value)
+public void SetIsReadonly(int row, int col, bool value)
 ```
 
 ### Смотрите также
 
-* class [GridCell](../../gridcell)
 * class [GridWorksheet](../../gridworksheet)
 * пространство имен [Aspose.Cells.GridWeb.Data](../../gridworksheet)
 * сборка [Aspose.Cells.GridWeb](../../../)

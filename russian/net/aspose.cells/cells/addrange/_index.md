@@ -1,14 +1,14 @@
 ---
 title: AddRange
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет ссылку на объект диапазона в ячейки
+description: Добавляет ссылку на объект диапазона в cell
 type: docs
 weight: 320
 url: /ru/net/aspose.cells/cells/addrange/
 ---
 ## Cells.AddRange method
 
-Добавляет ссылку на объект диапазона в ячейки
+Добавляет ссылку на объект диапазона в cell
 
 ```csharp
 public void AddRange(Range rangeObject)

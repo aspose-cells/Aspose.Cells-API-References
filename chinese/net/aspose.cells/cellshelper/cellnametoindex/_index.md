@@ -16,7 +16,7 @@ public static void CellNameToIndex(string cellName, out int row, out int column)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cellName | String | 单元格名称。 |
+| cellName | String | 单元格的名称。 |
 | row | Int32& | 输出行索引 |
 | column | Int32& | 输出列索引 |
 

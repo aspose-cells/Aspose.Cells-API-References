@@ -21,7 +21,7 @@ public static int[] ImportData(string json, Cells cells, int row, int column,
 | cells | Cells | Клетки. |
 | row | Int32 | Индекс строки. |
 | column | Int32 | Индекс столбца. |
-| option | JsonLayoutOptions | Параметры импорта строки json. |
+| option | JsonLayoutOptions | Варианты импорта строки json. |
 
 ### Смотрите также
 

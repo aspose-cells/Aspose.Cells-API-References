@@ -1,14 +1,14 @@
 ---
 title: Area
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПолучаетAreaaspose.cells.charts/dropbars/area.
+description: ПолучаетAreaaspose.cells.charts/dropbars/area .
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.charts/dropbars/area/
 ---
 ## DropBars.Area property
 
-Получает`Area`.
+Получает`Area` .
 
 ```csharp
 public Area Area { get; }

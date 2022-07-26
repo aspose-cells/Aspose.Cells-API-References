@@ -3,7 +3,7 @@ title: ShowGroupDetail
 second_title: Aspose.Cells for .NET API 参考
 description: 展开分组的行/列
 type: docs
-weight: 1290
+weight: 1300
 url: /zh/net/aspose.cells/cells/showgroupdetail/
 ---
 ## Cells.ShowGroupDetail method
@@ -16,7 +16,7 @@ public void ShowGroupDetail(bool isVertical, int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| isVertical | Boolean | True，展开分组的行。 |
+| isVertical | Boolean | 是的，扩展分组的行。 |
 | index | Int32 | 行/列索引 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: SparklineCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 获取迷你图组的SparklineCollectionaspose.cells.charts/sparklinegroup/sparklinecollection对象
+description: 获取SparklineCollectionaspose.cells.charts/sparklinegroup/sparklinecollection迷你图组的对象
 type: docs
 weight: 220
 url: /zh/net/aspose.cells.charts/sparklinegroup/sparklinecollection/
 ---
 ## SparklineGroup.SparklineCollection property
 
-获取迷你图组的`SparklineCollection`对象。
+获取`SparklineCollection`迷你图组的对象。
 
 ```csharp
 public SparklineCollection SparklineCollection { get; }

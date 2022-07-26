@@ -1,14 +1,14 @@
 ---
 title: SameImageDetecting
 second_title: Aspose.Cells for .NET API 参考
-description: 设置是否检查图片是否同源默认为真 默认值为真
+description: 设置是否检查图片是否同源默认为true 默认值为true
 type: docs
 weight: 140
 url: /zh/net/aspose.cells.gridjs/config/sameimagedetecting/
 ---
 ## Config.SameImageDetecting property
 
-设置是否检查图片是否同源，默认为真 默认值为真
+设置是否检查图片是否同源，默认为true 默认值为true
 
 ```csharp
 public static bool SameImageDetecting { get; set; }

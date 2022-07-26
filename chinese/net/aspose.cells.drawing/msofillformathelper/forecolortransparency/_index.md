@@ -1,14 +1,14 @@
 ---
 title: ForeColorTransparency
 second_title: Aspose.Cells for .NET API 参考
-description: 以从 0.0不透明到 1.0透明的值返回或设置指定填充的前景色度
+description: 返回或设置指定填充的前景色度为 0.0不透明到 1.0透明的值
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.drawing/msofillformathelper/forecolortransparency/
 ---
 ## MsoFillFormatHelper.ForeColorTransparency property
 
-以从 0.0（不透明）到 1.0（透明）的值返回或设置指定填充的前景色度。
+返回或设置指定填充的前景色度为 0.0（不透明）到 1.0（透明）的值。
 
 ```csharp
 public double ForeColorTransparency { get; set; }

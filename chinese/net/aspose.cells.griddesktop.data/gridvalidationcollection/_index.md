@@ -1,14 +1,14 @@
 ---
 title: GridValidationCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装GridValidation./gridvalidation对象的集合
+description: 封装了一个集合GridValidation./gridvalidation对象.
 type: docs
 weight: 720
 url: /zh/net/aspose.cells.griddesktop.data/gridvalidationcollection/
 ---
 ## GridValidationCollection class
 
-封装[`GridValidation`](../gridvalidation)对象的集合。
+封装了一个集合[`GridValidation`](../gridvalidation)对象.
 
 ```csharp
 public class GridValidationCollection
@@ -19,22 +19,22 @@ public class GridValidationCollection
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.cells.griddesktop.data/gridvalidationcollection/count) { get; } |  |
-| [Item](../../aspose.cells.griddesktop.data/gridvalidationcollection/item) { get; } | 获取指定索引处的Hyperlink元素。 (2 indexers) |
+| [Item](../../aspose.cells.griddesktop.data/gridvalidationcollection/item) { get; } | 获取Hyperlink指定索引处的元素。 (2 indexers) |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add)() | 添加[`GridValidation`](../gridvalidation)到集合中。 |
-| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_3)(GridValidation) | 添加[`GridValidation`](../gridvalidation)到集合中。 |
-| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_2)(string) | 添加[`GridValidation`](../gridvalidation)到集合。验证应用于指定的单元格。 |
-| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_1)(int, int) | 添加[`GridValidation`](../gridvalidation)到集合。验证应用于指定的单元格。 |
+| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add)() | 添加一个[`GridValidation`](../gridvalidation)收藏. |
+| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_3)(GridValidation) | 添加一个[`GridValidation`](../gridvalidation)收藏. |
+| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_2)(string) | 添加一个[`GridValidation`](../gridvalidation)到集合。验证应用于指定的单元格。 |
+| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_1)(int, int) | 添加一个[`GridValidation`](../gridvalidation)到集合。验证应用于指定的单元格。 |
 | [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_6)(string, ICustomValidation) | 按单元格名称向指定单元格添加验证。 |
 | [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_4)(int, int, ICustomValidation) | 将验证添加到行列索引处的指定单元格。 |
 | [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_7)(string, bool, string) | 按单元格名称向指定单元格添加验证。 |
 | [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_5)(int, int, bool, string) | 将验证添加到行列索引处的指定单元格。 |
 | [Clear](../../aspose.cells.griddesktop.data/gridvalidationcollection/clear)() | 清除所有验证。 |
-| [RemoveAt](../../aspose.cells.griddesktop.data/gridvalidationcollection/removeat)(int) | 删除指定索引处的验证。 |
+| [RemoveAt](../../aspose.cells.griddesktop.data/gridvalidationcollection/removeat)(int) | 移除指定索引处的验证。 |
 
 ### 也可以看看
 

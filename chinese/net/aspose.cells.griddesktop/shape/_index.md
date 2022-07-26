@@ -22,7 +22,7 @@ public class Shape
 | [ActualWidth](../../aspose.cells.griddesktop/shape/actualwidth) { get; } |  |
 | [Column](../../aspose.cells.griddesktop/shape/column) { get; } |  |
 | [Image](../../aspose.cells.griddesktop/shape/image) { get; } |  |
-| [ImageFormat](../../aspose.cells.griddesktop/shape/imageformat) { get; } | 获取图片的图片格式。 |
+| [ImageFormat](../../aspose.cells.griddesktop/shape/imageformat) { get; } | 获取图片的图像格式 |
 | [Left](../../aspose.cells.griddesktop/shape/left) { get; } | 表示形状与其左列的水平偏移量，以像素为单位。 |
 | [LeftOffset](../../aspose.cells.griddesktop/shape/leftoffset) { get; } | 表示形状与其左列的水平偏移量，以像素为单位。 |
 | [LeftToCorner](../../aspose.cells.griddesktop/shape/lefttocorner) { get; } |  |

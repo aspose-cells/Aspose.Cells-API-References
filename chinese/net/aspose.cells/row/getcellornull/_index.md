@@ -1,14 +1,14 @@
 ---
 title: GetCellOrNull
 second_title: Aspose.Cells for .NET API 参考
-description: 获取特定索引中的单元格或 null
+description: 获取特定索引中的单元格或空值
 type: docs
 weight: 170
 url: /zh/net/aspose.cells/row/getcellornull/
 ---
 ## Row.GetCellOrNull method
 
-获取特定索引中的单元格或 null。
+获取特定索引中的单元格或空值。
 
 ```csharp
 public Cell GetCellOrNull(int column)
@@ -20,7 +20,7 @@ public Cell GetCellOrNull(int column)
 
 ### 返回值
 
-如果细胞存在。 如果单元格对象不存在，则返回 null。
+如果单元格存在，则返回单元格对象。 如果单元格对象不存在，则返回 null。
 
 ### 也可以看看
 

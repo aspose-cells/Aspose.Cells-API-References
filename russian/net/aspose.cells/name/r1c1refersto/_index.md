@@ -1,14 +1,14 @@
 ---
 title: R1C1RefersTo
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает ссылку R1C1 наNameaspose.cells/name.
+description: Получает или задает ссылку R1C1 наNameaspose.cells/name .
 type: docs
 weight: 50
 url: /ru/net/aspose.cells/name/r1c1refersto/
 ---
 ## Name.R1C1RefersTo property
 
-Получает или задает ссылку R1C1 на[`Name`](../../name).
+Получает или задает ссылку R1C1 на[`Name`](../../name) .
 
 ```csharp
 public string R1C1RefersTo { get; set; }

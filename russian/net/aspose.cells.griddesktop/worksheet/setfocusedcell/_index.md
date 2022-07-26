@@ -1,14 +1,14 @@
 ---
 title: SetFocusedCell
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает фокус ячейки в указанное место.
+description: Устанавливает фокус ячейки в указанном месте.
 type: docs
 weight: 1040
 url: /ru/net/aspose.cells.griddesktop/worksheet/setfocusedcell/
 ---
 ## SetFocusedCell(CellLocation) {#setfocusedcell}
 
-Устанавливает фокус ячейки в указанное место.
+Устанавливает фокус ячейки в указанном месте.
 
 ```csharp
 public void SetFocusedCell(CellLocation cellLocation)
@@ -16,7 +16,7 @@ public void SetFocusedCell(CellLocation cellLocation)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cellLocation | CellLocation | Местоположение ячейки. |
+| cellLocation | CellLocation | Расположение ячейки. |
 
 ### Смотрите также
 

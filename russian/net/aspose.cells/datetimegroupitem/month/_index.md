@@ -1,14 +1,14 @@
 ---
 title: Month
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает месяц сгруппированной даты и времени.
+description: Получает и устанавливает месяц сгруппированного времени даты.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells/datetimegroupitem/month/
 ---
 ## DateTimeGroupItem.Month property
 
-Получает и устанавливает месяц сгруппированной даты и времени.
+Получает и устанавливает месяц сгруппированного времени даты.
 
 ```csharp
 public int Month { get; set; }

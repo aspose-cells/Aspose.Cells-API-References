@@ -35,7 +35,7 @@ public Range GetRangeByName(string rangeName)
 
 ## GetRangeByName(string, int, bool) {#getrangebyname_1}
 
-通过预定义名称或表名获取[`Range`](../../range)
+获取[`Range`](../../range)通过预定义的名称或表的名称
 
 ```csharp
 public Range GetRangeByName(string rangeName, int currentSheetIndex, bool includeTable)
@@ -45,7 +45,7 @@ public Range GetRangeByName(string rangeName, int currentSheetIndex, bool includ
 | --- | --- | --- |
 | rangeName | String | 范围名称或表名称。 |
 | currentSheetIndex | Int32 | 工作表索引。 -1 代表全局。 |
-| includeTable | Boolean | 表示是否检查所有表。 |
+| includeTable | Boolean | 指示是否检查所有表。 |
 
 ### 也可以看看
 

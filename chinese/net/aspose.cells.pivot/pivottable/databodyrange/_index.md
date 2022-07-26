@@ -1,14 +1,14 @@
 ---
 title: DataBodyRange
 second_title: Aspose.Cells for .NET API 参考
-description: 返回一个 CellArea 对象该对象表示在标题行和插入行之间的列表中包含数据区域 的范围只读
+description: 返回一个 CellArea 对象该对象表示在标题行和插入行之间的列表中包含数据 area 的范围只读
 type: docs
 weight: 100
 url: /zh/net/aspose.cells.pivot/pivottable/databodyrange/
 ---
 ## PivotTable.DataBodyRange property
 
-返回一个 CellArea 对象，该对象表示在标题行和插入行之间的列表中包含数据区域 的范围。只读。
+返回一个 CellArea 对象，该对象表示在标题行和插入行之间的列表中包含数据 area 的范围。只读。
 
 ```csharp
 public CellArea DataBodyRange { get; }

@@ -1,14 +1,14 @@
 ---
 title: DefaultStyle
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает объект по умолчаниюStyleaspose.cells/styleрабочей книги.
+description: Получает или задает значение по умолчаниюStyleaspose.cells/style объект книги.
 type: docs
 weight: 130
 url: /ru/net/aspose.cells/workbook/defaultstyle/
 ---
 ## Workbook.DefaultStyle property
 
-Получает или задает объект по умолчанию[`Style`](../../style)рабочей книги.
+Получает или задает значение по умолчанию[`Style`](../../style) объект книги.
 
 ```csharp
 public Style DefaultStyle { get; set; }
@@ -20,7 +20,7 @@ public Style DefaultStyle { get; set; }
 
 ### Примеры
 
-Следующий код создает и создает новую рабочую книгу и устанавливает значение по умолчанию[`Style`](../../style)к нему.
+Следующий код создает новую рабочую книгу и устанавливает значение по умолчанию.[`Style`](../../style) к этому.
 
 ```csharp
 [C#]

@@ -1,14 +1,14 @@
 ---
 title: Distance
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает расстояние от тени в единицах точек.
+description: Получает и задает расстояние до тени в пунктах.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.drawing/reflectioneffect/distance/
 ---
 ## ReflectionEffect.Distance property
 
-Получает и задает расстояние от тени в единицах точек.
+Получает и задает расстояние до тени в пунктах.
 
 ```csharp
 public double Distance { get; set; }

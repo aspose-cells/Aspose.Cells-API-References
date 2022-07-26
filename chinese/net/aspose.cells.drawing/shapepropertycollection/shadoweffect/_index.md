@@ -1,14 +1,14 @@
 ---
 title: ShadowEffect
 second_title: Aspose.Cells for .NET API 参考
-description: 表示对象该对象指定图表元素或形状的阴影效果
+description: 代表一个为图表元素或形状指定阴影效果的对象
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.drawing/shapepropertycollection/shadoweffect/
 ---
 ## ShapePropertyCollection.ShadowEffect property
 
-表示对象，该对象指定图表元素或形状的阴影效果。
+代表一个为图表元素或形状指定阴影效果的对象。
 
 ```csharp
 public ShadowEffect ShadowEffect { get; }

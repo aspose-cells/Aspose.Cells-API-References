@@ -1,14 +1,14 @@
 ---
 title: PageIndex
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置要保存的第一页的从 0 开始的索引
+description: 获取或设置要保存的第一页的从0开始的索引
 type: docs
 weight: 210
 url: /zh/net/aspose.cells.rendering/imageorprintoptions/pageindex/
 ---
 ## ImageOrPrintOptions.PageIndex property
 
-获取或设置要保存的第一页的从 0 开始的索引。
+获取或设置要保存的第一页的从0开始的索引。
 
 ```csharp
 public int PageIndex { get; set; }
@@ -16,7 +16,7 @@ public int PageIndex { get; set; }
 
 ### 评论
 
-默认为 0。
+默认为 0.
 
 ### 也可以看看
 

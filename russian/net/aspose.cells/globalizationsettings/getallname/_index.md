@@ -8,7 +8,7 @@ url: /ru/net/aspose.cells/globalizationsettings/getallname/
 ---
 ## GlobalizationSettings.GetAllName method
 
-Получает имя метки "(Все)" в сводной таблице.
+Получает имя метки «(Все)» в сводной таблице.
 
 ```csharp
 public virtual string GetAllName()
@@ -16,7 +16,7 @@ public virtual string GetAllName()
 
 ### Возвращаемое значение
 
-Имя метки "(Все)"
+Название ярлыка "(Все)"
 
 ### Смотрите также
 

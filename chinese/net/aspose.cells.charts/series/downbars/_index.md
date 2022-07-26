@@ -1,14 +1,14 @@
 ---
 title: DownBars
 second_title: Aspose.Cells for .NET API 参考
-description: 返回一个DropBarsaspose.cells.charts/dropbars对象该对象表示折线图上的向下柱 仅适用于折线图
+description: 返回一个DropBarsaspose.cells.charts/dropbars表示折线图上的向下柱的对象 仅适用于折线图
 type: docs
 weight: 100
 url: /zh/net/aspose.cells.charts/series/downbars/
 ---
 ## Series.DownBars property
 
-返回一个[`DropBars`](../../dropbars)对象，该对象表示折线图上的向下柱。 仅适用于折线图。
+返回一个[`DropBars`](../../dropbars)表示折线图上的向下柱的对象。 仅适用于折线图。
 
 ```csharp
 public DropBars DownBars { get; }

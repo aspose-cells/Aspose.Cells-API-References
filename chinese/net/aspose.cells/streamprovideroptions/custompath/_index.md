@@ -1,14 +1,14 @@
 ---
 title: CustomPath
 second_title: Aspose.Cells for .NET API 参考
-description: 用户自定义路径URL保存在生成的 html 文件中用于引用的源如果用户未定义则将使用 DefaultPath 例如表单数据将被用户保存到 d/sheet001.htm主 html 文件中使用的 url 应该是d/sheet001.htm或其他有效的相对路径可以通过主 html 文件访问
+description: 保存在为引用源生成的 html 文件中的用户自定义路径URL如果用户未定义则使用 DefaultPath 例如用户将表单数据保存到 d/sheet001.htm主 html 文件中使用的 url 应为d/sheet001.htm或主 html 文件可以访问的其他有效相对路径
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/streamprovideroptions/custompath/
 ---
 ## StreamProviderOptions.CustomPath property
 
-用户自定义路径（URL）保存在生成的 html 文件中，用于引用的源。如果用户未定义，则将使用 DefaultPath。 例如，表单数据将被用户保存到 d:/sheet001.htm，主 html 文件中使用的 url 应该是“d:/sheet001.htm”或其他有效的相对路径可以通过主 html 文件访问。
+保存在为引用源生成的 html 文件中的用户自定义路径（URL）。如果用户未定义，则使用 DefaultPath。 例如，用户将表单数据保存到 d:/sheet001.htm，主 html 文件中使用的 url 应为“d:/sheet001.htm”或主 html 文件可以访问的其他有效相对路径。
 
 ```csharp
 public string CustomPath { set; }

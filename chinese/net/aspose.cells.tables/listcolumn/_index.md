@@ -19,9 +19,9 @@ public class ListColumn
 | 姓名 | 描述 |
 | --- | --- |
 | [Formula](../../aspose.cells.tables/listcolumn/formula) { get; set; } | 获取和设置列表列的公式。 |
-| [Name](../../aspose.cells.tables/listcolumn/name) { get; set; } | 获取和设置列名。 |
+| [Name](../../aspose.cells.tables/listcolumn/name) { get; set; } | 获取和设置列的名称。 |
 | [Range](../../aspose.cells.tables/listcolumn/range) { get; } | 获取此列表列的范围。 |
-| [TotalsCalculation](../../aspose.cells.tables/listcolumn/totalscalculation) { get; set; } | 获取和设置列表列的总计行中的计算类型。 |
+| [TotalsCalculation](../../aspose.cells.tables/listcolumn/totalscalculation) { get; set; } | 获取和设置列表列的 Totals 行中的计算类型。 |
 
 ## 方法
 

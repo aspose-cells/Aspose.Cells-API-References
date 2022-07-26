@@ -1,14 +1,14 @@
 ---
 title: LanguageCode
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает язык пользовательского интерфейса версии книги на основе CountryCode в котором сохранен файл.
+description: Получает или задает язык пользовательского интерфейса версии книги на основе CountryCode в которой сохранен файл.
 type: docs
 weight: 120
 url: /ru/net/aspose.cells/loadoptions/languagecode/
 ---
 ## LoadOptions.LanguageCode property
 
-Получает или задает язык пользовательского интерфейса версии книги на основе CountryCode, в котором сохранен файл.
+Получает или задает язык пользовательского интерфейса версии книги на основе CountryCode, в которой сохранен файл.
 
 ```csharp
 public CountryCode LanguageCode { get; set; }

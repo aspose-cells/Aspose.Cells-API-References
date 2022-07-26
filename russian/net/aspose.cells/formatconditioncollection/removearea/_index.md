@@ -1,14 +1,14 @@
 ---
 title: RemoveArea
 second_title: Справочник по Aspose.Cells для .NET API
-description: Удаляет диапазон ячеек с условным форматированием по индексу.
+description: Удаляет диапазон ячеек условного форматирования по индексу.
 type: docs
 weight: 80
 url: /ru/net/aspose.cells/formatconditioncollection/removearea/
 ---
 ## RemoveArea(int) {#removearea_1}
 
-Удаляет диапазон ячеек с условным форматированием по индексу.
+Удаляет диапазон ячеек условного форматирования по индексу.
 
 ```csharp
 public void RemoveArea(int index)
@@ -16,7 +16,7 @@ public void RemoveArea(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс удаляемого диапазона ячеек с условным форматированием. |
+| index | Int32 | Индекс условно форматированного диапазона ячеек, который необходимо удалить. |
 
 ### Смотрите также
 
@@ -43,7 +43,7 @@ public bool RemoveArea(int startRow, int startColumn, int totalRows, int totalCo
 
 ### Возвращаемое значение
 
-Возвращает TRUE, этот FormatCondtionCollection должен быть удален.
+возвращает TRUE, этот FormatCondtionCollection должен быть удален.
 
 ### Смотрите также
 

@@ -18,32 +18,32 @@ public class XmlLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [XmlLoadOptions](xmlloadoptions#constructor)() | 表示加载ods文件的选项。 |
-| [XmlLoadOptions](xmlloadoptions#constructor_1)(LoadFormat) | 表示加载ods文件的选项。 |
+| [XmlLoadOptions](xmlloadoptions#constructor)() | 代表加载ods文件的选项。 |
+| [XmlLoadOptions](xmlloadoptions#constructor_1)(LoadFormat) | 代表加载ods文件的选项。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AutoFilter](../../aspose.cells/loadoptions/autofilter) { get; set; } | 表示是否在加载文件时自动过滤数据。 |
+| [AutoFilter](../../aspose.cells/loadoptions/autofilter) { get; set; } | 表示加载文件时是否自动过滤数据。 |
 | [AutoFitterOptions](../../aspose.cells/loadoptions/autofitteroptions) { get; set; } | 获取和设置自动拟合选项 |
-| [CheckDataValid](../../aspose.cells/loadoptions/checkdatavalid) { get; set; } | 检查模板文件中的数据是否有效。 |
-| [CheckExcelRestriction](../../aspose.cells/loadoptions/checkexcelrestriction) { get; set; } | 用户修改单元格相关对象时是否检查excel文件的限制。 例如，excel不允许输入超过32K的字符串值。 当你输入一个超过 32K 的值时，比如通过 Cell.PutValue(string)，如果这个属性为真，你会得到一个 Exception。 如果此属性为 false，我们将接受您输入的字符串值作为单元格的值，以便稍后 您可以为其他文件格式（例如 CSV）输出完整的字符串值。 但是，如果您设置了这种对 excel 文件格式无效的值，则 以后不应将工作簿保存为 excel 文件格式。否则生成的excel文件可能会出现意外错误。 |
+| [CheckDataValid](../../aspose.cells/loadoptions/checkdatavalid) { get; set; } | 检查模板文件中的数据是否有效 |
+| [CheckExcelRestriction](../../aspose.cells/loadoptions/checkexcelrestriction) { get; set; } | 当用户修改单元格相关对象时是否检查excel文件的限制。 例如，excel不允许输入超过32K的字符串值。 当你输入一个超过32K的值时，例如通过Cell.PutValue(string)，如果这样属性为真，您将得到一个异常。 如果此属性为假，我们将接受您输入的字符串值作为单元格的值，以便稍后 您可以为其他文件格式输出完整的字符串值，例如 CSV. 但是，如果您设置的此类值对 excel 文件格式无效， 您以后不应将工作簿另存为 excel 文件格式。否则生成的excel文件可能会出现意外错误。 |
 | [ContainsMultipleWorksheets](../../aspose.cells/xmlloadoptions/containsmultipleworksheets) { get; set; } | 表示是否将xml作为多个工作表导入。 |
 | [CultureInfo](../../aspose.cells/loadoptions/cultureinfo) { get; set; } | 获取或设置文件加载时的系统文化信息。 |
 | [DefaultStyleSettings](../../aspose.cells/loadoptions/defaultstylesettings) { get; } | 获取用于初始化工作簿样式的默认样式设置 |
-| [FontConfigs](../../aspose.cells/loadoptions/fontconfigs) { get; set; } | 获取和设置单独的字体配置。 仅适用于[`Workbook`](../workbook)使用此[`LoadOptions`](../loadoptions)加载。&gt; |
-| [IgnoreNotPrinted](../../aspose.cells/loadoptions/ignorenotprinted) { get; set; } | 如果直接打印文件，则忽略不打印的数据 |
+| [FontConfigs](../../aspose.cells/loadoptions/fontconfigs) { get; set; } | 获取和设置单独的字体配置。 仅适用于[`Workbook`](../workbook)它使用这个[`LoadOptions`](../loadoptions)加载。&gt; |
+| [IgnoreNotPrinted](../../aspose.cells/loadoptions/ignorenotprinted) { get; set; } | 直接打印文件忽略不打印的数据 |
 | [InterruptMonitor](../../aspose.cells/loadoptions/interruptmonitor) { get; set; } | 获取和设置中断监视器。 |
-| [IsXmlMap](../../aspose.cells/xmlloadoptions/isxmlmap) { get; set; } | 表示是否将xml映射到Excel。 默认值为假。 |
+| [IsXmlMap](../../aspose.cells/xmlloadoptions/isxmlmap) { get; set; } | 表示是否将xml映射到Excel。 默认值为false。 |
 | [KeepUnparsedData](../../aspose.cells/loadoptions/keepunparseddata) { get; set; } | 从模板文件加载工作簿时，是否将未解析的数据保留在内存中。默认为真。 |
 | [LanguageCode](../../aspose.cells/loadoptions/languagecode) { get; set; } | 根据保存文件的 CountryCode 获取或设置 Workbook 版本的用户界面语言。 |
 | [LightCellsDataHandler](../../aspose.cells/loadoptions/lightcellsdatahandler) { get; set; } | 读取模板文件时处理单元格数据的数据处理程序。 |
 | [LoadFilter](../../aspose.cells/loadoptions/loadfilter) { get; set; } | 表示如何加载数据的过滤器。 |
 | [LoadFormat](../../aspose.cells/loadoptions/loadformat) { get; } | 获取加载格式。 |
 | [MemorySetting](../../aspose.cells/loadoptions/memorysetting) { get; set; } | 获取或设置内存使用选项。 |
-| [ParsingFormulaOnOpen](../../aspose.cells/loadoptions/parsingformulaonopen) { get; set; } | 表示读取文件时是否解析公式。 |
-| [ParsingPivotCachedRecords](../../aspose.cells/loadoptions/parsingpivotcachedrecords) { get; set; } | 表示加载文件时是否解析pivot缓存记录。 默认值为假。 |
+| [ParsingFormulaOnOpen](../../aspose.cells/loadoptions/parsingformulaonopen) { get; set; } | 读取文件时是否解析公式 |
+| [ParsingPivotCachedRecords](../../aspose.cells/loadoptions/parsingpivotcachedrecords) { get; set; } | 表示加载文件时是否解析pivot缓存记录。 默认值为false。 |
 | [Password](../../aspose.cells/loadoptions/password) { get; set; } | 获取和设置工作簿的密码。 |
 | [Region](../../aspose.cells/loadoptions/region) { get; set; } | 根据加载文件时的 CountryCode 获取或设置系统区域设置。 |
 | [StartCell](../../aspose.cells/xmlloadoptions/startcell) { get; set; } | 获取和设置起始单元格。 |

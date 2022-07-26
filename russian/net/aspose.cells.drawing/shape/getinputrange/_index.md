@@ -29,7 +29,7 @@ public string GetInputRange(bool isR1C1, bool isLocal)
 
 [C#]
 string range = shape.GetInputRange(false, true);
-  //В случае успеха будет возвращено значение вида "$A$1:$A$3"
+//В случае успеха будет возвращено значение вида "$A$1:$A$3"
 ```
 
 ### Смотрите также

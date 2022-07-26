@@ -1,14 +1,14 @@
 ---
 title: SplitType
 second_title: Aspose.Cells for .NET API 参考
-description: 返回或设置一个值该值如何确定哪些数据点在第二个饼图或第二个饼图或饼图上的条形图或 饼图中图表
+description: 返回或设置一个值该值如何确定哪些数据点位于第二个饼图或条形图上的饼图或条形图 饼图中
 type: docs
 weight: 410
 url: /zh/net/aspose.cells.charts/series/splittype/
 ---
 ## Series.SplitType property
 
-返回或设置一个值，该值如何确定哪些数据点在第二个饼图或第二个饼图或饼图上的条形图或 饼图中图表。
+返回或设置一个值，该值如何确定哪些数据点位于第二个饼图或条形图上的饼图或条形图 饼图中。
 
 ```csharp
 public ChartSplitType SplitType { get; set; }

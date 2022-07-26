@@ -1,14 +1,14 @@
 ---
 title: SetColumnWidth
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает ширину указанного столбца в обычном режиме просмотра.
+description: Устанавливает ширину указанного столбца в обычном представлении.
 type: docs
-weight: 1220
+weight: 1230
 url: /ru/net/aspose.cells/cells/setcolumnwidth/
 ---
 ## Cells.SetColumnWidth method
 
-Устанавливает ширину указанного столбца в обычном режиме просмотра.
+Устанавливает ширину указанного столбца в обычном представлении.
 
 ```csharp
 public void SetColumnWidth(int column, double width)
@@ -17,11 +17,11 @@ public void SetColumnWidth(int column, double width)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | column | Int32 | Индекс столбца. |
-| width | Double | Ширина столбца. Ширина столбца должна быть между 0 и 255. |
+| width | Double | Ширина столбца. Ширина столбца должна быть от 0 до 255. |
 
 ### Примечания
 
-Чтобы скрыть столбец, устанавливает ширину столбца равной нулю.
+Чтобы скрыть столбец, установите ширину столбца равной нулю.
 
 ### Смотрите также
 

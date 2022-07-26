@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取系列中指定索引处的ChartPointaspose.cells.charts/chartpoint元素
+description: 获取ChartPointaspose.cells.charts/chartpoint系列中指定索引处的元素
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.charts/chartpointcollection/item/
 ---
 ## ChartPointCollection indexer
 
-获取系列中指定索引处的[`ChartPoint`](../../chartpoint)元素。
+获取[`ChartPoint`](../../chartpoint)系列中指定索引处的元素。
 
 ```csharp
 public ChartPoint this[int index] { get; }

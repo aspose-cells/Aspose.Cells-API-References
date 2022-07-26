@@ -31,7 +31,7 @@ public class MyEngine : GridAbstractCalculationEngine
         string funcName = data.FunctionName.ToUpper();
         if ("MYFUNC".Equals(funcName))
         {
-             //сделать расчет для MYFUNC здесь
+            // здесь делаем расчет для MYFUNC
             int count = data.ParamCount;
             object res = null;
             for (int i = 0; i < count; i++)
@@ -42,8 +42,8 @@ public class MyEngine : GridAbstractCalculationEngine
                     ReferredArea ra = (ReferredArea)pv;
                     pv = ra.GetValue(0, 0);
                 }
-                 //обрабатываем параметр здесь
-                 //рез = ...;
+                // обрабатываем параметр здесь
+                //рес = ...;
             }
             data.CalculatedValue = res;
         }

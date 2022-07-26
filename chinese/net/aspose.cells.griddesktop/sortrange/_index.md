@@ -18,7 +18,7 @@ public class SortRange
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SortRange](sortrange)(Worksheet, int, int, int, int, SortOrientation, bool) | 通过指定工作表范围和排序方向来初始化[`SortRange`](../sortrange)类的新实例。 |
+| [SortRange](sortrange)(Worksheet, int, int, int, int, SortOrientation, bool) | 初始化[`SortRange`](../sortrange)通过指定工作表范围和排序方向来分类。 |
 
 ## 方法
 

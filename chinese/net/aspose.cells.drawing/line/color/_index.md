@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Aspose.Cells for .NET API 参考
-description: 表示线的Color
+description: 代表Color行的.
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.drawing/line/color/
 ---
 ## Line.Color property
 
-表示线的Color。
+代表Color行的.
 
 ```csharp
 public Color Color { get; set; }

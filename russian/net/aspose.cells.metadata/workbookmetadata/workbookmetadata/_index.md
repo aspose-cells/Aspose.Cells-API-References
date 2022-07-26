@@ -38,7 +38,7 @@ public WorkbookMetadata(Stream stream, MetadataOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| поток | Stream |  |
+| stream | Stream |  |
 | options | MetadataOptions |  |
 
 ### Смотрите также

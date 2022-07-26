@@ -19,14 +19,14 @@ public class GridName
 | 姓名 | 描述 |
 | --- | --- |
 | [RefersTo](../../aspose.cells.griddesktop.data/gridname/refersto) { get; set; } | 返回或设置名称定义引用的公式，以等号开头。 |
-| [SheetIndex](../../aspose.cells.griddesktop.data/gridname/sheetindex) { get; set; } | 表示此名称属于 Workbook 或 Worksheet。 0 = 全局名称，否则索引到工作表（从一开始） |
+| [SheetIndex](../../aspose.cells.griddesktop.data/gridname/sheetindex) { get; set; } | 表示此名称属于工作簿或工作表。 0 = 全局名称，否则索引到工作表（从一开始） |
 | [Text](../../aspose.cells.griddesktop.data/gridname/text) { get; set; } | 获取对象的名称文本。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.cells.griddesktop.data/gridname/tostring)() | 返回代表当前 Range 对象的字符串。 |
+| override [ToString](../../aspose.cells.griddesktop.data/gridname/tostring)() | 返回一个代表当前 Range 对象的字符串。 |
 
 ### 也可以看看
 

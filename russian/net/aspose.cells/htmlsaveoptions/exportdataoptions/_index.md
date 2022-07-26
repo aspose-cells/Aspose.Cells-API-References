@@ -1,14 +1,14 @@
 ---
 title: ExportDataOptions
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указание правила экспорта данных файла html. Значение по умолчанию  Все.
+description: Указывает правило экспорта данных файла html. Значение по умолчанию  All.
 type: docs
 weight: 140
 url: /ru/net/aspose.cells/htmlsaveoptions/exportdataoptions/
 ---
 ## HtmlSaveOptions.ExportDataOptions property
 
-Указание правила экспорта данных файла html. Значение по умолчанию — Все.
+Указывает правило экспорта данных файла html. Значение по умолчанию — All.
 
 ```csharp
 public HtmlExportDataOptions ExportDataOptions { get; set; }

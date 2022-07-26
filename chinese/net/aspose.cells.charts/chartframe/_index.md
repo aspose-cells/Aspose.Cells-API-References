@@ -1,14 +1,14 @@
 ---
 title: ChartFrame
 second_title: Aspose.Cells for .NET API 参考
-description: 在图表中封装表示框架对象的对象
+description: 封装表示图表中框架对象的对象
 type: docs
 weight: 470
 url: /zh/net/aspose.cells.charts/chartframe/
 ---
 ## ChartFrame class
 
-在图表中封装表示框架对象的对象。
+封装表示图表中框架对象的对象。
 
 ```csharp
 public class ChartFrame
@@ -18,24 +18,24 @@ public class ChartFrame
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [Area](../../aspose.cells.charts/chartframe/area) { get; } | 获取[`区域`](./area) 。 |
+| virtual [Area](../../aspose.cells.charts/chartframe/area) { get; } | 获取[`区域`](./area). |
 | virtual [AutoScaleFont](../../aspose.cells.charts/chartframe/autoscalefont) { get; set; } | 如果对象中的文本在对象大小更改时更改字体大小，则为真。默认值是true。 |
-| [BackgroundMode](../../aspose.cells.charts/chartframe/backgroundmode) { get; set; } | 获取和设置背景的显示方式 |
-| virtual [Border](../../aspose.cells.charts/chartframe/border) { get; } | 获取[`边框`](../../aspose.cells.drawing/line) 。 |
+| [BackgroundMode](../../aspose.cells.charts/chartframe/backgroundmode) { get; set; } | 获取和设置背景的显示模式 |
+| virtual [Border](../../aspose.cells.charts/chartframe/border) { get; } | 获取[`边界`](../../aspose.cells.drawing/line). |
 | [DefaultHeight](../../aspose.cells.charts/chartframe/defaultheight) { get; } | 表示默认位置的高度 |
 | [DefaultWidth](../../aspose.cells.charts/chartframe/defaultwidth) { get; } | 表示默认位置的宽度 |
-| [DefaultX](../../aspose.cells.charts/chartframe/defaultx) { get; } | 表示默认位置的 x |
+| [DefaultX](../../aspose.cells.charts/chartframe/defaultx) { get; } | 代表默认位置的 x |
 | [DefaultY](../../aspose.cells.charts/chartframe/defaulty) { get; } | 代表默认位置的y |
-| virtual [Font](../../aspose.cells.charts/chartframe/font) { get; } | 获取指定 ChartFrame 对象的[`Font`](./font)对象。 |
-| virtual [Height](../../aspose.cells.charts/chartframe/height) { get; set; } | 获取或设置框架高度，以图表区域的 1/4000 为单位。 |
+| virtual [Font](../../aspose.cells.charts/chartframe/font) { get; } | 得到一个[`Font`](./font)指定 ChartFrame 对象的对象。 |
+| virtual [Height](../../aspose.cells.charts/chartframe/height) { get; set; } | 获取或设置边框高度，单位为图表区域的1/4000。 |
 | virtual [IsAutomaticSize](../../aspose.cells.charts/chartframe/isautomaticsize) { get; set; } | 指示图表框是否自动调整大小。 |
 | [IsDefaultPosBeSet](../../aspose.cells.charts/chartframe/isdefaultposbeset) { get; } | 表示是否设置了默认位置（DefaultX、DefaultY、DefaultWidth 和 DefaultHeight）。 |
-| [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode) { get; set; } | 指示绘图区域大小的大小是否包括刻度线和轴标签。 False 指定大小应确定绘图区域、刻度线和轴标签的大小。 |
-| [Shadow](../../aspose.cells.charts/chartframe/shadow) { get; set; } | 如果框架有阴影，则为真。 |
-| [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties) { get; } | 获取[`ShapeProperties`](./shapeproperties)对象。 |
+| [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode) { get; set; } | 表示绘图区域大小的大小是否包含刻度线和轴标签。 False 指定大小应确定绘图区域的大小、刻度线和轴标签。 |
+| [Shadow](../../aspose.cells.charts/chartframe/shadow) { get; set; } | 如果框架有阴影则为真。 |
+| [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties) { get; } | 获取[`ShapeProperties`](./shapeproperties)对象. |
 | virtual [Width](../../aspose.cells.charts/chartframe/width) { get; set; } | 获取或设置边框宽度，以图表区域的 1/4000 为单位。 |
-| virtual [X](../../aspose.cells.charts/chartframe/x) { get; set; } | 获取或设置图表区域左上角的x坐标，单位为1/4000。 |
-| virtual [Y](../../aspose.cells.charts/chartframe/y) { get; set; } | 获取或设置图表区域左上角的y坐标，单位为1/4000。 |
+| virtual [X](../../aspose.cells.charts/chartframe/x) { get; set; } | 获取或设置左上角的x坐标，单位为图表区域的1/4000。 |
+| virtual [Y](../../aspose.cells.charts/chartframe/y) { get; set; } | 获取或设置左上角的y坐标，单位为图表区域的1/4000。 |
 
 ## 方法
 

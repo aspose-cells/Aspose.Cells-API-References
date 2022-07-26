@@ -16,7 +16,7 @@ public PixelFormat PixelFormat { get; set; }
 
 ### 评论
 
-默认值为 PixelFormat.Format32bppArgb。
+默认值为 PixelFormat.Format32bppArgb.
 
 ### 也可以看看
 

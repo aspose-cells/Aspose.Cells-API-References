@@ -16,7 +16,7 @@ public int FitToPagesTall { get; set; }
 
 ### 评论
 
-您必须将 FitToPagesWide 设置为零如果您想在一页上容纳所有行。
+如果要将所有行都放在一页上，则必须将 FitToPagesWide 设置为零。
 
 ### 也可以看看
 

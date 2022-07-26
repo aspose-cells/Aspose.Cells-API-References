@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает направляющую формы по индексу
+description: Получает направляющую формы по index
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.drawing/shapeguidecollection/item/
 ---
 ## ShapeGuideCollection indexer
 
-Получает направляющую формы по индексу
+Получает направляющую формы по index
 
 ```csharp
 public ShapeGuide this[int index] { get; }

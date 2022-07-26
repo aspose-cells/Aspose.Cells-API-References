@@ -20,7 +20,7 @@ public class ThreadedComment
 | --- | --- |
 | [Author](../../aspose.cells/threadedcomment/author) { get; set; } | Получает автора комментария. |
 | [Column](../../aspose.cells/threadedcomment/column) { get; } | Получает индекс столбца комментария. |
-| [CreatedTime](../../aspose.cells/threadedcomment/createdtime) { get; set; } | Получает и задает время создания этого цепочного комментария. |
+| [CreatedTime](../../aspose.cells/threadedcomment/createdtime) { get; set; } | Получает и задает время создания этого связанного комментария. |
 | [Notes](../../aspose.cells/threadedcomment/notes) { get; set; } | Получает и задает текст комментария. |
 | [Row](../../aspose.cells/threadedcomment/row) { get; } | Получает индекс строки комментария. |
 

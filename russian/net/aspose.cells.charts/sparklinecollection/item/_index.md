@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементSparklineaspose.cells.charts/sparklineпо указанному индексу.
+description: ПолучаетSparklineaspose.cells.charts/sparkline элемент по указанному индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.charts/sparklinecollection/item/
 ---
 ## SparklineCollection indexer
 
-Получает элемент[`Sparkline`](../../sparkline)по указанному индексу.
+Получает[`Sparkline`](../../sparkline) элемент по указанному индексу.
 
 ```csharp
 public Sparkline this[int index] { get; }

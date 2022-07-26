@@ -1,14 +1,14 @@
 ---
 title: SelectedCells
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает выбранные ячейки. Возвращает ноль если диапазон ввода не установлен или не выбран ни один элемент
+description: Получает выбранные ячейки. Возвращает ноль если диапазон ввода не установлен или элемент не выбран
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.drawing/listbox/selectedcells/
 ---
 ## ListBox.SelectedCells property
 
-Получает выбранные ячейки. Возвращает ноль, если диапазон ввода не установлен или не выбран ни один элемент
+Получает выбранные ячейки. Возвращает ноль, если диапазон ввода не установлен или элемент не выбран
 
 ```csharp
 public Cell[] SelectedCells { get; }

@@ -16,7 +16,7 @@ public void SetBorderLine(BorderType borderType, BorderLineType borderLineType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| borderType | BorderType | borderType 设置哪个边框。 |
+| borderType | BorderType | borderType 要设置的边框。 |
 | borderLineType | BorderLineType | borderLineType 指定边框的边框线类型。 |
 
 ### 也可以看看

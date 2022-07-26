@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置评论的高度默认值为 120 输入值应介于 20 和 1000 之间 如果输入小于 20 的值将设置为 20 如果输入大于 1000 的值它将被设置为 1000
+description: 获取或设置评论的高度默认值为 120. 输入值应在 20 和 1000 之间 如果输入小于 20 的值将设置为 20 如果输入大于 1000 的值将设置为 1000
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.griddesktop.data/gridcomment/height/
 ---
 ## GridComment.Height property
 
-获取或设置评论的高度。默认值为 120。 输入值应介于 20 和 1000 之间。 如果输入小于 20 的值，将设置为 20。 如果输入大于 1000 的值，它将被设置为 1000。
+获取或设置评论的高度。默认值为 120. 输入值应在 20 和 1000 之间。 如果输入小于 20 的值，将设置为 20。 如果输入大于 1000 的值，将设置为 1000。
 
 ```csharp
 public int Height { get; set; }

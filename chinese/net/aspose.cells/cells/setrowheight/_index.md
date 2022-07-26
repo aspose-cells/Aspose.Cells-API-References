@@ -3,7 +3,7 @@ title: SetRowHeight
 second_title: Aspose.Cells for .NET API 参考
 description: 设置指定行的高度
 type: docs
-weight: 1250
+weight: 1260
 url: /zh/net/aspose.cells/cells/setrowheight/
 ---
 ## Cells.SetRowHeight method
@@ -17,7 +17,7 @@ public void SetRowHeight(int row, double height)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | row | Int32 | 行索引。 |
-| height | Double | 行高。以点为单位 应在 0 到 409.5 之间。 |
+| height | Double | 行高。以点为单位，应在 0 到 409.5 之间。 |
 
 ### 也可以看看
 

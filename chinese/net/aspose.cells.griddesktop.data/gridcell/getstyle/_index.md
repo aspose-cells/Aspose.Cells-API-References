@@ -1,14 +1,14 @@
 ---
 title: GetStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 获取单元格样式 更改样式时应调用SetStyle方法 将样式设置为单元格
+description: 获取单元格样式 更改样式时应调用SetStyle方法 为单元格设置样式
 type: docs
 weight: 280
 url: /zh/net/aspose.cells.griddesktop.data/gridcell/getstyle/
 ---
 ## GridCell.GetStyle method
 
-获取单元格样式。 更改样式时，应调用“SetStyle”方法， 将样式设置为单元格。
+获取单元格样式。 更改样式时，应调用“SetStyle”方法， 为单元格设置样式。
 
 ```csharp
 public Style GetStyle()

@@ -1,14 +1,14 @@
 ---
 title: SheetTabClick
 second_title: Справочник по Aspose.Cells для .NET API
-description: Происходит при щелчке вкладки листа.
+description: Происходит при нажатии на вкладку листа.
 type: docs
 weight: 1340
 url: /ru/net/aspose.cells.gridweb/mainweb/sheettabclick/
 ---
 ## MainWeb.SheetTabClick event
 
-Происходит при щелчке вкладки листа.
+Происходит при нажатии на вкладку листа.
 
 ```csharp
 public event WorkbookEventHandler SheetTabClick;

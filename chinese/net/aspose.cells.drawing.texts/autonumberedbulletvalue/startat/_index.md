@@ -1,14 +1,14 @@
 ---
 title: StartAt
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置项目符号的起始编号
+description: 获取和设置子弹的起始编号
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.drawing.texts/autonumberedbulletvalue/startat/
 ---
 ## AutoNumberedBulletValue.StartAt property
 
-获取和设置项目符号的起始编号。
+获取和设置子弹的起始编号。
 
 ```csharp
 public int StartAt { get; set; }

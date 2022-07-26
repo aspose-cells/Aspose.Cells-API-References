@@ -1,14 +1,14 @@
 ---
 title: GridCellArea
 second_title: Aspose.Cells for .NET API 参考
-description: 表示单元格区域
+description: 代表一个单元格区域
 type: docs
 weight: 160
 url: /zh/net/aspose.cells.gridweb.data/gridcellarea/
 ---
 ## GridCellArea class
 
-表示单元格区域。
+代表一个单元格区域。
 
 ```csharp
 public class GridCellArea
@@ -32,9 +32,9 @@ public class GridCellArea
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EndColumn](../../aspose.cells.gridweb.data/gridcellarea/endcolumn) | 获取或设置该区域的结束列。 |
+| [EndColumn](../../aspose.cells.gridweb.data/gridcellarea/endcolumn) | 获取或设置该区域的结束列 |
 | [EndRow](../../aspose.cells.gridweb.data/gridcellarea/endrow) | 获取或设置该区域的结束行。 |
-| [StartColumn](../../aspose.cells.gridweb.data/gridcellarea/startcolumn) | 获取或设置该区域的起始列。 |
+| [StartColumn](../../aspose.cells.gridweb.data/gridcellarea/startcolumn) | 获取或设置该区域的起始列 |
 | [StartRow](../../aspose.cells.gridweb.data/gridcellarea/startrow) | 获取或设置该区域的起始行。 |
 
 ### 也可以看看

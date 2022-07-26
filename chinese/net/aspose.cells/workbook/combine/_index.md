@@ -1,14 +1,14 @@
 ---
 title: Combine
 second_title: Aspose.Cells for .NET API 参考
-description: 组合另一个 Workbook 对象
+description: 组合另一个工作簿对象
 type: docs
 weight: 320
 url: /zh/net/aspose.cells/workbook/combine/
 ---
 ## Workbook.Combine method
 
-组合另一个 Workbook 对象。
+组合另一个工作簿对象。
 
 ```csharp
 public void Combine(Workbook secondWorkbook)
@@ -16,7 +16,7 @@ public void Combine(Workbook secondWorkbook)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| secondWorkbook | Workbook | 另一个工作簿对象。 |
+| secondWorkbook | Workbook | 另一个 Workbook 对象。 |
 
 ### 评论
 

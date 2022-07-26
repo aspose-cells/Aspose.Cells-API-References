@@ -18,8 +18,8 @@ public class DocumentProperty
 
 | Имя | Описание |
 | --- | --- |
-| [IsGeneratedName](../../aspose.cells.properties/documentproperty/isgeneratedname) { get; } | Возвращает true, если это свойство не имеет имени в хранилище OLE2 и уникальное имя было сгенерировано только для публичного API. |
-| [IsLinkedToContent](../../aspose.cells.properties/documentproperty/islinkedtocontent) { get; } | Указывает, связано ли это свойство с содержимым |
+| [IsGeneratedName](../../aspose.cells.properties/documentproperty/isgeneratedname) { get; } | Возвращает значение true, если это свойство не имеет имени в хранилище OLE2 и уникальное имя было сгенерировано только для общедоступного API. |
+| [IsLinkedToContent](../../aspose.cells.properties/documentproperty/islinkedtocontent) { get; } | Указывает, связано ли это свойство с content |
 | [Name](../../aspose.cells.properties/documentproperty/name) { get; } | Возвращает имя свойства. |
 | [Source](../../aspose.cells.properties/documentproperty/source) { get; } | Связанный источник контента. |
 | [Type](../../aspose.cells.properties/documentproperty/type) { get; } | Получает тип данных свойства. |
@@ -32,7 +32,7 @@ public class DocumentProperty
 | [ToBool](../../aspose.cells.properties/documentproperty/tobool)() | Возвращает значение свойства как bool. |
 | [ToDateTime](../../aspose.cells.properties/documentproperty/todatetime)() | Возвращает значение свойства как DateTime в местном часовом поясе. |
 | [ToDouble](../../aspose.cells.properties/documentproperty/todouble)() | Возвращает значение свойства как двойное. |
-| [ToInt](../../aspose.cells.properties/documentproperty/toint)() | Возвращает значение свойства как целое число. |
+| [ToInt](../../aspose.cells.properties/documentproperty/toint)() | Возвращает значение свойства в виде целого числа. |
 | override [ToString](../../aspose.cells.properties/documentproperty/tostring)() | Возвращает значение свойства в виде строки. |
 
 ### Примеры
@@ -41,30 +41,30 @@ public class DocumentProperty
 
 [C#]
 
-  //Создаем экземпляр рабочей книги object
+//Создаем экземпляр объекта Workbook
 Workbook workbook = new Workbook("book1.xls");
  
-  //Получение списка всех пользовательских свойств документа Excel file
+//Получение списка всех пользовательских свойств документа файла Excel
 DocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
  
-  //Доступ к пользовательскому свойству документа с помощью свойства index
+//Доступ к пользовательскому свойству документа с помощью индекса свойства
 DocumentProperty customProperty1 = customProperties[3];
  
-  //Доступ к пользовательскому свойству документа с помощью свойства name
+//Доступ к пользовательскому свойству документа с помощью имени свойства
 DocumentProperty customProperty2 = customProperties["Owner"];
 
 [VB.NET]
 
-'Создаем экземпляр рабочей книги object
+'Создать экземпляр объекта Workbook
 Dim workbook As Workbook = New Workbook("book1.xls")
  
-'Получение списка всех пользовательских свойств документа Excel file
+'Получить список всех настраиваемых свойств документа файла Excel
 Dim customProperties As DocumentPropertyCollection = workbook.Worksheets.CustomDocumentProperties
  
-'Доступ к пользовательскому свойству документа с помощью свойства index
+'Доступ к пользовательскому свойству документа с помощью индекса свойства
 Dim customProperty1 As DocumentProperty = customProperties(3)
  
-'Доступ к пользовательскому свойству документа с помощью свойства name
+'Доступ к пользовательскому свойству документа с использованием имени свойства
 Dim customProperty2 As DocumentProperty = customProperties("Owner")
 ```
 

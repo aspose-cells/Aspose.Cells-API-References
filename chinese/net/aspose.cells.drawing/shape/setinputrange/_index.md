@@ -17,7 +17,7 @@ public void SetInputRange(string formula, bool isR1C1, bool isLocal)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | formula | String | 用于填充控件的范围。 |
-| isR1C1 | Boolean | 公式是否需要格式化为R1C1。 |
+| isR1C1 | Boolean | 公式是否需要格式化为 R1C1。 |
 | isLocal | Boolean | 公式是否需要按语言环境格式化。 |
 
 ### 例子
@@ -25,10 +25,9 @@ public void SetInputRange(string formula, bool isR1C1, bool isLocal)
 ```csharp
 
 [C#]
- //执行下面的代码后，在生成的文件中创建了一个ListBox对象。单击所选选项时，所选值显示在单元格 A12.
+//执行下面的代码后，在生成的文件中创建了一个ListBox对象。单击所选选项时，所选值将显示在单元格 A12 中。
 
-
- //初始化一个新的工作簿.
+//初始化一个新的工作簿。
 //工作簿book = new Workbook();
 
 for (int i = 0; i< 10; ++i)
@@ -37,18 +36,18 @@ for (int i = 0; i< 10; ++i)
     cell.Value = i + 1;
 }
    
- //创建一个ListBox对象
+//创建一个列表框对象
 
 //ActiveX 控件
- //Aspose.Cells.Drawing.Shape listBox = book.Worksheets[0].Shapes.AddActiveXControl(Aspose.Cells.Drawing.ActiveXControls.ControlType.ListBox,2, 0, 2, 0, 130, 130);
+//Aspose.Cells.Drawing.Shape listBox = book.Worksheets[0].Shapes.AddActiveXControl(Aspose.Cells.Drawing.ActiveXControls.ControlType.ListBox,2, 0, 2, 0, 130, 130);
 
- //表单控件
+//表单控件
 Aspose.Cells.Drawing.Shape listBox = book.Worksheets[0].Shapes.AddListBox(2, 0, 2, 0, 130, 130);
 
- //设置用于填充控件的范围。
+//设置用于填充控件的范围。
 listBox.SetInputRange("$A$1:$A$6", false, false);
 
- //设置链接到控件值的范围。
+//设置链接到控件值的范围。
 listBox.SetLinkedCell("$A$12", false, true);
 
 ```

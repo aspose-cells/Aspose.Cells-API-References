@@ -1,14 +1,14 @@
 ---
 title: Worksheets
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает коллекциюWorksheetCollectionaspose.cells/worksheetcollectionв электронной таблице.
+description: ПолучаетWorksheetCollectionaspose.cells/worksheetcollection коллекция в электронной таблице.
 type: docs
 weight: 260
 url: /ru/net/aspose.cells/workbook/worksheets/
 ---
 ## Workbook.Worksheets property
 
-Получает коллекцию[`WorksheetCollection`](../../worksheetcollection)в электронной таблице.
+Получает[`WorksheetCollection`](../../worksheetcollection) коллекция в электронной таблице.
 
 ```csharp
 public WorksheetCollection Worksheets { get; }
@@ -16,7 +16,7 @@ public WorksheetCollection Worksheets { get; }
 
 ### Возвращаемое значение
 
-[`WorksheetCollection`](../../worksheetcollection)коллекция
+[`WorksheetCollection`](../../worksheetcollection) коллекция
 
 ### Смотрите также
 

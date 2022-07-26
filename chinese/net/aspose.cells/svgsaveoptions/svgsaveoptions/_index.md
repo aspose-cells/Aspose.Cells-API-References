@@ -32,7 +32,7 @@ public SvgSaveOptions(SaveFormat saveFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| saveFormat | SaveFormat | 文件格式。 必须是 svg。 |
+| saveFormat | SaveFormat | 文件格式. 必须是 svg。 |
 
 ### 也可以看看
 

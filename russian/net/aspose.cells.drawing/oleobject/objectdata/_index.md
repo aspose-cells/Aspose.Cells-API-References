@@ -1,14 +1,14 @@
 ---
 title: ObjectData
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет данные встроенного объекта ole в виде массива байтов.
+description: Представляет данные встроенного ole-объекта в виде массива байтов.
 type: docs
 weight: 130
 url: /ru/net/aspose.cells.drawing/oleobject/objectdata/
 ---
 ## OleObject.ObjectData property
 
-Представляет данные встроенного объекта ole в виде массива байтов.
+Представляет данные встроенного ole-объекта в виде массива байтов.
 
 ```csharp
 public byte[] ObjectData { get; set; }

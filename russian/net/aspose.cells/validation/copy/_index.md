@@ -17,7 +17,7 @@ public void Copy(Validation source, CopyOptions copyOption)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | source | Validation | Проверка источника. |
-| copyOption | CopyOptions | Опция копирования. |
+| copyOption | CopyOptions | Вариант копирования. |
 
 ### Смотрите также
 

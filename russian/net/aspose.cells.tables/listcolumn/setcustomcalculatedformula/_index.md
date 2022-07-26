@@ -1,14 +1,14 @@
 ---
 title: SetCustomCalculatedFormula
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает формулу для этого столбца списка.
+description: Задает формулу для этого столбца списка.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.tables/listcolumn/setcustomcalculatedformula/
 ---
 ## ListColumn.SetCustomCalculatedFormula method
 
-Устанавливает формулу для этого столбца списка.
+Задает формулу для этого столбца списка.
 
 ```csharp
 public void SetCustomCalculatedFormula(string formula, bool isR1C1, bool isLocal)
@@ -17,7 +17,7 @@ public void SetCustomCalculatedFormula(string formula, bool isR1C1, bool isLocal
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | formula | String | формула для этого столбца списка. |
-| isR1C1 | Boolean | Необходимо ли форматировать формулу как R1C1. |
+| isR1C1 | Boolean | Нужно ли форматировать формулу как R1C1. |
 | isLocal | Boolean | Нужно ли форматировать формулу по локали. |
 
 ### Смотрите также

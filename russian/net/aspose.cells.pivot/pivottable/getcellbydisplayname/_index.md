@@ -1,14 +1,14 @@
 ---
 title: GetCellByDisplayName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объект Cell по DisplayName PivotField
+description: Получает объект Cell по отображаемому имени PivotField
 type: docs
 weight: 860
 url: /ru/net/aspose.cells.pivot/pivottable/getcellbydisplayname/
 ---
 ## PivotTable.GetCellByDisplayName method
 
-Получает объект Cell по DisplayName PivotField
+Получает объект Cell по отображаемому имени PivotField
 
 ```csharp
 public Cell GetCellByDisplayName(string displayName)
@@ -16,11 +16,11 @@ public Cell GetCellByDisplayName(string displayName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| displayName | String | DisplayName объекта PivotField |
+| displayName | String | DisplayName PivotField |
 
 ### Возвращаемое значение
 
-объект Cell
+объект ячейки
 
 ### Смотрите также
 

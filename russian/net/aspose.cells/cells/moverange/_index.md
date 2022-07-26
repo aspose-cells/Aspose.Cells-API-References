@@ -3,7 +3,7 @@ title: MoveRange
 second_title: Справочник по Aspose.Cells для .NET API
 description: Перемещает диапазон.
 type: docs
-weight: 1180
+weight: 1190
 url: /ru/net/aspose.cells/cells/moverange/
 ---
 ## Cells.MoveRange method
@@ -17,8 +17,8 @@ public void MoveRange(CellArea sourceArea, int destRow, int destColumn)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceArea | CellArea | Диапазон, который необходимо переместить. |
-| destRow | Int32 | Целевая строка. |
-| destColumn | Int32 | Целевой столбец. |
+| destRow | Int32 | Последний ряд. |
+| destColumn | Int32 | Столбец назначения. |
 
 ### Смотрите также
 

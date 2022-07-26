@@ -1,14 +1,14 @@
 ---
 title: DataBarBorder
 second_title: Aspose.Cells for .NET API 参考
-description: 表示条件格式规则指定的数据条的边框
+description: 表示由条件格式规则指定的数据条的边框
 type: docs
 weight: 1260
 url: /zh/net/aspose.cells/databarborder/
 ---
 ## DataBarBorder class
 
-表示条件格式规则指定的数据条的边框。
+表示由条件格式规则指定的数据条的边框。
 
 ```csharp
 public class DataBarBorder

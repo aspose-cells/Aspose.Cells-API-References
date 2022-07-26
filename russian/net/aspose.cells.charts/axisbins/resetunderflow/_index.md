@@ -1,14 +1,14 @@
 ---
 title: ResetUnderflow
 second_title: Справочник по Aspose.Cells для .NET API
-description: Сбросить значение потери значимости
+description: Сброс нижнего потока
 type: docs
 weight: 90
 url: /ru/net/aspose.cells.charts/axisbins/resetunderflow/
 ---
 ## AxisBins.ResetUnderflow method
 
-Сбросить значение потери значимости
+Сброс нижнего потока
 
 ```csharp
 public void ResetUnderflow()

@@ -1,14 +1,14 @@
 ---
 title: PdfCustomPropertiesExport
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает способ экспортаCustomDocumentPropertyCollection../aspose.cells.properties/customdocumentpropertycollectionв файл PDF.
+description: Указывает путьCustomDocumentPropertyCollection../aspose.cells.properties/customdocumentpropertycollection экспортируются в файл PDF.
 type: docs
 weight: 5210
 url: /ru/net/aspose.cells.rendering/pdfcustompropertiesexport/
 ---
 ## PdfCustomPropertiesExport enumeration
 
-Указывает способ экспорта[`CustomDocumentPropertyCollection`](../../aspose.cells.properties/customdocumentpropertycollection)в файл PDF.
+Указывает путь[`CustomDocumentPropertyCollection`](../../aspose.cells.properties/customdocumentpropertycollection) экспортируются в файл PDF.
 
 ```csharp
 public enum PdfCustomPropertiesExport
@@ -19,7 +19,7 @@ public enum PdfCustomPropertiesExport
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | None | `0` | Пользовательские свойства не экспортируются. |
-| Standard | `1` | Пользовательские свойства экспортируются как записи в Info словарь. |
+| Standard | `1` | Пользовательские свойства экспортируются как записи в информационном словаре. |
 
 ### Смотрите также
 

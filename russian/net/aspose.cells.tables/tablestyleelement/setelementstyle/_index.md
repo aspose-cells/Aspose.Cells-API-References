@@ -1,14 +1,14 @@
 ---
 title: SetElementStyle
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает стиль элемента.
+description: Задает стиль элемента.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.tables/tablestyleelement/setelementstyle/
 ---
 ## TableStyleElement.SetElementStyle method
 
-Устанавливает стиль элемента.
+Задает стиль элемента.
 
 ```csharp
 public void SetElementStyle(Style style)

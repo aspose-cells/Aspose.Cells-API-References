@@ -1,14 +1,14 @@
 ---
 title: DocumentVersion
 second_title: Aspose.Cells for .NET API 参考
-description: 表示文件的版本
+description: 代表文件的版本
 type: docs
 weight: 90
 url: /zh/net/aspose.cells.properties/builtindocumentpropertycollection/documentversion/
 ---
 ## BuiltInDocumentPropertyCollection.DocumentVersion property
 
-表示文件的版本。
+代表文件的版本。
 
 ```csharp
 public string DocumentVersion { get; set; }

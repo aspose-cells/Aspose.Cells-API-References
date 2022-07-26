@@ -1,14 +1,14 @@
 ---
 title: ShowInput
 second_title: Aspose.Cells for .NET API 参考
-description: 表示当用户在数据验证范围内选择一个单元格时是否显示数据验证输入消息
+description: 表示当用户选择数据验证范围内的单元格时是否显示数据验证输入消息
 type: docs
 weight: 130
 url: /zh/net/aspose.cells/validation/showinput/
 ---
 ## Validation.ShowInput property
 
-表示当用户在数据验证范围内选择一个单元格时是否显示数据验证输入消息。
+表示当用户选择数据验证范围内的单元格时是否显示数据验证输入消息。
 
 ```csharp
 public bool ShowInput { get; set; }

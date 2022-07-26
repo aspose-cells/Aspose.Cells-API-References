@@ -1,14 +1,14 @@
 ---
 title: BaseFields
 second_title: Aspose.Cells for .NET API 参考
-description: 返回一个 PivotFields 对象该对象包括数据透视表报告中的所有字段
+description: 返回一个 PivotFields 对象其中包括数据透视表报告中的所有字段
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.pivot/pivottable/basefields/
 ---
 ## PivotTable.BaseFields property
 
-返回一个 PivotFields 对象，该对象包括数据透视表报告中的所有字段
+返回一个 PivotFields 对象，其中包括数据透视表报告中的所有字段
 
 ```csharp
 public PivotFieldCollection BaseFields { get; }

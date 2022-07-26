@@ -1,14 +1,14 @@
 ---
 title: HasHeaders
 second_title: Aspose.Cells for .NET API 参考
-description: 表示范围是否有标题
+description: 表示范围是否有headers
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/datasorter/hasheaders/
 ---
 ## DataSorter.HasHeaders property
 
-表示范围是否有标题。
+表示范围是否有headers。
 
 ```csharp
 public bool HasHeaders { get; set; }

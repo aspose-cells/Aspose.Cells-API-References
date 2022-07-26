@@ -1,14 +1,14 @@
 ---
 title: ToImage
 second_title: Aspose.Cells for .NET API 参考
-description: 将特定页面渲染到图形
+description: 将特定页面渲染到 Graphics
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.rendering/sheetrender/toimage/
 ---
 ## ToImage(int, Graphics, float, float, float, float) {#toimage_2}
 
-将特定页面渲染到图形
+将特定页面渲染到 Graphics
 
 ```csharp
 public void ToImage(int pageIndex, Graphics g, float x, float y, float width, float height)
@@ -16,7 +16,7 @@ public void ToImage(int pageIndex, Graphics g, float x, float y, float width, fl
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageIndex | Int32 | 指示哪个页面要转换 |
+| pageIndex | Int32 | 指明要转换的页面 |
 | g | Graphics | 渲染到的对象。 |
 | x | Single | 渲染页面左上角的 X 坐标（以像素为单位）。 |
 | y | Single | 渲染页面左上角的 Y 坐标（以像素为单位）。 |
@@ -33,7 +33,7 @@ public void ToImage(int pageIndex, Graphics g, float x, float y, float width, fl
 
 ## ToImage(int, Graphics, float, float) {#toimage_1}
 
-将特定页面渲染到图形
+将特定页面渲染到 Graphics
 
 ```csharp
 public void ToImage(int pageIndex, Graphics g, float x, float y)
@@ -41,7 +41,7 @@ public void ToImage(int pageIndex, Graphics g, float x, float y)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageIndex | Int32 | 指示哪个页面要转换 |
+| pageIndex | Int32 | 指明要转换的页面 |
 | g | Graphics | 渲染到的对象。 |
 | x | Single | 渲染页面左上角的 X 坐标（以像素为单位）。 |
 | y | Single | 渲染页面左上角的 Y 坐标（以像素为单位）。 |
@@ -64,27 +64,27 @@ public void ToImage(int pageIndex, string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageIndex | Int32 | 表示要转换哪个页面 |
+| pageIndex | Int32 | 指明要转换的页面 |
 | fileName | String | 输出图像的文件名 |
 
 ### 例子
 
-以下代码将第一张纸的第一页输出为 png 图像。
+以下代码将第一张纸的第一页输出为png图像。
 
 ```csharp
 //加载带有图像的源文件。
-orkbook wb = new Workbook("Book1.xlsx");
+Workbook wb = new Workbook("Book1.xlsx");
 
-mageOrPrintOptions imgOpt = new ImageOrPrintOptions();
+ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
 
-//设置输出图像类型.
-mgOpt.ImageType = ImageType.Png;
+//设置输出图像类型。
+imgOpt.ImageType = ImageType.Png;
 
 //渲染第一张纸。
-heetRender sr = new SheetRender(wb.Worksheets[0], imgOpt);
+SheetRender sr = new SheetRender(wb.Worksheets[0], imgOpt);
 
-//将sheet的第一页输出到image.
-r.ToImage(0, "output.png");
+//将工作表的第一页输出到图像。
+sr.ToImage(0, "output.png");
 ```
 
 ### 也可以看看
@@ -97,7 +97,7 @@ r.ToImage(0, "output.png");
 
 ## ToImage(int, Stream) {#toimage_3}
 
-将特定页面渲染到流中。
+将特定页面呈现到流中。
 
 ```csharp
 public void ToImage(int pageIndex, Stream stream)
@@ -105,8 +105,8 @@ public void ToImage(int pageIndex, Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageIndex | Int32 | 表示要转换哪个页面 |
-| stream | Stream | 输出图像流 |
+| pageIndex | Int32 | 指明要转换的页面 |
+| stream | Stream | 输出图像的流 |
 
 ### 也可以看看
 
@@ -126,11 +126,11 @@ public Bitmap ToImage(int pageIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageIndex | Int32 | 表示要转换的页面 |
+| pageIndex | Int32 | 指明要转换的页面 |
 
 ### 返回值
 
-位图页面对象
+页面的位图对象
 
 ### 也可以看看
 

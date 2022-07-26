@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по Aspose.Cells для .NET API
-description: Определяет имеет ли этот экземпляр то же значение что и другой указанныйShapeTextAlignmentaspose.cells.drawing.texts/shapetextalignmentобъект.
+description: Определяет имеет ли этот экземпляр то же значение что и другой указанныйShapeTextAlignmentaspose.cells.drawing.texts/shapetextalignment объект.
 type: docs
 weight: 140
 url: /ru/net/aspose.cells.drawing.texts/shapetextalignment/equals/
 ---
 ## ShapeTextAlignment.Equals method
 
-Определяет, имеет ли этот экземпляр то же значение, что и другой указанный[`ShapeTextAlignment`](../../shapetextalignment)объект.
+Определяет, имеет ли этот экземпляр то же значение, что и другой указанный[`ShapeTextAlignment`](../../shapetextalignment) объект.
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,7 +16,7 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | Объект[`ShapeTextAlignment`](../../shapetextalignment)для сравнения с этим пример. |
+| obj | Object | [`ShapeTextAlignment`](../../shapetextalignment) объект для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
@@ -27,11 +27,11 @@ true, если значение параметра obj совпадает со �
 ```csharp
 
 [C#]
-  //Вы должны убедиться, что значение индекса в этой строке кода exists
+//Вы должны убедиться, что значение индекса в этой строке кода существует
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment obj = workbook.Worksheets[0].Shapes[0].TextBody.TextAlignment;
 if (shapeTextAlignment.Equals(obj))
 {
-      //делай что хочешь
+    //делай что хочешь
 }
 ```
 

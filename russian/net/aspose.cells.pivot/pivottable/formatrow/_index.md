@@ -1,14 +1,14 @@
 ---
 title: FormatRow
 second_title: Справочник по Aspose.Cells для .NET API
-description: Форматирование данных строки в области сводной таблицы
+description: Отформатировать данные строки в области сводной таблицы
 type: docs
 weight: 850
 url: /ru/net/aspose.cells.pivot/pivottable/formatrow/
 ---
 ## PivotTable.FormatRow method
 
-Форматирование данных строки в области сводной таблицы
+Отформатировать данные строки в области сводной таблицы
 
 ```csharp
 public void FormatRow(int row, Style style)

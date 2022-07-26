@@ -1,14 +1,14 @@
 ---
 title: GridCommentCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装Comment对象的集合
+description: 封装了一个集合Comment对象.
 type: docs
 weight: 230
 url: /zh/net/aspose.cells.gridweb.data/gridcommentcollection/
 ---
 ## GridCommentCollection class
 
-封装Comment对象的集合。
+封装了一个集合Comment对象.
 
 ```csharp
 public class GridCommentCollection
@@ -19,16 +19,16 @@ public class GridCommentCollection
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.cells.gridweb.data/gridcommentcollection/count) { get; } |  |
-| [Item](../../aspose.cells.gridweb.data/gridcommentcollection/item) { get; } | 获取指定索引处的Comment元素。 (3 indexers) |
+| [Item](../../aspose.cells.gridweb.data/gridcommentcollection/item) { get; } | 获取Comment指定索引处的元素。 (3 indexers) |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells.gridweb.data/gridcommentcollection/add#add_1)(string) | 向集合添加注释。 |
-| [Add](../../aspose.cells.gridweb.data/gridcommentcollection/add#add)(int, int) | 向集合添加注释。 |
+| [Add](../../aspose.cells.gridweb.data/gridcommentcollection/add#add_1)(string) | 向集合添加评论。 |
+| [Add](../../aspose.cells.gridweb.data/gridcommentcollection/add#add)(int, int) | 向集合添加评论。 |
 | [Clear](../../aspose.cells.gridweb.data/gridcommentcollection/clear)() | 删除所有评论； |
-| [GetEnumerator](../../aspose.cells.gridweb.data/gridcommentcollection/getenumerator)() | 获取行枚举器 |
+| [GetEnumerator](../../aspose.cells.gridweb.data/gridcommentcollection/getenumerator)() | 获取行 enumerator |
 | [RemoveAt](../../aspose.cells.gridweb.data/gridcommentcollection/removeat#removeat_1)(string) | 删除特定单元格的注释。 |
 | [RemoveAt](../../aspose.cells.gridweb.data/gridcommentcollection/removeat#removeat)(int, int) | 删除特定单元格的注释。 |
 

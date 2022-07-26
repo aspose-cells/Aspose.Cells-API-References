@@ -1,14 +1,14 @@
 ---
 title: NullString
 second_title: Aspose.Cells for .NET API 参考
-description: 当 DisplayNullString 属性为 true 时获取在包含空值 的单元格中显示的字符串默认值为空字符串
+description: 当 DisplayNullString 属性为 true 时获取包含空值的单元格中显示的字符串 默认值为空字符串
 type: docs
 weight: 380
 url: /zh/net/aspose.cells.pivot/pivottable/nullstring/
 ---
 ## PivotTable.NullString property
 
-当 DisplayNullString 属性为 true 时，获取在包含空值 的单元格中显示的字符串。默认值为空字符串。
+当 DisplayNullString 属性为 true 时，获取包含空值的单元格中显示的字符串 。默认值为空字符串。
 
 ```csharp
 public string NullString { get; set; }

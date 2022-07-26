@@ -18,8 +18,8 @@ public class ProtectedRange
 
 | Имя | Описание |
 | --- | --- |
-| [CellArea](../../aspose.cells/protectedrange/cellarea) { get; } | Получает объект[`CellArea`](./cellarea), представляющий защищаемую область ячейки. |
-| [Name](../../aspose.cells/protectedrange/name) { get; set; } | Получает название Range. Это используется как дескриптор, а не как определение именованного диапазона. |
+| [CellArea](../../aspose.cells/protectedrange/cellarea) { get; } | Получает[`CellArea`](./cellarea) объект представляет защищаемую область ячейки. |
+| [Name](../../aspose.cells/protectedrange/name) { get; set; } | Получает заголовок Range. Используется как дескриптор, а не как определение именованного диапазона. |
 | [Password](../../aspose.cells/protectedrange/password) { get; set; } | Представляет пароль для защиты диапазона. |
 | [SecurityDescriptor](../../aspose.cells/protectedrange/securitydescriptor) { get; set; } | Дескриптор безопасности определяет учетные записи пользователей, которые могут редактировать этот диапазон без предоставления пароля для доступа к диапазону. |
 
@@ -27,7 +27,7 @@ public class ProtectedRange
 
 | Имя | Описание |
 | --- | --- |
-| [AddArea](../../aspose.cells/protectedrange/addarea)(int, int, int, int) | Добавляет указанную область к этой |
+| [AddArea](../../aspose.cells/protectedrange/addarea)(int, int, int, int) | Добавляет упомянутую область к этому |
 | [GetAreas](../../aspose.cells/protectedrange/getareas)() | Получает все упомянутые области. |
 
 ### Смотрите также

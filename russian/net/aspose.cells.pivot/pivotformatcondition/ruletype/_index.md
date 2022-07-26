@@ -1,14 +1,14 @@
 ---
 title: RuleType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получить и установить тип правила для формата условия сводной таблицы.
+description: Получить и установить тип правила для формата условия сводной таблицы .
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.pivot/pivotformatcondition/ruletype/
 ---
 ## PivotFormatCondition.RuleType property
 
-Получить и установить тип правила для формата условия сводной таблицы.
+Получить и установить тип правила для формата условия сводной таблицы .
 
 ```csharp
 public PivotConditionFormatRuleType RuleType { get; set; }

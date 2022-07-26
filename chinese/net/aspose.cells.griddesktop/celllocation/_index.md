@@ -36,7 +36,7 @@ public class CellLocation
 | override [GetHashCode](../../aspose.cells.griddesktop/celllocation/gethashcode)() | 用作特定类型的哈希函数，适用于哈希算法和哈希表等数据结构。 |
 | override [ToString](../../aspose.cells.griddesktop/celllocation/tostring)() | 覆盖对象的 ToString()。 |
 | [operator ==](../../aspose.cells.griddesktop/celllocation/op_equality) | 重载运算符 == |
-| [operator !=](../../aspose.cells.griddesktop/celllocation/op_inequality) | 重载运算符 != |
+| [operator !=](../../aspose.cells.griddesktop/celllocation/op_inequality) | 重载运算符！= |
 
 ### 也可以看看
 

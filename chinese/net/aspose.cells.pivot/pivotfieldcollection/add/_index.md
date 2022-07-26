@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 将 PivotField 对象添加到特定类型的 PivotFields
+description: 将 PivotField 对象添加到特定类型的 PivotFields.
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.pivot/pivotfieldcollection/add/
 ---
 ## PivotFieldCollection.Add method
 
-将 PivotField 对象添加到特定类型的 PivotFields。
+将 PivotField 对象添加到特定类型的 PivotFields.
 
 ```csharp
 public int Add(PivotField pivotField)
@@ -16,7 +16,7 @@ public int Add(PivotField pivotField)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pivotField | PivotField | 一个 PivotField 对象。 |
+| pivotField | PivotField | 数据透视字段对象。 |
 
 ### 返回值
 

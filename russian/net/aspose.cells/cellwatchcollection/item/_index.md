@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливаетCellWatchaspose.cells/cellwatchпо индексу.
+description: Получает и устанавливаетCellWatchaspose.cells/cellwatch по индексу.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/cellwatchcollection/item/
 ---
 ## CellWatchCollection indexer (1 of 2)
 
-Получает и устанавливает[`CellWatch`](../../cellwatch)по индексу.
+Получает и устанавливает[`CellWatch`](../../cellwatch) по индексу.
 
 ```csharp
 public CellWatch this[int index] { get; }
@@ -29,7 +29,7 @@ public CellWatch this[int index] { get; }
 
 ## CellWatchCollection indexer (2 of 2)
 
-Получает и устанавливает[`CellWatch`](../../cellwatch)по имени ячейки.
+Получает и устанавливает[`CellWatch`](../../cellwatch) по названию ячейки.
 
 ```csharp
 public CellWatch this[string cellName] { get; }

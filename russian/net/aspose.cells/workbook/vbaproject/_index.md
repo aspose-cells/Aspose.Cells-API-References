@@ -1,14 +1,14 @@
 ---
 title: VbaProject
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПолучаетVbaProjectaspose.cells/workbook/vbaprojectв электронной таблице.
+description: ПолучаетVbaProjectaspose.cells/workbook/vbaproject в электронной таблице.
 type: docs
 weight: 250
 url: /ru/net/aspose.cells/workbook/vbaproject/
 ---
 ## Workbook.VbaProject property
 
-Получает`VbaProject`в электронной таблице.
+Получает`VbaProject` в электронной таблице.
 
 ```csharp
 public VbaProject VbaProject { get; }

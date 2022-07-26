@@ -1,14 +1,14 @@
 ---
 title: CalculateTextSize
 second_title: Справочник по Aspose.Cells для .NET API
-description: Пересчитать область текста
+description: Пересчитать текстовую область
 type: docs
 weight: 990
 url: /ru/net/aspose.cells.drawing/shape/calculatetextsize/
 ---
 ## Shape.CalculateTextSize method
 
-Пересчитать область текста
+Пересчитать текстовую область
 
 ```csharp
 public int[] CalculateTextSize()
@@ -23,7 +23,7 @@ public int[] CalculateTextSize()
 ```csharp
 
 [C#]
-  //Размер текстовой области:w=size[0],h=size[1]
+//Размер текстовой области:w=size[0],h=size[1]
 int[] size = shape.CalculateTextSize();
 ```
 

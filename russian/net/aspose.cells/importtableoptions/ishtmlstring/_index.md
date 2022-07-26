@@ -1,14 +1,14 @@
 ---
 title: IsHtmlString
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает содержит ли значение HTML-теги.
+description: Указывает содержит ли значение теги html.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells/importtableoptions/ishtmlstring/
 ---
 ## ImportTableOptions.IsHtmlString property
 
-Указывает, содержит ли значение HTML-теги.
+Указывает, содержит ли значение теги html.
 
 ```csharp
 public bool IsHtmlString { get; set; }

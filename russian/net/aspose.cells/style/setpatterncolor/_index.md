@@ -16,7 +16,7 @@ public void SetPatternColor(BackgroundType pattern, Color color1, Color color2)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| шаблон | BackgroundType | Шаблон. |
+| pattern | BackgroundType | Шаблон. |
 | color1 | Color | Цвет переднего плана. |
 | color2 | Color | Цвет фона. Работает, только если шаблон отличается от BackgroundType.None и BackgroundType.Solid. |
 

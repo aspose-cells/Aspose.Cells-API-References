@@ -1,14 +1,14 @@
 ---
 title: DefaultStyleSettings
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает настройки стиля по умолчанию для инициализации стилей книги
+description: Получает настройки стиля по умолчанию для инициализации стилей рабочей книги
 type: docs
 weight: 70
 url: /ru/net/aspose.cells/loadoptions/defaultstylesettings/
 ---
 ## LoadOptions.DefaultStyleSettings property
 
-Получает настройки стиля по умолчанию для инициализации стилей книги
+Получает настройки стиля по умолчанию для инициализации стилей рабочей книги
 
 ```csharp
 public DefaultStyleSettings DefaultStyleSettings { get; }

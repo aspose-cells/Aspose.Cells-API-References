@@ -3,7 +3,7 @@ title: ImportGridView
 second_title: Справочник по Aspose.Cells для .NET API
 description: Импортирует вид сетки в эти ячейки.
 type: docs
-weight: 1030
+weight: 1040
 url: /ru/net/aspose.cells/cells/importgridview/
 ---
 ## Cells.ImportGridView method

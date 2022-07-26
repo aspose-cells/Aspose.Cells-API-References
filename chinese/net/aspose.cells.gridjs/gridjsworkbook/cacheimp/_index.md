@@ -1,14 +1,14 @@
 ---
 title: CacheImp
 second_title: Aspose.Cells for .NET API 参考
-description: 自定义实现缓存存储如果要以流的方式存储缓存需要设置并实现
+description: 缓存存储的自定义实现如果想以流的方式存储缓存需要设置并实现
 type: docs
 weight: 210
 url: /zh/net/aspose.cells.gridjs/gridjsworkbook/cacheimp/
 ---
 ## GridJsWorkbook.CacheImp field
 
-自定义实现缓存存储，如果要以流的方式存储缓存，需要设置并实现
+缓存存储的自定义实现，如果想以流的方式存储缓存，需要设置并实现
 
 ```csharp
 public static GridCacheForStream CacheImp;

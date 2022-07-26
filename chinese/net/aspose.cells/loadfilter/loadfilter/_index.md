@@ -1,14 +1,14 @@
 ---
 title: LoadFilter
 second_title: Aspose.Cells for .NET API 参考
-description: 使用默认过滤器选项 LoadDataFilterOptions.All 构造一个 LoadFilter
+description: 使用默认过滤器选项 LoadDataFilterOptions.All. 构造一个 LoadFilter
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/loadfilter/loadfilter/
 ---
 ## LoadFilter() {#constructor}
 
-使用默认过滤器选项 LoadDataFilterOptions.All 构造一个 LoadFilter。
+使用默认过滤器选项 LoadDataFilterOptions.All. 构造一个 LoadFilter
 
 ```csharp
 public LoadFilter()
@@ -24,7 +24,7 @@ public LoadFilter()
 
 ## LoadFilter(LoadDataFilterOptions) {#constructor_1}
 
-构造一个具有给定过滤器选项的 LoadFilter。
+使用给定的过滤器选项构造一个 LoadFilter。
 
 ```csharp
 public LoadFilter(LoadDataFilterOptions opts)

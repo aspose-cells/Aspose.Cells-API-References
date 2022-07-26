@@ -18,7 +18,7 @@ public enum TickMarkType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Cross | `0` | 刻度线类型为十字。 |
+| Cross | `0` | 刻度线类型是 Cross. |
 | Inside | `1` | 刻度线类型为内部。 |
 | None | `2` | 刻度线类型为无。 |
 | Outside | `3` | 刻度线类型为外部 |

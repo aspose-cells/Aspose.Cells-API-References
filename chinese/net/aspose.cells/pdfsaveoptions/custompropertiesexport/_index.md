@@ -1,14 +1,14 @@
 ---
 title: CustomPropertiesExport
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置一个值确定CustomDocumentPropertyCollectionaspose.cells.properties/customdocumentpropertycollection导出到 PDF 文件的方式默认值为无
+description: 获取或设置一个确定方式的值CustomDocumentPropertyCollectionaspose.cells.properties/customdocumentpropertycollection导出为 PDF 文件默认值为无
 type: docs
 weight: 90
 url: /zh/net/aspose.cells/pdfsaveoptions/custompropertiesexport/
 ---
 ## PdfSaveOptions.CustomPropertiesExport property
 
-获取或设置一个值，确定[`CustomDocumentPropertyCollection`](../../../aspose.cells.properties/customdocumentpropertycollection)导出到 PDF 文件的方式。默认值为无。
+获取或设置一个确定方式的值[`CustomDocumentPropertyCollection`](../../../aspose.cells.properties/customdocumentpropertycollection)导出为 PDF 文件。默认值为无。
 
 ```csharp
 public PdfCustomPropertiesExport CustomPropertiesExport { get; set; }

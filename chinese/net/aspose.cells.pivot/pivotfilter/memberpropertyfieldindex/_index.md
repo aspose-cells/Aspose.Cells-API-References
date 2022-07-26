@@ -1,14 +1,14 @@
 ---
 title: MemberPropertyFieldIndex
 second_title: Aspose.Cells for .NET API 参考
-description: 获取枢轴过滤器的成员属性字段索引
+description: 获取pivot filter的成员属性字段索引
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.pivot/pivotfilter/memberpropertyfieldindex/
 ---
 ## PivotFilter.MemberPropertyFieldIndex property
 
-获取枢轴过滤器的成员属性字段索引。
+获取pivot filter的成员属性字段索引。
 
 ```csharp
 public int MemberPropertyFieldIndex { get; set; }

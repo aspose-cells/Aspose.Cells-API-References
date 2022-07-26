@@ -19,7 +19,7 @@ public int Add(int upperLeftRow, int upperLeftColumn, int height, int width, byt
 | upperLeftRow | Int32 | 左上行索引。 |
 | upperLeftColumn | Int32 | 左上列索引。 |
 | height | Int32 | oleObject 的高度，以像素为单位。 |
-| width | Int32 | oleObject的宽度，以像素为单位。 |
+| width | Int32 | oleObject 的宽度，以像素为单位。 |
 | imageData | Byte[] | ole 对象的图像作为字节数组。 |
 
 ### 返回值
@@ -48,7 +48,7 @@ public int Add(int upperLeftRow, int upperLeftColumn, int height, int width, byt
 | upperLeftRow | Int32 | 左上行索引。 |
 | upperLeftColumn | Int32 | 左上列索引。 |
 | height | Int32 | oleObject 的高度，以像素为单位。 |
-| width | Int32 | oleObject的宽度，以像素为单位。 |
+| width | Int32 | oleObject 的宽度，以像素为单位。 |
 | imageData | Byte[] | ole 对象的图像作为字节数组。 |
 | linkedFile | String |  |
 

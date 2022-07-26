@@ -22,12 +22,11 @@ public interface IExportObjectListener
 
 ### 例子
 
-下面的示例创建一个工作簿，在其中打开一个名为 Designer.xls 的文件，并使水平和工作簿不可见的垂直滚动条。然后，它在电子表格中分别用整数值和字符串值替换两个字符串值，最后将更新后的文件发送到客户端浏览器。
+下面的示例创建一个工作簿，在其中打开一个名为designer.xls 的文件，并使工作簿的水平和垂直滚动条不可见。然后，它在电子表格中分别用整数值和字符串值替换两个字符串值，最后将更新后的文件发送到客户端浏览器。
 
 ```csharp
 [C#]
-     //IExportObjectListener
-
+    //IExportObjectListener的自定义实现
     class CustomExportObjectListener : IExportObjectListener
     {
         private int imgIdx = 0;
@@ -56,14 +55,12 @@ public interface IExportObjectListener
         }
         private string SaveImage(byte[] data, int imgIdx, ImageFormat format)
         {
-            //这里将图片保存到任意位置，然后返回生成的html可以获取到image
-
+            //这里将图片保存到任意位置，然后返回生成的html可以获取图片的url（相对或绝对）
             return "temp1/temp2.png";
         }
      }
      
-      //用自定义listener
-
+     //用自定义监听器保存html文件
         HtmlSaveOptions saveOptions = new HtmlSaveOptions();
         saveOptions.ExportObjectListener = new CustomExportObjectListener();
         Stream stream = File.Create(outfn);

@@ -1,14 +1,14 @@
 ---
 title: SaveToExcelFile
 second_title: Справочник по Aspose.Cells для .NET API
-description: Сохраняет рабочие листы в файл Excel в формате Excel 2003.
+description: Сохраняет листы в файл Excel в формате Excel 2003.
 type: docs
 weight: 1500
 url: /ru/net/aspose.cells.gridweb/mainweb/savetoexcelfile/
 ---
 ## SaveToExcelFile(string) {#savetoexcelfile_3}
 
-Сохраняет рабочие листы в файл Excel в формате Excel 2003.
+Сохраняет листы в файл Excel в формате Excel 2003.
 
 ```csharp
 public void SaveToExcelFile(string targetFile)
@@ -80,7 +80,7 @@ public void SaveToExcelFile(Stream stream, GridSaveOptions saveOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток для записи. |
-| saveOptions | GridSaveOptions | Параметры сохранения. |
+| saveOptions | GridSaveOptions | Варианты сохранения. |
 
 ### Смотрите также
 
@@ -124,7 +124,7 @@ public void SaveToExcelFile(string targetFile, GridSaveOptions saveOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | targetFile | String | Имя целевого файла для записи. |
-| saveOptions | GridSaveOptions | Параметры сохранения. |
+| saveOptions | GridSaveOptions | Варианты сохранения. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 通过给定的行索引获取对象如果给定行索引的 Row 对象之前不存在它将被实例化
+description: 得到一个给定行索引的对象给定行索引的 Row 对象如果之前不存在将被实例化
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/rowcollection/item/
 ---
 ## RowCollection indexer
 
-通过给定的行索引获取对象。如果给定行索引的 Row 对象之前不存在，它将被实例化。
+得到一个给定行索引的对象。给定行索引的 Row 对象如果之前不存在将被实例化。
 
 ```csharp
 public Row this[int rowIndex] { get; }

@@ -1,14 +1,14 @@
 ---
 title: RectangleAlignmentType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет как расположить два прямоугольника относительно друг друга.
+description: Указывает как расположить два прямоугольника относительно друг друга.
 type: docs
 weight: 2560
 url: /ru/net/aspose.cells.drawing/rectanglealignmenttype/
 ---
 ## RectangleAlignmentType enumeration
 
-Представляет, как расположить два прямоугольника относительно друг друга.
+Указывает, как расположить два прямоугольника относительно друг друга.
 
 ```csharp
 public enum RectangleAlignmentType
@@ -18,15 +18,15 @@ public enum RectangleAlignmentType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Bottom | `0` | Снизу |
-| BottomLeft | `1` | BottomLeft |
-| BottomRight | `2` | BottomRight |
+| Bottom | `0` | Низ |
+| BottomLeft | `1` | Нижний левый |
+| BottomRight | `2` | Внизу справа |
 | Center | `3` | Центр |
 | Left | `4` | Слева |
-| Right | `5` | Справа |
+| Right | `5` | Правильно |
 | Top | `6` | Топ |
 | TopLeft | `7` | TopLeft |
-| TopRight | `8` | TopRight |
+| TopRight | `8` | Верхнее правое |
 
 ### Смотрите также
 

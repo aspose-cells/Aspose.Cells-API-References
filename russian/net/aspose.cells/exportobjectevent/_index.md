@@ -1,14 +1,14 @@
 ---
 title: ExportObjectEvent
 second_title: Справочник по Aspose.Cells для .NET API
-description: Событие инициированное при экспорте объекта например изображения.
+description: Событие инициированное при экспорте объекта например Picture.
 type: docs
 weight: 3210
 url: /ru/net/aspose.cells/exportobjectevent/
 ---
 ## ExportObjectEvent class
 
-Событие, инициированное при экспорте объекта, например, изображения.
+Событие, инициированное при экспорте объекта, например Picture.
 
 ```csharp
 public class ExportObjectEvent

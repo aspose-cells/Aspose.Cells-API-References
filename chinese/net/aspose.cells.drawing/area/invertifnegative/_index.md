@@ -1,14 +1,14 @@
 ---
 title: InvertIfNegative
 second_title: Aspose.Cells for .NET API 参考
-description: 如果该属性为真且图表点的值为负数则 前景色和背景色将互换
+description: 如果属性为true图表点的值为负数 前景色和背景色会互换
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.drawing/area/invertifnegative/
 ---
 ## Area.InvertIfNegative property
 
-如果该属性为真且图表点的值为负数，则 前景色和背景色将互换。
+如果属性为true，图表点的值为负数， 前景色和背景色会互换
 
 ```csharp
 public bool InvertIfNegative { get; set; }
@@ -20,61 +20,58 @@ public bool InvertIfNegative { get; set; }
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
- //添加一个新的工作表到工作簿对象
+//向Workbook对象添加一个新的工作表
 int sheetIndex = workbook.Worksheets.Add();
- //通过传入其sheet index
-eet的引用
+//通过传入工作表的索引来获取新添加的工作表的引用
 Worksheet worksheet = workbook.Worksheets[sheetIndex];
- //向“A1”添加样本值 cell
+//向“A1”单元格添加样本值
 worksheet.Cells["A1"].PutValue(50);
-//向“A2”添加样本值 cell
+//向“A2”单元格添加样本值
 worksheet.Cells["A2"].PutValue(-100);
- //向“A3”添加样本值 cell
+//向“A3”单元格添加样本值
 worksheet.Cells["A3"].PutValue(150);
- //将图表添加到工作表
+//向工作表添加图表
 int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
- //访问新添加的chart
-
+//访问新添加图表的实例
 Chart chart = worksheet.Charts[chartIndex];
 //将NSeries（图表数据源）添加到从“A1”单元格到“A3”单元格的图表中
 chart.NSeries.Add("A1:A3", true);
 chart.NSeries[0].Area.InvertIfNegative = true;
-//设置第一个NSeries area
-
+//设置第一个NSeries区域的前景色
 chart.NSeries[0].Area.ForegroundColor = Color.Red;
- //设置第一个NSeries区域的背景颜色
-//第二个图表点的显示区域颜色为背景色
+//设置第一个NSeries区域的背景颜色。
+//第二个图表点的显示区域颜色为背景色。
 chart.NSeries[0].Area.BackgroundColor = Color.Yellow;
- //保存Excel文件
+//保存Excel文件
 workbook.Save("book1.xls");
 
 [Visual Basic]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 '将新工作表添加到 Workbook 对象
 Dim sheetIndex As Integer = workbook.Worksheets.Add()
-'通过传递其工作表索引来获取新添加工作表的引用
+'通过传入工作表的索引来获取新添加的工作表的引用
 Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
-'将样本值添加到 to "A1" cell
+'Adding a sample value to "A1" cell
 worksheet.Cells("A1").PutValue(50)
-'将样本值添加到 to "A2" cell
+'Adding a sample value to "A2" cell
 worksheet.Cells("A2").PutValue(-100)
-'将样本值添加到 to "A3" cell
+'Adding a sample value to "A3" cell
 worksheet.Cells("A3").PutValue(150)
-'将图表添加到 worksheet
+'将图表添加到工作表
 Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5)
 '访问新添加图表的实例
 Dim chart As Chart = worksheet.Charts(chartIndex)
-'将 NSeries（图表数据源）添加到图表中，范围从“A1”单元格到“A3”
+'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "A3"
 chart.NSeries.Add("A1:A3", True)
 chart.NSeries(0).Area.InvertIfNegative = True
 '设置第一个 NSeries 区域的前景色
 chart.NSeries(0).Area.ForegroundColor = Color.Red
 '设置第一个 NSeries 区域的背景颜色。
-'The displayed area color of second chart point will be the background color.
+'第二个图表点的显示区域颜色将是背景颜色。
 chart.NSeries(0).Area.BackgroundColor = Color.Yellow
 '保存 Excel 文件
 workbook.Save("book1.xls")

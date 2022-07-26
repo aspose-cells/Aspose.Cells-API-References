@@ -16,8 +16,8 @@ public static double GetDoubleFromDateTime(DateTime dateTime, bool date1904)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dateTime | DateTime | Дата и время. |
-| date1904 | Boolean | Дата системы 1904. |
+| dateTime | DateTime | Дата время. |
+| date1904 | Boolean | Система дат 1904 года. |
 
 ### Смотрите также
 

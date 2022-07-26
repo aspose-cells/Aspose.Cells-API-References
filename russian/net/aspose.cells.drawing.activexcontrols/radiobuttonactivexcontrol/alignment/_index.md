@@ -1,14 +1,14 @@
 ---
 title: Alignment
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает положение Caption относительно элемента управления.
+description: Получает и устанавливает положение заголовка относительно элемента управления.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/alignment/
 ---
 ## RadioButtonActiveXControl.Alignment property
 
-Получает и устанавливает положение Caption относительно элемента управления.
+Получает и устанавливает положение заголовка относительно элемента управления.
 
 ```csharp
 public ControlCaptionAlignmentType Alignment { get; set; }

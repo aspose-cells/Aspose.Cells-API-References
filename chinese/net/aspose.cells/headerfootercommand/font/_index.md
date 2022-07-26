@@ -16,7 +16,7 @@ public Font Font { get; }
 
 ### 评论
 
-对 HeaderFooterCommandType.Picture 无用。
+对 HeaderFooterCommandType.Picture. 无用
 
 ### 也可以看看
 

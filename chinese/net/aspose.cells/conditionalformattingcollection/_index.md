@@ -1,14 +1,14 @@
 ---
 title: ConditionalFormattingCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装FormatCondition./formatcondition对象的集合
+description: 封装了一个集合FormatCondition./formatcondition对象.
 type: docs
 weight: 1100
 url: /zh/net/aspose.cells/conditionalformattingcollection/
 ---
 ## ConditionalFormattingCollection class
 
-封装[`FormatCondition`](../formatcondition)对象的集合。
+封装了一个集合[`FormatCondition`](../formatcondition)对象.
 
 ```csharp
 public class ConditionalFormattingCollection : CollectionBase<FormatConditionCollection>
@@ -63,7 +63,7 @@ public class ConditionalFormattingCollection : CollectionBase<FormatConditionCol
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 
 Worksheet sheet = workbook.Worksheets[0];
@@ -71,13 +71,13 @@ Worksheet sheet = workbook.Worksheets[0];
 //获取条件格式
 ConditionalFormattingCollection cformattings = sheet.ConditionalFormattings;
 
- //添加一个空的条件格式
+//添加一个空的条件格式
 int index = cformattings.Add();
 
- //获取新添加的条件格式
+//获取新添加的条件格式
 FormatConditionCollection fcs = cformattings[index];
 
- //设置条件格式范围.
+//设置条件格式范围。
 CellArea ca = new CellArea();
 
 ca.StartRow = 0;
@@ -102,23 +102,23 @@ ca.EndColumn = 1;
 
 fcs.AddArea(ca);
 
- //添加条件.
+//添加条件。
 int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100");
 
- //添加条件.
+//添加条件。
 int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
 
- //设置背景颜色.
+//设置背景颜色。
 FormatCondition fc = fcs[conditionIndex];
 
 fc.Style.BackgroundColor = Color.Red;
 
- //保存Excel文件
+//保存Excel文件
 workbook.Save("output.xls");
 
 [VB.NET]
 
-'实例化一个Workbook目的
+'实例化工作簿对象
 DDim workbook As Workbook = New Workbook()
 
 Dim sheet As Worksheet = workbook.Worksheets(0)

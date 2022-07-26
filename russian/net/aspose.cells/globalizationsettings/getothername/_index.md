@@ -1,14 +1,14 @@
 ---
 title: GetOtherName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает имя метки Другие для круговых диаграмм.
+description: Получает имя меток Другие для круговых диаграмм.
 type: docs
 weight: 160
 url: /ru/net/aspose.cells/globalizationsettings/getothername/
 ---
 ## GlobalizationSettings.GetOtherName method
 
-Получает имя метки «Другие» для круговых диаграмм.
+Получает имя меток «Другие» для круговых диаграмм.
 
 ```csharp
 public virtual string GetOtherName()

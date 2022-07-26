@@ -1,14 +1,14 @@
 ---
 title: ShapePathPoint
 second_title: Aspose.Cells for .NET API 参考
-description: 表示路径坐标空间内的 xy 坐标
+description: 表示路径坐标空间内的一个 xy 坐标
 type: docs
 weight: 2710
 url: /zh/net/aspose.cells.drawing/shapepathpoint/
 ---
 ## ShapePathPoint class
 
-表示路径坐标空间内的 xy 坐标。
+表示路径坐标空间内的一个 xy 坐标。
 
 ```csharp
 public class ShapePathPoint

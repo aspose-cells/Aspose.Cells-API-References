@@ -1,14 +1,14 @@
 ---
 title: GridCommentCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует коллекцию объектовComment.
+description: Инкапсулирует наборCommentобъекты.
 type: docs
 weight: 450
 url: /ru/net/aspose.cells.griddesktop.data/gridcommentcollection/
 ---
 ## GridCommentCollection class
 
-Инкапсулирует коллекцию объектовComment.
+Инкапсулирует наборCommentобъекты.
 
 ```csharp
 public class GridCommentCollection
@@ -19,21 +19,21 @@ public class GridCommentCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.cells.griddesktop.data/gridcommentcollection/count) { get; } |  |
-| [Item](../../aspose.cells.griddesktop.data/gridcommentcollection/item) { get; } | Получает элементCommentпо указанному индексу. (3 indexers) |
+| [Item](../../aspose.cells.griddesktop.data/gridcommentcollection/item) { get; } | ПолучаетComment элемент по указанному индексу. (3 indexers) |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells.griddesktop.data/gridcommentcollection/add#add_1)(string) | Добавляет комментарий к коллекции. |
-| [Add](../../aspose.cells.griddesktop.data/gridcommentcollection/add#add)(int, int) | Добавляет комментарий к коллекции. |
+| [Add](../../aspose.cells.griddesktop.data/gridcommentcollection/add#add_1)(string) | Добавляет комментарий в коллекцию. |
+| [Add](../../aspose.cells.griddesktop.data/gridcommentcollection/add#add)(int, int) | Добавляет комментарий в коллекцию. |
 | [Add](../../aspose.cells.griddesktop.data/gridcommentcollection/add#add_3)(string, string) | Добавляет комментарий к указанной ячейке по имени ячейки. |
 | [Add](../../aspose.cells.griddesktop.data/gridcommentcollection/add#add_2)(int, int, string) |  |
 | [Clear](../../aspose.cells.griddesktop.data/gridcommentcollection/clear)() | Удаляет все комментарии; |
 | [GetEnumerator](../../aspose.cells.griddesktop.data/gridcommentcollection/getenumerator)() | Получает перечислитель строк |
 | [Remove](../../aspose.cells.griddesktop.data/gridcommentcollection/remove)(int, int) | Удаляет комментарий в указанном индексе столбца строки ячейки. |
-| [RemoveAt](../../aspose.cells.griddesktop.data/gridcommentcollection/removeat#removeat_1)(string) | Удаляет комментарий конкретной ячейки. |
-| [RemoveAt](../../aspose.cells.griddesktop.data/gridcommentcollection/removeat#removeat)(int, int) | Удаляет комментарий конкретной ячейки. |
+| [RemoveAt](../../aspose.cells.griddesktop.data/gridcommentcollection/removeat#removeat_1)(string) | Удаляет комментарий к конкретной ячейке. |
+| [RemoveAt](../../aspose.cells.griddesktop.data/gridcommentcollection/removeat#removeat)(int, int) | Удаляет комментарий к конкретной ячейке. |
 
 ### Смотрите также
 

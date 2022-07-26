@@ -1,14 +1,14 @@
 ---
 title: AddShapeInChart
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавить фигуру на диаграмму. Все единицы измерения составляют 1/4000 области диаграммы.
+description: Добавить фигуру на диаграмму. Все единицы измерения составляют 1/4000 площади диаграммы.
 type: docs
 weight: 270
 url: /ru/net/aspose.cells.drawing/shapecollection/addshapeinchart/
 ---
 ## AddShapeInChart(MsoDrawingType, PlacementType, int, int, int, int, byte[]) {#addshapeinchart_1}
 
-Добавить фигуру на диаграмму. Все единицы измерения составляют 1/4000 области диаграммы.
+Добавить фигуру на диаграмму. Все единицы измерения составляют 1/4000 площади диаграммы.
 
 ```csharp
 public Shape AddShapeInChart(MsoDrawingType type, PlacementType placement, int left, int top, 
@@ -17,7 +17,7 @@ public Shape AddShapeInChart(MsoDrawingType type, PlacementType placement, int l
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | MsoDrawingType | Тип чертежа. |
+| type | MsoDrawingType | Тип рисунка. |
 | placement | PlacementType | тип размещения. |
 | left | Int32 | В единицах 1/4000 ширины области диаграммы. |
 | top | Int32 | В единицах 1/4000 высоты области диаграммы. |
@@ -38,7 +38,7 @@ public Shape AddShapeInChart(MsoDrawingType type, PlacementType placement, int l
 
 ## AddShapeInChart(MsoDrawingType, PlacementType, int, int, int, int) {#addshapeinchart}
 
-Добавить фигуру на диаграмму. Все единицы измерения составляют 1/4000 области диаграммы.
+Добавить фигуру на диаграмму. Все единицы измерения составляют 1/4000 площади диаграммы.
 
 ```csharp
 public Shape AddShapeInChart(MsoDrawingType type, PlacementType placement, int left, int top, 
@@ -47,7 +47,7 @@ public Shape AddShapeInChart(MsoDrawingType type, PlacementType placement, int l
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | MsoDrawingType | Тип чертежа. |
+| type | MsoDrawingType | Тип рисунка. |
 | placement | PlacementType | тип размещения. |
 | left | Int32 | В единицах 1/4000 ширины области диаграммы. |
 | top | Int32 | В единицах 1/4000 высоты области диаграммы. |

@@ -1,14 +1,14 @@
 ---
 title: PasswordChar
 second_title: Aspose.Cells for .NET API 参考
-description: 获取并设置要显示的字符以代替输入的字符
+description: 获取并设置一个字符来代替输入的字符显示
 type: docs
 weight: 150
 url: /zh/net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/passwordchar/
 ---
 ## TextBoxActiveXControl.PasswordChar property
 
-获取并设置要显示的字符以代替输入的字符。
+获取并设置一个字符来代替输入的字符显示。
 
 ```csharp
 public char PasswordChar { get; set; }

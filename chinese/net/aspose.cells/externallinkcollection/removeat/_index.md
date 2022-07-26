@@ -20,7 +20,7 @@ public void RemoveAt(int index)
 
 ### 评论
 
-删除外部链接时，所有引用它的公式也将被删除，因为 引用变为无效的。
+删除外部链接时，所有引用它的公式也将被删除，因为 引用变得无效。
 
 ### 也可以看看
 
@@ -45,7 +45,7 @@ public void RemoveAt(int index, bool updateReferencesAsLocal)
 
 ### 评论
 
-如果需要更新引用，则公式中对外部链接的引用将更改为当前工作簿. 例如要移除的外部链接是“externalsource.xlam”，它定义了一个自定义函数“customfunction()”， 一个单元格的原始公式是“='externalsource .xlam'!customfunction()", 去掉公式后会变成"=customfunction()"。 如果不需要更新引用，则引用此外部链接 的所有公式也将被删除，因为这些引用变得无效。
+如果需要更新引用，公式中对外部链接的引用将更改为当前工作簿。 例如，要删除的外部链接是“externalsource.xlam”，它定义了一个自定义函数“customfunction()”， 一个单元格的原始公式是“='externalsource.xlam'!customfunction()”， 去掉公式后会变成“=customfunction()”。 如果不需要更新引用，所有引用这个外部的公式link 也将被删除，因为这些引用变得无效。
 
 ### 也可以看看
 

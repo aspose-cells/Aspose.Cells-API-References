@@ -16,7 +16,7 @@ public ReferredArea[] GetReferredAreas(bool recalculate)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| recalculate | Boolean | 如果在此调用之前已计算过此名称，是否重新计算它。 |
+| recalculate | Boolean | 如果在此调用之前已计算此名称，是否重新计算它。 |
 
 ### 返回值
 

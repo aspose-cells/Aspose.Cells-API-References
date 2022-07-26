@@ -19,7 +19,7 @@ public class ExternalLink
 | Имя | Описание |
 | --- | --- |
 | [DataSource](../../aspose.cells/externallink/datasource) { get; set; } | Представляет источник данных внешней ссылки. |
-| [IsReferred](../../aspose.cells/externallink/isreferred) { get; } | Указывает, ссылаются ли другие на эту внешнюю ссылку. |
+| [IsReferred](../../aspose.cells/externallink/isreferred) { get; } | Указывает, ссылаются ли на эту внешнюю ссылку другие. |
 | [IsVisible](../../aspose.cells/externallink/isvisible) { get; } | Указывает, видна ли эта внешняя ссылка в MS Excel. |
 | [OriginalDataSource](../../aspose.cells/externallink/originaldatasource) { get; set; } | Представляет сохраненный источник данных внешней ссылки. |
 | [Type](../../aspose.cells/externallink/type) { get; } | Получает тип внешней ссылки. |
@@ -36,24 +36,24 @@ public class ExternalLink
 
 [C#]
 
-  //Открываем файл с внешними ссылками
+//Открываем файл с внешними ссылками
 Workbook workbook = new Workbook("book1.xls");
 
 //Получить внешнюю ссылку 
 ExternalLink externalLink = workbook.Worksheets.ExternalLinks[0];
 
-  //Изменить источник данных внешней ссылки
+//Изменить источник данных внешней ссылки
 externalLink.DataSource = "d:\\link.xls";
 
 [VB.NET]
 
-'Открываем файл с внешними ссылками
+'Откройте файл с внешними ссылками
 Dim workbook As New Workbook("book1.xls")
 
-'Получить внешнюю ссылку  
+'Получить внешнюю ссылку 
 Dim externalLink As ExternalLink = workbook.Worksheets.ExternalLinks(0)
 
-'Изменить источник данных внешней ссылки
+'Change External Link's Data Source
 externalLink.DataSource = "d:\link.xls"
 ```
 

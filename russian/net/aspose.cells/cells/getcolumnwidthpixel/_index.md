@@ -1,14 +1,14 @@
 ---
 title: GetColumnWidthPixel
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает ширину указанного столбца в обычном представлении в единицах пикселя.
+description: Получает ширину указанного столбца в обычном режиме просмотра в пикселях.
 type: docs
 weight: 690
 url: /ru/net/aspose.cells/cells/getcolumnwidthpixel/
 ---
 ## Cells.GetColumnWidthPixel method
 
-Получает ширину указанного столбца в обычном представлении в единицах пикселя.
+Получает ширину указанного столбца в обычном режиме просмотра в пикселях.
 
 ```csharp
 public int GetColumnWidthPixel(int column)

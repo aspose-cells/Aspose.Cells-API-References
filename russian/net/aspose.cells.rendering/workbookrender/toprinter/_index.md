@@ -1,14 +1,14 @@
 ---
 title: ToPrinter
 second_title: Справочник по Aspose.Cells для .NET API
-description: Вывод книги на принтер
+description: Рендеринг книги на Printer
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.rendering/workbookrender/toprinter/
 ---
 ## ToPrinter(string) {#toprinter_2}
 
-Вывод книги на принтер
+Рендеринг книги на Printer
 
 ```csharp
 public void ToPrinter(string printerName)
@@ -16,7 +16,7 @@ public void ToPrinter(string printerName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| printerName | String | имя принтера, например:"Microsoft Office Document Image Writer" |
+| printerName | String | имя принтера, например: "Microsoft Office Document Image Writer" |
 
 ### Смотрите также
 
@@ -28,7 +28,7 @@ public void ToPrinter(string printerName)
 
 ## ToPrinter(string, string) {#toprinter_4}
 
-Вывод книги на принтер
+Рендеринг книги на Printer
 
 ```csharp
 public void ToPrinter(string printerName, string jobName)
@@ -36,7 +36,7 @@ public void ToPrinter(string printerName, string jobName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| printerName | String | имя принтера, например:"Microsoft Office Document Image Writer" |
+| printerName | String | имя принтера, например: "Microsoft Office Document Image Writer" |
 | jobName | String | установить имя задания на печать |
 
 ### Смотрите также
@@ -49,7 +49,7 @@ public void ToPrinter(string printerName, string jobName)
 
 ## ToPrinter(PrinterSettings) {#toprinter}
 
-Рендеринг книги на принтер
+Рендеринг книги на Printer
 
 ```csharp
 public void ToPrinter(PrinterSettings PrinterSettings)
@@ -57,7 +57,7 @@ public void ToPrinter(PrinterSettings PrinterSettings)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| PrinterSettings | PrinterSettings | настройки принтера, например Имя_принтера, Дуплекс |
+| PrinterSettings | PrinterSettings | настройки принтера, например PrinterName, Duplex |
 
 ### Смотрите также
 
@@ -69,7 +69,7 @@ public void ToPrinter(PrinterSettings PrinterSettings)
 
 ## ToPrinter(PrinterSettings, string) {#toprinter_1}
 
-Рендеринг книги на принтер
+Рендеринг книги на Printer
 
 ```csharp
 public void ToPrinter(PrinterSettings PrinterSettings, string jobName)

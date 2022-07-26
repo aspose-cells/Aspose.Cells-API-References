@@ -1,14 +1,14 @@
 ---
 title: Values
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет данные ряда диаграммы.
+description: Представляет данные серии диаграммы.
 type: docs
 weight: 460
 url: /ru/net/aspose.cells.charts/series/values/
 ---
 ## Series.Values property
 
-Представляет данные ряда диаграммы.
+Представляет данные серии диаграммы.
 
 ```csharp
 public string Values { get; set; }

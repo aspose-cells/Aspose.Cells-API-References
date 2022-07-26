@@ -1,14 +1,14 @@
 ---
 title: WindowWidthInch
 second_title: Aspose.Cells for .NET API 参考
-description: 窗口的宽度单位英寸
+description: 窗口的宽度单位为英寸
 type: docs
 weight: 590
 url: /zh/net/aspose.cells/workbooksettings/windowwidthinch/
 ---
 ## WorkbookSettings.WindowWidthInch property
 
-窗口的宽度，单位英寸。
+窗口的宽度，单位为英寸。
 
 ```csharp
 public double WindowWidthInch { get; set; }

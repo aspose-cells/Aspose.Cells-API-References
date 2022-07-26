@@ -16,7 +16,7 @@ public void ShowReportFilterPageByIndex(int posIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| posIndex | Int32 | PageFields |
+| posIndex | Int32 | PageFields 中的位置索引 |
 
 ### 也可以看看
 

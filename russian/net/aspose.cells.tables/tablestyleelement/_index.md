@@ -26,7 +26,7 @@ public class TableStyleElement
 | Имя | Описание |
 | --- | --- |
 | [GetElementStyle](../../aspose.cells.tables/tablestyleelement/getelementstyle)() | Получает стиль элемента. |
-| [SetElementStyle](../../aspose.cells.tables/tablestyleelement/setelementstyle)(Style) | Устанавливает стиль элемента. |
+| [SetElementStyle](../../aspose.cells.tables/tablestyleelement/setelementstyle)(Style) | Задает стиль элемента. |
 
 ### Смотрите также
 

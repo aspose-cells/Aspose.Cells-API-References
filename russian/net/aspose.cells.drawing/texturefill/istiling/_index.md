@@ -1,14 +1,14 @@
 ---
 title: IsTiling
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает является ли тайловое изображение текстурой.
+description: Указывает является ли мозаичное изображение текстурой.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.drawing/texturefill/istiling/
 ---
 ## TextureFill.IsTiling property
 
-Указывает, является ли тайловое изображение текстурой.
+Указывает, является ли мозаичное изображение текстурой.
 
 ```csharp
 public bool IsTiling { get; set; }

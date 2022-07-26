@@ -1,14 +1,14 @@
 ---
 title: Draw
 second_title: Aspose.Cells for .NET API 参考
-description: 实现该接口在渲染时获取DrawObject和Bound
+description: 实现这个接口在渲染的时候获取DrawObject和Bound
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.rendering/drawobjecteventhandler/draw/
 ---
 ## DrawObjectEventHandler.Draw method
 
-实现该接口，在渲染时获取DrawObject和Bound。
+实现这个接口，在渲染的时候获取DrawObject和Bound。
 
 ```csharp
 public virtual void Draw(DrawObject drawObject, float x, float y, float width, float height)
@@ -16,10 +16,10 @@ public virtual void Draw(DrawObject drawObject, float x, float y, float width, f
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| drawObject | DrawObject | DrawObject 将在渲染时初始化并返回 |
-| x | Single | DrawObject 左侧 |
-| y | Single | DrawObject 顶部 |
-| width | Single | DrawObject 宽度 |
+| drawObject | DrawObject | 渲染时会初始化并返回 DrawObject |
+| x | Single | DrawObject 的左侧 |
+| y | Single | DrawObject 的顶部 |
+| width | Single | DrawObject 的宽度 |
 | height | Single | DrawObject 的高度 |
 
 ### 也可以看看

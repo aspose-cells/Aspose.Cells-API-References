@@ -1,14 +1,14 @@
 ---
 title: GroupColumns
 second_title: Aspose.Cells for .NET API 参考
-description: 分组列
+description: 对列进行分组
 type: docs
 weight: 800
 url: /zh/net/aspose.cells.griddesktop/worksheet/groupcolumns/
 ---
 ## GroupColumns(int, int, bool, bool) {#groupcolumns_1}
 
-分组列。
+对列进行分组。
 
 ```csharp
 public void GroupColumns(int firstColumn, int lastColumn, bool isHidden, bool addToUndo)
@@ -17,9 +17,9 @@ public void GroupColumns(int firstColumn, int lastColumn, bool isHidden, bool ad
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | firstColumn | Int32 | 要分组的第一列索引。 |
-| lastColumn | Int32 | 要分组的最后一列索引。 |
-| isHidden | Boolean | 指定是否隐藏分组列 |
-| addToUndo | Boolean | 指定是否添加此操作进入撤消管理器。并且 GridDesktop 的 EnableUndo 属性必须设置为 true。 |
+| lastColumn | Int32 | 要分组的最后一个列索引。 |
+| isHidden | Boolean | 指定分组列是否隐藏 |
+| addToUndo | Boolean | 指定是否将此操作添加到撤消管理器中。并且 GridDesktop 的 EnableUndo 属性必须设置为 true。 |
 
 ### 也可以看看
 
@@ -31,7 +31,7 @@ public void GroupColumns(int firstColumn, int lastColumn, bool isHidden, bool ad
 
 ## GroupColumns(int, int, int, bool) {#groupcolumns_2}
 
-分组列。
+对列进行分组。
 
 ```csharp
 public void GroupColumns(int firstColumn, int lastColumn, int outlineLevel, bool isHidden)
@@ -40,9 +40,9 @@ public void GroupColumns(int firstColumn, int lastColumn, int outlineLevel, bool
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | firstColumn | Int32 | 要分组的第一列索引。 |
-| lastColumn | Int32 | 要分组的最后一列索引。 |
-| outlineLevel | Int32 | outlineLevel |
-| isHidden | Boolean | 指定是否隐藏分组列 |
+| lastColumn | Int32 | 要分组的最后一个列索引。 |
+| outlineLevel | Int32 | 大纲级别 |
+| isHidden | Boolean | 指定分组列是否隐藏 |
 
 ### 也可以看看
 
@@ -54,7 +54,7 @@ public void GroupColumns(int firstColumn, int lastColumn, int outlineLevel, bool
 
 ## GroupColumns(int, int) {#groupcolumns}
 
-分组列。
+对列进行分组。
 
 ```csharp
 public void GroupColumns(int firstColumn, int lastColumn)
@@ -63,7 +63,7 @@ public void GroupColumns(int firstColumn, int lastColumn)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | firstColumn | Int32 | 要分组的第一列索引。 |
-| lastColumn | Int32 | 要分组的最后一列索引。 |
+| lastColumn | Int32 | 要分组的最后一个列索引。 |
 
 ### 也可以看看
 

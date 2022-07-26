@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.drawing/msoformatpicture/
 ---
 ## MsoFormatPicture class
 
-代表图片格式。
+代表图片格式
 
 ```csharp
 public class MsoFormatPicture
@@ -19,15 +19,15 @@ public class MsoFormatPicture
 | 姓名 | 描述 |
 | --- | --- |
 | [BottomCrop](../../aspose.cells.drawing/msoformatpicture/bottomcrop) { get; set; } | 表示裁剪矩形底部的位置，表示为图像高度的比率。 |
-| [Brightness](../../aspose.cells.drawing/msoformatpicture/brightness) { get; set; } | 表示图片的亮度修改，单位为百分比。 |
+| [Brightness](../../aspose.cells.drawing/msoformatpicture/brightness) { get; set; } | 表示对图片的亮度修改，以百分比为单位。 |
 | [Contrast](../../aspose.cells.drawing/msoformatpicture/contrast) { get; set; } | 表示图片的对比度修改。以百分比为单位。 |
-| [Gamma](../../aspose.cells.drawing/msoformatpicture/gamma) { get; set; } | 表示图片的gamma。 |
+| [Gamma](../../aspose.cells.drawing/msoformatpicture/gamma) { get; set; } | 表示图片的伽玛。 |
 | [IsBiLevel](../../aspose.cells.drawing/msoformatpicture/isbilevel) { get; set; } | 表示这张图片是否应该以黑白双色显示。 |
 | [IsGray](../../aspose.cells.drawing/msoformatpicture/isgray) { get; set; } | 表示这张图片是否应该以灰度显示。 |
-| [LeftCrop](../../aspose.cells.drawing/msoformatpicture/leftcrop) { get; set; } | 表示裁剪矩形的左侧位置，表示为图像宽度的比例。 |
-| [RightCrop](../../aspose.cells.drawing/msoformatpicture/rightcrop) { get; set; } | 表示裁剪矩形右侧的位置，表示为图像宽度的比例。 |
-| [TopCrop](../../aspose.cells.drawing/msoformatpicture/topcrop) { get; set; } | 表示裁剪矩形顶部的位置，表示为图像高度的比率。 |
-| [Transparency](../../aspose.cells.drawing/msoformatpicture/transparency) { get; set; } | 以从 0.0（不透明）到 1.0（透明）的值返回或设置区域的透明度。 |
+| [LeftCrop](../../aspose.cells.drawing/msoformatpicture/leftcrop) { get; set; } | 表示裁剪矩形的左侧位置，表示为图像宽度的比率。 |
+| [RightCrop](../../aspose.cells.drawing/msoformatpicture/rightcrop) { get; set; } | 表示表示裁剪矩形右侧的位置，表示为图像宽度的比率。 |
+| [TopCrop](../../aspose.cells.drawing/msoformatpicture/topcrop) { get; set; } | 表示表示裁剪矩形顶部的位置，表示为图像高度的比率。 |
+| [Transparency](../../aspose.cells.drawing/msoformatpicture/transparency) { get; set; } | 将区域的透明度返回或设置为从 0.0（不透明）到 1.0（透明）的值。 |
 | [TransparentColor](../../aspose.cells.drawing/msoformatpicture/transparentcolor) { get; set; } | 获取和设置图片的透明色。 |
 
 ## 方法

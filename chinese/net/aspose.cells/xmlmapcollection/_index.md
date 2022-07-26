@@ -1,14 +1,14 @@
 ---
 title: XmlMapCollection
 second_title: Aspose.Cells for .NET API 参考
-description: XmlMap./xmlmap表示 XmlMap 信息的对象的集合
+description: 集合XmlMap./xmlmap表示 XmlMap 信息的对象
 type: docs
 weight: 6600
 url: /zh/net/aspose.cells/xmlmapcollection/
 ---
 ## XmlMapCollection class
 
-[`XmlMap`](../xmlmap)表示 XmlMap 信息的对象的集合。
+集合[`XmlMap`](../xmlmap)表示 XmlMap 信息的对象。
 
 ```csharp
 public class XmlMapCollection : CollectionBase<XmlMap>
@@ -27,11 +27,11 @@ public class XmlMapCollection : CollectionBase<XmlMap>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells/xmlmapcollection/add)(string) | 通过 xml/xsd 文件的 url/路径添加[`XmlMap`](../xmlmap)。 |
+| [Add](../../aspose.cells/xmlmapcollection/add)(string) | 添加一个[`XmlMap`](../xmlmap)通过 xml/xsd 文件的 url/路径。 |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(XmlMap) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(XmlMap, IComparer&lt;XmlMap&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, XmlMap, IComparer&lt;XmlMap&gt;) |  |
-| [Clear](../../aspose.cells/xmlmapcollection/clear#clear)() | 删除所有 XmlMap。 (2 methods) |
+| [Clear](../../aspose.cells/xmlmapcollection/clear#clear)() | 删除所有 XmlMaps. (2 methods) |
 | [Contains](../../aspose.cells/collectionbase`1/contains)(XmlMap) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(XmlMap[]) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(XmlMap[], int) |  |

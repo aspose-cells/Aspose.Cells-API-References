@@ -1,14 +1,14 @@
 ---
 title: ActiveSheetNameFont
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置表单栏的活动表单显示字体
+description: 获取或设置工作表栏的活动工作表显示字体
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.griddesktop/griddesktop/activesheetnamefont/
 ---
 ## GridDesktop.ActiveSheetNameFont property
 
-获取或设置表单栏的活动表单显示字体。
+获取或设置工作表栏的活动工作表显示字体。
 
 ```csharp
 public Font ActiveSheetNameFont { get; set; }

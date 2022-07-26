@@ -1,14 +1,14 @@
 ---
 title: NumberDecimalSeparator
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置用于格式化/解析数值的小数分隔符默认为当前 Region 的小数点分隔符
+description: 获取或设置用于格式化/解析数值的小数分隔符默认为当前 Region. 的小数点分隔符
 type: docs
 weight: 310
 url: /zh/net/aspose.cells/workbooksettings/numberdecimalseparator/
 ---
 ## WorkbookSettings.NumberDecimalSeparator property
 
-获取或设置用于格式化/解析数值的小数分隔符。默认为当前 Region 的小数点分隔符。
+获取或设置用于格式化/解析数值的小数分隔符。默认为当前 Region. 的小数点分隔符
 
 ```csharp
 public char NumberDecimalSeparator { get; set; }

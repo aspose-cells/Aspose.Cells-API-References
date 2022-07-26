@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 将文本框添加到集合中
+description: 向集合中添加一个文本框
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.drawing/textboxcollection/add/
 ---
 ## TextBoxCollection.Add method
 
-将文本框添加到集合中。
+向集合中添加一个文本框。
 
 ```csharp
 public int Add(int upperLeftRow, int upperLeftColumn, int height, int width)
@@ -30,7 +30,7 @@ public int Add(int upperLeftRow, int upperLeftColumn, int height, int width)
 ```csharp
 
 [C#]
- //添加一个TextBox
+//添加一个文本框
 int index2 = textBoxCollection.Add(1, 1, 50, 100);
 ```
 

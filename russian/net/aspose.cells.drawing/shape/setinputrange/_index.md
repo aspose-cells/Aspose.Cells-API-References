@@ -17,7 +17,7 @@ public void SetInputRange(string formula, bool isR1C1, bool isLocal)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | formula | String | Диапазон, используемый для заполнения элемента управления. |
-| isR1C1 | Boolean | Необходимо ли форматировать формулу как R1C1. |
+| isR1C1 | Boolean | Нужно ли форматировать формулу как R1C1. |
 | isLocal | Boolean | Нужно ли форматировать формулу по локали. |
 
 ### Примеры
@@ -25,10 +25,10 @@ public void SetInputRange(string formula, bool isR1C1, bool isLocal)
 ```csharp
 
 [C#]
-  //После выполнения приведенного ниже кода в сгенерированном файле создается объект ListBox. При выборе выбранного параметра выбранное значение отображается в ячейке A12.
+//После выполнения приведенного ниже кода в сгенерированном файле создается объект ListBox. При выборе выбранного параметра выбранное значение отображается в ячейке A12.
 
-  //Инициализировать новую книгу.
-  //Рабочая книга = новая рабочая книга();
+// Инициализировать новую книгу.
+//Книга рабочей книги = новая рабочая книга();
 
 for (int i = 0; i< 10; ++i)
 {
@@ -36,18 +36,18 @@ for (int i = 0; i< 10; ++i)
     cell.Value = i + 1;
 }
    
-  //Создаем ListBox object
+//Создаем объект ListBox
 
-  //Элементы управления ActiveX
-  //Aspose.Cells.Drawing.Shape listBox = book.Worksheets[0].Shapes.AddActiveXControl( Aspose.Cells.Drawing.ActiveXControls.ControlType.ListBox,2, 0, 2, 0, 130, 130);
+//Элементы управления ActiveX
+//Aspose.Cells.Drawing.Shape listBox = book.Worksheets[0].Shapes.AddActiveXControl( Aspose.Cells.Drawing.ActiveXControls.ControlType.ListBox,2, 0, 2, 0, 130, 130);
 
-  //Форма Controls
+//Элементы управления формой
 Aspose.Cells.Drawing.Shape listBox = book.Worksheets[0].Shapes.AddListBox(2, 0, 2, 0, 130, 130);
 
-  //Устанавливает диапазон, используемый для заполнения элемента управления.
+//Устанавливает диапазон, используемый для заполнения элемента управления.
 listBox.SetInputRange("$A$1:$A$6", false, false);
 
-  //Устанавливает диапазон, связанный со значением элемента управления.
+//Устанавливает диапазон, связанный со значением элемента управления.
 listBox.SetLinkedCell("$A$12", false, true);
 
 ```

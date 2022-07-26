@@ -1,14 +1,14 @@
 ---
 title: AddAttributesToRender
 second_title: Aspose.Cells for .NET API 参考
-description: 仅供内部使用 不要直接调用这个方法
+description: 仅供内部使用 不要直接调用此方法
 type: docs
 weight: 130
 url: /zh/net/aspose.cells.gridweb/gridtablestyle/addattributestorender/
 ---
 ## GridTableStyle.AddAttributesToRender method
 
-仅供内部使用。 不要直接调用这个方法。
+仅供内部使用。 不要直接调用此方法。
 
 ```csharp
 public override void AddAttributesToRender(HtmlTextWriter writer, WebControl owner)

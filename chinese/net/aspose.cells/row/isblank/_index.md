@@ -1,14 +1,14 @@
 ---
 title: IsBlank
 second_title: Aspose.Cells for .NET API 参考
-description: 指示该行是否包含任何数据
+description: 表示该行是否包含任何数据
 type: docs
 weight: 60
 url: /zh/net/aspose.cells/row/isblank/
 ---
 ## Row.IsBlank property
 
-指示该行是否包含任何数据
+表示该行是否包含任何数据
 
 ```csharp
 public bool IsBlank { get; }

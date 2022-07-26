@@ -1,14 +1,14 @@
 ---
 title: SmartTagSetting
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает все объектыSmartTagCollectionaspose.cells.markup/smarttagcollectionрабочего листа.
+description: получает всеSmartTagCollectionaspose.cells.markup/smarttagcollection объекты рабочего листа.
 type: docs
 weight: 440
 url: /ru/net/aspose.cells/worksheet/smarttagsetting/
 ---
 ## Worksheet.SmartTagSetting property
 
-Получает все объекты[`SmartTagCollection`](../../../aspose.cells.markup/smarttagcollection)рабочего листа.
+получает все[`SmartTagCollection`](../../../aspose.cells.markup/smarttagcollection) объекты рабочего листа.
 
 ```csharp
 public SmartTagSetting SmartTagSetting { get; }

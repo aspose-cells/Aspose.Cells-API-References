@@ -17,7 +17,7 @@ public GridValidation CreateValidation(GridValidationType validationType, bool i
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | validationType | GridValidationType | Тип проверки. |
-| isRequired | Boolean | Требуется ли значение ячейки. |
+| isRequried | Boolean | Требуется ли значение ячейки. |
 
 ### Примеры
 

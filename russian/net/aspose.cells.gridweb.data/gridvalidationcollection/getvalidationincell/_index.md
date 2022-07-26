@@ -1,14 +1,14 @@
 ---
 title: GetValidationInCell
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает проверку применяемую к данной ячейке.
+description: Получает проверку примененную к данной ячейке.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.gridweb.data/gridvalidationcollection/getvalidationincell/
 ---
 ## GridValidationCollection.GetValidationInCell method
 
-Получает проверку, применяемую к данной ячейке.
+Получает проверку, примененную к данной ячейке.
 
 ```csharp
 public GridValidation GetValidationInCell(int row, int column)
@@ -21,7 +21,7 @@ public GridValidation GetValidationInCell(int row, int column)
 
 ### Возвращаемое значение
 
-Возвращает объектValidationили null, если для данной ячейки нет проверки
+ВозвращаетValidation объект или ноль, если для данной ячейки нет проверки
 
 ### Смотрите также
 

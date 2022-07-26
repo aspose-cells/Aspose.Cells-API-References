@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает человека создавшего цепочку комментариев.
+description: Получает человека создавшего комментарии в цепочке.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/threadedcommentauthorcollection/item/
 ---
 ## ThreadedCommentAuthorCollection indexer (1 of 2)
 
-Получает человека, создавшего цепочку комментариев.
+Получает человека, создавшего комментарии в цепочке.
 
 ```csharp
 public ThreadedCommentAuthor this[int index] { get; }
@@ -29,7 +29,7 @@ public ThreadedCommentAuthor this[int index] { get; }
 
 ## ThreadedCommentAuthorCollection indexer (2 of 2)
 
-Получает человека, создавшего цепочку комментариев.
+Получает человека, создавшего комментарии в цепочке.
 
 ```csharp
 public ThreadedCommentAuthor this[string name] { get; }

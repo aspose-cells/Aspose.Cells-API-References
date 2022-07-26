@@ -1,14 +1,14 @@
 ---
 title: HeightPx
 second_title: Aspose.Cells for .NET API 参考
-description: 调用 Chart.Calculate 方法后以像素为单位获取从上到下的高度
+description: 调用Chart.Calculate 方法后以像素为单位获取从上到下的高度
 type: docs
 weight: 80
 url: /zh/net/aspose.cells.charts/walls/heightpx/
 ---
 ## Walls.HeightPx property
 
-调用 Chart.Calculate() 方法后，以像素为单位获取从上到下的高度。
+调用Chart.Calculate() 方法后，以像素为单位获取从上到下的高度。
 
 ```csharp
 public int HeightPx { get; }

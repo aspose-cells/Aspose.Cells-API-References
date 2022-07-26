@@ -1,14 +1,14 @@
 ---
 title: ConvertR1C1FormulaToA1
 second_title: Справочник по Aspose.Cells для .NET API
-description: Преобразует формулу ячейки r1c1 в формулу A1.
+description: Преобразует формулу r1c1 ячейки в формулу A1.
 type: docs
 weight: 130
 url: /ru/net/aspose.cells/cellshelper/convertr1c1formulatoa1/
 ---
 ## CellsHelper.ConvertR1C1FormulaToA1 method
 
-Преобразует формулу ячейки r1c1 в формулу A1.
+Преобразует формулу r1c1 ячейки в формулу A1.
 
 ```csharp
 public static string ConvertR1C1FormulaToA1(string r1c1Formula, int row, int column)
@@ -22,7 +22,7 @@ public static string ConvertR1C1FormulaToA1(string r1c1Formula, int row, int col
 
 ### Возвращаемое значение
 
-Формула A1.
+Формула А1.
 
 ### Смотрите также
 

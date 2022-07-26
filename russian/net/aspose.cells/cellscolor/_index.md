@@ -18,19 +18,19 @@ public class CellsColor
 
 | Имя | Описание |
 | --- | --- |
-| [Argb](../../aspose.cells/cellscolor/argb) { get; set; } | Получает и задает цвет из 32-битного значения ARGB. |
+| [Argb](../../aspose.cells/cellscolor/argb) { get; set; } | Получает и устанавливает цвет из 32-битного значения ARGB. |
 | [Color](../../aspose.cells/cellscolor/color) { get; set; } | Получает и устанавливает цвет RGB. |
 | [ColorIndex](../../aspose.cells/cellscolor/colorindex) { get; set; } | Получает и задает индекс цвета в цветовой палитре. Применяется только к индексированному цвету. |
 | [IsShapeColor](../../aspose.cells/cellscolor/isshapecolor) { get; set; } | Получает и устанавливает цвет, который должен применяться к ячейке или фигуре. |
-| [ThemeColor](../../aspose.cells/cellscolor/themecolor) { get; set; } | Получает цвет темы. Применяется только для цветового типа темы. |
-| [Transparency](../../aspose.cells/cellscolor/transparency) { get; set; } | Получает и задает прозрачность как значение от 0,0 (непрозрачный) до 1,0 (прозрачный). |
+| [ThemeColor](../../aspose.cells/cellscolor/themecolor) { get; set; } | Получает цвет темы. Применяется только для типа цвета темы. |
+| [Transparency](../../aspose.cells/cellscolor/transparency) { get; set; } | Получает и задает прозрачность в виде значения от 0,0 (непрозрачный) до 1,0 (прозрачный). |
 | [Type](../../aspose.cells/cellscolor/type) { get; } | Тип цвета. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [SetTintOfShapeColor](../../aspose.cells/cellscolor/settintofshapecolor)(double) | Установить оттенок цвета фигуры |
+| [SetTintOfShapeColor](../../aspose.cells/cellscolor/settintofshapecolor)(double) | Установите оттенок формы color |
 
 ### Смотрите также
 

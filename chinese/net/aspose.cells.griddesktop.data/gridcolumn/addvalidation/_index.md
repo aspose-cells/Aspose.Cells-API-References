@@ -31,7 +31,7 @@ public void AddValidation(bool isRequired, string regEx)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| isRequired | Boolean | 该列的单元格值是否为必填的值。 |
+| isRequired | Boolean | 指示此列的单元格值是否为必需的值。 |
 | regEx | String | 正则表达式。 |
 
 ### 也可以看看

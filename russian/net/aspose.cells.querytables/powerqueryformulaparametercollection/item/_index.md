@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПолучаетPowerQueryFormulaParameteraspose.cells.querytables/powerqueryformulaparameterпо индексу в списке.
+description: получаетPowerQueryFormulaParameteraspose.cells.querytables/powerqueryformulaparameter по индексу в списке.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.querytables/powerqueryformulaparametercollection/item/
 ---
 ## PowerQueryFormulaParameterCollection indexer (1 of 2)
 
-Получает[`PowerQueryFormulaParameter`](../../powerqueryformulaparameter)по индексу в списке.
+получает[`PowerQueryFormulaParameter`](../../powerqueryformulaparameter) по индексу в списке.
 
 ```csharp
 public PowerQueryFormulaParameter this[int index] { get; }
@@ -29,7 +29,7 @@ public PowerQueryFormulaParameter this[int index] { get; }
 
 ## PowerQueryFormulaParameterCollection indexer (2 of 2)
 
-Получает[`PowerQueryFormulaParameter`](../../powerqueryformulaparameter)по имени элемента.
+получает[`PowerQueryFormulaParameter`](../../powerqueryformulaparameter) по названию предмета.
 
 ```csharp
 public PowerQueryFormulaParameter this[string name] { get; }
@@ -37,7 +37,7 @@ public PowerQueryFormulaParameter this[string name] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| name | Имя элемента. |
+| name | Название предмета. |
 
 ### Смотрите также
 

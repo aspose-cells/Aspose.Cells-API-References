@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементOleObjectaspose.cells.drawing/oleobjectпо указанному индексу.
+description: ПолучаетOleObjectaspose.cells.drawing/oleobject элемент по указанному индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.drawing/oleobjectcollection/item/
 ---
 ## OleObjectCollection indexer
 
-Получает элемент[`OleObject`](../../oleobject)по указанному индексу.
+Получает[`OleObject`](../../oleobject) элемент по указанному индексу.
 
 ```csharp
 public OleObject this[int index] { get; }

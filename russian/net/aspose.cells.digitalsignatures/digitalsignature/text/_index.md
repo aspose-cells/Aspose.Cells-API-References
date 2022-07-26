@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает текст фактической подписи в цифровой подписи. Значение по умолчанию  Пусто.
+description: Указывает текст фактической подписи в цифровой подписи. Значение по умолчанию  Пусто.
 type: docs
 weight: 90
 url: /ru/net/aspose.cells.digitalsignatures/digitalsignature/text/
 ---
 ## DigitalSignature.Text property
 
-Задает текст фактической подписи в цифровой подписи. Значение по умолчанию — Пусто.
+Указывает текст фактической подписи в цифровой подписи. Значение по умолчанию — Пусто.
 
 ```csharp
 public string Text { get; set; }

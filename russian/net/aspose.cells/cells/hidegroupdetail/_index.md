@@ -3,7 +3,7 @@ title: HideGroupDetail
 second_title: Справочник по Aspose.Cells для .NET API
 description: Сворачивает сгруппированные строки/столбцы.
 type: docs
-weight: 900
+weight: 910
 url: /ru/net/aspose.cells/cells/hidegroupdetail/
 ---
 ## Cells.HideGroupDetail method
@@ -16,7 +16,7 @@ public void HideGroupDetail(bool isVertical, int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVertical | Boolean | Истина, свернуть сгруппированные строки. |
+| isVertical | Boolean | Правда, свернуть сгруппированные строки. |
 | index | Int32 | Индекс строки/столбца |
 
 ### Смотрите также

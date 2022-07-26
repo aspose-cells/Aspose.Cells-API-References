@@ -1,14 +1,14 @@
 ---
 title: FirstPointColor
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置迷你图组中第一个数据点的颜色
+description: 获取并设置迷你图组中第一个数据点的颜色
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.charts/sparklinegroup/firstpointcolor/
 ---
 ## SparklineGroup.FirstPointColor property
 
-获取和设置迷你图组中第一个数据点的颜色。
+获取并设置迷你图组中第一个数据点的颜色。
 
 ```csharp
 public CellsColor FirstPointColor { get; set; }

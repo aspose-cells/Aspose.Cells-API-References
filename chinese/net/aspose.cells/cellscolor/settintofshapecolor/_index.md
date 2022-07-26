@@ -1,14 +1,14 @@
 ---
 title: SetTintOfShapeColor
 second_title: Aspose.Cells for .NET API 参考
-description: 设置形状颜色的色调
+description: 设置形状颜色的色调 color
 type: docs
 weight: 80
 url: /zh/net/aspose.cells/cellscolor/settintofshapecolor/
 ---
 ## CellsColor.SetTintOfShapeColor method
 
-设置形状颜色的色调
+设置形状颜色的色调 color
 
 ```csharp
 public void SetTintOfShapeColor(double tint)

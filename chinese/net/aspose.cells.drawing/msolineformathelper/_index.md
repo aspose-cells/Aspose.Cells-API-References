@@ -19,12 +19,12 @@ public class MsoLineFormatHelper
 | 姓名 | 描述 |
 | --- | --- |
 | [BackColor](../../aspose.cells.drawing/msolineformathelper/backcolor) { get; set; } | 获取和设置边框线背景颜色。 |
-| [DashStyle](../../aspose.cells.drawing/msolineformathelper/dashstyle) { get; set; } | 获取或设置指定行的虚线样式。 |
+| [DashStyle](../../aspose.cells.drawing/msolineformathelper/dashstyle) { get; set; } | 获取或设置指定线条的虚线样式。 |
 | [ForeColor](../../aspose.cells.drawing/msolineformathelper/forecolor) { get; set; } | 获取和设置边界线前景色。 |
 | [IsVisible](../../aspose.cells.drawing/msolineformathelper/isvisible) { get; set; } | 表示对象是否可见。 |
 | [Style](../../aspose.cells.drawing/msolineformathelper/style) { get; set; } | 返回一个 Style 对象，表示指定范围的样式。 |
-| [Transparency](../../aspose.cells.drawing/msolineformathelper/transparency) { get; set; } | 以 0.0（不透明）到 1.0（透明）的值返回或设置指定填充的透明度。 |
-| [Weight](../../aspose.cells.drawing/msolineformathelper/weight) { get; set; } | 返回或设置行的粗细，单位为 pt。 |
+| [Transparency](../../aspose.cells.drawing/msolineformathelper/transparency) { get; set; } | 将指定填充的透明度返回或设置为从 0.0（不透明）到 1.0（透明）的值。 |
+| [Weight](../../aspose.cells.drawing/msolineformathelper/weight) { get; set; } | 返回或设置线条的粗细，以pt为单位。 |
 
 ### 也可以看看
 

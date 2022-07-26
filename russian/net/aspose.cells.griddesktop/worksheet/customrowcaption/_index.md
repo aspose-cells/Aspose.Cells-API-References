@@ -1,14 +1,14 @@
 ---
 title: CustomRowCaption
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает пользовательский заголовок строки для рабочего листа.
+description: Получает или задает настраиваемый заголовок строки для рабочего листа.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells.griddesktop/worksheet/customrowcaption/
 ---
 ## Worksheet.CustomRowCaption property
 
-Получает или задает пользовательский заголовок строки для рабочего листа.
+Получает или задает настраиваемый заголовок строки для рабочего листа.
 
 ```csharp
 public ICustomRowCaption CustomRowCaption { get; set; }

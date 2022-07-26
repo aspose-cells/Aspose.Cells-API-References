@@ -54,7 +54,7 @@ public int Replace(string placeHolder, int newValue)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | placeHolder | String | Заполнитель ячейки |
-| newValue | Int32 | Целочисленное значение для замены |
+| newValue | Int32 | Целое значение для замены |
 
 ### Примеры
 
@@ -135,7 +135,7 @@ public int Replace(string placeHolder, string[] newValues, bool isVertical)
 | --- | --- | --- |
 | placeHolder | String | Заполнитель ячейки |
 | newValues | String[] | Массив строк для замены |
-| isVertical | Boolean | True - Вертикально, False - Горизонтально |
+| isVertical | Boolean | Правда — по вертикали, Ложь — по горизонтали |
 
 ### Примеры
 
@@ -166,7 +166,7 @@ orkbook.Replace("AnOldValue", NewValues, True)
 
 ## Replace(string, int[], bool) {#replace_5}
 
-Заменяет значения ячеек целочисленным массивом.
+Заменяет значения ячеек массивом целых чисел.
 
 ```csharp
 public int Replace(string placeHolder, int[] newValues, bool isVertical)
@@ -176,7 +176,7 @@ public int Replace(string placeHolder, int[] newValues, bool isVertical)
 | --- | --- | --- |
 | placeHolder | String | Заполнитель ячейки |
 | newValues | Int32[] | Целочисленный массив для замены |
-| isVertical | Boolean | True - Вертикально, False - Горизонтально |
+| isVertical | Boolean | Правда — по вертикали, Ложь — по горизонтали |
 
 ### Примеры
 
@@ -216,7 +216,7 @@ public int Replace(string placeHolder, double[] newValues, bool isVertical)
 | --- | --- | --- |
 | placeHolder | String | Заполнитель ячейки |
 | newValues | Double[] | Двойной массив для замены |
-| isVertical | Boolean | True - Вертикально, False - Горизонтально |
+| isVertical | Boolean | Правда — по вертикали, Ложь — по горизонтали |
 
 ### Примеры
 
@@ -247,7 +247,7 @@ workbook.Replace("AnOldValue", NewValues, True)
 
 ## Replace(string, DataTable) {#replace_6}
 
-Заменяет значения ячеек данными из таблицыDataTable.
+Заменяет значения ячеек данными изDataTable .
 
 ```csharp
 public int Replace(string placeHolder, DataTable insertTable)
@@ -265,7 +265,7 @@ public int Replace(string placeHolder, DataTable insertTable)
 
 Workbook workbook = new Workbook();
 DataTable myDataTable = new DataTable("Customers");
-  // Добавляет данные в myDataTable
+// Добавляет данные в myDataTable
 ........
 workbook.Replace("AnOldValue", myDataTable);
 
@@ -296,7 +296,7 @@ public int Replace(bool boolValue, object newValue)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| boolValue | Boolean | Заменяемое логическое значение. |
+| boolValue | Boolean | Логическое значение, которое необходимо заменить. |
 | newValue | Object | Новое значение. Может быть строкой, целым числом, двойным значением или значением DateTime. |
 
 ### Смотрите также
@@ -340,7 +340,7 @@ public int Replace(string placeHolder, string newValue, ReplaceOptions options)
 | --- | --- | --- |
 | placeHolder | String | Заполнитель ячейки |
 | newValue | String | Строковое значение для замены |
-| options | ReplaceOptions | Параметры замены |
+| options | ReplaceOptions | Варианты замены |
 
 ### Смотрите также
 

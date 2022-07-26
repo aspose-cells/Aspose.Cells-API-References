@@ -1,14 +1,14 @@
 ---
 title: AutoFilter
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否在加载文件时自动过滤数据
+description: 表示加载文件时是否自动过滤数据
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/loadoptions/autofilter/
 ---
 ## LoadOptions.AutoFilter property
 
-表示是否在加载文件时自动过滤数据。
+表示加载文件时是否自动过滤数据。
 
 ```csharp
 public bool AutoFilter { get; set; }

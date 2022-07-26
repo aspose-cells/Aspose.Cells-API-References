@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементNameпо указанному индексу.
+description: ПолучаетName элемент по указанному индексу.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.griddesktop.data/gridnamecollection/item/
 ---
 ## GridNameCollection indexer
 
-Получает элементNameпо указанному индексу.
+ПолучаетName элемент по указанному индексу.
 
 ```csharp
 public GridName this[int index] { get; }

@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет в коллекцию горизонтальный разрыв страницы.
+description: Добавляет горизонтальный разрыв страницы в коллекцию.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/horizontalpagebreakcollection/add/
 ---
 ## Add(int, int, int) {#add_2}
 
-Добавляет в коллекцию горизонтальный разрыв страницы.
+Добавляет горизонтальный разрыв страницы в коллекцию.
 
 ```csharp
 public int Add(int row, int startColumn, int endColumn)
@@ -22,7 +22,7 @@ public int Add(int row, int startColumn, int endColumn)
 
 ### Возвращаемое значение
 
-[`HorizontalPageBreak`](../../horizontalpagebreak)индекс объекта.
+[`HorizontalPageBreak`](../../horizontalpagebreak) индекс объекта.
 
 ### Примечания
 
@@ -38,7 +38,7 @@ public int Add(int row, int startColumn, int endColumn)
 
 ## Add(int) {#add}
 
-Добавляет в коллекцию горизонтальный разрыв страницы.
+Добавляет горизонтальный разрыв страницы в коллекцию.
 
 ```csharp
 public int Add(int row)
@@ -50,11 +50,11 @@ public int Add(int row)
 
 ### Возвращаемое значение
 
-[`HorizontalPageBreak`](../../horizontalpagebreak)индекс объекта.
+[`HorizontalPageBreak`](../../horizontalpagebreak) индекс объекта.
 
 ### Примечания
 
-Разрыв страницы добавляется в левом верхнем углу ячейки. Установите горизонтальный и вертикальный разрыв страницы одновременно.
+Разрыв страницы добавляется в левом верхнем углу ячейки. Пожалуйста, одновременно установите разрыв страницы по горизонтали и по вертикали.
 
 ### Смотрите также
 
@@ -66,7 +66,7 @@ public int Add(int row)
 
 ## Add(int, int) {#add_1}
 
-Добавляет в коллекцию горизонтальный разрыв страницы.
+Добавляет горизонтальный разрыв страницы в коллекцию.
 
 ```csharp
 public int Add(int row, int column)
@@ -79,11 +79,11 @@ public int Add(int row, int column)
 
 ### Возвращаемое значение
 
-[`HorizontalPageBreak`](../../horizontalpagebreak)индекс объекта.
+[`HorizontalPageBreak`](../../horizontalpagebreak) индекс объекта.
 
 ### Примечания
 
-Разрыв страницы добавляется в левом верхнем углу ячейки. Установите горизонтальный и вертикальный разрыв страницы одновременно.
+Разрыв страницы добавляется в левом верхнем углу ячейки. Пожалуйста, одновременно установите разрыв страницы по горизонтали и по вертикали.
 
 ### Смотрите также
 
@@ -95,7 +95,7 @@ public int Add(int row, int column)
 
 ## Add(string) {#add_3}
 
-Добавляет в коллекцию горизонтальный разрыв страницы.
+Добавляет горизонтальный разрыв страницы в коллекцию.
 
 ```csharp
 public int Add(string cellName)
@@ -107,11 +107,11 @@ public int Add(string cellName)
 
 ### Возвращаемое значение
 
-[`HorizontalPageBreak`](../../horizontalpagebreak)индекс объекта.
+[`HorizontalPageBreak`](../../horizontalpagebreak) индекс объекта.
 
 ### Примечания
 
-Разрыв страницы добавляется в левом верхнем углу ячейки. Установите горизонтальный и вертикальный разрыв страницы одновременно.
+Разрыв страницы добавляется в левом верхнем углу ячейки. Пожалуйста, одновременно установите разрыв страницы по горизонтали и по вертикали.
 
 ### Смотрите также
 

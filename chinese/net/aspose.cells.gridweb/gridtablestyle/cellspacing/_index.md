@@ -1,14 +1,14 @@
 ---
 title: CellSpacing
 second_title: Aspose.Cells for .NET API 参考
-description: 总是返回 -1
+description: 总是返回 -1.
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.gridweb/gridtablestyle/cellspacing/
 ---
 ## GridTableStyle.CellSpacing property
 
-总是返回 -1。
+总是返回 -1.
 
 ```csharp
 public override int CellSpacing { get; set; }

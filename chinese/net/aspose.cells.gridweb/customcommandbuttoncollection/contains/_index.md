@@ -16,7 +16,7 @@ public bool Contains(object value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Object | 表示自定义命令按钮对象是否在集合中。 |
+| value | Object | 指示自定义命令按钮对象是否在集合中。 |
 
 ### 返回值
 

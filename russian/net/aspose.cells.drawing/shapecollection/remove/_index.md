@@ -23,16 +23,16 @@ public void Remove(Shape shape)
 ```csharp
 
 [C#]
-  // добавляем первый shape
+//добавляем первую фигуру
 shapes.AddRectangle(2, 0, 2, 0, 50, 50);
-  //добавляем второй shape
+//добавляем вторую фигуру
 shapes.AddRectangle(6, 0, 2, 0, 30, 30);
 
-  //получить shape
-Shape s = shapes["Rectangle 1"];  // или фигуры[0];
+// получаем форму
+Shape s = shapes["Rectangle 1"];// или фигуры[0];
 if (s != null)
 {
-      //удалить 
+    //удалять 
     shapes.Remove(s);
 }
 ```

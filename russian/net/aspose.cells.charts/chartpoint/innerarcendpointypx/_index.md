@@ -1,14 +1,14 @@
 ---
 title: InnerArcEndPointYPx
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает координату y конечной точки сектора круга после вызова метода Chart.Calculate. Применяется к кольцевой диаграмме.
+description: Получает координату y конечной точки круговой секции после вызова метода Chart.Calculate. Применяется к кольцевой диаграмме.
 type: docs
 weight: 120
 url: /ru/net/aspose.cells.charts/chartpoint/innerarcendpointypx/
 ---
 ## ChartPoint.InnerArcEndPointYPx property
 
-Получает координату y конечной точки сектора круга после вызова метода Chart.Calculate(). Применяется к кольцевой диаграмме.
+Получает координату y конечной точки круговой секции после вызова метода Chart.Calculate(). Применяется к кольцевой диаграмме.
 
 ```csharp
 public float InnerArcEndPointYPx { get; }

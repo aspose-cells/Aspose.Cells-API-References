@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает тип положения легенды.
+description: Получает или задает тип позиции легенды.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.charts/legend/position/
 ---
 ## Legend.Position property
 
-Получает или задает тип положения легенды.
+Получает или задает тип позиции легенды.
 
 ```csharp
 public LegendPositionType Position { get; set; }
@@ -16,7 +16,7 @@ public LegendPositionType Position { get; set; }
 
 ### Примечания
 
-&lt;br&gt;По умолчанию — справа.&lt;/br&gt;&lt;br&gt;Если легенда находится слева или справа от диаграммы , установка свойства Legend.X не вступит в силу.&lt;/br&gt;&lt;br&gt;Если легенда находится вверху или внизу диаграммы, установка свойства Legend.Y не вступит в силу.&lt;/br&gt;
+Положение по умолчанию — правильное.Если легенда находится слева или справа от диаграммы, установка свойства Legend.X не вступит в силу.Если легенда находится вверху или внизу диаграммы, установка свойства Legend.Y не вступит в силу.
 
 ### Смотрите также
 

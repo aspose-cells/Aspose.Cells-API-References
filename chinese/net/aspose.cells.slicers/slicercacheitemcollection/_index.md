@@ -1,14 +1,14 @@
 ---
 title: SlicerCacheItemCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示 SlicerCacheItem 的集合
+description: 代表SlicerCacheItem的集合
 type: docs
 weight: 5670
 url: /zh/net/aspose.cells.slicers/slicercacheitemcollection/
 ---
 ## SlicerCacheItemCollection class
 
-表示 SlicerCacheItem 的集合
+代表SlicerCacheItem的集合
 
 ```csharp
 public class SlicerCacheItemCollection : CollectionBase<SlicerCacheItem>
@@ -111,7 +111,7 @@ Slicer slicer = slicers[slicerIndex];
 slicer.StyleType = SlicerStyleType.SlicerStyleLight2;
 
 SlicerCacheItemCollection items = slicer.SlicerCache.SlicerCacheItems;
- //做你的事
+//做你的事
 book.Save("out.xlsx");
 
 [Visual Basic]

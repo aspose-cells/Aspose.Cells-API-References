@@ -1,14 +1,14 @@
 ---
 title: IsHFAlignMargins
 second_title: Aspose.Cells for .NET API 参考
-description: 指示页眉和页脚边距是否与页边距对齐 如果该属性为真则左侧页眉和页脚将与左边距对齐 并且右侧页眉和页脚将与右边距对齐 此选项默认启用
+description: 表示页眉和页脚边距是否与页边距对齐 如果该属性为true则左侧页眉和页脚将与左边距对齐 右侧页眉和页脚将与右侧边距对齐 此选项默认启用
 type: docs
 weight: 150
 url: /zh/net/aspose.cells/pagesetup/ishfalignmargins/
 ---
 ## PageSetup.IsHFAlignMargins property
 
-指示页眉和页脚边距是否与页边距对齐。 如果该属性为真，则左侧页眉和页脚将与左边距对齐， 并且右侧页眉和页脚将与右边距对齐。 此选项默认启用。
+表示页眉和页脚边距是否与页边距对齐。 如果该属性为true，则左侧页眉和页脚将与左边距对齐， 右侧页眉和页脚将与右侧边距对齐。 此选项默认启用。
 
 ```csharp
 public bool IsHFAlignMargins { get; set; }

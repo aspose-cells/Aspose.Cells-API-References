@@ -1,14 +1,14 @@
 ---
 title: SetBorder
 second_title: Aspose.Cells for .NET API 参考
-description: 设置单元格的边框上下左右所有边框都具有相同的边框样式
+description: 为单元格设置边框上下左右所有边框的边框样式相同
 type: docs
 weight: 330
 url: /zh/net/aspose.cells.gridweb.data/gridcell/setborder/
 ---
 ## GridCell.SetBorder method
 
-设置单元格的边框（上、下、左、右），所有边框都具有相同的边框样式。
+为单元格设置边框（上、下、左、右），所有边框的边框样式相同。
 
 ```csharp
 public void SetBorder(WebBorderStyle borderStyle)

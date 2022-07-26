@@ -33,7 +33,7 @@ public int BinarySearch(T item, IComparer<T> comparer)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | item | T |  |
-| компаратор | IComparer`1 |  |
+| comparer | IComparer`1 |  |
 
 ### Смотрите также
 

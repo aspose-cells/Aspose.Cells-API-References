@@ -1,14 +1,14 @@
 ---
 title: GridHtmlSaveOptions
 second_title: Справочник по Aspose.Cells для .NET API
-description: Создает опции для сохранения html файла.
+description: Создает параметры для сохранения html-файла.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.gridweb.data/gridhtmlsaveoptions/gridhtmlsaveoptions/
 ---
 ## GridHtmlSaveOptions() {#constructor}
 
-Создает опции для сохранения html файла.
+Создает параметры для сохранения html-файла.
 
 ```csharp
 public GridHtmlSaveOptions()
@@ -24,7 +24,7 @@ public GridHtmlSaveOptions()
 
 ## GridHtmlSaveOptions(GridSaveFormat) {#constructor_1}
 
-Создает опции для сохранения файла htm.
+Создает параметры для сохранения htm-файла.
 
 ```csharp
 public GridHtmlSaveOptions(GridSaveFormat format)
@@ -32,7 +32,7 @@ public GridHtmlSaveOptions(GridSaveFormat format)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| format | GridSaveFormat | Формат сохраняемого файла. |
+| format | GridSaveFormat | Формат сохранения файла. |
 
 ### Смотрите также
 

@@ -17,20 +17,20 @@ public int Add(int upperLeftRow, int upperLeftColumn, int height, int width)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
 | height | Int32 | Высота текстового поля в пикселях. |
 | width | Int32 | Ширина текстового поля в пикселях. |
 
 ### Возвращаемое значение
 
-[`TextBox`](../../textbox)индекс объекта.
+[`TextBox`](../../textbox) индекс объекта.
 
 ### Примеры
 
 ```csharp
 
 [C#]
-  //добавляем TextBox
+//добавляем текстовое поле
 int index2 = textBoxCollection.Add(1, 1, 50, 100);
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: SortOrder
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет порядок сортировки диапазона данных.
+description: Представляет порядок сортировки для диапазона данных.
 type: docs
 weight: 5720
 url: /ru/net/aspose.cells/sortorder/
 ---
 ## SortOrder enumeration
 
-Представляет порядок сортировки диапазона данных.
+Представляет порядок сортировки для диапазона данных.
 
 ```csharp
 public enum SortOrder

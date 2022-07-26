@@ -1,14 +1,14 @@
 ---
 title: RowFilteredEvent
 second_title: Справочник по Aspose.Cells для .NET API
-description: Происходит после выбора элемента фильтра строк.
+description: Происходит после выбора элемента фильтра строки.
 type: docs
 weight: 580
 url: /ru/net/aspose.cells.griddesktop/griddesktop/rowfilteredevent/
 ---
 ## GridDesktop.RowFilteredEvent event
 
-Происходит после выбора элемента фильтра строк.
+Происходит после выбора элемента фильтра строки.
 
 ```csharp
 public event WorksheetEventHandler RowFilteredEvent;

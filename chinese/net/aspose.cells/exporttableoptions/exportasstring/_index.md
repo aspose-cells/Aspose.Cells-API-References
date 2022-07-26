@@ -1,14 +1,14 @@
 ---
 title: ExportAsString
 second_title: Aspose.Cells for .NET API 参考
-description: 将单元格的字符串值导出到 DataTable
+description: 将单元格的字符串值导出到 DataTable.
 type: docs
 weight: 50
 url: /zh/net/aspose.cells/exporttableoptions/exportasstring/
 ---
 ## ExportTableOptions.ExportAsString property
 
-将单元格的字符串值导出到 DataTable。
+将单元格的字符串值导出到 DataTable.
 
 ```csharp
 public bool ExportAsString { get; set; }

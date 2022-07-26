@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объект коллекции IEnumerator.
+description: Получает объект IEnumerator коллекции.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells.gridweb/customcommandbuttoncollection/getenumerator/
 ---
 ## CustomCommandButtonCollection.GetEnumerator method
 
-Получает объект коллекции IEnumerator.
+Получает объект IEnumerator коллекции.
 
 ```csharp
 public IEnumerator GetEnumerator()

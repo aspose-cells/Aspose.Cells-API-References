@@ -20,11 +20,11 @@ public enum GridFilterOperatorType
 | --- | --- | --- |
 | LessOrEqual | `0` | 表示 LessOrEqual 运算符。 |
 | LessThan | `1` | 表示小于运算符。 |
-| Equal | `2` | 表示相等运算符。 |
+| Equal | `2` | 表示等号运算符。 |
 | GreaterThan | `3` | 表示大于运算符。 |
 | NotEqual | `4` | 表示 NotEqual 运算符。 |
 | GreaterOrEqual | `5` | 表示 GreaterOrEqual 运算符。 |
-| None | `6` | 表示不比较。 |
+| None | `6` | 代表没有比较。 |
 | BeginsWith | `7` | 以文本开头。 |
 | EndsWith | `8` | 以文本结尾。 |
 | Contains | `9` | 包含文本。 |

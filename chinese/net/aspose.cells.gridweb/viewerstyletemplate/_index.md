@@ -1,14 +1,14 @@
 ---
 title: ViewerStyleTemplate
 second_title: Aspose.Cells for .NET API 参考
-description: ViewerStyleTemplate
+description: ViewerStyleTemplate.
 type: docs
 weight: 920
 url: /zh/net/aspose.cells.gridweb/viewerstyletemplate/
 ---
 ## ViewerStyleTemplate class
 
-ViewerStyleTemplate。
+ViewerStyleTemplate.
 
 ```csharp
 public class ViewerStyleTemplate : Control

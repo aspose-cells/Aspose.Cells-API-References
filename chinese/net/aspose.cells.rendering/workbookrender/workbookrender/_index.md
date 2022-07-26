@@ -16,8 +16,8 @@ public WorkbookRender(Workbook workbook, ImageOrPrintOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| workbook | Workbook | 指示要渲染的工作簿. |
-| options | ImageOrPrintOptions | ImageOrPrintOptions 包含输出图像的某些属性 |
+| workbook | Workbook | 指示要呈现的工作簿。 |
+| options | ImageOrPrintOptions | ImageOrPrintOptions 包含输出图像的一些属性 |
 
 ### 也可以看看
 

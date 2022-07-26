@@ -16,7 +16,7 @@ public void Sign(DigitalSignature digitalSignature)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| digitalSignature | DigitalSignature | DigitalSignature |
+| digitalSignature | DigitalSignature | 电子签名 |
 
 ### 也可以看看
 

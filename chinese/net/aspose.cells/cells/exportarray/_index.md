@@ -1,14 +1,14 @@
 ---
 title: ExportArray
 second_title: Aspose.Cells for .NET API 参考
-description: 将Cellsaspose.cells/cells集合中的数据导出到二维数组对象
+description: 导出数据Cellsaspose.cells/cells集合到一个二维数组对象.
 type: docs
 weight: 600
 url: /zh/net/aspose.cells/cells/exportarray/
 ---
 ## Cells.ExportArray method
 
-将[`Cells`](../../cells)集合中的数据导出到二维数组对象。
+导出数据[`Cells`](../../cells)集合到一个二维数组对象.
 
 ```csharp
 public object[] ExportArray(int firstRow, int firstColumn, int totalRows, int totalColumns)

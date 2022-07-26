@@ -1,14 +1,14 @@
 ---
 title: XmlMap
 second_title: Aspose.Cells for .NET API 参考
-description: 表示 Xml 映射信息
+description: 代表Xml映射信息
 type: docs
 weight: 6590
 url: /zh/net/aspose.cells/xmlmap/
 ---
 ## XmlMap class
 
-表示 Xml 映射信息。
+代表Xml映射信息。
 
 ```csharp
 public class XmlMap
@@ -18,7 +18,7 @@ public class XmlMap
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DataBinding](../../aspose.cells/xmlmap/databinding) { get; } | 获取该地图的[`XmlDataBinding`](../xmldatabinding)。 |
+| [DataBinding](../../aspose.cells/xmlmap/databinding) { get; } | 得到一个[`XmlDataBinding`](../xmldatabinding)这张地图的. |
 | [Name](../../aspose.cells/xmlmap/name) { get; set; } | 返回或设置对象的名称。 |
 | [RootElementName](../../aspose.cells/xmlmap/rootelementname) { get; } | 获取根元素名称。 |
 

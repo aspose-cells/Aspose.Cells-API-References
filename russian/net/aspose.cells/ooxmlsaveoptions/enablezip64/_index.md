@@ -1,14 +1,14 @@
 ---
 title: EnableZip64
 second_title: Справочник по Aspose.Cells для .NET API
-description: Всегда используйте расширения ZIP64 при записи zip-архивов даже если они не нужны.
+description: Всегда используйте расширения ZIP64 при записи zip-архивов даже если в этом нет необходимости.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/ooxmlsaveoptions/enablezip64/
 ---
 ## OoxmlSaveOptions.EnableZip64 property
 
-Всегда используйте расширения ZIP64 при записи zip-архивов, даже если они не нужны.
+Всегда используйте расширения ZIP64 при записи zip-архивов, даже если в этом нет необходимости.
 
 ```csharp
 public bool EnableZip64 { get; set; }

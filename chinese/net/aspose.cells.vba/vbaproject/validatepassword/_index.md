@@ -20,7 +20,7 @@ public bool ValidatePassword(string password)
 
 ### 返回值
 
-密码是否为保护密码这个 VBA 项目
+密码是否为本VBA工程的保护密码
 
 ### 也可以看看
 

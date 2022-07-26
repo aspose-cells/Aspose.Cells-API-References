@@ -1,14 +1,14 @@
 ---
 title: Revisions
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает список ревизий этой операцией.
+description: Получает список изменений этой операцией.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.revisions/revisioninsertdelete/revisions/
 ---
 ## RevisionInsertDelete.Revisions property
 
-Получает список ревизий этой операцией.
+Получает список изменений этой операцией.
 
 ```csharp
 public RevisionCollection Revisions { get; }

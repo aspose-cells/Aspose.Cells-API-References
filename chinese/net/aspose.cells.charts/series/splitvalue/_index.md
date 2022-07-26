@@ -1,14 +1,14 @@
 ---
 title: SplitValue
 second_title: Aspose.Cells for .NET API 参考
-description: 返回或设置一个值该值应用于确定 上的第二个饼图或条形图中的数据点饼图集
+description: 返回或设置一个值该值应用于确定哪些数据点在第二个饼图或条形图中
 type: docs
 weight: 420
 url: /zh/net/aspose.cells.charts/series/splitvalue/
 ---
 ## Series.SplitValue property
 
-返回或设置一个值，该值应用于确定 上的第二个饼图或条形图中的数据点饼图集。
+返回或设置一个值，该值应用于确定哪些数据点在第二个饼图或条形图中
 
 ```csharp
 public double SplitValue { get; set; }

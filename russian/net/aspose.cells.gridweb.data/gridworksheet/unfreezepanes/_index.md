@@ -1,14 +1,14 @@
 ---
 title: UnFreezePanes
 second_title: Справочник по Aspose.Cells для .NET API
-description: Размораживает панели на рабочем листе.
+description: Размораживает панели на листе.
 type: docs
 weight: 820
 url: /ru/net/aspose.cells.gridweb.data/gridworksheet/unfreezepanes/
 ---
 ## GridWorksheet.UnFreezePanes method
 
-Размораживает панели на рабочем листе.
+Размораживает панели на листе.
 
 ```csharp
 public void UnFreezePanes()

@@ -1,14 +1,14 @@
 ---
 title: IsFlippedVertically
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает переворачивается ли фигура по вертикали.
+description: Получает и устанавливает переворачивается ли фигура по вертикали .
 type: docs
 weight: 170
 url: /ru/net/aspose.cells.gridweb.data/gridpicture/isflippedvertically/
 ---
 ## GridPicture.IsFlippedVertically property
 
-Получает и устанавливает, переворачивается ли фигура по вертикали.
+Получает и устанавливает, переворачивается ли фигура по вертикали .
 
 ```csharp
 public bool IsFlippedVertically { get; set; }

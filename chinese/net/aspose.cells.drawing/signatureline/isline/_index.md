@@ -21,7 +21,7 @@ public bool IsLine { get; set; }
 [C#]
 if(s.IsLine)
 {
-     //是线.
+    //是线。
 }
 ```
 

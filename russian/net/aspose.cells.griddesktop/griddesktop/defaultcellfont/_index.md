@@ -1,14 +1,14 @@
 ---
 title: DefaultCellFont
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает шрифт ячейки по умолчанию
+description: Получает или задает шрифт по умолчанию для ячейки
 type: docs
 weight: 90
 url: /ru/net/aspose.cells.griddesktop/griddesktop/defaultcellfont/
 ---
 ## GridDesktop.DefaultCellFont property
 
-Получает или задает шрифт ячейки по умолчанию
+Получает или задает шрифт по умолчанию для ячейки
 
 ```csharp
 public Font DefaultCellFont { get; set; }

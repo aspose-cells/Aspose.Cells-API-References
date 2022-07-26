@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Cells for .NET API 参考
-description: 获取参数值
+description: 获取参数的值
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.querytables/powerqueryformulaparameter/value/
 ---
 ## PowerQueryFormulaParameter.Value property
 
-获取参数值。
+获取参数的值。
 
 ```csharp
 public string Value { get; set; }

@@ -16,7 +16,7 @@ public int Indent { get; set; }
 
 ### 评论
 
-如果文本水平对齐类型设置为值 other比左或右，m_IndentLevel 级别将 重置为零。
+如果文本水平对齐类型设置为左或右以外的值，m_IndentLevel 级别将 重置为零。
 
 ### 也可以看看
 

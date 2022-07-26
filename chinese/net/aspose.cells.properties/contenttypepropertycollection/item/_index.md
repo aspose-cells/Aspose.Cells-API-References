@@ -16,7 +16,7 @@ public ContentTypeProperty this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引。 |
+| index | 指数。 |
 
 ### 返回值
 
@@ -33,7 +33,7 @@ public ContentTypeProperty this[int index] { get; }
 
 ## ContentTypePropertyCollection indexer (2 of 2)
 
-通过属性名称获取内容类型属性。
+通过属性名获取内容类型属性。
 
 ```csharp
 public ContentTypeProperty this[string name] { get; }

@@ -16,7 +16,7 @@ public bool ExportAllColumnIndexes { get; set; }
 
 ### Примечания
 
-Значение по умолчанию - true.
+Значение по умолчанию — true.
 
 ### Смотрите также
 

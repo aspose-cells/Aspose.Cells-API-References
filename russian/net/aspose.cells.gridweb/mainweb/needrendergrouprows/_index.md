@@ -1,14 +1,14 @@
 ---
 title: NeedRenderGroupRows
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает показывать ли групповые строки.
+description: Получает или задает показывать ли групповые строки .
 type: docs
 weight: 520
 url: /ru/net/aspose.cells.gridweb/mainweb/needrendergrouprows/
 ---
 ## MainWeb.NeedRenderGroupRows property
 
-Получает или задает, показывать ли групповые строки.
+Получает или задает, показывать ли групповые строки .
 
 ```csharp
 public bool NeedRenderGroupRows { get; set; }

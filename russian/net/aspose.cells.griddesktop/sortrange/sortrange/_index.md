@@ -1,14 +1,14 @@
 ---
 title: SortRange
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инициализирует новый экземпляр классаSortRangeaspose.cells.griddesktop/sortrangeпутем указания диапазона рабочего листа и ориентации сортировки.
+description: Инициализирует новый экземплярSortRangeaspose.cells.griddesktop/sortrangeкласс указав диапазон рабочего листа и ориентацию сортировки.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.griddesktop/sortrange/sortrange/
 ---
 ## SortRange constructor
 
-Инициализирует новый экземпляр класса[`SortRange`](../../sortrange)путем указания диапазона рабочего листа и ориентации сортировки.
+Инициализирует новый экземпляр[`SortRange`](../../sortrange)класс, указав диапазон рабочего листа и ориентацию сортировки.
 
 ```csharp
 public SortRange(Worksheet worksheet, int startRow, int startColumn, int rows, int columns, 
@@ -18,12 +18,12 @@ public SortRange(Worksheet worksheet, int startRow, int startColumn, int rows, i
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | worksheet | Worksheet | Рабочий лист, содержащий диапазон. |
-| startRow | Int32 | Начальная строка диапазона. |
+| startRow | Int32 | Начальный ряд диапазона. |
 | startColumn | Int32 | Начальный столбец диапазона. |
-| rows | Int32 | Количество строк. |
+| rows | Int32 | Количество рядов. |
 | columns | Int32 | Количество столбцов |
-| ориентация | SortOrientation | Ориентация сортировки:сверху вниз или слева направо. |
-| isCaseSensitive | Boolean | Определяет, будут ли данные сортировки чувствительны к регистру, если данные строковые |
+| orientation | SortOrientation | Ориентация сортировки: сверху вниз или слева направо. |
+| isCaseSensitive | Boolean | Определяет, будут ли данные сортировки чувствительны к регистру, если данные являются строковыми. |
 
 ### Смотрите также
 

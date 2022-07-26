@@ -1,14 +1,14 @@
 ---
 title: CustomEngine
 second_title: Aspose.Cells for .NET API 参考
-description: 自定义公式计算引擎扩展 Aspose.Cells 的默认计算引擎
+description: 扩展Aspose.Cells默认计算引擎的自定义公式计算引擎
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/calculationoptions/customengine/
 ---
 ## CalculationOptions.CustomEngine property
 
-自定义公式计算引擎，扩展 Aspose.Cells 的默认计算引擎。
+扩展Aspose.Cells默认计算引擎的自定义公式计算引擎。
 
 ```csharp
 public AbstractCalculationEngine CustomEngine { get; set; }

@@ -19,10 +19,10 @@ public enum ShapeLockType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Group | `0` | Группа |
-| AdjustHandles | `1` | AdjustHandles |
+| AdjustHandles | `1` | Настройка ручек |
 | Text | `2` | Текст |
-| Points | `3` | Очки |
-| Crop | `4` | Обрезать |
+| Points | `3` | Очков |
+| Crop | `4` | Урожай |
 | Selection | `5` | Выбор |
 | Move | `6` | Переместить |
 | AspectRatio | `7` | Соотношение сторон |
@@ -30,7 +30,7 @@ public enum ShapeLockType
 | Ungroup | `9` | Разгруппировать |
 | Resize | `10` | Изменить размер |
 | ShapeType | `11` | ShapeType |
-| Arrowhead | `12` | Наконечник |
+| Arrowhead | `12` | Стрелка |
 
 ### Смотрите также
 

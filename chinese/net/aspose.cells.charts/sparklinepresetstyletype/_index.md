@@ -54,7 +54,7 @@ public enum SparklinePresetStyleType
 | Style34 | `33` | 样式 34 |
 | Style35 | `34` | 样式 35 |
 | Style36 | `35` | 样式 36 |
-| Custom | `36` | 无预设样式。 |
+| Custom | `36` | 没有预设样式。 |
 
 ### 也可以看看
 

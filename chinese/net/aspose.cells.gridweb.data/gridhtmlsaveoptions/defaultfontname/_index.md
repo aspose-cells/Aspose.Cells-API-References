@@ -1,14 +1,14 @@
 ---
 title: DefaultFontName
 second_title: Aspose.Cells for .NET API 参考
-description: 指定导出html的默认字体名称当style的字体不存在时使用默认字体 如果该属性为nullAspose.Cells 将使用与原始字体同族的通用字体 默认值为 null
+description: 指定导出html的默认字体名称当style的字体不存在时使用默认字体 如果该属性为空Aspose.Cells将使用与原始字体同族的通用字体 默认值为空
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.gridweb.data/gridhtmlsaveoptions/defaultfontname/
 ---
 ## GridHtmlSaveOptions.DefaultFontName property
 
-指定导出html的默认字体名称，当style的字体不存在时使用默认字体, 如果该属性为null，Aspose.Cells 将使用与原始字体同族的通用字体， 默认值为 null。
+指定导出html的默认字体名称，当style的字体不存在时使用默认字体， 如果该属性为空，Aspose.Cells将使用与原始字体同族的通用字体， 默认值为空。
 
 ```csharp
 public string DefaultFontName { get; set; }

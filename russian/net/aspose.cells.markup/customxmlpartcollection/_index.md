@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPartCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет пользовательскую часть хранения данных XML пользовательские данные XML в пакете.
+description: Представляет часть хранилища пользовательских данных XML пользовательские данные XML в пакете.
 type: docs
 weight: 4050
 url: /ru/net/aspose.cells.markup/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection class
 
-Представляет пользовательскую часть хранения данных XML (пользовательские данные XML в пакете).
+Представляет часть хранилища пользовательских данных XML (пользовательские данные XML в пакете).
 
 ```csharp
 public class CustomXmlPartCollection : CollectionBase<CustomXmlPart>
@@ -54,7 +54,7 @@ public class CustomXmlPartCollection : CollectionBase<CustomXmlPart>
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(CustomXmlPart, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(CustomXmlPart, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
-| [SelectByID](../../aspose.cells.markup/customxmlpartcollection/selectbyid)(string) | Получает элемент по идентификатору. |
+| [SelectByID](../../aspose.cells.markup/customxmlpartcollection/selectbyid)(string) | Получает элемент по id. |
 
 ### Смотрите также
 

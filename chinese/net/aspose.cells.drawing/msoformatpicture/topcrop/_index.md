@@ -1,14 +1,14 @@
 ---
 title: TopCrop
 second_title: Aspose.Cells for .NET API 参考
-description: 表示裁剪矩形顶部的位置表示为图像高度的比率
+description: 表示表示裁剪矩形顶部的位置表示为图像高度的比率
 type: docs
 weight: 90
 url: /zh/net/aspose.cells.drawing/msoformatpicture/topcrop/
 ---
 ## MsoFormatPicture.TopCrop property
 
-表示裁剪矩形顶部的位置，表示为图像高度的比率。
+表示表示裁剪矩形顶部的位置，表示为图像高度的比率。
 
 ```csharp
 public double TopCrop { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: GraphicPositionType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает положение фоновой графики.
+description: Получает и устанавливает позицию фоновой графики.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.ods/odspagebackground/graphicpositiontype/
 ---
 ## OdsPageBackground.GraphicPositionType property
 
-Получает и устанавливает положение фоновой графики.
+Получает и устанавливает позицию фоновой графики.
 
 ```csharp
 public OdsPageBackgroundGraphicPositionType GraphicPositionType { get; set; }

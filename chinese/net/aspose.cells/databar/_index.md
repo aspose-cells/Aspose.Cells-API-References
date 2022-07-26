@@ -1,14 +1,14 @@
 ---
 title: DataBar
 second_title: Aspose.Cells for .NET API 参考
-description: 描述DataBar条件格式规则 此条件格式规则在单元格范围内显示渐变的 数据条
+description: 描述 DataBar 条件格式规则 此条件格式规则在单元格范围内显示 gradated 数据条
 type: docs
 weight: 1240
 url: /zh/net/aspose.cells/databar/
 ---
 ## DataBar class
 
-描述DataBar条件格式规则。 此条件格式规则在单元格范围内显示渐变的 数据条。
+描述 DataBar 条件格式规则。 此条件格式规则在单元格范围内显示 gradated 数据条。
 
 ```csharp
 public class DataBar
@@ -24,12 +24,12 @@ public class DataBar
 | [BarFillType](../../aspose.cells/databar/barfilltype) { get; set; } | 获取或设置数据条如何填充颜色。 |
 | [Color](../../aspose.cells/databar/color) { get; set; } | 获取或设置此 DataBar 的颜色。 |
 | [Direction](../../aspose.cells/databar/direction) { get; set; } | 获取或设置数据栏的显示方向。 |
-| [MaxCfvo](../../aspose.cells/databar/maxcfvo) { get; } | 获取或设置此 DataBar 的最大值对象。 无法设置 null 或类型为 FormatConditionValueType.Min 的 CFValueObject。 |
+| [MaxCfvo](../../aspose.cells/databar/maxcfvo) { get; } | 获取或设置此 DataBar 的最大值对象。 无法将其设置为 FormatConditionValueType.Min 类型的 null 或 CFValueObject。 |
 | [MaxLength](../../aspose.cells/databar/maxlength) { get; set; } | 表示数据条的最大长度。 |
-| [MinCfvo](../../aspose.cells/databar/mincfvo) { get; } | 获取或设置此 DataBar 的最小值对象。 无法设置 null 或类型为 FormatConditionValueType.Max 的 CFValueObject。 |
+| [MinCfvo](../../aspose.cells/databar/mincfvo) { get; } | 获取或设置此 DataBar 的最小值对象。 无法将其设置为 FormatConditionValueType.Max 类型的 null 或 CFValueObject。 |
 | [MinLength](../../aspose.cells/databar/minlength) { get; set; } | 表示数据条的最小长度。 |
 | [NegativeBarFormat](../../aspose.cells/databar/negativebarformat) { get; } | 获取与数据栏条件格式规则关联的 NegativeBarFormat 对象。 |
-| [ShowValue](../../aspose.cells/databar/showvalue) { get; set; } | 获取或设置指示是否显示应用此数据栏的单元格值的标志。 默认值为真。 |
+| [ShowValue](../../aspose.cells/databar/showvalue) { get; set; } | 获取或设置标志，指示是否显示应用此数据条的单元格的值。 默认值为 true。 |
 
 ## 方法
 
@@ -43,17 +43,17 @@ public class DataBar
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 
 Worksheet sheet = workbook.Worksheets[0];
 
- //添加一个空的条件格式
+//添加一个空的条件格式
 int index = sheet.ConditionalFormattings.Add();
 
 FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
 
- //设置条件格式范围.
+//设置条件格式范围。
 CellArea ca = new CellArea();
 
 ca.StartRow = 0;
@@ -66,19 +66,19 @@ ca.EndColumn = 0;
 
 fcs.AddArea(ca);
 
- //添加条件.
+//添加条件。
 int idx = fcs.AddCondition(FormatConditionType.DataBar);
 
 fcs.AddArea(ca);
 
 FormatCondition cond = fcs[idx];
 
-//获取Databar
+//获取数据栏
 DataBar dataBar = cond.DataBar;
 
 dataBar.Color = Color.Orange;
 
- //设置数据栏属性
+//设置数据栏属性
 dataBar.MinCfvo.Type = FormatConditionValueType.Percentile;
 
 dataBar.MinCfvo.Value = 30;
@@ -103,7 +103,7 @@ dataBar.BarBorder.Color = Color.Plum;
  
  dataBar.NegativeBarFormat.BorderColor = Color.Yellow;
  
- //把单元格Values
+//放置单元格值
 Aspose.Cells.Cell cell1 = sheet.Cells["A1"];
 
 cell1.PutValue(10);
@@ -116,12 +116,12 @@ Aspose.Cells.Cell cell3 = sheet.Cells["A3"];
 
 cell3.PutValue(260);
 
- //保存Excel文件
+//保存Excel文件
 workbook.Save("book1.xlsx");
 
 [VB.NET]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 
 Dim sheet As Worksheet = workbook.Worksheets(0)
@@ -151,12 +151,12 @@ fcs.AddArea(ca)
 
 Dim cond As FormatCondition = fcs(idx)
 
-'得到 Databar
+'获取数据栏
 Dim dataBar As DataBar = cond.DataBar
 
 dataBar.Color = Color.Orange
 
-'放 Databar 特性
+'设置数据栏属性
 dataBar.MinCfvo.Type = FormatConditionValueType.Percentile
 
 dataBar.MinCfvo.Value = 30

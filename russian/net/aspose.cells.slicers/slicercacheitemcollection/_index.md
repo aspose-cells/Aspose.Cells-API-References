@@ -111,7 +111,7 @@ Slicer slicer = slicers[slicerIndex];
 slicer.StyleType = SlicerStyleType.SlicerStyleLight2;
 
 SlicerCacheItemCollection items = slicer.SlicerCache.SlicerCacheItems;
-  //делай свое дело
+//делай свое дело
 book.Save("out.xlsx");
 
 [Visual Basic]

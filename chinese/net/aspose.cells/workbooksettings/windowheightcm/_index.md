@@ -1,14 +1,14 @@
 ---
 title: WindowHeightCM
 second_title: Aspose.Cells for .NET API 参考
-description: 窗口高度单位为厘米
+description: 窗口的高度单位为厘米
 type: docs
 weight: 490
 url: /zh/net/aspose.cells/workbooksettings/windowheightcm/
 ---
 ## WorkbookSettings.WindowHeightCM property
 
-窗口高度，单位为厘米。
+窗口的高度，单位为厘米。
 
 ```csharp
 public double WindowHeightCM { get; set; }

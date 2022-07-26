@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Cells for .NET API 参考
-description: 检查此对象是否与另一个引用相同的单元格
+description: 检查此对象是否与另一个对象引用同一个单元格
 type: docs
 weight: 340
 url: /zh/net/aspose.cells/cell/equals/
 ---
 ## Equals(object) {#equals_1}
 
-检查此对象是否与另一个引用相同的单元格。
+检查此对象是否与另一个对象引用同一个单元格。
 
 ```csharp
 public override bool Equals(object obj)
@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-如果两个对象引用同一个单元格。
+如果两个对象引用同一个单元格，则为 true。
 
 ### 也可以看看
 
@@ -44,7 +44,7 @@ public bool Equals(Cell cell)
 
 ### 返回值
 
-如果两个单元格对象引用，则为 true到同一个单元格。
+如果两个单元格对象引用同一个单元格，则为真。
 
 ### 也可以看看
 

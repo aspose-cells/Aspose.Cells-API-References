@@ -3,7 +3,7 @@ title: Union
 second_title: Aspose.Cells for .NET API 参考
 description: 返回两个范围的并集
 type: docs
-weight: 380
+weight: 420
 url: /zh/net/aspose.cells/range/union/
 ---
 ## Range.Union method

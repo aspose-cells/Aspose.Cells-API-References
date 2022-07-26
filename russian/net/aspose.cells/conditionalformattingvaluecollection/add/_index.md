@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Cells для .NET API
-description: ДобавляетConditionalFormattingValueaspose.cells/conditionalformattingvalueобъект.
+description: ДобавляетConditionalFormattingValueaspose.cells/conditionalformattingvalue объект.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/conditionalformattingvaluecollection/add/
 ---
 ## ConditionalFormattingValueCollection.Add method
 
-Добавляет[`ConditionalFormattingValue`](../../conditionalformattingvalue)объект.
+Добавляет[`ConditionalFormattingValue`](../../conditionalformattingvalue) объект.
 
 ```csharp
 public int Add(FormatConditionValueType type, string value)
@@ -17,7 +17,7 @@ public int Add(FormatConditionValueType type, string value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | type | FormatConditionValueType | Тип значения. |
-| значение | String | Значение. |
+| value | String | Значение. |
 
 ### Возвращаемое значение
 

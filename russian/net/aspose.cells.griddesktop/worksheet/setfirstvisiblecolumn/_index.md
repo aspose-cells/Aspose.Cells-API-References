@@ -1,14 +1,14 @@
 ---
 title: SetFirstVisibleColumn
 second_title: Справочник по Aspose.Cells для .NET API
-description: Установите индекс первого видимого столбца представления листа.
+description: Установить индекс первого видимого столбца представления листа.
 type: docs
 weight: 1020
 url: /ru/net/aspose.cells.griddesktop/worksheet/setfirstvisiblecolumn/
 ---
 ## Worksheet.SetFirstVisibleColumn method
 
-Установите индекс первого видимого столбца представления листа.
+Установить индекс первого видимого столбца представления листа.
 
 ```csharp
 public void SetFirstVisibleColumn(int col)

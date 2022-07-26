@@ -1,14 +1,14 @@
 ---
 title: LeftMarginPt
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает левое поле в пунктах
+description: Возвращает левое поле в единицах Points
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.drawing.texts/shapetextalignment/leftmarginpt/
 ---
 ## ShapeTextAlignment.LeftMarginPt property
 
-Возвращает левое поле в пунктах
+Возвращает левое поле в единицах Points
 
 ```csharp
 public double LeftMarginPt { get; set; }

@@ -18,9 +18,9 @@ public class Timeline
 
 | Имя | Описание |
 | --- | --- |
-| [Caption](../../aspose.cells.timelines/timeline/caption) { get; set; } | Возвращает или устанавливает заголовок указанной временной шкалы. |
+| [Caption](../../aspose.cells.timelines/timeline/caption) { get; set; } | Возвращает или задает заголовок указанной временной шкалы. |
 | [HeightPixel](../../aspose.cells.timelines/timeline/heightpixel) { get; set; } | Возвращает или задает высоту указанной временной шкалы в пикселях. |
-| [LeftPixel](../../aspose.cells.timelines/timeline/leftpixel) { get; set; } | Возвращает или задает горизонтальное смещение формы временной шкалы от ее левого столбца в пикселях. |
+| [LeftPixel](../../aspose.cells.timelines/timeline/leftpixel) { get; set; } | Возвращает или задает смещение формы временной шкалы по горизонтали от ее левого столбца в пикселях. |
 | [Name](../../aspose.cells.timelines/timeline/name) { get; set; } | Возвращает или задает имя указанной временной шкалы |
 | [TopPixel](../../aspose.cells.timelines/timeline/toppixel) { get; set; } | Возвращает или задает вертикальное смещение формы временной шкалы от ее верхней строки в пикселях. |
 | [WidthPixel](../../aspose.cells.timelines/timeline/widthpixel) { get; set; } | Возвращает или задает ширину указанной временной шкалы в пикселях. |
@@ -39,7 +39,7 @@ cells[2, 0].Value = "blueberry";
 cells[3, 0].Value = "kiwi";
 cells[4, 0].Value = "cherry";
 
-  //Создать дату style
+//Создаем стиль даты
 Style dateStyle = new CellsFactory().CreateStyle();
 dateStyle.Custom = "m/d/yyyy";
 cells[0, 1].Value = "date";
@@ -47,7 +47,7 @@ cells[1, 1].Value = new DateTime(2021, 2, 5);
 cells[2, 1].Value = new DateTime(2022, 3, 8);
 cells[3, 1].Value = new DateTime(2023, 4, 10);
 cells[4, 1].Value = new DateTime(2024, 5, 16);
-  //Установить дату style
+//Установить стиль даты
 cells[1, 1].SetStyle(dateStyle);
 cells[2, 1].SetStyle(dateStyle);
 cells[3, 1].SetStyle(dateStyle);
@@ -60,7 +60,7 @@ cells[3, 2].Value = 70;
 cells[4, 2].Value = 80;
 
 PivotTableCollection pivots = sheet.PivotTables;
-  //Добавить сводную таблицу
+// Добавляем сводную таблицу
 int pivotIndex = pivots.Add("=Sheet1!A1:C5", "A12", "TestPivotTable");
 PivotTable pivot = pivots[pivotIndex];
 pivot.AddFieldToArea(PivotFieldType.Row, "fruit");
@@ -68,21 +68,21 @@ pivot.AddFieldToArea(PivotFieldType.Column, "date");
 pivot.AddFieldToArea(PivotFieldType.Data, "amount");
 pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
 
-  // Обновить сводную таблицу data
+// Обновить данные сводной таблицы
 pivot.RefreshData();
 pivot.CalculateData();
 
-  //Добавить новую временную шкалу, используя сводную таблицу в качестве данных source
+//Добавить новую временную шкалу, используя сводную таблицу в качестве источника данных
 sheet.Timelines.Add(pivot, 10, 5, "date");
 
-  //Получить временную шкалу object
+//Получить объект временной шкалы
 Timeline timelineObj = sheet.Timelines[0];
 
 
 
 book.Save("out.xlsx");
 
-  //делай свое дело
+//делай свое дело
 ```
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: FreezePanes
 second_title: Справочник по Aspose.Cells для .NET API
-description: Замораживает панели в указанной ячейке рабочего листа.
+description: Замораживает панели в указанной ячейке на листе.
 type: docs
 weight: 540
 url: /ru/net/aspose.cells.gridweb.data/gridworksheet/freezepanes/
 ---
 ## FreezePanes(string, int, int) {#freezepanes_1}
 
-Замораживает панели в указанной ячейке рабочего листа.
+Замораживает панели в указанной ячейке на листе.
 
 ```csharp
 public void FreezePanes(string cellName, int freezedRows, int freezedColumns)
@@ -34,7 +34,7 @@ public void FreezePanes(string cellName, int freezedRows, int freezedColumns)
 
 ## FreezePanes(int, int, int, int) {#freezepanes}
 
-Замораживает панели в указанной ячейке рабочего листа.
+Замораживает панели в указанной ячейке на листе.
 
 ```csharp
 public void FreezePanes(int row, int column, int freezedRows, int freezedColumns)
@@ -51,7 +51,7 @@ public void FreezePanes(int row, int column, int freezedRows, int freezedColumns
 
 Индекс строки и индекс столбца не могут быть равны нулю. Количество строк и количество столбцов также не могут быть равны нулю.
 
-Первые два параметра определяют позицию фиксации, а последние два параметра определяют область фиксации на левой верхней панели.
+Первые два параметра определяют фиксированную позицию, а последние два параметра определяют фиксированную область на левой верхней панели.
 
 ### Смотрите также
 

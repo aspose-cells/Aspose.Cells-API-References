@@ -1,14 +1,14 @@
 ---
 title: CreateId
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置此形状的创建 ID
+description: 获取并设置此形状的创建 ID
 type: docs
 weight: 80
 url: /zh/net/aspose.cells.drawing/shape/createid/
 ---
 ## Shape.CreateId property
 
-获取和设置此形状的创建 ID。
+获取并设置此形状的创建 ID。
 
 ```csharp
 public Guid CreateId { get; set; }

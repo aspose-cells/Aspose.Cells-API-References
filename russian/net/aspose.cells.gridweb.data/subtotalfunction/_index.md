@@ -23,7 +23,7 @@ public enum SubtotalFunction
 | COUNTA | `3` | Подсчет ненулевых ячеек |
 | MAX | `4` | Макс |
 | MIN | `5` | Мин |
-| PRODUCT | `6` | Товар |
+| PRODUCT | `6` | Продукт |
 | SUM | `9` | Сумма |
 
 ### Смотрите также

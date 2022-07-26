@@ -20,7 +20,7 @@ public string Name { get; set; }
 
 [C#]
 
-  //Установить имя указанной временной шкалы.
+//Установить имя указанной временной шкалы.
 timelineObj.Name = "timeline name test";
 ```
 

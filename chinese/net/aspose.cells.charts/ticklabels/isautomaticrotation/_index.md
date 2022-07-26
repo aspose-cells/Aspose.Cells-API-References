@@ -1,14 +1,14 @@
 ---
 title: IsAutomaticRotation
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否自动旋转角度
+description: 表示旋转角度是否自动
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.charts/ticklabels/isautomaticrotation/
 ---
 ## TickLabels.IsAutomaticRotation property
 
-表示是否自动旋转角度
+表示旋转角度是否自动
 
 ```csharp
 public bool IsAutomaticRotation { get; set; }

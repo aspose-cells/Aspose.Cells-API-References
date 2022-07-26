@@ -1,14 +1,14 @@
 ---
 title: ToImage
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает 32-битный Bitmap объект графика.
+description: Получает 32-битныйБитовая карта объект диаграммы.
 type: docs
 weight: 590
 url: /ru/net/aspose.cells.charts/chart/toimage/
 ---
 ## ToImage() {#toimage}
 
-Получает 32-битный` Bitmap` объект графика.
+Получает 32-битный`Битовая карта` объект диаграммы.
 
 ```csharp
 public Bitmap ToImage()
@@ -20,7 +20,7 @@ public Bitmap ToImage()
 
 ### Примечания
 
-Если ширина или высота равны нулю или диаграмма не поддерживается в соответствии со списком поддерживаемых диаграмм, будет возвращено значение null. См.[Список поддерживаемых карт](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) для более подробной информации.
+Если ширина или высота равны нулю или диаграмма не поддерживается в соответствии со списком поддерживаемых диаграмм, будет возвращено значение null. См.[Список поддерживаемых диаграмм](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) для более подробной информации.
 
 ### Смотрите также
 
@@ -32,7 +32,7 @@ public Bitmap ToImage()
 
 ## ToImage(ImageOrPrintOptions) {#toimage_1}
 
-Получает 32-битный` Bitmap` объект графика. ` ImageOrPrintOptions.ImageFormat` , Атрибуты ImageOrPrintOptions.TiffCompression и ImageOrPrintOptions.Quality игнорируются.
+Получает 32-битный`Битовая карта` объект диаграммы. `ImageOrPrintOptions.ImageFormat` , атрибуты ImageOrPrintOptions.TiffCompression и ImageOrPrintOptions.Quality игнорируются.
 
 ```csharp
 public Bitmap ToImage(ImageOrPrintOptions options)
@@ -40,15 +40,15 @@ public Bitmap ToImage(ImageOrPrintOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | ImageOrPrintOptions | Дополнительные параметры создания образа |
+| options | ImageOrPrintOptions | Дополнительные возможности создания образа |
 
 ### Возвращаемое значение
 
-картинка графика .
+картинка графика.
 
 ### Примечания
 
-Возвращает 32-битный растровый объект, поэтому ImageOrPrintOptions.ImageFormat, ImageOrPrintOptions.TiffCompression и ImageOrPrintOptions.Quality атрибуты не влияют на метод. Если ширина или высота равны нулю или диаграмма не поддерживается в соответствии со списком поддерживаемых диаграмм, будет возвращено значение null. См.[Список поддерживаемых карт](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) для более подробной информации.
+Возвращает 32-битный растровый объект, поэтому атрибуты ImageOrPrintOptions.ImageFormat, ImageOrPrintOptions.TiffCompression и ImageOrPrintOptions.Quality не влияют на метод. вернет null. См.[Список поддерживаемых диаграмм](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) для более подробной информации.
 
 ### Примеры
 
@@ -83,7 +83,7 @@ Dim chartObject As Bitmap = book.Worksheets(0).Charts(0).ToImage(options)
 
 ---
 
-## ToImage(string) {#toimage_5}
+## ToImage(string) {#toimage_6}
 
 Создает изображение диаграммы и сохраняет его в файл. Расширение имени файла определяет формат изображения.
 
@@ -97,9 +97,9 @@ public void ToImage(string imageFile)
 
 ### Примечания
 
-Формат изображения определяется расширением имени файла. Например, если указать "myfile.png", то изображение будет сохранено в формате PNG. Распознаются следующие расширения файлов: .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
+Формат изображения задается расширением имени файла. Например, если указать "myfile.png", то изображение будет сохранено в формате PNG. Распознаются следующие расширения файлов: .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
 
-Если ширина или высота равны нулю или диаграмма не поддерживается в соответствии со списком поддерживаемых диаграмм, этот метод ничего не сделает. См.[Список поддерживаемых карт](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) для более подробной информации.
+Если ширина или высота равны нулю или диаграмма не поддерживается в соответствии со списком поддерживаемых диаграмм, этот метод ничего не даст. См.[Список поддерживаемых диаграмм](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) для более подробной информации.
 
 ### Смотрите также
 
@@ -109,34 +109,35 @@ public void ToImage(string imageFile)
 
 ---
 
-## ToImage(string, ImageFormat) {#toimage_8}
+## ToImage(string, ImageType) {#toimage_7}
 
-Создает изображение графика и сохраняет его в файл в указанном формате.
+Создает изображение диаграммы и сохраняет его в файл с указанным типом изображения.
 
 ```csharp
-public void ToImage(string imageFile, ImageFormat imageFormat)
+public void ToImage(string imageFile, ImageType imageType)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | imageFile | String | Имя файла изображения с полным путем. |
-| imageFormat | ImageFormat | Формат сохранения изображения. |
+| imageType | ImageType | Тип изображения, в котором нужно сохранить изображение. |
 
 ### Примечания
 
-Формат изображения задается с помощью` imageFormat` . Поддерживаются следующие форматы: ImageFormat.Bmp, ImageFormat.Gif, ImageFormat.Png, ImageFormat.Jpeg, ImageFormat.Tiff, ImageFormat.Emf.
+Тип изображения указывается с помощью`Тип изображения`. Поддерживаются следующие типы: ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.
 
-Если ширина или высота равны нулю или диаграмма не поддерживается в соответствии со списком поддерживаемых диаграмм, этот метод ничего не сделает. См.[Список поддерживаемых карт](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) для более подробной информации.
+Если ширина или высота равны нулю или диаграмма не поддерживается в соответствии со списком поддерживаемых диаграмм, этот метод ничего не даст. См.[Список поддерживаемых диаграмм](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) для более подробной информации.
 
 ### Смотрите также
 
+* enum [ImageType](../../../aspose.cells.drawing/imagetype)
 * class [Chart](../../chart)
 * пространство имен [Aspose.Cells.Charts](../../chart)
 * сборка [Aspose.Cells](../../../)
 
 ---
 
-## ToImage(string, long) {#toimage_7}
+## ToImage(string, long) {#toimage_9}
 
 Создает изображение графика и сохраняет его в файл в формате Jpeg.
 
@@ -151,7 +152,7 @@ public void ToImage(string imageFile, long jpegQuality)
 
 ### Примечания
 
-Если ширина или высота равны нулю или диаграмма не поддерживается в соответствии со списком поддерживаемых диаграмм, этот метод ничего не сделает. См.[Список поддерживаемых карт](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) для более подробной информации.
+Если ширина или высота равны нулю или диаграмма не поддерживается в соответствии со списком поддерживаемых диаграмм, этот метод ничего не даст. См.[Список поддерживаемых диаграмм](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) для более подробной информации.
 
 ### Смотрите также
 
@@ -161,9 +162,9 @@ public void ToImage(string imageFile, long jpegQuality)
 
 ---
 
-## ToImage(Stream, long) {#toimage_3}
+## ToImage(Stream, long) {#toimage_4}
 
-Создает изображение графика и сохраняет его в поток в формате Jpeg.
+Создает изображение диаграммы и сохраняет его в поток в формате Jpeg.
 
 ```csharp
 public void ToImage(Stream stream, long jpegQuality)
@@ -176,7 +177,7 @@ public void ToImage(Stream stream, long jpegQuality)
 
 ### Примечания
 
-Если ширина или высота равны нулю или диаграмма не поддерживается в соответствии со списком поддерживаемых диаграмм, этот метод ничего не сделает. См.[Список поддерживаемых карт](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) для более подробной информации.
+Если ширина или высота равны нулю или диаграмма не поддерживается в соответствии со списком поддерживаемых диаграмм, этот метод ничего не даст. См.[Список поддерживаемых диаграмм](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) для более подробной информации.
 
 ### Смотрите также
 
@@ -186,34 +187,35 @@ public void ToImage(Stream stream, long jpegQuality)
 
 ---
 
-## ToImage(Stream, ImageFormat) {#toimage_4}
+## ToImage(Stream, ImageType) {#toimage_2}
 
-Создает изображение графика и сохраняет его в потоке в указанном формате.
+Создает изображение диаграммы и сохраняет его в потоке в указанном формате.
 
 ```csharp
-public void ToImage(Stream stream, ImageFormat imageFormat)
+public void ToImage(Stream stream, ImageType imageType)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Выходной поток. |
-| imageFormat | ImageFormat | Формат сохранения изображения. |
+| imageType | ImageType | Тип изображения, в котором нужно сохранить изображение. |
 
 ### Примечания
 
-Формат изображения задается с помощью` imageFormat` . Поддерживаются следующие форматы: ImageFormat.Bmp, ImageFormat.Gif, ImageFormat.Png, ImageFormat.Jpeg, ImageFormat.Tiff, ImageFormat.Emf.
+Тип изображения указывается с помощью`Тип изображения`. Поддерживаются следующие типы: ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.
 
-Если ширина или высота равны нулю или диаграмма не поддерживается в соответствии со списком поддерживаемых диаграмм, этот метод ничего не сделает. См.[Список поддерживаемых карт](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) для более подробной информации.
+Если ширина или высота равны нулю или диаграмма не поддерживается в соответствии со списком поддерживаемых диаграмм, этот метод ничего не даст. См.[Список поддерживаемых диаграмм](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) для более подробной информации.
 
 ### Смотрите также
 
+* enum [ImageType](../../../aspose.cells.drawing/imagetype)
 * class [Chart](../../chart)
 * пространство имен [Aspose.Cells.Charts](../../chart)
 * сборка [Aspose.Cells](../../../)
 
 ---
 
-## ToImage(string, ImageOrPrintOptions) {#toimage_6}
+## ToImage(string, ImageOrPrintOptions) {#toimage_8}
 
 Создает изображение диаграммы и сохраняет его в файл. Расширение имени файла определяет формат изображения.
 
@@ -224,17 +226,17 @@ public void ToImage(string imageFile, ImageOrPrintOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | imageFile | String | Имя файла изображения с полным путем. |
-| options | ImageOrPrintOptions | Дополнительные параметры создания образа |
+| options | ImageOrPrintOptions | Дополнительные возможности создания образа |
 
 ### Примечания
 
-Формат файла изображение указывается с использованием расширения имени файла. Например, если указать "myfile.png", то изображение будет сохранено в формате PNG. Распознаются следующие расширения файлов: .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
+Формат изображения задается расширением имени файла. Например, если указать "myfile.png", то изображение будет сохранено в формате PNG. Распознаются следующие расширения файлов: .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
 
-Если ширина или высота равны нулю или диаграмма не поддерживается в соответствии со списком поддерживаемых диаграмм, этот метод ничего не сделает. См.[Список поддерживаемых карт](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) для более подробной информации.
+Если ширина или высота равны нулю или диаграмма не поддерживается в соответствии со списком поддерживаемых диаграмм, этот метод ничего не даст. См.[Список поддерживаемых диаграмм](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) для более подробной информации.
 
 ### Примеры
 
-Сохраняет в Tiff с разрешением 300 dpi и сжатием CCITT4. Сохраняет в формате Jpeg с разрешением 300 dpi и качеством изображения 80. &lt;code&gt; [C#] ImageOrPrintOptions options = new ImageOrPrintOptions(); options.HorizontalResolution = 300; options.VerticalResolution = 300; options.Quality = 80; Workbook book = new Workbook(@"test.xls"); book.Worksheets[0].Charts[0].ToImage(@"chart.Jpeg", options); [VB] Параметры затемнения As ImageOrPrintOptions = New ImageOrPrintOptions() options.HorizontalResolution = 300 options.VerticalResolution = 300 options.Quality = 80 Dim book As Workbook = New Workbook ("test.xls") book.Worksheets(0).Charts(0).ToImage("chart.Jpeg", options) &lt;/code&gt;
+Сохраняет в формате Tiff с разрешением 300 dpi и сжатием CCITT4. Сохраняет в формате Jpeg с разрешением 300 dpi и качеством изображения 80.
 
 ```csharp
 
@@ -258,6 +260,28 @@ book.Worksheets(0).Charts(0).ToImage("chart.Tiff", options)
 
 ```
 
+```csharp
+
+[C#]
+ImageOrPrintOptions options = new ImageOrPrintOptions();
+options.HorizontalResolution = 300;
+options.VerticalResolution = 300;
+options.Quality = 80;
+
+Workbook book = new Workbook(@"test.xls");
+book.Worksheets[0].Charts[0].ToImage(@"chart.Jpeg", options);
+
+[VB]
+Dim options As ImageOrPrintOptions =  New ImageOrPrintOptions()
+options.HorizontalResolution = 300
+options.VerticalResolution = 300
+options.Quality = 80
+
+Dim book As Workbook =  New Workbook("test.xls")
+book.Worksheets(0).Charts(0).ToImage("chart.Jpeg", options)
+
+```
+
 ### Смотрите также
 
 * class [ImageOrPrintOptions](../../../aspose.cells.rendering/imageorprintoptions)
@@ -267,9 +291,9 @@ book.Worksheets(0).Charts(0).ToImage("chart.Tiff", options)
 
 ---
 
-## ToImage(Stream, ImageOrPrintOptions) {#toimage_2}
+## ToImage(Stream, ImageOrPrintOptions) {#toimage_3}
 
-Создает изображение графика и сохраняет его в потоке в указанном формате.
+Создает изображение диаграммы и сохраняет его в потоке в указанном формате.
 
 ```csharp
 public void ToImage(Stream stream, ImageOrPrintOptions options)
@@ -278,13 +302,13 @@ public void ToImage(Stream stream, ImageOrPrintOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Выходной поток. |
-| options | ImageOrPrintOptions | Дополнительные параметры создания образа |
+| options | ImageOrPrintOptions | Дополнительные возможности создания образа |
 
 ### Примечания
 
-Формат файла изображение указывается с помощью` options.ImageFormat` . Поддерживаются следующие форматы: ImageFormat.Bmp, ImageFormat.Gif, ImageFormat.Png, ImageFormat.Jpeg, ImageFormat.Tiff, ImageFormat.Emf.
+Тип изображения указывается с помощью`options.ImageType`. Поддерживаются следующие форматы: ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.
 
-Если ширина или высота равны нулю или диаграмма не поддерживается в соответствии со списком поддерживаемых диаграмм, этот метод ничего не сделает. См.[Список поддерживаемых карт](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) для более подробной информации.
+Если ширина или высота равны нулю или диаграмма не поддерживается в соответствии со списком поддерживаемых диаграмм, этот метод ничего не даст. См.[Список поддерживаемых диаграмм](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) для более подробной информации.
 
 ### Смотрите также
 

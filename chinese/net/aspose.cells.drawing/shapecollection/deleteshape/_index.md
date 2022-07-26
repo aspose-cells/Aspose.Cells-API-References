@@ -23,11 +23,11 @@ public void DeleteShape(Shape shape)
 ```csharp
 
 [C#]
- //添加第一个shape
+//添加第一个形状
 Shape firstShape = shapes.AddRectangle(2, 0, 2, 0, 50, 50);
- //添加第二个shape
+//添加第二个形状
 Shape secondShape = shapes.AddRectangle(6, 0, 2, 0, 30, 30);
- //del
+//删除
 shapes.DeleteShape(firstShape);
 
 ```

@@ -1,14 +1,14 @@
 ---
 title: CellArea
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектCellAreaaspose.cells/protectedrange/cellarea представляющий защищаемую область ячейки.
+description: ПолучаетCellAreaaspose.cells/protectedrange/cellarea объект представляет защищаемую область ячейки.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/protectedrange/cellarea/
 ---
 ## ProtectedRange.CellArea property
 
-Получает объект`CellArea`, представляющий защищаемую область ячейки.
+Получает`CellArea` объект представляет защищаемую область ячейки.
 
 ```csharp
 public CellArea CellArea { get; }

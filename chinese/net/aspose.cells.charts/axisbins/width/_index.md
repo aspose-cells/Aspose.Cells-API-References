@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置轴 bin 的宽度
+description: 获取或设置轴的宽度 bin
 type: docs
 weight: 70
 url: /zh/net/aspose.cells.charts/axisbins/width/
 ---
 ## AxisBins.Width property
 
-获取或设置轴 bin 的宽度
+获取或设置轴的宽度 bin
 
 ```csharp
 public double Width { get; set; }

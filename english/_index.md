@@ -40,7 +40,7 @@ These are links to some useful resources:
 
 ![Aspose.Cells for C++ Product Logo](home_6.png)
 
-Aspose.Cells for Android via Java is a flexible component that enables Android applications to create and manage Excel spreadsheets without requiring Microsoft Excel. Aspose.Cells for Android via Java's ultimate goal is to bring all stunning features of Aspose.Cells for Java to the Android platform that makes it possible to do native Android development in Java, with either Android Studio or any IDE that supports Android development. Aspose.Cells for Android via Java is a class library that enables your native Android applications to perform a great range of document processing tasks. Aspose.Cells for Android via Java supports XLS, XLSX, CSV, SpreadsheetML, ODS, Tab Delimited, HTML, PDF, XPS and other formats. With Aspose.Cells for Android via Java you can generate, modify, convert and render spreadsheets.
+Aspose.Cells for C++ is a native C++ library that enables C++ developers to create, manipulate and convert spreadsheets programmatically without requiring Office Automation or Microsoft Excel application. Aspose.Cells for C++ supports spreadsheet formats such as MS Excel 97-2003 (XLS), MS Excel 2007-2013/2016 (XLSX, XLSM, XLSB, etc.), Open Office XML and other formats. You may also render images from worksheets and convert MS Excel spreadsheet to PDF format. The API also allows you to create, manipulate and render charts and shapes. Moreover, formula calculations is another good aspect provided by component and you may utilize it.
 
 {{% /alert %}}
 

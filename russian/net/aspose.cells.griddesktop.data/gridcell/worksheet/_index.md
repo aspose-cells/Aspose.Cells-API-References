@@ -1,14 +1,14 @@
 ---
 title: Worksheet
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объект листа.
+description: Получает объект рабочего листа.
 type: docs
 weight: 190
 url: /ru/net/aspose.cells.griddesktop.data/gridcell/worksheet/
 ---
 ## GridCell.Worksheet property
 
-Получает объект листа.
+Получает объект рабочего листа.
 
 ```csharp
 public Worksheet Worksheet { get; }

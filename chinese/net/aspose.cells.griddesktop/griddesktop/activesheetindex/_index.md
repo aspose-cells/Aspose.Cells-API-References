@@ -1,14 +1,14 @@
 ---
 title: ActiveSheetIndex
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置选定的工作表索引
+description: 获取或设置选中的工作表索引
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.griddesktop/griddesktop/activesheetindex/
 ---
 ## GridDesktop.ActiveSheetIndex property
 
-获取或设置选定的工作表索引。
+获取或设置选中的工作表索引。
 
 ```csharp
 public int ActiveSheetIndex { get; set; }

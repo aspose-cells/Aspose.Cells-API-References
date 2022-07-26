@@ -16,7 +16,7 @@ public void Unprotect(string password)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| password | String | 解除工作簿保护的密码。 |
+| password | String | 取消保护工作簿的密码。 |
 
 ### 也可以看看
 

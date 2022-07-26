@@ -1,14 +1,14 @@
 ---
 title: BorderWidthPx
 second_title: Aspose.Cells for .NET API 参考
-description: 调用 Chart.Calculate 方法后以像素为单位获取边框宽度
+description: 调用Chart.Calculate 方法后以像素为单位获取边框宽度
 type: docs
 weight: 70
 url: /zh/net/aspose.cells.charts/chartpoint/borderwidthpx/
 ---
 ## ChartPoint.BorderWidthPx property
 
-调用 Chart.Calculate() 方法后，以像素为单位获取边框宽度。
+调用Chart.Calculate() 方法后，以像素为单位获取边框宽度。
 
 ```csharp
 public int BorderWidthPx { get; }

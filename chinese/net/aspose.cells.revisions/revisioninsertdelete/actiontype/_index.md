@@ -1,14 +1,14 @@
 ---
 title: ActionType
 second_title: Aspose.Cells for .NET API 参考
-description: 获取此修订的操作类型
+description: 获取本次修订的动作类型
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.revisions/revisioninsertdelete/actiontype/
 ---
 ## RevisionInsertDelete.ActionType property
 
-获取此修订的操作类型。
+获取本次修订的动作类型。
 
 ```csharp
 public RevisionActionType ActionType { get; }

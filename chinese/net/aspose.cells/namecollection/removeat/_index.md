@@ -20,7 +20,7 @@ public void RemoveAt(int index)
 
 ### 评论
 
-在调用该方法之前，请确保该名称未被其他公式引用。 如果名称被引用，将 Name.RefersTo 设置为 null 更好。
+在调用方法之前，请确保名称没有被其他公式引用。 如果名称被引用，将Name.RefersTo设置为null更好。
 
 ### 也可以看看
 

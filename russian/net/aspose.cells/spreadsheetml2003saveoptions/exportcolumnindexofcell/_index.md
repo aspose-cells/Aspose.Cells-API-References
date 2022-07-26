@@ -1,14 +1,14 @@
 ---
 title: ExportColumnIndexOfCell
 second_title: Справочник по Aspose.Cells для .NET API
-description: Значение по умолчанию - false это означает что индекс столбца будет игнорироваться если ячейка граничит с предыдущей ячейкой.
+description: Значение по умолчанию  false это означает что индекс столбца будет игнорироваться если ячейка граничит с предыдущей ячейкой.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/spreadsheetml2003saveoptions/exportcolumnindexofcell/
 ---
 ## SpreadsheetML2003SaveOptions.ExportColumnIndexOfCell property
 
-Значение по умолчанию - false, это означает, что индекс столбца будет игнорироваться, если ячейка граничит с предыдущей ячейкой.
+Значение по умолчанию — false, это означает, что индекс столбца будет игнорироваться, если ячейка граничит с предыдущей ячейкой.
 
 ```csharp
 public bool ExportColumnIndexOfCell { get; set; }

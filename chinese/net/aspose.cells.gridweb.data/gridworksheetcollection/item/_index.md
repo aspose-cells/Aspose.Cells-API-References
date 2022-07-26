@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定索引处的Worksheet元素
+description: 获取Worksheet指定索引处的元素
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.gridweb.data/gridworksheetcollection/item/
 ---
 ## GridWorksheetCollection indexer (1 of 2)
 
-获取指定索引处的Worksheet元素。
+获取Worksheet指定索引处的元素。
 
 ```csharp
 public GridWorksheet this[int index] { get; }
@@ -33,7 +33,7 @@ public GridWorksheet this[int index] { get; }
 
 ## GridWorksheetCollection indexer (2 of 2)
 
-获取具有指定名称的Worksheet元素。
+获取Worksheet具有指定名称的元素。
 
 ```csharp
 public GridWorksheet this[string sheetName] { get; }

@@ -1,14 +1,14 @@
 ---
 title: Author
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает имя автора исходного комментария
+description: Получает и устанавливает имя исходного комментария author
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/comment/author/
 ---
 ## Comment.Author property
 
-Получает и устанавливает имя автора исходного комментария
+Получает и устанавливает имя исходного комментария author
 
 ```csharp
 public string Author { get; set; }

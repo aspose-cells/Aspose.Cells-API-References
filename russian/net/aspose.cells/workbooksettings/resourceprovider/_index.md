@@ -8,7 +8,7 @@ url: /ru/net/aspose.cells/workbooksettings/resourceprovider/
 ---
 ## WorkbookSettings.ResourceProvider property
 
-Получает и задает поставщика потока для внешнего ресурса, например, для загрузки данных изображения для изображения типа "LinkToFile".
+Получает и задает поставщика потока для внешнего ресурса, например для загрузки данных изображения для изображения типа "LinkToFile".
 
 ```csharp
 public IStreamProvider ResourceProvider { get; set; }

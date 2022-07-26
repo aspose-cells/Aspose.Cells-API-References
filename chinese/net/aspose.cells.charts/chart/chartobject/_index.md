@@ -1,14 +1,14 @@
 ---
 title: ChartObject
 second_title: Aspose.Cells for .NET API 参考
-description: 表示图表形状
+description: 代表图表形状
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.charts/chart/chartobject/
 ---
 ## Chart.ChartObject property
 
-表示图表形状；
+代表图表形状；
 
 ```csharp
 public ChartShape ChartObject { get; }

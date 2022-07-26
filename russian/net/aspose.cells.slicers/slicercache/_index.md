@@ -1,14 +1,14 @@
 ---
 title: SlicerCache
 second_title: Справочник по Aspose.Cells для .NET API
-description: краткое описание кеша слайсера
+description: краткое описание кэша слайсера
 type: docs
 weight: 5640
 url: /ru/net/aspose.cells.slicers/slicercache/
 ---
 ## SlicerCache class
 
-краткое описание кеша слайсера
+краткое описание кэша слайсера
 
 ```csharp
 public class SlicerCache
@@ -22,7 +22,7 @@ public class SlicerCache
 | [List](../../aspose.cells.slicers/slicercache/list) { get; } | Возвращает, основан ли слайсер, связанный с указанным кэшем слайсера, на источнике данных, отличном от OLAP. Только для чтения |
 | [Name](../../aspose.cells.slicers/slicercache/name) { get; } | Возвращает имя кеша слайсера. |
 | [SlicerCacheItems](../../aspose.cells.slicers/slicercache/slicercacheitems) { get; } | Возвращает коллекцию SlicerCacheItem, содержащую коллекцию всех элементов в кэше слайсера. Только для чтения |
-| [SourceName](../../aspose.cells.slicers/slicercache/sourcename) { get; } | Возвращает имя поля кэша |
+| [SourceName](../../aspose.cells.slicers/slicercache/sourcename) { get; } | Возвращает имя кэша field |
 
 ### Примеры
 
@@ -80,10 +80,10 @@ int slicerIndex = slicers.Add(pivot, "E12", "fruit");
 Slicer slicer = slicers[slicerIndex];
 slicer.StyleType = SlicerStyleType.SlicerStyleLight2;
 
-  //Получить объект SlicerCache текущего slicer
+//Получить объект SlicerCache текущего слайсера
 SlicerCache slicerCache = slicer.SlicerCache;
 
-  //делай свое дело
+//делай свое дело
 
 book.Save("out.xlsx");
 ```

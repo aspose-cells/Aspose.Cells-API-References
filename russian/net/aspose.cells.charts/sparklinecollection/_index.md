@@ -1,14 +1,14 @@
 ---
 title: SparklineCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует набор объектовSparkline./sparkline.
+description: Инкапсулирует наборSparkline./sparkline объекты.
 type: docs
 weight: 870
 url: /ru/net/aspose.cells.charts/sparklinecollection/
 ---
 ## SparklineCollection class
 
-Инкапсулирует набор объектов[`Sparkline`](../sparkline).
+Инкапсулирует набор[`Sparkline`](../sparkline) объекты.
 
 ```csharp
 public class SparklineCollection : CollectionBase<Sparkline>
@@ -20,7 +20,7 @@ public class SparklineCollection : CollectionBase<Sparkline>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.charts/sparklinecollection/item) { get; } | Получает элемент[`Sparkline`](../sparkline)по указанному индексу. |
+| [Item](../../aspose.cells.charts/sparklinecollection/item) { get; } | Получает[`Sparkline`](../sparkline) элемент по указанному индексу. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы
@@ -68,7 +68,7 @@ sheet.Cells["B1"].PutValue(2);
 sheet.Cells["C1"].PutValue(1);
 sheet.Cells["D1"].PutValue(3);
 
-  // Определяем CellArea
+// Определяем CellArea
 CellArea ca = new CellArea();
 ca.StartColumn = 4;
 ca.EndColumn = 4;

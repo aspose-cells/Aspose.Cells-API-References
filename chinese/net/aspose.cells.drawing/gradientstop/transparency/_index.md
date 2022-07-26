@@ -1,14 +1,14 @@
 ---
 title: Transparency
 second_title: Aspose.Cells for .NET API 参考
-description: 以从 0.0不透明到 1.0透明的值返回或设置区域的透明度
+description: 将区域的透明度返回或设置为从 0.0不透明到 1.0透明的值
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.drawing/gradientstop/transparency/
 ---
 ## GradientStop.Transparency property
 
-以从 0.0（不透明）到 1.0（透明）的值返回或设置区域的透明度。
+将区域的透明度返回或设置为从 0.0（不透明）到 1.0（透明）的值。
 
 ```csharp
 public double Transparency { get; set; }

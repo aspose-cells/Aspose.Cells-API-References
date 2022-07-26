@@ -1,14 +1,14 @@
 ---
 title: PivotOptions
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет сложный тип определяющий элементы управления разворотом отображаемые на диаграмме
+description: Представляет сложный тип определяющий элементы управления поворотом которые отображаются на диаграмме
 type: docs
 weight: 770
 url: /ru/net/aspose.cells.charts/pivotoptions/
 ---
 ## PivotOptions class
 
-Представляет сложный тип, определяющий элементы управления разворотом, отображаемые на диаграмме
+Представляет сложный тип, определяющий элементы управления поворотом, которые отображаются на диаграмме
 
 ```csharp
 public class PivotOptions
@@ -18,11 +18,11 @@ public class PivotOptions
 
 | Имя | Описание |
 | --- | --- |
-| [DropZoneCategories](../../aspose.cells.charts/pivotoptions/dropzonecategories) { get; set; } | Указывает, будет ли элемент управления для каждого поля сводной таблицы на оси строк сводной таблицы исходной сводной таблицы отображаться на диаграмме, когда для dropZonesVisible установлено значение true. |
-| [DropZoneData](../../aspose.cells.charts/pivotoptions/dropzonedata) { get; set; } | Указывает, будет ли элемент управления для каждого поля сводной таблицы на оси данных сводной таблицы исходной сводной таблицы отображаться на диаграмме, когда для dropZonesVisible установлено значение true. |
-| [DropZoneFilter](../../aspose.cells.charts/pivotoptions/dropzonefilter) { get; set; } | Указывает, будет ли элемент управления для каждого поля сводной таблицы на оси страницы сводной таблицы исходной сводной таблицы отображаться на диаграмме, когда для dropZonesVisible установлено значение true. |
-| [DropZoneSeries](../../aspose.cells.charts/pivotoptions/dropzoneseries) { get; set; } | Указывает, будет ли элемент управления для каждого поля сводной таблицы на оси столбца сводной таблицы исходной сводной таблицы отображаться на диаграмме, когда для dropZonesVisible установлено значение true. |
-| [DropZonesVisible](../../aspose.cells.charts/pivotoptions/dropzonesvisible) { get; set; } | Указывает, могут ли на сводной диаграмме появляться какие-либо элементы управления сводкой. |
+| [DropZoneCategories](../../aspose.cells.charts/pivotoptions/dropzonecategories) { get; set; } | Указывает, будет ли элемент управления для каждого поля сводной таблицы в строке сводной таблицы axis исходной сводной таблицы отображаться на диаграмме, когда для параметра dropZonesVisible задано значение true. |
+| [DropZoneData](../../aspose.cells.charts/pivotoptions/dropzonedata) { get; set; } | Указывает, будет ли элемент управления для каждого поля сводной таблицы в оси данных сводной таблицы axis исходной сводной таблицы отображаться на диаграмме, когда для параметра dropZonesVisible задано значение true. |
+| [DropZoneFilter](../../aspose.cells.charts/pivotoptions/dropzonefilter) { get; set; } | Указывает, будет ли элемент управления для каждого поля сводной таблицы на странице сводной таблицы axis исходной сводной таблицы отображаться на диаграмме, если для параметра dropZonesVisible задано значение true. |
+| [DropZoneSeries](../../aspose.cells.charts/pivotoptions/dropzoneseries) { get; set; } | Указывает, будет ли элемент управления для каждого поля сводной таблицы в столбце сводной таблицы axis исходной сводной таблицы отображаться на диаграмме, когда для параметра dropZonesVisible задано значение true. |
+| [DropZonesVisible](../../aspose.cells.charts/pivotoptions/dropzonesvisible) { get; set; } | Указывает, могут ли на сводной диаграмме отображаться элементы управления сводкой. |
 
 ### Смотрите также
 

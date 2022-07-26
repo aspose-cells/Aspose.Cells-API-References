@@ -1,14 +1,14 @@
 ---
 title: CreateRange
 second_title: Справочник по Aspose.Cells для .NET API
-description: Создает объектRangeaspose.cells/rangeиз диапазона ячеек.
+description: СоздаетRangeaspose.cells/range объект из диапазона ячеек.
 type: docs
 weight: 490
 url: /ru/net/aspose.cells/cells/createrange/
 ---
 ## CreateRange(string, string) {#createrange_3}
 
-Создает объект[`Range`](../../range)из диапазона ячеек.
+Создает[`Range`](../../range) объект из диапазона ячеек.
 
 ```csharp
 public Range CreateRange(string upperLeftCell, string lowerRightCell)
@@ -21,7 +21,7 @@ public Range CreateRange(string upperLeftCell, string lowerRightCell)
 
 ### Возвращаемое значение
 
-A[`Range`](../../range)объект
+А[`Range`](../../range) объект
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ A[`Range`](../../range)объект
 
 ## CreateRange(int, int, int, int) {#createrange_1}
 
-Создает объект[`Range`](../../range)из диапазона ячеек.
+Создает[`Range`](../../range) объект из диапазона ячеек.
 
 ```csharp
 public Range CreateRange(int firstRow, int firstColumn, int totalRows, int totalColumns)
@@ -44,12 +44,12 @@ public Range CreateRange(int firstRow, int firstColumn, int totalRows, int total
 | --- | --- | --- |
 | firstRow | Int32 | Первая строка этого диапазона |
 | firstColumn | Int32 | Первый столбец этого диапазона |
-| totalRows | Int32 | Количество строк |
-| totalColumns | Int32 | Количество столбцов |
+| totalRows | Int32 | Количество рядов |
+| totalColumns | Int32 | Число столбцов |
 
 ### Возвращаемое значение
 
-A[`Range`](../../range)объект
+А[`Range`](../../range) объект
 
 ### Смотрите также
 
@@ -62,7 +62,7 @@ A[`Range`](../../range)объект
 
 ## CreateRange(string) {#createrange_2}
 
-Создает объект[`Range`](../../range)из адреса диапазона.
+Создает[`Range`](../../range) объект с адреса диапазона.
 
 ```csharp
 public Range CreateRange(string address)
@@ -74,7 +74,7 @@ public Range CreateRange(string address)
 
 ### Возвращаемое значение
 
-A[`Range`](../../range)объект
+А[`Range`](../../range) объект
 
 ### Смотрите также
 
@@ -87,7 +87,7 @@ A[`Range`](../../range)объект
 
 ## CreateRange(int, int, bool) {#createrange}
 
-Создает объект[`Range`](../../range)из строк ячеек или столбцов ячеек.
+Создает[`Range`](../../range) объект из строк ячеек или столбцов ячеек.
 
 ```csharp
 public Range CreateRange(int firstIndex, int number, bool isVertical)
@@ -96,12 +96,12 @@ public Range CreateRange(int firstIndex, int number, bool isVertical)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | firstIndex | Int32 | Индекс первой строки или индекс первого столбца, отсчитываемый от нуля. |
-| number | Int32 | Общее количество строк или столбцов, основанное на одном. |
-| isVertical | Boolean | True - Диапазон создается из столбцов ячеек. False — диапазон создан из строк ячеек. |
+| number | Int32 | Общее количество строк или столбцов, по одному. |
+| isVertical | Boolean | True — диапазон, созданный из столбцов ячеек. False — диапазон создан из строк ячеек. |
 
 ### Возвращаемое значение
 
-A[`Range`](../../range)объект.
+А[`Range`](../../range) объект.
 
 ### Смотрите также
 

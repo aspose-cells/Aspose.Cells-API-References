@@ -18,7 +18,7 @@ public class MemoryFontSource : FontSourceBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MemoryFontSource](memoryfontsource)(byte[]) | 克托尔。 |
+| [MemoryFontSource](memoryfontsource)(byte[]) | 克托尔. |
 
 ## 特性
 

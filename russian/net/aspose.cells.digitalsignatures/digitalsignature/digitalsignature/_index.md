@@ -16,9 +16,9 @@ public DigitalSignature(X509Certificate2 certificate, string comments, DateTime 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| certificate | X509Certificate2 | Сертификат, который использовался для подписи документа. |
-| комментарии | String | Цель подписи. |
-| signTime | DateTime | Время в формате UTC, когда документ был подписан. |
+| certificate | X509Certificate2 | Объект сертификата, который использовался для подписи документа. |
+| comments | String | Цель подписи. |
+| signTime | DateTime | Время по Гринвичу, когда документ был подписан. |
 
 ### Смотрите также
 
@@ -39,9 +39,9 @@ public DigitalSignature(byte[] rawData, string password, string comments, DateTi
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | rawData | Byte[] | Массив байтов, содержащий данные из сертификата X.509. |
-| пароль | String | Пароль, необходимый для доступа к данным сертификата X.509. |
-| комментарии | String | Цель подписи. |
-| signTime | DateTime | Время в формате UTC, когда документ был подписан. |
+| password | String | Пароль, необходимый для доступа к данным сертификата X.509. |
+| comments | String | Цель подписи. |
+| signTime | DateTime | Время по Гринвичу, когда документ был подписан. |
 
 ### Смотрите также
 

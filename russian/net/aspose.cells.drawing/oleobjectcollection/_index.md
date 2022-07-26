@@ -20,7 +20,7 @@ public class OleObjectCollection : CollectionBase<OleObject>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.drawing/oleobjectcollection/item) { get; } | Получает элемент[`OleObject`](../oleobject)по указанному индексу. |
+| [Item](../../aspose.cells.drawing/oleobjectcollection/item) { get; } | Получает[`OleObject`](../oleobject) элемент по указанному индексу. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы

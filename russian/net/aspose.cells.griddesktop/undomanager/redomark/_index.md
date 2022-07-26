@@ -1,14 +1,14 @@
 ---
 title: RedoMark
 second_title: Справочник по Aspose.Cells для .NET API
-description: Выполняет операцию повтора с пометкой.
+description: Выполняет операцию повтора с меткой.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells.griddesktop/undomanager/redomark/
 ---
 ## UndoManager.RedoMark method
 
-Выполняет операцию повтора с пометкой.
+Выполняет операцию повтора с меткой.
 
 ```csharp
 public void RedoMark()

@@ -3,7 +3,7 @@ title: ImportDataRow
 second_title: Справочник по Aspose.Cells для .NET API
 description: Импортирует DataRow в файл Excel.
 type: docs
-weight: 1000
+weight: 1010
 url: /ru/net/aspose.cells/cells/importdatarow/
 ---
 ## Cells.ImportDataRow method

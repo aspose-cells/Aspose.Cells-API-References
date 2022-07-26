@@ -20,14 +20,14 @@ public class ScenarioInputCellCollection : CollectionBase<ScenarioInputCell>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/scenarioinputcellcollection/item) { get; } | 通过列表中的索引获取[`ScenarioInputCell`](../scenarioinputcell)。 |
+| [Item](../../aspose.cells/scenarioinputcellcollection/item) { get; } | 获取[`ScenarioInputCell`](../scenarioinputcell)按列表中的索引。 |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells/scenarioinputcellcollection/add)(int, int, string) | 添加输入单元格。 |
+| [Add](../../aspose.cells/scenarioinputcellcollection/add)(int, int, string) | 添加一个输入单元格。 |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ScenarioInputCell) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ScenarioInputCell, IComparer&lt;ScenarioInputCell&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, ScenarioInputCell, IComparer&lt;ScenarioInputCell&gt;) |  |

@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получите или установите тип этого объекта значения условного форматирования. Установка типа FormatConditionValueType.Min или FormatConditionValueType.Max автоматически установит для параметра Value значение null.
+description: Получить или установить тип этого объекта значения условного форматирования. Установка типа FormatConditionValueType.Min или FormatConditionValueType.Max автоматически установит для параметра Value значение null.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/conditionalformattingvalue/type/
 ---
 ## ConditionalFormattingValue.Type property
 
-Получите или установите тип этого объекта значения условного форматирования. Установка типа FormatConditionValueType.Min или FormatConditionValueType.Max автоматически установит для параметра "Value" значение null.
+Получить или установить тип этого объекта значения условного форматирования. Установка типа FormatConditionValueType.Min или FormatConditionValueType.Max автоматически установит для параметра "Value" значение null.
 
 ```csharp
 public FormatConditionValueType Type { get; set; }

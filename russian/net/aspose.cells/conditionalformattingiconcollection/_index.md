@@ -1,14 +1,14 @@
 ---
 title: ConditionalFormattingIconCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет набор объектовConditionalFormattingIcon./conditionalformattingicon.
+description: Представляет наборConditionalFormattingIcon./conditionalformattingicon объекты.
 type: docs
 weight: 1120
 url: /ru/net/aspose.cells/conditionalformattingiconcollection/
 ---
 ## ConditionalFormattingIconCollection class
 
-Представляет набор объектов[`ConditionalFormattingIcon`](../conditionalformattingicon).
+Представляет набор[`ConditionalFormattingIcon`](../conditionalformattingicon) объекты.
 
 ```csharp
 public class ConditionalFormattingIconCollection : CollectionBase<ConditionalFormattingIcon>
@@ -27,8 +27,8 @@ public class ConditionalFormattingIconCollection : CollectionBase<ConditionalFor
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells/conditionalformattingiconcollection/add#add)(ConditionalFormattingIcon) | Добавляет[`ConditionalFormattingIcon`](../conditionalformattingicon)объект. |
-| [Add](../../aspose.cells/conditionalformattingiconcollection/add#add_1)(IconSetType, int) | Добавляет[`ConditionalFormattingIcon`](../conditionalformattingicon)объект. |
+| [Add](../../aspose.cells/conditionalformattingiconcollection/add#add)(ConditionalFormattingIcon) | Добавляет[`ConditionalFormattingIcon`](../conditionalformattingicon) объект. |
+| [Add](../../aspose.cells/conditionalformattingiconcollection/add#add_1)(IconSetType, int) | Добавляет[`ConditionalFormattingIcon`](../conditionalformattingicon) объект. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ConditionalFormattingIcon) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ConditionalFormattingIcon, IComparer&lt;ConditionalFormattingIcon&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, ConditionalFormattingIcon, IComparer&lt;ConditionalFormattingIcon&gt;) |  |
@@ -62,7 +62,7 @@ public class ConditionalFormattingIconCollection : CollectionBase<ConditionalFor
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 
 Worksheet sheet = workbook.Worksheets[0];
@@ -70,13 +70,13 @@ Worksheet sheet = workbook.Worksheets[0];
 //Получить условное форматирование
 ConditionalFormattingCollection cformattings = sheet.ConditionalFormattings;
 
-  //Добавляет пустое условное форматирование
+//Добавляет пустое условное форматирование
 int index = cformattings.Add();
 
-  //Получить недавно добавленное условное форматирование
+//Получить недавно добавленное условное форматирование
 FormatConditionCollection fcs = cformattings[index];
 
-  //Устанавливает диапазон условного формата.
+//Устанавливает диапазон условного формата.
 CellArea ca = new CellArea();
 
 ca.StartRow = 0;
@@ -101,15 +101,15 @@ ca.EndColumn = 1;
 
 fcs.AddArea(ca);
 
-   //Устанавливает условие
+//Устанавливает условие
  int idx = fcs.AddCondition(FormatConditionType.IconSet);
  
  FormatCondition cond = fcs[idx];
    
-    //Устанавливает тип условия
+ //Устанавливает условие's type
  cond.IconSet.Type = IconSetType.ArrowsGray3;
 
-  //Добавить пользовательское условие набора иконок.
+//Добавить пользовательское условие набора иконок.
  ConditionalFormattingIcon cfIcon = cond.IconSet.CfIcons[0];
  
  cfIcon.Type = IconSetType.Arrows3;
@@ -128,12 +128,12 @@ fcs.AddArea(ca);
   
   cfIcon2.Index = 2;
 
-  //Сохранение файла Excel
+//Сохранение файла Excel
 workbook.Save("output.xls");
 
 [VB.NET]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
 
 Dim sheet As Worksheet = workbook.Worksheets(0)
@@ -172,12 +172,12 @@ ca.EndColumn = 1
 
 fcs.AddArea(ca)
 
-Устанавливает условие
+//Устанавливает условие
 Dim idx As Integer =fcs.AddCondition(FormatConditionType.IconSet)
 
 Dim cond As FormatCondition=fcs[idx]
 
-Устанавливает тип условия
+//Устанавливает условие's type
 cfIcon.Type = IconSetType.ArrowsGray3
 
 'Добавить пользовательское условие набора значков.

@@ -1,14 +1,14 @@
 ---
 title: HideItemDetail
 second_title: Aspose.Cells for .NET API 参考
-description: 设置透视字段中的特定 PivotItem 是否为隐藏细节
+description: 设置数据透视字段中的特定 PivotItem 是否隐藏细节
 type: docs
 weight: 480
 url: /zh/net/aspose.cells.pivot/pivotfield/hideitemdetail/
 ---
 ## PivotField.HideItemDetail method
 
-设置透视字段中的特定 PivotItem 是否为隐藏细节。
+设置数据透视字段中的特定 PivotItem 是否隐藏细节。
 
 ```csharp
 public void HideItemDetail(int index, bool isHiddenDetail)
@@ -16,8 +16,8 @@ public void HideItemDetail(int index, bool isHiddenDetail)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | pivotField中pivotItem的索引。 |
-| isHiddenDetail | Boolean | 特定 PivotItem 是否隐藏 |
+| index | Int32 | pivotField 中的 pivotItem 的索引。 |
+| isHiddenDetail | Boolean | 特定的 PivotItem 是否隐藏 |
 
 ### 也可以看看
 

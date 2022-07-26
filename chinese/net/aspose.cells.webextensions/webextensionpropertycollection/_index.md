@@ -26,7 +26,7 @@ public class WebExtensionPropertyCollection : CollectionBase<WebExtensionPropert
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.webextensions/webextensionpropertycollection/item) { get; } | 通过索引获取网页扩展的属性。 (2 indexers) |
+| [Item](../../aspose.cells.webextensions/webextensionpropertycollection/item) { get; } | 通过索引获取web扩展的属性。 (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法

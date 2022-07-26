@@ -1,14 +1,14 @@
 ---
 title: AutoFitWrappedTextType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает тип автоподбора текста в оболочке.
+description: Получает и задает тип автоподгонки обернутого текста.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/autofitteroptions/autofitwrappedtexttype/
 ---
 ## AutoFitterOptions.AutoFitWrappedTextType property
 
-Получает и задает тип автоподбора текста в оболочке.
+Получает и задает тип автоподгонки обернутого текста.
 
 ```csharp
 public AutoFitWrappedTextType AutoFitWrappedTextType { get; set; }

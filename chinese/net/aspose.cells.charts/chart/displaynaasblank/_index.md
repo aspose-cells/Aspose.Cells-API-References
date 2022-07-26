@@ -1,14 +1,14 @@
 ---
 title: DisplayNaAsBlank
 second_title: Aspose.Cells for .NET API 参考
-description: 指示是否将N/A 显示为空白值
+description: 表示是否将N/A 显示为空白值
 type: docs
 weight: 80
 url: /zh/net/aspose.cells.charts/chart/displaynaasblank/
 ---
 ## Chart.DisplayNaAsBlank property
 
-指示是否将#N/A 显示为空白值。
+表示是否将#N/A 显示为空白值。
 
 ```csharp
 public bool DisplayNaAsBlank { get; set; }

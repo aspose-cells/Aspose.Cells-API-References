@@ -1,14 +1,14 @@
 ---
 title: ShowInTabularForm
 second_title: Справочник по Aspose.Cells для .NET API
-description: Макет сводной таблицы в виде таблицы.
+description: Макет сводной таблицы в табличной форме.
 type: docs
 weight: 980
 url: /ru/net/aspose.cells.pivot/pivottable/showintabularform/
 ---
 ## PivotTable.ShowInTabularForm method
 
-Макет сводной таблицы в виде таблицы.
+Макет сводной таблицы в табличной форме.
 
 ```csharp
 public void ShowInTabularForm()

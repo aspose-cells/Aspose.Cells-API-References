@@ -1,14 +1,14 @@
 ---
 title: ImportArrayList
 second_title: Справочник по Aspose.Cells для .NET API
-description: Импортирует массив данных на рабочий лист.
+description: Импорт массива данных на лист.
 type: docs
-weight: 940
+weight: 950
 url: /ru/net/aspose.cells/cells/importarraylist/
 ---
 ## Cells.ImportArrayList method
 
-Импортирует массив данных на рабочий лист.
+Импорт массива данных на лист.
 
 ```csharp
 public void ImportArrayList(ArrayList arrayList, int firstRow, int firstColumn, bool isVertical)
@@ -16,7 +16,7 @@ public void ImportArrayList(ArrayList arrayList, int firstRow, int firstColumn, 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| arrayList | ArrayList | Список массивов данных. |
+| arrayList | ArrayList | Массив данных. |
 | firstRow | Int32 | Номер строки первой ячейки для импорта. |
 | firstColumn | Int32 | Номер столбца первой ячейки для импорта. |
 | isVertical | Boolean | Задает импорт данных по вертикали или по горизонтали. |

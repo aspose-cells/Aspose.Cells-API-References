@@ -1,14 +1,14 @@
 ---
 title: OdsPageBackgroundGraphicPositionType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示位置
+description: 代表位置
 type: docs
 weight: 4300
 url: /zh/net/aspose.cells.ods/odspagebackgroundgraphicpositiontype/
 ---
 ## OdsPageBackgroundGraphicPositionType enumeration
 
-表示位置。
+代表位置。
 
 ```csharp
 public enum OdsPageBackgroundGraphicPositionType
@@ -21,8 +21,8 @@ public enum OdsPageBackgroundGraphicPositionType
 | TopLeft | `0` | 左上角。 |
 | TopCenter | `1` | 顶部中心。 |
 | TopRight | `2` | 右上角。 |
-| CenterLeft | `3` | 左中。 |
-| CenterCenter | `4` | 中心。 |
+| CenterLeft | `3` | 居左。 |
+| CenterCenter | `4` | 居中. |
 | CenterRight | `5` | 居中。 |
 | BottomLeft | `6` | 左下角。 |
 | BottomCenter | `7` | 底部中心。 |

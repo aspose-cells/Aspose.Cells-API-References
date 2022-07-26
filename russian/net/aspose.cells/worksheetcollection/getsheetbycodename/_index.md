@@ -16,7 +16,7 @@ public Worksheet GetSheetByCodeName(string codeName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| codeName | String | Кодовое имя листа. |
+| codeName | String | Кодовое имя рабочего листа. |
 
 ### Возвращаемое значение
 

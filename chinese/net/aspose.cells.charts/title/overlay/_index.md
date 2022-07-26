@@ -1,14 +1,14 @@
 ---
 title: OverLay
 second_title: Aspose.Cells for .NET API 参考
-description: 表示图表上覆盖居中的标题而不调整图表大小
+description: 表示图表上的覆盖居中标题而不调整图表大小
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.charts/title/overlay/
 ---
 ## Title.OverLay property
 
-表示图表上覆盖居中的标题而不调整图表大小。
+表示图表上的覆盖居中标题而不调整图表大小。
 
 ```csharp
 public bool OverLay { get; set; }

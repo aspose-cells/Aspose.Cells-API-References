@@ -1,14 +1,14 @@
 ---
 title: WarningCallback
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или устанавливает обратный вызов предупреждения.
+description: Получает или задает обратный вызов предупреждения.
 type: docs
 weight: 470
 url: /ru/net/aspose.cells/workbooksettings/warningcallback/
 ---
 ## WorkbookSettings.WarningCallback property
 
-Получает или устанавливает обратный вызов предупреждения.
+Получает или задает обратный вызов предупреждения.
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }

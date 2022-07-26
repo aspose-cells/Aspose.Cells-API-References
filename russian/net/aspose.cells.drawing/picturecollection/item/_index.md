@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементPictureaspose.cells.drawing/pictureпо указанному индексу.
+description: ПолучаетPictureaspose.cells.drawing/picture элемент по указанному индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.drawing/picturecollection/item/
 ---
 ## PictureCollection indexer
 
-Получает элемент[`Picture`](../../picture)по указанному индексу.
+Получает[`Picture`](../../picture) элемент по указанному индексу.
 
 ```csharp
 public Picture this[int index] { get; }
@@ -27,11 +27,11 @@ public Picture this[int index] { get; }
 ```csharp
 
 [C#]
-  //получить картинку collection
-  //PictureCollection images = workbook.Worksheets[0].Pictures;
+//получить коллекцию изображений
+//PictureCollection images = workbook.Worksheets[0].Pictures;
 //добавляем картинку
 int index = pictures.Add(1, 1, "image.png");
-  //получить картинку
+// получаем картинку
 Picture pic = pictures[index];
 ```
 

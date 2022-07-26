@@ -1,14 +1,14 @@
 ---
 title: ParsingPivotCachedRecords
 second_title: Aspose.Cells for .NET API 参考
-description: 表示加载文件时是否解析pivot缓存记录 默认值为假
+description: 表示加载文件时是否解析pivot缓存记录 默认值为false
 type: docs
 weight: 180
 url: /zh/net/aspose.cells/loadoptions/parsingpivotcachedrecords/
 ---
 ## LoadOptions.ParsingPivotCachedRecords property
 
-表示加载文件时是否解析pivot缓存记录。 默认值为假。
+表示加载文件时是否解析pivot缓存记录。 默认值为false。
 
 ```csharp
 public bool ParsingPivotCachedRecords { get; set; }
@@ -16,7 +16,7 @@ public bool ParsingPivotCachedRecords { get; set; }
 
 ### 评论
 
-仅适用于 Excel Xlsx, Xltx, Xltm , Xlsm 和 xlsb 文件
+仅适用于 Excel Xlsx、Xltx、Xltm、Xlsm 和 xlsb 文件
 
 ### 也可以看看
 

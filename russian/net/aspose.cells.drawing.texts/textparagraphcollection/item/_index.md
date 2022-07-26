@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектTextParagraphaspose.cells.drawing.texts/textparagraphпо указанному индексу.
+description: ПолучаетTextParagraphaspose.cells.drawing.texts/textparagraph объект по определенному индексу.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.drawing.texts/textparagraphcollection/item/
 ---
 ## TextParagraphCollection indexer
 
-Получает объект[`TextParagraph`](../../textparagraph)по указанному индексу.
+Получает[`TextParagraph`](../../textparagraph) объект по определенному индексу.
 
 ```csharp
 public TextParagraph this[int index] { get; }

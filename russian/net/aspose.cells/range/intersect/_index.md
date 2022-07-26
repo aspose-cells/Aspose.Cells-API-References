@@ -1,14 +1,14 @@
 ---
 title: Intersect
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает объектRangeaspose.cells/range представляющий прямоугольное пересечение двух диапазонов.
+description: ВозвращаетRangeaspose.cells/range объект представляющий прямоугольное пересечение двух диапазонов.
 type: docs
-weight: 280
+weight: 320
 url: /ru/net/aspose.cells/range/intersect/
 ---
 ## Range.Intersect method
 
-Возвращает объект[`Range`](../../range), представляющий прямоугольное пересечение двух диапазонов.
+Возвращает[`Range`](../../range) объект, представляющий прямоугольное пересечение двух диапазонов.
 
 ```csharp
 public Range Intersect(Range range)
@@ -20,7 +20,7 @@ public Range Intersect(Range range)
 
 ### Возвращаемое значение
 
-Возвращает объект[`Range`](../../range)
+Возвращает[`Range`](../../range) объект
 
 ### Примечания
 
@@ -32,28 +32,28 @@ public Range Intersect(Range range)
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 // Получить первые ячейки рабочего листа.
 Cells cells = workbook.Worksheets[0].Cells;
 Range range1 = cells.CreateRange("A1:A5");
 Range range2 = cells.CreateRange("A3:A10");
-  //Получить пересекающийся диапазон двух диапазонов.
+//Получить пересекающийся диапазон двух диапазонов.
 Range intersectRange = range1.Intersect(range2);
-  // Сохраняем файл Excel
+// Сохраняем файл Excel
 workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
-'Получить первые ячейки рабочего листа.
+'Получите первые ячейки рабочего листа.
 Dim cells as Cells = workbook.Worksheets[0].Cells
 Range range1 = cells.CreateRange("A1:A5")
 Range range2 = cells.CreateRange("A3:A10")
-'Получить пересекающийся диапазон двух диапазонов.
+'Получите пересеченный диапазон двух диапазонов.
 Range intersectRange = range1.Intersect(range2)
-'Сохраняем файл Excel
+'Сохраните файл Excel
 workbook.Save("book1.xlsm")
 ```
 

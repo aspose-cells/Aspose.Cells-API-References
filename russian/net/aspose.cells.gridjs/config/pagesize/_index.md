@@ -1,14 +1,14 @@
 ---
 title: PageSize
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает делать ли нумерацию страниц GridJs будет ограничивать размер строки на основе PageSize если PageSize равен -1 он не будет выполнять нумерацию страниц значение по умолчанию -1
+description: Устанавливает следует ли выполнять pagination GridJs будет ограничивать размер строки на основе PageSize если PageSize равен -1 он не будет выполнять pagination значение по умолчанию -1
 type: docs
 weight: 120
 url: /ru/net/aspose.cells.gridjs/config/pagesize/
 ---
 ## Config.PageSize property
 
-Устанавливает, делать ли нумерацию страниц GridJs будет ограничивать размер строки на основе PageSize, если PageSize равен -1, он не будет выполнять нумерацию страниц значение по умолчанию -1
+Устанавливает, следует ли выполнять pagination GridJs будет ограничивать размер строки на основе PageSize, если PageSize равен -1, он не будет выполнять pagination значение по умолчанию -1
 
 ```csharp
 public static int PageSize { get; set; }

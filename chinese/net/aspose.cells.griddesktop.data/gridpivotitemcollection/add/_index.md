@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 将 PivotItem 对象添加到特定类型的 PivotItems
+description: 将 PivotItem 对象添加到特定类型的 PivotItems.
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.griddesktop.data/gridpivotitemcollection/add/
 ---
 ## GridPivotItemCollection.Add method
 
-将 PivotItem 对象添加到特定类型的 PivotItems。
+将 PivotItem 对象添加到特定类型的 PivotItems.
 
 ```csharp
 public int Add(GridPivotItem item)
@@ -20,7 +20,7 @@ public int Add(GridPivotItem item)
 
 ### 返回值
 
-PivotItem 对象在此 PivotItems 中的索引。
+此 PivotItems 中 PivotItem 对象的索引。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: WorksheetCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装Worksheet./worksheet对象的集合
+description: 封装了一个集合Worksheet./worksheet对象.
 type: docs
 weight: 6520
 url: /zh/net/aspose.cells/worksheetcollection/
 ---
 ## WorksheetCollection class
 
-封装[`Worksheet`](../worksheet)对象的集合。
+封装了一个集合[`Worksheet`](../worksheet)对象.
 
 ```csharp
 public class WorksheetCollection : CollectionBase<Worksheet>
@@ -20,19 +20,19 @@ public class WorksheetCollection : CollectionBase<Worksheet>
 | --- | --- |
 | [ActiveSheetIndex](../../aspose.cells/worksheetcollection/activesheetindex) { get; set; } | 表示打开电子表格时活动工作表的索引。 |
 | [ActiveSheetName](../../aspose.cells/worksheetcollection/activesheetname) { get; set; } | 表示打开电子表格时活动工作表的名称。 |
-| [BuiltInDocumentProperties](../../aspose.cells/worksheetcollection/builtindocumentproperties) { get; } | 返回代表电子表格所有内置文档属性的[`DocumentProperty`](../../aspose.cells.properties/documentproperty)集合。 |
+| [BuiltInDocumentProperties](../../aspose.cells/worksheetcollection/builtindocumentproperties) { get; } | 返回一个[`DocumentProperty`](../../aspose.cells.properties/documentproperty)表示电子表格的所有内置文档属性的集合。 |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [CustomDocumentProperties](../../aspose.cells/worksheetcollection/customdocumentproperties) { get; } | 返回代表电子表格所有自定义文档属性的[`DocumentProperty`](../../aspose.cells.properties/documentproperty)集合。 |
-| [Dxfs](../../aspose.cells/worksheetcollection/dxfs) { get; } | 获取主差分格式记录。 |
+| [CustomDocumentProperties](../../aspose.cells/worksheetcollection/customdocumentproperties) { get; } | 返回一个[`DocumentProperty`](../../aspose.cells.properties/documentproperty)表示电子表格的所有自定义文档属性的集合。 |
+| [Dxfs](../../aspose.cells/worksheetcollection/dxfs) { get; } | 获取主差分格式化记录。 |
 | [ExternalLinks](../../aspose.cells/worksheetcollection/externallinks) { get; } | 表示工作簿中的外部链接。 |
-| [IsRefreshAllConnections](../../aspose.cells/worksheetcollection/isrefreshallconnections) { get; set; } | 指示是否在 MS Excel 中打开文件时刷新所有连接。 |
-| [Item](../../aspose.cells/worksheetcollection/item) { get; } | 获取指定索引处的[`Worksheet`](../worksheet)元素。 (2 indexers) |
+| [IsRefreshAllConnections](../../aspose.cells/worksheetcollection/isrefreshallconnections) { get; set; } | 表示在 MS Excel 中打开文件时是否刷新所有连接。 |
+| [Item](../../aspose.cells/worksheetcollection/item) { get; } | 获取[`Worksheet`](../worksheet)指定索引处的元素。 (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 | [Names](../../aspose.cells/worksheetcollection/names) { get; } | 获取电子表格中所有 Name 对象的集合。 |
 | [OleSize](../../aspose.cells/worksheetcollection/olesize) { get; set; } | 获取和设置工作簿文件用作 Ole 对象时的显示大小。 |
 | [RevisionLogs](../../aspose.cells/worksheetcollection/revisionlogs) { get; } | 表示修订日志。 |
-| [TableStyles](../../aspose.cells/worksheetcollection/tablestyles) { get; } | 获取[`TableStyles`](./tablestyles)对象。 |
+| [TableStyles](../../aspose.cells/worksheetcollection/tablestyles) { get; } | 获取[`TableStyles`](./tablestyles)对象. |
 | [ThreadedCommentAuthors](../../aspose.cells/worksheetcollection/threadedcommentauthors) { get; } | 获取线程评论作者列表。 |
 | [WebExtensions](../../aspose.cells/worksheetcollection/webextensions) { get; } | 获取任务窗格列表。 |
 | [WebExtensionTaskPanes](../../aspose.cells/worksheetcollection/webextensiontaskpanes) { get; } | 获取任务窗格列表。 |
@@ -56,8 +56,8 @@ public class WorksheetCollection : CollectionBase<Worksheet>
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Worksheet[]) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Worksheet[], int) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, Worksheet[], int, int) |  |
-| [CreateRange](../../aspose.cells/worksheetcollection/createrange)(string, int) | 从范围的地址创建[`Range`](../range)对象。 |
-| [CreateUnionRange](../../aspose.cells/worksheetcollection/createunionrange)(string, int) | 从范围的地址创建[`Range`](../range)对象。 |
+| [CreateRange](../../aspose.cells/worksheetcollection/createrange)(string, int) | 创建一个[`Range`](../range)来自范围地址的对象。 |
+| [CreateUnionRange](../../aspose.cells/worksheetcollection/createunionrange)(string, int) | 创建一个[`Range`](../range)来自范围地址的对象。 |
 | [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;Worksheet&gt;) |  |
 | [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;Worksheet&gt;) |  |
 | [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;Worksheet&gt;) |  |
@@ -72,8 +72,8 @@ public class WorksheetCollection : CollectionBase<Worksheet>
 | [GetNamedRanges](../../aspose.cells/worksheetcollection/getnamedranges)() | 获取电子表格中所有预定义的命名范围。 |
 | [GetNamedRangesAndTables](../../aspose.cells/worksheetcollection/getnamedrangesandtables)() | 获取电子表格中所有预定义的命名范围。 |
 | [GetRangeByName](../../aspose.cells/worksheetcollection/getrangebyname#getrangebyname)(string) | 通过预定义的名称获取 Range 对象。 |
-| [GetRangeByName](../../aspose.cells/worksheetcollection/getrangebyname#getrangebyname_1)(string, int, bool) | 通过预定义名称或表名获取[`Range`](../range) |
-| [GetSheetByCodeName](../../aspose.cells/worksheetcollection/getsheetbycodename)(string) | 通过代号获取工作表。 |
+| [GetRangeByName](../../aspose.cells/worksheetcollection/getrangebyname#getrangebyname_1)(string, int, bool) | 获取[`Range`](../range)通过预定义的名称或表的名称 |
+| [GetSheetByCodeName](../../aspose.cells/worksheetcollection/getsheetbycodename)(string) | 按代号获取工作表。 |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Worksheet) |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Worksheet, int) |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Worksheet, int, int) |  |
@@ -83,8 +83,8 @@ public class WorksheetCollection : CollectionBase<Worksheet>
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Worksheet, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Worksheet, int, int) |  |
 | [RefreshPivotTables](../../aspose.cells/worksheetcollection/refreshpivottables)() | 刷新 WorksheetCollection 中的所有数据透视表。 |
-| [RegisterAddInFunction](../../aspose.cells/worksheetcollection/registeraddinfunction#registeraddinfunction_1)(int, string) | 将插件函数添加到工作簿 |
-| [RegisterAddInFunction](../../aspose.cells/worksheetcollection/registeraddinfunction#registeraddinfunction)(string, string, bool) | 将插件函数添加到工作簿 |
+| [RegisterAddInFunction](../../aspose.cells/worksheetcollection/registeraddinfunction#registeraddinfunction_1)(int, string) | 将插件函数添加到工作簿中 |
+| [RegisterAddInFunction](../../aspose.cells/worksheetcollection/registeraddinfunction#registeraddinfunction)(string, string, bool) | 将插件函数添加到工作簿中 |
 | [RemoveAt](../../aspose.cells/worksheetcollection/removeat#removeat)(int) | 删除指定索引处的元素。 (2 methods) |
 | [RemoveAt](../../aspose.cells/worksheetcollection/removeat#removeat_2)(string) | 移除指定名称的元素。 |
 | [SetOleSize](../../aspose.cells/worksheetcollection/setolesize)(int, int, int, int) | 设置工作簿文件用作 Ole 对象时的显示大小。 |
@@ -100,13 +100,13 @@ Workbook workbook = new Workbook();
 
 WorksheetCollection sheets = workbook.Worksheets;
 
- //添加工作表
+//添加工作表
 sheets.Add();
 
- //更改工作表的名称
+//更改工作表的名称
 sheets[0].Name = "First Sheet";
 
- //将活动工作表设置为第二个工作表
+//将活动工作表设置为第二个工作表
 sheets.ActiveSheetIndex = 1;
 
 	

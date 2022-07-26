@@ -18,7 +18,7 @@ public class StyleFlag
 
 | 姓名 | 描述 |
 | --- | --- |
-| [StyleFlag](styleflag)() | 构造一个所有标志为假的对象。 |
+| [StyleFlag](styleflag)() | 构造一个所有标志为 false 的对象。 |
 
 ## 特性
 
@@ -34,7 +34,7 @@ public class StyleFlag
 | [Font](../../aspose.cells/styleflag/font) { get; set; } | 将应用字体设置。 |
 | [FontBold](../../aspose.cells/styleflag/fontbold) { get; set; } | 将应用粗体设置。 |
 | [FontColor](../../aspose.cells/styleflag/fontcolor) { get; set; } | 将应用字体颜色设置。 |
-| [FontItalic](../../aspose.cells/styleflag/fontitalic) { get; set; } | 字体斜体设置将被应用。 |
+| [FontItalic](../../aspose.cells/styleflag/fontitalic) { get; set; } | 将应用字体斜体设置。 |
 | [FontName](../../aspose.cells/styleflag/fontname) { get; set; } | 将应用字体名称设置。 |
 | [FontScript](../../aspose.cells/styleflag/fontscript) { get; set; } | 将应用字体脚本设置。 |
 | [FontSize](../../aspose.cells/styleflag/fontsize) { get; set; } | 将应用字体大小设置。 |
@@ -49,11 +49,11 @@ public class StyleFlag
 | [QuotePrefix](../../aspose.cells/styleflag/quoteprefix) { get; set; } | 将应用隐藏公式设置。 |
 | [RightBorder](../../aspose.cells/styleflag/rightborder) { get; set; } | 将应用右边框设置。 |
 | [Rotation](../../aspose.cells/styleflag/rotation) { get; set; } | 将应用旋转设置。 |
-| [ShrinkToFit](../../aspose.cells/styleflag/shrinktofit) { get; set; } | 将应用收缩以适应设置。 |
+| [ShrinkToFit](../../aspose.cells/styleflag/shrinktofit) { get; set; } | 将应用缩小以适应设置。 |
 | [TextDirection](../../aspose.cells/styleflag/textdirection) { get; set; } | 将应用文本方向设置。 |
 | [TopBorder](../../aspose.cells/styleflag/topborder) { get; set; } | 将应用顶部边框设置。 |
 | [VerticalAlignment](../../aspose.cells/styleflag/verticalalignment) { get; set; } | 将应用垂直对齐设置。 |
-| [WrapText](../../aspose.cells/styleflag/wraptext) { get; set; } | 将应用换行设置。 |
+| [WrapText](../../aspose.cells/styleflag/wraptext) { get; set; } | 将应用自动换行设置。 |
 
 ### 也可以看看
 

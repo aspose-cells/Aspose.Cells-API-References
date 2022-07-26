@@ -1,14 +1,14 @@
 ---
 title: GetValidation
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает проверку которая применялась к этой ячейке. Если не установлено возвращает значение null.
+description: Получает проверку примененную к этой ячейке. Если не задано возвращает значение null.
 type: docs
 weight: 290
 url: /ru/net/aspose.cells.griddesktop.data/gridcell/getvalidation/
 ---
 ## GridCell.GetValidation method
 
-Получает проверку, которая применялась к этой ячейке. Если не установлено, возвращает значение null.
+Получает проверку, примененную к этой ячейке. Если не задано, возвращает значение null.
 
 ```csharp
 public GridValidation GetValidation()
@@ -16,7 +16,7 @@ public GridValidation GetValidation()
 
 ### Возвращаемое значение
 
-GridValidation
+Проверка сетки
 
 ### Смотрите также
 

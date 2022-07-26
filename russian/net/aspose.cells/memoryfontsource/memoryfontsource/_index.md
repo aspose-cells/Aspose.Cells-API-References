@@ -1,14 +1,14 @@
 ---
 title: MemoryFontSource
 second_title: Справочник по Aspose.Cells для .NET API
-description: Ктор.
+description: Стор.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/memoryfontsource/memoryfontsource/
 ---
 ## MemoryFontSource constructor
 
-Ктор.
+Стор.
 
 ```csharp
 public MemoryFontSource(byte[] fontData)
@@ -16,7 +16,7 @@ public MemoryFontSource(byte[] fontData)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontData | Byte[] | Двоичные данные шрифта. |
+| fontData | Byte[] | Данные двоичного шрифта. |
 
 ### Смотрите также
 

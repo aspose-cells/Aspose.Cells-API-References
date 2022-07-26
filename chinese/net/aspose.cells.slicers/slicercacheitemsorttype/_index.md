@@ -1,14 +1,14 @@
 ---
 title: SlicerCacheItemSortType
 second_title: Aspose.Cells for .NET API 参考
-description: 指定 SlicerCacheItem 的排序类型
+description: 指定SlicerCacheItem的排序类型
 type: docs
 weight: 5680
 url: /zh/net/aspose.cells.slicers/slicercacheitemsorttype/
 ---
 ## SlicerCacheItemSortType enumeration
 
-指定 SlicerCacheItem 的排序类型
+指定SlicerCacheItem的排序类型
 
 ```csharp
 public enum SlicerCacheItemSortType

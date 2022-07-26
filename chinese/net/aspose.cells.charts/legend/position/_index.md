@@ -16,7 +16,7 @@ public LegendPositionType Position { get; set; }
 
 ### 评论
 
-&lt;br&gt;默认位置是正确的。&lt;/br&gt;&lt;br&gt;如果图例在图表的左侧或右侧, 设置 Legend.X 属性不生效。&lt;/br&gt;&lt;br&gt;如果图例在图表的顶部或底部，设置 Legend.Y 属性将不生效。&lt;/br&gt;
+默认位置是正确的。如果图例在图表的左侧或右侧，设置 Legend.X 属性将不会生效。如果图例位于图表的顶部或底部，设置 Legend.Y 属性将不会生效。
 
 ### 也可以看看
 

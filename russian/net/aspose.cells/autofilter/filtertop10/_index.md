@@ -1,14 +1,14 @@
 ---
 title: FilterTop10
 second_title: Справочник по Aspose.Cells для .NET API
-description: Фильтровать первые 10 элементов в списке
+description: Отфильтровать первые 10 элементов в списке
 type: docs
 weight: 130
 url: /ru/net/aspose.cells/autofilter/filtertop10/
 ---
 ## AutoFilter.FilterTop10 method
 
-Фильтровать первые 10 элементов в списке
+Отфильтровать первые 10 элементов в списке
 
 ```csharp
 public void FilterTop10(int fieldIndex, bool isTop, bool isPercent, int itemCount)
@@ -16,9 +16,9 @@ public void FilterTop10(int fieldIndex, bool isTop, bool isPercent, int itemCoun
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldIndex | Int32 | Целое число смещение поля, на котором вы хотите основывать фильтр (слева в списке; крайнее левое поле — это поле 0). |
-| isTop | Boolean | Указывает, является ли фильтрация сверху или снизу |
-| isPercent | Boolean | Указывает, является ли элемент процентным или count |
+| fieldIndex | Int32 | Целочисленное смещение поля, на котором вы хотите основывать фильтр (слева в списке; крайнее левое поле — это поле 0). |
+| isTop | Boolean | Указывает, фильтруется ли фильтр сверху или снизу |
+| isPercent | Boolean | Указывает, являются ли элементы процентами или количеством |
 | itemCount | Int32 | Количество предметов |
 
 ### Смотрите также

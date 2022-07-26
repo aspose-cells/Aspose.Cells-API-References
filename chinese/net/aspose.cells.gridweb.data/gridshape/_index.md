@@ -20,7 +20,7 @@ public class GridShape
 | --- | --- |
 | [Buffer](../../aspose.cells.gridweb.data/gridshape/buffer) { get; } | 获取对象的Buffer。 |
 | [ID](../../aspose.cells.gridweb.data/gridshape/id) { get; set; } |  |
-| [ImageFormat](../../aspose.cells.gridweb.data/gridshape/imageformat) { get; } | 获取图片的图片格式。 |
+| [ImageFormat](../../aspose.cells.gridweb.data/gridshape/imageformat) { get; } | 获取图片的图像格式 |
 | [Left](../../aspose.cells.gridweb.data/gridshape/left) { get; } | 表示形状与其左列的水平偏移量，以像素为单位。 |
 | [MsoDrawingType](../../aspose.cells.gridweb.data/gridshape/msodrawingtype) { get; } | 获取和设置 mso 绘图类型。 |
 | [Name](../../aspose.cells.gridweb.data/gridshape/name) { get; } | 获取和设置形状的名称。 |

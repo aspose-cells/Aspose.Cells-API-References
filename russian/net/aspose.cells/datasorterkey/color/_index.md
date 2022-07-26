@@ -16,7 +16,7 @@ public Color Color { get; }
 
 ### Примечания
 
-Эффекты только в том случае, если[`SortOnType`](../../sortontype)is SortOnType .CellColor или SortOnType.FontColor.
+Действует только при[`SortOnType`](../../sortontype) является SortOnType.CellColor или SortOnType.FontColor.
 
 ### Смотрите также
 

@@ -18,7 +18,7 @@ public class TextTabStop
 
 | Имя | Описание |
 | --- | --- |
-| [TabAlignment](../../aspose.cells.drawing.texts/texttabstop/tabalignment) { get; set; } | Указывает выравнивание, которое должно быть применено к тексту с использованием этой позиции табуляции. |
+| [TabAlignment](../../aspose.cells.drawing.texts/texttabstop/tabalignment) { get; set; } | Определяет выравнивание, которое должно быть применено к тексту с помощью этой позиции табуляции. |
 | [TabPosition](../../aspose.cells.drawing.texts/texttabstop/tabposition) { get; set; } | Указывает положение позиции табуляции относительно левого поля. |
 
 ### Смотрите также

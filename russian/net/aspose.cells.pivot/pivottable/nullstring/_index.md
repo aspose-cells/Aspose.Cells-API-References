@@ -1,14 +1,14 @@
 ---
 title: NullString
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает строку отображаемую в ячейках которые содержат нулевые значения  когда свойство DisplayNullString имеет значение true. Значение по умолчанию  пустая строка.
+description: Получает строку отображаемую в ячейках содержащих нулевые значения  когда свойство DisplayNullString имеет значение true. Значение по умолчанию  пустая строка.
 type: docs
 weight: 380
 url: /ru/net/aspose.cells.pivot/pivottable/nullstring/
 ---
 ## PivotTable.NullString property
 
-Получает строку, отображаемую в ячейках, которые содержат нулевые значения , когда свойство DisplayNullString имеет значение true. Значение по умолчанию — пустая строка.
+Получает строку, отображаемую в ячейках, содержащих нулевые значения , когда свойство DisplayNullString имеет значение true. Значение по умолчанию — пустая строка.
 
 ```csharp
 public string NullString { get; set; }

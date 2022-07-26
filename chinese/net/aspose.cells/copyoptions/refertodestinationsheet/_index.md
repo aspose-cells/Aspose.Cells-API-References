@@ -1,14 +1,14 @@
 ---
 title: ReferToDestinationSheet
 second_title: Aspose.Cells for .NET API 参考
-description: 当复制同一个文件中的范围并且图表引用源表时 False 表示复制的图表的数据源不会改变. True 表示复制的图表的数据源是指目标工作表
+description: 复制同一个文件中的范围且图表引用源工作表时 False 表示复制的图表的数据源不会改变 True 表示复制的图表的数据源引用目标工作表
 type: docs
 weight: 70
 url: /zh/net/aspose.cells/copyoptions/refertodestinationsheet/
 ---
 ## CopyOptions.ReferToDestinationSheet property
 
-当复制同一个文件中的范围并且图表引用源表时， False 表示复制的图表的数据源不会改变. True 表示复制的图表的数据源是指目标工作表。
+复制同一个文件中的范围且图表引用源工作表时， False 表示复制的图表的数据源不会改变。 True 表示复制的图表的数据源引用目标工作表。
 
 ```csharp
 public bool ReferToDestinationSheet { get; set; }
@@ -16,7 +16,7 @@ public bool ReferToDestinationSheet { get; set; }
 
 ### 评论
 
-默认值为 false，它与 MS Excel 一样工作。
+默认值为 false，它作为 MS Excel 工作。
 
 ### 也可以看看
 

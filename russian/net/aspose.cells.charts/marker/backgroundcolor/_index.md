@@ -1,14 +1,14 @@
 ---
 title: BackgroundColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет цвет фона маркера на линейной диаграмме точечной диаграмме или радиолокационной диаграмме.
+description: Представляет цвет фона маркера на линейной диаграмме точечной диаграмме или лепестковой диаграмме.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.charts/marker/backgroundcolor/
 ---
 ## Marker.BackgroundColor property
 
-Представляет цвет фона маркера на линейной диаграмме, точечной диаграмме или радиолокационной диаграмме.
+Представляет цвет фона маркера на линейной диаграмме, точечной диаграмме или лепестковой диаграмме.
 
 ```csharp
 public Color BackgroundColor { get; set; }

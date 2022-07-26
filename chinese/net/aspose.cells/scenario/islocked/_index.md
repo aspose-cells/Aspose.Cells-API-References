@@ -1,14 +1,14 @@
 ---
 title: IsLocked
 second_title: Aspose.Cells for .NET API 参考
-description: 指示当工作表受到保护时是否锁定场景以进行编辑
+description: 指示当工作表受保护时是否锁定场景以进行编辑
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/scenario/islocked/
 ---
 ## Scenario.IsLocked property
 
-指示当工作表受到保护时是否锁定场景以进行编辑。
+指示当工作表受保护时是否锁定场景以进行编辑。
 
 ```csharp
 public bool IsLocked { get; set; }

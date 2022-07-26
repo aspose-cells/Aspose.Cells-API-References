@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterCommand
 second_title: Aspose.Cells for .NET API 参考
-description: 表示页眉/页脚命令
+description: 代表header/footer的命令
 type: docs
 weight: 3640
 url: /zh/net/aspose.cells/headerfootercommand/
 ---
 ## HeaderFooterCommand class
 
-表示页眉/页脚命令
+代表header/footer的命令
 
 ```csharp
 public class HeaderFooterCommand
@@ -20,7 +20,7 @@ public class HeaderFooterCommand
 | --- | --- |
 | [Font](../../aspose.cells/headerfootercommand/font) { get; } | 获取命令值的字体。 |
 | [Text](../../aspose.cells/headerfootercommand/text) { get; } | 获取命令的文本。 |
-| [Type](../../aspose.cells/headerfootercommand/type) { get; } | 获取页眉/页脚的命令类型。 |
+| [Type](../../aspose.cells/headerfootercommand/type) { get; } | 获取页眉/页脚的命令类型 . |
 
 ### 也可以看看
 

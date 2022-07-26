@@ -1,14 +1,14 @@
 ---
 title: UpdateReference
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает будут ли обновляться ссылки в других рабочих листах.
+description: Указывает будут ли обновлены ссылки на других рабочих листах.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells/workbookdesigner/updatereference/
 ---
 ## WorkbookDesigner.UpdateReference property
 
-Указывает, будут ли обновляться ссылки в других рабочих листах.
+Указывает, будут ли обновлены ссылки на других рабочих листах.
 
 ```csharp
 public bool UpdateReference { get; set; }

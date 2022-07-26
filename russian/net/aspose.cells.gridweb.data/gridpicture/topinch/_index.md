@@ -1,14 +1,14 @@
 ---
 title: TopInch
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет вертикальное смещение фигуры от ее верхней строки в дюймах.
+description: Представляет вертикальное смещение фигуры от верхней строки в дюймах.
 type: docs
 weight: 450
 url: /ru/net/aspose.cells.gridweb.data/gridpicture/topinch/
 ---
 ## GridPicture.TopInch property
 
-Представляет вертикальное смещение фигуры от ее верхней строки в дюймах.
+Представляет вертикальное смещение фигуры от верхней строки в дюймах.
 
 ```csharp
 public double TopInch { get; set; }

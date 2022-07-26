@@ -16,7 +16,7 @@ public SheetPrintingPreview(Worksheet sheet, ImageOrPrintOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sheet | Worksheet | Указывает, какую электронную таблицу нужно распечатать . |
+| sheet | Worksheet | Укажите, какую таблицу нужно распечатать. |
 | options | ImageOrPrintOptions | ImageOrPrintOptions содержит некоторое свойство вывода |
 
 ### Смотрите также

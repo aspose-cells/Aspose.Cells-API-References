@@ -20,7 +20,7 @@ public string Caption { get; set; }
 
 [C#]
 
- //设置指定时间轴的标题.
+//设置指定时间轴的标题。
 timelineObj.Caption = "timeline caption test";
 ```
 

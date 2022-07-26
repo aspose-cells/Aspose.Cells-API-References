@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 添加场景
+description: 添加一个场景
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/scenariocollection/add/
 ---
 ## ScenarioCollection.Add method
 
-添加场景。
+添加一个场景。
 
 ```csharp
 public int Add(string name)
@@ -20,7 +20,7 @@ public int Add(string name)
 
 ### 返回值
 
-场景列表中的索引。
+方案列表中的索引。
 
 ### 也可以看看
 

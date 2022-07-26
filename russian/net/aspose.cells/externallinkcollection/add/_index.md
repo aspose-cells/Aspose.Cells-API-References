@@ -33,7 +33,7 @@ public int Add(string fileName, string[] sheetNames)
 
 ## Add(DirectoryType, string, string[]) {#add}
 
-Добавить внешнюю ссылку.
+Добавить внешнюю ссылку .
 
 ```csharp
 public int Add(DirectoryType directoryType, string fileName, string[] sheetNames)

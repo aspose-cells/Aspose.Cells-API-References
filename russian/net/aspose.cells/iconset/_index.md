@@ -18,12 +18,12 @@ public class IconSet
 
 | Имя | Описание |
 | --- | --- |
-| [CfIcons](../../aspose.cells/iconset/cficons) { get; } | Получить[`ConditionalFormattingIcon`](../conditionalformattingicon)из коллекции |
-| [Cfvos](../../aspose.cells/iconset/cfvos) { get; } | Получите экземпляр CFValueObjects. |
+| [CfIcons](../../aspose.cells/iconset/cficons) { get; } | Получить[`ConditionalFormattingIcon`](../conditionalformattingicon) из коллекции |
+| [Cfvos](../../aspose.cells/iconset/cfvos) { get; } | Получить экземпляр CFValueObjects. |
 | [IsCustom](../../aspose.cells/iconset/iscustom) { get; } | Указывает, является ли набор значков пользовательским. Значение по умолчанию — false. |
 | [Reverse](../../aspose.cells/iconset/reverse) { get; set; } | Получить или установить флаг, указывающий, следует ли изменить порядок значков по умолчанию в этом наборе значков. Значение по умолчанию — false. |
-| [ShowValue](../../aspose.cells/iconset/showvalue) { get; set; } | Получить или установить флаг, указывающий, показывать ли значения ячеек, к которым применяется этот набор значков. Значение по умолчанию — true. |
-| [Type](../../aspose.cells/iconset/type) { get; set; } | Получите или установите тип набора значков для отображения. Установка типа автоматически проверит, соответствует ли текущий счетчик Cfvos новому типу. В противном случае старые Cfvo будут очищены и будут добавлены Cfvo по умолчанию . |
+| [ShowValue](../../aspose.cells/iconset/showvalue) { get; set; } | Получить или установить флаг, указывающий, следует ли отображать значения ячеек, к которым применяется этот набор значков. Значение по умолчанию — true. |
+| [Type](../../aspose.cells/iconset/type) { get; set; } | Получить или установить тип набора значков для отображения. Установка типа автоматически проверит, соответствует ли текущий счетчик Cfvos новому типу. В противном случае старые Cfvo будут очищены и будут добавлены Cfvo по умолчанию. |
 
 ### Примеры
 
@@ -31,17 +31,17 @@ public class IconSet
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 
 Worksheet sheet = workbook.Worksheets[0];
 
-  //Добавляет пустое условное форматирование
+//Добавляет пустое условное форматирование
 int index = sheet.ConditionalFormattings.Add();
 
 FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
 
-  //Устанавливает диапазон условного формата.
+//Устанавливает диапазон условного формата.
 CellArea ca = new CellArea();
 
 ca.StartRow = 0;
@@ -54,20 +54,20 @@ ca.EndColumn = 0;
 
 fcs.AddArea(ca);
 
-  //Добавляет условие.
+//Добавляет условие.
 int idx = fcs.AddCondition(FormatConditionType.IconSet);
 
 fcs.AddArea(ca);
 
 FormatCondition cond = fcs[idx];
 
-  //Получить набор иконок
+//Получить набор иконок
 IconSet iconSet = cond.IconSet;
 
-  //Установить тип значка
+//Установить тип значка
 iconSet.Type = IconSetType.Arrows3;
 
-  //Поместите значения ячеек
+//Помещаем значения ячеек
 Aspose.Cells.Cell cell1 = sheet.Cells["A1"];
 
 cell1.PutValue(10);
@@ -80,12 +80,12 @@ Aspose.Cells.Cell cell3 = sheet.Cells["A3"];
 
 cell3.PutValue(260);
 
-  //Сохранение файла Excel
+//Сохранение файла Excel
 workbook.Save("book1.xlsx");
 
 [VB.NET]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
 
 Dim sheet As Worksheet = workbook.Worksheets(0)
@@ -118,7 +118,7 @@ Dim cond As FormatCondition = fcs(idx)
 'Получить набор иконок
 Dim iconSet As IconSet = cond.IconSet
 
-'Set Icon Type
+'Установить тип значка
 iconSet.Type = IconSetType.Arrows3
 
 'Поместите значения ячеек

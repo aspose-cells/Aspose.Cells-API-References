@@ -18,8 +18,8 @@ public int ImportDataTable(DataTable dataTable, bool isFieldNameShown, int first
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | dataTable | DataTable | Импортируемый объект DataTable. |
-| isFieldNameShown | Boolean | Указывает, будет ли импортировано имя поля таблицы данных в первую строку. |
-| firstRow | Int32 | Номер строки первой импортируемой ячейки. |
+| isFieldNameShown | Boolean | Указывает, будет ли имя поля таблицы данных импортировано в первую строку. |
+| firstRow | Int32 | Номер строки первой ячейки для импорта. |
 | firstColumn | Int32 | Номер столбца первой ячейки для импорта. |
 
 ### Возвращаемое значение

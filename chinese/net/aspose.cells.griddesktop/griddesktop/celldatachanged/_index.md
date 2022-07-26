@@ -1,14 +1,14 @@
 ---
 title: CellDataChanged
 second_title: Aspose.Cells for .NET API 参考
-description: 在网格单元格数据属性更改时发生
+description: 在更改网格单元数据属性时发生
 type: docs
 weight: 430
 url: /zh/net/aspose.cells.griddesktop/griddesktop/celldatachanged/
 ---
 ## GridDesktop.CellDataChanged event
 
-在网格单元格数据属性更改时发生。
+在更改网格单元数据属性时发生。
 
 ```csharp
 public event CellEventHandler CellDataChanged;

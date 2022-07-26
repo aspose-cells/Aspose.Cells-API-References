@@ -1,14 +1,14 @@
 ---
 title: Areas
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает всеCellAreaaspose.cells/cellarea которые содержат настройки проверки данных.
+description: получает всеCellAreaaspose.cells/cellarea которые содержат настройки проверки данных.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/validation/areas/
 ---
 ## Validation.Areas property
 
-Получает все[`CellArea`](../../cellarea), которые содержат настройки проверки данных.
+получает все[`CellArea`](../../cellarea) которые содержат настройки проверки данных.
 
 ```csharp
 public CellArea[] Areas { get; }

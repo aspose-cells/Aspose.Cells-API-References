@@ -1,14 +1,14 @@
 ---
 title: IsRepeatItemLabels
 second_title: Aspose.Cells for .NET API 参考
-description: 表示字段是否可以重复项标签 默认值为false
+description: 表示该字段是否可以重复项labels 默认值为false
 type: docs
 weight: 270
 url: /zh/net/aspose.cells.pivot/pivotfield/isrepeatitemlabels/
 ---
 ## PivotField.IsRepeatItemLabels property
 
-表示字段是否可以重复项标签 默认值为false。
+表示该字段是否可以重复项labels 默认值为false。
 
 ```csharp
 public bool IsRepeatItemLabels { get; set; }

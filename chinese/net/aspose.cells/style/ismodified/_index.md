@@ -20,7 +20,7 @@ public bool IsModified(StyleModifyFlag modifyFlag)
 
 ### 返回值
 
-true 如果指定的属性有已修改
+如果指定的属性已被修改，则为 true
 
 ### 也可以看看
 

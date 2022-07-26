@@ -1,14 +1,14 @@
 ---
 title: SetOneColorGradient
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает для указанной заливки одноцветный градиент. Применяется только для Excel 2007.
+description: Задает для указанной заливки одноцветный градиент. Применяется только для Excel 2007.
 type: docs
 weight: 210
 url: /ru/net/aspose.cells.drawing/fillformat/setonecolorgradient/
 ---
 ## FillFormat.SetOneColorGradient method
 
-Устанавливает для указанной заливки одноцветный градиент. Применяется только для Excel 2007.
+Задает для указанной заливки одноцветный градиент. Применяется только для Excel 2007.
 
 ```csharp
 public void SetOneColorGradient(Color color, double degree, GradientStyleType style, int variant)
@@ -17,9 +17,9 @@ public void SetOneColorGradient(Color color, double degree, GradientStyleType st
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | color | Color | Один цвет градиента. |
-| степень | Double | Степень градиента. Может принимать значение от 0,0 (темный) до 1,0 (светлый). |
-| style | GradientStyleType | Градиентный стиль заливки. |
-| variant | Int32 | Вариант градиента. Может принимать значение от 1 до 4, соответствующее одному из четырех вариантов на вкладке «Градиент» в диалоговом окне «Эффекты заливки». Если стиль — GradientStyle.FromCenter, аргумент Variant может быть только 1 или 2. |
+| degree | Double | Степень градиента. Может принимать значение от 0,0 (темный) до 1,0 (светлый). |
+| style | GradientStyleType | Градиентный стиль затенения. |
+| variant | Int32 | Градиентный вариант. Может принимать значение от 1 до 4, соответствующее одному из четырех вариантов на вкладке «Градиент» в диалоговом окне «Эффекты заливки». Если стиль — GradientStyle.FromCenter, аргумент Variant может иметь значение только 1 или 2. |
 
 ### Смотрите также
 

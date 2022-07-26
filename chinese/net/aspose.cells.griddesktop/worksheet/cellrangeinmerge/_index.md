@@ -1,14 +1,14 @@
 ---
 title: CellRangeInMerge
 second_title: Aspose.Cells for .NET API 参考
-description: 获取一个值该值指示指定单元格区域是否合并
+description: 获取一个值该值指示指定单元格范围是否合并
 type: docs
 weight: 550
 url: /zh/net/aspose.cells.griddesktop/worksheet/cellrangeinmerge/
 ---
 ## Worksheet.CellRangeInMerge method
 
-获取一个值，该值指示指定单元格区域是否合并。
+获取一个值，该值指示指定单元格范围是否合并。
 
 ```csharp
 public bool CellRangeInMerge(CellRange cr)

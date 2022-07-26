@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Aspose.Cells for .NET API 参考
-description: 表示控件的字体
+description: 代表控件的字体
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.drawing.activexcontrols/activexcontrol/font/
 ---
 ## ActiveXControl.Font property
 
-表示控件的字体。
+代表控件的字体。
 
 ```csharp
 public Font Font { get; }

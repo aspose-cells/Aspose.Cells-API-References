@@ -1,14 +1,14 @@
 ---
 title: GetStandardFunctionName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает стандартное имя функции в соответствии с заданным именем функции зависящим от локали.
+description: Получает стандартное имя функции в соответствии с заданным именем функции зависящим от языкового стандарта.
 type: docs
 weight: 220
 url: /ru/net/aspose.cells/globalizationsettings/getstandardfunctionname/
 ---
 ## GlobalizationSettings.GetStandardFunctionName method
 
-Получает стандартное имя функции в соответствии с заданным именем функции, зависящим от локали.
+Получает стандартное имя функции в соответствии с заданным именем функции, зависящим от языкового стандарта.
 
 ```csharp
 public virtual string GetStandardFunctionName(string localName)

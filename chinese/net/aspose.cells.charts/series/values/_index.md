@@ -1,14 +1,14 @@
 ---
 title: Values
 second_title: Aspose.Cells for .NET API 参考
-description: 表示图表系列的数据
+description: 代表图表系列的数据
 type: docs
 weight: 460
 url: /zh/net/aspose.cells.charts/series/values/
 ---
 ## Series.Values property
 
-表示图表系列的数据。
+代表图表系列的数据。
 
 ```csharp
 public string Values { get; set; }

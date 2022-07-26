@@ -1,14 +1,14 @@
 ---
 title: GetSheetByCodeName
 second_title: Aspose.Cells for .NET API 参考
-description: 通过代号获取工作表
+description: 按代号获取工作表
 type: docs
 weight: 260
 url: /zh/net/aspose.cells/worksheetcollection/getsheetbycodename/
 ---
 ## WorksheetCollection.GetSheetByCodeName method
 
-通过代号获取工作表。
+按代号获取工作表。
 
 ```csharp
 public Worksheet GetSheetByCodeName(string codeName)

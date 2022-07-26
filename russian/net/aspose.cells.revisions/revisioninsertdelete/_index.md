@@ -18,10 +18,10 @@ public class RevisionInsertDelete : Revision
 
 | Имя | Описание |
 | --- | --- |
-| [ActionType](../../aspose.cells.revisions/revisioninsertdelete/actiontype) { get; } | Получает тип действия этой ревизии. |
+| [ActionType](../../aspose.cells.revisions/revisioninsertdelete/actiontype) { get; } | Получает тип действия этой версии. |
 | [CellArea](../../aspose.cells.revisions/revisioninsertdelete/cellarea) { get; } | Получает диапазон вставки/удаления. |
 | [Id](../../aspose.cells.revisions/revision/id) { get; } | Получает номер этой версии. |
-| [Revisions](../../aspose.cells.revisions/revisioninsertdelete/revisions) { get; } | Получает список ревизий этой операцией. |
+| [Revisions](../../aspose.cells.revisions/revisioninsertdelete/revisions) { get; } | Получает список изменений этой операцией. |
 | override [Type](../../aspose.cells.revisions/revisioninsertdelete/type) { get; } | Представляет тип редакции. |
 | [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Получает рабочий лист. |
 

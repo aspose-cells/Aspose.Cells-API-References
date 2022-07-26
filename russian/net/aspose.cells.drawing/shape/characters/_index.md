@@ -1,14 +1,14 @@
 ---
 title: Characters
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает объект Characters представляющий диапазон символов в тексте.
+description: Возвращает объект символов представляющий диапазон символов в тексте.
 type: docs
 weight: 1000
 url: /ru/net/aspose.cells.drawing/shape/characters/
 ---
 ## Shape.Characters method
 
-Возвращает объект Characters, представляющий диапазон символов в тексте.
+Возвращает объект символов, представляющий диапазон символов в тексте.
 
 ```csharp
 public FontSetting Characters(int startIndex, int length)
@@ -21,7 +21,7 @@ public FontSetting Characters(int startIndex, int length)
 
 ### Возвращаемое значение
 
-Персонажи объекта.
+Возражают персонажи.
 
 ### Примечания
 

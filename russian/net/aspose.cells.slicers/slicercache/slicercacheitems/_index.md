@@ -20,7 +20,7 @@ public SlicerCacheItemCollection SlicerCacheItems { get; }
 
 [C#]
 
-  // получаем коллекцию SlicerCacheItem, содержащую коллекцию всех элементов в кеше слайсера.
+// получаем коллекцию SlicerCacheItem, содержащую коллекцию всех элементов в кеше слайсера.
 SlicerCacheItemCollection slicerCacheItems = slicerCache.SlicerCacheItems;
 Console.WriteLine(slicerCacheItems.Count);
 ```

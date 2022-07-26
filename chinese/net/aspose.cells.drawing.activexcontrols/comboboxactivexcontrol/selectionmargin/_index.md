@@ -1,14 +1,14 @@
 ---
 title: SelectionMargin
 second_title: Aspose.Cells for .NET API 参考
-description: 指示用户是否可以通过单击文本左侧的区域来选择一行文本
+description: 表示用户是否可以通过单击文本左侧的区域来选择一行文本
 type: docs
 weight: 170
 url: /zh/net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/selectionmargin/
 ---
 ## ComboBoxActiveXControl.SelectionMargin property
 
-指示用户是否可以通过单击文本左侧的区域来选择一行文本。
+表示用户是否可以通过单击文本左侧的区域来选择一行文本。
 
 ```csharp
 public bool SelectionMargin { get; set; }

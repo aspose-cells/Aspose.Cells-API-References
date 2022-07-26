@@ -1,14 +1,14 @@
 ---
 title: DrawObjectEnum
 second_title: Aspose.Cells for .NET API 参考
-description: 表示DrawObject的Cell或Image
+description: 表示 DrawObject 的单元格或图像
 type: docs
 weight: 5110
 url: /zh/net/aspose.cells.rendering/drawobjectenum/
 ---
 ## DrawObjectEnum enumeration
 
-表示DrawObject的Cell或Image。
+表示 DrawObject 的单元格或图像。
 
 ```csharp
 public enum DrawObjectEnum
@@ -18,7 +18,7 @@ public enum DrawObjectEnum
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Image | `0` | 表示 DrawObject 是一个图像 |
+| Image | `0` | 表示 DrawObject 是一个 Image |
 | Cell | `1` | 表示 DrawObject 是一个 Cell |
 
 ### 也可以看看

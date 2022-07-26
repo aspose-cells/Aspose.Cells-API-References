@@ -16,11 +16,11 @@ public void SetStyle(Style style)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| style | Style | Стиль ячейки. |
+| style | Style | Стиль клетки. |
 
 ### Примечания
 
-При изменении настроек границ границы ячеек настройки также будут обновлены.
+Если параметры границы изменены, граница ячеек настройки также будет обновлена.
 
 ### Смотрите также
 
@@ -33,7 +33,7 @@ public void SetStyle(Style style)
 
 ## SetStyle(Style, bool) {#setstyle_2}
 
-Применение стиля ячейки.
+Применить стиль ячейки.
 
 ```csharp
 public void SetStyle(Style style, bool explicitFlag)
@@ -41,8 +41,8 @@ public void SetStyle(Style style, bool explicitFlag)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| style | Style | Стиль ячейки. |
-| explicitFlag | Boolean | Истинно, только перезапись форматирования, которое задано явно. |
+| style | Style | Стиль клетки. |
+| explicitFlag | Boolean | Правда, только перезапись форматирования, которое задано явно. |
 
 ### Смотрите также
 
@@ -55,7 +55,7 @@ public void SetStyle(Style style, bool explicitFlag)
 
 ## SetStyle(Style, StyleFlag) {#setstyle_1}
 
-Применение стиля ячейки.
+Применить стиль ячейки.
 
 ```csharp
 public void SetStyle(Style style, StyleFlag flag)
@@ -63,7 +63,7 @@ public void SetStyle(Style style, StyleFlag flag)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| style | Style | Стиль ячейки. |
+| style | Style | Стиль клетки. |
 | flag | StyleFlag | Флаг стиля. |
 
 ### Смотрите также

@@ -37,8 +37,8 @@ public void ClearContents(int startRow, int startColumn, int endRow, int endColu
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startRow | Int32 | 起始行索引。 |
-| startColumn | Int32 | 起始列索引。 |
+| startRow | Int32 | 开始行索引。 |
+| startColumn | Int32 | 开始列索引。 |
 | endRow | Int32 | 结束行索引。 |
 | endColumn | Int32 | 结束列索引。 |
 

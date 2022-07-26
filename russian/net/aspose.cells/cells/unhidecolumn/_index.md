@@ -1,14 +1,14 @@
 ---
 title: UnhideColumn
 second_title: Справочник по Aspose.Cells для .NET API
-description: Отображает столбец
+description: Отображает скрытый столбец
 type: docs
-weight: 1340
+weight: 1350
 url: /ru/net/aspose.cells/cells/unhidecolumn/
 ---
 ## Cells.UnhideColumn method
 
-Отображает столбец
+Отображает скрытый столбец
 
 ```csharp
 public void UnhideColumn(int column, double width)
@@ -17,7 +17,7 @@ public void UnhideColumn(int column, double width)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | column | Int32 | Индекс столбца. |
-| width | Double | Ширина столбца. |
+| width | Double | Ширина колонки. |
 
 ### Смотрите также
 

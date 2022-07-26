@@ -1,14 +1,14 @@
 ---
 title: AddBlankLineBetweenRows
 second_title: Справочник по Aspose.Cells для .NET API
-description: Вставьте пустую строку между каждыми данными.
+description: Вставить пустую строку между каждыми данными.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.saving/sqlscriptsaveoptions/addblanklinebetweenrows/
 ---
 ## SqlScriptSaveOptions.AddBlankLineBetweenRows property
 
-Вставьте пустую строку между каждыми данными.
+Вставить пустую строку между каждыми данными.
 
 ```csharp
 public bool AddBlankLineBetweenRows { get; set; }
@@ -16,7 +16,7 @@ public bool AddBlankLineBetweenRows { get; set; }
 
 ### Примечания
 
-Если[`Separator`](../separator)равно '\n' , лучше установить для этого свойства значение true, чтобы улучшить читаемость.
+Если[`Separator`](../separator) равно '\n' , лучше установить для этого свойства значение true, чтобы повысить удобочитаемость.
 
 ### Смотрите также
 

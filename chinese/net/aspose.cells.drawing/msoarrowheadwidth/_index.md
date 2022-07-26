@@ -18,8 +18,8 @@ public enum MsoArrowheadWidth
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Narrow | `0` | 短线结束宽度。 |
-| Medium | `1` | 中等行尾宽度。 |
+| Narrow | `0` | 短线末端宽度。 |
+| Medium | `1` | 中线末端宽度。 |
 | Wide | `2` | 宽线末端宽度。 |
 
 ### 也可以看看

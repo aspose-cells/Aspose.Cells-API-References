@@ -1,14 +1,14 @@
 ---
 title: FormatAll
 second_title: Справочник по Aspose.Cells для .NET API
-description: Форматировать все ячейки в области сводной таблицы
+description: Отформатировать все ячейки в области сводной таблицы
 type: docs
 weight: 840
 url: /ru/net/aspose.cells.pivot/pivottable/formatall/
 ---
 ## PivotTable.FormatAll method
 
-Форматировать все ячейки в области сводной таблицы
+Отформатировать все ячейки в области сводной таблицы
 
 ```csharp
 public void FormatAll(Style style)
@@ -16,7 +16,7 @@ public void FormatAll(Style style)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| style | Style | Стиль, который форматировать |
+| style | Style | Стиль для форматирования |
 
 ### Смотрите также
 

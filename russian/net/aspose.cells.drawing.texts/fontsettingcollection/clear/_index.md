@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Справочник по Aspose.Cells для .NET API
-description: Сбросить все настройки.
+description: Удалить все настройки.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.drawing.texts/fontsettingcollection/clear/
 ---
 ## FontSettingCollection.Clear method
 
-Сбросить все настройки.
+Удалить все настройки.
 
 ```csharp
 public void Clear()

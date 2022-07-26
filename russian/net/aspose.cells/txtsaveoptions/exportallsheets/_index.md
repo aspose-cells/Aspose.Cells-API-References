@@ -1,14 +1,14 @@
 ---
 title: ExportAllSheets
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает экспортируются ли все листы в текстовый файл. Если ложно экспортировать только активный лист как в MS Excel.
+description: Указывает экспортируются ли все листы в текстовый файл. Если значение равно false экспортируется только активный лист как в MS Excel.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/txtsaveoptions/exportallsheets/
 ---
 ## TxtSaveOptions.ExportAllSheets property
 
-Указывает, экспортируются ли все листы в текстовый файл. Если ложно, экспортировать только активный лист, как в MS Excel.
+Указывает, экспортируются ли все листы в текстовый файл. Если значение равно false, экспортируется только активный лист, как в MS Excel.
 
 ```csharp
 public bool ExportAllSheets { get; set; }
@@ -16,7 +16,7 @@ public bool ExportAllSheets { get; set; }
 
 ### Примечания
 
-Значение по умолчанию - false.
+Значение по умолчанию — false.
 
 ### Смотрите также
 

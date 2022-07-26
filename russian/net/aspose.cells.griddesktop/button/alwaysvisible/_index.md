@@ -1,14 +1,14 @@
 ---
 title: AlwaysVisible
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или устанавливает должна ли кнопка всегда отображаться работает только для кнопки управления ячейкой.
+description: Получает или задает должна ли кнопка всегда отображаться работает только для кнопки управления ячейкой.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.griddesktop/button/alwaysvisible/
 ---
 ## Button.AlwaysVisible property
 
-Получает или устанавливает, должна ли кнопка всегда отображаться, работает только для кнопки управления ячейкой.
+Получает или задает, должна ли кнопка всегда отображаться, работает только для кнопки управления ячейкой.
 
 ```csharp
 public bool AlwaysVisible { get; set; }

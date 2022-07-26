@@ -1,14 +1,14 @@
 ---
 title: CompoundType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает тип составной линии
+description: Указывает тип составной линии
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.drawing/line/compoundtype/
 ---
 ## Line.CompoundType property
 
-Задает тип составной линии
+Указывает тип составной линии
 
 ```csharp
 public MsoLineStyle CompoundType { get; set; }

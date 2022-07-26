@@ -20,7 +20,7 @@ public HeaderFooterCommand[] GetCommands(string headerFooterScript)
 
 ### 返回值
 
-返回所有命令页眉或页脚。
+返回页眉或页脚的所有命令。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: PaperSize
 second_title: Aspose.Cells for .NET API 参考
-description: 表示纸张的大小
+description: 代表纸张的大小
 type: docs
 weight: 260
 url: /zh/net/aspose.cells/pagesetup/papersize/
 ---
 ## PageSetup.PaperSize property
 
-表示纸张的大小。
+代表纸张的大小。
 
 ```csharp
 public PaperSizeType PaperSize { get; set; }

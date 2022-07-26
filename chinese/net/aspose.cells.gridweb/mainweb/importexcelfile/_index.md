@@ -28,7 +28,7 @@ public void ImportExcelFile(string fileName)
 
 ## ImportExcelFile(Stream) {#importexcelfile}
 
-从 excel 文件流导入，包括磁盘文件流或内存流。
+从excel文件流导入，包括磁盘文件流或内存流。
 
 ```csharp
 public void ImportExcelFile(Stream stream)

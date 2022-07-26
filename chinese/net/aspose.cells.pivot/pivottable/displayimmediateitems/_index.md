@@ -1,14 +1,14 @@
 ---
 title: DisplayImmediateItems
 second_title: Aspose.Cells for .NET API 参考
-description: 表示当数据透视表的数据区域为空时行和列区域中的项目是否可见 默认值是true
+description: 表示当数据透视表的数据区为空时行和列区域的项目是否可见 默认值为真
 type: docs
 weight: 150
 url: /zh/net/aspose.cells.pivot/pivottable/displayimmediateitems/
 ---
 ## PivotTable.DisplayImmediateItems property
 
-表示当数据透视表的数据区域为空时，行和列区域中的项目是否可见 。默认值是true。
+表示当数据透视表的数据区为空时，行和列区域的项目是否可见 。默认值为真。
 
 ```csharp
 public bool DisplayImmediateItems { get; set; }

@@ -16,7 +16,7 @@ public bool IsJustifyDistributed { get; set; }
 
 ### 评论
 
-这对于东亚对齐很典型，但在其他情况下并不典型。
+这对于东亚路线很典型，但在其他情况下并不典型。
 
 ### 也可以看看
 

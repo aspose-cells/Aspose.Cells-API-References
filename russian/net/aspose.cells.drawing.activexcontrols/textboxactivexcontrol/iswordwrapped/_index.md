@@ -1,14 +1,14 @@
 ---
 title: IsWordWrapped
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает переносится ли содержимое элемента управления автоматически в конце строки.
+description: Указывает будет ли содержимое элемента управления автоматически переноситься в конце строки.
 type: docs
 weight: 130
 url: /ru/net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/iswordwrapped/
 ---
 ## TextBoxActiveXControl.IsWordWrapped property
 
-Указывает, переносится ли содержимое элемента управления автоматически в конце строки.
+Указывает, будет ли содержимое элемента управления автоматически переноситься в конце строки.
 
 ```csharp
 public bool IsWordWrapped { get; set; }

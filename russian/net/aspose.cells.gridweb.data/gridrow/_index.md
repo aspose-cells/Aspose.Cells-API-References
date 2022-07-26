@@ -1,14 +1,14 @@
 ---
 title: GridRow
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует объект представляющий одно изображение в электронной таблице.
+description: Инкапсулирует объект представляющий отдельное изображение в электронной таблице.
 type: docs
 weight: 440
 url: /ru/net/aspose.cells.gridweb.data/gridrow/
 ---
 ## GridRow class
 
-Инкапсулирует объект, представляющий одно изображение в электронной таблице.
+Инкапсулирует объект, представляющий отдельное изображение в электронной таблице.
 
 ```csharp
 public class GridRow
@@ -19,7 +19,7 @@ public class GridRow
 | Имя | Описание |
 | --- | --- |
 | [FirstCell](../../aspose.cells.gridweb.data/gridrow/firstcell) { get; } | Получает первую ячейку в строке. |
-| [Height](../../aspose.cells.gridweb.data/gridrow/height) { get; set; } | Получает и задает высоту строки в пунктах. |
+| [Height](../../aspose.cells.gridweb.data/gridrow/height) { get; set; } | Получает и задает высоту строки в баллах. |
 | [Hidden](../../aspose.cells.gridweb.data/gridrow/hidden) { get; set; } | Указывает, скрыта ли строка. |
 | [Index](../../aspose.cells.gridweb.data/gridrow/index) { get; } | Получает индекс этой строки. |
 | [Item](../../aspose.cells.gridweb.data/gridrow/item) { get; } | Получает ячейку. |
@@ -32,7 +32,7 @@ public class GridRow
 | Имя | Описание |
 | --- | --- |
 | [GetEnumerator](../../aspose.cells.gridweb.data/gridrow/getenumerator)() | Получает перечислитель ячеек |
-| [IsBlank](../../aspose.cells.gridweb.data/gridrow/isblank)() | Указывает, содержит ли строка какие-либо данные |
+| [IsBlank](../../aspose.cells.gridweb.data/gridrow/isblank)() | Указывает, содержит ли строка данные |
 
 ### Смотрите также
 

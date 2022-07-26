@@ -1,14 +1,14 @@
 ---
 title: GetFont
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает шрифт ячейки. При изменении шрифта следует вызывать метод SetFont для установки шрифта в ячейку.
+description: Получает шрифт ячейки. При изменении шрифта вы должны вызвать метод SetFont для установки шрифта ячейки.
 type: docs
 weight: 250
 url: /ru/net/aspose.cells.griddesktop.data/gridcell/getfont/
 ---
 ## GridCell.GetFont method
 
-Получает шрифт ячейки. При изменении шрифта следует вызывать метод "SetFont", для установки шрифта в ячейку.
+Получает шрифт ячейки. При изменении шрифта вы должны вызвать метод "SetFont", для установки шрифта ячейки.
 
 ```csharp
 public Font GetFont()

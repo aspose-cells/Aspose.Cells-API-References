@@ -1,14 +1,14 @@
 ---
 title: ParsingPivotCachedRecords
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает выполняется ли разбор сводных кэшированных записей при загрузке файла. Значение по умолчанию  false.
+description: Указывает анализируются ли сводные кэшированные записи при загрузке файла. Значение по умолчанию  false.
 type: docs
 weight: 180
 url: /ru/net/aspose.cells/loadoptions/parsingpivotcachedrecords/
 ---
 ## LoadOptions.ParsingPivotCachedRecords property
 
-Указывает, выполняется ли разбор сводных кэшированных записей при загрузке файла. Значение по умолчанию — false.
+Указывает, анализируются ли сводные кэшированные записи при загрузке файла. Значение по умолчанию — false.
 
 ```csharp
 public bool ParsingPivotCachedRecords { get; set; }
@@ -16,7 +16,7 @@ public bool ParsingPivotCachedRecords { get; set; }
 
 ### Примечания
 
-Применяется только для файлов Excel Xlsx, Xltx, Xltm, Xlsm и xlsb
+Применяется только к файлам Excel Xlsx, Xltx, Xltm, Xlsm и xlsb.
 
 ### Смотрите также
 

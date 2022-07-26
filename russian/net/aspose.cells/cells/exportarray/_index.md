@@ -1,14 +1,14 @@
 ---
 title: ExportArray
 second_title: Справочник по Aspose.Cells для .NET API
-description: Экспорт данных из коллекцииCellsaspose.cells/cellsв объект двумерного массива.
+description: Экспортирует данные вCellsaspose.cells/cells коллекция в объект двумерного массива.
 type: docs
 weight: 600
 url: /ru/net/aspose.cells/cells/exportarray/
 ---
 ## Cells.ExportArray method
 
-Экспорт данных из коллекции[`Cells`](../../cells)в объект двумерного массива.
+Экспортирует данные в[`Cells`](../../cells) коллекция в объект двумерного массива.
 
 ```csharp
 public object[] ExportArray(int firstRow, int firstColumn, int totalRows, int totalColumns)
@@ -16,10 +16,10 @@ public object[] ExportArray(int firstRow, int firstColumn, int totalRows, int to
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| firstRow | Int32 | Номер строки первой экспортируемой ячейки. |
-| firstColumn | Int32 | Номер столбца первой экспортируемой ячейки. |
-| totalRows | Int32 | Количество экспортируемых строк |
-| totalColumns | Int32 | Количество экспортируемых столбцов |
+| firstRow | Int32 | Номер строки первой ячейки для экспорта. |
+| firstColumn | Int32 | Номер столбца первой ячейки для экспорта. |
+| totalRows | Int32 | Количество строк для экспорта |
+| totalColumns | Int32 | Количество столбцов для экспорта |
 
 ### Возвращаемое значение
 

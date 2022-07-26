@@ -16,7 +16,7 @@ public byte[] GetRelationshipData(string relId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| relId | String | 关系ID。 |
+| relId | String | 关系标识。 |
 
 ### 返回值
 

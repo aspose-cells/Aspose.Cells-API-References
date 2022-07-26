@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавьте точку градиента.
+description: Добавить точку градиента.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.drawing/gradientstopcollection/add/
 ---
 ## Add(double, CellsColor, int) {#add}
 
-Добавьте точку градиента.
+Добавить точку градиента.
 
 ```csharp
 public void Add(double position, CellsColor color, int alpha)
@@ -17,7 +17,7 @@ public void Add(double position, CellsColor color, int alpha)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | position | Double | Положение стопа в процентах. |
-| color | CellsColor | Цвет стопа. |
+| color | CellsColor | Цвет остановки. |
 | alpha | Int32 | Альфа цвета. |
 
 ### Смотрите также
@@ -31,7 +31,7 @@ public void Add(double position, CellsColor color, int alpha)
 
 ## Add(double, Color, int) {#add_1}
 
-Добавьте точку градиента.
+Добавить точку градиента.
 
 ```csharp
 public void Add(double position, Color color, int alpha)
@@ -40,7 +40,7 @@ public void Add(double position, Color color, int alpha)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | position | Double | Положение стопа в процентах. |
-| color | Color | Цвет стопа. |
+| color | Color | Цвет остановки. |
 | alpha | Int32 | Альфа цвета. |
 
 ### Смотрите также

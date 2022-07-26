@@ -1,14 +1,14 @@
 ---
 title: EnableCreateBindColumnHeader
 second_title: Справочник по Aspose.Cells для .NET API
-description: В режиме привязки данных указывает создавать ли на листе заголовки заголовков столбцов привязки.
+description: В режиме привязки данных указывает следует ли создавать заголовки заголовков столбцов привязки на листе.
 type: docs
 weight: 150
 url: /ru/net/aspose.cells.gridweb.data/gridworksheet/enablecreatebindcolumnheader/
 ---
 ## GridWorksheet.EnableCreateBindColumnHeader property
 
-В режиме привязки данных указывает, создавать ли на листе заголовки заголовков столбцов привязки.
+В режиме привязки данных указывает, следует ли создавать заголовки заголовков столбцов привязки на листе.
 
 ```csharp
 public bool EnableCreateBindColumnHeader { get; set; }

@@ -37,7 +37,7 @@ public void AddACell(string cellname)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cellname | String | 单元名称。 |
+| cellname | String | 单元格名称。 |
 
 ### 也可以看看
 

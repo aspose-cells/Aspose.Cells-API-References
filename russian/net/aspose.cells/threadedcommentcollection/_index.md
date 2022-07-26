@@ -1,14 +1,14 @@
 ---
 title: ThreadedCommentCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет список связанных комментариев.
+description: Представляет список цепочек комментариев.
 type: docs
 weight: 6050
 url: /ru/net/aspose.cells/threadedcommentcollection/
 ---
 ## ThreadedCommentCollection class
 
-Представляет список связанных комментариев.
+Представляет список цепочек комментариев.
 
 ```csharp
 public class ThreadedCommentCollection : CollectionBase<ThreadedComment>

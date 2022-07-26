@@ -1,14 +1,14 @@
 ---
 title: DisplayType
 second_title: Aspose.Cells for .NET API 参考
-description: 代表错误栏显示类型
+description: 表示误差条显示类型
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.charts/errorbar/displaytype/
 ---
 ## ErrorBar.DisplayType property
 
-代表错误栏显示类型。
+表示误差条显示类型。
 
 ```csharp
 public ErrorBarDisplayType DisplayType { get; set; }

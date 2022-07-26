@@ -1,14 +1,14 @@
 ---
 title: ImageOrPrintOptions
 second_title: Aspose.Cells for .NET API 参考
-description: 附加图像创建选项
+description: 其他图像创建选项
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/imagesaveoptions/imageorprintoptions/
 ---
 ## ImageSaveOptions.ImageOrPrintOptions property
 
-附加图像创建选项
+其他图像创建选项
 
 ```csharp
 public ImageOrPrintOptions ImageOrPrintOptions { get; }

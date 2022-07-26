@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 通过索引获取网页扩展的属性
+description: 通过索引获取web扩展的属性
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.webextensions/webextensionpropertycollection/item/
 ---
 ## WebExtensionPropertyCollection indexer (1 of 2)
 
-通过索引获取网页扩展的属性。
+通过索引获取web扩展的属性。
 
 ```csharp
 public WebExtensionProperty this[int index] { get; }
@@ -16,11 +16,11 @@ public WebExtensionProperty this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引。 |
+| index | 指数。 |
 
 ### 返回值
 
-网络扩展的属性。
+Web 扩展的属性。
 
 ### 也可以看看
 
@@ -41,11 +41,11 @@ public WebExtensionProperty this[string name] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| name | 属性名称。 |
+| name | 财产的名称。 |
 
 ### 返回值
 
-网络扩展的属性。
+Web 扩展的属性。
 
 ### 也可以看看
 

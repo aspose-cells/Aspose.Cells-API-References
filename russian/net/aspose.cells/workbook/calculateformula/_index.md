@@ -16,7 +16,7 @@ public void CalculateFormula()
 
 ### Примечания
 
-Все поддерживаемые формулы см. в списке на https://docs.aspose.com/ display/cellsnet/Supported+Formula+Functions
+Все поддерживаемые формулы см. в списке по адресу https://docs.aspose.com/display/cellsnet/Supported+Formula+Functions
 
 ### Смотрите также
 
@@ -36,7 +36,7 @@ public void CalculateFormula(bool ignoreError)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| ignoreError | Boolean | Указывает, следует ли скрыть ошибку при вычислении формул. Ошибка может быть неподдерживаемой функцией, внешними ссылками и т.д. |
+| ignoreError | Boolean | Указывает, если скрыть ошибку при вычислении формул. Ошибка может быть в неподдерживаемой функции, внешних ссылках и т.п. |
 
 ### Смотрите также
 
@@ -56,7 +56,7 @@ public void CalculateFormula(CalculationOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | CalculationOptions | Опции для расчета |
+| options | CalculationOptions | Варианты расчета |
 
 ### Смотрите также
 

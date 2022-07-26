@@ -16,11 +16,11 @@ public void AddArea(CellArea cellArea)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cellArea | CellArea | 区域。 |
+| cellArea | CellArea | 该地区。 |
 
 ### 评论
 
-相当于使用[`AddArea`](../addarea) 检查交点和边缘。
+相当于使用[`AddArea`](../addarea) 检查交叉点和边缘。
 
 ### 也可以看看
 
@@ -41,13 +41,13 @@ public void AddArea(CellArea cellArea, bool checkIntersection, bool checkEdge)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cellArea | CellArea | 区域。 |
-| checkIntersection | Boolean | 是否检查给定区域与现有验证区域的交集。 如果在给定区域（或部分区域）应用了一个验证， 则应首先从给定区域删除现有验证。 否则可能会导致生成的验证损坏。 如果用户确定添加的区域不与任何现有区域相交，则 出于性能考虑，可以将此参数设置为 false。 |
-| checkEdge | Boolean | 是否检查此验证应用区域的边缘。 验证的内部设置取决于其应用范围的左上角之一 因此，如果给定区域将成为应用范围的新左上角之一， 内部设置需要更改并重建，否则可能会导致意外结果。 如果用户确定添加的区域不是左上角，则 出于性能考虑，可以将此参数设置为 false。 |
+| cellArea | CellArea | 该地区。 |
+| checkIntersection | Boolean | 是否检查给定区域与现有验证区域的交集。 如果在给定区域（或部分区域）应用了一个验证， 则应首先从给定区域删除现有验证。 否则可能导致损坏对于生成的Validations. 如果用户确定添加的区域不与任何现有区域相交， 出于性能考虑，可以将此参数设置为false。 |
+| checkEdge | Boolean | 是否检查此验证的应用区域的边缘。 验证的内部设置取决于其应用范围的左上角之一， 因此，如果给定区域将成为应用范围的新左上角之一， 内部设置应该是 如果用户确定添加的区域不是左上角的， 可以将此参数设置为false，以考虑性能。 |
 
 ### 评论
 
-在此方法中，我们将删除给定区域中的所有旧验证。 对于 Validation 应用范围的左上角，首先它的 StartRow 是最小的， 其次它的 StartColumn 是那些具有相同最小 StartRow 的区域中最小的一个。
+在这种方法中，我们将删除给定区域中的所有旧验证。 对于 Validation 应用范围的左上角，首先它的 StartRow 是最小的， 其次它的 StartColumn 是那些具有相同最小 StartRow 的区域中最小的一个.
 
 ### 也可以看看
 

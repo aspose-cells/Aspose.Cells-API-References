@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置图标集类型
+description: 获取并设置图标集类型
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/conditionalformattingicon/type/
 ---
 ## ConditionalFormattingIcon.Type property
 
-获取和设置图标集类型。
+获取并设置图标集类型。
 
 ```csharp
 public IconSetType Type { get; set; }

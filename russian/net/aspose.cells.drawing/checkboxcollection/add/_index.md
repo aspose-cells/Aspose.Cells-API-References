@@ -17,13 +17,13 @@ public int Add(int upperLeftRow, int upperLeftColumn, int height, int width)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
 | height | Int32 | Высота флажка в пикселях. |
 | width | Int32 | Ширина флажка в пикселях. |
 
 ### Возвращаемое значение
 
-[`CheckBox`](../../checkbox)индекс объекта.
+[`CheckBox`](../../checkbox) индекс объекта.
 
 ### Смотрите также
 

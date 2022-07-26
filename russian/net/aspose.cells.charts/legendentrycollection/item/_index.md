@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементLegendEntryaspose.cells.charts/legendentryпо указанному индексу.
+description: ПолучаетLegendEntryaspose.cells.charts/legendentry элемент по указанному индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.charts/legendentrycollection/item/
 ---
 ## LegendEntryCollection indexer
 
-Получает элемент[`LegendEntry`](../../legendentry)по указанному индексу.
+Получает[`LegendEntry`](../../legendentry) элемент по указанному индексу.
 
 ```csharp
 public LegendEntry this[int index] { get; }

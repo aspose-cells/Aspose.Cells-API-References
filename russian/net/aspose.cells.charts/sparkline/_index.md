@@ -1,14 +1,40 @@
 ---
 title: Sparkline
 second_title: Справочник по Aspose.Cells для .NET API
-description: Спарклайн представляет собой крошечную диаграмму или графику в ячейке рабочего листа которая обеспечивает визуальное представление данных.  ltcodegt C Workbook book  new Workbook Рабочий лист  book.Worksheets0 лист.ЯчейкиA1.PutValue5 лист.ЯчейкиB1.PutValue2 лист.ЯчейкиC1.PutValue1 лист.ЯчейкиD1.PutValue3 // Определение CellArea CellArea ca  new CellArea ca.StartColumn  4 ca.EndColumn  4 ca.StartRow  0 ca.EndRow  0 int idx  sheet.SparklineGroupCollection.AddAspose.Cells.Charts.SparklineType.Line sheet.Name  A1D1 false ca Группа SparklineGroup  лист.SparklineGroupCollectionidx idx  group.SparklineCollection.Addsheet.Name  A1D1 0 4 Спарклайн-линия  group.SparklineCollectionidx Console.WriteLineДиапазон данных Saprklineline.DataRange строкаline.Row столбецline.Column line.ToImageoutput.png new ImageOrPrintOptions lt/codegt
+description: Спарклайн представляет собой крошечную диаграмму или графику в ячейке рабочего листа которая обеспечивает визуальное представление данных.
 type: docs
 weight: 850
 url: /ru/net/aspose.cells.charts/sparkline/
 ---
 ## Sparkline class
 
-Спарклайн представляет собой крошечную диаграмму или графику в ячейке рабочего листа, которая обеспечивает визуальное представление данных.  &lt;code&gt; [C#] Workbook book = new Workbook(); Рабочий лист = book.Worksheets[0]; лист.Ячейки["A1"].PutValue(5); лист.Ячейки["B1"].PutValue(2); лист.Ячейки["C1"].PutValue(1); лист.Ячейки["D1"].PutValue(3); // Определение CellArea CellArea ca = new CellArea(); ca.StartColumn = 4; ca.EndColumn = 4; ca.StartRow = 0; ca.EndRow = 0; int idx = sheet.SparklineGroupCollection.Add(Aspose.Cells.Charts.SparklineType.Line, sheet.Name + "!A1:D1", false, ca); Группа SparklineGroup = лист.SparklineGroupCollection[idx]; idx = group.SparklineCollection.Add(sheet.Name + "!A1:D1", 0, 4); Спарклайн-линия = group.SparklineCollection[idx]; Console.WriteLine($"Диапазон данных Saprkline:{line.DataRange}, строка:{line.Row}, столбец:{line.Column}"); line.ToImage("output.png", new ImageOrPrintOptions()); &lt;/code&gt;
+Спарклайн представляет собой крошечную диаграмму или графику в ячейке рабочего листа, которая обеспечивает визуальное представление данных.
+
+```csharp
+[C#]
+ Workbook book = new Workbook(); 
+ Worksheet sheet = book.Worksheets[0];
+
+ sheet.Cells["A1"].PutValue(5);
+ sheet.Cells["B1"].PutValue(2);
+ sheet.Cells["C1"].PutValue(1);
+ sheet.Cells["D1"].PutValue(3);
+ 
+ // Определяем CellArea
+ CellArea ca = new CellArea();
+ ca.StartColumn = 4;
+ ca.EndColumn = 4;
+ ca.StartRow = 0;
+ ca.EndRow = 0;
+
+ int idx = sheet.SparklineGroupCollection.Add(Aspose.Cells.Charts.SparklineType.Line, sheet.Name + "!A1:D1", false, ca);
+
+ SparklineGroup group = sheet.SparklineGroupCollection[idx];
+ idx = group.SparklineCollection.Add(sheet.Name + "!A1:D1", 0, 4);
+ Sparkline line = group.SparklineCollection[idx];
+ Console.WriteLine($"Saprkline data range:{line.DataRange}, row:{line.Row}, column:{line.Column}");
+ line.ToImage("output.png", new ImageOrPrintOptions());
+```
 
 ```csharp
 public class Sparkline

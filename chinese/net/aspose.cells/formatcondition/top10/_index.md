@@ -1,14 +1,14 @@
 ---
 title: Top10
 second_title: Aspose.Cells for .NET API 参考
-description: 获取条件格式的Top10实例 默认实例的规则突出显示 值位于前 10 个括号中的单元格 仅对类型为 Top10 有效
+description: 获取条件格式的Top10实例 默认实例的规则突出显示 值位于前10个括号中的单元格 仅对类型为Top10有效
 type: docs
 weight: 130
 url: /zh/net/aspose.cells/formatcondition/top10/
 ---
 ## FormatCondition.Top10 property
 
-获取条件格式的“Top10”实例。 默认实例的规则突出显示 值位于前 10 个括号中的单元格。 仅对类型为 Top10 有效。
+获取条件格式的“Top10”实例。 默认实例的规则突出显示 值位于前10个括号中的单元格。 仅对类型为Top10有效。
 
 ```csharp
 public Top10 Top10 { get; }

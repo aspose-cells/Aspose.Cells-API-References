@@ -24,19 +24,19 @@ public class ExportTableOptions
 
 | Имя | Описание |
 | --- | --- |
-| [CheckMixedValueType](../../aspose.cells/exporttableoptions/checkmixedvaluetype) { get; set; } | False, Aspose.Cells установит тип DataColumn по типу значения первой строки для повышения производительности. True, Aspose.Cells проверит, являются ли типы значений в столбце смешанными, прежде чем установить тип DataColumn И тип значения смешанный, тип DataColumn будет строковым. |
+| [CheckMixedValueType](../../aspose.cells/exporttableoptions/checkmixedvaluetype) { get; set; } | False, Aspose.Cells установит тип DataColumn по типу значения первой строки для повышения производительности. True, Aspose.Cells проверит, смешаны ли типы значений в столбце, прежде чем установить тип DataColumn И тип значения смешанный, тип DataColumn будет string. |
 | [DataTable](../../aspose.cells/exporttableoptions/datatable) { get; set; } | Получает и задает DataTable, для которого назначен тип данных столбца. |
 | [ExportAsHtmlString](../../aspose.cells/exporttableoptions/exportashtmlstring) { get; set; } | Экспортирует строковое значение html ячеек в DataTable. |
 | [ExportAsString](../../aspose.cells/exporttableoptions/exportasstring) { get; set; } | Экспортирует строковое значение ячеек в DataTable. |
-| [ExportColumnName](../../aspose.cells/exporttableoptions/exportcolumnname) { get; set; } | Указывает, экспортируются ли данные в первой строке в имя столбца таблицы данных. Значение по умолчанию — false. |
+| [ExportColumnName](../../aspose.cells/exporttableoptions/exportcolumnname) { get; set; } | Указывает, экспортируются ли данные в первой строке в имя столбца DataTable. Значение по умолчанию — false. |
 | [FormatStrategy](../../aspose.cells/exporttableoptions/formatstrategy) { get; set; } | Получает и задает стратегию форматирования при экспорте значения в виде строкового значения. |
 | [Indexes](../../aspose.cells/exporttableoptions/indexes) { get; set; } | Индексы столбцов/строк, которые необходимо экспортировать. |
 | [IsVertical](../../aspose.cells/exporttableoptions/isvertical) { get; set; } | Истинно, если строка в файле рабочей книги представляет строку в DataTable. False, если столбец в файле рабочей книги представляет строку в DataTable. |
-| [PlotVisibleCells](../../aspose.cells/exporttableoptions/plotvisiblecells) { get; set; } | Экспортируются только видимые ячейки. |
+| [PlotVisibleCells](../../aspose.cells/exporttableoptions/plotvisiblecells) { get; set; } | Экспортирует только видимые ячейки. |
 | [PlotVisibleColumns](../../aspose.cells/exporttableoptions/plotvisiblecolumns) { get; set; } | Экспортирует только видимые столбцы. |
-| [PlotVisibleRows](../../aspose.cells/exporttableoptions/plotvisiblerows) { get; set; } | Экспортируются только видимые строки. |
+| [PlotVisibleRows](../../aspose.cells/exporttableoptions/plotvisiblerows) { get; set; } | Экспортирует только видимые строки. |
 | [RenameStrategy](../../aspose.cells/exporttableoptions/renamestrategy) { get; set; } | Стратегия дублирования имен столбцов. |
-| [SkipErrorValue](../../aspose.cells/exporttableoptions/skiperrorvalue) { get; set; } | Указывает, пропускать ли недопустимое значение для столбца. Например, если тип столбца десятичный, значение больше десятичного.MaxValue и это свойство истинно, мы больше не будем выдавать исключение. Значение по умолчанию — false. |
+| [SkipErrorValue](../../aspose.cells/exporttableoptions/skiperrorvalue) { get; set; } | Указывает, следует ли пропустить недопустимое значение для столбца. Например, если тип столбца десятичный, значение больше десятичного. MaxValue и это свойство равно true, мы больше не будем выдавать исключение. Значение по умолчанию — false. |
 
 ### Смотрите также
 

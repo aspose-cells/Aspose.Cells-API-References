@@ -1,14 +1,14 @@
 ---
 title: RadiusPx
 second_title: Aspose.Cells for .NET API 参考
-description: 调用 Chart.Calculate 方法后以像素为单位获取气泡饼图或甜甜圈的半径
+description: 调用Chart.Calculate 方法后以像素为单位获取气泡饼图或甜甜圈的半径
 type: docs
 weight: 180
 url: /zh/net/aspose.cells.charts/chartpoint/radiuspx/
 ---
 ## ChartPoint.RadiusPx property
 
-调用 Chart.Calculate() 方法后以像素为单位获取气泡、饼图或甜甜圈的半径。
+调用Chart.Calculate() 方法后以像素为单位获取气泡、饼图或甜甜圈的半径。
 
 ```csharp
 public int RadiusPx { get; }

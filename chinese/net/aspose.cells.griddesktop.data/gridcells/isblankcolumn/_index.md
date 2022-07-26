@@ -20,7 +20,7 @@ public bool IsBlankColumn(int columnIndex)
 
 ### 返回值
 
-如果给定列没有，则为 true包含任何数据
+如果给定列不包含任何数据，则为 true
 
 ### 也可以看看
 

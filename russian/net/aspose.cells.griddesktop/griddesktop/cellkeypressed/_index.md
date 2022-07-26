@@ -1,14 +1,14 @@
 ---
 title: CellKeyPressed
 second_title: Справочник по Aspose.Cells для .NET API
-description: Происходит при нажатии клавиши когда ячейка имеет фокус.
+description: Происходит при нажатии клавиши когда фокус находится на ячейке.
 type: docs
 weight: 460
 url: /ru/net/aspose.cells.griddesktop/griddesktop/cellkeypressed/
 ---
 ## GridDesktop.CellKeyPressed event
 
-Происходит при нажатии клавиши, когда ячейка имеет фокус.
+Происходит при нажатии клавиши, когда фокус находится на ячейке.
 
 ```csharp
 public event CellKeyEventHandler CellKeyPressed;

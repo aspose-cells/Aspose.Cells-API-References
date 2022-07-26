@@ -19,8 +19,7 @@ public ShapePathCollection Paths { get; }
 ```csharp
 
 [C#]
-//如果有自定义geometry
-
+//如果有自定义几何的路径，则返回非null
 if(shape.Paths == null)
     Console.WriteLine("No custom geometry path.");
 ```

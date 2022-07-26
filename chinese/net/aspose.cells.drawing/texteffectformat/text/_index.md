@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: Aspose.Cells for .NET API 参考
-description: 艺术字中的文本
+description: 艺术字中的文字
 type: docs
 weight: 70
 url: /zh/net/aspose.cells.drawing/texteffectformat/text/
 ---
 ## TextEffectFormat.Text property
 
-艺术字中的文本。
+艺术字中的文字。
 
 ```csharp
 public string Text { get; set; }

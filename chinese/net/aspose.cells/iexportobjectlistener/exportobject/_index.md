@@ -20,7 +20,7 @@ public object ExportObject(ExportObjectEvent e)
 
 ### 返回值
 
-导出对象的结果信息。 &lt;ul&gt;&lt;li&gt;用于在将工作簿导出为 HTML 格式时导出对象， 结果是 URL 字符串，用于从包含该导出对象的 html 文件中访问保存的图像。 &lt;/li&gt;&lt;/ul&gt;
+导出对象的结果信息。 对于将工作簿导出为 HTML 格式时导出对象， 结果是 URL 字符串，用于从包含此导出对象的 html 文件中访问保存的图像。
 
 ### 也可以看看
 

@@ -22,7 +22,7 @@ public void AutoFitColumn(int columnIndex, int firstRow, int lastRow)
 
 ### 评论
 
-此方法根据行内单元格范围内的内容自动调整行。
+此方法根据行内一系列单元格中的内容自动调整行。
 
 ### 也可以看看
 

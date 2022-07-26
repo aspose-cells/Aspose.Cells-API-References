@@ -1,14 +1,14 @@
 ---
 title: ACWLanguageFileUrl
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置控件语言文件的网址例如/acw_client/lang_en.js ltbrgt默认使用内置英文文件lt/brgt
+description: 获取或设置控件语言文件的网址例如/acw_client/lang_en.js. 默认情况下使用内置的英文文件
 type: docs
 weight: 110
 url: /zh/net/aspose.cells.gridweb/mainweb/acwlanguagefileurl/
 ---
 ## MainWeb.ACWLanguageFileUrl property
 
-获取或设置控件语言文件的网址。例如:“/acw_client/lang_en.js”。 &lt;br&gt;默认使用内置英文文件。&lt;/br&gt;
+获取或设置控件语言文件的网址。例如：“/acw_client/lang_en.js”. 默认情况下，使用内置的英文文件。
 
 ```csharp
 public string ACWLanguageFileUrl { get; set; }

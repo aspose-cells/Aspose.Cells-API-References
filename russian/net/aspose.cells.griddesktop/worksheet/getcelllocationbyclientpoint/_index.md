@@ -16,7 +16,7 @@ public CellLocation GetCellLocationByClientPoint(Point clientPoint)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| clientPoint | Point | Точка координат клиента |
+| clientPoint | Point | Координаты клиента |
 
 ### Возвращаемое значение
 

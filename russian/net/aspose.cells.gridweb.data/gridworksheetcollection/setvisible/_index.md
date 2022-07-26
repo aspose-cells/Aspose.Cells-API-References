@@ -16,8 +16,8 @@ public void SetVisible(string name, bool v)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVisible | String | Виден ли лист |
-| ignoreError | Boolean | Игнорировать ошибка, если этот параметр недействителен. |
+| isVisible | String | Виден ли рабочий лист |
+| ignoreError | Boolean | Игнорировать ли ошибку, если этот параметр недействителен. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: SaveCommand
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возникает при нажатии кнопки сохранить.
+description: Происходит при нажатии кнопки сохранить.
 type: docs
 weight: 100
 url: /ru/net/aspose.cells.gridweb/gridwebform/savecommand/
 ---
 ## GridWebForm.SaveCommand event
 
-Возникает при нажатии кнопки "сохранить".
+Происходит при нажатии кнопки "сохранить".
 
 ```csharp
 public event WorkbookEventHandler SaveCommand;

@@ -3,7 +3,7 @@ title: ShowGroupDetail
 second_title: Справочник по Aspose.Cells для .NET API
 description: Разворачивает сгруппированные строки/столбцы.
 type: docs
-weight: 1290
+weight: 1300
 url: /ru/net/aspose.cells/cells/showgroupdetail/
 ---
 ## Cells.ShowGroupDetail method
@@ -16,7 +16,7 @@ public void ShowGroupDetail(bool isVertical, int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVertical | Boolean | True, расширяет сгруппированные строки. |
+| isVertical | Boolean | Правда, расширяет сгруппированные строки. |
 | index | Int32 | Индекс строки/столбца |
 
 ### Смотрите также

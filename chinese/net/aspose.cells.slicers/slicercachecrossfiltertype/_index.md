@@ -1,14 +1,14 @@
 ---
 title: SlicerCacheCrossFilterType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示 SlicerCacheCrossFilterType 的类型
+description: 代表SlicerCacheCrossFilterType的类型
 type: docs
 weight: 5650
 url: /zh/net/aspose.cells.slicers/slicercachecrossfiltertype/
 ---
 ## SlicerCacheCrossFilterType enumeration
 
-表示 SlicerCacheCrossFilterType 的类型
+代表SlicerCacheCrossFilterType的类型
 
 ```csharp
 public enum SlicerCacheCrossFilterType
@@ -18,9 +18,9 @@ public enum SlicerCacheCrossFilterType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 切片器项目的切片器样式的表格样式元素 with no data 不适用于没有数据的切片器项目和切片器项目 没有数据不会在切片器视图中的切片器项目列表中单独排序 |
-| ShowItemsWithDataAtTop | `1` | 具有 无数据的切片器项的切片器样式的表格样式元素应用于无数据的切片器项，而切片器项 没有数据在切片器视图中的切片器项目列表的底部排序 |
-| ShowItemsWithNoData | `2` | 没有数据的切片器项目的切片器样式的表格样式元素 应用于没有数据的切片器项目，以及没有数据的切片器项目data 在切片器视图的切片器项目列表中未单独排序。 |
+| None | `0` | 没有数据的切片器items 的切片器样式的表格样式元素不适用于没有数据的切片器项目，并且没有数据的切片器items 在切片器视图中的切片器项目列表中没有单独排序 |
+| ShowItemsWithDataAtTop | `1` | 有 无数据的切片器项的切片器样式的表格样式元素应用于无数据的切片器项，无数据的切片器项 在切片器视图中的切片器项列表中排在底部 |
+| ShowItemsWithNoData | `2` | 无数据切片器项目 的切片器样式的表格样式元素应用于无数据的切片器项目，无数据 的切片器项目在切片器视图的切片器项目列表中不单独排序。 |
 
 ### 也可以看看
 

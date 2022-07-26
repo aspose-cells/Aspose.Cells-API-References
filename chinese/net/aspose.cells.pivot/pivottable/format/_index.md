@@ -16,9 +16,9 @@ public void Format(int row, int column, Style style)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| row | Int32 | 行索引单元格 |
+| row | Int32 | 单元格的行索引 |
 | column | Int32 | 单元格的列索引 |
-| style | Style | 格式化单元格的样式 |
+| style | Style | 用于格式化单元格的样式 |
 
 ### 也可以看看
 

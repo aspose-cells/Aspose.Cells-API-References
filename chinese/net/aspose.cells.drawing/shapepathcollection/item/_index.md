@@ -16,11 +16,11 @@ public ShapePath this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引。 |
+| index | 指数。 |
 
 ### 返回值
 
-返回[`ShapePath`](../../shapepath)对象。
+退货[`ShapePath`](../../shapepath)目的。
 
 ### 也可以看看
 

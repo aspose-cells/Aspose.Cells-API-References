@@ -16,7 +16,7 @@ public bool EnableClientRowOperations { get; set; }
 
 ### 评论
 
-当设置为 true 时，用户可以使用右键菜单添加/删除行。
+设置为true时，用户可以使用右键菜单添加/删除行。
 
 ### 也可以看看
 

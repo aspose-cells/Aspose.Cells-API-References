@@ -1,14 +1,14 @@
 ---
 title: MapChartLabelLayout
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет макет меток карты.
+description: Представляет макет меток картографической диаграммы.
 type: docs
 weight: 730
 url: /ru/net/aspose.cells.charts/mapchartlabellayout/
 ---
 ## MapChartLabelLayout enumeration
 
-Представляет макет меток карты.
+Представляет макет меток картографической диаграммы.
 
 ```csharp
 public enum MapChartLabelLayout
@@ -18,7 +18,7 @@ public enum MapChartLabelLayout
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| BestFitOnly | `0` | Только наилучшее соответствие. |
+| BestFitOnly | `0` | Лучше всего подходит. |
 | ShowAll | `1` | Показывает все ярлыки. |
 | None | `2` | Нет меток. |
 

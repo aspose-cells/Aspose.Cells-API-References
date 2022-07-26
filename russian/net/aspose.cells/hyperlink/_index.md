@@ -36,31 +36,31 @@ public class Hyperlink
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
-  //Добавление нового рабочего листа в рабочую книгу object
+//Добавление нового рабочего листа в объект Workbook
 workbook.Worksheets.Add();
-  //Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
+//Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
 Worksheet worksheet = workbook.Worksheets[0];
-  //Добавление гиперссылки к URL-адресу "A1" cell
-int index = worksheet.Hyperlinks.Add("A1", 1, 1, "http:  //www.aspose.com");
-  //Получение гиперссылки по индексу.
+//Добавление гиперссылки на URL в ячейке "A1"
+int index = worksheet.Hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
+//Получение гиперссылки по индексу.
 Hyperlink hyperlink = worksheet.Hyperlinks[index];
-  //Установка отображаемого текста этой гиперссылки.
+//Установка отображаемого текста этой гиперссылки.
 hyperlink.TextToDisplay = "Aspose";
-  //Сохранение файла Excel
+//Сохранение файла Excel
 workbook.Save("book1.xls");
 
 [Visual Basic]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
-'Добавление нового рабочего листа в рабочую книгу object
+'Добавление нового рабочего листа в объект Workbook
 workbook.Worksheets.Add()
-'Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
+'Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
 Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Добавление гиперссылки к URL-адресу "A1" cell
-Dim index as Integer = worksheet.Hyperlinks.Add("A1", 1, 1, "http:  //www.aspose.com")
+'Adding a hyperlink to a URL at "A1" cell
+Dim index as Integer = worksheet.Hyperlinks.Add("A1", 1, 1, "http://www.aspose.com")
 'Получение гиперссылки по индексу.
 Dim hyperlink as Hyperlink = worksheet.Hyperlinks(index);
 'Установка отображаемого текста этой гиперссылки.

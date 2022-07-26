@@ -1,14 +1,14 @@
 ---
 title: TableCssId
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置 trcoltd 等类型 css 名称的前缀它们包含在表元素 中它具有特定的 TableCssId 属性默认值为
+description: 获取和设置类型css名称的前缀如trcoltd等它们包含在具有特定TableCssId属性的表元素 中默认值为 .
 type: docs
-weight: 460
+weight: 490
 url: /zh/net/aspose.cells/htmlsaveoptions/tablecssid/
 ---
 ## HtmlSaveOptions.TableCssId property
 
-获取和设置 tr,col,td 等类型 css 名称的前缀，它们包含在表元素 中它具有特定的 TableCssId 属性。默认值为“”。
+获取和设置类型css名称的前缀，如tr,col,td等，它们包含在具有特定TableCssId属性的表元素 中。默认值为 "".
 
 ```csharp
 public string TableCssId { get; set; }

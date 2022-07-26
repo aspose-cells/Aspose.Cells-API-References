@@ -30,17 +30,17 @@ public class WorkbookRender
 
 | Имя | Описание |
 | --- | --- |
-| [CustomPrint](../../aspose.cells.rendering/workbookrender/customprint)(bool, PrintPageEventArgs) | Клиент может управлять настройками страницы принтера при печати каждой страницы с помощью этой функции. |
-| [GetPageSizeInch](../../aspose.cells.rendering/workbookrender/getpagesizeinch)(int) | Получить размер страницы выходного изображения в дюймах. |
-| [ToImage](../../aspose.cells.rendering/workbookrender/toimage#toimage)(int) | Рендеринг определенной страницы в объект Bitmap. |
+| [CustomPrint](../../aspose.cells.rendering/workbookrender/customprint)(bool, PrintPageEventArgs) | Клиент может управлять настройкой страницы принтера при печати каждой страницы с помощью этой функции. |
+| [GetPageSizeInch](../../aspose.cells.rendering/workbookrender/getpagesizeinch)(int) | Получить размер страницы в дюймах выходного изображения. |
+| [ToImage](../../aspose.cells.rendering/workbookrender/toimage#toimage)(int) | Визуализация определенной страницы в объект Bitmap. |
 | [ToImage](../../aspose.cells.rendering/workbookrender/toimage#toimage_3)(Stream) | Визуализация всей книги в виде изображения Tiff для потоковой передачи. |
 | [ToImage](../../aspose.cells.rendering/workbookrender/toimage#toimage_4)(string) | Визуализация всей книги в виде изображения Tiff в файл. |
-| [ToImage](../../aspose.cells.rendering/workbookrender/toimage#toimage_1)(int, Stream) | Рендерить определенную страницу в поток. |
-| [ToImage](../../aspose.cells.rendering/workbookrender/toimage#toimage_2)(int, string) | Рендерит определенную страницу в файл. |
-| [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter#toprinter)(PrinterSettings) | Рендеринг книги на принтер |
-| [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter#toprinter_2)(string) | Вывод книги на принтер |
-| [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter#toprinter_1)(PrinterSettings, string) | Рендеринг книги на принтер |
-| [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter#toprinter_4)(string, string) | Вывод книги на принтер |
+| [ToImage](../../aspose.cells.rendering/workbookrender/toimage#toimage_1)(int, Stream) | Визуализация определенной страницы в поток. |
+| [ToImage](../../aspose.cells.rendering/workbookrender/toimage#toimage_2)(int, string) | Визуализация определенной страницы в файл. |
+| [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter#toprinter)(PrinterSettings) | Рендеринг книги на Printer |
+| [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter#toprinter_2)(string) | Рендеринг книги на Printer |
+| [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter#toprinter_1)(PrinterSettings, string) | Рендеринг книги на Printer |
+| [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter#toprinter_4)(string, string) | Рендеринг книги на Printer |
 
 ### Смотрите также
 

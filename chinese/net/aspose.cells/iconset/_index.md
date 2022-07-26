@@ -18,12 +18,12 @@ public class IconSet
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CfIcons](../../aspose.cells/iconset/cficons) { get; } | 从集合 |
+| [CfIcons](../../aspose.cells/iconset/cficons) { get; } | 获取[`ConditionalFormattingIcon`](../conditionalformattingicon)来自集合 |
 | [Cfvos](../../aspose.cells/iconset/cfvos) { get; } | 获取 CFValueObjects 实例。 |
-| [IsCustom](../../aspose.cells/iconset/iscustom) { get; } | 表示图标集是否为自定义。 默认值为假。 |
-| [Reverse](../../aspose.cells/iconset/reverse) { get; set; } | 获取或设置是否反转此图标集中图标的默认顺序的标志。 默认值为假。 |
-| [ShowValue](../../aspose.cells/iconset/showvalue) { get; set; } | 获取或设置指示是否显示应用此图标集的单元格值的标志。 默认值为真。 |
-| [Type](../../aspose.cells/iconset/type) { get; set; } | 获取或设置要显示的图标集类型。 设置类型会自动检查当前 Cfvos 的计数是否为 符合新类型。如果不一致，将清除旧的 Cfvos，并添加 默认 Cfvos。 |
+| [IsCustom](../../aspose.cells/iconset/iscustom) { get; } | 表示图标集是否为自定义。 默认值为false。 |
+| [Reverse](../../aspose.cells/iconset/reverse) { get; set; } | 获取或设置是否反转此图标集中图标的默认顺序的标志。 默认值为false。 |
+| [ShowValue](../../aspose.cells/iconset/showvalue) { get; set; } | 获取或设置标志，指示是否显示应用此图标集的单元格的值。 默认值为 true。 |
+| [Type](../../aspose.cells/iconset/type) { get; set; } | 获取或设置图标集类型为显示。 设置类型将自动检查当前Cfvos的计数是否 符合新类型。如果不一致，将清理旧的 Cfvos，并添加 默认 Cfvos。 |
 
 ### 例子
 
@@ -31,17 +31,17 @@ public class IconSet
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 
 Worksheet sheet = workbook.Worksheets[0];
 
- //添加一个空的条件格式
+//添加一个空的条件格式
 int index = sheet.ConditionalFormattings.Add();
 
 FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
 
- //设置条件格式范围.
+//设置条件格式范围。
 CellArea ca = new CellArea();
 
 ca.StartRow = 0;
@@ -54,20 +54,20 @@ ca.EndColumn = 0;
 
 fcs.AddArea(ca);
 
- //添加条件.
+//添加条件。
 int idx = fcs.AddCondition(FormatConditionType.IconSet);
 
 fcs.AddArea(ca);
 
 FormatCondition cond = fcs[idx];
 
- //获取图标集
+//获取图标集
 IconSet iconSet = cond.IconSet;
 
- //设置图标类型
+//设置图标类型
 iconSet.Type = IconSetType.Arrows3;
 
- //把单元格Values
+//放置单元格值
 Aspose.Cells.Cell cell1 = sheet.Cells["A1"];
 
 cell1.PutValue(10);
@@ -80,12 +80,12 @@ Aspose.Cells.Cell cell3 = sheet.Cells["A3"];
 
 cell3.PutValue(260);
 
- //保存Excel文件
+//保存Excel文件
 workbook.Save("book1.xlsx");
 
 [VB.NET]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 
 Dim sheet As Worksheet = workbook.Worksheets(0)

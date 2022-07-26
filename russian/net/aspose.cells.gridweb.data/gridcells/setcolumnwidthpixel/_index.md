@@ -17,7 +17,7 @@ public void SetColumnWidthPixel(int column, int pixel)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | column | Int32 | Индекс столбца. |
-| пиксель | Int32 | Количество пикселей. |
+| pixel | Int32 | Количество пикселей. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定索引处的Hyperlink元素
+description: 获取Hyperlink指定索引处的元素
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.griddesktop.data/gridhyperlinkcollection/item/
 ---
 ## GridHyperlinkCollection indexer (1 of 2)
 
-获取指定索引处的Hyperlink元素。
+获取Hyperlink指定索引处的元素。
 
 ```csharp
 public GridHyperlink this[int index] { get; }
@@ -33,7 +33,7 @@ public GridHyperlink this[int index] { get; }
 
 ## GridHyperlinkCollection indexer (2 of 2)
 
-获取指定单元格处的Hyperlink元素。
+获取Hyperlink指定单元格处的元素。
 
 ```csharp
 public GridHyperlink this[int row, int col] { get; }

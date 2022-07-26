@@ -21,7 +21,7 @@ public void UngroupRows(int firstIndex, int lastIndex)
 
 ### 评论
 
-仅删除外部组信息。
+只删除外部组信息。
 
 ### 也可以看看
 

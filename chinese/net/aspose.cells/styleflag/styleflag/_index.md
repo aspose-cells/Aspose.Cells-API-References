@@ -1,14 +1,14 @@
 ---
 title: StyleFlag
 second_title: Aspose.Cells for .NET API 参考
-description: 构造一个所有标志为假的对象
+description: 构造一个所有标志为 false 的对象
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/styleflag/styleflag/
 ---
 ## StyleFlag constructor
 
-构造一个所有标志为假的对象。
+构造一个所有标志为 false 的对象。
 
 ```csharp
 public StyleFlag()

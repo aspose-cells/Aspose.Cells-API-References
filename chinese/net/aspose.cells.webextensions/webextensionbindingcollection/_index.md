@@ -26,7 +26,7 @@ public class WebExtensionBindingCollection : CollectionBase<WebExtensionBinding>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.webextensions/webextensionbindingcollection/item) { get; } | 通过特定索引获取web扩展绑定关系。 |
+| [Item](../../aspose.cells.webextensions/webextensionbindingcollection/item) { get; } | 通过特定索引获取web扩展绑定关系 |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法

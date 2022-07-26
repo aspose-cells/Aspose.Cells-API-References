@@ -1,14 +1,14 @@
 ---
 title: SortRange
 second_title: Aspose.Cells for .NET API 参考
-description: 通过指定工作表范围和排序方向来初始化SortRangeaspose.cells.griddesktop/sortrange类的新实例
+description: 初始化SortRangeaspose.cells.griddesktop/sortrange通过指定工作表范围和排序方向来分类
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.griddesktop/sortrange/sortrange/
 ---
 ## SortRange constructor
 
-通过指定工作表范围和排序方向来初始化[`SortRange`](../../sortrange)类的新实例。
+初始化[`SortRange`](../../sortrange)通过指定工作表范围和排序方向来分类。
 
 ```csharp
 public SortRange(Worksheet worksheet, int startRow, int startColumn, int rows, int columns, 
@@ -22,7 +22,7 @@ public SortRange(Worksheet worksheet, int startRow, int startColumn, int rows, i
 | startColumn | Int32 | 范围的起始列。 |
 | rows | Int32 | 行数。 |
 | columns | Int32 | 列数 |
-| orientation | SortOrientation | 排序方向:从上到下或左对。 |
+| orientation | SortOrientation | 排序方向：从上到下或从左到右。 |
 | isCaseSensitive | Boolean | 如果数据是字符串，则确定排序数据是否区分大小写 |
 
 ### 也可以看看

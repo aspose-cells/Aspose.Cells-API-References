@@ -1,14 +1,14 @@
 ---
 title: Area
 second_title: Aspose.Cells for .NET API 参考
-description: 获取Areaaspose.cells.charts/axis/area
+description: 获取Areaaspose.cells.charts/axis/area.
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.charts/axis/area/
 ---
 ## Axis.Area property
 
-获取`Area`。
+获取`Area`.
 
 ```csharp
 public Area Area { get; }

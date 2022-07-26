@@ -1,14 +1,14 @@
 ---
 title: AddDigitalSignature
 second_title: Aspose.Cells for .NET API 参考
-description: 将数字签名添加到 OOXML 电子表格文件Excel2007 及更高版本
+description: 向 OOXML 电子表格文件Excel2007 及更高版本添加数字签名
 type: docs
 weight: 280
 url: /zh/net/aspose.cells/workbook/adddigitalsignature/
 ---
 ## Workbook.AddDigitalSignature method
 
-将数字签名添加到 OOXML 电子表格文件（Excel2007 及更高版本）。
+向 OOXML 电子表格文件（Excel2007 及更高版本）添加数字签名。
 
 ```csharp
 public void AddDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)
@@ -20,7 +20,7 @@ public void AddDigitalSignature(DigitalSignatureCollection digitalSignatureColle
 
 ### 评论
 
-仅支持将 Xmldsig 数字签名添加到 OOXML电子表格文件
+仅支持将 Xmldsig 数字签名添加到 OOXML 电子表格文件
 
 ### 也可以看看
 

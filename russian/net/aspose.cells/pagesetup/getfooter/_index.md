@@ -1,14 +1,14 @@
 ---
 title: GetFooter
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает сценарий форматирующий нижний колонтитул файла Excel.
+description: Получает скрипт форматирующий нижний колонтитул файла Excel.
 type: docs
 weight: 520
 url: /ru/net/aspose.cells/pagesetup/getfooter/
 ---
 ## PageSetup.GetFooter method
 
-Получает сценарий, форматирующий нижний колонтитул файла Excel.
+Получает скрипт, форматирующий нижний колонтитул файла Excel.
 
 ```csharp
 public string GetFooter(int section)
@@ -16,7 +16,7 @@ public string GetFooter(int section)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| section | Int32 | 0:Левая секция. |
+| section | Int32 | 0: левая часть, 1: центральная часть, 2: правая часть. |
 
 ### Смотрите также
 

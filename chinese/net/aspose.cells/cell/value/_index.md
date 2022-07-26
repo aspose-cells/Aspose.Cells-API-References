@@ -16,21 +16,21 @@ public object Value { get; set; }
 
 ### 评论
 
-可能的类型:
+可能的类型：
 
-null,
+无效的，
 
-Boolean,
+布尔值，
 
-DateTime,
+约会时间，
 
-Double,
+双倍的，
 
 整数
 
-字符串。
+细绳。
 
-对于 int 值，它可以作为 Integer 对象或 Double 对象返回。 并且不能保证返回的值将始终保持为相同类型的对象。
+对于 int 值，它可能作为 Integer 对象或 Double 对象返回。 并且不保证返回的值将始终保持为同一类型的对象。
 
 ### 也可以看看
 

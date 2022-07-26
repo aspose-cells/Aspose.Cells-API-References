@@ -1,14 +1,14 @@
 ---
 title: QuoteType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает способ заключать в кавычки значения в экспортированном текстовом файле.
+description: Получает или задает как заключать в кавычки значения в экспортированном текстовом файле.
 type: docs
 weight: 90
 url: /ru/net/aspose.cells/txtsaveoptions/quotetype/
 ---
 ## TxtSaveOptions.QuoteType property
 
-Получает или задает способ заключать в кавычки значения в экспортированном текстовом файле.
+Получает или задает, как заключать в кавычки значения в экспортированном текстовом файле.
 
 ```csharp
 public TxtValueQuoteType QuoteType { get; set; }

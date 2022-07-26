@@ -1,14 +1,14 @@
 ---
 title: ControlScrollBarType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示滚动条的类型
+description: 代表滚动条的类型
 type: docs
 weight: 1590
 url: /zh/net/aspose.cells.drawing.activexcontrols/controlscrollbartype/
 ---
 ## ControlScrollBarType enumeration
 
-表示滚动条的类型。
+代表滚动条的类型。
 
 ```csharp
 public enum ControlScrollBarType

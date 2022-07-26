@@ -1,14 +1,14 @@
 ---
 title: GridName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует объект который представляет объект имени.
+description: Инкапсулирует объект представляющий объект имени.
 type: docs
 weight: 300
 url: /ru/net/aspose.cells.gridweb.data/gridname/
 ---
 ## GridName class
 
-Инкапсулирует объект, который представляет объект имени.
+Инкапсулирует объект, представляющий объект имени.
 
 ```csharp
 public class GridName
@@ -19,7 +19,7 @@ public class GridName
 | Имя | Описание |
 | --- | --- |
 | [RefersTo](../../aspose.cells.gridweb.data/gridname/refersto) { get; set; } | Возвращает или задает формулу, на которую ссылается имя, начиная со знака равенства. |
-| [SheetIndex](../../aspose.cells.gridweb.data/gridname/sheetindex) { get; set; } | Указывает, что это имя принадлежит рабочей книге или рабочему листу. 0 = глобальное имя, в противном случае индекс листа (на основе единицы) |
+| [SheetIndex](../../aspose.cells.gridweb.data/gridname/sheetindex) { get; set; } | Указывает, что это имя принадлежит рабочей книге или рабочему листу. 0 = глобальное имя, в противном случае индекс для листа (на основе одного) |
 | [Text](../../aspose.cells.gridweb.data/gridname/text) { get; set; } | Получает текст имени объекта. |
 
 ## Методы

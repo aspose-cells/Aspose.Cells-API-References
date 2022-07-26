@@ -18,20 +18,20 @@ public class WorkbookDesigner
 
 | Имя | Описание |
 | --- | --- |
-| [WorkbookDesigner](workbookdesigner#constructor)() | Инициализирует новый экземпляр класса[`WorkbookDesigner`](../workbookdesigner). |
-| [WorkbookDesigner](workbookdesigner#constructor_1)(Workbook) | Инициализирует новый экземпляр класса[`WorkbookDesigner`](../workbookdesigner). |
+| [WorkbookDesigner](workbookdesigner#constructor)() | Инициализирует новый экземпляр[`WorkbookDesigner`](../workbookdesigner) класс. |
+| [WorkbookDesigner](workbookdesigner#constructor_1)(Workbook) | Инициализирует новый экземпляр[`WorkbookDesigner`](../workbookdesigner) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [CalculateFormula](../../aspose.cells/workbookdesigner/calculateformula) { get; set; } | Указывает, следует ли вычислять формулы. |
-| [CallBack](../../aspose.cells/workbookdesigner/callback) { get; set; } | Получает и устанавливает интерфейс обратного вызова обработки смартмаркера. |
-| [LineByLine](../../aspose.cells/workbookdesigner/linebyline) { get; set; } | Указывает, обрабатывается ли смарт-маркер построчно. |
+| [CallBack](../../aspose.cells/workbookdesigner/callback) { get; set; } | Получает и задает интерфейс обратного вызова обработки смартмаркера. |
+| [LineByLine](../../aspose.cells/workbookdesigner/linebyline) { get; set; } | Указывает, обрабатывается ли интеллектуальный маркер построчно. |
 | [RepeatFormulasWithSubtotal](../../aspose.cells/workbookdesigner/repeatformulaswithsubtotal) { get; set; } | Указывает, повторяются ли формулы со строкой промежуточных итогов. |
 | [UpdateEmptyStringAsNull](../../aspose.cells/workbookdesigner/updateemptystringasnull) { get; set; } | Если TRUE, Null будет вставлен, если значение равно ""; |
-| [UpdateReference](../../aspose.cells/workbookdesigner/updatereference) { get; set; } | Указывает, будут ли обновляться ссылки в других рабочих листах. |
-| [Workbook](../../aspose.cells/workbookdesigner/workbook) { get; set; } | Получает и задает объект[`Workbook`](./workbook). |
+| [UpdateReference](../../aspose.cells/workbookdesigner/updatereference) { get; set; } | Указывает, будут ли обновлены ссылки на других рабочих листах. |
+| [Workbook](../../aspose.cells/workbookdesigner/workbook) { get; set; } | Получает и устанавливает[`Workbook`](./workbook) объект. |
 
 ## Методы
 
@@ -47,8 +47,8 @@ public class WorkbookDesigner
 | [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource_2)(DataView) | Устанавливает источник данных объекта DataView. |
 | [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource_3)(OleDbConnection) | Устанавливает источник данных объекта OleDbConnection. |
 | [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource_4)(SqlConnection) | Устанавливает источник данных объекта SqlConnection. |
-| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource_6)(string, DataView) | Устанавливает источник данных объекта DataView и привязывает его к имени источника данных. |
-| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource_5)(string, ICellsDataTable) | Устанавливает источник данных объекта[`ICellsDataTable`](../icellsdatatable). |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource_6)(string, DataView) | Задает источник данных объекта DataView и привязывает его к имени источника данных. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource_5)(string, ICellsDataTable) | Устанавливает источник данных[`ICellsDataTable`](../icellsdatatable) объект. |
 | [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource_8)(string, object) | Устанавливает привязку данных к переменной. |
 | [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource_7)(string, IDataReader, int) | Устанавливает источник данных объекта IDataReader. |
 
@@ -58,20 +58,20 @@ public class WorkbookDesigner
 
 [C#]
 
-  //Создать объект WorkbookDesigner.
+//Создаем объект WorkbookDesigner.
 WorkbookDesigner wd = new WorkbookDesigner();
-  //Открываем файл шаблона (который содержит смарт-маркеры).
+//Открываем файл шаблона (который содержит умные маркеры).
 wd.Workbook = new Workbook("SmartMarker_Designer.xls");
 
-  //Инициализировать ваши данные из data source
-  //Набор данных ds = новый Набор данных();
+//Инициализировать ваши данные из источника данных
+//Набор данных ds = новый Набор данных();
 //...
 
-  // Установите таблицу данных в качестве источника данных.
-  //wd.SetDataSource(dt);
-  //Обработка интеллектуальных маркеров для заполнения данными рабочих листов.
+// Установите datatable в качестве источника данных.
+//wd.SetDataSource(dt);
+//Обработка смарт-маркеров для заполнения данными рабочих листов.
 wd.Process(true);
-  // Сохраняем файл Excel.
+// Сохраняем файл excel.
 wd.Workbook.Save("outSmartMarker_Designer.xls");
 
 ```

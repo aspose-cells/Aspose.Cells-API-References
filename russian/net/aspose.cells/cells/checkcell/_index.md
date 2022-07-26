@@ -1,14 +1,14 @@
 ---
 title: CheckCell
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементCellaspose.cells/cellили null в указанном индексе строки ячейки и индексе столбца.
+description: ПолучаетCellaspose.cells/cell элемент или нуль в указанном индексе строки ячейки и индексе столбца.
 type: docs
 weight: 360
 url: /ru/net/aspose.cells/cells/checkcell/
 ---
 ## Cells.CheckCell method
 
-Получает элемент[`Cell`](../../cell)или null в указанном индексе строки ячейки и индексе столбца.
+Получает[`Cell`](../../cell) элемент или нуль в указанном индексе строки ячейки и индексе столбца.
 
 ```csharp
 public Cell CheckCell(int row, int column)

@@ -1,14 +1,14 @@
 ---
 title: ScopeType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получить и установить тип области для формата условий сводной таблицы.
+description: Получить и установить тип области для формата условия сводной таблицы .
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.pivot/pivotformatcondition/scopetype/
 ---
 ## PivotFormatCondition.ScopeType property
 
-Получить и установить тип области для формата условий сводной таблицы.
+Получить и установить тип области для формата условия сводной таблицы .
 
 ```csharp
 public PivotConditionFormatScopeType ScopeType { get; set; }

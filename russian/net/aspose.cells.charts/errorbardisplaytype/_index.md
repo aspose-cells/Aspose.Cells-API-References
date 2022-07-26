@@ -1,14 +1,14 @@
 ---
 title: ErrorBarDisplayType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет тип отображения полосы ошибок.
+description: Представляет тип отображения панели ошибок.
 type: docs
 weight: 640
 url: /ru/net/aspose.cells.charts/errorbardisplaytype/
 ---
 ## ErrorBarDisplayType enumeration
 
-Представляет тип отображения полосы ошибок.
+Представляет тип отображения панели ошибок.
 
 ```csharp
 public enum ErrorBarDisplayType

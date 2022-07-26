@@ -1,14 +1,14 @@
 ---
 title: IsReferred
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает ссылаются ли другие на эту внешнюю ссылку.
+description: Указывает ссылаются ли на эту внешнюю ссылку другие.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/externallink/isreferred/
 ---
 ## ExternalLink.IsReferred property
 
-Указывает, ссылаются ли другие на эту внешнюю ссылку.
+Указывает, ссылаются ли на эту внешнюю ссылку другие.
 
 ```csharp
 public bool IsReferred { get; }

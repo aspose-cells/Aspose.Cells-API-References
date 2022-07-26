@@ -1,14 +1,14 @@
 ---
 title: CheckMixedValueType
 second_title: Справочник по Aspose.Cells для .NET API
-description: False Aspose.Cells установит тип DataColumn по типу значения первой строки для повышения производительности. True Aspose.Cells проверит являются ли типы значений в столбце смешанными прежде чем установить тип DataColumn И тип значения смешанный тип DataColumn будет строковым.
+description: False Aspose.Cells установит тип DataColumn по типу значения первой строки для повышения производительности. True Aspose.Cells проверит смешаны ли типы значений в столбце прежде чем установить тип DataColumn И тип значения смешанный тип DataColumn будет string.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/exporttableoptions/checkmixedvaluetype/
 ---
 ## ExportTableOptions.CheckMixedValueType property
 
-False, Aspose.Cells установит тип DataColumn по типу значения первой строки для повышения производительности. True, Aspose.Cells проверит, являются ли типы значений в столбце смешанными, прежде чем установить тип DataColumn И тип значения смешанный, тип DataColumn будет строковым.
+False, Aspose.Cells установит тип DataColumn по типу значения первой строки для повышения производительности. True, Aspose.Cells проверит, смешаны ли типы значений в столбце, прежде чем установить тип DataColumn И тип значения смешанный, тип DataColumn будет string.
 
 ```csharp
 public bool CheckMixedValueType { get; set; }

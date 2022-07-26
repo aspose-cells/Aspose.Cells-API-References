@@ -1,14 +1,14 @@
 ---
 title: AddByBaseIndex
 second_title: Aspose.Cells for .NET API 参考
-description: 将 PivotField 对象添加到特定类型的 PivotFields
+description: 将 PivotField 对象添加到特定类型的 PivotFields.
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.pivot/pivotfieldcollection/addbybaseindex/
 ---
 ## PivotFieldCollection.AddByBaseIndex method
 
-将 PivotField 对象添加到特定类型的 PivotFields。
+将 PivotField 对象添加到特定类型的 PivotFields.
 
 ```csharp
 public int AddByBaseIndex(int baseFieldIndex)

@@ -1,14 +1,14 @@
 ---
 title: ChartCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует набор объектовChart./chart.
+description: Инкапсулирует наборChart./chart объекты.
 type: docs
 weight: 450
 url: /ru/net/aspose.cells.charts/chartcollection/
 ---
 ## ChartCollection class
 
-Инкапсулирует набор объектов[`Chart`](../chart).
+Инкапсулирует набор[`Chart`](../chart) объекты.
 
 ```csharp
 public class ChartCollection : CollectionBase<Chart>
@@ -20,7 +20,7 @@ public class ChartCollection : CollectionBase<Chart>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.charts/chartcollection/item) { get; } | Получает элемент[`Chart`](../chart)по указанному индексу. (2 indexers) |
+| [Item](../../aspose.cells.charts/chartcollection/item) { get; } | Получает[`Chart`](../chart) элемент по указанному индексу. (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы
@@ -33,7 +33,7 @@ public class ChartCollection : CollectionBase<Chart>
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Chart) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Chart, IComparer&lt;Chart&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Chart, IComparer&lt;Chart&gt;) |  |
-| [Clear](../../aspose.cells.charts/chartcollection/clear#clear)() | Очистить все графики. (2 methods) |
+| [Clear](../../aspose.cells.charts/chartcollection/clear#clear)() | Очистить все диаграммы. (2 methods) |
 | [Contains](../../aspose.cells/collectionbase`1/contains)(Chart) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Chart[]) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Chart[], int) |  |

@@ -22,7 +22,7 @@ public enum GradientDirectionType
 | FromUpperRightCorner | `1` | FromUpperRightCorner |
 | FromLowerLeftCorner | `2` | FromLowerLeftCorner |
 | FromLowerRightCorner | `3` | FromLowerRightCorner |
-| FromCenter | `4` | FromCenter |
+| FromCenter | `4` | Из центра |
 | Unknown | `5` | Неизвестно |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: HeaderMargin
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет расстояние от верха страницы до заголовка в сантиметрах.
+description: Представляет расстояние от верхней части страницы до заголовка в сантиметрах.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells/pagesetup/headermargin/
 ---
 ## PageSetup.HeaderMargin property
 
-Представляет расстояние от верха страницы до заголовка в сантиметрах.
+Представляет расстояние от верхней части страницы до заголовка в сантиметрах.
 
 ```csharp
 public double HeaderMargin { get; set; }

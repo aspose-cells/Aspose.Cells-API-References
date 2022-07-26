@@ -24,7 +24,7 @@ public class CustomImplementationFactory
 
 | Имя | Описание |
 | --- | --- |
-| virtual [CreateCultureInfo](../../aspose.cells/customimplementationfactory/createcultureinfo)(int) | Создать один объект CultureInfo по указанному идентификатору. |
+| virtual [CreateCultureInfo](../../aspose.cells/customimplementationfactory/createcultureinfo)(int) | Создайте один объект CultureInfo по указанному идентификатору. |
 | virtual [CreateMemoryStream](../../aspose.cells/customimplementationfactory/creatememorystream#creatememorystream)() | Создайте один экземпляр MemoryStream или пользовательскую реализацию MemoryStream. |
 | virtual [CreateMemoryStream](../../aspose.cells/customimplementationfactory/creatememorystream#creatememorystream_1)(int) | Создайте один экземпляр MemoryStream или пользовательскую реализацию MemoryStream. |
 | virtual [CreateRandomInstance](../../aspose.cells/customimplementationfactory/createrandominstance)() | Создать один экземпляр генератора случайных чисел. |

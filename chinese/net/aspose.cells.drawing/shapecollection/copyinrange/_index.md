@@ -21,14 +21,14 @@ public void CopyInRange(ShapeCollection sourceShapes, CellArea ca, int destRow, 
 | ca | CellArea | 源范围。 |
 | destRow | Int32 | dest 范围的 dest 行索引。 |
 | destColumn | Int32 | dest 范围的 dest 列。 |
-| isContained | Boolean | 是否只复制范围内包含的形状。 如果为真，则仅复制范围内的形状。 否则，它作为 MS Office 工作。 |
+| isContained | Boolean | 是否只复制范围内的形状。 如果为true，只复制范围内的形状。 否则，它作为 MS Office 工作。 |
 
 ### 例子
 
 ```csharp
 
 [C#]
- //添加一个shape
+//添加一个形状
 shapes.AddRectangle(2, 0, 2, 0, 130, 130);
 CellArea area2 = new CellArea();
 area2.StartColumn = 1;
@@ -36,7 +36,7 @@ area2.StartRow = 1;
 area2.EndColumn = 5;
 area2.EndRow = 11;
 
- //copy
+//复制
 shapes.CopyInRange(shapes, area2, 12, 1, false);
 
 ```

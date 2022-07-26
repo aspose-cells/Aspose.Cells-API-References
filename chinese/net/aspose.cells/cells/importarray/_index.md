@@ -3,7 +3,7 @@ title: ImportArray
 second_title: Aspose.Cells for .NET API 参考
 description: 
 type: docs
-weight: 930
+weight: 940
 url: /zh/net/aspose.cells/cells/importarray/
 ---
 ## ImportArray(string[], int, int) {#importarray_4}
@@ -32,7 +32,7 @@ public void ImportArray(string[] stringArray, int firstRow, int firstColumn, boo
 | --- | --- | --- |
 | stringArray | String[] | 字符串数组。 |
 | firstRow | Int32 | 要导入的第一个单元格的行号。 |
-| firstColumn | Int32 | 列号要导入的第一个单元格。 |
+| firstColumn | Int32 | 要导入的第一个单元格的列号。 |
 | isVertical | Boolean | 指定垂直或水平导入数据。 |
 
 ### 也可以看看
@@ -69,7 +69,7 @@ public void ImportArray(int[] intArray, int firstRow, int firstColumn, bool isVe
 | --- | --- | --- |
 | intArray | Int32[] | 整数数组。 |
 | firstRow | Int32 | 要导入的第一个单元格的行号。 |
-| firstColumn | Int32 | 列号要导入的第一个单元格。 |
+| firstColumn | Int32 | 要导入的第一个单元格的列号。 |
 | isVertical | Boolean | 指定垂直或水平导入数据。 |
 
 ### 也可以看看
@@ -104,9 +104,9 @@ public void ImportArray(double[] doubleArray, int firstRow, int firstColumn, boo
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| doubleArray | Double[] | 双精度数组。 |
+| doubleArray | Double[] | 双数组。 |
 | firstRow | Int32 | 要导入的第一个单元格的行号。 |
-| firstColumn | Int32 | 列号要导入的第一个单元格。 |
+| firstColumn | Int32 | 要导入的第一个单元格的列号。 |
 | isVertical | Boolean | 指定垂直或水平导入数据。 |
 
 ### 也可以看看

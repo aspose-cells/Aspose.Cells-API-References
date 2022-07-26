@@ -1,14 +1,14 @@
 ---
 title: WeightPx
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает вес линии в единицах пикселей.
+description: Получает или задает вес линии в пикселях.
 type: docs
 weight: 220
 url: /ru/net/aspose.cells.drawing/line/weightpx/
 ---
 ## Line.WeightPx property
 
-Получает или задает вес линии в единицах пикселей.
+Получает или задает вес линии в пикселях.
 
 ```csharp
 public double WeightPx { get; set; }

@@ -17,11 +17,11 @@ public DateTimeGroupItem(DateTimeGroupingType type, int year, int month, int day
 | --- | --- | --- |
 | type | DateTimeGroupingType |  |
 | year | Int32 |  |
-| 月 | Int32 |  |
-| 日 | Int32 |  |
-| 小时 | Int32 |  |
-| 分钟 | Int32 |  |
-| 秒 | Int32 |  |
+| month | Int32 |  |
+| day | Int32 |  |
+| hour | Int32 |  |
+| minute | Int32 |  |
+| second | Int32 |  |
 
 ### 也可以看看
 

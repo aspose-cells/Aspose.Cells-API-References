@@ -1,14 +1,14 @@
 ---
 title: InputMethodEditorMode
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет режим выполнения по умолчанию редактора методов ввода.
+description: Представляет рабочий режим редактора методов ввода по умолчанию.
 type: docs
 weight: 1650
 url: /ru/net/aspose.cells.drawing.activexcontrols/inputmethodeditormode/
 ---
 ## InputMethodEditorMode enumeration
 
-Представляет режим выполнения по умолчанию редактора методов ввода.
+Представляет рабочий режим редактора методов ввода по умолчанию.
 
 ```csharp
 public enum InputMethodEditorMode
@@ -19,11 +19,11 @@ public enum InputMethodEditorMode
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | NoControl | `0` | Не управляет IME. |
-| On | `1` | IME включен. |
+| On | `1` | IME на. |
 | Off | `2` | IME выключен. Английский режим. |
 | Disable | `3` | IME выключен. Пользователь не может включить IME с помощью клавиатуры. |
 | Hiragana | `4` | IME включен в режиме полноширинной хираганы. |
-| Katakana | `5` | IME включен в полноширинном режиме катаканы. |
+| Katakana | `5` | IME включен в полноэкранном режиме катаканы. |
 | KatakanaHalf | `6` | IME включен в режиме катаканы половинной ширины. |
 | AlphaFull | `7` | IME включен в полноэкранном буквенно-цифровом режиме. |
 | Alpha | `8` | IME включен в алфавитно-цифровом режиме половинной ширины. |

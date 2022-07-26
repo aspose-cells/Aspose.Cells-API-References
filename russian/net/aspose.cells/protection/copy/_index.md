@@ -16,7 +16,7 @@ public void Copy(Protection source)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| источник | Protection |  |
+| source | Protection |  |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: MaxRowHeight
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置自动拟合行时的最大行高以 Point 为单位
+description: 获取和设置自动拟合行时的最大行高以Point为单位
 type: docs
 weight: 70
 url: /zh/net/aspose.cells/autofitteroptions/maxrowheight/
 ---
 ## AutoFitterOptions.MaxRowHeight property
 
-获取和设置自动拟合行时的最大行高（以 Point 为单位）。
+获取和设置自动拟合行时的最大行高（以Point为单位）。
 
 ```csharp
 public double MaxRowHeight { get; set; }

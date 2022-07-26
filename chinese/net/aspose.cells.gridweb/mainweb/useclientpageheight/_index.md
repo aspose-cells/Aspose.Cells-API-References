@@ -1,14 +1,14 @@
 ---
 title: UseClientPageHeight
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置gridweb是否使用客户端页面高度作为控件高度适用于设置Height100时默认为false
+description: 获取或设置gridweb是否使用客户端页面高度作为控件高度适用于设置Height100时默认值为false
 type: docs
 weight: 1020
 url: /zh/net/aspose.cells.gridweb/mainweb/useclientpageheight/
 ---
 ## MainWeb.UseClientPageHeight property
 
-获取或设置gridweb是否使用客户端页面高度作为控件高度，适用于设置Height="100%"时，默认为false
+获取或设置gridweb是否使用客户端页面高度作为控件高度，适用于设置Height="100%"时，默认值为false
 
 ```csharp
 public bool UseClientPageHeight { get; set; }

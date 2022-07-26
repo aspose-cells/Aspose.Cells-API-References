@@ -19,13 +19,13 @@ public class GridColumnCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.cells.gridweb.data/gridcolumncollection/count) { get; } |  |
-| [Item](../../aspose.cells.gridweb.data/gridcolumncollection/item) { get; } | Получает объектпо индексу столбца. Объект Column данного индекса столбца будет создан, если он не существовал ранее. |
+| [Item](../../aspose.cells.gridweb.data/gridcolumncollection/item) { get; } | Получает объект по индексу столбца. Будет создан экземпляр объекта столбца с заданным индексом столбца, если он не существовал ранее. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetColumnByIndex](../../aspose.cells.gridweb.data/gridcolumncollection/getcolumnbyindex)(int) | Получает объектColumnпо позиции в списке. |
+| [GetColumnByIndex](../../aspose.cells.gridweb.data/gridcolumncollection/getcolumnbyindex)(int) | ПолучаетColumnобъект по позиции в списке. |
 | [GetEnumerator](../../aspose.cells.gridweb.data/gridcolumncollection/getenumerator)() | Получает перечислитель столбцов |
 
 ### Смотрите также

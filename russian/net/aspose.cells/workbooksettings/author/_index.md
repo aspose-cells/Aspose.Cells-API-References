@@ -16,7 +16,7 @@ public string Author { get; set; }
 
 ### Примечания
 
-Не установлено, проверьте[`Author`](../../../aspose.cells.properties/builtindocumentpropertycollection/author)сначала проверьте пользователя среды.
+Не установлено, проверьте[`Author`](../../../aspose.cells.properties/builtindocumentpropertycollection/author) сначала проверьте пользователя Environment.
 
 ### Смотрите также
 

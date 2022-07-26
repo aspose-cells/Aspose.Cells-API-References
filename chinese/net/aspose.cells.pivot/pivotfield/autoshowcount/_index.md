@@ -1,14 +1,14 @@
 ---
 title: AutoShowCount
 second_title: Aspose.Cells for .NET API 参考
-description: 表示自动显示在指定数据透视表字段中的顶部或底部项目的数量 
+description: 表示在指定数据透视表字段中自动显示的顶部或底部项目数 
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.pivot/pivotfield/autoshowcount/
 ---
 ## PivotField.AutoShowCount property
 
-表示自动显示在指定数据透视表字段中的顶部或底部项目的数量 。
+表示在指定数据透视表字段中自动显示的顶部或底部项目数 。
 
 ```csharp
 public int AutoShowCount { get; set; }

@@ -20,7 +20,7 @@ public class ScenarioInputCellCollection : CollectionBase<ScenarioInputCell>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/scenarioinputcellcollection/item) { get; } | Получает[`ScenarioInputCell`](../scenarioinputcell)по индексу в списке. |
+| [Item](../../aspose.cells/scenarioinputcellcollection/item) { get; } | получает[`ScenarioInputCell`](../scenarioinputcell) по индексу в списке. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы

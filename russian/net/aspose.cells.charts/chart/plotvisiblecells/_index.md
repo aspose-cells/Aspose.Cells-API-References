@@ -1,14 +1,14 @@
 ---
 title: PlotVisibleCells
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает отображать ли на графике только видимые ячейки.
+description: Указывает отображать ли только видимые ячейки.
 type: docs
 weight: 300
 url: /ru/net/aspose.cells.charts/chart/plotvisiblecells/
 ---
 ## Chart.PlotVisibleCells property
 
-Указывает, отображать ли на графике только видимые ячейки.
+Указывает, отображать ли только видимые ячейки.
 
 ```csharp
 public bool PlotVisibleCells { get; set; }

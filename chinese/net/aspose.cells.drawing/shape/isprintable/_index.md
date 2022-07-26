@@ -1,14 +1,14 @@
 ---
 title: IsPrintable
 second_title: Aspose.Cells for .NET API 参考
-description: 如果对象可打印则为真
+description: 如果对象是可打印的则为真
 type: docs
 weight: 350
 url: /zh/net/aspose.cells.drawing/shape/isprintable/
 ---
 ## Shape.IsPrintable property
 
-如果对象可打印，则为真
+如果对象是可打印的，则为真
 
 ```csharp
 public bool IsPrintable { get; set; }

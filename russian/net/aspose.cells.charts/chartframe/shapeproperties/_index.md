@@ -1,14 +1,14 @@
 ---
 title: ShapeProperties
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектShapePropertiesaspose.cells.charts/chartframe/shapeproperties.
+description: ПолучаетShapePropertiesaspose.cells.charts/chartframe/shapeproperties объект.
 type: docs
 weight: 150
 url: /ru/net/aspose.cells.charts/chartframe/shapeproperties/
 ---
 ## ChartFrame.ShapeProperties property
 
-Получает объект`ShapeProperties`.
+Получает`ShapeProperties` объект.
 
 ```csharp
 public ShapePropertyCollection ShapeProperties { get; }

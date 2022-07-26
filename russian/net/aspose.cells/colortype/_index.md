@@ -1,14 +1,14 @@
 ---
 title: ColorType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет все цветовые типы
+description: Представляет все типы цветов
 type: docs
 weight: 1050
 url: /ru/net/aspose.cells/colortype/
 ---
 ## ColorType enumeration
 
-Представляет все цветовые типы
+Представляет все типы цветов
 
 ```csharp
 public enum ColorType

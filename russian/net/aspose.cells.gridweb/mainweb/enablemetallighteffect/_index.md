@@ -1,14 +1,14 @@
 ---
 title: EnableMetalLightEffect
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает следует ли применять эффект металлического света.
+description: Получает или задает применение эффекта металлического света.
 type: docs
 weight: 310
 url: /ru/net/aspose.cells.gridweb/mainweb/enablemetallighteffect/
 ---
 ## MainWeb.EnableMetalLightEffect property
 
-Получает или задает, следует ли применять эффект металлического света.
+Получает или задает применение эффекта металлического света.
 
 ```csharp
 public bool EnableMetalLightEffect { get; set; }

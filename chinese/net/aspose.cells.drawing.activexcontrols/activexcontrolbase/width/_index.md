@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Cells for .NET API 参考
-description: 以点为单位获取和设置控件的宽度
+description: 获取和设置控件的宽度以点为单位
 type: docs
 weight: 120
 url: /zh/net/aspose.cells.drawing.activexcontrols/activexcontrolbase/width/
 ---
 ## ActiveXControlBase.Width property
 
-以点为单位获取和设置控件的宽度。
+获取和设置控件的宽度，以点为单位。
 
 ```csharp
 public virtual double Width { get; set; }

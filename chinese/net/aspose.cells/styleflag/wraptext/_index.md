@@ -1,14 +1,14 @@
 ---
 title: WrapText
 second_title: Aspose.Cells for .NET API 参考
-description: 将应用换行设置
+description: 将应用自动换行设置
 type: docs
 weight: 310
 url: /zh/net/aspose.cells/styleflag/wraptext/
 ---
 ## StyleFlag.WrapText property
 
-将应用换行设置。
+将应用自动换行设置。
 
 ```csharp
 public bool WrapText { get; set; }

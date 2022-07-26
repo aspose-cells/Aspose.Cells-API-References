@@ -18,7 +18,7 @@ public void InsertRows(int rowIndex, int totalRows, bool updateReference)
 | --- | --- | --- |
 | rowIndex | Int32 | Индекс строки. |
 | totalRows | Int32 | Количество вставляемых строк. |
-| updateReference | Boolean | Указывает, будут ли обновляться ссылки в других рабочих листах. |
+| updateReference | Boolean | Указывает, будут ли обновлены ссылки на других рабочих листах. |
 
 ### Смотрите также
 

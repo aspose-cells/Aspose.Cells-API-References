@@ -1,14 +1,14 @@
 ---
 title: CellIndexToR1C1
 second_title: Aspose.Cells for .NET API 参考
-description: 根据行和列索引获取单元格 r1c1 样式名称
+description: 根据行列索引获取单元格r1c1样式名称
 type: docs
 weight: 1180
 url: /zh/net/aspose.cells.griddesktop/worksheet/cellindextor1c1/
 ---
 ## Worksheet.CellIndexToR1C1 method
 
-根据行和列索引获取单元格 r1c1 样式名称。
+根据行列索引获取单元格r1c1样式名称。
 
 ```csharp
 public static string CellIndexToR1C1(int row, int column)

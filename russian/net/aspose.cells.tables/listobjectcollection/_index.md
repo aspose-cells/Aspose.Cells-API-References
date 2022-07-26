@@ -1,14 +1,14 @@
 ---
 title: ListObjectCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет набор объектовListObject./listobjectна рабочем листе.
+description: Представляет наборListObject./listobject объекты на листе.
 type: docs
 weight: 5830
 url: /ru/net/aspose.cells.tables/listobjectcollection/
 ---
 ## ListObjectCollection class
 
-Представляет набор объектов[`ListObject`](../listobject)на рабочем листе.
+Представляет набор[`ListObject`](../listobject) объекты на листе.
 
 ```csharp
 public class ListObjectCollection : CollectionBase<ListObject>

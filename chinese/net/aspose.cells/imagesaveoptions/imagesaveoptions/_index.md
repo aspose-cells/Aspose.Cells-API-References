@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions
 second_title: Aspose.Cells for .NET API 参考
-description: 创建用于保存图像文件的选项
+description: 创建保存图像文件的选项
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/imagesaveoptions/imagesaveoptions/
 ---
 ## ImageSaveOptions() {#constructor}
 
-创建用于保存图像文件的选项。
+创建保存图像文件的选项。
 
 ```csharp
 public ImageSaveOptions()
@@ -24,7 +24,7 @@ public ImageSaveOptions()
 
 ## ImageSaveOptions(SaveFormat) {#constructor_1}
 
-创建用于保存图像文件的选项。
+创建保存图像文件的选项。
 
 ```csharp
 public ImageSaveOptions(SaveFormat saveFormat)
@@ -32,7 +32,7 @@ public ImageSaveOptions(SaveFormat saveFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| saveFormat | SaveFormat | 文件格式。 它必须是 tiff 或 svg。 |
+| saveFormat | SaveFormat | 文件格式. 必须是 tiff 或 svg。 |
 
 ### 也可以看看
 

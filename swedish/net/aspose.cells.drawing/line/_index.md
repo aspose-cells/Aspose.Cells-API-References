@@ -1,0 +1,102 @@
+---
+title: Line
+second_title: Aspose.Cells för .NET API-referens
+description: Kapslar in objektet som representerar linjeformatet.
+type: docs
+weight: 2200
+url: /sv/net/aspose.cells.drawing/line/
+---
+## Line class
+
+Kapslar in objektet som representerar linjeformatet.
+
+```csharp
+public class Line
+```
+
+## Egenskaper
+
+| namn | Beskrivning |
+| --- | --- |
+| [BeginArrowLength](../../aspose.cells.drawing/line/beginarrowlength) { get; set; } | Anger längden på pilspetsen för början av en linje. |
+| [BeginArrowWidth](../../aspose.cells.drawing/line/beginarrowwidth) { get; set; } | Anger bredden på pilspetsen för början av en linje. |
+| [BeginType](../../aspose.cells.drawing/line/begintype) { get; set; } | Anger en pilspets för början av en rad. |
+| [CapType](../../aspose.cells.drawing/line/captype) { get; set; } | Anger slutbeteckningar. |
+| [Color](../../aspose.cells.drawing/line/color) { get; set; } | RepresenterarColor av linjen. |
+| [CompoundType](../../aspose.cells.drawing/line/compoundtype) { get; set; } | Anger den sammansatta linjetypen |
+| [DashType](../../aspose.cells.drawing/line/dashtype) { get; set; } | Anger strecklinjetypen |
+| [EndArrowLength](../../aspose.cells.drawing/line/endarrowlength) { get; set; } | Anger längden på pilspetsen för slutet av en linje. |
+| [EndArrowWidth](../../aspose.cells.drawing/line/endarrowwidth) { get; set; } | Anger bredden på pilspetsen för slutet av en linje. |
+| [EndType](../../aspose.cells.drawing/line/endtype) { get; set; } | Anger en pilspets för slutet av en rad. |
+| [FormattingType](../../aspose.cells.drawing/line/formattingtype) { get; set; } | Hämtar eller ställer in formattyp. |
+| [GradientFill](../../aspose.cells.drawing/line/gradientfill) { get; } | Representerar gradientfyllning. |
+| [IsAuto](../../aspose.cells.drawing/line/isauto) { get; set; } | Indikerar om denna linjestil är automatiskt tilldelad. |
+| [IsAutomaticColor](../../aspose.cells.drawing/line/isautomaticcolor) { get; } | Indikerar om färgen på linjen är automatiskt tilldelad. |
+| [IsVisible](../../aspose.cells.drawing/line/isvisible) { get; set; } | Representerar om linjen är synlig. |
+| [JoinType](../../aspose.cells.drawing/line/jointype) { get; set; } | Anger sammanfogningskapslarna. |
+| [Style](../../aspose.cells.drawing/line/style) { get; set; } | Representerar stilen på linjen. |
+| [ThemeColor](../../aspose.cells.drawing/line/themecolor) { get; set; } | Hämtar och ställer in temafärgen. |
+| [Transparency](../../aspose.cells.drawing/line/transparency) { get; set; } | Returnerar eller ställer in graden av genomskinlighet för linjen som ett värde från 0,0 (ogenomskinlig) till 1,0 (ren). |
+| [Weight](../../aspose.cells.drawing/line/weight) { get; set; } | Hämtar eller ställer in[`WeightType`](../weighttype) av linjen. |
+| [WeightPt](../../aspose.cells.drawing/line/weightpt) { get; set; } | Hämtar eller ställer in linjens vikt i poängenhet. |
+| [WeightPx](../../aspose.cells.drawing/line/weightpx) { get; set; } | Hämtar eller ställer in linjens vikt i pixelenhet. |
+
+### Exempel
+
+```csharp
+
+[C#]
+
+Workbook workbook = new Workbook();
+Worksheet sheet = workbook.Worksheets[0];
+
+Cells cells = sheet.Cells;
+cells[0,1].PutValue("Income");
+cells[1,0].PutValue("Company A");
+cells[2,0].PutValue("Company B");
+cells[3,0].PutValue("Company C");
+cells[1,1].PutValue(10000);
+cells[2,1].PutValue(20000);
+cells[3,1].PutValue(30000);
+
+int chartIndex = sheet.Charts.Add(ChartType.Line, 9, 9, 21, 15);
+Chart chart = sheet.Charts[chartIndex];
+//Tillämpa en prickad linjestil på linjerna i en NSeries
+chart.NSeries[0].Border.Style = LineType.Dot;
+chart.NSeries[0].Border.Color = Color.Red;
+//Tillämpa en triangulär markörstil på datamarkörerna i en NSeries
+chart.NSeries[0].Marker.MarkerStyle = ChartMarkerType.Triangle;
+//Ställa in vikten på alla linjer i en NSeries till medium
+chart.NSeries[0].Border.Weight = WeightType.MediumLine;
+
+[Visual Basic]
+
+Dim workbook as Workbook = new Workbook()
+Dim sheet as Worksheet = workbook.Worksheets(0)
+
+Dim cells as Cells = sheet.Cells
+cells(0,1).PutValue("Income")
+cells(1,0).PutValue("Company A")
+cells(2,0).PutValue("Company B")
+cells(3,0).PutValue("Company C")
+cells(1,1).PutValue(10000)
+cells(2,1).PutValue(20000)
+cells(3,1).PutValue(30000)
+		
+Dim chartIndex as Integer = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15)    ///
+Dim chart as Chart = sheet.Charts(chartIndex)
+'Tillämpa en prickad linjestil på linjerna i en NSeries
+chart.NSeries(0).Border.Style = LineType.Dot
+chart.NSeries(0).Border.Color = Color.Red
+'Tillämpa en triangulär markörstil på datamarkörerna i en NSeries
+chart.NSeries(0).Marker.MarkerStyle = ChartMarkerType.Triangle
+'Ställa in vikten på alla linjer i en NSeries till medium
+chart.NSeries(0).Border.Weight = WeightType.MediumLine
+```
+
+### Se även
+
+* namnutrymme [Aspose.Cells.Drawing](../../aspose.cells.drawing)
+* hopsättning [Aspose.Cells](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->

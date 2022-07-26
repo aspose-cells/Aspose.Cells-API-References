@@ -1,14 +1,14 @@
 ---
 title: ReconnectionMethodType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает что должно делать приложение для работы с электронными таблицами при сбое соединения. Значение по умолчанию  ReConnectionMethodType.Required.
+description: Указывает что должно делать приложение для работы с электронными таблицами при сбое подключения. Значение по умолчанию  ReConnectionMethodType.Required.
 type: docs
 weight: 140
 url: /ru/net/aspose.cells.externalconnections/externalconnection/reconnectionmethodtype/
 ---
 ## ExternalConnection.ReconnectionMethodType property
 
-Указывает, что должно делать приложение для работы с электронными таблицами при сбое соединения. Значение по умолчанию — ReConnectionMethodType.Required.
+Указывает, что должно делать приложение для работы с электронными таблицами при сбое подключения. Значение по умолчанию — ReConnectionMethodType.Required.
 
 ```csharp
 public ReConnectionMethodType ReconnectionMethodType { get; set; }

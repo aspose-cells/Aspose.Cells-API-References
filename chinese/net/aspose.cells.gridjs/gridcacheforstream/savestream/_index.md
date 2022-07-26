@@ -1,14 +1,14 @@
 ---
 title: SaveStream
 second_title: Aspose.Cells for .NET API 参考
-description: 实现这个方法来保存缓存用key uid将流保存到缓存中
+description: 实现这个方法保存缓存用key uid将流保存到缓存中
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.gridjs/gridcacheforstream/savestream/
 ---
 ## GridCacheForStream.SaveStream method
 
-实现这个方法来保存缓存，用key uid将流保存到缓存中。
+实现这个方法保存缓存，用key uid将流保存到缓存中。
 
 ```csharp
 public virtual void SaveStream(Stream s, string uid)

@@ -1,14 +1,14 @@
 ---
 title: IsHorizontalScrollBarVisible
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает видимую статую для полосы горизонтальной прокрутки.
+description: Устанавливает видимую статую для горизонтальной полосы прокрутки.
 type: docs
 weight: 160
 url: /ru/net/aspose.cells.griddesktop/griddesktop/ishorizontalscrollbarvisible/
 ---
 ## GridDesktop.IsHorizontalScrollBarVisible property
 
-Устанавливает видимую статую для полосы горизонтальной прокрутки.
+Устанавливает видимую статую для горизонтальной полосы прокрутки.
 
 ```csharp
 public bool IsHorizontalScrollBarVisible { get; set; }

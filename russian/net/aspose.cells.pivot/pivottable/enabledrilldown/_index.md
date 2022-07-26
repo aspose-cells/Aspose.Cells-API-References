@@ -1,14 +1,14 @@
 ---
 title: EnableDrilldown
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает включена ли детализация.
+description: Указывает включена ли развертка.
 type: docs
 weight: 180
 url: /ru/net/aspose.cells.pivot/pivottable/enabledrilldown/
 ---
 ## PivotTable.EnableDrilldown property
 
-Получает, включена ли детализация.
+Указывает, включена ли развертка.
 
 ```csharp
 public bool EnableDrilldown { get; set; }

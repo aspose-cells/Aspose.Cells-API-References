@@ -1,14 +1,14 @@
 ---
 title: ErrorCheckOptionCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示所有错误检查选项
+description: 代表所有错误检查选项
 type: docs
 weight: 3180
 url: /zh/net/aspose.cells/errorcheckoptioncollection/
 ---
 ## ErrorCheckOptionCollection class
 
-表示所有错误检查选项。
+代表所有错误检查选项。
 
 ```csharp
 public class ErrorCheckOptionCollection : CollectionBase<ErrorCheckOption>
@@ -20,7 +20,7 @@ public class ErrorCheckOptionCollection : CollectionBase<ErrorCheckOption>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/errorcheckoptioncollection/item) { get; } | 通过给定索引获取[`ErrorCheckOption`](../errorcheckoption)对象。 |
+| [Item](../../aspose.cells/errorcheckoptioncollection/item) { get; } | 获取[`ErrorCheckOption`](../errorcheckoption)给定索引的对象。 |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法

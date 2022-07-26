@@ -18,10 +18,10 @@ public enum WeightType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| HairLine | `-1` | 表示发际线的粗细。 |
-| MediumLine | `1` | 表示中线的粗细。 |
-| SingleLine | `0` | 表示单行的权重。 |
-| WideLine | `2` | 表示宽线的粗细。 |
+| HairLine | `-1` | 代表发际线的粗细。 |
+| MediumLine | `1` | 代表中线的权重。 |
+| SingleLine | `0` | 代表单行的权重。 |
+| WideLine | `2` | 代表宽线的粗细。 |
 
 ### 也可以看看
 

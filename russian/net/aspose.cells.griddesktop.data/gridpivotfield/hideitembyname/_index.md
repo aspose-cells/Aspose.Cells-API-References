@@ -16,7 +16,7 @@ public void HideItemByName(string name, bool isHidden)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | имя элемента pivotItem в pivotField. |
+| name | String | имя сводного элемента в сводном поле. |
 | isHidden | Boolean | скрыт ли конкретный PivotItem |
 
 ### Смотрите также

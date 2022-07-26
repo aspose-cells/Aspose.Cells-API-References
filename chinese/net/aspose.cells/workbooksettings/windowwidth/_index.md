@@ -1,14 +1,14 @@
 ---
 title: WindowWidth
 second_title: Aspose.Cells for .NET API 参考
-description: 窗口的宽度以磅为单位
+description: 窗口的宽度以点为单位
 type: docs
 weight: 570
 url: /zh/net/aspose.cells/workbooksettings/windowwidth/
 ---
 ## WorkbookSettings.WindowWidth property
 
-窗口的宽度，以磅为单位。
+窗口的宽度，以点为单位。
 
 ```csharp
 public double WindowWidth { get; set; }

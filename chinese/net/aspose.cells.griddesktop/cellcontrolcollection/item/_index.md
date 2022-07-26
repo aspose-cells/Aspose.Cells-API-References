@@ -21,7 +21,7 @@ public CellControl this[int row, int col] { get; }
 
 ### 评论
 
-如果指定行列索引处没有 CellControl 对象， 这将检查列 CellControl 对象.
+如果指定行列索引处没有 CellControl 对象， 这将检查列 CellControl 对象。
 
 ### 也可以看看
 
@@ -42,7 +42,7 @@ public CellControl this[string cellName] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| cellName | 单元格名称（excel名称格式，如'A1'，'F22'） |
+| cellName | 单元格名称（以excel名称格式，如'A1'，'F22'） |
 
 ### 评论
 

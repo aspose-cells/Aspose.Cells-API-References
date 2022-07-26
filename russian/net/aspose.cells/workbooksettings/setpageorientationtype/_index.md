@@ -16,7 +16,7 @@ public void SetPageOrientationType(PageOrientationType pageOrientationType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pageOrientationType | PageOrientationType | The[`PageOrientationType`](../../pageorientationtype) |
+| pageOrientationType | PageOrientationType | [`PageOrientationType`](../../pageorientationtype) |
 
 ### Смотрите также
 

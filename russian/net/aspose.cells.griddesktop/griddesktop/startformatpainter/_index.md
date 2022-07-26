@@ -16,7 +16,7 @@ public void StartFormatPainter(bool formatOnce)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| formatOnce | Boolean | если formatOnce истинно, FormatPainter может использовать один раз, если formatOnce является ложным, FormatPainter может использовать несколько раз, пока не вызовет EndFormatPainter(). |
+| formatOnce | Boolean | , если formatOnce равно true, FormatPainter может использовать один раз, , если formatOnce равно false, FormatPainter может использовать несколько раз, пока не вызовет EndFormatPainter(). |
 
 ### Примеры
 

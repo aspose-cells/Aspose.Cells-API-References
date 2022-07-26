@@ -1,14 +1,14 @@
 ---
 title: GetCellArea
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПолучаетCellAreaaspose.cells/cellarea к которому применяется указанный автофильтр.
+description: ПолучаетCellAreaaspose.cells/cellarea где указанный автофильтр применяется к.
 type: docs
 weight: 140
 url: /ru/net/aspose.cells/autofilter/getcellarea/
 ---
 ## AutoFilter.GetCellArea method
 
-Получает[`CellArea`](../../cellarea), к которому применяется указанный автофильтр.
+Получает[`CellArea`](../../cellarea) где указанный автофильтр применяется к.
 
 ```csharp
 public CellArea GetCellArea()

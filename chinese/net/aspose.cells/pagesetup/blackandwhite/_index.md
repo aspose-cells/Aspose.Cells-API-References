@@ -1,14 +1,14 @@
 ---
 title: BlackAndWhite
 second_title: Aspose.Cells for .NET API 参考
-description: 表示文档的元素是否将以黑白打印
+description: 表示文档的元素是否将以黑白方式打印
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/pagesetup/blackandwhite/
 ---
 ## PageSetup.BlackAndWhite property
 
-表示文档的元素是否将以黑白打印。
+表示文档的元素是否将以黑白方式打印。
 
 ```csharp
 public bool BlackAndWhite { get; set; }

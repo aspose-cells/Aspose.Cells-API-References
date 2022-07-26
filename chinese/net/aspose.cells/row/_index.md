@@ -21,27 +21,27 @@ public class Row : IEnumerable
 | [FirstCell](../../aspose.cells/row/firstcell) { get; } | 获取行中的第一个单元格对象。 |
 | [FirstDataCell](../../aspose.cells/row/firstdatacell) { get; } | 获取行中的第一个非空白单元格。 |
 | [GroupLevel](../../aspose.cells/row/grouplevel) { get; } | 获取行的组级别。 |
-| [Height](../../aspose.cells/row/height) { get; set; } | 以点为单位获取和设置行高。 |
+| [Height](../../aspose.cells/row/height) { get; set; } | 以Points为单位获取和设置行高。 |
 | [Index](../../aspose.cells/row/index) { get; } | 获取该行的索引。 |
-| [IsBlank](../../aspose.cells/row/isblank) { get; } | 指示该行是否包含任何数据 |
+| [IsBlank](../../aspose.cells/row/isblank) { get; } | 表示该行是否包含任何数据 |
 | [IsCollapsed](../../aspose.cells/row/iscollapsed) { get; set; } | 行是否折叠 |
 | [IsHeightMatched](../../aspose.cells/row/isheightmatched) { get; set; } | 表示行高和默认字体高度匹配。 |
 | [IsHidden](../../aspose.cells/row/ishidden) { get; set; } | 表示该行是否隐藏。 |
 | [Item](../../aspose.cells/row/item) { get; } | 获取单元格。 |
 | [LastCell](../../aspose.cells/row/lastcell) { get; } | 获取行中的最后一个单元格对象。 |
 | [LastDataCell](../../aspose.cells/row/lastdatacell) { get; } | 获取行中最后一个非空白单元格。 |
-| [Style](../../aspose.cells/row/style) { get; } | 表示这一行的样式。 |
+| [Style](../../aspose.cells/row/style) { get; } | 代表这一行的样式。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ApplyStyle](../../aspose.cells/row/applystyle)(Style, StyleFlag) | 对整行应用格式。 |
+| [ApplyStyle](../../aspose.cells/row/applystyle)(Style, StyleFlag) | 为整行应用格式。 |
 | [CopySettings](../../aspose.cells/row/copysettings)(Row, bool) | 复制行的设置，例如样式、高度、可见性等。 |
 | [Equals](../../aspose.cells/row/equals#equals_1)(object) | 检查此对象是否与另一个对象引用同一行。 |
 | [Equals](../../aspose.cells/row/equals#equals)(Row) | 检查此对象是否与另一个行对象引用同一行。 |
-| [GetCellOrNull](../../aspose.cells/row/getcellornull)(int) | 获取特定索引中的单元格或 null。 |
-| [GetEnumerator](../../aspose.cells/row/getenumerator)() | 获取单元格枚举器 |
+| [GetCellOrNull](../../aspose.cells/row/getcellornull)(int) | 获取特定索引中的单元格或空值。 |
+| [GetEnumerator](../../aspose.cells/row/getenumerator)() | 获取单元格 enumerator |
 
 ### 例子
 
@@ -49,43 +49,42 @@ public class Row : IEnumerable
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 
-//获取第一个worksheet
-
+//获取第一个工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
 Style style = workbook.CreateStyle();
 
-//设置背景颜色为Blue
+//设置背景颜色为蓝色
 style.BackgroundColor = Color.Blue;
 
- //设置前景色为Red
+//设置前景色为红色
 style.ForegroundColor= Color.Red;
 
- //设置背景图案
+//设置背景图案
 style.Pattern = BackgroundType.DiagonalStripe;
 
- //新样式标志
+//新样式标志
 StyleFlag styleFlag = new StyleFlag();
 
- //设置所有样式
+//设置所有样式
 styleFlag.All = true;
 
-  //获取第一行
+ //获取第一行
 Row row = worksheet.Cells.Rows[0];
-  //将样式应用到第一行
+ //将样式应用于第一行
 row.ApplyStyle(style, styleFlag);
 
- //保存Excel文件
+//保存Excel文件
 workbook.Save("book1.xls");
 
 [VB.NET]
 
-'实例化一个 Workbook 目的
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 
-'获取第一个参考 worksheet
+'获取第一个工作表的引用
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
 Dim style As Style = workbook.CreateStyle()
@@ -107,10 +106,10 @@ styleFlag.All = True
 
  '获取第一行
 Dim row as Row = worksheet.Cells.Rows(0)
- '将样式应用到第一行
+ '将样式应用于第一行
 row.ApplyStyle(style, styleFlag)
 
-'保存Excel文件
+'保存 Excel 文件
 workbook.Save("book1.xls")
 ```
 

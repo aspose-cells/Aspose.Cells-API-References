@@ -1,14 +1,14 @@
 ---
 title: FontSettingCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет списокFontSetting../aspose.cells/fontsetting.
+description: Представляет списокFontSetting../aspose.cells/fontsetting .
 type: docs
 weight: 2900
 url: /ru/net/aspose.cells.drawing.texts/fontsettingcollection/
 ---
 ## FontSettingCollection class
 
-Представляет список[`FontSetting`](../../aspose.cells/fontsetting).
+Представляет список[`FontSetting`](../../aspose.cells/fontsetting) .
 
 ```csharp
 public class FontSettingCollection : CollectionBase<FontSetting>
@@ -21,21 +21,21 @@ public class FontSettingCollection : CollectionBase<FontSetting>
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
 | [HtmlString](../../aspose.cells.drawing.texts/fontsettingcollection/htmlstring) { get; set; } | Получает и задает строку html, содержащую данные и некоторые форматы в этой форме. |
-| [Item](../../aspose.cells.drawing.texts/fontsettingcollection/item) { get; } | Получает[`FontSetting`](../../aspose.cells/fontsetting)по индексу. |
+| [Item](../../aspose.cells.drawing.texts/fontsettingcollection/item) { get; } | Получает[`FontSetting`](../../aspose.cells/fontsetting) по индексу. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 | [Text](../../aspose.cells.drawing.texts/fontsettingcollection/text) { get; set; } | Получает и задает текст фигуры. |
-| [TextAlignment](../../aspose.cells.drawing.texts/fontsettingcollection/textalignment) { get; } | Представляет параметр выравнивания основного текста. |
-| [TextParagraphs](../../aspose.cells.drawing.texts/fontsettingcollection/textparagraphs) { get; } | Получает все абзацы. |
+| [TextAlignment](../../aspose.cells.drawing.texts/fontsettingcollection/textalignment) { get; } | Представляет настройку выравнивания основного текста. |
+| [TextParagraphs](../../aspose.cells.drawing.texts/fontsettingcollection/textparagraphs) { get; } | Получить все абзацы. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AppendText](../../aspose.cells.drawing.texts/fontsettingcollection/appendtext)(string) | Добавляет текст в конец. |
+| [AppendText](../../aspose.cells.drawing.texts/fontsettingcollection/appendtext)(string) | Добавляет текст. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(FontSetting) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(FontSetting, IComparer&lt;FontSetting&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, FontSetting, IComparer&lt;FontSetting&gt;) |  |
-| [Clear](../../aspose.cells.drawing.texts/fontsettingcollection/clear#clear)() | Сбросить все настройки. (2 methods) |
+| [Clear](../../aspose.cells.drawing.texts/fontsettingcollection/clear#clear)() | Удалить все настройки. (2 methods) |
 | [Contains](../../aspose.cells/collectionbase`1/contains)(FontSetting) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(FontSetting[]) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(FontSetting[], int) |  |
@@ -52,7 +52,7 @@ public class FontSettingCollection : CollectionBase<FontSetting>
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;FontSetting&gt;) |  |
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;FontSetting&gt;) |  |
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;FontSetting&gt;) |  |
-| [Format](../../aspose.cells.drawing.texts/fontsettingcollection/format)(int, int, Font, StyleFlag) | Отформатируйте текст с настройкой шрифта. |
+| [Format](../../aspose.cells.drawing.texts/fontsettingcollection/format)(int, int, Font, StyleFlag) | Отформатировать текст с настройкой шрифта. |
 | [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
 | override [GetHashCode](../../aspose.cells.drawing.texts/fontsettingcollection/gethashcode)() |  |
 | [GetParagraphEnumerator](../../aspose.cells.drawing.texts/fontsettingcollection/getparagraphenumerator)() | Получает перечислитель абзацев. |
@@ -65,7 +65,7 @@ public class FontSettingCollection : CollectionBase<FontSetting>
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(FontSetting, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
 | [Replace](../../aspose.cells.drawing.texts/fontsettingcollection/replace)(int, int, string) | Заменить текст. |
-| [SetWordArtStyle](../../aspose.cells.drawing.texts/fontsettingcollection/setwordartstyle)(PresetWordArtStyle) | Устанавливает предустановленный стиль WordArt. |
+| [SetWordArtStyle](../../aspose.cells.drawing.texts/fontsettingcollection/setwordartstyle)(PresetWordArtStyle) | Задает предустановленный стиль WordArt. |
 
 ### Смотрите также
 

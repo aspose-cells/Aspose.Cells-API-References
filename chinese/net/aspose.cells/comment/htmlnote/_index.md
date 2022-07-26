@@ -1,14 +1,14 @@
 ---
 title: HtmlNote
 second_title: Aspose.Cells for .NET API 参考
-description: 获取并设置包含此注释中的数据和某些格式的 html 字符串
+description: 获取并设置包含此评论中的数据和一些格式的html字符串
 type: docs
 weight: 90
 url: /zh/net/aspose.cells/comment/htmlnote/
 ---
 ## Comment.HtmlNote property
 
-获取并设置包含此注释中的数据和某些格式的 html 字符串。
+获取并设置包含此评论中的数据和一些格式的html字符串。
 
 ```csharp
 public string HtmlNote { get; set; }
@@ -16,7 +16,7 @@ public string HtmlNote { get; set; }
 
 ### 评论
 
-如果这是线程注释，则无法更改注释，否则 MS Excel 无法处理它作为一个线程评论。
+如果这是一个线程注释，则无法更改注释，否则 MS Excel 无法将其作为线程注释处理。
 
 ### 例子
 

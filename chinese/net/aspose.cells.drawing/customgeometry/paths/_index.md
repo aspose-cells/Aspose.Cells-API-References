@@ -1,14 +1,14 @@
 ---
 title: Paths
 second_title: Aspose.Cells for .NET API 参考
-description: 当 shape 为 NotPrimitive autoshape 时获取路径集合信息
+description: 当shape为NotPrimitive时获取路径集合信息 autoshape
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.drawing/customgeometry/paths/
 ---
 ## CustomGeometry.Paths property
 
-当 shape 为 NotPrimitive autoshape 时获取路径集合信息
+当shape为NotPrimitive时获取路径集合信息 autoshape
 
 ```csharp
 public ShapePathCollection Paths { get; }

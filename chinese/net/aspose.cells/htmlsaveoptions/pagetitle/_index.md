@@ -1,14 +1,14 @@
 ---
 title: PageTitle
 second_title: Aspose.Cells for .NET API 参考
-description: html 页面的标题 仅用于保存到 html 流
+description: html页面的标题 仅用于保存到html流
 type: docs
-weight: 410
+weight: 430
 url: /zh/net/aspose.cells/htmlsaveoptions/pagetitle/
 ---
 ## HtmlSaveOptions.PageTitle property
 
-html 页面的标题。 仅用于保存到 html 流。
+html页面的标题。 仅用于保存到html流。
 
 ```csharp
 public string PageTitle { get; set; }

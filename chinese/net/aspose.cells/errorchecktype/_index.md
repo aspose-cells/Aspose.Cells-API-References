@@ -1,14 +1,14 @@
 ---
 title: ErrorCheckType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示所有错误检查类型
+description: 代表所有错误检查类型
 type: docs
 weight: 3190
 url: /zh/net/aspose.cells/errorchecktype/
 ---
 ## ErrorCheckType enumeration
 
-表示所有错误检查类型。
+代表所有错误检查类型。
 
 ```csharp
 public enum ErrorCheckType
@@ -20,12 +20,12 @@ public enum ErrorCheckType
 | --- | --- | --- |
 | Calc | `1` | 检查计算错误 |
 | EmptyCellRef | `2` | 检查对空单元格的引用 |
-| TextNumber | `4` | 检查数值格式 |
-| InconsistRange | `8` | 检查公式引用少于包含连续数据的范围的整个 |
+| TextNumber | `4` | 检查数值的格式 |
+| InconsistRange | `8` | 检查公式引用少于包含连续数据的范围的整体 |
 | InconsistFormula | `16` | 检查与相邻单元格中的公式不一致的公式。 |
 | TextDate | `32` | 检查日期/时间值的格式 |
 | UnproctedFormula | `64` | 检查未受保护的公式 |
-| Validation | `128` | 是否进行数据校验 |
+| Validation | `128` | 是否进行数据验证 |
 | CalculatedColumn | `129` | 当单元格包含不同于计算列公式的值时，忽略错误。 |
 
 ### 也可以看看

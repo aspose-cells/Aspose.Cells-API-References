@@ -1,0 +1,58 @@
+---
+title: TxtSaveOptions
+second_title: Referencia de API de Aspose.Cells para .NET
+description: Representa las opciones de guardado para csv/delimitado por tabuladores/otro formato de texto.
+type: docs
+weight: 6130
+url: /es/net/aspose.cells/txtsaveoptions/
+---
+## TxtSaveOptions class
+
+Representa las opciones de guardado para csv/delimitado por tabuladores/otro formato de texto.
+
+```csharp
+public class TxtSaveOptions : SaveOptions
+```
+
+## Constructores
+
+| Nombre | Descripción |
+| --- | --- |
+| [TxtSaveOptions](txtsaveoptions#constructor)() | Crea opciones para guardar archivos de texto. |
+| [TxtSaveOptions](txtsaveoptions#constructor_1)(SaveFormat) | Crea opciones para guardar archivos de texto. |
+
+## Propiedades
+
+| Nombre | Descripción |
+| --- | --- |
+| [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder) { get; set; } | La carpeta de archivos en caché se utiliza para almacenar algunos datos de gran tamaño. |
+| [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | Vacía el libro de trabajo después de guardar el archivo. |
+| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | Si es verdadero y el directorio no existe, el directorio se creará automáticamente antes de guardar el archivo. |
+| [Encoding](../../aspose.cells/txtsaveoptions/encoding) { get; set; } | Obtiene y establece la codificación predeterminada. |
+| [ExportAllSheets](../../aspose.cells/txtsaveoptions/exportallsheets) { get; set; } | Indica si exportar todas las hojas al archivo de texto. Si es falso, solo exporta la hoja activa, como MS Excel. |
+| [ExportArea](../../aspose.cells/txtsaveoptions/exportarea) { get; set; } | El rango de celdas a exportar. |
+| [ExportQuotePrefix](../../aspose.cells/txtsaveoptions/exportquoteprefix) { get; set; } | Indica si el signo de comillas simples debe exportarse como parte del valor de una celda cuando[`QuotePrefix`](../style/quoteprefix) es cierto para eso. El valor predeterminado es falso. |
+| [FormatStrategy](../../aspose.cells/txtsaveoptions/formatstrategy) { get; set; } | Obtiene y establece la estrategia de formato al exportar el valor de celda como cadena. |
+| [KeepSeparatorsForBlankRow](../../aspose.cells/txtsaveoptions/keepseparatorsforblankrow) { get; set; } | Indica si se deben generar separadores para la fila en blanco. El valor predeterminado es falso, por lo que, de manera predeterminada, el contenido de la fila en blanco estará vacío. |
+| [LightCellsDataProvider](../../aspose.cells/txtsaveoptions/lightcellsdataprovider) { get; set; } | El proveedor de datos para proporcionar datos de celdas para guardar el libro de trabajo en modo ligero. |
+| [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Indica si fusionar las áreas de formato condicional y validación antes de guardar el archivo. |
+| [QuoteType](../../aspose.cells/txtsaveoptions/quotetype) { get; set; } | Obtiene o establece cómo citar valores en el archivo de texto exportado. |
+| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Indica si se están actualizando los datos de la memoria caché del gráfico |
+| [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Obtiene el formato de archivo guardado. |
+| [Separator](../../aspose.cells/txtsaveoptions/separator) { get; set; } | Obtiene y establece el delimitador de caracteres del archivo de texto. |
+| [SeparatorString](../../aspose.cells/txtsaveoptions/separatorstring) { get; set; } | Obtiene y establece un valor de cadena como separador. |
+| [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | Indica si ordenar los nombres definidos externos antes de guardar el archivo. |
+| [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | Indica si ordenar los nombres definidos antes de guardar el archivo. |
+| [TrimLeadingBlankRowAndColumn](../../aspose.cells/txtsaveoptions/trimleadingblankrowandcolumn) { get; set; } | Indica si las filas y columnas en blanco iniciales deben recortarse como lo hace MS Excel. El valor predeterminado es verdadero. |
+| [TrimTailingBlankCells](../../aspose.cells/txtsaveoptions/trimtailingblankcells) { get; set; } | Indica si se deben recortar las celdas en blanco de cola en una fila. El valor predeterminado es falso. |
+| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Indica si se está actualizando la configuración de arte inteligente. El valor predeterminado es falso. |
+| [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas) { get; set; } | Indica si validar las celdas combinadas antes de guardar el archivo. |
+| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Obtiene o establece la devolución de llamada de advertencia. |
+
+### Ver también
+
+* class [SaveOptions](../saveoptions)
+* espacio de nombres [Aspose.Cells](../../aspose.cells)
+* asamblea [Aspose.Cells](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->

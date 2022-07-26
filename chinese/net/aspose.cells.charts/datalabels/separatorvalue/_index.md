@@ -1,14 +1,14 @@
 ---
 title: SeparatorValue
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置用于图表数据标签的分隔符值
+description: 获取或设置用于图表上数据标签的分隔符值
 type: docs
 weight: 140
 url: /zh/net/aspose.cells.charts/datalabels/separatorvalue/
 ---
 ## DataLabels.SeparatorValue property
 
-获取或设置用于图表数据标签的分隔符值。
+获取或设置用于图表上数据标签的分隔符值。
 
 ```csharp
 public string SeparatorValue { get; set; }

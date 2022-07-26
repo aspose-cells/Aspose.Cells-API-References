@@ -1,14 +1,14 @@
 ---
 title: CustomPrint
 second_title: Aspose.Cells for .NET API 参考
-description: 客户端可以使用该功能在打印每一页时控制打印机的页面设置
+description: 使用此功能打印每一页时客户端可以控制打印机的页面设置
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.rendering/workbookrender/customprint/
 ---
 ## WorkbookRender.CustomPrint method
 
-客户端可以使用该功能在打印每一页时控制打印机的页面设置。
+使用此功能打印每一页时，客户端可以控制打印机的页面设置。
 
 ```csharp
 public int CustomPrint(bool nextPageAfterPrint, PrintPageEventArgs printPageEventArgs)
@@ -16,7 +16,7 @@ public int CustomPrint(bool nextPageAfterPrint, PrintPageEventArgs printPageEven
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| nextPageAfterPrint | Boolean | 如果为真，打印机将在打印当前页后转到下一页 |
+| nextPageAfterPrint | Boolean | 如果为 true ，打印机将在打印当前页面后转到下一页 |
 | printPageEventArgs | PrintPageEventArgs | System.Drawing.Printing.PrintPageEventArgs |
 
 ### 返回值

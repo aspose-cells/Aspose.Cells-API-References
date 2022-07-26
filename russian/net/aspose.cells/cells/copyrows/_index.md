@@ -16,10 +16,10 @@ public void CopyRows(Cells sourceCells, int sourceRowIndex, int destinationRowIn
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sourceCells | Cells | Объект Source Cells содержит данные и форматы для копирования. |
+| sourceCells | Cells | Объект исходных ячеек содержит данные и форматы для копирования. |
 | sourceRowIndex | Int32 | Индекс исходной строки. |
 | destinationRowIndex | Int32 | Индекс строки назначения. |
-| rowNumber | Int32 | Номер скопированной строки. |
+| rowNumber | Int32 | Скопированный номер строки. |
 
 ### Смотрите также
 
@@ -43,8 +43,8 @@ public void CopyRows(Cells sourceCells0, int sourceRowIndex, int destinationRowI
 | sourceCells0 | Cells | Объект исходных ячеек содержит данные и форматы для копирования. |
 | sourceRowIndex | Int32 | Индекс исходной строки. |
 | destinationRowIndex | Int32 | Индекс строки назначения. |
-| rowNumber | Int32 | Номер скопированной строки. |
-| copyOptions | CopyOptions | Параметры копирования. |
+| rowNumber | Int32 | Скопированный номер строки. |
+| copyOptions | CopyOptions | Варианты копирования. |
 
 ### Смотрите также
 
@@ -69,9 +69,9 @@ public void CopyRows(Cells sourceCells0, int sourceRowIndex, int destinationRowI
 | sourceCells0 | Cells | Объект исходных ячеек содержит данные и форматы для копирования. |
 | sourceRowIndex | Int32 | Индекс исходной строки. |
 | destinationRowIndex | Int32 | Индекс строки назначения. |
-| rowNumber | Int32 | Номер скопированной строки. |
-| copyOptions | CopyOptions | Параметры копирования. |
-| pasteOptions | PasteOptions | варианты вставки. |
+| rowNumber | Int32 | Скопированный номер строки. |
+| copyOptions | CopyOptions | Варианты копирования. |
+| pasteOptions | PasteOptions | варианты оклейки. |
 
 ### Смотрите также
 

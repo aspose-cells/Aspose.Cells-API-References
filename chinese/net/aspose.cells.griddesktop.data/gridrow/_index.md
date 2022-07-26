@@ -32,14 +32,14 @@ public class GridRow
 | 姓名 | 描述 |
 | --- | --- |
 | [GetCellByIndex](../../aspose.cells.griddesktop.data/gridrow/getcellbyindex)(int) |  |
-| [GetEnumerator](../../aspose.cells.griddesktop.data/gridrow/getenumerator)() | 获取单元格枚举器 |
+| [GetEnumerator](../../aspose.cells.griddesktop.data/gridrow/getenumerator)() | 获取单元格 enumerator |
 | [IsBlank](../../aspose.cells.griddesktop.data/gridrow/isblank)() |  |
 
 ## 字段
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [DEFAULT_HEIGHT](../../aspose.cells.griddesktop.data/gridrow/default_height) | 网格行的默认高度。 |
+| static [DEFAULT_HEIGHT](../../aspose.cells.griddesktop.data/gridrow/default_height) | gridrow 的默认高度。 |
 
 ### 也可以看看
 

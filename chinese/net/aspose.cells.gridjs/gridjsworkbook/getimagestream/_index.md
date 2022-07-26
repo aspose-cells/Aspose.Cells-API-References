@@ -16,7 +16,7 @@ public static Stream GetImageStream(string uid, string picid)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uid | String | 的唯一 ID工作表文件 |
+| uid | String | 工作表文件的唯一 ID |
 | picid | String |  |
 
 ### 也可以看看

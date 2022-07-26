@@ -3,7 +3,7 @@ title: CopyData
 second_title: Aspose.Cells for .NET API 参考
 description: 从源区域复制单元格数据包括公式
 type: docs
-weight: 200
+weight: 240
 url: /zh/net/aspose.cells/range/copydata/
 ---
 ## Range.CopyData method
@@ -16,7 +16,7 @@ public void CopyData(Range range)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| range | Range | 源[`Range`](../../range)对象。 |
+| range | Range | 资源[`Range`](../../range)目的。 |
 
 ### 也可以看看
 

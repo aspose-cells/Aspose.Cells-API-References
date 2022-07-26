@@ -1,14 +1,14 @@
 ---
 title: DataRange
 second_title: Aspose.Cells for .NET API 参考
-description: 获取 ListObject 的数据范围
+description: 获取ListObject的数据范围
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.tables/listobject/datarange/
 ---
 ## ListObject.DataRange property
 
-获取 ListObject 的数据范围。
+获取ListObject的数据范围。
 
 ```csharp
 public Range DataRange { get; }

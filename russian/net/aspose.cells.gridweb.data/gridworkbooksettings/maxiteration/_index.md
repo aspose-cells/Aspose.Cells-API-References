@@ -1,14 +1,14 @@
 ---
 title: MaxIteration
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает максимальное количество итераций для разрешения циклической ссылки значение по умолчанию равно 100.
+description: Получает или задает максимальное количество итераций для разрешения циклической ссылки значение по умолчанию  100.
 type: docs
 weight: 90
 url: /ru/net/aspose.cells.gridweb.data/gridworkbooksettings/maxiteration/
 ---
 ## GridWorkbookSettings.MaxIteration property
 
-Получает или задает максимальное количество итераций для разрешения циклической ссылки, значение по умолчанию равно 100.
+Получает или задает максимальное количество итераций для разрешения циклической ссылки, значение по умолчанию — 100.
 
 ```csharp
 public int MaxIteration { get; set; }

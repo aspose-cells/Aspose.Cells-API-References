@@ -1,14 +1,14 @@
 ---
 title: LightRigType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет предустановленное право света которое можно применить к фигуре
+description: Представляет предустановленное право света которое можно применить к shape
 type: docs
 weight: 2190
 url: /ru/net/aspose.cells.drawing/lightrigtype/
 ---
 ## LightRigType enumeration
 
-Представляет предустановленное право света, которое можно применить к фигуре
+Представляет предустановленное право света, которое можно применить к shape
 
 ```csharp
 public enum LightRigType
@@ -20,13 +20,13 @@ public enum LightRigType
 | --- | --- | --- |
 | Balanced | `0` | Сбалансированный |
 | BrightRoom | `1` | Светлая комната |
-| Chilly | `2` | Холодно |
+| Chilly | `2` | Чилли |
 | Contrasting | `3` | Контраст |
-| Flat | `4` | Плоский |
-| Flood | `5` | Флуд |
+| Flat | `4` | Flat |
+| Flood | `5` | Потоп |
 | Freezing | `6` | Замораживание |
 | Glow | `7` | Свечение |
-| Harsh | `8` | Резкий |
+| Harsh | `8` | Суровый |
 | LegacyFlat1 | `9` | LegacyFlat1 |
 | LegacyFlat2 | `10` | LegacyFlat2 |
 | LegacyFlat3 | `11` | LegacyFlat3 |
@@ -35,13 +35,13 @@ public enum LightRigType
 | LegacyHarsh2 | `14` | LegacyHarsh2 |
 | LegacyHarsh3 | `15` | LegacyHarsh3 |
 | LegacyHarsh4 | `16` | LegacyHarsh4 |
-| LegacyNormal1 | `17` | LegacyNormal1 |
-| LegacyNormal2 | `18` | LegacyNormal2 |
-| LegacyNormal3 | `19` | LegacyNormal3 |
-| LegacyNormal4 | `20` | LegacyNormal4 |
+| LegacyNormal1 | `17` | Устаревший нормальный1 |
+| LegacyNormal2 | `18` | Устаревший Нормальный2 |
+| LegacyNormal3 | `19` | Устаревший Нормальный3 |
+| LegacyNormal4 | `20` | НаследиеОбычный4 |
 | Morning | `21` | Утро |
-| Soft | `22` | Мягкий |
-| Sunrise | `23` | Восход |
+| Soft | `22` | Софт |
+| Sunrise | `23` | Восход солнца |
 | Sunset | `24` | Закат |
 | ThreePoint | `25` | Три точки |
 | TwoPoint | `26` | Две точки |

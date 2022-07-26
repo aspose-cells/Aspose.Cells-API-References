@@ -20,7 +20,7 @@ public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber
 | arrayFormula | String | Формула массива. |
 | rowNumber | Int32 | Количество строк для заполнения результата формулы массива. |
 | columnNumber | Int32 | Количество столбцов для заполнения результата формулы массива. |
-| options | FormulaParseOptions | Опции разбора формулы. |
+| options | FormulaParseOptions | Варианты разбора формулы. |
 
 ### Смотрите также
 
@@ -45,7 +45,7 @@ public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber
 | arrayFormula | String | Формула массива. |
 | rowNumber | Int32 | Количество строк для заполнения результата формулы массива. |
 | columnNumber | Int32 | Количество столбцов для заполнения результата формулы массива. |
-| options | FormulaParseOptions | Опции разбора формулы. |
+| options | FormulaParseOptions | Варианты разбора формулы. |
 | values | Object[][] | значения для тех ячеек с заданной формулой массива |
 
 ### Смотрите также
@@ -59,7 +59,7 @@ public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber
 
 ## SetArrayFormula(string, int, int) {#setarrayformula}
 
-Устанавливает формулу массива (устаревшая формула массива, введенная с помощью CTRL+SHIFT+ENTER в MS Excel) для диапазона ячеек.
+Задает формулу массива (устаревшая формула массива, введенная с помощью CTRL+SHIFT+ENTER в MS Excel) для диапазона ячеек.
 
 ```csharp
 public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber)

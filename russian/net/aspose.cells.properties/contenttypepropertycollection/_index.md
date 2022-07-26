@@ -1,14 +1,14 @@
 ---
 title: ContentTypePropertyCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Набор объектовContentTypeProperty./contenttypeproperty представляющих дополнительную информацию.
+description: КоллекцияContentTypeProperty./contenttypeproperty объекты представляющие дополнительную информацию.
 type: docs
 weight: 4820
 url: /ru/net/aspose.cells.properties/contenttypepropertycollection/
 ---
 ## ContentTypePropertyCollection class
 
-Набор объектов[`ContentTypeProperty`](../contenttypeproperty), представляющих дополнительную информацию.
+Коллекция[`ContentTypeProperty`](../contenttypeproperty) объекты, представляющие дополнительную информацию.
 
 ```csharp
 public class ContentTypePropertyCollection : CollectionBase<ContentTypeProperty>
@@ -27,8 +27,8 @@ public class ContentTypePropertyCollection : CollectionBase<ContentTypeProperty>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells.properties/contenttypepropertycollection/add#add)(string, string) | Добавляет информацию о свойствах типа контента. |
-| [Add](../../aspose.cells.properties/contenttypepropertycollection/add#add_1)(string, string, string) | Добавляет информацию о свойствах типа контента. |
+| [Add](../../aspose.cells.properties/contenttypepropertycollection/add#add)(string, string) | Добавляет информацию о свойстве типа контента. |
+| [Add](../../aspose.cells.properties/contenttypepropertycollection/add#add_1)(string, string, string) | Добавляет информацию о свойстве типа контента. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ContentTypeProperty) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ContentTypeProperty, IComparer&lt;ContentTypeProperty&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, ContentTypeProperty, IComparer&lt;ContentTypeProperty&gt;) |  |
@@ -62,20 +62,20 @@ public class ContentTypePropertyCollection : CollectionBase<ContentTypeProperty>
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
-  //Добавить новое свойство.
+//Добавить новое свойство.
  workbook.ContentTypeProperties.Add("Admin", "Aspose", "text");
-  // Сохраняем файл Excel
+// Сохраняем файл Excel
 workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
-'Добавить новое свойство.
+'Добавьте новое свойство.
  workbook.ContentTypeProperties.Add("Admin", "Aspose", "text")
-'Сохраняем файл Excel
+'Сохраните файл Excel
 workbook.Save("book1.xlsm")
 ```
 

@@ -18,7 +18,7 @@ public void SetTwoColorGradient(Color color1, Color color2, GradientStyleType st
 | --- | --- | --- |
 | color1 | Color | 一种渐变色。 |
 | color2 | Color | 两种渐变色。 |
-| style | GradientStyleType | 渐变着色样式。 |
+| style | GradientStyleType | 渐变阴影样式。 |
 | variant | Int32 | 渐变变体。可以是 1 到 4 之间的值，对应于“填充效果”对话框中“渐变”选项卡上的四个变体之一。如果 style 是 GradientStyle.FromCenter，则 Variant 参数只能是 1 或 2。 |
 
 ### 也可以看看
@@ -45,7 +45,7 @@ public void SetTwoColorGradient(Color color1, double transparency1, Color color2
 | transparency1 | Double | color1 的透明度，取值范围为 0.0（不透明）到 1.0（透明）。 |
 | color2 | Color | 两种渐变色。 |
 | transparency2 | Double | color2 的透明度，取值范围为 0.0（不透明）到 1.0（透明）。 |
-| style | GradientStyleType | 渐变着色样式。 |
+| style | GradientStyleType | 渐变阴影样式。 |
 | variant | Int32 | 渐变变体。可以是 1 到 4 之间的值，对应于“填充效果”对话框中“渐变”选项卡上的四个变体之一。如果 style 是 GradientStyle.FromCenter，则 Variant 参数只能是 1 或 2。 |
 
 ### 也可以看看

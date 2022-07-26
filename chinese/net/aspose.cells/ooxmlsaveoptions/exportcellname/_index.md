@@ -1,14 +1,14 @@
 ---
 title: ExportCellName
 second_title: Aspose.Cells for .NET API 参考
-description: 指示是否将单元格名称导出到 Excel2007 .xlsx.xlsm.xltx.xltm文件 如果 SQL Server DTS 可以访问输出文件则此值必须为 true 将该值设置为 false 将大大提高性能并在创建大文件时减小文件大小 默认值为真
+description: 指示是否将单元格名称导出到 Excel2007 .xlsx.xlsm.xltx.xltm文件 如果输出文件可以被SQL Server DTS访问该值必须为true 设置为false将大大提高性能并在创建大文件时减小文件大小 默认值为true
 type: docs
 weight: 50
 url: /zh/net/aspose.cells/ooxmlsaveoptions/exportcellname/
 ---
 ## OoxmlSaveOptions.ExportCellName property
 
-指示是否将单元格名称导出到 Excel2007 .xlsx（.xlsm、.xltx、.xltm）文件。 如果 SQL Server DTS 可以访问输出文件，则此值必须为 true。 将该值设置为 false 将大大提高性能并在创建大文件时减小文件大小。 默认值为真。
+指示是否将单元格名称导出到 Excel2007 .xlsx（.xlsm、.xltx、.xltm）文件。 如果输出文件可以被SQL Server DTS访问，该值必须为true。 设置为false将大大提高性能并在创建大文件时减小文件大小。 默认值为true。
 
 ```csharp
 public bool ExportCellName { get; set; }

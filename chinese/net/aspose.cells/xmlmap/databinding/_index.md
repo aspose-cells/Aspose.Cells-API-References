@@ -1,14 +1,14 @@
 ---
 title: DataBinding
 second_title: Aspose.Cells for .NET API 参考
-description: 获取该地图的XmlDataBindingaspose.cells/xmldatabinding
+description: 得到一个XmlDataBindingaspose.cells/xmldatabinding这张地图的.
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/xmlmap/databinding/
 ---
 ## XmlMap.DataBinding property
 
-获取该地图的[`XmlDataBinding`](../../xmldatabinding)。
+得到一个[`XmlDataBinding`](../../xmldatabinding)这张地图的.
 
 ```csharp
 public XmlDataBinding DataBinding { get; }

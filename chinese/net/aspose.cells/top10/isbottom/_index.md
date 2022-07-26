@@ -1,14 +1,14 @@
 ---
 title: IsBottom
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置top/bottom n规则是否为bottom n规则 默认值为假
+description: 获取或设置top/bottom n规则是否为bottom n规则 默认值为false
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/top10/isbottom/
 ---
 ## Top10.IsBottom property
 
-获取或设置“top/bottom n”规则是否为“bottom n”规则。 默认值为假。
+获取或设置“top/bottom n”规则是否为“bottom n”规则。 默认值为false。
 
 ```csharp
 public bool IsBottom { get; set; }

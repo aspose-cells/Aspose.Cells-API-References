@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.gridjs/gridcalculationdata/functionname/
 ---
 ## GridCalculationData.FunctionName property
 
-获取要计算的函数名。
+获取要计算的函数名
 
 ```csharp
 public string FunctionName { get; }

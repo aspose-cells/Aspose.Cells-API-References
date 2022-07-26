@@ -18,10 +18,10 @@ public enum CredentialsMethodType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Integrated | `0` | 集成认证 |
-| None | `1` | 无凭据 |
+| Integrated | `0` | 集成身份验证 |
+| None | `1` | 没有凭据 |
 | Prompt | `2` | 提示凭据 |
-| Stored | `3` | 存储凭证 |
+| Stored | `3` | 存储的凭据 |
 
 ### 也可以看看
 

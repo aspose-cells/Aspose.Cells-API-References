@@ -1,14 +1,14 @@
 ---
 title: FormatStrategy
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置格式化策略
+description: 获取并设置格式化策略
 type: docs
 weight: 50
 url: /zh/net/aspose.cells/autofitteroptions/formatstrategy/
 ---
 ## AutoFitterOptions.FormatStrategy property
 
-获取和设置格式化策略。
+获取并设置格式化策略。
 
 ```csharp
 public CellValueFormatStrategy FormatStrategy { get; set; }
@@ -16,7 +16,7 @@ public CellValueFormatStrategy FormatStrategy { get; set; }
 
 ### 评论
 
-对于性能，默认值为 CellStyle。
+性能的默认值为 CellStyle。
 
 ### 也可以看看
 

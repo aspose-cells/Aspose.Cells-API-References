@@ -1,14 +1,14 @@
 ---
 title: Areas
 second_title: Aspose.Cells for .NET API 参考
-description: 获取所有包含数据验证设置的CellAreaaspose.cells/cellarea
+description: 获取所有CellAreaaspose.cells/cellarea其中包含数据验证设置
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/validation/areas/
 ---
 ## Validation.Areas property
 
-获取所有包含数据验证设置的[`CellArea`](../../cellarea)。
+获取所有[`CellArea`](../../cellarea)其中包含数据验证设置。
 
 ```csharp
 public CellArea[] Areas { get; }

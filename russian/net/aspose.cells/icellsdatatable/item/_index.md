@@ -28,7 +28,7 @@ public object this[int columnIndex] { get; }
 
 ## ICellsDataTable indexer (2 of 2)
 
-Получает данные, хранящиеся в столбце, указанном по имени столбца.
+Получает данные, хранящиеся в столбце, заданном именем столбца.
 
 ```csharp
 public object this[string columnName] { get; }

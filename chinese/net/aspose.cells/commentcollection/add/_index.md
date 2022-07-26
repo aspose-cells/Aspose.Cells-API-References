@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 向集合添加注释
+description: 向集合添加评论
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/commentcollection/add/
 ---
 ## Add(int, int) {#add}
 
-向集合添加注释。
+向集合添加评论。
 
 ```csharp
 public int Add(int row, int column)
@@ -44,7 +44,7 @@ comment1.Font.Name = "Times New Roman";
 
 ## Add(string) {#add_1}
 
-向集合添加注释。
+向集合添加评论。
 
 ```csharp
 public int Add(string cellName)
@@ -52,7 +52,7 @@ public int Add(string cellName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cellName | String | 单元名称。 |
+| cellName | String | 单元格名称。 |
 
 ### 返回值
 

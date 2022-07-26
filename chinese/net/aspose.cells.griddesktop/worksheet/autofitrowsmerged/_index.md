@@ -16,7 +16,7 @@ public void AutoFitRowsMerged()
 
 ### 评论
 
-如果单元格合并成一行并自动适应 MS Excel 中的行， MS Excel 不扩展行高。 Aspose.Cells 将扩展行高以适应单元格的数据。
+如果单元格合并成一行并自动适应 MS Excel 中的行， MS Excel 不会扩展行高。 Aspose.Cells 将扩展行高以适应单元格的数据。
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public bool CheckCompatibility { get; set; }
 
 ### 评论
 
-默认值为真。 仅适用于 Excel97-2003 xls 或 xlt 文件。
+默认值为true。 仅适用于Excel97-2003 xls或xlt文件。
 
 ### 也可以看看
 

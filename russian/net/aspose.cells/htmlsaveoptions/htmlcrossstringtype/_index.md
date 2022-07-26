@@ -1,14 +1,14 @@
 ---
 title: HtmlCrossStringType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает будет ли строка между ячейками отображаться так же как в MS Excel при сохранении файла Excel в формате html. По умолчанию используется значение Default поэтому для строк между ячейками разница между html-файлами созданными Aspose.Cells и MS Excel незначительна. Но производительность для создания больших html-файлов установка значения Cross будет в несколько раз быстрее чем установка значения Default или Fit2Cell.
+description: Указывает будет ли межъячеечная строка отображаться так же как в MS Excel при сохранении файла Excel в формате html. файлы созданные Aspose.Cells и MS Excel. Но производительность при создании больших html-файлов при установке значения Cross будет в несколько раз выше чем при установке значения Default или Fit2Cell.
 type: docs
-weight: 320
+weight: 340
 url: /ru/net/aspose.cells/htmlsaveoptions/htmlcrossstringtype/
 ---
 ## HtmlSaveOptions.HtmlCrossStringType property
 
-Указывает, будет ли строка между ячейками отображаться так же, как в MS Excel, при сохранении файла Excel в формате html. По умолчанию используется значение Default, поэтому для строк между ячейками разница между html-файлами, созданными Aspose.Cells и MS Excel, незначительна. Но производительность для создания больших html-файлов, установка значения Cross будет в несколько раз быстрее, чем установка значения Default или Fit2Cell.
+Указывает, будет ли межъячеечная строка отображаться так же, как в MS Excel, при сохранении файла Excel в формате html. файлы, созданные Aspose.Cells и MS Excel. Но производительность при создании больших html-файлов при установке значения Cross будет в несколько раз выше, чем при установке значения Default или Fit2Cell.
 
 ```csharp
 public HtmlCrossType HtmlCrossStringType { get; set; }

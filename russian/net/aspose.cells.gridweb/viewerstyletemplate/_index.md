@@ -1,14 +1,14 @@
 ---
 title: ViewerStyleTemplate
 second_title: Справочник по Aspose.Cells для .NET API
-description: ViewerStyleTemplate.
+description: Шаблон стиля просмотра.
 type: docs
 weight: 920
 url: /ru/net/aspose.cells.gridweb/viewerstyletemplate/
 ---
 ## ViewerStyleTemplate class
 
-ViewerStyleTemplate.
+Шаблон стиля просмотра.
 
 ```csharp
 public class ViewerStyleTemplate : Control
@@ -24,10 +24,10 @@ public class ViewerStyleTemplate : Control
 
 | Имя | Описание |
 | --- | --- |
-| [ActiveCellBgColor](../../aspose.cells.gridweb/viewerstyletemplate/activecellbgcolor) { get; set; } | Задает цвет фона активной ячейки. |
-| [ActiveCellColor](../../aspose.cells.gridweb/viewerstyletemplate/activecellcolor) { get; set; } | Задает цвет активной ячейки. |
+| [ActiveCellBgColor](../../aspose.cells.gridweb/viewerstyletemplate/activecellbgcolor) { get; set; } | Указывает цвет фона активной ячейки. |
+| [ActiveCellColor](../../aspose.cells.gridweb/viewerstyletemplate/activecellcolor) { get; set; } | Указывает цвет активной ячейки. |
 | [ActiveHeaderBgColor](../../aspose.cells.gridweb/viewerstyletemplate/activeheaderbgcolor) { get; set; } | Указывает цвет фона активного заголовка строки/столбца. |
-| [ActiveHeaderColor](../../aspose.cells.gridweb/viewerstyletemplate/activeheadercolor) { get; set; } | Задает цвет заголовка активной строки/столбца. |
+| [ActiveHeaderColor](../../aspose.cells.gridweb/viewerstyletemplate/activeheadercolor) { get; set; } | Определяет цвет заголовка активной строки/столбца. |
 | [ActiveTabStyle](../../aspose.cells.gridweb/viewerstyletemplate/activetabstyle) { get; set; } |  |
 | [BottomTableStyle](../../aspose.cells.gridweb/viewerstyletemplate/bottomtablestyle) { get; set; } |  |
 | [DefaultGridLineColor](../../aspose.cells.gridweb/viewerstyletemplate/defaultgridlinecolor) { get; set; } |  |
@@ -39,7 +39,7 @@ public class ViewerStyleTemplate : Control
 | [ScrollBarArrowColor](../../aspose.cells.gridweb/viewerstyletemplate/scrollbararrowcolor) { get; set; } |  |
 | [ScrollBarBaseColor](../../aspose.cells.gridweb/viewerstyletemplate/scrollbarbasecolor) { get; set; } |  |
 | [SelectCellBgColor](../../aspose.cells.gridweb/viewerstyletemplate/selectcellbgcolor) { get; set; } | Указывает цвет фона выбранных ячеек в диапазоне множественного выбора. |
-| [SelectCellColor](../../aspose.cells.gridweb/viewerstyletemplate/selectcellcolor) { get; set; } | Задает цвет выделенных ячеек в диапазоне множественного выбора. |
+| [SelectCellColor](../../aspose.cells.gridweb/viewerstyletemplate/selectcellcolor) { get; set; } | Указывает цвет выбранных ячеек в диапазоне множественного выбора. |
 | [TabStyle](../../aspose.cells.gridweb/viewerstyletemplate/tabstyle) { get; set; } |  |
 | [ViewTableStyle](../../aspose.cells.gridweb/viewerstyletemplate/viewtablestyle) { get; set; } |  |
 

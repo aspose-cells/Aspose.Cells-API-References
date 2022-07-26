@@ -19,14 +19,14 @@ public class FormulaSettings
 | 姓名 | 描述 |
 | --- | --- |
 | [CalculateOnOpen](../../aspose.cells/formulasettings/calculateonopen) { get; set; } | 表示打开工作簿时是否要求应用程序执行完整计算。 |
-| [CalculateOnSave](../../aspose.cells/formulasettings/calculateonsave) { get; set; } | 手动计算模式下，是否在保存文档前重新计算工作簿。 |
+| [CalculateOnSave](../../aspose.cells/formulasettings/calculateonsave) { get; set; } | 在手动计算模式下，是否在保存文档前重新计算工作簿。 |
 | [CalculationId](../../aspose.cells/formulasettings/calculationid) { get; set; } | 指定用于计算工作簿中值的计算引擎的版本。 |
-| [CalculationMode](../../aspose.cells/formulasettings/calculationmode) { get; set; } | 获取或设置 ms excel 中工作簿计算的模式。 |
-| [EnableCalculationChain](../../aspose.cells/formulasettings/enablecalculationchain) { get; set; } | 是否开启公式计算链。默认为假。 |
+| [CalculationMode](../../aspose.cells/formulasettings/calculationmode) { get; set; } | 获取或设置ms excel中工作簿计算的模式。 |
+| [EnableCalculationChain](../../aspose.cells/formulasettings/enablecalculationchain) { get; set; } | 是否启用公式的计算链。默认为假。 |
 | [EnableIterativeCalculation](../../aspose.cells/formulasettings/enableiterativecalculation) { get; set; } | 表示是否启用迭代计算来解析循环引用。 |
-| [ForceFullCalculation](../../aspose.cells/formulasettings/forcefullcalculation) { get; set; } | 每次触发计算时是否计算所有公式。 |
+| [ForceFullCalculation](../../aspose.cells/formulasettings/forcefullcalculation) { get; set; } | 表示每次触发计算时是否计算所有公式。 |
 | [MaxChange](../../aspose.cells/formulasettings/maxchange) { get; set; } | 解析循环引用的最大变化。 |
-| [MaxIteration](../../aspose.cells/formulasettings/maxiteration) { get; set; } | 解析循环引用的最大迭代次数。 |
+| [MaxIteration](../../aspose.cells/formulasettings/maxiteration) { get; set; } | 解决循环引用的最大迭代次数。 |
 | [PrecisionAsDisplayed](../../aspose.cells/formulasettings/precisionasdisplayed) { get; set; } | 计算结果的精度是否设置为计算公式时显示的精度 |
 
 ### 也可以看看

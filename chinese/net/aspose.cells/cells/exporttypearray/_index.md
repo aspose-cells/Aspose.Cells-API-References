@@ -1,14 +1,14 @@
 ---
 title: ExportTypeArray
 second_title: Aspose.Cells for .NET API 参考
-description: 将Cellsaspose.cells/cells集合中的单元格值类型导出到二维数组对象
+description: 导出单元格值类型Cellsaspose.cells/cells集合到一个二维数组对象.
 type: docs
 weight: 630
 url: /zh/net/aspose.cells/cells/exporttypearray/
 ---
 ## Cells.ExportTypeArray method
 
-将[`Cells`](../../cells)集合中的单元格值类型导出到二维数组对象。
+导出单元格值类型[`Cells`](../../cells)集合到一个二维数组对象.
 
 ```csharp
 public CellValueType[] ExportTypeArray(int firstRow, int firstColumn, int totalRows, 
@@ -24,7 +24,7 @@ public CellValueType[] ExportTypeArray(int firstRow, int firstColumn, int totalR
 
 ### 返回值
 
-导出[`CellValueType`](../../cellvaluetype)数组对象。
+出口[`CellValueType`](../../cellvaluetype)数组对象。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Children
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает все текстовые фрагменты в этом абзаце. Если этот абзац пуст вернуть сам абзац.
+description: Получает все текстовые фрагменты в этом абзаце. Если этот абзац пуст возвращает сам абзац.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.drawing.texts/textparagraph/children/
 ---
 ## TextParagraph.Children property
 
-Получает все текстовые фрагменты в этом абзаце. Если этот абзац пуст, вернуть сам абзац.
+Получает все текстовые фрагменты в этом абзаце. Если этот абзац пуст, возвращает сам абзац.
 
 ```csharp
 public FontSetting[] Children { get; }

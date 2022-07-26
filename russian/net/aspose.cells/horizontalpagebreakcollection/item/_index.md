@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементHorizontalPageBreakaspose.cells/horizontalpagebreakпо указанному индексу.
+description: ПолучаетHorizontalPageBreakaspose.cells/horizontalpagebreak элемент по указанному индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/horizontalpagebreakcollection/item/
 ---
 ## HorizontalPageBreakCollection indexer (1 of 2)
 
-Получает элемент[`HorizontalPageBreak`](../../horizontalpagebreak)по указанному индексу.
+Получает[`HorizontalPageBreak`](../../horizontalpagebreak) элемент по указанному индексу.
 
 ```csharp
 public HorizontalPageBreak this[int index] { get; }
@@ -33,7 +33,7 @@ public HorizontalPageBreak this[int index] { get; }
 
 ## HorizontalPageBreakCollection indexer (2 of 2)
 
-Получает элемент[`HorizontalPageBreak`](../../horizontalpagebreak)с указанным именем ячейки.
+Получает[`HorizontalPageBreak`](../../horizontalpagebreak) элемент с указанным именем ячейки.
 
 ```csharp
 public HorizontalPageBreak this[string cellName] { get; }

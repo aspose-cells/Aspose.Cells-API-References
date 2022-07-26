@@ -1,14 +1,14 @@
 ---
 title: MaxDisplayRange
 second_title: Aspose.Cells for .NET API 参考
-description: 获取包括数据合并单元格和形状的最大范围
+description: 获取包含数据合并单元格和形状的最大范围
 type: docs
 weight: 120
 url: /zh/net/aspose.cells/cells/maxdisplayrange/
 ---
 ## Cells.MaxDisplayRange property
 
-获取包括数据、合并单元格和形状的最大范围。
+获取包含数据、合并单元格和形状的最大范围。
 
 ```csharp
 public Range MaxDisplayRange { get; }
@@ -16,7 +16,7 @@ public Range MaxDisplayRange { get; }
 
 ### 评论
 
-如果工作表自 Aspose.Cells 21.5.2 起为空，则返回 null。
+如果工作表自 Aspose.Cells 21.5.2. 起为空，则返回 null
 
 ### 也可以看看
 

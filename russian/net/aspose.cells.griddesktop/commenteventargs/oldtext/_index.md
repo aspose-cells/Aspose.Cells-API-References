@@ -1,14 +1,14 @@
 ---
 title: OldText
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает старые текстовые данные комментария
+description: Получает старые текстовые данные comment
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.griddesktop/commenteventargs/oldtext/
 ---
 ## CommentEventArgs.OldText property
 
-Получает старые текстовые данные комментария
+Получает старые текстовые данные comment
 
 ```csharp
 public string OldText { get; }

@@ -1,14 +1,14 @@
 ---
 title: ColorType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает следует ли использовать тот же цвет заливки что и положительные столбцы данных.
+description: Получает или задает следует ли использовать тот же цвет заливки что и положительные гистограммы.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/negativebarformat/colortype/
 ---
 ## NegativeBarFormat.ColorType property
 
-Получает или задает, следует ли использовать тот же цвет заливки, что и положительные столбцы данных.
+Получает или задает, следует ли использовать тот же цвет заливки, что и положительные гистограммы.
 
 ```csharp
 public DataBarNegativeColorType ColorType { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: GetStandardHeaderFooterFontStyleName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает имя стиля стандартного английского шрифта обычный полужирный курсив для верхнего/нижнего колонтитула в соответствии с заданным именем стиля шрифта локали.
+description: Получает имя стандартного английского стиля шрифта обычный полужирный курсив для верхнего/нижнего колонтитула в соответствии с заданным именем стиля шрифта локали.
 type: docs
 weight: 230
 url: /ru/net/aspose.cells/globalizationsettings/getstandardheaderfooterfontstylename/
 ---
 ## GlobalizationSettings.GetStandardHeaderFooterFontStyleName method
 
-Получает имя стиля стандартного английского шрифта (обычный, полужирный, курсив) для верхнего/нижнего колонтитула в соответствии с заданным именем стиля шрифта локали.
+Получает имя стандартного английского стиля шрифта (обычный, полужирный, курсив) для верхнего/нижнего колонтитула в соответствии с заданным именем стиля шрифта локали.
 
 ```csharp
 public virtual string GetStandardHeaderFooterFontStyleName(string localfontStyleName)
@@ -20,7 +20,7 @@ public virtual string GetStandardHeaderFooterFontStyleName(string localfontStyle
 
 ### Возвращаемое значение
 
-Стандартное имя стиля английского шрифта (обычный, полужирный, курсив)
+Название стиля стандартного английского шрифта (обычный, полужирный, курсив)
 
 ### Смотрите также
 

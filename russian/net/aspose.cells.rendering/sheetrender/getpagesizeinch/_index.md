@@ -1,14 +1,14 @@
 ---
 title: GetPageSizeInch
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получить размер страницы выходного изображения в дюймах.
+description: Получить размер страницы в дюймах выходного изображения.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.rendering/sheetrender/getpagesizeinch/
 ---
 ## SheetRender.GetPageSizeInch method
 
-Получить размер страницы выходного изображения в дюймах.
+Получить размер страницы в дюймах выходного изображения.
 
 ```csharp
 public float[] GetPageSizeInch(int pageIndex)

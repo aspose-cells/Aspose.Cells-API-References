@@ -3,7 +3,7 @@ title: RemoveFormulas
 second_title: Aspose.Cells for .NET API 参考
 description: 删除所有公式并替换为公式的值
 type: docs
-weight: 1200
+weight: 1210
 url: /zh/net/aspose.cells/cells/removeformulas/
 ---
 ## Cells.RemoveFormulas method

@@ -23,17 +23,17 @@ public enum ValidationType
 | List | `2` | 列表验证类型。 |
 | FreeList | `3` | 空闲列表验证类型。 |
 | CustomExpression | `4` | 自定义验证类型，使用正则表达式。 |
-| Boolean | `5` | 真或假 |
+| Boolean | `5` | TRUE 或 FALSE |
 | Number | `6` | 数字（整数或双精度）。 |
 | Integer | `7` | 整数 |
 | Date | `8` | 日期 yyyy-MM-dd |
-| DateTime | `9` | 日期时间（yyyy-MM-dd 或 yyyy-MM-dd hh:mm:ss）。 |
-| Time | `10` | 时间（hh:mm:ss）。 |
-| TextLength | `11` | textlength |
+| DateTime | `9` | 日期时间（yyyy-MM-dd 或 yyyy-MM-dd hh:mm:ss）. |
+| Time | `10` | 时间 (hh:mm:ss). |
+| TextLength | `11` | 文本长度 |
 | CustomString | `12` | customstr |
-| CustomFunction | `13` | 自定义 JavaScript 函数验证。 |
+| CustomFunction | `13` | 自定义 javascript 函数验证。 |
 | CustomServerFunction | `14` | 自定义服务器端函数验证。 |
-| CheckBox | `15` | 将单元格显示为复选框。并且单元格的值是 True of False。 |
+| CheckBox | `15` | 将单元格显示为复选框。并且单元格的值为True of False. |
 
 ### 也可以看看
 

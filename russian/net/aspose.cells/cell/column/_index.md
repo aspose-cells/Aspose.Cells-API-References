@@ -1,14 +1,14 @@
 ---
 title: Column
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает номер столбца с нуля ячейки.
+description: Получает номер столбца начиная с нуля ячейки.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/cell/column/
 ---
 ## Cell.Column property
 
-Получает номер столбца (с нуля) ячейки.
+Получает номер столбца (начиная с нуля) ячейки.
 
 ```csharp
 public int Column { get; }

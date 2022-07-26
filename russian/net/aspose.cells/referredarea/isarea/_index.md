@@ -16,7 +16,7 @@ public bool IsArea { get; }
 
 ### Примечания
 
-Если это не область, то действуют только StartRow и StartColumn.
+Если это не область, только эффект StartRow и StartColumn.
 
 ### Смотрите также
 

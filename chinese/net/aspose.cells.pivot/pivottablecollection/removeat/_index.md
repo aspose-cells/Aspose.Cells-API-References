@@ -36,7 +36,7 @@ public void RemoveAt(int index, bool keepData)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 位置索引在数据透视表集合中 |
+| index | Int32 | 数据透视表集合中的位置索引 |
 | keepData | Boolean | 是否保留数据透视表数据 |
 
 ### 也可以看看

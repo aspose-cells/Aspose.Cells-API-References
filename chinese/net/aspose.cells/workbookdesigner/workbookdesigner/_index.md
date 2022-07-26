@@ -1,14 +1,14 @@
 ---
 title: WorkbookDesigner
 second_title: Aspose.Cells for .NET API 参考
-description: 初始化WorkbookDesigneraspose.cells/workbookdesigner类的新实例
+description: 初始化WorkbookDesigneraspose.cells/workbookdesigner类.
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/workbookdesigner/workbookdesigner/
 ---
 ## WorkbookDesigner() {#constructor}
 
-初始化[`WorkbookDesigner`](../../workbookdesigner)类的新实例。
+初始化[`WorkbookDesigner`](../../workbookdesigner)类.
 
 ```csharp
 public WorkbookDesigner()
@@ -24,7 +24,7 @@ public WorkbookDesigner()
 
 ## WorkbookDesigner(Workbook) {#constructor_1}
 
-初始化[`WorkbookDesigner`](../../workbookdesigner)类的新实例。
+初始化[`WorkbookDesigner`](../../workbookdesigner)类.
 
 ```csharp
 public WorkbookDesigner(Workbook workbook)

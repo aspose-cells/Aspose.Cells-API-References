@@ -1,14 +1,14 @@
 ---
 title: SurfaceLightingType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает тип освещения который должен применяться к сцене фигуры. Значение по умолчанию  LightRigType.ThreePoint.
+description: Получает и задает тип освещения который должен применяться к сцене фигуры. Значение по умолчанию LightRigType.ThreePoint.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.drawing/format3d/surfacelightingtype/
 ---
 ## Format3D.SurfaceLightingType property
 
-Получает и задает тип освещения, который должен применяться к сцене фигуры. Значение по умолчанию — LightRigType.ThreePoint.
+Получает и задает тип освещения, который должен применяться к сцене фигуры. Значение по умолчанию: LightRigType.ThreePoint.
 
 ```csharp
 public LightRigType SurfaceLightingType { get; set; }

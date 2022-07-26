@@ -1,14 +1,14 @@
 ---
 title: Resize
 second_title: Справочник по Aspose.Cells для .NET API
-description: Изменение размера диапазона объекта списка.
+description: Изменить размер диапазона объекта списка.
 type: docs
 weight: 270
 url: /ru/net/aspose.cells.tables/listobject/resize/
 ---
 ## ListObject.Resize method
 
-Изменение размера диапазона объекта списка.
+Изменить размер диапазона объекта списка.
 
 ```csharp
 public void Resize(int startRow, int startColumn, int endRow, int endColumn, bool hasHeaders)

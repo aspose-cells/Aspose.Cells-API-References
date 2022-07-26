@@ -1,14 +1,14 @@
 ---
 title: EnableClipboardCopyPaste
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否根据剪贴板进行复制/粘贴以便用MS-EXCEL进行复制/粘贴 仅复制/粘贴单元格值不复制单元格的任何其他设置如格式边框样式等 默认值为 false
+description: 表示是否基于剪贴板进行复制/粘贴以便使用 MS-EXCEL 进行复制/粘贴 只复制/粘贴单元格值不复制单元格的任何其他设置如格式边框样式等 默认值为假
 type: docs
 weight: 110
 url: /zh/net/aspose.cells.griddesktop/griddesktop/enableclipboardcopypaste/
 ---
 ## GridDesktop.EnableClipboardCopyPaste property
 
-表示是否根据剪贴板进行复制/粘贴，以便用MS-EXCEL进行复制/粘贴。 仅复制/粘贴单元格值，不复制单元格的任何其他设置，如格式、边框样式等 默认值为 false。
+表示是否基于剪贴板进行复制/粘贴，以便使用 MS-EXCEL 进行复制/粘贴。 只复制/粘贴单元格值，不复制单元格的任何其他设置，如格式、边框样式等 默认值为假。
 
 ```csharp
 public bool EnableClipboardCopyPaste { get; set; }

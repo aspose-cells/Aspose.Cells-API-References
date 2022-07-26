@@ -26,14 +26,14 @@ public ArcShape AddArc(int upperLeftRow, int top, int upperLeftColumn, int left,
 
 ### 返回值
 
-ArcShape 对象。
+一个 ArcShape 对象。
 
 ### 例子
 
 ```csharp
 
 [C#]
- //添加一个arc
+//添加一个弧
 ArcShape arcShape = shapes.AddArc(1, 0, 1, 0, 100, 50);
 ```
 

@@ -27,7 +27,7 @@ public class ThreadedCommentAuthorCollection : CollectionBase<ThreadedCommentAut
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
 | [CurrentPerson](../../aspose.cells/threadedcommentauthorcollection/currentperson) { get; set; } | Получает и устанавливает текущего пользователя. |
-| [Item](../../aspose.cells/threadedcommentauthorcollection/item) { get; } | Получает человека, создавшего цепочку комментариев. (2 indexers) |
+| [Item](../../aspose.cells/threadedcommentauthorcollection/item) { get; } | Получает человека, создавшего комментарии в цепочке. (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы

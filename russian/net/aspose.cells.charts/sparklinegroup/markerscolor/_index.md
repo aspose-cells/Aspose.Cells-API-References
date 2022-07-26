@@ -1,14 +1,14 @@
 ---
 title: MarkersColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает цвет точек в каждой строке спарклайна в группе спарклайнов.
+description: Получает и задает цвет точек каждой линии спарклайна в группе спарклайнов.
 type: docs
 weight: 90
 url: /ru/net/aspose.cells.charts/sparklinegroup/markerscolor/
 ---
 ## SparklineGroup.MarkersColor property
 
-Получает и задает цвет точек в каждой строке спарклайна в группе спарклайнов.
+Получает и задает цвет точек каждой линии спарклайна в группе спарклайнов.
 
 ```csharp
 public CellsColor MarkersColor { get; set; }

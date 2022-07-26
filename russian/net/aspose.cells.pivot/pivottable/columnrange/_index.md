@@ -1,14 +1,14 @@
 ---
 title: ColumnRange
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает объект CellArea который представляет диапазон  содержащий область столбца в отчете сводной таблицы. Только для чтения.
+description: Возвращает объект CellArea представляющий диапазон  который содержит область столбца в отчете сводной таблицы. Только для чтения.
 type: docs
 weight: 80
 url: /ru/net/aspose.cells.pivot/pivottable/columnrange/
 ---
 ## PivotTable.ColumnRange property
 
-Возвращает объект CellArea, который представляет диапазон , содержащий область столбца в отчете сводной таблицы. Только для чтения.
+Возвращает объект CellArea, представляющий диапазон , который содержит область столбца в отчете сводной таблицы. Только для чтения.
 
 ```csharp
 public CellArea ColumnRange { get; }

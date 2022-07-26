@@ -1,14 +1,14 @@
 ---
 title: CurrentPage
 second_title: Aspose.Cells for .NET API 参考
-description: 表示DrawObject的页面索引 页面索引基于零 一张表在渲染时包含多个页面
+description: 表示 DrawObject 的页面索引 页面索引基于零 渲染时一张工作表包含多个页面
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.rendering/drawobject/currentpage/
 ---
 ## DrawObject.CurrentPage property
 
-表示DrawObject的页面索引。 页面索引基于零。 一张表在渲染时包含多个页面。
+表示 DrawObject 的页面索引。 页面索引基于零。 渲染时一张工作表包含多个页面。
 
 ```csharp
 public int CurrentPage { get; }

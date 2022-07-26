@@ -1,14 +1,14 @@
 ---
 title: SearchBackward
 second_title: Справочник по Aspose.Cells для .NET API
-description: Ищет ли ячейки назад.
+description: Поиск ячеек назад.
 type: docs
 weight: 90
 url: /ru/net/aspose.cells/findoptions/searchbackward/
 ---
 ## FindOptions.SearchBackward property
 
-Ищет ли ячейки назад.
+Поиск ячеек назад.
 
 ```csharp
 public bool SearchBackward { get; set; }

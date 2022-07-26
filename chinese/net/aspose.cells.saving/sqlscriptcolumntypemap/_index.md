@@ -24,7 +24,7 @@ public class SqlScriptColumnTypeMap
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [GetNumbericType](../../aspose.cells.saving/sqlscriptcolumntypemap/getnumberictype)() | 获取数据库中的数字类型。 |
+| virtual [GetNumbericType](../../aspose.cells.saving/sqlscriptcolumntypemap/getnumberictype)() | 获取数据库中的数值类型。 |
 | virtual [GetStringType](../../aspose.cells.saving/sqlscriptcolumntypemap/getstringtype)() | 获取数据库中的字符串类型。 |
 
 ### 也可以看看

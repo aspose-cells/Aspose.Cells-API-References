@@ -1,14 +1,14 @@
 ---
 title: PowerQueryFormulaParameter
 second_title: Aspose.Cells for .NET API 参考
-description: 表示幂查询公式的参数
+description: 代表幂查询公式的参数
 type: docs
 weight: 5010
 url: /zh/net/aspose.cells.querytables/powerqueryformulaparameter/
 ---
 ## PowerQueryFormulaParameter class
 
-表示幂查询公式的参数。
+代表幂查询公式的参数。
 
 ```csharp
 public class PowerQueryFormulaParameter
@@ -26,7 +26,7 @@ public class PowerQueryFormulaParameter
 | --- | --- |
 | [Name](../../aspose.cells.querytables/powerqueryformulaparameter/name) { get; set; } | 获取参数名称。 |
 | [ParameterDefinition](../../aspose.cells.querytables/powerqueryformulaparameter/parameterdefinition) { get; } | 获取参数的定义。 |
-| [Value](../../aspose.cells.querytables/powerqueryformulaparameter/value) { get; set; } | 获取参数值。 |
+| [Value](../../aspose.cells.querytables/powerqueryformulaparameter/value) { get; set; } | 获取参数的值。 |
 
 ### 也可以看看
 

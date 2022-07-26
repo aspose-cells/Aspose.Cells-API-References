@@ -1,14 +1,14 @@
 ---
 title: KeepAlive
 second_title: Aspose.Cells for .NET API 参考
-description: 当电子表格应用程序应努力保持连接 打开时为真当为 false 时应用程序应在检索到 信息后关闭连接
+description: 当电子表格应用程序应努力保持连接 打开时为真如果为 false应用程序应在检索到 信息后关闭连接
 type: docs
 weight: 80
 url: /zh/net/aspose.cells.externalconnections/externalconnection/keepalive/
 ---
 ## ExternalConnection.KeepAlive property
 
-当电子表格应用程序应努力保持连接 打开时为真。当为 false 时，应用程序应在检索到 信息后关闭连接。
+当电子表格应用程序应努力保持连接 打开时为真。如果为 false，应用程序应在检索到 信息后关闭连接。
 
 ```csharp
 public bool KeepAlive { get; set; }

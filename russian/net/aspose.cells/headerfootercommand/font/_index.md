@@ -16,7 +16,7 @@ public Font Font { get; }
 
 ### Примечания
 
-Бесполезно для HeaderFooterCommandType.Picture.
+Бесполезен для HeaderFooterCommandType.Picture.
 
 ### Смотрите также
 

@@ -1,22 +1,22 @@
 ---
 title: PowerQueryFormulas
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает все формулы мощного запроса.
+description: Получает все формулы запроса мощности.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.querytables/datamashup/powerqueryformulas/
 ---
 ## DataMashup.PowerQueryFormulas property
 
-Получает все формулы мощного запроса.
+Получает все формулы запроса мощности.
 
 ```csharp
-public PowerQueryFormulaCollction PowerQueryFormulas { get; }
+public PowerQueryFormulaCollection PowerQueryFormulas { get; }
 ```
 
 ### Смотрите также
 
-* class [PowerQueryFormulaCollction](../../powerqueryformulacollction)
+* class [PowerQueryFormulaCollection](../../powerqueryformulacollection)
 * class [DataMashup](../../datamashup)
 * пространство имен [Aspose.Cells.QueryTables](../../datamashup)
 * сборка [Aspose.Cells](../../../)

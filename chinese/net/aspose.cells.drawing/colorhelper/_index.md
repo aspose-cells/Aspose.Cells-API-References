@@ -18,7 +18,7 @@ public class ColorHelper
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [FromOleColor](../../aspose.cells.drawing/colorhelper/fromolecolor)(int) | 转换 OLE_COLOR。 |
+| static [FromOleColor](../../aspose.cells.drawing/colorhelper/fromolecolor)(int) | 转换 OLE_COLOR. |
 | static [ToOleColor](../../aspose.cells.drawing/colorhelper/toolecolor)(Color, Workbook) | 将颜色转换为 OLE_COLOR |
 
 ### 也可以看看

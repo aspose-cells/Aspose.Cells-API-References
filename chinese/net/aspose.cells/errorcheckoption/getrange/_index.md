@@ -16,11 +16,11 @@ public CellArea GetRange(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 范围的索引 |
+| index | Int32 | 范围索引 |
 
 ### 返回值
 
-返回给定的影响范围指数。
+返回给定索引处的影响范围。
 
 ### 也可以看看
 

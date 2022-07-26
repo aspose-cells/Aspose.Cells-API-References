@@ -1,14 +1,14 @@
 ---
 title: OLEDBCommandType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает тип команды OLE DB.
+description: Указывает тип команды OLE DB.
 type: docs
 weight: 3320
 url: /ru/net/aspose.cells.externalconnections/oledbcommandtype/
 ---
 ## OLEDBCommandType enumeration
 
-Задает тип команды OLE DB.
+Указывает тип команды OLE DB.
 
 ```csharp
 public enum OLEDBCommandType
@@ -19,11 +19,11 @@ public enum OLEDBCommandType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | None | `0` | Тип команды не указан. |
-| CubeName | `1` | Задает имя куба |
+| CubeName | `1` | Указывает имя куба |
 | SqlStatement | `2` | Задает оператор SQL |
-| TableName | `3` | Задает имя таблицы |
-| DefaultInformation | `4` | Указывает, что была предоставлена информация по умолчанию, а как ее интерпретировать, зависит от провайдера. |
-| WebBasedList | `5` | Определяет запрос, который относится к веб-поставщику данных списка. |
+| TableName | `3` | Указывает имя таблицы |
+| DefaultInformation | `4` | Указывает, что была предоставлена информация по умолчанию, а интерпретация зависит от провайдера. |
+| WebBasedList | `5` | Указывает запрос, который относится к веб-поставщику данных списка. |
 
 ### Смотрите также
 

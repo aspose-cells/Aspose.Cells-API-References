@@ -1,14 +1,14 @@
 ---
 title: CheckRow
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементRowaspose.cells/rowили указанный индекс строки ячейки.
+description: ПолучаетRowaspose.cells/row элемента или по указанному индексу строки ячейки.
 type: docs
 weight: 380
 url: /ru/net/aspose.cells/cells/checkrow/
 ---
 ## Cells.CheckRow method
 
-Получает элемент[`Row`](../../row)или указанный индекс строки ячейки.
+Получает[`Row`](../../row) элемента или по указанному индексу строки ячейки.
 
 ```csharp
 public Row CheckRow(int row)
@@ -20,7 +20,7 @@ public Row CheckRow(int row)
 
 ### Возвращаемое значение
 
-Если объект строки существует, вернуть объект Row, в противном случае вернуть null.
+Если объект строки существует, вернуть объект Row, иначе вернуть null.
 
 ### Смотрите также
 

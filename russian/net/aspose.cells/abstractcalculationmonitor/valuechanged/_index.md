@@ -1,14 +1,14 @@
 ---
 title: ValueChanged
 second_title: Справочник по Aspose.Cells для .NET API
-description: Изменилось ли значение ячейки после вычисления. Следует использовать только вAfterCalculateaspose.cells/abstractcalculationmonitor/aftercalculate.
+description: Было ли изменено значение ячейки после вычисления. Следует использовать только вAfterCalculateaspose.cells/abstractcalculationmonitor/aftercalculate .
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/abstractcalculationmonitor/valuechanged/
 ---
 ## AbstractCalculationMonitor.ValueChanged property
 
-Изменилось ли значение ячейки после вычисления. Следует использовать только в[`AfterCalculate`](../aftercalculate).
+Было ли изменено значение ячейки после вычисления. Следует использовать только в[`AfterCalculate`](../aftercalculate) .
 
 ```csharp
 public bool ValueChanged { get; }

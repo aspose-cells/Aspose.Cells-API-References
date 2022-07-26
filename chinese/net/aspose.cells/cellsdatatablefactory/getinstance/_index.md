@@ -16,8 +16,8 @@ public ICellsDataTable GetInstance(int[] vals, string[] columnNames)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| vals | Int32[] | int 值来构建表 |
-| columnNames | String[] | 列名的表。 它的长度只能是 1（垂直按 int 值构建表） 或 int 值的长度（按 int 值水平构建表） |
+| vals | Int32[] | 用于构建表的 int 值 |
+| columnNames | String[] | 表的列名. 它的长度只能是1（垂直的int值建表） 或int值的长度（水平的int值建表） |
 
 ### 返回值
 
@@ -42,12 +42,12 @@ public ICellsDataTable GetInstance(int[] vals, bool vertial)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| vals | Int32[] | int 值构建表 |
-| vertial | Boolean | 是否构建表格由 int 值垂直（真）或水平（假） |
+| vals | Int32[] | 用于构建表的 int 值 |
+| vertial | Boolean | 是通过 int 值垂直（true）还是水平（false）构建表 |
 
 ### 返回值
 
-ICellsDataTable
+ICellsDataTable 的实例
 
 ### 也可以看看
 
@@ -68,8 +68,8 @@ public ICellsDataTable GetInstance(double[] vals, string[] columnNames)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| vals | Double[] | double 值构建表 |
-| columnNames | String[] | 列名的表。 它的长度只能是1（垂直双值构建表） 或双值长度（水平双值构建表） |
+| vals | Double[] | 双值构建表 |
+| columnNames | String[] | 表的列名 它的长度只能是1（垂直双值建表） 或双值长度（水平双值建表） |
 
 ### 返回值
 
@@ -94,12 +94,12 @@ public ICellsDataTable GetInstance(double[] vals, bool vertial)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| vals | Double[] | 双值建表 |
-| vertial | Boolean | 是否建表垂直（真）或水平（假）的双值表 |
+| vals | Double[] | 双值构建表 |
+| vertial | Boolean | 是否通过双值垂直（true）或水平（false）构建表 |
 
 ### 返回值
 
-ICellsDataTable
+ICellsDataTable 的实例
 
 ### 也可以看看
 
@@ -121,7 +121,7 @@ public ICellsDataTable GetInstance(object[] vals, string[] columnNames)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | vals | Object[] | 构建表的对象 |
-| columnNames | String[] | 的列名桌子。 它的长度只能是 1（按对象垂直构建表） 或对象长度（按对象水平构建表） |
+| columnNames | String[] | 表的列名. 它的长度只能是1（由对象垂直构建表） 或对象的长度（由对象水平构建表） |
 
 ### 返回值
 
@@ -146,12 +146,12 @@ public ICellsDataTable GetInstance(object[] vals, bool vertial)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| vals | Object[] | 要建表的对象 |
-| vertial | Boolean | 是否建表通过对象垂直（真）或水平（假） |
+| vals | Object[] | 构建表的对象 |
+| vertial | Boolean | 是由对象垂直（true）还是水平（false）构建表 |
 
 ### 返回值
 
-ICellsDataTable
+ICellsDataTable 的实例
 
 ### 也可以看看
 
@@ -209,7 +209,7 @@ public ICellsDataTable GetInstance(object[] vals)
 
 ## GetInstance(ICollection) {#getinstance_6}
 
-从给定集合创建 ICellsDataTable。
+从给定的集合创建 ICellsDataTable。
 
 ```csharp
 public ICellsDataTable GetInstance(ICollection collection)
@@ -217,7 +217,7 @@ public ICellsDataTable GetInstance(ICollection collection)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| collection | ICollection | 建立表的集合 |
+| collection | ICollection | 构建表的集合 |
 
 ### 返回值
 

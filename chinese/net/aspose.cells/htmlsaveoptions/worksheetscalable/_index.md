@@ -3,12 +3,12 @@ title: WorksheetScalable
 second_title: Aspose.Cells for .NET API 参考
 description: 表示将文件保存为html时是否通过工作表缩放级别放大或缩小html默认值为false
 type: docs
-weight: 480
+weight: 510
 url: /zh/net/aspose.cells/htmlsaveoptions/worksheetscalable/
 ---
 ## HtmlSaveOptions.WorksheetScalable property
 
-表示将文件保存为html时是否通过工作表缩放级别放大或缩小html，默认值为false。
+表示将文件保存为html时，是否通过工作表缩放级别放大或缩小html，默认值为false。
 
 ```csharp
 public bool WorksheetScalable { get; set; }

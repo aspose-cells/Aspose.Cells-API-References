@@ -1,14 +1,14 @@
 ---
 title: CalculateFormula
 second_title: Aspose.Cells for .NET API 参考
-description: 指示是否应计算公式
+description: 表示是否应计算公式
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/workbookdesigner/calculateformula/
 ---
 ## WorkbookDesigner.CalculateFormula property
 
-指示是否应计算公式。
+表示是否应计算公式。
 
 ```csharp
 public bool CalculateFormula { get; set; }

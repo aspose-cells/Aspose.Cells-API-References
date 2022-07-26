@@ -1,14 +1,14 @@
 ---
 title: IsRepeatItemLabels
 second_title: Справочник по Aspose.Cells для .NET API
-description: указывает может ли поле повторять метки элементов Значение по умолчанию  false.
+description: указывает может ли поле повторять элементы labels Значение по умолчанию  false.
 type: docs
 weight: 270
 url: /ru/net/aspose.cells.pivot/pivotfield/isrepeatitemlabels/
 ---
 ## PivotField.IsRepeatItemLabels property
 
-указывает, может ли поле повторять метки элементов Значение по умолчанию — false.
+указывает, может ли поле повторять элементы labels Значение по умолчанию — false.
 
 ```csharp
 public bool IsRepeatItemLabels { get; set; }

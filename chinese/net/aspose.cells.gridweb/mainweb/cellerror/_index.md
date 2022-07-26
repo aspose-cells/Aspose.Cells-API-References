@@ -1,14 +1,14 @@
 ---
 title: CellError
 second_title: Aspose.Cells for .NET API 参考
-description: 单元格输入值错误时发生
+description: 当单元格的输入值错误时发生
 type: docs
 weight: 1180
 url: /zh/net/aspose.cells.gridweb/mainweb/cellerror/
 ---
 ## MainWeb.CellError event
 
-单元格输入值错误时发生。
+当单元格的输入值错误时发生。
 
 ```csharp
 public event CellErrorHandler CellError;

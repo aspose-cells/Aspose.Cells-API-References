@@ -20,14 +20,14 @@ public Shape AddTextEffect(MsoPresetTextEffect effect, string text, string fontN
 | --- | --- | --- |
 | effect | MsoPresetTextEffect | Предустановленный тип текстового эффекта mso. |
 | text | String | Текст WordArt. |
-| fontName | String | Имя шрифта. |
+| fontName | String | Название шрифта. |
 | size | Int32 | Размер шрифта |
 | fontBold | Boolean | Указывает, является ли шрифт полужирным. |
 | fontItalic | Boolean | Указывает, является ли шрифт курсивом. |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| top | Int32 | Представляет вертикальное смещение фигуры от ее левого ряда в единицах пикселя. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
-| left | Int32 | Представляет горизонтальное смещение фигуры от ее левого столбца в единицах пикселя. |
+| top | Int32 | Представляет вертикальное смещение фигуры от ее левой строки в единицах пикселя. |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
+| left | Int32 | Представляет горизонтальное смещение фигуры от ее левого столбца в пикселях. |
 | height | Int32 | Представляет высоту фигуры в пикселях. |
 | width | Int32 | Представляет ширину фигуры в пикселях. |
 
@@ -40,7 +40,7 @@ public Shape AddTextEffect(MsoPresetTextEffect effect, string text, string fontN
 ```csharp
 
 [C#]
-  //добавляем WordArt
+//добавляем WordArt
 Shape wordArt1 = shapes.AddTextEffect(MsoPresetTextEffect.TextEffect10, "WordArt", "arial", 18, false, false, 3, 0, 3, 0, 200, 50);
 ```
 

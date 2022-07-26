@@ -16,7 +16,7 @@ public GridRow GetRowByIndex(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 位置。 |
+| index | Int32 | 立场。 |
 
 ### 返回值
 

@@ -1,14 +1,14 @@
 ---
 title: FunctionName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает имя вычисляемой функции.
+description: Получает имя функции для вычисления.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells/calculationdata/functionname/
 ---
 ## CalculationData.FunctionName property
 
-Получает имя вычисляемой функции.
+Получает имя функции для вычисления.
 
 ```csharp
 public string FunctionName { get; }

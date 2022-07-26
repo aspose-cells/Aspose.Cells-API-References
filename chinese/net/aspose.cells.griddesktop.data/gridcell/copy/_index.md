@@ -16,7 +16,7 @@ public void Copy(GridCell source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | GridCell | Source[`GridCell`](../../gridcell)对象。 |
+| source | GridCell | 资源[`GridCell`](../../gridcell)目的。 |
 
 ### 也可以看看
 

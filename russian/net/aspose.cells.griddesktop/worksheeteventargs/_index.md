@@ -1,14 +1,14 @@
 ---
 title: WorksheetEventArgs
 second_title: Справочник по Aspose.Cells для .NET API
-description: Предоставляет данные для событий рабочего листа.
+description: Предоставляет данные для событий листа.
 type: docs
 weight: 1100
 url: /ru/net/aspose.cells.griddesktop/worksheeteventargs/
 ---
 ## WorksheetEventArgs class
 
-Предоставляет данные для событий рабочего листа.
+Предоставляет данные для событий листа.
 
 ```csharp
 public class WorksheetEventArgs : EventArgs
@@ -18,7 +18,7 @@ public class WorksheetEventArgs : EventArgs
 
 | Имя | Описание |
 | --- | --- |
-| [Index](../../aspose.cells.griddesktop/worksheeteventargs/index) { get; } | Получает индекс строки или столбца листа |
+| [Index](../../aspose.cells.griddesktop/worksheeteventargs/index) { get; } | Получает индекс строки или столбца рабочего листа |
 | [IndexArray](../../aspose.cells.griddesktop/worksheeteventargs/indexarray) { get; } | Получает массив индексов строк или столбцов рабочего листа |
 | [SheetEvents](../../aspose.cells.griddesktop/worksheeteventargs/sheetevents) { get; } | Получает категорию события. |
 

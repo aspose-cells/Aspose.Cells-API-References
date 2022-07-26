@@ -10,7 +10,7 @@ url: /ru/net/aspose.cells.gridweb.data/workbookeventhandler/
 
 Представляет интерфейс, предназначенный для обработки событий рабочей книги.
 
-void **handleCellEvent** (Отправитель объекта, CellEventArgs e);
+пустота **обработатьCellEvent**(Отправитель объекта, CellEventArgs e);
 
 ```csharp
 public delegate void WorkbookEventHandler(object sender, CellEventArgs e);

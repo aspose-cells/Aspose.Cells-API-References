@@ -1,14 +1,14 @@
 ---
 title: CheckMergedCells
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает выполняется ли проверка объединенных ячеек.
+description: Указывает проверяются ли объединенные ячейки.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/importtableoptions/checkmergedcells/
 ---
 ## ImportTableOptions.CheckMergedCells property
 
-Указывает, выполняется ли проверка объединенных ячеек.
+Указывает, проверяются ли объединенные ячейки.
 
 ```csharp
 public bool CheckMergedCells { get; set; }

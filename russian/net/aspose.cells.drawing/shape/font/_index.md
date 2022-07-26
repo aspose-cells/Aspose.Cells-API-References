@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет шрифт фигуры.
+description: Представляет шрифт shape.
 type: docs
 weight: 100
 url: /ru/net/aspose.cells.drawing/shape/font/
 ---
 ## Shape.Font property
 
-Представляет шрифт фигуры.
+Представляет шрифт shape.
 
 ```csharp
 public Font Font { get; set; }

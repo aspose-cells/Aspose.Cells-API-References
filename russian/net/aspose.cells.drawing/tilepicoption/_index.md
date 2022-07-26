@@ -25,8 +25,8 @@ public class TilePicOption
 | Имя | Описание |
 | --- | --- |
 | [AlignmentType](../../aspose.cells.drawing/tilepicoption/alignmenttype) { get; set; } | Получает или задает выравнивание для мозаики. |
-| [MirrorType](../../aspose.cells.drawing/tilepicoption/mirrortype) { get; set; } | Получает или задает тип зеркала для мозаики. |
-| [OffsetX](../../aspose.cells.drawing/tilepicoption/offsetx) { get; set; } | Получает или задает смещение X для мозаичного изображения. |
+| [MirrorType](../../aspose.cells.drawing/tilepicoption/mirrortype) { get; set; } | Получает или задает тип зеркала для тайлинга. |
+| [OffsetX](../../aspose.cells.drawing/tilepicoption/offsetx) { get; set; } | Получает или задает смещение по оси X для мозаичного изображения. |
 | [OffsetY](../../aspose.cells.drawing/tilepicoption/offsety) { get; set; } | Получает или задает смещение Y для мозаичного изображения. |
 | [ScaleX](../../aspose.cells.drawing/tilepicoption/scalex) { get; set; } | Получает или задает масштаб X для мозаичного изображения. |
 | [ScaleY](../../aspose.cells.drawing/tilepicoption/scaley) { get; set; } | Получает или задает масштаб Y для мозаичного изображения. |

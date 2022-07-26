@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置要显示的图标集类型 设置类型会自动检查当前 Cfvos 的计数是否为 符合新类型如果不一致将清除旧的 Cfvos并添加 默认 Cfvos
+description: 获取或设置图标集类型为显示 设置类型将自动检查当前Cfvos的计数是否 符合新类型如果不一致将清理旧的 Cfvos并添加 默认 Cfvos
 type: docs
 weight: 60
 url: /zh/net/aspose.cells/iconset/type/
 ---
 ## IconSet.Type property
 
-获取或设置要显示的图标集类型。 设置类型会自动检查当前 Cfvos 的计数是否为 符合新类型。如果不一致，将清除旧的 Cfvos，并添加 默认 Cfvos。
+获取或设置图标集类型为显示。 设置类型将自动检查当前Cfvos的计数是否 符合新类型。如果不一致，将清理旧的 Cfvos，并添加 默认 Cfvos。
 
 ```csharp
 public IconSetType Type { get; set; }

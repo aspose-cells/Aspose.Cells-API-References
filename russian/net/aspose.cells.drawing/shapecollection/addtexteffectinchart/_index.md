@@ -17,9 +17,9 @@ public Shape AddTextEffectInChart(MsoPresetTextEffect effect, string text, strin
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| effect | MsoPresetTextEffect | Предустановка mso Тип текстового эффекта. |
+| effect | MsoPresetTextEffect | Предустановленный тип текстового эффекта mso. |
 | text | String | Текст WordArt. |
-| fontName | String | Имя шрифта. |
+| fontName | String | Название шрифта. |
 | size | Int32 | Размер шрифта |
 | fontBold | Boolean | Указывает, является ли шрифт полужирным. |
 | fontItalic | Boolean | Указывает, является ли шрифт курсивом. |

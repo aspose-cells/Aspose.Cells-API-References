@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает ширину интервала оси
+description: Получает или задает ширину оси bin
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.charts/axisbins/width/
 ---
 ## AxisBins.Width property
 
-Получает или задает ширину интервала оси
+Получает или задает ширину оси bin
 
 ```csharp
 public double Width { get; set; }

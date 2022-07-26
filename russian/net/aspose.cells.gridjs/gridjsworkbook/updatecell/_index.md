@@ -16,7 +16,7 @@ public string UpdateCell(string p, string uid)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| p | String | строку json обновления |
+| p | String | строка обновления json |
 | uid | String | уникальный идентификатор файла листа |
 
 ### Смотрите также

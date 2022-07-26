@@ -1,14 +1,14 @@
 ---
 title: ActiveCellBgColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает цвет фона активной ячейки.
+description: Указывает цвет фона активной ячейки.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.gridweb/mainweb/activecellbgcolor/
 ---
 ## MainWeb.ActiveCellBgColor property
 
-Задает цвет фона активной ячейки.
+Указывает цвет фона активной ячейки.
 
 ```csharp
 public Color ActiveCellBgColor { get; set; }

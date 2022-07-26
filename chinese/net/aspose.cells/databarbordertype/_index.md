@@ -19,7 +19,7 @@ public enum DataBarBorderType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 数据栏没有边框。 |
-| Solid | `1` | 数据栏有实心边框。 |
+| Solid | `1` | 数据栏有实线边框。 |
 
 ### 也可以看看
 

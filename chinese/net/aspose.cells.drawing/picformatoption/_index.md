@@ -26,10 +26,10 @@ public class PicFormatOption
 | --- | --- |
 | [Bottom](../../aspose.cells.drawing/picformatoption/bottom) { get; set; } | 获取或设置拉伸图片的底部偏移量。 |
 | [Left](../../aspose.cells.drawing/picformatoption/left) { get; set; } | 获取或设置拉伸图片的左偏移量。 |
-| [Right](../../aspose.cells.drawing/picformatoption/right) { get; set; } | 获取或设置拉伸图片的正确偏移量。 |
+| [Right](../../aspose.cells.drawing/picformatoption/right) { get; set; } | 获取或设置拉伸图片的右偏移量。 |
 | [Scale](../../aspose.cells.drawing/picformatoption/scale) { get; set; } | 获取或设置图片堆栈和缩放的数量。 |
 | [Top](../../aspose.cells.drawing/picformatoption/top) { get; set; } | 获取或设置拉伸图片的顶部偏移量。 |
-| [Type](../../aspose.cells.drawing/picformatoption/type) { get; set; } | 获取或设置图片填充类型。 |
+| [Type](../../aspose.cells.drawing/picformatoption/type) { get; set; } | 获取或设置图片填充类型 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定索引处的Hyperlink元素
+description: 获取Hyperlink指定索引处的元素
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.griddesktop.data/gridvalidationcollection/item/
 ---
 ## GridValidationCollection indexer (1 of 2)
 
-获取指定索引处的Hyperlink元素。
+获取Hyperlink指定索引处的元素。
 
 ```csharp
 public GridValidation this[int index] { get; }
@@ -33,7 +33,7 @@ public GridValidation this[int index] { get; }
 
 ## GridValidationCollection indexer (2 of 2)
 
-获取指定单元格处的[`GridValidation`](../../gridvalidation)元素。如果没有验证，则返回 null。
+获取[`GridValidation`](../../gridvalidation)指定单元格处的元素。如果没有验证，则返回null。
 
 ```csharp
 public GridValidation this[int row, int column] { get; }
@@ -50,7 +50,7 @@ public GridValidation this[int row, int column] { get; }
 
 ### 评论
 
-如果在指定的行列索引处没有验证对象， 这将检查列验证对象.
+如果指定行列索引处没有验证对象， 这将检查列验证对象。
 
 ### 也可以看看
 

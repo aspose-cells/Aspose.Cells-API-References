@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает запрашиваемую таблицу по заданному индексу.
+description: Получает запрашиваемую таблицу по указанному индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/querytablecollection/item/
 ---
 ## QueryTableCollection indexer
 
-Получает запрашиваемую таблицу по заданному индексу.
+Получает запрашиваемую таблицу по указанному индексу.
 
 ```csharp
 public QueryTable this[int index] { get; }

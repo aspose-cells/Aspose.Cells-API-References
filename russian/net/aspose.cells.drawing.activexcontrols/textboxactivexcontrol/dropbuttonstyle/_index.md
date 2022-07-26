@@ -1,14 +1,14 @@
 ---
 title: DropButtonStyle
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает символ отображаемый на кнопке перетаскивания
+description: Указывает символ отображаемый на раскрывающейся кнопке
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/dropbuttonstyle/
 ---
 ## TextBoxActiveXControl.DropButtonStyle property
 
-Указывает символ, отображаемый на кнопке перетаскивания
+Указывает символ, отображаемый на раскрывающейся кнопке
 
 ```csharp
 public DropButtonStyle DropButtonStyle { get; set; }

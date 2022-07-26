@@ -1,14 +1,14 @@
 ---
 title: GridTableStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 继承自 System.Web.UI.WebControls.TableStyle 表示 web 表格的样式 有关详细信息请参阅有关 System.Web.UI.WebControls.TableStyle 的 .NET SDK 文档
+description: 继承自 System.Web.UI.WebControls.TableStyle 表示 web 表格的样式 更多信息请参考 .NET SDK 文档关于 System.Web.UI.WebControls.TableStyle
 type: docs
 weight: 790
 url: /zh/net/aspose.cells.gridweb/gridtablestyle/
 ---
 ## GridTableStyle class
 
-继承自 System.Web.UI.WebControls.TableStyle。 表示 web 表格的样式。 有关详细信息，请参阅有关 System.Web.UI.WebControls.TableStyle 的 .NET SDK 文档。
+继承自 System.Web.UI.WebControls.TableStyle。 表示 web 表格的样式。 更多信息请参考 .NET SDK 文档关于 System.Web.UI.WebControls.TableStyle。
 
 ```csharp
 public class GridTableStyle : TableStyle
@@ -24,11 +24,11 @@ public class GridTableStyle : TableStyle
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [BackImageUrl](../../aspose.cells.gridweb/gridtablestyle/backimageurl) { get; set; } | 背景图片网址。 |
+| override [BackImageUrl](../../aspose.cells.gridweb/gridtablestyle/backimageurl) { get; set; } | 背景图片 url. |
 | [BorderCollapse](../../aspose.cells.gridweb/gridtablestyle/bordercollapse) { get; set; } | 指定边框折叠功能。 |
 | [BottomBorderStyle](../../aspose.cells.gridweb/gridtablestyle/bottomborderstyle) { get; set; } | 指定表格下边框的样式。 |
-| override [CellPadding](../../aspose.cells.gridweb/gridtablestyle/cellpadding) { get; set; } | 总是返回 -1。 |
-| override [CellSpacing](../../aspose.cells.gridweb/gridtablestyle/cellspacing) { get; set; } | 总是返回 -1。 |
+| override [CellPadding](../../aspose.cells.gridweb/gridtablestyle/cellpadding) { get; set; } | 总是返回 -1. |
+| override [CellSpacing](../../aspose.cells.gridweb/gridtablestyle/cellspacing) { get; set; } | 总是返回 -1. |
 | override [GridLines](../../aspose.cells.gridweb/gridtablestyle/gridlines) { get; set; } | 网格线。 |
 | override [HorizontalAlign](../../aspose.cells.gridweb/gridtablestyle/horizontalalign) { get; set; } | 水平对齐。 |
 | [LayoutFixed](../../aspose.cells.gridweb/gridtablestyle/layoutfixed) { get; set; } | 指定表格的布局是否固定（包含大对象时不自动扩展）。 |
@@ -40,7 +40,7 @@ public class GridTableStyle : TableStyle
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [AddAttributesToRender](../../aspose.cells.gridweb/gridtablestyle/addattributestorender#addattributestorender_1)(HtmlTextWriter, WebControl) | 仅供内部使用。 不要直接调用这个方法。 |
+| override [AddAttributesToRender](../../aspose.cells.gridweb/gridtablestyle/addattributestorender#addattributestorender_1)(HtmlTextWriter, WebControl) | 仅供内部使用。 不要直接调用此方法。 |
 | override [CopyFrom](../../aspose.cells.gridweb/gridtablestyle/copyfrom)(Style) | 从另一个样式对象复制。 |
 | override [MergeWith](../../aspose.cells.gridweb/gridtablestyle/mergewith)(Style) | 与另一个样式对象合并。 |
 

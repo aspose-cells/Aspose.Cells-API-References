@@ -32,7 +32,7 @@ public void AutoFitColumns(AutoFitterOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | AutoFitterOptions | Параметры автоподгонки |
+| options | AutoFitterOptions | Варианты автоподгонки |
 
 ### Смотрите также
 
@@ -80,7 +80,7 @@ public void AutoFitColumns(int firstColumn, int lastColumn, AutoFitterOptions op
 | --- | --- | --- |
 | firstColumn | Int32 | Индекс первого столбца. |
 | lastColumn | Int32 | Индекс последнего столбца. |
-| options | AutoFitterOptions | Параметры автоподбора |
+| options | AutoFitterOptions | Параметры автоподгонки |
 
 ### Примечания
 
@@ -137,7 +137,7 @@ public void AutoFitColumns(int firstRow, int firstColumn, int lastRow, int lastC
 | firstColumn | Int32 | Индекс первого столбца. |
 | lastRow | Int32 | Индекс последней строки. |
 | lastColumn | Int32 | Индекс последнего столбца. |
-| options | AutoFitterOptions | Параметры автоподбора |
+| options | AutoFitterOptions | Параметры автоподгонки |
 
 ### Примечания
 

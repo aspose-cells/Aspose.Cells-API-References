@@ -1,14 +1,14 @@
 ---
 title: GetCharacters
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает все объекты Characters  представляющие диапазон символов в тексте.
+description: Возвращает все объекты символов  представляющие диапазон символов в тексте .
 type: docs
 weight: 1020
 url: /ru/net/aspose.cells.drawing/shape/getcharacters/
 ---
 ## Shape.GetCharacters method
 
-Возвращает все объекты Characters , представляющие диапазон символов в тексте.
+Возвращает все объекты символов , представляющие диапазон символов в тексте .
 
 ```csharp
 public ArrayList GetCharacters()

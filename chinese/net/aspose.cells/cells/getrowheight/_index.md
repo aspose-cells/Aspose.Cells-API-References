@@ -3,7 +3,7 @@ title: GetRowHeight
 second_title: Aspose.Cells for .NET API 参考
 description: 获取指定行的高度
 type: docs
-weight: 790
+weight: 800
 url: /zh/net/aspose.cells/cells/getrowheight/
 ---
 ## Cells.GetRowHeight method

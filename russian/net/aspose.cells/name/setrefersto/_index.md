@@ -18,7 +18,7 @@ public void SetRefersTo(string refersTo, bool isR1C1, bool isLocal)
 | --- | --- | --- |
 | refersTo | String | Ссылка. |
 | isR1C1 | Boolean | Является ли ссылка форматом R1C1. |
-| isLocal | Boolean | Отформатирована ли ссылка по локали. |
+| isLocal | Boolean | Отформатирована ли ссылка в языковом стандарте. |
 
 ### Смотрите также
 

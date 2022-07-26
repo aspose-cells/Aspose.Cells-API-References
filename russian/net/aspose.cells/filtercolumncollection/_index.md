@@ -1,14 +1,14 @@
 ---
 title: FilterColumnCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Коллекция объектов Filter которая представляет все фильтры в диапазоне автофильтрации.
+description: Коллекция объектов Filter представляющая все фильтры в диапазоне автофильтрации.
 type: docs
 weight: 3440
 url: /ru/net/aspose.cells/filtercolumncollection/
 ---
 ## FilterColumnCollection class
 
-Коллекция объектов Filter, которая представляет все фильтры в диапазоне автофильтрации.
+Коллекция объектов Filter, представляющая все фильтры в диапазоне автофильтрации.
 
 ```csharp
 public class FilterColumnCollection : CollectionBase<FilterColumn>
@@ -20,7 +20,7 @@ public class FilterColumnCollection : CollectionBase<FilterColumn>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/filtercolumncollection/item) { get; } | Получает объект[`FilterColumn`](../filtercolumn)в специальном поле. |
+| [Item](../../aspose.cells/filtercolumncollection/item) { get; } | получает[`FilterColumn`](../filtercolumn) объект в специальном поле. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы

@@ -1,14 +1,14 @@
 ---
 title: Floor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает объектFlooraspose.cells.charts/chart/floor представляющий стены трехмерной диаграммы.
+description: ВозвращаетFlooraspose.cells.charts/chart/floor объект представляющий стены трехмерной диаграммы.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells.charts/chart/floor/
 ---
 ## Chart.Floor property
 
-Возвращает объект`Floor`, представляющий стены трехмерной диаграммы.
+Возвращает`Floor` объект, представляющий стены трехмерной диаграммы.
 
 ```csharp
 public Floor Floor { get; }

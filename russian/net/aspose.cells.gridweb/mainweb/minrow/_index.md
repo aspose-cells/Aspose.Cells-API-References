@@ -1,14 +1,14 @@
 ---
 title: MinRow
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает минимальный отображаемый индекс строки начиная с нуля веб-листа. Элемент управления использует меньшее значение MinRow и минимальную строку данных листа.
+description: Получает или задает минимальный индекс отображаемой строки начиная с нуля веб-листа. Элемент управления использует меньшее значение MinRow и минимальную строку данных листа.
 type: docs
 weight: 500
 url: /ru/net/aspose.cells.gridweb/mainweb/minrow/
 ---
 ## MainWeb.MinRow property
 
-Получает или задает минимальный отображаемый индекс строки (начиная с нуля) веб-листа. Элемент управления использует меньшее значение MinRow и минимальную строку данных листа.
+Получает или задает минимальный индекс отображаемой строки (начиная с нуля) веб-листа. Элемент управления использует меньшее значение MinRow и минимальную строку данных листа.
 
 ```csharp
 public int MinRow { get; set; }
@@ -18,14 +18,14 @@ public int MinRow { get; set; }
 
 ```csharp
 [C#]
-	 // Создает "окно дисплея" 4x4.
+	// Создает "окно дисплея" 4x4.
 	GridWeb1.MinRow = 2;
 	GridWeb1.MaxRow = 5;
 	GridWeb1.MinColumn = 3;
 	GridWeb1.MaxColumn = 6;
 
 [Visual Basic]
-	' Создает "окно дисплея" 4x4.
+	' Creates a 4x4 "display window".
 	GridWeb1.MinRow = 2
 	GridWeb1.MaxRow = 5
 	GridWeb1.MinColumn = 3

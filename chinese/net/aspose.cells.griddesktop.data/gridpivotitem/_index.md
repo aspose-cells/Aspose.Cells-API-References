@@ -20,7 +20,7 @@ public class GridPivotItem
 | --- | --- |
 | [Index](../../aspose.cells.griddesktop.data/gridpivotitem/index) { get; set; } | 获取枢轴字段中枢轴项的索引 |
 | [IsHidden](../../aspose.cells.griddesktop.data/gridpivotitem/ishidden) { get; set; } | 获取和设置枢轴项目是否隐藏。 |
-| [Name](../../aspose.cells.griddesktop.data/gridpivotitem/name) { get; } | 获取枢轴项的名称。 |
+| [Name](../../aspose.cells.griddesktop.data/gridpivotitem/name) { get; } | 获取数据透视项目的名称。 |
 | [Value](../../aspose.cells.griddesktop.data/gridpivotitem/value) { get; } | 获取枢轴项的值 |
 
 ## 方法
@@ -28,7 +28,7 @@ public class GridPivotItem
 | 姓名 | 描述 |
 | --- | --- |
 | [GetDateTimeValue](../../aspose.cells.griddesktop.data/gridpivotitem/getdatetimevalue)() | 获取pivot item的日期时间值 如果值为null，则返回DateTime.MinValue |
-| [GetDoubleValue](../../aspose.cells.griddesktop.data/gridpivotitem/getdoublevalue)() | 获取pivot item的double值 如果值为null或非数字，则返回0 |
+| [GetDoubleValue](../../aspose.cells.griddesktop.data/gridpivotitem/getdoublevalue)() | 获取pivot item的double值 如果值为null或者不是number，则返回0 |
 | [GetStringValue](../../aspose.cells.griddesktop.data/gridpivotitem/getstringvalue)() | 获取pivot item的字符串值 如果值为null，则返回"" |
 | [Move](../../aspose.cells.griddesktop.data/gridpivotitem/move)(int) | 向上或向下移动项目。 |
 

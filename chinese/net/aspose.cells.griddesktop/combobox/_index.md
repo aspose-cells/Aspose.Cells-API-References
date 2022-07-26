@@ -1,14 +1,14 @@
 ---
 title: ComboBox
 second_title: Aspose.Cells for .NET API 参考
-description: 表示单元格组合框控件
+description: 表示一个单元格组合框控件
 type: docs
 weight: 270
 url: /zh/net/aspose.cells.griddesktop/combobox/
 ---
 ## ComboBox class
 
-表示单元格组合框控件。
+表示一个单元格组合框控件。
 
 ```csharp
 public class ComboBox : CellControl
@@ -19,9 +19,9 @@ public class ComboBox : CellControl
 | 姓名 | 描述 |
 | --- | --- |
 | [Height](../../aspose.cells.griddesktop/combobox/height) { get; set; } | 获取或设置列表控件的高度。 |
-| [IsInputable](../../aspose.cells.griddesktop/combobox/isinputable) { get; set; } | 指示用户是否可以向组合框输入文本。 输入的文本将保存为单元格的值。 默认值为“假”。 |
+| [IsInputable](../../aspose.cells.griddesktop/combobox/isinputable) { get; set; } | 表示用户是否可以在组合框中输入文本。 输入的文本将保存为单元格的值。 默认值为“false”。 |
 | [Items](../../aspose.cells.griddesktop/combobox/items) { get; } | 获取一个对象，该对象表示此 ComboBox 中包含的项目的集合。 |
-| [SelectedIndex](../../aspose.cells.griddesktop/combobox/selectedindex) { get; set; } | 获取或设置指定当前选定项的索引。 设置索引将调用 GridDesktop.RunAllFormulas 方法 如果 GridDesktop.RecalculateFormulas 属性为 true，则自动。 |
+| [SelectedIndex](../../aspose.cells.griddesktop/combobox/selectedindex) { get; set; } | 获取或设置指定当前选定项的索引。 设置索引将调用 GridDesktop.RunAllFormulas 方法 |
 | [Text](../../aspose.cells.griddesktop/cellcontrol/text) { get; set; } | 获取或设置与此控件关联的文本。 |
 | [Values](../../aspose.cells.griddesktop/combobox/values) { get; } | 获取一个对象，该对象表示此 ComboBox 中包含的值的集合。 |
 | [Width](../../aspose.cells.griddesktop/combobox/width) { get; set; } | 获取或设置列表控件的宽度。 |
@@ -30,7 +30,7 @@ public class ComboBox : CellControl
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SetSelectedIndex](../../aspose.cells.griddesktop/combobox/setselectedindex)(int) | 设置组合框的选定索引。 这不会计算公式。 计算公式需要手动调用GridDesktop.RunAllFormulas。 即使 GridDesktop.RecalculateFormulas 为真，它也不会自动计算公式。 |
+| [SetSelectedIndex](../../aspose.cells.griddesktop/combobox/setselectedindex)(int) | 设置组合框的选定索引。 这不会计算公式。 要计算公式，需要手动调用GridDesktop.RunAllFormulas。 即使GridDesktop.RecalculateFormulas为真，它也不会自动计算公式。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Email
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает адрес электронной почты исполнителя.
+description: Получает и устанавливает адрес электронной почты певца.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.drawing/signatureline/email/
 ---
 ## SignatureLine.Email property
 
-Получает и устанавливает адрес электронной почты исполнителя.
+Получает и устанавливает адрес электронной почты певца.
 
 ```csharp
 public string Email { get; set; }
@@ -19,7 +19,7 @@ public string Email { get; set; }
 ```csharp
 
 [C#]
-  // Создаем строку подписи object
+// Создаем объект строки подписи
 SignatureLine s5 = new SignatureLine();
 s5.Email = "Simon.Zhao@aspose.com";
 ```

@@ -16,11 +16,11 @@ public bool IsHiddenItem(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | pivotField中pivotItem的索引。 |
+| index | Int32 | pivotField 中的 pivotItem 的索引。 |
 
 ### 返回值
 
-是否隐藏特定 PivotItem
+特定的 PivotItem 是否隐藏
 
 ### 也可以看看
 

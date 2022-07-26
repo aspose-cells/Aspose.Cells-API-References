@@ -1,14 +1,14 @@
 ---
 title: NoneBulletValue
 second_title: Справочник по Aspose.Cells для .NET API
-description: Не указывает на пулю.
+description: Не представляет маркер.
 type: docs
 weight: 2920
 url: /ru/net/aspose.cells.drawing.texts/nonebulletvalue/
 ---
 ## NoneBulletValue class
 
-Не указывает на пулю.
+Не представляет маркер.
 
 ```csharp
 public class NoneBulletValue : BulletValue

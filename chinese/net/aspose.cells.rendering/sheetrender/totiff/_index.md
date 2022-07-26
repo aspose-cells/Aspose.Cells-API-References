@@ -44,18 +44,18 @@ public void ToTiff(string filename)
 
 ```csharp
 //加载带有图像的源文件。
-orkbook wb = new Workbook("Book1.xlsx");
+Workbook wb = new Workbook("Book1.xlsx");
 
-mageOrPrintOptions imgOpt = new ImageOrPrintOptions();
+ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
 
-//设置输出图像类型.
-mgOpt.SaveFormat = SaveFormat.Tiff;
+//设置输出图像类型。
+imgOpt.SaveFormat = SaveFormat.Tiff;
 
 //渲染第一张纸。
-heetRender sr = new SheetRender(wb.Worksheets[0], imgOpt);
+SheetRender sr = new SheetRender(wb.Worksheets[0], imgOpt);
 
-//将工作表的所有页面输出到Tiff image.
-r.ToTiff("output.tiff");
+//将工作表的所有页面输出到Tiff图像。
+sr.ToTiff("output.tiff");
 ```
 
 ### 也可以看看

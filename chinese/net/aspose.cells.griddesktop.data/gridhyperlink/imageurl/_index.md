@@ -1,14 +1,14 @@
 ---
 title: ImageURL
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置链接的Image URL超链接中没有imageurl属性 所以实际使用TextToDisplay来记录这个值TextToDisplay会设置为ltimg srcvaluegt 所以它会改变 TextToDisplay
+description: 获取或设置链接的Image URL超链接中没有imageurl属性 所以实际使用TextToDisplay记录这个值TextToDisplay会设置为ltimg srcvaluegt 所以会改变TextToDisplay 的值
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.griddesktop.data/gridhyperlink/imageurl/
 ---
 ## GridHyperlink.ImageURL property
 
-获取或设置链接的Image URL，超链接中没有imageurl属性， 所以实际使用TextToDisplay来记录这个值，TextToDisplay会设置为&lt;img src=value&gt; 所以它会改变 TextToDisplay
+获取或设置链接的Image URL，超链接中没有imageurl属性， 所以实际使用TextToDisplay记录这个值，TextToDisplay会设置为&lt;img src=value&gt; 所以会改变TextToDisplay 的值
 
 ```csharp
 public string ImageURL { get; set; }

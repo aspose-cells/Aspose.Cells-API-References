@@ -1,14 +1,14 @@
 ---
 title: HyperlinkCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует набор объектовHyperlink./hyperlink.
+description: Инкапсулирует наборHyperlink./hyperlink объекты.
 type: docs
 weight: 3760
 url: /ru/net/aspose.cells/hyperlinkcollection/
 ---
 ## HyperlinkCollection class
 
-Инкапсулирует набор объектов[`Hyperlink`](../hyperlink).
+Инкапсулирует набор[`Hyperlink`](../hyperlink) объекты.
 
 ```csharp
 public class HyperlinkCollection : CollectionBase<Hyperlink>
@@ -20,20 +20,20 @@ public class HyperlinkCollection : CollectionBase<Hyperlink>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/hyperlinkcollection/item) { get; } | Получает элемент[`Hyperlink`](../hyperlink)по указанному индексу. |
+| [Item](../../aspose.cells/hyperlinkcollection/item) { get; } | Получает[`Hyperlink`](../hyperlink) элемент по указанному индексу. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells/hyperlinkcollection/add#add_1)(string, int, int, string) | Добавляет гиперссылку на указанную ячейку или диапазон ячеек. |
-| [Add](../../aspose.cells/hyperlinkcollection/add#add)(int, int, int, int, string) | Добавляет гиперссылку на указанную ячейку или диапазон ячеек. |
-| [Add](../../aspose.cells/hyperlinkcollection/add#add_2)(string, string, string, string, string) | Добавляет гиперссылку на указанную ячейку или диапазон ячеек. |
+| [Add](../../aspose.cells/hyperlinkcollection/add#add_1)(string, int, int, string) | Добавляет гиперссылку к указанной ячейке или диапазону ячеек. |
+| [Add](../../aspose.cells/hyperlinkcollection/add#add)(int, int, int, int, string) | Добавляет гиперссылку к указанной ячейке или диапазону ячеек. |
+| [Add](../../aspose.cells/hyperlinkcollection/add#add_2)(string, string, string, string, string) | Добавляет гиперссылку к указанной ячейке или диапазону ячеек. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Hyperlink) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Hyperlink, IComparer&lt;Hyperlink&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Hyperlink, IComparer&lt;Hyperlink&gt;) |  |
-| [Clear](../../aspose.cells/hyperlinkcollection/clear#clear)() | Очищает все гиперссылки. (2 methods) |
+| [Clear](../../aspose.cells/hyperlinkcollection/clear#clear)() | Удаляет все гиперссылки. (2 methods) |
 | [Contains](../../aspose.cells/collectionbase`1/contains)(Hyperlink) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Hyperlink[]) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Hyperlink[], int) |  |
@@ -64,34 +64,34 @@ public class HyperlinkCollection : CollectionBase<Hyperlink>
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 
-  //Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
+//Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
 Worksheet worksheet = workbook.Worksheets[0];
 
-  //Получить коллекцию гиперссылок
+//Получить коллекцию гиперссылок
 HyperlinkCollection hyperlinks = worksheet.Hyperlinks;
 
-  //Добавление гиперссылки к URL-адресу "A1" cell
-hyperlinks.Add("A1", 1, 1, "http:  //www.aspose.com");
+//Добавление гиперссылки на URL в ячейке "A1"
+hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
 
-  //Сохранение файла Excel
+//Сохранение файла Excel
 workbook.Save("book1.xls");
 
 [VB.NET]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
 
-'Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
+'Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
 'Получить коллекцию гиперссылок
 Dim hyperlinks As HyperlinkCollection = worksheet.Hyperlinks
 
-'Добавление гиперссылки к URL-адресу "A1" cell
-hyperlinks.Add("A1", 1, 1, "http:  //www.aspose.com")
+'Adding a hyperlink to a URL at "A1" cell
+hyperlinks.Add("A1", 1, 1, "http://www.aspose.com")
 
 'Сохранение файла Excel
 workbook.Save("book1.xls")

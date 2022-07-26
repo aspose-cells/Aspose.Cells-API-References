@@ -3,7 +3,7 @@ title: SetStyle
 second_title: Справочник по Aspose.Cells для .NET API
 description: Устанавливает стиль диапазона.
 type: docs
-weight: 360
+weight: 400
 url: /ru/net/aspose.cells/range/setstyle/
 ---
 ## Range.SetStyle method

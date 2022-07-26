@@ -1,14 +1,14 @@
 ---
 title: LoadCustomData
 second_title: Aspose.Cells for .NET API 参考
-description: 当控件的 SessionMode 设置为 Custom 并且需要加载工作表数据时触发 您可以在自定义会话模式下处理此事件以从文件或数据库加载工作表数据
+description: 当控件的 SessionMode 设置为自定义并需要加载工作表数据时触发 您可以在自定义会话模式下处理此事件以从文件或数据库加载工作表数据
 type: docs
 weight: 1250
 url: /zh/net/aspose.cells.gridweb/mainweb/loadcustomdata/
 ---
 ## MainWeb.LoadCustomData event
 
-当控件的 SessionMode 设置为 Custom 并且需要加载工作表数据时触发。 您可以在自定义会话模式下处理此事件以从文件或数据库加载工作表数据。
+当控件的 SessionMode 设置为自定义并需要加载工作表数据时触发。 您可以在自定义会话模式下处理此事件以从文件或数据库加载工作表数据。
 
 ```csharp
 public event WorkbookEventHandler LoadCustomData;

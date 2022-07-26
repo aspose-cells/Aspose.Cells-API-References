@@ -19,20 +19,20 @@ public class GridCell
 | Имя | Описание |
 | --- | --- |
 | [BoolValue](../../aspose.cells.gridweb.data/gridcell/boolvalue) { get; } | Получает логическое значение, содержащееся в ячейке. |
-| [Column](../../aspose.cells.gridweb.data/gridcell/column) { get; } | Получает номер столбца (с нуля) ячейки. |
+| [Column](../../aspose.cells.gridweb.data/gridcell/column) { get; } | Получает номер столбца (начиная с нуля) ячейки. |
 | [DateValue](../../aspose.cells.gridweb.data/gridcell/datevalue) { get; } | Получает значение DateTime, содержащееся в ячейке. |
 | [DisplayStringValue](../../aspose.cells.gridweb.data/gridcell/displaystringvalue) { get; } | Получает форматированное строковое значение этой ячейки. |
 | [DoubleValue](../../aspose.cells.gridweb.data/gridcell/doublevalue) { get; } | Получает двойное значение, содержащееся в ячейке. |
 | [FloatValue](../../aspose.cells.gridweb.data/gridcell/floatvalue) { get; } | Получает значение с плавающей запятой, содержащееся в ячейке. |
-| [Formula](../../aspose.cells.gridweb.data/gridcell/formula) { get; set; } | Получает или задает формулуCell. |
-| [HtmlString](../../aspose.cells.gridweb.data/gridcell/htmlstring) { get; set; } | Получает и задает строку html, содержащую данные и некоторые параметры форматирования в этой ячейке. |
+| [Formula](../../aspose.cells.gridweb.data/gridcell/formula) { get; set; } | Получает или задает формулуCell . |
+| [HtmlString](../../aspose.cells.gridweb.data/gridcell/htmlstring) { get; set; } | Получает и задает строку HTML, содержащую данные и некоторые параметры форматирования в этой ячейке. |
 | [IntValue](../../aspose.cells.gridweb.data/gridcell/intvalue) { get; } | Получает целочисленное значение, содержащееся в ячейке. |
 | [IsStyleSet](../../aspose.cells.gridweb.data/gridcell/isstyleset) { get; } | Указывает, установлен ли стиль ячейки. Если возвращается false, это означает, что эта ячейка имеет формат ячейки по умолчанию. |
-| [Name](../../aspose.cells.gridweb.data/gridcell/name) { get; } | Получает имя ячейки. Например:A1, F102. |
+| [Name](../../aspose.cells.gridweb.data/gridcell/name) { get; } | Получает имя ячейки. Например: A1, F102. |
 | [Row](../../aspose.cells.gridweb.data/gridcell/row) { get; } | Получает номер строки (начиная с нуля) ячейки. |
 | [StringValue](../../aspose.cells.gridweb.data/gridcell/stringvalue) { get; } | Получает строковое значение, содержащееся в ячейке. |
 | [Style](../../aspose.cells.gridweb.data/gridcell/style) { get; set; } | Получает копию стиля ячейки. установить стиль для ячейки. |
-| [Type](../../aspose.cells.gridweb.data/gridcell/type) { get; } | вернуть тип значения ячейки, смысл можно увидеть GridCellValueType.java |
+| [Type](../../aspose.cells.gridweb.data/gridcell/type) { get; } | возвращает тип значения ячейки, значение можно увидеть GridCellValueType.java |
 | [Value](../../aspose.cells.gridweb.data/gridcell/value) { get; set; } | Получает значение, содержащееся в этой ячейке. |
 
 ## Методы
@@ -59,12 +59,12 @@ public class GridCell
 | [PutValue](../../aspose.cells.gridweb.data/gridcell/putvalue#putvalue_5)(string) | Помещает строковое значение в ячейку. |
 | [PutValue](../../aspose.cells.gridweb.data/gridcell/putvalue#putvalue_6)(string, bool) | Помещает строковое значение в ячейку и при необходимости преобразует значение в другой тип данных. |
 | [PutValue](../../aspose.cells.gridweb.data/gridcell/putvalue#putvalue_7)(string, bool, bool) | Помещает значение в ячейку, при необходимости значение будет преобразовано в другой тип данных, а числовой формат ячейки будет сброшен. |
-| [PutValueAndSetFormatByValue](../../aspose.cells.gridweb.data/gridcell/putvalueandsetformatbyvalue)(string) | Устанавливает значение ячейки строковым значением и устанавливает формат ячейки этим значением. |
+| [PutValueAndSetFormatByValue](../../aspose.cells.gridweb.data/gridcell/putvalueandsetformatbyvalue)(string) | Устанавливает значение ячейки со строковым значением и устанавливает формат ячейки по этому значению. |
 | [RemoveComment](../../aspose.cells.gridweb.data/gridcell/removecomment)() | Удаляет объект комментария ячейки. |
 | [RemoveValidation](../../aspose.cells.gridweb.data/gridcell/removevalidation)() | Удаляет объект проверки ячейки. |
 | [SetBorder](../../aspose.cells.gridweb.data/gridcell/setborder)(WebBorderStyle) | Устанавливает границы (сверху, снизу, слева и справа) для ячейки, все границы имеют одинаковый стиль границы. |
-| [SetCustom](../../aspose.cells.gridweb.data/gridcell/setcustom)(string) | устанавливает пользовательский формат, ноль или пустая строка означает отсутствие пользовательского формата. |
-| [SetFormula](../../aspose.cells.gridweb.data/gridcell/setformula)(string, object) | Установите формулу и значение формулы. |
+| [SetCustom](../../aspose.cells.gridweb.data/gridcell/setcustom)(string) | задает пользовательский формат, нулевая или пустая строка означает отсутствие пользовательского формата. |
+| [SetFormula](../../aspose.cells.gridweb.data/gridcell/setformula)(string, object) | Установить формулу и значение формулы. |
 | [SetNumberType](../../aspose.cells.gridweb.data/gridcell/setnumbertype)(int) | установить формат отображения чисел и дат |
 | [ToString](../../aspose.cells.gridweb.data/gridcell/tostring#tostring)() | Возвращает строку, представляющую текущий объект Cell. |
 | [operator ==](../../aspose.cells.gridweb.data/gridcell/op_equality) |  |

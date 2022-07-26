@@ -1,14 +1,14 @@
 ---
 title: Sort
 second_title: Aspose.Cells for .NET API 参考
-description: 按指定的列索引对工作表范围内的数据从上到下进行升序/降序排序 按指定的行索引对工作表范围内的数据从左到右进行升序/降序排序
+description: 按指定列索引对工作表范围内的数据从上到下进行升序/降序排序 按指定行索引对工作表范围内的数据从左到右升序/降序排序
 type: docs
 weight: 690
 url: /zh/net/aspose.cells.griddesktop.data/gridcells/sort/
 ---
 ## Sort(int, int, int, int, int, bool, bool, bool) {#sort}
 
-按指定的列索引对工作表范围内的数据从上到下进行升序/降序排序。 按指定的行索引对工作表范围内的数据从左到右进行升序/降序排序。
+按指定列索引对工作表范围内的数据从上到下进行升序/降序排序。 按指定行索引对工作表范围内的数据从左到右升序/降序排序。
 
 ```csharp
 public void Sort(int startRow, int startColumn, int rows, int columns, int index, bool isAsending, 
@@ -21,8 +21,8 @@ public void Sort(int startRow, int startColumn, int rows, int columns, int index
 | startColumn | Int32 | 要排序的第一个单元格的列号。 |
 | rows | Int32 | 要导入的行数。 |
 | columns | Int32 | 要导入的列数。 |
-| index | Int32 | 指定排序列的列索引。 如果方向是从上到下，它代表指定排序列的列索引。 如果Orientation是从左到右，它代表指定排序行的行索引。 |
-| isAsending | Boolean | 排序顺序是否为 asending 。 |
+| index | Int32 | 指定排序列的列索引。 如果Orientation是从上到下，它代表指定排序列的列索引。 如果Orientation是从左到右，它代表指定排序的行索引排。 |
+| isAsending | Boolean | 排序顺序是否递增。 |
 | isCaseSensitive | Boolean | 排序是否区分大小写。 |
 | islefttoright | Boolean | 排序方向是否从左到右 |
 

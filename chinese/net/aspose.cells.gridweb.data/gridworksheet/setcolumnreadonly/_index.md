@@ -1,14 +1,14 @@
 ---
 title: SetColumnReadonly
 second_title: Aspose.Cells for .NET API 参考
-description: 将列设置为只读因此用户无法从客户端将其删除 这是GridWeb的扩展方法在实际的excel文件中不会保留和生效
+description: 将列设置为只读因此用户不能从客户端删除它 这是GridWeb专门的扩展方法在实际的excel文件中不会保留和生效
 type: docs
 weight: 740
 url: /zh/net/aspose.cells.gridweb.data/gridworksheet/setcolumnreadonly/
 ---
 ## GridWorksheet.SetColumnReadonly method
 
-将列设置为只读，因此用户无法从客户端将其删除。 这是GridWeb的扩展方法，在实际的excel文件中不会保留和生效
+将列设置为只读，因此用户不能从客户端删除它。 这是GridWeb专门的扩展方法，在实际的excel文件中不会保留和生效
 
 ```csharp
 public void SetColumnReadonly(int columnIndex, bool isReadonly)
@@ -17,7 +17,7 @@ public void SetColumnReadonly(int columnIndex, bool isReadonly)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | columnIndex | Int32 | 列索引。 |
-| isReadonly | Boolean | 真或假。 |
+| isReadonly | Boolean | 对或错。 |
 
 ### 也可以看看
 

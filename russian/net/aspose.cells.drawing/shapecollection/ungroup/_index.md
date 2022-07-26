@@ -27,16 +27,16 @@ public void Ungroup(GroupShape group)
 ```csharp
 
 [C#]
-  // добавляем первый shape
+//добавляем первую фигуру
 shapes.AddRectangle(2, 0, 2, 0, 50, 50);
-  //добавляем второй shape
+//добавляем вторую фигуру
 shapes.AddRectangle(6, 0, 2, 0, 30, 30);
 
-  //группа
+//группа
 Shape[] shapesArr = new Shape[] { shapes[0], shapes[1] };
 GroupShape groupShape = shapes.Group(shapesArr);
 
-  // разгруппировать
+// разгруппировать
 shapes.Ungroup(groupShape);
 
 ```

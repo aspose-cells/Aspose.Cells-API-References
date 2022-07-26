@@ -16,7 +16,7 @@ public ChartPointCollection Points { get; }
 
 ### 评论
 
-当图表为 Pie of Pie 或 Bar of Pie 时，最后一个点是第一个中的另一个点饼图。
+当图表为 Pie of Pie 或 Bar of Pie 时，最后一个点是第一个饼图中的另一个点。
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: LinkToXmlMap
 second_title: Справочник по Aspose.Cells для .NET API
 description: Ссылка на карту xml.
 type: docs
-weight: 1160
+weight: 1170
 url: /ru/net/aspose.cells/cells/linktoxmlmap/
 ---
 ## Cells.LinkToXmlMap method
@@ -16,10 +16,10 @@ public void LinkToXmlMap(string mapName, int row, int column, string path)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mapName | String | имя карты xml |
-| row | Int32 | строка ячейка назначения |
+| mapName | String | имя xml-карты |
+| row | Int32 | строка ячейки назначения |
 | column | Int32 | столбец ячейки назначения |
-| path | String | путь элемента xml в карте xml |
+| path | String | путь элемента xml на карте xml |
 
 ### Смотрите также
 

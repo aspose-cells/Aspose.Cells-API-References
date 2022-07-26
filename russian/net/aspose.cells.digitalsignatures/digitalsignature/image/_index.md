@@ -1,14 +1,14 @@
 ---
 title: Image
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает изображение для цифровой подписи. Значение по умолчанию равно null.
+description: Указывает изображение для цифровой подписи. Значение по умолчанию  null.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.digitalsignatures/digitalsignature/image/
 ---
 ## DigitalSignature.Image property
 
-Задает изображение для цифровой подписи. Значение по умолчанию равно null.
+Указывает изображение для цифровой подписи. Значение по умолчанию — null.
 
 ```csharp
 public byte[] Image { get; set; }

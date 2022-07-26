@@ -1,14 +1,14 @@
 ---
 title: ShiftFirstRowDown
 second_title: Aspose.Cells for .NET API 参考
-description: 表示插入行时第一行是否下移
+description: 表示插入行时是否下移第一行
 type: docs
 weight: 130
 url: /zh/net/aspose.cells/importtableoptions/shiftfirstrowdown/
 ---
 ## ImportTableOptions.ShiftFirstRowDown property
 
-表示插入行时第一行是否下移。
+表示插入行时是否下移第一行。
 
 ```csharp
 public bool ShiftFirstRowDown { get; set; }

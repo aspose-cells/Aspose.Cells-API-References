@@ -1,14 +1,14 @@
 ---
 title: RotateTextWithShape
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否带形状旋转文本
+description: 表示是否旋转带形状的文本
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.drawing/msotextframe/rotatetextwithshape/
 ---
 ## MsoTextFrame.RotateTextWithShape property
 
-表示是否带形状旋转文本。
+表示是否旋转带形状的文本。
 
 ```csharp
 public bool RotateTextWithShape { get; set; }

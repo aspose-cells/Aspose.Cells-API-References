@@ -18,9 +18,9 @@ public class ConditionalFormattingValue
 
 | Имя | Описание |
 | --- | --- |
-| [IsGTE](../../aspose.cells/conditionalformattingvalue/isgte) { get; set; } | Получить или установить флаг «больше или равно». Использовать только для наборов значков, определяет, использует ли это пороговое значение оператор больше или равно. "false" означает, что вместо "больше или равно" используется "больше чем". Значение по умолчанию — true. |
-| [Type](../../aspose.cells/conditionalformattingvalue/type) { get; set; } | Получите или установите тип этого объекта значения условного форматирования. Установка типа FormatConditionValueType.Min или FormatConditionValueType.Max автоматически установит для параметра "Value" значение null. |
-| [Value](../../aspose.cells/conditionalformattingvalue/value) { get; set; } | Получить или установить значение этого объекта значения условного форматирования. Следует использовать вместе с Type. |
+| [IsGTE](../../aspose.cells/conditionalformattingvalue/isgte) { get; set; } | Получить или установить флаг «больше или равно». Использовать только для наборов значков, определяет, использует ли это пороговое значение оператор больше или равно. «false» означает, что вместо «больше или равно» используется «больше чем». Значение по умолчанию — true. |
+| [Type](../../aspose.cells/conditionalformattingvalue/type) { get; set; } | Получить или установить тип этого объекта значения условного форматирования. Установка типа FormatConditionValueType.Min или FormatConditionValueType.Max автоматически установит для параметра "Value" значение null. |
+| [Value](../../aspose.cells/conditionalformattingvalue/value) { get; set; } | Получить или установить значение этого объекта значения условного форматирования. Его следует использовать вместе с типом. |
 
 ### Смотрите также
 

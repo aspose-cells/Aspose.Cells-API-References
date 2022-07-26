@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 通过索引获取列表中的VbaModuleaspose.cells.vba/vbamodule
+description: 获取VbaModuleaspose.cells.vba/vbamodule在索引列表中
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.vba/vbamodulecollection/item/
 ---
 ## VbaModuleCollection indexer (1 of 2)
 
-通过索引获取列表中的[`VbaModule`](../../vbamodule)。
+获取[`VbaModule`](../../vbamodule)在索引列表中。
 
 ```csharp
 public VbaModule this[int index] { get; }
@@ -16,7 +16,7 @@ public VbaModule this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引。 |
+| index | 指数。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public VbaModule this[int index] { get; }
 
 ## VbaModuleCollection indexer (2 of 2)
 
-按名称获取列表中的[`VbaModule`](../../vbamodule)。
+获取[`VbaModule`](../../vbamodule)在名称列表中。
 
 ```csharp
 public VbaModule this[string name] { get; }

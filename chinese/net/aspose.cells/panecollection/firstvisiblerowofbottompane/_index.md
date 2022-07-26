@@ -1,14 +1,14 @@
 ---
 title: FirstVisibleRowOfBottomPane
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置底部窗格的第一个可见行
+description: 获取并设置底部窗格的第一个可见行
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/panecollection/firstvisiblerowofbottompane/
 ---
 ## PaneCollection.FirstVisibleRowOfBottomPane property
 
-获取和设置底部窗格的第一个可见行。
+获取并设置底部窗格的第一个可见行。
 
 ```csharp
 public int FirstVisibleRowOfBottomPane { get; set; }

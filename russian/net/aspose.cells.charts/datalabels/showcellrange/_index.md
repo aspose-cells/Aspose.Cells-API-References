@@ -1,14 +1,14 @@
 ---
 title: ShowCellRange
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает показывать ли диапазон ячеек в качестве меток данных.
+description: Указывает отображается ли диапазон ячеек в качестве меток данных.
 type: docs
 weight: 180
 url: /ru/net/aspose.cells.charts/datalabels/showcellrange/
 ---
 ## DataLabels.ShowCellRange property
 
-Указывает, показывать ли диапазон ячеек в качестве меток данных.
+Указывает, отображается ли диапазон ячеек в качестве меток данных.
 
 ```csharp
 public bool ShowCellRange { get; set; }

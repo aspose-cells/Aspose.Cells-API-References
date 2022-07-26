@@ -1,14 +1,14 @@
 ---
 title: RangeCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装Range./range对象的集合
+description: 封装了一个集合Range./range对象.
 type: docs
 weight: 5040
 url: /zh/net/aspose.cells/rangecollection/
 ---
 ## RangeCollection class
 
-封装[`Range`](../range)对象的集合。
+封装了一个集合[`Range`](../range)对象.
 
 ```csharp
 public class RangeCollection : CollectionBase<Range>
@@ -20,14 +20,14 @@ public class RangeCollection : CollectionBase<Range>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/rangecollection/item) { get; } | 获取指定索引处的[`Range`](../range)元素。 |
+| [Item](../../aspose.cells/rangecollection/item) { get; } | 获取[`Range`](../range)指定索引处的元素。 |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells/rangecollection/add)(Range) | 将[`Range`](../range)项添加到集合中。 |
+| [Add](../../aspose.cells/rangecollection/add)(Range) | 添加一个[`Range`](../range)项目到集合. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Range) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Range, IComparer&lt;Range&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Range, IComparer&lt;Range&gt;) |  |

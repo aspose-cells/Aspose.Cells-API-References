@@ -1,14 +1,14 @@
 ---
 title: TextFontAlignType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示不同类型的字体对齐方式
+description: 代表不同类型的字体对齐方式
 type: docs
 weight: 2960
 url: /zh/net/aspose.cells.drawing.texts/textfontaligntype/
 ---
 ## TextFontAlignType enumeration
 
-表示不同类型的字体对齐方式。
+代表不同类型的字体对齐方式。
 
 ```csharp
 public enum TextFontAlignType
@@ -21,8 +21,8 @@ public enum TextFontAlignType
 | Automatic | `0` | 当文本流为水平或简单垂直时与 fontBaseline 但对于其他垂直模式与 fontCenter 相同。 |
 | Bottom | `1` | 字母固定在一行的最底部。 |
 | Baseline | `2` | 字母被锚定到单行的底部基线。 |
-| Center | `3` | 字母锚定在单行的两个基线之间。 |
-| Top | `4` | 字母被锚定到单行的顶部基线。 |
+| Center | `3` | 字母锚定在单行的两条基线之间。 |
+| Top | `4` | 字母锚定到单行的顶部基线。 |
 
 ### 也可以看看
 

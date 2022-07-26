@@ -16,7 +16,7 @@ public FontSetting(int startIndex, int length, WorksheetCollection sheets)
 | --- | --- | --- |
 | startIndex | Int32 |  |
 | length | Int32 |  |
-| листы | WorksheetCollection |  |
+| sheets | WorksheetCollection |  |
 
 ### Смотрите также
 

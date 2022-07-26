@@ -1,14 +1,14 @@
 ---
 title: IndividualFontConfigs
 second_title: Aspose.Cells for .NET API 参考
-description: 克托尔
+description: 克托尔.
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/individualfontconfigs/individualfontconfigs/
 ---
 ## IndividualFontConfigs constructor
 
-克托尔。
+克托尔.
 
 ```csharp
 public IndividualFontConfigs()

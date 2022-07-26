@@ -1,14 +1,14 @@
 ---
 title: SavePassword
 second_title: Справочник по Aspose.Cells для .NET API
-description: True если пароль должен быть сохранен как часть строки подключения в противном случае Ложь.
+description: Истинно если пароль должен быть сохранен как часть строки подключения в противном случае False.
 type: docs
 weight: 180
 url: /ru/net/aspose.cells.externalconnections/externalconnection/savepassword/
 ---
 ## ExternalConnection.SavePassword property
 
-True, если пароль должен быть сохранен как часть строки подключения; в противном случае Ложь.
+Истинно, если пароль должен быть сохранен как часть строки подключения; в противном случае False.
 
 ```csharp
 public bool SavePassword { get; set; }

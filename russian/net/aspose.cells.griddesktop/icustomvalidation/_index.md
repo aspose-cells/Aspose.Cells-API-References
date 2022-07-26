@@ -18,7 +18,7 @@ public interface ICustomValidation
 
 | Имя | Описание |
 | --- | --- |
-| [Validate](../../aspose.cells.griddesktop/icustomvalidation/validate)(Worksheet, int, int, object) | Проверить допустимость данных gridcell. |
+| [Validate](../../aspose.cells.griddesktop/icustomvalidation/validate)(Worksheet, int, int, object) | Проверить правильность данных gridcell. |
 
 ### Смотрите также
 

@@ -16,7 +16,7 @@ public void AddArea(GridCellArea cellArea)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cellArea | GridCellArea | 区域。 |
+| cellArea | GridCellArea | 该地区。 |
 
 ### 评论
 

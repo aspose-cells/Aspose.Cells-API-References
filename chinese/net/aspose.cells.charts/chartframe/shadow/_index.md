@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.charts/chartframe/shadow/
 ---
 ## ChartFrame.Shadow property
 
-如果框架有阴影，则为真。
+如果框架有阴影则为真。
 
 ```csharp
 public bool Shadow { get; set; }

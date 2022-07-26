@@ -21,7 +21,7 @@ public bool AutoSize { get; set; }
 [C#]
 if(!comment1.AutoSize)
 {
-      //Размер комментария зависит от content
+    //Размер комментария зависит от содержимого
     comment1.AutoSize = true;
 }
 ```

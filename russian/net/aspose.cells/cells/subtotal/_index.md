@@ -3,7 +3,7 @@ title: Subtotal
 second_title: Справочник по Aspose.Cells для .NET API
 description: Создает промежуточные итоги для диапазона.
 type: docs
-weight: 1300
+weight: 1310
 url: /ru/net/aspose.cells/cells/subtotal/
 ---
 ## Subtotal(CellArea, int, ConsolidationFunction, int[]) {#subtotal}
@@ -17,7 +17,7 @@ public void Subtotal(CellArea ca, int groupBy, ConsolidationFunction function, i
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | ca | CellArea | Диапазон |
-| groupBy | Int32 | Поле для группировки , как отсчитываемое от нуля целочисленное смещение |
+| groupBy | Int32 | Поле для группировки в виде целочисленного смещения, отсчитываемого от нуля. |
 | function | ConsolidationFunction | Функция промежуточного итога. |
 | totalList | Int32[] | Массив отсчитываемых от нуля смещений полей, указывающий поля, к которым добавляются промежуточные итоги. |
 
@@ -43,12 +43,12 @@ public void Subtotal(CellArea ca, int groupBy, ConsolidationFunction function, i
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | ca | CellArea | Диапазон |
-| groupBy | Int32 | Поле для группировки , как отсчитываемое от нуля целочисленное смещение |
+| groupBy | Int32 | Поле для группировки в виде целочисленного смещения, отсчитываемого от нуля. |
 | function | ConsolidationFunction | Функция промежуточного итога. |
 | totalList | Int32[] | Массив отсчитываемых от нуля смещений полей, указывающий поля, к которым добавляются промежуточные итоги. |
 | replace | Boolean | Указывает, заменять ли текущие промежуточные итоги |
-| pageBreaks | Boolean | Указывает, следует ли добавлять разрыв страницы между группами |
-| summaryBelowData | Boolean | Указывает, следует ли добавлять сводку под данными. |
+| pageBreaks | Boolean | Указывает, добавлять ли разрыв страницы между группами |
+| summaryBelowData | Boolean | Указывает, следует ли добавлять сводку ниже данных. |
 
 ### Смотрите также
 

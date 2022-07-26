@@ -1,14 +1,14 @@
 ---
 title: FontSize
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает/устанавливает стандартный размер шрифта по умолчанию для книги.
+description: Получает/задает стандартный размер шрифта по умолчанию для книги.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/defaultstylesettings/fontsize/
 ---
 ## DefaultStyleSettings.FontSize property
 
-Получает/устанавливает стандартный размер шрифта по умолчанию для книги.
+Получает/задает стандартный размер шрифта по умолчанию для книги.
 
 ```csharp
 public double FontSize { get; set; }

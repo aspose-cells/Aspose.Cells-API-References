@@ -19,8 +19,8 @@ public enum VbaModuleType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Procedural | `0` | 表示程序模块。 |
-| Document | `1` | 表示文档模块。 |
-| Class | `2` | 表示一个类模块。 |
+| Document | `1` | 表示一个文档模块。 |
+| Class | `2` | 代表一个类模块。 |
 | Designer | `3` | 表示设计器模块。 |
 
 ### 也可以看看

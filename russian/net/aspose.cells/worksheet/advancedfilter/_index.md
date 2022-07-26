@@ -17,7 +17,7 @@ public void AdvancedFilter(bool isFilter, string listRange, string criteriaRange
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isFilter | Boolean | Указывает, используется ли фильтрация списка на месте. |
+| isFilter | Boolean | Указывает, используется ли фильтрация списка. |
 | listRange | String | Диапазон списка. |
 | criteriaRange | String | Диапазон критериев. |
 | copyTo | String | Диапазон, в который копируются данные. |

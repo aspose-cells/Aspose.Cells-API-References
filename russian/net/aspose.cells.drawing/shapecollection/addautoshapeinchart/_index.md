@@ -28,7 +28,7 @@ public Shape AddAutoShapeInChart(AutoShapeType type, int top, int left, int heig
 
 ### Примечания
 
-Тип не может быть Chart/Comment/Picture/OleObject/Polygon/DialogBox
+Тип не может быть Chart/Comment/Picture/OleObject/Polygon/DialogBox.
 
 ### Смотрите также
 

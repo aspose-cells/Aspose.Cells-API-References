@@ -1,14 +1,14 @@
 ---
 title: Transparency
 second_title: Aspose.Cells for .NET API 参考
-description: 以 0.0不透明到 1.0透明的值返回或设置指定填充的透明度
+description: 将指定填充的透明度返回或设置为从 0.0不透明到 1.0透明的值
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.drawing/msofillformat/transparency/
 ---
 ## MsoFillFormat.Transparency property
 
-以 0.0（不透明）到 1.0（透明）的值返回或设置指定填充的透明度。
+将指定填充的透明度返回或设置为从 0.0（不透明）到 1.0（透明）的值。
 
 ```csharp
 public double Transparency { get; set; }

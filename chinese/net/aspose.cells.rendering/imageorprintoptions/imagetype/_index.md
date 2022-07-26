@@ -1,14 +1,14 @@
 ---
 title: ImageType
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置生成图像的格式 默认值PNG
+description: 获取或设置生成图片的格式 默认值PNG
 type: docs
 weight: 130
 url: /zh/net/aspose.cells.rendering/imageorprintoptions/imagetype/
 ---
 ## ImageOrPrintOptions.ImageType property
 
-获取或设置生成图像的格式。 默认值:PNG。
+获取或设置生成图片的格式。 默认值：PNG。
 
 ```csharp
 public ImageType ImageType { get; set; }

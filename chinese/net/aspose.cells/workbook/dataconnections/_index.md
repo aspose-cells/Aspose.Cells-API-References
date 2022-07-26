@@ -1,14 +1,14 @@
 ---
 title: DataConnections
 second_title: Aspose.Cells for .NET API 参考
-description: 获取ExternalConnectionaspose.cells.externalconnections/externalconnection集合
+description: 获取ExternalConnectionaspose.cells.externalconnections/externalconnection集合.
 type: docs
 weight: 100
 url: /zh/net/aspose.cells/workbook/dataconnections/
 ---
 ## Workbook.DataConnections property
 
-获取[`ExternalConnection`](../../../aspose.cells.externalconnections/externalconnection)集合。
+获取[`ExternalConnection`](../../../aspose.cells.externalconnections/externalconnection)集合.
 
 ```csharp
 public ExternalConnectionCollection DataConnections { get; }

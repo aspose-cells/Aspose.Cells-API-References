@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает идентификатор GUID который можно сопоставить с идентификатором GUID строки подписи хранящейся в содержимом документа. Значение по умолчанию  Пусто все нули Guid.
+description: Указывает GUID который может быть перекрестно связан с GUID строки подписи хранящейся в содержимом документа. Значение по умолчанию  Пусто все нули Guid.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.digitalsignatures/digitalsignature/id/
 ---
 ## DigitalSignature.Id property
 
-Указывает идентификатор GUID, который можно сопоставить с идентификатором GUID строки подписи, хранящейся в содержимом документа. Значение по умолчанию — Пусто (все нули) Guid.
+Указывает GUID, который может быть перекрестно связан с GUID строки подписи, хранящейся в содержимом документа. Значение по умолчанию — Пусто (все нули) Guid.
 
 ```csharp
 public Guid Id { get; set; }
@@ -16,7 +16,7 @@ public Guid Id { get; set; }
 
 ### Примечания
 
-Когда установлено, связывает[`SignatureLine`](../../../aspose.cells.drawing/signatureline)с соответствующим[`DigitalSignature`](../../digitalsignature).
+При установке связывает[`SignatureLine`](../../../aspose.cells.drawing/signatureline) с соответствующим[`DigitalSignature`](../../digitalsignature) .
 
 ### Смотрите также
 

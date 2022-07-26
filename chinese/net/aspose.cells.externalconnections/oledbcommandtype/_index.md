@@ -22,7 +22,7 @@ public enum OLEDBCommandType
 | CubeName | `1` | 指定多维数据集名称 |
 | SqlStatement | `2` | 指定 SQL 语句 |
 | TableName | `3` | 指定表名 |
-| DefaultInformation | `4` | 指定已给出默认信息，由提供者如何解释。 |
+| DefaultInformation | `4` | 表示已给出默认信息，由提供者如何解释。 |
 | WebBasedList | `5` | 指定针对基于 Web 的列表数据提供程序的查询。 |
 
 ### 也可以看看

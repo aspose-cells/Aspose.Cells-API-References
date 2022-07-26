@@ -1,14 +1,14 @@
 ---
 title: MinusValue
 second_title: Aspose.Cells for .NET API 参考
-description: 当错误栏类型为自定义时表示负错误量
+description: 表示误差条类型为自定义时的负误差量
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.charts/errorbar/minusvalue/
 ---
 ## ErrorBar.MinusValue property
 
-当错误栏类型为自定义时，表示负错误量。
+表示误差条类型为自定义时的负误差量。
 
 ```csharp
 public string MinusValue { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: AllowInsertingHyperlink
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает разрешена ли вставка гиперссылок на защищенный рабочий лист
+description: Указывает разрешена ли вставка гиперссылок на защищенный лист
 type: docs
 weight: 110
 url: /ru/net/aspose.cells/protection/allowinsertinghyperlink/
 ---
 ## Protection.AllowInsertingHyperlink property
 
-Указывает, разрешена ли вставка гиперссылок на защищенный рабочий лист
+Указывает, разрешена ли вставка гиперссылок на защищенный лист
 
 ```csharp
 public bool AllowInsertingHyperlink { get; set; }

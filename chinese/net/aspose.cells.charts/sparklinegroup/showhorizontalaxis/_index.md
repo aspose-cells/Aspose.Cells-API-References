@@ -1,14 +1,14 @@
 ---
 title: ShowHorizontalAxis
 second_title: Aspose.Cells for .NET API 参考
-description: 是否显示迷你图横轴 如果迷你图包含穿过零轴的数据则会出现水平轴
+description: 指示是否显示迷你图水平轴 如果迷你图有数据穿过零轴则显示水平轴
 type: docs
 weight: 170
 url: /zh/net/aspose.cells.charts/sparklinegroup/showhorizontalaxis/
 ---
 ## SparklineGroup.ShowHorizontalAxis property
 
-是否显示迷你图横轴。 如果迷你图包含穿过零轴的数据，则会出现水平轴。
+指示是否显示迷你图水平轴。 如果迷你图有数据穿过零轴，则显示水平轴。
 
 ```csharp
 public bool ShowHorizontalAxis { get; set; }

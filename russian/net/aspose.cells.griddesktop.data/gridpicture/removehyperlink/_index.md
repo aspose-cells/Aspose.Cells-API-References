@@ -1,14 +1,14 @@
 ---
 title: RemoveHyperlink
 second_title: Справочник по Aspose.Cells для .NET API
-description: Удалить гиперссылку фигуры.
+description: Удалить гиперссылку формы.
 type: docs
 weight: 710
 url: /ru/net/aspose.cells.griddesktop.data/gridpicture/removehyperlink/
 ---
 ## GridPicture.RemoveHyperlink method
 
-Удалить гиперссылку фигуры.
+Удалить гиперссылку формы.
 
 ```csharp
 public void RemoveHyperlink()

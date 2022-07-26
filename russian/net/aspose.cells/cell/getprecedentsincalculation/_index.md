@@ -20,7 +20,7 @@ public IEnumerator GetPrecedentsInCalculation()
 
 ### Примечания
 
-Этот метод может работать только в ситуации, когда[`EnableCalculationChain`](../../formulasettings/enablecalculationchain) верно для рабочей книги и рабочая книга была полностью рассчитана. Если эта ячейка не является формулой или не ссылается ни на какие другие ячейки, будет возвращено значение null.
+Этот метод может работать только в ситуации, когда[`EnableCalculationChain`](../../formulasettings/enablecalculationchain) верно для рабочей книги, и рабочая книга была полностью рассчитана. Если эта ячейка не является формулой или не ссылается ни на какие другие ячейки, будет возвращено значение null.
 
 ### Примеры
 
@@ -30,11 +30,14 @@ public IEnumerator GetPrecedentsInCalculation()
 Workbook workbook = new Workbook();
 Cells cells = workbook.Worksheets[0].Cells;
 cells["A2"].Formula = "=IF(TRUE,B2,B1)";
+workbook.Settings.FormulaSettings.EnableCalculationChain = true;
+workbook.CalculateFormula();
 IEnumerator en = cells["A2"].GetPrecedentsInCalculation();
+Console.WriteLine("A2's calculation precedents:");
 while(en.MoveNext())
 {
-     ReferredArea r = (ReferredArea)en.Current;
-     Console.WriteLine(r.SheetName + "!" + CellsHelper.CellIndexToName(r.StartRow, r.StartColumn));
+    ReferredArea r = (ReferredArea)en.Current;
+    Console.WriteLine(r);
 }
 ```
 

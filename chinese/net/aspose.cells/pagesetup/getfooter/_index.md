@@ -16,7 +16,7 @@ public string GetFooter(int section)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| section | Int32 | 0:Left Section。 |
+| section | Int32 | 0：左侧部分，1：中间部分，2：右侧部分。 |
 
 ### 也可以看看
 

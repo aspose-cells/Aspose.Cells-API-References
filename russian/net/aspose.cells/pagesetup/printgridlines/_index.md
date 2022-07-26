@@ -1,14 +1,14 @@
 ---
 title: PrintGridlines
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает печатаются ли на странице линии сетки ячеек.
+description: Указывает печатаются ли линии сетки ячеек на странице.
 type: docs
 weight: 340
 url: /ru/net/aspose.cells/pagesetup/printgridlines/
 ---
 ## PageSetup.PrintGridlines property
 
-Указывает, печатаются ли на странице линии сетки ячеек.
+Указывает, печатаются ли линии сетки ячеек на странице.
 
 ```csharp
 public bool PrintGridlines { get; set; }

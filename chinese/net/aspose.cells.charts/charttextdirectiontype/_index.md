@@ -1,14 +1,14 @@
 ---
 title: ChartTextDirectionType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示图表的文字方向类型
+description: 代表图表的文字方向类型
 type: docs
 weight: 540
 url: /zh/net/aspose.cells.charts/charttextdirectiontype/
 ---
 ## ChartTextDirectionType enumeration
 
-表示图表的文字方向类型。
+代表图表的文字方向类型。
 
 ```csharp
 public enum ChartTextDirectionType
@@ -20,7 +20,7 @@ public enum ChartTextDirectionType
 | --- | --- | --- |
 | Horizontal | `0` | 水平方向类型。 |
 | Vertical | `1` | 垂直方向类型。 |
-| Rotate90 | `2` | 旋转 90 角。 |
+| Rotate90 | `2` | 旋转 90 度角。 |
 | Rotate270 | `3` | 旋转 270 度角。 |
 | Stacked | `4` | 堆叠文本。 |
 

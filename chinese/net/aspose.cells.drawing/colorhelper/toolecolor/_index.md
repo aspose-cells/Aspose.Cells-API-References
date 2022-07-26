@@ -16,12 +16,12 @@ public static int ToOleColor(Color color, Workbook workbook)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| color | Color | Color对象。 |
+| color | Color | 这Color目的。 |
 | workbook | Workbook |  |
 
 ### 返回值
 
-OLE_COLOR的值
+OLE_COLOR 的值
 
 ### 也可以看看
 

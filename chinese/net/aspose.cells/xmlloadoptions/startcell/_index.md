@@ -16,7 +16,7 @@ public string StartCell { get; set; }
 
 ### 评论
 
-仅当文件不是电子表格ML或将xml映射到Excel时才有效。
+仅当文件不是电子表格ML 或将 xml 映射到 Excel 时才有效。
 
 ### 也可以看看
 

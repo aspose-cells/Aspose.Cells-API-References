@@ -1,14 +1,14 @@
 ---
 title: PaperWidth
 second_title: Aspose.Cells for .NET API 参考
-description: 以英寸为单位获取纸张宽度考虑页面方向
+description: 以英寸为单位获取纸张的宽度考虑页面方向
 type: docs
 weight: 270
 url: /zh/net/aspose.cells/pagesetup/paperwidth/
 ---
 ## PageSetup.PaperWidth property
 
-以英寸为单位获取纸张宽度，考虑页面方向。
+以英寸为单位获取纸张的宽度，考虑页面方向。
 
 ```csharp
 public double PaperWidth { get; }

@@ -1,14 +1,14 @@
 ---
 title: NextCell
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает следующую сохраняемую ячейку.
+description: Получает следующую ячейку для сохранения.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/lightcellsdataprovider/nextcell/
 ---
 ## LightCellsDataProvider.NextCell method
 
-Получает следующую сохраняемую ячейку.
+Получает следующую ячейку для сохранения.
 
 ```csharp
 public int NextCell()

@@ -1,14 +1,14 @@
 ---
 title: LowerDeltaX
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置形状与其右下角列的水平偏移量  取值范围为 0 到 1024
+description: 获取或设置形状与其右下角列的水平偏移量 取值范围为 0 到 1024
 type: docs
 weight: 260
 url: /zh/net/aspose.cells.gridweb.data/gridpicture/lowerdeltax/
 ---
 ## GridPicture.LowerDeltaX property
 
-获取或设置形状与其右下角列的水平偏移量。  取值范围为 0 到 1024。
+获取或设置形状与其右下角列的水平偏移量。 取值范围为 0 到 1024。
 
 ```csharp
 public int LowerDeltaX { get; set; }

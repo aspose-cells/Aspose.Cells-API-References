@@ -1,14 +1,14 @@
 ---
 title: CheckBoxes
 second_title: Aspose.Cells for .NET API 参考
-description: 获取CheckBoxaspose.cells.drawing/checkbox集合
+description: 得到一个CheckBoxaspose.cells.drawing/checkbox集合.
 type: docs
 weight: 80
 url: /zh/net/aspose.cells/worksheet/checkboxes/
 ---
 ## Worksheet.CheckBoxes property
 
-获取[`CheckBox`](../../../aspose.cells.drawing/checkbox)集合。
+得到一个[`CheckBox`](../../../aspose.cells.drawing/checkbox)集合.
 
 ```csharp
 public CheckBoxCollection CheckBoxes { get; }

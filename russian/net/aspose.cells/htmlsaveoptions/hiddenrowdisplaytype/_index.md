@@ -1,14 +1,14 @@
 ---
 title: HiddenRowDisplayType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Скрытая строка высота этой строки равна 0 в excel перед сохранением в формате html если HtmlHiddenRowDisplayType Удалить скрытая строка не будет выводиться если значение Скрыто строка будет выводиться но скрыта значение по умолчанию Скрыто
+description: Скрытая строка высота этой строки равна 0 в Excel перед сохранением в формате html  если HtmlHiddenRowDisplayType имеет значение Удалить скрытая строка не будет выводиться  если значение Скрыто строка будет был выведен но был скрыт значение по умолчанию Скрытый
 type: docs
-weight: 310
+weight: 330
 url: /ru/net/aspose.cells/htmlsaveoptions/hiddenrowdisplaytype/
 ---
 ## HtmlSaveOptions.HiddenRowDisplayType property
 
-Скрытая строка (высота этой строки равна 0) в excel, перед сохранением в формате html, если HtmlHiddenRowDisplayType "Удалить", скрытая строка не будет выводиться, если значение "Скрыто", строка будет выводиться, но скрыта, значение по умолчанию "Скрыто"
+Скрытая строка (высота этой строки равна 0) в Excel, перед сохранением в формате html, , если HtmlHiddenRowDisplayType имеет значение «Удалить», скрытая строка не будет выводиться, , если значение «Скрыто», строка будет был выведен, но был скрыт, значение по умолчанию "Скрытый"
 
 ```csharp
 public HtmlHiddenRowDisplayType HiddenRowDisplayType { get; set; }

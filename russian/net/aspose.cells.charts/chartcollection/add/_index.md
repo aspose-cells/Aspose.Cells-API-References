@@ -19,13 +19,13 @@ public int Add(ChartType type, int upperLeftRow, int upperLeftColumn, int lowerR
 | --- | --- | --- |
 | type | ChartType | Тип диаграммы |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
-| lowerRightRow | Int32 | Нижний правый индекс строки |
-| lowerRightColumn | Int32 | Нижний правый индекс столбца |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
+| lowerRightRow | Int32 | Нижний индекс правой строки |
+| lowerRightColumn | Int32 | Индекс нижнего правого столбца |
 
 ### Возвращаемое значение
 
-[`Chart`](../../chart)индекс объекта.
+[`Chart`](../../chart) индекс объекта.
 
 ### Смотрите также
 
@@ -48,16 +48,16 @@ public int Add(ChartType type, string dataRange, bool isVertical, int topRow, in
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | type | ChartType | Тип диаграммы |
-| dataRange | String | Определяет диапазон данных диаграмма |
-| isVertical | Boolean | Указывает, строить ли серию из диапазона значений ячеек по строке или по столбцу. |
+| dataRange | String | Указывает диапазон данных диаграммы |
+| isVertical | Boolean | Указывает, следует ли отображать серию из диапазона значений ячеек по строке или по столбцу. |
 | topRow | Int32 | Индекс верхней левой строки. |
-| leftColumn | Int32 | Индекс верхнего левого столбца. |
-| rightRow | Int32 | Нижний правый индекс строки |
-| bottomColumn | Int32 | Нижний правый индекс столбца |
+| leftColumn | Int32 | Индекс левого верхнего столбца. |
+| rightRow | Int32 | Нижний индекс правой строки |
+| bottomColumn | Int32 | Индекс нижнего правого столбца |
 
 ### Возвращаемое значение
 
-[`Chart`](../../chart)индекс объекта.
+[`Chart`](../../chart) индекс объекта.
 
 ### Смотрите также
 

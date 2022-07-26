@@ -20,7 +20,7 @@ public class PowerQueryFormulaItemCollection : CollectionBase<PowerQueryFormulaI
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.querytables/powerqueryformulaitemcollection/item) { get; } | Получает[`PowerQueryFormulaItem`](../powerqueryformulaitem)по индексу в списке. (2 indexers) |
+| [Item](../../aspose.cells.querytables/powerqueryformulaitemcollection/item) { get; } | получает[`PowerQueryFormulaItem`](../powerqueryformulaitem) по индексу в списке. (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы

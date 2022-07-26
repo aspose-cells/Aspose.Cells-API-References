@@ -16,14 +16,14 @@ public int[] CalculateTextSize()
 
 ### 返回值
 
-文本在数组中的大小（宽度和高度）。
+数组中文本的大小（宽度和高度）。
 
 ### 例子
 
 ```csharp
 
 [C#]
- //文本区域的大小为：w=size[0],h=size[1]
+//文本区域的大小为：w=size[0],h=size[1]
 int[] size = shape.CalculateTextSize();
 ```
 

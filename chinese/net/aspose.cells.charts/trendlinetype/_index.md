@@ -1,14 +1,14 @@
 ---
 title: TrendlineType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示趋势线类型
+description: 代表趋势线类型
 type: docs
 weight: 1000
 url: /zh/net/aspose.cells.charts/trendlinetype/
 ---
 ## TrendlineType enumeration
 
-表示趋势线类型。
+代表趋势线类型。
 
 ```csharp
 public enum TrendlineType
@@ -21,7 +21,7 @@ public enum TrendlineType
 | Exponential | `0` | 指数 |
 | Linear | `1` | 线性 |
 | Logarithmic | `2` | 对数 |
-| MovingAverage | `3` | MovingAverage |
+| MovingAverage | `3` | 移动平均 |
 | Polynomial | `4` | 多项式 |
 | Power | `5` | 电源 |
 

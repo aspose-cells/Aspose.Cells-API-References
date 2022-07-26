@@ -1,14 +1,14 @@
 ---
 title: NumberFormat
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置数值格式
+description: 获取和设置数值的格式
 type: docs
 weight: 80
 url: /zh/net/aspose.cells.utility/jsonlayoutoptions/numberformat/
 ---
 ## JsonLayoutOptions.NumberFormat property
 
-获取和设置数值格式。
+获取和设置数值的格式。
 
 ```csharp
 public string NumberFormat { get; set; }

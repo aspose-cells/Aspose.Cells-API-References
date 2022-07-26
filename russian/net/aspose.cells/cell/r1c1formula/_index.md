@@ -1,14 +1,14 @@
 ---
 title: R1C1Formula
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает формулу R1C1 дляCellaspose.cells/cell.
+description: Получает или задает формулу R1C1 дляCellaspose.cells/cell .
 type: docs
 weight: 240
 url: /ru/net/aspose.cells/cell/r1c1formula/
 ---
 ## Cell.R1C1Formula property
 
-Получает или задает формулу R1C1 для[`Cell`](../../cell).
+Получает или задает формулу R1C1 для[`Cell`](../../cell) .
 
 ```csharp
 public string R1C1Formula { get; set; }

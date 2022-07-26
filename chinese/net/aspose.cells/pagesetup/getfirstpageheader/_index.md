@@ -1,14 +1,14 @@
 ---
 title: GetFirstPageHeader
 second_title: Aspose.Cells for .NET API 参考
-description: 获取格式化 Excel 文件首页页眉的脚本
+description: 获取格式化 Excel 文件第一页标题的脚本
 type: docs
 weight: 510
 url: /zh/net/aspose.cells/pagesetup/getfirstpageheader/
 ---
 ## PageSetup.GetFirstPageHeader method
 
-获取格式化 Excel 文件首页页眉的脚本。
+获取格式化 Excel 文件第一页标题的脚本。
 
 ```csharp
 public string GetFirstPageHeader(int section)
@@ -16,7 +16,7 @@ public string GetFirstPageHeader(int section)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| section | Int32 | 0:Left Section。 |
+| section | Int32 | 0：左侧部分，1：中间部分，2：右侧部分。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: AnchorType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает заполнитель привязки формы.
+description: Получает и устанавливает местозаполнитель привязки формы.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.drawing/shape/anchortype/
 ---
 ## Shape.AnchorType property
 
-Получает и устанавливает заполнитель привязки формы.
+Получает и устанавливает местозаполнитель привязки формы.
 
 ```csharp
 public ShapeAnchorType AnchorType { get; set; }

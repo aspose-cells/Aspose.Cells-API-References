@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает объектFontaspose.cells.charts/ticklabels/font представляющий шрифт указанного объекта TickLabels.
+description: ВозвращаетFontaspose.cells.charts/ticklabels/font объект представляющий шрифт указанного объекта TickLabels.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.charts/ticklabels/font/
 ---
 ## TickLabels.Font property
 
-Возвращает объект`Font`, представляющий шрифт указанного объекта TickLabels.
+Возвращает`Font` объект, представляющий шрифт указанного объекта TickLabels.
 
 ```csharp
 public Font Font { get; }

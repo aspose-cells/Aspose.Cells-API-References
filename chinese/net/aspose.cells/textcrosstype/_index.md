@@ -1,14 +1,14 @@
 ---
 title: TextCrossType
 second_title: Aspose.Cells for .NET API 参考
-description: 当文本宽度大于单元格宽度时枚举显示文本类型
+description: 枚举当文本宽度大于单元格宽度时显示的文本类型
 type: docs
 weight: 5960
 url: /zh/net/aspose.cells/textcrosstype/
 ---
 ## TextCrossType enumeration
 
-当文本宽度大于单元格宽度时，枚举显示文本类型。
+枚举当文本宽度大于单元格宽度时显示的文本类型。
 
 ```csharp
 public enum TextCrossType
@@ -18,7 +18,7 @@ public enum TextCrossType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Default | `1` | 像在 Microsoft Excel 中一样显示文本。 |
+| Default | `1` | 在 Microsoft Excel 中显示文本。 |
 | CrossKeep | `2` | 通过交叉其他单元格显示所有文本并保留交叉单元格的文本。 |
 | CrossOverride | `3` | 通过交叉其他单元格显示所有文本并覆盖交叉单元格的文本。 |
 | StrictInCell | `4` | 只显示单元格宽度内的文本。 |

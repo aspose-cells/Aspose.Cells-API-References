@@ -1,14 +1,14 @@
 ---
 title: ImportDataView
 second_title: Справочник по Aspose.Cells для .NET API
-description: ИмпортируетDataViewв рабочий лист.
+description: ИмпортируетDataView в рабочий лист.
 type: docs
-weight: 1010
+weight: 1020
 url: /ru/net/aspose.cells/cells/importdataview/
 ---
 ## Cells.ImportDataView method
 
-ИмпортируетDataViewв рабочий лист.
+ИмпортируетDataView в рабочий лист.
 
 ```csharp
 public int ImportDataView(DataView dataView, int firstRow, int firstColumn)
@@ -16,7 +16,7 @@ public int ImportDataView(DataView dataView, int firstRow, int firstColumn)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dataView | DataView | Импортируемый объектDataView. |
+| dataView | DataView | DataView объект для импорта. |
 | firstRow | Int32 | Номер строки первой ячейки для импорта. |
 | firstColumn | Int32 | Номер столбца первой ячейки для импорта. |
 

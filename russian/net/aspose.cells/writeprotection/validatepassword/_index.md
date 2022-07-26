@@ -1,14 +1,14 @@
 ---
 title: ValidatePassword
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает true если указанный пароль совпадает с паролем защиты от записи которым был защищен файл.
+description: Возвращает значение true если указанный пароль совпадает с паролем защиты от записи которым был защищен файл.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells/writeprotection/validatepassword/
 ---
 ## WriteProtection.ValidatePassword method
 
-Возвращает true, если указанный пароль совпадает с паролем защиты от записи, которым был защищен файл.
+Возвращает значение true, если указанный пароль совпадает с паролем защиты от записи, которым был защищен файл.
 
 ```csharp
 public bool ValidatePassword(string password)
@@ -16,7 +16,7 @@ public bool ValidatePassword(string password)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| пароль | String | Указанный пароль. |
+| password | String | Указанный пароль. |
 
 ### Смотрите также
 

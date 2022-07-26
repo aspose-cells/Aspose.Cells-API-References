@@ -16,7 +16,7 @@ public void SetFontFolder(string fontFolder, bool recursive)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontFolder | String | Папка, содержащая шрифты TrueType . |
+| fontFolder | String | Папка, содержащая шрифты TrueType. |
 | recursive | Boolean | Определяет, сканировать ли вложенные папки. |
 
 ### Смотрите также

@@ -27,9 +27,9 @@ public class GridPivotItem
 
 | Имя | Описание |
 | --- | --- |
-| [GetDateTimeValue](../../aspose.cells.gridweb.data/gridpivotitem/getdatetimevalue)() | Получает значение даты и времени элемента сводки Если значение равно null, возвращается DateTime.MinValue |
-| [GetDoubleValue](../../aspose.cells.gridweb.data/gridpivotitem/getdoublevalue)() | Получает двойное значение элемента сводки Если значение равно null или не является числом, возвращается 0 |
-| [GetStringValue](../../aspose.cells.gridweb.data/gridpivotitem/getstringvalue)() | Получает строковое значение элемента сводки Если значение равно null, возвращается "" |
+| [GetDateTimeValue](../../aspose.cells.gridweb.data/gridpivotitem/getdatetimevalue)() | Получает значение даты и времени сводного элемента Если значение равно null, возвращается DateTime.MinValue |
+| [GetDoubleValue](../../aspose.cells.gridweb.data/gridpivotitem/getdoublevalue)() | Получает двойное значение сводного элемента Если значение равно null или не является числом, возвращается 0 |
+| [GetStringValue](../../aspose.cells.gridweb.data/gridpivotitem/getstringvalue)() | Получает строковое значение сводного элемента Если значение равно null, возвращается "" |
 | [Move](../../aspose.cells.gridweb.data/gridpivotitem/move)(int) | Перемещает элемент вверх или вниз. |
 
 ### Смотрите также

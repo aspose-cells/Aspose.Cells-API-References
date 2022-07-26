@@ -1,14 +1,14 @@
 ---
 title: OnePagePerSheet
 second_title: Aspose.Cells for .NET API 参考
-description: 如果 OnePagePerSheet 为 true 则结果中一张表的所有内容将仅输出到一页 pagesetup 的纸张大小会失效pagesetup 的其他设置仍然有效
+description: 如果 OnePagePerSheet 为 true 则一张表的所有内容将只输出到结果中的一页 pagesetup 的纸张大小会失效pagesetup 的其他设置仍然有效
 type: docs
 weight: 210
 url: /zh/net/aspose.cells/pdfsaveoptions/onepagepersheet/
 ---
 ## PdfSaveOptions.OnePagePerSheet property
 
-如果 OnePagePerSheet 为 true ，则结果中一张表的所有内容将仅输出到一页。 pagesetup 的纸张大小会失效，pagesetup 的其他设置仍然有效。
+如果 OnePagePerSheet 为 true ，则一张表的所有内容将只输出到结果中的一页。 pagesetup 的纸张大小会失效，pagesetup 的其他设置仍然有效。
 
 ```csharp
 public bool OnePagePerSheet { get; set; }

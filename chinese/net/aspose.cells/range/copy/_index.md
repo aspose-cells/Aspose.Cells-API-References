@@ -3,7 +3,7 @@ title: Copy
 second_title: Aspose.Cells for .NET API 参考
 description: 使用粘贴特殊选项复制范围
 type: docs
-weight: 190
+weight: 230
 url: /zh/net/aspose.cells/range/copy/
 ---
 ## Copy(Range, PasteOptions) {#copy_1}
@@ -38,7 +38,7 @@ public void Copy(Range range)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| range | Range | 源[`Range`](../../range)对象。 |
+| range | Range | 资源[`Range`](../../range)目的。 |
 
 ### 例子
 
@@ -46,28 +46,28 @@ public void Copy(Range range)
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
-// 获取第一个 Worksheet Cells.
+// 获取第一个工作表单元格。
 Cells cells = workbook.Worksheets[0].Cells;
 Range range1 = cells.CreateRange("A1:A5");
 Range range2 = cells.CreateRange("A6:A10");
- //复制范围.
+//复制范围。
 range1.Copy(range2);
- //保存Excel文件
+//保存Excel文件
 workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'实例化一个 Workbook 目的
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
-'获取第一个 Worksheet Cells.
+'获取第一个工作表单元格。
 Dim cells as Cells = workbook.Worksheets[0].Cells
 Range range1 = cells.CreateRange("A1:A5")
 Range range2 = cells.CreateRange("A6:A10")
-'复制range
+//复制范围
 range1.Copy(range2)
-'保存Excel文件
+'保存 Excel 文件
 workbook.Save("book1.xlsm")
 ```
 

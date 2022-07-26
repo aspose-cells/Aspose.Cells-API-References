@@ -1,14 +1,14 @@
 ---
 title: WindowLeft
 second_title: Aspose.Cells for .NET API 参考
-description: 客户区左边缘到窗口左边缘的距离以点为单位
+description: 客户区左边缘到窗口左边缘的距离以point为单位
 type: docs
 weight: 510
 url: /zh/net/aspose.cells/workbooksettings/windowleft/
 ---
 ## WorkbookSettings.WindowLeft property
 
-客户区左边缘到窗口左边缘的距离，以点为单位。
+客户区左边缘到窗口左边缘的距离，以point为单位。
 
 ```csharp
 public double WindowLeft { get; set; }

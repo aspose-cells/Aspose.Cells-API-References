@@ -1,14 +1,14 @@
 ---
 title: GetPivotFilters
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает сводные фильтры поля сводки
+description: Получает сводные фильтры сводного поля
 type: docs
 weight: 440
 url: /ru/net/aspose.cells.pivot/pivotfield/getpivotfilters/
 ---
 ## PivotField.GetPivotFilters method
 
-Получает сводные фильтры поля сводки
+Получает сводные фильтры сводного поля
 
 ```csharp
 public ArrayList GetPivotFilters()

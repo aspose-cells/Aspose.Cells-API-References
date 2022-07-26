@@ -1,14 +1,14 @@
 ---
 title: DataBarBorderType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает тип границы гистограммы.
+description: Задает тип границы гистограммы.
 type: docs
 weight: 1270
 url: /ru/net/aspose.cells/databarbordertype/
 ---
 ## DataBarBorderType enumeration
 
-Указывает тип границы гистограммы.
+Задает тип границы гистограммы.
 
 ```csharp
 public enum DataBarBorderType
@@ -19,7 +19,7 @@ public enum DataBarBorderType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | None | `0` | Панель данных не имеет границ. |
-| Solid | `1` | Панель данных имеет сплошную границу. |
+| Solid | `1` | Панель данных имеет сплошную рамку. |
 
 ### Смотрите также
 

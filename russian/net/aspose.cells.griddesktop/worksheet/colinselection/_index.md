@@ -1,14 +1,14 @@
 ---
 title: ColInSelection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Определяет выбран ли указанный столбец по индексу.
+description: Определяет является ли указанный столбец по индексу выбранным.
 type: docs
 weight: 600
 url: /ru/net/aspose.cells.griddesktop/worksheet/colinselection/
 ---
 ## Worksheet.ColInSelection method
 
-Определяет, выбран ли указанный столбец по индексу.
+Определяет, является ли указанный столбец по индексу выбранным.
 
 ```csharp
 public bool ColInSelection(int index)

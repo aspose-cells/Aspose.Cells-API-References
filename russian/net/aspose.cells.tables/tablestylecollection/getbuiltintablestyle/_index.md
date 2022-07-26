@@ -1,14 +1,14 @@
 ---
 title: GetBuiltinTableStyle
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает встроенный стиль таблицы
+description: Получает встроенную таблицу style
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.tables/tablestylecollection/getbuiltintablestyle/
 ---
 ## TableStyleCollection.GetBuiltinTableStyle method
 
-Получает встроенный стиль таблицы
+Получает встроенную таблицу style
 
 ```csharp
 public TableStyle GetBuiltinTableStyle(TableStyleType type)
@@ -16,7 +16,7 @@ public TableStyle GetBuiltinTableStyle(TableStyleType type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | TableStyleType | Тип встроенного стиля таблицы . |
+| type | TableStyleType | Встроенный тип стиля таблицы. |
 
 ### Смотрите также
 

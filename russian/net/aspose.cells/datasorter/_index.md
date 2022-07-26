@@ -1,14 +1,14 @@
 ---
 title: DataSorter
 second_title: Справочник по Aspose.Cells для .NET API
-description: Краткое описание DataSorter.
+description: Краткое описание для DataSorter.
 type: docs
 weight: 1300
 url: /ru/net/aspose.cells/datasorter/
 ---
 ## DataSorter class
 
-Краткое описание DataSorter.
+Краткое описание для DataSorter.
 
 ```csharp
 public class DataSorter
@@ -27,8 +27,8 @@ public class DataSorter
 | [Order1](../../aspose.cells/datasorter/order1) { get; set; } | Представляет порядок сортировки первого ключа. |
 | [Order2](../../aspose.cells/datasorter/order2) { get; set; } | Представляет порядок сортировки второго ключа. |
 | [Order3](../../aspose.cells/datasorter/order3) { get; set; } | Представляет порядок сортировки третьего ключа. |
-| [SortAsNumber](../../aspose.cells/datasorter/sortasnumber) { get; set; } | Указывает, сортируется ли что-либо похожее на число. |
-| [SortLeftToRight](../../aspose.cells/datasorter/sortlefttoright) { get; set; } | True означает, что сортировка осуществляется слева направо. False означает, что сортировка осуществляется сверху вниз. Значение по умолчанию — false. |
+| [SortAsNumber](../../aspose.cells/datasorter/sortasnumber) { get; set; } | Указывает, сортируется ли что-либо, похожее на число. |
+| [SortLeftToRight](../../aspose.cells/datasorter/sortlefttoright) { get; set; } | True означает, что сортировка выполняется слева направо. False означает, что сортировка выполняется сверху вниз. Значение по умолчанию — false. |
 
 ## Методы
 
@@ -39,7 +39,7 @@ public class DataSorter
 | [AddKey](../../aspose.cells/datasorter/addkey#addkey_3)(int, SortOrder, string[]) | Добавляет отсортированный индекс столбца и порядок сортировки с пользовательским списком сортировки. |
 | [AddKey](../../aspose.cells/datasorter/addkey#addkey)(int, SortOnType, SortOrder, object) | Добавляет отсортированный индекс столбца и порядок сортировки с пользовательским списком сортировки. |
 | [Clear](../../aspose.cells/datasorter/clear)() | Сбросить все настройки. |
-| [Sort](../../aspose.cells/datasorter/sort#sort)() | Сортировка данных в диапазоне. |
+| [Sort](../../aspose.cells/datasorter/sort#sort)() | Сортировать данные в диапазоне. |
 | [Sort](../../aspose.cells/datasorter/sort#sort_1)(Cells, CellArea) | Сортировка данных области. |
 | [Sort](../../aspose.cells/datasorter/sort#sort_2)(Cells, int, int, int, int) | Сортирует данные области. |
 
@@ -49,48 +49,48 @@ public class DataSorter
 
 [C#]
 
-  //Создаем новый объект Workbook.
+//Создание нового объекта Workbook.
 Workbook workbook = new Workbook("Book1.xls");
-  //Получить объект сортировщика данных рабочей книги.
+//Получить объект сортировщика данных рабочей книги.
 DataSorter sorter = workbook.DataSorter;
-  //Установить первый порядок для объекта сортировщика данных.
+//Устанавливаем первый порядок для объекта сортировщика данных.
 sorter.Order1 = Aspose.Cells.SortOrder.Descending;
-  //Определяем первый ключ.
+//Определяем первый ключ.
 sorter.Key1 = 0;
-  //Установить второй порядок для объекта сортировщика данных.
+//Устанавливаем второй порядок для объекта сортировщика данных.
 sorter.Order2 = Aspose.Cells.SortOrder.Ascending;
-  //Определяем второй ключ.
+//Определяем второй ключ.
 sorter.Key2 = 1;
-  //Создаем область ячеек (диапазон).
+//Создаем область ячеек (диапазон).
 CellArea ca = new CellArea();
-  // Указываем индекс начальной строки.
+// Указываем индекс начальной строки.
 ca.StartRow = 0;
 // Указываем индекс начального столбца.
 ca.StartColumn = 0;
-  // Указываем индекс последней строки.
+// Указываем индекс последней строки.
 ca.EndRow = 13;
-  // Указываем индекс последнего столбца.
+// Указываем индекс последнего столбца.
 ca.EndColumn = 1;
-  //Сортировка данных в указанном диапазоне данных (A1:B14)
+//Сортируем данные в указанном диапазоне данных (A1:B14)
 sorter.Sort(workbook.Worksheets[0].Cells, ca);
-  // Сохраняем файл Excel.
+// Сохраняем файл excel.
 workbook.Save("outBook.xls");
 
 [Visual Basic]
 
-'Создаем новый объект Workbook.
+'Создайте новый объект Workbook.
 Dim workbook As Workbook = New Workbook("Book1.xls")
-'Получить объект сортировщика данных рабочей книги.
+'Получите объект сортировщика данных рабочей книги.
 Dim sorter As DataSorter = workbook.DataSorter
-'Установить первый порядок для объекта сортировщика данных.
+'Установите первый порядок для объекта сортировщика данных
 sorter.Order1 = Aspose.Cells.SortOrder.Descending
-'Определяем первый ключ.
+'Определите первый ключ.
 sorter.Key1 = 0
-'Установить второй порядок для объекта сортировщика данных.
+'Установите второй порядок для объекта сортировщика данных.
 sorter.Order2 = Aspose.Cells.SortOrder.Ascending
-'Определяем второй ключ.
+'Определите второй ключ.
 sorter.Key2 = 1
-'Создаем область ячеек (диапазон).
+'Создайте область ячеек (диапазон).
 Dim ca As CellArea = New CellArea
 'Укажите индекс начальной строки.
 ca.StartRow = 0
@@ -102,7 +102,7 @@ ca.EndRow = 13
 ca.EndColumn = 1
 'Сортировка данных в указанном диапазоне данных (A1:B14)
 sorter.Sort(workbook.Worksheets(0).Cells, ca)
-'Сохраняем файл Excel.
+'Сохраните файл Excel.
 workbook.Save("outBook.xls")
 
 ```

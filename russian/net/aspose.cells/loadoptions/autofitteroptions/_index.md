@@ -16,7 +16,7 @@ public AutoFitterOptions AutoFitterOptions { get; set; }
 
 ### Примечания
 
-Теперь только для xlsx, файла электронной таблицы.
+Теперь только для xlsx, файла электронной таблицы ML.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: BorderColorType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает использовать ли тот же цвет границы что и положительные гистограммы.
+description: Указывает следует ли использовать тот же цвет границы что и столбцы положительных данных.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/negativebarformat/bordercolortype/
 ---
 ## NegativeBarFormat.BorderColorType property
 
-Получает, использовать ли тот же цвет границы, что и положительные гистограммы.
+Указывает, следует ли использовать тот же цвет границы, что и столбцы положительных данных.
 
 ```csharp
 public DataBarNegativeColorType BorderColorType { get; set; }

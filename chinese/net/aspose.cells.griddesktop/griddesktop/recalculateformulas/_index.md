@@ -1,14 +1,14 @@
 ---
 title: RecalculateFormulas
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置一个值该值指示当单元格的值发生变化时是否重新计算 所有单元格的公式 默认值为真
+description: 获取或设置一个值该值指示当单元格的值发生变化时是否重新计算 所有单元格的公式 默认值为true
 type: docs
 weight: 220
 url: /zh/net/aspose.cells.griddesktop/griddesktop/recalculateformulas/
 ---
 ## GridDesktop.RecalculateFormulas property
 
-获取或设置一个值，该值指示当单元格的值发生变化时是否重新计算 所有单元格的公式。 默认值为真。
+获取或设置一个值，该值指示当单元格的值发生变化时是否重新计算 所有单元格的公式。 默认值为true。
 
 ```csharp
 public bool RecalculateFormulas { get; set; }

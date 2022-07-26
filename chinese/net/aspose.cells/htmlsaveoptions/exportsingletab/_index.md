@@ -1,14 +1,14 @@
 ---
 title: ExportSingleTab
 second_title: Aspose.Cells for .NET API 参考
-description: 表示当文件只有一个工作表时是否导出单个选项卡 默认值为假
+description: 表示文件只有一个工作表时是否导出单个选项卡 默认值为false
 type: docs
-weight: 250
+weight: 270
 url: /zh/net/aspose.cells/htmlsaveoptions/exportsingletab/
 ---
 ## HtmlSaveOptions.ExportSingleTab property
 
-表示当文件只有一个工作表时是否导出单个选项卡。 默认值为假。
+表示文件只有一个工作表时是否导出单个选项卡。 默认值为false。
 
 ```csharp
 public bool ExportSingleTab { get; set; }

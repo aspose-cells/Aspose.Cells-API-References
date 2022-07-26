@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает тип маркера.
+description: Получает и устанавливает тип маркера.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.drawing.texts/bullet/type/
 ---
 ## Bullet.Type property
 
-Получает и задает тип маркера.
+Получает и устанавливает тип маркера.
 
 ```csharp
 public BulletType Type { get; set; }

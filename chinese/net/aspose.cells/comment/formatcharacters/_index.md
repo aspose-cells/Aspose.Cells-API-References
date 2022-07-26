@@ -1,14 +1,14 @@
 ---
 title: FormatCharacters
 second_title: Aspose.Cells for .NET API 参考
-description: 用字体设置格式化一些字符
+description: 使用字体设置格式化一些字符
 type: docs
 weight: 220
 url: /zh/net/aspose.cells/comment/formatcharacters/
 ---
 ## Comment.FormatCharacters method
 
-用字体设置格式化一些字符。
+使用字体设置格式化一些字符。
 
 ```csharp
 public void FormatCharacters(int startIndex, int length, Font font, StyleFlag flag)

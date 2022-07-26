@@ -1,14 +1,14 @@
 ---
 title: Libid
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置引用的 Libid
+description: 获取和设置引用的Libid
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.vba/vbaprojectreference/libid/
 ---
 ## VbaProjectReference.Libid property
 
-获取和设置引用的 Libid。
+获取和设置引用的Libid。
 
 ```csharp
 public string Libid { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Cell
 second_title: Aspose.Cells for .NET API 参考
-description: 获取函数所在的 Cell 对象
+description: 获取函数所在的Cell对象
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.gridweb.data/gridcalculationdata/cell/
 ---
 ## GridCalculationData.Cell property
 
-获取函数所在的 Cell 对象。
+获取函数所在的Cell对象。
 
 ```csharp
 public GridCell Cell { get; }

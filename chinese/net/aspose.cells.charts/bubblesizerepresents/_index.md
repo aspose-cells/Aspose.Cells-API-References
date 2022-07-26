@@ -1,14 +1,14 @@
 ---
 title: BubbleSizeRepresents
 second_title: Aspose.Cells for .NET API 参考
-description: 代表气泡图上的气泡大小
+description: 表示气泡图上的气泡大小
 type: docs
 weight: 410
 url: /zh/net/aspose.cells.charts/bubblesizerepresents/
 ---
 ## BubbleSizeRepresents enumeration
 
-代表气泡图上的气泡大小。
+表示气泡图上的气泡大小。
 
 ```csharp
 public enum BubbleSizeRepresents
@@ -18,8 +18,8 @@ public enum BubbleSizeRepresents
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| SizeIsArea | `0` | 表示[`BubbleSizes`](../series/bubblesizes)的值是气泡的面积。 |
-| SizeIsWidth | `1` | 表示[`BubbleSizes`](../series/bubblesizes)的值是气泡的宽度。 |
+| SizeIsArea | `0` | 代表的值[`BubbleSizes`](../series/bubblesizes)是气泡的面积。 |
+| SizeIsWidth | `1` | 代表的值[`BubbleSizes`](../series/bubblesizes)是气泡的宽度。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Outline
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет схему на рабочем листе.
+description: Представляет схему на листе.
 type: docs
 weight: 4390
 url: /ru/net/aspose.cells/outline/
 ---
 ## Outline class
 
-Представляет схему на рабочем листе.
+Представляет схему на листе.
 
 ```csharp
 public class Outline

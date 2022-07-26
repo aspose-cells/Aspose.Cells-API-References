@@ -18,7 +18,7 @@ public class PageStartSavingArgs : PageSavingArgs
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IsToOutput](../../aspose.cells.rendering/pagestartsavingargs/istooutput) { get; set; } | 获取或设置是否输出页面的值。 默认值为真。 |
+| [IsToOutput](../../aspose.cells.rendering/pagestartsavingargs/istooutput) { get; set; } | 获取或设置一个值，该值指示是否应输出页面。 默认值为真。 |
 | [PageCount](../../aspose.cells.rendering/pagesavingargs/pagecount) { get; } | 总页数。 |
 | [PageIndex](../../aspose.cells.rendering/pagesavingargs/pageindex) { get; } | 当前页面索引，从零开始。 |
 

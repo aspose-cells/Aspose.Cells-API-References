@@ -1,14 +1,14 @@
 ---
 title: PaneCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет все объекты панели показанные в указанном окне.
+description: Представляет все объекты панели отображаемые в указанном окне.
 type: docs
 weight: 4430
 url: /ru/net/aspose.cells/panecollection/
 ---
 ## PaneCollection class
 
-Представляет все объекты панели, показанные в указанном окне.
+Представляет все объекты панели, отображаемые в указанном окне.
 
 ```csharp
 public class PaneCollection
@@ -20,7 +20,7 @@ public class PaneCollection
 | --- | --- |
 | [AcitvePaneType](../../aspose.cells/panecollection/acitvepanetype) { get; set; } | Получает и устанавливает активную панель. |
 | [FirstVisibleColumnOfRightPane](../../aspose.cells/panecollection/firstvisiblecolumnofrightpane) { get; set; } | Получает и задает первый видимый столбец правой панели. |
-| [FirstVisibleRowOfBottomPane](../../aspose.cells/panecollection/firstvisiblerowofbottompane) { get; set; } | Получает и устанавливает первую видимую строку нижней панели. |
+| [FirstVisibleRowOfBottomPane](../../aspose.cells/panecollection/firstvisiblerowofbottompane) { get; set; } | Получает и задает первую видимую строку нижней панели. |
 
 ### Смотрите также
 

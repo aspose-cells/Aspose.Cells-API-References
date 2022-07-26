@@ -20,7 +20,7 @@ public void Protect(ProtectionType type)
 
 ### Примечания
 
-Этот метод защищает лист без пароля. Он может защитить рабочий лист во всех версиях файла Excel.
+Этот метод защищает рабочий лист без пароля. Он может защитить рабочий лист во всех версиях файла Excel.
 
 ### Смотрите также
 
@@ -42,7 +42,7 @@ public void Protect(ProtectionType type, string password, string oldPassword)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | type | ProtectionType | Тип защиты. |
-| пароль | String | Пароль. |
+| password | String | Пароль. |
 | oldPassword | String | Если рабочий лист уже защищен паролем, укажите старый пароль. В противном случае вы можете установить нулевое значение или пустую строку для этого параметра. |
 
 ### Примечания
@@ -55,27 +55,27 @@ public void Protect(ProtectionType type, string password, string oldPassword)
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook excel = new Workbook("template.xlsx");
-  //Доступ к первому рабочему листу в Excel file
+//Доступ к первому рабочему листу в файле Excel
 Worksheet worksheet = excel.Worksheets[0];
-  //Защита рабочего листа с помощью пароля
+//Защита листа паролем
 worksheet.Protect(ProtectionType.All, "aspose", null);
-  //Сохранение измененного файла Excel по умолчанию (то есть Excel 20003) format
+//Сохранение измененного файла Excel в формате по умолчанию (то есть Excel 20003)
 excel.Save("output.xls");
-  //Закрытие файлового потока для освобождения всех ресурсов
+//Закрытие файлового потока для освобождения всех ресурсов
 
 [Visual Basic]
 
-'Создание экземпляра рабочей книги object
+'Создание файлового потока, содержащего открываемый файл Excel
 Dim fstream As FileStream = New FileStream("book1.xls", FileMode.Open)
-'Доступ к первому рабочему листу в Excel file
+'Создание экземпляра объекта Workbook и открытие файла Excel через файловый поток
 Dim excel As Workbook = New Workbook(fstream)
-'Защита рабочего листа с помощью пароля
+'Доступ к первому рабочему листу в файле Excel
 Dim worksheet As Worksheet = excel.Worksheets(0)
-'Защита рабочего листа с помощью пароля
+'Защита листа паролем
 worksheet.Protect(ProtectionType.All, "aspose", DBNull.Value.ToString())
-'Сохранение измененного файла Excel по умолчанию (то есть Excel 20003) format
+'Сохранение измененного файла Excel в формате по умолчанию (то есть Excel 20003)
 excel.Save("output.xls")
 'Закрытие файлового потока для освобождения всех ресурсов
 fstream.Close()

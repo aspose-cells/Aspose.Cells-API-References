@@ -19,24 +19,24 @@ public enum FontUnderlineType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 表示没有下划线。 |
-| Single | `1` | 表示单下划线。 |
+| Single | `1` | 表示单个下划线。 |
 | Double | `2` | 表示双下划线。 |
 | Accounting | `3` | 表示单个会计下划线。 |
-| DoubleAccounting | `4` | 表示双重会计下划线。 |
-| Dash | `5` | 表示虚下划线 |
+| DoubleAccounting | `4` | 表示双记帐下划线。 |
+| Dash | `5` | 代表虚线下划线 |
 | DashDotDotHeavy | `6` | 表示粗点划线下划线 |
-| DashDotHeavy | `7` | 表示粗点划线 |
+| DashDotHeavy | `7` | 表示粗点划线下划线 |
 | DashedHeavy | `8` | 表示粗虚下划线 |
 | DashLong | `9` | 表示长虚线下划线 |
 | DashLongHeavy | `10` | 表示粗长虚线下划线 |
-| DotDash | `11` | 表示点划线 |
-| DotDotDash | `12` | 表示 Dash-Dot-Dot 下划线 |
+| DotDash | `11` | 表示点划线下划线 |
+| DotDotDash | `12` | 表示点划线下划线 |
 | Dotted | `13` | 表示虚线下划线 |
 | DottedHeavy | `14` | 表示粗点下划线 |
 | Heavy | `15` | 表示粗下划线 |
 | Wave | `16` | 代表波浪下划线 |
 | WavyDouble | `17` | 代表双波下划线 |
-| WavyHeavy | `18` | 代表重波下划线 |
+| WavyHeavy | `18` | 代表重浪下划线 |
 | Words | `19` | 仅表示下划线非空格字符 |
 
 ### 也可以看看

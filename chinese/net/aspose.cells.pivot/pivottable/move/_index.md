@@ -37,7 +37,7 @@ public void Move(string destCellName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| destCellName | String | 目标单元名称。 |
+| destCellName | String | dest 单元格名称。 |
 
 ### 也可以看看
 

@@ -21,7 +21,59 @@ public void CustomTheme(string themeName, Color[] colors)
 
 ### Примечания
 
-Длина цветов должна быть 12. &lt;table class="dtTABLE" Cellspacing="0"&gt; &lt;tr&gt;&lt;td width="50%"&gt;&lt;font color="gray"&gt; **Индекс массива** &lt;/font&gt; &lt;/td&gt;&lt;td width= "50%"&gt;&lt;font color="gray"&gt; **Тип темы** &lt;/font&gt; &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width= "50%"&gt;&lt;font color="gray"&gt; **0** &lt;/font&gt; &lt;/td&gt;&lt;td width="50%"&gt;&lt;цвет шрифта ="gray"&gt; **Backgournd1** &lt;/font&gt; &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="50%"&gt;&lt;font color= "серый"&gt; **1** &lt;/font&gt; &lt;/td&gt;&lt;td width="50%"&gt;&lt;font color="gray"&gt; **Text1** &lt;/font&gt; &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="50%"&gt;&lt;font color="gray"&gt; **2** &lt;/font&gt; &lt;/td&gt;&lt;td width="50%"&gt;&lt;font color="gray"&gt; **Backgournd2** &lt;/font&gt; &lt;/t d&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="50%"&gt;&lt;font color="gray"&gt; **3** &lt;/font&gt; &lt;/td &gt;&lt;td width="50%"&gt;&lt;font color="gray"&gt; **Text2** &lt;/font&gt; &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt; &lt;td width="50%"&gt;&lt;font color="gray"&gt; **4** &lt;/font&gt; &lt;/td&gt;&lt;td width="50%" &gt;&lt;font color="gray"&gt; **Accent1** &lt;/font&gt; &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="50%"&gt; &lt;font color="gray"&gt; **5** &lt;/font&gt; &lt;/td&gt;&lt;td width="50%"&gt;&lt;font color="gray"&gt; **Accent2** &lt;/font&gt; &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="50%"&gt;&lt;font color="gray"&gt; **6** &lt;/font&gt; &lt;/td&gt;&lt;td width="50%"&gt;&lt;font color="gray"&gt; **Accent3** &lt;/font&gt; &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="50%"&gt;&lt;font color="gray"&gt; **7** &lt;/font&gt; &lt;/td&gt;&lt;td width="50%"&gt;&lt;font color="gray"&gt; **Accent4** &lt; /font&gt; &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="50%"&gt;&lt;font color="gray"&gt; **8**_x 000D_ &lt;/font&gt; &lt;/td&gt;&lt;td width="50%"&gt;&lt;font color="gray"&gt; **Accent5** &lt;/font&gt; &lt;/td &gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="50%"&gt;&lt;font color="gray"&gt; **9** &lt;/font&gt; &lt;/td&gt; &lt;td width="50%"&gt;&lt;font color="gray"&gt; **Accent6** &lt;/font&gt; &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt; td width="50%"&gt;&lt;font color="gray"&gt; **10** &lt;/font&gt; &lt;/td&gt;&lt;td width="50%"&gt; &lt;font color="gray"&gt; **Гиперссылка** &lt;/font&gt; &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="50%"&gt;&lt; font color="gray"&gt; **11** &lt;/font&gt; &lt;/td&gt;&lt;td width="50%"&gt;&lt;font color="gray"&gt; **Гиперссылка для перехода** &lt;/font&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+Длина цветов должна быть 12.
+
+**Индекс массива**
+
+**Тип темы**
+
+0
+
+Фон1
+
+1
+
+Текст 1
+
+2
+
+Фон2
+
+3
+
+Текст2
+
+4
+
+Акцент1
+
+5
+
+Акцент2
+
+6
+
+Акцент3
+
+7
+
+Акцент4
+
+8
+
+Акцент5
+
+9
+
+Акцент6
+
+10
+
+Гиперссылка
+
+11
+
+Отслеживаемая гиперссылка
 
 ### Смотрите также
 

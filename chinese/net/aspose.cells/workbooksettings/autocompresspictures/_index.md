@@ -1,14 +1,14 @@
 ---
 title: AutoCompressPictures
 second_title: Aspose.Cells for .NET API 参考
-description: 指定一个布尔值指示应用程序自动压缩工作簿中的图片
+description: 指定一个布尔值表示应用程序自动压缩工作簿中的图片
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/workbooksettings/autocompresspictures/
 ---
 ## WorkbookSettings.AutoCompressPictures property
 
-指定一个布尔值，指示应用程序自动压缩工作簿中的图片。
+指定一个布尔值，表示应用程序自动压缩工作簿中的图片。
 
 ```csharp
 public bool AutoCompressPictures { get; set; }

@@ -16,8 +16,8 @@ public string InsertImage(string uid, string p, Stream s, string imageUrl)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uid | String | 的唯一 ID表格文件 |
-| p | String | 指定单元格位置，json参数包含表格名称，左上行，左上列为图像，等等 {name:'sheet1', ri:1,ci:1} |
+| uid | String | 工作表文件的唯一 ID |
+| p | String | 指定单元格位置，json参数包含图片名称，左上行，左上列，等 {name:'sheet1',ri:1,ci:1} |
 | s | Stream | 图像文件流 |
 | imageUrl | String | 图片文件的url，如果imageUrl为空，将图片保存在缓存中，否则不保存图片 |
 

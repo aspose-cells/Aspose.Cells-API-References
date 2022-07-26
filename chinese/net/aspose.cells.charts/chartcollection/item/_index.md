@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定索引处的Chartaspose.cells.charts/chart元素
+description: 获取Chartaspose.cells.charts/chart指定索引处的元素
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.charts/chartcollection/item/
 ---
 ## ChartCollection indexer (1 of 2)
 
-获取指定索引处的[`Chart`](../../chart)元素。
+获取[`Chart`](../../chart)指定索引处的元素。
 
 ```csharp
 public Chart this[int index] { get; }

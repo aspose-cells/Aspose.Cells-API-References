@@ -20,7 +20,7 @@ public class WebExtensionTaskPaneCollection : CollectionBase<WebExtensionTaskPan
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.webextensions/webextensiontaskpanecollection/item) { get; } | 通过特定索引获取任务窗格。 |
+| [Item](../../aspose.cells.webextensions/webextensiontaskpanecollection/item) { get; } | 按特定索引获取任务窗格。 |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法

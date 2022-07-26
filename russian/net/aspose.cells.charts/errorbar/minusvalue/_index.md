@@ -1,14 +1,14 @@
 ---
 title: MinusValue
 second_title: Справочник по Aspose.Cells для .NET API
-description: Отображает отрицательное количество ошибок когда тип полосы ошибок  Пользовательский.
+description: Отображает отрицательное количество ошибок если тип полосы ошибок  Пользовательский.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.charts/errorbar/minusvalue/
 ---
 ## ErrorBar.MinusValue property
 
-Отображает отрицательное количество ошибок, когда тип полосы ошибок — Пользовательский.
+Отображает отрицательное количество ошибок, если тип полосы ошибок — Пользовательский.
 
 ```csharp
 public string MinusValue { get; set; }

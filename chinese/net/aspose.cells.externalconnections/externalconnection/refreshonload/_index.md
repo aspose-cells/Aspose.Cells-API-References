@@ -1,14 +1,14 @@
 ---
 title: RefreshOnLoad
 second_title: Aspose.Cells for .NET API 参考
-description: 如果在打开文件时应该刷新此连接则为真否则为假
+description: 如果打开文件时应该刷新此连接则为真否则为假
 type: docs
 weight: 160
 url: /zh/net/aspose.cells.externalconnections/externalconnection/refreshonload/
 ---
 ## ExternalConnection.RefreshOnLoad property
 
-如果在打开文件时应该刷新此连接，则为真；否则为假。
+如果打开文件时应该刷新此连接，则为真；否则为假。
 
 ```csharp
 public bool RefreshOnLoad { get; set; }

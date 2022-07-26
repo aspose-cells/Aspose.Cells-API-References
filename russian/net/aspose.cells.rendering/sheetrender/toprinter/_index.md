@@ -16,7 +16,7 @@ public void ToPrinter(string printerName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| printerName | String | имя принтера, например:"Microsoft Office Document Image Writer" |
+| printerName | String | имя принтера, например: "Microsoft Office Document Image Writer" |
 
 ### Смотрите также
 
@@ -36,7 +36,7 @@ public void ToPrinter(string printerName, string jobName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| printerName | String | имя принтера, например:"Microsoft Office Document Image Writer" |
+| printerName | String | имя принтера, например: "Microsoft Office Document Image Writer" |
 | jobName | String | установить имя задания на печать |
 
 ### Смотрите также
@@ -57,7 +57,7 @@ public void ToPrinter(PrinterSettings printerSettings)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | настройки принтера, например Имя_принтера, Дуплекс |
+| printerSettings | PrinterSettings | настройки принтера, например PrinterName, Duplex |
 
 ### Смотрите также
 

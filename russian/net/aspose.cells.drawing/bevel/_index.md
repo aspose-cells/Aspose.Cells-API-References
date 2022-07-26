@@ -1,14 +1,14 @@
 ---
 title: Bevel
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет скос формы
+description: Представляет скос shape
 type: docs
 weight: 1800
 url: /ru/net/aspose.cells.drawing/bevel/
 ---
 ## Bevel class
 
-Представляет скос формы
+Представляет скос shape
 
 ```csharp
 public class Bevel
@@ -18,9 +18,9 @@ public class Bevel
 
 | Имя | Описание |
 | --- | --- |
-| [Height](../../aspose.cells.drawing/bevel/height) { get; set; } | Получает и задает высоту скоса или то, насколько далеко над фигурой он применяется. В баллах. |
+| [Height](../../aspose.cells.drawing/bevel/height) { get; set; } | Получает и задает высоту скоса или то, насколько далеко над фигурой он применяется. В единицах измерения Points. |
 | [Type](../../aspose.cells.drawing/bevel/type) { get; set; } | Получает и задает предустановленный тип скоса. |
-| [Width](../../aspose.cells.drawing/bevel/width) { get; set; } | Получает и задает ширину скоса или то, насколько глубоко он применяется к фигуре. В баллах. |
+| [Width](../../aspose.cells.drawing/bevel/width) { get; set; } | Получает и задает ширину скоса или глубину его применения в форме. В единицах измерения Points. |
 
 ### Смотрите также
 

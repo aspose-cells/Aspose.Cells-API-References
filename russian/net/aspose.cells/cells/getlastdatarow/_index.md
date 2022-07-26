@@ -3,7 +3,7 @@ title: GetLastDataRow
 second_title: Справочник по Aspose.Cells для .NET API
 description: Получает индекс последней строки ячейки которая содержит данные в указанном столбце.
 type: docs
-weight: 740
+weight: 750
 url: /ru/net/aspose.cells/cells/getlastdatarow/
 ---
 ## Cells.GetLastDataRow method

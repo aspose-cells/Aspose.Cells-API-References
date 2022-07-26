@@ -22,7 +22,7 @@ public class VbaProject
 | [IslockedForViewing](../../aspose.cells.vba/vbaproject/islockedforviewing) { get; } | 指示此 VBA 项目是否已锁定以供查看。 |
 | [IsProtected](../../aspose.cells.vba/vbaproject/isprotected) { get; } | 指示此 VBA 项目是否受保护。 |
 | [IsSigned](../../aspose.cells.vba/vbaproject/issigned) { get; } | 指示 VBAcode 是否已签名。 |
-| [IsValidSigned](../../aspose.cells.vba/vbaproject/isvalidsigned) { get; } | 表示VBA工程的签名是否有效。 |
+| [IsValidSigned](../../aspose.cells.vba/vbaproject/isvalidsigned) { get; } | 表示VBA工程的签名是否有效 |
 | [Modules](../../aspose.cells.vba/vbaproject/modules) { get; } | 获取所有[`VbaModule`](../vbamodule)对象。 |
 | [Name](../../aspose.cells.vba/vbaproject/name) { get; set; } | 获取和设置 VBA 项目的名称。 |
 | [References](../../aspose.cells.vba/vbaproject/references) { get; } | 获取 VBA 项目的所有引用。 |
@@ -42,20 +42,20 @@ public class VbaProject
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
-  // 初始化 VBA 项目。
+ // 初始化 VBA 项目。
 VbaProject vbaProject = workbook.VbaProject;
- //保存Excel文件
+//保存Excel文件
 workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 '初始化 VBA 项目。
 Dim vbaProject as VbaProject  = workbook.VbaProject
-'保存Excel文件
+'保存 Excel 文件
 workbook.Save("book1.xlsm")
 ```
 

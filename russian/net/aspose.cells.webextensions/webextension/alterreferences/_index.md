@@ -1,14 +1,14 @@
 ---
 title: AlterReferences
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает список измененных ссылок.
+description: Получает список ссылок на изменения.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.webextensions/webextension/alterreferences/
 ---
 ## WebExtension.AlterReferences property
 
-Получает список измененных ссылок.
+Получает список ссылок на изменения.
 
 ```csharp
 public WebExtensionReferenceCollection AlterReferences { get; }

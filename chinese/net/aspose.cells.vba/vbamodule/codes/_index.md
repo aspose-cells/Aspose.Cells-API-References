@@ -1,14 +1,14 @@
 ---
 title: Codes
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置模块代码
+description: 获取和设置模块的代码
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.vba/vbamodule/codes/
 ---
 ## VbaModule.Codes property
 
-获取和设置模块代码。
+获取和设置模块的代码。
 
 ```csharp
 public string Codes { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Rows
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает коллекцию объектовGridRowaspose.cells.griddesktop.data/gridrow представляющих отдельные строки на этом листе.
+description: Получает коллекциюGridRowaspose.cells.griddesktop.data/gridrow объекты представляющие отдельные строки на этом листе.
 type: docs
 weight: 160
 url: /ru/net/aspose.cells.griddesktop.data/gridcells/rows/
 ---
 ## GridCells.Rows property
 
-Получает коллекцию объектов[`GridRow`](../../gridrow), представляющих отдельные строки на этом листе.
+Получает коллекцию[`GridRow`](../../gridrow) объекты, представляющие отдельные строки на этом листе.
 
 ```csharp
 public GridRowCollection Rows { get; }

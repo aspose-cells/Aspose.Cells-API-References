@@ -1,14 +1,14 @@
 ---
 title: EmfType
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置指定元文件格式的 EmfType..  默认值为 EmfPlusDual
+description: 获取或设置一个 EmfType它指定 Metafile 的格式.. 默认值为 EmfPlusDual
 type: docs
 weight: 100
 url: /zh/net/aspose.cells.rendering/imageorprintoptions/emftype/
 ---
 ## ImageOrPrintOptions.EmfType property
 
-获取或设置指定元文件格式的 EmfType..  默认值为 EmfPlusDual。
+获取或设置一个 EmfType，它指定 Metafile 的格式.. 默认值为 EmfPlusDual。
 
 ```csharp
 public EmfType EmfType { get; set; }

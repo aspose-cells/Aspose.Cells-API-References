@@ -1,14 +1,14 @@
 ---
 title: SaveToXlsx
 second_title: Справочник по Aspose.Cells для .NET API
-description: Сохраняет рабочие листы в путь к файлу формат сохранения xlsx
+description: Сохраняет рабочие листы по пути к файлу формат сохранения xlsx
 type: docs
 weight: 170
 url: /ru/net/aspose.cells.gridjs/gridjsworkbook/savetoxlsx/
 ---
 ## SaveToXlsx(string) {#savetoxlsx_1}
 
-Сохраняет рабочие листы в путь к файлу, формат сохранения xlsx
+Сохраняет рабочие листы по пути к файлу, формат сохранения xlsx
 
 ```csharp
 public void SaveToXlsx(string path)
@@ -28,7 +28,7 @@ public void SaveToXlsx(string path)
 
 ## SaveToXlsx(Stream) {#savetoxlsx}
 
-Сохраняет рабочие листы в поток, формат сохранения - xlsx
+Сохраняет рабочие листы в поток, формат сохранения xlsx
 
 ```csharp
 public void SaveToXlsx(Stream stream)

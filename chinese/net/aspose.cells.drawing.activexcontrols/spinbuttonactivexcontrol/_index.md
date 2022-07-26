@@ -18,31 +18,31 @@ public class SpinButtonActiveXControl : ActiveXControl
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | 获取和设置背景的ole颜色。 |
+| [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | 获取并设置背景的ole颜色。 |
 | override [Data](../../aspose.cells.drawing.activexcontrols/activexcontrol/data) { get; } | 获取和设置控件的二进制数据。 |
-| [Font](../../aspose.cells.drawing.activexcontrols/activexcontrol/font) { get; } | 表示控件的字体。 |
+| [Font](../../aspose.cells.drawing.activexcontrols/activexcontrol/font) { get; } | 代表控件的字体。 |
 | virtual [ForeOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/foreolecolor) { get; set; } | 获取和设置前景的ole颜色。 |
 | virtual [Height](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/height) { get; set; } | 以点为单位获取和设置控件的高度。 |
-| [IMEMode](../../aspose.cells.drawing.activexcontrols/activexcontrol/imemode) { get; set; } | 获取并设置控件接收焦点时输入法编辑器的默认运行时模式。 |
+| [IMEMode](../../aspose.cells.drawing.activexcontrols/activexcontrol/imemode) { get; set; } | 获取并设置控件在接收焦点时的输入法编辑器的默认运行时模式。 |
 | virtual [IsAutoSize](../../aspose.cells.drawing.activexcontrols/activexcontrol/isautosize) { get; set; } | 指示控件是否会自动调整大小以显示其全部内容。 |
-| [IsEnabled](../../aspose.cells.drawing.activexcontrols/activexcontrol/isenabled) { get; set; } | 指示控件是否可以接收焦点并响应用户生成的事件。 |
-| [IsLocked](../../aspose.cells.drawing.activexcontrols/activexcontrol/islocked) { get; set; } | 指示控件中的数据是否被锁定以进行编辑。 |
+| [IsEnabled](../../aspose.cells.drawing.activexcontrols/activexcontrol/isenabled) { get; set; } | 表示控件是否可以接收焦点并响应用户生成的事件。 |
+| [IsLocked](../../aspose.cells.drawing.activexcontrols/activexcontrol/islocked) { get; set; } | 表示控件中的数据是否被锁定编辑。 |
 | [IsTransparent](../../aspose.cells.drawing.activexcontrols/activexcontrol/istransparent) { get; set; } | 表示控件是否透明。 |
-| virtual [IsVisible](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/isvisible) { get; set; } | 指示此控件是否可见。 |
+| virtual [IsVisible](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/isvisible) { get; set; } | 表示这个控件是否可见。 |
 | [LinkedCell](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/linkedcell) { get; set; } | 获取和设置链接单元格。 |
 | [ListFillRange](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/listfillrange) { get; set; } | 获取和设置列表填充范围。 |
 | [Max](../../aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/max) { get; set; } | 获取并设置最大可接受值。 |
 | [Min](../../aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/min) { get; set; } | 获取并设置可接受的最小值。 |
-| [MouseIcon](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mouseicon) { get; set; } | 获取并设置自定义图标以显示为控件的鼠标指针。 |
+| [MouseIcon](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mouseicon) { get; set; } | 获取并设置一个自定义图标以显示为控件的鼠标指针。 |
 | [MousePointer](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mousepointer) { get; set; } | 获取并设置显示为控件鼠标指针的图标类型。 |
 | [Orientation](../../aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/orientation) { get; set; } | 获取并设置 SpinButton 或 ScrollBar 是垂直还是水平方向。 |
 | [Position](../../aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/position) { get; set; } | 获取和设置值。 |
 | virtual [Shadow](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/shadow) { get; set; } | 表示是否显示阴影。 |
-| [SmallChange](../../aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/smallchange) { get; set; } | 获取和设置 Position 属性更改的量 |
+| [SmallChange](../../aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/smallchange) { get; set; } | 获取和设置 Position 属性的变化量 |
 | [TextAlign](../../aspose.cells.drawing.activexcontrols/activexcontrol/textalign) { get; set; } | 表示如何对齐控件使用的文本。 |
 | override [Type](../../aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/type) { get; } | 获取 ActiveX 控件的类型。 |
-| virtual [Width](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/width) { get; set; } | 以点为单位获取和设置控件的宽度。 |
-| [Workbook](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook) { get; } | 获取[`Workbook`](../activexcontrolbase/workbook)对象。 |
+| virtual [Width](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/width) { get; set; } | 获取和设置控件的宽度，以点为单位。 |
+| [Workbook](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook) { get; } | 获取[`Workbook`](../activexcontrolbase/workbook)对象. |
 
 ### 也可以看看
 

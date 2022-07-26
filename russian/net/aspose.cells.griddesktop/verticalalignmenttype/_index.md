@@ -1,14 +1,14 @@
 ---
 title: VerticalAlignmentType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает как ячейка сетки выравнивается по вертикали.
+description: Определяет вертикальное выравнивание ячейки сетки.
 type: docs
 weight: 1040
 url: /ru/net/aspose.cells.griddesktop/verticalalignmenttype/
 ---
 ## VerticalAlignmentType enumeration
 
-Указывает, как ячейка сетки выравнивается по вертикали.
+Определяет вертикальное выравнивание ячейки сетки.
 
 ```csharp
 public enum VerticalAlignmentType

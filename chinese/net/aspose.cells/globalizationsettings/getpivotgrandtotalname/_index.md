@@ -16,7 +16,7 @@ public virtual string GetPivotGrandTotalName()
 
 ### 返回值
 
-“总计”标签的名称
+“Grand Total”标签的名称
 
 ### 也可以看看
 

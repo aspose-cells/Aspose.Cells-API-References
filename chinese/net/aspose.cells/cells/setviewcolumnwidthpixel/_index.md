@@ -3,7 +3,7 @@ title: SetViewColumnWidthPixel
 second_title: Aspose.Cells for .NET API 参考
 description: 设置不同视图中列的宽度
 type: docs
-weight: 1280
+weight: 1290
 url: /zh/net/aspose.cells/cells/setviewcolumnwidthpixel/
 ---
 ## Cells.SetViewColumnWidthPixel method
@@ -21,7 +21,7 @@ public void SetViewColumnWidthPixel(int column, int pixels)
 
 ### 评论
 
-如果当前视图类型是PageLayoutView，则列的宽度与打印宽度相同。
+如果当前视图类型是PageLayoutView，列的宽度与打印的宽度相同。
 
 ### 也可以看看
 

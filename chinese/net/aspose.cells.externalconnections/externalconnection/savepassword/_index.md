@@ -1,14 +1,14 @@
 ---
 title: SavePassword
 second_title: Aspose.Cells for .NET API 参考
-description: 如果密码要保存为连接字符串的一部分则为真否则为假
+description: 如果要将密码保存为连接字符串的一部分则为真否则False.
 type: docs
 weight: 180
 url: /zh/net/aspose.cells.externalconnections/externalconnection/savepassword/
 ---
 ## ExternalConnection.SavePassword property
 
-如果密码要保存为连接字符串的一部分，则为真；否则为假。
+如果要将密码保存为连接字符串的一部分，则为真；否则，False.
 
 ```csharp
 public bool SavePassword { get; set; }

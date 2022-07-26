@@ -1,14 +1,14 @@
 ---
 title: PivotFieldCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示 PivotTable 的特定 PivotFields 类型中所有 PivotField 对象 的集合
+description: 表示 PivotTable 的特定 PivotFields 类型中所有 PivotField objects 的集合
 type: docs
 weight: 4540
 url: /zh/net/aspose.cells.pivot/pivotfieldcollection/
 ---
 ## PivotFieldCollection class
 
-表示 PivotTable 的特定 PivotFields 类型中所有 PivotField 对象 的集合。
+表示 PivotTable 的特定 PivotFields 类型中所有 PivotField objects 的集合。
 
 ```csharp
 public class PivotFieldCollection : IEnumerable
@@ -18,7 +18,7 @@ public class PivotFieldCollection : IEnumerable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.cells.pivot/pivotfieldcollection/count) { get; } | 获取pivotFields的计数。 |
+| [Count](../../aspose.cells.pivot/pivotfieldcollection/count) { get; } | 获取 pivotFields 的计数。 |
 | [Item](../../aspose.cells.pivot/pivotfieldcollection/item) { get; } | 获取特定索引处的 PivotField 对象。 (2 indexers) |
 | [Type](../../aspose.cells.pivot/pivotfieldcollection/type) { get; } | 获取数据透视字段类型。 |
 
@@ -26,9 +26,9 @@ public class PivotFieldCollection : IEnumerable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells.pivot/pivotfieldcollection/add)(PivotField) | 将 PivotField 对象添加到特定类型的 PivotFields。 |
-| [AddByBaseIndex](../../aspose.cells.pivot/pivotfieldcollection/addbybaseindex)(int) | 将 PivotField 对象添加到特定类型的 PivotFields。 |
-| [Clear](../../aspose.cells.pivot/pivotfieldcollection/clear)() | 清除 PivotFieldCollection |
+| [Add](../../aspose.cells.pivot/pivotfieldcollection/add)(PivotField) | 将 PivotField 对象添加到特定类型的 PivotFields. |
+| [AddByBaseIndex](../../aspose.cells.pivot/pivotfieldcollection/addbybaseindex)(int) | 将 PivotField 对象添加到特定类型的 PivotFields. |
+| [Clear](../../aspose.cells.pivot/pivotfieldcollection/clear)() | 清除PivotFieldCollection的所有字段 |
 | [GetEnumerator](../../aspose.cells.pivot/pivotfieldcollection/getenumerator)() | 以正确的顺序获取此集合中元素的枚举器。 |
 
 ### 也可以看看

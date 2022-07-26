@@ -19,7 +19,7 @@ public class Border
 | 姓名 | 描述 |
 | --- | --- |
 | [ArgbColor](../../aspose.cells/border/argbcolor) { get; set; } | 使用 32 位 ARGB 值获取和设置颜色。 |
-| [Color](../../aspose.cells/border/color) { get; set; } | 获取或设置边框的Color。 |
+| [Color](../../aspose.cells/border/color) { get; set; } | 获取或设置Color边界的. |
 | [LineStyle](../../aspose.cells/border/linestyle) { get; set; } | 获取或设置单元格边框类型。 |
 | [ThemeColor](../../aspose.cells/border/themecolor) { get; set; } | 获取和设置边框的主题颜色。 |
 
@@ -33,7 +33,7 @@ WorksheetCollection sheets = workbook.Worksheets;
 Cell cell = sheets[0].Cells["A1"];
 
 Style style = cell.GetStyle();
- //设置顶部边框样式和color
+//设置上边框样式和颜色
 Border border = style.Borders[BorderType.TopBorder];
 border.LineStyle = CellBorderType.Medium;
 border.Color = Color.Red;

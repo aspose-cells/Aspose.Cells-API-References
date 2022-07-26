@@ -1,14 +1,14 @@
 ---
 title: ExportHeadings
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает экспортируются ли заголовки при сохранении файла в html. Значение по умолчанию  false. Если вы хотите импортировать HTML-файл в Excel оставьте значение по умолчанию.
+description: Указывает экспортируются ли заголовки при сохранении файла в формате html. Значение по умолчанию  false. Если вы хотите импортировать файл html в Excel оставьте значение по умолчанию.
 type: docs
 weight: 90
 url: /ru/net/aspose.cells.gridweb.data/gridhtmlsaveoptions/exportheadings/
 ---
 ## GridHtmlSaveOptions.ExportHeadings property
 
-Указывает, экспортируются ли заголовки при сохранении файла в html. Значение по умолчанию — false. Если вы хотите импортировать HTML-файл в Excel, оставьте значение по умолчанию.
+Указывает, экспортируются ли заголовки при сохранении файла в формате html. Значение по умолчанию — false. Если вы хотите импортировать файл html в Excel, оставьте значение по умолчанию.
 
 ```csharp
 public bool ExportHeadings { get; set; }

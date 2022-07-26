@@ -1,14 +1,14 @@
 ---
 title: GetFileUrl
 second_title: Aspose.Cells for .NET API 参考
-description: 实现此方法从缓存中获取文件 url
+description: 实现此方法从缓存中获取文件url
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.gridjs/gridcacheforstream/getfileurl/
 ---
 ## GridCacheForStream.GetFileUrl method
 
-实现此方法从缓存中获取文件 url。
+实现此方法从缓存中获取文件url。
 
 ```csharp
 public virtual string GetFileUrl(string uid)

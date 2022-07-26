@@ -1,14 +1,14 @@
 ---
 title: ImportDataGrid
 second_title: Справочник по Aspose.Cells для .NET API
-description: ИмпортируетDataGridв рабочий лист.
+description: ИмпортируетDataGrid в рабочий лист.
 type: docs
-weight: 980
+weight: 990
 url: /ru/net/aspose.cells/cells/importdatagrid/
 ---
 ## ImportDataGrid(DataGrid, int, int, bool) {#importdatagrid}
 
-ИмпортируетDataGridв рабочий лист.
+ИмпортируетDataGrid в рабочий лист.
 
 ```csharp
 public int ImportDataGrid(DataGrid dataGrid, int firstRow, int firstColumn, bool insertRows)
@@ -16,7 +16,7 @@ public int ImportDataGrid(DataGrid dataGrid, int firstRow, int firstColumn, bool
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dataGrid | DataGrid | Импортируемый объектDataGrid. |
+| dataGrid | DataGrid | DataGrid объект для импорта. |
 | firstRow | Int32 | Номер строки первой ячейки для импорта. |
 | firstColumn | Int32 | Номер столбца первой ячейки для импорта. |
 | insertRows | Boolean | Указывает, добавляются ли дополнительные строки для соответствия данным. |
@@ -35,7 +35,7 @@ public int ImportDataGrid(DataGrid dataGrid, int firstRow, int firstColumn, bool
 
 ## ImportDataGrid(DataGrid, int, int, int, int, bool) {#importdatagrid_1}
 
-ИмпортируетDataGridв рабочий лист.
+ИмпортируетDataGrid в рабочий лист.
 
 ```csharp
 public int ImportDataGrid(DataGrid dataGrid, int firstRow, int firstColumn, int totalRows, 
@@ -44,11 +44,11 @@ public int ImportDataGrid(DataGrid dataGrid, int firstRow, int firstColumn, int 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dataGrid | DataGrid | Импортируемый объектDataGrid. |
+| dataGrid | DataGrid | DataGrid объект для импорта. |
 | firstRow | Int32 | Номер строки первой ячейки для импорта. |
 | firstColumn | Int32 | Номер столбца первой ячейки для импорта. |
 | totalRows | Int32 | Количество строк для импорта. |
-| totalColumns | Int32 | Количество импортируемых столбцов. |
+| totalColumns | Int32 | Количество столбцов, которые необходимо импортировать. |
 | insertRows | Boolean | Указывает, добавляются ли дополнительные строки для соответствия данным. |
 
 ### Возвращаемое значение
@@ -65,7 +65,7 @@ public int ImportDataGrid(DataGrid dataGrid, int firstRow, int firstColumn, int 
 
 ## ImportDataGrid(DataGrid, int, int, int, int, bool, bool) {#importdatagrid_2}
 
-ИмпортируетDataGridв рабочий лист.
+ИмпортируетDataGrid в рабочий лист.
 
 ```csharp
 public int ImportDataGrid(DataGrid dataGrid, int firstRow, int firstColumn, int totalRows, 
@@ -74,11 +74,11 @@ public int ImportDataGrid(DataGrid dataGrid, int firstRow, int firstColumn, int 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dataGrid | DataGrid | Импортируемый объектDataGrid. |
+| dataGrid | DataGrid | DataGrid объект для импорта. |
 | firstRow | Int32 | Номер строки первой ячейки для импорта. |
 | firstColumn | Int32 | Номер столбца первой ячейки для импорта. |
 | totalRows | Int32 | Количество строк для импорта. |
-| totalColumns | Int32 | Количество импортируемых столбцов. |
+| totalColumns | Int32 | Количество столбцов, которые необходимо импортировать. |
 | insertRows | Boolean | Указывает, добавляются ли дополнительные строки для соответствия данным. |
 | importStyle | Boolean | Указывает, импортируется ли стиль ячейки. |
 

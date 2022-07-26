@@ -1,14 +1,14 @@
 ---
 title: CommentTitleType
 second_title: Aspose.Cells for .NET API 参考
-description: 当注释设置为显示在工作表末尾时表示在渲染时的注释标题类型
+description: 表示当注释设置为在工作表末尾显示时呈现时的注释标题类型
 type: docs
 weight: 5090
 url: /zh/net/aspose.cells.rendering/commenttitletype/
 ---
 ## CommentTitleType enumeration
 
-当注释设置为显示在工作表末尾时，表示在渲染时的注释标题类型。
+表示当注释设置为在工作表末尾显示时呈现时的注释标题类型。
 
 ```csharp
 public enum CommentTitleType
@@ -18,8 +18,8 @@ public enum CommentTitleType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Cell | `0` | 表示评论标题单元格。 |
-| Comment | `1` | 表示注释标题注释。 |
+| Cell | `0` | 代表评论标题单元格。 |
+| Comment | `1` | 代表评论标题评论。 |
 
 ### 也可以看看
 

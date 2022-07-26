@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПолучаетFontSettingaspose.cells/fontsettingпо индексу.
+description: ПолучаетFontSettingaspose.cells/fontsetting по индексу.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.drawing.texts/fontsettingcollection/item/
 ---
 ## FontSettingCollection indexer
 
-Получает[`FontSetting`](../../../aspose.cells/fontsetting)по индексу.
+Получает[`FontSetting`](../../../aspose.cells/fontsetting) по индексу.
 
 ```csharp
 public FontSetting this[int index] { get; }

@@ -18,7 +18,7 @@ public DigitalSignature(X509Certificate2 certificate, string comments, DateTime 
 | --- | --- | --- |
 | certificate | X509Certificate2 | 用于签署文档的证书对象。 |
 | comments | String | 签名的目的。 |
-| signTime | DateTime | 文档签署时的 UTC 时间。 |
+| signTime | DateTime | 文件签署时的 UTC 时间。 |
 
 ### 也可以看看
 
@@ -41,7 +41,7 @@ public DigitalSignature(byte[] rawData, string password, string comments, DateTi
 | rawData | Byte[] | 包含来自 X.509 证书的数据的字节数组。 |
 | password | String | 访问 X.509 证书数据所需的密码。 |
 | comments | String | 签名的目的。 |
-| signTime | DateTime | 文档签署时的 UTC 时间。 |
+| signTime | DateTime | 文件签署时的 UTC 时间。 |
 
 ### 也可以看看
 

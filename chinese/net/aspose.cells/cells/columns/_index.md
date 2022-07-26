@@ -1,14 +1,14 @@
 ---
 title: Columns
 second_title: Aspose.Cells for .NET API 参考
-description: 获取代表此工作表中各个列的Columnaspose.cells/column对象的集合
+description: 获取集合Columnaspose.cells/column表示此工作表中各个列的对象
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/cells/columns/
 ---
 ## Cells.Columns property
 
-获取代表此工作表中各个列的[`Column`](../../column)对象的集合。
+获取集合[`Column`](../../column)表示此工作表中各个列的对象。
 
 ```csharp
 public ColumnCollection Columns { get; }

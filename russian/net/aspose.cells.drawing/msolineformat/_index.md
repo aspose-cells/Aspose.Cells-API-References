@@ -1,14 +1,14 @@
 ---
 title: MsoLineFormat
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет форматирование линий и стрелок.
+description: Представляет форматирование линии и стрелки.
 type: docs
 weight: 2360
 url: /ru/net/aspose.cells.drawing/msolineformat/
 ---
 ## MsoLineFormat class
 
-Представляет форматирование линий и стрелок.
+Представляет форматирование линии и стрелки.
 
 ```csharp
 public class MsoLineFormat
@@ -24,7 +24,7 @@ public class MsoLineFormat
 | [IsVisible](../../aspose.cells.drawing/msolineformat/isvisible) { get; set; } | Указывает, виден ли объект. |
 | [Style](../../aspose.cells.drawing/msolineformat/style) { get; set; } | Возвращает объект Style, представляющий стиль указанного диапазона. |
 | [Transparency](../../aspose.cells.drawing/msolineformat/transparency) { get; set; } | Возвращает или задает степень прозрачности указанной заливки в виде значения от 0,0 (непрозрачная) до 1,0 (прозрачная). |
-| [Weight](../../aspose.cells.drawing/msolineformat/weight) { get; set; } | Возвращает или задает вес линии в точках. |
+| [Weight](../../aspose.cells.drawing/msolineformat/weight) { get; set; } | Возвращает или устанавливает вес линии в единицах pt. |
 
 ### Смотрите также
 

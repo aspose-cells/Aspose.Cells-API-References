@@ -1,14 +1,14 @@
 ---
 title: SummaryBelowData
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает следует ли добавлять сводку под данными.
+description: Указывает следует ли добавлять сводку ниже данных.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/subtotalsetting/summarybelowdata/
 ---
 ## SubtotalSetting.SummaryBelowData property
 
-Указывает, следует ли добавлять сводку под данными.
+Указывает, следует ли добавлять сводку ниже данных.
 
 ```csharp
 public bool SummaryBelowData { get; }

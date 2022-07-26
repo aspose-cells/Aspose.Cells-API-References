@@ -1,14 +1,14 @@
 ---
 title: SSOId
 second_title: Aspose.Cells for .NET API 参考
-description: 单点登录 SSO 标识符用于在中间 电子表格机器学习服务器和外部数据源之间进行身份验证
+description: 用于在中间 电子表格ML 服务器和外部数据源之间进行身份验证的单点登录 SSO 标识符
 type: docs
 weight: 200
 url: /zh/net/aspose.cells.externalconnections/externalconnection/ssoid/
 ---
 ## ExternalConnection.SSOId property
 
-单点登录 (SSO) 标识符，用于在中间 电子表格机器学习服务器和外部数据源之间进行身份验证。
+用于在中间 电子表格ML 服务器和外部数据源之间进行身份验证的单点登录 (SSO) 标识符。
 
 ```csharp
 public string SSOId { get; set; }

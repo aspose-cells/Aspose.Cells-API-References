@@ -1,14 +1,14 @@
 ---
 title: CellClick
 second_title: Справочник по Aspose.Cells для .NET API
-description: Происходит при щелчке ячейки сетки.
+description: Происходит при нажатии ячейки сетки.
 type: docs
 weight: 410
 url: /ru/net/aspose.cells.griddesktop/griddesktop/cellclick/
 ---
 ## GridDesktop.CellClick event
 
-Происходит при щелчке ячейки сетки.
+Происходит при нажатии ячейки сетки.
 
 ```csharp
 public event CellEventHandler CellClick;

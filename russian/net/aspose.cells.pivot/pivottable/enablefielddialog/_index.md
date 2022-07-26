@@ -1,14 +1,14 @@
 ---
 title: EnableFieldDialog
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает доступно ли диалоговое окно поля сводной таблицы когда пользователь дважды щелкает поле сводной таблицы.
+description: Указывает доступно ли диалоговое окно поля сводной таблицы  когда пользователь дважды щелкает поле сводной таблицы.
 type: docs
 weight: 190
 url: /ru/net/aspose.cells.pivot/pivottable/enablefielddialog/
 ---
 ## PivotTable.EnableFieldDialog property
 
-Указывает, доступно ли диалоговое окно поля сводной таблицы когда пользователь дважды щелкает поле сводной таблицы.
+Указывает, доступно ли диалоговое окно поля сводной таблицы , когда пользователь дважды щелкает поле сводной таблицы.
 
 ```csharp
 public bool EnableFieldDialog { get; set; }

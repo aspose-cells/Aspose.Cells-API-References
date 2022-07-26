@@ -1,14 +1,14 @@
 ---
 title: MajorTickMark
 second_title: Aspose.Cells for .NET API 参考
-description: 表示指定轴的主刻度线的类型
+description: 表示指定轴的主要刻度线的类型
 type: docs
 weight: 250
 url: /zh/net/aspose.cells.charts/axis/majortickmark/
 ---
 ## Axis.MajorTickMark property
 
-表示指定轴的主刻度线的类型。
+表示指定轴的主要刻度线的类型。
 
 ```csharp
 public TickMarkType MajorTickMark { get; set; }

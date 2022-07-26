@@ -1,14 +1,14 @@
 ---
 title: UpdateZoom
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает следует ли обновлять коэффициент масштабирования перед сохранением файла  если свойства PageSetup.FitToPagesWide и PageSetup.FitToPagesTall управляют масштабированием рабочего листа.
+description: Указывает следует ли обновлять коэффициент масштабирования перед сохранением файла  если свойства PageSetup.FitToPagesWide и PageSetup.FitToPagesTall управляют масштабированием листа.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells/ooxmlsaveoptions/updatezoom/
 ---
 ## OoxmlSaveOptions.UpdateZoom property
 
-Указывает, следует ли обновлять коэффициент масштабирования перед сохранением файла , если свойства PageSetup.FitToPagesWide и PageSetup.FitToPagesTall управляют масштабированием рабочего листа.
+Указывает, следует ли обновлять коэффициент масштабирования перед сохранением файла , если свойства PageSetup.FitToPagesWide и PageSetup.FitToPagesTall управляют масштабированием листа.
 
 ```csharp
 public bool UpdateZoom { get; set; }
@@ -16,7 +16,7 @@ public bool UpdateZoom { get; set; }
 
 ### Примечания
 
-Значение по умолчанию - false для производительности.
+Значение по умолчанию — false для производительности.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: LimitAsXls
 second_title: Справочник по Aspose.Cells для .NET API
-description: Предел как xls максимальный индекс строки 65535 и максимальный индекс столбца 255.
+description: Ограничение в виде xls максимальный индекс строки  65 535 а максимальный индекс столбца  255.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/spreadsheetml2003saveoptions/limitasxls/
 ---
 ## SpreadsheetML2003SaveOptions.LimitAsXls property
 
-Предел как xls, максимальный индекс строки 65535 и максимальный индекс столбца 255.
+Ограничение в виде xls, максимальный индекс строки – 65 535, а максимальный индекс столбца – 255.
 
 ```csharp
 public bool LimitAsXls { get; set; }

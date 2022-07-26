@@ -1,14 +1,14 @@
 ---
 title: ImportObjectArray
 second_title: Справочник по Aspose.Cells для .NET API
-description: Импортирует массив данных на рабочий лист.
+description: Импортирует массив данных на лист.
 type: docs
-weight: 1040
+weight: 1050
 url: /ru/net/aspose.cells/cells/importobjectarray/
 ---
 ## ImportObjectArray(object[], int, int, bool) {#importobjectarray}
 
-Импортирует массив данных на рабочий лист.
+Импортирует массив данных на лист.
 
 ```csharp
 public void ImportObjectArray(object[] objArray, int firstRow, int firstColumn, bool isVertical)
@@ -31,7 +31,7 @@ public void ImportObjectArray(object[] objArray, int firstRow, int firstColumn, 
 
 ## ImportObjectArray(object[], int, int, bool, int) {#importobjectarray_1}
 
-Импортирует массив данных на рабочий лист.
+Импортирует массив данных на лист.
 
 ```csharp
 public void ImportObjectArray(object[] objArray, int firstRow, int firstColumn, bool isVertical, 
@@ -44,7 +44,7 @@ public void ImportObjectArray(object[] objArray, int firstRow, int firstColumn, 
 | firstRow | Int32 | Номер строки первой ячейки для импорта. |
 | firstColumn | Int32 | Номер столбца первой ячейки для импорта. |
 | isVertical | Boolean | Задает импорт данных по вертикали или по горизонтали. |
-| skip | Int32 | Количество пропущенных строк или столбцов. |
+| skip | Int32 | Пропущено количество строк или столбцов. |
 
 ### Смотрите также
 

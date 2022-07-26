@@ -1,14 +1,14 @@
 ---
 title: SetFontFolders
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает папки со шрифтами
+description: Устанавливает папки шрифтов
 type: docs
 weight: 50
 url: /ru/net/aspose.cells/individualfontconfigs/setfontfolders/
 ---
 ## IndividualFontConfigs.SetFontFolders method
 
-Задает папки со шрифтами
+Устанавливает папки шрифтов
 
 ```csharp
 public void SetFontFolders(string[] fontFolders, bool recursive)
@@ -16,7 +16,7 @@ public void SetFontFolders(string[] fontFolders, bool recursive)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontFolders | String[] | Папки, содержащие шрифты TrueType . |
+| fontFolders | String[] | Папки, содержащие шрифты TrueType. |
 | recursive | Boolean | Определяет, сканировать ли вложенные папки. |
 
 ### Смотрите также

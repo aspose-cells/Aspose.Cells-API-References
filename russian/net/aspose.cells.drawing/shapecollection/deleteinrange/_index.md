@@ -23,9 +23,9 @@ public void DeleteInRange(CellArea ca)
 ```csharp
 
 [C#]
-  // добавляем первый shape
+//добавляем первую фигуру
 shapes.AddRectangle(2, 0, 2, 0, 50, 50);
-  //добавляем второй shape
+//добавляем вторую фигуру
 shapes.AddRectangle(6, 0, 2, 0, 30, 30);
 
 CellArea area3 = new CellArea();
@@ -34,7 +34,7 @@ area3.StartRow = 5;
 area3.EndColumn = 5;
 area3.EndRow = 8;
 
-  //del
+//удалить
 shapes.DeleteInRange(area3);
 ```
 

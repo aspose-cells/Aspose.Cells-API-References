@@ -1,14 +1,14 @@
 ---
 title: TimePeriodType
 second_title: Aspose.Cells for .NET API 参考
-description: 在 FormatConditionType.TimePeriod 条件格式规则中使用 这些是动态时间段根据刷新/应用条件格式的日期 更改
+description: 在 FormatConditionType.TimePeriod 条件格式规则中使用 这些是动态时间段根据 刷新/应用条件格式的日期而变化
 type: docs
 weight: 6060
 url: /zh/net/aspose.cells/timeperiodtype/
 ---
 ## TimePeriodType enumeration
 
-在 FormatConditionType.TimePeriod 条件格式规则中使用。 这些是动态时间段，根据刷新/应用条件格式的日期 更改。
+在 FormatConditionType.TimePeriod 条件格式规则中使用。 这些是动态时间段，根据 刷新/应用条件格式的日期而变化。
 
 ```csharp
 public enum TimePeriodType
@@ -22,8 +22,8 @@ public enum TimePeriodType
 | Yesterday | `1` | 昨天的日期。 |
 | Tomorrow | `2` | 明天的日期。 |
 | Last7Days | `3` | 过去 7 天的日期。 |
-| ThisMonth | `4` | 此日历月中出现的日期。 |
-| LastMonth | `5` | 上一个日历月的日期。 |
+| ThisMonth | `4` | 发生在这个日历月的日期。 |
+| LastMonth | `5` | 上一个日历月发生的日期。 |
 | NextMonth | `6` | 发生在下一个日历月的日期。 |
 | ThisWeek | `7` | 本周发生的日期。 |
 | LastWeek | `8` | 上周发生的日期。 |

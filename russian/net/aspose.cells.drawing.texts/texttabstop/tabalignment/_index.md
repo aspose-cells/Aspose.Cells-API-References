@@ -1,14 +1,14 @@
 ---
 title: TabAlignment
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает выравнивание которое должно быть применено к тексту с использованием этой позиции табуляции.
+description: Определяет выравнивание которое должно быть применено к тексту с помощью этой позиции табуляции.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.drawing.texts/texttabstop/tabalignment/
 ---
 ## TextTabStop.TabAlignment property
 
-Указывает выравнивание, которое должно быть применено к тексту с использованием этой позиции табуляции.
+Определяет выравнивание, которое должно быть применено к тексту с помощью этой позиции табуляции.
 
 ```csharp
 public TextTabAlignmentType TabAlignment { get; set; }

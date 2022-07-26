@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.charts/chartdatatable/hasborderoutline/
 ---
 ## ChartDataTable.HasBorderOutline property
 
-如果图表数据表有轮廓边框则为真
+如果图表数据表有轮廓边框，则为真
 
 ```csharp
 public bool HasBorderOutline { get; set; }

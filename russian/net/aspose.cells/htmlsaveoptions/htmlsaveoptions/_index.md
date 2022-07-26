@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions
 second_title: Справочник по Aspose.Cells для .NET API
-description: Создает опции для сохранения html файла.
+description: Создает параметры для сохранения html-файла.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/htmlsaveoptions/htmlsaveoptions/
 ---
 ## HtmlSaveOptions() {#constructor}
 
-Создает опции для сохранения html файла.
+Создает параметры для сохранения html-файла.
 
 ```csharp
 public HtmlSaveOptions()
@@ -24,7 +24,7 @@ public HtmlSaveOptions()
 
 ## HtmlSaveOptions(SaveFormat) {#constructor_1}
 
-Создает опции для сохранения файла htm.
+Создает параметры для сохранения htm-файла.
 
 ```csharp
 public HtmlSaveOptions(SaveFormat format)
@@ -32,7 +32,7 @@ public HtmlSaveOptions(SaveFormat format)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| format | SaveFormat | Формат сохраняемого файла. |
+| format | SaveFormat | Формат сохранения файла. |
 
 ### Смотрите также
 

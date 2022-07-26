@@ -18,7 +18,7 @@ public enum TickLabelPositionType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| High | `0` | 位置类型为高。 |
+| High | `0` | 仓位类型高。 |
 | Low | `1` | 位置类型低。 |
 | NextToAxis | `2` | 位置类型在轴旁边。 |
 | None | `3` | 位置类型为无。 |

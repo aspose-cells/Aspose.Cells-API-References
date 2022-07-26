@@ -1,14 +1,14 @@
 ---
 title: PivotFieldSubtotalType
 second_title: Aspose.Cells for .NET API 参考
-description: PivotFieldSubtotalType 的摘要描述
+description: PivotFieldSubtotalType. 的摘要描述
 type: docs
 weight: 4560
 url: /zh/net/aspose.cells.pivot/pivotfieldsubtotaltype/
 ---
 ## PivotFieldSubtotalType enumeration
 
-PivotFieldSubtotalType 的摘要描述。
+PivotFieldSubtotalType. 的摘要描述
 
 ```csharp
 public enum PivotFieldSubtotalType
@@ -18,18 +18,18 @@ public enum PivotFieldSubtotalType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 表示无小计类型。 |
-| Automatic | `1` | 表示自动小计类型。 |
-| Sum | `2` | 表示 Sum 小计类型。 |
+| None | `0` | 代表无小计类型。 |
+| Automatic | `1` | 代表自动小计类型。 |
+| Sum | `2` | 代表 Sum 小计类型。 |
 | Count | `4` | 表示 Count 小计类型。 |
-| Average | `8` | 表示平均小计类型。 |
-| Max | `16` | 表示 Max 小计类型。 |
-| Min | `32` | 表示 Min 小计类型。 |
-| Product | `64` | 表示产品小计类型。 |
+| Average | `8` | 代表平均小计类型。 |
+| Max | `16` | 表示最大小计类型。 |
+| Min | `32` | 表示最小小计类型。 |
+| Product | `64` | 代表产品小计类型。 |
 | CountNums | `128` | 表示 Count Nums 小计类型。 |
 | Stdev | `256` | 表示 Stdev 小计类型。 |
 | Stdevp | `512` | 表示 Stdevp 小计类型。 |
-| Var | `1024` | 表示 Var 小计类型。 |
+| Var | `1024` | 代表 Var 小计类型。 |
 | Varp | `2048` | 表示 Varp 小计类型。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: ToPdf
 second_title: Справочник по Aspose.Cells для .NET API
-description: Сохраняет диаграмму в файл pdf.
+description: Сохраняет диаграмму в файл PDF.
 type: docs
 weight: 600
 url: /ru/net/aspose.cells.charts/chart/topdf/
 ---
 ## ToPdf(string) {#topdf_2}
 
-Сохраняет диаграмму в файл pdf.
+Сохраняет диаграмму в файл PDF.
 
 ```csharp
 public void ToPdf(string fileName)
@@ -16,7 +16,7 @@ public void ToPdf(string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | имя pdf-файла с полным путем |
+| fileName | String | имя файла pdf с полным путем |
 
 ### Смотрите также
 
@@ -28,7 +28,7 @@ public void ToPdf(string fileName)
 
 ## ToPdf(string, float, float, PageLayoutAlignmentType, PageLayoutAlignmentType) {#topdf_3}
 
-Сохраняет диаграмму в файл pdf.
+Сохраняет диаграмму в файл PDF.
 
 ```csharp
 public void ToPdf(string fileName, float desiredPageWidth, float desiredPageHeight, 
@@ -37,9 +37,9 @@ public void ToPdf(string fileName, float desiredPageWidth, float desiredPageHeig
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | имя pdf-файла с полным путем |
+| fileName | String | имя файла pdf с полным путем |
 | desiredPageWidth | Single | Желаемая ширина страницы в дюймах. |
-| desiredPageHeight | Single | Требуемая высота страницы в дюймах. |
+| desiredPageHeight | Single | Желаемая высота страницы в дюймах. |
 | hAlignmentType | PageLayoutAlignmentType | Тип горизонтального выравнивания диаграммы на выходной странице. |
 | vAlignmentType | PageLayoutAlignmentType | Тип вертикального выравнивания диаграммы на выходной странице. |
 
@@ -85,7 +85,7 @@ public void ToPdf(Stream stream, float desiredPageWidth, float desiredPageHeight
 | --- | --- | --- |
 | stream | Stream | Выходной поток. |
 | desiredPageWidth | Single | Желаемая ширина страницы в дюймах. |
-| desiredPageHeight | Single | Требуемая высота страницы в дюймах. |
+| desiredPageHeight | Single | Желаемая высота страницы в дюймах. |
 | hAlignmentType | PageLayoutAlignmentType | Тип горизонтального выравнивания диаграммы на выходной странице. |
 | vAlignmentType | PageLayoutAlignmentType | Тип вертикального выравнивания диаграммы на выходной странице. |
 

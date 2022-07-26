@@ -1,14 +1,14 @@
 ---
 title: RotationY
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает поворот выдавленной фигуры вокруг оси Y в градусах.
+description: Получает и задает поворот вытянутой формы вокруг оси Y в градусах.
 type: docs
 weight: 150
 url: /ru/net/aspose.cells.drawing/threedformat/rotationy/
 ---
 ## ThreeDFormat.RotationY property
 
-Получает и задает поворот выдавленной фигуры вокруг оси Y в градусах.
+Получает и задает поворот вытянутой формы вокруг оси Y в градусах.
 
 ```csharp
 public double RotationY { get; set; }

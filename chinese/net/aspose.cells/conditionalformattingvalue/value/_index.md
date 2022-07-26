@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置此条件格式值对象的值 应该和Type一起使用
+description: 获取或设置此条件格式值对象的值 应与Type配合使用
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/conditionalformattingvalue/value/
 ---
 ## ConditionalFormattingValue.Value property
 
-获取或设置此条件格式值对象的值。 应该和Type一起使用。
+获取或设置此条件格式值对象的值。 应与Type配合使用。
 
 ```csharp
 public object Value { get; set; }
@@ -16,7 +16,7 @@ public object Value { get; set; }
 
 ### 评论
 
-如果值为字符串且以“=”开头，则作为公式处理， 否则我们会将其作为简单值处理。
+如果值为字符串且以“=”开头，则作为公式处理， 否则我们将其作为简单值处理。
 
 ### 也可以看看
 

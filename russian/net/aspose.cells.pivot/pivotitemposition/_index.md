@@ -1,14 +1,14 @@
 ---
 title: PivotItemPosition
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет базовый элемент сводной таблицы Next/Previous/All в базовом поле.
+description: Представляет базовый элемент сводной таблицы Next/Previous/All в базовом поле .
 type: docs
 weight: 4660
 url: /ru/net/aspose.cells.pivot/pivotitemposition/
 ---
 ## PivotItemPosition enumeration
 
-Представляет базовый элемент сводной таблицы Next/Previous/All в базовом поле.
+Представляет базовый элемент сводной таблицы Next/Previous/All в базовом поле .
 
 ```csharp
 public enum PivotItemPosition
@@ -20,7 +20,7 @@ public enum PivotItemPosition
 | --- | --- | --- |
 | Previous | `0` | Представляет предыдущий элемент сводки в PivotField. |
 | Next | `1` | Представляет следующий элемент сводки в PivotField. |
-| Custom | `2` | Представляет индекс элемента сводки, как указано в элементе сводки, который определяет элемент сводки в PivotField.  только читать |
+| Custom | `2` | Представляет индекс элемента сводки, как указано в элементе сводки, который определяет элемент сводки в PivotField. только читать |
 
 ### Смотрите также
 

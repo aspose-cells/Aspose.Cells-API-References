@@ -1,14 +1,14 @@
 ---
 title: InSelection
 second_title: Aspose.Cells for .NET API 参考
-description: 确定指定的单元格位置是否处于选中状态
+description: 判断指定的单元格位置是否处于选中状态
 type: docs
 weight: 830
 url: /zh/net/aspose.cells.griddesktop/worksheet/inselection/
 ---
 ## Worksheet.InSelection method
 
-确定指定的单元格位置是否处于选中状态。
+判断指定的单元格位置是否处于选中状态
 
 ```csharp
 public bool InSelection(CellLocation cellLocation)

@@ -40,7 +40,7 @@ public GridWorksheet Add(string sheetName)
 
 ### 返回值
 
-Worksheet对象。
+Worksheet目的。
 
 ### 也可以看看
 
@@ -61,7 +61,7 @@ public int Add(object value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Object | 工作表。 |
+| value | Object | 单子。 |
 
 ### 也可以看看
 

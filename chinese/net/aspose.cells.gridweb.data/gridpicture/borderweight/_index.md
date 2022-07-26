@@ -1,14 +1,14 @@
 ---
 title: BorderWeight
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置图片边框线的权重单位为pt
+description: 获取或设置图片边框线的权重单位为pt.
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.gridweb.data/gridpicture/borderweight/
 ---
 ## GridPicture.BorderWeight property
 
-获取或设置图片边框线的权重，单位为pt。
+获取或设置图片边框线的权重，单位为pt.
 
 ```csharp
 public double BorderWeight { get; set; }

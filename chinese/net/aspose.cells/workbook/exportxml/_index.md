@@ -21,12 +21,12 @@ public void ExportXml(string mapName, string path)
 
 ### 例子
 
-以下代码导出第一个 XmlMap 链接的数据。
+下面的代码导出了第一个XmlMap链接的数据。
 
 ```csharp
 Workbook wb = new Workbook("Book1.xlsx");
 
- //确保源xlsx文件包含一个XmlMap.
+//确保源xlsx文件包含一个XmlMap。
 XmlMap xmlMap = wb.Worksheets.XmlMaps[0];
 
 wb.ExportXml(xmlMap.Name, "output.xml");
@@ -51,7 +51,7 @@ public void ExportXml(string mapName, Stream stream)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | mapName | String | 需要导出的 XML 映射的名称 |
-| stream | Stream | 导出流 |
+| stream | Stream | 出口流 |
 
 ### 也可以看看
 

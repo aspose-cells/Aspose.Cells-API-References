@@ -1,14 +1,14 @@
 ---
 title: Second
 second_title: Aspose.Cells for .NET API 参考
-description: 获取并设置分组日期时间的第二个
+description: 获取并设置分组日期时间的秒数
 type: docs
 weight: 80
 url: /zh/net/aspose.cells/datetimegroupitem/second/
 ---
 ## DateTimeGroupItem.Second property
 
-获取并设置分组日期时间的第二个。
+获取并设置分组日期时间的秒数。
 
 ```csharp
 public int Second { get; set; }

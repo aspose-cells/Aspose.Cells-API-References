@@ -1,14 +1,14 @@
 ---
 title: MatchEntry
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает как ListBox или ComboBox ищет свой список по мере ввода пользователем.
+description: Указывает как ListBox или ComboBox выполняет поиск в своем списке по мере того как пользователь вводит.
 type: docs
 weight: 90
 url: /ru/net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/matchentry/
 ---
 ## ListBoxActiveXControl.MatchEntry property
 
-Указывает, как ListBox или ComboBox ищет свой список по мере ввода пользователем.
+Указывает, как ListBox или ComboBox выполняет поиск в своем списке по мере того, как пользователь вводит.
 
 ```csharp
 public ControlMatchEntryType MatchEntry { get; set; }

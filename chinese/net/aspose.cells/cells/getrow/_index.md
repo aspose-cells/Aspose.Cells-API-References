@@ -1,14 +1,14 @@
 ---
 title: GetRow
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定单元格行索引处的Rowaspose.cells/row元素
+description: 获取Rowaspose.cells/row指定单元格行索引处的元素
 type: docs
-weight: 770
+weight: 780
 url: /zh/net/aspose.cells/cells/getrow/
 ---
 ## Cells.GetRow method
 
-获取指定单元格行索引处的[`Row`](../../row)元素。
+获取[`Row`](../../row)指定单元格行索引处的元素。
 
 ```csharp
 public Row GetRow(int row)
@@ -20,7 +20,7 @@ public Row GetRow(int row)
 
 ### 返回值
 
-如果行对象确实存在，则返回 Row 对象，否则返回 null。
+如果行对象存在则返回Row对象，否则返回null。
 
 ### 也可以看看
 

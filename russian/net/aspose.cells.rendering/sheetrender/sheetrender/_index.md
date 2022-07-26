@@ -1,14 +1,14 @@
 ---
 title: SheetRender
 second_title: Справочник по Aspose.Cells для .NET API
-description: конструкция SheetRender нужен рабочий лист и ImageOrPrintOptions в качестве параметров
+description: конструкция SheetRender нужен рабочий лист и ImageOrPrintOptions как params
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.rendering/sheetrender/sheetrender/
 ---
 ## SheetRender constructor
 
-конструкция SheetRender, нужен рабочий лист и ImageOrPrintOptions в качестве параметров
+конструкция SheetRender, нужен рабочий лист и ImageOrPrintOptions как params
 
 ```csharp
 public SheetRender(Worksheet worksheet, ImageOrPrintOptions options)
@@ -16,7 +16,7 @@ public SheetRender(Worksheet worksheet, ImageOrPrintOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| worksheet | Worksheet | Укажите, какая электронная таблица должна быть отображена. |
+| worksheet | Worksheet | Укажите, какая таблица должна быть отображена. |
 | options | ImageOrPrintOptions | ImageOrPrintOptions содержит некоторое свойство выходного изображения |
 
 ### Смотрите также

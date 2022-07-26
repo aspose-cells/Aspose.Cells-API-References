@@ -17,7 +17,7 @@ public void SetColumnWidthInch(int column, double inches)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | column | Int32 | Индекс столбца. |
-| дюймы | Double | Количество дюймов. |
+| inches | Double | Количество дюймов. |
 
 ### Смотрите также
 

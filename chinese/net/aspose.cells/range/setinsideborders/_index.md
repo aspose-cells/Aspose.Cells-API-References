@@ -1,14 +1,14 @@
 ---
 title: SetInsideBorders
 second_title: Aspose.Cells for .NET API 参考
-description: 设置范围的内部边界
+description: 设置范围内的边界
 type: docs
-weight: 330
+weight: 370
 url: /zh/net/aspose.cells/range/setinsideborders/
 ---
 ## Range.SetInsideBorders method
 
-设置范围的内部边界。
+设置范围内的边界。
 
 ```csharp
 public void SetInsideBorders(BorderType borderEdge, CellBorderType lineStyle, 
@@ -17,7 +17,7 @@ public void SetInsideBorders(BorderType borderEdge, CellBorderType lineStyle,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| borderEdge | BorderType | 内边框类型，只能是Vertical和Horizontal。 |
+| borderEdge | BorderType | 内边框类型，只能是Vertical和Horizontal. |
 | lineStyle | CellBorderType | 边框样式。 |
 | borderColor | CellsColor | 边框的颜色。 |
 

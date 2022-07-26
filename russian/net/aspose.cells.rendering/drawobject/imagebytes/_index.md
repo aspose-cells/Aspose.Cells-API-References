@@ -1,14 +1,14 @@
 ---
 title: ImageBytes
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает байты изображения отображаемой диаграммы формы при рендеринге.
+description: Указывает байты изображения визуализируемой диаграммы формы при рендеринге.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.rendering/drawobject/imagebytes/
 ---
 ## DrawObject.ImageBytes property
 
-Указывает байты изображения отображаемой диаграммы, формы при рендеринге.
+Указывает байты изображения визуализируемой диаграммы, формы при рендеринге.
 
 ```csharp
 public byte[] ImageBytes { get; }

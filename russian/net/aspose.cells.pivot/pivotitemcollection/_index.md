@@ -1,14 +1,14 @@
 ---
 title: PivotItemCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет коллекцию всех объектов PivotItem в поле PivotField
+description: Представляет коллекцию всех объектов PivotItem в поле PivotField .
 type: docs
 weight: 4650
 url: /ru/net/aspose.cells.pivot/pivotitemcollection/
 ---
 ## PivotItemCollection class
 
-Представляет коллекцию всех объектов PivotItem в поле PivotField
+Представляет коллекцию всех объектов PivotItem в поле PivotField .
 
 ```csharp
 public class PivotItemCollection : IEnumerable
@@ -26,7 +26,7 @@ public class PivotItemCollection : IEnumerable
 | Имя | Описание |
 | --- | --- |
 | [ChangeitemsOrder](../../aspose.cells.pivot/pivotitemcollection/changeitemsorder)(int, int) | Напрямую изменяет порядок двух предметов. |
-| [GetEnumerator](../../aspose.cells.pivot/pivotitemcollection/getenumerator)() | Получает перечислитель по элементам в этой коллекции в правильной последовательности. |
+| [GetEnumerator](../../aspose.cells.pivot/pivotitemcollection/getenumerator)() | Получает перечислитель элементов в этой коллекции в правильной последовательности. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ErrorJson
 second_title: Справочник по Aspose.Cells для .NET API
-description: вернуть сообщение об ошибке
+description: возвращает сообщение об ошибке
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.gridjs/gridjsworkbook/errorjson/
 ---
 ## GridJsWorkbook.ErrorJson method
 
-вернуть сообщение об ошибке
+возвращает сообщение об ошибке
 
 ```csharp
 public string ErrorJson(string msg)

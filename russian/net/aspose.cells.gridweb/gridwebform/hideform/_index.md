@@ -1,14 +1,14 @@
 ---
 title: HideForm
 second_title: Справочник по Aspose.Cells для .NET API
-description: Скрывает форму и показывает элемент управления GridWeb.
+description: Скрывает форму и отображает элемент управления GridWeb.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells.gridweb/gridwebform/hideform/
 ---
 ## GridWebForm.HideForm method
 
-Скрывает форму и показывает элемент управления GridWeb.
+Скрывает форму и отображает элемент управления GridWeb.
 
 ```csharp
 public void HideForm()

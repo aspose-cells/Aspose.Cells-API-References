@@ -1,14 +1,14 @@
 ---
 title: VerifyPassword
 second_title: Справочник по Aspose.Cells для .NET API
-description: Проверяет пароль.
+description: Подтверждает пароль.
 type: docs
 weight: 210
 url: /ru/net/aspose.cells/protection/verifypassword/
 ---
 ## Protection.VerifyPassword method
 
-Проверяет пароль.
+Подтверждает пароль.
 
 ```csharp
 public bool VerifyPassword(string password)
@@ -16,7 +16,7 @@ public bool VerifyPassword(string password)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| пароль | String | Пароль. |
+| password | String | Пароль. |
 
 ### Смотрите также
 

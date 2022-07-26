@@ -1,14 +1,14 @@
 ---
 title: ScrollBarArrowColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает цвет кнопки со стрелкой полосы прокрутки.
+description: Определяет цвет кнопки со стрелкой полосы прокрутки.
 type: docs
 weight: 760
 url: /ru/net/aspose.cells.gridweb/mainweb/scrollbararrowcolor/
 ---
 ## MainWeb.ScrollBarArrowColor property
 
-Задает цвет кнопки со стрелкой полосы прокрутки.
+Определяет цвет кнопки со стрелкой полосы прокрутки.
 
 ```csharp
 public Color ScrollBarArrowColor { get; set; }

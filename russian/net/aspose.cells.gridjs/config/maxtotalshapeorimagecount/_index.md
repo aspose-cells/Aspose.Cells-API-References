@@ -1,14 +1,14 @@
 ---
 title: MaxTotalShapeOrImageCount
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает/получает общее количество отображаемых фигур/изображений во всей книге это будет происходить когда IslimitShapestrue
+description: Устанавливает /Получает общее количество фигур/изображений во всей книге это произойдет если IslimitShapestrue
 type: docs
 weight: 110
 url: /ru/net/aspose.cells.gridjs/config/maxtotalshapeorimagecount/
 ---
 ## Config.MaxTotalShapeOrImageCount property
 
-Устанавливает/получает общее количество отображаемых фигур/изображений во всей книге, это будет происходить, когда IslimitShapes=true
+Устанавливает /Получает общее количество фигур/изображений во всей книге, это произойдет, если IslimitShapes=true
 
 ```csharp
 public static int MaxTotalShapeOrImageCount { get; set; }

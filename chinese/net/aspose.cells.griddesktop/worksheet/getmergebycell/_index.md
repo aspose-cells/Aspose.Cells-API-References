@@ -1,14 +1,14 @@
 ---
 title: GetMergeByCell
 second_title: Aspose.Cells for .NET API 参考
-description: 获取包含行列位置单元格的合并区域如果所有合并区域都不包含此单元格位置则返回 null
+description: 获取包含行列位置单元格的合并区域如果所有合并区域都不包含该单元格位置则返回null
 type: docs
 weight: 790
 url: /zh/net/aspose.cells.griddesktop/worksheet/getmergebycell/
 ---
 ## Worksheet.GetMergeByCell method
 
-获取包含行、列位置单元格的合并区域，如果所有合并区域都不包含此单元格位置，则返回 null
+获取包含行、列位置单元格的合并区域，如果所有合并区域都不包含该单元格位置，则返回null
 
 ```csharp
 public CellRange GetMergeByCell(int row, int col)

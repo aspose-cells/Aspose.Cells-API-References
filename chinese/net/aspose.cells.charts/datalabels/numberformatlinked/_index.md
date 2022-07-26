@@ -1,14 +1,14 @@
 ---
 title: NumberFormatLinked
 second_title: Aspose.Cells for .NET API 参考
-description: 如果数字格式链接到单元格 则为真以便在单元格中更改标签中的数字格式
+description: 如果数字格式链接到单元格 则为真因此当单元格中的数字格式发生变化时标签中的数字格式也会发生变化
 type: docs
 weight: 110
 url: /zh/net/aspose.cells.charts/datalabels/numberformatlinked/
 ---
 ## DataLabels.NumberFormatLinked property
 
-如果数字格式链接到单元格 则为真（以便在单元格中更改标签中的数字格式）。
+如果数字格式链接到单元格 则为真（因此当单元格中的数字格式发生变化时，标签中的数字格式也会发生变化）。
 
 ```csharp
 public bool NumberFormatLinked { get; set; }

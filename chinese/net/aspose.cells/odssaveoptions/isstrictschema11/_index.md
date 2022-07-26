@@ -1,14 +1,14 @@
 ---
 title: IsStrictSchema11
 second_title: Aspose.Cells for .NET API 参考
-description: 指示ods文件是否应保存为ODF格式1.1版默认为假
+description: 指示ods 文件是否应保存为ODF 格式版本1.1默认为假
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/odssaveoptions/isstrictschema11/
 ---
 ## OdsSaveOptions.IsStrictSchema11 property
 
-指示ods文件是否应保存为ODF格式1.1版。默认为假。
+指示ods 文件是否应保存为ODF 格式版本1.1。默认为假。
 
 ```csharp
 public bool IsStrictSchema11 { get; set; }

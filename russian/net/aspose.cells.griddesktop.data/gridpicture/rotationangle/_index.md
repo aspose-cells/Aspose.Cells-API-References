@@ -1,14 +1,14 @@
 ---
 title: RotationAngle
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает вращение фигуры.
+description: Получает и задает поворот фигуры.
 type: docs
 weight: 430
 url: /ru/net/aspose.cells.griddesktop.data/gridpicture/rotationangle/
 ---
 ## GridPicture.RotationAngle property
 
-Получает и задает вращение фигуры.
+Получает и задает поворот фигуры.
 
 ```csharp
 public double RotationAngle { get; set; }

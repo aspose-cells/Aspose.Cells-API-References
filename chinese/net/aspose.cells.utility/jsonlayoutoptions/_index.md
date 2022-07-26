@@ -24,14 +24,14 @@ public class JsonLayoutOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ArrayAsTable](../../aspose.cells.utility/jsonlayoutoptions/arrayastable) { get; set; } | 将数组作为表处理。 |
+| [ArrayAsTable](../../aspose.cells.utility/jsonlayoutoptions/arrayastable) { get; set; } | 将数组处理为表。 |
 | [ConvertNumericOrDate](../../aspose.cells.utility/jsonlayoutoptions/convertnumericordate) { get; set; } | 获取或设置一个值，该值指示json中的字符串是转换为数字还是日期。 |
 | [DateFormat](../../aspose.cells.utility/jsonlayoutoptions/dateformat) { get; set; } | 获取和设置日期值的格式。 |
 | [IgnoreArrayTitle](../../aspose.cells.utility/jsonlayoutoptions/ignorearraytitle) { get; set; } | 如果数组是对象的属性，是否忽略标题。 |
 | [IgnoreNull](../../aspose.cells.utility/jsonlayoutoptions/ignorenull) { get; set; } | 表示是否忽略空值。 |
 | [IgnoreObjectTitle](../../aspose.cells.utility/jsonlayoutoptions/ignoreobjecttitle) { get; set; } | 如果对象是对象的属性，是否忽略标题。 |
-| [NumberFormat](../../aspose.cells.utility/jsonlayoutoptions/numberformat) { get; set; } | 获取和设置数值格式。 |
-| [TitleStyle](../../aspose.cells.utility/jsonlayoutoptions/titlestyle) { get; set; } | 获取和设置标题的样式。 |
+| [NumberFormat](../../aspose.cells.utility/jsonlayoutoptions/numberformat) { get; set; } | 获取和设置数值的格式。 |
+| [TitleStyle](../../aspose.cells.utility/jsonlayoutoptions/titlestyle) { get; set; } | 获取并设置标题的样式。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: GetHeightOfValue
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает высоту значения в единицах пикселей.
+description: Получает высоту значения в пикселях.
 type: docs
 weight: 440
 url: /ru/net/aspose.cells/cell/getheightofvalue/
 ---
 ## Cell.GetHeightOfValue method
 
-Получает высоту значения в единицах пикселей.
+Получает высоту значения в пикселях.
 
 ```csharp
 public int GetHeightOfValue()

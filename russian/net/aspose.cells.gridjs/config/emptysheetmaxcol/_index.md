@@ -1,14 +1,14 @@
 ---
 title: EmptySheetMaxCol
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает/получает максимальный столбец по умолчанию для пустого листа
+description: Устанавливает/получает максимальный столбец по умолчанию для пустого рабочего листа
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.gridjs/config/emptysheetmaxcol/
 ---
 ## Config.EmptySheetMaxCol property
 
-Устанавливает/получает максимальный столбец по умолчанию для пустого листа
+Устанавливает/получает максимальный столбец по умолчанию для пустого рабочего листа
 
 ```csharp
 public static int EmptySheetMaxCol { get; set; }

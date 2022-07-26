@@ -18,22 +18,22 @@ public Label AddLabel(int upperLeftRow, int top, int upperLeftColumn, int left, 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | upperLeftRow | Int32 | 左上行索引。 |
-| top | Int32 | 表示Label相对左行的垂直偏移量，以像素为单位。 |
+| top | Int32 | 表示 Label 与其左行的垂直偏移量，以像素为单位。 |
 | upperLeftColumn | Int32 | 左上列索引。 |
-| left | Int32 | 表示Label从其左列的水平偏移量，以像素为单位。 |
+| left | Int32 | 表示 Label 与其左列的水平偏移量，以像素为单位。 |
 | height | Int32 | 表示Label的高度，以像素为单位。 |
 | width | Int32 | 表示Label的宽度，以像素为单位。 |
 
 ### 返回值
 
-标签对象。
+一个标签对象。
 
 ### 例子
 
 ```csharp
 
 [C#]
- //添加一个标签
+//添加标签
 Label label = shapes.AddLabel(1, 0, 1, 0, 100, 50);
 ```
 

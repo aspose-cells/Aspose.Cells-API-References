@@ -1,14 +1,14 @@
 ---
 title: SetFontSubstitutes
 second_title: Справочник по Aspose.Cells для .NET API
-description: Имена шрифтов заменяющие заданное оригинальное имя шрифта.
+description: Имена шрифтов заменяющие заданное исходное имя шрифта.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells/individualfontconfigs/setfontsubstitutes/
 ---
 ## IndividualFontConfigs.SetFontSubstitutes method
 
-Имена шрифтов, заменяющие заданное оригинальное имя шрифта.
+Имена шрифтов, заменяющие заданное исходное имя шрифта.
 
 ```csharp
 public void SetFontSubstitutes(string originalFontName, string[] substituteFontNames)
@@ -16,8 +16,8 @@ public void SetFontSubstitutes(string originalFontName, string[] substituteFontN
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| originalFontName | String | Имя исходного шрифта. |
-| substituteFontNames | String[] | Список замещающих имен шрифтов, которые будут использоваться, если исходный шрифт не представлен. |
+| originalFontName | String | Оригинальное название шрифта. |
+| substituteFontNames | String[] | Список имен заменителей шрифтов, которые будут использоваться, если исходный шрифт не представлен. |
 
 ### Смотрите также
 

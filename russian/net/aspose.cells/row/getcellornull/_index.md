@@ -1,14 +1,14 @@
 ---
 title: GetCellOrNull
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает ячейку или нуль в указанном индексе.
+description: Получает ячейку или null в указанном индексе.
 type: docs
 weight: 170
 url: /ru/net/aspose.cells/row/getcellornull/
 ---
 ## Row.GetCellOrNull method
 
-Получает ячейку или нуль в указанном индексе.
+Получает ячейку или null в указанном индексе.
 
 ```csharp
 public Cell GetCellOrNull(int column)
@@ -20,7 +20,7 @@ public Cell GetCellOrNull(int column)
 
 ### Возвращаемое значение
 
-Возвращает объект ячейки, если ячейка существует. Или возвращает null, если объект ячейки не существует.
+Возвращает объект ячейки, если ячейка существует. Или возвращает ноль, если объект ячейки не существует.
 
 ### Смотрите также
 

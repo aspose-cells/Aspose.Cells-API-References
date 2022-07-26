@@ -1,14 +1,14 @@
 ---
 title: Image
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает объект Image.
+description: Получает или задает объект изображения.
 type: docs
 weight: 160
 url: /ru/net/aspose.cells.griddesktop.data/gridpicture/image/
 ---
 ## GridPicture.Image property
 
-Получает или задает объект Image.
+Получает или задает объект изображения.
 
 ```csharp
 public Image Image { get; set; }

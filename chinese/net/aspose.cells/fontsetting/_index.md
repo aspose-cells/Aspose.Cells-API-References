@@ -34,7 +34,7 @@ public class FontSetting
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SetWordArtStyle](../../aspose.cells/fontsetting/setwordartstyle)(PresetWordArtStyle) | 设置预设艺术字样式。 |
+| [SetWordArtStyle](../../aspose.cells/fontsetting/setwordartstyle)(PresetWordArtStyle) | 设置预设的艺术字样式。 |
 
 ### 例子
 
@@ -42,53 +42,51 @@ public class FontSetting
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 
- //向Excel对象添加新工作表
+//向Excel对象添加一个新的工作表
 workbook.Worksheets.Add();
 
- //通过传入其sheet index
-et的引用
+//通过传入工作表的索引来获取新添加的工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
 
-//从worksheet
-
+//访问工作表中的“A1”单元格
 Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 
 //向“A1”单元格添加一些值
 cell.PutValue("Visit Aspose!");
 
- //获取charactor
+//获取字符
 FontSetting charactor = cell.Characters(6, 7);
 
-//设置选中字符的字体为bold
+//设置选中字符的字体为粗体
 charactor.Font.IsBold = true;
 
- //设置选中字符的字体颜色为blue
+//设置选中字符的字体颜色为蓝色
 charactor.Font.Color = Color.Blue;
 
- //保存Excel文件
+//保存Excel文件
 workbook.Save("book1.xls");
 
 [VB.NET]
 
-'实例化一个 Workbook 目的
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 
-'添加一个新的 worksheet 到 Excel 对象
+'向 Excel 对象添加新工作表
 workbook.Worksheets.Add()
 
-'获取新添加的引用 worksheet 通过传递其工作表索引
+'通过传入工作表的索引来获取新添加的工作表的引用
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-'从访问“A1”单元格 worksheet
+'Accessing the "A1" cell from the worksheet
 Dim cell As Aspose.Cells.Cell = worksheet.Cells("A1")
 
-'增加一些价值 "A1" cell
+'Adding some value to the "A1" cell
 cell.PutValue("Visit Aspose!")
 
-'得到 charactor
+'获取字符
 Dim charactor As FontSetting = cell.Characters(6, 7)
 
 '将所选字符的字体设置为粗体

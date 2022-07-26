@@ -1,14 +1,14 @@
 ---
 title: DefaultStyleSettings
 second_title: Справочник по Aspose.Cells для .NET API
-description: Настройки для значений по умолчанию свойств стиля рабочей книги.
+description: Настройки для значений по умолчанию свойств стиля книги.
 type: docs
 weight: 1360
 url: /ru/net/aspose.cells/defaultstylesettings/
 ---
 ## DefaultStyleSettings class
 
-Настройки для значений по умолчанию свойств стиля рабочей книги.
+Настройки для значений по умолчанию свойств стиля книги.
 
 ```csharp
 public class DefaultStyleSettings
@@ -19,7 +19,7 @@ public class DefaultStyleSettings
 | Имя | Описание |
 | --- | --- |
 | [FontName](../../aspose.cells/defaultstylesettings/fontname) { get; set; } | Получает/устанавливает имя шрифта по умолчанию для книги |
-| [FontSize](../../aspose.cells/defaultstylesettings/fontsize) { get; set; } | Получает/устанавливает стандартный размер шрифта по умолчанию для книги. |
+| [FontSize](../../aspose.cells/defaultstylesettings/fontsize) { get; set; } | Получает/задает стандартный размер шрифта по умолчанию для книги. |
 | [HorizontalAlignment](../../aspose.cells/defaultstylesettings/horizontalalignment) { get; set; } | Получает/устанавливает значение по умолчанию для горизонтального выравнивания |
 | [VerticalAlignment](../../aspose.cells/defaultstylesettings/verticalalignment) { get; set; } | Получает/устанавливает значение по умолчанию для вертикального выравнивания |
 

@@ -16,7 +16,7 @@ public void ClearSparklines(CellArea cellArea)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cellArea | CellArea | Указывает площадь ячеек |
+| cellArea | CellArea | Определяет площадь ячеек |
 
 ### Смотрите также
 

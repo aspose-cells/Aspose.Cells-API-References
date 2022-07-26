@@ -18,26 +18,26 @@ public class ThreeDFormat
 
 | Имя | Описание |
 | --- | --- |
-| [BottomBevelHeight](../../aspose.cells.drawing/threedformat/bottombevelheight) { get; set; } | Получает и задает высоту нижнего скоса или то, насколько глубоко он применяется к фигуре. В баллах. |
-| [BottomBevelType](../../aspose.cells.drawing/threedformat/bottombeveltype) { get; set; } | Получает и задает тип нижнего скоса или степень его применения в форме. В баллах. |
-| [BottomBevelWidth](../../aspose.cells.drawing/threedformat/bottombevelwidth) { get; set; } | Получает и задает ширину нижнего скоса или глубину его применения в фигуре. В баллах. |
+| [BottomBevelHeight](../../aspose.cells.drawing/threedformat/bottombevelheight) { get; set; } | Получает и задает высоту нижнего скоса или глубину его применения в форме. В единицах измерения Points. |
+| [BottomBevelType](../../aspose.cells.drawing/threedformat/bottombeveltype) { get; set; } | Получает и задает тип нижнего скоса или степень его применения в форме. В единицах измерения Points. |
+| [BottomBevelWidth](../../aspose.cells.drawing/threedformat/bottombevelwidth) { get; set; } | Получает и задает ширину нижнего скоса или глубину его применения в форме. В единицах измерения Points. |
 | [ContourColor](../../aspose.cells.drawing/threedformat/contourcolor) { get; set; } | Получает и задает цвет контура фигуры. |
 | [ContourWidth](../../aspose.cells.drawing/threedformat/contourwidth) { get; set; } | Получает и задает ширину контура фигуры в точках. |
 | [ExtrusionColor](../../aspose.cells.drawing/threedformat/extrusioncolor) { get; set; } | Получает цвет экструзии на фигуре. |
-| [ExtrusionHeight](../../aspose.cells.drawing/threedformat/extrusionheight) { get; set; } | Получает и задает высоту экструзии, применяемую к фигуре, в пунктах. |
+| [ExtrusionHeight](../../aspose.cells.drawing/threedformat/extrusionheight) { get; set; } | Получает и задает высоту экструзии, примененную к фигуре, в пунктах. |
 | [LightAngle](../../aspose.cells.drawing/threedformat/lightangle) { get; set; } | Получает и задает угол экструзионных источников света. |
-| [Lighting](../../aspose.cells.drawing/threedformat/lighting) { get; set; } | Получает и устанавливает тип установки освещения. |
-| [LightingDirection](../../aspose.cells.drawing/threedformat/lightingdirection) { get; set; } | Получает и задает направление, из которого ориентируется установка освещения относительно сцены. |
-| [Material](../../aspose.cells.drawing/threedformat/material) { get; set; } | Представляет предустановленный материал, который сочетается со свойствами освещения, чтобы придать окончательный вид и ощущение формы. |
+| [Lighting](../../aspose.cells.drawing/threedformat/lighting) { get; set; } | Получает и устанавливает тип световой установки. |
+| [LightingDirection](../../aspose.cells.drawing/threedformat/lightingdirection) { get; set; } | Получает и задает направление, из которого ориентируется установка освещения по отношению к сцене. |
+| [Material](../../aspose.cells.drawing/threedformat/material) { get; set; } | Представляет предустановленный материал, который в сочетании со свойствами освещения придает окончательный вид и ощущение формы. |
 | [Perspective](../../aspose.cells.drawing/threedformat/perspective) { get; set; } | Получает и задает угол, под которым можно просматривать объект ThreeDFormat. |
 | [PresetCameraType](../../aspose.cells.drawing/threedformat/presetcameratype) { get; set; } | Получает и задает тип предустановленной камеры экструзии. |
-| [RotationX](../../aspose.cells.drawing/threedformat/rotationx) { get; set; } | Получает и задает поворот вытянутой формы вокруг оси X в градусах. |
-| [RotationY](../../aspose.cells.drawing/threedformat/rotationy) { get; set; } | Получает и задает поворот выдавленной фигуры вокруг оси Y в градусах. |
+| [RotationX](../../aspose.cells.drawing/threedformat/rotationx) { get; set; } | Получает и задает поворот вытянутой формы вокруг оси x в градусах. |
+| [RotationY](../../aspose.cells.drawing/threedformat/rotationy) { get; set; } | Получает и задает поворот вытянутой формы вокруг оси Y в градусах. |
 | [RotationZ](../../aspose.cells.drawing/threedformat/rotationz) { get; set; } | Получает и задает поворот вытянутой формы вокруг оси Z в градусах. |
-| [TopBevelHeight](../../aspose.cells.drawing/threedformat/topbevelheight) { get; set; } | Получает и задает высоту верхнего скоса или то, насколько глубоко он применяется к фигуре. В баллах. |
-| [TopBevelType](../../aspose.cells.drawing/threedformat/topbeveltype) { get; set; } | Получает и задает тип верхнего скоса или степень его применения в форме. В баллах. |
-| [TopBevelWidth](../../aspose.cells.drawing/threedformat/topbevelwidth) { get; set; } | Получает и задает ширину верхнего скоса или то, насколько глубоко он применяется к фигуре. В баллах. |
-| [Z](../../aspose.cells.drawing/threedformat/z) { get; set; } | Определяет расстояние от земли для трехмерной формы. |
+| [TopBevelHeight](../../aspose.cells.drawing/threedformat/topbevelheight) { get; set; } | Получает и задает высоту верхнего скоса или глубину его применения в форме. В единицах измерения Points. |
+| [TopBevelType](../../aspose.cells.drawing/threedformat/topbeveltype) { get; set; } | Получает и задает тип верхнего скоса или степень его применения в форме. В единицах измерения Points. |
+| [TopBevelWidth](../../aspose.cells.drawing/threedformat/topbevelwidth) { get; set; } | Получает и задает ширину верхнего скоса или глубину его применения в форме. В единицах измерения Points. |
+| [Z](../../aspose.cells.drawing/threedformat/z) { get; set; } | Определяет расстояние от земли для 3D-формы. |
 
 ## Методы
 

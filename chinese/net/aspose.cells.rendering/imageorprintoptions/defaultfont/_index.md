@@ -1,14 +1,14 @@
 ---
 title: DefaultFont
 second_title: Aspose.Cells for .NET API 参考
-description: 当 Excel 中的字符为 Unicode 且未在单元格样式中设置正确的字体时 它们可能在 pdf图像中显示为块 设置默认字体如 MingLiu 或 MS Gothic 以显示这些字符 如果未设置此属性Aspose.Cells 将使用系统默认字体显示这些 unicode 字符
+description: 当 Excel 中的字符为 Unicode 且未在单元格样式中设置正确的字体时 它们可能在 pdf图像中显示为块 设置 DefaultFont例如 MingLiu 或 MS Gothic 以显示这些字符 如果此属性为未设置Aspose.Cells 将使用系统默认字体显示这些 unicode 字符
 type: docs
 weight: 70
 url: /zh/net/aspose.cells.rendering/imageorprintoptions/defaultfont/
 ---
 ## ImageOrPrintOptions.DefaultFont property
 
-当 Excel 中的字符为 Unicode 且未在单元格样式中设置正确的字体时， 它们可能在 pdf、图像中显示为块。 设置默认字体如 MingLiu 或 MS Gothic 以显示这些字符。 如果未设置此属性，Aspose.Cells 将使用系统默认字体显示这些 unicode 字符。
+当 Excel 中的字符为 Unicode 且未在单元格样式中设置正确的字体时， 它们可能在 pdf、图像中显示为块。 设置 DefaultFont，例如 MingLiu 或 MS Gothic 以显示这些字符。 如果此属性为未设置，Aspose.Cells 将使用系统默认字体显示这些 unicode 字符。
 
 ```csharp
 public string DefaultFont { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: GridCellException
 second_title: Справочник по Aspose.Cells для .NET API
-description: Исключение возникающее при возникновении указанной ошибки GridJs.
+description: Исключение которое выдается при возникновении указанной ошибки GridJs.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.gridjs/gridcellexception/
 ---
 ## GridCellException class
 
-Исключение, возникающее при возникновении указанной ошибки GridJs.
+Исключение, которое выдается при возникновении указанной ошибки GridJs.
 
 ```csharp
 public class GridCellException : ApplicationException
@@ -21,7 +21,7 @@ public class GridCellException : ApplicationException
 | [Code](../../aspose.cells.gridjs/gridcellexception/code) { get; } | Представляет код исключения. |
 | override [Message](../../aspose.cells.gridjs/gridcellexception/message) { get; } | Представляет сообщение об исключении. |
 | [Source](../../aspose.cells.gridjs/gridcellexception/source) { get; } | Получает имя приложения или объекта, вызвавшего ошибку. |
-| [StackTrace](../../aspose.cells.gridjs/gridcellexception/stacktrace) { get; } | Получает строковое представление непосредственных кадров в стеке вызовов. |
+| [StackTrace](../../aspose.cells.gridjs/gridcellexception/stacktrace) { get; } | Получает строковое представление ближайших кадров в стеке вызовов. |
 
 ## Методы
 

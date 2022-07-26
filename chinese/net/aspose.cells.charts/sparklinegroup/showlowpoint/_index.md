@@ -1,14 +1,14 @@
 ---
 title: ShowLowPoint
 second_title: Aspose.Cells for .NET API 参考
-description: 指示是否突出显示迷你图组中数据的最低点
+description: 表示是否突出显示迷你图组中数据的最低点
 type: docs
 weight: 190
 url: /zh/net/aspose.cells.charts/sparklinegroup/showlowpoint/
 ---
 ## SparklineGroup.ShowLowPoint property
 
-指示是否突出显示迷你图组中数据的最低点。
+表示是否突出显示迷你图组中数据的最低点。
 
 ```csharp
 public bool ShowLowPoint { get; set; }

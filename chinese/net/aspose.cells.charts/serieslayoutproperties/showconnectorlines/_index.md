@@ -1,14 +1,14 @@
 ---
 title: ShowConnectorLines
 second_title: Aspose.Cells for .NET API 参考
-description: 指示是否显示数据点之间的连接线
+description: 表示是否显示数据点之间的连接线
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.charts/serieslayoutproperties/showconnectorlines/
 ---
 ## SeriesLayoutProperties.ShowConnectorLines property
 
-指示是否显示数据点之间的连接线。
+表示是否显示数据点之间的连接线。
 
 ```csharp
 public bool ShowConnectorLines { get; set; }

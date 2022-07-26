@@ -16,7 +16,7 @@ public string ExportToJson(string filename)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| filename | String | имя файла файла. |
+| filename | String | имя файла . |
 
 ### Возвращаемое значение
 
@@ -32,7 +32,7 @@ public string ExportToJson(string filename)
 
 ## ExportToJson() {#exporttojson}
 
-Получить json из книги
+Получить json из рабочей книги
 
 ```csharp
 public string ExportToJson()

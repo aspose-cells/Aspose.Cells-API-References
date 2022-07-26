@@ -16,7 +16,7 @@ public string ObjectSourceFullName { get; set; }
 
 ### 评论
 
-仅支持在文件类型为 OleFileType.Unknown 时设置源全名。 如wav文件,avi文件..etc..
+仅支持在文件类型为 OleFileType.Unknown. 如 wav 文件,avi 文件..etc.. 时设置源全名
 
 ### 也可以看看
 

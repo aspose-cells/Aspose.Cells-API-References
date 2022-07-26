@@ -1,14 +1,14 @@
 ---
 title: IsHangingPunctuation
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает должны ли знаки препинания принудительно размещаться в строке текста или помещаться в другую строку текста.
+description: Указывает должны ли знаки пунктуации быть принудительно размещены в строке текста или помещены в другую строку текста.
 type: docs
 weight: 80
 url: /ru/net/aspose.cells.drawing.texts/textparagraph/ishangingpunctuation/
 ---
 ## TextParagraph.IsHangingPunctuation property
 
-Указывает, должны ли знаки препинания принудительно размещаться в строке текста или помещаться в другую строку текста.
+Указывает, должны ли знаки пунктуации быть принудительно размещены в строке текста или помещены в другую строку текста.
 
 ```csharp
 public bool IsHangingPunctuation { get; set; }

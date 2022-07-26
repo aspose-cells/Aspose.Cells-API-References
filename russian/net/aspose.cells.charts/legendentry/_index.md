@@ -19,10 +19,10 @@ public class LegendEntry
 | Имя | Описание |
 | --- | --- |
 | [AutoScaleFont](../../aspose.cells.charts/legendentry/autoscalefont) { get; set; } | Истинно, если текст в объекте меняет размер шрифта при изменении размера объекта. Значение по умолчанию — True. |
-| [BackgroundMode](../../aspose.cells.charts/legendentry/backgroundmode) { get; set; } | Получает и устанавливает режим отображения фона |
-| [Font](../../aspose.cells.charts/legendentry/font) { get; } | Получает объект[`Font`](./font)указанного объекта ChartFrame. |
+| [BackgroundMode](../../aspose.cells.charts/legendentry/backgroundmode) { get; set; } | Получает и устанавливает режим отображения background |
+| [Font](../../aspose.cells.charts/legendentry/font) { get; } | Получает[`Font`](./font) объект указанного объекта ChartFrame. |
 | [IsDeleted](../../aspose.cells.charts/legendentry/isdeleted) { get; set; } | Получает и устанавливает, удаляется ли запись легенды. |
-| [IsTextNoFill](../../aspose.cells.charts/legendentry/istextnofill) { get; set; } | Получает или задает отсутствие заливки текста. |
+| [IsTextNoFill](../../aspose.cells.charts/legendentry/istextnofill) { get; set; } | Получает или задает незаполнение текста. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ChartSettings
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置这个ChartGlobalizationSettingsaspose.cells.charts/chartglobalizationsettings
+description: 获取或设置此图表ChartGlobalizationSettingsaspose.cells.charts/chartglobalizationsettings
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/globalizationsettings/chartsettings/
 ---
 ## GlobalizationSettings.ChartSettings property
 
-获取或设置这个[`ChartGlobalizationSettings`](../../../aspose.cells.charts/chartglobalizationsettings)
+获取或设置此图表[`ChartGlobalizationSettings`](../../../aspose.cells.charts/chartglobalizationsettings)
 
 ```csharp
 public ChartGlobalizationSettings ChartSettings { get; set; }

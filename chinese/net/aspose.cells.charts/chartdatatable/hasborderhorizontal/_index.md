@@ -1,14 +1,14 @@
 ---
 title: HasBorderHorizontal
 second_title: Aspose.Cells for .NET API 参考
-description: 如果图表数据表具有水平单元格边框则为真
+description: 如果图表数据表有水平单元格边框则为真
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.charts/chartdatatable/hasborderhorizontal/
 ---
 ## ChartDataTable.HasBorderHorizontal property
 
-如果图表数据表具有水平单元格边框，则为真
+如果图表数据表有水平单元格边框，则为真
 
 ```csharp
 public bool HasBorderHorizontal { get; set; }

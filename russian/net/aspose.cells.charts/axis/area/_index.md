@@ -1,14 +1,14 @@
 ---
 title: Area
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПолучаетAreaaspose.cells.charts/axis/area.
+description: ПолучаетAreaaspose.cells.charts/axis/area .
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.charts/axis/area/
 ---
 ## Axis.Area property
 
-Получает`Area`.
+Получает`Area` .
 
 ```csharp
 public Area Area { get; }

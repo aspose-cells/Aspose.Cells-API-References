@@ -1,14 +1,14 @@
 ---
 title: SurfaceLightingType
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置要应用于形状场景的照明类型 默认值为 LightRigType.ThreePoint
+description: 获取和设置要应用于形状场景的光照类型 默认值为 LightRigType.ThreePoint.
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.drawing/format3d/surfacelightingtype/
 ---
 ## Format3D.SurfaceLightingType property
 
-获取和设置要应用于形状场景的照明类型。 默认值为 LightRigType.ThreePoint。
+获取和设置要应用于形状场景的光照类型。 默认值为 LightRigType.ThreePoint.
 
 ```csharp
 public LightRigType SurfaceLightingType { get; set; }

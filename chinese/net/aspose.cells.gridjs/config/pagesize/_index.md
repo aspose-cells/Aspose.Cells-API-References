@@ -1,14 +1,14 @@
 ---
 title: PageSize
 second_title: Aspose.Cells for .NET API 参考
-description: 设置是否分页 GridJs会根据PageSize来限制行大小如果PageSize为-1则不做分页 默认值为 -1
+description: 设置是否分页 GridJs会根据PageSize限制行大小如果PageSize为-1则不做分页 默认值为-1
 type: docs
 weight: 120
 url: /zh/net/aspose.cells.gridjs/config/pagesize/
 ---
 ## Config.PageSize property
 
-设置是否分页 GridJs会根据PageSize来限制行大小，如果PageSize为-1则不做分页 默认值为 -1
+设置是否分页 GridJs会根据PageSize限制行大小，如果PageSize为-1则不做分页 默认值为-1
 
 ```csharp
 public static int PageSize { get; set; }

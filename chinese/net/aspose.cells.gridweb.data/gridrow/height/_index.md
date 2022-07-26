@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Cells for .NET API 参考
-description: 以点为单位获取和设置行高
+description: 以Points为单位获取和设置行高
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.gridweb.data/gridrow/height/
 ---
 ## GridRow.Height property
 
-以点为单位获取和设置行高。
+以Points为单位获取和设置行高。
 
 ```csharp
 public double Height { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает значение ширины по умолчанию для этого экземпляра области задач.
+description: Получает и задает значение ширины по умолчанию для этого экземпляра панели задач.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.webextensions/webextensiontaskpane/width/
 ---
 ## WebExtensionTaskPane.Width property
 
-Получает и задает значение ширины по умолчанию для этого экземпляра области задач.
+Получает и задает значение ширины по умолчанию для этого экземпляра панели задач.
 
 ```csharp
 public double Width { get; set; }

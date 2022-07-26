@@ -1,14 +1,14 @@
 ---
 title: RevisionRenameSheet
 second_title: Aspose.Cells for .NET API 参考
-description: 表示重命名表的修订
+description: 表示重命名工作表的修订版
 type: docs
 weight: 5480
 url: /zh/net/aspose.cells.revisions/revisionrenamesheet/
 ---
 ## RevisionRenameSheet class
 
-表示重命名表的修订。
+表示重命名工作表的修订版。
 
 ```csharp
 public class RevisionRenameSheet : Revision

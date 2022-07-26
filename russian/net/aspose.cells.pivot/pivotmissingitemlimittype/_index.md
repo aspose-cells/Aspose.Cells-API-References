@@ -1,14 +1,14 @@
 ---
 title: PivotMissingItemLimitType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет количество сохраняемых элементов для каждого поля.
+description: Представляет количество сохраняемых элементов в каждом поле.
 type: docs
 weight: 4670
 url: /ru/net/aspose.cells.pivot/pivotmissingitemlimittype/
 ---
 ## PivotMissingItemLimitType enumeration
 
-Представляет количество сохраняемых элементов для каждого поля.
+Представляет количество сохраняемых элементов в каждом поле.
 
 ```csharp
 public enum PivotMissingItemLimitType
@@ -18,9 +18,9 @@ public enum PivotMissingItemLimitType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Automatic | `0` | Разрешенное количество уникальных элементов по умолчанию для PivotField. |
+| Automatic | `0` | Допустимое количество уникальных элементов по умолчанию для PivotField. |
 | Max | `1` | Максимально допустимое количество уникальных элементов в PivotField (&gt;32 500). |
-| None | `2` | Не допускается использование уникальных элементов в PivotField. |
+| None | `2` | Не разрешены уникальные элементы для PivotField. |
 
 ### Смотрите также
 

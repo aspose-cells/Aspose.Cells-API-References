@@ -1,14 +1,14 @@
 ---
 title: LoadValueList
 second_title: Aspose.Cells for .NET API 参考
-description: 从 DataView 对象加载值列表您可以指定 DataView 的值字段和文本字段 每个值和文本对将组合成一个字符串它们之间用逗号分隔
+description: 从 DataView 对象加载值列表您可以指定DataView的值字段和文本字段 每个值和文本对将组合成一个字符串它们之间用逗号隔开
 type: docs
 weight: 220
 url: /zh/net/aspose.cells.gridweb.data/gridvalidation/loadvaluelist/
 ---
 ## GridValidation.LoadValueList method
 
-从 DataView 对象加载值列表。您可以指定 DataView 的值字段和文本字段。 每个值和文本对将组合成一个字符串，它们之间用逗号分隔。
+从 DataView 对象加载值列表。您可以指定DataView的值字段和文本字段。 每个值和文本对将组合成一个字符串，它们之间用逗号隔开。
 
 ```csharp
 public void LoadValueList(DataView view, string valueField, string textField, bool valuePrefixText)
@@ -16,10 +16,10 @@ public void LoadValueList(DataView view, string valueField, string textField, bo
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| view | DataView | DataView 对象。 |
+| view | DataView | 数据视图对象。 |
 | valueField | String | 值字段名称。 |
 | textField | String | 文本字段名称。 |
-| valuePrefixText | Boolean | 表示是否为每个显示的文本添加值前缀。 |
+| valuePrefixText | Boolean | 指示是否为每个显示的文本添加值前缀。 |
 
 ### 也可以看看
 

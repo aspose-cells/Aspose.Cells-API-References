@@ -1,14 +1,14 @@
 ---
 title: WidthInShape
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет ширину фигуры в 1/4000 от родительской фигуры.
+description: Представляет ширину фигуры в единицах 1/4000 родительской фигуры.
 type: docs
 weight: 900
 url: /ru/net/aspose.cells.drawing/shape/widthinshape/
 ---
 ## Shape.WidthInShape property
 
-Представляет ширину фигуры в 1/4000 от родительской фигуры.
+Представляет ширину фигуры в единицах 1/4000 родительской фигуры.
 
 ```csharp
 public int WidthInShape { get; set; }
@@ -16,7 +16,7 @@ public int WidthInShape { get; set; }
 
 ### Примечания
 
-Только Применяется, когда эта фигура находится в группе или на диаграмме.
+Применяется только тогда, когда эта фигура находится в группе или на диаграмме.
 
 ### Примеры
 

@@ -1,14 +1,14 @@
 ---
 title: Reverse
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置是否反转此图标集中图标的默认顺序的标志 默认值为假
+description: 获取或设置是否反转此图标集中图标的默认顺序的标志 默认值为false
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/iconset/reverse/
 ---
 ## IconSet.Reverse property
 
-获取或设置是否反转此图标集中图标的默认顺序的标志。 默认值为假。
+获取或设置是否反转此图标集中图标的默认顺序的标志。 默认值为false。
 
 ```csharp
 public bool Reverse { get; set; }

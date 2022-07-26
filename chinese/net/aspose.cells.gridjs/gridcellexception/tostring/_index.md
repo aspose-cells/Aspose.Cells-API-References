@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.Cells for .NET API 参考
-description: 创建并返回当前异常的字符串表示
+description: 创建并返回当前异常的字符串表示形式
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.gridjs/gridcellexception/tostring/
 ---
 ## GridCellException.ToString method
 
-创建并返回当前异常的字符串表示。
+创建并返回当前异常的字符串表示形式。
 
 ```csharp
 public string ToString()

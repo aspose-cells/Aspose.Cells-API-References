@@ -16,7 +16,7 @@ public void SetUngroup(int baseFieldIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| baseFieldIndex | Int32 | 行或列字段基字段中的索引 |
+| baseFieldIndex | Int32 | 基本字段中的行或列字段索引 |
 
 ### 也可以看看
 
@@ -36,7 +36,7 @@ public void SetUngroup(PivotField pivotField)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pivotField | PivotField | 行或列字段在基本字段 |
+| pivotField | PivotField | 基本字段中的行或列字段 |
 
 ### 也可以看看
 

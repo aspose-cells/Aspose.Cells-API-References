@@ -16,8 +16,8 @@ public void FormatRow(int row, Style style)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| row | Int32 | 行索引Row 对象的 |
-| style | Style | 格式化 |
+| row | Int32 | Row 对象的行索引 |
+| style | Style | 要格式化的样式 |
 
 ### 也可以看看
 

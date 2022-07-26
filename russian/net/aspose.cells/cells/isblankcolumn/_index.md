@@ -3,7 +3,7 @@ title: IsBlankColumn
 second_title: Справочник по Aspose.Cells для .NET API
 description: Проверяет является ли данный столбец пустым не содержит данных.
 type: docs
-weight: 1120
+weight: 1130
 url: /ru/net/aspose.cells/cells/isblankcolumn/
 ---
 ## Cells.IsBlankColumn method
@@ -20,7 +20,7 @@ public bool IsBlankColumn(int columnIndex)
 
 ### Возвращаемое значение
 
-true, если данный столбец не содержать любые данные
+true, если данный столбец не содержит данных
 
 ### Смотрите также
 

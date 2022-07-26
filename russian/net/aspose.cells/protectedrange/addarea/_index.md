@@ -1,14 +1,14 @@
 ---
 title: AddArea
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет указанную область к этой
+description: Добавляет упомянутую область к этому
 type: docs
 weight: 50
 url: /ru/net/aspose.cells/protectedrange/addarea/
 ---
 ## ProtectedRange.AddArea method
 
-Добавляет указанную область к этой
+Добавляет упомянутую область к этому
 
 ```csharp
 public void AddArea(int startRow, int startColumn, int endRow, int endColumn)
@@ -16,9 +16,9 @@ public void AddArea(int startRow, int startColumn, int endRow, int endColumn)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startRow | Int32 | Начальная строка. |
-| startColumn | Int32 | Начальный столбец. |
-| endRow | Int32 | Конечная строка. |
+| startRow | Int32 | Стартовый ряд. |
+| startColumn | Int32 | Стартовая колонка. |
+| endRow | Int32 | Конечный ряд. |
 | endColumn | Int32 | Конечный столбец. |
 
 ### Смотрите также

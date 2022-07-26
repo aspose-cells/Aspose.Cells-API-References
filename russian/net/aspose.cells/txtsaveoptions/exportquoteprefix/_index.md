@@ -1,14 +1,14 @@
 ---
 title: ExportQuotePrefix
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает следует ли экспортировать одинарную кавычку как часть значения одной ячейки whenQuotePrefixaspose.cells/style/quoteprefixдля него истинно. Значение по умолчанию  ложь.
+description: Указывает следует ли экспортировать знак одинарной кавычки как часть значения одного cell  когдаQuotePrefixaspose.cells/style/quoteprefix верно для него. По умолчанию false.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells/txtsaveoptions/exportquoteprefix/
 ---
 ## TxtSaveOptions.ExportQuotePrefix property
 
-Указывает, следует ли экспортировать одинарную кавычку как часть значения одной ячейки when[`QuotePrefix`](../../style/quoteprefix)для него истинно. Значение по умолчанию — ложь.
+Указывает, следует ли экспортировать знак одинарной кавычки как часть значения одного cell , когда[`QuotePrefix`](../../style/quoteprefix) верно для него. По умолчанию false.
 
 ```csharp
 public bool ExportQuotePrefix { get; set; }

@@ -36,11 +36,11 @@ public virtual MemoryStream CreateMemoryStream(int capacity)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| capacity | Int32 | MemoryStream |
+| capacity | Int32 | MemoryStream 的初始容量 |
 
 ### 返回值
 
-MemoryStream 实例的初始容量。
+MemoryStream 实例。
 
 ### 也可以看看
 

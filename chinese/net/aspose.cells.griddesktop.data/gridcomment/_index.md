@@ -21,7 +21,7 @@ public class GridComment
 | [Author](../../aspose.cells.griddesktop.data/gridcomment/author) { get; set; } |  |
 | [AutoSize](../../aspose.cells.griddesktop.data/gridcomment/autosize) { get; set; } |  |
 | [Column](../../aspose.cells.griddesktop.data/gridcomment/column) { get; } |  |
-| [Height](../../aspose.cells.griddesktop.data/gridcomment/height) { get; set; } | 获取或设置评论的高度。默认值为 120。 输入值应介于 20 和 1000 之间。 如果输入小于 20 的值，将设置为 20。 如果输入大于 1000 的值，它将被设置为 1000。 |
+| [Height](../../aspose.cells.griddesktop.data/gridcomment/height) { get; set; } | 获取或设置评论的高度。默认值为 120. 输入值应在 20 和 1000 之间。 如果输入小于 20 的值，将设置为 20。 如果输入大于 1000 的值，将设置为 1000。 |
 | [HeightCM](../../aspose.cells.griddesktop.data/gridcomment/heightcm) { get; set; } |  |
 | [HeightInch](../../aspose.cells.griddesktop.data/gridcomment/heightinch) { get; set; } |  |
 | [HtmlNote](../../aspose.cells.griddesktop.data/gridcomment/htmlnote) { get; set; } |  |
@@ -30,7 +30,7 @@ public class GridComment
 | [Row](../../aspose.cells.griddesktop.data/gridcomment/row) { get; } |  |
 | [Text](../../aspose.cells.griddesktop.data/gridcomment/text) { get; set; } |  |
 | [Visible](../../aspose.cells.griddesktop.data/gridcomment/visible) { get; set; } |  |
-| [Width](../../aspose.cells.griddesktop.data/gridcomment/width) { get; set; } | 获取或设置评论的宽度。默认值为 140。 输入值应介于 20 和 1000 之间。 如果输入小于 20 的值，将设置为 20。 如果输入大于 1000 的值，它将被设置为 1000。 |
+| [Width](../../aspose.cells.griddesktop.data/gridcomment/width) { get; set; } | 获取或设置评论的宽度。默认值为140. 输入值应在20到1000之间。 如果输入小于20的值将设置为20. 如果输入大于1000的值将设置为1000. |
 | [WidthCM](../../aspose.cells.griddesktop.data/gridcomment/widthcm) { get; set; } |  |
 | [WidthInch](../../aspose.cells.griddesktop.data/gridcomment/widthinch) { get; set; } |  |
 

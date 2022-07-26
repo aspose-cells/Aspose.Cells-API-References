@@ -1,14 +1,14 @@
 ---
 title: LeftToCorner
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает горизонтальное смещение фигуры от левой границы рабочего листа.
+description: Получает и задает горизонтальное смещение фигуры от левой границы листа.
 type: docs
 weight: 440
 url: /ru/net/aspose.cells.drawing/shape/lefttocorner/
 ---
 ## Shape.LeftToCorner property
 
-Получает и задает горизонтальное смещение фигуры от левой границы рабочего листа.
+Получает и задает горизонтальное смещение фигуры от левой границы листа.
 
 ```csharp
 public int LeftToCorner { get; set; }

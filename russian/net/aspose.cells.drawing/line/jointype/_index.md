@@ -1,14 +1,14 @@
 ---
 title: JoinType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает соединительные заглавные буквы.
+description: Определяет соединительные заглавные буквы.
 type: docs
 weight: 160
 url: /ru/net/aspose.cells.drawing/line/jointype/
 ---
 ## Line.JoinType property
 
-Указывает соединительные заглавные буквы.
+Определяет соединительные заглавные буквы.
 
 ```csharp
 public LineJoinType JoinType { get; set; }

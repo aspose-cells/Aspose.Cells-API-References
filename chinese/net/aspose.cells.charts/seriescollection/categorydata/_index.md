@@ -1,14 +1,14 @@
 ---
 title: CategoryData
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置类别轴值的范围 可以是一个单元格范围例如d1e10 或一系列值例如26810 
+description: 获取或设置类别轴值的范围 可以是单元格范围例如d1e10 或一系列值例如26810
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.charts/seriescollection/categorydata/
 ---
 ## SeriesCollection.CategoryData property
 
-获取或设置类别轴值的范围。 可以是一个单元格范围（例如，“d1:e10”）、 或一系列值（例如，“{2,6,8,10 }”）。
+获取或设置类别轴值的范围。 可以是单元格范围（例如，“d1:e10”）、 或一系列值（例如，“{2,6,8,10}”）。
 
 ```csharp
 public string CategoryData { get; set; }

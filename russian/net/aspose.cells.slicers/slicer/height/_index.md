@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает или задает высоту указанного среза в пунктах.
+description: Возвращает или задает высоту указанного слайсера в пунктах.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.slicers/slicer/height/
 ---
 ## Slicer.Height property
 
-Возвращает или задает высоту указанного среза в пунктах.
+Возвращает или задает высоту указанного слайсера в пунктах.
 
 ```csharp
 public double Height { get; set; }

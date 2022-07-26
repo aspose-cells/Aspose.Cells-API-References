@@ -1,14 +1,14 @@
 ---
 title: LineType
 second_title: Aspose.Cells for .NET API 参考
-description: 枚举Picture./picture边框或Chart线
+description: 枚举类型Picture./picture边界或Chart../aspose.cells.charts/chart线.
 type: docs
 weight: 2250
 url: /zh/net/aspose.cells.drawing/linetype/
 ---
 ## LineType enumeration
 
-枚举[`Picture`](../picture)边框或Chart线。
+枚举类型[`Picture`](../picture)边界或[`Chart`](../../aspose.cells.charts/chart)线.
 
 ```csharp
 public enum LineType
@@ -18,13 +18,13 @@ public enum LineType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| DarkGray | `6` | 表示深灰色线。 |
+| DarkGray | `6` | 表示一条深灰色的线。 |
 | Dash | `1` | 表示虚线。 |
 | DashDot | `3` | 表示点划线 |
 | DashDotDot | `4` | 表示点划线。 |
 | Dot | `2` | 表示虚线。 |
 | LightGray | `8` | 表示浅灰色线。 |
-| MediumGray | `7` | 表示中灰色线。 |
+| MediumGray | `7` | 代表一条中灰线。 |
 | Solid | `0` | 表示实线。 |
 
 ### 也可以看看

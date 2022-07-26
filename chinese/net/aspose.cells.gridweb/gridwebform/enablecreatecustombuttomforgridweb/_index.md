@@ -1,14 +1,14 @@
 ---
 title: EnableCreateCustomButtomForGridWeb
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置是否在 GridWeb 控件的命令栏中创建切换按钮
+description: 获取或设置是否在GridWeb控件的命令栏中创建切换按钮
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.gridweb/gridwebform/enablecreatecustombuttomforgridweb/
 ---
 ## GridWebForm.EnableCreateCustomButtomForGridWeb property
 
-获取或设置是否在 GridWeb 控件的命令栏中创建切换按钮。
+获取或设置是否在GridWeb控件的命令栏中创建切换按钮。
 
 ```csharp
 public bool EnableCreateCustomButtomForGridWeb { get; set; }

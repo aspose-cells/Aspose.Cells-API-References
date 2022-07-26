@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定索引处的Pictureaspose.cells.drawing/picture元素
+description: 获取Pictureaspose.cells.drawing/picture指定索引处的元素
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.drawing/picturecollection/item/
 ---
 ## PictureCollection indexer
 
-获取指定索引处的[`Picture`](../../picture)元素。
+获取[`Picture`](../../picture)指定索引处的元素。
 
 ```csharp
 public Picture this[int index] { get; }
@@ -27,11 +27,11 @@ public Picture this[int index] { get; }
 ```csharp
 
 [C#]
- //获取图片集合
- //PictureCollection 图片 = workbook.Worksheets[0].Pictures;
+//获取图片集合
+//PictureCollection 图片 = workbook.Worksheets[0].Pictures;
 //添加图片
 int index = pictures.Add(1, 1, "image.png");
- //获取图片
+//获取图片
 Picture pic = pictures[index];
 ```
 

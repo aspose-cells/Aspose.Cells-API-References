@@ -3,7 +3,7 @@ title: ImportGridView
 second_title: Aspose.Cells for .NET API 参考
 description: 将网格视图导入此单元格
 type: docs
-weight: 1030
+weight: 1040
 url: /zh/net/aspose.cells/cells/importgridview/
 ---
 ## Cells.ImportGridView method
@@ -19,7 +19,7 @@ public int ImportGridView(GridView gridView, int firstRow, int firstColumn,
 | --- | --- | --- |
 | gridView | GridView | 网格视图对象。 |
 | firstRow | Int32 | 要导入的第一个单元格的行号。 |
-| firstColumn | Int32 | 列号要导入的第一个单元格。 |
+| firstColumn | Int32 | 要导入的第一个单元格的列号。 |
 | options | ImportTableOptions | 导入选项。 |
 
 ### 返回值

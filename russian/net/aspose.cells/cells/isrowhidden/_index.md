@@ -1,14 +1,14 @@
 ---
 title: IsRowHidden
 second_title: Справочник по Aspose.Cells для .NET API
-description: Проверяет скрыта ли строка с заданным индексом.
+description: Проверяет скрыта ли строка с данным индексом.
 type: docs
-weight: 1150
+weight: 1160
 url: /ru/net/aspose.cells/cells/isrowhidden/
 ---
 ## Cells.IsRowHidden method
 
-Проверяет, скрыта ли строка с заданным индексом.
+Проверяет, скрыта ли строка с данным индексом.
 
 ```csharp
 public bool IsRowHidden(int rowIndex)

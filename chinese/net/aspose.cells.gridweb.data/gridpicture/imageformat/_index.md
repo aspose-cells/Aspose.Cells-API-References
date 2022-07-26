@@ -1,14 +1,14 @@
 ---
 title: ImageFormat
 second_title: Aspose.Cells for .NET API 参考
-description: 获取图片的图片格式
+description: 获取图片的图像格式
 type: docs
 weight: 160
 url: /zh/net/aspose.cells.gridweb.data/gridpicture/imageformat/
 ---
 ## GridPicture.ImageFormat property
 
-获取图片的图片格式。
+获取图片的图像格式
 
 ```csharp
 public GridImageType ImageFormat { get; }

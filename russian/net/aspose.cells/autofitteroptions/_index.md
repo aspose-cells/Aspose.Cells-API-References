@@ -24,13 +24,13 @@ public class AutoFitterOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AutoFitMergedCellsType](../../aspose.cells/autofitteroptions/autofitmergedcellstype) { get; set; } | Получает и устанавливает тип автоподбора высоты строки объединенных ячеек. |
-| [AutoFitWrappedTextType](../../aspose.cells/autofitteroptions/autofitwrappedtexttype) { get; set; } | Получает и задает тип автоподбора текста в оболочке. |
+| [AutoFitMergedCellsType](../../aspose.cells/autofitteroptions/autofitmergedcellstype) { get; set; } | Получает и устанавливает тип автоматической подгонки высоты строки объединенных ячеек. |
+| [AutoFitWrappedTextType](../../aspose.cells/autofitteroptions/autofitwrappedtexttype) { get; set; } | Получает и задает тип автоподгонки обернутого текста. |
 | [DefaultEditLanguage](../../aspose.cells/autofitteroptions/defaulteditlanguage) { get; set; } | Получает или устанавливает язык редактирования по умолчанию. |
 | [FormatStrategy](../../aspose.cells/autofitteroptions/formatstrategy) { get; set; } | Получает и задает отформатированную стратегию. |
 | [IgnoreHidden](../../aspose.cells/autofitteroptions/ignorehidden) { get; set; } | Игнорирует скрытые строки/столбцы. |
-| [MaxRowHeight](../../aspose.cells/autofitteroptions/maxrowheight) { get; set; } | Получает и устанавливает максимальную высоту строки (в единицах Point) при автоподгонке строк. |
-| [OnlyAuto](../../aspose.cells/autofitteroptions/onlyauto) { get; set; } | Указывает, подходят ли только строки, высота которых не настроена. |
+| [MaxRowHeight](../../aspose.cells/autofitteroptions/maxrowheight) { get; set; } | Получает и устанавливает максимальную высоту строки (в точках) при автоподгонке строк. |
+| [OnlyAuto](../../aspose.cells/autofitteroptions/onlyauto) { get; set; } | Указывает, подходят ли только те строки, высота которых не настроена пользователем. |
 
 ### Смотрите также
 

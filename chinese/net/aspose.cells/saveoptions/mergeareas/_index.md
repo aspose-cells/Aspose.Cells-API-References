@@ -16,7 +16,7 @@ public bool MergeAreas { get; set; }
 
 ### 评论
 
-默认值为 false。
+默认值为false。
 
 ### 也可以看看
 

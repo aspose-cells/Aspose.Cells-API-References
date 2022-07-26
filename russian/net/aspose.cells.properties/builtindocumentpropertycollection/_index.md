@@ -29,15 +29,15 @@ public class BuiltInDocumentPropertyCollection : DocumentPropertyCollection
 | [CreatedUniversalTime](../../aspose.cells.properties/builtindocumentpropertycollection/createduniversaltime) { get; set; } | Получает или задает универсальное время создания документа. |
 | [DocumentVersion](../../aspose.cells.properties/builtindocumentpropertycollection/documentversion) { get; set; } | Представляет версию файла. |
 | [HyperlinkBase](../../aspose.cells.properties/builtindocumentpropertycollection/hyperlinkbase) { get; set; } | Получает или задает свойство базы гиперссылок. |
-| [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Возвращает объект[`DocumentProperty`](../documentproperty)по индексу. |
-| override [Item](../../aspose.cells.properties/builtindocumentpropertycollection/item) { get; } | Возвращает объект[`DocumentProperty`](../documentproperty)по имени свойства. |
+| [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Возвращает[`DocumentProperty`](../documentproperty)объект по индексу. |
+| override [Item](../../aspose.cells.properties/builtindocumentpropertycollection/item) { get; } | Возвращает[`DocumentProperty`](../documentproperty) объект по имени свойства. |
 | [Keywords](../../aspose.cells.properties/builtindocumentpropertycollection/keywords) { get; set; } | Получает или задает ключевые слова документа. |
 | [Language](../../aspose.cells.properties/builtindocumentpropertycollection/language) { get; set; } | Получает или задает язык документа. |
 | [LastPrinted](../../aspose.cells.properties/builtindocumentpropertycollection/lastprinted) { get; set; } | Получает или задает дату последней печати документа в местном часовом поясе. |
 | [LastPrintedUniversalTime](../../aspose.cells.properties/builtindocumentpropertycollection/lastprinteduniversaltime) { get; set; } | Получает или задает универсальное время последней печати документа. |
 | [LastSavedBy](../../aspose.cells.properties/builtindocumentpropertycollection/lastsavedby) { get; set; } | Получает или задает имя последнего автора. |
-| [LastSavedTime](../../aspose.cells.properties/builtindocumentpropertycollection/lastsavedtime) { get; set; } | Получает или устанавливает время последнего сохранения в местном часовом поясе. |
-| [LastSavedUniversalTime](../../aspose.cells.properties/builtindocumentpropertycollection/lastsaveduniversaltime) { get; set; } | Получает или устанавливает универсальное время последнего сохранения. |
+| [LastSavedTime](../../aspose.cells.properties/builtindocumentpropertycollection/lastsavedtime) { get; set; } | Получает или задает время последнего сохранения в местном часовом поясе. |
+| [LastSavedUniversalTime](../../aspose.cells.properties/builtindocumentpropertycollection/lastsaveduniversaltime) { get; set; } | Получает или задает универсальное время последнего сохранения. |
 | [LinksUpToDate](../../aspose.cells.properties/builtindocumentpropertycollection/linksuptodate) { get; set; } | Указывает, являются ли гиперссылки в документе актуальными. |
 | [Manager](../../aspose.cells.properties/builtindocumentpropertycollection/manager) { get; set; } | Получает или задает свойство менеджера. |
 | [NameOfApplication](../../aspose.cells.properties/builtindocumentpropertycollection/nameofapplication) { get; set; } | Получает или задает имя приложения. |
@@ -56,7 +56,7 @@ public class BuiltInDocumentPropertyCollection : DocumentPropertyCollection
 | Имя | Описание |
 | --- | --- |
 | [Clear](../../aspose.cells.properties/documentpropertycollection/clear)() | Удаляет все свойства из коллекции. |
-| [Contains](../../aspose.cells.properties/documentpropertycollection/contains)(string) | Возвращает true, если свойство с указанным именем существует в коллекции. |
+| [Contains](../../aspose.cells.properties/documentpropertycollection/contains)(string) | Возвращает значение true, если свойство с указанным именем существует в коллекции. |
 | [GetEnumerator](../../aspose.cells.properties/documentpropertycollection/getenumerator)() |  |
 | [IndexOf](../../aspose.cells.properties/documentpropertycollection/indexof)(string) | Получает индекс свойства по имени. |
 | [Remove](../../aspose.cells.properties/documentpropertycollection/remove)(string) | Удаляет свойство с указанным именем из коллекции. |
@@ -64,7 +64,7 @@ public class BuiltInDocumentPropertyCollection : DocumentPropertyCollection
 
 ### Примечания
 
-Предоставляет доступ к[`DocumentProperty`](../documentproperty)объекты по их именам (с помощью индексатора) и через набор типизированных свойств, которые возвращают значения соответствующих типов.
+Обеспечивает доступ к[`DocumentProperty`](../documentproperty) объекты по их именам (с помощью индексатора) и через набор типизированных свойств, которые возвращают значения соответствующих типов.
 
 ### Смотрите также
 

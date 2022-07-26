@@ -1,14 +1,14 @@
 ---
 title: GridImageType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает тип формат изображения.
+description: Определяет тип формат изображения.
 type: docs
 weight: 280
 url: /ru/net/aspose.cells.gridweb.data/gridimagetype/
 ---
 ## GridImageType enumeration
 
-Указывает тип (формат) изображения.
+Определяет тип (формат) изображения.
 
 ```csharp
 public enum GridImageType
@@ -21,11 +21,11 @@ public enum GridImageType
 | Unknown | `0` | Неизвестный тип изображения. |
 | Emf | `2` | Расширенный метафайл Windows. |
 | Wmf | `3` | Метафайл Windows. |
-| Pict | `4` | Macintosh PICT. |
+| Pict | `4` | Macintosh ИЗОБРАЖЕНИЕ. |
 | Jpeg | `5` | JPEG JFIF. |
 | Png | `6` | Портативная сетевая графика. |
-| Bmp | `7` | Windows Bitmam |
-| Gif | `66` | Gif |
+| Bmp | `7` | Битмам Windows |
+| Gif | `66` | GIF |
 | Tiff | `67` | Тифф |
 | Svg | `68` | Svg |
 | Svm | `69` | Свм |

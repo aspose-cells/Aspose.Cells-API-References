@@ -25,8 +25,8 @@ public class WorkbookMetadata
 
 | Имя | Описание |
 | --- | --- |
-| [BuiltInDocumentProperties](../../aspose.cells.metadata/workbookmetadata/builtindocumentproperties) { get; } | Возвращает коллекцию[`DocumentProperty`](../../aspose.cells.properties/documentproperty), которая представляет все встроенные свойства документа электронной таблицы. |
-| [CustomDocumentProperties](../../aspose.cells.metadata/workbookmetadata/customdocumentproperties) { get; } | Возвращает коллекцию[`DocumentProperty`](../../aspose.cells.properties/documentproperty), которая представляет все настраиваемые свойства документа электронной таблицы. |
+| [BuiltInDocumentProperties](../../aspose.cells.metadata/workbookmetadata/builtindocumentproperties) { get; } | Возвращает[`DocumentProperty`](../../aspose.cells.properties/documentproperty) коллекция, которая представляет все встроенные свойства документа электронной таблицы. |
+| [CustomDocumentProperties](../../aspose.cells.metadata/workbookmetadata/customdocumentproperties) { get; } | Возвращает[`DocumentProperty`](../../aspose.cells.properties/documentproperty) коллекция, которая представляет все настраиваемые свойства документа электронной таблицы. |
 | [Options](../../aspose.cells.metadata/workbookmetadata/options) { get; } | Получает параметры метаданных. |
 
 ## Методы

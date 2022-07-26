@@ -1,14 +1,14 @@
 ---
 title: Appref
 second_title: Aspose.Cells for .NET API 参考
-description: 获取并设置用于将此列表中的绑定条目与文档中的绑定数据映射的绑定键
+description: 获取并设置绑定键用于将此列表中的绑定条目与文档中的绑定数据映射
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.webextensions/webextensionbinding/appref/
 ---
 ## WebExtensionBinding.Appref property
 
-获取并设置用于将此列表中的绑定条目与文档中的绑定数据映射的绑定键。
+获取并设置绑定键，用于将此列表中的绑定条目与文档中的绑定数据映射。
 
 ```csharp
 public string Appref { get; set; }

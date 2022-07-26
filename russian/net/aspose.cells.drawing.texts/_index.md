@@ -1,12 +1,12 @@
 ---
 title: Aspose.Cells.Drawing.Texts
 second_title: Справочник по Aspose.Cells для .NET API
-description: Содержит все классы текстов.
+description: Содержит все классы для настройки текстов чертежа.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.drawing.texts/
 ---
-Содержит все классы текстов.
+Содержит все классы для настройки текстов чертежа.
 
 ## Классы
 
@@ -16,8 +16,8 @@ url: /ru/net/aspose.cells.drawing.texts/
 | [Bullet](./bullet) | Представляет пулю. |
 | [BulletValue](./bulletvalue) | Представляет значение маркера. |
 | [CharacterBulletValue](./characterbulletvalue) | Представляет маркер символа. |
-| [FontSettingCollection](./fontsettingcollection) | Представляет список[`FontSetting`](../aspose.cells/fontsetting). |
-| [NoneBulletValue](./nonebulletvalue) | Не указывает на пулю. |
+| [FontSettingCollection](./fontsettingcollection) | Представляет список[`FontSetting`](../aspose.cells/fontsetting) . |
+| [NoneBulletValue](./nonebulletvalue) | Не представляет маркер. |
 | [PictureBulletValue](./picturebulletvalue) | Представляет значение маркера изображения. |
 | [ShapeTextAlignment](./shapetextalignment) | Представляет настройку выравнивания текста фигуры; |
 | [TextOptions](./textoptions) | Представляет параметры текста. |
@@ -31,7 +31,7 @@ url: /ru/net/aspose.cells.drawing.texts/
 | --- | --- |
 | [BulletType](./bullettype) | Представляет тип пули. |
 | [LineSpaceSizeType](./linespacesizetype) | Представляет тип единицы измерения размера межстрочного интервала. |
-| [TextAutonumberScheme](./textautonumberscheme) | Представляет всю автоматическую схему нумерации. |
+| [TextAutonumberScheme](./textautonumberscheme) | Представляет всю схему автоматической нумерации. |
 | [TextFontAlignType](./textfontaligntype) | Представляет различные типы выравнивания шрифта. |
 | [TextNodeType](./textnodetype) | Представляет тип узла. |
 | [TextTabAlignmentType](./texttabalignmenttype) | Представляет типы выравнивания текстовой вкладки. |

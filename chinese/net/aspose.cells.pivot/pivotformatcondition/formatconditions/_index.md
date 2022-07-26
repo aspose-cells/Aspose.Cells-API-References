@@ -1,14 +1,14 @@
 ---
 title: FormatConditions
 second_title: Aspose.Cells for .NET API 参考
-description: 获取数据透视表条件格式的格式条件
+description: 获取数据透视表条件格式的 formatconditions .
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.pivot/pivotformatcondition/formatconditions/
 ---
 ## PivotFormatCondition.FormatConditions property
 
-获取数据透视表条件格式的格式条件。
+获取数据透视表条件格式的 formatconditions .
 
 ```csharp
 public FormatConditionCollection FormatConditions { get; }

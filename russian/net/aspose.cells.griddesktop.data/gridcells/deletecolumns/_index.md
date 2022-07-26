@@ -17,8 +17,8 @@ public void DeleteColumns(int columnIndex, int totalColumns, bool updateReferenc
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | columnIndex | Int32 | Индекс столбца. |
-| totalColumns | Int32 | Количество удаляемых столбцов. |
-| updateReference | Boolean | Указывает, обновляются ли ссылки в других рабочих листах. |
+| totalColumns | Int32 | Количество столбцов, которые необходимо удалить. |
+| updateReference | Boolean | Указывает, обновляются ли ссылки на других листах. |
 
 ### Смотрите также
 

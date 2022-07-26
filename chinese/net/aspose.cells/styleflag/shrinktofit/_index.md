@@ -1,14 +1,14 @@
 ---
 title: ShrinkToFit
 second_title: Aspose.Cells for .NET API 参考
-description: 将应用收缩以适应设置
+description: 将应用缩小以适应设置
 type: docs
 weight: 270
 url: /zh/net/aspose.cells/styleflag/shrinktofit/
 ---
 ## StyleFlag.ShrinkToFit property
 
-将应用收缩以适应设置。
+将应用缩小以适应设置。
 
 ```csharp
 public bool ShrinkToFit { get; set; }
