@@ -19,10 +19,10 @@ public enum ControlSpecialEffectType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Flat | `0` | 平面 |
-| Raised | `1` | 提升 |
+| Raised | `1` | 升起 |
 | Sunken | `2` | 沉没 |
 | Etched | `3` | 蚀刻 |
-| Bump | `6` | 凹凸 |
+| Bump | `6` | 颠簸 |
 
 ### 也可以看看
 

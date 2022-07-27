@@ -16,7 +16,7 @@ public CustomProperty this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引。 |
+| index | 指数。 |
 
 ### 返回值
 
@@ -33,7 +33,7 @@ public CustomProperty this[int index] { get; }
 
 ## CustomPropertyCollection indexer (2 of 2)
 
-通过属性名称获取自定义属性。
+通过属性名获取自定义属性。
 
 ```csharp
 public CustomProperty this[string name] { get; }

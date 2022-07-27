@@ -1,14 +1,14 @@
 ---
 title: ShapeClick
 second_title: Справочник по Aspose.Cells для .NET API
-description: Происходит при щелчке фигуры.
+description: Происходит при нажатии на фигуру.
 type: docs
 weight: 630
 url: /ru/net/aspose.cells.griddesktop/griddesktop/shapeclick/
 ---
 ## GridDesktop.ShapeClick event
 
-Происходит при щелчке фигуры.
+Происходит при нажатии на фигуру.
 
 ```csharp
 public event CellEventHandler ShapeClick;

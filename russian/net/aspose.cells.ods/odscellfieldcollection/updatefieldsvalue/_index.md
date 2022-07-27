@@ -1,14 +1,14 @@
 ---
 title: UpdateFieldsValue
 second_title: Справочник по Aspose.Cells для .NET API
-description: Обновление значения полей в ячейках.
+description: Обновить значение полей в ячейках.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.ods/odscellfieldcollection/updatefieldsvalue/
 ---
 ## OdsCellFieldCollection.UpdateFieldsValue method
 
-Обновление значения полей в ячейках.
+Обновить значение полей в ячейках.
 
 ```csharp
 public void UpdateFieldsValue()

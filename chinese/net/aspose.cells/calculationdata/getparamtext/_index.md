@@ -16,11 +16,11 @@ public string GetParamText(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 参数索引（基于 0） |
+| index | Int32 | 参数索引（基于0） |
 
 ### 返回值
 
-文字参数文本
+参数的文字文本
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public void RemoveArea(int startRow, int startColumn, int totalRows, int totalCo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startRow | Int32 | Начальная строка диапазона. |
+| startRow | Int32 | Начальный ряд диапазона. |
 | startColumn | Int32 | Начальный столбец диапазона. |
 | totalRows | Int32 | Количество строк диапазона. |
 | totalColumns | Int32 | Количество столбцов диапазона. |

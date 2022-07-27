@@ -1,14 +1,14 @@
 ---
 title: ShowStyleDialog
 second_title: Aspose.Cells for .NET API 参考
-description: 打开样式对话框设置单元格样式字体颜色等
+description: 打开一个样式对话框设置单元格样式字体颜色等
 type: docs
 weight: 790
 url: /zh/net/aspose.cells.griddesktop/griddesktop/showstyledialog/
 ---
 ## GridDesktop.ShowStyleDialog method
 
-打开样式对话框，设置单元格样式、字体、颜色等
+打开一个样式对话框，设置单元格样式、字体、颜色等。
 
 ```csharp
 public void ShowStyleDialog()

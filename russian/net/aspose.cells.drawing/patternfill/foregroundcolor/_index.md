@@ -1,14 +1,14 @@
 ---
 title: ForegroundColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает передний планColor.
+description: Получает или устанавливает передний планColor .
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.drawing/patternfill/foregroundcolor/
 ---
 ## PatternFill.ForegroundColor property
 
-Получает или задает передний планColor.
+Получает или устанавливает передний планColor .
 
 ```csharp
 public Color ForegroundColor { get; set; }

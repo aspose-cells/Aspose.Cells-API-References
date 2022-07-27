@@ -1,14 +1,14 @@
 ---
 title: AutoFitColsAndRows
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает подбираются ли столбцы и строки автоматически. Значение по умолчанию неверно.
+description: Указывает будут ли автоматически подбираться столбцы и строки. Значение по умолчанию  false.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/htmlloadoptions/autofitcolsandrows/
 ---
 ## HtmlLoadOptions.AutoFitColsAndRows property
 
-Указывает, подбираются ли столбцы и строки автоматически. Значение по умолчанию неверно.
+Указывает, будут ли автоматически подбираться столбцы и строки. Значение по умолчанию — false.
 
 ```csharp
 public bool AutoFitColsAndRows { get; set; }

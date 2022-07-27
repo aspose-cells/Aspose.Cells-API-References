@@ -20,14 +20,14 @@ public class GradientStopCollection : CollectionBase<GradientStop>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.drawing/gradientstopcollection/item) { get; set; } | Получает точку градиента по индексу. (2 indexers) |
+| [Item](../../aspose.cells.drawing/gradientstopcollection/item) { get; set; } | Получает остановку градиента по индексу. (2 indexers) |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells.drawing/gradientstopcollection/add#add)(double, CellsColor, int) | Добавьте точку градиента. |
-| [Add](../../aspose.cells.drawing/gradientstopcollection/add#add_1)(double, Color, int) | Добавьте точку градиента. |
+| [Add](../../aspose.cells.drawing/gradientstopcollection/add#add)(double, CellsColor, int) | Добавить точку градиента. |
+| [Add](../../aspose.cells.drawing/gradientstopcollection/add#add_1)(double, Color, int) | Добавить точку градиента. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(GradientStop) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(GradientStop, IComparer&lt;GradientStop&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, GradientStop, IComparer&lt;GradientStop&gt;) |  |

@@ -1,14 +1,14 @@
 ---
 title: SetProtected
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает cellRange защищен ли он. Это расширенный метод используемый только в Grid. Этот метод не имеет ничего общего со свойством cell.Style.CellLocked Он не повлияет после сохранения в файл excel.
+description: Устанавливает для cellRange защиту. Это расширенный метод используемый только в Grid. Этот метод не имеет ничего общего со свойством cell.Style.CellLocked Он не повлияет после сохранения в файл excel.
 type: docs
 weight: 1090
 url: /ru/net/aspose.cells.griddesktop/worksheet/setprotected/
 ---
 ## Worksheet.SetProtected method
 
-Устанавливает cellRange, защищен ли он. Это расширенный метод, используемый только в Grid. Этот метод не имеет ничего общего со свойством cell.Style.CellLocked Он не повлияет после сохранения в файл excel.
+Устанавливает для cellRange защиту. Это расширенный метод, используемый только в Grid. Этот метод не имеет ничего общего со свойством cell.Style.CellLocked Он не повлияет после сохранения в файл excel.
 
 ```csharp
 public void SetProtected(CellRange range, bool isProtected)
@@ -17,7 +17,7 @@ public void SetProtected(CellRange range, bool isProtected)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | range | CellRange | Объект CellRange. |
-| isProtected | Boolean | Логическое значение для установки. |
+| isProtected | Boolean | Логическое значение, которое необходимо установить. |
 
 ### Смотрите также
 

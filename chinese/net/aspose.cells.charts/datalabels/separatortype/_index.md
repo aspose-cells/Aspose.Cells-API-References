@@ -1,14 +1,14 @@
 ---
 title: SeparatorType
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置用于图表数据标签的分隔符类型
+description: 获取或设置用于图表上数据标签的分隔符类型
 type: docs
 weight: 130
 url: /zh/net/aspose.cells.charts/datalabels/separatortype/
 ---
 ## DataLabels.SeparatorType property
 
-获取或设置用于图表数据标签的分隔符类型。
+获取或设置用于图表上数据标签的分隔符类型。
 
 ```csharp
 public DataLabelsSeparatorType SeparatorType { get; set; }
@@ -16,7 +16,7 @@ public DataLabelsSeparatorType SeparatorType { get; set; }
 
 ### 评论
 
-要设置自定义分隔符，请设置属性SeparatorTypeasCustom然后指定DataLabels的预期值。分隔符值。
+要设置自定义分隔符，请设置属性`SeparatorType`作为Custom然后指定期望值[`SeparatorValue`](../separatorvalue).
 
 ### 也可以看看
 

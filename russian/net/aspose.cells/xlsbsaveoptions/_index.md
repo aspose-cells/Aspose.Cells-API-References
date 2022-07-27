@@ -26,17 +26,17 @@ public class XlsbSaveOptions : SaveOptions
 | --- | --- |
 | [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder) { get; set; } | Папка с кэшированными файлами используется для хранения больших данных. |
 | [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | Сделайте рабочую книгу пустой после сохранения файла. |
-| [CompressionType](../../aspose.cells/xlsbsaveoptions/compressiontype) { get; set; } | Получает и устанавливает тип сжатия для файла ooxml. |
+| [CompressionType](../../aspose.cells/xlsbsaveoptions/compressiontype) { get; set; } | Получает и задает тип сжатия для файла ooxml. |
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | Если true и каталог не существует, каталог будет автоматически создан перед сохранением файла. |
 | [ExportAllColumnIndexes](../../aspose.cells/xlsbsaveoptions/exportallcolumnindexes) { get; set; } | Указывает, экспортируются ли все индексы столбцов для ячеек. |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Указывает, объединяются ли области условного форматирования и проверки перед сохранением файла. |
-| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Указывает, обновляются ли данные кэша диаграммы |
+| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Указывает, нужно ли обновлять кэш диаграммы data |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Получает формат файла сохранения. |
 | [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | Указывает, выполняется ли сортировка внешних определенных имен перед сохранением файла. |
 | [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | Указывает, выполняется ли сортировка определенных имен перед сохранением файла. |
-| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Указывает, обновляются ли настройки смарт-арта. Значение по умолчанию — false. |
+| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Указывает, обновляются ли настройки Smart Art. Значение по умолчанию — false. |
 | [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas) { get; set; } | Указывает, следует ли проверять объединенные ячейки перед сохранением файла. |
-| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Получает или устанавливает обратный вызов предупреждения. |
+| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Получает или задает обратный вызов предупреждения. |
 
 ### Смотрите также
 

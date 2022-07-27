@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells/icustomparser/
 ---
 ## ICustomParser interface
 
-允许用户添加自定义值解析器以将字符串值解析到其他适当的单元格值对象。
+允许用户添加自定义值解析器，以将字符串值解析到其他适当的单元格值对象。
 
 ```csharp
 public interface ICustomParser
@@ -18,7 +18,7 @@ public interface ICustomParser
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetFormat](../../aspose.cells/icustomparser/getformat)() | 通过[`ParseObject`](./parseobject)获取与解析值对应的格式模式. |
+| [GetFormat](../../aspose.cells/icustomparser/getformat)() | 获取上次调用的解析值对应的格式化模式[`ParseObject`](./parseobject). |
 | [ParseObject](../../aspose.cells/icustomparser/parseobject)(string) | 将给定的字符串解析为正确的值对象。 |
 
 ### 也可以看看

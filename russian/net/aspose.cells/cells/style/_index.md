@@ -1,14 +1,14 @@
 ---
 title: Style
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает стиль по умолчанию.
+description: Получает и устанавливает стиль по умолчанию.
 type: docs
 weight: 310
 url: /ru/net/aspose.cells/cells/style/
 ---
 ## Cells.Style property
 
-Получает и задает стиль по умолчанию.
+Получает и устанавливает стиль по умолчанию.
 
 ```csharp
 public Style Style { get; set; }

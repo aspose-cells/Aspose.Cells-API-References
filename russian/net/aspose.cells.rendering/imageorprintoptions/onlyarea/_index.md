@@ -1,14 +1,14 @@
 ---
 title: OnlyArea
 second_title: Справочник по Aspose.Cells для .NET API
-description: Если это свойство равно true  будет выведена одна область и масштаб не будет действовать.
+description: Если это свойство имеет значение true  будет выведена одна область и масштаб не будет действовать.
 type: docs
 weight: 180
 url: /ru/net/aspose.cells.rendering/imageorprintoptions/onlyarea/
 ---
 ## ImageOrPrintOptions.OnlyArea property
 
-Если это свойство равно true , будет выведена одна область, и масштаб не будет действовать.
+Если это свойство имеет значение true , будет выведена одна область, и масштаб не будет действовать.
 
 ```csharp
 public bool OnlyArea { get; set; }

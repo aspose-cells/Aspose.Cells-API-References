@@ -1,14 +1,14 @@
 ---
 title: FormatStrategy
 second_title: Aspose.Cells for .NET API 参考
-description: 获取并设置将单元格值导出为字符串时的格式策略
+description: 获取和设置单元格值导出为字符串时的格式策略
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/markdownsaveoptions/formatstrategy/
 ---
 ## MarkdownSaveOptions.FormatStrategy property
 
-获取并设置将单元格值导出为字符串时的格式策略。
+获取和设置单元格值导出为字符串时的格式策略。
 
 ```csharp
 public CellValueFormatStrategy FormatStrategy { get; set; }

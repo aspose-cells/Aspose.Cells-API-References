@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置图表区域左上角的y坐标单位为1/4000
+description: 获取或设置左上角的y坐标单位为图表区域的1/4000
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.charts/title/y/
 ---
 ## Title.Y property
 
-获取或设置图表区域左上角的y坐标，单位为1/4000。
+获取或设置左上角的y坐标，单位为图表区域的1/4000。
 
 ```csharp
 public override int Y { get; set; }

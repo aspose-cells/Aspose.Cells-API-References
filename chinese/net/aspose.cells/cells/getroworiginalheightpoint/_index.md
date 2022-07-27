@@ -1,14 +1,14 @@
 ---
 title: GetRowOriginalHeightPoint
 second_title: Aspose.Cells for .NET API 参考
-description: 如果行隐藏则以点为单位获取原始行的高度
+description: 如果行被隐藏则以点为单位获取原始行的高度
 type: docs
-weight: 820
+weight: 830
 url: /zh/net/aspose.cells/cells/getroworiginalheightpoint/
 ---
 ## Cells.GetRowOriginalHeightPoint method
 
-如果行隐藏，则以点为单位获取原始行的高度
+如果行被隐藏，则以点为单位获取原始行的高度
 
 ```csharp
 public double GetRowOriginalHeightPoint(int row)

@@ -27,13 +27,13 @@ public class DigitalSignature
 | --- | --- |
 | [Certificate](../../aspose.cells.digitalsignatures/digitalsignature/certificate) { get; set; } | Объект сертификата, который использовался для подписи документа. |
 | [Comments](../../aspose.cells.digitalsignatures/digitalsignature/comments) { get; set; } | Цель подписи. |
-| [Id](../../aspose.cells.digitalsignatures/digitalsignature/id) { get; set; } | Указывает идентификатор GUID, который можно сопоставить с идентификатором GUID строки подписи, хранящейся в содержимом документа. Значение по умолчанию — Пусто (все нули) Guid. |
-| [Image](../../aspose.cells.digitalsignatures/digitalsignature/image) { get; set; } | Задает изображение для цифровой подписи. Значение по умолчанию равно null. |
+| [Id](../../aspose.cells.digitalsignatures/digitalsignature/id) { get; set; } | Указывает GUID, который может быть перекрестно связан с GUID строки подписи, хранящейся в содержимом документа. Значение по умолчанию — Пусто (все нули) Guid. |
+| [Image](../../aspose.cells.digitalsignatures/digitalsignature/image) { get; set; } | Указывает изображение для цифровой подписи. Значение по умолчанию — null. |
 | [IsValid](../../aspose.cells.digitalsignatures/digitalsignature/isvalid) { get; } | Если эта цифровая подпись действительна и документ не был подделан, это значение будет истинным. |
 | [ProviderId](../../aspose.cells.digitalsignatures/digitalsignature/providerid) { get; set; } | Указывает идентификатор класса поставщика подписи. Значение по умолчанию — Пусто (все нули) Guid. |
 | [SignTime](../../aspose.cells.digitalsignatures/digitalsignature/signtime) { get; set; } | Время подписания документа. |
-| [Text](../../aspose.cells.digitalsignatures/digitalsignature/text) { get; set; } | Задает текст фактической подписи в цифровой подписи. Значение по умолчанию — Пусто. |
-| [XAdESType](../../aspose.cells.digitalsignatures/digitalsignature/xadestype) { get; set; } | Тип XAdES. Значение по умолчанию — None (XAdES отключен). |
+| [Text](../../aspose.cells.digitalsignatures/digitalsignature/text) { get; set; } | Указывает текст фактической подписи в цифровой подписи. Значение по умолчанию — Пусто. |
+| [XAdESType](../../aspose.cells.digitalsignatures/digitalsignature/xadestype) { get; set; } | Тип XAdES. Значение по умолчанию — None(XAdES выключен). |
 
 ### Смотрите также
 

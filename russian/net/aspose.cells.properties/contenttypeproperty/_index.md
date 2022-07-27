@@ -29,20 +29,20 @@ public class ContentTypeProperty
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
-  //Добавить новое свойство.
+//Добавить новое свойство.
  workbook.ContentTypeProperties.Add("Admin", "Aspose", "text");
-  // Сохраняем файл Excel
+// Сохраняем файл Excel
 workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
-'Добавить новое свойство.
+'Добавьте новое свойство.
  workbook.ContentTypeProperties.Add("Admin", "Aspose", "text")
-'Сохраняем файл Excel
+'Сохраните файл Excel
 workbook.Save("book1.xlsm")
 ```
 

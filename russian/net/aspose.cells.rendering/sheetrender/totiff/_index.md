@@ -43,19 +43,19 @@ public void ToTiff(string filename)
 Следующий код выводит все страницы первого листа в изображение Tiff.
 
 ```csharp
-//загрузить исходный файл с изображениями.
-rkbook wb = new Workbook("Book1.xlsx");
+//загружаем исходный файл с изображениями.
+Workbook wb = new Workbook("Book1.xlsx");
 
-ageOrPrintOptions imgOpt = new ImageOrPrintOptions();
+ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
 
 //установить тип выходного изображения.
-gOpt.SaveFormat = SaveFormat.Tiff;
+imgOpt.SaveFormat = SaveFormat.Tiff;
 
-//рендерим первый лист.
-eetRender sr = new SheetRender(wb.Worksheets[0], imgOpt);
+// рендерим первый лист.
+SheetRender sr = new SheetRender(wb.Worksheets[0], imgOpt);
 
-//выводим все страницы листа в Tiff image.
-.ToTiff("output.tiff");
+//выводим все страницы листа в Tiff изображение.
+sr.ToTiff("output.tiff");
 ```
 
 ### Смотрите также

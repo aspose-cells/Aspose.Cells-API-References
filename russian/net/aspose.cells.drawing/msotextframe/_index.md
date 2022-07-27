@@ -19,12 +19,12 @@ public class MsoTextFrame
 | Имя | Описание |
 | --- | --- |
 | [AutoSize](../../aspose.cells.drawing/msotextframe/autosize) { get; set; } | Указывает, регулируется ли размер фигуры автоматически в соответствии с ее содержимым. |
-| [BottomMarginPt](../../aspose.cells.drawing/msotextframe/bottommarginpt) { get; set; } | Возвращает нижнее поле в пунктах |
+| [BottomMarginPt](../../aspose.cells.drawing/msotextframe/bottommarginpt) { get; set; } | Возвращает нижнее поле в единицах Points |
 | [IsAutoMargin](../../aspose.cells.drawing/msotextframe/isautomargin) { get; set; } | Указывает, рассчитывается ли маржа автоматически. |
-| [LeftMarginPt](../../aspose.cells.drawing/msotextframe/leftmarginpt) { get; set; } | Возвращает левое поле в пунктах |
-| [RightMarginPt](../../aspose.cells.drawing/msotextframe/rightmarginpt) { get; set; } | Возвращает правое поле в пунктах |
+| [LeftMarginPt](../../aspose.cells.drawing/msotextframe/leftmarginpt) { get; set; } | Возвращает левое поле в единицах Points |
+| [RightMarginPt](../../aspose.cells.drawing/msotextframe/rightmarginpt) { get; set; } | Возвращает правое поле в единицах Points |
 | [RotateTextWithShape](../../aspose.cells.drawing/msotextframe/rotatetextwithshape) { get; set; } | Указывает, вращается ли текст с фигурой. |
-| [TopMarginPt](../../aspose.cells.drawing/msotextframe/topmarginpt) { get; set; } | Возвращает верхнее поле в пунктах |
+| [TopMarginPt](../../aspose.cells.drawing/msotextframe/topmarginpt) { get; set; } | Возвращает верхнюю границу в баллах |
 
 ### Смотрите также
 

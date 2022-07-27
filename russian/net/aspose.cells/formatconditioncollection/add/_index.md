@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет условие форматирования и диапазон ячеек к FormatConditions FormatConditions может содержать до трех условных форматов. Ссылки на другие листы в формулах условного форматирования не допускаются.
+description: Добавляет условие форматирования и диапазон ячеек в FormatConditions FormatConditions может содержать до трех условных форматов. В формулах условного форматирования не допускаются ссылки на другие листы.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/formatconditioncollection/add/
 ---
 ## FormatConditionCollection.Add method
 
-Добавляет условие форматирования и диапазон ячеек к FormatConditions FormatConditions может содержать до трех условных форматов. Ссылки на другие листы в формулах условного форматирования не допускаются.
+Добавляет условие форматирования и диапазон ячеек в FormatConditions FormatConditions может содержать до трех условных форматов. В формулах условного форматирования не допускаются ссылки на другие листы.
 
 ```csharp
 public int[] Add(CellArea cellArea, FormatConditionType type, OperatorType operatorType, 
@@ -19,13 +19,13 @@ public int[] Add(CellArea cellArea, FormatConditionType type, OperatorType opera
 | --- | --- | --- |
 | cellArea | CellArea | Диапазон ячеек с условным форматированием. |
 | type | FormatConditionType | Тип условного форматирования. Может быть одним из членов FormatConditionType. |
-| operatorType | OperatorType | Оператор сравнения. Может быть одним из членов OperatorType. |
+| operatorType | OperatorType | Оператор сравнения. Он может быть одним из членов OperatorType. |
 | formula1 | String | Значение или выражение, связанное с условным форматированием. |
 | formula2 | String | Значение или выражение, связанное с условным форматированием |
 
 ### Возвращаемое значение
 
-[0]:Индекс объекта условия форматирования ;[1] Задействованный индекс ранжирования ячеек.
+[0]: индекс объекта условия форматирования; [1] индекс ранга ячейки.
 
 ### Смотрите также
 

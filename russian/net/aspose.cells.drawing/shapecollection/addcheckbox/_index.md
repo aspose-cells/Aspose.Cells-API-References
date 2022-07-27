@@ -19,8 +19,8 @@ public CheckBox AddCheckBox(int upperLeftRow, int top, int upperLeftColumn, int 
 | --- | --- | --- |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
 | top | Int32 | Представляет вертикальное смещение флажка от его левой строки в единицах пикселя. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
-| left | Int32 | Представляет горизонтальное смещение текстового поля от его левого столбца в единицах пикселей. |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
+| left | Int32 | Представляет горизонтальное смещение текстового поля от его левого столбца в пикселях. |
 | height | Int32 | Высота текстового поля в пикселях. |
 | width | Int32 | Ширина текстового поля в пикселях. |
 
@@ -34,7 +34,7 @@ public CheckBox AddCheckBox(int upperLeftRow, int top, int upperLeftColumn, int 
 
 [C#]
 
-  //добавляем CheckBox
+//добавляем чекбокс
 CheckBox checkBox = shapes.AddCheckBox(1, 0, 1, 0, 100, 50);
 ```
 

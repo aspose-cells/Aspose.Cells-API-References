@@ -3,7 +3,7 @@ title: ExportSingleTab
 second_title: Справочник по Aspose.Cells для .NET API
 description: Указывает следует ли экспортировать одну вкладку когда файл содержит только один рабочий лист. Значение по умолчанию  false.
 type: docs
-weight: 250
+weight: 270
 url: /ru/net/aspose.cells/htmlsaveoptions/exportsingletab/
 ---
 ## HtmlSaveOptions.ExportSingleTab property

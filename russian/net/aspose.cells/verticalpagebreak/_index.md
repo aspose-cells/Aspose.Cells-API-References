@@ -27,7 +27,7 @@ public class VerticalPageBreak
 ```csharp
 [C#]
 Workbook excel = new Workbook();
-  //Добавить разрыв страницы в G5
+//Добавить разрыв страницы на G5
 excel.Worksheets[0].HorizontalPageBreaks.Add("G5");
 excel.Worksheets[0].VerticalPageBreaks.Add("G5");
 

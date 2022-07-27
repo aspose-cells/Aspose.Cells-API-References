@@ -119,7 +119,7 @@ public void ImportExcelFile(string fileName, bool runFormulas)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | имя файла excel. |
+| fileName | String | имя файла эксель. |
 | runFormulas | Boolean | если true, этот метод вызовет метод RunAllFormulas. |
 
 ### Смотрите также
@@ -142,9 +142,9 @@ public void ImportExcelFile(Stream stream, string passwordtoOpen, string passwor
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | поток файла excel. |
-| passwordtoOpen | String | пароль для открытия зашифрованного файла. |
-| passwordtoOpen | String | пароль для изменения защищенного файла. |
-| openasReadOnly | Boolean | следует ли открывать файл как ReadOnly . |
+| passwordtoOpen | String | открытый пароль для файла, который зашифрован. |
+| passwordtoOpen | String | изменить пароль для файла, который защищен. |
+| openasReadOnly | Boolean | открывать ли файл как ReadOnly . |
 | runFormulas | Boolean | если true, этот метод вызовет метод RunAllFormulas. |
 
 ### Смотрите также
@@ -166,10 +166,10 @@ public void ImportExcelFile(string fileName, string passwordtoOpen, string passw
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | имя файла excel. |
-| passwordtoOpen | String | пароль для открытия зашифрованного файла. |
-| passwordtoOpen | String | пароль для изменения защищенного файла. |
-| openasReadOnly | Boolean | следует ли открывать файл как ReadOnly . |
+| fileName | String | имя файла эксель. |
+| passwordtoOpen | String | открытый пароль для файла, который зашифрован. |
+| passwordtoOpen | String | изменить пароль для файла, который защищен. |
+| openasReadOnly | Boolean | открывать ли файл как ReadOnly . |
 | runFormulas | Boolean | если true, этот метод вызовет метод RunAllFormulas. |
 
 ### Смотрите также
@@ -190,7 +190,7 @@ public void ImportExcelFile(string fileName, int sheetIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | имя файла excel. |
+| fileName | String | имя файла эксель. |
 | sheetIndex | Int32 | индекс импортируемого листа. |
 
 ### Смотрите также

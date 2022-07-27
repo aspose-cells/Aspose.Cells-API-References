@@ -1,14 +1,14 @@
 ---
 title: StandardWidth
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает ширину столбца по умолчанию на листе в символах.
+description: Получает или задает ширину столбца по умолчанию на листе в единицах символов.
 type: docs
 weight: 280
 url: /ru/net/aspose.cells/cells/standardwidth/
 ---
 ## Cells.StandardWidth property
 
-Получает или задает ширину столбца по умолчанию на листе в символах.
+Получает или задает ширину столбца по умолчанию на листе в единицах символов.
 
 ```csharp
 public double StandardWidth { get; set; }

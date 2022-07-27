@@ -1,14 +1,14 @@
 ---
 title: TopBevel
 second_title: Aspose.Cells for .NET API 参考
-description: 获取对象该对象包含与在顶部或正面定义斜面相关的属性的一种形状
+description: 获取包含与在形状的顶部或正面定义斜面相关联的属性的对象
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.drawing/format3d/topbevel/
 ---
 ## Format3D.TopBevel property
 
-获取对象，该对象包含与在顶部或正面定义斜面相关的属性的一种形状。
+获取包含与在形状的顶部或正面定义斜面相关联的属性的对象。
 
 ```csharp
 public Bevel TopBevel { get; }

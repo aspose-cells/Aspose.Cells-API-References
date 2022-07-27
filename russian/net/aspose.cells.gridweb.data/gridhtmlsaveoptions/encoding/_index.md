@@ -1,14 +1,14 @@
 ---
 title: Encoding
 second_title: Справочник по Aspose.Cells для .NET API
-description: Если не установлено используйте Encoding.UTF8 как тип кодировки по умолчанию.
+description: Если не задано используйте Encoding.UTF8 в качестве типа кодирования по умолчанию.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.gridweb.data/gridhtmlsaveoptions/encoding/
 ---
 ## GridHtmlSaveOptions.Encoding property
 
-Если не установлено, используйте Encoding.UTF8 как тип кодировки по умолчанию.
+Если не задано, используйте Encoding.UTF8 в качестве типа кодирования по умолчанию.
 
 ```csharp
 public Encoding Encoding { get; set; }

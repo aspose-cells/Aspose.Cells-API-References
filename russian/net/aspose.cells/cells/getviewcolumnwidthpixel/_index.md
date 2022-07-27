@@ -3,7 +3,7 @@ title: GetViewColumnWidthPixel
 second_title: Справочник по Aspose.Cells для .NET API
 description: Получить ширину в другом типе представления.
 type: docs
-weight: 830
+weight: 840
 url: /ru/net/aspose.cells/cells/getviewcolumnwidthpixel/
 ---
 ## Cells.GetViewColumnWidthPixel method

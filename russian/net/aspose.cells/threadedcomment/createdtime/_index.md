@@ -1,14 +1,14 @@
 ---
 title: CreatedTime
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает время создания этого цепочного комментария.
+description: Получает и задает время создания этого связанного комментария.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/threadedcomment/createdtime/
 ---
 ## ThreadedComment.CreatedTime property
 
-Получает и задает время создания этого цепочного комментария.
+Получает и задает время создания этого связанного комментария.
 
 ```csharp
 public DateTime CreatedTime { get; set; }

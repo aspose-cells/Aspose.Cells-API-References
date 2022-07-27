@@ -30,7 +30,7 @@ public enum CellBorderType
 | None | `0` | 表示没有行。 |
 | Medium | `2` | 代表中线。 |
 | SlantedDashDot | `13` | 表示倾斜的中点划线。 |
-| Thick | `5` | 表示粗线。 |
+| Thick | `5` | 代表粗线。 |
 | Thin | `1` | 表示细线。 |
 
 ### 也可以看看

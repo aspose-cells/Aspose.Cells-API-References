@@ -1,14 +1,14 @@
 ---
 title: GetStyleInPool
 second_title: Aspose.Cells for .NET API 参考
-description: 获取样式池中的样式 工作簿中的所有样式都将汇集到一个池中 单元格中只有一个简单的参考索引
+description: 获取样式池中的样式 将工作簿中的所有样式收集到一个池中 单元格中只有一个简单的参考索引
 type: docs
 weight: 450
 url: /zh/net/aspose.cells/workbook/getstyleinpool/
 ---
 ## Workbook.GetStyleInPool method
 
-获取样式池中的样式。 工作簿中的所有样式都将汇集到一个池中。 单元格中只有一个简单的参考索引。
+获取样式池中的样式。 将工作簿中的所有样式收集到一个池中。 单元格中只有一个简单的参考索引。
 
 ```csharp
 public Style GetStyleInPool(int index)
@@ -16,15 +16,15 @@ public Style GetStyleInPool(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 索引。 |
+| index | Int32 | 指数。 |
 
 ### 返回值
 
-池中的样式对应给定的索引，可以为空。
+池中的样式对应给定的索引，可能为空。
 
 ### 评论
 
-如果返回的样式发生变化，则所有单元格的样式（指该样式）将被改变。
+如果返回的样式改变了，所有单元格的样式（指的是这个样式）都会改变。
 
 ### 也可以看看
 

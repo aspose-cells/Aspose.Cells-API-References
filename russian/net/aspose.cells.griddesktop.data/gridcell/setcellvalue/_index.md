@@ -16,7 +16,7 @@ public void SetCellValue(object itemValue)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| значение | Object |  |
+| value | Object |  |
 
 ### Смотрите также
 

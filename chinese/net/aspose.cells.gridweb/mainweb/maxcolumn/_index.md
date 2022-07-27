@@ -1,14 +1,14 @@
 ---
 title: MaxColumn
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置网页的最大显示列索引从零开始 控件使用 MaxColumn 和工作表数据的最大列的较大值
+description: 获取或设置网页表格的最大显示列索引从零开始 控件使用MaxColumn和表格数据最大列的较大值
 type: docs
 weight: 460
 url: /zh/net/aspose.cells.gridweb/mainweb/maxcolumn/
 ---
 ## MainWeb.MaxColumn property
 
-获取或设置网页的最大显示列索引（从零开始）。 控件使用 MaxColumn 和工作表数据的最大列的较大值。
+获取或设置网页表格的最大显示列索引（从零开始）。 控件使用MaxColumn和表格数据最大列的较大值。
 
 ```csharp
 public int MaxColumn { get; set; }
@@ -18,14 +18,14 @@ public int MaxColumn { get; set; }
 
 ```csharp
 [C#]
-	  // 创建一个 4x4 的“显示窗口”.
+	// 创建一个 4x4 的“显示窗口”。
 	GridWeb1.MinRow = 2;
 	GridWeb1.MaxRow = 5;
 	GridWeb1.MinColumn = 3;
 	GridWeb1.MaxColumn = 6;
 
 [Visual Basic]
-	' 创建一个 4x4 的“显示窗口”.
+	' Creates a 4x4 "display window".
 	GridWeb1.MinRow = 2
 	GridWeb1.MaxRow = 5
 	GridWeb1.MinColumn = 3

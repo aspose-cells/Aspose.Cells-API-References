@@ -1,14 +1,14 @@
 ---
 title: ContentDisposition
 second_title: Aspose.Cells for .NET API 参考
-description: 内容处置类型
+description: 内容配置类型
 type: docs
 weight: 1170
 url: /zh/net/aspose.cells/contentdisposition/
 ---
 ## ContentDisposition enumeration
 
-内容处置类型。
+内容配置类型。
 
 ```csharp
 public enum ContentDisposition

@@ -1,14 +1,14 @@
 ---
 title: InvariantCustom
 second_title: Aspose.Cells for .NET API 参考
-description: 获取数字格式的与区域性无关的模式字符串 如果没有为此对象设置数字格式则返回 null 如果内置数字格式则返回内置数字对应的模式字符串
+description: 获取数字格式的与文化无关的模式字符串 如果没有为此对象设置数字格式则返回null 如果内置数字格式将返回与内置数字对应的模式字符串
 type: docs
 weight: 140
 url: /zh/net/aspose.cells/style/invariantcustom/
 ---
 ## Style.InvariantCustom property
 
-获取数字格式的与区域性无关的模式字符串。 如果没有为此对象设置数字格式，则返回 null。 如果内置数字格式，则返回内置数字对应的模式字符串。
+获取数字格式的与文化无关的模式字符串。 如果没有为此对象设置数字格式，则返回null。 如果内置数字格式，将返回与内置数字对应的模式字符串。
 
 ```csharp
 public string InvariantCustom { get; }
@@ -16,7 +16,7 @@ public string InvariantCustom { get; }
 
 ### 评论
 
-对于内置数字格式，返回的模式内容仍然取决于文化， 例如，对于某些语言环境，它返回“m/d/y”，而对于其他一些语言环境，它返回“d/m/y”。 与[`CultureCustom`](../culturecustom)的区别是（这也是与文化无关的意思）: 格式说明符和分隔符保持为标准，例如“/”将始终用作日期时间分隔符 并且“y”将始终用作“年份”部分，无论特定的其他特殊字符使用什么语言环境。
+对于内置数字格式，返回的模式内容仍然取决于文化， 例如，对于某些语言环境，它返回“m/d/y”，而对于其他一些语言环境，它返回“d/m/y”。 区别从[`CultureCustom`](../culturecustom)是（这也是与文化无关的意思）： 格式说明符和分隔符保持为标准，例如“/”将始终用作日期时间分隔符 并且“y”将始终用作“年”部分无论特定语言环境使用什么其他特殊字符。
 
 ### 也可以看看
 

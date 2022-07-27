@@ -1,14 +1,14 @@
 ---
 title: AddLine
 second_title: Aspose.Cells for .NET API 参考
-description: 将 LineShape 添加到工作表
+description: 将 LineShape 添加到工作表中
 type: docs
 weight: 150
 url: /zh/net/aspose.cells.drawing/shapecollection/addline/
 ---
 ## ShapeCollection.AddLine method
 
-将 LineShape 添加到工作表。
+将 LineShape 添加到工作表中。
 
 ```csharp
 public LineShape AddLine(int upperLeftRow, int top, int upperLeftColumn, int left, int height, 
@@ -21,19 +21,19 @@ public LineShape AddLine(int upperLeftRow, int top, int upperLeftColumn, int lef
 | top | Int32 | 表示 LineShape 与其左行的垂直偏移量，以像素为单位。 |
 | upperLeftColumn | Int32 | 左上列索引。 |
 | left | Int32 | 表示 LineShape 与其左列的水平偏移量，以像素为单位。 |
-| height | Int32 | 表示LineShape的高度，以像素为单位。 |
-| width | Int32 | 表示LineShape的宽度，以像素为单位。 |
+| height | Int32 | 表示 LineShape 的高度，以像素为单位。 |
+| width | Int32 | 表示 LineShape 的宽度，以像素为单位。 |
 
 ### 返回值
 
-LineShape 对象。
+一个 LineShape 对象。
 
 ### 例子
 
 ```csharp
 
 [C#]
- // 添加一行 object
+// 添加一个线对象
 LineShape lineShape = shapes.AddLine(1, 0, 1, 0, 100, 50);
 ```
 

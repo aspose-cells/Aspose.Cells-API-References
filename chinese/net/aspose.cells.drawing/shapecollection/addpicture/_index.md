@@ -62,8 +62,8 @@ public Picture AddPicture(int upperLeftRow, int upperLeftColumn, Stream stream, 
 | upperLeftRow | Int32 | 左上行索引。 |
 | upperLeftColumn | Int32 | 左上列索引。 |
 | stream | Stream | 包含图像数据的流对象。 |
-| widthScale | Int32 | 图像宽度比例，百分比。 |
-| heightScale | Int32 | 图像高度比例，百分比。 |
+| widthScale | Int32 | 图像宽度的比例，百分比。 |
+| heightScale | Int32 | 图像高度的比例，百分比。 |
 
 ### 返回值
 

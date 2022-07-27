@@ -1,14 +1,14 @@
 ---
 title: PasteType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает какой тип вставки при выполнении действия вставкидоступен только если EnableClipboardCopyPaste имеет значение false .
+description: Указывает какой тип вставки при выполнении действия вставкидоступно только если EnableClipboardCopyPaste имеет значение false .
 type: docs
 weight: 200
 url: /ru/net/aspose.cells.griddesktop/griddesktop/pastetype/
 ---
 ## GridDesktop.PasteType property
 
-Указывает, какой тип вставки при выполнении действия вставки，доступен, только если EnableClipboardCopyPaste имеет значение false .
+Указывает, какой тип вставки при выполнении действия вставки，доступно, только если EnableClipboardCopyPaste имеет значение false .
 
 ```csharp
 public GridPasteType PasteType { get; set; }

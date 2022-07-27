@@ -19,7 +19,7 @@ public void CopyCommentsInRange(ShapeCollection shapes, CellArea ca, int destRow
 | shapes | ShapeCollection | Исходные формы. |
 | ca | CellArea | Исходный диапазон. |
 | destRow | Int32 | Начальная строка диапазона назначения. |
-| destColumn | Int32 | Начальный столбец диапазона адресатов. |
+| destColumn | Int32 | Начальный столбец диапазона назначения. |
 
 ### Примеры
 
@@ -28,13 +28,13 @@ public void CopyCommentsInRange(ShapeCollection shapes, CellArea ca, int destRow
 [C#]
 CommentCollection comments = workbook.Worksheets[0].Comments;
 
-  //Добавить комментарий к ячейке A1
+//Добавить комментарий к ячейке A1
 int commentIndex = comments.Add(0, 0);
 Comment comment = comments[commentIndex];
 comment.Note = "First note.";
 comment.Font.Name = "Times New Roman";
 
-  //Добавить комментарий к ячейке B2
+//Добавить комментарий к ячейке B2
 comments.Add("B2");
 comment = comments["B2"];
 comment.Note = "Second note.";
@@ -45,7 +45,7 @@ area1.StartRow = 1;
 area1.EndColumn = 5;
 area1.EndRow = 4;
 
-  //copy
+// копируем
 shapes.CopyCommentsInRange(shapes, area1, 5, 1);
 
 ```

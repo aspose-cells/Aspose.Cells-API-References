@@ -24,7 +24,7 @@ public class WebExtensionBinding
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Appref](../../aspose.cells.webextensions/webextensionbinding/appref) { get; set; } | 获取并设置用于将此列表中的绑定条目与文档中的绑定数据映射的绑定键。 |
+| [Appref](../../aspose.cells.webextensions/webextensionbinding/appref) { get; set; } | 获取并设置绑定键，用于将此列表中的绑定条目与文档中的绑定数据映射。 |
 | [Id](../../aspose.cells.webextensions/webextensionbinding/id) { get; set; } | 获取和设置绑定标识符。 |
 | [Type](../../aspose.cells.webextensions/webextensionbinding/type) { get; set; } | 获取和设置绑定类型。 |
 

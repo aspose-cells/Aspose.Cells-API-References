@@ -1,14 +1,14 @@
 ---
 title: DetectFileFormat
 second_title: Aspose.Cells for .NET API 参考
-description: 检测并返回流中存储的excel格式信息
+description: 检测并返回有关存储在流中的 excel 格式的信息
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/fileformatutil/detectfileformat/
 ---
 ## DetectFileFormat(Stream) {#detectfileformat}
 
-检测并返回流中存储的excel格式信息。
+检测并返回有关存储在流中的 excel 格式的信息。
 
 ```csharp
 public static FileFormatInfo DetectFileFormat(Stream stream)
@@ -20,7 +20,7 @@ public static FileFormatInfo DetectFileFormat(Stream stream)
 
 ### 返回值
 
-A[`FileFormatInfo`](../../fileformatinfo)包含检测信息的对象。
+一个[`FileFormatInfo`](../../fileformatinfo)包含检测到的信息的对象。
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ A[`FileFormatInfo`](../../fileformatinfo)包含检测信息的对象。
 
 ## DetectFileFormat(Stream, string) {#detectfileformat_1}
 
-检测并返回流中存储的excel格式信息。
+检测并返回有关存储在流中的 excel 格式的信息。
 
 ```csharp
 public static FileFormatInfo DetectFileFormat(Stream stream, string password)
@@ -42,11 +42,11 @@ public static FileFormatInfo DetectFileFormat(Stream stream, string password)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream |  |
-| password | String | 加密 ooxml 文件的密码。 |
+| password | String | 加密的 ooxml 文件的密码。 |
 
 ### 返回值
 
-A[`FileFormatInfo`](../../fileformatinfo)包含检测信息的对象。
+一个[`FileFormatInfo`](../../fileformatinfo)包含检测到的信息的对象。
 
 ### 也可以看看
 
@@ -59,7 +59,7 @@ A[`FileFormatInfo`](../../fileformatinfo)包含检测信息的对象。
 
 ## DetectFileFormat(string) {#detectfileformat_2}
 
-检测并返回存储在文件中的excel格式信息。
+检测并返回有关存储在文件中的 Excel 格式的信息。
 
 ```csharp
 public static FileFormatInfo DetectFileFormat(string filePath)
@@ -71,7 +71,7 @@ public static FileFormatInfo DetectFileFormat(string filePath)
 
 ### 返回值
 
-A[`FileFormatInfo`](../../fileformatinfo)包含检测信息的对象。
+一个[`FileFormatInfo`](../../fileformatinfo)包含检测到的信息的对象。
 
 ### 也可以看看
 
@@ -84,7 +84,7 @@ A[`FileFormatInfo`](../../fileformatinfo)包含检测信息的对象。
 
 ## DetectFileFormat(string, string) {#detectfileformat_3}
 
-检测并返回存储在文件中的excel格式信息。
+检测并返回有关存储在文件中的 Excel 格式的信息。
 
 ```csharp
 public static FileFormatInfo DetectFileFormat(string filePath, string password)
@@ -93,11 +93,11 @@ public static FileFormatInfo DetectFileFormat(string filePath, string password)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | filePath | String | 文件路径。 |
-| password | String | 加密 ooxml 文件的密码。 |
+| password | String | 加密的 ooxml 文件的密码。 |
 
 ### 返回值
 
-A[`FileFormatInfo`](../../fileformatinfo)包含检测信息的对象。
+一个[`FileFormatInfo`](../../fileformatinfo)包含检测到的信息的对象。
 
 ### 也可以看看
 

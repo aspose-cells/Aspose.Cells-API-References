@@ -1,14 +1,14 @@
 ---
 title: GridHyperlinkCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装Hyperlink对象的集合
+description: 封装了一个集合Hyperlink对象.
 type: docs
 weight: 270
 url: /zh/net/aspose.cells.gridweb.data/gridhyperlinkcollection/
 ---
 ## GridHyperlinkCollection class
 
-封装Hyperlink对象的集合。
+封装了一个集合Hyperlink对象.
 
 ```csharp
 public class GridHyperlinkCollection
@@ -19,19 +19,19 @@ public class GridHyperlinkCollection
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.cells.gridweb.data/gridhyperlinkcollection/count) { get; } |  |
-| [Item](../../aspose.cells.gridweb.data/gridhyperlinkcollection/item) { get; } | 获取指定索引处的Hyperlink元素。 |
+| [Item](../../aspose.cells.gridweb.data/gridhyperlinkcollection/item) { get; } | 获取Hyperlink指定索引处的元素。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells.gridweb.data/gridhyperlinkcollection/add#add_2)(string, string) | 将超链接添加到指定单元格。 |
-| [Add](../../aspose.cells.gridweb.data/gridhyperlinkcollection/add#add_1)(string, int, int, string) | 将超链接添加到指定单元格或单元格范围。 |
-| [Add](../../aspose.cells.gridweb.data/gridhyperlinkcollection/add#add)(int, int, int, int, string) | 将超链接添加到指定单元格或单元格范围。 |
-| [Add](../../aspose.cells.gridweb.data/gridhyperlinkcollection/add#add_3)(string, string, string, string, string) | 将超链接添加到指定单元格或单元格范围。 |
+| [Add](../../aspose.cells.gridweb.data/gridhyperlinkcollection/add#add_2)(string, string) | 向指定单元格添加超链接。 |
+| [Add](../../aspose.cells.gridweb.data/gridhyperlinkcollection/add#add_1)(string, int, int, string) | 向指定单元格或单元格范围添加超链接。 |
+| [Add](../../aspose.cells.gridweb.data/gridhyperlinkcollection/add#add)(int, int, int, int, string) | 向指定单元格或单元格范围添加超链接。 |
+| [Add](../../aspose.cells.gridweb.data/gridhyperlinkcollection/add#add_3)(string, string, string, string, string) | 向指定单元格或单元格范围添加超链接。 |
 | [Clear](../../aspose.cells.gridweb.data/gridhyperlinkcollection/clear)() | 清除所有超链接。 |
-| [GetHyperlink](../../aspose.cells.gridweb.data/gridhyperlinkcollection/gethyperlink#gethyperlink)(GridCell) | 获取单元格的超链接对象。如果单元格没有超链接，则返回 null。 |
-| [GetHyperlink](../../aspose.cells.gridweb.data/gridhyperlinkcollection/gethyperlink#gethyperlink_1)(int, int) | 获取单元格的超链接对象。如果单元格没有超链接，则返回 null。 |
+| [GetHyperlink](../../aspose.cells.gridweb.data/gridhyperlinkcollection/gethyperlink#gethyperlink)(GridCell) | 获取单元格的超链接对象。如果单元格没有超链接，则返回 null. |
+| [GetHyperlink](../../aspose.cells.gridweb.data/gridhyperlinkcollection/gethyperlink#gethyperlink_1)(int, int) | 获取单元格的超链接对象。如果单元格没有超链接，则返回 null. |
 | [Remove](../../aspose.cells.gridweb.data/gridhyperlinkcollection/remove)(GridCellArea) | 删除指定区域的超链接。 |
 | [RemoveAt](../../aspose.cells.gridweb.data/gridhyperlinkcollection/removeat)(int) | 删除指定索引处的超链接。 |
 

@@ -1,14 +1,14 @@
 ---
 title: CommandName
 second_title: Aspose.Cells for .NET API 参考
-description: 列的命令名称如果设置了 CommandName 属性将在绑定单元格中创建一个 CellCommand 超链接
+description: 列的命令名称如果设置了 CommandName 属性将在绑定的单元格中创建 CellCommand 超链接
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.gridweb/bindcolumn/commandname/
 ---
 ## BindColumn.CommandName property
 
-列的命令名称。如果设置了 CommandName 属性，将在绑定单元格中创建一个 CellCommand 超链接。
+列的命令名称。如果设置了 CommandName 属性，将在绑定的单元格中创建 CellCommand 超链接。
 
 ```csharp
 public string CommandName { get; set; }

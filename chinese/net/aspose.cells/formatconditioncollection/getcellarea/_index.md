@@ -1,14 +1,14 @@
 ---
 title: GetCellArea
 second_title: Aspose.Cells for .NET API 参考
-description: 按索引获取条件格式的单元格范围
+description: 通过索引获取条件格式的单元格范围
 type: docs
 weight: 70
 url: /zh/net/aspose.cells/formatconditioncollection/getcellarea/
 ---
 ## FormatConditionCollection.GetCellArea method
 
-按索引获取条件格式的单元格范围。
+通过索引获取条件格式的单元格范围。
 
 ```csharp
 public CellArea GetCellArea(int index)
@@ -20,7 +20,7 @@ public CellArea GetCellArea(int index)
 
 ### 返回值
 
-条件格式单元格范围
+条件格式的单元格范围
 
 ### 也可以看看
 

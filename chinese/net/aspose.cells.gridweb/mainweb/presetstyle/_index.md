@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.gridweb/mainweb/presetstyle/
 ---
 ## MainWeb.PresetStyle property
 
-获取或设置预设样式。
+获取或设置预设样式
 
 ```csharp
 public PresetStyle PresetStyle { get; set; }

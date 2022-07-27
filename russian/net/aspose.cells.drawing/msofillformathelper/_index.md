@@ -1,14 +1,14 @@
 ---
 title: MsoFillFormatHelper
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет форматирование заливки для фигуры.
+description: Представляет формат заливки для фигуры.
 type: docs
 weight: 2330
 url: /ru/net/aspose.cells.drawing/msofillformathelper/
 ---
 ## MsoFillFormatHelper class
 
-Представляет форматирование заливки для фигуры.
+Представляет формат заливки для фигуры.
 
 ```csharp
 public class MsoFillFormatHelper
@@ -21,15 +21,15 @@ public class MsoFillFormatHelper
 | [BackColor](../../aspose.cells.drawing/msofillformathelper/backcolor) { get; set; } | Получает и устанавливает цвет фона файла. |
 | [ForeColor](../../aspose.cells.drawing/msofillformathelper/forecolor) { get; set; } | Получает и устанавливает передний цвет заливки. |
 | [ForeColorTransparency](../../aspose.cells.drawing/msofillformathelper/forecolortransparency) { get; set; } | Возвращает или задает степень переднего цвета указанной заливки в виде значения от 0,0 (непрозрачная) до 1,0 (прозрачная). |
-| [ImageData](../../aspose.cells.drawing/msofillformathelper/imagedata) { get; set; } | Получает и задает данные заполнения текстуры и изображения. |
+| [ImageData](../../aspose.cells.drawing/msofillformathelper/imagedata) { get; set; } | Получает и задает данные заливки текстуры и изображения. |
 | [IsVisible](../../aspose.cells.drawing/msofillformathelper/isvisible) { get; set; } | Указывает, есть ли заполнение. |
-| [Texture](../../aspose.cells.drawing/msofillformathelper/texture) { get; } | Получает тип заливки текстуры. |
+| [Texture](../../aspose.cells.drawing/msofillformathelper/texture) { get; } | Получает тип заливки текстурой. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [SetOneColorGradient](../../aspose.cells.drawing/msofillformathelper/setonecolorgradient)(Color, double, GradientStyleType, int) | Устанавливает для указанной заливки одноцветный градиент. |
+| [SetOneColorGradient](../../aspose.cells.drawing/msofillformathelper/setonecolorgradient)(Color, double, GradientStyleType, int) | Задает для указанной заливки одноцветный градиент. |
 
 ### Смотрите также
 

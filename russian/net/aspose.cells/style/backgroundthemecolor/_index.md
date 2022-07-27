@@ -1,14 +1,14 @@
 ---
 title: BackgroundThemeColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает цвет фоновой темы.
+description: Получает и устанавливает цвет фона темы.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/style/backgroundthemecolor/
 ---
 ## Style.BackgroundThemeColor property
 
-Получает и устанавливает цвет фоновой темы.
+Получает и устанавливает цвет фона темы.
 
 ```csharp
 public ThemeColor BackgroundThemeColor { get; set; }
@@ -16,7 +16,7 @@ public ThemeColor BackgroundThemeColor { get; set; }
 
 ### Примечания
 
-Если цвет фона не является цветом темы, будет возвращено NULL.
+Если цвет фона не является цветом темы, будет возвращен NULL.
 
 ### Смотрите также
 

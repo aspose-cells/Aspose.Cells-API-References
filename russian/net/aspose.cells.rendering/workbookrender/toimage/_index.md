@@ -48,7 +48,7 @@ public void ToImage(string filename)
 
 ## ToImage(int, string) {#toimage_2}
 
-Рендерит определенную страницу в файл.
+Визуализация определенной страницы в файл.
 
 ```csharp
 public void ToImage(int pageIndex, string fileName)
@@ -69,7 +69,7 @@ public void ToImage(int pageIndex, string fileName)
 
 ## ToImage(int, Stream) {#toimage_1}
 
-Рендерить определенную страницу в поток.
+Визуализация определенной страницы в поток.
 
 ```csharp
 public void ToImage(int pageIndex, Stream stream)
@@ -90,7 +90,7 @@ public void ToImage(int pageIndex, Stream stream)
 
 ## ToImage(int) {#toimage}
 
-Рендеринг определенной страницы в объект Bitmap.
+Визуализация определенной страницы в объект Bitmap.
 
 ```csharp
 public Bitmap ToImage(int pageIndex)
@@ -102,7 +102,7 @@ public Bitmap ToImage(int pageIndex)
 
 ### Возвращаемое значение
 
-растровое изображение объект страницы
+растровый объект страницы
 
 ### Смотрите также
 

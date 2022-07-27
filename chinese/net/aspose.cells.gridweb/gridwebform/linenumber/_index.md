@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.gridweb/gridwebform/linenumber/
 ---
 ## GridWebForm.LineNumber property
 
-获取或设置工作表的当前记录行号。
+获取或设置工作表的当前记录行号
 
 ```csharp
 public int LineNumber { get; set; }

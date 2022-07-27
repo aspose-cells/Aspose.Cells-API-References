@@ -1,14 +1,14 @@
 ---
 title: IsFullPathLink
 second_title: Aspose.Cells for .NET API 参考
-description: 表示sheet00x.htmfilelist.xmltabstrip.htm中是否使用全路径链接 默认值为假
+description: 表示sheet00x.htmfilelist.xml和tabstrip.htm中是否使用全路径链接 默认值为false
 type: docs
 weight: 150
 url: /zh/net/aspose.cells.gridweb.data/gridhtmlsaveoptions/isfullpathlink/
 ---
 ## GridHtmlSaveOptions.IsFullPathLink property
 
-表示sheet00x.htm、filelist.xml、tabstrip.htm中是否使用全路径链接。 默认值为假。
+表示sheet00x.htm、filelist.xml和tabstrip.htm中是否使用全路径链接。 默认值为false。
 
 ```csharp
 public bool IsFullPathLink { get; set; }

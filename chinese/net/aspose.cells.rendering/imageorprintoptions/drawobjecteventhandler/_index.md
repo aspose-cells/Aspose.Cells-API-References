@@ -1,14 +1,14 @@
 ---
 title: DrawObjectEventHandler
 second_title: Aspose.Cells for .NET API 参考
-description: 实现该接口在渲染时获取DrawObject和Bound
+description: 实现这个接口在渲染的时候获取DrawObject和Bound
 type: docs
 weight: 80
 url: /zh/net/aspose.cells.rendering/imageorprintoptions/drawobjecteventhandler/
 ---
 ## ImageOrPrintOptions.DrawObjectEventHandler property
 
-实现该接口，在渲染时获取DrawObject和Bound。
+实现这个接口，在渲染的时候获取DrawObject和Bound。
 
 ```csharp
 public DrawObjectEventHandler DrawObjectEventHandler { get; set; }

@@ -19,10 +19,10 @@ public class TickLabels
 | Имя | Описание |
 | --- | --- |
 | [AutoScaleFont](../../aspose.cells.charts/ticklabels/autoscalefont) { get; set; } | Истинно, если текст в объекте меняет размер шрифта при изменении размера объекта. Значение по умолчанию верно. |
-| [BackgroundMode](../../aspose.cells.charts/ticklabels/backgroundmode) { get; set; } | Получает и устанавливает режим отображения фона |
+| [BackgroundMode](../../aspose.cells.charts/ticklabels/backgroundmode) { get; set; } | Получает и устанавливает режим отображения background |
 | [DirectionType](../../aspose.cells.charts/ticklabels/directiontype) { get; set; } | Получает и задает направление текста. |
-| [DisplayNumberFormat](../../aspose.cells.charts/ticklabels/displaynumberformat) { get; } | Получает и задает числовой формат отображения делений. |
-| [Font](../../aspose.cells.charts/ticklabels/font) { get; } | Возвращает объект[`Font`](./font), представляющий шрифт указанного объекта TickLabels. |
+| [DisplayNumberFormat](../../aspose.cells.charts/ticklabels/displaynumberformat) { get; } | Получает и задает формат отображаемого числа меток деления. |
+| [Font](../../aspose.cells.charts/ticklabels/font) { get; } | Возвращает[`Font`](./font) объект, представляющий шрифт указанного объекта TickLabels. |
 | [IsAutomaticRotation](../../aspose.cells.charts/ticklabels/isautomaticrotation) { get; set; } | Указывает, является ли угол поворота автоматическим |
 | [Number](../../aspose.cells.charts/ticklabels/number) { get; set; } | Представляет номер формата для объекта TickLabels. |
 | [NumberFormat](../../aspose.cells.charts/ticklabels/numberformat) { get; set; } | Представляет строку формата для объекта TickLabels. |

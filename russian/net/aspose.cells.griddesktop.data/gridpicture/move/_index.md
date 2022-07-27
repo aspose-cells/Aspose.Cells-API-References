@@ -17,7 +17,7 @@ public void Move(int upperLeftRow, int upperLeftColumn)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
 
 ### Смотрите также
 

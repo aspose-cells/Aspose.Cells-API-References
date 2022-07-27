@@ -26,7 +26,7 @@ public class TextTabStopCollection : CollectionBase<TextTabStop>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.drawing.texts/texttabstopcollection/item) { get; } | Получает[`TextTabStop`](../texttabstop)по индексу. |
+| [Item](../../aspose.cells.drawing.texts/texttabstopcollection/item) { get; } | получает[`TextTabStop`](../texttabstop) по индексу. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы

@@ -1,14 +1,14 @@
 ---
 title: BackImageUrl
 second_title: Aspose.Cells for .NET API 参考
-description: 背景图片网址
+description: 背景图片 url.
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.gridweb/gridtableitemstyle/backimageurl/
 ---
 ## GridTableItemStyle.BackImageUrl property
 
-背景图片网址。
+背景图片 url.
 
 ```csharp
 public string BackImageUrl { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет позицию метки данных.
+description: Представляет положение метки данных.
 type: docs
 weight: 120
 url: /ru/net/aspose.cells.charts/datalabels/position/
 ---
 ## DataLabels.Position property
 
-Представляет позицию метки данных.
+Представляет положение метки данных.
 
 ```csharp
 public LabelPositionType Position { get; set; }

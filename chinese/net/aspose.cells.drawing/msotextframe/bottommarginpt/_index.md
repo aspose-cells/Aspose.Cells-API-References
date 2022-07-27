@@ -1,14 +1,14 @@
 ---
 title: BottomMarginPt
 second_title: Aspose.Cells for .NET API 参考
-description: 以点为单位返回下边距
+description: 以 Points 为单位返回下边距
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.drawing/msotextframe/bottommarginpt/
 ---
 ## MsoTextFrame.BottomMarginPt property
 
-以点为单位返回下边距
+以 Points 为单位返回下边距
 
 ```csharp
 public double BottomMarginPt { get; set; }

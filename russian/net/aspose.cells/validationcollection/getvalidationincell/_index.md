@@ -1,14 +1,14 @@
 ---
 title: GetValidationInCell
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает проверку применяемую к данной ячейке.
+description: Получает проверку примененную к данной ячейке.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/validationcollection/getvalidationincell/
 ---
 ## ValidationCollection.GetValidationInCell method
 
-Получает проверку, применяемую к данной ячейке.
+Получает проверку, примененную к данной ячейке.
 
 ```csharp
 public Validation GetValidationInCell(int row, int column)
@@ -21,7 +21,7 @@ public Validation GetValidationInCell(int row, int column)
 
 ### Возвращаемое значение
 
-Возвращает объект[`Validation`](../../validation)или null, если для данной ячейки нет проверки
+Возвращает[`Validation`](../../validation) объект или ноль, если для данной ячейки нет проверки
 
 ### Смотрите также
 

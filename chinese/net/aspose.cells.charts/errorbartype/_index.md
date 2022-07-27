@@ -18,7 +18,7 @@ public enum ErrorBarType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Custom | `0` | InnerCustom 值类型。 |
+| Custom | `0` | 内部自定义值类型。 |
 | FixedValue | `1` | 固定值类型。 |
 | Percent | `2` | 百分比类型 |
 | StDev | `3` | 标准差类型。 |

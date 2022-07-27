@@ -1,14 +1,14 @@
 ---
 title: HideDetail
 second_title: Aspose.Cells for .NET API 参考
-description: 设置pivot字段中的PivotItems是否为隐藏细节即折叠/展开该字段
+description: 设置pivot字段中的PivotItems是否隐藏细节即折叠/展开该字段
 type: docs
 weight: 460
 url: /zh/net/aspose.cells.pivot/pivotfield/hidedetail/
 ---
 ## PivotField.HideDetail method
 
-设置pivot字段中的PivotItems是否为隐藏细节。即折叠/展开该字段。
+设置pivot字段中的PivotItems是否隐藏细节。即折叠/展开该字段。
 
 ```csharp
 public void HideDetail(bool isHiddenDetail)

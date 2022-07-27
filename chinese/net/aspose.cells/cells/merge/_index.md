@@ -3,7 +3,7 @@ title: Merge
 second_title: Aspose.Cells for .NET API 参考
 description: 将指定范围的单元格合并为一个单元格
 type: docs
-weight: 1170
+weight: 1180
 url: /zh/net/aspose.cells/cells/merge/
 ---
 ## Merge(int, int, int, int) {#merge}
@@ -18,12 +18,12 @@ public void Merge(int firstRow, int firstColumn, int totalRows, int totalColumns
 | --- | --- | --- |
 | firstRow | Int32 | 此范围的第一行（从零开始） |
 | firstColumn | Int32 | 此范围的第一列（从零开始） |
-| totalRows | Int32 | 行数（从一开始） |
-| totalColumns | Int32 | 列数（从一开始） |
+| totalRows | Int32 | 行数（基于一个） |
+| totalColumns | Int32 | 列数（基于一个） |
 
 ### 评论
 
-通过范围内左上角单元格的地址引用合并单元格.
+通过范围内左上角单元格的地址引用合并的单元格。
 
 ### 也可以看看
 
@@ -46,13 +46,13 @@ public void Merge(int firstRow, int firstColumn, int totalRows, int totalColumns
 | --- | --- | --- |
 | firstRow | Int32 | 此范围的第一行（从零开始） |
 | firstColumn | Int32 | 此范围的第一列（从零开始） |
-| totalRows | Int32 | 行数（从一开始） |
+| totalRows | Int32 | 行数（基于一个） |
 | totalColumns | Int32 | 列数（基于一个） |
 | mergeConflict | Boolean | 合并冲突合并范围。 |
 
 ### 评论
 
-通过范围内左上角单元格的地址引用合并单元格。 如果mergeConflict 为true，并且合并范围与其他合并单元格冲突， 其他合并单元格将被自动删除。
+通过范围内左上角单元格的地址引用合并的单元格。 如果mergeConflict为真且合并范围与其他合并单元格冲突， 其他合并单元格将被自动移除。
 
 ### 也可以看看
 
@@ -75,14 +75,14 @@ public void Merge(int firstRow, int firstColumn, int totalRows, int totalColumns
 | --- | --- | --- |
 | firstRow | Int32 | 此范围的第一行（从零开始） |
 | firstColumn | Int32 | 此范围的第一列（从零开始） |
-| totalRows | Int32 | 行数（从一开始） |
-| totalColumns | Int32 | 列数（从一个开始） |
-| checkConflict | Boolean | 表示检查合并单元格是否与其他合并单元格相交 |
+| totalRows | Int32 | 行数（基于一个） |
+| totalColumns | Int32 | 列数（基于一个） |
+| checkConflict | Boolean | 指示检查合并的单元格是否与其他合并的单元格相交 |
 | mergeConflict | Boolean | 合并冲突合并范围。 |
 
 ### 评论
 
-通过范围内左上角单元格的地址引用合并单元格。 如果mergeConflict 为true，并且合并范围与其他合并单元格冲突， 其他合并单元格将被自动删除。
+通过范围内左上角单元格的地址引用合并的单元格。 如果mergeConflict为真且合并范围与其他合并单元格冲突， 其他合并单元格将被自动移除。
 
 ### 也可以看看
 

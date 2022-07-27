@@ -27,7 +27,7 @@ public Hyperlink AddHyperlink(string address)
 ```csharp
 
 [C#]
-Aspose.Cells.Hyperlink hyperlink = shape.AddHyperlink("https: //www.aspose.com/");
+Aspose.Cells.Hyperlink hyperlink = shape.AddHyperlink("https://www.aspose.com/");
 ```
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: CellInMerged
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает значение находится ли указанная ячейка в объединении.
+description: Получает значение находится ли указанное местоположение ячейки в слияниях.
 type: docs
 weight: 540
 url: /ru/net/aspose.cells.griddesktop/worksheet/cellinmerged/
 ---
 ## Worksheet.CellInMerged method
 
-Получает значение, находится ли указанная ячейка в объединении.
+Получает значение, находится ли указанное местоположение ячейки в слияниях.
 
 ```csharp
 public bool CellInMerged(CellLocation cl)

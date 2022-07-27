@@ -1,12 +1,12 @@
 ---
 title: Aspose.Cells.Properties
 second_title: Aspose.Cells for .NET API 参考
-description: 包含 Aspose.Cells 的所有核心类
+description: 包含所有文档属性类
 type: docs
 weight: 120
 url: /zh/net/aspose.cells.properties/
 ---
-包含 Aspose.Cells 的所有核心类。
+包含所有文档属性类。
 
 ## 课程
 
@@ -14,12 +14,12 @@ url: /zh/net/aspose.cells.properties/
 | --- | --- |
 | [BuiltInDocumentPropertyCollection](./builtindocumentpropertycollection) | 内置文档属性的集合。 |
 | [ContentTypeProperty](./contenttypeproperty) | 表示标识符信息。 |
-| [ContentTypePropertyCollection](./contenttypepropertycollection) | [`ContentTypeProperty`](../aspose.cells.properties/contenttypeproperty)表示附加信息的对象的集合。 |
+| [ContentTypePropertyCollection](./contenttypepropertycollection) | 集合[`ContentTypeProperty`](../aspose.cells.properties/contenttypeproperty)表示附加信息的对象。 |
 | [CustomDocumentPropertyCollection](./customdocumentpropertycollection) | 自定义文档属性的集合。 |
 | [CustomProperty](./customproperty) | 表示标识符信息。 |
-| [CustomPropertyCollection](./custompropertycollection) | [`CustomProperty`](../aspose.cells.properties/customproperty)对象的集合，代表附加信息。 |
+| [CustomPropertyCollection](./custompropertycollection) | 集合[`CustomProperty`](../aspose.cells.properties/customproperty)表示附加信息的对象。 |
 | [DocumentProperty](./documentproperty) | 表示自定义或内置文档属性。 |
-| [DocumentPropertyCollection](./documentpropertycollection) | [`BuiltInDocumentPropertyCollection`](../aspose.cells.properties/builtindocumentpropertycollection)和CustomDocumentPropertyCollection的基类收藏。 |
+| [DocumentPropertyCollection](./documentpropertycollection) | 基类[`BuiltInDocumentPropertyCollection`](../aspose.cells.properties/builtindocumentpropertycollection)和[`CustomDocumentPropertyCollection`](../aspose.cells.properties/customdocumentpropertycollection)集合. |
 ## 枚举
 
 | 枚举 | 描述 |

@@ -24,7 +24,7 @@ public class DeleteOptions
 
 | Имя | Описание |
 | --- | --- |
-| [UpdateReference](../../aspose.cells/deleteoptions/updatereference) { get; set; } | Указывает, обновляются ли ссылки в других рабочих листах. |
+| [UpdateReference](../../aspose.cells/deleteoptions/updatereference) { get; set; } | Указывает, обновляются ли ссылки на других листах. |
 
 ### Смотрите также
 

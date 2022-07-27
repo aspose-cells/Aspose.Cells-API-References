@@ -1,14 +1,14 @@
 ---
 title: RevisionDefinedName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет запись ревизии определенного изменения имени.
+description: Представляет запись редакции определенного изменения имени.
 type: docs
 weight: 5400
 url: /ru/net/aspose.cells.revisions/revisiondefinedname/
 ---
 ## RevisionDefinedName class
 
-Представляет запись ревизии определенного изменения имени.
+Представляет запись редакции определенного изменения имени.
 
 ```csharp
 public class RevisionDefinedName : Revision

@@ -19,7 +19,7 @@ public string Email { get; set; }
 ```csharp
 
 [C#]
- // 创建签名行 object
+// 创建签名线对象
 SignatureLine s5 = new SignatureLine();
 s5.Email = "Simon.Zhao@aspose.com";
 ```

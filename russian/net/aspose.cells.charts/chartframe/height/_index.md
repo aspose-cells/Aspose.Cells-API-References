@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает высоту рамки в единицах 1/4000 области диаграммы.
+description: Получает или задает высоту кадра в единицах 1/4000 области диаграммы.
 type: docs
 weight: 100
 url: /ru/net/aspose.cells.charts/chartframe/height/
 ---
 ## ChartFrame.Height property
 
-Получает или задает высоту рамки в единицах 1/4000 области диаграммы.
+Получает или задает высоту кадра в единицах 1/4000 области диаграммы.
 
 ```csharp
 public virtual int Height { get; set; }

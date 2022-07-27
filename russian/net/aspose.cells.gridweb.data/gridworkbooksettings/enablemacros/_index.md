@@ -1,14 +1,14 @@
 ---
 title: EnableMacros
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или устанавливает разрешают ли макросы Теперь это работает только при копировании листа на другой лист в книге.
+description: Получает или задает включают ли макросы Теперь это работает только при копировании листа на другой лист в книге.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.gridweb.data/gridworkbooksettings/enablemacros/
 ---
 ## GridWorkbookSettings.EnableMacros property
 
-Получает или устанавливает, разрешают ли макросы; Теперь это работает только при копировании листа на другой лист в книге.
+Получает или задает, включают ли макросы; Теперь это работает только при копировании листа на другой лист в книге.
 
 ```csharp
 public bool EnableMacros { get; set; }

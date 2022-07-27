@@ -16,8 +16,8 @@ public byte[] ToImage(Cell cell, ImageOrPrintOptions imgOpts)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cell | Cell | 表示要渲染的单元格所在的数据栏 |
-| imgOpts | ImageOrPrintOptions | ImageOrPrintOptions 包含输出图像的某些属性 |
+| cell | Cell | 指示要在哪个单元格中呈现的数据栏 |
+| imgOpts | ImageOrPrintOptions | ImageOrPrintOptions 包含输出图像的一些属性 |
 
 ### 也可以看看
 

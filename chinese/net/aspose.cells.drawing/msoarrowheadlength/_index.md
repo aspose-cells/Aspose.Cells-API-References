@@ -18,9 +18,9 @@ public enum MsoArrowheadLength
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Short | `0` | 短行结束长度 |
-| Medium | `1` | 中行结束长度 |
-| Long | `2` | 长行结束长度 |
+| Short | `0` | 短线末端长度 |
+| Medium | `1` | 中线末端长度 |
+| Long | `2` | 长线末端长度 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Fields
 second_title: Aspose.Cells for .NET API 参考
-description: 按字段类型获取具体字段
+description: 通过字段类型获取具体字段
 type: docs
 weight: 820
 url: /zh/net/aspose.cells.pivot/pivottable/fields/
 ---
 ## PivotTable.Fields method
 
-按字段类型获取具体字段。
+通过字段类型获取具体字段
 
 ```csharp
 public PivotFieldCollection Fields(PivotFieldType fieldType)
@@ -20,7 +20,7 @@ public PivotFieldCollection Fields(PivotFieldType fieldType)
 
 ### 返回值
 
-具体字段
+具体领域
 
 ### 也可以看看
 

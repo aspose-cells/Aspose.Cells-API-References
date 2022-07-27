@@ -1,14 +1,14 @@
 ---
 title: ShowInCompactForm
 second_title: Справочник по Aspose.Cells для .NET API
-description: Макеты сводной таблицы в компактной форме.
+description: Макет сводной таблицы в компактной форме.
 type: docs
 weight: 960
 url: /ru/net/aspose.cells.pivot/pivottable/showincompactform/
 ---
 ## PivotTable.ShowInCompactForm method
 
-Макеты сводной таблицы в компактной форме.
+Макет сводной таблицы в компактной форме.
 
 ```csharp
 public void ShowInCompactForm()

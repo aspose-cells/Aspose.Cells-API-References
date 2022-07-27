@@ -17,10 +17,10 @@ public int AddCondition(FormatConditionType type, OperatorType operatorType, str
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| type | FormatConditionType | &lt;set cref="T:Aspose.Cells.FormatConditionType" /&gt; 的条件格式。 它可能是 FormatConditionType 的成员之一。 |
-| operatorType | OperatorType | 比较[`OperatorType`](../../operatortype)。 它可能是 OperatorType 的成员之一。 |
-| formula1 | String | 与条件格式相关的值或表达式。 如果输入值以'='开头，则将其作为公式。 否则将被视为纯值（文本、数字、布尔值）。 对于以'='开头的文本值，用户可以将其作为公式输入，格式为:“=\”=...\“”。 |
-| formula2 | String | 与条件格式相关的值或表达式。 输入格式同公式1 |
+| type | FormatConditionType | 的条件格式。 它可能是 FormatConditionType 的成员之一。 |
+| operatorType | OperatorType | 比较[`OperatorType`](../../operatortype). 它可能是 OperatorType 的成员之一。 |
+| formula1 | String | 与条件格式相关的值或表达式。 如果输入值以'='开头，则将其视为公式。 否则将其视为纯值（文本，数字，布尔）。 对于文本值以 '=' 开头，用户可以将其作为公式输入，格式为：“=\”=...\“”。 |
+| formula2 | String | 与条件格式相关的值或表达式。 输入格式与公式1相同 |
 
 ### 返回值
 
@@ -46,7 +46,7 @@ public int AddCondition(FormatConditionType type)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| type | FormatConditionType | 格式化条件类型。 |
+| type | FormatConditionType | 格式条件类型。 |
 
 ### 返回值
 

@@ -21,7 +21,7 @@ public bool IsVisible { get; set; }
 [C#]
 if(comment1.IsVisible)
 {
-      //Комментарий visible
+    //Комментарий виден
 }
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: FileFontSource
 second_title: Справочник по Aspose.Cells для .NET API
-description: Ктор.
+description: Стор.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/filefontsource/filefontsource/
 ---
 ## FileFontSource constructor
 
-Ктор.
+Стор.
 
 ```csharp
 public FileFontSource(string filePath)

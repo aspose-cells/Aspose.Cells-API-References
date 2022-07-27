@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 将SeriesCollectionaspose.cells.charts/seriescollection集合添加到图表中
+description: 添加SeriesCollectionaspose.cells.charts/seriescollection收集到图表
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.charts/seriescollection/add/
 ---
 ## Add(string, bool) {#add}
 
-将[`SeriesCollection`](../../seriescollection)集合添加到图表中。
+添加[`SeriesCollection`](../../seriescollection)收集到图表。
 
 ```csharp
 public int Add(string area, bool isVertical)
@@ -16,7 +16,7 @@ public int Add(string area, bool isVertical)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| area | String | 指定绘制数据系列的值 |
+| area | String | 指定从中绘制数据系列的值 |
 | isVertical | Boolean | 指定是按行还是按列从一系列单元格值中绘制系列。 |
 
 ### 返回值
@@ -25,7 +25,7 @@ public int Add(string area, bool isVertical)
 
 ### 评论
 
-&lt;br&gt;如果在连续单元格上设置数据，请使用冒号分隔它们。例如，$C$2:$C$5。&lt;/br&gt;&lt;br&gt;如果在不连续的单元格上设置数据，用逗号分隔。例如:($C$2,$D$5)。&lt;/br&gt;
+如果在连续单元格上设置数据，请使用冒号分隔它们。例如，$C$2:$C$5。如果在不连续的单元格上设置数据，请使用逗号分隔它们。例如：($C$2,$D$5)。
 
 ### 也可以看看
 
@@ -37,7 +37,7 @@ public int Add(string area, bool isVertical)
 
 ## Add(string, bool, bool) {#add_1}
 
-将[`SeriesCollection`](../../seriescollection)集合添加到图表中。
+添加[`SeriesCollection`](../../seriescollection)收集到图表。
 
 ```csharp
 public int Add(string area, bool isVertical, bool checkLabels)
@@ -45,17 +45,17 @@ public int Add(string area, bool isVertical, bool checkLabels)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| area | String | 指定绘制数据系列的值 |
+| area | String | 指定从中绘制数据系列的值 |
 | isVertical | Boolean | 指定是按行还是按列从一系列单元格值中绘制系列。 |
-| checkLabels | Boolean | 指示范围是否包含系列名称 |
+| checkLabels | Boolean | 指示范围是否包含系列的名称 |
 
 ### 返回值
 
-返回添加的 ASeries 的第一个索引N系列。
+返回 NSeries 中添加的 ASeries 的第一个索引。
 
 ### 评论
 
-&lt;br&gt;如果在连续单元格上设置数据，请使用冒号分隔它们。例如，$C$2:$C$5。&lt;/br&gt;&lt;br&gt;如果在不连续的单元格上设置数据，用逗号分隔。例如，($C$2,$D$5)。&lt;/br&gt;
+如果在连续单元格上设置数据，请使用冒号分隔它们。例如，$C$2:$C$5。如果在不连续的单元格上设置数据，请使用逗号分隔它们。例如，($C$2,$D$5)。
 
 ### 也可以看看
 

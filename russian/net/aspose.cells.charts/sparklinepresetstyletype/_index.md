@@ -1,14 +1,14 @@
 ---
 title: SparklinePresetStyleType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет предустановленные типы стиля для спарклайна.
+description: Представляет предустановленные типы стилей для спарклайна.
 type: docs
 weight: 900
 url: /ru/net/aspose.cells.charts/sparklinepresetstyletype/
 ---
 ## SparklinePresetStyleType enumeration
 
-Представляет предустановленные типы стиля для спарклайна.
+Представляет предустановленные типы стилей для спарклайна.
 
 ```csharp
 public enum SparklinePresetStyleType

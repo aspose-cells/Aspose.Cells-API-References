@@ -44,7 +44,7 @@ public void AutoFitRow(int startRow, int endRow, int startColumn, int endColumn)
 | --- | --- | --- |
 | startRow | Int32 | Индекс начальной строки. |
 | endRow | Int32 | Индекс конечной строки. |
-| startColumn | Int32 | Индекс начального столбца. |
+| startColumn | Int32 | Начальный индекс столбца. |
 | endColumn | Int32 | Конечный индекс столбца. |
 
 ### Смотрите также

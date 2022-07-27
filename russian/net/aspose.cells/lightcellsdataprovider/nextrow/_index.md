@@ -1,14 +1,14 @@
 ---
 title: NextRow
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает следующую сохраняемую строку.
+description: Получает следующую строку для сохранения.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/lightcellsdataprovider/nextrow/
 ---
 ## LightCellsDataProvider.NextRow method
 
-Получает следующую сохраняемую строку.
+Получает следующую строку для сохранения.
 
 ```csharp
 public int NextRow()
@@ -20,7 +20,7 @@ public int NextRow()
 
 ### Примечания
 
-Будет вызываться в начале сохранения данных строки и ее ячеек (до[`StartRow`](../startrow)).
+Будет вызываться в начале сохранения данных строки и ее ячеек (до[`StartRow`](../startrow) ).
 
 ### Смотрите также
 

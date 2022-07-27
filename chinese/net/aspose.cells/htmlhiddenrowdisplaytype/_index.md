@@ -1,14 +1,14 @@
 ---
 title: HtmlHiddenRowDisplayType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示在html中显示隐藏行的两种方式
+description: 代表在html中显示隐藏行的两种类型
 type: docs
 weight: 3710
 url: /zh/net/aspose.cells/htmlhiddenrowdisplaytype/
 ---
 ## HtmlHiddenRowDisplayType enumeration
 
-表示在html中显示隐藏行的两种方式。
+代表在html中显示隐藏行的两种类型。
 
 ```csharp
 public enum HtmlHiddenRowDisplayType

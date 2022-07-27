@@ -16,10 +16,10 @@ public void Move(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int l
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
 | lowerRightColumn | Int32 | Индекс нижнего правого столбца |
-| lowerRightRow | Int32 | Индекс нижнего правого столбца |
+| lowerRightRow | Int32 | Нижний индекс правой строки |
 
 ### Смотрите также
 

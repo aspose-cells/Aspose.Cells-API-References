@@ -19,8 +19,8 @@ public void Process(int sheetIndex, int rowIndex, int colIndex, string tableName
 | sheetIndex | Int32 | 工作表索引。 |
 | rowIndex | Int32 | 行索引。 |
 | colIndex | Int32 | 列索引。 |
-| tableName | String | smartmarker的表名。 |
-| columnName | String | smartmarker的表名。 |
+| tableName | String | 智能标记的表名。 |
+| columnName | String | 智能标记的表名。 |
 
 ### 也可以看看
 

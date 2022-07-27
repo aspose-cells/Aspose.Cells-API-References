@@ -1,14 +1,14 @@
 ---
 title: IgnoreNotPrinted
 second_title: Справочник по Aspose.Cells для .NET API
-description: Игнорировать нераспечатанные данные при прямой печати файла
+description: Игнорировать данные которые не печатаются при прямой печати файла
 type: docs
 weight: 90
 url: /ru/net/aspose.cells/loadoptions/ignorenotprinted/
 ---
 ## LoadOptions.IgnoreNotPrinted property
 
-Игнорировать нераспечатанные данные при прямой печати файла
+Игнорировать данные, которые не печатаются, при прямой печати файла
 
 ```csharp
 public bool IgnoreNotPrinted { get; set; }

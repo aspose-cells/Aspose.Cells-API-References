@@ -24,7 +24,7 @@ public class AutoNumberedBulletValue : BulletValue
 
 | Имя | Описание |
 | --- | --- |
-| [AutonumberScheme](../../aspose.cells.drawing.texts/autonumberedbulletvalue/autonumberscheme) { get; set; } | Представляет собой схему автоматического номера. |
+| [AutonumberScheme](../../aspose.cells.drawing.texts/autonumberedbulletvalue/autonumberscheme) { get; set; } | Представляет схему автоматического номера. |
 | [StartAt](../../aspose.cells.drawing.texts/autonumberedbulletvalue/startat) { get; set; } | Получает и устанавливает начальный номер пули. |
 | override [Type](../../aspose.cells.drawing.texts/autonumberedbulletvalue/type) { get; } | Получает тип пули. |
 

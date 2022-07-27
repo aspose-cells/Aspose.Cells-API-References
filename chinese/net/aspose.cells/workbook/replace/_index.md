@@ -1,14 +1,14 @@
 ---
 title: Replace
 second_title: Aspose.Cells for .NET API 参考
-description: 将单元格的值替换为新字符串
+description: 用新字符串替换单元格的值
 type: docs
 weight: 570
 url: /zh/net/aspose.cells/workbook/replace/
 ---
 ## Replace(string, string) {#replace_7}
 
-将单元格的值替换为新字符串。
+用新字符串替换单元格的值。
 
 ```csharp
 public int Replace(string placeHolder, string newValue)
@@ -45,7 +45,7 @@ orkbook.Replace("AnOldValue", "NewValue")
 
 ## Replace(string, int) {#replace_4}
 
-将单元格的值替换为新整数。
+用新整数替换单元格的值。
 
 ```csharp
 public int Replace(string placeHolder, int newValue)
@@ -93,7 +93,7 @@ public int Replace(string placeHolder, double newValue)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | placeHolder | String | 单元格占位符 |
-| newValue | Double | 替换双精度值 |
+| newValue | Double | 要替换的双倍值 |
 
 ### 例子
 
@@ -135,7 +135,7 @@ public int Replace(string placeHolder, string[] newValues, bool isVertical)
 | --- | --- | --- |
 | placeHolder | String | 单元格占位符 |
 | newValues | String[] | 要替换的字符串数组 |
-| isVertical | Boolean | True - 垂直，False - 水平 |
+| isVertical | Boolean | 真 - 垂直，假 - 水平 |
 
 ### 例子
 
@@ -176,7 +176,7 @@ public int Replace(string placeHolder, int[] newValues, bool isVertical)
 | --- | --- | --- |
 | placeHolder | String | 单元格占位符 |
 | newValues | Int32[] | 要替换的整数数组 |
-| isVertical | Boolean | True - Vertical, False - Horizontal |
+| isVertical | Boolean | 真 - 垂直，假 - 水平 |
 
 ### 例子
 
@@ -215,8 +215,8 @@ public int Replace(string placeHolder, double[] newValues, bool isVertical)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | placeHolder | String | 单元格占位符 |
-| newValues | Double[] | 双数组替换 |
-| isVertical | Boolean | True - 垂直，False - 水平 |
+| newValues | Double[] | 要替换的双数组 |
+| isVertical | Boolean | 真 - 垂直，假 - 水平 |
 
 ### 例子
 
@@ -247,7 +247,7 @@ workbook.Replace("AnOldValue", NewValues, True)
 
 ## Replace(string, DataTable) {#replace_6}
 
-将单元格的值替换为DataTable中的数据。
+将单元格的值替换为来自DataTable.
 
 ```csharp
 public int Replace(string placeHolder, DataTable insertTable)
@@ -256,7 +256,7 @@ public int Replace(string placeHolder, DataTable insertTable)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | placeHolder | String | 单元格占位符 |
-| insertTable | DataTable | DataTable 替换 |
+| insertTable | DataTable | 要替换的数据表 |
 
 ### 例子
 
@@ -265,7 +265,7 @@ public int Replace(string placeHolder, DataTable insertTable)
 
 Workbook workbook = new Workbook();
 DataTable myDataTable = new DataTable("Customers");
- // 将数据添加到 myDataTable
+// 将数据添加到 myDataTable
 ........
 workbook.Replace("AnOldValue", myDataTable);
 
@@ -273,7 +273,7 @@ workbook.Replace("AnOldValue", myDataTable);
 
 Dim workbook As Workbook =  New Workbook() 
 Dim myDataTable As DataTable =  New DataTable("Customers") 
-' 将数据添加到 myDataTable
+'将数据添加到 myDataTable
 ............
 workbook.Replace("AnOldValue", myDataTable)
 ```
@@ -297,7 +297,7 @@ public int Replace(bool boolValue, object newValue)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | boolValue | Boolean | 要替换的布尔值。 |
-| newValue | Object | 新值。可以是字符串、整数、双精度或日期时间值。 |
+| newValue | Object | 新价值。可以是字符串、整数、双精度或日期时间值。 |
 
 ### 也可以看看
 
@@ -318,7 +318,7 @@ public int Replace(int intValue, object newValue)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | intValue | Int32 | 要替换的整数值。 |
-| newValue | Object | 新值。可以是字符串、整数、双精度或日期时间值。 |
+| newValue | Object | 新价值。可以是字符串、整数、双精度或日期时间值。 |
 
 ### 也可以看看
 
@@ -330,7 +330,7 @@ public int Replace(int intValue, object newValue)
 
 ## Replace(string, string, ReplaceOptions) {#replace_8}
 
-将单元格的值替换为新字符串。
+用新字符串替换单元格的值。
 
 ```csharp
 public int Replace(string placeHolder, string newValue, ReplaceOptions options)

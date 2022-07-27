@@ -17,23 +17,23 @@ public void Move(int upperLeftRow, int upperLeftColumn)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
 
 ### Примеры
 
 ```csharp
 
 [C#]
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-  //Добавление изображения в ячейку, индексы строки и столбца которой равны 1 на рабочем листе. Это "B2" cell
+//Добавление изображения в ячейку, индексы строки и столбца которой равны 1 на рабочем листе. Это ячейка "B2"
 int imgIndex = worksheet.Pictures.Add(1, 1, "example.jpeg");
-  //Получить вставленную картинку object
+//Получить вставленный объект изображения
 Picture pic = worksheet.Pictures[imgIndex];
-  //Установить новое местоположение picture
+//Устанавливаем новое расположение картинки
 pic.Move(2, 4);
-  // Сохраняем файл Excel.
+// Сохраняем файл excel.
 workbook.Save("result.xlsx");
 ```
 

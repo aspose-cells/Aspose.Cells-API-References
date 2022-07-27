@@ -1,14 +1,14 @@
 ---
 title: QueryTableCollection
 second_title: Aspose.Cells for .NET API 参考
-description: QueryTableCollection./querytablecollection表示 QueryTable 集合信息的对象的集合
+description: 集合QueryTableCollection./querytablecollection表示 QueryTable 集合信息的对象
 type: docs
 weight: 4940
 url: /zh/net/aspose.cells/querytablecollection/
 ---
 ## QueryTableCollection class
 
-[`QueryTableCollection`](../querytablecollection)表示 QueryTable 集合信息的对象的集合。
+集合[`QueryTableCollection`](../querytablecollection)表示 QueryTable 集合信息的对象。
 
 ```csharp
 public class QueryTableCollection : CollectionBase<QueryTable>

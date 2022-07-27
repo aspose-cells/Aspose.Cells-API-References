@@ -1,14 +1,14 @@
 ---
 title: ShowDataTips
 second_title: Aspose.Cells for .NET API 参考
-description: 指定一个布尔值指示是否应为数据透视表数据单元格显示工具提示
+description: 指定一个布尔值该值指示是否应为数据透视表数据单元格显示工具提示
 type: docs
 weight: 580
 url: /zh/net/aspose.cells.pivot/pivottable/showdatatips/
 ---
 ## PivotTable.ShowDataTips property
 
-指定一个布尔值，指示是否应为数据透视表数据单元格显示工具提示。
+指定一个布尔值，该值指示是否应为数据透视表数据单元格显示工具提示。
 
 ```csharp
 public bool ShowDataTips { get; set; }

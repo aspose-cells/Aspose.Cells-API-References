@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置以字符为单位的列宽
+description: 以字符为单位获取和设置列宽
 type: docs
 weight: 60
 url: /zh/net/aspose.cells/column/width/
 ---
 ## Column.Width property
 
-获取和设置以字符为单位的列宽。
+以字符为单位获取和设置列宽。
 
 ```csharp
 public double Width { get; set; }

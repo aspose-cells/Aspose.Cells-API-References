@@ -1,14 +1,14 @@
 ---
 title: BorderCollapse
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает функцию схлопывания границ.
+description: Указывает функцию свертывания границы.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.gridweb/gridtablestyle/bordercollapse/
 ---
 ## GridTableStyle.BorderCollapse property
 
-Указывает функцию схлопывания границ.
+Указывает функцию свертывания границы.
 
 ```csharp
 public BorderCollapseType BorderCollapse { get; set; }

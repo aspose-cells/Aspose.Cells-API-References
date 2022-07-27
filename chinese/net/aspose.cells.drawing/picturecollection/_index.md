@@ -1,14 +1,14 @@
 ---
 title: PictureCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装Picture./picture对象的集合
+description: 封装了一个集合Picture./picture对象.
 type: docs
 weight: 2490
 url: /zh/net/aspose.cells.drawing/picturecollection/
 ---
 ## PictureCollection class
 
-封装[`Picture`](../picture)对象的集合。
+封装了一个集合[`Picture`](../picture)对象.
 
 ```csharp
 public class PictureCollection : CollectionBase<Picture>
@@ -20,7 +20,7 @@ public class PictureCollection : CollectionBase<Picture>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.drawing/picturecollection/item) { get; } | 获取指定索引处的[`Picture`](../picture)元素。 |
+| [Item](../../aspose.cells.drawing/picturecollection/item) { get; } | 获取[`Picture`](../picture)指定索引处的元素。 |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法
@@ -66,15 +66,15 @@ public class PictureCollection : CollectionBase<Picture>
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 
- //获取图片集合
+//获取图片集合
 PictureCollection pictures = workbook.Worksheets[0].Pictures;
 
- //做你的事
+//做你的事
 
- //保存excel文件.
+//保存excel文件。
 workbook.Save("result.xlsx");
 ```
 

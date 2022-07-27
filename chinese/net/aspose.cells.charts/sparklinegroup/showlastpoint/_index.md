@@ -1,14 +1,14 @@
 ---
 title: ShowLastPoint
 second_title: Aspose.Cells for .NET API 参考
-description: 指示是否突出显示迷你图组中最后一个数据点
+description: 表示是否突出显示迷你图组中最后一个数据点
 type: docs
 weight: 180
 url: /zh/net/aspose.cells.charts/sparklinegroup/showlastpoint/
 ---
 ## SparklineGroup.ShowLastPoint property
 
-指示是否突出显示迷你图组中最后一个数据点。
+表示是否突出显示迷你图组中最后一个数据点。
 
 ```csharp
 public bool ShowLastPoint { get; set; }

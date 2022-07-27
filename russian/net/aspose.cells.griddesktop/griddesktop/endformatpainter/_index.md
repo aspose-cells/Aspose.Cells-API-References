@@ -20,14 +20,14 @@ public void EndFormatPainter()
 [C#]
 gridDesktop1.StartFormatPainter(false);
 ...
-// Пользовательский интерфейс Operation
+// Работа с пользовательским интерфейсом
 ...
 gridDesktop1.EndFormatPainter();
 
 [Visual Basic]
 gridDesktop1.StartFormatPainter(False)
 ...
-'Пользовательский интерфейс Operation
+'Работа с пользовательским интерфейсом
 ...
 gridDesktop1.EndFormatPainter()
 

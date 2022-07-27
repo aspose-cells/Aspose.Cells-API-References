@@ -1,14 +1,14 @@
 ---
 title: GetComment
 second_title: Aspose.Cells for .NET API 参考
-description: 获取此单元格上的评论对象
+description: 获取此单元格的评论对象
 type: docs
 weight: 240
 url: /zh/net/aspose.cells.gridweb.data/gridcell/getcomment/
 ---
 ## GridCell.GetComment method
 
-获取此单元格上的评论对象
+获取此单元格的评论对象
 
 ```csharp
 public GridComment GetComment()

@@ -16,7 +16,7 @@ public IEnumerator GetEnumerator()
 
 ### 返回值
 
-要迭代的枚举数。
+要迭代的枚举器。
 
 ### 也可以看看
 

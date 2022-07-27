@@ -1,14 +1,14 @@
 ---
 title: IconId
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置图标集中从零开始的索引
+description: 获取和设置图标集中图标的从零开始的索引
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/iconfilter/iconid/
 ---
 ## IconFilter.IconId property
 
-获取和设置图标集中从零开始的索引。
+获取和设置图标集中图标的从零开始的索引。
 
 ```csharp
 public int IconId { get; set; }

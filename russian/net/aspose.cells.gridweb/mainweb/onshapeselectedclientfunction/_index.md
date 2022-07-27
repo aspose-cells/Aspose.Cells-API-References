@@ -1,14 +1,14 @@
 ---
 title: OnShapeSelectedClientFunction
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает функцию на стороне клиента которая будет вызываться при выборе фигуры. Клиентская функция должна быть объявлена следующим образомltbr /gt function MyOnSelectShapeshapeltbr /gt ltbr /gt var nameshape.getAttributenamevalueltbr /gt var textshape.getAttributetextvalueltbr /gt var valueshape.getAttributecontrolvalueltbr /gt var typeshape.getAttributemsotypeltbr /gt ltbr /gtltbr /gtПримечание. Вы можете использовать указатель this в клиентской функции чтобы указать элемент управления сеткой который запускает событие.
+description: Получает или задает функцию на стороне клиента которая будет вызываться при выборе фигуры. Функция клиента должна быть объявлена следующим образом функция MyOnSelectShape форма  var nameshape.getAttributeимязначение var textshape.getAttributetextvalue var valueshape.getAttributecontrolvalue var typeshape.getAttributemsotype  Примечание. Вы можете использовать указатель this в клиентской функции чтобы указать элемент управления сеткой который запускает событие.
 type: docs
 weight: 690
 url: /ru/net/aspose.cells.gridweb/mainweb/onshapeselectedclientfunction/
 ---
 ## MainWeb.OnShapeSelectedClientFunction property
 
-Получает или задает функцию на стороне клиента, которая будет вызываться при выборе фигуры. Клиентская функция должна быть объявлена следующим образом:&lt;br /&gt; function MyOnSelectShape(shape)&lt;br /&gt; {&lt;br /&gt; var name=shape.getAttribute("namevalue")&lt;br /&gt; var text=shape.getAttribute("textvalue")&lt;br /&gt; var value=shape.getAttribute("controlvalue")&lt;br /&gt; var type=shape.getAttribute("msotype")&lt;br /&gt; }&lt;br /&gt;&lt;br /&gt;Примечание. Вы можете использовать указатель "this" в клиентской функции, чтобы указать элемент управления сеткой, который запускает событие.
+Получает или задает функцию на стороне клиента, которая будет вызываться при выборе фигуры. Функция клиента должна быть объявлена следующим образом: функция MyOnSelectShape (форма) { var name=shape.getAttribute("имязначение") var text=shape.getAttribute("textvalue") var value=shape.getAttribute("controlvalue") var type=shape.getAttribute("msotype") } Примечание. Вы можете использовать указатель «this» в клиентской функции, чтобы указать элемент управления сеткой, который запускает событие.
 
 ```csharp
 public string OnShapeSelectedClientFunction { get; set; }

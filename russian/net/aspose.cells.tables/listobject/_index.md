@@ -1,14 +1,14 @@
 ---
 title: ListObject
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет объект списка на рабочем листе. Объект ListObject является членом коллекции ListObjects. Коллекция ListObjects содержит все объекты списка на рабочем листе.
+description: Представляет объект списка на листе. Объект ListObject является членом коллекции ListObjects. Коллекция ListObjects содержит все объекты списка на рабочем листе.
 type: docs
 weight: 5820
 url: /ru/net/aspose.cells.tables/listobject/
 ---
 ## ListObject class
 
-Представляет объект списка на рабочем листе. Объект ListObject является членом коллекции ListObjects. Коллекция ListObjects содержит все объекты списка на рабочем листе.
+Представляет объект списка на листе. Объект ListObject является членом коллекции ListObjects. Коллекция ListObjects содержит все объекты списка на рабочем листе.
 
 ```csharp
 public class ListObject
@@ -21,7 +21,7 @@ public class ListObject
 | [AlternativeDescription](../../aspose.cells.tables/listobject/alternativedescription) { get; set; } | Получает и задает альтернативное описание. |
 | [AlternativeText](../../aspose.cells.tables/listobject/alternativetext) { get; set; } | Получает и задает альтернативный текст. |
 | [AutoFilter](../../aspose.cells.tables/listobject/autofilter) { get; } | Получает автоматический фильтр. |
-| [Comment](../../aspose.cells.tables/listobject/comment) { get; set; } | Получает и устанавливает комментарий к таблице. |
+| [Comment](../../aspose.cells.tables/listobject/comment) { get; set; } | Получает и устанавливает комментарий таблицы. |
 | [DataRange](../../aspose.cells.tables/listobject/datarange) { get; } | Получает диапазон данных ListObject. |
 | [DataSourceType](../../aspose.cells.tables/listobject/datasourcetype) { get; } | Получает тип источника данных таблицы. |
 | [DisplayName](../../aspose.cells.tables/listobject/displayname) { get; set; } | Получает и задает отображаемое имя. |
@@ -30,16 +30,16 @@ public class ListObject
 | [ListColumns](../../aspose.cells.tables/listobject/listcolumns) { get; } | Получает ListColumns объекта ListObject. |
 | [QueryTable](../../aspose.cells.tables/listobject/querytable) { get; } | Получает связанную таблицу запросов. |
 | [ShowHeaderRow](../../aspose.cells.tables/listobject/showheaderrow) { get; set; } | Получает и устанавливает, показывает ли этот ListObject строку заголовка. |
-| [ShowTableStyleColumnStripes](../../aspose.cells.tables/listobject/showtablestylecolumnstripes) { get; set; } | Указывает, применяется ли форматирование чередования столбцов. |
-| [ShowTableStyleFirstColumn](../../aspose.cells.tables/listobject/showtablestylefirstcolumn) { get; set; } | Указывает, следует ли применять стиль к первому столбцу таблицы. |
+| [ShowTableStyleColumnStripes](../../aspose.cells.tables/listobject/showtablestylecolumnstripes) { get; set; } | Указывает, применяется ли форматирование полос столбцов. |
+| [ShowTableStyleFirstColumn](../../aspose.cells.tables/listobject/showtablestylefirstcolumn) { get; set; } | Указывает, следует ли применять стиль к первому столбцу в таблице. |
 | [ShowTableStyleLastColumn](../../aspose.cells.tables/listobject/showtablestylelastcolumn) { get; set; } | Указывает, следует ли применять стиль к последнему столбцу таблицы. |
 | [ShowTableStyleRowStripes](../../aspose.cells.tables/listobject/showtablestylerowstripes) { get; set; } | Указывает, применяется ли форматирование чередования строк. |
-| [ShowTotals](../../aspose.cells.tables/listobject/showtotals) { get; set; } | Получает и устанавливает, показывает ли этот ListObject общую строку. |
+| [ShowTotals](../../aspose.cells.tables/listobject/showtotals) { get; set; } | Получает и устанавливает, будет ли этот ListObject показывать итоговую строку. |
 | [StartColumn](../../aspose.cells.tables/listobject/startcolumn) { get; } | Получает начальный столбец диапазона. |
 | [StartRow](../../aspose.cells.tables/listobject/startrow) { get; } | Получает начальную строку диапазона. |
 | [TableStyleName](../../aspose.cells.tables/listobject/tablestylename) { get; set; } | Получает и задает имя стиля таблицы. |
 | [TableStyleType](../../aspose.cells.tables/listobject/tablestyletype) { get; set; } | Получает и встроенный стиль таблицы. |
-| [XmlMap](../../aspose.cells.tables/listobject/xmlmap) { get; } | Получает[`XmlMap`](./xmlmap)используемый для этого списка. |
+| [XmlMap](../../aspose.cells.tables/listobject/xmlmap) { get; } | Получает[`XmlMap`](./xmlmap)используется для этого списка. |
 
 ## Методы
 
@@ -50,7 +50,7 @@ public class ListObject
 | [ConvertToRange](../../aspose.cells.tables/listobject/converttorange#converttorange_1)(TableToRangeOptions) | Преобразование таблицы в диапазон. |
 | [Filter](../../aspose.cells.tables/listobject/filter)() | Отфильтровать таблицу. |
 | [PutCellValue](../../aspose.cells.tables/listobject/putcellvalue)(int, int, object) | Поместите значение в ячейку. |
-| [Resize](../../aspose.cells.tables/listobject/resize)(int, int, int, int, bool) | Изменение размера диапазона объекта списка. |
+| [Resize](../../aspose.cells.tables/listobject/resize)(int, int, int, int, bool) | Изменить размер диапазона объекта списка. |
 | [UpdateColumnName](../../aspose.cells.tables/listobject/updatecolumnname)() | Обновляет имена всех столбцов списка из рабочего листа. |
 
 ### Примеры

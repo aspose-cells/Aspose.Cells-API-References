@@ -19,7 +19,7 @@ public class CellValidationEventArgs : EventArgs
 | 姓名 | 描述 |
 | --- | --- |
 | [Cell](../../aspose.cells.griddesktop/cellvalidationeventargs/cell) { get; } | 表示一个网格单元。 |
-| [Handled](../../aspose.cells.griddesktop/cellvalidationeventargs/handled) { get; set; } | 获取或设置指示是否应处理事件的值。 |
+| [Handled](../../aspose.cells.griddesktop/cellvalidationeventargs/handled) { get; set; } | 获取或设置是否应该处理事件的值。 |
 | [NewValue](../../aspose.cells.griddesktop/cellvalidationeventargs/newvalue) { get; } | 获取设置为单元格的新值。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: GetRow
 second_title: Aspose.Cells for .NET API 参考
-description: 获取Row元素或指定单元格行索引处
+description: 获取Row元素或在指定的单元格行索引处
 type: docs
 weight: 440
 url: /zh/net/aspose.cells.gridweb.data/gridcells/getrow/
 ---
 ## GridCells.GetRow method
 
-获取Row元素或指定单元格行索引处。
+获取Row元素或在指定的单元格行索引处。
 
 ```csharp
 public GridRow GetRow(int i)
@@ -20,7 +20,7 @@ public GridRow GetRow(int i)
 
 ### 返回值
 
-如果行对象确实存在，则返回 Row 对象，否则返回 null。
+如果row对象存在则返回Row对象，否则返回null。
 
 ### 也可以看看
 

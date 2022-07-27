@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Cells for .NET API 参考
-description: 表示DrawObject的类型
+description: 表示 DrawObject 的类型
 type: docs
 weight: 70
 url: /zh/net/aspose.cells.rendering/drawobject/type/
 ---
 ## DrawObject.Type property
 
-表示DrawObject的类型。
+表示 DrawObject 的类型。
 
 ```csharp
 public DrawObjectEnum Type { get; }

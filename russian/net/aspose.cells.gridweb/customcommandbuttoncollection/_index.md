@@ -33,10 +33,10 @@ public class CustomCommandButtonCollection : IList
 | [Clear](../../aspose.cells.gridweb/customcommandbuttoncollection/clear)() | Очищает коллекцию. |
 | [Contains](../../aspose.cells.gridweb/customcommandbuttoncollection/contains)(object) | Указывает, находится ли объект пользовательской командной кнопки в коллекции. |
 | [CopyTo](../../aspose.cells.gridweb/customcommandbuttoncollection/copyto)(Array, int) | Копирует коллекцию в массив. |
-| [GetEnumerator](../../aspose.cells.gridweb/customcommandbuttoncollection/getenumerator)() | Получает объект коллекции IEnumerator. |
+| [GetEnumerator](../../aspose.cells.gridweb/customcommandbuttoncollection/getenumerator)() | Получает объект IEnumerator коллекции. |
 | [IndexOf](../../aspose.cells.gridweb/customcommandbuttoncollection/indexof)(object) | Получает индекс кнопки. |
-| [Insert](../../aspose.cells.gridweb/customcommandbuttoncollection/insert)(int, object) | Вставляет кнопку в индекс. |
-| [Remove](../../aspose.cells.gridweb/customcommandbuttoncollection/remove)(object) | Удаляет пользовательский объект командной кнопки. |
+| [Insert](../../aspose.cells.gridweb/customcommandbuttoncollection/insert)(int, object) | Вставляет кнопку по индексу. |
+| [Remove](../../aspose.cells.gridweb/customcommandbuttoncollection/remove)(object) | Удаляет объект пользовательской командной кнопки. |
 | [RemoveAt](../../aspose.cells.gridweb/customcommandbuttoncollection/removeat)(int) | Удаляет по индексу. |
 
 ### Примеры

@@ -1,14 +1,14 @@
 ---
 title: Depth
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает глубину от начала до конца в единицах 1/4000 ширины графика после вызова метода Chart.Calculate.
+description: Получает глубину спереди назад в единицах 1/4000 ширины графика после вызова метода Chart.Calculate.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.charts/walls/depth/
 ---
 ## Walls.Depth property
 
-Получает глубину от начала до конца в единицах 1/4000 ширины графика после вызова метода Chart.Calculate().
+Получает глубину спереди назад в единицах 1/4000 ширины графика после вызова метода Chart.Calculate().
 
 ```csharp
 public int Depth { get; }

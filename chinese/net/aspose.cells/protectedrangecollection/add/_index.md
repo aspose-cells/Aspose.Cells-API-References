@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 将ProtectedRangeaspose.cells/protectedrange项添加到集合中
+description: 添加一个ProtectedRangeaspose.cells/protectedrange项目到集合.
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/protectedrangecollection/add/
 ---
 ## ProtectedRangeCollection.Add method
 
-将[`ProtectedRange`](../../protectedrange)项添加到集合中。
+添加一个[`ProtectedRange`](../../protectedrange)项目到集合.
 
 ```csharp
 public int Add(string name, int startRow, int startColumn, int endRow, int endColumn)

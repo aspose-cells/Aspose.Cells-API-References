@@ -1,14 +1,14 @@
 ---
 title: AddComboBox
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет поле со списком на рабочий лист.
+description: Добавляет поле со списком на лист.
 type: docs
 weight: 80
 url: /ru/net/aspose.cells.drawing/shapecollection/addcombobox/
 ---
 ## ShapeCollection.AddComboBox method
 
-Добавляет поле со списком на рабочий лист.
+Добавляет поле со списком на лист.
 
 ```csharp
 public ComboBox AddComboBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, 
@@ -18,11 +18,11 @@ public ComboBox AddComboBox(int upperLeftRow, int top, int upperLeftColumn, int 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| top | Int32 | Представляет вертикальное смещение ComboBox от его левой строки в единицах пикселей. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
-| left | Int32 | Представляет горизонтальное смещение ComboBox от его левого столбца в единицах пикселей. |
+| top | Int32 | Представляет вертикальное смещение ComboBox от его левой строки в пикселях. |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
+| left | Int32 | Представляет горизонтальное смещение ComboBox от его левого столбца в пикселях. |
 | height | Int32 | Представляет высоту ComboBox в пикселях. |
-| width | Int32 | Представляет ширину поля со списком в пикселях. |
+| width | Int32 | Представляет ширину ComboBox в пикселях. |
 
 ### Возвращаемое значение
 
@@ -33,7 +33,7 @@ public ComboBox AddComboBox(int upperLeftRow, int top, int upperLeftColumn, int 
 ```csharp
 
 [C#]
-  // добавляем поле со списком
+//добавляем поле со списком
 ComboBox comboBox = shapes.AddComboBox(1, 0, 1, 0, 100, 50);
 ```
 

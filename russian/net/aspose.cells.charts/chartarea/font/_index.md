@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектFontaspose.cells.charts/chartarea/fontуказанного объекта диаграммы.
+description: ПолучаетFontaspose.cells.charts/chartarea/font объект указанного объекта диаграммы.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.charts/chartarea/font/
 ---
 ## ChartArea.Font property
 
-Получает объект`Font`указанного объекта диаграммы.
+Получает`Font` объект указанного объекта диаграммы.
 
 ```csharp
 public override Font Font { get; }

@@ -1,14 +1,14 @@
 ---
 title: IsXl97
 second_title: Aspose.Cells for .NET API 参考
-description: 此标志的存在是为了向后兼容旧的现有电子表格文件如果此 Web 查询是在 Microsoft Excel 97 中创建的则将 设置为 true 这是一个可以忽略的可选属性
+description: 此标志的存在是为了与旧的现有电子表格文件向后兼容如果此 Web 查询是在 Microsoft Excel 97 中创建的则将 设置为 true 这是一个可以忽略的可选属性
 type: docs
 weight: 90
 url: /zh/net/aspose.cells.externalconnections/webqueryconnection/isxl97/
 ---
 ## WebQueryConnection.IsXl97 property
 
-此标志的存在是为了向后兼容旧的现有电子表格文件，如果此 Web 查询是在 Microsoft Excel 97 中创建的，则将 设置为 true。 这是一个可以忽略的可选属性。
+此标志的存在是为了与旧的现有电子表格文件向后兼容，如果此 Web 查询是在 Microsoft Excel 97 中创建的，则将 设置为 true。 这是一个可以忽略的可选属性。
 
 ```csharp
 public bool IsXl97 { get; set; }

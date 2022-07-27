@@ -24,8 +24,8 @@ public class ExportRangeToJsonOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ExportAsString](../../aspose.cells.utility/exportrangetojsonoptions/exportasstring) { get; set; } | 将单元格的字符串值导出到 json。 |
-| [HasHeaderRow](../../aspose.cells.utility/exportrangetojsonoptions/hasheaderrow) { get; set; } | 指示范围是否包含标题行。 |
+| [ExportAsString](../../aspose.cells.utility/exportrangetojsonoptions/exportasstring) { get; set; } | 将单元格的字符串值导出到 json. |
+| [HasHeaderRow](../../aspose.cells.utility/exportrangetojsonoptions/hasheaderrow) { get; set; } | 表示范围是否包含标题行。 |
 | [Indent](../../aspose.cells.utility/exportrangetojsonoptions/indent) { get; set; } | 表示缩进。 |
 
 ### 也可以看看

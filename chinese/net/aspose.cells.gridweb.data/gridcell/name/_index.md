@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.gridweb.data/gridcell/name/
 ---
 ## GridCell.Name property
 
-获取单元格的名称。 例如:A1、F102。
+获取单元格的名称。 例如：A1，F102。
 
 ```csharp
 public string Name { get; }

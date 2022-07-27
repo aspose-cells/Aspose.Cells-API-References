@@ -1,14 +1,14 @@
 ---
 title: ApplyStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 对整列应用格式
+description: 为整列应用格式
 type: docs
 weight: 70
 url: /zh/net/aspose.cells/column/applystyle/
 ---
 ## Column.ApplyStyle method
 
-对整列应用格式。
+为整列应用格式。
 
 ```csharp
 public void ApplyStyle(Style style, StyleFlag flag)
@@ -17,7 +17,7 @@ public void ApplyStyle(Style style, StyleFlag flag)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | style | Style | 将应用的样式对象。 |
-| flag | StyleFlag | 指示应用格式属性的标志。 |
+| flag | StyleFlag | 指示应用的格式属性的标志。 |
 
 ### 也可以看看
 

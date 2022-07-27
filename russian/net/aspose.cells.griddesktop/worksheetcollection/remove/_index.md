@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Справочник по Aspose.Cells для .NET API
-description: Удаляет рабочий лист по указанному индексу из коллекции WorksheetCollection. Если конкретный лист является последним листом после удаления листа в WorksheetCollection будет добавлен новый лист.
+description: Удаляет рабочий лист с указанным индексом из WorksheetCollection. Если конкретный лист является последним листом после удаления листа добавляется новый лист в WorksheetCollection.
 type: docs
 weight: 140
 url: /ru/net/aspose.cells.griddesktop/worksheetcollection/remove/
 ---
 ## WorksheetCollection.Remove method
 
-Удаляет рабочий лист по указанному индексу из коллекции WorksheetCollection. Если конкретный лист является последним листом, после удаления листа в WorksheetCollection будет добавлен новый лист.
+Удаляет рабочий лист с указанным индексом из WorksheetCollection. Если конкретный лист является последним листом, после удаления листа добавляется новый лист в WorksheetCollection.
 
 ```csharp
 public void Remove(int index)
@@ -16,7 +16,7 @@ public void Remove(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс удаляемого рабочего листа. |
+| index | Int32 | Отсчитываемый от нуля индекс удаляемого листа. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: IsAutoSize
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает будет ли размер элемента управления автоматически изменяться для отображения всего его содержимого.
+description: Указывает будет ли автоматически изменяться размер элемента управления для отображения всего его содержимого.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.drawing.activexcontrols/activexcontrol/isautosize/
 ---
 ## ActiveXControl.IsAutoSize property
 
-Указывает, будет ли размер элемента управления автоматически изменяться для отображения всего его содержимого.
+Указывает, будет ли автоматически изменяться размер элемента управления для отображения всего его содержимого.
 
 ```csharp
 public virtual bool IsAutoSize { get; set; }

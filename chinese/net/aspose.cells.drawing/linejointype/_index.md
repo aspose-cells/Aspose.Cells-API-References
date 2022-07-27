@@ -20,7 +20,7 @@ public enum LineJoinType
 | --- | --- | --- |
 | Round | `0` | 圆形接头 |
 | Bevel | `1` | 斜角接头 |
-| Miter | `2` | 斜接 |
+| Miter | `2` | 斜接接头 |
 | None | `3` | 无关节 |
 
 ### 也可以看看

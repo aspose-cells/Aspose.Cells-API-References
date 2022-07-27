@@ -1,14 +1,14 @@
 ---
 title: DataMashup
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет данные коллажа.
+description: Представляет данные мэшапа.
 type: docs
 weight: 4950
 url: /ru/net/aspose.cells.querytables/datamashup/
 ---
 ## DataMashup class
 
-Представляет данные коллажа.
+Представляет данные мэшапа.
 
 ```csharp
 public class DataMashup
@@ -19,7 +19,7 @@ public class DataMashup
 | Имя | Описание |
 | --- | --- |
 | [PowerQueryFormulaParameters](../../aspose.cells.querytables/datamashup/powerqueryformulaparameters) { get; } | Получает все параметры формул мощного запроса. |
-| [PowerQueryFormulas](../../aspose.cells.querytables/datamashup/powerqueryformulas) { get; } | Получает все формулы мощного запроса. |
+| [PowerQueryFormulas](../../aspose.cells.querytables/datamashup/powerqueryformulas) { get; } | Получает все формулы запроса мощности. |
 
 ### Смотрите также
 

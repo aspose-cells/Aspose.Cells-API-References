@@ -1,14 +1,14 @@
 ---
 title: EmptySheetMaxRow
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает максимальную строку по умолчанию для пустого рабочего листа
+description: Устанавливает максимальную строку по умолчанию для пустой рабочей таблицы
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.gridjs/config/emptysheetmaxrow/
 ---
 ## Config.EmptySheetMaxRow property
 
-Устанавливает максимальную строку по умолчанию для пустого рабочего листа
+Устанавливает максимальную строку по умолчанию для пустой рабочей таблицы
 
 ```csharp
 public static int EmptySheetMaxRow { get; set; }

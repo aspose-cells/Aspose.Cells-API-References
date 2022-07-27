@@ -1,14 +1,14 @@
 ---
 title: XmlSaveOptions
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет параметры сохранения книги в виде XML-файла.
+description: Представляет параметры сохранения книги в виде файла xml.
 type: docs
 weight: 6610
 url: /ru/net/aspose.cells/xmlsaveoptions/
 ---
 ## XmlSaveOptions class
 
-Представляет параметры сохранения книги в виде XML-файла.
+Представляет параметры сохранения книги в виде файла xml.
 
 ```csharp
 public class XmlSaveOptions : SaveOptions
@@ -18,7 +18,7 @@ public class XmlSaveOptions : SaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [XmlSaveOptions](xmlsaveoptions)() | Создает опции для сохранения файла xml. |
+| [XmlSaveOptions](xmlsaveoptions)() | Создает параметры для сохранения XML-файла. |
 
 ## Характеристики
 
@@ -30,14 +30,14 @@ public class XmlSaveOptions : SaveOptions
 | [ExportArea](../../aspose.cells/xmlsaveoptions/exportarea) { get; set; } | Получает или задает диапазон экспорта. |
 | [HasHeaderRow](../../aspose.cells/xmlsaveoptions/hasheaderrow) { get; set; } | Указывает, содержит ли диапазон строку заголовка. |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Указывает, объединяются ли области условного форматирования и проверки перед сохранением файла. |
-| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Указывает, обновляются ли данные кэша диаграммы |
+| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Указывает, нужно ли обновлять кэш диаграммы data |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Получает формат файла сохранения. |
 | [SheetIndexes](../../aspose.cells/xmlsaveoptions/sheetindexes) { get; set; } | Представляет индексы экспортированных листов. |
 | [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | Указывает, выполняется ли сортировка внешних определенных имен перед сохранением файла. |
 | [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | Указывает, выполняется ли сортировка определенных имен перед сохранением файла. |
-| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Указывает, обновляются ли настройки смарт-арта. Значение по умолчанию — false. |
+| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Указывает, обновляются ли настройки Smart Art. Значение по умолчанию — false. |
 | [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas) { get; set; } | Указывает, следует ли проверять объединенные ячейки перед сохранением файла. |
-| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Получает или устанавливает обратный вызов предупреждения. |
+| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Получает или задает обратный вызов предупреждения. |
 | [XmlMapName](../../aspose.cells/xmlsaveoptions/xmlmapname) { get; set; } | Указывает, экспортируется ли карта xml в файл. |
 
 ### Смотрите также

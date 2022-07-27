@@ -19,9 +19,9 @@ public void SetBorders(int firstRow, int firstColumn, int rowNumber, int columnN
 | --- | --- | --- |
 | firstRow | Int32 | Номер первой строки диапазона (с нуля). |
 | firstColumn | Int32 | Номер первого столбца диапазона (с нуля). |
-| rowNumber | Int32 | Количество строк. |
-| columnNumber | Int32 | Номер столбца. |
-| position | SetBorderPosition | Положение границы. |
+| rowNumber | Int32 | Количество рядов. |
+| columnNumber | Int32 | Количество столбцов. |
+| position | SetBorderPosition | Пограничное положение. |
 | borderStyle | WebBorderStyle | Стиль границы. |
 
 ### Примеры

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定索引处的VerticalPageBreakaspose.cells/verticalpagebreak元素
+description: 获取VerticalPageBreakaspose.cells/verticalpagebreak指定索引处的元素
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/verticalpagebreakcollection/item/
 ---
 ## VerticalPageBreakCollection indexer (1 of 2)
 
-获取指定索引处的[`VerticalPageBreak`](../../verticalpagebreak)元素。
+获取[`VerticalPageBreak`](../../verticalpagebreak)指定索引处的元素。
 
 ```csharp
 public VerticalPageBreak this[int index] { get; }
@@ -33,7 +33,7 @@ public VerticalPageBreak this[int index] { get; }
 
 ## VerticalPageBreakCollection indexer (2 of 2)
 
-获取具有指定单元名称的[`VerticalPageBreak`](../../verticalpagebreak)元素。
+获取[`VerticalPageBreak`](../../verticalpagebreak)具有指定单元名称的元素。
 
 ```csharp
 public VerticalPageBreak this[string cellName] { get; }
@@ -41,7 +41,7 @@ public VerticalPageBreak this[string cellName] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| cellName | 单元名称。 |
+| cellName | 单元格名称。 |
 
 ### 返回值
 

@@ -18,7 +18,7 @@ public class Button : CellControl
 
 | Имя | Описание |
 | --- | --- |
-| [AlwaysVisible](../../aspose.cells.griddesktop/button/alwaysvisible) { get; set; } | Получает или устанавливает, должна ли кнопка всегда отображаться, работает только для кнопки управления ячейкой. |
+| [AlwaysVisible](../../aspose.cells.griddesktop/button/alwaysvisible) { get; set; } | Получает или задает, должна ли кнопка всегда отображаться, работает только для кнопки управления ячейкой. |
 | [Height](../../aspose.cells.griddesktop/button/height) { get; set; } | Получает или задает высоту элемента управления. |
 | [Image](../../aspose.cells.griddesktop/button/image) { get; set; } | Получает или задает фоновое изображение. |
 | [Text](../../aspose.cells.griddesktop/cellcontrol/text) { get; set; } | Получает или задает текст, связанный с этим элементом управления. |

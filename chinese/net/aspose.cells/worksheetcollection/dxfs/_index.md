@@ -1,14 +1,14 @@
 ---
 title: Dxfs
 second_title: Aspose.Cells for .NET API 参考
-description: 获取主差分格式记录
+description: 获取主差分格式化记录
 type: docs
 weight: 50
 url: /zh/net/aspose.cells/worksheetcollection/dxfs/
 ---
 ## WorksheetCollection.Dxfs property
 
-获取主差分格式记录。
+获取主差分格式化记录。
 
 ```csharp
 public DxfCollection Dxfs { get; }

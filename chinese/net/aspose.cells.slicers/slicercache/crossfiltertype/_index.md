@@ -1,14 +1,14 @@
 ---
 title: CrossFilterType
 second_title: Aspose.Cells for .NET API 参考
-description: 返回或设置一个切片器是否与共享相同切片器缓存的其他切片器 参与交叉过滤以及如何显示交叉过滤读/写
+description: 返回或设置切片器是否与共享相同切片器缓存的其他切片器 参与交叉过滤以及如何显示交叉过滤读/写
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.slicers/slicercache/crossfiltertype/
 ---
 ## SlicerCache.CrossFilterType property
 
-返回或设置一个切片器是否与共享相同切片器缓存的其他切片器 参与交叉过滤，以及如何显示交叉过滤。读/写
+返回或设置切片器是否与共享相同切片器缓存的其他切片器 参与交叉过滤，以及如何显示交叉过滤。读/写
 
 ```csharp
 public SlicerCacheCrossFilterType CrossFilterType { get; set; }

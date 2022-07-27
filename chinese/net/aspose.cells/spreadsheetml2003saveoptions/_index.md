@@ -26,16 +26,16 @@ public class SpreadsheetML2003SaveOptions : SaveOptions
 | --- | --- |
 | [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder) { get; set; } | 缓存的文件夹是用来存放一些大数据的。 |
 | [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | 保存文件后使工作簿为空。 |
-| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | 如果为true且目录不存在，则在保存文件之前会自动创建目录。 |
-| [ExportColumnIndexOfCell](../../aspose.cells/spreadsheetml2003saveoptions/exportcolumnindexofcell) { get; set; } | 默认值为 false，表示如果单元格与前一个单元格相邻，则忽略列索引。 |
+| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | 如果为true且目录不存在，会在保存文件前自动创建目录。 |
+| [ExportColumnIndexOfCell](../../aspose.cells/spreadsheetml2003saveoptions/exportcolumnindexofcell) { get; set; } | 默认值为false，表示如果单元格与前一个单元格相邻，则忽略列索引。 |
 | [IsIndentedFormatting](../../aspose.cells/spreadsheetml2003saveoptions/isindentedformatting) { get; set; } | 使子元素缩进。 |
-| [LimitAsXls](../../aspose.cells/spreadsheetml2003saveoptions/limitasxls) { get; set; } | 限制为 xls，最大行索引为 65535，最大列索引为 255。 |
+| [LimitAsXls](../../aspose.cells/spreadsheetml2003saveoptions/limitasxls) { get; set; } | 限制为xls，最大行索引为65535，最大列索引为255. |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | 表示是否在保存文件之前合并条件格式和验证区域。 |
 | [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | 表示是否刷新图表缓存数据 |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | 获取保存文件格式。 |
 | [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | 表示是否在保存文件之前对外部定义的名称进行排序。 |
 | [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | 表示是否在保存文件之前对定义的名称进行排序。 |
-| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | 表示是否更新智能艺术设置。 默认值为假。 |
+| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | 表示是否更新智能艺术设置。 默认值为false。 |
 | [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas) { get; set; } | 表示是否在保存文件之前验证合并的单元格。 |
 | [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | 获取或设置警告回调。 |
 

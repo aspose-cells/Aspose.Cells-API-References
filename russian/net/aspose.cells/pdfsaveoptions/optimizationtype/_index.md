@@ -1,14 +1,14 @@
 ---
 title: OptimizationType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает тип оптимизации pdf.
+description: Получает и устанавливает тип оптимизации PDF.
 type: docs
 weight: 220
 url: /ru/net/aspose.cells/pdfsaveoptions/optimizationtype/
 ---
 ## PdfSaveOptions.OptimizationType property
 
-Получает и устанавливает тип оптимизации pdf.
+Получает и устанавливает тип оптимизации PDF.
 
 ```csharp
 public PdfOptimizationType OptimizationType { get; set; }

@@ -3,7 +3,7 @@ title: InsertRows
 second_title: Aspose.Cells for .NET API 参考
 description: 在工作表中插入多行
 type: docs
-weight: 1110
+weight: 1120
 url: /zh/net/aspose.cells/cells/insertrows/
 ---
 ## InsertRows(int, int, bool) {#insertrows_2}

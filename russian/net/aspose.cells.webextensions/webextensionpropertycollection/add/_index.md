@@ -17,7 +17,7 @@ public int Add(string name, string value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Имя свойства. |
-| value | String | Значение свойства. |
+| value | String | Стоимость имущества. |
 
 ### Возвращаемое значение
 

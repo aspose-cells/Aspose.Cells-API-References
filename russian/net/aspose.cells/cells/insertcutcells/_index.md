@@ -1,14 +1,14 @@
 ---
 title: InsertCutCells
 second_title: Справочник по Aspose.Cells для .NET API
-description: Вставить вырезанный диапазон.
+description: Вставить диапазон обрезки.
 type: docs
-weight: 1080
+weight: 1090
 url: /ru/net/aspose.cells/cells/insertcutcells/
 ---
 ## Cells.InsertCutCells method
 
-Вставить вырезанный диапазон.
+Вставить диапазон обрезки.
 
 ```csharp
 public void InsertCutCells(Range cutRange, int row, int column, ShiftType shiftType)
@@ -16,9 +16,9 @@ public void InsertCutCells(Range cutRange, int row, int column, ShiftType shiftT
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cutRange | Range | Диапазон вырезания. |
-| row | Int32 | Строка. |
-| столбец | Int32 | Столбец. |
+| cutRange | Range | Диапазон резки. |
+| row | Int32 | Ряд. |
+| column | Int32 | Колонка. |
 | shiftType | ShiftType | Тип смены. |
 
 ### Смотрите также

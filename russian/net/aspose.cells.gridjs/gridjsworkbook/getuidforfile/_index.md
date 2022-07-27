@@ -16,7 +16,7 @@ public static string GetUidForFile(string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя файла Excel . |
+| fileName | String | Имя файла Excel. |
 
 ### Смотрите также
 

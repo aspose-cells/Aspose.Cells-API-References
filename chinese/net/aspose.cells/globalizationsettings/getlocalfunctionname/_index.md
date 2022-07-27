@@ -16,7 +16,7 @@ public virtual string GetLocalFunctionName(string standardName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| standardName | String | Standard(en-US locale) 函数名。 |
+| standardName | String | 标准（en-US 语言环境）函数名称。 |
 
 ### 返回值
 

@@ -18,8 +18,8 @@ public enum OdsGeneratorType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| LibreOffice | `0` | Libre Office |
-| OpenOffice | `1` | Open Office |
+| LibreOffice | `0` | Свободный офис |
+| OpenOffice | `1` | Откройте Office |
 
 ### Смотрите также
 

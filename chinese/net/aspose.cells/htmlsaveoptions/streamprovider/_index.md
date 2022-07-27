@@ -3,7 +3,7 @@ title: StreamProvider
 second_title: Aspose.Cells for .NET API 参考
 description: 获取或设置用于导出对象的 IStreamProvider
 type: docs
-weight: 450
+weight: 480
 url: /zh/net/aspose.cells/htmlsaveoptions/streamprovider/
 ---
 ## HtmlSaveOptions.StreamProvider property

@@ -1,14 +1,14 @@
 ---
 title: BindColumns
 second_title: Справочник по Aspose.Cells для .NET API
-description: Привязать коллекцию столбцов.
+description: Привязка коллекции столбцов.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.gridweb.data/gridworksheet/bindcolumns/
 ---
 ## GridWorksheet.BindColumns property
 
-Привязать коллекцию столбцов.
+Привязка коллекции столбцов.
 
 ```csharp
 public BindColumnCollection BindColumns { get; }

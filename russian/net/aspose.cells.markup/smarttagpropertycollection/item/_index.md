@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектSmartTagPropertyaspose.cells.markup/smarttagproperty.
+description: ПолучаетSmartTagPropertyaspose.cells.markup/smarttagproperty объект.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.markup/smarttagpropertycollection/item/
 ---
 ## SmartTagPropertyCollection indexer (1 of 2)
 
-Получает объект[`SmartTagProperty`](../../smarttagproperty).
+Получает[`SmartTagProperty`](../../smarttagproperty) объект.
 
 ```csharp
 public SmartTagProperty this[int index] { get; }
@@ -20,7 +20,7 @@ public SmartTagProperty this[int index] { get; }
 
 ### Возвращаемое значение
 
-ВозвращаетОбъектT:Aspose.Cells.Markup.SmartTagProperty.
+Возвращает[`SmartTagProperty`](../../smarttagproperty) объект.
 
 ### Смотрите также
 
@@ -33,7 +33,7 @@ public SmartTagProperty this[int index] { get; }
 
 ## SmartTagPropertyCollection indexer (2 of 2)
 
-Получает объект[`SmartTagProperty`](../../smarttagproperty)по имени свойства.
+Получает[`SmartTagProperty`](../../smarttagproperty) объект по имени свойства.
 
 ```csharp
 public SmartTagProperty this[string name] { get; }
@@ -45,7 +45,7 @@ public SmartTagProperty this[string name] { get; }
 
 ### Возвращаемое значение
 
-Возвращает объект[`SmartTagProperty`](../../smarttagproperty).
+Возвращает[`SmartTagProperty`](../../smarttagproperty) объект.
 
 ### Смотрите также
 

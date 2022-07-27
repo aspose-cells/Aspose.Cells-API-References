@@ -1,14 +1,14 @@
 ---
 title: TopBevelWidth
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置顶部斜角的宽度或应用到形状的距离 以点为单位
+description: 获取和设置顶部斜面的宽度或应用到形状的距离 以点为单位
 type: docs
 weight: 190
 url: /zh/net/aspose.cells.drawing/threedformat/topbevelwidth/
 ---
 ## ThreeDFormat.TopBevelWidth property
 
-获取和设置顶部斜角的宽度，或应用到形状的距离。 以点为单位。
+获取和设置顶部斜面的宽度，或应用到形状的距离。 以点为单位。
 
 ```csharp
 public double TopBevelWidth { get; set; }

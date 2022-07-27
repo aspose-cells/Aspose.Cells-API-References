@@ -16,8 +16,8 @@ public void SetCustom(string custom, bool builtinPreference)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| custom | String | 自定义数字格式字符串，应该是InvariantCulture模式。 |
-| builtinPreference | Boolean | 如果给定自定义数字格式字符串匹配当前区域设置对应的内置数字格式之一 是否设置数字格式为内置而不是自定义。 |
+| custom | String | 自定义数字格式字符串，应为 InvariantCulture 模式。 |
+| builtinPreference | Boolean | 如果给定的自定义号码格式字符串与当前区域设置对应的内置号码格式 之一匹配，是否将号码格式设置为内置而不是自定义。 |
 
 ### 也可以看看
 

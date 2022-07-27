@@ -3,7 +3,7 @@ title: ImageScalable
 second_title: Справочник по Aspose.Cells для .NET API
 description: Указывает используются ли масштабируемые единицы для описания ширины изображения при использовании масштабируемых единиц для описания ширины столбца. Значение по умолчанию  true.
 type: docs
-weight: 350
+weight: 370
 url: /ru/net/aspose.cells/htmlsaveoptions/imagescalable/
 ---
 ## HtmlSaveOptions.ImageScalable property

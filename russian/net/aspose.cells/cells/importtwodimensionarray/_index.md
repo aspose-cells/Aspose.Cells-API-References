@@ -3,7 +3,7 @@ title: ImportTwoDimensionArray
 second_title: Справочник по Aspose.Cells для .NET API
 description: 
 type: docs
-weight: 1050
+weight: 1060
 url: /ru/net/aspose.cells/cells/importtwodimensionarray/
 ---
 ## ImportTwoDimensionArray(object[], int, int) {#importtwodimensionarray}

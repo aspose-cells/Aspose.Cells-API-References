@@ -1,14 +1,14 @@
 ---
 title: BuiltinStyleType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示所有内置样式类型
+description: 代表所有内置样式类型
 type: docs
 weight: 170
 url: /zh/net/aspose.cells/builtinstyletype/
 ---
 ## BuiltinStyleType enumeration
 
-表示所有内置样式类型
+代表所有内置样式类型
 
 ```csharp
 public enum BuiltinStyleType

@@ -17,7 +17,7 @@ public void CustomPaperSize(double width, double height)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | width | Double | 纸张的宽度。 |
-| height | Double | 纸张的高度。 |
+| height | Double | 纸的高度。 |
 
 ### 也可以看看
 

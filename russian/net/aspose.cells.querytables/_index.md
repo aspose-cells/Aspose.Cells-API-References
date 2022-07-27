@@ -12,10 +12,10 @@ url: /ru/net/aspose.cells.querytables/
 
 | Учебный класс | Описание |
 | --- | --- |
-| [DataMashup](./datamashup) | Представляет данные коллажа. |
-| [PowerQueryFormula](./powerqueryformula) | Представляет определение формулы мощного запроса. |
-| [PowerQueryFormulaCollction](./powerqueryformulacollction) | Представляет все формулы мощного запроса в данных коллажа. |
-| [PowerQueryFormulaFunction](./powerqueryformulafunction) | Представляет функцию запроса питания. |
+| [DataMashup](./datamashup) | Представляет данные мэшапа. |
+| [PowerQueryFormula](./powerqueryformula) | Представляет определение формулы запроса мощности. |
+| [PowerQueryFormulaCollection](./powerqueryformulacollection) | Представляет все формулы мощного запроса в данных мэшапа. |
+| [PowerQueryFormulaFunction](./powerqueryformulafunction) | Представляет функцию запроса мощности. |
 | [PowerQueryFormulaItem](./powerqueryformulaitem) | Представляет элемент формулы запроса мощности. |
 | [PowerQueryFormulaItemCollection](./powerqueryformulaitemcollection) | Представляет все элементы формулы запроса мощности. |
 | [PowerQueryFormulaParameter](./powerqueryformulaparameter) | Представляет параметр формулы запроса мощности. |

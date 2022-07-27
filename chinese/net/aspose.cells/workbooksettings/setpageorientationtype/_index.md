@@ -16,7 +16,7 @@ public void SetPageOrientationType(PageOrientationType pageOrientationType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageOrientationType | PageOrientationType | [`PageOrientationType`](../../pageorientationtype) |
+| pageOrientationType | PageOrientationType | 这[`PageOrientationType`](../../pageorientationtype) |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: OnAjaxCallFinishedClientFunction
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает имя функции на стороне клиента которая будет вызываться после завершения ajaxcall. Клиентская функция должна быть объявлена следующим образомltbr /gt function GridAjaxcallFinishedltbr /gt ltbr /gt alertthis.id ajaxcall завершен ltbr /gt ltbr /gtltbr /gtПримечание. Вы можете использовать указатель this в клиентской функции для укажите элемент управления сеткой который запускает событие.
+description: Получает или задает имя функции на стороне клиента которая будет вызываться после завершения ajaxcall. Функция клиента должна быть объявлена следующим образом функция GridAjaxcallFinished  alertthis.idвызов ajax завершен  Примечание. Вы можете использовать указатель this в клиентской функции чтобы указать элемент управления сеткой который запускает событие.
 type: docs
 weight: 560
 url: /ru/net/aspose.cells.gridweb/mainweb/onajaxcallfinishedclientfunction/
 ---
 ## MainWeb.OnAjaxCallFinishedClientFunction property
 
-Получает или задает имя функции на стороне клиента, которая будет вызываться после завершения ajaxcall. Клиентская функция должна быть объявлена следующим образом:&lt;br /&gt; function GridAjaxcallFinished()&lt;br /&gt; {&lt;br /&gt; alert(this.id+" ajaxcall завершен ");&lt;br /&gt; }&lt;br /&gt;&lt;br /&gt;Примечание. Вы можете использовать указатель "this" в клиентской функции для укажите элемент управления сеткой, который запускает событие.
+Получает или задает имя функции на стороне клиента, которая будет вызываться после завершения ajaxcall. Функция клиента должна быть объявлена следующим образом: функция GridAjaxcallFinished() { alert(this.id+"вызов ajax завершен"); } Примечание. Вы можете использовать указатель «this» в клиентской функции, чтобы указать элемент управления сеткой, который запускает событие.
 
 ```csharp
 public string OnAjaxCallFinishedClientFunction { get; set; }

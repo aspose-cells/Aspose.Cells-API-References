@@ -18,9 +18,9 @@ public enum TableDataSourceType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Worksheet | `0` | Таблица рабочего листа Excel |
+| Worksheet | `0` | Рабочая таблица Excel |
 | SharePoint | `1` | Связанный список SharePoint для чтения и записи |
-| XML | `2` | Таблица сопоставления XML |
+| XML | `2` | Преобразователь XML Table |
 | QueryTable | `3` | Таблица запросов |
 
 ### Смотрите также

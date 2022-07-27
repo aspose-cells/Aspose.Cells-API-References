@@ -1,14 +1,14 @@
 ---
 title: RowInSelection
 second_title: Aspose.Cells for .NET API 参考
-description: 确定索引处的指定行是否处于选中状态
+description: 判断索引处的指定行是否处于选中状态
 type: docs
 weight: 980
 url: /zh/net/aspose.cells.griddesktop/worksheet/rowinselection/
 ---
 ## Worksheet.RowInSelection method
 
-确定索引处的指定行是否处于选中状态。
+判断索引处的指定行是否处于选中状态。
 
 ```csharp
 public bool RowInSelection(int index)

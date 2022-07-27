@@ -3,7 +3,7 @@ title: GetRowHeightPixel
 second_title: Справочник по Aspose.Cells для .NET API
 description: Получает высоту указанной строки в пикселях.
 type: docs
-weight: 810
+weight: 820
 url: /ru/net/aspose.cells/cells/getrowheightpixel/
 ---
 ## Cells.GetRowHeightPixel method
@@ -20,7 +20,7 @@ public int GetRowHeightPixel(int row)
 
 ### Возвращаемое значение
 
-Высота строки
+Высота ряда
 
 ### Смотрите также
 

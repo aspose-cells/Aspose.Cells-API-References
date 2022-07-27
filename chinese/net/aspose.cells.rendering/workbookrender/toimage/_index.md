@@ -1,14 +1,14 @@
 ---
 title: ToImage
 second_title: Aspose.Cells for .NET API 参考
-description: 将整个工作簿渲染为 Tiff 图像以进行流式传输
+description: 将整个工作簿作为 Tiff 图像渲染到流中
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.rendering/workbookrender/toimage/
 ---
 ## ToImage(Stream) {#toimage_3}
 
-将整个工作簿渲染为 Tiff 图像以进行流式传输。
+将整个工作簿作为 Tiff 图像渲染到流中。
 
 ```csharp
 public void ToImage(Stream stream)
@@ -56,7 +56,7 @@ public void ToImage(int pageIndex, string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageIndex | Int32 | 表示要转换哪个页面 |
+| pageIndex | Int32 | 指明要转换的页面 |
 | fileName | String | 输出图像的文件名 |
 
 ### 也可以看看
@@ -69,7 +69,7 @@ public void ToImage(int pageIndex, string fileName)
 
 ## ToImage(int, Stream) {#toimage_1}
 
-将特定页面渲染到流中。
+将特定页面呈现到流中。
 
 ```csharp
 public void ToImage(int pageIndex, Stream stream)
@@ -77,8 +77,8 @@ public void ToImage(int pageIndex, Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageIndex | Int32 | 表示要转换哪个页面 |
-| stream | Stream | 输出图像流 |
+| pageIndex | Int32 | 指明要转换的页面 |
+| stream | Stream | 输出图像的流 |
 
 ### 也可以看看
 
@@ -98,11 +98,11 @@ public Bitmap ToImage(int pageIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageIndex | Int32 | 表示要转换的页面 |
+| pageIndex | Int32 | 指明要转换的页面 |
 
 ### 返回值
 
-位图页面对象
+页面的位图对象
 
 ### 也可以看看
 

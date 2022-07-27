@@ -1,14 +1,14 @@
 ---
 title: FromOleColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Преобразование OLE_COLOR.
+description: Преобразовать OLE_COLOR.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.drawing/colorhelper/fromolecolor/
 ---
 ## ColorHelper.FromOleColor method
 
-Преобразование OLE_COLOR.
+Преобразовать OLE_COLOR.
 
 ```csharp
 public static Color FromOleColor(int oleColor)
@@ -20,7 +20,7 @@ public static Color FromOleColor(int oleColor)
 
 ### Возвращаемое значение
 
-ОбъектColor.
+Color объект.
 
 ### Смотрите также
 

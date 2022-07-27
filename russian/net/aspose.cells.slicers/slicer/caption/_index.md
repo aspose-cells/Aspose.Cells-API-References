@@ -1,14 +1,14 @@
 ---
 title: Caption
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает или устанавливает заголовок указанного слайсера.
+description: Возвращает или задает заголовок указанного слайсера.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.slicers/slicer/caption/
 ---
 ## Slicer.Caption property
 
-Возвращает или устанавливает заголовок указанного слайсера.
+Возвращает или задает заголовок указанного слайсера.
 
 ```csharp
 public string Caption { get; set; }

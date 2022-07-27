@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Справочник по Aspose.Cells для .NET API
-description: Ширина элемента Ticklabel по отношению к ширине графика.
+description: Ширина элемента Ticklabel относительно ширины диаграммы.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.charts/ticklabelitem/width/
 ---
 ## TickLabelItem.Width property
 
-Ширина элемента Ticklabel по отношению к ширине графика.
+Ширина элемента Ticklabel относительно ширины диаграммы.
 
 ```csharp
 public double Width { get; }

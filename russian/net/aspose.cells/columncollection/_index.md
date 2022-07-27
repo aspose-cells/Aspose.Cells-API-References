@@ -1,14 +1,14 @@
 ---
 title: ColumnCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Коллекция объектов представляющих отдельные столбцы настройки на рабочем листе. Объект Column представляет только такие настройки как ширина столбца стили и т.д. для всего столбца не имеет ничего общего с тем что в соответствующем столбце есть непустые ячейки данные. И Количество этой коллекции представляет только количество объектов столбцов которые были созданы в этой коллекции не имеет ничего общего с тем фактом что есть непустые ячейки данные или нет на листе.
+description: Коллекцияобъекты представляющие отдельные столбцы параметры на листе. Объект столбца представляет только такие параметры как ширина столбца стили и т. д. для всего столбца не имеет ничего общего с тем фактом что есть непустые ячейки данные или нет в соответствующем столбце. И Счетчик этой коллекции представляет только количество объектов столбца которые были созданы в этом коллекция не имеет ничего общего с тем что на листе есть непустые ячейки данные или нет.
 type: docs
 weight: 1070
 url: /ru/net/aspose.cells/columncollection/
 ---
 ## ColumnCollection class
 
-Коллекция объектов, представляющих отдельные столбцы (настройки) на рабочем листе. Объект Column представляет только такие настройки, как ширина столбца, стили и т.д. для всего столбца не имеет ничего общего с тем, что в соответствующем столбце есть непустые ячейки (данные). И "Количество" этой коллекции представляет только количество объектов столбцов, которые были созданы в этой коллекции, не имеет ничего общего с тем фактом, что есть непустые ячейки (данные) или нет на листе.
+Коллекцияобъекты, представляющие отдельные столбцы (параметры) на листе. Объект столбца представляет только такие параметры, как ширина столбца, стили и т. д. для всего столбца не имеет ничего общего с тем фактом, что есть непустые ячейки (данные) или нет в соответствующем столбце. И «Счетчик» этой коллекции представляет только количество объектов столбца, которые были созданы в этом коллекция, не имеет ничего общего с тем, что на листе есть непустые ячейки (данные) или нет.
 
 ```csharp
 public class ColumnCollection : CollectionBase<Column>
@@ -20,7 +20,7 @@ public class ColumnCollection : CollectionBase<Column>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/columncollection/item) { get; } | Получает объектпо индексу столбца. Объект столбца с заданным индексом столбца будет создан, если он не существовал ранее. |
+| [Item](../../aspose.cells/columncollection/item) { get; } | Получает объект по индексу столбца. Объект столбца с заданным индексом столбца будет создан, если он не существовал ранее. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы
@@ -45,7 +45,7 @@ public class ColumnCollection : CollectionBase<Column>
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;Column&gt;) |  |
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;Column&gt;) |  |
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;Column&gt;) |  |
-| [GetColumnByIndex](../../aspose.cells/columncollection/getcolumnbyindex)(int) | Получает объект[`Column`](../column)по позиции в списке. |
+| [GetColumnByIndex](../../aspose.cells/columncollection/getcolumnbyindex)(int) | Получает[`Column`](../column)объект по позиции в списке. |
 | [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Column) |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Column, int) |  |
@@ -61,51 +61,51 @@ public class ColumnCollection : CollectionBase<Column>
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 
-//Получение ссылки на первый worksheet
+//Получение ссылки на первый рабочий лист
 Worksheet worksheet = workbook.Worksheets[0];
 
-  //Добавить новый стиль в Workbook
+//Добавить новый стиль в книгу
 Style style = workbook.CreateStyle();
 
-  //Установка цвета фона на Blue
+//Установка цвета фона на синий
 style.ForegroundColor = Color.Blue;
 
-  //установка фонового рисунка
+//установка фонового рисунка
 style.Pattern = BackgroundType.Solid;
 
-  //Флаг нового стиля
+//Флаг нового стиля
 StyleFlag styleFlag = new StyleFlag();
 
-  //Установить все стили
+//Установить все стили
 styleFlag.All = true;
 
-  //Изменить ширину по умолчанию для первых десяти столбцов
+//Изменить ширину по умолчанию для первых десяти столбцов
 for (int i = 0; i < 10; i++)
 {
     worksheet.Cells.Columns[i].Width = 20;
 }
 
-  //Получить столбец с нестандартным форматированием
+//Получить столбец с форматированием не по умолчанию
 ColumnCollection columns = worksheet.Cells.Columns;
 
 foreach (Column column in columns)
 {
-      //Применяем стиль к первым десяти Columns
+    //Применяем стиль к первым десяти столбцам
     column.ApplyStyle(style, styleFlag);
 }
 
-  //Сохранение файла Excel
+//Сохранение файла Excel
 workbook.Save("book1.xls");
 
 [VB.NET]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
 
-'Получение ссылки на первый worksheet
+'Получение ссылки на первый рабочий лист
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
 'Добавить новый стиль в книгу

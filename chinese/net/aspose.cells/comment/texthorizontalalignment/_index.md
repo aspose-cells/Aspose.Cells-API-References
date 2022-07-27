@@ -1,14 +1,14 @@
 ---
 title: TextHorizontalAlignment
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置评论的文本水平对齐类型
+description: 获取和设置评论的文本水平对齐方式
 type: docs
 weight: 140
 url: /zh/net/aspose.cells/comment/texthorizontalalignment/
 ---
 ## Comment.TextHorizontalAlignment property
 
-获取和设置评论的文本水平对齐类型。
+获取和设置评论的文本水平对齐方式。
 
 ```csharp
 public TextAlignmentType TextHorizontalAlignment { get; set; }

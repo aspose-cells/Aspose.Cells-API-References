@@ -3,7 +3,7 @@ title: RefersTo
 second_title: Справочник по Aspose.Cells для .NET API
 description: Получает ссылки на диапазон.
 type: docs
-weight: 120
+weight: 140
 url: /ru/net/aspose.cells/range/refersto/
 ---
 ## Range.RefersTo property

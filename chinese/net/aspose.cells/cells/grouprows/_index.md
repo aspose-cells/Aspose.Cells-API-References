@@ -1,14 +1,14 @@
 ---
 title: GroupRows
 second_title: Aspose.Cells for .NET API 参考
-description: 分组行
+description: 对行进行分组
 type: docs
-weight: 870
+weight: 880
 url: /zh/net/aspose.cells/cells/grouprows/
 ---
 ## GroupRows(int, int, bool) {#grouprows_1}
 
-分组行。
+对行进行分组。
 
 ```csharp
 public void GroupRows(int firstIndex, int lastIndex, bool isHidden)
@@ -18,7 +18,7 @@ public void GroupRows(int firstIndex, int lastIndex, bool isHidden)
 | --- | --- | --- |
 | firstIndex | Int32 | 要分组的第一行索引。 |
 | lastIndex | Int32 | 要分组的最后一行索引。 |
-| isHidden | Boolean | 指定是否隐藏分组列。 |
+| isHidden | Boolean | 指定是否隐藏分组的列。 |
 
 ### 也可以看看
 
@@ -30,7 +30,7 @@ public void GroupRows(int firstIndex, int lastIndex, bool isHidden)
 
 ## GroupRows(int, int) {#grouprows}
 
-分组行。
+对行进行分组。
 
 ```csharp
 public void GroupRows(int firstIndex, int lastIndex)

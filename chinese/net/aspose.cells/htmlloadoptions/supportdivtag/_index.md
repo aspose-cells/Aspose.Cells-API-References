@@ -1,14 +1,14 @@
 ---
 title: SupportDivTag
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否支持ltdivgt的布局当 html 文件包含 ltdivgt 时的标记标签默认值为假
+description: 表示当html文件包含ltdivgt标签时是否支持ltdivgt标签的布局默认值为假
 type: docs
 weight: 80
 url: /zh/net/aspose.cells/htmlloadoptions/supportdivtag/
 ---
 ## HtmlLoadOptions.SupportDivTag property
 
-表示是否支持&lt;div&gt;的布局当 html 文件包含 &lt;div&gt; 时的标记标签。默认值为假。
+表示当html文件包含&lt;div&gt;标签时是否支持&lt;div&gt;标签的布局。默认值为假。
 
 ```csharp
 public bool SupportDivTag { get; set; }

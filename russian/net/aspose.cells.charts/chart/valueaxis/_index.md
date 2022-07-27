@@ -1,14 +1,14 @@
 ---
 title: ValueAxis
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает ось Y графика.
+description: Получает ось Y диаграммы.
 type: docs
 weight: 460
 url: /ru/net/aspose.cells.charts/chart/valueaxis/
 ---
 ## Chart.ValueAxis property
 
-Получает ось Y графика.
+Получает ось Y диаграммы.
 
 ```csharp
 public Axis ValueAxis { get; }

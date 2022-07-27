@@ -19,13 +19,13 @@ public void CreateSubtotal(int columnNameRowIndex, int dataRows, int groupByColu
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| columnNameRowIndex | Int32 | Индекс строки имени столбца. |
+| columnNameRowIndex | Int32 | Индекс строки имени столбца row. |
 | dataRows | Int32 | Количество строк данных. |
 | groupByColumnIndex | Int32 | Индекс столбца для группируемого столбца. |
 | subtotalFunction | SubtotalFunction | Тип функции промежуточного итога. |
-| subtotalColumnIndexList | Int32[] | Индексы столбцов для подсчета. |
+| subtotalColumnIndexList | Int32[] | Индексы столбца для промежуточного итога. |
 | functionLabel | String | Метка функции промежуточного итога. |
-| grandCellStyle | GridTableItemStyle | Стиль строки общей суммы. |
+| grandCellStyle | GridTableItemStyle | Стиль общей линии. |
 | subtotalCellStyle | GridTableItemStyle | Стиль строки промежуточного итога. |
 | numberType | NumberType | Числовой тип ячеек результата промежуточного итога. |
 | customString | String | Строка пользовательского формата ячеек результатов промежуточных итогов. Может быть нулевым. |
@@ -52,11 +52,11 @@ public void CreateSubtotal(int columnNameRowIndex, int dataRows, int groupByColu
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| columnNameRowIndex | Int32 | Индекс строки имени столбца. |
+| columnNameRowIndex | Int32 | Индекс строки имени столбца row. |
 | dataRows | Int32 | Количество строк данных. |
 | groupByColumnIndex | Int32 | Индекс столбца для группируемого столбца. |
 | subtotalFunction | SubtotalFunction | Тип функции промежуточного итога. |
-| subtotalColumnIndexList | Int32[] | Индексы столбцов для подсчета. |
+| subtotalColumnIndexList | Int32[] | Индексы столбца для промежуточного итога. |
 
 ### Смотрите также
 

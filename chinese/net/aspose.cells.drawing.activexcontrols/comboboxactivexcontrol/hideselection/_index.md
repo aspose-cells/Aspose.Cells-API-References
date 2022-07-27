@@ -1,14 +1,14 @@
 ---
 title: HideSelection
 second_title: Aspose.Cells for .NET API 参考
-description: 指示当控件没有焦点时控件中的选定文本是否突出显示
+description: 表示当控件没有焦点时控件中选中的文本是否高亮显示
 type: docs
 weight: 80
 url: /zh/net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/hideselection/
 ---
 ## ComboBoxActiveXControl.HideSelection property
 
-指示当控件没有焦点时，控件中的选定文本是否突出显示。
+表示当控件没有焦点时，控件中选中的文本是否高亮显示。
 
 ```csharp
 public bool HideSelection { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: GetCellOrNull
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектCellaspose.cells/cellили null в этом диапазоне.
+description: получаетCellaspose.cells/cell объект или ноль в этом диапазоне.
 type: docs
-weight: 250
+weight: 290
 url: /ru/net/aspose.cells/range/getcellornull/
 ---
 ## Range.GetCellOrNull method
 
-Получает объект[`Cell`](../../cell)или null в этом диапазоне.
+получает[`Cell`](../../cell) объект или ноль в этом диапазоне.
 
 ```csharp
 public Cell GetCellOrNull(int rowOffset, int columnOffset)
@@ -17,11 +17,11 @@ public Cell GetCellOrNull(int rowOffset, int columnOffset)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | rowOffset | Int32 | Смещение строки в этом диапазоне, отсчитываемое от нуля. |
-| columnOffset | Int32 | Смещение столбца в этом диапазоне, начиная с нуля. |
+| columnOffset | Int32 | Смещение столбца в этом диапазоне, отсчитываемое от нуля. |
 
 ### Возвращаемое значение
 
-[`Cell`](../../cell)объект.
+[`Cell`](../../cell) объект.
 
 ### Смотрите также
 

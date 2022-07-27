@@ -1,14 +1,14 @@
 ---
 title: XmlMap
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПолучаетXmlMapaspose.cells.tables/listobject/xmlmapиспользуемый для этого списка.
+description: ПолучаетXmlMapaspose.cells.tables/listobject/xmlmapиспользуется для этого списка.
 type: docs
 weight: 220
 url: /ru/net/aspose.cells.tables/listobject/xmlmap/
 ---
 ## ListObject.XmlMap property
 
-Получает`XmlMap`используемый для этого списка.
+Получает`XmlMap`используется для этого списка.
 
 ```csharp
 public XmlMap XmlMap { get; }

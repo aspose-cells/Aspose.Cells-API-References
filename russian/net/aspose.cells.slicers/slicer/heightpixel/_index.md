@@ -1,14 +1,14 @@
 ---
 title: HeightPixel
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает или задает высоту указанного среза в пикселях.
+description: Возвращает или задает высоту указанного слайсера в пикселях.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.slicers/slicer/heightpixel/
 ---
 ## Slicer.HeightPixel property
 
-Возвращает или задает высоту указанного среза в пикселях.
+Возвращает или задает высоту указанного слайсера в пикселях.
 
 ```csharp
 public int HeightPixel { get; set; }

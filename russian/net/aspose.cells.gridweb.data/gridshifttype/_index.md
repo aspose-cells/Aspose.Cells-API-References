@@ -1,14 +1,14 @@
 ---
 title: GridShiftType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляют параметры сдвига при удалении диапазона ячеек.
+description: Представляет параметры сдвига при удалении диапазона ячеек.
 type: docs
 weight: 500
 url: /ru/net/aspose.cells.gridweb.data/gridshifttype/
 ---
 ## GridShiftType enumeration
 
-Представляют параметры сдвига при удалении диапазона ячеек.
+Представляет параметры сдвига при удалении диапазона ячеек.
 
 ```csharp
 public enum GridShiftType

@@ -1,14 +1,14 @@
 ---
 title: UpdateSmartArt
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает обновляются ли настройки смарт-арта. Значение по умолчанию  false.
+description: Указывает обновляются ли настройки Smart Art. Значение по умолчанию  false.
 type: docs
 weight: 90
 url: /ru/net/aspose.cells/saveoptions/updatesmartart/
 ---
 ## SaveOptions.UpdateSmartArt property
 
-Указывает, обновляются ли настройки смарт-арта. Значение по умолчанию — false.
+Указывает, обновляются ли настройки Smart Art. Значение по умолчанию — false.
 
 ```csharp
 public bool UpdateSmartArt { get; set; }
@@ -16,7 +16,7 @@ public bool UpdateSmartArt { get; set; }
 
 ### Примечания
 
-В файле шаблона существуют только эффекты после вызова метода Shape.GetResultOfSmartArt() и кэшированные фигуры.
+В файле шаблона существуют только эффекты после вызова метода Shape.GetResultOfSmartArt() и кешированные фигуры.
 
 ### Смотрите также
 

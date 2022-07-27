@@ -16,7 +16,7 @@ public void Merge(CellRange r)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| r | CellRange | 此范围的单元格范围（从零开始） |
+| r | CellRange | 此范围的 CellRange（从零开始） |
 
 ### 评论
 

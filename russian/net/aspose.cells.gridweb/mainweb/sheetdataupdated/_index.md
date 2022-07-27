@@ -1,14 +1,14 @@
 ---
 title: SheetDataUpdated
 second_title: Справочник по Aspose.Cells для .NET API
-description: Происходит когда элемент управления загрузил опубликованные данные и обновил данные листа.
+description: Происходит когда элемент управления загрузил размещенные данные и обновил данные листа.
 type: docs
 weight: 1330
 url: /ru/net/aspose.cells.gridweb/mainweb/sheetdataupdated/
 ---
 ## MainWeb.SheetDataUpdated event
 
-Происходит, когда элемент управления загрузил опубликованные данные и обновил данные листа.
+Происходит, когда элемент управления загрузил размещенные данные и обновил данные листа.
 
 ```csharp
 public event WorkbookEventHandler SheetDataUpdated;

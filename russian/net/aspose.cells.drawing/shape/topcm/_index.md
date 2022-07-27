@@ -1,14 +1,14 @@
 ---
 title: TopCM
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет вертикальное смещение фигуры от верхнего ряда в сантиметрах.
+description: Представляет вертикальное смещение фигуры от верхней строки в сантиметрах.
 type: docs
 weight: 780
 url: /ru/net/aspose.cells.drawing/shape/topcm/
 ---
 ## Shape.TopCM property
 
-Представляет вертикальное смещение фигуры от верхнего ряда в сантиметрах.
+Представляет вертикальное смещение фигуры от верхней строки в сантиметрах.
 
 ```csharp
 public double TopCM { get; set; }

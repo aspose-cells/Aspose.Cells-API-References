@@ -1,14 +1,14 @@
 ---
 title: GetFormat
 second_title: Aspose.Cells for .NET API 参考
-description: 通过ParseObjectaspose.cells/icustomparser/parseobject获取与解析值对应的格式模式.
+description: 获取上次调用的解析值对应的格式化模式ParseObjectaspose.cells/icustomparser/parseobject.
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/icustomparser/getformat/
 ---
 ## ICustomParser.GetFormat method
 
-通过[`ParseObject`](../parseobject)获取与解析值对应的格式模式.
+获取上次调用的解析值对应的格式化模式[`ParseObject`](../parseobject).
 
 ```csharp
 public string GetFormat()

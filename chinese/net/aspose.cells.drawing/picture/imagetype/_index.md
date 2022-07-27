@@ -1,14 +1,14 @@
 ---
 title: ImageType
 second_title: Aspose.Cells for .NET API 参考
-description: 获取图片的图片格式
+description: 获取图片的图像格式
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.drawing/picture/imagetype/
 ---
 ## Picture.ImageType property
 
-获取图片的图片格式。
+获取图片的图像格式
 
 ```csharp
 public ImageType ImageType { get; }
@@ -19,24 +19,24 @@ public ImageType ImageType { get; }
 ```csharp
 
 [C#]
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 //插入第一张图片
 int imgIndex1 = worksheet.Pictures.Add(1, 1, "1.png");
- //获取插入的图片object
+//获取插入的图片对象
 Picture pic1 = worksheet.Pictures[imgIndex1];
 if(pic1.ImageType == Aspose.Cells.Drawing.ImageType.Png)
 {
-     //图片的类型是png。";
+    //图片的类型是png。";
 }
- //插入第二张图片
+//插入第二张图片
 int imgIndex2 = worksheet.Pictures.Add(1, 9, "2.jpeg");
- //获取插入的图片object
+//获取插入的图片对象
 Picture pic2 = worksheet.Pictures[imgIndex2];
 if(pic2.ImageType == Aspose.Cells.Drawing.ImageType.Jpeg)
 {
-     //图片类型为jpg。";
+    //图片的类型是jpg。";
 }
 ```
 

@@ -16,7 +16,7 @@ public void AddColumnAreaCondition(string fieldName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldName | String | PivotField 的名称。 |
+| fieldName | String | 数据透视字段的名称。 |
 
 ### 也可以看看
 

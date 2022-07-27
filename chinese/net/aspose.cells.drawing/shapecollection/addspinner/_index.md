@@ -26,14 +26,14 @@ public Spinner AddSpinner(int upperLeftRow, int top, int upperLeftColumn, int le
 
 ### 返回值
 
-Spinner 对象。
+一个 Spinner 对象。
 
 ### 例子
 
 ```csharp
 
 [C#]
- //添加一个微调器
+//添加一个微调器
 Spinner spinner = shapes.AddSpinner(1, 0, 1, 0, 100, 50);
 ```
 

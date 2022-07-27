@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементExternalLinkaspose.cells/externallinkпо указанному индексу.
+description: ПолучаетExternalLinkaspose.cells/externallink элемент по указанному индексу.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/externallinkcollection/item/
 ---
 ## ExternalLinkCollection indexer
 
-Получает элемент[`ExternalLink`](../../externallink)по указанному индексу.
+Получает[`ExternalLink`](../../externallink) элемент по указанному индексу.
 
 ```csharp
 public ExternalLink this[int index] { get; }

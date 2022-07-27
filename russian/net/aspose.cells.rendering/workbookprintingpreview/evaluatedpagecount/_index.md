@@ -23,7 +23,7 @@ Workbook workbook = new Workbook("Book1.xlsx");
 
 WorkbookPrintingPreview workbookPrintingPreview = new WorkbookPrintingPreview(workbook, new ImageOrPrintOptions());
 
-  //самый быстрый способ получить количество страниц, особенно когда в книге много данных.
+//самый быстрый способ получить количество страниц, особенно когда в книге много данных.
 Console.WriteLine(workbookPrintingPreview.EvaluatedPageCount);
         
 ```

@@ -1,14 +1,14 @@
 ---
 title: Custom
 second_title: Справочник по Aspose.Cells для .NET API
-description: Фильтрует список по заданным критериям.
+description: Фильтрует список с пользовательскими критериями.
 type: docs
 weight: 100
 url: /ru/net/aspose.cells/autofilter/custom/
 ---
 ## Custom(int, FilterOperatorType, object) {#custom}
 
-Фильтрует список по заданным критериям.
+Фильтрует список с пользовательскими критериями.
 
 ```csharp
 public void Custom(int fieldIndex, FilterOperatorType operatorType1, object criteria1)
@@ -16,7 +16,7 @@ public void Custom(int fieldIndex, FilterOperatorType operatorType1, object crit
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldIndex | Int32 | Целочисленное смещение поля, на котором вы хотите основывать фильтр (слева списка; крайнее левое поле — поле 0). |
+| fieldIndex | Int32 | Целочисленное смещение поля, на котором вы хотите основывать фильтр (слева в списке; крайнее левое поле — это поле 0). |
 | operatorType1 | FilterOperatorType | Тип оператора фильтра |
 | criteria1 | Object | Пользовательские критерии |
 
@@ -31,7 +31,7 @@ public void Custom(int fieldIndex, FilterOperatorType operatorType1, object crit
 
 ## Custom(int, FilterOperatorType, object, bool, FilterOperatorType, object) {#custom_1}
 
-Фильтрует список по пользовательским критериям.
+Фильтрует список с пользовательскими критериями.
 
 ```csharp
 public void Custom(int fieldIndex, FilterOperatorType operatorType1, object criteria1, bool isAnd, 
@@ -40,7 +40,7 @@ public void Custom(int fieldIndex, FilterOperatorType operatorType1, object crit
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldIndex | Int32 | Целочисленное смещение поля, на котором вы хотите основывать фильтр (слева списка; крайнее левое поле — поле 0). |
+| fieldIndex | Int32 | Целочисленное смещение поля, на котором вы хотите основывать фильтр (слева в списке; крайнее левое поле — это поле 0). |
 | operatorType1 | FilterOperatorType | Тип оператора фильтра |
 | criteria1 | Object | Пользовательские критерии |
 | isAnd | Boolean |  |

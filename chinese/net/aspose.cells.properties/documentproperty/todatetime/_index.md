@@ -16,7 +16,7 @@ public DateTime ToDateTime()
 
 ### 评论
 
-如果属性类型不是 PropertyType.Date，则抛出异常。
+如果属性类型不是 PropertyType.Date，则引发异常。
 
 ### 也可以看看
 

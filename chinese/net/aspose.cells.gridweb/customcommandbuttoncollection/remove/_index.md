@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Cells for .NET API 参考
-description: 删除自定义命令按钮对象
+description: 移除自定义命令按钮对象
 type: docs
 weight: 140
 url: /zh/net/aspose.cells.gridweb/customcommandbuttoncollection/remove/
 ---
 ## CustomCommandButtonCollection.Remove method
 
-删除自定义命令按钮对象。
+移除自定义命令按钮对象。
 
 ```csharp
 public void Remove(object value)

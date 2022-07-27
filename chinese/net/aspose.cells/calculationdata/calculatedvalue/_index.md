@@ -16,7 +16,7 @@ public object CalculatedValue { get; set; }
 
 ### 评论
 
-用户应在其自定义计算引擎中为引擎支持的那些函数设置此属性， 和集合稍后获取该属性时将返回值。 设置值可以是可以设置为 Cell(Cell.Value) 的那些对象的任何值。 它也可以是此类值的数组，或者是 Range、Name、ReferredArea。 设置前获取该属性将使函数被Aspose.Cells的默认计算引擎计算并返回计算值。
+用户应在自定义计算引擎中为引擎支持的功能设置此属性， ，稍后获取此属性时将返回设置值。 设置值可以是那些可以设置为单元格的对象的任何值（ Cell.Value). 也可以是此类值的数组，或者是 Range, Name, ReferredArea. 在设置前获取该属性，将由 Aspose.Cells 的默认计算引擎计算该函数，计算出的值将被返回。
 
 ### 也可以看看
 

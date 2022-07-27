@@ -3,7 +3,7 @@ title: RefersTo
 second_title: Aspose.Cells for .NET API 参考
 description: 获取范围的引用
 type: docs
-weight: 120
+weight: 140
 url: /zh/net/aspose.cells/range/refersto/
 ---
 ## Range.RefersTo property

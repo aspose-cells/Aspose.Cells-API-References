@@ -1,14 +1,14 @@
 ---
 title: GridPivotTable
 second_title: Aspose.Cells for .NET API 参考
-description: 表示工作表上的数据透视表 PivotTable 对象是PivotTables集合的成员 PivotTables 集合包含控件上的所有数据透视表对象
+description: 表示工作表上的数据透视表数据透视表对象是PivotTablescollection. PivotTables 集合包含控件上的所有数据透视表对象
 type: docs
 weight: 410
 url: /zh/net/aspose.cells.gridweb.data/gridpivottable/
 ---
 ## GridPivotTable class
 
-表示工作表上的数据透视表。 PivotTable 对象是PivotTables集合的成员。 PivotTables 集合包含控件上的所有数据透视表对象。
+表示工作表上的数据透视表。数据透视表对象是PivotTablescollection. PivotTables 集合包含控件上的所有数据透视表对象。
 
 ```csharp
 public class GridPivotTable
@@ -22,9 +22,9 @@ public class GridPivotTable
 | [AddFieldToArea](../../aspose.cells.gridweb.data/gridpivottable/addfieldtoarea#addfieldtoarea_1)(GridPivotFieldType, string) | 将字段添加到特定区域。 |
 | [CalculateData](../../aspose.cells.gridweb.data/gridpivottable/calculatedata)() | 将数据透视表的数据计算到单元格。 |
 | [ClearAllFields](../../aspose.cells.gridweb.data/gridpivottable/clearallfields)() | 清除所有数据透视字段。 |
-| [Fields](../../aspose.cells.gridweb.data/gridpivottable/fields#fields_1)(GridPivotFieldType) | 按字段类型获取具体字段。 |
-| [Fields](../../aspose.cells.gridweb.data/gridpivottable/fields#fields)(string) | 通过字段名获取特定字段。 |
-| [RefreshData](../../aspose.cells.gridweb.data/gridpivottable/refreshdata)() | 刷新数据透视表的数据并从其数据源设置。 |
+| [Fields](../../aspose.cells.gridweb.data/gridpivottable/fields#fields_1)(GridPivotFieldType) | 通过字段类型获取具体字段 |
+| [Fields](../../aspose.cells.gridweb.data/gridpivottable/fields#fields)(string) | 通过字段名获取特定字段 |
+| [RefreshData](../../aspose.cells.gridweb.data/gridpivottable/refreshdata)() | 刷新数据透视表的数据并从它的数据源设置。 |
 
 ### 也可以看看
 

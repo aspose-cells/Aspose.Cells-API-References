@@ -16,7 +16,7 @@ public void SetThemeColor(ThemeColorType type, Color color)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | ThemeColorType | Тип цвета темы. |
+| type | ThemeColorType | Цветовой тип темы. |
 | color | Color | цвет темы |
 
 ### Смотрите также

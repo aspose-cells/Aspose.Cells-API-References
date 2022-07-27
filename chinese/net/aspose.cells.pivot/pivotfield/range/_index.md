@@ -1,14 +1,14 @@
 ---
 title: Range
 second_title: Aspose.Cells for .NET API 参考
-description: 获取数据透视字段的组范围
+description: 获取枢轴字段的组范围
 type: docs
 weight: 360
 url: /zh/net/aspose.cells.pivot/pivotfield/range/
 ---
 ## PivotField.Range property
 
-获取数据透视字段的组范围
+获取枢轴字段的组范围
 
 ```csharp
 public SxRng Range { get; }

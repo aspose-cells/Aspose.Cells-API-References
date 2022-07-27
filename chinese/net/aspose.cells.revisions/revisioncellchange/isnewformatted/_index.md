@@ -1,14 +1,14 @@
 ---
 title: IsNewFormatted
 second_title: Aspose.Cells for .NET API 参考
-description: 指示此单元格是否为新格式
+description: 表示此单元格是否为新格式
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.revisions/revisioncellchange/isnewformatted/
 ---
 ## RevisionCellChange.IsNewFormatted property
 
-指示此单元格是否为新格式。
+表示此单元格是否为新格式。
 
 ```csharp
 public bool IsNewFormatted { get; }

@@ -16,7 +16,7 @@ public bool ValidateMergedAreas { get; set; }
 
 ### Примечания
 
-Значение по умолчанию - false.
+Значение по умолчанию — false.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ScriptOffset
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает смещение скрипта в процентах
+description: Получает и задает смещение скрипта в процентах
 type: docs
 weight: 140
 url: /ru/net/aspose.cells/font/scriptoffset/
 ---
 ## Font.ScriptOffset property
 
-Получает и устанавливает смещение скрипта в процентах
+Получает и задает смещение скрипта в процентах
 
 ```csharp
 public double ScriptOffset { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: AllColumnsInOnePagePerSheet
 second_title: Aspose.Cells for .NET API 参考
-description: 如果 AllColumnsInOnePagePerSheet 为 true 则一张表的所有列内容将只输出到结果中的一页 pagesetup 的纸张大小宽度将被忽略pagesetup 的其他设置仍然有效
+description: 如果 AllColumnsInOnePagePerSheet 为 true 则一张表的所有列内容将只输出到结果中的一页 pagesetup 的纸张尺寸宽度将被忽略pagesetup 的其他设置仍然有效
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/pdfsaveoptions/allcolumnsinonepagepersheet/
 ---
 ## PdfSaveOptions.AllColumnsInOnePagePerSheet property
 
-如果 AllColumnsInOnePagePerSheet 为 true ，则一张表的所有列内容将只输出到结果中的一页。 pagesetup 的纸张大小宽度将被忽略，pagesetup 的其他设置仍然有效。
+如果 AllColumnsInOnePagePerSheet 为 true ，则一张表的所有列内容将只输出到结果中的一页。 pagesetup 的纸张尺寸宽度将被忽略，pagesetup 的其他设置仍然有效。
 
 ```csharp
 public bool AllColumnsInOnePagePerSheet { get; set; }

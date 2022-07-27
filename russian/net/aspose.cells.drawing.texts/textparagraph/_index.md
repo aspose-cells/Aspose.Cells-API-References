@@ -19,26 +19,26 @@ public class TextParagraph : FontSetting
 | Имя | Описание |
 | --- | --- |
 | [AlignmentType](../../aspose.cells.drawing.texts/textparagraph/alignmenttype) { get; set; } | Получает и задает тип горизонтального выравнивания текста абзаца. |
-| [Bullet](../../aspose.cells.drawing.texts/textparagraph/bullet) { get; } | Получает пулю. |
-| [Children](../../aspose.cells.drawing.texts/textparagraph/children) { get; } | Получает все текстовые фрагменты в этом абзаце. Если этот абзац пуст, вернуть сам абзац. |
+| [Bullet](../../aspose.cells.drawing.texts/textparagraph/bullet) { get; } | получает пулю. |
+| [Children](../../aspose.cells.drawing.texts/textparagraph/children) { get; } | Получает все текстовые фрагменты в этом абзаце. Если этот абзац пуст, возвращает сам абзац. |
 | [DefaultTabSize](../../aspose.cells.drawing.texts/textparagraph/defaulttabsize) { get; set; } | Получает и задает размер по умолчанию для символа табуляции в этом абзаце. |
-| [FirstLineIndent](../../aspose.cells.drawing.texts/textparagraph/firstlineindent) { get; set; } | Указывает размер отступа, который будет применяться к первой строке текста в абзаце. |
+| [FirstLineIndent](../../aspose.cells.drawing.texts/textparagraph/firstlineindent) { get; set; } | Задает размер отступа, который будет применяться к первой строке текста в абзаце. |
 | [Font](../../aspose.cells/fontsetting/font) { get; } | Возвращает шрифт этого объекта. |
-| [FontAlignType](../../aspose.cells.drawing.texts/textparagraph/fontaligntype) { get; set; } | Определяет, где по вертикали в строке текста располагаются фактические слова. Это касается вертикального размещения символов по отношению к базовым линиям. |
-| [IsEastAsianLineBreak](../../aspose.cells.drawing.texts/textparagraph/iseastasianlinebreak) { get; set; } | Указывает, можно ли разделить восточноазиатское слово пополам и перенести на следующую строку без добавления дефиса. |
-| [IsHangingPunctuation](../../aspose.cells.drawing.texts/textparagraph/ishangingpunctuation) { get; set; } | Указывает, должны ли знаки препинания принудительно размещаться в строке текста или помещаться в другую строку текста. |
+| [FontAlignType](../../aspose.cells.drawing.texts/textparagraph/fontaligntype) { get; set; } | Определяет, где по вертикали в строке текста располагаются фактические слова. Это касается вертикального размещения символов относительно базовых линий. |
+| [IsEastAsianLineBreak](../../aspose.cells.drawing.texts/textparagraph/iseastasianlinebreak) { get; set; } | Указывает, можно ли разбить восточноазиатское слово пополам и перенести на следующую строку без добавления дефиса. |
+| [IsHangingPunctuation](../../aspose.cells.drawing.texts/textparagraph/ishangingpunctuation) { get; set; } | Указывает, должны ли знаки пунктуации быть принудительно размещены в строке текста или помещены в другую строку текста. |
 | [IsLatinLineBreak](../../aspose.cells.drawing.texts/textparagraph/islatinlinebreak) { get; set; } | Указывает, можно ли разделить латинское слово пополам и перенести на следующую строку без добавления дефиса. |
 | [LeftMargin](../../aspose.cells.drawing.texts/textparagraph/leftmargin) { get; set; } | Определяет левое поле абзаца. |
 | [Length](../../aspose.cells/fontsetting/length) { get; } | Получает длину символов. |
-| [LineSpace](../../aspose.cells.drawing.texts/textparagraph/linespace) { get; set; } | Получает и задает объем вертикального пробела, который будет использоваться в абзаце. |
-| [LineSpaceSizeType](../../aspose.cells.drawing.texts/textparagraph/linespacesizetype) { get; set; } | Получает и задает объем вертикального пробела, который будет использоваться в абзаце. |
-| [RightMargin](../../aspose.cells.drawing.texts/textparagraph/rightmargin) { get; set; } | Указывает правое поле абзаца. |
+| [LineSpace](../../aspose.cells.drawing.texts/textparagraph/linespace) { get; set; } | Получает и задает объем вертикального пробела, который будет использоваться внутри абзаца. |
+| [LineSpaceSizeType](../../aspose.cells.drawing.texts/textparagraph/linespacesizetype) { get; set; } | Получает и задает объем вертикального пробела, который будет использоваться внутри абзаца. |
+| [RightMargin](../../aspose.cells.drawing.texts/textparagraph/rightmargin) { get; set; } | Задает правое поле абзаца. |
 | [SpaceAfter](../../aspose.cells.drawing.texts/textparagraph/spaceafter) { get; set; } | Получает и задает объем вертикального пробела, который будет присутствовать после абзаца. |
 | [SpaceAfterSizeType](../../aspose.cells.drawing.texts/textparagraph/spaceaftersizetype) { get; set; } | Получает и задает объем вертикального пробела, который будет присутствовать после абзаца. |
-| [SpaceBefore](../../aspose.cells.drawing.texts/textparagraph/spacebefore) { get; set; } | Получает и задает размер вертикального пробела перед абзацем. |
-| [SpaceBeforeSizeType](../../aspose.cells.drawing.texts/textparagraph/spacebeforesizetype) { get; set; } | Получает и задает размер вертикального пробела перед абзацем. |
+| [SpaceBefore](../../aspose.cells.drawing.texts/textparagraph/spacebefore) { get; set; } | Получает и задает количество вертикального пробела перед абзацем. |
+| [SpaceBeforeSizeType](../../aspose.cells.drawing.texts/textparagraph/spacebeforesizetype) { get; set; } | Получает и задает количество вертикального пробела перед абзацем. |
 | [StartIndex](../../aspose.cells/fontsetting/startindex) { get; } | Получает начальный индекс символов. |
-| [Stops](../../aspose.cells.drawing.texts/textparagraph/stops) { get; } | Получает список табуляции. |
+| [Stops](../../aspose.cells.drawing.texts/textparagraph/stops) { get; } | Получает стоп-лист табуляции. |
 | [TextOptions](../../aspose.cells/fontsetting/textoptions) { get; } | Возвращает параметры текста. |
 | override [Type](../../aspose.cells.drawing.texts/textparagraph/type) { get; } | Получает тип текстового узла. |
 
@@ -46,7 +46,7 @@ public class TextParagraph : FontSetting
 
 | Имя | Описание |
 | --- | --- |
-| [SetWordArtStyle](../../aspose.cells/fontsetting/setwordartstyle)(PresetWordArtStyle) | Устанавливает предустановленный стиль WordArt. |
+| [SetWordArtStyle](../../aspose.cells/fontsetting/setwordartstyle)(PresetWordArtStyle) | Задает предустановленный стиль WordArt. |
 
 ### Смотрите также
 

@@ -23,10 +23,10 @@ public bool IsSmartArt { get; }
 ```csharp
 
 [C#]
- //如果为真，形状是智能艺术。
+//如果为真，则形状是智能艺术。
 if(shape.IsSmartArt)
 {
-     //形状是SmartArt对象.
+    //形状是SmartArt对象。
 }
 ```
 

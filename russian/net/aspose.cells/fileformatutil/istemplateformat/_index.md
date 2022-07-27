@@ -16,7 +16,7 @@ public static bool IsTemplateFormat(string extension)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| расширение | String |  |
+| extension | String |  |
 
 ### Смотрите также
 

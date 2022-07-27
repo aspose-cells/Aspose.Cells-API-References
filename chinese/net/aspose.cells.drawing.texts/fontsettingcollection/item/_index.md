@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 通过索引获取FontSettingaspose.cells/fontsetting
+description: 获取FontSettingaspose.cells/fontsetting按索引.
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.drawing.texts/fontsettingcollection/item/
 ---
 ## FontSettingCollection indexer
 
-通过索引获取[`FontSetting`](../../../aspose.cells/fontsetting)。
+获取[`FontSetting`](../../../aspose.cells/fontsetting)按索引.
 
 ```csharp
 public FontSetting this[int index] { get; }
@@ -16,7 +16,7 @@ public FontSetting this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引。 |
+| index | 指数。 |
 
 ### 也可以看看
 

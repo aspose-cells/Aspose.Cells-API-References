@@ -1,14 +1,14 @@
 ---
 title: ColumnCharacterWidth
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает копируется ли ширина столбца в единицах символов.
+description: Указывает копируется ли ширина столбца в символах.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/copyoptions/columncharacterwidth/
 ---
 ## CopyOptions.ColumnCharacterWidth property
 
-Указывает, копируется ли ширина столбца в единицах символов.
+Указывает, копируется ли ширина столбца в символах.
 
 ```csharp
 public bool ColumnCharacterWidth { get; set; }

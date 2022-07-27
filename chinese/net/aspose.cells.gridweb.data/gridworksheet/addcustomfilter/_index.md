@@ -16,7 +16,7 @@ public void AddCustomFilter(int row, string critira)
 
 ### 评论
 
-过滤条件字符串。注意我们使用 , 和 ;作为拆分字符，因此单元格值不应包含那些拆分字符 下面是标准字符串示例 //column 0 with value 12.3 CELL0 = 12.3 //第 1 列的值为 ABC CELL1 = ABC //第 0 列的值为 123 或 456 或 ABC 和第 1 列的值为 ABC CELL0 = 123,456,ABC; CELL1 = ABC
+过滤条件字符串。注意我们使用 , 和 ;作为拆分字符，因此单元格值不应包含那些拆分 char 下面是标准字符串 examples //第 0 列，值为 12.3 CELL0 = 12.3 //第 1 列，值为 ABC CELL1 = ABC //第 0 列，值为 123或 456 或 ABC 和第 1 列，值为 ABC CELL0 = 123,456,ABC； CELL1 = ABC
 
 ### 也可以看看
 

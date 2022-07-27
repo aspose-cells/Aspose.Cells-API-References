@@ -1,14 +1,14 @@
 ---
 title: SignificantDigits
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает количество значащих цифр. Значение по умолчанию равно 17.
+description: Получает и устанавливает количество значащих цифр. Значение по умолчанию 17.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells/cellshelper/significantdigits/
 ---
 ## CellsHelper.SignificantDigits property
 
-Получает и устанавливает количество значащих цифр. Значение по умолчанию равно 17.
+Получает и устанавливает количество значащих цифр. Значение по умолчанию: 17.
 
 ```csharp
 public static int SignificantDigits { get; set; }
@@ -16,7 +16,7 @@ public static int SignificantDigits { get; set; }
 
 ### Примечания
 
-Сейчас может быть только 15 или 17 .
+Сейчас может быть только 15 или 17.
 
 ### Смотрите также
 

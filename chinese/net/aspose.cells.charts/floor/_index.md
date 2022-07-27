@@ -18,13 +18,13 @@ public class Floor : Area
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor) { get; set; } | 获取或设置Drawing的背景R5:T:System.Drawing.Color:::。区域:::。 |
-| [Border](../../aspose.cells.charts/floor/border) { get; set; } | 获取或设置边框[`Line`](../../aspose.cells.drawing/line)。 |
-| [FillFormat](../../aspose.cells.drawing/area/fillformat) { get; } | 表示对象，该对象包含指定图表或形状的填充格式属性。 |
-| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor) { get; set; } | 获取或设置前景Color。 |
+| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor) { get; set; } | 获取或设置背景Color的[`Area`](../../aspose.cells.drawing/area). |
+| [Border](../../aspose.cells.charts/floor/border) { get; set; } | 获取或设置边框[`Line`](../../aspose.cells.drawing/line). |
+| [FillFormat](../../aspose.cells.drawing/area/fillformat) { get; } | 代表一个包含指定图表或形状的填充格式属性的对象。 |
+| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor) { get; set; } | 获取或设置前景Color. |
 | [Formatting](../../aspose.cells.drawing/area/formatting) { get; set; } | 表示区域的格式。 |
-| [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative) { get; set; } | 如果该属性为真且图表点的值为负数，则 前景色和背景色将互换。 |
-| [Transparency](../../aspose.cells.drawing/area/transparency) { get; set; } | 以从 0.0（不透明）到 1.0（透明）的值返回或设置区域的透明度。 |
+| [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative) { get; set; } | 如果属性为true，图表点的值为负数， 前景色和背景色会互换 |
+| [Transparency](../../aspose.cells.drawing/area/transparency) { get; set; } | 将区域的透明度返回或设置为从 0.0（不透明）到 1.0（透明）的值。 |
 
 ### 例子
 
@@ -32,60 +32,58 @@ public class Floor : Area
 
 [C#]
 
- //实例化License class
+//实例化许可证类
 Aspose.Cells.License license = new Aspose.Cells.License();
 
- //只传递嵌入在assembly
-
+//仅传递嵌入在程序集中的许可证文件的名称
 license.SetLicense("Aspose.Cells.lic");
 
- //实例化工作簿对象
+//实例化工作簿对象
 Workbook workbook = new Workbook();
 
-//获取单元格collection
+//获取单元格集合
 Cells cells = workbook.Worksheets[0].Cells;
 
- //将值放入cells
+//将值放入单元格中
 cells["A1"].PutValue(1);
 
 cells["A2"].PutValue(2);
 
 cells["A3"].PutValue(3);
 
- //获取图表collection
+//获取图表集合
 ChartCollection charts = workbook.Worksheets[0].Charts;
 
- //添加一个新图表
+//添加一个新图表 
 int index = charts.Add(ChartType.Column3DStacked, 5, 0, 15, 5);
 
- //获取新添加的chart
+//获取新添加的图表
 Chart chart = charts[index];
 
- //设置图表nseries
+//设置图表n系列
 chart.NSeries.Add("A1:A3", true);
 
- //显示数据标签
+//显示数据标签
 chart.NSeries[0].DataLabels.ShowValue = true;
 
- //获取图表的 floor
+//获取图表的地板
 Floor floor = chart.Floor;
 
- //设置地板的边框为red
+//设置地板的边框为红色
 floor.Border.Color = System.Drawing.Color.Red;
 
- //设置填充格式
+//设置填充格式
 floor.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2); 
 
- //保存文件
+//保存文件
 workbook.Save(@"dest.xls");
 
 [VB.NET]
 
-'实例化License class
+'实例化许可证类
 Dim license As New Aspose.Cells.License()
 
-'只传递嵌入在assembly
-
+'仅传递嵌入在程序集中的许可文件的名称
 license.SetLicense("Aspose.Cells.lic")
 
 '实例化工作簿对象
@@ -110,16 +108,16 @@ Dim index As Integer = charts.Add(ChartType.Column3DStacked, 5, 0, 15, 5)
 '获取新添加的图表
 Dim chart As Chart = charts(index)
 
-'设置图表 nseries
+'设置图表 n 系列
 chart.NSeries.Add("A1:A3", True)
 
 '显示数据标签
 chart.NSeries(0).DataLabels.ShowValue = True
 
-'获取图表的楼层
+'Get chart's floor
 Dim floor As Floor = chart.Floor
 
-'将地板的边框设置为红色
+'set floor's border as red
 floor.Border.Color = System.Drawing.Color.Red
 
 '设置填充格式

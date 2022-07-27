@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置形状相对工作表左边框的水平偏移量以像素为单位
+description: 获取和设置形状与工作表左边框的水平偏移量以像素为单位
 type: docs
 weight: 620
 url: /zh/net/aspose.cells.griddesktop.data/gridpicture/x/
 ---
 ## GridPicture.X property
 
-获取和设置形状相对工作表左边框的水平偏移量，以像素为单位。
+获取和设置形状与工作表左边框的水平偏移量，以像素为单位。
 
 ```csharp
 public int X { get; set; }

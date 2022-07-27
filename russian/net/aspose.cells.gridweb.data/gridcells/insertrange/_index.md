@@ -16,8 +16,8 @@ public void InsertRange(GridCellArea area, GridShiftType shiftType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| area | GridCellArea | Область сдвига. |
-| shiftType | GridShiftType | Опция сдвига ячеек. |
+| area | GridCellArea | Область смены. |
+| shiftType | GridShiftType | Вариант сдвига ячеек. |
 
 ### Смотрите также
 
@@ -40,10 +40,10 @@ public void InsertRange(GridCellArea area, int shiftNumber, GridShiftType shiftT
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| area | GridCellArea | Область сдвига. |
-| shiftNumber | Int32 | Количество вставляемых строк или столбцов. |
-| shiftType | GridShiftType | Опция сдвига ячеек. |
-| updateReference | Boolean | Указывает, обновляются ли ссылки в других рабочих листах. |
+| area | GridCellArea | Область смены. |
+| shiftNumber | Int32 | Количество строк или столбцов, которые необходимо вставить. |
+| shiftType | GridShiftType | Вариант сдвига ячеек. |
+| updateReference | Boolean | Указывает, обновляются ли ссылки на других листах. |
 
 ### Смотрите также
 

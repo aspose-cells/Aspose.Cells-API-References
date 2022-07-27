@@ -1,14 +1,14 @@
 ---
 title: ImportData
 second_title: Справочник по Aspose.Cells для .NET API
-description: Импортирует данные из объектаIDataReader.
+description: Импорт данных изIDataReader объект.
 type: docs
-weight: 970
+weight: 980
 url: /ru/net/aspose.cells/cells/importdata/
 ---
 ## ImportData(IDataReader, int, int) {#importdata_3}
 
-Импортирует данные из объектаIDataReader.
+Импорт данных изIDataReader объект.
 
 ```csharp
 public int ImportData(IDataReader reader, int firstRow, int firstColumn)
@@ -16,7 +16,7 @@ public int ImportData(IDataReader reader, int firstRow, int firstColumn)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| reader | IDataReader | ОбъектIDataReader, содержащий данные. |
+| reader | IDataReader | IDataReader объект, который содержит данные. |
 | firstRow | Int32 | Номер строки первой ячейки для импорта. |
 | firstColumn | Int32 | Номер столбца первой ячейки для импорта. |
 
@@ -34,7 +34,7 @@ public int ImportData(IDataReader reader, int firstRow, int firstColumn)
 
 ## ImportData(IDataReader, int, int, ImportTableOptions) {#importdata_4}
 
-Импортирует данные из объектаIDataReader.
+Импорт данных изIDataReader объект.
 
 ```csharp
 public int ImportData(IDataReader reader, int firstRow, int firstColumn, ImportTableOptions options)
@@ -42,10 +42,10 @@ public int ImportData(IDataReader reader, int firstRow, int firstColumn, ImportT
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| reader | IDataReader | ОбъектIDataReader, содержащий данные. |
+| reader | IDataReader | IDataReader объект, который содержит данные. |
 | firstRow | Int32 | Номер строки первой ячейки для импорта. |
 | firstColumn | Int32 | Номер столбца первой ячейки для импорта. |
-| options | ImportTableOptions | Параметры импорта таблицы. |
+| options | ImportTableOptions | Варианты импорта таблицы. |
 
 ### Возвращаемое значение
 
@@ -96,7 +96,7 @@ public int ImportData(DataTable table, int firstRow, int firstColumn, ImportTabl
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| table | DataTable | Импортируемый объектDataTable. |
+| table | DataTable | DataTable объект для импорта. |
 | firstRow | Int32 | Индекс первой строки. |
 | firstColumn | Int32 | Индекс первого столбца. |
 | options | ImportTableOptions | Параметры импорта |
@@ -114,7 +114,7 @@ public int ImportData(DataTable table, int firstRow, int firstColumn, ImportTabl
 Workbook excel = new Workbook();
 Cells cells = excel.Worksheets[0].Cells;
 
-  //Импорт data
+//Импорт данных
 DataTable dt = new DataTable("Products");
 dt.Columns.Add("Product_ID",typeof(Int32));
 dt.Columns.Add("Product_Name",typeof(string));
@@ -157,7 +157,7 @@ Dim options as ImportTableOptions = new ImportTableOptions()
 options.IsFieldNameShown = True
 cells.ImportData(dt, 12, 12, options)
 
-'Импорт данных
+'Экспорт данных
 Dim outDataTable as DataTable = cells.ExportDataTable(12, 12, 10, 10)
 ```
 
@@ -180,7 +180,7 @@ public int ImportData(DataView dataView, int firstRow, int firstColumn, ImportTa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dataView | DataView | Импортируемый объектDataView. |
+| dataView | DataView | DataView объект для импорта. |
 | firstRow | Int32 | Индекс первой строки. |
 | firstColumn | Int32 | Индекс первого столбца. |
 | options | ImportTableOptions | Параметры импорта |

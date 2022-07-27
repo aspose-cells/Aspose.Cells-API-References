@@ -1,14 +1,14 @@
 ---
 title: ShowMeanMarker
 second_title: Aspose.Cells for .NET API 参考
-description: 指示是否显示表示平均值的标记
+description: 表示是否显示表示平均值的标记
 type: docs
 weight: 90
 url: /zh/net/aspose.cells.charts/serieslayoutproperties/showmeanmarker/
 ---
 ## SeriesLayoutProperties.ShowMeanMarker property
 
-指示是否显示表示平均值的标记。
+表示是否显示表示平均值的标记。
 
 ```csharp
 public bool ShowMeanMarker { get; set; }

@@ -32,7 +32,7 @@ public void AutoFitRows(bool onlyAuto)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| onlyAuto | Boolean | Правда, высота строки подбирается автоматически только тогда, когда высота строки не настроена. |
+| onlyAuto | Boolean | Истинно, высота строки подбирается автоматически, только если высота строки не настроена пользователем. |
 
 ### Смотрите также
 
@@ -52,7 +52,7 @@ public void AutoFitRows(AutoFitterOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | AutoFitterOptions | Опции автоустановщика |
+| options | AutoFitterOptions | Параметры автоустановщика |
 
 ### Смотрите также
 
@@ -96,7 +96,7 @@ public void AutoFitRows(int startRow, int endRow, AutoFitterOptions options)
 | --- | --- | --- |
 | startRow | Int32 | Индекс начальной строки. |
 | endRow | Int32 | Индекс конечной строки. |
-| options | AutoFitterOptions | Опции автоустановщика. |
+| options | AutoFitterOptions | Варианты автослесаря. |
 
 ### Смотрите также
 

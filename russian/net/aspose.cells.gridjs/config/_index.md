@@ -25,26 +25,26 @@ public class Config
 | Имя | Описание |
 | --- | --- |
 | static [AutoOptimizeForLargeCells](../../aspose.cells.gridjs/config/autooptimizeforlargecells) { get; set; } |  |
-| static [EmptySheetMaxCol](../../aspose.cells.gridjs/config/emptysheetmaxcol) { get; set; } | Устанавливает/получает максимальный столбец по умолчанию для пустого листа |
-| static [EmptySheetMaxRow](../../aspose.cells.gridjs/config/emptysheetmaxrow) { get; set; } | Устанавливает максимальную строку по умолчанию для пустого рабочего листа |
-| static [FileCacheDirectory](../../aspose.cells.gridjs/config/filecachedirectory) { get; set; } | Устанавливает/получает каталог кеша для файла книги |
-| static [IgnoreEmptyContent](../../aspose.cells.gridjs/config/ignoreemptycontent) { get; set; } | Устанавливает, показывать ли максимальный диапазон, включающий данные, стиль, объединенные ячейки и фигуры. значение по умолчанию равно true. Если последняя строка или столбец содержат ячейки без значения и формулы, но имеют собственный стиль тогда мы не будем показывать эту строку/столбец, когда это значение правда |
-| static [IslimitShapeOrImage](../../aspose.cells.gridjs/config/islimitshapeorimage) { get; set; } | Устанавливает, следует ли ограничивать общее количество отображаемых форм/изображений внутри одного рабочего листа, если установлено значение true, GridJs будет ограничивать общее отображаемое количество фигур/ размер изображения внутри одного рабочего листа для MaxShapeOrImageCount значение по умолчанию равно true |
+| static [EmptySheetMaxCol](../../aspose.cells.gridjs/config/emptysheetmaxcol) { get; set; } | Устанавливает/получает максимальный столбец по умолчанию для пустого рабочего листа |
+| static [EmptySheetMaxRow](../../aspose.cells.gridjs/config/emptysheetmaxrow) { get; set; } | Устанавливает максимальную строку по умолчанию для пустой рабочей таблицы |
+| static [FileCacheDirectory](../../aspose.cells.gridjs/config/filecachedirectory) { get; set; } | Устанавливает/получает каталог кеша для рабочей книги file |
+| static [IgnoreEmptyContent](../../aspose.cells.gridjs/config/ignoreemptycontent) { get; set; } | Устанавливает, показывать ли максимальный диапазон, который включает данные, стиль, объединенные ячейки и фигуры. значение по умолчанию — true. строка/столбец, когда это значение равно true |
+| static [IslimitShapeOrImage](../../aspose.cells.gridjs/config/islimitshapeorimage) { get; set; } | Устанавливает, следует ли ограничивать общее количество отображаемых форм/изображений внутри одного рабочего листа. Если установлено значение true, GridJs ограничит общий отображаемый размер формы/изображения внутри одного рабочего листа до MaxShapeOrImageCount значение по умолчанию true |
 | static [MaxPdfSaveSeconds](../../aspose.cells.gridjs/config/maxpdfsaveseconds) { get; set; } | Устанавливает/получает максимальное время ожидания в секундах при сохранении в pdf |
-| static [MaxShapeOrImageCount](../../aspose.cells.gridjs/config/maxshapeorimagecount) { get; set; } | Устанавливает/Получает общее количество фигур/изображений на активном листе, это займет affec, когда IslimitShapes=true |
-| static [MaxShapeOrImageWidthOrHeight](../../aspose.cells.gridjs/config/maxshapeorimagewidthorheight) { get; set; } | Устанавливает/получает максимальную ширину или высоту для фигуры/изображения. IslimitShapes=true |
-| static [MaxTotalShapeOrImageCount](../../aspose.cells.gridjs/config/maxtotalshapeorimagecount) { get; set; } | Устанавливает/получает общее количество отображаемых фигур/изображений во всей книге, это будет происходить, когда IslimitShapes=true |
-| static [PageSize](../../aspose.cells.gridjs/config/pagesize) { get; set; } | Устанавливает, делать ли нумерацию страниц GridJs будет ограничивать размер строки на основе PageSize, если PageSize равен -1, он не будет выполнять нумерацию страниц значение по умолчанию -1 |
+| static [MaxShapeOrImageCount](../../aspose.cells.gridjs/config/maxshapeorimagecount) { get; set; } | Устанавливает/Получает общее количество фигур/изображений на активном листе, это произойдет, если IslimitShapes=true |
+| static [MaxShapeOrImageWidthOrHeight](../../aspose.cells.gridjs/config/maxshapeorimagewidthorheight) { get; set; } | Устанавливает/получает максимальную ширину или высоту для формы/изображения. GridJs будет игнорировать форму/изображение с шириной или высотой больше этого значения, это займет affec, когда IslimitShapes=true |
+| static [MaxTotalShapeOrImageCount](../../aspose.cells.gridjs/config/maxtotalshapeorimagecount) { get; set; } | Устанавливает /Получает общее количество фигур/изображений во всей книге, это произойдет, если IslimitShapes=true |
+| static [PageSize](../../aspose.cells.gridjs/config/pagesize) { get; set; } | Устанавливает, следует ли выполнять pagination GridJs будет ограничивать размер строки на основе PageSize, если PageSize равен -1, он не будет выполнять pagination значение по умолчанию -1 |
 | static [PictureCacheDirectory](../../aspose.cells.gridjs/config/picturecachedirectory) { get; set; } | Устанавливает/получает каталог кеша для изображений |
-| static [SameImageDetecting](../../aspose.cells.gridjs/config/sameimagedetecting) { get; set; } | Устанавливает, проверять, имеет ли изображение тот же источник, значение по умолчанию - true значение по умолчанию - true |
-| static [SaveHtmlAsZip](../../aspose.cells.gridjs/config/savehtmlaszip) { get; set; } | Устанавливает, следует ли сохранять html-файл как zip-архив, по умолчанию false значение по умолчанию true |
+| static [SameImageDetecting](../../aspose.cells.gridjs/config/sameimagedetecting) { get; set; } | Устанавливает, следует ли проверять, имеет ли изображение тот же источник, значение по умолчанию — true , значение по умолчанию — true |
+| static [SaveHtmlAsZip](../../aspose.cells.gridjs/config/savehtmlaszip) { get; set; } | Устанавливает, следует ли сохранять HTML-файл в виде zip-архива, значение по умолчанию — false , значение по умолчанию — true |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | static [SetFontFolder](../../aspose.cells.gridjs/config/setfontfolder)(string, bool) | Устанавливает папку шрифтов |
-| static [SetFontFolders](../../aspose.cells.gridjs/config/setfontfolders)(string[], bool) | Устанавливает папки со шрифтами |
+| static [SetFontFolders](../../aspose.cells.gridjs/config/setfontfolders)(string[], bool) | Устанавливает папки шрифтов |
 
 ### Смотрите также
 

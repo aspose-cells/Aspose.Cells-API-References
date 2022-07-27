@@ -1,14 +1,14 @@
 ---
 title: TrendLines
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает объект представляющий набор всех линий тренда для ряда.
+description: Возвращает объект представляющий набор всех линий тренда для серии.
 type: docs
 weight: 430
 url: /ru/net/aspose.cells.charts/series/trendlines/
 ---
 ## Series.TrendLines property
 
-Возвращает объект, представляющий набор всех линий тренда для ряда.
+Возвращает объект, представляющий набор всех линий тренда для серии.
 
 ```csharp
 public TrendlineCollection TrendLines { get; }

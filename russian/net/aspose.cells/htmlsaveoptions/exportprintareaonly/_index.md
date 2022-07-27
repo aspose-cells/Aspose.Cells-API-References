@@ -1,14 +1,14 @@
 ---
 title: ExportPrintAreaOnly
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает экспортируется ли только область печати в файл html. Значение по умолчанию неверно.
+description: Указывает экспортируется ли только область печати в html-файл. Значение по умолчанию  false.
 type: docs
-weight: 230
+weight: 240
 url: /ru/net/aspose.cells/htmlsaveoptions/exportprintareaonly/
 ---
 ## HtmlSaveOptions.ExportPrintAreaOnly property
 
-Указывает, экспортируется ли только область печати в файл html. Значение по умолчанию неверно.
+Указывает, экспортируется ли только область печати в html-файл. Значение по умолчанию — false.
 
 ```csharp
 public bool ExportPrintAreaOnly { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ThreadedCommentAuthorCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 代表所有 .
+description: 代表所有 . 的人
 type: docs
 weight: 6040
 url: /zh/net/aspose.cells/threadedcommentauthorcollection/
 ---
 ## ThreadedCommentAuthorCollection class
 
-代表所有 .
+代表所有 . 的人
 
 ```csharp
 public class ThreadedCommentAuthorCollection : CollectionBase<ThreadedCommentAuthor>

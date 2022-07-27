@@ -1,14 +1,14 @@
 ---
 title: AltTextTitle
 second_title: Aspose.Cells for .NET API 参考
-description: 获取替代文本的标题
+description: 获取 altertext 的标题
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.pivot/pivottable/alttexttitle/
 ---
 ## PivotTable.AltTextTitle property
 
-获取替代文本的标题
+获取 altertext 的标题
 
 ```csharp
 public string AltTextTitle { get; set; }

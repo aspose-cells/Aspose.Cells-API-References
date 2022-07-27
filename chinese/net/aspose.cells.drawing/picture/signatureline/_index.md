@@ -1,14 +1,14 @@
 ---
 title: SignatureLine
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置签名行
+description: 获取并设置签名行
 type: docs
 weight: 160
 url: /zh/net/aspose.cells.drawing/picture/signatureline/
 ---
 ## Picture.SignatureLine property
 
-获取和设置签名行
+获取并设置签名行
 
 ```csharp
 public SignatureLine SignatureLine { get; set; }
@@ -19,21 +19,21 @@ public SignatureLine SignatureLine { get; set; }
 ```csharp
 
 [C#]
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
- //在工作表中行列索引均为1的单元格位置添加图片。是“B2”cell
+//在工作表中行列索引均为1的单元格位置添加图片。它是“B2”单元格
 int imgIndex = worksheet.Pictures.Add(1, 1, "example.jpeg");
- //获取插入的图片object
+//获取插入的图片对象
 Picture pic = worksheet.Pictures[imgIndex];
- // 创建签名行 object
+// 创建签名线对象
 SignatureLine s = new SignatureLine();
 s.Signer = "Simon Zhao";
 s.Title = "Development Lead";
 s.Email = "Simon.Zhao@aspose.com";
- // 将签名线对象分配给 Picture.
+// 将签名线对象分配给 Picture。
 pic.SignatureLine = s;
- //保存excel文件.
+//保存excel文件。
 workbook.Save("result.xlsx");
 ```
 

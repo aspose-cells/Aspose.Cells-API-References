@@ -18,10 +18,10 @@ public enum TrendlineType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Exponential | `0` | Экспоненциальная |
+| Exponential | `0` | Экспоненциальный |
 | Linear | `1` | Линейный |
 | Logarithmic | `2` | Логарифмический |
-| MovingAverage | `3` | Скользящее среднее |
+| MovingAverage | `3` | Скользящая средняя |
 | Polynomial | `4` | Многочлен |
 | Power | `5` | Мощность |
 

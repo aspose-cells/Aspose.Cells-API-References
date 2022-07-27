@@ -33,7 +33,7 @@ public void Unmerge(CellRange r)
 
 ## Unmerge(CellLocation) {#unmerge}
 
-Удалить указанную ячейку из объединений.
+Удалить указанное местоположение ячейки из объединений.
 
 ```csharp
 public void Unmerge(CellLocation location)
@@ -41,7 +41,7 @@ public void Unmerge(CellLocation location)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| location | CellLocation | Местоположение ячейки. |
+| location | CellLocation | Расположение ячейки. |
 
 ### Смотрите также
 
@@ -54,7 +54,7 @@ public void Unmerge(CellLocation location)
 
 ## Unmerge(int, int) {#unmerge_2}
 
-Удалить указанный индекс столбца строки ячейки из объединений.
+Удалить указанный индекс столбца строки ячейки из слияний.
 
 ```csharp
 public void Unmerge(int row, int column)

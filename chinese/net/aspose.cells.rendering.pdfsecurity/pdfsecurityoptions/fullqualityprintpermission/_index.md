@@ -1,14 +1,14 @@
 ---
 title: FullQualityPrintPermission
 second_title: Aspose.Cells for .NET API 参考
-description: 高质量打印权限
+description: 高质量打印的许可
 type: docs
 weight: 80
 url: /zh/net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/fullqualityprintpermission/
 ---
 ## PdfSecurityOptions.FullQualityPrintPermission property
 
-高质量打印权限。
+高质量打印的许可。
 
 ```csharp
 public bool FullQualityPrintPermission { get; set; }

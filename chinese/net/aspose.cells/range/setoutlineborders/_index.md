@@ -1,14 +1,14 @@
 ---
 title: SetOutlineBorders
 second_title: Aspose.Cells for .NET API 参考
-description: 围绕具有相同边框样式和颜色的单元格范围设置轮廓边框
+description: 围绕具有相同边框样式和颜色的一系列单元格设置轮廓边框
 type: docs
-weight: 350
+weight: 390
 url: /zh/net/aspose.cells/range/setoutlineborders/
 ---
 ## SetOutlineBorders(CellBorderType, Color) {#setoutlineborders}
 
-围绕具有相同边框样式和颜色的单元格范围设置轮廓边框。
+围绕具有相同边框样式和颜色的一系列单元格设置轮廓边框。
 
 ```csharp
 public void SetOutlineBorders(CellBorderType borderStyle, Color borderColor)
@@ -30,7 +30,7 @@ public void SetOutlineBorders(CellBorderType borderStyle, Color borderColor)
 
 ## SetOutlineBorders(CellBorderType[], Color[]) {#setoutlineborders_1}
 
-在一系列单元格周围设置线条边界。
+在一系列单元格周围设置线条边框。
 
 ```csharp
 public void SetOutlineBorders(CellBorderType[] borderStyles, Color[] borderColors)
@@ -43,7 +43,7 @@ public void SetOutlineBorders(CellBorderType[] borderStyles, Color[] borderColor
 
 ### 评论
 
-borderStyles和borderStyles的长度都必须是4。 borderStyles和borderStyles的顺序必须是top ,下,左,右
+borderStyles和borderStyles的长度都必须是4. borderStyles和borderStyles的顺序必须是top,bottom,left,right
 
 ### 也可以看看
 

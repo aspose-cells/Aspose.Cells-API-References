@@ -3,7 +3,7 @@ title: GetGroupedColumnOutlineLevel
 second_title: Aspose.Cells for .NET API 参考
 description: 获取列的大纲级别从零开始
 type: docs
-weight: 720
+weight: 730
 url: /zh/net/aspose.cells/cells/getgroupedcolumnoutlinelevel/
 ---
 ## Cells.GetGroupedColumnOutlineLevel method
@@ -24,7 +24,7 @@ public int GetGroupedColumnOutlineLevel(int columnIndex)
 
 ### 评论
 
-如果列未分组，则返回零。
+如果该列未分组，则返回零。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: BorderWeight
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置图片边框线的权重单位为pt
+description: 获取或设置图片边框线的权重单位为pt.
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.drawing/picture/borderweight/
 ---
 ## Picture.BorderWeight property
 
-获取或设置图片边框线的权重，单位为pt。
+获取或设置图片边框线的权重，单位为pt.
 
 ```csharp
 public double BorderWeight { get; set; }
@@ -19,18 +19,18 @@ public double BorderWeight { get; set; }
 ```csharp
 
 [C#]
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
- //在工作表中行列索引均为1的单元格位置添加图片。是“B2”cell
+//在工作表中行列索引均为1的单元格位置添加图片。它是“B2”单元格
 int imgIndex = worksheet.Pictures.Add(1, 1, "example.jpeg");
- //获取插入的图片object
+//获取插入的图片对象
 Picture pic = worksheet.Pictures[imgIndex];
- //设置图片的边框颜色
+//设置图片的边框颜色
 pic.BorderLineColor = Color.Red;
- //设置图片的边框宽度
+//设置图片的边框宽度
 pic.BorderWeight = 3;
- //保存excel文件.
+//保存excel文件。
 workbook.Save("result.xlsx");
 ```
 

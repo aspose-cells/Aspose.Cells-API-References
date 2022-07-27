@@ -1,14 +1,14 @@
 ---
 title: ColumnCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 对象的集合代表工作表中的各个列设置 Column 对象仅表示列宽样式等设置对于整列 与相应列中是否存在非空单元格数据无关 而这个集合的Count只代表这个集合中已经实例化的count个Column对象 与有非空单元格无关数据或不在工作表中
+description: 的集合表示工作表中各个列设置的对象 Column 对象仅表示列宽样式等设置对于整列 与对应列中是否存在非空单元格数据无关 并且该集合的计数仅表示在此实例化的计数列对象集合 与工作表中是否存在非空单元格数据无关
 type: docs
 weight: 1070
 url: /zh/net/aspose.cells/columncollection/
 ---
 ## ColumnCollection class
 
-对象的集合，代表工作表中的各个列（设置）。 Column 对象仅表示列宽、样式等设置。对于整列， 与相应列中是否存在非空单元格（数据）无关。 而这个集合的“Count”只代表这个集合中已经实例化的count个Column对象， 与有非空单元格无关（数据）或不在工作表中。
+的集合表示工作表中各个列（设置）的对象。 Column 对象仅表示列宽、样式等设置。对于整列， 与对应列中是否存在非空单元格（数据）无关。 并且该集合的“计数”仅表示在此实例化的计数列对象集合， 与工作表中是否存在非空单元格（数据）无关。
 
 ```csharp
 public class ColumnCollection : CollectionBase<Column>
@@ -20,7 +20,7 @@ public class ColumnCollection : CollectionBase<Column>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/columncollection/item) { get; } | 按列索引获取对象。 如果给定列索引的 Column 对象之前不存在，它将被实例化。 |
+| [Item](../../aspose.cells/columncollection/item) { get; } | 得到一个按列索引的对象。 给定列索引的 Column 对象如果之前不存在，将被实例化。 |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法
@@ -45,7 +45,7 @@ public class ColumnCollection : CollectionBase<Column>
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;Column&gt;) |  |
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;Column&gt;) |  |
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;Column&gt;) |  |
-| [GetColumnByIndex](../../aspose.cells/columncollection/getcolumnbyindex)(int) | 通过列表中的位置获取[`Column`](../column)对象。 |
+| [GetColumnByIndex](../../aspose.cells/columncollection/getcolumnbyindex)(int) | 获取[`Column`](../column)对象在列表中的位置。 |
 | [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Column) |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Column, int) |  |
@@ -61,56 +61,54 @@ public class ColumnCollection : CollectionBase<Column>
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 
-//获取第一个worksheet
-
+//获取第一个工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
 
-//向 Workbook
-
+//向工作簿添加新样式
 Style style = workbook.CreateStyle();
 
-//设置背景颜色为Blue
+//设置背景颜色为蓝色
 style.ForegroundColor = Color.Blue;
 
- //设置背景图案
+//设置背景图案
 style.Pattern = BackgroundType.Solid;
 
- //新样式标志
+//新样式标志
 StyleFlag styleFlag = new StyleFlag();
 
- //设置所有样式
+//设置所有样式
 styleFlag.All = true;
 
- //改变前十列的默认宽度
+//改变前十列的默认宽度
 for (int i = 0; i < 10; i++)
 {
     worksheet.Cells.Columns[i].Width = 20;
 }
 
- //获取非默认格式的Column
+//获取非默认格式的列
 ColumnCollection columns = worksheet.Cells.Columns;
 
 foreach (Column column in columns)
 {
-     //将样式应用于前十列
+    //将样式应用于前十列
     column.ApplyStyle(style, styleFlag);
 }
 
- //保存Excel文件
+//保存Excel文件
 workbook.Save("book1.xls");
 
 [VB.NET]
 
-'实例化一个 Workbook 目的
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 
-'获取第一个参考 worksheet
+'获取第一个工作表的引用
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-'将新样式添加到 Workbook
+'向工作簿添加新样式
 Dim style As Style = workbook.CreateStyles()
 
 '将背景颜色设置为蓝色

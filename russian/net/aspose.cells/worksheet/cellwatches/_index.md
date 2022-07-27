@@ -1,14 +1,14 @@
 ---
 title: CellWatches
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает набор ячеек на этом рабочем листе наблюдаемых в окне просмотра.
+description: Получает набор ячеек на этом рабочем листе которые просматриваются в окне просмотра.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells/worksheet/cellwatches/
 ---
 ## Worksheet.CellWatches property
 
-Получает набор ячеек на этом рабочем листе, наблюдаемых в «окне просмотра».
+Получает набор ячеек на этом рабочем листе, которые просматриваются в «окне просмотра».
 
 ```csharp
 public CellWatchCollection CellWatches { get; }

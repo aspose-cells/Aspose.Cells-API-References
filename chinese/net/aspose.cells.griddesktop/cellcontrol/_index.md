@@ -1,14 +1,14 @@
 ---
 title: CellControl
 second_title: Aspose.Cells for .NET API 参考
-description: 表示单元格控件
+description: 表示一个单元格控件
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.griddesktop/cellcontrol/
 ---
 ## CellControl class
 
-表示单元格控件。
+表示一个单元格控件。
 
 ```csharp
 public abstract class CellControl : CellRelative

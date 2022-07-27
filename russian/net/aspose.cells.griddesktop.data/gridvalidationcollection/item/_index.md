@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементHyperlinkпо указанному индексу.
+description: ПолучаетHyperlink элемент по указанному индексу.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.griddesktop.data/gridvalidationcollection/item/
 ---
 ## GridValidationCollection indexer (1 of 2)
 
-Получает элементHyperlinkпо указанному индексу.
+ПолучаетHyperlink элемент по указанному индексу.
 
 ```csharp
 public GridValidation this[int index] { get; }
@@ -33,7 +33,7 @@ public GridValidation this[int index] { get; }
 
 ## GridValidationCollection indexer (2 of 2)
 
-Получает элемент[`GridValidation`](../../gridvalidation)в указанной ячейке. Если нет проверки, то возвращает значение null.
+Получает[`GridValidation`](../../gridvalidation)элемент в указанной ячейке. Если нет проверки, верните null.
 
 ```csharp
 public GridValidation this[int row, int column] { get; }
@@ -41,7 +41,7 @@ public GridValidation this[int row, int column] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| row | Строка ячейки. |
+| row | Ряд клетки. |
 | column | Столбец ячейки. |
 
 ### Возвращаемое значение
@@ -50,7 +50,7 @@ public GridValidation this[int row, int column] { get; }
 
 ### Примечания
 
-Если нет объекта проверки в указанном индексе столбца строки, это проверит объект проверки столбца .
+Если в указанном индексе столбца строки нет объекта проверки, будет проверяться объект проверки столбца.
 
 ### Смотрите также
 

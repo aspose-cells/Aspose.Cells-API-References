@@ -1,14 +1,14 @@
 ---
 title: CommentCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует набор объектовComment./comment.
+description: Инкапсулирует наборComment./comment объекты.
 type: docs
 weight: 1090
 url: /ru/net/aspose.cells/commentcollection/
 ---
 ## CommentCollection class
 
-Инкапсулирует набор объектов[`Comment`](../comment).
+Инкапсулирует набор[`Comment`](../comment) объекты.
 
 ```csharp
 public class CommentCollection : CollectionBase<Comment>
@@ -20,15 +20,15 @@ public class CommentCollection : CollectionBase<Comment>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/commentcollection/item) { get; } | Получает элемент[`Comment`](../comment)по указанному индексу. (3 indexers) |
+| [Item](../../aspose.cells/commentcollection/item) { get; } | Получает[`Comment`](../comment) элемент по указанному индексу. (3 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells/commentcollection/add#add_1)(string) | Добавляет комментарий к коллекции. |
-| [Add](../../aspose.cells/commentcollection/add#add)(int, int) | Добавляет комментарий к коллекции. |
+| [Add](../../aspose.cells/commentcollection/add#add_1)(string) | Добавляет комментарий в коллекцию. |
+| [Add](../../aspose.cells/commentcollection/add#add)(int, int) | Добавляет комментарий в коллекцию. |
 | [AddThreadedComment](../../aspose.cells/commentcollection/addthreadedcomment#addthreadedcomment_1)(string, string, ThreadedCommentAuthor) | Добавляет цепочку комментариев. |
 | [AddThreadedComment](../../aspose.cells/commentcollection/addthreadedcomment#addthreadedcomment)(int, int, string, ThreadedCommentAuthor) | Добавляет цепочку комментариев. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Comment) |  |
@@ -51,7 +51,7 @@ public class CommentCollection : CollectionBase<Comment>
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;Comment&gt;) |  |
 | [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
 | [GetThreadedComments](../../aspose.cells/commentcollection/getthreadedcomments#getthreadedcomments_1)(string) | Получает цепочку комментариев по имени ячейки. |
-| [GetThreadedComments](../../aspose.cells/commentcollection/getthreadedcomments#getthreadedcomments)(int, int) | Получает связанные комментарии по индексу строки и столбца. |
+| [GetThreadedComments](../../aspose.cells/commentcollection/getthreadedcomments#getthreadedcomments)(int, int) | Получает цепочку комментариев по индексу строки и столбца. |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Comment) |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Comment, int) |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Comment, int, int) |  |
@@ -59,8 +59,8 @@ public class CommentCollection : CollectionBase<Comment>
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Comment, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Comment, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
-| [RemoveAt](../../aspose.cells/commentcollection/removeat#removeat_2)(string) | Удаляет комментарий конкретной ячейки. |
-| [RemoveAt](../../aspose.cells/commentcollection/removeat#removeat_1)(int, int) | Удаляет комментарий конкретной ячейки. |
+| [RemoveAt](../../aspose.cells/commentcollection/removeat#removeat_2)(string) | Удаляет комментарий к конкретной ячейке. |
+| [RemoveAt](../../aspose.cells/commentcollection/removeat#removeat_1)(int, int) | Удаляет комментарий к конкретной ячейке. |
 
 ### Примеры
 
@@ -71,7 +71,7 @@ Workbook workbook = new Workbook();
 
 CommentCollection comments = workbook.Worksheets[0].Comments;
 
-  //делай свое дело
+//делай свое дело
 
 [Visual Basic]
 

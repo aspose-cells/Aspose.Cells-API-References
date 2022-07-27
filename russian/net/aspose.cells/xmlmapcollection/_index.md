@@ -1,14 +1,14 @@
 ---
 title: XmlMapCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Набор объектовXmlMap./xmlmap представляющих информацию XmlMap.
+description: КоллекцияXmlMap./xmlmap объекты представляющие информацию XmlMap.
 type: docs
 weight: 6600
 url: /ru/net/aspose.cells/xmlmapcollection/
 ---
 ## XmlMapCollection class
 
-Набор объектов[`XmlMap`](../xmlmap), представляющих информацию XmlMap.
+Коллекция[`XmlMap`](../xmlmap) объекты, представляющие информацию XmlMap.
 
 ```csharp
 public class XmlMapCollection : CollectionBase<XmlMap>
@@ -20,14 +20,14 @@ public class XmlMapCollection : CollectionBase<XmlMap>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/xmlmapcollection/item) { get; } | Получает карту xml по заданному индексу. |
+| [Item](../../aspose.cells/xmlmapcollection/item) { get; } | Получает карту xml по определенному индексу. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells/xmlmapcollection/add)(string) | Добавить[`XmlMap`](../xmlmap)по URL-адресу/пути файла xml/xsd. |
+| [Add](../../aspose.cells/xmlmapcollection/add)(string) | Добавить[`XmlMap`](../xmlmap) по URL/пути файла xml/xsd. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(XmlMap) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(XmlMap, IComparer&lt;XmlMap&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, XmlMap, IComparer&lt;XmlMap&gt;) |  |

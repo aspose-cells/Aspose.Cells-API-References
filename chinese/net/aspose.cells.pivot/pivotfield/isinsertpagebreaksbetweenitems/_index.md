@@ -1,14 +1,14 @@
 ---
 title: IsInsertPageBreaksBetweenItems
 second_title: Aspose.Cells for .NET API 参考
-description: 表示字段是否可以在项目之间插入分页符 在每个项目之后插入分页符 默认值为false .
+description: 表示字段是否可以在item之间插入分页符 在每个item之后插入分页符 默认值为false
 type: docs
 weight: 250
 url: /zh/net/aspose.cells.pivot/pivotfield/isinsertpagebreaksbetweenitems/
 ---
 ## PivotField.IsInsertPageBreaksBetweenItems property
 
-表示字段是否可以在项目之间插入分页符 在每个项目之后插入分页符 默认值为false .
+表示字段是否可以在item之间插入分页符 在每个item之后插入分页符 默认值为false。
 
 ```csharp
 public bool IsInsertPageBreaksBetweenItems { get; set; }

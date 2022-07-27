@@ -21,9 +21,9 @@ public enum MsoArrowheadStyle
 | None | `0` | Нет типа конца строки. |
 | Arrow | `1` | Тип конца линии стрелки. |
 | ArrowStealth | `2` | Тип конца линии Arrow Stealth. |
-| ArrowDiamond | `3` | Тип окончания Arrow Diamond Line. |
-| ArrowOval | `4` | Стрелка Овальный тип конца линии. |
-| ArrowOpen | `5` | Arrow Открытый тип конца строки. |
+| ArrowDiamond | `3` | Тип конца ромбовидной линии стрелки. |
+| ArrowOval | `4` | Тип окончания овальной линии стрелки. |
+| ArrowOpen | `5` | Тип конца открытой линии со стрелкой. |
 
 ### Смотрите также
 

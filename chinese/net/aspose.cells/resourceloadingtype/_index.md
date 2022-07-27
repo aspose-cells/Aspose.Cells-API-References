@@ -18,9 +18,9 @@ public enum ResourceLoadingType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Default | `0` | 像往常一样加载此资源。 |
+| Default | `0` | 照常加载此资源。 |
 | Skip | `1` | 跳过加载此资源。 |
-| UserProvided | `2` | 使用用户提供的流 |
+| UserProvided | `2` | 使用用户 提供的流 |
 
 ### 也可以看看
 

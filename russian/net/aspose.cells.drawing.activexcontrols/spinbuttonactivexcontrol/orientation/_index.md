@@ -1,14 +1,14 @@
 ---
 title: Orientation
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает ориентированы ли SpinButton или ScrollBar вертикально или горизонтально.
+description: Получает и задает вертикальную или горизонтальную ориентацию SpinButton или ScrollBar.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/orientation/
 ---
 ## SpinButtonActiveXControl.Orientation property
 
-Получает и задает, ориентированы ли SpinButton или ScrollBar вертикально или горизонтально.
+Получает и задает вертикальную или горизонтальную ориентацию SpinButton или ScrollBar.
 
 ```csharp
 public ControlScrollOrientation Orientation { get; set; }

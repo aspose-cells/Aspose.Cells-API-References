@@ -1,14 +1,14 @@
 ---
 title: TrimLeadingBlankRowAndColumn
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает следует ли обрезать ведущие пустые строки и столбцы как это делает MS Excel. Значение по умолчанию  true.
+description: Указывает следует ли обрезать начальные пустые строки и столбцы как это делает MS Excel. Значение по умолчанию  true.
 type: docs
 weight: 120
 url: /ru/net/aspose.cells/txtsaveoptions/trimleadingblankrowandcolumn/
 ---
 ## TxtSaveOptions.TrimLeadingBlankRowAndColumn property
 
-Указывает, следует ли обрезать ведущие пустые строки и столбцы, как это делает MS Excel. Значение по умолчанию — true.
+Указывает, следует ли обрезать начальные пустые строки и столбцы, как это делает MS Excel. Значение по умолчанию — true.
 
 ```csharp
 public bool TrimLeadingBlankRowAndColumn { get; set; }
@@ -16,7 +16,7 @@ public bool TrimLeadingBlankRowAndColumn { get; set; }
 
 ### Примечания
 
-То же самое с правилом в MS Excel, строка/столбец не будет восприниматься как пустая, если она имеет собственный стиль, даже если он не содержит данных ячеек. При сохранении в режиме LightCells эта опция не действует. Пользователь должен управлять выходным диапазоном путем реализации[`LightCellsDataProvider`](../lightcellsdataprovider) или путем указания[`ExportArea`](../exportarea)
+То же самое с правилом в MS Excel, строка/столбец не будет восприниматься как пустая, если она имеет собственный стиль, даже если она не содержит данных ячейки. При сохранении в режиме LightCells этот параметр не действует. Пользователь должен контролировать выходной диапазон путем реализации[`LightCellsDataProvider`](../lightcellsdataprovider) или указав[`ExportArea`](../exportarea)
 
 ### Смотрите также
 

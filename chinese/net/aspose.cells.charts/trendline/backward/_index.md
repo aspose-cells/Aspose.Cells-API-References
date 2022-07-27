@@ -1,14 +1,14 @@
 ---
 title: Backward
 second_title: Aspose.Cells for .NET API 参考
-description: 返回或设置趋势线向后延伸的周期数或散点图上的单位 句点数必须大于等于零 如果图表类型是列则周期数必须在 0 到 0.5 之间
+description: 返回或设置趋势线向后延伸的周期数或散点图上的单位 周期数必须大于等于0
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.charts/trendline/backward/
 ---
 ## Trendline.Backward property
 
-返回或设置趋势线向后延伸的周期数（或散点图上的单位）。 句点数必须大于等于零。 如果图表类型是列，则周期数必须在 0 到 0.5 之间
+返回或设置趋势线向后延伸的周期数（或散点图上的单位）。 周期数必须大于等于0
 
 ```csharp
 public double Backward { get; set; }

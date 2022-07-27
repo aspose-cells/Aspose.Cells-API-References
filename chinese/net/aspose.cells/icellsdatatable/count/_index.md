@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Cells for .NET API 参考
-description: 获取记录数 -1 表示未知记录数
+description: 获取记录数 -1 未知记录数
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/icellsdatatable/count/
 ---
 ## ICellsDataTable.Count property
 
-获取记录数。 -1 表示未知记录数。
+获取记录数。 -1 未知记录数。
 
 ```csharp
 public int Count { get; }

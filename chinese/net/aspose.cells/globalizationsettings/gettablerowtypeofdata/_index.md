@@ -1,14 +1,14 @@
 ---
 title: GetTableRowTypeOfData
 second_title: Aspose.Cells for .NET API 参考
-description: 获取由引用表的数据区域组成的表行的类型名称 默认为Data因此公式中Data代表表格的数据区域
+description: 获取由引用表的数据区域组成的表行的类型名称 默认为数据因此公式中Data表示表的数据区域
 type: docs
 weight: 270
 url: /zh/net/aspose.cells/globalizationsettings/gettablerowtypeofdata/
 ---
 ## GlobalizationSettings.GetTableRowTypeOfData method
 
-获取由引用表的数据区域组成的表行的类型名称。 默认为“Data”，因此公式中“#Data”代表表格的数据区域。
+获取由引用表的数据区域组成的表行的类型名称。 默认为“数据”，因此公式中“#Data”表示表的数据区域。
 
 ```csharp
 public virtual string GetTableRowTypeOfData()

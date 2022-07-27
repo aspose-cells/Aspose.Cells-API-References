@@ -1,14 +1,14 @@
 ---
 title: CheckAddIn
 second_title: Aspose.Cells for .NET API 参考
-description: 是否检查当前工作簿的现有外部链接中的插件以获取没有外部链接的用户定义函数 默认为true如果用户定义的函数与现有外部链接中的一个插件匹配则将其作为插件
+description: 是否在当前工作簿的现有外部链接中检查用户定义的函数没有外部链接 默认为true如果用户定义的函数与现有外部链接中的一个插件匹配则将其作为插件
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/formulaparseoptions/checkaddin/
 ---
 ## FormulaParseOptions.CheckAddIn property
 
-是否检查当前工作簿的现有外部链接中的插件以获取没有外部链接的用户定义函数。 默认为true（如果用户定义的函数与现有外部链接中的一个插件匹配，则将其作为插件）。
+是否在当前工作簿的现有外部链接中检查用户定义的函数没有外部链接。 默认为true（如果用户定义的函数与现有外部链接中的一个插件匹配，则将其作为插件）。
 
 ```csharp
 public bool CheckAddIn { get; set; }

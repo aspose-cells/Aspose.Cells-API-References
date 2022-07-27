@@ -1,14 +1,14 @@
 ---
 title: CustomPropertyCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Набор объектовCustomProperty./customproperty представляющих дополнительную информацию.
+description: КоллекцияCustomProperty./customproperty объекты представляющие дополнительную информацию.
 type: docs
 weight: 4850
 url: /ru/net/aspose.cells.properties/custompropertycollection/
 ---
 ## CustomPropertyCollection class
 
-Набор объектов[`CustomProperty`](../customproperty), представляющих дополнительную информацию.
+Коллекция[`CustomProperty`](../customproperty) объекты, представляющие дополнительную информацию.
 
 ```csharp
 public class CustomPropertyCollection : CollectionBase<CustomProperty>
@@ -27,7 +27,7 @@ public class CustomPropertyCollection : CollectionBase<CustomProperty>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells.properties/custompropertycollection/add)(string, string) | Добавляет информацию о пользовательских свойствах. |
+| [Add](../../aspose.cells.properties/custompropertycollection/add)(string, string) | Добавляет информацию о пользовательском свойстве. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(CustomProperty) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(CustomProperty, IComparer&lt;CustomProperty&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, CustomProperty, IComparer&lt;CustomProperty&gt;) |  |

@@ -1,14 +1,14 @@
 ---
 title: ShowRowHeaderCaption
 second_title: Aspose.Cells for .NET API 参考
-description: 指示是否在数据透视表中显示行标题标题 指示是否显示字段标题和过滤器下拉列表
+description: 指示是否在数据透视表中显示行标题标题 指示是否显示字段标题和过滤器下拉菜单
 type: docs
 weight: 680
 url: /zh/net/aspose.cells.pivot/pivottable/showrowheadercaption/
 ---
 ## PivotTable.ShowRowHeaderCaption property
 
-指示是否在数据透视表中显示行标题标题 指示是否显示字段标题和过滤器下拉列表
+指示是否在数据透视表中显示行标题标题 指示是否显示字段标题和过滤器下拉菜单
 
 ```csharp
 public bool ShowRowHeaderCaption { get; set; }

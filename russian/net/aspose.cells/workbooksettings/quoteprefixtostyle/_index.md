@@ -1,14 +1,14 @@
 ---
 title: QuotePrefixToStyle
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает будет ли установка свойстваQuotePrefixaspose.cells/style/quoteprefixпри вводе строкового значения которое начинается с одинарной кавычки ячейка
+description: Указывает установлена лиQuotePrefixaspose.cells/style/quoteprefix свойство при вводе строкового значения начинающегося с одинарной кавычки в ячейку
 type: docs
 weight: 360
 url: /ru/net/aspose.cells/workbooksettings/quoteprefixtostyle/
 ---
 ## WorkbookSettings.QuotePrefixToStyle property
 
-Указывает, будет ли установка свойства[`QuotePrefix`](../../style/quoteprefix)при вводе строкового значения (которое начинается с одинарной кавычки) ячейка
+Указывает, установлена ли[`QuotePrefix`](../../style/quoteprefix) свойство при вводе строкового значения (начинающегося с одинарной кавычки) в ячейку
 
 ```csharp
 public bool QuotePrefixToStyle { get; set; }

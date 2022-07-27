@@ -47,7 +47,7 @@ public int AddFieldToArea(GridPivotFieldType fieldType, string fieldName)
 
 ### 返回值
 
-特定字段中的字段位置。如果没有命名为它的字段，则返回-1。
+特定字段中的字段位置。如果没有以它命名的字段，则返回-1。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: CalculationMode
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置 ms excel 中工作簿计算的模式
+description: 获取或设置ms excel中工作簿计算的模式
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/formulasettings/calculationmode/
 ---
 ## FormulaSettings.CalculationMode property
 
-获取或设置 ms excel 中工作簿计算的模式。
+获取或设置ms excel中工作簿计算的模式。
 
 ```csharp
 public CalcModeType CalculationMode { get; set; }
@@ -16,7 +16,7 @@ public CalcModeType CalculationMode { get; set; }
 
 ### 评论
 
-此属性仅用于将设置保存到生成的电子表格文件 所以其他应用程序（例如 ms excel）在加载和操作生成的文件时可能会采取相应的行动。 出于对大多数用户应用程序的性能考虑，我们不会自动计算工作簿中的任何公式， 无论为此属性设置了何种模式。 如果用户需要计算公式，请始终根据需要在不同的对象上调用方法: [`CalculateFormula`](../../workbook/calculateformula),[`CalculateFormula`](../../worksheet/calculateformula), [`Calculate`](../../cell/calculate), ...等。
+此属性仅用于将设置保存到生成的电子表格文件 以便其他应用程序（如 ms excel）在加载和操作生成的文件时可能会采取相应的行动。 对于大多数用户的应用程序的性能考虑，我们不计算任何公式工作簿自动生成， 无论该属性设置什么模式。 如果用户需要计算公式，请始终根据要求在不同对象上调用方法： [`CalculateFormula`](../../workbook/calculateformula) ,[`CalculateFormula`](../../worksheet/calculateformula) , [`Calculate`](../../cell/calculate) , ...等
 
 ### 也可以看看
 

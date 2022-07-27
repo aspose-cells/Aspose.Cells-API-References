@@ -1,14 +1,14 @@
 ---
 title: SetFirstVisibleRow
 second_title: Справочник по Aspose.Cells для .NET API
-description: Установите индекс первой видимой строки представления листа.
+description: Установить индекс первой видимой строки представления листа.
 type: docs
 weight: 1030
 url: /ru/net/aspose.cells.griddesktop/worksheet/setfirstvisiblerow/
 ---
 ## Worksheet.SetFirstVisibleRow method
 
-Установите индекс первой видимой строки представления листа.
+Установить индекс первой видимой строки представления листа.
 
 ```csharp
 public void SetFirstVisibleRow(int row)

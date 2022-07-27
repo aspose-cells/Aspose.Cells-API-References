@@ -1,14 +1,14 @@
 ---
 title: Shape
 second_title: Aspose.Cells for .NET API 参考
-description: 表示渲染时的Shape对象 shape 的所有属性都可以访问
+description: 表示渲染时的Shape 对象 shape 的所有属性都可以访问
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.rendering/drawobject/shape/
 ---
 ## DrawObject.Shape property
 
-表示渲染时的Shape对象。 shape 的所有属性都可以访问。
+表示渲染时的Shape 对象。 shape 的所有属性都可以访问。
 
 ```csharp
 public Shape Shape { get; }

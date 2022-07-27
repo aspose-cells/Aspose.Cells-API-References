@@ -1,14 +1,14 @@
 ---
 title: FontName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Будет применена настройка имени шрифта.
+description: Будет применена настройка имени шрифта .
 type: docs
 weight: 130
 url: /ru/net/aspose.cells/styleflag/fontname/
 ---
 ## StyleFlag.FontName property
 
-Будет применена настройка имени шрифта.
+Будет применена настройка имени шрифта .
 
 ```csharp
 public bool FontName { get; set; }

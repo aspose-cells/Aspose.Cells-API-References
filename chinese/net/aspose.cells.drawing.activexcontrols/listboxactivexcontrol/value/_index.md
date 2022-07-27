@@ -16,7 +16,7 @@ public string Value { get; set; }
 
 ### 评论
 
-仅在ListBoxActiveXControl时有效。SelectionType是 SelectionType.Single；
+仅在以下情况下生效[`SelectionType`](../selectiontype)是 SelectionType.Single;
 
 ### 也可以看看
 

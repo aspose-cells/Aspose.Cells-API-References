@@ -1,14 +1,14 @@
 ---
 title: BorderLineColor
 second_title: Aspose.Cells for .NET API 参考
-description: 表示图片边框线的Color
+description: 代表Color图片的边界线
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.griddesktop.data/gridpicture/borderlinecolor/
 ---
 ## GridPicture.BorderLineColor property
 
-表示图片边框线的Color。
+代表Color图片的边界线。
 
 ```csharp
 public Color BorderLineColor { get; set; }

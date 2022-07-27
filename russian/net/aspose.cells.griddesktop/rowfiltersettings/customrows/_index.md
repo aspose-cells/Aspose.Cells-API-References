@@ -1,14 +1,14 @@
 ---
 title: CustomRows
 second_title: Справочник по Aspose.Cells для .NET API
-description: Фильтрует список по заданным критериям.
+description: Фильтрует список с пользовательскими критериями.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.griddesktop/rowfiltersettings/customrows/
 ---
 ## CustomRows(int, GridFilterOperatorType, object) {#customrows}
 
-Фильтрует список по заданным критериям.
+Фильтрует список с пользовательскими критериями.
 
 ```csharp
 public void CustomRows(int column, GridFilterOperatorType operatorType1, object criteria1)
@@ -16,8 +16,8 @@ public void CustomRows(int column, GridFilterOperatorType operatorType1, object 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| column | Int32 | Столбец листа |
-| operatorType1 | GridFilterOperatorType | Фильтр тип оператора |
+| column | Int32 | Столбец рабочего листа |
+| operatorType1 | GridFilterOperatorType | Тип оператора фильтра |
 | criteria1 | Object | Пользовательские критерии |
 
 ### Смотрите также
@@ -31,7 +31,7 @@ public void CustomRows(int column, GridFilterOperatorType operatorType1, object 
 
 ## CustomRows(int, GridFilterOperatorType, object, bool, GridFilterOperatorType, object) {#customrows_1}
 
-Фильтрует список по заданным критериям.
+Фильтрует список с пользовательскими критериями.
 
 ```csharp
 public void CustomRows(int column, GridFilterOperatorType operatorType1, object criteria1, 
@@ -40,8 +40,8 @@ public void CustomRows(int column, GridFilterOperatorType operatorType1, object 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| column | Int32 | Столбец листа |
-| operatorType1 | GridFilterOperatorType | Фильтр тип оператора |
+| column | Int32 | Столбец рабочего листа |
+| operatorType1 | GridFilterOperatorType | Тип оператора фильтра |
 | criteria1 | Object | Пользовательские критерии |
 | isAnd | Boolean |  |
 | operatorType2 | GridFilterOperatorType | Тип оператора фильтра |

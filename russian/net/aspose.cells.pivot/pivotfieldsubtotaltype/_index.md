@@ -1,14 +1,14 @@
 ---
 title: PivotFieldSubtotalType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Краткое описание для PivotFieldSubtotalType.
+description: Сводное описание для PivotFieldSubtotalType.
 type: docs
 weight: 4560
 url: /ru/net/aspose.cells.pivot/pivotfieldsubtotaltype/
 ---
 ## PivotFieldSubtotalType enumeration
 
-Краткое описание для PivotFieldSubtotalType.
+Сводное описание для PivotFieldSubtotalType.
 
 ```csharp
 public enum PivotFieldSubtotalType
@@ -18,14 +18,14 @@ public enum PivotFieldSubtotalType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| None | `0` | Представляет тип промежуточного итога None. |
+| None | `0` | Не представляет тип промежуточного итога. |
 | Automatic | `1` | Представляет автоматический тип промежуточного итога. |
 | Sum | `2` | Представляет тип промежуточного итога Sum. |
 | Count | `4` | Представляет тип промежуточного итога Count. |
 | Average | `8` | Представляет тип среднего промежуточного итога. |
-| Max | `16` | Представляет тип максимального промежуточного итога. |
+| Max | `16` | Представляет максимальный тип промежуточного итога. |
 | Min | `32` | Представляет тип минимального промежуточного итога. |
-| Product | `64` | Представляет тип промежуточного итога продукта. |
+| Product | `64` | Представляет тип промежуточной суммы продукта. |
 | CountNums | `128` | Представляет тип промежуточного итога Count Nums. |
 | Stdev | `256` | Представляет тип промежуточного итога Stdev. |
 | Stdevp | `512` | Представляет тип промежуточного итога Stdevp. |

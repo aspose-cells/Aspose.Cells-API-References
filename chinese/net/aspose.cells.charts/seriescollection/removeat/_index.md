@@ -1,14 +1,14 @@
 ---
 title: RemoveAt
 second_title: Aspose.Cells for .NET API 参考
-description: 在特定索引处的一系列删除
+description: 删除特定索引处的系列
 type: docs
 weight: 100
 url: /zh/net/aspose.cells.charts/seriescollection/removeat/
 ---
 ## SeriesCollection.RemoveAt method
 
-在特定索引处的一系列删除。
+删除特定索引处的系列。
 
 ```csharp
 public void RemoveAt(int index)
@@ -16,7 +16,7 @@ public void RemoveAt(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 索引。 |
+| index | Int32 | 指数。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: InterruptMonitor
 second_title: Aspose.Cells for .NET API 参考
-description: 代表所有关于中断的操作符
+description: 代表所有关于中断的算子
 type: docs
 weight: 3910
 url: /zh/net/aspose.cells/interruptmonitor/
 ---
 ## InterruptMonitor class
 
-代表所有关于中断的操作符。
+代表所有关于中断的算子。
 
 ```csharp
 public class InterruptMonitor : AbstractInterruptMonitor
@@ -25,13 +25,13 @@ public class InterruptMonitor : AbstractInterruptMonitor
 | 姓名 | 描述 |
 | --- | --- |
 | override [IsInterruptionRequested](../../aspose.cells/interruptmonitor/isinterruptionrequested) { get; } | 将监视器标记为请求中断 |
-| virtual [TerminateWithoutException](../../aspose.cells/abstractinterruptmonitor/terminatewithoutexception) { get; } | 当程序被中断时，是安静地终止程序还是抛出异常。 默认为假，即当[`IsInterruptionRequested`](../abstractinterruptmonitor/isinterruptionrequested)为真时， a[`CellsException`](../cellsexception)代码Interrupted将被抛出。 |
+| virtual [TerminateWithoutException](../../aspose.cells/abstractinterruptmonitor/terminatewithoutexception) { get; } | 程序被中断时，是静默终止程序还是抛出异常。 默认为false，即当[`IsInterruptionRequested`](../abstractinterruptmonitor/isinterruptionrequested)是真的， a[`CellsException`](../cellsexception)带代码Interrupted将被抛出。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Interrupt](../../aspose.cells/interruptmonitor/interrupt)() | 中断当前操作符。 |
+| [Interrupt](../../aspose.cells/interruptmonitor/interrupt)() | 中断当前操作员。 |
 
 ### 也可以看看
 

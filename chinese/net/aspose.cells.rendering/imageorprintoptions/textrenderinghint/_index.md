@@ -1,14 +1,14 @@
 ---
 title: TextRenderingHint
 second_title: Aspose.Cells for .NET API 参考
-description: 指定文本渲染的质量 默认值为 TextRenderingHint.SystemDefault
+description: 指定文本渲染的质量 默认值为TextRenderingHint.SystemDefault
 type: docs
 weight: 310
 url: /zh/net/aspose.cells.rendering/imageorprintoptions/textrenderinghint/
 ---
 ## ImageOrPrintOptions.TextRenderingHint property
 
-指定文本渲染的质量。 默认值为 TextRenderingHint.SystemDefault
+指定文本渲染的质量。 默认值为TextRenderingHint.SystemDefault
 
 ```csharp
 public TextRenderingHint TextRenderingHint { get; set; }

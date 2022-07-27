@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получить или установить цвет этого DataBar.
+description: Получить или установить цвет этой панели данных.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells/databar/color/
 ---
 ## DataBar.Color property
 
-Получить или установить цвет этого DataBar.
+Получить или установить цвет этой панели данных.
 
 ```csharp
 public Color Color { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: BuiltInDocumentProperties
 second_title: Aspose.Cells for .NET API 参考
-description: 返回代表电子表格所有内置文档属性的DocumentPropertyaspose.cells.properties/documentproperty集合
+description: 返回一个DocumentPropertyaspose.cells.properties/documentproperty表示电子表格的所有内置文档属性的集合
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.metadata/workbookmetadata/builtindocumentproperties/
 ---
 ## WorkbookMetadata.BuiltInDocumentProperties property
 
-返回代表电子表格所有内置文档属性的[`DocumentProperty`](../../../aspose.cells.properties/documentproperty)集合。
+返回一个[`DocumentProperty`](../../../aspose.cells.properties/documentproperty)表示电子表格的所有内置文档属性的集合。
 
 ```csharp
 public BuiltInDocumentPropertyCollection BuiltInDocumentProperties { get; }

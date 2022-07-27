@@ -21,7 +21,7 @@ public class CellCopyComboBoxEventArgs : EventArgs
 | [Column](../../aspose.cells.griddesktop/cellcopycomboboxeventargs/column) { get; } | 获取工作表的列索引。 |
 | [ComboBoxItems](../../aspose.cells.griddesktop/cellcopycomboboxeventargs/comboboxitems) { get; } | 获取一个对象，该对象表示此 ComboBox 中包含的项目的集合。 |
 | [comboBoxValues](../../aspose.cells.griddesktop/cellcopycomboboxeventargs/comboboxvalues) { get; } | 获取一个对象，该对象表示此 ComboBox 中包含的值的集合。 |
-| [Handled](../../aspose.cells.griddesktop/cellcopycomboboxeventargs/handled) { get; set; } | 获取或设置指示是否应处理事件的值。 |
+| [Handled](../../aspose.cells.griddesktop/cellcopycomboboxeventargs/handled) { get; set; } | 获取或设置是否应该处理事件的值。 |
 | [Row](../../aspose.cells.griddesktop/cellcopycomboboxeventargs/row) { get; } | 获取工作表的行索引。 |
 
 ### 也可以看看

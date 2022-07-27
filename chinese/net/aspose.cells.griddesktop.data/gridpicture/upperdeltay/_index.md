@@ -1,14 +1,14 @@
 ---
 title: UpperDeltaY
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置形状与其左上角行的垂直偏移量  取值范围为 0 到 256
+description: 获取或设置形状与其左上角行的垂直偏移量 值的范围是 0 到 256
 type: docs
 weight: 540
 url: /zh/net/aspose.cells.griddesktop.data/gridpicture/upperdeltay/
 ---
 ## GridPicture.UpperDeltaY property
 
-获取或设置形状与其左上角行的垂直偏移量。  取值范围为 0 到 256。
+获取或设置形状与其左上角行的垂直偏移量。 值的范围是 0 到 256。
 
 ```csharp
 public int UpperDeltaY { get; set; }

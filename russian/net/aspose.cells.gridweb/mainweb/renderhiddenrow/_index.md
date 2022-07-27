@@ -1,14 +1,14 @@
 ---
 title: RenderHiddenRow
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает отображается ли скрытая строка в GridControl значение по умолчанию  false. если вам нужно отобразить последнюю скрытую строку вы должны установить ее как true
+description: Получает или задает отображается ли скрытая строка в GridControl значение по умолчанию  false.  если вам нужно отобразить скрытую строку позже вы должны установить ее как true
 type: docs
 weight: 750
 url: /ru/net/aspose.cells.gridweb/mainweb/renderhiddenrow/
 ---
 ## MainWeb.RenderHiddenRow property
 
-Получает или задает, отображается ли скрытая строка в GridControl, значение по умолчанию — false. если вам нужно отобразить последнюю скрытую строку, вы должны установить ее как true
+Получает или задает, отображается ли скрытая строка в GridControl, значение по умолчанию — false. , если вам нужно отобразить скрытую строку позже, вы должны установить ее как true
 
 ```csharp
 public bool RenderHiddenRow { get; set; }

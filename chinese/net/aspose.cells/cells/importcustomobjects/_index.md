@@ -3,7 +3,7 @@ title: ImportCustomObjects
 second_title: Aspose.Cells for .NET API 参考
 description: 导入自定义对象
 type: docs
-weight: 960
+weight: 970
 url: /zh/net/aspose.cells/cells/importcustomobjects/
 ---
 ## ImportCustomObjects(ICollection, string[], bool, int, int, int, bool, string, bool) {#importcustomobjects_1}
@@ -56,7 +56,7 @@ public int ImportCustomObjects(ICollection list, int firstRow, int firstColumn,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | list | ICollection | 自定义对象 |
-| firstRow | Int32 | 的行号要导入的第一个单元格。 |
+| firstRow | Int32 | 要导入的第一个单元格的行号。 |
 | firstColumn | Int32 | 要导入的第一个单元格的列号。 |
 | options | ImportTableOptions | 导入选项。 |
 

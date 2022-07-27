@@ -33,7 +33,7 @@ public class DefaultEmptyStyle
 | [HAlignment](../../aspose.cells.griddesktop.data/defaultemptystyle/halignment) |  |
 | [NumberFormat](../../aspose.cells.griddesktop.data/defaultemptystyle/numberformat) |  |
 | [PatternColor](../../aspose.cells.griddesktop.data/defaultemptystyle/patterncolor) |  |
-| [Shrink](../../aspose.cells.griddesktop.data/defaultemptystyle/shrink) | Получает или задает атрибут Shrink to fit. |
+| [Shrink](../../aspose.cells.griddesktop.data/defaultemptystyle/shrink) | Получает или задает сжатие по размеру атрибута. |
 | [TextWrapped](../../aspose.cells.griddesktop.data/defaultemptystyle/textwrapped) |  |
 | [VAlignment](../../aspose.cells.griddesktop.data/defaultemptystyle/valignment) |  |
 

@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает имя листа.
+description: Получает имя рабочего листа.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.revisions/revisioninsertsheet/name/
 ---
 ## RevisionInsertSheet.Name property
 
-Получает имя листа.
+Получает имя рабочего листа.
 
 ```csharp
 public string Name { get; }

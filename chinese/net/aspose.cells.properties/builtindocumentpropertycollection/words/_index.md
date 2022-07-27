@@ -1,14 +1,14 @@
 ---
 title: Words
 second_title: Aspose.Cells for .NET API 参考
-description: 表示文档中字数的估计值
+description: 表示文档中单词数的估计值
 type: docs
 weight: 300
 url: /zh/net/aspose.cells.properties/builtindocumentpropertycollection/words/
 ---
 ## BuiltInDocumentPropertyCollection.Words property
 
-表示文档中字数的估计值。
+表示文档中单词数的估计值。
 
 ```csharp
 public int Words { get; set; }

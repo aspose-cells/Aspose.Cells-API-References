@@ -1,14 +1,14 @@
 ---
 title: AreaList
 second_title: Aspose.Cells for .NET API 参考
-description: 表示CellArea的集合其中包含数据验证设置
+description: 代表一个集合CellArea其中包含数据验证设置
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.gridweb.data/gridvalidation/arealist/
 ---
 ## GridValidation.AreaList property
 
-表示CellArea的集合，其中包含数据验证设置。
+代表一个集合CellArea其中包含数据验证设置。
 
 ```csharp
 public ArrayList AreaList { get; }
@@ -16,7 +16,7 @@ public ArrayList AreaList { get; }
 
 ### 评论
 
-如果直接将 are 添加到此列表中，则不会删除该区域上的旧 valvidations。
+如果直接添加到此列表中，则不会删除该区域的旧valvidations。
 
 ### 也可以看看
 

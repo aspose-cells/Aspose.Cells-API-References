@@ -16,13 +16,13 @@ public int Add(PivotTable pivot, string destCellName, string baseFieldName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pivot | PivotTable | PivotTable object |
+| pivot | PivotTable | Объект сводной таблицы |
 | destCellName | String | Ячейка в верхнем левом углу диапазона среза. |
 | baseFieldName | String | Имя PivotField в PivotTable.BaseFields |
 
 ### Возвращаемое значение
 
-Новый добавленный индекс слайсера
+Новый индекс добавления слайсера
 
 ### Примеры
 
@@ -52,14 +52,14 @@ public int Add(PivotTable pivot, int row, int column, string baseFieldName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pivot | PivotTable | PivotTable object |
-| row | Int32 | Индекс строки ячейки в верхнем левом углу диапазона слайсера. |
+| pivot | PivotTable | Объект сводной таблицы |
+| row | Int32 | Индекс строки ячейки в верхнем левом углу диапазона среза. |
 | column | Int32 | Индекс столбца ячейки в верхнем левом углу диапазона среза. |
 | baseFieldName | String | Имя PivotField в PivotTable.BaseFields |
 
 ### Возвращаемое значение
 
-Новый добавленный индекс слайсера
+Новый индекс добавления слайсера
 
 ### Примеры
 
@@ -89,14 +89,14 @@ public int Add(PivotTable pivot, int row, int column, int baseFieldIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pivot | PivotTable | PivotTable object |
-| row | Int32 | Индекс строки ячейки в верхнем левом углу диапазона слайсера. |
+| pivot | PivotTable | Объект сводной таблицы |
+| row | Int32 | Индекс строки ячейки в верхнем левом углу диапазона среза. |
 | column | Int32 | Индекс столбца ячейки в верхнем левом углу диапазона среза. |
 | baseFieldIndex | Int32 | Индекс PivotField в PivotTable.BaseFields |
 
 ### Возвращаемое значение
 
-Новый добавленный индекс слайсера
+Новый индекс добавления слайсера
 
 ### Примеры
 
@@ -126,13 +126,13 @@ public int Add(PivotTable pivot, string destCellName, int baseFieldIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pivot | PivotTable | PivotTable object |
+| pivot | PivotTable | Объект сводной таблицы |
 | destCellName | String | Ячейка в верхнем левом углу диапазона среза. |
 | baseFieldIndex | Int32 | Индекс PivotField в PivotTable.BaseFields |
 
 ### Возвращаемое значение
 
-Новый добавленный индекс слайсера
+Новый индекс добавления слайсера
 
 ### Примеры
 
@@ -162,14 +162,14 @@ public int Add(PivotTable pivot, int row, int column, PivotField baseField)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pivot | PivotTable | PivotTable object |
-| row | Int32 | Индекс строки ячейки в верхнем левом углу диапазона слайсера. |
+| pivot | PivotTable | Объект сводной таблицы |
+| row | Int32 | Индекс строки ячейки в верхнем левом углу диапазона среза. |
 | column | Int32 | Индекс столбца ячейки в верхнем левом углу диапазона среза. |
-| baseField | PivotField | Сводное поле в PivotTable.BaseFields |
+| baseField | PivotField | PivotField в PivotTable.BaseFields |
 
 ### Возвращаемое значение
 
-Новый добавленный индекс слайсера
+Новый индекс добавления слайсера
 
 ### Примеры
 
@@ -200,13 +200,13 @@ public int Add(PivotTable pivot, string destCellName, PivotField baseField)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pivot | PivotTable | PivotTable object |
+| pivot | PivotTable | Объект сводной таблицы |
 | destCellName | String | Ячейка в верхнем левом углу диапазона среза. |
-| baseField | PivotField | Сводное поле в PivotTable.BaseFields |
+| baseField | PivotField | PivotField в PivotTable.BaseFields |
 
 ### Возвращаемое значение
 
-Новый добавленный индекс слайсера
+Новый индекс добавления слайсера
 
 ### Примеры
 
@@ -237,13 +237,13 @@ public int Add(ListObject table, int index, string destCellName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| table | ListObject | ListObject object |
+| table | ListObject | Объект ListObject |
 | index | Int32 | Индекс ListColumn в ListObject.ListColumns |
-| destCellName | String | Ячейка в верхнем -левый угол диапазона Slicer. |
+| destCellName | String | Ячейка в верхнем левом углу диапазона среза. |
 
 ### Возвращаемое значение
 
-Новый добавленный индекс слайсера
+Новый индекс добавления слайсера
 
 ### Примеры
 
@@ -273,13 +273,13 @@ public int Add(ListObject table, ListColumn listColumn, string destCellName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| table | ListObject | ListObject object |
+| table | ListObject | Объект ListObject |
 | listColumn | ListColumn | ListColumn в ListObject.ListColumns |
-| destCellName | String | Ячейка в левом верхнем углу угол диапазона Slicer. |
+| destCellName | String | Ячейка в верхнем левом углу диапазона среза. |
 
 ### Возвращаемое значение
 
-Новый добавленный индекс слайсера
+Новый индекс добавления слайсера
 
 ### Примеры
 
@@ -310,14 +310,14 @@ public int Add(ListObject table, ListColumn listColumn, int row, int column)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| table | ListObject | ListObject object |
+| table | ListObject | Объект ListObject |
 | listColumn | ListColumn | ListColumn в ListObject.ListColumns |
-| row | Int32 | Индекс строки ячейки в верхний левый угол диапазона Slicer. |
+| row | Int32 | Индекс строки ячейки в верхнем левом углу диапазона среза. |
 | column | Int32 | Индекс столбца ячейки в верхнем левом углу диапазона среза. |
 
 ### Возвращаемое значение
 
-Новый добавленный индекс слайсера
+Новый индекс добавления слайсера
 
 ### Примеры
 

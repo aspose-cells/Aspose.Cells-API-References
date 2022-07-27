@@ -1,14 +1,14 @@
 ---
 title: ShowTabs
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получите или задайте значение указывающее отображаются ли вкладки рабочей книги.
+description: Получить или установить значение отображаемое ли вкладки рабочей книги.
 type: docs
 weight: 430
 url: /ru/net/aspose.cells/workbooksettings/showtabs/
 ---
 ## WorkbookSettings.ShowTabs property
 
-Получите или задайте значение, указывающее, отображаются ли вкладки рабочей книги.
+Получить или установить значение, отображаемое ли вкладки рабочей книги.
 
 ```csharp
 public bool ShowTabs { get; set; }
@@ -16,7 +16,7 @@ public bool ShowTabs { get; set; }
 
 ### Примечания
 
-Значение по умолчанию — true.
+Значение по умолчанию верно.
 
 ### Примеры
 
@@ -24,12 +24,12 @@ public bool ShowTabs { get; set; }
 
 ```csharp
 // Скрыть вкладки электронной таблицы.
-rkbook.Settings.ShowTabs = false;
+workbook.Settings.ShowTabs = false;
+ 
+[Visual Basic]
 
-isual Basic]
-
-Скрыть вкладки электронной таблицы.
-rkbook.Settings.ShowTabs = False
+' Скрыть вкладки электронной таблицы.
+workbook.Settings.ShowTabs = False
 ```
 
 ### Смотрите также

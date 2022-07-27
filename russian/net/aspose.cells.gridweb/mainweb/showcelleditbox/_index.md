@@ -1,14 +1,14 @@
 ---
 title: ShowCellEditBox
 second_title: Справочник по Aspose.Cells для .NET API
-description: показывает ли Gridweb панель инструментов поля редактирования как в MS-EXCEL. Если включено поле редактирования для текущей ячейки будет отображаться в Gridweb. если мы включим эту функцию нам нужно импортировать библиотеку jquery js в ваши файлы aspx для поддержки этой новой функции. все последние версии jquery в порядке. и т. д. ltscript typetext/javascript srchttp//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.jsgtlt/scriptgt
+description: показывает ли Gridweb панель инструментов поля редактирования как в MS-EXCEL. Если включено поле редактирования для текущей ячейки будет отображаться в Gridweb. если мы включим эту функцию нам нужно импортировать библиотеку jquery js в ваши файлы aspx для поддержки этой новой функции. все последние версии jquery в порядке. и т.п.
 type: docs
 weight: 880
 url: /ru/net/aspose.cells.gridweb/mainweb/showcelleditbox/
 ---
 ## MainWeb.ShowCellEditBox property
 
-показывает ли Gridweb панель инструментов поля редактирования, как в MS-EXCEL. Если включено, поле редактирования для текущей ячейки будет отображаться в Gridweb. если мы включим эту функцию, нам нужно импортировать библиотеку jquery js в ваши файлы aspx для поддержки этой новой функции. все последние версии jquery в порядке. и т. д. &lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.js"&gt;&lt;/script&gt;
+показывает ли Gridweb панель инструментов поля редактирования, как в MS-EXCEL. Если включено, поле редактирования для текущей ячейки будет отображаться в Gridweb. если мы включим эту функцию, нам нужно импортировать библиотеку jquery js в ваши файлы aspx для поддержки этой новой функции. все последние версии jquery в порядке. и т.п.
 
 ```csharp
 public bool ShowCellEditBox { get; set; }

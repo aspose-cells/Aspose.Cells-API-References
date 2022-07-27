@@ -18,25 +18,25 @@ public class Comment
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Author](../../aspose.cells/comment/author) { get; set; } | 获取和设置原始评论作者的姓名 |
-| [AutoSize](../../aspose.cells/comment/autosize) { get; set; } | 指示评论的大小是否根据其内容自动调整。 |
+| [Author](../../aspose.cells/comment/author) { get; set; } | 获取并设置原始评论作者的姓名 |
+| [AutoSize](../../aspose.cells/comment/autosize) { get; set; } | 表示评论的大小是否根据其内容自动调整。 |
 | [Column](../../aspose.cells/comment/column) { get; } | 获取评论的列索引。 |
-| [CommentShape](../../aspose.cells/comment/commentshape) { get; } | 获取表示附加到指定注释的形状的 Shape 对象。 |
-| [Font](../../aspose.cells/comment/font) { get; } | 获取注释的字体。 |
+| [CommentShape](../../aspose.cells/comment/commentshape) { get; } | 获取一个Shape对象，表示附加到指定注释的形状。 |
+| [Font](../../aspose.cells/comment/font) { get; } | 获取评论的字体。 |
 | [Height](../../aspose.cells/comment/height) { get; set; } | 表示评论的高度，以像素为单位。 |
 | [HeightCM](../../aspose.cells/comment/heightcm) { get; set; } | 表示评论的高度，单位为厘米。 |
 | [HeightInch](../../aspose.cells/comment/heightinch) { get; set; } | 表示评论的高度，单位为英寸。 |
-| [HtmlNote](../../aspose.cells/comment/htmlnote) { get; set; } | 获取并设置包含此注释中的数据和某些格式的 html 字符串。 |
-| [IsThreadedComment](../../aspose.cells/comment/isthreadedcomment) { get; } | 指示此评论是否为线程评论。 |
+| [HtmlNote](../../aspose.cells/comment/htmlnote) { get; set; } | 获取并设置包含此评论中的数据和一些格式的html字符串。 |
+| [IsThreadedComment](../../aspose.cells/comment/isthreadedcomment) { get; } | 表示此评论是否为线程评论。 |
 | [IsVisible](../../aspose.cells/comment/isvisible) { get; set; } | 表示评论是否可见。 |
-| [Note](../../aspose.cells/comment/note) { get; set; } | 表示评论的内容。 |
+| [Note](../../aspose.cells/comment/note) { get; set; } | 代表评论的内容。 |
 | [Row](../../aspose.cells/comment/row) { get; } | 获取评论的行索引。 |
-| [TextHorizontalAlignment](../../aspose.cells/comment/texthorizontalalignment) { get; set; } | 获取和设置评论的文本水平对齐类型。 |
+| [TextHorizontalAlignment](../../aspose.cells/comment/texthorizontalalignment) { get; set; } | 获取和设置评论的文本水平对齐方式。 |
 | [TextOrientationType](../../aspose.cells/comment/textorientationtype) { get; set; } | 获取和设置评论的文本方向类型。 |
 | [TextVerticalAlignment](../../aspose.cells/comment/textverticalalignment) { get; set; } | 获取和设置评论的文本垂直对齐类型。 |
 | [ThreadedComments](../../aspose.cells/comment/threadedcomments) { get; } | 获取线程评论列表； |
-| [Width](../../aspose.cells/comment/width) { get; set; } | 表示评论的宽度，以像素为单位。 |
-| [WidthCM](../../aspose.cells/comment/widthcm) { get; set; } | 表示评论的宽度，单位为厘米。 |
+| [Width](../../aspose.cells/comment/width) { get; set; } | 表示注释的宽度，以像素为单位。 |
+| [WidthCM](../../aspose.cells/comment/widthcm) { get; set; } | 表示注释的宽度，单位为厘米。 |
 | [WidthInch](../../aspose.cells/comment/widthinch) { get; set; } | 表示注释的宽度，单位为英寸。 |
 
 ## 方法
@@ -44,7 +44,7 @@ public class Comment
 | 姓名 | 描述 |
 | --- | --- |
 | [Characters](../../aspose.cells/comment/characters)(int, int) | 返回一个 Characters 对象，该对象表示注释文本中的一系列字符。 |
-| [FormatCharacters](../../aspose.cells/comment/formatcharacters)(int, int, Font, StyleFlag) | 用字体设置格式化一些字符。 |
+| [FormatCharacters](../../aspose.cells/comment/formatcharacters)(int, int, Font, StyleFlag) | 使用字体设置格式化一些字符。 |
 | [GetCharacters](../../aspose.cells/comment/getcharacters)() | 返回所有 Characters 对象 表示注释文本中的字符范围。 |
 
 ### 例子
@@ -55,22 +55,20 @@ public class Comment
 Workbook workbook = new Workbook();
 CommentCollection comments = workbook.Worksheets[0].Comments;
 
- //给单元格A1
-
+//给A1单元格添加注释
 int commentIndex1 = comments.Add(0, 0);
 Comment comment1 = comments[commentIndex1];
 comment1.Note = "First note.";
 comment1.Font.Name = "Times New Roman";
 
-//向单元格B2
-
+//给B2单元格添加注释
 comments.Add("B2");
 Comment comment2 = comments["B2"];
 comment2.Note = "Second note.";
 
- //做你的事
+//做你的事
 
- //保存excel文件.
+//保存excel文件。
 workbook.Save("exmaple.xlsx");
 
 [Visual Basic]
@@ -78,15 +76,13 @@ workbook.Save("exmaple.xlsx");
 Dim workbook as Workbook = new Workbook()
 Dim comments as CommentCollection = workbook.Worksheets(0).Comments
  
-'给单元格A1
-
+'向单元格 A1 添加注释
 Dim commentIndex1 as Integer = comments.Add(0, 0)
 Dim comment1 as Comment = comments(commentIndex1)
 comment1.Note = "First note."
 comment1.Font.Name = "Times New Roman"
 
-'向单元格B2
-
+'向单元格 B2 添加注释
 comments.Add("B2")
 Dim comment2 As Comment = comments("B2")
 comment2.Note = "Second note."

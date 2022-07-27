@@ -22,7 +22,7 @@ public class UnionRange
 | [ColumnCount](../../aspose.cells/unionrange/columncount) { get; } | 获取范围内的行数。 |
 | [FirstColumn](../../aspose.cells/unionrange/firstcolumn) { get; } | 获取范围第一列的索引。 |
 | [FirstRow](../../aspose.cells/unionrange/firstrow) { get; } | 获取范围第一行的索引。 |
-| [HasRange](../../aspose.cells/unionrange/hasrange) { get; } | 表示这是否有范围。 |
+| [HasRange](../../aspose.cells/unionrange/hasrange) { get; } | 表示这个是否有范围。 |
 | [Hyperlinks](../../aspose.cells/unionrange/hyperlinks) { get; } | 获取范围内的所有超链接。 |
 | [Name](../../aspose.cells/unionrange/name) { get; set; } | 获取或设置范围的名称。 |
 | [RangeCount](../../aspose.cells/unionrange/rangecount) { get; } | 获取范围的计数。 |
@@ -42,9 +42,9 @@ public class UnionRange
 | [Intersect](../../aspose.cells/unionrange/intersect#intersect_2)(string) | 与另一个范围相交。 |
 | [Intersect](../../aspose.cells/unionrange/intersect#intersect_1)(UnionRange) | 与另一个范围相交。 |
 | [Merge](../../aspose.cells/unionrange/merge)() | 将一系列单元格组合成一个单元格。 |
-| [PutValue](../../aspose.cells/unionrange/putvalue)(string, bool, bool) | 将一个值放入范围，如果合适，该值将转换为其他数据类型，并且单元格的数字格式将被重置。 |
-| [SetOutlineBorders](../../aspose.cells/unionrange/setoutlineborders#setoutlineborders)(CellBorderType, Color) | 围绕具有相同边框样式和颜色的单元格范围设置轮廓边框。 |
-| [SetOutlineBorders](../../aspose.cells/unionrange/setoutlineborders#setoutlineborders_1)(CellBorderType[], Color[]) | 在一系列单元格周围设置线条边界。 |
+| [PutValue](../../aspose.cells/unionrange/putvalue)(string, bool, bool) | 将一个值放入范围内，如果合适，该值将转换为其他数据类型并重置单元格的数字格式。 |
+| [SetOutlineBorders](../../aspose.cells/unionrange/setoutlineborders#setoutlineborders)(CellBorderType, Color) | 围绕具有相同边框样式和颜色的一系列单元格设置轮廓边框。 |
+| [SetOutlineBorders](../../aspose.cells/unionrange/setoutlineborders#setoutlineborders_1)(CellBorderType[], Color[]) | 在一系列单元格周围设置线条边框。 |
 | [SetStyle](../../aspose.cells/unionrange/setstyle)(Style) | 设置范围的样式。 |
 | [Union](../../aspose.cells/unionrange/union#union)(Range[]) | 合并范围。 |
 | [Union](../../aspose.cells/unionrange/union#union_2)(string) | 联合另一个范围。 |

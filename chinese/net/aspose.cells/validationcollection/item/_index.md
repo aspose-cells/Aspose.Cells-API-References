@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定索引处的Validationaspose.cells/validation元素
+description: 获取Validationaspose.cells/validation指定索引处的元素
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/validationcollection/item/
 ---
 ## ValidationCollection indexer
 
-获取指定索引处的[`Validation`](../../validation)元素。
+获取[`Validation`](../../validation)指定索引处的元素。
 
 ```csharp
 public Validation this[int index] { get; }

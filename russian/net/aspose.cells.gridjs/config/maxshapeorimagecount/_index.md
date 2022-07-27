@@ -1,14 +1,14 @@
 ---
 title: MaxShapeOrImageCount
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает/Получает общее количество фигур/изображений на активном листе это займет affec когда IslimitShapestrue
+description: Устанавливает/Получает общее количество фигур/изображений на активном листе это произойдет если IslimitShapestrue
 type: docs
 weight: 90
 url: /ru/net/aspose.cells.gridjs/config/maxshapeorimagecount/
 ---
 ## Config.MaxShapeOrImageCount property
 
-Устанавливает/Получает общее количество фигур/изображений на активном листе, это займет affec, когда IslimitShapes=true
+Устанавливает/Получает общее количество фигур/изображений на активном листе, это произойдет, если IslimitShapes=true
 
 ```csharp
 public static int MaxShapeOrImageCount { get; set; }

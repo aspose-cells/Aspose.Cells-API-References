@@ -16,13 +16,13 @@ public void AddIconFilter(int fieldIndex, IconSetType iconSetType, int iconId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldIndex | Int32 | 要作为过滤器基础的字段的整数偏移量 （从左侧列表的；最左边的字段是字段 0)。 |
+| fieldIndex | Int32 | 您希望作为过滤器 基础的字段的整数偏移量（从列表的左侧开始；最左侧的字段是字段0）。 |
 | iconSetType | IconSetType | 图标集类型。 |
-| iconId | Int32 | 图标 ID。 |
+| iconId | Int32 | 图标标识。 |
 
 ### 评论
 
-仅支持添加图标过滤器。 如果过滤器是图标过滤器，不支持检查哪一行可见。
+只支持添加图标过滤器。 如果过滤器是图标过滤器，不支持检查哪一行可见。
 
 ### 也可以看看
 

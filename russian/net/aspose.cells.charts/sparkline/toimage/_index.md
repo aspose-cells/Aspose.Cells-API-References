@@ -20,7 +20,7 @@ public Bitmap ToImage(ImageOrPrintOptions options)
 
 ### Возвращаемое значение
 
-ВозвращаетBitmapобъект.
+ВозвращаетBitmap объект.
 
 ### Смотрите также
 
@@ -41,7 +41,7 @@ public void ToImage(string fileName, ImageOrPrintOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя файла образа. |
+| fileName | String | Имя файла изображения. |
 | options | ImageOrPrintOptions | Параметры изображения |
 
 ### Смотрите также
@@ -63,8 +63,8 @@ public void ToImage(Stream stream, ImageOrPrintOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток изображения. |
-| options | ImageOrPrintOptions | Параметры изображения. |
+| stream | Stream | Поток изображений. |
+| options | ImageOrPrintOptions | Варианты изображения. |
 
 ### Смотрите также
 

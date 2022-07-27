@@ -1,14 +1,14 @@
 ---
 title: AddAutoFilter
 second_title: Aspose.Cells for .NET API 参考
-description: 设置指定自动筛选应用的范围
+description: 设置应用指定自动筛选的范围
 type: docs
 weight: 430
 url: /zh/net/aspose.cells.griddesktop/worksheet/addautofilter/
 ---
 ## Worksheet.AddAutoFilter method
 
-设置指定自动筛选应用的范围。
+设置应用指定自动筛选的范围。
 
 ```csharp
 public void AddAutoFilter(int row, int startColumn, int endColumn)
@@ -16,7 +16,7 @@ public void AddAutoFilter(int row, int startColumn, int endColumn)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| row | Int32 | 标头 行索引。 |
+| row | Int32 | 标题行索引。 |
 | startColumn | Int32 | 开始列索引。 |
 | endColumn | Int32 | 结束列索引。 |
 

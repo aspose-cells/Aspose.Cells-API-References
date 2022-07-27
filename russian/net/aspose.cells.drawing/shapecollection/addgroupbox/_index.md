@@ -1,14 +1,14 @@
 ---
 title: AddGroupBox
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет GroupBox на рабочий лист.
+description: Добавляет GroupBox на лист.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells.drawing/shapecollection/addgroupbox/
 ---
 ## ShapeCollection.AddGroupBox method
 
-Добавляет GroupBox на рабочий лист.
+Добавляет GroupBox на лист.
 
 ```csharp
 public GroupBox AddGroupBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, 
@@ -18,9 +18,9 @@ public GroupBox AddGroupBox(int upperLeftRow, int top, int upperLeftColumn, int 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| top | Int32 | Представляет вертикальное смещение GroupBox от его левой строки в единицах пикселей. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
-| left | Int32 | Представляет горизонтальное смещение GroupBox от его левого столбца в единицах пикселей. |
+| top | Int32 | Представляет вертикальное смещение GroupBox от его левой строки в пикселях. |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
+| left | Int32 | Представляет горизонтальное смещение GroupBox от его левого столбца в пикселях. |
 | height | Int32 | Представляет высоту GroupBox в пикселях. |
 | width | Int32 | Представляет ширину GroupBox в пикселях. |
 
@@ -33,7 +33,7 @@ public GroupBox AddGroupBox(int upperLeftRow, int top, int upperLeftColumn, int 
 ```csharp
 
 [C#]
-  //добавляем группу box
+//добавляем групповое поле
 GroupBox groupBox = shapes.AddGroupBox(1, 0, 1, 0, 100, 50);
 ```
 

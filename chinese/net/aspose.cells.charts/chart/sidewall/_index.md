@@ -1,14 +1,14 @@
 ---
 title: SideWall
 second_title: Aspose.Cells for .NET API 参考
-description: 返回代表 3-D 图表侧壁的Wallsaspose.cells.charts/chart/walls对象
+description: 返回一个Wallsaspose.cells.charts/chart/walls表示 3-D 图表侧壁的对象
 type: docs
 weight: 400
 url: /zh/net/aspose.cells.charts/chart/sidewall/
 ---
 ## Chart.SideWall property
 
-返回代表 3-D 图表侧壁的[`Walls`](../walls)对象。
+返回一个[`Walls`](../walls)表示 3-D 图表侧壁的对象。
 
 ```csharp
 public Walls SideWall { get; }

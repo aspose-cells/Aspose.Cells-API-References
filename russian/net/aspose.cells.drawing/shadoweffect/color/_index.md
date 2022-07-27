@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает цвет тени.
+description: Получает и устанавливает цвет тени.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.drawing/shadoweffect/color/
 ---
 ## ShadowEffect.Color property
 
-Получает и задает цвет тени.
+Получает и устанавливает цвет тени.
 
 ```csharp
 public CellsColor Color { get; set; }

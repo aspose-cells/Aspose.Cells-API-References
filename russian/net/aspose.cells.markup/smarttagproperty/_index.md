@@ -19,7 +19,7 @@ public class SmartTagProperty
 | Имя | Описание |
 | --- | --- |
 | [Name](../../aspose.cells.markup/smarttagproperty/name) { get; set; } | Получает и задает имя свойства. |
-| [Value](../../aspose.cells.markup/smarttagproperty/value) { get; set; } | Получает и задает значение свойства. |
+| [Value](../../aspose.cells.markup/smarttagproperty/value) { get; set; } | Получает и устанавливает значение свойства. |
 
 ### Смотрите также
 

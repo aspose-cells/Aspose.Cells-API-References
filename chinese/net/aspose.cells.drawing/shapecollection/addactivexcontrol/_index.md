@@ -19,9 +19,9 @@ public Shape AddActiveXControl(ControlType type, int topRow, int top, int leftCo
 | --- | --- | --- |
 | type | ControlType | 控件的类型。 |
 | topRow | Int32 | 左上行索引。 |
-| top | Int32 | 表示Shape从左行的垂直偏移量，以像素为单位。 |
+| top | Int32 | 表示 Shape 与其左行的垂直偏移量，以像素为单位。 |
 | leftColumn | Int32 | 左上列索引。 |
-| left | Int32 | 表示Shape从其左列的水平偏移量，以像素为单位。 |
+| left | Int32 | 表示 Shape 与其左列的水平偏移量，以像素为单位。 |
 | height | Int32 | 表示Shape的高度，以像素为单位。 |
 | width | Int32 | 表示Shape的宽度，以像素为单位。 |
 
@@ -30,7 +30,7 @@ public Shape AddActiveXControl(ControlType type, int topRow, int top, int leftCo
 ```csharp
 
 [C#]
- //添加一个 ActiveX 控件
+//添加一个ActiveX控件
 Shape activeXControl = shapes.AddActiveXControl(Aspose.Cells.Drawing.ActiveXControls.ControlType.CheckBox, 1, 0, 1, 0, 100, 50);
 ```
 

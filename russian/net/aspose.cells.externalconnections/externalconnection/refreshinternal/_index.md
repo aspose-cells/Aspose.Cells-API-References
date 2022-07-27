@@ -1,14 +1,14 @@
 ---
 title: RefreshInternal
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает количество минут между автоматическим обновлением соединения.
+description: Указывает количество минут между автоматическими обновлениями соединения.
 type: docs
 weight: 150
 url: /ru/net/aspose.cells.externalconnections/externalconnection/refreshinternal/
 ---
 ## ExternalConnection.RefreshInternal property
 
-Указывает количество минут между автоматическим обновлением соединения.
+Указывает количество минут между автоматическими обновлениями соединения.
 
 ```csharp
 public int RefreshInternal { get; set; }

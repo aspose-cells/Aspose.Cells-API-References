@@ -1,14 +1,14 @@
 ---
 title: ShapeProperties
 second_title: Aspose.Cells for .NET API 参考
-description: 获取ShapePropertiesaspose.cells.charts/chartframe/shapeproperties对象
+description: 获取ShapePropertiesaspose.cells.charts/chartframe/shapeproperties对象.
 type: docs
 weight: 150
 url: /zh/net/aspose.cells.charts/chartframe/shapeproperties/
 ---
 ## ChartFrame.ShapeProperties property
 
-获取`ShapeProperties`对象。
+获取`ShapeProperties`对象.
 
 ```csharp
 public ShapePropertyCollection ShapeProperties { get; }

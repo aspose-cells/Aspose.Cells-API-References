@@ -1,14 +1,14 @@
 ---
 title: LastSavedTime
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или устанавливает время последнего сохранения в местном часовом поясе.
+description: Получает или задает время последнего сохранения в местном часовом поясе.
 type: docs
 weight: 170
 url: /ru/net/aspose.cells.properties/builtindocumentpropertycollection/lastsavedtime/
 ---
 ## BuiltInDocumentPropertyCollection.LastSavedTime property
 
-Получает или устанавливает время последнего сохранения в местном часовом поясе.
+Получает или задает время последнего сохранения в местном часовом поясе.
 
 ```csharp
 public DateTime LastSavedTime { get; set; }

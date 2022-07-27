@@ -1,14 +1,14 @@
 ---
 title: Border
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получаетborderaspose.cells.drawing/line .
+description: Получаетграницаaspose.cells.drawing/line .
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.charts/marker/border/
 ---
 ## Marker.Border property
 
-Получает[`border`](../../../aspose.cells.drawing/line) .
+Получает[`граница`](../../../aspose.cells.drawing/line) .
 
 ```csharp
 public Line Border { get; }

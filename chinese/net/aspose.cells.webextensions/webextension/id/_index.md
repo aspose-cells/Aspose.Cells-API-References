@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.webextensions/webextension/id/
 ---
 ## WebExtension.Id property
 
-获取和设置当前文档中Office插件实例的唯一标识。
+获取和设置当前文档中Office插件实例的唯一标识
 
 ```csharp
 public string Id { get; set; }

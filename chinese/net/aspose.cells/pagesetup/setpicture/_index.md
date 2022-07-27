@@ -17,14 +17,14 @@ public Picture SetPicture(bool isFirst, bool isEven, bool isHeader, int section,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | isFirst | Boolean | 表示是否设置第一页页眉/页脚的图片。 |
-| isEven | Boolean | 表示是否设置偶数页页眉/页脚图片。 |
-| isHeader | Boolean | 表示是否设置页眉/页脚图片。 |
-| section | Int32 | 0:Left Section。 |
+| isEven | Boolean | 表示是否设置偶数页页眉/页脚的图片。 |
+| isHeader | Boolean | 是否设置页眉/页脚图片。 |
+| section | Int32 | 0：左侧部分，1：中间部分，2：右侧部分。 |
 | imageData | Byte[] | 图像数据。 |
 
 ### 返回值
 
-返回[`Picture`](../../../aspose.cells.drawing/picture)对象。
+退货[`Picture`](../../../aspose.cells.drawing/picture)目的。
 
 ### 也可以看看
 

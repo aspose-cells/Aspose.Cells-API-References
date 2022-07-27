@@ -18,13 +18,13 @@ public class ShapePath
 
 | Имя | Описание |
 | --- | --- |
-| [ShapePath](shapepath)() | Инициализирует новый экземпляр класса[`ShapePath`](../shapepath). |
+| [ShapePath](shapepath)() | Инициализирует новый экземпляр[`ShapePath`](../shapepath) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [PathSegementList](../../aspose.cells.drawing/shapepath/pathsegementlist) { get; } | Получает[`ShapeSegmentPathCollection`](../shapesegmentpathcollection)список |
+| [PathSegementList](../../aspose.cells.drawing/shapepath/pathsegementlist) { get; } | получает[`ShapeSegmentPathCollection`](../shapesegmentpathcollection) список |
 
 ### Смотрите также
 

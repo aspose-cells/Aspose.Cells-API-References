@@ -1,14 +1,14 @@
 ---
 title: Update
 second_title: Aspose.Cells for .NET API 参考
-description: 将命名样式应用于使用此命名样式的单元格的样式 就像在完成样式修改后单击确定按钮一样 仅适用于命名样式
+description: 将命名样式应用于使用此命名样式的单元格的样式 完成修改样式后就像单击确定按钮一样 仅适用于命名样式
 type: docs
 weight: 400
 url: /zh/net/aspose.cells/style/update/
 ---
 ## Style.Update method
 
-将命名样式应用于使用此命名样式的单元格的样式。 就像在完成样式修改后单击“确定”按钮一样。 仅适用于命名样式。
+将命名样式应用于使用此命名样式的单元格的样式。 完成修改样式后，就像单击“确定”按钮一样。 仅适用于命名样式。
 
 ```csharp
 public void Update()

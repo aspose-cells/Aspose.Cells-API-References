@@ -24,16 +24,16 @@ public class GridValidation
 
 | Имя | Описание |
 | --- | --- |
-| [AreaList](../../aspose.cells.gridweb.data/gridvalidation/arealist) { get; } | Представляет коллекциюCellArea, которая содержит параметры проверки данных. |
+| [AreaList](../../aspose.cells.gridweb.data/gridvalidation/arealist) { get; } | Представляет наборCellArea который содержит настройки проверки данных. |
 | [ClientValidationFunction](../../aspose.cells.gridweb.data/gridvalidation/clientvalidationfunction) { get; set; } | Получает или задает имя функции JavaScript проверки клиента. |
 | [ErrorMessage](../../aspose.cells.gridweb.data/gridvalidation/errormessage) { get; set; } | Представляет сообщение об ошибке проверки данных. |
 | [ErrorTitle](../../aspose.cells.gridweb.data/gridvalidation/errortitle) { get; set; } | Представляет заголовок диалогового окна ошибки проверки данных. |
 | [Formula1](../../aspose.cells.gridweb.data/gridvalidation/formula1) { get; set; } | Представляет значение или выражение, связанное с проверкой данных. |
 | [Formula2](../../aspose.cells.gridweb.data/gridvalidation/formula2) { get; set; } | Представляет значение или выражение, связанное со второй частью проверки данных. |
 | [InputMessage](../../aspose.cells.gridweb.data/gridvalidation/inputmessage) { get; set; } | Представляет сообщение об ошибке проверки данных. |
-| [InputTitle](../../aspose.cells.gridweb.data/gridvalidation/inputtitle) { get; set; } | Представляет заголовок диалогового окна ввода данных проверки. |
+| [InputTitle](../../aspose.cells.gridweb.data/gridvalidation/inputtitle) { get; set; } | Представляет заголовок диалогового окна ввода данных для проверки данных. |
 | [IsRequired](../../aspose.cells.gridweb.data/gridvalidation/isrequired) { get; set; } |  |
-| [Operator](../../aspose.cells.gridweb.data/gridvalidation/operator) { get; set; } | Представляет оператор проверки данных. |
+| [Operator](../../aspose.cells.gridweb.data/gridvalidation/operator) { get; set; } | Представляет оператора для проверки данных. |
 | [RegEx](../../aspose.cells.gridweb.data/gridvalidation/regex) { get; set; } | Получает или задает строку регулярного выражения. |
 | [ShowError](../../aspose.cells.gridweb.data/gridvalidation/showerror) { get; set; } | Указывает, будет ли отображаться сообщение об ошибке проверки данных всякий раз, когда пользователь вводит недопустимые данные. |
 | [ShowInput](../../aspose.cells.gridweb.data/gridvalidation/showinput) { get; set; } |  |
@@ -45,12 +45,12 @@ public class GridValidation
 
 | Имя | Описание |
 | --- | --- |
-| [AddACell](../../aspose.cells.gridweb.data/gridvalidation/addacell#addacell_1)(string) | добавьте настройки проверки в ячейку. |
-| [AddACell](../../aspose.cells.gridweb.data/gridvalidation/addacell#addacell)(int, int) | добавьте настройки проверки в ячейку. |
+| [AddACell](../../aspose.cells.gridweb.data/gridvalidation/addacell#addacell_1)(string) | добавить параметры проверки в ячейку. |
+| [AddACell](../../aspose.cells.gridweb.data/gridvalidation/addacell#addacell)(int, int) | добавить параметры проверки в ячейку. |
 | [AddArea](../../aspose.cells.gridweb.data/gridvalidation/addarea)(GridCellArea) | Применяет проверку к области. |
 | [GetListValue](../../aspose.cells.gridweb.data/gridvalidation/getlistvalue)(int, int) | Получить значение списка проверки для указанной ячейки. |
-| [LoadValueList](../../aspose.cells.gridweb.data/gridvalidation/loadvaluelist)(DataView, string, string, bool) | Загружает список значений из объекта DataView. Вы можете указать поле значения и текстовое поле DataView. Каждая пара значения и текста будет объединена в одну строку с запятой между ними. |
-| [RemoveACell](../../aspose.cells.gridweb.data/gridvalidation/removeacell)(int, int) | Удалите настройки проверки в ячейке. |
+| [LoadValueList](../../aspose.cells.gridweb.data/gridvalidation/loadvaluelist)(DataView, string, string, bool) | Загружает список значений из объекта DataView. Вы можете указать поле значения и текстовое поле DataView. Каждое значение и текстовая пара будут объединены в одну строку с запятой между ними. |
+| [RemoveACell](../../aspose.cells.gridweb.data/gridvalidation/removeacell)(int, int) | Удалить настройки проверки в ячейке. |
 | [RemoveArea](../../aspose.cells.gridweb.data/gridvalidation/removearea)(GridCellArea) | Удалить настройки проверки в диапазоне. |
 
 ## Поля

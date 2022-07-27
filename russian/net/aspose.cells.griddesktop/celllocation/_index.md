@@ -25,15 +25,15 @@ public class CellLocation
 
 | Имя | Описание |
 | --- | --- |
-| [Column](../../aspose.cells.griddesktop/celllocation/column) { get; set; } | Получает или задает столбец расположения ячейки. |
-| [Row](../../aspose.cells.griddesktop/celllocation/row) { get; set; } | Получает или задает строку расположения ячейки. |
+| [Column](../../aspose.cells.griddesktop/celllocation/column) { get; set; } | Получает или задает столбец местоположения ячейки. |
+| [Row](../../aspose.cells.griddesktop/celllocation/row) { get; set; } | Получает или задает строку местоположения ячейки. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.cells.griddesktop/celllocation/equals)(object) | Определяет, равен ли указанный объект текущему объекту. |
-| override [GetHashCode](../../aspose.cells.griddesktop/celllocation/gethashcode)() | Служит хеш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица. |
+| override [GetHashCode](../../aspose.cells.griddesktop/celllocation/gethashcode)() | Служит хеш-функцией для определенного типа, подходящей для использования в алгоритмах хэширования и структурах данных, таких как хэш-таблица. |
 | override [ToString](../../aspose.cells.griddesktop/celllocation/tostring)() | Переопределить ToString() объекта. |
 | [operator ==](../../aspose.cells.griddesktop/celllocation/op_equality) | Оператор перегрузки == |
 | [operator !=](../../aspose.cells.griddesktop/celllocation/op_inequality) | Оператор перегрузки != |

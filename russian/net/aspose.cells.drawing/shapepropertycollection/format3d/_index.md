@@ -1,14 +1,14 @@
 ---
 title: Format3D
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет объект определяющий свойства трехмерной формы для элемента диаграммы или фигуры.
+description: Представляет объект задающий свойства 3D-фигуры для элемента или фигуры диаграммы.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.drawing/shapepropertycollection/format3d/
 ---
 ## ShapePropertyCollection.Format3D property
 
-Представляет объект, определяющий свойства трехмерной формы для элемента диаграммы или фигуры.
+Представляет объект, задающий свойства 3D-фигуры для элемента или фигуры диаграммы.
 
 ```csharp
 public Format3D Format3D { get; }

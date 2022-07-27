@@ -1,14 +1,14 @@
 ---
 title: Operator
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет оператор проверки данных.
+description: Представляет оператора для проверки данных.
 type: docs
 weight: 150
 url: /ru/net/aspose.cells.griddesktop.data/gridvalidation/operator/
 ---
 ## GridValidation.Operator property
 
-Представляет оператор проверки данных.
+Представляет оператора для проверки данных.
 
 ```csharp
 public GridOperatorType Operator { get; set; }

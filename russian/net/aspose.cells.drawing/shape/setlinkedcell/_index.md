@@ -17,7 +17,7 @@ public void SetLinkedCell(string formula, bool isR1C1, bool isLocal)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | formula | String | Диапазон, связанный со значением элемента управления. |
-| isR1C1 | Boolean | Необходимо ли форматировать формулу как R1C1. |
+| isR1C1 | Boolean | Нужно ли форматировать формулу как R1C1. |
 | isLocal | Boolean | Нужно ли форматировать формулу по локали. |
 
 ### Примеры
@@ -25,15 +25,15 @@ public void SetLinkedCell(string formula, bool isR1C1, bool isLocal)
 ```csharp
 
 [C#]
-  //После выполнения приведенного ниже кода в сгенерированном файле создается объект ScrollBar. При перетаскивании ползунка значение отображается в ячейке A12.
+//После выполнения приведенного ниже кода в сгенерированном файле создается объект ScrollBar. При перетаскивании ползунка значение отображается в ячейке A12.
 
-  //Элементы управления ActiveX
-//Aspose.Cells.Drawing.Shape scrollBar = book.Worksheets[0].Shapes.AddActiveXControl( Aspose.Cells.Drawing.ActiveXControls.ControlType.ScrollBar,2, 0, 2, 0, 30, 130);
+//Элементы управления ActiveX
+// Aspose.Cells.Drawing.Shape scrollBar = book.Worksheets[0].Shapes.AddActiveXControl( Aspose.Cells.Drawing.ActiveXControls.ControlType.ScrollBar,2, 0, 2, 0, 30, 130);
 
-  //Форма Controls
+//Элементы управления формой
 Aspose.Cells.Drawing.Shape scrollBar = book.Worksheets[0].Shapes.AddScrollBar(2, 0, 2, 0, 130, 30);
 
-  //Устанавливает диапазон, связанный со значением элемента управления.
+//Устанавливает диапазон, связанный со значением элемента управления.
 scrollBar.SetLinkedCell("$A$12", false, true);
 
 ```

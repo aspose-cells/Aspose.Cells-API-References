@@ -16,7 +16,7 @@ public BubbleSizeRepresents SizeRepresents { get; set; }
 
 ### Примечания
 
-BubbleSizeRepresents.SizeIsArea означает значение[`BubbleSizes`](../bubblesizes)— площадь пузырька. BubbleSizeRepresents.SizeIsWidth означает, что значение[`BubbleSizes`](../bubblesizes)является шириной пузырька.
+BubbleSizeRepresents.SizeIsArea означает значение[`BubbleSizes`](../bubblesizes) — площадь пузырька. BubbleSizeRepresents.SizeIsWidth означает значение[`BubbleSizes`](../bubblesizes) ширина пузыря.
 
 ### Смотрите также
 

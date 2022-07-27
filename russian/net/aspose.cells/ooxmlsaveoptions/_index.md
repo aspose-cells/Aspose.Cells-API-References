@@ -1,14 +1,14 @@
 ---
 title: OoxmlSaveOptions
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет параметры сохранения файла office open xml.
+description: Представляет варианты сохранения файла office open xml.
 type: docs
 weight: 4370
 url: /ru/net/aspose.cells/ooxmlsaveoptions/
 ---
 ## OoxmlSaveOptions class
 
-Представляет параметры сохранения файла office open xml.
+Представляет варианты сохранения файла office open xml.
 
 ```csharp
 public class OoxmlSaveOptions : SaveOptions
@@ -27,21 +27,21 @@ public class OoxmlSaveOptions : SaveOptions
 | --- | --- |
 | [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder) { get; set; } | Папка с кэшированными файлами используется для хранения больших данных. |
 | [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | Сделайте рабочую книгу пустой после сохранения файла. |
-| [CompressionType](../../aspose.cells/ooxmlsaveoptions/compressiontype) { get; set; } | Получает и устанавливает тип сжатия для файла ooxml. |
+| [CompressionType](../../aspose.cells/ooxmlsaveoptions/compressiontype) { get; set; } | Получает и задает тип сжатия для файла ooxml. |
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | Если true и каталог не существует, каталог будет автоматически создан перед сохранением файла. |
-| [EmbedOoxmlAsOleObject](../../aspose.cells/ooxmlsaveoptions/embedooxmlasoleobject) { get; set; } | Указывает, встраиваются ли файлы Ooxml объекта OleObject в качестве объекта ole. |
-| [EnableZip64](../../aspose.cells/ooxmlsaveoptions/enablezip64) { get; set; } | Всегда используйте расширения ZIP64 при записи zip-архивов, даже если они не нужны. |
-| [ExportCellName](../../aspose.cells/ooxmlsaveoptions/exportcellname) { get; set; } | Указывает, следует ли экспортировать имя ячейки в файл Excel2007 .xlsx (.xlsm, .xltx, .xltm). Если к выходному файлу может обращаться SQL Server DTS, это значение должно быть истинным. Установка значения false значительно повысит производительность и уменьшит размер файла при создании большого файла. Значение по умолчанию — true. |
+| [EmbedOoxmlAsOleObject](../../aspose.cells/ooxmlsaveoptions/embedooxmlasoleobject) { get; set; } | Указывает, встраиваются ли файлы Ooxml OleObject в качестве объекта ole. |
+| [EnableZip64](../../aspose.cells/ooxmlsaveoptions/enablezip64) { get; set; } | Всегда используйте расширения ZIP64 при записи zip-архивов, даже если в этом нет необходимости. |
+| [ExportCellName](../../aspose.cells/ooxmlsaveoptions/exportcellname) { get; set; } | Указывает, следует ли экспортировать имя ячейки в файл Excel2007 .xlsx (.xlsm, .xltx, .xltm). Если выходной файл может быть доступен SQL Server DTS, это значение должно быть true. Установка значения false значительно повысит производительность и уменьшит размер файла при создании большого файла. Значение по умолчанию — true. |
 | [LightCellsDataProvider](../../aspose.cells/ooxmlsaveoptions/lightcellsdataprovider) { get; set; } | Поставщик данных для предоставления данных ячеек для сохранения книги в облегченном режиме. |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Указывает, объединяются ли области условного форматирования и проверки перед сохранением файла. |
-| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Указывает, обновляются ли данные кэша диаграммы |
+| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Указывает, нужно ли обновлять кэш диаграммы data |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Получает формат файла сохранения. |
 | [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | Указывает, выполняется ли сортировка внешних определенных имен перед сохранением файла. |
 | [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | Указывает, выполняется ли сортировка определенных имен перед сохранением файла. |
-| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Указывает, обновляются ли настройки смарт-арта. Значение по умолчанию — false. |
-| [UpdateZoom](../../aspose.cells/ooxmlsaveoptions/updatezoom) { get; set; } | Указывает, следует ли обновлять коэффициент масштабирования перед сохранением файла , если свойства PageSetup.FitToPagesWide и PageSetup.FitToPagesTall управляют масштабированием рабочего листа. |
+| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Указывает, обновляются ли настройки Smart Art. Значение по умолчанию — false. |
+| [UpdateZoom](../../aspose.cells/ooxmlsaveoptions/updatezoom) { get; set; } | Указывает, следует ли обновлять коэффициент масштабирования перед сохранением файла , если свойства PageSetup.FitToPagesWide и PageSetup.FitToPagesTall управляют масштабированием листа. |
 | [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas) { get; set; } | Указывает, следует ли проверять объединенные ячейки перед сохранением файла. |
-| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Получает или устанавливает обратный вызов предупреждения. |
+| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Получает или задает обратный вызов предупреждения. |
 
 ### Смотрите также
 

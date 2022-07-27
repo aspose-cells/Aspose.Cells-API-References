@@ -1,14 +1,14 @@
 ---
 title: EndArrowWidth
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает ширину стрелки для конца строки.
+description: Определяет ширину стрелки для конца строки.
 type: docs
 weight: 90
 url: /ru/net/aspose.cells.drawing/line/endarrowwidth/
 ---
 ## Line.EndArrowWidth property
 
-Задает ширину стрелки для конца строки.
+Определяет ширину стрелки для конца строки.
 
 ```csharp
 public MsoArrowheadWidth EndArrowWidth { get; set; }

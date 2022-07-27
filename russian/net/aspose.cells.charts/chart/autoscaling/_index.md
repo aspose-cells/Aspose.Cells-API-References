@@ -1,14 +1,14 @@
 ---
 title: AutoScaling
 second_title: Справочник по Aspose.Cells для .NET API
-description: Истинно если Microsoft Excel масштабирует трехмерную диаграмму так чтобы ее размер был ближе к эквивалентной двухмерной диаграмме. Свойство RightAngleAxes должно иметь значение True.
+description: Истинно если Microsoft Excel масштабирует трехмерную диаграмму так чтобы ее размер был ближе к эквивалентной двухмерной диаграмме. Свойство RightAngleAxes должно быть равно True.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.charts/chart/autoscaling/
 ---
 ## Chart.AutoScaling property
 
-Истинно, если Microsoft Excel масштабирует трехмерную диаграмму так, чтобы ее размер был ближе к эквивалентной двухмерной диаграмме. Свойство RightAngleAxes должно иметь значение True.
+Истинно, если Microsoft Excel масштабирует трехмерную диаграмму так, чтобы ее размер был ближе к эквивалентной двухмерной диаграмме. Свойство RightAngleAxes должно быть равно True.
 
 ```csharp
 public bool AutoScaling { get; set; }

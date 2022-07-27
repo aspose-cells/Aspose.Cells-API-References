@@ -18,7 +18,7 @@ public enum ColorDepth
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Default | `0` | 默认值，非设置值。 |
+| Default | `0` | 默认值，不是设置值。 |
 | Format1bpp | `1` | 每像素 1 位 |
 | Format4bpp | `4` | 每像素 4 位 |
 | Format8bpp | `8` | 每像素 8 位 |

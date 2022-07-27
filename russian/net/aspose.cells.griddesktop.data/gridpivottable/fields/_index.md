@@ -20,7 +20,7 @@ public GridPivotFieldCollection Fields(GridPivotFieldType fieldType)
 
 ### Возвращаемое значение
 
-определенные поля
+конкретные поля
 
 ### Смотрите также
 

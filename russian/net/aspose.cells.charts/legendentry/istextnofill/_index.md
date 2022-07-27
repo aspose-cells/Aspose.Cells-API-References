@@ -1,14 +1,14 @@
 ---
 title: IsTextNoFill
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает отсутствие заливки текста.
+description: Получает или задает незаполнение текста.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.charts/legendentry/istextnofill/
 ---
 ## LegendEntry.IsTextNoFill property
 
-Получает или задает отсутствие заливки текста.
+Получает или задает незаполнение текста.
 
 ```csharp
 public bool IsTextNoFill { get; set; }

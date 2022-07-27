@@ -1,14 +1,14 @@
 ---
 title: EmbedStandardWindowsFonts
 second_title: Aspose.Cells for .NET API 参考
-description: True 嵌入真字体 仅影响 ASCII 字符 32-127 大于 127 的字符代码的字体总是被嵌入的 PDF/A-1aPDF/A-1b 标准始终嵌入字体 默认为真
+description: True 嵌入真字体 仅影响 ASCII 字符 32-127 始终嵌入大于 127 的字符代码的字体 对于 PDF/A-1aPDF/A-1b 标准始终嵌入字体 默认为 true
 type: docs
 weight: 140
 url: /zh/net/aspose.cells/pdfsaveoptions/embedstandardwindowsfonts/
 ---
 ## PdfSaveOptions.EmbedStandardWindowsFonts property
 
-True 嵌入真字体。 仅影响 ASCII 字符 32-127。 大于 127 的字符代码的字体总是被嵌入的。 PDF/A-1a、PDF/A-1b 标准始终嵌入字体。 默认为真。
+True 嵌入真字体。 仅影响 ASCII 字符 32-127。 始终嵌入大于 127 的字符代码的字体。 对于 PDF/A-1a、PDF/A-1b 标准，始终嵌入字体。 默认为 true。
 
 ```csharp
 public bool EmbedStandardWindowsFonts { get; set; }

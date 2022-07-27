@@ -18,7 +18,7 @@ public class CellsColor
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Argb](../../aspose.cells/cellscolor/argb) { get; set; } | 从 32 位 ARGB 值中获取和设置颜色。 |
+| [Argb](../../aspose.cells/cellscolor/argb) { get; set; } | 从 32 位 ARGB 值获取和设置颜色。 |
 | [Color](../../aspose.cells/cellscolor/color) { get; set; } | 获取和设置 RGB 颜色。 |
 | [ColorIndex](../../aspose.cells/cellscolor/colorindex) { get; set; } | 获取和设置调色板中的颜色索引。仅适用于索引颜色。 |
 | [IsShapeColor](../../aspose.cells/cellscolor/isshapecolor) { get; set; } | 获取并设置应用于单元格或形状的颜色。 |
@@ -30,7 +30,7 @@ public class CellsColor
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SetTintOfShapeColor](../../aspose.cells/cellscolor/settintofshapecolor)(double) | 设置形状颜色的色调 |
+| [SetTintOfShapeColor](../../aspose.cells/cellscolor/settintofshapecolor)(double) | 设置形状颜色的色调 color |
 
 ### 也可以看看
 

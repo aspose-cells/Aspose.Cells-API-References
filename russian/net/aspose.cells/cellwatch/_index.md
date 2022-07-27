@@ -1,14 +1,14 @@
 ---
 title: CellWatch
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет контрольный элемент ячейки в окне просмотра.
+description: Представляет элемент наблюдения за ячейкой в окне наблюдения.
 type: docs
 weight: 280
 url: /ru/net/aspose.cells/cellwatch/
 ---
 ## CellWatch class
 
-Представляет контрольный элемент ячейки в «окне просмотра».
+Представляет элемент наблюдения за ячейкой в «окне наблюдения».
 
 ```csharp
 public class CellWatch

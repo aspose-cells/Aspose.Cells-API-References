@@ -20,7 +20,7 @@ public int Add(ShapePathType type)
 
 ### Возвращаемое значение
 
-Возвращает позицию объекта[`ShapeSegmentPath`](../../shapesegmentpath)в списке.
+Возвращает позицию[`ShapeSegmentPath`](../../shapesegmentpath)объект в списке.
 
 ### Смотрите также
 

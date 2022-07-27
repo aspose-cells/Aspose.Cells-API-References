@@ -1,14 +1,14 @@
 ---
 title: ReconnectionMethodType
 second_title: Aspose.Cells for .NET API 参考
-description: 指定电子表格应用程序在连接失败时应该做什么 默认值为 ReConnectionMethodType.Required
+description: 指定电子表格应用程序在连接失败时应执行的操作 默认值为 ReConnectionMethodType.Required
 type: docs
 weight: 140
 url: /zh/net/aspose.cells.externalconnections/externalconnection/reconnectionmethodtype/
 ---
 ## ExternalConnection.ReconnectionMethodType property
 
-指定电子表格应用程序在连接失败时应该做什么。 默认值为 ReConnectionMethodType.Required。
+指定电子表格应用程序在连接失败时应执行的操作。 默认值为 ReConnectionMethodType.Required。
 
 ```csharp
 public ReConnectionMethodType ReconnectionMethodType { get; set; }

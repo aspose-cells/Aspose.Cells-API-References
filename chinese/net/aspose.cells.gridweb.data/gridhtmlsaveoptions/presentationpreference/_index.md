@@ -1,14 +1,14 @@
 ---
 title: PresentationPreference
 second_title: Aspose.Cells for .NET API 参考
-description: 表示 html 或 mht 文件是呈现偏好默认值为 false如果您想获得 更漂亮的呈现请设置值为真
+description: 表示html或mht文件是否为演示偏好默认值为false如果您想获得 更漂亮的演示请将值设置为true
 type: docs
 weight: 180
 url: /zh/net/aspose.cells.gridweb.data/gridhtmlsaveoptions/presentationpreference/
 ---
 ## GridHtmlSaveOptions.PresentationPreference property
 
-表示 html 或 mht 文件是呈现偏好。默认值为 false。如果您想获得 更漂亮的呈现，请设置值为真。
+表示html或mht文件是否为演示偏好。默认值为false。如果您想获得 更漂亮的演示，请将值设置为true。
 
 ```csharp
 public bool PresentationPreference { get; set; }

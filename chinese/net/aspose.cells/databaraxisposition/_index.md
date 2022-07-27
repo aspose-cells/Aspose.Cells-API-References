@@ -1,14 +1,14 @@
 ---
 title: DataBarAxisPosition
 second_title: Aspose.Cells for .NET API 参考
-description: 指定一系列单元格的轴位置条件格式为数据条
+description: 将条件格式设置为数据条的一系列单元格指定轴位置
 type: docs
 weight: 1250
 url: /zh/net/aspose.cells/databaraxisposition/
 ---
 ## DataBarAxisPosition enumeration
 
-指定一系列单元格的轴位置，条件格式为数据条。
+将条件格式设置为数据条的一系列单元格指定轴位置。
 
 ```csharp
 public enum DataBarAxisPosition
@@ -20,7 +20,7 @@ public enum DataBarAxisPosition
 | --- | --- | --- |
 | Automatic | `0` | 根据范围内最小负值与最大正值之比，在可变位置显示轴。 正值以从左到右的方向显示。 负值以从右到左的方向显示。 当所有值为正或所有值为负时，不显示轴。 |
 | Midpoint | `1` | 在单元格的中点显示轴，无论范围内的值集如何。 正值以从左到右的方向显示。 负值以从右到左的方向显示。 |
-| None | `2` | 不显示轴，从左到右显示正负值。 |
+| None | `2` | 不显示坐标轴，从左到右显示正负值。 |
 
 ### 也可以看看
 

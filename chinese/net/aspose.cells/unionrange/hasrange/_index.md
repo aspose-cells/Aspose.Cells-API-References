@@ -1,14 +1,14 @@
 ---
 title: HasRange
 second_title: Aspose.Cells for .NET API 参考
-description: 表示这是否有范围
+description: 表示这个是否有范围
 type: docs
 weight: 50
 url: /zh/net/aspose.cells/unionrange/hasrange/
 ---
 ## UnionRange.HasRange property
 
-表示这是否有范围。
+表示这个是否有范围。
 
 ```csharp
 public bool HasRange { get; }

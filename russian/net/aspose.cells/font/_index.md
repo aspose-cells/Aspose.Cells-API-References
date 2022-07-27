@@ -18,20 +18,20 @@ public class Font
 
 | Имя | Описание |
 | --- | --- |
-| [ArgbColor](../../aspose.cells/font/argbcolor) { get; set; } | Получает и задает цвет с 32-битным значением ARGB. |
+| [ArgbColor](../../aspose.cells/font/argbcolor) { get; set; } | Получает и устанавливает цвет с 32-битным значением ARGB. |
 | [CapsType](../../aspose.cells/font/capstype) { get; set; } | Получает и устанавливает тип прописных букв. |
 | [Charset](../../aspose.cells/font/charset) { get; set; } | Представляет набор символов. |
-| [Color](../../aspose.cells/font/color) { get; set; } | Получает или задаетColorшрифта. |
-| [DoubleSize](../../aspose.cells/font/doublesize) { get; set; } | Получает и задает двойной размер шрифта. |
+| [Color](../../aspose.cells/font/color) { get; set; } | Получает или задаетColor шрифта. |
+| [DoubleSize](../../aspose.cells/font/doublesize) { get; set; } | Получает и устанавливает двойной размер шрифта. |
 | [IsBold](../../aspose.cells/font/isbold) { get; set; } | Получает или задает значение, указывающее, является ли шрифт полужирным. |
 | [IsItalic](../../aspose.cells/font/isitalic) { get; set; } | Получает или задает значение, указывающее, является ли шрифт курсивным. |
-| [IsNormalizeHeights](../../aspose.cells/font/isnormalizeheights) { get; set; } | Указывает, выполняется ли нормализация высоты, которая должна применяться к тексту. |
+| [IsNormalizeHeights](../../aspose.cells/font/isnormalizeheights) { get; set; } | Указывает, применяется ли нормализация высоты к тексту. |
 | [IsStrikeout](../../aspose.cells/font/isstrikeout) { get; set; } | Получает или задает значение, указывающее, является ли шрифт одинарным перечеркнутым. |
 | [IsSubscript](../../aspose.cells/font/issubscript) { get; set; } | Получает или задает значение, указывающее, является ли шрифт подстрочным. |
 | [IsSuperscript](../../aspose.cells/font/issuperscript) { get; set; } | Получает или задает значение, указывающее, является ли шрифт суперсценарным. |
-| virtual [Name](../../aspose.cells/font/name) { get; set; } | Получает или задает имя шрифта[`Font`](../font). |
+| virtual [Name](../../aspose.cells/font/name) { get; set; } | Получает или задает имя[`Font`](../font) . |
 | [SchemeType](../../aspose.cells/font/schemetype) { get; set; } | Получает и устанавливает тип схемы шрифта. |
-| [ScriptOffset](../../aspose.cells/font/scriptoffset) { get; set; } | Получает и устанавливает смещение скрипта в процентах |
+| [ScriptOffset](../../aspose.cells/font/scriptoffset) { get; set; } | Получает и задает смещение скрипта в процентах |
 | [Size](../../aspose.cells/font/size) { get; set; } | Получает или задает размер шрифта. |
 | [StrikeType](../../aspose.cells/font/striketype) { get; set; } | Получает тип удара текста. |
 | [ThemeColor](../../aspose.cells/font/themecolor) { get; set; } | Получает и устанавливает цвет темы. |
@@ -50,55 +50,55 @@ public class Font
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 
-  //Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
+//Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
 Worksheet worksheet = workbook.Worksheets[0];
 
-  // Доступ к ячейке "A1" из worksheet
+//Доступ к ячейке "A1" из рабочего листа
 Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 
-  //Добавление некоторого значения в "A1" cell
+//Добавление некоторого значения в ячейку "A1"
 cell.PutValue("Hello Aspose!");
 
 Aspose.Cells.Font font = cell.GetStyle().Font;
 
-  //Установка имени шрифта на "Times New Roman"
+//Установка имени шрифта на "Times New Roman"
 font.Name = "Times New Roman";
 
-  //Установка размера шрифта на 14
+//Установка размера шрифта на 14
 font.Size = 14;
 
-  // установка цвета шрифта как Red
+//устанавливаем красный цвет шрифта
 font.Color = System.Drawing.Color.Red;           
 
-  //Сохранение файла Excel
+//Сохранение файла Excel
 workbook.Save(@"dest.xls");
 
 [VB.NET]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
 
-'Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
+'Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-'Доступ к ячейке "A1" из worksheet
+'Accessing the "A1" cell from the worksheet
 Dim cell As Aspose.Cells.Cell = worksheet.Cells("A1")
 
-'Добавление некоторого значения в "A1" cell
+'Adding some value to the "A1" cell
 cell.PutValue("Hello Aspose!")
 
 Dim font As Aspose.Cells.Font = cell.GetStyle().Font
 
-'Установка имени шрифта на "Times New Roman"
+'Setting the font name to "Times New Roman"
 font.Name = "Times New Roman"
 
 'Установка размера шрифта на 14
 font.Size = 14
 
-'установка цвета шрифта как Red
+'установка цвета шрифта как красный
 font.Color = System.Drawing.Color.Red
 
 'Сохранение файла Excel

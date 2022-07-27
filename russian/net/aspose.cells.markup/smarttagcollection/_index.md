@@ -21,7 +21,7 @@ public class SmartTagCollection : CollectionBase<SmartTag>
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Column](../../aspose.cells.markup/smarttagcollection/column) { get; } | Получает столбец смарт-тегов ячейки. |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.markup/smarttagcollection/item) { get; } | Получает объект[`SmartTag`](../smarttag)по указанному индексу |
+| [Item](../../aspose.cells.markup/smarttagcollection/item) { get; } | Получает[`SmartTag`](../smarttag) объект по определенному index |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 | [Row](../../aspose.cells.markup/smarttagcollection/row) { get; } | Получает строку смарт-тегов ячейки. |
 

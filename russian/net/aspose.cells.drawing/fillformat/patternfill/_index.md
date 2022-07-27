@@ -1,14 +1,14 @@
 ---
 title: PatternFill
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПолучаетPatternFillaspose.cells.drawing/fillformat/patternfillобъект.
+description: получаетPatternFillaspose.cells.drawing/fillformat/patternfill объект.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells.drawing/fillformat/patternfill/
 ---
 ## FillFormat.PatternFill property
 
-Получает`PatternFill`объект.
+получает`PatternFill` объект.
 
 ```csharp
 public PatternFill PatternFill { get; }

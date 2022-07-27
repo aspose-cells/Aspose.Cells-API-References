@@ -20,7 +20,7 @@ public int Add(SheetType type)
 
 ### Возвращаемое значение
 
-[`Worksheet`](../../worksheet)индекс объекта.
+[`Worksheet`](../../worksheet) индекс объекта.
 
 ### Примеры
 
@@ -73,7 +73,7 @@ public int Add()
 
 ### Возвращаемое значение
 
-[`Worksheet`](../../worksheet)индекс объекта.
+[`Worksheet`](../../worksheet) индекс объекта.
 
 ### Смотрите также
 
@@ -93,11 +93,11 @@ public Worksheet Add(string sheetName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sheetName | String | Имя листа |
+| sheetName | String | Имя рабочего листа |
 
 ### Возвращаемое значение
 
-[`Worksheet`](../../worksheet)объект.
+[`Worksheet`](../../worksheet) объект.
 
 ### Смотрите также
 

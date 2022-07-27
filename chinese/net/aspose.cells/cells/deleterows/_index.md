@@ -21,7 +21,7 @@ public bool DeleteRows(int rowIndex, int totalRows)
 
 ### 评论
 
-如果删除的范围包含表（ListObject）的顶部（不是全部），则 ranged 无法删除，也不会执行任何操作。它作为 MS Excel 工作。
+如果删除的范围包含表（ListObject）的顶部（不是整个）， 范围不能被删除，不会做任何事情。它像 MS Excel 一样工作。
 
 ### 也可以看看
 

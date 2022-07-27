@@ -1,14 +1,14 @@
 ---
 title: Note
 second_title: Aspose.Cells for .NET API 参考
-description: 表示评论的内容
+description: 代表评论的内容
 type: docs
 weight: 120
 url: /zh/net/aspose.cells/comment/note/
 ---
 ## Comment.Note property
 
-表示评论的内容。
+代表评论的内容。
 
 ```csharp
 public string Note { get; set; }
@@ -16,7 +16,7 @@ public string Note { get; set; }
 
 ### 评论
 
-如果这是线程注释，则无法更改注释，否则 MS Excel 无法处理它作为一个线程评论。
+如果这是一个线程注释，则无法更改注释，否则 MS Excel 无法将其作为线程注释处理。
 
 ### 例子
 

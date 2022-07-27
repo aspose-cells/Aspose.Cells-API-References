@@ -1,14 +1,14 @@
 ---
 title: LineCapType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示一行的大写
+description: 代表一行的大写
 type: docs
 weight: 2210
 url: /zh/net/aspose.cells.drawing/linecaptype/
 ---
 ## LineCapType enumeration
 
-表示一行的大写
+代表一行的大写
 
 ```csharp
 public enum LineCapType
@@ -20,8 +20,8 @@ public enum LineCapType
 | --- | --- | --- |
 | Square | `0` | 正方形突出半线宽。 |
 | Round | `1` | 圆角末端。 |
-| Flat | `2` | 行结束于端点。 |
-| None | `3` | 无上限 |
+| Flat | `2` | 线在终点结束。 |
+| None | `3` | 无 cap |
 
 ### 也可以看看
 

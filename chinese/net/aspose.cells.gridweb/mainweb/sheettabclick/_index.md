@@ -1,14 +1,14 @@
 ---
 title: SheetTabClick
 second_title: Aspose.Cells for .NET API 参考
-description: 单击工作表选项卡时发生
+description: 在单击工作表选项卡时发生
 type: docs
 weight: 1340
 url: /zh/net/aspose.cells.gridweb/mainweb/sheettabclick/
 ---
 ## MainWeb.SheetTabClick event
 
-单击工作表选项卡时发生。
+在单击工作表选项卡时发生。
 
 ```csharp
 public event WorkbookEventHandler SheetTabClick;

@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектFontaspose.cells/style/font.
+description: ПолучаетFontaspose.cells/style/font объект.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells/style/font/
 ---
 ## Style.Font property
 
-Получает объект`Font`.
+Получает`Font` объект.
 
 ```csharp
 public Font Font { get; }

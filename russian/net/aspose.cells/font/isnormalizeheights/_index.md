@@ -1,14 +1,14 @@
 ---
 title: IsNormalizeHeights
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает выполняется ли нормализация высоты которая должна применяться к тексту.
+description: Указывает применяется ли нормализация высоты к тексту.
 type: docs
 weight: 80
 url: /ru/net/aspose.cells/font/isnormalizeheights/
 ---
 ## Font.IsNormalizeHeights property
 
-Указывает, выполняется ли нормализация высоты, которая должна применяться к тексту.
+Указывает, применяется ли нормализация высоты к тексту.
 
 ```csharp
 public bool IsNormalizeHeights { get; set; }

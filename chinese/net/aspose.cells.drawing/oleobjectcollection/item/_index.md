@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定索引处的OleObjectaspose.cells.drawing/oleobject元素
+description: 获取OleObjectaspose.cells.drawing/oleobject指定索引处的元素
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.drawing/oleobjectcollection/item/
 ---
 ## OleObjectCollection indexer
 
-获取指定索引处的[`OleObject`](../../oleobject)元素。
+获取[`OleObject`](../../oleobject)指定索引处的元素。
 
 ```csharp
 public OleObject this[int index] { get; }

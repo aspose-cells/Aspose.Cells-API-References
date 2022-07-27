@@ -21,7 +21,7 @@ public class RevisionFormat : Revision
 | [Areas](../../aspose.cells.revisions/revisionformat/areas) { get; } | 应用此格式的范围。 |
 | [Id](../../aspose.cells.revisions/revision/id) { get; } | 获取此修订的编号。 |
 | [Style](../../aspose.cells.revisions/revisionformat/style) { get; } | 获取应用的样式。 |
-| override [Type](../../aspose.cells.revisions/revisionformat/type) { get; } | 获取修订类型。 |
+| override [Type](../../aspose.cells.revisions/revisionformat/type) { get; } | 获取修订的类型。 |
 | [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | 获取工作表。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: Config
 second_title: Aspose.Cells for .NET API 参考
-description: 表示 GridJs 的所有设置
+description: 代表 GridJs 的所有设置
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.gridjs/config/
 ---
 ## Config class
 
-表示 GridJs 的所有设置
+代表 GridJs 的所有设置
 
 ```csharp
 public class Config
@@ -26,17 +26,17 @@ public class Config
 | --- | --- |
 | static [AutoOptimizeForLargeCells](../../aspose.cells.gridjs/config/autooptimizeforlargecells) { get; set; } |  |
 | static [EmptySheetMaxCol](../../aspose.cells.gridjs/config/emptysheetmaxcol) { get; set; } | 设置/获取空工作表的默认最大列 |
-| static [EmptySheetMaxRow](../../aspose.cells.gridjs/config/emptysheetmaxrow) { get; set; } | 为空工作表设置默认最大行 |
+| static [EmptySheetMaxRow](../../aspose.cells.gridjs/config/emptysheetmaxrow) { get; set; } | 设置空工作表的默认最大行数 |
 | static [FileCacheDirectory](../../aspose.cells.gridjs/config/filecachedirectory) { get; set; } | 设置/获取工作簿文件的缓存目录 |
-| static [IgnoreEmptyContent](../../aspose.cells.gridjs/config/ignoreemptycontent) { get; set; } | 设置是否显示最大范围，包括数据、样式、合并单元格和形状。 默认值为 true 。如果最后一行或最后一列包含没有值和公式但具有自定义样式的单元格 那么当这个值是时我们不会显示这个行/列真 |
-| static [IslimitShapeOrImage](../../aspose.cells.gridjs/config/islimitshapeorimage) { get; set; } | 设置是否限制一个工作表内的总显示形状/图像计数，如果设置为true， GridJs将限制总显示形状/一个工作表内的图像大小为 MaxShapeOrImageCount 默认值为 true |
+| static [IgnoreEmptyContent](../../aspose.cells.gridjs/config/ignoreemptycontent) { get; set; } | 设置是否显示包含数据、样式、合并单元格和形状的最大范围。 默认值为 true。如果最后一行或最后一列包含没有值和公式但具有自定义样式的单元格 则不会显示此值为 true 时的行/列 |
+| static [IslimitShapeOrImage](../../aspose.cells.gridjs/config/islimitshapeorimage) { get; set; } | 设置是否限制一个工作表内的总显示形状/图像数量，如果设置为true， GridJs 会将一个工作表内的总显示形状/图像大小限制为MaxShapeOrImageCount 默认值为true |
 | static [MaxPdfSaveSeconds](../../aspose.cells.gridjs/config/maxpdfsaveseconds) { get; set; } | 设置/获取保存到 pdf 时的最大超时秒数 |
-| static [MaxShapeOrImageCount](../../aspose.cells.gridjs/config/maxshapeorimagecount) { get; set; } | 设置/获取活动工作表内的总显示形状/图像计数，当 IslimitShapes=true 时会受到影响 |
-| static [MaxShapeOrImageWidthOrHeight](../../aspose.cells.gridjs/config/maxshapeorimagewidthorheight) { get; set; } | 设置/获取形状/图像的最大宽度或高度，GridJs将忽略宽度或高度大于此的形状/图像，当IslimitShapes=true |
-| static [MaxTotalShapeOrImageCount](../../aspose.cells.gridjs/config/maxtotalshapeorimagecount) { get; set; } | 设置/获取整个工作簿内的显示形状/图像总数，当 IslimitShapes=true |
-| static [PageSize](../../aspose.cells.gridjs/config/pagesize) { get; set; } | 设置是否分页 GridJs会根据PageSize来限制行大小，如果PageSize为-1则不做分页 默认值为 -1 |
+| static [MaxShapeOrImageCount](../../aspose.cells.gridjs/config/maxshapeorimagecount) { get; set; } | 设置/获取活动工作表内的显示形状/图像总数，当 IslimitShapes=true 时生效 |
+| static [MaxShapeOrImageWidthOrHeight](../../aspose.cells.gridjs/config/maxshapeorimagewidthorheight) { get; set; } | 设置/获取形状/图像的最大宽度或高度，GridJs 将忽略宽度或高度大于此的形状/图像，当 IslimitShapes=true 时会受到影响 |
+| static [MaxTotalShapeOrImageCount](../../aspose.cells.gridjs/config/maxtotalshapeorimagecount) { get; set; } | 设置/获取整个工作簿内的显示形状/图像总数，当 IslimitShapes=true 时会生效 |
+| static [PageSize](../../aspose.cells.gridjs/config/pagesize) { get; set; } | 设置是否分页 GridJs会根据PageSize限制行大小，如果PageSize为-1则不做分页 默认值为-1 |
 | static [PictureCacheDirectory](../../aspose.cells.gridjs/config/picturecachedirectory) { get; set; } | 设置/获取图片的缓存目录 |
-| static [SameImageDetecting](../../aspose.cells.gridjs/config/sameimagedetecting) { get; set; } | 设置是否检查图片是否同源，默认为真 默认值为真 |
+| static [SameImageDetecting](../../aspose.cells.gridjs/config/sameimagedetecting) { get; set; } | 设置是否检查图片是否同源，默认为true 默认值为true |
 | static [SaveHtmlAsZip](../../aspose.cells.gridjs/config/savehtmlaszip) { get; set; } | 设置是否将html文件保存为zip压缩包，默认为false 默认值为true |
 
 ## 方法

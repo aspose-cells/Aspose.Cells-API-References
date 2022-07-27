@@ -18,8 +18,8 @@ public void UnMerge(int firstRow, int firstColumn, int totalRows, int totalColum
 | --- | --- | --- |
 | firstRow | Int32 | 此范围的第一行（从零开始） |
 | firstColumn | Int32 | 此范围的第一列（从零开始） |
-| totalRows | Int32 | 行数（从一个开始） |
-| totalColumns | Int32 | 列数（从一个开始） |
+| totalRows | Int32 | 行数（基于一个） |
+| totalColumns | Int32 | 列数（基于一个） |
 
 ### 也可以看看
 

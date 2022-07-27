@@ -1,14 +1,14 @@
 ---
 title: UpperLeftRow
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет индекс строки в верхнем левом углу.
+description: Представляет индекс строки в левом верхнем углу.
 type: docs
 weight: 100
 url: /ru/net/aspose.cells.gridweb.data/gridshape/upperleftrow/
 ---
 ## GridShape.UpperLeftRow property
 
-Представляет индекс строки в верхнем левом углу.
+Представляет индекс строки в левом верхнем углу.
 
 ```csharp
 public int UpperLeftRow { get; }

@@ -1,14 +1,14 @@
 ---
 title: ShapeGuide
 second_title: Aspose.Cells for .NET API 参考
-description: 封装形状引导指定将用于 管理指定形状的几何形状的形状引导的存在
+description: 封装形状指南指定将用于 管理指定形状的几何形状的形状指南的存在
 type: docs
 weight: 2660
 url: /zh/net/aspose.cells.drawing/shapeguide/
 ---
 ## ShapeGuide class
 
-封装形状引导指定将用于 管理指定形状的几何形状的形状引导的存在
+封装形状指南指定将用于 管理指定形状的几何形状的形状指南的存在
 
 ```csharp
 public class ShapeGuide : BaseShapeGuide

@@ -24,32 +24,32 @@ public class SqlScriptSaveOptions : SaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AddBlankLineBetweenRows](../../aspose.cells.saving/sqlscriptsaveoptions/addblanklinebetweenrows) { get; set; } | Вставьте пустую строку между каждыми данными. |
+| [AddBlankLineBetweenRows](../../aspose.cells.saving/sqlscriptsaveoptions/addblanklinebetweenrows) { get; set; } | Вставить пустую строку между каждыми данными. |
 | [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder) { get; set; } | Папка с кэшированными файлами используется для хранения больших данных. |
 | [CheckAllDataForColumnType](../../aspose.cells.saving/sqlscriptsaveoptions/checkalldataforcolumntype) { get; set; } | Проверить все данные, чтобы найти тип данных столбцов. |
-| [CheckIfTableExists](../../aspose.cells.saving/sqlscriptsaveoptions/checkiftableexists) { get; set; } | Перед созданием проверьте, существует ли имя таблицы |
+| [CheckIfTableExists](../../aspose.cells.saving/sqlscriptsaveoptions/checkiftableexists) { get; set; } | Проверьте, существует ли имя таблицы перед созданием |
 | [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | Сделайте рабочую книгу пустой после сохранения файла. |
 | [ColumnTypeMap](../../aspose.cells.saving/sqlscriptsaveoptions/columntypemap) { get; set; } | Получает и устанавливает карту типа столбца для другой базы данных. |
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | Если true и каталог не существует, каталог будет автоматически создан перед сохранением файла. |
-| [CreateTable](../../aspose.cells.saving/sqlscriptsaveoptions/createtable) { get; set; } | Указывает, экспортируется ли sql создаваемой таблицы. |
+| [CreateTable](../../aspose.cells.saving/sqlscriptsaveoptions/createtable) { get; set; } | Указывает, экспортируется ли sql создания таблицы. |
 | [ExportArea](../../aspose.cells.saving/sqlscriptsaveoptions/exportarea) { get; set; } | Получает или задает диапазон экспорта. |
 | [ExportAsString](../../aspose.cells.saving/sqlscriptsaveoptions/exportasstring) { get; set; } | Указывает, экспортируются ли все данные в виде строкового значения. |
 | [HasHeaderRow](../../aspose.cells.saving/sqlscriptsaveoptions/hasheaderrow) { get; set; } | Указывает, содержит ли диапазон строку заголовка. |
-| [IdName](../../aspose.cells.saving/sqlscriptsaveoptions/idname) { get; set; } | Получает и устанавливает имя столбца id. |
+| [IdName](../../aspose.cells.saving/sqlscriptsaveoptions/idname) { get; set; } | Получает и задает имя столбца идентификатора. |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Указывает, объединяются ли области условного форматирования и проверки перед сохранением файла. |
-| [OperatorType](../../aspose.cells.saving/sqlscriptsaveoptions/operatortype) { get; set; } | Получает и устанавливает тип оператора sql. |
-| [PrimaryKey](../../aspose.cells.saving/sqlscriptsaveoptions/primarykey) { get; set; } | Представляет, какой столбец является первичным ключом таблицы данных. |
-| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Указывает, обновляются ли данные кэша диаграммы |
+| [OperatorType](../../aspose.cells.saving/sqlscriptsaveoptions/operatortype) { get; set; } | Получает и задает тип оператора sql. |
+| [PrimaryKey](../../aspose.cells.saving/sqlscriptsaveoptions/primarykey) { get; set; } | Указывает, какой столбец является первичным ключом таблицы данных. |
+| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Указывает, нужно ли обновлять кэш диаграммы data |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Получает формат файла сохранения. |
-| [Separator](../../aspose.cells.saving/sqlscriptsaveoptions/separator) { get; set; } | Получает и устанавливает разделитель символов sql-скрипта. |
+| [Separator](../../aspose.cells.saving/sqlscriptsaveoptions/separator) { get; set; } | Получает и устанавливает разделитель символов сценария sql. |
 | [SheetIndexes](../../aspose.cells.saving/sqlscriptsaveoptions/sheetindexes) { get; set; } | Представляет индексы экспортированных листов. |
 | [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | Указывает, выполняется ли сортировка внешних определенных имен перед сохранением файла. |
 | [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | Указывает, выполняется ли сортировка определенных имен перед сохранением файла. |
 | [StartId](../../aspose.cells.saving/sqlscriptsaveoptions/startid) { get; set; } | Получает и устанавливает начальный идентификатор. |
 | [TableName](../../aspose.cells.saving/sqlscriptsaveoptions/tablename) { get; set; } | Получает и задает имя таблицы. |
-| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Указывает, обновляются ли настройки смарт-арта. Значение по умолчанию — false. |
+| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Указывает, обновляются ли настройки Smart Art. Значение по умолчанию — false. |
 | [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas) { get; set; } | Указывает, следует ли проверять объединенные ячейки перед сохранением файла. |
-| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Получает или устанавливает обратный вызов предупреждения. |
+| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Получает или задает обратный вызов предупреждения. |
 
 ### Смотрите также
 

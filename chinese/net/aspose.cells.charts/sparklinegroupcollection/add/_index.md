@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 将SparklineGroupaspose.cells.charts/sparklinegroup项添加到集合中
+description: 添加一个SparklineGroupaspose.cells.charts/sparklinegroup项目到集合.
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.charts/sparklinegroupcollection/add/
 ---
 ## SparklineGroupCollection.Add method
 
-将[`SparklineGroup`](../../sparklinegroup)项添加到集合中。
+添加一个[`SparklineGroup`](../../sparklinegroup)项目到集合.
 
 ```csharp
 public int Add(SparklineType type, string dataRange, bool isVertical, CellArea locationRange)
@@ -18,7 +18,7 @@ public int Add(SparklineType type, string dataRange, bool isVertical, CellArea l
 | --- | --- | --- |
 | type | SparklineType | 指定迷你图组的类型。 |
 | dataRange | String | 指定迷你图组的数据范围。 |
-| isVertical | Boolean | 指定是按行还是按列绘制数据范围的迷你图。 |
+| isVertical | Boolean | 指定是按行还是按列绘制数据范围中的迷你图。 |
 | locationRange | CellArea | 指定迷你图的放置位置。 |
 
 ### 返回值

@@ -1,14 +1,14 @@
 ---
 title: MergesCount
 second_title: Aspose.Cells for .NET API 参考
-description: 获取合并计数
+description: 获取合并的计数
 type: docs
 weight: 260
 url: /zh/net/aspose.cells.griddesktop/worksheet/mergescount/
 ---
 ## Worksheet.MergesCount property
 
-获取合并计数
+获取合并的计数
 
 ```csharp
 public int MergesCount { get; }

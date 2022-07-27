@@ -1,14 +1,14 @@
 ---
 title: EditWebPage
 second_title: Aspose.Cells for .NET API 参考
-description: 显示网络查询数据的面向用户的网页的 URL在 sourceDatatrue 和 url 已被重定向以引用 XML 文件的情况下此 URL 将保留为  然后可以在 UI 中显示面向用户的页面并且可以在后台检索 XML 数据 
+description: 显示 Web 查询数据的面向用户的网页的 URL这个 URL 在 sourceDatatrue 和 url 被重定向到引用 XML 文件的情况下是持久的  然后可以在 UI 中显示面向用户的页面并且可以在幕后检索 XML 数据 
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.externalconnections/webqueryconnection/editwebpage/
 ---
 ## WebQueryConnection.EditWebPage property
 
-显示网络查询数据的面向用户的网页的 URL。在 sourceData="true" 和 url 已被重定向以引用 XML 文件的情况下，此 URL 将保留为 。 然后可以在 UI 中显示面向用户的页面，并且可以在后台检索 XML 数据 。
+显示 Web 查询数据的面向用户的网页的 URL。这个 URL 在 sourceData="true" 和 url 被重定向到引用 XML 文件的情况下是持久的 。 然后可以在 UI 中显示面向用户的页面，并且可以在幕后检索 XML 数据 。
 
 ```csharp
 public string EditWebPage { get; set; }

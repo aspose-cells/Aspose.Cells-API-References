@@ -17,7 +17,7 @@ public void SetErrorCheck(ErrorCheckType errorCheckType, bool isCheck)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | errorCheckType | ErrorCheckType | 可以检查错误类型。 |
-| isCheck | Boolean | 如果需要检查给定的错误类型，则为 true（如果检查失败，单元格将显示绿色三角形）。 |
+| isCheck | Boolean | 如果需要检查给定的错误类型，则为 true（如果检查失败，将为单元格显示绿色三角形）。 |
 
 ### 也可以看看
 

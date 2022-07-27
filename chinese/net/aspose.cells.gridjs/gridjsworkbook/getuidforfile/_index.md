@@ -16,7 +16,7 @@ public static string GetUidForFile(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | excel文件名. |
+| fileName | String | Excel 文件的名称。 |
 
 ### 也可以看看
 

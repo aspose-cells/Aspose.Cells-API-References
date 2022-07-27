@@ -1,14 +1,14 @@
 ---
 title: Brightness
 second_title: Aspose.Cells for .NET API 参考
-description: 表示图片的亮度修改单位为百分比
+description: 表示对图片的亮度修改以百分比为单位
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.drawing/msoformatpicture/brightness/
 ---
 ## MsoFormatPicture.Brightness property
 
-表示图片的亮度修改，单位为百分比。
+表示对图片的亮度修改，以百分比为单位。
 
 ```csharp
 public double Brightness { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: CheckIfTableExists
 second_title: Справочник по Aspose.Cells для .NET API
-description: Перед созданием проверьте существует ли имя таблицы
+description: Проверьте существует ли имя таблицы перед созданием
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.saving/sqlscriptsaveoptions/checkiftableexists/
 ---
 ## SqlScriptSaveOptions.CheckIfTableExists property
 
-Перед созданием проверьте, существует ли имя таблицы
+Проверьте, существует ли имя таблицы перед созданием
 
 ```csharp
 public bool CheckIfTableExists { get; set; }

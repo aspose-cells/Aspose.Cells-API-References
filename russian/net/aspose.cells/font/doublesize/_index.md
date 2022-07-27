@@ -1,14 +1,14 @@
 ---
 title: DoubleSize
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает двойной размер шрифта.
+description: Получает и устанавливает двойной размер шрифта.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells/font/doublesize/
 ---
 ## Font.DoubleSize property
 
-Получает и задает двойной размер шрифта.
+Получает и устанавливает двойной размер шрифта.
 
 ```csharp
 public double DoubleSize { get; set; }

@@ -14,7 +14,7 @@ public void Copy(VbaProjectReference source)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| источник | VbaProjectReference |  |
+| source | VbaProjectReference |  |
 
 ### Смотрите также
 

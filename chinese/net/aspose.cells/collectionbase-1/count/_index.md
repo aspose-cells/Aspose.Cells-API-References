@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Cells for .NET API 参考
-description: 获取元素的数量
+description: 获取元素个数
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/collectionbase-1/count/
 ---
 ## CollectionBase&lt;T&gt;.Count property
 
-获取元素的数量。
+获取元素个数。
 
 ```csharp
 public int Count { get; }

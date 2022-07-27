@@ -1,14 +1,14 @@
 ---
 title: EncryptionType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Тип шифрования. Используется только excel2003. Мы будем шифровать книгу 2007/2010 с помощью SHA AES так же как это делает Excel и этот EncryptionType будет игнорироваться.
+description: Тип шифрования. Используется только в excel2003. Мы будем шифровать книгу 2007/2010 с помощью SHA AES так же как это делает Excel и этот EncryptionType будет игнорироваться.
 type: docs
 weight: 3160
 url: /ru/net/aspose.cells/encryptiontype/
 ---
 ## EncryptionType enumeration
 
-Тип шифрования. Используется только excel2003. Мы будем шифровать книгу 2007/2010 с помощью SHA AES так же, как это делает Excel, и этот EncryptionType будет игнорироваться.
+Тип шифрования. Используется только в excel2003. Мы будем шифровать книгу 2007/2010 с помощью SHA AES так же, как это делает Excel, и этот EncryptionType будет игнорироваться.
 
 ```csharp
 public enum EncryptionType

@@ -34,8 +34,8 @@ public GridCellArea(int startRow, int startColumn, int endRow, int endColumn)
 | --- | --- | --- |
 | startRow | Int32 | 起始行。 |
 | startColumn | Int32 | 起始列。 |
-| endRow | Int32 | 结束行。 |
-| endColumn | Int32 | 结束列。 |
+| endRow | Int32 | 最后一排。 |
+| endColumn | Int32 | 最后一栏。 |
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: MergeEmptyTdForcely
 second_title: Справочник по Aspose.Cells для .NET API
 description: Указывает будет ли принудительно объединяться пустой элемент TD при экспорте файла в html. Размер html-файла будет значительно уменьшен после установки значения true. Значение по умолчанию неверно. Если вы хотите импортировать html-файл в Excel или экспортировать идеальные линии сетки при сохранении файла в html оставьте значение по умолчанию.
 type: docs
-weight: 400
+weight: 420
 url: /ru/net/aspose.cells/htmlsaveoptions/mergeemptytdforcely/
 ---
 ## HtmlSaveOptions.MergeEmptyTdForcely property

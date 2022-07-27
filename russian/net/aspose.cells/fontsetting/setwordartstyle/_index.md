@@ -1,14 +1,14 @@
 ---
 title: SetWordArtStyle
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает предустановленный стиль WordArt.
+description: Задает предустановленный стиль WordArt.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells/fontsetting/setwordartstyle/
 ---
 ## FontSetting.SetWordArtStyle method
 
-Устанавливает предустановленный стиль WordArt.
+Задает предустановленный стиль WordArt.
 
 ```csharp
 public void SetWordArtStyle(PresetWordArtStyle style)
@@ -20,7 +20,7 @@ public void SetWordArtStyle(PresetWordArtStyle style)
 
 ### Примечания
 
-Только для текста формы/диаграммы.
+Только для текста фигуры/диаграммы.
 
 ### Смотрите также
 

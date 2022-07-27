@@ -1,14 +1,14 @@
 ---
 title: DashType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает тип пунктирной линии
+description: Определяет тип пунктирной линии
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.drawing/line/dashtype/
 ---
 ## Line.DashType property
 
-Указывает тип пунктирной линии
+Определяет тип пунктирной линии
 
 ```csharp
 public MsoLineDashStyle DashType { get; set; }

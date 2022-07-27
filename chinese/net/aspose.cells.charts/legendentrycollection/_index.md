@@ -1,14 +1,14 @@
 ---
 title: LegendEntryCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示指定图表图例中所有LegendEntry./legendentry对象的集合
+description: 代表所有的集合LegendEntry./legendentry指定图表图例中的对象
 type: docs
 weight: 710
 url: /zh/net/aspose.cells.charts/legendentrycollection/
 ---
 ## LegendEntryCollection class
 
-表示指定图表图例中所有[`LegendEntry`](../legendentry)对象的集合。
+代表所有的集合[`LegendEntry`](../legendentry)指定图表图例中的对象。
 
 ```csharp
 public class LegendEntryCollection : CollectionBase<LegendEntry>
@@ -20,7 +20,7 @@ public class LegendEntryCollection : CollectionBase<LegendEntry>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.charts/legendentrycollection/item) { get; } | 获取指定索引处的[`LegendEntry`](../legendentry)元素。 |
+| [Item](../../aspose.cells.charts/legendentrycollection/item) { get; } | 获取[`LegendEntry`](../legendentry)指定索引处的元素。 |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法

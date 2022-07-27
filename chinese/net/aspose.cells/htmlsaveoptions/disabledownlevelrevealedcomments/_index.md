@@ -1,14 +1,14 @@
 ---
 title: DisableDownlevelRevealedComments
 second_title: Aspose.Cells for .NET API 参考
-description: 表示在将文件导出为 html 时是否禁用 Downlevel-revealed 条件注释默认值为 false
+description: 表示在将文件导出为html时是否禁用Downlevel-revealed条件注释默认值为false
 type: docs
 weight: 70
 url: /zh/net/aspose.cells/htmlsaveoptions/disabledownlevelrevealedcomments/
 ---
 ## HtmlSaveOptions.DisableDownlevelRevealedComments property
 
-表示在将文件导出为 html 时是否禁用 Downlevel-revealed 条件注释，默认值为 false。
+表示在将文件导出为html时是否禁用Downlevel-revealed条件注释，默认值为false。
 
 ```csharp
 public bool DisableDownlevelRevealedComments { get; set; }

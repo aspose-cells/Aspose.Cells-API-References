@@ -3,7 +3,7 @@ title: Copy
 second_title: Справочник по Aspose.Cells для .NET API
 description: Копирование диапазона со специальными параметрами вставки.
 type: docs
-weight: 190
+weight: 230
 url: /ru/net/aspose.cells/range/copy/
 ---
 ## Copy(Range, PasteOptions) {#copy_1}
@@ -38,7 +38,7 @@ public void Copy(Range range)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| range | Range | Источник[`Range`](../../range)объект. |
+| range | Range | Источник[`Range`](../../range) объект. |
 
 ### Примеры
 
@@ -46,28 +46,28 @@ public void Copy(Range range)
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 // Получить первые ячейки рабочего листа.
 Cells cells = workbook.Worksheets[0].Cells;
 Range range1 = cells.CreateRange("A1:A5");
 Range range2 = cells.CreateRange("A6:A10");
-  // Копируем диапазон.
+// Копируем диапазон.
 range1.Copy(range2);
-  // Сохраняем файл Excel
+// Сохраняем файл Excel
 workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
-'Получить первые ячейки рабочего листа.
+'Получите первые ячейки рабочего листа.
 Dim cells as Cells = workbook.Worksheets[0].Cells
 Range range1 = cells.CreateRange("A1:A5")
 Range range2 = cells.CreateRange("A6:A10")
-' Скопируйте диапазон
+// Копируем диапазон
 range1.Copy(range2)
-'Сохраняем файл Excel
+'Сохраните файл Excel
 workbook.Save("book1.xlsm")
 ```
 

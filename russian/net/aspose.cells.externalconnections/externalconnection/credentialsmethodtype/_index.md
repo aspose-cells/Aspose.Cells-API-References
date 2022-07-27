@@ -1,14 +1,14 @@
 ---
 title: CredentialsMethodType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает метод аутентификации который будет использоваться при установлении или повторном установлении соединения.
+description: Указывает метод проверки подлинности который будет использоваться при установлении или повторном установлении соединения.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.externalconnections/externalconnection/credentialsmethodtype/
 ---
 ## ExternalConnection.CredentialsMethodType property
 
-Указывает метод аутентификации, который будет использоваться при установлении (или повторном установлении) соединения.
+Указывает метод проверки подлинности, который будет использоваться при установлении (или повторном установлении) соединения.
 
 ```csharp
 public CredentialsMethodType CredentialsMethodType { get; set; }

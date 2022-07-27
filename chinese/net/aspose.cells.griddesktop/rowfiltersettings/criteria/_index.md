@@ -16,7 +16,7 @@ public string Criteria { get; set; }
 
 ### 评论
 
-过滤条件字符串。 以下是标准字符串示例: CELL0 = 12.3 CELL1 = "ABC" AND(CELL0 = 123, CELL1 = "ABC") OR(CELL0 = 123, CELL1 = "ABC") CELL0 = B1 + 4
+过滤条件字符串。 下面是条件字符串示例： CELL0 = 12.3 CELL1 = "ABC" AND(CELL0 = 123, CELL1 = "ABC") OR(CELL0 = 123, CELL1 = "ABC") CELL0 = B1 + 4
 
 ### 也可以看看
 

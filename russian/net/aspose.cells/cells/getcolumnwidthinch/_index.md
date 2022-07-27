@@ -20,7 +20,7 @@ public double GetColumnWidthInch(int column)
 
 ### Возвращаемое значение
 
-Ширина столбца
+Ширина колонны
 
 ### Смотрите также
 

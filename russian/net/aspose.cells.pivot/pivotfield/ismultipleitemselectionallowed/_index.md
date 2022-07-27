@@ -1,14 +1,14 @@
 ---
 title: IsMultipleItemSelectionAllowed
 second_title: Справочник по Aspose.Cells для .NET API
-description: указывает может ли поле иметь несколько элементов выбранных в поле страницы Значение по умолчанию - false.
+description: указывает может ли поле иметь несколько элементов  выбранных на странице field Значение по умолчанию  false.
 type: docs
 weight: 260
 url: /ru/net/aspose.cells.pivot/pivotfield/ismultipleitemselectionallowed/
 ---
 ## PivotField.IsMultipleItemSelectionAllowed property
 
-указывает, может ли поле иметь несколько элементов выбранных в поле страницы Значение по умолчанию - false.
+указывает, может ли поле иметь несколько элементов , выбранных на странице field Значение по умолчанию — false.
 
 ```csharp
 public bool IsMultipleItemSelectionAllowed { get; set; }

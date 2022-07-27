@@ -1,0 +1,84 @@
+---
+title: WorkbookDesigner
+second_title: Referencia de API de Aspose.Cells para .NET
+description: Encapsula el objeto que representa una hoja de cálculo de diseñador.
+type: docs
+weight: 6490
+url: /es/net/aspose.cells/workbookdesigner/
+---
+## WorkbookDesigner class
+
+Encapsula el objeto que representa una hoja de cálculo de diseñador.
+
+```csharp
+public class WorkbookDesigner
+```
+
+## Constructores
+
+| Nombre | Descripción |
+| --- | --- |
+| [WorkbookDesigner](workbookdesigner#constructor)() | Inicializa una nueva instancia del[`WorkbookDesigner`](../workbookdesigner) clase. |
+| [WorkbookDesigner](workbookdesigner#constructor_1)(Workbook) | Inicializa una nueva instancia del[`WorkbookDesigner`](../workbookdesigner) clase. |
+
+## Propiedades
+
+| Nombre | Descripción |
+| --- | --- |
+| [CalculateFormula](../../aspose.cells/workbookdesigner/calculateformula) { get; set; } | Indica si se deben calcular fórmulas. |
+| [CallBack](../../aspose.cells/workbookdesigner/callback) { get; set; } | Obtiene y establece la interfaz de devolución de llamada del procesamiento de smartmarker. |
+| [LineByLine](../../aspose.cells/workbookdesigner/linebyline) { get; set; } | Indica si se está procesando el marcador inteligente línea a línea. |
+| [RepeatFormulasWithSubtotal](../../aspose.cells/workbookdesigner/repeatformulaswithsubtotal) { get; set; } | Indica si se repiten fórmulas con fila de subtotal. |
+| [UpdateEmptyStringAsNull](../../aspose.cells/workbookdesigner/updateemptystringasnull) { get; set; } | Si es VERDADERO, se insertará Nulo si el valor es ""; |
+| [UpdateReference](../../aspose.cells/workbookdesigner/updatereference) { get; set; } | Indica si se actualizarán las referencias en otras hojas de cálculo. |
+| [Workbook](../../aspose.cells/workbookdesigner/workbook) { get; set; } | Obtiene y establece el[`Workbook`](./workbook) objeto. |
+
+## Métodos
+
+| Nombre | Descripción |
+| --- | --- |
+| [ClearDataSource](../../aspose.cells/workbookdesigner/cleardatasource)() | Borra todas las fuentes de datos. |
+| [GetSmartMarkers](../../aspose.cells/workbookdesigner/getsmartmarkers)() | Devuelve una colección de marcadores inteligentes en una hoja de cálculo. |
+| [Process](../../aspose.cells/workbookdesigner/process#process)() | Procesa los marcadores inteligentes y completa los valores de la fuente de datos. |
+| [Process](../../aspose.cells/workbookdesigner/process#process_1)(bool) | Procesa los marcadores inteligentes y completa los valores de la fuente de datos. |
+| [Process](../../aspose.cells/workbookdesigner/process#process_2)(int, bool) | Procesa los marcadores inteligentes y completa los valores de la fuente de datos. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource)(DataSet) | Establece la fuente de datos de un objeto DataSet. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource_1)(DataTable) | Establece la fuente de datos de un objeto DataTable. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource_2)(DataView) | Establece la fuente de datos de un objeto DataView. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource_3)(OleDbConnection) | Establece la fuente de datos de un objeto OleDbConnection. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource_4)(SqlConnection) | Establece el origen de datos de un objeto SqlConnection. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource_6)(string, DataView) | Establece el origen de datos de un objeto DataView y lo vincula a un nombre de origen de datos. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource_5)(string, ICellsDataTable) | Establece la fuente de datos de un[`ICellsDataTable`](../icellsdatatable) objeto. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource_8)(string, object) | Establece el enlace de datos a una variable. |
+| [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource#setdatasource_7)(string, IDataReader, int) | Establece la fuente de datos de un objeto IDataReader. |
+
+### Ejemplos
+
+```csharp
+
+[C#]
+
+//Crear objeto WorkbookDesigner.
+WorkbookDesigner wd = new WorkbookDesigner();
+//Abra el archivo de plantilla (que contiene marcadores inteligentes).
+wd.Workbook = new Workbook("SmartMarker_Designer.xls");
+
+//Inicialice sus datos desde la fuente de datos
+//Conjunto de datos ds = nuevo Conjunto de datos();
+//...
+
+//Establecer la tabla de datos como fuente de datos.
+//wd.EstablecerFuenteDeDatos(dt);
+//Procesar los marcadores inteligentes para completar los datos en las hojas de trabajo.
+wd.Process(true);
+//Guardar el archivo de Excel.
+wd.Workbook.Save("outSmartMarker_Designer.xls");
+
+```
+
+### Ver también
+
+* espacio de nombres [Aspose.Cells](../../aspose.cells)
+* asamblea [Aspose.Cells](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->

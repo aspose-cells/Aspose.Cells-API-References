@@ -20,7 +20,7 @@ public virtual string GetStandardBuiltInName(string localName)
 
 ### 返回值
 
-标准（美国地区）文本。
+标准（en-US 语言环境）文本。
 
 ### 也可以看看
 

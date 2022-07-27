@@ -16,11 +16,11 @@ public TableStyleElement this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引。 |
+| index | 指数。 |
 
 ### 返回值
 
-返回[`TableStyleElement`](../../tablestyleelement)对象
+退货[`TableStyleElement`](../../tablestyleelement)目的
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ public TableStyleElement this[int index] { get; }
 
 ## TableStyleElementCollection indexer (2 of 2)
 
-通过[`TableStyleElementType`](../../tablestyleelementtype)
+获取表格样式的元素[`TableStyleElementType`](../../tablestyleelementtype)
 
 ```csharp
 public TableStyleElement this[TableStyleElementType type] { get; }
@@ -45,7 +45,7 @@ public TableStyleElement this[TableStyleElementType type] { get; }
 
 ### 返回值
 
-返回[`TableStyleElement`](../../tablestyleelement)对象
+退货[`TableStyleElement`](../../tablestyleelement)目的
 
 ### 也可以看看
 

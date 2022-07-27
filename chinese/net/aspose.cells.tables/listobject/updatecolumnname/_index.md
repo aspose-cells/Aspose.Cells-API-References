@@ -16,7 +16,7 @@ public void UpdateColumnName()
 
 ### 评论
 
-表格标题行单元格的值必须与表格名称相同列表列； Cell.PutValue 不会为了性能而自动修改 ListColumn 的名称。
+表格标题行单元格的值必须与ListColumn的名称相同； Cell.PutValue不会为了性能而自动修改ListColumn的名称。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: IsFormulaHidden
 second_title: Aspose.Cells for .NET API 参考
-description: 表示当工作表受到保护时公式是否隐藏
+description: 表示当工作表被保护时公式是否隐藏
 type: docs
 weight: 160
 url: /zh/net/aspose.cells/style/isformulahidden/
 ---
 ## Style.IsFormulaHidden property
 
-表示当工作表受到保护时公式是否隐藏。
+表示当工作表被保护时公式是否隐藏。
 
 ```csharp
 public bool IsFormulaHidden { get; set; }

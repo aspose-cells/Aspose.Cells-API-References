@@ -1,14 +1,14 @@
 ---
 title: Producer
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает производителя сгенерированного pdf-документа.
+description: Получает и устанавливает производителя сгенерированного PDF-документа.
 type: docs
 weight: 290
 url: /ru/net/aspose.cells/pdfsaveoptions/producer/
 ---
 ## PdfSaveOptions.Producer property
 
-Получает и устанавливает производителя сгенерированного pdf-документа.
+Получает и устанавливает производителя сгенерированного PDF-документа.
 
 ```csharp
 public string Producer { get; set; }
@@ -16,7 +16,7 @@ public string Producer { get; set; }
 
 ### Примечания
 
-Если значение равно null или действующая ЛИЦЕНЗИЯ не установлена, строка Aspose.Cells vVERSION будет использоваться.
+Если значение равно null или действующая ЛИЦЕНЗИЯ не установлена, будет использоваться строка Aspose.Cells vVERSION.
 
 ### Смотрите также
 

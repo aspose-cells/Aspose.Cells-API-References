@@ -1,14 +1,14 @@
 ---
 title: ZOrderPosition
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает положение фигуры в z-порядке.
+description: Возвращает позицию фигуры в z-порядке.
 type: docs
 weight: 570
 url: /ru/net/aspose.cells.gridweb.data/gridpicture/zorderposition/
 ---
 ## GridPicture.ZOrderPosition property
 
-Возвращает положение фигуры в z-порядке.
+Возвращает позицию фигуры в z-порядке.
 
 ```csharp
 public int ZOrderPosition { get; set; }

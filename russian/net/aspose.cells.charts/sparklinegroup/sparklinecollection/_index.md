@@ -1,14 +1,14 @@
 ---
 title: SparklineCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектSparklineCollectionaspose.cells.charts/sparklinegroup/sparklinecollectionгруппы спарклайнов.
+description: ПолучаетSparklineCollectionaspose.cells.charts/sparklinegroup/sparklinecollection объект группы спарклайнов.
 type: docs
 weight: 220
 url: /ru/net/aspose.cells.charts/sparklinegroup/sparklinecollection/
 ---
 ## SparklineGroup.SparklineCollection property
 
-Получает объект`SparklineCollection`группы спарклайнов.
+Получает`SparklineCollection` объект группы спарклайнов.
 
 ```csharp
 public SparklineCollection SparklineCollection { get; }

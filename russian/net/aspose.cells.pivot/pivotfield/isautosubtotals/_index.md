@@ -1,14 +1,14 @@
 ---
 title: IsAutoSubtotals
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает отображаются ли в указанном поле автоматические промежуточные итоги. Значение по умолчанию верно.
+description: Указывает отображаются ли в указанном поле автоматические промежуточные итоги. Значение по умолчанию  true.
 type: docs
 weight: 220
 url: /ru/net/aspose.cells.pivot/pivotfield/isautosubtotals/
 ---
 ## PivotField.IsAutoSubtotals property
 
-Указывает, отображаются ли в указанном поле автоматические промежуточные итоги. Значение по умолчанию верно.
+Указывает, отображаются ли в указанном поле автоматические промежуточные итоги. Значение по умолчанию — true.
 
 ```csharp
 public bool IsAutoSubtotals { get; set; }

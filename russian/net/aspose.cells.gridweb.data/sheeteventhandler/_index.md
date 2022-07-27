@@ -10,7 +10,7 @@ url: /ru/net/aspose.cells.gridweb.data/sheeteventhandler/
 
 Представляет интерфейс, предназначенный для обработки событий листа.
 
-void **handleCellEvent** (Отправитель объекта, RowColumnEventArgs e);
+пустота **обработатьCellEvent**(Отправитель объекта, RowColumnEventArgs e);
 
 ```csharp
 public delegate void SheetEventHandler(object sender, GridWorksheet sheet);

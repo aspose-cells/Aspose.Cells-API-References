@@ -3,7 +3,7 @@ title: IsColumnHidden
 second_title: Aspose.Cells for .NET API 参考
 description: 检查给定索引处的列是否隐藏
 type: docs
-weight: 1130
+weight: 1140
 url: /zh/net/aspose.cells/cells/iscolumnhidden/
 ---
 ## Cells.IsColumnHidden method
@@ -20,7 +20,7 @@ public bool IsColumnHidden(int columnIndex)
 
 ### 返回值
 
-如果列被隐藏，则为 true。
+如果该列被隐藏，则为 true。
 
 ### 也可以看看
 

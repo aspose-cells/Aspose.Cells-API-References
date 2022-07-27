@@ -16,7 +16,7 @@ public int IndexOf(Worksheet sheet)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sheet | Worksheet | 要在 WorksheetCollection 中定位的工作表。 |
+| sheet | Worksheet | 在 WorksheetCollection 中定位的工作表。 |
 
 ### 也可以看看
 

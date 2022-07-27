@@ -16,12 +16,12 @@ public string CopyImageOrShape(string uid, string p)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uid | String | 唯一ID表格文件 |
-| p | String | 指定单元格位置，json参数包含表格名称，左上行，左上列为图像，等 {name:'sheet1 ',ri:1,ci:1,srcid:2,srcname:'sheet2',isshape:true} |
+| uid | String | 工作表文件的唯一 ID |
+| p | String | 指定单元格位置，json参数包含图片的工作表名称、左上行、左上列等 {name:'sheet1',ri:1,ci:1,srcid:2,srcname:'sheet2',isshape:真的} |
 
 ### 返回值
 
-图片的 json
+图片的json
 
 ### 也可以看看
 

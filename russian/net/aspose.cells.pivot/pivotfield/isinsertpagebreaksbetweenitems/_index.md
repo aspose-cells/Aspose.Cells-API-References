@@ -1,14 +1,14 @@
 ---
 title: IsInsertPageBreaksBetweenItems
 second_title: Справочник по Aspose.Cells для .NET API
-description: указывает может ли поле вставлять разрывы страниц между элементами вставлять разрывы страниц после каждого элемента Значение по умолчанию - false .
+description: указывает может ли поле вставлять разрывы страниц между элементами вставлять разрывы страниц после каждого элемента Значение по умолчанию  false.
 type: docs
 weight: 250
 url: /ru/net/aspose.cells.pivot/pivotfield/isinsertpagebreaksbetweenitems/
 ---
 ## PivotField.IsInsertPageBreaksBetweenItems property
 
-указывает, может ли поле вставлять разрывы страниц между элементами вставлять разрывы страниц после каждого элемента Значение по умолчанию - false .
+указывает, может ли поле вставлять разрывы страниц между элементами вставлять разрывы страниц после каждого элемента Значение по умолчанию — false.
 
 ```csharp
 public bool IsInsertPageBreaksBetweenItems { get; set; }

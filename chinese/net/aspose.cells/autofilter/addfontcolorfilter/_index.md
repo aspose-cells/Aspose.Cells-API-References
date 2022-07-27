@@ -16,8 +16,8 @@ public void AddFontColorFilter(int fieldIndex, CellsColor color)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldIndex | Int32 | 要作为过滤器基础的字段的整数偏移量 （从左侧列表的；最左边的字段是字段 0)。 |
-| color | CellsColor | [`CellsColor`](../../cellscolor)对象。 |
+| fieldIndex | Int32 | 您希望作为过滤器 基础的字段的整数偏移量（从列表的左侧开始；最左侧的字段是字段0）。 |
+| color | CellsColor | 这[`CellsColor`](../../cellscolor)对象. |
 
 ### 也可以看看
 

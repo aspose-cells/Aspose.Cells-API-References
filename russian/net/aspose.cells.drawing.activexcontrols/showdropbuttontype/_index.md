@@ -1,14 +1,14 @@
 ---
 title: ShowDropButtonType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает когда показывать кнопку перетаскивания
+description: Определяет когда показывать кнопку сброса
 type: docs
 weight: 1700
 url: /ru/net/aspose.cells.drawing.activexcontrols/showdropbuttontype/
 ---
 ## ShowDropButtonType enumeration
 
-Указывает, когда показывать кнопку перетаскивания
+Определяет, когда показывать кнопку сброса
 
 ```csharp
 public enum ShowDropButtonType

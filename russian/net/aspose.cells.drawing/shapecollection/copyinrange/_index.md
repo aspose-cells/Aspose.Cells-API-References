@@ -1,14 +1,14 @@
 ---
 title: CopyInRange
 second_title: Справочник по Aspose.Cells для .NET API
-description: Скопируйте фигуры из диапазона в целевой диапазон.
+description: Копировать фигуры из диапазона в целевой диапазон.
 type: docs
 weight: 380
 url: /ru/net/aspose.cells.drawing/shapecollection/copyinrange/
 ---
 ## ShapeCollection.CopyInRange method
 
-Скопируйте фигуры из диапазона в целевой диапазон.
+Копировать фигуры из диапазона в целевой диапазон.
 
 ```csharp
 public void CopyInRange(ShapeCollection sourceShapes, CellArea ca, int destRow, int destColumn, 
@@ -21,14 +21,14 @@ public void CopyInRange(ShapeCollection sourceShapes, CellArea ca, int destRow, 
 | ca | CellArea | Исходный диапазон. |
 | destRow | Int32 | Индекс строки назначения диапазона назначения. |
 | destColumn | Int32 | Столбец назначения диапазона назначения. |
-| isContained | Boolean | Копировать ли только те фигуры, которые содержатся в диапазоне. При значении true копируются только фигуры в диапазоне. В остальном работает как MS Office. |
+| isContained | Boolean | Копировать ли только фигуры, содержащиеся в диапазоне. Если true, копируются только фигуры в диапазоне. В противном случае работает как MS Office. |
 
 ### Примеры
 
 ```csharp
 
 [C#]
-  //добавляем shape
+//добавляем форму
 shapes.AddRectangle(2, 0, 2, 0, 130, 130);
 CellArea area2 = new CellArea();
 area2.StartColumn = 1;
@@ -36,7 +36,7 @@ area2.StartRow = 1;
 area2.EndColumn = 5;
 area2.EndRow = 11;
 
-  //copy
+// копируем
 shapes.CopyInRange(shapes, area2, 12, 1, false);
 
 ```

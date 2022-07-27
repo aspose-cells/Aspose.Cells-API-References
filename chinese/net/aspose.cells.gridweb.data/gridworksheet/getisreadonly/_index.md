@@ -11,12 +11,11 @@ url: /zh/net/aspose.cells.gridweb.data/gridworksheet/getisreadonly/
 获取单元格是否为只读。这是GridWeb的扩展属性，不会保留在实际的excel文件中
 
 ```csharp
-public bool GetIsReadonly(GridCell cell)
+public bool GetIsReadonly(int row, int col)
 ```
 
 ### 也可以看看
 
-* class [GridCell](../../gridcell)
 * class [GridWorksheet](../../gridworksheet)
 * 命名空间 [Aspose.Cells.GridWeb.Data](../../gridworksheet)
 * 部件 [Aspose.Cells.GridWeb](../../../)

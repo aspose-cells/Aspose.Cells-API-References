@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 通过索引获取渐变停止点
+description: 通过索引获取梯度停止点
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.drawing/gradientstopcollection/item/
 ---
 ## GradientStopCollection indexer
 
-通过索引获取渐变停止点。
+通过索引获取梯度停止点。
 
 ```csharp
 public GradientStop this[int index] { get; set; }
@@ -16,11 +16,11 @@ public GradientStop this[int index] { get; set; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引。 |
+| index | 指数。 |
 
 ### 返回值
 
-梯度停止。
+渐变停止。
 
 ### 也可以看看
 

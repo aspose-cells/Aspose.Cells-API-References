@@ -1,14 +1,14 @@
 ---
 title: Argb
 second_title: Aspose.Cells for .NET API 参考
-description: 从 32 位 ARGB 值中获取和设置颜色
+description: 从 32 位 ARGB 值获取和设置颜色
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/cellscolor/argb/
 ---
 ## CellsColor.Argb property
 
-从 32 位 ARGB 值中获取和设置颜色。
+从 32 位 ARGB 值获取和设置颜色。
 
 ```csharp
 public int Argb { get; set; }

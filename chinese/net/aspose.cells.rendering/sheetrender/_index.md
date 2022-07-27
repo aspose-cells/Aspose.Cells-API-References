@@ -1,14 +1,14 @@
 ---
 title: SheetRender
 second_title: Aspose.Cells for .NET API 参考
-description: 表示工作表渲染可以将工作表渲染成各种图像例如BMPPNGJPEGTIFF.. this 的构造函数class 必须在修改pagesetup单元格样式后使用
+description: 表示工作表渲染可以将工作表渲染成各种图片如BMP PNG JPEG TIFF..
 type: docs
 weight: 5260
 url: /zh/net/aspose.cells.rendering/sheetrender/
 ---
 ## SheetRender class
 
-表示工作表渲染，可以将工作表渲染成各种图像，例如（BMP、PNG、JPEG、TIFF..） this 的构造函数class ，必须在修改pagesetup，单元格样式后使用。
+表示工作表渲染，可以将工作表渲染成各种图片，如(BMP, PNG, JPEG, TIFF..)
 
 ```csharp
 public class SheetRender
@@ -25,19 +25,19 @@ public class SheetRender
 | 姓名 | 描述 |
 | --- | --- |
 | [PageCount](../../aspose.cells.rendering/sheetrender/pagecount) { get; } | 获取当前工作表的总页数。 |
-| [PageScale](../../aspose.cells.rendering/sheetrender/pagescale) { get; } | 获取工作表的计算页面比例。 如果设置了[`Zoom`](../../aspose.cells/pagesetup/zoom)则返回设置的比例。否则，根据[`FitToPagesWide`](../../aspose.cells/pagesetup/fittopageswide)和[`FitToPagesTall`](../../aspose.cells/pagesetup/fittopagestall)返回计算的比例。 |
+| [PageScale](../../aspose.cells.rendering/sheetrender/pagescale) { get; } | 获取工作表的计算页面比例。 返回设置的比例，如果[`Zoom`](../../aspose.cells/pagesetup/zoom)已设置。否则，根据[`FitToPagesWide`](../../aspose.cells/pagesetup/fittopageswide)和[`FitToPagesTall`](../../aspose.cells/pagesetup/fittopagestall). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CustomPrint](../../aspose.cells.rendering/sheetrender/customprint)(bool, PrintPageEventArgs) | 客户端可以使用该功能在打印每一页时控制打印机的页面设置。 |
+| [CustomPrint](../../aspose.cells.rendering/sheetrender/customprint)(bool, PrintPageEventArgs) | 使用此功能打印每一页时，客户端可以控制打印机的页面设置。 |
 | [GetPageSizeInch](../../aspose.cells.rendering/sheetrender/getpagesizeinch)(int) | 以输出图像的英寸为单位获取页面大小。 |
 | [ToImage](../../aspose.cells.rendering/sheetrender/toimage#toimage)(int) | 将特定页面渲染到位图对象。 |
-| [ToImage](../../aspose.cells.rendering/sheetrender/toimage#toimage_3)(int, Stream) | 将特定页面渲染到流中。 |
+| [ToImage](../../aspose.cells.rendering/sheetrender/toimage#toimage_3)(int, Stream) | 将特定页面呈现到流中。 |
 | [ToImage](../../aspose.cells.rendering/sheetrender/toimage#toimage_4)(int, string) | 将特定页面渲染到文件中。 |
-| [ToImage](../../aspose.cells.rendering/sheetrender/toimage#toimage_1)(int, Graphics, float, float) | 将特定页面渲染到图形 |
-| [ToImage](../../aspose.cells.rendering/sheetrender/toimage#toimage_2)(int, Graphics, float, float, float, float) | 将特定页面渲染到图形 |
+| [ToImage](../../aspose.cells.rendering/sheetrender/toimage#toimage_1)(int, Graphics, float, float) | 将特定页面渲染到 Graphics |
+| [ToImage](../../aspose.cells.rendering/sheetrender/toimage#toimage_2)(int, Graphics, float, float, float, float) | 将特定页面渲染到 Graphics |
 | [ToPrinter](../../aspose.cells.rendering/sheetrender/toprinter#toprinter)(PrinterSettings) | 将工作表渲染到打印机 |
 | [ToPrinter](../../aspose.cells.rendering/sheetrender/toprinter#toprinter_2)(string) | 将工作表渲染到打印机 |
 | [ToPrinter](../../aspose.cells.rendering/sheetrender/toprinter#toprinter_1)(PrinterSettings, string) | 将工作表渲染到打印机 |

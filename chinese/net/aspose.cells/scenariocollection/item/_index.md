@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 通过索引获取Scenarioaspose.cells/scenario对象
+description: 获取Scenarioaspose.cells/scenario索引的对象.
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/scenariocollection/item/
 ---
 ## ScenarioCollection indexer
 
-通过索引获取[`Scenario`](../../scenario)对象。
+获取[`Scenario`](../../scenario)索引的对象.
 
 ```csharp
 public Scenario this[int index] { get; }
@@ -16,7 +16,7 @@ public Scenario this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 列表中的具体索引。 |
+| index | 列表中的特定索引。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: GetPivotGrandTotalName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает имя метки Общий итог в сводной таблице.
+description: Получает имя метки Общая сумма в сводной таблице.
 type: docs
 weight: 170
 url: /ru/net/aspose.cells/globalizationsettings/getpivotgrandtotalname/
 ---
 ## GlobalizationSettings.GetPivotGrandTotalName method
 
-Получает имя метки «Общий итог» в сводной таблице.
+Получает имя метки «Общая сумма» в сводной таблице.
 
 ```csharp
 public virtual string GetPivotGrandTotalName()
@@ -16,7 +16,7 @@ public virtual string GetPivotGrandTotalName()
 
 ### Возвращаемое значение
 
-Имя метки "Общий итог"
+Название лейбла "Общий итог"
 
 ### Смотрите также
 

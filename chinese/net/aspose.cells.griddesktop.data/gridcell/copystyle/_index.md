@@ -1,14 +1,14 @@
 ---
 title: CopyStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 复制样式并设置单元格的样式
+description: 复制样式并为单元格设置样式
 type: docs
 weight: 220
 url: /zh/net/aspose.cells.griddesktop.data/gridcell/copystyle/
 ---
 ## GridCell.CopyStyle method
 
-复制样式并设置单元格的样式
+复制样式并为单元格设置样式
 
 ```csharp
 public void CopyStyle(Style style)

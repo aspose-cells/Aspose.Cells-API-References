@@ -1,14 +1,14 @@
 ---
 title: ForegroundColor
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置前景Color
+description: 获取或设置前景Color.
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.drawing/patternfill/foregroundcolor/
 ---
 ## PatternFill.ForegroundColor property
 
-获取或设置前景Color。
+获取或设置前景Color.
 
 ```csharp
 public Color ForegroundColor { get; set; }

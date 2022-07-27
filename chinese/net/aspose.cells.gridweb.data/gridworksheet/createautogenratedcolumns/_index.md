@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.gridweb.data/gridworksheet/createautogenratedcolumns/
 ---
 ## GridWorksheet.CreateAutoGenratedColumns method
 
-为工作表设置数据源后，调用该方法自动生成绑定列。
+为工作表设置数据源后，调用该方法自动生成绑定列
 
 ```csharp
 public void CreateAutoGenratedColumns()

@@ -1,14 +1,14 @@
 ---
 title: Weight
 second_title: Aspose.Cells for .NET API 参考
-description: 返回或设置行的粗细单位为 pt
+description: 返回或设置线条的粗细以pt为单位
 type: docs
 weight: 70
 url: /zh/net/aspose.cells.drawing/msolineformat/weight/
 ---
 ## MsoLineFormat.Weight property
 
-返回或设置行的粗细，单位为 pt。
+返回或设置线条的粗细，以pt为单位。
 
 ```csharp
 public double Weight { get; set; }

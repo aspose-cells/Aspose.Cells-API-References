@@ -1,14 +1,14 @@
 ---
 title: ParseHtmlTagInCell
 second_title: Справочник по Aspose.Cells для .NET API
-description: Анализировать HTML-тег в ячейке например ltdivgtlt/divgt как значение ячейки или как HTML-тег по умолчанию  true
+description: Разобрать HTML-тег в ячейке например  как значение ячейки или как HTML-тег по умолчанию true
 type: docs
 weight: 170
 url: /ru/net/aspose.cells.gridweb.data/gridhtmlsaveoptions/parsehtmltagincell/
 ---
 ## GridHtmlSaveOptions.ParseHtmlTagInCell property
 
-Анализировать HTML-тег в ячейке, например &lt;div&gt;&lt;/div&gt;, как значение ячейки или как HTML-тег, по умолчанию — true
+Разобрать HTML-тег в ячейке, например , как значение ячейки или как HTML-тег, по умолчанию true
 
 ```csharp
 public bool ParseHtmlTagInCell { get; set; }

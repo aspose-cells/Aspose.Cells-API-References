@@ -24,9 +24,9 @@ public class WebBorderStyle
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BorderColor](../../aspose.cells.gridweb/webborderstyle/bordercolor) { get; set; } | 获取或设置边框颜色。 请参考 System.Drawing.Color 结构。 |
-| [BorderStyle](../../aspose.cells.gridweb/webborderstyle/borderstyle) { get; set; } | 获取或设置边框的样式。 System.Web.UI.WebControls.BorderStyle 枚举请参考 .NET SDK 文档。 |
-| [BorderWidth](../../aspose.cells.gridweb/webborderstyle/borderwidth) { get; set; } | 获取或设置边框的宽度。 请参考 System.Web.UI.WebControls.Unit 结构。 |
+| [BorderColor](../../aspose.cells.gridweb/webborderstyle/bordercolor) { get; set; } | 获取或设置边框颜色 请参考System.Drawing.Color struct. |
+| [BorderStyle](../../aspose.cells.gridweb/webborderstyle/borderstyle) { get; set; } | 获取或设置边框样式 System.Web.UI.WebControls.BorderStyle枚举请参考.NET SDK文档。 |
+| [BorderWidth](../../aspose.cells.gridweb/webborderstyle/borderwidth) { get; set; } | 获取或设置边框宽度。 请参考System.Web.UI.WebControls.Unit struct. |
 
 ## 方法
 

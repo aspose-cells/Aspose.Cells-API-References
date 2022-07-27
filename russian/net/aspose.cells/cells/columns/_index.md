@@ -1,14 +1,14 @@
 ---
 title: Columns
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает коллекцию объектовColumnaspose.cells/column представляющих отдельные столбцы на этом листе.
+description: Получает коллекциюColumnaspose.cells/column объекты представляющие отдельные столбцы на этом листе.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/cells/columns/
 ---
 ## Cells.Columns property
 
-Получает коллекцию объектов[`Column`](../../column), представляющих отдельные столбцы на этом листе.
+Получает коллекцию[`Column`](../../column) объекты, представляющие отдельные столбцы на этом листе.
 
 ```csharp
 public ColumnCollection Columns { get; }

@@ -1,0 +1,102 @@
+---
+title: Line
+second_title: Aspose.Cells for .NET API Referansı
+description: Çizgi biçimini temsil eden nesneyi kapsüller.
+type: docs
+weight: 2200
+url: /tr/net/aspose.cells.drawing/line/
+---
+## Line class
+
+Çizgi biçimini temsil eden nesneyi kapsüller.
+
+```csharp
+public class Line
+```
+
+## Özellikleri
+
+| İsim | Tanım |
+| --- | --- |
+| [BeginArrowLength](../../aspose.cells.drawing/line/beginarrowlength) { get; set; } | Bir satırın başlangıcı için ok ucunun uzunluğunu belirtir. |
+| [BeginArrowWidth](../../aspose.cells.drawing/line/beginarrowwidth) { get; set; } | Bir satırın başlangıcı için ok ucunun genişliğini belirtir. |
+| [BeginType](../../aspose.cells.drawing/line/begintype) { get; set; } | Bir satırın başlangıcı için bir ok başı belirtir. |
+| [CapType](../../aspose.cells.drawing/line/captype) { get; set; } | Bitiş büyük harflerini belirtir. |
+| [Color](../../aspose.cells.drawing/line/color) { get; set; } | Color satırın. |
+| [CompoundType](../../aspose.cells.drawing/line/compoundtype) { get; set; } | Bileşik satır türünü belirtir |
+| [DashType](../../aspose.cells.drawing/line/dashtype) { get; set; } | Kısa çizgi tipini belirtir |
+| [EndArrowLength](../../aspose.cells.drawing/line/endarrowlength) { get; set; } | Bir satırın sonu için ok ucunun uzunluğunu belirtir. |
+| [EndArrowWidth](../../aspose.cells.drawing/line/endarrowwidth) { get; set; } | Bir satırın sonu için ok ucunun genişliğini belirtir. |
+| [EndType](../../aspose.cells.drawing/line/endtype) { get; set; } | Bir satırın sonu için bir ok başı belirtir. |
+| [FormattingType](../../aspose.cells.drawing/line/formattingtype) { get; set; } | Biçim türünü alır veya ayarlar. |
+| [GradientFill](../../aspose.cells.drawing/line/gradientfill) { get; } | Degrade dolguyu temsil eder. |
+| [IsAuto](../../aspose.cells.drawing/line/isauto) { get; set; } | Bu çizgi stilinin otomatik olarak atanıp atanmadığını gösterir. |
+| [IsAutomaticColor](../../aspose.cells.drawing/line/isautomaticcolor) { get; } | Çizgi renginin otomatik olarak atanıp atanmadığını gösterir. |
+| [IsVisible](../../aspose.cells.drawing/line/isvisible) { get; set; } | Çizginin görünür olup olmadığını temsil eder. |
+| [JoinType](../../aspose.cells.drawing/line/jointype) { get; set; } | Birleştirme büyük harflerini belirtir. |
+| [Style](../../aspose.cells.drawing/line/style) { get; set; } | Çizginin stilini temsil eder. |
+| [ThemeColor](../../aspose.cells.drawing/line/themecolor) { get; set; } | Tema rengini alır ve ayarlar. |
+| [Transparency](../../aspose.cells.drawing/line/transparency) { get; set; } | Çizginin şeffaflık derecesini 0.0 (opak) ile 1.0 (net) arasında bir değer olarak döndürür veya ayarlar. |
+| [Weight](../../aspose.cells.drawing/line/weight) { get; set; } | Alır veya ayarlar[`WeightType`](../weighttype) satırın. |
+| [WeightPt](../../aspose.cells.drawing/line/weightpt) { get; set; } | Çizginin ağırlığını puan birimi cinsinden alır veya ayarlar. |
+| [WeightPx](../../aspose.cells.drawing/line/weightpx) { get; set; } | Çizginin ağırlığını piksel birimi cinsinden alır veya ayarlar. |
+
+### Örnekler
+
+```csharp
+
+[C#]
+
+Workbook workbook = new Workbook();
+Worksheet sheet = workbook.Worksheets[0];
+
+Cells cells = sheet.Cells;
+cells[0,1].PutValue("Income");
+cells[1,0].PutValue("Company A");
+cells[2,0].PutValue("Company B");
+cells[3,0].PutValue("Company C");
+cells[1,1].PutValue(10000);
+cells[2,1].PutValue(20000);
+cells[3,1].PutValue(30000);
+
+int chartIndex = sheet.Charts.Add(ChartType.Line, 9, 9, 21, 15);
+Chart chart = sheet.Charts[chartIndex];
+// Bir NSeries'in çizgilerine noktalı çizgi stili uygulama
+chart.NSeries[0].Border.Style = LineType.Dot;
+chart.NSeries[0].Border.Color = Color.Red;
+//Bir NSeries'in veri işaretçilerine üçgen işaretçi stili uygulama
+chart.NSeries[0].Marker.MarkerStyle = ChartMarkerType.Triangle;
+// Bir NSeries'deki tüm satırların ağırlığını orta olarak ayarlama
+chart.NSeries[0].Border.Weight = WeightType.MediumLine;
+
+[Visual Basic]
+
+Dim workbook as Workbook = new Workbook()
+Dim sheet as Worksheet = workbook.Worksheets(0)
+
+Dim cells as Cells = sheet.Cells
+cells(0,1).PutValue("Income")
+cells(1,0).PutValue("Company A")
+cells(2,0).PutValue("Company B")
+cells(3,0).PutValue("Company C")
+cells(1,1).PutValue(10000)
+cells(2,1).PutValue(20000)
+cells(3,1).PutValue(30000)
+		
+Dim chartIndex as Integer = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15)    ///
+Dim chart as Chart = sheet.Charts(chartIndex)
+'Bir NSeries'in çizgilerine noktalı çizgi stili uygulama
+chart.NSeries(0).Border.Style = LineType.Dot
+chart.NSeries(0).Border.Color = Color.Red
+'Bir NSeries'in veri işaretçilerine üçgen işaretçi stili uygulama
+chart.NSeries(0).Marker.MarkerStyle = ChartMarkerType.Triangle
+'Bir NSeries'deki tüm satırların ağırlığını orta olarak ayarlama
+chart.NSeries(0).Border.Weight = WeightType.MediumLine
+```
+
+### Ayrıca bakınız
+
+* ad alanı [Aspose.Cells.Drawing](../../aspose.cells.drawing)
+* toplantı [Aspose.Cells](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->

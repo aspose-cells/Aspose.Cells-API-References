@@ -1,14 +1,14 @@
 ---
 title: SetFontColor
 second_title: Aspose.Cells for .NET API 参考
-description: 将字体颜色设置为 cellRange
+description: 将字体颜色设置为 cellRange.
 type: docs
 weight: 1060
 url: /zh/net/aspose.cells.griddesktop/worksheet/setfontcolor/
 ---
 ## Worksheet.SetFontColor method
 
-将字体颜色设置为 cellRange。
+将字体颜色设置为 cellRange.
 
 ```csharp
 public void SetFontColor(CellRange range, Color color)
@@ -16,7 +16,7 @@ public void SetFontColor(CellRange range, Color color)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| range | CellRange | CellRange 对象。 |
+| range | CellRange | 单元格范围对象。 |
 | color | Color | 要设置的字体颜色。 |
 
 ### 也可以看看

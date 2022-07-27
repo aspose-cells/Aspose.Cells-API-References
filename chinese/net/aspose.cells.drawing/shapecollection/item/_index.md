@@ -23,7 +23,7 @@ public Shape this[int index] { get; }
 ```csharp
 
 [C#]
- //得到shape
+//获取形状
 Shape shape = shapes[shapes.Count -1];
 ```
 
@@ -53,13 +53,13 @@ public Shape this[string name] { get; }
 ```csharp
 
 [C#]
- //添加一个shape
+//添加一个形状
 shapes.AddRectangle(2, 0, 2, 0, 130, 130);
- //得到shape
+//获取形状
 Shape shape1 = shapes["Rectangle 1"];
 if(shape1 != null)
 {
-     //得到名为'Rectangle 1'的形状。
+    //得到名为“矩形1”的形状。
 }
 ```
 

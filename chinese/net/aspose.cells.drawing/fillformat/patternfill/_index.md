@@ -1,14 +1,14 @@
 ---
 title: PatternFill
 second_title: Aspose.Cells for .NET API 参考
-description: 获取PatternFillaspose.cells.drawing/fillformat/patternfill对象
+description: 获取PatternFillaspose.cells.drawing/fillformat/patternfill对象.
 type: docs
 weight: 110
 url: /zh/net/aspose.cells.drawing/fillformat/patternfill/
 ---
 ## FillFormat.PatternFill property
 
-获取`PatternFill`对象。
+获取`PatternFill`对象.
 
 ```csharp
 public PatternFill PatternFill { get; }

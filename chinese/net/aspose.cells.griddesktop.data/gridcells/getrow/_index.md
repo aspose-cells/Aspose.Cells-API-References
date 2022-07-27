@@ -1,14 +1,14 @@
 ---
 title: GetRow
 second_title: Aspose.Cells for .NET API 参考
-description: 获取GridRowaspose.cells.griddesktop.data/gridrow元素或指定单元格行索引处
+description: 获取GridRowaspose.cells.griddesktop.data/gridrow元素或在指定的单元格行索引处
 type: docs
 weight: 440
 url: /zh/net/aspose.cells.griddesktop.data/gridcells/getrow/
 ---
 ## GridCells.GetRow method
 
-获取[`GridRow`](../../gridrow)元素或指定单元格行索引处。
+获取[`GridRow`](../../gridrow)元素或在指定的单元格行索引处。
 
 ```csharp
 public GridRow GetRow(int row)

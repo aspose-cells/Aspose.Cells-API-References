@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает перечислитель для всегоChartPointCollectionaspose.cells.charts/chartpointcollection.
+description: Возвращает перечислитель для всегоChartPointCollectionaspose.cells.charts/chartpointcollection .
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.charts/chartpointcollection/getenumerator/
 ---
 ## ChartPointCollection.GetEnumerator method
 
-Возвращает перечислитель для всего[`ChartPointCollection`](../../chartpointcollection).
+Возвращает перечислитель для всего[`ChartPointCollection`](../../chartpointcollection) .
 
 ```csharp
 public IEnumerator GetEnumerator()

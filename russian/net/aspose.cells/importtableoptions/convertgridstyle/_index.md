@@ -1,14 +1,14 @@
 ---
 title: ConvertGridStyle
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает применять ли стиль представления сетки к ячейкам.
+description: Указывает применяется ли стиль представления сетки к ячейкам.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/importtableoptions/convertgridstyle/
 ---
 ## ImportTableOptions.ConvertGridStyle property
 
-Указывает, применять ли стиль представления сетки к ячейкам.
+Указывает, применяется ли стиль представления сетки к ячейкам.
 
 ```csharp
 public bool ConvertGridStyle { get; set; }

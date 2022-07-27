@@ -16,8 +16,8 @@ public WorkbookPrintingPreview(Workbook workbook, ImageOrPrintOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| workbook | Workbook | 指示要打印的工作簿. |
-| options | ImageOrPrintOptions | ImageOrPrintOptions 包含输出的某些属性 |
+| workbook | Workbook | 指明要打印的工作簿。 |
+| options | ImageOrPrintOptions | ImageOrPrintOptions 包含输出的一些属性 |
 
 ### 也可以看看
 

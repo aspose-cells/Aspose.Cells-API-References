@@ -1,14 +1,14 @@
 ---
 title: Cfvos
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получите экземпляр CFValueObjects.
+description: Получить экземпляр CFValueObjects.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/iconset/cfvos/
 ---
 ## IconSet.Cfvos property
 
-Получите экземпляр CFValueObjects.
+Получить экземпляр CFValueObjects.
 
 ```csharp
 public ConditionalFormattingValueCollection Cfvos { get; }

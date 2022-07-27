@@ -18,10 +18,10 @@ public class Floor : Area
 
 | Имя | Описание |
 | --- | --- |
-| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor) { get; set; } | Получает или устанавливает фонColorдляОбласть. |
-| [Border](../../aspose.cells.charts/floor/border) { get; set; } | Получает или устанавливает границу[`Line`](../../aspose.cells.drawing/line). |
+| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor) { get; set; } | Получает или устанавливает фонColor принадлежащий[`Area`](../../aspose.cells.drawing/area) . |
+| [Border](../../aspose.cells.charts/floor/border) { get; set; } | Получает или устанавливает границу[`Line`](../../aspose.cells.drawing/line) . |
 | [FillFormat](../../aspose.cells.drawing/area/fillformat) { get; } | Представляет объект, содержащий свойства форматирования заливки для указанной диаграммы или фигуры. |
-| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor) { get; set; } | Получает или задает передний планColor. |
+| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor) { get; set; } | Получает или устанавливает передний планColor . |
 | [Formatting](../../aspose.cells.drawing/area/formatting) { get; set; } | Представляет форматирование области. |
 | [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative) { get; set; } | Если свойство истинно и значение точки диаграммы является отрицательным числом, цвет переднего плана и цвет фона будут заменены местами. |
 | [Transparency](../../aspose.cells.drawing/area/transparency) { get; set; } | Возвращает или задает степень прозрачности области в виде значения от 0,0 (непрозрачная) до 1,0 (прозрачная). |
@@ -32,98 +32,98 @@ public class Floor : Area
 
 [C#]
 
-  //Создаем экземпляр лицензии class
+//Создаем экземпляр класса License
 Aspose.Cells.License license = new Aspose.Cells.License();
 
-  //Передаем только имя файла лицензии, встроенного в сборку
+//Передаем только имя встроенного в сборку файла лицензии
 license.SetLicense("Aspose.Cells.lic");
 
-  //Создаем экземпляр книги object
+//Создаем экземпляр объекта книги
 Workbook workbook = new Workbook();
 
-  //Получить ячейки collection
+//Получить коллекцию ячеек
 Cells cells = workbook.Worksheets[0].Cells;
 
-  //Помещаем значения в cell
+//Помещаем значения в ячейки
 cells["A1"].PutValue(1);
 
 cells["A2"].PutValue(2);
 
 cells["A3"].PutValue(3);
 
-  //получить графики colletion
+//получаем коллекцию графиков
 ChartCollection charts = workbook.Worksheets[0].Charts;
 
-  //добавляем новый график 
+//добавляем новый график 
 int index = charts.Add(ChartType.Column3DStacked, 5, 0, 15, 5);
 
-  // получаем только что добавленный chart
+//получаем только что добавленный график
 Chart chart = charts[index];
 
-  //устанавливаем графики nseries
+//устанавливаем графики nseries
 chart.NSeries.Add("A1:A3", true);
 
-  //Показать метки данных
+//Показать метки данных
 chart.NSeries[0].DataLabels.ShowValue = true;
 
-  //Получить график floor
+//получаем пол графика
 Floor floor = chart.Floor;
 
-  //устанавливаем границу этажа как red
+// устанавливаем границу пола красной
 floor.Border.Color = System.Drawing.Color.Red;
 
-  //установить заливку format
+//устанавливаем формат заполнения
 floor.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2); 
 
-  //сохраняем файл
+//сохраняем файл
 workbook.Save(@"dest.xls");
 
 [VB.NET]
 
-'Создаем экземпляр лицензии class
+'Создайте экземпляр класса License
 Dim license As New Aspose.Cells.License()
 
-'Передаем только имя файла лицензии, встроенного в сборку
+'Передайте только имя файла лицензии, встроенного в сборку
 license.SetLicense("Aspose.Cells.lic")
 
-'Создаем экземпляр книги object
+'Создайте экземпляр объекта рабочей книги
 Dim workbook As Workbook = New Workbook()
 
-'Получить ячейки collection
+'Получить коллекцию клеток
 Dim cells As Cells = workbook.Worksheets(0).Cells
 
-'Помещаем значения в cell
+'Поместить значения в ячейки
 cells("A1").PutValue(1)
 
 cells("A2").PutValue(2)
 
 cells("A3").PutValue(3)
 
-'получить графики colletion
+'получить коллекцию диаграмм
 Dim charts As ChartCollection = workbook.Worksheets(0).Charts
 
-'добавляем новый график 
+'добавить новую диаграмму 
 Dim index As Integer = charts.Add(ChartType.Column3DStacked, 5, 0, 15, 5)
 
-'получаем только что добавленный chart
+'получить недавно добавленную диаграмму
 Dim chart As Chart = charts(index)
 
-'устанавливаем графики nseries
+'установить графики
 chart.NSeries.Add("A1:A3", True)
 
 'Показать метки данных
 chart.NSeries(0).DataLabels.ShowValue = True
 
-'Получить пол диаграммы
+'Get chart's floor
 Dim floor As Floor = chart.Floor
 
-'сделать границу пола красной
+'set floor's border as red
 floor.Border.Color = System.Drawing.Color.Red
 
-'установить заливку format
+'установить формат заполнения
 floor.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2)
 
-'сохраняем файл
+'сохранить файл
 workbook.Save("dest.xls")
 
 ```

@@ -16,7 +16,7 @@ public bool UpdateZoom { get; set; }
 
 ### 评论
 
-对于性能，默认值为 false。
+性能的默认值为 false。
 
 ### 也可以看看
 

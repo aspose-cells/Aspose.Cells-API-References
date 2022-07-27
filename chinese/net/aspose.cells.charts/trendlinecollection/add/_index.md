@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 将对象添加到具有指定类型的此集合中
+description: 添加一个具有指定类型的此集合的对象
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.charts/trendlinecollection/add/
 ---
 ## Add(TrendlineType) {#add}
 
-将对象添加到具有指定类型的此集合中。
+添加一个具有指定类型的此集合的对象。
 
 ```csharp
 public int Add(TrendlineType type)
@@ -33,7 +33,7 @@ public int Add(TrendlineType type)
 
 ## Add(TrendlineType, string) {#add_1}
 
-将对象添加到具有指定类型和名称的集合中。
+添加一个具有指定类型和名称的此集合的对象。
 
 ```csharp
 public int Add(TrendlineType type, string name)

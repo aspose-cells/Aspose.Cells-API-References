@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает высоту от верха до низа в единицах 1/4000 высоты графика после вызова метода Chart.Calculate.
+description: Получает высоту сверху вниз в единицах 1/4000 высоты графика после вызова метода Chart.Calculate.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.charts/walls/height/
 ---
 ## Walls.Height property
 
-Получает высоту от верха до низа в единицах 1/4000 высоты графика после вызова метода Chart.Calculate().
+Получает высоту сверху вниз в единицах 1/4000 высоты графика после вызова метода Chart.Calculate().
 
 ```csharp
 public int Height { get; }

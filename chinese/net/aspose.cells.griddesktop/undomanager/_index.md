@@ -20,7 +20,7 @@ public class UndoManager
 | --- | --- |
 | [Enabled](../../aspose.cells.griddesktop/undomanager/enabled) { get; set; } | 获取或设置一个值，该值指示是否启用撤消功能。默认值为假。 |
 | [RedoStepsCount](../../aspose.cells.griddesktop/undomanager/redostepscount) { get; } | 获取当前可用的重做步数。 |
-| [UndoStackSize](../../aspose.cells.griddesktop/undomanager/undostacksize) { get; set; } | 获取或设置撤消/重做堆栈大小。默认值为 300。 |
+| [UndoStackSize](../../aspose.cells.griddesktop/undomanager/undostacksize) { get; set; } | 获取或设置撤消/重做堆栈大小。默认值为 300. |
 | [UndoStepsCount](../../aspose.cells.griddesktop/undomanager/undostepscount) { get; } | 获取当前可用的撤消步数。 |
 
 ## 方法
@@ -31,7 +31,7 @@ public class UndoManager
 | [BeginMark](../../aspose.cells.griddesktop/undomanager/beginmark)() | 开始标记更改。 |
 | [ClearStack](../../aspose.cells.griddesktop/undomanager/clearstack)() | 清除撤消和重做堆栈。 |
 | [EndChanges](../../aspose.cells.griddesktop/undomanager/endchanges)() | 结束记录更改。 |
-| [EndMark](../../aspose.cells.griddesktop/undomanager/endmark)() | 结束以标记更改。 |
+| [EndMark](../../aspose.cells.griddesktop/undomanager/endmark)() | 结束标记更改。 |
 | [Redo](../../aspose.cells.griddesktop/undomanager/redo)() | 执行重做操作。 |
 | [RedoMark](../../aspose.cells.griddesktop/undomanager/redomark)() | 使用标记执行重做操作。 |
 | [Undo](../../aspose.cells.griddesktop/undomanager/undo)() | 执行撤消操作。 |

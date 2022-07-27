@@ -18,7 +18,7 @@ public enum CopyFormatType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| SameAsAbove | `0` | 格式同上一行。 |
+| SameAsAbove | `0` | 格式与上一行相同。 |
 | SameAsBelow | `1` | 格式与下一行相同。 |
 | Clear | `2` | 清除格式。 |
 

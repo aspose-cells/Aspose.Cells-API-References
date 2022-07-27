@@ -1,14 +1,14 @@
 ---
 title: FilterOperatorType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Пользовательский тип оператора фильтра.
+description: Тип оператора пользовательского фильтра.
 type: docs
 weight: 3450
 url: /ru/net/aspose.cells/filteroperatortype/
 ---
 ## FilterOperatorType enumeration
 
-Пользовательский тип оператора фильтра.
+Тип оператора пользовательского фильтра.
 
 ```csharp
 public enum FilterOperatorType
@@ -19,12 +19,12 @@ public enum FilterOperatorType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | LessOrEqual | `0` | Представляет оператор LessOrEqual. |
-| LessThan | `1` | Представляет оператор "меньше чем". |
+| LessThan | `1` | Представляет оператор меньше чем. |
 | Equal | `2` | Представляет оператор равенства. |
 | GreaterThan | `3` | Представляет оператор GreaterThan. |
 | NotEqual | `4` | Представляет оператор NotEqual. |
 | GreaterOrEqual | `5` | Представляет оператор GreaterOrEqual. |
-| None | `6` | Не представляет никакого сравнения. |
+| None | `6` | Не представляет сравнения. |
 | BeginsWith | `7` | Начинается с текста. |
 | EndsWith | `8` | Заканчивается текстом. |
 | Contains | `9` | Содержит текст. |

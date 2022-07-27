@@ -1,14 +1,14 @@
 ---
 title: IsReferred
 second_title: Aspose.Cells for .NET API 参考
-description: 指示此名称是否被其他公式引用
+description: 表示此名称是否被其他公式引用
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/name/isreferred/
 ---
 ## Name.IsReferred property
 
-指示此名称是否被其他公式引用。
+表示此名称是否被其他公式引用。
 
 ```csharp
 public bool IsReferred { get; }

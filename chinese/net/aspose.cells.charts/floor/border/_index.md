@@ -1,14 +1,14 @@
 ---
 title: Border
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置边框Lineaspose.cells.drawing/line
+description: 获取或设置边框Lineaspose.cells.drawing/line.
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.charts/floor/border/
 ---
 ## Floor.Border property
 
-获取或设置边框[`Line`](../../../aspose.cells.drawing/line)。
+获取或设置边框[`Line`](../../../aspose.cells.drawing/line).
 
 ```csharp
 public Line Border { get; set; }

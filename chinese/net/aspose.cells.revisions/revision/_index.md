@@ -1,14 +1,14 @@
 ---
 title: Revision
 second_title: Aspose.Cells for .NET API 参考
-description: 表示修订
+description: 代表修订版
 type: docs
 weight: 5320
 url: /zh/net/aspose.cells.revisions/revision/
 ---
 ## Revision class
 
-表示修订。
+代表修订版。
 
 ```csharp
 public abstract class Revision

@@ -59,7 +59,7 @@ public void Save(string fileName, SaveOptions saveOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя файла. |
-| saveOptions | SaveOptions | Параметры сохранения. |
+| saveOptions | SaveOptions | Варианты сохранения. |
 
 ### Смотрите также
 
@@ -103,7 +103,7 @@ public void Save(Stream stream, SaveOptions saveOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Файловый поток. |
-| saveOptions | SaveOptions | Параметры сохранения. |
+| saveOptions | SaveOptions | Варианты сохранения. |
 
 ### Смотрите также
 
@@ -116,7 +116,7 @@ public void Save(Stream stream, SaveOptions saveOptions)
 
 ## Save(HttpResponse, string, ContentDisposition, SaveOptions) {#save_5}
 
-Создает электронную таблицу результатов и передает ее клиенту, а затем открывает в браузере или MS Workbook.
+Создает электронную таблицу результатов и передает ее клиенту, а затем открывает ее в браузере или MS Workbook.
 
 ```csharp
 public void Save(HttpResponse response, string fileName, ContentDisposition contentDisposition, 
@@ -127,8 +127,8 @@ public void Save(HttpResponse response, string fileName, ContentDisposition cont
 | --- | --- | --- |
 | response | HttpResponse | Объект ответа для возврата электронной таблицы клиенту. |
 | fileName | String | Имя создаваемого файла. |
-| contentDisposition | ContentDisposition | Тип расположения содержимого. |
-| saveOptions | SaveOptions | Параметры сохранения. |
+| contentDisposition | ContentDisposition | Тип размещения контента. |
+| saveOptions | SaveOptions | Варианты сохранения. |
 
 ### Смотрите также
 
@@ -142,7 +142,7 @@ public void Save(HttpResponse response, string fileName, ContentDisposition cont
 
 ## Save(HttpResponse, string, ContentDisposition, SaveOptions, bool) {#save_6}
 
-Создает электронную таблицу результатов и передает ее клиенту, а затем открывает в браузере или MS Workbook.
+Создает электронную таблицу результатов и передает ее клиенту, а затем открывает ее в браузере или MS Workbook.
 
 ```csharp
 public void Save(HttpResponse response, string fileName, ContentDisposition contentDisposition, 
@@ -153,8 +153,8 @@ public void Save(HttpResponse response, string fileName, ContentDisposition cont
 | --- | --- | --- |
 | response | HttpResponse | Объект ответа для возврата электронной таблицы клиенту. |
 | fileName | String | Имя создаваемого файла. |
-| contentDisposition | ContentDisposition | Тип расположения содержимого. |
-| saveOptions | SaveOptions | Параметры сохранения. |
+| contentDisposition | ContentDisposition | Тип размещения контента. |
+| saveOptions | SaveOptions | Варианты сохранения. |
 | enableHttpCompression | Boolean | следует ли использовать сжатие http |
 
 ### Смотрите также

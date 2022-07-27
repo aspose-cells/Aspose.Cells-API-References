@@ -32,7 +32,7 @@ public void ConvertToRange(TableToRangeOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | TableToRangeOptions | опции при преобразовании таблицы в диапазон. |
+| options | TableToRangeOptions | параметры при преобразовании таблицы в диапазон. |
 
 ### Смотрите также
 

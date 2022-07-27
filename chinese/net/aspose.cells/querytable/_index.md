@@ -1,14 +1,14 @@
 ---
 title: QueryTable
 second_title: Aspose.Cells for .NET API 参考
-description: 表示QueryTable信息
+description: 代表QueryTable信息
 type: docs
 weight: 4930
 url: /zh/net/aspose.cells/querytable/
 ---
 ## QueryTable class
 
-表示QueryTable信息。
+代表QueryTable信息。
 
 ```csharp
 public class QueryTable
@@ -31,26 +31,24 @@ public class QueryTable
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 
-//获取第一个worksheet
-
+//获取第一个工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
-//获取worksheet
-
+//获取工作表中的第一个查询表
 QueryTable qt = worksheet.QueryTables[0];
-//获取查询表的显示地址
+//获取查询表的显示地址。
 string address = qt.ResultRange.Address;
 
 [VB.NET]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 
-'获取第一个参考 worksheet
+'获取第一个工作表的引用
 Dim worksheet As Worksheet = workbook.Worksheets(0)
-'获取第一个查询表 worksheet
+'获取工作表中的第一个查询表
 QueryTable qt = worksheet.QueryTables[0];
 '获取查询表的显示地址。
 string address = qt.ResultRange.Address;

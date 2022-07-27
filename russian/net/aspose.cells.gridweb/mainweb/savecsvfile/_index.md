@@ -28,7 +28,7 @@ public void SaveCSVFile(string targetFile)
 
 ## SaveCSVFile(Stream) {#savecsvfile}
 
-Сохраняет данные в файловый поток CSV.
+Сохраняет данные в поток файла CSV.
 
 ```csharp
 public void SaveCSVFile(Stream stream)

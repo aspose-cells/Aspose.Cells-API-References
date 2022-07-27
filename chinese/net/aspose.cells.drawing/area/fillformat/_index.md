@@ -1,14 +1,14 @@
 ---
 title: FillFormat
 second_title: Aspose.Cells for .NET API 参考
-description: 表示对象该对象包含指定图表或形状的填充格式属性
+description: 代表一个包含指定图表或形状的填充格式属性的对象
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.drawing/area/fillformat/
 ---
 ## Area.FillFormat property
 
-表示对象，该对象包含指定图表或形状的填充格式属性。
+代表一个包含指定图表或形状的填充格式属性的对象。
 
 ```csharp
 public FillFormat FillFormat { get; }

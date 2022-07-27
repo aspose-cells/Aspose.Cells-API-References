@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 通过列表中的索引获取ScenarioInputCellaspose.cells/scenarioinputcell
+description: 获取ScenarioInputCellaspose.cells/scenarioinputcell按列表中的索引
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/scenarioinputcellcollection/item/
 ---
 ## ScenarioInputCellCollection indexer
 
-通过列表中的索引获取[`ScenarioInputCell`](../../scenarioinputcell)。
+获取[`ScenarioInputCell`](../../scenarioinputcell)按列表中的索引。
 
 ```csharp
 public ScenarioInputCell this[int index] { get; }
@@ -20,7 +20,7 @@ public ScenarioInputCell this[int index] { get; }
 
 ### 返回值
 
-[`ScenarioInputCell`](../../scenarioinputcell)对象
+这[`ScenarioInputCell`](../../scenarioinputcell)目的
 
 ### 也可以看看
 

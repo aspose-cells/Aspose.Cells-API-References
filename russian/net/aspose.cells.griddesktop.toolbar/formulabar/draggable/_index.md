@@ -1,14 +1,14 @@
 ---
 title: Draggable
 second_title: Справочник по Aspose.Cells для .NET API
-description: получить набор Draggable для поля формул значение по умолчанию - false.
+description: get set Draggable for Formula Box значение по умолчанию  false.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.griddesktop.toolbar/formulabar/draggable/
 ---
 ## FormulaBar.Draggable property
 
-получить набор Draggable для поля формул, значение по умолчанию - false.
+get set Draggable for Formula Box, значение по умолчанию — false.
 
 ```csharp
 public bool Draggable { get; set; }

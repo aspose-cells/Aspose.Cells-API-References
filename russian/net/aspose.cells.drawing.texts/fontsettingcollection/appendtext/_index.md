@@ -1,14 +1,14 @@
 ---
 title: AppendText
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет текст в конец.
+description: Добавляет текст.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.drawing.texts/fontsettingcollection/appendtext/
 ---
 ## FontSettingCollection.AppendText method
 
-Добавляет текст в конец.
+Добавляет текст.
 
 ```csharp
 public void AppendText(string text)

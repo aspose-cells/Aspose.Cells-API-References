@@ -19,26 +19,26 @@ public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top, int upp
 | --- | --- | --- |
 | type | AutoShapeType | 自动形状类型。 |
 | upperLeftRow | Int32 | 左上行索引。 |
-| top | Int32 | 表示Shape从左行的垂直偏移量，以像素为单位。 |
+| top | Int32 | 表示 Shape 与其左行的垂直偏移量，以像素为单位。 |
 | upperLeftColumn | Int32 | 左上列索引。 |
-| left | Int32 | 表示Shape从其左列的水平偏移量，以像素为单位。 |
+| left | Int32 | 表示 Shape 与其左列的水平偏移量，以像素为单位。 |
 | height | Int32 | 表示Shape的高度，以像素为单位。 |
 | width | Int32 | 表示Shape的宽度，以像素为单位。 |
 
 ### 返回值
 
-一个 Shape 对象。
+形状对象。
 
 ### 评论
 
-类型不能是图表/注释/图片/OleObject/多边形/对话框
+类型不能是 Chart/Comment/Picture/OleObject/Polygon/DialogBox
 
 ### 例子
 
 ```csharp
 
 [C#]
- //将自选图形添加到工作表中。
+//将自选图形添加到工作表。
 Shape autoShape = shapes.AddAutoShape(AutoShapeType.Cube, 1, 0, 1, 0, 100, 50);
 ```
 

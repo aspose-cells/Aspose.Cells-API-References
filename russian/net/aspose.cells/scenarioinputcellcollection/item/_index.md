@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПолучаетScenarioInputCellaspose.cells/scenarioinputcellпо индексу в списке.
+description: получаетScenarioInputCellaspose.cells/scenarioinputcell по индексу в списке.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/scenarioinputcellcollection/item/
 ---
 ## ScenarioInputCellCollection indexer
 
-Получает[`ScenarioInputCell`](../../scenarioinputcell)по индексу в списке.
+получает[`ScenarioInputCell`](../../scenarioinputcell) по индексу в списке.
 
 ```csharp
 public ScenarioInputCell this[int index] { get; }
@@ -20,7 +20,7 @@ public ScenarioInputCell this[int index] { get; }
 
 ### Возвращаемое значение
 
-[`ScenarioInputCell`](../../scenarioinputcell)объект
+[`ScenarioInputCell`](../../scenarioinputcell) объект
 
 ### Смотрите также
 

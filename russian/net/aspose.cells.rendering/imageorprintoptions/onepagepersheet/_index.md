@@ -1,14 +1,14 @@
 ---
 title: OnePagePerSheet
 second_title: Справочник по Aspose.Cells для .NET API
-description: Если OnePagePerSheet имеет значение true  все содержимое одного листа будет выводиться только на одну страницу в результате. Размер бумаги в pagesetup будет неверным а другие настройки pagesetup по-прежнему будут действовать.
+description: Если OnePagePerSheet имеет значение true  все содержимое одного листа будет выводиться только на одну страницу в результате. Размер бумаги в pagesetup будет недопустимым а другие настройки pagesetup по-прежнему будут действовать.
 type: docs
 weight: 170
 url: /ru/net/aspose.cells.rendering/imageorprintoptions/onepagepersheet/
 ---
 ## ImageOrPrintOptions.OnePagePerSheet property
 
-Если OnePagePerSheet имеет значение true , все содержимое одного листа будет выводиться только на одну страницу в результате. Размер бумаги в pagesetup будет неверным, а другие настройки pagesetup по-прежнему будут действовать.
+Если OnePagePerSheet имеет значение true , все содержимое одного листа будет выводиться только на одну страницу в результате. Размер бумаги в pagesetup будет недопустимым, а другие настройки pagesetup по-прежнему будут действовать.
 
 ```csharp
 public bool OnePagePerSheet { get; set; }

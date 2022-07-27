@@ -21,8 +21,8 @@ public enum TextVerticalType
 | Vertical | `0` | 东亚垂直显示。 |
 | Horizontal | `1` | 水平文本。 |
 | VerticalLeftToRight | `2` | 垂直显示，文本自上而下流动，然后从左到右 |
-| Vertical90 | `3` | 每行顺时针旋转 90 度 |
-| Vertical270 | `4` | 每行顺时针旋转 270 度 |
+| Vertical90 | `3` | 每条线顺时针旋转 90 度 |
+| Vertical270 | `4` | 每条线顺时针旋转 270 度 |
 | Stacked | `5` | 确定是否所有文本都是垂直的 |
 | StackedRightToLeft | `6` | 指定垂直艺术字应该从右到左而不是从左到右显示。 |
 

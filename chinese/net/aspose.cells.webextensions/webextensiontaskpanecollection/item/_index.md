@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 通过特定索引获取任务窗格
+description: 按特定索引获取任务窗格
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.webextensions/webextensiontaskpanecollection/item/
 ---
 ## WebExtensionTaskPaneCollection indexer
 
-通过特定索引获取任务窗格。
+按特定索引获取任务窗格。
 
 ```csharp
 public WebExtensionTaskPane this[int index] { get; }
@@ -16,7 +16,7 @@ public WebExtensionTaskPane this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引。 |
+| index | 指数。 |
 
 ### 返回值
 

@@ -1,14 +1,14 @@
 ---
 title: ShowStyleDialog
 second_title: Справочник по Aspose.Cells для .NET API
-description: Открывает диалог стиля для установки стиля ячеек шрифта цветов и т. д.
+description: Открывает диалоговое окно стиля для установки стиля ячеек шрифта цветов и т. д.
 type: docs
 weight: 790
 url: /ru/net/aspose.cells.griddesktop/griddesktop/showstyledialog/
 ---
 ## GridDesktop.ShowStyleDialog method
 
-Открывает диалог стиля, для установки стиля ячеек, шрифта, цветов и т. д.
+Открывает диалоговое окно стиля для установки стиля ячеек, шрифта, цветов и т. д.
 
 ```csharp
 public void ShowStyleDialog()

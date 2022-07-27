@@ -1,14 +1,14 @@
 ---
 title: AltText
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置图片链接的替代文本请注意这是扩展属性不能保存在 excel 文件中
+description: 获取或设置图片链接的替代文本请注意这是扩展属性不能保存在excel文件中
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.gridweb.data/gridhyperlink/alttext/
 ---
 ## GridHyperlink.AltText property
 
-获取或设置图片链接的替代文本，请注意这是扩展属性，不能保存在 excel 文件中
+获取或设置图片链接的替代文本，请注意这是扩展属性，不能保存在excel文件中
 
 ```csharp
 public string AltText { get; set; }

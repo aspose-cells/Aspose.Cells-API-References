@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Справочник по Aspose.Cells для .NET API
-description: Используется только время разработки.
+description: Используется только время проектирования.
 type: docs
 weight: 130
 url: /ru/net/aspose.cells.gridweb/bindcolumn/name/
 ---
 ## BindColumn.Name property
 
-Используется только время разработки.
+Используется только время проектирования.
 
 ```csharp
 public string Name { get; }

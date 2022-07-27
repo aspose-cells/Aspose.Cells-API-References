@@ -1,14 +1,14 @@
 ---
 title: SetFont
 second_title: Aspose.Cells for .NET API 参考
-description: 将字体设置为单元格 为了提高性能实现SetFont方法 不实现Font属性
+description: 为单元格设置字体 为提高性能实现SetFont方法 不实现字体属性
 type: docs
 weight: 380
 url: /zh/net/aspose.cells.griddesktop.data/gridcell/setfont/
 ---
 ## GridCell.SetFont method
 
-将字体设置为单元格。 为了提高性能，实现“SetFont”方法， 不实现“Font”属性。
+为单元格设置字体。 为提高性能，实现“SetFont”方法， 不实现“字体”属性。
 
 ```csharp
 public void SetFont(Font font)

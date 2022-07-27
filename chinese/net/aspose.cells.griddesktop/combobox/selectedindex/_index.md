@@ -1,14 +1,14 @@
 ---
 title: SelectedIndex
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置指定当前选定项的索引 设置索引将调用 GridDesktop.RunAllFormulas 方法 如果 GridDesktop.RecalculateFormulas 属性为 true则自动
+description: 获取或设置指定当前选定项的索引 设置索引将调用 GridDesktop.RunAllFormulas 方法
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.griddesktop/combobox/selectedindex/
 ---
 ## ComboBox.SelectedIndex property
 
-获取或设置指定当前选定项的索引。 设置索引将调用 GridDesktop.RunAllFormulas 方法 如果 GridDesktop.RecalculateFormulas 属性为 true，则自动。
+获取或设置指定当前选定项的索引。 设置索引将调用 GridDesktop.RunAllFormulas 方法
 
 ```csharp
 public int SelectedIndex { get; set; }

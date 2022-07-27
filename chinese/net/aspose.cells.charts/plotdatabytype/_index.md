@@ -19,7 +19,7 @@ public enum PlotDataByType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Row | `0` | 按行。 |
-| Column | `1` | 按列。 |
+| Column | `1` | 按列. |
 
 ### 也可以看看
 

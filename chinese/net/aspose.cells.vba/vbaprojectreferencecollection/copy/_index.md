@@ -16,7 +16,7 @@ public void Copy(VbaProjectReferenceCollection source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | VbaProjectReferenceCollection | 源引用。 |
+| source | VbaProjectReferenceCollection | 来源参考。 |
 
 ### 也可以看看
 

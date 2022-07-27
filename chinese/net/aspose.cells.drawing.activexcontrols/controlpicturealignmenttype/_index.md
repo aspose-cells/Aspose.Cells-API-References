@@ -1,14 +1,14 @@
 ---
 title: ControlPictureAlignmentType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示图片在Form或Image内部的对齐方式
+description: 代表图片在Form或Image内部的对齐方式
 type: docs
 weight: 1560
 url: /zh/net/aspose.cells.drawing.activexcontrols/controlpicturealignmenttype/
 ---
 ## ControlPictureAlignmentType enumeration
 
-表示图片在Form或Image内部的对齐方式。
+代表图片在Form或Image内部的对齐方式。
 
 ```csharp
 public enum ControlPictureAlignmentType

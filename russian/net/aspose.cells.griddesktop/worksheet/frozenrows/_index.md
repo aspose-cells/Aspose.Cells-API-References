@@ -1,14 +1,14 @@
 ---
 title: FrozenRows
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает количество замороженных строк рабочего листа. Frozen начнется с первого ряда.
+description: Получает или задает количество замороженных строк рабочего листа. Frozen начнется с первой строки.
 type: docs
 weight: 190
 url: /ru/net/aspose.cells.griddesktop/worksheet/frozenrows/
 ---
 ## Worksheet.FrozenRows property
 
-Получает или задает количество замороженных строк рабочего листа. Frozen начнется с первого ряда.
+Получает или задает количество замороженных строк рабочего листа. Frozen начнется с первой строки.
 
 ```csharp
 public int FrozenRows { get; set; }

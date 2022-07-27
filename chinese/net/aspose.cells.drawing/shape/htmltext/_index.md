@@ -1,14 +1,14 @@
 ---
 title: HtmlText
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置该文本框中包含数据和某些格式的 html 字符串
+description: 获取和设置该文本框中包含数据和一些格式的html字符串
 type: docs
 weight: 220
 url: /zh/net/aspose.cells.drawing/shape/htmltext/
 ---
 ## Shape.HtmlText property
 
-获取和设置该文本框中包含数据和某些格式的 html 字符串。
+获取和设置该文本框中包含数据和一些格式的html字符串。
 
 ```csharp
 public string HtmlText { get; set; }

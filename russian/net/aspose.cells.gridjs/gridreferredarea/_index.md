@@ -20,12 +20,12 @@ public class GridReferredArea
 | --- | --- |
 | [EndColumn](../../aspose.cells.gridjs/gridreferredarea/endcolumn) { get; } | Конечный столбец области. |
 | [EndRow](../../aspose.cells.gridjs/gridreferredarea/endrow) { get; } | Конечная строка области. |
-| [ExternalFileName](../../aspose.cells.gridjs/gridreferredarea/externalfilename) { get; } | this.KeepedRels = source.KeepedRels; |
+| [ExternalFileName](../../aspose.cells.gridjs/gridreferredarea/externalfilename) { get; } | this.KeepedRels = источник.KeepedRels; |
 | [IsArea](../../aspose.cells.gridjs/gridreferredarea/isarea) { get; } | Указывает, является ли это областью. |
 | [IsExternalLink](../../aspose.cells.gridjs/gridreferredarea/isexternallink) { get; } | Указывает, является ли это внешней ссылкой. |
 | [SheetName](../../aspose.cells.gridjs/gridreferredarea/sheetname) { get; } | Указывает, на каком листе находится |
 | [StartColumn](../../aspose.cells.gridjs/gridreferredarea/startcolumn) { get; } | Начальный столбец области. |
-| [StartRow](../../aspose.cells.gridjs/gridreferredarea/startrow) { get; } | Начальный ряд области. |
+| [StartRow](../../aspose.cells.gridjs/gridreferredarea/startrow) { get; } | Начальная строка области. |
 
 ## Методы
 

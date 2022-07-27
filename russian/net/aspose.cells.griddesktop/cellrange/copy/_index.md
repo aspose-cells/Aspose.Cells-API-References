@@ -16,7 +16,7 @@ public void Copy(CellRange cellRange)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cellRange | CellRange | Объект CellRange, из которого выполняется копирование. |
+| cellRange | CellRange | Объект CellRange для копирования. |
 
 ### Смотрите также
 

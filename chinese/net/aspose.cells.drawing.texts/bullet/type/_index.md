@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置项目符号类型
+description: 获取和设置子弹类型
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.drawing.texts/bullet/type/
 ---
 ## Bullet.Type property
 
-获取和设置项目符号类型。
+获取和设置子弹类型。
 
 ```csharp
 public BulletType Type { get; set; }

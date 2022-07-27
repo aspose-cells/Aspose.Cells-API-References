@@ -1,14 +1,14 @@
 ---
 title: TrimLeadingBlankRowAndColumn
 second_title: Aspose.Cells for .NET API 参考
-description: 指示是否应该像 ms excel 那样修剪前导空白行和列 默认为真
+description: 指示是否应该像 ms excel 那样修剪前导空白行和列 默认为 true
 type: docs
 weight: 120
 url: /zh/net/aspose.cells/txtsaveoptions/trimleadingblankrowandcolumn/
 ---
 ## TxtSaveOptions.TrimLeadingBlankRowAndColumn property
 
-指示是否应该像 ms excel 那样修剪前导空白行和列。 默认为真。
+指示是否应该像 ms excel 那样修剪前导空白行和列。 默认为 true。
 
 ```csharp
 public bool TrimLeadingBlankRowAndColumn { get; set; }
@@ -16,7 +16,7 @@ public bool TrimLeadingBlankRowAndColumn { get; set; }
 
 ### 评论
 
-与ms excel中的规则相同，如果行/列不被视为空白具有自定义样式 即使它不包含单元格数据。 使用 LightCells 模式保存时，此选项无效。 用户应通过执行[`LightCellsDataProvider`](../lightcellsdataprovider) 或指定P来控制输出范围:Aspose.Cells.TxtSaveOptions.ExportArea
+与ms excel中的规则相同，如果行/列有自定义样式，则不会被视为空白， 即使它不包含单元格数据。 使用LightCells模式保存时，此选项无效。 用户应该通过执行控制输出范围[`LightCellsDataProvider`](../lightcellsdataprovider) 或通过指定[`ExportArea`](../exportarea)
 
 ### 也可以看看
 

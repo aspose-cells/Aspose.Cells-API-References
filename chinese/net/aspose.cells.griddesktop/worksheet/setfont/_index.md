@@ -1,14 +1,14 @@
 ---
 title: SetFont
 second_title: Aspose.Cells for .NET API 参考
-description: 将字体对象设置为 cellRange
+description: 将字体对象设置为 cellRange.
 type: docs
 weight: 1050
 url: /zh/net/aspose.cells.griddesktop/worksheet/setfont/
 ---
 ## Worksheet.SetFont method
 
-将字体对象设置为 cellRange。
+将字体对象设置为 cellRange.
 
 ```csharp
 public void SetFont(CellRange range, Font font)
@@ -16,7 +16,7 @@ public void SetFont(CellRange range, Font font)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| range | CellRange | CellRange 对象。 |
+| range | CellRange | 单元格范围对象。 |
 | font | Font | 要设置的字体对象。 |
 
 ### 也可以看看

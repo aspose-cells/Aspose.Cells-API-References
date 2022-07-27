@@ -1,14 +1,14 @@
 ---
 title: ShowType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示智能标签的显示类型
+description: 代表智能标签的显示类型
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.markup/smarttagoptions/showtype/
 ---
 ## SmartTagOptions.ShowType property
 
-表示智能标签的显示类型。
+代表智能标签的显示类型。
 
 ```csharp
 public SmartTagShowType ShowType { get; set; }

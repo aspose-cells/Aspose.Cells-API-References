@@ -18,8 +18,8 @@ public CellArea SetDynamicArrayFormula(string arrayFormula, FormulaParseOptions 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arrayFormula | String | 公式表达式 |
-| options | FormulaParseOptions | 解析公式的选项. "Parse" 选项将被忽略，公式将始终立即解析 |
-| calculateValue | Boolean | 是否为这些单元格计算此动态数组公式溢出的范围。 |
+| options | FormulaParseOptions | 解析公式的选项。 “解析”选项将被忽略，公式将始终立即解析 |
+| calculateValue | Boolean | 是否为溢出范围内的那些单元格计算此动态数组公式。 |
 
 ### 返回值
 
@@ -47,10 +47,10 @@ public CellArea SetDynamicArrayFormula(string arrayFormula, FormulaParseOptions 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arrayFormula | String | 公式表达式 |
-| options | FormulaParseOptions | 解析公式的选项. "Parse" 选项将被忽略，公式将始终立即解析 |
-| values | Object[][] | 具有给定动态数组公式的单元格的值 |
+| options | FormulaParseOptions | 解析公式的选项。 “解析”选项将被忽略，公式将始终立即解析 |
+| values | Object[][] | 具有给定动态数组公式的那些单元格的值 |
 | calculateRange | Boolean | 是否计算此动态数组公式的溢出范围。 如果“values”参数不为空且此标志为假， 则溢出范围的高度将为 values.Length 和 width 将为 values[0].Length。 |
-| calculateValue | Boolean | 当“values”为null 或一个单元格的“值”中的相应项目为空。 |
+| calculateValue | Boolean | 当“values”为null 或一个单元格的“values”中的对应项为null时，是否为溢出范围内的单元格计算此动态数组公式。 |
 
 ### 返回值
 

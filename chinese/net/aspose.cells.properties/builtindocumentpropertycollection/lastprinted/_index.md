@@ -16,9 +16,9 @@ public DateTime LastPrinted { get; set; }
 
 ### 评论
 
-如果文档从未打印，此属性将返回 DateTime.MinValue。
+如果从未打印过文档，则此属性将返回 DateTime.MinValue。
 
-Aspose.Cells 在您修改文档时不会更新此属性。
+当您修改文档时，Aspose.Cells 不会更新此属性。
 
 ### 也可以看看
 

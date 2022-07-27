@@ -1,14 +1,14 @@
 ---
 title: IsDragBehaviorEnabled
 second_title: Aspose.Cells for .NET API 参考
-description: 表示控件是否启用拖放
+description: 表示控件是否启用拖放功能
 type: docs
 weight: 100
 url: /zh/net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/isdragbehaviorenabled/
 ---
 ## ComboBoxActiveXControl.IsDragBehaviorEnabled property
 
-表示控件是否启用拖放。
+表示控件是否启用拖放功能。
 
 ```csharp
 public bool IsDragBehaviorEnabled { get; set; }

@@ -20,7 +20,7 @@ public bool IsColumnHidden(int columnIndex)
 
 ### 返回值
 
-如果列被隐藏，则为 true。
+如果该列被隐藏，则为 true。
 
 ### 也可以看看
 

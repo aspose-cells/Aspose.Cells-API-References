@@ -1,14 +1,14 @@
 ---
 title: TopMarginPt
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает верхнее поле в пунктах
+description: Возвращает верхнюю границу в баллах
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.drawing/msotextframe/topmarginpt/
 ---
 ## MsoTextFrame.TopMarginPt property
 
-Возвращает верхнее поле в пунктах
+Возвращает верхнюю границу в баллах
 
 ```csharp
 public double TopMarginPt { get; set; }

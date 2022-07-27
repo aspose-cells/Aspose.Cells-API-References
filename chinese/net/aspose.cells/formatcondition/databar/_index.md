@@ -1,14 +1,14 @@
 ---
 title: DataBar
 second_title: Aspose.Cells for .NET API 参考
-description: 获取条件格式的DataBar实例 默认实例的颜色是蓝色 仅对类型为 DataBar 有效
+description: 获取条件格式的DataBar实例 默认实例的颜色为蓝色 仅对类型为DataBar有效
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/formatcondition/databar/
 ---
 ## FormatCondition.DataBar property
 
-获取条件格式的“DataBar”实例。 默认实例的颜色是蓝色。 仅对类型为 DataBar 有效。
+获取条件格式的“DataBar”实例。 默认实例的颜色为蓝色。 仅对类型为DataBar有效。
 
 ```csharp
 public DataBar DataBar { get; }

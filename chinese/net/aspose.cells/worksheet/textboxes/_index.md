@@ -1,14 +1,14 @@
 ---
 title: TextBoxes
 second_title: Aspose.Cells for .NET API 参考
-description: 获取TextBoxaspose.cells.drawing/textbox集合
+description: 得到一个TextBoxaspose.cells.drawing/textbox集合.
 type: docs
 weight: 480
 url: /zh/net/aspose.cells/worksheet/textboxes/
 ---
 ## Worksheet.TextBoxes property
 
-获取[`TextBox`](../../../aspose.cells.drawing/textbox)集合。
+得到一个[`TextBox`](../../../aspose.cells.drawing/textbox)集合.
 
 ```csharp
 public TextBoxCollection TextBoxes { get; }

@@ -17,7 +17,7 @@ public void CopySettings(Row source, bool checkStyle)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | source | Row | 其设置将被复制到这一行的源行 |
-| checkStyle | Boolean | 是否检查和收集样式。 仅当两个行对象属于不同的工作簿且两个工作簿的样式不同时才生效和需要。 |
+| checkStyle | Boolean | 是否检查和收集样式。 仅当两个行对象属于不同的工作簿并且两个工作簿的样式不同时才生效和需要。 |
 
 ### 也可以看看
 

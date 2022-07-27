@@ -27,8 +27,8 @@ public class FormulaBar : UserControl
 | --- | --- |
 | [Draggable](../../aspose.cells.griddesktop.toolbar/formulabar/draggable) { get; set; } | 为公式框设置可拖动，默认值为 false。 |
 | [GridDesktop](../../aspose.cells.griddesktop.toolbar/formulabar/griddesktop) { get; set; } | 获取或设置此 FormalBar 将应用于的 GridDesktop 控件。 |
-| [Resizable](../../aspose.cells.griddesktop.toolbar/formulabar/resizable) { get; set; } | 为公式框设置可调整大小，默认值为 false。设置时不适合 ScrollBars.None |
-| [ScrollBars](../../aspose.cells.griddesktop.toolbar/formulabar/scrollbars) { get; set; } | 获取或设置公式框的滚动条。默认值为 ScrollBars.Verticals 。设置 ScrollBars 时。无公式框自动加高。 |
+| [Resizable](../../aspose.cells.griddesktop.toolbar/formulabar/resizable) { get; set; } | 为公式框设置可调整大小，默认值为 false。设置 ScrollBars.None 时不适合 |
+| [ScrollBars](../../aspose.cells.griddesktop.toolbar/formulabar/scrollbars) { get; set; } | 获取或设置公式框的滚动条。默认值为 ScrollBars.Verticals。设置 ScrollBars 时。无公式框自动加高。 |
 
 ### 也可以看看
 

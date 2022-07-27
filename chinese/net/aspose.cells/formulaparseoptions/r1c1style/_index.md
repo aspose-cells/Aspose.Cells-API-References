@@ -1,14 +1,14 @@
 ---
 title: R1C1Style
 second_title: Aspose.Cells for .NET API 参考
-description: 公式是否为R1C1引用样式默认为假
+description: 公式是否为 R1C1 引用样式默认为假
 type: docs
 weight: 50
 url: /zh/net/aspose.cells/formulaparseoptions/r1c1style/
 ---
 ## FormulaParseOptions.R1C1Style property
 
-公式是否为R1C1引用样式。默认为假。
+公式是否为 R1C1 引用样式。默认为假。
 
 ```csharp
 public bool R1C1Style { get; set; }

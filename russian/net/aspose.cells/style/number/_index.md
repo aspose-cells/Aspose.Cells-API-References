@@ -16,7 +16,229 @@ public int Number { get; set; }
 
 ### Примечания
 
-Например, шаблоны форматирования, представленные числами для региона en_US: &lt;table class="dtTABLE" cellpacing="0"&gt;&lt;tr&gt;&lt;td width="33%"&gt;&lt;font color="gray"&gt; **Значение** &lt;/font&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;font color="gray"&gt; **Тип** &lt;/font&gt;&lt;/td&gt; &lt;td width="33%"&gt;&lt;font color="gray"&gt; **Строка формата** &lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt; &lt;td width="33%"&gt;0&lt;/td&gt;&lt;td width="33%"&gt;Общие&lt;/td&gt;&lt;td width="33%"&gt;Общие&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt; td width="33%"&gt;1&lt;/td&gt;&lt;td width="33%"&gt;Десятичный&lt;/td&gt;&lt;td width="33%"&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;2&lt;/td&gt;&lt;td width="33%"&gt;Десятичный&lt;/td&gt;&lt;td width="33%"&gt;0,00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td ширина ="33%"&gt;3&lt;/td&gt;&lt;td width="33%"&gt;Десятичный&lt;/td&gt;&lt;td width="33%"&gt;#,##0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt; &lt;td width="33%"&gt;4&lt;/td&gt;&lt;td width="33%"&gt;Десятичный&lt;/td&gt;&lt;td width="33%"&gt;#,##0.00&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td width="33%"&gt;5&lt;/td&gt;&lt;td width="33%"&gt;Валюта&lt;/td&gt;&lt;td width="33%"&gt;$#,##0_);($ #,##0)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;6 &lt;/td&gt;&lt;td width="33%"&gt;Валюта&lt;/td&gt;&lt;td width="33%"&gt;$#,##0_);[Красный]($#,##0)&lt;/td&gt; &lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;7&lt;/td&gt;&lt;td width="33%"&gt;Валюта&lt;/td&gt;&lt;td width="33%"&gt;$#,##0,00 _);($#,##0.00)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;8&lt;/td&gt;&lt;td width="33%"&gt;Валюта&lt;/td&gt; &lt;td width="33%"&gt;$#,##0.00_);[Красный]($#,##0.00)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;9 &lt;/td&gt;&lt;td width="33%"&gt;Процент&lt;/td&gt;&lt;td width="33%"&gt;0%&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;10 &lt;/td&gt;&lt;td width="33%"&gt;Процент&lt;/td&gt;&lt;td width="33%"&gt;0,00%&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;11 &lt;/td&gt;&lt;td width="33%"&gt;Научная&lt;/td&gt;&lt;td width="33%"&gt;0,00E+00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%" &gt;12&lt;/td&gt;&lt;td width="33%"&gt;Дробь&lt;/td&gt;&lt;td width="33%"&gt;# ?/?&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33 %"&gt;13&lt;/td&gt;&lt;td width="33%"&gt;Дробь&lt;/td&gt;&lt;td width="33%"&gt;# ??/??&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;14&lt;/td&gt;&lt;td width="33%"&gt;Дата&lt;/td&gt;&lt;td width="33%"&gt;м/д/гггг&lt;/td&gt;&lt;/tr&gt;&lt;tr &gt;&lt;td width="33%"&gt;15&lt;/td&gt;&lt;td width="33%"&gt;Дата&lt;/td&gt;&lt;td width="33%"&gt;д-ммм-гг&lt;/td&gt;&lt;/tr &gt;&lt;tr&gt;&lt;td width="33%"&gt;16&lt;/td&gt;&lt;td width="33%"&gt;Дата&lt;/td&gt;&lt;td width="33%"&gt;д-ммм&lt;/td&gt;&lt;/ тр&gt;&lt;тр&gt;&lt;тд width="33%"&gt;17&lt;/td&gt;&lt;td width="33%"&gt;Дата&lt;/td&gt;&lt;td width="33%"&gt;ммм-гг&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt; td width="33%"&gt;18&lt;/td&gt;&lt;td width="33%"&gt;Время&lt;/td&gt;&lt;td width="33%"&gt;ч:мм AM/PM&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td width="33%"&gt;19&lt;/td&gt;&lt;td width="33%"&gt;Время&lt;/td&gt;&lt;td width="33%"&gt;ч:мм:сс AM/PM&lt;/ td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;20&lt;/td&gt;&lt;td width="33%"&gt;Время&lt;/td&gt;&lt;td width="33%"&gt;ч:мм&lt; /td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;21&lt;/td&gt;&lt;td width="33%"&gt;Время&lt;/td&gt;&lt;td width="33%"&gt;ч:мм:ss&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;22&lt;/td&gt;&lt;td width="33%"&gt;Время&lt;/td&gt;&lt;td width="33%"&gt; м/д/гггг ч:мм&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;37&lt;/td&gt;&lt;td width="33%"&gt;Учет&lt;/td&gt;&lt;td ширина ="33%"&gt;#,##0_);(#,##0)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;38&lt;/td&gt;&lt;td width=" 33%"&gt;Бухгалтерский учет&lt;/td&gt;&lt;td width="33%"&gt;#,##0_);[Red](#,##0)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width= "33%"&gt;39&lt;/td&gt;&lt;td width="33%"&gt;Бухгалтерский учет&lt;/td&gt;&lt;td width="33%"&gt;#,##0,00_);(#,##0,00)&lt;/ td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;40&lt;/td&gt;&lt;td width="33%"&gt;Бухгалтерский учет&lt;/td&gt;&lt;td width="33%"&gt;#,## 0.00_);[Красный](#,##0.00)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;41&lt;/td&gt;&lt;td width="33%"&gt;Бухгалтерский учет&lt; /td&gt;&lt;td ширина=" 33%"&gt;_(* #,##0_);_(* (#,##0);_(* "-"_);_(@_)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt; &lt;td width="33%"&gt;42&lt;/td&gt;&lt;td width="33%"&gt;Валюта&lt;/td&gt;&lt;td width="33%"&gt;_($* #,##0_);_( $* (#,##0);_($* "-"_);_(@_)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;43&lt;/td&gt; &lt;td width="33%"&gt;Учет&lt;/td&gt;&lt;td width="33%"&gt;_(* #,##0.00_);_(* (#,##0.00);_(* "- "??_);_(@_)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;44&lt;/td&gt;&lt;td width="33%"&gt;Валюта&lt;/td&gt; &lt;td width="33%"&gt;_($* #,##0.00_);_($* (#,##0.00);_($* "-"??_);_(@_) &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;45&lt;/td&gt;&lt;td width="33%"&gt;Время&lt;/td&gt;&lt;td width="33%"&gt;мм:сс&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;46&lt;/td&gt;&lt;td width="33%"&gt;Время&lt;/td&gt;&lt;td width="33%"&gt;[ ч]:мм:сс&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;47&lt;/td&gt;&lt;td width="33%"&gt;Время&lt;/td&gt;&lt;td width=" 33%"&gt;мм:сс.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;48&lt;/td&gt;&lt;td width="33%"&gt;Научная&lt;/td&gt;&lt;td width="33%"&gt;##0.0E+0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;49&lt;/td&gt;&lt;td width="33%"&gt;Текст&lt;/ td&gt;&lt;td width="33%"&gt;@&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+Например, шаблоны форматирования, представленные числами для региона en_US:
+
+**Ценность**
+
+**Тип**
+
+**Строка формата**
+
+0
+
+Общий
+
+`Общий`
+
+1
+
+Десятичный
+
+`0`
+
+2
+
+Десятичный
+
+`0,00`
+
+3
+
+Десятичный
+
+`#,##0`
+
+4
+
+Десятичный
+
+`#,##0.00`
+
+5
+
+Валюта
+
+`$#,##0_);($#,##0)`
+
+6
+
+Валюта
+
+`$#,##0_);[Красный]($#,##0)`
+
+7
+
+Валюта
+
+`$#,##0.00_);($#,##0.00)`
+
+8
+
+Валюта
+
+`$#,##0.00_);[Красный]($#,##0.00)`
+
+9
+
+Процент
+
+`0%`
+
+10
+
+Процент
+
+`0,00%`
+
+11
+
+Научный
+
+`0.00E+00`
+
+12
+
+Дробная часть
+
+`# ?/?`
+
+13
+
+Дробная часть
+
+`# ??/??`
+
+14
+
+Свидание
+
+`м/д/гггг`
+
+15
+
+Свидание
+
+`д-ммм-гг`
+
+16
+
+Свидание
+
+`д-ммм`
+
+17
+
+Свидание
+
+`ммм-гг`
+
+18
+
+Время
+
+`ч:мм AM/PM`
+
+19
+
+Время
+
+`ч:мм:сс AM/PM`
+
+20
+
+Время
+
+`хм`
+
+21
+
+Время
+
+`ч:мм:сс`
+
+22
+
+Время
+
+`м/д/гггг ч:мм`
+
+37
+
+Бухгалтерский учет
+
+`#,##0_);(#,##0)`
+
+38
+
+Бухгалтерский учет
+
+`#,##0_);[Красный](#,##0)`
+
+39
+
+Бухгалтерский учет
+
+`#,##0.00_);(#,##0.00)`
+
+40
+
+Бухгалтерский учет
+
+`#,##0.00_);[Красный](#,##0.00)`
+
+41
+
+Бухгалтерский учет
+
+`_(* #,##0_);_(* (#,##0);_(* "-"_);_(@_)`
+
+42
+
+Валюта
+
+`_($* #,##0_);_($* (#,##0);_($* "-"_);_(@_)`
+
+43
+
+Бухгалтерский учет
+
+`_(* #,##0.00_);_(* (#,##0.00);_(* "-"??_);_(@_)`
+
+44
+
+Валюта
+
+`_($* #,##0.00_);_($* (#,##0.00);_($* "-"??_);_(@_)`
+
+45
+
+Время
+
+`мм:сс`
+
+46
+
+Время
+
+`[ч]:мм:сс`
+
+47
+
+Время
+
+`мм:сс.0`
+
+48
+
+Научный
+
+`##0.0E+0`
+
+49
+
+Текст
+
+`@`
 
 ### Смотрите также
 

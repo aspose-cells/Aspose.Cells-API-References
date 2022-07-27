@@ -1,14 +1,14 @@
 ---
 title: Texture
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает тип заливки текстуры.
+description: Получает тип заливки текстурой.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.drawing/msofillformathelper/texture/
 ---
 ## MsoFillFormatHelper.Texture property
 
-Получает тип заливки текстуры.
+Получает тип заливки текстурой.
 
 ```csharp
 public TextureType Texture { get; }

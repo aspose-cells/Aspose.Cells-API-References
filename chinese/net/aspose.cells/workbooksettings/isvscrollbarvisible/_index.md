@@ -16,19 +16,19 @@ public bool IsVScrollBarVisible { get; set; }
 
 ### 评论
 
-默认值为真。
+默认值是true。
 
 ### 例子
 
-以下代码使垂直滚动条对电子表格不可见。
+以下代码使电子表格的垂直滚动条不可见。
 
 ```csharp
 [C#]
- //隐藏Excel文件的垂直滚动条
+//隐藏Excel文件的垂直滚动条。
 settings.IsVScrollBarVisible = false;
 
 [Visual Basic]
-'隐藏Excel文件的垂直滚动条
+'隐藏 Excel 文件的垂直滚动条。
 settings.IsVScrollBarVisible = False
 ```
 

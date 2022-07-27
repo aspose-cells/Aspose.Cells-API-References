@@ -1,14 +1,14 @@
 ---
 title: MinRow
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置网页的最小显示行索引从零开始 控件使用 MinRow 和工作表数据的最小行的较小值
+description: 获取或设置网页表格的最小显示行索引从零开始 控件使用MinRow和表格数据最小行的较小值
 type: docs
 weight: 500
 url: /zh/net/aspose.cells.gridweb/mainweb/minrow/
 ---
 ## MainWeb.MinRow property
 
-获取或设置网页的最小显示行索引（从零开始）。 控件使用 MinRow 和工作表数据的最小行的较小值。
+获取或设置网页表格的最小显示行索引（从零开始）。 控件使用MinRow和表格数据最小行的较小值。
 
 ```csharp
 public int MinRow { get; set; }
@@ -18,14 +18,14 @@ public int MinRow { get; set; }
 
 ```csharp
 [C#]
-	  // 创建一个 4x4 的“显示窗口”.
+	// 创建一个 4x4 的“显示窗口”。
 	GridWeb1.MinRow = 2;
 	GridWeb1.MaxRow = 5;
 	GridWeb1.MinColumn = 3;
 	GridWeb1.MaxColumn = 6;
 
 [Visual Basic]
-	' 创建一个 4x4 的“显示窗口”.
+	' Creates a 4x4 "display window".
 	GridWeb1.MinRow = 2
 	GridWeb1.MaxRow = 5
 	GridWeb1.MinColumn = 3

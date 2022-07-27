@@ -1,25 +1,25 @@
 ---
 title: Aspose.Cells.Tables
 second_title: Aspose.Cells for .NET API 参考
-description: 包含表列表对象的所有类
+description: 包含 TableList Object 的所有类
 type: docs
 weight: 190
 url: /zh/net/aspose.cells.tables/
 ---
-包含表（列表对象）的所有类。
+包含 Table(List Object) 的所有类。
 
 ## 课程
 
 | 班级 | 描述 |
 | --- | --- |
 | [ListColumn](./listcolumn) | 表示列表中的一列。 |
-| [ListColumnCollection](./listcolumncollection) | 表示指定 ListObject 对象中所有[`ListColumn`](../aspose.cells.tables/listcolumn)对象的集合。 |
+| [ListColumnCollection](./listcolumncollection) | 代表所有的集合[`ListColumn`](../aspose.cells.tables/listcolumn)指定 ListObject 对象中的对象。 |
 | [ListObject](./listobject) | 表示工作表上的列表对象。 ListObject 对象是 ListObjects 集合的成员。 ListObjects 集合包含工作表上的所有列表对象。 |
-| [ListObjectCollection](./listobjectcollection) | 表示工作表中[`ListObject`](../aspose.cells.tables/listobject)对象的集合。 |
-| [TableStyle](./tablestyle) | 表示表格样式。 |
+| [ListObjectCollection](./listobjectcollection) | 代表一个集合[`ListObject`](../aspose.cells.tables/listobject)工作表中的对象。 |
+| [TableStyle](./tablestyle) | 代表表格样式。 |
 | [TableStyleCollection](./tablestylecollection) | 代表所有自定义表格样式。 |
-| [TableStyleElement](./tablestyleelement) | 表示表格样式的元素。 |
-| [TableStyleElementCollection](./tablestyleelementcollection) | 表示表格样式的所有元素。 |
+| [TableStyleElement](./tablestyleelement) | 代表表格样式的元素。 |
+| [TableStyleElementCollection](./tablestyleelementcollection) | 代表表格样式的所有元素。 |
 | [TableToRangeOptions](./tabletorangeoptions) | 表示将表格转换为范围时的选项。 |
 ## 枚举
 

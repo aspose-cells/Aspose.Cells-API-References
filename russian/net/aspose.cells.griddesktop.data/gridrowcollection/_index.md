@@ -1,14 +1,14 @@
 ---
 title: GridRowCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует набор объектовGridRow./gridrow.
+description: Инкапсулирует наборGridRow./gridrowобъекты.
 type: docs
 weight: 680
 url: /ru/net/aspose.cells.griddesktop.data/gridrowcollection/
 ---
 ## GridRowCollection class
 
-Инкапсулирует набор объектов[`GridRow`](../gridrow).
+Инкапсулирует набор[`GridRow`](../gridrow)объекты.
 
 ```csharp
 public class GridRowCollection
@@ -19,7 +19,7 @@ public class GridRowCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.cells.griddesktop.data/gridrowcollection/count) { get; } |  |
-| [Item](../../aspose.cells.griddesktop.data/gridrowcollection/item) { get; } | Получает объектпо заданному индексу строки. Объект Row с заданным индексом строки будет создан, если он не существовал ранее. |
+| [Item](../../aspose.cells.griddesktop.data/gridrowcollection/item) { get; } | Получает объект по заданному индексу строки. Объект Row с заданным индексом строки будет создан, если он не существовал ранее. |
 
 ## Методы
 

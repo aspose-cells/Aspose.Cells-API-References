@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.drawing/shape/formatpicture/
 ---
 ## Shape.FormatPicture property
 
-获取和设置图片格式的选项。
+获取和设置图片格式的选项
 
 ```csharp
 public MsoFormatPicture FormatPicture { get; }

@@ -1,14 +1,14 @@
 ---
 title: Transpose
 second_title: Справочник по Aspose.Cells для .NET API
-description: Значение true для транспонирования строк и столбцов при вставке диапазона. Значение по умолчанию неверно.
+description: Истина для транспонирования строк и столбцов при вставке диапазона. Значение по умолчанию  False. .
 type: docs
 weight: 60
 url: /ru/net/aspose.cells/pasteoptions/transpose/
 ---
 ## PasteOptions.Transpose property
 
-Значение true для транспонирования строк и столбцов при вставке диапазона. Значение по умолчанию неверно.
+Истина для транспонирования строк и столбцов при вставке диапазона. Значение по умолчанию — False. .
 
 ```csharp
 public bool Transpose { get; set; }

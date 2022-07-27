@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions
 second_title: Справочник по Aspose.Cells для .NET API
-description: Создает параметры для сохранения документа уценки
+description: Создает параметры для сохранения уценки document
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/markdownsaveoptions/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions constructor
 
-Создает параметры для сохранения документа уценки
+Создает параметры для сохранения уценки document
 
 ```csharp
 public MarkdownSaveOptions()

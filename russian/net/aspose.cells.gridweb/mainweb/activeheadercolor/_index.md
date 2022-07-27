@@ -1,14 +1,14 @@
 ---
 title: ActiveHeaderColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает цвет заголовка активной строки/столбца.
+description: Определяет цвет заголовка активной строки/столбца.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.gridweb/mainweb/activeheadercolor/
 ---
 ## MainWeb.ActiveHeaderColor property
 
-Задает цвет заголовка активной строки/столбца.
+Определяет цвет заголовка активной строки/столбца.
 
 ```csharp
 public Color ActiveHeaderColor { get; set; }

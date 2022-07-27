@@ -16,12 +16,12 @@ public Validation GetValidationInCell(int row, int column)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| 行 | Int32 | 行索引。 |
-| 列 | Int32 | 列索引。 |
+| row | Int32 | 行索引。 |
+| column | Int32 | 列索引。 |
 
 ### 返回值
 
-返回一个[`Validation`](../../validation)对象，如果给定单元格
+返回一个[`Validation`](../../validation)如果没有对给定单元格进行验证，则为对象或 null
 
 ### 也可以看看
 

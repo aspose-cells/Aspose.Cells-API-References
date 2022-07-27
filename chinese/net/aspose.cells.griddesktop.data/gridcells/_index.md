@@ -1,14 +1,14 @@
 ---
 title: GridCells
 second_title: Aspose.Cells for .NET API 参考
-description: 封装Cell对象的集合
+description: 封装了一个集合Cell对象.
 type: docs
 weight: 410
 url: /zh/net/aspose.cells.griddesktop.data/gridcells/
 ---
 ## GridCells class
 
-封装Cell对象的集合。
+封装了一个集合Cell对象.
 
 ```csharp
 public class GridCells : IEnumerable
@@ -32,9 +32,9 @@ public class GridCells : IEnumerable
 | [MinDataColumn](../../aspose.cells.griddesktop.data/gridcells/mindatacolumn) { get; } |  |
 | [MinDataRow](../../aspose.cells.griddesktop.data/gridcells/mindatarow) { get; } |  |
 | [MinRow](../../aspose.cells.griddesktop.data/gridcells/minrow) { get; } |  |
-| [RowEnumerator](../../aspose.cells.griddesktop.data/gridcells/rowenumerator) { get; } | 获取行枚举器 |
-| [Rows](../../aspose.cells.griddesktop.data/gridcells/rows) { get; } | 获取[`GridRow`](../gridrow)对象的集合，这些对象表示此工作表中的各个行。 |
-| [StandardHeight](../../aspose.cells.griddesktop.data/gridcells/standardheight) { get; set; } | 获取或设置此工作表中的默认行高，以磅为单位。 |
+| [RowEnumerator](../../aspose.cells.griddesktop.data/gridcells/rowenumerator) { get; } | 获取行 enumerator |
+| [Rows](../../aspose.cells.griddesktop.data/gridcells/rows) { get; } | 获取集合[`GridRow`](../gridrow)表示此工作表中各个行的对象。 |
+| [StandardHeight](../../aspose.cells.griddesktop.data/gridcells/standardheight) { get; set; } | 获取或设置此工作表的默认行高，以点为单位。 |
 | [StandardHeightPixels](../../aspose.cells.griddesktop.data/gridcells/standardheightpixels) { get; set; } | 获取或设置此工作表中的默认行高，以像素为单位。 |
 | [StandardWidth](../../aspose.cells.griddesktop.data/gridcells/standardwidth) { get; set; } | 获取或设置工作表的默认列宽，以字符为单位。 |
 | [StandardWidthInch](../../aspose.cells.griddesktop.data/gridcells/standardwidthinch) { get; set; } |  |
@@ -44,7 +44,7 @@ public class GridCells : IEnumerable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CheckCell](../../aspose.cells.griddesktop.data/gridcells/checkcell)(int, int) | 获取指定单元格行索引和列索引处的Cell元素或 null。 |
+| [CheckCell](../../aspose.cells.griddesktop.data/gridcells/checkcell)(int, int) | 获取Cell指定单元格行索引和列索引处的元素或空值。 |
 | [Clear](../../aspose.cells.griddesktop.data/gridcells/clear)() | 清除集合中的所有单元格。 |
 | [ClearContents](../../aspose.cells.griddesktop.data/gridcells/clearcontents#clearcontents)(GridCellArea) | 清除范围的内容。 |
 | [ClearContents](../../aspose.cells.griddesktop.data/gridcells/clearcontents#clearcontents_1)(int, int, int, int) | 清除范围的内容。 |
@@ -55,7 +55,7 @@ public class GridCells : IEnumerable
 | [CopyColumn](../../aspose.cells.griddesktop.data/gridcells/copycolumn)(GridCells, int, int) | 复制整列的数据和格式。 |
 | [CopyColumns](../../aspose.cells.griddesktop.data/gridcells/copycolumns)(GridCells, int, int, int) | 复制整列的数据和格式。 |
 | [CopyRow](../../aspose.cells.griddesktop.data/gridcells/copyrow)(GridCells, int, int) | 复制整行的数据和格式。 |
-| [CopyRows](../../aspose.cells.griddesktop.data/gridcells/copyrows)(GridCells, int, int, int) | 复制一些整行的数据和格式。 |
+| [CopyRows](../../aspose.cells.griddesktop.data/gridcells/copyrows)(GridCells, int, int, int) | 复制某些整行的数据和格式。 |
 | [DeleteBlankColumns](../../aspose.cells.griddesktop.data/gridcells/deleteblankcolumns)() | 删除所有不包含任何数据的空白列。 |
 | [DeleteBlankRows](../../aspose.cells.griddesktop.data/gridcells/deleteblankrows)() | 删除所有不包含任何数据的空白行。 |
 | [DeleteColumn](../../aspose.cells.griddesktop.data/gridcells/deletecolumn#deletecolumn)(int) | 删除一列。 |
@@ -64,22 +64,22 @@ public class GridCells : IEnumerable
 | [DeleteRow](../../aspose.cells.griddesktop.data/gridcells/deleterow)(int) | 删除一行。 |
 | [DeleteRows](../../aspose.cells.griddesktop.data/gridcells/deleterows#deleterows)(int, int) | 删除几行。 |
 | [DeleteRows](../../aspose.cells.griddesktop.data/gridcells/deleterows#deleterows_1)(int, int, bool) | 删除工作表中的多行。 |
-| [GetCell](../../aspose.cells.griddesktop.data/gridcells/getcell)(int, int) | 获取指定单元格行索引和列索引处的Cell元素或 null。 |
+| [GetCell](../../aspose.cells.griddesktop.data/gridcells/getcell)(int, int) | 获取Cell指定单元格行索引和列索引处的元素或空值。 |
 | [GetCellStyle](../../aspose.cells.griddesktop.data/gridcells/getcellstyle)(int, int) | 获取给定单元格的样式。 |
 | [GetColumn](../../aspose.cells.griddesktop.data/gridcells/getcolumn)(int) | 获取[`GridColumn`](../gridcolumn)元素或指定单元格列索引处。 |
 | [GetColumnWidth](../../aspose.cells.griddesktop.data/gridcells/getcolumnwidth)(int) | 获取指定列的宽度 |
-| [GetColumnWidthInch](../../aspose.cells.griddesktop.data/gridcells/getcolumnwidthinch)(int) | 获取指定列的宽度，单位为英寸。 |
+| [GetColumnWidthInch](../../aspose.cells.griddesktop.data/gridcells/getcolumnwidthinch)(int) | 获取指定列的宽度，以英寸为单位。 |
 | [GetColumnWidthPixel](../../aspose.cells.griddesktop.data/gridcells/getcolumnwidthpixel)(int) | 获取指定列的宽度，以像素为单位。 |
-| [GetEnumerator](../../aspose.cells.griddesktop.data/gridcells/getenumerator)() | 获取行枚举器 |
-| [GetRow](../../aspose.cells.griddesktop.data/gridcells/getrow)(int) | 获取[`GridRow`](../gridrow)元素或指定单元格行索引处。 |
+| [GetEnumerator](../../aspose.cells.griddesktop.data/gridcells/getenumerator)() | 获取行 enumerator |
+| [GetRow](../../aspose.cells.griddesktop.data/gridcells/getrow)(int) | 获取[`GridRow`](../gridrow)元素或在指定的单元格行索引处。 |
 | [GetRowHeight](../../aspose.cells.griddesktop.data/gridcells/getrowheight)(int) | 获取指定行的高度。 |
-| [GetRowHeightInch](../../aspose.cells.griddesktop.data/gridcells/getrowheightinch)(int) | 获取指定行的高度，以英寸为单位。 |
-| [GetRowHeightPixel](../../aspose.cells.griddesktop.data/gridcells/getrowheightpixel)(int) | 获取指定行的高度，以像素为单位。 |
+| [GetRowHeightInch](../../aspose.cells.griddesktop.data/gridcells/getrowheightinch)(int) | 以英寸为单位获取指定行的高度。 |
+| [GetRowHeightPixel](../../aspose.cells.griddesktop.data/gridcells/getrowheightpixel)(int) | 以像素为单位获取指定行的高度。 |
 | [GetViewColumnWidthPixel](../../aspose.cells.griddesktop.data/gridcells/getviewcolumnwidthpixel)(int) | 获取不同视图类型的宽度。 |
-| [GroupColumns](../../aspose.cells.griddesktop.data/gridcells/groupcolumns#groupcolumns)(int, int) | 分组列。 |
-| [GroupColumns](../../aspose.cells.griddesktop.data/gridcells/groupcolumns#groupcolumns_1)(int, int, bool) | 分组列。 |
-| [GroupRows](../../aspose.cells.griddesktop.data/gridcells/grouprows)(int, int) | 分组行。 |
-| [HideColumn](../../aspose.cells.griddesktop.data/gridcells/hidecolumn)(int) | 隐藏列。 |
+| [GroupColumns](../../aspose.cells.griddesktop.data/gridcells/groupcolumns#groupcolumns)(int, int) | 对列进行分组。 |
+| [GroupColumns](../../aspose.cells.griddesktop.data/gridcells/groupcolumns#groupcolumns_1)(int, int, bool) | 对列进行分组。 |
+| [GroupRows](../../aspose.cells.griddesktop.data/gridcells/grouprows)(int, int) | 对行进行分组。 |
+| [HideColumn](../../aspose.cells.griddesktop.data/gridcells/hidecolumn)(int) | 隐藏一列。 |
 | [HideRow](../../aspose.cells.griddesktop.data/gridcells/hiderow)(int) | 隐藏一行。 |
 | [InsertColumn](../../aspose.cells.griddesktop.data/gridcells/insertcolumn#insertcolumn)(int) | 在工作表中插入一个新列。 |
 | [InsertColumn](../../aspose.cells.griddesktop.data/gridcells/insertcolumn#insertcolumn_1)(int, bool) | 在工作表中插入一个新列。 |
@@ -99,18 +99,18 @@ public class GridCells : IEnumerable
 | [SetRowHeight](../../aspose.cells.griddesktop.data/gridcells/setrowheight)(int, double) | 设置指定行的高度。 |
 | [SetRowHeightInch](../../aspose.cells.griddesktop.data/gridcells/setrowheightinch)(int, double) | 以英寸为单位设置行高。 |
 | [SetRowHeightPixel](../../aspose.cells.griddesktop.data/gridcells/setrowheightpixel)(int, int) | 以像素为单位设置行高。 |
-| [SetStyle](../../aspose.cells.griddesktop.data/gridcells/setstyle#setstyle)(CellRange, Style) | 将样式设置为指定的单元格范围。 |
-| [SetStyle](../../aspose.cells.griddesktop.data/gridcells/setstyle#setstyle_2)(string, Style) | 将样式设置为指定的单元格范围。 |
-| [SetStyle](../../aspose.cells.griddesktop.data/gridcells/setstyle#setstyle_1)(int, int, int, int, Style) | 将样式设置为指定的单元格范围。 |
-| [Sort](../../aspose.cells.griddesktop.data/gridcells/sort#sort)(int, int, int, int, int, bool, bool, bool) | 按指定的列索引对工作表范围内的数据从上到下进行升序/降序排序。 按指定的行索引对工作表范围内的数据从左到右进行升序/降序排序。 |
+| [SetStyle](../../aspose.cells.griddesktop.data/gridcells/setstyle#setstyle)(CellRange, Style) | 将样式设置为指定范围的单元格。 |
+| [SetStyle](../../aspose.cells.griddesktop.data/gridcells/setstyle#setstyle_2)(string, Style) | 将样式设置为指定范围的单元格。 |
+| [SetStyle](../../aspose.cells.griddesktop.data/gridcells/setstyle#setstyle_1)(int, int, int, int, Style) | 将样式设置为指定范围的单元格。 |
+| [Sort](../../aspose.cells.griddesktop.data/gridcells/sort#sort)(int, int, int, int, int, bool, bool, bool) | 按指定列索引对工作表范围内的数据从上到下进行升序/降序排序。 按指定行索引对工作表范围内的数据从左到右升序/降序排序。 |
 | [Sort](../../aspose.cells.griddesktop.data/gridcells/sort#sort_1)(int, int, int, int, int[], SortOrder[], SortOrientation, bool) |  |
-| [UngroupColumns](../../aspose.cells.griddesktop.data/gridcells/ungroupcolumns)(int, int) | 取消分组列。 |
+| [UngroupColumns](../../aspose.cells.griddesktop.data/gridcells/ungroupcolumns)(int, int) | 取消组合列。 |
 | [UngroupRows](../../aspose.cells.griddesktop.data/gridcells/ungrouprows)(int, int) | 取消组合行。 |
 | [UnhideColumn](../../aspose.cells.griddesktop.data/gridcells/unhidecolumn)(int, double) | 取消隐藏列 |
 | [UnhideRow](../../aspose.cells.griddesktop.data/gridcells/unhiderow)(int) | 取消隐藏一行。 |
 | [UnMerge](../../aspose.cells.griddesktop.data/gridcells/unmerge)(int, int, int, int) | 取消合并指定范围的合并单元格。 |
-| static [CellIndexToName](../../aspose.cells.griddesktop.data/gridcells/cellindextoname)(int, int) | 根据行和列索引获取单元格名称。 |
-| static [CellNameToIndex](../../aspose.cells.griddesktop.data/gridcells/cellnametoindex)(string, out int, out int) | 根据名称获取单元格行和列索引 |
+| static [CellIndexToName](../../aspose.cells.griddesktop.data/gridcells/cellindextoname)(int, int) | 根据行列索引获取单元格名称。 |
+| static [CellNameToIndex](../../aspose.cells.griddesktop.data/gridcells/cellnametoindex)(string, out int, out int) | 根据名称获取单元格行列索引 |
 | static [ColumnIndexToName](../../aspose.cells.griddesktop.data/gridcells/columnindextoname)(int) | 根据列索引获取列名。 |
 | static [ColumnNameToIndex](../../aspose.cells.griddesktop.data/gridcells/columnnametoindex)(string) | 根据列名获取列索引。 |
 

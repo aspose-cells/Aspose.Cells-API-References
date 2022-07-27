@@ -18,7 +18,7 @@ public class DigitalSignatureCollection : IEnumerable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DigitalSignatureCollection](digitalsignaturecollection)() | DigitalSignatureCollection 的构造函数。 |
+| [DigitalSignatureCollection](digitalsignaturecollection)() | DigitalSignatureCollection 的构造函数. |
 
 ## 方法
 
@@ -29,17 +29,16 @@ public class DigitalSignatureCollection : IEnumerable
 
 ### 例子
 
-以下示例显示如何创建数字签名
+下面的例子展示了如何创建数字签名
 
 ```csharp
 [C#]
 internal void ValidateSignature()
 {
    Workbook wb = new Workbook(@"newfile.xlsx");
-    //wb.IsDigitallySigned 当工作簿已经签名时为真。
+   //wb.IsDigitallySigned 在工作簿已签名时为真。
    System.Console.WriteLine(wb.IsDigitallySigned);
-    //从workbook
-ature集合
+   //从工作簿中获取数字签名集合
    DigitalSignatureCollection dsc = wb.GetDigitalSignature();
    foreach (DigitalSignature ds in dsc)
    {
@@ -50,18 +49,15 @@ ature集合
 }
 internal void SignSignature()
 {
-   //dsc是签名集合，包含sign
-
+   //dsc 是签名集合，包含一个或多个签名需要签名
    DigitalSignatureCollection dsc = new DigitalSignatureCollection();
    //证书必须包含私钥，可以从证书文件或windows证书集合中构造。
-   //123456是cert
-
+   //123456是证书的密码
    X509Certificate2 cert = new X509Certificate2("mykey2.pfx", "123456");
    DigitalSignature ds = new DigitalSignature(cert, "test for sign", DateTime.Now);
    dsc.Add(ds);
    Workbook wb = new Workbook();
-   //wb.SetDigitalSignature 对 dsc
-
+   //wb.SetDigitalSignature 对 dsc 中的所有签名进行签名
    wb.SetDigitalSignature(dsc);
    wb.Save(@"newfile.xlsx");
 }

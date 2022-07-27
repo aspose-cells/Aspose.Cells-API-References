@@ -1,14 +1,14 @@
 ---
 title: FontSourceType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает тип источника шрифта.
+description: Определяет тип источника шрифта.
 type: docs
 weight: 3540
 url: /ru/net/aspose.cells/fontsourcetype/
 ---
 ## FontSourceType enumeration
 
-Указывает тип источника шрифта.
+Определяет тип источника шрифта.
 
 ```csharp
 public enum FontSourceType
@@ -19,7 +19,7 @@ public enum FontSourceType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | FontFile | `0` | представляет один файл шрифта. |
-| FontsFolder | `1` | представляет папку с файлами шрифтов. |
+| FontsFolder | `1` | представляет собой папку с файлами шрифтов. |
 | MemoryFont | `2` | представляет один шрифт в памяти. |
 
 ### Смотрите также

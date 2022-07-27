@@ -1,14 +1,14 @@
 ---
 title: EmfRenderSetting
 second_title: Aspose.Cells for .NET API 参考
-description: 渲染 Emf 图元文件的设置
+description: 渲染 Emf 元文件的设置
 type: docs
 weight: 3150
 url: /zh/net/aspose.cells/emfrendersetting/
 ---
 ## EmfRenderSetting enumeration
 
-渲染 Emf 图元文件的设置。
+渲染 Emf 元文件的设置。
 
 ```csharp
 public enum EmfRenderSetting
@@ -18,8 +18,8 @@ public enum EmfRenderSetting
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| EmfOnly | `0` | 仅渲染 Emf 记录。 |
-| EmfPlusPrefer | `1` | 首选呈现 EmfPlus 记录。 |
+| EmfOnly | `0` | 只渲染 Emf 记录。 |
+| EmfPlusPrefer | `1` | 更喜欢呈现 EmfPlus 记录。 |
 
 ### 也可以看看
 

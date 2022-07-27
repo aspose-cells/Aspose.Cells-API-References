@@ -23,11 +23,11 @@ public void DeleteShape(Shape shape)
 ```csharp
 
 [C#]
-  // добавляем первый shape
+//добавляем первую фигуру
 Shape firstShape = shapes.AddRectangle(2, 0, 2, 0, 50, 50);
-  //добавляем второй shape
+//добавляем вторую фигуру
 Shape secondShape = shapes.AddRectangle(6, 0, 2, 0, 30, 30);
-  //del
+//удалить
 shapes.DeleteShape(firstShape);
 
 ```

@@ -1,14 +1,14 @@
 ---
 title: VerticalPageBreakCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует коллекцию объектовVerticalPageBreak./verticalpagebreak.
+description: Инкапсулирует наборVerticalPageBreak./verticalpagebreak объекты.
 type: docs
 weight: 6320
 url: /ru/net/aspose.cells/verticalpagebreakcollection/
 ---
 ## VerticalPageBreakCollection class
 
-Инкапсулирует коллекцию объектов[`VerticalPageBreak`](../verticalpagebreak).
+Инкапсулирует набор[`VerticalPageBreak`](../verticalpagebreak) объекты.
 
 ```csharp
 public class VerticalPageBreakCollection : CollectionBase<VerticalPageBreak>
@@ -20,17 +20,17 @@ public class VerticalPageBreakCollection : CollectionBase<VerticalPageBreak>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/verticalpagebreakcollection/item) { get; } | Получает элемент[`VerticalPageBreak`](../verticalpagebreak)по указанному индексу. (2 indexers) |
+| [Item](../../aspose.cells/verticalpagebreakcollection/item) { get; } | Получает[`VerticalPageBreak`](../verticalpagebreak) элемент по указанному индексу. (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells/verticalpagebreakcollection/add#add)(int) | Добавляет в коллекцию вертикальный разрыв страницы. |
-| [Add](../../aspose.cells/verticalpagebreakcollection/add#add_3)(string) | Добавляет в коллекцию вертикальный разрыв страницы. |
-| [Add](../../aspose.cells/verticalpagebreakcollection/add#add_1)(int, int) | Добавляет в коллекцию вертикальный разрыв страницы. |
-| [Add](../../aspose.cells/verticalpagebreakcollection/add#add_2)(int, int, int) | Добавляет в коллекцию вертикальный разрыв страницы. |
+| [Add](../../aspose.cells/verticalpagebreakcollection/add#add)(int) | Добавляет вертикальный разрыв страницы в коллекцию. |
+| [Add](../../aspose.cells/verticalpagebreakcollection/add#add_3)(string) | Добавляет вертикальный разрыв страницы в коллекцию. |
+| [Add](../../aspose.cells/verticalpagebreakcollection/add#add_1)(int, int) | Добавляет вертикальный разрыв страницы в коллекцию. |
+| [Add](../../aspose.cells/verticalpagebreakcollection/add#add_2)(int, int, int) | Добавляет вертикальный разрыв страницы в коллекцию. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(VerticalPageBreak) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(VerticalPageBreak, IComparer&lt;VerticalPageBreak&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, VerticalPageBreak, IComparer&lt;VerticalPageBreak&gt;) |  |

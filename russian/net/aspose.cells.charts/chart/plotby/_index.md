@@ -1,14 +1,14 @@
 ---
 title: PlotBy
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает график по строке или по столбцу.
+description: Получает и устанавливает график по строкам или столбцам.
 type: docs
 weight: 280
 url: /ru/net/aspose.cells.charts/chart/plotby/
 ---
 ## Chart.PlotBy property
 
-Получает и задает график по строке или по столбцу.
+Получает и устанавливает график по строкам или столбцам.
 
 ```csharp
 public PlotDataByType PlotBy { get; }

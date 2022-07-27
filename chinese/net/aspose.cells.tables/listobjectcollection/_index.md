@@ -1,14 +1,14 @@
 ---
 title: ListObjectCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示工作表中ListObject./listobject对象的集合
+description: 代表一个集合ListObject./listobject工作表中的对象
 type: docs
 weight: 5830
 url: /zh/net/aspose.cells.tables/listobjectcollection/
 ---
 ## ListObjectCollection class
 
-表示工作表中[`ListObject`](../listobject)对象的集合。
+代表一个集合[`ListObject`](../listobject)工作表中的对象。
 
 ```csharp
 public class ListObjectCollection : CollectionBase<ListObject>
@@ -20,15 +20,15 @@ public class ListObjectCollection : CollectionBase<ListObject>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.tables/listobjectcollection/item) { get; } | 按索引获取 ListObject。 (2 indexers) |
+| [Item](../../aspose.cells.tables/listobjectcollection/item) { get; } | 通过索引获取ListObject。 (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells.tables/listobjectcollection/add#add_1)(string, string, bool) | 将 ListObject 添加到工作表。 |
-| [Add](../../aspose.cells.tables/listobjectcollection/add#add)(int, int, int, int, bool) | 将 ListObject 添加到工作表。 |
+| [Add](../../aspose.cells.tables/listobjectcollection/add#add_1)(string, string, bool) | 将 ListObject 添加到工作表中。 |
+| [Add](../../aspose.cells.tables/listobjectcollection/add#add)(int, int, int, int, bool) | 将 ListObject 添加到工作表中。 |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ListObject) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ListObject, IComparer&lt;ListObject&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, ListObject, IComparer&lt;ListObject&gt;) |  |

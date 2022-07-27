@@ -16,7 +16,7 @@ public WorkbookRender(Workbook workbook, ImageOrPrintOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| workbook | Workbook | Указывает, какая рабочая книга будет визуализирована . |
+| workbook | Workbook | Укажите, какая рабочая книга должна быть отображена. |
 | options | ImageOrPrintOptions | ImageOrPrintOptions содержит некоторое свойство выходного изображения |
 
 ### Смотрите также

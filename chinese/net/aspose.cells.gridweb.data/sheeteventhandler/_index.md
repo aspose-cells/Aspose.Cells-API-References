@@ -10,7 +10,7 @@ url: /zh/net/aspose.cells.gridweb.data/sheeteventhandler/
 
 表示打算处理工作表事件的接口。
 
-void **handleCellEvent** （对象发送者，RowColumnEventArgs e）；
+空白 **处理细胞事件**（对象发送者，RowColumnEventArgs e）；
 
 ```csharp
 public delegate void SheetEventHandler(object sender, GridWorksheet sheet);
@@ -18,7 +18,7 @@ public delegate void SheetEventHandler(object sender, GridWorksheet sheet);
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sender | Object | 事件源。 |
+| sender | Object | 事件的来源。 |
 | sheet | GridWorksheet | 相关工作表。 |
 
 ### 也可以看看

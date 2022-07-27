@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает тип границы гистограмм заданный правилом условного форматирования.
+description: Получает или задает тип границы столбцов данных заданный правилом условного форматирования.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/databarborder/type/
 ---
 ## DataBarBorder.Type property
 
-Получает или задает тип границы гистограмм, заданный правилом условного форматирования.
+Получает или задает тип границы столбцов данных, заданный правилом условного форматирования.
 
 ```csharp
 public DataBarBorderType Type { get; set; }

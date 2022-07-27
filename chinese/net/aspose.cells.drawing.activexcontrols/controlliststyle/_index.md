@@ -1,14 +1,14 @@
 ---
 title: ControlListStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 表示 ListBox 或 ComboBox 中列表的视觉外观
+description: 表示列表在 ListBox 或 ComboBox 中的视觉外观
 type: docs
 weight: 1530
 url: /zh/net/aspose.cells.drawing.activexcontrols/controlliststyle/
 ---
 ## ControlListStyle enumeration
 
-表示 ListBox 或 ComboBox 中列表的视觉外观。
+表示列表在 ListBox 或 ComboBox 中的视觉外观。
 
 ```csharp
 public enum ControlListStyle

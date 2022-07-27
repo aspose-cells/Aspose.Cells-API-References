@@ -1,14 +1,14 @@
 ---
 title: WidthScale
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置宽度比例以原始图片宽度的百分比为单位 如果形状不是图片WidthScale属性只返回100
+description: 获取和设置宽度比例单位是原始图片宽度的百分比 如果形状不是图片WidthScale属性只返回100
 type: docs
 weight: 540
 url: /zh/net/aspose.cells.gridweb.data/gridpicture/widthscale/
 ---
 ## GridPicture.WidthScale property
 
-获取和设置宽度比例，以原始图片宽度的百分比为单位。 如果形状不是图片，WidthScale属性只返回100；
+获取和设置宽度比例，单位是原始图片宽度的百分比。 如果形状不是图片，WidthScale属性只返回100；
 
 ```csharp
 public int WidthScale { get; set; }

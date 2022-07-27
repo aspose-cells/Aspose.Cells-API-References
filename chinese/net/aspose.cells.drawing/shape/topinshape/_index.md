@@ -1,14 +1,14 @@
 ---
 title: TopInShape
 second_title: Aspose.Cells for .NET API 参考
-description: 表示形状与父形状上边框的垂直偏移量 以父形状高度的1/4000为单位
+description: 表示 shape 与父 shape 上边框的垂直偏移量 以父 shape 高度的 1/4000 为单位
 type: docs
 weight: 800
 url: /zh/net/aspose.cells.drawing/shape/topinshape/
 ---
 ## Shape.TopInShape property
 
-表示形状与父形状上边框的垂直偏移量， 以父形状高度的1/4000为单位。
+表示 shape 与父 shape 上边框的垂直偏移量， 以父 shape 高度的 1/4000 为单位。
 
 ```csharp
 public int TopInShape { get; set; }

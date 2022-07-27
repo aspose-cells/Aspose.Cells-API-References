@@ -1,14 +1,14 @@
 ---
 title: DigitalSignatureCollection
 second_title: Aspose.Cells for .NET API 参考
-description: DigitalSignatureCollection 的构造函数
+description: DigitalSignatureCollection 的构造函数.
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.digitalsignatures/digitalsignaturecollection/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection constructor
 
-DigitalSignatureCollection 的构造函数。
+DigitalSignatureCollection 的构造函数.
 
 ```csharp
 public DigitalSignatureCollection()

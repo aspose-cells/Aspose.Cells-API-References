@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Cells for .NET API 参考
-description: 使用的参数类型 如果 parameterTypevalue那么将使用 booleandoubleinteger 或 string 中的值在这种情况下预计只会指定 boolean double integer or string 之一
+description: 使用的参数类型 如果 parameterTypevalue则将使用 booleandoubleinteger 或 string 中的值在这种情况下预计只会指定 booleandoubleinteger 或 string 之一
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.externalconnections/connectionparameter/type/
 ---
 ## ConnectionParameter.Type property
 
-使用的参数类型。 如果 parameterType=value，那么将使用 boolean、double、integer、 或 string 中的值。在这种情况下，预计只会指定 {boolean, double, integer, or string} 之一。
+使用的参数类型。 如果 parameterType=value，则将使用 boolean、double、integer、 或 string 中的值。在这种情况下，预计只会指定 {boolean、double、integer 或 string} 之一。
 
 ```csharp
 public ConnectionParameterType Type { get; set; }

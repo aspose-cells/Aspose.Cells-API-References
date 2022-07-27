@@ -1,14 +1,14 @@
 ---
 title: IsDisplayUnitLabelShown
 second_title: Aspose.Cells for .NET API 参考
-description: 表示显示单元标签是否显示在指定轴上
+description: 表示显示单位标签是否显示在指定轴上
 type: docs
 weight: 190
 url: /zh/net/aspose.cells.charts/axis/isdisplayunitlabelshown/
 ---
 ## Axis.IsDisplayUnitLabelShown property
 
-表示显示单元标签是否显示在指定轴上。
+表示显示单位标签是否显示在指定轴上。
 
 ```csharp
 public bool IsDisplayUnitLabelShown { get; set; }
@@ -16,7 +16,7 @@ public bool IsDisplayUnitLabelShown { get; set; }
 
 ### 评论
 
-默认值为 True。
+默认值是true。
 
 ### 也可以看看
 

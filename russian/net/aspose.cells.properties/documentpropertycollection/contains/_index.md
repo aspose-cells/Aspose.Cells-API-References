@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает true если свойство с указанным именем существует в коллекции.
+description: Возвращает значение true если свойство с указанным именем существует в коллекции.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.properties/documentpropertycollection/contains/
 ---
 ## DocumentPropertyCollection.Contains method
 
-Возвращает true, если свойство с указанным именем существует в коллекции.
+Возвращает значение true, если свойство с указанным именем существует в коллекции.
 
 ```csharp
 public bool Contains(string name)
@@ -16,7 +16,7 @@ public bool Contains(string name)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя свойства без учета регистра. |
+| name | String | Нечувствительное к регистру имя свойства. |
 
 ### Возвращаемое значение
 

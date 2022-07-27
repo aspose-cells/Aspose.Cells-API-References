@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.gridweb/mainweb/enableclientfreeze/
 ---
 ## MainWeb.EnableClientFreeze property
 
-获取或设置是否开启客户端冻结操作。
+获取或设置是否开启客户端冻结操作
 
 ```csharp
 public bool EnableClientFreeze { get; set; }
@@ -16,7 +16,7 @@ public bool EnableClientFreeze { get; set; }
 
 ### 评论
 
-当设置为 true 时，用户可以使用右键菜单来冻结/解冻窗格。
+当设置为true时，用户可以使用右键菜单来冻结/解冻窗格。
 
 ### 也可以看看
 

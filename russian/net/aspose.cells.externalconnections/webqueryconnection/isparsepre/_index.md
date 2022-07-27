@@ -8,7 +8,7 @@ url: /ru/net/aspose.cells.externalconnections/webqueryconnection/isparsepre/
 ---
 ## WebQueryConnection.IsParsePre property
 
-Флаг, указывающий, разбиваются ли данные, содержащиеся в тегах HTML PRE на веб-странице на столбцы при импорте страницы в таблицу запросов.
+Флаг, указывающий, разбиваются ли данные, содержащиеся в тегах HTML PRE на веб-странице, на столбцы при импорте страницы в таблицу запросов.
 
 ```csharp
 public bool IsParsePre { get; set; }

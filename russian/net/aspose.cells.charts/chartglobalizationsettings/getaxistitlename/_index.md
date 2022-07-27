@@ -1,14 +1,14 @@
 ---
 title: GetAxisTitleName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает имя Title для оси.
+description: Получает имя заголовка для оси.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.charts/chartglobalizationsettings/getaxistitlename/
 ---
 ## ChartGlobalizationSettings.GetAxisTitleName method
 
-Получает имя Title для оси.
+Получает имя заголовка для оси.
 
 ```csharp
 public virtual string GetAxisTitleName()

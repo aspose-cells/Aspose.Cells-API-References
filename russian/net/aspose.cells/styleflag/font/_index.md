@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Справочник по Aspose.Cells для .NET API
-description: Будут применены настройки шрифта.
+description: Будут применены настройки шрифта .
 type: docs
 weight: 90
 url: /ru/net/aspose.cells/styleflag/font/
 ---
 ## StyleFlag.Font property
 
-Будут применены настройки шрифта.
+Будут применены настройки шрифта .
 
 ```csharp
 public bool Font { get; set; }

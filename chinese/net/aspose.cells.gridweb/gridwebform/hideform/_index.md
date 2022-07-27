@@ -1,14 +1,14 @@
 ---
 title: HideForm
 second_title: Aspose.Cells for .NET API 参考
-description: 隐藏窗体并显示 GridWeb 控件
+description: 隐藏表单并显示 GridWeb 控件
 type: docs
 weight: 110
 url: /zh/net/aspose.cells.gridweb/gridwebform/hideform/
 ---
 ## GridWebForm.HideForm method
 
-隐藏窗体并显示 GridWeb 控件。
+隐藏表单并显示 GridWeb 控件。
 
 ```csharp
 public void HideForm()

@@ -19,21 +19,21 @@ public SignatureLine SignatureLine { get; set; }
 ```csharp
 
 [C#]
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-  //Добавление изображения в ячейку, индексы строки и столбца которой равны 1 на рабочем листе. Это "B2" cell
+//Добавление изображения в ячейку, индексы строки и столбца которой равны 1 на рабочем листе. Это ячейка "B2"
 int imgIndex = worksheet.Pictures.Add(1, 1, "example.jpeg");
-  //Получить вставленную картинку object
+//Получить вставленный объект изображения
 Picture pic = worksheet.Pictures[imgIndex];
-  // Создаем строку подписи object
+// Создаем объект строки подписи
 SignatureLine s = new SignatureLine();
 s.Signer = "Simon Zhao";
 s.Title = "Development Lead";
 s.Email = "Simon.Zhao@aspose.com";
-  // Назначаем объект линии подписи Picture.
+// Назначаем объект строки подписи на Picture.
 pic.SignatureLine = s;
-  // Сохраняем файл Excel.
+// Сохраняем файл excel.
 workbook.Save("result.xlsx");
 ```
 

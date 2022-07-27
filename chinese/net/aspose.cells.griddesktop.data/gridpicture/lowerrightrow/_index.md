@@ -1,14 +1,14 @@
 ---
 title: LowerRightRow
 second_title: Aspose.Cells for .NET API 参考
-description: 表示右下角行索引
+description: 代表右下角行索引
 type: docs
 weight: 330
 url: /zh/net/aspose.cells.griddesktop.data/gridpicture/lowerrightrow/
 ---
 ## GridPicture.LowerRightRow property
 
-表示右下角行索引。
+代表右下角行索引。
 
 ```csharp
 public int LowerRightRow { get; set; }

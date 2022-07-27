@@ -18,7 +18,7 @@ public class ThreeDFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BottomBevelHeight](../../aspose.cells.drawing/threedformat/bottombevelheight) { get; set; } | 获取和设置底部斜角的高度，或应用到形状的距离。 以点为单位。 |
+| [BottomBevelHeight](../../aspose.cells.drawing/threedformat/bottombevelheight) { get; set; } | 获取和设置底部斜面的高度，或应用到形状的距离。 以点为单位。 |
 | [BottomBevelType](../../aspose.cells.drawing/threedformat/bottombeveltype) { get; set; } | 获取和设置底部斜角的类型，或应用到形状的距离。 以点为单位。 |
 | [BottomBevelWidth](../../aspose.cells.drawing/threedformat/bottombevelwidth) { get; set; } | 获取和设置底部斜角的宽度，或应用到形状的距离。 以点为单位。 |
 | [ContourColor](../../aspose.cells.drawing/threedformat/contourcolor) { get; set; } | 获取和设置形状的轮廓颜色。 |
@@ -26,17 +26,17 @@ public class ThreeDFormat
 | [ExtrusionColor](../../aspose.cells.drawing/threedformat/extrusioncolor) { get; set; } | 获取形状上的拉伸颜色。 |
 | [ExtrusionHeight](../../aspose.cells.drawing/threedformat/extrusionheight) { get; set; } | 获取和设置应用于形状的拉伸高度，以点为单位。 |
 | [LightAngle](../../aspose.cells.drawing/threedformat/lightangle) { get; set; } | 获取和设置挤压灯的角度。 |
-| [Lighting](../../aspose.cells.drawing/threedformat/lighting) { get; set; } | 获取和设置灯光装置的类型。 |
-| [LightingDirection](../../aspose.cells.drawing/threedformat/lightingdirection) { get; set; } | 获取并设置灯光装置相对于场景的定向方向。 |
-| [Material](../../aspose.cells.drawing/threedformat/material) { get; set; } | 表示与光照属性相结合的预设材质，以提供 形状的最终外观。 |
+| [Lighting](../../aspose.cells.drawing/threedformat/lighting) { get; set; } | 获取和设置灯光设备的类型。 |
+| [LightingDirection](../../aspose.cells.drawing/threedformat/lightingdirection) { get; set; } | 获取和设置灯光装置相对于场景的方向。 |
+| [Material](../../aspose.cells.drawing/threedformat/material) { get; set; } | 表示与光照属性相结合的预设材质，以赋予 形状的最终外观和感觉。 |
 | [Perspective](../../aspose.cells.drawing/threedformat/perspective) { get; set; } | 获取和设置可以查看 ThreeDFormat 对象的角度。 |
-| [PresetCameraType](../../aspose.cells.drawing/threedformat/presetcameratype) { get; set; } | 获取和设置拉伸预设摄像机类型。 |
+| [PresetCameraType](../../aspose.cells.drawing/threedformat/presetcameratype) { get; set; } | 获取和设置拉伸预设相机类型。 |
 | [RotationX](../../aspose.cells.drawing/threedformat/rotationx) { get; set; } | 获取和设置拉伸形状绕 x 轴的旋转度数。 |
 | [RotationY](../../aspose.cells.drawing/threedformat/rotationy) { get; set; } | 获取和设置拉伸形状绕 y 轴的旋转度数。 |
 | [RotationZ](../../aspose.cells.drawing/threedformat/rotationz) { get; set; } | 获取和设置拉伸形状绕 z 轴的旋转度数。 |
-| [TopBevelHeight](../../aspose.cells.drawing/threedformat/topbevelheight) { get; set; } | 获取和设置顶部斜角的高度，或应用到形状的距离。 以点为单位。 |
+| [TopBevelHeight](../../aspose.cells.drawing/threedformat/topbevelheight) { get; set; } | 获取和设置顶部斜面的高度，或应用到形状的距离。 以点为单位。 |
 | [TopBevelType](../../aspose.cells.drawing/threedformat/topbeveltype) { get; set; } | 获取和设置顶部斜角的类型，或应用到形状的距离。 以点为单位。 |
-| [TopBevelWidth](../../aspose.cells.drawing/threedformat/topbevelwidth) { get; set; } | 获取和设置顶部斜角的宽度，或应用到形状的距离。 以点为单位。 |
+| [TopBevelWidth](../../aspose.cells.drawing/threedformat/topbevelwidth) { get; set; } | 获取和设置顶部斜面的宽度，或应用到形状的距离。 以点为单位。 |
 | [Z](../../aspose.cells.drawing/threedformat/z) { get; set; } | 定义 3D 形状与地面的距离。 |
 
 ## 方法

@@ -20,8 +20,8 @@ public class ConnectionParameterCollection : CollectionBase<ConnectionParameter>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.externalconnections/connectionparametercollection/item) { get; set; } | 获取指定索引处的[`ConnectionParameter`](../connectionparameter)元素。 (2 indexers) |
-| [Item](../../aspose.cells.externalconnections/connectionparametercollection/item) { get; } | 获取具有指定名称的[`ConnectionParameter`](../connectionparameter)元素。 |
+| [Item](../../aspose.cells.externalconnections/connectionparametercollection/item) { get; set; } | 获取[`ConnectionParameter`](../connectionparameter)指定索引处的元素。 (2 indexers) |
+| [Item](../../aspose.cells.externalconnections/connectionparametercollection/item) { get; } | 获取[`ConnectionParameter`](../connectionparameter)具有指定名称的元素。 |
 
 ## 方法
 

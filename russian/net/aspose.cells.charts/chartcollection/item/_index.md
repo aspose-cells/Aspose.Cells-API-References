@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементChartaspose.cells.charts/chartпо указанному индексу.
+description: ПолучаетChartaspose.cells.charts/chart элемент по указанному индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.charts/chartcollection/item/
 ---
 ## ChartCollection indexer (1 of 2)
 
-Получает элемент[`Chart`](../../chart)по указанному индексу.
+Получает[`Chart`](../../chart) элемент по указанному индексу.
 
 ```csharp
 public Chart this[int index] { get; }
@@ -49,7 +49,7 @@ public Chart this[string name] { get; }
 
 ### Примечания
 
-Имя диаграммы по умолчанию равно null. Таким образом, вы должны явно указать имя диаграммы.
+Имя диаграммы по умолчанию — null. Таким образом, вы должны явно указать имя диаграммы.
 
 ### Смотрите также
 

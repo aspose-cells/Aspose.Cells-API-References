@@ -1,14 +1,14 @@
 ---
 title: BuiltinStyleType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет все встроенные типы стилей
+description: Представляет все встроенные стили type
 type: docs
 weight: 170
 url: /ru/net/aspose.cells/builtinstyletype/
 ---
 ## BuiltinStyleType enumeration
 
-Представляет все встроенные типы стилей
+Представляет все встроенные стили type
 
 ```csharp
 public enum BuiltinStyleType

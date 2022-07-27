@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells/loadoptions/checkdatavalid/
 ---
 ## LoadOptions.CheckDataValid property
 
-检查模板文件中的数据是否有效。
+检查模板文件中的数据是否有效
 
 ```csharp
 public bool CheckDataValid { get; set; }

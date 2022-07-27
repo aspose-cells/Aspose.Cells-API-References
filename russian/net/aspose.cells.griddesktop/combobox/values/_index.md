@@ -1,14 +1,14 @@
 ---
 title: Values
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объект представляющий набор значений содержащихся в этом поле со списком.
+description: Получает объект представляющий набор значений содержащихся в этом ComboBox.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.griddesktop/combobox/values/
 ---
 ## ComboBox.Values property
 
-Получает объект, представляющий набор значений, содержащихся в этом поле со списком.
+Получает объект, представляющий набор значений, содержащихся в этом ComboBox.
 
 ```csharp
 public ArrayList Values { get; }

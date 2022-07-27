@@ -1,14 +1,14 @@
 ---
 title: ShowValue
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置指示是否显示应用此数据栏的单元格值的标志 默认值为真
+description: 获取或设置标志指示是否显示应用此数据条的单元格的值 默认值为 true
 type: docs
 weight: 120
 url: /zh/net/aspose.cells/databar/showvalue/
 ---
 ## DataBar.ShowValue property
 
-获取或设置指示是否显示应用此数据栏的单元格值的标志。 默认值为真。
+获取或设置标志，指示是否显示应用此数据条的单元格的值。 默认值为 true。
 
 ```csharp
 public bool ShowValue { get; set; }

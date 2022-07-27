@@ -1,14 +1,14 @@
 ---
 title: AddPictureInChart
 second_title: Aspose.Cells for .NET API 参考
-description: 向图表添加图片
+description: 将图片添加到图表中
 type: docs
 weight: 220
 url: /zh/net/aspose.cells.drawing/shapecollection/addpictureinchart/
 ---
 ## ShapeCollection.AddPictureInChart method
 
-向图表添加图片。
+将图片添加到图表中。
 
 ```csharp
 public Picture AddPictureInChart(int top, int left, Stream stream, int widthScale, int heightScale)
@@ -17,10 +17,10 @@ public Picture AddPictureInChart(int top, int left, Stream stream, int widthScal
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | top | Int32 | 以图表区域的 1/4000 为单位表示形状从左上角的垂直偏移量。 |
-| left | Int32 | 以图表区域的 1/4000 为单位表示形状从左上角的水平偏移量。 |
+| left | Int32 | 以图表区域的 1/4000 为单位表示 shape 从左上角的水平偏移量。 |
 | stream | Stream | 包含图像数据的流对象。 |
-| widthScale | Int32 | 图像宽度比例，百分比。 |
-| heightScale | Int32 | 图像高度比例，百分比。 |
+| widthScale | Int32 | 图像宽度的比例，百分比。 |
+| heightScale | Int32 | 图像高度的比例，百分比。 |
 
 ### 返回值
 

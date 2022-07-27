@@ -1,14 +1,14 @@
 ---
 title: SetPositionAuto
 second_title: Справочник по Aspose.Cells для .NET API
-description: Установить положение области графика автоматически
+description: Установить положение области графика в auto
 type: docs
 weight: 100
 url: /ru/net/aspose.cells.charts/plotarea/setpositionauto/
 ---
 ## PlotArea.SetPositionAuto method
 
-Установить положение области графика автоматически
+Установить положение области графика в auto
 
 ```csharp
 public override void SetPositionAuto()

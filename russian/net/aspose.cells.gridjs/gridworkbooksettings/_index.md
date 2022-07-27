@@ -25,15 +25,15 @@ public class GridWorkbookSettings
 | Имя | Описание |
 | --- | --- |
 | [Author](../../aspose.cells.gridjs/gridworkbooksettings/author) { get; set; } | Получает и устанавливает автора файла. |
-| [CheckCustomNumberFormat](../../aspose.cells.gridjs/gridworkbooksettings/checkcustomnumberformat) { get; set; } | Указывает, проверяется ли проверка пользовательского числового формата при установке Style.Custom. |
-| [CreateCalcChain](../../aspose.cells.gridjs/gridworkbooksettings/createcalcchain) { get; set; } | Указывает, создавать ли цепочку вычисляемых формул. Значение по умолчанию — ложь. |
-| [Date1904](../../aspose.cells.gridjs/gridworkbooksettings/date1904) { get; set; } | Получает или задает значение, указывающее, используется ли в книге система дат 1904 года. |
+| [CheckCustomNumberFormat](../../aspose.cells.gridjs/gridworkbooksettings/checkcustomnumberformat) { get; set; } | Указывает, проверяется ли пользовательский формат номера при установке Style.Custom. |
+| [CreateCalcChain](../../aspose.cells.gridjs/gridworkbooksettings/createcalcchain) { get; set; } | Указывает, создавать ли цепочку вычисляемых формул. По умолчанию false. |
+| [Date1904](../../aspose.cells.gridjs/gridworkbooksettings/date1904) { get; set; } | Получает или задает значение, указывающее, использует ли книга систему дат 1904 года. |
 | [EnableMacros](../../aspose.cells.gridjs/gridworkbooksettings/enablemacros) { get; set; } | Включить макросы; Теперь это работает только при копировании листа на другой лист в книге. |
 | [ForceFullCalculate](../../aspose.cells.gridjs/gridworkbooksettings/forcefullcalculate) { get; set; } | Указывает, выполняется ли полный расчет каждый раз, когда запускается расчет. |
 | [Iteration](../../aspose.cells.gridjs/gridworkbooksettings/iteration) { get; set; } | Указывает, использовать ли итерацию для разрешения циклических ссылок. |
-| [MaxIteration](../../aspose.cells.gridjs/gridworkbooksettings/maxiteration) { get; set; } | Возвращает или задает максимальное количество итераций для разрешения циклической ссылки, значение по умолчанию равно 100. |
+| [MaxIteration](../../aspose.cells.gridjs/gridworkbooksettings/maxiteration) { get; set; } | Возвращает или задает максимальное количество итераций для разрешения циклической ссылки, значение по умолчанию — 100. |
 | [PrecisionAsDisplayed](../../aspose.cells.gridjs/gridworkbooksettings/precisionasdisplayed) { get; set; } | Истинно, если вычисления в этой книге будут выполняться только с точностью отображаемых чисел |
-| [ReCalculateOnOpen](../../aspose.cells.gridjs/gridworkbooksettings/recalculateonopen) { get; set; } | Указывает, следует ли пересчитывать все формулы при открытии файла. |
+| [ReCalculateOnOpen](../../aspose.cells.gridjs/gridworkbooksettings/recalculateonopen) { get; set; } | Указывает, пересчитывать ли все формулы при открытии файла. |
 
 ### Примеры
 
@@ -45,7 +45,7 @@ GridJsWorkbook g = new GridJsWorkbook();
 GridWorkbookSettings gsettings = new GridWorkbookSettings();
 g.Settings=gsettings;
 
- //делай свое дело
+//делай свое дело
 
 [Visual Basic]
 Dim g as GridJsWorkbook = new GridJsWorkbook()

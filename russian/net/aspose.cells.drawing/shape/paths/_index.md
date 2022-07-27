@@ -1,14 +1,14 @@
 ---
 title: Paths
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает пути пользовательской геометрической формы.
+description: Получает пути произвольной геометрической формы.
 type: docs
 weight: 540
 url: /ru/net/aspose.cells.drawing/shape/paths/
 ---
 ## Shape.Paths property
 
-Получает пути пользовательской геометрической формы.
+Получает пути произвольной геометрической формы.
 
 ```csharp
 public ShapePathCollection Paths { get; }
@@ -19,7 +19,7 @@ public ShapePathCollection Paths { get; }
 ```csharp
 
 [C#]
-  //Возвращает ненулевое значение, если есть путь к пользовательской геометрии
+//Возвращает ненулевое значение, если есть путь к пользовательской геометрии
 if(shape.Paths == null)
     Console.WriteLine("No custom geometry path.");
 ```

@@ -1,14 +1,14 @@
 ---
 title: MinColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получить или установить соответствующий цвет объекта минимального значения.
+description: Получить или установить цвет градиента для минимального значения в диапазоне.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells/colorscale/mincolor/
 ---
 ## ColorScale.MinColor property
 
-Получить или установить соответствующий цвет объекта минимального значения.
+Получить или установить цвет градиента для минимального значения в диапазоне.
 
 ```csharp
 public Color MinColor { get; set; }

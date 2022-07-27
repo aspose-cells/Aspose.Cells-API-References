@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливаетDataSorterKeyaspose.cells/datasorterkeyпо индексу.
+description: Получает и устанавливаетDataSorterKeyaspose.cells/datasorterkey по индексу.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/datasorterkeycollection/item/
 ---
 ## DataSorterKeyCollection indexer
 
-Получает и устанавливает[`DataSorterKey`](../../datasorterkey)по индексу.
+Получает и устанавливает[`DataSorterKey`](../../datasorterkey) по индексу.
 
 ```csharp
 public DataSorterKey this[int index] { get; }

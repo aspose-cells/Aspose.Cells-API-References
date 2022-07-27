@@ -1,14 +1,14 @@
 ---
 title: BaseIndex
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет индекс PivotField в базовых полях PivotField.
+description: Представляет индекс PivotField в базовых PivotFields.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.pivot/pivotfield/baseindex/
 ---
 ## PivotField.BaseIndex property
 
-Представляет индекс PivotField в базовых полях PivotField.
+Представляет индекс PivotField в базовых PivotFields.
 
 ```csharp
 public int BaseIndex { get; set; }

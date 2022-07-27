@@ -1,14 +1,14 @@
 ---
 title: CenterYPx
 second_title: Aspose.Cells for .NET API 参考
-description: 调用 Chart.Calculate 方法后以像素为单位获取墙中心左下角的 y 坐标
+description: 调用Chart.Calculate方法后获取墙中心左下角的y坐标以像素为单位
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.charts/walls/centerypx/
 ---
 ## Walls.CenterYPx property
 
-调用 Chart.Calculate() 方法后，以像素为单位获取墙中心左下角的 y 坐标。
+调用Chart.Calculate()方法后获取墙中心左下角的y坐标，以像素为单位。
 
 ```csharp
 public int CenterYPx { get; }

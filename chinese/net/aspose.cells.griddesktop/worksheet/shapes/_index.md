@@ -1,14 +1,14 @@
 ---
 title: Shapes
 second_title: Aspose.Cells for .NET API 参考
-description: 获取Picturesaspose.cells.griddesktop/worksheet/pictures集合
+description: 得到一个Picturesaspose.cells.griddesktop/worksheet/pictures集合.
 type: docs
 weight: 360
 url: /zh/net/aspose.cells.griddesktop/worksheet/shapes/
 ---
 ## Worksheet.Shapes property
 
-获取[`Pictures`](../pictures)集合。
+得到一个[`Pictures`](../pictures)集合.
 
 ```csharp
 public GridShapeCollection Shapes { get; }

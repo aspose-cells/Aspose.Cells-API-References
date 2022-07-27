@@ -18,7 +18,7 @@ public class TextTabStop
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TabAlignment](../../aspose.cells.drawing.texts/texttabstop/tabalignment) { get; set; } | 使用此制表位指定要应用于文本的对齐方式。 |
+| [TabAlignment](../../aspose.cells.drawing.texts/texttabstop/tabalignment) { get; set; } | 指定要使用此制表位应用于文本的对齐方式。 |
 | [TabPosition](../../aspose.cells.drawing.texts/texttabstop/tabposition) { get; set; } | 指定制表位相对于左边距的位置。 |
 
 ### 也可以看看

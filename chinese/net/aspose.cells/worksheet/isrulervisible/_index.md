@@ -1,14 +1,14 @@
 ---
 title: IsRulerVisible
 second_title: Aspose.Cells for .NET API 参考
-description: 表示标尺是否可见此属性仅适用于分页预览
+description: 指示标尺是否可见此属性仅适用于分页预览
 type: docs
 weight: 270
 url: /zh/net/aspose.cells/worksheet/isrulervisible/
 ---
 ## Worksheet.IsRulerVisible property
 
-表示标尺是否可见。此属性仅适用于分页预览。
+指示标尺是否可见。此属性仅适用于分页预览。
 
 ```csharp
 public bool IsRulerVisible { get; set; }

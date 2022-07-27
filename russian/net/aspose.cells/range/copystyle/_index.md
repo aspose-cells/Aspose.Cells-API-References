@@ -3,7 +3,7 @@ title: CopyStyle
 second_title: Справочник по Aspose.Cells для .NET API
 description: Копирует настройки стиля из исходного диапазона.
 type: docs
-weight: 210
+weight: 250
 url: /ru/net/aspose.cells/range/copystyle/
 ---
 ## Range.CopyStyle method
@@ -16,7 +16,7 @@ public void CopyStyle(Range range)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| range | Range | Источник[`Range`](../../range)объект. |
+| range | Range | Источник[`Range`](../../range) объект. |
 
 ### Смотрите также
 

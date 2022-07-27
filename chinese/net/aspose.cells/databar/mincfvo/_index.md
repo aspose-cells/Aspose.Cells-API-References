@@ -1,14 +1,14 @@
 ---
 title: MinCfvo
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置此 DataBar 的最小值对象 无法设置 null 或类型为 FormatConditionValueType.Max 的 CFValueObject
+description: 获取或设置此 DataBar 的最小值对象 无法将其设置为 FormatConditionValueType.Max 类型的 null 或 CFValueObject
 type: docs
 weight: 90
 url: /zh/net/aspose.cells/databar/mincfvo/
 ---
 ## DataBar.MinCfvo property
 
-获取或设置此 DataBar 的最小值对象。 无法设置 null 或类型为 FormatConditionValueType.Max 的 CFValueObject。
+获取或设置此 DataBar 的最小值对象。 无法将其设置为 FormatConditionValueType.Max 类型的 null 或 CFValueObject。
 
 ```csharp
 public ConditionalFormattingValue MinCfvo { get; }

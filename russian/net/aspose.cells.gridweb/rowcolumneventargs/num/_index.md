@@ -1,14 +1,14 @@
 ---
 title: Num
 second_title: Справочник по Aspose.Cells для .NET API
-description: Номер строки или столбца начинается с нуля.
+description: Номер строки или столбца начиная с нуля.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.gridweb/rowcolumneventargs/num/
 ---
 ## RowColumnEventArgs.Num property
 
-Номер строки или столбца начинается с нуля.
+Номер строки или столбца, начиная с нуля.
 
 ```csharp
 public int Num { get; }

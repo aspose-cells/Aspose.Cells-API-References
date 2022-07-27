@@ -1,14 +1,14 @@
 ---
 title: HorizontalResolution
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置生成图像的水平分辨率以每英寸点数为单位 除 Emf 格式图像外应用生成图像方法
+description: 获取或设置生成图像的水平分辨率以每英寸点数为单位 应用生成图像的方法除了 Emf 格式的图像
 type: docs
 weight: 120
 url: /zh/net/aspose.cells.rendering/imageorprintoptions/horizontalresolution/
 ---
 ## ImageOrPrintOptions.HorizontalResolution property
 
-获取或设置生成图像的水平分辨率，以每英寸点数为单位。 除 Emf 格式图像外，应用生成图像方法。
+获取或设置生成图像的水平分辨率，以每英寸点数为单位。 应用生成图像的方法，除了 Emf 格式的图像。
 
 ```csharp
 public int HorizontalResolution { get; set; }
@@ -16,7 +16,7 @@ public int HorizontalResolution { get; set; }
 
 ### 评论
 
-默认值为 96。
+默认值为 96.
 
 ### 也可以看看
 

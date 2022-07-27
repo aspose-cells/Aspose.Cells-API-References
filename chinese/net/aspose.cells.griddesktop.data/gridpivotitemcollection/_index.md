@@ -1,14 +1,14 @@
 ---
 title: GridPivotItemCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装PivotItem对象的集合
+description: 封装了一个集合PivotItem对象.
 type: docs
 weight: 640
 url: /zh/net/aspose.cells.griddesktop.data/gridpivotitemcollection/
 ---
 ## GridPivotItemCollection class
 
-封装PivotItem对象的集合。
+封装了一个集合PivotItem对象.
 
 ```csharp
 public class GridPivotItemCollection
@@ -19,13 +19,13 @@ public class GridPivotItemCollection
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.cells.griddesktop.data/gridpivotitemcollection/count) { get; } |  |
-| [Item](../../aspose.cells.griddesktop.data/gridpivotitemcollection/item) { get; } | 获取指定索引处的PivotItem元素。 |
+| [Item](../../aspose.cells.griddesktop.data/gridpivotitemcollection/item) { get; } | 获取PivotItem指定索引处的元素。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells.griddesktop.data/gridpivotitemcollection/add)(GridPivotItem) | 将 PivotItem 对象添加到特定类型的 PivotItems。 |
+| [Add](../../aspose.cells.griddesktop.data/gridpivotitemcollection/add)(GridPivotItem) | 将 PivotItem 对象添加到特定类型的 PivotItems. |
 
 ### 也可以看看
 

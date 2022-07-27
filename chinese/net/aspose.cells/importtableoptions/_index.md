@@ -24,7 +24,7 @@ public class ImportTableOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CheckMergedCells](../../aspose.cells/importtableoptions/checkmergedcells) { get; set; } | 表示是否检查合并单元格。 |
+| [CheckMergedCells](../../aspose.cells/importtableoptions/checkmergedcells) { get; set; } | 表示是否检查合并的单元格。 |
 | [ColumnIndexes](../../aspose.cells/importtableoptions/columnindexes) { get; set; } | 获取或设置要从数据源导入的列（从 0 开始）。 null 表示应导入所有列。 |
 | [ConvertGridStyle](../../aspose.cells/importtableoptions/convertgridstyle) { get; set; } | 表示是否将网格视图的样式应用于单元格。 |
 | [ConvertNumericData](../../aspose.cells/importtableoptions/convertnumericdata) { get; set; } | 获取或设置一个值，该值指示字符串值应转换为数字值还是日期值。 |
@@ -35,7 +35,7 @@ public class ImportTableOptions
 | [IsFormulas](../../aspose.cells/importtableoptions/isformulas) { get; set; } | 表示数据是否为公式。 |
 | [IsHtmlString](../../aspose.cells/importtableoptions/ishtmlstring) { get; set; } | 表示值是否包含html标签。 |
 | [NumberFormats](../../aspose.cells/importtableoptions/numberformats) { get; set; } | 获取或设置数字格式 |
-| [ShiftFirstRowDown](../../aspose.cells/importtableoptions/shiftfirstrowdown) { get; set; } | 表示插入行时第一行是否下移。 |
+| [ShiftFirstRowDown](../../aspose.cells/importtableoptions/shiftfirstrowdown) { get; set; } | 表示插入行时是否下移第一行。 |
 | [TotalColumns](../../aspose.cells/importtableoptions/totalcolumns) { get; set; } | 获取或设置要从数据源导入的总列数。 -1 表示给定数据源的所有行。 |
 | [TotalRows](../../aspose.cells/importtableoptions/totalrows) { get; set; } | 获取或设置要从数据源导入的总行数。 -1 表示给定数据源的所有行。 |
 

@@ -1,14 +1,14 @@
 ---
 title: EnableAutoFilter
 second_title: Aspose.Cells for .NET API 参考
-description: 启用自动过滤 HeaderRow 将显示下拉按钮让用户选择要过滤的列的值
+description: 启用自动过滤 HeaderRow 将显示下拉按钮让用户选择要过滤的列值
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.griddesktop/rowfiltersettings/enableautofilter/
 ---
 ## RowFilterSettings.EnableAutoFilter property
 
-启用自动过滤。 HeaderRow 将显示下拉按钮，让用户选择要过滤的列的值。
+启用自动过滤。 HeaderRow 将显示下拉按钮，让用户选择要过滤的列值。
 
 ```csharp
 public bool EnableAutoFilter { get; set; }

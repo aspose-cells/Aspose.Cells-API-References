@@ -1,14 +1,14 @@
 ---
 title: GetColumn
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементGridColumnaspose.cells.griddesktop.data/gridcolumnили указанный индекс столбца ячейки.
+description: ПолучаетGridColumnaspose.cells.griddesktop.data/gridcolumn элемента или по указанному индексу столбца ячейки.
 type: docs
 weight: 390
 url: /ru/net/aspose.cells.griddesktop.data/gridcells/getcolumn/
 ---
 ## GridCells.GetColumn method
 
-Получает элемент[`GridColumn`](../../gridcolumn)или указанный индекс столбца ячейки.
+Получает[`GridColumn`](../../gridcolumn) элемента или по указанному индексу столбца ячейки.
 
 ```csharp
 public GridColumn GetColumn(int column)

@@ -1,14 +1,14 @@
 ---
 title: BorderOleColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает цвет фона.
+description: Получает и устанавливает цвет фона ole.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/borderolecolor/
 ---
 ## TextBoxActiveXControl.BorderOleColor property
 
-Получает и устанавливает цвет фона.
+Получает и устанавливает цвет фона ole.
 
 ```csharp
 public int BorderOleColor { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: DefaultStyleSettings
 second_title: Aspose.Cells for .NET API 参考
-description: 工作簿样式属性默认值的设置
+description: 设置工作簿样式属性的默认值
 type: docs
 weight: 1360
 url: /zh/net/aspose.cells/defaultstylesettings/
 ---
 ## DefaultStyleSettings class
 
-工作簿样式属性默认值的设置。
+设置工作簿样式属性的默认值。
 
 ```csharp
 public class DefaultStyleSettings

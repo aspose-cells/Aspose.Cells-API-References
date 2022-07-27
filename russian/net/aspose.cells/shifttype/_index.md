@@ -1,14 +1,14 @@
 ---
 title: ShiftType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляют параметры сдвига при удалении диапазона ячеек.
+description: Представляет параметры сдвига при удалении диапазона ячеек.
 type: docs
 weight: 5620
 url: /ru/net/aspose.cells/shifttype/
 ---
 ## ShiftType enumeration
 
-Представляют параметры сдвига при удалении диапазона ячеек.
+Представляет параметры сдвига при удалении диапазона ячеек.
 
 ```csharp
 public enum ShiftType

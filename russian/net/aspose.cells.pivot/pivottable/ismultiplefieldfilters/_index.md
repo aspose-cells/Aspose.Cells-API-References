@@ -1,14 +1,14 @@
 ---
 title: IsMultipleFieldFilters
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает логическое значение указывающее могут ли поля сводной таблицы иметь несколько фильтров установленных для них.
+description: Задает логическое значение указывающее могут ли поля сводной таблицы иметь несколько фильтров.
 type: docs
 weight: 310
 url: /ru/net/aspose.cells.pivot/pivottable/ismultiplefieldfilters/
 ---
 ## PivotTable.IsMultipleFieldFilters property
 
-Указывает логическое значение, указывающее, могут ли поля сводной таблицы иметь несколько фильтров, установленных для них.
+Задает логическое значение, указывающее, могут ли поля сводной таблицы иметь несколько фильтров.
 
 ```csharp
 public bool IsMultipleFieldFilters { get; set; }

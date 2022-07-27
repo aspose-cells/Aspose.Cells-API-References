@@ -1,14 +1,14 @@
 ---
 title: MirrorType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает тип зеркала для мозаики.
+description: Получает или задает тип зеркала для тайлинга.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.drawing/tilepicoption/mirrortype/
 ---
 ## TilePicOption.MirrorType property
 
-Получает или задает тип зеркала для мозаики.
+Получает или задает тип зеркала для тайлинга.
 
 ```csharp
 public MirrorType MirrorType { get; set; }

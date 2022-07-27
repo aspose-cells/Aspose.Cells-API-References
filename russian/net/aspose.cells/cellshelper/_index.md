@@ -21,9 +21,9 @@ public class CellsHelper
 | static [AltStartPath](../../aspose.cells/cellshelper/altstartpath) { get; set; } | Получает или задает альтернативный путь запуска, на который ссылаются некоторые внешние ссылки на формулы. |
 | static [CustomImplementationFactory](../../aspose.cells/cellshelper/customimplementationfactory) { get; set; } | Получает или задает фабрику для создания экземпляров со специальной реализацией. |
 | static [DPI](../../aspose.cells/cellshelper/dpi) { get; set; } | Получает DPI машины. |
-| static [IsCloudPlatform](../../aspose.cells/cellshelper/iscloudplatform) { get; set; } | Установите для этого свойства значение True при работе на облачной платформе, такой как:Azure, AWSLambda и т. д., |
+| static [IsCloudPlatform](../../aspose.cells/cellshelper/iscloudplatform) { get; set; } | Установите для этого свойства значение True при работе на облачной платформе, такой как: Azure, AWSLambda и т. д., |
 | static [LibraryPath](../../aspose.cells/cellshelper/librarypath) { get; set; } | Получает или задает путь к библиотеке, на который ссылаются некоторые внешние ссылки на формулы. |
-| static [SignificantDigits](../../aspose.cells/cellshelper/significantdigits) { get; set; } | Получает и устанавливает количество значащих цифр. Значение по умолчанию равно 17. |
+| static [SignificantDigits](../../aspose.cells/cellshelper/significantdigits) { get; set; } | Получает и устанавливает количество значащих цифр. Значение по умолчанию: 17. |
 | static [StartupPath](../../aspose.cells/cellshelper/startuppath) { get; set; } | Получает или задает путь запуска, на который ссылаются некоторые внешние ссылки на формулы. |
 
 ## Методы
@@ -32,12 +32,12 @@ public class CellsHelper
 | --- | --- |
 | static [CellIndexToName](../../aspose.cells/cellshelper/cellindextoname)(int, int) | Получает имя ячейки в соответствии с ее индексами строки и столбца. |
 | static [CellNameToIndex](../../aspose.cells/cellshelper/cellnametoindex)(string, out int, out int) | Получает индексы строки и столбца ячейки в соответствии с ее именем. |
-| static [ColumnIndexToName](../../aspose.cells/cellshelper/columnindextoname)(int) | Получает имя столбца по индексу столбца. |
-| static [ColumnNameToIndex](../../aspose.cells/cellshelper/columnnametoindex)(string) | Получает индекс столбца по имени столбца. |
+| static [ColumnIndexToName](../../aspose.cells/cellshelper/columnindextoname)(int) | Получает имя столбца в соответствии с индексом столбца. |
+| static [ColumnNameToIndex](../../aspose.cells/cellshelper/columnnametoindex)(string) | Получает индекс столбца в соответствии с именем столбца. |
 | static [ConvertA1FormulaToR1C1](../../aspose.cells/cellshelper/converta1formulator1c1)(string, int, int) | Преобразует формулу ячейки A1 в формулу r1c1. |
-| static [ConvertR1C1FormulaToA1](../../aspose.cells/cellshelper/convertr1c1formulatoa1)(string, int, int) | Преобразует формулу ячейки r1c1 в формулу A1. |
-| static [CreateSafeSheetName](../../aspose.cells/cellshelper/createsafesheetname#createsafesheetname)(string) | Проверяет заданное имя листа и при необходимости создает допустимое. Если заданное имя листа соответствует правилам имени листа Excel, вернуть его. В противном случае строка будет усечена, если длина превысит лимит и недопустимые символы будут заменены на ' ', после чего будет возвращено перестроенное строковое значение. |
-| static [CreateSafeSheetName](../../aspose.cells/cellshelper/createsafesheetname#createsafesheetname_1)(string, char) | Проверяет заданное имя листа и при необходимости создает допустимое. Если заданное имя листа соответствует правилам имени листа Excel, вернуть его. В противном случае строка будет усечена, если длина превысит ограничение и недопустимые символы будут заменены заданным символом, а затем возвращено перестроенное строковое значение. |
+| static [ConvertR1C1FormulaToA1](../../aspose.cells/cellshelper/convertr1c1formulatoa1)(string, int, int) | Преобразует формулу r1c1 ячейки в формулу A1. |
+| static [CreateSafeSheetName](../../aspose.cells/cellshelper/createsafesheetname#createsafesheetname)(string) | Проверяет заданное имя листа и при необходимости создает допустимое. Если заданное имя листа соответствует правилам имени листа Excel, верните его. ', затем вернуть восстановленное строковое значение. |
+| static [CreateSafeSheetName](../../aspose.cells/cellshelper/createsafesheetname#createsafesheetname_1)(string, char) | Проверяет заданное имя листа и создает допустимое при необходимости. Если заданное имя листа соответствует правилам имени листа Excel, верните его. символ, затем вернуть восстановленное строковое значение. |
 | static [GetDateTimeFromDouble](../../aspose.cells/cellshelper/getdatetimefromdouble)(double, bool) | Преобразование двойного значения в значение даты и времени. |
 | static [GetDoubleFromDateTime](../../aspose.cells/cellshelper/getdoublefromdatetime)(DateTime, bool) | Преобразование даты и времени в двойное значение. |
 | static [GetTextWidth](../../aspose.cells/cellshelper/gettextwidth)(string, Font, double) | Получить ширину текста в пунктах. |

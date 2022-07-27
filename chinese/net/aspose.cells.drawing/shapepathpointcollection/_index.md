@@ -1,14 +1,14 @@
 ---
 title: ShapePathPointCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示所有形状路径点
+description: 代表所有形状路径点
 type: docs
 weight: 2720
 url: /zh/net/aspose.cells.drawing/shapepathpointcollection/
 ---
 ## ShapePathPointCollection class
 
-表示所有形状路径点。
+代表所有形状路径点。
 
 ```csharp
 public class ShapePathPointCollection : CollectionBase<ShapePathPoint>

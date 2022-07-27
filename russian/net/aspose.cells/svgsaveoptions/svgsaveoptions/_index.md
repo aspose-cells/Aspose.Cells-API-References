@@ -32,7 +32,7 @@ public SvgSaveOptions(SaveFormat saveFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| saveFormat | SaveFormat | Формат файла. Это должно быть svg. |
+| saveFormat | SaveFormat | Формат файла. Должен быть svg. |
 
 ### Смотрите также
 

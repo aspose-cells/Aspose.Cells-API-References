@@ -1,14 +1,14 @@
 ---
 title: IsAboveAverage
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置指示规则是否为高于平均水平规则的标志 true 表示高于平均水平 默认值为真
+description: 获取或设置指示规则是否为高于平均水平规则的标志 真表示高于平均水平 默认值为真
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/aboveaverage/isaboveaverage/
 ---
 ## AboveAverage.IsAboveAverage property
 
-获取或设置指示规则是否为“高于平均水平”规则的标志。 'true' 表示'高于平均水平'。 默认值为真。
+获取或设置指示规则是否为“高于平均水平”规则的标志。 “真”表示“高于平均水平”。 默认值为真。
 
 ```csharp
 public bool IsAboveAverage { get; set; }

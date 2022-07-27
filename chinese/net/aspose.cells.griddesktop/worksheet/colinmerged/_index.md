@@ -1,14 +1,14 @@
 ---
 title: ColInMerged
 second_title: Aspose.Cells for .NET API 参考
-description: 获取一个值该值指示指定列是否合并
+description: 获取一个值该值指示是否合并中的指定列
 type: docs
 weight: 590
 url: /zh/net/aspose.cells.griddesktop/worksheet/colinmerged/
 ---
 ## Worksheet.ColInMerged method
 
-获取一个值，该值指示指定列是否合并。
+获取一个值，该值指示是否合并中的指定列。
 
 ```csharp
 public bool ColInMerged(int index)

@@ -1,14 +1,14 @@
 ---
 title: IsCollapse
 second_title: Справочник по Aspose.Cells для .NET API
-description: Когда это свойство имеет значение true запись закладки будет свернута иначе она расширится.
+description: Если для этого свойства установлено значение true запись закладки будет свернута в противном случае она будет расширена.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.rendering/pdfbookmarkentry/iscollapse/
 ---
 ## PdfBookmarkEntry.IsCollapse property
 
-Когда это свойство имеет значение true, запись закладки будет свернута, иначе она расширится.
+Если для этого свойства установлено значение true, запись закладки будет свернута, в противном случае она будет расширена.
 
 ```csharp
 public bool IsCollapse { get; set; }

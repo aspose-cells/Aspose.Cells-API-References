@@ -1,14 +1,14 @@
 ---
 title: Weight
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задаетWeightTypeaspose.cells.drawing/weighttypeлинии.
+description: Получает или задаетWeightTypeaspose.cells.drawing/weighttype линии.
 type: docs
 weight: 200
 url: /ru/net/aspose.cells.drawing/line/weight/
 ---
 ## Line.Weight property
 
-Получает или задает[`WeightType`](../../weighttype)линии.
+Получает или задает[`WeightType`](../../weighttype) линии.
 
 ```csharp
 public WeightType Weight { get; set; }

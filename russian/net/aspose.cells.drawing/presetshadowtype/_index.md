@@ -20,7 +20,7 @@ public enum PresetShadowType
 | --- | --- | --- |
 | NoShadow | `0` | Нет тени. |
 | Custom | `1` | Пользовательская тень. |
-| OffsetDiagonalBottomRight | `2` | Смещение внешней тени по диагонали внизу справа. |
+| OffsetDiagonalBottomRight | `2` | Смещение внешней тени по диагонали справа внизу. |
 | OffsetBottom | `3` | Смещение внешней тени снизу. |
 | OffsetDiagonalBottomLeft | `4` | Смещение внешней тени по диагонали внизу слева. |
 | OffsetRight | `5` | Смещение внешней тени вправо. |
@@ -38,7 +38,7 @@ public enum PresetShadowType
 | InsideDiagonalBottomLeft | `17` | Внутренняя тень внутри диагонали внизу слева. |
 | InsideBottom | `18` | Внутренняя тень внутри дна. |
 | InsideDiagonalBottomRight | `19` | Внутренняя тень внутри диагонали внизу справа. |
-| PerspectiveDiagonalUpperLeft | `20` | Перспектива внешней тени по диагонали вверху слева. |
+| PerspectiveDiagonalUpperLeft | `20` | Диагональ перспективы внешней тени слева вверху. |
 | PerspectiveDiagonalUpperRight | `21` | Диагональ перспективы внешней тени справа вверху. |
 | Below | `22` | Внешняя тень внизу. |
 | PerspectiveDiagonalLowerLeft | `23` | Диагональ перспективы внешней тени слева внизу. |

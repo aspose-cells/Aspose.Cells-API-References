@@ -1,14 +1,14 @@
 ---
 title: LowerDeltaY
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置形状与其右下角行的垂直偏移量  取值范围为 0 到 256
+description: 获取或设置形状与其右下角行的垂直偏移量 值的范围是 0 到 256
 type: docs
 weight: 270
 url: /zh/net/aspose.cells.gridweb.data/gridpicture/lowerdeltay/
 ---
 ## GridPicture.LowerDeltaY property
 
-获取或设置形状与其右下角行的垂直偏移量。  取值范围为 0 到 256。
+获取或设置形状与其右下角行的垂直偏移量。 值的范围是 0 到 256。
 
 ```csharp
 public int LowerDeltaY { get; set; }

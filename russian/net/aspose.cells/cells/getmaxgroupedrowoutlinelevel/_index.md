@@ -1,14 +1,14 @@
 ---
 title: GetMaxGroupedRowOutlineLevel
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает максимальный уровень структуры сгруппированной строки отсчитывается от нуля.
+description: Получает максимальный уровень структуры сгруппированных строк отсчитывается от нуля.
 type: docs
-weight: 760
+weight: 770
 url: /ru/net/aspose.cells/cells/getmaxgroupedrowoutlinelevel/
 ---
 ## Cells.GetMaxGroupedRowOutlineLevel method
 
-Получает максимальный уровень структуры сгруппированной строки (отсчитывается от нуля).
+Получает максимальный уровень структуры сгруппированных строк (отсчитывается от нуля).
 
 ```csharp
 public int GetMaxGroupedRowOutlineLevel()

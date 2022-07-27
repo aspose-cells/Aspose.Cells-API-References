@@ -1,14 +1,14 @@
 ---
 title: GetDoubleValue
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает двойное значение элемента сводки Если значение равно null или не является числом возвращается 0
+description: Получает двойное значение сводного элемента Если значение равно null или не является числом возвращается 0
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.gridweb.data/gridpivotitem/getdoublevalue/
 ---
 ## GridPivotItem.GetDoubleValue method
 
-Получает двойное значение элемента сводки Если значение равно null или не является числом, возвращается 0
+Получает двойное значение сводного элемента Если значение равно null или не является числом, возвращается 0
 
 ```csharp
 public double GetDoubleValue()

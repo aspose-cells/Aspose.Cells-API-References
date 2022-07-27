@@ -17,10 +17,10 @@ public void AdvancedFilter(bool isFilter, string listRange, string criteriaRange
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| isFilter | Boolean | 表示是否对列表进行过滤。 |
+| isFilter | Boolean | 指示是否过滤列表。 |
 | listRange | String | 列表范围。 |
 | criteriaRange | String | 标准范围。 |
-| copyTo | String | 复制数据的范围。 |
+| copyTo | String | 将数据复制到的范围。 |
 | uniqueRecordOnly | Boolean | 仅显示或复制唯一行。 |
 
 ### 也可以看看

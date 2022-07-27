@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 通过列索引获取对象如果给定列索引的 Column 对象之前不存在它将被实例化
+description: 得到一个按列索引的对象给定列索引的 Column 对象如果之前不存在将被实例化
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.gridweb.data/gridcolumncollection/item/
 ---
 ## GridColumnCollection indexer
 
-通过列索引获取对象。如果给定列索引的 Column 对象之前不存在，它将被实例化。
+得到一个按列索引的对象。给定列索引的 Column 对象如果之前不存在将被实例化。
 
 ```csharp
 public GridColumn this[int columnIndex] { get; }

@@ -18,7 +18,7 @@ public class WebExtension
 
 | Имя | Описание |
 | --- | --- |
-| [AlterReferences](../../aspose.cells.webextensions/webextension/alterreferences) { get; } | Получает список измененных ссылок. |
+| [AlterReferences](../../aspose.cells.webextensions/webextension/alterreferences) { get; } | Получает список ссылок на изменения. |
 | [Bindings](../../aspose.cells.webextensions/webextension/bindings) { get; } | Получает все отношения привязки между надстройкой Office и данными в документе. |
 | [Id](../../aspose.cells.webextensions/webextension/id) { get; set; } | Получает и задает уникальный идентификатор экземпляра надстройки Office в текущем документе. |
 | [IsFrozen](../../aspose.cells.webextensions/webextension/isfrozen) { get; set; } | Указывает, может ли пользователь взаимодействовать с надстройкой Office или нет. |

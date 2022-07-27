@@ -1,14 +1,14 @@
 ---
 title: RefreshFilter
 second_title: Справочник по Aspose.Cells для .NET API
-description: Обновите автоматические фильтры чтобы скрыть или показать строки.
+description: Обновить автоматические фильтры чтобы скрыть или отобразить строки.
 type: docs
 weight: 910
 url: /ru/net/aspose.cells.griddesktop/worksheet/refreshfilter/
 ---
 ## Worksheet.RefreshFilter method
 
-Обновите автоматические фильтры, чтобы скрыть или показать строки.
+Обновить автоматические фильтры, чтобы скрыть или отобразить строки.
 
 ```csharp
 public void RefreshFilter()

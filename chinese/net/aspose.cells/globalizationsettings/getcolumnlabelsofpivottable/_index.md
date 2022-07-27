@@ -16,7 +16,7 @@ public virtual string GetColumnLabelsOfPivotTable()
 
 ### 返回值
 
-列标签名称
+列标签的名称
 
 ### 也可以看看
 

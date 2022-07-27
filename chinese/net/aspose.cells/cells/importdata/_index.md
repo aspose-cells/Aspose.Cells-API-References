@@ -1,14 +1,14 @@
 ---
 title: ImportData
 second_title: Aspose.Cells for .NET API 参考
-description: 从IDataReader对象导入数据
+description: 从IDataReader对象.
 type: docs
-weight: 970
+weight: 980
 url: /zh/net/aspose.cells/cells/importdata/
 ---
 ## ImportData(IDataReader, int, int) {#importdata_3}
 
-从IDataReader对象导入数据。
+从IDataReader对象.
 
 ```csharp
 public int ImportData(IDataReader reader, int firstRow, int firstColumn)
@@ -16,9 +16,9 @@ public int ImportData(IDataReader reader, int firstRow, int firstColumn)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| reader | IDataReader | IDataReader包含数据的对象。 |
+| reader | IDataReader | 这IDataReader包含数据的对象。 |
 | firstRow | Int32 | 要导入的第一个单元格的行号。 |
-| firstColumn | Int32 | 列号要导入的第一个单元格。 |
+| firstColumn | Int32 | 要导入的第一个单元格的列号。 |
 
 ### 返回值
 
@@ -34,7 +34,7 @@ public int ImportData(IDataReader reader, int firstRow, int firstColumn)
 
 ## ImportData(IDataReader, int, int, ImportTableOptions) {#importdata_4}
 
-从IDataReader对象导入数据。
+从IDataReader对象.
 
 ```csharp
 public int ImportData(IDataReader reader, int firstRow, int firstColumn, ImportTableOptions options)
@@ -42,9 +42,9 @@ public int ImportData(IDataReader reader, int firstRow, int firstColumn, ImportT
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| reader | IDataReader | IDataReader包含数据的对象。 |
+| reader | IDataReader | 这IDataReader包含数据的对象。 |
 | firstRow | Int32 | 要导入的第一个单元格的行号。 |
-| firstColumn | Int32 | 列号要导入的第一个单元格。 |
+| firstColumn | Int32 | 要导入的第一个单元格的列号。 |
 | options | ImportTableOptions | 导入表的选项。 |
 
 ### 返回值
@@ -96,7 +96,7 @@ public int ImportData(DataTable table, int firstRow, int firstColumn, ImportTabl
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| table | DataTable | 要导入的DataTable对象。 |
+| table | DataTable | 这DataTable要导入的对象。 |
 | firstRow | Int32 | 第一行索引。 |
 | firstColumn | Int32 | 第一列索引。 |
 | options | ImportTableOptions | 导入选项 |
@@ -114,7 +114,7 @@ public int ImportData(DataTable table, int firstRow, int firstColumn, ImportTabl
 Workbook excel = new Workbook();
 Cells cells = excel.Worksheets[0].Cells;
 
- //导入数据
+//导入数据
 DataTable dt = new DataTable("Products");
 dt.Columns.Add("Product_ID",typeof(Int32));
 dt.Columns.Add("Product_Name",typeof(string));
@@ -138,7 +138,7 @@ cells.ImportData(dt, 12, 12, options);
 Dim excel as Workbook = new Workbook()
 Dim cells as Cells = excel.Worksheets(0).Cells
 
-//导入数据
+'导入数据
 Dim dt as DataTable = new DataTable("Employee")
 dt.Columns.Add("Employee_ID",typeof(Int32))
 dt.Columns.Add("Employee_Name",typeof(string))
@@ -157,7 +157,7 @@ Dim options as ImportTableOptions = new ImportTableOptions()
 options.IsFieldNameShown = True
 cells.ImportData(dt, 12, 12, options)
 
-//导出数据
+'导出数据
 Dim outDataTable as DataTable = cells.ExportDataTable(12, 12, 10, 10)
 ```
 
@@ -180,7 +180,7 @@ public int ImportData(DataView dataView, int firstRow, int firstColumn, ImportTa
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dataView | DataView | 要导入的DataView对象。 |
+| dataView | DataView | 这DataView要导入的对象。 |
 | firstRow | Int32 | 第一行索引。 |
 | firstColumn | Int32 | 第一列索引。 |
 | options | ImportTableOptions | 导入选项 |

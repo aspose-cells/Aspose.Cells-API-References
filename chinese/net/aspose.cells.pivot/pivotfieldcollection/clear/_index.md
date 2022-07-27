@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Aspose.Cells for .NET API 参考
-description: 清除 PivotFieldCollection
+description: 清除PivotFieldCollection的所有字段
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.pivot/pivotfieldcollection/clear/
 ---
 ## PivotFieldCollection.Clear method
 
-清除 PivotFieldCollection
+清除PivotFieldCollection的所有字段
 
 ```csharp
 public void Clear()

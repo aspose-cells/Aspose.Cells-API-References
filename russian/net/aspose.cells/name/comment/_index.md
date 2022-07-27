@@ -1,14 +1,14 @@
 ---
 title: Comment
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает комментарий имени. Применяется только для Excel 2007.
+description: Получает и задает комментарий к имени. Применяется только для Excel 2007.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/name/comment/
 ---
 ## Name.Comment property
 
-Получает и устанавливает комментарий имени. Применяется только для Excel 2007.
+Получает и задает комментарий к имени. Применяется только для Excel 2007.
 
 ```csharp
 public string Comment { get; set; }

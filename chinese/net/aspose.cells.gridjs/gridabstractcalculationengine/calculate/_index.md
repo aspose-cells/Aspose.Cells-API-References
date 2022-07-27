@@ -1,14 +1,14 @@
 ---
 title: Calculate
 second_title: Aspose.Cells for .NET API 参考
-description: 用给定数据计算一个函数
+description: 用给定的数据计算一个函数
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.gridjs/gridabstractcalculationengine/calculate/
 ---
 ## GridAbstractCalculationEngine.Calculate method
 
-用给定数据计算一个函数。
+用给定的数据计算一个函数。
 
 ```csharp
 public abstract void Calculate(GridCalculationData data)
@@ -20,7 +20,7 @@ public abstract void Calculate(GridCalculationData data)
 
 ### 评论
 
-用户应为所有函数（包括 excel 原生函数）设置给定数据的计算值 他想在此计算执行。
+用户应该为所有函数（包括excel原生函数）设置给定数据的计算值 他想在这个实现中自己计算。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Cell
 second_title: Aspose.Cells for .NET API 参考
-description: 单元格
+description: 单元格.
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.gridweb/celleventargs/cell/
 ---
 ## CellEventArgs.Cell property
 
-单元格。
+单元格.
 
 ```csharp
 public GridCell Cell { get; }

@@ -16,7 +16,7 @@ public bool HasAxis(AxisType aixsType, bool isPrimary)
 
 ### 评论
 
-通常情况下，Pie, PieExploded, PiePie,PieBar, Pie3D, Pie3DExploded,Doughnut, DoughnutExploded 是没有轴的.
+通常，Pie, PieExploded, PiePie,PieBar, Pie3D, Pie3DExploded,Doughnut, DoughnutExploded 是没有轴的。
 
 ### 也可以看看
 

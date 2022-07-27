@@ -20,7 +20,7 @@ public OleObject AddOleObject(int upperLeftRow, int top, int upperLeftColumn, in
 | upperLeftColumn | Int32 |  |
 | left | Int32 |  |
 | height | Int32 |  |
-| 宽度 | Int32 |  |
+| width | Int32 |  |
 | imageData | Byte[] |  |
 
 ### 例子

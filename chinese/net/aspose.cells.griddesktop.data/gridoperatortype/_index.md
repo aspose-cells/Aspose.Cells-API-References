@@ -18,13 +18,13 @@ public enum GridOperatorType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Between | `0` | 表示条件格式和数据验证之间的运算符。 |
-| Equal | `1` | 表示条件格式和数据验证的Equal运算符。 |
-| GreaterThan | `2` | 表示条件格式和数据验证的GreaterThan运算符。 |
-| GreaterOrEqual | `3` | 表示条件格式和数据验证的GreaterOrEqual运算符。 |
+| Between | `0` | 表示条件格式的运算符和数据验证之间。 |
+| Equal | `1` | 表示条件格式和数据验证的 Equal 运算符。 |
+| GreaterThan | `2` | 表示条件格式和数据验证的 GreaterThan 运算符。 |
+| GreaterOrEqual | `3` | 表示条件格式和数据验证的 GreaterOrEqual 运算符。 |
 | LessThan | `4` | 表示条件格式和数据验证的 LessThan 运算符。 |
 | LessOrEqual | `5` | 表示条件格式和数据验证的 LessOrEqual 运算符。 |
-| None | `6` | 表示不比较。 |
+| None | `6` | 代表没有比较。 |
 | NotBetween | `7` | 表示条件格式和数据验证的 NotBetween 运算符。 |
 | NotEqual | `8` | 表示条件格式和数据验证的 NotEqual 运算符。 |
 

@@ -1,14 +1,14 @@
 ---
 title: IsCustom
 second_title: Aspose.Cells for .NET API 参考
-description: 表示图标集是否为自定义 默认值为假
+description: 表示图标集是否为自定义 默认值为false
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/iconset/iscustom/
 ---
 ## IconSet.IsCustom property
 
-表示图标集是否为自定义。 默认值为假。
+表示图标集是否为自定义。 默认值为false。
 
 ```csharp
 public bool IsCustom { get; }

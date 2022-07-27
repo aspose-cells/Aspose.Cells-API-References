@@ -28,7 +28,7 @@ public void SaveHTMLFile(string targetFile)
 
 ## SaveHTMLFile(Stream) {#savehtmlfile}
 
-Сохраняет данные в поток файла HTML.
+Сохраняет данные в файловый поток HTML.
 
 ```csharp
 public void SaveHTMLFile(Stream stream)

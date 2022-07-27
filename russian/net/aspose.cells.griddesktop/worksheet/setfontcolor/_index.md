@@ -17,7 +17,7 @@ public void SetFontColor(CellRange range, Color color)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | range | CellRange | Объект CellRange. |
-| color | Color | Цвет шрифта для установки. |
+| color | Color | Цвет шрифта, который необходимо установить. |
 
 ### Смотрите также
 

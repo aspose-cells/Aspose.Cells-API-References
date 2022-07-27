@@ -3,7 +3,7 @@ title: MoveRange
 second_title: Aspose.Cells for .NET API 参考
 description: 移动范围
 type: docs
-weight: 1180
+weight: 1190
 url: /zh/net/aspose.cells/cells/moverange/
 ---
 ## Cells.MoveRange method
@@ -17,7 +17,7 @@ public void MoveRange(CellArea sourceArea, int destRow, int destColumn)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sourceArea | CellArea | 应该移动的范围。 |
-| destRow | Int32 | dest 行。 |
+| destRow | Int32 | 最末行。 |
 | destColumn | Int32 | dest 列。 |
 
 ### 也可以看看

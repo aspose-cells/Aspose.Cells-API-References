@@ -1,14 +1,14 @@
 ---
 title: IsDefaultRowHidden
 second_title: Aspose.Cells for .NET API 参考
-description: 指示该行是否默认隐藏
+description: 表示该行是否默认隐藏
 type: docs
 weight: 60
 url: /zh/net/aspose.cells/cells/isdefaultrowhidden/
 ---
 ## Cells.IsDefaultRowHidden property
 
-指示该行是否默认隐藏。
+表示该行是否默认隐藏。
 
 ```csharp
 public bool IsDefaultRowHidden { get; set; }

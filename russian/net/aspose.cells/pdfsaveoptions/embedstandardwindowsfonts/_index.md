@@ -1,14 +1,14 @@
 ---
 title: EmbedStandardWindowsFonts
 second_title: Справочник по Aspose.Cells для .NET API
-description: True для встраивания шрифтов истинного типа. Влияет только на символы ASCII 32-127. Шрифты для кодов символов больше 127 всегда встраиваются. Шрифты всегда встроены для стандарта PDF/A-1a PDF/A-1b. Значение по умолчанию  true.
+description: True для встраивания шрифтов истинного типа. Влияет только на символы ASCII 32-127. Шрифты для кодов символов больше 127 всегда встроены. Шрифты всегда встроены для стандартов PDF/A-1a PDF/A-1b. Значение по умолчанию  true.
 type: docs
 weight: 140
 url: /ru/net/aspose.cells/pdfsaveoptions/embedstandardwindowsfonts/
 ---
 ## PdfSaveOptions.EmbedStandardWindowsFonts property
 
-True для встраивания шрифтов истинного типа. Влияет только на символы ASCII 32-127. Шрифты для кодов символов больше 127 всегда встраиваются. Шрифты всегда встроены для стандарта PDF/A-1a, PDF/A-1b. Значение по умолчанию — true.
+True для встраивания шрифтов истинного типа. Влияет только на символы ASCII 32-127. Шрифты для кодов символов больше 127 всегда встроены. Шрифты всегда встроены для стандартов PDF/A-1a, PDF/A-1b. Значение по умолчанию — true.
 
 ```csharp
 public bool EmbedStandardWindowsFonts { get; set; }

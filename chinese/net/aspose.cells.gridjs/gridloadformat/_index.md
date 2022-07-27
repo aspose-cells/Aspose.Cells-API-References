@@ -22,12 +22,12 @@ public enum GridLoadFormat
 | Csv | `1` | 表示逗号分隔值 (CSV) 文本文件。 |
 | Xlsx | `6` | 表示带有或不带有宏的 Office Open XML 电子表格ML 工作簿或模板。 |
 | Tsv | `11` | 表示 TSV（制表符分隔值文件）文件。 |
-| TabDelimited | `11` | 表示制表符分隔的文本文件，与Tsv相同。 |
-| Html | `12` | 代表html文件。 |
+| TabDelimited | `11` | 表示制表符分隔的文本文件，与Tsv. |
+| Html | `12` | 代表 html 文件。 |
 | MHtml | `13` | 代表mhtml文件。 |
-| Ods | `14` | 表示打开文档表（ODS）文件。 |
+| Ods | `14` | 表示打开文档表 (ODS) 文件。 |
 | Excel97To2003 | `5` | 代表 Excel97-2003 xls 文件。 |
-| SpreadsheetML | `15` | 表示 Excel 2003 xml 文件。 |
+| SpreadsheetML | `15` | 代表 Excel 2003 xml 文件。 |
 | Xlsb | `16` | 表示 xlsb 文件。 |
 | Numbers | `56` | 代表数字文件。 |
 | Fods | `59` | 表示 OpenDocument 平面 XML 电子表格 (.fods) 文件格式。 |

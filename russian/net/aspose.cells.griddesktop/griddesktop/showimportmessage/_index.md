@@ -1,14 +1,14 @@
 ---
 title: ShowImportMessage
 second_title: Справочник по Aspose.Cells для .NET API
-description: показывать ли окно сообщения когда не удается импортировать файл значение по умолчанию равно true
+description: нужно ли показывать окно сообщения когда не удается импортировать файл значение по умолчанию  true
 type: docs
 weight: 320
 url: /ru/net/aspose.cells.griddesktop/griddesktop/showimportmessage/
 ---
 ## GridDesktop.ShowImportMessage field
 
-показывать ли окно сообщения, когда не удается импортировать файл, значение по умолчанию равно true
+нужно ли показывать окно сообщения, когда не удается импортировать файл, значение по умолчанию — true
 
 ```csharp
 public bool ShowImportMessage;

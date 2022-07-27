@@ -1,14 +1,14 @@
 ---
 title: ShowReportFilterPageByName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Показать все страницы фильтров отчетов в соответствии с именем PivotField PivotField должен находиться в PageFields.
+description: Показать все страницы фильтра отчета в соответствии с именем PivotField PivotField должен находиться в PageFields.
 type: docs
 weight: 1010
 url: /ru/net/aspose.cells.pivot/pivottable/showreportfilterpagebyname/
 ---
 ## PivotTable.ShowReportFilterPageByName method
 
-Показать все страницы фильтров отчетов в соответствии с именем PivotField, PivotField должен находиться в PageFields.
+Показать все страницы фильтра отчета в соответствии с именем PivotField, PivotField должен находиться в PageFields.
 
 ```csharp
 public void ShowReportFilterPageByName(string fieldName)
@@ -16,7 +16,7 @@ public void ShowReportFilterPageByName(string fieldName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldName | String | Имя PivotField |
+| fieldName | String | Название PivotField |
 
 ### Смотрите также
 

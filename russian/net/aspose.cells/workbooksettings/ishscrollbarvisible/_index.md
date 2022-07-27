@@ -16,7 +16,7 @@ public bool IsHScrollBarVisible { get; set; }
 
 ### Примечания
 
-Значение по умолчанию — true.
+Значение по умолчанию верно.
 
 ### Примеры
 
@@ -24,7 +24,7 @@ public bool IsHScrollBarVisible { get; set; }
 
 ```csharp
 [C#]
-  // Скрыть горизонтальную полосу прокрутки файла Excel.
+// Скрыть горизонтальную полосу прокрутки файла Excel.
 settings.IsHScrollBarVisible = false;
 
 [Visual Basic]

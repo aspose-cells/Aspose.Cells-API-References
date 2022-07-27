@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Cells for .NET API 参考
-description: 获取并设置是否为条件格式Type
+description: 获取并设置是否条件格式Type.
 type: docs
 weight: 140
 url: /zh/net/aspose.cells/formatcondition/type/
 ---
 ## FormatCondition.Type property
 
-获取并设置是否为条件格式Type。
+获取并设置是否条件格式Type.
 
 ```csharp
 public FormatConditionType Type { get; set; }

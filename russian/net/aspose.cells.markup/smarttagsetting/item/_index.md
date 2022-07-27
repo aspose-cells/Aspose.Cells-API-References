@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектSmartTagCollectionaspose.cells.markup/smarttagcollectionпо индексу.
+description: ПолучаетSmartTagCollectionaspose.cells.markup/smarttagcollection объект по индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.markup/smarttagsetting/item/
 ---
 ## SmartTagSetting indexer (1 of 3)
 
-Получает объект[`SmartTagCollection`](../../smarttagcollection)по индексу.
+Получает[`SmartTagCollection`](../../smarttagcollection) объект по индексу.
 
 ```csharp
 public SmartTagCollection this[int index] { get; }
@@ -16,7 +16,7 @@ public SmartTagCollection this[int index] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | Индекс объекта[`SmartTagCollection`](../../smarttagcollection)в списке . |
+| index | Индекс[`SmartTagCollection`](../../smarttagcollection) объект в списке. |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public SmartTagCollection this[int index] { get; }
 
 ## SmartTagSetting indexer (2 of 3)
 
-Получает объект[`SmartTagCollection`](../../smarttagcollection)ячейки.
+Получает[`SmartTagCollection`](../../smarttagcollection) объект ячейки.
 
 ```csharp
 public SmartTagCollection this[int row, int column] { get; }
@@ -42,7 +42,7 @@ public SmartTagCollection this[int row, int column] { get; }
 
 ### Возвращаемое значение
 
-Возвращает[`SmartTagCollection`](../../smarttagcollection)объект ячейки. Возвращает null, если в ячейке нет смарт-тегов.
+Возвращает[`SmartTagCollection`](../../smarttagcollection) объект ячейки. Возвращает ноль, если в ячейке нет смарт-тегов.
 
 ### Смотрите также
 
@@ -55,7 +55,7 @@ public SmartTagCollection this[int row, int column] { get; }
 
 ## SmartTagSetting indexer (3 of 3)
 
-Получает объект[`SmartTagCollection`](../../smarttagcollection)ячейки.
+Получает[`SmartTagCollection`](../../smarttagcollection) объект ячейки.
 
 ```csharp
 public SmartTagCollection this[string cellName] { get; }
@@ -67,7 +67,7 @@ public SmartTagCollection this[string cellName] { get; }
 
 ### Возвращаемое значение
 
-Возвращает объект[`SmartTagCollection`](../../smarttagcollection)ячейки. Возвращает null, если в ячейке нет смарт-тегов.
+Возвращает[`SmartTagCollection`](../../smarttagcollection) объект ячейки. Возвращает ноль, если в ячейке нет смарт-тегов.
 
 ### Смотрите также
 

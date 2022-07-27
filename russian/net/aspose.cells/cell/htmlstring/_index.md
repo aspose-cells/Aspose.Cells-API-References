@@ -1,14 +1,14 @@
 ---
 title: HtmlString
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает строку html которая содержит данные и некоторые форматы в этой ячейке.
+description: Получает и задает строку html содержащую данные и некоторые форматы в этой ячейке.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells/cell/htmlstring/
 ---
 ## Cell.HtmlString property
 
-Получает и устанавливает строку html, которая содержит данные и некоторые форматы в этой ячейке.
+Получает и задает строку html, содержащую данные и некоторые форматы в этой ячейке.
 
 ```csharp
 public string HtmlString { get; set; }

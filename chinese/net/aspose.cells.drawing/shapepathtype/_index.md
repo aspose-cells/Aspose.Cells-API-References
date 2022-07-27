@@ -20,11 +20,11 @@ public enum ShapePathType
 | --- | --- | --- |
 | LineTo | `0` | 直线段 |
 | CubicBezierCurveTo | `1` | 三次贝塞尔曲线 |
-| MoveTo | `2` | 开始一个新路径 |
-| Close | `3` | 如果起始 POINT 和结束 POINT 不相同，则画一条 直线连接起始 POINT 和结束 POINT路径。 |
+| MoveTo | `2` | 开始新的路径 |
+| Close | `3` | 如果起始点和结束点不相同，则绘制一条 直线连接路径的起始点和结束点。 |
 | End | `4` | 当前路径的结尾 |
-| Escape | `5` | 转义 |
-| ArcTo | `6` | 圆弧 |
+| Escape | `5` | 逃脱 |
+| ArcTo | `6` | 一个弧线 |
 | Unknown | `7` | 未知 |
 
 ### 也可以看看

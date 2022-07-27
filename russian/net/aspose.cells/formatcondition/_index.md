@@ -18,20 +18,20 @@ public class FormatCondition
 
 | Имя | Описание |
 | --- | --- |
-| [AboveAverage](../../aspose.cells/formatcondition/aboveaverage) { get; } | Получить экземпляр условного форматирования "AboveAverage". Правило экземпляра по умолчанию выделяет ячейки, которые выше среднего для всех значений в диапазоне. Допустимо только для типа = AboveAverage. |
-| [ColorScale](../../aspose.cells/formatcondition/colorscale) { get; } | Получить экземпляр условного форматирования "ColorScale". Экземпляр по умолчанию - "зелено-желто-красный" 3ColorScale. Допустимо только для type = ColorScale. |
-| [DataBar](../../aspose.cells/formatcondition/databar) { get; } | Получить экземпляр условного форматирования "DataBar". Цвет экземпляра по умолчанию - синий. Допустимо только для типа DataBar. |
+| [AboveAverage](../../aspose.cells/formatcondition/aboveaverage) { get; } | Получить экземпляр условного форматирования "AboveAverage". Правило экземпляра по умолчанию выделяет ячейки, которые на выше среднего для всех значений в диапазоне. Допустимо только для типа = AboveAverage. |
+| [ColorScale](../../aspose.cells/formatcondition/colorscale) { get; } | Получить экземпляр "ColorScale" условного форматирования. Экземпляром по умолчанию является "зелено-желто-красный" 3ColorScale. Допустимо только для типа = ColorScale. |
+| [DataBar](../../aspose.cells/formatcondition/databar) { get; } | Получить экземпляр условного форматирования "DataBar". Цвет экземпляра по умолчанию - синий. Допустим только для типа DataBar. |
 | [Formula1](../../aspose.cells/formatcondition/formula1) { get; set; } | Получает и задает значение или выражение, связанное с условным форматированием. |
 | [Formula2](../../aspose.cells/formatcondition/formula2) { get; set; } | Получает и задает значение или выражение, связанное с условным форматированием. |
 | [IconSet](../../aspose.cells/formatcondition/iconset) { get; } | Получить экземпляр IconSet условного форматирования. IconSetType экземпляра по умолчанию — TrafficLights31. Допустимо только для type = IconSet. |
 | [Operator](../../aspose.cells/formatcondition/operator) { get; set; } | Получает и задает тип оператора условного формата. |
-| [Priority](../../aspose.cells/formatcondition/priority) { get; set; } | Приоритет этого правила условного форматирования. Это значение используется для определения того, какой формат должен оцениваться и отображаться. Меньшие числовые значения имеют более высокий приоритет, чем более высокие числовые значения, где '1' — наивысший приоритет. |
-| [StopIfTrue](../../aspose.cells/formatcondition/stopiftrue) { get; set; } | True, никакие правила с более низким приоритетом не могут быть применены к этому правилу, когда это правило оценивается как true. Применяется только для Excel 2007; |
+| [Priority](../../aspose.cells/formatcondition/priority) { get; set; } | Приоритет этого правила условного форматирования. Это значение используется для определения того, какой формат должен оцениваться и отображаться. Меньшие числовые значения имеют более высокий приоритет, чем более высокие числовые значения, где «1» — наивысший приоритет. |
+| [StopIfTrue](../../aspose.cells/formatcondition/stopiftrue) { get; set; } | True, никакие правила с более низким приоритетом не могут быть применены к этому правилу, если это правило оценивается как true. Применяется только для Excel 2007; |
 | [Style](../../aspose.cells/formatcondition/style) { get; set; } | Получает или устанавливает стиль диапазонов ячеек с условным форматированием. |
-| [Text](../../aspose.cells/formatcondition/text) { get; set; } | Текстовое значение в правиле условного форматирования "текст содержит". Допустимо только для type = containsText, notContainsText, beginWith и EndsWith. Значение по умолчанию равно null. |
-| [TimePeriod](../../aspose.cells/formatcondition/timeperiod) { get; set; } | Применимый период времени в правиле условного форматирования «дата наступления…». Допустимо только для type = timePeriod. Значение по умолчанию — TimePeriodType.Today. |
-| [Top10](../../aspose.cells/formatcondition/top10) { get; } | Получить экземпляр условного форматирования "Top10". Правило экземпляра по умолчанию выделяет ячейки, чьи значения попадают в верхние 10 скобок. Действительно только для типа Top10. |
-| [Type](../../aspose.cells/formatcondition/type) { get; set; } | Получает и устанавливает, является ли тип условного формата. |
+| [Text](../../aspose.cells/formatcondition/text) { get; set; } | Текстовое значение в правиле условного форматирования «текст содержит». Допустимо только для type = containsText, notContainsText, beginWith и EndsWith. Значение по умолчанию равно null. |
+| [TimePeriod](../../aspose.cells/formatcondition/timeperiod) { get; set; } | Применимый период времени в правиле условного форматирования «дата появления…». Допустимо только для type = timePeriod. Значение по умолчанию — TimePeriodType.Today. |
+| [Top10](../../aspose.cells/formatcondition/top10) { get; } | Получить экземпляр "Top10" условного форматирования. Правило экземпляра по умолчанию выделяет ячейки, значения которых попадают в верхние 10 квадратных скобок. Допустимо только для типа Top10. |
+| [Type](../../aspose.cells/formatcondition/type) { get; set; } | Получает и устанавливает, является ли условный формат Type. |
 
 ## Методы
 
@@ -43,24 +43,24 @@ public class FormatCondition
 | [GetFormula2](../../aspose.cells/formatcondition/getformula2#getformula2)(bool, bool) | Получает значение или выражение, связанное с этим условием формата. |
 | [GetFormula2](../../aspose.cells/formatcondition/getformula2#getformula2_2)(int, int) | Получает формулу условного форматирования ячейки. |
 | [GetFormula2](../../aspose.cells/formatcondition/getformula2#getformula2_1)(bool, bool, int, int) | Получает значение или выражение условного форматирования ячейки. |
-| [SetFormula1](../../aspose.cells/formatcondition/setformula1)(string, bool, bool) | Устанавливает значение или выражение, связанное с этим условием формата. |
-| [SetFormula2](../../aspose.cells/formatcondition/setformula2)(string, bool, bool) | Устанавливает значение или выражение, связанное с этим условием формата. |
-| [SetFormulas](../../aspose.cells/formatcondition/setformulas)(string, string, bool, bool) | Устанавливает значение или выражение, связанное с этим условием формата. |
+| [SetFormula1](../../aspose.cells/formatcondition/setformula1)(string, bool, bool) | Задает значение или выражение, связанное с этим условием формата. |
+| [SetFormula2](../../aspose.cells/formatcondition/setformula2)(string, bool, bool) | Задает значение или выражение, связанное с этим условием формата. |
+| [SetFormulas](../../aspose.cells/formatcondition/setformulas)(string, string, bool, bool) | Задает значение или выражение, связанное с этим условием формата. |
 
 ### Примеры
 
 ```csharp
 
 [C#]
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
  
-  //Добавляет пустое условное форматирование
+//Добавляет пустое условное форматирование
 int index = sheet.ConditionalFormattings.Add();
 FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
  
-  //Устанавливает диапазон условного формата.
+//Устанавливает диапазон условного формата.
 CellArea ca = new CellArea();
 ca.StartRow = 0;
 ca.EndRow = 0;
@@ -75,22 +75,22 @@ ca.StartColumn = 1;
 ca.EndColumn = 1;
 fcs.AddArea(ca);
  
-   //Добавляет условие.
+//Добавляет условие.
 int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100");
  
-   //Добавляет условие.
+//Добавляет условие.
 int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
  
-  //Устанавливает цвет фона.
+//Устанавливаем цвет фона.
 FormatCondition fc = fcs[conditionIndex];
 fc.Style.BackgroundColor = Color.Red;
  
-  //Сохранение файла Excel
+//Сохранение файла Excel
 workbook.Save("output.xls");
 
 [VB.NET]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
 Dim sheet As Worksheet = workbook.Worksheets(0)
  
@@ -98,7 +98,7 @@ Dim sheet As Worksheet = workbook.Worksheets(0)
 Dim index As Integer = sheet.ConditionalFormattings.Add()
 Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
  
-'Устанавливает диапазон условного формата.
+'Задает диапазон условного формата.
 Dim ca As CellArea = New CellArea()
 ca.StartRow = 0
 ca.EndRow = 0

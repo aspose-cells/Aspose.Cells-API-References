@@ -1,14 +1,14 @@
 ---
 title: IsSynchronized
 second_title: Aspose.Cells for .NET API 参考
-description: 获取一个值该值指示对 ICollection 的访问是否是同步的线程安全的
+description: 获取一个值该值指示对 ICollection 的访问是否同步线程安全
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.gridweb.data/gridworksheetcollection/issynchronized/
 ---
 ## GridWorksheetCollection.IsSynchronized property
 
-获取一个值，该值指示对 ICollection 的访问是否是同步的（线程安全的）。
+获取一个值，该值指示对 ICollection 的访问是否同步（线程安全）。
 
 ```csharp
 public bool IsSynchronized { get; }

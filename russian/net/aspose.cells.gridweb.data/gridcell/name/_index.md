@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает имя ячейки. НапримерA1 F102.
+description: Получает имя ячейки. Например A1 F102.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells.gridweb.data/gridcell/name/
 ---
 ## GridCell.Name property
 
-Получает имя ячейки. Например:A1, F102.
+Получает имя ячейки. Например: A1, F102.
 
 ```csharp
 public string Name { get; }

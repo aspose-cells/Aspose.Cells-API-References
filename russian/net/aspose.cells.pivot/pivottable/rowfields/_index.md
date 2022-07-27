@@ -1,14 +1,14 @@
 ---
 title: RowFields
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает объект PivotFields который в данный момент отображается как поля строк.
+description: Возвращает объект PivotFields который в данный момент отображается как поля строки.
 type: docs
 weight: 530
 url: /ru/net/aspose.cells.pivot/pivottable/rowfields/
 ---
 ## PivotTable.RowFields property
 
-Возвращает объект PivotFields, который в данный момент отображается как поля строк.
+Возвращает объект PivotFields, который в данный момент отображается как поля строки.
 
 ```csharp
 public PivotFieldCollection RowFields { get; }

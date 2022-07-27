@@ -1,14 +1,14 @@
 ---
 title: GroupByTypes
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет тип группы для диапазона групп. rangeofvalue Секунды Минуты Часы Дни Месяцы Кварталы Годы
+description: Представляет тип группы для диапазона группы. rangeofvalue Секунды Минуты Часы Дни Месяцы Кварталы Годы
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.pivot/sxrng/groupbytypes/
 ---
 ## SxRng.GroupByTypes property
 
-Представляет тип группы для диапазона групп. rangeofvalue Секунды Минуты Часы Дни Месяцы Кварталы Годы
+Представляет тип группы для диапазона группы. rangeofvalue Секунды Минуты Часы Дни Месяцы Кварталы Годы
 
 ```csharp
 public bool[] GroupByTypes { get; }

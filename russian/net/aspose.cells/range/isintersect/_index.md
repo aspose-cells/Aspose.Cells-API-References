@@ -3,7 +3,7 @@ title: IsIntersect
 second_title: Справочник по Aspose.Cells для .NET API
 description: Указывает пересекается ли диапазон.
 type: docs
-weight: 290
+weight: 330
 url: /ru/net/aspose.cells/range/isintersect/
 ---
 ## Range.IsIntersect method

@@ -1,14 +1,14 @@
 ---
 title: DefaultPath
 second_title: Aspose.Cells for .NET API 参考
-description: 默认路径URL保存在生成的 html 文件中用于引用的源 比如xxx_files/sheet001.htm中保存的sheet数据主html文件中使用的url应该是srcxxx_files/sheet001.htm
+description: 引用源生成的html文件中保存的默认路径URL 例如xxx_files/sheet001.htm中保存的sheet数据主html文件中使用的url应该是srcxxx_files/sheet001 .htm
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/streamprovideroptions/defaultpath/
 ---
 ## StreamProviderOptions.DefaultPath property
 
-默认路径（URL）保存在生成的 html 文件中，用于引用的源。 比如xxx_files/sheet001.htm中保存的sheet数据，主html文件中使用的url应该是“src="xxx_files/sheet001.htm"”
+引用源生成的html文件中保存的默认路径(URL)。 例如xxx_files/sheet001.htm中保存的sheet数据，主html文件中使用的url应该是"src="xxx_files/sheet001 .htm""
 
 ```csharp
 public string DefaultPath { get; }

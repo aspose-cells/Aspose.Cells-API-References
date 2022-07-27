@@ -1,14 +1,14 @@
 ---
 title: Sign
 second_title: Справочник по Aspose.Cells для .NET API
-description: Подпишите этот проект VBA цифровой подписью
+description: Подпишите этот проект VBA с помощью DigitalSignature
 type: docs
 weight: 110
 url: /ru/net/aspose.cells.vba/vbaproject/sign/
 ---
 ## VbaProject.Sign method
 
-Подпишите этот проект VBA цифровой подписью
+Подпишите этот проект VBA с помощью DigitalSignature
 
 ```csharp
 public void Sign(DigitalSignature digitalSignature)
@@ -16,7 +16,7 @@ public void Sign(DigitalSignature digitalSignature)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| digitalSignature | DigitalSignature | DigitalSignature |
+| digitalSignature | DigitalSignature | Цифровая подпись |
 
 ### Смотрите также
 

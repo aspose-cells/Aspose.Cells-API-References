@@ -1,14 +1,14 @@
 ---
 title: AboveAverage
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получить экземпляр условного форматирования AboveAverage. Правило экземпляра по умолчанию выделяет ячейки которые выше среднего для всех значений в диапазоне. Допустимо только для типа  AboveAverage.
+description: Получить экземпляр условного форматирования AboveAverage. Правило экземпляра по умолчанию выделяет ячейки которые на выше среднего для всех значений в диапазоне. Допустимо только для типа  AboveAverage.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/formatcondition/aboveaverage/
 ---
 ## FormatCondition.AboveAverage property
 
-Получить экземпляр условного форматирования "AboveAverage". Правило экземпляра по умолчанию выделяет ячейки, которые выше среднего для всех значений в диапазоне. Допустимо только для типа = AboveAverage.
+Получить экземпляр условного форматирования "AboveAverage". Правило экземпляра по умолчанию выделяет ячейки, которые на выше среднего для всех значений в диапазоне. Допустимо только для типа = AboveAverage.
 
 ```csharp
 public AboveAverage AboveAverage { get; }

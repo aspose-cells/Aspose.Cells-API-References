@@ -1,14 +1,14 @@
 ---
 title: Modules
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает всеVbaModuleaspose.cells.vba/vbamoduleобъекты.
+description: получает всеVbaModuleaspose.cells.vba/vbamodule объекты.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.vba/vbaproject/modules/
 ---
 ## VbaProject.Modules property
 
-Получает все[`VbaModule`](../../vbamodule)объекты.
+получает все[`VbaModule`](../../vbamodule) объекты.
 
 ```csharp
 public VbaModuleCollection Modules { get; }

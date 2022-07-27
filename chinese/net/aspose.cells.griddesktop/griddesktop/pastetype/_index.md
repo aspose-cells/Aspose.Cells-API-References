@@ -1,14 +1,14 @@
 ---
 title: PasteType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示粘贴动作时的粘贴类型仅在 EnableClipboardCopyPaste 为 false 时可用
+description: 表示粘贴动作时的粘贴类型仅在EnableClipboardCopyPaste为false时可用
 type: docs
 weight: 200
 url: /zh/net/aspose.cells.griddesktop/griddesktop/pastetype/
 ---
 ## GridDesktop.PasteType property
 
-表示粘贴动作时的粘贴类型，仅在 EnableClipboardCopyPaste 为 false 时可用。
+表示粘贴动作时的粘贴类型，仅在EnableClipboardCopyPaste为false时可用。
 
 ```csharp
 public GridPasteType PasteType { get; set; }

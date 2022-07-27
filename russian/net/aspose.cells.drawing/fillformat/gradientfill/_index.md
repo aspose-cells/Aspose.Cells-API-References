@@ -1,14 +1,14 @@
 ---
 title: GradientFill
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПолучаетGradientFillaspose.cells.drawing/fillformat/gradientfillобъект.
+description: получаетGradientFillaspose.cells.drawing/fillformat/gradientfill объект.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.drawing/fillformat/gradientfill/
 ---
 ## FillFormat.GradientFill property
 
-Получает`GradientFill`объект.
+получает`GradientFill` объект.
 
 ```csharp
 public GradientFill GradientFill { get; }

@@ -1,14 +1,14 @@
 ---
 title: FullObjectBin
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает полные двоичные данные внедренного объекта ole в файле шаблона.
+description: Получает полные двоичные данные встроенного объекта ole в файле шаблона.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.drawing/oleobject/fullobjectbin/
 ---
 ## OleObject.FullObjectBin property
 
-Получает полные двоичные данные внедренного объекта ole в файле шаблона.
+Получает полные двоичные данные встроенного объекта ole в файле шаблона.
 
 ```csharp
 public byte[] FullObjectBin { get; }

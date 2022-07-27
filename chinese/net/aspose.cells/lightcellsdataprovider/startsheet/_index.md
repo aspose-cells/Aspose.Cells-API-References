@@ -24,7 +24,19 @@ public bool StartSheet(int sheetIndex)
 
 ### 评论
 
-将在保存工作簿期间在保存工作表开始时调用。 如果提供者需要参考 &lt;code&gt;sheetIndex&lt;/code&gt; 后面 in startRow(Row ) 或 startCell(Cell) 方法， 即如果进程需要知道正在处理哪个工作表， 实现应该保留 &lt;code&gt;sheetIndex&lt;/code&gt; 值。
+保存工作簿时会在保存工作表开始时调用。 如果提供者需要参考
+
+```csharp
+sheetIndex
+```
+
+later 在 startRow(Row) 或 startCell(Cell) 方法中， 即如果进程需要知道正在处理哪个工作表， 的实现应该保留
+
+```csharp
+sheetIndex
+```
+
+这里的值。
 
 ### 也可以看看
 

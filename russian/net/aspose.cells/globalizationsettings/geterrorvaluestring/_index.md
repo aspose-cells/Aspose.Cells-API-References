@@ -1,14 +1,14 @@
 ---
 title: GetErrorValueString
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает отображаемое строковое значение для значения ошибки ячейки
+description: Получает отображаемое строковое значение для ошибки ячейки value
 type: docs
 weight: 110
 url: /ru/net/aspose.cells/globalizationsettings/geterrorvaluestring/
 ---
 ## GlobalizationSettings.GetErrorValueString method
 
-Получает отображаемое строковое значение для значения ошибки ячейки
+Получает отображаемое строковое значение для ошибки ячейки value
 
 ```csharp
 public virtual string GetErrorValueString(string err)
@@ -16,7 +16,7 @@ public virtual string GetErrorValueString(string err)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| err | String | error такие значения, как #ЗНАЧ!,#ИМЯ? |
+| err | String | значения ошибок, такие как #ЗНАЧ!,#ИМЯ? |
 
 ### Возвращаемое значение
 

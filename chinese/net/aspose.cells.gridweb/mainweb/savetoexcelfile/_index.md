@@ -1,14 +1,14 @@
 ---
 title: SaveToExcelFile
 second_title: Aspose.Cells for .NET API 参考
-description: 将工作表保存为 Excel 2003 格式的 Excel 文件
+description: 将工作表保存到 Excel 2003 格式的 excel 文件中
 type: docs
 weight: 1500
 url: /zh/net/aspose.cells.gridweb/mainweb/savetoexcelfile/
 ---
 ## SaveToExcelFile(string) {#savetoexcelfile_3}
 
-将工作表保存为 Excel 2003 格式的 Excel 文件。
+将工作表保存到 Excel 2003 格式的 excel 文件中。
 
 ```csharp
 public void SaveToExcelFile(string targetFile)
@@ -28,7 +28,7 @@ public void SaveToExcelFile(string targetFile)
 
 ## SaveToExcelFile(Stream) {#savetoexcelfile}
 
-将工作表保存到 Excel 文件。
+将工作表保存到 excel 文件中。
 
 ```csharp
 public void SaveToExcelFile(Stream stream)
@@ -37,7 +37,7 @@ public void SaveToExcelFile(Stream stream)
 | 范围 | 描述 |
 | --- | --- |
 | stream | 要写入的流。 |
-| format | 文件格式(Excel2003, Excel2007, CSV, SpreadsheetML) |
+| format | 文件格式（Excel2003、Excel2007、CSV、SpreadsheetML） |
 
 ### 也可以看看
 
@@ -49,7 +49,7 @@ public void SaveToExcelFile(Stream stream)
 
 ## SaveToExcelFile(Stream, GridSaveFormat) {#savetoexcelfile_1}
 
-将工作表保存到 Excel 文件。
+将工作表保存到 excel 文件中。
 
 ```csharp
 public void SaveToExcelFile(Stream stream, GridSaveFormat format)
@@ -58,7 +58,7 @@ public void SaveToExcelFile(Stream stream, GridSaveFormat format)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 要写入的流。 |
-| format | GridSaveFormat | 文件格式(Excel2003, Excel2007, CSV, SpreadsheetML) |
+| format | GridSaveFormat | 文件格式（Excel2003、Excel2007、CSV、SpreadsheetML） |
 
 ### 也可以看看
 
@@ -71,7 +71,7 @@ public void SaveToExcelFile(Stream stream, GridSaveFormat format)
 
 ## SaveToExcelFile(Stream, GridSaveOptions) {#savetoexcelfile_2}
 
-将工作表保存到 Excel 文件。
+将工作表保存到 excel 文件中。
 
 ```csharp
 public void SaveToExcelFile(Stream stream, GridSaveOptions saveOptions)
@@ -93,7 +93,7 @@ public void SaveToExcelFile(Stream stream, GridSaveOptions saveOptions)
 
 ## SaveToExcelFile(string, GridSaveFormat) {#savetoexcelfile_4}
 
-将工作表保存到 Excel 文件。
+将工作表保存到 excel 文件中。
 
 ```csharp
 public void SaveToExcelFile(string targetFile, GridSaveFormat format)
@@ -102,7 +102,7 @@ public void SaveToExcelFile(string targetFile, GridSaveFormat format)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | targetFile | String | 要写入的目标文件的名称。 |
-| format | GridSaveFormat | 文件格式(Excel2003, Excel2007, CSV, SpreadsheetML) |
+| format | GridSaveFormat | 文件格式（Excel2003、Excel2007、CSV、SpreadsheetML） |
 
 ### 也可以看看
 
@@ -115,7 +115,7 @@ public void SaveToExcelFile(string targetFile, GridSaveFormat format)
 
 ## SaveToExcelFile(string, GridSaveOptions) {#savetoexcelfile_5}
 
-将工作表保存到 Excel 文件。
+将工作表保存到 excel 文件中。
 
 ```csharp
 public void SaveToExcelFile(string targetFile, GridSaveOptions saveOptions)

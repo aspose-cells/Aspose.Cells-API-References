@@ -21,12 +21,12 @@ public void ExportXml(string mapName, string path)
 
 ### Примеры
 
-Следующий код экспортирует данные, связанные с первой XmlMap.
+Следующий код экспортировал данные, связанные с первой картой XmlMap.
 
 ```csharp
 Workbook wb = new Workbook("Book1.xlsx");
 
-  //Убедитесь, что исходный файл xlsx содержит XmlMap.
+//Убедитесь, что исходный файл xlsx содержит XmlMap.
 XmlMap xmlMap = wb.Worksheets.XmlMaps[0];
 
 wb.ExportXml(xmlMap.Name, "output.xml");
@@ -50,8 +50,8 @@ public void ExportXml(string mapName, Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mapName | String | имя XML-карты, которую необходимо экспортировать |
-| stream | Stream | поток экспорта |
+| mapName | String | имя карты XML, которую необходимо экспортировать |
+| stream | Stream | экспортный поток |
 
 ### Смотрите также
 

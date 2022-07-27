@@ -1,14 +1,14 @@
 ---
 title: CapType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Определяет конечные заглавные буквы.
+description: Указывает конечные заглавные буквы.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.drawing/line/captype/
 ---
 ## Line.CapType property
 
-Определяет конечные заглавные буквы.
+Указывает конечные заглавные буквы.
 
 ```csharp
 public LineCapType CapType { get; set; }

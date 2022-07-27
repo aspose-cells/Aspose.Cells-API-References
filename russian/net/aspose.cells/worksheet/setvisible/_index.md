@@ -17,7 +17,7 @@ public void SetVisible(bool isVisible, bool ignoreError)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | isVisible | Boolean | Виден ли рабочий лист |
-| ignoreError | Boolean | Нужно ли игнорировать ошибку, если этот параметр недействителен. |
+| ignoreError | Boolean | Игнорировать ли ошибку, если этот параметр недействителен. |
 
 ### Смотрите также
 

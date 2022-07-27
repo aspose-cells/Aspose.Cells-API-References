@@ -1,14 +1,14 @@
 ---
 title: UpBars
 second_title: Aspose.Cells for .NET API 参考
-description: 返回一个 DropBars 对象该对象表示折线图上的向上柱 仅适用于折线图
+description: 返回一个 DropBars 对象它表示折线图上的向上柱线 仅适用于折线图
 type: docs
 weight: 450
 url: /zh/net/aspose.cells.charts/series/upbars/
 ---
 ## Series.UpBars property
 
-返回一个 DropBars 对象，该对象表示折线图上的向上柱。 仅适用于折线图。
+返回一个 DropBars 对象，它表示折线图上的向上柱线。 仅适用于折线图。
 
 ```csharp
 public DropBars UpBars { get; }

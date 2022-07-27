@@ -1,14 +1,14 @@
 ---
 title: ShowTableStyleColumnStripes
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает применяется ли форматирование чередования столбцов.
+description: Указывает применяется ли форматирование полос столбцов.
 type: docs
 weight: 130
 url: /ru/net/aspose.cells.tables/listobject/showtablestylecolumnstripes/
 ---
 ## ListObject.ShowTableStyleColumnStripes property
 
-Указывает, применяется ли форматирование чередования столбцов.
+Указывает, применяется ли форматирование полос столбцов.
 
 ```csharp
 public bool ShowTableStyleColumnStripes { get; set; }

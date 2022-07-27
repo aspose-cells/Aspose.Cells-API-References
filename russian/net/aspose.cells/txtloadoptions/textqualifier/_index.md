@@ -1,14 +1,14 @@
 ---
 title: TextQualifier
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает квалификатор текста для значений ячеек. Квалификатор по умолчанию  .
+description: Указывает квалификатор текста для значений ячеек. Классификатор по умолчанию  .
 type: docs
 weight: 90
 url: /ru/net/aspose.cells/txtloadoptions/textqualifier/
 ---
 ## TxtLoadOptions.TextQualifier property
 
-Указывает квалификатор текста для значений ячеек. Квалификатор по умолчанию — '"'.
+Указывает квалификатор текста для значений ячеек. Классификатор по умолчанию — '"'.
 
 ```csharp
 public char TextQualifier { get; set; }
@@ -16,7 +16,7 @@ public char TextQualifier { get; set; }
 
 ### Примечания
 
-При установке этого свойства[`HasTextQualifier`](../hastextqualifier)станет истинным автоматически.
+При установке этого свойства[`HasTextQualifier`](../hastextqualifier) станет истинным автоматически.
 
 ### Смотрите также
 

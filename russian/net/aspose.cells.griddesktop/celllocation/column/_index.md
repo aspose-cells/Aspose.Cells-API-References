@@ -1,14 +1,14 @@
 ---
 title: Column
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает столбец расположения ячейки.
+description: Получает или задает столбец местоположения ячейки.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.griddesktop/celllocation/column/
 ---
 ## CellLocation.Column property
 
-Получает или задает столбец расположения ячейки.
+Получает или задает столбец местоположения ячейки.
 
 ```csharp
 public int Column { get; set; }

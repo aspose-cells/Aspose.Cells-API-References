@@ -16,7 +16,7 @@ public void UnprotectSharedWorkbook(string password)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| password | String | Пароль для снятия защиты с книги. |
+| password | String | Пароль для снятия защиты книги. |
 
 ### Смотрите также
 

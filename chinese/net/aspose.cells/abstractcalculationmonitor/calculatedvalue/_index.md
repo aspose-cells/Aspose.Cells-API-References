@@ -1,14 +1,14 @@
 ---
 title: CalculatedValue
 second_title: Aspose.Cells for .NET API 参考
-description: 获取单元格的新计算值 应该只在AfterCalculateaspose.cells/abstractcalculationmonitor/aftercalculate中使用
+description: 获取单元格的新计算值 应该只用于AfterCalculateaspose.cells/abstractcalculationmonitor/aftercalculate.
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/abstractcalculationmonitor/calculatedvalue/
 ---
 ## AbstractCalculationMonitor.CalculatedValue property
 
-获取单元格的新计算值。 应该只在[`AfterCalculate`](../aftercalculate)中使用。
+获取单元格的新计算值。 应该只用于[`AfterCalculate`](../aftercalculate).
 
 ```csharp
 public object CalculatedValue { get; }

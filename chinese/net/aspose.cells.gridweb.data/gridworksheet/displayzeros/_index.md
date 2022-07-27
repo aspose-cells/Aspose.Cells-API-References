@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.gridweb.data/gridworksheet/displayzeros/
 ---
 ## GridWorksheet.DisplayZeros property
 
-如果显示零值，则为真。
+如果显示零值则为真。
 
 ```csharp
 public bool DisplayZeros { get; set; }

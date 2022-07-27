@@ -31,9 +31,9 @@ groupItems 中的形状不应分组。 形状必须在此 Shapes 集合中。
 ```csharp
 
 [C#]
- //添加第一个shape
+//添加第一个形状
 shapes.AddRectangle(2, 0, 2, 0, 50, 50);
- //添加第二个shape
+//添加第二个形状
 shapes.AddRectangle(6, 0, 2, 0, 30, 30);
 
 Shape[] shapesArr = new Shape[] { shapes[0], shapes[1] };

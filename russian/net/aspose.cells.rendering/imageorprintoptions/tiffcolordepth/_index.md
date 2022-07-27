@@ -1,14 +1,14 @@
 ---
 title: TiffColorDepth
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает разрядность для применения только при сохранении страниц в формате Tiff .
+description: Получает или задает разрядность которая применяется только при сохранении страниц вразмолвка формат.
 type: docs
 weight: 320
 url: /ru/net/aspose.cells.rendering/imageorprintoptions/tiffcolordepth/
 ---
 ## ImageOrPrintOptions.TiffColorDepth property
 
-Получает или задает разрядность для применения только при сохранении страниц в формате` Tiff` .
+Получает или задает разрядность, которая применяется только при сохранении страниц в`размолвка` формат.
 
 ```csharp
 public ColorDepth TiffColorDepth { get; set; }
@@ -16,7 +16,7 @@ public ColorDepth TiffColorDepth { get; set; }
 
 ### Примечания
 
-Действует только при сохранении в формате TIFF. Если для параметра TiffCompression установлено значение CCITT3, CCITT4, это не сработает, битовая глубина сгенерированного tiff-изображения всегда будет равна 1.
+Действует только при сохранении в формате TIFF. Если для параметра TiffCompression установлено значение CCITT3, CCITT4, это не сработает, битовая глубина сгенерированного TIFF-изображения всегда будет равна 1.
 
 ### Смотрите также
 

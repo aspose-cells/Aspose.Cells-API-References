@@ -1,14 +1,14 @@
 ---
 title: Clone
 second_title: Aspose.Cells for .NET API 参考
-description: 创建并返回此对象的副本  注意 如果克隆命名样式则不会克隆名称因为样式名称必须是唯一的 因此克隆的样式不会等于原始样式
+description: 创建并返回此对象的副本  笔记如果你克隆一个命名样式名称不会被克隆因为样式名称必须是唯一的 因此克隆的样式不会等于原始样式
 type: docs
 weight: 170
 url: /zh/net/aspose.cells.griddesktop/style/clone/
 ---
 ## Style.Clone method
 
-创建并返回此对象的副本。  **注意:** 如果克隆命名样式，则不会克隆名称，因为样式名称必须是唯一的。 因此，克隆的样式不会“等于”原始样式。
+创建并返回此对象的副本。  **笔记：**如果你克隆一个命名样式，名称不会被克隆，因为样式名称必须是唯一的。 因此，克隆的样式不会“等于”原始样式。
 
 ```csharp
 public Style Clone()

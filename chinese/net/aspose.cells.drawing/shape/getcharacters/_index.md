@@ -1,14 +1,14 @@
 ---
 title: GetCharacters
 second_title: Aspose.Cells for .NET API 参考
-description: 返回所有 Characters 对象 表示文本中的字符范围
+description: 返回所有字符对象 它表示文本中的字符范围 .
 type: docs
 weight: 1020
 url: /zh/net/aspose.cells.drawing/shape/getcharacters/
 ---
 ## Shape.GetCharacters method
 
-返回所有 Characters 对象 表示文本中的字符范围。
+返回所有字符对象 ，它表示文本中的字符范围 .
 
 ```csharp
 public ArrayList GetCharacters()

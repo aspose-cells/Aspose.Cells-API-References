@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Cells for .NET API 参考
-description: 获取页眉/页脚的命令类型
+description: 获取页眉/页脚的命令类型 .
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/headerfootercommand/type/
 ---
 ## HeaderFooterCommand.Type property
 
-获取页眉/页脚的命令类型。
+获取页眉/页脚的命令类型 .
 
 ```csharp
 public HeaderFooterCommandType Type { get; }

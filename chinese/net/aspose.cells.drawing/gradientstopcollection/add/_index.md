@@ -16,7 +16,7 @@ public void Add(double position, CellsColor color, int alpha)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| position | Double | 止损位置，以百分比为单位。 |
+| position | Double | 止损的位置，以百分比为单位。 |
 | color | CellsColor | 停靠点的颜色。 |
 | alpha | Int32 | 颜色的 alpha。 |
 
@@ -39,7 +39,7 @@ public void Add(double position, Color color, int alpha)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| position | Double | 止损位置，以百分比为单位。 |
+| position | Double | 止损的位置，以百分比为单位。 |
 | color | Color | 停靠点的颜色。 |
 | alpha | Int32 | 颜色的 alpha。 |
 

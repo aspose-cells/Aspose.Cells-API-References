@@ -1,14 +1,14 @@
 ---
 title: ShapeSegmentPathCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示由一系列移动线条和曲线组成的创建路径这些移动线条和曲线组合在一起将形成几何形状
+description: 表示由一系列移动直线和曲线组成的创建路径这些移动直线和曲线组合在一起将形成几何形状
 type: docs
 weight: 2760
 url: /zh/net/aspose.cells.drawing/shapesegmentpathcollection/
 ---
 ## ShapeSegmentPathCollection class
 
-表示由一系列移动、线条和曲线组成的创建路径，这些移动、线条和曲线组合在一起将形成几何形状。
+表示由一系列移动、直线和曲线组成的创建路径，这些移动、直线和曲线组合在一起将形成几何形状。
 
 ```csharp
 public class ShapeSegmentPathCollection : CollectionBase<ShapeSegmentPath>
@@ -26,7 +26,7 @@ public class ShapeSegmentPathCollection : CollectionBase<ShapeSegmentPath>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.drawing/shapesegmentpathcollection/item) { get; } | 获取[`ShapeSegmentPath`](../shapesegmentpath)对象。 |
+| [Item](../../aspose.cells.drawing/shapesegmentpathcollection/item) { get; } | 获取[`ShapeSegmentPath`](../shapesegmentpath)对象. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法

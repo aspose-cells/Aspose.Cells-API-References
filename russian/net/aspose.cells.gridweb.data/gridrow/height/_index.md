@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает высоту строки в пунктах.
+description: Получает и задает высоту строки в баллах.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.gridweb.data/gridrow/height/
 ---
 ## GridRow.Height property
 
-Получает и задает высоту строки в пунктах.
+Получает и задает высоту строки в баллах.
 
 ```csharp
 public double Height { get; set; }

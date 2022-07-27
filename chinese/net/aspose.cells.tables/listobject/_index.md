@@ -22,13 +22,13 @@ public class ListObject
 | [AlternativeText](../../aspose.cells.tables/listobject/alternativetext) { get; set; } | 获取和设置替代文本。 |
 | [AutoFilter](../../aspose.cells.tables/listobject/autofilter) { get; } | 获取自动过滤器。 |
 | [Comment](../../aspose.cells.tables/listobject/comment) { get; set; } | 获取和设置表格的注释。 |
-| [DataRange](../../aspose.cells.tables/listobject/datarange) { get; } | 获取 ListObject 的数据范围。 |
+| [DataRange](../../aspose.cells.tables/listobject/datarange) { get; } | 获取ListObject的数据范围。 |
 | [DataSourceType](../../aspose.cells.tables/listobject/datasourcetype) { get; } | 获取表的数据源类型。 |
 | [DisplayName](../../aspose.cells.tables/listobject/displayname) { get; set; } | 获取和设置显示名称。 |
 | [EndColumn](../../aspose.cells.tables/listobject/endcolumn) { get; } | 获取范围的结束列。 |
 | [EndRow](../../aspose.cells.tables/listobject/endrow) { get; } | 获取范围的结束行。 |
 | [ListColumns](../../aspose.cells.tables/listobject/listcolumns) { get; } | 获取 ListObject 的 ListColumns。 |
-| [QueryTable](../../aspose.cells.tables/listobject/querytable) { get; } | 获取链接的 QueryTable。 |
+| [QueryTable](../../aspose.cells.tables/listobject/querytable) { get; } | 获取链接的QueryTable。 |
 | [ShowHeaderRow](../../aspose.cells.tables/listobject/showheaderrow) { get; set; } | 获取并设置此 ListObject 是否显示标题行。 |
 | [ShowTableStyleColumnStripes](../../aspose.cells.tables/listobject/showtablestylecolumnstripes) { get; set; } | 指示是否应用列带格式。 |
 | [ShowTableStyleFirstColumn](../../aspose.cells.tables/listobject/showtablestylefirstcolumn) { get; set; } | 指示表中的第一列是否应应用样式。 |
@@ -39,7 +39,7 @@ public class ListObject
 | [StartRow](../../aspose.cells.tables/listobject/startrow) { get; } | 获取范围的起始行。 |
 | [TableStyleName](../../aspose.cells.tables/listobject/tablestylename) { get; set; } | 获取和设置表格样式名称。 |
 | [TableStyleType](../../aspose.cells.tables/listobject/tablestyletype) { get; set; } | 获取和内置表格样式。 |
-| [XmlMap](../../aspose.cells.tables/listobject/xmlmap) { get; } | 获取用于此列表的[`XmlMap`](./xmlmap)。 |
+| [XmlMap](../../aspose.cells.tables/listobject/xmlmap) { get; } | 得到一个[`XmlMap`](./xmlmap)用于此列表。 |
 
 ## 方法
 

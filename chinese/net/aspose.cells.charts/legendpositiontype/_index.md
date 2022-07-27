@@ -21,7 +21,7 @@ public enum LegendPositionType
 | Bottom | `0` | 在图表的绘图区域底部显示图例。 |
 | Corner | `1` | 将图例显示到图表绘图区域的角落。 |
 | Left | `4` | 在图表的绘图区域左侧显示图例。 |
-| NotDocked | `7` | 表示图例不停靠。 |
+| NotDocked | `7` | 表示图例没有停靠。 |
 | Right | `3` | 在图表的绘图区域右侧显示图例。 |
 | Top | `2` | 在图表的绘图区域顶部显示图例。 |
 

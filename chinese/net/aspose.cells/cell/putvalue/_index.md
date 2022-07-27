@@ -77,8 +77,8 @@ public void PutValue(string stringValue, bool isConverted, bool setStyle)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stringValue | String | 输入值 |
-| isConverted | Boolean | True:转换为其他数据类型（如果合适）。 |
-| setStyle | Boolean | True:转换为其他数据类型时将数字格式设置为单元格样式 |
+| isConverted | Boolean | True：如果合适，转换为其他数据类型。 |
+| setStyle | Boolean | True：在转换为其他数据类型时将数字格式设置为单元格的样式 |
 
 ### 也可以看看
 
@@ -90,7 +90,7 @@ public void PutValue(string stringValue, bool isConverted, bool setStyle)
 
 ## PutValue(string, bool) {#putvalue_6}
 
-将字符串值放入单元格并在适当时将该值转换为其他数据类型。
+将字符串值放入单元格中，并在适当时将该值转换为其他数据类型。
 
 ```csharp
 public void PutValue(string stringValue, bool isConverted)
@@ -99,7 +99,7 @@ public void PutValue(string stringValue, bool isConverted)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stringValue | String | 输入值 |
-| isConverted | Boolean | True:转换为其他数据类型（如果合适）。 |
+| isConverted | Boolean | True：如果合适，转换为其他数据类型。 |
 
 ### 也可以看看
 

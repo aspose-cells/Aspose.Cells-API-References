@@ -1,14 +1,14 @@
 ---
 title: RegisterAddInFunction
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет функцию надстройки в рабочую книгу
+description: Добавляет функцию надстройки в книгу
 type: docs
 weight: 290
 url: /ru/net/aspose.cells/worksheetcollection/registeraddinfunction/
 ---
 ## RegisterAddInFunction(string, string, bool) {#registeraddinfunction}
 
-Добавляет функцию надстройки в рабочую книгу
+Добавляет функцию надстройки в книгу
 
 ```csharp
 public int RegisterAddInFunction(string addInFile, string functionName, bool lib)
@@ -18,11 +18,11 @@ public int RegisterAddInFunction(string addInFile, string functionName, bool lib
 | --- | --- | --- |
 | addInFile | String | файл содержит функции надстройки |
 | functionName | String | имя функции надстройки |
-| lib | Boolean | указывает, находится ли данный файл надстройки в каталог или подкаталог библиотеки надстроек Workbook. Этот флаг вступает в силу и имеет значение, когда заданный addInFile имеет относительный путь: true означает, что путь относится к библиотеке надстроек, а false означает, что путь относится к этой книге. . |
+| lib | Boolean | находится ли данный файл надстройки в каталоге или подкаталоге библиотеки надстроек Workbook. Этот флаг вступает в силу и имеет значение, когда данный addInFile имеет относительный путь: true означает, что путь относится к библиотеке надстроек, а false обозначает путь относительно этой книги. |
 
 ### Возвращаемое значение
 
-Идентификатор данных, которые содержат данную функцию надстройки
+ID данных, которые содержат заданную функцию надстройки
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public int RegisterAddInFunction(string addInFile, string functionName, bool lib
 
 ## RegisterAddInFunction(int, string) {#registeraddinfunction_1}
 
-Добавляет функцию надстройки в рабочую книгу
+Добавляет функцию надстройки в книгу
 
 ```csharp
 public string RegisterAddInFunction(int id, string functionName)
@@ -42,7 +42,7 @@ public string RegisterAddInFunction(int id, string functionName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| id | Int32 | ID данных который содержит дополнительные функции, можно получить при первом вызове[`RegisterAddInFunction`](../registeraddinfunction)для того же файла надстройки. |
+| id | Int32 | ID данных, содержащих функции надстройки, можно получить при первом вызове[`RegisterAddInFunction`](../registeraddinfunction) для того же файла надстройки. |
 | functionName | String | имя функции надстройки |
 
 ### Возвращаемое значение

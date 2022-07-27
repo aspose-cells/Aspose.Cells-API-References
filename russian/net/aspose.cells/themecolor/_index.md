@@ -33,23 +33,23 @@ public class ThemeColor
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 Cells cells = workbook.Worksheets[0].Cells;
 cells["A1"].PutValue("Hello World");
 Style style = cells["A1"].GetStyle();
-  //Установите тип цвета ThemeColorType.Text2 с 40% осветлением в качестве цвета шрифта.
+// Установите тип цвета ThemeColorType.Text2 с 40% осветлением в качестве цвета шрифта.
 style.Font.ThemeColor = new ThemeColor(ThemeColorType.Text2, 0.4);
 style.Pattern = BackgroundType.Solid;
-  //Установите тип цвета ThemeColorType.Background2 с затемнением на 75% в качестве цвета переднего плана color
+//Установите тип цвета ThemeColorType.Background2 с затемнением на 75% в качестве цвета переднего плана
 style.ForegroundThemeColor = new ThemeColor(ThemeColorType.Background2, -0.75);
 cells["A1"].SetStyle(style);
-  //Сохранение файла Excel
+//Сохранение файла Excel
 workbook.Save("book1.xlsx");
 
 [Visual Basic]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
 Dim cells As Cells = workbook.Worksheets(0).Cells
 cells("A1").PutValue("Hello World")

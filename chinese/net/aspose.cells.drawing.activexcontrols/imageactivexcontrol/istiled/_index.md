@@ -1,14 +1,14 @@
 ---
 title: IsTiled
 second_title: Aspose.Cells for .NET API 参考
-description: 表示图片是否平铺在背景上
+description: 表示图片是否平铺在背景中
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/istiled/
 ---
 ## ImageActiveXControl.IsTiled property
 
-表示图片是否平铺在背景上。
+表示图片是否平铺在背景中。
 
 ```csharp
 public bool IsTiled { get; set; }

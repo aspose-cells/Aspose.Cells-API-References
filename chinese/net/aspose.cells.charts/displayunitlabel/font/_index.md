@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定 ChartFrame 对象的Fontaspose.cells.charts/displayunitlabel/font对象
+description: 得到一个Fontaspose.cells.charts/displayunitlabel/font指定 ChartFrame 对象的对象
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.charts/displayunitlabel/font/
 ---
 ## DisplayUnitLabel.Font property
 
-获取指定 ChartFrame 对象的`Font`对象。
+得到一个`Font`指定 ChartFrame 对象的对象。
 
 ```csharp
 public override Font Font { get; }

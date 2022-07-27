@@ -3,7 +3,7 @@ title: SetRowHeightPixel
 second_title: Aspose.Cells for .NET API 参考
 description: 以像素为单位设置行高
 type: docs
-weight: 1270
+weight: 1280
 url: /zh/net/aspose.cells/cells/setrowheightpixel/
 ---
 ## Cells.SetRowHeightPixel method

@@ -1,14 +1,14 @@
 ---
 title: Interrupt
 second_title: Справочник по Aspose.Cells для .NET API
-description: Прервать текущий оператор.
+description: Прервать текущего оператора.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/interruptmonitor/interrupt/
 ---
 ## InterruptMonitor.Interrupt method
 
-Прервать текущий оператор.
+Прервать текущего оператора.
 
 ```csharp
 public void Interrupt()

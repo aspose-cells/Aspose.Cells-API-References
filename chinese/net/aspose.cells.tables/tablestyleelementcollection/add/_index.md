@@ -20,7 +20,7 @@ public int Add(TableStyleElementType type)
 
 ### 返回值
 
-返回索引列表中的元素。
+返回列表中元素的索引。
 
 ### 也可以看看
 

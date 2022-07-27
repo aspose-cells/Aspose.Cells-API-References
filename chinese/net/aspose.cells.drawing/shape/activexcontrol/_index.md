@@ -20,8 +20,7 @@ public ActiveXControl ActiveXControl { get; }
 
 [C#]
 CheckBoxActiveXControl checkBox1 = (CheckBoxActiveXControl)shape.ActiveXControl;
- //CheckBox
-
+//CheckBox的字体名称
 string fontName = checkBox1.Font.Name;
 ```
 

@@ -16,7 +16,7 @@ public virtual int X { get; set; }
 
 ### Примечания
 
-Как перевести единицы 1/4000 в пиксели? X в пикселях = X * Chart.ChartObject.Width / 4000;
+Как перевести единицы 1/4000 в пиксели? X В пикселях = X * Chart.ChartObject.Width / 4000;
 
 ### Смотрите также
 

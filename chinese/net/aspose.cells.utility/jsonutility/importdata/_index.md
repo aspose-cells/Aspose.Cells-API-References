@@ -21,7 +21,7 @@ public static int[] ImportData(string json, Cells cells, int row, int column,
 | cells | Cells | 细胞。 |
 | row | Int32 | 行索引。 |
 | column | Int32 | 列索引。 |
-| option | JsonLayoutOptions | 导入json字符串的选项。 |
+| option | JsonLayoutOptions | 导入 json 字符串的选项。 |
 
 ### 也可以看看
 

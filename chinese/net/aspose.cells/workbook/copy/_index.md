@@ -1,14 +1,14 @@
 ---
 title: Copy
 second_title: Aspose.Cells for .NET API 参考
-description: 从源 Workbook 对象复制数据
+description: 从源工作簿对象复制数据
 type: docs
 weight: 330
 url: /zh/net/aspose.cells/workbook/copy/
 ---
 ## Copy(Workbook, CopyOptions) {#copy_1}
 
-从源 Workbook 对象复制数据。
+从源工作簿对象复制数据。
 
 ```csharp
 public void Copy(Workbook source, CopyOptions copyOptions)
@@ -30,7 +30,7 @@ public void Copy(Workbook source, CopyOptions copyOptions)
 
 ## Copy(Workbook) {#copy}
 
-从源 Workbook 对象复制数据。
+从源工作簿对象复制数据。
 
 ```csharp
 public void Copy(Workbook source)

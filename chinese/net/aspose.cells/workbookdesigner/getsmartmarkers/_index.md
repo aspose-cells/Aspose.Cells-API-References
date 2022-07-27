@@ -1,14 +1,14 @@
 ---
 title: GetSmartMarkers
 second_title: Aspose.Cells for .NET API 参考
-description: 返回电子表格中的智能标记集合
+description: 返回电子表格中智能标记的集合
 type: docs
 weight: 100
 url: /zh/net/aspose.cells/workbookdesigner/getsmartmarkers/
 ---
 ## WorkbookDesigner.GetSmartMarkers method
 
-返回电子表格中的智能标记集合。
+返回电子表格中智能标记的集合。
 
 ```csharp
 public string[] GetSmartMarkers()
@@ -16,11 +16,11 @@ public string[] GetSmartMarkers()
 
 ### 返回值
 
-智能标记集合
+一系列智能标记
 
 ### 评论
 
-创建一个字符串数组每次通话。对数组进行排序并删除重复的值。
+每次调用都会创建一个字符串数组。对数组进行排序并删除重复的值。
 
 ### 也可以看看
 

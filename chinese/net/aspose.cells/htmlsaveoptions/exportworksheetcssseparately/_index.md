@@ -3,7 +3,7 @@ title: ExportWorksheetCSSSeparately
 second_title: Aspose.Cells for .NET API 参考
 description: 表示是否单独导出工作表css默认值为false
 type: docs
-weight: 270
+weight: 290
 url: /zh/net/aspose.cells/htmlsaveoptions/exportworksheetcssseparately/
 ---
 ## HtmlSaveOptions.ExportWorksheetCSSSeparately property

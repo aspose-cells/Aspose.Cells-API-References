@@ -1,14 +1,14 @@
 ---
 title: ExportExtraHeadings
 second_title: Aspose.Cells for .NET API 参考
-description: 表示当文本长度超过最大显示列时是否导出额外的标题 默认值为假如果要将html文件导入excel请保持默认值
+description: 表示当文本长度超过最大显示列时是否导出额外的标题 默认值为false如果要将html文件导入excel请保持默认值
 type: docs
 weight: 160
 url: /zh/net/aspose.cells/htmlsaveoptions/exportextraheadings/
 ---
 ## HtmlSaveOptions.ExportExtraHeadings property
 
-表示当文本长度超过最大显示列时是否导出额外的标题。 默认值为假。如果要将html文件导入excel，请保持默认值。
+表示当文本长度超过最大显示列时是否导出额外的标题。 默认值为false。如果要将html文件导入excel，请保持默认值。
 
 ```csharp
 public bool ExportExtraHeadings { get; set; }

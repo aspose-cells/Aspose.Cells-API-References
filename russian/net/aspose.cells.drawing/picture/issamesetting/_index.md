@@ -23,25 +23,25 @@ public override bool IsSameSetting(object obj)
 ```csharp
 
 [C#]
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 //вставляем первую картинку
 int imgIndex1 = worksheet.Pictures.Add(1, 1, "1.png");
-   //Получить вставленную картинку object
+//Получить вставленный объект изображения
 Picture pic1 = worksheet.Pictures[imgIndex1];
-  // вставляем вторую картинку
+//вставляем вторую картинку
 int imgIndex2 = worksheet.Pictures.Add(1, 9, "2.jpeg");
-   //Получить вставленную картинку object
+//Получить вставленный объект изображения
 Picture pic2 = worksheet.Pictures[imgIndex2];
 if(pic1.IsSameSetting(pic1))
 {
-      //два объекта изображения одинаковы.
+    //два объекта изображения одинаковы.
 }
 
 if(!pic1.IsSameSetting(pic2))
 {
-      //два объекта изображения не совпадают.
+    //два объекта изображения не совпадают.
 }
 ```
 

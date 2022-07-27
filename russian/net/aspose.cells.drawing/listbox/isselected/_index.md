@@ -16,7 +16,7 @@ public bool IsSelected(int itemIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| itemIndex | Int32 | Индекс элемента. |
+| itemIndex | Int32 | Индекс предмета. |
 
 ### Возвращаемое значение
 

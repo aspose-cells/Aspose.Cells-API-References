@@ -1,14 +1,14 @@
 ---
 title: ToFrontOrBack
 second_title: Справочник по Aspose.Cells для .NET API
-description: Выводит фигуру на передний план или отправляет фигуру на задний план.
+description: Перемещает фигуру на передний план или отправляет фигуру на задний план.
 type: docs
 weight: 1150
 url: /ru/net/aspose.cells.drawing/shape/tofrontorback/
 ---
 ## Shape.ToFrontOrBack method
 
-Выводит фигуру на передний план или отправляет фигуру на задний план.
+Перемещает фигуру на передний план или отправляет фигуру на задний план.
 
 ```csharp
 public void ToFrontOrBack(int orders)
@@ -16,7 +16,7 @@ public void ToFrontOrBack(int orders)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| orders | Int32 | Если меньше нуля, возвращает форму назад. Если больше нуля, выводит фигуру на передний план. |
+| orders | Int32 | Если меньше нуля, то фигура становится на задний план. Если больше нуля, фигура переносится на передний план. |
 
 ### Примеры
 
@@ -24,7 +24,7 @@ public void ToFrontOrBack(int orders)
 
 [C#]
 shape.ToFrontOrBack(2);
-  //или shape.ToFrontOrBack(-1);
+//или shape.ToFrontOrBack(-1);
 ```
 
 ### Смотрите также

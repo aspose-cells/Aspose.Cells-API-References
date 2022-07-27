@@ -1,14 +1,14 @@
 ---
 title: AutoFitColsAndRows
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否自动适应列和行默认值为假
+description: 指示是否自动适应列和行默认值为假
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/htmlloadoptions/autofitcolsandrows/
 ---
 ## HtmlLoadOptions.AutoFitColsAndRows property
 
-表示是否自动适应列和行。默认值为假。
+指示是否自动适应列和行。默认值为假。
 
 ```csharp
 public bool AutoFitColsAndRows { get; set; }

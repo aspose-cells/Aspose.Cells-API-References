@@ -3,7 +3,7 @@ title: ImportCustomObjects
 second_title: Справочник по Aspose.Cells для .NET API
 description: Импортирует пользовательские объекты.
 type: docs
-weight: 960
+weight: 970
 url: /ru/net/aspose.cells/cells/importcustomobjects/
 ---
 ## ImportCustomObjects(ICollection, string[], bool, int, int, int, bool, string, bool) {#importcustomobjects_1}
@@ -19,7 +19,7 @@ public int ImportCustomObjects(ICollection list, string[] propertyNames, bool is
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | list | ICollection | Пользовательский объект |
-| propertyNames | String[] | Имена свойств. Если он равен нулю, мы импортируем все свойства объекта. |
+| propertyNames | String[] | Имена свойств. Если оно равно null, мы импортируем все свойства объекта. |
 | isPropertyNameShown | Boolean | Указывает, будет ли имя свойства импортировано в первую строку. |
 | firstRow | Int32 | Номер строки первой ячейки для импорта. |
 | firstColumn | Int32 | Номер столбца первой ячейки для импорта. |
@@ -56,9 +56,9 @@ public int ImportCustomObjects(ICollection list, int firstRow, int firstColumn,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | list | ICollection | Пользовательский объект |
-| firstRow | Int32 | Номер строки первая ячейка для импорта. |
+| firstRow | Int32 | Номер строки первой ячейки для импорта. |
 | firstColumn | Int32 | Номер столбца первой ячейки для импорта. |
-| options | ImportTableOptions | Параметры импорта. |
+| options | ImportTableOptions | Варианты импорта. |
 
 ### Возвращаемое значение
 

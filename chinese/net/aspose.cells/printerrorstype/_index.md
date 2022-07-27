@@ -18,9 +18,9 @@ public enum PrintErrorsType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| PrintErrorsBlank | `0` | 表示不打印错误。 |
+| PrintErrorsBlank | `0` | 代表不打印错误。 |
 | PrintErrorsDash | `1` | 表示打印错误为“--”。 |
-| PrintErrorsDisplayed | `2` | 表示打印显示的错误。 |
+| PrintErrorsDisplayed | `2` | 表示打印错误如显示。 |
 | PrintErrorsNA | `3` | 表示打印错误为“#N/A”。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: ApplyExcelDefaultStyleToHyperlink
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否将Excel的默认样式应用于超链接
+description: 表示是否将Excel的默认样式应用到超链接
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/odsloadoptions/applyexceldefaultstyletohyperlink/
 ---
 ## OdsLoadOptions.ApplyExcelDefaultStyleToHyperlink property
 
-表示是否将Excel的默认样式应用于超链接。
+表示是否将Excel的默认样式应用到超链接。
 
 ```csharp
 public bool ApplyExcelDefaultStyleToHyperlink { get; set; }

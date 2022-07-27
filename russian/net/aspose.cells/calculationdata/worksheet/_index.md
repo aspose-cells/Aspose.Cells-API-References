@@ -1,14 +1,14 @@
 ---
 title: Worksheet
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объект Worksheet в котором находится функция.
+description: Получает объект рабочего листа в котором находится функция.
 type: docs
 weight: 80
 url: /ru/net/aspose.cells/calculationdata/worksheet/
 ---
 ## CalculationData.Worksheet property
 
-Получает объект Worksheet, в котором находится функция.
+Получает объект рабочего листа, в котором находится функция.
 
 ```csharp
 public Worksheet Worksheet { get; }

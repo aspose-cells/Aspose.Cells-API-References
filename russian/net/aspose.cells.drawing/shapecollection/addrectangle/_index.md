@@ -1,14 +1,14 @@
 ---
 title: AddRectangle
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет RectangleShape на рабочий лист.
+description: Добавляет прямоугольник на рабочий лист.
 type: docs
 weight: 240
 url: /ru/net/aspose.cells.drawing/shapecollection/addrectangle/
 ---
 ## ShapeCollection.AddRectangle method
 
-Добавляет RectangleShape на рабочий лист.
+Добавляет прямоугольник на рабочий лист.
 
 ```csharp
 public RectangleShape AddRectangle(int upperLeftRow, int top, int upperLeftColumn, int left, 
@@ -18,9 +18,9 @@ public RectangleShape AddRectangle(int upperLeftRow, int top, int upperLeftColum
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| top | Int32 | Представляет вертикальное смещение RectangleShape от его левой строки в единицах пикселей. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
-| left | Int32 | Представляет горизонтальное смещение RectangleShape от его левого столбца в единицах пикселей. |
+| top | Int32 | Представляет вертикальное смещение RectangleShape от его левой строки в единицах пикселя. |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
+| left | Int32 | Представляет горизонтальное смещение RectangleShape от его левого столбца в пикселях. |
 | height | Int32 | Представляет высоту RectangleShape в пикселях. |
 | width | Int32 | Представляет ширину RectangleShape в пикселях. |
 
@@ -33,7 +33,7 @@ public RectangleShape AddRectangle(int upperLeftRow, int top, int upperLeftColum
 ```csharp
 
 [C#]
-  // добавляем прямоугольник
+// добавляем прямоугольник
 RectangleShape rectangleShape = shapes.AddRectangle(2, 0, 2, 0, 130, 130);
 ```
 

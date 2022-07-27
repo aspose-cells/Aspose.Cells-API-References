@@ -1,14 +1,14 @@
 ---
 title: LastSelected
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает какой сценарий был последним выбран пользователем для запуска/показа.
+description: Указывает какой сценарий был последним выбран пользователем для запуска/отображения.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/scenariocollection/lastselected/
 ---
 ## ScenarioCollection.LastSelected property
 
-Указывает, какой сценарий был последним выбран пользователем для запуска/показа.
+Указывает, какой сценарий был последним выбран пользователем для запуска/отображения.
 
 ```csharp
 public int LastSelected { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: RevisionActionType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示修订动作的类型
+description: 表示修订操作的类型
 type: docs
 weight: 5330
 url: /zh/net/aspose.cells.revisions/revisionactiontype/
 ---
 ## RevisionActionType enumeration
 
-表示修订动作的类型。
+表示修订操作的类型。
 
 ```csharp
 public enum RevisionActionType
@@ -18,8 +18,8 @@ public enum RevisionActionType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Add | `0` | 添加修订。 |
-| Delete | `1` | 删除修订。 |
+| Add | `0` | 添加修订版。 |
+| Delete | `1` | 删除修订版。 |
 | DeleteColumn | `2` | 列删除修订。 |
 | DeleteRow | `3` | 行删除修订。 |
 | InsertColumn | `4` | 列插入修订。 |

@@ -1,14 +1,14 @@
 ---
 title: SetCustom
 second_title: Aspose.Cells for .NET API 参考
-description: 设置自定义格式null或空字符串表示没有自定义格式
+description: 设置自定义格式null 或空字符串表示没有自定义格式
 type: docs
 weight: 340
 url: /zh/net/aspose.cells.gridweb.data/gridcell/setcustom/
 ---
 ## GridCell.SetCustom method
 
-设置自定义格式，null或空字符串表示没有自定义格式。
+设置自定义格式，null 或空字符串表示没有自定义格式。
 
 ```csharp
 public void SetCustom(string custom)

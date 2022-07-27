@@ -1,14 +1,14 @@
 ---
 title: BindStartColumn
 second_title: Aspose.Cells for .NET API 参考
-description: 在数据绑定模式下BindStartRow 和 BindStartColumn 指示网格的位置以绑定数据源
+description: 在数据绑定模式下BindStartRow 和 BindStartColumn 表示网格的位置来绑定数据源
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.gridweb.data/gridworksheet/bindstartcolumn/
 ---
 ## GridWorksheet.BindStartColumn property
 
-在数据绑定模式下，BindStartRow 和 BindStartColumn 指示网格的位置以绑定数据源。
+在数据绑定模式下，BindStartRow 和 BindStartColumn 表示网格的位置来绑定数据源。
 
 ```csharp
 public int BindStartColumn { get; set; }

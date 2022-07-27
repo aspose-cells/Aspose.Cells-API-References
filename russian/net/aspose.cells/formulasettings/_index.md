@@ -22,12 +22,12 @@ public class FormulaSettings
 | [CalculateOnSave](../../aspose.cells/formulasettings/calculateonsave) { get; set; } | Указывает, следует ли пересчитывать рабочую книгу перед сохранением документа в ручном режиме расчета. |
 | [CalculationId](../../aspose.cells/formulasettings/calculationid) { get; set; } | Указывает версию механизма расчета, используемого для расчета значений в рабочей книге. |
 | [CalculationMode](../../aspose.cells/formulasettings/calculationmode) { get; set; } | Получает или задает режим расчета рабочей книги в MS Excel. |
-| [EnableCalculationChain](../../aspose.cells/formulasettings/enablecalculationchain) { get; set; } | Включить ли цепочку вычислений для формул. Значение по умолчанию — ложь. |
+| [EnableCalculationChain](../../aspose.cells/formulasettings/enablecalculationchain) { get; set; } | Включить ли цепочку вычислений для формул. По умолчанию false. |
 | [EnableIterativeCalculation](../../aspose.cells/formulasettings/enableiterativecalculation) { get; set; } | Указывает, разрешено ли итеративное вычисление для разрешения циклических ссылок. |
-| [ForceFullCalculation](../../aspose.cells/formulasettings/forcefullcalculation) { get; set; } | Указывает, вычисляются ли все формулы каждый раз при запуске вычисления. |
+| [ForceFullCalculation](../../aspose.cells/formulasettings/forcefullcalculation) { get; set; } | Указывает, вычисляются ли все формулы каждый раз, когда инициируется вычисление. |
 | [MaxChange](../../aspose.cells/formulasettings/maxchange) { get; set; } | Максимальное изменение для разрешения циклической ссылки. |
 | [MaxIteration](../../aspose.cells/formulasettings/maxiteration) { get; set; } | Максимальное количество итераций для разрешения циклической ссылки. |
-| [PrecisionAsDisplayed](../../aspose.cells/formulasettings/precisionasdisplayed) { get; set; } | Устанавливается ли точность вычисляемого результата так, как он отображается при вычислении формул |
+| [PrecisionAsDisplayed](../../aspose.cells/formulasettings/precisionasdisplayed) { get; set; } | Будет ли установлена точность вычисляемого результата, как они отображаются при вычислении формул |
 
 ### Смотрите также
 

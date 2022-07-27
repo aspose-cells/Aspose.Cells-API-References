@@ -1,14 +1,14 @@
 ---
 title: MaxColumn
 second_title: Aspose.Cells for .NET API 参考
-description: 已在集合中实例化的那些单元格的最小列索引不包括列 其中样式是为整个列定义的但没有在其中实例化单元格
+description: 已在集合中实例化的那些单元格的最小列索引不包括 column 其中为整个列定义了样式但其中没有实例化单元格
 type: docs
 weight: 90
 url: /zh/net/aspose.cells/cells/maxcolumn/
 ---
 ## Cells.MaxColumn property
 
-已在集合中实例化的那些单元格的最小列索引（不包括列 其中样式是为整个列定义的，但没有在其中实例化单元格）。
+已在集合中实例化的那些单元格的最小列索引（不包括 column 其中为整个列定义了样式但其中没有实例化单元格）。
 
 ```csharp
 public int MaxColumn { get; }

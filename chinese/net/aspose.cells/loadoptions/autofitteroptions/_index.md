@@ -16,7 +16,7 @@ public AutoFitterOptions AutoFitterOptions { get; set; }
 
 ### 评论
 
-现在仅适用于 xlsx ,spreadsheetML 文件。
+现在仅适用于 xlsx ，电子表格ML 文件。
 
 ### 也可以看看
 

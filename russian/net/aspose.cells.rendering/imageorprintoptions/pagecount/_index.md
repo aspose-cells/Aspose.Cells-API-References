@@ -1,14 +1,14 @@
 ---
 title: PageCount
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает количество сохраняемых страниц.
+description: Получает или задает количество страниц для сохранения.
 type: docs
 weight: 200
 url: /ru/net/aspose.cells.rendering/imageorprintoptions/pagecount/
 ---
 ## ImageOrPrintOptions.PageCount property
 
-Получает или задает количество сохраняемых страниц.
+Получает или задает количество страниц для сохранения.
 
 ```csharp
 public int PageCount { get; set; }

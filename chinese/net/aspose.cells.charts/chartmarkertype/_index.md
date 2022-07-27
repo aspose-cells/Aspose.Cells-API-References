@@ -24,11 +24,11 @@ public enum ChartMarkerType
 | Diamond | `3` | 菱形标记。 |
 | Dot | `4` | 短条标记。 |
 | None | `5` | 没有标记。 |
-| SquarePlus | `6` | 带加号的方形标记。 |
+| SquarePlus | `6` | 带有加号的方形标记。 |
 | Square | `7` | 方形标记。 |
-| SquareStar | `8` | 带星号的方形标记。 |
+| SquareStar | `8` | 带有星号的方形标记。 |
 | Triangle | `9` | 三角形标记。 |
-| SquareX | `10` | 带有 X 的方形标记。 |
+| SquareX | `10` | 带有 X. 的方形标记 |
 | Picture | `11` | 图片 |
 
 ### 也可以看看

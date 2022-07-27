@@ -1,14 +1,14 @@
 ---
 title: CopyInvalidFormulasAsValues
 second_title: Aspose.Cells for .NET API 参考
-description: 如果公式对目的地无效则仅复制值
+description: 如果公式对目标无效则仅复制值
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/copyoptions/copyinvalidformulasasvalues/
 ---
 ## CopyOptions.CopyInvalidFormulasAsValues property
 
-如果公式对目的地无效，则仅复制值。
+如果公式对目标无效，则仅复制值。
 
 ```csharp
 public bool CopyInvalidFormulasAsValues { get; set; }

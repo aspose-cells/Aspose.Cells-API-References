@@ -1,14 +1,14 @@
 ---
 title: DashStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置指定行的虚线样式
+description: 获取或设置指定线条的虚线样式
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.drawing/msolineformat/dashstyle/
 ---
 ## MsoLineFormat.DashStyle property
 
-获取或设置指定行的虚线样式。
+获取或设置指定线条的虚线样式。
 
 ```csharp
 public MsoLineDashStyle DashStyle { get; set; }

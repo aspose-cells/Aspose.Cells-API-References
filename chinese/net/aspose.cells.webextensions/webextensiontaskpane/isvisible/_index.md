@@ -1,14 +1,14 @@
 ---
 title: IsVisible
 second_title: Aspose.Cells for .NET API 参考
-description: 指示当文档打开时任务窗格是否默认显示为可见
+description: 指示文档打开时任务窗格是否默认显示为可见
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.webextensions/webextensiontaskpane/isvisible/
 ---
 ## WebExtensionTaskPane.IsVisible property
 
-指示当文档打开时任务窗格是否默认显示为可见。
+指示文档打开时任务窗格是否默认显示为可见。
 
 ```csharp
 public bool IsVisible { get; set; }

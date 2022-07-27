@@ -25,12 +25,12 @@ public class CopyOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [ColumnCharacterWidth](../../aspose.cells/copyoptions/columncharacterwidth) { get; set; } | 表示是否以字符为单位复制列宽。 |
-| [CopyInvalidFormulasAsValues](../../aspose.cells/copyoptions/copyinvalidformulasasvalues) { get; set; } | 如果公式对目的地无效，则仅复制值。 |
+| [CopyInvalidFormulasAsValues](../../aspose.cells/copyoptions/copyinvalidformulasasvalues) { get; set; } | 如果公式对目标无效，则仅复制值。 |
 | [CopyNames](../../aspose.cells/copyoptions/copynames) { get; set; } | 表示是否复制名称。 |
 | [ExtendToAdjacentRange](../../aspose.cells/copyoptions/extendtoadjacentrange) { get; set; } | 表示将范围复制到相邻范围时是否扩展范围。 |
 | [KeepMacros](../../aspose.cells/copyoptions/keepmacros) { get; set; } | 表示是否保留宏； |
-| [ReferToDestinationSheet](../../aspose.cells/copyoptions/refertodestinationsheet) { get; set; } | 当复制同一个文件中的范围并且图表引用源表时， False 表示复制的图表的数据源不会改变. True 表示复制的图表的数据源是指目标工作表。 |
-| [ReferToSheetWithSameName](../../aspose.cells/copyoptions/refertosheetwithsamename) { get; set; } | 当将工作表复制到另一个工作簿并且工作表包含引用 MS Excel 中其他工作表的公式时， 复制的公式应引用源工作簿。 但有时我们复制了其他工作表，我们希望复制的公式引用同一工作簿中名称的其他工作表， 请将此属性设置为true。 |
+| [ReferToDestinationSheet](../../aspose.cells/copyoptions/refertodestinationsheet) { get; set; } | 复制同一个文件中的范围且图表引用源工作表时， False 表示复制的图表的数据源不会改变。 True 表示复制的图表的数据源引用目标工作表。 |
+| [ReferToSheetWithSameName](../../aspose.cells/copyoptions/refertosheetwithsamename) { get; set; } | 将工作表复制到另一个工作簿并且工作表包含引用 MS Excel 中其他工作表的公式时， 复制的公式应引用源工作簿。 但有时我们复制了其他工作表，我们希望复制的公式引用同一个工作簿中同名的其他工作表， 请将此属性设置为true。 |
 
 ### 也可以看看
 

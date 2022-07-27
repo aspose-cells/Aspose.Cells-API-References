@@ -1,14 +1,14 @@
 ---
 title: CheckColumn
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементColumnaspose.cells/columnили null по указанному индексу столбца.
+description: ПолучаетColumnaspose.cells/column элемент или нуль в указанном индексе столбца.
 type: docs
 weight: 370
 url: /ru/net/aspose.cells/cells/checkcolumn/
 ---
 ## Cells.CheckColumn method
 
-Получает элемент[`Column`](../../column)или null по указанному индексу столбца.
+Получает[`Column`](../../column) элемент или нуль в указанном индексе столбца.
 
 ```csharp
 public Column CheckColumn(int columnIndex)

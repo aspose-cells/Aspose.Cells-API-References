@@ -16,9 +16,9 @@ public void ImportExcelFile(string uid, string fileName, string password)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uid | String | UID для файлового кэша, если установлено значение null, он будет сгенерирован позже. |
+| uid | String | UID для файлового кеша, если установлено значение null, он будет сгенерирован позже. |
 | fileName | String | Полный путь к файлу Excel с именем файла. |
-| пароль | String | Пароль для открытия файла Excel. Значение может быть нулевым. Если пароль не установлен |
+| password | String | Пароль на открытие файла excel. Значение может быть нулевым, если пароль не установлен |
 
 ### Смотрите также
 
@@ -38,7 +38,7 @@ public void ImportExcelFile(string uid, string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uid | String | UID для файлового кэша, если установлено значение null, он будет сгенерирован позже. |
+| uid | String | UID для файлового кеша, если установлено значение null, он будет сгенерирован позже. |
 | fileName | String | Полный путь к файлу Excel с именем файла. |
 
 ### Смотрите также
@@ -79,7 +79,7 @@ public void ImportExcelFile(Workbook wb)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| wb | Workbook | Объект Workbook . |
+| wb | Workbook | Объект «Книга». |
 
 ### Смотрите также
 
@@ -99,8 +99,8 @@ public void ImportExcelFile(string uid, Workbook wb)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uid | String | UID для файлового кэша, если установлено значение null, он будет сгенерирован позже. |
-| wb | Workbook | Объект Workbook . |
+| uid | String | UID для файлового кеша, если установлено значение null, он будет сгенерирован позже. |
+| wb | Workbook | Объект «Книга». |
 
 ### Смотрите также
 
@@ -112,7 +112,7 @@ public void ImportExcelFile(string uid, Workbook wb)
 
 ## ImportExcelFile(string, Stream, GridLoadFormat, string) {#importexcelfile_6}
 
-Импорт из потока файла excel. Должен предоставлять формат загрузки и может устанавливать GridJsWorkbook.CacheImp для реализации кэша потока
+Импорт из потока файла Excel. Должен предоставлять формат загрузки и может устанавливать GridJsWorkbook.CacheImp для реализации кэша потока
 
 ```csharp
 public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format, string password)
@@ -120,10 +120,10 @@ public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uid | String | uid для файлового кэша, если установлено значение null, он будет сгенерирован позже. |
+| uid | String | UID для файлового кеша, если установлено значение null, он будет сгенерирован позже. |
 | filestream | Stream | Поток файла Excel. |
 | format | GridLoadFormat | LoadFormat файла Excel. |
-| password | String | Пароль для открытия файла excel. Значение может быть нулевым. Если пароль не установлен |
+| password | String | Открытый пароль файла Excel. Значение может быть нулевым. Если пароль не установлен. |
 
 ### Смотрите также
 
@@ -136,7 +136,7 @@ public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format
 
 ## ImportExcelFile(string, Stream, GridLoadFormat) {#importexcelfile_5}
 
-Импорт из потока файла excel. Должен предоставлять формат загрузки и может устанавливать GridJsWorkbook.CacheImp для реализации кэша потока
+Импорт из потока файла Excel. Должен предоставлять формат загрузки и может устанавливать GridJsWorkbook.CacheImp для реализации кэша потока
 
 ```csharp
 public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format)
@@ -144,7 +144,7 @@ public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uid | String | uid для файлового кэша, если установлено значение null, он будет сгенерирован позже. |
+| uid | String | UID для файлового кеша, если установлено значение null, он будет сгенерирован позже. |
 | filestream | Stream | Поток файла Excel. |
 | format | GridLoadFormat | LoadFormat файла Excel. |
 
@@ -159,7 +159,7 @@ public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format
 
 ## ImportExcelFile(Stream, GridLoadFormat, string) {#importexcelfile_2}
 
-Импорт из потока файла excel. Должен предоставлять формат загрузки и может устанавливать GridJsWorkbook.CacheImp для реализации кэша потока
+Импорт из потока файла Excel. Должен предоставлять формат загрузки и может устанавливать GridJsWorkbook.CacheImp для реализации кэша потока
 
 ```csharp
 public void ImportExcelFile(Stream filestream, GridLoadFormat format, string password)
@@ -169,7 +169,7 @@ public void ImportExcelFile(Stream filestream, GridLoadFormat format, string pas
 | --- | --- | --- |
 | filestream | Stream | Поток файла Excel. |
 | format | GridLoadFormat | LoadFormat файла Excel. |
-| password | String | Пароль для открытия файла excel. Значение может быть нулевым. Если пароль не установлен |
+| password | String | Открытый пароль файла Excel. Значение может быть нулевым. Если пароль не установлен. |
 
 ### Смотрите также
 
@@ -182,7 +182,7 @@ public void ImportExcelFile(Stream filestream, GridLoadFormat format, string pas
 
 ## ImportExcelFile(Stream, GridLoadFormat) {#importexcelfile_1}
 
-Импорт из потока файла excel. Должен предоставлять формат загрузки и может устанавливать GridJsWorkbook.CacheImp для реализации кэша потока
+Импорт из потока файла Excel. Должен предоставлять формат загрузки и может устанавливать GridJsWorkbook.CacheImp для реализации кэша потока
 
 ```csharp
 public void ImportExcelFile(Stream filestream, GridLoadFormat format)

@@ -1,14 +1,14 @@
 ---
 title: Comments
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает коллекциюCommentaspose.cells/comment.
+description: ПолучаетCommentaspose.cells/comment коллекция.
 type: docs
 weight: 100
 url: /ru/net/aspose.cells/worksheet/comments/
 ---
 ## Worksheet.Comments property
 
-Получает коллекцию[`Comment`](../../comment).
+Получает[`Comment`](../../comment) коллекция.
 
 ```csharp
 public CommentCollection Comments { get; }

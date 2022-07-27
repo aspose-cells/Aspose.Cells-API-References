@@ -1,14 +1,14 @@
 ---
 title: HiddenColDisplayType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Скрытый столбец ширина этого столбца равна 0 в excel перед сохранением в формате html если HtmlHiddenColDisplayType Удалить скрытый столбец не будет выводиться если значение Скрытый столбец будет выводиться но будет скрыт значение по умолчанию Скрытый
+description: Скрытый столбец ширина этого столбца равна 0 в Excel перед сохранением в формате html  если для HtmlHiddenColDisplayType установлено значение Удалить скрытый столбец не будет выводиться  если значение Скрытый столбец будет был выведен но был скрыт значение по умолчанию Скрытый
 type: docs
-weight: 300
+weight: 320
 url: /ru/net/aspose.cells/htmlsaveoptions/hiddencoldisplaytype/
 ---
 ## HtmlSaveOptions.HiddenColDisplayType property
 
-Скрытый столбец (ширина этого столбца равна 0) в excel, перед сохранением в формате html, если HtmlHiddenColDisplayType "Удалить", скрытый столбец не будет выводиться, если значение "Скрытый", столбец будет выводиться, но будет скрыт, значение по умолчанию "Скрытый"
+Скрытый столбец (ширина этого столбца равна 0) в Excel, перед сохранением в формате html, , если для HtmlHiddenColDisplayType установлено значение «Удалить», скрытый столбец не будет выводиться, , если значение «Скрытый», столбец будет был выведен, но был скрыт, значение по умолчанию "Скрытый"
 
 ```csharp
 public HtmlHiddenColDisplayType HiddenColDisplayType { get; set; }

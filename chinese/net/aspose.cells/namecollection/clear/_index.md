@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Aspose.Cells for .NET API 参考
-description: 删除公式和数据源未引用的所有已定义名称 如果定义的名称被引用我们只设置 Name.ReferTo 为 null 并隐藏它们
+description: 删除所有没有被公式和数据源引用的定义名称 如果定义的名称被引用我们只设置Name.ReferTo为null并隐藏它们
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/namecollection/clear/
 ---
 ## NameCollection.Clear method
 
-删除公式和数据源未引用的所有已定义名称。 如果定义的名称被引用，我们只设置 Name.ReferTo 为 null 并隐藏它们。
+删除所有没有被公式和数据源引用的定义名称。 如果定义的名称被引用，我们只设置Name.ReferTo为null并隐藏它们。
 
 ```csharp
 public void Clear()

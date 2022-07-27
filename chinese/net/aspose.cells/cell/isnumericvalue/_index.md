@@ -1,14 +1,14 @@
 ---
 title: IsNumericValue
 second_title: Aspose.Cells for .NET API 参考
-description: 指示此单元格的内部值是否为数字intdouble 和 datetime
+description: 表示这个单元格的内部值是否为数字int double and datetime
 type: docs
 weight: 180
 url: /zh/net/aspose.cells/cell/isnumericvalue/
 ---
 ## Cell.IsNumericValue property
 
-指示此单元格的内部值是否为数字（int、double 和 datetime）
+表示这个单元格的内部值是否为数字（int, double and datetime）
 
 ```csharp
 public bool IsNumericValue { get; }
@@ -16,7 +16,7 @@ public bool IsNumericValue { get; }
 
 ### 评论
 
-也适用于公式单元格查看计算结果
+也适用于公式单元格检查计算结果
 
 ### 也可以看看
 

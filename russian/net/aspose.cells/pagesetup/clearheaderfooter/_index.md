@@ -1,14 +1,14 @@
 ---
 title: ClearHeaderFooter
 second_title: Справочник по Aspose.Cells для .NET API
-description: Очищает настройку верхнего и нижнего колонтитула.
+description: Очищает настройки верхнего и нижнего колонтитула.
 type: docs
 weight: 440
 url: /ru/net/aspose.cells/pagesetup/clearheaderfooter/
 ---
 ## PageSetup.ClearHeaderFooter method
 
-Очищает настройку верхнего и нижнего колонтитула.
+Очищает настройки верхнего и нижнего колонтитула.
 
 ```csharp
 public void ClearHeaderFooter()

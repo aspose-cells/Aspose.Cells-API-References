@@ -19,18 +19,18 @@ public Shape AddActiveXControl(ControlType type, int topRow, int top, int leftCo
 | --- | --- | --- |
 | type | ControlType | Тип элемента управления. |
 | topRow | Int32 | Индекс верхней левой строки. |
-| top | Int32 | Представляет вертикальное смещение формы от ее левой строки в единицах пикселя. |
-| leftColumn | Int32 | Индекс верхнего левого столбца. |
-| left | Int32 | Представляет горизонтальное смещение Shape от его левого столбца в единицах пикселя. |
-| height | Int32 | Представляет высоту формы в пикселях. |
-| width | Int32 | Представляет ширину формы в пикселях. |
+| top | Int32 | Представляет вертикальное смещение Shape от его левой строки в единицах пикселя. |
+| leftColumn | Int32 | Индекс левого верхнего столбца. |
+| left | Int32 | Представляет горизонтальное смещение Shape от его левого столбца в пикселях. |
+| height | Int32 | Представляет высоту объекта Shape в пикселях. |
+| width | Int32 | Представляет ширину Shape в пикселях. |
 
 ### Примеры
 
 ```csharp
 
 [C#]
-  //добавляем ActiveX control
+//добавляем элемент управления ActiveX
 Shape activeXControl = shapes.AddActiveXControl(Aspose.Cells.Drawing.ActiveXControls.ControlType.CheckBox, 1, 0, 1, 0, 100, 50);
 ```
 

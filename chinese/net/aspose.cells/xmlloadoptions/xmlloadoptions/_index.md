@@ -1,14 +1,14 @@
 ---
 title: XmlLoadOptions
 second_title: Aspose.Cells for .NET API 参考
-description: 表示加载ods文件的选项
+description: 代表加载ods文件的选项
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/xmlloadoptions/xmlloadoptions/
 ---
 ## XmlLoadOptions() {#constructor}
 
-表示加载ods文件的选项。
+代表加载ods文件的选项。
 
 ```csharp
 public XmlLoadOptions()
@@ -24,7 +24,7 @@ public XmlLoadOptions()
 
 ## XmlLoadOptions(LoadFormat) {#constructor_1}
 
-表示加载ods文件的选项。
+代表加载ods文件的选项。
 
 ```csharp
 public XmlLoadOptions(LoadFormat type)

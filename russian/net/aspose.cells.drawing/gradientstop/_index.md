@@ -19,7 +19,7 @@ public class GradientStop
 | Имя | Описание |
 | --- | --- |
 | [CellsColor](../../aspose.cells.drawing/gradientstop/cellscolor) { get; } | Получает цвет этой остановки градиента. |
-| [Position](../../aspose.cells.drawing/gradientstop/position) { get; set; } | Положение остановки. |
+| [Position](../../aspose.cells.drawing/gradientstop/position) { get; set; } | Положение стопа. |
 | [Transparency](../../aspose.cells.drawing/gradientstop/transparency) { get; set; } | Возвращает или задает степень прозрачности области в виде значения от 0,0 (непрозрачная) до 1,0 (прозрачная). |
 
 ### Смотрите также

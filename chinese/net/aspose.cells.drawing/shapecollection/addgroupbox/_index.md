@@ -21,8 +21,8 @@ public GroupBox AddGroupBox(int upperLeftRow, int top, int upperLeftColumn, int 
 | top | Int32 | 表示 GroupBox 与其左行的垂直偏移量，以像素为单位。 |
 | upperLeftColumn | Int32 | 左上列索引。 |
 | left | Int32 | 表示 GroupBox 与其左列的水平偏移量，以像素为单位。 |
-| height | Int32 | 表示GroupBox的高度，以像素为单位。 |
-| width | Int32 | 表示GroupBox的宽度，以像素为单位。 |
+| height | Int32 | 表示 GroupBox 的高度，以像素为单位。 |
+| width | Int32 | 表示 GroupBox 的宽度，以像素为单位。 |
 
 ### 返回值
 
@@ -33,7 +33,7 @@ public GroupBox AddGroupBox(int upperLeftRow, int top, int upperLeftColumn, int 
 ```csharp
 
 [C#]
- //添加一个组框
+//添加一个分组框
 GroupBox groupBox = shapes.AddGroupBox(1, 0, 1, 0, 100, 50);
 ```
 

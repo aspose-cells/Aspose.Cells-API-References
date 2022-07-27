@@ -1,14 +1,14 @@
 ---
 title: MapChartRegionType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает тип региона карты.
+description: Получает и задает тип региона карты.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.charts/serieslayoutproperties/mapchartregiontype/
 ---
 ## SeriesLayoutProperties.MapChartRegionType property
 
-Получает и устанавливает тип региона карты.
+Получает и задает тип региона карты.
 
 ```csharp
 public MapChartRegionType MapChartRegionType { get; set; }

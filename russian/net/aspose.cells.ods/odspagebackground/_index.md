@@ -26,11 +26,11 @@ public class OdsPageBackground
 | --- | --- |
 | [Color](../../aspose.cells.ods/odspagebackground/color) { get; set; } | Получает и устанавливает цвет фона. |
 | [GraphicData](../../aspose.cells.ods/odspagebackground/graphicdata) { get; set; } | Получает и устанавливает графические данные. |
-| [GraphicPositionType](../../aspose.cells.ods/odspagebackground/graphicpositiontype) { get; set; } | Получает и устанавливает положение фоновой графики. |
+| [GraphicPositionType](../../aspose.cells.ods/odspagebackground/graphicpositiontype) { get; set; } | Получает и устанавливает позицию фоновой графики. |
 | [GraphicType](../../aspose.cells.ods/odspagebackground/graphictype) { get; set; } | Получает и задает тип фоновой графики страницы. |
 | [IsLink](../../aspose.cells.ods/odspagebackground/islink) { get; } | Указывает, является ли это связанным изображением. |
-| [LinkedGraphic](../../aspose.cells.ods/odspagebackground/linkedgraphic) { get; set; } | Получает и устанавливает связанный графический путь. |
-| [Type](../../aspose.cells.ods/odspagebackground/type) { get; set; } | Получает и задает тип фона страницы. |
+| [LinkedGraphic](../../aspose.cells.ods/odspagebackground/linkedgraphic) { get; set; } | Получает и задает связанный графический путь. |
+| [Type](../../aspose.cells.ods/odspagebackground/type) { get; set; } | Получает и устанавливает тип фона страницы. |
 
 ### Смотрите также
 

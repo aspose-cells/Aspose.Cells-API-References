@@ -1,14 +1,14 @@
 ---
 title: IsThreadedComment
 second_title: Aspose.Cells for .NET API 参考
-description: 指示此评论是否为线程评论
+description: 表示此评论是否为线程评论
 type: docs
 weight: 100
 url: /zh/net/aspose.cells/comment/isthreadedcomment/
 ---
 ## Comment.IsThreadedComment property
 
-指示此评论是否为线程评论。
+表示此评论是否为线程评论。
 
 ```csharp
 public bool IsThreadedComment { get; }
@@ -21,7 +21,7 @@ public bool IsThreadedComment { get; }
 [C#]
 if(comment1.IsThreadedComment)
 {
-    //这条评论是线程评论。
+    //这条评论是一个线程评论。
 }
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: AfterCalculate
 second_title: Aspose.Cells for .NET API 参考
-description: 计算一个单元格后实现此方法进行业务
+description: 计算一个单元格后执行此方法进行业务
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/abstractcalculationmonitor/aftercalculate/
 ---
 ## AbstractCalculationMonitor.AfterCalculate method
 
-计算一个单元格后，实现此方法进行业务。
+计算一个单元格后执行此方法进行业务。
 
 ```csharp
 public virtual void AfterCalculate(int sheetIndex, int rowIndex, int colIndex)

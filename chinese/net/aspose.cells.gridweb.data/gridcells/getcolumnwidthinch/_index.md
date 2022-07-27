@@ -1,14 +1,14 @@
 ---
 title: GetColumnWidthInch
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定列的宽度单位为英寸
+description: 获取指定列的宽度以英寸为单位
 type: docs
 weight: 410
 url: /zh/net/aspose.cells.gridweb.data/gridcells/getcolumnwidthinch/
 ---
 ## GridCells.GetColumnWidthInch method
 
-获取指定列的宽度，单位为英寸。
+获取指定列的宽度，以英寸为单位。
 
 ```csharp
 public double GetColumnWidthInch(int column)

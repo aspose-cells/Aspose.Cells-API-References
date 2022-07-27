@@ -1,14 +1,14 @@
 ---
 title: AllColumnsInOnePagePerSheet
 second_title: Справочник по Aspose.Cells для .NET API
-description: Если AllColumnsInOnePagePerSheet имеет значение true  все содержимое столбцов одного листа будет выведено только на одну страницу в результате. Ширина размера бумаги pagesetup будет игнорироваться а другие настройки pagesetup по-прежнему будут действовать.
+description: Если AllColumnsInOnePagePerSheet имеет значение true  все содержимое столбцов одного листа будет выводиться только на одну страницу в результате. Ширина размера бумаги pagesetup будет игнорироваться а другие настройки pagesetup по-прежнему будут действовать.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/pdfsaveoptions/allcolumnsinonepagepersheet/
 ---
 ## PdfSaveOptions.AllColumnsInOnePagePerSheet property
 
-Если AllColumnsInOnePagePerSheet имеет значение true , все содержимое столбцов одного листа будет выведено только на одну страницу в результате. Ширина размера бумаги pagesetup будет игнорироваться, а другие настройки pagesetup по-прежнему будут действовать.
+Если AllColumnsInOnePagePerSheet имеет значение true , все содержимое столбцов одного листа будет выводиться только на одну страницу в результате. Ширина размера бумаги pagesetup будет игнорироваться, а другие настройки pagesetup по-прежнему будут действовать.
 
 ```csharp
 public bool AllColumnsInOnePagePerSheet { get; set; }

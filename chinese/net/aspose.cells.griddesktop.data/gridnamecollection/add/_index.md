@@ -17,7 +17,7 @@ public int Add(string text, string refersTo)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | text | String | 名称文本。它可以有 sheetname 。 |
-| refersTo | String | 名称定义引用的公式。它必须有一个工作表名 .eg.'sheet hello!'A1:B2。 |
+| refersTo | String | 定义名称所引用的公式。它必须有一个工作表名称。例如'工作表你好！'A1:B2。 |
 
 ### 返回值
 
@@ -33,7 +33,7 @@ public int Add(string text, string refersTo)
 
 ## Add(int, string, string) {#add}
 
-在指定工作表中定义一个新名称。
+在指定的工作表中定义一个新名称。
 
 ```csharp
 public int Add(int sheetIndex, string text, string refersTo)
@@ -42,9 +42,9 @@ public int Add(int sheetIndex, string text, string refersTo)
 | 范围 | 描述 |
 | --- | --- |
 | sheetIndex | 应用名称的工作表索引。 |
-| text | 名称文本。它不能有工作表名称。 |
-| refersTo | 名称定义引用的公式。必须有sheetname .eg.'sheet hello!'A1:B2。 |
-| sheetIndex | 名称的 SheetIndex ，索引从 1 开始。 |
+| text | 名称文本。它不能有 sheetname 。 |
+| refersTo | 定义名称所引用的公式。它必须有 sheetname .eg.'sheet hello!'A1:B2。 |
+| sheetIndex | Name 的 SheetIndex ，索引从 1 开始。 |
 
 ### 返回值
 

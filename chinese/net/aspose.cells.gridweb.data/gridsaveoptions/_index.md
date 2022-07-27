@@ -20,7 +20,7 @@ public class GridSaveOptions
 | --- | --- |
 | [CachedFileFolder](../../aspose.cells.gridweb.data/gridsaveoptions/cachedfilefolder) { get; set; } | 缓存的文件夹是用来存放一些大数据的。 |
 | [ClearData](../../aspose.cells.gridweb.data/gridsaveoptions/cleardata) { get; set; } | 保存文件后使工作簿为空。 |
-| [CreateDirectory](../../aspose.cells.gridweb.data/gridsaveoptions/createdirectory) { get; set; } | 如果为true且目录不存在，则在保存文件之前会自动创建目录。 |
+| [CreateDirectory](../../aspose.cells.gridweb.data/gridsaveoptions/createdirectory) { get; set; } | 如果为true且目录不存在，会在保存文件前自动创建目录。 |
 | [MergeAreas](../../aspose.cells.gridweb.data/gridsaveoptions/mergeareas) { get; set; } | 表示是否在保存文件之前合并条件格式和验证区域。 |
 | [RefreshChartCache](../../aspose.cells.gridweb.data/gridsaveoptions/refreshchartcache) { get; set; } | 表示是否刷新图表缓存数据 |
 | [SaveFormat](../../aspose.cells.gridweb.data/gridsaveoptions/saveformat) { get; } | 获取保存文件格式。 |

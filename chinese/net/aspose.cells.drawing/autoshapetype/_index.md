@@ -154,22 +154,22 @@ public enum AutoShapeType
 | FlowChartDisplay | `134` |  |
 | FlowChartDelay | `135` |  |
 | TextPlainText | `136` | 纯文本形状。 |
-| TextStop | `137` | 八角形文本形状。 |
+| TextStop | `137` | 一个八角形的文字形状。 |
 | TextTriangle | `138` | 向上的三角形文本形状。 |
-| TextTriangleInverted | `139` | 向下的三角形文本形状。 |
+| TextTriangleInverted | `139` | 一个向下的三角形文本形状。 |
 | TextChevron | `140` | 向上的 V 形文字形状。 |
-| TextChevronInverted | `141` | 向下的 V 形文字形状。 |
-| TextRingInside | `142` | 一个圆形的文字形状，仿佛在阅读戒指内侧的铭文。 |
+| TextChevronInverted | `141` | 指向下方的 V 形文字形状。 |
+| TextRingInside | `142` | 一个圆形的文字形状，好像在读一个戒指里面的铭文。 |
 | TextRingOutside | `143` | 一个圆形的文字形状，好像在读一个戒指外面的铭文。 |
 | TextArchUpCurve | `144` | 向上拱起的弯曲文本形状。 |
 | TextArchDownCurve | `145` | 向下拱起的弯曲文本形状。 |
 | TextCircleCurve | `146` | 圆形文本形状。 |
 | TextButtonCurve | `147` | 类似于按钮的文本形状。 |
-| TextArchUpPour | `148` | 向上拱起的文本形状。 |
+| TextArchUpPour | `148` | 向上拱起的文字形状。 |
 | TextArchDownPour | `149` | 向下拱起的文本形状。 |
 | TextCirclePour | `150` | 圆形文本形状。 |
 | TextButtonPour | `151` | 类似于按钮的文本形状。 |
-| TextCurveUp | `152` | 向上弯曲的文本形状。 |
+| TextCurveUp | `152` | 向上弯曲的文字形状。 |
 | TextCurveDown | `153` | 向下弯曲的文本形状。 |
 | TextCascadeUp | `154` | 向上的层叠文本形状。 |
 | TextCascadeDown | `155` | 向下的层叠文本形状。 |
@@ -180,21 +180,21 @@ public enum AutoShapeType
 | TextDoubleWave1 | `158` | 波浪形文本形状。 |
 | TextDoubleWave2 | `159` | 波浪形文本形状。 |
 | TextInflate | `160` | 在中间垂直扩展的文本形状。 |
-| TextDeflate | `161` | 在中间垂直收缩的文本形状。 |
-| TextInflateBottom | `162` | 中间向下扩展的文本形状。 |
-| TextDeflateBottom | `163` | 中间向上收缩的文本形状。 |
-| TextInflateTop | `164` | 在中间向上扩展的文本形状。 |
-| TextDeflateTop | `165` | 中间向下收缩的文本形状。 |
-| TextDeflateInflate | `166` | 下面的行向上扩展的文本形状。上部线条缩小以进行补偿。 |
-| TextDeflateInflateDeflate | `167` | 中心线垂直扩展的文本形状。上下线收缩以进行补偿。 |
+| TextDeflate | `161` | 中间垂直收缩的文本形状。 |
+| TextInflateBottom | `162` | 中间向下扩展的文字形状。 |
+| TextDeflateBottom | `163` | 中间向上收缩的文字形状。 |
+| TextInflateTop | `164` | 中间向上扩展的文字形状。 |
+| TextDeflateTop | `165` | 中间向下收缩的文字形状。 |
+| TextDeflateInflate | `166` | 下线向上扩展的文本形状。上部线条缩小以补偿。 |
+| TextDeflateInflateDeflate | `167` | 中心线垂直扩展的文本形状。上下线收缩补偿。 |
 | TextFadeRight | `168` | 在右侧垂直收缩的文本形状。 |
 | TextFadeLeft | `169` | 在左侧垂直收缩的文本形状。 |
-| TextFadeUp | `170` | 顶部水平收缩的文本形状。 |
+| TextFadeUp | `170` | 在顶部水平收缩的文本形状。 |
 | TextFadeDown | `171` | 底部水平收缩的文本形状。 |
 | TextSlantUp | `172` | 向上倾斜的文本形状。 |
 | TextSlantDown | `173` | 向下倾斜的文本形状。 |
-| TextCanUp | `174` | 向上弯曲的文字形状，就像在罐头上阅读一样。 |
-| TextCanDown | `175` | 向下弯曲的文字形状，就像在罐头的侧面阅读一样。 |
+| TextCanUp | `174` | 一种向上弯曲的文字形状，就像在罐头上阅读一样。 |
+| TextCanDown | `175` | 一种向下弯曲的文本形状，就像在罐子的侧面阅读一样。 |
 | FlowChartAlternateProcess | `176` |  |
 | FlowChartOffpageConnector | `177` |  |
 | LineCalloutNoBorder1 | `178` |  |
@@ -220,7 +220,7 @@ public enum AutoShapeType
 | DocumentActionButton | `198` |  |
 | SoundActionButton | `199` |  |
 | MovieActionButton | `200` |  |
-| HostControl | `201` | 这个值不应该被使用。 |
+| HostControl | `201` | 不应使用此值。 |
 | TextBox | `202` |  |
 | Heptagon | `2049` |  |
 | Decagon | `2050` |  |
@@ -268,11 +268,11 @@ public enum AutoShapeType
 | ChartPlus | `2105` |  |
 | Frame | `2106` |  |
 | Model3D | `2107` |  |
-| RoundCallout | `2108` | Excel 中没有这种类型 |
-| TextArchLeftPour | `2109` | Excel 中没有这种类型 |
-| TextArchRightPour | `2110` | Excel 中没有这种类型 |
-| TextArchLeftCurve | `2111` | Excel 中没有这种类型 |
-| TextArchRightCurve | `2112` | Excel 中没有这种类型 |
+| RoundCallout | `2108` | Excel中没有这种类型 |
+| TextArchLeftPour | `2109` | Excel中没有这种类型 |
+| TextArchRightPour | `2110` | Excel中没有这种类型 |
+| TextArchLeftCurve | `2111` | Excel中没有这种类型 |
+| TextArchRightCurve | `2112` | Excel中没有这种类型 |
 | Unknown | `4095` |  |
 
 ### 也可以看看

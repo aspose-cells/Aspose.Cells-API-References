@@ -17,7 +17,7 @@ public void SetLinkedCell(string formula, bool isR1C1, bool isLocal)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | formula | String | 链接到控件值的范围。 |
-| isR1C1 | Boolean | 公式是否需要格式化为R1C1。 |
+| isR1C1 | Boolean | 公式是否需要格式化为 R1C1。 |
 | isLocal | Boolean | 公式是否需要按语言环境格式化。 |
 
 ### 例子
@@ -25,16 +25,15 @@ public void SetLinkedCell(string formula, bool isR1C1, bool isLocal)
 ```csharp
 
 [C#]
-//执行下面的代码后，会在生成的文件中创建一个ScrollBar对象。拖动滑块时，该值显示在单元格 A12.
-
+//执行下面的代码后，会在生成的文件中创建一个ScrollBar对象。拖动滑块时，值将显示在单元格 A12 中。
 
 //ActiveX 控件
 //Aspose.Cells.Drawing.Shape scrollBar = book.Worksheets[0].Shapes.AddActiveXControl(Aspose.Cells.Drawing.ActiveXControls.ControlType.ScrollBar,2, 0, 2, 0, 30, 130);
 
- //表单控件
+//表单控件
 Aspose.Cells.Drawing.Shape scrollBar = book.Worksheets[0].Shapes.AddScrollBar(2, 0, 2, 0, 130, 30);
 
- //设置链接到控件值的范围。
+//设置链接到控件值的范围。
 scrollBar.SetLinkedCell("$A$12", false, true);
 
 ```

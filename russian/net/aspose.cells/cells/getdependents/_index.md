@@ -17,7 +17,7 @@ public Cell[] GetDependents(bool isAll, int row, int column)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | isAll | Boolean | Указывает, следует ли проверять другие рабочие листы |
-| row | Int32 | Строка индекс. |
+| row | Int32 | Индекс строки. |
 | column | Int32 | Индекс столбца. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: MsoLineStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 表示画线的样式
+description: 代表画线的样式
 type: docs
 weight: 2380
 url: /zh/net/aspose.cells.drawing/msolinestyle/
 ---
 ## MsoLineStyle enumeration
 
-表示画线的样式。
+代表画线的样式。
 
 ```csharp
 public enum MsoLineStyle
@@ -19,7 +19,7 @@ public enum MsoLineStyle
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Single | `0` | 单行（宽度为 lineWidth） |
-| ThickBetweenThin | `1` | 三行，细，粗，细 |
+| ThickBetweenThin | `1` | 三行，细、粗、细 |
 | ThinThick | `2` | 双线，一细一粗 |
 | ThickThin | `3` | 双线，一粗一细 |
 | ThinThin | `4` | 等宽双线 |

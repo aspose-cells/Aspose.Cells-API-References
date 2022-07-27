@@ -18,7 +18,7 @@ public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arrayFormula | String | 数组公式。 |
-| rowNumber | Int32 | 要填充数组公式结果的行数。 |
+| rowNumber | Int32 | 填充数组公式结果的行数。 |
 | columnNumber | Int32 | 要填充数组公式结果的列数。 |
 | options | FormulaParseOptions | 用于解析公式的选项。 |
 
@@ -43,10 +43,10 @@ public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arrayFormula | String | 数组公式。 |
-| rowNumber | Int32 | 要填充数组公式结果的行数。 |
+| rowNumber | Int32 | 填充数组公式结果的行数。 |
 | columnNumber | Int32 | 要填充数组公式结果的列数。 |
 | options | FormulaParseOptions | 用于解析公式的选项。 |
-| values | Object[][] | 具有给定数组公式的单元格的值 |
+| values | Object[][] | 具有给定数组公式的那些单元格的值 |
 
 ### 也可以看看
 
@@ -59,7 +59,7 @@ public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber
 
 ## SetArrayFormula(string, int, int) {#setarrayformula}
 
-将数组公式（在 ms excel 中通过 CTRL+SHIFT+ENTER 输入的旧数组公式）设置为单元格区域。
+将数组公式（在 ms excel 中通过 CTRL+SHIFT+ENTER 输入的旧数组公式）设置为一系列单元格。
 
 ```csharp
 public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber)
@@ -68,7 +68,7 @@ public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arrayFormula | String | 数组公式。 |
-| rowNumber | Int32 | 要填充数组公式结果的行数。 |
+| rowNumber | Int32 | 填充数组公式结果的行数。 |
 | columnNumber | Int32 | 要填充数组公式结果的列数。 |
 
 ### 也可以看看

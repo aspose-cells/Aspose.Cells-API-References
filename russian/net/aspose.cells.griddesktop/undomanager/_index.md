@@ -18,10 +18,10 @@ public class UndoManager
 
 | Имя | Описание |
 | --- | --- |
-| [Enabled](../../aspose.cells.griddesktop/undomanager/enabled) { get; set; } | Получает или задает значение, указывающее, включена ли функция отмены. Значение по умолчанию неверно. |
+| [Enabled](../../aspose.cells.griddesktop/undomanager/enabled) { get; set; } | Получает или задает значение, указывающее, включена ли функция отмены. Значение по умолчанию — false. |
 | [RedoStepsCount](../../aspose.cells.griddesktop/undomanager/redostepscount) { get; } | Получает текущее количество доступных повторных шагов. |
-| [UndoStackSize](../../aspose.cells.griddesktop/undomanager/undostacksize) { get; set; } | Получает или задает размер стека отмены/возврата. Значение по умолчанию — 300. |
-| [UndoStepsCount](../../aspose.cells.griddesktop/undomanager/undostepscount) { get; } | Получает текущее количество доступных шагов отмены. |
+| [UndoStackSize](../../aspose.cells.griddesktop/undomanager/undostacksize) { get; set; } | Получает или задает размер стека отмены/возврата. Значение по умолчанию: 300. . |
+| [UndoStepsCount](../../aspose.cells.griddesktop/undomanager/undostepscount) { get; } | Получает текущее доступное количество шагов отмены. |
 
 ## Методы
 
@@ -30,12 +30,12 @@ public class UndoManager
 | [BeginChanges](../../aspose.cells.griddesktop/undomanager/beginchanges)() | Начинает записывать изменения. |
 | [BeginMark](../../aspose.cells.griddesktop/undomanager/beginmark)() | Начинает отмечать изменения. |
 | [ClearStack](../../aspose.cells.griddesktop/undomanager/clearstack)() | Очищает стеки Undo и Redo. |
-| [EndChanges](../../aspose.cells.griddesktop/undomanager/endchanges)() | Заканчивается записью изменений. |
+| [EndChanges](../../aspose.cells.griddesktop/undomanager/endchanges)() | Заканчивается для записи изменений. |
 | [EndMark](../../aspose.cells.griddesktop/undomanager/endmark)() | Заканчивается, чтобы отметить изменения. |
 | [Redo](../../aspose.cells.griddesktop/undomanager/redo)() | Выполняет операцию повтора. |
-| [RedoMark](../../aspose.cells.griddesktop/undomanager/redomark)() | Выполняет операцию повтора с пометкой. |
+| [RedoMark](../../aspose.cells.griddesktop/undomanager/redomark)() | Выполняет операцию повтора с меткой. |
 | [Undo](../../aspose.cells.griddesktop/undomanager/undo)() | Выполняет операцию отмены. |
-| [UndoMark](../../aspose.cells.griddesktop/undomanager/undomark)() | Выполняет операцию отмены с пометкой. |
+| [UndoMark](../../aspose.cells.griddesktop/undomanager/undomark)() | Выполняет операцию отмены с меткой. |
 
 ### Смотрите также
 

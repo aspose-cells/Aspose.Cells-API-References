@@ -16,11 +16,11 @@ public XmlMap this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引。 |
+| index | 指数。 |
 
 ### 返回值
 
-xml 映射
+xml映射
 
 ### 也可以看看
 

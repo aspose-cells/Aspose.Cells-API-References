@@ -22,7 +22,7 @@ public class PivotItem
 | [IsHidden](../../aspose.cells.pivot/pivotitem/ishidden) { get; set; } | Получает и устанавливает, скрыт ли элемент сводки. |
 | [IsHideDetail](../../aspose.cells.pivot/pivotitem/ishidedetail) { get; set; } | Получает и устанавливает, скрывает ли элемент сводки детали. |
 | [Name](../../aspose.cells.pivot/pivotitem/name) { get; } | Получает имя элемента сводки. |
-| [Position](../../aspose.cells.pivot/pivotitem/position) { set; } | Указание индекса позиции во всех PivotItems, а не PivotItems под одним и тем же родительским узлом. |
+| [Position](../../aspose.cells.pivot/pivotitem/position) { set; } | Указание индекса позиции во всех элементах PivotItem, а не в элементах PivotItem под одним и тем же родительским узлом. |
 | [PositionInSameParentNode](../../aspose.cells.pivot/pivotitem/positioninsameparentnode) { set; } | Указание индекса позиции в PivotItems под тем же родительским узлом. |
 | [Value](../../aspose.cells.pivot/pivotitem/value) { get; } | Получает значение элемента сводки |
 
@@ -30,9 +30,9 @@ public class PivotItem
 
 | Имя | Описание |
 | --- | --- |
-| [GetDateTimeValue](../../aspose.cells.pivot/pivotitem/getdatetimevalue)() | Получает значение даты и времени элемента сводки Если значение равно null, возвращается DateTime.MinValue |
-| [GetDoubleValue](../../aspose.cells.pivot/pivotitem/getdoublevalue)() | Получает двойное значение элемента сводки Если значение равно null или не является числом, возвращается 0 |
-| [GetStringValue](../../aspose.cells.pivot/pivotitem/getstringvalue)() | Получает строковое значение элемента сводки Если значение равно null, возвращается "" |
+| [GetDateTimeValue](../../aspose.cells.pivot/pivotitem/getdatetimevalue)() | Получает значение даты и времени сводного элемента Если значение равно null, возвращается DateTime.MinValue |
+| [GetDoubleValue](../../aspose.cells.pivot/pivotitem/getdoublevalue)() | Получает двойное значение сводного элемента Если значение равно null или не является числом, возвращается 0 |
+| [GetStringValue](../../aspose.cells.pivot/pivotitem/getstringvalue)() | Получает строковое значение сводного элемента Если значение равно null, возвращается "" |
 | [Move](../../aspose.cells.pivot/pivotitem/move)(int, bool) | Перемещает элемент вверх или вниз |
 
 ### Смотрите также

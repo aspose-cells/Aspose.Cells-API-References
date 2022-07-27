@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Cells for .NET API 参考
-description: 获取枚举数
+description: 获取一个枚举器
 type: docs
 weight: 110
 url: /zh/net/aspose.cells.gridweb/bindcolumncollection/getenumerator/
 ---
 ## BindColumnCollection.GetEnumerator method
 
-获取枚举数。
+获取一个枚举器。
 
 ```csharp
 public IEnumerator GetEnumerator()

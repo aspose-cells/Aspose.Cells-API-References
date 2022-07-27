@@ -3,7 +3,7 @@ title: InsertColumn
 second_title: Справочник по Aspose.Cells для .NET API
 description: Вставляет новый столбец в рабочий лист.
 type: docs
-weight: 1060
+weight: 1070
 url: /ru/net/aspose.cells/cells/insertcolumn/
 ---
 ## InsertColumn(int, bool) {#insertcolumn_1}
@@ -17,7 +17,7 @@ public void InsertColumn(int columnIndex, bool updateReference)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | columnIndex | Int32 | Индекс столбца. |
-| updateReference | Boolean | Указывает, будут ли обновляться ссылки в других рабочих листах. |
+| updateReference | Boolean | Указывает, будут ли обновлены ссылки на других рабочих листах. |
 
 ### Смотрите также
 

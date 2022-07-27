@@ -1,14 +1,14 @@
 ---
 title: IsArrayHeader
 second_title: Aspose.Cells for .NET API 参考
-description: 表示单元格的公式是和数组公式 并且它是数组的第一个单元格
+description: 表示单元格的公式是数组公式 它是数组的第一个单元格
 type: docs
 weight: 140
 url: /zh/net/aspose.cells/cell/isarrayheader/
 ---
 ## Cell.IsArrayHeader property
 
-表示单元格的公式是和数组公式 并且它是数组的第一个单元格。
+表示单元格的公式是数组公式 ，它是数组的第一个单元格。
 
 ```csharp
 public bool IsArrayHeader { get; }

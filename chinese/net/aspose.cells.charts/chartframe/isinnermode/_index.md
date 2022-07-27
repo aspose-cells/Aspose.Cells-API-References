@@ -1,14 +1,14 @@
 ---
 title: IsInnerMode
 second_title: Aspose.Cells for .NET API 参考
-description: 指示绘图区域大小的大小是否包括刻度线和轴标签 False 指定大小应确定绘图区域刻度线和轴标签的大小
+description: 表示绘图区域大小的大小是否包含刻度线和轴标签 False 指定大小应确定绘图区域的大小刻度线和轴标签
 type: docs
 weight: 130
 url: /zh/net/aspose.cells.charts/chartframe/isinnermode/
 ---
 ## ChartFrame.IsInnerMode property
 
-指示绘图区域大小的大小是否包括刻度线和轴标签。 False 指定大小应确定绘图区域、刻度线和轴标签的大小。
+表示绘图区域大小的大小是否包含刻度线和轴标签。 False 指定大小应确定绘图区域的大小、刻度线和轴标签。
 
 ```csharp
 public bool IsInnerMode { get; set; }

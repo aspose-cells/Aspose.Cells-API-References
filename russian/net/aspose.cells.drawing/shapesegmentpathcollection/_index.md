@@ -26,7 +26,7 @@ public class ShapeSegmentPathCollection : CollectionBase<ShapeSegmentPath>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.drawing/shapesegmentpathcollection/item) { get; } | Получает объект[`ShapeSegmentPath`](../shapesegmentpath). |
+| [Item](../../aspose.cells.drawing/shapesegmentpathcollection/item) { get; } | получает[`ShapeSegmentPath`](../shapesegmentpath) объект. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы

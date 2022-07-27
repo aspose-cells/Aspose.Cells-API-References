@@ -1,14 +1,14 @@
 ---
 title: CalculateOnSave
 second_title: Aspose.Cells for .NET API 参考
-description: 手动计算模式下是否在保存文档前重新计算工作簿
+description: 在手动计算模式下是否在保存文档前重新计算工作簿
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/formulasettings/calculateonsave/
 ---
 ## FormulaSettings.CalculateOnSave property
 
-手动计算模式下，是否在保存文档前重新计算工作簿。
+在手动计算模式下，是否在保存文档前重新计算工作簿。
 
 ```csharp
 public bool CalculateOnSave { get; set; }
@@ -16,7 +16,7 @@ public bool CalculateOnSave { get; set; }
 
 ### 评论
 
-此属性仅用于将设置保存到生成的电子表格文件 所以其他应用程序（例如 ms excel）在加载和操作生成的文件时可能会采取相应的行动。 出于对大多数用户应用程序的性能考虑，我们不会自动计算工作簿中的任何公式， 无论为此属性设置了什么值。
+此属性仅用于将设置保存到生成的电子表格文件 以便其他应用程序（例如 ms excel）在加载和操作生成的文件时可能会采取相应的行动。 出于大多数用户应用程序的性能考虑，我们不计算任何公式自动在工作簿中， 无论为此属性设置了什么值。
 
 ### 也可以看看
 

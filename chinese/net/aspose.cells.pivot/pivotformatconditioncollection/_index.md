@@ -27,7 +27,7 @@ public class PivotFormatConditionCollection : CollectionBase<PivotFormatConditio
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells.pivot/pivotformatconditioncollection/add)() | 向集合添加一个枢轴 FormatCondition。 |
+| [Add](../../aspose.cells.pivot/pivotformatconditioncollection/add)() | 向集合中添加一个枢轴 FormatCondition。 |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(PivotFormatCondition) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(PivotFormatCondition, IComparer&lt;PivotFormatCondition&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, PivotFormatCondition, IComparer&lt;PivotFormatCondition&gt;) |  |

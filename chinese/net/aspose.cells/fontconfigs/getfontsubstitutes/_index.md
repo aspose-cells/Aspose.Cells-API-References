@@ -16,11 +16,11 @@ public static string[] GetFontSubstitutes(string originalFontName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| originalFontName | String | originalFontName |
+| originalFontName | String | 原始字体名称 |
 
 ### 返回值
 
-一个包含要替换的字体名称的数组如果没有显示原始字体，则使用。
+如果未显示原始字体，则包含要使用的字体替换名称的数组。
 
 ### 也可以看看
 

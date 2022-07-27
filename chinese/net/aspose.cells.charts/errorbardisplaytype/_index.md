@@ -1,14 +1,14 @@
 ---
 title: ErrorBarDisplayType
 second_title: Aspose.Cells for .NET API 参考
-description: 代表错误栏显示类型
+description: 表示误差条显示类型
 type: docs
 weight: 640
 url: /zh/net/aspose.cells.charts/errorbardisplaytype/
 ---
 ## ErrorBarDisplayType enumeration
 
-代表错误栏显示类型。
+表示误差条显示类型。
 
 ```csharp
 public enum ErrorBarDisplayType

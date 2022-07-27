@@ -1,14 +1,14 @@
 ---
 title: GetLegendIncreaseName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает имя увеличения для Легенды.
+description: Получает имя увеличения для Legend.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.charts/chartglobalizationsettings/getlegendincreasename/
 ---
 ## ChartGlobalizationSettings.GetLegendIncreaseName method
 
-Получает имя увеличения для Легенды.
+Получает имя увеличения для Legend.
 
 ```csharp
 public virtual string GetLegendIncreaseName()

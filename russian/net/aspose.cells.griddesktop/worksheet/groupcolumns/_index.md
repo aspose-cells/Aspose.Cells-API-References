@@ -19,7 +19,7 @@ public void GroupColumns(int firstColumn, int lastColumn, bool isHidden, bool ad
 | firstColumn | Int32 | Индекс первого столбца для группировки. |
 | lastColumn | Int32 | Индекс последнего столбца для группировки. |
 | isHidden | Boolean | Указывает, скрыты ли сгруппированные столбцы |
-| addToUndo | Boolean | Указывает, будет ли добавлена эта операция в менеджер отмены. И для свойства EnableUndo GridDesktop должно быть установлено значение true. |
+| addToUndo | Boolean | Указывает, будет ли эта операция добавлена в диспетчер отмены. И для свойства EnableUndo GridDesktop должно быть установлено значение true. |
 
 ### Смотрите также
 
@@ -41,7 +41,7 @@ public void GroupColumns(int firstColumn, int lastColumn, int outlineLevel, bool
 | --- | --- | --- |
 | firstColumn | Int32 | Индекс первого столбца для группировки. |
 | lastColumn | Int32 | Индекс последнего столбца для группировки. |
-| outlineLevel | Int32 | layoutLevel |
+| outlineLevel | Int32 | уровень |
 | isHidden | Boolean | Указывает, скрыты ли сгруппированные столбцы |
 
 ### Смотрите также

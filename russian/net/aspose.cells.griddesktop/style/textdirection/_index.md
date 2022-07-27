@@ -1,14 +1,14 @@
 ---
 title: TextDirection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или устанавливает атрибут направления текста.
+description: Получает или задает атрибут направления текста.
 type: docs
 weight: 140
 url: /ru/net/aspose.cells.griddesktop/style/textdirection/
 ---
 ## Style.TextDirection property
 
-Получает или устанавливает атрибут направления текста.
+Получает или задает атрибут направления текста.
 
 ```csharp
 public TextDirectionType TextDirection { get; set; }

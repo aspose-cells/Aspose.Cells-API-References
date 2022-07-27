@@ -16,7 +16,7 @@ public void Copy(Cell cell)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cell | Cell | 源[`Cell`](../../cell)对象。 |
+| cell | Cell | 资源[`Cell`](../../cell)目的。 |
 
 ### 也可以看看
 

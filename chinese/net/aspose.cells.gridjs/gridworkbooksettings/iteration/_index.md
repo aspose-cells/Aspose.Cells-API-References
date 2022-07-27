@@ -1,14 +1,14 @@
 ---
 title: Iteration
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否使用迭代来解析循环引用
+description: 表示是否使用迭代来解决循环引用
 type: docs
 weight: 80
 url: /zh/net/aspose.cells.gridjs/gridworkbooksettings/iteration/
 ---
 ## GridWorkbookSettings.Iteration property
 
-表示是否使用迭代来解析循环引用。
+表示是否使用迭代来解决循环引用。
 
 ```csharp
 public bool Iteration { get; set; }

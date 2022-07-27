@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 将 ListObject 添加到工作表
+description: 将 ListObject 添加到工作表中
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.tables/listobjectcollection/add/
 ---
 ## Add(int, int, int, int, bool) {#add}
 
-将 ListObject 添加到工作表。
+将 ListObject 添加到工作表中。
 
 ```csharp
 public int Add(int startRow, int startColumn, int endRow, int endColumn, bool hasHeaders)
@@ -36,7 +36,7 @@ public int Add(int startRow, int startColumn, int endRow, int endColumn, bool ha
 
 ## Add(string, string, bool) {#add_1}
 
-将 ListObject 添加到工作表。
+将 ListObject 添加到工作表中。
 
 ```csharp
 public int Add(string startCell, string endCell, bool hasHeaders)

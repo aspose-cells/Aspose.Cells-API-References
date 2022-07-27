@@ -1,14 +1,14 @@
 ---
 title: ShowEmptyCol
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает логическое значение указывающее следует ли включать пустые столбцы в таблицу
+description: Указывает логическое значение указывающее следует ли включать пустые столбцы в таблицу
 type: docs
 weight: 600
 url: /ru/net/aspose.cells.pivot/pivottable/showemptycol/
 ---
 ## PivotTable.ShowEmptyCol property
 
-Задает логическое значение, указывающее, следует ли включать пустые столбцы в таблицу
+Указывает логическое значение, указывающее, следует ли включать пустые столбцы в таблицу
 
 ```csharp
 public bool ShowEmptyCol { get; set; }

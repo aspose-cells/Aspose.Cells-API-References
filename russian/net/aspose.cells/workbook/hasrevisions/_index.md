@@ -1,14 +1,14 @@
 ---
 title: HasRevisions
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает есть ли в книге какие-либо отслеживаемые изменения
+description: Получает есть ли в книге отслеживаемые изменения
 type: docs
 weight: 170
 url: /ru/net/aspose.cells/workbook/hasrevisions/
 ---
 ## Workbook.HasRevisions property
 
-Получает, есть ли в книге какие-либо отслеживаемые изменения
+Получает, есть ли в книге отслеживаемые изменения
 
 ```csharp
 public bool HasRevisions { get; }

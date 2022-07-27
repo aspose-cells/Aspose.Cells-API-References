@@ -16,7 +16,7 @@ public void ProtectSharedWorkbook(string password)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| password | String | 保护工作簿的密码。 |
+| password | String | 用于保护工作簿的密码。 |
 
 ### 也可以看看
 

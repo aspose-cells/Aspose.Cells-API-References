@@ -37,51 +37,51 @@ public class Column
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 
-//Получение ссылки на первый worksheet
+//Получение ссылки на первый рабочий лист
 Worksheet worksheet = workbook.Worksheets[0];
 Style style = workbook.CreateStyle();
 
-  //Установка цвета фона на Blue
+//Установка цвета фона на синий
 style.BackgroundColor = Color.Blue;
 
-  //Установка цвета переднего плана на Red
+//Установка цвета переднего плана на красный
 style.ForegroundColor= Color.Red;
 
-  //установка фонового рисунка
+//установка фонового рисунка
 style.Pattern = BackgroundType.DiagonalStripe;
 
-  //Флаг нового стиля
+//Флаг нового стиля
 StyleFlag styleFlag = new StyleFlag();
 
-  //Установить все стили
+//Установить все стили
 styleFlag.All = true;
 
-  //Получить первую Column
+//Получить первый столбец
 Column column = worksheet.Cells.Columns[0];
 
-  //Применяем стиль к первому столбцу Column
+//Применяем стиль к первому столбцу
 column.ApplyStyle(style, styleFlag);
 
-  //Сохранение файла Excel
+//Сохранение файла Excel
 workbook.Save("book1.xls");
 
 [VB.NET]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
 
-'Получение ссылки на первый worksheet
+'Получение ссылки на первый рабочий лист
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
 Dim style As Style = workbook.CreateStyle()
 
-'Установка цвета фона на Blue
+'Установка цвета фона на синий
 style.BackgroundColor = Color.Blue
 
-'Установка цвета переднего плана на Red
+'Установка цвета переднего плана на красный
 style.ForegroundColor = Color.Red
 
 'настройка фонового рисунка

@@ -24,7 +24,7 @@ public HtmlSaveOptions()
 
 ## HtmlSaveOptions(SaveFormat) {#constructor_1}
 
-创建用于保存 htm 文件的选项。
+创建保存 htm 文件的选项。
 
 ```csharp
 public HtmlSaveOptions(SaveFormat format)

@@ -16,7 +16,7 @@ public bool SetBorder(BorderType borderEdge, CellBorderType borderStyle, Color b
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| borderEdge | BorderType | 边框类型。 |
+| borderEdge | BorderType | 边框的类型。 |
 | borderStyle | CellBorderType | 边框的样式。 |
 | borderColor | Color | 边框的颜色。 |
 

@@ -1,14 +1,14 @@
 ---
 title: TakeFocusOnClick
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает принимает ли элемент управления фокус при нажатии.
+description: Указывает получает ли элемент управления фокус при нажатии.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.drawing.activexcontrols/commandbuttonactivexcontrol/takefocusonclick/
 ---
 ## CommandButtonActiveXControl.TakeFocusOnClick property
 
-Указывает, принимает ли элемент управления фокус при нажатии.
+Указывает, получает ли элемент управления фокус при нажатии.
 
 ```csharp
 public bool TakeFocusOnClick { get; set; }

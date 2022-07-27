@@ -1,14 +1,14 @@
 ---
 title: OldText
 second_title: Aspose.Cells for .NET API 参考
-description: 获取评论的旧文本数据
+description: 获取comment 的旧文本数据
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.griddesktop/commenteventargs/oldtext/
 ---
 ## CommentEventArgs.OldText property
 
-获取评论的旧文本数据
+获取comment 的旧文本数据
 
 ```csharp
 public string OldText { get; }

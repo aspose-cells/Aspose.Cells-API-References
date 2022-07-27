@@ -1,14 +1,14 @@
 ---
 title: Separator
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置 sql 脚本的字符分隔符
+description: 获取和设置sql脚本的字符分隔符
 type: docs
 weight: 130
 url: /zh/net/aspose.cells.saving/sqlscriptsaveoptions/separator/
 ---
 ## SqlScriptSaveOptions.Separator property
 
-获取和设置 sql 脚本的字符分隔符。
+获取和设置sql脚本的字符分隔符。
 
 ```csharp
 public char Separator { get; set; }

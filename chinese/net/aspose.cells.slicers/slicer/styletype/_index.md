@@ -1,14 +1,14 @@
 ---
 title: StyleType
 second_title: Aspose.Cells for .NET API 参考
-description: 指定内置切片器样式的类型 默认类型为 SlicerStyleLight1
+description: 指定内置切片器样式的类型 默认类型为SlicerStyleLight1
 type: docs
 weight: 200
 url: /zh/net/aspose.cells.slicers/slicer/styletype/
 ---
 ## Slicer.StyleType property
 
-指定内置切片器样式的类型 默认类型为 SlicerStyleLight1
+指定内置切片器样式的类型 默认类型为SlicerStyleLight1
 
 ```csharp
 public SlicerStyleType StyleType { get; set; }

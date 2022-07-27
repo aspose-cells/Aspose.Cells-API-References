@@ -1,14 +1,14 @@
 ---
 title: HtmlCrossStringType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示在将 Excel 文件保存为 html 格式时是否以与 MS Excel 相同的方式显示跨单元格字符串 默认值为Default因此对于跨单元格字符串Aspose.Cells 和MS Excel 创建的html 文件几乎没有区别 但是创建大型 html 文件的性能将值设置为 Cross 将比将其设置为 Default 或 Fit2Cell 快几倍
+description: 表示在将Excel文件保存为html格式时是否会像MS Excel一样显示跨单元字符串 默认值为Default所以对于跨单元字符串html和MS Excel没有什么区别由 Aspose.Cells 和 MS Excel 创建的文件 但是创建大型 html 文件的性能将值设置为 Cross 将比将其设置为 Default 或 Fit2Cell. 快几倍
 type: docs
-weight: 320
+weight: 340
 url: /zh/net/aspose.cells/htmlsaveoptions/htmlcrossstringtype/
 ---
 ## HtmlSaveOptions.HtmlCrossStringType property
 
-表示在将 Excel 文件保存为 html 格式时，是否以与 MS Excel 相同的方式显示跨单元格字符串。 默认值为Default，因此，对于跨单元格字符串，Aspose.Cells 和MS Excel 创建的html 文件几乎没有区别。 但是创建大型 html 文件的性能，将值设置为 Cross 将比将其设置为 Default 或 Fit2Cell 快几倍。
+表示在将Excel文件保存为html格式时，是否会像MS Excel一样显示跨单元字符串。 默认值为Default，所以对于跨单元字符串，html和MS Excel没有什么区别由 Aspose.Cells 和 MS Excel 创建的文件。 但是创建大型 html 文件的性能，将值设置为 Cross 将比将其设置为 Default 或 Fit2Cell. 快几倍
 
 ```csharp
 public HtmlCrossType HtmlCrossStringType { get; set; }

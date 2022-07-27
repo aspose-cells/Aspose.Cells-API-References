@@ -20,7 +20,7 @@ public int NextRow()
 
 ### 评论
 
-它将在保存一行及其单元格数据的开头被调用（在[`StartRow`](../startrow))。
+将在保存一行及其单元格数据开始时调用（之前[`StartRow`](../startrow)).
 
 ### 也可以看看
 

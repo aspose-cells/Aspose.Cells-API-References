@@ -16,7 +16,7 @@ public bool Shared { get; set; }
 
 ### 评论
 
-默认值为 false。
+默认值为假。
 
 ### 也可以看看
 

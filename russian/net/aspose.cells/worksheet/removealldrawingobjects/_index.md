@@ -1,14 +1,14 @@
 ---
 title: RemoveAllDrawingObjects
 second_title: Справочник по Aspose.Cells для .NET API
-description: Удаляет все объекты чертежа на этом рабочем листе.
+description: Удаляет все объекты чертежа на этом листе.
 type: docs
 weight: 790
 url: /ru/net/aspose.cells/worksheet/removealldrawingobjects/
 ---
 ## Worksheet.RemoveAllDrawingObjects method
 
-Удаляет все объекты чертежа на этом рабочем листе.
+Удаляет все объекты чертежа на этом листе.
 
 ```csharp
 public void RemoveAllDrawingObjects()

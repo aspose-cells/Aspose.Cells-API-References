@@ -1,14 +1,14 @@
 ---
 title: GradientStops
 second_title: Aspose.Cells for .NET API 参考
-description: 表示渐变色标集合
+description: 代表梯度停止集合
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.drawing/gradientfill/gradientstops/
 ---
 ## GradientFill.GradientStops property
 
-表示渐变色标集合。
+代表梯度停止集合。
 
 ```csharp
 public GradientStopCollection GradientStops { get; }

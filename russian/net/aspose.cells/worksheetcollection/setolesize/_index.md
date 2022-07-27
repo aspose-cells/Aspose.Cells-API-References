@@ -1,14 +1,14 @@
 ---
 title: SetOleSize
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает отображаемый размер когда файл рабочей книги используется как объект Ole.
+description: Устанавливает отображаемый размер когда файл рабочей книги используется в качестве объекта Ole.
 type: docs
 weight: 310
 url: /ru/net/aspose.cells/worksheetcollection/setolesize/
 ---
 ## WorksheetCollection.SetOleSize method
 
-Устанавливает отображаемый размер, когда файл рабочей книги используется как объект Ole.
+Устанавливает отображаемый размер, когда файл рабочей книги используется в качестве объекта Ole.
 
 ```csharp
 public void SetOleSize(int startRow, int endRow, int startColumn, int endColumn)
@@ -18,7 +18,7 @@ public void SetOleSize(int startRow, int endRow, int startColumn, int endColumn)
 | --- | --- | --- |
 | startRow | Int32 | Индекс начальной строки. |
 | endRow | Int32 | Индекс конечной строки. |
-| startColumn | Int32 | Индекс начального столбца. |
+| startColumn | Int32 | Начальный индекс столбца. |
 | endColumn | Int32 | Конечный индекс столбца. |
 
 ### Примечания

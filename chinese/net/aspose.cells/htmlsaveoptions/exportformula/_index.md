@@ -1,14 +1,14 @@
 ---
 title: ExportFormula
 second_title: Aspose.Cells for .NET API 参考
-description: 表示将文件保存为html时是否导出公式默认值是true 如果要将输出的html导入excel请保持默认值
+description: 表示将文件保存为html时是否导出公式默认值为true 如果要将输出的html导入excel请保持默认值
 type: docs
 weight: 170
 url: /zh/net/aspose.cells/htmlsaveoptions/exportformula/
 ---
 ## HtmlSaveOptions.ExportFormula property
 
-表示将文件保存为html时是否导出公式。默认值是true。 如果要将输出的html导入excel，请保持默认值。
+表示将文件保存为html时是否导出公式。默认值为true。 如果要将输出的html导入excel，请保持默认值。
 
 ```csharp
 public bool ExportFormula { get; set; }

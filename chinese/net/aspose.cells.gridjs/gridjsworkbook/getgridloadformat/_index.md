@@ -1,14 +1,14 @@
 ---
 title: GetGridLoadFormat
 second_title: Aspose.Cells for .NET API 参考
-description: 通过文件扩展名获取 GridLoadFormat
+description: 通过文件扩展名获取GridLoadFormat
 type: docs
 weight: 230
 url: /zh/net/aspose.cells.gridjs/gridjsworkbook/getgridloadformat/
 ---
 ## GridJsWorkbook.GetGridLoadFormat method
 
-通过文件扩展名获取 GridLoadFormat
+通过文件扩展名获取GridLoadFormat
 
 ```csharp
 public static GridLoadFormat GetGridLoadFormat(string extension)
@@ -16,7 +16,7 @@ public static GridLoadFormat GetGridLoadFormat(string extension)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| extension | String | 文件扩展名，以. |
+| extension | String | 文件扩展名，以 . |
 
 ### 也可以看看
 

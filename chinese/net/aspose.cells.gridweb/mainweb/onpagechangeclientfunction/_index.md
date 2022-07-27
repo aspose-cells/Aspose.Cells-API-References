@@ -1,14 +1,14 @@
 ---
 title: OnPageChangeClientFunction
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置页面索引改变后调用的客户端函数仅在EnablePaging为true时生效 客户端函数应该这样声明ltbr /gt function MyOnPageChangeindexltbr /gt ltbr /gt console.logcurrent page isindexltbr /gt ltbr /gtltbr /gt注意你可以在客户端函数指向触发事件的网格控件
+description: 获取或设置页面索引改变后调用的客户端函数仅在EnablePaging为true时生效 客户端函数声明如下 函数 MyOnPageChangeindex  console.log当前页面是index 注意您可以在客户端函数中使用this指针来指向触发事件的网格控件
 type: docs
 weight: 670
 url: /zh/net/aspose.cells.gridweb/mainweb/onpagechangeclientfunction/
 ---
 ## MainWeb.OnPageChangeClientFunction property
 
-获取或设置页面索引改变后调用的客户端函数。仅在EnablePaging为true时生效。 客户端函数应该这样声明:&lt;br /&gt; function MyOnPageChange(index)&lt;br /&gt; {&lt;br /&gt; console.log("current page is:"+index);&lt;br /&gt; }&lt;br /&gt;&lt;br /&gt;注意:你可以在客户端函数指向触发事件的网格控件。
+获取或设置页面索引改变后调用的客户端函数。仅在EnablePaging为true时生效。 客户端函数声明如下： 函数 MyOnPageChange(index) { console.log("当前页面是："+index); }注意：您可以在客户端函数中使用“this”指针来指向触发事件的网格控件。
 
 ```csharp
 public string OnPageChangeClientFunction { get; set; }

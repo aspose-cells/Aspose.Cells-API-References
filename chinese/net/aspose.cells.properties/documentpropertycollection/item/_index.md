@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 按属性名称返回DocumentPropertyaspose.cells.properties/documentproperty对象
+description: 返回一个DocumentPropertyaspose.cells.properties/documentproperty按属性名称的对象
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.properties/documentpropertycollection/item/
 ---
 ## DocumentPropertyCollection indexer (1 of 2)
 
-按属性名称返回[`DocumentProperty`](../../documentproperty)对象。
+返回一个[`DocumentProperty`](../../documentproperty)按属性名称的对象。
 
 ```csharp
 public virtual DocumentProperty this[string name] { get; }
@@ -33,7 +33,7 @@ public virtual DocumentProperty this[string name] { get; }
 
 ## DocumentPropertyCollection indexer (2 of 2)
 
-按索引返回[`DocumentProperty`](../../documentproperty)对象。
+返回一个[`DocumentProperty`](../../documentproperty)按索引的对象.
 
 ```csharp
 public DocumentProperty this[int index] { get; }
@@ -41,7 +41,7 @@ public DocumentProperty this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | [`DocumentProperty`](../../documentproperty)的从零开始的索引进行检索. |
+| index | 的从零开始的索引[`DocumentProperty`](../../documentproperty)检索。 |
 
 ### 也可以看看
 

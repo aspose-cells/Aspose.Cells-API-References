@@ -1,14 +1,14 @@
 ---
 title: SameImageDetecting
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает проверять имеет ли изображение тот же источник значение по умолчанию - true значение по умолчанию - true
+description: Устанавливает следует ли проверять имеет ли изображение тот же источник значение по умолчанию  true  значение по умолчанию  true
 type: docs
 weight: 140
 url: /ru/net/aspose.cells.gridjs/config/sameimagedetecting/
 ---
 ## Config.SameImageDetecting property
 
-Устанавливает, проверять, имеет ли изображение тот же источник, значение по умолчанию - true значение по умолчанию - true
+Устанавливает, следует ли проверять, имеет ли изображение тот же источник, значение по умолчанию — true , значение по умолчанию — true
 
 ```csharp
 public static bool SameImageDetecting { get; set; }

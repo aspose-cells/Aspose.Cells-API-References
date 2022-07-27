@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает объектDocumentPropertyaspose.cells.properties/documentpropertyпо имени свойства.
+description: ВозвращаетDocumentPropertyaspose.cells.properties/documentproperty объект по имени свойства.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.properties/documentpropertycollection/item/
 ---
 ## DocumentPropertyCollection indexer (1 of 2)
 
-Возвращает объект[`DocumentProperty`](../../documentproperty)по имени свойства.
+Возвращает[`DocumentProperty`](../../documentproperty) объект по имени свойства.
 
 ```csharp
 public virtual DocumentProperty this[string name] { get; }
@@ -20,7 +20,7 @@ public virtual DocumentProperty this[string name] { get; }
 
 ### Примечания
 
-Возвращает ноль, если свойство с указанным именем не найдено.
+Возвращает null, если свойство с указанным именем не найдено.
 
 ### Смотрите также
 
@@ -33,7 +33,7 @@ public virtual DocumentProperty this[string name] { get; }
 
 ## DocumentPropertyCollection indexer (2 of 2)
 
-Возвращает объект[`DocumentProperty`](../../documentproperty)по индексу.
+Возвращает[`DocumentProperty`](../../documentproperty)объект по индексу.
 
 ```csharp
 public DocumentProperty this[int index] { get; }
@@ -41,7 +41,7 @@ public DocumentProperty this[int index] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | Отсчитываемый от нуля индекс[`DocumentProperty`](../../documentproperty)для получения . |
+| index | Отсчитываемый от нуля индекс[`DocumentProperty`](../../documentproperty) получить. |
 
 ### Смотрите также
 

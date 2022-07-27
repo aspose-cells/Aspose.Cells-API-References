@@ -1,14 +1,14 @@
 ---
 title: StartAccessCache
 second_title: Справочник по Aspose.Cells для .NET API
-description: Запускает сеанс который использует кэши для доступа к данным на этом листе.
+description: Запускает сеанс использующий кэши для доступа к данным на этом листе.
 type: docs
 weight: 860
 url: /ru/net/aspose.cells/worksheet/startaccesscache/
 ---
 ## Worksheet.StartAccessCache method
 
-Запускает сеанс, который использует кэши для доступа к данным на этом листе.
+Запускает сеанс, использующий кэши для доступа к данным на этом листе.
 
 ```csharp
 public void StartAccessCache(AccessCacheOptions opts)
@@ -16,11 +16,11 @@ public void StartAccessCache(AccessCacheOptions opts)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| opts | AccessCacheOptions | опции доступа к данным |
+| opts | AccessCacheOptions | варианты доступа к данным |
 
 ### Примечания
 
-После завершения доступа к данным[`CloseAccessCache`](../closeaccesscache)следует вызывать с теми же параметрами, чтобы очистить все кеши и восстановить нормальный режим доступа.
+После завершения доступа к данным,[`CloseAccessCache`](../closeaccesscache) следует вызывать с теми же параметрами, чтобы очистить все кеши и восстановить нормальный режим доступа.
 
 ### Смотрите также
 

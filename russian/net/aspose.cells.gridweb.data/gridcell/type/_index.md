@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Справочник по Aspose.Cells для .NET API
-description: вернуть тип значения ячейки смысл можно увидеть GridCellValueType.java
+description: возвращает тип значения ячейки значение можно увидеть GridCellValueType.java
 type: docs
 weight: 150
 url: /ru/net/aspose.cells.gridweb.data/gridcell/type/
 ---
 ## GridCell.Type property
 
-вернуть тип значения ячейки, смысл можно увидеть GridCellValueType.java
+возвращает тип значения ячейки, значение можно увидеть GridCellValueType.java
 
 ```csharp
 public int Type { get; }

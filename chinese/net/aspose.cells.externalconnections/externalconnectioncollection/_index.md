@@ -20,8 +20,8 @@ public class ExternalConnectionCollection : CollectionBase<ExternalConnection>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.externalconnections/externalconnectioncollection/item) { get; set; } | 获取指定索引处的[`ExternalConnection`](../externalconnection)元素。 (2 indexers) |
-| [Item](../../aspose.cells.externalconnections/externalconnectioncollection/item) { get; } | 获取具有指定名称的[`ExternalConnection`](../externalconnection)元素。 |
+| [Item](../../aspose.cells.externalconnections/externalconnectioncollection/item) { get; set; } | 获取[`ExternalConnection`](../externalconnection)指定索引处的元素。 (2 indexers) |
+| [Item](../../aspose.cells.externalconnections/externalconnectioncollection/item) { get; } | 获取[`ExternalConnection`](../externalconnection)具有指定名称的元素。 |
 
 ## 方法
 
@@ -46,7 +46,7 @@ public class ExternalConnectionCollection : CollectionBase<ExternalConnection>
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;ExternalConnection&gt;) |  |
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;ExternalConnection&gt;) |  |
 | [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [GetExternalConnectionById](../../aspose.cells.externalconnections/externalconnectioncollection/getexternalconnectionbyid)(int) | 获取具有指定 id 的[`ExternalConnection`](../externalconnection)元素。 |
+| [GetExternalConnectionById](../../aspose.cells.externalconnections/externalconnectioncollection/getexternalconnectionbyid)(int) | 获取[`ExternalConnection`](../externalconnection)具有指定 id. 的元素 |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(ExternalConnection) |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(ExternalConnection, int) |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(ExternalConnection, int, int) |  |
@@ -65,7 +65,7 @@ ExternalConnection dataConn = null;
 for (int i = 0; i < dataConns.Count; i++)
 {
     dataConn = dataConns[i];
-     //获取外部连接id
+    //获取外部连接id
     Console.WriteLine(dataConn.ConnectionId);
 }
 
@@ -77,7 +77,7 @@ Dim count As Integer = dataConns.Count - 1
 Dim i As Integer
 For i = 0 To count Step 1
     dataConn = dataConns(i)
-    '获取外部连接id
+    '获取外部连接ID
     Console.WriteLine(dataConn.ConnectionId)
 Next
 ```

@@ -1,14 +1,14 @@
 ---
 title: GradientColor2
 second_title: Aspose.Cells for .NET API 参考
-description: 返回指定填充的渐变色 2
+description: 返回指定填充的渐变颜色 2
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.drawing/fillformat/gradientcolor2/
 ---
 ## FillFormat.GradientColor2 property
 
-返回指定填充的渐变色 2。
+返回指定填充的渐变颜色 2。
 
 ```csharp
 public Color GradientColor2 { get; }

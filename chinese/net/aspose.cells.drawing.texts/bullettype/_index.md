@@ -18,10 +18,10 @@ public enum BulletType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 没有项目符号。 |
-| Character | `1` | 字符项目符号。 |
-| Picture | `2` | 图像项目符号。 |
-| AutoNumbered | `3` | 自动编号的项目符号。 |
+| None | `0` | 没有子弹。 |
+| Character | `1` | 字符子弹. |
+| Picture | `2` | 图像子弹。 |
+| AutoNumbered | `3` | 自动编号子弹。 |
 
 ### 也可以看看
 

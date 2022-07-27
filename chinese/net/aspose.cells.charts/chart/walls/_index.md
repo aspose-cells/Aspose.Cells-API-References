@@ -1,14 +1,14 @@
 ---
 title: Walls
 second_title: Aspose.Cells for .NET API 参考
-description: 返回一个Wallsaspose.cells.charts/chart/walls对象表示 3-D 图表的墙壁
+description: 返回一个Wallsaspose.cells.charts/chart/walls表示 3-D 图表墙壁的对象
 type: docs
 weight: 470
 url: /zh/net/aspose.cells.charts/chart/walls/
 ---
 ## Chart.Walls property
 
-返回一个`Walls`对象，表示 3-D 图表的墙壁。
+返回一个`Walls`表示 3-D 图表墙壁的对象。
 
 ```csharp
 public Walls Walls { get; }

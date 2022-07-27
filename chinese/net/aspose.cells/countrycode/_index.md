@@ -1,14 +1,14 @@
 ---
 title: CountryCode
 second_title: Aspose.Cells for .NET API 参考
-description: 表示 Excel 国家标识符
+description: 表示 Excel 国家/地区标识符
 type: docs
 weight: 1200
 url: /zh/net/aspose.cells/countrycode/
 ---
 ## CountryCode enumeration
 
-表示 Excel 国家标识符。
+表示 Excel 国家/地区标识符。
 
 ```csharp
 public enum CountryCode
@@ -59,7 +59,7 @@ public enum CountryCode
 | Czech | `420` | 捷克共和国 |
 | Taiwan | `886` | 台湾 |
 | Lebanon | `961` | 黎巴嫩 |
-| Jordan | `962` | 约旦 |
+| Jordan | `962` | 乔丹 |
 | Syria | `963` | 叙利亚 |
 | Iraq | `964` | 伊拉克 |
 | Kuwait | `965` | 科威特 |

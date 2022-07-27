@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells/cellarea/startcolumn/
 ---
 ## CellArea.StartColumn field
 
-获取或设置该区域的起始列。
+获取或设置该区域的起始列
 
 ```csharp
 public int StartColumn;

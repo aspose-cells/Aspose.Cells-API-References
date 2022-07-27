@@ -3,7 +3,7 @@ title: ExportHiddenWorksheet
 second_title: Aspose.Cells for .NET API 参考
 description: 表示是否导出隐藏的工作表内容默认值为true
 type: docs
-weight: 210
+weight: 200
 url: /zh/net/aspose.cells/htmlsaveoptions/exporthiddenworksheet/
 ---
 ## HtmlSaveOptions.ExportHiddenWorksheet property

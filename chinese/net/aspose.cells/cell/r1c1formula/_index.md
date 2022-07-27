@@ -1,14 +1,14 @@
 ---
 title: R1C1Formula
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置Cellaspose.cells/cell的 R1C1 公式
+description: 获取或设置 R1C1 公式Cellaspose.cells/cell.
 type: docs
 weight: 240
 url: /zh/net/aspose.cells/cell/r1c1formula/
 ---
 ## Cell.R1C1Formula property
 
-获取或设置[`Cell`](../../cell)的 R1C1 公式。
+获取或设置 R1C1 公式[`Cell`](../../cell).
 
 ```csharp
 public string R1C1Formula { get; set; }

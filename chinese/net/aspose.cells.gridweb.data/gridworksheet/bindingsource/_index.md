@@ -1,14 +1,14 @@
 ---
 title: BindingSource
 second_title: Aspose.Cells for .NET API 参考
-description: 运行时实际绑定的数据源对象当 DataSource 属性是 DataSetDataTable 或 DataView 对象时它是一个 DataView 对象
+description: 在运行时实际绑定的数据源对象当 DataSource 属性是 DataSetDataTable 或 DataView 对象时它是一个 DataView 对象
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.gridweb.data/gridworksheet/bindingsource/
 ---
 ## GridWorksheet.BindingSource property
 
-运行时实际绑定的数据源对象。当 DataSource 属性是 DataSet、DataTable 或 DataView 对象时，它是一个 DataView 对象。
+在运行时实际绑定的数据源对象。当 DataSource 属性是 DataSet、DataTable 或 DataView 对象时，它是一个 DataView 对象。
 
 ```csharp
 public IEnumerable BindingSource { get; }

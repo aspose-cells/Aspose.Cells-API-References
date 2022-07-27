@@ -24,7 +24,7 @@ public static string LoadFormatToExtension(LoadFormat loadFormat)
 
 ### Примечания
 
-Если невозможно преобразовать, возвращает ноль.
+Если его невозможно преобразовать, возвращает null.
 
 ### Смотрите также
 

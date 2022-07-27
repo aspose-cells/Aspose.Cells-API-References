@@ -1,14 +1,14 @@
 ---
 title: EnableAutoFilter
 second_title: Справочник по Aspose.Cells для .NET API
-description: Включает автоматическую фильтрацию. HeaderRow будет отображать раскрывающиеся кнопки позволяющие пользователю выбрать значение столбца для фильтрации.
+description: Включает автоматическую фильтрацию. В HeaderRow будут отображаться кнопки раскрывающегося списка позволяющие пользователю выбрать значение столбца для фильтрации.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.griddesktop/rowfiltersettings/enableautofilter/
 ---
 ## RowFilterSettings.EnableAutoFilter property
 
-Включает автоматическую фильтрацию. HeaderRow будет отображать раскрывающиеся кнопки, позволяющие пользователю выбрать значение столбца для фильтрации.
+Включает автоматическую фильтрацию. В HeaderRow будут отображаться кнопки раскрывающегося списка, позволяющие пользователю выбрать значение столбца для фильтрации.
 
 ```csharp
 public bool EnableAutoFilter { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: GridCalculationData
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет необходимые данные при вычислении одной функции такие как имя функции параметры и т. д.
+description: Представляет необходимые данные при расчете одной функции такие как имя функции параметры и т. д.
 type: docs
 weight: 140
 url: /ru/net/aspose.cells.gridweb.data/gridcalculationdata/
 ---
 ## GridCalculationData class
 
-Представляет необходимые данные при вычислении одной функции, такие как имя функции, параметры и т. д.
+Представляет необходимые данные при расчете одной функции, такие как имя функции, параметры и т. д.
 
 ```csharp
 public class GridCalculationData

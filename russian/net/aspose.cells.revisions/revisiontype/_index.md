@@ -20,7 +20,7 @@ public enum RevisionType
 | --- | --- | --- |
 | CustomView | `0` | Пользовательский вид. |
 | DefinedName | `1` | Определенное имя. |
-| ChangeCells | `2` | Меняются ячейки. |
+| ChangeCells | `2` | Изменение ячеек. |
 | AutoFormat | `3` | Автоматический формат. |
 | MergeConflict | `4` | Конфликт слияния. |
 | Comment | `5` | Комментарий. |

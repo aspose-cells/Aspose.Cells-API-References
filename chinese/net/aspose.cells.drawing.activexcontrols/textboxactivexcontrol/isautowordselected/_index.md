@@ -1,14 +1,14 @@
 ---
 title: IsAutoWordSelected
 second_title: Aspose.Cells for .NET API 参考
-description: 指定用于扩展选择的基本单位 True 指定基本单位是单个字符 false 指定基本单位是一个完整的单词
+description: 指定用于扩展选择的基本单位 true 指定基本单元为单个字符 false 指定基本单元为整个单词
 type: docs
 weight: 90
 url: /zh/net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/isautowordselected/
 ---
 ## TextBoxActiveXControl.IsAutoWordSelected property
 
-指定用于扩展选择的基本单位。 True 指定基本单位是单个字符。 false 指定基本单位是一个完整的单词。
+指定用于扩展选择的基本单位。 true 指定基本单元为单个字符。 false 指定基本单元为整个单词。
 
 ```csharp
 public virtual bool IsAutoWordSelected { get; set; }

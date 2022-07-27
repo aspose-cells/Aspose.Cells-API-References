@@ -1,14 +1,14 @@
 ---
 title: CellRange
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует объект представляющий диапазон ячеек электронной таблицы.
+description: Инкапсулирует объект представляющий диапазон ячеек в электронной таблице.
 type: docs
 weight: 190
 url: /ru/net/aspose.cells.griddesktop/cellrange/
 ---
 ## CellRange class
 
-Инкапсулирует объект, представляющий диапазон ячеек электронной таблицы.
+Инкапсулирует объект, представляющий диапазон ячеек в электронной таблице.
 
 ```csharp
 public class CellRange
@@ -33,7 +33,7 @@ public class CellRange
 | [Rows](../../aspose.cells.griddesktop/cellrange/rows) { get; } |  |
 | [StartColumn](../../aspose.cells.griddesktop/cellrange/startcolumn) { get; set; } | Получает или задает индекс начального столбца диапазона. |
 | [StartRow](../../aspose.cells.griddesktop/cellrange/startrow) { get; set; } | Получает или задает индекс начальной строки диапазона. |
-| [Worksheet](../../aspose.cells.griddesktop/cellrange/worksheet) { get; } | Получает объект листа. |
+| [Worksheet](../../aspose.cells.griddesktop/cellrange/worksheet) { get; } | Получает объект рабочего листа. |
 
 ## Методы
 

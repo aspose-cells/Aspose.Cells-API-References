@@ -1,14 +1,14 @@
 ---
 title: VerticalAxisMaxValueType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет тип максимального значения по вертикальной оси.
+description: Представляет тип максимального значения вертикальной оси.
 type: docs
 weight: 250
 url: /ru/net/aspose.cells.charts/sparklinegroup/verticalaxismaxvaluetype/
 ---
 ## SparklineGroup.VerticalAxisMaxValueType property
 
-Представляет тип максимального значения по вертикальной оси.
+Представляет тип максимального значения вертикальной оси.
 
 ```csharp
 public SparklineAxisMinMaxType VerticalAxisMaxValueType { get; set; }

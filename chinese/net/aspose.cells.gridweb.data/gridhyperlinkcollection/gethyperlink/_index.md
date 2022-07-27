@@ -1,14 +1,14 @@
 ---
 title: GetHyperlink
 second_title: Aspose.Cells for .NET API 参考
-description: 获取单元格的超链接对象如果单元格没有超链接则返回 null
+description: 获取单元格的超链接对象如果单元格没有超链接则返回 null.
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.gridweb.data/gridhyperlinkcollection/gethyperlink/
 ---
 ## GetHyperlink(GridCell) {#gethyperlink}
 
-获取单元格的超链接对象。如果单元格没有超链接，则返回 null。
+获取单元格的超链接对象。如果单元格没有超链接，则返回 null.
 
 ```csharp
 public GridHyperlink GetHyperlink(GridCell cell)
@@ -20,7 +20,7 @@ public GridHyperlink GetHyperlink(GridCell cell)
 
 ### 返回值
 
-[`GridHyperlink`](../../gridhyperlink)GridHyperlink 对象。
+[`GridHyperlink`](../../gridhyperlink) GridHyperlink 对象。
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public GridHyperlink GetHyperlink(GridCell cell)
 
 ## GetHyperlink(int, int) {#gethyperlink_1}
 
-获取单元格的超链接对象。如果单元格没有超链接，则返回 null。
+获取单元格的超链接对象。如果单元格没有超链接，则返回 null.
 
 ```csharp
 public GridHyperlink GetHyperlink(int row, int column)
@@ -47,7 +47,7 @@ public GridHyperlink GetHyperlink(int row, int column)
 
 ### 返回值
 
-[`GridHyperlink`](../../gridhyperlink)GridHyperlink 对象。
+[`GridHyperlink`](../../gridhyperlink) GridHyperlink 对象。
 
 ### 也可以看看
 

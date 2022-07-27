@@ -23,7 +23,7 @@ public Shape AddShapeInChart(MsoDrawingType type, PlacementType placement, int l
 | top | Int32 | 以 1/4000 图表区域高度为单位。 |
 | right | Int32 | 以 1/4000 图表区域宽度为单位。 |
 | bottom | Int32 | 以 1/4000 图表区域高度为单位。 |
-| imageData | Byte[] | 如果 shape 不是图片或 ole 对象，则 imageData 应为 null。 |
+| imageData | Byte[] | 如果形状不是图片或 ole 对象，则 imageData 应为空。 |
 
 ### 也可以看看
 

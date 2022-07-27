@@ -16,7 +16,7 @@ public int TickLabelSpacing { get; set; }
 
 ### 评论
 
-数字必须介于 1 和 31999 之间。
+该数字必须介于 1 和 31999 之间。
 
 ### 也可以看看
 

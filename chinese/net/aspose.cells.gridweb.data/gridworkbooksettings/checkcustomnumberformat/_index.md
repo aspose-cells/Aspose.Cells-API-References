@@ -1,14 +1,14 @@
 ---
 title: CheckCustomNumberFormat
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置设置Style.Custom时是否检查自定义数字格式
+description: 获取或设置设置Style.Custom. 时是否检查自定义数字格式
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.gridweb.data/gridworkbooksettings/checkcustomnumberformat/
 ---
 ## GridWorkbookSettings.CheckCustomNumberFormat property
 
-获取或设置设置Style.Custom时是否检查自定义数字格式。
+获取或设置设置Style.Custom. 时是否检查自定义数字格式
 
 ```csharp
 public bool CheckCustomNumberFormat { get; set; }

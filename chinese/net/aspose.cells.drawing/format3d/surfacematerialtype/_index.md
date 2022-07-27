@@ -1,14 +1,14 @@
 ---
 title: SurfaceMaterialType
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置与光照属性相结合的材质类型以提供形状的最终外观和感觉 默认值为 PresetMaterialType.WarmMatte
+description: 获取和设置与光照属性相结合的材质类型以提供形状的最终外观 默认值为 PresetMaterialType.WarmMatte
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.drawing/format3d/surfacematerialtype/
 ---
 ## Format3D.SurfaceMaterialType property
 
-获取和设置与光照属性相结合的材质类型，以提供形状的最终外观和感觉。 默认值为 PresetMaterialType.WarmMatte。
+获取和设置与光照属性相结合的材质类型，以提供形状的最终外观。 默认值为 PresetMaterialType.WarmMatte。
 
 ```csharp
 public PresetMaterialType SurfaceMaterialType { get; set; }

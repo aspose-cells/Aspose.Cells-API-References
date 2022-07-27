@@ -16,7 +16,7 @@ public bool IsIndentedFormatting { get; set; }
 
 ### 评论
 
-默认值为真。 如果值为false，则会减小xml文件的大小
+默认值为true。 如果值为false，则会减小xml文件的大小
 
 ### 也可以看看
 

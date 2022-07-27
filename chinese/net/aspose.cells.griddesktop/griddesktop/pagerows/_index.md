@@ -1,14 +1,14 @@
 ---
 title: PageRows
 second_title: Aspose.Cells for .NET API 参考
-description: 设置或获取分页的行大小支持的最大 PageRows 为 100000支持的最大页码为 5000
+description: 设置或获取分页的行大小支持的最大PageRows为100000支持的最大页数为5000
 type: docs
 weight: 190
 url: /zh/net/aspose.cells.griddesktop/griddesktop/pagerows/
 ---
 ## GridDesktop.PageRows property
 
-设置或获取分页的行大小。支持的最大 PageRows 为 100000，支持的最大页码为 5000。
+设置或获取分页的行大小。支持的最大PageRows为100000，支持的最大页数为5000。
 
 ```csharp
 public int PageRows { get; set; }

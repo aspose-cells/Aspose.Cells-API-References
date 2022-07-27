@@ -42,7 +42,7 @@ public void SetStyle(Style style, bool explicitFlag)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | style | Style | 单元格样式。 |
-| explicitFlag | Boolean | True，仅覆盖显式设置的格式。 |
+| explicitFlag | Boolean | 是的，只覆盖明确设置的格式。 |
 
 ### 也可以看看
 
@@ -64,7 +64,7 @@ public void SetStyle(Style style, StyleFlag flag)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | style | Style | 单元格样式。 |
-| flag | StyleFlag | 样式标志。 |
+| flag | StyleFlag | 风格标志。 |
 
 ### 也可以看看
 

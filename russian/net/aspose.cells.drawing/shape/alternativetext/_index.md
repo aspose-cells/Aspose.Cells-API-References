@@ -1,14 +1,14 @@
 ---
 title: AlternativeText
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает или задает описательную альтернативную текстовую строку объектаShapeaspose.cells.drawing/shape.
+description: Возвращает или задает описательную альтернативную текстовую строкуShapeaspose.cells.drawing/shape объект.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.drawing/shape/alternativetext/
 ---
 ## Shape.AlternativeText property
 
-Возвращает или задает описательную (альтернативную) текстовую строку объекта[`Shape`](../../shape).
+Возвращает или задает описательную (альтернативную) текстовую строку[`Shape`](../../shape) объект.
 
 ```csharp
 public string AlternativeText { get; set; }

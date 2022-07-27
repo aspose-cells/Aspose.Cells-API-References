@@ -1,14 +1,14 @@
 ---
 title: IsMinimized
 second_title: Aspose.Cells for .NET API 参考
-description: 表示生成的电子表格是否会被最小化打开
+description: 表示生成的电子表格是否会最小化打开
 type: docs
 weight: 230
 url: /zh/net/aspose.cells/workbooksettings/isminimized/
 ---
 ## WorkbookSettings.IsMinimized property
 
-表示生成的电子表格是否会被最小化打开。
+表示生成的电子表格是否会最小化打开。
 
 ```csharp
 public bool IsMinimized { get; set; }

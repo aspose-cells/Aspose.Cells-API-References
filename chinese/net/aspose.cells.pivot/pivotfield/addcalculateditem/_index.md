@@ -16,12 +16,12 @@ public void AddCalculatedItem(string name, string formula)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 项目名称。 |
-| formula | String | 项的公式 |
+| name | String | 项目的名称。 |
+| formula | String | 项目的公式 |
 
 ### 评论
 
-只支持添加计算项到行/列字段。
+仅支持将计算项添加到行/列字段。
 
 ### 也可以看看
 

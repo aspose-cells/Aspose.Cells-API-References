@@ -1,14 +1,14 @@
 ---
 title: ImageScalable
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否使用可缩放单位来描述图像宽度 当使用可缩放单位来描述列宽时 默认值为真
+description: 表示是否使用可缩放单位来描述图像宽度 在使用可缩放单位描述列宽时 默认值为true
 type: docs
-weight: 350
+weight: 370
 url: /zh/net/aspose.cells/htmlsaveoptions/imagescalable/
 ---
 ## HtmlSaveOptions.ImageScalable property
 
-表示是否使用可缩放单位来描述图像宽度 当使用可缩放单位来描述列宽时。 默认值为真。
+表示是否使用可缩放单位来描述图像宽度 在使用可缩放单位描述列宽时。 默认值为true。
 
 ```csharp
 public bool ImageScalable { get; set; }

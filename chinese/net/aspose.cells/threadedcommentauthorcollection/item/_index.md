@@ -16,7 +16,7 @@ public ThreadedCommentAuthor this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引 |
+| index | 指数 |
 
 ### 也可以看看
 

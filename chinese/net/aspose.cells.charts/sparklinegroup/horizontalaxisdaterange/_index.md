@@ -1,14 +1,14 @@
 ---
 title: HorizontalAxisDateRange
 second_title: Aspose.Cells for .NET API 参考
-description: 表示包含迷你图数据日期值的范围
+description: 表示包含迷你图数据的日期值的范围
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.charts/sparklinegroup/horizontalaxisdaterange/
 ---
 ## SparklineGroup.HorizontalAxisDateRange property
 
-表示包含迷你图数据日期值的范围。
+表示包含迷你图数据的日期值的范围。
 
 ```csharp
 public string HorizontalAxisDateRange { get; set; }

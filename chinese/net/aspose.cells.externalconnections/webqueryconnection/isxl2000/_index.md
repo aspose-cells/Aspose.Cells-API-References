@@ -1,14 +1,14 @@
 ---
 title: IsXl2000
 second_title: Aspose.Cells for .NET API 参考
-description: 此标志的存在是为了向后兼容旧的现有电子表格文件如果此 Web 查询在较新的电子表格应用程序中刷新则将 设置为 true大于或等于 到 Microsoft Excel 2000 这是一个可以忽略的可选属性
+description: 存在此标志是为了向后兼容旧的现有电子表格文件如果此 Web 查询在比 Microsoft Excel 2000 更新或等于 的电子表格应用程序中刷新则设置 为真 这是一个可以忽略的可选属性
 type: docs
 weight: 80
 url: /zh/net/aspose.cells.externalconnections/webqueryconnection/isxl2000/
 ---
 ## WebQueryConnection.IsXl2000 property
 
-此标志的存在是为了向后兼容旧的现有电子表格文件，如果此 Web 查询在较新的电子表格应用程序中刷新，则将 设置为 true大于或等于 到 Microsoft Excel 2000。 这是一个可以忽略的可选属性。
+存在此标志是为了向后兼容旧的现有电子表格文件，如果此 Web 查询在比 Microsoft Excel 2000 更新或等于 的电子表格应用程序中刷新，则设置 为真。 这是一个可以忽略的可选属性。
 
 ```csharp
 public bool IsXl2000 { get; set; }

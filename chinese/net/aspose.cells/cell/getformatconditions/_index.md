@@ -1,14 +1,14 @@
 ---
 title: GetFormatConditions
 second_title: Aspose.Cells for .NET API 参考
-description: 获取适用于此单元格的格式条件
+description: 获取适用于该单元格的格式条件
 type: docs
 weight: 410
 url: /zh/net/aspose.cells/cell/getformatconditions/
 ---
 ## Cell.GetFormatConditions method
 
-获取适用于此单元格的格式条件。
+获取适用于该单元格的格式条件。
 
 ```csharp
 public FormatConditionCollection[] GetFormatConditions()
@@ -16,7 +16,7 @@ public FormatConditionCollection[] GetFormatConditions()
 
 ### 返回值
 
-返回[`FormatConditionCollection`](../../formatconditioncollection)对象
+退货[`FormatConditionCollection`](../../formatconditioncollection)目的
 
 ### 也可以看看
 

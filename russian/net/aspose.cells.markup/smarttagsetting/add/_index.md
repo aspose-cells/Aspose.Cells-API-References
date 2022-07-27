@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет объектSmartTagCollectionaspose.cells.markup/smarttagcollectionв ячейку.
+description: ДобавляетSmartTagCollectionaspose.cells.markup/smarttagcollection объект в ячейку.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.markup/smarttagsetting/add/
 ---
 ## Add(int, int) {#add}
 
-Добавляет объект[`SmartTagCollection`](../../smarttagcollection)в ячейку.
+Добавляет[`SmartTagCollection`](../../smarttagcollection) объект в ячейку.
 
 ```csharp
 public int Add(int row, int column)
@@ -16,12 +16,12 @@ public int Add(int row, int column)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| row | Int32 | Строка ячейки. |
+| row | Int32 | Ряд клетки. |
 | column | Int32 | Столбец ячейки. |
 
 ### Возвращаемое значение
 
-Возвращает индекс объекта[`SmartTagCollection`](../../smarttagcollection)на рабочем листе.
+Возвращает индекс[`SmartTagCollection`](../../smarttagcollection) объект на рабочем листе.
 
 ### Смотрите также
 
@@ -33,7 +33,7 @@ public int Add(int row, int column)
 
 ## Add(string) {#add_1}
 
-Добавьте смарт-теги ячейки.
+Добавить смарт-теги ячейки.
 
 ```csharp
 public int Add(string cellName)

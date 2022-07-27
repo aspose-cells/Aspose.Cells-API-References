@@ -1,14 +1,14 @@
 ---
 title: ErrorBarType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет тип количества бара ошибок.
+description: Представляет тип суммы полосы ошибок.
 type: docs
 weight: 650
 url: /ru/net/aspose.cells.charts/errorbartype/
 ---
 ## ErrorBarType enumeration
 
-Представляет тип количества бара ошибок.
+Представляет тип суммы полосы ошибок.
 
 ```csharp
 public enum ErrorBarType

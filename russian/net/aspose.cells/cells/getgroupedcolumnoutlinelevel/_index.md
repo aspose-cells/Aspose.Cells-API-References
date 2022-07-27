@@ -3,7 +3,7 @@ title: GetGroupedColumnOutlineLevel
 second_title: Справочник по Aspose.Cells для .NET API
 description: Получает уровень структуры отсчитываемый от нуля столбца.
 type: docs
-weight: 720
+weight: 730
 url: /ru/net/aspose.cells/cells/getgroupedcolumnoutlinelevel/
 ---
 ## Cells.GetGroupedColumnOutlineLevel method

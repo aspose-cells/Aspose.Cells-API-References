@@ -1,14 +1,14 @@
 ---
 title: LightCellsDataProvider
 second_title: Aspose.Cells for .NET API 参考
-description: 表示以轻量模式保存大型电子表格文件的数据提供者
+description: 表示以轻量级模式保存大型电子表格文件的数据提供程序
 type: docs
 weight: 3960
 url: /zh/net/aspose.cells/lightcellsdataprovider/
 ---
 ## LightCellsDataProvider interface
 
-表示以轻量模式保存大型电子表格文件的数据提供者。
+表示以轻量级模式保存大型电子表格文件的数据提供程序。
 
 ```csharp
 public interface LightCellsDataProvider
@@ -27,7 +27,7 @@ public interface LightCellsDataProvider
 
 ### 评论
 
-通过此模式保存工作簿时，[`StartSheet`](./startsheet)将在保存工作簿中的每个工作表时进行检查。 对于一张工作表，如果[`StartSheet`](./startsheet)为真，则此工作表的行/单元格的所有数据和属性为被保存的 将由该接口的实现提供。首先，将调用[`NextRow`](./nextrow)以获取要保存的下一行索引。 如果返回有效的行索引（行索引必须按升序排列才能保存行）， 则提供一个表示该行的 Row 对象用于实现通过[`StartRow`](./startrow)设置其属性。 对于一行，将首先检查[`NextCell`](./nextcell)。如果返回有效的列索引（列索引必须按升序排列才能保存一行的所有单元格）， 则将提供表示该单元格的 Cell 对象以供实现设置其数据和属性[`StartCell`](./startcell)。 设置好该单元格的数据后，该单元格将直接保存到生成的电子表格文件中，并检查并处理下一个单元格。
+使用此模式保存工作簿时，[`StartSheet`](./startsheet)保存工作簿中的每个工作表时都会检查。 对于一张工作表，如果[`StartSheet`](./startsheet)给出 true，则此工作表要保存的行/单元格的所有数据和属性 将由该接口的实现提供。首先，[`NextRow`](./nextrow)将被调用以获取要保存的下一行索引。 如果返回有效的行索引（行索引必须按升序排列才能保存的行）， 然后将提供一个表示该行的 Row 对象实现设置其属性[`StartRow`](./startrow). 对于一行，[`NextCell`](./nextcell)将首先检查。如果返回一个有效的列索引（列索引必须按升序排列才能保存一行的所有单元格）， 然后将提供一个表示该单元格的 Cell 对象以供实现设置其数据和属性[`StartCell`](./startcell). 设置好该单元格的数据后，该单元格将直接保存到生成的电子表格文件中，并检查和处理下一个单元格。
 
 ### 也可以看看
 

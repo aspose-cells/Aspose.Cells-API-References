@@ -18,9 +18,9 @@ public class WebExtension
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AlterReferences](../../aspose.cells.webextensions/webextension/alterreferences) { get; } | 获取变更引用列表。 |
+| [AlterReferences](../../aspose.cells.webextensions/webextension/alterreferences) { get; } | 获取更改引用列表。 |
 | [Bindings](../../aspose.cells.webextensions/webextension/bindings) { get; } | 获取 Office 加载项与文档中数据之间的所有绑定关系。 |
-| [Id](../../aspose.cells.webextensions/webextension/id) { get; set; } | 获取和设置当前文档中Office插件实例的唯一标识。 |
+| [Id](../../aspose.cells.webextensions/webextension/id) { get; set; } | 获取和设置当前文档中Office插件实例的唯一标识 |
 | [IsFrozen](../../aspose.cells.webextensions/webextension/isfrozen) { get; set; } | 指示用户是否可以与 Office 加载项交互。 |
 | [Properties](../../aspose.cells.webextensions/webextension/properties) { get; } | 获取网络扩展的所有属性。 |
 | [Reference](../../aspose.cells.webextensions/webextension/reference) { get; } | 获取对 Office 加载项的主要引用。 |

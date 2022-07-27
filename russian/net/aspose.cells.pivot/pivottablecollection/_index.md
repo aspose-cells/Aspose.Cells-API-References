@@ -28,11 +28,11 @@ public class PivotTableCollection : CollectionBase<PivotTable>, IDisposable
 | Имя | Описание |
 | --- | --- |
 | [Add](../../aspose.cells.pivot/pivottablecollection/add#add_1)(PivotTable, string, string) | Добавляет новый объект сводной таблицы в коллекцию из другой сводной таблицы. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_4)(string, string, string) | Добавляет новый кэш сводной таблицы в коллекцию сводных кешей. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_4)(string, string, string) | Добавляет новый кэш сводной таблицы в коллекцию PivotCaches. |
 | [Add](../../aspose.cells.pivot/pivottablecollection/add#add)(PivotTable, int, int, string) | Добавляет новый объект сводной таблицы в коллекцию из другой сводной таблицы. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_2)(string, int, int, string) | Добавляет новый кэш сводной таблицы в коллекцию сводных кешей. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_5)(string, string, string, bool) | Добавляет новый кэш сводной таблицы в коллекцию сводных кешей. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_3)(string, int, int, string, bool) | Добавляет новый кэш сводной таблицы в коллекцию сводных кешей. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_2)(string, int, int, string) | Добавляет новый кэш сводной таблицы в коллекцию PivotCaches. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_5)(string, string, string, bool) | Добавляет новый кэш сводной таблицы в коллекцию PivotCaches. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_3)(string, int, int, string, bool) | Добавляет новый кэш сводной таблицы в коллекцию PivotCaches. |
 | [Add](../../aspose.cells.pivot/pivottablecollection/add#add_7)(string[], bool, PivotPageFields, string, string) | Добавляет новый объект сводной таблицы в коллекцию с несколькими диапазонами консолидации в качестве источника данных. |
 | [Add](../../aspose.cells.pivot/pivottablecollection/add#add_6)(string[], bool, PivotPageFields, int, int, string) | Добавляет новый объект сводной таблицы в коллекцию с несколькими диапазонами консолидации в качестве источника данных. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(PivotTable) |  |
@@ -43,7 +43,7 @@ public class PivotTableCollection : CollectionBase<PivotTable>, IDisposable
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(PivotTable[]) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(PivotTable[], int) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, PivotTable[], int, int) |  |
-| [Dispose](../../aspose.cells.pivot/pivottablecollection/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
+| [Dispose](../../aspose.cells.pivot/pivottablecollection/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
 | [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;PivotTable&gt;) |  |
 | [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;PivotTable&gt;) |  |
 | [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;PivotTable&gt;) |  |
@@ -62,7 +62,7 @@ public class PivotTableCollection : CollectionBase<PivotTable>, IDisposable
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(PivotTable, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(PivotTable, int, int) |  |
 | [Remove](../../aspose.cells.pivot/pivottablecollection/remove#remove)(PivotTable) | Удаляет указанную сводную таблицу и удаляет данные сводной таблицы |
-| [Remove](../../aspose.cells.pivot/pivottablecollection/remove#remove_1)(PivotTable, bool) | Удаляет указанный объект сводной таблицы |
+| [Remove](../../aspose.cells.pivot/pivottablecollection/remove#remove_1)(PivotTable, bool) | Удаляет указанную сводную таблицу |
 | [RemoveAt](../../aspose.cells.pivot/pivottablecollection/removeat#removeat)(int) | Удаляет сводную таблицу по указанному индексу и удаляет данные сводной таблицы (2 methods) |
 | [RemoveAt](../../aspose.cells.pivot/pivottablecollection/removeat#removeat_2)(int, bool) | Удаляет сводную таблицу по указанному индексу |
 
@@ -115,16 +115,16 @@ pivot.AddFieldToArea(PivotFieldType.Data, "amount");
 
 pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
 
-  //Изменить атрибуты PivotField
+//Изменяем атрибуты PivotField
 PivotField rowField = pivot.RowFields[0];
 rowField.DisplayName = "custom display name";
 
-  //Добавить PivotFilter
+//Добавить сводной фильтр
 int index = pivot.PivotFilters.Add(0, PivotFilterType.Count);
 PivotFilter filter = pivot.PivotFilters[index];
 filter.AutoFilter.FilterTop10(0, false, false, 2);
 
-  //Добавить PivotFormatCondition
+//Добавить PivotFormatCondition
 int formatIndex = pivot.PivotFormatConditions.Add();
 PivotFormatCondition pfc = pivot.PivotFormatConditions[formatIndex];
 FormatConditionCollection fcc = pfc.FormatConditions;
@@ -138,7 +138,7 @@ fc.Style.BackgroundColor = Color.Red;
 pivot.RefreshData();
 pivot.CalculateData();
 
-  //делай свое дело
+//делай свое дело
 
 book.Save("out.xlsx");
 
@@ -187,16 +187,16 @@ Pivot.AddFieldToArea(PivotFieldType.Data, "amount")
 
 pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10
 
-'Изменить атрибуты PivotField
+'Change PivotField's attributes
 Dim rowField As PivotField = pivot.RowFields(0)
 rowField.DisplayName = "custom display name"
 
-'Добавлять PivotFilter
+'Добавить сводной фильтр
 Dim filterIndex As Int32 = pivot.PivotFilters.Add(0, PivotFilterType.Count)
 Dim filter As PivotFilter = pivot.PivotFilters(filterIndex)
 filter.AutoFilter.FilterTop10(0, False, False, 2)
 
-'Добавлять PivotFormatCondition
+'Добавить PivotFormatCondition
 Dim formatIndex As Int32 = pivot.PivotFormatConditions.Add()
 Dim pfc As PivotFormatCondition = pivot.PivotFormatConditions(formatIndex)
 Dim fcc As FormatConditionCollection = pfc.FormatConditions

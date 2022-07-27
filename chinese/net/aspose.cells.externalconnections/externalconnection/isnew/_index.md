@@ -1,14 +1,14 @@
 ---
 title: IsNew
 second_title: Aspose.Cells for .NET API 参考
-description: 如果连接没有第一次刷新则为真否则为假 当用户在查询完成返回之前保存文件时可能会发生这种状态
+description: 如果第一次没有刷新连接则为真否则为假 当用户在查询完成返回之前保存文件时可能会发生这种状态
 type: docs
 weight: 70
 url: /zh/net/aspose.cells.externalconnections/externalconnection/isnew/
 ---
 ## ExternalConnection.IsNew property
 
-如果连接没有第一次刷新，则为真；否则为假。 当用户在查询完成返回之前保存文件时，可能会发生这种状态。
+如果第一次没有刷新连接，则为真；否则为假。 当用户在查询完成返回之前保存文件时，可能会发生这种状态。
 
 ```csharp
 public bool IsNew { get; set; }

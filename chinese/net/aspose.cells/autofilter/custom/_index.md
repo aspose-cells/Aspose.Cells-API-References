@@ -16,9 +16,9 @@ public void Custom(int fieldIndex, FilterOperatorType operatorType1, object crit
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldIndex | Int32 | 要作为过滤器基础的字段的整数偏移量 （从左侧列表的；最左边的字段是字段 0)。 |
-| operatorType1 | FilterOperatorType | 过滤运算符类型 |
-| criteria1 | Object | 自定义条件 |
+| fieldIndex | Int32 | 您希望作为过滤器 基础的字段的整数偏移量（从列表的左侧开始；最左侧的字段是字段0）。 |
+| operatorType1 | FilterOperatorType | 过滤器运算符类型 |
+| criteria1 | Object | 自定义标准 |
 
 ### 也可以看看
 
@@ -40,11 +40,11 @@ public void Custom(int fieldIndex, FilterOperatorType operatorType1, object crit
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldIndex | Int32 | 要作为过滤器基础的字段的整数偏移量 （从左侧列表的；最左边的字段是字段 0)。 |
-| operatorType1 | FilterOperatorType | 过滤运算符类型 |
-| criteria1 | Object | 自定义条件 |
+| fieldIndex | Int32 | 您希望作为过滤器 基础的字段的整数偏移量（从列表的左侧开始；最左侧的字段是字段0）。 |
+| operatorType1 | FilterOperatorType | 过滤器运算符类型 |
+| criteria1 | Object | 自定义标准 |
 | isAnd | Boolean |  |
-| operatorType2 | FilterOperatorType | 过滤运算符类型 |
+| operatorType2 | FilterOperatorType | 过滤器运算符类型 |
 | criteria2 | Object | 自定义标准 |
 
 ### 也可以看看

@@ -97,7 +97,7 @@ public Worksheet Add(string sheetName)
 
 ### 返回值
 
-[`Worksheet`](../../worksheet)对象。
+[`Worksheet`](../../worksheet)目的。
 
 ### 也可以看看
 

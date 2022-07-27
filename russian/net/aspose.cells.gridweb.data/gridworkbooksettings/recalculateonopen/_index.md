@@ -1,14 +1,14 @@
 ---
 title: ReCalculateOnOpen
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает пересчитывать ли все формулы при открытии файла.
+description: Получает или задает необходимость пересчета всех формул при открытии файла.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells.gridweb.data/gridworkbooksettings/recalculateonopen/
 ---
 ## GridWorkbookSettings.ReCalculateOnOpen property
 
-Получает или задает, пересчитывать ли все формулы при открытии файла.
+Получает или задает необходимость пересчета всех формул при открытии файла.
 
 ```csharp
 public bool ReCalculateOnOpen { get; set; }

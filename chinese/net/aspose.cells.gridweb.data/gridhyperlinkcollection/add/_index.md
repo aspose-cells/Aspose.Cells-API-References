@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 将超链接添加到指定单元格或单元格范围
+description: 向指定单元格或单元格范围添加超链接
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.gridweb.data/gridhyperlinkcollection/add/
 ---
 ## Add(int, int, int, int, string) {#add}
 
-将超链接添加到指定单元格或单元格范围。
+向指定单元格或单元格范围添加超链接。
 
 ```csharp
 public int Add(int firstRow, int firstColumn, int totalRows, int totalColumns, string address)
@@ -32,13 +32,13 @@ Hyperlink对象索引。
 [C#]
 
 Worksheet worksheet = excel.Worksheets[0];
-worksheet.Hyperlinks.Add("A4", 1, 1, "http:  //www.aspose.com");
+worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com");
 worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls");
 
 [Visual Basic]
 
 Dim worksheet as Worksheet = excel.Worksheets(0)
-worksheet.Hyperlinks.Add("A4", 1, 1, "http:  //www.aspose.com")
+worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com")
 worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls")
 
 ```
@@ -53,7 +53,7 @@ worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls")
 
 ## Add(string, int, int, string) {#add_1}
 
-将超链接添加到指定单元格或单元格范围。
+向指定单元格或单元格范围添加超链接。
 
 ```csharp
 public int Add(string cellName, int totalRows, int totalColumns, string address)
@@ -61,7 +61,7 @@ public int Add(string cellName, int totalRows, int totalColumns, string address)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cellName | String | 单元名称。 |
+| cellName | String | 单元格名称。 |
 | totalRows | Int32 | 此超链接范围内的行数。 |
 | totalColumns | Int32 | 此超链接范围的列数。 |
 | address | String | 超链接的地址。 |
@@ -80,7 +80,7 @@ public int Add(string cellName, int totalRows, int totalColumns, string address)
 
 ## Add(string, string) {#add_2}
 
-将超链接添加到指定单元格。
+向指定单元格添加超链接。
 
 ```csharp
 public int Add(string cellName, string address)
@@ -88,7 +88,7 @@ public int Add(string cellName, string address)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cellName | String | 单元名称。 |
+| cellName | String | 单元格名称。 |
 | address | String | 超链接的地址。 |
 
 ### 返回值
@@ -105,7 +105,7 @@ public int Add(string cellName, string address)
 
 ## Add(string, string, string, string, string) {#add_3}
 
-将超链接添加到指定单元格或单元格范围。
+向指定单元格或单元格范围添加超链接。
 
 ```csharp
 public int Add(string startCellName, string endCellName, string address, string textToDisplay, 
@@ -117,7 +117,7 @@ public int Add(string startCellName, string endCellName, string address, string 
 | startCellName | String | 范围的左上角单元格。 |
 | endCellName | String | 范围的右下角单元格。 |
 | address | String | 超链接的地址。 |
-| textToDisplay | String | 要为指定超链接显示的文本。 |
+| textToDisplay | String | 为指定的超链接显示的文本。 |
 | screenTip | String | 指定超链接的屏幕提示文本。 |
 
 ### 返回值

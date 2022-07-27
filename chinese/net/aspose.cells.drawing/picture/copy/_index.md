@@ -24,21 +24,21 @@ public void Copy(Picture source, CopyOptions options)
 ```csharp
 
 [C#]
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 //插入第一张图片
 int imgIndex1 = worksheet.Pictures.Add(1, 1, "1.png");
- //获取插入的图片object
+//获取插入的图片对象
 Picture pic1 = worksheet.Pictures[imgIndex1];
- //插入第二张图片
+//插入第二张图片
 int imgIndex2 = worksheet.Pictures.Add(1, 9, "2.jpeg");
- //获取插入的图片object
+//获取插入的图片对象
 Picture pic2 = worksheet.Pictures[imgIndex2];
- //将图片1复制到图片2。你会得到两个相互叠加的图片1对象。
+//将图片1复制到图片2。您将获得两个相互叠加的图片1对象。
 CopyOptions opt = new CopyOptions();
 pic2.Copy(pic1, opt);
- //保存excel文件.
+//保存excel文件。
 workbook.Save("result.xlsx");
 ```
 

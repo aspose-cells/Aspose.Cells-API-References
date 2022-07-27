@@ -1,14 +1,14 @@
 ---
 title: Controls
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает коллекцию элементов управления ячейками.
+description: Получает коллекцию элементов управления ячейкой.
 type: docs
 weight: 90
 url: /ru/net/aspose.cells.griddesktop/worksheet/controls/
 ---
 ## Worksheet.Controls property
 
-Получает коллекцию элементов управления ячейками.
+Получает коллекцию элементов управления ячейкой.
 
 ```csharp
 public CellControlCollection Controls { get; }

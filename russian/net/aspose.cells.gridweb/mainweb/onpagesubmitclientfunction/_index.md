@@ -1,14 +1,14 @@
 ---
 title: OnPageSubmitClientFunction
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает клиентскую функцию которая будет вызываться перед отправкой страницы на стороне клиента.
+description: Получает или задает функцию клиента которая будет вызываться перед отправкой страницы на стороне клиента.
 type: docs
 weight: 680
 url: /ru/net/aspose.cells.gridweb/mainweb/onpagesubmitclientfunction/
 ---
 ## MainWeb.OnPageSubmitClientFunction property
 
-Получает или задает клиентскую функцию, которая будет вызываться перед отправкой страницы на стороне клиента.
+Получает или задает функцию клиента, которая будет вызываться перед отправкой страницы на стороне клиента.
 
 ```csharp
 public string OnPageSubmitClientFunction { get; set; }

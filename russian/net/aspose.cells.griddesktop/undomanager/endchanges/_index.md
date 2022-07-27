@@ -1,14 +1,14 @@
 ---
 title: EndChanges
 second_title: Справочник по Aspose.Cells для .NET API
-description: Заканчивается записью изменений.
+description: Заканчивается для записи изменений.
 type: docs
 weight: 80
 url: /ru/net/aspose.cells.griddesktop/undomanager/endchanges/
 ---
 ## UndoManager.EndChanges method
 
-Заканчивается записью изменений.
+Заканчивается для записи изменений.
 
 ```csharp
 public void EndChanges()

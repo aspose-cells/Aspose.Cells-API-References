@@ -1,14 +1,14 @@
 ---
 title: IconSetType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает какой набор значков используется в критериях фильтрации.
+description: Получает и задает какой набор значков используется в критериях фильтра.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/iconfilter/iconsettype/
 ---
 ## IconFilter.IconSetType property
 
-Получает и устанавливает, какой набор значков используется в критериях фильтрации.
+Получает и задает, какой набор значков используется в критериях фильтра.
 
 ```csharp
 public IconSetType IconSetType { get; set; }

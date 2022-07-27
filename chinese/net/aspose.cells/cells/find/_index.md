@@ -16,16 +16,16 @@ public Cell Find(object what, Cell previousCell)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| what | Object | 要搜索的对象。 类型应该是 int,double,DateTime,string,bool。 |
-| previousCell | Cell | 具有相同对象的上一个单元格。 如果从头开始搜索，这个参数可以设置为空。 |
+| what | Object | 要搜索的对象。 类型应为 int,double,DateTime,string,bool. |
+| previousCell | Cell | 具有相同对象的上一个单元格。 如果从头开始搜索，该参数可以设置为空。 |
 
 ### 返回值
 
-单元对象。
+单元格对象。
 
 ### 评论
 
-如果未找到单元格，则返回 null（无）。
+如果未找到任何单元格，则返回 null (Nothing)。
 
 ### 也可以看看
 
@@ -46,8 +46,8 @@ public Cell Find(object what, Cell previousCell, FindOptions findOptions)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| what | Object | 要搜索的对象。 类型应该是 int,double,DateTime,string,bool。 |
-| previousCell | Cell | 具有相同对象的上一个单元格。 如果从头开始搜索，这个参数可以设置为空。 |
+| what | Object | 要搜索的对象。 类型应为 int,double,DateTime,string,bool. |
+| previousCell | Cell | 具有相同对象的上一个单元格。 如果从头开始搜索，该参数可以设置为空。 |
 | findOptions | FindOptions | 查找选项 |
 
 ### 返回值
@@ -56,7 +56,7 @@ public Cell Find(object what, Cell previousCell, FindOptions findOptions)
 
 ### 评论
 
-如果未找到单元格，则返回 null（无）。
+如果未找到任何单元格，则返回 null (Nothing)。
 
 ### 也可以看看
 

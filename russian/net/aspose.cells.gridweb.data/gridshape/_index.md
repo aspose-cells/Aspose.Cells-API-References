@@ -22,13 +22,13 @@ public class GridShape
 | [ID](../../aspose.cells.gridweb.data/gridshape/id) { get; set; } |  |
 | [ImageFormat](../../aspose.cells.gridweb.data/gridshape/imageformat) { get; } | Получает формат изображения изображения. |
 | [Left](../../aspose.cells.gridweb.data/gridshape/left) { get; } | Представляет горизонтальное смещение фигуры от ее левого столбца в единицах пикселей. |
-| [MsoDrawingType](../../aspose.cells.gridweb.data/gridshape/msodrawingtype) { get; } | Получает и устанавливает тип рисования mso. |
+| [MsoDrawingType](../../aspose.cells.gridweb.data/gridshape/msodrawingtype) { get; } | Получает и задает тип рисования mso. |
 | [Name](../../aspose.cells.gridweb.data/gridshape/name) { get; } | Получает и задает имя фигуры. |
 | [Text](../../aspose.cells.gridweb.data/gridshape/text) { get; set; } | Представляет строку в этом объекте TextBox. |
 | [Top](../../aspose.cells.gridweb.data/gridshape/top) { get; } | Представляет вертикальное смещение фигуры от ее верхней строки в единицах пикселей. |
 | [UpperLeftColumn](../../aspose.cells.gridweb.data/gridshape/upperleftcolumn) { get; } | Представляет индекс столбца в левом верхнем углу. |
-| [UpperLeftRow](../../aspose.cells.gridweb.data/gridshape/upperleftrow) { get; } | Представляет индекс строки в верхнем левом углу. |
-| [ZOrderPosition](../../aspose.cells.gridweb.data/gridshape/zorderposition) { get; set; } | Возвращает положение фигуры в z-порядке. |
+| [UpperLeftRow](../../aspose.cells.gridweb.data/gridshape/upperleftrow) { get; } | Представляет индекс строки в левом верхнем углу. |
+| [ZOrderPosition](../../aspose.cells.gridweb.data/gridshape/zorderposition) { get; set; } | Возвращает позицию фигуры в z-порядке. |
 
 ## Методы
 

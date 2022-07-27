@@ -1,14 +1,14 @@
 ---
 title: RemoveAt
 second_title: Aspose.Cells for .NET API 参考
-description: 删除指定索引处的 Slicer
+description: 删除指定索引处的切片器
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.slicers/slicercollection/removeat/
 ---
 ## SlicerCollection.RemoveAt method
 
-删除指定索引处的 Slicer
+删除指定索引处的切片器
 
 ```csharp
 public void RemoveAt(int index)
@@ -16,7 +16,7 @@ public void RemoveAt(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 位置索引在切片器集合中 |
+| index | Int32 | Slicer 集合中的位置索引 |
 
 ### 例子
 

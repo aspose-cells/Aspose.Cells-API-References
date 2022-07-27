@@ -1,14 +1,14 @@
 ---
 title: AddTooltipText
 second_title: Aspose.Cells for .NET API 参考
-description: 表示数据不能完全显示时是否添加工具提示文本 默认值为假
+description: 表示数据不能完全显示时是否添加tooltip文本 默认值为false
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/htmlsaveoptions/addtooltiptext/
 ---
 ## HtmlSaveOptions.AddTooltipText property
 
-表示数据不能完全显示时是否添加工具提示文本。 默认值为假。
+表示数据不能完全显示时是否添加tooltip文本。 默认值为false。
 
 ```csharp
 public bool AddTooltipText { get; set; }

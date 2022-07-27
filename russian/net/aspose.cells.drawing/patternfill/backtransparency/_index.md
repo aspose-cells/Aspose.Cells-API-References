@@ -1,14 +1,14 @@
 ---
 title: BackTransparency
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или устанавливает прозрачность цвета фона.
+description: Получает или задает прозрачность цвета фона.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.drawing/patternfill/backtransparency/
 ---
 ## PatternFill.BackTransparency property
 
-Получает или устанавливает прозрачность цвета фона.
+Получает или задает прозрачность цвета фона.
 
 ```csharp
 public double BackTransparency { get; set; }

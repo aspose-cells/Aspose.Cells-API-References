@@ -1,14 +1,14 @@
 ---
 title: PresetCameraType
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置拉伸预设摄像机类型
+description: 获取和设置拉伸预设相机类型
 type: docs
 weight: 130
 url: /zh/net/aspose.cells.drawing/threedformat/presetcameratype/
 ---
 ## ThreeDFormat.PresetCameraType property
 
-获取和设置拉伸预设摄像机类型。
+获取和设置拉伸预设相机类型。
 
 ```csharp
 public PresetCameraType PresetCameraType { get; set; }

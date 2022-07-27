@@ -1,14 +1,14 @@
 ---
 title: SetBorderPosition
 second_title: Aspose.Cells for .NET API 参考
-description: 表示单元格范围要设置的边框位置
+description: 表示要设置的单元格范围的边框位置
 type: docs
 weight: 900
 url: /zh/net/aspose.cells.gridweb/setborderposition/
 ---
 ## SetBorderPosition enumeration
 
-表示单元格范围要设置的边框位置。
+表示要设置的单元格范围的边框位置。
 
 ```csharp
 public enum SetBorderPosition
@@ -18,15 +18,15 @@ public enum SetBorderPosition
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Top | `0` | 顶部边框 |
+| Top | `0` | 上边框 |
 | Bottom | `1` | 底部边框 |
 | Left | `2` | 左边框 |
 | Right | `3` | 右边框 |
 | HorizontalMiddle | `4` | 底部边框 |
-| VerticalMiddle | `5` | HorizontalMiddle 边界 |
-| Outline | `6` | VerticalMiddle 边界 |
+| VerticalMiddle | `5` | 水平中间边框 |
+| Outline | `6` | 垂直中间边框 |
 | Cross | `7` | 跨境 |
-| None | `8` | 无边界 |
+| None | `8` | 无边框 |
 
 ### 例子
 

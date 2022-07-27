@@ -29,16 +29,16 @@ public class ContentTypeProperty
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
- //添加一个新属性.
+//添加一个新属性。
  workbook.ContentTypeProperties.Add("Admin", "Aspose", "text");
- //保存Excel文件
+//保存Excel文件
 workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 '添加新属性。
  workbook.ContentTypeProperties.Add("Admin", "Aspose", "text")

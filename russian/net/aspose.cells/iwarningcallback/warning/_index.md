@@ -1,14 +1,14 @@
 ---
 title: Warning
 second_title: Справочник по Aspose.Cells для .NET API
-description: Нашему обратному вызову нужно только реализовать метод Предупреждение.
+description: Наш обратный вызов должен реализовать только метод Предупреждение.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/iwarningcallback/warning/
 ---
 ## IWarningCallback.Warning method
 
-Нашему обратному вызову нужно только реализовать метод "Предупреждение".
+Наш обратный вызов должен реализовать только метод «Предупреждение».
 
 ```csharp
 public void Warning(WarningInfo warningInfo)

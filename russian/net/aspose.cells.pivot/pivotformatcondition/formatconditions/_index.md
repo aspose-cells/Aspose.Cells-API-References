@@ -1,14 +1,14 @@
 ---
 title: FormatConditions
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получить formatconditions для формата условия сводной таблицы.
+description: Получить условия формата для формата условий сводной таблицы .
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.pivot/pivotformatcondition/formatconditions/
 ---
 ## PivotFormatCondition.FormatConditions property
 
-Получить formatconditions для формата условия сводной таблицы.
+Получить условия формата для формата условий сводной таблицы .
 
 ```csharp
 public FormatConditionCollection FormatConditions { get; }

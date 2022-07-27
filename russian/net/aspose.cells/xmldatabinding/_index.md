@@ -18,7 +18,7 @@ public class XmlDataBinding
 
 | Имя | Описание |
 | --- | --- |
-| [Url](../../aspose.cells/xmldatabinding/url) { get; } | Получает URL-адрес источника этой привязки данных. |
+| [Url](../../aspose.cells/xmldatabinding/url) { get; } | Получает исходный URL этой привязки данных. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: FileName
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置当前文件名
+description: 获取并设置当前文件名
 type: docs
 weight: 150
 url: /zh/net/aspose.cells/workbook/filename/
 ---
 ## Workbook.FileName property
 
-获取和设置当前文件名。
+获取并设置当前文件名。
 
 ```csharp
 public string FileName { get; set; }
@@ -16,7 +16,7 @@ public string FileName { get; set; }
 
 ### 评论
 
-如果文件是通过流打开并且有一些外部公式引用， 请设置文件名。
+如果文件是通过流打开的，并且有一些外部公式引用， 请设置文件名。
 
 ### 也可以看看
 

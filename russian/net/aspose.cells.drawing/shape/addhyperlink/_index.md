@@ -1,14 +1,14 @@
 ---
 title: AddHyperlink
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет к фигуре гиперссылку.
+description: Добавляет гиперссылку к фигуре.
 type: docs
 weight: 970
 url: /ru/net/aspose.cells.drawing/shape/addhyperlink/
 ---
 ## Shape.AddHyperlink method
 
-Добавляет к фигуре гиперссылку.
+Добавляет гиперссылку к фигуре.
 
 ```csharp
 public Hyperlink AddHyperlink(string address)
@@ -20,14 +20,14 @@ public Hyperlink AddHyperlink(string address)
 
 ### Возвращаемое значение
 
-Возвращает новый объект гиперссылки.
+Верните новый объект гиперссылки.
 
 ### Примеры
 
 ```csharp
 
 [C#]
-Aspose.Cells.Hyperlink hyperlink = shape.AddHyperlink("https:  //www.aspose.com/");
+Aspose.Cells.Hyperlink hyperlink = shape.AddHyperlink("https://www.aspose.com/");
 ```
 
 ### Смотрите также

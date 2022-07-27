@@ -1,14 +1,14 @@
 ---
 title: AddButton
 second_title: Aspose.Cells for .NET API 参考
-description: 向列添加一个按钮
+description: 在列中添加一个按钮
 type: docs
 weight: 90
 url: /zh/net/aspose.cells.griddesktop.data/gridcolumn/addbutton/
 ---
 ## GridColumn.AddButton method
 
-向列添加一个按钮。
+在列中添加一个按钮。
 
 ```csharp
 public void AddButton(int width, int height, string text)

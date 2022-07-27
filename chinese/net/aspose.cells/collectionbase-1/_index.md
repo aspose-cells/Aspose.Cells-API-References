@@ -18,8 +18,8 @@ public abstract class CollectionBase<T> : ICollection, IList<T>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } | 获取或设置列表可以包含的元素数量。 |
-| [Count](../../aspose.cells/collectionbase`1/count) { get; } | 获取元素的数量。 |
+| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } | 获取或设置列表可以包含的元素个数。 |
+| [Count](../../aspose.cells/collectionbase`1/count) { get; } | 获取元素个数。 |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } | 获取或设置指定索引处的元素。 |
 
 ## 方法

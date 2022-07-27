@@ -1,14 +1,14 @@
 ---
 title: ActiveSheetIndex
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置活动工作表索引等于 WebWorksheets.ActiveSheetIndex
+description: 获取或设置活动工作表索引等于 WebWorksheets.ActiveSheetIndex.
 type: docs
 weight: 80
 url: /zh/net/aspose.cells.gridweb/mainweb/activesheetindex/
 ---
 ## MainWeb.ActiveSheetIndex property
 
-获取或设置活动工作表索引。等于 WebWorksheets.ActiveSheetIndex。
+获取或设置活动工作表索引。等于 WebWorksheets.ActiveSheetIndex.
 
 ```csharp
 public int ActiveSheetIndex { get; set; }

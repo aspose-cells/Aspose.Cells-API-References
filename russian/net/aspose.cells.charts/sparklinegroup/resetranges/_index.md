@@ -17,8 +17,8 @@ public void ResetRanges(string dataRange, bool isVertical, CellArea locationRang
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | dataRange | String | Указывает новый диапазон данных группы спарклайнов. |
-| isVertical | Boolean | Указывает, строить ли спарклайны из нового диапазона данных по строкам или по столбцам. |
-| locationRange | CellArea | Определяет место размещения спарклайнов. |
+| isVertical | Boolean | Указывает, следует ли строить спарклайны из нового диапазона данных по строке или по столбцу. |
+| locationRange | CellArea | Указывает, где должны быть размещены спарклайны. |
 
 ### Смотрите также
 

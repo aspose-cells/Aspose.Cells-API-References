@@ -16,7 +16,7 @@ public int PageCount { get; set; }
 
 ### 评论
 
-默认为 System.Int32.MaxValue ，这意味着将呈现所有页面。
+默认为 System.Int32.MaxValue，这意味着将呈现所有页面。
 
 ### 也可以看看
 

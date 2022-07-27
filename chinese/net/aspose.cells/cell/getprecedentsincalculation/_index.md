@@ -1,14 +1,14 @@
 ---
 title: GetPrecedentsInCalculation
 second_title: Aspose.Cells for .NET API 参考
-description: 获取此单元格公式在计算时使用的所有先例引用当前工作簿中的单元格
+description: 获取此单元格的公式在计算时使用的所有先例引用当前工作簿中的单元格
 type: docs
 weight: 480
 url: /zh/net/aspose.cells/cell/getprecedentsincalculation/
 ---
 ## Cell.GetPrecedentsInCalculation method
 
-获取此单元格公式在计算时使用的所有先例（引用当前工作簿中的单元格）。
+获取此单元格的公式在计算时使用的所有先例（引用当前工作簿中的单元格）。
 
 ```csharp
 public IEnumerator GetPrecedentsInCalculation()
@@ -16,11 +16,11 @@ public IEnumerator GetPrecedentsInCalculation()
 
 ### 返回值
 
-枚举器枚举所有引用(ReferredArea)
+枚举所有引用的枚举器（ReferredArea）
 
 ### 评论
 
-此方法仅适用于[`EnableCalculationChain`](../../formulasettings/enablecalculationchain) 对于工作簿为真且工作簿已被完全计算的情况。 如果此单元格不是公式或未引用任何其他单元格，则返回 null。
+此方法仅适用于以下情况[`EnableCalculationChain`](../../formulasettings/enablecalculationchain) 对工作簿为真，工作簿已计算完毕。 如果此单元格不是公式或未引用任何其他单元格，则返回 null。
 
 ### 例子
 
@@ -30,11 +30,14 @@ public IEnumerator GetPrecedentsInCalculation()
 Workbook workbook = new Workbook();
 Cells cells = workbook.Worksheets[0].Cells;
 cells["A2"].Formula = "=IF(TRUE,B2,B1)";
+workbook.Settings.FormulaSettings.EnableCalculationChain = true;
+workbook.CalculateFormula();
 IEnumerator en = cells["A2"].GetPrecedentsInCalculation();
+Console.WriteLine("A2's calculation precedents:");
 while(en.MoveNext())
 {
-     ReferredArea r = (ReferredArea)en.Current;
-     Console.WriteLine(r.SheetName + "!" + CellsHelper.CellIndexToName(r.StartRow, r.StartColumn));
+    ReferredArea r = (ReferredArea)en.Current;
+    Console.WriteLine(r);
 }
 ```
 

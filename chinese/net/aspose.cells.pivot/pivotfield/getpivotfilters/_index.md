@@ -1,14 +1,14 @@
 ---
 title: GetPivotFilters
 second_title: Aspose.Cells for .NET API 参考
-description: 获取枢轴字段的枢轴过滤器
+description: 获取枢轴字段 的枢轴过滤器
 type: docs
 weight: 440
 url: /zh/net/aspose.cells.pivot/pivotfield/getpivotfilters/
 ---
 ## PivotField.GetPivotFilters method
 
-获取枢轴字段的枢轴过滤器
+获取枢轴字段 的枢轴过滤器
 
 ```csharp
 public ArrayList GetPivotFilters()

@@ -1,14 +1,14 @@
 ---
 title: DataLabels
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет объект DataLabels для указанного ASeries.
+description: Представляет объект DataLabels для указанной серии.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.charts/trendline/datalabels/
 ---
 ## Trendline.DataLabels property
 
-Представляет объект DataLabels для указанного ASeries.
+Представляет объект DataLabels для указанной серии.
 
 ```csharp
 public DataLabels DataLabels { get; }

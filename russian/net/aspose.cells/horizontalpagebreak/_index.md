@@ -19,7 +19,7 @@ public class HorizontalPageBreak
 | Имя | Описание |
 | --- | --- |
 | [EndColumn](../../aspose.cells/horizontalpagebreak/endcolumn) { get; } | Получает индекс конечного столбца этого горизонтального разрыва страницы. |
-| [Row](../../aspose.cells/horizontalpagebreak/row) { get; } | Получает индекс строки, отсчитываемый от нуля. |
+| [Row](../../aspose.cells/horizontalpagebreak/row) { get; } | Получает индекс строки с отсчетом от нуля. |
 | [StartColumn](../../aspose.cells/horizontalpagebreak/startcolumn) { get; } | Получает индекс начального столбца этого горизонтального разрыва страницы. |
 
 ### Примеры
@@ -28,30 +28,30 @@ public class HorizontalPageBreak
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 
-  //Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
+//Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
 Worksheet worksheet = workbook.Worksheets[0];
 
-  //Добавить разрыв страницы в ячейку Y30
+// Добавляем разрыв страницы в ячейку Y30
 int Index = worksheet.HorizontalPageBreaks.Add("Y30");
 
-  // получаем только что добавленную горизонтальную страницу break
+// получаем только что добавленный горизонтальный разрыв страницы
 HorizontalPageBreak hPageBreak = worksheet.HorizontalPageBreaks[Index];  
 
 [VB.NET]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
 
-'Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
+'Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-'Добавить разрыв страницы в ячейку Y30
+'Добавить разрыв страницы в ячейке Y30
 Dim Index As Integer = worksheet.HorizontalPageBreaks.Add("Y30")
 
-'получаем только что добавленную горизонтальную страницу break
+'получить недавно добавленный горизонтальный разрыв страницы
 Dim hPageBreak As HorizontalPageBreak = worksheet.HorizontalPageBreaks(Index)
 ```
 

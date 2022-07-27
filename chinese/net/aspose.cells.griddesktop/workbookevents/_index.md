@@ -22,7 +22,7 @@ public enum WorkBookEvents
 | LoadFinish | `1` | 完成加载工作簿。 |
 | BeforeCalculate | `2` | 在计算公式之前。 |
 | CalculateFinish | `3` | 完成计算公式。 |
-| CalculatePivotStyleFinish | `4` | 完成数据透视表的计算样式。 |
+| CalculatePivotStyleFinish | `4` | 完成数据透视表的计算样式. |
 
 ### 也可以看看
 

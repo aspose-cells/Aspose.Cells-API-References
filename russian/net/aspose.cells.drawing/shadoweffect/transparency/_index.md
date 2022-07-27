@@ -1,14 +1,14 @@
 ---
 title: Transparency
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает степень прозрачности тени. Диапазон значений от 00 непрозрачный до 10 прозрачный.
+description: Получает и задает степень прозрачности тени. Диапазон от 00 непрозрачный до 10 прозрачный.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.drawing/shadoweffect/transparency/
 ---
 ## ShadowEffect.Transparency property
 
-Получает и задает степень прозрачности тени. Диапазон значений от 0,0 (непрозрачный) до 1,0 (прозрачный).
+Получает и задает степень прозрачности тени. Диапазон от 0,0 (непрозрачный) до 1,0 (прозрачный).
 
 ```csharp
 public double Transparency { get; set; }

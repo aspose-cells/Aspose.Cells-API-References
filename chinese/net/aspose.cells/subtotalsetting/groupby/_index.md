@@ -1,14 +1,14 @@
 ---
 title: GroupBy
 second_title: Aspose.Cells for .NET API 参考
-description: 要分组的字段作为从零开始的整数偏移量
+description: 分组依据的字段从零开始的整数 offset
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/subtotalsetting/groupby/
 ---
 ## SubtotalSetting.GroupBy property
 
-要分组的字段，作为从零开始的整数偏移量
+分组依据的字段，从零开始的整数 offset
 
 ```csharp
 public int GroupBy { get; }

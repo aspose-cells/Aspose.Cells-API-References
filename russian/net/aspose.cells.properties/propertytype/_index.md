@@ -1,14 +1,14 @@
 ---
 title: PropertyType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает тип данных свойства документа.
+description: Определяет тип данных свойства документа.
 type: docs
 weight: 4880
 url: /ru/net/aspose.cells.properties/propertytype/
 ---
 ## PropertyType enumeration
 
-Указывает тип данных свойства документа.
+Определяет тип данных свойства документа.
 
 ```csharp
 public enum PropertyType

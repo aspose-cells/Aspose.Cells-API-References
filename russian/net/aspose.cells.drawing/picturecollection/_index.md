@@ -1,14 +1,14 @@
 ---
 title: PictureCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует набор объектовPicture./picture.
+description: Инкапсулирует наборPicture./picture объекты.
 type: docs
 weight: 2490
 url: /ru/net/aspose.cells.drawing/picturecollection/
 ---
 ## PictureCollection class
 
-Инкапсулирует набор объектов[`Picture`](../picture).
+Инкапсулирует набор[`Picture`](../picture) объекты.
 
 ```csharp
 public class PictureCollection : CollectionBase<Picture>
@@ -20,7 +20,7 @@ public class PictureCollection : CollectionBase<Picture>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.drawing/picturecollection/item) { get; } | Получает элемент[`Picture`](../picture)по указанному индексу. |
+| [Item](../../aspose.cells.drawing/picturecollection/item) { get; } | Получает[`Picture`](../picture) элемент по указанному индексу. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы
@@ -66,15 +66,15 @@ public class PictureCollection : CollectionBase<Picture>
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 
-  //получить PictureCollection
+//получить коллекцию изображений
 PictureCollection pictures = workbook.Worksheets[0].Pictures;
 
-  //делай свое дело
+//делай свое дело
 
-  // Сохраняем файл Excel.
+// Сохраняем файл excel.
 workbook.Save("result.xlsx");
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: UnDoSplit
 second_title: Справочник по Aspose.Cells для .NET API
-description: Отключить раздельный вид.
+description: Отключить разделенный вид.
 type: docs
 weight: 810
 url: /ru/net/aspose.cells.griddesktop/griddesktop/undosplit/
 ---
 ## GridDesktop.UnDoSplit method
 
-Отключить раздельный вид.
+Отключить разделенный вид.
 
 ```csharp
 public void UnDoSplit()

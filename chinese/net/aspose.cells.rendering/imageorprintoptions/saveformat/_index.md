@@ -1,14 +1,14 @@
 ---
 title: SaveFormat
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置输出文件格式类型 支持 Tiff/XPS
+description: 获取或设置输出文件格式type 支持Tiff/XPS
 type: docs
 weight: 270
 url: /zh/net/aspose.cells.rendering/imageorprintoptions/saveformat/
 ---
 ## ImageOrPrintOptions.SaveFormat property
 
-获取或设置输出文件格式类型 支持 Tiff/XPS
+获取或设置输出文件格式type 支持Tiff/XPS
 
 ```csharp
 public SaveFormat SaveFormat { get; set; }

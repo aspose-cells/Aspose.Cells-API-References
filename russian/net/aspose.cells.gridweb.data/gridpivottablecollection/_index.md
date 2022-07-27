@@ -1,14 +1,14 @@
 ---
 title: GridPivotTableCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует коллекцию объектовPivotTable.
+description: Инкапсулирует наборPivotTable объекты.
 type: docs
 weight: 420
 url: /ru/net/aspose.cells.gridweb.data/gridpivottablecollection/
 ---
 ## GridPivotTableCollection class
 
-Инкапсулирует коллекцию объектовPivotTable.
+Инкапсулирует наборPivotTable объекты.
 
 ```csharp
 public class GridPivotTableCollection
@@ -19,16 +19,16 @@ public class GridPivotTableCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.cells.gridweb.data/gridpivottablecollection/count) { get; } |  |
-| [Item](../../aspose.cells.gridweb.data/gridpivottablecollection/item) { get; } | Получает элементPivotTableпо указанному индексу. |
+| [Item](../../aspose.cells.gridweb.data/gridpivottablecollection/item) { get; } | ПолучаетPivotTable элемент по указанному индексу. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells.gridweb.data/gridpivottablecollection/add#add_3)(string, string, string) | Добавляет новый кэш сводной таблицы в коллекцию сводных кешей. |
-| [Add](../../aspose.cells.gridweb.data/gridpivottablecollection/add#add)(GridWorksheet, GridCellArea, string, string) | Добавляет новый кэш сводной таблицы в коллекцию сводных кешей. |
-| [Add](../../aspose.cells.gridweb.data/gridpivottablecollection/add#add_2)(string, GridCellArea, string, string) | Добавляет новый кэш сводной таблицы в коллекцию сводных кешей. |
-| [Add](../../aspose.cells.gridweb.data/gridpivottablecollection/add#add_1)(string, GridCellArea, int, int, string) | Добавляет новый кэш сводной таблицы в коллекцию сводных кешей. |
+| [Add](../../aspose.cells.gridweb.data/gridpivottablecollection/add#add_3)(string, string, string) | Добавляет новый кэш сводной таблицы в коллекцию PivotCaches. |
+| [Add](../../aspose.cells.gridweb.data/gridpivottablecollection/add#add)(GridWorksheet, GridCellArea, string, string) | Добавляет новый кэш сводной таблицы в коллекцию PivotCaches. |
+| [Add](../../aspose.cells.gridweb.data/gridpivottablecollection/add#add_2)(string, GridCellArea, string, string) | Добавляет новый кэш сводной таблицы в коллекцию PivotCaches. |
+| [Add](../../aspose.cells.gridweb.data/gridpivottablecollection/add#add_1)(string, GridCellArea, int, int, string) | Добавляет новый кэш сводной таблицы в коллекцию PivotCaches. |
 | [Clear](../../aspose.cells.gridweb.data/gridpivottablecollection/clear)() | Очищает все сводные таблицы. |
 | [RemoveAt](../../aspose.cells.gridweb.data/gridpivottablecollection/removeat)(int) | Удалить сводную таблицу по указанному индексу. |
 

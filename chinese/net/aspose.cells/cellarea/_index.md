@@ -27,9 +27,9 @@ public struct CellArea : IComparable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EndColumn](../../aspose.cells/cellarea/endcolumn) | 获取或设置该区域的结束列。 |
+| [EndColumn](../../aspose.cells/cellarea/endcolumn) | 获取或设置该区域的结束列 |
 | [EndRow](../../aspose.cells/cellarea/endrow) | 获取或设置该区域的结束行。 |
-| [StartColumn](../../aspose.cells/cellarea/startcolumn) | 获取或设置该区域的起始列。 |
+| [StartColumn](../../aspose.cells/cellarea/startcolumn) | 获取或设置该区域的起始列 |
 | [StartRow](../../aspose.cells/cellarea/startrow) | 获取或设置该区域的起始行。 |
 
 ### 例子
@@ -38,7 +38,7 @@ public struct CellArea : IComparable
 
 [C#]
 
- //创建单元格区域
+//创建单元格区域
 CellArea ca = new CellArea();
 ca.StartRow = 0;
 ca.EndRow = 0;

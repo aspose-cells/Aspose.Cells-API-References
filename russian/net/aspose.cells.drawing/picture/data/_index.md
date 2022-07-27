@@ -19,20 +19,20 @@ public byte[] Data { get; set; }
 ```csharp
 
 [C#]
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 //вставляем первую картинку
 int imgIndex1 = worksheet.Pictures.Add(1, 1, "example1.png");
-   //Получить вставленную картинку object
+//Получить вставленный объект изображения
 Picture pic1 = worksheet.Pictures[imgIndex1];
-  // вставляем вторую картинку
+//вставляем вторую картинку
 int imgIndex2 = worksheet.Pictures.Add(1, 9, "example2.jpeg");
-   //Получить вставленную картинку object
+//Получить вставленный объект изображения
 Picture pic2 = worksheet.Pictures[imgIndex2];
-  //Назначаем байтовые данные первого изображения второму image
+//Назначаем байтовые данные первого изображения второму изображению
 pic2.Data = pic1.Data;
-  // Сохраняем файл Excel.
+// Сохраняем файл excel.
 workbook.Save("result.xlsx");
 ```
 

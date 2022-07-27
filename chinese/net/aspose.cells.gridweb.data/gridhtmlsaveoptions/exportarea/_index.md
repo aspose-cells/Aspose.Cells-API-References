@@ -1,14 +1,14 @@
 ---
 title: ExportArea
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置当前活动工作表的导出单元格区域 如果设置此属性当前活动工作表的打印区域将被忽略 将文件保存为html时只会导出指定区域
+description: 获取或设置当前活动Worksheet的导出CellArea
 type: docs
 weight: 70
 url: /zh/net/aspose.cells.gridweb.data/gridhtmlsaveoptions/exportarea/
 ---
 ## GridHtmlSaveOptions.ExportArea property
 
-获取或设置当前活动工作表的导出单元格区域。 如果设置此属性，当前活动工作表的打印区域将被忽略。 将文件保存为html时只会导出指定区域。
+获取或设置当前活动Worksheet的导出CellArea
 
 ```csharp
 public GridCellArea ExportArea { get; set; }

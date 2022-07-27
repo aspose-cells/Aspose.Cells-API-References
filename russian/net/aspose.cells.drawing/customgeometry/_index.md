@@ -18,7 +18,7 @@ public class CustomGeometry : Geometry
 
 | Имя | Описание |
 | --- | --- |
-| [Paths](../../aspose.cells.drawing/customgeometry/paths) { get; } | Получает информацию о наборе путей, если фигура является автофигурой NotPrimitive |
+| [Paths](../../aspose.cells.drawing/customgeometry/paths) { get; } | Получает информацию о наборе путей, если фигура является NotPrimitive autoshape |
 | [ShapeAdjustValues](../../aspose.cells.drawing/geometry/shapeadjustvalues) { get; } | Получает набор значений настройки формы |
 
 ### Смотрите также

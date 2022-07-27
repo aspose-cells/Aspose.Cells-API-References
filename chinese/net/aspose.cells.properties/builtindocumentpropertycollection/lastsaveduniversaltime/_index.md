@@ -16,7 +16,7 @@ public DateTime LastSavedUniversalTime { get; set; }
 
 ### 评论
 
-Aspose.Cells 在您修改文档时不会更新此属性。
+当您修改文档时，Aspose.Cells 不会更新此属性。
 
 ### 也可以看看
 

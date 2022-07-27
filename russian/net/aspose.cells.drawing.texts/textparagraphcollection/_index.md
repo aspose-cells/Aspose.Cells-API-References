@@ -19,7 +19,7 @@ public class TextParagraphCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.cells.drawing.texts/textparagraphcollection/count) { get; } | Получает количество текстовых абзацев. |
-| [Item](../../aspose.cells.drawing.texts/textparagraphcollection/item) { get; } | Получает объект[`TextParagraph`](../textparagraph)по указанному индексу. |
+| [Item](../../aspose.cells.drawing.texts/textparagraphcollection/item) { get; } | Получает[`TextParagraph`](../textparagraph) объект по определенному индексу. |
 
 ## Методы
 

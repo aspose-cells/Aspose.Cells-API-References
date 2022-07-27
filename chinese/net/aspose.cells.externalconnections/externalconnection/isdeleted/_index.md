@@ -1,14 +1,14 @@
 ---
 title: IsDeleted
 second_title: Aspose.Cells for .NET API 参考
-description: 指示关联的工作簿连接是否已被删除如果 连接已被删除则为 true否则为假
+description: 指示关联的工作簿连接是否已被删除如果 the 连接已被删除则为 true否则为假
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.externalconnections/externalconnection/isdeleted/
 ---
 ## ExternalConnection.IsDeleted property
 
-指示关联的工作簿连接是否已被删除。如果 连接已被删除，则为 true；否则为假。
+指示关联的工作簿连接是否已被删除。如果 the 连接已被删除，则为 true；否则为假。
 
 ```csharp
 public bool IsDeleted { get; set; }

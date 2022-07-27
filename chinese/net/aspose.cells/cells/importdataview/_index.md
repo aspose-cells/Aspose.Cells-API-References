@@ -1,14 +1,14 @@
 ---
 title: ImportDataView
 second_title: Aspose.Cells for .NET API 参考
-description: 将DataView导入工作表
+description: 导入一个DataView进入工作表.
 type: docs
-weight: 1010
+weight: 1020
 url: /zh/net/aspose.cells/cells/importdataview/
 ---
 ## Cells.ImportDataView method
 
-将DataView导入工作表。
+导入一个DataView进入工作表.
 
 ```csharp
 public int ImportDataView(DataView dataView, int firstRow, int firstColumn)
@@ -16,9 +16,9 @@ public int ImportDataView(DataView dataView, int firstRow, int firstColumn)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dataView | DataView | 要导入的DataView对象。 |
+| dataView | DataView | 这DataView要导入的对象。 |
 | firstRow | Int32 | 要导入的第一个单元格的行号。 |
-| firstColumn | Int32 | 列号要导入的第一个单元格。 |
+| firstColumn | Int32 | 要导入的第一个单元格的列号。 |
 
 ### 返回值
 

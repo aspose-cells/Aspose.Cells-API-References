@@ -16,12 +16,12 @@ public int Add(string uri, string name)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uri | String | 指定智能标签的命名空间 URI |
+| uri | String | 指定智能标记的命名空间 URI |
 | name | String | 指定智能标记的名称。 |
 
 ### 返回值
 
-智能标签在列表中的索引。
+列表中智能标签的索引。
 
 ### 也可以看看
 

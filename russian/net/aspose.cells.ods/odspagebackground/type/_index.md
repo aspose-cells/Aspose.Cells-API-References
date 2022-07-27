@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает тип фона страницы.
+description: Получает и устанавливает тип фона страницы.
 type: docs
 weight: 80
 url: /ru/net/aspose.cells.ods/odspagebackground/type/
 ---
 ## OdsPageBackground.Type property
 
-Получает и задает тип фона страницы.
+Получает и устанавливает тип фона страницы.
 
 ```csharp
 public OdsPageBackgroundType Type { get; set; }

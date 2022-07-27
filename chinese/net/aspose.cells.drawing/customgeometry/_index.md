@@ -18,8 +18,8 @@ public class CustomGeometry : Geometry
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Paths](../../aspose.cells.drawing/customgeometry/paths) { get; } | 当 shape 为 NotPrimitive autoshape 时获取路径集合信息 |
-| [ShapeAdjustValues](../../aspose.cells.drawing/geometry/shapeadjustvalues) { get; } | 获取形状调整值集合 |
+| [Paths](../../aspose.cells.drawing/customgeometry/paths) { get; } | 当shape为NotPrimitive时获取路径集合信息 autoshape |
+| [ShapeAdjustValues](../../aspose.cells.drawing/geometry/shapeadjustvalues) { get; } | 获取形状调整值的集合 |
 
 ### 也可以看看
 

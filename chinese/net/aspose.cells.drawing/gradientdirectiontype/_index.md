@@ -1,14 +1,14 @@
 ---
 title: GradientDirectionType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示渐变的全方向类型
+description: 代表梯度的所有方向类型
 type: docs
 weight: 2060
 url: /zh/net/aspose.cells.drawing/gradientdirectiontype/
 ---
 ## GradientDirectionType enumeration
 
-表示渐变的全方向类型。
+代表梯度的所有方向类型。
 
 ```csharp
 public enum GradientDirectionType

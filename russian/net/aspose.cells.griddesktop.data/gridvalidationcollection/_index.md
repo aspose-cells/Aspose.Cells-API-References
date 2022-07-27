@@ -1,14 +1,14 @@
 ---
 title: GridValidationCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует коллекцию объектовGridValidation./gridvalidation.
+description: Инкапсулирует наборGridValidation./gridvalidationобъекты.
 type: docs
 weight: 720
 url: /ru/net/aspose.cells.griddesktop.data/gridvalidationcollection/
 ---
 ## GridValidationCollection class
 
-Инкапсулирует коллекцию объектов[`GridValidation`](../gridvalidation).
+Инкапсулирует набор[`GridValidation`](../gridvalidation)объекты.
 
 ```csharp
 public class GridValidationCollection
@@ -19,20 +19,20 @@ public class GridValidationCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.cells.griddesktop.data/gridvalidationcollection/count) { get; } |  |
-| [Item](../../aspose.cells.griddesktop.data/gridvalidationcollection/item) { get; } | Получает элементHyperlinkпо указанному индексу. (2 indexers) |
+| [Item](../../aspose.cells.griddesktop.data/gridvalidationcollection/item) { get; } | ПолучаетHyperlink элемент по указанному индексу. (2 indexers) |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add)() | Добавить[`GridValidation`](../gridvalidation)в коллекцию. |
-| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_3)(GridValidation) | Добавить[`GridValidation`](../gridvalidation)в коллекцию. |
-| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_2)(string) | Добавить[`GridValidation`](../gridvalidation)в коллекцию. Проверка применяется к указанной ячейке. |
-| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_1)(int, int) | Добавить[`GridValidation`](../gridvalidation)в коллекцию. Проверка применяется к указанной ячейке. |
+| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add)() | Добавить[`GridValidation`](../gridvalidation) в коллекцию. |
+| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_3)(GridValidation) | Добавить[`GridValidation`](../gridvalidation) в коллекцию. |
+| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_2)(string) | Добавить[`GridValidation`](../gridvalidation) в коллекцию. проверка применяется к указанной ячейке. |
+| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_1)(int, int) | Добавить[`GridValidation`](../gridvalidation) в коллекцию. проверка применяется к указанной ячейке. |
 | [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_6)(string, ICustomValidation) | Добавляет проверку указанной ячейки по имени ячейки. |
-| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_4)(int, int, ICustomValidation) | Добавляет проверку к указанной ячейке в индексе столбца строки. |
+| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_4)(int, int, ICustomValidation) | Добавляет проверку в указанную ячейку в индексе столбца строки. |
 | [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_7)(string, bool, string) | Добавляет проверку указанной ячейки по имени ячейки. |
-| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_5)(int, int, bool, string) | Добавляет проверку к указанной ячейке в индексе столбца строки. |
+| [Add](../../aspose.cells.griddesktop.data/gridvalidationcollection/add#add_5)(int, int, bool, string) | Добавляет проверку в указанную ячейку в индексе столбца строки. |
 | [Clear](../../aspose.cells.griddesktop.data/gridvalidationcollection/clear)() | Очищает все проверки. |
 | [RemoveAt](../../aspose.cells.griddesktop.data/gridvalidationcollection/removeat)(int) | Удалить проверку по указанному индексу. |
 

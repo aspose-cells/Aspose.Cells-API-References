@@ -16,7 +16,7 @@ public void AddPageField(string[] pageItems)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageItems | String[] | 页面字段项目标签 |
+| pageItems | String[] | 页面字段项标签 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: BorderWidth
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает ширину границы. См. структуру System.Web.UI.WebControls.Unit.
+description: Получает или задает ширину границы. См. System.Web.UI.WebControls.Unit struct.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.gridweb/webborderstyle/borderwidth/
 ---
 ## WebBorderStyle.BorderWidth property
 
-Получает или задает ширину границы. См. структуру System.Web.UI.WebControls.Unit.
+Получает или задает ширину границы. См. System.Web.UI.WebControls.Unit struct.
 
 ```csharp
 public Unit BorderWidth { get; set; }

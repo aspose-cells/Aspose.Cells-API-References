@@ -16,7 +16,7 @@ public ICustomParser[] PreferredParsers { get; set; }
 
 ### 评论
 
-parser[0] 是解析器将用于文本模板文件中的第一列， parser[1] 是解析器将用于第二列，...等。 最后一个（parsers[parsers.length-1]）将用于从parsers.length-1开始的所有其他列。 如果其中一项为空，则对应的列将被 Aspose.Cells 的默认解析器解析。
+parsers[0] 是解析器将用于文本模板文件中的第一列， parsers[1] 是将解析器用于第二列，...等等。 最后一个（parsers[parsers. length-1]) 将用于所有其他从parsers.length-1. 开始的列
 
 ### 也可以看看
 

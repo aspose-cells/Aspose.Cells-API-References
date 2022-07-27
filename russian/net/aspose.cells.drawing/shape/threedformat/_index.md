@@ -1,14 +1,14 @@
 ---
 title: ThreeDFormat
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает 3D-формат фигуры.
+description: Получает и задает формат 3D формы.
 type: docs
 weight: 750
 url: /ru/net/aspose.cells.drawing/shape/threedformat/
 ---
 ## Shape.ThreeDFormat property
 
-Получает и устанавливает 3D-формат фигуры.
+Получает и задает формат 3D формы.
 
 ```csharp
 public ThreeDFormat ThreeDFormat { get; }

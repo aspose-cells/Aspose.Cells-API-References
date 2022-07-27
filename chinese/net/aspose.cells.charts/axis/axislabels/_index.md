@@ -1,14 +1,14 @@
 ---
 title: AxisLabels
 second_title: Aspose.Cells for .NET API 参考
-description: 调用 Chart.Calculate 方法后获取坐标轴的标签
+description: 调用Chart.Calculate方法后获取坐标轴的标签
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.charts/axis/axislabels/
 ---
 ## Axis.AxisLabels property
 
-调用 Chart.Calculate() 方法后获取坐标轴的标签。
+调用Chart.Calculate()方法后获取坐标轴的标签。
 
 ```csharp
 public ArrayList AxisLabels { get; }

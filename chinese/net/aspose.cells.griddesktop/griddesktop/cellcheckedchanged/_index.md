@@ -1,14 +1,14 @@
 ---
 title: CellCheckedChanged
 second_title: Aspose.Cells for .NET API 参考
-description: 在更改单元格复选框 Checked 属性时发生
+description: 当单元格复选框 Checked 属性更改时发生
 type: docs
 weight: 400
 url: /zh/net/aspose.cells.griddesktop/griddesktop/cellcheckedchanged/
 ---
 ## GridDesktop.CellCheckedChanged event
 
-在更改单元格复选框 Checked 属性时发生。
+当单元格复选框 Checked 属性更改时发生。
 
 ```csharp
 public event CellControlEventHandler CellCheckedChanged;

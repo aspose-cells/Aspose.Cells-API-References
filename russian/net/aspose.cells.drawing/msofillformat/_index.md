@@ -1,14 +1,14 @@
 ---
 title: MsoFillFormat
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет форматирование заливки для фигуры.
+description: Представляет формат заливки для фигуры.
 type: docs
 weight: 2320
 url: /ru/net/aspose.cells.drawing/msofillformat/
 ---
 ## MsoFillFormat class
 
-Представляет форматирование заливки для фигуры.
+Представляет формат заливки для фигуры.
 
 ```csharp
 public class MsoFillFormat
@@ -20,16 +20,16 @@ public class MsoFillFormat
 | --- | --- |
 | [BackColor](../../aspose.cells.drawing/msofillformat/backcolor) { get; set; } | Получает и устанавливает цвет фона файла. |
 | [ForeColor](../../aspose.cells.drawing/msofillformat/forecolor) { get; set; } | Получает и устанавливает передний цвет заливки. |
-| [ImageData](../../aspose.cells.drawing/msofillformat/imagedata) { get; set; } | Получает и задает данные заполнения текстуры и изображения. |
+| [ImageData](../../aspose.cells.drawing/msofillformat/imagedata) { get; set; } | Получает и задает данные заливки текстуры и изображения. |
 | [IsVisible](../../aspose.cells.drawing/msofillformat/isvisible) { get; set; } | Указывает, есть ли заполнение. |
-| [Texture](../../aspose.cells.drawing/msofillformat/texture) { get; } | Получает тип заливки текстуры. |
+| [Texture](../../aspose.cells.drawing/msofillformat/texture) { get; } | Получает тип заливки текстурой. |
 | [Transparency](../../aspose.cells.drawing/msofillformat/transparency) { get; set; } | Возвращает или задает степень прозрачности указанной заливки в виде значения от 0,0 (непрозрачная) до 1,0 (прозрачная). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [SetOneColorGradient](../../aspose.cells.drawing/msofillformat/setonecolorgradient)(Color, double, GradientStyleType, int) | Устанавливает для указанной заливки одноцветный градиент. |
+| [SetOneColorGradient](../../aspose.cells.drawing/msofillformat/setonecolorgradient)(Color, double, GradientStyleType, int) | Задает для указанной заливки одноцветный градиент. |
 
 ### Смотрите также
 

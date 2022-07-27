@@ -16,7 +16,7 @@ public bool LineByLine { get; set; }
 
 ### 评论
 
-默认值为 false。 如果为 False，则模板文件必须包含一个名为“_CellsSmartMarkers”的范围。
+默认值为 true。 如果为 False，则模板文件必须包含名为“_CellsSmartMarkers”的范围。
 
 ### 也可以看看
 

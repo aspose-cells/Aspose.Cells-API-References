@@ -1,14 +1,14 @@
 ---
 title: ParseHtmlTagInCell
 second_title: Aspose.Cells for .NET API 参考
-description: 解析单元格中的 html 标签如 ltdivgtlt/divgt作为单元格值或作为 html 标签默认为 true
+description: 解析单元格中的 html 标签例如作为单元格值或作为 html 标记默认为 true
 type: docs
-weight: 420
+weight: 440
 url: /zh/net/aspose.cells/htmlsaveoptions/parsehtmltagincell/
 ---
 ## HtmlSaveOptions.ParseHtmlTagInCell property
 
-解析单元格中的 html 标签，如 &lt;div&gt;&lt;/div&gt;，作为单元格值，或作为 html 标签，默认为 true
+解析单元格中的 html 标签，例如，作为单元格值，或作为 html 标记，默认为 true
 
 ```csharp
 public bool ParseHtmlTagInCell { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: CheckCell
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定单元格行索引和列索引处的Cell元素或 null
+description: 获取Cell指定单元格行索引和列索引处的元素或空值
 type: docs
 weight: 220
 url: /zh/net/aspose.cells.griddesktop.data/gridcells/checkcell/
 ---
 ## GridCells.CheckCell method
 
-获取指定单元格行索引和列索引处的Cell元素或 null。
+获取Cell指定单元格行索引和列索引处的元素或空值。
 
 ```csharp
 public GridCell CheckCell(int row, int column)
@@ -21,7 +21,7 @@ public GridCell CheckCell(int row, int column)
 
 ### 返回值
 
-如果存在 Cell 对象，则返回 GridCell 对象。 如果单元格不存在，则返回 null。
+如果 Cell 对象存在，则返回 GridCell 对象。 如果单元格不存在，则返回 null。
 
 ### 也可以看看
 

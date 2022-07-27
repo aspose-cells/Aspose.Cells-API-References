@@ -20,7 +20,7 @@ public class Bullet
 | --- | --- |
 | [BulletValue](../../aspose.cells.drawing.texts/bullet/bulletvalue) { get; } | Получает значение маркера |
 | [FontName](../../aspose.cells.drawing.texts/bullet/fontname) { get; set; } | Получить и установить имя шрифта. |
-| [Type](../../aspose.cells.drawing.texts/bullet/type) { get; set; } | Получает и задает тип маркера. |
+| [Type](../../aspose.cells.drawing.texts/bullet/type) { get; set; } | Получает и устанавливает тип маркера. |
 
 ### Смотрите также
 

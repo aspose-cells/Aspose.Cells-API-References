@@ -1,14 +1,14 @@
 ---
 title: Scenarios
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает коллекциюScenarioaspose.cells/scenario.
+description: Получает коллекциюScenarioaspose.cells/scenario .
 type: docs
 weight: 400
 url: /ru/net/aspose.cells/worksheet/scenarios/
 ---
 ## Worksheet.Scenarios property
 
-Получает коллекцию[`Scenario`](../../scenario).
+Получает коллекцию[`Scenario`](../../scenario) .
 
 ```csharp
 public ScenarioCollection Scenarios { get; }

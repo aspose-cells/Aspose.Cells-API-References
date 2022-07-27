@@ -1,14 +1,14 @@
 ---
 title: IsRectangularCornered
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает значение указывающее имеет ли область диаграммы прямоугольные углы. Значение по умолчанию  true.
+description: Получает или задает значение указывающее является ли область диаграммы прямоугольной с углами. Значение по умолчанию  true.
 type: docs
 weight: 170
 url: /ru/net/aspose.cells.charts/chart/isrectangularcornered/
 ---
 ## Chart.IsRectangularCornered property
 
-Получает или задает значение, указывающее, имеет ли область диаграммы прямоугольные углы. Значение по умолчанию — true.
+Получает или задает значение, указывающее, является ли область диаграммы прямоугольной с углами. Значение по умолчанию — true.
 
 ```csharp
 public bool IsRectangularCornered { get; set; }

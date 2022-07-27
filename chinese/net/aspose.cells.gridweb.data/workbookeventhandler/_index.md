@@ -10,7 +10,7 @@ url: /zh/net/aspose.cells.gridweb.data/workbookeventhandler/
 
 表示打算处理工作簿事件的接口。
 
-void **handleCellEvent** （对象发送者，CellEventArgs e）；
+空白 **处理细胞事件**（对象发送者，CellEventArgs e）；
 
 ```csharp
 public delegate void WorkbookEventHandler(object sender, CellEventArgs e);
@@ -18,7 +18,7 @@ public delegate void WorkbookEventHandler(object sender, CellEventArgs e);
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sender | Object | 事件源。 |
+| sender | Object | 事件的来源。 |
 | e | CellEventArgs | 事件参数。 |
 
 ### 也可以看看

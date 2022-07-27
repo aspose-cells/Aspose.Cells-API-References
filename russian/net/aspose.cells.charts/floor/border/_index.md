@@ -1,14 +1,14 @@
 ---
 title: Border
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или устанавливает границуLineaspose.cells.drawing/line.
+description: Получает или устанавливает границуLineaspose.cells.drawing/line .
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.charts/floor/border/
 ---
 ## Floor.Border property
 
-Получает или устанавливает границу[`Line`](../../../aspose.cells.drawing/line).
+Получает или устанавливает границу[`Line`](../../../aspose.cells.drawing/line) .
 
 ```csharp
 public Line Border { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: IsEnabled
 second_title: Aspose.Cells for .NET API 参考
-description: 指示控件是否可以接收焦点并响应用户生成的事件
+description: 表示控件是否可以接收焦点并响应用户生成的事件
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.drawing.activexcontrols/activexcontrol/isenabled/
 ---
 ## ActiveXControl.IsEnabled property
 
-指示控件是否可以接收焦点并响应用户生成的事件。
+表示控件是否可以接收焦点并响应用户生成的事件。
 
 ```csharp
 public bool IsEnabled { get; set; }

@@ -24,7 +24,7 @@ public CellArea[] GetPrintingPageBreaks(ImageOrPrintOptions options)
 
 ### Примечания
 
-Каждая ячейка представляет собой бумагу.
+Каждая область ячеек представляет бумагу.
 
 ### Смотрите также
 

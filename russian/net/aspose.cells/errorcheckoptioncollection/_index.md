@@ -20,7 +20,7 @@ public class ErrorCheckOptionCollection : CollectionBase<ErrorCheckOption>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/errorcheckoptioncollection/item) { get; } | Получает объект[`ErrorCheckOption`](../errorcheckoption)по заданному индексу. |
+| [Item](../../aspose.cells/errorcheckoptioncollection/item) { get; } | получает[`ErrorCheckOption`](../errorcheckoption) объект по заданному индексу. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы

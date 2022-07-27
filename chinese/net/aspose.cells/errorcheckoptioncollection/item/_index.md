@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 通过给定索引获取ErrorCheckOptionaspose.cells/errorcheckoption对象
+description: 获取ErrorCheckOptionaspose.cells/errorcheckoption给定索引的对象
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/errorcheckoptioncollection/item/
 ---
 ## ErrorCheckOptionCollection indexer
 
-通过给定索引获取[`ErrorCheckOption`](../../errorcheckoption)对象。
+获取[`ErrorCheckOption`](../../errorcheckoption)给定索引的对象。
 
 ```csharp
 public ErrorCheckOption this[int index] { get; }
@@ -16,11 +16,11 @@ public ErrorCheckOption this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引 |
+| index | 指数 |
 
 ### 返回值
 
-返回[`ErrorCheckOption`](../../errorcheckoption)对象
+返回[`ErrorCheckOption`](../../errorcheckoption)目的
 
 ### 也可以看看
 

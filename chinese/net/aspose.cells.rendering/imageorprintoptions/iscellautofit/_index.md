@@ -1,14 +1,14 @@
 ---
 title: IsCellAutoFit
 second_title: Aspose.Cells for .NET API 参考
-description: 表示单元格的宽度和高度是否由单元格值自动拟合 默认值为假
+description: 表示单元格的宽度和高度是否由单元格值自动拟合 默认值为false
 type: docs
 weight: 140
 url: /zh/net/aspose.cells.rendering/imageorprintoptions/iscellautofit/
 ---
 ## ImageOrPrintOptions.IsCellAutoFit property
 
-表示单元格的宽度和高度是否由单元格值自动拟合。 默认值为假。
+表示单元格的宽度和高度是否由单元格值自动拟合。 默认值为false。
 
 ```csharp
 public bool IsCellAutoFit { get; set; }

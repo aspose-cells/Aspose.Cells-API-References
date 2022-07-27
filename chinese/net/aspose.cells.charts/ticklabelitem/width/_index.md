@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Cells for .NET API 参考
-description: Ticklabel 项目的宽度与图表宽度的比率
+description: Ticklabel 项的宽度与图表宽度的比率
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.charts/ticklabelitem/width/
 ---
 ## TickLabelItem.Width property
 
-Ticklabel 项目的宽度与图表宽度的比率。
+Ticklabel 项的宽度与图表宽度的比率。
 
 ```csharp
 public double Width { get; }

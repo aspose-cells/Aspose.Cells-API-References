@@ -18,9 +18,9 @@ public ArcShape AddArc(int upperLeftRow, int top, int upperLeftColumn, int left,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| top | Int32 | Представляет вертикальное смещение ArcShape от его левой строки в единицах пикселя. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
-| left | Int32 | Представляет горизонтальное смещение ArcShape от его левого столбца в единицах пикселя. |
+| top | Int32 | Представляет вертикальное смещение ArcShape от его левой строки в пикселях. |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
+| left | Int32 | Представляет горизонтальное смещение ArcShape от его левого столбца в пикселях. |
 | height | Int32 | Представляет высоту ArcShape в пикселях. |
 | width | Int32 | Представляет ширину ArcShape в пикселях. |
 
@@ -33,7 +33,7 @@ public ArcShape AddArc(int upperLeftRow, int top, int upperLeftColumn, int left,
 ```csharp
 
 [C#]
-  // добавляем arc
+//добавляем дугу
 ArcShape arcShape = shapes.AddArc(1, 0, 1, 0, 100, 50);
 ```
 

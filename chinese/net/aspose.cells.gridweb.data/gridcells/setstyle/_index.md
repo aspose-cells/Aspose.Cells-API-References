@@ -1,14 +1,14 @@
 ---
 title: SetStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 将样式设置为指定的单元格范围
+description: 将样式设置为指定范围的单元格
 type: docs
 weight: 730
 url: /zh/net/aspose.cells.gridweb.data/gridcells/setstyle/
 ---
 ## SetStyle(int, int, int, int, GridTableItemStyle) {#setstyle}
 
-将样式设置为指定的单元格范围。
+将样式设置为指定范围的单元格。
 
 ```csharp
 public void SetStyle(int firstRow, int firstColumn, int rowNumber, int columnNumber, 
@@ -19,8 +19,8 @@ public void SetStyle(int firstRow, int firstColumn, int rowNumber, int columnNum
 | --- | --- | --- |
 | firstRow | Int32 | 此范围的第一行（从零开始） |
 | firstColumn | Int32 | 此范围的第一列（从零开始） |
-| rowNumber | Int32 | 行数（从一个开始） |
-| columnNumber | Int32 | 列数（从一个开始） |
+| rowNumber | Int32 | 行数（基于一个） |
+| columnNumber | Int32 | 列数（基于一个） |
 | style | GridTableItemStyle | 要设置的样式对象 |
 
 ### 也可以看看
@@ -34,7 +34,7 @@ public void SetStyle(int firstRow, int firstColumn, int rowNumber, int columnNum
 
 ## SetStyle(string, GridTableItemStyle) {#setstyle_1}
 
-将样式设置为指定的单元格范围。
+将样式设置为指定范围的单元格。
 
 ```csharp
 public void SetStyle(string cellRange, GridTableItemStyle style)
@@ -42,7 +42,7 @@ public void SetStyle(string cellRange, GridTableItemStyle style)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cellRange | String | 单元格名称范围，如 "A1:D6" |
+| cellRange | String | 单元格名称的范围，例如“A1:D6” |
 | style | GridTableItemStyle | 要设置的样式对象 |
 
 ### 也可以看看

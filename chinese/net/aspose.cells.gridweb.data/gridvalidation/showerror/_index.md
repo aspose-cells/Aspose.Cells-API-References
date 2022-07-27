@@ -1,14 +1,14 @@
 ---
 title: ShowError
 second_title: Aspose.Cells for .NET API 参考
-description: 表示用户输入无效数据时是否显示数据验证错误信息
+description: 指示是否在用户输入无效数据时显示数据验证错误消息
 type: docs
 weight: 130
 url: /zh/net/aspose.cells.gridweb.data/gridvalidation/showerror/
 ---
 ## GridValidation.ShowError property
 
-表示用户输入无效数据时是否显示数据验证错误信息。
+指示是否在用户输入无效数据时显示数据验证错误消息。
 
 ```csharp
 public bool ShowError { get; set; }

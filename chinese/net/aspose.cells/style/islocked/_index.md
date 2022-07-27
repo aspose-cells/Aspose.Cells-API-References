@@ -1,14 +1,14 @@
 ---
 title: IsLocked
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置一个值指示是否可以修改单元格
+description: 获取或设置一个单元格是否可以修改的值
 type: docs
 weight: 190
 url: /zh/net/aspose.cells/style/islocked/
 ---
 ## Style.IsLocked property
 
-获取或设置一个值，指示是否可以修改单元格。
+获取或设置一个单元格是否可以修改的值。
 
 ```csharp
 public bool IsLocked { get; set; }

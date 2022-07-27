@@ -78,7 +78,7 @@ public Button AddButton(int row, int col, int width, int height, string text, bo
 | width | Int32 | 按钮的宽度。 |
 | height | Int32 | 按钮的高度。 |
 | text | String | 按钮文本。 |
-| alwaysVisible | Boolean | 如果按钮应始终可见，则仅适用于单元格控制按钮。 |
+| alwaysVisible | Boolean | 如果 Button 应始终可见，则仅适用于 Cell Control Button。 |
 
 ### 返回值
 
@@ -107,7 +107,7 @@ public Button AddButton(string cellName, int width, int height, string text, boo
 | width | Int32 | 按钮的宽度。 |
 | height | Int32 | 按钮的高度。 |
 | text | String | 按钮文本。 |
-| alwaysVisible | Boolean | 如果按钮应始终可见，则仅适用于单元格控制按钮。 |
+| alwaysVisible | Boolean | 如果 Button 应始终可见，则仅适用于 Cell Control Button。 |
 
 ### 返回值
 

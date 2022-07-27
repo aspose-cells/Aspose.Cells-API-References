@@ -1,14 +1,14 @@
 ---
 title: GridMemorySetting
 second_title: Aspose.Cells for .NET API 参考
-description: Aspose GridMemorySetting 类 表示 GridDesktop 的内存设置首选项
+description: Aspose GridMemorySetting class 表示 GridDesktop 的内存设置首选项
 type: docs
 weight: 850
 url: /zh/net/aspose.cells.griddesktop/gridmemorysetting/
 ---
 ## GridMemorySetting enumeration
 
-Aspose GridMemorySetting 类 表示 GridDesktop 的内存设置首选项。
+Aspose GridMemorySetting class 表示 GridDesktop 的内存设置首选项。
 
 ```csharp
 public enum GridMemorySetting
@@ -19,7 +19,7 @@ public enum GridMemorySetting
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Normal | `0` | 默认选项。此选项适用于所有版本。 |
-| MemoryPreference | `1` | 针对内存使用进行了优化。此选项在某些特殊情况下可能会降低性能，并且从 v 8.0.0 开始应用。 |
+| MemoryPreference | `1` | 针对内存使用进行了优化。此选项在某些特殊情况下可能会降低性能，并且从 v 8.0.0. 开始应用 |
 
 ### 也可以看看
 

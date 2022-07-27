@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элемент табличного стиля по индексу.
+description: Получает элемент стиля таблицы по индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.tables/tablestyleelementcollection/item/
 ---
 ## TableStyleElementCollection indexer (1 of 2)
 
-Получает элемент табличного стиля по индексу.
+Получает элемент стиля таблицы по индексу.
 
 ```csharp
 public TableStyleElement this[int index] { get; }
@@ -20,7 +20,7 @@ public TableStyleElement this[int index] { get; }
 
 ### Возвращаемое значение
 
-Возвращает[`TableStyleElement`](../../tablestyleelement)объект
+Возвращает[`TableStyleElement`](../../tablestyleelement) объект
 
 ### Смотрите также
 
@@ -45,7 +45,7 @@ public TableStyleElement this[TableStyleElementType type] { get; }
 
 ### Возвращаемое значение
 
-Возвращает[`TableStyleElement`](../../tablestyleelement)объект
+Возвращает[`TableStyleElement`](../../tablestyleelement) объект
 
 ### Смотрите также
 

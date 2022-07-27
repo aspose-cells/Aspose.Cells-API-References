@@ -1,14 +1,14 @@
 ---
 title: HasTopBevelData
 second_title: Aspose.Cells for .NET API 参考
-description: 指示形状是否具有顶部斜角数据
+description: 表示形状是否有顶部斜角数据
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.drawing/format3d/hastopbeveldata/
 ---
 ## Format3D.HasTopBevelData method
 
-指示形状是否具有顶部斜角数据。
+表示形状是否有顶部斜角数据。
 
 ```csharp
 public bool HasTopBevelData()

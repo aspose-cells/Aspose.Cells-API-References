@@ -1,14 +1,14 @@
 ---
 title: DeleteRange
 second_title: Aspose.Cells for .NET API 参考
-description: 删除一系列单元格并根据 shift 选项移动单元格
+description: 删除一系列单元格并根据移位选项移位单元格
 type: docs
 weight: 340
 url: /zh/net/aspose.cells.gridweb.data/gridcells/deleterange/
 ---
 ## GridCells.DeleteRange method
 
-删除一系列单元格并根据 shift 选项移动单元格。
+删除一系列单元格并根据移位选项移位单元格。
 
 ```csharp
 public void DeleteRange(int startRow, int startColumn, int endRow, int endColumn, 
@@ -17,7 +17,7 @@ public void DeleteRange(int startRow, int startColumn, int endRow, int endColumn
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startRow | Int32 | 起始行索引。 |
+| startRow | Int32 | 开始行索引。 |
 | startColumn | Int32 | 开始列索引。 |
 | endRow | Int32 | 结束行索引。 |
 | endColumn | Int32 | 结束列索引。 |

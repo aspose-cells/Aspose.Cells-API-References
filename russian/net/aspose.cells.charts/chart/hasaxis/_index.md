@@ -1,14 +1,14 @@
 ---
 title: HasAxis
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает какие оси существуют на графике.
+description: Возвращает какие оси существуют на диаграмме.
 type: docs
 weight: 530
 url: /ru/net/aspose.cells.charts/chart/hasaxis/
 ---
 ## Chart.HasAxis method
 
-Возвращает, какие оси существуют на графике.
+Возвращает, какие оси существуют на диаграмме.
 
 ```csharp
 public bool HasAxis(AxisType aixsType, bool isPrimary)
@@ -16,7 +16,7 @@ public bool HasAxis(AxisType aixsType, bool isPrimary)
 
 ### Примечания
 
-Обычно Pie, PieExploded, PiePie,PieBar, Pie3D, Pie3DExploded,Doughnut, DoughnutExploded не имеют оси .
+Обычно Pie, PieExploded, PiePie,PieBar, Pie3D, Pie3DExploded,Doughnut, DoughnutExploded не имеют оси.
 
 ### Смотрите также
 

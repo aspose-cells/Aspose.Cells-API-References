@@ -30,15 +30,15 @@ public enum NumberType
 | Percentage1 | `9` | 百分比 0% |
 | Percentage2 | `10` | 百分比 0.00% |
 | Scientific1 | `11` | 科学 0.00E+00 |
-| Fraction1 | `12` | 分数# ?/? |
-| Fraction2 | `13` | 分数# ??/?? |
+| Fraction1 | `12` | 分数 # ?/? |
+| Fraction2 | `13` | 分数 # ??/?? |
 | Date1 | `14` | 日期 m/d/yyyy |
 | Date2 | `15` | 日期 d-mmm-yy |
 | Date3 | `16` | 日期 d-mmm |
 | Date4 | `17` | 日期 mmm-yy |
 | Time1 | `18` | 时间 h:mm AM/PM |
 | Time2 | `19` | 时间 h:mm:ss AM/PM |
-| Time3 | `20` | 时间 h:mm |
+| Time3 | `20` | 时间h:mm |
 | Time4 | `21` | 时间 h:mm:ss |
 | Time5 | `22` | 时间 m/d/yy h:mm |
 | Currency5 | `37` | 货币#,##0;-#,##0 |
@@ -49,9 +49,9 @@ public enum NumberType
 | Accounting2 | `42` | 会计 _ $* #,##0_ ;_ $* -#,##0_ ;_ $* "-"_ ;_ @_ |
 | Accounting3 | `43` | 会计 _ * #,##0.00_ ;_ * -#,##0.00_ ;_ * "-"??_ ;_ @_ |
 | Accounting4 | `44` | 会计 _ $* #,##0.00_ ;_ $* -#,##0.00_ ;_ $* "-"??_ ;_ @_ |
-| Time6 | `45` | 时间 mm:ss |
+| Time6 | `45` | 时间mm:ss |
 | Time7 | `46` | 时间 [h]:mm:ss |
-| Time8 | `47` | 时间 mm:ss.0 |
+| Time8 | `47` | 时间mm:ss.0 |
 | Scientific2 | `48` | 科学 ##0.0E+00 |
 | Text | `49` | 文本@ |
 | Currency9 | `23` | 货币 $#,##0;($#,##0) |
@@ -71,12 +71,12 @@ public enum NumberType
 | EasternDate11 | `54` | 日期 M?D? |
 | EasternDate12 | `57` | 日期 YYYY?M? |
 | EasternDate13 | `58` | 日期 M?D? |
-| EasternTime1 | `32` | 时间 h?mm? |
-| EasternTime2 | `33` | 时间 h?mm?ss? |
-| EasternTime3 | `34` | 时间 tth?mm? |
-| EasternTime4 | `35` | 时间 tth?mm?ss? |
-| EasternTime5 | `55` | 时间 tth?mm? |
-| EasternTime6 | `56` | 时间 tth?mm?ss? |
+| EasternTime1 | `32` | 时间h?mm? |
+| EasternTime2 | `33` | 时间h?mm?ss? |
+| EasternTime3 | `34` | 时间tth?mm? |
+| EasternTime4 | `35` | 时间tth?mm?ss? |
+| EasternTime5 | `55` | 时间tth?mm? |
+| EasternTime6 | `56` | 时间tth?mm?ss? |
 
 ### 也可以看看
 

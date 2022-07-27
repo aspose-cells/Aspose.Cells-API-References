@@ -1,14 +1,14 @@
 ---
 title: ColInSelection
 second_title: Aspose.Cells for .NET API 参考
-description: 确定索引处的指定列是否处于选中状态
+description: 判断索引处的指定列是否处于选中状态
 type: docs
 weight: 600
 url: /zh/net/aspose.cells.griddesktop/worksheet/colinselection/
 ---
 ## Worksheet.ColInSelection method
 
-确定索引处的指定列是否处于选中状态。
+判断索引处的指定列是否处于选中状态。
 
 ```csharp
 public bool ColInSelection(int index)

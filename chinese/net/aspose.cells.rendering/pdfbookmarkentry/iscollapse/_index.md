@@ -1,14 +1,14 @@
 ---
 title: IsCollapse
 second_title: Aspose.Cells for .NET API 参考
-description: 当该属性为真时书签条目将折叠否则将展开
+description: 当该属性为真时书签条目会折叠否则会展开
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.rendering/pdfbookmarkentry/iscollapse/
 ---
 ## PdfBookmarkEntry.IsCollapse property
 
-当该属性为真时，书签条目将折叠，否则将展开。
+当该属性为真时，书签条目会折叠，否则会展开。
 
 ```csharp
 public bool IsCollapse { get; set; }

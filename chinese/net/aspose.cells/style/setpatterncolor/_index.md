@@ -16,7 +16,7 @@ public void SetPatternColor(BackgroundType pattern, Color color1, Color color2)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pattern | BackgroundType | 模式。 |
+| pattern | BackgroundType | 图案。 |
 | color1 | Color | 前景色。 |
 | color2 | Color | 背景颜色。仅在模式不是 BackgroundType.None 和 BackgroundType.Solid 时有效。 |
 

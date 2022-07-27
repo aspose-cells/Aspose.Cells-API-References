@@ -17,18 +17,18 @@ public void RemoveDateFilter(int fieldIndex, DateTimeGroupingType dateTimeGroupi
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldIndex | Int32 | 要作为过滤器基础的字段的整数偏移量 （从左侧列表的；最左边的字段是字段 0)。 |
+| fieldIndex | Int32 | 您要作为过滤器基础的字段的整数偏移量 （从列表的左侧开始；最左侧的字段是字段0）。 |
 | dateTimeGroupingType | DateTimeGroupingType | [`DateTimeGroupingType`](../../datetimegroupingtype) |
-| year | Int32 | 年份。 |
-| month | Int32 | 月份。 |
-| day | Int32 | 当天。 |
+| year | Int32 | 那一年。 |
+| month | Int32 | 这个月。 |
+| day | Int32 | 那天。 |
 | hour | Int32 | 小时。 |
 | minute | Int32 | 分钟。 |
-| second | Int32 | 秒。 |
+| second | Int32 | 第二。 |
 
 ### 评论
 
-如果 DateTimeGroupingType 为 Year，则只有参数年份有效。 如果 DateTiemGroupingType 为 Month，则只有参数年月效果。
+如果DateTimeGroupingType 为Year，仅参数年生效。 如果DateTiemGroupingType 为Month，仅参数年月生效。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置框架高度以图表区域的 1/4000 为单位
+description: 获取或设置边框高度单位为图表区域的1/4000
 type: docs
 weight: 100
 url: /zh/net/aspose.cells.charts/chartframe/height/
 ---
 ## ChartFrame.Height property
 
-获取或设置框架高度，以图表区域的 1/4000 为单位。
+获取或设置边框高度，单位为图表区域的1/4000。
 
 ```csharp
 public virtual int Height { get; set; }

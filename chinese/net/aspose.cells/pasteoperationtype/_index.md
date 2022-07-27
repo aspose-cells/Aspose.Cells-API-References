@@ -20,7 +20,7 @@ public enum PasteOperationType
 | --- | --- | --- |
 | None | `0` | 无操作。 |
 | Add | `1` | 添加 |
-| Subtract | `2` | 减 |
+| Subtract | `2` | 减去 |
 | Multiply | `3` | 相乘 |
 | Divide | `4` | 除法 |
 

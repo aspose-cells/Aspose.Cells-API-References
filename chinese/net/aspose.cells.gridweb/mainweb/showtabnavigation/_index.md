@@ -1,14 +1,14 @@
 ---
 title: ShowTabNavigation
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置tab导航按钮是否显示默认值为true
+description: 获取或设置tab导航按钮是否显示默认为true
 type: docs
 weight: 980
 url: /zh/net/aspose.cells.gridweb/mainweb/showtabnavigation/
 ---
 ## MainWeb.ShowTabNavigation property
 
-获取或设置tab导航按钮是否显示，默认值为true。
+获取或设置tab导航按钮是否显示，默认为true。
 
 ```csharp
 public bool ShowTabNavigation { get; set; }

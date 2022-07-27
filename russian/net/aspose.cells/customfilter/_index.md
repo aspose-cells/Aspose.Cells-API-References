@@ -25,7 +25,7 @@ public class CustomFilter
 
 | Имя | Описание |
 | --- | --- |
-| [SetCriteria](../../aspose.cells/customfilter/setcriteria)(FilterOperatorType, object) | Устанавливает критерии фильтра. |
+| [SetCriteria](../../aspose.cells/customfilter/setcriteria)(FilterOperatorType, object) | Задает критерии фильтра. |
 
 ### Смотрите также
 

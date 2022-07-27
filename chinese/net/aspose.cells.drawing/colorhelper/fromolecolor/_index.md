@@ -1,14 +1,14 @@
 ---
 title: FromOleColor
 second_title: Aspose.Cells for .NET API 参考
-description: 转换 OLE_COLOR
+description: 转换 OLE_COLOR.
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.drawing/colorhelper/fromolecolor/
 ---
 ## ColorHelper.FromOleColor method
 
-转换 OLE_COLOR。
+转换 OLE_COLOR.
 
 ```csharp
 public static Color FromOleColor(int oleColor)
@@ -20,7 +20,7 @@ public static Color FromOleColor(int oleColor)
 
 ### 返回值
 
-Color对象。
+这Color目的。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ProtectedRangeCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装ProtectedRange./protectedrange对象的集合
+description: 封装了一个集合ProtectedRange./protectedrange对象.
 type: docs
 weight: 4900
 url: /zh/net/aspose.cells/protectedrangecollection/
 ---
 ## ProtectedRangeCollection class
 
-封装[`ProtectedRange`](../protectedrange)对象的集合。
+封装了一个集合[`ProtectedRange`](../protectedrange)对象.
 
 ```csharp
 public class ProtectedRangeCollection : CollectionBase<ProtectedRange>
@@ -20,14 +20,14 @@ public class ProtectedRangeCollection : CollectionBase<ProtectedRange>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/protectedrangecollection/item) { get; } | 获取指定索引处的[`ProtectedRange`](../protectedrange)元素。 |
+| [Item](../../aspose.cells/protectedrangecollection/item) { get; } | 获取[`ProtectedRange`](../protectedrange)指定索引处的元素。 |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells/protectedrangecollection/add)(string, int, int, int, int) | 将[`ProtectedRange`](../protectedrange)项添加到集合中。 |
+| [Add](../../aspose.cells/protectedrangecollection/add)(string, int, int, int, int) | 添加一个[`ProtectedRange`](../protectedrange)项目到集合. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ProtectedRange) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ProtectedRange, IComparer&lt;ProtectedRange&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, ProtectedRange, IComparer&lt;ProtectedRange&gt;) |  |

@@ -1,14 +1,14 @@
 ---
 title: EnableFieldList
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает включает ли список полей для сводной таблицы.
+description: Получает включен ли список полей для сводной таблицы.
 type: docs
 weight: 200
 url: /ru/net/aspose.cells.pivot/pivottable/enablefieldlist/
 ---
 ## PivotTable.EnableFieldList property
 
-Получает, включает ли список полей для сводной таблицы.
+Получает, включен ли список полей для сводной таблицы.
 
 ```csharp
 public bool EnableFieldList { get; set; }

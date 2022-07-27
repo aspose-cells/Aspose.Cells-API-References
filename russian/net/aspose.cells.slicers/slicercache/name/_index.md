@@ -20,7 +20,7 @@ public string Name { get; }
 
 [C#]
 
-  //получаем имя кеша слайсера.
+//получаем имя кеша слайсера.
 Console.WriteLine(slicerCache.Name);
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: Comment
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает комментарий к таблице.
+description: Получает и устанавливает комментарий таблицы.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.tables/listobject/comment/
 ---
 ## ListObject.Comment property
 
-Получает и устанавливает комментарий к таблице.
+Получает и устанавливает комментарий таблицы.
 
 ```csharp
 public string Comment { get; set; }

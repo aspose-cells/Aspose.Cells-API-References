@@ -32,7 +32,7 @@ public class PivotFilterCollection : CollectionBase<PivotFilter>
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(PivotFilter, IComparer&lt;PivotFilter&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, PivotFilter, IComparer&lt;PivotFilter&gt;) |  |
 | [Clear](../../aspose.cells/collectionbase`1/clear)() |  |
-| [ClearFilter](../../aspose.cells.pivot/pivotfiltercollection/clearfilter)(int) | Очистить PivotFilter от определенного PivotField |
+| [ClearFilter](../../aspose.cells.pivot/pivotfiltercollection/clearfilter)(int) | Очистить PivotFilter из определенного PivotField |
 | [Contains](../../aspose.cells/collectionbase`1/contains)(PivotFilter) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(PivotFilter[]) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(PivotFilter[], int) |  |

@@ -1,14 +1,14 @@
 ---
 title: GradientStop
 second_title: Aspose.Cells for .NET API 参考
-description: 表示渐变色标
+description: 代表梯度停止
 type: docs
 weight: 2100
 url: /zh/net/aspose.cells.drawing/gradientstop/
 ---
 ## GradientStop class
 
-表示渐变色标。
+代表梯度停止。
 
 ```csharp
 public class GradientStop
@@ -18,9 +18,9 @@ public class GradientStop
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CellsColor](../../aspose.cells.drawing/gradientstop/cellscolor) { get; } | 获取此渐变色标的颜色。 |
-| [Position](../../aspose.cells.drawing/gradientstop/position) { get; set; } | 停止位置。 |
-| [Transparency](../../aspose.cells.drawing/gradientstop/transparency) { get; set; } | 以从 0.0（不透明）到 1.0（透明）的值返回或设置区域的透明度。 |
+| [CellsColor](../../aspose.cells.drawing/gradientstop/cellscolor) { get; } | 获取此渐变停止的颜色。 |
+| [Position](../../aspose.cells.drawing/gradientstop/position) { get; set; } | 停靠点的位置。 |
+| [Transparency](../../aspose.cells.drawing/gradientstop/transparency) { get; set; } | 将区域的透明度返回或设置为从 0.0（不透明）到 1.0（透明）的值。 |
 
 ### 也可以看看
 

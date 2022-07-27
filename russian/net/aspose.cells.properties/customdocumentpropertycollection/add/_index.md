@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Cells для .NET API
-description: Создает новое пользовательское свойство документа PropertyType.String тип данных.
+description: Создает новое пользовательское свойство документа Тип свойства.String тип данных.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.properties/customdocumentpropertycollection/add/
 ---
 ## Add(string, string) {#add_4}
 
-Создает новое пользовательское свойство документа **PropertyType.String** тип данных.
+Создает новое пользовательское свойство документа **Тип свойства.String** тип данных.
 
 ```csharp
 public DocumentProperty Add(string name, string value)
@@ -17,11 +17,11 @@ public DocumentProperty Add(string name, string value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Имя свойства. |
-| value | String | Значение свойства. |
+| value | String | Стоимость имущества. |
 
 ### Возвращаемое значение
 
-Вновь созданный объект свойств.
+Недавно созданный объект свойства.
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public DocumentProperty Add(string name, string value)
 
 ## Add(string, int) {#add_2}
 
-Создает новое пользовательское свойство документа с типом данных **PropertyType.Number** .
+Создает новое пользовательское свойство документа **PropertyType.Number** тип данных.
 
 ```csharp
 public DocumentProperty Add(string name, int value)
@@ -43,11 +43,11 @@ public DocumentProperty Add(string name, int value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Имя свойства. |
-| value | Int32 | Значение свойства. |
+| value | Int32 | Стоимость имущества. |
 
 ### Возвращаемое значение
 
-Вновь созданный объект свойства.
+Недавно созданный объект свойства.
 
 ### Смотрите также
 
@@ -60,7 +60,7 @@ public DocumentProperty Add(string name, int value)
 
 ## Add(string, DateTime) {#add_3}
 
-Создает новое пользовательское свойство документа с типом данных **PropertyType.DateTime** .
+Создает новое пользовательское свойство документа **PropertyType.DateTime** тип данных.
 
 ```csharp
 public DocumentProperty Add(string name, DateTime value)
@@ -69,11 +69,11 @@ public DocumentProperty Add(string name, DateTime value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Имя свойства. |
-| value | DateTime | Значение свойства. |
+| value | DateTime | Стоимость имущества. |
 
 ### Возвращаемое значение
 
-Вновь созданный объект свойств.
+Недавно созданный объект свойства.
 
 ### Смотрите также
 
@@ -86,7 +86,7 @@ public DocumentProperty Add(string name, DateTime value)
 
 ## Add(string, bool) {#add}
 
-Создает новое пользовательское свойство документа с типом данных **PropertyType.Boolean** .
+Создает новое пользовательское свойство документа **PropertyType.Boolean** тип данных.
 
 ```csharp
 public DocumentProperty Add(string name, bool value)
@@ -95,11 +95,11 @@ public DocumentProperty Add(string name, bool value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Имя свойства. |
-| value | Boolean | Значение свойства. |
+| value | Boolean | Стоимость имущества. |
 
 ### Возвращаемое значение
 
-Вновь созданный объект свойства.
+Недавно созданный объект свойства.
 
 ### Смотрите также
 
@@ -112,7 +112,7 @@ public DocumentProperty Add(string name, bool value)
 
 ## Add(string, double) {#add_1}
 
-Создает новое пользовательское свойство документа с типом данных **PropertyType.Float** .
+Создает новое пользовательское свойство документа **PropertyType.Float** тип данных.
 
 ```csharp
 public DocumentProperty Add(string name, double value)
@@ -121,11 +121,11 @@ public DocumentProperty Add(string name, double value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Имя свойства. |
-| value | Double | Значение свойства. |
+| value | Double | Стоимость имущества. |
 
 ### Возвращаемое значение
 
-Вновь созданный объект свойства.
+Недавно созданный объект свойства.
 
 ### Смотрите также
 

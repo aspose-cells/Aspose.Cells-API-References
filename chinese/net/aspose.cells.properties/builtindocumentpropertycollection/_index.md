@@ -26,11 +26,11 @@ public class BuiltInDocumentPropertyCollection : DocumentPropertyCollection
 | [ContentType](../../aspose.cells.properties/builtindocumentpropertycollection/contenttype) { get; set; } | 获取或设置文档的内容类型。 |
 | [Count](../../aspose.cells.properties/documentpropertycollection/count) { get; } | 获取集合中的项目数。 |
 | [CreatedTime](../../aspose.cells.properties/builtindocumentpropertycollection/createdtime) { get; set; } | 获取或设置本地时区的文档创建日期。 |
-| [CreatedUniversalTime](../../aspose.cells.properties/builtindocumentpropertycollection/createduniversaltime) { get; set; } | 获取或设置文档创建的通用时间。 |
-| [DocumentVersion](../../aspose.cells.properties/builtindocumentpropertycollection/documentversion) { get; set; } | 表示文件的版本。 |
+| [CreatedUniversalTime](../../aspose.cells.properties/builtindocumentpropertycollection/createduniversaltime) { get; set; } | 获取或设置文档创建的世界时间。 |
+| [DocumentVersion](../../aspose.cells.properties/builtindocumentpropertycollection/documentversion) { get; set; } | 代表文件的版本。 |
 | [HyperlinkBase](../../aspose.cells.properties/builtindocumentpropertycollection/hyperlinkbase) { get; set; } | 获取或设置超链接库属性。 |
-| [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | 按索引返回[`DocumentProperty`](../documentproperty)对象。 |
-| override [Item](../../aspose.cells.properties/builtindocumentpropertycollection/item) { get; } | 按属性名称返回[`DocumentProperty`](../documentproperty)对象。 |
+| [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | 返回一个[`DocumentProperty`](../documentproperty)按索引的对象. |
+| override [Item](../../aspose.cells.properties/builtindocumentpropertycollection/item) { get; } | 返回一个[`DocumentProperty`](../documentproperty)按属性名称的对象。 |
 | [Keywords](../../aspose.cells.properties/builtindocumentpropertycollection/keywords) { get; set; } | 获取或设置文档关键字。 |
 | [Language](../../aspose.cells.properties/builtindocumentpropertycollection/language) { get; set; } | 获取或设置文档的语言。 |
 | [LastPrinted](../../aspose.cells.properties/builtindocumentpropertycollection/lastprinted) { get; set; } | 获取或设置文档最后在本地时区打印的日期。 |
@@ -49,7 +49,7 @@ public class BuiltInDocumentPropertyCollection : DocumentPropertyCollection
 | [Title](../../aspose.cells.properties/builtindocumentpropertycollection/title) { get; set; } | 获取或设置文档的标题。 |
 | [TotalEditingTime](../../aspose.cells.properties/builtindocumentpropertycollection/totaleditingtime) { get; set; } | 获取或设置总编辑时间，以分钟为单位。 |
 | [Version](../../aspose.cells.properties/builtindocumentpropertycollection/version) { get; set; } | 表示创建文档的应用程序的版本号。 |
-| [Words](../../aspose.cells.properties/builtindocumentpropertycollection/words) { get; set; } | 表示文档中字数的估计值。 |
+| [Words](../../aspose.cells.properties/builtindocumentpropertycollection/words) { get; set; } | 表示文档中单词数的估计值。 |
 
 ## 方法
 
@@ -64,7 +64,7 @@ public class BuiltInDocumentPropertyCollection : DocumentPropertyCollection
 
 ### 评论
 
-提供对:::R5:T:Aspose.Cells.Properties.DocumentProperty::的访问:对象的名称（使用索引器）和 通过一组返回适当类型值的类型化属性。
+提供访问[`DocumentProperty`](../documentproperty)对象的名称（使用索引器）和 通过一组返回适当类型值的类型化属性。
 
 ### 也可以看看
 

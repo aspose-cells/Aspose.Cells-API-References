@@ -1,14 +1,14 @@
 ---
 title: PlotArea
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает область построения диаграммы которая включает метки делений осей.
+description: Получает область построения диаграммы которая включает метки деления оси.
 type: docs
 weight: 270
 url: /ru/net/aspose.cells.charts/chart/plotarea/
 ---
 ## Chart.PlotArea property
 
-Получает область построения диаграммы, которая включает метки делений осей.
+Получает область построения диаграммы, которая включает метки деления оси.
 
 ```csharp
 public PlotArea PlotArea { get; }

@@ -21,7 +21,7 @@ public int AddFieldToArea(PivotFieldType fieldType, string fieldName)
 
 ### 返回值
 
-特定字段中的字段位置。如果没有命名为它的字段，则返回-1。
+特定字段中的字段位置。如果没有以它命名的字段，则返回-1。
 
 ### 也可以看看
 
@@ -68,8 +68,8 @@ public int AddFieldToArea(PivotFieldType fieldType, PivotField pivotField)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldType | PivotFieldType | 字段区域类型。它可以是以下 值之一:&lt;table border= "1"&gt;&lt;tr&gt;&lt;td&gt;PivotFieldType.Row&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PivotFieldType.Column&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PivotFieldType.Data&lt;/td &gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PivotFieldType.Page&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; |
-| pivotField | PivotField | 基础字段中的字段. |
+| fieldType | PivotFieldType | 字段区域类型。 |
+| pivotField | PivotField | 基础字段中的字段。 |
 
 ### 返回值
 

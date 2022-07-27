@@ -1,14 +1,14 @@
 ---
 title: PresetCameraType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示设置所有相机属性包括位置的不同算法方法
+description: 表示设置所有相机属性的不同算法方法包括位置
 type: docs
 weight: 2510
 url: /zh/net/aspose.cells.drawing/presetcameratype/
 ---
 ## PresetCameraType enumeration
 
-表示设置所有相机属性（包括位置）的不同算法方法。
+表示设置所有相机属性的不同算法方法，包括位置。
 
 ```csharp
 public enum PresetCameraType

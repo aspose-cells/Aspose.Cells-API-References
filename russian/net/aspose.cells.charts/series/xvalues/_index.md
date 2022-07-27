@@ -1,14 +1,14 @@
 ---
 title: XValues
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет значения x серии диаграммы.
+description: Представляет значения x ряда диаграммы.
 type: docs
 weight: 490
 url: /ru/net/aspose.cells.charts/series/xvalues/
 ---
 ## Series.XValues property
 
-Представляет значения x серии диаграммы.
+Представляет значения x ряда диаграммы.
 
 ```csharp
 public string XValues { get; set; }

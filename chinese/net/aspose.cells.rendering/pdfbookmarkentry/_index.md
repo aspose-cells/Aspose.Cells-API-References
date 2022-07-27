@@ -1,14 +1,14 @@
 ---
 title: PdfBookmarkEntry
 second_title: Aspose.Cells for .NET API 参考
-description: PdfBookmarkEntry 是 pdf 书签中的条目 如果当前实例的 Text 属性为 null 或 则 当前实例将被隐藏并在当前级别插入子级
+description: PdfBookmarkEntry 是 pdf 书签中的一个条目 如果当前实例的 Text 属性为 null 或 当前实例将被隐藏子项将插入当前级别
 type: docs
 weight: 5180
 url: /zh/net/aspose.cells.rendering/pdfbookmarkentry/
 ---
 ## PdfBookmarkEntry class
 
-PdfBookmarkEntry 是 pdf 书签中的条目。 如果当前实例的 Text 属性为 null 或 ""，则 当前实例将被隐藏并在当前级别插入子级。
+PdfBookmarkEntry 是 pdf 书签中的一个条目。 如果当前实例的 Text 属性为 null 或“”， 当前实例将被隐藏，子项将插入当前级别。
 
 ```csharp
 public class PdfBookmarkEntry
@@ -26,7 +26,7 @@ public class PdfBookmarkEntry
 | --- | --- |
 | [Destination](../../aspose.cells.rendering/pdfbookmarkentry/destination) { get; set; } | 书签链接到的单元格。 |
 | [DestinationName](../../aspose.cells.rendering/pdfbookmarkentry/destinationname) { get; set; } | 获取或设置目的地名称。 |
-| [IsCollapse](../../aspose.cells.rendering/pdfbookmarkentry/iscollapse) { get; set; } | 当该属性为真时，书签条目将折叠，否则将展开。 |
+| [IsCollapse](../../aspose.cells.rendering/pdfbookmarkentry/iscollapse) { get; set; } | 当该属性为真时，书签条目会折叠，否则会展开。 |
 | [IsOpen](../../aspose.cells.rendering/pdfbookmarkentry/isopen) { get; set; } | 当该属性为真时，书签条目将展开，否则将折叠。 |
 | [SubEntry](../../aspose.cells.rendering/pdfbookmarkentry/subentry) { get; set; } | 书签的子条目。 |
 | [Text](../../aspose.cells.rendering/pdfbookmarkentry/text) { get; set; } | 书签的标题。 |
@@ -46,7 +46,7 @@ ellInPage2.PutValue("page2");
 ellInPage3.PutValue("page3");
 
 dfBookmarkEntry pbeRoot = new PdfBookmarkEntry();
-beRoot.Text = "root";   // 如果 pbeRoot.Text = null，则 pbeRoot 的所有子级都将插入到书签的顶层。
+beRoot.Text = "root";  // 如果 pbeRoot.Text = null，则 pbeRoot 的所有子级都将插入到书签的顶层。
 beRoot.Destination = cellInPage1;
 beRoot.SubEntry = new ArrayList();
 beRoot.IsOpen = false;

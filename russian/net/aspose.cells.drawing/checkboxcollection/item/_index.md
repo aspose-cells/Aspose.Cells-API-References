@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементCheckBoxaspose.cells.drawing/checkboxпо указанному индексу.
+description: ПолучаетCheckBoxaspose.cells.drawing/checkbox элемент по указанному индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.drawing/checkboxcollection/item/
 ---
 ## CheckBoxCollection indexer
 
-Получает элемент[`CheckBox`](../../checkbox)по указанному индексу.
+Получает[`CheckBox`](../../checkbox) элемент по указанному индексу.
 
 ```csharp
 public CheckBox this[int index] { get; }

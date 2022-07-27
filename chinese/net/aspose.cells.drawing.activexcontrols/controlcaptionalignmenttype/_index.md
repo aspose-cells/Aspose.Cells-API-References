@@ -19,7 +19,7 @@ public enum ControlCaptionAlignmentType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Left | `0` | 控件的左侧。 |
-| Right | `1` | 控件的右侧。 |
+| Right | `1` | 控件的右边。 |
 
 ### 也可以看看
 

@@ -19,7 +19,7 @@ public string Title { get; set; }
 ```csharp
 
 [C#]
-  // Создаем строку подписи object
+// Создаем объект строки подписи
 SignatureLine s4 = new SignatureLine();
 s4.Title = "Development Lead";
 ```

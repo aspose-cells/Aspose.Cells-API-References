@@ -1,14 +1,14 @@
 ---
 title: LightCellsDataProvider
 second_title: Aspose.Cells for .NET API 参考
-description: 数据提供程序用于提供单元格数据以在轻量模式下保存工作簿
+description: 提供单元格数据以在轻量模式下保存工作簿的数据提供程序
 type: docs
 weight: 60
 url: /zh/net/aspose.cells/ooxmlsaveoptions/lightcellsdataprovider/
 ---
 ## OoxmlSaveOptions.LightCellsDataProvider property
 
-数据提供程序，用于提供单元格数据以在轻量模式下保存工作簿。
+提供单元格数据以在轻量模式下保存工作簿的数据提供程序。
 
 ```csharp
 public LightCellsDataProvider LightCellsDataProvider { get; set; }

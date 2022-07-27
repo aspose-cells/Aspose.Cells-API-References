@@ -1,14 +1,14 @@
 ---
 title: NameScopeType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示已定义名称的作用域类型
+description: 表示定义名称的作用域类型
 type: docs
 weight: 4220
 url: /zh/net/aspose.cells/namescopetype/
 ---
 ## NameScopeType enumeration
 
-表示已定义名称的作用域类型。
+表示定义名称的作用域类型。
 
 ```csharp
 public enum NameScopeType

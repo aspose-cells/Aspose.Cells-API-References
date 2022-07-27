@@ -1,14 +1,14 @@
 ---
 title: ConvertNumericOrDate
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает значение указывающее преобразуется ли строка в json в числовую или дату.
+description: Получает или задает значение указывающее преобразуется ли строка в формате json в числовое значение или в дату.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.utility/jsonlayoutoptions/convertnumericordate/
 ---
 ## JsonLayoutOptions.ConvertNumericOrDate property
 
-Получает или задает значение, указывающее, преобразуется ли строка в json в числовую или дату.
+Получает или задает значение, указывающее, преобразуется ли строка в формате json в числовое значение или в дату.
 
 ```csharp
 public bool ConvertNumericOrDate { get; set; }

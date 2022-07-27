@@ -1,14 +1,14 @@
 ---
 title: Cells
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует набор объектов относящихся к ячейке таких какCell./cellRow./row ... и т.д.
+description: Инкапсулирует коллекцию объектов относящихся к ячейке таких какCell./cell Row./row ...и т.д.
 type: docs
 weight: 300
 url: /ru/net/aspose.cells/cells/
 ---
 ## Cells class
 
-Инкапсулирует набор объектов, относящихся к ячейке, таких как[`Cell`](../cell),[`Row`](../row), ... и т.д.
+Инкапсулирует коллекцию объектов, относящихся к ячейке, таких как[`Cell`](../cell) ,[`Row`](../row) ...и т.д.
 
 ```csharp
 public class Cells : IDisposable, IEnumerable
@@ -18,49 +18,49 @@ public class Cells : IDisposable, IEnumerable
 
 | Имя | Описание |
 | --- | --- |
-| [Columns](../../aspose.cells/cells/columns) { get; } | Получает коллекцию объектов[`Column`](../column), представляющих отдельные столбцы на этом листе. |
+| [Columns](../../aspose.cells/cells/columns) { get; } | Получает коллекцию[`Column`](../column) объекты, представляющие отдельные столбцы на этом листе. |
 | [Count](../../aspose.cells/cells/count) { get; } | Получает общее количество экземпляров объектов Cell. |
 | [CountLarge](../../aspose.cells/cells/countlarge) { get; } | Получает общее количество экземпляров объектов Cell. |
 | [FirstCell](../../aspose.cells/cells/firstcell) { get; } | Получает первую ячейку на этом листе. |
 | [IsDefaultRowHeightMatched](../../aspose.cells/cells/isdefaultrowheightmatched) { get; set; } | Указывает, что высота строки и высота шрифта по умолчанию совпадают |
 | [IsDefaultRowHidden](../../aspose.cells/cells/isdefaultrowhidden) { get; set; } | Указывает, скрыта ли строка по умолчанию. |
-| [Item](../../aspose.cells/cells/item) { get; } | Получает элемент[`Cell`](../cell)по указанному индексу строки ячейки и индексу столбца. (2 indexers) |
+| [Item](../../aspose.cells/cells/item) { get; } | Получает[`Cell`](../cell) элемент с указанным индексом строки ячейки и индексом столбца. (2 indexers) |
 | [LastCell](../../aspose.cells/cells/lastcell) { get; } | Получает последнюю ячейку на этом листе. |
-| [MaxColumn](../../aspose.cells/cells/maxcolumn) { get; } | Минимальный индекс столбца тех ячеек, которые были созданы в коллекции (не включает столбец , где стиль определен для всего столбца, но ни одна ячейка не была создана в нем). |
+| [MaxColumn](../../aspose.cells/cells/maxcolumn) { get; } | Минимальный индекс столбца для тех ячеек, которые были созданы в коллекции (не включает столбец , где стиль определен для всего столбца, но в нем не было создано ни одной ячейки). |
 | [MaxDataColumn](../../aspose.cells/cells/maxdatacolumn) { get; } | Максимальный индекс столбца ячейки, содержащей данные. |
 | [MaxDataRow](../../aspose.cells/cells/maxdatarow) { get; } | Максимальный индекс строки ячейки, содержащей данные. |
 | [MaxDisplayRange](../../aspose.cells/cells/maxdisplayrange) { get; } | Получает максимальный диапазон, включающий данные, объединенные ячейки и фигуры. |
 | [MaxRow](../../aspose.cells/cells/maxrow) { get; } | Максимальный индекс строки ячейки, содержащей данные или стиль. |
 | [MemorySetting](../../aspose.cells/cells/memorysetting) { get; set; } | Получает или задает параметр использования памяти для этих ячеек. |
 | [MergedCells](../../aspose.cells/cells/mergedcells) { get; } | Получает коллекцию объединенных ячеек. |
-| [MinColumn](../../aspose.cells/cells/mincolumn) { get; } | Минимальный индекс столбца тех ячеек, которые были созданы в коллекции (не включает столбец , где стиль определен для всего столбца, но ни одна ячейка не была создана в нем). |
+| [MinColumn](../../aspose.cells/cells/mincolumn) { get; } | Минимальный индекс столбца для тех ячеек, которые были созданы в коллекции (не включает столбец , где стиль определен для всего столбца, но в нем не было создано ни одной ячейки). |
 | [MinDataColumn](../../aspose.cells/cells/mindatacolumn) { get; } | Минимальный индекс столбца ячейки, содержащей данные. |
 | [MinDataRow](../../aspose.cells/cells/mindatarow) { get; } | Минимальный индекс строки ячейки, содержащей данные. |
 | [MinRow](../../aspose.cells/cells/minrow) { get; } | Минимальный индекс строки ячейки, содержащей данные или стиль. |
-| [MultiThreadReading](../../aspose.cells/cells/multithreadreading) { get; set; } | Получает или задает, должна ли модель данных ячеек поддерживать многопоточное чтение. Значение по умолчанию этого свойства - false. |
+| [MultiThreadReading](../../aspose.cells/cells/multithreadreading) { get; set; } | Получает или задает, должна ли модель данных ячеек поддерживать многопоточное чтение. Значение этого свойства по умолчанию — false. |
 | [OdsCellFields](../../aspose.cells/cells/odscellfields) { get; } | Получает список полей ods. |
-| [PreserveString](../../aspose.cells/cells/preservestring) { get; set; } | Получает или задает значение, указывающее, сохраняются ли все значения рабочего листа в виде строк. По умолчанию false. |
-| [Ranges](../../aspose.cells/cells/ranges) { get; } | Получает коллекцию объектов[`Range`](../range), созданных во время выполнения. |
-| [Rows](../../aspose.cells/cells/rows) { get; } | Получает коллекцию объектов[`Row`](../row), представляющих отдельные строки на этом листе. |
+| [PreserveString](../../aspose.cells/cells/preservestring) { get; set; } | Получает или задает значение, указывающее, сохраняются ли все значения рабочего листа в виде строк. Значение по умолчанию — false. |
+| [Ranges](../../aspose.cells/cells/ranges) { get; } | Получает коллекцию[`Range`](../range)объекты, созданные во время выполнения. |
+| [Rows](../../aspose.cells/cells/rows) { get; } | Получает коллекцию[`Row`](../row) объекты, представляющие отдельные строки на этом листе. |
 | [StandardHeight](../../aspose.cells/cells/standardheight) { get; set; } | Получает или задает высоту строки по умолчанию на этом листе в пунктах. |
 | [StandardHeightInch](../../aspose.cells/cells/standardheightinch) { get; set; } | Получает или задает высоту строки по умолчанию на этом листе в дюймах. |
 | [StandardHeightPixels](../../aspose.cells/cells/standardheightpixels) { get; set; } | Получает или задает высоту строки по умолчанию на этом листе в пикселях. |
-| [StandardWidth](../../aspose.cells/cells/standardwidth) { get; set; } | Получает или задает ширину столбца по умолчанию на листе в символах. |
+| [StandardWidth](../../aspose.cells/cells/standardwidth) { get; set; } | Получает или задает ширину столбца по умолчанию на листе в единицах символов. |
 | [StandardWidthInch](../../aspose.cells/cells/standardwidthinch) { get; set; } | Получает или задает ширину столбца по умолчанию на листе в дюймах. |
 | [StandardWidthPixels](../../aspose.cells/cells/standardwidthpixels) { get; set; } | Получает или задает ширину столбца по умолчанию на листе в пикселях. |
-| [Style](../../aspose.cells/cells/style) { get; set; } | Получает и задает стиль по умолчанию. |
+| [Style](../../aspose.cells/cells/style) { get; set; } | Получает и устанавливает стиль по умолчанию. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddRange](../../aspose.cells/cells/addrange)(Range) | Добавляет ссылку на объект диапазона в ячейки |
+| [AddRange](../../aspose.cells/cells/addrange)(Range) | Добавляет ссылку на объект диапазона в cell |
 | [ApplyColumnStyle](../../aspose.cells/cells/applycolumnstyle)(int, Style, StyleFlag) | Применяет форматы ко всему столбцу. |
-| [ApplyRowStyle](../../aspose.cells/cells/applyrowstyle)(int, Style, StyleFlag) | Применяет форматы ко всей строке. |
+| [ApplyRowStyle](../../aspose.cells/cells/applyrowstyle)(int, Style, StyleFlag) | Применяет формат ко всей строке. |
 | [ApplyStyle](../../aspose.cells/cells/applystyle)(Style, StyleFlag) | Применяет форматы ко всему рабочему листу. |
-| [CheckCell](../../aspose.cells/cells/checkcell)(int, int) | Получает элемент[`Cell`](../cell)или null в указанном индексе строки ячейки и индексе столбца. |
-| [CheckColumn](../../aspose.cells/cells/checkcolumn)(int) | Получает элемент[`Column`](../column)или null по указанному индексу столбца. |
-| [CheckRow](../../aspose.cells/cells/checkrow)(int) | Получает элемент[`Row`](../row)или указанный индекс строки ячейки. |
+| [CheckCell](../../aspose.cells/cells/checkcell)(int, int) | Получает[`Cell`](../cell) элемент или нуль в указанном индексе строки ячейки и индексе столбца. |
+| [CheckColumn](../../aspose.cells/cells/checkcolumn)(int) | Получает[`Column`](../column) элемент или нуль в указанном индексе столбца. |
+| [CheckRow](../../aspose.cells/cells/checkrow)(int) | Получает[`Row`](../row) элемента или по указанному индексу строки ячейки. |
 | [Clear](../../aspose.cells/cells/clear)() | Очищает все объекты ячеек и строк. |
 | [ClearContents](../../aspose.cells/cells/clearcontents#clearcontents)(CellArea) | Очищает содержимое диапазона. |
 | [ClearContents](../../aspose.cells/cells/clearcontents#clearcontents_1)(int, int, int, int) | Очищает содержимое диапазона. |
@@ -78,10 +78,10 @@ public class Cells : IDisposable, IEnumerable
 | [CopyRows](../../aspose.cells/cells/copyrows#copyrows)(Cells, int, int, int) | Копирует данные и форматы некоторых целых строк. |
 | [CopyRows](../../aspose.cells/cells/copyrows#copyrows_1)(Cells, int, int, int, CopyOptions) | Копирует данные и форматы некоторых целых строк. |
 | [CopyRows](../../aspose.cells/cells/copyrows#copyrows_2)(Cells, int, int, int, CopyOptions, PasteOptions) | Копирует данные и форматы некоторых целых строк. |
-| [CreateRange](../../aspose.cells/cells/createrange#createrange_2)(string) | Создает объект[`Range`](../range)из адреса диапазона. |
-| [CreateRange](../../aspose.cells/cells/createrange#createrange_3)(string, string) | Создает объект[`Range`](../range)из диапазона ячеек. |
-| [CreateRange](../../aspose.cells/cells/createrange#createrange)(int, int, bool) | Создает объект[`Range`](../range)из строк ячеек или столбцов ячеек. |
-| [CreateRange](../../aspose.cells/cells/createrange#createrange_1)(int, int, int, int) | Создает объект[`Range`](../range)из диапазона ячеек. |
+| [CreateRange](../../aspose.cells/cells/createrange#createrange_2)(string) | Создает[`Range`](../range) объект с адреса диапазона. |
+| [CreateRange](../../aspose.cells/cells/createrange#createrange_3)(string, string) | Создает[`Range`](../range) объект из диапазона ячеек. |
+| [CreateRange](../../aspose.cells/cells/createrange#createrange)(int, int, bool) | Создает[`Range`](../range) объект из строк ячеек или столбцов ячеек. |
+| [CreateRange](../../aspose.cells/cells/createrange#createrange_1)(int, int, int, int) | Создает[`Range`](../range) объект из диапазона ячеек. |
 | [DeleteBlankColumns](../../aspose.cells/cells/deleteblankcolumns#deleteblankcolumns)() | Удалить все пустые столбцы, не содержащие данных. |
 | [DeleteBlankColumns](../../aspose.cells/cells/deleteblankcolumns#deleteblankcolumns_1)(DeleteOptions) | Удалить все пустые столбцы, не содержащие данных. |
 | [DeleteBlankRows](../../aspose.cells/cells/deleteblankrows#deleteblankrows)() | Удалить все пустые строки, не содержащие данных. |
@@ -93,33 +93,34 @@ public class Cells : IDisposable, IEnumerable
 | [DeleteRow](../../aspose.cells/cells/deleterow)(int) | Удаляет строку. |
 | [DeleteRows](../../aspose.cells/cells/deleterows#deleterows)(int, int) | Удаляет несколько строк. |
 | [DeleteRows](../../aspose.cells/cells/deleterows#deleterows_1)(int, int, bool) | Удаляет несколько строк на листе. |
-| [Dispose](../../aspose.cells/cells/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
+| [Dispose](../../aspose.cells/cells/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
 | [EndCellInColumn](../../aspose.cells/cells/endcellincolumn#endcellincolumn)(short) | Получает последнюю ячейку в этом столбце. |
 | [EndCellInColumn](../../aspose.cells/cells/endcellincolumn#endcellincolumn_1)(int, int, short, short) | Получает последнюю ячейку с максимальным индексом столбца в этом диапазоне. |
 | [EndCellInRow](../../aspose.cells/cells/endcellinrow#endcellinrow)(int) | Получает последнюю ячейку в этой строке. |
 | [EndCellInRow](../../aspose.cells/cells/endcellinrow#endcellinrow_1)(int, int, int, int) | Получает последнюю ячейку с максимальным индексом строки в этом диапазоне. |
-| [ExportArray](../../aspose.cells/cells/exportarray)(int, int, int, int) | Экспорт данных из коллекции[`Cells`](../cells)в объект двумерного массива. |
-| [ExportDataTable](../../aspose.cells/cells/exportdatatable#exportdatatable)(int, int, int, int) | Экспортирует данные из коллекции[`Cells`](../cells)в таблицуDataTableобъект. |
-| [ExportDataTable](../../aspose.cells/cells/exportdatatable#exportdatatable_2)(int, int, int, int, bool) | Экспортирует данные из коллекции[`Cells`](../cells)в таблицуDataTableобъект. |
-| [ExportDataTable](../../aspose.cells/cells/exportdatatable#exportdatatable_1)(int, int, int, int, ExportTableOptions) | Экспортирует данные из коллекции[`Cells`](../cells)в таблицуDataTableобъект. |
-| [ExportDataTableAsString](../../aspose.cells/cells/exportdatatableasstring#exportdatatableasstring)(int, int, int, int) | Экспортирует данные из коллекции[`Cells`](../cells)в таблицуDataTableобъект. |
-| [ExportDataTableAsString](../../aspose.cells/cells/exportdatatableasstring#exportdatatableasstring_1)(int, int, int, int, bool) | Экспортирует данные из коллекции[`Cells`](../cells)в таблицуDataTableобъект. |
-| [ExportTypeArray](../../aspose.cells/cells/exporttypearray)(int, int, int, int) | Экспортирует тип значения ячейки из коллекции[`Cells`](../cells)в объект двумерного массива. |
+| [ExportArray](../../aspose.cells/cells/exportarray)(int, int, int, int) | Экспортирует данные в[`Cells`](../cells) коллекция в объект двумерного массива. |
+| [ExportDataTable](../../aspose.cells/cells/exportdatatable#exportdatatable)(int, int, int, int) | Экспортирует данные в[`Cells`](../cells) сбор вDataTable объект. |
+| [ExportDataTable](../../aspose.cells/cells/exportdatatable#exportdatatable_2)(int, int, int, int, bool) | Экспортирует данные в[`Cells`](../cells) сбор вDataTable объект. |
+| [ExportDataTable](../../aspose.cells/cells/exportdatatable#exportdatatable_1)(int, int, int, int, ExportTableOptions) | Экспортирует данные в[`Cells`](../cells) сбор вDataTable объект. |
+| [ExportDataTableAsString](../../aspose.cells/cells/exportdatatableasstring#exportdatatableasstring)(int, int, int, int) | Экспортирует данные в[`Cells`](../cells) сбор вDataTable объект. |
+| [ExportDataTableAsString](../../aspose.cells/cells/exportdatatableasstring#exportdatatableasstring_1)(int, int, int, int, bool) | Экспортирует данные в[`Cells`](../cells) сбор вDataTable объект. |
+| [ExportTypeArray](../../aspose.cells/cells/exporttypearray)(int, int, int, int) | Экспортирует тип значения ячейки в[`Cells`](../cells) коллекция в объект двумерного массива. |
 | [Find](../../aspose.cells/cells/find#find)(object, Cell) | Находит ячейку, содержащую входной объект. |
 | [Find](../../aspose.cells/cells/find#find_1)(object, Cell, FindOptions) | Находит ячейку, содержащую входной объект. |
-| [GetCell](../../aspose.cells/cells/getcell)(int, int) | Получает элемент[`Cell`](../cell)или null в указанном индексе строки ячейки и индексе столбца. |
+| [GetCell](../../aspose.cells/cells/getcell)(int, int) | Получает[`Cell`](../cell) элемент или нуль в указанном индексе строки ячейки и индексе столбца. |
 | [GetCellStyle](../../aspose.cells/cells/getcellstyle)(int, int) | Получить стиль данной ячейки. |
 | [GetColumnWidth](../../aspose.cells/cells/getcolumnwidth)(int) | Получает ширину указанного столбца в обычном представлении |
 | [GetColumnWidthInch](../../aspose.cells/cells/getcolumnwidthinch)(int) | Получает ширину указанного столбца в обычном представлении в дюймах. |
-| [GetColumnWidthPixel](../../aspose.cells/cells/getcolumnwidthpixel)(int) | Получает ширину указанного столбца в обычном представлении в единицах пикселя. |
+| [GetColumnWidthPixel](../../aspose.cells/cells/getcolumnwidthpixel)(int) | Получает ширину указанного столбца в обычном режиме просмотра в пикселях. |
 | [GetDependents](../../aspose.cells/cells/getdependents)(bool, int, int) | Получить все ячейки, которые ссылаются на определенную ячейку. |
+| [GetDependentsInCalculation](../../aspose.cells/cells/getdependentsincalculation)(int, int, bool) | Получает все ячейки, расчетный результат которых зависит от конкретной ячейки. |
 | [GetEnumerator](../../aspose.cells/cells/getenumerator)() | Получает перечислитель ячеек. |
 | [GetGroupedColumnOutlineLevel](../../aspose.cells/cells/getgroupedcolumnoutlinelevel)(int) | Получает уровень структуры (отсчитываемый от нуля) столбца. |
 | [GetGroupedRowOutlineLevel](../../aspose.cells/cells/getgroupedrowoutlinelevel)(int) | Получает уровень структуры (отсчитываемый от нуля) строки. |
 | [GetLastDataRow](../../aspose.cells/cells/getlastdatarow)(int) | Получает индекс последней строки ячейки, которая содержит данные в указанном столбце. |
 | [GetMaxGroupedColumnOutlineLevel](../../aspose.cells/cells/getmaxgroupedcolumnoutlinelevel)() | Получает максимальный уровень структуры сгруппированного столбца (отсчитывается от нуля). |
-| [GetMaxGroupedRowOutlineLevel](../../aspose.cells/cells/getmaxgroupedrowoutlinelevel)() | Получает максимальный уровень структуры сгруппированной строки (отсчитывается от нуля). |
-| [GetRow](../../aspose.cells/cells/getrow)(int) | Получает элемент[`Row`](../row)по указанному индексу строки ячейки. |
+| [GetMaxGroupedRowOutlineLevel](../../aspose.cells/cells/getmaxgroupedrowoutlinelevel)() | Получает максимальный уровень структуры сгруппированных строк (отсчитывается от нуля). |
+| [GetRow](../../aspose.cells/cells/getrow)(int) | Получает[`Row`](../row) элемент по указанному индексу строки ячейки. |
 | [GetRowEnumerator](../../aspose.cells/cells/getrowenumerator)() | Получает перечислитель строк. |
 | [GetRowHeight](../../aspose.cells/cells/getrowheight)(int) | Получает высоту указанной строки. |
 | [GetRowHeightInch](../../aspose.cells/cells/getrowheightinch)(int) | Получает высоту указанной строки в дюймах. |
@@ -140,40 +141,40 @@ public class Cells : IDisposable, IEnumerable
 | [ImportArray](../../aspose.cells/cells/importarray#importarray)(double[], int, int) |  |
 | [ImportArray](../../aspose.cells/cells/importarray#importarray_2)(int[], int, int) |  |
 | [ImportArray](../../aspose.cells/cells/importarray#importarray_4)(string[], int, int) |  |
-| [ImportArray](../../aspose.cells/cells/importarray#importarray_1)(double[], int, int, bool) | Импортирует массив двойных чисел на рабочий лист. |
-| [ImportArray](../../aspose.cells/cells/importarray#importarray_3)(int[], int, int, bool) | Импортирует массив целых чисел на рабочий лист. |
-| [ImportArray](../../aspose.cells/cells/importarray#importarray_5)(string[], int, int, bool) | Импортирует массив строк на рабочий лист. |
-| [ImportArrayList](../../aspose.cells/cells/importarraylist)(ArrayList, int, int, bool) | Импортирует массив данных на рабочий лист. |
+| [ImportArray](../../aspose.cells/cells/importarray#importarray_1)(double[], int, int, bool) | Импортирует массив двойных чисел в рабочий лист. |
+| [ImportArray](../../aspose.cells/cells/importarray#importarray_3)(int[], int, int, bool) | Импортирует массив целых чисел в рабочий лист. |
+| [ImportArray](../../aspose.cells/cells/importarray#importarray_5)(string[], int, int, bool) | Импортирует массив строк в рабочий лист. |
+| [ImportArrayList](../../aspose.cells/cells/importarraylist)(ArrayList, int, int, bool) | Импорт массива данных на лист. |
 | [ImportCSV](../../aspose.cells/cells/importcsv#importcsv)(Stream, TxtLoadOptions, int, int) | Импорт файла CSV в ячейки. |
 | [ImportCSV](../../aspose.cells/cells/importcsv#importcsv_2)(string, TxtLoadOptions, int, int) | Импорт файла CSV в ячейки. |
 | [ImportCSV](../../aspose.cells/cells/importcsv#importcsv_1)(Stream, string, bool, int, int) | Импорт файла CSV в ячейки. |
 | [ImportCSV](../../aspose.cells/cells/importcsv#importcsv_3)(string, string, bool, int, int) | Импорт файла CSV в ячейки. |
 | [ImportCustomObjects](../../aspose.cells/cells/importcustomobjects#importcustomobjects)(ICollection, int, int, ImportTableOptions) | Импортирует пользовательские объекты. |
 | [ImportCustomObjects](../../aspose.cells/cells/importcustomobjects#importcustomobjects_1)(ICollection, string[], bool, int, int, int, bool, string, bool) | Импортирует пользовательские объекты. |
-| [ImportData](../../aspose.cells/cells/importdata#importdata_3)(IDataReader, int, int) | Импортирует данные из объектаIDataReader. |
+| [ImportData](../../aspose.cells/cells/importdata#importdata_3)(IDataReader, int, int) | Импорт данных изIDataReader объект. |
 | [ImportData](../../aspose.cells/cells/importdata#importdata_1)(DataTable, int, int, ImportTableOptions) | Импорт данных из пользовательской таблицы данных. |
 | [ImportData](../../aspose.cells/cells/importdata#importdata_2)(DataView, int, int, ImportTableOptions) | Импорт данных из представления данных. |
 | [ImportData](../../aspose.cells/cells/importdata#importdata)(ICellsDataTable, int, int, ImportTableOptions) | Импорт данных из пользовательской таблицы данных. |
-| [ImportData](../../aspose.cells/cells/importdata#importdata_4)(IDataReader, int, int, ImportTableOptions) | Импортирует данные из объектаIDataReader. |
-| [ImportDataGrid](../../aspose.cells/cells/importdatagrid#importdatagrid)(DataGrid, int, int, bool) | ИмпортируетDataGridв рабочий лист. |
-| [ImportDataGrid](../../aspose.cells/cells/importdatagrid#importdatagrid_1)(DataGrid, int, int, int, int, bool) | ИмпортируетDataGridв рабочий лист. |
-| [ImportDataGrid](../../aspose.cells/cells/importdatagrid#importdatagrid_2)(DataGrid, int, int, int, int, bool, bool) | ИмпортируетDataGridв рабочий лист. |
-| [ImportDataGridAsString](../../aspose.cells/cells/importdatagridasstring)(DataGrid, int, int, bool) | ИмпортируетDataGridв рабочий лист. Этот метод не пытается преобразовать текст в числовые значения. |
+| [ImportData](../../aspose.cells/cells/importdata#importdata_4)(IDataReader, int, int, ImportTableOptions) | Импорт данных изIDataReader объект. |
+| [ImportDataGrid](../../aspose.cells/cells/importdatagrid#importdatagrid)(DataGrid, int, int, bool) | ИмпортируетDataGrid в рабочий лист. |
+| [ImportDataGrid](../../aspose.cells/cells/importdatagrid#importdatagrid_1)(DataGrid, int, int, int, int, bool) | ИмпортируетDataGrid в рабочий лист. |
+| [ImportDataGrid](../../aspose.cells/cells/importdatagrid#importdatagrid_2)(DataGrid, int, int, int, int, bool, bool) | ИмпортируетDataGrid в рабочий лист. |
+| [ImportDataGridAsString](../../aspose.cells/cells/importdatagridasstring)(DataGrid, int, int, bool) | ИмпортируетDataGrid в рабочий лист. Этот метод не пытается преобразовать текст в числовые значения. |
 | [ImportDataRow](../../aspose.cells/cells/importdatarow)(DataRow, int, int) | Импортирует DataRow в файл Excel. |
-| [ImportDataView](../../aspose.cells/cells/importdataview#importdataview_3)(DataView, int, int) | ИмпортируетDataViewв рабочий лист. |
-| [ImportFormulaArray](../../aspose.cells/cells/importformulaarray)(string[], int, int, bool) | Импортирует массив формул на рабочий лист. |
+| [ImportDataView](../../aspose.cells/cells/importdataview#importdataview_3)(DataView, int, int) | ИмпортируетDataView в рабочий лист. |
+| [ImportFormulaArray](../../aspose.cells/cells/importformulaarray)(string[], int, int, bool) | Импортирует массив формул на лист. |
 | [ImportGridView](../../aspose.cells/cells/importgridview)(GridView, int, int, ImportTableOptions) | Импортирует вид сетки в эти ячейки. |
-| [ImportObjectArray](../../aspose.cells/cells/importobjectarray#importobjectarray)(object[], int, int, bool) | Импортирует массив данных на рабочий лист. |
-| [ImportObjectArray](../../aspose.cells/cells/importobjectarray#importobjectarray_1)(object[], int, int, bool, int) | Импортирует массив данных на рабочий лист. |
+| [ImportObjectArray](../../aspose.cells/cells/importobjectarray#importobjectarray)(object[], int, int, bool) | Импортирует массив данных на лист. |
+| [ImportObjectArray](../../aspose.cells/cells/importobjectarray#importobjectarray_1)(object[], int, int, bool, int) | Импортирует массив данных на лист. |
 | [ImportTwoDimensionArray](../../aspose.cells/cells/importtwodimensionarray#importtwodimensionarray)(object[], int, int) |  |
 | [ImportTwoDimensionArray](../../aspose.cells/cells/importtwodimensionarray#importtwodimensionarray_1)(object[], int, int, bool) |  |
 | [ImportTwoDimensionArray](../../aspose.cells/cells/importtwodimensionarray#importtwodimensionarray_3)(object[], object[], int, int, bool) |  |
 | [ImportTwoDimensionArray](../../aspose.cells/cells/importtwodimensionarray#importtwodimensionarray_2)(object[], object[], int, int, TxtLoadOptions) |  |
 | [InsertColumn](../../aspose.cells/cells/insertcolumn#insertcolumn)(int) | Вставляет новый столбец в рабочий лист. |
 | [InsertColumn](../../aspose.cells/cells/insertcolumn#insertcolumn_1)(int, bool) | Вставляет новый столбец в рабочий лист. |
-| [InsertColumns](../../aspose.cells/cells/insertcolumns#insertcolumns)(int, int) | Вставляет несколько столбцов в рабочий лист. |
-| [InsertColumns](../../aspose.cells/cells/insertcolumns#insertcolumns_1)(int, int, bool) | Вставляет несколько столбцов в рабочий лист. |
-| [InsertCutCells](../../aspose.cells/cells/insertcutcells)(Range, int, int, ShiftType) | Вставить вырезанный диапазон. |
+| [InsertColumns](../../aspose.cells/cells/insertcolumns#insertcolumns)(int, int) | Вставляет несколько столбцов на лист. |
+| [InsertColumns](../../aspose.cells/cells/insertcolumns#insertcolumns_1)(int, int, bool) | Вставляет несколько столбцов на лист. |
+| [InsertCutCells](../../aspose.cells/cells/insertcutcells)(Range, int, int, ShiftType) | Вставить диапазон обрезки. |
 | [InsertRange](../../aspose.cells/cells/insertrange#insertrange)(CellArea, ShiftType) | Вставляет диапазон ячеек и сдвигает ячейки в соответствии с параметром сдвига. |
 | [InsertRange](../../aspose.cells/cells/insertrange#insertrange_1)(CellArea, int, ShiftType) | Вставляет диапазон ячеек и сдвигает ячейки в соответствии с параметром сдвига. |
 | [InsertRange](../../aspose.cells/cells/insertrange#insertrange_2)(CellArea, int, ShiftType, bool) | Вставляет диапазон ячеек и сдвигает ячейки в соответствии с параметром сдвига. |
@@ -182,9 +183,9 @@ public class Cells : IDisposable, IEnumerable
 | [InsertRows](../../aspose.cells/cells/insertrows#insertrows_2)(int, int, bool) | Вставляет несколько строк в рабочий лист. |
 | [InsertRows](../../aspose.cells/cells/insertrows#insertrows_1)(int, int, InsertOptions) | Вставляет несколько строк в рабочий лист. |
 | [IsBlankColumn](../../aspose.cells/cells/isblankcolumn)(int) | Проверяет, является ли данный столбец пустым (не содержит данных). |
-| [IsColumnHidden](../../aspose.cells/cells/iscolumnhidden)(int) | Проверяет, скрыт ли столбец с заданным индексом. |
+| [IsColumnHidden](../../aspose.cells/cells/iscolumnhidden)(int) | Проверяет, скрыт ли столбец с данным индексом. |
 | [IsDeletingRangeEnabled](../../aspose.cells/cells/isdeletingrangeenabled)(int, int, int, int) | Проверить, можно ли удалить диапазон. |
-| [IsRowHidden](../../aspose.cells/cells/isrowhidden)(int) | Проверяет, скрыта ли строка с заданным индексом. |
+| [IsRowHidden](../../aspose.cells/cells/isrowhidden)(int) | Проверяет, скрыта ли строка с данным индексом. |
 | [LinkToXmlMap](../../aspose.cells/cells/linktoxmlmap)(string, int, int, string) | Ссылка на карту xml. |
 | [Merge](../../aspose.cells/cells/merge#merge)(int, int, int, int) | Объединяет указанный диапазон ячеек в одну ячейку. |
 | [Merge](../../aspose.cells/cells/merge#merge_1)(int, int, int, int, bool) | Объединяет указанный диапазон ячеек в одну ячейку. |
@@ -195,7 +196,7 @@ public class Cells : IDisposable, IEnumerable
 | [RemoveDuplicates](../../aspose.cells/cells/removeduplicates#removeduplicates_2)(int, int, int, int, bool, int[]) | Удаляет повторяющиеся данные диапазона. |
 | [RemoveFormulas](../../aspose.cells/cells/removeformulas)() | Удаляет все формулы и заменяет значением формулы. |
 | [RetrieveSubtotalSetting](../../aspose.cells/cells/retrievesubtotalsetting)(CellArea) | Извлекает настройку промежуточных итогов диапазона. |
-| [SetColumnWidth](../../aspose.cells/cells/setcolumnwidth)(int, double) | Устанавливает ширину указанного столбца в обычном режиме просмотра. |
+| [SetColumnWidth](../../aspose.cells/cells/setcolumnwidth)(int, double) | Устанавливает ширину указанного столбца в обычном представлении. |
 | [SetColumnWidthInch](../../aspose.cells/cells/setcolumnwidthinch)(int, double) | Устанавливает ширину столбца в дюймах в обычном режиме просмотра. |
 | [SetColumnWidthPixel](../../aspose.cells/cells/setcolumnwidthpixel)(int, int) | Устанавливает ширину столбца в пикселях в обычном режиме просмотра. |
 | [SetRowHeight](../../aspose.cells/cells/setrowheight)(int, double) | Устанавливает высоту указанной строки. |
@@ -209,7 +210,7 @@ public class Cells : IDisposable, IEnumerable
 | [UngroupColumns](../../aspose.cells/cells/ungroupcolumns)(int, int) | Разгруппирует столбцы. |
 | [UngroupRows](../../aspose.cells/cells/ungrouprows#ungrouprows)(int, int) | Разгруппирует строки. |
 | [UngroupRows](../../aspose.cells/cells/ungrouprows#ungrouprows_1)(int, int, bool) | Разгруппирует строки. |
-| [UnhideColumn](../../aspose.cells/cells/unhidecolumn)(int, double) | Отображает столбец |
+| [UnhideColumn](../../aspose.cells/cells/unhidecolumn)(int, double) | Отображает скрытый столбец |
 | [UnhideColumns](../../aspose.cells/cells/unhidecolumns)(int, int, double) | Показать несколько столбцов. |
 | [UnhideRow](../../aspose.cells/cells/unhiderow)(int, double) | Отображает строку. |
 | [UnhideRows](../../aspose.cells/cells/unhiderows)(int, int, double) | Отображает скрытые строки. |
@@ -224,25 +225,25 @@ public class Cells : IDisposable, IEnumerable
 Workbook excel = new Workbook();
 Cells cells = excel.Worksheets[0].Cells;
 
-  //Установить высоту строки по умолчанию
+//Установить высоту строки по умолчанию
 cells.StandardHeight = 20;
-  //Установить высоту строки
+//Установить высоту строки
 cells.SetRowHeight(2, 20.5);
 
-  //Установить ширину столбца по умолчанию
+//Установить ширину столбца по умолчанию
 cells.StandardWidth = 15;
-  //Установить ширину столбца
+//Установить ширину столбца
 cells.SetColumnWidth(3, 12.57);
 
-  //Объединить ячейки
+//Объединить ячейки
 cells.Merge(5, 4, 2, 2);
 
-  //Помещаем значения в cell
+//Помещаем значения в ячейки
 cells[0, 0].PutValue(true);
 cells[0, 1].PutValue(1);
 cells[0, 2].PutValue("abc");
 
-  //Экспорт data
+//Экспорт данных
 object[,] arr = cells.ExportArray(0, 0, 10, 10);
 
 [Visual Basic]
@@ -263,7 +264,7 @@ cells.SetColumnWidth(3, 12.57)
 'Объединить ячейки
 cells.Merge(5, 4, 2, 2)
 
-'Экспорт data
+'Экспорт данных
 Dim outDataTable as DataTable = cells.ExportDataTable(12, 12, 10, 10)
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: FileFontSource
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет единственный файл шрифта TrueType хранящийся в файловой системе.
+description: Представляет один файл шрифта TrueType хранящийся в файловой системе.
 type: docs
 weight: 3390
 url: /ru/net/aspose.cells/filefontsource/
 ---
 ## FileFontSource class
 
-Представляет единственный файл шрифта TrueType, хранящийся в файловой системе.
+Представляет один файл шрифта TrueType, хранящийся в файловой системе.
 
 ```csharp
 public class FileFontSource : FontSourceBase
@@ -18,7 +18,7 @@ public class FileFontSource : FontSourceBase
 
 | Имя | Описание |
 | --- | --- |
-| [FileFontSource](filefontsource)(string) | Ктор. |
+| [FileFontSource](filefontsource)(string) | Стор. |
 
 ## Характеристики
 

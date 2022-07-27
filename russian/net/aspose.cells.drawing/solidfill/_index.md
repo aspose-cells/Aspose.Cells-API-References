@@ -1,14 +1,14 @@
 ---
 title: SolidFill
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует объект представляющий формат сплошной заливки
+description: Инкапсулирует объект представляющий сплошную заливку format
 type: docs
 weight: 2790
 url: /ru/net/aspose.cells.drawing/solidfill/
 ---
 ## SolidFill class
 
-Инкапсулирует объект, представляющий формат сплошной заливки
+Инкапсулирует объект, представляющий сплошную заливку format
 
 ```csharp
 public class SolidFill : Fill
@@ -18,8 +18,8 @@ public class SolidFill : Fill
 
 | Имя | Описание |
 | --- | --- |
-| [CellsColor](../../aspose.cells.drawing/solidfill/cellscolor) { get; set; } | Получает и задает объект[`CellsColor`](./cellscolor). |
-| [Color](../../aspose.cells.drawing/solidfill/color) { get; set; } | Получает или задаетColor. |
+| [CellsColor](../../aspose.cells.drawing/solidfill/cellscolor) { get; set; } | Получает и устанавливает[`CellsColor`](./cellscolor) объект. |
+| [Color](../../aspose.cells.drawing/solidfill/color) { get; set; } | Получает или задаетColor . |
 | [Transparency](../../aspose.cells.drawing/solidfill/transparency) { get; set; } | Возвращает или задает степень прозрачности области в виде значения от 0,0 (непрозрачная) до 1,0 (прозрачная). |
 
 ## Методы

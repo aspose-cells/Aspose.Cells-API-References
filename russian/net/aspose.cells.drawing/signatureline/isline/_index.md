@@ -1,14 +1,14 @@
 ---
 title: IsLine
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает является ли строка подписью.
+description: Указывает является ли это строкой подписи.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.drawing/signatureline/isline/
 ---
 ## SignatureLine.IsLine property
 
-Указывает, является ли строка подписью.
+Указывает, является ли это строкой подписи.
 
 ```csharp
 public bool IsLine { get; set; }
@@ -21,7 +21,7 @@ public bool IsLine { get; set; }
 [C#]
 if(s.IsLine)
 {
-      //Это строка.
+    // Линия.
 }
 ```
 

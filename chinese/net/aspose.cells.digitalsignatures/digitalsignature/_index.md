@@ -27,11 +27,11 @@ public class DigitalSignature
 | --- | --- |
 | [Certificate](../../aspose.cells.digitalsignatures/digitalsignature/certificate) { get; set; } | 用于签署文档的证书对象。 |
 | [Comments](../../aspose.cells.digitalsignatures/digitalsignature/comments) { get; set; } | 签名的目的。 |
-| [Id](../../aspose.cells.digitalsignatures/digitalsignature/id) { get; set; } | 指定可以与存储在文档内容中的签名行的 GUID 交叉引用的 GUID。 默认值为空（全零）Guid。 |
+| [Id](../../aspose.cells.digitalsignatures/digitalsignature/id) { get; set; } | 指定可以与存储在文档内容中的签名行的 GUID 交叉引用的 GUID。 默认值为空（全零） Guid。 |
 | [Image](../../aspose.cells.digitalsignatures/digitalsignature/image) { get; set; } | 指定数字签名的图像。 默认值为空。 |
-| [IsValid](../../aspose.cells.digitalsignatures/digitalsignature/isvalid) { get; } | 如果此数字签名有效且文档未被篡改，则 此值为真。 |
+| [IsValid](../../aspose.cells.digitalsignatures/digitalsignature/isvalid) { get; } | 如果此数字签名有效且文档未被篡改， 此值为真。 |
 | [ProviderId](../../aspose.cells.digitalsignatures/digitalsignature/providerid) { get; set; } | 指定签名提供者的类 ID。 默认值为空（全零）Guid。 |
-| [SignTime](../../aspose.cells.digitalsignatures/digitalsignature/signtime) { get; set; } | 文档签署的时间。 |
+| [SignTime](../../aspose.cells.digitalsignatures/digitalsignature/signtime) { get; set; } | 文件签署的时间。 |
 | [Text](../../aspose.cells.digitalsignatures/digitalsignature/text) { get; set; } | 指定数字签名中实际签名的文本。 默认值为空。 |
 | [XAdESType](../../aspose.cells.digitalsignatures/digitalsignature/xadestype) { get; set; } | XAdES 类型。 默认值为无（XAdES 关闭）。 |
 

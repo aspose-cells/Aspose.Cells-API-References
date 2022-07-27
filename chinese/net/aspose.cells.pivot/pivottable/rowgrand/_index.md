@@ -1,14 +1,14 @@
 ---
 title: RowGrand
 second_title: Aspose.Cells for .NET API 参考
-description: 指示数据透视表是否显示行的总计
+description: 指示数据透视表是否显示行总计
 type: docs
 weight: 540
 url: /zh/net/aspose.cells.pivot/pivottable/rowgrand/
 ---
 ## PivotTable.RowGrand property
 
-指示数据透视表是否显示行的总计。
+指示数据透视表是否显示行总计。
 
 ```csharp
 public bool RowGrand { get; set; }

@@ -1,12 +1,12 @@
 ---
 title: Aspose.Cells.GridWeb.Design
 second_title: Aspose.Cells for .NET API 参考
-description: 基本设计器的命名空间表示 GridWeb 的类
+description: 基本设计器的命名空间表示GridWeb的类
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.gridweb.design/
 ---
-基本设计器的命名空间表示 GridWeb 的类。
+基本设计器的命名空间表示GridWeb的类。
 
 ## 课程
 

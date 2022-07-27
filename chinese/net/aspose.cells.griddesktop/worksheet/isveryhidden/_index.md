@@ -1,14 +1,14 @@
 ---
 title: IsVeryHidden
 second_title: Aspose.Cells for .NET API 参考
-description: 指示工作表是否隐藏且无法在用户界面 UI 中显示
+description: 指示工作表是否隐藏并且无法在用户界面 UI 中显示
 type: docs
 weight: 240
 url: /zh/net/aspose.cells.griddesktop/worksheet/isveryhidden/
 ---
 ## Worksheet.IsVeryHidden property
 
-指示工作表是否隐藏且无法在用户界面 (UI) 中显示。
+指示工作表是否隐藏并且无法在用户界面 (UI) 中显示。
 
 ```csharp
 public bool IsVeryHidden { get; set; }

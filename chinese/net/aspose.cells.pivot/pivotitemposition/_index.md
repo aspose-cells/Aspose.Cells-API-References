@@ -20,7 +20,7 @@ public enum PivotItemPosition
 | --- | --- | --- |
 | Previous | `0` | 表示 PivotField 中的前一个数据透视项。 |
 | Next | `1` | 表示 PivotField 中的下一个数据透视项。 |
-| Custom | `2` | 表示由 Pivot Items 指定的数据透视项索引，它指定数据透视字段中的数据透视项。  只读 |
+| Custom | `2` | 表示由 Pivot Items 指定的数据透视项索引，该索引指定数据透视字段中的数据透视项。 只读 |
 
 ### 也可以看看
 

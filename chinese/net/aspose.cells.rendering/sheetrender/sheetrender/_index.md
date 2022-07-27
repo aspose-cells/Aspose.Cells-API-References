@@ -17,7 +17,7 @@ public SheetRender(Worksheet worksheet, ImageOrPrintOptions options)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | worksheet | Worksheet | 指示要呈现的电子表格。 |
-| options | ImageOrPrintOptions | ImageOrPrintOptions 包含输出图像的某些属性 |
+| options | ImageOrPrintOptions | ImageOrPrintOptions 包含输出图像的一些属性 |
 
 ### 也可以看看
 

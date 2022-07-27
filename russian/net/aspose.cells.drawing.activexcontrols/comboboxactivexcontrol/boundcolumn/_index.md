@@ -1,14 +1,14 @@
 ---
 title: BoundColumn
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет как свойство Value определяется для ComboBox или ListBox при значении свойства MultiSelect fmMultiSelectSingle.
+description: Представляет как определяется свойство Value для ComboBox или ListBox  когда значение свойства MultiSelect fmMultiSelectSingle.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/boundcolumn/
 ---
 ## ComboBoxActiveXControl.BoundColumn property
 
-Представляет, как свойство Value определяется для ComboBox или ListBox при значении свойства MultiSelect (fmMultiSelectSingle).
+Представляет, как определяется свойство Value для ComboBox или ListBox , когда значение свойства MultiSelect (fmMultiSelectSingle).
 
 ```csharp
 public int BoundColumn { get; set; }

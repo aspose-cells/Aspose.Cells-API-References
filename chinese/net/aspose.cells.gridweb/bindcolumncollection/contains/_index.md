@@ -16,7 +16,7 @@ public bool Contains(object value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | Object |  |
+| value | Object |  |
 
 ### 也可以看看
 

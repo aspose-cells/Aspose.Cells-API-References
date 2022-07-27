@@ -1,14 +1,14 @@
 ---
 title: ValueTypeSensitive
 second_title: Aspose.Cells for .NET API 参考
-description: 指示搜索的单元格值类型是否应与搜索的键相同
+description: 表示搜索到的单元格值类型是否应该与搜索到的键相同
 type: docs
 weight: 110
 url: /zh/net/aspose.cells/findoptions/valuetypesensitive/
 ---
 ## FindOptions.ValueTypeSensitive property
 
-指示搜索的单元格值类型是否应与搜索的键相同。
+表示搜索到的单元格值类型是否应该与搜索到的键相同。
 
 ```csharp
 public bool ValueTypeSensitive { get; set; }

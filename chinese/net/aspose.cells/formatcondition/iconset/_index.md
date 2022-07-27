@@ -1,14 +1,14 @@
 ---
 title: IconSet
 second_title: Aspose.Cells for .NET API 参考
-description: 获取条件格式的IconSet实例 默认实例的 IconSetType 是 TrafficLights31 仅对 type  IconSet 有效
+description: 获取条件格式的IconSet实例 默认实例的IconSetType为TrafficLights31 仅对type  IconSet有效
 type: docs
 weight: 60
 url: /zh/net/aspose.cells/formatcondition/iconset/
 ---
 ## FormatCondition.IconSet property
 
-获取条件格式的“IconSet”实例。 默认实例的 IconSetType 是 TrafficLights31。 仅对 type = IconSet 有效。
+获取条件格式的“IconSet”实例。 默认实例的IconSetType为TrafficLights31。 仅对type = IconSet有效。
 
 ```csharp
 public IconSet IconSet { get; }

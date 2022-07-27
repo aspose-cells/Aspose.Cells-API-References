@@ -1,14 +1,14 @@
 ---
 title: Bins
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет интервалы на оси диаграммы гистограммы/Парето
+description: Представляет интервалы на диаграмме гистограмма/Парето axis
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.charts/axis/bins/
 ---
 ## Axis.Bins property
 
-Представляет интервалы на оси диаграммы (гистограммы/Парето)
+Представляет интервалы на диаграмме (гистограмма/Парето) axis
 
 ```csharp
 public AxisBins Bins { get; }

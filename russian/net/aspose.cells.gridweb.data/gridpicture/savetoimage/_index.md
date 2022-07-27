@@ -1,14 +1,14 @@
 ---
 title: SaveToImage
 second_title: Справочник по Aspose.Cells для .NET API
-description: Создает изображение и сохраняет его в поток.
+description: Создает изображение и сохраняет его в поток .
 type: docs
 weight: 640
 url: /ru/net/aspose.cells.gridweb.data/gridpicture/savetoimage/
 ---
 ## GridPicture.SaveToImage method
 
-Создает изображение и сохраняет его в поток.
+Создает изображение и сохраняет его в поток .
 
 ```csharp
 public void SaveToImage(Stream s)

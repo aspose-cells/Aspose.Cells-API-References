@@ -1,14 +1,14 @@
 ---
 title: EmfType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает EmfType указывающий формат метафайла..  Значение по умолчанию  EmfPlusDual.
+description: Получает или задает EmfType указывающий формат метафайла.. Значение по умолчанию  EmfPlusDual.
 type: docs
 weight: 100
 url: /ru/net/aspose.cells.rendering/imageorprintoptions/emftype/
 ---
 ## ImageOrPrintOptions.EmfType property
 
-Получает или задает EmfType, указывающий формат метафайла..  Значение по умолчанию — EmfPlusDual.
+Получает или задает EmfType, указывающий формат метафайла.. Значение по умолчанию — EmfPlusDual.
 
 ```csharp
 public EmfType EmfType { get; set; }

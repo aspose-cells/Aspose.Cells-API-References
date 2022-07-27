@@ -18,10 +18,10 @@ public class Border
 
 | Имя | Описание |
 | --- | --- |
-| [ArgbColor](../../aspose.cells/border/argbcolor) { get; set; } | Получает и задает цвет с 32-битным значением ARGB. |
-| [Color](../../aspose.cells/border/color) { get; set; } | Получает или задаетColorграницы. |
+| [ArgbColor](../../aspose.cells/border/argbcolor) { get; set; } | Получает и устанавливает цвет с 32-битным значением ARGB. |
+| [Color](../../aspose.cells/border/color) { get; set; } | Получает или задаетColor границы. |
 | [LineStyle](../../aspose.cells/border/linestyle) { get; set; } | Получает или задает тип границы ячейки. |
-| [ThemeColor](../../aspose.cells/border/themecolor) { get; set; } | Получает и устанавливает цвет границы темы. |
+| [ThemeColor](../../aspose.cells/border/themecolor) { get; set; } | Получает и устанавливает цвет темы границы. |
 
 ### Примеры
 
@@ -33,7 +33,7 @@ WorksheetCollection sheets = workbook.Worksheets;
 Cell cell = sheets[0].Cells["A1"];
 
 Style style = cell.GetStyle();
-  //Установить стиль верхней границы и color
+//Установка стиля и цвета верхней границы
 Border border = style.Borders[BorderType.TopBorder];
 border.LineStyle = CellBorderType.Medium;
 border.Color = Color.Red;
@@ -45,7 +45,7 @@ Dim workbook as Workbook  = New Workbook()
 Dim sheets as WorksheetCollection  = workbook.Worksheets
 Cell cell = sheets(0).Cells("A1");
 Dim style as Style = cell.GetStyle()
-'Установить стиль верхней границы и color
+'Установить стиль и цвет верхней границы
 Dim border as Border = style.Borders(BorderType.TopBorder)
 border.LineStyle = CellBorderType.Medium
 border.Color = Color.Red

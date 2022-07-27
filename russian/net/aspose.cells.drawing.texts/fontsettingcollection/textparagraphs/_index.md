@@ -1,14 +1,14 @@
 ---
 title: TextParagraphs
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает все абзацы.
+description: Получить все абзацы.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.drawing.texts/fontsettingcollection/textparagraphs/
 ---
 ## FontSettingCollection.TextParagraphs property
 
-Получает все абзацы.
+Получить все абзацы.
 
 ```csharp
 public TextParagraphCollection TextParagraphs { get; }

@@ -19,16 +19,16 @@ public double OriginalWidthInch { get; }
 ```csharp
 
 [C#]
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
- //在工作表中行列索引均为1的单元格位置添加图片。是“B2”cell
+//在工作表中行列索引均为1的单元格位置添加图片。它是“B2”单元格
 int imgIndex = worksheet.Pictures.Add(1, 1, "example.jpeg");
- //获取插入的图片object
+//获取插入的图片对象
 Picture pic = worksheet.Pictures[imgIndex];
- //获取图片的原始宽度
+//获取图片的原始宽度。
 double picWidthInch = pic.OriginalWidthInch;
- //保存excel文件.
+//保存excel文件。
 workbook.Save("result.xlsx");
 ```
 

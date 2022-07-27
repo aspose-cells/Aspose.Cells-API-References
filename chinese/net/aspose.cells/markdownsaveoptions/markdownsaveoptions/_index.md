@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions
 second_title: Aspose.Cells for .NET API 参考
-description: 创建用于保存 Markdown 文档的选项
+description: 创建用于保存降价文档的选项
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/markdownsaveoptions/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions constructor
 
-创建用于保存 Markdown 文档的选项
+创建用于保存降价文档的选项
 
 ```csharp
 public MarkdownSaveOptions()

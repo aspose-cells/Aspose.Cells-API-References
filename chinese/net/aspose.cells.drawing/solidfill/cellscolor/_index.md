@@ -1,14 +1,14 @@
 ---
 title: CellsColor
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置CellsColoraspose.cells.drawing/solidfill/cellscolor对象
+description: 获取并设置CellsColoraspose.cells.drawing/solidfill/cellscolor对象.
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.drawing/solidfill/cellscolor/
 ---
 ## SolidFill.CellsColor property
 
-获取和设置`CellsColor`对象。
+获取并设置`CellsColor`对象.
 
 ```csharp
 public CellsColor CellsColor { get; set; }

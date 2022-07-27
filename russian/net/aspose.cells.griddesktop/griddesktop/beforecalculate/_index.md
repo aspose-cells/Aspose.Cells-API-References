@@ -1,14 +1,14 @@
 ---
 title: BeforeCalculate
 second_title: Справочник по Aspose.Cells для .NET API
-description: Происходит перед вычислением формулы в рабочей книге.
+description: Происходит перед вычислением формулы в книге.
 type: docs
 weight: 370
 url: /ru/net/aspose.cells.griddesktop/griddesktop/beforecalculate/
 ---
 ## GridDesktop.BeforeCalculate event
 
-Происходит перед вычислением формулы в рабочей книге.
+Происходит перед вычислением формулы в книге.
 
 ```csharp
 public event WorkbookEventHandler BeforeCalculate;

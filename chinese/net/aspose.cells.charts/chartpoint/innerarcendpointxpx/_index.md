@@ -1,14 +1,14 @@
 ---
 title: InnerArcEndPointXPx
 second_title: Aspose.Cells for .NET API 参考
-description: 调用 Chart.Calculate 方法后获取饼图部分结束点的 x 坐标 适用于圆环图
+description: 调用Chart.Calculate 方法后获取饼图结束点的x 坐标 适用于圆环图
 type: docs
 weight: 110
 url: /zh/net/aspose.cells.charts/chartpoint/innerarcendpointxpx/
 ---
 ## ChartPoint.InnerArcEndPointXPx property
 
-调用 Chart.Calculate() 方法后获取饼图部分结束点的 x 坐标。 适用于圆环图。
+调用Chart.Calculate() 方法后获取饼图结束点的x 坐标。 适用于圆环图。
 
 ```csharp
 public float InnerArcEndPointXPx { get; }

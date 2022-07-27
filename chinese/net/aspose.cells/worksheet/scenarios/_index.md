@@ -1,14 +1,14 @@
 ---
 title: Scenarios
 second_title: Aspose.Cells for .NET API 参考
-description: 获取Scenarioaspose.cells/scenario的集合
+description: 获取集合Scenarioaspose.cells/scenario.
 type: docs
 weight: 400
 url: /zh/net/aspose.cells/worksheet/scenarios/
 ---
 ## Worksheet.Scenarios property
 
-获取[`Scenario`](../../scenario)的集合。
+获取集合[`Scenario`](../../scenario).
 
 ```csharp
 public ScenarioCollection Scenarios { get; }

@@ -24,12 +24,12 @@ public class DateTimeGroupItem
 
 | Имя | Описание |
 | --- | --- |
-| [DateTimeGroupingType](../../aspose.cells/datetimegroupitem/datetimegroupingtype) { get; set; } | Получает и задает тип группы. |
+| [DateTimeGroupingType](../../aspose.cells/datetimegroupitem/datetimegroupingtype) { get; set; } | Получает и устанавливает тип группы. |
 | [Day](../../aspose.cells/datetimegroupitem/day) { get; set; } | Получает и устанавливает день сгруппированного времени даты. |
 | [Hour](../../aspose.cells/datetimegroupitem/hour) { get; set; } | Получает и устанавливает час сгруппированного времени даты. |
 | [Minute](../../aspose.cells/datetimegroupitem/minute) { get; set; } | Получает и устанавливает минуты сгруппированного времени даты. |
 | [MinValue](../../aspose.cells/datetimegroupitem/minvalue) { get; } | Получает минимальное значение. |
-| [Month](../../aspose.cells/datetimegroupitem/month) { get; set; } | Получает и устанавливает месяц сгруппированной даты и времени. |
+| [Month](../../aspose.cells/datetimegroupitem/month) { get; set; } | Получает и устанавливает месяц сгруппированного времени даты. |
 | [Second](../../aspose.cells/datetimegroupitem/second) { get; set; } | Получает и устанавливает секунды сгруппированной даты и времени. |
 | [Year](../../aspose.cells/datetimegroupitem/year) { get; set; } | Получает и устанавливает год сгруппированной даты и времени. |
 

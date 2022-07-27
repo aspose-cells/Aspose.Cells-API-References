@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектFontaspose.cells.charts/chartdatatable/font который представляет настройку шрифта указанной таблицы данных диаграммы.
+description: ПолучаетFontaspose.cells.charts/chartdatatable/font объект который представляет настройку шрифта указанной таблицы данных диаграммы.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.charts/chartdatatable/font/
 ---
 ## ChartDataTable.Font property
 
-Получает объект`Font`, который представляет настройку шрифта указанной таблицы данных диаграммы.
+Получает`Font` объект, который представляет настройку шрифта указанной таблицы данных диаграммы.
 
 ```csharp
 public Font Font { get; }

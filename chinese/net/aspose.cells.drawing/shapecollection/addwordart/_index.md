@@ -1,14 +1,14 @@
 ---
 title: AddWordArt
 second_title: Aspose.Cells for .NET API 参考
-description: 从 Excel 2007.s 添加预设艺术字
+description: 自 Excel 2007.s 添加预设艺术字
 type: docs
 weight: 350
 url: /zh/net/aspose.cells.drawing/shapecollection/addwordart/
 ---
 ## ShapeCollection.AddWordArt method
 
-从 Excel 2007.s 添加预设艺术字
+自 Excel 2007.s 添加预设艺术字
 
 ```csharp
 public Shape AddWordArt(PresetWordArtStyle style, string text, int upperLeftRow, int top, 
@@ -17,7 +17,7 @@ public Shape AddWordArt(PresetWordArtStyle style, string text, int upperLeftRow,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| style | PresetWordArtStyle | 预设艺术字风格。 |
+| style | PresetWordArtStyle | 预设的艺术字样式。 |
 | text | String | 文本。 |
 | upperLeftRow | Int32 | 左上行索引。 |
 | top | Int32 | 表示形状与其左行的垂直偏移量，以像素为单位。 |
@@ -31,7 +31,7 @@ public Shape AddWordArt(PresetWordArtStyle style, string text, int upperLeftRow,
 ```csharp
 
 [C#]
- //添加一个艺术字
+//添加一个艺术字
 Shape wordArt2 = shapes.AddWordArt(PresetWordArtStyle.WordArtStyle1, "WordArt", 3, 0, 3, 0, 50, 200);
 ```
 

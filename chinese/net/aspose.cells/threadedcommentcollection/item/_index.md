@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 通过特定索引获取线程注释
+description: 获取特定索引的线程注释
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/threadedcommentcollection/item/
 ---
 ## ThreadedCommentCollection indexer
 
-通过特定索引获取线程注释。
+获取特定索引的线程注释。
 
 ```csharp
 public ThreadedComment this[int index] { get; }
@@ -16,7 +16,7 @@ public ThreadedComment this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引 |
+| index | 指数 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: CopyRows
 second_title: Aspose.Cells for .NET API 参考
-description: 复制一些整行的数据和格式
+description: 复制某些整行的数据和格式
 type: docs
 weight: 290
 url: /zh/net/aspose.cells.gridweb.data/gridcells/copyrows/
 ---
 ## GridCells.CopyRows method
 
-复制一些整行的数据和格式。
+复制某些整行的数据和格式。
 
 ```csharp
 public void CopyRows(GridCells sourceCells, int sourceRowIndex, int destinationRowIndex, 

@@ -3,7 +3,7 @@ title: Subtotal
 second_title: Aspose.Cells for .NET API 参考
 description: 为范围创建小计
 type: docs
-weight: 1300
+weight: 1310
 url: /zh/net/aspose.cells/cells/subtotal/
 ---
 ## Subtotal(CellArea, int, ConsolidationFunction, int[]) {#subtotal}
@@ -17,7 +17,7 @@ public void Subtotal(CellArea ca, int groupBy, ConsolidationFunction function, i
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | ca | CellArea | 范围 |
-| groupBy | Int32 | 分组依据, 作为从零开始的整数偏移量 |
+| groupBy | Int32 | 要分组的字段，作为从零开始的整数偏移量 |
 | function | ConsolidationFunction | 小计函数。 |
 | totalList | Int32[] | 从零开始的字段偏移数组，指示要添加小计的字段。 |
 
@@ -43,12 +43,12 @@ public void Subtotal(CellArea ca, int groupBy, ConsolidationFunction function, i
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | ca | CellArea | 范围 |
-| groupBy | Int32 | 分组依据, 作为从零开始的整数偏移量 |
+| groupBy | Int32 | 要分组的字段，作为从零开始的整数偏移量 |
 | function | ConsolidationFunction | 小计函数。 |
 | totalList | Int32[] | 从零开始的字段偏移数组，指示要添加小计的字段。 |
-| replace | Boolean | 表示是否替换当前小计 |
-| pageBreaks | Boolean | 表示是否在组间添加分页符 |
-| summaryBelowData | Boolean | 表示是否在数据下方添加摘要。 |
+| replace | Boolean | 指示是否替换当前小计 |
+| pageBreaks | Boolean | 指示是否在组之间添加分页符 |
+| summaryBelowData | Boolean | 指示是否在数据下方添加摘要。 |
 
 ### 也可以看看
 

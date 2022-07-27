@@ -3,7 +3,7 @@ title: CopyValue
 second_title: Справочник по Aspose.Cells для .NET API
 description: Копирует значение ячейки из исходного диапазона.
 type: docs
-weight: 220
+weight: 260
 url: /ru/net/aspose.cells/range/copyvalue/
 ---
 ## Range.CopyValue method
@@ -16,7 +16,7 @@ public void CopyValue(Range range)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| range | Range | Источник[`Range`](../../range)объект. |
+| range | Range | Источник[`Range`](../../range) объект. |
 
 ### Смотрите также
 

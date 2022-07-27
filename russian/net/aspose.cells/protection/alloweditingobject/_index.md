@@ -1,14 +1,14 @@
 ---
 title: AllowEditingObject
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает разрешено ли пользователю управлять объектами чертежа на защищенном рабочем листе.
+description: Указывает разрешено ли пользователю управлять объектами чертежа на защищенном листе.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/protection/alloweditingobject/
 ---
 ## Protection.AllowEditingObject property
 
-Указывает, разрешено ли пользователю управлять объектами чертежа на защищенном рабочем листе.
+Указывает, разрешено ли пользователю управлять объектами чертежа на защищенном листе.
 
 ```csharp
 public bool AllowEditingObject { get; set; }

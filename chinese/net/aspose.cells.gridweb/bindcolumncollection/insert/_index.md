@@ -1,14 +1,14 @@
 ---
 title: Insert
 second_title: Aspose.Cells for .NET API 参考
-description: 插入绑定列对象
+description: 插入一个绑定列对象
 type: docs
 weight: 130
 url: /zh/net/aspose.cells.gridweb/bindcolumncollection/insert/
 ---
 ## BindColumnCollection.Insert method
 
-插入绑定列对象。
+插入一个绑定列对象。
 
 ```csharp
 public void Insert(int index, object value)

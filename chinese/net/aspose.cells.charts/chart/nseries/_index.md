@@ -1,14 +1,14 @@
 ---
 title: NSeries
 second_title: Aspose.Cells for .NET API 参考
-description: 获取表示图表中数据系列的SeriesCollectionaspose.cells.charts/seriescollection集合
+description: 得到一个SeriesCollectionaspose.cells.charts/seriescollection表示图表中数据系列的集合
 type: docs
 weight: 210
 url: /zh/net/aspose.cells.charts/chart/nseries/
 ---
 ## Chart.NSeries property
 
-获取表示图表中数据系列的[`SeriesCollection`](../../seriescollection)集合。
+得到一个[`SeriesCollection`](../../seriescollection)表示图表中数据系列的集合。
 
 ```csharp
 public SeriesCollection NSeries { get; }

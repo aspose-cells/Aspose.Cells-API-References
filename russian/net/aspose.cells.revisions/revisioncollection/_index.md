@@ -20,7 +20,7 @@ public class RevisionCollection : CollectionBase<Revision>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.revisions/revisioncollection/item) { get; } | Получает[`Revision`](../revision)по индексу. |
+| [Item](../../aspose.cells.revisions/revisioncollection/item) { get; } | получает[`Revision`](../revision) по индексу. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы

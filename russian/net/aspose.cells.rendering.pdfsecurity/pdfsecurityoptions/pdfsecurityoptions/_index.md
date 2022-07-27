@@ -16,7 +16,7 @@ public PdfSecurityOptions()
 
 ### Примеры
 
-следующий код устанавливает разрешение на печать с высоким разрешением для выходного pdf.
+Следующий код устанавливает разрешение на печать с высоким разрешением для выходного pdf.
 
 ```csharp
 Workbook wb = new Workbook();
@@ -27,16 +27,16 @@ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
 PdfSecurityOptions pdfSecurityOptions = new PdfSecurityOptions();
 
-  //установить пароль владельца
+//установить пароль владельца
 pdfSecurityOptions.OwnerPassword = "YourOwnerPassword";
 
-  //установить пароль пользователя
+//установить пароль пользователя
 pdfSecurityOptions.UserPassword = "YourUserPassword";
 
-  //установить разрешение на печать
+//устанавливаем разрешение на печать
 pdfSecurityOptions.PrintPermission = true;
 
-  // устанавливаем высокое разрешение для print
+//устанавливаем высокое разрешение для печати
 pdfSecurityOptions.FullQualityPrintPermission = true;
 
 

@@ -1,14 +1,14 @@
 ---
 title: VbaProjectReferenceType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示VBA项目引用的类型
+description: 表示 VBA 项目引用的类型
 type: docs
 weight: 6300
 url: /zh/net/aspose.cells.vba/vbaprojectreferencetype/
 ---
 ## VbaProjectReferenceType enumeration
 
-表示VBA项目引用的类型。
+表示 VBA 项目引用的类型。
 
 ```csharp
 public enum VbaProjectReferenceType

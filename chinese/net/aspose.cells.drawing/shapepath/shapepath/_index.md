@@ -1,14 +1,14 @@
 ---
 title: ShapePath
 second_title: Aspose.Cells for .NET API 参考
-description: 初始化ShapePathaspose.cells.drawing/shapepath类的新实例
+description: 初始化ShapePathaspose.cells.drawing/shapepath类.
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.drawing/shapepath/shapepath/
 ---
 ## ShapePath constructor
 
-初始化[`ShapePath`](../../shapepath)类的新实例。
+初始化[`ShapePath`](../../shapepath)类.
 
 ```csharp
 public ShapePath()

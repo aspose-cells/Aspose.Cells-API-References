@@ -1,14 +1,14 @@
 ---
 title: SessionMode
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置网格的会话模式 会话模式有4种ltbr /gt 1. 会话默认使用系统会话存储表单数据ltbr /gt asp.net 通常使用 InProc 会话状态网格还支持StateServer出进程会话状态 和 SQLServer 会话状态ltbr /gt 2. ViewState使用页面的视图状态来存储工作表数据ltbr /gt 3. 自定义使用 LoadCustomData 和 SheetDataUpdated 事件来存储/恢复工作表数据ltbr /gt 4. 文件在 SessionStorePath 中存储/恢复工作表数据ltbr /gt
+description: 获取或设置网格的会话模式 会话模式有 4 种类型 1. 会话默认使用系统会话存储工作表数据 一般asp.net 使用InProc 会话状态网格还支持StateServer出进程会话 state 和 SQLServer 会话状态 2. ViewState使用页面的视图状态来存储工作表数据 3. 自定义使用 LoadCustomData 和 SheetDataUpdated 事件来存储/恢复工作表数据 4. 文件在 SessionStorePath 中存储/恢复工作表数据
 type: docs
 weight: 810
 url: /zh/net/aspose.cells.gridweb/mainweb/sessionmode/
 ---
 ## MainWeb.SessionMode property
 
-获取或设置网格的会话模式。 会话模式有4种:&lt;br /&gt; 1. 会话（默认）:使用系统会话存储表单数据。&lt;br /&gt; asp.net 通常使用 InProc 会话状态。网格还支持“StateServer”出进程会话状态 和 SQLServer 会话状态。&lt;br /&gt; 2. ViewState:使用页面的视图状态来存储工作表数据。&lt;br /&gt; 3. 自定义:使用 LoadCustomData 和 SheetDataUpdated 事件来存储/恢复工作表数据。&lt;br /&gt; 4. 文件:在 SessionStorePath 中存储/恢复工作表数据。&lt;br /&gt;
+获取或设置网格的会话模式。 会话模式有 4 种类型： 1. 会话（默认）：使用系统会话存储工作表数据。 一般asp.net 使用InProc 会话状态。网格还支持“StateServer”出进程会话 state 和 SQLServer 会话状态。 2. ViewState：使用页面的视图状态来存储工作表数据。 3. 自定义：使用 LoadCustomData 和 SheetDataUpdated 事件来存储/恢复工作表数据。 4. 文件：在 SessionStorePath 中存储/恢复工作表数据。
 
 ```csharp
 public SessionMode SessionMode { get; set; }

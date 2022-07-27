@@ -8,7 +8,7 @@ url: /ru/net/aspose.cells/datasorter/sortasnumber/
 ---
 ## DataSorter.SortAsNumber property
 
-Указывает, сортируется ли что-либо похожее на число.
+Указывает, сортируется ли что-либо, похожее на число.
 
 ```csharp
 public bool SortAsNumber { get; set; }

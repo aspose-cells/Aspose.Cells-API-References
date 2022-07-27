@@ -1,14 +1,14 @@
 ---
 title: GetTableRowTypeOfTotals
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает имя типа строк таблицы состоящих из общей строки таблицы на которую ссылаются. По умолчанию используется Итоги поэтому в формуле Итоги представляет итоговую строку ссылочной таблицы.
+description: Получает имя типа строк таблицы состоящих из итоговой строки таблицы на которую ссылаются.
 type: docs
 weight: 290
 url: /ru/net/aspose.cells/globalizationsettings/gettablerowtypeoftotals/
 ---
 ## GlobalizationSettings.GetTableRowTypeOfTotals method
 
-Получает имя типа строк таблицы, состоящих из общей строки таблицы, на которую ссылаются. По умолчанию используется "Итоги", поэтому в формуле "#Итоги" представляет итоговую строку ссылочной таблицы.
+Получает имя типа строк таблицы, состоящих из итоговой строки таблицы, на которую ссылаются.
 
 ```csharp
 public virtual string GetTableRowTypeOfTotals()

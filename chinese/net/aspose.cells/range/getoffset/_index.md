@@ -1,14 +1,14 @@
 ---
 title: GetOffset
 second_title: Aspose.Cells for .NET API 参考
-description: 通过偏移量获取Rangeaspose.cells/range范围
+description: 获取Rangeaspose.cells/range范围偏移量.
 type: docs
-weight: 270
+weight: 310
 url: /zh/net/aspose.cells/range/getoffset/
 ---
 ## Range.GetOffset method
 
-通过偏移量获取[`Range`](../../range)范围。
+获取[`Range`](../../range)范围偏移量.
 
 ```csharp
 public Range GetOffset(int rowOffset, int columnOffset)

@@ -16,7 +16,7 @@ public void Calculate(CalculationOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | CalculationOptions | Опции для расчета |
+| options | CalculationOptions | Варианты расчета |
 
 ### Смотрите также
 

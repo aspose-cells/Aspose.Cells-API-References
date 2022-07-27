@@ -3,7 +3,7 @@ title: LinkToXmlMap
 second_title: Aspose.Cells for .NET API 参考
 description: 链接到 xml 地图
 type: docs
-weight: 1160
+weight: 1170
 url: /zh/net/aspose.cells/cells/linktoxmlmap/
 ---
 ## Cells.LinkToXmlMap method
@@ -16,10 +16,10 @@ public void LinkToXmlMap(string mapName, int row, int column, string path)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mapName | String | xml 地图名称 |
-| row | Int32 | 行目标单元格 |
+| mapName | String | xml地图名称 |
+| row | Int32 | 目标单元格的行 |
 | column | Int32 | 目标单元格的列 |
-| path | String | xml 映射中 xml 元素的路径 |
+| path | String | xml映射中xml元素的路径 |
 
 ### 也可以看看
 

@@ -17,7 +17,7 @@ public void AddFillColorFilter(int fieldIndex, BackgroundType pattern, CellsColo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldIndex | Int32 | Целочисленное смещение поля, на котором вы хотите основывать фильтр (слева списка; крайнее левое поле — поле 0). |
+| fieldIndex | Int32 | Целочисленное смещение поля, на котором вы хотите основывать фильтр (слева в списке; крайнее левое поле — это поле 0). |
 | pattern | BackgroundType | Тип фонового узора. |
 | foregroundColor | CellsColor | Цвет переднего плана. |
 | backgroundColor | CellsColor | Цвет фона. |

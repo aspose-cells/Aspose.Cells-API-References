@@ -1,14 +1,14 @@
 ---
 title: OdsCellFieldType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示ods的cell字段类型
+description: 代表ods的cell字段类型
 type: docs
 weight: 4270
 url: /zh/net/aspose.cells.ods/odscellfieldtype/
 ---
 ## OdsCellFieldType enumeration
 
-表示ods的cell字段类型。
+代表ods的cell字段类型。
 
 ```csharp
 public enum OdsCellFieldType

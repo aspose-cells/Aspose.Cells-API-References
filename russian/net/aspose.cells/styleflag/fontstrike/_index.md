@@ -1,14 +1,14 @@
 ---
 title: FontStrike
 second_title: Справочник по Aspose.Cells для .NET API
-description: Будет применена настройка зачеркивания шрифта.
+description: Будет применен параметр зачеркивания шрифта.
 type: docs
 weight: 160
 url: /ru/net/aspose.cells/styleflag/fontstrike/
 ---
 ## StyleFlag.FontStrike property
 
-Будет применена настройка зачеркивания шрифта.
+Будет применен параметр зачеркивания шрифта.
 
 ```csharp
 public bool FontStrike { get; set; }

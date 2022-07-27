@@ -1,14 +1,14 @@
 ---
 title: Argb
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает цвет из 32-битного значения ARGB.
+description: Получает и устанавливает цвет из 32-битного значения ARGB.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/cellscolor/argb/
 ---
 ## CellsColor.Argb property
 
-Получает и задает цвет из 32-битного значения ARGB.
+Получает и устанавливает цвет из 32-битного значения ARGB.
 
 ```csharp
 public int Argb { get; set; }

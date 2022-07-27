@@ -21,7 +21,7 @@ public class GridComment
 | [Author](../../aspose.cells.griddesktop.data/gridcomment/author) { get; set; } |  |
 | [AutoSize](../../aspose.cells.griddesktop.data/gridcomment/autosize) { get; set; } |  |
 | [Column](../../aspose.cells.griddesktop.data/gridcomment/column) { get; } |  |
-| [Height](../../aspose.cells.griddesktop.data/gridcomment/height) { get; set; } | Получить или установить высоту комментария. Значение по умолчанию:120. Вводимое значение должно находиться в диапазоне от 20 до 1000. Будет установлено значение 20, если введено значение меньше 20. Будет установлено значение 1000, если будет введено значение больше 1000. |
+| [Height](../../aspose.cells.griddesktop.data/gridcomment/height) { get; set; } | Получить или установить высоту комментария. Значение по умолчанию: 120. Вводимое значение должно находиться в диапазоне от 20 до 1000. Будет установлено значение 20, если будет введено значение меньше 20. Будет установлено значение 1000, если будет введено значение больше 1000. |
 | [HeightCM](../../aspose.cells.griddesktop.data/gridcomment/heightcm) { get; set; } |  |
 | [HeightInch](../../aspose.cells.griddesktop.data/gridcomment/heightinch) { get; set; } |  |
 | [HtmlNote](../../aspose.cells.griddesktop.data/gridcomment/htmlnote) { get; set; } |  |
@@ -30,7 +30,7 @@ public class GridComment
 | [Row](../../aspose.cells.griddesktop.data/gridcomment/row) { get; } |  |
 | [Text](../../aspose.cells.griddesktop.data/gridcomment/text) { get; set; } |  |
 | [Visible](../../aspose.cells.griddesktop.data/gridcomment/visible) { get; set; } |  |
-| [Width](../../aspose.cells.griddesktop.data/gridcomment/width) { get; set; } | Получить или установить ширину комментария. Значение по умолчанию:140. Вводимое значение должно находиться в диапазоне от 20 до 1000. Будет установлено значение 20, если введено значение меньше 20. Будет установлено значение 1000, если будет введено значение больше 1000. |
+| [Width](../../aspose.cells.griddesktop.data/gridcomment/width) { get; set; } | Получить или установить ширину комментария. Значение по умолчанию: 140. Вводимое значение должно находиться в диапазоне от 20 до 1000. Будет установлено значение 20, если будет введено значение меньше 20. Будет установлено значение 1000, если будет введено значение больше 1000. |
 | [WidthCM](../../aspose.cells.griddesktop.data/gridcomment/widthcm) { get; set; } |  |
 | [WidthInch](../../aspose.cells.griddesktop.data/gridcomment/widthinch) { get; set; } |  |
 

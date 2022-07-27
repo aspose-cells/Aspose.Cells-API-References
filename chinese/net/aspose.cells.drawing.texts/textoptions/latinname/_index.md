@@ -1,14 +1,14 @@
 ---
 title: LatinName
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置拉丁名称
+description: 获取和设置拉丁名
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.drawing.texts/textoptions/latinname/
 ---
 ## TextOptions.LatinName property
 
-获取和设置拉丁名称。
+获取和设置拉丁名。
 
 ```csharp
 public string LatinName { get; set; }

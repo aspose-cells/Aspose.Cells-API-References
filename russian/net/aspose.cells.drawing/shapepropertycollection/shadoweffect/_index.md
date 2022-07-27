@@ -1,14 +1,14 @@
 ---
 title: ShadowEffect
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет объект определяющий эффект тени для элемента диаграммы или фигуры.
+description: Представляет объект определяющий эффект тени для элемента диаграммы или формы.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.drawing/shapepropertycollection/shadoweffect/
 ---
 ## ShapePropertyCollection.ShadowEffect property
 
-Представляет объект, определяющий эффект тени для элемента диаграммы или фигуры.
+Представляет объект, определяющий эффект тени для элемента диаграммы или формы.
 
 ```csharp
 public ShadowEffect ShadowEffect { get; }

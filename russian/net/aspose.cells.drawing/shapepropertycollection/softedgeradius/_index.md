@@ -1,14 +1,14 @@
 ---
 title: SoftEdgeRadius
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает радиус размытия краев в точках.
+description: Получает и задает радиус размытия для краев в точках.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.drawing/shapepropertycollection/softedgeradius/
 ---
 ## ShapePropertyCollection.SoftEdgeRadius property
 
-Получает и задает радиус размытия краев в точках.
+Получает и задает радиус размытия для краев в точках.
 
 ```csharp
 public double SoftEdgeRadius { get; set; }

@@ -3,7 +3,7 @@ title: IgnoreInvisibleShapes
 second_title: Aspose.Cells for .NET API 参考
 description: 表示是否导出那些不可见的形状
 type: docs
-weight: 330
+weight: 350
 url: /zh/net/aspose.cells/htmlsaveoptions/ignoreinvisibleshapes/
 ---
 ## HtmlSaveOptions.IgnoreInvisibleShapes property
@@ -16,7 +16,7 @@ public bool IgnoreInvisibleShapes { get; set; }
 
 ### 评论
 
-默认值为假。
+默认值为 false。
 
 ### 也可以看看
 

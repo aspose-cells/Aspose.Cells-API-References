@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает ширину элемента управления в точках.
+description: Получает и задает ширину элемента управления в пунктах.
 type: docs
 weight: 120
 url: /ru/net/aspose.cells.drawing.activexcontrols/activexcontrolbase/width/
 ---
 ## ActiveXControlBase.Width property
 
-Получает и задает ширину элемента управления в точках.
+Получает и задает ширину элемента управления в пунктах.
 
 ```csharp
 public virtual double Width { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: SetStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 将样式设置为单元格 为了提高性能实现SetStyle方法 不实现Style属性
+description: 为单元格设置样式 为提高性能实现SetStyle方法 不实现样式属性
 type: docs
 weight: 420
 url: /zh/net/aspose.cells.griddesktop.data/gridcell/setstyle/
 ---
 ## GridCell.SetStyle method
 
-将样式设置为单元格。 为了提高性能，实现“SetStyle”方法， 不实现“Style”属性。
+为单元格设置样式。 为提高性能，实现“SetStyle”方法， 不实现“样式”属性。
 
 ```csharp
 public void SetStyle(Style value)

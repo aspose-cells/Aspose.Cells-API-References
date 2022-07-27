@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Aspose.Cells for .NET API 参考
-description: 获取Fontaspose.cells.charts/chartdatatable/font对象该对象表示指定图表数据表的字体设置
+description: 得到一个Fontaspose.cells.charts/chartdatatable/font表示指定图表数据表的字体设置的对象
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.charts/chartdatatable/font/
 ---
 ## ChartDataTable.Font property
 
-获取`Font`对象，该对象表示指定图表数据表的字体设置。
+得到一个`Font`表示指定图表数据表的字体设置的对象。
 
 ```csharp
 public Font Font { get; }

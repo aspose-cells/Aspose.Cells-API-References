@@ -1,14 +1,14 @@
 ---
 title: Operator
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет оператор проверки данных.
+description: Представляет оператора для проверки данных.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells/validation/operator/
 ---
 ## Validation.Operator property
 
-Представляет оператор проверки данных.
+Представляет оператора для проверки данных.
 
 ```csharp
 public OperatorType Operator { get; set; }

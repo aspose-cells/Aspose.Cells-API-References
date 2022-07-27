@@ -16,7 +16,7 @@ public void FormatAll(Style style)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| style | Style | 样式是格式化 |
+| style | Style | 要格式化的样式 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: CellEventHandler
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет метод предназначенный для обработки событий ячеек.
+description: Представляет метод предназначенный для обработки событий ячейки.
 type: docs
 weight: 130
 url: /ru/net/aspose.cells.griddesktop/celleventhandler/
 ---
 ## CellEventHandler delegate
 
-Представляет метод, предназначенный для обработки событий ячеек.
+Представляет метод, предназначенный для обработки событий ячейки.
 
 ```csharp
 public delegate void CellEventHandler(object sender, CellEventArgs e);

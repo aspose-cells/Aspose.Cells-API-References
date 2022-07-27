@@ -1,14 +1,14 @@
 ---
 title: Subtotals
 second_title: Aspose.Cells for .NET API 参考
-description: 表示小计数据点的索引
+description: 代表一个小计数据点的索引
 type: docs
 weight: 110
 url: /zh/net/aspose.cells.charts/serieslayoutproperties/subtotals/
 ---
 ## SeriesLayoutProperties.Subtotals property
 
-表示小计数据点的索引。
+代表一个小计数据点的索引。
 
 ```csharp
 public int[] Subtotals { get; set; }

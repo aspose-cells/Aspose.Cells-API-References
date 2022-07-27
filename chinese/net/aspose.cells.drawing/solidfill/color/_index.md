@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置Color
+description: 获取或设置Color.
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.drawing/solidfill/color/
 ---
 ## SolidFill.Color property
 
-获取或设置Color。
+获取或设置Color.
 
 ```csharp
 public Color Color { get; set; }

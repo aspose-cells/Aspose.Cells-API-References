@@ -1,14 +1,14 @@
 ---
 title: RowRange
 second_title: Aspose.Cells for .NET API 参考
-description: 返回代表范围 的 CellArea 对象该范围包含数据透视表中的行区域只读
+description: 返回代表 range 的 CellArea 对象该对象包含数据透视表中的行区域只读
 type: docs
 weight: 560
 url: /zh/net/aspose.cells.pivot/pivottable/rowrange/
 ---
 ## PivotTable.RowRange property
 
-返回代表范围 的 CellArea 对象，该范围包含数据透视表中的行区域。只读。
+返回代表 range 的 CellArea 对象，该对象包含数据透视表中的行区域。只读。
 
 ```csharp
 public CellArea RowRange { get; }

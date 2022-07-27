@@ -18,11 +18,11 @@ public class PatternFill : Fill
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BackgroundCellsColor](../../aspose.cells.drawing/patternfill/backgroundcellscolor) { get; set; } | 获取和设置前景[`CellsColor`](../../aspose.cells/cellscolor)对象。 |
-| [BackgroundColor](../../aspose.cells.drawing/patternfill/backgroundcolor) { get; set; } | 获取或设置Drawing的背景R5:T:System.Drawing.Color:::。区域:::。 |
+| [BackgroundCellsColor](../../aspose.cells.drawing/patternfill/backgroundcellscolor) { get; set; } | 获取和设置前景[`CellsColor`](../../aspose.cells/cellscolor)对象. |
+| [BackgroundColor](../../aspose.cells.drawing/patternfill/backgroundcolor) { get; set; } | 获取或设置背景Color的[`Area`](../area). |
 | [BackTransparency](../../aspose.cells.drawing/patternfill/backtransparency) { get; set; } | 获取或设置背景颜色的透明度。 |
-| [ForegroundCellsColor](../../aspose.cells.drawing/patternfill/foregroundcellscolor) { get; set; } | 获取和设置前景[`CellsColor`](../../aspose.cells/cellscolor)对象。 |
-| [ForegroundColor](../../aspose.cells.drawing/patternfill/foregroundcolor) { get; set; } | 获取或设置前景Color。 |
+| [ForegroundCellsColor](../../aspose.cells.drawing/patternfill/foregroundcellscolor) { get; set; } | 获取和设置前景[`CellsColor`](../../aspose.cells/cellscolor)对象. |
+| [ForegroundColor](../../aspose.cells.drawing/patternfill/foregroundcolor) { get; set; } | 获取或设置前景Color. |
 | [ForeTransparency](../../aspose.cells.drawing/patternfill/foretransparency) { get; set; } | 获取或设置前景色的透明度。 |
 | [Pattern](../../aspose.cells.drawing/patternfill/pattern) { get; set; } | 获取或设置填充图案类型 |
 

@@ -21,7 +21,7 @@ public class CalculationCell
 | [Cell](../../aspose.cells/calculationcell/cell) { get; } | Получает вычисляемый объект Cell. |
 | [CellColumn](../../aspose.cells/calculationcell/cellcolumn) { get; } | Получает индекс столбца ячейки. |
 | [CellRow](../../aspose.cells/calculationcell/cellrow) { get; } | Получает индекс строки ячейки. |
-| [Workbook](../../aspose.cells/calculationcell/workbook) { get; } | Получает объект Workbook. |
+| [Workbook](../../aspose.cells/calculationcell/workbook) { get; } | Получает объект книги. |
 | [Worksheet](../../aspose.cells/calculationcell/worksheet) { get; } | Получает объект Worksheet, в котором находится ячейка. |
 
 ## Методы
@@ -32,7 +32,7 @@ public class CalculationCell
 
 ### Примечания
 
-Все объекты, предоставляемые этим классом, предназначены только для "чтения". Пользователь не должен изменять какие-либо данные в рабочей книге во время процесса вычисления формулы, В противном случае может быть вызван неожиданный результат или исключение.
+Все объекты, предоставляемые этим классом, предназначены только для «чтения».
 
 ### Смотрите также
 

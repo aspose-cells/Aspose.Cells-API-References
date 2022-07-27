@@ -1,14 +1,14 @@
 ---
 title: FirstVisibleRowOfBottomPane
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает первую видимую строку нижней панели.
+description: Получает и задает первую видимую строку нижней панели.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/panecollection/firstvisiblerowofbottompane/
 ---
 ## PaneCollection.FirstVisibleRowOfBottomPane property
 
-Получает и устанавливает первую видимую строку нижней панели.
+Получает и задает первую видимую строку нижней панели.
 
 ```csharp
 public int FirstVisibleRowOfBottomPane { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: FileCacheDirectory
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает/получает каталог кеша для файла книги
+description: Устанавливает/получает каталог кеша для рабочей книги file
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.gridjs/config/filecachedirectory/
 ---
 ## Config.FileCacheDirectory property
 
-Устанавливает/получает каталог кеша для файла книги
+Устанавливает/получает каталог кеша для рабочей книги file
 
 ```csharp
 public static string FileCacheDirectory { get; set; }

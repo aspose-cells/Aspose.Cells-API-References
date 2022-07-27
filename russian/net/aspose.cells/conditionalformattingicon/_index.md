@@ -1,14 +1,14 @@
 ---
 title: ConditionalFormattingIcon
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет пользовательский значок правила условного форматирования.
+description: Представляет настраиваемый значок правила условного форматирования.
 type: docs
 weight: 1110
 url: /ru/net/aspose.cells/conditionalformattingicon/
 ---
 ## ConditionalFormattingIcon class
 
-Представляет пользовательский значок правила условного форматирования.
+Представляет настраиваемый значок правила условного форматирования.
 
 ```csharp
 public class ConditionalFormattingIcon
@@ -19,14 +19,14 @@ public class ConditionalFormattingIcon
 | Имя | Описание |
 | --- | --- |
 | [ImageData](../../aspose.cells/conditionalformattingicon/imagedata) { get; } | Получает данные набора значков. |
-| [Index](../../aspose.cells/conditionalformattingicon/index) { get; set; } | Получает и задает индекс значка в наборе значков. |
+| [Index](../../aspose.cells/conditionalformattingicon/index) { get; set; } | Получает и устанавливает индекс значка в наборе значков. |
 | [Type](../../aspose.cells/conditionalformattingicon/type) { get; set; } | Получает и задает тип набора значков. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| static [GetIconImageData](../../aspose.cells/conditionalformattingicon/geticonimagedata)(IconSetType, int) | Получить данные набора иконок |
+| static [GetIconImageData](../../aspose.cells/conditionalformattingicon/geticonimagedata)(IconSetType, int) | Получить набор иконок data |
 
 ### Смотрите также
 

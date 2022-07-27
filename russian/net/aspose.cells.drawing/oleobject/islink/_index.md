@@ -1,14 +1,14 @@
 ---
 title: IsLink
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает true если OleObject ссылается на файл.
+description: Возвращает true если объект OleObject ссылается на файл.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells.drawing/oleobject/islink/
 ---
 ## OleObject.IsLink property
 
-Возвращает true, если OleObject ссылается на файл.
+Возвращает true, если объект OleObject ссылается на файл.
 
 ```csharp
 public bool IsLink { get; set; }

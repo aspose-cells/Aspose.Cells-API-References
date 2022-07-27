@@ -1,14 +1,14 @@
 ---
 title: PrintTitles
 second_title: Aspose.Cells for .NET API 参考
-description: 指示是否根据数据透视表上的 设置工作表的打印标题默认值为假
+description: 指示工作表的打印标题是否在数据透视表上设置为 based 默认值为假
 type: docs
 weight: 480
 url: /zh/net/aspose.cells.pivot/pivottable/printtitles/
 ---
 ## PivotTable.PrintTitles property
 
-指示是否根据数据透视表上的 设置工作表的打印标题。默认值为假。
+指示工作表的打印标题是否在数据透视表上设置为 based 。默认值为假。
 
 ```csharp
 public bool PrintTitles { get; set; }

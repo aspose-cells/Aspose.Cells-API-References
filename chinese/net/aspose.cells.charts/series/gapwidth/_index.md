@@ -1,14 +1,14 @@
 ---
 title: GapWidth
 second_title: Aspose.Cells for .NET API 参考
-description: 返回或设置条形或列簇之间的间距以条形或列宽的百分比表示 该属性的值必须介于 0 和 500 之间
+description: 返回或设置条形或列簇之间的间距以条形或列宽的百分比表示 此属性的值必须介于 0 和 500 之间
 type: docs
 weight: 140
 url: /zh/net/aspose.cells.charts/series/gapwidth/
 ---
 ## Series.GapWidth property
 
-返回或设置条形或列簇之间的间距，以条形或列宽的百分比表示。 该属性的值必须介于 0 和 500 之间。
+返回或设置条形或列簇之间的间距，以条形或列宽的百分比表示。 此属性的值必须介于 0 和 500 之间。
 
 ```csharp
 public short GapWidth { get; set; }

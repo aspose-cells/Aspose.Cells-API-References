@@ -16,7 +16,7 @@ public void Copy(GridCell source)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| source | GridCell | Источник[`GridCell`](../../gridcell)объект. |
+| source | GridCell | Источник[`GridCell`](../../gridcell) объект. |
 
 ### Смотрите также
 

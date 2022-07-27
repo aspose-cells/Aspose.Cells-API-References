@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置边框的Color
+description: 获取或设置Color边界的.
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/border/color/
 ---
 ## Border.Color property
 
-获取或设置边框的Color。
+获取或设置Color边界的.
 
 ```csharp
 public Color Color { get; set; }

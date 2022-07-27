@@ -1,14 +1,14 @@
 ---
 title: MaxIteration
 second_title: Aspose.Cells for .NET API 参考
-description: 返回或设置解析循环引用的最大迭代次数默认值为 100
+description: 返回或设置解析循环引用的最大迭代次数默认值为100.
 type: docs
 weight: 90
 url: /zh/net/aspose.cells.gridjs/gridworkbooksettings/maxiteration/
 ---
 ## GridWorkbookSettings.MaxIteration property
 
-返回或设置解析循环引用的最大迭代次数，默认值为 100。
+返回或设置解析循环引用的最大迭代次数，默认值为100.
 
 ```csharp
 public int MaxIteration { get; set; }

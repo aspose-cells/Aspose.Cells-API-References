@@ -18,15 +18,15 @@ public class StreamProviderOptions
 
 | Имя | Описание |
 | --- | --- |
-| [StreamProviderOptions](streamprovideroptions#constructor)() | Инициализирует новый экземпляр класса[`StreamProviderOptions`](../streamprovideroptions). |
-| [StreamProviderOptions](streamprovideroptions#constructor_1)(ResourceLoadingType, string) | Инициализирует новый экземпляр класса[`StreamProviderOptions`](../streamprovideroptions). |
+| [StreamProviderOptions](streamprovideroptions#constructor)() | Инициализирует новый экземпляр[`StreamProviderOptions`](../streamprovideroptions) класс. |
+| [StreamProviderOptions](streamprovideroptions#constructor_1)(ResourceLoadingType, string) | Инициализирует новый экземпляр[`StreamProviderOptions`](../streamprovideroptions) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [CustomPath](../../aspose.cells/streamprovideroptions/custompath) { set; } | Пользовательский пользовательский путь (URL), сохраненный в сгенерированном html-файле для указанного источника. Если он не определен пользователем, будет использоваться DefaultPath. Например, данные листа будут сохранены пользователем в d:/sheet001.htm, URL-адрес, используемый в основном файле html, должен быть «d:/sheet001.htm» или другим допустимым относительным путем, который Доступ к основному файлу html. |
-| [DefaultPath](../../aspose.cells/streamprovideroptions/defaultpath) { get; } | Путь по умолчанию (URL), сохраненный в сгенерированном html-файле для указанного источника. Например, данные листа, сохраненные в xxx_files/sheet001.htm, URL-адрес, используемый в основном файле html, должен выглядеть так:"src="xxx_files/sheet001.htm"" |
+| [CustomPath](../../aspose.cells/streamprovideroptions/custompath) { set; } | Пользовательский пользовательский путь (URL), сохраненный в сгенерированном HTML-файле для указанного источника. Если он не определен пользователем, будет использоваться DefaultPath. Например, данные листа будут сохранены пользователем в d:/sheet001.htm, URL-адрес, используемый в основном html-файле, должен быть «d:/sheet001.htm» или другой допустимый относительный путь, к которому может получить доступ основной HTML-файл. |
+| [DefaultPath](../../aspose.cells/streamprovideroptions/defaultpath) { get; } | Путь (URL) по умолчанию, сохраненный в сгенерированном HTML-файле для указанного источника. .htm"" |
 | [ResourceLoadingType](../../aspose.cells/streamprovideroptions/resourceloadingtype) { get; set; } | Получает и задает тип загружаемого ресурса. |
 | [Stream](../../aspose.cells/streamprovideroptions/stream) { get; set; } | Получает/устанавливает поток |
 

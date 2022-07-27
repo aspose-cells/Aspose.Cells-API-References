@@ -1,14 +1,14 @@
 ---
 title: ScrollBars
 second_title: Aspose.Cells for .NET API 参考
-description: 指示控件是否有垂直滚动条水平滚动条两者都有或者都没有
+description: 表示控件是否有垂直滚动条水平滚动条两者都有或者都没有
 type: docs
 weight: 100
 url: /zh/net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/scrollbars/
 ---
 ## ListBoxActiveXControl.ScrollBars property
 
-指示控件是否有垂直滚动条、水平滚动条、两者都有，或者都没有。
+表示控件是否有垂直滚动条，水平滚动条，两者都有，或者都没有。
 
 ```csharp
 public ControlScrollBarType ScrollBars { get; set; }

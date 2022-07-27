@@ -1,14 +1,14 @@
 ---
 title: GridCustomServerValidation
 second_title: Aspose.Cells for .NET API 参考
-description: 使用服务器端验证时需要实现的接口 自定义服务器函数
+description: 使用服务器端验证时需要实现的接口 CustomServerFunction.
 type: docs
 weight: 240
 url: /zh/net/aspose.cells.gridweb.data/gridcustomservervalidation/
 ---
 ## GridCustomServerValidation interface
 
-使用服务器端验证时需要实现的接口。 自定义服务器函数。
+使用服务器端验证时需要实现的接口。 CustomServerFunction.
 
 ```csharp
 public interface GridCustomServerValidation

@@ -1,14 +1,14 @@
 ---
 title: BeginArrowWidth
 second_title: Aspose.Cells for .NET API 参考
-description: 指定行首的箭头宽度
+description: 指定行首箭头的宽度
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.drawing/line/beginarrowwidth/
 ---
 ## Line.BeginArrowWidth property
 
-指定行首的箭头宽度。
+指定行首箭头的宽度。
 
 ```csharp
 public MsoArrowheadWidth BeginArrowWidth { get; set; }

@@ -18,7 +18,7 @@ public interface IPageSavingCallback
 
 | Имя | Описание |
 | --- | --- |
-| [PageEndSaving](../../aspose.cells.rendering/ipagesavingcallback/pageendsaving)(PageEndSavingArgs) | Управление/указание конца страницы для вывода. |
+| [PageEndSaving](../../aspose.cells.rendering/ipagesavingcallback/pageendsaving)(PageEndSavingArgs) | Управление/указание окончания вывода страницы. |
 | [PageStartSaving](../../aspose.cells.rendering/ipagesavingcallback/pagestartsaving)(PageStartSavingArgs) | Управление/указание начала вывода страницы. |
 
 ### Смотрите также

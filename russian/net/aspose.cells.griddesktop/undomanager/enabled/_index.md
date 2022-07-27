@@ -1,14 +1,14 @@
 ---
 title: Enabled
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает значение указывающее включена ли функция отмены. Значение по умолчанию неверно.
+description: Получает или задает значение указывающее включена ли функция отмены. Значение по умолчанию  false.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.griddesktop/undomanager/enabled/
 ---
 ## UndoManager.Enabled property
 
-Получает или задает значение, указывающее, включена ли функция отмены. Значение по умолчанию неверно.
+Получает или задает значение, указывающее, включена ли функция отмены. Значение по умолчанию — false.
 
 ```csharp
 public bool Enabled { get; set; }

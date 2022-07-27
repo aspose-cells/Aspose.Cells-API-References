@@ -1,14 +1,14 @@
 ---
 title: PrintWithStatusDialog
 second_title: Aspose.Cells for .NET API 参考
-description: 如果 PrintWithStatusDialog  true 将出现一个显示当前打印状态的对话框 否则不会显示这样的对话框
+description: 如果 PrintWithStatusDialog  true 将会有一个显示当前打印状态的对话框 否则不会显示这样的对话框
 type: docs
 weight: 250
 url: /zh/net/aspose.cells.rendering/imageorprintoptions/printwithstatusdialog/
 ---
 ## ImageOrPrintOptions.PrintWithStatusDialog property
 
-如果 PrintWithStatusDialog = true ，将出现一个显示当前打印状态的对话框。 否则不会显示这样的对话框。
+如果 PrintWithStatusDialog = true ，将会有一个显示当前打印状态的对话框。 否则不会显示这样的对话框。
 
 ```csharp
 public bool PrintWithStatusDialog { get; set; }

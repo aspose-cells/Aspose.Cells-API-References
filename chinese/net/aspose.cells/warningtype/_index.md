@@ -21,7 +21,7 @@ public enum WarningType
 | FontSubstitution | `0` | 字体替换警告类型 当没有找到字体时，可以得到这个警告类型。 |
 | DuplicateDefinedName | `1` | 在文件中发现重复的定义名称。 |
 | UnsupportedFileFormat | `2` | 不支持的文件格式。 |
-| InvalidTextOfDefinedName | `3` | 定义名称的无效文本。 |
+| InvalidTextOfDefinedName | `3` | 定义名称的文本无效。 |
 | InvalidFontName | `4` | 字体名称无效。 |
 | InvalidAutoFilterRange | `5` | 自动筛选范围无效。 |
 | IO | `6` | 文件已损坏。 |

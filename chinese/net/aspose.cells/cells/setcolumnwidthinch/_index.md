@@ -3,7 +3,7 @@ title: SetColumnWidthInch
 second_title: Aspose.Cells for .NET API 参考
 description: 在普通视图中以英寸为单位设置列宽
 type: docs
-weight: 1230
+weight: 1240
 url: /zh/net/aspose.cells/cells/setcolumnwidthinch/
 ---
 ## Cells.SetColumnWidthInch method

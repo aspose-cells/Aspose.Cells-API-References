@@ -1,14 +1,14 @@
 ---
 title: PrecisionAsDisplayed
 second_title: Aspose.Cells for .NET API 参考
-description: 如果此工作簿中的计算将仅使用显示时的数字精度完成则为真
+description: 如果本工作簿中的计算仅使用所显示数字的精度来完成则为真
 type: docs
 weight: 100
 url: /zh/net/aspose.cells.gridweb.data/gridworkbooksettings/precisionasdisplayed/
 ---
 ## GridWorkbookSettings.PrecisionAsDisplayed property
 
-如果此工作簿中的计算将仅使用显示时的数字精度完成，则为真
+如果本工作簿中的计算仅使用所显示数字的精度来完成，则为真
 
 ```csharp
 public bool PrecisionAsDisplayed { get; set; }

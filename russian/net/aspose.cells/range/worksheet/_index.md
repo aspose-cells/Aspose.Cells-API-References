@@ -1,14 +1,14 @@
 ---
 title: Worksheet
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектWorksheetaspose.cells/range/worksheet содержащий этот диапазон.
+description: ПолучаетWorksheetaspose.cells/range/worksheet объект который содержит этот диапазон.
 type: docs
-weight: 160
+weight: 200
 url: /ru/net/aspose.cells/range/worksheet/
 ---
 ## Range.Worksheet property
 
-Получает объект`Worksheet`, содержащий этот диапазон.
+Получает`Worksheet` объект, который содержит этот диапазон.
 
 ```csharp
 public Worksheet Worksheet { get; }

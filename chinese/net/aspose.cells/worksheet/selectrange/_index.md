@@ -17,11 +17,11 @@ public void SelectRange(int startRow, int startColumn, int totalRows, int totalC
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startRow | Int32 | 起始行。 |
+| startRow | Int32 | 起始行. |
 | startColumn | Int32 | 起始列 |
-| totalRows | Int32 | 行数. |
+| totalRows | Int32 | 行数。 |
 | totalColumns | Int32 | 列数 |
-| removeOthers | Boolean | True 表示删除其他选定的范围，只选择这个范围。 |
+| removeOthers | Boolean | True 表示删除其他选定范围并仅选择此范围。 |
 
 ### 也可以看看
 

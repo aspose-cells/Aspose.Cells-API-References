@@ -1,14 +1,14 @@
 ---
 title: SetEmbeddedObject
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает данные встроенного объекта.
+description: Задает данные встроенного объекта.
 type: docs
 weight: 160
 url: /ru/net/aspose.cells.drawing/oleobject/setembeddedobject/
 ---
 ## SetEmbeddedObject(bool, byte[], string, bool, string) {#setembeddedobject}
 
-Устанавливает данные встроенного объекта.
+Задает данные встроенного объекта.
 
 ```csharp
 public void SetEmbeddedObject(bool linkToFile, byte[] objectData, string sourceFileName, 
@@ -33,7 +33,7 @@ public void SetEmbeddedObject(bool linkToFile, byte[] objectData, string sourceF
 
 ## SetEmbeddedObject(bool, byte[], string, bool, string, bool) {#setembeddedobject_1}
 
-Устанавливает данные встроенного объекта.
+Задает данные встроенного объекта.
 
 ```csharp
 public void SetEmbeddedObject(bool linkToFile, byte[] objectData, string sourceFileName, 
@@ -47,11 +47,11 @@ public void SetEmbeddedObject(bool linkToFile, byte[] objectData, string sourceF
 | sourceFileName | String | Имя файла. |
 | displayAsIcon | Boolean | Указывает, отображается ли объект в виде значка. Если true, исходные данные изображения будут закрыты значком. |
 | label | String | Метка значка. Работает, только если displayAsIcon имеет значение true. |
-| updateIcon | Boolean | Указывает, будет ли автоматически обновляться значок. |
+| updateIcon | Boolean | Указывает, обновляется ли значок автоматически. |
 
 ### Примечания
 
-Поскольку Aspose может обновлять встроенные значки всех файлов, поэтому лучше добавить правильный значок с помощью*updateIcon*как ложь.
+Поскольку Aspose может обновлять встроенные значки всех файлов, поэтому лучше, чтобы вы могли добавить правильный значок с помощью*updateIcon* как ложь.
 
 ### Смотрите также
 

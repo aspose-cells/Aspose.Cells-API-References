@@ -1,14 +1,14 @@
 ---
 title: UpdateLinksType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет как обновлять ссылки на другие книги при открытии книги.
+description: Указывает как обновлять ссылки на другие книги при открытии книги.
 type: docs
 weight: 6160
 url: /ru/net/aspose.cells/updatelinkstype/
 ---
 ## UpdateLinksType enumeration
 
-Представляет, как обновлять ссылки на другие книги при открытии книги.
+Указывает, как обновлять ссылки на другие книги при открытии книги.
 
 ```csharp
 public enum UpdateLinksType
@@ -18,7 +18,7 @@ public enum UpdateLinksType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| UserSet | `0` | Запросить у пользователя обновление. |
+| UserSet | `0` | Предложить пользователю обновиться. |
 | Never | `1` | Не обновлять и не спрашивать пользователя. |
 | Always | `2` | Всегда обновлять. |
 

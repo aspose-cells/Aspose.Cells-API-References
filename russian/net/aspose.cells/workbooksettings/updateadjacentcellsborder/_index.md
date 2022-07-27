@@ -1,14 +1,14 @@
 ---
 title: UpdateAdjacentCellsBorder
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает обновлять ли границу соседних ячеек.
+description: Указывает следует ли обновлять границу соседних ячеек.
 type: docs
 weight: 450
 url: /ru/net/aspose.cells/workbooksettings/updateadjacentcellsborder/
 ---
 ## WorkbookSettings.UpdateAdjacentCellsBorder property
 
-Указывает, обновлять ли границу соседних ячеек.
+Указывает, следует ли обновлять границу соседних ячеек.
 
 ```csharp
 public bool UpdateAdjacentCellsBorder { get; set; }
@@ -16,7 +16,7 @@ public bool UpdateAdjacentCellsBorder { get; set; }
 
 ### Примечания
 
-Значение по умолчанию - false. Например:обновляется нижняя граница ячейки A1, верхняя граница ячейки A2 также должна быть изменена.
+Значение по умолчанию — false. Например: обновляется нижняя граница ячейки A1, верхняя граница ячейки A2 также должна быть изменена.
 
 ### Смотрите также
 

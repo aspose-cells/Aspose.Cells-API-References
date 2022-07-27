@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Cells for .NET API 参考
-description: 获取集合中实际包含的元素数量
+description: 获取集合中实际包含的元素个数
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/externallinkcollection/count/
 ---
 ## ExternalLinkCollection.Count property
 
-获取集合中实际包含的元素数量。
+获取集合中实际包含的元素个数。
 
 ```csharp
 public int Count { get; }

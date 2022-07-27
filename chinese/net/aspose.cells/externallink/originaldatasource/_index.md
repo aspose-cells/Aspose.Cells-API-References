@@ -1,14 +1,14 @@
 ---
 title: OriginalDataSource
 second_title: Aspose.Cells for .NET API 参考
-description: 表示外部链接的存储数据源
+description: 表示外链的存储数据源
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/externallink/originaldatasource/
 ---
 ## ExternalLink.OriginalDataSource property
 
-表示外部链接的存储数据源。
+表示外链的存储数据源。
 
 ```csharp
 public string OriginalDataSource { get; set; }

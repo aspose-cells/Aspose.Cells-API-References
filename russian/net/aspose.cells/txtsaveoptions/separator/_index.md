@@ -1,14 +1,14 @@
 ---
 title: Separator
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает char Разделитель текстового файла.
+description: Получает и устанавливает символьный разделитель текстового файла.
 type: docs
 weight: 100
 url: /ru/net/aspose.cells/txtsaveoptions/separator/
 ---
 ## TxtSaveOptions.Separator property
 
-Получает и устанавливает char Разделитель текстового файла.
+Получает и устанавливает символьный разделитель текстового файла.
 
 ```csharp
 public char Separator { get; set; }

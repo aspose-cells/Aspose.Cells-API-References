@@ -20,7 +20,7 @@ public virtual string GetStandardFunctionName(string localName)
 
 ### 返回值
 
-标准（美国语言环境）函数名称。
+标准（en-US 语言环境）函数名称。
 
 ### 也可以看看
 

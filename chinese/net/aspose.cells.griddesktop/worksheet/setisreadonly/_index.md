@@ -1,14 +1,14 @@
 ---
 title: SetIsReadonly
 second_title: Aspose.Cells for .NET API 参考
-description: 设置单元格是否为只读这是一个扩展属性不会保留在实际的excel文件中
+description: 设置单元格是否为只读这是一个扩展属性它不会保留在实际的excel文件中
 type: docs
 weight: 1070
 url: /zh/net/aspose.cells.griddesktop/worksheet/setisreadonly/
 ---
 ## Worksheet.SetIsReadonly method
 
-设置单元格是否为只读。这是一个扩展属性，不会保留在实际的excel文件中
+设置单元格是否为只读。这是一个扩展属性，它不会保留在实际的excel文件中
 
 ```csharp
 public void SetIsReadonly(int row, int column, bool value)

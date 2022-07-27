@@ -18,8 +18,8 @@ public class VbaModule
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Codes](../../aspose.cells.vba/vbamodule/codes) { get; set; } | 获取和设置模块代码。 |
-| [Name](../../aspose.cells.vba/vbamodule/name) { get; set; } | 获取和设置模块的名称。 |
+| [Codes](../../aspose.cells.vba/vbamodule/codes) { get; set; } | 获取和设置模块的代码。 |
+| [Name](../../aspose.cells.vba/vbamodule/name) { get; set; } | 获取并设置模块的名称。 |
 | [Type](../../aspose.cells.vba/vbamodule/type) { get; } | 获取模块的类型。 |
 
 ### 例子
@@ -28,22 +28,22 @@ public class VbaModule
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
-  // 初始化 VBA 项目。
+ // 初始化 VBA 项目。
 VbaProject vbaProject = workbook.VbaProject; 
- // 添加一个新模块.
+// 添加一个新模块。
 int index = vbaProject.Modules.Add(VbaModuleType.Class, "test");
- // 获取 vba 模块
+// 获取 vba 模块
 VbaModule vbaModule = vbaProject.Modules[index];
- // 设置代码
+// 设置代码
 vbaModule.Codes = "Sub ShowMessage()\r\nMsgBox \"Welcome to Aspose!\"\r\nEnd Sub";
- //保存Excel文件
+//保存Excel文件
 workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 '初始化 VBA 项目。
 Dim vbaProject as VbaProject  = workbook.VbaProject

@@ -21,7 +21,7 @@ public void RemoveAt(int index)
 [C#]
 //添加图片
 int index2 = pictures.Add(1, 1, "image.png");
- //删除
+//删除
 pictures.RemoveAt(index2);
 ```
 

@@ -18,10 +18,10 @@ public class FileFormatUtil
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [DetectFileFormat](../../aspose.cells/fileformatutil/detectfileformat#detectfileformat)(Stream) | 检测并返回流中存储的excel格式信息。 |
-| static [DetectFileFormat](../../aspose.cells/fileformatutil/detectfileformat#detectfileformat_2)(string) | 检测并返回存储在文件中的excel格式信息。 |
-| static [DetectFileFormat](../../aspose.cells/fileformatutil/detectfileformat#detectfileformat_1)(Stream, string) | 检测并返回流中存储的excel格式信息。 |
-| static [DetectFileFormat](../../aspose.cells/fileformatutil/detectfileformat#detectfileformat_3)(string, string) | 检测并返回存储在文件中的excel格式信息。 |
+| static [DetectFileFormat](../../aspose.cells/fileformatutil/detectfileformat#detectfileformat)(Stream) | 检测并返回有关存储在流中的 excel 格式的信息。 |
+| static [DetectFileFormat](../../aspose.cells/fileformatutil/detectfileformat#detectfileformat_2)(string) | 检测并返回有关存储在文件中的 Excel 格式的信息。 |
+| static [DetectFileFormat](../../aspose.cells/fileformatutil/detectfileformat#detectfileformat_1)(Stream, string) | 检测并返回有关存储在流中的 excel 格式的信息。 |
+| static [DetectFileFormat](../../aspose.cells/fileformatutil/detectfileformat#detectfileformat_3)(string, string) | 检测并返回有关存储在文件中的 Excel 格式的信息。 |
 | static [ExtensionToSaveFormat](../../aspose.cells/fileformatutil/extensiontosaveformat)(string) | 将文件扩展名转换为 SaveFormat 值。 |
 | static [FileFormatToSaveFormat](../../aspose.cells/fileformatutil/fileformattosaveformat)(FileFormatType) | 将文件格式转换为保存格式。 |
 | static [IsTemplateFormat](../../aspose.cells/fileformatutil/istemplateformat)(string) | 如果扩展名为 .xlt、.xltX、.xltm、.ots，则返回 true。 |
@@ -29,7 +29,7 @@ public class FileFormatUtil
 | static [LoadFormatToSaveFormat](../../aspose.cells/fileformatutil/loadformattosaveformat)(LoadFormat) | 如果可能，将 LoadFormat 值转换为 SaveFormat 值。 |
 | static [SaveFormatToExtension](../../aspose.cells/fileformatutil/saveformattoextension)(SaveFormat) | 将保存格式枚举值转换为文件扩展名。 |
 | static [SaveFormatToLoadFormat](../../aspose.cells/fileformatutil/saveformattoloadformat)(SaveFormat) | 如果可能，将 SaveFormat 值转换为 LoadFormat 值。 |
-| static [VerifyPassword](../../aspose.cells/fileformatutil/verifypassword)(Stream, string) | 检测并返回流中存储的excel格式信息。 |
+| static [VerifyPassword](../../aspose.cells/fileformatutil/verifypassword)(Stream, string) | 检测并返回有关存储在流中的 excel 格式的信息。 |
 
 ### 也可以看看
 

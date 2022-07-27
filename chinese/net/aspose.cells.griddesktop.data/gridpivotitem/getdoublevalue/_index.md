@@ -1,14 +1,14 @@
 ---
 title: GetDoubleValue
 second_title: Aspose.Cells for .NET API 参考
-description: 获取pivot item的double值 如果值为null或非数字则返回0
+description: 获取pivot item的double值 如果值为null或者不是number则返回0
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.griddesktop.data/gridpivotitem/getdoublevalue/
 ---
 ## GridPivotItem.GetDoubleValue method
 
-获取pivot item的double值 如果值为null或非数字，则返回0
+获取pivot item的double值 如果值为null或者不是number，则返回0
 
 ```csharp
 public double GetDoubleValue()

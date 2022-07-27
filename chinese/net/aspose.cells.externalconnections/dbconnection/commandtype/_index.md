@@ -1,14 +1,14 @@
 ---
 title: CommandType
 second_title: Aspose.Cells for .NET API 参考
-description: 指定 OLE DB 命令类型 1. 查询指定多维数据集名称 2. 查询指定 SQL 语句 3. 查询指定表名 4 . 查询指定已给出默认信息由提供者如何解释 5. 查询是针对基于 Web 的列表数据提供者
+description: 指定 OLE DB 命令类型 1. 查询指定多维数据集名称 2. 查询指定SQL语句 3. 查询指定表名 4. 查询指定已给出默认信息由提供者如何解释 5. 查询反对基于 Web 的列表数据提供程序
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.externalconnections/dbconnection/commandtype/
 ---
 ## DBConnection.CommandType property
 
-指定 OLE DB 命令类型。 1. 查询指定多维数据集名称 2. 查询指定 SQL 语句 3. 查询指定表名 4 . 查询指定已给出默认信息，由提供者如何解释。 5. 查询是针对基于 Web 的列表数据提供者。
+指定 OLE DB 命令类型。 1. 查询指定多维数据集名称 2. 查询指定SQL语句 3. 查询指定表名 4. 查询指定已给出默认信息，由提供者如何解释。 5. 查询反对基于 Web 的列表数据提供程序。
 
 ```csharp
 public OLEDBCommandType CommandType { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Kerning
 second_title: Aspose.Cells for .NET API 参考
-description: 指定此文本运行时字符紧距调整的最小字体大小
+description: 指定此文本运行将发生字符紧缩的最小字体大小
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.drawing.texts/textoptions/kerning/
 ---
 ## TextOptions.Kerning property
 
-指定此文本运行时字符紧距调整的最小字体大小。
+指定此文本运行将发生字符紧缩的最小字体大小。
 
 ```csharp
 public double Kerning { get; set; }

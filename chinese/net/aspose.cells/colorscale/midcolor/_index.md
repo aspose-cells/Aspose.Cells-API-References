@@ -1,14 +1,14 @@
 ---
 title: MidColor
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置中间值对象对应的颜色
+description: 获取或设置范围内中间值的渐变颜色
 type: docs
 weight: 50
 url: /zh/net/aspose.cells/colorscale/midcolor/
 ---
 ## ColorScale.MidColor property
 
-获取或设置中间值对象对应的颜色。
+获取或设置范围内中间值的渐变颜色。
 
 ```csharp
 public Color MidColor { get; set; }

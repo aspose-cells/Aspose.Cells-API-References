@@ -1,14 +1,14 @@
 ---
 title: CheckBoxes
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает коллекциюCheckBoxaspose.cells.drawing/checkbox.
+description: ПолучаетCheckBoxaspose.cells.drawing/checkbox коллекция.
 type: docs
 weight: 80
 url: /ru/net/aspose.cells/worksheet/checkboxes/
 ---
 ## Worksheet.CheckBoxes property
 
-Получает коллекцию[`CheckBox`](../../../aspose.cells.drawing/checkbox).
+Получает[`CheckBox`](../../../aspose.cells.drawing/checkbox) коллекция.
 
 ```csharp
 public CheckBoxCollection CheckBoxes { get; }

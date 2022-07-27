@@ -1,14 +1,14 @@
 ---
 title: GetCubePointXPx
 second_title: Aspose.Cells for .NET API 参考
-description: 调用 Chart.Calculate 方法后获取墙立方体顶点的 x 坐标 墙立方体的顶点数为八个
+description: 调用Chart.Calculate方法后获取墙体顶点的x坐标 墙体顶点数为8个
 type: docs
 weight: 120
 url: /zh/net/aspose.cells.charts/walls/getcubepointxpx/
 ---
 ## Walls.GetCubePointXPx method
 
-调用 Chart.Calculate() 方法后获取墙立方体顶点的 x 坐标。 墙立方体的顶点数为八个
+调用Chart.Calculate()方法后获取墙体顶点的x坐标 墙体顶点数为8个
 
 ```csharp
 public float GetCubePointXPx(int index)

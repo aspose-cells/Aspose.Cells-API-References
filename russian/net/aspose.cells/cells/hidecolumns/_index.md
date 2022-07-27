@@ -3,7 +3,7 @@ title: HideColumns
 second_title: Справочник по Aspose.Cells для .NET API
 description: Скрыть несколько столбцов.
 type: docs
-weight: 890
+weight: 900
 url: /ru/net/aspose.cells/cells/hidecolumns/
 ---
 ## Cells.HideColumns method

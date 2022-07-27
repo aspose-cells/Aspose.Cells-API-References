@@ -15,13 +15,13 @@ public DateTimeGroupItem(DateTimeGroupingType type, int year, int month, int day
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| тип | DateTimeGroupingType |  |
-| год | Int32 |  |
-| месяц | Int32 |  |
-| день | Int32 |  |
-| час | Int32 |  |
-| минута | Int32 |  |
-| секунда | Int32 |  |
+| type | DateTimeGroupingType |  |
+| year | Int32 |  |
+| month | Int32 |  |
+| day | Int32 |  |
+| hour | Int32 |  |
+| minute | Int32 |  |
+| second | Int32 |  |
 
 ### Смотрите также
 

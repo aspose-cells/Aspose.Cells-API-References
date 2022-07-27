@@ -21,15 +21,15 @@ public class Column
 | [GroupLevel](../../aspose.cells/column/grouplevel) { get; } | 获取列的组级别。 |
 | [Index](../../aspose.cells/column/index) { get; } | 获取该列的索引。 |
 | [IsCollapsed](../../aspose.cells/column/iscollapsed) { get; set; } | 列是否折叠 |
-| [IsHidden](../../aspose.cells/column/ishidden) { get; set; } | 指示列是否隐藏。 |
-| [Style](../../aspose.cells/column/style) { get; } | 获取该列的样式。 |
-| [Width](../../aspose.cells/column/width) { get; set; } | 获取和设置以字符为单位的列宽。 |
+| [IsHidden](../../aspose.cells/column/ishidden) { get; set; } | 表示该列是否隐藏。 |
+| [Style](../../aspose.cells/column/style) { get; } | 获取此列的样式。 |
+| [Width](../../aspose.cells/column/width) { get; set; } | 以字符为单位获取和设置列宽。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ApplyStyle](../../aspose.cells/column/applystyle)(Style, StyleFlag) | 对整列应用格式。 |
+| [ApplyStyle](../../aspose.cells/column/applystyle)(Style, StyleFlag) | 为整列应用格式。 |
 
 ### 例子
 
@@ -37,44 +37,43 @@ public class Column
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 
-//获取第一个worksheet
-
+//获取第一个工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
 Style style = workbook.CreateStyle();
 
-//设置背景颜色为Blue
+//设置背景颜色为蓝色
 style.BackgroundColor = Color.Blue;
 
- //设置前景色为Red
+//设置前景色为红色
 style.ForegroundColor= Color.Red;
 
- //设置背景图案
+//设置背景图案
 style.Pattern = BackgroundType.DiagonalStripe;
 
- //新样式标志
+//新样式标志
 StyleFlag styleFlag = new StyleFlag();
 
- //设置所有样式
+//设置所有样式
 styleFlag.All = true;
 
- //获取第一个Column
+//获取第一列
 Column column = worksheet.Cells.Columns[0];
 
- //将样式应用到第一个Column
+//将样式应用于第一列
 column.ApplyStyle(style, styleFlag);
 
- //保存Excel文件
+//保存Excel文件
 workbook.Save("book1.xls");
 
 [VB.NET]
 
-'实例化一个 Workbook 目的
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 
-'获取第一个参考 worksheet
+'获取第一个工作表的引用
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
 Dim style As Style = workbook.CreateStyle()

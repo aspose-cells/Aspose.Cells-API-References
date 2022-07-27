@@ -1,14 +1,14 @@
 ---
 title: IslimitShapeOrImage
 second_title: Aspose.Cells for .NET API 参考
-description: 设置是否限制一个工作表内的总显示形状/图像计数如果设置为true GridJs将限制总显示形状/一个工作表内的图像大小为 MaxShapeOrImageCount 默认值为 true
+description: 设置是否限制一个工作表内的总显示形状/图像数量如果设置为true GridJs 会将一个工作表内的总显示形状/图像大小限制为MaxShapeOrImageCount 默认值为true
 type: docs
 weight: 70
 url: /zh/net/aspose.cells.gridjs/config/islimitshapeorimage/
 ---
 ## Config.IslimitShapeOrImage property
 
-设置是否限制一个工作表内的总显示形状/图像计数，如果设置为true， GridJs将限制总显示形状/一个工作表内的图像大小为 MaxShapeOrImageCount 默认值为 true
+设置是否限制一个工作表内的总显示形状/图像数量，如果设置为true， GridJs 会将一个工作表内的总显示形状/图像大小限制为MaxShapeOrImageCount 默认值为true
 
 ```csharp
 public static bool IslimitShapeOrImage { get; set; }

@@ -16,7 +16,7 @@ public string Indent { get; set; }
 
 ### 评论
 
-如果缩进为 null 或为空，则导出的 json 未格式化。
+如果缩进为null或为空，则导出的json没有格式化。
 
 ### 也可以看看
 

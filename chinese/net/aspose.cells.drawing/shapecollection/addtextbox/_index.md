@@ -1,14 +1,14 @@
 ---
 title: AddTextBox
 second_title: Aspose.Cells for .NET API 参考
-description: 将文本框添加到工作表
+description: 在工作表中添加一个文本框
 type: docs
 weight: 310
 url: /zh/net/aspose.cells.drawing/shapecollection/addtextbox/
 ---
 ## ShapeCollection.AddTextBox method
 
-将文本框添加到工作表。
+在工作表中添加一个文本框。
 
 ```csharp
 public TextBox AddTextBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, 
@@ -20,13 +20,13 @@ public TextBox AddTextBox(int upperLeftRow, int top, int upperLeftColumn, int le
 | upperLeftRow | Int32 | 左上行索引。 |
 | top | Int32 | 表示文本框与其左行的垂直偏移量，以像素为单位。 |
 | upperLeftColumn | Int32 | 左上列索引。 |
-| left | Int32 | 表示文本框从其左列的水平偏移量，以像素为单位。 |
+| left | Int32 | 表示文本框相对于其左列的水平偏移量，以像素为单位。 |
 | height | Int32 | 表示文本框的高度，以像素为单位。 |
 | width | Int32 | 表示文本框的宽度，以像素为单位。 |
 
 ### 返回值
 
-A[`TextBox`](../../textbox)对象。
+一个[`TextBox`](../../textbox)目的。
 
 ### 例子
 
@@ -34,7 +34,7 @@ A[`TextBox`](../../textbox)对象。
 
 [C#]
 
- //添加一个TextBox
+//添加一个文本框
 TextBox textBox = shapes.AddTextBox(1, 0, 1, 0, 100, 50);
 ```
 

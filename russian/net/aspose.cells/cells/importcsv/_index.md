@@ -3,7 +3,7 @@ title: ImportCSV
 second_title: Справочник по Aspose.Cells для .NET API
 description: Импорт файла CSV в ячейки.
 type: docs
-weight: 950
+weight: 960
 url: /ru/net/aspose.cells/cells/importcsv/
 ---
 ## ImportCSV(string, string, bool, int, int) {#importcsv_3}
@@ -17,8 +17,8 @@ public void ImportCSV(string fileName, string splitter, bool convertNumericData,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя файла CSV. |
-| splitter | String | Разделитель |
+| fileName | String | Имя CSV-файла. |
+| splitter | String | Сплиттер |
 | convertNumericData | Boolean | Преобразуется ли строка в текстовом файле в числовые данные. |
 | firstRow | Int32 | Номер строки первой ячейки для импорта. |
 | firstColumn | Int32 | Номер столбца первой ячейки для импорта. |
@@ -42,8 +42,8 @@ public void ImportCSV(Stream stream, string splitter, bool convertNumericData, i
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток файла CSV. |
-| splitter | String | Разделитель |
+| stream | Stream | Файловый поток CSV. |
+| splitter | String | Сплиттер |
 | convertNumericData | Boolean | Преобразуется ли строка в текстовом файле в числовые данные. |
 | firstRow | Int32 | Номер строки первой ячейки для импорта. |
 | firstColumn | Int32 | Номер столбца первой ячейки для импорта. |
@@ -66,7 +66,7 @@ public void ImportCSV(string fileName, TxtLoadOptions options, int firstRow, int
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя файла CSV. |
+| fileName | String | Имя CSV-файла. |
 | options | TxtLoadOptions | Параметры загрузки для чтения текстового файла |
 | firstRow | Int32 | Номер строки первой ячейки для импорта. |
 | firstColumn | Int32 | Номер столбца первой ячейки для импорта. |
@@ -90,7 +90,7 @@ public void ImportCSV(Stream stream, TxtLoadOptions options, int firstRow, int f
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток файла CSV. |
+| stream | Stream | Файловый поток CSV. |
 | options | TxtLoadOptions | Параметры загрузки для чтения текстового файла |
 | firstRow | Int32 | Номер строки первой ячейки для импорта. |
 | firstColumn | Int32 | Номер столбца первой ячейки для импорта. |

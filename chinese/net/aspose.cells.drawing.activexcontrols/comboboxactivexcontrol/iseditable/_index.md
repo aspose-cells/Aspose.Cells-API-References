@@ -1,14 +1,14 @@
 ---
 title: IsEditable
 second_title: Aspose.Cells for .NET API 参考
-description: 指示用户是否可以在控件中键入
+description: 表示用户是否可以在控件中键入
 type: docs
 weight: 110
 url: /zh/net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/iseditable/
 ---
 ## ComboBoxActiveXControl.IsEditable property
 
-指示用户是否可以在控件中键入。
+表示用户是否可以在控件中键入。
 
 ```csharp
 public bool IsEditable { get; set; }

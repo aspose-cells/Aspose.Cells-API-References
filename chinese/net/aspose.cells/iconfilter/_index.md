@@ -1,14 +1,14 @@
 ---
 title: IconFilter
 second_title: Aspose.Cells for .NET API 参考
-description: 表示图标过滤器
+description: 代表图标过滤器
 type: docs
 weight: 3840
 url: /zh/net/aspose.cells/iconfilter/
 ---
 ## IconFilter class
 
-表示图标过滤器。
+代表图标过滤器。
 
 ```csharp
 public class IconFilter
@@ -18,8 +18,8 @@ public class IconFilter
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IconId](../../aspose.cells/iconfilter/iconid) { get; set; } | 获取和设置图标集中从零开始的索引。 |
-| [IconSetType](../../aspose.cells/iconfilter/iconsettype) { get; set; } | 获取和设置过滤条件中使用的图标集。 |
+| [IconId](../../aspose.cells/iconfilter/iconid) { get; set; } | 获取和设置图标集中图标的从零开始的索引。 |
+| [IconSetType](../../aspose.cells/iconfilter/iconsettype) { get; set; } | 获取并设置过滤条件中使用的图标集。 |
 
 ### 也可以看看
 

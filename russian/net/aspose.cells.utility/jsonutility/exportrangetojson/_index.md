@@ -17,7 +17,7 @@ public static string ExportRangeToJson(Range range, ExportRangeToJsonOptions opt
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | range | Range | Диапазон. |
-| options | ExportRangeToJsonOptions | Опции экспорта. |
+| options | ExportRangeToJsonOptions | Варианты экспорта. |
 
 ### Возвращаемое значение
 

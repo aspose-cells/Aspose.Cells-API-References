@@ -19,7 +19,7 @@ public class CustomXmlPart
 | 姓名 | 描述 |
 | --- | --- |
 | [Data](../../aspose.cells.markup/customxmlpart/data) { get; set; } | 获取或设置此自定义 XML 数据存储部件的 XML 内容。 |
-| [ID](../../aspose.cells.markup/customxmlpart/id) { get; set; } | 获取和设置自定义 xml 部件的 id。 |
+| [ID](../../aspose.cells.markup/customxmlpart/id) { get; set; } | 获取和设置自定义xml部分的id。 |
 | [SchemaData](../../aspose.cells.markup/customxmlpart/schemadata) { get; set; } | 获取或设置此自定义 XML 架构数据存储部件的 XML 内容。 |
 
 ### 也可以看看

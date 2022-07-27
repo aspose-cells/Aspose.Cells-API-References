@@ -1,14 +1,14 @@
 ---
 title: ThreeDFormat
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置形状的 3d 格式
+description: 获取并设置形状的 3d 格式
 type: docs
 weight: 750
 url: /zh/net/aspose.cells.drawing/shape/threedformat/
 ---
 ## Shape.ThreeDFormat property
 
-获取和设置形状的 3d 格式。
+获取并设置形状的 3d 格式。
 
 ```csharp
 public ThreeDFormat ThreeDFormat { get; }

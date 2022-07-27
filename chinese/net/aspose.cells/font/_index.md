@@ -21,15 +21,15 @@ public class Font
 | [ArgbColor](../../aspose.cells/font/argbcolor) { get; set; } | 使用 32 位 ARGB 值获取和设置颜色。 |
 | [CapsType](../../aspose.cells/font/capstype) { get; set; } | 获取和设置文本大写类型。 |
 | [Charset](../../aspose.cells/font/charset) { get; set; } | 表示字符集。 |
-| [Color](../../aspose.cells/font/color) { get; set; } | 获取或设置字体的Color。 |
+| [Color](../../aspose.cells/font/color) { get; set; } | 获取或设置Color字体的. |
 | [DoubleSize](../../aspose.cells/font/doublesize) { get; set; } | 获取和设置字体的双倍大小。 |
-| [IsBold](../../aspose.cells/font/isbold) { get; set; } | 获取或设置指示字体是否为粗体的值。 |
-| [IsItalic](../../aspose.cells/font/isitalic) { get; set; } | 获取或设置一个指示字体是否为斜体的值。 |
+| [IsBold](../../aspose.cells/font/isbold) { get; set; } | 获取或设置字体是否为粗体的值。 |
+| [IsItalic](../../aspose.cells/font/isitalic) { get; set; } | 获取或设置字体是否为斜体的值。 |
 | [IsNormalizeHeights](../../aspose.cells/font/isnormalizeheights) { get; set; } | 指示是否要对文本应用高度标准化。 |
 | [IsStrikeout](../../aspose.cells/font/isstrikeout) { get; set; } | 获取或设置一个值，该值指示字体是否为单删除线。 |
-| [IsSubscript](../../aspose.cells/font/issubscript) { get; set; } | 获取或设置表示字体是否为下标的值。 |
+| [IsSubscript](../../aspose.cells/font/issubscript) { get; set; } | 获取或设置字体是否为下标的值。 |
 | [IsSuperscript](../../aspose.cells/font/issuperscript) { get; set; } | 获取或设置字体是否为上标的值。 |
-| virtual [Name](../../aspose.cells/font/name) { get; set; } | 获取或设置[`Font`](../font)的名称。 |
+| virtual [Name](../../aspose.cells/font/name) { get; set; } | 获取或设置[`Font`](../font). |
 | [SchemeType](../../aspose.cells/font/schemetype) { get; set; } | 获取和设置字体的方案类型。 |
 | [ScriptOffset](../../aspose.cells/font/scriptoffset) { get; set; } | 获取和设置脚本偏移量，以百分比为单位 |
 | [Size](../../aspose.cells/font/size) { get; set; } | 获取或设置字体大小。 |
@@ -50,15 +50,13 @@ public class Font
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 
- //通过传入其sheet index
-eet的引用
+//通过传入工作表的索引来获取新添加的工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
 
-//从worksheet
-
+//访问工作表中的“A1”单元格
 Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 
 //向“A1”单元格添加一些值
@@ -66,35 +64,35 @@ cell.PutValue("Hello Aspose!");
 
 Aspose.Cells.Font font = cell.GetStyle().Font;
 
- //设置字体名称为“Times New Roman”
+//设置字体名称为“Times New Roman”
 font.Name = "Times New Roman";
 
- //设置字体大小为14
+//设置字体大小为14
 font.Size = 14;
 
- //设置字体颜色为Red
+//设置字体颜色为红色
 font.Color = System.Drawing.Color.Red;           
 
- //保存Excel文件
+//保存Excel文件
 workbook.Save(@"dest.xls");
 
 [VB.NET]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 
-'通过传入其sheet index 获取新添加的worksheet的引用
+'通过传入工作表的索引来获取新添加的工作表的引用
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-'从访问“A1”单元格worksheet
+'Accessing the "A1" cell from the worksheet
 Dim cell As Aspose.Cells.Cell = worksheet.Cells("A1")
 
-'增加一些价值 "A1" cell
+'Adding some value to the "A1" cell
 cell.PutValue("Hello Aspose!")
 
 Dim font As Aspose.Cells.Font = cell.GetStyle().Font
 
-'设置字体名称为"Times New Roman"
+'Setting the font name to "Times New Roman"
 font.Name = "Times New Roman"
 
 '将字体大小设置为 14
@@ -103,7 +101,7 @@ font.Size = 14
 '将字体颜色设置为红色
 font.Color = System.Drawing.Color.Red
 
-'保存Excel文件
+'保存 Excel 文件
 workbook.Save("dest.xls")
 ```
 

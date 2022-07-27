@@ -1,14 +1,14 @@
 ---
 title: GetPivotFilterByType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает фильтр сводного поля по типу
+description: Получает фильтр сводки поля сводки по типу
 type: docs
 weight: 430
 url: /ru/net/aspose.cells.pivot/pivotfield/getpivotfilterbytype/
 ---
 ## PivotField.GetPivotFilterByType method
 
-Получает фильтр сводного поля по типу
+Получает фильтр сводки поля сводки по типу
 
 ```csharp
 public PivotFilter GetPivotFilterByType(PivotFilterType type)

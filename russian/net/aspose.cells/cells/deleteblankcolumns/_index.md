@@ -32,7 +32,7 @@ public void DeleteBlankColumns(DeleteOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | DeleteOptions | Опции удаления диапазона. |
+| options | DeleteOptions | Варианты удаления диапазона. |
 
 ### Смотрите также
 

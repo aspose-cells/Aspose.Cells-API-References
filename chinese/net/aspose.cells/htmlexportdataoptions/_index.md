@@ -1,14 +1,14 @@
 ---
 title: HtmlExportDataOptions
 second_title: Aspose.Cells for .NET API 参考
-description: 表示导出html数据的选项
+description: 表示导出 html 数据的选项
 type: docs
 weight: 3690
 url: /zh/net/aspose.cells/htmlexportdataoptions/
 ---
 ## HtmlExportDataOptions enumeration
 
-表示导出html数据的选项。
+表示导出 html 数据的选项。
 
 ```csharp
 public enum HtmlExportDataOptions
@@ -18,8 +18,8 @@ public enum HtmlExportDataOptions
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Table | `1` | 将文件导出为仅包含表格部分的html。 |
-| All | `255` | 将所有数据导出为 html。 |
+| Table | `1` | 将文件导出为仅包含表格部分的 html。 |
+| All | `255` | 将所有数据导出到 html. |
 
 ### 也可以看看
 

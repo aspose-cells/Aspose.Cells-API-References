@@ -20,13 +20,13 @@ public enum RectangleAlignmentType
 | --- | --- | --- |
 | Bottom | `0` | 底部 |
 | BottomLeft | `1` | 左下 |
-| BottomRight | `2` | BottomRight |
+| BottomRight | `2` | 右下角 |
 | Center | `3` | 中心 |
 | Left | `4` | 左 |
-| Right | `5` | 右 |
+| Right | `5` | 对 |
 | Top | `6` | 顶部 |
-| TopLeft | `7` | TopLeft |
-| TopRight | `8` | TopRight |
+| TopLeft | `7` | 左上角 |
+| TopRight | `8` | 右上 |
 
 ### 也可以看看
 

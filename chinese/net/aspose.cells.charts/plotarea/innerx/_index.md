@@ -1,14 +1,14 @@
 ---
 title: InnerX
 second_title: Aspose.Cells for .NET API 参考
-description: 以图表区域的 1/4000 为单位获取或获取绘图区域上上角的 x 坐标
+description: 获取或获取绘图区域上上角的x坐标单位为图表区域的1/4000
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.charts/plotarea/innerx/
 ---
 ## PlotArea.InnerX property
 
-以图表区域的 1/4000 为单位获取或获取绘图区域上上角的 x 坐标。
+获取或获取绘图区域上上角的x坐标，单位为图表区域的1/4000。
 
 ```csharp
 public int InnerX { get; set; }
@@ -16,9 +16,9 @@ public int InnerX { get; set; }
 
 ### 评论
 
-绘图区域边界框包括绘图区域、刻度线（刻度标签）和刻度线周围的小边框。 如果该值不是由 MS Excel 创建的，请在调用该方法之前调用 Chart.Calculate() 方法。
+绘图区域边界框包括绘图区域、刻度线（刻度标签）和刻度线周围的小边框。 如果该值不是由 MS Excel 创建的，请在调用此方法之前调用 Chart.Calculate() 方法.
 
-**X** , **Y** , **宽度** 和 **高度** of **PlotArea** 表示绘图区域 边界框，包括绘图区域、刻度线（刻度线标签）和刻度线周围的小边框。 如果你想得到绘图区域的实际大小，你应该调用 **InnerX** , **InnerY** , **InnerWidth** 和  **InnerHeight** 属性.
+这 **X** , **是** , **宽度**和 **高度**的 **绘图区**表示绘图区域 边界框，包括绘图区域、刻度线（刻度线标签）和刻度线周围的小边框。 如果你想得到绘图区域的实际大小，你应该调用 **内在X** , **内在** , **内宽**和  **内部高度**特性。
 
 对于 excel 2007 或更高版本，默认值为零。您应该在调用 Chart.Calculate() 后调用获取值。
 

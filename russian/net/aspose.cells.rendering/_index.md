@@ -14,13 +14,13 @@ url: /ru/net/aspose.cells.rendering/
 | --- | --- |
 | [DrawObject](./drawobject) | DrawObject будет инициализирован и возвращен при рендеринге. |
 | [DrawObjectEventHandler](./drawobjecteventhandler) | Интерфейс для получения DrawObject и Bound при рендеринге. |
-| [ImageOrPrintOptions](./imageorprintoptions) | Позволяет указать параметры при преобразовании рабочего листа в изображение, печати рабочего листа или отображении диаграммы в изображение. |
-| [PageEndSavingArgs](./pageendsavingargs) | Информация для страницы завершает процесс сохранения. |
+| [ImageOrPrintOptions](./imageorprintoptions) | Позволяет указать параметры при рендеринге рабочего листа в изображения, печати рабочего листа или рендеринге диаграммы в изображение. |
+| [PageEndSavingArgs](./pageendsavingargs) | Информация о завершении процесса сохранения страницы. |
 | [PageSavingArgs](./pagesavingargs) | Информация для процесса сохранения страницы. |
 | [PageStartSavingArgs](./pagestartsavingargs) | Информация для страницы начинает процесс сохранения. |
-| [PdfBookmarkEntry](./pdfbookmarkentry) | PdfBookmarkEntry — запись в закладке pdf. если свойство Text текущего экземпляра равно null или "", текущий экземпляр будет скрыт, а дочерние элементы будут вставлены на текущий уровень. |
+| [PdfBookmarkEntry](./pdfbookmarkentry) | PdfBookmarkEntry — это запись в закладке pdf. , если свойство Text текущего экземпляра равно null или "", текущий экземпляр будет скрыт, а дочерние элементы будут вставлены на текущий уровень. |
 | [SheetPrintingPreview](./sheetprintingpreview) | Предварительный просмотр печати рабочего листа. |
-| [SheetRender](./sheetrender) | Представляет визуализацию рабочего листа, который может отображать рабочий лист в различные изображения, такие как (BMP, PNG, JPEG, TIFF..) Конструктор этого class , должен использоваться после модификации pagesetup, стиля ячейки. |
+| [SheetRender](./sheetrender) | Представляет визуализацию рабочего листа, который может отображать рабочий лист в различные изображения, такие как (BMP, PNG, JPEG, TIFF..) Конструктор этого класса должен использоваться после модификации pagesetup, стиля ячейки. |
 | [WorkbookPrintingPreview](./workbookprintingpreview) | Предварительный просмотр печати книги. |
 | [WorkbookRender](./workbookrender) | Представляет визуализацию рабочей книги. Конструктор этого класса должен использоваться после модификации pagesetup, стиля ячейки. |
 ## Интерфейсы
@@ -32,13 +32,13 @@ url: /ru/net/aspose.cells.rendering/
 
 | перечисление | Описание |
 | --- | --- |
-| [ColorDepth](./colordepth) | Перечисляет тип битовой глубины для изображения в формате TIFF. |
-| [CommentTitleType](./commenttitletype) | Представляет тип заголовка комментария при рендеринге, когда комментарий установлен для отображения в конце листа. |
-| [DrawObjectEnum](./drawobjectenum) | Указать ячейку или изображение DrawObject. |
+| [ColorDepth](./colordepth) | Перечисляет тип разрядности для изображения в формате TIFF. |
+| [CommentTitleType](./commenttitletype) | Представляет тип заголовка комментария при рендеринге, когда комментарий настроен на отображение в конце листа. |
+| [DrawObjectEnum](./drawobjectenum) | Указывает ячейку или изображение DrawObject. |
 | [PdfCompliance](./pdfcompliance) | Разрешение пользователю устанавливать совместимость преобразования PDF |
-| [PdfCompressionCore](./pdfcompressioncore) | Указывает тип сжатия, применяемый ко всему содержимому файла PDF, кроме изображений. |
-| [PdfCustomPropertiesExport](./pdfcustompropertiesexport) | Указывает способ экспорта[`CustomDocumentPropertyCollection`](../aspose.cells.properties/customdocumentpropertycollection)в файл PDF. |
-| [PdfFontEncoding](./pdffontencoding) | Представляет кодировку встроенного шрифта pdf. |
+| [PdfCompressionCore](./pdfcompressioncore) | Определяет тип сжатия, применяемый ко всему содержимому файла PDF, кроме изображений. |
+| [PdfCustomPropertiesExport](./pdfcustompropertiesexport) | Указывает путь[`CustomDocumentPropertyCollection`](../aspose.cells.properties/customdocumentpropertycollection) экспортируются в файл PDF. |
+| [PdfFontEncoding](./pdffontencoding) | Представляет кодировку встроенного шрифта PDF. |
 | [PdfOptimizationType](./pdfoptimizationtype) | Указывает тип оптимизации. |
 | [TiffCompression](./tiffcompression) | Указывает, какой тип сжатия следует применять при сохранении изображений в файл формата TIFF. |
 

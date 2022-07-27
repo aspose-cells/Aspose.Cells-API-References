@@ -1,14 +1,14 @@
 ---
 title: FilterRows
 second_title: Aspose.Cells for .NET API 参考
-description: 使用标准字符串过滤行
+description: 使用条件字符串过滤行
 type: docs
 weight: 80
 url: /zh/net/aspose.cells.griddesktop/rowfiltersettings/filterrows/
 ---
 ## RowFilterSettings.FilterRows method
 
-使用标准字符串过滤行。
+使用条件字符串过滤行。
 
 ```csharp
 public void FilterRows(int column, string criteria)
@@ -17,7 +17,7 @@ public void FilterRows(int column, string criteria)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | column | Int32 | 工作表的列 |
-| criteria | String | 指定条件（字符串；例如，“101”）。 |
+| criteria | String | 指定的条件（字符串；例如，“101”）。 |
 
 ### 也可以看看
 

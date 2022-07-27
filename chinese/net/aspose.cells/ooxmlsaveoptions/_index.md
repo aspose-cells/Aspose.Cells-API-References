@@ -1,14 +1,14 @@
 ---
 title: OoxmlSaveOptions
 second_title: Aspose.Cells for .NET API 参考
-description: 表示保存office open xml文件的选项
+description: 代表保存office open xml文件的选项
 type: docs
 weight: 4370
 url: /zh/net/aspose.cells/ooxmlsaveoptions/
 ---
 ## OoxmlSaveOptions class
 
-表示保存office open xml文件的选项。
+代表保存office open xml文件的选项。
 
 ```csharp
 public class OoxmlSaveOptions : SaveOptions
@@ -28,17 +28,17 @@ public class OoxmlSaveOptions : SaveOptions
 | [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder) { get; set; } | 缓存的文件夹是用来存放一些大数据的。 |
 | [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | 保存文件后使工作簿为空。 |
 | [CompressionType](../../aspose.cells/ooxmlsaveoptions/compressiontype) { get; set; } | 获取并设置 ooxml 文件的压缩类型。 |
-| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | 如果为true且目录不存在，则在保存文件之前会自动创建目录。 |
-| [EmbedOoxmlAsOleObject](../../aspose.cells/ooxmlsaveoptions/embedooxmlasoleobject) { get; set; } | 表示是否将 OleObject 的 Ooxml 文件嵌入为 ole 对象。 |
+| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | 如果为true且目录不存在，会在保存文件前自动创建目录。 |
+| [EmbedOoxmlAsOleObject](../../aspose.cells/ooxmlsaveoptions/embedooxmlasoleobject) { get; set; } | 表示是否将OleObject的Ooxml文件嵌入为ole对象。 |
 | [EnableZip64](../../aspose.cells/ooxmlsaveoptions/enablezip64) { get; set; } | 在编写 zip 存档时始终使用 ZIP64 扩展名，即使在不必要的情况下也是如此。 |
-| [ExportCellName](../../aspose.cells/ooxmlsaveoptions/exportcellname) { get; set; } | 指示是否将单元格名称导出到 Excel2007 .xlsx（.xlsm、.xltx、.xltm）文件。 如果 SQL Server DTS 可以访问输出文件，则此值必须为 true。 将该值设置为 false 将大大提高性能并在创建大文件时减小文件大小。 默认值为真。 |
-| [LightCellsDataProvider](../../aspose.cells/ooxmlsaveoptions/lightcellsdataprovider) { get; set; } | 数据提供程序，用于提供单元格数据以在轻量模式下保存工作簿。 |
+| [ExportCellName](../../aspose.cells/ooxmlsaveoptions/exportcellname) { get; set; } | 指示是否将单元格名称导出到 Excel2007 .xlsx（.xlsm、.xltx、.xltm）文件。 如果输出文件可以被SQL Server DTS访问，该值必须为true。 设置为false将大大提高性能并在创建大文件时减小文件大小。 默认值为true。 |
+| [LightCellsDataProvider](../../aspose.cells/ooxmlsaveoptions/lightcellsdataprovider) { get; set; } | 提供单元格数据以在轻量模式下保存工作簿的数据提供程序。 |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | 表示是否在保存文件之前合并条件格式和验证区域。 |
 | [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | 表示是否刷新图表缓存数据 |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | 获取保存文件格式。 |
 | [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | 表示是否在保存文件之前对外部定义的名称进行排序。 |
 | [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | 表示是否在保存文件之前对定义的名称进行排序。 |
-| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | 表示是否更新智能艺术设置。 默认值为假。 |
+| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | 表示是否更新智能艺术设置。 默认值为false。 |
 | [UpdateZoom](../../aspose.cells/ooxmlsaveoptions/updatezoom) { get; set; } | 如果 PageSetup.FitToPagesWide 和 PageSetup.FitToPagesTall 属性控制工作表的缩放方式，则指示是否在保存文件 之前更新缩放因子。 |
 | [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas) { get; set; } | 表示是否在保存文件之前验证合并的单元格。 |
 | [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | 获取或设置警告回调。 |

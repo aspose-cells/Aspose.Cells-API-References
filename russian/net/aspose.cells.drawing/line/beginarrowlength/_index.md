@@ -1,14 +1,14 @@
 ---
 title: BeginArrowLength
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает длину стрелки для начала строки.
+description: Определяет длину стрелки для начала строки.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.drawing/line/beginarrowlength/
 ---
 ## Line.BeginArrowLength property
 
-Указывает длину стрелки для начала строки.
+Определяет длину стрелки для начала строки.
 
 ```csharp
 public MsoArrowheadLength BeginArrowLength { get; set; }

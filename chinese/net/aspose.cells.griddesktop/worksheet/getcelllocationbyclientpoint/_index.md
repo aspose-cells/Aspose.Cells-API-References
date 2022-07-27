@@ -16,7 +16,7 @@ public CellLocation GetCellLocationByClientPoint(Point clientPoint)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| clientPoint | Point | 客户端坐标点 |
+| clientPoint | Point | 客户坐标点 |
 
 ### 返回值
 

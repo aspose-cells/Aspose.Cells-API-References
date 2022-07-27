@@ -1,14 +1,14 @@
 ---
 title: MoveTo
 second_title: Справочник по Aspose.Cells для .NET API
-description: Переместить текущий диапазон в целевой диапазон.
+description: Переместить текущий диапазон в диапазон назначения.
 type: docs
-weight: 310
+weight: 350
 url: /ru/net/aspose.cells/range/moveto/
 ---
 ## Range.MoveTo method
 
-Переместить текущий диапазон в целевой диапазон.
+Переместить текущий диапазон в диапазон назначения.
 
 ```csharp
 public void MoveTo(int destRow, int destColumn)
@@ -16,8 +16,8 @@ public void MoveTo(int destRow, int destColumn)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| destRow | Int32 | Начальная строка диапазона адресатов. |
-| destColumn | Int32 | Начальный столбец диапазона адресатов. |
+| destRow | Int32 | Начальная строка целевого диапазона. |
+| destColumn | Int32 | Начальный столбец диапазона назначения. |
 
 ### Смотрите также
 

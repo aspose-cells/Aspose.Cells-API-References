@@ -19,7 +19,7 @@ public class Top10Filter
 | Имя | Описание |
 | --- | --- |
 | [Criteria](../../aspose.cells/top10filter/criteria) { get; set; } |  |
-| [IsPercent](../../aspose.cells/top10filter/ispercent) { get; set; } | Указывает, являются ли элементы процентами. |
+| [IsPercent](../../aspose.cells/top10filter/ispercent) { get; set; } | Указывает, являются ли элементы процентными. |
 | [IsTop](../../aspose.cells/top10filter/istop) { get; set; } | Указывает, является ли это верхним фильтром. |
 | [Items](../../aspose.cells/top10filter/items) { get; set; } | Получает и устанавливает элементы фильтра. |
 

@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Справочник по Aspose.Cells для .NET API
-description: Удаляет пользовательский объект командной кнопки.
+description: Удаляет объект пользовательской командной кнопки.
 type: docs
 weight: 140
 url: /ru/net/aspose.cells.gridweb/customcommandbuttoncollection/remove/
 ---
 ## CustomCommandButtonCollection.Remove method
 
-Удаляет пользовательский объект командной кнопки.
+Удаляет объект пользовательской командной кнопки.
 
 ```csharp
 public void Remove(object value)

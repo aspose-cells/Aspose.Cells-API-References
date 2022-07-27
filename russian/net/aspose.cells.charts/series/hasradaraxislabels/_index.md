@@ -1,14 +1,14 @@
 ---
 title: HasRadarAxisLabels
 second_title: Справочник по Aspose.Cells для .NET API
-description: Истинно если лепестковая диаграмма имеет метки оси категорий. Применяется только к радиолокационным картам.
+description: Истинно если лепестковая диаграмма имеет метки осей категорий. Применяется только к радиолокационным картам.
 type: docs
 weight: 190
 url: /ru/net/aspose.cells.charts/series/hasradaraxislabels/
 ---
 ## Series.HasRadarAxisLabels property
 
-Истинно, если лепестковая диаграмма имеет метки оси категорий. Применяется только к радиолокационным картам.
+Истинно, если лепестковая диаграмма имеет метки осей категорий. Применяется только к радиолокационным картам.
 
 ```csharp
 public bool HasRadarAxisLabels { get; set; }

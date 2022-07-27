@@ -1,14 +1,14 @@
 ---
 title: CreateRange
 second_title: Справочник по Aspose.Cells для .NET API
-description: Создает объектRangeaspose.cells/rangeиз адреса диапазона.
+description: СоздаетRangeaspose.cells/range объект с адреса диапазона.
 type: docs
 weight: 210
 url: /ru/net/aspose.cells/worksheetcollection/createrange/
 ---
 ## WorksheetCollection.CreateRange method
 
-Создает объект[`Range`](../../range)из адреса диапазона.
+Создает[`Range`](../../range) объект с адреса диапазона.
 
 ```csharp
 public Range CreateRange(string address, int sheetIndex)
@@ -21,7 +21,7 @@ public Range CreateRange(string address, int sheetIndex)
 
 ### Возвращаемое значение
 
-A[`Range`](../../range)объект
+А[`Range`](../../range) объект
 
 ### Смотрите также
 

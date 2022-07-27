@@ -18,14 +18,14 @@ public class SpinButtonActiveXControl : ActiveXControl
 
 | Имя | Описание |
 | --- | --- |
-| [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Получает и устанавливает цвет фона. |
+| [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Получает и устанавливает цвет фона ole. |
 | override [Data](../../aspose.cells.drawing.activexcontrols/activexcontrol/data) { get; } | Получает и устанавливает двоичные данные элемента управления. |
 | [Font](../../aspose.cells.drawing.activexcontrols/activexcontrol/font) { get; } | Представляет шрифт элемента управления. |
 | virtual [ForeOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/foreolecolor) { get; set; } | Получает и задает ole цвет переднего плана. |
 | virtual [Height](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/height) { get; set; } | Получает и задает высоту элемента управления в пунктах. |
 | [IMEMode](../../aspose.cells.drawing.activexcontrols/activexcontrol/imemode) { get; set; } | Получает и задает режим времени выполнения по умолчанию редактора метода ввода для элемента управления, когда он получает фокус. |
-| virtual [IsAutoSize](../../aspose.cells.drawing.activexcontrols/activexcontrol/isautosize) { get; set; } | Указывает, будет ли размер элемента управления автоматически изменяться для отображения всего его содержимого. |
-| [IsEnabled](../../aspose.cells.drawing.activexcontrols/activexcontrol/isenabled) { get; set; } | Указывает, может ли элемент управления получать фокус и реагировать на генерируемые пользователем события. |
+| virtual [IsAutoSize](../../aspose.cells.drawing.activexcontrols/activexcontrol/isautosize) { get; set; } | Указывает, будет ли автоматически изменяться размер элемента управления для отображения всего его содержимого. |
+| [IsEnabled](../../aspose.cells.drawing.activexcontrols/activexcontrol/isenabled) { get; set; } | Указывает, может ли элемент управления получать фокус и реагировать на события, созданные пользователем. |
 | [IsLocked](../../aspose.cells.drawing.activexcontrols/activexcontrol/islocked) { get; set; } | Указывает, заблокированы ли данные в элементе управления для редактирования. |
 | [IsTransparent](../../aspose.cells.drawing.activexcontrols/activexcontrol/istransparent) { get; set; } | Указывает, является ли элемент управления прозрачным. |
 | virtual [IsVisible](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/isvisible) { get; set; } | Указывает, виден ли этот элемент управления. |
@@ -33,16 +33,16 @@ public class SpinButtonActiveXControl : ActiveXControl
 | [ListFillRange](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/listfillrange) { get; set; } | Получает и задает диапазон заполнения списка. |
 | [Max](../../aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/max) { get; set; } | Получает и устанавливает максимально допустимое значение. |
 | [Min](../../aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/min) { get; set; } | Получает и устанавливает минимально допустимое значение. |
-| [MouseIcon](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mouseicon) { get; set; } | Получает и задает пользовательский значок, отображаемый в качестве указателя мыши для элемента управления. |
+| [MouseIcon](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mouseicon) { get; set; } | Получает и задает пользовательский значок для отображения в качестве указателя мыши для элемента управления. |
 | [MousePointer](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mousepointer) { get; set; } | Получает и задает тип значка, отображаемого в качестве указателя мыши для элемента управления. |
-| [Orientation](../../aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/orientation) { get; set; } | Получает и задает, ориентированы ли SpinButton или ScrollBar вертикально или горизонтально. |
+| [Orientation](../../aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/orientation) { get; set; } | Получает и задает вертикальную или горизонтальную ориентацию SpinButton или ScrollBar. |
 | [Position](../../aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/position) { get; set; } | Получает и устанавливает значение. |
 | virtual [Shadow](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/shadow) { get; set; } | Указывает, показывать ли тень. |
-| [SmallChange](../../aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/smallchange) { get; set; } | Получает и задает величину, на которую изменяется свойство Position |
+| [SmallChange](../../aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/smallchange) { get; set; } | Получает и задает величину изменения свойства Position |
 | [TextAlign](../../aspose.cells.drawing.activexcontrols/activexcontrol/textalign) { get; set; } | Представляет способ выравнивания текста, используемого элементом управления. |
 | override [Type](../../aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/type) { get; } | Получает тип элемента управления ActiveX. |
-| virtual [Width](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/width) { get; set; } | Получает и задает ширину элемента управления в точках. |
-| [Workbook](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook) { get; } | Получает объект[`Workbook`](../activexcontrolbase/workbook). |
+| virtual [Width](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/width) { get; set; } | Получает и задает ширину элемента управления в пунктах. |
+| [Workbook](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook) { get; } | Получает[`Workbook`](../activexcontrolbase/workbook) объект. |
 
 ### Смотрите также
 

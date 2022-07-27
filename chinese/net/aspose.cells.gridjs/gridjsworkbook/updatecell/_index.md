@@ -16,7 +16,7 @@ public string UpdateCell(string p, string uid)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| p | String | 更新json字符串 |
+| p | String | 更新 json 字符串 |
 | uid | String | 工作表文件的唯一 ID |
 
 ### 也可以看看

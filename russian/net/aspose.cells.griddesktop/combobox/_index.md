@@ -1,14 +1,14 @@
 ---
 title: ComboBox
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет элемент управления со списком ячеек.
+description: Представляет элемент управления полем со списком ячеек.
 type: docs
 weight: 270
 url: /ru/net/aspose.cells.griddesktop/combobox/
 ---
 ## ComboBox class
 
-Представляет элемент управления со списком ячеек.
+Представляет элемент управления полем со списком ячеек.
 
 ```csharp
 public class ComboBox : CellControl
@@ -19,18 +19,18 @@ public class ComboBox : CellControl
 | Имя | Описание |
 | --- | --- |
 | [Height](../../aspose.cells.griddesktop/combobox/height) { get; set; } | Получает или задает высоту элемента управления списком. |
-| [IsInputable](../../aspose.cells.griddesktop/combobox/isinputable) { get; set; } | Указывает, может ли пользователь вводить текст в поле со списком. Введенный текст будет сохранен как значение ячейки. Значение по умолчанию "false". |
-| [Items](../../aspose.cells.griddesktop/combobox/items) { get; } | Получает объект, представляющий набор элементов, содержащихся в этом поле со списком. |
+| [IsInputable](../../aspose.cells.griddesktop/combobox/isinputable) { get; set; } | Указывает, может ли пользователь вводить текст в поле со списком. Введенный текст будет сохранен как значение ячейки. Значение по умолчанию — "false". |
+| [Items](../../aspose.cells.griddesktop/combobox/items) { get; } | Получает объект, представляющий набор элементов, содержащихся в этом ComboBox. |
 | [SelectedIndex](../../aspose.cells.griddesktop/combobox/selectedindex) { get; set; } | Получает или задает индекс, определяющий текущий выбранный элемент. Установка индекса вызовет метод GridDesktop.RunAllFormulas автоматически, если свойство GridDesktop.RecalculateFormulas равно true. |
 | [Text](../../aspose.cells.griddesktop/cellcontrol/text) { get; set; } | Получает или задает текст, связанный с этим элементом управления. |
-| [Values](../../aspose.cells.griddesktop/combobox/values) { get; } | Получает объект, представляющий набор значений, содержащихся в этом поле со списком. |
+| [Values](../../aspose.cells.griddesktop/combobox/values) { get; } | Получает объект, представляющий набор значений, содержащихся в этом ComboBox. |
 | [Width](../../aspose.cells.griddesktop/combobox/width) { get; set; } | Получает или задает ширину элемента управления списком. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [SetSelectedIndex](../../aspose.cells.griddesktop/combobox/setselectedindex)(int) | Устанавливает выбранный индекс ComboBox. Это не будет вычислять формулу. Чтобы вычислить формулу, необходимо вызвать GridDesktop.RunAllFormulas вручную. Он не будет автоматически вычислять формулы в любом случае, даже если GridDesktop.RecalculateFormulas имеет значение true. |
+| [SetSelectedIndex](../../aspose.cells.griddesktop/combobox/setselectedindex)(int) | Устанавливает выбранный индекс ComboBox. Это не будет вычислять формулу. Чтобы вычислить формулу, необходимо вызвать GridDesktop.RunAllFormulas вручную. |
 
 ### Смотрите также
 

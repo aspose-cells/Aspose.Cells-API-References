@@ -19,8 +19,8 @@ public enum SmartTagShowType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | All | `0` | 表示启用并显示智能标签 |
-| NoSmartTagIndicator | `1` | 表示启用智能标签但不显示指示符。 |
-| None | `2` | 表示智能标签被禁用且不显示。 |
+| NoSmartTagIndicator | `1` | 表示启用了智能标签但不显示指示符。 |
+| None | `2` | 表示智能标签已禁用且不显示。 |
 
 ### 也可以看看
 

@@ -21,7 +21,7 @@ public bool IsGroup { get; }
 [C#]
 if(shape.IsGroup)
 {
-     //这个形状是一个group.
+    //这个形状是一个组。
 }
 ```
 

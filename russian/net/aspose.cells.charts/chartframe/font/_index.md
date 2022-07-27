@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектFontaspose.cells.charts/chartframe/fontуказанного объекта ChartFrame.
+description: ПолучаетFontaspose.cells.charts/chartframe/font объект указанного объекта ChartFrame.
 type: docs
 weight: 90
 url: /ru/net/aspose.cells.charts/chartframe/font/
 ---
 ## ChartFrame.Font property
 
-Получает объект`Font`указанного объекта ChartFrame.
+Получает`Font` объект указанного объекта ChartFrame.
 
 ```csharp
 public virtual Font Font { get; }

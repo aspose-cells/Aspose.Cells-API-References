@@ -16,11 +16,11 @@ public Cell[] GetDependents(bool isAll)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| isAll | Boolean | 表示是否检查其他工作表中的公式 |
+| isAll | Boolean | 指示是否检查其他工作表中的公式 |
 
 ### 评论
 
-&lt;ul &gt;&lt;li&gt;如果一个单元格的公式中出现一个包含该单元格的引用，则该单元格将被视为 该单元格的依赖项，无论在计算时是否使用引用或该单元格。 例如，虽然计算时不使用公式“=IF(TRUE,A1,A2)”中的单元格A2，但 这个公式仍被视为A2的从属。 &lt;/li&gt;&lt;li&gt;要获取计算结果依赖于该单元格的公式，请使用[`GetDependentsInCalculation`](../getdependentsincalculation).&lt;/li&gt;&lt;li&gt;在跟踪一个单元格的依赖项时，将分析和检查工作簿或工作表中的所有公式。 所以这是一个耗时的过程。如果用户需要跟踪大量单元格的依赖项，使用此方法将 导致性能不佳。出于性能考虑，用户应使用[`GetDependentsInCalculation`](../getdependentsincalculation)代替。 或者，用户可以先通过[`GetPrecedents`](../getprecedents)收集所有单元格的先例图， 然后构建依赖图根据先例图。&lt;/li&gt;&lt;/ul&gt;
+如果一个包含该单元格的引用出现在一个单元格的公式中，则该单元格将被视为 该单元格的依赖项，无论在计算时是否使用引用或该单元格。 例如，虽然公式中的单元格A2“=IF (TRUE,A1,A2)" 计算时不使用， 这个公式仍然作为A2的依赖。 要获取计算结果取决于此单元格的公式，请使用[`GetDependentsInCalculation`](../getdependentsincalculation).跟踪一个单元格的依赖项时，将分析和检查工作簿或工作表中的所有公式。 所以这是一个耗时的过程。如果用户需要跟踪大量单元格的依赖项，使用此方法将 导致性能不佳。出于性能考虑，用户应使用[`GetDependentsInCalculation`](../getdependentsincalculation) 或者，用户可以通过以下方式收集所有单元格的先例图[`GetPrecedents`](../getprecedents)首先， ，然后根据先例图构建家属图。
 
 ### 例子
 
@@ -31,8 +31,8 @@ Workbook workbook = new Workbook();
 Cells cells = workbook.Worksheets[0].Cells;
 cells["A1"].Formula = "=B1+SUM(B1:B10)+[Book1.xls]Sheet1!B2";
 cells["A2"].Formula = "=IF(TRUE,B2,B1)";
-Cell[] dependents = cells["B1"].GetDependents();
-for (int i = 0; i < dependents.Count; i++)
+Cell[] dependents = cells["B1"].GetDependents(true);
+for (int i = 0; i < dependents.Length; i++)
 {
      Console.WriteLine(dependents[i].Name);
 }

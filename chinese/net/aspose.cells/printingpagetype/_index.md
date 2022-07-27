@@ -20,7 +20,7 @@ public enum PrintingPageType
 | --- | --- | --- |
 | Default | `0` | 打印所有页面。 |
 | IgnoreBlank | `1` | 不要打印单元格为空白的页面。 |
-| IgnoreStyle | `2` | 不要打印单元格仅包含样式的页面。 |
+| IgnoreStyle | `2` | 不要打印单元格只包含样式的页面。 |
 
 ### 也可以看看
 

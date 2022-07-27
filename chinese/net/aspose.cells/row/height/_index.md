@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Cells for .NET API 参考
-description: 以点为单位获取和设置行高
+description: 以Points为单位获取和设置行高
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/row/height/
 ---
 ## Row.Height property
 
-以点为单位获取和设置行高。
+以Points为单位获取和设置行高。
 
 ```csharp
 public double Height { get; set; }

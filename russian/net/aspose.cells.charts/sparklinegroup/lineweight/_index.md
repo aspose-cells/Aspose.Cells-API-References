@@ -1,14 +1,14 @@
 ---
 title: LineWeight
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает вес линии в каждой строке спарклайна в группе спарклайнов в единицах измерения баллов.
+description: Получает и задает вес линии в каждой линии спарклайна в группе спарклайнов в единицах измерения.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.charts/sparklinegroup/lineweight/
 ---
 ## SparklineGroup.LineWeight property
 
-Получает и задает вес линии в каждой строке спарклайна в группе спарклайнов в единицах измерения баллов.
+Получает и задает вес линии в каждой линии спарклайна в группе спарклайнов в единицах измерения.
 
 ```csharp
 public double LineWeight { get; set; }

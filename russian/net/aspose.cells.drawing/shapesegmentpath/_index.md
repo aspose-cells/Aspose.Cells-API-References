@@ -19,7 +19,7 @@ public class ShapeSegmentPath
 | Имя | Описание |
 | --- | --- |
 | [Points](../../aspose.cells.drawing/shapesegmentpath/points) { get; } | Получает точки в сегменте пути |
-| [Type](../../aspose.cells.drawing/shapesegmentpath/type) { get; } | Получает тип сегмента пути |
+| [Type](../../aspose.cells.drawing/shapesegmentpath/type) { get; } | Получает сегмент пути type |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Border
 second_title: Aspose.Cells for .NET API 参考
-description: 表示Series对象的边框
+description: 表示 Series 对象的边框
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.charts/series/border/
 ---
 ## Series.Border property
 
-表示Series对象的边框。
+表示 Series 对象的边框。
 
 ```csharp
 public Line Border { get; }

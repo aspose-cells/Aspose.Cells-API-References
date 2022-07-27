@@ -23,7 +23,7 @@ public int AddThreadedComment(int row, int column, string text, ThreadedCommentA
 
 ### Возвращаемое значение
 
-[`ThreadedComment`](../../threadedcomment)индекс объекта.
+[`ThreadedComment`](../../threadedcomment) индекс объекта.
 
 ### Смотрите также
 
@@ -50,7 +50,7 @@ public int AddThreadedComment(string cellName, string text, ThreadedCommentAutho
 
 ### Возвращаемое значение
 
-[`ThreadedComment`](../../threadedcomment)индекс объекта.
+[`ThreadedComment`](../../threadedcomment) индекс объекта.
 
 ### Смотрите также
 

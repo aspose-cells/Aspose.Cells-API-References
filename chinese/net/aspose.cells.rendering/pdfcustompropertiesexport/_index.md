@@ -1,14 +1,14 @@
 ---
 title: PdfCustomPropertiesExport
 second_title: Aspose.Cells for .NET API 参考
-description: 指定CustomDocumentPropertyCollection../aspose.cells.properties/customdocumentpropertycollection导出到 PDF 文件的方式
+description: 指定方式CustomDocumentPropertyCollection../aspose.cells.properties/customdocumentpropertycollection导出为 PDF 文件
 type: docs
 weight: 5210
 url: /zh/net/aspose.cells.rendering/pdfcustompropertiesexport/
 ---
 ## PdfCustomPropertiesExport enumeration
 
-指定[`CustomDocumentPropertyCollection`](../../aspose.cells.properties/customdocumentpropertycollection)导出到 PDF 文件的方式。
+指定方式[`CustomDocumentPropertyCollection`](../../aspose.cells.properties/customdocumentpropertycollection)导出为 PDF 文件。
 
 ```csharp
 public enum PdfCustomPropertiesExport
@@ -18,7 +18,7 @@ public enum PdfCustomPropertiesExport
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 没有自定义属性被导出。 |
+| None | `0` | 没有导出自定义属性。 |
 | Standard | `1` | 自定义属性导出为信息字典中的条目。 |
 
 ### 也可以看看

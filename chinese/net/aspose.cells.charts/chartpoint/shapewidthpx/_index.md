@@ -1,14 +1,14 @@
 ---
 title: ShapeWidthPx
 second_title: Aspose.Cells for .NET API 参考
-description: 调用 Chart.Calculate 方法后以像素为单位获取宽度
+description: 调用 Chart.Calculate 方法后获取宽度以像素为单位
 type: docs
 weight: 240
 url: /zh/net/aspose.cells.charts/chartpoint/shapewidthpx/
 ---
 ## ChartPoint.ShapeWidthPx property
 
-调用 Chart.Calculate() 方法后以像素为单位获取宽度。
+调用 Chart.Calculate() 方法后获取宽度（以像素为单位）。
 
 ```csharp
 public int ShapeWidthPx { get; }

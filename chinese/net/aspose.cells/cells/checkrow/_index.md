@@ -1,14 +1,14 @@
 ---
 title: CheckRow
 second_title: Aspose.Cells for .NET API 参考
-description: 获取Rowaspose.cells/row元素或指定单元格行索引处
+description: 获取Rowaspose.cells/row元素或在指定的单元格行索引处
 type: docs
 weight: 380
 url: /zh/net/aspose.cells/cells/checkrow/
 ---
 ## Cells.CheckRow method
 
-获取[`Row`](../../row)元素或指定单元格行索引处。
+获取[`Row`](../../row)元素或在指定的单元格行索引处。
 
 ```csharp
 public Row CheckRow(int row)
@@ -20,7 +20,7 @@ public Row CheckRow(int row)
 
 ### 返回值
 
-如果行对象确实存在，则返回 Row 对象，否则返回 null。
+如果行对象存在则返回Row对象，否则返回null。
 
 ### 也可以看看
 

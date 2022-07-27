@@ -1,14 +1,14 @@
 ---
 title: FolderFontSource
 second_title: Справочник по Aspose.Cells для .NET API
-description: Ктор.
+description: Стор.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/folderfontsource/folderfontsource/
 ---
 ## FolderFontSource constructor
 
-Ктор.
+Стор.
 
 ```csharp
 public FolderFontSource(string folderPath, bool scanSubfolders)
@@ -17,7 +17,7 @@ public FolderFontSource(string folderPath, bool scanSubfolders)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | folderPath | String | путь к папке со шрифтами |
-| scanSubfolders | Boolean | Определяет, не сканировать вложенные папки. |
+| scanSubfolders | Boolean | Определяет, сканировать ли вложенные папки. |
 
 ### Смотрите также
 

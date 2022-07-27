@@ -1,14 +1,14 @@
 ---
 title: EmbedSmartTags
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает сохраняются ли смарт-теги с книгой.
+description: Указывает сохраняются ли смарт-теги вместе с книгой.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.markup/smarttagoptions/embedsmarttags/
 ---
 ## SmartTagOptions.EmbedSmartTags property
 
-Указывает, сохраняются ли смарт-теги с книгой.
+Указывает, сохраняются ли смарт-теги вместе с книгой.
 
 ```csharp
 public bool EmbedSmartTags { get; set; }

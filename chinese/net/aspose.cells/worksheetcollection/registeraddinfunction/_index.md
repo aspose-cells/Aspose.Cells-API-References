@@ -1,14 +1,14 @@
 ---
 title: RegisterAddInFunction
 second_title: Aspose.Cells for .NET API 参考
-description: 将插件函数添加到工作簿
+description: 将插件函数添加到工作簿中
 type: docs
 weight: 290
 url: /zh/net/aspose.cells/worksheetcollection/registeraddinfunction/
 ---
 ## RegisterAddInFunction(string, string, bool) {#registeraddinfunction}
 
-将插件函数添加到工作簿
+将插件函数添加到工作簿中
 
 ```csharp
 public int RegisterAddInFunction(string addInFile, string functionName, bool lib)
@@ -16,13 +16,13 @@ public int RegisterAddInFunction(string addInFile, string functionName, bool lib
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| addInFile | String | 文件包含插件函数 |
-| functionName | String | 插件函数名 |
-| lib | Boolean | 给定的插件文件是否在工作簿加载项库的目录或子目录。 当给定 addInFile 是相对路径时，此标志生效并有所不同: true 表示路径相对于加载项库，false 表示路径相对于此工作簿. |
+| addInFile | String | 该文件包含插件功能 |
+| functionName | String | 插件函数名称 |
+| lib | Boolean | 给定的插件文件是在工作簿插件库的目录还是子目录中。 这个标志在给定的addInFile是相对路径时生效并有所不同： true表示路径是相对于插件库，false表示路径是相对于此工作簿的。 |
 
 ### 返回值
 
-包含给定插件函数的数据的 ID
+包含给定插件功能的数据的 ID
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public int RegisterAddInFunction(string addInFile, string functionName, bool lib
 
 ## RegisterAddInFunction(int, string) {#registeraddinfunction_1}
 
-将插件函数添加到工作簿
+将插件函数添加到工作簿中
 
 ```csharp
 public string RegisterAddInFunction(int id, string functionName)
@@ -42,12 +42,12 @@ public string RegisterAddInFunction(int id, string functionName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| id | Int32 | 数据的 ID其中包含插件函数， 可以通过[`RegisterAddInFunction`](../registeraddinfunction)的第一次调用获得对于相同的插件文件。 |
+| id | Int32 | 包含插件函数的数据的ID， 可以通过第一次调用得到[`RegisterAddInFunction`](../registeraddinfunction)对于相同的插件文件。 |
 | functionName | String | 插件函数名称 |
 
 ### 返回值
 
-包含插件函数的插件文件的 URL
+包含插件功能的插件文件的 URL
 
 ### 也可以看看
 

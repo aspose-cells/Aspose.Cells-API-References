@@ -1,14 +1,14 @@
 ---
 title: Workbook
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектWorkbookaspose.cells.drawing.activexcontrols/activexcontrolbase/workbook.
+description: ПолучаетWorkbookaspose.cells.drawing.activexcontrols/activexcontrolbase/workbook объект.
 type: docs
 weight: 130
 url: /ru/net/aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook/
 ---
 ## ActiveXControlBase.Workbook property
 
-Получает объект`Workbook`.
+Получает`Workbook` объект.
 
 ```csharp
 public Workbook Workbook { get; }

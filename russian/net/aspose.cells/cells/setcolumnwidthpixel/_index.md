@@ -3,7 +3,7 @@ title: SetColumnWidthPixel
 second_title: Справочник по Aspose.Cells для .NET API
 description: Устанавливает ширину столбца в пикселях в обычном режиме просмотра.
 type: docs
-weight: 1240
+weight: 1250
 url: /ru/net/aspose.cells/cells/setcolumnwidthpixel/
 ---
 ## Cells.SetColumnWidthPixel method
@@ -17,7 +17,7 @@ public void SetColumnWidthPixel(int column, int pixels)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | column | Int32 | Индекс столбца. |
-| пиксели | Int32 | Количество пикселей. |
+| pixels | Int32 | Количество пикселей. |
 
 ### Смотрите также
 

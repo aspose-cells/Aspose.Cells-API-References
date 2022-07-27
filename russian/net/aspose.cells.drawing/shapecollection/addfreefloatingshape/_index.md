@@ -1,14 +1,14 @@
 ---
 title: AddFreeFloatingShape
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет свободно плавающую фигуру на рабочий лист. Применяется только для формы линии/изображения.
+description: Добавляет свободно плавающую фигуру на лист. Применяется только для формы линии/изображения.
 type: docs
 weight: 100
 url: /ru/net/aspose.cells.drawing/shapecollection/addfreefloatingshape/
 ---
 ## ShapeCollection.AddFreeFloatingShape method
 
-Добавляет свободно плавающую фигуру на рабочий лист. Применяется только для формы линии/изображения.
+Добавляет свободно плавающую фигуру на лист. Применяется только для формы линии/изображения.
 
 ```csharp
 public Shape AddFreeFloatingShape(MsoDrawingType type, int top, int left, int height, int width, 
@@ -17,12 +17,12 @@ public Shape AddFreeFloatingShape(MsoDrawingType type, int top, int left, int he
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | MsoDrawingType | Тип фигуры. |
+| type | MsoDrawingType | Тип формы. |
 | top | Int32 | Представляет вертикальное смещение фигуры от верхней строки рабочего листа в единицах пикселя. |
-| left | Int32 | Представляет горизонтальное смещение фигуры от левого столбца рабочего листа в единицах пикселей. |
+| left | Int32 | Представляет горизонтальное смещение фигуры от левого столбца рабочего листа в пикселях. |
 | height | Int32 | Представляет высоту LineShape в пикселях. |
 | width | Int32 | Представляет ширину LineShape в пикселях. |
-| imageData | Byte[] | Данные изображения применимы только к изображению. |
+| imageData | Byte[] | Данные изображения относятся только к изображению. |
 | isOriginalSize | Boolean | Использует ли фигура исходный размер, если фигура является изображением. |
 
 ### Примеры
@@ -30,7 +30,7 @@ public Shape AddFreeFloatingShape(MsoDrawingType type, int top, int left, int he
 ```csharp
 
 [C#]
-  // добавляем строку
+//добавляем строку
 Shape floatingShape_Line = shapes.AddFreeFloatingShape(MsoDrawingType.Line, 100, 100, 100, 50, null, false);
 //добавляем картинку
 byte[] imageData = null;

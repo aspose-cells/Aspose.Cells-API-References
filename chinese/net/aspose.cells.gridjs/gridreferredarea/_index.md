@@ -1,14 +1,14 @@
 ---
 title: GridReferredArea
 second_title: Aspose.Cells for .NET API 参考
-description: 用公式表示一个引用区域
+description: 用公式表示一个参考区域
 type: docs
 weight: 100
 url: /zh/net/aspose.cells.gridjs/gridreferredarea/
 ---
 ## GridReferredArea class
 
-用公式表示一个引用区域。
+用公式表示一个参考区域。
 
 ```csharp
 public class GridReferredArea
@@ -23,7 +23,7 @@ public class GridReferredArea
 | [ExternalFileName](../../aspose.cells.gridjs/gridreferredarea/externalfilename) { get; } | this.KeepedRels = source.KeepedRels; |
 | [IsArea](../../aspose.cells.gridjs/gridreferredarea/isarea) { get; } | 表示这是否是一个区域。 |
 | [IsExternalLink](../../aspose.cells.gridjs/gridreferredarea/isexternallink) { get; } | 表示这是否是外部链接。 |
-| [SheetName](../../aspose.cells.gridjs/gridreferredarea/sheetname) { get; } | 指示这是在哪个工作表 |
+| [SheetName](../../aspose.cells.gridjs/gridreferredarea/sheetname) { get; } | 表示这是在哪个工作表中 |
 | [StartColumn](../../aspose.cells.gridjs/gridreferredarea/startcolumn) { get; } | 区域的起始列。 |
 | [StartRow](../../aspose.cells.gridjs/gridreferredarea/startrow) { get; } | 区域的起始行。 |
 

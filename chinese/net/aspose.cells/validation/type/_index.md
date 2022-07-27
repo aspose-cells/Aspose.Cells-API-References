@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Cells for .NET API 参考
-description: 表示数据验证类型
+description: 表示数据校验类型
 type: docs
 weight: 140
 url: /zh/net/aspose.cells/validation/type/
 ---
 ## Validation.Type property
 
-表示数据验证类型。
+表示数据校验类型。
 
 ```csharp
 public ValidationType Type { get; set; }

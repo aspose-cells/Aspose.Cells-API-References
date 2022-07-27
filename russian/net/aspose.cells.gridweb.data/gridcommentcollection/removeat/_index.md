@@ -1,14 +1,14 @@
 ---
 title: RemoveAt
 second_title: Справочник по Aspose.Cells для .NET API
-description: Удаляет комментарий конкретной ячейки.
+description: Удаляет комментарий к конкретной ячейке.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.gridweb.data/gridcommentcollection/removeat/
 ---
 ## RemoveAt(string) {#removeat_1}
 
-Удаляет комментарий конкретной ячейки.
+Удаляет комментарий к конкретной ячейке.
 
 ```csharp
 public void RemoveAt(string cellName)
@@ -28,7 +28,7 @@ public void RemoveAt(string cellName)
 
 ## RemoveAt(int, int) {#removeat}
 
-Удаляет комментарий конкретной ячейки.
+Удаляет комментарий к конкретной ячейке.
 
 ```csharp
 public void RemoveAt(int row, int column)

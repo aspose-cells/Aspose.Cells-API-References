@@ -1,14 +1,14 @@
 ---
 title: Formula
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает формулуCellaspose.cells/cell.
+description: Получает или задает формулуCellaspose.cells/cell .
 type: docs
 weight: 90
 url: /ru/net/aspose.cells/cell/formula/
 ---
 ## Cell.Formula property
 
-Получает или задает формулу[`Cell`](../../cell).
+Получает или задает формулу[`Cell`](../../cell) .
 
 ```csharp
 public string Formula { get; set; }
@@ -16,7 +16,7 @@ public string Formula { get; set; }
 
 ### Примечания
 
-Строка формулы всегда начинается со знака равенства (=). Всегда используйте запятую(,) в качестве разделителя параметров, например "=СУММ(A1, E1, H2)".
+Строка формулы всегда начинается со знака равенства (=). Всегда используйте запятую (,) в качестве разделителя параметров, например "=SUM(A1, E1, H2)".
 
 ### Примеры
 

@@ -1,14 +1,14 @@
 ---
 title: IsAutomaticPaperSize
 second_title: Aspose.Cells for .NET API 参考
-description: 表示纸张大小是否为自动
+description: 表示纸张大小是否自动
 type: docs
 weight: 140
 url: /zh/net/aspose.cells/pagesetup/isautomaticpapersize/
 ---
 ## PageSetup.IsAutomaticPaperSize property
 
-表示纸张大小是否为自动。
+表示纸张大小是否自动。
 
 ```csharp
 public bool IsAutomaticPaperSize { get; }

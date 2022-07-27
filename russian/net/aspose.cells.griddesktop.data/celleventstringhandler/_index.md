@@ -1,16 +1,16 @@
 ---
 title: CellEventStringHandler
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет метод предназначенный для обработки событий ячеек. то же что и интерфейс CellEventHandler но возвращает строковый результат
+description: Представляет метод предназначенный для обработки событий ячеек. То же что и интерфейс CellEventHandler но возвращает строку result
 type: docs
 weight: 340
 url: /ru/net/aspose.cells.griddesktop.data/celleventstringhandler/
 ---
 ## CellEventStringHandler delegate
 
-Представляет метод, предназначенный для обработки событий ячеек. то же, что и интерфейс CellEventHandler, но возвращает строковый результат
+Представляет метод, предназначенный для обработки событий ячеек. То же, что и интерфейс CellEventHandler, но возвращает строку result
 
-String **handleCellEvent** ( Отправитель объекта, CellEventArgs e);
+Нить **обработатьCellEvent**(Отправитель объекта, CellEventArgs e);
 
 ```csharp
 public delegate string CellEventStringHandler(object sender, CellEventArgs e);

@@ -1,14 +1,14 @@
 ---
 title: BaseIndex
 second_title: Aspose.Cells for .NET API 参考
-description: 表示基础数据透视字段中的数据透视字段索引
+description: 表示基础 PivotFields 中的 PivotField 索引
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.pivot/pivotfield/baseindex/
 ---
 ## PivotField.BaseIndex property
 
-表示基础数据透视字段中的数据透视字段索引。
+表示基础 PivotFields 中的 PivotField 索引。
 
 ```csharp
 public int BaseIndex { get; set; }

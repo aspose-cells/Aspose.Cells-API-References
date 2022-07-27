@@ -1,14 +1,14 @@
 ---
 title: GetFreezedPanes
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает области закрепления.
+description: Получает стоп-панели.
 type: docs
 weight: 580
 url: /ru/net/aspose.cells.gridweb.data/gridworksheet/getfreezedpanes/
 ---
 ## GridWorksheet.GetFreezedPanes method
 
-Получает области закрепления.
+Получает стоп-панели.
 
 ```csharp
 public bool GetFreezedPanes(out int row, out int column, out int freezedRows, 
@@ -24,7 +24,7 @@ public bool GetFreezedPanes(out int row, out int column, out int freezedRows,
 
 ### Возвращаемое значение
 
-Возвращает, заморожен ли рабочий лист
+Вернуть, заморожен ли рабочий лист
 
 ### Смотрите также
 

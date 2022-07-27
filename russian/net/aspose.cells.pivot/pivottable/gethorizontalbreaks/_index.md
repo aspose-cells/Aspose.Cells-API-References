@@ -1,14 +1,14 @@
 ---
 title: GetHorizontalBreaks
 second_title: Справочник по Aspose.Cells для .NET API
-description: получить индекс строки сводной таблицы список горизонтальных разрывов страниц
+description: получить список индексов строк сводной таблицы горизонтальных разрывов страниц
 type: docs
 weight: 880
 url: /ru/net/aspose.cells.pivot/pivottable/gethorizontalbreaks/
 ---
 ## PivotTable.GetHorizontalBreaks method
 
-получить индекс строки сводной таблицы список горизонтальных разрывов страниц
+получить список индексов строк сводной таблицы горизонтальных разрывов страниц
 
 ```csharp
 public ArrayList GetHorizontalBreaks()

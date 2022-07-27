@@ -1,14 +1,14 @@
 ---
 title: RemoveArea
 second_title: Aspose.Cells for .NET API 参考
-description: 删除范围内的验证设置
+description: 移除范围内的验证设置
 type: docs
 weight: 240
 url: /zh/net/aspose.cells/validation/removearea/
 ---
 ## Validation.RemoveArea method
 
-删除范围内的验证设置。
+移除范围内的验证设置。
 
 ```csharp
 public void RemoveArea(CellArea cellArea)
@@ -16,7 +16,7 @@ public void RemoveArea(CellArea cellArea)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cellArea | CellArea | 应该删除此验证设置的区域。 |
+| cellArea | CellArea | 应删除此验证设置的区域。 |
 
 ### 也可以看看
 

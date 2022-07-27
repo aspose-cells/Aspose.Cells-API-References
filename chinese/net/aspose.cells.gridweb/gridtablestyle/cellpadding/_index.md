@@ -1,14 +1,14 @@
 ---
 title: CellPadding
 second_title: Aspose.Cells for .NET API 参考
-description: 总是返回 -1
+description: 总是返回 -1.
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.gridweb/gridtablestyle/cellpadding/
 ---
 ## GridTableStyle.CellPadding property
 
-总是返回 -1。
+总是返回 -1.
 
 ```csharp
 public override int CellPadding { get; set; }

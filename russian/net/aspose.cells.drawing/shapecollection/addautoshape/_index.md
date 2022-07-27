@@ -1,14 +1,14 @@
 ---
 title: AddAutoShape
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет автофигуру на рабочий лист.
+description: Добавляет автофигуру на лист.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.drawing/shapecollection/addautoshape/
 ---
 ## ShapeCollection.AddAutoShape method
 
-Добавляет автофигуру на рабочий лист.
+Добавляет автофигуру на лист.
 
 ```csharp
 public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top, int upperLeftColumn, 
@@ -19,11 +19,11 @@ public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top, int upp
 | --- | --- | --- |
 | type | AutoShapeType | Автоматический тип формы. |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| top | Int32 | Представляет вертикальное смещение формы от ее левой строки в единицах пикселя. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
-| left | Int32 | Представляет горизонтальное смещение Shape от его левого столбца в единицах пикселя. |
-| height | Int32 | Представляет высоту формы в пикселях. |
-| width | Int32 | Представляет ширину формы в пикселях. |
+| top | Int32 | Представляет вертикальное смещение Shape от его левой строки в единицах пикселя. |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
+| left | Int32 | Представляет горизонтальное смещение Shape от его левого столбца в пикселях. |
+| height | Int32 | Представляет высоту объекта Shape в пикселях. |
+| width | Int32 | Представляет ширину Shape в пикселях. |
 
 ### Возвращаемое значение
 
@@ -31,14 +31,14 @@ public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top, int upp
 
 ### Примечания
 
-Тип не может быть Chart/Comment/Picture/OleObject/Polygon/DialogBox
+Тип не может быть Chart/Comment/Picture/OleObject/Polygon/DialogBox.
 
 ### Примеры
 
 ```csharp
 
 [C#]
-  //Добавляет автофигуру на лист.
+//Добавляет автофигуру на лист.
 Shape autoShape = shapes.AddAutoShape(AutoShapeType.Cube, 1, 0, 1, 0, 100, 50);
 ```
 

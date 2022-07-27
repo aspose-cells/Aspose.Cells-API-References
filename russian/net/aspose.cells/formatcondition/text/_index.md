@@ -8,7 +8,7 @@ url: /ru/net/aspose.cells/formatcondition/text/
 ---
 ## FormatCondition.Text property
 
-Текстовое значение в правиле условного форматирования "текст содержит". Допустимо только для type = containsText, notContainsText, beginWith и EndsWith. Значение по умолчанию равно null.
+Текстовое значение в правиле условного форматирования «текст содержит». Допустимо только для type = containsText, notContainsText, beginWith и EndsWith. Значение по умолчанию равно null.
 
 ```csharp
 public string Text { get; set; }

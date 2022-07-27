@@ -16,7 +16,7 @@ public void SetChartDataRange(string area, bool isVertical)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| area | String | 指定绘制数据系列的值 |
+| area | String | 指定从中绘制数据系列的值 |
 | isVertical | Boolean | 指定是按行还是按列从一系列单元格值中绘制系列。 |
 
 ### 也可以看看

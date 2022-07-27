@@ -1,14 +1,14 @@
 ---
 title: ListColumnCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет коллекцию всех объектовListColumn./listcolumnв указанном объекте ListObject.
+description: Представляет набор всехListColumn./listcolumn объекты в указанном объекте ListObject.
 type: docs
 weight: 5810
 url: /ru/net/aspose.cells.tables/listcolumncollection/
 ---
 ## ListColumnCollection class
 
-Представляет коллекцию всех объектов[`ListColumn`](../listcolumn)в указанном объекте ListObject.
+Представляет набор всех[`ListColumn`](../listcolumn) объекты в указанном объекте ListObject.
 
 ```csharp
 public class ListColumnCollection : CollectionBase<ListColumn>

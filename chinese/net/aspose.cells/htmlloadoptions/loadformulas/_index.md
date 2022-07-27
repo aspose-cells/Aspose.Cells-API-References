@@ -1,14 +1,14 @@
 ---
 title: LoadFormulas
 second_title: Aspose.Cells for .NET API 参考
-description: 表示如果原始html文件包含公式则是否导入公式
+description: 表示如果原始html文件包含公式是否导入公式
 type: docs
 weight: 50
 url: /zh/net/aspose.cells/htmlloadoptions/loadformulas/
 ---
 ## HtmlLoadOptions.LoadFormulas property
 
-表示如果原始html文件包含公式则是否导入公式
+表示如果原始html文件包含公式，是否导入公式
 
 ```csharp
 public bool LoadFormulas { get; set; }

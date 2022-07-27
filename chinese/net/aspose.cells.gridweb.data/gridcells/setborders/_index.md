@@ -20,8 +20,8 @@ public void SetBorders(int firstRow, int firstColumn, int rowNumber, int columnN
 | firstRow | Int32 | 范围的第一行号（从零开始）。 |
 | firstColumn | Int32 | 范围的第一列编号（从零开始）。 |
 | rowNumber | Int32 | 行数。 |
-| columnNumber | Int32 | 列号。 |
-| position | SetBorderPosition | 边框位置。 |
+| columnNumber | Int32 | 列数。 |
+| position | SetBorderPosition | 边界位置。 |
 | borderStyle | WebBorderStyle | 边框样式。 |
 
 ### 例子

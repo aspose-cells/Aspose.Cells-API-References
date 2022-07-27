@@ -1,14 +1,14 @@
 ---
 title: MinColor
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置最小值对象对应的颜色
+description: 获取或设置范围内最小值的渐变颜色
 type: docs
 weight: 70
 url: /zh/net/aspose.cells/colorscale/mincolor/
 ---
 ## ColorScale.MinColor property
 
-获取或设置最小值对象对应的颜色。
+获取或设置范围内最小值的渐变颜色。
 
 ```csharp
 public Color MinColor { get; set; }

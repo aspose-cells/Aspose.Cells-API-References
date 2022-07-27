@@ -16,7 +16,7 @@ public void DynamicFilter(int fieldIndex, DynamicFilterType dynamicFilterType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldIndex | Int32 | 要作为过滤器基础的字段的整数偏移量 （从左侧列表的；最左边的字段是字段 0)。 |
+| fieldIndex | Int32 | 您希望作为过滤器 基础的字段的整数偏移量（从列表的左侧开始；最左侧的字段是字段0）。 |
 | dynamicFilterType | DynamicFilterType | 动态过滤器类型。 |
 
 ### 也可以看看

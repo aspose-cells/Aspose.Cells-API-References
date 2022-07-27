@@ -1,14 +1,14 @@
 ---
 title: TableStyleElementCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示表格样式的所有元素
+description: 代表表格样式的所有元素
 type: docs
 weight: 5880
 url: /zh/net/aspose.cells.tables/tablestyleelementcollection/
 ---
 ## TableStyleElementCollection class
 
-表示表格样式的所有元素。
+代表表格样式的所有元素。
 
 ```csharp
 public class TableStyleElementCollection : CollectionBase<TableStyleElement>

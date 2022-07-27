@@ -23,7 +23,7 @@ public enum BorderType
 | Top | `2` | GridCell 有上边框。 |
 | Bottom | `3` | GridCell 有底部边框。 |
 | DiagonalDown | `4` | GridCell 具有 DiagonalDown 边框。 |
-| DiagonalUp | `5` | GridCell 具有 DiagonalUp 边框。 |
+| DiagonalUp | `5` | GridCell 有 DiagonalUp 边框。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Separator
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает разделитель символов sql-скрипта.
+description: Получает и устанавливает разделитель символов сценария sql.
 type: docs
 weight: 130
 url: /ru/net/aspose.cells.saving/sqlscriptsaveoptions/separator/
 ---
 ## SqlScriptSaveOptions.Separator property
 
-Получает и устанавливает разделитель символов sql-скрипта.
+Получает и устанавливает разделитель символов сценария sql.
 
 ```csharp
 public char Separator { get; set; }
@@ -16,7 +16,7 @@ public char Separator { get; set; }
 
 ### Примечания
 
-Только может быть ' ' или '\n'. Если
+Может быть только ' ' или '\n'. Если
 
 ### Смотрите также
 

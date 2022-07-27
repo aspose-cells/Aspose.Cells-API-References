@@ -1,14 +1,14 @@
 ---
 title: CustomListSort
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает следует ли учитывать встроенный пользовательский список при сортировке данных
+description: Указывает следует ли учитывать встроенный настраиваемый список при сортировке data
 type: docs
 weight: 90
 url: /ru/net/aspose.cells.pivot/pivottable/customlistsort/
 ---
 ## PivotTable.CustomListSort property
 
-Указывает, следует ли учитывать встроенный пользовательский список при сортировке данных
+Указывает, следует ли учитывать встроенный настраиваемый список при сортировке data
 
 ```csharp
 public bool CustomListSort { get; set; }

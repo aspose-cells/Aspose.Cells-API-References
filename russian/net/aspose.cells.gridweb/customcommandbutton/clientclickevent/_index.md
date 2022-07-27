@@ -1,14 +1,14 @@
 ---
 title: ClientClickEvent
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает обработчик события клика на стороне клиента.
+description: Получает или задает обработчик события щелчка на стороне клиента.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.gridweb/customcommandbutton/clientclickevent/
 ---
 ## CustomCommandButton.ClientClickEvent property
 
-Получает или задает обработчик события клика на стороне клиента.
+Получает или задает обработчик события щелчка на стороне клиента.
 
 ```csharp
 public string ClientClickEvent { get; set; }

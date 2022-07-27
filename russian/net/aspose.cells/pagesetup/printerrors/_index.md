@@ -1,14 +1,14 @@
 ---
 title: PrintErrors
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает тип отображаемой ошибки печати.
+description: Определяет тип отображаемой ошибки печати.
 type: docs
 weight: 320
 url: /ru/net/aspose.cells/pagesetup/printerrors/
 ---
 ## PageSetup.PrintErrors property
 
-Указывает тип отображаемой ошибки печати.
+Определяет тип отображаемой ошибки печати.
 
 ```csharp
 public PrintErrorsType PrintErrors { get; set; }

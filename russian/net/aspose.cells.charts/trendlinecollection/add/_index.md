@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет в эту коллекцию объектуказанного типа.
+description: Добавляет объект в эту коллекцию с указанным типом.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.charts/trendlinecollection/add/
 ---
 ## Add(TrendlineType) {#add}
 
-Добавляет в эту коллекцию объектуказанного типа.
+Добавляет объект в эту коллекцию с указанным типом.
 
 ```csharp
 public int Add(TrendlineType type)
@@ -20,7 +20,7 @@ public int Add(TrendlineType type)
 
 ### Возвращаемое значение
 
-[`Trendline`](../../trendline)индекс объекта.
+[`Trendline`](../../trendline) индекс объекта.
 
 ### Смотрите также
 
@@ -33,7 +33,7 @@ public int Add(TrendlineType type)
 
 ## Add(TrendlineType, string) {#add_1}
 
-Добавляет в эту коллекцию объектс указанным типом и именем.
+Добавляет объект в эту коллекцию с указанным типом и именем.
 
 ```csharp
 public int Add(TrendlineType type, string name)
@@ -42,11 +42,11 @@ public int Add(TrendlineType type, string name)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | type | TrendlineType | Тип линии тренда. |
-| name | String | Имя линии тренда. |
+| name | String | Название линии тренда. |
 
 ### Возвращаемое значение
 
-[`Trendline`](../../trendline)индекс объекта.
+[`Trendline`](../../trendline) индекс объекта.
 
 ### Смотрите также
 

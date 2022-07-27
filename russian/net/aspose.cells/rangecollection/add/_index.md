@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет элементRangeaspose.cells/rangeв коллекцию.
+description: ДобавляетRangeaspose.cells/range предмет в коллекцию.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/rangecollection/add/
 ---
 ## RangeCollection.Add method
 
-Добавляет элемент[`Range`](../../range)в коллекцию.
+Добавляет[`Range`](../../range) предмет в коллекцию.
 
 ```csharp
 public int Add(Range range)

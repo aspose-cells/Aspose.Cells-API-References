@@ -1,14 +1,14 @@
 ---
 title: DefaultEditLanguage
 second_title: Aspose.Cells for .NET API 参考
-description: 表示默认编辑语言
+description: 表示默认的编辑语言
 type: docs
 weight: 1350
 url: /zh/net/aspose.cells/defaulteditlanguage/
 ---
 ## DefaultEditLanguage enumeration
 
-表示默认编辑语言。
+表示默认的编辑语言。
 
 ```csharp
 public enum DefaultEditLanguage
@@ -19,7 +19,7 @@ public enum DefaultEditLanguage
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Auto | `0` | 表示根据文本本身自动检测编辑语言。 |
-| English | `1` | 表示英语。 |
+| English | `1` | 代表英语。 |
 | CJK | `2` | 代表中文、日文、韩文。 |
 
 ### 也可以看看

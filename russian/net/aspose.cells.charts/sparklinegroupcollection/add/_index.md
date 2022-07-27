@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет элементSparklineGroupaspose.cells.charts/sparklinegroupв коллекцию.
+description: ДобавляетSparklineGroupaspose.cells.charts/sparklinegroup предмет в коллекцию.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.charts/sparklinegroupcollection/add/
 ---
 ## SparklineGroupCollection.Add method
 
-Добавляет элемент[`SparklineGroup`](../../sparklinegroup)в коллекцию.
+Добавляет[`SparklineGroup`](../../sparklinegroup) предмет в коллекцию.
 
 ```csharp
 public int Add(SparklineType type, string dataRange, bool isVertical, CellArea locationRange)
@@ -17,13 +17,13 @@ public int Add(SparklineType type, string dataRange, bool isVertical, CellArea l
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | type | SparklineType | Указывает тип группы Sparkline. |
-| dataRange | String | Указывает диапазон данных группы спарклайнов. |
-| isVertical | Boolean | Указывает, строить ли спарклайны из диапазона данных по строкам или по столбцам. |
-| locationRange | CellArea | Определяет место размещения спарклайнов. |
+| dataRange | String | Задает диапазон данных группы спарклайнов. |
+| isVertical | Boolean | Указывает, следует ли строить спарклайны из диапазона данных по строке или по столбцу. |
+| locationRange | CellArea | Указывает, где должны быть размещены спарклайны. |
 
 ### Возвращаемое значение
 
-[`SparklineGroup`](../../sparklinegroup)индекс объекта.
+[`SparklineGroup`](../../sparklinegroup) индекс объекта.
 
 ### Смотрите также
 

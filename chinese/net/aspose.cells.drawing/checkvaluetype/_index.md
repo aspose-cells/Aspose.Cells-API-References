@@ -18,7 +18,7 @@ public enum CheckValueType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| UnChecked | `0` | 未选中 |
+| UnChecked | `0` | 未检查 |
 | Checked | `1` | 已检查 |
 | Mixed | `2` | 混合 |
 

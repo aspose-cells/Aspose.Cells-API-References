@@ -1,14 +1,14 @@
 ---
 title: GetColumnReadonly
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает доступен ли столбец только для чтения. это расширенный метод GridWeb он не будет сохраняться и влиять на реальный файл excel
+description: Получает если столбец доступен только для чтения. это расширенный метод GridWeb в частности он не будет сохраняться и влиять на фактический файл Excel
 type: docs
 weight: 570
 url: /ru/net/aspose.cells.gridweb.data/gridworksheet/getcolumnreadonly/
 ---
 ## GridWorksheet.GetColumnReadonly method
 
-Получает, доступен ли столбец только для чтения. это расширенный метод GridWeb, он не будет сохраняться и влиять на реальный файл excel
+Получает, если столбец доступен только для чтения. это расширенный метод GridWeb, в частности, он не будет сохраняться и влиять на фактический файл Excel
 
 ```csharp
 public bool GetColumnReadonly(int columnIndex)

@@ -25,14 +25,14 @@ public class GridWorkbookSettings
 | 姓名 | 描述 |
 | --- | --- |
 | [Author](../../aspose.cells.gridweb.data/gridworkbooksettings/author) { get; set; } | 获取和设置文件的作者。 |
-| [CheckCustomNumberFormat](../../aspose.cells.gridweb.data/gridworkbooksettings/checkcustomnumberformat) { get; set; } | 获取或设置设置Style.Custom时是否检查自定义数字格式。 |
+| [CheckCustomNumberFormat](../../aspose.cells.gridweb.data/gridworkbooksettings/checkcustomnumberformat) { get; set; } | 获取或设置设置Style.Custom. 时是否检查自定义数字格式 |
 | [CreateCalcChain](../../aspose.cells.gridweb.data/gridworkbooksettings/createcalcchain) { get; set; } | 获取或设置是否创建计算公式链。默认为假。 |
 | [Date1904](../../aspose.cells.gridweb.data/gridworkbooksettings/date1904) { get; set; } | 获取或设置表示工作簿是否使用 1904 日期系统的值。 |
 | [EnableMacros](../../aspose.cells.gridweb.data/gridworkbooksettings/enablemacros) { get; set; } | 获取或设置是否启用宏；现在它仅在将工作表复制到工作簿中的其他工作表时才有效。 |
 | [ForceFullCalculate](../../aspose.cells.gridweb.data/gridworkbooksettings/forcefullcalculate) { get; set; } | 获取或设置每次触发计算时是否完全计算。 |
 | [Iteration](../../aspose.cells.gridweb.data/gridworkbooksettings/iteration) { get; set; } | 获取或设置是否使用迭代来解析循环引用。 |
 | [MaxIteration](../../aspose.cells.gridweb.data/gridworkbooksettings/maxiteration) { get; set; } | 获取或设置解析循环引用的最大迭代次数，默认值为100。 |
-| [PrecisionAsDisplayed](../../aspose.cells.gridweb.data/gridworkbooksettings/precisionasdisplayed) { get; set; } | 如果此工作簿中的计算将仅使用显示时的数字精度完成，则为真 |
+| [PrecisionAsDisplayed](../../aspose.cells.gridweb.data/gridworkbooksettings/precisionasdisplayed) { get; set; } | 如果本工作簿中的计算仅使用所显示数字的精度来完成，则为真 |
 | [ReCalculateOnOpen](../../aspose.cells.gridweb.data/gridworkbooksettings/recalculateonopen) { get; set; } | 获取或设置是否在打开文件时重新计算所有公式。 |
 
 ### 例子
@@ -45,7 +45,7 @@ public class GridWorkbookSettings
 GridWorkbookSettings gsettings = new GridWorkbookSettings();
 gridweb.Settings=gsettings;
 
-  //做你的事
+//做你的事
 
 [Visual Basic]
 

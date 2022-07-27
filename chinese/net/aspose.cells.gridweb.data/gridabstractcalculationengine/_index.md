@@ -18,7 +18,7 @@ public abstract class GridAbstractCalculationEngine
 
 | 姓名 | 描述 |
 | --- | --- |
-| abstract [Calculate](../../aspose.cells.gridweb.data/gridabstractcalculationengine/calculate)(GridCalculationData) | 用给定数据计算一个函数。 |
+| abstract [Calculate](../../aspose.cells.gridweb.data/gridabstractcalculationengine/calculate)(GridCalculationData) | 用给定的数据计算一个函数。 |
 
 ### 例子
 
@@ -31,7 +31,7 @@ public class MyEngine : GridAbstractCalculationEngine
         string funcName = data.FunctionName.ToUpper();
         if ("MYFUNC".Equals(funcName))
         {
-              //在这里计算MYFUNC
+            //这里计算MYFUNC
             int count = data.ParamCount;
             object res = null;
             for (int i = 0; i < count; i++)
@@ -42,8 +42,8 @@ public class MyEngine : GridAbstractCalculationEngine
                     ReferredArea ra = (ReferredArea)pv;
                     pv = ra.GetValue(0, 0);
                 }
-                  //这里处理参数
-                  //res = ...;
+                //这里处理参数
+                //res = ...;
             }
             data.CalculatedValue = res;
         }

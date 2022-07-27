@@ -1,14 +1,14 @@
 ---
 title: Reflection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示对象指定图表元素或形状的反射效果
+description: 代表一个指定图表元素或形状的反射效果的对象
 type: docs
 weight: 560
 url: /zh/net/aspose.cells.drawing/shape/reflection/
 ---
 ## Shape.Reflection property
 
-表示对象，指定图表元素或形状的反射效果。
+代表一个指定图表元素或形状的反射效果的对象。
 
 ```csharp
 public ReflectionEffect Reflection { get; }

@@ -1,14 +1,14 @@
 ---
 title: BackgroundColor
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置Drawing的背景R5TSystem.Drawing.Color区域
+description: 获取或设置背景Color的Areaaspose.cells.drawing/area.
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.drawing/patternfill/backgroundcolor/
 ---
 ## PatternFill.BackgroundColor property
 
-获取或设置Drawing的背景R5:T:System.Drawing.Color:::。区域:::。
+获取或设置背景Color的[`Area`](../../area).
 
 ```csharp
 public Color BackgroundColor { get; set; }

@@ -16,7 +16,7 @@ public GridComment CreateComment(string note, string author, bool isvisible)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| note | String | 注释。 |
+| note | String | 评论说明。 |
 | author | String | 评论作者。 |
 | isvisible | Boolean | 评论是否可见。 |
 

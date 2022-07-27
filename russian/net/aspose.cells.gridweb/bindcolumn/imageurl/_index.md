@@ -1,14 +1,14 @@
 ---
 title: ImageUrl
 second_title: Справочник по Aspose.Cells для .NET API
-description: URL-адрес изображения гиперссылки команды.
+description: URL изображения гиперссылки команды.
 type: docs
 weight: 100
 url: /ru/net/aspose.cells.gridweb/bindcolumn/imageurl/
 ---
 ## BindColumn.ImageUrl property
 
-URL-адрес изображения гиперссылки команды.
+URL изображения гиперссылки команды.
 
 ```csharp
 public string ImageUrl { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: PictureSizeMode
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает способ отображения изображения.
+description: Получает и задает способ отображения изображения.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/picturesizemode/
 ---
 ## ImageActiveXControl.PictureSizeMode property
 
-Получает и устанавливает способ отображения изображения.
+Получает и задает способ отображения изображения.
 
 ```csharp
 public ControlPictureSizeMode PictureSizeMode { get; set; }

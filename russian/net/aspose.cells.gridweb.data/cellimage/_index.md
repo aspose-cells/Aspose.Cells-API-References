@@ -1,12 +1,14 @@
 ---
 title: CellImage
 second_title: Справочник по Aspose.Cells для .NET API
-description: 
+description: Представляет собой гиперссылку с исходным изображением.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells.gridweb.data/cellimage/
 ---
 ## CellImage class
+
+Представляет собой гиперссылку с исходным изображением.
 
 ```csharp
 public class CellImage : Hyperlink

@@ -1,0 +1,115 @@
+---
+title: DataSorter
+second_title: Aspose.Cells for .NET API Referansı
+description: DataSorter. için özet açıklama
+type: docs
+weight: 1300
+url: /tr/net/aspose.cells/datasorter/
+---
+## DataSorter class
+
+DataSorter. için özet açıklama
+
+```csharp
+public class DataSorter
+```
+
+## Özellikleri
+
+| İsim | Tanım |
+| --- | --- |
+| [CaseSensitive](../../aspose.cells/datasorter/casesensitive) { get; set; } | Dize karşılaştırırken büyük/küçük harfe duyarlı olup olmadığını alır ve ayarlar. |
+| [HasHeaders](../../aspose.cells/datasorter/hasheaders) { get; set; } | Aralığın üstbilgileri olup olmadığını temsil eder. |
+| [Key1](../../aspose.cells/datasorter/key1) { get; set; } | İlk sıralanan sütun dizinini temsil eder (mutlak konum, A sütunu 0, B 1'dir, ...). |
+| [Key2](../../aspose.cells/datasorter/key2) { get; set; } | İkinci sıralanmış sütun dizinini temsil eder (mutlak konum, A sütunu 0, B 1'dir, ...). |
+| [Key3](../../aspose.cells/datasorter/key3) { get; set; } | Üçüncü sıralanmış sütun dizinini temsil eder (mutlak konum, A sütunu 0, B 1'dir, ...). |
+| [Keys](../../aspose.cells/datasorter/keys) { get; } | Veri sıralayıcının anahtar listesini alır. |
+| [Order1](../../aspose.cells/datasorter/order1) { get; set; } | İlk anahtarın sıralama düzenini temsil eder. |
+| [Order2](../../aspose.cells/datasorter/order2) { get; set; } | İkinci anahtarın sıralama düzenini temsil eder. |
+| [Order3](../../aspose.cells/datasorter/order3) { get; set; } | Üçüncü anahtarın sıralama düzenini temsil eder. |
+| [SortAsNumber](../../aspose.cells/datasorter/sortasnumber) { get; set; } | Sayıya benzeyen herhangi bir şeyin sıralanıp sıralanmayacağını belirtir. |
+| [SortLeftToRight](../../aspose.cells/datasorter/sortlefttoright) { get; set; } | True, sıralama yönünün soldan sağa olduğu anlamına gelir. False, sıralama yönünün yukarıdan aşağıya olduğu anlamına gelir. Varsayılan değer false'dir. |
+
+## yöntemler
+
+| İsim | Tanım |
+| --- | --- |
+| [AddKey](../../aspose.cells/datasorter/addkey#addkey_1)(int, SortOrder) | Sıralanmış sütun dizini ve sıralama düzeni ekler. |
+| [AddKey](../../aspose.cells/datasorter/addkey#addkey_2)(int, SortOrder, string) | Özel sıralama listesiyle sıralanmış sütun dizini ve sıralama düzeni ekler. |
+| [AddKey](../../aspose.cells/datasorter/addkey#addkey_3)(int, SortOrder, string[]) | Özel sıralama listesiyle sıralanmış sütun dizini ve sıralama düzeni ekler. |
+| [AddKey](../../aspose.cells/datasorter/addkey#addkey)(int, SortOnType, SortOrder, object) | Özel sıralama listesiyle sıralanmış sütun dizini ve sıralama düzeni ekler. |
+| [Clear](../../aspose.cells/datasorter/clear)() | Tüm ayarları temizleyin. |
+| [Sort](../../aspose.cells/datasorter/sort#sort)() | Aralıktaki verileri sıralayın. |
+| [Sort](../../aspose.cells/datasorter/sort#sort_1)(Cells, CellArea) | Alanın verilerini sıralayın. |
+| [Sort](../../aspose.cells/datasorter/sort#sort_2)(Cells, int, int, int, int) | Alanın verilerini sıralar. |
+
+### Örnekler
+
+```csharp
+
+[C#]
+
+//Yeni bir Çalışma Kitabı nesnesi oluşturun.
+Workbook workbook = new Workbook("Book1.xls");
+//Çalışma kitabı veri sıralayıcı nesnesini alın.
+DataSorter sorter = workbook.DataSorter;
+//Veri sıralayıcı nesnesi için ilk sırayı ayarlayın.
+sorter.Order1 = Aspose.Cells.SortOrder.Descending;
+//İlk anahtarı tanımlayın.
+sorter.Key1 = 0;
+// Veri sıralayıcı nesnesi için ikinci sırayı ayarlayın.
+sorter.Order2 = Aspose.Cells.SortOrder.Ascending;
+//İkinci anahtarı tanımlayın.
+sorter.Key2 = 1;
+// Bir hücre alanı (aralık) oluşturun.
+CellArea ca = new CellArea();
+//Başlangıç satırı dizinini belirtin.
+ca.StartRow = 0;
+//Başlangıç sütunu dizinini belirtin.
+ca.StartColumn = 0;
+//Son satır dizinini belirtin.
+ca.EndRow = 13;
+//Son sütun dizinini belirtin.
+ca.EndColumn = 1;
+//Belirtilen veri aralığındaki verileri sırala (A1:B14)
+sorter.Sort(workbook.Worksheets[0].Cells, ca);
+//Excel dosyasını kaydedin.
+workbook.Save("outBook.xls");
+
+[Visual Basic]
+
+'Yeni bir Çalışma Kitabı nesnesinin örneğini oluşturun.
+Dim workbook As Workbook = New Workbook("Book1.xls")
+'Çalışma kitabı veri sıralayıcı nesnesini alın.
+Dim sorter As DataSorter = workbook.DataSorter
+'Veri sıralayıcı nesnesi için ilk sırayı ayarla
+sorter.Order1 = Aspose.Cells.SortOrder.Descending
+'İlk anahtarı tanımlayın.
+sorter.Key1 = 0
+'Veri sıralayıcı nesnesi için ikinci sırayı ayarlayın.
+sorter.Order2 = Aspose.Cells.SortOrder.Ascending
+'İkinci anahtarı tanımlayın.
+sorter.Key2 = 1
+'Bir hücre alanı (aralık) oluşturun.
+Dim ca As CellArea = New CellArea
+'Başlangıç satırı dizinini belirtin.
+ca.StartRow = 0
+'Başlangıç sütunu dizinini belirtin.
+ca.StartColumn = 0
+'Son satır dizinini belirtin.
+ca.EndRow = 13
+'Son sütun dizinini belirtin.
+ca.EndColumn = 1
+'Belirtilen veri aralığındaki verileri sıralayın (A1:B14)
+sorter.Sort(workbook.Worksheets(0).Cells, ca)
+'Excel dosyasını kaydedin.
+workbook.Save("outBook.xls")
+
+```
+
+### Ayrıca bakınız
+
+* ad alanı [Aspose.Cells](../../aspose.cells)
+* toplantı [Aspose.Cells](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->

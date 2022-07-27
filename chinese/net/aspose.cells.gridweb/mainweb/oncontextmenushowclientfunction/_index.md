@@ -1,14 +1,14 @@
 ---
 title: OnContextMenuShowClientFunction
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置要在显示上下文菜单时调用的客户端函数 客户端函数应该这样声明ltbr /gt function onContextMenuShowltbr /gt ltbr /gt var menu  event.srcElementltbr /gt menu.setItemVisibilityDelete blockltbr /gt menu.setItemVisibility Update noneltbr /gt ltbr /gtltbr /gt注意您可以在客户端函数中使用this指针来指向触发的网格控件事件
+description: 获取或设置显示上下文菜单时要调用的客户端函数 客户端函数应声明如下 函数 onContextMenuShow  var menu  event.srcElement menu.setItemVisibility删除 块 menu.setItemVisibility更新 无 注意您可以在客户端函数中使用this指针来指向触发事件的网格控件
 type: docs
 weight: 620
 url: /zh/net/aspose.cells.gridweb/mainweb/oncontextmenushowclientfunction/
 ---
 ## MainWeb.OnContextMenuShowClientFunction property
 
-获取或设置要在显示上下文菜单时调用的客户端函数。 客户端函数应该这样声明:&lt;br /&gt; function onContextMenuShow()&lt;br /&gt; {&lt;br /&gt; var menu = event.srcElement;&lt;br /&gt; menu.setItemVisibility("Delete", "block");&lt;br /&gt; menu.setItemVisibility( "Update", "none");&lt;br /&gt; }&lt;br /&gt;&lt;br /&gt;注意:您可以在客户端函数中使用“this”指针来指向触发的网格控件事件。
+获取或设置显示上下文菜单时要调用的客户端函数。 客户端函数应声明如下： 函数 onContextMenuShow() { var menu = event.srcElement; menu.setItemVisibility("删除", "块"); menu.setItemVisibility("更新", "无"); }注意：您可以在客户端函数中使用“this”指针来指向触发事件的网格控件。
 
 ```csharp
 public string OnContextMenuShowClientFunction { get; set; }

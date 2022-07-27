@@ -1,14 +1,14 @@
 ---
 title: SizeWithWindow
 second_title: Справочник по Aspose.Cells для .NET API
-description: Истинно если Microsoft Excel изменяет размер диаграммы чтобы она соответствовала размеру окна листа диаграммы.
+description: Истинно если Microsoft Excel изменяет размер диаграммы в соответствии с размером окна листа диаграммы.
 type: docs
 weight: 410
 url: /ru/net/aspose.cells.charts/chart/sizewithwindow/
 ---
 ## Chart.SizeWithWindow property
 
-Истинно, если Microsoft Excel изменяет размер диаграммы, чтобы она соответствовала размеру окна листа диаграммы.
+Истинно, если Microsoft Excel изменяет размер диаграммы в соответствии с размером окна листа диаграммы.
 
 ```csharp
 public bool SizeWithWindow { get; set; }

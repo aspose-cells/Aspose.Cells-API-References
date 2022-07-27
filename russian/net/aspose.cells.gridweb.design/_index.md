@@ -1,12 +1,12 @@
 ---
 title: Aspose.Cells.GridWeb.Design
 second_title: Справочник по Aspose.Cells для .NET API
-description: Пространство имен базового дизайнера представляло классы GridWeb.
+description: Пространство имен базового дизайнера представляет классы GridWeb.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.gridweb.design/
 ---
-Пространство имен базового дизайнера представляло классы GridWeb.
+Пространство имен базового дизайнера представляет классы GridWeb.
 
 ## Классы
 

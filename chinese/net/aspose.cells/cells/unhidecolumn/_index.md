@@ -3,7 +3,7 @@ title: UnhideColumn
 second_title: Aspose.Cells for .NET API 参考
 description: 取消隐藏列
 type: docs
-weight: 1340
+weight: 1350
 url: /zh/net/aspose.cells/cells/unhidecolumn/
 ---
 ## Cells.UnhideColumn method

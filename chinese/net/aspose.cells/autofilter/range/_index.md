@@ -1,14 +1,14 @@
 ---
 title: Range
 second_title: Aspose.Cells for .NET API 参考
-description: 表示指定自动筛选适用的范围
+description: 表示应用指定自动筛选的范围
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/autofilter/range/
 ---
 ## AutoFilter.Range property
 
-表示指定自动筛选适用的范围。
+表示应用指定自动筛选的范围。
 
 ```csharp
 public string Range { get; set; }

@@ -37,7 +37,7 @@ public void Remove(string cellName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cellName | String | 单元格名称（excel名称格式，如'A1'，'F22'） |
+| cellName | String | 单元格名称（excel 名称格式，如'A1'、'F22'） |
 
 ### 也可以看看
 

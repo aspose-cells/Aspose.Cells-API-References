@@ -1,14 +1,14 @@
 ---
 title: IsVisible
 second_title: Aspose.Cells for .NET API 参考
-description: 表示该行是否可见
+description: 表示线是否可见
 type: docs
 weight: 150
 url: /zh/net/aspose.cells.drawing/line/isvisible/
 ---
 ## Line.IsVisible property
 
-表示该行是否可见。
+表示线是否可见。
 
 ```csharp
 public bool IsVisible { get; set; }

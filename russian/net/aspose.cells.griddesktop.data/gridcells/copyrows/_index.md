@@ -20,7 +20,7 @@ public void CopyRows(GridCells sourceCells, int sourceRowIndex, int destinationR
 | sourceCells | GridCells | Объект исходных ячеек содержит данные и форматирование для копирования. |
 | sourceRowIndex | Int32 | Индекс исходной строки. |
 | destinationRowIndex | Int32 | Индекс строки назначения. |
-| rowNumber | Int32 | Номер скопированной строки. |
+| rowNumber | Int32 | Скопированный номер строки. |
 
 ### Смотрите также
 

@@ -16,7 +16,7 @@ public int Add(int fieldIndex, PivotFilterType type)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldIndex | Int32 | PivotField index |
+| fieldIndex | Int32 | PivotField 索引 |
 | type | PivotFilterType | PivotFilter 类型 |
 
 ### 返回值

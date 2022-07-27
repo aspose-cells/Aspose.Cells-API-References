@@ -1,14 +1,14 @@
 ---
 title: TextQualifier
 second_title: Aspose.Cells for .NET API 参考
-description: 指定单元格值的文本限定符默认限定符为 
+description: 指定单元格值的文本限定符默认限定符是 .
 type: docs
 weight: 90
 url: /zh/net/aspose.cells/txtloadoptions/textqualifier/
 ---
 ## TxtLoadOptions.TextQualifier property
 
-指定单元格值的文本限定符。默认限定符为 '"'。
+指定单元格值的文本限定符。默认限定符是 '"'.
 
 ```csharp
 public char TextQualifier { get; set; }
@@ -16,7 +16,7 @@ public char TextQualifier { get; set; }
 
 ### 评论
 
-设置此属性时，[`HasTextQualifier`](../hastextqualifier)将自动变为真。
+设置此属性时，[`HasTextQualifier`](../hastextqualifier)会自动变成真的。
 
 ### 也可以看看
 

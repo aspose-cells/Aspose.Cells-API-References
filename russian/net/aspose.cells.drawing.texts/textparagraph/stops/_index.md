@@ -1,14 +1,14 @@
 ---
 title: Stops
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает список табуляции.
+description: Получает стоп-лист табуляции.
 type: docs
 weight: 180
 url: /ru/net/aspose.cells.drawing.texts/textparagraph/stops/
 ---
 ## TextParagraph.Stops property
 
-Получает список табуляции.
+Получает стоп-лист табуляции.
 
 ```csharp
 public TextTabStopCollection Stops { get; }

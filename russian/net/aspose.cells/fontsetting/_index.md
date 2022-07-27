@@ -34,7 +34,7 @@ public class FontSetting
 
 | Имя | Описание |
 | --- | --- |
-| [SetWordArtStyle](../../aspose.cells/fontsetting/setwordartstyle)(PresetWordArtStyle) | Устанавливает предустановленный стиль WordArt. |
+| [SetWordArtStyle](../../aspose.cells/fontsetting/setwordartstyle)(PresetWordArtStyle) | Задает предустановленный стиль WordArt. |
 
 ### Примеры
 
@@ -42,31 +42,31 @@ public class FontSetting
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 
-  //Добавление нового рабочего листа в Excel object
+//Добавление нового рабочего листа в объект Excel
 workbook.Worksheets.Add();
 
-  //Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
+//Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
 Worksheet worksheet = workbook.Worksheets[0];
 
-  // Доступ к ячейке "A1" из worksheet
+//Доступ к ячейке "A1" из рабочего листа
 Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 
-  //Добавление некоторого значения в "A1" cell
+//Добавление некоторого значения в ячейку "A1"
 cell.PutValue("Visit Aspose!");
 
-  //получение charactor
+//получение персонажа
 FontSetting charactor = cell.Characters(6, 7);
 
-//Установка шрифта выбранных символов на bold
+//Установка шрифта выбранных символов жирным шрифтом
 charactor.Font.IsBold = true;
 
-  //Установка цвета шрифта выбранных символов на blue
+//Установка цвета шрифта выбранных символов на синий
 charactor.Font.Color = Color.Blue;
 
-  //Сохранение файла Excel
+//Сохранение файла Excel
 workbook.Save("book1.xls");
 
 [VB.NET]
@@ -80,10 +80,10 @@ workbook.Worksheets.Add()
 'Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-'Доступ к ячейке "A1" из рабочего листа
+'Accessing the "A1" cell from the worksheet
 Dim cell As Aspose.Cells.Cell = worksheet.Cells("A1")
 
-'Добавление некоторого значения в ячейку "A1"
+'Adding some value to the "A1" cell
 cell.PutValue("Visit Aspose!")
 
 'получение характера

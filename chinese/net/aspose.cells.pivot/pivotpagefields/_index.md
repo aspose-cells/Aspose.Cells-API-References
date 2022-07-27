@@ -1,14 +1,14 @@
 ---
 title: PivotPageFields
 second_title: Aspose.Cells for .NET API 参考
-description: 如果透视表数据源是合并范围则表示透视页字段项  最多只能包含 4 个字段
+description: 表示透视页字段项 如果透视表数据源是合并范围 最多只能包含 4 个字段
 type: docs
 weight: 4680
 url: /zh/net/aspose.cells.pivot/pivotpagefields/
 ---
 ## PivotPageFields class
 
-如果透视表数据源是合并范围，则表示透视页字段项 。 最多只能包含 4 个字段。
+表示透视页字段项 如果透视表数据源是合并范围。 最多只能包含 4 个字段。
 
 ```csharp
 public class PivotPageFields
@@ -30,7 +30,7 @@ public class PivotPageFields
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddIdentify](../../aspose.cells.pivot/pivotpagefields/addidentify)(int, int[]) | 设置每个页面字段中的哪个项目标签用于标识数据范围。 pageItemIndex.Length 必须等于 PageFieldCount，所以请先添加 page 字段。 |
+| [AddIdentify](../../aspose.cells.pivot/pivotpagefields/addidentify)(int, int[]) | 设置每个页面字段中使用哪个项目标签来标识数据范围。 pageItemIndex.Length必须等于PageFieldCount，所以请先添加页面字段。 |
 | [AddPageField](../../aspose.cells.pivot/pivotpagefields/addpagefield)(string[]) | 添加页面字段。 |
 
 ### 也可以看看

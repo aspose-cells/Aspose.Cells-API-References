@@ -1,14 +1,14 @@
 ---
 title: Caption
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает или устанавливает заголовок указанной временной шкалы.
+description: Возвращает или задает заголовок указанной временной шкалы.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.timelines/timeline/caption/
 ---
 ## Timeline.Caption property
 
-Возвращает или устанавливает заголовок указанной временной шкалы.
+Возвращает или задает заголовок указанной временной шкалы.
 
 ```csharp
 public string Caption { get; set; }
@@ -20,7 +20,7 @@ public string Caption { get; set; }
 
 [C#]
 
-  //Установить заголовок указанной временной шкалы.
+//Установить заголовок указанной временной шкалы.
 timelineObj.Caption = "timeline caption test";
 ```
 

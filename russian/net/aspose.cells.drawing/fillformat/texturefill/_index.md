@@ -1,14 +1,14 @@
 ---
 title: TextureFill
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектTextureFillaspose.cells.drawing/fillformat/texturefill.
+description: получаетTextureFillaspose.cells.drawing/fillformat/texturefill объект.
 type: docs
 weight: 170
 url: /ru/net/aspose.cells.drawing/fillformat/texturefill/
 ---
 ## FillFormat.TextureFill property
 
-Получает объект`TextureFill`.
+получает`TextureFill` объект.
 
 ```csharp
 public TextureFill TextureFill { get; }

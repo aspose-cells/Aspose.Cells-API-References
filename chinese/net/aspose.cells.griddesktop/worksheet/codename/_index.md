@@ -1,14 +1,14 @@
 ---
 title: CodeName
 second_title: Aspose.Cells for .NET API 参考
-description: 表示工作表代码名称
+description: 代表工作表代号
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.griddesktop/worksheet/codename/
 ---
 ## Worksheet.CodeName property
 
-表示工作表代码名称。
+代表工作表代号。
 
 ```csharp
 public string CodeName { get; }

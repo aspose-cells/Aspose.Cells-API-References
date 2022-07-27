@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 按索引获取时间轴
+description: 按索引获取时间线
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.timelines/timelinecollection/item/
 ---
 ## TimelineCollection indexer (1 of 2)
 
-按索引获取时间轴。
+按索引获取时间线。
 
 ```csharp
 public Timeline this[int index] { get; }
@@ -20,7 +20,7 @@ public Timeline this[int index] { get; }
 
 [C#]
 
- //通过索引获取时间轴.
+//通过索引获取时间线。
 Timeline objByIndex = sheet.Timelines[0];
 ```
 
@@ -47,7 +47,7 @@ public Timeline this[string name] { get; }
 
 [C#]
 
- //通过时间线名称获取时间线。
+//通过时间线的名称获取时间线。
 Timeline objByName = sheet.Timelines["date"];
 ```
 

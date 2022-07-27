@@ -1,14 +1,14 @@
 ---
 title: ExportFrameScriptsAndProperties
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否导出框架脚本和文档属性默认值为true如果要将html或mht文件 导入excel请保持默认值
+description: 表示是否导出框架脚本和文档属性默认值为true如果要导入html或mht文件 到excel请保持默认值
 type: docs
 weight: 180
 url: /zh/net/aspose.cells/htmlsaveoptions/exportframescriptsandproperties/
 ---
 ## HtmlSaveOptions.ExportFrameScriptsAndProperties property
 
-表示是否导出框架脚本和文档属性。默认值为true。如果要将html或mht文件 导入excel，请保持默认值。
+表示是否导出框架脚本和文档属性。默认值为true。如果要导入html或mht文件 到excel，请保持默认值。
 
 ```csharp
 public bool ExportFrameScriptsAndProperties { get; set; }

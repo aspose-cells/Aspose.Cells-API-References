@@ -1,14 +1,14 @@
 ---
 title: OnErrorActionQuery
 second_title: Aspose.Cells for .NET API 参考
-description: 在 GridWeb 的 CellError 事件中使用
+description: 在GridWeb的CellError事件中使用
 type: docs
 weight: 630
 url: /zh/net/aspose.cells.gridweb.data/onerroractionquery/
 ---
 ## OnErrorActionQuery class
 
-在 GridWeb 的 CellError 事件中使用。
+在GridWeb的CellError事件中使用。
 
 ```csharp
 public class OnErrorActionQuery

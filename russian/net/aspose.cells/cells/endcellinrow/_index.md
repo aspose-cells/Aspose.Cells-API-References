@@ -20,7 +20,7 @@ public Cell EndCellInRow(int rowIndex)
 
 ### Возвращаемое значение
 
-Объект ячейки.
+Сотовый объект.
 
 ### Смотрите также
 
@@ -43,12 +43,12 @@ public Cell EndCellInRow(int startRow, int endRow, int startColumn, int endColum
 | --- | --- | --- |
 | startRow | Int32 | Индекс начальной строки. |
 | endRow | Int32 | Индекс конечной строки. |
-| startColumn | Int32 | Индекс начального столбца. |
+| startColumn | Int32 | Начальный индекс столбца. |
 | endColumn | Int32 | Конечный индекс столбца. |
 
 ### Возвращаемое значение
 
-Объект ячейки.
+Сотовый объект.
 
 ### Смотрите также
 

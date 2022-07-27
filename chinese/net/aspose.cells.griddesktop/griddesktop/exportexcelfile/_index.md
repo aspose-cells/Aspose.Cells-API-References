@@ -62,7 +62,7 @@ public void ExportExcelFile(string fileName, FileFormatType fileFormatType)
 
 ## ExportExcelFile(Stream) {#exportexcelfile}
 
-导出到excel文件流，包括磁盘IO流或者内存流。
+导出为excel文件流，包括磁盘IO流或内存流。
 
 ```csharp
 public void ExportExcelFile(Stream stream)
@@ -112,7 +112,7 @@ End Sub
 
 ## ExportExcelFile(Stream, FileFormatType) {#exportexcelfile_1}
 
-导出到excel文件流，包括磁盘IO流或者内存流。
+导出为excel文件流，包括磁盘IO流或内存流。
 
 ```csharp
 public void ExportExcelFile(Stream stream, FileFormatType fileFormatType)
@@ -120,7 +120,7 @@ public void ExportExcelFile(Stream stream, FileFormatType fileFormatType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | Stream 保存电子表格的位置。 |
+| stream | Stream | 流式传输电子表格的保存位置。 |
 | fileFormatType | FileFormatType | Excel 文件格式类型。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: IsPageBreakPreview
 second_title: Aspose.Cells for .NET API 参考
-description: 指示指定的工作表是显示在普通视图还是分页预览中
+description: 指示指定的工作表是以普通视图还是分页预览显示
 type: docs
 weight: 240
 url: /zh/net/aspose.cells/worksheet/ispagebreakpreview/
 ---
 ## Worksheet.IsPageBreakPreview property
 
-指示指定的工作表是显示在普通视图还是分页预览中。
+指示指定的工作表是以普通视图还是分页预览显示。
 
 ```csharp
 public bool IsPageBreakPreview { get; set; }

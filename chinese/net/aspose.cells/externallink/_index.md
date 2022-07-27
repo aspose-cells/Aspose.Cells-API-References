@@ -21,7 +21,7 @@ public class ExternalLink
 | [DataSource](../../aspose.cells/externallink/datasource) { get; set; } | 表示外部链接的数据源。 |
 | [IsReferred](../../aspose.cells/externallink/isreferred) { get; } | 表示此外部链接是否被其他人引用。 |
 | [IsVisible](../../aspose.cells/externallink/isvisible) { get; } | 指示此外部链接在 MS Excel 中是否可见。 |
-| [OriginalDataSource](../../aspose.cells/externallink/originaldatasource) { get; set; } | 表示外部链接的存储数据源。 |
+| [OriginalDataSource](../../aspose.cells/externallink/originaldatasource) { get; set; } | 表示外链的存储数据源。 |
 | [Type](../../aspose.cells/externallink/type) { get; } | 获取外部链接的类型。 |
 
 ## 方法
@@ -36,13 +36,13 @@ public class ExternalLink
 
 [C#]
 
- //打开带有外部链接的文件
+//打开带有外部链接的文件
 Workbook workbook = new Workbook("book1.xls");
 
-//获取外部链接
+//获取外部链接 
 ExternalLink externalLink = workbook.Worksheets.ExternalLinks[0];
 
- //更改外部链接的数据源
+//更改外部链接的数据源
 externalLink.DataSource = "d:\\link.xls";
 
 [VB.NET]
@@ -50,10 +50,10 @@ externalLink.DataSource = "d:\\link.xls";
 '打开带有外部链接的文件
 Dim workbook As New Workbook("book1.xls")
 
-'获取外部链接
+'获取外部链接 
 Dim externalLink As ExternalLink = workbook.Worksheets.ExternalLinks(0)
 
-'更改外部链接的数据源
+'Change External Link's Data Source
 externalLink.DataSource = "d:\link.xls"
 ```
 

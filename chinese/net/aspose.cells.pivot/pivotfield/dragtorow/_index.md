@@ -1,14 +1,14 @@
 ---
 title: DragToRow
 second_title: Aspose.Cells for .NET API 参考
-description: 表示指定字段是否可以拖到行位置 默认值为真
+description: 表示是否可以将指定字段拖到行位置 默认值为true
 type: docs
 weight: 150
 url: /zh/net/aspose.cells.pivot/pivotfield/dragtorow/
 ---
 ## PivotField.DragToRow property
 
-表示指定字段是否可以拖到行位置。 默认值为真。
+表示是否可以将指定字段拖到行位置。 默认值为true。
 
 ```csharp
 public bool DragToRow { get; set; }

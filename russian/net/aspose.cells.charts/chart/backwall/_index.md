@@ -1,14 +1,14 @@
 ---
 title: BackWall
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает объектWallsaspose.cells.charts/chart/walls представляющий заднюю стенку трехмерной диаграммы.
+description: ВозвращаетWallsaspose.cells.charts/chart/walls объект представляющий заднюю стенку трехмерной диаграммы.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.charts/chart/backwall/
 ---
 ## Chart.BackWall property
 
-Возвращает объект[`Walls`](../walls), представляющий заднюю стенку трехмерной диаграммы.
+Возвращает[`Walls`](../walls) объект, представляющий заднюю стенку трехмерной диаграммы.
 
 ```csharp
 public Walls BackWall { get; }

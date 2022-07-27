@@ -1,14 +1,14 @@
 ---
 title: QueryTables
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПолучаетQueryTableCollectionaspose.cells/querytablecollectionна листе.
+description: получаетQueryTableCollectionaspose.cells/querytablecollection на листе.
 type: docs
 weight: 390
 url: /ru/net/aspose.cells/worksheet/querytables/
 ---
 ## Worksheet.QueryTables property
 
-Получает[`QueryTableCollection`](../../querytablecollection)на листе.
+получает[`QueryTableCollection`](../../querytablecollection) на листе.
 
 ```csharp
 public QueryTableCollection QueryTables { get; }

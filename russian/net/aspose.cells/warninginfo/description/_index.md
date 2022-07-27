@@ -1,14 +1,14 @@
 ---
 title: Description
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получить описание предупреждающей информации.
+description: Получить описание информации о предупреждении.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/warninginfo/description/
 ---
 ## WarningInfo.Description property
 
-Получить описание предупреждающей информации.
+Получить описание информации о предупреждении.
 
 ```csharp
 public string Description { get; }

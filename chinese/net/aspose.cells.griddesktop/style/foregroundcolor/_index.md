@@ -16,7 +16,7 @@ public Color ForegroundColor { get; set; }
 
 ### 评论
 
-如果返回 Color.Empty 则表示没有颜色设置。
+如果返回 Color.Empty，则表示没有颜色设置。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: IsToOutput
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置是否输出页面的值 默认值为真
+description: 获取或设置一个值该值指示是否应输出页面 默认值为真
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.rendering/pagestartsavingargs/istooutput/
 ---
 ## PageStartSavingArgs.IsToOutput property
 
-获取或设置是否输出页面的值。 默认值为真。
+获取或设置一个值，该值指示是否应输出页面。 默认值为真。
 
 ```csharp
 public bool IsToOutput { get; set; }

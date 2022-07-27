@@ -24,7 +24,7 @@ public class GridValidation
 
 | Имя | Описание |
 | --- | --- |
-| [AreaList](../../aspose.cells.griddesktop.data/gridvalidation/arealist) { get; } | Представляет коллекциюCellArea, которая содержит параметры проверки данных. |
+| [AreaList](../../aspose.cells.griddesktop.data/gridvalidation/arealist) { get; } | Представляет наборCellArea который содержит настройки проверки данных. |
 | [ClientValidationFunction](../../aspose.cells.griddesktop.data/gridvalidation/clientvalidationfunction) { get; set; } | Получает или задает имя функции JavaScript проверки клиента. |
 | [CustomMsgForStopEdit](../../aspose.cells.griddesktop.data/gridvalidation/custommsgforstopedit) { get; set; } | Получает или задает пользовательское сообщение, которое будет отображаться, когда пользователь редактирует недопустимое значение. |
 | [CustomMsgForStopOper](../../aspose.cells.griddesktop.data/gridvalidation/custommsgforstopoper) { get; set; } | Получает или задает пользовательское сообщение для отображения, когда операция пользователя приводит к недопустимому значению. |
@@ -35,9 +35,9 @@ public class GridValidation
 | [Formula1](../../aspose.cells.griddesktop.data/gridvalidation/formula1) { get; set; } | Представляет значение или выражение, связанное с проверкой данных. |
 | [Formula2](../../aspose.cells.griddesktop.data/gridvalidation/formula2) { get; set; } | Представляет значение или выражение, связанное со второй частью проверки данных. |
 | [InputMessage](../../aspose.cells.griddesktop.data/gridvalidation/inputmessage) { get; set; } | Представляет сообщение об ошибке проверки данных. |
-| [InputTitle](../../aspose.cells.griddesktop.data/gridvalidation/inputtitle) { get; set; } | Представляет заголовок диалогового окна ввода данных проверки. |
+| [InputTitle](../../aspose.cells.griddesktop.data/gridvalidation/inputtitle) { get; set; } | Представляет заголовок диалогового окна ввода данных для проверки данных. |
 | [IsRequired](../../aspose.cells.griddesktop.data/gridvalidation/isrequired) { get; set; } |  |
-| [Operator](../../aspose.cells.griddesktop.data/gridvalidation/operator) { get; set; } | Представляет оператор проверки данных. |
+| [Operator](../../aspose.cells.griddesktop.data/gridvalidation/operator) { get; set; } | Представляет оператора для проверки данных. |
 | [RegEx](../../aspose.cells.griddesktop.data/gridvalidation/regex) { get; set; } | Получает или задает строку регулярного выражения. |
 | [ShowError](../../aspose.cells.griddesktop.data/gridvalidation/showerror) { get; set; } | Указывает, будет ли отображаться сообщение об ошибке проверки данных всякий раз, когда пользователь вводит недопустимые данные. |
 | [ShowInput](../../aspose.cells.griddesktop.data/gridvalidation/showinput) { get; set; } |  |
@@ -48,10 +48,10 @@ public class GridValidation
 
 | Имя | Описание |
 | --- | --- |
-| [AddACell](../../aspose.cells.griddesktop.data/gridvalidation/addacell#addacell_1)(string) | добавьте настройки проверки в ячейку. |
-| [AddACell](../../aspose.cells.griddesktop.data/gridvalidation/addacell#addacell)(int, int) | добавьте настройки проверки в ячейку. |
+| [AddACell](../../aspose.cells.griddesktop.data/gridvalidation/addacell#addacell_1)(string) | добавить параметры проверки в ячейку. |
+| [AddACell](../../aspose.cells.griddesktop.data/gridvalidation/addacell#addacell)(int, int) | добавить параметры проверки в ячейку. |
 | [AddArea](../../aspose.cells.griddesktop.data/gridvalidation/addarea)(GridCellArea) | Применяет проверку к области. |
-| [RemoveACell](../../aspose.cells.griddesktop.data/gridvalidation/removeacell)(int, int) | Удалите настройки проверки в ячейке. |
+| [RemoveACell](../../aspose.cells.griddesktop.data/gridvalidation/removeacell)(int, int) | Удалить настройки проверки в ячейке. |
 | [RemoveArea](../../aspose.cells.griddesktop.data/gridvalidation/removearea)(GridCellArea) | Удалить настройки проверки в диапазоне. |
 
 ### Смотрите также

@@ -19,7 +19,7 @@ public string MacroName { get; set; }
 ```csharp
 
 [C#]
-  //Устанавливает имя макроса.
+//Задает имя макроса.
 shape.MacroName = "DoWork()";
 ```
 

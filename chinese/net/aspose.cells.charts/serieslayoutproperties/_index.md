@@ -26,12 +26,12 @@ public class SeriesLayoutProperties
 | [MapChartRegionType](../../aspose.cells.charts/serieslayoutproperties/mapchartregiontype) { get; set; } | 获取和设置地图的区域类型。 |
 | [MapLabelLayout](../../aspose.cells.charts/serieslayoutproperties/maplabellayout) { get; set; } | 获取和设置地图标签的布局。 |
 | [QuartileCalculation](../../aspose.cells.charts/serieslayoutproperties/quartilecalculation) { get; set; } | 表示系列的统计属性。 |
-| [ShowConnectorLines](../../aspose.cells.charts/serieslayoutproperties/showconnectorlines) { get; set; } | 指示是否显示数据点之间的连接线。 |
+| [ShowConnectorLines](../../aspose.cells.charts/serieslayoutproperties/showconnectorlines) { get; set; } | 表示是否显示数据点之间的连接线。 |
 | [ShowInnerPoints](../../aspose.cells.charts/serieslayoutproperties/showinnerpoints) { get; set; } | 表示是否显示非异常数据点。 |
 | [ShowMeanLine](../../aspose.cells.charts/serieslayoutproperties/showmeanline) { get; set; } | 表示是否显示连接所有平均点的线。 |
-| [ShowMeanMarker](../../aspose.cells.charts/serieslayoutproperties/showmeanmarker) { get; set; } | 指示是否显示表示平均值的标记。 |
+| [ShowMeanMarker](../../aspose.cells.charts/serieslayoutproperties/showmeanmarker) { get; set; } | 表示是否显示表示平均值的标记。 |
 | [ShowOutlierPoints](../../aspose.cells.charts/serieslayoutproperties/showoutlierpoints) { get; set; } | 表示是否显示异常数据点。 |
-| [Subtotals](../../aspose.cells.charts/serieslayoutproperties/subtotals) { get; set; } | 表示小计数据点的索引。 |
+| [Subtotals](../../aspose.cells.charts/serieslayoutproperties/subtotals) { get; set; } | 代表一个小计数据点的索引。 |
 
 ### 也可以看看
 

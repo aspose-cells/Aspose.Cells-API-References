@@ -1,14 +1,14 @@
 ---
 title: SaveHTMLFile
 second_title: Aspose.Cells for .NET API 参考
-description: 将数据保存到 HTML 文件
+description: 将数据保存到 HTML 文件中
 type: docs
 weight: 1480
 url: /zh/net/aspose.cells.gridweb/mainweb/savehtmlfile/
 ---
 ## SaveHTMLFile(string) {#savehtmlfile_1}
 
-将数据保存到 HTML 文件。
+将数据保存到 HTML 文件中。
 
 ```csharp
 public void SaveHTMLFile(string targetFile)
@@ -16,7 +16,7 @@ public void SaveHTMLFile(string targetFile)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| targetFile | String | 文件名。 |
+| targetFile | String | 文件的名称。 |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public void SaveHTMLFile(string targetFile)
 
 ## SaveHTMLFile(Stream) {#savehtmlfile}
 
-将数据保存到 HTML 文件流。
+将数据保存到 HTML 文件流中。
 
 ```csharp
 public void SaveHTMLFile(Stream stream)

@@ -1,14 +1,14 @@
 ---
 title: XAdESType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Тип XAdES. Значение по умолчанию  None XAdES отключен.
+description: Тип XAdES. Значение по умолчанию  NoneXAdES выключен.
 type: docs
 weight: 100
 url: /ru/net/aspose.cells.digitalsignatures/digitalsignature/xadestype/
 ---
 ## DigitalSignature.XAdESType property
 
-Тип XAdES. Значение по умолчанию — None (XAdES отключен).
+Тип XAdES. Значение по умолчанию — None(XAdES выключен).
 
 ```csharp
 public XAdESType XAdESType { get; set; }

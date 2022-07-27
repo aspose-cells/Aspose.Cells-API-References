@@ -27,7 +27,7 @@ public class ConditionalFormattingValueCollection : CollectionBase<ConditionalFo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells/conditionalformattingvaluecollection/add)(FormatConditionValueType, string) | 添加[`ConditionalFormattingValue`](../conditionalformattingvalue)对象。 |
+| [Add](../../aspose.cells/conditionalformattingvaluecollection/add)(FormatConditionValueType, string) | 添加[`ConditionalFormattingValue`](../conditionalformattingvalue)对象. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ConditionalFormattingValue) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ConditionalFormattingValue, IComparer&lt;ConditionalFormattingValue&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, ConditionalFormattingValue, IComparer&lt;ConditionalFormattingValue&gt;) |  |

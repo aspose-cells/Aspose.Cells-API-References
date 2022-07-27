@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 按属性名称返回DocumentPropertyaspose.cells.properties/documentproperty对象
+description: 返回一个DocumentPropertyaspose.cells.properties/documentproperty按属性名称的对象
 type: docs
 weight: 110
 url: /zh/net/aspose.cells.properties/builtindocumentpropertycollection/item/
 ---
 ## BuiltInDocumentPropertyCollection indexer
 
-按属性名称返回[`DocumentProperty`](../../documentproperty)对象。
+返回一个[`DocumentProperty`](../../documentproperty)按属性名称的对象。
 
 ```csharp
 public override DocumentProperty this[string name] { get; }
@@ -20,11 +20,11 @@ public override DocumentProperty this[string name] { get; }
 
 ### 评论
 
-属性的字符串名称对应于类型化:::47::的名称:可从[`BuiltInDocumentPropertyCollection`](../../builtindocumentpropertycollection)获得的属性。
+属性的字符串名称对应于可用的 typed 属性的名称[`BuiltInDocumentPropertyCollection`](../../builtindocumentpropertycollection).
 
-如果您请求文档中不存在的属性，但该属性的名称 被识别为有效的内置名称，一个新的[`DocumentProperty`](../../documentproperty) 被创建，添加到集合并返回。新创建的属性被赋予 一个默认值（空字符串、零、false 或 DateTime.MinValue，具体取决于内置属性的 类型）。
+如果您请求文档中不存在的属性，但该属性的 name 被识别为有效的内置名称，则新的[`DocumentProperty`](../../documentproperty) 被创建，添加到集合并返回。新创建的属性被分配 一个默认值（空字符串、零、false 或 DateTime.MinValue，具体取决于内置属性的 type ）。
 
-如果您请求文档中不存在的属性并且名称 未被识别为内置名称，则为 null被退回。
+如果您请求文档中不存在的属性并且 name 未被识别为内置名称，则返回 null。
 
 ### 也可以看看
 

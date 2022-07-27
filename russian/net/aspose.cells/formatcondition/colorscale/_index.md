@@ -1,14 +1,14 @@
 ---
 title: ColorScale
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получить экземпляр условного форматирования ColorScale. Экземпляр по умолчанию - зелено-желто-красный 3ColorScale. Допустимо только для type  ColorScale.
+description: Получить экземпляр ColorScale условного форматирования. Экземпляром по умолчанию является зелено-желто-красный 3ColorScale. Допустимо только для типа  ColorScale.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/formatcondition/colorscale/
 ---
 ## FormatCondition.ColorScale property
 
-Получить экземпляр условного форматирования "ColorScale". Экземпляр по умолчанию - "зелено-желто-красный" 3ColorScale. Допустимо только для type = ColorScale.
+Получить экземпляр "ColorScale" условного форматирования. Экземпляром по умолчанию является "зелено-желто-красный" 3ColorScale. Допустимо только для типа = ColorScale.
 
 ```csharp
 public ColorScale ColorScale { get; }

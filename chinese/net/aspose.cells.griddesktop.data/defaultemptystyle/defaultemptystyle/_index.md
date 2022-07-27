@@ -1,14 +1,14 @@
 ---
 title: DefaultEmptyStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 样式构造器
+description: 样式构造函数.
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.griddesktop.data/defaultemptystyle/defaultemptystyle/
 ---
 ## DefaultEmptyStyle constructor
 
-样式构造器。
+样式构造函数.
 
 ```csharp
 public DefaultEmptyStyle(GridDesktop gridDesktop)

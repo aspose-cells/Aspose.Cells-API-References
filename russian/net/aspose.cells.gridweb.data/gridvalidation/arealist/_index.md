@@ -1,14 +1,14 @@
 ---
 title: AreaList
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет коллекциюCellArea которая содержит параметры проверки данных.
+description: Представляет наборCellArea который содержит настройки проверки данных.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.gridweb.data/gridvalidation/arealist/
 ---
 ## GridValidation.AreaList property
 
-Представляет коллекциюCellArea, которая содержит параметры проверки данных.
+Представляет наборCellArea который содержит настройки проверки данных.
 
 ```csharp
 public ArrayList AreaList { get; }
@@ -16,7 +16,7 @@ public ArrayList AreaList { get; }
 
 ### Примечания
 
-Старые обозначения на области не будут удалены при прямом добавлении в этот список.
+Старые valvidations на области не будут удалены, если прямое добавление в этот список.
 
 ### Смотрите также
 

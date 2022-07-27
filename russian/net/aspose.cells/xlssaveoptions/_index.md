@@ -1,14 +1,14 @@
 ---
 title: XlsSaveOptions
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет параметры сохранения для формата файла Excel 97-2003xls и xlt.
+description: Представляет параметры сохранения для формата файла Excel 97-2003 xls и xlt.
 type: docs
 weight: 6540
 url: /ru/net/aspose.cells/xlssaveoptions/
 ---
 ## XlsSaveOptions class
 
-Представляет параметры сохранения для формата файла Excel 97-2003:xls и xlt.
+Представляет параметры сохранения для формата файла Excel 97-2003: xls и xlt.
 
 ```csharp
 public class XlsSaveOptions : SaveOptions
@@ -32,13 +32,13 @@ public class XlsSaveOptions : SaveOptions
 | [LightCellsDataProvider](../../aspose.cells/xlssaveoptions/lightcellsdataprovider) { get; set; } | Поставщик данных для предоставления данных ячеек для сохранения книги в облегченном режиме. |
 | [MatchColor](../../aspose.cells/xlssaveoptions/matchcolor) { get; set; } | Указывает, соответствует ли цвет шрифта, потому что в стандартной цветовой палитре 56 цветов. |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Указывает, объединяются ли области условного форматирования и проверки перед сохранением файла. |
-| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Указывает, обновляются ли данные кэша диаграммы |
+| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Указывает, нужно ли обновлять кэш диаграммы data |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Получает формат файла сохранения. |
 | [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | Указывает, выполняется ли сортировка внешних определенных имен перед сохранением файла. |
 | [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | Указывает, выполняется ли сортировка определенных имен перед сохранением файла. |
-| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Указывает, обновляются ли настройки смарт-арта. Значение по умолчанию — false. |
+| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Указывает, обновляются ли настройки Smart Art. Значение по умолчанию — false. |
 | [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas) { get; set; } | Указывает, следует ли проверять объединенные ячейки перед сохранением файла. |
-| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Получает или устанавливает обратный вызов предупреждения. |
+| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Получает или задает обратный вызов предупреждения. |
 
 ### Смотрите также
 

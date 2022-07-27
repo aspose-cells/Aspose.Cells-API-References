@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 添加GridValidationaspose.cells.gridweb.data/gridvalidation到集合中
+description: 添加一个GridValidationaspose.cells.gridweb.data/gridvalidation收藏.
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.gridweb.data/gridvalidationcollection/add/
 ---
 ## Add(GridValidation) {#add_4}
 
-添加[`GridValidation`](../../gridvalidation)到集合中。
+添加一个[`GridValidation`](../../gridvalidation)收藏.
 
 ```csharp
 public int Add(GridValidation validation)
@@ -59,7 +59,7 @@ public GridValidation Add(GridCellArea ca)
 
 ## Add(string) {#add_3}
 
-添加[`GridValidation`](../../gridvalidation)到集合中。验证应用于指定的单元格。
+添加一个[`GridValidation`](../../gridvalidation)到集合。验证应用于指定的单元格。
 
 ```csharp
 public GridValidation Add(string cellname)
@@ -67,7 +67,7 @@ public GridValidation Add(string cellname)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cellname | String | 单元的名称。 |
+| cellname | String | 单元格的名称。 |
 
 ### 返回值
 
@@ -84,7 +84,7 @@ public GridValidation Add(string cellname)
 
 ## Add(int, int) {#add_2}
 
-添加[`GridValidation`](../../gridvalidation)到集合中。验证应用于指定的单元格。
+添加一个[`GridValidation`](../../gridvalidation)到集合。验证应用于指定的单元格。
 
 ```csharp
 public GridValidation Add(int row, int column)

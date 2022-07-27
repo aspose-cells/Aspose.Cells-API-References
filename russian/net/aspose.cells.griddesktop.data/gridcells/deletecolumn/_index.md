@@ -37,7 +37,7 @@ public void DeleteColumn(int columnIndex, bool updateReference)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | columnIndex | Int32 | Индекс столбца. |
-| updateReference | Boolean | Указывает, обновляются ли ссылки в других рабочих листах. |
+| updateReference | Boolean | Указывает, обновляются ли ссылки на других листах. |
 
 ### Смотрите также
 

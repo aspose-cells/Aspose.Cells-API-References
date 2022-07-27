@@ -1,14 +1,14 @@
 ---
 title: HorizontalAlignmentType
 second_title: Aspose.Cells for .NET API 参考
-description: 指定网格单元如何水平对齐
+description: 指定网格单元的水平对齐方式
 type: docs
 weight: 860
 url: /zh/net/aspose.cells.griddesktop/horizontalalignmenttype/
 ---
 ## HorizontalAlignmentType enumeration
 
-指定网格单元如何水平对齐。
+指定网格单元的水平对齐方式。
 
 ```csharp
 public enum HorizontalAlignmentType
@@ -18,11 +18,11 @@ public enum HorizontalAlignmentType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| General | `0` | 如果对象类型为数字，则对象在网格右侧对齐。 如果对象类型是字符串，则对象在网格单元的左侧对齐。 |
+| General | `0` | 如果对象类型是数字，对象在网格单元的右侧对齐。 如果对象类型是字符串，对象在网格单元的左侧对齐。 |
 | Left | `1` | 对象或文本在网格单元的左侧对齐。 |
 | Centred | `2` | 对象或文本在网格单元的中心对齐。 |
 | Right | `3` | 对象或文本在网格单元的右侧对齐。 |
-| Filled | `4` | 对象或文本填充到网格单元中。 |
+| Filled | `4` | 对象或文本已填充到网格单元中。 |
 | Justified | `5` |  |
 | CentredAcross | `6` |  |
 | Distributed | `7` |  |

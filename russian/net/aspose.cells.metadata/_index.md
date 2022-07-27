@@ -1,12 +1,12 @@
 ---
 title: Aspose.Cells.Metadata
 second_title: Справочник по Aspose.Cells для .NET API
-description: Содержит все классы загрузки и сохранения метаданных.
+description: Содержит все классы загрузки и сохранения метаданных файлов.s
 type: docs
 weight: 90
 url: /ru/net/aspose.cells.metadata/
 ---
-Содержит все классы загрузки и сохранения метаданных.
+Содержит все классы загрузки и сохранения метаданных файлов.s
 
 ## Классы
 

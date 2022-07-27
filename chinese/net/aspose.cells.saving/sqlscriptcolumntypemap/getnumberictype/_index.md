@@ -1,14 +1,14 @@
 ---
 title: GetNumbericType
 second_title: Aspose.Cells for .NET API 参考
-description: 获取数据库中的数字类型
+description: 获取数据库中的数值类型
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.saving/sqlscriptcolumntypemap/getnumberictype/
 ---
 ## SqlScriptColumnTypeMap.GetNumbericType method
 
-获取数据库中的数字类型。
+获取数据库中的数值类型。
 
 ```csharp
 public virtual string GetNumbericType()

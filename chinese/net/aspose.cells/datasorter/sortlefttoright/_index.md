@@ -1,14 +1,14 @@
 ---
 title: SortLeftToRight
 second_title: Aspose.Cells for .NET API 参考
-description: True 表示排序方向是从左到右 False 表示排序方向是从上到下 默认值为假
+description: True 表示排序方向是从左到右 False 表示排序方向是从上到下 默认值为false
 type: docs
 weight: 110
 url: /zh/net/aspose.cells/datasorter/sortlefttoright/
 ---
 ## DataSorter.SortLeftToRight property
 
-True 表示排序方向是从左到右。 False 表示排序方向是从上到下。 默认值为假。
+True 表示排序方向是从左到右。 False 表示排序方向是从上到下。 默认值为false。
 
 ```csharp
 public bool SortLeftToRight { get; set; }

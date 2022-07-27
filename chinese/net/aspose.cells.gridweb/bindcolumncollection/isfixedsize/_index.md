@@ -1,14 +1,14 @@
 ---
 title: IsFixedSize
 second_title: Aspose.Cells for .NET API 参考
-description: 总是正确的
+description: 始终正确
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.gridweb/bindcolumncollection/isfixedsize/
 ---
 ## BindColumnCollection.IsFixedSize property
 
-总是正确的。
+始终正确。
 
 ```csharp
 public bool IsFixedSize { get; }

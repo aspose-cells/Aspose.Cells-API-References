@@ -1,14 +1,14 @@
 ---
 title: GetStandardHeaderFooterFontStyleName
 second_title: Aspose.Cells for .NET API 参考
-description: 根据给定的语言环境字体样式名称获取页眉/页脚的标准英文字体样式名称RegularBoldItalic
+description: 根据给定的区域设置字体样式名称获取页眉/页脚的标准英文字体样式名称RegularBoldItalic
 type: docs
 weight: 230
 url: /zh/net/aspose.cells/globalizationsettings/getstandardheaderfooterfontstylename/
 ---
 ## GlobalizationSettings.GetStandardHeaderFooterFontStyleName method
 
-根据给定的语言环境字体样式名称获取页眉/页脚的标准英文字体样式名称（Regular、Bold、Italic）。
+根据给定的区域设置字体样式名称获取页眉/页脚的标准英文字体样式名称（Regular、Bold、Italic）。
 
 ```csharp
 public virtual string GetStandardHeaderFooterFontStyleName(string localfontStyleName)
@@ -20,7 +20,7 @@ public virtual string GetStandardHeaderFooterFontStyleName(string localfontStyle
 
 ### 返回值
 
-标准英文字体样式名称（Regular, Bold, Italic）
+标准英文字体样式名称（Regular、Bold、Italic）
 
 ### 也可以看看
 

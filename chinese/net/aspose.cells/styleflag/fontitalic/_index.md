@@ -1,14 +1,14 @@
 ---
 title: FontItalic
 second_title: Aspose.Cells for .NET API 参考
-description: 字体斜体设置将被应用
+description: 将应用字体斜体设置
 type: docs
 weight: 120
 url: /zh/net/aspose.cells/styleflag/fontitalic/
 ---
 ## StyleFlag.FontItalic property
 
-字体斜体设置将被应用。
+将应用字体斜体设置。
 
 ```csharp
 public bool FontItalic { get; set; }

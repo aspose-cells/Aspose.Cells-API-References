@@ -1,14 +1,14 @@
 ---
 title: BorderLineColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПредставляетColorлинии границы изображения.
+description: ПредставляетColor линии границы изображения.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.drawing/picture/borderlinecolor/
 ---
 ## Picture.BorderLineColor property
 
-ПредставляетColorлинии границы изображения.
+ПредставляетColor линии границы изображения.
 
 ```csharp
 public Color BorderLineColor { get; set; }
@@ -19,16 +19,16 @@ public Color BorderLineColor { get; set; }
 ```csharp
 
 [C#]
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-  //Добавление изображения в ячейку, индексы строки и столбца которой равны 1 на рабочем листе. Это "B2" cell
+//Добавление изображения в ячейку, индексы строки и столбца которой равны 1 на рабочем листе. Это ячейка "B2"
 int imgIndex = worksheet.Pictures.Add(1, 1, "example.jpeg");
-  //Получить вставленную картинку object
+//Получить вставленный объект изображения
 Picture pic = worksheet.Pictures[imgIndex];
-  //Устанавливаем цвет границы picture
+//Устанавливаем цвет границы картинки
 pic.BorderLineColor = Color.Red;
-  // Сохраняем файл Excel.
+// Сохраняем файл excel.
 workbook.Save("result.xlsx");
 ```
 

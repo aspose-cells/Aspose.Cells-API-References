@@ -18,25 +18,25 @@ public class ShapeTextAlignment
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AutoSize](../../aspose.cells.drawing.texts/shapetextalignment/autosize) { get; set; } | 指示形状的大小是否根据其内容自动调整。 |
-| [BottomMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/bottommarginpt) { get; set; } | 以点为单位返回下边距 |
+| [AutoSize](../../aspose.cells.drawing.texts/shapetextalignment/autosize) { get; set; } | 表示形状的大小是否根据其内容自动调整。 |
+| [BottomMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/bottommarginpt) { get; set; } | 以 Points 为单位返回下边距 |
 | [IsAutoMargin](../../aspose.cells.drawing.texts/shapetextalignment/isautomargin) { get; set; } | 表示文本框的边距是否自动。 |
 | [IsTextWrapped](../../aspose.cells.drawing.texts/shapetextalignment/istextwrapped) { get; set; } | 获取和设置包含文本的形状的文本换行类型。 |
-| [LeftMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/leftmarginpt) { get; set; } | 以点为单位返回左边距 |
-| [RightMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/rightmarginpt) { get; set; } | 以点为单位返回右边距 |
-| [RotateTextWithShape](../../aspose.cells.drawing.texts/shapetextalignment/rotatetextwithshape) { get; set; } | 表示是否带形状旋转文本。 |
+| [LeftMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/leftmarginpt) { get; set; } | 以 Points 为单位返回左边距 |
+| [RightMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/rightmarginpt) { get; set; } | 以Points为单位返回右边距 |
+| [RotateTextWithShape](../../aspose.cells.drawing.texts/shapetextalignment/rotatetextwithshape) { get; set; } | 表示是否旋转带形状的文本。 |
 | [RotationAngle](../../aspose.cells.drawing.texts/shapetextalignment/rotationangle) { get; set; } | 获取和设置形状的旋转。 |
 | [TextHorizontalOverflow](../../aspose.cells.drawing.texts/shapetextalignment/texthorizontaloverflow) { get; set; } | 获取和设置文本框的文本水平溢出类型。 |
 | [TextShapeType](../../aspose.cells.drawing.texts/shapetextalignment/textshapetype) { get; set; } | 获取和设置文本的变换类型。 |
 | [TextVerticalOverflow](../../aspose.cells.drawing.texts/shapetextalignment/textverticaloverflow) { get; set; } | 获取和设置文本框的文本垂直溢出类型。 |
 | [TextVerticalType](../../aspose.cells.drawing.texts/shapetextalignment/textverticaltype) { get; set; } | 获取和设置文本方向。 |
-| [TopMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/topmarginpt) { get; set; } | 以点为单位返回上边距 |
+| [TopMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/topmarginpt) { get; set; } | 以 Points 为单位返回上边距 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.cells.drawing.texts/shapetextalignment/equals)(object) | 确定此实例是否与另一个指定的[`ShapeTextAlignment`](../shapetextalignment)对象具有相同的值。 |
+| override [Equals](../../aspose.cells.drawing.texts/shapetextalignment/equals)(object) | 确定此实例是否与另一个指定的值相同[`ShapeTextAlignment`](../shapetextalignment)对象. |
 | override [GetHashCode](../../aspose.cells.drawing.texts/shapetextalignment/gethashcode)() |  |
 
 ### 例子
@@ -44,12 +44,12 @@ public class ShapeTextAlignment
 ```csharp
 
 [C#]
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 Shape shape = workbook.Worksheets[0].Shapes.AddRectangle(1, 0, 1, 0, 50, 100);
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = shape.TextBody.TextAlignment;
 
- //做你的事
+//做你的事
 
 ```
 

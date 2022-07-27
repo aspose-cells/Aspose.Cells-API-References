@@ -1,14 +1,14 @@
 ---
 title: SessionStorePath
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置会话模式为 File 或 ViewState 时的会话缓存存储路径 等gridweb.SessionStorePathc/mytempdir/会议 然后它将会话数据存储在 c/mytempdir/session
+description: 获取或设置会话模式为File或ViewState时的会话缓存存储路径 等gridweb.SessionStorePathc/mytempdir/session 然后它将会话数据存储在 c/mytempdir/session
 type: docs
 weight: 830
 url: /zh/net/aspose.cells.gridweb/mainweb/sessionstorepath/
 ---
 ## MainWeb.SessionStorePath property
 
-获取或设置会话模式为 File 或 ViewState 时的会话缓存存储路径, 等:gridweb.SessionStorePath="c:/mytempdir/会议”; 然后它将会话数据存储在 c:/mytempdir/session
+获取或设置会话模式为File或ViewState时的会话缓存存储路径， 等：gridweb.SessionStorePath="c:/mytempdir/session"; 然后它将会话数据存储在 c:/mytempdir/session
 
 ```csharp
 public string SessionStorePath { get; set; }

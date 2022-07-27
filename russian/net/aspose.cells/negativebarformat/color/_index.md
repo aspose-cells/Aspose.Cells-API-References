@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает объект FormatColor который можно использовать для указания цвета заливки отрицательных столбцов данных.
+description: Получает или задает объект FormatColor который можно использовать для указания цвета заливки отрицательных гистограмм.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/negativebarformat/color/
 ---
 ## NegativeBarFormat.Color property
 
-Получает или задает объект FormatColor, который можно использовать для указания цвета заливки отрицательных столбцов данных.
+Получает или задает объект FormatColor, который можно использовать для указания цвета заливки отрицательных гистограмм.
 
 ```csharp
 public Color Color { get; set; }

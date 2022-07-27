@@ -1,14 +1,14 @@
 ---
 title: DiagonalColor
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置对角线的Color
+description: 获取或设置Color对角线.
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/bordercollection/diagonalcolor/
 ---
 ## BorderCollection.DiagonalColor property
 
-获取或设置对角线的Color。
+获取或设置Color对角线.
 
 ```csharp
 public Color DiagonalColor { get; set; }

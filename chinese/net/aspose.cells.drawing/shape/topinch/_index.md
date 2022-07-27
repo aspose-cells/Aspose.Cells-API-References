@@ -1,14 +1,14 @@
 ---
 title: TopInch
 second_title: Aspose.Cells for .NET API 参考
-description: 表示形状与其顶行的垂直偏移量单位为英寸
+description: 表示形状与其顶行的垂直偏移量以英寸为单位
 type: docs
 weight: 790
 url: /zh/net/aspose.cells.drawing/shape/topinch/
 ---
 ## Shape.TopInch property
 
-表示形状与其顶行的垂直偏移量，单位为英寸。
+表示形状与其顶行的垂直偏移量，以英寸为单位。
 
 ```csharp
 public double TopInch { get; set; }

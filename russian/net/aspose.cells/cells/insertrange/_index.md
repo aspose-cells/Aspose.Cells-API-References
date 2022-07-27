@@ -3,7 +3,7 @@ title: InsertRange
 second_title: Справочник по Aspose.Cells для .NET API
 description: Вставляет диапазон ячеек и сдвигает ячейки в соответствии с параметром сдвига.
 type: docs
-weight: 1090
+weight: 1100
 url: /ru/net/aspose.cells/cells/insertrange/
 ---
 ## InsertRange(CellArea, int, ShiftType, bool) {#insertrange_2}
@@ -16,10 +16,10 @@ public void InsertRange(CellArea area, int shiftNumber, ShiftType shiftType, boo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| area | CellArea | Область сдвига. |
-| shiftNumber | Int32 | Количество вставляемых строк или столбцов. |
-| shiftType | ShiftType | Опция сдвига ячеек. |
-| updateReference | Boolean | Указывает, обновляются ли ссылки в других рабочих листах. |
+| area | CellArea | Область смены. |
+| shiftNumber | Int32 | Количество строк или столбцов, которые необходимо вставить. |
+| shiftType | ShiftType | Вариант сдвига ячеек. |
+| updateReference | Boolean | Указывает, обновляются ли ссылки на других листах. |
 
 ### Смотрите также
 
@@ -41,8 +41,8 @@ public void InsertRange(CellArea area, ShiftType shiftType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| area | CellArea | Область сдвига. |
-| shiftType | ShiftType | Опция сдвига ячеек. |
+| area | CellArea | Область смены. |
+| shiftType | ShiftType | Вариант сдвига ячеек. |
 
 ### Смотрите также
 
@@ -64,9 +64,9 @@ public void InsertRange(CellArea area, int shiftNumber, ShiftType shiftType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| area | CellArea | Область сдвига. |
-| shiftNumber | Int32 | Количество вставляемых строк или столбцов. |
-| shiftType | ShiftType | Опция сдвига ячеек. |
+| area | CellArea | Область смены. |
+| shiftNumber | Int32 | Количество строк или столбцов, которые необходимо вставить. |
+| shiftType | ShiftType | Вариант сдвига ячеек. |
 
 ### Смотрите также
 

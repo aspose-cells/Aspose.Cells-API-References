@@ -1,14 +1,14 @@
 ---
 title: BubbleSizeRepresents
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет что представляет собой размер пузырька на пузырьковой диаграмме.
+description: Отображает размер пузырька на пузырьковой диаграмме.
 type: docs
 weight: 410
 url: /ru/net/aspose.cells.charts/bubblesizerepresents/
 ---
 ## BubbleSizeRepresents enumeration
 
-Представляет, что представляет собой размер пузырька на пузырьковой диаграмме.
+Отображает размер пузырька на пузырьковой диаграмме.
 
 ```csharp
 public enum BubbleSizeRepresents
@@ -18,8 +18,8 @@ public enum BubbleSizeRepresents
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| SizeIsArea | `0` | Представляет значение[`BubbleSizes`](../series/bubblesizes)— площадь пузырька. |
-| SizeIsWidth | `1` | Представляет значение[`BubbleSizes`](../series/bubblesizes)ширина пузырька. |
+| SizeIsArea | `0` | Представляет значение[`BubbleSizes`](../series/bubblesizes) площадь пузыря. |
+| SizeIsWidth | `1` | Представляет значение[`BubbleSizes`](../series/bubblesizes) ширина пузыря. |
 
 ### Смотрите также
 

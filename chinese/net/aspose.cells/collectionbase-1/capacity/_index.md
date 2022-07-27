@@ -1,14 +1,14 @@
 ---
 title: Capacity
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置列表可以包含的元素数量
+description: 获取或设置列表可以包含的元素个数
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/collectionbase-1/capacity/
 ---
 ## CollectionBase&lt;T&gt;.Capacity property
 
-获取或设置列表可以包含的元素数量。
+获取或设置列表可以包含的元素个数。
 
 ```csharp
 public int Capacity { get; set; }

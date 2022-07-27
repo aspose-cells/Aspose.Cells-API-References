@@ -21,7 +21,7 @@ public class SmartTagCollection : CollectionBase<SmartTag>
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Column](../../aspose.cells.markup/smarttagcollection/column) { get; } | 获取单元格智能标签的列。 |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.markup/smarttagcollection/item) { get; } | 在特定索引处获取[`SmartTag`](../smarttag)对象 |
+| [Item](../../aspose.cells.markup/smarttagcollection/item) { get; } | 得到一个[`SmartTag`](../smarttag)特定 index 处的对象 |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 | [Row](../../aspose.cells.markup/smarttagcollection/row) { get; } | 获取单元格智能标签所在的行。 |
 

@@ -1,14 +1,14 @@
 ---
 title: Validation
 second_title: Aspose.Cells for .NET API 参考
-description: 表示数据验证.settings
+description: 代表数据验证.settings.
 type: docs
 weight: 6200
 url: /zh/net/aspose.cells/validation/
 ---
 ## Validation class
 
-表示数据验证.settings。
+代表数据验证.settings.
 
 ```csharp
 public class Validation
@@ -19,7 +19,7 @@ public class Validation
 | 姓名 | 描述 |
 | --- | --- |
 | [AlertStyle](../../aspose.cells/validation/alertstyle) { get; set; } | 表示验证警报样式。 |
-| [Areas](../../aspose.cells/validation/areas) { get; } | 获取所有包含数据验证设置的[`CellArea`](../cellarea)。 |
+| [Areas](../../aspose.cells/validation/areas) { get; } | 获取所有[`CellArea`](../cellarea)其中包含数据验证设置。 |
 | [ErrorMessage](../../aspose.cells/validation/errormessage) { get; set; } | 表示数据验证错误信息。 |
 | [ErrorTitle](../../aspose.cells/validation/errortitle) { get; set; } | 表示数据验证错误对话框的标题。 |
 | [Formula1](../../aspose.cells/validation/formula1) { get; set; } | 表示与数据验证关联的值或表达式。 |
@@ -30,8 +30,8 @@ public class Validation
 | [InputTitle](../../aspose.cells/validation/inputtitle) { get; set; } | 表示数据验证输入对话框的标题。 |
 | [Operator](../../aspose.cells/validation/operator) { get; set; } | 表示用于数据验证的运算符。 |
 | [ShowError](../../aspose.cells/validation/showerror) { get; set; } | 指示是否在用户输入无效数据时显示数据验证错误消息。 |
-| [ShowInput](../../aspose.cells/validation/showinput) { get; set; } | 表示当用户在数据验证范围内选择一个单元格时是否显示数据验证输入消息。 |
-| [Type](../../aspose.cells/validation/type) { get; set; } | 表示数据验证类型。 |
+| [ShowInput](../../aspose.cells/validation/showinput) { get; set; } | 表示当用户选择数据验证范围内的单元格时是否显示数据验证输入消息。 |
+| [Type](../../aspose.cells/validation/type) { get; set; } | 表示数据校验类型。 |
 | [Value1](../../aspose.cells/validation/value1) { get; set; } | 表示与数据验证关联的第一个值。 |
 | [Value2](../../aspose.cells/validation/value2) { get; set; } | 表示与数据验证关联的第二个值。 |
 
@@ -49,7 +49,7 @@ public class Validation
 | [GetFormula2](../../aspose.cells/validation/getformula2#getformula2_1)(bool, bool, int, int) | 获取与特定单元格的此验证关联的值或表达式。 |
 | [GetListValue](../../aspose.cells/validation/getlistvalue)(int, int) | 获取指定单元格的验证列表的值。 |
 | [RemoveACell](../../aspose.cells/validation/removeacell)(int, int) | 删除单元格中的验证设置。 |
-| [RemoveArea](../../aspose.cells/validation/removearea)(CellArea) | 删除范围内的验证设置。 |
+| [RemoveArea](../../aspose.cells/validation/removearea)(CellArea) | 移除范围内的验证设置。 |
 | [RemoveAreas](../../aspose.cells/validation/removeareas)(CellArea[]) | 从给定区域中删除此验证。 |
 | [SetFormula1](../../aspose.cells/validation/setformula1)(string, bool, bool) | 设置与此验证关联的值或表达式。 |
 | [SetFormula2](../../aspose.cells/validation/setformula2)(string, bool, bool) | 设置与此验证关联的值或表达式。 |

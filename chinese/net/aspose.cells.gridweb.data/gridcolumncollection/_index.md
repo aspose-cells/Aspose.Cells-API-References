@@ -19,14 +19,14 @@ public class GridColumnCollection
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.cells.gridweb.data/gridcolumncollection/count) { get; } |  |
-| [Item](../../aspose.cells.gridweb.data/gridcolumncollection/item) { get; } | 通过列索引获取对象。如果给定列索引的 Column 对象之前不存在，它将被实例化。 |
+| [Item](../../aspose.cells.gridweb.data/gridcolumncollection/item) { get; } | 得到一个按列索引的对象。给定列索引的 Column 对象如果之前不存在将被实例化。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetColumnByIndex](../../aspose.cells.gridweb.data/gridcolumncollection/getcolumnbyindex)(int) | 通过列表中的位置获取Column对象。 |
-| [GetEnumerator](../../aspose.cells.gridweb.data/gridcolumncollection/getenumerator)() | 获取列枚举器 |
+| [GetColumnByIndex](../../aspose.cells.gridweb.data/gridcolumncollection/getcolumnbyindex)(int) | 获取Column对象在列表中的位置。 |
+| [GetEnumerator](../../aspose.cells.gridweb.data/gridcolumncollection/getenumerator)() | 获取列 enumerator |
 
 ### 也可以看看
 

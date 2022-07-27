@@ -16,7 +16,7 @@ public void ClearContents(CellArea range)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| range | CellArea | Диапазон для очистки. |
+| range | CellArea | Диапазон, который нужно очистить. |
 
 ### Смотрите также
 
@@ -38,7 +38,7 @@ public void ClearContents(int startRow, int startColumn, int endRow, int endColu
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | startRow | Int32 | Индекс начальной строки. |
-| startColumn | Int32 | Индекс начального столбца. |
+| startColumn | Int32 | Начальный индекс столбца. |
 | endRow | Int32 | Индекс конечной строки. |
 | endColumn | Int32 | Конечный индекс столбца. |
 

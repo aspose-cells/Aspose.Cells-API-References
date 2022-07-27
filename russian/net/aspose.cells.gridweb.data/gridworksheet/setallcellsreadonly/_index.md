@@ -1,14 +1,14 @@
 ---
 title: SetAllCellsReadonly
 second_title: Справочник по Aspose.Cells для .NET API
-description: Делает все ячейки доступными только для чтения.
+description: Делает все ячейки доступными только для чтения. Это расширенный атрибут обратите внимание что этот атрибут не может храниться в реальной ячейке если вы хотите сохранить защиту используйте setProtect
 type: docs
 weight: 710
 url: /ru/net/aspose.cells.gridweb.data/gridworksheet/setallcellsreadonly/
 ---
 ## GridWorksheet.SetAllCellsReadonly method
 
-Делает все ячейки доступными только для чтения.
+Делает все ячейки доступными только для чтения. Это расширенный атрибут обратите внимание, что этот атрибут не может храниться в реальной ячейке, если вы хотите сохранить защиту, используйте setProtect
 
 ```csharp
 public void SetAllCellsReadonly()

@@ -1,14 +1,14 @@
 ---
 title: InSelection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Определяет выбрана ли указанная ячейка.
+description: Определяет выбрано ли указанное местоположение ячейки.
 type: docs
 weight: 830
 url: /ru/net/aspose.cells.griddesktop/worksheet/inselection/
 ---
 ## Worksheet.InSelection method
 
-Определяет, выбрана ли указанная ячейка.
+Определяет, выбрано ли указанное местоположение ячейки.
 
 ```csharp
 public bool InSelection(CellLocation cellLocation)
@@ -16,7 +16,7 @@ public bool InSelection(CellLocation cellLocation)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cellLocation | CellLocation | Местоположение ячейки. |
+| cellLocation | CellLocation | Расположение ячейки. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ApplyRowStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 对整行应用格式
+description: 为整行应用格式
 type: docs
 weight: 340
 url: /zh/net/aspose.cells/cells/applyrowstyle/
 ---
 ## Cells.ApplyRowStyle method
 
-对整行应用格式。
+为整行应用格式。
 
 ```csharp
 public void ApplyRowStyle(int row, Style style, StyleFlag flag)
@@ -18,7 +18,7 @@ public void ApplyRowStyle(int row, Style style, StyleFlag flag)
 | --- | --- | --- |
 | row | Int32 | 行索引。 |
 | style | Style | 将应用的样式对象。 |
-| flag | StyleFlag | 指示应用格式属性的标志。 |
+| flag | StyleFlag | 指示应用的格式属性的标志。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: IsValid
 second_title: Aspose.Cells for .NET API 参考
-description: 如果此数字签名有效且文档未被篡改则 此值为真
+description: 如果此数字签名有效且文档未被篡改 此值为真
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.digitalsignatures/digitalsignature/isvalid/
 ---
 ## DigitalSignature.IsValid property
 
-如果此数字签名有效且文档未被篡改，则 此值为真。
+如果此数字签名有效且文档未被篡改， 此值为真。
 
 ```csharp
 public bool IsValid { get; }

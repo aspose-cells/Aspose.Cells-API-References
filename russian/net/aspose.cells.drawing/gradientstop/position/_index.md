@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Справочник по Aspose.Cells для .NET API
-description: Положение остановки.
+description: Положение стопа.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.drawing/gradientstop/position/
 ---
 ## GradientStop.Position property
 
-Положение остановки.
+Положение стопа.
 
 ```csharp
 public double Position { get; set; }

@@ -16,7 +16,7 @@ public Style GetElementStyle()
 
 ### 返回值
 
-返回[`Style`](../../../aspose.cells/style)对象。
+返回[`Style`](../../../aspose.cells/style)目的。
 
 ### 也可以看看
 

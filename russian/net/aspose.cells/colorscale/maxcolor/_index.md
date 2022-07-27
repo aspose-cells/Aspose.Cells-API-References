@@ -1,14 +1,14 @@
 ---
 title: MaxColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получить или установить соответствующий цвет объекта максимального значения.
+description: Получить или установить цвет градиента для максимального значения в диапазоне.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/colorscale/maxcolor/
 ---
 ## ColorScale.MaxColor property
 
-Получить или установить соответствующий цвет объекта максимального значения.
+Получить или установить цвет градиента для максимального значения в диапазоне.
 
 ```csharp
 public Color MaxColor { get; set; }

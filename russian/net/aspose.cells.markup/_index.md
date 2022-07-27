@@ -12,14 +12,14 @@ url: /ru/net/aspose.cells.markup/
 
 | Учебный класс | Описание |
 | --- | --- |
-| [CustomXmlPart](./customxmlpart) | Представляет пользовательскую часть хранения данных XML (пользовательские данные XML в пакете). |
-| [CustomXmlPartCollection](./customxmlpartcollection) | Представляет пользовательскую часть хранения данных XML (пользовательские данные XML в пакете). |
+| [CustomXmlPart](./customxmlpart) | Представляет часть хранилища пользовательских данных XML (пользовательские данные XML в пакете). |
+| [CustomXmlPartCollection](./customxmlpartcollection) | Представляет часть хранилища пользовательских данных XML (пользовательские данные XML в пакете). |
 | [SmartTag](./smarttag) | Представляет смарт-тег. |
 | [SmartTagCollection](./smarttagcollection) | Представляет все смарт-теги в ячейке. |
 | [SmartTagOptions](./smarttagoptions) | Представляет параметры смарт-тега. |
 | [SmartTagProperty](./smarttagproperty) | Представляет свойство смарт-тега ячейки. |
 | [SmartTagPropertyCollection](./smarttagpropertycollection) | Представляет все свойства смарт-тега ячейки. |
-| [SmartTagSetting](./smarttagsetting) | Представляет все объекты[`SmartTagCollection`](../aspose.cells.markup/smarttagcollection)на рабочем листе. |
+| [SmartTagSetting](./smarttagsetting) | Представляет все[`SmartTagCollection`](../aspose.cells.markup/smarttagcollection) объект на листе. |
 ## перечисление
 
 | перечисление | Описание |

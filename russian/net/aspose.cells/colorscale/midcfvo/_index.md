@@ -1,14 +1,14 @@
 ---
 title: MidCfvo
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получить или установить объект среднего значения ColorScale. Невозможно установить для него CFValueObject с типом FormatConditionValueType.Max или FormatConditionValueType.Min.
+description: Получить или установить этот объект среднего значения ColorScale. Невозможно установить для него CFValueObject с типом FormatConditionValueType.Max или FormatConditionValueType.Min.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/colorscale/midcfvo/
 ---
 ## ColorScale.MidCfvo property
 
-Получить или установить объект среднего значения ColorScale. Невозможно установить для него CFValueObject с типом FormatConditionValueType.Max или FormatConditionValueType.Min.
+Получить или установить этот объект среднего значения ColorScale. Невозможно установить для него CFValueObject с типом FormatConditionValueType.Max или FormatConditionValueType.Min.
 
 ```csharp
 public ConditionalFormattingValue MidCfvo { get; }

@@ -1,14 +1,14 @@
 ---
 title: AutoFill
 second_title: Справочник по Aspose.Cells для .NET API
-description: Автоматически заполняет целевой диапазон.
+description: Автоматически заполнять целевой диапазон.
 type: docs
-weight: 180
+weight: 220
 url: /ru/net/aspose.cells/range/autofill/
 ---
 ## AutoFill(Range) {#autofill}
 
-Автоматически заполняет целевой диапазон.
+Автоматически заполнять целевой диапазон.
 
 ```csharp
 public void AutoFill(Range target)
@@ -24,7 +24,7 @@ public void AutoFill(Range target)
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 // Получить первые ячейки рабочего листа.
 Cells cells = workbook.Worksheets[0].Cells;
@@ -32,24 +32,24 @@ cells["A1"].PutValue(1);
 cells["A2"].PutValue(2);
 Aspose.Cells.Range source = cells.CreateRange("A1:A2");
 Aspose.Cells.Range target = cells.CreateRange("A3:A10");
-  //заполняем 3,4,5....10 в диапазоне A3:A10
+//заполняем 3,4,5....10 в диапазоне A3:A10
 source.AutoFill(target);
-  // Сохраняем файл Excel
+// Сохраняем файл Excel
 workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook("Book1.xlsx")
-' Получить первые ячейки рабочего листа.
+// Получить первые ячейки рабочего листа.
 Dim cells as Cells = workbook.Worksheets[0].Cells
 cells("A1").PutValue(1)
 cells("A2").PutValue(2)
 Dim source as Aspose.Cells.Range = cells.CreateRange("A1:A2")
 Dim target as Aspose.Cells.Range = cells.CreateRange("A3:A10")
-'заполняем 3,4,5....10 в диапазоне A3:A10
+'заполнить 3,4,5....10 в диапазоне A3:A10
 source.AutoFill(target)
-'Сохраняем файл Excel
+'Сохраните файл Excel
 workbook.Save("book1.xlsm")
 ```
 
@@ -63,7 +63,7 @@ workbook.Save("book1.xlsm")
 
 ## AutoFill(Range, AutoFillType) {#autofill_1}
 
-Автоматически заполняет целевой диапазон.
+Автоматически заполнять целевой диапазон.
 
 ```csharp
 public void AutoFill(Range target, AutoFillType autoFillType)

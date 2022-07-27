@@ -1,14 +1,14 @@
 ---
 title: Interrupt
 second_title: Aspose.Cells for .NET API 参考
-description: 中断当前操作符
+description: 中断当前操作员
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/interruptmonitor/interrupt/
 ---
 ## InterruptMonitor.Interrupt method
 
-中断当前操作符。
+中断当前操作员。
 
 ```csharp
 public void Interrupt()

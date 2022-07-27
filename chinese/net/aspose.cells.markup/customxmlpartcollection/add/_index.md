@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 将项目添加到集合中
+description: 将一个项目添加到集合中
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.markup/customxmlpartcollection/add/
 ---
 ## CustomXmlPartCollection.Add method
 
-将项目添加到集合中。
+将一个项目添加到集合中。
 
 ```csharp
 public int Add(byte[] data, byte[] shemaData)

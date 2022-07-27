@@ -24,7 +24,7 @@ public class CustomPropertyCollection : CollectionBase
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells.griddesktop/custompropertycollection/add)(string, string) | Добавляет информацию о пользовательских свойствах. |
+| [Add](../../aspose.cells.griddesktop/custompropertycollection/add)(string, string) | Добавляет информацию о пользовательском свойстве. |
 
 ### Смотрите также
 

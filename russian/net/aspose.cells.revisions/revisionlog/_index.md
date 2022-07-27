@@ -18,7 +18,7 @@ public class RevisionLog
 
 | Имя | Описание |
 | --- | --- |
-| [Revisions](../../aspose.cells.revisions/revisionlog/revisions) { get; } | Получает все ревизии в этом журнале. |
+| [Revisions](../../aspose.cells.revisions/revisionlog/revisions) { get; } | Получает все версии в этом журнале. |
 
 ### Смотрите также
 

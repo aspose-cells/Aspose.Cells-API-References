@@ -39,7 +39,7 @@ public void UngroupColumns(int firstColumn, int lastColumn, bool addToUndo)
 | --- | --- | --- |
 | firstColumn | Int32 | Индекс первого столбца для разгруппировки. |
 | lastColumn | Int32 | Индекс последнего столбца для разгруппировки. |
-| addToUndo | Boolean | Указывает, будет ли эта операция добавлена в диспетчер отмен. И для свойства EnableUndo GridDesktop должно быть установлено значение true. |
+| addToUndo | Boolean | Указывает, будет ли эта операция добавлена в диспетчер отмены. И для свойства EnableUndo GridDesktop должно быть установлено значение true. |
 
 ### Смотрите также
 

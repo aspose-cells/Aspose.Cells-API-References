@@ -1,14 +1,14 @@
 ---
 title: GridPivotItemCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует коллекцию объектовPivotItem.
+description: Инкапсулирует наборPivotItemобъекты.
 type: docs
 weight: 640
 url: /ru/net/aspose.cells.griddesktop.data/gridpivotitemcollection/
 ---
 ## GridPivotItemCollection class
 
-Инкапсулирует коллекцию объектовPivotItem.
+Инкапсулирует наборPivotItemобъекты.
 
 ```csharp
 public class GridPivotItemCollection
@@ -19,7 +19,7 @@ public class GridPivotItemCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.cells.griddesktop.data/gridpivotitemcollection/count) { get; } |  |
-| [Item](../../aspose.cells.griddesktop.data/gridpivotitemcollection/item) { get; } | Получает элементPivotItemпо указанному индексу. |
+| [Item](../../aspose.cells.griddesktop.data/gridpivotitemcollection/item) { get; } | ПолучаетPivotItem элемент по указанному индексу. |
 
 ## Методы
 

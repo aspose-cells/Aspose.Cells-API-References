@@ -1,14 +1,14 @@
 ---
 title: InnerArcStartPointYPx
 second_title: Aspose.Cells for .NET API 参考
-description: 调用 Chart.Calculate 方法后获取饼图部分起点的 y 坐标 适用于圆环图
+description: 调用 Chart.Calculate 方法后获取饼图起点的 y 坐标 适用于圆环图
 type: docs
 weight: 140
 url: /zh/net/aspose.cells.charts/chartpoint/innerarcstartpointypx/
 ---
 ## ChartPoint.InnerArcStartPointYPx property
 
-调用 Chart.Calculate() 方法后获取饼图部分起点的 y 坐标。 适用于圆环图。
+调用 Chart.Calculate() 方法后获取饼图起点的 y 坐标。 适用于圆环图。
 
 ```csharp
 public float InnerArcStartPointYPx { get; }

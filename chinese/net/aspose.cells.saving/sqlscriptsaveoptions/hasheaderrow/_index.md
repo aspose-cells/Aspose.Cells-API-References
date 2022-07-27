@@ -1,14 +1,14 @@
 ---
 title: HasHeaderRow
 second_title: Aspose.Cells for .NET API 参考
-description: 指示范围是否包含标题行
+description: 表示范围是否包含标题行
 type: docs
 weight: 90
 url: /zh/net/aspose.cells.saving/sqlscriptsaveoptions/hasheaderrow/
 ---
 ## SqlScriptSaveOptions.HasHeaderRow property
 
-指示范围是否包含标题行。
+表示范围是否包含标题行。
 
 ```csharp
 public bool HasHeaderRow { get; set; }

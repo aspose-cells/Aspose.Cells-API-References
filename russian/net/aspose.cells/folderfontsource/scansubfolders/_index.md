@@ -1,14 +1,14 @@
 ---
 title: ScanSubFolders
 second_title: Справочник по Aspose.Cells для .NET API
-description: Определяет сканировать ли вложенные папки.
+description: Определяет сканировать ли подпапки.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/folderfontsource/scansubfolders/
 ---
 ## FolderFontSource.ScanSubFolders property
 
-Определяет, сканировать ли вложенные папки.
+Определяет, сканировать ли подпапки.
 
 ```csharp
 public bool ScanSubFolders { get; }

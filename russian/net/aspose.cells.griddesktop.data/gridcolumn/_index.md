@@ -35,7 +35,7 @@ public class GridColumn
 | [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox#addcombobox)(ICollection) | Добавляет поле со списком в столбец. |
 | [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox#addcombobox_1)(ICollection, ICollection) | Добавляет поле со списком в столбец. |
 | [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation#addvalidation)(ICustomValidation) |  |
-| [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation#addvalidation_1)(bool, string) | Добавляет проверку столбца. |
+| [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation#addvalidation_1)(bool, string) | Добавляет проверку в столбец. |
 | [GetStyle](../../aspose.cells.griddesktop.data/gridcolumn/getstyle)() |  |
 | [RemoveCellControl](../../aspose.cells.griddesktop.data/gridcolumn/removecellcontrol)() | Удаляет объект CellControl столбца. |
 | [SetStyle](../../aspose.cells.griddesktop.data/gridcolumn/setstyle)(Style) |  |

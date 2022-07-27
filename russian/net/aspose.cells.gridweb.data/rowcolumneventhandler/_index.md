@@ -10,7 +10,7 @@ url: /ru/net/aspose.cells.gridweb.data/rowcolumneventhandler/
 
 Представляет интерфейс, предназначенный для обработки событий строки/столбца.
 
-void **handleCellEvent** (Отправитель объекта, RowColumnEventArgs e);
+пустота **обработатьCellEvent**(Отправитель объекта, RowColumnEventArgs e);
 
 ```csharp
 public delegate void RowColumnEventHandler(object sender, RowColumnEventArgs e);

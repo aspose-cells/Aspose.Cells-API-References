@@ -1,14 +1,14 @@
 ---
 title: CustomPropertyCollection
 second_title: Aspose.Cells for .NET API 参考
-description: CustomProperty./customproperty对象的集合代表附加信息
+description: 集合CustomProperty./customproperty表示附加信息的对象
 type: docs
 weight: 4850
 url: /zh/net/aspose.cells.properties/custompropertycollection/
 ---
 ## CustomPropertyCollection class
 
-[`CustomProperty`](../customproperty)对象的集合，代表附加信息。
+集合[`CustomProperty`](../customproperty)表示附加信息的对象。
 
 ```csharp
 public class CustomPropertyCollection : CollectionBase<CustomProperty>

@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.charts/seriescollection/changeseriesorder/
 ---
 ## SeriesCollection.ChangeSeriesOrder method
 
-直接改变两个系列的顺序。
+直接改变两个系列的顺序
 
 ```csharp
 public void ChangeSeriesOrder(int sourceIndex, int destIndex)

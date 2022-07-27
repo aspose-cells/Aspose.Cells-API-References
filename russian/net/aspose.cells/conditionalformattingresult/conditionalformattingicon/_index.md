@@ -1,14 +1,14 @@
 ---
 title: ConditionalFormattingIcon
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает изображение набора иконок.
+description: Получает изображение набора значков.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/conditionalformattingresult/conditionalformattingicon/
 ---
 ## ConditionalFormattingResult.ConditionalFormattingIcon property
 
-Получает изображение набора иконок.
+Получает изображение набора значков.
 
 ```csharp
 public ConditionalFormattingIcon ConditionalFormattingIcon { get; }

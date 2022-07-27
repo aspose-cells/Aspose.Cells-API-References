@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 使用数据透视表作为数据源添加新时间线
+description: 使用数据透视表作为数据源添加新的时间线
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.timelines/timelinecollection/add/
 ---
 ## Add(PivotTable, int, int, string) {#add_2}
 
-使用数据透视表作为数据源添加新时间线
+使用数据透视表作为数据源添加新的时间线
 
 ```csharp
 public int Add(PivotTable pivot, int row, int column, string baseFieldName)
@@ -16,21 +16,21 @@ public int Add(PivotTable pivot, int row, int column, string baseFieldName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pivot | PivotTable | 数据透视表object |
+| pivot | PivotTable | 数据透视表对象 |
 | row | Int32 | 时间轴范围左上角单元格的行索引。 |
 | column | Int32 | 时间轴范围左上角单元格的列索引。 |
-| baseFieldName | String | PivotTable.BaseFields 中PivotField的名称 |
+| baseFieldName | String | PivotTable.BaseFields 中 PivotField 的名称 |
 
 ### 返回值
 
-新增时间轴索引
+新增时间线索引
 
 ### 例子
 
 ```csharp
 
 [C#]
- //使用数据透视表作为数据源添加新的时间轴
+//使用数据透视表作为数据源添加一个新的时间轴
 sheet.Timelines.Add(pivot, 10, 5, "date");
 ```
 
@@ -45,7 +45,7 @@ sheet.Timelines.Add(pivot, 10, 5, "date");
 
 ## Add(PivotTable, string, string) {#add_5}
 
-使用数据透视表作为数据源添加新时间线
+使用数据透视表作为数据源添加新的时间线
 
 ```csharp
 public int Add(PivotTable pivot, string destCellName, string baseFieldName)
@@ -53,20 +53,20 @@ public int Add(PivotTable pivot, string destCellName, string baseFieldName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pivot | PivotTable | 数据透视表object |
+| pivot | PivotTable | 数据透视表对象 |
 | destCellName | String | 时间轴范围左上角的单元格名称。 |
-| baseFieldName | String | PivotTable.BaseFields 中PivotField的名称 |
+| baseFieldName | String | PivotTable.BaseFields 中 PivotField 的名称 |
 
 ### 返回值
 
-新增时间轴索引
+新增时间线索引
 
 ### 例子
 
 ```csharp
 
 [C#]
- //使用数据透视表作为数据源添加新的时间轴
+//使用数据透视表作为数据源添加一个新的时间轴
 sheet.Timelines.Add(pivot, "i15", "date");
 ```
 
@@ -81,7 +81,7 @@ sheet.Timelines.Add(pivot, "i15", "date");
 
 ## Add(PivotTable, int, int, int) {#add_1}
 
-使用数据透视表作为数据源添加新时间线
+使用数据透视表作为数据源添加新的时间线
 
 ```csharp
 public int Add(PivotTable pivot, int row, int column, int baseFieldIndex)
@@ -89,21 +89,21 @@ public int Add(PivotTable pivot, int row, int column, int baseFieldIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pivot | PivotTable | 数据透视表object |
+| pivot | PivotTable | 数据透视表对象 |
 | row | Int32 | 时间轴范围左上角单元格的行索引。 |
 | column | Int32 | 时间轴范围左上角单元格的列索引。 |
-| baseFieldIndex | Int32 | PivotTable.BaseFields 中PivotField 的索引 |
+| baseFieldIndex | Int32 | PivotTable.BaseFields 中 PivotField 的索引 |
 
 ### 返回值
 
-新增时间轴索引
+新增时间线索引
 
 ### 例子
 
 ```csharp
 
 [C#]
- //使用数据透视表作为数据源添加新的时间轴
+//使用数据透视表作为数据源添加一个新的时间轴
 sheet.Timelines.Add(pivot, 15, 5, 1);
 ```
 
@@ -118,7 +118,7 @@ sheet.Timelines.Add(pivot, 15, 5, 1);
 
 ## Add(PivotTable, string, int) {#add_4}
 
-使用数据透视表作为数据源添加新时间线
+使用数据透视表作为数据源添加新的时间线
 
 ```csharp
 public int Add(PivotTable pivot, string destCellName, int baseFieldIndex)
@@ -126,20 +126,20 @@ public int Add(PivotTable pivot, string destCellName, int baseFieldIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pivot | PivotTable | 数据透视表object |
+| pivot | PivotTable | 数据透视表对象 |
 | destCellName | String | 时间轴范围左上角的单元格名称。 |
-| baseFieldIndex | Int32 | PivotTable.BaseFields 中PivotField 的索引 |
+| baseFieldIndex | Int32 | PivotTable.BaseFields 中 PivotField 的索引 |
 
 ### 返回值
 
-新增时间轴索引
+新增时间线索引
 
 ### 例子
 
 ```csharp
 
 [C#]
- //使用数据透视表作为数据源添加新的时间轴
+//使用数据透视表作为数据源添加一个新的时间轴
 sheet.Timelines.Add(pivot, "i5", 1);
 ```
 
@@ -154,7 +154,7 @@ sheet.Timelines.Add(pivot, "i5", 1);
 
 ## Add(PivotTable, int, int, PivotField) {#add}
 
-使用数据透视表作为数据源添加新时间线
+使用数据透视表作为数据源添加新的时间线
 
 ```csharp
 public int Add(PivotTable pivot, int row, int column, PivotField baseField)
@@ -162,21 +162,21 @@ public int Add(PivotTable pivot, int row, int column, PivotField baseField)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pivot | PivotTable | 数据透视表object |
+| pivot | PivotTable | 数据透视表对象 |
 | row | Int32 | 时间轴范围左上角单元格的行索引。 |
 | column | Int32 | 时间轴范围左上角单元格的列索引。 |
-| baseField | PivotField | PivotTable.BaseFields 中的PivotField |
+| baseField | PivotField | PivotTable.BaseFields 中的 PivotField |
 
 ### 返回值
 
-新增时间轴索引
+新增时间线索引
 
 ### 例子
 
 ```csharp
 
 [C#]
- //使用数据透视表作为数据源添加新的时间轴
+//使用数据透视表作为数据源添加一个新的时间轴
 sheet.Timelines.Add(pivot, 20, 5, pivot.BaseFields[1]);
 ```
 
@@ -192,7 +192,7 @@ sheet.Timelines.Add(pivot, 20, 5, pivot.BaseFields[1]);
 
 ## Add(PivotTable, string, PivotField) {#add_3}
 
-使用数据透视表作为数据源添加新时间线
+使用数据透视表作为数据源添加新的时间线
 
 ```csharp
 public int Add(PivotTable pivot, string destCellName, PivotField baseField)
@@ -200,20 +200,20 @@ public int Add(PivotTable pivot, string destCellName, PivotField baseField)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pivot | PivotTable | 数据透视表object |
+| pivot | PivotTable | 数据透视表对象 |
 | destCellName | String | 时间轴范围左上角的单元格名称。 |
-| baseField | PivotField | PivotTable.BaseFields 中的PivotField |
+| baseField | PivotField | PivotTable.BaseFields 中的 PivotField |
 
 ### 返回值
 
-新增时间轴索引
+新增时间线索引
 
 ### 例子
 
 ```csharp
 
 [C#]
- //使用数据透视表作为数据源添加新的时间轴
+//使用数据透视表作为数据源添加一个新的时间轴
 sheet.Timelines.Add(pivot, "i10", pivot.BaseFields[1]);
 ```
 

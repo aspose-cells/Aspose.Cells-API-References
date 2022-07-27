@@ -1,14 +1,14 @@
 ---
 title: IsLinkedToContent
 second_title: Aspose.Cells for .NET API 参考
-description: 指示此属性是否链接到内容
+description: 指示此属性是否链接到 content
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.properties/documentproperty/islinkedtocontent/
 ---
 ## DocumentProperty.IsLinkedToContent property
 
-指示此属性是否链接到内容
+指示此属性是否链接到 content
 
 ```csharp
 public bool IsLinkedToContent { get; }

@@ -1,14 +1,14 @@
 ---
 title: FrozenCols
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置 Worksheet 的冻结列数 Frozen 将从第一列开始
+description: 获取或设置工作表的冻结列数 冻结将从第一列开始
 type: docs
 weight: 180
 url: /zh/net/aspose.cells.griddesktop/worksheet/frozencols/
 ---
 ## Worksheet.FrozenCols property
 
-获取或设置 Worksheet 的冻结列数。 Frozen 将从第一列开始。
+获取或设置工作表的冻结列数。 冻结将从第一列开始。
 
 ```csharp
 public int FrozenCols { get; set; }

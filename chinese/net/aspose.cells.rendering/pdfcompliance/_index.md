@@ -1,14 +1,14 @@
 ---
 title: PdfCompliance
 second_title: Aspose.Cells for .NET API 参考
-description: 允许用户设置 PDF 转换的兼容性
+description: 允许用户设置PDF转换的兼容性
 type: docs
 weight: 5190
 url: /zh/net/aspose.cells.rendering/pdfcompliance/
 ---
 ## PdfCompliance enumeration
 
-允许用户设置 PDF 转换的兼容性
+允许用户设置PDF转换的兼容性
 
 ```csharp
 public enum PdfCompliance

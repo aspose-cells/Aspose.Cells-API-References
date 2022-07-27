@@ -1,14 +1,14 @@
 ---
 title: SelectCellColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает цвет выделенных ячеек в диапазоне множественного выбора.
+description: Указывает цвет выбранных ячеек в диапазоне множественного выбора.
 type: docs
 weight: 790
 url: /ru/net/aspose.cells.gridweb/mainweb/selectcellcolor/
 ---
 ## MainWeb.SelectCellColor property
 
-Задает цвет выделенных ячеек в диапазоне множественного выбора.
+Указывает цвет выбранных ячеек в диапазоне множественного выбора.
 
 ```csharp
 public Color SelectCellColor { get; set; }

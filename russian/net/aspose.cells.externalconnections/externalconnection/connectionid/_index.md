@@ -1,14 +1,14 @@
 ---
 title: ConnectionId
 second_title: Справочник по Aspose.Cells для .NET API
-description: Уникальный идентификатор этого соединения.
+description: Указывает уникальный идентификатор этого соединения.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.externalconnections/externalconnection/connectionid/
 ---
 ## ExternalConnection.ConnectionId property
 
-Уникальный идентификатор этого соединения.
+Указывает уникальный идентификатор этого соединения.
 
 ```csharp
 public int ConnectionId { get; }

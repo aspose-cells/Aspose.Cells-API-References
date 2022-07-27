@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПредставляетColorлинии.
+description: ПредставляетColor линии.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.drawing/line/color/
 ---
 ## Line.Color property
 
-ПредставляетColorлинии.
+ПредставляетColor линии.
 
 ```csharp
 public Color Color { get; set; }

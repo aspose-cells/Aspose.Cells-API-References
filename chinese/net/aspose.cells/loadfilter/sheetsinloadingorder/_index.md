@@ -1,14 +1,14 @@
 ---
 title: SheetsInLoadingOrder
 second_title: Aspose.Cells for .NET API 参考
-description: 指定要加载的工作表索引和顺序 默认为空表示在模板文件中按默认顺序加载所有工作表 如果不为 null 并且某些工作表的索引不在返回的数组中则不会加载工作表
+description: 指定要加载的工作表索引和顺序 默认为空表示在模板文件中按默认顺序加载所有工作表 如果不为空且某些工作表的索引不在返回的数组中则工作表不会被加载
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/loadfilter/sheetsinloadingorder/
 ---
 ## LoadFilter.SheetsInLoadingOrder property
 
-指定要加载的工作表（索引）和顺序。 默认为空，表示在模板文件中按默认顺序加载所有工作表。 如果不为 null 并且某些工作表的索引不在返回的数组中，则不会加载工作表。
+指定要加载的工作表（索引）和顺序。 默认为空，表示在模板文件中按默认顺序加载所有工作表。 如果不为空且某些工作表的索引不在返回的数组中，则工作表不会被加载。
 
 ```csharp
 public virtual int[] SheetsInLoadingOrder { get; }

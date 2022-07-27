@@ -19,9 +19,9 @@ public class GradientFill : Fill
 | 姓名 | 描述 |
 | --- | --- |
 | [Angle](../../aspose.cells.drawing/gradientfill/angle) { get; set; } | 线性填充的角度。 |
-| [DirectionType](../../aspose.cells.drawing/gradientfill/directiontype) { get; } | 获取渐变方向类型。 |
+| [DirectionType](../../aspose.cells.drawing/gradientfill/directiontype) { get; } | 获取梯度方向类型。 |
 | [FillType](../../aspose.cells.drawing/gradientfill/filltype) { get; } | 获取渐变填充类型。 |
-| [GradientStops](../../aspose.cells.drawing/gradientfill/gradientstops) { get; } | 表示渐变色标集合。 |
+| [GradientStops](../../aspose.cells.drawing/gradientfill/gradientstops) { get; } | 代表梯度停止集合。 |
 
 ## 方法
 

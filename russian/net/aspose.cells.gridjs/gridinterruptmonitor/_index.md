@@ -1,14 +1,14 @@
 ---
 title: GridInterruptMonitor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет весь оператор о прерывании.
+description: Представляет весь оператор прерывания.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.gridjs/gridinterruptmonitor/
 ---
 ## GridInterruptMonitor class
 
-Представляет весь оператор о прерывании.
+Представляет весь оператор прерывания.
 
 ```csharp
 public class GridInterruptMonitor
@@ -24,7 +24,7 @@ public class GridInterruptMonitor
 
 | Имя | Описание |
 | --- | --- |
-| [Interrupt](../../aspose.cells.gridjs/gridinterruptmonitor/interrupt)() | Прервать текущий оператор. |
+| [Interrupt](../../aspose.cells.gridjs/gridinterruptmonitor/interrupt)() | Прервать текущего оператора. |
 
 ### Смотрите также
 

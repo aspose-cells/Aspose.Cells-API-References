@@ -20,7 +20,7 @@ public enum SessionMode
 | --- | --- | --- |
 | Session | `0` | 使用系统会话自动存储/恢复网格的工作表数据。 |
 | ViewState | `1` | 使用页面的视图状态自动存储/恢复网格的工作表数据。 |
-| Custom | `2` | 使用 LoadCustomData 事件手动加载网格的工作表数据。并使用 SheetDataUpdated 事件来保存网格的工作表数据。 |
+| Custom | `2` | 使用 LoadCustomData 事件手动加载网格的工作表数据。并使用 SheetDataUpdated 事件保存网格的工作表数据。 |
 | File | `3` | 使用系统文件自动存储/恢复网格的表格数据，用户需要设置SessionStorePath来指定文件目录。 |
 
 ### 也可以看看

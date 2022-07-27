@@ -1,14 +1,14 @@
 ---
 title: RemoveAutoFilter
 second_title: Справочник по Aspose.Cells для .NET API
-description: Удалите автоматический фильтр рабочего листа.
+description: Удалить автоматический фильтр рабочего листа.
 type: docs
 weight: 670
 url: /ru/net/aspose.cells.gridweb.data/gridworksheet/removeautofilter/
 ---
 ## GridWorksheet.RemoveAutoFilter method
 
-Удалите автоматический фильтр рабочего листа.
+Удалить автоматический фильтр рабочего листа.
 
 ```csharp
 public void RemoveAutoFilter()

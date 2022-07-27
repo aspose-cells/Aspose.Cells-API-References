@@ -1,14 +1,14 @@
 ---
 title: ChangeSeriesOrder
 second_title: Справочник по Aspose.Cells для .NET API
-description: Напрямую изменяет порядок двух рядов.
+description: Напрямую изменяет порядок двух серий.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.charts/seriescollection/changeseriesorder/
 ---
 ## SeriesCollection.ChangeSeriesOrder method
 
-Напрямую изменяет порядок двух рядов.
+Напрямую изменяет порядок двух серий.
 
 ```csharp
 public void ChangeSeriesOrder(int sourceIndex, int destIndex)

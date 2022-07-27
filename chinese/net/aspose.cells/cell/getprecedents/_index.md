@@ -16,11 +16,11 @@ public ReferredAreaCollection GetPrecedents()
 
 ### 返回值
 
-此单元格公式中出现的所有引用的集合。
+出现在此单元格公式中的所有引用的集合。
 
 ### 评论
 
-&lt;ul&gt;&lt;li&gt;如果这不是公式单元格，则返回 null。&lt;/li&gt;&lt;li&gt;出现在无论在计算时是否引用了该单元格的公式，都将返回该单元格的公式。 例如，虽然公式“=IF(TRUE,A1,A2)”中的单元格A2在计算时没有用到，但 仍然作为公式的先例。&lt;/ li&gt;&lt;li&gt;要获取那些仅影响计算的引用，请使用[`GetPrecedentsInCalculation`](../getprecedentsincalculation)。&lt;/li&gt;&lt;/ul&gt;
+如果这不是公式单元格，则返回 null。此单元格公式中出现的所有引用，无论在计算时是否被引用，都会返回。 例如，虽然计算时不使用公式“=IF(TRUE,A1,A2)”中的单元格A2， 仍然是作为公式的先例。要获取仅影响计算的参考，请使用[`GetPrecedentsInCalculation`](../getprecedentsincalculation).
 
 ### 例子
 

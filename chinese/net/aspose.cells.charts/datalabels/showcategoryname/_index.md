@@ -1,14 +1,14 @@
 ---
 title: ShowCategoryName
 second_title: Aspose.Cells for .NET API 参考
-description: 表示指定图表的数据标签类别名称显示行为True 为在图表上显示数据标签的类别名称虚假隐藏
+description: 表示指定图表的数据标签类别名称显示行为True 为在图表上显示数据标签的类别名称假隐藏
 type: docs
 weight: 170
 url: /zh/net/aspose.cells.charts/datalabels/showcategoryname/
 ---
 ## DataLabels.ShowCategoryName property
 
-表示指定图表的数据标签类别名称显示行为。True 为在图表上显示数据标签的类别名称。虚假隐藏。
+表示指定图表的数据标签类别名称显示行为。True 为在图表上显示数据标签的类别名称。假隐藏。
 
 ```csharp
 public bool ShowCategoryName { get; set; }

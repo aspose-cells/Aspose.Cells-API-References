@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Cells for .NET API 参考
-description: 获取枢轴项目的计数
+description: 获取枢轴项的计数
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.pivot/pivotitemcollection/count/
 ---
 ## PivotItemCollection.Count property
 
-获取枢轴项目的计数。
+获取枢轴项的计数。
 
 ```csharp
 public int Count { get; }

@@ -1,14 +1,14 @@
 ---
 title: GetSubTotalName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает имяPivotFieldSubtotalTypeaspose.cells.pivot/pivotfieldsubtotaltypeвведите в сводную таблицу.
+description: Получает имяPivotFieldSubtotalTypeaspose.cells.pivot/pivotfieldsubtotaltype введите сводную таблицу.
 type: docs
 weight: 240
 url: /ru/net/aspose.cells/globalizationsettings/getsubtotalname/
 ---
 ## GlobalizationSettings.GetSubTotalName method
 
-Получает имя[`PivotFieldSubtotalType`](../../../aspose.cells.pivot/pivotfieldsubtotaltype)введите в сводную таблицу.
+Получает имя[`PivotFieldSubtotalType`](../../../aspose.cells.pivot/pivotfieldsubtotaltype) введите сводную таблицу.
 
 ```csharp
 public virtual string GetSubTotalName(PivotFieldSubtotalType subTotalType)
@@ -16,11 +16,11 @@ public virtual string GetSubTotalName(PivotFieldSubtotalType subTotalType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| subTotalType | PivotFieldSubtotalType | The[`PivotFieldSubtotalType`](../../../aspose.cells.pivot/pivotfieldsubtotaltype)type |
+| subTotalType | PivotFieldSubtotalType | [`PivotFieldSubtotalType`](../../../aspose.cells.pivot/pivotfieldsubtotaltype) тип |
 
 ### Возвращаемое значение
 
-Имя[`PivotFieldSubtotalType`](../../../aspose.cells.pivot/pivotfieldsubtotaltype)type
+Имя[`PivotFieldSubtotalType`](../../../aspose.cells.pivot/pivotfieldsubtotaltype) тип
 
 ### Смотрите также
 

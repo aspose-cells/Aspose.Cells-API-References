@@ -18,14 +18,14 @@ public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int low
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
-| lowerRightRow | Int32 | Нижний правый индекс строки |
-| lowerRightColumn | Int32 | Нижний правый индекс столбца |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
+| lowerRightRow | Int32 | Нижний индекс правой строки |
+| lowerRightColumn | Int32 | Индекс нижнего правого столбца |
 | stream | Stream | Потоковый объект, содержащий данные изображения. |
 
 ### Возвращаемое значение
 
-[`Picture`](../../picture)индекс объекта.
+[`Picture`](../../picture) индекс объекта.
 
 ### Примеры
 
@@ -59,14 +59,14 @@ public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int low
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
-| lowerRightRow | Int32 | Нижний правый индекс строки |
-| lowerRightColumn | Int32 | Нижний правый индекс столбца |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
+| lowerRightRow | Int32 | Нижний индекс правой строки |
+| lowerRightColumn | Int32 | Индекс нижнего правого столбца |
 | fileName | String | Имя файла изображения. |
 
 ### Возвращаемое значение
 
-[`Picture`](../../picture)индекс объекта.
+[`Picture`](../../picture) индекс объекта.
 
 ### Примеры
 
@@ -96,12 +96,12 @@ public int Add(int upperLeftRow, int upperLeftColumn, Stream stream)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
 | stream | Stream | Потоковый объект, содержащий данные изображения. |
 
 ### Возвращаемое значение
 
-[`Picture`](../../picture)индекс объекта.
+[`Picture`](../../picture) индекс объекта.
 
 ### Примеры
 
@@ -134,12 +134,12 @@ public int Add(int upperLeftRow, int upperLeftColumn, string fileName)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
 | fileName | String | Имя файла изображения. |
 
 ### Возвращаемое значение
 
-[`Picture`](../../picture)индекс объекта.
+[`Picture`](../../picture) индекс объекта.
 
 ### Примеры
 
@@ -170,14 +170,14 @@ public int Add(int upperLeftRow, int upperLeftColumn, Stream stream, int widthSc
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
 | stream | Stream | Потоковый объект, содержащий данные изображения. |
 | widthScale | Int32 | Масштаб ширины изображения в процентах. |
 | heightScale | Int32 | Масштаб высоты изображения в процентах. |
 
 ### Возвращаемое значение
 
-[`Picture`](../../picture)индекс объекта.
+[`Picture`](../../picture) индекс объекта.
 
 ### Примеры
 
@@ -211,14 +211,14 @@ public int Add(int upperLeftRow, int upperLeftColumn, string fileName, int width
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
 | fileName | String | Имя файла изображения. |
 | widthScale | Int32 | Масштаб ширины изображения в процентах. |
 | heightScale | Int32 | Масштаб высоты изображения в процентах. |
 
 ### Возвращаемое значение
 
-[`Picture`](../../picture)индекс объекта.
+[`Picture`](../../picture) индекс объекта.
 
 ### Примеры
 

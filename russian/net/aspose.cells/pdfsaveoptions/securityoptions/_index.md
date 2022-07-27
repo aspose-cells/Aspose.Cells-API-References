@@ -1,14 +1,14 @@
 ---
 title: SecurityOptions
 second_title: Справочник по Aspose.Cells для .NET API
-description: Установите эту опцию когда требуется безопасность в результате xls2pdf.
+description: Установите этот параметр если требуется безопасность в результате xls2pdf.
 type: docs
 weight: 300
 url: /ru/net/aspose.cells/pdfsaveoptions/securityoptions/
 ---
 ## PdfSaveOptions.SecurityOptions property
 
-Установите эту опцию, когда требуется безопасность в результате xls2pdf.
+Установите этот параметр, если требуется безопасность в результате xls2pdf.
 
 ```csharp
 public PdfSecurityOptions SecurityOptions { get; set; }
@@ -27,16 +27,16 @@ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
 PdfSecurityOptions pdfSecurityOptions = new PdfSecurityOptions();
 
-  //установить пароль владельца
+//установить пароль владельца
 pdfSecurityOptions.OwnerPassword = "YourOwnerPassword";
 
-  //установить пароль пользователя
+//установить пароль пользователя
 pdfSecurityOptions.UserPassword = "YourUserPassword";
 
-  //установить разрешение на печать
+//устанавливаем разрешение на печать
 pdfSecurityOptions.PrintPermission = true;
 
-  // устанавливаем высокое разрешение для print
+//устанавливаем высокое разрешение для печати
 pdfSecurityOptions.FullQualityPrintPermission = true;
 
 

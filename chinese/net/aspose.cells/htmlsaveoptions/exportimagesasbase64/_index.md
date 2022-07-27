@@ -3,7 +3,7 @@ title: ExportImagesAsBase64
 second_title: Aspose.Cells for .NET API 参考
 description: 指定图像是否以 Base64 格式保存为 HTMLMHTML 或 EPUB
 type: docs
-weight: 220
+weight: 210
 url: /zh/net/aspose.cells/htmlsaveoptions/exportimagesasbase64/
 ---
 ## HtmlSaveOptions.ExportImagesAsBase64 property
@@ -16,7 +16,7 @@ public bool ExportImagesAsBase64 { get; set; }
 
 ### 评论
 
-当此属性设置为 true 时，图像数据直接在:::47::上导出:不创建 img 元素和单独的文件。
+当此属性设置为 true 时，图像数据直接在 img 元素上导出，不会创建单独的文件。
 
 ### 也可以看看
 

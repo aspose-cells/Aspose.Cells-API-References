@@ -1,14 +1,14 @@
 ---
 title: CellsDataTableFactory
 second_title: Aspose.Cells for .NET API 参考
-description: 从自定义对象构建 ICellsDataTable 的实用程序以方便用户使用
+description: 为方便用户从自定义对象构建 ICellsDataTable 的实用程序
 type: docs
 weight: 320
 url: /zh/net/aspose.cells/cellsdatatablefactory/
 ---
 ## CellsDataTableFactory class
 
-从自定义对象构建 ICellsDataTable 的实用程序，以方便用户使用。
+为方便用户从自定义对象构建 ICellsDataTable 的实用程序。
 
 ```csharp
 public class CellsDataTableFactory
@@ -19,7 +19,7 @@ public class CellsDataTableFactory
 | 姓名 | 描述 |
 | --- | --- |
 | [GetInstance](../../aspose.cells/cellsdatatablefactory/getinstance#getinstance)(double[]) |  |
-| [GetInstance](../../aspose.cells/cellsdatatablefactory/getinstance#getinstance_6)(ICollection) | 从给定集合创建 ICellsDataTable。 |
+| [GetInstance](../../aspose.cells/cellsdatatablefactory/getinstance#getinstance_6)(ICollection) | 从给定的集合创建 ICellsDataTable。 |
 | [GetInstance](../../aspose.cells/cellsdatatablefactory/getinstance#getinstance_3)(int[]) |  |
 | [GetInstance](../../aspose.cells/cellsdatatablefactory/getinstance#getinstance_7)(object[]) |  |
 | [GetInstance](../../aspose.cells/cellsdatatablefactory/getinstance#getinstance_1)(double[], bool) | 从给定的双精度值序列创建 ICellsDataTable。 |

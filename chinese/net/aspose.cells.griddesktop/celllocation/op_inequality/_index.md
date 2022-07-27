@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: Aspose.Cells for .NET API 参考
-description: 重载运算符 
+description: 重载运算符
 type: docs
 weight: 80
 url: /zh/net/aspose.cells.griddesktop/celllocation/op_inequality/
 ---
 ## CellLocation Inequality operator
 
-重载运算符 !=
+重载运算符！=
 
 ```csharp
 public static bool operator !=(CellLocation a, CellLocation b)

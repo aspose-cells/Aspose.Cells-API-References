@@ -1,14 +1,14 @@
 ---
 title: ACWClientPath
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает веб-путь к файлам сценариев/изображений элемента управления. Напримерhttp//localhost/acw_client. Вы также можете установить это значение в файле web.config. Добавьте этот раздел в раздел ltconfigurationgt раздел ltbrgtltappSettingsgtlt/brgtltbrgtltadd keyaspose.cells.gridweb.acw_client_path value/acw_client/ /gtlt/br gtltbrgtlt/appSettingsgtlt/brgt
+description: Получает или задает веб-путь к файлам сценариев/изображений элемента управления. Например http//localhost/acw_client. Вы также можете установить это значение в файле web.config. Добавьте этот раздел в раздел ltconfigurationgt ltНастройки приложенияgtltadd keyaspose.cells.gridweb.acw_client_path value/acw_client/ /gtlt/Настройки приложенияgt
 type: docs
 weight: 100
 url: /ru/net/aspose.cells.gridweb/mainweb/acwclientpath/
 ---
 ## MainWeb.ACWClientPath property
 
-Получает или задает веб-путь к файлам сценариев/изображений элемента управления. Например:«http://localhost/acw_client». Вы также можете установить это значение в файле web.config. Добавьте этот раздел в раздел &lt;configuration&gt; раздел: &lt;br&gt;&lt;appSettings&gt;&lt;/br&gt;&lt;br&gt;&lt;add key="aspose.cells.gridweb.acw_client_path" value="/acw_client/" /&gt;&lt;/br &gt;&lt;br&gt;&lt;/appSettings&gt;&lt;/br&gt;
+Получает или задает веб-путь к файлам сценариев/изображений элемента управления. Например: "http://localhost/acw_client". Вы также можете установить это значение в файле web.config. Добавьте этот раздел в раздел &lt;configuration&gt;: &lt;Настройки приложения&gt;&lt;add key="aspose.cells.gridweb.acw_client_path" value="/acw_client/" /&gt;&lt;/Настройки приложения&gt;
 
 ```csharp
 public string ACWClientPath { get; set; }

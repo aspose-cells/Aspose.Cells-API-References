@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементConnectionParameteraspose.cells.externalconnections/connectionparameterпо указанному индексу.
+description: ПолучаетConnectionParameteraspose.cells.externalconnections/connectionparameter элемент по указанному индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.externalconnections/connectionparametercollection/item/
 ---
 ## ConnectionParameterCollection indexer (1 of 2)
 
-Получает элемент[`ConnectionParameter`](../../connectionparameter)по указанному индексу.
+Получает[`ConnectionParameter`](../../connectionparameter) элемент по указанному индексу.
 
 ```csharp
 public ConnectionParameter this[int index] { get; set; }
@@ -33,7 +33,7 @@ public ConnectionParameter this[int index] { get; set; }
 
 ## ConnectionParameterCollection indexer (2 of 2)
 
-Получает элемент[`ConnectionParameter`](../../connectionparameter)с указанным именем.
+Получает[`ConnectionParameter`](../../connectionparameter) элемент с указанным именем.
 
 ```csharp
 public ConnectionParameter this[string connParamName] { get; }
@@ -41,11 +41,11 @@ public ConnectionParameter this[string connParamName] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| connParamName | имя параметра подключения |
+| connParamName | имя параметра соединения |
 
 ### Возвращаемое значение
 
-Элемент с указанным именем .
+Элемент с указанным именем.
 
 ### Смотрите также
 

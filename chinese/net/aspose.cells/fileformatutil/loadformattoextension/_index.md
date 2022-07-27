@@ -20,11 +20,11 @@ public static string LoadFormatToExtension(LoadFormat loadFormat)
 
 ### 返回值
 
-返回的扩展名是带前导点的小写字符串。
+返回的扩展名是带有前导点的小写字符串。
 
 ### 评论
 
-如果不能转换，返回null。
+如果无法转换，则返回 null。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ExportAsHtmlString
 second_title: Aspose.Cells for .NET API 参考
-description: 将单元格的 html 字符串值导出到 DataTable
+description: 将单元格的 html 字符串值导出到 DataTable.
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/exporttableoptions/exportashtmlstring/
 ---
 ## ExportTableOptions.ExportAsHtmlString property
 
-将单元格的 html 字符串值导出到 DataTable。
+将单元格的 html 字符串值导出到 DataTable.
 
 ```csharp
 public bool ExportAsHtmlString { get; set; }

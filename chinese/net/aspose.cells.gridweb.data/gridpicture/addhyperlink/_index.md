@@ -16,7 +16,7 @@ public GridHyperlink AddHyperlink(string param_string)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| address | String | 超链接地址。 |
+| address | String | 超链接的地址。 |
 
 ### 返回值
 

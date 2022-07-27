@@ -1,14 +1,14 @@
 ---
 title: TrendlineCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет набор всех объектовTrendline./trendlineдля указанного ряда данных.
+description: Представляет собой набор всехTrendline./trendline объекты для указанного ряда данных.
 type: docs
 weight: 990
 url: /ru/net/aspose.cells.charts/trendlinecollection/
 ---
 ## TrendlineCollection class
 
-Представляет набор всех объектов[`Trendline`](../trendline)для указанного ряда данных.
+Представляет собой набор всех[`Trendline`](../trendline) объекты для указанного ряда данных.
 
 ```csharp
 public class TrendlineCollection : CollectionBase<Trendline>
@@ -20,15 +20,15 @@ public class TrendlineCollection : CollectionBase<Trendline>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.charts/trendlinecollection/item) { get; } | Получает объектпо его индексу. |
+| [Item](../../aspose.cells.charts/trendlinecollection/item) { get; } | Получает объект по его индексу. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells.charts/trendlinecollection/add#add)(TrendlineType) | Добавляет в эту коллекцию объектуказанного типа. |
-| [Add](../../aspose.cells.charts/trendlinecollection/add#add_1)(TrendlineType, string) | Добавляет в эту коллекцию объектс указанным типом и именем. |
+| [Add](../../aspose.cells.charts/trendlinecollection/add#add)(TrendlineType) | Добавляет объект в эту коллекцию с указанным типом. |
+| [Add](../../aspose.cells.charts/trendlinecollection/add#add_1)(TrendlineType, string) | Добавляет объект в эту коллекцию с указанным типом и именем. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Trendline) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Trendline, IComparer&lt;Trendline&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Trendline, IComparer&lt;Trendline&gt;) |  |
@@ -61,11 +61,11 @@ public class TrendlineCollection : CollectionBase<Trendline>
 ```csharp
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
-  //Добавление нового рабочего листа в Excel object
+//Добавление нового рабочего листа в объект Excel
 int sheetIndex = workbook.Worksheets.Add();
-  //Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
+//Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
 Worksheet worksheet = workbook.Worksheets[sheetIndex];
 worksheet.Cells["A1"].PutValue(50);
 worksheet.Cells["A2"].PutValue(100);
@@ -76,7 +76,7 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 worksheet.Cells["B4"].PutValue(40);
 
-  //Добавление диаграммы на лист
+//Добавляем диаграмму на рабочий лист
 int chartIndex = workbook.Worksheets[0].Charts.Add(ChartType.Column, 3, 3, 15, 10);
 Chart chart = workbook.Worksheets[0].Charts[chartIndex];
 chart.NSeries.Add("A1:a3", true);
@@ -88,11 +88,11 @@ line.Color = Color.Red;
 
 [Visual Basic]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
-'Добавление нового рабочего листа в Excel object
+'Добавление нового рабочего листа в объект Excel
 Dim sheetIndex As Int32 = workbook.Worksheets.Add()
-'Получение ссылки на вновь добавленный рабочий лист путем передачи его листа index
+'Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
 Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
 worksheet.Cells("A1").PutValue(50)
 worksheet.Cells("A2").PutValue(100)
@@ -103,7 +103,7 @@ worksheet.Cells("B2").PutValue(32)
 worksheet.Cells("B3").PutValue(50)
 worksheet.Cells("B4").PutValue(40)
 
-'Добавление диаграммы на лист
+'Добавление диаграммы на рабочий лист
 Dim chartIndex As Integer =  workbook.Worksheets(0).Charts.Add(ChartType.Column,3,3,15,10) 
 Dim chart As Chart =  workbook.Worksheets(0).Charts(chartIndex) 
 chart.NSeries.Add("A1:a3", True)

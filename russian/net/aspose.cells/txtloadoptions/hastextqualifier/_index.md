@@ -1,14 +1,14 @@
 ---
 title: HasTextQualifier
 second_title: Справочник по Aspose.Cells для .NET API
-description: Есть ли квалификатор текста для значения ячейки. Значение по умолчанию верно.
+description: Есть ли квалификатор текста для значения ячейки. Значение по умолчанию  true.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/txtloadoptions/hastextqualifier/
 ---
 ## TxtLoadOptions.HasTextQualifier property
 
-Есть ли квалификатор текста для значения ячейки. Значение по умолчанию верно.
+Есть ли квалификатор текста для значения ячейки. Значение по умолчанию — true.
 
 ```csharp
 public bool HasTextQualifier { get; set; }

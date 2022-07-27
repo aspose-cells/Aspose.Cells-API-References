@@ -1,14 +1,14 @@
 ---
 title: AddComboBox
 second_title: Aspose.Cells for .NET API 参考
-description: 将 ComboBox 添加到工作表
+description: 将 ComboBox 添加到工作表中
 type: docs
 weight: 80
 url: /zh/net/aspose.cells.drawing/shapecollection/addcombobox/
 ---
 ## ShapeCollection.AddComboBox method
 
-将 ComboBox 添加到工作表。
+将 ComboBox 添加到工作表中。
 
 ```csharp
 public ComboBox AddComboBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, 
@@ -21,8 +21,8 @@ public ComboBox AddComboBox(int upperLeftRow, int top, int upperLeftColumn, int 
 | top | Int32 | 表示 ComboBox 与其左行的垂直偏移量，以像素为单位。 |
 | upperLeftColumn | Int32 | 左上列索引。 |
 | left | Int32 | 表示 ComboBox 与其左列的水平偏移量，以像素为单位。 |
-| height | Int32 | 表示ComboBox的高度，以像素为单位。 |
-| width | Int32 | 表示ComboBox的宽度，以像素为单位。 |
+| height | Int32 | 表示 ComboBox 的高度，以像素为单位。 |
+| width | Int32 | 表示 ComboBox 的宽度，以像素为单位。 |
 
 ### 返回值
 
@@ -33,7 +33,7 @@ public ComboBox AddComboBox(int upperLeftRow, int top, int upperLeftColumn, int 
 ```csharp
 
 [C#]
- //添加一个组合框
+//添加一个组合框
 ComboBox comboBox = shapes.AddComboBox(1, 0, 1, 0, 100, 50);
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: ShowPivotStyleColumnStripes
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает применяется ли форматирование чередования столбцов.
+description: Указывает применяется ли форматирование полос столбцов.
 type: docs
 weight: 640
 url: /ru/net/aspose.cells.pivot/pivottable/showpivotstylecolumnstripes/
 ---
 ## PivotTable.ShowPivotStyleColumnStripes property
 
-Указывает, применяется ли форматирование чередования столбцов.
+Указывает, применяется ли форматирование полос столбцов.
 
 ```csharp
 public bool ShowPivotStyleColumnStripes { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Formula
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置Cellaspose.cells/cell的公式
+description: 获取或设置公式Cellaspose.cells/cell.
 type: docs
 weight: 90
 url: /zh/net/aspose.cells/cell/formula/
 ---
 ## Cell.Formula property
 
-获取或设置[`Cell`](../../cell)的公式。
+获取或设置公式[`Cell`](../../cell).
 
 ```csharp
 public string Formula { get; set; }

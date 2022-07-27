@@ -1,14 +1,14 @@
 ---
 title: GridHyperlinkCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装Hyperlink对象的集合
+description: 封装了一个集合Hyperlink对象.
 type: docs
 weight: 490
 url: /zh/net/aspose.cells.griddesktop.data/gridhyperlinkcollection/
 ---
 ## GridHyperlinkCollection class
 
-封装Hyperlink对象的集合。
+封装了一个集合Hyperlink对象.
 
 ```csharp
 public class GridHyperlinkCollection
@@ -19,17 +19,17 @@ public class GridHyperlinkCollection
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/count) { get; } |  |
-| [Item](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/item) { get; } | 获取指定索引处的Hyperlink元素。 (2 indexers) |
+| [Item](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/item) { get; } | 获取Hyperlink指定索引处的元素。 (2 indexers) |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add#add_2)(string, string) | 将超链接添加到指定单元格。 |
+| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add#add_2)(string, string) | 向指定单元格添加超链接。 |
 | [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add#add_4)(int, int, string) | 将超链接添加到行列索引处的指定单元格。 |
-| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add#add_1)(string, int, int, string) | 将超链接添加到指定单元格或单元格范围。 |
-| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add#add)(int, int, int, int, string) | 将超链接添加到指定单元格或单元格范围。 |
-| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add#add_3)(string, string, string, string, string) | 将超链接添加到指定单元格或单元格范围。 |
+| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add#add_1)(string, int, int, string) | 向指定单元格或单元格范围添加超链接。 |
+| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add#add)(int, int, int, int, string) | 向指定单元格或单元格范围添加超链接。 |
+| [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add#add_3)(string, string, string, string, string) | 向指定单元格或单元格范围添加超链接。 |
 | [Clear](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/clear)() | 清除所有超链接。 |
 | [Remove](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/remove)(int, int) |  |
 | [RemoveAt](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/removeat)(int) | 删除指定索引处的超链接。 |

@@ -1,14 +1,14 @@
 ---
 title: OriginalValue
 second_title: Aspose.Cells for .NET API 参考
-description: 获取计算单元格的旧值 应仅用于BeforeCalculateaspose.cells/abstractcalculationmonitor/beforecalculate和AfterCalculateaspose.cells/abstractcalculationmonitor/aftercalculate
+description: 获取计算单元格的旧值 应该只用于BeforeCalculateaspose.cells/abstractcalculationmonitor/beforecalculate和AfterCalculateaspose.cells/abstractcalculationmonitor/aftercalculate.
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/abstractcalculationmonitor/originalvalue/
 ---
 ## AbstractCalculationMonitor.OriginalValue property
 
-获取计算单元格的旧值。 应仅用于[`BeforeCalculate`](../beforecalculate)和[`AfterCalculate`](../aftercalculate)。
+获取计算单元格的旧值。 应该只用于[`BeforeCalculate`](../beforecalculate)和[`AfterCalculate`](../aftercalculate).
 
 ```csharp
 public object OriginalValue { get; }

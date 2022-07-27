@@ -1,14 +1,14 @@
 ---
 title: ReferToSheetWithSameName
 second_title: Aspose.Cells for .NET API 参考
-description: 当将工作表复制到另一个工作簿并且工作表包含引用 MS Excel 中其他工作表的公式时 复制的公式应引用源工作簿 但有时我们复制了其他工作表我们希望复制的公式引用同一工作簿中名称的其他工作表 请将此属性设置为true
+description: 将工作表复制到另一个工作簿并且工作表包含引用 MS Excel 中其他工作表的公式时 复制的公式应引用源工作簿 但有时我们复制了其他工作表我们希望复制的公式引用同一个工作簿中同名的其他工作表 请将此属性设置为true
 type: docs
 weight: 80
 url: /zh/net/aspose.cells/copyoptions/refertosheetwithsamename/
 ---
 ## CopyOptions.ReferToSheetWithSameName property
 
-当将工作表复制到另一个工作簿并且工作表包含引用 MS Excel 中其他工作表的公式时， 复制的公式应引用源工作簿。 但有时我们复制了其他工作表，我们希望复制的公式引用同一工作簿中名称的其他工作表， 请将此属性设置为true。
+将工作表复制到另一个工作簿并且工作表包含引用 MS Excel 中其他工作表的公式时， 复制的公式应引用源工作簿。 但有时我们复制了其他工作表，我们希望复制的公式引用同一个工作簿中同名的其他工作表， 请将此属性设置为true。
 
 ```csharp
 public bool ReferToSheetWithSameName { get; set; }

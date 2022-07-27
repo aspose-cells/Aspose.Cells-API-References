@@ -1,14 +1,14 @@
 ---
 title: PresetCameraType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляют различные алгоритмические методы установки всех свойств камеры включая положение.
+description: Представляют различные алгоритмические методы для установки всех свойств камеры включая положение.
 type: docs
 weight: 2510
 url: /ru/net/aspose.cells.drawing/presetcameratype/
 ---
 ## PresetCameraType enumeration
 
-Представляют различные алгоритмические методы установки всех свойств камеры, включая положение.
+Представляют различные алгоритмические методы для установки всех свойств камеры, включая положение.
 
 ```csharp
 public enum PresetCameraType

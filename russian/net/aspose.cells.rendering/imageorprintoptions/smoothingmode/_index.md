@@ -1,14 +1,14 @@
 ---
 title: SmoothingMode
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает применяется ли сглаживание сглаживание к линиям кривым и краям заполненных областей. Значение по умолчанию SmoothingMode.None
+description: Указывает применяется ли сглаживание сглаживание к линиям кривым и краям заполненных областей. Значение по умолчанию  SmoothingMode.None
 type: docs
 weight: 280
 url: /ru/net/aspose.cells.rendering/imageorprintoptions/smoothingmode/
 ---
 ## ImageOrPrintOptions.SmoothingMode property
 
-Указывает, применяется ли сглаживание (сглаживание) к линиям, кривым и краям заполненных областей. Значение по умолчанию SmoothingMode.None
+Указывает, применяется ли сглаживание (сглаживание) к линиям, кривым и краям заполненных областей. Значение по умолчанию — SmoothingMode.None
 
 ```csharp
 public SmoothingMode SmoothingMode { get; set; }

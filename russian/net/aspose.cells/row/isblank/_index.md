@@ -1,14 +1,14 @@
 ---
 title: IsBlank
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает содержит ли строка какие-либо данные
+description: Указывает содержит ли строка данные
 type: docs
 weight: 60
 url: /ru/net/aspose.cells/row/isblank/
 ---
 ## Row.IsBlank property
 
-Указывает, содержит ли строка какие-либо данные
+Указывает, содержит ли строка данные
 
 ```csharp
 public bool IsBlank { get; }

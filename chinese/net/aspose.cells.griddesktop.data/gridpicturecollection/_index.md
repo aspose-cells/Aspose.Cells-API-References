@@ -1,14 +1,14 @@
 ---
 title: GridPictureCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装Picture对象的集合
+description: 封装了一个集合Picture对象.
 type: docs
 weight: 580
 url: /zh/net/aspose.cells.griddesktop.data/gridpicturecollection/
 ---
 ## GridPictureCollection class
 
-封装Picture对象的集合。
+封装了一个集合Picture对象.
 
 ```csharp
 public class GridPictureCollection
@@ -19,7 +19,7 @@ public class GridPictureCollection
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.cells.griddesktop.data/gridpicturecollection/count) { get; } |  |
-| [Item](../../aspose.cells.griddesktop.data/gridpicturecollection/item) { get; } | 获取指定索引处的Picture元素。 (2 indexers) |
+| [Item](../../aspose.cells.griddesktop.data/gridpicturecollection/item) { get; } | 获取Picture指定索引处的元素。 (2 indexers) |
 
 ## 方法
 
@@ -33,7 +33,7 @@ public class GridPictureCollection
 | [Add](../../aspose.cells.griddesktop.data/gridpicturecollection/add#add_1)(int, int, int, int, string) | 将图片添加到集合中。 |
 | [Add](../../aspose.cells.griddesktop.data/gridpicturecollection/add#add_4)(int, int, string, int, int) | 将图片添加到集合中。 |
 | [Clear](../../aspose.cells.griddesktop.data/gridpicturecollection/clear)() |  |
-| [GetEnumerator](../../aspose.cells.griddesktop.data/gridpicturecollection/getenumerator)() | 获取行枚举器 |
+| [GetEnumerator](../../aspose.cells.griddesktop.data/gridpicturecollection/getenumerator)() | 获取行 enumerator |
 | virtual [Remove](../../aspose.cells.griddesktop.data/gridpicturecollection/remove)(int, int) | 删除单元格指定行列索引处的项目。 |
 | [RemoveAt](../../aspose.cells.griddesktop.data/gridpicturecollection/removeat)(int) |  |
 

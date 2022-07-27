@@ -1,14 +1,14 @@
 ---
 title: AutoSortField
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет индекс поля автоматической сортировки. -1 означает сам PivotField остальные означают положение полей данных.
+description: Представляет индекс поля автоматической сортировки. -1 означает само PivotField остальные означают положение полей данных.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.pivot/pivotfield/autosortfield/
 ---
 ## PivotField.AutoSortField property
 
-Представляет индекс поля автоматической сортировки. -1 означает сам PivotField, остальные означают положение полей данных.
+Представляет индекс поля автоматической сортировки. -1 означает само PivotField, остальные означают положение полей данных.
 
 ```csharp
 public int AutoSortField { get; set; }

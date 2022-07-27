@@ -1,14 +1,14 @@
 ---
 title: OutputBlankPageWhenNothingToPrint
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает выводить ли пустую страницу когда печатать нечего.
+description: Указывает выводить ли пустую страницу когда нечего печатать.
 type: docs
 weight: 190
 url: /ru/net/aspose.cells.rendering/imageorprintoptions/outputblankpagewhennothingtoprint/
 ---
 ## ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint property
 
-Указывает, выводить ли пустую страницу, когда печатать нечего.
+Указывает, выводить ли пустую страницу, когда нечего печатать.
 
 ```csharp
 public bool OutputBlankPageWhenNothingToPrint { get; set; }
@@ -16,7 +16,7 @@ public bool OutputBlankPageWhenNothingToPrint { get; set; }
 
 ### Примечания
 
-По умолчанию - false.
+Значение по умолчанию — false.
 
 ### Смотрите также
 

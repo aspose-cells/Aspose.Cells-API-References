@@ -1,14 +1,14 @@
 ---
 title: Worksheet
 second_title: Aspose.Cells for .NET API 参考
-description: 获取包含此范围的Worksheetaspose.cells/range/worksheet对象
+description: 获取Worksheetaspose.cells/range/worksheet包含此范围的对象
 type: docs
-weight: 160
+weight: 200
 url: /zh/net/aspose.cells/range/worksheet/
 ---
 ## Range.Worksheet property
 
-获取包含此范围的`Worksheet`对象。
+获取`Worksheet`包含此范围的对象。
 
 ```csharp
 public Worksheet Worksheet { get; }

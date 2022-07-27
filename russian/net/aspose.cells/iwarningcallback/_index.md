@@ -18,7 +18,7 @@ public interface IWarningCallback
 
 | Имя | Описание |
 | --- | --- |
-| [Warning](../../aspose.cells/iwarningcallback/warning)(WarningInfo) | Нашему обратному вызову нужно только реализовать метод "Предупреждение". |
+| [Warning](../../aspose.cells/iwarningcallback/warning)(WarningInfo) | Наш обратный вызов должен реализовать только метод «Предупреждение». |
 
 ### Смотрите также
 

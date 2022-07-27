@@ -1,14 +1,14 @@
 ---
 title: EnableDataValueEditing
 second_title: Aspose.Cells for .NET API 参考
-description: 指定一个布尔值指示是否允许用户编辑数据透视表数据区域中的单元格 在值区域启用单元格编辑
+description: 指定一个布尔值指示是否允许用户编辑数据透视表的数据区域中的单元格 启用值区域中的单元格编辑
 type: docs
 weight: 170
 url: /zh/net/aspose.cells.pivot/pivottable/enabledatavalueediting/
 ---
 ## PivotTable.EnableDataValueEditing property
 
-指定一个布尔值，指示是否允许用户编辑数据透视表数据区域中的单元格。 在值区域启用单元格编辑
+指定一个布尔值，指示是否允许用户编辑数据透视表的数据区域中的单元格。 启用值区域中的单元格编辑
 
 ```csharp
 public bool EnableDataValueEditing { get; set; }

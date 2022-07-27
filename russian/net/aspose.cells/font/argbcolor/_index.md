@@ -1,14 +1,14 @@
 ---
 title: ArgbColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает цвет с 32-битным значением ARGB.
+description: Получает и устанавливает цвет с 32-битным значением ARGB.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/font/argbcolor/
 ---
 ## Font.ArgbColor property
 
-Получает и задает цвет с 32-битным значением ARGB.
+Получает и устанавливает цвет с 32-битным значением ARGB.
 
 ```csharp
 public int ArgbColor { get; set; }

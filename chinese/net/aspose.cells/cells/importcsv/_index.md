@@ -3,7 +3,7 @@ title: ImportCSV
 second_title: Aspose.Cells for .NET API 参考
 description: 将 CSV 文件导入单元格
 type: docs
-weight: 950
+weight: 960
 url: /zh/net/aspose.cells/cells/importcsv/
 ---
 ## ImportCSV(string, string, bool, int, int) {#importcsv_3}
@@ -18,10 +18,10 @@ public void ImportCSV(string fileName, string splitter, bool convertNumericData,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | String | CSV 文件名。 |
-| splitter | String | 拆分器 |
+| splitter | String | 分离器 |
 | convertNumericData | Boolean | 文本文件中的字符串是否转换为数值数据。 |
 | firstRow | Int32 | 要导入的第一个单元格的行号。 |
-| firstColumn | Int32 | 列号要导入的第一个单元格。 |
+| firstColumn | Int32 | 要导入的第一个单元格的列号。 |
 
 ### 也可以看看
 
@@ -43,10 +43,10 @@ public void ImportCSV(Stream stream, string splitter, bool convertNumericData, i
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | CSV 文件流。 |
-| splitter | String | 拆分器 |
+| splitter | String | 分离器 |
 | convertNumericData | Boolean | 文本文件中的字符串是否转换为数值数据。 |
 | firstRow | Int32 | 要导入的第一个单元格的行号。 |
-| firstColumn | Int32 | 列号要导入的第一个单元格。 |
+| firstColumn | Int32 | 要导入的第一个单元格的列号。 |
 
 ### 也可以看看
 
@@ -68,7 +68,7 @@ public void ImportCSV(string fileName, TxtLoadOptions options, int firstRow, int
 | --- | --- | --- |
 | fileName | String | CSV 文件名。 |
 | options | TxtLoadOptions | 读取文本文件的加载选项 |
-| firstRow | Int32 | 第一个单元格的行号导入。 |
+| firstRow | Int32 | 要导入的第一个单元格的行号。 |
 | firstColumn | Int32 | 要导入的第一个单元格的列号。 |
 
 ### 也可以看看
@@ -92,7 +92,7 @@ public void ImportCSV(Stream stream, TxtLoadOptions options, int firstRow, int f
 | --- | --- | --- |
 | stream | Stream | CSV 文件流。 |
 | options | TxtLoadOptions | 读取文本文件的加载选项 |
-| firstRow | Int32 | 第一个单元格的行号导入。 |
+| firstRow | Int32 | 要导入的第一个单元格的行号。 |
 | firstColumn | Int32 | 要导入的第一个单元格的列号。 |
 
 ### 也可以看看

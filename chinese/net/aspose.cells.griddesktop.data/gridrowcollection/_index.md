@@ -1,14 +1,14 @@
 ---
 title: GridRowCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装GridRow./gridrow对象的集合
+description: 封装了一个集合GridRow./gridrow对象.
 type: docs
 weight: 680
 url: /zh/net/aspose.cells.griddesktop.data/gridrowcollection/
 ---
 ## GridRowCollection class
 
-封装[`GridRow`](../gridrow)对象的集合。
+封装了一个集合[`GridRow`](../gridrow)对象.
 
 ```csharp
 public class GridRowCollection
@@ -19,13 +19,13 @@ public class GridRowCollection
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.cells.griddesktop.data/gridrowcollection/count) { get; } |  |
-| [Item](../../aspose.cells.griddesktop.data/gridrowcollection/item) { get; } | 通过给定的行索引获取对象。如果给定行索引的 Row 对象之前不存在，它将被实例化。 |
+| [Item](../../aspose.cells.griddesktop.data/gridrowcollection/item) { get; } | 得到一个给定行索引的对象。给定行索引的 Row 对象如果之前不存在将被实例化。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetEnumerator](../../aspose.cells.griddesktop.data/gridrowcollection/getenumerator)() | 获取行枚举器 |
+| [GetEnumerator](../../aspose.cells.griddesktop.data/gridrowcollection/getenumerator)() | 获取行 enumerator |
 | [GetRowByIndex](../../aspose.cells.griddesktop.data/gridrowcollection/getrowbyindex)(int) | 通过列表中的位置获取行对象。 |
 
 ### 也可以看看

@@ -18,14 +18,14 @@ public Picture AddLinkedPicture(int upperLeftRow, int upperLeftColumn, int heigh
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
-| height | Int32 | Высота фигуры. В пикселях |
-| width | Int32 | Ширина фигуры. В пикселях |
-| sourceFullName | String | Путь и имя исходного файла для связанного изображения |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
+| height | Int32 | Высота формы. В единицах пикселей |
+| width | Int32 | Ширина формы. В единицах пикселей |
+| sourceFullName | String | Путь и имя исходного файла связанного изображения |
 
 ### Возвращаемое значение
 
-[`Picture`](../../picture)Объект изображения.
+[`Picture`](../../picture) Объект изображения.
 
 ### Смотрите также
 

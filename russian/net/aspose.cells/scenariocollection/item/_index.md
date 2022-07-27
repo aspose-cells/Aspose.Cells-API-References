@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектScenarioaspose.cells/scenarioпо индексу.
+description: ПолучаетScenarioaspose.cells/scenario объект по индексу.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/scenariocollection/item/
 ---
 ## ScenarioCollection indexer
 
-Получает объект[`Scenario`](../../scenario)по индексу.
+Получает[`Scenario`](../../scenario) объект по индексу.
 
 ```csharp
 public Scenario this[int index] { get; }

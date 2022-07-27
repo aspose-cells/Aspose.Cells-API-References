@@ -1,14 +1,14 @@
 ---
 title: AddRow
 second_title: Aspose.Cells for .NET API 参考
-description: 添加新行
+description: 添加一个新行
 type: docs
 weight: 460
 url: /zh/net/aspose.cells.griddesktop/worksheet/addrow/
 ---
 ## Worksheet.AddRow method
 
-添加新行。
+添加一个新行。
 
 ```csharp
 public void AddRow()

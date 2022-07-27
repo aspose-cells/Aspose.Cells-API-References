@@ -1,14 +1,14 @@
 ---
 title: Index
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置图标在图标集中的索引
+description: 获取并设置图标在图标集中的索引
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/conditionalformattingicon/index/
 ---
 ## ConditionalFormattingIcon.Index property
 
-获取和设置图标在图标集中的索引。
+获取并设置图标在图标集中的索引。
 
 ```csharp
 public int Index { get; set; }

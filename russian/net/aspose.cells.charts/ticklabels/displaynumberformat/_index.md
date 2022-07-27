@@ -1,14 +1,14 @@
 ---
 title: DisplayNumberFormat
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает числовой формат отображения делений.
+description: Получает и задает формат отображаемого числа меток деления.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.charts/ticklabels/displaynumberformat/
 ---
 ## TickLabels.DisplayNumberFormat property
 
-Получает и задает числовой формат отображения делений.
+Получает и задает формат отображаемого числа меток деления.
 
 ```csharp
 public string DisplayNumberFormat { get; }

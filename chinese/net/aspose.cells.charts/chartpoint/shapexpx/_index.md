@@ -1,14 +1,14 @@
 ---
 title: ShapeXPx
 second_title: Aspose.Cells for .NET API 参考
-description: 调用Chart.Calculate方法后以像素为单位获取左上角的x坐标
+description: 调用Chart.Calculate方法后获取左上角的x坐标以像素为单位
 type: docs
 weight: 260
 url: /zh/net/aspose.cells.charts/chartpoint/shapexpx/
 ---
 ## ChartPoint.ShapeXPx property
 
-调用Chart.Calculate()方法后，以像素为单位获取左上角的x坐标。
+调用Chart.Calculate()方法后获取左上角的x坐标，以像素为单位。
 
 ```csharp
 public int ShapeXPx { get; }

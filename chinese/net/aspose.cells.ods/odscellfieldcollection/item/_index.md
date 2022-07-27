@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 通过索引获取字段
+description: 按索引获取字段
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.ods/odscellfieldcollection/item/
 ---
 ## OdsCellFieldCollection indexer (1 of 2)
 
-通过索引获取字段。
+按索引获取字段。
 
 ```csharp
 public OdsCellField this[int index] { get; }
@@ -16,7 +16,7 @@ public OdsCellField this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引。 |
+| index | 指数。 |
 
 ### 也可以看看
 

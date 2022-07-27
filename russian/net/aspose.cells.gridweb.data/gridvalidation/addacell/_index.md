@@ -1,14 +1,14 @@
 ---
 title: AddACell
 second_title: Справочник по Aspose.Cells для .NET API
-description: добавьте настройки проверки в ячейку.
+description: добавить параметры проверки в ячейку.
 type: docs
 weight: 190
 url: /ru/net/aspose.cells.gridweb.data/gridvalidation/addacell/
 ---
 ## AddACell(int, int) {#addacell}
 
-добавьте настройки проверки в ячейку.
+добавить параметры проверки в ячейку.
 
 ```csharp
 public void AddACell(int row, int column)
@@ -29,7 +29,7 @@ public void AddACell(int row, int column)
 
 ## AddACell(string) {#addacell_1}
 
-добавьте настройки проверки в ячейку.
+добавить параметры проверки в ячейку.
 
 ```csharp
 public void AddACell(string cellname)
@@ -37,7 +37,7 @@ public void AddACell(string cellname)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| имя_ячейки | String | имя ячейки. |
+| cellname | String | имя ячейки. |
 
 ### Смотрите также
 

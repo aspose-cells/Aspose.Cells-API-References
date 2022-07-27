@@ -1,14 +1,14 @@
 ---
 title: ForceFullCalculate
 second_title: Aspose.Cells for .NET API 参考
-description: 每次触发计算时是否完全计算
+description: 表示每次触发计算时是否完全计算
 type: docs
 weight: 70
 url: /zh/net/aspose.cells.gridjs/gridworkbooksettings/forcefullcalculate/
 ---
 ## GridWorkbookSettings.ForceFullCalculate property
 
-每次触发计算时是否完全计算。
+表示每次触发计算时是否完全计算。
 
 ```csharp
 public bool ForceFullCalculate { get; set; }

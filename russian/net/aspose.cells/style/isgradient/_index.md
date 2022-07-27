@@ -1,14 +1,14 @@
 ---
 title: IsGradient
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает является ли затенение ячейки градиентным узором.
+description: Указывает является ли затенение ячеек градиентным узором.
 type: docs
 weight: 170
 url: /ru/net/aspose.cells/style/isgradient/
 ---
 ## Style.IsGradient property
 
-Указывает, является ли затенение ячейки градиентным узором.
+Указывает, является ли затенение ячеек градиентным узором.
 
 ```csharp
 public bool IsGradient { get; set; }

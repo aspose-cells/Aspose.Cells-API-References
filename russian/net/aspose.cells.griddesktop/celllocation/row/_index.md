@@ -1,14 +1,14 @@
 ---
 title: Row
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает строку расположения ячейки.
+description: Получает или задает строку местоположения ячейки.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.griddesktop/celllocation/row/
 ---
 ## CellLocation.Row property
 
-Получает или задает строку расположения ячейки.
+Получает или задает строку местоположения ячейки.
 
 ```csharp
 public int Row { get; set; }

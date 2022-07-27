@@ -19,7 +19,7 @@ public enum XAdESType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | XAdES 已关闭。 |
-| XAdES | `1` | 基本 XAdES。 |
+| XAdES | `1` | 基本 XAdES. |
 
 ### 也可以看看
 

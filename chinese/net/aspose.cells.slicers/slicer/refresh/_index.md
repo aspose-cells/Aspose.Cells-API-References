@@ -1,14 +1,14 @@
 ---
 title: Refresh
 second_title: Aspose.Cells for .NET API 参考
-description: 刷新切片器同时刷新和计算相关数据透视表
+description: 刷新切片器同时刷新和计算相对数据透视表
 type: docs
 weight: 260
 url: /zh/net/aspose.cells.slicers/slicer/refresh/
 ---
 ## Slicer.Refresh method
 
-刷新切片器。同时，刷新和计算相关数据透视表。
+刷新切片器。同时，刷新和计算相对数据透视表。
 
 ```csharp
 public void Refresh()

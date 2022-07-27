@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементBorderaspose.cells/borderпо указанному индексу.
+description: ПолучаетBorderaspose.cells/border элемент по указанному индексу.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/bordercollection/item/
 ---
 ## BorderCollection indexer
 
-Получает элемент[`Border`](../../border)по указанному индексу.
+Получает[`Border`](../../border) элемент по указанному индексу.
 
 ```csharp
 public Border this[BorderType borderType] { get; }
@@ -16,7 +16,7 @@ public Border this[BorderType borderType] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| borderType | Извлекаемая граница. |
+| borderType | Граница, которую необходимо получить. |
 
 ### Возвращаемое значение
 

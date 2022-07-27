@@ -1,14 +1,14 @@
 ---
 title: BorderLineType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает тип линии границы для gridCell.
+description: Определяет тип линии границы для gridCell.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.griddesktop/borderlinetype/
 ---
 ## BorderLineType enumeration
 
-Указывает тип линии границы для gridCell.
+Определяет тип линии границы для gridCell.
 
 ```csharp
 public enum BorderLineType
@@ -20,15 +20,15 @@ public enum BorderLineType
 | --- | --- | --- |
 | None | `0` | Без рамки. |
 | Thin | `1` | Граница сплошной линией. |
-| Medium | `2` | Граница сплошной линией. Ширина линии 2f. |
-| Dashed | `3` | Граница пунктирной линией. |
+| Medium | `2` | Сплошная линия границы. Ширина линии 2f. |
+| Dashed | `3` | Граница пунктирной линии. |
 | Dotted | `4` | Граница из пунктирной линии. |
-| Thick | `5` | Граница сплошной линией. Ширина линии 3f. |
-| MediumDashed | `8` | Граница из пунктирной линии. Ширина линии 2f. |
+| Thick | `5` | Сплошная линия границы. Ширина линии 3f. |
+| MediumDashed | `8` | Граница пунктирной линии. Ширина линии 2f. |
 | ThinDashDotted | `9` | Штрихпунктирная линия границы. |
-| MediumDashDotted | `10` | Граница штрихпунктирной линии. Ширина линии 2f. |
-| ThinDashDotDotted | `11` | Граница пунктирной линии. |
-| MediumDashDotDotted | `12` | Граница пунктирной линии dashDot. Ширина линии 2f. |
+| MediumDashDotted | `10` | Штрихпунктирная граница. Ширина линии 2f. |
+| ThinDashDotDotted | `11` | Граница пунктирной линии dashDot. |
+| MediumDashDotDotted | `12` | Граница линии dashDotDotted. Ширина линии 2f. |
 
 ### Смотрите также
 

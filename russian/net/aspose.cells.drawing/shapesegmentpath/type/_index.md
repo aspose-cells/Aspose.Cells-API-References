@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает тип сегмента пути
+description: Получает сегмент пути type
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.drawing/shapesegmentpath/type/
 ---
 ## ShapeSegmentPath.Type property
 
-Получает тип сегмента пути
+Получает сегмент пути type
 
 ```csharp
 public ShapePathType Type { get; }

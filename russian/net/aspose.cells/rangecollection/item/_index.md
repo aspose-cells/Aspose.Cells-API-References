@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементRangeaspose.cells/rangeпо указанному индексу.
+description: ПолучаетRangeaspose.cells/range элемент по указанному индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/rangecollection/item/
 ---
 ## RangeCollection indexer
 
-Получает элемент[`Range`](../../range)по указанному индексу.
+Получает[`Range`](../../range) элемент по указанному индексу.
 
 ```csharp
 public Range this[int index] { get; }

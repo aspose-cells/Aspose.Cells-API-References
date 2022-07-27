@@ -16,7 +16,7 @@ public FormatConditionCollection[] GetFormatConditions()
 
 ### Возвращаемое значение
 
-Возвращает[`FormatConditionCollection`](../../formatconditioncollection)объект
+Возвращает[`FormatConditionCollection`](../../formatconditioncollection) объект
 
 ### Смотрите также
 

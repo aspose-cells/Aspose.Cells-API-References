@@ -17,7 +17,7 @@ public Style GetCellStyle(int row, int column)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | row | Int32 | 行索引 |
-| column | Int32 | 列 |
+| column | Int32 | 柱子 |
 
 ### 返回值
 

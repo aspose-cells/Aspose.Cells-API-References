@@ -1,14 +1,14 @@
 ---
 title: FirstLineIndent
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает размер отступа который будет применяться к первой строке текста в абзаце.
+description: Задает размер отступа который будет применяться к первой строке текста в абзаце.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.drawing.texts/textparagraph/firstlineindent/
 ---
 ## TextParagraph.FirstLineIndent property
 
-Указывает размер отступа, который будет применяться к первой строке текста в абзаце.
+Задает размер отступа, который будет применяться к первой строке текста в абзаце.
 
 ```csharp
 public double FirstLineIndent { get; set; }

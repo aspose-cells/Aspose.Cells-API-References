@@ -1,14 +1,14 @@
 ---
 title: SaveToPdf
 second_title: Справочник по Aspose.Cells для .NET API
-description: Сохраняет рабочие листы в путь к файлу формат сохранения - pdf
+description: Сохраняет рабочие листы по пути к файлу формат сохранения pdf
 type: docs
 weight: 160
 url: /ru/net/aspose.cells.gridjs/gridjsworkbook/savetopdf/
 ---
 ## SaveToPdf(string) {#savetopdf_1}
 
-Сохраняет рабочие листы в путь к файлу, формат сохранения - pdf
+Сохраняет рабочие листы по пути к файлу, формат сохранения pdf
 
 ```csharp
 public void SaveToPdf(string path)
@@ -28,7 +28,7 @@ public void SaveToPdf(string path)
 
 ## SaveToPdf(Stream) {#savetopdf}
 
-Сохраняет рабочие листы в поток, формат сохранения - pdf
+Сохраняет листы в поток, формат сохранения pdf
 
 ```csharp
 public void SaveToPdf(Stream stream)

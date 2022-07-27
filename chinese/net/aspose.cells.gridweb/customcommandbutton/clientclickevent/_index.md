@@ -1,14 +1,14 @@
 ---
 title: ClientClickEvent
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置客户端的点击事件处理程序
+description: 获取或设置客户端点击事件处理程序
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.gridweb/customcommandbutton/clientclickevent/
 ---
 ## CustomCommandButton.ClientClickEvent property
 
-获取或设置客户端的点击事件处理程序。
+获取或设置客户端点击事件处理程序。
 
 ```csharp
 public string ClientClickEvent { get; set; }

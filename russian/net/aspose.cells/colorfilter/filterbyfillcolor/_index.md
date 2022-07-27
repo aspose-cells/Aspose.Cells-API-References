@@ -1,14 +1,14 @@
 ---
 title: FilterByFillColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Флаг указывающий на необходимость фильтрации по цвету заливки ячейки.
+description: Флаг указывающий следует ли фильтровать по цвету заливки ячейки.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/colorfilter/filterbyfillcolor/
 ---
 ## ColorFilter.FilterByFillColor property
 
-Флаг, указывающий на необходимость фильтрации по цвету заливки ячейки.
+Флаг, указывающий, следует ли фильтровать по цвету заливки ячейки.
 
 ```csharp
 public bool FilterByFillColor { get; set; }

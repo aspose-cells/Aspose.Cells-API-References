@@ -1,14 +1,14 @@
 ---
 title: IsInputable
 second_title: Aspose.Cells for .NET API 参考
-description: 指示用户是否可以向组合框输入文本 输入的文本将保存为单元格的值 默认值为假
+description: 表示用户是否可以在组合框中输入文本 输入的文本将保存为单元格的值 默认值为false
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.griddesktop/combobox/isinputable/
 ---
 ## ComboBox.IsInputable property
 
-指示用户是否可以向组合框输入文本。 输入的文本将保存为单元格的值。 默认值为“假”。
+表示用户是否可以在组合框中输入文本。 输入的文本将保存为单元格的值。 默认值为“false”。
 
 ```csharp
 public bool IsInputable { get; set; }

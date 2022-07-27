@@ -1,14 +1,14 @@
 ---
 title: SetInterruptMonitorForLoad
 second_title: Справочник по Aspose.Cells для .NET API
-description: установить InterruptMonitor для операции загрузки книги
+description: установить InterruptMonitor для операции загрузки для workbook
 type: docs
 weight: 180
 url: /ru/net/aspose.cells.gridjs/gridjsworkbook/setinterruptmonitorforload/
 ---
 ## GridJsWorkbook.SetInterruptMonitorForLoad method
 
-установить InterruptMonitor для операции загрузки книги
+установить InterruptMonitor для операции загрузки для workbook
 
 ```csharp
 public void SetInterruptMonitorForLoad(GridInterruptMonitor monitor, 
@@ -18,7 +18,7 @@ public void SetInterruptMonitorForLoad(GridInterruptMonitor monitor,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | monitor | GridInterruptMonitor | Экземпляр прерывания |
-| calculateTimeoutMilliseconds | Int32 | время ожидания в миллисекундах |
+| calculateTimeoutMilliseconds | Int32 | тайм-аут на миллисекунды |
 
 ### Смотрите также
 

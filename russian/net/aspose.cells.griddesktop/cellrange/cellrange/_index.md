@@ -33,7 +33,7 @@ public CellRange(int cStartRow, int cStartCol, int cEndRow, int cEndCol)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | cStartRow | Int32 | Индекс начальной строки. |
-| cStartCol | Int32 | Индекс начального столбца. |
+| cStartCol | Int32 | Начальный индекс столбца. |
 | cEndRow | Int32 | Индекс конечной строки. |
 | cEndCol | Int32 | Конечный индекс столбца. |
 

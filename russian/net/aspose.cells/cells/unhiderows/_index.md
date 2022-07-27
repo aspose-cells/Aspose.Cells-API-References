@@ -3,7 +3,7 @@ title: UnhideRows
 second_title: Справочник по Aspose.Cells для .NET API
 description: Отображает скрытые строки.
 type: docs
-weight: 1370
+weight: 1380
 url: /ru/net/aspose.cells/cells/unhiderows/
 ---
 ## Cells.UnhideRows method

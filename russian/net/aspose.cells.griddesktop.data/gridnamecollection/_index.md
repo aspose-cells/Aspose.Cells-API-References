@@ -1,14 +1,14 @@
 ---
 title: GridNameCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует коллекцию объектовName.
+description: Инкапсулирует наборNameобъекты.
 type: docs
 weight: 540
 url: /ru/net/aspose.cells.griddesktop.data/gridnamecollection/
 ---
 ## GridNameCollection class
 
-Инкапсулирует коллекцию объектовName.
+Инкапсулирует наборNameобъекты.
 
 ```csharp
 public class GridNameCollection
@@ -19,7 +19,7 @@ public class GridNameCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.cells.griddesktop.data/gridnamecollection/count) { get; } |  |
-| [Item](../../aspose.cells.griddesktop.data/gridnamecollection/item) { get; } | Получает элементNameпо указанному индексу. |
+| [Item](../../aspose.cells.griddesktop.data/gridnamecollection/item) { get; } | ПолучаетName элемент по указанному индексу. |
 
 ## Методы
 
@@ -29,7 +29,7 @@ public class GridNameCollection
 | [Add](../../aspose.cells.griddesktop.data/gridnamecollection/add#add)(int, string, string) | Определяет новое имя на указанном листе. |
 | [Clear](../../aspose.cells.griddesktop.data/gridnamecollection/clear)() | Удаляет все имена; |
 | [GetEnumerator](../../aspose.cells.griddesktop.data/gridnamecollection/getenumerator)() | Получает перечислитель строк |
-| [Remove](../../aspose.cells.griddesktop.data/gridnamecollection/remove)(string[]) | Удалить массив имени |
+| [Remove](../../aspose.cells.griddesktop.data/gridnamecollection/remove)(string[]) | Удалить массив name |
 | [RemoveAt](../../aspose.cells.griddesktop.data/gridnamecollection/removeat)(int) | Удалить имя по указанному индексу. |
 
 ### Смотрите также

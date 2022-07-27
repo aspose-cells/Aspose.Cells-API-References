@@ -16,7 +16,7 @@ public void StartCell(Cell cell)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cell | Cell | 单元对象用于实现填充数据。它的列索引是最近调用[`NextCell`](../nextcell)的返回值。 如果单元格已经在内部单元格模型中初始化，则将使用已存在的单元格对象。 否则将使用临时 Cell 对象来实现填充数据。 |
+| cell | Cell | 用于填充数据的单元对象。它的列索引是最近调用的返回值[`NextCell`](../nextcell). 如果cell在inner cells模型中已经初始化，则使用已有的cell对象。 否则会使用一个临时的Cell对象来实现填充数据。 |
 
 ### 也可以看看
 

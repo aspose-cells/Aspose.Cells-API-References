@@ -1,14 +1,14 @@
 ---
 title: GetMergedRange
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает объектRangeaspose.cells/range представляющий объединенный диапазон.
+description: ВозвращаетRangeaspose.cells/range объект представляющий объединенный диапазон.
 type: docs
 weight: 460
 url: /ru/net/aspose.cells/cell/getmergedrange/
 ---
 ## Cell.GetMergedRange method
 
-Возвращает объект[`Range`](../../range), представляющий объединенный диапазон.
+Возвращает[`Range`](../../range) объект, представляющий объединенный диапазон.
 
 ```csharp
 public Range GetMergedRange()
@@ -16,7 +16,7 @@ public Range GetMergedRange()
 
 ### Возвращаемое значение
 
-[`Range`](../../range)объект. Null, если эта ячейка не объединена.
+[`Range`](../../range) объект. Null, если эта ячейка не объединена.
 
 ### Смотрите также
 

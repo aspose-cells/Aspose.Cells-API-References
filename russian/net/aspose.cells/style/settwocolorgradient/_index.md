@@ -19,8 +19,8 @@ public void SetTwoColorGradient(Color color1, Color color2, GradientStyleType gr
 | --- | --- | --- |
 | color1 | Color | Один цвет градиента. |
 | color2 | Color | Два градиентных цвета. |
-| gradientStyleType | GradientStyleType | Градиентный стиль заливки. |
-| variant | Int32 | Вариант градиента. Может принимать значение от 1 до 4, соответствующее одному из четырех вариантов на вкладке «Градиент» в диалоговом окне «Эффекты заливки». Если стиль — GradientStyle.FromCenter, аргумент Variant может быть только 1 или 2. |
+| gradientStyleType | GradientStyleType | Градиентный стиль затенения. |
+| variant | Int32 | Градиентный вариант. Может принимать значение от 1 до 4, соответствующее одному из четырех вариантов на вкладке «Градиент» в диалоговом окне «Эффекты заливки». Если стиль — GradientStyle.FromCenter, аргумент Variant может иметь значение только 1 или 2. |
 
 ### Смотрите также
 

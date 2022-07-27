@@ -1,14 +1,14 @@
 ---
 title: FileFormatType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает тип файла данных встроенного объекта ole
+description: Получает и задает тип файла встроенного объекта ole data
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.drawing/oleobject/fileformattype/
 ---
 ## OleObject.FileFormatType property
 
-Получает и задает тип файла данных встроенного объекта ole
+Получает и задает тип файла встроенного объекта ole data
 
 ```csharp
 public FileFormatType FileFormatType { get; set; }

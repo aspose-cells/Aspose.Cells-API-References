@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементSeriesaspose.cells.charts/seriesпо указанному индексу.
+description: ПолучаетSeriesaspose.cells.charts/series элемент по указанному индексу.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.charts/seriescollection/item/
 ---
 ## SeriesCollection indexer
 
-Получает элемент[`Series`](../../series)по указанному индексу.
+Получает[`Series`](../../series) элемент по указанному индексу.
 
 ```csharp
 public Series this[int index] { get; }

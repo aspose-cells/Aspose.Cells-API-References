@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПолучаетRevisionLogaspose.cells.revisions/revisionlogпо индексу.
+description: получаетRevisionLogaspose.cells.revisions/revisionlog по индексу.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.revisions/revisionlogcollection/item/
 ---
 ## RevisionLogCollection indexer
 
-Получает[`RevisionLog`](../../revisionlog)по индексу.
+получает[`RevisionLog`](../../revisionlog) по индексу.
 
 ```csharp
 public RevisionLog this[int index] { get; }
@@ -20,7 +20,7 @@ public RevisionLog this[int index] { get; }
 
 ### Возвращаемое значение
 
-Возвращает[`RevisionLog`](../../revisionlog)объект.
+Возвращает[`RevisionLog`](../../revisionlog) объект.
 
 ### Смотрите также
 

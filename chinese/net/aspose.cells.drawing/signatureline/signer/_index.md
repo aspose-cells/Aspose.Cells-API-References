@@ -19,7 +19,7 @@ public string Signer { get; set; }
 ```csharp
 
 [C#]
- // 创建签名行 object
+// 创建签名线对象
 SignatureLine s3 = new SignatureLine();
 s3.Signer = "Mr xxx";
 ```

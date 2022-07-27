@@ -1,14 +1,14 @@
 ---
 title: ResetFilter
 second_title: Aspose.Cells for .NET API 参考
-description: 要应用的字段的整数偏移量基于第一个过滤列 从左侧列表最左边的字段是字段 0
+description: 您要应用的字段的整数偏移量基于第一个过滤器 column 从列表的左侧开始最左侧的字段是字段 0
 type: docs
 weight: 690
 url: /zh/net/aspose.cells.gridweb.data/gridworksheet/resetfilter/
 ---
 ## GridWorksheet.ResetFilter method
 
-要应用的字段的整数偏移量，基于第一个过滤列 （从左侧列表；最左边的字段是字段 0)。
+您要应用的字段的整数偏移量，基于第一个过滤器 column （从列表的左侧开始；最左侧的字段是字段 0）。
 
 ```csharp
 public void ResetFilter(int fieldIndex)

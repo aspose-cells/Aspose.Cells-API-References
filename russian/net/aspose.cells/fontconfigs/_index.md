@@ -25,7 +25,7 @@ public class FontConfigs
 | Имя | Описание |
 | --- | --- |
 | static [DefaultFontName](../../aspose.cells/fontconfigs/defaultfontname) { get; set; } | Получает или задает имя шрифта по умолчанию. |
-| static [PreferSystemFontSubstitutes](../../aspose.cells/fontconfigs/prefersystemfontsubstitutes) { get; set; } | Указывает, следует ли сначала использовать заменители системного шрифта, если шрифт не представлен и замена этого шрифта не установлена. Например, в Ubuntu шрифт "Arial" обычно заменяется на "Liberation Sans". Значение по умолчанию — false. |
+| static [PreferSystemFontSubstitutes](../../aspose.cells/fontconfigs/prefersystemfontsubstitutes) { get; set; } | Указывает, следует ли сначала использовать замены системного шрифта, когда шрифт не представлен и замена этого шрифта не установлена. Например, в Ubuntu шрифт «Arial» обычно заменяется на «Liberation Sans». Значение по умолчанию — false . |
 
 ## Методы
 
@@ -34,9 +34,9 @@ public class FontConfigs
 | static [GetFontSources](../../aspose.cells/fontconfigs/getfontsources)() | Получает копию массива, содержащего список источников |
 | static [GetFontSubstitutes](../../aspose.cells/fontconfigs/getfontsubstitutes)(string) | Возвращает массив, содержащий имена заменителей шрифтов, которые будут использоваться, если исходный шрифт не представлен. |
 | static [SetFontFolder](../../aspose.cells/fontconfigs/setfontfolder)(string, bool) | Устанавливает папку шрифтов |
-| static [SetFontFolders](../../aspose.cells/fontconfigs/setfontfolders)(string[], bool) | Задает папки со шрифтами |
+| static [SetFontFolders](../../aspose.cells/fontconfigs/setfontfolders)(string[], bool) | Устанавливает папки шрифтов |
 | static [SetFontSources](../../aspose.cells/fontconfigs/setfontsources)(FontSourceBase[]) | Устанавливает источники шрифтов. |
-| static [SetFontSubstitutes](../../aspose.cells/fontconfigs/setfontsubstitutes)(string, string[]) | Имена шрифтов, заменяющие заданное оригинальное имя шрифта. |
+| static [SetFontSubstitutes](../../aspose.cells/fontconfigs/setfontsubstitutes)(string, string[]) | Имена шрифтов, заменяющие заданное исходное имя шрифта. |
 
 ### Смотрите также
 

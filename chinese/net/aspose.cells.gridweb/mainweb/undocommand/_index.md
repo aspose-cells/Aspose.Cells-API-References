@@ -1,14 +1,14 @@
 ---
 title: UndoCommand
 second_title: Aspose.Cells for .NET API 参考
-description: 单击撤消按钮时发生
+description: 在单击撤消按钮时发生
 type: docs
 weight: 1360
 url: /zh/net/aspose.cells.gridweb/mainweb/undocommand/
 ---
 ## MainWeb.UndoCommand event
 
-单击“撤消”按钮时发生。
+在单击“撤消”按钮时发生。
 
 ```csharp
 public event WorkbookEventHandler UndoCommand;

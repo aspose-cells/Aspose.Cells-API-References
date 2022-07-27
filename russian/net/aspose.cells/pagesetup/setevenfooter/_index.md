@@ -1,14 +1,14 @@
 ---
 title: SetEvenFooter
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает сценарий форматирующий нижний колонтитул четной страницы файла Excel. Только эффект в Excel 2007 когда IsHFDiffOddEven имеет значение true.
+description: Задает сценарий форматирующий нижний колонтитул четной страницы файла Excel. Эффект только в Excel 2007 когда IsHFDiffOddEven имеет значение true.
 type: docs
 weight: 550
 url: /ru/net/aspose.cells/pagesetup/setevenfooter/
 ---
 ## PageSetup.SetEvenFooter method
 
-Задает сценарий, форматирующий нижний колонтитул четной страницы файла Excel. Только эффект в Excel 2007, когда IsHFDiffOddEven имеет значение true.
+Задает сценарий, форматирующий нижний колонтитул четной страницы файла Excel. Эффект только в Excel 2007, когда IsHFDiffOddEven имеет значение true.
 
 ```csharp
 public void SetEvenFooter(int section, string footerScript)
@@ -16,7 +16,7 @@ public void SetEvenFooter(int section, string footerScript)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| section | Int32 | 0:Левая секция. |
+| section | Int32 | 0: левая часть, 1: центральная часть, 2: правая часть. |
 | footerScript | String | Скрипт формата нижнего колонтитула. |
 
 ### Смотрите также

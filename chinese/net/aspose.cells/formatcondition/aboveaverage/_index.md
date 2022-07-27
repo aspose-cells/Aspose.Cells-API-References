@@ -1,14 +1,14 @@
 ---
 title: AboveAverage
 second_title: Aspose.Cells for .NET API 参考
-description: 获取条件格式的AboveAverage实例 默认实例的规则突出显示 高于范围内所有值的平均值的单元格 仅对 type  AboveAverage 有效
+description: 获取条件格式的AboveAverage实例 默认实例的规则突出显示范围内所有值高于平均值 的单元格 仅对 type  AboveAverage 有效
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/formatcondition/aboveaverage/
 ---
 ## FormatCondition.AboveAverage property
 
-获取条件格式的“AboveAverage”实例。 默认实例的规则突出显示 高于范围内所有值的平均值的单元格。 仅对 type = AboveAverage 有效。
+获取条件格式的“AboveAverage”实例。 默认实例的规则突出显示范围内所有值高于平均值 的单元格。 仅对 type = AboveAverage 有效。
 
 ```csharp
 public AboveAverage AboveAverage { get; }

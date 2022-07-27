@@ -1,14 +1,14 @@
 ---
 title: SetColor
 second_title: Aspose.Cells for .NET API 参考
-description: 设置集合中所有边框的Color
+description: 设置Color集合中的所有边框
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/bordercollection/setcolor/
 ---
 ## BorderCollection.SetColor method
 
-设置集合中所有边框的Color。
+设置Color集合中的所有边框。
 
 ```csharp
 public void SetColor(Color color)
@@ -16,7 +16,7 @@ public void SetColor(Color color)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| color | Color | Borders'Color。 |
+| color | Color | 边界'Color. |
 
 ### 也可以看看
 

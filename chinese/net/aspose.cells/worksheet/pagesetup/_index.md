@@ -1,14 +1,14 @@
 ---
 title: PageSetup
 second_title: Aspose.Cells for .NET API 参考
-description: 表示此表中的页面设置说明
+description: 表示此工作表中的页面设置说明
 type: docs
 weight: 340
 url: /zh/net/aspose.cells/worksheet/pagesetup/
 ---
 ## Worksheet.PageSetup property
 
-表示此表中的页面设置说明。
+表示此工作表中的页面设置说明。
 
 ```csharp
 public PageSetup PageSetup { get; }

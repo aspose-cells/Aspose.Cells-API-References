@@ -18,7 +18,7 @@ public string Name { get; set; }
 
 Поддерживается именованный диапазон. Например,
 
-range.Name = "Sheet1!MyRange";
+range.Name = "Лист1!МойДиапазон";
 
 ### Смотрите также
 

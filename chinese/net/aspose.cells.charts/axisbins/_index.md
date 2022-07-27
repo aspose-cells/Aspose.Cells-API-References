@@ -24,12 +24,12 @@ public class AxisBins
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.cells.charts/axisbins/count) { get; set; } | 获取或设置轴箱的计数 |
-| [IsAutomatic](../../aspose.cells.charts/axisbins/isautomatic) { get; set; } | 指示轴箱是否为自动。 |
+| [Count](../../aspose.cells.charts/axisbins/count) { get; set; } | 获取或设置轴箱数 |
+| [IsAutomatic](../../aspose.cells.charts/axisbins/isautomatic) { get; set; } | 指示轴箱是否是自动的。 |
 | [IsByCategory](../../aspose.cells.charts/axisbins/isbycategory) { get; set; } | 表示是否按类别对数据进行分组 |
 | [Overflow](../../aspose.cells.charts/axisbins/overflow) { get; set; } | 获取或设置轴箱溢出 |
 | [Underflow](../../aspose.cells.charts/axisbins/underflow) { get; set; } | 获取或设置轴箱的下溢 |
-| [Width](../../aspose.cells.charts/axisbins/width) { get; set; } | 获取或设置轴 bin 的宽度 |
+| [Width](../../aspose.cells.charts/axisbins/width) { get; set; } | 获取或设置轴的宽度 bin |
 
 ## 方法
 

@@ -1,14 +1,14 @@
 ---
 title: ColorType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示所有颜色类型
+description: 代表所有颜色类型
 type: docs
 weight: 1050
 url: /zh/net/aspose.cells/colortype/
 ---
 ## ColorType enumeration
 
-表示所有颜色类型
+代表所有颜色类型
 
 ```csharp
 public enum ColorType
@@ -18,11 +18,11 @@ public enum ColorType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Automatic | `0` | 自动颜色。 |
-| AutomaticIndex | `1` | 自动颜色，但显示颜色取决于操作系统的设置。 |
+| Automatic | `0` | 自动上色。 |
+| AutomaticIndex | `1` | 是自动颜色，但显示的颜色取决于操作系统的设置。 |
 | RGB | `2` | RGB 颜色。 |
 | IndexedColor | `3` | 调色板中的颜色索引。 |
-| Theme | `4` | 主题颜色。 |
+| Theme | `4` | 主题颜色. |
 
 ### 也可以看看
 

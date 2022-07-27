@@ -1,14 +1,14 @@
 ---
 title: BottomMarginPt
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает нижнее поле в пунктах
+description: Возвращает нижнее поле в единицах Points
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.drawing/msotextframe/bottommarginpt/
 ---
 ## MsoTextFrame.BottomMarginPt property
 
-Возвращает нижнее поле в пунктах
+Возвращает нижнее поле в единицах Points
 
 ```csharp
 public double BottomMarginPt { get; set; }

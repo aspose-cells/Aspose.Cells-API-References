@@ -1,14 +1,14 @@
 ---
 title: Amount
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет количество ошибок.  Сумма должна быть больше и равна нулю.
+description: Представляет количество ошибок bar.  Сумма должна быть больше или равна нулю.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.charts/errorbar/amount/
 ---
 ## ErrorBar.Amount property
 
-Представляет количество ошибок.  Сумма должна быть больше и равна нулю.
+Представляет количество ошибок bar.  Сумма должна быть больше или равна нулю.
 
 ```csharp
 public double Amount { get; set; }

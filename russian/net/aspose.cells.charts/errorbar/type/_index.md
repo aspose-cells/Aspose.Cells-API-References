@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет тип количества бара ошибок.
+description: Представляет тип суммы полосы ошибок.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.charts/errorbar/type/
 ---
 ## ErrorBar.Type property
 
-Представляет тип количества бара ошибок.
+Представляет тип суммы полосы ошибок.
 
 ```csharp
 public ErrorBarType Type { get; set; }
@@ -18,13 +18,13 @@ public ErrorBarType Type { get; set; }
 
 ```csharp
 [C#]
-  //Устанавливает пользовательскую панель ошибок type
+//Устанавливает пользовательский тип полосы ошибок
 aseries.YErrorBar.Type = ErrorBarType.InnerCustom;
 aseries.YErrorBar.PlusValue = "=Sheet1!A1";
 aseries.YErrorBar.MinusValue = "=Sheet1!A2";
 
 [Visual Basic]
-'Устанавливает пользовательскую панель ошибок type
+'Устанавливает пользовательский тип полосы ошибок
 aseries.YErrorBar.Type = ErrorBarType.InnerCustom
 aseries.YErrorBar.PlusValue = "=Sheet1!A1"
 aseries.YErrorBar.MinusValue = "=Sheet1!A2"

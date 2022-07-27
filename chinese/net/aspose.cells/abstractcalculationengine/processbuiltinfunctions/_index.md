@@ -1,14 +1,14 @@
 ---
 title: ProcessBuiltInFunctions
 second_title: Aspose.Cells for .NET API 参考
-description: 已经被内置引擎支持的内置函数是否应该被这个实现检查和处理 默认为假 如果用户需要改变一些内置函数的计算逻辑这个属性应该设置为true
+description: 内置引擎已经支持的内置函数是否应该由本实现检查处理 默认为false 如果用户需要更改某些内置函数的计算逻辑该属性应该是设置为真
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/abstractcalculationengine/processbuiltinfunctions/
 ---
 ## AbstractCalculationEngine.ProcessBuiltInFunctions property
 
-已经被内置引擎支持的内置函数是否应该被这个实现检查和处理。 默认为假。 如果用户需要改变一些内置函数的计算逻辑，这个属性应该设置为true。
+内置引擎已经支持的内置函数是否应该由本实现检查处理。 默认为false。 如果用户需要更改某些内置函数的计算逻辑，该属性应该是设置为真。
 
 ```csharp
 public virtual bool ProcessBuiltInFunctions { get; }

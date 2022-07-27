@@ -1,14 +1,14 @@
 ---
 title: MemorySetting
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置内存使用选项新选项将作为新创建的工作表的默认选项但不会对现有工作表生效
+description: 获取或设置内存使用选项新选项将作为新建工作表的默认选项但对现有工作表无效
 type: docs
 weight: 300
 url: /zh/net/aspose.cells/workbooksettings/memorysetting/
 ---
 ## WorkbookSettings.MemorySetting property
 
-获取或设置内存使用选项。新选项将作为新创建的工作表的默认选项，但不会对现有工作表生效。
+获取或设置内存使用选项。新选项将作为新建工作表的默认选项，但对现有工作表无效。
 
 ```csharp
 public MemorySetting MemorySetting { get; set; }

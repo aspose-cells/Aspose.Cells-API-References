@@ -1,14 +1,14 @@
 ---
 title: XmlMap
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет информацию о карте в формате XML.
+description: Представляет информацию карты XML.
 type: docs
 weight: 6590
 url: /ru/net/aspose.cells/xmlmap/
 ---
 ## XmlMap class
 
-Представляет информацию о карте в формате XML.
+Представляет информацию карты XML.
 
 ```csharp
 public class XmlMap
@@ -18,7 +18,7 @@ public class XmlMap
 
 | Имя | Описание |
 | --- | --- |
-| [DataBinding](../../aspose.cells/xmlmap/databinding) { get; } | Получает[`XmlDataBinding`](../xmldatabinding)этой карты. |
+| [DataBinding](../../aspose.cells/xmlmap/databinding) { get; } | Получает[`XmlDataBinding`](../xmldatabinding) этой карты. |
 | [Name](../../aspose.cells/xmlmap/name) { get; set; } | Возвращает или задает имя объекта. |
 | [RootElementName](../../aspose.cells/xmlmap/rootelementname) { get; } | Получает имя корневого элемента. |
 

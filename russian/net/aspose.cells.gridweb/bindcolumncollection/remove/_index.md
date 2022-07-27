@@ -16,7 +16,7 @@ public void Remove(object value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| значение | Object |  |
+| value | Object |  |
 
 ### Смотрите также
 

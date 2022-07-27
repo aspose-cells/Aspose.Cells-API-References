@@ -1,14 +1,14 @@
 ---
 title: RemoveHyperlink
 second_title: Справочник по Aspose.Cells для .NET API
-description: Удалить гиперссылку фигуры.
+description: Удалить гиперссылку формы.
 type: docs
 weight: 1110
 url: /ru/net/aspose.cells.drawing/shape/removehyperlink/
 ---
 ## Shape.RemoveHyperlink method
 
-Удалить гиперссылку фигуры.
+Удалить гиперссылку формы.
 
 ```csharp
 public void RemoveHyperlink()

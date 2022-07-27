@@ -1,14 +1,14 @@
 ---
 title: AddControlRefrernce
 second_title: Aspose.Cells for .NET API 参考
-description: 添加对 twiddled 类型库及其扩展类型库的引用
+description: 添加对旋转类型库及其扩展类型库的引用
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.vba/vbaprojectreferencecollection/addcontrolrefrernce/
 ---
 ## VbaProjectReferenceCollection.AddControlRefrernce method
 
-添加对 twiddled 类型库及其扩展类型库的引用。
+添加对旋转类型库及其扩展类型库的引用。
 
 ```csharp
 public int AddControlRefrernce(string name, string libid, string twiddledlibid, 
@@ -19,7 +19,7 @@ public int AddControlRefrernce(string name, string libid, string twiddledlibid,
 | --- | --- | --- |
 | name | String | 参考名称。 |
 | libid | String | 自动化类型库的标识符。 |
-| twiddledlibid | String | twiddled类型库的标识符 |
+| twiddledlibid | String | 旋转类型库的标识符 |
 | extendedLibid | String | 扩展类型库的标识符 |
 
 ### 也可以看看

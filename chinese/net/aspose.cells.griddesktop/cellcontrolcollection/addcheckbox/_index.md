@@ -1,14 +1,14 @@
 ---
 title: AddCheckBox
 second_title: Aspose.Cells for .NET API 参考
-description: 将复选框添加到行列索引处的指定单元格
+description: 在行列索引的指定单元格中添加一个复选框
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.griddesktop/cellcontrolcollection/addcheckbox/
 ---
 ## AddCheckBox(int, int, bool) {#addcheckbox}
 
-将复选框添加到行列索引处的指定单元格。
+在行列索引的指定单元格中添加一个复选框。
 
 ```csharp
 public CheckBox AddCheckBox(int row, int col, bool check)

@@ -1,14 +1,14 @@
 ---
 title: DataMember
 second_title: Aspose.Cells for .NET API 参考
-description: 从多成员 DataSource 中获取或设置 DataMember 一般表示DataSet的DataTable对象
+description: 从多成员DataSource中获取或设置DataMember 一般表示DataSet的DataTable对象
 type: docs
 weight: 110
 url: /zh/net/aspose.cells.gridweb.data/gridworksheet/datamember/
 ---
 ## GridWorksheet.DataMember property
 
-从多成员 DataSource 中获取或设置 DataMember。 一般表示DataSet的DataTable对象。
+从多成员DataSource中获取或设置DataMember。 一般表示DataSet的DataTable对象。
 
 ```csharp
 public string DataMember { get; set; }

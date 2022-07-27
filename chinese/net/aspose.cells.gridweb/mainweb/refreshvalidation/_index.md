@@ -1,14 +1,14 @@
 ---
 title: RefreshValidation
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置单元格值变化后是否刷新验证值
+description: 获取或设置单元格值改变后是否刷新验证值
 type: docs
 weight: 740
 url: /zh/net/aspose.cells.gridweb/mainweb/refreshvalidation/
 ---
 ## MainWeb.RefreshValidation property
 
-获取或设置单元格值变化后是否刷新验证值。
+获取或设置单元格值改变后是否刷新验证值。
 
 ```csharp
 public bool RefreshValidation { get; set; }

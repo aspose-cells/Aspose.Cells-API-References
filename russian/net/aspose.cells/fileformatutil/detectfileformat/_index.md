@@ -20,7 +20,7 @@ public static FileFormatInfo DetectFileFormat(Stream stream)
 
 ### Возвращаемое значение
 
-A[`FileFormatInfo`](../../fileformatinfo)объект, содержащий обнаруженную информацию.
+А[`FileFormatInfo`](../../fileformatinfo) объект, содержащий обнаруженную информацию.
 
 ### Смотрите также
 
@@ -46,7 +46,7 @@ public static FileFormatInfo DetectFileFormat(Stream stream, string password)
 
 ### Возвращаемое значение
 
-A[`FileFormatInfo`](../../fileformatinfo)объект, содержащий обнаруженную информацию.
+А[`FileFormatInfo`](../../fileformatinfo) объект, содержащий обнаруженную информацию.
 
 ### Смотрите также
 
@@ -71,7 +71,7 @@ public static FileFormatInfo DetectFileFormat(string filePath)
 
 ### Возвращаемое значение
 
-A[`FileFormatInfo`](../../fileformatinfo)объект, содержащий обнаруженную информацию.
+А[`FileFormatInfo`](../../fileformatinfo) объект, содержащий обнаруженную информацию.
 
 ### Смотрите также
 
@@ -93,11 +93,11 @@ public static FileFormatInfo DetectFileFormat(string filePath, string password)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | filePath | String | Путь к файлу. |
-| пароль | String | Пароль для зашифрованных файлов ooxml. |
+| password | String | Пароль для зашифрованных файлов ooxml. |
 
 ### Возвращаемое значение
 
-A[`FileFormatInfo`](../../fileformatinfo)объект, содержащий обнаруженную информацию.
+А[`FileFormatInfo`](../../fileformatinfo) объект, содержащий обнаруженную информацию.
 
 ### Смотрите также
 

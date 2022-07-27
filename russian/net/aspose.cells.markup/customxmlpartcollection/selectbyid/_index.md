@@ -1,14 +1,14 @@
 ---
 title: SelectByID
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элемент по идентификатору.
+description: Получает элемент по id.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.markup/customxmlpartcollection/selectbyid/
 ---
 ## CustomXmlPartCollection.SelectByID method
 
-Получает элемент по идентификатору.
+Получает элемент по id.
 
 ```csharp
 public CustomXmlPart SelectByID(string id)
@@ -16,7 +16,7 @@ public CustomXmlPart SelectByID(string id)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| id | String | Содержит GUID пользовательской части XML. |
+| id | String | Содержит GUID пользовательской XML-части. |
 
 ### Смотрите также
 

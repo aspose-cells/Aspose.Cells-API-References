@@ -18,7 +18,7 @@ public class WebExtensionProperty
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Name](../../aspose.cells.webextensions/webextensionproperty/name) { get; set; } | 获取并设置自定义属性名称。 |
+| [Name](../../aspose.cells.webextensions/webextensionproperty/name) { get; set; } | 获取和设置自定义属性名称。 |
 | [Value](../../aspose.cells.webextensions/webextensionproperty/value) { get; set; } | 获取和设置自定义属性值。 |
 
 ### 也可以看看

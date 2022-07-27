@@ -1,14 +1,14 @@
 ---
 title: ShapeProperties
 second_title: Aspose.Cells for .NET API 参考
-description: 获取对象该对象包含 ChartPoint 的可视形状属性
+description: 获取包含 ChartPoint. 的视觉形状属性的对象
 type: docs
 weight: 220
 url: /zh/net/aspose.cells.charts/chartpoint/shapeproperties/
 ---
 ## ChartPoint.ShapeProperties property
 
-获取对象，该对象包含 ChartPoint 的可视形状属性。
+获取包含 ChartPoint. 的视觉形状属性的对象
 
 ```csharp
 public ShapePropertyCollection ShapeProperties { get; }

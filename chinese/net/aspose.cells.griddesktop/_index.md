@@ -1,32 +1,32 @@
 ---
 title: Aspose.Cells.GridDesktop
 second_title: Aspose.Cells for .NET API 参考
-description: GridDesktop 的基本命名空间
+description: GridDesktop 的基本命名空间.
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.griddesktop/
 ---
-GridDesktop 的基本命名空间。
+GridDesktop 的基本命名空间.
 
 ## 课程
 
 | 班级 | 描述 |
 | --- | --- |
 | [Button](./button) | 表示单元格按钮控件。 |
-| [CellComboBoxEventArgs](./cellcomboboxeventargs) | 为单元格 ComboBox 事件提供数据。 |
+| [CellComboBoxEventArgs](./cellcomboboxeventargs) | 为单元格组合框事件提供数据。 |
 | [CellComboBoxEventHandler](./cellcomboboxeventhandler) | 表示打算处理单元格 ComboBox 事件的方法。 |
-| [CellControl](./cellcontrol) | 表示单元格控件。 |
+| [CellControl](./cellcontrol) | 表示一个单元格控件。 |
 | [CellControlCollection](./cellcontrolcollection) | 封装单元格控件的集合。 |
 | [CellControlEventArgs](./cellcontroleventargs) | 为单元控制事件提供数据。 |
 | [CellControlEventHandler](./cellcontroleventhandler) | 表示打算处理单元控制事件的方法。 |
 | [CellCopyComboBoxEventArgs](./cellcopycomboboxeventargs) | 为单元格复制 ComboBox 事件提供数据。 |
-| [CellCopyComboBoxEventHandler](./cellcopycomboboxeventhandler) | 表示打算处理单元格复制事件的方法。 |
+| [CellCopyComboBoxEventHandler](./cellcopycomboboxeventhandler) | 表示打算处理单元复制事件的方法。 |
 | [CellEventArgs](./celleventargs) | 为网格单元事件提供数据。 |
-| [CellEventHandler](./celleventhandler) | 表示打算处理单元格事件的方法。 |
+| [CellEventHandler](./celleventhandler) | 表示打算处理单元事件的方法。 |
 | [CellFormatEventArgs](./cellformateventargs) | 为网格单元格格式事件提供数据。 |
 | [CellFormatEventHandler](./cellformateventhandler) | 表示打算处理单元格格式事件的方法。 |
 | [CellKeyEventArgs](./cellkeyeventargs) | 为网格单元键事件提供数据。 |
-| [CellKeyEventHandler](./cellkeyeventhandler) | 表示打算处理单元格键事件的方法。 |
+| [CellKeyEventHandler](./cellkeyeventhandler) | 表示打算处理单元键事件的方法。 |
 | [CellLocation](./celllocation) | 表示单元格位置。 |
 | [CellRange](./cellrange) | 封装表示电子表格中单元格范围的对象。 |
 | [CellRangeEventArgs](./cellrangeeventargs) | 为网格单元格范围事件提供数据。 |
@@ -34,18 +34,18 @@ GridDesktop 的基本命名空间。
 | [CellRelative](./cellrelative) | 仅供内部使用。 |
 | [CellRelativeCollection](./cellrelativecollection) | 仅供内部使用。 |
 | [CellValidationEventArgs](./cellvalidationeventargs) | 为网格单元验证事件提供数据。 |
-| [CellValidationEventHandler](./cellvalidationeventhandler) | 表示打算处理单元格验证事件的方法。 |
-| [CheckBox](./checkbox) | 表示单元格复选框控件。 |
-| [ComboBox](./combobox) | 表示单元格组合框控件。 |
+| [CellValidationEventHandler](./cellvalidationeventhandler) | 表示打算处理单元验证事件的方法。 |
+| [CheckBox](./checkbox) | 表示一个单元格复选框控件。 |
+| [ComboBox](./combobox) | 表示一个单元格组合框控件。 |
 | [CommentEventArgs](./commenteventargs) | 为评论事件提供数据。 |
 | [CommentEventHandler](./commenteventhandler) | 表示打算处理评论事件的方法。 |
 | [ContextMenuManager](./contextmenumanager) | 表示上下文菜单项的可用状态。 |
 | [CustomProperty](./customproperty) | 表示标识符信息。 |
 | [CustomPropertyCollection](./custompropertycollection) | 代表附加信息的 CustomProperty 对象的集合。 |
-| [GridDesktop](./griddesktop) | Aspose GridDesktop 类 表示创建 GridDesktop 控件的根对象。要使用此控件，只需将其从工具箱拖到窗体或用户控件。 |
+| [GridDesktop](./griddesktop) | Aspose GridDesktop class 表示创建GridDesktop 控件的根对象。要使用此控件，只需将其从工具箱拖到窗体或用户控件。 |
 | [License](./license) | 提供许可组件的方法。 |
 | [RowColumnEventArgs](./rowcolumneventargs) | 为行/列事件提供数据。 |
-| [RowFilterSettings](./rowfiltersettings) | RowFilter 的摘要描述。 |
+| [RowFilterSettings](./rowfiltersettings) | RowFilter. 的摘要描述 |
 | [Shape](./shape) | 表示一个形状对象。 |
 | [SortRange](./sortrange) | 表示工作表的范围，并提供按行或列对范围数据进行排序的方法。 |
 | [Style](./style) | 表示excel文档的显示风格，如字体、颜色、对齐方式、边框等。 |
@@ -54,7 +54,7 @@ GridDesktop 的基本命名空间。
 | [WorkbookEventHandler](./workbookeventhandler) | 表示打算处理工作簿事件的方法。 |
 | [WorkbookFailLoadEventHandler](./workbookfailloadeventhandler) | 表示打算处理工作簿加载文件失败的方法。 |
 | [Worksheet](./worksheet) | 封装表示单个工作表的对象。 |
-| [WorksheetCollection](./worksheetcollection) | 收集代表工作表中各个行的对象。 |
+| [WorksheetCollection](./worksheetcollection) | 收集表示工作表中各个行的对象。 |
 | [WorksheetEventArgs](./worksheeteventargs) | 为工作表事件提供数据。 |
 | [WorksheetEventHandler](./worksheeteventhandler) | 表示打算处理工作表事件的方法。 |
 ## 接口
@@ -63,7 +63,7 @@ GridDesktop 的基本命名空间。
 | --- | --- |
 | [ICustomColumnCaption](./icustomcolumncaption) | 自定义行标题接口。 |
 | [ICustomRowCaption](./icustomrowcaption) | 自定义行标题接口。 |
-| [ICustomValidation](./icustomvalidation) | 网格单元自定义验证的接口。 |
+| [ICustomValidation](./icustomvalidation) | gridcell的自定义验证接口。 |
 ## 枚举
 
 | 枚举 | 描述 |
@@ -73,11 +73,11 @@ GridDesktop 的基本命名空间。
 | [FileFormatType](./fileformattype) | 枚举电子表格文件格式类型 |
 | [FormatConditionType](./formatconditiontype) | 条件格式规则类型。 |
 | [GridBackgroundType](./gridbackgroundtype) | 枚举单元格背景图案类型。 |
-| [GridMemorySetting](./gridmemorysetting) | Aspose GridMemorySetting 类 表示 GridDesktop 的内存设置首选项。 |
-| [HorizontalAlignmentType](./horizontalalignmenttype) | 指定网格单元如何水平对齐。 |
+| [GridMemorySetting](./gridmemorysetting) | Aspose GridMemorySetting class 表示 GridDesktop 的内存设置首选项。 |
+| [HorizontalAlignmentType](./horizontalalignmenttype) | 指定网格单元的水平对齐方式。 |
 | [RowColumnType](./rowcolumntype) | 表示行/列事件的行/列类型。 |
 | [SortOrder](./sortorder) | 表示数据排序的顺序。 |
-| [SortOrientation](./sortorientation) | 表示排序方向 |
+| [SortOrientation](./sortorientation) | 代表排序方向 |
 | [TextDirectionType](./textdirectiontype) | 表示该段落的文本流向。 |
 | [ThemeColorType](./themecolortype) | 枚举主题颜色类型。 |
 | [VerticalAlignmentType](./verticalalignmenttype) | 指定网格单元如何垂直对齐。 |

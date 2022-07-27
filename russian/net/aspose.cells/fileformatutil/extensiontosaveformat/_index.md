@@ -20,7 +20,7 @@ public static SaveFormat ExtensionToSaveFormat(string extension)
 
 ### Примечания
 
-Если расширение не может быть распознано, возвращаетUnknown.
+Если расширение не может быть распознано, возвращаетсяUnknown.
 
 ### Смотрите также
 

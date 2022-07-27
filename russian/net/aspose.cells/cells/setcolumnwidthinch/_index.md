@@ -3,7 +3,7 @@ title: SetColumnWidthInch
 second_title: Справочник по Aspose.Cells для .NET API
 description: Устанавливает ширину столбца в дюймах в обычном режиме просмотра.
 type: docs
-weight: 1230
+weight: 1240
 url: /ru/net/aspose.cells/cells/setcolumnwidthinch/
 ---
 ## Cells.SetColumnWidthInch method
@@ -17,7 +17,7 @@ public void SetColumnWidthInch(int column, double inches)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | column | Int32 | Индекс столбца. |
-| дюймы | Double | Количество дюймов. |
+| inches | Double | Количество дюймов. |
 
 ### Смотрите также
 

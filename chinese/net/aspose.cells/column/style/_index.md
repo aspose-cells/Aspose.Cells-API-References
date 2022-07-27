@@ -1,14 +1,14 @@
 ---
 title: Style
 second_title: Aspose.Cells for .NET API 参考
-description: 获取该列的样式
+description: 获取此列的样式
 type: docs
 weight: 50
 url: /zh/net/aspose.cells/column/style/
 ---
 ## Column.Style property
 
-获取该列的样式。
+获取此列的样式。
 
 ```csharp
 public Style Style { get; }
@@ -16,7 +16,7 @@ public Style Style { get; }
 
 ### 评论
 
-您必须调用 Column.ApplyStyle() 方法以使用行样式保存更改， 否则不会生效。
+你必须调用 Column.ApplyStyle() 方法来保存你对行样式的更改， 否则它不会生效。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: SetDataSource
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает источник данных объектаICellsDataTableaspose.cells/icellsdatatable.
+description: Устанавливает источник данныхICellsDataTableaspose.cells/icellsdatatable объект.
 type: docs
 weight: 120
 url: /ru/net/aspose.cells/workbookdesigner/setdatasource/
 ---
 ## SetDataSource(string, ICellsDataTable) {#setdatasource_5}
 
-Устанавливает источник данных объекта[`ICellsDataTable`](../../icellsdatatable).
+Устанавливает источник данных[`ICellsDataTable`](../../icellsdatatable) объект.
 
 ```csharp
 public void SetDataSource(string dataSource, ICellsDataTable cellsDataTable)
@@ -17,7 +17,7 @@ public void SetDataSource(string dataSource, ICellsDataTable cellsDataTable)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | dataSource | String | Имя источника данных. |
-| cellsDataTable | ICellsDataTable | таблица данных. |
+| cellsDataTable | ICellsDataTable | Таблица данных. |
 
 ### Смотрите также
 
@@ -38,7 +38,7 @@ public void SetDataSource(DataSet dataSet)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dataSet | DataSet | Объект DataSet |
+| dataSet | DataSet | Объект набора данных |
 
 ### Примеры
 
@@ -46,52 +46,52 @@ public void SetDataSource(DataSet dataSet)
 
 [C#]
 
-  //Создаем объект подключения, указываем информацию о провайдере и устанавливаем источник данных.
+//Создаем объект подключения, указываем информацию о провайдере и устанавливаем источник данных.
 OleDbConnection con = new OleDbConnection("provider=microsoft.jet.oledb.4.0;data source=Northwind.mdb");
-  //Открываем объект подключения.
+//Открываем объект подключения.
 con.Open();
-  //Создаем командный объект и указываем SQL-запрос.
+//Создаем объект команды и указываем SQL-запрос.
 OleDbCommand cmd = new OleDbCommand("Select * from [Order Details]", con);
-  //Создаем объект адаптера данных.
+//Создание объекта адаптера данных.
 OleDbDataAdapter da = new OleDbDataAdapter();
-  //Указываем команду.
+//Указать команду.
 da.SelectCommand = cmd;
-  //Создаем объект набора данных.
+//Создаем объект набора данных.
 DataSet ds = new DataSet();
-  //Заполняем набор данных записями таблицы.
+// Заполнить набор данных записями таблицы.
 da.Fill(ds, "Order Details");
-  //Создаем таблицу данных относительно таблицы набора данных.
+//Создаем таблицу данных относительно таблицы набора данных.
 DataTable dt = ds.Tables["Order Details"];
-  //Создать объект WorkbookDesigner.
+//Создаем объект WorkbookDesigner.
 WorkbookDesigner wd = new WorkbookDesigner();
-  //Открываем файл шаблона (который содержит смарт-маркеры).
+//Открываем файл шаблона (который содержит умные маркеры).
 wd.Workbook = new Workbook("SmartMarker_Designer.xls");
-  // Установите таблицу данных в качестве источника данных.
+// Установите datatable в качестве источника данных.
 wd.SetDataSource(dt);
-  //Обработка интеллектуальных маркеров для заполнения данными рабочих листов.
+//Обработка смарт-маркеров для заполнения данными рабочих листов.
 wd.Process(true);
-  // Сохраняем файл Excel.
+// Сохраняем файл excel.
 wd.Workbook.Save("outSmartMarker_Designer.xls");
 
 [Visual Basic]
 
-'Создаем объект подключения, указываем информацию о провайдере и устанавливаем источник данных.
+'Создайте объект подключения, укажите информацию о провайдере и установите источник данных.
 Dim con As OleDbConnection = New OleDbConnection("provider=microsoft.jet.oledb.4.0;data source=Northwind.mdb")
-'Открываем объект подключения.
+'Откройте объект соединения.
 con.Open()
-'Создаем командный объект и указываем SQL-запрос.
+'Создайте объект команды и укажите SQL-запрос.
 Dim cmd As OleDbCommand = New OleDbCommand("Select * from [Order Details]", con)
-'Создаем объект адаптера данных.
+'Создайте объект адаптера данных.
 Dim da As OleDbDataAdapter = New OleDbDataAdapter()
-'Указываем команду.
+'Укажите команду.
 da.SelectCommand = cmd
-'Создаем объект набора данных.
+'Создайте объект набора данных.
 Dim ds As DataSet = New DataSet()
-'Заполняем набор данных записями таблицы.
+'Заполните набор данных записями таблицы.
 da.Fill(ds, "Order Details")
-'Создаем таблицу данных относительно таблицы набора данных.
+'Создайте таблицу данных относительно таблицы набора данных.
 Dim dt As DataTable = ds.Tables("Order Details")
-'Создать объект WorkbookDesigner.
+'Создайте объект WorkbookDesigner.
 Dim wd As WorkbookDesigner = New WorkbookDesigner()
 'Откройте файл шаблона (который содержит смарт-маркеры).
 Dim workbook As Workbook = New Workbook("SmartMarker_Designer.xls")
@@ -100,7 +100,7 @@ wd.Workbook = workbook
 wd.SetDataSource(dt)
 'Обработайте смарт-маркеры, чтобы заполнить данные на рабочих листах.
 wd.Process(True)
-'Сохраняем файл Excel.
+'Сохраните файл Excel.
 wd.Workbook.Save("outSmartMarker_Designer.xls")
 ```
 
@@ -134,7 +134,7 @@ public void SetDataSource(DataTable dataTable)
 
 ## SetDataSource(string, DataView) {#setdatasource_6}
 
-Устанавливает источник данных объекта DataView и привязывает его к имени источника данных.
+Задает источник данных объекта DataView и привязывает его к имени источника данных.
 
 ```csharp
 public void SetDataSource(string dataSourceName, DataView dataView)
@@ -185,7 +185,7 @@ public void SetDataSource(string name, IDataReader dataReader, int rowCount)
 | --- | --- | --- |
 | name | String | Имя карты источника данных. |
 | dataReader | IDataReader | Объект IDataReader |
-| rowCount | Int32 | Количество строк данных. Если смарт-маркер не содержит "noadd", мы должны вставлять строки по количеству строк для снижения производительности и динамически повторяющихся формул. -1 означает, что параметр бесполезен. |
+| rowCount | Int32 | Количество строк данных. Если смарт-маркер не содержит «noadd», мы должны вставлять строки по количеству строк для снижения производительности и динамически повторяющихся формул. -1 означает, что параметр бесполезен. |
 
 ### Смотрите также
 
@@ -206,7 +206,7 @@ public void SetDataSource(string variable, object data)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | variable | String | Имя переменной, созданное с помощью смарт-маркера. |
-| data | Object | Исходные данные. |
+| data | Object | Источник данных. |
 
 ### Смотрите также
 

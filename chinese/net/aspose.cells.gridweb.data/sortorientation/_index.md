@@ -1,14 +1,14 @@
 ---
 title: SortOrientation
 second_title: Aspose.Cells for .NET API 参考
-description: 表示排序方向
+description: 代表排序方向
 type: docs
 weight: 700
 url: /zh/net/aspose.cells.gridweb.data/sortorientation/
 ---
 ## SortOrientation enumeration
 
-表示排序方向
+代表排序方向
 
 ```csharp
 public enum SortOrientation
@@ -23,7 +23,7 @@ public enum SortOrientation
 
 ### 评论
 
-SortOrientation。 SortTopToBottom 表示从上到下对数据进行排序并逐行交换数据。 SortOrientation.SortLeftToRight 表示数据从左到右排序，逐列交换数据。
+SortOrientation.SortTopToBottom 表示数据从上到下排序，逐行交换数据。 SortOrientation.SortLeftToRight 表示数据从左到右排序，逐列交换数据。
 
 ### 也可以看看
 

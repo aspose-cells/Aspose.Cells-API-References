@@ -1,14 +1,14 @@
 ---
 title: NoneBulletValue
 second_title: Aspose.Cells for .NET API 参考
-description: 表示没有项目符号
+description: 代表没有子弹
 type: docs
 weight: 2920
 url: /zh/net/aspose.cells.drawing.texts/nonebulletvalue/
 ---
 ## NoneBulletValue class
 
-表示没有项目符号。
+代表没有子弹。
 
 ```csharp
 public class NoneBulletValue : BulletValue

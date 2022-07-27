@@ -16,7 +16,7 @@ public int IndexOf(Worksheet sheet)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sheet | Worksheet | Лист, который нужно найти в WorksheetCollection. |
+| sheet | Worksheet | Лист, который нужно найти в коллекции WorksheetCollection. |
 
 ### Смотрите также
 

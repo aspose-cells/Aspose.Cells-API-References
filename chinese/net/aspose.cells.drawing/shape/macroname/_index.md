@@ -19,7 +19,7 @@ public string MacroName { get; set; }
 ```csharp
 
 [C#]
- //设置宏的名称.
+//设置宏的名称。
 shape.MacroName = "DoWork()";
 ```
 

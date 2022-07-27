@@ -1,14 +1,14 @@
 ---
 title: DefaultStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置工作簿的默认Styleaspose.cells/style对象
+description: 获取或设置默认值Styleaspose.cells/style工作簿的对象.
 type: docs
 weight: 130
 url: /zh/net/aspose.cells/workbook/defaultstyle/
 ---
 ## Workbook.DefaultStyle property
 
-获取或设置工作簿的默认[`Style`](../../style)对象。
+获取或设置默认值[`Style`](../../style)工作簿的对象.
 
 ```csharp
 public Style DefaultStyle { get; set; }
@@ -20,7 +20,7 @@ DefaultStyle 属性对于为整个工作簿实现样式很有用。
 
 ### 例子
 
-以下代码创建并实例化一个新工作簿并设置默认[`Style`](../../style)给它。
+以下代码创建并实例化一个新工作簿并设置默认值[`Style`](../../style)给它。
 
 ```csharp
 [C#]

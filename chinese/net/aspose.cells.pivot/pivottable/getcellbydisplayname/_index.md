@@ -1,14 +1,14 @@
 ---
 title: GetCellByDisplayName
 second_title: Aspose.Cells for .NET API 参考
-description: 通过 PivotField
+description: 通过PivotField的DisplayName获取Cell对象
 type: docs
 weight: 860
 url: /zh/net/aspose.cells.pivot/pivottable/getcellbydisplayname/
 ---
 ## PivotTable.GetCellByDisplayName method
 
-通过 PivotField
+通过PivotField的DisplayName获取Cell对象
 
 ```csharp
 public Cell GetCellByDisplayName(string displayName)
@@ -16,11 +16,11 @@ public Cell GetCellByDisplayName(string displayName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| displayName | String | 的 DisplayName 获取 Cell 对象DisplayName of PivotField |
+| displayName | String | PivotField 的 DisplayName |
 
 ### 返回值
 
-Cell 对象
+单元格对象
 
 ### 也可以看看
 

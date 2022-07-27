@@ -8,7 +8,7 @@ url: /ru/net/aspose.cells.griddesktop/contextmenumanager/menuitemavailable_forma
 ---
 ## ContextMenuManager.MenuItemAvailable_FormatCells property
 
-Получает или задает значение, указывающее, доступен ли пункт контекстного меню «FormatCells».
+Получает или задает значение, указывающее, доступен ли пункт контекстного меню FormatCells.
 
 ```csharp
 public bool MenuItemAvailable_FormatCells { get; set; }

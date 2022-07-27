@@ -1,14 +1,14 @@
 ---
 title: SetStyle
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает стиль всех границ коллекции.
+description: Задает стиль всех границ коллекции.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells/bordercollection/setstyle/
 ---
 ## BorderCollection.SetStyle method
 
-Устанавливает стиль всех границ коллекции.
+Задает стиль всех границ коллекции.
 
 ```csharp
 public void SetStyle(CellBorderType style)
@@ -16,7 +16,7 @@ public void SetStyle(CellBorderType style)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| style | CellBorderType | Стиль границ |
+| style | CellBorderType | Стиль бордюров |
 
 ### Смотрите также
 

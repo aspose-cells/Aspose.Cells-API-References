@@ -1,14 +1,14 @@
 ---
 title: InnerRadiusPx
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает внутренний радиус среза пончика в единицах пикселей после вызова метода Chart.Calculate. Применяется к кольцевой диаграмме.
+description: Получает внутренний радиус кольцевого среза в единицах пикселей после вызова метода Chart.Calculate. Применяется к кольцевой диаграмме.
 type: docs
 weight: 150
 url: /ru/net/aspose.cells.charts/chartpoint/innerradiuspx/
 ---
 ## ChartPoint.InnerRadiusPx property
 
-Получает внутренний радиус среза пончика в единицах пикселей после вызова метода Chart.Calculate(). Применяется к кольцевой диаграмме.
+Получает внутренний радиус кольцевого среза в единицах пикселей после вызова метода Chart.Calculate(). Применяется к кольцевой диаграмме.
 
 ```csharp
 public int InnerRadiusPx { get; }

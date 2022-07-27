@@ -3,7 +3,7 @@ title: UngroupRows
 second_title: Aspose.Cells for .NET API 参考
 description: 取消组合行
 type: docs
-weight: 1330
+weight: 1340
 url: /zh/net/aspose.cells/cells/ungrouprows/
 ---
 ## UngroupRows(int, int, bool) {#ungrouprows_1}
@@ -43,7 +43,7 @@ public void UngroupRows(int firstIndex, int lastIndex)
 
 ### 评论
 
-仅删除外部组信息。
+只删除外部组信息。
 
 ### 也可以看看
 

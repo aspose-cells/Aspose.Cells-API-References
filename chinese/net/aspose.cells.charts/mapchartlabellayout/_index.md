@@ -20,7 +20,7 @@ public enum MapChartLabelLayout
 | --- | --- | --- |
 | BestFitOnly | `0` | 只有最合适的。 |
 | ShowAll | `1` | 显示所有标签。 |
-| None | `2` | 无标签。 |
+| None | `2` | 没有标签。 |
 
 ### 也可以看看
 

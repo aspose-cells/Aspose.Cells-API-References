@@ -1,14 +1,14 @@
 ---
 title: InsertOptions
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет параметры вставки.
+description: Представляет варианты вставки.
 type: docs
 weight: 3900
 url: /ru/net/aspose.cells/insertoptions/
 ---
 ## InsertOptions class
 
-Представляет параметры вставки.
+Представляет варианты вставки.
 
 ```csharp
 public class InsertOptions
@@ -25,7 +25,7 @@ public class InsertOptions
 | Имя | Описание |
 | --- | --- |
 | [CopyFormatType](../../aspose.cells/insertoptions/copyformattype) { get; set; } |  |
-| [UpdateReference](../../aspose.cells/insertoptions/updatereference) { get; set; } | Указывает, будут ли обновляться ссылки в других рабочих листах. |
+| [UpdateReference](../../aspose.cells/insertoptions/updatereference) { get; set; } | Указывает, будут ли обновлены ссылки на других рабочих листах. |
 
 ### Смотрите также
 

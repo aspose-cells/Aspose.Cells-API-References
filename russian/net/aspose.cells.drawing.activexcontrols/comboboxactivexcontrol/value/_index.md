@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает значение элемента управления.
+description: Получает и устанавливает значение элемента управления.
 type: docs
 weight: 230
 url: /ru/net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/value/
 ---
 ## ComboBoxActiveXControl.Value property
 
-Получает и задает значение элемента управления.
+Получает и устанавливает значение элемента управления.
 
 ```csharp
 public string Value { get; set; }

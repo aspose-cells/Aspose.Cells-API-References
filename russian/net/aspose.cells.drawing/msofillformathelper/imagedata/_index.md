@@ -1,14 +1,14 @@
 ---
 title: ImageData
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает данные заполнения текстуры и изображения.
+description: Получает и задает данные заливки текстуры и изображения.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.drawing/msofillformathelper/imagedata/
 ---
 ## MsoFillFormatHelper.ImageData property
 
-Получает и задает данные заполнения текстуры и изображения.
+Получает и задает данные заливки текстуры и изображения.
 
 ```csharp
 public byte[] ImageData { get; set; }

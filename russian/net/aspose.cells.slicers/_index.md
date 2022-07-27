@@ -13,10 +13,10 @@ url: /ru/net/aspose.cells.slicers/
 | Учебный класс | Описание |
 | --- | --- |
 | [Slicer](./slicer) | краткое описание Slicer View |
-| [SlicerCache](./slicercache) | краткое описание кеша слайсера |
-| [SlicerCacheItem](./slicercacheitem) | Представляет элемент источника данных среза |
+| [SlicerCache](./slicercache) | краткое описание кэша слайсера |
+| [SlicerCacheItem](./slicercacheitem) | Представляет источник данных среза item |
 | [SlicerCacheItemCollection](./slicercacheitemcollection) | Представляет коллекцию SlicerCacheItem |
-| [SlicerCollection](./slicercollection) | Задает набор всех объектов Slicer на указанном рабочем листе. |
+| [SlicerCollection](./slicercollection) | Определяет коллекцию всех объектов Slicer на указанном листе. |
 ## перечисление
 
 | перечисление | Описание |

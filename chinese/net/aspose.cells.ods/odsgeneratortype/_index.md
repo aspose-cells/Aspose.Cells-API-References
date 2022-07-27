@@ -18,8 +18,8 @@ public enum OdsGeneratorType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| LibreOffice | `0` | Libre Office |
-| OpenOffice | `1` | 开放办公室 |
+| LibreOffice | `0` | 自由办公室 |
+| OpenOffice | `1` | 打开办公室 |
 
 ### 也可以看看
 

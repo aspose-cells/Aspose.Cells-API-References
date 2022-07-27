@@ -3,7 +3,7 @@ title: GetViewRowHeightInch
 second_title: Справочник по Aspose.Cells для .NET API
 description: Получает высоту указанной строки в дюймах.
 type: docs
-weight: 850
+weight: 860
 url: /ru/net/aspose.cells/cells/getviewrowheightinch/
 ---
 ## Cells.GetViewRowHeightInch method
@@ -20,7 +20,7 @@ public double GetViewRowHeightInch(int row)
 
 ### Возвращаемое значение
 
-Высота строки
+Высота ряда
 
 ### Смотрите также
 

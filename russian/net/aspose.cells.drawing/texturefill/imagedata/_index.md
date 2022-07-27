@@ -1,14 +1,14 @@
 ---
 title: ImageData
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает данные изображения заливки.
+description: Получает и задает данные изображения заливки.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.drawing/texturefill/imagedata/
 ---
 ## TextureFill.ImageData property
 
-Получает и устанавливает данные изображения заливки.
+Получает и задает данные изображения заливки.
 
 ```csharp
 public byte[] ImageData { get; set; }

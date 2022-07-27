@@ -29,7 +29,7 @@ public class CellControlCollection : CellRelativeCollection
 | [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton#addbutton_3)(string, int, int, string, bool) | 按单元格名称将按钮添加到指定单元格。 |
 | [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton#addbutton_1)(int, int, int, int, string, bool) | 将按钮添加到行列索引处的指定单元格。 |
 | [AddCheckBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcheckbox#addcheckbox_1)(string, bool) | 按单元格名称将复选框添加到指定单元格。 |
-| [AddCheckBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcheckbox#addcheckbox)(int, int, bool) | 将复选框添加到行列索引处的指定单元格。 |
+| [AddCheckBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcheckbox#addcheckbox)(int, int, bool) | 在行列索引的指定单元格中添加一个复选框。 |
 | [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox#addcombobox_2)(string, ICollection) | 按单元格名称将组合框添加到指定单元格。 |
 | [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox#addcombobox)(int, int, ICollection) | 将组合框添加到行列索引处的指定单元格。 |
 | [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox#addcombobox_3)(string, ICollection, ICollection) | 按单元格名称将组合框添加到指定单元格。 |

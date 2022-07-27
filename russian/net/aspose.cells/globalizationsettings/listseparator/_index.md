@@ -1,14 +1,14 @@
 ---
 title: ListSeparator
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает разделитель для списка параметры функции ... и т.д.
+description: Получает разделитель для списка параметров функции и т. д.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/globalizationsettings/listseparator/
 ---
 ## GlobalizationSettings.ListSeparator property
 
-Получает разделитель для списка, параметры функции, ... и т.д.
+Получает разделитель для списка, параметров функции и т. д.
 
 ```csharp
 public virtual char ListSeparator { get; }

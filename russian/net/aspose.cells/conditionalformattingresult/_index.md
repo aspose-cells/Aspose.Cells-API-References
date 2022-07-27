@@ -21,7 +21,7 @@ public class ConditionalFormattingResult
 | [ColorScaleResult](../../aspose.cells/conditionalformattingresult/colorscaleresult) { get; } | Получает отображаемый цвет цветовой шкалы. |
 | [ConditionalFormattingColorScale](../../aspose.cells/conditionalformattingresult/conditionalformattingcolorscale) { get; } | Получает объект ColorScale. |
 | [ConditionalFormattingDataBar](../../aspose.cells/conditionalformattingresult/conditionalformattingdatabar) { get; } | Получает объект DataBar. |
-| [ConditionalFormattingIcon](../../aspose.cells/conditionalformattingresult/conditionalformattingicon) { get; } | Получает изображение набора иконок. |
+| [ConditionalFormattingIcon](../../aspose.cells/conditionalformattingresult/conditionalformattingicon) { get; } | Получает изображение набора значков. |
 | [ConditionalStyle](../../aspose.cells/conditionalformattingresult/conditionalstyle) { get; } | Получает условный стиль результата. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: CellReference
 second_title: Aspose.Cells for .NET API 参考
-description: 单元格引用指示用于查询参数的单元格值仅在 parameterType 为 cell 时使用
+description: 单元格引用指示用于查询参数的单元格值仅当 parameterType 为 cell. 时使用
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.externalconnections/connectionparameter/cellreference/
 ---
 ## ConnectionParameter.CellReference property
 
-单元格引用，指示用于查询参数的单元格值。仅在 parameterType 为 cell 时使用。
+单元格引用，指示用于查询参数的单元格值。仅当 parameterType 为 cell. 时使用
 
 ```csharp
 public string CellReference { get; set; }

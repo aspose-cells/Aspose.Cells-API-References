@@ -1,14 +1,14 @@
 ---
 title: GetPivotFilterByType
 second_title: Aspose.Cells for .NET API 参考
-description: 通过类型47
+description: 通过type 获取pivot字段的pivot过滤器
 type: docs
 weight: 430
 url: /zh/net/aspose.cells.pivot/pivotfield/getpivotfilterbytype/
 ---
 ## PivotField.GetPivotFilterByType method
 
-通过类型::47::
+通过type 获取pivot字段的pivot过滤器
 
 ```csharp
 public PivotFilter GetPivotFilterByType(PivotFilterType type)

@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置样式名称
+description: 获取或设置样式的名称
 type: docs
 weight: 220
 url: /zh/net/aspose.cells/style/name/
 ---
 ## Style.Name property
 
-获取或设置样式名称。
+获取或设置样式的名称。
 
 ```csharp
 public string Name { get; set; }

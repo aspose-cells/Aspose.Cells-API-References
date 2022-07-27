@@ -1,14 +1,14 @@
 ---
 title: ActionType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает тип действия редакции.
+description: Получает тип действия ревизии.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.revisions/revisioninsertsheet/actiontype/
 ---
 ## RevisionInsertSheet.ActionType property
 
-Получает тип действия редакции.
+Получает тип действия ревизии.
 
 ```csharp
 public RevisionActionType ActionType { get; }

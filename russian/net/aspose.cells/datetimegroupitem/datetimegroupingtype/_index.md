@@ -1,14 +1,14 @@
 ---
 title: DateTimeGroupingType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает тип группы.
+description: Получает и устанавливает тип группы.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/datetimegroupitem/datetimegroupingtype/
 ---
 ## DateTimeGroupItem.DateTimeGroupingType property
 
-Получает и задает тип группы.
+Получает и устанавливает тип группы.
 
 ```csharp
 public DateTimeGroupingType DateTimeGroupingType { get; set; }

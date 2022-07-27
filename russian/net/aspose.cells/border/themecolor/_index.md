@@ -1,14 +1,14 @@
 ---
 title: ThemeColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает цвет границы темы.
+description: Получает и устанавливает цвет темы границы.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/border/themecolor/
 ---
 ## Border.ThemeColor property
 
-Получает и устанавливает цвет границы темы.
+Получает и устанавливает цвет темы границы.
 
 ```csharp
 public ThemeColor ThemeColor { get; set; }

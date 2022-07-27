@@ -1,14 +1,14 @@
 ---
 title: GetLegendIncreaseName
 second_title: Aspose.Cells for .NET API 参考
-description: 获取 Legend 的增加名称
+description: 获取 Legend. 的增加名称
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.charts/chartglobalizationsettings/getlegendincreasename/
 ---
 ## ChartGlobalizationSettings.GetLegendIncreaseName method
 
-获取 Legend 的增加名称。
+获取 Legend. 的增加名称
 
 ```csharp
 public virtual string GetLegendIncreaseName()

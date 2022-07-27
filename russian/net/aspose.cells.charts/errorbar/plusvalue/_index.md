@@ -1,14 +1,14 @@
 ---
 title: PlusValue
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет положительную величину ошибки когда тип полосы ошибок - Пользовательский.
+description: Представляет положительную величину ошибки когда тип полосы ошибок  Пользовательский.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.charts/errorbar/plusvalue/
 ---
 ## ErrorBar.PlusValue property
 
-Представляет положительную величину ошибки, когда тип полосы ошибок - Пользовательский.
+Представляет положительную величину ошибки, когда тип полосы ошибок — Пользовательский.
 
 ```csharp
 public string PlusValue { get; set; }

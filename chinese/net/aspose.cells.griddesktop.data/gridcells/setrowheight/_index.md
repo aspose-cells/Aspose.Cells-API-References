@@ -17,7 +17,7 @@ public void SetRowHeight(int row, double height)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | row | Int32 | 行索引。 |
-| height | Double | 行高。以点为单位 应在 0 到 409.5 之间。 |
+| height | Double | 行高。以点为单位，应在 0 到 409.5 之间。 |
 
 ### 评论
 

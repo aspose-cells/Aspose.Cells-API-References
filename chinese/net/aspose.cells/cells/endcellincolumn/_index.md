@@ -20,7 +20,7 @@ public Cell EndCellInColumn(short columnIndex)
 
 ### 返回值
 
-单元对象。
+单元格对象。
 
 ### 也可以看看
 
@@ -41,14 +41,14 @@ public Cell EndCellInColumn(int startRow, int endRow, short startColumn, short e
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startRow | Int32 | 起始行索引。 |
+| startRow | Int32 | 开始行索引。 |
 | endRow | Int32 | 结束行索引。 |
-| startColumn | Int16 | 起始列索引。 |
+| startColumn | Int16 | 开始列索引。 |
 | endColumn | Int16 | 结束列索引。 |
 
 ### 返回值
 
-单元对象。
+单元格对象。
 
 ### 也可以看看
 

@@ -24,10 +24,10 @@ public class FormulaParseOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CheckAddIn](../../aspose.cells/formulaparseoptions/checkaddin) { get; set; } | 是否检查当前工作簿的现有外部链接中的插件以获取没有外部链接的用户定义函数。 默认为true（如果用户定义的函数与现有外部链接中的一个插件匹配，则将其作为插件）。 |
-| [LocaleDependent](../../aspose.cells/formulaparseoptions/localedependent) { get; set; } | 公式是否为区域设置格式。默认为假。 |
-| [Parse](../../aspose.cells/formulaparseoptions/parse) { get; set; } | 是否解析给定的公式。默认为真。 如果为假，则给定的公式字符串将保持原样，直到用户调用其他方法对其进行解析 或其他操作需要解析的公式数据，例如作为计算公式。 |
-| [R1C1Style](../../aspose.cells/formulaparseoptions/r1c1style) { get; set; } | 公式是否为R1C1引用样式。默认为假。 |
+| [CheckAddIn](../../aspose.cells/formulaparseoptions/checkaddin) { get; set; } | 是否在当前工作簿的现有外部链接中检查用户定义的函数没有外部链接。 默认为true（如果用户定义的函数与现有外部链接中的一个插件匹配，则将其作为插件）。 |
+| [LocaleDependent](../../aspose.cells/formulaparseoptions/localedependent) { get; set; } | 公式是否为语言环境格式。默认为假。 |
+| [Parse](../../aspose.cells/formulaparseoptions/parse) { get; set; } | 是否解析给定的公式。默认为true。 如果为false，则给定的公式字符串将保留为单元格，直到用户调用其他方法来解析它们 或其他操作（例如计算公式）需要解析的公式数据。 |
+| [R1C1Style](../../aspose.cells/formulaparseoptions/r1c1style) { get; set; } | 公式是否为 R1C1 引用样式。默认为假。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: VerticalPageBreaks
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает коллекциюVerticalPageBreakCollectionaspose.cells/verticalpagebreakcollection.
+description: ПолучаетVerticalPageBreakCollectionaspose.cells/verticalpagebreakcollection коллекция.
 type: docs
 weight: 550
 url: /ru/net/aspose.cells/worksheet/verticalpagebreaks/
 ---
 ## Worksheet.VerticalPageBreaks property
 
-Получает коллекцию[`VerticalPageBreakCollection`](../../verticalpagebreakcollection).
+Получает[`VerticalPageBreakCollection`](../../verticalpagebreakcollection) коллекция.
 
 ```csharp
 public VerticalPageBreakCollection VerticalPageBreaks { get; }

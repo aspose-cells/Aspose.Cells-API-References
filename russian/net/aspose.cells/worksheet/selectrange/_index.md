@@ -17,11 +17,11 @@ public void SelectRange(int startRow, int startColumn, int totalRows, int totalC
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startRow | Int32 | Начальная строка. |
+| startRow | Int32 | Стартовый ряд. |
 | startColumn | Int32 | Начальный столбец |
-| totalRows | Int32 | Количество строк . |
+| totalRows | Int32 | Количество рядов. |
 | totalColumns | Int32 | Количество столбцов |
-| removeOthers | Boolean | True означает удаление другого выбранного диапазона и выбор только этого диапазон. |
+| removeOthers | Boolean | True означает удаление другого выбранного диапазона и выбор только этого диапазона. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: PivotTableAutoFormatType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示数据透视表自动格式类型
+description: 表示数据透视表自动格式化类型
 type: docs
 weight: 4700
 url: /zh/net/aspose.cells.pivot/pivottableautoformattype/
 ---
 ## PivotTableAutoFormatType enumeration
 
-表示数据透视表自动格式类型。
+表示数据透视表自动格式化类型。
 
 ```csharp
 public enum PivotTableAutoFormatType
@@ -18,28 +18,28 @@ public enum PivotTableAutoFormatType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 表示 None 格式类型。 |
-| Classic | `1` | 代表经典自动格式类型。 |
-| Report1 | `2` | 表示 Report1 格式类型。 |
-| Report2 | `3` | 表示 Report2 格式类型。 |
-| Report3 | `4` | 表示 Report3 格式类型。 |
-| Report4 | `5` | 表示 Report4 格式类型。 |
-| Report5 | `6` | 表示 Report5 格式类型。 |
-| Report6 | `7` | 表示 Report6 格式类型。 |
-| Report7 | `8` | 表示 Report7 格式类型。 |
-| Report8 | `9` | 表示 Report8 格式类型。 |
-| Report9 | `10` | 表示 Report9 格式类型。 |
-| Report10 | `11` | 表示 Report10 格式类型。 |
-| Table1 | `12` | 表示 Table1 格式类型。 |
+| None | `0` | 表示无格式类型。 |
+| Classic | `1` | 代表经典自动格式化类型。 |
+| Report1 | `2` | 代表 Report1 格式类型。 |
+| Report2 | `3` | 代表 Report2 格式类型。 |
+| Report3 | `4` | 代表 Report3 格式类型。 |
+| Report4 | `5` | 代表 Report4 格式类型。 |
+| Report5 | `6` | 代表 Report5 格式类型。 |
+| Report6 | `7` | 代表 Report6 格式类型。 |
+| Report7 | `8` | 代表 Report7 格式类型。 |
+| Report8 | `9` | 代表 Report8 格式类型。 |
+| Report9 | `10` | 代表 Report9 格式类型。 |
+| Report10 | `11` | 代表 Report10 格式类型。 |
+| Table1 | `12` | 代表Table1格式类型。 |
 | Table2 | `13` | 表示 Table2 格式类型。 |
-| Table3 | `14` | 表示 Table3 格式类型。 |
-| Table4 | `15` | 表示 Table4 格式类型。 |
-| Table5 | `16` | 表示 Table5 格式类型。 |
-| Table6 | `17` | 表示 Table6 格式类型。 |
-| Table7 | `18` | 表示 Table7 格式类型。 |
-| Table8 | `19` | 表示 Table8 格式类型。 |
-| Table9 | `20` | 表示 Table9 格式类型。 |
-| Table10 | `21` | 表示 Table10 格式类型。 |
+| Table3 | `14` | 代表Table3格式类型。 |
+| Table4 | `15` | 代表Table4格式类型。 |
+| Table5 | `16` | 代表Table5格式类型。 |
+| Table6 | `17` | 代表Table6格式类型。 |
+| Table7 | `18` | 代表Table7格式类型。 |
+| Table8 | `19` | 代表Table8格式类型。 |
+| Table9 | `20` | 代表Table9格式类型。 |
+| Table10 | `21` | 代表Table10格式类型。 |
 
 ### 也可以看看
 

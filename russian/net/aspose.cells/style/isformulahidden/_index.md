@@ -1,14 +1,14 @@
 ---
 title: IsFormulaHidden
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает будет ли формула скрыта когда рабочий лист защищен.
+description: Указывает будет ли скрыта формула когда рабочий лист защищен.
 type: docs
 weight: 160
 url: /ru/net/aspose.cells/style/isformulahidden/
 ---
 ## Style.IsFormulaHidden property
 
-Указывает, будет ли формула скрыта, когда рабочий лист защищен.
+Указывает, будет ли скрыта формула, когда рабочий лист защищен.
 
 ```csharp
 public bool IsFormulaHidden { get; set; }

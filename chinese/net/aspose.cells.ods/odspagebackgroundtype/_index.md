@@ -18,7 +18,7 @@ public enum OdsPageBackgroundType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 无背景。 |
+| None | `0` | 没有背景。 |
 | Color | `1` | 用颜色格式化背景。 |
 | Graphic | `2` | 用图像格式化背景。 |
 

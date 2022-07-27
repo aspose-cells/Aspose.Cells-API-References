@@ -1,14 +1,14 @@
 ---
 title: IsCloudPlatform
 second_title: Aspose.Cells for .NET API 参考
-description: 在云平台上运行时请将此属性设置为True例如AzureAWSLambda等
+description: 在云平台上运行时请将此属性设置为True如AzureAWSLambda等
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/cellshelper/iscloudplatform/
 ---
 ## CellsHelper.IsCloudPlatform property
 
-在云平台上运行时请将此属性设置为True，例如:Azure，AWSLambda等，
+在云平台上运行时请将此属性设置为True，如：Azure、AWSLambda等，
 
 ```csharp
 public static bool IsCloudPlatform { get; set; }

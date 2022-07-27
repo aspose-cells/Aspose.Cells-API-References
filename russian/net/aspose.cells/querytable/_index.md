@@ -31,26 +31,26 @@ public class QueryTable
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 
-//Получение ссылки на первый worksheet
+//Получение ссылки на первый рабочий лист
 Worksheet worksheet = workbook.Worksheets[0];
-  //Получение первой таблицы запросов в worksheet
+//Получение первой таблицы запросов на листе
 QueryTable qt = worksheet.QueryTables[0];
-  //Получение отображаемого адреса таблицы запросов.
+//Получение отображаемого адреса таблицы запросов.
 string address = qt.ResultRange.Address;
 
 [VB.NET]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
 
-'Получение ссылки на первый worksheet
+'Получение ссылки на первый рабочий лист
 Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Получение первой таблицы запросов в worksheet
+'Получение первой таблицы запросов на листе
 QueryTable qt = worksheet.QueryTables[0];
-'Получение отображаемого адреса таблицы запросов.
+'Получение отображаемого адреса таблицы запроса.
 string address = qt.ResultRange.Address;
 ```
 

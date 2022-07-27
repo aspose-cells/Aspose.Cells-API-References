@@ -1,14 +1,14 @@
 ---
 title: CellsColor
 second_title: Aspose.Cells for .NET API 参考
-description: 获取此渐变色标的颜色
+description: 获取此渐变停止的颜色
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.drawing/gradientstop/cellscolor/
 ---
 ## GradientStop.CellsColor property
 
-获取此渐变色标的颜色。
+获取此渐变停止的颜色。
 
 ```csharp
 public CellsColor CellsColor { get; }

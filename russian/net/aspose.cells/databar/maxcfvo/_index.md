@@ -1,14 +1,14 @@
 ---
 title: MaxCfvo
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получите или установите объект максимального значения этого DataBar. Невозможно установить значение null или CFValueObject с типом FormatConditionValueType.Min.
+description: Получить или установить объект максимального значения этого DataBar. Невозможно установить для него null или CFValueObject с типом FormatConditionValueType.Min.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells/databar/maxcfvo/
 ---
 ## DataBar.MaxCfvo property
 
-Получите или установите объект максимального значения этого DataBar. Невозможно установить значение null или CFValueObject с типом FormatConditionValueType.Min.
+Получить или установить объект максимального значения этого DataBar. Невозможно установить для него null или CFValueObject с типом FormatConditionValueType.Min.
 
 ```csharp
 public ConditionalFormattingValue MaxCfvo { get; }

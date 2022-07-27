@@ -1,14 +1,14 @@
 ---
 title: RemoveAt
 second_title: Aspose.Cells for .NET API 参考
-description: 删除形状
+description: 移除形状
 type: docs
 weight: 430
 url: /zh/net/aspose.cells.drawing/shapecollection/removeat/
 ---
 ## ShapeCollection.RemoveAt method
 
-删除形状。
+移除形状。
 
 ```csharp
 public void RemoveAt(int index)
@@ -23,12 +23,12 @@ public void RemoveAt(int index)
 ```csharp
 
 [C#]
- //添加第一个shape
+//添加第一个形状
 shapes.AddRectangle(2, 0, 2, 0, 50, 50);
- //添加第二个shape
+//添加第二个形状
 shapes.AddRectangle(6, 0, 2, 0, 30, 30);
 
- //删除
+//消除 
 shapes.RemoveAt(0);
 
 ```

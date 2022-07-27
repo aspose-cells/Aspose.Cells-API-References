@@ -1,14 +1,14 @@
 ---
 title: Bookmark
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает объектPdfBookmarkEntryaspose.cells.rendering/pdfbookmarkentry .
+description: Получает и устанавливаетPdfЗакладкаЗаписьaspose.cells.rendering/pdfbookmarkentry объект.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/pdfsaveoptions/bookmark/
 ---
 ## PdfSaveOptions.Bookmark property
 
-Получает и задает объект[`PdfBookmarkEntry`](../../../aspose.cells.rendering/pdfbookmarkentry) .
+Получает и устанавливает[`PdfЗакладкаЗапись`](../../../aspose.cells.rendering/pdfbookmarkentry) объект.
 
 ```csharp
 public PdfBookmarkEntry Bookmark { get; set; }

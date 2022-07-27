@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定索引处的Borderaspose.cells/border元素
+description: 获取Borderaspose.cells/border指定索引处的元素
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/bordercollection/item/
 ---
 ## BorderCollection indexer
 
-获取指定索引处的[`Border`](../../border)元素。
+获取[`Border`](../../border)指定索引处的元素。
 
 ```csharp
 public Border this[BorderType borderType] { get; }
@@ -16,7 +16,7 @@ public Border this[BorderType borderType] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| borderType | 要检索的边框。 |
+| borderType | 要检索的边界。 |
 
 ### 返回值
 

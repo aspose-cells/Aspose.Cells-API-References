@@ -41,7 +41,7 @@ public object CalculateFormula(string formula, CalculationOptions opts)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | formula | String | 要计算的公式。 |
-| opts | CalculationOptions | 公式计算选项 |
+| opts | CalculationOptions | 计算公式的选项 |
 
 ### 返回值
 

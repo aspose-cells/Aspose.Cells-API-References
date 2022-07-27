@@ -1,14 +1,14 @@
 ---
 title: ChartDataTable
 second_title: Aspose.Cells for .NET API 参考
-description: 表示图表数据表
+description: 表示一个图表数据表
 type: docs
 weight: 460
 url: /zh/net/aspose.cells.charts/chartdatatable/
 ---
 ## ChartDataTable class
 
-表示图表数据表。
+表示一个图表数据表。
 
 ```csharp
 public class ChartDataTable
@@ -19,12 +19,12 @@ public class ChartDataTable
 | 姓名 | 描述 |
 | --- | --- |
 | [AutoScaleFont](../../aspose.cells.charts/chartdatatable/autoscalefont) { get; set; } | 如果对象中的文本在对象大小更改时更改字体大小，则为真。 默认值为 True。 |
-| [BackgroundMode](../../aspose.cells.charts/chartdatatable/backgroundmode) { get; set; } | 获取和设置背景的显示方式 |
+| [BackgroundMode](../../aspose.cells.charts/chartdatatable/backgroundmode) { get; set; } | 获取和设置背景的显示模式 |
 | [Border](../../aspose.cells.charts/chartdatatable/border) { get; } | 返回一个 Border 对象，表示对象的边框 |
-| [Font](../../aspose.cells.charts/chartdatatable/font) { get; } | 获取[`Font`](./font)对象，该对象表示指定图表数据表的字体设置。 |
-| [HasBorderHorizontal](../../aspose.cells.charts/chartdatatable/hasborderhorizontal) { get; set; } | 如果图表数据表具有水平单元格边框，则为真 |
-| [HasBorderOutline](../../aspose.cells.charts/chartdatatable/hasborderoutline) { get; set; } | 如果图表数据表有轮廓边框则为真 |
-| [HasBorderVertical](../../aspose.cells.charts/chartdatatable/hasbordervertical) { get; set; } | 如果图表数据表具有垂直单元格边框，则为真 |
+| [Font](../../aspose.cells.charts/chartdatatable/font) { get; } | 得到一个[`Font`](./font)表示指定图表数据表的字体设置的对象。 |
+| [HasBorderHorizontal](../../aspose.cells.charts/chartdatatable/hasborderhorizontal) { get; set; } | 如果图表数据表有水平单元格边框，则为真 |
+| [HasBorderOutline](../../aspose.cells.charts/chartdatatable/hasborderoutline) { get; set; } | 如果图表数据表有轮廓边框，则为真 |
+| [HasBorderVertical](../../aspose.cells.charts/chartdatatable/hasbordervertical) { get; set; } | 如果图表数据表有垂直单元格边框，则为真 |
 | [ShowLegendKey](../../aspose.cells.charts/chartdatatable/showlegendkey) { get; set; } | 如果数据标签图例键可见，则为真。 |
 
 ### 例子
@@ -33,79 +33,77 @@ public class ChartDataTable
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 
-//获取第一个worksheet
-
+//获取第一个工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
 
- //向“A1”添加样本值 cell
+//向“A1”单元格添加样本值
 worksheet.Cells["A1"].PutValue(50);
 
-//向“A2”添加样本值 cell
+//向“A2”单元格添加样本值
 worksheet.Cells["A2"].PutValue(100);
 
- //向“A3”添加样本值 cell
+//向“A3”单元格添加样本值
 worksheet.Cells["A3"].PutValue(150);
 
- //向“B1”添加样本值 cell
+//向“B1”单元格添加样本值
 worksheet.Cells["B1"].PutValue(60);
 
- //将样本值添加到“B2” cell
+//向“B2”单元格添加样本值
 worksheet.Cells["B2"].PutValue(32);
 
- //将样本值添加到“B3” cell
+//向“B3”单元格添加样本值
 worksheet.Cells["B3"].PutValue(50);
 
- //将图表添加到工作表
+//向工作表添加图表
 int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10);
 
- //访问新添加的chart
-
+//访问新添加图表的实例
 Chart chart = worksheet.Charts[chartIndex];
 
- //将NSeries（图表数据源）添加到从“A1”单元格到“B3”单元格的图表中
+//将NSeries（图表数据源）添加到从“A1”单元格到“B3”单元格的图表中
 chart.NSeries.Add("A1:B3", true);
 
 chart.ShowDataTable = true;
 
- //获取图表Table
+//获取图表表
 ChartDataTable chartTable = chart.ChartDataTable;
 
-//设置图表表字体颜色
+//设置图表表格字体颜色
 chartTable.Font.Color = System.Drawing.Color.Red;
 
- //设置图例键 VisibilityOptions
+//设置图例键 VisibilityOptions
 chartTable.ShowLegendKey = false;
 
- //保存Excel文件
+//保存Excel文件
 workbook.Save("book1.xls");
 
 [VB.NET]
 
-'实例化一个Workbook目的
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 
-'Obtaining the reference of the first worksheet
+'获取第一个工作表的引用
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-'将样本值添加到至 "A1" cell
+'Adding a sample value to "A1" cell
 worksheet.Cells("A1").PutValue(50)
 
- "A2" cell
+'Adding a sample value to "A2" cell
 worksheet.Cells("A2").PutValue(100)
 
-'将样本值添加到至 "A3" cell
+'Adding a sample value to "A3" cell
 worksheet.Cells("A3").PutValue(150)
 
-'将样本值添加到至 "B1" cell
+'Adding a sample value to "B1" cell
 worksheet.Cells("B1").PutValue(60)
 
-'将样本值添加到至 "B2" cell
+'Adding a sample value to "B2" cell
 worksheet.Cells("B2").PutValue(32)
 
-'将样本值添加到至 "B3" cell
+'Adding a sample value to "B3" cell
 worksheet.Cells("B3").PutValue(50)
 
 '将图表添加到工作表
@@ -114,7 +112,7 @@ Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10)
 '访问新添加图表的实例
 Dim chart As Chart = worksheet.Charts(chartIndex)
 
-'将 NSeries（图表数据源）添加到图表中，范围从“A1”单元格到“B3”
+'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
 chart.NSeries.Add("A1:B3", True)
 
 chart.ShowDataTable = True

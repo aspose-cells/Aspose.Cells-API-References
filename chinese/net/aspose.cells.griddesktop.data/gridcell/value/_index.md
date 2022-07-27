@@ -16,19 +16,19 @@ public object Value { get; set; }
 
 ### 评论
 
-可能的类型:
+可能的类型：
 
-null,
+无效的，
 
-Boolean,
+布尔值，
 
-DateTime,
+约会时间，
 
-Double,
+双倍的，
 
 整数
 
-字符串。
+细绳。
 
 ### 也可以看看
 

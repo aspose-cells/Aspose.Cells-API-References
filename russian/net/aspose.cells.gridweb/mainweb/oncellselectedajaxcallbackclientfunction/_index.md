@@ -1,14 +1,14 @@
 ---
 title: OnCellSelectedAjaxCallBackClientFunction
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает функцию на стороне клиента которая будет вызываться при выборе ячейки. Клиентская функция должна быть объявлена следующим образомltbr /gt function MyOnSelectCellAjaxCallBackcellcustomerdataltbr /gt ltbr /gt ltbr /gt ltbr /gtltbr /gtПримечание. Вы можете использовать указатель this в клиентской функции чтобы указать на элемент управления сетки запускающий событие.
+description: Получает или задает функцию на стороне клиента которая будет вызываться при выборе ячейки. Функция клиента должна быть объявлена следующим образом функция MyOnSelectCellAjaxCallBack ячейка данные клиента   Примечание. Вы можете использовать указатель this в клиентской функции чтобы указать элемент управления сеткой который запускает событие.
 type: docs
 weight: 580
 url: /ru/net/aspose.cells.gridweb/mainweb/oncellselectedajaxcallbackclientfunction/
 ---
 ## MainWeb.OnCellSelectedAjaxCallBackClientFunction property
 
-Получает или задает функцию на стороне клиента, которая будет вызываться при выборе ячейки. Клиентская функция должна быть объявлена следующим образом:&lt;br /&gt; function MyOnSelectCellAjaxCallBack(cell,customerdata)&lt;br /&gt; {&lt;br /&gt; &lt;br /&gt; }&lt;br /&gt;&lt;br /&gt;Примечание. Вы можете использовать указатель "this" в клиентской функции, чтобы указать на элемент управления сетки, запускающий событие.
+Получает или задает функцию на стороне клиента, которая будет вызываться при выборе ячейки. Функция клиента должна быть объявлена следующим образом: функция MyOnSelectCellAjaxCallBack (ячейка, данные клиента) { } Примечание. Вы можете использовать указатель «this» в клиентской функции, чтобы указать элемент управления сеткой, который запускает событие.
 
 ```csharp
 public string OnCellSelectedAjaxCallBackClientFunction { get; set; }

@@ -16,7 +16,7 @@ public int Add()
 
 ### 返回值
 
-返回[`ShapePath`](../../shapepath)对象。
+退货[`ShapePath`](../../shapepath)目的。
 
 ### 也可以看看
 

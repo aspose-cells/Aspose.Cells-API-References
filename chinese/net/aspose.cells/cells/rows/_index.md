@@ -1,14 +1,14 @@
 ---
 title: Rows
 second_title: Aspose.Cells for .NET API 参考
-description: 获取Rowaspose.cells/row对象的集合这些对象表示此工作表中的各个行
+description: 获取集合Rowaspose.cells/row表示此工作表中各个行的对象
 type: docs
 weight: 240
 url: /zh/net/aspose.cells/cells/rows/
 ---
 ## Cells.Rows property
 
-获取[`Row`](../../row)对象的集合，这些对象表示此工作表中的各个行。
+获取集合[`Row`](../../row)表示此工作表中各个行的对象。
 
 ```csharp
 public RowCollection Rows { get; }

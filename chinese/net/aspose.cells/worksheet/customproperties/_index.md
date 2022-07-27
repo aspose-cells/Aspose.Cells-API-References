@@ -1,14 +1,14 @@
 ---
 title: CustomProperties
 second_title: Aspose.Cells for .NET API 参考
-description: 获取表示 与工作表关联的标识符信息的对象
+description: 获取一个对象该对象表示 与工作表关联的标识符信息
 type: docs
 weight: 120
 url: /zh/net/aspose.cells/worksheet/customproperties/
 ---
 ## Worksheet.CustomProperties property
 
-获取表示 与工作表关联的标识符信息的对象。
+获取一个对象，该对象表示 与工作表关联的标识符信息。
 
 ```csharp
 public CustomPropertyCollection CustomProperties { get; }
@@ -16,7 +16,7 @@ public CustomPropertyCollection CustomProperties { get; }
 
 ### 评论
 
-Worksheet.CustomProperties 提供了存储任意数据的首选机制。 它支持遗留的第三方文档组件，以及那些对二进制部分有严格需求的情况。
+Worksheet.CustomProperties 提供了一种存储任意数据的首选机制。 它支持遗留的第三方文档组件，以及那些对二进制部分有严格需求的情况。
 
 ### 也可以看看
 

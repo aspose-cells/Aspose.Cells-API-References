@@ -1,14 +1,14 @@
 ---
 title: SaveToCacheWithFileName
 second_title: Aspose.Cells for .NET API 参考
-description: 将工作表保存到缓存中保存格式基于 filename 的文件扩展名
+description: 将工作表保存到缓存中保存格式基于文件名. 的文件扩展名
 type: docs
 weight: 130
 url: /zh/net/aspose.cells.gridjs/gridjsworkbook/savetocachewithfilename/
 ---
 ## GridJsWorkbook.SaveToCacheWithFileName method
 
-将工作表保存到缓存中，保存格式基于 filename 的文件扩展名。
+将工作表保存到缓存中，保存格式基于文件名. 的文件扩展名
 
 ```csharp
 public void SaveToCacheWithFileName(string uid, string filename, string password)
@@ -18,7 +18,7 @@ public void SaveToCacheWithFileName(string uid, string filename, string password
 | --- | --- | --- |
 | uid | String | 唯一标识。 |
 | filename | String | 要写入的文件名。 |
-| password | String | excel文件的打开密码。该值可以为 null 如果未设置密码 |
+| password | String | excel文件的打开密码。该值可以为 null 如果没有设置密码 |
 
 ### 也可以看看
 

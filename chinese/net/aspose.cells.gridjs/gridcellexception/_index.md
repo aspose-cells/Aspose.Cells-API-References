@@ -27,7 +27,7 @@ public class GridCellException : ApplicationException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ToString](../../aspose.cells.gridjs/gridcellexception/tostring#tostring)() | 创建并返回当前异常的字符串表示。 |
+| [ToString](../../aspose.cells.gridjs/gridcellexception/tostring#tostring)() | 创建并返回当前异常的字符串表示形式。 |
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: HideRows
 second_title: Справочник по Aspose.Cells для .NET API
 description: Скрывает несколько строк.
 type: docs
-weight: 920
+weight: 930
 url: /ru/net/aspose.cells/cells/hiderows/
 ---
 ## Cells.HideRows method

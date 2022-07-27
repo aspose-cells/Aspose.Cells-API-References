@@ -1,14 +1,14 @@
 ---
 title: ExternalConnectionCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Определяет коллекциюExternalConnection./externalconnection
+description: УказываетExternalConnection./externalconnection коллекция
 type: docs
 weight: 3300
 url: /ru/net/aspose.cells.externalconnections/externalconnectioncollection/
 ---
 ## ExternalConnectionCollection class
 
-Определяет коллекцию[`ExternalConnection`](../externalconnection)
+Указывает[`ExternalConnection`](../externalconnection) коллекция
 
 ```csharp
 public class ExternalConnectionCollection : CollectionBase<ExternalConnection>
@@ -20,8 +20,8 @@ public class ExternalConnectionCollection : CollectionBase<ExternalConnection>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.externalconnections/externalconnectioncollection/item) { get; set; } | Получает элемент[`ExternalConnection`](../externalconnection)по указанному индексу. (2 indexers) |
-| [Item](../../aspose.cells.externalconnections/externalconnectioncollection/item) { get; } | Получает элемент[`ExternalConnection`](../externalconnection)с указанным именем. |
+| [Item](../../aspose.cells.externalconnections/externalconnectioncollection/item) { get; set; } | Получает[`ExternalConnection`](../externalconnection) элемент по указанному индексу. (2 indexers) |
+| [Item](../../aspose.cells.externalconnections/externalconnectioncollection/item) { get; } | Получает[`ExternalConnection`](../externalconnection) элемент с указанным именем. |
 
 ## Методы
 
@@ -46,7 +46,7 @@ public class ExternalConnectionCollection : CollectionBase<ExternalConnection>
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;ExternalConnection&gt;) |  |
 | [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;ExternalConnection&gt;) |  |
 | [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [GetExternalConnectionById](../../aspose.cells.externalconnections/externalconnectioncollection/getexternalconnectionbyid)(int) | Получает элемент[`ExternalConnection`](../externalconnection)с указанным идентификатором. |
+| [GetExternalConnectionById](../../aspose.cells.externalconnections/externalconnectioncollection/getexternalconnectionbyid)(int) | Получает[`ExternalConnection`](../externalconnection) элемент с указанным id. |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(ExternalConnection) |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(ExternalConnection, int) |  |
 | [IndexOf](../../aspose.cells/collectionbase`1/indexof)(ExternalConnection, int, int) |  |
@@ -65,7 +65,7 @@ ExternalConnection dataConn = null;
 for (int i = 0; i < dataConns.Count; i++)
 {
     dataConn = dataConns[i];
-      //получить внешнее соединение id
+    //получаем идентификатор внешнего соединения
     Console.WriteLine(dataConn.ConnectionId);
 }
 
@@ -77,7 +77,7 @@ Dim count As Integer = dataConns.Count - 1
 Dim i As Integer
 For i = 0 To count Step 1
     dataConn = dataConns(i)
-    'получить внешнее соединение id
+    'получить идентификатор внешнего соединения
     Console.WriteLine(dataConn.ConnectionId)
 Next
 ```

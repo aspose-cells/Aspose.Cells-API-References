@@ -1,14 +1,14 @@
 ---
 title: Comments
 second_title: Aspose.Cells for .NET API 参考
-description: 获取Commentaspose.cells/comment集合
+description: 获取Commentaspose.cells/comment集合.
 type: docs
 weight: 100
 url: /zh/net/aspose.cells/worksheet/comments/
 ---
 ## Worksheet.Comments property
 
-获取[`Comment`](../../comment)集合。
+获取[`Comment`](../../comment)集合.
 
 ```csharp
 public CommentCollection Comments { get; }

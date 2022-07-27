@@ -1,14 +1,14 @@
 ---
 title: TextBoxCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装TextBox./textbox对象的集合
+description: 封装了一个集合TextBox./textbox对象.
 type: docs
 weight: 2820
 url: /zh/net/aspose.cells.drawing/textboxcollection/
 ---
 ## TextBoxCollection class
 
-封装[`TextBox`](../textbox)对象的集合。
+封装了一个集合[`TextBox`](../textbox)对象.
 
 ```csharp
 public class TextBoxCollection : CollectionBase<TextBox>
@@ -20,14 +20,14 @@ public class TextBoxCollection : CollectionBase<TextBox>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.drawing/textboxcollection/item) { get; } | 获取指定索引处的[`TextBox`](../textbox)元素。 (2 indexers) |
+| [Item](../../aspose.cells.drawing/textboxcollection/item) { get; } | 获取[`TextBox`](../textbox)指定索引处的元素。 (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells.drawing/textboxcollection/add)(int, int, int, int) | 将文本框添加到集合中。 |
+| [Add](../../aspose.cells.drawing/textboxcollection/add)(int, int, int, int) | 向集合中添加一个文本框。 |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(TextBox) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(TextBox, IComparer&lt;TextBox&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, TextBox, IComparer&lt;TextBox&gt;) |  |
@@ -60,18 +60,18 @@ public class TextBoxCollection : CollectionBase<TextBox>
 ```csharp
 
 [C#]
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
- //获取集合对象
+//获取集合对象
 TextBoxCollection textBoxCollection = workbook.Worksheets[0].TextBoxes;
- //添加一个文本框
+//添加一个文本框
 textBoxCollection.Add(1, 1, 50, 100);
 foreach(TextBox tbox in textBoxCollection)
 {
-     //做你想做的
+    //做你想做的
 }
 
- //做你的事
+//做你的事
 
 ```
 

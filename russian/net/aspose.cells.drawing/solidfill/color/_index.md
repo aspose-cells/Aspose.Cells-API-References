@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задаетColor.
+description: Получает или задаетColor .
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.drawing/solidfill/color/
 ---
 ## SolidFill.Color property
 
-Получает или задаетColor.
+Получает или задаетColor .
 
 ```csharp
 public Color Color { get; set; }

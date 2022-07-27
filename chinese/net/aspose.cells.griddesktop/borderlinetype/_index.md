@@ -20,15 +20,15 @@ public enum BorderLineType
 | --- | --- | --- |
 | None | `0` | 无边框。 |
 | Thin | `1` | 实线边框。 |
-| Medium | `2` | 实线边框。线宽为 2f。 |
+| Medium | `2` | 实线边框。线宽为 2f. |
 | Dashed | `3` | 虚线边框。 |
 | Dotted | `4` | 虚线边框。 |
-| Thick | `5` | 实线边框。线宽为 3f。 |
-| MediumDashed | `8` | 虚线边框。线宽为 2f。 |
-| ThinDashDotted | `9` | 虚线边框。 |
-| MediumDashDotted | `10` | 虚线边框。线宽为 2f。 |
-| ThinDashDotDotted | `11` | dashDotDot 虚线边框。 |
-| MediumDashDotDotted | `12` | dashDotDot 虚线边框。线宽为 2f。 |
+| Thick | `5` | 实线边框。线宽为3f。 |
+| MediumDashed | `8` | 虚线边框。线宽为 2f. |
+| ThinDashDotted | `9` | 一个虚线虚线边框。 |
+| MediumDashDotted | `10` | 一个虚线边框。线宽为2f. |
+| ThinDashDotDotted | `11` | 一个dashDot虚线边框。 |
+| MediumDashDotDotted | `12` | 一个dashDot虚线边框。线宽为2f. |
 
 ### 也可以看看
 

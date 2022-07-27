@@ -1,14 +1,14 @@
 ---
 title: OwnerPassword
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или устанавливает пароль владельца документа
+description: Получает или задает пароль владельца документа
 type: docs
 weight: 100
 url: /ru/net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/ownerpassword/
 ---
 ## PdfSecurityOptions.OwnerPassword property
 
-Получает или устанавливает пароль владельца документа
+Получает или задает пароль владельца документа
 
 ```csharp
 public string OwnerPassword { get; set; }

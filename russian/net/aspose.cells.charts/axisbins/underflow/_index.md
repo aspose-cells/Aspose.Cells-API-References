@@ -1,14 +1,14 @@
 ---
 title: Underflow
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или устанавливает значение потери значимости интервалов оси
+description: Получает или устанавливает значение потери значимости осей bins
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.charts/axisbins/underflow/
 ---
 ## AxisBins.Underflow property
 
-Получает или устанавливает значение потери значимости интервалов оси
+Получает или устанавливает значение потери значимости осей bins
 
 ```csharp
 public double Underflow { get; set; }

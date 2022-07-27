@@ -1,14 +1,14 @@
 ---
 title: EnableCreateBindColumnHeader
 second_title: Aspose.Cells for .NET API 参考
-description: 在数据绑定模式下表示是否在表单中创建绑定列标题标题
+description: 在数据绑定模式下表示是否在工作表中创建绑定列标题标题
 type: docs
 weight: 150
 url: /zh/net/aspose.cells.gridweb.data/gridworksheet/enablecreatebindcolumnheader/
 ---
 ## GridWorksheet.EnableCreateBindColumnHeader property
 
-在数据绑定模式下，表示是否在表单中创建绑定列标题标题。
+在数据绑定模式下，表示是否在工作表中创建绑定列标题标题。
 
 ```csharp
 public bool EnableCreateBindColumnHeader { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: GroupBy
 second_title: Справочник по Aspose.Cells для .NET API
-description: Поле для группировки как целочисленное смещение начинающееся с нуля
+description: Поле для группировки в виде целого числа отсчитываемого от нуля offset
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/subtotalsetting/groupby/
 ---
 ## SubtotalSetting.GroupBy property
 
-Поле для группировки, как целочисленное смещение, начинающееся с нуля
+Поле для группировки в виде целого числа, отсчитываемого от нуля, offset
 
 ```csharp
 public int GroupBy { get; }

@@ -20,7 +20,7 @@ public void StartAccessCache(AccessCacheOptions opts)
 
 ### 评论
 
-如果指定的缓存数据访问要求工作表中的某些数据模型为“只读”， 则此工作簿中每个工作表中对应的数据模型将被视为“只读” 和用户不应更改其中任何一个。 &lt;br&gt;&lt;/br&gt; 完成对数据的访问后，[`CloseAccessCache`](../closeaccesscache)应该使用相同的选项调用 以清除所有缓存并恢复正常访问模式。 &lt;br&gt;&lt;/br&gt;
+如果指定数据访问的缓存要求工作表中的某些数据模型为“只读”， ，则该工作簿中每个工作表中对应的数据模型将被视为“只读” ，用户不应更改其中任何一个.  完成对数据的访问后，[`CloseAccessCache`](../closeaccesscache)应该使用相同的选项调用 以清除所有缓存并恢复正常访问模式。
 
 ### 也可以看看
 

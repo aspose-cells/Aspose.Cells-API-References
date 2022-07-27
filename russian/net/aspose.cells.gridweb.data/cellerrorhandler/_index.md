@@ -10,7 +10,7 @@ url: /ru/net/aspose.cells.gridweb.data/cellerrorhandler/
 
 Представляет интерфейс, предназначенный для обработки событий ошибок ячейки.
 
-void **handleCellEvent** (отправитель объекта, GridCellException ex, запрос OnErrorActionQuery);
+пустота **обработатьCellEvent**(Отправитель объекта, GridCellException ex, запрос OnErrorActionQuery);
 
 ```csharp
 public delegate void CellErrorHandler(object sender, WebCellException ex, 

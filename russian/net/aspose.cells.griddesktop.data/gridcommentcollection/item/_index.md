@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементCommentпо указанному индексу.
+description: ПолучаетComment элемент по указанному индексу.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.griddesktop.data/gridcommentcollection/item/
 ---
 ## GridCommentCollection indexer (1 of 3)
 
-Получает элементCommentпо указанному индексу.
+ПолучаетComment элемент по указанному индексу.
 
 ```csharp
 public GridComment this[int index] { get; }
@@ -33,7 +33,7 @@ public GridComment this[int index] { get; }
 
 ## GridCommentCollection indexer (2 of 3)
 
-Получает элементCommentв указанной ячейке.
+ПолучаетComment элемент в указанной ячейке.
 
 ```csharp
 public GridComment this[string cellName] { get; }
@@ -58,7 +58,7 @@ public GridComment this[string cellName] { get; }
 
 ## GridCommentCollection indexer (3 of 3)
 
-Получает элементCommentпо указанному индексу строки и индексу столбца.
+ПолучаетComment элемент с указанным индексом строки и индексом столбца.
 
 ```csharp
 public GridComment this[int row, int column] { get; }

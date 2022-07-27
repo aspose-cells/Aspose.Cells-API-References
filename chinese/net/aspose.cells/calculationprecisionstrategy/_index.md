@@ -1,14 +1,14 @@
 ---
 title: CalculationPrecisionStrategy
 second_title: Aspose.Cells for .NET API 参考
-description: 枚举处理计算精度的策略 由于 IEEE 754 Floating-Point Arithmetic 的精度问题一些看似简单的公式可能无法计算为预期结果 如公式-0.450.430.02直接用运算符计算操作数时结果不为零对于此类精度问题 一些特殊策略可能会产生预期的结果
+description: 枚举处理计算精度的策略 因为IEEE 754 Floating-Point Arithmetic 的精度问题一些看似简单的公式可能计算不出预期的结果 如公式-0.450.430.02 直接用运算符计算操作数时结果不为零对于这种精度问题 一些特殊的策略可能会得到预期的结果
 type: docs
 weight: 220
 url: /zh/net/aspose.cells/calculationprecisionstrategy/
 ---
 ## CalculationPrecisionStrategy enumeration
 
-枚举处理计算精度的策略。 由于 IEEE 754 Floating-Point Arithmetic 的精度问题，一些“看似简单”的公式可能无法计算为预期结果。 如公式“=-0.45+0.43+0.02”，直接用'+'运算符计算操作数时，结果不为零。对于此类精度问题， 一些特殊策略可能会产生预期的结果。
+枚举处理计算精度的策略。 因为IEEE 754 Floating-Point Arithmetic 的精度问题，一些“看似简单”的公式可能计算不出预期的结果。 如公式“=-0.45+0.43+0.02” ，直接用'+'运算符计算操作数时，结果不为零。对于这种精度问题， 一些特殊的策略可能会得到预期的结果。
 
 ```csharp
 public enum CalculationPrecisionStrategy
@@ -18,8 +18,8 @@ public enum CalculationPrecisionStrategy
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 计算时未应用策略。 计算时只使用原来的双精度值作为操作数，直接返回结果。 性能最高效，适用于大多数情况。 |
-| Round | `1` | 将计算结果按有效数字四舍五入。 |
+| None | `0` | 计算时没有应用策略。 计算时只使用原始的双精度值作为操作数，直接返回结果。 性能效率最高，适用于大多数情况。 |
+| Round | `1` | 根据有效数字对计算结果进行四舍五入。 |
 | Decimal | `2` | 尽可能使用十进制作为操作数。 性能效率最低。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: TopBorderStyle
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает стиль верхней границы таблицы.
+description: Определяет стиль верхней границы таблицы.
 type: docs
 weight: 120
 url: /ru/net/aspose.cells.gridweb/gridtablestyle/topborderstyle/
 ---
 ## GridTableStyle.TopBorderStyle property
 
-Задает стиль верхней границы таблицы.
+Определяет стиль верхней границы таблицы.
 
 ```csharp
 public WebBorderStyle TopBorderStyle { get; set; }

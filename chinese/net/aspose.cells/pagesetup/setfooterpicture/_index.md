@@ -16,12 +16,12 @@ public Picture SetFooterPicture(int section, byte[] footerPicture)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| section | Int32 | 0:Left Section。 |
+| section | Int32 | 0：左侧部分，1：中间部分，2：右侧部分。 |
 | footerPicture | Byte[] | 图像数据。 |
 
 ### 返回值
 
-返回[`Picture`](../../../aspose.cells.drawing/picture)对象。
+退货[`Picture`](../../../aspose.cells.drawing/picture)目的。
 
 ### 也可以看看
 

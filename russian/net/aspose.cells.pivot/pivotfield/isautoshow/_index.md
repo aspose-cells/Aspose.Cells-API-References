@@ -1,14 +1,14 @@
 ---
 title: IsAutoShow
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает отображается ли указанное поле сводной таблицы автоматически только для Excel 2003.
+description: Указывает отображается ли указанное поле сводной таблицы автоматически. Допустимо только для Excel 2003.
 type: docs
 weight: 200
 url: /ru/net/aspose.cells.pivot/pivotfield/isautoshow/
 ---
 ## PivotField.IsAutoShow property
 
-Указывает, отображается ли указанное поле сводной таблицы автоматически, только для Excel 2003.
+Указывает, отображается ли указанное поле сводной таблицы автоматически. Допустимо только для Excel 2003.
 
 ```csharp
 public bool IsAutoShow { get; set; }

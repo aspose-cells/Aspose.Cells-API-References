@@ -16,7 +16,7 @@ public void Remove(Slicer slicer)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| slicer | Slicer | Объект слайсера |
+| slicer | Slicer | Объект среза |
 
 ### Примеры
 

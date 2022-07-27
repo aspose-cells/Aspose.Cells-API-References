@@ -1,14 +1,14 @@
 ---
 title: ConvertNumericData
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает значение указывающее выполняется ли преобразование искомого строкового значения в числовые данные.
+description: Получает или задает значение указывающее следует ли преобразовывать искомое строковое значение в числовые данные.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/findoptions/convertnumericdata/
 ---
 ## FindOptions.ConvertNumericData property
 
-Получает или задает значение, указывающее, выполняется ли преобразование искомого строкового значения в числовые данные.
+Получает или задает значение, указывающее, следует ли преобразовывать искомое строковое значение в числовые данные.
 
 ```csharp
 public bool ConvertNumericData { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: GetMatchingColor
 second_title: Aspose.Cells for .NET API 参考
-description: 在当前调色板中查找最佳匹配颜色
+description: 在当前调色板中找到最佳匹配颜色
 type: docs
 weight: 430
 url: /zh/net/aspose.cells/workbook/getmatchingcolor/
 ---
 ## Workbook.GetMatchingColor method
 
-在当前调色板中查找最佳匹配颜色。
+在当前调色板中找到最佳匹配颜色。
 
 ```csharp
 public Color GetMatchingColor(Color rawColor)
@@ -16,11 +16,11 @@ public Color GetMatchingColor(Color rawColor)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rawColor | Color | 原始颜色。 |
+| rawColor | Color | 原色。 |
 
 ### 返回值
 
-最佳匹配颜色。
+最佳搭配颜色。
 
 ### 也可以看看
 

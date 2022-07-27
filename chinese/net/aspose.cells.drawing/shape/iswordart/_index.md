@@ -1,14 +1,14 @@
 ---
 title: IsWordArt
 second_title: Aspose.Cells for .NET API 参考
-description: 表示此形状是否为艺术字
+description: 表示这个形状是否是艺术字
 type: docs
 weight: 390
 url: /zh/net/aspose.cells.drawing/shape/iswordart/
 ---
 ## Shape.IsWordArt property
 
-表示此形状是否为艺术字。
+表示这个形状是否是艺术字。
 
 ```csharp
 public bool IsWordArt { get; }
@@ -25,7 +25,7 @@ public bool IsWordArt { get; }
 [C#]
 if(shape.IsWordArt)
 {
-     //这个形状是一个艺术字对象.
+    //这个形状是一个艺术字对象。
 }
 ```
 

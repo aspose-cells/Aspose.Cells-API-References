@@ -1,14 +1,14 @@
 ---
 title: Border
 second_title: Aspose.Cells for .NET API 参考
-description: 获取边框Lineaspose.cells.drawing/line
+description: 获取边框Lineaspose.cells.drawing/line.
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.charts/dropbars/border/
 ---
 ## DropBars.Border property
 
-获取边框[`Line`](../../../aspose.cells.drawing/line)。
+获取边框[`Line`](../../../aspose.cells.drawing/line).
 
 ```csharp
 public Line Border { get; }

@@ -19,18 +19,18 @@ public class CustomDocumentPropertyCollection : DocumentPropertyCollection
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.cells.properties/documentpropertycollection/count) { get; } | 获取集合中的项目数。 |
-| [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | 按索引返回[`DocumentProperty`](../documentproperty)对象。 |
-| virtual [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | 按属性名称返回[`DocumentProperty`](../documentproperty)对象。 |
+| [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | 返回一个[`DocumentProperty`](../documentproperty)按索引的对象. |
+| virtual [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | 返回一个[`DocumentProperty`](../documentproperty)按属性名称的对象。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add)(string, bool) | 创建 **PropertyType.Boolean** 数据类型的新自定义文档属性。 |
-| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add_3)(string, DateTime) | 创建 **PropertyType.DateTime** 数据类型的新自定义文档属性。 |
-| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add_1)(string, double) | 创建 **PropertyType.Float** 数据类型的新自定义文档属性。 |
-| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add_2)(string, int) | 创建 **PropertyType.Number** 数据类型的新自定义文档属性。 |
-| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add_4)(string, string) | 创建 **PropertyType.String** 的新自定义文档属性数据类型。 |
+| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add)(string, bool) | 创建一个新的自定义文档属性 **PropertyType.Boolean**数据类型. |
+| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add_3)(string, DateTime) | 创建一个新的自定义文档属性 **属性类型.日期时间**数据类型. |
+| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add_1)(string, double) | 创建一个新的自定义文档属性 **PropertyType.Float**数据类型. |
+| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add_2)(string, int) | 创建一个新的自定义文档属性 **PropertyType.Number**数据类型. |
+| [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add_4)(string, string) | 创建一个新的自定义文档属性 **属性类型字符串**数据类型. |
 | [AddLinkToContent](../../aspose.cells.properties/customdocumentpropertycollection/addlinktocontent)(string, string) | 创建链接到内容的新自定义文档属性。 |
 | [Clear](../../aspose.cells.properties/documentpropertycollection/clear)() | 从集合中删除所有属性。 |
 | [Contains](../../aspose.cells.properties/documentpropertycollection/contains)(string) | 如果集合中存在具有指定名称的属性，则返回 true。 |
@@ -39,11 +39,11 @@ public class CustomDocumentPropertyCollection : DocumentPropertyCollection
 | [Remove](../../aspose.cells.properties/documentpropertycollection/remove)(string) | 从集合中删除具有指定名称的属性。 |
 | [RemoveAt](../../aspose.cells.properties/documentpropertycollection/removeat)(int) | 删除指定索引处的属性。 |
 | [UpdateLinkedPropertyValue](../../aspose.cells.properties/customdocumentpropertycollection/updatelinkedpropertyvalue)() | 更新链接到内容的自定义文档属性值。 |
-| [UpdateLinkedRange](../../aspose.cells.properties/customdocumentpropertycollection/updatelinkedrange)() | 将自定义文档属性值更新为链接范围。 |
+| [UpdateLinkedRange](../../aspose.cells.properties/customdocumentpropertycollection/updatelinkedrange)() | 将自定义文档属性值更新到链接范围。 |
 
 ### 评论
 
-每个[`DocumentProperty`](../documentproperty)对象表示容器文档的自定义属性。
+每个[`DocumentProperty`](../documentproperty)object 表示容器文档的自定义属性。
 
 ### 例子
 
@@ -54,15 +54,15 @@ public class CustomDocumentPropertyCollection : DocumentPropertyCollection
 //实例化一个工作簿对象
 Workbook workbook = new Workbook("book1.xls");
 
-//检索Excel文件的所有自定义文档属性列表
+//检索Excel文件的所有自定义文档属性的列表
 CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 
 [VB.NET]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As New Workbook("book1.xls")
 
-'检索Excel文件的所有自定义文档属性列表
+'检索 Excel 文件的所有自定义文档属性的列表
 Dim customProperties As CustomDocumentPropertyCollection = workbook.Worksheets.CustomDocumentProperties
 
 ```

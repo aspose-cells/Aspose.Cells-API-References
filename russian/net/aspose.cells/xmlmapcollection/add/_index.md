@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Cells для .NET API
-description: ДобавитьXmlMapaspose.cells/xmlmapпо URL-адресу/пути файла xml/xsd.
+description: ДобавитьXmlMapaspose.cells/xmlmap по URL/пути файла xml/xsd.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/xmlmapcollection/add/
 ---
 ## XmlMapCollection.Add method
 
-Добавить[`XmlMap`](../../xmlmap)по URL-адресу/пути файла xml/xsd.
+Добавить[`XmlMap`](../../xmlmap) по URL/пути файла xml/xsd.
 
 ```csharp
 public int Add(string url)
@@ -16,25 +16,25 @@ public int Add(string url)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| url | String | URL/путь файла xml/xsd. |
+| url | String | URL-адрес/путь файла xml/xsd. |
 
 ### Возвращаемое значение
 
-[`XmlMap`](../../xmlmap)индекс объекта.
+[`XmlMap`](../../xmlmap) индекс объекта.
 
 ### Примеры
 
-Следующий код добавляет два файла[`XmlMap`](../../xmlmap)с помощью файла xsd и файла xml. файл.
+Следующий код добавляет два[`XmlMap`](../../xmlmap) файлом xsd и файлом xml.
 
 ```csharp
 Workbook wb = new Workbook();
 
 XmlMapCollection xmlMapCollection = wb.Worksheets.XmlMaps;
 
-  //Добавить  с помощью файла xsd.
+//Добавить <see cref="T:Aspose.Cells.XmlMap" /> с помощью файла xsd.
 xmlMapCollection.Add("schema.xsd");
 
-  //Добавить  с помощью xml-файла.
+//Добавить <see cref="T:Aspose.Cells.XmlMap" /> с помощью xml-файла.
 xmlMapCollection.Add("xml.xml");
 
 wb.Save("twoXmlMaps.xlsx");

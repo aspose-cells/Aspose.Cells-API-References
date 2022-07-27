@@ -1,14 +1,14 @@
 ---
 title: AutoFormatType
 second_title: Aspose.Cells for .NET API 参考
-description: 获取数据透视表自动格式类型
+description: 获取数据透视表自动格式化类型
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.pivot/pivottable/autoformattype/
 ---
 ## PivotTable.AutoFormatType property
 
-获取数据透视表自动格式类型。
+获取数据透视表自动格式化类型。
 
 ```csharp
 public PivotTableAutoFormatType AutoFormatType { get; set; }

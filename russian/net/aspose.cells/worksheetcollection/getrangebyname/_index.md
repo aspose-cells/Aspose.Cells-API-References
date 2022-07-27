@@ -16,13 +16,13 @@ public Range GetRangeByName(string rangeName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rangeName | String | Имя диапазона. |
+| rangeName | String | Название диапазона. |
 
 ### Возвращаемое значение
 
-Диапазон объекта.
+Объект диапазона.
 
-Возвращает ноль, если именованный диапазон не существует.
+Возвращает null, если именованный диапазон не существует.
 
 ### Смотрите также
 
@@ -35,7 +35,7 @@ public Range GetRangeByName(string rangeName)
 
 ## GetRangeByName(string, int, bool) {#getrangebyname_1}
 
-Получает[`Range`](../../range)по заданному имени или имени таблицы
+получает[`Range`](../../range) по заданному имени или имени таблицы
 
 ```csharp
 public Range GetRangeByName(string rangeName, int currentSheetIndex, bool includeTable)

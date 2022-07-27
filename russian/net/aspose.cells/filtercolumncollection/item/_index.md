@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектFilterColumnaspose.cells/filtercolumnв специальном поле.
+description: получаетFilterColumnaspose.cells/filtercolumn объект в специальном поле.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/filtercolumncollection/item/
 ---
 ## FilterColumnCollection indexer
 
-Получает объект[`FilterColumn`](../../filtercolumn)в специальном поле.
+получает[`FilterColumn`](../../filtercolumn) объект в специальном поле.
 
 ```csharp
 public FilterColumn this[int fieldIndex] { get; }
@@ -16,11 +16,11 @@ public FilterColumn this[int fieldIndex] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| fieldIndex | Целочисленное смещение поля, на котором вы хотите основывать фильтр (слева списка; крайнее левое поле — поле 0). |
+| fieldIndex | Целочисленное смещение поля, на котором вы хотите основывать фильтр (слева в списке; крайнее левое поле — это поле 0). |
 
 ### Возвращаемое значение
 
-Возвращает[`FilterColumn`](../../filtercolumn)объект.
+Возвращает[`FilterColumn`](../../filtercolumn) объект.
 
 ### Смотрите также
 

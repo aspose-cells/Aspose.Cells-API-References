@@ -1,14 +1,14 @@
 ---
 title: GetPicture
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектPictureaspose.cells.drawing/pictureверхнего/нижнего колонтитула.
+description: ПолучаетPictureaspose.cells.drawing/picture объект верхнего/нижнего колонтитула.
 type: docs
 weight: 540
 url: /ru/net/aspose.cells/pagesetup/getpicture/
 ---
 ## GetPicture(bool, int) {#getpicture_1}
 
-Получает объект[`Picture`](../../../aspose.cells.drawing/picture)верхнего/нижнего колонтитула.
+Получает[`Picture`](../../../aspose.cells.drawing/picture) объект верхнего/нижнего колонтитула.
 
 ```csharp
 public Picture GetPicture(bool isHeader, int section)
@@ -17,11 +17,11 @@ public Picture GetPicture(bool isHeader, int section)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | isHeader | Boolean | Указывает, находится ли он в верхнем или нижнем колонтитуле. |
-| section | Int32 | 0:Левая секция. |
+| section | Int32 | 0: левая часть, 1: центральная часть, 2: правая часть. |
 
 ### Возвращаемое значение
 
-Возвращает объект[`Picture`](../../../aspose.cells.drawing/picture). Возвращает ноль, если изображения нет.
+Возвращает[`Picture`](../../../aspose.cells.drawing/picture) object. Возвращает null, если изображения нет.
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public Picture GetPicture(bool isHeader, int section)
 
 ## GetPicture(bool, bool, bool, int) {#getpicture}
 
-Получает объект[`Picture`](../../../aspose.cells.drawing/picture)верхнего/нижнего колонтитула.
+Получает[`Picture`](../../../aspose.cells.drawing/picture) объект верхнего/нижнего колонтитула.
 
 ```csharp
 public Picture GetPicture(bool isFirst, bool isEven, bool isHeader, int section)
@@ -43,13 +43,13 @@ public Picture GetPicture(bool isFirst, bool isEven, bool isHeader, int section)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | isFirst | Boolean | Указывает, получать ли изображение верхнего/нижнего колонтитула первой страницы. |
-| isEven | Boolean | Указывает на получение изображения четного верхнего/нижнего колонтитула страницы. |
-| isHeader | Boolean | Указывает на получение изображения верхнего/нижнего колонтитула. |
-| section | Int32 | 0:Левая секция. |
+| isEven | Boolean | Указывает, получают ли изображение четного верхнего/нижнего колонтитула страницы. |
+| isHeader | Boolean | Указывает, получать ли изображение верхнего/нижнего колонтитула. |
+| section | Int32 | 0: левая часть, 1: центральная часть, 2: правая часть. |
 
 ### Возвращаемое значение
 
-Возвращает объект[`Picture`](../../../aspose.cells.drawing/picture).
+Возвращает[`Picture`](../../../aspose.cells.drawing/picture) объект.
 
 ### Смотрите также
 

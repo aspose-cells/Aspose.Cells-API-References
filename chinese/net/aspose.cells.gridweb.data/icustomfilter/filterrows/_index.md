@@ -18,7 +18,7 @@ public void FilterRows(WebWorksheet sheet, int columnIndex, int filterIndex)
 | --- | --- | --- |
 | sheet | WebWorksheet | WebWorksheet 对象。 |
 | columnIndex | Int32 | 列索引。 |
-| filterIndex | Int32 | 过滤器索引。 |
+| filterIndex | Int32 | 过滤索引。 |
 
 ### 也可以看看
 

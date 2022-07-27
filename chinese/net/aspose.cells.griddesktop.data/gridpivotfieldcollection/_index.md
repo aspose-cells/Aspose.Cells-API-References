@@ -1,14 +1,14 @@
 ---
 title: GridPivotFieldCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装PivotField对象的集合
+description: 封装了一个集合PivotField对象.
 type: docs
 weight: 600
 url: /zh/net/aspose.cells.griddesktop.data/gridpivotfieldcollection/
 ---
 ## GridPivotFieldCollection class
 
-封装PivotField对象的集合。
+封装了一个集合PivotField对象.
 
 ```csharp
 public class GridPivotFieldCollection
@@ -19,13 +19,13 @@ public class GridPivotFieldCollection
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.cells.griddesktop.data/gridpivotfieldcollection/count) { get; } |  |
-| [Item](../../aspose.cells.griddesktop.data/gridpivotfieldcollection/item) { get; } | 获取指定索引处的PivotField元素。 |
+| [Item](../../aspose.cells.griddesktop.data/gridpivotfieldcollection/item) { get; } | 获取PivotField指定索引处的元素。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells.griddesktop.data/gridpivotfieldcollection/add)(GridPivotField) | 将 PivotField 对象添加到特定类型的 PivotFields。 |
+| [Add](../../aspose.cells.griddesktop.data/gridpivotfieldcollection/add)(GridPivotField) | 将 PivotField 对象添加到特定类型的 PivotFields. |
 | [Clear](../../aspose.cells.griddesktop.data/gridpivotfieldcollection/clear)() | 清除所有数据透视字段。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: ImageUrl
 second_title: Aspose.Cells for .NET API 参考
-description: 命令超链接的图片 url
+description: 命令超链接的图片url
 type: docs
 weight: 100
 url: /zh/net/aspose.cells.gridweb/bindcolumn/imageurl/
 ---
 ## BindColumn.ImageUrl property
 
-命令超链接的图片 url。
+命令超链接的图片url。
 
 ```csharp
 public string ImageUrl { get; set; }

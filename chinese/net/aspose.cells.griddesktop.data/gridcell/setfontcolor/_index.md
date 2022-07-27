@@ -1,14 +1,14 @@
 ---
 title: SetFontColor
 second_title: Aspose.Cells for .NET API 参考
-description: 将字体颜色设置为单元格 为提高性能实现SetFontColor方法 不实现FontColor属性
+description: 为单元格设置字体颜色 为了提高性能实现SetFontColor方法 不实现FontColor属性
 type: docs
 weight: 390
 url: /zh/net/aspose.cells.griddesktop.data/gridcell/setfontcolor/
 ---
 ## GridCell.SetFontColor method
 
-将字体颜色设置为单元格。 为提高性能，实现“SetFontColor”方法， 不实现“FontColor”属性。
+为单元格设置字体颜色。 为了提高性能，实现“SetFontColor”方法， 不实现“FontColor”属性。
 
 ```csharp
 public void SetFontColor(Color color)

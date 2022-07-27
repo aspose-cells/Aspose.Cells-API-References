@@ -28,11 +28,11 @@ public class PivotTableCollection : CollectionBase<PivotTable>, IDisposable
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../aspose.cells.pivot/pivottablecollection/add#add_1)(PivotTable, string, string) | 将新的数据透视表对象从另一个数据透视表添加到集合中。 |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_4)(string, string, string) | 将新的数据透视表缓存添加到 PivotCaches 集合。 |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_4)(string, string, string) | 将新的数据透视表缓存添加到 PivotCaches 集合中。 |
 | [Add](../../aspose.cells.pivot/pivottablecollection/add#add)(PivotTable, int, int, string) | 将新的数据透视表对象从另一个数据透视表添加到集合中。 |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_2)(string, int, int, string) | 将新的数据透视表缓存添加到 PivotCaches 集合。 |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_5)(string, string, string, bool) | 将新的数据透视表缓存添加到 PivotCaches 集合。 |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_3)(string, int, int, string, bool) | 将新的数据透视表缓存添加到 PivotCaches 集合。 |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_2)(string, int, int, string) | 将新的数据透视表缓存添加到 PivotCaches 集合中。 |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_5)(string, string, string, bool) | 将新的数据透视表缓存添加到 PivotCaches 集合中。 |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_3)(string, int, int, string, bool) | 将新的数据透视表缓存添加到 PivotCaches 集合中。 |
 | [Add](../../aspose.cells.pivot/pivottablecollection/add#add_7)(string[], bool, PivotPageFields, string, string) | 将一个新的数据透视表对象添加到具有多个合并范围作为数据源的集合中。 |
 | [Add](../../aspose.cells.pivot/pivottablecollection/add#add_6)(string[], bool, PivotPageFields, int, int, string) | 将一个新的数据透视表对象添加到具有多个合并范围作为数据源的集合中。 |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(PivotTable) |  |
@@ -115,16 +115,16 @@ pivot.AddFieldToArea(PivotFieldType.Data, "amount");
 
 pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
 
- //改变PivotField的属性
+//改变PivotField的属性
 PivotField rowField = pivot.RowFields[0];
 rowField.DisplayName = "custom display name";
 
- //添加PivotFilter
+//添加透视过滤器
 int index = pivot.PivotFilters.Add(0, PivotFilterType.Count);
 PivotFilter filter = pivot.PivotFilters[index];
 filter.AutoFilter.FilterTop10(0, false, false, 2);
 
- //添加PivotFormatCondition
+//添加PivotFormatCondition
 int formatIndex = pivot.PivotFormatConditions.Add();
 PivotFormatCondition pfc = pivot.PivotFormatConditions[formatIndex];
 FormatConditionCollection fcc = pfc.FormatConditions;
@@ -138,7 +138,7 @@ fc.Style.BackgroundColor = Color.Red;
 pivot.RefreshData();
 pivot.CalculateData();
 
- //做你的事
+//做你的事
 
 book.Save("out.xlsx");
 
@@ -187,11 +187,11 @@ Pivot.AddFieldToArea(PivotFieldType.Data, "amount")
 
 pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10
 
-'更改 PivotField's 的属性
+'Change PivotField's attributes
 Dim rowField As PivotField = pivot.RowFields(0)
 rowField.DisplayName = "custom display name"
 
-'添加 PivotFilter
+'添加透视过滤器
 Dim filterIndex As Int32 = pivot.PivotFilters.Add(0, PivotFilterType.Count)
 Dim filter As PivotFilter = pivot.PivotFilters(filterIndex)
 filter.AutoFilter.FilterTop10(0, False, False, 2)

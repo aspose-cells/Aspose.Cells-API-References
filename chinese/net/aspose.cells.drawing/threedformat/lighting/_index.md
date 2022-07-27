@@ -1,14 +1,14 @@
 ---
 title: Lighting
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置灯光装置的类型
+description: 获取和设置灯光设备的类型
 type: docs
 weight: 90
 url: /zh/net/aspose.cells.drawing/threedformat/lighting/
 ---
 ## ThreeDFormat.Lighting property
 
-获取和设置灯光装置的类型。
+获取和设置灯光设备的类型。
 
 ```csharp
 public LightRigType Lighting { get; set; }

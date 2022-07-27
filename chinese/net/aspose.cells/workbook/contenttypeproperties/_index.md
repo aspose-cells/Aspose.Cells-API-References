@@ -1,14 +1,14 @@
 ---
 title: ContentTypeProperties
 second_title: Aspose.Cells for .NET API 参考
-description: 获取工作簿中ContentTypePropertyaspose.cells.properties/contenttypeproperty对象的列表
+description: 获取列表ContentTypePropertyaspose.cells.properties/contenttypeproperty工作簿中的对象
 type: docs
 weight: 60
 url: /zh/net/aspose.cells/workbook/contenttypeproperties/
 ---
 ## Workbook.ContentTypeProperties property
 
-获取工作簿中[`ContentTypeProperty`](../../../aspose.cells.properties/contenttypeproperty)对象的列表。
+获取列表[`ContentTypeProperty`](../../../aspose.cells.properties/contenttypeproperty)工作簿中的对象。
 
 ```csharp
 public ContentTypePropertyCollection ContentTypeProperties { get; }

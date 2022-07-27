@@ -21,7 +21,7 @@ public bool IsVisible { get; set; }
 [C#]
 if(comment1.IsVisible)
 {
-     //注释可见
+    //评论可见
 }
 ```
 

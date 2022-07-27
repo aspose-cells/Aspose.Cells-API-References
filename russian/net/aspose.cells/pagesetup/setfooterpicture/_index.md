@@ -1,14 +1,14 @@
 ---
 title: SetFooterPicture
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает изображение в нижний колонтитул рабочего листа.
+description: Устанавливает изображение в нижний колонтитул листа.
 type: docs
 weight: 610
 url: /ru/net/aspose.cells/pagesetup/setfooterpicture/
 ---
 ## PageSetup.SetFooterPicture method
 
-Устанавливает изображение в нижний колонтитул рабочего листа.
+Устанавливает изображение в нижний колонтитул листа.
 
 ```csharp
 public Picture SetFooterPicture(int section, byte[] footerPicture)
@@ -16,12 +16,12 @@ public Picture SetFooterPicture(int section, byte[] footerPicture)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| section | Int32 | 0:Левая секция. |
+| section | Int32 | 0: левая часть, 1: центральная часть, 2: правая часть. |
 | footerPicture | Byte[] | Данные изображения. |
 
 ### Возвращаемое значение
 
-Возвращает объект[`Picture`](../../../aspose.cells.drawing/picture).
+Возвращает[`Picture`](../../../aspose.cells.drawing/picture) объект.
 
 ### Смотрите также
 

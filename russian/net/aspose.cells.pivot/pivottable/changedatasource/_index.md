@@ -1,14 +1,14 @@
 ---
 title: ChangeDataSource
 second_title: Справочник по Aspose.Cells для .NET API
-description: Установить исходные данные сводной таблицы. Лист1A1C3
+description: Установить исходные данные сводной таблицы. Sheet1A1C3
 type: docs
 weight: 780
 url: /ru/net/aspose.cells.pivot/pivottable/changedatasource/
 ---
 ## PivotTable.ChangeDataSource method
 
-Установить исходные данные сводной таблицы. Лист1!$A$1:$C$3
+Установить исходные данные сводной таблицы. Sheet1!$A$1:$C$3
 
 ```csharp
 public void ChangeDataSource(string[] source)

@@ -1,14 +1,14 @@
 ---
 title: ToInt
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает значение свойства как целое число.
+description: Возвращает значение свойства в виде целого числа.
 type: docs
 weight: 100
 url: /ru/net/aspose.cells.properties/documentproperty/toint/
 ---
 ## DocumentProperty.ToInt method
 
-Возвращает значение свойства как целое число.
+Возвращает значение свойства в виде целого числа.
 
 ```csharp
 public int ToInt()

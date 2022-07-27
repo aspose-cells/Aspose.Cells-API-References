@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 添加输入单元格
+description: 添加一个输入单元格
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/scenarioinputcellcollection/add/
 ---
 ## ScenarioInputCellCollection.Add method
 
-添加输入单元格。
+添加一个输入单元格。
 
 ```csharp
 public int Add(int row, int column, string value)

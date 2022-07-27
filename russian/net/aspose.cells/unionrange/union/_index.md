@@ -48,7 +48,7 @@ public UnionRange Union(UnionRange unionRange)
 
 ## Union(Range[]) {#union}
 
-Объедините диапазоны.
+Объединить диапазоны.
 
 ```csharp
 public UnionRange Union(Range[] ranges)

@@ -1,14 +1,14 @@
 ---
 title: IsColorVaried
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает различаются ли цвета точек. Диаграмма должна содержать только одну серию.
+description: Указывает изменился ли цвет точек. Диаграмма должна содержать только одну серию.
 type: docs
 weight: 240
 url: /ru/net/aspose.cells.charts/series/iscolorvaried/
 ---
 ## Series.IsColorVaried property
 
-Указывает, различаются ли цвета точек. Диаграмма должна содержать только одну серию.
+Указывает, изменился ли цвет точек. Диаграмма должна содержать только одну серию.
 
 ```csharp
 public bool IsColorVaried { get; set; }

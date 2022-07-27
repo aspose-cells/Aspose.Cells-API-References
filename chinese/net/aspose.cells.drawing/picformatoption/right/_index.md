@@ -1,14 +1,14 @@
 ---
 title: Right
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置拉伸图片的正确偏移量
+description: 获取或设置拉伸图片的右偏移量
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.drawing/picformatoption/right/
 ---
 ## PicFormatOption.Right property
 
-获取或设置拉伸图片的正确偏移量。
+获取或设置拉伸图片的右偏移量。
 
 ```csharp
 public double Right { get; set; }

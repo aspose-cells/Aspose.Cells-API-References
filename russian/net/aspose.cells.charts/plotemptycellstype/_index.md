@@ -1,14 +1,14 @@
 ---
 title: PlotEmptyCellsType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет все пустые ячейки диаграммы.
+description: Представляет тип пустых ячеек диаграммы для всех графиков.
 type: docs
 weight: 800
 url: /ru/net/aspose.cells.charts/plotemptycellstype/
 ---
 ## PlotEmptyCellsType enumeration
 
-Представляет все пустые ячейки диаграммы.
+Представляет тип пустых ячеек диаграммы для всех графиков.
 
 ```csharp
 public enum PlotEmptyCellsType
@@ -18,9 +18,9 @@ public enum PlotEmptyCellsType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| NotPlotted | `0` | Не нанесено (оставить пробел) |
+| NotPlotted | `0` | Не нанесен на график (оставить пробел) |
 | Zero | `1` | Ноль |
-| Interpolated | `2` | Интерполяция |
+| Interpolated | `2` | Интерполированный |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Style
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置条件格式单元格区域的样式
+description: 获取或设置条件格式单元格范围的样式
 type: docs
 weight: 100
 url: /zh/net/aspose.cells/formatcondition/style/
 ---
 ## FormatCondition.Style property
 
-获取或设置条件格式单元格区域的样式。
+获取或设置条件格式单元格范围的样式。
 
 ```csharp
 public Style Style { get; set; }

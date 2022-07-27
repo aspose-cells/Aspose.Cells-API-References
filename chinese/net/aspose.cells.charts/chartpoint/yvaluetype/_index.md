@@ -1,14 +1,14 @@
 ---
 title: YValueType
 second_title: Aspose.Cells for .NET API 参考
-description: 获取图表点的 Y 值类型
+description: 获取图表点的Y值类型
 type: docs
 weight: 330
 url: /zh/net/aspose.cells.charts/chartpoint/yvaluetype/
 ---
 ## ChartPoint.YValueType property
 
-获取图表点的 Y 值类型。
+获取图表点的Y值类型。
 
 ```csharp
 public CellValueType YValueType { get; }

@@ -1,14 +1,14 @@
 ---
 title: TopBevelWidth
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает ширину верхнего скоса или то насколько глубоко он применяется к фигуре. В баллах.
+description: Получает и задает ширину верхнего скоса или глубину его применения в форме. В единицах измерения Points.
 type: docs
 weight: 190
 url: /ru/net/aspose.cells.drawing/threedformat/topbevelwidth/
 ---
 ## ThreeDFormat.TopBevelWidth property
 
-Получает и задает ширину верхнего скоса или то, насколько глубоко он применяется к фигуре. В баллах.
+Получает и задает ширину верхнего скоса или глубину его применения в форме. В единицах измерения Points.
 
 ```csharp
 public double TopBevelWidth { get; set; }

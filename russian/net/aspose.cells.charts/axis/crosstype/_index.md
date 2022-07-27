@@ -1,14 +1,14 @@
 ---
 title: CrossType
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПредставляетCrossTypeaspose.cells.charts/axis/crosstypeна указанной оси где пересекается другая ось.
+description: ПредставляетCrossTypeaspose.cells.charts/axis/crosstype на указанной оси где другая ось пересекается.
 type: docs
 weight: 90
 url: /ru/net/aspose.cells.charts/axis/crosstype/
 ---
 ## Axis.CrossType property
 
-Представляет`CrossType`на указанной оси, где пересекается другая ось.
+Представляет`CrossType` на указанной оси, где другая ось пересекается.
 
 ```csharp
 public CrossType CrossType { get; set; }

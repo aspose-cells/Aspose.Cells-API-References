@@ -1,14 +1,14 @@
 ---
 title: BorderStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置边框的样式 System.Web.UI.WebControls.BorderStyle 枚举请参考 .NET SDK 文档
+description: 获取或设置边框样式 System.Web.UI.WebControls.BorderStyle枚举请参考.NET SDK文档
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.gridweb/webborderstyle/borderstyle/
 ---
 ## WebBorderStyle.BorderStyle property
 
-获取或设置边框的样式。 System.Web.UI.WebControls.BorderStyle 枚举请参考 .NET SDK 文档。
+获取或设置边框样式 System.Web.UI.WebControls.BorderStyle枚举请参考.NET SDK文档。
 
 ```csharp
 public BorderStyle BorderStyle { get; set; }

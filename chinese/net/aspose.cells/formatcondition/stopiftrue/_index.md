@@ -1,14 +1,14 @@
 ---
 title: StopIfTrue
 second_title: Aspose.Cells for .NET API 参考
-description: 真当此规则评估为真时不能对此规则应用具有较低优先级的规则 仅适用于 Excel 2007
+description: 为真当此规则计算结果为真时不能应用优先级较低的规则 仅适用于 Excel 2007
 type: docs
 weight: 90
 url: /zh/net/aspose.cells/formatcondition/stopiftrue/
 ---
 ## FormatCondition.StopIfTrue property
 
-真，当此规则评估为真时，不能对此规则应用具有较低优先级的规则。 仅适用于 Excel 2007；
+为真，当此规则计算结果为真时，不能应用优先级较低的规则。 仅适用于 Excel 2007；
 
 ```csharp
 public bool StopIfTrue { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Cells for .NET API 参考
-description: 移除绑定列对象
+description: 移除一个绑定列对象
 type: docs
 weight: 140
 url: /zh/net/aspose.cells.gridweb/bindcolumncollection/remove/
 ---
 ## BindColumnCollection.Remove method
 
-移除绑定列对象。
+移除一个绑定列对象。
 
 ```csharp
 public void Remove(object value)
@@ -16,7 +16,7 @@ public void Remove(object value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | Object |  |
+| value | Object |  |
 
 ### 也可以看看
 

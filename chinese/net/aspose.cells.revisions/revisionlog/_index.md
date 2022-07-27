@@ -18,7 +18,7 @@ public class RevisionLog
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Revisions](../../aspose.cells.revisions/revisionlog/revisions) { get; } | 获取此日志中的所有修订。 |
+| [Revisions](../../aspose.cells.revisions/revisionlog/revisions) { get; } | 获取此日志中的所有修订版。 |
 
 ### 也可以看看
 

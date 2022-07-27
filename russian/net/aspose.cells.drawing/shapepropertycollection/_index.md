@@ -18,17 +18,17 @@ public class ShapePropertyCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Format3D](../../aspose.cells.drawing/shapepropertycollection/format3d) { get; } | Представляет объект, определяющий свойства трехмерной формы для элемента диаграммы или фигуры. |
+| [Format3D](../../aspose.cells.drawing/shapepropertycollection/format3d) { get; } | Представляет объект, задающий свойства 3D-фигуры для элемента или фигуры диаграммы. |
 | [GlowEffect](../../aspose.cells.drawing/shapepropertycollection/gloweffect) { get; } | Представляет объект, определяющий эффект свечения для элемента диаграммы или фигуры. |
-| [ShadowEffect](../../aspose.cells.drawing/shapepropertycollection/shadoweffect) { get; } | Представляет объект, определяющий эффект тени для элемента диаграммы или фигуры. |
-| [SoftEdgeRadius](../../aspose.cells.drawing/shapepropertycollection/softedgeradius) { get; set; } | Получает и задает радиус размытия краев в точках. |
+| [ShadowEffect](../../aspose.cells.drawing/shapepropertycollection/shadoweffect) { get; } | Представляет объект, определяющий эффект тени для элемента диаграммы или формы. |
+| [SoftEdgeRadius](../../aspose.cells.drawing/shapepropertycollection/softedgeradius) { get; set; } | Получает и задает радиус размытия для краев в точках. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [ClearFormat3D](../../aspose.cells.drawing/shapepropertycollection/clearformat3d)() | Очищает свойства 3D-формы фигуры. |
-| [ClearGlowEffect](../../aspose.cells.drawing/shapepropertycollection/cleargloweffect)() | Очищает эффект свечения формы. |
+| [ClearGlowEffect](../../aspose.cells.drawing/shapepropertycollection/cleargloweffect)() | Очищает эффект свечения фигуры. |
 | [ClearShadowEffect](../../aspose.cells.drawing/shapepropertycollection/clearshadoweffect)() | Удаляет эффект тени элемента диаграммы или фигуры. |
 | [HasFormat3D](../../aspose.cells.drawing/shapepropertycollection/hasformat3d)() | Указывает, имеет ли фигура данные в формате 3D. |
 | [HasGlowEffect](../../aspose.cells.drawing/shapepropertycollection/hasgloweffect)() | Указывает, есть ли у фигуры данные об эффекте свечения. |

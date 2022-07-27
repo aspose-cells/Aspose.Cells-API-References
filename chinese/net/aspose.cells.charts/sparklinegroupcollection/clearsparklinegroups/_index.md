@@ -16,7 +16,7 @@ public void ClearSparklineGroups(CellArea cellArea)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cellArea | CellArea | 指定单元格区域 |
+| cellArea | CellArea | 指定单元格的区域 |
 
 ### 也可以看看
 

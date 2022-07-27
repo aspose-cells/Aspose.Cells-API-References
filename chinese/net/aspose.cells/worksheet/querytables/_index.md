@@ -1,14 +1,14 @@
 ---
 title: QueryTables
 second_title: Aspose.Cells for .NET API 参考
-description: 在工作表中获取QueryTableCollectionaspose.cells/querytablecollection
+description: 获取QueryTableCollectionaspose.cells/querytablecollection在工作表中
 type: docs
 weight: 390
 url: /zh/net/aspose.cells/worksheet/querytables/
 ---
 ## Worksheet.QueryTables property
 
-在工作表中获取[`QueryTableCollection`](../../querytablecollection)。
+获取[`QueryTableCollection`](../../querytablecollection)在工作表中。
 
 ```csharp
 public QueryTableCollection QueryTables { get; }

@@ -1,14 +1,14 @@
 ---
 title: TextHorizontalOverflow
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает тип горизонтального переполнения текста текстового поля.
+description: Получает и задает тип горизонтального переполнения текста для текстового поля.
 type: docs
 weight: 90
 url: /ru/net/aspose.cells.drawing.texts/shapetextalignment/texthorizontaloverflow/
 ---
 ## ShapeTextAlignment.TextHorizontalOverflow property
 
-Получает и задает тип горизонтального переполнения текста текстового поля.
+Получает и задает тип горизонтального переполнения текста для текстового поля.
 
 ```csharp
 public TextOverflowType TextHorizontalOverflow { get; set; }

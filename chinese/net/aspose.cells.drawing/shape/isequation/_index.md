@@ -19,10 +19,10 @@ public bool IsEquation { get; }
 ```csharp
 
 [C#]
- //如果为真，形状只包含一个方程。
+//如果为真，形状只包含一个方程。
 if(shape.IsEquation)
 {
-     //形状只包含一个 equation
+    //形状只包含一个方程
 }
 ```
 

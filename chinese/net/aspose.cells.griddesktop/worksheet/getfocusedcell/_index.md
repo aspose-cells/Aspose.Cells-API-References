@@ -16,7 +16,7 @@ public GridCell GetFocusedCell()
 
 ### 返回值
 
-单元对象。
+单元格对象。
 
 ### 也可以看看
 

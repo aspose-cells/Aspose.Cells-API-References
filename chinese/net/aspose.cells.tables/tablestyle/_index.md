@@ -1,14 +1,14 @@
 ---
 title: TableStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 表示表格样式
+description: 代表表格样式
 type: docs
 weight: 5850
 url: /zh/net/aspose.cells.tables/tablestyle/
 ---
 ## TableStyle class
 
-表示表格样式。
+代表表格样式。
 
 ```csharp
 public class TableStyle

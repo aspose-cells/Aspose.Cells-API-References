@@ -1,14 +1,14 @@
 ---
 title: IExportObjectListener
 second_title: Справочник по Aspose.Cells для .NET API
-description: Позволяет пользователям манипулировать объектами при экспорте.
+description: Позволяет пользователям управлять объектами при экспорте.
 type: docs
 weight: 3790
 url: /ru/net/aspose.cells/iexportobjectlistener/
 ---
 ## IExportObjectListener interface
 
-Позволяет пользователям манипулировать объектами при экспорте.
+Позволяет пользователям управлять объектами при экспорте.
 
 ```csharp
 public interface IExportObjectListener
@@ -22,11 +22,11 @@ public interface IExportObjectListener
 
 ### Примеры
 
-В следующем примере создается рабочая книга, открывается в ней файл с именем Designer.xls и создается горизонтальный и вертикальные полосы прокрутки, невидимые для рабочей книги. Затем он заменяет два строковых значения целочисленным значением и строковым значением соответственно в электронной таблице и, наконец, отправляет обновленный файл в клиентский браузер.
+Следующий пример создает рабочую книгу, открывает в ней файл с именем Designer.xls и делает горизонтальные и вертикальные полосы прокрутки невидимыми для рабочей книги. Затем он заменяет два строковых значения целочисленным значением и строковым значением соответственно в электронной таблице и, наконец, отправляет обновленный файл в клиентский браузер.
 
 ```csharp
 [C#]
-      //пользовательская реализация IExportObjectListener
+    //пользовательская реализация IExportObjectListener
     class CustomExportObjectListener : IExportObjectListener
     {
         private int imgIdx = 0;
@@ -55,12 +55,12 @@ public interface IExportObjectListener
         }
         private string SaveImage(byte[] data, int imgIdx, ImageFormat format)
         {
-              //здесь сохраните изображение в любом месте, затем верните URL-адрес (относительный или абсолютный), который сгенерированный html может получить image
+            //здесь сохраните изображение в любом месте, затем верните URL-адрес (относительный или абсолютный), который сгенерированный html может получить изображение
             return "temp1/temp2.png";
         }
      }
      
-       // Сохраняем html файл с пользовательским listener
+     // Сохраняем html-файл с пользовательским слушателем
         HtmlSaveOptions saveOptions = new HtmlSaveOptions();
         saveOptions.ExportObjectListener = new CustomExportObjectListener();
         Stream stream = File.Create(outfn);

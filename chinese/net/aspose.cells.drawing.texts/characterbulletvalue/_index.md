@@ -1,14 +1,14 @@
 ---
 title: CharacterBulletValue
 second_title: Aspose.Cells for .NET API 参考
-description: 表示字符项目符号
+description: 代表字符子弹
 type: docs
 weight: 2890
 url: /zh/net/aspose.cells.drawing.texts/characterbulletvalue/
 ---
 ## CharacterBulletValue class
 
-表示字符项目符号。
+代表字符子弹。
 
 ```csharp
 public class CharacterBulletValue : BulletValue

@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет коллекциюSeriesCollectionaspose.cells.charts/seriescollectionна диаграмму.
+description: ДобавляетSeriesCollectionaspose.cells.charts/seriescollection сбор на диаграмму.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.charts/seriescollection/add/
 ---
 ## Add(string, bool) {#add}
 
-Добавляет коллекцию[`SeriesCollection`](../../seriescollection)на диаграмму.
+Добавляет[`SeriesCollection`](../../seriescollection) сбор на диаграмму.
 
 ```csharp
 public int Add(string area, bool isVertical)
@@ -17,15 +17,15 @@ public int Add(string area, bool isVertical)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | area | String | Указывает значения, из которых строятся ряды данных |
-| isVertical | Boolean | Указывает, строить ли серию из диапазона значений ячеек по строке или по столбцу. |
+| isVertical | Boolean | Указывает, следует ли отображать серию из диапазона значений ячеек по строке или по столбцу. |
 
 ### Возвращаемое значение
 
-Возвращает первый индекс добавленной ASeries в NSeries.
+Возвращает первый индекс добавленного ASeries в NSeries.
 
 ### Примечания
 
-&lt;br&gt;Если данные задаются в смежных ячейках, используйте для их разделения двоеточие. Например, $C$2:$C$5.&lt;/br&gt;&lt;br&gt; Если данные задаются в несмежных ячейках, используйте запятую для их разделения. Например:($C$2,$D$5).&lt;/br&gt;
+Если заданы данные для смежных ячеек, используйте для их разделения двоеточие. Например, $C$2:$C$5.Если данные устанавливаются в несмежных ячейках, используйте запятую для их разделения. Например: ($C$2,$D$5).
 
 ### Смотрите также
 
@@ -37,7 +37,7 @@ public int Add(string area, bool isVertical)
 
 ## Add(string, bool, bool) {#add_1}
 
-Добавляет коллекцию[`SeriesCollection`](../../seriescollection)на диаграмму.
+Добавляет[`SeriesCollection`](../../seriescollection) сбор на диаграмму.
 
 ```csharp
 public int Add(string area, bool isVertical, bool checkLabels)
@@ -46,16 +46,16 @@ public int Add(string area, bool isVertical, bool checkLabels)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | area | String | Указывает значения, из которых строятся ряды данных |
-| isVertical | Boolean | Указывает, строить ли серию из диапазона значений ячеек по строке или по столбцу. |
+| isVertical | Boolean | Указывает, следует ли отображать серию из диапазона значений ячеек по строке или по столбцу. |
 | checkLabels | Boolean | Указывает, содержит ли диапазон название серии |
 
 ### Возвращаемое значение
 
-Возвращает первый индекс добавленной ASeries в серия NS.
+Возвращает первый индекс добавленного ASeries в NSeries.
 
 ### Примечания
 
-&lt;br&gt;Если данные задаются в смежных ячейках, используйте для их разделения двоеточие. Например, $C$2:$C$5.&lt;/br&gt;&lt;br&gt; Если данные задаются в несмежных ячейках, используйте запятую для их разделения. Например, ($C$2,$D$5).&lt;/br&gt;
+Если заданы данные для смежных ячеек, используйте для их разделения двоеточие. Например, $C$2:$C$5.Если данные задаются в несмежных ячейках, используйте запятую для их разделения. Например, ($C$2,$D$5).
 
 ### Смотрите также
 

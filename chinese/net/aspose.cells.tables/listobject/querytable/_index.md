@@ -1,14 +1,14 @@
 ---
 title: QueryTable
 second_title: Aspose.Cells for .NET API 参考
-description: 获取链接的 QueryTable
+description: 获取链接的QueryTable
 type: docs
 weight: 110
 url: /zh/net/aspose.cells.tables/listobject/querytable/
 ---
 ## ListObject.QueryTable property
 
-获取链接的 QueryTable。
+获取链接的QueryTable。
 
 ```csharp
 public QueryTable QueryTable { get; }

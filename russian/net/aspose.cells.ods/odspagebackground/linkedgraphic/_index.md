@@ -1,14 +1,14 @@
 ---
 title: LinkedGraphic
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает связанный графический путь.
+description: Получает и задает связанный графический путь.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.ods/odspagebackground/linkedgraphic/
 ---
 ## OdsPageBackground.LinkedGraphic property
 
-Получает и устанавливает связанный графический путь.
+Получает и задает связанный графический путь.
 
 ```csharp
 public string LinkedGraphic { get; set; }

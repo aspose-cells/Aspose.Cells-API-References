@@ -1,14 +1,14 @@
 ---
 title: Instructions
 second_title: Aspose.Cells for .NET API 参考
-description: 获取并设置在签名时显示给用户的文本
+description: 获取并设置在签名时向用户显示的文本
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.drawing/signatureline/instructions/
 ---
 ## SignatureLine.Instructions property
 
-获取并设置在签名时显示给用户的文本。
+获取并设置在签名时向用户显示的文本。
 
 ```csharp
 public string Instructions { get; set; }
@@ -19,7 +19,7 @@ public string Instructions { get; set; }
 ```csharp
 
 [C#]
- // 创建签名行 object
+// 创建签名线对象
 SignatureLine s6 = new SignatureLine();
 s6.Instructions = "Just do it.";
 ```

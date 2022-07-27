@@ -1,14 +1,14 @@
 ---
 title: And
 second_title: Aspose.Cells for .NET API 参考
-description: 表示两个条件是否存在与关系
+description: 表示两个条件是否有和关系
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/customfiltercollection/and/
 ---
 ## CustomFilterCollection.And property
 
-表示两个条件是否存在“与”关系。
+表示两个条件是否有“和”关系。
 
 ```csharp
 public bool And { get; set; }

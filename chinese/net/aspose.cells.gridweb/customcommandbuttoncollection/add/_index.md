@@ -20,7 +20,7 @@ public int Add(object value)
 
 ### 返回值
 
-索引。
+指数。
 
 ### 也可以看看
 

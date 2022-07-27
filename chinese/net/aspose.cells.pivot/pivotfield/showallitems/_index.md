@@ -1,14 +1,14 @@
 ---
 title: ShowAllItems
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否显示数据透视表中的所有项目 即使它们不包含汇总数据 显示没有数据的项目 默认值为 false
+description: 表示是否显示数据透视表中的所有项目 即使它们不包含汇总数据 显示没有数据的项目 默认值为false
 type: docs
 weight: 370
 url: /zh/net/aspose.cells.pivot/pivotfield/showallitems/
 ---
 ## PivotField.ShowAllItems property
 
-表示是否显示数据透视表中的所有项目， 即使它们不包含汇总数据。 显示没有数据的项目 默认值为 false。
+表示是否显示数据透视表中的所有项目， 即使它们不包含汇总数据。 显示没有数据的项目 默认值为false。
 
 ```csharp
 public bool ShowAllItems { get; set; }

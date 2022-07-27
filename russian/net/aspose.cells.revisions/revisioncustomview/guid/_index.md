@@ -1,14 +1,14 @@
 ---
 title: Guid
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает глобально уникальный идентификатор пользовательского представления.
+description: Получает глобальный уникальный идентификатор пользовательского представления.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.revisions/revisioncustomview/guid/
 ---
 ## RevisionCustomView.Guid property
 
-Получает глобально уникальный идентификатор пользовательского представления.
+Получает глобальный уникальный идентификатор пользовательского представления.
 
 ```csharp
 public Guid Guid { get; }

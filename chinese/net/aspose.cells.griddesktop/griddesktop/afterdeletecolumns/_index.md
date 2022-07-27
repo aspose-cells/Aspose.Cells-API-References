@@ -1,14 +1,14 @@
 ---
 title: AfterDeleteColumns
 second_title: Aspose.Cells for .NET API 参考
-description: 在删除列后发生
+description: 在列被删除后发生
 type: docs
 weight: 330
 url: /zh/net/aspose.cells.griddesktop/griddesktop/afterdeletecolumns/
 ---
 ## GridDesktop.AfterDeleteColumns event
 
-在删除列后发生。
+在列被删除后发生。
 
 ```csharp
 public event WorksheetEventHandler AfterDeleteColumns;

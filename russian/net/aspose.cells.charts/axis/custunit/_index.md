@@ -1,14 +1,14 @@
 ---
 title: CustUnit
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает пользовательское значение для единицы отображения.
+description: Задает пользовательское значение единицы отображения.
 type: docs
 weight: 100
 url: /ru/net/aspose.cells.charts/axis/custunit/
 ---
 ## Axis.CustUnit property
 
-Указывает пользовательское значение для единицы отображения.
+Задает пользовательское значение единицы отображения.
 
 ```csharp
 public int CustUnit { get; set; }

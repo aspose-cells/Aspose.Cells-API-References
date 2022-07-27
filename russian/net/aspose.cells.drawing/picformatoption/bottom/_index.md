@@ -1,14 +1,14 @@
 ---
 title: Bottom
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или устанавливает нижнее смещение для растягивания изображения.
+description: Получает или задает нижнее смещение для растягивания изображения.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.drawing/picformatoption/bottom/
 ---
 ## PicFormatOption.Bottom property
 
-Получает или устанавливает нижнее смещение для растягивания изображения.
+Получает или задает нижнее смещение для растягивания изображения.
 
 ```csharp
 public double Bottom { get; set; }

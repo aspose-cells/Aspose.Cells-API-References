@@ -1,14 +1,14 @@
 ---
 title: RenderHiddenRow
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置是否在GridControl中渲染隐藏行默认值为false 如果后面需要取消隐藏隐藏行则设置为true
+description: 获取或设置是否在GridControl中渲染隐藏行默认为false 如果后面需要取消隐藏隐藏行设置为true
 type: docs
 weight: 750
 url: /zh/net/aspose.cells.gridweb/mainweb/renderhiddenrow/
 ---
 ## MainWeb.RenderHiddenRow property
 
-获取或设置是否在GridControl中渲染隐藏行，默认值为false。 如果后面需要取消隐藏隐藏行，则设置为true
+获取或设置是否在GridControl中渲染隐藏行，默认为false。 如果后面需要取消隐藏隐藏行，设置为true
 
 ```csharp
 public bool RenderHiddenRow { get; set; }

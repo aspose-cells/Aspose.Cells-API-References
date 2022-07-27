@@ -1,14 +1,14 @@
 ---
 title: TiffCompression
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置仅在将页面保存为 Tiff 格式时应用的压缩类型
+description: 获取或设置仅在将页面保存到蒂夫格式.
 type: docs
 weight: 330
 url: /zh/net/aspose.cells.rendering/imageorprintoptions/tiffcompression/
 ---
 ## ImageOrPrintOptions.TiffCompression property
 
-获取或设置仅在将页面保存为` Tiff` 格式时应用的压缩类型。
+获取或设置仅在将页面保存到`蒂夫`格式.
 
 ```csharp
 public TiffCompression TiffCompression { get; set; }

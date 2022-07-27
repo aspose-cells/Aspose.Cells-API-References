@@ -1,14 +1,14 @@
 ---
 title: NameCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет коллекцию всех объектовName./nameв электронной таблице.
+description: Представляет собой набор всехName./name объекты в электронной таблице.
 type: docs
 weight: 4210
 url: /ru/net/aspose.cells/namecollection/
 ---
 ## NameCollection class
 
-Представляет коллекцию всех объектов[`Name`](../name)в электронной таблице.
+Представляет собой набор всех[`Name`](../name) объекты в электронной таблице.
 
 ```csharp
 public class NameCollection : CollectionBase<Name>
@@ -20,7 +20,7 @@ public class NameCollection : CollectionBase<Name>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/namecollection/item) { get; } | Получает элемент[`Name`](../name)по указанному индексу. (2 indexers) |
+| [Item](../../aspose.cells/namecollection/item) { get; } | Получает[`Name`](../name) элемент по указанному индексу. (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы
@@ -31,13 +31,13 @@ public class NameCollection : CollectionBase<Name>
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Name) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Name, IComparer&lt;Name&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Name, IComparer&lt;Name&gt;) |  |
-| [Clear](../../aspose.cells/namecollection/clear#clear)() | Удалить все определенные имена, на которые не ссылаются формулы и источник данных. Если указано определенное имя, мы только устанавливаем Name.ReferTo как null и скрываем их. (2 methods) |
+| [Clear](../../aspose.cells/namecollection/clear#clear)() | Удаляем все определенные имена, на которые не ссылаются формулы и источник данных. Если на определенное имя ссылаются, мы только устанавливаем Name.ReferTo как нуль и скрываем их. (2 methods) |
 | [Contains](../../aspose.cells/collectionbase`1/contains)(Name) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Name[]) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Name[], int) |  |
 | [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, Name[], int, int) |  |
 | [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;Name&gt;) |  |
-| [Filter](../../aspose.cells/namecollection/filter)(NameScopeType, int) | Получает все определенные имена по области. |
+| [Filter](../../aspose.cells/namecollection/filter)(NameScopeType, int) | Получает все определенные имена по области действия. |
 | [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;Name&gt;) |  |
 | [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;Name&gt;) |  |
 | [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;Name&gt;) |  |
@@ -55,7 +55,7 @@ public class NameCollection : CollectionBase<Name>
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Name, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Name, int, int) |  |
 | [Remove](../../aspose.cells/namecollection/remove#remove)(string) | Удалить имя. |
-| [Remove](../../aspose.cells/namecollection/remove#remove_1)(string[]) | Удалить массив имени |
+| [Remove](../../aspose.cells/namecollection/remove#remove_1)(string[]) | Удалить массив name |
 | [RemoveAt](../../aspose.cells/namecollection/removeat#removeat)(int) | Удалить имя по указанному индексу. (2 methods) |
 | [RemoveDuplicateNames](../../aspose.cells/namecollection/removeduplicatenames)() | Удалить повторяющиеся определенные имена |
 | [Sort](../../aspose.cells/namecollection/sort)() | Сортирует определенные имена. |

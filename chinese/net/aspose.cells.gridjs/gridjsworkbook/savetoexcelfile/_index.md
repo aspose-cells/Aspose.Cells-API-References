@@ -1,14 +1,14 @@
 ---
 title: SaveToExcelFile
 second_title: Aspose.Cells for .NET API 参考
-description: 根据原始文件格式将工作表保存到 sream 中
+description: 根据原始文件格式将工作表保存到流中
 type: docs
 weight: 140
 url: /zh/net/aspose.cells.gridjs/gridjsworkbook/savetoexcelfile/
 ---
 ## SaveToExcelFile(Stream) {#savetoexcelfile}
 
-根据原始文件格式将工作表保存到 sream 中。
+根据原始文件格式将工作表保存到流中。
 
 ```csharp
 public void SaveToExcelFile(Stream stream)
@@ -28,7 +28,7 @@ public void SaveToExcelFile(Stream stream)
 
 ## SaveToExcelFile(string) {#savetoexcelfile_1}
 
-将工作表保存到文件路径，如果文件有扩展名，则保存格式基于文件扩展名。
+将工作表保存到文件路径，如果文件有扩展名，则保存格式基于文件扩展名.
 
 ```csharp
 public void SaveToExcelFile(string path)

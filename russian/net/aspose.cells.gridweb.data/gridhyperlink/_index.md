@@ -19,13 +19,13 @@ public class GridHyperlink
 | Имя | Описание |
 | --- | --- |
 | [Address](../../aspose.cells.gridweb.data/gridhyperlink/address) { get; set; } | Представляет адрес гиперссылки. |
-| [AltText](../../aspose.cells.gridweb.data/gridhyperlink/alttext) { get; set; } | Получить или установить альтернативный текст для ссылки на изображение, обратите внимание, что это атрибут расширения, который нельзя сохранить в файле Excel |
+| [AltText](../../aspose.cells.gridweb.data/gridhyperlink/alttext) { get; set; } | Получить или установить альтернативный текст для ссылки на изображение, обратите внимание, что это атрибут расширения, который нельзя сохранить в файле excel |
 | [Area](../../aspose.cells.gridweb.data/gridhyperlink/area) { get; } | Получает диапазон гиперссылки. |
 | [Command](../../aspose.cells.gridweb.data/gridhyperlink/command) { get; set; } | Возвращает или задает самоопределяемый текст значения команды для указанной гиперссылки. |
-| virtual [DiscardInput](../../aspose.cells.gridweb.data/gridhyperlink/discardinput) { get; set; } | Указывает, следует ли отбрасывать пользовательский ввод в браузере клиента, когда пользователь щелкает эту гиперссылку CellCommand. Может использоваться как действие «отменить». |
-| [ImageURL](../../aspose.cells.gridweb.data/gridhyperlink/imageurl) { get; set; } | Получить или установить URL-адрес изображения для ссылки, в гиперссылке нет свойств imageurl, поэтому на самом деле используйте TextToDisplay для записи этого значения, TextToDisplay будет должно быть установлено значение &lt;img src=value &gt; поэтому он изменит значение TextToDisplay |
+| virtual [DiscardInput](../../aspose.cells.gridweb.data/gridhyperlink/discardinput) { get; set; } | Указывает, следует ли отклонять пользовательский ввод в браузере клиента, когда пользователь щелкает эту гиперссылку CellCommand. Может использоваться как действие «отменить». |
+| [ImageURL](../../aspose.cells.gridweb.data/gridhyperlink/imageurl) { get; set; } | Получить или установить URL-адрес изображения для ссылки, в гиперссылке нет свойств imageurl, , поэтому на самом деле используйте TextToDisplay для записи этого значения. TextToDisplay будет установлен на &lt;img src=value&gt; , поэтому он изменит значение TextToDisplay |
 | [ScreenTip](../../aspose.cells.gridweb.data/gridhyperlink/screentip) { get; set; } | Возвращает или задает текст всплывающей подсказки для указанной гиперссылки. |
-| [Target](../../aspose.cells.gridweb.data/gridhyperlink/target) { get; set; } | Получить или установить целевой тип веб-ссылки, обратите внимание, что это атрибут расширения, который нельзя сохранить в файле Excel |
+| [Target](../../aspose.cells.gridweb.data/gridhyperlink/target) { get; set; } | Получить или установить тип цели веб-ссылки, обратите внимание, что это атрибут расширения, который нельзя сохранить в файле Excel |
 | [TextToDisplay](../../aspose.cells.gridweb.data/gridhyperlink/texttodisplay) { get; set; } | Представляет текст, отображаемый для указанной гиперссылки. Значением по умолчанию является адрес гиперссылки. |
 
 ### Смотрите также

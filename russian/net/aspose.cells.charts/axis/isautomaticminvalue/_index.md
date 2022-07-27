@@ -1,14 +1,14 @@
 ---
 title: IsAutomaticMinValue
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает присваивается ли минимальное значение автоматически.
+description: Указывает назначается ли минимальное значение автоматически.
 type: docs
 weight: 170
 url: /ru/net/aspose.cells.charts/axis/isautomaticminvalue/
 ---
 ## Axis.IsAutomaticMinValue property
 
-Указывает, присваивается ли минимальное значение автоматически.
+Указывает, назначается ли минимальное значение автоматически.
 
 ```csharp
 public bool IsAutomaticMinValue { get; set; }

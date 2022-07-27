@@ -20,7 +20,7 @@ public enum LightRigType
 | --- | --- | --- |
 | Balanced | `0` | 平衡 |
 | BrightRoom | `1` | 明亮的房间 |
-| Chilly | `2` | 寒冷 |
+| Chilly | `2` | 冷 |
 | Contrasting | `3` | 对比 |
 | Flat | `4` | 平面 |
 | Flood | `5` | 洪水 |
@@ -45,7 +45,7 @@ public enum LightRigType
 | Sunset | `24` | 日落 |
 | ThreePoint | `25` | 三点 |
 | TwoPoint | `26` | 两点 |
-| None | `27` | 没有灯光装置。 |
+| None | `27` | 没有灯光设备。 |
 
 ### 也可以看看
 

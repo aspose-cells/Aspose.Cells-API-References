@@ -1,14 +1,14 @@
 ---
 title: SaveFormat
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает тип формата выходного файла Поддержка Tiff/XPS
+description: Получает или задает формат выходного файла type Support Tiff/XPS
 type: docs
 weight: 270
 url: /ru/net/aspose.cells.rendering/imageorprintoptions/saveformat/
 ---
 ## ImageOrPrintOptions.SaveFormat property
 
-Получает или задает тип формата выходного файла Поддержка Tiff/XPS
+Получает или задает формат выходного файла type Support Tiff/XPS
 
 ```csharp
 public SaveFormat SaveFormat { get; set; }

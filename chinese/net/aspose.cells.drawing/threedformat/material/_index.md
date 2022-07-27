@@ -1,14 +1,14 @@
 ---
 title: Material
 second_title: Aspose.Cells for .NET API 参考
-description: 表示与光照属性相结合的预设材质以提供 形状的最终外观
+description: 表示与光照属性相结合的预设材质以赋予 形状的最终外观和感觉
 type: docs
 weight: 110
 url: /zh/net/aspose.cells.drawing/threedformat/material/
 ---
 ## ThreeDFormat.Material property
 
-表示与光照属性相结合的预设材质，以提供 形状的最终外观。
+表示与光照属性相结合的预设材质，以赋予 形状的最终外观和感觉。
 
 ```csharp
 public PresetMaterialType Material { get; set; }

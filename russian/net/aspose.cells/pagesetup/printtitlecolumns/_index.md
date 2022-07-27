@@ -1,14 +1,14 @@
 ---
 title: PrintTitleColumns
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет столбцы содержащие ячейки которые должны повторяться в левой части каждой страницы.
+description: Представляет столбцы содержащие повторяющиеся ячейки в левой части каждой страницы.
 type: docs
 weight: 370
 url: /ru/net/aspose.cells/pagesetup/printtitlecolumns/
 ---
 ## PageSetup.PrintTitleColumns property
 
-Представляет столбцы, содержащие ячейки, которые должны повторяться в левой части каждой страницы.
+Представляет столбцы, содержащие повторяющиеся ячейки в левой части каждой страницы.
 
 ```csharp
 public string PrintTitleColumns { get; set; }

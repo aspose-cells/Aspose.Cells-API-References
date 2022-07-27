@@ -1,14 +1,14 @@
 ---
 title: FileFormatInfo
 second_title: Aspose.Cells for .NET API 参考
-description: 包含FileFormatUtil./fileformatutil文件格式检测方法返回的数据
+description: 包含由返回的数据FileFormatUtil./fileformatutil文件格式检测方法
 type: docs
 weight: 3400
 url: /zh/net/aspose.cells/fileformatinfo/
 ---
 ## FileFormatInfo class
 
-包含[`FileFormatUtil`](../fileformatutil)文件格式检测方法返回的数据。
+包含由返回的数据[`FileFormatUtil`](../fileformatutil)文件格式检测方法。
 
 ```csharp
 public class FileFormatInfo

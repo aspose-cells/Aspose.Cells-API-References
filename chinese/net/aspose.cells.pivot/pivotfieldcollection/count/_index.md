@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Cells for .NET API 参考
-description: 获取pivotFields的计数
+description: 获取 pivotFields 的计数
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.pivot/pivotfieldcollection/count/
 ---
 ## PivotFieldCollection.Count property
 
-获取pivotFields的计数。
+获取 pivotFields 的计数。
 
 ```csharp
 public int Count { get; }

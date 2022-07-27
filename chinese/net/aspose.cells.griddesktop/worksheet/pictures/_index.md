@@ -1,14 +1,14 @@
 ---
 title: Pictures
 second_title: Aspose.Cells for .NET API 参考
-description: 获取Picturesaspose.cells.griddesktop/worksheet/pictures集合
+description: 得到一个Picturesaspose.cells.griddesktop/worksheet/pictures集合.
 type: docs
 weight: 290
 url: /zh/net/aspose.cells.griddesktop/worksheet/pictures/
 ---
 ## Worksheet.Pictures property
 
-获取`Pictures`集合。
+得到一个`Pictures`集合.
 
 ```csharp
 public GridPictureCollection Pictures { get; }

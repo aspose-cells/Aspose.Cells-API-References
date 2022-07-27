@@ -1,14 +1,14 @@
 ---
 title: TotalsCalculation
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置列表列的总计行中的计算类型
+description: 获取和设置列表列的 Totals 行中的计算类型
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.tables/listcolumn/totalscalculation/
 ---
 ## ListColumn.TotalsCalculation property
 
-获取和设置列表列的总计行中的计算类型。
+获取和设置列表列的 Totals 行中的计算类型。
 
 ```csharp
 public TotalsCalculation TotalsCalculation { get; set; }

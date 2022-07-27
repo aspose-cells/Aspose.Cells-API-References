@@ -16,7 +16,7 @@ public void SetFirstPageFooter(int section, string footerScript)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| section | Int32 | 0:Левая секция. |
+| section | Int32 | 0: левая часть, 1: центральная часть, 2: правая часть. |
 | footerScript | String | Скрипт формата нижнего колонтитула. |
 
 ### Смотрите также

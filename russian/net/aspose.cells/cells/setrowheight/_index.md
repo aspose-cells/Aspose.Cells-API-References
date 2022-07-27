@@ -3,7 +3,7 @@ title: SetRowHeight
 second_title: Справочник по Aspose.Cells для .NET API
 description: Устанавливает высоту указанной строки.
 type: docs
-weight: 1250
+weight: 1260
 url: /ru/net/aspose.cells/cells/setrowheight/
 ---
 ## Cells.SetRowHeight method
@@ -17,7 +17,7 @@ public void SetRowHeight(int row, double height)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | row | Int32 | Индекс строки. |
-| height | Double | Высота строки. В пунктах Должно быть от 0 до 409,5. |
+| height | Double | Высота строки. В пунктах Должна быть в диапазоне от 0 до 409,5. |
 
 ### Смотрите также
 

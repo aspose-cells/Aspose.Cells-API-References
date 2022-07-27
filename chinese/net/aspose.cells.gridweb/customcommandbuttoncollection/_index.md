@@ -1,14 +1,14 @@
 ---
 title: CustomCommandButtonCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示CustomCommandButton的集合
+description: 代表CustomCommandButton的集合
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.gridweb/customcommandbuttoncollection/
 ---
 ## CustomCommandButtonCollection class
 
-表示CustomCommandButton的集合。
+代表CustomCommandButton的集合。
 
 ```csharp
 public class CustomCommandButtonCollection : IList
@@ -36,7 +36,7 @@ public class CustomCommandButtonCollection : IList
 | [GetEnumerator](../../aspose.cells.gridweb/customcommandbuttoncollection/getenumerator)() | 获取集合的 IEnumerator 对象。 |
 | [IndexOf](../../aspose.cells.gridweb/customcommandbuttoncollection/indexof)(object) | 获取按钮的索引。 |
 | [Insert](../../aspose.cells.gridweb/customcommandbuttoncollection/insert)(int, object) | 在索引处插入一个按钮。 |
-| [Remove](../../aspose.cells.gridweb/customcommandbuttoncollection/remove)(object) | 删除自定义命令按钮对象。 |
+| [Remove](../../aspose.cells.gridweb/customcommandbuttoncollection/remove)(object) | 移除自定义命令按钮对象。 |
 | [RemoveAt](../../aspose.cells.gridweb/customcommandbuttoncollection/removeat)(int) | 在索引处删除。 |
 
 ### 例子

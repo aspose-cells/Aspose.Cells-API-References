@@ -8,7 +8,7 @@ url: /ru/net/aspose.cells/globalizationsettings/getmultipleitemsname/
 ---
 ## GlobalizationSettings.GetMultipleItemsName method
 
-Получает имя метки "(Несколько элементов)" в сводной таблице.
+Получает имя метки «(Несколько элементов)» в сводной таблице.
 
 ```csharp
 public virtual string GetMultipleItemsName()
@@ -16,7 +16,7 @@ public virtual string GetMultipleItemsName()
 
 ### Возвращаемое значение
 
-Имя ярлыка "(Несколько элементов)"
+Название ярлыка "(Несколько элементов)"
 
 ### Смотрите также
 

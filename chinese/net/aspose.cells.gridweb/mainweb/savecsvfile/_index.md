@@ -16,7 +16,7 @@ public void SaveCSVFile(string targetFile)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| targetFile | String | 文件名。 |
+| targetFile | String | 文件的名称。 |
 
 ### 也可以看看
 

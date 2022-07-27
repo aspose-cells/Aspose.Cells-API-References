@@ -1,14 +1,14 @@
 ---
 title: WebExtensionReference
 second_title: Aspose.Cells for .NET API 参考
-description: 表示标识提供者位置和扩展的版本
+description: 代表标识提供者位置和扩展的版本
 type: docs
 weight: 6430
 url: /zh/net/aspose.cells.webextensions/webextensionreference/
 ---
 ## WebExtensionReference class
 
-表示标识提供者位置和扩展的版本。
+代表标识提供者位置和扩展的版本。
 
 ```csharp
 public class WebExtensionReference

@@ -1,14 +1,14 @@
 ---
 title: Area
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получаетareaaspose.cells.charts/chartframe/area .
+description: Получаетобластьaspose.cells.charts/chartframe/area .
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.charts/chartframe/area/
 ---
 ## ChartFrame.Area property
 
-Получает`area` .
+Получает`область` .
 
 ```csharp
 public virtual Area Area { get; }

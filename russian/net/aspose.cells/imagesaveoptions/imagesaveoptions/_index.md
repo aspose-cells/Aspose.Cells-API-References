@@ -32,7 +32,7 @@ public ImageSaveOptions(SaveFormat saveFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| saveFormat | SaveFormat | Формат файла. Это должно быть tiff или svg. |
+| saveFormat | SaveFormat | Формат файла. Должен быть tiff или svg. |
 
 ### Смотрите также
 

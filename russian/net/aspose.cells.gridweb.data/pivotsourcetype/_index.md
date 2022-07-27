@@ -1,14 +1,14 @@
 ---
 title: PivotSourceType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет исходный тип данных.
+description: Представляет тип исходных данных.
 type: docs
 weight: 660
 url: /ru/net/aspose.cells.gridweb.data/pivotsourcetype/
 ---
 ## PivotSourceType enumeration
 
-Представляет исходный тип данных.
+Представляет тип исходных данных.
 
 ```csharp
 public enum PivotSourceType

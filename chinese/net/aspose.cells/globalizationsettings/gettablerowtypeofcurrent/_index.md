@@ -1,14 +1,14 @@
 ---
 title: GetTableRowTypeOfCurrent
 second_title: Aspose.Cells for .NET API 参考
-description: 获取由引用表中的当前行组成的表行的类型名称 默认为This Row因此在公式中This Row表示引用表中的当前行
+description: 获取引用表中包含当前行的表行的类型名称 默认为This Row因此公式中This Row表示引用表中的当前行
 type: docs
 weight: 260
 url: /zh/net/aspose.cells/globalizationsettings/gettablerowtypeofcurrent/
 ---
 ## GlobalizationSettings.GetTableRowTypeOfCurrent method
 
-获取由引用表中的当前行组成的表行的类型名称。 默认为“This Row”，因此在公式中“#This Row”表示引用表中的当前行。
+获取引用表中包含当前行的表行的类型名称。 默认为“This Row”，因此公式中“#This Row”表示引用表中的当前行。
 
 ```csharp
 public virtual string GetTableRowTypeOfCurrent()

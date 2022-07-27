@@ -1,14 +1,14 @@
 ---
 title: HorizontalPageBreaks
 second_title: Aspose.Cells for .NET API 参考
-description: 获取HorizontalPageBreakCollectionaspose.cells/horizontalpagebreakcollection集合
+description: 获取HorizontalPageBreakCollectionaspose.cells/horizontalpagebreakcollection收藏
 type: docs
 weight: 190
 url: /zh/net/aspose.cells/worksheet/horizontalpagebreaks/
 ---
 ## Worksheet.HorizontalPageBreaks property
 
-获取[`HorizontalPageBreakCollection`](../../horizontalpagebreakcollection)集合。
+获取[`HorizontalPageBreakCollection`](../../horizontalpagebreakcollection)收藏。
 
 ```csharp
 public HorizontalPageBreakCollection HorizontalPageBreaks { get; }

@@ -1,14 +1,14 @@
 ---
 title: IsGridDropZones
 second_title: Aspose.Cells for .NET API 参考
-description: 指示数据透视表是否显示经典数据透视表布局 允许在网格中拖动字段
+description: 指示数据透视表是否显示经典的数据透视表布局 允许在网格中拖动字段
 type: docs
 weight: 300
 url: /zh/net/aspose.cells.pivot/pivottable/isgriddropzones/
 ---
 ## PivotTable.IsGridDropZones property
 
-指示数据透视表是否显示经典数据透视表布局。 （允许在网格中拖动字段）
+指示数据透视表是否显示经典的数据透视表布局。 （允许在网格中拖动字段）
 
 ```csharp
 public bool IsGridDropZones { get; set; }

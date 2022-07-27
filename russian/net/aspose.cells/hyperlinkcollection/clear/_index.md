@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Справочник по Aspose.Cells для .NET API
-description: Очищает все гиперссылки.
+description: Удаляет все гиперссылки.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/hyperlinkcollection/clear/
 ---
 ## HyperlinkCollection.Clear method
 
-Очищает все гиперссылки.
+Удаляет все гиперссылки.
 
 ```csharp
 public void Clear()

@@ -1,14 +1,14 @@
 ---
 title: PivotGroupByType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示数据透视表分组类型
+description: 表示按类型分组的数据透视表
 type: docs
 weight: 4630
 url: /zh/net/aspose.cells.pivot/pivotgroupbytype/
 ---
 ## PivotGroupByType enumeration
 
-表示数据透视表分组类型。
+表示按类型分组的数据透视表。
 
 ```csharp
 public enum PivotGroupByType
@@ -18,13 +18,13 @@ public enum PivotGroupByType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| RangeOfValues | `0` | 按类型表示值的范围。 |
-| Seconds | `1` | Presents Seconds groupby type。 |
-| Minutes | `2` | 呈现分钟分组类型。 |
-| Hours | `3` | 按类型显示小时数。 |
-| Days | `4` | Presents Days groupby 类型。 |
-| Months | `5` | 呈现月份分组类型。 |
-| Quarters | `6` | 按类型显示 Quarters。 |
+| RangeOfValues | `0` | 按类型分组呈现值范围。 |
+| Seconds | `1` | 按类型分组呈现秒数。 |
+| Minutes | `2` | 按类型分组呈现分钟数。 |
+| Hours | `3` | 按类型分组显示小时数。 |
+| Days | `4` | 按类型分组显示天数。 |
+| Months | `5` | 按类型显示月份。 |
+| Quarters | `6` | 按类型分组展示宿舍。 |
 | Years | `7` | 按类型显示年份。 |
 
 ### 也可以看看

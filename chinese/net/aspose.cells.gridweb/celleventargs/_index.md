@@ -25,7 +25,7 @@ public class CellEventArgs : EventArgs
 | 姓名 | 描述 |
 | --- | --- |
 | [Argument](../../aspose.cells.gridweb/celleventargs/argument) { get; } | 事件的参数。 |
-| [Cell](../../aspose.cells.gridweb/celleventargs/cell) { get; } | 单元格。 |
+| [Cell](../../aspose.cells.gridweb/celleventargs/cell) { get; } | 单元格. |
 
 ## 方法
 

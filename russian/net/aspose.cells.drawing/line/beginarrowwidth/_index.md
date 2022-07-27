@@ -1,14 +1,14 @@
 ---
 title: BeginArrowWidth
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает ширину стрелки для начала строки.
+description: Определяет ширину стрелки для начала строки.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.drawing/line/beginarrowwidth/
 ---
 ## Line.BeginArrowWidth property
 
-Задает ширину стрелки для начала строки.
+Определяет ширину стрелки для начала строки.
 
 ```csharp
 public MsoArrowheadWidth BeginArrowWidth { get; set; }

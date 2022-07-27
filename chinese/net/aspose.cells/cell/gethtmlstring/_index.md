@@ -1,14 +1,14 @@
 ---
 title: GetHtmlString
 second_title: Aspose.Cells for .NET API 参考
-description: 获取包含此单元格中的数据和某些格式的 html 字符串
+description: 获取包含此单元格中的数据和一些格式的 html 字符串
 type: docs
 weight: 450
 url: /zh/net/aspose.cells/cell/gethtmlstring/
 ---
 ## Cell.GetHtmlString method
 
-获取包含此单元格中的数据和某些格式的 html 字符串。
+获取包含此单元格中的数据和一些格式的 html 字符串。
 
 ```csharp
 public string GetHtmlString(bool html5)
@@ -16,7 +16,7 @@ public string GetHtmlString(bool html5)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| html5 | Boolean | 表示该值是否与html5兼容 |
+| html5 | Boolean | 指示该值是否与 html5 兼容 |
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public void ProtectSharedWorkbook(string password)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| пароль | String | Пароль для защиты книги. |
+| password | String | Пароль для защиты книги. |
 
 ### Смотрите также
 

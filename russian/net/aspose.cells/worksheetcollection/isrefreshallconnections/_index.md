@@ -1,14 +1,14 @@
 ---
 title: IsRefreshAllConnections
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает будут ли обновляться все соединения при открытии файла в MS Excel.
+description: Указывает будут ли обновляться все подключения при открытии файла в MS Excel.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells/worksheetcollection/isrefreshallconnections/
 ---
 ## WorksheetCollection.IsRefreshAllConnections property
 
-Указывает, будут ли обновляться все соединения при открытии файла в MS Excel.
+Указывает, будут ли обновляться все подключения при открытии файла в MS Excel.
 
 ```csharp
 public bool IsRefreshAllConnections { get; set; }

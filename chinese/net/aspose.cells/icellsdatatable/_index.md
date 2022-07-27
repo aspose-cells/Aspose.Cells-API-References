@@ -1,14 +1,14 @@
 ---
 title: ICellsDataTable
 second_title: Aspose.Cells for .NET API 参考
-description: 表示数据表
+description: 代表数据表
 type: docs
 weight: 3770
 url: /zh/net/aspose.cells/icellsdatatable/
 ---
 ## ICellsDataTable interface
 
-表示数据表。
+代表数据表。
 
 ```csharp
 public interface ICellsDataTable
@@ -19,7 +19,7 @@ public interface ICellsDataTable
 | 姓名 | 描述 |
 | --- | --- |
 | [Columns](../../aspose.cells/icellsdatatable/columns) { get; } | 获取列的名称。 |
-| [Count](../../aspose.cells/icellsdatatable/count) { get; } | 获取记录数。 -1 表示未知记录数。 |
+| [Count](../../aspose.cells/icellsdatatable/count) { get; } | 获取记录数。 -1 未知记录数。 |
 | [Item](../../aspose.cells/icellsdatatable/item) { get; } | 获取索引指定的列中存储的数据。 (2 indexers) |
 
 ## 方法

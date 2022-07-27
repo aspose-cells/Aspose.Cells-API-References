@@ -62,7 +62,7 @@ public void ExportExcelFile(string fileName, FileFormatType fileFormatType)
 
 ## ExportExcelFile(Stream) {#exportexcelfile}
 
-Экспортирует в файловый поток Excel, включая поток дискового ввода-вывода или поток памяти.
+Экспорт в файловый поток Excel, включая поток дискового ввода-вывода или поток памяти.
 
 ```csharp
 public void ExportExcelFile(Stream stream)
@@ -112,7 +112,7 @@ End Sub
 
 ## ExportExcelFile(Stream, FileFormatType) {#exportexcelfile_1}
 
-Экспортирует в файловый поток Excel, включая поток дискового ввода-вывода или поток памяти.
+Экспорт в файловый поток Excel, включая поток дискового ввода-вывода или поток памяти.
 
 ```csharp
 public void ExportExcelFile(Stream stream, FileFormatType fileFormatType)

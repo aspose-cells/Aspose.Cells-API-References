@@ -1,14 +1,14 @@
 ---
 title: Explosion
 second_title: Aspose.Cells for .NET API 参考
-description: 一个开放的饼图切片到饼图中心的距离表示为饼图直径的百分比
+description: 一个开放的饼图与饼图中心的距离表示为饼图直径的百分比
 type: docs
 weight: 100
 url: /zh/net/aspose.cells.charts/chartpoint/explosion/
 ---
 ## ChartPoint.Explosion property
 
-一个开放的饼图切片到饼图中心的距离表示为饼图直径的百分比。
+一个开放的饼图与饼图中心的距离表示为饼图直径的百分比。
 
 ```csharp
 public int Explosion { get; set; }

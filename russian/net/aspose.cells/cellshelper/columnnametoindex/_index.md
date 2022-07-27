@@ -1,14 +1,14 @@
 ---
 title: ColumnNameToIndex
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает индекс столбца по имени столбца.
+description: Получает индекс столбца в соответствии с именем столбца.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells/cellshelper/columnnametoindex/
 ---
 ## CellsHelper.ColumnNameToIndex method
 
-Получает индекс столбца по имени столбца.
+Получает индекс столбца в соответствии с именем столбца.
 
 ```csharp
 public static int ColumnNameToIndex(string columnName)

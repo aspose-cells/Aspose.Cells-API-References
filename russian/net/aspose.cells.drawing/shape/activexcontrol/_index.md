@@ -20,7 +20,7 @@ public ActiveXControl ActiveXControl { get; }
 
 [C#]
 CheckBoxActiveXControl checkBox1 = (CheckBoxActiveXControl)shape.ActiveXControl;
-  //Имя шрифта CheckBox
+//Имя шрифта CheckBox
 string fontName = checkBox1.Font.Name;
 ```
 

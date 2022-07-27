@@ -16,11 +16,11 @@ public virtual string GetLocalBuiltInName(string standardName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| standardName | String | Standard(en-US locale) 内置名称的文本。 |
+| standardName | String | 内置名称的标准（en-US 语言环境）文本。 |
 
 ### 返回值
 
-区域设置相关文本。区域设置由使用此设置的工作簿指定。
+依赖于语言环境的文本。区域设置由使用此设置的工作簿指定。
 
 ### 也可以看看
 

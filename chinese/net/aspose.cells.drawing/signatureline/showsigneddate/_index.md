@@ -21,7 +21,7 @@ public bool ShowSignedDate { get; set; }
 [C#]
 if(s.ShowSignedDate)
 {
-     //显示签名日期.
+    //显示签名日期。
 }
 ```
 

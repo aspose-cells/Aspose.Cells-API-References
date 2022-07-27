@@ -1,14 +1,14 @@
 ---
 title: AddColumn
 second_title: Aspose.Cells for .NET API 参考
-description: 添加新列
+description: 添加一个新列
 type: docs
 weight: 440
 url: /zh/net/aspose.cells.griddesktop/worksheet/addcolumn/
 ---
 ## Worksheet.AddColumn method
 
-添加新列。
+添加一个新列。
 
 ```csharp
 public void AddColumn()

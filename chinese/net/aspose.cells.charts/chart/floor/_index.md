@@ -1,14 +1,14 @@
 ---
 title: Floor
 second_title: Aspose.Cells for .NET API 参考
-description: 返回一个Flooraspose.cells.charts/chart/floor对象该对象表示 3-D 图表的墙壁
+description: 返回一个Flooraspose.cells.charts/chart/floor表示 3-D 图表墙壁的对象
 type: docs
 weight: 110
 url: /zh/net/aspose.cells.charts/chart/floor/
 ---
 ## Chart.Floor property
 
-返回一个`Floor`对象，该对象表示 3-D 图表的墙壁。
+返回一个`Floor`表示 3-D 图表墙壁的对象。
 
 ```csharp
 public Floor Floor { get; }

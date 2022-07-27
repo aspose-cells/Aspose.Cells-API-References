@@ -1,14 +1,14 @@
 ---
 title: GetThreadedComments
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает связанные комментарии по индексу строки и столбца.
+description: Получает цепочку комментариев по индексу строки и столбца.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells/commentcollection/getthreadedcomments/
 ---
 ## GetThreadedComments(int, int) {#getthreadedcomments}
 
-Получает связанные комментарии по индексу строки и столбца.
+Получает цепочку комментариев по индексу строки и столбца.
 
 ```csharp
 public ThreadedCommentCollection GetThreadedComments(int row, int column)

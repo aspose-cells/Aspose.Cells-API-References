@@ -1,14 +1,14 @@
 ---
 title: TreatQuotePrefixAsValue
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает следует ли использовать одинарную кавычку как часть значения одной ячейки. Значение по умолчанию  true. Если оно ложно ведущая одинарная кавычка будет удалена из значения соответствующей ячейки иQuotePrefixaspose.cells/style/quoteprefixбудет установлено как true для ячейки.
+description: Указывает следует ли рассматривать одинарную кавычку как часть значения одной ячейки. Значение по умолчанию  true. Если оно ложно ведущая одинарная кавычка будет удалена из значения соответствующей ячейки иQuotePrefixaspose.cells/style/quoteprefix будет установлено как true для ячейки.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells/txtloadoptions/treatquoteprefixasvalue/
 ---
 ## TxtLoadOptions.TreatQuotePrefixAsValue property
 
-Указывает, следует ли использовать одинарную кавычку как часть значения одной ячейки. Значение по умолчанию — true. Если оно ложно, ведущая одинарная кавычка будет удалена из значения соответствующей ячейки и[`QuotePrefix`](../../style/quoteprefix)будет установлено как true для ячейки.
+Указывает, следует ли рассматривать одинарную кавычку как часть значения одной ячейки. Значение по умолчанию — true. Если оно ложно, ведущая одинарная кавычка будет удалена из значения соответствующей ячейки и[`QuotePrefix`](../../style/quoteprefix) будет установлено как true для ячейки.
 
 ```csharp
 public bool TreatQuotePrefixAsValue { get; set; }

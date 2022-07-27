@@ -1,14 +1,14 @@
 ---
 title: SupportDivTag
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает поддерживается ли макет ltdivgt тег если html-файл содержит ltdivgt теги. Значение по умолчанию неверно.
+description: Указывает поддерживается ли макет тега ltdivgt когда html-файл содержит теги ltdivgt. Значение по умолчанию  false.
 type: docs
 weight: 80
 url: /ru/net/aspose.cells/htmlloadoptions/supportdivtag/
 ---
 ## HtmlLoadOptions.SupportDivTag property
 
-Указывает, поддерживается ли макет &lt;div&gt; тег, если html-файл содержит &lt;div&gt; теги. Значение по умолчанию неверно.
+Указывает, поддерживается ли макет тега &lt;div&gt;, когда html-файл содержит теги &lt;div&gt;. Значение по умолчанию — false.
 
 ```csharp
 public bool SupportDivTag { get; set; }

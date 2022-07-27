@@ -1,14 +1,14 @@
 ---
 title: GridWebForm
 second_title: Справочник по Aspose.Cells для .NET API
-description: Элемент управления GridWebForm. Он работает с элементом управления GridWeb. Задайте для него свойство GridWebControl перед его запуском.
+description: Элемент управления GridWebForm. Он работает с элементом управления GridWeb. Перед запуском задайте для него свойство GridWebControl.
 type: docs
 weight: 810
 url: /ru/net/aspose.cells.gridweb/gridwebform/
 ---
 ## GridWebForm class
 
-Элемент управления GridWebForm. Он работает с элементом управления GridWeb. Задайте для него свойство GridWebControl перед его запуском.
+Элемент управления GridWebForm. Он работает с элементом управления GridWeb. Перед запуском задайте для него свойство GridWebControl.
 
 ```csharp
 public class GridWebForm : WebControl, INamingContainer, IPostBackDataHandler, IPostBackEventHandler
@@ -37,7 +37,7 @@ public class GridWebForm : WebControl, INamingContainer, IPostBackDataHandler, I
 
 | Имя | Описание |
 | --- | --- |
-| [HideForm](../../aspose.cells.gridweb/gridwebform/hideform)() | Скрывает форму и показывает элемент управления GridWeb. |
+| [HideForm](../../aspose.cells.gridweb/gridwebform/hideform)() | Скрывает форму и отображает элемент управления GridWeb. |
 | [LoadPostData](../../aspose.cells.gridweb/gridwebform/loadpostdata)(string, NameValueCollection) | Только для внутреннего использования. |
 | [RaisePostBackEvent](../../aspose.cells.gridweb/gridwebform/raisepostbackevent)(string) | Только для внутреннего использования. |
 | [RaisePostDataChangedEvent](../../aspose.cells.gridweb/gridwebform/raisepostdatachangedevent)() | Только для внутреннего использования. |

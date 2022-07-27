@@ -1,14 +1,14 @@
 ---
 title: SetTintOfShapeColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Установить оттенок цвета фигуры
+description: Установите оттенок формы color
 type: docs
 weight: 80
 url: /ru/net/aspose.cells/cellscolor/settintofshapecolor/
 ---
 ## CellsColor.SetTintOfShapeColor method
 
-Установить оттенок цвета фигуры
+Установите оттенок формы color
 
 ```csharp
 public void SetTintOfShapeColor(double tint)

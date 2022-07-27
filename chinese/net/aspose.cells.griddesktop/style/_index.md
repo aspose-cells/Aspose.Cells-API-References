@@ -24,17 +24,17 @@ public class Style
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BackgroundColor](../../aspose.cells.griddesktop/style/backgroundcolor) { get; set; } | 获取或设置单元格背景颜色，如果样式模式未设置为纯色，则生效 |
+| [BackgroundColor](../../aspose.cells.griddesktop/style/backgroundcolor) { get; set; } | 获取或设置单元格背景颜色，如果样式样式不设置为纯色，则生效 |
 | [CellLocked](../../aspose.cells.griddesktop/style/celllocked) { get; set; } |  |
-| [Color](../../aspose.cells.griddesktop/style/color) { get; set; } | 获取或设置单元格阴影颜色。当 pattern 为 none 时，它返回 Color.Empty； 当pattern为BackgroundType.Solid时，返回ForegroundColor； 其他返回 BackgroundColor |
+| [Color](../../aspose.cells.griddesktop/style/color) { get; set; } | 获取或设置单元格底纹颜色。当 pattern 为 none 时，返回 Color.Empty； 当 pattern 为 BackgroundType.Solid 时，返回 ForegroundColor； 其他返回 BackgroundColor |
 | [Custom](../../aspose.cells.griddesktop/style/custom) { get; set; } |  |
 | [ForegroundColor](../../aspose.cells.griddesktop/style/foregroundcolor) { get; set; } | 获取或设置样式的前景色。 |
 | [HAlignment](../../aspose.cells.griddesktop/style/halignment) { get; set; } | 获取或设置水平对齐属性。 |
 | [Indent](../../aspose.cells.griddesktop/style/indent) { get; set; } | 表示单元格或范围的 m_IndentLevel 级别。只能是 0 到 15 之间的整数。 |
-| [NumberFormat](../../aspose.cells.griddesktop/style/numberformat) { get; set; } | 获取或设置数字和日期的显示格式。 |
+| [NumberFormat](../../aspose.cells.griddesktop/style/numberformat) { get; set; } | 获取或设置数字和日期的显示格式 |
 | [NumberType](../../aspose.cells.griddesktop/style/numbertype) { get; set; } | 与 NumberFormat 相同 |
 | [Pattern](../../aspose.cells.griddesktop/style/pattern) { get; set; } | 获取或设置单元格背景图案类型。 |
-| [Rotation](../../aspose.cells.griddesktop/style/rotation) { get; set; } | 表示文字旋转角度。 |
+| [Rotation](../../aspose.cells.griddesktop/style/rotation) { get; set; } | 代表文字旋转角度。 |
 | [Shrink](../../aspose.cells.griddesktop/style/shrink) { get; set; } |  |
 | [TextDirection](../../aspose.cells.griddesktop/style/textdirection) { get; set; } | 获取或设置文本方向属性。 |
 | [TextWrapped](../../aspose.cells.griddesktop/style/textwrapped) { get; set; } | 获取或设置一个值，该值指示单元格内的文本是否被换行。 |
@@ -44,7 +44,7 @@ public class Style
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Clone](../../aspose.cells.griddesktop/style/clone)() | 创建并返回此对象的副本。  **注意:** 如果克隆命名样式，则不会克隆名称，因为样式名称必须是唯一的。 因此，克隆的样式不会“等于”原始样式。 |
+| [Clone](../../aspose.cells.griddesktop/style/clone)() | 创建并返回此对象的副本。  **笔记：**如果你克隆一个命名样式，名称不会被克隆，因为样式名称必须是唯一的。 因此，克隆的样式不会“等于”原始样式。 |
 | [SetBorderColor](../../aspose.cells.griddesktop/style/setbordercolor)(BorderType, Color) | 设置指定边框的颜色。 |
 | [SetBorderLine](../../aspose.cells.griddesktop/style/setborderline)(BorderType, BorderLineType) | 设置指定边框的边框线类型。 |
 

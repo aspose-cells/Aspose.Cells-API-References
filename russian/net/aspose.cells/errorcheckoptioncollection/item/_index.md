@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектErrorCheckOptionaspose.cells/errorcheckoptionпо заданному индексу.
+description: получаетErrorCheckOptionaspose.cells/errorcheckoption объект по заданному индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/errorcheckoptioncollection/item/
 ---
 ## ErrorCheckOptionCollection indexer
 
-Получает объект[`ErrorCheckOption`](../../errorcheckoption)по заданному индексу.
+получает[`ErrorCheckOption`](../../errorcheckoption) объект по заданному индексу.
 
 ```csharp
 public ErrorCheckOption this[int index] { get; }
@@ -20,7 +20,7 @@ public ErrorCheckOption this[int index] { get; }
 
 ### Возвращаемое значение
 
-Возврат[`ErrorCheckOption`](../../errorcheckoption)объект
+Возвращаться[`ErrorCheckOption`](../../errorcheckoption) объект
 
 ### Смотрите также
 

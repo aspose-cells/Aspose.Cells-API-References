@@ -1,14 +1,14 @@
 ---
 title: CellsColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает объектCellsColoraspose.cells.drawing/solidfill/cellscolor.
+description: Получает и устанавливаетCellsColoraspose.cells.drawing/solidfill/cellscolor объект.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.drawing/solidfill/cellscolor/
 ---
 ## SolidFill.CellsColor property
 
-Получает и задает объект`CellsColor`.
+Получает и устанавливает`CellsColor` объект.
 
 ```csharp
 public CellsColor CellsColor { get; set; }

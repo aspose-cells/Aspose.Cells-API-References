@@ -18,19 +18,19 @@ public class Metered
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Metered](metered)() | 初始化此类的新实例。 |
+| [Metered](metered)() | 初始化这个类的一个新实例。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SetMeteredKey](../../aspose.cells/metered/setmeteredkey)(string, string) | 设置计量的公钥和私钥。 如果你购买的是计量许可证，在启动应用程序时，应该调用这个API，正常情况下，这样就足够了。但是，如果总是无法上传消费数据，超过24小时，License会被设置为评估状态，为避免这种情况，您应该定期检查License状态，如果是评估状态，再次调用该API。 |
-| static [GetConsumptionCredit](../../aspose.cells/metered/getconsumptioncredit)() | 获取消费信用 |
+| [SetMeteredKey](../../aspose.cells/metered/setmeteredkey)(string, string) | 设置计量公钥和私钥。 如果你购买计量许可证，在启动应用程序时，应该调用这个API，正常情况下，这就足够了。但是，如果总是无法上传消费数据，超过24小时，License会被设置为评估状态，为避免这种情况，您应该定期检查License状态，如果是评估状态，请再次调用此API。 |
+| static [GetConsumptionCredit](../../aspose.cells/metered/getconsumptioncredit)() | 获取消费额度 |
 | static [GetConsumptionQuantity](../../aspose.cells/metered/getconsumptionquantity)() | 获取消费文件大小 |
 
 ### 例子
 
-在本例中，将尝试设置计量公钥和私钥
+在此示例中，将尝试设置计量的公钥和私钥
 
 ```csharp
 [C#]

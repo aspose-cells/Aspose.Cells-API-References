@@ -19,9 +19,9 @@ public class RevisionRenameSheet : Revision
 | Имя | Описание |
 | --- | --- |
 | [Id](../../aspose.cells.revisions/revision/id) { get; } | Получает номер этой версии. |
-| [NewName](../../aspose.cells.revisions/revisionrenamesheet/newname) { get; } | Получает новое имя листа. |
-| [OldName](../../aspose.cells.revisions/revisionrenamesheet/oldname) { get; } | Получает старое имя листа. |
-| override [Type](../../aspose.cells.revisions/revisionrenamesheet/type) { get; } | Представляет тип редакции. |
+| [NewName](../../aspose.cells.revisions/revisionrenamesheet/newname) { get; } | Получает новое имя рабочего листа. |
+| [OldName](../../aspose.cells.revisions/revisionrenamesheet/oldname) { get; } | Получает старое имя рабочего листа. |
+| override [Type](../../aspose.cells.revisions/revisionrenamesheet/type) { get; } | Представляет тип ревизии. |
 | [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Получает рабочий лист. |
 
 ### Смотрите также

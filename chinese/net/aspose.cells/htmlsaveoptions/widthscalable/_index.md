@@ -1,14 +1,14 @@
 ---
 title: WidthScalable
 second_title: Aspose.Cells for .NET API 参考
-description: 表示导出文件为html时是否使用可缩放单位来描述列宽 默认值为假
+description: 表示将文件导出为html时是否使用可缩放单位来描述列宽 默认值为false
 type: docs
-weight: 470
+weight: 500
 url: /zh/net/aspose.cells/htmlsaveoptions/widthscalable/
 ---
 ## HtmlSaveOptions.WidthScalable property
 
-表示导出文件为html时是否使用可缩放单位来描述列宽。 默认值为假。
+表示将文件导出为html时是否使用可缩放单位来描述列宽。 默认值为false。
 
 ```csharp
 public bool WidthScalable { get; set; }

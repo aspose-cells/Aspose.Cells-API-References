@@ -1,14 +1,14 @@
 ---
 title: RemoveArea
 second_title: Справочник по Aspose.Cells для .NET API
-description: Удаляет все настройки проверки диапазона..
+description: Удаляет все настройки проверки в диапазоне..
 type: docs
 weight: 50
 url: /ru/net/aspose.cells/validationcollection/removearea/
 ---
 ## ValidationCollection.RemoveArea method
 
-Удаляет все настройки проверки диапазона..
+Удаляет все настройки проверки в диапазоне..
 
 ```csharp
 public void RemoveArea(CellArea ca)
@@ -16,7 +16,7 @@ public void RemoveArea(CellArea ca)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| ca | CellArea | диапазон, который содержит параметр проверки. |
+| ca | CellArea | Диапазон, содержащий параметр проверки. |
 
 ### Смотрите также
 

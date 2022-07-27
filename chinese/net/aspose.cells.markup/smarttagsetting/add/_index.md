@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 将SmartTagCollectionaspose.cells.markup/smarttagcollection对象添加到单元格
+description: 添加一个SmartTagCollectionaspose.cells.markup/smarttagcollection对象到一个单元格.
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.markup/smarttagsetting/add/
 ---
 ## Add(int, int) {#add}
 
-将[`SmartTagCollection`](../../smarttagcollection)对象添加到单元格。
+添加一个[`SmartTagCollection`](../../smarttagcollection)对象到一个单元格.
 
 ```csharp
 public int Add(int row, int column)
@@ -21,7 +21,7 @@ public int Add(int row, int column)
 
 ### 返回值
 
-返回工作表中[`SmartTagCollection`](../../smarttagcollection)对象的索引。
+返回 a 的索引[`SmartTagCollection`](../../smarttagcollection)工作表中的对象。
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ public int Add(int row, int column)
 
 ## Add(string) {#add_1}
 
-添加单元格智能标签。
+添加一个单元格智能标签。
 
 ```csharp
 public int Add(string cellName)
@@ -41,7 +41,7 @@ public int Add(string cellName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cellName | String | 单元的名称。 |
+| cellName | String | 单元格的名称。 |
 
 ### 也可以看看
 

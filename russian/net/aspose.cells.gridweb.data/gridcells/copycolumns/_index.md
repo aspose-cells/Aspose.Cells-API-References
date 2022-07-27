@@ -20,7 +20,7 @@ public void CopyColumns(GridCells sourceCells, int sourceColumnIndex, int destin
 | sourceCells | GridCells | Объект исходных ячеек содержит данные и форматирование для копирования. |
 | sourceColumnIndex | Int32 | Индекс исходного столбца. |
 | destinationColumnIndex | Int32 | Индекс столбца назначения. |
-| columnNumber | Int32 | Номер скопированного столбца. |
+| columnNumber | Int32 | Скопированный номер столбца. |
 
 ### Смотрите также
 

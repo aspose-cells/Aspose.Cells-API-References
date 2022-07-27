@@ -1,14 +1,14 @@
 ---
 title: IsExcel2003Compatible
 second_title: Aspose.Cells for .NET API 参考
-description: 指定刷新数据透视表时数据透视表是否兼容Excel2003 如果为true则字符串必须小于或等于255个字符所以如果字符串大于 255 个字符 将被截断如果为 false则字符串将没有上述限制 默认值为真
+description: 指定刷新数据透视表时数据透视表是否兼容Excel2003 如果为true字符串必须小于等于255个字符所以如果字符串大于255个字符 会被截断如果为false则字符串将没有上述限制 默认值为true
 type: docs
 weight: 290
 url: /zh/net/aspose.cells.pivot/pivottable/isexcel2003compatible/
 ---
 ## PivotTable.IsExcel2003Compatible property
 
-指定刷新数据透视表时数据透视表是否兼容Excel2003， 如果为true，则字符串必须小于或等于255个字符，所以如果字符串大于 255 个字符， 将被截断。如果为 false，则字符串将没有上述限制。 默认值为真。
+指定刷新数据透视表时数据透视表是否兼容Excel2003， 如果为true，字符串必须小于等于255个字符，所以如果字符串大于255个字符， 会被截断。如果为false，则字符串将没有上述限制。 默认值为true。
 
 ```csharp
 public bool IsExcel2003Compatible { get; set; }

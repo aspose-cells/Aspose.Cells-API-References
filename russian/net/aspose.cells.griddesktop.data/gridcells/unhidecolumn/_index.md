@@ -1,14 +1,14 @@
 ---
 title: UnhideColumn
 second_title: Справочник по Aspose.Cells для .NET API
-description: Отображает столбец
+description: Отображает скрытый столбец
 type: docs
 weight: 720
 url: /ru/net/aspose.cells.griddesktop.data/gridcells/unhidecolumn/
 ---
 ## GridCells.UnhideColumn method
 
-Отображает столбец
+Отображает скрытый столбец
 
 ```csharp
 public void UnhideColumn(int column, double width)
@@ -17,7 +17,7 @@ public void UnhideColumn(int column, double width)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | column | Int32 | Индекс столбца. |
-| width | Double | Ширина столбца.. Ширина столбца должна быть между 0 и 255 |
+| width | Double | Ширина столбца. Ширина столбца должна быть от 0 до 255. |
 
 ### Смотрите также
 

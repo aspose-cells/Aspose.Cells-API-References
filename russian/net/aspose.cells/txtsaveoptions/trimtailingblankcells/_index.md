@@ -1,14 +1,14 @@
 ---
 title: TrimTailingBlankCells
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает следует ли обрезать хвостовые пустые ячейки в одной строке. Значение по умолчанию  ложь.
+description: Указывает следует ли обрезать хвостовые пустые ячейки в одной строке. По умолчанию false.
 type: docs
 weight: 130
 url: /ru/net/aspose.cells/txtsaveoptions/trimtailingblankcells/
 ---
 ## TxtSaveOptions.TrimTailingBlankCells property
 
-Указывает, следует ли обрезать хвостовые пустые ячейки в одной строке. Значение по умолчанию — ложь.
+Указывает, следует ли обрезать хвостовые пустые ячейки в одной строке. По умолчанию false.
 
 ```csharp
 public bool TrimTailingBlankCells { get; set; }
@@ -16,7 +16,7 @@ public bool TrimTailingBlankCells { get; set; }
 
 ### Примечания
 
-При сохранении в режиме LightCells и опции[`ExportArea`](../exportarea)не был указан, этот параметр не действует, и одна строка будет расширена только до последней ячейки, предоставленной реализацией[`LightCellsDataProvider`](../lightcellsdataprovider)
+При сохранении в режиме LightCells и[`ExportArea`](../exportarea) не был указан, этот параметр не действует, и одна строка будет расширена только до последней ячейки, предоставленной реализацией[`LightCellsDataProvider`](../lightcellsdataprovider)
 
 ### Смотрите также
 

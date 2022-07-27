@@ -3,7 +3,7 @@ title: Union
 second_title: Справочник по Aspose.Cells для .NET API
 description: Возвращает объединение двух диапазонов.
 type: docs
-weight: 380
+weight: 420
 url: /ru/net/aspose.cells/range/union/
 ---
 ## Range.Union method

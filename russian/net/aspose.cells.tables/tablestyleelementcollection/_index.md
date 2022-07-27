@@ -20,7 +20,7 @@ public class TableStyleElementCollection : CollectionBase<TableStyleElement>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.tables/tablestyleelementcollection/item) { get; } | Получает элемент табличного стиля по индексу. (2 indexers) |
+| [Item](../../aspose.cells.tables/tablestyleelementcollection/item) { get; } | Получает элемент стиля таблицы по индексу. (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы

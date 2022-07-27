@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterCommand
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет команду верхнего/нижнего колонтитула
+description: Представляет команду header/footer
 type: docs
 weight: 3640
 url: /ru/net/aspose.cells/headerfootercommand/
 ---
 ## HeaderFooterCommand class
 
-Представляет команду верхнего/нижнего колонтитула
+Представляет команду header/footer
 
 ```csharp
 public class HeaderFooterCommand
@@ -20,7 +20,7 @@ public class HeaderFooterCommand
 | --- | --- |
 | [Font](../../aspose.cells/headerfootercommand/font) { get; } | Получает шрифт значения команды. |
 | [Text](../../aspose.cells/headerfootercommand/text) { get; } | Получает текст команды. |
-| [Type](../../aspose.cells/headerfootercommand/type) { get; } | Получает тип команды верхнего/нижнего колонтитула. |
+| [Type](../../aspose.cells/headerfootercommand/type) { get; } | Получает тип команды верхнего/нижнего колонтитула . |
 
 ### Смотрите также
 

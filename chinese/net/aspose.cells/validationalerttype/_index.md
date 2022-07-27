@@ -18,7 +18,7 @@ public enum ValidationAlertType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Information | `0` | 信息警报样式。 |
+| Information | `0` | 信息提示样式. |
 | Stop | `1` | 停止警报样式。 |
 | Warning | `2` | 警告警报样式。 |
 

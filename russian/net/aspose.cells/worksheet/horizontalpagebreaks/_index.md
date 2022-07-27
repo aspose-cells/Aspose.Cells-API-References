@@ -1,14 +1,14 @@
 ---
 title: HorizontalPageBreaks
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает коллекциюHorizontalPageBreakCollectionaspose.cells/horizontalpagebreakcollection.
+description: ПолучаетHorizontalPageBreakCollectionaspose.cells/horizontalpagebreakcollection коллекция.
 type: docs
 weight: 190
 url: /ru/net/aspose.cells/worksheet/horizontalpagebreaks/
 ---
 ## Worksheet.HorizontalPageBreaks property
 
-Получает коллекцию[`HorizontalPageBreakCollection`](../../horizontalpagebreakcollection).
+Получает[`HorizontalPageBreakCollection`](../../horizontalpagebreakcollection) коллекция.
 
 ```csharp
 public HorizontalPageBreakCollection HorizontalPageBreaks { get; }

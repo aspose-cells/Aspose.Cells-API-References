@@ -1,14 +1,14 @@
 ---
 title: FileFormatType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Перечисляет типы форматов файлов электронных таблиц
+description: Перечисляет типы файлов электронных таблиц
 type: docs
 weight: 810
 url: /ru/net/aspose.cells.griddesktop/fileformattype/
 ---
 ## FileFormatType enumeration
 
-Перечисляет типы форматов файлов электронных таблиц
+Перечисляет типы файлов электронных таблиц
 
 ```csharp
 public enum FileFormatType
@@ -19,7 +19,7 @@ public enum FileFormatType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Default | `5` | Представляет файл Excel2003. |
-| Excel2007Xlsx | `6` | Представляет xlsx-файл Excel2007. |
+| Excel2007Xlsx | `6` | Представляет файл Excel2007 xlsx. |
 | SpreadsheetML | `7` | Представляет файл SpreadSheetML. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: Parse
 second_title: Aspose.Cells for .NET API 参考
-description: 是否解析给定的公式默认为真 如果为假则给定的公式字符串将保持原样直到用户调用其他方法对其进行解析 或其他操作需要解析的公式数据例如作为计算公式
+description: 是否解析给定的公式默认为true 如果为false则给定的公式字符串将保留为单元格直到用户调用其他方法来解析它们 或其他操作例如计算公式需要解析的公式数据
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/formulaparseoptions/parse/
 ---
 ## FormulaParseOptions.Parse property
 
-是否解析给定的公式。默认为真。 如果为假，则给定的公式字符串将保持原样，直到用户调用其他方法对其进行解析 或其他操作需要解析的公式数据，例如作为计算公式。
+是否解析给定的公式。默认为true。 如果为false，则给定的公式字符串将保留为单元格，直到用户调用其他方法来解析它们 或其他操作（例如计算公式）需要解析的公式数据。
 
 ```csharp
 public bool Parse { get; set; }

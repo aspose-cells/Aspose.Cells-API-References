@@ -1,14 +1,14 @@
 ---
 title: IdName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает имя столбца id.
+description: Получает и задает имя столбца идентификатора.
 type: docs
 weight: 100
 url: /ru/net/aspose.cells.saving/sqlscriptsaveoptions/idname/
 ---
 ## SqlScriptSaveOptions.IdName property
 
-Получает и устанавливает имя столбца id.
+Получает и задает имя столбца идентификатора.
 
 ```csharp
 public string IdName { get; set; }
@@ -16,7 +16,7 @@ public string IdName { get; set; }
 
 ### Примечания
 
-Если установлено это свойство, столбец будет вставлен с автоматическим увеличением значения int.
+Если это свойство установлено, столбец будет вставлен с автоматическим увеличением значения int.
 
 ### Смотрите также
 

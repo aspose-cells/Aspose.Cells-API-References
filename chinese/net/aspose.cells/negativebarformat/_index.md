@@ -1,14 +1,14 @@
 ---
 title: NegativeBarFormat
 second_title: Aspose.Cells for .NET API 参考
-description: 表示数据栏条件格式规则定义的负值的数据栏颜色设置
+description: 表示由数据条条件格式规则定义的负值的数据条颜色设置
 type: docs
 weight: 4230
 url: /zh/net/aspose.cells/negativebarformat/
 ---
 ## NegativeBarFormat class
 
-表示数据栏条件格式规则定义的负值的数据栏颜色设置。
+表示由数据条条件格式规则定义的负值的数据条颜色设置。
 
 ```csharp
 public class NegativeBarFormat
@@ -20,7 +20,7 @@ public class NegativeBarFormat
 | --- | --- |
 | [BorderColor](../../aspose.cells/negativebarformat/bordercolor) { get; set; } | 获取或设置一个 FormatColor 对象，您可以使用该对象指定负数据条的边框颜色。 |
 | [BorderColorType](../../aspose.cells/negativebarformat/bordercolortype) { get; set; } | 获取是否使用与正数据条相同的边框颜色。 |
-| [Color](../../aspose.cells/negativebarformat/color) { get; set; } | 获取或设置可用于指定负数据条的填充颜色的 FormatColor 对象。 |
+| [Color](../../aspose.cells/negativebarformat/color) { get; set; } | 获取或设置一个 FormatColor 对象，您可以使用该对象指定负数据条的填充颜色。 |
 | [ColorType](../../aspose.cells/negativebarformat/colortype) { get; set; } | 获取或设置是否使用与正数据条相同的填充颜色。 |
 
 ### 也可以看看

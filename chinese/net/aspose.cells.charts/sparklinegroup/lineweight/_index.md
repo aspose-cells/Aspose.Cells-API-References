@@ -1,14 +1,14 @@
 ---
 title: LineWeight
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置迷你图组中每条线迷你图的线宽以点为单位
+description: 获取和设置迷你图组中每条线迷你图的线宽单位为点
 type: docs
 weight: 70
 url: /zh/net/aspose.cells.charts/sparklinegroup/lineweight/
 ---
 ## SparklineGroup.LineWeight property
 
-获取和设置迷你图组中每条线迷你图的线宽，以点为单位。
+获取和设置迷你图组中每条线迷你图的线宽，单位为点。
 
 ```csharp
 public double LineWeight { get; set; }

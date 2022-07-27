@@ -1,14 +1,14 @@
 ---
 title: Marker
 second_title: Aspose.Cells for .NET API 参考
-description: 获取标记aspose.cells.charts/series/marker 
+description: 获取标记aspose.cells.charts/series/marker.
 type: docs
 weight: 290
 url: /zh/net/aspose.cells.charts/series/marker/
 ---
 ## Series.Marker property
 
-获取`标记` 。
+获取`标记`.
 
 ```csharp
 public Marker Marker { get; }

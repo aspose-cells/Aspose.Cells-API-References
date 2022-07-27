@@ -1,14 +1,14 @@
 ---
 title: GetTopPointYPx
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает координату y верхней точки фигуры после вызова метода Chart.Calculate. Применяет трехмерные диаграммыColumn3D Bar3D Cone Cylinder Pyramid и Area3D
+description: Получает координату y верхней точки фигуры после вызова метода Chart.Calculate. Применяет трехмерные диаграммы Column3D Bar3D Cone Cylinder Pyramid и Area3D
 type: docs
 weight: 420
 url: /ru/net/aspose.cells.charts/chartpoint/gettoppointypx/
 ---
 ## ChartPoint.GetTopPointYPx method
 
-Получает координату y верхней точки фигуры после вызова метода Chart.Calculate(). Применяет трехмерные диаграммы:Column3D, Bar3D, Cone, Cylinder, Pyramid и Area3D
+Получает координату y верхней точки фигуры после вызова метода Chart.Calculate(). Применяет трехмерные диаграммы: Column3D, Bar3D, Cone, Cylinder, Pyramid и Area3D
 
 ```csharp
 public float GetTopPointYPx(int index)

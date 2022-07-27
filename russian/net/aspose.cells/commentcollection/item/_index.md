@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементCommentaspose.cells/commentпо указанному индексу.
+description: ПолучаетCommentaspose.cells/comment элемент по указанному индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/commentcollection/item/
 ---
 ## CommentCollection indexer (1 of 3)
 
-Получает элемент[`Comment`](../../comment)по указанному индексу.
+Получает[`Comment`](../../comment) элемент по указанному индексу.
 
 ```csharp
 public Comment this[int index] { get; }
@@ -42,7 +42,7 @@ comment3.Note = "Three note.";
 
 ## CommentCollection indexer (2 of 3)
 
-Получает элемент[`Comment`](../../comment)в указанной ячейке.
+Получает[`Comment`](../../comment) элемент в указанной ячейке.
 
 ```csharp
 public Comment this[string cellName] { get; }
@@ -76,7 +76,7 @@ comment4.Note = "Four note.";
 
 ## CommentCollection indexer (3 of 3)
 
-Получает элемент[`Comment`](../../comment)по указанному индексу строки и индексу столбца.
+Получает[`Comment`](../../comment) элемент с указанным индексом строки и индексом столбца.
 
 ```csharp
 public Comment this[int row, int column] { get; }

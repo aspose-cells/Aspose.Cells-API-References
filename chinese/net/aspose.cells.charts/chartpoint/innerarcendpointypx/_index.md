@@ -1,14 +1,14 @@
 ---
 title: InnerArcEndPointYPx
 second_title: Aspose.Cells for .NET API 参考
-description: 调用 Chart.Calculate 方法后获取饼图部分结束点的 y 坐标 适用于圆环图
+description: 调用 Chart.Calculate 方法后获取饼图的结束点的 y 坐标 适用于圆环图
 type: docs
 weight: 120
 url: /zh/net/aspose.cells.charts/chartpoint/innerarcendpointypx/
 ---
 ## ChartPoint.InnerArcEndPointYPx property
 
-调用 Chart.Calculate() 方法后获取饼图部分结束点的 y 坐标。 适用于圆环图。
+调用 Chart.Calculate() 方法后获取饼图的结束点的 y 坐标。 适用于圆环图。
 
 ```csharp
 public float InnerArcEndPointYPx { get; }

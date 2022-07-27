@@ -1,14 +1,14 @@
 ---
 title: GetTableRowTypeOfTotals
 second_title: Aspose.Cells for .NET API 参考
-description: 获取由引用表的总行组成的表行的类型名称 默认为Totals因此公式中Totals表示引用表的总行数
+description: 获取由引用表的总行组成的表行的类型名称 默认为Totals因此公式中Totals表示引用表的总行
 type: docs
 weight: 290
 url: /zh/net/aspose.cells/globalizationsettings/gettablerowtypeoftotals/
 ---
 ## GlobalizationSettings.GetTableRowTypeOfTotals method
 
-获取由引用表的总行组成的表行的类型名称。 默认为“Totals”，因此公式中“#Totals”表示引用表的总行数。
+获取由引用表的总行组成的表行的类型名称。 默认为“Totals”，因此公式中“#Totals”表示引用表的总行。
 
 ```csharp
 public virtual string GetTableRowTypeOfTotals()

@@ -1,14 +1,14 @@
 ---
 title: CheckBoxCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет набор объектовCheckBox./checkboxна рабочем листе.
+description: Представляет наборCheckBox./checkbox объекты на листе.
 type: docs
 weight: 1870
 url: /ru/net/aspose.cells.drawing/checkboxcollection/
 ---
 ## CheckBoxCollection class
 
-Представляет набор объектов[`CheckBox`](../checkbox)на рабочем листе.
+Представляет набор[`CheckBox`](../checkbox) объекты на листе.
 
 ```csharp
 public class CheckBoxCollection : CollectionBase<CheckBox>
@@ -20,7 +20,7 @@ public class CheckBoxCollection : CollectionBase<CheckBox>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.drawing/checkboxcollection/item) { get; } | Получает элемент[`CheckBox`](../checkbox)по указанному индексу. |
+| [Item](../../aspose.cells.drawing/checkboxcollection/item) { get; } | Получает[`CheckBox`](../checkbox) элемент по указанному индексу. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы
@@ -60,10 +60,10 @@ public class CheckBoxCollection : CollectionBase<CheckBox>
 ```csharp
 [C#]
 
-  //Создать новую книгу.
+//Создать новую книгу.
 Workbook workbook = new Workbook();
 
-  //Получить первый рабочий лист в рабочей книге.
+//Получить первый рабочий лист в рабочей книге.
 Worksheet sheet = workbook.Worksheets[0];
 
 int index = sheet.CheckBoxes.Add(15, 15, 20, 100);
@@ -73,7 +73,7 @@ checkBox.Text = "Check Box 1";
 
 [Visual Basic]
 
-'Создать новую книгу.
+'Создайте новую рабочую книгу.
 Dim workbook As Workbook = new Workbook()
 
 'Получить первый рабочий лист в рабочей книге.

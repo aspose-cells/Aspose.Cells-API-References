@@ -1,14 +1,14 @@
 ---
 title: TiffCompression
 second_title: Aspose.Cells for .NET API 参考
-description: 指定将图像保存为 TIFF 格式文件时应用的压缩类型
+description: 指定将图像保存到 TIFF 格式文件时应用的压缩类型
 type: docs
 weight: 5270
 url: /zh/net/aspose.cells.rendering/tiffcompression/
 ---
 ## TiffCompression enumeration
 
-指定将图像保存为 TIFF 格式文件时应用的压缩类型。
+指定将图像保存到 TIFF 格式文件时应用的压缩类型。
 
 ```csharp
 public enum TiffCompression

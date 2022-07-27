@@ -1,14 +1,14 @@
 ---
 title: IsAutoSize
 second_title: Справочник по Aspose.Cells для .NET API
-description: True указывает что размер объекта ole будет автоматически изменен как размер снимка встроенного содержимого при активации объекта ole .
+description: True указывает что размер объекта ole будет автоматически изменен как размер снимка встроенного содержимого при активации объекта ole.
 type: docs
 weight: 100
 url: /ru/net/aspose.cells.drawing/oleobject/isautosize/
 ---
 ## OleObject.IsAutoSize property
 
-True указывает, что размер объекта ole будет автоматически изменен как размер снимка встроенного содержимого при активации объекта ole .
+True указывает, что размер объекта ole будет автоматически изменен как размер снимка встроенного содержимого при активации объекта ole.
 
 ```csharp
 public bool IsAutoSize { get; set; }

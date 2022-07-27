@@ -16,7 +16,7 @@ public void ToPrinter(string printerName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| printerName | String | 打印机的名称，例如:“Microsoft Office 文档图像编写器” |
+| printerName | String | 打印机的名称，例如：“Microsoft Office Document Image Writer” |
 
 ### 也可以看看
 
@@ -36,7 +36,7 @@ public void ToPrinter(string printerName, string jobName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| printerName | String | 打印机的名称，例如:“Microsoft Office Document Image Writer” |
+| printerName | String | 打印机的名称，例如：“Microsoft Office Document Image Writer” |
 | jobName | String | 设置打印作业名称 |
 
 ### 也可以看看
@@ -57,7 +57,7 @@ public void ToPrinter(PrinterSettings PrinterSettings)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| PrinterSettings | PrinterSettings | 打印机的设置，例如打印机名称，双工 |
+| PrinterSettings | PrinterSettings | 打印机的设置，例如 PrinterName、Duplex |
 
 ### 也可以看看
 
@@ -77,7 +77,7 @@ public void ToPrinter(PrinterSettings PrinterSettings, string jobName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| PrinterSettings | PrinterSettings | 打印机的设置，例如PrinterName, Duplex |
+| PrinterSettings | PrinterSettings | 打印机的设置，例如 PrinterName、Duplex |
 | jobName | String | 设置打印作业名称 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: CloseAccessCache
 second_title: Справочник по Aspose.Cells для .NET API
-description: Закрывает сеанс который использует кэши для доступа к данным.
+description: Закрывает сеанс использующий кэши для доступа к данным.
 type: docs
 weight: 310
 url: /ru/net/aspose.cells/workbook/closeaccesscache/
 ---
 ## Workbook.CloseAccessCache method
 
-Закрывает сеанс, который использует кэши для доступа к данным.
+Закрывает сеанс, использующий кэши для доступа к данным.
 
 ```csharp
 public void CloseAccessCache(AccessCacheOptions opts)
@@ -16,7 +16,7 @@ public void CloseAccessCache(AccessCacheOptions opts)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| opts | AccessCacheOptions | опции доступа к данным |
+| opts | AccessCacheOptions | варианты доступа к данным |
 
 ### Смотрите также
 

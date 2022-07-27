@@ -33,7 +33,7 @@ public class WebExtensionBindingCollection : CollectionBase<WebExtensionBinding>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells.webextensions/webextensionbindingcollection/add)() | Добавляет отношение привязки между надстройкой Office и данными в документе. |
+| [Add](../../aspose.cells.webextensions/webextensionbindingcollection/add)() | Добавляет связь между надстройкой Office и данными в документе. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(WebExtensionBinding) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(WebExtensionBinding, IComparer&lt;WebExtensionBinding&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, WebExtensionBinding, IComparer&lt;WebExtensionBinding&gt;) |  |

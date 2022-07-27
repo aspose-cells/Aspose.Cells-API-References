@@ -1,14 +1,14 @@
 ---
 title: CreateCalcChain
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает создавать ли цепочку вычисляемых формул. Значение по умолчанию  ложь.
+description: Указывает создавать ли цепочку вычисляемых формул. По умолчанию false.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.gridjs/gridworkbooksettings/createcalcchain/
 ---
 ## GridWorkbookSettings.CreateCalcChain property
 
-Указывает, создавать ли цепочку вычисляемых формул. Значение по умолчанию — ложь.
+Указывает, создавать ли цепочку вычисляемых формул. По умолчанию false.
 
 ```csharp
 public bool CreateCalcChain { get; set; }

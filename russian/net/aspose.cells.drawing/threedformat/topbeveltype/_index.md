@@ -1,14 +1,14 @@
 ---
 title: TopBevelType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает тип верхнего скоса или степень его применения в форме. В баллах.
+description: Получает и задает тип верхнего скоса или степень его применения в форме. В единицах измерения Points.
 type: docs
 weight: 180
 url: /ru/net/aspose.cells.drawing/threedformat/topbeveltype/
 ---
 ## ThreeDFormat.TopBevelType property
 
-Получает и задает тип верхнего скоса или степень его применения в форме. В баллах.
+Получает и задает тип верхнего скоса или степень его применения в форме. В единицах измерения Points.
 
 ```csharp
 public BevelType TopBevelType { get; set; }

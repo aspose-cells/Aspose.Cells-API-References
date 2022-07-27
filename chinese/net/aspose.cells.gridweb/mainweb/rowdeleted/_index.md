@@ -1,14 +1,14 @@
 ---
 title: RowDeleted
 second_title: Aspose.Cells for .NET API 参考
-description: 当用户从客户端菜单中删除了一行时发生
+description: 当用户从客户端菜单中删除一行时发生
 type: docs
 weight: 1270
 url: /zh/net/aspose.cells.gridweb/mainweb/rowdeleted/
 ---
 ## MainWeb.RowDeleted event
 
-当用户从客户端菜单中删除了一行时发生。
+当用户从客户端菜单中删除一行时发生。
 
 ```csharp
 public event RowColumnEventHandler RowDeleted;

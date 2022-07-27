@@ -26,7 +26,7 @@ public class ReplaceOptions
 | --- | --- |
 | [CaseSensitive](../../aspose.cells/replaceoptions/casesensitive) { get; set; } | 指示搜索的字符串是否区分大小写。 |
 | [MatchEntireCellContents](../../aspose.cells/replaceoptions/matchentirecellcontents) { get; set; } | 表示是否匹配整个单元格内容 |
-| [RegexKey](../../aspose.cells/replaceoptions/regexkey) { get; set; } | 表示搜索到的键是否是正则表达式。如果为真，则搜索到的键将被视为正则表达式。 |
+| [RegexKey](../../aspose.cells/replaceoptions/regexkey) { get; set; } | 表示搜索到的键是否是正则表达式。如果为真，则搜索到的键将被视为 regex. |
 
 ### 也可以看看
 

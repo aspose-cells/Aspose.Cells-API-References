@@ -1,14 +1,14 @@
 ---
 title: GetRow
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементRowили указанный индекс строки ячейки.
+description: ПолучаетRow элемента или по указанному индексу строки ячейки.
 type: docs
 weight: 440
 url: /ru/net/aspose.cells.gridweb.data/gridcells/getrow/
 ---
 ## GridCells.GetRow method
 
-Получает элементRowили указанный индекс строки ячейки.
+ПолучаетRow элемента или по указанному индексу строки ячейки.
 
 ```csharp
 public GridRow GetRow(int i)
@@ -20,7 +20,7 @@ public GridRow GetRow(int i)
 
 ### Возвращаемое значение
 
-Если объект строки существует, верните объект Row, иначе верните null.
+Если объект строки существует, вернуть объект строки, в противном случае вернуть null.
 
 ### Смотрите также
 

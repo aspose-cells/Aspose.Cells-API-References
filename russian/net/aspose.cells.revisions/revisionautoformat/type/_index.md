@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает тип редакции.
+description: Получает тип ревизии.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.revisions/revisionautoformat/type/
 ---
 ## RevisionAutoFormat.Type property
 
-Получает тип редакции.
+Получает тип ревизии.
 
 ```csharp
 public override RevisionType Type { get; }

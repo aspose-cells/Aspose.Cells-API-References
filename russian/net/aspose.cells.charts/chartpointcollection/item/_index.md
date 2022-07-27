@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементChartPointaspose.cells.charts/chartpointпо указанному индексу в ряду.
+description: ПолучаетChartPointaspose.cells.charts/chartpoint элемент по указанному индексу в серии.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.charts/chartpointcollection/item/
 ---
 ## ChartPointCollection indexer
 
-Получает элемент[`ChartPoint`](../../chartpoint)по указанному индексу в ряду.
+Получает[`ChartPoint`](../../chartpoint) элемент по указанному индексу в серии.
 
 ```csharp
 public ChartPoint this[int index] { get; }

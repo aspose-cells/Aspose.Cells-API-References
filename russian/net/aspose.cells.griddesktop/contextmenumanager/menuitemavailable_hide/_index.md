@@ -8,7 +8,7 @@ url: /ru/net/aspose.cells.griddesktop/contextmenumanager/menuitemavailable_hide/
 ---
 ## ContextMenuManager.MenuItemAvailable_Hide property
 
-Получает или задает значение, указывающее, доступен ли пункт контекстного меню «Скрыть».
+Получает или задает значение, указывающее, доступен ли пункт контекстного меню "Скрыть".
 
 ```csharp
 public bool MenuItemAvailable_Hide { get; set; }

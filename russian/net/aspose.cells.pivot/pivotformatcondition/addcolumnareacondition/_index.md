@@ -16,7 +16,7 @@ public void AddColumnAreaCondition(string fieldName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldName | String | Имя PivotField. |
+| fieldName | String | Имя сводного поля. |
 
 ### Смотрите также
 
@@ -36,7 +36,7 @@ public void AddColumnAreaCondition(PivotField columnField)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| columnField | PivotField | Сводное поле в полях столбца. |
+| columnField | PivotField | PivotField в полях столбца. |
 
 ### Смотрите также
 

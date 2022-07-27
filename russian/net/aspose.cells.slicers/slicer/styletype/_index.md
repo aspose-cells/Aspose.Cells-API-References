@@ -1,14 +1,14 @@
 ---
 title: StyleType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Укажите тип встроенного стиля слайсера Тип по умолчанию  SlicerStyleLight1
+description: Укажите тип встроенного слайсера style тип по умолчанию SlicerStyleLight1
 type: docs
 weight: 200
 url: /ru/net/aspose.cells.slicers/slicer/styletype/
 ---
 ## Slicer.StyleType property
 
-Укажите тип встроенного стиля слайсера Тип по умолчанию — SlicerStyleLight1
+Укажите тип встроенного слайсера style тип по умолчанию SlicerStyleLight1
 
 ```csharp
 public SlicerStyleType StyleType { get; set; }

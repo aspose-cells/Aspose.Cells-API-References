@@ -1,14 +1,14 @@
 ---
 title: GetIconImageData
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получить данные набора иконок
+description: Получить набор иконок data
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/conditionalformattingicon/geticonimagedata/
 ---
 ## ConditionalFormattingIcon.GetIconImageData method
 
-Получить данные набора иконок
+Получить набор иконок data
 
 ```csharp
 public static byte[] GetIconImageData(IconSetType type, int index)
@@ -16,7 +16,7 @@ public static byte[] GetIconImageData(IconSetType type, int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | IconSetType | тип иконки |
+| type | IconSetType | тип значка |
 | index | Int32 | индекс значка |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет тип редакции.
+description: Представляет тип ревизии.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.revisions/revisionrenamesheet/type/
 ---
 ## RevisionRenameSheet.Type property
 
-Представляет тип редакции.
+Представляет тип ревизии.
 
 ```csharp
 public override RevisionType Type { get; }

@@ -18,7 +18,7 @@ public enum FontSourceType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| FontFile | `0` | 表示单个字体文件。 |
+| FontFile | `0` | 代表单个字体文件。 |
 | FontsFolder | `1` | 表示包含字体文件的文件夹。 |
 | MemoryFont | `2` | 表示内存中的单个字体。 |
 

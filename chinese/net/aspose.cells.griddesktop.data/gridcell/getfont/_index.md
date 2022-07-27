@@ -1,14 +1,14 @@
 ---
 title: GetFont
 second_title: Aspose.Cells for .NET API 参考
-description: 获取单元格字体 更改字体时应调用SetFont方法 将字体设置为单元格
+description: 获取单元格字体 更改字体时应调用SetFont方法 为单元格设置字体
 type: docs
 weight: 250
 url: /zh/net/aspose.cells.griddesktop.data/gridcell/getfont/
 ---
 ## GridCell.GetFont method
 
-获取单元格字体。 更改字体时，应调用“SetFont”方法， 将字体设置为单元格。
+获取单元格字体。 更改字体时，应调用“SetFont”方法， 为单元格设置字体。
 
 ```csharp
 public Font GetFont()

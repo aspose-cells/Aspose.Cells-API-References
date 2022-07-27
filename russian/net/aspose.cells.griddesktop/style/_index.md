@@ -24,28 +24,28 @@ public class Style
 
 | Имя | Описание |
 | --- | --- |
-| [BackgroundColor](../../aspose.cells.griddesktop/style/backgroundcolor) { get; set; } | Получает или задает цвет фона ячейки, если образец стиля не установлен в сплошной, тогда это повлияет |
+| [BackgroundColor](../../aspose.cells.griddesktop/style/backgroundcolor) { get; set; } | Получает или задает цвет фона ячейки, если шаблон стиля не установлен в сплошной цвет, тогда он будет иметь значение effect |
 | [CellLocked](../../aspose.cells.griddesktop/style/celllocked) { get; set; } |  |
-| [Color](../../aspose.cells.griddesktop/style/color) { get; set; } | Получает или задает цвет заливки ячейки. когда шаблон отсутствует, он возвращает Color.Empty; когда шаблон имеет значение BackgroundType.Solid, он возвращает ForegroundColor; другие возвращают BackgroundColor |
+| [Color](../../aspose.cells.griddesktop/style/color) { get; set; } | Получает или задает цвет заливки ячейки. когда шаблон отсутствует, он возвращает Color.Empty; , когда шаблон имеет значение BackgroundType.Solid, он возвращает ForegroundColor; другие возвращают BackgroundColor |
 | [Custom](../../aspose.cells.griddesktop/style/custom) { get; set; } |  |
 | [ForegroundColor](../../aspose.cells.griddesktop/style/foregroundcolor) { get; set; } | Получает или задает цвет переднего плана стиля. |
-| [HAlignment](../../aspose.cells.griddesktop/style/halignment) { get; set; } | Получает или устанавливает атрибут горизонтального выравнивания. |
+| [HAlignment](../../aspose.cells.griddesktop/style/halignment) { get; set; } | Получает или задает атрибут горизонтального выравнивания. |
 | [Indent](../../aspose.cells.griddesktop/style/indent) { get; set; } | Представляет уровень m_IndentLevel для ячейки или диапазона. Может быть только целым числом от 0 до 15. |
 | [NumberFormat](../../aspose.cells.griddesktop/style/numberformat) { get; set; } | Получает или задает формат отображения чисел и дат. |
 | [NumberType](../../aspose.cells.griddesktop/style/numbertype) { get; set; } | то же, что и NumberFormat |
 | [Pattern](../../aspose.cells.griddesktop/style/pattern) { get; set; } | Получает или задает тип шаблона фона ячейки. |
 | [Rotation](../../aspose.cells.griddesktop/style/rotation) { get; set; } | Представляет угол поворота текста. |
 | [Shrink](../../aspose.cells.griddesktop/style/shrink) { get; set; } |  |
-| [TextDirection](../../aspose.cells.griddesktop/style/textdirection) { get; set; } | Получает или устанавливает атрибут направления текста. |
-| [TextWrapped](../../aspose.cells.griddesktop/style/textwrapped) { get; set; } | Получает или задает значение, указывающее, переносится ли текст внутри ячейки. |
+| [TextDirection](../../aspose.cells.griddesktop/style/textdirection) { get; set; } | Получает или задает атрибут направления текста. |
+| [TextWrapped](../../aspose.cells.griddesktop/style/textwrapped) { get; set; } | Получает или задает значение, указывающее, переносится ли текст в ячейке. |
 | [VAlignment](../../aspose.cells.griddesktop/style/valignment) { get; set; } | Получает или задает атрибут вертикального выравнивания. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Clone](../../aspose.cells.griddesktop/style/clone)() | Создает и возвращает копию этого объекта.  **ПРИМЕЧАНИЕ:** Если вы клонируете именованный стиль, имя не клонируется, потому что имя стиля должно быть уникальным. Следовательно, клонированный стиль не будет "равным" оригинальному стилю. |
-| [SetBorderColor](../../aspose.cells.griddesktop/style/setbordercolor)(BorderType, Color) | Устанавливает цвет указанной границы. |
+| [Clone](../../aspose.cells.griddesktop/style/clone)() | Создает и возвращает копию этого объекта.  **ПРИМЕЧАНИЕ:** Если вы клонируете именованный стиль, имя не клонируется, потому что имя стиля должно быть уникальным. Следовательно, клонированный стиль не будет «равным» исходному стилю. |
+| [SetBorderColor](../../aspose.cells.griddesktop/style/setbordercolor)(BorderType, Color) | Задает цвет указанной границы. |
 | [SetBorderLine](../../aspose.cells.griddesktop/style/setborderline)(BorderType, BorderLineType) | Устанавливает тип линии границы указанной границы. |
 
 ### Смотрите также

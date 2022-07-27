@@ -1,14 +1,14 @@
 ---
 title: DataSource
 second_title: Aspose.Cells for .NET API 参考
-description: 获取 DataSource for Worksheet 对象中的特定列表
+description: 获取工作表对象的数据源中的特定列表
 type: docs
 weight: 130
 url: /zh/net/aspose.cells.griddesktop/worksheet/datasource/
 ---
 ## Worksheet.DataSource property
 
-获取 DataSource for Worksheet 对象中的特定列表。
+获取工作表对象的数据源中的特定列表。
 
 ```csharp
 public object DataSource { get; }

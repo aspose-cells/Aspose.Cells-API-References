@@ -1,14 +1,14 @@
 ---
 title: MaxIteration
 second_title: Aspose.Cells for .NET API 参考
-description: 解析循环引用的最大迭代次数
+description: 解决循环引用的最大迭代次数
 type: docs
 weight: 90
 url: /zh/net/aspose.cells/formulasettings/maxiteration/
 ---
 ## FormulaSettings.MaxIteration property
 
-解析循环引用的最大迭代次数。
+解决循环引用的最大迭代次数。
 
 ```csharp
 public int MaxIteration { get; set; }

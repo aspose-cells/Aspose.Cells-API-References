@@ -1,14 +1,14 @@
 ---
 title: NoneFill
 second_title: Справочник по Aspose.Cells для .NET API
-description: Не заполняет.
+description: Обозначает отсутствие заливки.
 type: docs
 weight: 2420
 url: /ru/net/aspose.cells.drawing/nonefill/
 ---
 ## NoneFill class
 
-Не заполняет.
+Обозначает отсутствие заливки.
 
 ```csharp
 public class NoneFill : Fill

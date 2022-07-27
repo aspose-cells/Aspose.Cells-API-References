@@ -32,20 +32,20 @@ public class AutoFilter
 | [AddFilter](../../aspose.cells/autofilter/addfilter)(int, string) | Добавляет фильтр для столбца фильтра. |
 | [AddFontColorFilter](../../aspose.cells/autofilter/addfontcolorfilter)(int, CellsColor) | Добавляет фильтр цвета шрифта. |
 | [AddIconFilter](../../aspose.cells/autofilter/addiconfilter)(int, IconSetType, int) | Добавляет фильтр значков. |
-| [Custom](../../aspose.cells/autofilter/custom#custom)(int, FilterOperatorType, object) | Фильтрует список по заданным критериям. |
-| [Custom](../../aspose.cells/autofilter/custom#custom_1)(int, FilterOperatorType, object, bool, FilterOperatorType, object) | Фильтрует список по пользовательским критериям. |
+| [Custom](../../aspose.cells/autofilter/custom#custom)(int, FilterOperatorType, object) | Фильтрует список с пользовательскими критериями. |
+| [Custom](../../aspose.cells/autofilter/custom#custom_1)(int, FilterOperatorType, object, bool, FilterOperatorType, object) | Фильтрует список с пользовательскими критериями. |
 | [DynamicFilter](../../aspose.cells/autofilter/dynamicfilter)(int, DynamicFilterType) | Добавляет динамический фильтр. |
 | [Filter](../../aspose.cells/autofilter/filter)(int, string) | Фильтрует список по заданным критериям. |
-| [FilterTop10](../../aspose.cells/autofilter/filtertop10)(int, bool, bool, int) | Фильтровать первые 10 элементов в списке |
-| [GetCellArea](../../aspose.cells/autofilter/getcellarea)() | Получает[`CellArea`](../cellarea), к которому применяется указанный автофильтр. |
+| [FilterTop10](../../aspose.cells/autofilter/filtertop10)(int, bool, bool, int) | Отфильтровать первые 10 элементов в списке |
+| [GetCellArea](../../aspose.cells/autofilter/getcellarea)() | Получает[`CellArea`](../cellarea) где указанный автофильтр применяется к. |
 | [MatchBlanks](../../aspose.cells/autofilter/matchblanks)(int) | Соответствует всем пустым ячейкам в списке. |
 | [MatchNonBlanks](../../aspose.cells/autofilter/matchnonblanks)(int) | Соответствует всем непустым ячейкам в списке. |
-| [Refresh](../../aspose.cells/autofilter/refresh#refresh)() | Обновите автоматические фильтры, чтобы скрыть или показать строки. |
+| [Refresh](../../aspose.cells/autofilter/refresh#refresh)() | Обновите автоматические фильтры, чтобы скрыть или отобразить строки. |
 | [Refresh](../../aspose.cells/autofilter/refresh#refresh_1)(bool) | Получает индексы всех скрытых строк. |
 | [RemoveDateFilter](../../aspose.cells/autofilter/removedatefilter)(int, DateTimeGroupingType, int, int, int, int, int, int) | Удаляет фильтр даты. |
 | [RemoveFilter](../../aspose.cells/autofilter/removefilter#removefilter)(int) | Удалить определенный фильтр. |
 | [RemoveFilter](../../aspose.cells/autofilter/removefilter#removefilter_1)(int, string) | Удаляет фильтр для столбца фильтра. |
-| [SetRange](../../aspose.cells/autofilter/setrange)(int, int, int) | Задает диапазон, к которому применяется указанный автофильтр. |
+| [SetRange](../../aspose.cells/autofilter/setrange)(int, int, int) | Устанавливает диапазон, к которому применяется указанный автофильтр. |
 | [ShowAll](../../aspose.cells/autofilter/showall)() | Показать все строки. |
 
 ### Примеры
@@ -55,15 +55,15 @@ public class AutoFilter
 [C#]
 
 //Создание файлового потока, содержащего открываемый файл Excel
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook("template.xlsx");
-  //Доступ к первому рабочему листу в Excel file
+//Доступ к первому рабочему листу в файле Excel
 Worksheet worksheet = workbook.Worksheets[0];
-  //Создание автофильтра путем предоставления диапазона ячеек заголовка row
+//Создание автофильтра путем указания диапазона ячеек строки заголовка
 worksheet.AutoFilter.Range = "A1:B1";
-  //Фильтрация столбцов с указанными значениями
+//Фильтрация столбцов с заданными значениями
 worksheet.AutoFilter.Filter(1, "Bananas");
-  //Сохранение измененного файла Excel.
+//Сохранение измененного файла Excel.
 workbook.Save("output.xls");
 
 [Visual Basic]
@@ -71,13 +71,13 @@ workbook.Save("output.xls");
 'Создание файлового потока, содержащего открываемый файл Excel
 'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook("template.xlsx")
-'Доступ к первому рабочему листу в Excel file
+'Доступ к первому рабочему листу в файле Excel
 Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Создание автофильтра путем предоставления диапазона ячеек заголовка row
+'Создание автофильтра путем указания диапазона ячеек строки заголовка
 worksheet.AutoFilter.Range = "A1:B1"
 'Фильтрация столбцов с указанными значениями
 Worksheet.AutoFilter.Filter(1, "Bananas")
-'Сохранение измененного файла Excel.
+'Сохранение измененного файла Excel 
 workbook.Save("output.xls")
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: GetDisplayStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 获取单元格的显示样式 如果此单元格还受其他设置影响例如条件格式列表对象等 则显示样式可能与 cell.GetStyle 不同
+description: 获取单元格的显示样式 如果此单元格还受到条件格式列表对象等其他设置的影响 那么显示样式可能与cell.GetStyle不同
 type: docs
 weight: 400
 url: /zh/net/aspose.cells/cell/getdisplaystyle/
 ---
 ## GetDisplayStyle() {#getdisplaystyle}
 
-获取单元格的显示样式。 如果此单元格还受其他设置影响，例如条件格式、列表对象等， 则显示样式可能与 cell.GetStyle() 不同。
+获取单元格的显示样式。 如果此单元格还受到条件格式、列表对象等其他设置的影响， 那么显示样式可能与cell.GetStyle()不同。
 
 ```csharp
 public Style GetDisplayStyle()
@@ -25,7 +25,7 @@ public Style GetDisplayStyle()
 
 ## GetDisplayStyle(bool) {#getdisplaystyle_1}
 
-获取单元格的显示样式。 如果单元格是条件格式，则显示样式与cell.GetStyle()不同。
+获取单元格的显示样式 如果单元格是条件格式，则显示样式与单元格不同。GetStyle()
 
 ```csharp
 public Style GetDisplayStyle(bool includeMergedBorders)
@@ -33,7 +33,7 @@ public Style GetDisplayStyle(bool includeMergedBorders)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| includeMergedBorders | Boolean | 表示是否检查合并单元格的边框。 |
+| includeMergedBorders | Boolean | 指示是否检查合并单元格的边框。 |
 
 ### 也可以看看
 

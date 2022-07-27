@@ -16,7 +16,7 @@ public object CalculateFormula(string formula)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| 公式 | String |  |
+| formula | String |  |
 
 ### 也可以看看
 

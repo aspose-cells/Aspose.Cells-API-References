@@ -18,8 +18,8 @@ public class DropBars
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Area](../../aspose.cells.charts/dropbars/area) { get; } | 获取[`Area`](./area)。 |
-| [Border](../../aspose.cells.charts/dropbars/border) { get; } | 获取边框[`Line`](../../aspose.cells.drawing/line)。 |
+| [Area](../../aspose.cells.charts/dropbars/area) { get; } | 获取[`Area`](./area). |
+| [Border](../../aspose.cells.charts/dropbars/border) { get; } | 获取边框[`Line`](../../aspose.cells.drawing/line). |
 
 ### 也可以看看
 

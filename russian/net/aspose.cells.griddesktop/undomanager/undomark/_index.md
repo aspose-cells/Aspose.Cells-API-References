@@ -1,14 +1,14 @@
 ---
 title: UndoMark
 second_title: Справочник по Aspose.Cells для .NET API
-description: Выполняет операцию отмены с пометкой.
+description: Выполняет операцию отмены с меткой.
 type: docs
 weight: 130
 url: /ru/net/aspose.cells.griddesktop/undomanager/undomark/
 ---
 ## UndoManager.UndoMark method
 
-Выполняет операцию отмены с пометкой.
+Выполняет операцию отмены с меткой.
 
 ```csharp
 public void UndoMark()

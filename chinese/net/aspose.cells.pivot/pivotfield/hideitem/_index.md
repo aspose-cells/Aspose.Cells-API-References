@@ -16,8 +16,8 @@ public void HideItem(int index, bool isHidden)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | pivotField中pivotItem的索引。 |
-| isHidden | Boolean | 特定PivotItem是否隐藏 |
+| index | Int32 | pivotField 中的 pivotItem 的索引。 |
+| isHidden | Boolean | 特定的 PivotItem 是否隐藏 |
 
 ### 也可以看看
 
@@ -38,7 +38,7 @@ public void HideItem(string itemValue, bool isHidden)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | itemValue | String | pivotField 中的 pivotItem 的值。 |
-| isHidden | Boolean | 特定PivotItem是否隐藏 |
+| isHidden | Boolean | 特定的 PivotItem 是否隐藏 |
 
 ### 也可以看看
 

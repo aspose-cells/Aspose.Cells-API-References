@@ -1,14 +1,14 @@
 ---
 title: AttachedFilesUrlPrefix
 second_title: Справочник по Aspose.Cells для .NET API
-description: Укажите префикс URL вложенных файлов таких как изображение в файле html. Только для сохранения в html поток.
+description: Укажите префикс URL вложенных файлов таких как изображение в файле html. Только для сохранения в поток html.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/htmlsaveoptions/attachedfilesurlprefix/
 ---
 ## HtmlSaveOptions.AttachedFilesUrlPrefix property
 
-Укажите префикс URL вложенных файлов, таких как изображение в файле html. Только для сохранения в html поток.
+Укажите префикс URL вложенных файлов, таких как изображение в файле html. Только для сохранения в поток html.
 
 ```csharp
 public string AttachedFilesUrlPrefix { get; set; }

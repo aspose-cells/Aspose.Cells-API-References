@@ -20,7 +20,7 @@ public Bitmap ToImage(ImageOrPrintOptions options)
 
 ### 返回值
 
-返回Bitmap对象。
+返回一个Bitmap目的。
 
 ### 也可以看看
 

@@ -12,21 +12,21 @@ url: /ru/net/aspose.cells.revisions/
 
 | Учебный класс | Описание |
 | --- | --- |
-| [Revision](./revision) | Представляет редакцию. |
+| [Revision](./revision) | Представляет версию. |
 | [RevisionAutoFormat](./revisionautoformat) | представляет запись ревизии с информацией об изменении форматирования. |
 | [RevisionCellChange](./revisioncellchange) | Представляет ревизию, изменяющую ячейки. |
-| [RevisionCellComment](./revisioncellcomment) | Представляет запись ревизии изменения комментария к ячейке. |
-| [RevisionCellMove](./revisioncellmove) | Представляет запись о ревизии перемещенных ячеек. |
+| [RevisionCellComment](./revisioncellcomment) | Представляет запись редакции изменения комментария к ячейке. |
+| [RevisionCellMove](./revisioncellmove) | Представляет запись ревизии для перемещенных ячеек. |
 | [RevisionCollection](./revisioncollection) | Представляет все журналы изменений. |
-| [RevisionCustomView](./revisioncustomview) | Представляет запись ревизии о добавлении или удалении пользовательского представления в книгу |
-| [RevisionDefinedName](./revisiondefinedname) | Представляет запись ревизии определенного изменения имени. |
+| [RevisionCustomView](./revisioncustomview) | Представляет запись редакции о добавлении или удалении пользовательского представления в workbook |
+| [RevisionDefinedName](./revisiondefinedname) | Представляет запись редакции определенного изменения имени. |
 | [RevisionFormat](./revisionformat) | представляет запись ревизии с информацией об изменении форматирования. |
 | [RevisionInsertDelete](./revisioninsertdelete) | Представляет запись ревизии действия вставки/удаления строки/столбца. |
-| [RevisionInsertSheet](./revisioninsertsheet) | Представляет запись ревизии листа, который был вставлен. |
+| [RevisionInsertSheet](./revisioninsertsheet) | Представляет запись редакции вставленного листа. |
 | [RevisionLog](./revisionlog) | Представляет журнал изменений. |
 | [RevisionLogCollection](./revisionlogcollection) | Представляет все журналы изменений. |
-| [RevisionMergeConflict](./revisionmergeconflict) | Представляет запись ревизии, указывающую на конфликт слияния. |
-| [RevisionQueryTable](./revisionquerytable) | Представляет ревизию изменения поля таблицы запросов. |
+| [RevisionMergeConflict](./revisionmergeconflict) | Представляет запись редакции, указывающую на конфликт слияния. |
+| [RevisionQueryTable](./revisionquerytable) | Представляет ревизию изменения поля таблицы запроса. |
 | [RevisionRenameSheet](./revisionrenamesheet) | Представляет ревизию листа переименования. |
 ## перечисление
 

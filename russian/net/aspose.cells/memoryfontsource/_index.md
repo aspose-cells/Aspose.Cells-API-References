@@ -18,13 +18,13 @@ public class MemoryFontSource : FontSourceBase
 
 | Имя | Описание |
 | --- | --- |
-| [MemoryFontSource](memoryfontsource)(byte[]) | Ктор. |
+| [MemoryFontSource](memoryfontsource)(byte[]) | Стор. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [FontData](../../aspose.cells/memoryfontsource/fontdata) { get; } | Двоичные данные шрифта. |
+| [FontData](../../aspose.cells/memoryfontsource/fontdata) { get; } | Данные двоичного шрифта. |
 | override [Type](../../aspose.cells/memoryfontsource/type) { get; } | Возвращает тип источника шрифта. |
 
 ### Смотрите также

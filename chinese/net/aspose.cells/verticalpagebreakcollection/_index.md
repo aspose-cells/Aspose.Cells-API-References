@@ -1,14 +1,14 @@
 ---
 title: VerticalPageBreakCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装VerticalPageBreak./verticalpagebreak对象的集合
+description: 封装了一个集合VerticalPageBreak./verticalpagebreak对象.
 type: docs
 weight: 6320
 url: /zh/net/aspose.cells/verticalpagebreakcollection/
 ---
 ## VerticalPageBreakCollection class
 
-封装[`VerticalPageBreak`](../verticalpagebreak)对象的集合。
+封装了一个集合[`VerticalPageBreak`](../verticalpagebreak)对象.
 
 ```csharp
 public class VerticalPageBreakCollection : CollectionBase<VerticalPageBreak>
@@ -20,7 +20,7 @@ public class VerticalPageBreakCollection : CollectionBase<VerticalPageBreak>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/verticalpagebreakcollection/item) { get; } | 获取指定索引处的[`VerticalPageBreak`](../verticalpagebreak)元素。 (2 indexers) |
+| [Item](../../aspose.cells/verticalpagebreakcollection/item) { get; } | 获取[`VerticalPageBreak`](../verticalpagebreak)指定索引处的元素。 (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法

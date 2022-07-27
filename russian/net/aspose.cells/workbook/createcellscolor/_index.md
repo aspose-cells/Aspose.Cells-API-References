@@ -1,14 +1,14 @@
 ---
 title: CreateCellsColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Создает объектCellsColoraspose.cells/cellscolor.
+description: СоздаетCellsColoraspose.cells/cellscolor объект.
 type: docs
 weight: 360
 url: /ru/net/aspose.cells/workbook/createcellscolor/
 ---
 ## Workbook.CreateCellsColor method
 
-Создает объект[`CellsColor`](../../cellscolor).
+Создает[`CellsColor`](../../cellscolor) объект.
 
 ```csharp
 public CellsColor CreateCellsColor()
@@ -16,7 +16,7 @@ public CellsColor CreateCellsColor()
 
 ### Возвращаемое значение
 
-Возвращает объект[`CellsColor`](../../cellscolor).
+Возвращает[`CellsColor`](../../cellscolor) объект.
 
 ### Смотрите также
 

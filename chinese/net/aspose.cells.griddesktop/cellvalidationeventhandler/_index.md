@@ -1,14 +1,14 @@
 ---
 title: CellValidationEventHandler
 second_title: Aspose.Cells for .NET API 参考
-description: 表示打算处理单元格验证事件的方法
+description: 表示打算处理单元验证事件的方法
 type: docs
 weight: 250
 url: /zh/net/aspose.cells.griddesktop/cellvalidationeventhandler/
 ---
 ## CellValidationEventHandler delegate
 
-表示打算处理单元格验证事件的方法。
+表示打算处理单元验证事件的方法。
 
 ```csharp
 public delegate void CellValidationEventHandler(object sender, CellValidationEventArgs e);
@@ -16,7 +16,7 @@ public delegate void CellValidationEventHandler(object sender, CellValidationEve
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sender | Object | 事件源。 |
+| sender | Object | 事件的来源。 |
 | e | CellValidationEventArgs | 事件参数。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: ConnectionParameterCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: УказываетConnectionParameter./connectionparameterколлекцию
+description: УказываетConnectionParameter./connectionparameter коллекция
 type: docs
 weight: 3250
 url: /ru/net/aspose.cells.externalconnections/connectionparametercollection/
 ---
 ## ConnectionParameterCollection class
 
-Указывает[`ConnectionParameter`](../connectionparameter)коллекцию
+Указывает[`ConnectionParameter`](../connectionparameter) коллекция
 
 ```csharp
 public class ConnectionParameterCollection : CollectionBase<ConnectionParameter>
@@ -20,8 +20,8 @@ public class ConnectionParameterCollection : CollectionBase<ConnectionParameter>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.externalconnections/connectionparametercollection/item) { get; set; } | Получает элемент[`ConnectionParameter`](../connectionparameter)по указанному индексу. (2 indexers) |
-| [Item](../../aspose.cells.externalconnections/connectionparametercollection/item) { get; } | Получает элемент[`ConnectionParameter`](../connectionparameter)с указанным именем. |
+| [Item](../../aspose.cells.externalconnections/connectionparametercollection/item) { get; set; } | Получает[`ConnectionParameter`](../connectionparameter) элемент по указанному индексу. (2 indexers) |
+| [Item](../../aspose.cells.externalconnections/connectionparametercollection/item) { get; } | Получает[`ConnectionParameter`](../connectionparameter) элемент с указанным именем. |
 
 ## Методы
 

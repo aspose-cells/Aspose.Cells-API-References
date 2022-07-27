@@ -1,14 +1,14 @@
 ---
 title: RightBorderStyle
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает стиль правой границы ячейки.
+description: Определяет стиль правой границы ячейки.
 type: docs
 weight: 100
 url: /ru/net/aspose.cells.gridweb/gridtableitemstyle/rightborderstyle/
 ---
 ## GridTableItemStyle.RightBorderStyle property
 
-Задает стиль правой границы ячейки.
+Определяет стиль правой границы ячейки.
 
 ```csharp
 public WebBorderStyle RightBorderStyle { get; set; }

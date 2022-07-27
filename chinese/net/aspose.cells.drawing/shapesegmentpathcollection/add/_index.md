@@ -20,7 +20,7 @@ public int Add(ShapePathType type)
 
 ### 返回值
 
-返回列表中[`ShapeSegmentPath`](../../shapesegmentpath)对象的位置。
+返回的位置[`ShapeSegmentPath`](../../shapesegmentpath)列表中的对象。
 
 ### 也可以看看
 

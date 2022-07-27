@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПолучаетVbaModuleaspose.cells.vba/vbamoduleв списке по индексу.
+description: получаетVbaModuleaspose.cells.vba/vbamodule в списке по индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.vba/vbamodulecollection/item/
 ---
 ## VbaModuleCollection indexer (1 of 2)
 
-Получает[`VbaModule`](../../vbamodule)в списке по индексу.
+получает[`VbaModule`](../../vbamodule) в списке по индексу.
 
 ```csharp
 public VbaModule this[int index] { get; }
@@ -29,7 +29,7 @@ public VbaModule this[int index] { get; }
 
 ## VbaModuleCollection indexer (2 of 2)
 
-Получает[`VbaModule`](../../vbamodule)в списке по имени.
+получает[`VbaModule`](../../vbamodule) в списке по имени.
 
 ```csharp
 public VbaModule this[string name] { get; }

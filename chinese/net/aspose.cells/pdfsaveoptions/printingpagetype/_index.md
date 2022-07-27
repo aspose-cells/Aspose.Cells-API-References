@@ -16,24 +16,24 @@ public PrintingPageType PrintingPageType { get; set; }
 
 ### 评论
 
-如果工作表中的内容稀疏，则输出pdf中将有一些页面完全空白文件。 如果你不想要这些空白页，你可以使用这个选项来忽略它们。
+如果工作表中的内容稀疏，输出的pdf文件中会有一些页面完全空白。 如果你不想要这些空白页，你可以使用这个选项省略它们。
 
 ### 例子
 
-以下代码省略了空白页或仅包含一些样式内容（如单元格背景、边框）的页面。
+以下代码省略了空白页或只包含一些样式内容的页面，如单元格背景、边框。
 
 ```csharp
 Workbook wb = new Workbook("Book1.xlsx");
 
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
- //忽略空白页
+//忽略空白页
 pdfSaveOptions.PrintingPageType = PrintingPageType.IgnoreBlank;
 
 wb.Save("output_ignore_blank_page.pdf", pdfSaveOptions);
 
 
- //忽略空白页和只包含一些样式内容的页面，如单元格背景
+//忽略空白页 and pages which only contains some style content like cell background
 pdfSaveOptions.PrintingPageType = PrintingPageType.IgnoreStyle;
 
 wb.Save("output_ignore_blank_and_style_page.pdf", pdfSaveOptions);

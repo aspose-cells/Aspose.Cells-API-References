@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает имя ряда данных.
+description: Получает или задает имя серии данных.
 type: docs
 weight: 300
 url: /ru/net/aspose.cells.charts/series/name/
 ---
 ## Series.Name property
 
-Получает или задает имя ряда данных.
+Получает или задает имя серии данных.
 
 ```csharp
 public string Name { get; set; }
@@ -19,17 +19,17 @@ public string Name { get; set; }
 ```csharp
 [C#]
 
-  //Имя ссылки на ячейку
+//Имя ссылки на ячейку
 chart.NSeries[0].Name = "=A1";
 
-  //Установить строку name
+//Установить строку для имени
 chart.NSeries[0].Name = "First Series";
 [Visual Basic]
 
 'Имя ссылки на ячейку
 chart.NSeries[0].Name = "=A1"
 
-'Установить строку name
+'Установить строку для имени
 chart.NSeries[0].Name = "First Series"
 ```
 

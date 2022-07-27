@@ -20,7 +20,7 @@ public string ExportToJson(string filename)
 
 ### 返回值
 
-json 字符串
+json字符串
 
 ### 也可以看看
 
@@ -32,7 +32,7 @@ json 字符串
 
 ## ExportToJson() {#exporttojson}
 
-从工作簿获取 json
+从工作簿中获取 json
 
 ```csharp
 public string ExportToJson()
@@ -40,7 +40,7 @@ public string ExportToJson()
 
 ### 返回值
 
-json 字符串
+json字符串
 
 ### 也可以看看
 

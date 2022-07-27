@@ -24,7 +24,7 @@ public class SmartTagOptions
 
 | Имя | Описание |
 | --- | --- |
-| [EmbedSmartTags](../../aspose.cells.markup/smarttagoptions/embedsmarttags) { get; set; } | Указывает, сохраняются ли смарт-теги с книгой. |
+| [EmbedSmartTags](../../aspose.cells.markup/smarttagoptions/embedsmarttags) { get; set; } | Указывает, сохраняются ли смарт-теги вместе с книгой. |
 | [ShowType](../../aspose.cells.markup/smarttagoptions/showtype) { get; set; } | Представляет тип отображения смарт-тега. |
 
 ### Смотрите также

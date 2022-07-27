@@ -3,7 +3,7 @@ title: Merge
 second_title: Aspose.Cells for .NET API 参考
 description: 将一系列单元格组合成一个单元格
 type: docs
-weight: 300
+weight: 340
 url: /zh/net/aspose.cells/range/merge/
 ---
 ## Range.Merge method
@@ -16,7 +16,7 @@ public void Merge()
 
 ### 评论
 
-通过范围内左上角单元格的地址引用合并单元格。
+通过范围内左上角单元格的地址引用合并的单元格。
 
 ### 也可以看看
 

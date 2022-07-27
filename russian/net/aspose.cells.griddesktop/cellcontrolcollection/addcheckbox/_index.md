@@ -1,14 +1,14 @@
 ---
 title: AddCheckBox
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет флажок в указанную ячейку по индексу столбца строки.
+description: Добавляет флажок в указанную ячейку в индексе столбца строки.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.griddesktop/cellcontrolcollection/addcheckbox/
 ---
 ## AddCheckBox(int, int, bool) {#addcheckbox}
 
-Добавляет флажок в указанную ячейку по индексу столбца строки.
+Добавляет флажок в указанную ячейку в индексе столбца строки.
 
 ```csharp
 public CheckBox AddCheckBox(int row, int col, bool check)
@@ -22,7 +22,7 @@ public CheckBox AddCheckBox(int row, int col, bool check)
 
 ### Возвращаемое значение
 
-Добавлен флажок.
+Добавленный флажок.
 
 ### Смотрите также
 
@@ -48,7 +48,7 @@ public CheckBox AddCheckBox(string cellName, bool check)
 
 ### Возвращаемое значение
 
-Добавлен флажок.
+Добавленный флажок.
 
 ### Смотрите также
 

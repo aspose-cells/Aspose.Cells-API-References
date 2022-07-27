@@ -1,14 +1,14 @@
 ---
 title: FormatSetType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Тип набора форматов заливки.
+description: Тип набора форматов заполнения.
 type: docs
 weight: 2020
 url: /ru/net/aspose.cells.drawing/formatsettype/
 ---
 ## FormatSetType enumeration
 
-Тип набора форматов заливки.
+Тип набора форматов заполнения.
 
 ```csharp
 public enum FormatSetType
@@ -18,10 +18,10 @@ public enum FormatSetType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| None | `0` | Формат без заполнения. |
+| None | `0` | Нет формата заполнения. |
 | IsGradientSet | `1` | Формат градиентной заливки. |
 | IsTextureSet | `2` | Формат заливки текстуры. |
-| IsPatternSet | `3` | Формат заполнения узором. |
+| IsPatternSet | `3` | Формат заполнения шаблона. |
 
 ### Смотрите также
 

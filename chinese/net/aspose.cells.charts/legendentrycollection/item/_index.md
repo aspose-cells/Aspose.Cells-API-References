@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定索引处的LegendEntryaspose.cells.charts/legendentry元素
+description: 获取LegendEntryaspose.cells.charts/legendentry指定索引处的元素
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.charts/legendentrycollection/item/
 ---
 ## LegendEntryCollection indexer
 
-获取指定索引处的[`LegendEntry`](../../legendentry)元素。
+获取[`LegendEntry`](../../legendentry)指定索引处的元素。
 
 ```csharp
 public LegendEntry this[int index] { get; }

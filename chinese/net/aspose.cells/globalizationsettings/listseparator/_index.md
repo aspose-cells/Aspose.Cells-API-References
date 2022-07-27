@@ -1,14 +1,14 @@
 ---
 title: ListSeparator
 second_title: Aspose.Cells for .NET API 参考
-description: 获取列表的分隔符函数的参数等
+description: 获取列表函数参数等的分隔符
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/globalizationsettings/listseparator/
 ---
 ## GlobalizationSettings.ListSeparator property
 
-获取列表的分隔符、函数的参数等。
+获取列表、函数参数等的分隔符。
 
 ```csharp
 public virtual char ListSeparator { get; }

@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает идентификатор этой формы.
+description: Получает идентификатор этой фигуры.
 type: docs
 weight: 240
 url: /ru/net/aspose.cells.drawing/shape/id/
 ---
 ## Shape.Id property
 
-Получает идентификатор этой формы.
+Получает идентификатор этой фигуры.
 
 ```csharp
 public int Id { get; }

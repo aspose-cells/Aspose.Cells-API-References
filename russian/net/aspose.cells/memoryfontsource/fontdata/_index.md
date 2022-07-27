@@ -1,14 +1,14 @@
 ---
 title: FontData
 second_title: Справочник по Aspose.Cells для .NET API
-description: Двоичные данные шрифта.
+description: Данные двоичного шрифта.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/memoryfontsource/fontdata/
 ---
 ## MemoryFontSource.FontData property
 
-Двоичные данные шрифта.
+Данные двоичного шрифта.
 
 ```csharp
 public byte[] FontData { get; }

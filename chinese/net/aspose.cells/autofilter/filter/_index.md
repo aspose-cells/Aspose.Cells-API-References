@@ -16,12 +16,12 @@ public void Filter(int fieldIndex, string criteria)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldIndex | Int32 | 要作为过滤器基础的字段的整数偏移量 （从左侧列表的；最左边的字段是字段 0)。 |
+| fieldIndex | Int32 | 您要作为过滤器基础的字段的整数偏移量 （从列表的左侧开始；最左侧的字段是字段0）。 |
 | criteria | String | 指定的条件（字符串；例如，“101”）。 |
 
 ### 评论
 
-Aspose.Cells 将删除此字段上的所有其他过滤器设置，如 Ms Excel 97-2003。
+Aspose.Cells 将删除此字段上的所有其他过滤器设置为 Ms Excel 97-2003.
 
 ### 也可以看看
 

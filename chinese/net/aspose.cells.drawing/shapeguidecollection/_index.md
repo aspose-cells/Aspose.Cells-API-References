@@ -26,14 +26,14 @@ public class ShapeGuideCollection : CollectionBase<ShapeGuide>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.drawing/shapeguidecollection/item) { get; } | 通过索引获取形状指南 |
+| [Item](../../aspose.cells.drawing/shapeguidecollection/item) { get; } | 通过 index 获取形状指南 |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells.drawing/shapeguidecollection/add)(string, double) | 添加形状指南。（重要:此功能目前仅适用于 Excel07 及更高版本） |
+| [Add](../../aspose.cells.drawing/shapeguidecollection/add)(string, double) | 增加一个形状指南。（重要：此功能目前仅适用于Excel07及以上） |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ShapeGuide) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ShapeGuide, IComparer&lt;ShapeGuide&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, ShapeGuide, IComparer&lt;ShapeGuide&gt;) |  |

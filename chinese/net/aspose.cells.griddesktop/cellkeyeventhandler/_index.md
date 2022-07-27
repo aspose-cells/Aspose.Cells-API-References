@@ -1,14 +1,14 @@
 ---
 title: CellKeyEventHandler
 second_title: Aspose.Cells for .NET API 参考
-description: 表示打算处理单元格键事件的方法
+description: 表示打算处理单元键事件的方法
 type: docs
 weight: 170
 url: /zh/net/aspose.cells.griddesktop/cellkeyeventhandler/
 ---
 ## CellKeyEventHandler delegate
 
-表示打算处理单元格键事件的方法。
+表示打算处理单元键事件的方法。
 
 ```csharp
 public delegate void CellKeyEventHandler(object sender, CellKeyEventArgs e);
@@ -16,7 +16,7 @@ public delegate void CellKeyEventHandler(object sender, CellKeyEventArgs e);
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sender | Object | 事件源。 |
+| sender | Object | 事件的来源。 |
 | e | CellKeyEventArgs | 事件参数。 |
 
 ### 也可以看看

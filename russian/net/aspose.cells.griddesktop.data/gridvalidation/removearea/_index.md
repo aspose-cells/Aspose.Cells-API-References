@@ -16,7 +16,7 @@ public void RemoveArea(GridCellArea cellArea)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cellArea | GridCellArea | Диапазон, содержащий настройки проверки данных. |
+| cellArea | GridCellArea | Диапазон, содержащий параметры проверки данных. |
 
 ### Смотрите также
 

@@ -19,8 +19,8 @@ public class ConditionalFormattingIcon
 | 姓名 | 描述 |
 | --- | --- |
 | [ImageData](../../aspose.cells/conditionalformattingicon/imagedata) { get; } | 获取图标集数据。 |
-| [Index](../../aspose.cells/conditionalformattingicon/index) { get; set; } | 获取和设置图标在图标集中的索引。 |
-| [Type](../../aspose.cells/conditionalformattingicon/type) { get; set; } | 获取和设置图标集类型。 |
+| [Index](../../aspose.cells/conditionalformattingicon/index) { get; set; } | 获取并设置图标在图标集中的索引。 |
+| [Type](../../aspose.cells/conditionalformattingicon/type) { get; set; } | 获取并设置图标集类型。 |
 
 ## 方法
 

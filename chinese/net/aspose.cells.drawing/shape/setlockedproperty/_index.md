@@ -16,8 +16,8 @@ public void SetLockedProperty(ShapeLockType type, bool value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| type | ShapeLockType | 锁定的类型。 |
-| value | Boolean | 属性的值。 |
+| type | ShapeLockType | 锁定类型。 |
+| value | Boolean | 财产的价值。 |
 
 ### 例子
 

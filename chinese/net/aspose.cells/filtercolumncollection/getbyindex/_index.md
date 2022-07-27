@@ -1,14 +1,14 @@
 ---
 title: GetByIndex
 second_title: Aspose.Cells for .NET API 参考
-description: 从集合中返回单个 Filter 对象
+description: 从集合中返回单个过滤器对象
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/filtercolumncollection/getbyindex/
 ---
 ## FilterColumnCollection.GetByIndex method
 
-从集合中返回单个 Filter 对象。
+从集合中返回单个过滤器对象。
 
 ```csharp
 public FilterColumn GetByIndex(int index)

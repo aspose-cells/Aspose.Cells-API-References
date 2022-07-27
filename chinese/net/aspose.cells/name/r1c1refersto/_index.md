@@ -1,14 +1,14 @@
 ---
 title: R1C1RefersTo
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置Nameaspose.cells/name的 R1C1 引用
+description: 获取或设置 R1C1 引用Nameaspose.cells/name.
 type: docs
 weight: 50
 url: /zh/net/aspose.cells/name/r1c1refersto/
 ---
 ## Name.R1C1RefersTo property
 
-获取或设置[`Name`](../../name)的 R1C1 引用。
+获取或设置 R1C1 引用[`Name`](../../name).
 
 ```csharp
 public string R1C1RefersTo { get; set; }

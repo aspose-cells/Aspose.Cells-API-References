@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет гиперссылку на указанную ячейку или диапазон ячеек.
+description: Добавляет гиперссылку к указанной ячейке или диапазону ячеек.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/hyperlinkcollection/add/
 ---
 ## Add(int, int, int, int, string) {#add}
 
-Добавляет гиперссылку на указанную ячейку или диапазон ячеек.
+Добавляет гиперссылку к указанной ячейке или диапазону ячеек.
 
 ```csharp
 public int Add(int firstRow, int firstColumn, int totalRows, int totalColumns, string address)
@@ -24,24 +24,24 @@ public int Add(int firstRow, int firstColumn, int totalRows, int totalColumns, s
 
 ### Возвращаемое значение
 
-[`Hyperlink`](../../hyperlink)индекс объекта.
+[`Hyperlink`](../../hyperlink) индекс объекта.
 
 ### Примеры
 
 ```csharp
 [C#]
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook excel = new Workbook();
 Worksheet worksheet = excel.Worksheets[0];
-worksheet.Hyperlinks.Add("A4", 1, 1, "http:  //www.aspose.com");
+worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com");
 worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls");
 
 [Visual Basic]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim excel As Workbook = New Workbook()
 Dim worksheet as Worksheet = excel.Worksheets(0)
-worksheet.Hyperlinks.Add("A4", 1, 1, "http:  //www.aspose.com")
+worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com")
 worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls")
 
 ```
@@ -56,7 +56,7 @@ worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls")
 
 ## Add(string, int, int, string) {#add_1}
 
-Добавляет гиперссылку на указанную ячейку или диапазон ячеек.
+Добавляет гиперссылку к указанной ячейке или диапазону ячеек.
 
 ```csharp
 public int Add(string cellName, int totalRows, int totalColumns, string address)
@@ -71,7 +71,7 @@ public int Add(string cellName, int totalRows, int totalColumns, string address)
 
 ### Возвращаемое значение
 
-[`Hyperlink`](../../hyperlink)индекс объекта.
+[`Hyperlink`](../../hyperlink) индекс объекта.
 
 ### Смотрите также
 
@@ -83,7 +83,7 @@ public int Add(string cellName, int totalRows, int totalColumns, string address)
 
 ## Add(string, string, string, string, string) {#add_2}
 
-Добавляет гиперссылку на указанную ячейку или диапазон ячеек.
+Добавляет гиперссылку к указанной ячейке или диапазону ячеек.
 
 ```csharp
 public int Add(string startCellName, string endCellName, string address, string textToDisplay, 
@@ -95,12 +95,12 @@ public int Add(string startCellName, string endCellName, string address, string 
 | startCellName | String | Верхняя левая ячейка диапазона. |
 | endCellName | String | Нижняя правая ячейка диапазона. |
 | address | String | Адрес гиперссылки. |
-| textToDisplay | String | Текст, отображаемый для указанной гиперссылки. |
+| textToDisplay | String | Текст, который будет отображаться для указанной гиперссылки. |
 | screenTip | String | Текст всплывающей подсказки для указанной гиперссылки. |
 
 ### Возвращаемое значение
 
-[`Hyperlink`](../../hyperlink)индекс объекта.
+[`Hyperlink`](../../hyperlink) индекс объекта.
 
 ### Смотрите также
 

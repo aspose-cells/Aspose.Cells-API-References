@@ -1,14 +1,14 @@
 ---
 title: ShowMarkerTTop
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает форматируются ли полосы ошибок с Т-образной вершиной.
+description: Указывает форматируются ли полосы ошибок с помощью T-top.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.charts/errorbar/showmarkerttop/
 ---
 ## ErrorBar.ShowMarkerTTop property
 
-Указывает, форматируются ли полосы ошибок с Т-образной вершиной.
+Указывает, форматируются ли полосы ошибок с помощью T-top.
 
 ```csharp
 public bool ShowMarkerTTop { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: GridPivotTableCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装PivotTable对象的集合
+description: 封装了一个集合PivotTable对象.
 type: docs
 weight: 420
 url: /zh/net/aspose.cells.gridweb.data/gridpivottablecollection/
 ---
 ## GridPivotTableCollection class
 
-封装PivotTable对象的集合。
+封装了一个集合PivotTable对象.
 
 ```csharp
 public class GridPivotTableCollection
@@ -19,16 +19,16 @@ public class GridPivotTableCollection
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.cells.gridweb.data/gridpivottablecollection/count) { get; } |  |
-| [Item](../../aspose.cells.gridweb.data/gridpivottablecollection/item) { get; } | 获取指定索引处的PivotTable元素。 |
+| [Item](../../aspose.cells.gridweb.data/gridpivottablecollection/item) { get; } | 获取PivotTable指定索引处的元素。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells.gridweb.data/gridpivottablecollection/add#add_3)(string, string, string) | 将新的数据透视表缓存添加到 PivotCaches 集合。 |
-| [Add](../../aspose.cells.gridweb.data/gridpivottablecollection/add#add)(GridWorksheet, GridCellArea, string, string) | 将新的数据透视表缓存添加到 PivotCaches 集合。 |
-| [Add](../../aspose.cells.gridweb.data/gridpivottablecollection/add#add_2)(string, GridCellArea, string, string) | 将新的数据透视表缓存添加到 PivotCaches 集合。 |
-| [Add](../../aspose.cells.gridweb.data/gridpivottablecollection/add#add_1)(string, GridCellArea, int, int, string) | 将新的数据透视表缓存添加到 PivotCaches 集合。 |
+| [Add](../../aspose.cells.gridweb.data/gridpivottablecollection/add#add_3)(string, string, string) | 将新的数据透视表缓存添加到 PivotCaches 集合中。 |
+| [Add](../../aspose.cells.gridweb.data/gridpivottablecollection/add#add)(GridWorksheet, GridCellArea, string, string) | 将新的数据透视表缓存添加到 PivotCaches 集合中。 |
+| [Add](../../aspose.cells.gridweb.data/gridpivottablecollection/add#add_2)(string, GridCellArea, string, string) | 将新的数据透视表缓存添加到 PivotCaches 集合中。 |
+| [Add](../../aspose.cells.gridweb.data/gridpivottablecollection/add#add_1)(string, GridCellArea, int, int, string) | 将新的数据透视表缓存添加到 PivotCaches 集合中。 |
 | [Clear](../../aspose.cells.gridweb.data/gridpivottablecollection/clear)() | 清除所有数据透视表。 |
 | [RemoveAt](../../aspose.cells.gridweb.data/gridpivottablecollection/removeat)(int) | 删除指定索引处的数据透视表。 |
 

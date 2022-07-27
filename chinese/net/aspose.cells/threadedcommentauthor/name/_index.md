@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置名称
+description: 获取并设置名称
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/threadedcommentauthor/name/
 ---
 ## ThreadedCommentAuthor.Name property
 
-获取和设置名称。
+获取并设置名称。
 
 ```csharp
 public string Name { get; set; }

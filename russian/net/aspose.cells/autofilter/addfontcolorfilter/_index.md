@@ -16,8 +16,8 @@ public void AddFontColorFilter(int fieldIndex, CellsColor color)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldIndex | Int32 | Целочисленное смещение поля, на котором вы хотите основывать фильтр (слева списка; крайнее левое поле — поле 0). |
-| color | CellsColor | Объект[`CellsColor`](../../cellscolor). |
+| fieldIndex | Int32 | Целочисленное смещение поля, на котором вы хотите основывать фильтр (слева в списке; крайнее левое поле — это поле 0). |
+| color | CellsColor | [`CellsColor`](../../cellscolor) объект. |
 
 ### Смотрите также
 

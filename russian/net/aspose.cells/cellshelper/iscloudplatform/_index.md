@@ -1,14 +1,14 @@
 ---
 title: IsCloudPlatform
 second_title: Справочник по Aspose.Cells для .NET API
-description: Установите для этого свойства значение True при работе на облачной платформе такой какAzure AWSLambda и т. д.
+description: Установите для этого свойства значение True при работе на облачной платформе такой как Azure AWSLambda и т. д.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/cellshelper/iscloudplatform/
 ---
 ## CellsHelper.IsCloudPlatform property
 
-Установите для этого свойства значение True при работе на облачной платформе, такой как:Azure, AWSLambda и т. д.,
+Установите для этого свойства значение True при работе на облачной платформе, такой как: Azure, AWSLambda и т. д.,
 
 ```csharp
 public static bool IsCloudPlatform { get; set; }

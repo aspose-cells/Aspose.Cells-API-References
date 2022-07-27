@@ -1,14 +1,14 @@
 ---
 title: ParamCount
 second_title: Aspose.Cells for .NET API 参考
-description: 获取参数个数
+description: 获取参数的计数
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.gridweb.data/gridcalculationdata/paramcount/
 ---
 ## GridCalculationData.ParamCount property
 
-获取参数个数
+获取参数的计数
 
 ```csharp
 public int ParamCount { get; }

@@ -19,7 +19,7 @@ public class RowColumnEventArgs : EventArgs
 | 姓名 | 描述 |
 | --- | --- |
 | [Argument](../../aspose.cells.griddesktop/rowcolumneventargs/argument) { get; } | 事件的参数。 |
-| [IsCancel](../../aspose.cells.griddesktop/rowcolumneventargs/iscancel) { get; } | 我们是否应该取消操作。 |
+| [IsCancel](../../aspose.cells.griddesktop/rowcolumneventargs/iscancel) { get; } | 我们要不要取消操作。 |
 | [Num](../../aspose.cells.griddesktop/rowcolumneventargs/num) { get; } | 行号或列号，从零开始。 |
 | [Type](../../aspose.cells.griddesktop/rowcolumneventargs/type) { get; } | 行或列类型。 |
 

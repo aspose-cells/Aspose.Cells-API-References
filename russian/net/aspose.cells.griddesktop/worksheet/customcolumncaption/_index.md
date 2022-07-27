@@ -1,14 +1,14 @@
 ---
 title: CustomColumnCaption
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает заголовок пользовательского столбца для рабочего листа.
+description: Получает или задает пользовательский заголовок столбца для рабочего листа.
 type: docs
 weight: 100
 url: /ru/net/aspose.cells.griddesktop/worksheet/customcolumncaption/
 ---
 ## Worksheet.CustomColumnCaption property
 
-Получает или задает заголовок пользовательского столбца для рабочего листа.
+Получает или задает пользовательский заголовок столбца для рабочего листа.
 
 ```csharp
 public ICustomColumnCaption CustomColumnCaption { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: IsMultiLine
 second_title: Aspose.Cells for .NET API 参考
-description: 指示控件是否可以显示多行文本
+description: 表示控件是否可以显示多行文本
 type: docs
 weight: 120
 url: /zh/net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/ismultiline/
 ---
 ## TextBoxActiveXControl.IsMultiLine property
 
-指示控件是否可以显示多行文本。
+表示控件是否可以显示多行文本。
 
 ```csharp
 public bool IsMultiLine { get; set; }

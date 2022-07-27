@@ -1,14 +1,14 @@
 ---
 title: Pictures
 second_title: Aspose.Cells for .NET API 参考
-description: 获取Pictureaspose.cells.drawing/picture集合
+description: 得到一个Pictureaspose.cells.drawing/picture集合.
 type: docs
 weight: 360
 url: /zh/net/aspose.cells/worksheet/pictures/
 ---
 ## Worksheet.Pictures property
 
-获取[`Picture`](../../../aspose.cells.drawing/picture)集合。
+得到一个[`Picture`](../../../aspose.cells.drawing/picture)集合.
 
 ```csharp
 public PictureCollection Pictures { get; }

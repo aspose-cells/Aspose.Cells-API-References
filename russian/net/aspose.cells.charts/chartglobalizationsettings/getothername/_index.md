@@ -1,14 +1,14 @@
 ---
 title: GetOtherName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает имя Других меток для Диаграммы.
+description: Получает имя Других меток для Chart.
 type: docs
 weight: 80
 url: /ru/net/aspose.cells.charts/chartglobalizationsettings/getothername/
 ---
 ## ChartGlobalizationSettings.GetOtherName method
 
-Получает имя "Других" меток для Диаграммы.
+Получает имя «Других» меток для Chart.
 
 ```csharp
 public virtual string GetOtherName()

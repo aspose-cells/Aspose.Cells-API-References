@@ -1,14 +1,14 @@
 ---
 title: AddShapeInChartByScale
 second_title: Aspose.Cells for .NET API 参考
-description: 向图表添加形状所有单位都是图表区域的百分比
+description: 向图表添加形状所有单位都是图表区域的百分比比例
 type: docs
 weight: 280
 url: /zh/net/aspose.cells.drawing/shapecollection/addshapeinchartbyscale/
 ---
 ## AddShapeInChartByScale(MsoDrawingType, PlacementType, double, double, double, double) {#addshapeinchartbyscale}
 
-向图表添加形状。所有单位都是图表区域的百分比。
+向图表添加形状。所有单位都是图表区域的百分比比例。
 
 ```csharp
 public Shape AddShapeInChartByScale(MsoDrawingType type, PlacementType placement, double left, 
@@ -52,7 +52,7 @@ public Shape AddShapeInChartByScale(MsoDrawingType type, PlacementType placement
 | top | Double | 单位是图表区域高度的百分比。 |
 | right | Double | 单位是图表区域宽度的百分比。 |
 | bottom | Double | 单位是图表区域高度的百分比。 |
-| imageData | Byte[] | 如果 shape 不是图片或 ole 对象，则 imageData 应为 null。 |
+| imageData | Byte[] | 如果形状不是图片或 ole 对象，则 imageData 应为空。 |
 
 ### 也可以看看
 

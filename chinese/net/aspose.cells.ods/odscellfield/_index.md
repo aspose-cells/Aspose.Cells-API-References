@@ -20,7 +20,7 @@ public class OdsCellField
 | --- | --- |
 | [Column](../../aspose.cells.ods/odscellfield/column) { get; set; } | 获取并设置单元格的列索引。 |
 | [CustomFormat](../../aspose.cells.ods/odscellfield/customformat) { get; set; } | 表示字段值的自定义格式。 |
-| [FieldType](../../aspose.cells.ods/odscellfield/fieldtype) { get; set; } | 获取和设置字段的类型。 |
+| [FieldType](../../aspose.cells.ods/odscellfield/fieldtype) { get; set; } | 获取并设置字段的类型。 |
 | [Row](../../aspose.cells.ods/odscellfield/row) { get; set; } | 获取并设置单元格的行索引。 |
 
 ### 也可以看看

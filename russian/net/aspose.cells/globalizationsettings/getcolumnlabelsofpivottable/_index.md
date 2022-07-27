@@ -16,7 +16,7 @@ public virtual string GetColumnLabelsOfPivotTable()
 
 ### Возвращаемое значение
 
-Имя меток столбцов
+Название меток столбца
 
 ### Смотрите также
 

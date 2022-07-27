@@ -1,14 +1,14 @@
 ---
 title: PageScale
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает рассчитанный масштаб страницы листа. Возвращает установленный масштаб еслиZoomaspose.cells/pagesetup/zoomустановлен. В противном случае возвращает рассчитанный масштаб в соответствии сFitToPagesWideaspose.cells/pagesetup/fittopageswideиFitToPagesTallaspose.cells/pagesetup/fittopagestall.
+description: Получает рассчитанный масштаб страницы листа. Возвращает установленный масштаб еслиZoomaspose.cells/pagesetup/zoom установлен. В противном случае возвращает рассчитанный масштаб в соответствии сFitToPagesWideaspose.cells/pagesetup/fittopageswide а такжеFitToPagesTallaspose.cells/pagesetup/fittopagestall .
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.rendering/sheetrender/pagescale/
 ---
 ## SheetRender.PageScale property
 
-Получает рассчитанный масштаб страницы листа. Возвращает установленный масштаб, если[`Zoom`](../../../aspose.cells/pagesetup/zoom)установлен. В противном случае возвращает рассчитанный масштаб в соответствии с[`FitToPagesWide`](../../../aspose.cells/pagesetup/fittopageswide)и[`FitToPagesTall`](../../../aspose.cells/pagesetup/fittopagestall).
+Получает рассчитанный масштаб страницы листа. Возвращает установленный масштаб, если[`Zoom`](../../../aspose.cells/pagesetup/zoom) установлен. В противном случае возвращает рассчитанный масштаб в соответствии с[`FitToPagesWide`](../../../aspose.cells/pagesetup/fittopageswide) а также[`FitToPagesTall`](../../../aspose.cells/pagesetup/fittopagestall) .
 
 ```csharp
 public double PageScale { get; }
@@ -21,7 +21,7 @@ Workbook wb = new Workbook("Book1.xlsx");
 
 SheetRender sheetRender = new SheetRender(wb.Worksheets[0], new ImageOrPrintOptions());
 
-  //Получает рассчитанный масштаб страницы листа.
+//Получает рассчитанный масштаб страницы листа.
 double pageScale = sheetRender.PageScale;
 ```
 

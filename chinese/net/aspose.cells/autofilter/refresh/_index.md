@@ -36,11 +36,11 @@ public int[] Refresh(bool hideRows)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| hideRows | Boolean | 如果为真，则隐藏过滤的行。 |
+| hideRows | Boolean | 如果为真，隐藏过滤的行。 |
 
 ### 返回值
 
-返回所有隐藏行索引。
+返回所有隐藏行的索引。
 
 ### 也可以看看
 

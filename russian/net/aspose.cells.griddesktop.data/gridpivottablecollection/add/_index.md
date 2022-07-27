@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет новый кэш сводной таблицы в коллекцию сводных кешей.
+description: Добавляет новый кэш сводной таблицы в коллекцию PivotCaches.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.griddesktop.data/gridpivottablecollection/add/
 ---
 ## Add(string, string, string) {#add_3}
 
-Добавляет новый кэш сводной таблицы в коллекцию сводных кешей.
+Добавляет новый кэш сводной таблицы в коллекцию PivotCaches.
 
 ```csharp
 public int Add(string sourceData, string destCellName, string tableName)
@@ -16,13 +16,13 @@ public int Add(string sourceData, string destCellName, string tableName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sourceData | String | Диапазон ячеек данных для новой сводной таблицы. Пример:Sheet1!A1:C8 |
+| sourceData | String | Диапазон ячеек данных для новой сводной таблицы. Пример: Sheet1!A1:C8. |
 | destCellName | String | Ячейка в верхнем левом углу диапазона назначения отчета сводной таблицы. |
 | tableName | String | Имя нового отчета сводной таблицы. |
 
 ### Возвращаемое значение
 
-Новый добавленный индекс кэша.
+Новый добавленный кеш-индекс.
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public int Add(string sourceData, string destCellName, string tableName)
 
 ## Add(Worksheet, GridCellArea, string, string) {#add}
 
-Добавляет новый кэш сводной таблицы в коллекцию сводных кешей.
+Добавляет новый кэш сводной таблицы в коллекцию PivotCaches.
 
 ```csharp
 public int Add(Worksheet sourceSheet, GridCellArea sourceArea, string destCellName, 
@@ -51,7 +51,7 @@ public int Add(Worksheet sourceSheet, GridCellArea sourceArea, string destCellNa
 
 ### Возвращаемое значение
 
-Новый добавленный индекс кэша.
+Новый добавленный кеш-индекс.
 
 ### Смотрите также
 
@@ -65,7 +65,7 @@ public int Add(Worksheet sourceSheet, GridCellArea sourceArea, string destCellNa
 
 ## Add(string, GridCellArea, int, int, string) {#add_1}
 
-Добавляет новый кэш сводной таблицы в коллекцию сводных кешей.
+Добавляет новый кэш сводной таблицы в коллекцию PivotCaches.
 
 ```csharp
 public int Add(string worksheetname, GridCellArea sourceArea, int destRow, int destCol, 
@@ -74,7 +74,7 @@ public int Add(string worksheetname, GridCellArea sourceArea, int destRow, int d
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| worksheetname | String | Имя исходного листа. |
+| worksheetname | String | Имя исходного рабочего листа. |
 | sourceArea | GridCellArea | Область исходного рабочего листа. |
 | destRow | Int32 | Строка ячейки в верхнем левом углу диапазона назначения отчета сводной таблицы. |
 | destCol | Int32 | Столбец ячейки в верхнем левом углу диапазона назначения отчета сводной таблицы. |
@@ -82,7 +82,7 @@ public int Add(string worksheetname, GridCellArea sourceArea, int destRow, int d
 
 ### Возвращаемое значение
 
-Новый добавленный индекс кэша.
+Новый добавленный кеш-индекс.
 
 ### Смотрите также
 
@@ -95,7 +95,7 @@ public int Add(string worksheetname, GridCellArea sourceArea, int destRow, int d
 
 ## Add(string, GridCellArea, string, string) {#add_2}
 
-Добавляет новый кэш сводной таблицы в коллекцию сводных кешей.
+Добавляет новый кэш сводной таблицы в коллекцию PivotCaches.
 
 ```csharp
 public int Add(string worksheetname, GridCellArea sourceArea, string destCellName, string tableName)
@@ -103,14 +103,14 @@ public int Add(string worksheetname, GridCellArea sourceArea, string destCellNam
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| worksheetname | String | Имя исходного листа. |
+| worksheetname | String | Имя исходного рабочего листа. |
 | sourceArea | GridCellArea | Область исходного рабочего листа. |
 | destCellName | String | Ячейка в верхнем левом углу диапазона назначения отчета сводной таблицы. |
 | tableName | String | Имя нового отчета сводной таблицы. |
 
 ### Возвращаемое значение
 
-Новый добавленный индекс кэша.
+Новый добавленный кеш-индекс.
 
 ### Смотрите также
 

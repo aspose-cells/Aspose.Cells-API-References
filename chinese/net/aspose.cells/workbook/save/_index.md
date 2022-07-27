@@ -38,7 +38,7 @@ public void Save(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| 文件名 | String |  |
+| fileName | String |  |
 
 ### 也可以看看
 

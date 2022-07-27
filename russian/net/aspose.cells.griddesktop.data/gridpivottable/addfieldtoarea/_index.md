@@ -16,7 +16,7 @@ public int AddFieldToArea(GridPivotFieldType fieldType, int baseFieldIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldType | GridPivotFieldType | Тип области полей. |
+| fieldType | GridPivotFieldType | Тип области поля. |
 | baseFieldIndex | Int32 | Индекс поля в базовых полях. |
 
 ### Возвращаемое значение
@@ -42,12 +42,12 @@ public int AddFieldToArea(GridPivotFieldType fieldType, string fieldName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldType | GridPivotFieldType | Тип области полей. |
+| fieldType | GridPivotFieldType | Тип области поля. |
 | fieldName | String | Имя в базовых полях. |
 
 ### Возвращаемое значение
 
-Позиция поля в определенных полях. Если нет поля с таким именем, вернуть -1.
+Позиция поля в определенных полях. Если поля с таким именем нет, вернуть -1.
 
 ### Смотрите также
 

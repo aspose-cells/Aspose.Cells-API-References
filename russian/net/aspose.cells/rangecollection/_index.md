@@ -1,14 +1,14 @@
 ---
 title: RangeCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует набор объектовRange./range.
+description: Инкапсулирует наборRange./range объекты.
 type: docs
 weight: 5040
 url: /ru/net/aspose.cells/rangecollection/
 ---
 ## RangeCollection class
 
-Инкапсулирует набор объектов[`Range`](../range).
+Инкапсулирует набор[`Range`](../range) объекты.
 
 ```csharp
 public class RangeCollection : CollectionBase<Range>
@@ -20,14 +20,14 @@ public class RangeCollection : CollectionBase<Range>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/rangecollection/item) { get; } | Получает элемент[`Range`](../range)по указанному индексу. |
+| [Item](../../aspose.cells/rangecollection/item) { get; } | Получает[`Range`](../range) элемент по указанному индексу. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells/rangecollection/add)(Range) | Добавляет элемент[`Range`](../range)в коллекцию. |
+| [Add](../../aspose.cells/rangecollection/add)(Range) | Добавляет[`Range`](../range) предмет в коллекцию. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Range) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Range, IComparer&lt;Range&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Range, IComparer&lt;Range&gt;) |  |

@@ -1,14 +1,14 @@
 ---
 title: WorksheetCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 收集代表工作表中各个行的对象
+description: 收集表示工作表中各个行的对象
 type: docs
 weight: 1090
 url: /zh/net/aspose.cells.griddesktop/worksheetcollection/
 ---
 ## WorksheetCollection class
 
-收集代表工作表中各个行的对象。
+收集表示工作表中各个行的对象。
 
 ```csharp
 public class WorksheetCollection
@@ -21,7 +21,7 @@ public class WorksheetCollection
 | [ActiveSheetIndex](../../aspose.cells.griddesktop/worksheetcollection/activesheetindex) { get; set; } |  |
 | [Count](../../aspose.cells.griddesktop/worksheetcollection/count) { get; } |  |
 | [DefaultFontName](../../aspose.cells.griddesktop/worksheetcollection/defaultfontname) { get; set; } | 获取或设置控件的默认字体名称。 |
-| [Item](../../aspose.cells.griddesktop/worksheetcollection/item) { get; } | 获取指定索引处的[`Worksheet`](../worksheet)元素。 (2 indexers) |
+| [Item](../../aspose.cells.griddesktop/worksheetcollection/item) { get; } | 获取[`Worksheet`](../worksheet)指定索引处的元素。 (2 indexers) |
 | [Names](../../aspose.cells.griddesktop/worksheetcollection/names) { get; } | 获取电子表格中所有 Name 对象的集合。 |
 
 ## 方法
@@ -34,12 +34,12 @@ public class WorksheetCollection
 | [AddCopy](../../aspose.cells.griddesktop/worksheetcollection/addcopy#addcopy_1)(string) | 将工作表添加到集合并从现有工作表复制数据。 |
 | [CalculateFormula](../../aspose.cells.griddesktop/worksheetcollection/calculateformula)() | 计算公式的结果。 |
 | [Clear](../../aspose.cells.griddesktop/worksheetcollection/clear)() | 清除所有工作表。 |
-| [GetEnumerator](../../aspose.cells.griddesktop/worksheetcollection/getenumerator)() | 获取行枚举器 |
+| [GetEnumerator](../../aspose.cells.griddesktop/worksheetcollection/getenumerator)() | 获取行 enumerator |
 | [IndexOf](../../aspose.cells.griddesktop/worksheetcollection/indexof)(Worksheet) | 搜索指定的工作表并返回整个 WorksheetCollection 中第一次出现的从零开始的索引。 |
 | [Insert](../../aspose.cells.griddesktop/worksheetcollection/insert#insert_1)(int) | 在指定索引处将工作表插入到 WorksheetCollection 中。 此工作表行数为 256，列数为 32。 工作表名称将由 Add() 方法生成。 |
 | [Insert](../../aspose.cells.griddesktop/worksheetcollection/insert#insert)(int, string) |  |
 | [MoveTo](../../aspose.cells.griddesktop/worksheetcollection/moveto)(int, int) |  |
-| [Remove](../../aspose.cells.griddesktop/worksheetcollection/remove)(int) | 删除 WorksheetCollection 指定索引处的工作表。 如果特定工作表是最后一个工作表，则在删除工作表后，会将新工作表添加到 WorksheetCollection。 |
+| [Remove](../../aspose.cells.griddesktop/worksheetcollection/remove)(int) | 删除 WorksheetCollection 指定索引处的工作表。 如果特定工作表是最后一个工作表，则在删除工作表后，将新工作表添加到工作表集合中。 |
 | [RemoveAt](../../aspose.cells.griddesktop/worksheetcollection/removeat#removeat)(int) | 删除指定索引处的元素。 |
 | [RemoveAt](../../aspose.cells.griddesktop/worksheetcollection/removeat#removeat_1)(string) | 移除指定名称的元素。 |
 | [SetVisible](../../aspose.cells.griddesktop/worksheetcollection/setvisible)(string, bool) | 设置可见选项。 |

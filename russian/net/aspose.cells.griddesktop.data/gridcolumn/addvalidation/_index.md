@@ -23,7 +23,7 @@ public void AddValidation(ICustomValidation val)
 
 ## AddValidation(bool, string) {#addvalidation_1}
 
-Добавляет проверку столбца.
+Добавляет проверку в столбец.
 
 ```csharp
 public void AddValidation(bool isRequired, string regEx)

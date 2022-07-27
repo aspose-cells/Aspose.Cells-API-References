@@ -1,14 +1,14 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Cells for .NET API 参考
-description: 总是正确的
+description: 始终正确
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.gridweb/bindcolumncollection/isreadonly/
 ---
 ## BindColumnCollection.IsReadOnly property
 
-总是正确的。
+始终正确。
 
 ```csharp
 public bool IsReadOnly { get; }

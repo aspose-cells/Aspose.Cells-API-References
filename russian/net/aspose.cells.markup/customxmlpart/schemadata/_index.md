@@ -1,14 +1,14 @@
 ---
 title: SchemaData
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает XML-содержимое этой части хранения данных пользовательской схемы XML.
+description: Получает или задает XML-содержимое этой части хранилища данных пользовательской схемы XML.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.markup/customxmlpart/schemadata/
 ---
 ## CustomXmlPart.SchemaData property
 
-Получает или задает XML-содержимое этой части хранения данных пользовательской схемы XML.
+Получает или задает XML-содержимое этой части хранилища данных пользовательской схемы XML.
 
 ```csharp
 public byte[] SchemaData { get; set; }

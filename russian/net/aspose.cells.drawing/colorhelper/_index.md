@@ -18,7 +18,7 @@ public class ColorHelper
 
 | Имя | Описание |
 | --- | --- |
-| static [FromOleColor](../../aspose.cells.drawing/colorhelper/fromolecolor)(int) | Преобразование OLE_COLOR. |
+| static [FromOleColor](../../aspose.cells.drawing/colorhelper/fromolecolor)(int) | Преобразовать OLE_COLOR. |
 | static [ToOleColor](../../aspose.cells.drawing/colorhelper/toolecolor)(Color, Workbook) | Преобразование цвета в OLE_COLOR |
 
 ### Смотрите также

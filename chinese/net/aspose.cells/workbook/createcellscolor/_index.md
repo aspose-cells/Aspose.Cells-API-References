@@ -1,14 +1,14 @@
 ---
 title: CreateCellsColor
 second_title: Aspose.Cells for .NET API 参考
-description: 创建CellsColoraspose.cells/cellscolor对象
+description: 创建一个CellsColoraspose.cells/cellscolor对象.
 type: docs
 weight: 360
 url: /zh/net/aspose.cells/workbook/createcellscolor/
 ---
 ## Workbook.CreateCellsColor method
 
-创建[`CellsColor`](../../cellscolor)对象。
+创建一个[`CellsColor`](../../cellscolor)对象.
 
 ```csharp
 public CellsColor CreateCellsColor()
@@ -16,7 +16,7 @@ public CellsColor CreateCellsColor()
 
 ### 返回值
 
-返回[`CellsColor`](../../cellscolor)对象。
+返回一个[`CellsColor`](../../cellscolor)目的。
 
 ### 也可以看看
 

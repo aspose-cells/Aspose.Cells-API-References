@@ -1,14 +1,14 @@
 ---
 title: DragToColumn
 second_title: Aspose.Cells for .NET API 参考
-description: 表示指定字段是否可以拖到列位置 默认值为真
+description: 表示是否可以将指定字段拖到列位置 默认值为true
 type: docs
 weight: 110
 url: /zh/net/aspose.cells.pivot/pivotfield/dragtocolumn/
 ---
 ## PivotField.DragToColumn property
 
-表示指定字段是否可以拖到列位置。 默认值为真。
+表示是否可以将指定字段拖到列位置。 默认值为true。
 
 ```csharp
 public bool DragToColumn { get; set; }

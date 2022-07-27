@@ -1,14 +1,14 @@
 ---
 title: IdName
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置 id 列的名称
+description: 获取并设置id列的名称
 type: docs
 weight: 100
 url: /zh/net/aspose.cells.saving/sqlscriptsaveoptions/idname/
 ---
 ## SqlScriptSaveOptions.IdName property
 
-获取和设置 id 列的名称。
+获取并设置id列的名称。
 
 ```csharp
 public string IdName { get; set; }
@@ -16,7 +16,7 @@ public string IdName { get; set; }
 
 ### 评论
 
-如果设置了此属性，则将插入具有自动递增 int 值的列。
+如果设置了这个属性，将插入一个具有自动增量int值的列。
 
 ### 也可以看看
 

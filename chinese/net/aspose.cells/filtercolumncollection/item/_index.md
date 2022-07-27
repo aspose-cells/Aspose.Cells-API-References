@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 在特殊字段中获取FilterColumnaspose.cells/filtercolumn对象
+description: 获取FilterColumnaspose.cells/filtercolumn特殊领域的对象.
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/filtercolumncollection/item/
 ---
 ## FilterColumnCollection indexer
 
-在特殊字段中获取[`FilterColumn`](../../filtercolumn)对象。
+获取[`FilterColumn`](../../filtercolumn)特殊领域的对象.
 
 ```csharp
 public FilterColumn this[int fieldIndex] { get; }
@@ -16,11 +16,11 @@ public FilterColumn this[int fieldIndex] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| fieldIndex | 要作为过滤器基础的字段的整数偏移量 （从左侧列表的；最左边的字段是字段 0)。 |
+| fieldIndex | 您要作为过滤器基础的字段的整数偏移量 （从列表的左侧开始；最左侧的字段是字段0）。 |
 
 ### 返回值
 
-返回[`FilterColumn`](../../filtercolumn)对象。
+返回[`FilterColumn`](../../filtercolumn)对象.
 
 ### 也可以看看
 

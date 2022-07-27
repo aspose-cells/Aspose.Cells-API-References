@@ -1,14 +1,14 @@
 ---
 title: WebExtensionStoreType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示网络扩展的商店类型
+description: 代表网络扩展的商店类型
 type: docs
 weight: 6450
 url: /zh/net/aspose.cells.webextensions/webextensionstoretype/
 ---
 ## WebExtensionStoreType enumeration
 
-表示网络扩展的商店类型。
+代表网络扩展的商店类型。
 
 ```csharp
 public enum WebExtensionStoreType
@@ -18,7 +18,7 @@ public enum WebExtensionStoreType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| OMEX | `0` | 指定商店类型是 Office.com。 |
+| OMEX | `0` | 指定商店类型为 Office.com。 |
 | SPCatalog | `1` | 指定商店类型是 SharePoint 公司目录。 |
 | SPApp | `2` | 指定商店类型是 SharePoint Web 应用程序。 |
 | Exchange | `3` | 指定存储类型是 Exchange 服务器。 |

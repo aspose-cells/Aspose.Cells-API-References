@@ -18,10 +18,10 @@ public enum ControlSpecialEffectType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Flat | `0` | Плоский |
-| Raised | `1` | Поднято |
+| Flat | `0` | Flat |
+| Raised | `1` | Поднятый |
 | Sunken | `2` | Затонувший |
-| Etched | `3` | Травление |
+| Etched | `3` | Гравированный |
 | Bump | `6` | Bump |
 
 ### Смотрите также

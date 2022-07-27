@@ -1,14 +1,14 @@
 ---
 title: Column
 second_title: Aspose.Cells for .NET API 参考
-description: 获取包含注释的列索引
+description: 获取包含评论的列索引
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.revisions/revisioncellcomment/column/
 ---
 ## RevisionCellComment.Column property
 
-获取包含注释的列索引。
+获取包含评论的列索引。
 
 ```csharp
 public int Column { get; }

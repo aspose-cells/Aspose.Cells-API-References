@@ -1,14 +1,14 @@
 ---
 title: FindOptions
 second_title: Aspose.Cells for .NET API 参考
-description: 表示查找选项
+description: 代表查找选项
 type: docs
 weight: 3470
 url: /zh/net/aspose.cells/findoptions/
 ---
 ## FindOptions class
 
-表示查找选项。
+代表查找选项。
 
 ```csharp
 public class FindOptions
@@ -29,11 +29,11 @@ public class FindOptions
 | [IsRangeSet](../../aspose.cells/findoptions/israngeset) { get; } | 表示是否设置了搜索范围。 |
 | [LookAtType](../../aspose.cells/findoptions/lookattype) { get; set; } | 看类型。 |
 | [LookInType](../../aspose.cells/findoptions/lookintype) { get; set; } | 查找类型。 |
-| [RegexKey](../../aspose.cells/findoptions/regexkey) { get; set; } | 表示搜索到的键是否是正则表达式。如果为真，则搜索到的键将被视为正则表达式。 |
+| [RegexKey](../../aspose.cells/findoptions/regexkey) { get; set; } | 表示搜索到的键是否是正则表达式。如果为真，则搜索到的键将被视为 regex. |
 | [SeachOrderByRows](../../aspose.cells/findoptions/seachorderbyrows) { get; set; } | 表示是按行还是按列搜索。 |
 | [SearchBackward](../../aspose.cells/findoptions/searchbackward) { get; set; } | 是否向后搜索单元格。 |
 | [Style](../../aspose.cells/findoptions/style) { get; set; } | 要搜索的格式。 |
-| [ValueTypeSensitive](../../aspose.cells/findoptions/valuetypesensitive) { get; set; } | 指示搜索的单元格值类型是否应与搜索的键相同。 |
+| [ValueTypeSensitive](../../aspose.cells/findoptions/valuetypesensitive) { get; set; } | 表示搜索到的单元格值类型是否应该与搜索到的键相同。 |
 
 ## 方法
 
@@ -48,33 +48,33 @@ public class FindOptions
 
 [C#]
 
- //实例化工作簿对象
+//实例化工作簿对象
 Workbook workbook = new Workbook("book1.xls");
 
- //获取Cells集合
+//获取单元格集合 
 Cells cells = workbook.Worksheets[0].Cells;
 
- //实例化 FindOptions Object
+//实例化 FindOptions 对象
 FindOptions findOptions = new FindOptions();
 
- //创建一个Cells Area
+//创建一个单元格区域
 CellArea ca = new CellArea();
 ca.StartRow = 8;
 ca.StartColumn = 2;
 ca.EndRow = 17;
 ca.EndColumn = 13;
 
- //为查找选项设置单元格区域
+//为查找选项设置单元格区域
 findOptions.SetRange(ca);
 
- //设置搜索属性
+//设置搜索属性
 findOptions.SearchBackward = false;
 
 findOptions.SeachOrderByRows = true;
 
 findOptions.LookInType = LookInType.Values;
 
- //找到值为0的单元格
+//查找值为0的单元格
 Cell cell = cells.Find(0, null, findOptions);
 
 [VB.NET]

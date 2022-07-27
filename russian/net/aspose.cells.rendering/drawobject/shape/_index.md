@@ -1,14 +1,14 @@
 ---
 title: Shape
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает объект Shape при рендеринге. Доступ ко всем свойствам фигуры.
+description: Указывает объект Shape при рендеринге. Можно получить доступ ко всем свойствам формы.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.rendering/drawobject/shape/
 ---
 ## DrawObject.Shape property
 
-Указывает объект Shape при рендеринге. Доступ ко всем свойствам фигуры.
+Указывает объект Shape при рендеринге. Можно получить доступ ко всем свойствам формы.
 
 ```csharp
 public Shape Shape { get; }

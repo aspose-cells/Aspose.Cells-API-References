@@ -3,7 +3,7 @@ title: RemoveDuplicates
 second_title: Справочник по Aspose.Cells для .NET API
 description: Удаляет повторяющиеся строки на листе.
 type: docs
-weight: 1190
+weight: 1200
 url: /ru/net/aspose.cells/cells/removeduplicates/
 ---
 ## RemoveDuplicates() {#removeduplicates}
@@ -32,7 +32,7 @@ public void RemoveDuplicates(int startRow, int startColumn, int endRow, int endC
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startRow | Int32 | Начальная строка. |
+| startRow | Int32 | Стартовый ряд. |
 | startColumn | Int32 | Начальный столбец |
 | endRow | Int32 | Индекс конечной строки. |
 | endColumn | Int32 | Индекс конечного столбца. |
@@ -56,12 +56,12 @@ public void RemoveDuplicates(int startRow, int startColumn, int endRow, int endC
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startRow | Int32 | Начальная строка. |
+| startRow | Int32 | Стартовый ряд. |
 | startColumn | Int32 | Начальный столбец |
 | endRow | Int32 | Индекс конечной строки. |
 | endColumn | Int32 | Индекс конечного столбца. |
 | hasHeaders | Boolean | Указывает, содержит ли диапазон заголовки. |
-| columnOffsets | Int32[] | Смещение столбца. |
+| columnOffsets | Int32[] | Столбец смещается. |
 
 ### Смотрите также
 

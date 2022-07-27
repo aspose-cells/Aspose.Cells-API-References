@@ -16,7 +16,7 @@ public GridCustomServerValidation ServerValidation;
 
 ### 评论
 
-使用 GridCustomServerValidation 属性来指定服务器端验证。
+使用 GridCustomServerValidation 属性指定服务器端验证。
 
 ### 也可以看看
 

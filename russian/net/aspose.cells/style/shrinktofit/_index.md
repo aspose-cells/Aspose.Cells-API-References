@@ -1,14 +1,14 @@
 ---
 title: ShrinkToFit
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает автоматически ли текст сжимается чтобы соответствовать доступной ширине столбца.
+description: Указывает сжимается ли текст автоматически чтобы соответствовать доступной ширине столбца.
 type: docs
 weight: 280
 url: /ru/net/aspose.cells/style/shrinktofit/
 ---
 ## Style.ShrinkToFit property
 
-Указывает, автоматически ли текст сжимается, чтобы соответствовать доступной ширине столбца.
+Указывает, сжимается ли текст автоматически, чтобы соответствовать доступной ширине столбца.
 
 ```csharp
 public bool ShrinkToFit { get; set; }

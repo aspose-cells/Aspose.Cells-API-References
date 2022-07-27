@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПолучаетTextTabStopaspose.cells.drawing.texts/texttabstopпо индексу.
+description: получаетTextTabStopaspose.cells.drawing.texts/texttabstop по индексу.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.drawing.texts/texttabstopcollection/item/
 ---
 ## TextTabStopCollection indexer
 
-Получает[`TextTabStop`](../../texttabstop)по индексу.
+получает[`TextTabStop`](../../texttabstop) по индексу.
 
 ```csharp
 public TextTabStop this[int index] { get; }

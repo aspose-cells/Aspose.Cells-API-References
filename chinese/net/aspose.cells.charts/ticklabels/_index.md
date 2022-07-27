@@ -19,16 +19,16 @@ public class TickLabels
 | 姓名 | 描述 |
 | --- | --- |
 | [AutoScaleFont](../../aspose.cells.charts/ticklabels/autoscalefont) { get; set; } | 如果对象中的文本在对象大小更改时更改字体大小，则为真。默认值是true。 |
-| [BackgroundMode](../../aspose.cells.charts/ticklabels/backgroundmode) { get; set; } | 获取和设置背景的显示方式 |
+| [BackgroundMode](../../aspose.cells.charts/ticklabels/backgroundmode) { get; set; } | 获取和设置背景的显示模式 |
 | [DirectionType](../../aspose.cells.charts/ticklabels/directiontype) { get; set; } | 获取和设置文本的方向。 |
 | [DisplayNumberFormat](../../aspose.cells.charts/ticklabels/displaynumberformat) { get; } | 获取和设置刻度标签的显示数字格式。 |
-| [Font](../../aspose.cells.charts/ticklabels/font) { get; } | 返回代表指定 TickLabels 对象字体的[`Font`](./font)对象。 |
-| [IsAutomaticRotation](../../aspose.cells.charts/ticklabels/isautomaticrotation) { get; set; } | 表示是否自动旋转角度 |
+| [Font](../../aspose.cells.charts/ticklabels/font) { get; } | 返回一个[`Font`](./font)表示指定 TickLabels 对象的字体的对象。 |
+| [IsAutomaticRotation](../../aspose.cells.charts/ticklabels/isautomaticrotation) { get; set; } | 表示旋转角度是否自动 |
 | [Number](../../aspose.cells.charts/ticklabels/number) { get; set; } | 表示 TickLabels 对象的格式编号。 |
 | [NumberFormat](../../aspose.cells.charts/ticklabels/numberformat) { get; set; } | 表示 TickLabels 对象的格式字符串。 |
-| [NumberFormatLinked](../../aspose.cells.charts/ticklabels/numberformatlinked) { get; set; } | 如果数字格式链接到单元格 则为真（以便在单元格中更改标签中的数字格式）。 |
-| [Offset](../../aspose.cells.charts/ticklabels/offset) { get; set; } | 获取和设置标签到轴的距离。 |
-| [ReadingOrder](../../aspose.cells.charts/ticklabels/readingorder) { get; set; } | 表示文本阅读顺序。 |
+| [NumberFormatLinked](../../aspose.cells.charts/ticklabels/numberformatlinked) { get; set; } | 如果数字格式链接到单元格 则为真（因此当单元格中的数字格式发生变化时，标签中的数字格式也会发生变化）。 |
+| [Offset](../../aspose.cells.charts/ticklabels/offset) { get; set; } | 获取和设置标签与轴的距离。 |
+| [ReadingOrder](../../aspose.cells.charts/ticklabels/readingorder) { get; set; } | 代表文字阅读顺序。 |
 | [RotationAngle](../../aspose.cells.charts/ticklabels/rotationangle) { get; set; } | 表示顺时针方向的文本旋转角度。 |
 | [TickLabelItems](../../aspose.cells.charts/ticklabels/ticklabelitems) { get; } | 获取 TickLabel 的物品信息。 |
 

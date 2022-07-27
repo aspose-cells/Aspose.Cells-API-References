@@ -24,15 +24,15 @@ public class PdfSecurityOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AccessibilityExtractContent](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/accessibilityextractcontent) { get; set; } | Разрешение на копирование или извлечение содержимого (в поддержку доступности для пользователей с ограниченными возможностями или для других целей). |
+| [AccessibilityExtractContent](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/accessibilityextractcontent) { get; set; } | Разрешение на копирование или извлечение контента (в поддержку доступности для пользователей с ограниченными возможностями или для других целей). |
 | [AnnotationsPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/annotationspermission) { get; set; } | Разрешение комментировать документ. |
 | [AssembleDocumentPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/assembledocumentpermission) { get; set; } | Разрешение на вставку, поворот или удаление страниц и создание закладок или эскизов, даже если разрешение ModifyDocumentPermission не установлено. |
 | [ExtractContentPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/extractcontentpermission) { get; set; } | Разрешение на копирование или извлечение контента. |
-| [ExtractContentPermissionObsolete](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/extractcontentpermissionobsolete) { get; set; } | Разрешение на копирование или извлечение содержимого Устарело согласно ссылке в формате PDF. |
+| [ExtractContentPermissionObsolete](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/extractcontentpermissionobsolete) { get; set; } | Разрешение на копирование или извлечение контента Устарело согласно ссылке в формате PDF. |
 | [FillFormsPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/fillformspermission) { get; set; } | Разрешение на заполнение полей формы. |
 | [FullQualityPrintPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/fullqualityprintpermission) { get; set; } | Разрешение на печать в высоком качестве. |
 | [ModifyDocumentPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/modifydocumentpermission) { get; set; } | Разрешение на изменение pdf-документа |
-| [OwnerPassword](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/ownerpassword) { get; set; } | Получает или устанавливает пароль владельца документа |
+| [OwnerPassword](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/ownerpassword) { get; set; } | Получает или задает пароль владельца документа |
 | [PrintPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/printpermission) { get; set; } | Разрешение на печать pdf-документа |
 | [UserPassword](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/userpassword) { get; set; } | Получает или устанавливает пароль пользователя |
 

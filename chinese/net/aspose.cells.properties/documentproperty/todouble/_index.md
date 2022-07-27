@@ -16,7 +16,7 @@ public double ToDouble()
 
 ### 评论
 
-如果属性类型不是 PropertyType.Float，则抛出异常。
+如果属性类型不是 PropertyType.Float. ，则抛出异常
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: IsColumnHidden
 second_title: Справочник по Aspose.Cells для .NET API
-description: Проверяет скрыт ли столбец с заданным индексом.
+description: Проверяет скрыт ли столбец с данным индексом.
 type: docs
-weight: 1130
+weight: 1140
 url: /ru/net/aspose.cells/cells/iscolumnhidden/
 ---
 ## Cells.IsColumnHidden method
 
-Проверяет, скрыт ли столбец с заданным индексом.
+Проверяет, скрыт ли столбец с данным индексом.
 
 ```csharp
 public bool IsColumnHidden(int columnIndex)

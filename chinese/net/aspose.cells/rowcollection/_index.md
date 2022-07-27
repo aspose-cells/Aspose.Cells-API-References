@@ -1,14 +1,14 @@
 ---
 title: RowCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 收集代表工作表中各个行的对象
+description: 收集表示工作表中各个行的对象
 type: docs
 weight: 5510
 url: /zh/net/aspose.cells/rowcollection/
 ---
 ## RowCollection class
 
-收集代表工作表中各个行的对象。
+收集表示工作表中各个行的对象。
 
 ```csharp
 public class RowCollection : IEnumerable
@@ -19,7 +19,7 @@ public class RowCollection : IEnumerable
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.cells/rowcollection/count) { get; } | 获取此集合中的行数。 |
-| [Item](../../aspose.cells/rowcollection/item) { get; } | 通过给定的行索引获取对象。如果给定行索引的 Row 对象之前不存在，它将被实例化。 |
+| [Item](../../aspose.cells/rowcollection/item) { get; } | 得到一个给定行索引的对象。给定行索引的 Row 对象如果之前不存在将被实例化。 |
 
 ## 方法
 
@@ -36,21 +36,20 @@ public class RowCollection : IEnumerable
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 
-//获取第一个worksheet
-
+//获取第一个工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
-  //获取第一行
+ //获取第一行
 Row row = worksheet.Cells.Rows[0];
 
 [VB.NET]
 
-'实例化一个 Workbook 目的
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 
-'获取第一个参考 worksheet
+'获取第一个工作表的引用
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 '获取第一行
 Dim row as Row = worksheet.Cells.Rows(0)

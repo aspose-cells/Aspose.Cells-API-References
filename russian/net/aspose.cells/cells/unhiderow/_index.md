@@ -3,7 +3,7 @@ title: UnhideRow
 second_title: Справочник по Aspose.Cells для .NET API
 description: Отображает строку.
 type: docs
-weight: 1360
+weight: 1370
 url: /ru/net/aspose.cells/cells/unhiderow/
 ---
 ## Cells.UnhideRow method

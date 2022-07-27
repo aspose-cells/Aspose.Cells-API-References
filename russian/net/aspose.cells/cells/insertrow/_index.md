@@ -3,7 +3,7 @@ title: InsertRow
 second_title: Справочник по Aspose.Cells для .NET API
 description: Вставляет новую строку в рабочий лист.
 type: docs
-weight: 1100
+weight: 1110
 url: /ru/net/aspose.cells/cells/insertrow/
 ---
 ## Cells.InsertRow method

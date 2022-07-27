@@ -1,14 +1,14 @@
 ---
 title: ChartArea
 second_title: Aspose.Cells for .NET API 参考
-description: 封装表示工作表中图表区域的对象
+description: 封装代表工作表中图表区域的对象
 type: docs
 weight: 440
 url: /zh/net/aspose.cells.charts/chartarea/
 ---
 ## ChartArea class
 
-封装表示工作表中图表区域的对象。
+封装代表工作表中图表区域的对象。
 
 ```csharp
 public class ChartArea : ChartFrame
@@ -18,23 +18,23 @@ public class ChartArea : ChartFrame
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [Area](../../aspose.cells.charts/chartframe/area) { get; } | 获取[`区域`](../chartframe/area) 。 |
+| virtual [Area](../../aspose.cells.charts/chartframe/area) { get; } | 获取[`区域`](../chartframe/area). |
 | virtual [AutoScaleFont](../../aspose.cells.charts/chartframe/autoscalefont) { get; set; } | 如果对象中的文本在对象大小更改时更改字体大小，则为真。默认值是true。 |
-| [BackgroundMode](../../aspose.cells.charts/chartframe/backgroundmode) { get; set; } | 获取和设置背景的显示方式 |
-| virtual [Border](../../aspose.cells.charts/chartframe/border) { get; } | 获取[`边框`](../../aspose.cells.drawing/line) 。 |
+| [BackgroundMode](../../aspose.cells.charts/chartframe/backgroundmode) { get; set; } | 获取和设置背景的显示模式 |
+| virtual [Border](../../aspose.cells.charts/chartframe/border) { get; } | 获取[`边界`](../../aspose.cells.drawing/line). |
 | [DefaultHeight](../../aspose.cells.charts/chartframe/defaultheight) { get; } | 表示默认位置的高度 |
 | [DefaultWidth](../../aspose.cells.charts/chartframe/defaultwidth) { get; } | 表示默认位置的宽度 |
-| [DefaultX](../../aspose.cells.charts/chartframe/defaultx) { get; } | 表示默认位置的 x |
+| [DefaultX](../../aspose.cells.charts/chartframe/defaultx) { get; } | 代表默认位置的 x |
 | [DefaultY](../../aspose.cells.charts/chartframe/defaulty) { get; } | 代表默认位置的y |
-| override [Font](../../aspose.cells.charts/chartarea/font) { get; } | 获取指定图表区域对象的[`Font`](./font)对象。 |
+| override [Font](../../aspose.cells.charts/chartarea/font) { get; } | 得到一个[`Font`](./font)指定图表区域对象的对象。 |
 | override [Height](../../aspose.cells.charts/chartarea/height) { get; set; } | 获取或设置与其右下角行的垂直偏移量。 |
 | virtual [IsAutomaticSize](../../aspose.cells.charts/chartframe/isautomaticsize) { get; set; } | 指示图表框是否自动调整大小。 |
 | [IsDefaultPosBeSet](../../aspose.cells.charts/chartframe/isdefaultposbeset) { get; } | 表示是否设置了默认位置（DefaultX、DefaultY、DefaultWidth 和 DefaultHeight）。 |
-| [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode) { get; set; } | 指示绘图区域大小的大小是否包括刻度线和轴标签。 False 指定大小应确定绘图区域、刻度线和轴标签的大小。 |
-| [Shadow](../../aspose.cells.charts/chartframe/shadow) { get; set; } | 如果框架有阴影，则为真。 |
-| [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties) { get; } | 获取[`ShapeProperties`](../chartframe/shapeproperties)对象。 |
+| [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode) { get; set; } | 表示绘图区域大小的大小是否包含刻度线和轴标签。 False 指定大小应确定绘图区域的大小、刻度线和轴标签。 |
+| [Shadow](../../aspose.cells.charts/chartframe/shadow) { get; set; } | 如果框架有阴影则为真。 |
+| [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties) { get; } | 获取[`ShapeProperties`](../chartframe/shapeproperties)对象. |
 | override [Width](../../aspose.cells.charts/chartarea/width) { get; set; } | 获取或设置与其右下角列的水平偏移量。 |
-| override [X](../../aspose.cells.charts/chartarea/x) { get; set; } | 获取或获取距其左上角列的水平偏移量。 |
+| override [X](../../aspose.cells.charts/chartarea/x) { get; set; } | 获取或获取其左上角列的水平偏移量。 |
 | override [Y](../../aspose.cells.charts/chartarea/y) { get; set; } | 获取或获取与其左上角行的垂直偏移量。 |
 
 ## 方法
@@ -49,78 +49,75 @@ public class ChartArea : ChartFrame
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 
-//获取第一个worksheet
-
+//获取第一个工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
 
- //向“A1”添加样本值 cell
+//向“A1”单元格添加样本值
 worksheet.Cells["A1"].PutValue(50);
 
-//向“A2”添加样本值 cell
+//向“A2”单元格添加样本值
 worksheet.Cells["A2"].PutValue(100);
 
- //向“A3”添加样本值 cell
+//向“A3”单元格添加样本值
 worksheet.Cells["A3"].PutValue(150);
 
- //向“B1”添加样本值 cell
+//向“B1”单元格添加样本值
 worksheet.Cells["B1"].PutValue(60);
 
- //将样本值添加到“B2” cell
+//向“B2”单元格添加样本值
 worksheet.Cells["B2"].PutValue(32);
 
- //将样本值添加到“B3” cell
+//向“B3”单元格添加样本值
 worksheet.Cells["B3"].PutValue(50);
 
- //将图表添加到工作表
+//向工作表添加图表
 int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
 
- //访问新添加的chart
-
+//访问新添加图表的实例
 Chart chart = worksheet.Charts[chartIndex];
 
- //将NSeries（图表数据源）添加到从“A1”单元格到“B3”单元格的图表中
+//将NSeries（图表数据源）添加到从“A1”单元格到“B3”单元格的图表中
 chart.NSeries.Add("A1:B3", true);
 
- //获取图表区域
+//获取图表区域
 ChartArea chartArea = chart.ChartArea;
 
- //设置图表area
-
+//设置图表区域的前景色
 chartArea.Area.ForegroundColor = Color.Yellow;
 
- //设置图表区域Shadow
+//设置图表区域阴影
 chartArea.Shadow = true;
 
- //保存Excel文件
+//保存Excel文件
 workbook.Save("book1.xls");
 
 [VB.NET]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 
 '获取第一个工作表的引用
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-'将样本值添加到至 "A1" cell
+'Adding a sample value to "A1" cell
 worksheet.Cells("A1").PutValue(50)
 
-'将样本值添加到至 "A2" cell
+'Adding a sample value to "A2" cell
 worksheet.Cells("A2").PutValue(100)
 
-'将样本值添加到至 "A3" cell
+'Adding a sample value to "A3" cell
 worksheet.Cells("A3").PutValue(150)
 
-'将样本值添加到至 "B1" cell
+'Adding a sample value to "B1" cell
 worksheet.Cells("B1").PutValue(60)
 
-'将样本值添加到至 "B2" cell
+'Adding a sample value to "B2" cell
 worksheet.Cells("B2").PutValue(32)
 
-'将样本值添加到至 "B3" cell
+'Adding a sample value to "B3" cell
 worksheet.Cells("B3").PutValue(50)
 
 '将图表添加到工作表
@@ -129,7 +126,7 @@ Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5)
 '访问新添加图表的实例
 Dim chart As Chart = worksheet.Charts(chartIndex)
 
-'将 NSeries（图表数据源）添加到图表中，范围从“A1”单元格到“B3”
+'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
 chart.NSeries.Add("A1:B3", True)
 
 '获取图表区域

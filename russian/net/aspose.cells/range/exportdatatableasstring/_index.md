@@ -1,14 +1,14 @@
 ---
 title: ExportDataTableAsString
 second_title: Справочник по Aspose.Cells для .NET API
-description: Экспортирует данные из этого диапазона в объектDataTable.
+description: Экспортирует данные из этого диапазона вDataTable объект.
 type: docs
-weight: 240
+weight: 280
 url: /ru/net/aspose.cells/range/exportdatatableasstring/
 ---
 ## Range.ExportDataTableAsString method
 
-Экспортирует данные из этого диапазона в объектDataTable.
+Экспортирует данные из этого диапазона вDataTable объект.
 
 ```csharp
 public DataTable ExportDataTableAsString()
@@ -16,11 +16,11 @@ public DataTable ExportDataTableAsString()
 
 ### Возвращаемое значение
 
-Экспортированный объектDataTable.
+ЭкспортированоDataTable объект.
 
 ### Примечания
 
-Все данные в коллекции[`Cells`](../../cells)преобразуются в строки.
+Все данные в[`Cells`](../../cells) коллекции преобразуются в строки.
 
 ### Смотрите также
 

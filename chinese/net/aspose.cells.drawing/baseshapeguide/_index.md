@@ -1,12 +1,14 @@
 ---
 title: BaseShapeGuide
 second_title: Aspose.Cells for .NET API 参考
-description: 
+description: 表示形状指南
 type: docs
 weight: 1790
 url: /zh/net/aspose.cells.drawing/baseshapeguide/
 ---
 ## BaseShapeGuide class
+
+表示形状指南。
 
 ```csharp
 public class BaseShapeGuide

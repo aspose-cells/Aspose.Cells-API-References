@@ -1,14 +1,14 @@
 ---
 title: IsAutoSize
 second_title: Aspose.Cells for .NET API 参考
-description: True 表示 ole 对象的大小将自动更改为嵌入内容的快照大小 激活 ole 对象时.
+description: True 表示 ole 对象的大小将在 ole 对象激活时自动更改为嵌入内容的快照大小 
 type: docs
 weight: 100
 url: /zh/net/aspose.cells.drawing/oleobject/isautosize/
 ---
 ## OleObject.IsAutoSize property
 
-True 表示 ole 对象的大小将自动更改为嵌入内容的快照大小 激活 ole 对象时.
+True 表示 ole 对象的大小将在 ole 对象激活时自动更改为嵌入内容的快照大小 。
 
 ```csharp
 public bool IsAutoSize { get; set; }

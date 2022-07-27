@@ -1,14 +1,14 @@
 ---
 title: BackgroundImage
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置工作表背景图像
+description: 获取和设置工作表背景图片
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/worksheet/backgroundimage/
 ---
 ## Worksheet.BackgroundImage property
 
-获取和设置工作表背景图像。
+获取和设置工作表背景图片。
 
 ```csharp
 public byte[] BackgroundImage { get; set; }

@@ -16,7 +16,7 @@ public static DateTime GetDateTimeFromDouble(double doubleValue, bool date1904)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| doubleValue | Double | 双精度值。 |
+| doubleValue | Double | 双重价值。 |
 | date1904 | Boolean | 日期 1904 系统。 |
 
 ### 也可以看看

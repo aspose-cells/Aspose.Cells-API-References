@@ -19,9 +19,9 @@ public enum MapChartRegionType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Automatic | `0` | 自动 |
-| DataOnly | `1` | 仅数据。 |
+| DataOnly | `1` | 只有数据。 |
 | CountryRegionList | `2` | 国家地区列表。 |
-| World | `3` | 世界。 |
+| World | `3` | 世界. |
 
 ### 也可以看看
 

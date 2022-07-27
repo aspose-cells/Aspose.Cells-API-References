@@ -16,7 +16,7 @@ public float[][] GetConnectionPoints()
 
 ### 返回值
 
-[X,Y] 对连接点。每个项目都是一个 float[2] 数组，[0] 代表 x，[1] 代表 y。
+[X,Y] 对的连接点。每个项目都是一个 float[2] 数组，[0] 代表 x，[1] 代表 y。
 
 ### 例子
 

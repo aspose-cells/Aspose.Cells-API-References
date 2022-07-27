@@ -10,7 +10,7 @@ url: /ru/net/aspose.cells.griddesktop.data/customcommandeventhandler/
 
 Представляет интерфейс, предназначенный для обработки событий Custom Command.
 
-void **handleCellEvent** (Отправитель объекта, Строковая команда);
+пустота **обработатьCellEvent**(Отправитель объекта, Строковая команда);
 
 ```csharp
 public delegate void CustomCommandEventHandler(object sender, string command);

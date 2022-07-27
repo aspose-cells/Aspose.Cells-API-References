@@ -1,14 +1,14 @@
 ---
 title: UniqueId
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置唯一id同15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F
+description: 获取和设置唯一id同15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F.
 type: docs
 weight: 530
 url: /zh/net/aspose.cells/worksheet/uniqueid/
 ---
 ## Worksheet.UniqueId property
 
-获取和设置唯一id，同{15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F}。
+获取和设置唯一id，同{15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F}.
 
 ```csharp
 public string UniqueId { get; set; }

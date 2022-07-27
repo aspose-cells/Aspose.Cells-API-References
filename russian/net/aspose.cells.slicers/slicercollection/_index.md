@@ -1,14 +1,14 @@
 ---
 title: SlicerCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает набор всех объектов Slicer на указанном рабочем листе.
+description: Определяет коллекцию всех объектов Slicer на указанном листе.
 type: docs
 weight: 5690
 url: /ru/net/aspose.cells.slicers/slicercollection/
 ---
 ## SlicerCollection class
 
-Задает набор всех объектов Slicer на указанном рабочем листе.
+Определяет коллекцию всех объектов Slicer на указанном листе.
 
 ```csharp
 public class SlicerCollection : CollectionBase<Slicer>
@@ -120,7 +120,7 @@ SlicerCollection slicers = sheet.Slicers;
 int tableIndex = sheet.ListObjects.Add("A1", "C9", true);
 ListObject table = sheet.ListObjects[tableIndex];
 
-  //делай свое дело
+//делай свое дело
 
 book.Save("out.xlsx");
 

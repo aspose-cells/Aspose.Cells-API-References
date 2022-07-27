@@ -141,10 +141,10 @@ public void ImportExcelFile(Stream stream, string passwordtoOpen, string passwor
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | excel 文件流。 |
+| stream | Stream | excel文件流。 |
 | passwordtoOpen | String | 加密文件的打开密码。 |
 | passwordtoOpen | String | 受保护文件的修改密码。 |
-| openasReadOnly | Boolean | 是否以只读方式打开文件。 |
+| openasReadOnly | Boolean | 是否以 ReadOnly 方式打开文件。 |
 | runFormulas | Boolean | 如果为真，此方法将调用 RunAllFormulas 方法。 |
 
 ### 也可以看看
@@ -169,7 +169,7 @@ public void ImportExcelFile(string fileName, string passwordtoOpen, string passw
 | fileName | String | excel文件名。 |
 | passwordtoOpen | String | 加密文件的打开密码。 |
 | passwordtoOpen | String | 受保护文件的修改密码。 |
-| openasReadOnly | Boolean | 是否以只读方式打开文件。 |
+| openasReadOnly | Boolean | 是否以 ReadOnly 方式打开文件。 |
 | runFormulas | Boolean | 如果为真，此方法将调用 RunAllFormulas 方法。 |
 
 ### 也可以看看
@@ -182,7 +182,7 @@ public void ImportExcelFile(string fileName, string passwordtoOpen, string passw
 
 ## ImportExcelFile(string, int) {#importexcelfile_5}
 
-从 Excel 文件导入工作表。
+从 excel 文件导入工作表。
 
 ```csharp
 public void ImportExcelFile(string fileName, int sheetIndex)
@@ -191,7 +191,7 @@ public void ImportExcelFile(string fileName, int sheetIndex)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | String | excel文件名。 |
-| sheetIndex | Int32 | 要导入的工作表索引。 |
+| sheetIndex | Int32 | 要导入的工作表的索引。 |
 
 ### 也可以看看
 

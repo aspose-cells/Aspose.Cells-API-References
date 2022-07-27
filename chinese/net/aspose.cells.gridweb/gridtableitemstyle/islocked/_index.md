@@ -1,14 +1,14 @@
 ---
 title: IsLocked
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置一个值该值指示单元格在其工作表受到保护时是否可以修改 当其工作表受到保护且 IsLocked 为 true 时无法编辑单元格当其工作表为 protected 且 IsLocked 为 false 时可以编辑该单元格
+description: 获取或设置一个值该值指示单元格在其工作表受保护时是否可以修改 当其工作表受保护且IsLocked 为真时该单元格不能被编辑当其工作表 is protected 且 IsLocked 为 false 时可以编辑单元格
 type: docs
 weight: 70
 url: /zh/net/aspose.cells.gridweb/gridtableitemstyle/islocked/
 ---
 ## GridTableItemStyle.IsLocked property
 
-获取或设置一个值，该值指示单元格在其工作表受到保护时是否可以修改。 当其工作表受到保护且 IsLocked 为 true 时，无法编辑单元格。当其工作表为 protected 且 IsLocked 为 false 时，可以编辑该单元格。
+获取或设置一个值，该值指示单元格在其工作表受保护时是否可以修改。 当其工作表受保护且IsLocked 为真时，该单元格不能被编辑。当其工作表 is protected 且 IsLocked 为 false 时，可以编辑单元格。
 
 ```csharp
 public bool IsLocked { get; set; }

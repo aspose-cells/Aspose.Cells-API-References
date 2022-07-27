@@ -1,14 +1,14 @@
 ---
 title: SetManualGroupField
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает вручную группу полей сводной таблицы.
+description: Устанавливает группу полей вручную сводной таблицей.
 type: docs
 weight: 940
 url: /ru/net/aspose.cells.pivot/pivottable/setmanualgroupfield/
 ---
 ## SetManualGroupField(int, double, double, ArrayList, double) {#setmanualgroupfield_2}
 
-Устанавливает вручную группу полей сводной таблицы.
+Устанавливает группу полей вручную сводной таблицей.
 
 ```csharp
 public void SetManualGroupField(int baseFieldIndex, double startVal, double endVal, 
@@ -18,10 +18,10 @@ public void SetManualGroupField(int baseFieldIndex, double startVal, double endV
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | baseFieldIndex | Int32 | Индекс поля строки или столбца в базовых полях |
-| startVal | Double | Указывает начальное значение для числовой группировки. |
-| endVal | Double | Задает конечное значение для числовой группировки. |
+| startVal | Double | Задает начальное значение для числовой группировки. |
+| endVal | Double | Указывает конечное значение для числовой группировки. |
 | groupByList | ArrayList | Задает список типов группировки. Задается PivotTableGroupType |
-| intervalNum | Double | Задает группу номеров интервалов с помощью числовой группировки. |
+| intervalNum | Double | Указывает группу номеров интервалов по числовой группировке. |
 
 ### Смотрите также
 
@@ -33,7 +33,7 @@ public void SetManualGroupField(int baseFieldIndex, double startVal, double endV
 
 ## SetManualGroupField(PivotField, double, double, ArrayList, double) {#setmanualgroupfield}
 
-Устанавливает вручную группу полей сводной таблицы.
+Устанавливает группу полей вручную сводной таблицей.
 
 ```csharp
 public void SetManualGroupField(PivotField pivotField, double startVal, double endVal, 
@@ -43,10 +43,10 @@ public void SetManualGroupField(PivotField pivotField, double startVal, double e
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pivotField | PivotField | Поле строки или столбца в базовых полях |
-| startVal | Double | Указывает начальное значение для числовой группировки. |
-| endVal | Double | Задает конечное значение для числовой группировки. |
+| startVal | Double | Задает начальное значение для числовой группировки. |
+| endVal | Double | Указывает конечное значение для числовой группировки. |
 | groupByList | ArrayList | Задает список типов группировки. Задается PivotTableGroupType |
-| intervalNum | Double | Задает группу номеров интервалов с помощью числовой группировки. |
+| intervalNum | Double | Указывает группу номеров интервалов по числовой группировке. |
 
 ### Смотрите также
 
@@ -59,7 +59,7 @@ public void SetManualGroupField(PivotField pivotField, double startVal, double e
 
 ## SetManualGroupField(int, DateTime, DateTime, ArrayList, int) {#setmanualgroupfield_3}
 
-Устанавливает вручную группу полей сводной таблицы.
+Устанавливает группу полей вручную сводной таблицей.
 
 ```csharp
 public void SetManualGroupField(int baseFieldIndex, DateTime startVal, DateTime endVal, 
@@ -69,10 +69,10 @@ public void SetManualGroupField(int baseFieldIndex, DateTime startVal, DateTime 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | baseFieldIndex | Int32 | Индекс поля строки или столбца в базовых полях |
-| startVal | DateTime | Указывает начальное значение для группировки дат. |
+| startVal | DateTime | Задает начальное значение для группировки дат. |
 | endVal | DateTime | Задает конечное значение для группировки дат. |
 | groupByList | ArrayList | Задает список типов группировки. Задается PivotTableGroupType |
-| intervalNum | Int32 | Указывает группу номеров интервалов по дням группировки. Количество дней должно быть положительным целым числом, отличным от нуля |
+| intervalNum | Int32 | Указывает группу номеров интервалов по дням группировки. Количество дней должно быть положительным целым числом, отличным от нуля. |
 
 ### Смотрите также
 
@@ -84,7 +84,7 @@ public void SetManualGroupField(int baseFieldIndex, DateTime startVal, DateTime 
 
 ## SetManualGroupField(PivotField, DateTime, DateTime, ArrayList, int) {#setmanualgroupfield_1}
 
-Устанавливает вручную группу полей сводной таблицы.
+Устанавливает группу полей вручную сводной таблицей.
 
 ```csharp
 public void SetManualGroupField(PivotField pivotField, DateTime startVal, DateTime endVal, 
@@ -94,10 +94,10 @@ public void SetManualGroupField(PivotField pivotField, DateTime startVal, DateTi
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pivotField | PivotField | Поле строки или столбца в базовых полях |
-| startVal | DateTime | Указывает начальное значение для группировки дат. |
+| startVal | DateTime | Задает начальное значение для группировки дат. |
 | endVal | DateTime | Задает конечное значение для группировки дат. |
 | groupByList | ArrayList | Задает список типов группировки. Задается PivotTableGroupType |
-| intervalNum | Int32 | Указывает группу номеров интервалов по дням группировки. Количество дней должно быть положительным целым числом, отличным от нуля |
+| intervalNum | Int32 | Указывает группу номеров интервалов по дням группировки. Количество дней должно быть положительным целым числом, отличным от нуля. |
 
 ### Смотрите также
 

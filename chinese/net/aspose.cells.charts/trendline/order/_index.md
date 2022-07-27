@@ -1,14 +1,14 @@
 ---
 title: Order
 second_title: Aspose.Cells for .NET API 参考
-description: 当趋势线类型为多项式时返回或设置趋势线顺序大于 1 的整数 顺序必须介于 2 和 6 之间
+description: 当趋势线类型为多项式时返回或设置趋势线顺序大于 1 的整数 顺序必须在 2 到 6 之间
 type: docs
 weight: 100
 url: /zh/net/aspose.cells.charts/trendline/order/
 ---
 ## Trendline.Order property
 
-当趋势线类型为多项式时，返回或设置趋势线顺序（大于 1 的整数）。 顺序必须介于 2 和 6 之间。
+当趋势线类型为多项式时，返回或设置趋势线顺序（大于 1 的整数）。 顺序必须在 2 到 6 之间。
 
 ```csharp
 public int Order { get; set; }

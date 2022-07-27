@@ -1,14 +1,14 @@
 ---
 title: ShapeProperties
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объект содержащий свойства визуальной формы объекта ChartPoint.
+description: Получает объект который содержит свойства визуальной формы ChartPoint.
 type: docs
 weight: 220
 url: /ru/net/aspose.cells.charts/chartpoint/shapeproperties/
 ---
 ## ChartPoint.ShapeProperties property
 
-Получает объект, содержащий свойства визуальной формы объекта ChartPoint.
+Получает объект, который содержит свойства визуальной формы ChartPoint.
 
 ```csharp
 public ShapePropertyCollection ShapeProperties { get; }

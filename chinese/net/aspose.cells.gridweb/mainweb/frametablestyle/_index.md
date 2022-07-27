@@ -1,14 +1,14 @@
 ---
 title: FrameTableStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置控件的框架样式
+description: 获取或设置控件的边框样式
 type: docs
 weight: 360
 url: /zh/net/aspose.cells.gridweb/mainweb/frametablestyle/
 ---
 ## MainWeb.FrameTableStyle property
 
-获取或设置控件的框架样式。
+获取或设置控件的边框样式
 
 ```csharp
 public GridTableStyle FrameTableStyle { get; set; }

@@ -16,7 +16,7 @@ public bool AddBlankLineBetweenRows { get; set; }
 
 ### 评论
 
-If[`Separator`](../separator)是 '\n' ，最好将此属性设置为 true 以增加可读性。
+如果[`Separator`](../separator)是 '\n' ，最好将此属性设置为 true 以增加可读性。
 
 ### 也可以看看
 

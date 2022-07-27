@@ -28,7 +28,7 @@ public object this[int columnIndex] { get; }
 
 ## ICellsDataTable indexer (2 of 2)
 
-获取存储在由列名指定的列中的数据。
+获取存储在列名指定的列中的数据。
 
 ```csharp
 public object this[string columnName] { get; }
@@ -36,7 +36,7 @@ public object this[string columnName] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| columnName | 列名。 |
+| columnName | 列名称。 |
 
 ### 也可以看看
 

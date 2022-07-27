@@ -1,14 +1,14 @@
 ---
 title: TickLabelItem
 second_title: Aspose.Cells for .NET API 参考
-description: 包含Ticklabel项的信息
+description: 包含一个 Ticklabel 项目的信息
 type: docs
 weight: 920
 url: /zh/net/aspose.cells.charts/ticklabelitem/
 ---
 ## TickLabelItem class
 
-包含Ticklabel项的信息
+包含一个 Ticklabel 项目的信息
 
 ```csharp
 public class TickLabelItem
@@ -18,8 +18,8 @@ public class TickLabelItem
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Height](../../aspose.cells.charts/ticklabelitem/height) { get; } | Ticklabel 项目的高度与图表高度的比率。 |
-| [Width](../../aspose.cells.charts/ticklabelitem/width) { get; } | Ticklabel 项目的宽度与图表宽度的比率。 |
+| [Height](../../aspose.cells.charts/ticklabelitem/height) { get; } | Ticklabel 项的高度与图表高度的比率。 |
+| [Width](../../aspose.cells.charts/ticklabelitem/width) { get; } | Ticklabel 项的宽度与图表宽度的比率。 |
 | [X](../../aspose.cells.charts/ticklabelitem/x) { get; } | Ticklabel 项目的 X 坐标与图表宽度的比率。 |
 | [Y](../../aspose.cells.charts/ticklabelitem/y) { get; } | Ticklabel 项目的 Y 坐标与图表高度的比率。 |
 

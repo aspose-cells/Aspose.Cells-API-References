@@ -1,14 +1,14 @@
 ---
 title: Top10
 second_title: Справочник по Aspose.Cells для .NET API
-description: Опишите правило условного форматирования Top10. Это правило условного форматирования выделяет ячейки чьи значения попадают в верхнюю N или нижнюю N скобку как указано.
+description: Опишите правило условного форматирования Top10. Это правило условного форматирования выделяет ячейки значения которых попадают в верхнюю N или нижнюю N скобку как указано.
 type: docs
 weight: 6090
 url: /ru/net/aspose.cells/top10/
 ---
 ## Top10 class
 
-Опишите правило условного форматирования Top10. Это правило условного форматирования выделяет ячейки, чьи значения попадают в верхнюю N или нижнюю N скобку, как указано.
+Опишите правило условного форматирования Top10. Это правило условного форматирования выделяет ячейки, значения которых попадают в верхнюю N или нижнюю N скобку, как указано.
 
 ```csharp
 public class Top10
@@ -24,41 +24,41 @@ public class Top10
 
 | Имя | Описание |
 | --- | --- |
-| [IsBottom](../../aspose.cells/top10/isbottom) { get; set; } | Получить или установить, является ли правило "первые/нижние n" правилом "нижних n". Значение по умолчанию — false. |
-| [IsPercent](../../aspose.cells/top10/ispercent) { get; set; } | Получить или установить, является ли правило "первые/нижние n" правилом "первые/нижние n процентов". Значение по умолчанию — false. |
-| [Rank](../../aspose.cells/top10/rank) { get; set; } | Получить или установить значение "n" в правиле условного форматирования "верхнее/нижнее n". Если IsPercent равно true, значение должно быть в диапазоне от 0 до 100. В противном случае оно должно быть в диапазоне от 0 до 1000. Значение по умолчанию равно 10. |
+| [IsBottom](../../aspose.cells/top10/isbottom) { get; set; } | Получить или установить, является ли правило "первые/нижние n" правилом "нижних n". Значение по умолчанию - false. |
+| [IsPercent](../../aspose.cells/top10/ispercent) { get; set; } | Получить или установить, является ли правило "первые/нижние n" правилом "первые/нижние n процентов". Значение по умолчанию - false. |
+| [Rank](../../aspose.cells/top10/rank) { get; set; } | Получить или установить значение «n» в правиле условного форматирования «верхний/нижний n». . |
 
 ### Примеры
 
 ```csharp
 
 [C#]
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
  
-  //Добавляет пустое условное форматирование
+//Добавляет пустое условное форматирование
 int index = sheet.ConditionalFormattings.Add();
 FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
  
-  //Устанавливает диапазон условного формата.
+//Устанавливает диапазон условного формата.
 CellArea ca = CellArea.CreateCellArea(0, 0, 10, 10);
 fcs.AddArea(ca);
  
-  //Добавляет условие.
+//Добавляет условие.
 int conditionIndex = fcs.AddCondition(FormatConditionType.Top10, OperatorType.None, null, null);   
-  //Устанавливает цвет фона.
+//Устанавливаем цвет фона.
 FormatCondition fc = fcs[conditionIndex];
 fc.Style.BackgroundColor = Color.Red;
 Top10 top10 = fc.Top10;
-  //Устанавливаем верхний N 
+//Установить верхний N 
 top10.Rank = 5;  
-  //Сохранение файла Excel
+//Сохранение файла Excel
 workbook.Save("output.xls");
 
 [VB.NET]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
 Dim sheet As Worksheet = workbook.Worksheets(0)
  
@@ -66,7 +66,7 @@ Dim sheet As Worksheet = workbook.Worksheets(0)
 Dim index As Integer = sheet.ConditionalFormattings.Add()
 Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
  
-'Устанавливает диапазон условного формата.
+'Задает диапазон условного формата.
 Dim ca As CellArea = CellArea.CreateCellArea(0, 0, 10, 10)
 fcs.AddArea(ca)
  
@@ -76,7 +76,7 @@ Dim conditionIndex As Integer = fcs.AddCondition(FormatConditionType.Top10, Oper
 Dim fc As FormatCondition = fcs(conditionIndex)
 fc.Style.BackgroundColor = Color.Red
 Dim top10 as Top10  = fc.Top10
-'Установите верхний N
+'Установите верхний N 
 top10.Rank = 5
 'Сохранение файла Excel
 workbook.Save("output.xls")

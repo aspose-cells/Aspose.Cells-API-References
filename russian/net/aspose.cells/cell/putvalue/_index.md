@@ -77,8 +77,8 @@ public void PutValue(string stringValue, bool isConverted, bool setStyle)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stringValue | String | Входное значение |
-| isConverted | Boolean | True:преобразовано в другое тип данных, если это необходимо. |
-| setStyle | Boolean | True:установить числовой формат в стиль ячейки при преобразовании в другой тип данных |
+| isConverted | Boolean | True: преобразуется в другой тип данных, если это необходимо. |
+| setStyle | Boolean | True: установите числовой формат в стиль ячейки при преобразовании в другой тип данных |
 
 ### Смотрите также
 
@@ -99,7 +99,7 @@ public void PutValue(string stringValue, bool isConverted)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stringValue | String | Входное значение |
-| isConverted | Boolean | True:преобразовано в другое тип данных, если это необходимо. |
+| isConverted | Boolean | True: преобразуется в другой тип данных, если это необходимо. |
 
 ### Смотрите также
 
@@ -139,7 +139,7 @@ public void PutValue(DateTime dateTime)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dateTime | DateTime | Вводимое значение |
+| dateTime | DateTime | Входное значение |
 
 ### Смотрите также
 

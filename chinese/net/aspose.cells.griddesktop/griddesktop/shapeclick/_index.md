@@ -1,14 +1,14 @@
 ---
 title: ShapeClick
 second_title: Aspose.Cells for .NET API 参考
-description: 单击形状时发生
+description: 在单击形状时发生
 type: docs
 weight: 630
 url: /zh/net/aspose.cells.griddesktop/griddesktop/shapeclick/
 ---
 ## GridDesktop.ShapeClick event
 
-单击形状时发生。
+在单击形状时发生。
 
 ```csharp
 public event CellEventHandler ShapeClick;

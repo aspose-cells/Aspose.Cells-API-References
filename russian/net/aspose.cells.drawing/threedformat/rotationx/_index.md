@@ -1,14 +1,14 @@
 ---
 title: RotationX
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает поворот вытянутой формы вокруг оси X в градусах.
+description: Получает и задает поворот вытянутой формы вокруг оси x в градусах.
 type: docs
 weight: 140
 url: /ru/net/aspose.cells.drawing/threedformat/rotationx/
 ---
 ## ThreeDFormat.RotationX property
 
-Получает и задает поворот вытянутой формы вокруг оси X в градусах.
+Получает и задает поворот вытянутой формы вокруг оси x в градусах.
 
 ```csharp
 public double RotationX { get; set; }

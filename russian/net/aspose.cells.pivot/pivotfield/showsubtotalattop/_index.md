@@ -1,14 +1,14 @@
 ---
 title: ShowSubtotalAtTop
 second_title: Справочник по Aspose.Cells для .NET API
-description: когда ShowInOutlineForm имеет значение true то отображать промежуточные итоги вверху списка элементов а не внизу
+description:  когда ShowInOutlineForm имеет значение true промежуточные итоги отображаются вверху списка элементов а не внизу
 type: docs
 weight: 400
 url: /ru/net/aspose.cells.pivot/pivotfield/showsubtotalattop/
 ---
 ## PivotField.ShowSubtotalAtTop property
 
-когда ShowInOutlineForm имеет значение true, то отображать промежуточные итоги вверху списка элементов, а не внизу
+, когда ShowInOutlineForm имеет значение true, промежуточные итоги отображаются вверху списка элементов, а не внизу
 
 ```csharp
 public bool ShowSubtotalAtTop { get; set; }

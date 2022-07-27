@@ -1,14 +1,14 @@
 ---
 title: Title
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置歌手的称号
+description: 获取并设置歌手的标题
 type: docs
 weight: 100
 url: /zh/net/aspose.cells.drawing/signatureline/title/
 ---
 ## SignatureLine.Title property
 
-获取和设置歌手的称号。
+获取并设置歌手的标题。
 
 ```csharp
 public string Title { get; set; }
@@ -19,7 +19,7 @@ public string Title { get; set; }
 ```csharp
 
 [C#]
- // 创建签名行 object
+// 创建签名线对象
 SignatureLine s4 = new SignatureLine();
 s4.Title = "Development Lead";
 ```

@@ -1,14 +1,14 @@
 ---
 title: ShowHighPoint
 second_title: Aspose.Cells for .NET API 参考
-description: 指示是否突出显示迷你图组中数据的最高点
+description: 表示是否突出显示迷你图组中数据的最高点
 type: docs
 weight: 160
 url: /zh/net/aspose.cells.charts/sparklinegroup/showhighpoint/
 ---
 ## SparklineGroup.ShowHighPoint property
 
-指示是否突出显示迷你图组中数据的最高点。
+表示是否突出显示迷你图组中数据的最高点。
 
 ```csharp
 public bool ShowHighPoint { get; set; }

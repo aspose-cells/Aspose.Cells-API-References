@@ -16,8 +16,8 @@ public void AddCalculatedItem(string name, string formula)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя предмета. |
-| formula | String | Формула элемента |
+| name | String | Название предмета. |
+| formula | String | Формула предмета |
 
 ### Примечания
 

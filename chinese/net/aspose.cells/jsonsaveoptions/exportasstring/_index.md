@@ -1,14 +1,14 @@
 ---
 title: ExportAsString
 second_title: Aspose.Cells for .NET API 参考
-description: 将单元格的字符串值导出到 json
+description: 将单元格的字符串值导出到 json.
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/jsonsaveoptions/exportasstring/
 ---
 ## JsonSaveOptions.ExportAsString property
 
-将单元格的字符串值导出到 json。
+将单元格的字符串值导出到 json.
 
 ```csharp
 public bool ExportAsString { get; set; }

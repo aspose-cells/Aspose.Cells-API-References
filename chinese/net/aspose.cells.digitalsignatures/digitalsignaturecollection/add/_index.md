@@ -16,7 +16,7 @@ public void Add(DigitalSignature digitalSignature)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| digitalSignature | DigitalSignature | 收集中的数字签名。 |
+| digitalSignature | DigitalSignature | 收藏中的数字签名。 |
 
 ### 也可以看看
 

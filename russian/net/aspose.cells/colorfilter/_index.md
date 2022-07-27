@@ -18,7 +18,7 @@ public class ColorFilter
 
 | Имя | Описание |
 | --- | --- |
-| [FilterByFillColor](../../aspose.cells/colorfilter/filterbyfillcolor) { get; set; } | Флаг, указывающий на необходимость фильтрации по цвету заливки ячейки. |
+| [FilterByFillColor](../../aspose.cells/colorfilter/filterbyfillcolor) { get; set; } | Флаг, указывающий, следует ли фильтровать по цвету заливки ячейки. |
 
 ## Методы
 

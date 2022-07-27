@@ -18,12 +18,12 @@ public Picture AddIcons(int upperLeftRow, int top, int upperLeftColumn, int left
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| top | Int32 | Представляет вертикальное смещение фигуры от ее левого ряда в единицах пикселя. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
-| left | Int32 | Горизонтальное смещение фигуры от ее левого столбца в единицах пикселей. |
+| top | Int32 | Представляет вертикальное смещение фигуры от ее левой строки в единицах пикселя. |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
+| left | Int32 | Горизонтальное смещение фигуры от ее левого столбца в пикселях. |
 | height | Int32 | Высота фигуры в пикселях. |
 | width | Int32 | Ширина фигуры в пикселях. |
-| imageByteData | Byte[] | Байтовые данные изображения. |
+| imageByteData | Byte[] | Данные байта изображения. |
 | compatibleImageData | Byte[] | Данные изображения преобразованы из svg для совместимости с Excel 2016 или более ранними версиями. |
 
 ### Примеры
@@ -31,7 +31,7 @@ public Picture AddIcons(int upperLeftRow, int top, int upperLeftColumn, int left
 ```csharp
 
 [C#]
-  //добавляем icon
+//добавляем иконку
 using (FileStream fs = new FileStream("icon.svg", FileMode.Open))
 {
     int len = (int)fs.Length;

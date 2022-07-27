@@ -1,14 +1,14 @@
 ---
 title: OnSubmitClientFunction
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置在客户端提交控件之前要调用的客户端函数 客户端函数应该这样声明ltbr /gt function MyOnSubmitarg cancelEditltbr /gt ltbr /gt return trueltbr /gtltbr /gt arg 是提交参数包含要发布到服务器的命令 cancelEdit 是布尔值表示控件在提交前是否丢弃了用户输入 如果函数返回true控件将继续提交 ltbr /gt注意您可以在客户端函数中使用this指针来指向触发事件的网格控件
+description: 获取或设置在客户端提交控件之前要调用的客户端函数 客户端函数应声明如下 函数 MyOnSubmitarg cancelEdit 返回真 arg 是提交参数包含要提交到服务器的命令 cancelEdit 是布尔值表示控件在提交之前是否丢弃了用户输入 如果函数返回true控件将继续提交 注意您可以在客户端函数中使用this指针来指向触发事件的网格控件
 type: docs
 weight: 700
 url: /zh/net/aspose.cells.gridweb/mainweb/onsubmitclientfunction/
 ---
 ## MainWeb.OnSubmitClientFunction property
 
-获取或设置在客户端提交控件之前要调用的客户端函数。 客户端函数应该这样声明:&lt;br /&gt; function MyOnSubmit(arg, cancelEdit)&lt;br /&gt; {&lt;br /&gt; return true;&lt;br /&gt;}&lt;br /&gt; arg 是提交参数，包含要发布到服务器的命令。 cancelEdit 是布尔值，表示控件在提交前是否丢弃了用户输入。 如果函数返回true，控件将继续提交。 &lt;br /&gt;注意:您可以在客户端函数中使用“this”指针来指向触发事件的网格控件。
+获取或设置在客户端提交控件之前要调用的客户端函数。 客户端函数应声明如下： 函数 MyOnSubmit(arg, cancelEdit) {返回真；} arg 是提交参数，包含要提交到服务器的命令。 cancelEdit 是布尔值，表示控件在提交之前是否丢弃了用户输入。 如果函数返回true，控件将继续提交。 注意：您可以在客户端函数中使用“this”指针来指向触发事件的网格控件。
 
 ```csharp
 public string OnSubmitClientFunction { get; set; }

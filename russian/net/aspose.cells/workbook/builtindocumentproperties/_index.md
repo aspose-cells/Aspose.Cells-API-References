@@ -1,14 +1,14 @@
 ---
 title: BuiltInDocumentProperties
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает коллекциюDocumentPropertyaspose.cells.properties/documentproperty которая представляет все встроенные свойства документа электронной таблицы.
+description: ВозвращаетDocumentPropertyaspose.cells.properties/documentpropertyколлекция которая представляет все встроенные свойства документа электронной таблицы.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/workbook/builtindocumentproperties/
 ---
 ## Workbook.BuiltInDocumentProperties property
 
-Возвращает коллекцию[`DocumentProperty`](../../../aspose.cells.properties/documentproperty), которая представляет все встроенные свойства документа электронной таблицы.
+Возвращает[`DocumentProperty`](../../../aspose.cells.properties/documentproperty)коллекция, которая представляет все встроенные свойства документа электронной таблицы.
 
 ```csharp
 public BuiltInDocumentPropertyCollection BuiltInDocumentProperties { get; }
@@ -16,11 +16,11 @@ public BuiltInDocumentPropertyCollection BuiltInDocumentProperties { get; }
 
 ### Примечания
 
-Новое свойство не может быть добавлено во встроенный список свойств документа. Вы можете только получить встроенное свойство и изменить его значение. Ниже приведен список имен встроенных свойств:
+Нельзя добавить новое свойство в список встроенных свойств документа. Вы можете только получить встроенное свойство и изменить его значение. Ниже приведен список имен встроенных свойств:
 
-Название
+Заголовок
 
-Тема
+Предмет
 
 Автор
 
@@ -32,7 +32,7 @@ public BuiltInDocumentPropertyCollection BuiltInDocumentProperties { get; }
 
 Последний автор
 
-Номер редакции
+Номер ревизии
 
 Имя приложения
 
@@ -46,7 +46,7 @@ public BuiltInDocumentPropertyCollection BuiltInDocumentProperties { get; }
 
 Количество страниц
 
-Количество слов
+Число слов
 
 Количество символов
 
@@ -56,13 +56,13 @@ public BuiltInDocumentPropertyCollection BuiltInDocumentProperties { get; }
 
 Формат
 
-Менеджер
+Управляющий делами
 
 Компания
 
 Количество байтов
 
-Количество строк
+Количество линий
 
 Количество абзацев
 

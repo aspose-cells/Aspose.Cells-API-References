@@ -19,7 +19,7 @@ public Guid Id { get; set; }
 ```csharp
 
 [C#]
-  // Создаем строку подписи object
+// Создаем объект строки подписи
 SignatureLine s1 = new SignatureLine();
 s1.Id = System.Guid.NewGuid();
 ```

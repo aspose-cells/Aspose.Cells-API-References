@@ -16,7 +16,7 @@ public void PageStartSaving(PageStartSavingArgs args)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| args | PageStartSavingArgs | Информация для страницы запускает процесс сохранения. |
+| args | PageStartSavingArgs | Информация для страницы начинает процесс сохранения. |
 
 ### Смотрите также
 

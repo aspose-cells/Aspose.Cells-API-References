@@ -19,7 +19,7 @@ public enum DataBarFillType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Solid | `0` | 数据栏用纯色填充。 |
-| Gradient | `1` | 数据栏填充有颜色渐变。 |
+| Gradient | `1` | 数据栏填充了颜色渐变。 |
 
 ### 也可以看看
 

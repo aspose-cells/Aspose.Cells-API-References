@@ -24,13 +24,13 @@ public class CopyOptions
 
 | Имя | Описание |
 | --- | --- |
-| [ColumnCharacterWidth](../../aspose.cells/copyoptions/columncharacterwidth) { get; set; } | Указывает, копируется ли ширина столбца в единицах символов. |
-| [CopyInvalidFormulasAsValues](../../aspose.cells/copyoptions/copyinvalidformulasasvalues) { get; set; } | Если формула недействительна для пункта назначения, копируются только значения. |
+| [ColumnCharacterWidth](../../aspose.cells/copyoptions/columncharacterwidth) { get; set; } | Указывает, копируется ли ширина столбца в символах. |
+| [CopyInvalidFormulasAsValues](../../aspose.cells/copyoptions/copyinvalidformulasasvalues) { get; set; } | Если формула недействительна для конечного пункта назначения, скопируйте только значения. |
 | [CopyNames](../../aspose.cells/copyoptions/copynames) { get; set; } | Указывает, копируются ли имена. |
 | [ExtendToAdjacentRange](../../aspose.cells/copyoptions/extendtoadjacentrange) { get; set; } | Указывает, следует ли расширять диапазоны при копировании диапазона в соседний диапазон. |
 | [KeepMacros](../../aspose.cells/copyoptions/keepmacros) { get; set; } | Указывает, сохраняются ли макросы; |
-| [ReferToDestinationSheet](../../aspose.cells/copyoptions/refertodestinationsheet) { get; set; } | При копировании диапазона в тот же файл, а диаграмма ссылается на исходный лист, False означает, что источник данных скопированной диаграммы не будет изменен . True означает, что источник данных скопированного графика относится к целевому листу. |
-| [ReferToSheetWithSameName](../../aspose.cells/copyoptions/refertosheetwithsamename) { get; set; } | При копировании рабочего листа в другую рабочую книгу, если рабочий лист содержит формулы, которые ссылаются на другие рабочие листы в MS Excel, скопированные формулы должны ссылаться на исходная рабочая тетрадь. Но иногда мы копировали другие рабочие листы, и мы надеемся, что скопированные формулы ссылаются на другие рабочие листы с именем в той же рабочей книге, установите для этого свойства значение true. |
+| [ReferToDestinationSheet](../../aspose.cells/copyoptions/refertodestinationsheet) { get; set; } | При копировании диапазона в тот же файл, когда диаграмма ссылается на исходный лист, False означает, что источник данных скопированной диаграммы не будет изменен. True означает, что источник данных скопированной диаграммы ссылается на целевой лист. |
+| [ReferToSheetWithSameName](../../aspose.cells/copyoptions/refertosheetwithsamename) { get; set; } | При копировании листа в другую книгу, если лист содержит формулы, которые ссылаются на другие листы в MS Excel, скопированные формулы должны ссылаться на исходную книгу. Но иногда мы копировали другие листы, и мы надеемся, что скопированные формулы ссылаются на другие листы с таким же именем в той же книге, установите для этого свойства значение true. |
 
 ### Смотрите также
 

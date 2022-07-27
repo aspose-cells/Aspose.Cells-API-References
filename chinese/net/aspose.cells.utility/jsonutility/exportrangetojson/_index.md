@@ -17,7 +17,7 @@ public static string ExportRangeToJson(Range range, ExportRangeToJsonOptions opt
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | range | Range | 范围。 |
-| options | ExportRangeToJsonOptions | 导出的选项。 |
+| options | ExportRangeToJsonOptions | 导出选项。 |
 
 ### 返回值
 

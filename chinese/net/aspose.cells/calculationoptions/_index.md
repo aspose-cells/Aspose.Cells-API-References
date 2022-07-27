@@ -26,8 +26,8 @@ public class CalculationOptions
 | --- | --- |
 | [CalcStackSize](../../aspose.cells/calculationoptions/calcstacksize) { get; set; } | 指定用于递归计算单元格的堆栈大小。 |
 | [CalculationMonitor](../../aspose.cells/calculationoptions/calculationmonitor) { get; set; } | 用户跟踪公式计算进度的监视器。 |
-| [CustomEngine](../../aspose.cells/calculationoptions/customengine) { get; set; } | 自定义公式计算引擎，扩展 Aspose.Cells 的默认计算引擎。 |
-| [IgnoreError](../../aspose.cells/calculationoptions/ignoreerror) { get; set; } | 表示是否需要隐藏计算公式的错误。 错误可能是不支持的功能、外部链接等 |
+| [CustomEngine](../../aspose.cells/calculationoptions/customengine) { get; set; } | 扩展Aspose.Cells默认计算引擎的自定义公式计算引擎。 |
+| [IgnoreError](../../aspose.cells/calculationoptions/ignoreerror) { get; set; } | 表示计算公式时是否需要隐藏错误 错误可能是函数不支持、外部链接等 |
 | [PrecisionStrategy](../../aspose.cells/calculationoptions/precisionstrategy) { get; set; } | 指定计算精度的处理策略。 |
 | [Recursive](../../aspose.cells/calculationoptions/recursive) { get; set; } | 表示计算一个单元格时是否递归计算依赖单元格，它依赖于其他单元格。 |
 

@@ -1,14 +1,14 @@
 ---
 title: FormulaBar
 second_title: Справочник по Aspose.Cells для .NET API
-description: FormulaBar
+description: Панель формул
 type: docs
 weight: 1020
 url: /ru/net/aspose.cells.griddesktop.toolbar/formulabar/
 ---
 ## FormulaBar class
 
-FormulaBar
+Панель формул
 
 ```csharp
 public class FormulaBar : UserControl
@@ -25,7 +25,7 @@ public class FormulaBar : UserControl
 
 | Имя | Описание |
 | --- | --- |
-| [Draggable](../../aspose.cells.griddesktop.toolbar/formulabar/draggable) { get; set; } | получить набор Draggable для поля формул, значение по умолчанию - false. |
+| [Draggable](../../aspose.cells.griddesktop.toolbar/formulabar/draggable) { get; set; } | get set Draggable for Formula Box, значение по умолчанию — false. |
 | [GridDesktop](../../aspose.cells.griddesktop.toolbar/formulabar/griddesktop) { get; set; } | Получает или задает элемент управления GridDesktop, к которому будет применяться этот FormalBar. |
 | [Resizable](../../aspose.cells.griddesktop.toolbar/formulabar/resizable) { get; set; } | get set Resizable for Formula Box, значение по умолчанию — false. не подходит при установке ScrollBars.None |
 | [ScrollBars](../../aspose.cells.griddesktop.toolbar/formulabar/scrollbars) { get; set; } | получить или установить полосы прокрутки для поля формул. Значение по умолчанию — ScrollBars.Verticals. |

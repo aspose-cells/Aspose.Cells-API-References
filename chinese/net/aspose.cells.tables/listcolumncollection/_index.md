@@ -1,14 +1,14 @@
 ---
 title: ListColumnCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示指定 ListObject 对象中所有ListColumn./listcolumn对象的集合
+description: 代表所有的集合ListColumn./listcolumn指定 ListObject 对象中的对象
 type: docs
 weight: 5810
 url: /zh/net/aspose.cells.tables/listcolumncollection/
 ---
 ## ListColumnCollection class
 
-表示指定 ListObject 对象中所有[`ListColumn`](../listcolumn)对象的集合。
+代表所有的集合[`ListColumn`](../listcolumn)指定 ListObject 对象中的对象。
 
 ```csharp
 public class ListColumnCollection : CollectionBase<ListColumn>
@@ -20,7 +20,7 @@ public class ListColumnCollection : CollectionBase<ListColumn>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.tables/listcolumncollection/item) { get; } | 通过索引获取 ListColumn。 (2 indexers) |
+| [Item](../../aspose.cells.tables/listcolumncollection/item) { get; } | 通过索引获取ListColumn。 (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法

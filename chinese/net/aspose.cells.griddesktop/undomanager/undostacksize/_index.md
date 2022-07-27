@@ -1,14 +1,14 @@
 ---
 title: UndoStackSize
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置撤消/重做堆栈大小默认值为 300
+description: 获取或设置撤消/重做堆栈大小默认值为 300.
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.griddesktop/undomanager/undostacksize/
 ---
 ## UndoManager.UndoStackSize property
 
-获取或设置撤消/重做堆栈大小。默认值为 300。
+获取或设置撤消/重做堆栈大小。默认值为 300.
 
 ```csharp
 public int UndoStackSize { get; set; }

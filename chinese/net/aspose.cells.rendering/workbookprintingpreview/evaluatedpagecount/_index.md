@@ -23,7 +23,7 @@ Workbook workbook = new Workbook("Book1.xlsx");
 
 WorkbookPrintingPreview workbookPrintingPreview = new WorkbookPrintingPreview(workbook, new ImageOrPrintOptions());
 
- //当工作簿中有大量数据时，获取页数的最快方法。
+//当工作簿中有大量数据时，获取页数的最快方法。
 Console.WriteLine(workbookPrintingPreview.EvaluatedPageCount);
         
 ```

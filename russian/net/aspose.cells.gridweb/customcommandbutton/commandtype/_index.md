@@ -1,14 +1,14 @@
 ---
 title: CommandType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает тип рендеринга команды. Тип может быть командной кнопкой или пунктом контекстного меню.
+description: Получает или задает тип рендеринга команды. Типом может быть командная кнопка или пункт контекстного меню.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.gridweb/customcommandbutton/commandtype/
 ---
 ## CustomCommandButton.CommandType property
 
-Получает или задает тип рендеринга команды. Тип может быть командной кнопкой или пунктом контекстного меню.
+Получает или задает тип рендеринга команды. Типом может быть командная кнопка или пункт контекстного меню.
 
 ```csharp
 public CustomCommandButtonType CommandType { get; set; }

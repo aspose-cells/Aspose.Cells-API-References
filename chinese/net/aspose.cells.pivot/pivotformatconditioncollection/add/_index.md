@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 向集合添加一个枢轴 FormatCondition
+description: 向集合中添加一个枢轴 FormatCondition
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.pivot/pivotformatconditioncollection/add/
 ---
 ## PivotFormatConditionCollection.Add method
 
-向集合添加一个枢轴 FormatCondition。
+向集合中添加一个枢轴 FormatCondition。
 
 ```csharp
 public int Add()
@@ -16,7 +16,7 @@ public int Add()
 
 ### 返回值
 
-pivot FormatCondition 对象索引。
+透视 FormatCondition 对象索引。
 
 ### 评论
 

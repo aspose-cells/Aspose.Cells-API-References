@@ -1,14 +1,14 @@
 ---
 title: OnDoubleClickRowClientFunction
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置双击行时调用的客户端函数 客户端函数应该这样声明ltbr /gt function MyOnRowDoubleClickrowltbr /gt ltbr /gt alertrowltbr /gt ltbr /gtltbr /gt注意您可以在客户端函数中使用this指针来指向网格控件触发事件
+description: 获取或设置双击行时调用的客户端函数 客户端函数应声明如下 函数 MyOnRowDoubleClickrow  警报行 注意您可以在客户端函数中使用this指针来指向触发事件的网格控件
 type: docs
 weight: 640
 url: /zh/net/aspose.cells.gridweb/mainweb/ondoubleclickrowclientfunction/
 ---
 ## MainWeb.OnDoubleClickRowClientFunction property
 
-获取或设置双击行时调用的客户端函数。 客户端函数应该这样声明:&lt;br /&gt; function MyOnRowDoubleClick(row)&lt;br /&gt; {&lt;br /&gt; alert(row);&lt;br /&gt; }&lt;br /&gt;&lt;br /&gt;注意:您可以在客户端函数中使用“this”指针来指向网格控件触发事件。
+获取或设置双击行时调用的客户端函数。 客户端函数应声明如下： 函数 MyOnRowDoubleClick(row) { 警报（行）； }注意：您可以在客户端函数中使用“this”指针来指向触发事件的网格控件。
 
 ```csharp
 public string OnDoubleClickRowClientFunction { get; set; }

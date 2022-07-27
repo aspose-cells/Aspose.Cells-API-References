@@ -19,60 +19,60 @@ public class Worksheet : IDisposable
 | 姓名 | 描述 |
 | --- | --- |
 | [ActiveCell](../../aspose.cells/worksheet/activecell) { get; set; } | 获取或设置工作表中的活动单元格。 |
-| [AllowEditRanges](../../aspose.cells/worksheet/alloweditranges) { get; } | 获取工作表中的允许编辑范围集合。 |
-| [AutoFilter](../../aspose.cells/worksheet/autofilter) { get; } | 表示指定工作表的自动过滤器。 |
-| [BackgroundImage](../../aspose.cells/worksheet/backgroundimage) { get; set; } | 获取和设置工作表背景图像。 |
-| [Cells](../../aspose.cells/worksheet/cells) { get; } | 获取[`Cells`](./cells)集合。 |
+| [AllowEditRanges](../../aspose.cells/worksheet/alloweditranges) { get; } | 获取工作表中允许的编辑范围集合。 |
+| [AutoFilter](../../aspose.cells/worksheet/autofilter) { get; } | 表示指定工作表的自动筛选器。 |
+| [BackgroundImage](../../aspose.cells/worksheet/backgroundimage) { get; set; } | 获取和设置工作表背景图片。 |
+| [Cells](../../aspose.cells/worksheet/cells) { get; } | 获取[`Cells`](./cells)集合. |
 | [CellWatches](../../aspose.cells/worksheet/cellwatches) { get; } | 获取在“监视窗口”中监视的此工作表上的单元格集合。 |
-| [Charts](../../aspose.cells/worksheet/charts) { get; } | 获取[`Chart`](../../aspose.cells.charts/chart)集合 |
-| [CheckBoxes](../../aspose.cells/worksheet/checkboxes) { get; } | 获取[`CheckBox`](../../aspose.cells.drawing/checkbox)集合。 |
+| [Charts](../../aspose.cells/worksheet/charts) { get; } | 得到一个[`Chart`](../../aspose.cells.charts/chart)集合 |
+| [CheckBoxes](../../aspose.cells/worksheet/checkboxes) { get; } | 得到一个[`CheckBox`](../../aspose.cells.drawing/checkbox)集合. |
 | [CodeName](../../aspose.cells/worksheet/codename) { get; set; } | 获取工作表代码名称。 |
-| [Comments](../../aspose.cells/worksheet/comments) { get; } | 获取[`Comment`](../comment)集合。 |
+| [Comments](../../aspose.cells/worksheet/comments) { get; } | 获取[`Comment`](../comment)集合. |
 | [ConditionalFormattings](../../aspose.cells/worksheet/conditionalformattings) { get; } | 获取工作表中的 ConditionalFormattings。 |
-| [CustomProperties](../../aspose.cells/worksheet/customproperties) { get; } | 获取表示 与工作表关联的标识符信息的对象。 |
-| [DisplayRightToLeft](../../aspose.cells/worksheet/displayrighttoleft) { get; set; } | 指示指定的工作表是否从右到左而不是从左到右显示。 默认为假。 |
-| [DisplayZeros](../../aspose.cells/worksheet/displayzeros) { get; set; } | 如果显示零值，则为真。 |
+| [CustomProperties](../../aspose.cells/worksheet/customproperties) { get; } | 获取一个对象，该对象表示 与工作表关联的标识符信息。 |
+| [DisplayRightToLeft](../../aspose.cells/worksheet/displayrighttoleft) { get; set; } | 表示指定的工作表是否从右到左而不是从左到右显示。 默认为 false。 |
+| [DisplayZeros](../../aspose.cells/worksheet/displayzeros) { get; set; } | 如果显示零值则为真。 |
 | [ErrorCheckOptions](../../aspose.cells/worksheet/errorcheckoptions) { get; } | 获取应用于特定范围的错误检查设置。 |
 | [FirstVisibleColumn](../../aspose.cells/worksheet/firstvisiblecolumn) { get; set; } | 表示第一个可见列索引。 |
 | [FirstVisibleRow](../../aspose.cells/worksheet/firstvisiblerow) { get; set; } | 表示第一个可见行索引。 |
-| [HasAutofilter](../../aspose.cells/worksheet/hasautofilter) { get; } | 指示此工作表是否具有自动过滤器。 |
-| [HorizontalPageBreaks](../../aspose.cells/worksheet/horizontalpagebreaks) { get; } | 获取[`HorizontalPageBreakCollection`](../horizontalpagebreakcollection)集合。 |
-| [Hyperlinks](../../aspose.cells/worksheet/hyperlinks) { get; } | 获取[`HyperlinkCollection`](../hyperlinkcollection)集合。 |
+| [HasAutofilter](../../aspose.cells/worksheet/hasautofilter) { get; } | 表示此工作表是否有自动过滤器。 |
+| [HorizontalPageBreaks](../../aspose.cells/worksheet/horizontalpagebreaks) { get; } | 获取[`HorizontalPageBreakCollection`](../horizontalpagebreakcollection)收藏。 |
+| [Hyperlinks](../../aspose.cells/worksheet/hyperlinks) { get; } | 获取[`HyperlinkCollection`](../hyperlinkcollection)集合. |
 | [Index](../../aspose.cells/worksheet/index) { get; } | 获取工作表集合中工作表的索引。 |
-| [IsGridlinesVisible](../../aspose.cells/worksheet/isgridlinesvisible) { get; set; } | 获取或设置一个值，指示网格线是否可见。默认为 true。 |
+| [IsGridlinesVisible](../../aspose.cells/worksheet/isgridlinesvisible) { get; set; } | 获取或设置网格线是否可见的值。默认为true。 |
 | [IsOutlineShown](../../aspose.cells/worksheet/isoutlineshown) { get; set; } | 表示是否显示轮廓。 |
-| [IsPageBreakPreview](../../aspose.cells/worksheet/ispagebreakpreview) { get; set; } | 指示指定的工作表是显示在普通视图还是分页预览中。 |
+| [IsPageBreakPreview](../../aspose.cells/worksheet/ispagebreakpreview) { get; set; } | 指示指定的工作表是以普通视图还是分页预览显示。 |
 | [IsProtected](../../aspose.cells/worksheet/isprotected) { get; } | 指示工作表是否受保护。 |
-| [IsRowColumnHeadersVisible](../../aspose.cells/worksheet/isrowcolumnheadersvisible) { get; set; } | 获取或设置一个值，该值指示工作表是否将显示行和列标题。 默认为真。 |
-| [IsRulerVisible](../../aspose.cells/worksheet/isrulervisible) { get; set; } | 表示标尺是否可见。此属性仅适用于分页预览。 |
+| [IsRowColumnHeadersVisible](../../aspose.cells/worksheet/isrowcolumnheadersvisible) { get; set; } | 获取或设置一个值，该值指示工作表是否将显示行和列标题。 默认为 true。 |
+| [IsRulerVisible](../../aspose.cells/worksheet/isrulervisible) { get; set; } | 指示标尺是否可见。此属性仅适用于分页预览。 |
 | [IsSelected](../../aspose.cells/worksheet/isselected) { get; set; } | 表示打开工作簿时是否选择此工作表。 |
 | [IsVisible](../../aspose.cells/worksheet/isvisible) { get; set; } | 表示工作表是否可见。 |
-| [ListObjects](../../aspose.cells/worksheet/listobjects) { get; } | 获取此工作表中的所有 ListObject。 |
+| [ListObjects](../../aspose.cells/worksheet/listobjects) { get; } | 获取此工作表中的所有 ListObjects。 |
 | [Name](../../aspose.cells/worksheet/name) { get; set; } | 获取或设置工作表的名称。 |
-| [OleObjects](../../aspose.cells/worksheet/oleobjects) { get; } | 表示工作表中[`OleObject`](../../aspose.cells.drawing/oleobject)的集合。 |
+| [OleObjects](../../aspose.cells/worksheet/oleobjects) { get; } | 代表一个集合[`OleObject`](../../aspose.cells.drawing/oleobject)在工作表中。 |
 | [Outline](../../aspose.cells/worksheet/outline) { get; } | 获取此工作表的大纲。 |
-| [PageSetup](../../aspose.cells/worksheet/pagesetup) { get; } | 表示此表中的页面设置说明。 |
+| [PageSetup](../../aspose.cells/worksheet/pagesetup) { get; } | 表示此工作表中的页面设置说明。 |
 | [PaneState](../../aspose.cells/worksheet/panestate) { get; } | 指示窗格是否有水平或垂直拆分，以及这些拆分是否被冻结。 |
-| [Pictures](../../aspose.cells/worksheet/pictures) { get; } | 获取[`Picture`](../../aspose.cells.drawing/picture)集合。 |
+| [Pictures](../../aspose.cells/worksheet/pictures) { get; } | 得到一个[`Picture`](../../aspose.cells.drawing/picture)集合. |
 | [PivotTables](../../aspose.cells/worksheet/pivottables) { get; } | 获取此工作表中的所有数据透视表。 |
 | [Protection](../../aspose.cells/worksheet/protection) { get; } | 表示可用于工作表的各种类型的保护选项。支持 ExcelXP 及以上版本的高级保护选项。 |
-| [QueryTables](../../aspose.cells/worksheet/querytables) { get; } | 在工作表中获取[`QueryTableCollection`](../querytablecollection)。 |
-| [Scenarios](../../aspose.cells/worksheet/scenarios) { get; } | 获取[`Scenario`](../scenario)的集合。 |
+| [QueryTables](../../aspose.cells/worksheet/querytables) { get; } | 获取[`QueryTableCollection`](../querytablecollection)在工作表中。 |
+| [Scenarios](../../aspose.cells/worksheet/scenarios) { get; } | 获取集合[`Scenario`](../scenario). |
 | [Shapes](../../aspose.cells/worksheet/shapes) { get; } | 返回此工作表中的所有绘图形状。 |
 | [ShowFormulas](../../aspose.cells/worksheet/showformulas) { get; set; } | 指示是否显示公式或其结果。 |
 | [Slicers](../../aspose.cells/worksheet/slicers) { get; } | 获取工作表中的切片器集合 |
-| [SmartTagSetting](../../aspose.cells/worksheet/smarttagsetting) { get; } | 获取工作表的所有[`SmartTagCollection`](../../aspose.cells.markup/smarttagcollection)对象。 |
+| [SmartTagSetting](../../aspose.cells/worksheet/smarttagsetting) { get; } | 获取所有[`SmartTagCollection`](../../aspose.cells.markup/smarttagcollection)工作表的对象. |
 | [SparklineGroupCollection](../../aspose.cells/worksheet/sparklinegroupcollection) { get; } | 获取工作表中的迷你图组集合。 |
 | [TabColor](../../aspose.cells/worksheet/tabcolor) { get; set; } | 代表工作表标签颜色。 |
 | [TabId](../../aspose.cells/worksheet/tabid) { get; set; } | 指定工作表的内部标识符。 |
-| [TextBoxes](../../aspose.cells/worksheet/textboxes) { get; } | 获取[`TextBox`](../../aspose.cells.drawing/textbox)集合。 |
+| [TextBoxes](../../aspose.cells/worksheet/textboxes) { get; } | 得到一个[`TextBox`](../../aspose.cells.drawing/textbox)集合. |
 | [Timelines](../../aspose.cells/worksheet/timelines) { get; } | 获取工作表中的 Timeline 集合 |
 | [TransitionEntry](../../aspose.cells/worksheet/transitionentry) { get; set; } | 指示是否启用转换公式条目（Lotus 兼容性）选项。 |
 | [TransitionEvaluation](../../aspose.cells/worksheet/transitionevaluation) { get; set; } | 指示是否启用转换公式评估（Lotus 兼容性）选项。 |
 | [Type](../../aspose.cells/worksheet/type) { get; set; } | 表示工作表类型。 |
-| [UniqueId](../../aspose.cells/worksheet/uniqueid) { get; set; } | 获取和设置唯一id，同{15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F}。 |
+| [UniqueId](../../aspose.cells/worksheet/uniqueid) { get; set; } | 获取和设置唯一id，同{15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F}. |
 | [Validations](../../aspose.cells/worksheet/validations) { get; } | 获取工作表中的数据验证设置集合。 |
-| [VerticalPageBreaks](../../aspose.cells/worksheet/verticalpagebreaks) { get; } | 获取[`VerticalPageBreakCollection`](../verticalpagebreakcollection)集合。 |
+| [VerticalPageBreaks](../../aspose.cells/worksheet/verticalpagebreaks) { get; } | 获取[`VerticalPageBreakCollection`](../verticalpagebreakcollection)集合. |
 | [ViewType](../../aspose.cells/worksheet/viewtype) { get; set; } | 获取和设置视图类型。 |
 | [VisibilityType](../../aspose.cells/worksheet/visibilitytype) { get; set; } | 表示此工作表的可见状态。 |
 | [Workbook](../../aspose.cells/worksheet/workbook) { get; } | 获取包含此工作表的工作簿对象。 |
@@ -95,7 +95,7 @@ public class Worksheet : IDisposable
 | [AutoFitRow](../../aspose.cells/worksheet/autofitrow#autofitrow)(int) | 自动调整行高。 |
 | [AutoFitRow](../../aspose.cells/worksheet/autofitrow#autofitrow_1)(int, int, int) | 自动调整行高。 |
 | [AutoFitRow](../../aspose.cells/worksheet/autofitrow#autofitrow_2)(int, int, int, AutoFitterOptions) | 自动调整行高。 |
-| [AutoFitRow](../../aspose.cells/worksheet/autofitrow#autofitrow_3)(int, int, int, int) | 自动调整矩形范围内的行高。 |
+| [AutoFitRow](../../aspose.cells/worksheet/autofitrow#autofitrow_3)(int, int, int, int) | 在矩形范围内自动调整行高。 |
 | [AutoFitRows](../../aspose.cells/worksheet/autofitrows#autofitrows)() | 自动调整此工作表中的所有行。 |
 | [AutoFitRows](../../aspose.cells/worksheet/autofitrows#autofitrows_1)(AutoFitterOptions) | 自动调整此工作表中的所有行。 |
 | [AutoFitRows](../../aspose.cells/worksheet/autofitrows#autofitrows_2)(bool) | 自动调整此工作表中的所有行。 |
@@ -131,7 +131,7 @@ public class Worksheet : IDisposable
 | [UnFreezePanes](../../aspose.cells/worksheet/unfreezepanes)() | 解冻工作表中的窗格。 |
 | [Unprotect](../../aspose.cells/worksheet/unprotect#unprotect)() | 取消保护工作表。 |
 | [Unprotect](../../aspose.cells/worksheet/unprotect#unprotect_1)(string) | 取消保护工作表。 |
-| [XmlMapQuery](../../aspose.cells/worksheet/xmlmapquery)(string, XmlMap) | 查询映射/链接到xml映射特定路径的单元格区域。 |
+| [XmlMapQuery](../../aspose.cells/worksheet/xmlmapquery)(string, XmlMap) | 查询映射/链接到xml map的特定路径的单元格区域。 |
 
 ### 例子
 
@@ -142,11 +142,10 @@ Workbook workbook = new Workbook();
 
 Worksheet sheet = workbook.Worksheets[0];
 
- //在“AS40”处冻结10行10列的窗格
+//在“AS40”处冻结10行10列的窗格
 sheet.FreezePanes("AS40", 10, 10);
 
-//在单元格A1
-
+//在单元格A1中添加超链接
 sheet.Hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
 
 [Visual Basic]
@@ -155,11 +154,11 @@ Dim workbook as Workbook = new Workbook()
 
 Dim sheet as Worksheet = workbook.Worksheets(0)
 
-'在“AS40”处冻结10行10列的窗格
+'Freeze panes at "AS40" with 10 rows and 10 columns
 sheet.FreezePanes("AS40", 10, 10)
 
-'在单元格A1
-sheet.Hyperlinks.Add("A1", 1, 1, "http: //www.aspose.com")
+'在单元格 A1 中添加超链接
+sheet.Hyperlinks.Add("A1", 1, 1, "http://www.aspose.com")
 ```
 
 ### 也可以看看

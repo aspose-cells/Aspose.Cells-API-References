@@ -1,14 +1,14 @@
 ---
 title: AutoFilter
 second_title: Aspose.Cells for .NET API 参考
-description: 表示指定工作表的自动过滤器
+description: 表示指定工作表的自动筛选器
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/worksheet/autofilter/
 ---
 ## Worksheet.AutoFilter property
 
-表示指定工作表的自动过滤器。
+表示指定工作表的自动筛选器。
 
 ```csharp
 public AutoFilter AutoFilter { get; }

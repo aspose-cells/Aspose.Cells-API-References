@@ -1,14 +1,14 @@
 ---
 title: EndCellInRow
 second_title: Aspose.Cells for .NET API 参考
-description: 获取该行的最后一个单元格
+description: 获取此行中的最后一个单元格
 type: docs
 weight: 590
 url: /zh/net/aspose.cells/cells/endcellinrow/
 ---
 ## EndCellInRow(int) {#endcellinrow}
 
-获取该行的最后一个单元格。
+获取此行中的最后一个单元格。
 
 ```csharp
 public Cell EndCellInRow(int rowIndex)
@@ -20,7 +20,7 @@ public Cell EndCellInRow(int rowIndex)
 
 ### 返回值
 
-单元对象。
+单元格对象。
 
 ### 也可以看看
 
@@ -41,14 +41,14 @@ public Cell EndCellInRow(int startRow, int endRow, int startColumn, int endColum
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startRow | Int32 | 起始行索引。 |
+| startRow | Int32 | 开始行索引。 |
 | endRow | Int32 | 结束行索引。 |
-| startColumn | Int32 | 起始列索引。 |
+| startColumn | Int32 | 开始列索引。 |
 | endColumn | Int32 | 结束列索引。 |
 
 ### 返回值
 
-单元对象。
+单元格对象。
 
 ### 也可以看看
 

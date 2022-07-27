@@ -1,14 +1,14 @@
 ---
 title: ArcEndPointXPx
 second_title: Aspose.Cells for .NET API 参考
-description: 调用 Chart.Calculate 方法后获取饼图部分结束点的 x 坐标 适用于饼图和圆环图
+description: 调用 Chart.Calculate 方法后获取饼图的终点 x 坐标 适用于饼图和圆环图
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.charts/chartpoint/arcendpointxpx/
 ---
 ## ChartPoint.ArcEndPointXPx property
 
-调用 Chart.Calculate() 方法后获取饼图部分结束点的 x 坐标。 适用于饼图和圆环图。
+调用 Chart.Calculate() 方法后获取饼图的终点 x 坐标。 适用于饼图和圆环图。
 
 ```csharp
 public float ArcEndPointXPx { get; }

@@ -23,7 +23,7 @@ public class VbaProject
 | [IsProtected](../../aspose.cells.vba/vbaproject/isprotected) { get; } | Указывает, защищен ли этот проект VBA. |
 | [IsSigned](../../aspose.cells.vba/vbaproject/issigned) { get; } | Указывает, подписан код VBA или нет. |
 | [IsValidSigned](../../aspose.cells.vba/vbaproject/isvalidsigned) { get; } | Указывает, действительна ли подпись проекта VBA. |
-| [Modules](../../aspose.cells.vba/vbaproject/modules) { get; } | Получает все[`VbaModule`](../vbamodule)объекты. |
+| [Modules](../../aspose.cells.vba/vbaproject/modules) { get; } | получает все[`VbaModule`](../vbamodule) объекты. |
 | [Name](../../aspose.cells.vba/vbaproject/name) { get; set; } | Получает и задает имя проекта VBA. |
 | [References](../../aspose.cells.vba/vbaproject/references) { get; } | Получает все ссылки проекта VBA. |
 
@@ -33,7 +33,7 @@ public class VbaProject
 | --- | --- |
 | [Copy](../../aspose.cells.vba/vbaproject/copy)(VbaProject) | Скопировать проект VBA из другого файла. |
 | [Protect](../../aspose.cells.vba/vbaproject/protect)(bool, string) | Защищает или снимает защиту с этого проекта VBA. |
-| [Sign](../../aspose.cells.vba/vbaproject/sign)(DigitalSignature) | Подпишите этот проект VBA цифровой подписью |
+| [Sign](../../aspose.cells.vba/vbaproject/sign)(DigitalSignature) | Подпишите этот проект VBA с помощью DigitalSignature |
 | [ValidatePassword](../../aspose.cells.vba/vbaproject/validatepassword)(string) | Проверяет пароль защиты. |
 
 ### Примеры
@@ -42,18 +42,18 @@ public class VbaProject
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
-   // Инициируем проект VBA.
+ // Запустить проект VBA.
 VbaProject vbaProject = workbook.VbaProject;
-  //Сохранение файла Excel
+//Сохранение файла Excel
 workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
-'Инициируем проект VBA.
+'Запустите проект VBA.
 Dim vbaProject as VbaProject  = workbook.VbaProject
 'Сохранение файла Excel
 workbook.Save("book1.xlsm")

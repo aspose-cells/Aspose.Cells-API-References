@@ -1,14 +1,14 @@
 ---
 title: TableStyleType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет встроенный тип стиля таблицы.
+description: Представляет тип встроенного стиля таблицы.
 type: docs
 weight: 5900
 url: /ru/net/aspose.cells.tables/tablestyletype/
 ---
 ## TableStyleType enumeration
 
-Представляет встроенный тип стиля таблицы.
+Представляет тип встроенного стиля таблицы.
 
 ```csharp
 public enum TableStyleType

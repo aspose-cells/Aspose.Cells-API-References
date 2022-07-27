@@ -1,14 +1,14 @@
 ---
 title: GradientFill
 second_title: Aspose.Cells for .NET API 参考
-description: 获取GradientFillaspose.cells.drawing/fillformat/gradientfill对象
+description: 获取GradientFillaspose.cells.drawing/fillformat/gradientfill对象.
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.drawing/fillformat/gradientfill/
 ---
 ## FillFormat.GradientFill property
 
-获取`GradientFill`对象。
+获取`GradientFill`对象.
 
 ```csharp
 public GradientFill GradientFill { get; }

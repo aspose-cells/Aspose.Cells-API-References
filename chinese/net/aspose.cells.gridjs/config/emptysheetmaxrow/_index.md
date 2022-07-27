@@ -1,14 +1,14 @@
 ---
 title: EmptySheetMaxRow
 second_title: Aspose.Cells for .NET API 参考
-description: 为空工作表设置默认最大行
+description: 设置空工作表的默认最大行数
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.gridjs/config/emptysheetmaxrow/
 ---
 ## Config.EmptySheetMaxRow property
 
-为空工作表设置默认最大行
+设置空工作表的默认最大行数
 
 ```csharp
 public static int EmptySheetMaxRow { get; set; }

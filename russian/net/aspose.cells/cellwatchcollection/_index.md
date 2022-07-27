@@ -1,14 +1,14 @@
 ---
 title: CellWatchCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет набор ячеек на этом рабочем листе наблюдаемых в окне просмотра.
+description: Представляет набор ячеек на этом рабочем листе которые отслеживаются в окне просмотра.
 type: docs
 weight: 290
 url: /ru/net/aspose.cells/cellwatchcollection/
 ---
 ## CellWatchCollection class
 
-Представляет набор ячеек на этом рабочем листе, наблюдаемых в «окне просмотра».
+Представляет набор ячеек на этом рабочем листе, которые отслеживаются в «окне просмотра».
 
 ```csharp
 public class CellWatchCollection : CollectionBase<CellWatch>
@@ -26,7 +26,7 @@ public class CellWatchCollection : CollectionBase<CellWatch>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/cellwatchcollection/item) { get; } | Получает и устанавливает[`CellWatch`](../cellwatch)по индексу. (2 indexers) |
+| [Item](../../aspose.cells/cellwatchcollection/item) { get; } | Получает и устанавливает[`CellWatch`](../cellwatch) по индексу. (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы
@@ -34,7 +34,7 @@ public class CellWatchCollection : CollectionBase<CellWatch>
 | Имя | Описание |
 | --- | --- |
 | [Add](../../aspose.cells/cellwatchcollection/add#add_1)(string) | Добавляет |
-| [Add](../../aspose.cells/cellwatchcollection/add#add)(int, int) | Добавляет[`CellWatch`](../cellwatch)со строкой и столбцом. |
+| [Add](../../aspose.cells/cellwatchcollection/add#add)(int, int) | Добавляет[`CellWatch`](../cellwatch) со строкой и столбцом. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(CellWatch) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(CellWatch, IComparer&lt;CellWatch&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, CellWatch, IComparer&lt;CellWatch&gt;) |  |
@@ -68,18 +68,18 @@ public class CellWatchCollection : CollectionBase<CellWatch>
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
-  // Получить первый рабочий лист.
+// Получить первый рабочий лист.
 Worksheet sheet = workbook.Worksheets[0];
-  // Добавляем Cell Watch Item в Watch window
+// Добавляем Cell Watch Item в окно просмотра
 sheet.CellWatches.Add("B2");
 
  [Visual Basic]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
-'Получить первый рабочий лист.
+'Получите первый рабочий лист.
 Dim sheet as Worksheet = workbook.Worksheets(0);
 'Добавить элемент Cell Watch в окно просмотра
 sheet.CellWatches.Add("B2")

@@ -1,14 +1,14 @@
 ---
 title: BackgroundColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает цвет фона ячейки если образец стиля не установлен в сплошной тогда это повлияет
+description: Получает или задает цвет фона ячейки если шаблон стиля не установлен в сплошной цвет тогда он будет иметь значение effect
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.griddesktop/style/backgroundcolor/
 ---
 ## Style.BackgroundColor property
 
-Получает или задает цвет фона ячейки, если образец стиля не установлен в сплошной, тогда это повлияет
+Получает или задает цвет фона ячейки, если шаблон стиля не установлен в сплошной цвет, тогда он будет иметь значение effect
 
 ```csharp
 public Color BackgroundColor { get; set; }

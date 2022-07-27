@@ -3,7 +3,7 @@ title: ApplyStyle
 second_title: Aspose.Cells for .NET API 参考
 description: 对整个范围应用格式
 type: docs
-weight: 170
+weight: 210
 url: /zh/net/aspose.cells/range/applystyle/
 ---
 ## Range.ApplyStyle method
@@ -17,11 +17,11 @@ public void ApplyStyle(Style style, StyleFlag flag)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | style | Style | 将应用的样式对象。 |
-| flag | StyleFlag | 指示应用格式属性的标志。 |
+| flag | StyleFlag | 指示应用的格式属性的标志。 |
 
 ### 评论
 
-此范围内的每个单元格都将包含一个[`Style`](../../style)对象。 所以这是一个消耗内存的方法。请谨慎使用。
+此范围内的每个单元格将包含一个[`Style`](../../style)目的。 所以这是一个消耗内存的方法。请谨慎使用。
 
 ### 也可以看看
 

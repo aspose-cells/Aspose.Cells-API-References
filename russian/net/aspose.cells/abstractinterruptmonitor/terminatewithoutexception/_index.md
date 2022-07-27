@@ -1,14 +1,14 @@
 ---
 title: TerminateWithoutException
 second_title: Справочник по Aspose.Cells для .NET API
-description: Когда процедура прерывается следует ли тихо завершить процедуру или выдать исключение. Значение по умолчанию равно false то есть когдаIsInterruptionRequestedaspose.cells/abstractinterruptmonitor/isinterruptionrequestedравно true aCellsExceptionaspose.cells/cellsexceptionс кодомInterruptedбудет выброшен.
+description: Когда процедура прерывается следует ли завершить процедуру тихо или вызвать исключение. Значение по умолчанию  false то есть когдаIsInterruptionRequestedaspose.cells/abstractinterruptmonitor/isinterruptionrequested верно aCellsExceptionaspose.cells/cellsexception с кодомInterrupted будет брошен.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/abstractinterruptmonitor/terminatewithoutexception/
 ---
 ## AbstractInterruptMonitor.TerminateWithoutException property
 
-Когда процедура прерывается, следует ли тихо завершить процедуру или выдать исключение. Значение по умолчанию равно false, то есть когда[`IsInterruptionRequested`](../isinterruptionrequested)равно true, a[`CellsException`](../../cellsexception)с кодомInterruptedбудет выброшен.
+Когда процедура прерывается, следует ли завершить процедуру тихо или вызвать исключение. Значение по умолчанию — false, то есть когда[`IsInterruptionRequested`](../isinterruptionrequested) верно, a[`CellsException`](../../cellsexception) с кодомInterrupted будет брошен.
 
 ```csharp
 public virtual bool TerminateWithoutException { get; }

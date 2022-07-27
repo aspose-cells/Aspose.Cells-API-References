@@ -1,14 +1,14 @@
 ---
 title: GetStyle
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает стиль ячейки. При изменении стиля следует вызывать метод SetStyle для установки стиля в ячейку.
+description: Получает стиль ячейки. При изменении стиля следует вызвать метод SetStyle для установки стиля ячейки.
 type: docs
 weight: 280
 url: /ru/net/aspose.cells.griddesktop.data/gridcell/getstyle/
 ---
 ## GridCell.GetStyle method
 
-Получает стиль ячейки. При изменении стиля следует вызывать метод "SetStyle", для установки стиля в ячейку.
+Получает стиль ячейки. При изменении стиля следует вызвать метод "SetStyle", для установки стиля ячейки.
 
 ```csharp
 public Style GetStyle()

@@ -1,14 +1,14 @@
 ---
 title: IsColumnHidden
 second_title: Справочник по Aspose.Cells для .NET API
-description: Проверяет скрыт ли столбец с заданным индексом.
+description: Проверяет скрыт ли столбец с данным индексом.
 type: docs
 weight: 600
 url: /ru/net/aspose.cells.gridweb.data/gridcells/iscolumnhidden/
 ---
 ## GridCells.IsColumnHidden method
 
-Проверяет, скрыт ли столбец с заданным индексом.
+Проверяет, скрыт ли столбец с данным индексом.
 
 ```csharp
 public bool IsColumnHidden(int columnIndex)

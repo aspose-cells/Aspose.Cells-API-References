@@ -1,14 +1,14 @@
 ---
 title: ActiveCellColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает цвет активной ячейки.
+description: Указывает цвет активной ячейки.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.gridweb/viewerstyletemplate/activecellcolor/
 ---
 ## ViewerStyleTemplate.ActiveCellColor property
 
-Задает цвет активной ячейки.
+Указывает цвет активной ячейки.
 
 ```csharp
 public Color ActiveCellColor { get; set; }

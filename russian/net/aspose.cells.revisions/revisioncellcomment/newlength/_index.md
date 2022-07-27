@@ -1,14 +1,14 @@
 ---
 title: NewLength
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает длину комментария до внесения этой редакции.
+description: Получает длину комментария до того как была сделана эта редакция.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.revisions/revisioncellcomment/newlength/
 ---
 ## RevisionCellComment.NewLength property
 
-Получает длину комментария до внесения этой редакции.
+Получает длину комментария до того, как была сделана эта редакция.
 
 ```csharp
 public int NewLength { get; }

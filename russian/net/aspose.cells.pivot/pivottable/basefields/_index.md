@@ -1,14 +1,14 @@
 ---
 title: BaseFields
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает объект PivotFields включающий все поля отчета сводной таблицы
+description: Возвращает объект PivotFields включающий все поля сводной таблицы report
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.pivot/pivottable/basefields/
 ---
 ## PivotTable.BaseFields property
 
-Возвращает объект PivotFields, включающий все поля отчета сводной таблицы
+Возвращает объект PivotFields, включающий все поля сводной таблицы report
 
 ```csharp
 public PivotFieldCollection BaseFields { get; }

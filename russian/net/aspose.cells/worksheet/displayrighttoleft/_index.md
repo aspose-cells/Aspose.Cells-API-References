@@ -1,14 +1,14 @@
 ---
 title: DisplayRightToLeft
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает отображается ли указанный рабочий лист справа налево а не слева направо. По умолчанию false.
+description: Указывает отображается ли указанный рабочий лист справа налево а не слева направо. Значение по умолчанию  false.
 type: docs
 weight: 130
 url: /ru/net/aspose.cells/worksheet/displayrighttoleft/
 ---
 ## Worksheet.DisplayRightToLeft property
 
-Указывает, отображается ли указанный рабочий лист справа налево, а не слева направо. По умолчанию false.
+Указывает, отображается ли указанный рабочий лист справа налево, а не слева направо. Значение по умолчанию — false.
 
 ```csharp
 public bool DisplayRightToLeft { get; set; }

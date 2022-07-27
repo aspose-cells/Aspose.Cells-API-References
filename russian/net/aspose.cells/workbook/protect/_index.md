@@ -1,14 +1,14 @@
 ---
 title: Protect
 second_title: Справочник по Aspose.Cells для .NET API
-description: Защищает рабочую книгу.
+description: Защищает книгу.
 type: docs
 weight: 500
 url: /ru/net/aspose.cells/workbook/protect/
 ---
 ## Workbook.Protect method
 
-Защищает рабочую книгу.
+Защищает книгу.
 
 ```csharp
 public void Protect(ProtectionType protectionType, string password)
@@ -17,7 +17,7 @@ public void Protect(ProtectionType protectionType, string password)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | protectionType | ProtectionType | Тип защиты. |
-| пароль | String | Пароль для защиты книги. |
+| password | String | Пароль для защиты книги. |
 
 ### Смотрите также
 

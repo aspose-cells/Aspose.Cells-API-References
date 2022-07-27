@@ -20,10 +20,10 @@ public enum LookInType
 | --- | --- | --- |
 | Formulas | `0` | 如果单元格包含公式，则从公式中查找对象，否则从值中查找。 |
 | Values | `1` | 仅从格式化值中查找对象。 |
-| ValuesExcludeFormulaCell | `2` | 仅从不包含公式的单元格的值中查找对象。 |
-| Comments | `3` | 仅从评论中查找对象。 |
+| ValuesExcludeFormulaCell | `2` | 仅从不包含公式的单元格值中查找对象。 |
+| Comments | `3` | 只从评论中找到对象。 |
 | OnlyFormulas | `4` | 仅从公式中查找对象。 |
-| OriginalValues | `5` | 仅从原始值中查找对象。 |
+| OriginalValues | `5` | 只从原始值中找到对象。 |
 
 ### 也可以看看
 

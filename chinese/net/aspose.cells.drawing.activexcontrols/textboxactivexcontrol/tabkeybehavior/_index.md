@@ -1,14 +1,14 @@
 ---
 title: TabKeyBehavior
 second_title: Aspose.Cells for .NET API 参考
-description: 指示控件文本中是否允许制表符
+description: 表示控件的文本中是否允许制表符
 type: docs
 weight: 190
 url: /zh/net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/tabkeybehavior/
 ---
 ## TextBoxActiveXControl.TabKeyBehavior property
 
-指示控件文本中是否允许制表符。
+表示控件的文本中是否允许制表符。
 
 ```csharp
 public bool TabKeyBehavior { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: DataConnections
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает коллекциюExternalConnectionaspose.cells.externalconnections/externalconnection.
+description: ПолучаетExternalConnectionaspose.cells.externalconnections/externalconnection коллекция.
 type: docs
 weight: 100
 url: /ru/net/aspose.cells/workbook/dataconnections/
 ---
 ## Workbook.DataConnections property
 
-Получает коллекцию[`ExternalConnection`](../../../aspose.cells.externalconnections/externalconnection).
+Получает[`ExternalConnection`](../../../aspose.cells.externalconnections/externalconnection) коллекция.
 
 ```csharp
 public ExternalConnectionCollection DataConnections { get; }

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取ShapeSegmentPathaspose.cells.drawing/shapesegmentpath对象
+description: 获取ShapeSegmentPathaspose.cells.drawing/shapesegmentpath对象.
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.drawing/shapesegmentpathcollection/item/
 ---
 ## ShapeSegmentPathCollection indexer
 
-获取[`ShapeSegmentPath`](../../shapesegmentpath)对象。
+获取[`ShapeSegmentPath`](../../shapesegmentpath)对象.
 
 ```csharp
 public ShapeSegmentPath this[int index] { get; }
@@ -16,11 +16,11 @@ public ShapeSegmentPath this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引。 |
+| index | 指数。 |
 
 ### 返回值
 
-返回[`ShapeSegmentPath`](../../shapesegmentpath)对象。
+返回一个[`ShapeSegmentPath`](../../shapesegmentpath)目的。
 
 ### 也可以看看
 

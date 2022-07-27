@@ -1,14 +1,14 @@
 ---
 title: AutonumberScheme
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет собой схему автоматического номера.
+description: Представляет схему автоматического номера.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.drawing.texts/autonumberedbulletvalue/autonumberscheme/
 ---
 ## AutoNumberedBulletValue.AutonumberScheme property
 
-Представляет собой схему автоматического номера.
+Представляет схему автоматического номера.
 
 ```csharp
 public TextAutonumberScheme AutonumberScheme { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: PrecisionAsDisplayed
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливается ли точность вычисляемого результата так как он отображается при вычислении формул
+description: Будет ли установлена точность вычисляемого результата как они отображаются при вычислении формул
 type: docs
 weight: 100
 url: /ru/net/aspose.cells/formulasettings/precisionasdisplayed/
 ---
 ## FormulaSettings.PrecisionAsDisplayed property
 
-Устанавливается ли точность вычисляемого результата так, как он отображается при вычислении формул
+Будет ли установлена точность вычисляемого результата, как они отображаются при вычислении формул
 
 ```csharp
 public bool PrecisionAsDisplayed { get; set; }

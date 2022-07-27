@@ -1,14 +1,14 @@
 ---
 title: GetLegendDecreaseName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает имя Decrease для Legend.
+description: Получает имя Decrease для легенды.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.charts/chartglobalizationsettings/getlegenddecreasename/
 ---
 ## ChartGlobalizationSettings.GetLegendDecreaseName method
 
-Получает имя Decrease для Legend.
+Получает имя Decrease для легенды.
 
 ```csharp
 public virtual string GetLegendDecreaseName()

@@ -23,10 +23,10 @@ public bool IsSmartArt { get; }
 ```csharp
 
 [C#]
-  //если правда, форма умная art.
+// если правда, то фигура — это смарт-арт.
 if(shape.IsSmartArt)
 {
-      //Фигура является объектом SmartArt.
+    // Фигура является объектом SmartArt.
 }
 ```
 

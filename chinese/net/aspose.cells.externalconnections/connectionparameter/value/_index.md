@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Cells for .NET API 参考
-description: 非整数数值整数值字符串值或布尔值 用作查询参数仅在 parameterType 为 value 时使用
+description: 非整数数值整数值字符串值或布尔值 用作查询参数仅在 parameterType 为 value. 时使用
 type: docs
 weight: 70
 url: /zh/net/aspose.cells.externalconnections/connectionparameter/value/
 ---
 ## ConnectionParameter.Value property
 
-非整数数值、整数值、字符串值或布尔值 用作查询参数。仅在 parameterType 为 value 时使用。
+非整数数值、整数值、字符串值或布尔值 用作查询参数。仅在 parameterType 为 value. 时使用
 
 ```csharp
 public object Value { get; set; }

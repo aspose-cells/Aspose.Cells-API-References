@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示渐变色标集合
+description: 代表梯度停止集合
 type: docs
 weight: 2110
 url: /zh/net/aspose.cells.drawing/gradientstopcollection/
 ---
 ## GradientStopCollection class
 
-表示渐变色标集合。
+代表梯度停止集合。
 
 ```csharp
 public class GradientStopCollection : CollectionBase<GradientStop>
@@ -20,7 +20,7 @@ public class GradientStopCollection : CollectionBase<GradientStop>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.drawing/gradientstopcollection/item) { get; set; } | 通过索引获取渐变停止点。 (2 indexers) |
+| [Item](../../aspose.cells.drawing/gradientstopcollection/item) { get; set; } | 通过索引获取梯度停止点。 (2 indexers) |
 
 ## 方法
 

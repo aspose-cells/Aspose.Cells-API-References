@@ -18,15 +18,15 @@ public class StreamProviderOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [StreamProviderOptions](streamprovideroptions#constructor)() | 初始化[`StreamProviderOptions`](../streamprovideroptions)类的新实例。 |
-| [StreamProviderOptions](streamprovideroptions#constructor_1)(ResourceLoadingType, string) | 初始化[`StreamProviderOptions`](../streamprovideroptions)类的新实例。 |
+| [StreamProviderOptions](streamprovideroptions#constructor)() | 初始化[`StreamProviderOptions`](../streamprovideroptions)类. |
+| [StreamProviderOptions](streamprovideroptions#constructor_1)(ResourceLoadingType, string) | 初始化[`StreamProviderOptions`](../streamprovideroptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CustomPath](../../aspose.cells/streamprovideroptions/custompath) { set; } | 用户自定义路径（URL）保存在生成的 html 文件中，用于引用的源。如果用户未定义，则将使用 DefaultPath。 例如，表单数据将被用户保存到 d:/sheet001.htm，主 html 文件中使用的 url 应该是“d:/sheet001.htm”或其他有效的相对路径可以通过主 html 文件访问。 |
-| [DefaultPath](../../aspose.cells/streamprovideroptions/defaultpath) { get; } | 默认路径（URL）保存在生成的 html 文件中，用于引用的源。 比如xxx_files/sheet001.htm中保存的sheet数据，主html文件中使用的url应该是“src="xxx_files/sheet001.htm"” |
+| [CustomPath](../../aspose.cells/streamprovideroptions/custompath) { set; } | 保存在为引用源生成的 html 文件中的用户自定义路径（URL）。如果用户未定义，则使用 DefaultPath。 例如，用户将表单数据保存到 d:/sheet001.htm，主 html 文件中使用的 url 应为“d:/sheet001.htm”或主 html 文件可以访问的其他有效相对路径。 |
+| [DefaultPath](../../aspose.cells/streamprovideroptions/defaultpath) { get; } | 引用源生成的html文件中保存的默认路径(URL)。 例如xxx_files/sheet001.htm中保存的sheet数据，主html文件中使用的url应该是"src="xxx_files/sheet001 .htm"" |
 | [ResourceLoadingType](../../aspose.cells/streamprovideroptions/resourceloadingtype) { get; set; } | 获取和设置加载资源的类型。 |
 | [Stream](../../aspose.cells/streamprovideroptions/stream) { get; set; } | 获取/设置流 |
 

@@ -1,14 +1,14 @@
 ---
 title: AddShapeInChartByScale
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавить фигуру на диаграмму. Все единицы измерения представляют собой процентную шкалу области диаграммы.
+description: Добавьте фигуру на диаграмму. Все единицы измерения представляют собой процентную шкалу области диаграммы.
 type: docs
 weight: 280
 url: /ru/net/aspose.cells.drawing/shapecollection/addshapeinchartbyscale/
 ---
 ## AddShapeInChartByScale(MsoDrawingType, PlacementType, double, double, double, double) {#addshapeinchartbyscale}
 
-Добавить фигуру на диаграмму. Все единицы измерения представляют собой процентную шкалу области диаграммы.
+Добавьте фигуру на диаграмму. Все единицы измерения представляют собой процентную шкалу области диаграммы.
 
 ```csharp
 public Shape AddShapeInChartByScale(MsoDrawingType type, PlacementType placement, double left, 
@@ -17,12 +17,12 @@ public Shape AddShapeInChartByScale(MsoDrawingType type, PlacementType placement
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | MsoDrawingType | Тип чертежа. |
+| type | MsoDrawingType | Тип рисунка. |
 | placement | PlacementType | тип размещения. |
-| left | Double | Единица измерения - масштаб в процентах от ширины области диаграммы. |
-| top | Double | Единица измерения - процентная шкала высоты области диаграммы. |
-| right | Double | Единица измерения - масштаб в процентах от ширины области диаграммы. |
-| bottom | Double | Единица измерения - процентная шкала высоты области диаграммы. |
+| left | Double | Единицей является процентная шкала ширины области диаграммы. |
+| top | Double | Единицей является процентная шкала высоты области диаграммы. |
+| right | Double | Единицей является процентная шкала ширины области диаграммы. |
+| bottom | Double | Единицей является процентная шкала высоты области диаграммы. |
 
 ### Смотрите также
 
@@ -37,7 +37,7 @@ public Shape AddShapeInChartByScale(MsoDrawingType type, PlacementType placement
 
 ## AddShapeInChartByScale(MsoDrawingType, PlacementType, double, double, double, double, byte[]) {#addshapeinchartbyscale_1}
 
-Добавить фигуру на диаграмму. Все единицы измерения составляют 1/4000 области диаграммы.
+Добавить фигуру на диаграмму. Все единицы измерения составляют 1/4000 площади диаграммы.
 
 ```csharp
 public Shape AddShapeInChartByScale(MsoDrawingType type, PlacementType placement, double left, 
@@ -46,12 +46,12 @@ public Shape AddShapeInChartByScale(MsoDrawingType type, PlacementType placement
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | MsoDrawingType | Тип чертежа. |
+| type | MsoDrawingType | Тип рисунка. |
 | placement | PlacementType | тип размещения. |
-| left | Double | Единица измерения - масштаб в процентах от ширины области диаграммы. |
-| top | Double | Единица измерения - процентная шкала высоты области диаграммы. |
-| right | Double | Единица измерения - масштаб в процентах от ширины области диаграммы. |
-| bottom | Double | Единица измерения - процентная шкала высоты области диаграммы. |
+| left | Double | Единицей является процентная шкала ширины области диаграммы. |
+| top | Double | Единицей является процентная шкала высоты области диаграммы. |
+| right | Double | Единицей является процентная шкала ширины области диаграммы. |
+| bottom | Double | Единицей является процентная шкала высоты области диаграммы. |
 | imageData | Byte[] | Если фигура не является изображением или оле-объектом, значение imageData должно быть нулевым. |
 
 ### Смотрите также

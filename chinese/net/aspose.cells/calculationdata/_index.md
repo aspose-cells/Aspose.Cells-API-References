@@ -19,13 +19,13 @@ public class CalculationData
 | 姓名 | 描述 |
 | --- | --- |
 | [CalculatedValue](../../aspose.cells/calculationdata/calculatedvalue) { get; set; } | 获取或设置此函数的计算值。 |
-| [Cell](../../aspose.cells/calculationdata/cell) { get; } | 获取函数所在的 Cell 对象。 |
+| [Cell](../../aspose.cells/calculationdata/cell) { get; } | 获取函数所在的Cell对象。 |
 | [CellColumn](../../aspose.cells/calculationdata/cellcolumn) { get; } | 获取函数所在单元格的列索引。 |
 | [CellRow](../../aspose.cells/calculationdata/cellrow) { get; } | 获取函数所在单元格的行索引。 |
-| [FunctionName](../../aspose.cells/calculationdata/functionname) { get; } | 获取要计算的函数名。 |
-| [ParamCount](../../aspose.cells/calculationdata/paramcount) { get; } | 获取参数个数 |
-| [Workbook](../../aspose.cells/calculationdata/workbook) { get; } | 获取函数所在的 Workbook 对象。 |
-| [Worksheet](../../aspose.cells/calculationdata/worksheet) { get; } | 获取函数所在的 Worksheet 对象。 |
+| [FunctionName](../../aspose.cells/calculationdata/functionname) { get; } | 获取要计算的函数名 |
+| [ParamCount](../../aspose.cells/calculationdata/paramcount) { get; } | 获取参数的计数 |
+| [Workbook](../../aspose.cells/calculationdata/workbook) { get; } | 获取函数所在的Workbook对象。 |
+| [Worksheet](../../aspose.cells/calculationdata/worksheet) { get; } | 获取函数所在的Worksheet对象。 |
 
 ## 方法
 
@@ -36,7 +36,7 @@ public class CalculationData
 
 ### 评论
 
-此类提供的所有对象仅用于“读取”目的。 用户在公式计算过程中不要更改工作簿中的任何数据， 否则可能会导致意外结果或异常。
+该类提供的所有对象仅用于“读取”目的。 用户在公式计算过程中不应更改工作簿中的任何数据， 否则可能会导致意外结果或异常。
 
 ### 也可以看看
 

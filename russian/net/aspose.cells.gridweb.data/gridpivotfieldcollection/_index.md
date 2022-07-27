@@ -1,14 +1,14 @@
 ---
 title: GridPivotFieldCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует набор объектовPivotField.
+description: Инкапсулирует наборPivotField объекты.
 type: docs
 weight: 360
 url: /ru/net/aspose.cells.gridweb.data/gridpivotfieldcollection/
 ---
 ## GridPivotFieldCollection class
 
-Инкапсулирует набор объектовPivotField.
+Инкапсулирует наборPivotField объекты.
 
 ```csharp
 public class GridPivotFieldCollection
@@ -19,7 +19,7 @@ public class GridPivotFieldCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.cells.gridweb.data/gridpivotfieldcollection/count) { get; } |  |
-| [Item](../../aspose.cells.gridweb.data/gridpivotfieldcollection/item) { get; } | Получает элементPivotFieldпо указанному индексу. |
+| [Item](../../aspose.cells.gridweb.data/gridpivotfieldcollection/item) { get; } | ПолучаетPivotField элемент по указанному индексу. |
 
 ## Методы
 

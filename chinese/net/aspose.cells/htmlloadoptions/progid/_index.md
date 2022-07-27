@@ -1,14 +1,14 @@
 ---
 title: ProgId
 second_title: Aspose.Cells for .NET API 参考
-description: 获取创建文件的程序ID 仅适用于 MHT 文件
+description: 获取创建文件的程序 id 仅适用于 MHT 文件
 type: docs
 weight: 60
 url: /zh/net/aspose.cells/htmlloadoptions/progid/
 ---
 ## HtmlLoadOptions.ProgId property
 
-获取创建文件的程序ID。 仅适用于 MHT 文件。
+获取创建文件的程序 id。 仅适用于 MHT 文件。
 
 ```csharp
 public string ProgId { get; }

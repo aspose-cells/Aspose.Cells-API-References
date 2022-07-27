@@ -17,8 +17,8 @@ public int AddProjectRefrernce(string name, string absoluteLibid, string relativ
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | 参考名称。 |
-| absoluteLibid | String | 引用的 VBA 项目的标识符，带有绝对路径。 |
-| relativeLibid | String | 具有相对路径的引用 VBA 项目标识符。 |
+| absoluteLibid | String | 具有绝对路径的引用的 VBA 项目的标识符。 |
+| relativeLibid | String | 具有相对路径的引用 VBA 项目的标识符。 |
 
 ### 也可以看看
 

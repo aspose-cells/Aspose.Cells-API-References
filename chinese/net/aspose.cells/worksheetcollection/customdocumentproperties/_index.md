@@ -1,14 +1,14 @@
 ---
 title: CustomDocumentProperties
 second_title: Aspose.Cells for .NET API 参考
-description: 返回代表电子表格所有自定义文档属性的DocumentPropertyaspose.cells.properties/documentproperty集合
+description: 返回一个DocumentPropertyaspose.cells.properties/documentproperty表示电子表格的所有自定义文档属性的集合
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/worksheetcollection/customdocumentproperties/
 ---
 ## WorksheetCollection.CustomDocumentProperties property
 
-返回代表电子表格所有自定义文档属性的[`DocumentProperty`](../../../aspose.cells.properties/documentproperty)集合。
+返回一个[`DocumentProperty`](../../../aspose.cells.properties/documentproperty)表示电子表格的所有自定义文档属性的集合。
 
 ```csharp
 public CustomDocumentPropertyCollection CustomDocumentProperties { get; }

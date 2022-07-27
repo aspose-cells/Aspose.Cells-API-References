@@ -19,15 +19,15 @@ public class Format3D
 | 姓名 | 描述 |
 | --- | --- |
 | [LightingAngle](../../aspose.cells.drawing/format3d/lightingangle) { get; set; } | 获取和设置光照角度。范围从 0 到 359.9 度。 |
-| [SurfaceLightingType](../../aspose.cells.drawing/format3d/surfacelightingtype) { get; set; } | 获取和设置要应用于形状场景的照明类型。 默认值为 LightRigType.ThreePoint。 |
-| [SurfaceMaterialType](../../aspose.cells.drawing/format3d/surfacematerialtype) { get; set; } | 获取和设置与光照属性相结合的材质类型，以提供形状的最终外观和感觉。 默认值为 PresetMaterialType.WarmMatte。 |
-| [TopBevel](../../aspose.cells.drawing/format3d/topbevel) { get; } | 获取对象，该对象包含与在顶部或正面定义斜面相关的属性的一种形状。 |
+| [SurfaceLightingType](../../aspose.cells.drawing/format3d/surfacelightingtype) { get; set; } | 获取和设置要应用于形状场景的光照类型。 默认值为 LightRigType.ThreePoint. |
+| [SurfaceMaterialType](../../aspose.cells.drawing/format3d/surfacematerialtype) { get; set; } | 获取和设置与光照属性相结合的材质类型，以提供形状的最终外观。 默认值为 PresetMaterialType.WarmMatte。 |
+| [TopBevel](../../aspose.cells.drawing/format3d/topbevel) { get; } | 获取包含与在形状的顶部或正面定义斜面相关联的属性的对象。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [HasTopBevelData](../../aspose.cells.drawing/format3d/hastopbeveldata)() | 指示形状是否具有顶部斜角数据。 |
+| [HasTopBevelData](../../aspose.cells.drawing/format3d/hastopbeveldata)() | 表示形状是否有顶部斜角数据。 |
 
 ### 也可以看看
 

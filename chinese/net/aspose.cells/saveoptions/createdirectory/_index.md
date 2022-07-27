@@ -1,14 +1,14 @@
 ---
 title: CreateDirectory
 second_title: Aspose.Cells for .NET API 参考
-description: 如果为true且目录不存在则在保存文件之前会自动创建目录
+description: 如果为true且目录不存在会在保存文件前自动创建目录
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/saveoptions/createdirectory/
 ---
 ## SaveOptions.CreateDirectory property
 
-如果为true且目录不存在，则在保存文件之前会自动创建目录。
+如果为true且目录不存在，会在保存文件前自动创建目录。
 
 ```csharp
 public bool CreateDirectory { get; set; }
@@ -16,7 +16,7 @@ public bool CreateDirectory { get; set; }
 
 ### 评论
 
-默认值为 false。
+默认值为false。
 
 ### 也可以看看
 

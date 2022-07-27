@@ -25,7 +25,7 @@ public class JsonLayoutOptions
 | Имя | Описание |
 | --- | --- |
 | [ArrayAsTable](../../aspose.cells.utility/jsonlayoutoptions/arrayastable) { get; set; } | Обрабатывает массив как таблицу. |
-| [ConvertNumericOrDate](../../aspose.cells.utility/jsonlayoutoptions/convertnumericordate) { get; set; } | Получает или задает значение, указывающее, преобразуется ли строка в json в числовую или дату. |
+| [ConvertNumericOrDate](../../aspose.cells.utility/jsonlayoutoptions/convertnumericordate) { get; set; } | Получает или задает значение, указывающее, преобразуется ли строка в формате json в числовое значение или в дату. |
 | [DateFormat](../../aspose.cells.utility/jsonlayoutoptions/dateformat) { get; set; } | Получает и задает формат значения даты. |
 | [IgnoreArrayTitle](../../aspose.cells.utility/jsonlayoutoptions/ignorearraytitle) { get; set; } | Указывает, следует ли игнорировать заголовок, если массив является свойством объекта. |
 | [IgnoreNull](../../aspose.cells.utility/jsonlayoutoptions/ignorenull) { get; set; } | Указывает, игнорируется ли нулевое значение. |

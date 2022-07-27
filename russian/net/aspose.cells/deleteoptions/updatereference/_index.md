@@ -1,14 +1,14 @@
 ---
 title: UpdateReference
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает обновляются ли ссылки в других рабочих листах.
+description: Указывает обновляются ли ссылки на других листах.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/deleteoptions/updatereference/
 ---
 ## DeleteOptions.UpdateReference property
 
-Указывает, обновляются ли ссылки в других рабочих листах.
+Указывает, обновляются ли ссылки на других листах.
 
 ```csharp
 public bool UpdateReference { get; set; }

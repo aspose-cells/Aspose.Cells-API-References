@@ -1,14 +1,14 @@
 ---
 title: MsoPresetTextEffectShape
 second_title: Aspose.Cells for .NET API 参考
-description: 代表艺术字预设的文字效果形状类型
+description: 代表艺术字的预设文字效果形状类型
 type: docs
 weight: 2400
 url: /zh/net/aspose.cells.drawing/msopresettexteffectshape/
 ---
 ## MsoPresetTextEffectShape enumeration
 
-代表艺术字预设的文字效果形状类型。
+代表艺术字的预设文字效果形状类型。
 
 ```csharp
 public enum MsoPresetTextEffectShape
@@ -20,15 +20,15 @@ public enum MsoPresetTextEffectShape
 | --- | --- | --- |
 | PlainText | `136` | 纯文本 |
 | Stop | `137` | 停止 |
-| TriangleUp | `138` | TriangleUp |
-| TriangleDown | `139` | TriangleDown |
+| TriangleUp | `138` | 三角向上 |
+| TriangleDown | `139` | 下三角 |
 | ChevronUp | `140` | ChevronUp |
 | ChevronDown | `141` | ChevronDown |
 | RingInside | `142` | RingInside |
-| RingOutside | `143` | RingOutside |
+| RingOutside | `143` | 环外 |
 | ArchUpCurve | `144` | ArchUpCurve |
 | ArchDownCurve | `145` | ArchDownCurve |
-| CircleCurve | `146` | CircleCurve |
+| CircleCurve | `146` | 圆形曲线 |
 | ButtonCurve | `147` | ButtonCurve |
 | ArchUpPour | `148` | ArchUpPour |
 | ArchDownPour | `149` | ArchDownPour |
@@ -40,8 +40,8 @@ public enum MsoPresetTextEffectShape
 | CanDown | `175` | CanDown |
 | Wave1 | `156` | Wave1 |
 | Wave2 | `157` | Wave2 |
-| DoubleWave1 | `158` | DoubleWave1 |
-| DoubleWave2 | `159` | DoubleWave2 |
+| DoubleWave1 | `158` | 双波1 |
+| DoubleWave2 | `159` | 双波2 |
 | Inflate | `160` | 充气 |
 | Deflate | `161` | 放气 |
 | InflateBottom | `162` | InflateBottom |
@@ -52,9 +52,9 @@ public enum MsoPresetTextEffectShape
 | DeflateInflateDeflate | `167` | DeflateInflateDeflate |
 | FadeRight | `168` | FadeRight |
 | FadeLeft | `169` | FadeLeft |
-| FadeUp | `170` | FadeUp |
+| FadeUp | `170` | 淡入淡出 |
 | FadeDown | `171` | FadeDown |
-| SlantUp | `172` | SlantUp |
+| SlantUp | `172` | 倾斜向上 |
 | SlantDown | `173` | SlantDown |
 | CascadeUp | `154` | CascadeUp |
 | CascadeDown | `155` | CascadeDown |

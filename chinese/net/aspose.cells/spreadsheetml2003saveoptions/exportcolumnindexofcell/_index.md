@@ -1,14 +1,14 @@
 ---
 title: ExportColumnIndexOfCell
 second_title: Aspose.Cells for .NET API 参考
-description: 默认值为 false表示如果单元格与前一个单元格相邻则忽略列索引
+description: 默认值为false表示如果单元格与前一个单元格相邻则忽略列索引
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/spreadsheetml2003saveoptions/exportcolumnindexofcell/
 ---
 ## SpreadsheetML2003SaveOptions.ExportColumnIndexOfCell property
 
-默认值为 false，表示如果单元格与前一个单元格相邻，则忽略列索引。
+默认值为false，表示如果单元格与前一个单元格相邻，则忽略列索引。
 
 ```csharp
 public bool ExportColumnIndexOfCell { get; set; }

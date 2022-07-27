@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получите перечислитель который перебирает эту коллекцию.
+description: Получите перечислитель который выполняет итерацию по этой коллекции.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells/externallinkcollection/getenumerator/
 ---
 ## ExternalLinkCollection.GetEnumerator method
 
-Получите перечислитель, который перебирает эту коллекцию.
+Получите перечислитель, который выполняет итерацию по этой коллекции.
 
 ```csharp
 public IEnumerator GetEnumerator()

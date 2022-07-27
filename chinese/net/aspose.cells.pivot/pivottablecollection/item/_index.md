@@ -25,7 +25,7 @@ public PivotTable this[int index] { get; }
 
 ## PivotTableCollection indexer (2 of 3)
 
-通过数据透视表的名称获取数据透视表报表。
+通过数据透视表的名称获取数据透视表报告。
 
 ```csharp
 public PivotTable this[string name] { get; }

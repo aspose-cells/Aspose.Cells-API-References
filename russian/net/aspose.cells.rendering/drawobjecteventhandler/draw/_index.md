@@ -16,9 +16,9 @@ public virtual void Draw(DrawObject drawObject, float x, float y, float width, f
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| drawObject | DrawObject | DrawObject будет инициализирован и возвращен при рендеринге |
+| drawObject | DrawObject | DrawObject будет инициализирован и возвращен при рендеринге. |
 | x | Single | Слева от DrawObject |
-| y | Single | Верх DrawObject |
+| y | Single | Верхняя часть DrawObject |
 | width | Single | Ширина DrawObject |
 | height | Single | Высота DrawObject |
 

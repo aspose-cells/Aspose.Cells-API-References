@@ -1,14 +1,14 @@
 ---
 title: NoneFill
 second_title: Aspose.Cells for .NET API 参考
-description: 表示无填充
+description: 表示没有填充
 type: docs
 weight: 2420
 url: /zh/net/aspose.cells.drawing/nonefill/
 ---
 ## NoneFill class
 
-表示无填充。
+表示没有填充。
 
 ```csharp
 public class NoneFill : Fill

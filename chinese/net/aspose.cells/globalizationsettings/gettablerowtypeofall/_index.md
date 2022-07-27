@@ -1,14 +1,14 @@
 ---
 title: GetTableRowTypeOfAll
 second_title: Aspose.Cells for .NET API 参考
-description: 获取包含引用表中所有行的表行的类型名称 默认为All因此在公式中All表示引用表中的所有行
+description: 获取由引用表中所有行组成的表行的类型名称 默认为All因此公式中All表示引用表中的所有行
 type: docs
 weight: 250
 url: /zh/net/aspose.cells/globalizationsettings/gettablerowtypeofall/
 ---
 ## GlobalizationSettings.GetTableRowTypeOfAll method
 
-获取包含引用表中所有行的表行的类型名称。 默认为“All”，因此在公式中“#All”表示引用表中的所有行。
+获取由引用表中所有行组成的表行的类型名称。 默认为“All”，因此公式中“#All”表示引用表中的所有行。
 
 ```csharp
 public virtual string GetTableRowTypeOfAll()

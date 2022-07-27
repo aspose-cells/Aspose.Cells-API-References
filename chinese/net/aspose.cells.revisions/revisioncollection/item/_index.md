@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 通过索引获取Revisionaspose.cells.revisions/revision
+description: 获取Revisionaspose.cells.revisions/revision按索引.
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.revisions/revisioncollection/item/
 ---
 ## RevisionCollection indexer
 
-通过索引获取[`Revision`](../../revision)。
+获取[`Revision`](../../revision)按索引.
 
 ```csharp
 public Revision this[int index] { get; }

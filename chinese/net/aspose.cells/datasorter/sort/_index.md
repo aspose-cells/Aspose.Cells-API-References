@@ -1,14 +1,14 @@
 ---
 title: Sort
 second_title: Aspose.Cells for .NET API 参考
-description: 对区域的数据进行排序
+description: 对该区域的数据进行排序
 type: docs
 weight: 140
 url: /zh/net/aspose.cells/datasorter/sort/
 ---
 ## Sort(Cells, int, int, int, int) {#sort_2}
 
-对区域的数据进行排序。
+对该区域的数据进行排序。
 
 ```csharp
 public int[] Sort(Cells cells, int startRow, int startColumn, int endRow, int endColumn)
@@ -19,12 +19,12 @@ public int[] Sort(Cells cells, int startRow, int startColumn, int endRow, int en
 | cells | Cells | 单元格包含数据区域。 |
 | startRow | Int32 | 区域的起始行。 |
 | startColumn | Int32 | 区域的起始列。 |
-| endRow | Int32 | 区域的结束行。 |
-| endColumn | Int32 | 区域的结束列。 |
+| endRow | Int32 | 区域的最后一行。 |
+| endColumn | Int32 | 区域的最后一列。 |
 
 ### 返回值
 
-排序后的行/列的原始索引（绝对位置，例如A列为0，B为1，...）。 如果此排序操作不需要移动行/列，则返回 null。
+排序后的行/列的原始索引（绝对位置，例如A列为0，B为1，...）。 如果此排序操作不需要移动行/列，将返回null。
 
 ### 也可以看看
 
@@ -37,7 +37,7 @@ public int[] Sort(Cells cells, int startRow, int startColumn, int endRow, int en
 
 ## Sort(Cells, CellArea) {#sort_1}
 
-对该区域的数据进行排序。
+对该区域的数据进行排序
 
 ```csharp
 public int[] Sort(Cells cells, CellArea area)
@@ -50,7 +50,7 @@ public int[] Sort(Cells cells, CellArea area)
 
 ### 返回值
 
-原始索引（绝对位置，例如列A 为 0，B 为 1，...) 的已排序行/列。 如果此排序操作不需要移动行/列，则返回 null。
+排序后的行/列的原始索引（绝对位置，例如A列为0，B为1，...）。 如果此排序操作不需要移动行/列，将返回null。
 
 ### 也可以看看
 
@@ -72,7 +72,7 @@ public int[] Sort()
 
 ### 返回值
 
-已排序行的原始索引（绝对位置，例如A列为0，B为1，...） /列。 如果此排序操作不需要移动行/列，则返回 null。
+排序后的行/列的原始索引（绝对位置，例如A列为0，B为1，...）。 如果此排序操作不需要移动行/列，将返回null。
 
 ### 也可以看看
 

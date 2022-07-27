@@ -20,8 +20,8 @@ public enum CellValueFormatStrategy
 | --- | --- | --- |
 | None | `0` | 未格式化。 |
 | CellStyle | `1` | 仅使用单元格的原始样式格式化。 |
-| DisplayStyle | `2` | 以单元格的显示样式格式化。 |
-| DisplayString | `3` | 获取 ms excel 中显示的字符串。 与DisplayStyle的主要区别在于该选项还考虑了列宽的影响。 如果列宽太小而无法完整显示格式化字符串，可能会显示 "#"，就像 ms excel 所做的那样。 |
+| DisplayStyle | `2` | 使用单元格的显示样式格式化。 |
+| DisplayString | `3` | 获取ms excel中显示的字符串。 主要区别于DisplayStyle这个选项是否也考虑了列宽的影响。 如果列宽太小，无法完整显示格式化字符串， 可能会显示“#”，就像ms excel一样。 |
 
 ### 也可以看看
 

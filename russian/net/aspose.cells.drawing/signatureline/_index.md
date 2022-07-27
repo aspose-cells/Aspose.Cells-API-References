@@ -25,13 +25,13 @@ public class SignatureLine
 | Имя | Описание |
 | --- | --- |
 | [AllowComments](../../aspose.cells.drawing/signatureline/allowcomments) { get; set; } | Указывает, можно ли прикреплять комментарии. |
-| [Email](../../aspose.cells.drawing/signatureline/email) { get; set; } | Получает и устанавливает адрес электронной почты исполнителя. |
+| [Email](../../aspose.cells.drawing/signatureline/email) { get; set; } | Получает и устанавливает адрес электронной почты певца. |
 | [Id](../../aspose.cells.drawing/signatureline/id) { get; set; } | Получает или устанавливает идентификатор для этой строки подписи. |
 | [Instructions](../../aspose.cells.drawing/signatureline/instructions) { get; set; } | Получает и задает текст, отображаемый пользователю во время подписания. |
-| [IsLine](../../aspose.cells.drawing/signatureline/isline) { get; set; } | Указывает, является ли строка подписью. |
+| [IsLine](../../aspose.cells.drawing/signatureline/isline) { get; set; } | Указывает, является ли это строкой подписи. |
 | [ProviderId](../../aspose.cells.drawing/signatureline/providerid) { get; set; } | Получает и устанавливает идентификатор поставщика подписи. |
 | [ShowSignedDate](../../aspose.cells.drawing/signatureline/showsigneddate) { get; set; } | Указывает, показывать ли подписанную дату. |
-| [Signer](../../aspose.cells.drawing/signatureline/signer) { get; set; } | Получает и устанавливает подписывающую сторону. |
+| [Signer](../../aspose.cells.drawing/signatureline/signer) { get; set; } | Получает и задает подписывающую сторону. |
 | [Title](../../aspose.cells.drawing/signatureline/title) { get; set; } | Получает и устанавливает титул певца. |
 
 ### Примеры
@@ -40,24 +40,24 @@ public class SignatureLine
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 
-  //Добавляем картинку
+//Добавляем картинку
 int imgIndex = worksheet.Pictures.Add(1, 1, "sample.png");
 Picture pic = worksheet.Pictures[imgIndex];
-  // Создаем строку подписи object
+// Создаем объект строки подписи
 SignatureLine s = new SignatureLine();
 s.Signer = "Simon Zhao";
 s.Title = "Development Lead";
 s.Email = "Simon.Zhao@aspose.com";
-  // Назначаем объект строки подписи Picture.SignatureLine property
+// Назначаем объект линии подписи свойству Picture.SignatureLine
 pic.SignatureLine = s;
 
-  //делай свое дело
+//делай свое дело
 
-  // Сохраняем файл Excel.
+// Сохраняем файл excel.
 workbook.Save("result.xlsx");
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: CopyCommentsInRange
 second_title: Aspose.Cells for .NET API 参考
-description: 复制范围内的所有注释
+description: 复制范围内的所有评论
 type: docs
 weight: 370
 url: /zh/net/aspose.cells.drawing/shapecollection/copycommentsinrange/
 ---
 ## ShapeCollection.CopyCommentsInRange method
 
-复制范围内的所有注释。
+复制范围内的所有评论。
 
 ```csharp
 public void CopyCommentsInRange(ShapeCollection shapes, CellArea ca, int destRow, int destColumn)
@@ -18,8 +18,8 @@ public void CopyCommentsInRange(ShapeCollection shapes, CellArea ca, int destRow
 | --- | --- | --- |
 | shapes | ShapeCollection | 源形状。 |
 | ca | CellArea | 源范围。 |
-| destRow | Int32 | dest 范围起始行。 |
-| destColumn | Int32 | dest 范围起始列。 |
+| destRow | Int32 | dest 范围开始行。 |
+| destColumn | Int32 | dest 范围开始列。 |
 
 ### 例子
 
@@ -28,15 +28,13 @@ public void CopyCommentsInRange(ShapeCollection shapes, CellArea ca, int destRow
 [C#]
 CommentCollection comments = workbook.Worksheets[0].Comments;
 
- //给单元格A1
-
+//给A1单元格添加注释
 int commentIndex = comments.Add(0, 0);
 Comment comment = comments[commentIndex];
 comment.Note = "First note.";
 comment.Font.Name = "Times New Roman";
 
-//向单元格B2
-
+//给B2单元格添加注释
 comments.Add("B2");
 comment = comments["B2"];
 comment.Note = "Second note.";
@@ -47,7 +45,7 @@ area1.StartRow = 1;
 area1.EndColumn = 5;
 area1.EndRow = 4;
 
- //copy
+//复制
 shapes.CopyCommentsInRange(shapes, area1, 5, 1);
 
 ```

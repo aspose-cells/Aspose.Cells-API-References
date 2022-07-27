@@ -1,14 +1,14 @@
 ---
 title: ShrinkToFit
 second_title: Aspose.Cells for .NET API 参考
-description: 表示文本是否自动缩小以适应可用的列宽
+description: 表示文本是否自动缩小以适合可用的列宽
 type: docs
 weight: 280
 url: /zh/net/aspose.cells/style/shrinktofit/
 ---
 ## Style.ShrinkToFit property
 
-表示文本是否自动缩小以适应可用的列宽。
+表示文本是否自动缩小以适合可用的列宽。
 
 ```csharp
 public bool ShrinkToFit { get; set; }

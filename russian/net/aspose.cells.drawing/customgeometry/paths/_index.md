@@ -1,14 +1,14 @@
 ---
 title: Paths
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает информацию о наборе путей если фигура является автофигурой NotPrimitive
+description: Получает информацию о наборе путей если фигура является NotPrimitive autoshape
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.drawing/customgeometry/paths/
 ---
 ## CustomGeometry.Paths property
 
-Получает информацию о наборе путей, если фигура является автофигурой NotPrimitive
+Получает информацию о наборе путей, если фигура является NotPrimitive autoshape
 
 ```csharp
 public ShapePathCollection Paths { get; }

@@ -1,14 +1,14 @@
 ---
 title: ReferredArea
 second_title: Aspose.Cells for .NET API 参考
-description: 用公式表示一个引用区域
+description: 用公式表示一个参考区域
 type: docs
 weight: 5050
 url: /zh/net/aspose.cells/referredarea/
 ---
 ## ReferredArea class
 
-用公式表示一个引用区域。
+用公式表示一个参考区域。
 
 ```csharp
 public class ReferredArea
@@ -23,7 +23,7 @@ public class ReferredArea
 | [ExternalFileName](../../aspose.cells/referredarea/externalfilename) { get; } | 如果这是外部引用，则获取外部文件名。 |
 | [IsArea](../../aspose.cells/referredarea/isarea) { get; } | 表示这是否是一个区域。 |
 | [IsExternalLink](../../aspose.cells/referredarea/isexternallink) { get; } | 表示这是否是外部链接。 |
-| [SheetName](../../aspose.cells/referredarea/sheetname) { get; } | 指示此引用所在的工作表。 |
+| [SheetName](../../aspose.cells/referredarea/sheetname) { get; } | 指示此参考在哪个工作表中。 |
 | [StartColumn](../../aspose.cells/referredarea/startcolumn) { get; } | 区域的起始列。 |
 | [StartRow](../../aspose.cells/referredarea/startrow) { get; } | 区域的起始行。 |
 
@@ -35,7 +35,7 @@ public class ReferredArea
 | [GetValue](../../aspose.cells/referredarea/getvalue#getvalue_1)(int, int, bool) | 从该区域的左上角获取具有给定偏移量的单元格值。 |
 | [GetValues](../../aspose.cells/referredarea/getvalues#getvalues)() | 获取该区域的单元格值。 |
 | [GetValues](../../aspose.cells/referredarea/getvalues#getvalues_1)(bool) | 获取该区域的单元格值。 |
-| override [ToString](../../aspose.cells/referredarea/tostring)() | 返回该区域的简单字符串表示。 |
+| override [ToString](../../aspose.cells/referredarea/tostring)() | 返回此区域的简单字符串表示形式。 |
 
 ### 也可以看看
 

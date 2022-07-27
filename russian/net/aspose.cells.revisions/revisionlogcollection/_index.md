@@ -21,7 +21,7 @@ public class RevisionLogCollection : CollectionBase<RevisionLog>
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
 | [DaysPreservingHistory](../../aspose.cells.revisions/revisionlogcollection/dayspreservinghistory) { get; set; } | Получает и задает количество дней, в течение которых приложение для работы с электронными таблицами будет хранить историю изменений для этой книги. |
-| [Item](../../aspose.cells.revisions/revisionlogcollection/item) { get; } | Получает[`RevisionLog`](../revisionlog)по индексу. |
+| [Item](../../aspose.cells.revisions/revisionlogcollection/item) { get; } | получает[`RevisionLog`](../revisionlog) по индексу. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы

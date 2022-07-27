@@ -1,14 +1,14 @@
 ---
 title: GetImageUrl
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получить URL-адрес изображения
+description: Получить изображение URL
 type: docs
 weight: 250
 url: /ru/net/aspose.cells.gridjs/gridjsworkbook/getimageurl/
 ---
 ## GridJsWorkbook.GetImageUrl method
 
-Получить URL-адрес изображения
+Получить изображение URL
 
 ```csharp
 public static string GetImageUrl(string uniqueid, string picid, string delimiter)
@@ -16,9 +16,9 @@ public static string GetImageUrl(string uniqueid, string picid, string delimiter
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueid | String | уникальный идентификатор листа файл |
+| uniqueid | String | уникальный идентификатор файла листа |
 | picid | String | идентификатор изображения |
-| разделитель | String | разделитель строк |
+| delimiter | String | разделитель строк |
 
 ### Смотрите также
 

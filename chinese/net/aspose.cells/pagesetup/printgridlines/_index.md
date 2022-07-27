@@ -1,14 +1,14 @@
 ---
 title: PrintGridlines
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否在页面上打印单元格网格线
+description: 表示页面上是否打印单元格网格线
 type: docs
 weight: 340
 url: /zh/net/aspose.cells/pagesetup/printgridlines/
 ---
 ## PageSetup.PrintGridlines property
 
-表示是否在页面上打印单元格网格线。
+表示页面上是否打印单元格网格线。
 
 ```csharp
 public bool PrintGridlines { get; set; }

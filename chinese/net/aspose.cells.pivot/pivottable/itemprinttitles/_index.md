@@ -1,14 +1,14 @@
 ---
 title: ItemPrintTitles
 second_title: Aspose.Cells for .NET API 参考
-description: 指定行轴 上的枢轴项目标题是否在每个打印页面上以表格形式重复枢轴字段
+description: 一个位指定是否在每个打印页面上为表格形式的枢轴字段重复轴 行上的枢轴项目标题
 type: docs
 weight: 330
 url: /zh/net/aspose.cells.pivot/pivottable/itemprinttitles/
 ---
 ## PivotTable.ItemPrintTitles property
 
-指定行轴 上的枢轴项目标题是否在每个打印页面上以表格形式重复枢轴字段。
+一个位，指定是否在每个打印页面上为表格形式的枢轴字段重复轴 行上的枢轴项目标题。
 
 ```csharp
 public bool ItemPrintTitles { get; set; }

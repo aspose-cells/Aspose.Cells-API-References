@@ -18,12 +18,12 @@ public enum CellValueType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| IsBool | `0` | 单元格值是布尔值。 |
+| IsBool | `0` | 单元格值为布尔值。 |
 | IsDateTime | `1` | 单元格值为日期时间。 |
 | IsError | `2` | 单元格包含错误值 |
 | IsNull | `3` | 空白单元格。 |
 | IsNumeric | `4` | 单元格值为数字。 |
-| IsString | `5` | 单元格值是字符串。 |
+| IsString | `5` | 单元格值为字符串。 |
 | IsUnknown | `6` | 单元格值类型未知。 |
 
 ### 也可以看看

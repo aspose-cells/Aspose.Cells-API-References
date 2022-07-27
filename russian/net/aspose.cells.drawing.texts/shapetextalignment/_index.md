@@ -19,24 +19,24 @@ public class ShapeTextAlignment
 | Имя | Описание |
 | --- | --- |
 | [AutoSize](../../aspose.cells.drawing.texts/shapetextalignment/autosize) { get; set; } | Указывает, регулируется ли размер фигуры автоматически в соответствии с ее содержимым. |
-| [BottomMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/bottommarginpt) { get; set; } | Возвращает нижнее поле в пунктах |
+| [BottomMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/bottommarginpt) { get; set; } | Возвращает нижнее поле в единицах Points |
 | [IsAutoMargin](../../aspose.cells.drawing.texts/shapetextalignment/isautomargin) { get; set; } | Указывает, является ли поле текстового фрейма автоматическим. |
 | [IsTextWrapped](../../aspose.cells.drawing.texts/shapetextalignment/istextwrapped) { get; set; } | Получает и задает тип переноса текста для фигуры, содержащей текст. |
-| [LeftMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/leftmarginpt) { get; set; } | Возвращает левое поле в пунктах |
-| [RightMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/rightmarginpt) { get; set; } | Возвращает правое поле в пунктах |
+| [LeftMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/leftmarginpt) { get; set; } | Возвращает левое поле в единицах Points |
+| [RightMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/rightmarginpt) { get; set; } | Возвращает правое поле в единицах Points |
 | [RotateTextWithShape](../../aspose.cells.drawing.texts/shapetextalignment/rotatetextwithshape) { get; set; } | Указывает, вращается ли текст с фигурой. |
 | [RotationAngle](../../aspose.cells.drawing.texts/shapetextalignment/rotationangle) { get; set; } | Получает и задает поворот фигуры. |
-| [TextHorizontalOverflow](../../aspose.cells.drawing.texts/shapetextalignment/texthorizontaloverflow) { get; set; } | Получает и задает тип горизонтального переполнения текста текстового поля. |
+| [TextHorizontalOverflow](../../aspose.cells.drawing.texts/shapetextalignment/texthorizontaloverflow) { get; set; } | Получает и задает тип горизонтального переполнения текста для текстового поля. |
 | [TextShapeType](../../aspose.cells.drawing.texts/shapetextalignment/textshapetype) { get; set; } | Получает и устанавливает тип преобразования текста. |
-| [TextVerticalOverflow](../../aspose.cells.drawing.texts/shapetextalignment/textverticaloverflow) { get; set; } | Получает и задает тип вертикального переполнения текста текстового поля. |
+| [TextVerticalOverflow](../../aspose.cells.drawing.texts/shapetextalignment/textverticaloverflow) { get; set; } | Получает и задает тип вертикального переполнения текста для текстового поля. |
 | [TextVerticalType](../../aspose.cells.drawing.texts/shapetextalignment/textverticaltype) { get; set; } | Получает и задает направление текста. |
-| [TopMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/topmarginpt) { get; set; } | Возвращает верхнее поле в пунктах |
+| [TopMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/topmarginpt) { get; set; } | Возвращает верхнюю границу в баллах |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.cells.drawing.texts/shapetextalignment/equals)(object) | Определяет, имеет ли этот экземпляр то же значение, что и другой указанный[`ShapeTextAlignment`](../shapetextalignment)объект. |
+| override [Equals](../../aspose.cells.drawing.texts/shapetextalignment/equals)(object) | Определяет, имеет ли этот экземпляр то же значение, что и другой указанный[`ShapeTextAlignment`](../shapetextalignment) объект. |
 | override [GetHashCode](../../aspose.cells.drawing.texts/shapetextalignment/gethashcode)() |  |
 
 ### Примеры
@@ -44,12 +44,12 @@ public class ShapeTextAlignment
 ```csharp
 
 [C#]
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 Shape shape = workbook.Worksheets[0].Shapes.AddRectangle(1, 0, 1, 0, 50, 100);
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = shape.TextBody.TextAlignment;
 
-  //делай свое дело
+//делай свое дело
 
 ```
 

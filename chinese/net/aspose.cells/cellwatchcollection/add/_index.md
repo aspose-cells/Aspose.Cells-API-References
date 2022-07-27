@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 添加CellWatchaspose.cells/cellwatch行和列
+description: 添加CellWatchaspose.cells/cellwatch有行和列
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/cellwatchcollection/add/
 ---
 ## Add(int, int) {#add}
 
-添加[`CellWatch`](../../cellwatch)行和列。
+添加[`CellWatch`](../../cellwatch)有行和列。
 
 ```csharp
 public int Add(int row, int column)

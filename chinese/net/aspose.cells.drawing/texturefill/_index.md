@@ -24,7 +24,7 @@ public class TextureFill : Fill
 | [PictureFormatType](../../aspose.cells.drawing/texturefill/pictureformattype) { get; set; } | 获取和设置图片格式类型。 |
 | [Scale](../../aspose.cells.drawing/texturefill/scale) { get; set; } | 获取和设置图片格式比例。 |
 | [TilePicOption](../../aspose.cells.drawing/texturefill/tilepicoption) { get; set; } | 获取或设置平铺图片选项。 |
-| [Transparency](../../aspose.cells.drawing/texturefill/transparency) { get; set; } | 以从 0.0（不透明）到 1.0（透明）的值返回或设置区域的透明度。 |
+| [Transparency](../../aspose.cells.drawing/texturefill/transparency) { get; set; } | 将区域的透明度返回或设置为从 0.0（不透明）到 1.0（透明）的值。 |
 | [Type](../../aspose.cells.drawing/texturefill/type) { get; set; } | 获取和设置纹理类型 |
 
 ## 方法

@@ -1,14 +1,14 @@
 ---
 title: Revisions
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает все ревизии в этом журнале.
+description: Получает все версии в этом журнале.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.revisions/revisionlog/revisions/
 ---
 ## RevisionLog.Revisions property
 
-Получает все ревизии в этом журнале.
+Получает все версии в этом журнале.
 
 ```csharp
 public RevisionCollection Revisions { get; }

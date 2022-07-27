@@ -1,14 +1,14 @@
 ---
 title: SetInterruptMonitorForLoad
 second_title: Aspose.Cells for .NET API 参考
-description: 为工作簿的加载操作设置 InterruptMonitor
+description: 为工作簿的加载操作设置中断监视器
 type: docs
 weight: 180
 url: /zh/net/aspose.cells.gridjs/gridjsworkbook/setinterruptmonitorforload/
 ---
 ## GridJsWorkbook.SetInterruptMonitorForLoad method
 
-为工作簿的加载操作设置 InterruptMonitor
+为工作簿的加载操作设置中断监视器
 
 ```csharp
 public void SetInterruptMonitorForLoad(GridInterruptMonitor monitor, 

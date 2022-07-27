@@ -1,14 +1,14 @@
 ---
 title: GlowEffect
 second_title: Справочник по Aspose.Cells для .NET API
-description: Этот класс определяет эффект свечения при котором размытый контур цвета добавляется за края объекта.
+description: Этот класс определяет эффект свечения при котором за края объекта добавляется размытый цветной контур .
 type: docs
 weight: 2040
 url: /ru/net/aspose.cells.drawing/gloweffect/
 ---
 ## GlowEffect class
 
-Этот класс определяет эффект свечения, при котором размытый контур цвета добавляется за края объекта.
+Этот класс определяет эффект свечения, при котором за края объекта добавляется размытый цветной контур .
 
 ```csharp
 public class GlowEffect
@@ -19,8 +19,8 @@ public class GlowEffect
 | Имя | Описание |
 | --- | --- |
 | [Color](../../aspose.cells.drawing/gloweffect/color) { get; set; } | Получает цвет эффекта свечения. |
-| [Size](../../aspose.cells.drawing/gloweffect/size) { get; set; } | Получает и устанавливает радиус свечения в точках. |
-| [Transparency](../../aspose.cells.drawing/gloweffect/transparency) { get; set; } | Получает и задает степень прозрачности эффекта свечения. Диапазон значений от 0,0 (непрозрачный) до 1,0 (прозрачный). |
+| [Size](../../aspose.cells.drawing/gloweffect/size) { get; set; } | Получает и задает радиус свечения в точках. |
+| [Transparency](../../aspose.cells.drawing/gloweffect/transparency) { get; set; } | Получает и задает степень прозрачности эффекта свечения. Диапазон от 0,0 (непрозрачный) до 1,0 (прозрачный). |
 
 ### Смотрите также
 

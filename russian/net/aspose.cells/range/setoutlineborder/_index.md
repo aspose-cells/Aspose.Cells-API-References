@@ -3,7 +3,7 @@ title: SetOutlineBorder
 second_title: Справочник по Aspose.Cells для .NET API
 description: Устанавливает границу контура вокруг диапазона ячеек.
 type: docs
-weight: 340
+weight: 380
 url: /ru/net/aspose.cells/range/setoutlineborder/
 ---
 ## Range.SetOutlineBorder method
@@ -16,8 +16,8 @@ public void SetOutlineBorder(BorderType borderEdge, CellBorderType borderStyle, 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| borderEdge | BorderType | Край границы. |
-| borderStyle | CellBorderType | Стиль границы. |
+| borderEdge | BorderType | Пограничный край. |
+| borderStyle | CellBorderType | Пограничный стиль. |
 | borderColor | Color | Цвет границы. |
 
 ### Смотрите также

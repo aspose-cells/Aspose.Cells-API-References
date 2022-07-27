@@ -16,7 +16,7 @@ public object CalculateFormula(string formula)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| формула | String |  |
+| formula | String |  |
 
 ### Смотрите также
 

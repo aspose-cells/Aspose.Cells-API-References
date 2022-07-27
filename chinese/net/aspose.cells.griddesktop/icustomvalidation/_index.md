@@ -1,14 +1,14 @@
 ---
 title: ICustomValidation
 second_title: Aspose.Cells for .NET API 参考
-description: 网格单元自定义验证的接口
+description: gridcell的自定义验证接口
 type: docs
 weight: 890
 url: /zh/net/aspose.cells.griddesktop/icustomvalidation/
 ---
 ## ICustomValidation interface
 
-网格单元自定义验证的接口。
+gridcell的自定义验证接口。
 
 ```csharp
 public interface ICustomValidation

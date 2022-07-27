@@ -1,14 +1,14 @@
 ---
 title: TransitionEntry
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает включена ли опция Ввод формулы перехода совместимость с Lotus.
+description: Указывает включена ли опция ввода формулы перехода совместимость с Lotus.
 type: docs
 weight: 500
 url: /ru/net/aspose.cells/worksheet/transitionentry/
 ---
 ## Worksheet.TransitionEntry property
 
-Указывает, включена ли опция Ввод формулы перехода (совместимость с Lotus).
+Указывает, включена ли опция ввода формулы перехода (совместимость с Lotus).
 
 ```csharp
 public bool TransitionEntry { get; set; }

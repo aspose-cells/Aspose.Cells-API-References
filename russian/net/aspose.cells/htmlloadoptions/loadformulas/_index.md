@@ -1,14 +1,14 @@
 ---
 title: LoadFormulas
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает импортируются ли формулы если исходный html-файл содержит формулы
+description: Указывает нужно ли импортировать формулы если исходный html-файл содержит формулы
 type: docs
 weight: 50
 url: /ru/net/aspose.cells/htmlloadoptions/loadformulas/
 ---
 ## HtmlLoadOptions.LoadFormulas property
 
-Указывает, импортируются ли формулы, если исходный html-файл содержит формулы
+Указывает, нужно ли импортировать формулы, если исходный html-файл содержит формулы
 
 ```csharp
 public bool LoadFormulas { get; set; }

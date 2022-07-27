@@ -1,14 +1,14 @@
 ---
 title: IsCalculateFormula
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置是否在单元格值更改后或导入文件后计算公式默认值是true
+description: 获取或设置是否在单元格值更改后或导入文件后计算公式默认值为真
 type: docs
 weight: 430
 url: /zh/net/aspose.cells.gridweb/mainweb/iscalculateformula/
 ---
 ## MainWeb.IsCalculateFormula property
 
-获取或设置是否在单元格值更改后或导入文件后计算公式。默认值是true。
+获取或设置是否在单元格值更改后或导入文件后计算公式。默认值为真。
 
 ```csharp
 public bool IsCalculateFormula { get; set; }

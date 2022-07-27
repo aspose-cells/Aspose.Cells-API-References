@@ -16,7 +16,7 @@ public void ClearData()
 
 ### 评论
 
-如果在添加或删除 PivotField 之前没有调用此方法，可能是 PivotTable 数据未更正
+如果在添加或删除PivotField之前没有调用此方法，可能是PivotTable数据没有更正
 
 ### 也可以看看
 

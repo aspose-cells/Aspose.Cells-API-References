@@ -1,14 +1,14 @@
 ---
 title: Title
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает заголовок оси.
+description: Получает название оси.
 type: docs
 weight: 380
 url: /ru/net/aspose.cells.charts/axis/title/
 ---
 ## Axis.Title property
 
-Получает заголовок оси.
+Получает название оси.
 
 ```csharp
 public Title Title { get; }

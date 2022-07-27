@@ -1,14 +1,14 @@
 ---
 title: DataDisplayFormat
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет способ отображения значений содержащихся в поле данных.
+description: Представляет как отображать значения содержащиеся в поле данных.
 type: docs
 weight: 90
 url: /ru/net/aspose.cells.pivot/pivotfield/datadisplayformat/
 ---
 ## PivotField.DataDisplayFormat property
 
-Представляет способ отображения значений, содержащихся в поле данных.
+Представляет, как отображать значения, содержащиеся в поле данных.
 
 ```csharp
 public PivotFieldDataDisplayFormat DataDisplayFormat { get; set; }

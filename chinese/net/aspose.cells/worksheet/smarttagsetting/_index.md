@@ -1,14 +1,14 @@
 ---
 title: SmartTagSetting
 second_title: Aspose.Cells for .NET API 参考
-description: 获取工作表的所有SmartTagCollectionaspose.cells.markup/smarttagcollection对象
+description: 获取所有SmartTagCollectionaspose.cells.markup/smarttagcollection工作表的对象.
 type: docs
 weight: 440
 url: /zh/net/aspose.cells/worksheet/smarttagsetting/
 ---
 ## Worksheet.SmartTagSetting property
 
-获取工作表的所有[`SmartTagCollection`](../../../aspose.cells.markup/smarttagcollection)对象。
+获取所有[`SmartTagCollection`](../../../aspose.cells.markup/smarttagcollection)工作表的对象.
 
 ```csharp
 public SmartTagSetting SmartTagSetting { get; }

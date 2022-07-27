@@ -1,14 +1,14 @@
 ---
 title: IconSetType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示图标集类型
+description: 代表图标集类型
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/datasorterkey/iconsettype/
 ---
 ## DataSorterKey.IconSetType property
 
-表示图标集类型。
+代表图标集类型。
 
 ```csharp
 public IconSetType IconSetType { get; }
@@ -16,7 +16,7 @@ public IconSetType IconSetType { get; }
 
 ### 评论
 
-仅在[`SortOnType`](../../sortontype)为 SortOnType 时有效。图标。
+仅在以下情况下生效[`SortOnType`](../../sortontype)是 SortOnType.Icon.
 
 ### 也可以看看
 

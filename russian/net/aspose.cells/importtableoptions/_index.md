@@ -24,16 +24,16 @@ public class ImportTableOptions
 
 | Имя | Описание |
 | --- | --- |
-| [CheckMergedCells](../../aspose.cells/importtableoptions/checkmergedcells) { get; set; } | Указывает, выполняется ли проверка объединенных ячеек. |
+| [CheckMergedCells](../../aspose.cells/importtableoptions/checkmergedcells) { get; set; } | Указывает, проверяются ли объединенные ячейки. |
 | [ColumnIndexes](../../aspose.cells/importtableoptions/columnindexes) { get; set; } | Получает или задает столбцы (на основе 0) для импорта из источника данных. null означает, что все столбцы должны быть импортированы. |
-| [ConvertGridStyle](../../aspose.cells/importtableoptions/convertgridstyle) { get; set; } | Указывает, применять ли стиль представления сетки к ячейкам. |
-| [ConvertNumericData](../../aspose.cells/importtableoptions/convertnumericdata) { get; set; } | Получает или задает значение, указывающее, следует ли преобразовать строковое значение в числовое значение или значение даты. |
+| [ConvertGridStyle](../../aspose.cells/importtableoptions/convertgridstyle) { get; set; } | Указывает, применяется ли стиль представления сетки к ячейкам. |
+| [ConvertNumericData](../../aspose.cells/importtableoptions/convertnumericdata) { get; set; } | Получает или задает значение, указывающее, должно ли строковое значение быть преобразовано в числовое значение или значение даты. |
 | [DateFormat](../../aspose.cells/importtableoptions/dateformat) { get; set; } | Получает или задает строку формата даты для ячеек с импортированными значениями даты и времени. |
 | [DefaultValues](../../aspose.cells/importtableoptions/defaultvalues) { get; set; } | Значение по умолчанию для значения в таблице равно null. |
 | [InsertRows](../../aspose.cells/importtableoptions/insertrows) { get; set; } | Указывает, следует ли добавлять новые строки для импорта записей данных. |
 | [IsFieldNameShown](../../aspose.cells/importtableoptions/isfieldnameshown) { get; set; } | Указывает, следует ли импортировать имя поля. |
 | [IsFormulas](../../aspose.cells/importtableoptions/isformulas) { get; set; } | Указывает, являются ли данные формулами. |
-| [IsHtmlString](../../aspose.cells/importtableoptions/ishtmlstring) { get; set; } | Указывает, содержит ли значение HTML-теги. |
+| [IsHtmlString](../../aspose.cells/importtableoptions/ishtmlstring) { get; set; } | Указывает, содержит ли значение теги html. |
 | [NumberFormats](../../aspose.cells/importtableoptions/numberformats) { get; set; } | Получает или задает числовые форматы |
 | [ShiftFirstRowDown](../../aspose.cells/importtableoptions/shiftfirstrowdown) { get; set; } | Указывает, смещается ли первая строка вниз при вставке строк. |
 | [TotalColumns](../../aspose.cells/importtableoptions/totalcolumns) { get; set; } | Получает или задает общее количество столбцов для импорта из источника данных. -1 означает все строки данного источника данных. |

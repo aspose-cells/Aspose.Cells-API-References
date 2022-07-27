@@ -1,14 +1,14 @@
 ---
 title: RemoveRange
 second_title: Aspose.Cells for .NET API 参考
-description: 删除给定索引的一个范围
+description: 按给定索引删除一个范围
 type: docs
 weight: 50
 url: /zh/net/aspose.cells/errorcheckoption/removerange/
 ---
 ## ErrorCheckOption.RemoveRange method
 
-删除给定索引的一个范围。
+按给定索引删除一个范围。
 
 ```csharp
 public void RemoveRange(int index)

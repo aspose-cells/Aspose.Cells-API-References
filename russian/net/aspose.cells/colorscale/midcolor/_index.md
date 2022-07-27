@@ -1,14 +1,14 @@
 ---
 title: MidColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получить или установить соответствующий цвет объекта среднего значения.
+description: Получить или установить цвет градиента для среднего значения в диапазоне.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells/colorscale/midcolor/
 ---
 ## ColorScale.MidColor property
 
-Получить или установить соответствующий цвет объекта среднего значения.
+Получить или установить цвет градиента для среднего значения в диапазоне.
 
 ```csharp
 public Color MidColor { get; set; }

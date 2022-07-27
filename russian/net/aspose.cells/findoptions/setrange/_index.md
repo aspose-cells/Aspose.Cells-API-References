@@ -1,14 +1,14 @@
 ---
 title: SetRange
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает искомый диапазон.
+description: Устанавливает диапазон поиска.
 type: docs
 weight: 130
 url: /ru/net/aspose.cells/findoptions/setrange/
 ---
 ## FindOptions.SetRange method
 
-Устанавливает искомый диапазон.
+Устанавливает диапазон поиска.
 
 ```csharp
 public void SetRange(CellArea ca)

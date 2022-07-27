@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Aspose.Cells for .NET API 参考
-description: 获取Fontaspose.cells/style/font对象
+description: 得到一个Fontaspose.cells/style/font对象.
 type: docs
 weight: 70
 url: /zh/net/aspose.cells/style/font/
 ---
 ## Style.Font property
 
-获取`Font`对象。
+得到一个`Font`对象.
 
 ```csharp
 public Font Font { get; }

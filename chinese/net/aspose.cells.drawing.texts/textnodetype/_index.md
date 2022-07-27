@@ -1,14 +1,14 @@
 ---
 title: TextNodeType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示节点类型
+description: 代表节点类型
 type: docs
 weight: 2970
 url: /zh/net/aspose.cells.drawing.texts/textnodetype/
 ---
 ## TextNodeType enumeration
 
-表示节点类型。
+代表节点类型。
 
 ```csharp
 public enum TextNodeType
@@ -19,7 +19,7 @@ public enum TextNodeType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | TextRun | `0` | 表示文本节点。 |
-| TextParagraph | `1` | 表示文本段落。 |
+| TextParagraph | `1` | 代表文本段落。 |
 | Equation | `2` | 表示方程文本。 |
 
 ### 也可以看看

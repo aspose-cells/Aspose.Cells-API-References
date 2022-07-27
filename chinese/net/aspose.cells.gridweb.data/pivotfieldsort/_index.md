@@ -18,9 +18,9 @@ public enum PivotFieldSort
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Asc | `1` | 行或列组织数据可升序 |
-| Desc | `2` | 行或列组织数据可下降 |
-| Auto | `3` | 行或列组织数据自然 |
+| Asc | `1` | 行或列组织数据可上升 |
+| Desc | `2` | 行或列组织数据descendable |
+| Auto | `3` | 行或列组织数据 natural |
 
 ### 也可以看看
 

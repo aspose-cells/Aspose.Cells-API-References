@@ -1,14 +1,14 @@
 ---
 title: OleSize
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает отображаемый размер когда файл рабочей книги используется как объект Ole.
+description: Получает и задает отображаемый размер когда файл рабочей книги используется в качестве объекта Ole.
 type: docs
 weight: 100
 url: /ru/net/aspose.cells/worksheetcollection/olesize/
 ---
 ## WorksheetCollection.OleSize property
 
-Получает и устанавливает отображаемый размер, когда файл рабочей книги используется как объект Ole.
+Получает и задает отображаемый размер, когда файл рабочей книги используется в качестве объекта Ole.
 
 ```csharp
 public object OleSize { get; set; }

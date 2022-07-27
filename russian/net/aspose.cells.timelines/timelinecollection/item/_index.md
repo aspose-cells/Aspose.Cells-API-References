@@ -20,7 +20,7 @@ public Timeline this[int index] { get; }
 
 [C#]
 
-  //Получить временную шкалу по индексу.
+//Получить временную шкалу по индексу.
 Timeline objByIndex = sheet.Timelines[0];
 ```
 
@@ -47,7 +47,7 @@ public Timeline this[string name] { get; }
 
 [C#]
 
-  //Получить временную шкалу по имени временной шкалы.
+//Получить временную шкалу по имени временной шкалы.
 Timeline objByName = sheet.Timelines["date"];
 ```
 

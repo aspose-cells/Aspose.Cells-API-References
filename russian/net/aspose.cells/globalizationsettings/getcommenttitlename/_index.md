@@ -16,7 +16,7 @@ public virtual string GetCommentTitleName(CommentTitleType type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| тип | CommentTitleType |  |
+| type | CommentTitleType |  |
 
 ### Смотрите также
 

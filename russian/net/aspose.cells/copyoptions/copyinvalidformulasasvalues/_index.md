@@ -1,14 +1,14 @@
 ---
 title: CopyInvalidFormulasAsValues
 second_title: Справочник по Aspose.Cells для .NET API
-description: Если формула недействительна для пункта назначения копируются только значения.
+description: Если формула недействительна для конечного пункта назначения скопируйте только значения.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/copyoptions/copyinvalidformulasasvalues/
 ---
 ## CopyOptions.CopyInvalidFormulasAsValues property
 
-Если формула недействительна для пункта назначения, копируются только значения.
+Если формула недействительна для конечного пункта назначения, скопируйте только значения.
 
 ```csharp
 public bool CopyInvalidFormulasAsValues { get; set; }

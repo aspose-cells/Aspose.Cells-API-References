@@ -1,14 +1,14 @@
 ---
 title: PowerQueryFormulaFunction
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет функцию запроса питания.
+description: Представляет функцию запроса мощности.
 type: docs
 weight: 4980
 url: /ru/net/aspose.cells.querytables/powerqueryformulafunction/
 ---
 ## PowerQueryFormulaFunction class
 
-Представляет функцию запроса питания.
+Представляет функцию запроса мощности.
 
 ```csharp
 public class PowerQueryFormulaFunction : PowerQueryFormula

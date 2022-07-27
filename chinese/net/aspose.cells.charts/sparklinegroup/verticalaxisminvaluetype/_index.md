@@ -1,14 +1,14 @@
 ---
 title: VerticalAxisMinValueType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示纵轴最小值类型
+description: 代表纵轴最小值类型
 type: docs
 weight: 270
 url: /zh/net/aspose.cells.charts/sparklinegroup/verticalaxisminvaluetype/
 ---
 ## SparklineGroup.VerticalAxisMinValueType property
 
-表示纵轴最小值类型。
+代表纵轴最小值类型。
 
 ```csharp
 public SparklineAxisMinMaxType VerticalAxisMinValueType { get; set; }

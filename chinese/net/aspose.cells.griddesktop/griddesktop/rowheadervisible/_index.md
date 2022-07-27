@@ -1,14 +1,14 @@
 ---
 title: RowHeaderVisible
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置指示行标题是否可见的值
+description: 获取或设置一个指示行头是否可见的值
 type: docs
 weight: 230
 url: /zh/net/aspose.cells.griddesktop/griddesktop/rowheadervisible/
 ---
 ## GridDesktop.RowHeaderVisible property
 
-获取或设置指示行标题是否可见的值。
+获取或设置一个指示行头是否可见的值。
 
 ```csharp
 public bool RowHeaderVisible { get; set; }

@@ -16,7 +16,7 @@ public int UpperLeftRow { get; set; }
 
 ### 评论
 
-如果形状在形状或组中，则将忽略 UpperLeftRow。
+如果形状在形状或组中，将忽略 UpperLeftRow。
 
 ### 也可以看看
 

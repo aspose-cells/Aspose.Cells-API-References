@@ -21,23 +21,23 @@ public class TextOptions : Font
 | [ArgbColor](../../aspose.cells/font/argbcolor) { get; set; } | 使用 32 位 ARGB 值获取和设置颜色。 |
 | [CapsType](../../aspose.cells/font/capstype) { get; set; } | 获取和设置文本大写类型。 |
 | [Charset](../../aspose.cells/font/charset) { get; set; } | 表示字符集。 |
-| [Color](../../aspose.cells/font/color) { get; set; } | 获取或设置字体的Color。 |
+| [Color](../../aspose.cells/font/color) { get; set; } | 获取或设置Color字体的. |
 | [DoubleSize](../../aspose.cells/font/doublesize) { get; set; } | 获取和设置字体的双倍大小。 |
 | [FarEastName](../../aspose.cells.drawing.texts/textoptions/fareastname) { get; set; } | 获取和设置远东名称。 |
 | [Fill](../../aspose.cells.drawing.texts/textoptions/fill) { get; } | 表示文本的填充格式。 |
-| [IsBold](../../aspose.cells/font/isbold) { get; set; } | 获取或设置指示字体是否为粗体的值。 |
-| [IsItalic](../../aspose.cells/font/isitalic) { get; set; } | 获取或设置一个指示字体是否为斜体的值。 |
+| [IsBold](../../aspose.cells/font/isbold) { get; set; } | 获取或设置字体是否为粗体的值。 |
+| [IsItalic](../../aspose.cells/font/isitalic) { get; set; } | 获取或设置字体是否为斜体的值。 |
 | [IsNormalizeHeights](../../aspose.cells/font/isnormalizeheights) { get; set; } | 指示是否要对文本应用高度标准化。 |
 | [IsStrikeout](../../aspose.cells/font/isstrikeout) { get; set; } | 获取或设置一个值，该值指示字体是否为单删除线。 |
-| [IsSubscript](../../aspose.cells/font/issubscript) { get; set; } | 获取或设置表示字体是否为下标的值。 |
+| [IsSubscript](../../aspose.cells/font/issubscript) { get; set; } | 获取或设置字体是否为下标的值。 |
 | [IsSuperscript](../../aspose.cells/font/issuperscript) { get; set; } | 获取或设置字体是否为上标的值。 |
-| [Kerning](../../aspose.cells.drawing.texts/textoptions/kerning) { get; set; } | 指定此文本运行时字符紧距调整的最小字体大小。 |
-| [LatinName](../../aspose.cells.drawing.texts/textoptions/latinname) { get; set; } | 获取和设置拉丁名称。 |
+| [Kerning](../../aspose.cells.drawing.texts/textoptions/kerning) { get; set; } | 指定此文本运行将发生字符紧缩的最小字体大小。 |
+| [LatinName](../../aspose.cells.drawing.texts/textoptions/latinname) { get; set; } | 获取和设置拉丁名。 |
 | override [Name](../../aspose.cells.drawing.texts/textoptions/name) { get; set; } | 获取和设置形状的名称。 |
-| [Outline](../../aspose.cells.drawing.texts/textoptions/outline) { get; } | 表示文本的大纲格式。 |
+| [Outline](../../aspose.cells.drawing.texts/textoptions/outline) { get; } | 代表文本的轮廓格式。 |
 | [SchemeType](../../aspose.cells/font/schemetype) { get; set; } | 获取和设置字体的方案类型。 |
 | [ScriptOffset](../../aspose.cells/font/scriptoffset) { get; set; } | 获取和设置脚本偏移量，以百分比为单位 |
-| [Shadow](../../aspose.cells.drawing.texts/textoptions/shadow) { get; } | 表示对象，该对象指定图表元素或形状的阴影效果。 |
+| [Shadow](../../aspose.cells.drawing.texts/textoptions/shadow) { get; } | 代表一个为图表元素或形状指定阴影效果的对象。 |
 | [Size](../../aspose.cells/font/size) { get; set; } | 获取或设置字体大小。 |
 | [Spacing](../../aspose.cells.drawing.texts/textoptions/spacing) { get; set; } | 指定文本运行中字符之间的间距。 |
 | [StrikeType](../../aspose.cells/font/striketype) { get; set; } | 获取文本的敲击类型。 |

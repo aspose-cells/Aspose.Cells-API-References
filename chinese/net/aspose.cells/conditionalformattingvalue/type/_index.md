@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置此条件格式值对象的类型 将类型设置为 FormatConditionValueType.Min 或 FormatConditionValueType.Max 将自动将Value设置为 null
+description: 获取或设置此条件格式值对象的类型 将类型设置为 FormatConditionValueType.Min 或 FormatConditionValueType.Max 将自动将值设置为 null
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/conditionalformattingvalue/type/
 ---
 ## ConditionalFormattingValue.Type property
 
-获取或设置此条件格式值对象的类型。 将类型设置为 FormatConditionValueType.Min 或 FormatConditionValueType.Max 将自动将“Value”设置为 null。
+获取或设置此条件格式值对象的类型。 将类型设置为 FormatConditionValueType.Min 或 FormatConditionValueType.Max 将自动将“值”设置为 null。
 
 ```csharp
 public FormatConditionValueType Type { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: HiddenRowDisplayType
 second_title: Aspose.Cells for .NET API 参考
-description: excel中的隐藏行该行的高度为0在保存为html格式之前 如果HtmlHiddenRowDisplayType为删除隐藏的行不会被输出 如果值为隐藏该行将被输出但被隐藏默认值为隐藏
+description: excel中隐藏的行该行的高度为0保存为html格式之前 如果HtmlHiddenRowDisplayType为删除隐藏的行不会输出 如果值为隐藏该行将已输出但已隐藏默认值为隐藏
 type: docs
-weight: 310
+weight: 330
 url: /zh/net/aspose.cells/htmlsaveoptions/hiddenrowdisplaytype/
 ---
 ## HtmlSaveOptions.HiddenRowDisplayType property
 
-excel中的隐藏行（该行的高度为0），在保存为html格式之前， 如果HtmlHiddenRowDisplayType为“删除”，隐藏的行不会被输出， 如果值为“隐藏”，该行将被输出，但被隐藏，默认值为“隐藏”
+excel中隐藏的行（该行的高度为0），保存为html格式之前， 如果HtmlHiddenRowDisplayType为“删除”，隐藏的行不会输出， 如果值为“隐藏”，该行将已输出，但已隐藏，默认值为“隐藏”
 
 ```csharp
 public HtmlHiddenRowDisplayType HiddenRowDisplayType { get; set; }

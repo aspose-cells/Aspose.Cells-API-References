@@ -1,14 +1,14 @@
 ---
 title: VerticalResolution
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置生成图像的垂直分辨率以每英寸点数为单位 除 Emf 格式图像外应用生成图像方法
+description: 获取或设置生成图像的垂直分辨率以每英寸点数为单位 应用除 Emf 格式图像之外的生成图像方法
 type: docs
 weight: 350
 url: /zh/net/aspose.cells.rendering/imageorprintoptions/verticalresolution/
 ---
 ## ImageOrPrintOptions.VerticalResolution property
 
-获取或设置生成图像的垂直分辨率，以每英寸点数为单位。 除 Emf 格式图像外，应用生成图像方法。
+获取或设置生成图像的垂直分辨率，以每英寸点数为单位。 应用除 Emf 格式图像之外的生成图像方法。
 
 ```csharp
 public int VerticalResolution { get; set; }
@@ -16,7 +16,7 @@ public int VerticalResolution { get; set; }
 
 ### 评论
 
-默认值为 96。
+默认值为 96.
 
 ### 也可以看看
 

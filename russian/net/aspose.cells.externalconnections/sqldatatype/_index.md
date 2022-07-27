@@ -19,43 +19,43 @@ public enum SqlDataType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | SqlUnsignedOffset | `-22` | sql беззнаковое смещение |
-| SqlSignedOffset | `-20` | смещение со знаком sql |
-| SqlGUID | `-11` | sql guid |
-| SqlWLongVarchar | `-10` | sql long long переменная char |
-| SqlWVarchar | `-9` | широкая переменная sql char |
-| SqlWChar | `-8` | sql широкий символ |
-| SqlBit | `-7` | бит sql |
-| SqlTinyInt | `-6` | sql tiny int |
-| SqlBigInt | `-5` | sql big int |
-| SqlLongVarBinary | `-4` | длинная бинарная переменная sql |
-| SqlVarBinary | `-3` | двоичная переменная sql |
-| SqlBinary | `-2` | двоичный файл sql |
+| SqlSignedOffset | `-20` | sql подписанное смещение |
+| SqlGUID | `-11` | SQL-руководитель |
+| SqlWLongVarchar | `-10` | длинная переменная sql char |
+| SqlWVarchar | `-9` | Широкая переменная sql char |
+| SqlWChar | `-8` | sql широкий char |
+| SqlBit | `-7` | sql бит |
+| SqlTinyInt | `-6` | sql крошечный int |
+| SqlBigInt | `-5` | sql большой int |
+| SqlLongVarBinary | `-4` | длинная переменная sql binary |
+| SqlVarBinary | `-3` | переменная sql binary |
+| SqlBinary | `-2` | SQL двоичный |
 | SqlLongVarChar | `-1` | длинная переменная sql char |
 | SqlUnknownType | `0` | sql неизвестный тип |
-| SqlChar | `1` | sql char |
-| SqlNumeric | `2` | числовой sql |
+| SqlChar | `1` | SQL char |
+| SqlNumeric | `2` | SQL числовой |
 | SqlDecimal | `3` | sql десятичный |
-| SqlInteger | `4` | целое число sql |
-| SqlSmallInt | `5` | sql small int |
+| SqlInteger | `4` | SQL целое |
+| SqlSmallInt | `5` | SQL маленький int |
 | SqlFloat | `6` | sql float |
 | SqlReal | `7` | sql реальный |
 | SqlDouble | `8` | sql double |
 | SqlTypeDate | `9` | тип даты sql |
 | SqlTypeTime | `10` | тип времени sql |
-| SqlTypeTimestamp | `11` | тип метки времени sql |
-| SqlVarChar | `12` | переменная sql char |
-| SqlIntervalYear | `101` | год интервала sql |
-| SqlIntervalMonth | `102` | месяц интервала sql |
-| SqlIntervalDay | `103` | sql интервал день |
+| SqlTypeTimestamp | `11` | временная метка sql type |
+| SqlVarChar | `12` | переменная SQL char |
+| SqlIntervalYear | `101` | интервал sql year |
+| SqlIntervalMonth | `102` | интервал sql месяц |
+| SqlIntervalDay | `103` | интервал sql day |
 | SqlIntervalHour | `104` | интервал sql час |
-| SqlIntervalMinute | `105` | sql интервал минут |
-| SqlIntervalSecond | `106` | интервал sql секунды |
-| SqlIntervalYearToMonth | `107` | интервал sql из года в месяц |
-| SqlIntervalDayToHour | `108` | интервал sql день в час |
-| SqlIntervalDayToMinute | `109` | интервал sql день в минуту |
-| SqlIntervalDayToSecond | `110` | интервал sql день в секунду |
-| SqlIntervalHourToMinute | `111` | интервал sql час в минуту |
-| SqlIntervalHourToSecond | `112` | интервал sql час в секунду |
+| SqlIntervalMinute | `105` | интервал sql минута |
+| SqlIntervalSecond | `106` | интервал sql second |
+| SqlIntervalYearToMonth | `107` | интервал SQL от года до месяца |
+| SqlIntervalDayToHour | `108` | интервал SQL от дня до часа |
+| SqlIntervalDayToMinute | `109` | интервал sql от дня до минуты |
+| SqlIntervalDayToSecond | `110` | sql интервал дня до second |
+| SqlIntervalHourToMinute | `111` | интервал sql от часа до минуты |
+| SqlIntervalHourToSecond | `112` | интервал sql час до секунды |
 | SqlIntervalMinuteToSecond | `113` | интервал sql от минуты до секунды |
 
 ### Смотрите также

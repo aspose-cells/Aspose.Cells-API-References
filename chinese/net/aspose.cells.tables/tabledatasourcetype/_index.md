@@ -18,7 +18,7 @@ public enum TableDataSourceType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Worksheet | `0` | Excel 工作表 |
+| Worksheet | `0` | Excel 工作表表格 |
 | SharePoint | `1` | 读写 SharePoint 链表 |
 | XML | `2` | XML 映射表 |
 | QueryTable | `3` | 查询表 |

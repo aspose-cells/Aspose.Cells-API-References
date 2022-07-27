@@ -19,7 +19,7 @@ public class GridRow
 | 姓名 | 描述 |
 | --- | --- |
 | [FirstCell](../../aspose.cells.gridweb.data/gridrow/firstcell) { get; } | 获取行中的第一个单元格。 |
-| [Height](../../aspose.cells.gridweb.data/gridrow/height) { get; set; } | 以点为单位获取和设置行高。 |
+| [Height](../../aspose.cells.gridweb.data/gridrow/height) { get; set; } | 以Points为单位获取和设置行高。 |
 | [Hidden](../../aspose.cells.gridweb.data/gridrow/hidden) { get; set; } | 表示该行是否隐藏。 |
 | [Index](../../aspose.cells.gridweb.data/gridrow/index) { get; } | 获取该行的索引。 |
 | [Item](../../aspose.cells.gridweb.data/gridrow/item) { get; } | 获取单元格。 |
@@ -31,7 +31,7 @@ public class GridRow
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetEnumerator](../../aspose.cells.gridweb.data/gridrow/getenumerator)() | 获取单元格枚举器 |
+| [GetEnumerator](../../aspose.cells.gridweb.data/gridrow/getenumerator)() | 获取单元格 enumerator |
 | [IsBlank](../../aspose.cells.gridweb.data/gridrow/isblank)() | 表示该行是否包含任何数据 |
 
 ### 也可以看看

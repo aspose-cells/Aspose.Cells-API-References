@@ -1,14 +1,14 @@
 ---
 title: WindowHeight
 second_title: Aspose.Cells for .NET API 参考
-description: 窗口的高度以磅为单位
+description: 窗口的高度以点为单位
 type: docs
 weight: 480
 url: /zh/net/aspose.cells/workbooksettings/windowheight/
 ---
 ## WorkbookSettings.WindowHeight property
 
-窗口的高度，以磅为单位。
+窗口的高度，以点为单位。
 
 ```csharp
 public double WindowHeight { get; set; }

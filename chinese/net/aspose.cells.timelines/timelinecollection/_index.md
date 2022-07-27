@@ -20,19 +20,19 @@ public class TimelineCollection : CollectionBase<Timeline>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.timelines/timelinecollection/item) { get; } | 按索引获取时间轴。 (2 indexers) |
+| [Item](../../aspose.cells.timelines/timelinecollection/item) { get; } | 按索引获取时间线。 (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells.timelines/timelinecollection/add#add_4)(PivotTable, string, int) | 使用数据透视表作为数据源添加新时间线 |
-| [Add](../../aspose.cells.timelines/timelinecollection/add#add_3)(PivotTable, string, PivotField) | 使用数据透视表作为数据源添加新时间线 |
-| [Add](../../aspose.cells.timelines/timelinecollection/add#add_5)(PivotTable, string, string) | 使用数据透视表作为数据源添加新时间线 |
-| [Add](../../aspose.cells.timelines/timelinecollection/add#add_1)(PivotTable, int, int, int) | 使用数据透视表作为数据源添加新时间线 |
-| [Add](../../aspose.cells.timelines/timelinecollection/add#add)(PivotTable, int, int, PivotField) | 使用数据透视表作为数据源添加新时间线 |
-| [Add](../../aspose.cells.timelines/timelinecollection/add#add_2)(PivotTable, int, int, string) | 使用数据透视表作为数据源添加新时间线 |
+| [Add](../../aspose.cells.timelines/timelinecollection/add#add_4)(PivotTable, string, int) | 使用数据透视表作为数据源添加新的时间线 |
+| [Add](../../aspose.cells.timelines/timelinecollection/add#add_3)(PivotTable, string, PivotField) | 使用数据透视表作为数据源添加新的时间线 |
+| [Add](../../aspose.cells.timelines/timelinecollection/add#add_5)(PivotTable, string, string) | 使用数据透视表作为数据源添加新的时间线 |
+| [Add](../../aspose.cells.timelines/timelinecollection/add#add_1)(PivotTable, int, int, int) | 使用数据透视表作为数据源添加新的时间线 |
+| [Add](../../aspose.cells.timelines/timelinecollection/add#add)(PivotTable, int, int, PivotField) | 使用数据透视表作为数据源添加新的时间线 |
+| [Add](../../aspose.cells.timelines/timelinecollection/add#add_2)(PivotTable, int, int, string) | 使用数据透视表作为数据源添加新的时间线 |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Timeline) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Timeline, IComparer&lt;Timeline&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Timeline, IComparer&lt;Timeline&gt;) |  |
@@ -74,7 +74,7 @@ cells[2, 0].Value = "blueberry";
 cells[3, 0].Value = "kiwi";
 cells[4, 0].Value = "cherry";
 
- //创建日期样式
+//创建日期样式
 Style dateStyle = new CellsFactory().CreateStyle();
 dateStyle.Custom = "m/d/yyyy";
 cells[0, 1].Value = "date";
@@ -82,7 +82,7 @@ cells[1, 1].Value = new DateTime(2021, 2, 5);
 cells[2, 1].Value = new DateTime(2022, 3, 8);
 cells[3, 1].Value = new DateTime(2023, 4, 10);
 cells[4, 1].Value = new DateTime(2024, 5, 16);
- //设置日期样式
+//设置日期样式
 cells[1, 1].SetStyle(dateStyle);
 cells[2, 1].SetStyle(dateStyle);
 cells[3, 1].SetStyle(dateStyle);
@@ -95,7 +95,7 @@ cells[3, 2].Value = 70;
 cells[4, 2].Value = 80;
 
 PivotTableCollection pivots = sheet.PivotTables;
- //添加一个数据透视表
+//添加数据透视表
 int pivotIndex = pivots.Add("=Sheet1!A1:C5", "A12", "TestPivotTable");
 PivotTable pivot = pivots[pivotIndex];
 pivot.AddFieldToArea(PivotFieldType.Row, "fruit");
@@ -103,11 +103,11 @@ pivot.AddFieldToArea(PivotFieldType.Column, "date");
 pivot.AddFieldToArea(PivotFieldType.Data, "amount");
 pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
 
- //刷新数据透视表data
+//刷新数据透视表数据
 pivot.RefreshData();
 pivot.CalculateData();
 
- //做你的事
+//做你的事
 book.Save("out.xlsx");
 
 ```

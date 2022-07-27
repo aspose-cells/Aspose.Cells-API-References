@@ -17,7 +17,7 @@ public int Add(string text, ThreadedCommentAuthor author)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | text | String | 串连注释的文本。 |
-| author | ThreadedCommentAuthor | 线程注释的作者 |
+| author | ThreadedCommentAuthor | 线程评论的作者 |
 
 ### 也可以看看
 

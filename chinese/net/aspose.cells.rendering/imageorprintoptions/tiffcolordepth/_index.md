@@ -1,14 +1,14 @@
 ---
 title: TiffColorDepth
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置仅在将页面保存为 Tiff 格式时应用的位深度
+description: 获取或设置仅在将页面保存到蒂夫格式
 type: docs
 weight: 320
 url: /zh/net/aspose.cells.rendering/imageorprintoptions/tiffcolordepth/
 ---
 ## ImageOrPrintOptions.TiffColorDepth property
 
-获取或设置仅在将页面保存为` Tiff` 格式时应用的位深度。
+获取或设置仅在将页面保存到`蒂夫`格式。
 
 ```csharp
 public ColorDepth TiffColorDepth { get; set; }
@@ -16,7 +16,7 @@ public ColorDepth TiffColorDepth { get; set; }
 
 ### 评论
 
-仅在保存到 TIFF 时有效。 如果 TiffCompression 设置为 CCITT3、CCITT4，这不会生效，生成的 tiff 图像的位深度将始终为 1。
+只有保存到TIFF时有效。 如果将TiffCompression设置为CCITT3、CCITT4，这将不生效，生成的tiff图像的位深度将始终为1。
 
 ### 也可以看看
 

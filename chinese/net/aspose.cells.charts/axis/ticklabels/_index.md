@@ -1,14 +1,14 @@
 ---
 title: TickLabels
 second_title: Aspose.Cells for .NET API 参考
-description: 返回一个TickLabelsaspose.cells.charts/axis/ticklabels对象该对象表示指定轴的刻度标记标签
+description: 返回一个TickLabelsaspose.cells.charts/axis/ticklabels表示指定轴的刻度线标签的对象
 type: docs
 weight: 350
 url: /zh/net/aspose.cells.charts/axis/ticklabels/
 ---
 ## Axis.TickLabels property
 
-返回一个`TickLabels`对象，该对象表示指定轴的刻度标记标签。
+返回一个`TickLabels`表示指定轴的刻度线标签的对象。
 
 ```csharp
 public TickLabels TickLabels { get; }

@@ -3,7 +3,7 @@ title: ExportImagesAsBase64
 second_title: Справочник по Aspose.Cells для .NET API
 description: Указывает сохраняются ли изображения в формате Base64 в HTML MHTML или EPUB.
 type: docs
-weight: 220
+weight: 210
 url: /ru/net/aspose.cells/htmlsaveoptions/exportimagesasbase64/
 ---
 ## HtmlSaveOptions.ExportImagesAsBase64 property
@@ -16,7 +16,7 @@ public bool ExportImagesAsBase64 { get; set; }
 
 ### Примечания
 
-Когда для этого свойства установлено значение true, данные изображения экспортируются непосредственно в элементы img и отдельные файлы не создаются.
+Когда для этого свойства установлено значение true, данные изображения экспортируются непосредственно в элементы img, и отдельные файлы не создаются.
 
 ### Смотрите также
 

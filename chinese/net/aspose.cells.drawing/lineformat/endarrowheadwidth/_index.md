@@ -1,14 +1,14 @@
 ---
 title: EndArrowheadWidth
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置行的结束箭头宽度类型
+description: 获取和设置线条的结束箭头宽度类型
 type: docs
 weight: 90
 url: /zh/net/aspose.cells.drawing/lineformat/endarrowheadwidth/
 ---
 ## LineFormat.EndArrowheadWidth property
 
-获取和设置行的结束箭头宽度类型。
+获取和设置线条的结束箭头宽度类型。
 
 ```csharp
 public MsoArrowheadWidth EndArrowheadWidth { get; set; }

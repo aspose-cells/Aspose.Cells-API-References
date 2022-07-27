@@ -45,11 +45,11 @@ public void AutoFitRow(int rowIndex, int firstColumn, int lastColumn, AutoFitter
 | rowIndex | Int32 | Индекс строки. |
 | firstColumn | Int32 | Индекс первого столбца. |
 | lastColumn | Int32 | Индекс последнего столбца. |
-| options | AutoFitterOptions | Параметры автоустановки |
+| options | AutoFitterOptions | Параметры автоустановщика |
 
 ### Примечания
 
-Этот метод автоматически подбирает строку на основе содержимого в диапазоне ячейки внутри строки.
+Этот метод автоматически подбирает строку на основе содержимого диапазона ячеек в строке.
 
 ### Смотрите также
 
@@ -72,7 +72,7 @@ public void AutoFitRow(int startRow, int endRow, int startColumn, int endColumn)
 | --- | --- | --- |
 | startRow | Int32 | Индекс начальной строки. |
 | endRow | Int32 | Индекс конечной строки. |
-| startColumn | Int32 | Индекс начального столбца. |
+| startColumn | Int32 | Начальный индекс столбца. |
 | endColumn | Int32 | Конечный индекс столбца. |
 
 ### Смотрите также

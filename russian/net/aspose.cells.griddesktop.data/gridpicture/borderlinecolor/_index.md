@@ -1,14 +1,14 @@
 ---
 title: BorderLineColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: ПредставляетColorлинии границы изображения.
+description: ПредставляетColor линии границы изображения.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.griddesktop.data/gridpicture/borderlinecolor/
 ---
 ## GridPicture.BorderLineColor property
 
-ПредставляетColorлинии границы изображения.
+ПредставляетColor линии границы изображения.
 
 ```csharp
 public Color BorderLineColor { get; set; }

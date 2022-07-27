@@ -16,8 +16,8 @@ public void Protect(bool islockedForViewing, string password)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| islockedForViewing | Boolean | 表示是否锁定项目查看。 |
-| password | String | 如果值为空，则取消保护此 VBA 项目，否则投射此 VBA 项目。 |
+| islockedForViewing | Boolean | 指示是否锁定项目以供查看。 |
+| password | String | 如果值为 null，则取消保护此 VBA 项目，否则投影此 VBA 项目。 |
 
 ### 评论
 

@@ -1,14 +1,14 @@
 ---
 title: ExportAllSheets
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否将所有工作表导出到文本文件 如果为false则只导出活动表就像MS Excel一样
+description: 表示是否将所有工作表导出到文本文件 如果为false则只导出活动工作表就像MS Excel一样
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/txtsaveoptions/exportallsheets/
 ---
 ## TxtSaveOptions.ExportAllSheets property
 
-表示是否将所有工作表导出到文本文件。 如果为false，则只导出活动表，就像MS Excel一样。
+表示是否将所有工作表导出到文本文件。 如果为false，则只导出活动工作表，就像MS Excel一样。
 
 ```csharp
 public bool ExportAllSheets { get; set; }

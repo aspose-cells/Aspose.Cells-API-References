@@ -1,14 +1,14 @@
 ---
 title: PrintDrill
 second_title: Aspose.Cells for .NET API 参考
-description: 指定一个布尔值指示是否应打印钻孔指示符 显示在数据透视表上时打印展开/折叠按钮
+description: 指定一个布尔值指示是否应打印钻孔指示器 当显示在数据透视表上时打印展开/折叠按钮
 type: docs
 weight: 470
 url: /zh/net/aspose.cells.pivot/pivottable/printdrill/
 ---
 ## PivotTable.PrintDrill property
 
-指定一个布尔值，指示是否应打印钻孔指示符。 显示在数据透视表上时打印展开/折叠按钮。
+指定一个布尔值，指示是否应打印钻孔指示器。 当显示在数据透视表上时打印展开/折叠按钮。
 
 ```csharp
 public bool PrintDrill { get; set; }

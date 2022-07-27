@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.griddesktop.data/gridpicture/data/
 ---
 ## GridPicture.Data property
 
-获取图片的数据。
+获取图片的数据
 
 ```csharp
 public byte[] Data { get; set; }

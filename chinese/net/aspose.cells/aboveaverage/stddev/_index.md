@@ -1,14 +1,14 @@
 ---
 title: StdDev
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置标准偏差的数量以包括在 条件格式规则中高于或低于平均值 输入值必须介于 0 和 3 之间包括 0 和 3 将此值设置为 0 表示未设置 stdDev 默认值为 0
+description: 获取或设置在 条件格式规则中包含高于或低于平均值的标准差数 输入值必须介于 0 和 3 之间包括 0 和 3 将此值设置为 0 表示未设置 stdDev 默认值为 0
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/aboveaverage/stddev/
 ---
 ## AboveAverage.StdDev property
 
-获取或设置标准偏差的数量，以包括在 条件格式规则中高于或低于平均值。 输入值必须介于 0 和 3 之间（包括 0 和 3）。 将此值设置为 0 表示未设置 stdDev。 默认值为 0。
+获取或设置在 条件格式规则中包含高于或低于平均值的标准差数。 输入值必须介于 0 和 3 之间（包括 0 和 3）。 将此值设置为 0 表示未设置 stdDev。 默认值为 0。
 
 ```csharp
 public int StdDev { get; set; }

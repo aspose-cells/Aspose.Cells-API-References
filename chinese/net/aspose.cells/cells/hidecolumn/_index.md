@@ -1,14 +1,14 @@
 ---
 title: HideColumn
 second_title: Aspose.Cells for .NET API 参考
-description: 隐藏列
+description: 隐藏一列
 type: docs
-weight: 880
+weight: 890
 url: /zh/net/aspose.cells/cells/hidecolumn/
 ---
 ## Cells.HideColumn method
 
-隐藏列。
+隐藏一列。
 
 ```csharp
 public void HideColumn(int column)

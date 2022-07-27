@@ -1,14 +1,14 @@
 ---
 title: OdsPageBackgroundGraphicType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示带图片的格式化页面背景的类型
+description: 表示用图片格式化页面背景的类型
 type: docs
 weight: 4310
 url: /zh/net/aspose.cells.ods/odspagebackgroundgraphictype/
 ---
 ## OdsPageBackgroundGraphicType enumeration
 
-表示带图片的格式化页面背景的类型。
+表示用图片格式化页面背景的类型。
 
 ```csharp
 public enum OdsPageBackgroundGraphicType

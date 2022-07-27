@@ -1,14 +1,14 @@
 ---
 title: StartupPath
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置启动路径由一些外部公式引用引用
+description: 获取或设置启动路径被一些外部公式引用引用
 type: docs
 weight: 70
 url: /zh/net/aspose.cells/cellshelper/startuppath/
 ---
 ## CellsHelper.StartupPath property
 
-获取或设置启动路径，由一些外部公式引用引用。
+获取或设置启动路径，被一些外部公式引用引用。
 
 ```csharp
 public static string StartupPath { get; set; }

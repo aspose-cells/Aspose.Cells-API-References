@@ -1,14 +1,14 @@
 ---
 title: PutValueAndSetFormatByValue
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает значение ячейки строковым значением и устанавливает формат ячейки этим значением.
+description: Устанавливает значение ячейки со строковым значением и устанавливает формат ячейки по этому значению.
 type: docs
 weight: 350
 url: /ru/net/aspose.cells.griddesktop.data/gridcell/putvalueandsetformatbyvalue/
 ---
 ## GridCell.PutValueAndSetFormatByValue method
 
-Устанавливает значение ячейки строковым значением и устанавливает формат ячейки этим значением.
+Устанавливает значение ячейки со строковым значением и устанавливает формат ячейки по этому значению.
 
 ```csharp
 public void PutValueAndSetFormatByValue(string stringValue)

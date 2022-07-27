@@ -1,14 +1,14 @@
 ---
 title: LinkTargetType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示ltagt中的目标属性类型链接默认值为 HtmlLinkTargetType.Parent
+description: 表示ltagt链接中目标属性的类型默认值为HtmlLinkTargetType.Parent.
 type: docs
-weight: 390
+weight: 410
 url: /zh/net/aspose.cells/htmlsaveoptions/linktargettype/
 ---
 ## HtmlSaveOptions.LinkTargetType property
 
-表示&lt;a&gt;中的目标属性类型链接，默认值为 HtmlLinkTargetType.Parent。
+表示&lt;a&gt;链接中目标属性的类型，默认值为HtmlLinkTargetType.Parent.
 
 ```csharp
 public HtmlLinkTargetType LinkTargetType { get; set; }

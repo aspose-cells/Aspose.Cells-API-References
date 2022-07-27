@@ -19,11 +19,11 @@ public class GridCalculationData
 | 姓名 | 描述 |
 | --- | --- |
 | [CalculatedValue](../../aspose.cells.gridweb.data/gridcalculationdata/calculatedvalue) { get; set; } | 获取或设置此函数的计算值。 |
-| [Cell](../../aspose.cells.gridweb.data/gridcalculationdata/cell) { get; } | 获取函数所在的 Cell 对象。 |
-| [FunctionName](../../aspose.cells.gridweb.data/gridcalculationdata/functionname) { get; } | 获取要计算的函数名。 |
-| [ParamCount](../../aspose.cells.gridweb.data/gridcalculationdata/paramcount) { get; } | 获取参数个数 |
-| [Workbook](../../aspose.cells.gridweb.data/gridcalculationdata/workbook) { get; } | 获取函数所在的 Workbook 对象。 |
-| [Worksheet](../../aspose.cells.gridweb.data/gridcalculationdata/worksheet) { get; } | 获取函数所在的 Workbook 对象。 |
+| [Cell](../../aspose.cells.gridweb.data/gridcalculationdata/cell) { get; } | 获取函数所在的Cell对象。 |
+| [FunctionName](../../aspose.cells.gridweb.data/gridcalculationdata/functionname) { get; } | 获取要计算的函数名 |
+| [ParamCount](../../aspose.cells.gridweb.data/gridcalculationdata/paramcount) { get; } | 获取参数的计数 |
+| [Workbook](../../aspose.cells.gridweb.data/gridcalculationdata/workbook) { get; } | 获取函数所在的Workbook对象。 |
+| [Worksheet](../../aspose.cells.gridweb.data/gridcalculationdata/worksheet) { get; } | 获取函数所在的Workbook对象。 |
 
 ## 方法
 

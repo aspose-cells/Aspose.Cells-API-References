@@ -1,14 +1,14 @@
 ---
 title: RowCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Собирает объекты представляющие отдельные строки на листе.
+description: Собирает объекты которые представляют отдельные строки на листе.
 type: docs
 weight: 5510
 url: /ru/net/aspose.cells/rowcollection/
 ---
 ## RowCollection class
 
-Собирает объекты, представляющие отдельные строки на листе.
+Собирает объекты, которые представляют отдельные строки на листе.
 
 ```csharp
 public class RowCollection : IEnumerable
@@ -19,7 +19,7 @@ public class RowCollection : IEnumerable
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.cells/rowcollection/count) { get; } | Получает количество строк в этой коллекции. |
-| [Item](../../aspose.cells/rowcollection/item) { get; } | Получает объектпо заданному индексу строки. Объект Row с заданным индексом строки будет создан, если он не существовал ранее. |
+| [Item](../../aspose.cells/rowcollection/item) { get; } | Получает объект по заданному индексу строки. Объект Row с заданным индексом строки будет создан, если он не существовал ранее. |
 
 ## Методы
 
@@ -36,20 +36,20 @@ public class RowCollection : IEnumerable
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 
-//Получение ссылки на первый worksheet
+//Получение ссылки на первый рабочий лист
 Worksheet worksheet = workbook.Worksheets[0];
-   //Получить первую строку
+ //получить первую строку
 Row row = worksheet.Cells.Rows[0];
 
 [VB.NET]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
 
-'Получение ссылки на первый worksheet
+'Получение ссылки на первый рабочий лист
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 'Получить первую строку
 Dim row as Row = worksheet.Cells.Rows(0)

@@ -1,14 +1,14 @@
 ---
 title: CheckColumn
 second_title: Aspose.Cells for .NET API 参考
-description: 在指定列索引处获取Columnaspose.cells/column元素或 null
+description: 获取Columnaspose.cells/column指定列索引处的元素或空值
 type: docs
 weight: 370
 url: /zh/net/aspose.cells/cells/checkcolumn/
 ---
 ## Cells.CheckColumn method
 
-在指定列索引处获取[`Column`](../../column)元素或 null。
+获取[`Column`](../../column)指定列索引处的元素或空值。
 
 ```csharp
 public Column CheckColumn(int columnIndex)
@@ -20,7 +20,7 @@ public Column CheckColumn(int columnIndex)
 
 ### 返回值
 
-Column 对象。
+列对象。
 
 ### 也可以看看
 

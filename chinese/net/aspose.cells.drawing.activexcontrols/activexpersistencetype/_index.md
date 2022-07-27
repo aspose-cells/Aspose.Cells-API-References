@@ -21,7 +21,7 @@ public enum ActiveXPersistenceType
 | PropertyBag | `0` | 数据存储为 xml 数据。 |
 | Storage | `1` | 数据存储为存储二进制数据。 |
 | Stream | `2` | 数据存储为流二进制数据。 |
-| StreamInit | `3` | 数据存储为streaminit二进制数据。 |
+| StreamInit | `3` | 数据存储为streaminit 二进制数据。 |
 
 ### 也可以看看
 

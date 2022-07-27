@@ -1,14 +1,14 @@
 ---
 title: DisplayAsIcon
 second_title: Aspose.Cells for .NET API 参考
-description: 如果指定对象显示为图标则为真 并且图像不会自动更改
+description: 如果指定的对象显示为图标 并且图像不会自动更改则为真
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.drawing/picture/displayasicon/
 ---
 ## Picture.DisplayAsIcon property
 
-如果指定对象显示为图标则为真 并且图像不会自动更改。
+如果指定的对象显示为图标 并且图像不会自动更改，则为真。
 
 ```csharp
 public bool DisplayAsIcon { get; set; }

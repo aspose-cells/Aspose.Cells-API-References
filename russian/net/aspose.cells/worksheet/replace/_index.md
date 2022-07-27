@@ -1,14 +1,14 @@
 ---
 title: Replace
 second_title: Справочник по Aspose.Cells для .NET API
-description: Заменяет текст во всех ячейках новой строкой.
+description: Заменяет текст всех ячеек новой строкой.
 type: docs
 weight: 820
 url: /ru/net/aspose.cells/worksheet/replace/
 ---
 ## Worksheet.Replace method
 
-Заменяет текст во всех ячейках новой строкой.
+Заменяет текст всех ячеек новой строкой.
 
 ```csharp
 public int Replace(string oldString, string newString)
@@ -16,7 +16,7 @@ public int Replace(string oldString, string newString)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| oldString | String | Значение старой строки. |
+| oldString | String | Старое строковое значение. |
 | newString | String | Новое строковое значение. |
 
 ### Смотрите также

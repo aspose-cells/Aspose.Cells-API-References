@@ -20,8 +20,8 @@ public enum PrintErrorsType
 | --- | --- | --- |
 | PrintErrorsBlank | `0` | Обозначает не печатать ошибки. |
 | PrintErrorsDash | `1` | Представляет ошибки печати как "--". |
-| PrintErrorsDisplayed | `2` | Обозначает вывод ошибок на печать. |
-| PrintErrorsNA | `3` | Представляет для печати ошибки как "#N/A". |
+| PrintErrorsDisplayed | `2` | Представляет ошибки печати, как показано. |
+| PrintErrorsNA | `3` | Представляет ошибки печати как "#N/A". |
 
 ### Смотрите также
 

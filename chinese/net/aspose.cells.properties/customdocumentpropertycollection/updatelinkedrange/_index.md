@@ -1,14 +1,14 @@
 ---
 title: UpdateLinkedRange
 second_title: Aspose.Cells for .NET API 参考
-description: 将自定义文档属性值更新为链接范围
+description: 将自定义文档属性值更新到链接范围
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.properties/customdocumentpropertycollection/updatelinkedrange/
 ---
 ## CustomDocumentPropertyCollection.UpdateLinkedRange method
 
-将自定义文档属性值更新为链接范围。
+将自定义文档属性值更新到链接范围。
 
 ```csharp
 public void UpdateLinkedRange()

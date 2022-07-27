@@ -17,7 +17,7 @@ public void HideItemByName(string name, bool isHidden)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | pivotField 中的 pivotItem 的名称。 |
-| isHidden | Boolean | 特定PivotItem是否隐藏 |
+| isHidden | Boolean | 特定的 PivotItem 是否隐藏 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ExportDataTableAsString
 second_title: Справочник по Aspose.Cells для .NET API
-description: Экспортирует данные из коллекцииCellsaspose.cells/cellsв таблицуDataTableобъект.
+description: Экспортирует данные вCellsaspose.cells/cells сбор вDataTable объект.
 type: docs
 weight: 620
 url: /ru/net/aspose.cells/cells/exportdatatableasstring/
 ---
 ## ExportDataTableAsString(int, int, int, int) {#exportdatatableasstring}
 
-Экспортирует данные из коллекции[`Cells`](../../cells)в таблицуDataTableобъект.
+Экспортирует данные в[`Cells`](../../cells) сбор вDataTable объект.
 
 ```csharp
 public DataTable ExportDataTableAsString(int firstRow, int firstColumn, int totalRows, 
@@ -17,18 +17,18 @@ public DataTable ExportDataTableAsString(int firstRow, int firstColumn, int tota
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| firstRow | Int32 | Номер строки первой экспортируемой ячейки. |
-| firstColumn | Int32 | Номер столбца первой экспортируемой ячейки. |
+| firstRow | Int32 | Номер строки первой ячейки для экспорта. |
+| firstColumn | Int32 | Номер столбца первой ячейки для экспорта. |
 | totalRows | Int32 | Количество строк для импорта. |
-| totalColumns | Int32 | Количество импортируемых столбцов. |
+| totalColumns | Int32 | Количество столбцов, которые необходимо импортировать. |
 
 ### Возвращаемое значение
 
-ЭкспортируетсяDataTableобъект.
+ЭкспортированоDataTable объект.
 
 ### Примечания
 
-Все данные в коллекции[`Cells`](../../cells)преобразуются в строки.
+Все данные в[`Cells`](../../cells) коллекции преобразуются в строки.
 
 ### Смотрите также
 
@@ -40,7 +40,7 @@ public DataTable ExportDataTableAsString(int firstRow, int firstColumn, int tota
 
 ## ExportDataTableAsString(int, int, int, int, bool) {#exportdatatableasstring_1}
 
-Экспортирует данные из коллекции[`Cells`](../../cells)в таблицуDataTableобъект.
+Экспортирует данные в[`Cells`](../../cells) сбор вDataTable объект.
 
 ```csharp
 public DataTable ExportDataTableAsString(int firstRow, int firstColumn, int totalRows, 
@@ -49,19 +49,19 @@ public DataTable ExportDataTableAsString(int firstRow, int firstColumn, int tota
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| firstRow | Int32 | Номер строки первой экспортируемой ячейки. |
-| firstColumn | Int32 | Номер столбца первой экспортируемой ячейки. |
+| firstRow | Int32 | Номер строки первой ячейки для экспорта. |
+| firstColumn | Int32 | Номер столбца первой ячейки для экспорта. |
 | totalRows | Int32 | Количество строк для импорта. |
-| totalColumns | Int32 | Количество импортируемых столбцов. |
-| exportColumnName | Boolean | Указывает, экспортируются ли данные в первой строке в имя столбца таблицы данных. |
+| totalColumns | Int32 | Количество столбцов, которые необходимо импортировать. |
+| exportColumnName | Boolean | Указывает, экспортируются ли данные в первой строке в имя столбца DataTable. |
 
 ### Возвращаемое значение
 
-ЭкспортируетсяDataTableобъект.
+ЭкспортированоDataTable объект.
 
 ### Примечания
 
-Все данные в коллекции[`Cells`](../../cells)преобразуются в строки.
+Все данные в[`Cells`](../../cells) коллекции преобразуются в строки.
 
 ### Смотрите также
 

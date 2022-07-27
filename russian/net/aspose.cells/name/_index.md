@@ -18,13 +18,13 @@ public class Name
 
 | Имя | Описание |
 | --- | --- |
-| [Comment](../../aspose.cells/name/comment) { get; set; } | Получает и устанавливает комментарий имени. Применяется только для Excel 2007. |
+| [Comment](../../aspose.cells/name/comment) { get; set; } | Получает и задает комментарий к имени. Применяется только для Excel 2007. |
 | [FullText](../../aspose.cells/name/fulltext) { get; } | Получает полный текст имени объекта с настройкой области действия. |
 | [IsReferred](../../aspose.cells/name/isreferred) { get; } | Указывает, используется ли это имя в других формулах. |
 | [IsVisible](../../aspose.cells/name/isvisible) { get; set; } | Указывает, видимо ли имя. |
-| [R1C1RefersTo](../../aspose.cells/name/r1c1refersto) { get; set; } | Получает или задает ссылку R1C1 на[`Name`](../name). |
+| [R1C1RefersTo](../../aspose.cells/name/r1c1refersto) { get; set; } | Получает или задает ссылку R1C1 на[`Name`](../name) . |
 | [RefersTo](../../aspose.cells/name/refersto) { get; set; } | Возвращает или задает формулу, на которую ссылается имя, начиная со знака равенства. |
-| [SheetIndex](../../aspose.cells/name/sheetindex) { get; set; } | Указывает, что это имя принадлежит рабочей книге или рабочему листу. 0 = глобальное имя, в противном случае индекс листа (на основе единицы) |
+| [SheetIndex](../../aspose.cells/name/sheetindex) { get; set; } | Указывает, что это имя принадлежит рабочей книге или рабочему листу. 0 = глобальное имя, в противном случае индекс для листа (на основе одного) |
 | [Text](../../aspose.cells/name/text) { get; set; } | Получает текст имени объекта. |
 
 ## Методы
@@ -33,7 +33,7 @@ public class Name
 | --- | --- |
 | [GetRange](../../aspose.cells/name/getrange#getrange)() | Получает диапазон, если это имя относится к диапазону. |
 | [GetRange](../../aspose.cells/name/getrange#getrange_1)(bool) | Получает диапазон, если это имя относится к диапазону |
-| [GetRange](../../aspose.cells/name/getrange#getrange_2)(int, int, int) | Получает диапазон, если это имя относится к диапазону. Если ссылка на это имя не является абсолютной, диапазон может быть разным для разных ячеек. |
+| [GetRange](../../aspose.cells/name/getrange#getrange_2)(int, int, int) | Получает диапазон, если это имя ссылается на диапазон. Если ссылка этого имени не является абсолютной, диапазон может отличаться для разных ячеек. |
 | [GetRanges](../../aspose.cells/name/getranges#getranges)() | Получает все диапазоны, на которые ссылается это имя. |
 | [GetRanges](../../aspose.cells/name/getranges#getranges_1)(bool) | Получает все диапазоны, на которые ссылается это имя. |
 | [GetReferredAreas](../../aspose.cells/name/getreferredareas)(bool) | Получает все ссылки, на которые ссылается это имя. |
@@ -48,28 +48,28 @@ public class Name
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
-  //Доступ к первому рабочему листу в Excel file
+//Доступ к первому рабочему листу в файле Excel
 Worksheet worksheet = workbook.Worksheets[0];
-  //Создание именованного диапазона
+//Создание именованного диапазона
 Range range = worksheet.Cells.CreateRange("B4", "G14");
 //Установка имени именованного диапазона
 range.Name = "TestRange";
-  //Сохранение измененного файла Excel в формате по умолчанию (то есть Excel 2000) format
+//Сохранение измененного файла Excel в формате по умолчанию (то есть Excel 2000)
 workbook.Save("output.xls");   
 
 [Visual Basic]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
-'Доступ к первому рабочему листу в Excel file
+'Доступ к первому рабочему листу в файле Excel
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 'Создание именованного диапазона
 Dim range As Range = worksheet.Cells.CreateRange("B4", "G14")
 'Установка имени именованного диапазона
 range.Name = "TestRange"
-'Сохранение измененного файла Excel в формате по умолчанию (то есть Excel 2000) format
+'Сохранение измененного файла Excel в формате по умолчанию (то есть Excel 2000)
 workbook.Save("output.xls")
 ```
 

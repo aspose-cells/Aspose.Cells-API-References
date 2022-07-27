@@ -1,14 +1,14 @@
 ---
 title: DataSorter
 second_title: Aspose.Cells for .NET API 参考
-description: 获取 DataSorter 对象以对数据进行排序
+description: 获取 DataSorter 对象对数据进行排序
 type: docs
 weight: 120
 url: /zh/net/aspose.cells/workbook/datasorter/
 ---
 ## Workbook.DataSorter property
 
-获取 DataSorter 对象以对数据进行排序。
+获取 DataSorter 对象对数据进行排序。
 
 ```csharp
 public DataSorter DataSorter { get; }

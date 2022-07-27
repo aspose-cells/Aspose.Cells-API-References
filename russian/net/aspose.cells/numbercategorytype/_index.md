@@ -18,12 +18,12 @@ public enum NumberCategoryType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| General | `0` | Общие |
+| General | `0` | Общее |
 | Text | `1` | Текст |
 | Number | `2` | Номер |
 | Date | `3` | Дата или дата и время |
 | Time | `4` | Время |
-| Fraction | `5` | Дробь |
+| Fraction | `5` | Фракция |
 | Scientific | `6` | Научный |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: StreamProviderOptions
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инициализирует новый экземпляр классаStreamProviderOptionsaspose.cells/streamprovideroptions.
+description: Инициализирует новый экземплярStreamProviderOptionsaspose.cells/streamprovideroptions класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/streamprovideroptions/streamprovideroptions/
 ---
 ## StreamProviderOptions(ResourceLoadingType, string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`StreamProviderOptions`](../../streamprovideroptions).
+Инициализирует новый экземпляр[`StreamProviderOptions`](../../streamprovideroptions) класс.
 
 ```csharp
 public StreamProviderOptions(ResourceLoadingType loadingType, string defaultPath)
@@ -30,7 +30,7 @@ public StreamProviderOptions(ResourceLoadingType loadingType, string defaultPath
 
 ## StreamProviderOptions() {#constructor}
 
-Инициализирует новый экземпляр класса[`StreamProviderOptions`](../../streamprovideroptions).
+Инициализирует новый экземпляр[`StreamProviderOptions`](../../streamprovideroptions) класс.
 
 ```csharp
 public StreamProviderOptions()

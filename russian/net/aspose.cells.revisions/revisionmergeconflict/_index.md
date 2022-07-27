@@ -1,14 +1,14 @@
 ---
 title: RevisionMergeConflict
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет запись ревизии указывающую на конфликт слияния.
+description: Представляет запись редакции указывающую на конфликт слияния.
 type: docs
 weight: 5460
 url: /ru/net/aspose.cells.revisions/revisionmergeconflict/
 ---
 ## RevisionMergeConflict class
 
-Представляет запись ревизии, указывающую на конфликт слияния.
+Представляет запись редакции, указывающую на конфликт слияния.
 
 ```csharp
 public class RevisionMergeConflict : Revision

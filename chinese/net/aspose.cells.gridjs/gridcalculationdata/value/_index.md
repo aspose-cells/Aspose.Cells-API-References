@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Cells for .NET API 参考
-description: 获取函数所在的单元格值
+description: 获取函数所在的Cell值
 type: docs
 weight: 90
 url: /zh/net/aspose.cells.gridjs/gridcalculationdata/value/
 ---
 ## GridCalculationData.Value property
 
-获取函数所在的单元格值。
+获取函数所在的Cell值。
 
 ```csharp
 public object Value { get; }

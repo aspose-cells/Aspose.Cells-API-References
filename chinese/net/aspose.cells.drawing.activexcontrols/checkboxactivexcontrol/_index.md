@@ -20,24 +20,24 @@ public class CheckBoxActiveXControl : ActiveXControl
 | --- | --- |
 | [Accelerator](../../aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/accelerator) { get; set; } | 获取和设置控件的加速键。 |
 | [Alignment](../../aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/alignment) { get; set; } | 获取并设置 Caption 相对于控件的位置。 |
-| [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | 获取和设置背景的ole颜色。 |
+| [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | 获取并设置背景的ole颜色。 |
 | [Caption](../../aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/caption) { get; set; } | 获取和设置出现在控件上的描述性文本。 |
 | override [Data](../../aspose.cells.drawing.activexcontrols/activexcontrol/data) { get; } | 获取和设置控件的二进制数据。 |
-| [Font](../../aspose.cells.drawing.activexcontrols/activexcontrol/font) { get; } | 表示控件的字体。 |
+| [Font](../../aspose.cells.drawing.activexcontrols/activexcontrol/font) { get; } | 代表控件的字体。 |
 | virtual [ForeOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/foreolecolor) { get; set; } | 获取和设置前景的ole颜色。 |
 | [GroupName](../../aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/groupname) { get; set; } | 获取和设置组的名称。 |
 | virtual [Height](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/height) { get; set; } | 以点为单位获取和设置控件的高度。 |
-| [IMEMode](../../aspose.cells.drawing.activexcontrols/activexcontrol/imemode) { get; set; } | 获取并设置控件接收焦点时输入法编辑器的默认运行时模式。 |
+| [IMEMode](../../aspose.cells.drawing.activexcontrols/activexcontrol/imemode) { get; set; } | 获取并设置控件在接收焦点时的输入法编辑器的默认运行时模式。 |
 | virtual [IsAutoSize](../../aspose.cells.drawing.activexcontrols/activexcontrol/isautosize) { get; set; } | 指示控件是否会自动调整大小以显示其全部内容。 |
-| [IsEnabled](../../aspose.cells.drawing.activexcontrols/activexcontrol/isenabled) { get; set; } | 指示控件是否可以接收焦点并响应用户生成的事件。 |
-| [IsLocked](../../aspose.cells.drawing.activexcontrols/activexcontrol/islocked) { get; set; } | 指示控件中的数据是否被锁定以进行编辑。 |
+| [IsEnabled](../../aspose.cells.drawing.activexcontrols/activexcontrol/isenabled) { get; set; } | 表示控件是否可以接收焦点并响应用户生成的事件。 |
+| [IsLocked](../../aspose.cells.drawing.activexcontrols/activexcontrol/islocked) { get; set; } | 表示控件中的数据是否被锁定编辑。 |
 | [IsTransparent](../../aspose.cells.drawing.activexcontrols/activexcontrol/istransparent) { get; set; } | 表示控件是否透明。 |
-| [IsTripleState](../../aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/istriplestate) { get; set; } | 指示指定控件将如何显示 Null 值。 |
-| virtual [IsVisible](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/isvisible) { get; set; } | 指示此控件是否可见。 |
-| [IsWordWrapped](../../aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/iswordwrapped) { get; set; } | 指示控件的内容是否在行尾自动换行。 |
+| [IsTripleState](../../aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/istriplestate) { get; set; } | 表示指定控件将如何显示 Null 值。 |
+| virtual [IsVisible](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/isvisible) { get; set; } | 表示这个控件是否可见。 |
+| [IsWordWrapped](../../aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/iswordwrapped) { get; set; } | 表示控件的内容是否在行尾自动换行。 |
 | [LinkedCell](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/linkedcell) { get; set; } | 获取和设置链接单元格。 |
 | [ListFillRange](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/listfillrange) { get; set; } | 获取和设置列表填充范围。 |
-| [MouseIcon](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mouseicon) { get; set; } | 获取并设置自定义图标以显示为控件的鼠标指针。 |
+| [MouseIcon](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mouseicon) { get; set; } | 获取并设置一个自定义图标以显示为控件的鼠标指针。 |
 | [MousePointer](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mousepointer) { get; set; } | 获取并设置显示为控件鼠标指针的图标类型。 |
 | [Picture](../../aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/picture) { get; set; } | 获取和设置图片的数据。 |
 | [PicturePosition](../../aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/pictureposition) { get; set; } | 获取并设置控件图片相对于其标题的位置。 |
@@ -46,8 +46,8 @@ public class CheckBoxActiveXControl : ActiveXControl
 | [TextAlign](../../aspose.cells.drawing.activexcontrols/activexcontrol/textalign) { get; set; } | 表示如何对齐控件使用的文本。 |
 | override [Type](../../aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/type) { get; } | 获取 ActiveX 控件的类型。 |
 | [Value](../../aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/value) { get; set; } | 表示控件是否被选中。 |
-| virtual [Width](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/width) { get; set; } | 以点为单位获取和设置控件的宽度。 |
-| [Workbook](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook) { get; } | 获取[`Workbook`](../activexcontrolbase/workbook)对象。 |
+| virtual [Width](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/width) { get; set; } | 获取和设置控件的宽度，以点为单位。 |
+| [Workbook](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook) { get; } | 获取[`Workbook`](../activexcontrolbase/workbook)对象. |
 
 ### 也可以看看
 

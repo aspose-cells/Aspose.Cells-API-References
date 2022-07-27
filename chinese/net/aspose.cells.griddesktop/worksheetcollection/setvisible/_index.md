@@ -17,7 +17,7 @@ public void SetVisible(string name, bool v)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | isVisible | String | 工作表是否可见 |
-| ignoreError | Boolean | 是否忽略如果此选项无效，则会出错。 |
+| ignoreError | Boolean | 如果此选项无效，是否忽略错误。 |
 
 ### 也可以看看
 

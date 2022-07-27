@@ -1,14 +1,14 @@
 ---
 title: IsSameSettings
 second_title: Aspose.Cells for .NET API 参考
-description: 标志指示是否解析 PRE 块内的所有表其宽度设置 与第一行相同
+description: 标志表示是否解析PRE块内的所有表其宽度设置 与第一行相同
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.externalconnections/webqueryconnection/issamesettings/
 ---
 ## WebQueryConnection.IsSameSettings property
 
-标志，指示是否解析 PRE 块内的所有表，其宽度设置 与第一行相同。
+标志，表示是否解析PRE块内的所有表，其宽度设置 与第一行相同。
 
 ```csharp
 public bool IsSameSettings { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: SheetPosition
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает отсчитываемую от нуля позицию нового листа на панели вкладок листа.
+description: Получает нулевое положение нового листа на панели вкладок листа.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.revisions/revisioninsertsheet/sheetposition/
 ---
 ## RevisionInsertSheet.SheetPosition property
 
-Получает отсчитываемую от нуля позицию нового листа на панели вкладок листа.
+Получает нулевое положение нового листа на панели вкладок листа.
 
 ```csharp
 public int SheetPosition { get; }

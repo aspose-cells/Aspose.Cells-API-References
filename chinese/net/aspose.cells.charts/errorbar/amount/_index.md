@@ -1,14 +1,14 @@
 ---
 title: Amount
 second_title: Aspose.Cells for .NET API 参考
-description: 代表错误栏的数量  金额必须大于等于零
+description: 表示误差条的数量 金额必须大于或等于零
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.charts/errorbar/amount/
 ---
 ## ErrorBar.Amount property
 
-代表错误栏的数量。  金额必须大于等于零。
+表示误差条的数量。 金额必须大于或等于零。
 
 ```csharp
 public double Amount { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ShapeY
 second_title: Aspose.Cells for .NET API 参考
-description: 调用 Chart.Calculate 方法后以图表高度的 1/4000 为单位获取左上角的 y 坐标
+description: 调用Chart.Calculate方法后以图表高度的1/4000为单位获取左上角的y坐标
 type: docs
 weight: 270
 url: /zh/net/aspose.cells.charts/chartpoint/shapey/
 ---
 ## ChartPoint.ShapeY property
 
-调用 Chart.Calculate() 方法后，以图表高度的 1/4000 为单位获取左上角的 y 坐标。
+调用Chart.Calculate()方法后，以图表高度的1/4000为单位获取左上角的y坐标。
 
 ```csharp
 public int ShapeY { get; }

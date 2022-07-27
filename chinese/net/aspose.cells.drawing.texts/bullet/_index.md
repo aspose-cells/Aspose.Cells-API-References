@@ -20,7 +20,7 @@ public class Bullet
 | --- | --- |
 | [BulletValue](../../aspose.cells.drawing.texts/bullet/bulletvalue) { get; } | 获取项目符号值 |
 | [FontName](../../aspose.cells.drawing.texts/bullet/fontname) { get; set; } | 获取并设置字体名称。 |
-| [Type](../../aspose.cells.drawing.texts/bullet/type) { get; set; } | 获取和设置项目符号类型。 |
+| [Type](../../aspose.cells.drawing.texts/bullet/type) { get; set; } | 获取和设置子弹类型。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: HtmlText
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает строку html содержащую данные и некоторые параметры форматирования в этом текстовом поле.
+description: Получает и задает строку html содержащую данные и некоторые параметры форматирования в этом текстовом поле.
 type: docs
 weight: 120
 url: /ru/net/aspose.cells.gridweb.data/gridpicture/htmltext/
 ---
 ## GridPicture.HtmlText property
 
-Получает и устанавливает строку html, содержащую данные и некоторые параметры форматирования в этом текстовом поле.
+Получает и задает строку html, содержащую данные и некоторые параметры форматирования в этом текстовом поле.
 
 ```csharp
 public string HtmlText { get; set; }

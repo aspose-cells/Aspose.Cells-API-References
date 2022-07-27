@@ -1,14 +1,14 @@
 ---
 title: CustomPrint
 second_title: Справочник по Aspose.Cells для .NET API
-description: Клиент может управлять настройками страницы принтера при печати каждой страницы с помощью этой функции.
+description: Клиент может управлять настройкой страницы принтера при печати каждой страницы с помощью этой функции.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.rendering/workbookrender/customprint/
 ---
 ## WorkbookRender.CustomPrint method
 
-Клиент может управлять настройками страницы принтера при печати каждой страницы с помощью этой функции.
+Клиент может управлять настройкой страницы принтера при печати каждой страницы с помощью этой функции.
 
 ```csharp
 public int CustomPrint(bool nextPageAfterPrint, PrintPageEventArgs printPageEventArgs)
@@ -16,7 +16,7 @@ public int CustomPrint(bool nextPageAfterPrint, PrintPageEventArgs printPageEven
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| nextPageAfterPrint | Boolean | Если true , принтер перейдет к следующей странице после печати текущей страницы |
+| nextPageAfterPrint | Boolean | Если true, принтер перейдет к следующей странице после печати текущей страницы. |
 | printPageEventArgs | PrintPageEventArgs | System.Drawing.Printing.PrintPageEventArgs |
 
 ### Возвращаемое значение

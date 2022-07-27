@@ -1,14 +1,14 @@
 ---
 title: ExternalConnectionDataSource
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает источник данных внешнего соединения.
+description: Получает внешний источник данных подключения.
 type: docs
 weight: 230
 url: /ru/net/aspose.cells.pivot/pivottable/externalconnectiondatasource/
 ---
 ## PivotTable.ExternalConnectionDataSource property
 
-Получает источник данных внешнего соединения.
+Получает внешний источник данных подключения.
 
 ```csharp
 public ExternalConnection ExternalConnectionDataSource { get; }

@@ -16,7 +16,7 @@ public void OpenFindReplaceDialog(bool findMode)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| findMode | Boolean | 如果为真，打开查找对话框；否则打开替换对话框。 |
+| findMode | Boolean | 如果为真，则打开查找对话框；否则打开替换对话框。 |
 
 ### 也可以看看
 

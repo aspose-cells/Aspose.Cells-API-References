@@ -1,14 +1,14 @@
 ---
 title: RevisionLogCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示所有修订日志
+description: 代表所有修订日志
 type: docs
 weight: 5450
 url: /zh/net/aspose.cells.revisions/revisionlogcollection/
 ---
 ## RevisionLogCollection class
 
-表示所有修订日志。
+代表所有修订日志。
 
 ```csharp
 public class RevisionLogCollection : CollectionBase<RevisionLog>
@@ -21,7 +21,7 @@ public class RevisionLogCollection : CollectionBase<RevisionLog>
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
 | [DaysPreservingHistory](../../aspose.cells.revisions/revisionlogcollection/dayspreservinghistory) { get; set; } | 获取和设置电子表格应用程序将保留此工作簿更改历史记录的天数。 |
-| [Item](../../aspose.cells.revisions/revisionlogcollection/item) { get; } | 按索引获取[`RevisionLog`](../revisionlog)。 |
+| [Item](../../aspose.cells.revisions/revisionlogcollection/item) { get; } | 获取[`RevisionLog`](../revisionlog)按索引. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法

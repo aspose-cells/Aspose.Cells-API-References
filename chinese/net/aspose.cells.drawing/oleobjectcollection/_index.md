@@ -20,7 +20,7 @@ public class OleObjectCollection : CollectionBase<OleObject>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.drawing/oleobjectcollection/item) { get; } | 获取指定索引处的[`OleObject`](../oleobject)元素。 |
+| [Item](../../aspose.cells.drawing/oleobjectcollection/item) { get; } | 获取[`OleObject`](../oleobject)指定索引处的元素。 |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法

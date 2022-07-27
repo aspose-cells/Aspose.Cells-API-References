@@ -1,14 +1,14 @@
 ---
 title: SqlScriptSaveOptions
 second_title: Aspose.Cells for .NET API 参考
-description: 创建用于保存 sql 文件的选项
+description: 创建保存 sql 文件的选项
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.saving/sqlscriptsaveoptions/sqlscriptsaveoptions/
 ---
 ## SqlScriptSaveOptions constructor
 
-创建用于保存 sql 文件的选项。
+创建保存 sql 文件的选项。
 
 ```csharp
 public SqlScriptSaveOptions()

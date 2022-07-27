@@ -18,10 +18,10 @@ public Shape AddFreeFloatingShape(MsoDrawingType type, int top, int left, int he
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | type | MsoDrawingType | 形状类型。 |
-| top | Int32 | 表示形状与工作表顶行的垂直偏移量，以像素为单位。 |
-| left | Int32 | 表示形状相对工作表左列的水平偏移量，以像素为单位。 |
-| height | Int32 | 表示LineShape的高度，以像素为单位。 |
-| width | Int32 | 表示LineShape的宽度，以像素为单位。 |
+| top | Int32 | 表示形状与工作表顶行的垂直偏移，以像素为单位。 |
+| left | Int32 | 表示形状与工作表左列的水平偏移，以像素为单位。 |
+| height | Int32 | 表示 LineShape 的高度，以像素为单位。 |
+| width | Int32 | 表示 LineShape 的宽度，以像素为单位。 |
 | imageData | Byte[] | 图片数据，仅适用于图片。 |
 | isOriginalSize | Boolean | 如果形状是图像，形状是否使用原始大小。 |
 
@@ -30,7 +30,7 @@ public Shape AddFreeFloatingShape(MsoDrawingType type, int top, int left, int he
 ```csharp
 
 [C#]
- //添加一行
+//添加一行
 Shape floatingShape_Line = shapes.AddFreeFloatingShape(MsoDrawingType.Line, 100, 100, 100, 50, null, false);
 //添加图片
 byte[] imageData = null;

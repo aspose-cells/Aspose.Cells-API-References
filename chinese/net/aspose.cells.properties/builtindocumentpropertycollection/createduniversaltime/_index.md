@@ -1,14 +1,14 @@
 ---
 title: CreatedUniversalTime
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置文档创建的通用时间
+description: 获取或设置文档创建的世界时间
 type: docs
 weight: 80
 url: /zh/net/aspose.cells.properties/builtindocumentpropertycollection/createduniversaltime/
 ---
 ## BuiltInDocumentPropertyCollection.CreatedUniversalTime property
 
-获取或设置文档创建的通用时间。
+获取或设置文档创建的世界时间。
 
 ```csharp
 public DateTime CreatedUniversalTime { get; set; }
@@ -16,7 +16,7 @@ public DateTime CreatedUniversalTime { get; set; }
 
 ### 评论
 
-Aspose.Cells 在您修改文档时不会更新此属性。
+当您修改文档时，Aspose.Cells 不会更新此属性。
 
 ### 也可以看看
 

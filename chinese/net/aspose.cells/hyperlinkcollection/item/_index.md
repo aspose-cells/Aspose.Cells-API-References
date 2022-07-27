@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定索引处的Hyperlinkaspose.cells/hyperlink元素
+description: 获取Hyperlinkaspose.cells/hyperlink指定索引处的元素
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/hyperlinkcollection/item/
 ---
 ## HyperlinkCollection indexer
 
-获取指定索引处的[`Hyperlink`](../../hyperlink)元素。
+获取[`Hyperlink`](../../hyperlink)指定索引处的元素。
 
 ```csharp
 public Hyperlink this[int index] { get; }

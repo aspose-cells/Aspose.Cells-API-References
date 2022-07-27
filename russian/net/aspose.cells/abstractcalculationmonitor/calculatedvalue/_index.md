@@ -1,14 +1,14 @@
 ---
 title: CalculatedValue
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает новое вычисленное значение ячейки. Следует использовать только вAfterCalculateaspose.cells/abstractcalculationmonitor/aftercalculate.
+description: Получает новое вычисленное значение ячейки. Следует использовать только вAfterCalculateaspose.cells/abstractcalculationmonitor/aftercalculate .
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/abstractcalculationmonitor/calculatedvalue/
 ---
 ## AbstractCalculationMonitor.CalculatedValue property
 
-Получает новое вычисленное значение ячейки. Следует использовать только в[`AfterCalculate`](../aftercalculate).
+Получает новое вычисленное значение ячейки. Следует использовать только в[`AfterCalculate`](../aftercalculate) .
 
 ```csharp
 public object CalculatedValue { get; }

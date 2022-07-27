@@ -1,14 +1,14 @@
 ---
 title: FrozenCols
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает количество замороженных столбцов Worksheet. Frozen начнется с первого столбца.
+description: Получает или задает количество замороженных столбцов рабочего листа. Замороженное начнется с первого столбца.
 type: docs
 weight: 180
 url: /ru/net/aspose.cells.griddesktop/worksheet/frozencols/
 ---
 ## Worksheet.FrozenCols property
 
-Получает или задает количество замороженных столбцов Worksheet. Frozen начнется с первого столбца.
+Получает или задает количество замороженных столбцов рабочего листа. Замороженное начнется с первого столбца.
 
 ```csharp
 public int FrozenCols { get; set; }

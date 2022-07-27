@@ -3,7 +3,7 @@ title: WorksheetScalable
 second_title: Справочник по Aspose.Cells для .NET API
 description: Указывает что при увеличении или уменьшении масштаба html с помощью уровня масштабирования рабочего листа при сохранении файла в html значение по умолчанию равно false.
 type: docs
-weight: 480
+weight: 510
 url: /ru/net/aspose.cells/htmlsaveoptions/worksheetscalable/
 ---
 ## HtmlSaveOptions.WorksheetScalable property

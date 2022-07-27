@@ -20,7 +20,7 @@ public string Name { get; }
 
 [C#]
 
- //获取切片器缓存的名称.
+//获取切片器缓存的名称。
 Console.WriteLine(slicerCache.Name);
 ```
 

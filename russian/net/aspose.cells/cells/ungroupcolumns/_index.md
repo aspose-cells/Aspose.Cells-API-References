@@ -3,7 +3,7 @@ title: UngroupColumns
 second_title: Справочник по Aspose.Cells для .NET API
 description: Разгруппирует столбцы.
 type: docs
-weight: 1320
+weight: 1330
 url: /ru/net/aspose.cells/cells/ungroupcolumns/
 ---
 ## Cells.UngroupColumns method
@@ -16,8 +16,8 @@ public void UngroupColumns(int firstIndex, int lastIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| firstIndex | Int32 | Индекс первого столбца для разгруппировки. |
-| lastIndex | Int32 | Индекс последнего столбца для разгруппировки. |
+| firstIndex | Int32 | Индекс первого столбца, который нужно разгруппировать. |
+| lastIndex | Int32 | Индекс последнего столбца, который нужно разгруппировать. |
 
 ### Смотрите также
 

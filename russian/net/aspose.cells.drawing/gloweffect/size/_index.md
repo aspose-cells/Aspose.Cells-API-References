@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает радиус свечения в точках.
+description: Получает и задает радиус свечения в точках.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.drawing/gloweffect/size/
 ---
 ## GlowEffect.Size property
 
-Получает и устанавливает радиус свечения в точках.
+Получает и задает радиус свечения в точках.
 
 ```csharp
 public double Size { get; set; }

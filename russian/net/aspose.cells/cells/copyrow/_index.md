@@ -16,7 +16,7 @@ public void CopyRow(Cells sourceCells, int sourceRowIndex, int destinationRowInd
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sourceCells | Cells | Объект Source Cells содержит данные и форматы для копирования. |
+| sourceCells | Cells | Объект исходных ячеек содержит данные и форматы для копирования. |
 | sourceRowIndex | Int32 | Индекс исходной строки. |
 | destinationRowIndex | Int32 | Индекс строки назначения. |
 

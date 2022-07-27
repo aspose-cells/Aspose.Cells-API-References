@@ -18,9 +18,9 @@ public LineShape AddLine(int upperLeftRow, int top, int upperLeftColumn, int lef
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| top | Int32 | Представляет вертикальное смещение LineShape от его левой строки в единицах пикселей. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
-| left | Int32 | Представляет горизонтальное смещение LineShape от его левого столбца в единицах пикселей. |
+| top | Int32 | Представляет вертикальное смещение LineShape от его левой строки в пикселях. |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
+| left | Int32 | Представляет горизонтальное смещение LineShape от его левого столбца в пикселях. |
 | height | Int32 | Представляет высоту LineShape в пикселях. |
 | width | Int32 | Представляет ширину LineShape в пикселях. |
 
@@ -33,7 +33,7 @@ public LineShape AddLine(int upperLeftRow, int top, int upperLeftColumn, int lef
 ```csharp
 
 [C#]
-  // добавляем строку object
+// добавляем линейный объект
 LineShape lineShape = shapes.AddLine(1, 0, 1, 0, 100, 50);
 ```
 

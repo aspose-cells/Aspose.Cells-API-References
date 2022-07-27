@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементTextBoxaspose.cells.drawing/textboxпо указанному индексу.
+description: ПолучаетTextBoxaspose.cells.drawing/textbox элемент по указанному индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.drawing/textboxcollection/item/
 ---
 ## TextBoxCollection indexer (1 of 2)
 
-Получает элемент[`TextBox`](../../textbox)по указанному индексу.
+Получает[`TextBox`](../../textbox) элемент по указанному индексу.
 
 ```csharp
 public TextBox this[int index] { get; }
@@ -42,7 +42,7 @@ TextBox txb = textBoxCollection[index];
 
 ## TextBoxCollection indexer (2 of 2)
 
-Получает элемент[`TextBox`](../../textbox)по имени.
+Получает[`TextBox`](../../textbox) элемент по имени.
 
 ```csharp
 public TextBox this[string name] { get; }
@@ -61,7 +61,7 @@ string txtboxName = "textbox 1";
 TextBox txb2 = textBoxCollection[txtboxName];
 if(txb2 != null)
 {
-      //делай что хочешь
+    //делай что хочешь
 }
 ```
 

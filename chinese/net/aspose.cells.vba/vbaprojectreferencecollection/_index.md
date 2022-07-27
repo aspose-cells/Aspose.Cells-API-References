@@ -1,14 +1,14 @@
 ---
 title: VbaProjectReferenceCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 代表VBA工程的所有引用
+description: 代表 VBA 工程的所有引用
 type: docs
 weight: 6290
 url: /zh/net/aspose.cells.vba/vbaprojectreferencecollection/
 ---
 ## VbaProjectReferenceCollection class
 
-代表VBA工程的所有引用。
+代表 VBA 工程的所有引用。
 
 ```csharp
 public class VbaProjectReferenceCollection : CollectionBase<VbaProjectReference>
@@ -27,7 +27,7 @@ public class VbaProjectReferenceCollection : CollectionBase<VbaProjectReference>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddControlRefrernce](../../aspose.cells.vba/vbaprojectreferencecollection/addcontrolrefrernce)(string, string, string, string) | 添加对 twiddled 类型库及其扩展类型库的引用。 |
+| [AddControlRefrernce](../../aspose.cells.vba/vbaprojectreferencecollection/addcontrolrefrernce)(string, string, string, string) | 添加对旋转类型库及其扩展类型库的引用。 |
 | [AddProjectRefrernce](../../aspose.cells.vba/vbaprojectreferencecollection/addprojectrefrernce)(string, string, string) | 添加对外部 VBA 项目的引用。 |
 | [AddRegisteredReference](../../aspose.cells.vba/vbaprojectreferencecollection/addregisteredreference)(string, string) | 添加对自动化类型库的引用。 |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(VbaProjectReference) |  |
@@ -64,24 +64,24 @@ public class VbaProjectReferenceCollection : CollectionBase<VbaProjectReference>
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
-  // 初始化 VBA 项目。
+ // 初始化 VBA 项目。
 VbaProject vbaProject = workbook.VbaProject;
-// 添加vba项目reference
+// 添加vba项目引用
 vbaProject.References.AddRegisteredReference("stdole", "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation");
- //保存Excel文件
+//保存Excel文件
 workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 '初始化 VBA 项目。
 Dim vbaProject as VbaProject  = workbook.VbaProject
-'添加vba项目reference
+'添加vba项目引用
 vbaProject.References.AddRegisteredReference("stdole", "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation")
-'保存Excel文件
+'保存 Excel 文件
 workbook.Save("book1.xlsm")
 ```
 

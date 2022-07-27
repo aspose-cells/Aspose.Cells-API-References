@@ -1,14 +1,14 @@
 ---
 title: ExportToJsonStringBuilder
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получить json из книги
+description: Получить json из рабочей книги
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.gridjs/gridjsworkbook/exporttojsonstringbuilder/
 ---
 ## GridJsWorkbook.ExportToJsonStringBuilder method
 
-Получить json из книги
+Получить json из рабочей книги
 
 ```csharp
 public StringBuilder ExportToJsonStringBuilder(string filename)
@@ -20,7 +20,7 @@ public StringBuilder ExportToJsonStringBuilder(string filename)
 
 ### Возвращаемое значение
 
-конструктор строк json
+построитель строк json
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектпо его индексу.
+description: Получает объект по его индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.charts/trendlinecollection/item/
 ---
 ## TrendlineCollection indexer
 
-Получает объектпо его индексу.
+Получает объект по его индексу.
 
 ```csharp
 public Trendline this[int index] { get; }

@@ -1,14 +1,14 @@
 ---
 title: DestinationName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает имя пункта назначения.
+description: Получает или задает имя места назначения.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.rendering/pdfbookmarkentry/destinationname/
 ---
 ## PdfBookmarkEntry.DestinationName property
 
-Получает или задает имя пункта назначения.
+Получает или задает имя места назначения.
 
 ```csharp
 public string DestinationName { get; set; }
@@ -16,7 +16,7 @@ public string DestinationName { get; set; }
 
 ### Примечания
 
-Если установлено имя пункта назначения, пункт назначения будет определен как именованный пункт назначения с этим именем.
+Если задано имя пункта назначения, пункт назначения будет определен как именованный пункт назначения с этим именем.
 
 ### Смотрите также
 

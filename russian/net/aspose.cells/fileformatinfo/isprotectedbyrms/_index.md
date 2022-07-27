@@ -1,14 +1,14 @@
 ---
 title: IsProtectedByRMS
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает защищен ли файл Microsoft Rights Management Server.
+description: Указывает защищен ли файл Microsoft Rights Management Server.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/fileformatinfo/isprotectedbyrms/
 ---
 ## FileFormatInfo.IsProtectedByRMS property
 
-Получает, защищен ли файл Microsoft Rights Management Server.
+Указывает, защищен ли файл Microsoft Rights Management Server.
 
 ```csharp
 public bool IsProtectedByRMS { get; }

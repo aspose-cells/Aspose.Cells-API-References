@@ -16,8 +16,8 @@ public string GetRefersTo(bool isR1C1, bool isLocal)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| isR1C1 | Boolean | 引用是否需要格式化为R1C1。 |
-| isLocal | Boolean | 引用是否需要按locale格式化。 |
+| isR1C1 | Boolean | 引用是否需要格式化为 R1C1。 |
+| isLocal | Boolean | 引用是否需要按语言环境格式化。 |
 
 ### 也可以看看
 
@@ -37,8 +37,8 @@ public string GetRefersTo(bool isR1C1, bool isLocal, int row, int column)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| isR1C1 | Boolean | 引用是否需要格式化为R1C1。 |
-| isLocal | Boolean | 引用是否需要按locale格式化。 |
+| isR1C1 | Boolean | 引用是否需要格式化为 R1C1。 |
+| isLocal | Boolean | 引用是否需要按语言环境格式化。 |
 | row | Int32 | 单元格的行索引。 |
 | column | Int32 | 单元格的列索引。 |
 

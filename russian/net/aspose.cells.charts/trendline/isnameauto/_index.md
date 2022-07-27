@@ -1,14 +1,14 @@
 ---
 title: IsNameAuto
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает если Microsoft Excel автоматически определяет имя линии тренда.
+description: Возвращает значение если Microsoft Excel автоматически определяет имя линии тренда.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.charts/trendline/isnameauto/
 ---
 ## Trendline.IsNameAuto property
 
-Возвращает, если Microsoft Excel автоматически определяет имя линии тренда.
+Возвращает значение, если Microsoft Excel автоматически определяет имя линии тренда.
 
 ```csharp
 public bool IsNameAuto { get; set; }

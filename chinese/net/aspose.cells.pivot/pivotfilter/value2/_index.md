@@ -1,14 +1,14 @@
 ---
 title: Value2
 second_title: Aspose.Cells for .NET API 参考
-description: 获取标签透视过滤器的字符串 value2
+description: 获取标签主元过滤器的字符串 value2
 type: docs
 weight: 90
 url: /zh/net/aspose.cells.pivot/pivotfilter/value2/
 ---
 ## PivotFilter.Value2 property
 
-获取标签透视过滤器的字符串 value2。
+获取标签主元过滤器的字符串 value2。
 
 ```csharp
 public string Value2 { get; set; }

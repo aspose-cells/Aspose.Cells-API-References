@@ -1,14 +1,14 @@
 ---
 title: MaxTotalShapeOrImageCount
 second_title: Aspose.Cells for .NET API 参考
-description: 设置/获取整个工作簿内的显示形状/图像总数当 IslimitShapestrue
+description: 设置/获取整个工作簿内的显示形状/图像总数当 IslimitShapestrue 时会生效
 type: docs
 weight: 110
 url: /zh/net/aspose.cells.gridjs/config/maxtotalshapeorimagecount/
 ---
 ## Config.MaxTotalShapeOrImageCount property
 
-设置/获取整个工作簿内的显示形状/图像总数，当 IslimitShapes=true
+设置/获取整个工作簿内的显示形状/图像总数，当 IslimitShapes=true 时会生效
 
 ```csharp
 public static int MaxTotalShapeOrImageCount { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定索引处的Picture元素
+description: 获取Picture指定索引处的元素
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.griddesktop.data/gridshapecollection/item/
 ---
 ## GridShapeCollection indexer
 
-获取指定索引处的Picture元素。
+获取Picture指定索引处的元素。
 
 ```csharp
 public Shape this[int index] { get; }

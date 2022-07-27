@@ -1,14 +1,14 @@
 ---
 title: SetAutoGroupField
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает группу автоматических полей по сводной таблице.
+description: Устанавливает группу автоматических полей сводной таблицы.
 type: docs
 weight: 930
 url: /ru/net/aspose.cells.pivot/pivottable/setautogroupfield/
 ---
 ## SetAutoGroupField(int) {#setautogroupfield_1}
 
-Устанавливает группу автоматических полей по сводной таблице.
+Устанавливает группу автоматических полей сводной таблицы.
 
 ```csharp
 public void SetAutoGroupField(int baseFieldIndex)
@@ -28,7 +28,7 @@ public void SetAutoGroupField(int baseFieldIndex)
 
 ## SetAutoGroupField(PivotField) {#setautogroupfield}
 
-Устанавливает группу автоматических полей по сводной таблице.
+Устанавливает группу автоматических полей сводной таблицы.
 
 ```csharp
 public void SetAutoGroupField(PivotField pivotField)

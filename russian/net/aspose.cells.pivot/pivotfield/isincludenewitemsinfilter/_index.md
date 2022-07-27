@@ -1,14 +1,14 @@
 ---
 title: IsIncludeNewItemsInFilter
 second_title: Справочник по Aspose.Cells для .NET API
-description: указывает может ли поле включать новые элементы в ручном фильтре Значение по умолчанию  false.
+description: указывает может ли поле включать новые элементы в ручном filter Значение по умолчанию  false.
 type: docs
 weight: 240
 url: /ru/net/aspose.cells.pivot/pivotfield/isincludenewitemsinfilter/
 ---
 ## PivotField.IsIncludeNewItemsInFilter property
 
-указывает, может ли поле включать новые элементы в ручном фильтре Значение по умолчанию — false.
+указывает, может ли поле включать новые элементы в ручном filter Значение по умолчанию — false.
 
 ```csharp
 public bool IsIncludeNewItemsInFilter { get; set; }

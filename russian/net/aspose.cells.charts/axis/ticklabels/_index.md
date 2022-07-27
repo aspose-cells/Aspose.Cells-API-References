@@ -1,14 +1,14 @@
 ---
 title: TickLabels
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает объектTickLabelsaspose.cells.charts/axis/ticklabels представляющий метки делений для указанной оси.
+description: ВозвращаетTickLabelsaspose.cells.charts/axis/ticklabels объект представляющий метки делений для указанной оси.
 type: docs
 weight: 350
 url: /ru/net/aspose.cells.charts/axis/ticklabels/
 ---
 ## Axis.TickLabels property
 
-Возвращает объект`TickLabels`, представляющий метки делений для указанной оси.
+Возвращает`TickLabels` объект, представляющий метки делений для указанной оси.
 
 ```csharp
 public TickLabels TickLabels { get; }

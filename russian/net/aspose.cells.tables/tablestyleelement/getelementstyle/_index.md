@@ -16,7 +16,7 @@ public Style GetElementStyle()
 
 ### Возвращаемое значение
 
-Возвращает объект[`Style`](../../../aspose.cells/style).
+Возвращает[`Style`](../../../aspose.cells/style) объект.
 
 ### Смотрите также
 

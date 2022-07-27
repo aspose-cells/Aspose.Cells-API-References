@@ -1,14 +1,14 @@
 ---
 title: DisplayDrawingObjects
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает следует ли и как отображать объекты в рабочей книге.
+description: Указывает следует ли отображать объекты в книге и если да то каким образом.
 type: docs
 weight: 130
 url: /ru/net/aspose.cells/workbooksettings/displaydrawingobjects/
 ---
 ## WorkbookSettings.DisplayDrawingObjects property
 
-Указывает, следует ли и как отображать объекты в рабочей книге.
+Указывает, следует ли отображать объекты в книге, и если да, то каким образом.
 
 ```csharp
 public DisplayDrawingObjects DisplayDrawingObjects { get; set; }

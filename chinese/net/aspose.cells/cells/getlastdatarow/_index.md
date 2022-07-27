@@ -3,7 +3,7 @@ title: GetLastDataRow
 second_title: Aspose.Cells for .NET API 参考
 description: 获取包含指定列数据的单元格的最后一行索引
 type: docs
-weight: 740
+weight: 750
 url: /zh/net/aspose.cells/cells/getlastdatarow/
 ---
 ## Cells.GetLastDataRow method

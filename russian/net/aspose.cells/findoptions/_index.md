@@ -25,13 +25,13 @@ public class FindOptions
 | Имя | Описание |
 | --- | --- |
 | [CaseSensitive](../../aspose.cells/findoptions/casesensitive) { get; set; } | Указывает, чувствительна ли искомая строка к регистру. |
-| [ConvertNumericData](../../aspose.cells/findoptions/convertnumericdata) { get; set; } | Получает или задает значение, указывающее, выполняется ли преобразование искомого строкового значения в числовые данные. |
-| [IsRangeSet](../../aspose.cells/findoptions/israngeset) { get; } | Указывает, установлен ли искомый диапазон. |
+| [ConvertNumericData](../../aspose.cells/findoptions/convertnumericdata) { get; set; } | Получает или задает значение, указывающее, следует ли преобразовывать искомое строковое значение в числовые данные. |
+| [IsRangeSet](../../aspose.cells/findoptions/israngeset) { get; } | Указывает, задан ли диапазон поиска. |
 | [LookAtType](../../aspose.cells/findoptions/lookattype) { get; set; } | Посмотрите на тип. |
 | [LookInType](../../aspose.cells/findoptions/lookintype) { get; set; } | Искать в типе. |
 | [RegexKey](../../aspose.cells/findoptions/regexkey) { get; set; } | Указывает, является ли искомый ключ регулярным выражением. Если true, то искомый ключ будет принят как регулярное выражение. |
 | [SeachOrderByRows](../../aspose.cells/findoptions/seachorderbyrows) { get; set; } | Указывает порядок поиска по строкам или столбцам. |
-| [SearchBackward](../../aspose.cells/findoptions/searchbackward) { get; set; } | Ищет ли ячейки назад. |
+| [SearchBackward](../../aspose.cells/findoptions/searchbackward) { get; set; } | Поиск ячеек назад. |
 | [Style](../../aspose.cells/findoptions/style) { get; set; } | Формат для поиска. |
 | [ValueTypeSensitive](../../aspose.cells/findoptions/valuetypesensitive) { get; set; } | Указывает, должен ли тип значения искомой ячейки совпадать с искомым ключом. |
 
@@ -40,7 +40,7 @@ public class FindOptions
 | Имя | Описание |
 | --- | --- |
 | [GetRange](../../aspose.cells/findoptions/getrange)() | Получает и задает искомый диапазон. |
-| [SetRange](../../aspose.cells/findoptions/setrange)(CellArea) | Устанавливает искомый диапазон. |
+| [SetRange](../../aspose.cells/findoptions/setrange)(CellArea) | Устанавливает диапазон поиска. |
 
 ### Примеры
 
@@ -48,64 +48,64 @@ public class FindOptions
 
 [C#]
 
-  //Создаем экземпляр книги object
+//Создаем экземпляр объекта книги
 Workbook workbook = new Workbook("book1.xls");
 
-  //Получить коллекцию ячеек 
+//Получить коллекцию ячеек 
 Cells cells = workbook.Worksheets[0].Cells;
 
-  //Создание экземпляра FindOptions Object
+//Создаем экземпляр объекта FindOptions
 FindOptions findOptions = new FindOptions();
 
-  //Создаем область ячеек
+//Создаем область ячеек
 CellArea ca = new CellArea();
 ca.StartRow = 8;
 ca.StartColumn = 2;
 ca.EndRow = 17;
 ca.EndColumn = 13;
 
-  //Задаем область ячеек для поиска options
+//Задаем область ячеек для параметров поиска
 findOptions.SetRange(ca);
 
-  //Установка свойств поиска
+//Задаем свойства поиска
 findOptions.SearchBackward = false;
 
 findOptions.SeachOrderByRows = true;
 
 findOptions.LookInType = LookInType.Values;
 
-  //Находим ячейку с 0 value
+//Находим ячейку со значением 0
 Cell cell = cells.Find(0, null, findOptions);
 
 [VB.NET]
 
-'Создаем экземпляр книги object
+'Создайте экземпляр объекта рабочей книги
 Dim workbook As New Workbook("book1.xls")
 
-'Получить коллекцию ячеек 
+'Получить коллекцию клеток 
 Dim cells As Cells = workbook.Worksheets(0).Cells
 
-'Создание экземпляра FindOptions Object
+'Создать экземпляр объекта FindOptions
 Dim findOptions As New FindOptions()
 
-'Создаем область ячеек
+'Создайте область ячеек
 Dim ca As New CellArea()
 ca.StartRow = 8
 ca.StartColumn = 2
 ca.EndRow = 17
 ca.EndColumn = 13
 
-'Задаем область ячеек для поиска options
+'Установите область ячеек для параметров поиска
 findOptions.SetRange(ca)
 
-'Установка свойств поиска
+'Установить свойства поиска
 findOptions.SearchBackward = True
 
 findOptions.SeachOrderByRows = True
 
 findOptions.LookInType = LookInType.Values
 
-'Находим ячейку с 0 value
+'Найдите ячейку со значением 0
 Dim cell As Cell = cells.Find(0, Nothing, findOptions)
 
 ```

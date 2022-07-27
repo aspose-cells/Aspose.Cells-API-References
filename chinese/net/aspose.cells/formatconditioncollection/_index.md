@@ -18,7 +18,7 @@ public class FormatConditionCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.cells/formatconditioncollection/count) { get; } | 获取条件计数。 |
+| [Count](../../aspose.cells/formatconditioncollection/count) { get; } | 获取条件的计数。 |
 | [Item](../../aspose.cells/formatconditioncollection/item) { get; } | 通过索引获取格式化条件。 |
 | [RangeCount](../../aspose.cells/formatconditioncollection/rangecount) { get; } | 获取条件格式范围的计数。 |
 
@@ -26,11 +26,11 @@ public class FormatConditionCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells/formatconditioncollection/add)(CellArea, FormatConditionType, OperatorType, string, string) | 向 FormatConditions 添加格式条件和影响单元格范围 FormatConditions 最多可以包含三种条件格式。 条件格式的公式中不允许引用其他工作表。 |
+| [Add](../../aspose.cells/formatconditioncollection/add)(CellArea, FormatConditionType, OperatorType, string, string) | 在 FormatConditions 中添加格式条件和受影响的单元格范围 |
 | [AddArea](../../aspose.cells/formatconditioncollection/addarea)(CellArea) | 添加条件格式的单元格范围。 |
 | [AddCondition](../../aspose.cells/formatconditioncollection/addcondition#addcondition)(FormatConditionType) | 添加格式条件。 |
 | [AddCondition](../../aspose.cells/formatconditioncollection/addcondition#addcondition_1)(FormatConditionType, OperatorType, string, string) | 添加格式化条件。 |
-| [GetCellArea](../../aspose.cells/formatconditioncollection/getcellarea)(int) | 按索引获取条件格式的单元格范围。 |
+| [GetCellArea](../../aspose.cells/formatconditioncollection/getcellarea)(int) | 通过索引获取条件格式的单元格范围。 |
 | [RemoveArea](../../aspose.cells/formatconditioncollection/removearea#removearea_1)(int) | 按索引删除条件格式的单元格范围。 |
 | [RemoveArea](../../aspose.cells/formatconditioncollection/removearea#removearea)(int, int, int, int) | 删除范围内的条件格式。 |
 | [RemoveCondition](../../aspose.cells/formatconditioncollection/removecondition)(int) | 按索引删除格式化条件。 |
@@ -41,16 +41,16 @@ public class FormatConditionCollection
 
 [C#]
 
- //创建一个新的工作簿.
+//创建一个新的工作簿。
 Workbook workbook = new Workbook();
 
- //获取第一个工作表.
+//获取第一个工作表。
 Worksheet sheet = workbook.Worksheets[0];
 
- //添加一个空的条件格式
+//添加一个空的条件格式
 int index = sheet.ConditionalFormattings.Add();
 FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
- //设置条件格式范围.
+//设置条件格式范围。
 CellArea ca = new CellArea();
 ca.StartRow = 0;
 ca.EndRow = 0;
@@ -63,19 +63,19 @@ ca.EndRow = 1;
 ca.StartColumn = 1;
 ca.EndColumn = 1;
 fcs.AddArea(ca);
- //添加条件.
+//添加条件。
 int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100");
- //添加条件.
+//添加条件。
 int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
- //设置背景颜色.
+//设置背景颜色。
 FormatCondition fc = fcs[conditionIndex];
 fc.Style.BackgroundColor = Color.Red;
- //保存Excel文件
+//保存Excel文件
 workbook.Save("output.xls");   
 
 [Visual Basic]
 
-'实例化一个Workbook目的
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 Dim sheet As Worksheet = workbook.Worksheets(0)
 '添加一个空的条件格式

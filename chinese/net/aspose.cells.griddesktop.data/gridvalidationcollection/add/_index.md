@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 添加GridValidationaspose.cells.griddesktop.data/gridvalidation到集合中
+description: 添加一个GridValidationaspose.cells.griddesktop.data/gridvalidation收藏.
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.griddesktop.data/gridvalidationcollection/add/
 ---
 ## Add(GridValidation) {#add_3}
 
-添加[`GridValidation`](../../gridvalidation)到集合中。
+添加一个[`GridValidation`](../../gridvalidation)收藏.
 
 ```csharp
 public int Add(GridValidation validation)
@@ -33,7 +33,7 @@ public int Add(GridValidation validation)
 
 ## Add() {#add}
 
-添加[`GridValidation`](../../gridvalidation)到集合中。
+添加一个[`GridValidation`](../../gridvalidation)收藏.
 
 ```csharp
 public GridValidation Add()
@@ -54,7 +54,7 @@ public GridValidation Add()
 
 ## Add(string) {#add_2}
 
-添加[`GridValidation`](../../gridvalidation)到集合。验证应用于指定的单元格。
+添加一个[`GridValidation`](../../gridvalidation)到集合。验证应用于指定的单元格。
 
 ```csharp
 public GridValidation Add(string cellname)
@@ -62,7 +62,7 @@ public GridValidation Add(string cellname)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cellname | String | 单元的名称。 |
+| cellname | String | 单元格的名称。 |
 
 ### 返回值
 
@@ -79,7 +79,7 @@ public GridValidation Add(string cellname)
 
 ## Add(int, int) {#add_1}
 
-添加[`GridValidation`](../../gridvalidation)到集合。验证应用于指定的单元格。
+添加一个[`GridValidation`](../../gridvalidation)到集合。验证应用于指定的单元格。
 
 ```csharp
 public GridValidation Add(int row, int col)
@@ -114,7 +114,7 @@ public void Add(string cellName, bool isRequired, string regEx)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | cellName | String | 网格单元的名称。 |
-| isRequired | Boolean | 表示是否需要单元格值的值。 |
+| isRequired | Boolean | 指示是否需要单元格值的值。 |
 | regEx | String | 正则表达式。 |
 
 ### 也可以看看
@@ -160,7 +160,7 @@ public void Add(int row, int col, bool isRequired, string regEx)
 | --- | --- | --- |
 | row | Int32 | 单元格的行索引。 |
 | col | Int32 | 单元格的列索引。 |
-| isRequired | Boolean | 表示是否需要单元格值的值。 |
+| isRequired | Boolean | 指示是否需要单元格值的值。 |
 | regEx | String | 正则表达式。 |
 
 ### 也可以看看

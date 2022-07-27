@@ -1,14 +1,14 @@
 ---
 title: ID
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает идентификатор пользовательской части xml.
+description: Получает и устанавливает идентификатор пользовательской части xml.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.markup/customxmlpart/id/
 ---
 ## CustomXmlPart.ID property
 
-Получает и задает идентификатор пользовательской части xml.
+Получает и устанавливает идентификатор пользовательской части xml.
 
 ```csharp
 public string ID { get; set; }

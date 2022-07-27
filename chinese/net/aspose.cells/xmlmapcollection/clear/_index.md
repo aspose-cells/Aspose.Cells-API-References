@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Aspose.Cells for .NET API 参考
-description: 删除所有 XmlMap
+description: 删除所有 XmlMaps.
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/xmlmapcollection/clear/
 ---
 ## XmlMapCollection.Clear method
 
-删除所有 XmlMap。
+删除所有 XmlMaps.
 
 ```csharp
 public void Clear()

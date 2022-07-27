@@ -1,14 +1,14 @@
 ---
 title: Workbook
 second_title: Aspose.Cells for .NET API 参考
-description: 获取Workbookaspose.cells.drawing.activexcontrols/activexcontrolbase/workbook对象
+description: 获取Workbookaspose.cells.drawing.activexcontrols/activexcontrolbase/workbook对象.
 type: docs
 weight: 130
 url: /zh/net/aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook/
 ---
 ## ActiveXControlBase.Workbook property
 
-获取`Workbook`对象。
+获取`Workbook`对象.
 
 ```csharp
 public Workbook Workbook { get; }

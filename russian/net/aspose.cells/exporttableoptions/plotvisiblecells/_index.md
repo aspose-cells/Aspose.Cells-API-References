@@ -1,14 +1,14 @@
 ---
 title: PlotVisibleCells
 second_title: Справочник по Aspose.Cells для .NET API
-description: Экспортируются только видимые ячейки.
+description: Экспортирует только видимые ячейки.
 type: docs
 weight: 100
 url: /ru/net/aspose.cells/exporttableoptions/plotvisiblecells/
 ---
 ## ExportTableOptions.PlotVisibleCells property
 
-Экспортируются только видимые ячейки.
+Экспортирует только видимые ячейки.
 
 ```csharp
 public bool PlotVisibleCells { get; set; }

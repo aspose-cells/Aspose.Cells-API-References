@@ -16,7 +16,7 @@ public delegate void CellComboBoxEventHandler(object sender, CellComboBoxEventAr
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sender | Object | 事件源。 |
+| sender | Object | 事件的来源。 |
 | e | CellComboBoxEventArgs | 事件参数。 |
 
 ### 也可以看看

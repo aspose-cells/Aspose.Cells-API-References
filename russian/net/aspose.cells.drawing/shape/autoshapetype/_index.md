@@ -1,14 +1,14 @@
 ---
 title: AutoShapeType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает автоматический тип фигуры.
+description: Получает и задает тип автоматической фигуры.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.drawing/shape/autoshapetype/
 ---
 ## Shape.AutoShapeType property
 
-Получает и задает автоматический тип фигуры.
+Получает и задает тип автоматической фигуры.
 
 ```csharp
 public AutoShapeType AutoShapeType { get; set; }

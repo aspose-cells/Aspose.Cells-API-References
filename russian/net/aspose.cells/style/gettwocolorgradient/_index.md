@@ -1,14 +1,14 @@
 ---
 title: GetTwoColorGradient
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получите настройку двухцветного градиента.
+description: Получить настройку двухцветного градиента.
 type: docs
 weight: 340
 url: /ru/net/aspose.cells/style/gettwocolorgradient/
 ---
 ## Style.GetTwoColorGradient method
 
-Получите настройку двухцветного градиента.
+Получить настройку двухцветного градиента.
 
 ```csharp
 public void GetTwoColorGradient(out Color color1, out Color color2, 
@@ -19,8 +19,8 @@ public void GetTwoColorGradient(out Color color1, out Color color2,
 | --- | --- | --- |
 | color1 | Color& | Один цвет градиента. |
 | color2 | Color& | Два градиентных цвета. |
-| gradientStyleType | GradientStyleType& | Градиентный стиль заливки. |
-| variant | Int32& | Вариант градиента. |
+| gradientStyleType | GradientStyleType& | Градиентный стиль затенения. |
+| variant | Int32& | Градиентный вариант. |
 
 ### Смотрите также
 

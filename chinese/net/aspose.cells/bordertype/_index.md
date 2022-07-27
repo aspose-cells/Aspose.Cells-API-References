@@ -19,14 +19,14 @@ public enum BorderType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| BottomBorder | `8` | 表示底部边界线。 |
+| BottomBorder | `8` | 代表底部边界线。 |
 | DiagonalDown | `10` | 表示从左上角到右下角的对角线。 |
-| DiagonalUp | `20` | 表示从左下到右上的对角线。 |
+| DiagonalUp | `20` | 表示从左下角到右上角的对角线。 |
 | LeftBorder | `1` | 代表左边界线。 |
 | RightBorder | `2` | 代表右边界线存在。 |
 | TopBorder | `4` | 代表上边界线。 |
-| Horizontal | `80` | 仅用于动态样式，例如条件格式。 |
-| Vertical | `40` | 仅用于动态样式，例如条件格式。 |
+| Horizontal | `80` | 仅适用于动态样式，例如条件格式。 |
+| Vertical | `40` | 仅适用于动态样式，例如条件格式。 |
 
 ### 也可以看看
 

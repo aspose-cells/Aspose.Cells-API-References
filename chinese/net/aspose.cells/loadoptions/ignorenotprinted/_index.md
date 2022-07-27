@@ -1,14 +1,14 @@
 ---
 title: IgnoreNotPrinted
 second_title: Aspose.Cells for .NET API 参考
-description: 如果直接打印文件则忽略不打印的数据
+description: 直接打印文件忽略不打印的数据
 type: docs
 weight: 90
 url: /zh/net/aspose.cells/loadoptions/ignorenotprinted/
 ---
 ## LoadOptions.IgnoreNotPrinted property
 
-如果直接打印文件，则忽略不打印的数据
+直接打印文件忽略不打印的数据
 
 ```csharp
 public bool IgnoreNotPrinted { get; set; }

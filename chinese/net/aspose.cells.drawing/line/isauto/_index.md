@@ -1,14 +1,14 @@
 ---
 title: IsAuto
 second_title: Aspose.Cells for .NET API 参考
-description: 指示是否自动分配此线型
+description: 指示此线型是否自动分配
 type: docs
 weight: 130
 url: /zh/net/aspose.cells.drawing/line/isauto/
 ---
 ## Line.IsAuto property
 
-指示是否自动分配此线型。
+指示此线型是否自动分配。
 
 ```csharp
 public bool IsAuto { get; set; }

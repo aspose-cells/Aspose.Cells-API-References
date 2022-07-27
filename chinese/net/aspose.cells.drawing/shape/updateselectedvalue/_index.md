@@ -1,14 +1,14 @@
 ---
 title: UpdateSelectedValue
 second_title: Aspose.Cells for .NET API 参考
-description: 通过链接单元格的值更新所选值
+description: 通过链接单元格的值更新选定的值
 type: docs
 weight: 1170
 url: /zh/net/aspose.cells.drawing/shape/updateselectedvalue/
 ---
 ## Shape.UpdateSelectedValue method
 
-通过链接单元格的值更新所选值。
+通过链接单元格的值更新选定的值。
 
 ```csharp
 public void UpdateSelectedValue()
@@ -19,7 +19,7 @@ public void UpdateSelectedValue()
 ```csharp
 
 [C#]
- //初始化一个新的工作簿.
+//初始化一个新的工作簿。
 //工作簿book = new Workbook();
 
 Cell cell = null;
@@ -29,44 +29,43 @@ for (int i = 0; i< 10; ++i)
     cell.Value = i + 1;
 }
    
- //创建一个ListBox对象
+//创建一个列表框对象
 
 //ActiveX 控件
- //Aspose.Cells.Drawing.Shape listBox = book.Worksheets[0].Shapes.AddActiveXControl(Aspose.Cells.Drawing.ActiveXControls.ControlType.ListBox,2, 0, 2, 0, 130, 130);
+//Aspose.Cells.Drawing.Shape listBox = book.Worksheets[0].Shapes.AddActiveXControl(Aspose.Cells.Drawing.ActiveXControls.ControlType.ListBox,2, 0, 2, 0, 130, 130);
 
- //表单控件
+//表单控件
 Aspose.Cells.Drawing.Shape listBox = book.Worksheets[0].Shapes.AddListBox(2, 0, 2, 0, 130, 130);
 
- //设置用于填充控件的范围。
+//设置用于填充控件的范围。
 listBox.SetInputRange("$A$1:$A$6", false, false);
 
- //设置链接到控件值的范围。
+//设置链接到控件值的范围。
 listBox.SetLinkedCell("$A$12", false, true);
 
 ListBox listbx = (ListBox)listBox;
 
- //设置单元格A12
-
+//设置单元格A12的值
 cell = book.Worksheets[0].Cells[11, 0];
 cell.Value = 3;
 
-//通过链接单元格的值更新选中的值。
+//通过链接单元格的值更新选定的值。
 listBox.UpdateSelectedValue();
 
- //-1 默认，未选择选项
+//-1 默认值，未选择任何选项
 if(listbx.IsSelected(2))
 {
     //ListBox的选项3被选中
 }
 
- //更改链接单元格的值
+//改变链接单元格的值
 cell.Value = 4;
 
-//通过链接单元格的值更新选中的值。
+//通过链接单元格的值更新选定的值。
 listBox.UpdateSelectedValue();
 if(listbx.IsSelected(3))
 {
-     //ListBox的选项4被选中
+    //ListBox的选项4被选中
 }
 
 ```

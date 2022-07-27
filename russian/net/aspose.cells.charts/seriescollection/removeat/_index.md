@@ -1,14 +1,14 @@
 ---
 title: RemoveAt
 second_title: Справочник по Aspose.Cells для .NET API
-description: Удалить в серии по определенному индексу.
+description: Удалить серию по указанному индексу.
 type: docs
 weight: 100
 url: /ru/net/aspose.cells.charts/seriescollection/removeat/
 ---
 ## SeriesCollection.RemoveAt method
 
-Удалить в серии по определенному индексу.
+Удалить серию по указанному индексу.
 
 ```csharp
 public void RemoveAt(int index)

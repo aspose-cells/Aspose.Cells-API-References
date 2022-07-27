@@ -36,39 +36,36 @@ public class Hyperlink
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
- //添加一个新的工作表到工作簿对象
+//向Workbook对象添加一个新的工作表
 workbook.Worksheets.Add();
- //通过传入其sheet index
-eet的引用
+//通过传入工作表的索引来获取新添加的工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
-//在“A1”处添加指向 URL 的超链接 cell
+//在“A1”单元格处添加指向 URL 的超链接
 int index = worksheet.Hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
- //通过index.
-
+//通过索引获取超链接。
 Hyperlink hyperlink = worksheet.Hyperlinks[index];
-//设置这个超链接的显示文本。
+//设置此超链接的显示文本。
 hyperlink.TextToDisplay = "Aspose";
- //保存Excel文件
+//保存Excel文件
 workbook.Save("book1.xls");
 
 [Visual Basic]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
-'添加一个新的工作表到工作簿对象
+'将新工作表添加到 Workbook 对象
 workbook.Worksheets.Add()
-'通过传递其工作表索引来获取新添加工作表的引用
+'通过传入工作表的索引来获取新添加的工作表的引用
 Dim worksheet As Worksheet = workbook.Worksheets(0)
-'在“A1”处添加指向 URL 的超链接 cell
-Dim index as Integer = worksheet.Hyperlinks.Add("A1", 1, 1, "http: //www.aspose.com")
-'通过index.
-
+'Adding a hyperlink to a URL at "A1" cell
+Dim index as Integer = worksheet.Hyperlinks.Add("A1", 1, 1, "http://www.aspose.com")
+'通过索引获取超链接。
 Dim hyperlink as Hyperlink = worksheet.Hyperlinks(index);
 '设置此超链接的显示文本。
 hyperlink.TextToDisplay = "Aspose";
-'保存Excel文件
+'保存 Excel 文件
 workbook.Save("book1.xls")
 ```
 

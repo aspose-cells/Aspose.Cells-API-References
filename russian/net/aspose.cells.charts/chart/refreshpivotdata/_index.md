@@ -1,14 +1,14 @@
 ---
 title: RefreshPivotData
 second_title: Справочник по Aspose.Cells для .NET API
-description: Обновляет данные сводной диаграммы из ее источника данных.
+description: Обновляет данные сводной диаграммы из источника сводных данных.
 type: docs
 weight: 560
 url: /ru/net/aspose.cells.charts/chart/refreshpivotdata/
 ---
 ## Chart.RefreshPivotData method
 
-Обновляет данные сводной диаграммы из ее источника данных.
+Обновляет данные сводной диаграммы из источника сводных данных.
 
 ```csharp
 public void RefreshPivotData()

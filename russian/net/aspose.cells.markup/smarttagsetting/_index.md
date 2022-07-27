@@ -1,14 +1,14 @@
 ---
 title: SmartTagSetting
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет все объектыSmartTagCollection./smarttagcollectionна рабочем листе.
+description: Представляет всеSmartTagCollection./smarttagcollection объект на листе.
 type: docs
 weight: 4110
 url: /ru/net/aspose.cells.markup/smarttagsetting/
 ---
 ## SmartTagSetting class
 
-Представляет все объекты[`SmartTagCollection`](../smarttagcollection)на рабочем листе.
+Представляет все[`SmartTagCollection`](../smarttagcollection) объект на листе.
 
 ```csharp
 public class SmartTagSetting : CollectionBase
@@ -18,14 +18,14 @@ public class SmartTagSetting : CollectionBase
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.cells.markup/smarttagsetting/item) { get; } | Получает объект[`SmartTagCollection`](../smarttagcollection)по индексу. (3 indexers) |
+| [Item](../../aspose.cells.markup/smarttagsetting/item) { get; } | Получает[`SmartTagCollection`](../smarttagcollection) объект по индексу. (3 indexers) |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells.markup/smarttagsetting/add#add_1)(string) | Добавьте смарт-теги ячейки. |
-| [Add](../../aspose.cells.markup/smarttagsetting/add#add)(int, int) | Добавляет объект[`SmartTagCollection`](../smarttagcollection)в ячейку. |
+| [Add](../../aspose.cells.markup/smarttagsetting/add#add_1)(string) | Добавить смарт-теги ячейки. |
+| [Add](../../aspose.cells.markup/smarttagsetting/add#add)(int, int) | Добавляет[`SmartTagCollection`](../smarttagcollection) объект в ячейку. |
 
 ### Смотрите также
 

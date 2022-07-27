@@ -16,12 +16,12 @@ public int Add(int fieldIndex, PivotFilterType type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldIndex | Int32 | PivotField index |
+| fieldIndex | Int32 | индекс PivotField |
 | type | PivotFilterType | тип PivotFilter |
 
 ### Возвращаемое значение
 
-индекс объекта PivotFilter в этой PivotFilterCollection.
+индекс объекта PivotFilter в этой коллекции PivotFilterCollection.
 
 ### Смотрите также
 

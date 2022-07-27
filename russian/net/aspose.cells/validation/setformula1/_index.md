@@ -1,14 +1,14 @@
 ---
 title: SetFormula1
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает значение или выражение связанное с этой проверкой.
+description: Задает значение или выражение связанное с этой проверкой.
 type: docs
 weight: 260
 url: /ru/net/aspose.cells/validation/setformula1/
 ---
 ## Validation.SetFormula1 method
 
-Устанавливает значение или выражение, связанное с этой проверкой.
+Задает значение или выражение, связанное с этой проверкой.
 
 ```csharp
 public void SetFormula1(string formula, bool isR1C1, bool isLocal)
@@ -18,7 +18,7 @@ public void SetFormula1(string formula, bool isR1C1, bool isLocal)
 | --- | --- | --- |
 | formula | String | Значение или выражение, связанное с этим условием формата. |
 | isR1C1 | Boolean | Является ли формула формулой R1C1. |
-| isLocal | Boolean | Отформатирована ли формула по локали. |
+| isLocal | Boolean | Отформатирована ли формула в языковом стандарте. |
 
 ### Смотрите также
 

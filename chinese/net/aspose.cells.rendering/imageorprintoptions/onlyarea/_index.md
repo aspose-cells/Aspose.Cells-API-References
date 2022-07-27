@@ -1,14 +1,14 @@
 ---
 title: OnlyArea
 second_title: Aspose.Cells for .NET API 参考
-description: 如果该属性为 true 则输出一个Area不进行缩放
+description: 如果该属性为true则输出一个Area没有比例尺生效
 type: docs
 weight: 180
 url: /zh/net/aspose.cells.rendering/imageorprintoptions/onlyarea/
 ---
 ## ImageOrPrintOptions.OnlyArea property
 
-如果该属性为 true ，则输出一个Area，不进行缩放。
+如果该属性为true，则输出一个Area，没有比例尺生效。
 
 ```csharp
 public bool OnlyArea { get; set; }

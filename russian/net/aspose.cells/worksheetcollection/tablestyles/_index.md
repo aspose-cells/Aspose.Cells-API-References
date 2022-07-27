@@ -1,14 +1,14 @@
 ---
 title: TableStyles
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектTableStylesaspose.cells/worksheetcollection/tablestyles.
+description: получаетTableStylesaspose.cells/worksheetcollection/tablestyles объект.
 type: docs
 weight: 120
 url: /ru/net/aspose.cells/worksheetcollection/tablestyles/
 ---
 ## WorksheetCollection.TableStyles property
 
-Получает объект`TableStyles`.
+получает`TableStyles` объект.
 
 ```csharp
 public TableStyleCollection TableStyles { get; }

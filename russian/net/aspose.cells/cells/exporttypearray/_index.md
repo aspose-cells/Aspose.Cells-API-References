@@ -1,14 +1,14 @@
 ---
 title: ExportTypeArray
 second_title: Справочник по Aspose.Cells для .NET API
-description: Экспортирует тип значения ячейки из коллекцииCellsaspose.cells/cellsв объект двумерного массива.
+description: Экспортирует тип значения ячейки вCellsaspose.cells/cells коллекция в объект двумерного массива.
 type: docs
 weight: 630
 url: /ru/net/aspose.cells/cells/exporttypearray/
 ---
 ## Cells.ExportTypeArray method
 
-Экспортирует тип значения ячейки из коллекции[`Cells`](../../cells)в объект двумерного массива.
+Экспортирует тип значения ячейки в[`Cells`](../../cells) коллекция в объект двумерного массива.
 
 ```csharp
 public CellValueType[] ExportTypeArray(int firstRow, int firstColumn, int totalRows, 
@@ -17,14 +17,14 @@ public CellValueType[] ExportTypeArray(int firstRow, int firstColumn, int totalR
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| firstRow | Int32 | Номер строки первой экспортируемой ячейки. |
-| firstColumn | Int32 | Номер столбца первой экспортируемой ячейки. |
-| totalRows | Int32 | Количество экспортируемых строк. |
+| firstRow | Int32 | Номер строки первой ячейки для экспорта. |
+| firstColumn | Int32 | Номер столбца первой ячейки для экспорта. |
+| totalRows | Int32 | Количество строк для экспорта. |
 | totalColumns | Int32 | Количество столбцов для экспорта. |
 
 ### Возвращаемое значение
 
-Экспортируется[`CellValueType`](../../cellvaluetype)объект массива.
+Экспортировано[`CellValueType`](../../cellvaluetype) объект массива.
 
 ### Смотрите также
 

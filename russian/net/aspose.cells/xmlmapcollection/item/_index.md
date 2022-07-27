@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает карту xml по заданному индексу.
+description: Получает карту xml по определенному индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/xmlmapcollection/item/
 ---
 ## XmlMapCollection indexer
 
-Получает карту xml по заданному индексу.
+Получает карту xml по определенному индексу.
 
 ```csharp
 public XmlMap this[int index] { get; }
@@ -20,7 +20,7 @@ public XmlMap this[int index] { get; }
 
 ### Возвращаемое значение
 
-Карта xml
+XML-карта
 
 ### Смотрите также
 

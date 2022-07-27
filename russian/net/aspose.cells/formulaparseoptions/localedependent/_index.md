@@ -1,14 +1,14 @@
 ---
 title: LocaleDependent
 second_title: Справочник по Aspose.Cells для .NET API
-description: Отформатирована ли формула по локали. Значение по умолчанию  ложь.
+description: Отформатирована ли формула по локали. По умолчанию false.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/formulaparseoptions/localedependent/
 ---
 ## FormulaParseOptions.LocaleDependent property
 
-Отформатирована ли формула по локали. Значение по умолчанию — ложь.
+Отформатирована ли формула по локали. По умолчанию false.
 
 ```csharp
 public bool LocaleDependent { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: RegexKey
 second_title: Aspose.Cells for .NET API 参考
-description: 表示搜索到的键是否是正则表达式如果为真则搜索到的键将被视为正则表达式
+description: 表示搜索到的键是否是正则表达式如果为真则搜索到的键将被视为 regex.
 type: docs
 weight: 70
 url: /zh/net/aspose.cells/findoptions/regexkey/
 ---
 ## FindOptions.RegexKey property
 
-表示搜索到的键是否是正则表达式。如果为真，则搜索到的键将被视为正则表达式。
+表示搜索到的键是否是正则表达式。如果为真，则搜索到的键将被视为 regex.
 
 ```csharp
 public bool RegexKey { get; set; }

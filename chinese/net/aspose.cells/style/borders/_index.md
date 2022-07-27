@@ -1,14 +1,14 @@
 ---
 title: Borders
 second_title: Aspose.Cells for .NET API 参考
-description: 获取样式的BorderCollectionaspose.cells/bordercollection
+description: 获取BorderCollectionaspose.cells/bordercollection风格的.
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/style/borders/
 ---
 ## Style.Borders property
 
-获取样式的[`BorderCollection`](../../bordercollection)。
+获取[`BorderCollection`](../../bordercollection)风格的.
 
 ```csharp
 public BorderCollection Borders { get; }

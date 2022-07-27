@@ -16,7 +16,7 @@ public bool IsDisplayUnitLabelShown { get; set; }
 
 ### Примечания
 
-Значение по умолчанию — True.
+Значение по умолчанию верно.
 
 ### Смотрите также
 

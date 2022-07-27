@@ -1,14 +1,14 @@
 ---
 title: GetDesignerStorage
 second_title: Aspose.Cells for .NET API 参考
-description: 代表Designer的数据
+description: 代表 Designer 的数据
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.vba/vbamodulecollection/getdesignerstorage/
 ---
 ## VbaModuleCollection.GetDesignerStorage method
 
-代表Designer的数据。
+代表 Designer 的数据。
 
 ```csharp
 public byte[] GetDesignerStorage(string name)
@@ -16,7 +16,7 @@ public byte[] GetDesignerStorage(string name)
 
 ### 评论
 
-我们不支持解析它们。只是为了复制。
+我们不支持解析它们。仅用于复制。
 
 ### 也可以看看
 

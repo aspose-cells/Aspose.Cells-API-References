@@ -1,14 +1,14 @@
 ---
 title: ExportFrameScriptsAndProperties
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает экспортируются ли скрипты фреймов и свойства документа. Значение по умолчанию  true. Если вы хотите импортировать файл html или mht в Excel оставьте значение по умолчанию.
+description: Указывает экспортируются ли сценарии фреймов и свойства документа. Значение по умолчанию  true. Если вы хотите импортировать файл html или mht в Excel оставьте значение по умолчанию.
 type: docs
 weight: 180
 url: /ru/net/aspose.cells/htmlsaveoptions/exportframescriptsandproperties/
 ---
 ## HtmlSaveOptions.ExportFrameScriptsAndProperties property
 
-Указывает, экспортируются ли скрипты фреймов и свойства документа. Значение по умолчанию — true. Если вы хотите импортировать файл html или mht в Excel, оставьте значение по умолчанию.
+Указывает, экспортируются ли сценарии фреймов и свойства документа. Значение по умолчанию — true. Если вы хотите импортировать файл html или mht в Excel, оставьте значение по умолчанию.
 
 ```csharp
 public bool ExportFrameScriptsAndProperties { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: PivotOptions
 second_title: Aspose.Cells for .NET API 参考
-description: 指定图表上出现的枢轴控件
+description: 指定出现在图表上的枢轴控件
 type: docs
 weight: 240
 url: /zh/net/aspose.cells.charts/chart/pivotoptions/
 ---
 ## Chart.PivotOptions property
 
-指定图表上出现的枢轴控件
+指定出现在图表上的枢轴控件
 
 ```csharp
 public PivotOptions PivotOptions { get; }

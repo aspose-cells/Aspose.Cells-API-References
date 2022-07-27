@@ -1,14 +1,14 @@
 ---
 title: RemoveACell
 second_title: Справочник по Aspose.Cells для .NET API
-description: Удалите настройки проверки в ячейке.
+description: Удалить настройки проверки в ячейке.
 type: docs
 weight: 230
 url: /ru/net/aspose.cells.griddesktop.data/gridvalidation/removeacell/
 ---
 ## GridValidation.RemoveACell method
 
-Удалите настройки проверки в ячейке.
+Удалить настройки проверки в ячейке.
 
 ```csharp
 public void RemoveACell(int row, int column)

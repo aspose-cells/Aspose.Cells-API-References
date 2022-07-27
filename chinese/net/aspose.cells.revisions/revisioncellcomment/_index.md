@@ -20,13 +20,13 @@ public class RevisionCellComment : Revision
 | --- | --- |
 | [ActionType](../../aspose.cells.revisions/revisioncellcomment/actiontype) { get; } | 获取修订的操作类型。 |
 | [CellName](../../aspose.cells.revisions/revisioncellcomment/cellname) { get; set; } | 获取单元格的名称。 |
-| [Column](../../aspose.cells.revisions/revisioncellcomment/column) { get; } | 获取包含注释的列索引。 |
+| [Column](../../aspose.cells.revisions/revisioncellcomment/column) { get; } | 获取包含评论的列索引。 |
 | [Id](../../aspose.cells.revisions/revision/id) { get; } | 获取此修订的编号。 |
 | [IsOldComment](../../aspose.cells.revisions/revisioncellcomment/isoldcomment) { get; } | 表示是否为旧评论。 |
 | [NewLength](../../aspose.cells.revisions/revisioncellcomment/newlength) { get; } | 获取进行此修订之前的评论长度。 |
-| [OldLength](../../aspose.cells.revisions/revisioncellcomment/oldlength) { get; } | 获取此修订中添加的注释文本的长度。 |
+| [OldLength](../../aspose.cells.revisions/revisioncellcomment/oldlength) { get; } | 获取此修订中添加的评论文本的长度。 |
 | [Row](../../aspose.cells.revisions/revisioncellcomment/row) { get; } | 获取包含注释的行索引。 |
-| override [Type](../../aspose.cells.revisions/revisioncellcomment/type) { get; } | 获取修订类型。 |
+| override [Type](../../aspose.cells.revisions/revisioncellcomment/type) { get; } | 获取修订的类型。 |
 | [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | 获取工作表。 |
 
 ### 也可以看看

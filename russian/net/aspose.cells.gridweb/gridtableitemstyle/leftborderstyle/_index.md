@@ -1,14 +1,14 @@
 ---
 title: LeftBorderStyle
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает стиль левой границы ячейки.
+description: Определяет стиль левой границы ячейки.
 type: docs
 weight: 80
 url: /ru/net/aspose.cells.gridweb/gridtableitemstyle/leftborderstyle/
 ---
 ## GridTableItemStyle.LeftBorderStyle property
 
-Задает стиль левой границы ячейки.
+Определяет стиль левой границы ячейки.
 
 ```csharp
 public WebBorderStyle LeftBorderStyle { get; set; }

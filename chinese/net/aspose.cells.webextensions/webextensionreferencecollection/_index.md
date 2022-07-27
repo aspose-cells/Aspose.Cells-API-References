@@ -1,14 +1,14 @@
 ---
 title: WebExtensionReferenceCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示网络扩展引用列表
+description: 代表网络扩展引用列表
 type: docs
 weight: 6440
 url: /zh/net/aspose.cells.webextensions/webextensionreferencecollection/
 ---
 ## WebExtensionReferenceCollection class
 
-表示网络扩展引用列表。
+代表网络扩展引用列表。
 
 ```csharp
 public class WebExtensionReferenceCollection : CollectionBase<WebExtensionReference>

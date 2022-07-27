@@ -1,14 +1,14 @@
 ---
 title: LocaleDependent
 second_title: Aspose.Cells for .NET API 参考
-description: 公式是否为区域设置格式默认为假
+description: 公式是否为语言环境格式默认为假
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/formulaparseoptions/localedependent/
 ---
 ## FormulaParseOptions.LocaleDependent property
 
-公式是否为区域设置格式。默认为假。
+公式是否为语言环境格式。默认为假。
 
 ```csharp
 public bool LocaleDependent { get; set; }

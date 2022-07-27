@@ -32,7 +32,7 @@ public DocxSaveOptions(bool saveAsImage)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| saveAsImage | Boolean | 如果为 True，则工作簿将转换为 .docx 文件的一些图片。 如果为 False，工作簿将被转换为 .docx 文件的一些表格。 |
+| saveAsImage | Boolean | 如果为True，工作簿将被转换为.docx文件的一些图片。 如果为False，工作簿将被转换为.docx文件的一些表格。 |
 
 ### 也可以看看
 

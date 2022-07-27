@@ -1,14 +1,14 @@
 ---
 title: NumberOfColumns
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает или задает количество столбцов в указанном срезе.
+description: Возвращает или задает количество столбцов в указанном слайсере.
 type: docs
 weight: 140
 url: /ru/net/aspose.cells.slicers/slicer/numberofcolumns/
 ---
 ## Slicer.NumberOfColumns property
 
-Возвращает или задает количество столбцов в указанном срезе.
+Возвращает или задает количество столбцов в указанном слайсере.
 
 ```csharp
 public int NumberOfColumns { get; set; }

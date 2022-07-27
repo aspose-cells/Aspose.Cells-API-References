@@ -1,14 +1,14 @@
 ---
 title: GridFilterOperatorType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Пользовательский тип оператора фильтра.
+description: Тип оператора пользовательского фильтра.
 type: docs
 weight: 460
 url: /ru/net/aspose.cells.griddesktop.data/gridfilteroperatortype/
 ---
 ## GridFilterOperatorType enumeration
 
-Пользовательский тип оператора фильтра.
+Тип оператора пользовательского фильтра.
 
 ```csharp
 public enum GridFilterOperatorType
@@ -19,7 +19,7 @@ public enum GridFilterOperatorType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | LessOrEqual | `0` | Представляет оператор LessOrEqual. |
-| LessThan | `1` | Представляет оператор "меньше чем". |
+| LessThan | `1` | Представляет оператор меньше чем. |
 | Equal | `2` | Представляет оператор равенства. |
 | GreaterThan | `3` | Представляет оператор GreaterThan. |
 | NotEqual | `4` | Представляет оператор NotEqual. |

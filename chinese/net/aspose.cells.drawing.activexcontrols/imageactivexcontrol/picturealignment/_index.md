@@ -1,14 +1,14 @@
 ---
 title: PictureAlignment
 second_title: Aspose.Cells for .NET API 参考
-description: 获取并设置Form或Image中图片的对齐方式
+description: 获取和设置图片在Form或Image中的对齐方式
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/picturealignment/
 ---
 ## ImageActiveXControl.PictureAlignment property
 
-获取并设置Form或Image中图片的对齐方式。
+获取和设置图片在Form或Image中的对齐方式。
 
 ```csharp
 public ControlPictureAlignmentType PictureAlignment { get; set; }

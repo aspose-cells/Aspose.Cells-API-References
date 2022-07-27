@@ -11,12 +11,12 @@ url: /zh/net/aspose.cells.querytables/datamashup/powerqueryformulas/
 获取所有幂查询公式。
 
 ```csharp
-public PowerQueryFormulaCollction PowerQueryFormulas { get; }
+public PowerQueryFormulaCollection PowerQueryFormulas { get; }
 ```
 
 ### 也可以看看
 
-* class [PowerQueryFormulaCollction](../../powerqueryformulacollction)
+* class [PowerQueryFormulaCollection](../../powerqueryformulacollection)
 * class [DataMashup](../../datamashup)
 * 命名空间 [Aspose.Cells.QueryTables](../../datamashup)
 * 部件 [Aspose.Cells](../../../)

@@ -51,7 +51,7 @@ public void ImportXml(Stream stream, string sheetName, int row, int col)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | xml文件流。 |
+| stream | Stream | xml 文件流。 |
 | sheetName | String | 目标工作表名称。 |
 | row | Int32 | 目标行。 |
 | col | Int32 | 目标列。 |

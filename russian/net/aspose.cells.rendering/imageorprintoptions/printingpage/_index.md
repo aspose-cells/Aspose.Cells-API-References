@@ -1,14 +1,14 @@
 ---
 title: PrintingPage
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает какие страницы не будут распечатаны.
+description: Указывает какие страницы не будут напечатаны.
 type: docs
 weight: 240
 url: /ru/net/aspose.cells.rendering/imageorprintoptions/printingpage/
 ---
 ## ImageOrPrintOptions.PrintingPage property
 
-Указывает, какие страницы не будут распечатаны.
+Указывает, какие страницы не будут напечатаны.
 
 ```csharp
 public PrintingPageType PrintingPage { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: BaseItemPosition
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет элемент в базовом поле для пользовательского расчета. Действительно только для полей данных. Поскольку PivotItemPosition.Custom предназначен только для чтения если вам нужно установить PivotItemPosition.Custom установите атрибут PivotField.BaseItemIndex.
+description: Представляет элемент в базовом поле для пользовательского расчета. Допустимо только для полей данных. Поскольку PivotItemPosition.Custom предназначен только для чтения если вам нужно установить PivotItemPosition.Custom установите атрибут PivotField.BaseItemIndex.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.pivot/pivotfield/baseitemposition/
 ---
 ## PivotField.BaseItemPosition property
 
-Представляет элемент в базовом поле для пользовательского расчета. Действительно только для полей данных. Поскольку PivotItemPosition.Custom предназначен только для чтения, если вам нужно установить PivotItemPosition.Custom, установите атрибут PivotField.BaseItemIndex.
+Представляет элемент в базовом поле для пользовательского расчета. Допустимо только для полей данных. Поскольку PivotItemPosition.Custom предназначен только для чтения, если вам нужно установить PivotItemPosition.Custom, установите атрибут PivotField.BaseItemIndex.
 
 ```csharp
 public PivotItemPosition BaseItemPosition { get; set; }

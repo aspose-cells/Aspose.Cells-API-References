@@ -1,14 +1,14 @@
 ---
 title: MinorTickMark
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет тип вспомогательной засечки для указанной оси.
+description: Представляет тип второстепенной засечки для указанной оси.
 type: docs
 weight: 300
 url: /ru/net/aspose.cells.charts/axis/minortickmark/
 ---
 ## Axis.MinorTickMark property
 
-Представляет тип вспомогательной засечки для указанной оси.
+Представляет тип второстепенной засечки для указанной оси.
 
 ```csharp
 public TickMarkType MinorTickMark { get; set; }

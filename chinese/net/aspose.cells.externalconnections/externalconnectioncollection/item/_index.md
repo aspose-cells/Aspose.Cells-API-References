@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定索引处的ExternalConnectionaspose.cells.externalconnections/externalconnection元素
+description: 获取ExternalConnectionaspose.cells.externalconnections/externalconnection指定索引处的元素
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.externalconnections/externalconnectioncollection/item/
 ---
 ## ExternalConnectionCollection indexer (1 of 2)
 
-获取指定索引处的[`ExternalConnection`](../../externalconnection)元素。
+获取[`ExternalConnection`](../../externalconnection)指定索引处的元素。
 
 ```csharp
 public ExternalConnection this[int index] { get; set; }
@@ -33,7 +33,7 @@ public ExternalConnection this[int index] { get; set; }
 
 ## ExternalConnectionCollection indexer (2 of 2)
 
-获取具有指定名称的[`ExternalConnection`](../../externalconnection)元素。
+获取[`ExternalConnection`](../../externalconnection)具有指定名称的元素。
 
 ```csharp
 public ExternalConnection this[string connectionName] { get; }
@@ -45,7 +45,7 @@ public ExternalConnection this[string connectionName] { get; }
 
 ### 返回值
 
-指定名称的元素.
+具有指定名称的元素。
 
 ### 也可以看看
 

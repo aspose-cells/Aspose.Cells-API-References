@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Aspose.Cells for .NET API 参考
-description: 用作 Style 对象的哈希函数
+description: 用作样式对象的哈希函数
 type: docs
 weight: 330
 url: /zh/net/aspose.cells/style/gethashcode/
 ---
 ## Style.GetHashCode method
 
-用作 Style 对象的哈希函数。
+用作样式对象的哈希函数。
 
 ```csharp
 public override int GetHashCode()

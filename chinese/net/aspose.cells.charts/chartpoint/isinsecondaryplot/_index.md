@@ -1,14 +1,14 @@
 ---
 title: IsInSecondaryPlot
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置一个值指示此数据点是否在第二个饼图或条形图中 在一个饼图或饼图条形图上
+description: 获取或设置一个值指示此数据点是否在第二个饼图中或 bar 上的饼图或饼图的条形图
 type: docs
 weight: 160
 url: /zh/net/aspose.cells.charts/chartpoint/isinsecondaryplot/
 ---
 ## ChartPoint.IsInSecondaryPlot property
 
-获取或设置一个值，指示此数据点是否在第二个饼图或条形图中 在一个饼图或饼图条形图上
+获取或设置一个值，指示此数据点是否在第二个饼图中或 bar 上的饼图或饼图的条形图
 
 ```csharp
 public bool IsInSecondaryPlot { get; set; }

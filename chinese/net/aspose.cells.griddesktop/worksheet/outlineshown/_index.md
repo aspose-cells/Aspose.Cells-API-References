@@ -1,14 +1,14 @@
 ---
 title: OutlineShown
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否显示轮廓
+description: 表示是否显示大纲
 type: docs
 weight: 280
 url: /zh/net/aspose.cells.griddesktop/worksheet/outlineshown/
 ---
 ## Worksheet.OutlineShown property
 
-表示是否显示轮廓。
+表示是否显示大纲。
 
 ```csharp
 public bool OutlineShown { get; set; }

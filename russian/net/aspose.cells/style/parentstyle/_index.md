@@ -1,14 +1,14 @@
 ---
 title: ParentStyle
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает родительский стиль данного стиля.
+description: Получает родительский стиль этого стиля.
 type: docs
 weight: 240
 url: /ru/net/aspose.cells/style/parentstyle/
 ---
 ## Style.ParentStyle property
 
-Получает родительский стиль данного стиля.
+Получает родительский стиль этого стиля.
 
 ```csharp
 public Style ParentStyle { get; }

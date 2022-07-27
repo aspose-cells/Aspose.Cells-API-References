@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Aspose.Cells for .NET API 参考
-description: 获取注释的字体
+description: 获取评论的字体
 type: docs
 weight: 50
 url: /zh/net/aspose.cells/comment/font/
 ---
 ## Comment.Font property
 
-获取注释的字体。
+获取评论的字体。
 
 ```csharp
 public Font Font { get; }

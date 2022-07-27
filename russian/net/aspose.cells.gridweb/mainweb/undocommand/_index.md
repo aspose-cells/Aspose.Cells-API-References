@@ -1,14 +1,14 @@
 ---
 title: UndoCommand
 second_title: Справочник по Aspose.Cells для .NET API
-description: Происходит при нажатии кнопки отменить.
+description: Происходит при нажатии кнопки Отменить.
 type: docs
 weight: 1360
 url: /ru/net/aspose.cells.gridweb/mainweb/undocommand/
 ---
 ## MainWeb.UndoCommand event
 
-Происходит при нажатии кнопки "отменить".
+Происходит при нажатии кнопки "Отменить".
 
 ```csharp
 public event WorkbookEventHandler UndoCommand;

@@ -1,14 +1,14 @@
 ---
 title: SetEvenHeader
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает сценарий форматирующий заголовок четной страницы файла Excel. Только эффект в Excel 2007 когда IsHFDiffOddEven имеет значение true.
+description: Задает сценарий форматирующий заголовок четной страницы файла Excel. Эффект только в Excel 2007 когда IsHFDiffOddEven имеет значение true.
 type: docs
 weight: 560
 url: /ru/net/aspose.cells/pagesetup/setevenheader/
 ---
 ## PageSetup.SetEvenHeader method
 
-Задает сценарий, форматирующий заголовок четной страницы файла Excel. Только эффект в Excel 2007, когда IsHFDiffOddEven имеет значение true.
+Задает сценарий, форматирующий заголовок четной страницы файла Excel. Эффект только в Excel 2007, когда IsHFDiffOddEven имеет значение true.
 
 ```csharp
 public void SetEvenHeader(int section, string headerScript)
@@ -16,7 +16,7 @@ public void SetEvenHeader(int section, string headerScript)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| section | Int32 | 0:Левая секция. |
+| section | Int32 | 0: левая часть, 1: центральная часть, 2: правая часть. |
 | headerScript | String | Скрипт формата заголовка. |
 
 ### Смотрите также

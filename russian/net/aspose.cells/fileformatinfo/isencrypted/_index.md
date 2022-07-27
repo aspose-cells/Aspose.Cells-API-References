@@ -1,14 +1,14 @@
 ---
 title: IsEncrypted
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает true если документ зашифрован и для его открытия требуется пароль.
+description: Возвращает значение true если документ зашифрован и для его открытия требуется пароль.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/fileformatinfo/isencrypted/
 ---
 ## FileFormatInfo.IsEncrypted property
 
-Возвращает true, если документ зашифрован и для его открытия требуется пароль.
+Возвращает значение true, если документ зашифрован и для его открытия требуется пароль.
 
 ```csharp
 public bool IsEncrypted { get; }

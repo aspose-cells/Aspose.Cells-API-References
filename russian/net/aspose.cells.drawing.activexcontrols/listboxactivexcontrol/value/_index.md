@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает значение элемента управления.
+description: Получает и устанавливает значение элемента управления.
 type: docs
 weight: 160
 url: /ru/net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/value/
 ---
 ## ListBoxActiveXControl.Value property
 
-Получает и задает значение элемента управления.
+Получает и устанавливает значение элемента управления.
 
 ```csharp
 public string Value { get; set; }
@@ -16,7 +16,7 @@ public string Value { get; set; }
 
 ### Примечания
 
-Эффекты только при[`SelectionType`](../selectiontype)есть SelectionType.Single;
+Действует только при[`SelectionType`](../selectiontype) это SelectionType.Single;
 
 ### Смотрите также
 

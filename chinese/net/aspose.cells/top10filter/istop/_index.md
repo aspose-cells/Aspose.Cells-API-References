@@ -1,14 +1,14 @@
 ---
 title: IsTop
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否为顶级过滤器
+description: 表示是否是顶级过滤器
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/top10filter/istop/
 ---
 ## Top10Filter.IsTop property
 
-表示是否为顶级过滤器。
+表示是否是顶级过滤器。
 
 ```csharp
 public bool IsTop { get; set; }

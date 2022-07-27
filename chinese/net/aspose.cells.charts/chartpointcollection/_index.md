@@ -19,123 +19,121 @@ public class ChartPointCollection
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.cells.charts/chartpointcollection/count) { get; } | 获取图表点的计数。 |
-| [Item](../../aspose.cells.charts/chartpointcollection/item) { get; } | 获取系列中指定索引处的[`ChartPoint`](../chartpoint)元素。 |
+| [Item](../../aspose.cells.charts/chartpointcollection/item) { get; } | 获取[`ChartPoint`](../chartpoint)系列中指定索引处的元素。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Clear](../../aspose.cells.charts/chartpointcollection/clear)() | 删除图表点的所有设置。 |
-| [GetEnumerator](../../aspose.cells.charts/chartpointcollection/getenumerator)() | 返回整个[`ChartPointCollection`](../chartpointcollection)的枚举数。 |
+| [GetEnumerator](../../aspose.cells.charts/chartpointcollection/getenumerator)() | 返回整个枚举数[`ChartPointCollection`](../chartpointcollection). |
 | [RemoveAt](../../aspose.cells.charts/chartpointcollection/removeat)(int) | 删除系列索引处的点.. |
 
 ### 例子
 
 ```csharp
 //实例化一个工作簿对象
-orkbook workbook = new Workbook();
+Workbook workbook = new Workbook();
 
-/获取第一个worksheet
+//获取第一个工作表的引用
+Worksheet worksheet = workbook.Worksheets[0];
 
-orksheet worksheet = workbook.Worksheets[0];
+//向“A1”单元格添加样本值
+worksheet.Cells["A1"].PutValue(50);
 
-//向“A1”添加样本值 cell
-orksheet.Cells["A1"].PutValue(50);
+//向“A2”单元格添加样本值
+worksheet.Cells["A2"].PutValue(100);
 
-/向“A2”添加样本值 cell
-orksheet.Cells["A2"].PutValue(100);
+//向“A3”单元格添加样本值
+worksheet.Cells["A3"].PutValue(150);
 
-//向“A3”添加样本值 cell
-orksheet.Cells["A3"].PutValue(150);
+//向“B1”单元格添加样本值
+worksheet.Cells["B1"].PutValue(60);
 
-//向“B1”添加样本值 cell
-orksheet.Cells["B1"].PutValue(60);
+//向“B2”单元格添加样本值
+worksheet.Cells["B2"].PutValue(32);
 
-//将样本值添加到“B2” cell
-orksheet.Cells["B2"].PutValue(32);
+//向“B3”单元格添加样本值
+worksheet.Cells["B3"].PutValue(50);
 
-//将样本值添加到“B3” cell
-orksheet.Cells["B3"].PutValue(50);
+//向工作表添加图表
+int chartIndex = worksheet.Charts.Add(ChartType.PieExploded, 5, 0, 25, 10);
 
-//将图表添加到工作表
-nt chartIndex = worksheet.Charts.Add(ChartType.PieExploded, 5, 0, 25, 10);
-
-//访问新添加的chart
-
-hart chart = worksheet.Charts[chartIndex];
+//访问新添加图表的实例
+Chart chart = worksheet.Charts[chartIndex];
 
 //将NSeries（图表数据源）添加到从“A1”单元格到“B3”单元格的图表中
-hart.NSeries.Add("A1:B3", true);
+chart.NSeries.Add("A1:B3", true);
 
-//显示数据标签
-hart.NSeries[0].DataLabels.IsValueShown = true;
+//显示数据标签 
+chart.NSeries[0].DataLabels.IsValueShown = true;
 
-hartPointCollection points = chart.NSeries[0].Points;
+ChartPointCollection points = chart.NSeries[0].Points;
 
-or (int i = 0; i < points.Count; i++)
-
+for (int i = 0; i < points.Count; i++)
+{
     //获取数据点
-   ChartPoint point = points[i];
-    //设置Pir Explosion
-   point.Explosion = 15;
+    ChartPoint point = points[i];
+    //设置Pir爆炸
+    point.Explosion = 15;
     //设置边框颜色
-   point.Border.Color = System.Drawing.Color.Red;
-
+    point.Border.Color = System.Drawing.Color.Red;
+}
 
 //保存Excel文件
-orkbook.Save("book1.xls");
+workbook.Save("book1.xls");
 
-VB.NET]
+[VB.NET]
 
-实例化一个Workbook目的
-im workbook As Workbook = New Workbook()
+'实例化工作簿对象
+Dim workbook As Workbook = New Workbook()
 
-获取第一个工作表的引用
-im worksheet As Worksheet = workbook.Worksheets(0)
+'获取第一个工作表的引用
+Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-将样本值添加到至 "A1" cell
-orksheet.Cells("A1").PutValue(50)
+'Adding a sample value to "A1" cell
+worksheet.Cells("A1").PutValue(50)
 
-将样本值添加到至 "A2" cell
-orksheet.Cells("A2").PutValue(100)
+'Adding a sample value to "A2" cell
+worksheet.Cells("A2").PutValue(100)
 
-将样本值添加到至 "A3" cell
-orksheet.Cells("A3").PutValue(150)
+'Adding a sample value to "A3" cell
+worksheet.Cells("A3").PutValue(150)
 
-将样本值添加到至 "B1" cell
-orksheet.Cells("B1").PutValue(60)
+'Adding a sample value to "B1" cell
+worksheet.Cells("B1").PutValue(60)
 
-将样本值添加到至 "B2" cell
-orksheet.Cells("B2").PutValue(32)
+'Adding a sample value to "B2" cell
+worksheet.Cells("B2").PutValue(32)
 
-将样本值添加到 to "B3" cell
-orksheet.Cells("B3").PutValue(50)
+'Adding a sample value to "B3" cell
+worksheet.Cells("B3").PutValue(50)
 
-将图表添加到工作表
-im chartIndex As Integer = worksheet.Charts.Add(ChartType.PieExploded, 5, 0, 25, 10)
+'将图表添加到工作表
+Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.PieExploded, 5, 0, 25, 10)
 
-访问新添加图表的实例
-im chart As Chart = worksheet.Charts(chartIndex)
+'访问新添加图表的实例
+Dim chart As Chart = worksheet.Charts(chartIndex)
 
-将 NSeries（图表数据源）添加到图表中，范围从“A1”单元格到“B3”
-hart.NSeries.Add("A1:B3", True)
+'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
+chart.NSeries.Add("A1:B3", True)
 
-显示数据标签 
-hart.NSeries(0).DataLabels.IsValueShown = True
+'显示数据标签 
+chart.NSeries(0).DataLabels.IsValueShown = True
 
-im points As ChartPointCollection = chart.NSeries(0).Points
+Dim points As ChartPointCollection = chart.NSeries(0).Points
 
-or i As Integer = 0 To points.Count - 1
-   'Get Data Point
-   Dim point As ChartPoint = points(i)
-   'Set Pir Explosion
-   point.Explosion = 15
-   'Set Border Color
-   point.Border.Color = System.Drawing.Color.Red
-ext i
+For i As Integer = 0 To points.Count - 1
+    '获取数据点
+    Dim point As ChartPoint = points(i)
+    '设置 Pir 爆炸
+    point.Explosion = 15
+    '设置边框颜色
+    point.Border.Color = System.Drawing.Color.Red
+Next i
 
-保存 Excel 文件
-orkbook.Save("book1.xls")
+'保存 Excel 文件
+workbook.Save("book1.xls")
 
 ```
 

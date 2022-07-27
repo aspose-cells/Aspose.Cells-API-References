@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Cells for .NET API 参考
-description: 删除 WorksheetCollection 指定索引处的工作表 如果特定工作表是最后一个工作表则在删除工作表后会将新工作表添加到 WorksheetCollection
+description: 删除 WorksheetCollection 指定索引处的工作表 如果特定工作表是最后一个工作表则在删除工作表后将新工作表添加到工作表集合中
 type: docs
 weight: 140
 url: /zh/net/aspose.cells.griddesktop/worksheetcollection/remove/
 ---
 ## WorksheetCollection.Remove method
 
-删除 WorksheetCollection 指定索引处的工作表。 如果特定工作表是最后一个工作表，则在删除工作表后，会将新工作表添加到 WorksheetCollection。
+删除 WorksheetCollection 指定索引处的工作表。 如果特定工作表是最后一个工作表，则在删除工作表后，将新工作表添加到工作表集合中。
 
 ```csharp
 public void Remove(int index)

@@ -1,14 +1,14 @@
 ---
 title: FieldId
 second_title: Aspose.Cells for .NET API 参考
-description: 获取已删除的特定查询表字段的 ID
+description: 获取被删除的特定查询表字段的ID
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.revisions/revisionquerytable/fieldid/
 ---
 ## RevisionQueryTable.FieldId property
 
-获取已删除的特定查询表字段的 ID。
+获取被删除的特定查询表字段的ID。
 
 ```csharp
 public int FieldId { get; }

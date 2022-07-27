@@ -1,14 +1,14 @@
 ---
 title: RefreshPivotTables
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает обновлять ли сводные таблицы при загрузке файла.
+description: Указывает следует ли обновлять сводные таблицы при загрузке файла.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells/odsloadoptions/refreshpivottables/
 ---
 ## OdsLoadOptions.RefreshPivotTables property
 
-Указывает, обновлять ли сводные таблицы при загрузке файла.
+Указывает, следует ли обновлять сводные таблицы при загрузке файла.
 
 ```csharp
 public bool RefreshPivotTables { get; set; }

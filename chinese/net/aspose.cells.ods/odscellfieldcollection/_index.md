@@ -20,7 +20,7 @@ public class OdsCellFieldCollection : CollectionBase<OdsCellField>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.ods/odscellfieldcollection/item) { get; } | 通过索引获取字段。 (2 indexers) |
+| [Item](../../aspose.cells.ods/odscellfieldcollection/item) { get; } | 按索引获取字段。 (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法
@@ -54,7 +54,7 @@ public class OdsCellFieldCollection : CollectionBase<OdsCellField>
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(OdsCellField, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(OdsCellField, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
-| [UpdateFieldsValue](../../aspose.cells.ods/odscellfieldcollection/updatefieldsvalue)() | 更新单元格的字段值。 |
+| [UpdateFieldsValue](../../aspose.cells.ods/odscellfieldcollection/updatefieldsvalue)() | 将字段值更新到单元格。 |
 
 ### 也可以看看
 

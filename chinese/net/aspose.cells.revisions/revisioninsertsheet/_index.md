@@ -1,14 +1,14 @@
 ---
 title: RevisionInsertSheet
 second_title: Aspose.Cells for .NET API 参考
-description: 表示插入的工作表的修订记录
+description: 表示已插入工作表的修订记录
 type: docs
 weight: 5430
 url: /zh/net/aspose.cells.revisions/revisioninsertsheet/
 ---
 ## RevisionInsertSheet class
 
-表示插入的工作表的修订记录。
+表示已插入工作表的修订记录。
 
 ```csharp
 public class RevisionInsertSheet : Revision
@@ -22,7 +22,7 @@ public class RevisionInsertSheet : Revision
 | [Id](../../aspose.cells.revisions/revision/id) { get; } | 获取此修订的编号。 |
 | [Name](../../aspose.cells.revisions/revisioninsertsheet/name) { get; } | 获取工作表的名称。 |
 | [SheetPosition](../../aspose.cells.revisions/revisioninsertsheet/sheetposition) { get; } | 获取新工作表在工作表选项卡栏中的从零开始的位置。 |
-| override [Type](../../aspose.cells.revisions/revisioninsertsheet/type) { get; } | 获取修订类型。 |
+| override [Type](../../aspose.cells.revisions/revisioninsertsheet/type) { get; } | 获取修订的类型。 |
 | [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | 获取工作表。 |
 
 ### 也可以看看

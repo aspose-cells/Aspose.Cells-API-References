@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементWorksheetпо указанному индексу.
+description: ПолучаетWorksheet элемент по указанному индексу.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.gridweb.data/gridworksheetcollection/item/
 ---
 ## GridWorksheetCollection indexer (1 of 2)
 
-Получает элементWorksheetпо указанному индексу.
+ПолучаетWorksheet элемент по указанному индексу.
 
 ```csharp
 public GridWorksheet this[int index] { get; }
@@ -33,7 +33,7 @@ public GridWorksheet this[int index] { get; }
 
 ## GridWorksheetCollection indexer (2 of 2)
 
-Получает элементWorksheetс указанным именем.
+ПолучаетWorksheet элемент с указанным именем.
 
 ```csharp
 public GridWorksheet this[string sheetName] { get; }
@@ -45,7 +45,7 @@ public GridWorksheet this[string sheetName] { get; }
 
 ### Возвращаемое значение
 
-Рабочий лист GridWorksheet с именем.
+GridWorksheet с именем.
 
 ### Смотрите также
 

@@ -19,15 +19,15 @@ public class Format3D
 | Имя | Описание |
 | --- | --- |
 | [LightingAngle](../../aspose.cells.drawing/format3d/lightingangle) { get; set; } | Получает и устанавливает угол освещения. Диапазон от 0 до 359,9 градусов. |
-| [SurfaceLightingType](../../aspose.cells.drawing/format3d/surfacelightingtype) { get; set; } | Получает и задает тип освещения, который должен применяться к сцене фигуры. Значение по умолчанию — LightRigType.ThreePoint. |
+| [SurfaceLightingType](../../aspose.cells.drawing/format3d/surfacelightingtype) { get; set; } | Получает и задает тип освещения, который должен применяться к сцене фигуры. Значение по умолчанию: LightRigType.ThreePoint. |
 | [SurfaceMaterialType](../../aspose.cells.drawing/format3d/surfacematerialtype) { get; set; } | Получает и задает тип материала, который в сочетании со свойствами освещения придает окончательный вид и ощущение формы. Значение по умолчанию — PresetMaterialType.WarmMatte. |
-| [TopBevel](../../aspose.cells.drawing/format3d/topbevel) { get; } | Получает объект, содержащий свойства, связанные с определением скоса на верхней или передней грани. формы. |
+| [TopBevel](../../aspose.cells.drawing/format3d/topbevel) { get; } | Получает объект, содержащий свойства, связанные с определением скоса на верхней или передней грани фигуры. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [HasTopBevelData](../../aspose.cells.drawing/format3d/hastopbeveldata)() | Указывает, есть ли у формы данные о верхнем скосе. |
+| [HasTopBevelData](../../aspose.cells.drawing/format3d/hastopbeveldata)() | Указывает, есть ли у фигуры данные о верхнем скосе. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: BackgroundColor
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или устанавливает фонColorдляОбласть.
+description: Получает или устанавливает фонColor принадлежащийAreaaspose.cells.drawing/area .
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.drawing/area/backgroundcolor/
 ---
 ## Area.BackgroundColor property
 
-Получает или устанавливает фонColorдляОбласть.
+Получает или устанавливает фонColor принадлежащий[`Area`](../../area) .
 
 ```csharp
 public Color BackgroundColor { get; set; }

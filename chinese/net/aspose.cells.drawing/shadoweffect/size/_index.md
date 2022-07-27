@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置阴影的大小范围从 0 到 2.0 在内影中毫无意义
+description: 获取和设置阴影的大小范围从 0 到 2.0 在阴影中毫无意义
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.drawing/shadoweffect/size/
 ---
 ## ShadowEffect.Size property
 
-获取和设置阴影的大小。范围从 0 到 2.0。 在内影中毫无意义。
+获取和设置阴影的大小。范围从 0 到 2.0。 在阴影中毫无意义。
 
 ```csharp
 public double Size { get; set; }

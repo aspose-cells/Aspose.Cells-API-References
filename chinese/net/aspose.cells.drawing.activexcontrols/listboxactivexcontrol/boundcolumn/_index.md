@@ -1,14 +1,14 @@
 ---
 title: BoundColumn
 second_title: Aspose.Cells for .NET API 参考
-description: 表示当 MultiSelect 属性值为 fmMultiSelectSingle 时如何确定 ComboBox 或 ListBox 的 Value 属性
+description: 表示当 MultiSelect 属性值 fmMultiSelectSingle 时如何确定 ComboBox 或 ListBox 的 Value 属性
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/boundcolumn/
 ---
 ## ListBoxActiveXControl.BoundColumn property
 
-表示当 MultiSelect 属性值为 (fmMultiSelectSingle) 时如何确定 ComboBox 或 ListBox 的 Value 属性。
+表示当 MultiSelect 属性值 (fmMultiSelectSingle) 时如何确定 ComboBox 或 ListBox 的 Value 属性。
 
 ```csharp
 public int BoundColumn { get; set; }

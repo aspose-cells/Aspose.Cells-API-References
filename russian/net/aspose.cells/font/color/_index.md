@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задаетColorшрифта.
+description: Получает или задаетColor шрифта.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/font/color/
 ---
 ## Font.Color property
 
-Получает или задаетColorшрифта.
+Получает или задаетColor шрифта.
 
 ```csharp
 public Color Color { get; set; }

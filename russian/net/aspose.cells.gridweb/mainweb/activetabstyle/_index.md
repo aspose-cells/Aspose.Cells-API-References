@@ -1,14 +1,14 @@
 ---
 title: ActiveTabStyle
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает стиль активной вкладки.
+description: Определяет стиль активной вкладки.
 type: docs
 weight: 90
 url: /ru/net/aspose.cells.gridweb/mainweb/activetabstyle/
 ---
 ## MainWeb.ActiveTabStyle property
 
-Задает стиль активной вкладки.
+Определяет стиль активной вкладки.
 
 ```csharp
 public GridTableItemStyle ActiveTabStyle { get; set; }

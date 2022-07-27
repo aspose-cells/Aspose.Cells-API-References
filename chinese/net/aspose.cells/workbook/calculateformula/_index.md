@@ -16,7 +16,7 @@ public void CalculateFormula()
 
 ### 评论
 
-对于所有支持的公式，请参阅 https://docs.aspose.com/ 上的列表显示/cellsnet/支持+公式+函数
+对于所有支持的公式，请参阅 https://docs.aspose.com/display/cellsnet/Supported+Formula+Functions 上的列表
 
 ### 也可以看看
 
@@ -36,7 +36,7 @@ public void CalculateFormula(bool ignoreError)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ignoreError | Boolean | 表示是否隐藏计算公式的错误。错误可能是不支持的功能、外部链接等 |
+| ignoreError | Boolean | 指示是否隐藏计算公式中的错误。错误可能是不支持的功能、外部链接等。 |
 
 ### 也可以看看
 

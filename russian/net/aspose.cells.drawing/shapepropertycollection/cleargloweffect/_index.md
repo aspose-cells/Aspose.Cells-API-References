@@ -1,14 +1,14 @@
 ---
 title: ClearGlowEffect
 second_title: Справочник по Aspose.Cells для .NET API
-description: Очищает эффект свечения формы.
+description: Очищает эффект свечения фигуры.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.drawing/shapepropertycollection/cleargloweffect/
 ---
 ## ShapePropertyCollection.ClearGlowEffect method
 
-Очищает эффект свечения формы.
+Очищает эффект свечения фигуры.
 
 ```csharp
 public void ClearGlowEffect()

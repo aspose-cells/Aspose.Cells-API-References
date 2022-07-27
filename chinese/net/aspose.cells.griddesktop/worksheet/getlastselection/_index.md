@@ -1,14 +1,14 @@
 ---
 title: GetLastSelection
 second_title: Aspose.Cells for .NET API 参考
-description: 获取最后选择的单元格范围
+description: 获取上次选择的单元格范围
 type: docs
 weight: 770
 url: /zh/net/aspose.cells.griddesktop/worksheet/getlastselection/
 ---
 ## Worksheet.GetLastSelection method
 
-获取最后选择的单元格范围。
+获取上次选择的单元格范围。
 
 ```csharp
 public CellRange GetLastSelection()
@@ -16,7 +16,7 @@ public CellRange GetLastSelection()
 
 ### 返回值
 
-CellRange 对象。
+单元格范围对象。
 
 ### 也可以看看
 

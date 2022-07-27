@@ -1,14 +1,14 @@
 ---
 title: AboveAverage
 second_title: Aspose.Cells for .NET API 参考
-description: 描述 AboveAverage 条件格式规则 此条件格式规则突出显示 高于或低于该范围内所有值的平均值的单元格
+description: 描述 AboveAverage 条件格式规则 此条件格式规则突出显示 高于或低于范围内所有值的平均值的单元格
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/aboveaverage/
 ---
 ## AboveAverage class
 
-描述 AboveAverage 条件格式规则。 此条件格式规则突出显示 高于或低于该范围内所有值的平均值的单元格。
+描述 AboveAverage 条件格式规则。 此条件格式规则突出显示 高于或低于范围内所有值的平均值的单元格。
 
 ```csharp
 public class AboveAverage
@@ -24,9 +24,9 @@ public class AboveAverage
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IsAboveAverage](../../aspose.cells/aboveaverage/isaboveaverage) { get; set; } | 获取或设置指示规则是否为“高于平均水平”规则的标志。 'true' 表示'高于平均水平'。 默认值为真。 |
-| [IsEqualAverage](../../aspose.cells/aboveaverage/isequalaverage) { get; set; } | 获取或设置标志，指示 'aboveAverage' 和 'belowAverage' 标准 是包含平均值本身，还是不包含该值. 'true' 表示在标准中包含平均值。 默认值为假。 |
-| [StdDev](../../aspose.cells/aboveaverage/stddev) { get; set; } | 获取或设置标准偏差的数量，以包括在 条件格式规则中高于或低于平均值。 输入值必须介于 0 和 3 之间（包括 0 和 3）。 将此值设置为 0 表示未设置 stdDev。 默认值为 0。 |
+| [IsAboveAverage](../../aspose.cells/aboveaverage/isaboveaverage) { get; set; } | 获取或设置指示规则是否为“高于平均水平”规则的标志。 “真”表示“高于平均水平”。 默认值为真。 |
+| [IsEqualAverage](../../aspose.cells/aboveaverage/isequalaverage) { get; set; } | 获取或设置标志，指示“aboveAverage”和“belowAverage”标准 是包含平均值本身还是不包含该值。 “真”表示在标准中包括平均值。 默认值为假。 |
+| [StdDev](../../aspose.cells/aboveaverage/stddev) { get; set; } | 获取或设置在 条件格式规则中包含高于或低于平均值的标准差数。 输入值必须介于 0 和 3 之间（包括 0 和 3）。 将此值设置为 0 表示未设置 stdDev。 默认值为 0。 |
 
 ### 也可以看看
 

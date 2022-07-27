@@ -1,14 +1,14 @@
 ---
 title: DataLabelsSeparatorType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示DataLabels的分隔符类型
+description: 表示 DataLabels 的分隔符类型
 type: docs
 weight: 590
 url: /zh/net/aspose.cells.charts/datalabelsseparatortype/
 ---
 ## DataLabelsSeparatorType enumeration
 
-表示DataLabels的分隔符类型。
+表示 DataLabels 的分隔符类型。
 
 ```csharp
 public enum DataLabelsSeparatorType
@@ -21,8 +21,8 @@ public enum DataLabelsSeparatorType
 | Auto | `0` | 表示自动分隔符 |
 | Space | `1` | 表示空格(" ") |
 | Comma | `2` | 表示逗号(",") |
-| Semicolon | `3` | 表示分号(";") |
-| Period | `4` | 表示句点(".") |
+| Semicolon | `3` | 代表分号(";") |
+| Period | `4` | 代表句号(".") |
 | NewLine | `5` | 表示换行符("\n") |
 | Custom | `6` | 表示自定义分隔符 |
 

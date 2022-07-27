@@ -1,14 +1,14 @@
 ---
 title: DeleteRedundantSpaces
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает следует ли удалять лишние пробелы когда текст переносит строки с помощью тега ltbrgt. Значение по умолчанию - false.
+description: Указывает следует ли удалять лишние пробелы когда текст переносит строки с помощью тега ltbrgt. Значение по умолчанию  false.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/htmlloadoptions/deleteredundantspaces/
 ---
 ## HtmlLoadOptions.DeleteRedundantSpaces property
 
-Указывает, следует ли удалять лишние пробелы, когда текст переносит строки с помощью тега &lt;br&gt;. Значение по умолчанию - false.
+Указывает, следует ли удалять лишние пробелы, когда текст переносит строки с помощью тега &lt;br&gt;. Значение по умолчанию — false.
 
 ```csharp
 public bool DeleteRedundantSpaces { get; set; }

@@ -18,10 +18,10 @@ public class Marker
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Area](../../aspose.cells.charts/marker/area) { get; } | 获取[`区域`](./area) 。 |
+| [Area](../../aspose.cells.charts/marker/area) { get; } | 获取[`区域`](./area). |
 | [BackgroundColor](../../aspose.cells.charts/marker/backgroundcolor) { get; set; } | 表示折线图、散点图或雷达图中的标记背景颜色。 |
 | [BackgroundColorSetType](../../aspose.cells.charts/marker/backgroundcolorsettype) { get; set; } | 获取或设置标记背景颜色集类型。 |
-| [Border](../../aspose.cells.charts/marker/border) { get; } | 获取[`边框`](../../aspose.cells.drawing/line) 。 |
+| [Border](../../aspose.cells.charts/marker/border) { get; } | 获取[`边界`](../../aspose.cells.drawing/line). |
 | [ForegroundColor](../../aspose.cells.charts/marker/foregroundcolor) { get; set; } | 表示折线图、散点图或雷达图中的标记前景色。 |
 | [ForegroundColorSetType](../../aspose.cells.charts/marker/foregroundcolorsettype) { get; set; } | 获取或设置标记前景色集类型。 |
 | [MarkerSize](../../aspose.cells.charts/marker/markersize) { get; set; } | 以点为单位表示标记大小。适用于折线图、散点图或雷达图。 |

@@ -16,7 +16,7 @@ public void CopyTheme(Workbook source)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| source | Workbook | Исходная рабочая книга. |
+| source | Workbook | Исходная рабочая тетрадь. |
 
 ### Смотрите также
 

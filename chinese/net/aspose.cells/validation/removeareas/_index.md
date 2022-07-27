@@ -16,7 +16,7 @@ public void RemoveAreas(CellArea[] areas)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| areas | CellArea[] | 应该删除此验证设置的区域。 |
+| areas | CellArea[] | 应删除此验证设置的区域。 |
 
 ### 也可以看看
 

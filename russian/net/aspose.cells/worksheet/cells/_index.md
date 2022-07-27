@@ -1,14 +1,14 @@
 ---
 title: Cells
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает коллекциюCellsaspose.cells/worksheet/cells.
+description: ПолучаетCellsaspose.cells/worksheet/cells коллекция.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells/worksheet/cells/
 ---
 ## Worksheet.Cells property
 
-Получает коллекцию`Cells`.
+Получает`Cells` коллекция.
 
 ```csharp
 public Cells Cells { get; }

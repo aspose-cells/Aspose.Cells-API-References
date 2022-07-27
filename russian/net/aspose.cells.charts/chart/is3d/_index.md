@@ -1,14 +1,14 @@
 ---
 title: Is3D
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает является ли диаграмма трехмерной.
+description: Указывает является ли диаграмма трехмерной диаграммой.
 type: docs
 weight: 160
 url: /ru/net/aspose.cells.charts/chart/is3d/
 ---
 ## Chart.Is3D property
 
-Указывает, является ли диаграмма трехмерной.
+Указывает, является ли диаграмма трехмерной диаграммой.
 
 ```csharp
 public bool Is3D { get; }

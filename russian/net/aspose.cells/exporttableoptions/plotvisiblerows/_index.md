@@ -1,14 +1,14 @@
 ---
 title: PlotVisibleRows
 second_title: Справочник по Aspose.Cells для .NET API
-description: Экспортируются только видимые строки.
+description: Экспортирует только видимые строки.
 type: docs
 weight: 120
 url: /ru/net/aspose.cells/exporttableoptions/plotvisiblerows/
 ---
 ## ExportTableOptions.PlotVisibleRows property
 
-Экспортируются только видимые строки.
+Экспортирует только видимые строки.
 
 ```csharp
 public bool PlotVisibleRows { get; set; }

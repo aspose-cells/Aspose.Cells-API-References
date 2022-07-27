@@ -1,14 +1,14 @@
 ---
 title: DataBind
 second_title: Справочник по Aspose.Cells для .NET API
-description: Привяжите элемент управления и все его дочерние элементы управления к его источнику данных.
+description: Привязать элемент управления и все его дочерние элементы управления к его источнику данных.
 type: docs
 weight: 1380
 url: /ru/net/aspose.cells.gridweb/mainweb/databind/
 ---
 ## MainWeb.DataBind method
 
-Привяжите элемент управления и все его дочерние элементы управления к его источнику данных.
+Привязать элемент управления и все его дочерние элементы управления к его источнику данных.
 
 ```csharp
 public override void DataBind()

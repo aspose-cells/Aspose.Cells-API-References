@@ -1,14 +1,14 @@
 ---
 title: KeepPrecision
 second_title: Aspose.Cells for .NET API 参考
-description: 表示如果长度为 15 是否不解析字符串值
+description: 表示如果长度为15是否不解析字符串值
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/abstracttextloadoptions/keepprecision/
 ---
 ## AbstractTextLoadOptions.KeepPrecision property
 
-表示如果长度为 15 是否不解析字符串值。
+表示如果长度为15，是否不解析字符串值。
 
 ```csharp
 public bool KeepPrecision { get; set; }

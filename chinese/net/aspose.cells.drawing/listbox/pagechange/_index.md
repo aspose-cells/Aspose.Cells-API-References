@@ -1,14 +1,14 @@
 ---
 title: PageChange
 second_title: Aspose.Cells for .NET API 参考
-description: 指定当用户单击滚动条的向上翻页或向下翻页区域时控件值更改的量 
+description: 指定当用户单击滚动条的向上或向下翻页区域时控件的值更改量 
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.drawing/listbox/pagechange/
 ---
 ## ListBox.PageChange property
 
-指定当用户单击滚动条的向上翻页或向下翻页区域时控件值更改的量 。
+指定当用户单击滚动条的向上或向下翻页区域时控件的值更改量 。
 
 ```csharp
 public int PageChange { get; set; }

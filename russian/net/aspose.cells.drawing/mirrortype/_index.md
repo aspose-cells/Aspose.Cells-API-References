@@ -1,14 +1,14 @@
 ---
 title: MirrorType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет зеркальный тип заливки текстуры
+description: Представляет зеркальный тип текстуры fill
 type: docs
 weight: 2270
 url: /ru/net/aspose.cells.drawing/mirrortype/
 ---
 ## MirrorType enumeration
 
-Представляет зеркальный тип заливки текстуры
+Представляет зеркальный тип текстуры fill
 
 ```csharp
 public enum MirrorType
@@ -19,8 +19,8 @@ public enum MirrorType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | None | `0` | Нет |
-| Horizonal | `1` | Горизонтальное |
-| Vertical | `2` | Вертикально |
+| Horizonal | `1` | Горизонтальный |
+| Vertical | `2` | По вертикали |
 | Both | `3` | Оба |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: Signer
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает подписывающую сторону.
+description: Получает и задает подписывающую сторону.
 type: docs
 weight: 90
 url: /ru/net/aspose.cells.drawing/signatureline/signer/
 ---
 ## SignatureLine.Signer property
 
-Получает и устанавливает подписывающую сторону.
+Получает и задает подписывающую сторону.
 
 ```csharp
 public string Signer { get; set; }
@@ -19,7 +19,7 @@ public string Signer { get; set; }
 ```csharp
 
 [C#]
-  // Создаем строку подписи object
+// Создаем объект строки подписи
 SignatureLine s3 = new SignatureLine();
 s3.Signer = "Mr xxx";
 ```

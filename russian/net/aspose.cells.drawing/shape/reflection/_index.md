@@ -1,14 +1,14 @@
 ---
 title: Reflection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет объект определяющий эффект отражения для элемента диаграммы или фигуры.
+description: Представляетобъект определяющий эффект отражения для элемента диаграммы или формы.
 type: docs
 weight: 560
 url: /ru/net/aspose.cells.drawing/shape/reflection/
 ---
 ## Shape.Reflection property
 
-Представляет объект, определяющий эффект отражения для элемента диаграммы или фигуры.
+Представляетобъект, определяющий эффект отражения для элемента диаграммы или формы.
 
 ```csharp
 public ReflectionEffect Reflection { get; }

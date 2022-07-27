@@ -1,14 +1,14 @@
 ---
 title: GetCubePointYPx
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает координату y точки вершины куба стен после вызова метода Chart.Calculate. Число вершин куба стен равно восьми.
+description: Получает y-координату вершины куба стен после вызова метода Chart.Calculate. Количество вершин куба стен равно восьми.
 type: docs
 weight: 130
 url: /ru/net/aspose.cells.charts/walls/getcubepointypx/
 ---
 ## Walls.GetCubePointYPx method
 
-Получает координату y точки вершины куба стен после вызова метода Chart.Calculate(). Число вершин куба стен равно восьми.
+Получает y-координату вершины куба стен после вызова метода Chart.Calculate(). Количество вершин куба стен равно восьми.
 
 ```csharp
 public float GetCubePointYPx(int index)

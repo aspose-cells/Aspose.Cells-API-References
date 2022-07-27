@@ -1,14 +1,14 @@
 ---
 title: ErrorString
 second_title: Aspose.Cells for .NET API 参考
-description: 当 DisplayErrorString 属性为 true 时获取包含错误 的单元格中显示的字符串默认值为空字符串
+description: 当 DisplayErrorString 属性为 true 时获取在包含错误 的单元格中显示的字符串默认值为空字符串
 type: docs
 weight: 220
 url: /zh/net/aspose.cells.pivot/pivottable/errorstring/
 ---
 ## PivotTable.ErrorString property
 
-当 DisplayErrorString 属性为 true 时，获取包含错误 的单元格中显示的字符串。默认值为空字符串。
+当 DisplayErrorString 属性为 true 时，获取在包含错误 的单元格中显示的字符串。默认值为空字符串。
 
 ```csharp
 public string ErrorString { get; set; }

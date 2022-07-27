@@ -1,14 +1,14 @@
 ---
 title: SetColumnWidth
 second_title: Aspose.Cells for .NET API 参考
-description: 设置普通视图中指定列的宽度
+description: 在普通视图中设置指定列的宽度
 type: docs
-weight: 1220
+weight: 1230
 url: /zh/net/aspose.cells/cells/setcolumnwidth/
 ---
 ## Cells.SetColumnWidth method
 
-设置普通视图中指定列的宽度。
+在普通视图中设置指定列的宽度。
 
 ```csharp
 public void SetColumnWidth(int column, double width)
@@ -21,7 +21,7 @@ public void SetColumnWidth(int column, double width)
 
 ### 评论
 
-隐藏列，将列宽设置为零。
+要隐藏列，请将列宽设置为零。
 
 ### 也可以看看
 

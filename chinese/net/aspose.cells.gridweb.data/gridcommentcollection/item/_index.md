@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定索引处的Comment元素
+description: 获取Comment指定索引处的元素
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.gridweb.data/gridcommentcollection/item/
 ---
 ## GridCommentCollection indexer (1 of 3)
 
-获取指定索引处的Comment元素。
+获取Comment指定索引处的元素。
 
 ```csharp
 public GridComment this[int index] { get; }
@@ -33,7 +33,7 @@ public GridComment this[int index] { get; }
 
 ## GridCommentCollection indexer (2 of 3)
 
-获取指定单元格处的Comment元素。
+获取Comment指定单元格处的元素。
 
 ```csharp
 public GridComment this[string cellName] { get; }
@@ -41,7 +41,7 @@ public GridComment this[string cellName] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| cellName | 单元名称。 |
+| cellName | 单元格名称。 |
 
 ### 返回值
 
@@ -58,7 +58,7 @@ public GridComment this[string cellName] { get; }
 
 ## GridCommentCollection indexer (3 of 3)
 
-获取指定行索引和列索引处的Comment元素。
+获取Comment指定行索引和列索引处的元素。
 
 ```csharp
 public GridComment this[int row, int column] { get; }

@@ -1,14 +1,14 @@
 ---
 title: Selected
 second_title: Aspose.Cells for .NET API 参考
-description: 指定是否选择 SlicerItem
+description: 指定 SlicerItem 是否被选中
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.slicers/slicercacheitem/selected/
 ---
 ## SlicerCacheItem.Selected property
 
-指定是否选择 SlicerItem。
+指定 SlicerItem 是否被选中。
 
 ```csharp
 public bool Selected { get; set; }

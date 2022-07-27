@@ -36,9 +36,9 @@ public class DigitalSignatureCollection : IEnumerable
 internal void ValidateSignature()
 {
    Workbook wb = new Workbook(@"newfile.xlsx");
-     //wb.IsDigitallySigned имеет значение true, если рабочая книга уже подписана.
+   //wb.IsDigitallySigned имеет значение true, если рабочая книга уже подписана.
    System.Console.WriteLine(wb.IsDigitallySigned);
-     // получаем коллекцию digitalSignature из workbook
+   // получаем коллекцию digitalSignature из книги
    DigitalSignatureCollection dsc = wb.GetDigitalSignature();
    foreach (DigitalSignature ds in dsc)
    {
@@ -49,15 +49,15 @@ internal void ValidateSignature()
 }
 internal void SignSignature()
 {
-     //dsc — коллекция подписей, содержащая одну или несколько подписей, необходимых для sign
+   //dsc — коллекция подписей, содержащая одну или несколько подписей, необходимых для подписи
    DigitalSignatureCollection dsc = new DigitalSignatureCollection();
-     //сертификат должен содержать закрытый ключ, его можно создать из файла сертификата или коллекции сертификатов Windows.
-   //123456 - пароль cert
+   //сертификат должен содержать закрытый ключ, его можно создать из файла сертификата или коллекции сертификатов Windows.
+   //123456 - пароль сертификата
    X509Certificate2 cert = new X509Certificate2("mykey2.pfx", "123456");
    DigitalSignature ds = new DigitalSignature(cert, "test for sign", DateTime.Now);
    dsc.Add(ds);
    Workbook wb = new Workbook();
-     //wb.SetDigitalSignature подписывает все подписи в dsc
+   //wb.SetDigitalSignature подписывает все подписи в dsc
    wb.SetDigitalSignature(dsc);
    wb.Save(@"newfile.xlsx");
 }
@@ -65,9 +65,9 @@ internal void SignSignature()
 [Visual Basic]
    Sub ValidateSignature()
    Dim workbook As Workbook = New Workbook("newfile.xlsx")
-   'wb.IsDigitallySigned имеет значение true, если рабочая книга уже подписана.
+   'Workbook.IsDigitallySigned имеет значение true, если рабочая книга уже подписана.
    System.Console.WriteLine(workbook.IsDigitallySigned)
-   'получаем коллекцию digitalSignature из workbook
+   'получить коллекцию digitalSignature из книги
    Dim dsc As DigitalSignatureCollection = workbook.GetDigitalSignature()
    Dim ds As DigitalSignature
    For Each ds In dsc
@@ -78,11 +78,11 @@ internal void SignSignature()
 End Sub
 
 Sub SignSignature()
-   'dsc — коллекция подписей, содержащая одну или несколько подписей, необходимых для sign
+   'dsc — коллекция подписей, содержащая одну или несколько подписей, необходимых для подписи.
    Dim dsc As DigitalSignatureCollection = New DigitalSignatureCollection()
    'сертификат должен содержать закрытый ключ, его можно создать из файла сертификата или коллекции сертификатов Windows.
    Dim cert As X509Certificate2 = New X509Certificate2("mykey2.pfx", "123456")
-   'создать подпись с сертификатом, цель подписи и время подписи
+   'создать подпись с сертификатом, целью подписи и временем подписи
    Dim ds As DigitalSignature = New DigitalSignature(cert, "test for sign", DateTime.Now)
    dsc.Add(ds)
    Dim workbook As Workbook = New Workbook()

@@ -16,8 +16,8 @@ public void SetLockedProperty(ShapeLockType type, bool value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | ShapeLockType | Заблокированный тип. |
-| value | Boolean | Значение свойства. |
+| type | ShapeLockType | Запертый тип. |
+| value | Boolean | Стоимость имущества. |
 
 ### Примеры
 

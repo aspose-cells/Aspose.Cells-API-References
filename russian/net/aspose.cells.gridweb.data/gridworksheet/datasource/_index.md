@@ -1,14 +1,14 @@
 ---
 title: DataSource
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает источник данных. Обычно это объект DataSet.
+description: Получает или задает DataSource. Обычно это объект DataSet.
 type: docs
 weight: 120
 url: /ru/net/aspose.cells.gridweb.data/gridworksheet/datasource/
 ---
 ## GridWorksheet.DataSource property
 
-Получает или задает источник данных. Обычно это объект DataSet.
+Получает или задает DataSource. Обычно это объект DataSet.
 
 ```csharp
 public object DataSource { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: CellsException
 second_title: Aspose.Cells for .NET API 参考
-description: Aspose.Cells 指定错误发生时抛出的异常
+description: Aspose.Cells指定错误发生时抛出的异常
 type: docs
 weight: 330
 url: /zh/net/aspose.cells/cellsexception/
 ---
 ## CellsException class
 
-Aspose.Cells 指定错误发生时抛出的异常。
+Aspose.Cells指定错误发生时抛出的异常。
 
 ```csharp
 public class CellsException : ApplicationException

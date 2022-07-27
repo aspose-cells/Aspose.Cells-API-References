@@ -20,7 +20,7 @@ public class Button : CellControl
 | --- | --- |
 | [AlwaysVisible](../../aspose.cells.griddesktop/button/alwaysvisible) { get; set; } | 获取或设置按钮是否应始终可见，仅适用于单元格控制按钮。 |
 | [Height](../../aspose.cells.griddesktop/button/height) { get; set; } | 获取或设置控件的高度。 |
-| [Image](../../aspose.cells.griddesktop/button/image) { get; set; } | 获取或设置背景图像。 |
+| [Image](../../aspose.cells.griddesktop/button/image) { get; set; } | 获取或设置背景图片。 |
 | [Text](../../aspose.cells.griddesktop/cellcontrol/text) { get; set; } | 获取或设置与此控件关联的文本。 |
 | [Width](../../aspose.cells.griddesktop/button/width) { get; set; } | 获取或设置控件的宽度。 |
 

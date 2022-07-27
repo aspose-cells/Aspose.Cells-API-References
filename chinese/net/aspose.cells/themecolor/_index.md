@@ -33,32 +33,32 @@ public class ThemeColor
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 Cells cells = workbook.Worksheets[0].Cells;
 cells["A1"].PutValue("Hello World");
 Style style = cells["A1"].GetStyle();
- //设置 ThemeColorType.Text2 颜色类型 40% 变亮为字体颜色.
+//设置 ThemeColorType.Text2 颜色类型，40% 变亮作为字体颜色。
 style.Font.ThemeColor = new ThemeColor(ThemeColorType.Text2, 0.4);
 style.Pattern = BackgroundType.Solid;
- //设置 ThemeColorType.Background2 颜色类型 75% 变暗为前景色
+//设置 ThemeColorType.Background2 颜色类型，以 75% 变暗为前景色
 style.ForegroundThemeColor = new ThemeColor(ThemeColorType.Background2, -0.75);
 cells["A1"].SetStyle(style);
- //保存Excel文件
+//保存Excel文件
 workbook.Save("book1.xlsx");
 
 [Visual Basic]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 Dim cells As Cells = workbook.Worksheets(0).Cells
 cells("A1").PutValue("Hello World")
 '获取单元格样式
 Dim style As Style = cells("A1").GetStyle()
-'设置 ThemeColorType.Text2 颜色类型 40% 变亮为字体颜色.
+'将 ThemeColorType.Text2 颜色类型设置为 40% 变亮作为字体颜色。
 Style.Font.ThemeColor = New ThemeColor(ThemeColorType.Text2, 0.4)
 Style.Pattern = BackgroundType.Solid
-'设置 ThemeColorType.Background2 颜色类型 75% 变暗为前景色
+'设置 ThemeColorType.Background2 颜色类型 75% 变暗作为前景色
 style.ForegroundThemeColor = New ThemeColor(ThemeColorType.Background2, -0.75)
 '设置单元格样式
 cells("A1").SetStyle(style)

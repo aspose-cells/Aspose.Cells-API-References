@@ -17,7 +17,7 @@ public void SelectedItem(int itemIndex, bool isSelected)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | itemIndex | Int32 | 项目索引 |
-| isSelected | Boolean | 项目是否被选中。 True 表示应选择此项。 False 表示应取消选择此项。 |
+| isSelected | Boolean | 该项目是否被选中。 True 表示应选中该项目。 False 表示应取消选中该项目。 |
 
 ### 也可以看看
 

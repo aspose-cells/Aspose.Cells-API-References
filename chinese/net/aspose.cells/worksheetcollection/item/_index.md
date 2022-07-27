@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定索引处的Worksheetaspose.cells/worksheet元素
+description: 获取Worksheetaspose.cells/worksheet指定索引处的元素
 type: docs
 weight: 80
 url: /zh/net/aspose.cells/worksheetcollection/item/
 ---
 ## WorksheetCollection indexer (1 of 2)
 
-获取指定索引处的[`Worksheet`](../../worksheet)元素。
+获取[`Worksheet`](../../worksheet)指定索引处的元素。
 
 ```csharp
 public Worksheet this[int index] { get; }
@@ -33,7 +33,7 @@ public Worksheet this[int index] { get; }
 
 ## WorksheetCollection indexer (2 of 2)
 
-获取具有指定名称的[`Worksheet`](../../worksheet)元素。
+获取[`Worksheet`](../../worksheet)具有指定名称的元素。
 
 ```csharp
 public Worksheet this[string sheetName] { get; }

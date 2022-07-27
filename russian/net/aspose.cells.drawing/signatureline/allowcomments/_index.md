@@ -21,7 +21,7 @@ public bool AllowComments { get; set; }
 [C#]
 if(s.AllowComments)
 {
-      // Можно прикреплять комментарии.
+    // Комментарии могут быть прикреплены.
 }
 ```
 

@@ -16,7 +16,7 @@ public PivotFormatCondition this[int index] { get; }
 
 ### Возвращаемое значение
 
-центральный объект FormatCondition.
+сводной объект FormatCondition.
 
 ### Смотрите также
 

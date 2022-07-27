@@ -21,7 +21,7 @@ public class ThreadedComment
 | [Author](../../aspose.cells/threadedcomment/author) { get; set; } | 获取评论的作者。 |
 | [Column](../../aspose.cells/threadedcomment/column) { get; } | 获取评论的列索引。 |
 | [CreatedTime](../../aspose.cells/threadedcomment/createdtime) { get; set; } | 获取并设置此线程评论的创建时间。 |
-| [Notes](../../aspose.cells/threadedcomment/notes) { get; set; } | 获取和设置评论文本。 |
+| [Notes](../../aspose.cells/threadedcomment/notes) { get; set; } | 获取和设置评论的文本。 |
 | [Row](../../aspose.cells/threadedcomment/row) { get; } | 获取评论的行索引。 |
 
 ### 也可以看看

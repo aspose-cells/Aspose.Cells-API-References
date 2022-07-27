@@ -1,14 +1,14 @@
 ---
 title: AddR1C1
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет коллекциюSeriesCollectionaspose.cells.charts/seriescollectionна диаграмму.
+description: ДобавляетSeriesCollectionaspose.cells.charts/seriescollection сбор на диаграмму.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.charts/seriescollection/addr1c1/
 ---
 ## SeriesCollection.AddR1C1 method
 
-Добавляет коллекцию[`SeriesCollection`](../../seriescollection)на диаграмму.
+Добавляет[`SeriesCollection`](../../seriescollection) сбор на диаграмму.
 
 ```csharp
 public int AddR1C1(string area, bool isVertical)
@@ -17,15 +17,15 @@ public int AddR1C1(string area, bool isVertical)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | area | String | Указывает значения, из которых строятся ряды данных |
-| isVertical | Boolean | Указывает, строить ли серию из диапазона значений ячеек по строке или по столбцу. |
+| isVertical | Boolean | Указывает, следует ли отображать серию из диапазона значений ячеек по строке или по столбцу. |
 
 ### Возвращаемое значение
 
-Возвращает первый индекс добавленной ASeries в NSeries.
+Возвращает первый индекс добавленного ASeries в NSeries.
 
 ### Примечания
 
-&lt;br&gt;Если данные задаются в смежных ячейках, используйте двоеточие для их разделения. Например, R[1]C[1]:R[3]C[ 2].&lt;/br&gt;&lt;br&gt;Если заданы данные для смежных ячеек, используйте запятую для их разделения. Например, (R[1]C[1],R[3]C[2]).&lt;/br&gt;
+Если заданы данные для смежных ячеек, используйте двоеточие для их разделения. Например, R[1]C[1]:R[3]C[2].Если заданы данные в смежных ячейках, используйте запятую для их разделения. Например, (R[1]C[1],R[3]C[2]).
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ShowStatus
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает значение указывающее показывать ли состояние вычисления Значение по умолчанию  true.
+description: Получает или задает значение указывающее следует ли отображать вычисление status Значение по умолчанию  true.
 type: docs
 weight: 280
 url: /ru/net/aspose.cells.griddesktop/griddesktop/showstatus/
 ---
 ## GridDesktop.ShowStatus property
 
-Получает или задает значение, указывающее, показывать ли состояние вычисления Значение по умолчанию — true.
+Получает или задает значение, указывающее, следует ли отображать вычисление status Значение по умолчанию — true.
 
 ```csharp
 public bool ShowStatus { get; set; }

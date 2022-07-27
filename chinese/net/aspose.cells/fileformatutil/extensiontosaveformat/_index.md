@@ -20,7 +20,7 @@ public static SaveFormat ExtensionToSaveFormat(string extension)
 
 ### 评论
 
-如果无法识别扩展名，则返回Unknown。
+如果无法识别扩展名，则返回Unknown.
 
 ### 也可以看看
 

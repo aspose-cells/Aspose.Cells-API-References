@@ -1,14 +1,14 @@
 ---
 title: FullObjectBin
 second_title: Aspose.Cells for .NET API 参考
-description: 获取模板文件中完整嵌入的 ole 对象二进制数据
+description: 获取模板文件中完整嵌入的ole对象二进制数据
 type: docs
 weight: 60
 url: /zh/net/aspose.cells.drawing/oleobject/fullobjectbin/
 ---
 ## OleObject.FullObjectBin property
 
-获取模板文件中完整嵌入的 ole 对象二进制数据。
+获取模板文件中完整嵌入的ole对象二进制数据。
 
 ```csharp
 public byte[] FullObjectBin { get; }

@@ -19,7 +19,7 @@ public class GridCellArea
 | Имя | Описание |
 | --- | --- |
 | [GridCellArea](gridcellarea#constructor)() | Создать область ячеек. |
-| [GridCellArea](gridcellarea#constructor_1)(int, int, int, int) | Создать область ячейки. |
+| [GridCellArea](gridcellarea#constructor_1)(int, int, int, int) | Создать область ячеек. |
 
 ## Методы
 

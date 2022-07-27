@@ -1,14 +1,14 @@
 ---
 title: OffsetX
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает смещение X для мозаичного изображения.
+description: Получает или задает смещение по оси X для мозаичного изображения.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.drawing/tilepicoption/offsetx/
 ---
 ## TilePicOption.OffsetX property
 
-Получает или задает смещение X для мозаичного изображения.
+Получает или задает смещение по оси X для мозаичного изображения.
 
 ```csharp
 public double OffsetX { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: FillPictureType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示图片填充类型
+description: 代表图片填充类型
 type: docs
 weight: 1990
 url: /zh/net/aspose.cells.drawing/fillpicturetype/
 ---
 ## FillPictureType enumeration
 
-表示图片填充类型。
+代表图片填充类型。
 
 ```csharp
 public enum FillPictureType

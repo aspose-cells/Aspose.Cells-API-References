@@ -19,7 +19,7 @@ public abstract class AbstractInterruptMonitor
 | Имя | Описание |
 | --- | --- |
 | abstract [IsInterruptionRequested](../../aspose.cells/abstractinterruptmonitor/isinterruptionrequested) { get; } | Указывает, требуется ли прерывание для текущей операции. Если true, то текущая операция будет прервана. Реализация должна выполнять здесь быструю и эффективную проверку, иначе это может стать еще одним узким местом для процедуры. |
-| virtual [TerminateWithoutException](../../aspose.cells/abstractinterruptmonitor/terminatewithoutexception) { get; } | Когда процедура прерывается, следует ли тихо завершить процедуру или выдать исключение. Значение по умолчанию равно false, то есть когда[`IsInterruptionRequested`](./isinterruptionrequested)равно true, a[`CellsException`](../cellsexception)с кодомInterruptedбудет выброшен. |
+| virtual [TerminateWithoutException](../../aspose.cells/abstractinterruptmonitor/terminatewithoutexception) { get; } | Когда процедура прерывается, следует ли завершить процедуру тихо или вызвать исключение. Значение по умолчанию — false, то есть когда[`IsInterruptionRequested`](./isinterruptionrequested) верно, a[`CellsException`](../cellsexception) с кодомInterrupted будет брошен. |
 
 ### Смотрите также
 

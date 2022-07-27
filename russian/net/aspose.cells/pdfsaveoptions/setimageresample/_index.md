@@ -1,14 +1,14 @@
 ---
 title: SetImageResample
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает желаемое значение PPI пикселей на дюйм изображений с повторной выборкой и качество JPEG. Все изображения будут преобразованы в JPEG с указанной настройкой качества и изображения превышающие указанный PPI пикселей на дюйм будут подвергнуты передискретизации.
+description: Устанавливает желаемый PPI пикселей на дюйм для изображений передискретизации и качества jpeg. Все изображения будут преобразованы в JPEG с указанной настройкой качества и изображения которые превышают указанный PPI пикселей на дюйм будут передискретизированы.
 type: docs
 weight: 320
 url: /ru/net/aspose.cells/pdfsaveoptions/setimageresample/
 ---
 ## PdfSaveOptions.SetImageResample method
 
-Устанавливает желаемое значение PPI (пикселей на дюйм) изображений с повторной выборкой и качество JPEG. Все изображения будут преобразованы в JPEG с указанной настройкой качества, и изображения, превышающие указанный PPI (пикселей на дюйм), будут подвергнуты передискретизации.
+Устанавливает желаемый PPI (пикселей на дюйм) для изображений передискретизации и качества jpeg. Все изображения будут преобразованы в JPEG с указанной настройкой качества, и изображения, которые превышают указанный PPI (пикселей на дюйм), будут передискретизированы.
 
 ```csharp
 public void SetImageResample(int desiredPPI, int jpegQuality)
@@ -16,7 +16,7 @@ public void SetImageResample(int desiredPPI, int jpegQuality)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| желаемыйPPI | Int32 | Требуемые пиксели на дюйм. 220 высокого качества. 150 качество экрана. 96 качество электронной почты. |
+| desiredPPI | Int32 | Желаемые пиксели на дюйм. 220 высокого качества. 150 качество экрана. 96 качество электронной почты. |
 | jpegQuality | Int32 | 0 - 100% качество JPEG. |
 
 ### Примеры
@@ -24,15 +24,15 @@ public void SetImageResample(int desiredPPI, int jpegQuality)
 Следующий код устанавливает желаемый PPI как 96 и качество jpeg как 80 для изображений в выходном pdf.
 
 ```csharp
-//загрузить исходный файл с изображениями.
-rkbook wb = new Workbook("Book1.xlsx");
+//загружаем исходный файл с изображениями.
+Workbook wb = new Workbook("Book1.xlsx");
 
-fSaveOptions pdfSaveOptions = new PdfSaveOptions();
+PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
-//установите желаемый PPI как 96 и качество jpeg как 80.
-fSaveOptions.SetImageResample(96, 80);
+// установите желаемый PPI на 96 и качество jpeg на 80.
+pdfSaveOptions.SetImageResample(96, 80);
 
-.Save("output.pdf", pdfSaveOptions);
+wb.Save("output.pdf", pdfSaveOptions);
 ```
 
 ### Смотрите также

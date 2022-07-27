@@ -16,7 +16,7 @@ public static int ToOleColor(Color color, Workbook workbook)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| color | Color | Colorобъект. |
+| color | Color | Color объект. |
 | workbook | Workbook |  |
 
 ### Возвращаемое значение

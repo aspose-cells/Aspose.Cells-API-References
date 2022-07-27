@@ -1,14 +1,14 @@
 ---
 title: SetStyle
 second_title: Aspose.Cells for .NET API 参考
-description: 将样式对象设置为 cellRange
+description: 将样式对象设置为 cellRange.
 type: docs
 weight: 1100
 url: /zh/net/aspose.cells.griddesktop/worksheet/setstyle/
 ---
 ## SetStyle(CellRange, Style) {#setstyle}
 
-将样式对象设置为 cellRange。
+将样式对象设置为 cellRange.
 
 ```csharp
 public void SetStyle(CellRange range, Style style)
@@ -16,7 +16,7 @@ public void SetStyle(CellRange range, Style style)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| range | CellRange | CellRange 对象。 |
+| range | CellRange | 单元格范围对象。 |
 | style | Style | 要设置的样式对象。 |
 
 ### 也可以看看
@@ -31,7 +31,7 @@ public void SetStyle(CellRange range, Style style)
 
 ## SetStyle(GridCellArea, Style) {#setstyle_1}
 
-将样式对象设置为 cellRange。
+将样式对象设置为 cellRange.
 
 ```csharp
 public void SetStyle(GridCellArea area, Style style)

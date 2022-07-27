@@ -1,14 +1,14 @@
 ---
 title: PrecisionStrategy
 second_title: Справочник по Aspose.Cells для .NET API
-description: Задает стратегию обработки точности вычисления.
+description: Задает стратегию обработки точности расчета.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells/calculationoptions/precisionstrategy/
 ---
 ## CalculationOptions.PrecisionStrategy property
 
-Задает стратегию обработки точности вычисления.
+Задает стратегию обработки точности расчета.
 
 ```csharp
 public CalculationPrecisionStrategy PrecisionStrategy { get; set; }

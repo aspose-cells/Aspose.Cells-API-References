@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.Cells for .NET API 参考
-description: 返回代表当前 Range 对象的字符串
+description: 返回一个代表当前 Range 对象的字符串
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.griddesktop.data/gridname/tostring/
 ---
 ## GridName.ToString method
 
-返回代表当前 Range 对象的字符串。
+返回一个代表当前 Range 对象的字符串。
 
 ```csharp
 public override string ToString()

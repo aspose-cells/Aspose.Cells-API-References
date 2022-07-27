@@ -1,14 +1,14 @@
 ---
 title: XmlMap
 second_title: Aspose.Cells for .NET API 参考
-description: 获取用于此列表的XmlMapaspose.cells.tables/listobject/xmlmap
+description: 得到一个XmlMapaspose.cells.tables/listobject/xmlmap用于此列表
 type: docs
 weight: 220
 url: /zh/net/aspose.cells.tables/listobject/xmlmap/
 ---
 ## ListObject.XmlMap property
 
-获取用于此列表的`XmlMap`。
+得到一个`XmlMap`用于此列表。
 
 ```csharp
 public XmlMap XmlMap { get; }

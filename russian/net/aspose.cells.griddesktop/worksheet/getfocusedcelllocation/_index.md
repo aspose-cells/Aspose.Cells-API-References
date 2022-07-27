@@ -1,14 +1,14 @@
 ---
 title: GetFocusedCellLocation
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает ячейку которая находится в фокусе.
+description: Получает местоположение ячейки которая находится в фокусе.
 type: docs
 weight: 740
 url: /ru/net/aspose.cells.griddesktop/worksheet/getfocusedcelllocation/
 ---
 ## Worksheet.GetFocusedCellLocation method
 
-Получает ячейку, которая находится в фокусе.
+Получает местоположение ячейки, которая находится в фокусе.
 
 ```csharp
 public CellLocation GetFocusedCellLocation()

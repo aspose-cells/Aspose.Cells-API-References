@@ -1,14 +1,14 @@
 ---
 title: ExportWorksheetCSSSeparately
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает экспортировать ли рабочий лист css отдельно. Значение по умолчанию  false.
+description: Указывает следует ли экспортировать рабочий лист css отдельно. Значение по умолчанию  false.
 type: docs
-weight: 270
+weight: 290
 url: /ru/net/aspose.cells/htmlsaveoptions/exportworksheetcssseparately/
 ---
 ## HtmlSaveOptions.ExportWorksheetCSSSeparately property
 
-Указывает, экспортировать ли рабочий лист css отдельно. Значение по умолчанию — false.
+Указывает, следует ли экспортировать рабочий лист css отдельно. Значение по умолчанию — false.
 
 ```csharp
 public bool ExportWorksheetCSSSeparately { get; set; }

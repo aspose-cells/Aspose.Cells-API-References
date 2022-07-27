@@ -1,14 +1,14 @@
 ---
 title: ShowImportMessage
 second_title: Aspose.Cells for .NET API 参考
-description: 导入文件失败时是否显示消息框默认值为真
+description: 导入文件失败时是否显示消息框默认值为true
 type: docs
 weight: 320
 url: /zh/net/aspose.cells.griddesktop/griddesktop/showimportmessage/
 ---
 ## GridDesktop.ShowImportMessage field
 
-导入文件失败时是否显示消息框，默认值为真
+导入文件失败时是否显示消息框，默认值为true
 
 ```csharp
 public bool ShowImportMessage;

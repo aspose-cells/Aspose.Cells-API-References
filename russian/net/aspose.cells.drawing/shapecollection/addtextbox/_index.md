@@ -1,14 +1,14 @@
 ---
 title: AddTextBox
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет текстовое поле на рабочий лист.
+description: Добавляет текстовое поле на лист.
 type: docs
 weight: 310
 url: /ru/net/aspose.cells.drawing/shapecollection/addtextbox/
 ---
 ## ShapeCollection.AddTextBox method
 
-Добавляет текстовое поле на рабочий лист.
+Добавляет текстовое поле на лист.
 
 ```csharp
 public TextBox AddTextBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, 
@@ -18,15 +18,15 @@ public TextBox AddTextBox(int upperLeftRow, int top, int upperLeftColumn, int le
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | upperLeftRow | Int32 | Индекс верхней левой строки. |
-| top | Int32 | Представляет вертикальное смещение текстового поля от его левой строки в единицах пикселей. |
-| upperLeftColumn | Int32 | Индекс верхнего левого столбца. |
-| left | Int32 | Представляет горизонтальное смещение текстового поля от его левого столбца в единицах пикселей. |
+| top | Int32 | Представляет вертикальное смещение текстового поля от его левой строки в пикселях. |
+| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
+| left | Int32 | Представляет горизонтальное смещение текстового поля от его левого столбца в пикселях. |
 | height | Int32 | Представляет высоту текстового поля в пикселях. |
 | width | Int32 | Представляет ширину текстового поля в пикселях. |
 
 ### Возвращаемое значение
 
-A[`TextBox`](../../textbox)объект.
+А[`TextBox`](../../textbox) объект.
 
 ### Примеры
 
@@ -34,7 +34,7 @@ A[`TextBox`](../../textbox)объект.
 
 [C#]
 
-  //добавляем TextBox
+//добавляем текстовое поле
 TextBox textBox = shapes.AddTextBox(1, 0, 1, 0, 100, 50);
 ```
 

@@ -19,8 +19,8 @@ public int AddControlRefrernce(string name, string libid, string twiddledlibid,
 | --- | --- | --- |
 | name | String | Имя ссылки. |
 | libid | String | Идентификатор библиотеки типов автоматизации. |
-| twiddledlibid | String | Идентификатор библиотеки подкручиваемых типов |
-| extendedLibid | String | Идентификатор библиотеки расширенных типов |
+| twiddledlibid | String | Идентификатор мутной библиотеки типов |
+| extendedLibid | String | Идентификатор расширенной библиотеки типов |
 
 ### Смотрите также
 

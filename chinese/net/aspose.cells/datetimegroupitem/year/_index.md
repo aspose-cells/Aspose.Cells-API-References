@@ -1,14 +1,14 @@
 ---
 title: Year
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置分组日期时间的年份
+description: 获取并设置分组日期时间的年份
 type: docs
 weight: 90
 url: /zh/net/aspose.cells/datetimegroupitem/year/
 ---
 ## DateTimeGroupItem.Year property
 
-获取和设置分组日期时间的年份。
+获取并设置分组日期时间的年份。
 
 ```csharp
 public int Year { get; set; }

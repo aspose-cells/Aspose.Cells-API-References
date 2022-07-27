@@ -3,7 +3,7 @@ title: RemoveDuplicates
 second_title: Aspose.Cells for .NET API 参考
 description: 删除工作表中的重复行
 type: docs
-weight: 1190
+weight: 1200
 url: /zh/net/aspose.cells/cells/removeduplicates/
 ---
 ## RemoveDuplicates() {#removeduplicates}
@@ -61,7 +61,7 @@ public void RemoveDuplicates(int startRow, int startColumn, int endRow, int endC
 | endRow | Int32 | 结束行索引。 |
 | endColumn | Int32 | 结束列索引。 |
 | hasHeaders | Boolean | 指示范围是否包含标题。 |
-| columnOffsets | Int32[] | 列偏移量。 |
+| columnOffsets | Int32[] | 列偏移。 |
 
 ### 也可以看看
 

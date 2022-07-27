@@ -1,14 +1,14 @@
 ---
 title: ForceFullCalculation
 second_title: Aspose.Cells for .NET API 参考
-description: 每次触发计算时是否计算所有公式
+description: 表示每次触发计算时是否计算所有公式
 type: docs
 weight: 70
 url: /zh/net/aspose.cells/formulasettings/forcefullcalculation/
 ---
 ## FormulaSettings.ForceFullCalculation property
 
-每次触发计算时是否计算所有公式。
+表示每次触发计算时是否计算所有公式。
 
 ```csharp
 public bool ForceFullCalculation { get; set; }
@@ -16,7 +16,7 @@ public bool ForceFullCalculation { get; set; }
 
 ### 评论
 
-此属性仅用于将设置保存到生成的电子表格文件 所以其他应用程序（例如 ms excel）在加载和操作生成的文件时可能会采取相应的行动。 出于对大多数用户应用程序的性能考虑，我们不会自动计算工作簿中的任何公式， 无论为此属性设置了什么值。
+此属性仅用于将设置保存到生成的电子表格文件 以便其他应用程序（例如 ms excel）在加载和操作生成的文件时可能会采取相应的行动。 出于大多数用户应用程序的性能考虑，我们不计算任何公式自动在工作簿中， 无论为此属性设置了什么值。
 
 ### 也可以看看
 

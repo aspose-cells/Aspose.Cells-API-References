@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Cells for .NET API 参考
-description: 获取实例化的 Cell 对象的总数
+description: 获取实例化 Cell 对象的总数
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/cells/count/
 ---
 ## Cells.Count property
 
-获取实例化的 Cell 对象的总数。
+获取实例化 Cell 对象的总数。
 
 ```csharp
 public int Count { get; }

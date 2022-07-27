@@ -1,14 +1,14 @@
 ---
 title: RotationAngle
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или устанавливает атрибут вращения.
+description: Получает или задает атрибут вращения.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells.gridweb/gridtableitemstyle/rotationangle/
 ---
 ## GridTableItemStyle.RotationAngle property
 
-Получает или устанавливает атрибут вращения.
+Получает или задает атрибут вращения.
 
 ```csharp
 public short RotationAngle { get; set; }
@@ -16,13 +16,13 @@ public short RotationAngle { get; set; }
 
 ### Примечания
 
-0:Не повернуто.
+0: Не повернуто.
 
-255:Сверху вниз.
+255: Сверху вниз.
 
--90:Вниз.
+-90: Вниз.
 
-90:Вверх.
+90: Вверх.
 
 Вы можете установить 255 или значение в диапазоне от -90 до 90.
 

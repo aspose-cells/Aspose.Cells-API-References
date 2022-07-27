@@ -16,7 +16,7 @@ public void SetNumberType(int numbertype)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| numbertype | Int32 | значение типа номера, см. GridTableItemStyle.NumberType |
+| numbertype | Int32 | значение их числового типа, см. GridTableItemStyle.NumberType |
 
 ### Смотрите также
 

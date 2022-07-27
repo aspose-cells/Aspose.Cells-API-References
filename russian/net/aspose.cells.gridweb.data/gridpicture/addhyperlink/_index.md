@@ -1,14 +1,14 @@
 ---
 title: AddHyperlink
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет к фигуре гиперссылку.
+description: Добавляет гиперссылку к фигуре.
 type: docs
 weight: 580
 url: /ru/net/aspose.cells.gridweb.data/gridpicture/addhyperlink/
 ---
 ## GridPicture.AddHyperlink method
 
-Добавляет к фигуре гиперссылку.
+Добавляет гиперссылку к фигуре.
 
 ```csharp
 public GridHyperlink AddHyperlink(string param_string)
@@ -20,7 +20,7 @@ public GridHyperlink AddHyperlink(string param_string)
 
 ### Возвращаемое значение
 
-Возвращает новый объект гиперссылки.
+Верните новый объект гиперссылки.
 
 ### Смотрите также
 

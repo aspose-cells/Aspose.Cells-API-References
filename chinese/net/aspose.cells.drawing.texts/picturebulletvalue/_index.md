@@ -1,14 +1,14 @@
 ---
 title: PictureBulletValue
 second_title: Aspose.Cells for .NET API 参考
-description: 表示图像项目符号的值
+description: 表示图像子弹的值
 type: docs
 weight: 2930
 url: /zh/net/aspose.cells.drawing.texts/picturebulletvalue/
 ---
 ## PictureBulletValue class
 
-表示图像项目符号的值。
+表示图像子弹的值。
 
 ```csharp
 public class PictureBulletValue : BulletValue

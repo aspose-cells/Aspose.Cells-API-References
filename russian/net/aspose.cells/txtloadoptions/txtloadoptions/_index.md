@@ -1,14 +1,14 @@
 ---
 title: TxtLoadOptions
 second_title: Справочник по Aspose.Cells для .NET API
-description: Создает опции для загрузки текстового файла.
+description: Создает параметры для загрузки текстового файла.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells/txtloadoptions/txtloadoptions/
 ---
 ## TxtLoadOptions() {#constructor}
 
-Создает опции для загрузки текстового файла.
+Создает параметры для загрузки текстового файла.
 
 ```csharp
 public TxtLoadOptions()
@@ -16,7 +16,7 @@ public TxtLoadOptions()
 
 ### Примечания
 
-Тип загружаемого файла по умолчанию — CSV .
+Тип файла загрузки по умолчанию — CSV.
 
 ### Смотрите также
 
@@ -28,7 +28,7 @@ public TxtLoadOptions()
 
 ## TxtLoadOptions(LoadFormat) {#constructor_1}
 
-Создает опции для загрузки текстового файла.
+Создает параметры для загрузки текстового файла.
 
 ```csharp
 public TxtLoadOptions(LoadFormat loadFormat)

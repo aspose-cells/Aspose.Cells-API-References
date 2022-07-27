@@ -1,14 +1,14 @@
 ---
 title: Title
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает заголовок текущего объекта Slicer.
+description: Определяет заголовок текущего объекта Slicer.
 type: docs
 weight: 210
 url: /ru/net/aspose.cells.slicers/slicer/title/
 ---
 ## Slicer.Title property
 
-Указывает заголовок текущего объекта Slicer.
+Определяет заголовок текущего объекта Slicer.
 
 ```csharp
 public string Title { get; set; }

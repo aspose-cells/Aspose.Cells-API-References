@@ -1,14 +1,14 @@
 ---
 title: IsTripleState
 second_title: Aspose.Cells for .NET API 参考
-description: 指示指定控件将如何显示 Null 值
+description: 表示指定控件将如何显示 Null 值
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/istriplestate/
 ---
 ## ToggleButtonActiveXControl.IsTripleState property
 
-指示指定控件将如何显示 Null 值。
+表示指定控件将如何显示 Null 值。
 
 ```csharp
 public bool IsTripleState { get; set; }
@@ -16,7 +16,17 @@ public bool IsTripleState { get; set; }
 
 ### 评论
 
-///&lt;table class="dtTABLE" cellspacing="0"&gt;&lt;tr&gt;&lt; td&gt;&lt;font color="gray"&gt; **设置** &lt;/font&gt; &lt;/td&gt;&lt;td&gt;&lt;font color="gray"&gt; **描述** &lt;/font&gt; &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;控件将循环显示是、否、和空值。当控件的 Value 属性设置为 Null 时，控件显示为灰色（灰色）。&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;（默认）控件将在“是”和“是”状态之间循环没有价值观。 Null 值显示为无值。&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+**环境**
+
+**描述**
+
+真的
+
+控件将循环显示 Yes、No 和 Null 值的状态。当控件的 Value 属性设置为 Null 时，控件显示为灰色（灰色）。
+
+错误的
+
+（默认）控件将循环显示“是”和“否”值的状态。 Null 值显示为无值。
 
 ### 也可以看看
 

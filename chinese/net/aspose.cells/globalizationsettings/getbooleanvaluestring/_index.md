@@ -16,11 +16,11 @@ public virtual string GetBooleanValueString(bool bv)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| bv | Boolean | boolean value |
+| bv | Boolean | 布尔值 |
 
 ### 返回值
 
-默认返回“TRUE”表示真值，“FALSE”表示假值。
+默认为真值返回“TRUE”，为假值返回“FALSE”。
 
 ### 也可以看看
 

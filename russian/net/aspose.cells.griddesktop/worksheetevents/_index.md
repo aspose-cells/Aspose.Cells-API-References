@@ -23,14 +23,14 @@ public enum WorksheetEvents
 | ColumnHeaderClick | `2` | Нажат заголовок столбца. |
 | ColumnHeaderDoubleClick | `3` | Заголовок столбца дважды щелкнут. |
 | ColumnsHide | `4` | Столбцы скрыты. |
-| ColumnsUnHide | `5` | Столбцы отображаются. |
+| ColumnsUnHide | `5` | Столбцы не скрыты. |
 | RowsHide | `6` | Строки скрыты. |
-| RowsUnHide | `7` | Строки отображаются. |
+| RowsUnHide | `7` | Строки не скрыты. |
 | RowInserted | `8` | вставлена новая строка. |
 | ColumnInserted | `9` | вставлен новый столбец. |
 | RowFiltered | `10` | строка отфильтрована. |
 | RowDeleted | `11` | строка удалена. |
-| ColumnDeleted | `12` | столбец удален. |
+| ColumnDeleted | `12` | Столбец удален. |
 
 ### Смотрите также
 

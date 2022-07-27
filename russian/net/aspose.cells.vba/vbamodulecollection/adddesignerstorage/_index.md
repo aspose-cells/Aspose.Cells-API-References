@@ -14,8 +14,8 @@ public void AddDesignerStorage(string name, byte[] data)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| имя | String |  |
-| данные | Byte[] |  |
+| name | String |  |
+| data | Byte[] |  |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: PivotItemCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示 PivotField 的
+description: 表示 PivotField 的 中所有 PivotItem 对象的集合
 type: docs
 weight: 4650
 url: /zh/net/aspose.cells.pivot/pivotitemcollection/
 ---
 ## PivotItemCollection class
 
-表示 PivotField 的
+表示 PivotField 的 中所有 PivotItem 对象的集合
 
 ```csharp
 public class PivotItemCollection : IEnumerable
@@ -18,14 +18,14 @@ public class PivotItemCollection : IEnumerable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.cells.pivot/pivotitemcollection/count) { get; } | 获取枢轴项目的计数。 |
+| [Count](../../aspose.cells.pivot/pivotitemcollection/count) { get; } | 获取枢轴项的计数。 |
 | [Item](../../aspose.cells.pivot/pivotitemcollection/item) { get; } | 获取特定索引处的 PivotItem 对象。 (2 indexers) |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ChangeitemsOrder](../../aspose.cells.pivot/pivotitemcollection/changeitemsorder)(int, int) | 直接改变两项的顺序。 |
+| [ChangeitemsOrder](../../aspose.cells.pivot/pivotitemcollection/changeitemsorder)(int, int) | 直接改变这两项的顺序。 |
 | [GetEnumerator](../../aspose.cells.pivot/pivotitemcollection/getenumerator)() | 以正确的顺序获取此集合中元素的枚举器。 |
 
 ### 也可以看看

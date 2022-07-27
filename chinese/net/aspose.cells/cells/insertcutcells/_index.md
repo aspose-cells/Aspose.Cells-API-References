@@ -3,7 +3,7 @@ title: InsertCutCells
 second_title: Aspose.Cells for .NET API 参考
 description: 插入剪切范围
 type: docs
-weight: 1080
+weight: 1090
 url: /zh/net/aspose.cells/cells/insertcutcells/
 ---
 ## Cells.InsertCutCells method
@@ -16,9 +16,9 @@ public void InsertCutCells(Range cutRange, int row, int column, ShiftType shiftT
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cutRange | Range | 剪切范围。 |
+| cutRange | Range | 切割范围。 |
 | row | Int32 | 行。 |
-| column | Int32 | 列。 |
+| column | Int32 | 专栏。 |
 | shiftType | ShiftType | 班次类型。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: IsInterruptionRequested
 second_title: Aspose.Cells for .NET API 参考
-description: 表示当前操作是否请求中断 如果为真则当前操作将被中断 实现应该在这里进行快速高效的检查否则可能会成为程序的另一个瓶颈
+description: 表示当前操作是否请求中断 如果为true则当前操作将被中断 实现应该在这里进行快速高效的检查否则可能成为程序的另一个瓶颈
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/abstractinterruptmonitor/isinterruptionrequested/
 ---
 ## AbstractInterruptMonitor.IsInterruptionRequested property
 
-表示当前操作是否请求中断。 如果为真，则当前操作将被中断。 实现应该在这里进行快速高效的检查，否则可能会成为程序的另一个瓶颈。
+表示当前操作是否请求中断。 如果为true，则当前操作将被中断。 实现应该在这里进行快速高效的检查，否则可能成为程序的另一个瓶颈。
 
 ```csharp
 public abstract bool IsInterruptionRequested { get; }

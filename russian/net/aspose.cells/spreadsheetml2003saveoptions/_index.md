@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetML2003SaveOptions
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет параметры сохранения файла расширения Excel 2003.
+description: Представляет варианты сохранения файла расширения Excel 2003.
 type: docs
 weight: 5730
 url: /ru/net/aspose.cells/spreadsheetml2003saveoptions/
 ---
 ## SpreadsheetML2003SaveOptions class
 
-Представляет параметры сохранения файла расширения Excel 2003.
+Представляет варианты сохранения файла расширения Excel 2003.
 
 ```csharp
 public class SpreadsheetML2003SaveOptions : SaveOptions
@@ -27,17 +27,17 @@ public class SpreadsheetML2003SaveOptions : SaveOptions
 | [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder) { get; set; } | Папка с кэшированными файлами используется для хранения больших данных. |
 | [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | Сделайте рабочую книгу пустой после сохранения файла. |
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | Если true и каталог не существует, каталог будет автоматически создан перед сохранением файла. |
-| [ExportColumnIndexOfCell](../../aspose.cells/spreadsheetml2003saveoptions/exportcolumnindexofcell) { get; set; } | Значение по умолчанию - false, это означает, что индекс столбца будет игнорироваться, если ячейка граничит с предыдущей ячейкой. |
+| [ExportColumnIndexOfCell](../../aspose.cells/spreadsheetml2003saveoptions/exportcolumnindexofcell) { get; set; } | Значение по умолчанию — false, это означает, что индекс столбца будет игнорироваться, если ячейка граничит с предыдущей ячейкой. |
 | [IsIndentedFormatting](../../aspose.cells/spreadsheetml2003saveoptions/isindentedformatting) { get; set; } | Вызывает отступ дочерних элементов. |
-| [LimitAsXls](../../aspose.cells/spreadsheetml2003saveoptions/limitasxls) { get; set; } | Предел как xls, максимальный индекс строки 65535 и максимальный индекс столбца 255. |
+| [LimitAsXls](../../aspose.cells/spreadsheetml2003saveoptions/limitasxls) { get; set; } | Ограничение в виде xls, максимальный индекс строки – 65 535, а максимальный индекс столбца – 255. |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Указывает, объединяются ли области условного форматирования и проверки перед сохранением файла. |
-| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Указывает, обновляются ли данные кэша диаграммы |
+| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Указывает, нужно ли обновлять кэш диаграммы data |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Получает формат файла сохранения. |
 | [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | Указывает, выполняется ли сортировка внешних определенных имен перед сохранением файла. |
 | [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | Указывает, выполняется ли сортировка определенных имен перед сохранением файла. |
-| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Указывает, обновляются ли настройки смарт-арта. Значение по умолчанию — false. |
+| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Указывает, обновляются ли настройки Smart Art. Значение по умолчанию — false. |
 | [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas) { get; set; } | Указывает, следует ли проверять объединенные ячейки перед сохранением файла. |
-| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Получает или устанавливает обратный вызов предупреждения. |
+| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Получает или задает обратный вызов предупреждения. |
 
 ### Смотрите также
 

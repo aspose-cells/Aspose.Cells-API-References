@@ -25,14 +25,14 @@ public class ChartGlobalizationSettings : AbstractGlobalizationSettings
 | Имя | Описание |
 | --- | --- |
 | virtual [Compare](../../aspose.cells/abstractglobalizationsettings/compare)(string, string, bool) | Сравнивает два строковых значения в соответствии с определенными правилами сопоставления. |
-| virtual [GetAxisTitleName](../../aspose.cells.charts/chartglobalizationsettings/getaxistitlename)() | Получает имя Title для оси. |
+| virtual [GetAxisTitleName](../../aspose.cells.charts/chartglobalizationsettings/getaxistitlename)() | Получает имя заголовка для оси. |
 | virtual [GetAxisUnitName](../../aspose.cells.charts/chartglobalizationsettings/getaxisunitname)(DisplayUnitType) | Получает имя блока оси. |
 | virtual [GetChartTitleName](../../aspose.cells.charts/chartglobalizationsettings/getcharttitlename)() | Получает имя заголовка диаграммы. |
 | virtual [GetCollationKey](../../aspose.cells/abstractglobalizationsettings/getcollationkey)(string, bool) | Преобразует строку в сопоставимый объект в соответствии с определенными правилами сортировки. |
-| virtual [GetLegendDecreaseName](../../aspose.cells.charts/chartglobalizationsettings/getlegenddecreasename)() | Получает имя Decrease для Legend. |
-| virtual [GetLegendIncreaseName](../../aspose.cells.charts/chartglobalizationsettings/getlegendincreasename)() | Получает имя увеличения для Легенды. |
+| virtual [GetLegendDecreaseName](../../aspose.cells.charts/chartglobalizationsettings/getlegenddecreasename)() | Получает имя Decrease для легенды. |
+| virtual [GetLegendIncreaseName](../../aspose.cells.charts/chartglobalizationsettings/getlegendincreasename)() | Получает имя увеличения для Legend. |
 | virtual [GetLegendTotalName](../../aspose.cells.charts/chartglobalizationsettings/getlegendtotalname)() | Получает имя Total для Legend. |
-| virtual [GetOtherName](../../aspose.cells.charts/chartglobalizationsettings/getothername)() | Получает имя "Других" меток для Диаграммы. |
+| virtual [GetOtherName](../../aspose.cells.charts/chartglobalizationsettings/getothername)() | Получает имя «Других» меток для Chart. |
 | virtual [GetSeriesName](../../aspose.cells.charts/chartglobalizationsettings/getseriesname)() | Получает название серии на графике. |
 
 ### Смотрите также

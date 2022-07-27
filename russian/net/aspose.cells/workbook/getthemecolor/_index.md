@@ -16,7 +16,7 @@ public Color GetThemeColor(ThemeColorType type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | ThemeColorType | Тип цвета темы. |
+| type | ThemeColorType | Цветовой тип темы. |
 
 ### Возвращаемое значение
 

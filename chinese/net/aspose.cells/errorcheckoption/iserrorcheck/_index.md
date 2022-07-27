@@ -1,14 +1,14 @@
 ---
 title: IsErrorCheck
 second_title: Aspose.Cells for .NET API 参考
-description: 检查是否检查给定的错误类型
+description: 检查是否将检查给定的错误类型
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/errorcheckoption/iserrorcheck/
 ---
 ## ErrorCheckOption.IsErrorCheck method
 
-检查是否检查给定的错误类型。
+检查是否将检查给定的错误类型。
 
 ```csharp
 public bool IsErrorCheck(ErrorCheckType errorCheckType)
@@ -20,7 +20,7 @@ public bool IsErrorCheck(ErrorCheckType errorCheckType)
 
 ### 返回值
 
-如果给定则返回 true将检查错误类型（如果检查失败，单元格将显示绿色三角形）。
+如果将检查给定的错误类型，则返回 true（如果检查失败，将为单元格显示绿色三角形）。
 
 ### 也可以看看
 

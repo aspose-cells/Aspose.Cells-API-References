@@ -54,7 +54,7 @@ public class OdsCellFieldCollection : CollectionBase<OdsCellField>
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(OdsCellField, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(OdsCellField, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
-| [UpdateFieldsValue](../../aspose.cells.ods/odscellfieldcollection/updatefieldsvalue)() | Обновление значения полей в ячейках. |
+| [UpdateFieldsValue](../../aspose.cells.ods/odscellfieldcollection/updatefieldsvalue)() | Обновить значение полей в ячейках. |
 
 ### Смотрите также
 

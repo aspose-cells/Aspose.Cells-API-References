@@ -1,14 +1,14 @@
 ---
 title: AddSelectedRange
 second_title: Aspose.Cells for .NET API 参考
-description: 将新的选定范围添加到工作表
+description: 向工作表添加一个新的选定范围
 type: docs
 weight: 470
 url: /zh/net/aspose.cells.griddesktop/worksheet/addselectedrange/
 ---
 ## Worksheet.AddSelectedRange method
 
-将新的选定范围添加到工作表。
+向工作表添加一个新的选定范围。
 
 ```csharp
 public void AddSelectedRange(CellRange cCellRange)

@@ -18,9 +18,9 @@ public enum PlacementType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| FreeFloating | `0` | 不要移动或调整单元格。 |
+| FreeFloating | `0` | 不要移动或调整单元格大小。 |
 | Move | `1` | 移动但不要用单元格调整大小。 |
-| MoveAndSize | `2` | 随单元格移动和调整大小。 |
+| MoveAndSize | `2` | 使用单元格移动和调整大小。 |
 
 ### 也可以看看
 

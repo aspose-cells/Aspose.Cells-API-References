@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает элементHyperlinkпо указанному индексу.
+description: ПолучаетHyperlink элемент по указанному индексу.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.griddesktop.data/gridhyperlinkcollection/item/
 ---
 ## GridHyperlinkCollection indexer (1 of 2)
 
-Получает элементHyperlinkпо указанному индексу.
+ПолучаетHyperlink элемент по указанному индексу.
 
 ```csharp
 public GridHyperlink this[int index] { get; }
@@ -33,7 +33,7 @@ public GridHyperlink this[int index] { get; }
 
 ## GridHyperlinkCollection indexer (2 of 2)
 
-Получает элементHyperlinkв указанной ячейке.
+ПолучаетHyperlink элемент в указанной ячейке.
 
 ```csharp
 public GridHyperlink this[int row, int col] { get; }
@@ -41,12 +41,12 @@ public GridHyperlink this[int row, int col] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| row | Строка ячейки. |
-| col | Колонка ячейки. |
+| row | Ряд клетки. |
+| col | Цвет ячейки. |
 
 ### Возвращаемое значение
 
-Элемент по указанному индексу. Вы можете получить null, если в этой ячейке не найдено гиперссылок
+Элемент по указанному индексу. Вы можете получить значение null, если в этой ячейке не найдено гиперссылок.
 
 ### Смотрите также
 

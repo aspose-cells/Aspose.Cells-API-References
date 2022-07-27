@@ -25,7 +25,7 @@ public class FontConfigs
 | 姓名 | 描述 |
 | --- | --- |
 | static [DefaultFontName](../../aspose.cells/fontconfigs/defaultfontname) { get; set; } | 获取或设置默认字体名称。 |
-| static [PreferSystemFontSubstitutes](../../aspose.cells/fontconfigs/prefersystemfontsubstitutes) { get; set; } | 指示在没有出现字体且未设置该字体的替代时是否先使用系统字体替代。 例如，在 Ubuntu 上，“Arial”字体通常由“Liberation Sans”代替。 默认值为假。 |
+| static [PreferSystemFontSubstitutes](../../aspose.cells/fontconfigs/prefersystemfontsubstitutes) { get; set; } | 表示在没有出现字体且未设置该字体的替代品时是否先使用系统字体替代品。 例如在Ubuntu上，“Arial”字体一般被“Liberation Sans”替代。 默认值为false . |
 
 ## 方法
 

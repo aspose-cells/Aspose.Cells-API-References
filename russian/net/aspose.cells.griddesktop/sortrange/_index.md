@@ -18,14 +18,14 @@ public class SortRange
 
 | Имя | Описание |
 | --- | --- |
-| [SortRange](sortrange)(Worksheet, int, int, int, int, SortOrientation, bool) | Инициализирует новый экземпляр класса[`SortRange`](../sortrange)путем указания диапазона рабочего листа и ориентации сортировки. |
+| [SortRange](sortrange)(Worksheet, int, int, int, int, SortOrientation, bool) | Инициализирует новый экземпляр[`SortRange`](../sortrange)класс, указав диапазон рабочего листа и ориентацию сортировки. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [Sort](../../aspose.cells.griddesktop/sortrange/sort#sort)(int) | Сортирует данные в диапазоне по возрастанию по индексу. |
-| [Sort](../../aspose.cells.griddesktop/sortrange/sort#sort_2)(int[]) | Сортирует данные по возрастанию в диапазоне по некоторому полю, указанному индексами массива. |
+| [Sort](../../aspose.cells.griddesktop/sortrange/sort#sort_2)(int[]) | Сортирует данные в диапазоне по возрастанию по какому-либо полю, заданному индексами массива. |
 | [Sort](../../aspose.cells.griddesktop/sortrange/sort#sort_1)(int, SortOrder) | Сортирует данные в диапазоне по индексу. |
 | [Sort](../../aspose.cells.griddesktop/sortrange/sort#sort_3)(int[], SortOrder[]) | Сортирует данные в диапазоне по некоторому полю, указанному индексами массива. |
 

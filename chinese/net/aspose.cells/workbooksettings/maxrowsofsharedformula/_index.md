@@ -16,7 +16,7 @@ public int MaxRowsOfSharedFormula { get; set; }
 
 ### 评论
 
-如果数字太大，自动筛选器在 MS Excel 2013 中的工作速度非常慢。
+如果数字太大，自动过滤器在 MS Excel 2013 中运行速度很慢。
 
 ### 也可以看看
 

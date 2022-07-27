@@ -1,14 +1,14 @@
 ---
 title: PdfCompressionCore
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает тип сжатия применяемый ко всему содержимому файла PDF кроме изображений.
+description: Определяет тип сжатия применяемый ко всему содержимому файла PDF кроме изображений.
 type: docs
 weight: 5200
 url: /ru/net/aspose.cells.rendering/pdfcompressioncore/
 ---
 ## PdfCompressionCore enumeration
 
-Указывает тип сжатия, применяемый ко всему содержимому файла PDF, кроме изображений.
+Определяет тип сжатия, применяемый ко всему содержимому файла PDF, кроме изображений.
 
 ```csharp
 public enum PdfCompressionCore
@@ -19,7 +19,7 @@ public enum PdfCompressionCore
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | None | `0` | Нет |
-| Rle | `1` | Rle |
+| Rle | `1` | Рле |
 | Lzw | `2` | Lzw |
 | Flate | `3` | Flate |
 

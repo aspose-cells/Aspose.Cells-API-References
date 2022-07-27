@@ -16,7 +16,7 @@ public string ImageSourceFullName { get; set; }
 
 ### 评论
 
-默认值为空字符串。 如果 SourceFullName 不是空字符串，则链接图像。 如果 SourceFullName 不是空字符串，但 Data 为 null，则图像已链接且不存储在文件中。
+默认值为空字符串。 如果SourceFullName不是空字符串，则链接图像。 如果SourceFullName不是空字符串，但Data为空，则链接图像，不存储在文件中。
 
 ### 也可以看看
 

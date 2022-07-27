@@ -20,13 +20,13 @@ public enum InputMethodEditorMode
 | --- | --- | --- |
 | NoControl | `0` | 不控制 IME。 |
 | On | `1` | IME 开启。 |
-| Off | `2` | IME 关闭。英文模式。 |
+| Off | `2` | IME 关闭。英文模式. |
 | Disable | `3` | IME 关闭。用户无法通过键盘打开 IME。 |
-| Hiragana | `4` | IME 开启全角平假名模式。 |
-| Katakana | `5` | IME 开启全角片假名模式。 |
-| KatakanaHalf | `6` | IME 开启半角片假名模式。 |
-| AlphaFull | `7` | IME 开启全角字母数字模式。 |
-| Alpha | `8` | IME 开启半角字母数字模式。 |
+| Hiragana | `4` | 使用全角平假名模式打开 IME。 |
+| Katakana | `5` | 使用全角片假名模式打开 IME。 |
+| KatakanaHalf | `6` | 使用半角片假名模式打开 IME。 |
+| AlphaFull | `7` | 使用全角字母数字模式打开 IME。 |
+| Alpha | `8` | 使用半角字母数字模式打开 IME。 |
 | HangulFull | `9` | IME 开启全角韩文模式。 |
 | Hangul | `10` | IME 开启半角韩文模式。 |
 | HanziFull | `11` | IME 开启全角汉字模式。 |

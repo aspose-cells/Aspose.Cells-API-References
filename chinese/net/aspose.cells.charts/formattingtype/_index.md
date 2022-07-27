@@ -1,14 +1,14 @@
 ---
 title: FormattingType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示应用于Area../aspose.cells.drawing/area对象或Line对象
+description: 表示应用于Area../aspose.cells.drawing/area对象或Line../aspose.cells.drawing/line对象.
 type: docs
 weight: 670
 url: /zh/net/aspose.cells.charts/formattingtype/
 ---
 ## FormattingType enumeration
 
-表示应用于[`Area`](../../aspose.cells.drawing/area)对象或Line对象。
+表示应用于[`Area`](../../aspose.cells.drawing/area)对象或[`Line`](../../aspose.cells.drawing/line)对象.
 
 ```csharp
 public enum FormattingType

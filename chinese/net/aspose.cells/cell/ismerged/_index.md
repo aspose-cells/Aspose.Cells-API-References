@@ -1,14 +1,14 @@
 ---
 title: IsMerged
 second_title: Aspose.Cells for .NET API 参考
-description: 检查单元格是否是合并范围的一部分
+description: 检查一个单元格是否是合并范围的一部分
 type: docs
 weight: 170
 url: /zh/net/aspose.cells/cell/ismerged/
 ---
 ## Cell.IsMerged property
 
-检查单元格是否是合并范围的一部分。
+检查一个单元格是否是合并范围的一部分。
 
 ```csharp
 public bool IsMerged { get; }

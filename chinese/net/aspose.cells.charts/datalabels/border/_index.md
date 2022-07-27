@@ -1,14 +1,14 @@
 ---
 title: Border
 second_title: Aspose.Cells for .NET API 参考
-description: 获取边框aspose.cells.drawing/line 
+description: 获取边界aspose.cells.drawing/line.
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.charts/datalabels/border/
 ---
 ## DataLabels.Border property
 
-获取[`边框`](../../../aspose.cells.drawing/line) 。
+获取[`边界`](../../../aspose.cells.drawing/line).
 
 ```csharp
 public override Line Border { get; }

@@ -1,14 +1,14 @@
 ---
 title: IsColorVaried
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает различаются ли цвета точек.
+description: Указывает изменился ли цвет точек.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.charts/seriescollection/iscolorvaried/
 ---
 ## SeriesCollection.IsColorVaried property
 
-Указывает, различаются ли цвета точек.
+Указывает, изменился ли цвет точек.
 
 ```csharp
 public bool IsColorVaried { get; set; }

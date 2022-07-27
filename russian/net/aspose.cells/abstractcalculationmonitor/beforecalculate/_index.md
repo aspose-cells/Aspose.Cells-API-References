@@ -1,14 +1,14 @@
 ---
 title: BeforeCalculate
 second_title: Справочник по Aspose.Cells для .NET API
-description: Реализуйте этот метод чтобы вести дела перед вычислением одной ячейки.
+description: Реализуйте этот метод для ведения бизнеса перед расчетом одной ячейки.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells/abstractcalculationmonitor/beforecalculate/
 ---
 ## AbstractCalculationMonitor.BeforeCalculate method
 
-Реализуйте этот метод, чтобы вести дела перед вычислением одной ячейки.
+Реализуйте этот метод для ведения бизнеса перед расчетом одной ячейки.
 
 ```csharp
 public virtual void BeforeCalculate(int sheetIndex, int rowIndex, int colIndex)

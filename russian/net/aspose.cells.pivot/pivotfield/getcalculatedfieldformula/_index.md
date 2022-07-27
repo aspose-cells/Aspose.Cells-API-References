@@ -1,14 +1,14 @@
 ---
 title: GetCalculatedFieldFormula
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получить строку формулы указанного вычисляемого поля.
+description: Получить строку формулы указанного вычисляемого поля .
 type: docs
 weight: 420
 url: /ru/net/aspose.cells.pivot/pivotfield/getcalculatedfieldformula/
 ---
 ## PivotField.GetCalculatedFieldFormula method
 
-Получить строку формулы указанного вычисляемого поля.
+Получить строку формулы указанного вычисляемого поля .
 
 ```csharp
 public string GetCalculatedFieldFormula()

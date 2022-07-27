@@ -24,10 +24,10 @@ public class CustomCommandButton : Control, ISerializable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ClientClickEvent](../../aspose.cells.gridweb/customcommandbutton/clientclickevent) { get; set; } | 获取或设置客户端的点击事件处理程序。 |
+| [ClientClickEvent](../../aspose.cells.gridweb/customcommandbutton/clientclickevent) { get; set; } | 获取或设置客户端点击事件处理程序。 |
 | [Command](../../aspose.cells.gridweb/customcommandbutton/command) { get; set; } | 获取或设置命令名称。 |
 | [CommandType](../../aspose.cells.gridweb/customcommandbutton/commandtype) { get; set; } | 获取或设置命令的渲染类型。 类型可以是命令按钮或上下文菜单项。 |
-| [DiscardInput](../../aspose.cells.gridweb/customcommandbutton/discardinput) { get; set; } | 表示当用户单击此按钮时是否丢弃客户端浏览器的用户输入。可以用作“撤消”操作。 |
+| [DiscardInput](../../aspose.cells.gridweb/customcommandbutton/discardinput) { get; set; } | 指示当用户单击此按钮时是否丢弃客户端浏览器中的用户输入。可以用作“撤消”操作。 |
 | [ImageUrl](../../aspose.cells.gridweb/customcommandbutton/imageurl) { get; set; } | 获取或设置命令按钮的图像 url。如果设置为 null 或空字符串，按钮将只显示它的文本。 |
 | [Text](../../aspose.cells.gridweb/customcommandbutton/text) { get; set; } | 获取或设置命令按钮的替代文本。 |
 | [ToolTip](../../aspose.cells.gridweb/customcommandbutton/tooltip) { get; set; } | 获取或设置命令按钮的工具提示。 |

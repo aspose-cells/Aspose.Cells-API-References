@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 向 FormatConditions 添加格式条件和影响单元格范围 FormatConditions 最多可以包含三种条件格式 条件格式的公式中不允许引用其他工作表
+description: 在 FormatConditions 中添加格式条件和受影响的单元格范围
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/formatconditioncollection/add/
 ---
 ## FormatConditionCollection.Add method
 
-向 FormatConditions 添加格式条件和影响单元格范围 FormatConditions 最多可以包含三种条件格式。 条件格式的公式中不允许引用其他工作表。
+在 FormatConditions 中添加格式条件和受影响的单元格范围
 
 ```csharp
 public int[] Add(CellArea cellArea, FormatConditionType type, OperatorType operatorType, 
@@ -19,13 +19,13 @@ public int[] Add(CellArea cellArea, FormatConditionType type, OperatorType opera
 | --- | --- | --- |
 | cellArea | CellArea | 条件格式的单元格范围。 |
 | type | FormatConditionType | 条件格式的类型。它可以是 FormatConditionType 的成员之一。 |
-| operatorType | OperatorType | 比较运算符。可以是 OperatorType 的成员之一。 |
-| formula1 | String | 与条件格式相关的值或表达式。 |
-| formula2 | String | 与条件格式化相关的值或表达式 |
+| operatorType | OperatorType | 比较运算符。它可以是 OperatorType 的成员之一。 |
+| formula1 | String | 与条件格式关联的值或表达式。 |
+| formula2 | String | 与条件格式关联的值或表达式 |
 
 ### 返回值
 
-[0]:格式化条件对象索引;[1] 受影响的细胞范围指数。
+[0]：格式化条件对象索引；[1] 影响单元格范围索引。
 
 ### 也可以看看
 

@@ -23,25 +23,25 @@ public enum IconSetType
 | Flags3 | `2` | 3 个标志图标集。 |
 | Signs3 | `3` | 3 个标志图标集。 |
 | Symbols3 | `4` | 3 个符号图标集（带圆圈）。 |
-| Symbols32 | `5` | 3 符号图标集（未圈出）。 |
-| TrafficLights31 | `6` | 3 个红绿灯图标集（无边框）。 |
-| TrafficLights32 | `7` | 3 个交通灯图标集，带有粗黑边框。 |
+| Symbols32 | `5` | 3 个符号图标集（未圈出）。 |
+| TrafficLights31 | `6` | 3 个交通灯图标集（无边框）。 |
+| TrafficLights32 | `7` | 3 个交通灯图标集，带有厚黑色边框。 |
 | Arrows4 | `8` | 4 个箭头图标集。 |
 | ArrowsGray4 | `9` | 4 个灰色箭头图标集。 |
-| Rating4 | `10` | 4 个评分图标集。 |
+| Rating4 | `10` | 4 个评级图标集。 |
 | RedToBlack4 | `11` | 4“红到黑”图标集。 |
-| TrafficLights4 | `12` | 4 个红绿灯图标集。 |
+| TrafficLights4 | `12` | 4 个交通灯图标集。 |
 | Arrows5 | `13` | 5 个箭头图标集。 |
 | ArrowsGray5 | `14` | 5 个灰色箭头图标集。 |
-| Quarters5 | `15` | 5 个四分之一图标集。 |
+| Quarters5 | `15` | 5 个宿舍图标集。 |
 | Rating5 | `16` | 5 评级图标集。 |
-| Stars3 | `17` | 3 星设置 |
-| Boxes5 | `18` | 5 盒设置 |
+| Stars3 | `17` | 3 星套装 |
+| Boxes5 | `18` | 5 盒套装 |
 | Triangles3 | `19` | 3 个三角形集 |
 | None | `20` | 无 |
-| CustomSet | `21` | 自定义集。 这个元素是只读的。 |
-| Smilies3 | `22` | 3 个表情符号。 仅适用于 .ods。 |
-| ColorSmilies3 | `23` | 3 个彩色表情符号。 仅适用于 .ods。 |
+| CustomSet | `21` | CustomSet. 这个元素是只读的。 |
+| Smilies3 | `22` | 3 个表情符号。 仅适用于 .ods. |
+| ColorSmilies3 | `23` | 3 个彩色表情符号。 仅适用于 .ods. |
 
 ### 也可以看看
 

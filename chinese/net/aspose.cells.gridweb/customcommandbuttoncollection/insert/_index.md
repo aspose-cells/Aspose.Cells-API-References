@@ -16,8 +16,8 @@ public void Insert(int index, object value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 索引。 |
-| value | Object | CustomCommandButton 对象。 |
+| index | Int32 | 指数。 |
+| value | Object | 自定义命令按钮对象。 |
 
 ### 也可以看看
 

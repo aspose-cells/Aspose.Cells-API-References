@@ -16,7 +16,7 @@ public Range[] GetNamedRangesAndTables()
 
 ### 返回值
 
-Range 对象数组。
+Range 对象的数组。
 
 如果命名范围不存在，则返回 null。
 

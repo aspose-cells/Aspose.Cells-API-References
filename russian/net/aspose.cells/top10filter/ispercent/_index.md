@@ -1,14 +1,14 @@
 ---
 title: IsPercent
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает являются ли элементы процентами.
+description: Указывает являются ли элементы процентными.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/top10filter/ispercent/
 ---
 ## Top10Filter.IsPercent property
 
-Указывает, являются ли элементы процентами.
+Указывает, являются ли элементы процентными.
 
 ```csharp
 public bool IsPercent { get; set; }

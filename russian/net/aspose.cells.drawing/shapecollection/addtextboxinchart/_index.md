@@ -1,14 +1,14 @@
 ---
 title: AddTextBoxInChart
 second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет текстовое поле на график.
+description: Добавляет текстовое поле на диаграмму.
 type: docs
 weight: 320
 url: /ru/net/aspose.cells.drawing/shapecollection/addtextboxinchart/
 ---
 ## ShapeCollection.AddTextBoxInChart method
 
-Добавляет текстовое поле на график.
+Добавляет текстовое поле на диаграмму.
 
 ```csharp
 public TextBox AddTextBoxInChart(int top, int left, int height, int width)

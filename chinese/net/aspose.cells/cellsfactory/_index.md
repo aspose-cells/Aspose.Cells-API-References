@@ -1,14 +1,14 @@
 ---
 title: CellsFactory
 second_title: Aspose.Cells for .NET API 参考
-description: 用于实例化 Cells 模型类的实用程序
+description: 用于实例化单元模型类的实用程序
 type: docs
 weight: 340
 url: /zh/net/aspose.cells/cellsfactory/
 ---
 ## CellsFactory class
 
-用于实例化 Cells 模型类的实用程序。
+用于实例化单元模型类的实用程序。
 
 ```csharp
 public class CellsFactory

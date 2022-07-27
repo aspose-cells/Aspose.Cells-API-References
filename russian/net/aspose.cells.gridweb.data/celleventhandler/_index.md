@@ -10,7 +10,7 @@ url: /ru/net/aspose.cells.gridweb.data/celleventhandler/
 
 Представляет интерфейс, предназначенный для обработки событий ячейки.
 
-void **handleCellEvent** (Отправитель объекта, CellEventArgs e);
+пустота **обработатьCellEvent**(Отправитель объекта, CellEventArgs e);
 
 ```csharp
 public delegate void CellEventHandler(object sender, CellEventArgs e);

@@ -1,14 +1,14 @@
 ---
 title: ApplyRowStyle
 second_title: Справочник по Aspose.Cells для .NET API
-description: Применяет форматы ко всей строке.
+description: Применяет формат ко всей строке.
 type: docs
 weight: 340
 url: /ru/net/aspose.cells/cells/applyrowstyle/
 ---
 ## Cells.ApplyRowStyle method
 
-Применяет форматы ко всей строке.
+Применяет формат ко всей строке.
 
 ```csharp
 public void ApplyRowStyle(int row, Style style, StyleFlag flag)

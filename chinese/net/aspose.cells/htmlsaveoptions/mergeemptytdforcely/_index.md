@@ -1,14 +1,14 @@
 ---
 title: MergeEmptyTdForcely
 second_title: Aspose.Cells for .NET API 参考
-description: 表示导出文件到html时是否强制合并空的TD元素 将值设置为true后html文件的大小将显着减小默认值为假 如果要将html文件导入excel或将文件保存为html时导出完美的网格线 请保持默认值
+description: 表示将文件导出为html时是否强制合并空的TD元素 将值设置为true后html文件的大小将显着减小默认值为假 如果要将html文件导入excel或将文件保存为html时导出完美的网格线 请保持默认值
 type: docs
-weight: 400
+weight: 420
 url: /zh/net/aspose.cells/htmlsaveoptions/mergeemptytdforcely/
 ---
 ## HtmlSaveOptions.MergeEmptyTdForcely property
 
-表示导出文件到html时是否强制合并空的TD元素。 将值设置为true后，html文件的大小将显着减小。默认值为假。 如果要将html文件导入excel或将文件保存为html时导出完美的网格线， 请保持默认值。
+表示将文件导出为html时是否强制合并空的TD元素。 将值设置为true后，html文件的大小将显着减小。默认值为假。 如果要将html文件导入excel或将文件保存为html时导出完美的网格线， 请保持默认值。
 
 ```csharp
 public bool MergeEmptyTdForcely { get; set; }

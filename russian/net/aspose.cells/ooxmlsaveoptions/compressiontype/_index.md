@@ -1,14 +1,14 @@
 ---
 title: CompressionType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает тип сжатия для файла ooxml.
+description: Получает и задает тип сжатия для файла ooxml.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/ooxmlsaveoptions/compressiontype/
 ---
 ## OoxmlSaveOptions.CompressionType property
 
-Получает и устанавливает тип сжатия для файла ooxml.
+Получает и задает тип сжатия для файла ooxml.
 
 ```csharp
 public OoxmlCompressionType CompressionType { get; set; }

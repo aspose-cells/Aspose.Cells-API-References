@@ -1,14 +1,14 @@
 ---
 title: PictureFormatType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает тип формата изображения.
+description: Получает и устанавливает тип формата изображения.
 type: docs
 weight: 120
 url: /ru/net/aspose.cells.drawing/fillformat/pictureformattype/
 ---
 ## FillFormat.PictureFormatType property
 
-Получает и задает тип формата изображения.
+Получает и устанавливает тип формата изображения.
 
 ```csharp
 public FillPictureType PictureFormatType { get; set; }

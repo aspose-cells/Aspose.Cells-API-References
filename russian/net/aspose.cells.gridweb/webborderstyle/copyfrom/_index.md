@@ -16,7 +16,7 @@ public void CopyFrom(WebBorderStyle style)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| style | WebBorderStyle | Копируемый объект стиля. |
+| style | WebBorderStyle | Объект стиля, который необходимо скопировать. |
 
 ### Смотрите также
 

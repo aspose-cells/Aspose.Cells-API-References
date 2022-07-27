@@ -3,7 +3,7 @@ title: ImageOptions
 second_title: Aspose.Cells for .NET API 参考
 description: 导出前获取 ImageOrPrintOptions 对象
 type: docs
-weight: 340
+weight: 360
 url: /zh/net/aspose.cells/htmlsaveoptions/imageoptions/
 ---
 ## HtmlSaveOptions.ImageOptions property

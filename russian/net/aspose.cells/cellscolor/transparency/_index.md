@@ -1,14 +1,14 @@
 ---
 title: Transparency
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и задает прозрачность как значение от 00 непрозрачный до 10 прозрачный.
+description: Получает и задает прозрачность в виде значения от 00 непрозрачный до 10 прозрачный.
 type: docs
 weight: 60
 url: /ru/net/aspose.cells/cellscolor/transparency/
 ---
 ## CellsColor.Transparency property
 
-Получает и задает прозрачность как значение от 0,0 (непрозрачный) до 1,0 (прозрачный).
+Получает и задает прозрачность в виде значения от 0,0 (непрозрачный) до 1,0 (прозрачный).
 
 ```csharp
 public double Transparency { get; set; }

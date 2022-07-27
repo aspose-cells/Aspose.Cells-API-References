@@ -16,7 +16,7 @@ public void SetRange(CellArea ca)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ca | CellArea | 搜索范围。 |
+| ca | CellArea | 搜索到的范围。 |
 
 ### 也可以看看
 

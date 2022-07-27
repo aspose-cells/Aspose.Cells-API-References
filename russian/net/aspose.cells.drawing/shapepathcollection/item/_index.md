@@ -20,7 +20,7 @@ public ShapePath this[int index] { get; }
 
 ### Возвращаемое значение
 
-Возвращает объект[`ShapePath`](../../shapepath).
+Возвращает[`ShapePath`](../../shapepath) объект.
 
 ### Смотрите также
 

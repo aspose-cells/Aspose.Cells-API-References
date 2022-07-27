@@ -22,7 +22,7 @@ public class GridHyperlink
 | [Area](../../aspose.cells.griddesktop.data/gridhyperlink/area) { get; } | 获取超链接的范围。 |
 | [Command](../../aspose.cells.griddesktop.data/gridhyperlink/command) { get; set; } | 返回或设置指定超链接的自定义命令值文本。 |
 | virtual [DiscardInput](../../aspose.cells.griddesktop.data/gridhyperlink/discardinput) { get; set; } | 指示当用户单击此 CellCommand 超链接时是否丢弃客户端浏览器中的用户输入。可以用作“撤消”操作。 |
-| [ImageURL](../../aspose.cells.griddesktop.data/gridhyperlink/imageurl) { get; set; } | 获取或设置链接的Image URL，超链接中没有imageurl属性， 所以实际使用TextToDisplay来记录这个值，TextToDisplay会设置为&lt;img src=value&gt; 所以它会改变 TextToDisplay |
+| [ImageURL](../../aspose.cells.griddesktop.data/gridhyperlink/imageurl) { get; set; } | 获取或设置链接的Image URL，超链接中没有imageurl属性， 所以实际使用TextToDisplay记录这个值，TextToDisplay会设置为&lt;img src=value&gt; 所以会改变TextToDisplay 的值 |
 | [ScreenTip](../../aspose.cells.griddesktop.data/gridhyperlink/screentip) { get; set; } | 返回或设置指定超链接的屏幕提示文本。 |
 | [Target](../../aspose.cells.griddesktop.data/gridhyperlink/target) { get; set; } | 获取或设置网页链接目标类型，请注意这是扩展属性，不能保存在excel文件中 |
 | [TextToDisplay](../../aspose.cells.griddesktop.data/gridhyperlink/texttodisplay) { get; set; } | 表示要为指定超链接显示的文本。默认值为超链接的地址。 |

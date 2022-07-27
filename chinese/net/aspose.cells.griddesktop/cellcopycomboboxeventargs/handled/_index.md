@@ -1,14 +1,14 @@
 ---
 title: Handled
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置指示是否应处理事件的值
+description: 获取或设置是否应该处理事件的值
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.griddesktop/cellcopycomboboxeventargs/handled/
 ---
 ## CellCopyComboBoxEventArgs.Handled property
 
-获取或设置指示是否应处理事件的值。
+获取或设置是否应该处理事件的值。
 
 ```csharp
 public bool Handled { get; set; }

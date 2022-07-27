@@ -1,14 +1,14 @@
 ---
 title: IgnoreInvisibleShapes
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает экспортируются ли невидимые фигуры
+description: Укажите экспортируются ли невидимые фигуры
 type: docs
-weight: 330
+weight: 350
 url: /ru/net/aspose.cells/htmlsaveoptions/ignoreinvisibleshapes/
 ---
 ## HtmlSaveOptions.IgnoreInvisibleShapes property
 
-Указывает, экспортируются ли невидимые фигуры
+Укажите, экспортируются ли невидимые фигуры
 
 ```csharp
 public bool IgnoreInvisibleShapes { get; set; }
@@ -16,7 +16,7 @@ public bool IgnoreInvisibleShapes { get; set; }
 
 ### Примечания
 
-Значения по умолчанию — false.
+Значение по умолчанию — false.
 
 ### Смотрите также
 

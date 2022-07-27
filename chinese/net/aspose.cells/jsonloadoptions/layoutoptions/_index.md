@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions
 second_title: Aspose.Cells for .NET API 参考
-description: 导入json的选项
+description: 导入json的选项.
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/jsonloadoptions/layoutoptions/
 ---
 ## JsonLoadOptions.LayoutOptions property
 
-导入json的选项。
+导入json的选项.
 
 ```csharp
 public JsonLayoutOptions LayoutOptions { get; set; }

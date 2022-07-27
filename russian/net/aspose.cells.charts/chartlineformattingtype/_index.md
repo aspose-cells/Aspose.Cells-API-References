@@ -1,14 +1,14 @@
 ---
 title: ChartLineFormattingType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет тип формата линии графика.
+description: Представляет тип формата линии диаграммы.
 type: docs
 weight: 490
 url: /ru/net/aspose.cells.charts/chartlineformattingtype/
 ---
 ## ChartLineFormattingType enumeration
 
-Представляет тип формата линии графика.
+Представляет тип формата линии диаграммы.
 
 ```csharp
 public enum ChartLineFormattingType

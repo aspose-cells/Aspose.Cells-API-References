@@ -18,9 +18,9 @@ public class CellRange
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CellRange](cellrange#constructor)() | 默认构造函数。 |
-| [CellRange](cellrange#constructor_2)(string, string) | CellRange 构造函数。 |
-| [CellRange](cellrange#constructor_1)(int, int, int, int) | CellRange 构造函数。 |
+| [CellRange](cellrange#constructor)() | 默认构造函数. |
+| [CellRange](cellrange#constructor_2)(string, string) | CellRange 构造函数. |
+| [CellRange](cellrange#constructor_1)(int, int, int, int) | CellRange 构造函数. |
 
 ## 特性
 

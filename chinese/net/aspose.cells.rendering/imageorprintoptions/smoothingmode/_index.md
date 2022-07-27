@@ -1,14 +1,14 @@
 ---
 title: SmoothingMode
 second_title: Aspose.Cells for .NET API 参考
-description: 指定是否对线条和曲线以及填充区域的边缘应用平滑抗锯齿 默认值为 SmoothingMode.None
+description: 指定是否对直线和曲线以及填充区域的边缘应用平滑抗锯齿 默认值为 SmoothingMode.None
 type: docs
 weight: 280
 url: /zh/net/aspose.cells.rendering/imageorprintoptions/smoothingmode/
 ---
 ## ImageOrPrintOptions.SmoothingMode property
 
-指定是否对线条和曲线以及填充区域的边缘应用平滑（抗锯齿）。 默认值为 SmoothingMode.None
+指定是否对直线和曲线以及填充区域的边缘应用平滑（抗锯齿）。 默认值为 SmoothingMode.None
 
 ```csharp
 public SmoothingMode SmoothingMode { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: IsMultipleItemSelectionAllowed
 second_title: Aspose.Cells for .NET API 参考
-description: 表示该字段是否可以有多个项目 在页面字段中被选中 默认值为false
+description: 表示该字段是否可以有多个项目 在页面中选择字段 默认值为false
 type: docs
 weight: 260
 url: /zh/net/aspose.cells.pivot/pivotfield/ismultipleitemselectionallowed/
 ---
 ## PivotField.IsMultipleItemSelectionAllowed property
 
-表示该字段是否可以有多个项目 在页面字段中被选中 默认值为false。
+表示该字段是否可以有多个项目 在页面中选择字段 默认值为false。
 
 ```csharp
 public bool IsMultipleItemSelectionAllowed { get; set; }

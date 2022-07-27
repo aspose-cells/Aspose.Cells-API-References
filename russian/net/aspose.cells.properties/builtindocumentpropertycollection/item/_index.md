@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает объектDocumentPropertyaspose.cells.properties/documentpropertyпо имени свойства.
+description: ВозвращаетDocumentPropertyaspose.cells.properties/documentproperty объект по имени свойства.
 type: docs
 weight: 110
 url: /ru/net/aspose.cells.properties/builtindocumentpropertycollection/item/
 ---
 ## BuiltInDocumentPropertyCollection indexer
 
-Возвращает объект[`DocumentProperty`](../../documentproperty)по имени свойства.
+Возвращает[`DocumentProperty`](../../documentproperty) объект по имени свойства.
 
 ```csharp
 public override DocumentProperty this[string name] { get; }
@@ -20,11 +20,11 @@ public override DocumentProperty this[string name] { get; }
 
 ### Примечания
 
-Строковые имена свойств соответствуют именам типизированных свойства доступны из[`BuiltInDocumentPropertyCollection`](../../builtindocumentpropertycollection).
+Строковые имена свойств соответствуют именам свойств typed , доступных из[`BuiltInDocumentPropertyCollection`](../../builtindocumentpropertycollection).
 
-Если вы запрашиваете свойство, которого нет в документе, но имя свойства распознается как допустимое встроенное имя, новый[`DocumentProperty`](../../documentproperty) создается, добавляется в коллекцию и возвращается. Вновь созданному свойству присваивается значение по умолчанию (пустая строка, ноль, false или DateTime.MinValue в зависимости от типа встроенного свойства).
+Если вы запрашиваете свойство, которого нет в документе, но свойство name распознается как допустимое встроенное имя, новое[`DocumentProperty`](../../documentproperty) создается, добавляется в коллекцию и возвращается. Вновь созданному свойству присваивается значение по умолчанию (пустая строка, ноль, false или DateTime.MinValue в зависимости от type встроенного свойства).
 
-Если вы запрашиваете свойство, которого нет в документе, и имя не распознается как встроенное имя, значение null возвращается.
+Если вы запрашиваете свойство, которого нет в документе, а name не распознается как встроенное имя, возвращается null.
 
 ### Смотрите также
 

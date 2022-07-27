@@ -1,14 +1,14 @@
 ---
 title: CellIndexToName
 second_title: Aspose.Cells for .NET API 参考
-description: 根据行和列索引获取单元格名称
+description: 根据行列索引获取单元格名称
 type: docs
 weight: 750
 url: /zh/net/aspose.cells.griddesktop.data/gridcells/cellindextoname/
 ---
 ## GridCells.CellIndexToName method
 
-根据行和列索引获取单元格名称。
+根据行列索引获取单元格名称。
 
 ```csharp
 public static string CellIndexToName(int row, int column)
@@ -21,7 +21,7 @@ public static string CellIndexToName(int row, int column)
 
 ### 返回值
 
-单元格名称。
+单元格的名称。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: EndFormatPainter
 second_title: Aspose.Cells for .NET API 参考
-description: 通知 GridDesktop 结束 FormatPainter
+description: 通知 GridDesktop 结束 FormatPainter.
 type: docs
 weight: 680
 url: /zh/net/aspose.cells.griddesktop/griddesktop/endformatpainter/
 ---
 ## GridDesktop.EndFormatPainter method
 
-通知 GridDesktop 结束 FormatPainter。
+通知 GridDesktop 结束 FormatPainter.
 
 ```csharp
 public void EndFormatPainter()

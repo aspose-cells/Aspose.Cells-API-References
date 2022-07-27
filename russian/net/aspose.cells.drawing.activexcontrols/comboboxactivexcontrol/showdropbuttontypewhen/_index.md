@@ -1,14 +1,14 @@
 ---
 title: ShowDropButtonTypeWhen
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает символ отображаемый на кнопке перетаскивания
+description: Указывает символ отображаемый на раскрывающейся кнопке
 type: docs
 weight: 190
 url: /ru/net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/showdropbuttontypewhen/
 ---
 ## ComboBoxActiveXControl.ShowDropButtonTypeWhen property
 
-Указывает символ, отображаемый на кнопке перетаскивания
+Указывает символ, отображаемый на раскрывающейся кнопке
 
 ```csharp
 public ShowDropButtonType ShowDropButtonTypeWhen { get; set; }

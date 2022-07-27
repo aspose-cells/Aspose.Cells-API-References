@@ -16,7 +16,7 @@ public void Remove(Slicer slicer)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| slicer | Slicer | Slicer 对象 |
+| slicer | Slicer | 切片器对象 |
 
 ### 例子
 

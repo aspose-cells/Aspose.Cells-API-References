@@ -1,14 +1,14 @@
 ---
 title: AbstractGlobalizationSettings
 second_title: Aspose.Cells for .NET API 参考
-description: 表示全球化设置
+description: 代表全球化设置
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/abstractglobalizationsettings/
 ---
 ## AbstractGlobalizationSettings class
 
-表示全球化设置。
+代表全球化设置。
 
 ```csharp
 public abstract class AbstractGlobalizationSettings

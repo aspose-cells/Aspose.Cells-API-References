@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Cells для .NET API
-description: ДобавитьGridValidationaspose.cells.gridweb.data/gridvalidationв коллекцию.
+description: ДобавитьGridValidationaspose.cells.gridweb.data/gridvalidation в коллекцию.
 type: docs
 weight: 30
 url: /ru/net/aspose.cells.gridweb.data/gridvalidationcollection/add/
 ---
 ## Add(GridValidation) {#add_4}
 
-Добавить[`GridValidation`](../../gridvalidation)в коллекцию.
+Добавить[`GridValidation`](../../gridvalidation) в коллекцию.
 
 ```csharp
 public int Add(GridValidation validation)
@@ -20,7 +20,7 @@ public int Add(GridValidation validation)
 
 ### Возвращаемое значение
 
-[`GridValidation`](../../gridvalidation)индекс объекта.
+[`GridValidation`](../../gridvalidation) индекс объекта.
 
 ### Смотрите также
 
@@ -41,11 +41,11 @@ public GridValidation Add(GridCellArea ca)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| ca | GridCellArea | Область содержит эту проверку. |
+| ca | GridCellArea | Область содержит эту валидацию. |
 
 ### Возвращаемое значение
 
-[`GridValidation`](../../gridvalidation)проверка.
+[`GridValidation`](../../gridvalidation) проверка.
 
 ### Смотрите также
 
@@ -59,7 +59,7 @@ public GridValidation Add(GridCellArea ca)
 
 ## Add(string) {#add_3}
 
-Добавить[`GridValidation`](../../gridvalidation)в коллекцию. Проверка применяется к указанной ячейке.
+Добавить[`GridValidation`](../../gridvalidation) в коллекцию. проверка применяется к указанной ячейке.
 
 ```csharp
 public GridValidation Add(string cellname)
@@ -71,7 +71,7 @@ public GridValidation Add(string cellname)
 
 ### Возвращаемое значение
 
-[`GridValidation`](../../gridvalidation)добавленный экземпляр GridValidation.
+[`GridValidation`](../../gridvalidation) добавленный экземпляр GridValidation.
 
 ### Смотрите также
 
@@ -84,7 +84,7 @@ public GridValidation Add(string cellname)
 
 ## Add(int, int) {#add_2}
 
-Добавить[`GridValidation`](../../gridvalidation)в коллекцию. Проверка применяется к указанной ячейке.
+Добавить[`GridValidation`](../../gridvalidation) в коллекцию. проверка применяется к указанной ячейке.
 
 ```csharp
 public GridValidation Add(int row, int column)
@@ -97,7 +97,7 @@ public GridValidation Add(int row, int column)
 
 ### Возвращаемое значение
 
-[`GridValidation`](../../gridvalidation)добавленный экземпляр GridValidation.
+[`GridValidation`](../../gridvalidation) добавленный экземпляр GridValidation.
 
 ### Смотрите также
 

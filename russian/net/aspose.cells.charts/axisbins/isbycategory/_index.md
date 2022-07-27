@@ -1,14 +1,14 @@
 ---
 title: IsByCategory
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает группируются ли данные по категориям
+description: Указывает следует ли группировать данные по категории .
 type: docs
 weight: 40
 url: /ru/net/aspose.cells.charts/axisbins/isbycategory/
 ---
 ## AxisBins.IsByCategory property
 
-Указывает, группируются ли данные по категориям
+Указывает, следует ли группировать данные по категории .
 
 ```csharp
 public bool IsByCategory { get; set; }

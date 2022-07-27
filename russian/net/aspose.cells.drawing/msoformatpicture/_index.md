@@ -24,9 +24,9 @@ public class MsoFormatPicture
 | [Gamma](../../aspose.cells.drawing/msoformatpicture/gamma) { get; set; } | Представляет гамму изображения. |
 | [IsBiLevel](../../aspose.cells.drawing/msoformatpicture/isbilevel) { get; set; } | Указывает, должно ли это изображение отображаться в двухцветном черно-белом режиме. |
 | [IsGray](../../aspose.cells.drawing/msoformatpicture/isgray) { get; set; } | Указывает, ДОЛЖНО ли это изображение отображаться в оттенках серого. |
-| [LeftCrop](../../aspose.cells.drawing/msoformatpicture/leftcrop) { get; set; } | Представляет положение левого края прямоугольника обрезки, выраженное как отношение ширины изображения. |
-| [RightCrop](../../aspose.cells.drawing/msoformatpicture/rightcrop) { get; set; } | Представляет положение правого прямоугольника обрезки, выраженное как отношение ширины изображения. |
-| [TopCrop](../../aspose.cells.drawing/msoformatpicture/topcrop) { get; set; } | Представляет положение вершины прямоугольника обрезки, выраженное как отношение высоты изображения. |
+| [LeftCrop](../../aspose.cells.drawing/msoformatpicture/leftcrop) { get; set; } | Представляет положение левого края выраженного прямоугольника обрезки, выраженное как отношение ширины изображения. |
+| [RightCrop](../../aspose.cells.drawing/msoformatpicture/rightcrop) { get; set; } | Представляет положение справа от выраженного прямоугольника обрезки, выраженное как отношение ширины изображения. |
+| [TopCrop](../../aspose.cells.drawing/msoformatpicture/topcrop) { get; set; } | Представляет положение верхней части выраженного прямоугольника обрезки, выраженное как отношение высоты изображения. |
 | [Transparency](../../aspose.cells.drawing/msoformatpicture/transparency) { get; set; } | Возвращает или задает степень прозрачности области в виде значения от 0,0 (непрозрачная) до 1,0 (прозрачная). |
 | [TransparentColor](../../aspose.cells.drawing/msoformatpicture/transparentcolor) { get; set; } | Получает и устанавливает прозрачный цвет изображения. |
 

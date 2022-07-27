@@ -1,14 +1,14 @@
 ---
 title: UpdateFieldsValue
 second_title: Aspose.Cells for .NET API 参考
-description: 更新单元格的字段值
+description: 将字段值更新到单元格
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.ods/odscellfieldcollection/updatefieldsvalue/
 ---
 ## OdsCellFieldCollection.UpdateFieldsValue method
 
-更新单元格的字段值。
+将字段值更新到单元格。
 
 ```csharp
 public void UpdateFieldsValue()

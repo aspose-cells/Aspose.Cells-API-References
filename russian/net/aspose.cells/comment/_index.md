@@ -18,15 +18,15 @@ public class Comment
 
 | Имя | Описание |
 | --- | --- |
-| [Author](../../aspose.cells/comment/author) { get; set; } | Получает и устанавливает имя автора исходного комментария |
+| [Author](../../aspose.cells/comment/author) { get; set; } | Получает и устанавливает имя исходного комментария author |
 | [AutoSize](../../aspose.cells/comment/autosize) { get; set; } | Указывает, регулируется ли размер комментария автоматически в соответствии с его содержимым. |
 | [Column](../../aspose.cells/comment/column) { get; } | Получает индекс столбца комментария. |
-| [CommentShape](../../aspose.cells/comment/commentshape) { get; } | Получить объект Shape, представляющий фигуру, прикрепленную к указанному комментарию. |
+| [CommentShape](../../aspose.cells/comment/commentshape) { get; } | Получить объект Shape, представляющий фигуру, присоединенную к указанному комментарию. |
 | [Font](../../aspose.cells/comment/font) { get; } | Получает шрифт комментария. |
 | [Height](../../aspose.cells/comment/height) { get; set; } | Представляет высоту комментария в пикселях. |
 | [HeightCM](../../aspose.cells/comment/heightcm) { get; set; } | Представляет высоту комментария в сантиметрах. |
 | [HeightInch](../../aspose.cells/comment/heightinch) { get; set; } | Представляет высоту комментария в дюймах. |
-| [HtmlNote](../../aspose.cells/comment/htmlnote) { get; set; } | Получает и устанавливает строку html, содержащую данные и некоторые форматы в этом комментарии. |
+| [HtmlNote](../../aspose.cells/comment/htmlnote) { get; set; } | Получает и задает строку html, содержащую данные и некоторые форматы в этом комментарии. |
 | [IsThreadedComment](../../aspose.cells/comment/isthreadedcomment) { get; } | Указывает, является ли этот комментарий цепочкой комментариев. |
 | [IsVisible](../../aspose.cells/comment/isvisible) { get; set; } | Указывает, виден комментарий или нет. |
 | [Note](../../aspose.cells/comment/note) { get; set; } | Представляет содержимое комментария. |
@@ -55,20 +55,20 @@ public class Comment
 Workbook workbook = new Workbook();
 CommentCollection comments = workbook.Worksheets[0].Comments;
 
-  //Добавить комментарий к ячейке A1
+//Добавить комментарий к ячейке A1
 int commentIndex1 = comments.Add(0, 0);
 Comment comment1 = comments[commentIndex1];
 comment1.Note = "First note.";
 comment1.Font.Name = "Times New Roman";
 
-  //Добавить комментарий к ячейке B2
+//Добавить комментарий к ячейке B2
 comments.Add("B2");
 Comment comment2 = comments["B2"];
 comment2.Note = "Second note.";
 
-  //делай свое дело
+//делай свое дело
 
-  // Сохраняем файл Excel.
+// Сохраняем файл excel.
 workbook.Save("exmaple.xlsx");
 
 [Visual Basic]

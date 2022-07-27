@@ -1,14 +1,14 @@
 ---
 title: HeightScale
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置高度比例单位为原始图片高度的百分比 如果形状不是图片HeightScale属性只返回100
+description: 获取和设置高度比例单位是原始图片高度的百分比 如果形状不是图片HeightScale属性只返回100
 type: docs
 weight: 110
 url: /zh/net/aspose.cells.gridweb.data/gridpicture/heightscale/
 ---
 ## GridPicture.HeightScale property
 
-获取和设置高度比例，单位为原始图片高度的百分比。 如果形状不是图片，HeightScale属性只返回100；
+获取和设置高度比例，单位是原始图片高度的百分比。 如果形状不是图片，HeightScale属性只返回100；
 
 ```csharp
 public int HeightScale { get; set; }

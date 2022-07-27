@@ -1,14 +1,14 @@
 ---
 title: ShadowEffect
 second_title: Справочник по Aspose.Cells для .NET API
-description: Этот класс определяет эффект тени элемента диаграммы или формы.
+description: Этот класс определяет эффект тени элемента диаграммы или фигуры.
 type: docs
 weight: 2620
 url: /ru/net/aspose.cells.drawing/shadoweffect/
 ---
 ## ShadowEffect class
 
-Этот класс определяет эффект тени элемента диаграммы или формы.
+Этот класс определяет эффект тени элемента диаграммы или фигуры.
 
 ```csharp
 public class ShadowEffect
@@ -20,11 +20,11 @@ public class ShadowEffect
 | --- | --- |
 | [Angle](../../aspose.cells.drawing/shadoweffect/angle) { get; set; } | Получает и устанавливает угол освещения. Диапазон от 0 до 359,9 градусов. |
 | [Blur](../../aspose.cells.drawing/shadoweffect/blur) { get; set; } | Получает и задает размытие тени. Диапазон от 0 до 100 баллов. |
-| [Color](../../aspose.cells.drawing/shadoweffect/color) { get; set; } | Получает и задает цвет тени. |
+| [Color](../../aspose.cells.drawing/shadoweffect/color) { get; set; } | Получает и устанавливает цвет тени. |
 | [Distance](../../aspose.cells.drawing/shadoweffect/distance) { get; set; } | Получает и устанавливает расстояние тени. Диапазон от 0 до 200 баллов. |
 | [PresetType](../../aspose.cells.drawing/shadoweffect/presettype) { get; set; } | Получает и устанавливает предустановленный тип тени для тени. |
 | [Size](../../aspose.cells.drawing/shadoweffect/size) { get; set; } | Получает и устанавливает размер тени. Диапазон от 0 до 2,0. Бессмысленно во внутренней тени. |
-| [Transparency](../../aspose.cells.drawing/shadoweffect/transparency) { get; set; } | Получает и задает степень прозрачности тени. Диапазон значений от 0,0 (непрозрачный) до 1,0 (прозрачный). |
+| [Transparency](../../aspose.cells.drawing/shadoweffect/transparency) { get; set; } | Получает и задает степень прозрачности тени. Диапазон от 0,0 (непрозрачный) до 1,0 (прозрачный). |
 
 ### Смотрите также
 

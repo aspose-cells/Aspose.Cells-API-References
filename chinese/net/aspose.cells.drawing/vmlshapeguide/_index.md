@@ -1,14 +1,14 @@
 ---
 title: VmlShapeGuide
 second_title: Aspose.Cells for .NET API 参考
-description: 仅用于 vml 封装形状指南指定形状 将用于管理指定形状的几何图形
+description: 仅用于 vml 封装形状指南指定形状 指南的存在该指南将用于管理指定形状的几何形状
 type: docs
 weight: 3090
 url: /zh/net/aspose.cells.drawing/vmlshapeguide/
 ---
 ## VmlShapeGuide class
 
-仅用于 vml 封装形状指南指定形状 将用于管理指定形状的几何图形
+仅用于 vml 封装形状指南指定形状 指南的存在，该指南将用于管理指定形状的几何形状
 
 ```csharp
 public class VmlShapeGuide : BaseShapeGuide

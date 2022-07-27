@@ -28,33 +28,30 @@ public class HorizontalPageBreak
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 
- //通过传入其sheet index
-eet的引用
+//通过传入工作表的索引来获取新添加的工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
 
- //在单元格Y30
-
+//在单元格Y30处添加分页符
 int Index = worksheet.HorizontalPageBreaks.Add("Y30");
 
-//获取新添加的横向分页break
+//获取新添加的横向分页符
 HorizontalPageBreak hPageBreak = worksheet.HorizontalPageBreaks[Index];  
 
 [VB.NET]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 
-'通过传入其sheet index
-eet的引用
+'通过传入工作表的索引来获取新添加的工作表的引用
 Dim worksheet As Worksheet = workbook.Worksheets(0)
 
-'在单元格Y30
+'在单元格 Y30 处添加分页符
 Dim Index As Integer = worksheet.HorizontalPageBreaks.Add("Y30")
 
-'获取新添加的横向分页break
+'获取新添加的水平分页符
 Dim hPageBreak As HorizontalPageBreak = worksheet.HorizontalPageBreaks(Index)
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Aspose.Cells for .NET API 参考
-description: 返回代表指定 TickLabels 对象字体的Fontaspose.cells.charts/ticklabels/font对象
+description: 返回一个Fontaspose.cells.charts/ticklabels/font表示指定 TickLabels 对象的字体的对象
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.charts/ticklabels/font/
 ---
 ## TickLabels.Font property
 
-返回代表指定 TickLabels 对象字体的`Font`对象。
+返回一个`Font`表示指定 TickLabels 对象的字体的对象。
 
 ```csharp
 public Font Font { get; }

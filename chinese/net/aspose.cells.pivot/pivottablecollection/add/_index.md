@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 将新的数据透视表缓存添加到 PivotCaches 集合
+description: 将新的数据透视表缓存添加到 PivotCaches 集合中
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.pivot/pivottablecollection/add/
 ---
 ## Add(string, string, string) {#add_4}
 
-将新的数据透视表缓存添加到 PivotCaches 集合。
+将新的数据透视表缓存添加到 PivotCaches 集合中。
 
 ```csharp
 public int Add(string sourceData, string destCellName, string tableName)
@@ -34,7 +34,7 @@ public int Add(string sourceData, string destCellName, string tableName)
 
 ## Add(string, string, string, bool) {#add_5}
 
-将新的数据透视表缓存添加到 PivotCaches 集合。
+将新的数据透视表缓存添加到 PivotCaches 集合中。
 
 ```csharp
 public int Add(string sourceData, string destCellName, string tableName, bool useSameSource)
@@ -45,7 +45,7 @@ public int Add(string sourceData, string destCellName, string tableName, bool us
 | sourceData | String | 新数据透视表缓存的数据。 |
 | destCellName | String | 数据透视表目标区域左上角的单元格。 |
 | tableName | String | 新数据透视表的名称。 |
-| useSameSource | Boolean | 指示当另一个现有数据透视表已使用该数据源时是否使用相同数据源。 如果该属性为真，则会节省内存。 |
+| useSameSource | Boolean | 指示当另一个现有数据透视表已使用此数据源时是否使用相同的数据源。 如果该属性为 true，它将节省内存。 |
 
 ### 返回值
 
@@ -61,7 +61,7 @@ public int Add(string sourceData, string destCellName, string tableName, bool us
 
 ## Add(string, int, int, string) {#add_2}
 
-将新的数据透视表缓存添加到 PivotCaches 集合。
+将新的数据透视表缓存添加到 PivotCaches 集合中。
 
 ```csharp
 public int Add(string sourceData, int row, int column, string tableName)
@@ -69,7 +69,7 @@ public int Add(string sourceData, int row, int column, string tableName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sourceData | String | 新数据透视表的数据单元格范围。示例:Sheet1!A1:C8 |
+| sourceData | String | 新 PivotTable.Example 的数据单元格范围：Sheet1!A1:C8 |
 | row | Int32 | 数据透视表目标区域左上角单元格的行索引。 |
 | column | Int32 | 数据透视表目标区域左上角单元格的列索引。 |
 | tableName | String | 新数据透视表的名称。 |
@@ -88,7 +88,7 @@ public int Add(string sourceData, int row, int column, string tableName)
 
 ## Add(string, int, int, string, bool) {#add_3}
 
-将新的数据透视表缓存添加到 PivotCaches 集合。
+将新的数据透视表缓存添加到 PivotCaches 集合中。
 
 ```csharp
 public int Add(string sourceData, int row, int column, string tableName, bool useSameSource)
@@ -96,11 +96,11 @@ public int Add(string sourceData, int row, int column, string tableName, bool us
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sourceData | String | 新数据透视表的数据单元格范围。示例:Sheet1!A1:C8 |
+| sourceData | String | 新 PivotTable.Example 的数据单元格范围：Sheet1!A1:C8 |
 | row | Int32 | 数据透视表目标区域左上角单元格的行索引。 |
 | column | Int32 | 数据透视表目标区域左上角单元格的列索引。 |
 | tableName | String | 新数据透视表的名称。 |
-| useSameSource | Boolean | 指示当另一个现有数据透视表已使用该数据源时是否使用相同数据源。 如果该属性为真，则会节省内存。 |
+| useSameSource | Boolean | 指示当另一个现有数据透视表已使用此数据源时是否使用相同的数据源。 如果该属性为 true，它将节省内存。 |
 
 ### 返回值
 
@@ -181,8 +181,8 @@ public int Add(string[] sourceData, bool isAutoPage, PivotPageFields pageFields,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sourceData | String[] | 多个合并范围，例如 {"Sheet1!A1:C8","Sheet2!A1:B8"} |
-| isAutoPage | Boolean | 是否自动创建单页字段。 如果为真，则以下参数 pageFields 将被忽略。 |
-| pageFields | PivotPageFields | 透视页面字段项。 |
+| isAutoPage | Boolean | 是否自动创建单页字段。 如果为true，以下参数pageFields将被忽略。 |
+| pageFields | PivotPageFields | 数据透视页面字段 items. |
 | destCellName | String | destCellName 新数据透视表的名称。 |
 | tableName | String | 新数据透视表的名称。 |
 
@@ -211,8 +211,8 @@ public int Add(string[] sourceData, bool isAutoPage, PivotPageFields pageFields,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sourceData | String[] | 多个合并范围，例如 {"Sheet1!A1:C8","Sheet2!A1:B8"} |
-| isAutoPage | Boolean | 是否自动创建单页字段。 如果为真，以下参数 pageFields 将被忽略 |
-| pageFields | PivotPageFields | 透视页面字段项。 |
+| isAutoPage | Boolean | 是否自动创建单页字段。 如果为true，以下参数pageFields将被忽略 |
+| pageFields | PivotPageFields | 数据透视页面字段 items. |
 | row | Int32 | 数据透视表目标区域左上角单元格的行索引。 |
 | column | Int32 | 数据透视表目标区域左上角单元格的列索引。 |
 | tableName | String | 新数据透视表的名称。 |

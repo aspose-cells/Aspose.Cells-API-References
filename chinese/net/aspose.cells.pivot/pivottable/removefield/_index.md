@@ -1,14 +1,14 @@
 ---
 title: RemoveField
 second_title: Aspose.Cells for .NET API 参考
-description: 从特定字段区域删除字段
+description: 从特定字段 area 中删除字段
 type: docs
 weight: 920
 url: /zh/net/aspose.cells.pivot/pivottable/removefield/
 ---
 ## RemoveField(PivotFieldType, string) {#removefield_2}
 
-从特定字段区域删除字段
+从特定字段 area 中删除字段
 
 ```csharp
 public void RemoveField(PivotFieldType fieldType, string fieldName)
@@ -30,7 +30,7 @@ public void RemoveField(PivotFieldType fieldType, string fieldName)
 
 ## RemoveField(PivotFieldType, int) {#removefield_1}
 
-从特定字段区域删除字段
+从特定字段 area 中删除字段
 
 ```csharp
 public void RemoveField(PivotFieldType fieldType, int baseFieldIndex)
@@ -60,7 +60,7 @@ public void RemoveField(PivotFieldType fieldType, PivotField pivotField)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldType | PivotFieldType | 字段区域类型.它可以是以下 值之一:&lt;table border="1"&gt;&lt;tr&gt;&lt;td&gt;PivotFieldType.Row&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PivotFieldType。列&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PivotFieldType.Data&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PivotFieldType.Page&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; |
+| fieldType | PivotFieldType | 字段区域类型。 |
 | pivotField | PivotField | 基础字段中的字段。 |
 
 ### 也可以看看

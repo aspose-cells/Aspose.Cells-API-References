@@ -24,7 +24,7 @@ public GridCellArea()
 
 ## GridCellArea(int, int, int, int) {#constructor_1}
 
-Создать область ячейки.
+Создать область ячеек.
 
 ```csharp
 public GridCellArea(int startRow, int startColumn, int endRow, int endColumn)
@@ -32,9 +32,9 @@ public GridCellArea(int startRow, int startColumn, int endRow, int endColumn)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startRow | Int32 | Начальная строка. |
-| startColumn | Int32 | Начальный столбец. |
-| endRow | Int32 | Конечная строка. |
+| startRow | Int32 | Стартовый ряд. |
+| startColumn | Int32 | Стартовая колонка. |
+| endRow | Int32 | Конечный ряд. |
 | endColumn | Int32 | Конечный столбец. |
 
 ### Смотрите также

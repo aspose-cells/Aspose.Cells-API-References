@@ -1,14 +1,14 @@
 ---
 title: GetHyperlink
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объект гиперссылки ячейки. Если в ячейке нет гиперссылки возвращает ноль.
+description: Получает объект гиперссылки ячейки. Если в ячейке нет гиперссылки возвращает null.
 type: docs
 weight: 50
 url: /ru/net/aspose.cells.gridweb.data/gridhyperlinkcollection/gethyperlink/
 ---
 ## GetHyperlink(GridCell) {#gethyperlink}
 
-Получает объект гиперссылки ячейки. Если в ячейке нет гиперссылки, возвращает ноль.
+Получает объект гиперссылки ячейки. Если в ячейке нет гиперссылки, возвращает null.
 
 ```csharp
 public GridHyperlink GetHyperlink(GridCell cell)
@@ -20,7 +20,7 @@ public GridHyperlink GetHyperlink(GridCell cell)
 
 ### Возвращаемое значение
 
-[`GridHyperlink`](../../gridhyperlink)объект GridHyperlink.
+[`GridHyperlink`](../../gridhyperlink) объект GridHyperlink.
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public GridHyperlink GetHyperlink(GridCell cell)
 
 ## GetHyperlink(int, int) {#gethyperlink_1}
 
-Получает объект гиперссылки ячейки. Если в ячейке нет гиперссылки, возвращает ноль.
+Получает объект гиперссылки ячейки. Если в ячейке нет гиперссылки, возвращает null.
 
 ```csharp
 public GridHyperlink GetHyperlink(int row, int column)
@@ -42,12 +42,12 @@ public GridHyperlink GetHyperlink(int row, int column)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| row | Int32 | Строка ячейки. |
+| row | Int32 | Ряд клетки. |
 | column | Int32 | Столбец ячейки. |
 
 ### Возвращаемое значение
 
-[`GridHyperlink`](../../gridhyperlink)объект GridHyperlink.
+[`GridHyperlink`](../../gridhyperlink) объект GridHyperlink.
 
 ### Смотрите также
 

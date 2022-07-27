@@ -1,14 +1,14 @@
 ---
 title: TableStyleElement
 second_title: Aspose.Cells for .NET API 参考
-description: 表示表格样式的元素
+description: 代表表格样式的元素
 type: docs
 weight: 5870
 url: /zh/net/aspose.cells.tables/tablestyleelement/
 ---
 ## TableStyleElement class
 
-表示表格样式的元素。
+代表表格样式的元素。
 
 ```csharp
 public class TableStyleElement

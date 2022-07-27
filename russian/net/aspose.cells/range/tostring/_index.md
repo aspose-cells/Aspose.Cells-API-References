@@ -3,7 +3,7 @@ title: ToString
 second_title: Справочник по Aspose.Cells для .NET API
 description: Возвращает строку представляющую текущий объект Range.
 type: docs
-weight: 370
+weight: 410
 url: /ru/net/aspose.cells/range/tostring/
 ---
 ## Range.ToString method

@@ -16,13 +16,13 @@ public void SetSeriesNames(int startIndex, string area, bool isVertical)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startIndex | Int32 | 要设置名称的第一个系列的索引。 |
+| startIndex | Int32 | 您要设置名称的第一个系列的索引。 |
 | area | String | 指定系列名称的区域。 |
-| isVertical | Boolean | &gt;指定是按行还是按列绘制一系列单元格值。 |
+| isVertical | Boolean | &gt; 指定是按行还是按列从一系列单元格值中绘制系列。 |
 
 ### 评论
 
-&lt;br&gt;如果起始索引大于系列的计数，它将返回并且不执行任何操作。&lt;/br&gt;&lt;br&gt;如果将数据设置为连续的单元格，用冒号分隔。例如，$C$2:$C$5。&lt;/br&gt;&lt;br&gt;如果在连续的单元格上设置数据，用逗号分隔。例如，($C$2,$D $5)。&lt;/br&gt;
+如果起始索引大于系列的计数，它将返回并且什么也不做。如果在连续单元格上设置数据，请使用冒号分隔它们。例如，$C$2:$C$5。如果在连续单元格上设置数据，请使用逗号分隔它们。例如，($C$2,$D$5)。
 
 ### 也可以看看
 

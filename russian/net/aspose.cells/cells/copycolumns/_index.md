@@ -20,8 +20,8 @@ public void CopyColumns(Cells sourceCells0, int sourceColumnIndex, int destinati
 | sourceCells0 | Cells | Объект исходных ячеек содержит данные и форматы для копирования. |
 | sourceColumnIndex | Int32 | Индекс исходного столбца. |
 | destinationColumnIndex | Int32 | Индекс столбца назначения. |
-| columnNumber | Int32 | Номер скопированного столбца. |
-| pasteOptions | PasteOptions | варианты вставки. |
+| columnNumber | Int32 | Скопированный номер столбца. |
+| pasteOptions | PasteOptions | варианты оклейки. |
 
 ### Смотрите также
 
@@ -46,7 +46,7 @@ public void CopyColumns(Cells sourceCells0, int sourceColumnIndex, int destinati
 | sourceCells0 | Cells | Объект исходных ячеек содержит данные и форматы для копирования. |
 | sourceColumnIndex | Int32 | Индекс исходного столбца. |
 | destinationColumnIndex | Int32 | Индекс столбца назначения. |
-| columnNumber | Int32 | Номер скопированного столбца. |
+| columnNumber | Int32 | Скопированный номер столбца. |
 
 ### Смотрите также
 
@@ -67,7 +67,7 @@ public void CopyColumns(Cells sourceCells, int sourceColumnIndex, int sourceTota
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sourceCells | Cells | Объект Source Cells содержит данные и форматы для копирования. |
+| sourceCells | Cells | Объект исходных ячеек содержит данные и форматы для копирования. |
 | sourceColumnIndex | Int32 | Индекс исходного столбца. |
 | sourceTotalColumns | Int32 | Количество исходных столбцов. |
 | destinationColumnIndex | Int32 | Индекс столбца назначения. |

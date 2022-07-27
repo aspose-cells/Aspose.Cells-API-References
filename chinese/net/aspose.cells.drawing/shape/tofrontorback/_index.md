@@ -16,7 +16,7 @@ public void ToFrontOrBack(int orders)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| orders | Int32 | 如果小于零，则将形状设置为后退。 如果大于零，则将形状放在前面。 |
+| orders | Int32 | 如果小于零，则将形状置于后部。 如果大于零，则将形状置于前部。 |
 
 ### 例子
 
@@ -24,7 +24,7 @@ public void ToFrontOrBack(int orders)
 
 [C#]
 shape.ToFrontOrBack(2);
- //或shape.ToFrontOrBack(-1);
+//或shape.ToFrontOrBack(-1);
 ```
 
 ### 也可以看看

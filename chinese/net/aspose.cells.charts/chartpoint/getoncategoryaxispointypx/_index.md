@@ -16,7 +16,7 @@ public float GetOnCategoryAxisPointYPx(int index)
 
 ### 评论
 
-区域 2D 图表:索引为 0。 区域 3D 图表:索引是 0 或 1。
+区域 2D 图表：索引为 0. 区域 3D 图表：索引为 0 或 1.
 
 ### 也可以看看
 

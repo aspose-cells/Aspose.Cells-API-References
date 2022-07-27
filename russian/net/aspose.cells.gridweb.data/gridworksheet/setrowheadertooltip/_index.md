@@ -1,14 +1,14 @@
 ---
 title: SetRowHeaderToolTip
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает текст всплывающей подсказки заголовка строки.
+description: Задает текст всплывающей подсказки заголовка строки.
 type: docs
 weight: 800
 url: /ru/net/aspose.cells.gridweb.data/gridworksheet/setrowheadertooltip/
 ---
 ## GridWorksheet.SetRowHeaderToolTip method
 
-Устанавливает текст всплывающей подсказки заголовка строки.
+Задает текст всплывающей подсказки заголовка строки.
 
 ```csharp
 public void SetRowHeaderToolTip(int rowIndex, string toolTip)

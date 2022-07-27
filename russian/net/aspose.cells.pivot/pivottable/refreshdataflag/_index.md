@@ -1,14 +1,14 @@
 ---
 title: RefreshDataFlag
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает следует ли обновлять данные или нет.
+description: Указывает нужно ли обновлять данные или нет.
 type: docs
 weight: 490
 url: /ru/net/aspose.cells.pivot/pivottable/refreshdataflag/
 ---
 ## PivotTable.RefreshDataFlag property
 
-Указывает, следует ли обновлять данные или нет.
+Указывает, нужно ли обновлять данные или нет.
 
 ```csharp
 public bool RefreshDataFlag { get; set; }

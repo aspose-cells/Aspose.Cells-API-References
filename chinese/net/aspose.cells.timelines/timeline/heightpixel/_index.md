@@ -1,14 +1,14 @@
 ---
 title: HeightPixel
 second_title: Aspose.Cells for .NET API 参考
-description: 返回或设置指定时间线的高度以像素为单位
+description: 返回或设置指定时间轴的高度以像素为单位
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.timelines/timeline/heightpixel/
 ---
 ## Timeline.HeightPixel property
 
-返回或设置指定时间线的高度，以像素为单位。
+返回或设置指定时间轴的高度，以像素为单位。
 
 ```csharp
 public int HeightPixel { get; set; }

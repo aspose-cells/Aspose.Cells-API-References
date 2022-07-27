@@ -1,14 +1,14 @@
 ---
 title: Overlap
 second_title: Aspose.Cells for .NET API 参考
-description: 指定条和列的定位方式 可以是介于  100 和 100 之间的值 仅适用于二维条形图和二维柱形图
+description: 指定条形图和柱形图的定位方式 可以是介于  100 和 100 之间的值 仅适用于二维条形图和二维柱形图
 type: docs
 weight: 310
 url: /zh/net/aspose.cells.charts/series/overlap/
 ---
 ## Series.Overlap property
 
-指定条和列的定位方式。 可以是介于 – 100 和 100 之间的值。 仅适用于二维条形图和二维柱形图。
+指定条形图和柱形图的定位方式。 可以是介于 – 100 和 100 之间的值。 仅适用于二维条形图和二维柱形图。
 
 ```csharp
 public short Overlap { get; set; }

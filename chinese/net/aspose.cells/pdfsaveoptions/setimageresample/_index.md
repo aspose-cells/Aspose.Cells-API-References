@@ -1,14 +1,14 @@
 ---
 title: SetImageResample
 second_title: Aspose.Cells for .NET API 参考
-description: 设置重新采样图像和 jpeg 质量的所需 PPI每英寸像素 所有图像都将转换为具有指定质量设置的 JPEG 并且大于指定 PPI每英寸像素数的图像将被重新采样
+description: 设置重采样图像和 jpeg 质量的所需 PPI每英寸像素数 所有图像都将转换为具有指定质量设置的 JPEG 并且大于指定 PPI每英寸像素的图像将被重新采样
 type: docs
 weight: 320
 url: /zh/net/aspose.cells/pdfsaveoptions/setimageresample/
 ---
 ## PdfSaveOptions.SetImageResample method
 
-设置重新采样图像和 jpeg 质量的所需 PPI（每英寸像素）。 所有图像都将转换为具有指定质量设置的 JPEG， 并且大于指定 PPI（每英寸像素数）的图像将被重新采样。
+设置重采样图像和 jpeg 质量的所需 PPI（每英寸像素数）。 所有图像都将转换为具有指定质量设置的 JPEG， 并且大于指定 PPI（每英寸像素）的图像将被重新采样。
 
 ```csharp
 public void SetImageResample(int desiredPPI, int jpegQuality)
@@ -16,7 +16,7 @@ public void SetImageResample(int desiredPPI, int jpegQuality)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| desiredPPI | Int32 | 所需的每英寸像素。 220高品质。 150的屏幕质量。 96 邮件质量。 |
+| desiredPPI | Int32 | 每英寸所需的像素。 220高品质。 150的屏幕质量。 96 邮件质量。 |
 | jpegQuality | Int32 | 0 - 100% JPEG 质量。 |
 
 ### 例子
@@ -25,14 +25,14 @@ public void SetImageResample(int desiredPPI, int jpegQuality)
 
 ```csharp
 //加载带有图像的源文件。
-orkbook wb = new Workbook("Book1.xlsx");
+Workbook wb = new Workbook("Book1.xlsx");
 
-dfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
-//将所需的 PPI 设置为 96，将 jpeg 质量设置为 80.
-dfSaveOptions.SetImageResample(96, 80);
+//将所需的 PPI 设置为 96，将 jpeg 质量设置为 80。
+pdfSaveOptions.SetImageResample(96, 80);
 
-b.Save("output.pdf", pdfSaveOptions);
+wb.Save("output.pdf", pdfSaveOptions);
 ```
 
 ### 也可以看看

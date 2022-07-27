@@ -37,7 +37,7 @@ public void Remove(string cellName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cellName | String | имя ячейки (в формате имени excel, например 'A1', 'F22') |
+| cellName | String | имя ячейки (в формате имени Excel, например «A1», «F22») |
 
 ### Смотрите также
 

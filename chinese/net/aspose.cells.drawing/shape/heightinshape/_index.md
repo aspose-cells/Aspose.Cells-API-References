@@ -1,14 +1,14 @@
 ---
 title: HeightInShape
 second_title: Aspose.Cells for .NET API 参考
-description: 表示形状与父形状上边框的垂直偏移量单位为父形状高度的1/4000..
+description: 表示 shape 与父 shape 上边框的垂直偏移量单位为父 shape 高度的 1/4000..
 type: docs
 weight: 190
 url: /zh/net/aspose.cells.drawing/shape/heightinshape/
 ---
 ## Shape.HeightInShape property
 
-表示形状与父形状上边框的垂直偏移量，单位为父形状高度的1/4000..
+表示 shape 与父 shape 上边框的垂直偏移量，单位为父 shape 高度的 1/4000..
 
 ```csharp
 public int HeightInShape { get; set; }

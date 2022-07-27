@@ -1,14 +1,14 @@
 ---
 title: TableStyles
 second_title: Aspose.Cells for .NET API 参考
-description: 获取TableStylesaspose.cells/worksheetcollection/tablestyles对象
+description: 获取TableStylesaspose.cells/worksheetcollection/tablestyles对象.
 type: docs
 weight: 120
 url: /zh/net/aspose.cells/worksheetcollection/tablestyles/
 ---
 ## WorksheetCollection.TableStyles property
 
-获取`TableStyles`对象。
+获取`TableStyles`对象.
 
 ```csharp
 public TableStyleCollection TableStyles { get; }

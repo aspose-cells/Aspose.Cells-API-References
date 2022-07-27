@@ -1,14 +1,14 @@
 ---
 title: Cells
 second_title: Aspose.Cells for .NET API 参考
-description: 获取Cellsaspose.cells/worksheet/cells集合
+description: 获取Cellsaspose.cells/worksheet/cells集合.
 type: docs
 weight: 50
 url: /zh/net/aspose.cells/worksheet/cells/
 ---
 ## Worksheet.Cells property
 
-获取`Cells`集合。
+获取`Cells`集合.
 
 ```csharp
 public Cells Cells { get; }

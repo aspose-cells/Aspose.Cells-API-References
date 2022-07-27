@@ -1,14 +1,14 @@
 ---
 title: LegendEntryCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет коллекцию всех объектовLegendEntry./legendentryв указанной легенде диаграммы.
+description: Представляет собой набор всехLegendEntry./legendentry объекты в указанной легенде диаграммы.
 type: docs
 weight: 710
 url: /ru/net/aspose.cells.charts/legendentrycollection/
 ---
 ## LegendEntryCollection class
 
-Представляет коллекцию всех объектов[`LegendEntry`](../legendentry)в указанной легенде диаграммы.
+Представляет собой набор всех[`LegendEntry`](../legendentry) объекты в указанной легенде диаграммы.
 
 ```csharp
 public class LegendEntryCollection : CollectionBase<LegendEntry>
@@ -20,7 +20,7 @@ public class LegendEntryCollection : CollectionBase<LegendEntry>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.charts/legendentrycollection/item) { get; } | Получает элемент[`LegendEntry`](../legendentry)по указанному индексу. |
+| [Item](../../aspose.cells.charts/legendentrycollection/item) { get; } | Получает[`LegendEntry`](../legendentry) элемент по указанному индексу. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы

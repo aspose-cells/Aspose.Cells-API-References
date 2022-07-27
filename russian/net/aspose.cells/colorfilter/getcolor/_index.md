@@ -14,7 +14,7 @@ public Color GetColor(WorksheetCollection sheets)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| листы | WorksheetCollection |  |
+| sheets | WorksheetCollection |  |
 
 ### Смотрите также
 

@@ -19,10 +19,10 @@ public string Name { get; set; }
 ```csharp
 [C#]
 
- //引用名称到一个cell
+//引用单元格的名称
 chart.NSeries[0].Name = "=A1";
 
- //设置一个字符串为name
+//设置一个字符串来命名
 chart.NSeries[0].Name = "First Series";
 [Visual Basic]
 

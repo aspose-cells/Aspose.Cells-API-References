@@ -1,14 +1,14 @@
 ---
 title: MsoDrawingType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает тип рисования mso.
+description: Получает и задает тип рисования mso.
 type: docs
 weight: 90
 url: /ru/net/aspose.cells.griddesktop/shape/msodrawingtype/
 ---
 ## Shape.MsoDrawingType property
 
-Получает и устанавливает тип рисования mso.
+Получает и задает тип рисования mso.
 
 ```csharp
 public GridMsoDrawingType MsoDrawingType { get; }

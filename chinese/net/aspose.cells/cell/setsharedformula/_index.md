@@ -1,14 +1,14 @@
 ---
 title: SetSharedFormula
 second_title: Aspose.Cells for .NET API 参考
-description: 将公式设置为单元格区域
+description: 为单元格区域设置公式
 type: docs
 weight: 620
 url: /zh/net/aspose.cells/cell/setsharedformula/
 ---
 ## SetSharedFormula(string, int, int, FormulaParseOptions) {#setsharedformula_1}
 
-将公式设置为单元格区域。
+为单元格区域设置公式。
 
 ```csharp
 public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumber, 
@@ -33,7 +33,7 @@ public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumb
 
 ## SetSharedFormula(string, int, int, FormulaParseOptions, object[][]) {#setsharedformula_2}
 
-将公式设置为单元格区域。
+为单元格区域设置公式。
 
 ```csharp
 public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumber, 
@@ -46,7 +46,7 @@ public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumb
 | rowNumber | Int32 | 填充公式的行数。 |
 | columnNumber | Int32 | 填充公式的列数。 |
 | options | FormulaParseOptions | 用于解析公式的选项。 |
-| values | Object[][] | 具有给定共享公式的单元格的值 |
+| values | Object[][] | 具有给定共享公式的那些单元格的值 |
 
 ### 也可以看看
 
@@ -59,7 +59,7 @@ public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumb
 
 ## SetSharedFormula(string, int, int) {#setsharedformula}
 
-将公式设置为单元格区域。
+为单元格区域设置公式。
 
 ```csharp
 public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumber)

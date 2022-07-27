@@ -1,34 +1,14 @@
 ---
 title: ExportDataTable
 second_title: Справочник по Aspose.Cells для .NET API
-description: Экспортирует данные из этого диапазона в объектDataTable.
+description: Экспортирует данные из этого диапазона вDataTable объект.
 type: docs
-weight: 230
+weight: 270
 url: /ru/net/aspose.cells/range/exportdatatable/
 ---
-## ExportDataTable() {#exportdatatable}
-
-Экспортирует данные из этого диапазона в объектDataTable.
-
-```csharp
-public DataTable ExportDataTable()
-```
-
-### Возвращаемое значение
-
-Экспортированный объектDataTable.
-
-### Смотрите также
-
-* class [Range](../../range)
-* пространство имен [Aspose.Cells](../../range)
-* сборка [Aspose.Cells](../../../)
-
----
-
 ## ExportDataTable(ExportTableOptions) {#exportdatatable_1}
 
-Экспортирует данные из этого диапазона в объектDataTable.
+Экспортирует данные из этого диапазона вDataTable объект.
 
 ```csharp
 public DataTable ExportDataTable(ExportTableOptions options)
@@ -36,15 +16,35 @@ public DataTable ExportDataTable(ExportTableOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | ExportTableOptions | Опции экспорта диапазона в datatable. |
+| options | ExportTableOptions | Варианты экспорта диапазона в datatable. |
 
 ### Возвращаемое значение
 
-ЭкспортируетсяDataTableобъект.
+ЭкспортированоDataTable объект.
 
 ### Смотрите также
 
 * class [ExportTableOptions](../../exporttableoptions)
+* class [Range](../../range)
+* пространство имен [Aspose.Cells](../../range)
+* сборка [Aspose.Cells](../../../)
+
+---
+
+## ExportDataTable() {#exportdatatable}
+
+Экспортирует данные из этого диапазона вDataTable объект.
+
+```csharp
+public DataTable ExportDataTable()
+```
+
+### Возвращаемое значение
+
+ЭкспортированоDataTable объект.
+
+### Смотрите также
+
 * class [Range](../../range)
 * пространство имен [Aspose.Cells](../../range)
 * сборка [Aspose.Cells](../../../)

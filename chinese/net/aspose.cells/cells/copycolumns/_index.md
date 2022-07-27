@@ -17,7 +17,7 @@ public void CopyColumns(Cells sourceCells0, int sourceColumnIndex, int destinati
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sourceCells0 | Cells | 源单元格对象包含要复制的数据和格式。 |
+| sourceCells0 | Cells | Source Cells 对象包含要复制的数据和格式。 |
 | sourceColumnIndex | Int32 | 源列索引。 |
 | destinationColumnIndex | Int32 | 目标列索引。 |
 | columnNumber | Int32 | 复制的列号。 |
@@ -43,7 +43,7 @@ public void CopyColumns(Cells sourceCells0, int sourceColumnIndex, int destinati
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sourceCells0 | Cells | 源单元格对象包含要复制的数据和格式。 |
+| sourceCells0 | Cells | Source Cells 对象包含要复制的数据和格式。 |
 | sourceColumnIndex | Int32 | 源列索引。 |
 | destinationColumnIndex | Int32 | 目标列索引。 |
 | columnNumber | Int32 | 复制的列号。 |
@@ -58,7 +58,7 @@ public void CopyColumns(Cells sourceCells0, int sourceColumnIndex, int destinati
 
 ## CopyColumns(Cells, int, int, int, int) {#copycolumns_2}
 
-复制整列的数据和格式。
+复制整个列的数据和格式。
 
 ```csharp
 public void CopyColumns(Cells sourceCells, int sourceColumnIndex, int sourceTotalColumns, 

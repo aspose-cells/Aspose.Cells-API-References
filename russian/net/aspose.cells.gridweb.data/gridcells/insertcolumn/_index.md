@@ -17,7 +17,7 @@ public void InsertColumn(int columnIndex, bool updateReference)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | columnIndex | Int32 | Индекс столбца. |
-| updateReference | Boolean | Указывает, будут ли обновляться ссылки в других рабочих листах. |
+| updateReference | Boolean | Указывает, будут ли обновлены ссылки на других рабочих листах. |
 
 ### Смотрите также
 

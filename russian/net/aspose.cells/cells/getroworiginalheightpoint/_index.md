@@ -3,7 +3,7 @@ title: GetRowOriginalHeightPoint
 second_title: Справочник по Aspose.Cells для .NET API
 description: Получает высоту исходной строки в пунктах если строка скрыта
 type: docs
-weight: 820
+weight: 830
 url: /ru/net/aspose.cells/cells/getroworiginalheightpoint/
 ---
 ## Cells.GetRowOriginalHeightPoint method

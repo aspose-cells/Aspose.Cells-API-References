@@ -1,14 +1,14 @@
 ---
 title: AttachedFilesDirectory
 second_title: Справочник по Aspose.Cells для .NET API
-description: Каталог в который будут сохранены вложенные файлы. Только для сохранения в html поток.
+description: Каталог в который будут сохраняться вложенные файлы. Только для сохранения в поток html.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.gridweb.data/gridhtmlsaveoptions/attachedfilesdirectory/
 ---
 ## GridHtmlSaveOptions.AttachedFilesDirectory property
 
-Каталог, в который будут сохранены вложенные файлы. Только для сохранения в html поток.
+Каталог, в который будут сохраняться вложенные файлы. Только для сохранения в поток html.
 
 ```csharp
 public string AttachedFilesDirectory { get; set; }

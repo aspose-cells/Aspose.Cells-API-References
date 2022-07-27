@@ -21,7 +21,7 @@ public class Scenario
 | [Comment](../../aspose.cells/scenario/comment) { get; set; } | 获取和设置场景的注释。 |
 | [InputCells](../../aspose.cells/scenario/inputcells) { get; } | 获取场景的输入单元格。 |
 | [IsHidden](../../aspose.cells/scenario/ishidden) { get; set; } | 表示场景是否隐藏。 |
-| [IsLocked](../../aspose.cells/scenario/islocked) { get; set; } | 指示当工作表受到保护时是否锁定场景以进行编辑。 |
+| [IsLocked](../../aspose.cells/scenario/islocked) { get; set; } | 指示当工作表受保护时是否锁定场景以进行编辑。 |
 | [Name](../../aspose.cells/scenario/name) { get; set; } | 获取和设置场景名称。 |
 | [User](../../aspose.cells/scenario/user) { get; } | 获取上次更改场景的用户名。 |
 

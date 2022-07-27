@@ -1,14 +1,14 @@
 ---
 title: GridPictureCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует коллекцию объектовPicture.
+description: Инкапсулирует наборPicture объекты.
 type: docs
 weight: 340
 url: /ru/net/aspose.cells.gridweb.data/gridpicturecollection/
 ---
 ## GridPictureCollection class
 
-Инкапсулирует коллекцию объектовPicture.
+Инкапсулирует наборPicture объекты.
 
 ```csharp
 public class GridPictureCollection
@@ -19,7 +19,7 @@ public class GridPictureCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.cells.gridweb.data/gridpicturecollection/count) { get; } |  |
-| [Item](../../aspose.cells.gridweb.data/gridpicturecollection/item) { get; } | Получает элементPictureпо указанному индексу. |
+| [Item](../../aspose.cells.gridweb.data/gridpicturecollection/item) { get; } | ПолучаетPicture элемент по указанному индексу. |
 
 ## Методы
 

@@ -1,14 +1,14 @@
 ---
 title: ICustomFilter
 second_title: Справочник по Aspose.Cells для .NET API
-description: Краткое описание ICustomFilter.
+description: Краткое описание для ICustomFilter.
 type: docs
 weight: 600
 url: /ru/net/aspose.cells.gridweb.data/icustomfilter/
 ---
 ## ICustomFilter interface
 
-Краткое описание ICustomFilter.
+Краткое описание для ICustomFilter.
 
 ```csharp
 public interface ICustomFilter

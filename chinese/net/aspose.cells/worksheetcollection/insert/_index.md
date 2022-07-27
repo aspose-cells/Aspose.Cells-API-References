@@ -16,8 +16,8 @@ public Worksheet Insert(int index, SheetType sheetType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 图纸索引 |
-| sheetType | SheetType | 图纸类型。 |
+| index | Int32 | 工作表索引 |
+| sheetType | SheetType | 工作表类型。 |
 
 ### 返回值
 
@@ -43,8 +43,8 @@ public Worksheet Insert(int index, SheetType sheetType, string sheetName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 图纸索引 |
-| sheetType | SheetType | 图纸类型。 |
+| index | Int32 | 工作表索引 |
+| sheetType | SheetType | 工作表类型。 |
 | sheetName | String | 工作表名称。 |
 
 ### 返回值

@@ -1,14 +1,14 @@
 ---
 title: PowerQueryFormulaItem
 second_title: Aspose.Cells for .NET API 参考
-description: 表示幂查询公式的项
+description: 代表幂查询公式的项
 type: docs
 weight: 4990
 url: /zh/net/aspose.cells.querytables/powerqueryformulaitem/
 ---
 ## PowerQueryFormulaItem class
 
-表示幂查询公式的项。
+代表幂查询公式的项。
 
 ```csharp
 public class PowerQueryFormulaItem

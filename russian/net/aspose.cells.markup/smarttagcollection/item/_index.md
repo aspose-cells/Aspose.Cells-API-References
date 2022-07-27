@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектSmartTagaspose.cells.markup/smarttagпо указанному индексу
+description: ПолучаетSmartTagaspose.cells.markup/smarttag объект по определенному index
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.markup/smarttagcollection/item/
 ---
 ## SmartTagCollection indexer
 
-Получает объект[`SmartTag`](../../smarttag)по указанному индексу
+Получает[`SmartTag`](../../smarttag) объект по определенному index
 
 ```csharp
 public SmartTag this[int index] { get; }
@@ -20,7 +20,7 @@ public SmartTag this[int index] { get; }
 
 ### Возвращаемое значение
 
-возвращает объект[`SmartTag`](../../smarttag).
+возвращает[`SmartTag`](../../smarttag) объект.
 
 ### Смотрите также
 

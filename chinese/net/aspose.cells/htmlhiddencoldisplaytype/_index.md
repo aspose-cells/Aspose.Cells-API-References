@@ -1,14 +1,14 @@
 ---
 title: HtmlHiddenColDisplayType
 second_title: Aspose.Cells for .NET API 参考
-description: 表示在html中显示隐藏列的两种方式
+description: 代表在html中显示隐藏列的两种类型
 type: docs
 weight: 3700
 url: /zh/net/aspose.cells/htmlhiddencoldisplaytype/
 ---
 ## HtmlHiddenColDisplayType enumeration
 
-表示在html中显示隐藏列的两种方式。
+代表在html中显示隐藏列的两种类型。
 
 ```csharp
 public enum HtmlHiddenColDisplayType
@@ -19,7 +19,7 @@ public enum HtmlHiddenColDisplayType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Hidden | `0` | 隐藏 html 页面中的隐藏列。 |
-| Remove | `1` | 删除 html 页面中的隐藏列。 |
+| Remove | `1` | 移除 html 页面中的隐藏列。 |
 
 ### 也可以看看
 

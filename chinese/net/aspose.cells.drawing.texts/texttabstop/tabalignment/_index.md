@@ -1,14 +1,14 @@
 ---
 title: TabAlignment
 second_title: Aspose.Cells for .NET API 参考
-description: 使用此制表位指定要应用于文本的对齐方式
+description: 指定要使用此制表位应用于文本的对齐方式
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.drawing.texts/texttabstop/tabalignment/
 ---
 ## TextTabStop.TabAlignment property
 
-使用此制表位指定要应用于文本的对齐方式。
+指定要使用此制表位应用于文本的对齐方式。
 
 ```csharp
 public TextTabAlignmentType TabAlignment { get; set; }

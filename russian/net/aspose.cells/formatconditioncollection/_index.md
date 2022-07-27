@@ -26,12 +26,12 @@ public class FormatConditionCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells/formatconditioncollection/add)(CellArea, FormatConditionType, OperatorType, string, string) | Добавляет условие форматирования и диапазон ячеек к FormatConditions FormatConditions может содержать до трех условных форматов. Ссылки на другие листы в формулах условного форматирования не допускаются. |
+| [Add](../../aspose.cells/formatconditioncollection/add)(CellArea, FormatConditionType, OperatorType, string, string) | Добавляет условие форматирования и диапазон ячеек в FormatConditions FormatConditions может содержать до трех условных форматов. В формулах условного форматирования не допускаются ссылки на другие листы. |
 | [AddArea](../../aspose.cells/formatconditioncollection/addarea)(CellArea) | Добавляет диапазон ячеек с условным форматированием. |
 | [AddCondition](../../aspose.cells/formatconditioncollection/addcondition#addcondition)(FormatConditionType) | Добавить условие формата. |
 | [AddCondition](../../aspose.cells/formatconditioncollection/addcondition#addcondition_1)(FormatConditionType, OperatorType, string, string) | Добавляет условие форматирования. |
 | [GetCellArea](../../aspose.cells/formatconditioncollection/getcellarea)(int) | Получает диапазон ячеек с условным форматированием по индексу. |
-| [RemoveArea](../../aspose.cells/formatconditioncollection/removearea#removearea_1)(int) | Удаляет диапазон ячеек с условным форматированием по индексу. |
+| [RemoveArea](../../aspose.cells/formatconditioncollection/removearea#removearea_1)(int) | Удаляет диапазон ячеек условного форматирования по индексу. |
 | [RemoveArea](../../aspose.cells/formatconditioncollection/removearea#removearea)(int, int, int, int) | Удалить условное форматирование в диапазоне. |
 | [RemoveCondition](../../aspose.cells/formatconditioncollection/removecondition)(int) | Удаляет условие форматирования по индексу. |
 
@@ -41,16 +41,16 @@ public class FormatConditionCollection
 
 [C#]
 
-  //Создать новую книгу.
+//Создать новую книгу.
 Workbook workbook = new Workbook();
 
-  //Получить первый рабочий лист.
+//Получить первый рабочий лист.
 Worksheet sheet = workbook.Worksheets[0];
 
-  //Добавляет пустое условное форматирование
+//Добавляет пустое условное форматирование
 int index = sheet.ConditionalFormattings.Add();
 FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
-  //Устанавливает диапазон условного формата.
+//Устанавливает диапазон условного формата.
 CellArea ca = new CellArea();
 ca.StartRow = 0;
 ca.EndRow = 0;
@@ -63,22 +63,22 @@ ca.EndRow = 1;
 ca.StartColumn = 1;
 ca.EndColumn = 1;
 fcs.AddArea(ca);
-   //Добавляет условие.
+//Добавляет условие.
 int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100");
-   //Добавляет условие.
+//Добавляет условие.
 int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
-  //Устанавливает цвет фона.
+//Устанавливаем цвет фона.
 FormatCondition fc = fcs[conditionIndex];
 fc.Style.BackgroundColor = Color.Red;
-  //Сохранение файла Excel
+//Сохранение файла Excel
 workbook.Save("output.xls");   
 
 [Visual Basic]
 
-'Создать новую книгу.
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
 Dim sheet As Worksheet = workbook.Worksheets(0)
-' Получить первый рабочий лист.
+' Добавляет пустое условное форматирование
 Dim index As Integer = sheet.ConditionalFormattings.Add()
 Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
 'Задает диапазон условного формата.

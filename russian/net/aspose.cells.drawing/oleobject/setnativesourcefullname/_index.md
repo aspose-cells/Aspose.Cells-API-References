@@ -1,14 +1,14 @@
 ---
 title: SetNativeSourceFullName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает полное имя исходного файла с путем.
+description: Устанавливает полное имя исходного файла ole с путем.
 type: docs
 weight: 170
 url: /ru/net/aspose.cells.drawing/oleobject/setnativesourcefullname/
 ---
 ## OleObject.SetNativeSourceFullName method
 
-Устанавливает полное имя исходного файла с путем.
+Устанавливает полное имя исходного файла ole с путем.
 
 ```csharp
 public void SetNativeSourceFullName(string sourceFullName)

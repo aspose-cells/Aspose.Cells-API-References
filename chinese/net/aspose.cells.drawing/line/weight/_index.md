@@ -1,14 +1,14 @@
 ---
 title: Weight
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置线条的WeightTypeaspose.cells.drawing/weighttype
+description: 获取或设置WeightTypeaspose.cells.drawing/weighttype行的.
 type: docs
 weight: 200
 url: /zh/net/aspose.cells.drawing/line/weight/
 ---
 ## Line.Weight property
 
-获取或设置线条的[`WeightType`](../../weighttype)。
+获取或设置[`WeightType`](../../weighttype)行的.
 
 ```csharp
 public WeightType Weight { get; set; }

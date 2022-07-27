@@ -1,14 +1,14 @@
 ---
 title: Walls
 second_title: Справочник по Aspose.Cells для .NET API
-description: Возвращает объектWallsaspose.cells.charts/chart/walls представляющий стены трехмерной диаграммы.
+description: ВозвращаетWallsaspose.cells.charts/chart/walls объект представляющий стены трехмерной диаграммы.
 type: docs
 weight: 470
 url: /ru/net/aspose.cells.charts/chart/walls/
 ---
 ## Chart.Walls property
 
-Возвращает объект`Walls`, представляющий стены трехмерной диаграммы.
+Возвращает`Walls` объект, представляющий стены трехмерной диаграммы.
 
 ```csharp
 public Walls Walls { get; }

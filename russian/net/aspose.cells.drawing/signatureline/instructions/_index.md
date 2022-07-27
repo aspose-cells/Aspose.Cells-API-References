@@ -19,7 +19,7 @@ public string Instructions { get; set; }
 ```csharp
 
 [C#]
-  // Создаем строку подписи object
+// Создаем объект строки подписи
 SignatureLine s6 = new SignatureLine();
 s6.Instructions = "Just do it.";
 ```

@@ -23,9 +23,9 @@ public class PivotFilter
 | [FieldIndex](../../aspose.cells.pivot/pivotfilter/fieldindex) { get; } | Получает индекс поля сводного фильтра. |
 | [FilterType](../../aspose.cells.pivot/pivotfilter/filtertype) { get; } | Получает тип автофильтра сводного фильтра. |
 | [MeasureFldIndex](../../aspose.cells.pivot/pivotfilter/measurefldindex) { get; set; } | Получает индекс поля измерения сводного фильтра. |
-| [MemberPropertyFieldIndex](../../aspose.cells.pivot/pivotfilter/memberpropertyfieldindex) { get; set; } | Получает индекс поля свойств элемента сводного фильтра. |
+| [MemberPropertyFieldIndex](../../aspose.cells.pivot/pivotfilter/memberpropertyfieldindex) { get; set; } | Получает индекс поля свойства элемента сводного фильтра. |
 | [Name](../../aspose.cells.pivot/pivotfilter/name) { get; set; } | Получает имя сводного фильтра. |
-| [Value1](../../aspose.cells.pivot/pivotfilter/value1) { get; set; } | Получает строку value1 сводного фильтра метки. |
+| [Value1](../../aspose.cells.pivot/pivotfilter/value1) { get; set; } | Получает строковое значение1 сводного фильтра метки. |
 | [Value2](../../aspose.cells.pivot/pivotfilter/value2) { get; set; } | Получает строковое значение2 сводного фильтра метки. |
 
 ### Примеры
@@ -77,7 +77,7 @@ pivot.AddFieldToArea(PivotFieldType.Data, "amount");
 
 pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
 
-  //Добавить PivotFilter
+//Добавить сводной фильтр
 int index = pivot.PivotFilters.Add(0, PivotFilterType.Count);
 PivotFilter filter = pivot.PivotFilters[index];
 filter.AutoFilter.FilterTop10(0, false, false, 2);
@@ -85,7 +85,7 @@ filter.AutoFilter.FilterTop10(0, false, false, 2);
 pivot.RefreshData();
 pivot.CalculateData();
 
-  //делай свое дело
+//делай свое дело
 
 book.Save("out.xlsx");
 
@@ -134,7 +134,7 @@ Pivot.AddFieldToArea(PivotFieldType.Data, "amount")
 
 pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10
 
-'Добавлять PivotFilter
+'Добавить сводной фильтр
 Dim filterIndex As Int32 = pivot.PivotFilters.Add(0, PivotFilterType.Count)
 Dim filter As PivotFilter = pivot.PivotFilters(filterIndex)
 filter.AutoFilter.FilterTop10(0, False, False, 2)

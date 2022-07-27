@@ -1,14 +1,14 @@
 ---
 title: GridNameCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 封装Name对象的集合
+description: 封装了一个集合Name对象.
 type: docs
 weight: 540
 url: /zh/net/aspose.cells.griddesktop.data/gridnamecollection/
 ---
 ## GridNameCollection class
 
-封装Name对象的集合。
+封装了一个集合Name对象.
 
 ```csharp
 public class GridNameCollection
@@ -19,17 +19,17 @@ public class GridNameCollection
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.cells.griddesktop.data/gridnamecollection/count) { get; } |  |
-| [Item](../../aspose.cells.griddesktop.data/gridnamecollection/item) { get; } | 获取指定索引处的Name元素。 |
+| [Item](../../aspose.cells.griddesktop.data/gridnamecollection/item) { get; } | 获取Name指定索引处的元素。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../aspose.cells.griddesktop.data/gridnamecollection/add#add_1)(string, string) | 定义一个新的全局名称。 |
-| [Add](../../aspose.cells.griddesktop.data/gridnamecollection/add#add)(int, string, string) | 在指定工作表中定义一个新名称。 |
+| [Add](../../aspose.cells.griddesktop.data/gridnamecollection/add#add)(int, string, string) | 在指定的工作表中定义一个新名称。 |
 | [Clear](../../aspose.cells.griddesktop.data/gridnamecollection/clear)() | 删除所有名称； |
-| [GetEnumerator](../../aspose.cells.griddesktop.data/gridnamecollection/getenumerator)() | 获取行枚举器 |
-| [Remove](../../aspose.cells.griddesktop.data/gridnamecollection/remove)(string[]) | 删除名称数组 |
+| [GetEnumerator](../../aspose.cells.griddesktop.data/gridnamecollection/getenumerator)() | 获取行 enumerator |
+| [Remove](../../aspose.cells.griddesktop.data/gridnamecollection/remove)(string[]) | 移除名称数组 |
 | [RemoveAt](../../aspose.cells.griddesktop.data/gridnamecollection/removeat)(int) | 删除特定索引处的名称。 |
 
 ### 也可以看看

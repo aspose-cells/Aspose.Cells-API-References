@@ -3,7 +3,7 @@ title: IsBlankColumn
 second_title: Aspose.Cells for .NET API 参考
 description: 检查给定列是否为空白不包含任何数据
 type: docs
-weight: 1120
+weight: 1130
 url: /zh/net/aspose.cells/cells/isblankcolumn/
 ---
 ## Cells.IsBlankColumn method
@@ -20,7 +20,7 @@ public bool IsBlankColumn(int columnIndex)
 
 ### 返回值
 
-如果给定列没有，则为 true包含任何数据
+如果给定列不包含任何数据，则为 true
 
 ### 也可以看看
 

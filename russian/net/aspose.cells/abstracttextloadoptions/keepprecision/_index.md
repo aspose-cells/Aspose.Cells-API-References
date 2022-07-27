@@ -1,14 +1,14 @@
 ---
 title: KeepPrecision
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает не анализируется ли строковое значение если длина равна 15.
+description: Указывает не анализировать ли строковое значение если длина равна 15.
 type: docs
 weight: 40
 url: /ru/net/aspose.cells/abstracttextloadoptions/keepprecision/
 ---
 ## AbstractTextLoadOptions.KeepPrecision property
 
-Указывает, не анализируется ли строковое значение, если длина равна 15.
+Указывает, не анализировать ли строковое значение, если длина равна 15.
 
 ```csharp
 public bool KeepPrecision { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: SvgSaveOptions
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет параметры сохранения Svg
+description: Представляет параметры сохранения SVG
 type: docs
 weight: 5790
 url: /ru/net/aspose.cells/svgsaveoptions/
 ---
 ## SvgSaveOptions class
 
-Представляет параметры сохранения Svg
+Представляет параметры сохранения SVG
 
 ```csharp
 public class SvgSaveOptions : ImageSaveOptions
@@ -30,15 +30,15 @@ public class SvgSaveOptions : ImageSaveOptions
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | Если true и каталог не существует, каталог будет автоматически создан перед сохранением файла. |
 | [ImageOrPrintOptions](../../aspose.cells/imagesaveoptions/imageorprintoptions) { get; } | Дополнительные параметры создания образа |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Указывает, объединяются ли области условного форматирования и проверки перед сохранением файла. |
-| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Указывает, обновляются ли данные кэша диаграммы |
+| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Указывает, нужно ли обновлять кэш диаграммы data |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Получает формат файла сохранения. |
 | [SheetIndex](../../aspose.cells/svgsaveoptions/sheetindex) { get; set; } | Получает и задает, какой рабочий лист следует экспортировать. Если значение равно -1, активный рабочий лист будет экспортирован. |
 | [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | Указывает, выполняется ли сортировка внешних определенных имен перед сохранением файла. |
 | [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | Указывает, выполняется ли сортировка определенных имен перед сохранением файла. |
 | [StreamProvider](../../aspose.cells/imagesaveoptions/streamprovider) { get; set; } | Получает или задает IStreamProvider для экспорта объектов. |
-| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Указывает, обновляются ли настройки смарт-арта. Значение по умолчанию — false. |
+| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Указывает, обновляются ли настройки Smart Art. Значение по умолчанию — false. |
 | [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas) { get; set; } | Указывает, следует ли проверять объединенные ячейки перед сохранением файла. |
-| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Получает или устанавливает обратный вызов предупреждения. |
+| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Получает или задает обратный вызов предупреждения. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: TableRange2
 second_title: Aspose.Cells for .NET API 参考
-description: 返回一个 CellArea 对象该对象表示包含整个数据透视表的范围 包括页面字段只读
+description: 返回一个 CellArea 对象表示包含整个数据透视表的范围 包括页面字段只读
 type: docs
 weight: 720
 url: /zh/net/aspose.cells.pivot/pivottable/tablerange2/
 ---
 ## PivotTable.TableRange2 property
 
-返回一个 CellArea 对象，该对象表示包含整个数据透视表的范围， 包括页面字段。只读。
+返回一个 CellArea 对象，表示包含整个数据透视表的范围， 包括页面字段。只读。
 
 ```csharp
 public CellArea TableRange2 { get; }

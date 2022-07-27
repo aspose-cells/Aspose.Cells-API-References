@@ -8,7 +8,7 @@ url: /zh/net/aspose.cells.charts/chartpoint/gettoppointypx/
 ---
 ## ChartPoint.GetTopPointYPx method
 
-调用 Chart.Calculate() 方法后获取形状顶点的 y 坐标。 应用 3D 图表:Column3D、Bar3D、Cone、Cylinder、Pyramid 和 Area3D
+调用 Chart.Calculate() 方法后获取形状顶点的 y 坐标。 应用 3D 图表：Column3D、Bar3D、Cone、Cylinder、Pyramid 和 Area3D
 
 ```csharp
 public float GetTopPointYPx(int index)

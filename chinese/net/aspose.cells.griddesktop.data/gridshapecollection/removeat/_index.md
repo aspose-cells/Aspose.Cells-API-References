@@ -1,14 +1,14 @@
 ---
 title: RemoveAt
 second_title: Aspose.Cells for .NET API 参考
-description: 删除形状
+description: 移除形状
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.griddesktop.data/gridshapecollection/removeat/
 ---
 ## GridShapeCollection.RemoveAt method
 
-删除形状。
+移除形状。
 
 ```csharp
 public void RemoveAt(int index)

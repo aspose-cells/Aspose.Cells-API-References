@@ -1,14 +1,14 @@
 ---
 title: GroupByTypes
 second_title: Aspose.Cells for .NET API 参考
-description: 表示组范围的组类型 rangeofvalue 秒 分 小时 日 月 季 年
+description: 表示组范围的组类型 rangeofvalue 秒分时天月季度年
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.pivot/sxrng/groupbytypes/
 ---
 ## SxRng.GroupByTypes property
 
-表示组范围的组类型。 rangeofvalue 秒 分 小时 日 月 季 年
+表示组范围的组类型。 rangeofvalue 秒分时天月季度年
 
 ```csharp
 public bool[] GroupByTypes { get; }

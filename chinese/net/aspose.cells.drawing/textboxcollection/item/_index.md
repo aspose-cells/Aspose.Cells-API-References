@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 获取指定索引处的TextBoxaspose.cells.drawing/textbox元素
+description: 获取TextBoxaspose.cells.drawing/textbox指定索引处的元素
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.drawing/textboxcollection/item/
 ---
 ## TextBoxCollection indexer (1 of 2)
 
-获取指定索引处的[`TextBox`](../../textbox)元素。
+获取[`TextBox`](../../textbox)指定索引处的元素。
 
 ```csharp
 public TextBox this[int index] { get; }
@@ -42,7 +42,7 @@ TextBox txb = textBoxCollection[index];
 
 ## TextBoxCollection indexer (2 of 2)
 
-通过名称获取[`TextBox`](../../textbox)元素。
+获取[`TextBox`](../../textbox)元素名称.
 
 ```csharp
 public TextBox this[string name] { get; }
@@ -61,7 +61,7 @@ string txtboxName = "textbox 1";
 TextBox txb2 = textBoxCollection[txtboxName];
 if(txb2 != null)
 {
-     //做你想做的
+    //做你想做的
 }
 ```
 

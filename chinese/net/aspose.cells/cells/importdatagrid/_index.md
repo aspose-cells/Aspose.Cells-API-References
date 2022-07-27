@@ -1,14 +1,14 @@
 ---
 title: ImportDataGrid
 second_title: Aspose.Cells for .NET API 参考
-description: 将DataGrid导入工作表
+description: 导入一个DataGrid进入工作表.
 type: docs
-weight: 980
+weight: 990
 url: /zh/net/aspose.cells/cells/importdatagrid/
 ---
 ## ImportDataGrid(DataGrid, int, int, bool) {#importdatagrid}
 
-将DataGrid导入工作表。
+导入一个DataGrid进入工作表.
 
 ```csharp
 public int ImportDataGrid(DataGrid dataGrid, int firstRow, int firstColumn, bool insertRows)
@@ -16,9 +16,9 @@ public int ImportDataGrid(DataGrid dataGrid, int firstRow, int firstColumn, bool
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dataGrid | DataGrid | DataGrid要导入的对象。 |
+| dataGrid | DataGrid | 这DataGrid要导入的对象。 |
 | firstRow | Int32 | 要导入的第一个单元格的行号。 |
-| firstColumn | Int32 | 列号要导入的第一个单元格。 |
+| firstColumn | Int32 | 要导入的第一个单元格的列号。 |
 | insertRows | Boolean | 指示是否添加额外的行以适应数据。 |
 
 ### 返回值
@@ -35,7 +35,7 @@ public int ImportDataGrid(DataGrid dataGrid, int firstRow, int firstColumn, bool
 
 ## ImportDataGrid(DataGrid, int, int, int, int, bool) {#importdatagrid_1}
 
-将DataGrid导入工作表。
+导入一个DataGrid进入工作表.
 
 ```csharp
 public int ImportDataGrid(DataGrid dataGrid, int firstRow, int firstColumn, int totalRows, 
@@ -44,9 +44,9 @@ public int ImportDataGrid(DataGrid dataGrid, int firstRow, int firstColumn, int 
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dataGrid | DataGrid | DataGrid要导入的对象。 |
+| dataGrid | DataGrid | 这DataGrid要导入的对象。 |
 | firstRow | Int32 | 要导入的第一个单元格的行号。 |
-| firstColumn | Int32 | 列号要导入的第一个单元格。 |
+| firstColumn | Int32 | 要导入的第一个单元格的列号。 |
 | totalRows | Int32 | 要导入的行数。 |
 | totalColumns | Int32 | 要导入的列数。 |
 | insertRows | Boolean | 指示是否添加额外的行以适应数据。 |
@@ -65,7 +65,7 @@ public int ImportDataGrid(DataGrid dataGrid, int firstRow, int firstColumn, int 
 
 ## ImportDataGrid(DataGrid, int, int, int, int, bool, bool) {#importdatagrid_2}
 
-将DataGrid导入工作表。
+导入一个DataGrid进入工作表.
 
 ```csharp
 public int ImportDataGrid(DataGrid dataGrid, int firstRow, int firstColumn, int totalRows, 
@@ -74,13 +74,13 @@ public int ImportDataGrid(DataGrid dataGrid, int firstRow, int firstColumn, int 
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dataGrid | DataGrid | DataGrid要导入的对象。 |
+| dataGrid | DataGrid | 这DataGrid要导入的对象。 |
 | firstRow | Int32 | 要导入的第一个单元格的行号。 |
-| firstColumn | Int32 | 列号要导入的第一个单元格。 |
+| firstColumn | Int32 | 要导入的第一个单元格的列号。 |
 | totalRows | Int32 | 要导入的行数。 |
 | totalColumns | Int32 | 要导入的列数。 |
 | insertRows | Boolean | 指示是否添加额外的行以适应数据。 |
-| importStyle | Boolean | 表示是否导入单元格样式。 |
+| importStyle | Boolean | 指示是否导入单元格样式。 |
 
 ### 返回值
 

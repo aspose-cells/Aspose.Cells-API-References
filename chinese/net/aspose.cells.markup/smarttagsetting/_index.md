@@ -1,14 +1,14 @@
 ---
 title: SmartTagSetting
 second_title: Aspose.Cells for .NET API 参考
-description: 表示工作表中的所有SmartTagCollection./smarttagcollection对象
+description: 代表所有SmartTagCollection./smarttagcollection工作表中的对象
 type: docs
 weight: 4110
 url: /zh/net/aspose.cells.markup/smarttagsetting/
 ---
 ## SmartTagSetting class
 
-表示工作表中的所有[`SmartTagCollection`](../smarttagcollection)对象。
+代表所有[`SmartTagCollection`](../smarttagcollection)工作表中的对象。
 
 ```csharp
 public class SmartTagSetting : CollectionBase
@@ -18,14 +18,14 @@ public class SmartTagSetting : CollectionBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Item](../../aspose.cells.markup/smarttagsetting/item) { get; } | 通过索引获取[`SmartTagCollection`](../smarttagcollection)对象。 (3 indexers) |
+| [Item](../../aspose.cells.markup/smarttagsetting/item) { get; } | 得到一个[`SmartTagCollection`](../smarttagcollection)索引的对象. (3 indexers) |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells.markup/smarttagsetting/add#add_1)(string) | 添加单元格智能标签。 |
-| [Add](../../aspose.cells.markup/smarttagsetting/add#add)(int, int) | 将[`SmartTagCollection`](../smarttagcollection)对象添加到单元格。 |
+| [Add](../../aspose.cells.markup/smarttagsetting/add#add_1)(string) | 添加一个单元格智能标签。 |
+| [Add](../../aspose.cells.markup/smarttagsetting/add#add)(int, int) | 添加一个[`SmartTagCollection`](../smarttagcollection)对象到一个单元格. |
 
 ### 也可以看看
 

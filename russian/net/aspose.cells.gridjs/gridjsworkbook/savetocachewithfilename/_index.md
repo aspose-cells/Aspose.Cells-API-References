@@ -1,14 +1,14 @@
 ---
 title: SaveToCacheWithFileName
 second_title: Справочник по Aspose.Cells для .NET API
-description: Сохраняет рабочие листы в кэш формат сохранения основан на расширении имени файла.
+description: Сохраняет рабочие листы в кэш формат сохранения основан на расширении имени файла .
 type: docs
 weight: 130
 url: /ru/net/aspose.cells.gridjs/gridjsworkbook/savetocachewithfilename/
 ---
 ## GridJsWorkbook.SaveToCacheWithFileName method
 
-Сохраняет рабочие листы в кэш, формат сохранения основан на расширении имени файла.
+Сохраняет рабочие листы в кэш, формат сохранения основан на расширении имени файла .
 
 ```csharp
 public void SaveToCacheWithFileName(string uid, string filename, string password)
@@ -18,7 +18,7 @@ public void SaveToCacheWithFileName(string uid, string filename, string password
 | --- | --- | --- |
 | uid | String | Уникальный идентификатор. |
 | filename | String | Имя файла для записи. |
-| пароль | String | Пароль для открытия файла Excel. Значение может быть нулевым. Если пароль не установлен |
+| password | String | Пароль на открытие файла excel. Значение может быть нулевым, если пароль не установлен |
 
 ### Смотрите также
 

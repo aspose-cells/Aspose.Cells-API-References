@@ -1,14 +1,14 @@
 ---
 title: Key1
 second_title: Aspose.Cells for .NET API 参考
-description: 表示第一个排好序的列索引绝对位置A列为0B为1...
+description: 表示第一个排好序的列索引绝对位置A 列为 0B 为 1...
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/datasorter/key1/
 ---
 ## DataSorter.Key1 property
 
-表示第一个排好序的列索引（绝对位置，A列为0，B为1，...）。
+表示第一个排好序的列索引（绝对位置，A 列为 0，B 为 1，...）。
 
 ```csharp
 public int Key1 { get; set; }

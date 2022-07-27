@@ -1,14 +1,14 @@
 ---
 title: VerticalPageBreaks
 second_title: Aspose.Cells for .NET API 参考
-description: 获取VerticalPageBreakCollectionaspose.cells/verticalpagebreakcollection集合
+description: 获取VerticalPageBreakCollectionaspose.cells/verticalpagebreakcollection集合.
 type: docs
 weight: 550
 url: /zh/net/aspose.cells/worksheet/verticalpagebreaks/
 ---
 ## Worksheet.VerticalPageBreaks property
 
-获取[`VerticalPageBreakCollection`](../../verticalpagebreakcollection)集合。
+获取[`VerticalPageBreakCollection`](../../verticalpagebreakcollection)集合.
 
 ```csharp
 public VerticalPageBreakCollection VerticalPageBreaks { get; }

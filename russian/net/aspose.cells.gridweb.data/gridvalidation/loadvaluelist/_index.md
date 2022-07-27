@@ -1,14 +1,14 @@
 ---
 title: LoadValueList
 second_title: Справочник по Aspose.Cells для .NET API
-description: Загружает список значений из объекта DataView. Вы можете указать поле значения и текстовое поле DataView. Каждая пара значения и текста будет объединена в одну строку с запятой между ними.
+description: Загружает список значений из объекта DataView. Вы можете указать поле значения и текстовое поле DataView. Каждое значение и текстовая пара будут объединены в одну строку с запятой между ними.
 type: docs
 weight: 220
 url: /ru/net/aspose.cells.gridweb.data/gridvalidation/loadvaluelist/
 ---
 ## GridValidation.LoadValueList method
 
-Загружает список значений из объекта DataView. Вы можете указать поле значения и текстовое поле DataView. Каждая пара значения и текста будет объединена в одну строку с запятой между ними.
+Загружает список значений из объекта DataView. Вы можете указать поле значения и текстовое поле DataView. Каждое значение и текстовая пара будут объединены в одну строку с запятой между ними.
 
 ```csharp
 public void LoadValueList(DataView view, string valueField, string textField, bool valuePrefixText)

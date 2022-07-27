@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Cells for .NET API 参考
-description: 获取单元格枚举器
+description: 获取单元格 enumerator
 type: docs
 weight: 180
 url: /zh/net/aspose.cells/row/getenumerator/
 ---
 ## Row.GetEnumerator method
 
-获取单元格枚举器
+获取单元格 enumerator
 
 ```csharp
 public IEnumerator GetEnumerator()

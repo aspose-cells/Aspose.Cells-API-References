@@ -18,21 +18,21 @@ public enum SlicerStyleType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| SlicerStyleLight1 | `0` | встроенный стиль 1 |
-| SlicerStyleLight2 | `1` | встроенный стиль два |
-| SlicerStyleLight3 | `2` | встроенный стиль три |
-| SlicerStyleLight4 | `3` | встроенный стиль четыре |
-| SlicerStyleLight5 | `4` | встроенный стиль пять |
-| SlicerStyleLight6 | `5` | встроенный стиль шесть |
-| SlicerStyleOther1 | `6` | встроенный стиль другой |
+| SlicerStyleLight1 | `0` | встроенный световой стиль one |
+| SlicerStyleLight2 | `1` | встроенный светлый стиль two |
+| SlicerStyleLight3 | `2` | встроенный светлый стиль three |
+| SlicerStyleLight4 | `3` | встроенный световой стиль четыре |
+| SlicerStyleLight5 | `4` | встроенный световой стиль Five |
+| SlicerStyleLight6 | `5` | встроенный световой стиль six |
+| SlicerStyleOther1 | `6` | встроенный стиль другой one |
 | SlicerStyleOther2 | `7` | встроенный стиль два других |
-| SlicerStyleDark1 | `8` | встроенный темный стиль один |
+| SlicerStyleDark1 | `8` | встроенный темный стиль one |
 | SlicerStyleDark2 | `9` | встроенный фаркоп в темном стиле |
-| SlicerStyleDark3 | `10` | встроенный темный стиль три |
-| SlicerStyleDark4 | `11` | встроенный темный стиль четыре |
-| SlicerStyleDark5 | `12` | встроенный темный стиль пять |
-| SlicerStyleDark6 | `13` | встроенный тёмный стиль шесть |
-| Custom | `14` | определяемый пользователем стиль, пока не поддерживается |
+| SlicerStyleDark3 | `10` | встроенный темный стиль three |
+| SlicerStyleDark4 | `11` | встроенный темный стиль four |
+| SlicerStyleDark5 | `12` | встроенный темный стиль Five |
+| SlicerStyleDark6 | `13` | встроенный темный стиль six |
+| Custom | `14` | пользовательский стиль, пока не поддерживается |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: IMEMode
 second_title: Aspose.Cells for .NET API 参考
-description: 获取并设置控件接收焦点时输入法编辑器的默认运行时模式
+description: 获取并设置控件在接收焦点时的输入法编辑器的默认运行时模式
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.drawing.activexcontrols/activexcontrol/imemode/
 ---
 ## ActiveXControl.IMEMode property
 
-获取并设置控件接收焦点时输入法编辑器的默认运行时模式。
+获取并设置控件在接收焦点时的输入法编辑器的默认运行时模式。
 
 ```csharp
 public InputMethodEditorMode IMEMode { get; set; }

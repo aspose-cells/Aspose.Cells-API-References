@@ -1,14 +1,14 @@
 ---
 title: Alignments
 second_title: Справочник по Aspose.Cells для .NET API
-description: Будет применена настройка выравнивания.
+description: Настройка выравнивания будет применена.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells/styleflag/alignments/
 ---
 ## StyleFlag.Alignments property
 
-Будет применена настройка выравнивания.
+Настройка выравнивания будет применена.
 
 ```csharp
 public bool Alignments { get; set; }

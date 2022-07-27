@@ -16,7 +16,7 @@ public void RemoveAt(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 从零开始行索引 |
+| index | Int32 | 从零开始的行索引 |
 
 ### 也可以看看
 

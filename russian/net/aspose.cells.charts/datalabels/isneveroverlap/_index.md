@@ -1,14 +1,14 @@
 ---
 title: IsNeverOverlap
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указывает не перекрываются ли отображаемые метки данных. Для круговой диаграммы
+description: Указывает никогда не перекрываются отображаемые метки данных. Для круговой диаграммы
 type: docs
 weight: 70
 url: /ru/net/aspose.cells.charts/datalabels/isneveroverlap/
 ---
 ## DataLabels.IsNeverOverlap property
 
-Указывает, не перекрываются ли отображаемые метки данных. (Для круговой диаграммы)
+Указывает, никогда не перекрываются отображаемые метки данных. (Для круговой диаграммы)
 
 ```csharp
 public bool IsNeverOverlap { get; set; }

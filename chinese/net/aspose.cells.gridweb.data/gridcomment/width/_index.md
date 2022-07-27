@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Cells for .NET API 参考
-description: 表示评论的宽度以像素为单位
+description: 表示注释的宽度以像素为单位
 type: docs
 weight: 110
 url: /zh/net/aspose.cells.gridweb.data/gridcomment/width/
 ---
 ## GridComment.Width property
 
-表示评论的宽度，以像素为单位。
+表示注释的宽度，以像素为单位。
 
 ```csharp
 public int Width { get; set; }

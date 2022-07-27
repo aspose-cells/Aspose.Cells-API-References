@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает объектFontaspose.cells.charts/displayunitlabel/fontуказанного объекта ChartFrame.
+description: ПолучаетFontaspose.cells.charts/displayunitlabel/font объект указанного объекта ChartFrame.
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.charts/displayunitlabel/font/
 ---
 ## DisplayUnitLabel.Font property
 
-Получает объект`Font`указанного объекта ChartFrame.
+Получает`Font` объект указанного объекта ChartFrame.
 
 ```csharp
 public override Font Font { get; }

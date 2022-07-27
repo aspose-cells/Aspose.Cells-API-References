@@ -1,14 +1,14 @@
 ---
 title: TextAutonumberScheme
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет всю автоматическую схему нумерации.
+description: Представляет всю схему автоматической нумерации.
 type: docs
 weight: 2950
 url: /ru/net/aspose.cells.drawing.texts/textautonumberscheme/
 ---
 ## TextAutonumberScheme enumeration
 
-Представляет всю автоматическую схему нумерации.
+Представляет всю схему автоматической нумерации.
 
 ```csharp
 public enum TextAutonumberScheme
@@ -19,46 +19,46 @@ public enum TextAutonumberScheme
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | None | `0` |  |
-| AlphaLcParenBoth | `1` | (a), (b), (c), … |
+| AlphaLcParenBoth | `1` | (а), (б), (в), … |
 | AlphaLcParenR | `2` | а), б), в), … |
 | AlphaLcPeriod | `3` | а., б., в., … |
-| AlphaUcParenBoth | `4` | (A), (B), (C), … |
-| AlphaUcParenR | `5` | А), В), В), … |
+| AlphaUcParenBoth | `4` | (А), (Б), (С), … |
+| AlphaUcParenR | `5` | А), Б), В), … |
 | AlphaUcPeriod | `6` | А., Б., В., … |
-| Arabic1Minus | `7` | Биди арабский 1 (AraAlpha) с символом минус ANSI |
-| Arabic2Minus | `8` | Биди арабский 2 (AraAbjad) с символом минус ANSI |
-| ArabicDbPeriod | `9` | Двухбайтные арабские числа с двухбайтовой точкой |
+| Arabic1Minus | `7` | Биди арабский 1 (AraAlpha) с символом ANSI минус |
+| Arabic2Minus | `8` | Биди арабский 2 (AraAbjad) с ANSI минус symbol |
+| ArabicDbPeriod | `9` | Двухбайтовые арабские числа с двухбайтовой точкой |
 | ArabicDbPlain | `10` | Dbl-байтовые арабские числа |
 | ArabicParenBoth | `11` | (1), (2), (3), … |
 | ArabicParenR | `12` | 1), 2), 3), … |
 | ArabicPeriod | `13` | 1., 2., 3., … |
 | ArabicPlain | `14` | 1, 2, 3, … |
-| CircleNumDbPlain | `15` | Цифры Dbl-байтового круга (1-10 круг[0x2460-], 11-арабские числа) |
-| CircleNumWdBlackPlain | `16` | Числа черного круга Wingdings |
+| CircleNumDbPlain | `15` | Dbl-байтовые числа круга (1-10 круг[0x2460-], 11-арабские числа) |
+| CircleNumWdBlackPlain | `16` | Номера черного круга Wingdings |
 | CircleNumWdWhitePlain | `17` | Цифры белого круга Wingdings (0-10 круг[0x0080-],11- арабские числа) |
-| Ea1ChsPeriod | `18` | EA:упрощенный китайский с однобайтовой точкой |
-| Ea1ChsPlain | `19` | EA:Упрощенный китайский (TypeA 1-99, TypeC 100-) |
-| Ea1ChtPeriod | `20` | EA:традиционный китайский с однобайтовой точкой |
-| Ea1ChtPlain | `21` | EA:традиционный китайский (TypeA 1-19, TypeC 20-) |
-| Ea1JpnChsDbPeriod | `22` | EA:японский с двухбайтовой точкой |
-| Ea1JpnKorPeriod | `23` | EA:японский/корейский с однобайтовой точкой |
-| Ea1JpnKorPlain | `24` | EA:японский/корейский (TypeC 1-) |
-| Hebrew2Minus | `25` | Биди иврит 2 с символом минус ANSI |
-| HindiAlpha1Period | `26` | Период алфавита хинди - согласные |
-| HindiAlphaPeriod | `27` | Период алфавита хинди - гласные |
-| HindiNumParenR | `28` | Числовые скобки на хинди - справа |
-| HindiNumPeriod | `29` | Числовой период хинди |
+| Ea1ChsPeriod | `18` | EA: упрощенный китайский с однобайтовой точкой |
+| Ea1ChsPlain | `19` | EA: Упрощенный китайский (TypeA 1-99, TypeC 100-) |
+| Ea1ChtPeriod | `20` | EA: традиционный китайский с однобайтовой точкой |
+| Ea1ChtPlain | `21` | EA: традиционный китайский (TypeA 1-19, TypeC 20-) |
+| Ea1JpnChsDbPeriod | `22` | EA: японский язык с двухбайтовой точкой |
+| Ea1JpnKorPeriod | `23` | EA: японский/корейский с однобайтовой точкой |
+| Ea1JpnKorPlain | `24` | Советник: японский/корейский (TypeC 1-) |
+| Hebrew2Minus | `25` | Биди иврит 2 с символом ANSI минус |
+| HindiAlpha1Period | `26` | период алфавита хинди - согласные |
+| HindiAlphaPeriod | `27` | период алфавита хинди - гласные |
+| HindiNumParenR | `28` | Числовые скобки на хинди - right |
+| HindiNumPeriod | `29` | Цифровая точка на хинди |
 | RomanLcParenBoth | `30` | (i), (ii), (iii), … |
 | RomanLcParenR | `31` | i), ii), iii), … |
 | RomanLcPeriod | `32` | i., ii., iii., … |
 | RomanUcParenBoth | `33` | (I), (II), (III), … |
 | RomanUcParenR | `34` | I), II), III), … |
 | RomanUcPeriod | `35` | I., II., III., … |
-| ThaiAlphaParenBoth | `36` | Скобки тайского алфавита - обе |
-| ThaiAlphaParenR | `37` | Скобки тайского алфавита - справа |
-| ThaiAlphaPeriod | `38` | период тайского алфавита |
-| ThaiNumParenBoth | `39` | Тайские числовые скобки - обе |
-| ThaiNumParenR | `40` | Тайские числовые скобки - справа |
+| ThaiAlphaParenBoth | `36` | Скобки тайского алфавита - Both |
+| ThaiAlphaParenR | `37` | Скобки тайского алфавита - right |
+| ThaiAlphaPeriod | `38` | тайский алфавит период |
+| ThaiNumParenBoth | `39` | Тайские числовые скобки - Both |
+| ThaiNumParenR | `40` | Тайские числовые скобки - right |
 | ThaiNumPeriod | `41` | Тайский числовой период |
 
 ### Смотрите также

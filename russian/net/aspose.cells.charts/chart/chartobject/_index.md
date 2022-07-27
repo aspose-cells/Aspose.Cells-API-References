@@ -1,14 +1,14 @@
 ---
 title: ChartObject
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет chartShape
+description: Представляет диаграмму Shape
 type: docs
 weight: 60
 url: /ru/net/aspose.cells.charts/chart/chartobject/
 ---
 ## Chart.ChartObject property
 
-Представляет chartShape;
+Представляет диаграмму Shape;
 
 ```csharp
 public ChartShape ChartObject { get; }

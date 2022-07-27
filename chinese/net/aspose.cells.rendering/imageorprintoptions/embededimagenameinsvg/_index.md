@@ -1,14 +1,14 @@
 ---
 title: EmbededImageNameInSvg
 second_title: Aspose.Cells for .NET API 参考
-description: 表示嵌入图像在 svg 中的文件名 这应该是完整路径其目录如cxpsEmbedded
+description: 表示嵌入图像在 svg 中的文件名 这应该是目录的完整路径如cxpsEmbedded
 type: docs
 weight: 90
 url: /zh/net/aspose.cells.rendering/imageorprintoptions/embededimagenameinsvg/
 ---
 ## ImageOrPrintOptions.EmbededImageNameInSvg property
 
-表示嵌入图像在 svg 中的文件名。 这应该是完整路径，其目录如“c:\\xpsEmbedded”
+表示嵌入图像在 svg 中的文件名。 这应该是目录的完整路径，如“c:\\xpsEmbedded”
 
 ```csharp
 public string EmbededImageNameInSvg { get; set; }

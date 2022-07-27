@@ -26,7 +26,7 @@ public class Shape
 | [Left](../../aspose.cells.griddesktop/shape/left) { get; } | Представляет горизонтальное смещение фигуры от ее левого столбца в единицах пикселей. |
 | [LeftOffset](../../aspose.cells.griddesktop/shape/leftoffset) { get; } | Представляет горизонтальное смещение фигуры от ее левого столбца в единицах пикселей. |
 | [LeftToCorner](../../aspose.cells.griddesktop/shape/lefttocorner) { get; } |  |
-| [MsoDrawingType](../../aspose.cells.griddesktop/shape/msodrawingtype) { get; } | Получает и устанавливает тип рисования mso. |
+| [MsoDrawingType](../../aspose.cells.griddesktop/shape/msodrawingtype) { get; } | Получает и задает тип рисования mso. |
 | [Name](../../aspose.cells.griddesktop/shape/name) { get; } | Получает и задает имя фигуры. |
 | [Row](../../aspose.cells.griddesktop/shape/row) { get; } |  |
 | [Text](../../aspose.cells.griddesktop/shape/text) { get; set; } | Представляет строку в этом объекте TextBox. |
@@ -34,8 +34,8 @@ public class Shape
 | [TopOffset](../../aspose.cells.griddesktop/shape/topoffset) { get; } | Представляет вертикальное смещение фигуры от ее верхней строки в единицах пикселей. |
 | [TopToCorner](../../aspose.cells.griddesktop/shape/toptocorner) { get; } |  |
 | [UpperLeftColumn](../../aspose.cells.griddesktop/shape/upperleftcolumn) { get; } | Представляет индекс столбца в левом верхнем углу. |
-| [UpperLeftRow](../../aspose.cells.griddesktop/shape/upperleftrow) { get; } | Представляет индекс строки в верхнем левом углу. |
-| [ZOrderPosition](../../aspose.cells.griddesktop/shape/zorderposition) { get; set; } | Возвращает положение фигуры в z-порядке. |
+| [UpperLeftRow](../../aspose.cells.griddesktop/shape/upperleftrow) { get; } | Представляет индекс строки в левом верхнем углу. |
+| [ZOrderPosition](../../aspose.cells.griddesktop/shape/zorderposition) { get; set; } | Возвращает позицию фигуры в z-порядке. |
 
 ## Поля
 

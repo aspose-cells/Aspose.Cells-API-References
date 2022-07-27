@@ -1,14 +1,14 @@
 ---
 title: IsAutoStart
 second_title: Aspose.Cells for .NET API 参考
-description: 指定一个布尔值指示应用程序是否将使用源数据来设置开始范围值
+description: 指定一个布尔值指示应用程序是否将使用源数据来设置起始范围值
 type: docs
 weight: 50
 url: /zh/net/aspose.cells.pivot/sxrng/isautostart/
 ---
 ## SxRng.IsAutoStart property
 
-指定一个布尔值，指示应用程序是否将使用源数据来设置开始范围值。
+指定一个布尔值，指示应用程序是否将使用源数据来设置起始范围值。
 
 ```csharp
 public object IsAutoStart { get; }

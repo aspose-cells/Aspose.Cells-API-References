@@ -1,14 +1,14 @@
 ---
 title: StartSheet
 second_title: Aspose.Cells for .NET API 参考
-description: 在加载给定工作表之前准备过滤器选项 用户的 LoadFilter 实现可以在这里更改 LoadDataFilterOptions 来表示如何为这个工作表加载数据
+description: 在加载给定的工作表之前准备过滤器选项 用户的 LoadFilter 实现可以在这里更改 LoadDataFilterOptions 以表示如何为此工作表加载数据
 type: docs
 weight: 40
 url: /zh/net/aspose.cells/loadfilter/startsheet/
 ---
 ## LoadFilter.StartSheet method
 
-在加载给定工作表之前准备过滤器选项。 用户的 LoadFilter 实现可以在这里更改 LoadDataFilterOptions 来表示如何为这个工作表加载数据。
+在加载给定的工作表之前准备过滤器选项。 用户的 LoadFilter 实现可以在这里更改 LoadDataFilterOptions 以表示如何为此工作表加载数据。
 
 ```csharp
 public virtual void StartSheet(Worksheet sheet)
@@ -16,7 +16,7 @@ public virtual void StartSheet(Worksheet sheet)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sheet | Worksheet | 要加载的工作表。 这里只有少数属性可以用于给定的工作表对象 因为大多数数据和属性尚未加载。可用的属性有: Name, Index, VisibilityType |
+| sheet | Worksheet | 要加载的工作表。 这里只有少数属性可用于给定的工作表对象 ，因为大多数数据和属性尚未加载。可用属性有： Name、Index、VisibilityType |
 
 ### 也可以看看
 

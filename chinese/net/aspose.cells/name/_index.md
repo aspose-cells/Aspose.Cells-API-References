@@ -20,11 +20,11 @@ public class Name
 | --- | --- |
 | [Comment](../../aspose.cells/name/comment) { get; set; } | 获取和设置名称的注释。 仅适用于 Excel 2007。 |
 | [FullText](../../aspose.cells/name/fulltext) { get; } | 获取具有范围设置的对象的名称全文。 |
-| [IsReferred](../../aspose.cells/name/isreferred) { get; } | 指示此名称是否被其他公式引用。 |
-| [IsVisible](../../aspose.cells/name/isvisible) { get; set; } | 表示名称是否可见。 |
-| [R1C1RefersTo](../../aspose.cells/name/r1c1refersto) { get; set; } | 获取或设置[`Name`](../name)的 R1C1 引用。 |
+| [IsReferred](../../aspose.cells/name/isreferred) { get; } | 表示此名称是否被其他公式引用。 |
+| [IsVisible](../../aspose.cells/name/isvisible) { get; set; } | 指示名称是否可见。 |
+| [R1C1RefersTo](../../aspose.cells/name/r1c1refersto) { get; set; } | 获取或设置 R1C1 引用[`Name`](../name). |
 | [RefersTo](../../aspose.cells/name/refersto) { get; set; } | 返回或设置名称定义引用的公式，以等号开头。 |
-| [SheetIndex](../../aspose.cells/name/sheetindex) { get; set; } | 表示此名称属于 Workbook 或 Worksheet。 0 = 全局名称，否则索引到工作表（从一开始） |
+| [SheetIndex](../../aspose.cells/name/sheetindex) { get; set; } | 表示此名称属于工作簿或工作表。 0 = 全局名称，否则索引到工作表（从一开始） |
 | [Text](../../aspose.cells/name/text) { get; set; } | 获取对象的名称文本。 |
 
 ## 方法
@@ -40,7 +40,7 @@ public class Name
 | [GetRefersTo](../../aspose.cells/name/getrefersto#getrefersto)(bool, bool) | 获取此名称的引用。 |
 | [GetRefersTo](../../aspose.cells/name/getrefersto#getrefersto_1)(bool, bool, int, int) | 根据指定单元格获取此名称的引用。 |
 | [SetRefersTo](../../aspose.cells/name/setrefersto)(string, bool, bool) | 设置此名称的引用。 |
-| override [ToString](../../aspose.cells/name/tostring)() | 返回代表当前 Range 对象的字符串。 |
+| override [ToString](../../aspose.cells/name/tostring)() | 返回一个代表当前 Range 对象的字符串。 |
 
 ### 例子
 
@@ -48,28 +48,28 @@ public class Name
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
- //访问Excel文件中的第一个工作表
+//访问Excel文件中的第一个工作表
 Worksheet worksheet = workbook.Worksheets[0];
- //创建一个命名范围
+//创建一个命名范围
 Range range = worksheet.Cells.CreateRange("B4", "G14");
 //设置命名范围的名称
 range.Name = "TestRange";
- //默认保存修改后的Excel文件（即Excel 2000） format
+//将修改后的Excel文件保存为默认（即Excel 2000）格式
 workbook.Save("output.xls");   
 
 [Visual Basic]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
-'访问Excel文件中的第一个工作表
+'访问 Excel 文件中的第一个工作表
 Dim worksheet As Worksheet = workbook.Worksheets(0)
-'创建一个命名范围
+'创建命名范围
 Dim range As Range = worksheet.Cells.CreateRange("B4", "G14")
 '设置命名范围的名称
 range.Name = "TestRange"
-'默认保存修改后的Excel文件（即Excel 2000） format
+'以默认（即 Excel 2000）格式保存修改后的 Excel 文件
 workbook.Save("output.xls")
 ```
 

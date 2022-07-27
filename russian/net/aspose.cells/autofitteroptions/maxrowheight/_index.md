@@ -1,14 +1,14 @@
 ---
 title: MaxRowHeight
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает и устанавливает максимальную высоту строки в единицах Point при автоподгонке строк.
+description: Получает и устанавливает максимальную высоту строки в точках при автоподгонке строк.
 type: docs
 weight: 70
 url: /ru/net/aspose.cells/autofitteroptions/maxrowheight/
 ---
 ## AutoFitterOptions.MaxRowHeight property
 
-Получает и устанавливает максимальную высоту строки (в единицах Point) при автоподгонке строк.
+Получает и устанавливает максимальную высоту строки (в точках) при автоподгонке строк.
 
 ```csharp
 public double MaxRowHeight { get; set; }

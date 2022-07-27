@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает панель задач по заданному индексу.
+description: Получает панель задач по определенному индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.cells.webextensions/webextensiontaskpanecollection/item/
 ---
 ## WebExtensionTaskPaneCollection indexer
 
-Получает панель задач по заданному индексу.
+Получает панель задач по определенному индексу.
 
 ```csharp
 public WebExtensionTaskPane this[int index] { get; }

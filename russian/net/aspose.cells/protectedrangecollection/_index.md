@@ -1,14 +1,14 @@
 ---
 title: ProtectedRangeCollection
 second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует коллекцию объектовProtectedRange./protectedrange.
+description: Инкапсулирует наборProtectedRange./protectedrange объекты.
 type: docs
 weight: 4900
 url: /ru/net/aspose.cells/protectedrangecollection/
 ---
 ## ProtectedRangeCollection class
 
-Инкапсулирует коллекцию объектов[`ProtectedRange`](../protectedrange).
+Инкапсулирует набор[`ProtectedRange`](../protectedrange) объекты.
 
 ```csharp
 public class ProtectedRangeCollection : CollectionBase<ProtectedRange>
@@ -20,14 +20,14 @@ public class ProtectedRangeCollection : CollectionBase<ProtectedRange>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/protectedrangecollection/item) { get; } | Получает элемент[`ProtectedRange`](../protectedrange)по указанному индексу. |
+| [Item](../../aspose.cells/protectedrangecollection/item) { get; } | Получает[`ProtectedRange`](../protectedrange) элемент по указанному индексу. |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells/protectedrangecollection/add)(string, int, int, int, int) | Добавляет элемент[`ProtectedRange`](../protectedrange)в коллекцию. |
+| [Add](../../aspose.cells/protectedrangecollection/add)(string, int, int, int, int) | Добавляет[`ProtectedRange`](../protectedrange) предмет в коллекцию. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ProtectedRange) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ProtectedRange, IComparer&lt;ProtectedRange&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, ProtectedRange, IComparer&lt;ProtectedRange&gt;) |  |

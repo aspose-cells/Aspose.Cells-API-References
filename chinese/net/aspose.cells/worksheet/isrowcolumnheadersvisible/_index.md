@@ -1,14 +1,14 @@
 ---
 title: IsRowColumnHeadersVisible
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置一个值该值指示工作表是否将显示行和列标题 默认为真
+description: 获取或设置一个值该值指示工作表是否将显示行和列标题 默认为 true
 type: docs
 weight: 260
 url: /zh/net/aspose.cells/worksheet/isrowcolumnheadersvisible/
 ---
 ## Worksheet.IsRowColumnHeadersVisible property
 
-获取或设置一个值，该值指示工作表是否将显示行和列标题。 默认为真。
+获取或设置一个值，该值指示工作表是否将显示行和列标题。 默认为 true。
 
 ```csharp
 public bool IsRowColumnHeadersVisible { get; set; }

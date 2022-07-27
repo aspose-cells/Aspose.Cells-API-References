@@ -18,7 +18,7 @@ public enum PlotEmptyCellsType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| NotPlotted | `0` | 未绘制（留空） |
+| NotPlotted | `0` | 未绘制（留有间隙） |
 | Zero | `1` | 零 |
 | Interpolated | `2` | 插值 |
 

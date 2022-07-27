@@ -23,7 +23,7 @@ public class TextEffectFormat
 | [FontName](../../aspose.cells.drawing/texteffectformat/fontname) { get; set; } | Имя шрифта, используемого в WordArt. |
 | [FontSize](../../aspose.cells.drawing/texteffectformat/fontsize) { get; set; } | Размер (в пунктах) шрифта, используемого в WordArt. |
 | [PresetShape](../../aspose.cells.drawing/texteffectformat/presetshape) { get; set; } | Получает и задает предустановленный тип формы. |
-| [RotatedChars](../../aspose.cells.drawing/texteffectformat/rotatedchars) { get; set; } | Если задано значение true, символы в указанном объекте WordArt поворачиваются на 90 градусов относительно ограничивающей формы объекта WordArt. |
+| [RotatedChars](../../aspose.cells.drawing/texteffectformat/rotatedchars) { get; set; } | Если true, символы в указанном объекте WordArt поворачиваются на 90 градусов относительно ограничивающей формы объекта WordArt. |
 | [Text](../../aspose.cells.drawing/texteffectformat/text) { get; set; } | Текст в WordArt. |
 
 ## Методы
@@ -38,7 +38,7 @@ public class TextEffectFormat
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
 Aspose.Cells.Drawing.ShapeCollection shapes = workbook.Worksheets[0].Shapes;
 shapes.AddTextEffect(MsoPresetTextEffect.TextEffect1, "Aspose", "Arial", 30, false, false, 0, 0, 0, 0, 100, 200);
@@ -48,7 +48,7 @@ workbook.Save("Book1.xls");
 
 [Visual Basic]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
 Dim shapes As Aspose.Cells.Drawing.ShapeCollection = workbook.Worksheets(0).Shapes
 shapes.AddTextEffect(MsoPresetTextEffect.TextEffect1, "Aspose", "Arial", 30, false, false, 0, 0, 0, 0, 100, 200)

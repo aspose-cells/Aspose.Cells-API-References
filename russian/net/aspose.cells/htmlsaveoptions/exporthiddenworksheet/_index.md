@@ -3,7 +3,7 @@ title: ExportHiddenWorksheet
 second_title: Справочник по Aspose.Cells для .NET API
 description: Указывает экспортируется ли скрытое содержимое рабочего листа. Значение по умолчанию  true.
 type: docs
-weight: 210
+weight: 200
 url: /ru/net/aspose.cells/htmlsaveoptions/exporthiddenworksheet/
 ---
 ## HtmlSaveOptions.ExportHiddenWorksheet property

@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Cells for .NET API 参考
-description: 将新的数据透视表缓存添加到 PivotCaches 集合
+description: 将新的数据透视表缓存添加到 PivotCaches 集合中
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.gridweb.data/gridpivottablecollection/add/
 ---
 ## Add(string, string, string) {#add_3}
 
-将新的数据透视表缓存添加到 PivotCaches 集合。
+将新的数据透视表缓存添加到 PivotCaches 集合中。
 
 ```csharp
 public int Add(string sourceData, string destCellName, string tableName)
@@ -16,7 +16,7 @@ public int Add(string sourceData, string destCellName, string tableName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sourceData | String | 新数据透视表的数据单元格范围。示例:Sheet1!A1:C8 |
+| sourceData | String | 新 PivotTable.Example 的数据单元格范围：Sheet1!A1:C8 |
 | destCellName | String | 数据透视表目标区域左上角的单元格。 |
 | tableName | String | 新数据透视表的名称。 |
 
@@ -34,7 +34,7 @@ public int Add(string sourceData, string destCellName, string tableName)
 
 ## Add(GridWorksheet, GridCellArea, string, string) {#add}
 
-将新的数据透视表缓存添加到 PivotCaches 集合。
+将新的数据透视表缓存添加到 PivotCaches 集合中。
 
 ```csharp
 public int Add(GridWorksheet sourceSheet, GridCellArea sourceArea, string destCellName, 
@@ -65,7 +65,7 @@ public int Add(GridWorksheet sourceSheet, GridCellArea sourceArea, string destCe
 
 ## Add(string, GridCellArea, int, int, string) {#add_1}
 
-将新的数据透视表缓存添加到 PivotCaches 集合。
+将新的数据透视表缓存添加到 PivotCaches 集合中。
 
 ```csharp
 public int Add(string worksheetname, GridCellArea sourceArea, int destRow, int destCol, 
@@ -95,7 +95,7 @@ public int Add(string worksheetname, GridCellArea sourceArea, int destRow, int d
 
 ## Add(string, GridCellArea, string, string) {#add_2}
 
-将新的数据透视表缓存添加到 PivotCaches 集合。
+将新的数据透视表缓存添加到 PivotCaches 集合中。
 
 ```csharp
 public int Add(string worksheetname, GridCellArea sourceArea, string destCellName, string tableName)

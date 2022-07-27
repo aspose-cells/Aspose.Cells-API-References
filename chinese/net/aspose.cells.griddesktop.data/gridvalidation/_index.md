@@ -1,14 +1,14 @@
 ---
 title: GridValidation
 second_title: Aspose.Cells for .NET API 参考
-description: 表示数据验证.settings
+description: 代表数据验证.settings.
 type: docs
 weight: 710
 url: /zh/net/aspose.cells.griddesktop.data/gridvalidation/
 ---
 ## GridValidation class
 
-表示数据验证.settings。
+代表数据验证.settings.
 
 ```csharp
 public class GridValidation
@@ -24,10 +24,10 @@ public class GridValidation
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AreaList](../../aspose.cells.griddesktop.data/gridvalidation/arealist) { get; } | 表示CellArea的集合，其中包含数据验证设置。 |
-| [ClientValidationFunction](../../aspose.cells.griddesktop.data/gridvalidation/clientvalidationfunction) { get; set; } | 获取或设置客户端验证javascript函数名称。 |
+| [AreaList](../../aspose.cells.griddesktop.data/gridvalidation/arealist) { get; } | 代表一个集合CellArea其中包含数据验证设置。 |
+| [ClientValidationFunction](../../aspose.cells.griddesktop.data/gridvalidation/clientvalidationfunction) { get; set; } | 获取或设置客户端验证javascript函数名。 |
 | [CustomMsgForStopEdit](../../aspose.cells.griddesktop.data/gridvalidation/custommsgforstopedit) { get; set; } | 获取或设置自定义消息以在用户编辑无效值时显示。 |
-| [CustomMsgForStopOper](../../aspose.cells.griddesktop.data/gridvalidation/custommsgforstopoper) { get; set; } | 获取或设置用户操作带来无效值时显示的自定义消息。 |
+| [CustomMsgForStopOper](../../aspose.cells.griddesktop.data/gridvalidation/custommsgforstopoper) { get; set; } | 获取或设置当用户操作带来无效值时显示的自定义消息。 |
 | [CustomMsgTitle](../../aspose.cells.griddesktop.data/gridvalidation/custommsgtitle) { get; set; } | 获取或设置自定义消息标题以在输入无效值时显示。 |
 | [CustomValidation](../../aspose.cells.griddesktop.data/gridvalidation/customvalidation) { get; set; } | 获取或设置自定义验证对象。 |
 | [ErrorMessage](../../aspose.cells.griddesktop.data/gridvalidation/errormessage) { get; set; } | 表示数据验证错误信息。 |
@@ -39,7 +39,7 @@ public class GridValidation
 | [IsRequired](../../aspose.cells.griddesktop.data/gridvalidation/isrequired) { get; set; } |  |
 | [Operator](../../aspose.cells.griddesktop.data/gridvalidation/operator) { get; set; } | 表示用于数据验证的运算符。 |
 | [RegEx](../../aspose.cells.griddesktop.data/gridvalidation/regex) { get; set; } | 获取或设置正则表达式字符串。 |
-| [ShowError](../../aspose.cells.griddesktop.data/gridvalidation/showerror) { get; set; } | 表示用户输入无效数据时是否显示数据验证错误信息。 |
+| [ShowError](../../aspose.cells.griddesktop.data/gridvalidation/showerror) { get; set; } | 指示是否在用户输入无效数据时显示数据验证错误消息。 |
 | [ShowInput](../../aspose.cells.griddesktop.data/gridvalidation/showinput) { get; set; } |  |
 | [ValidationType](../../aspose.cells.griddesktop.data/gridvalidation/validationtype) { get; set; } | 获取或设置验证类型。 |
 | [ValueList](../../aspose.cells.griddesktop.data/gridvalidation/valuelist) { get; set; } | 获取/设置值列表对象。 |
@@ -52,7 +52,7 @@ public class GridValidation
 | [AddACell](../../aspose.cells.griddesktop.data/gridvalidation/addacell#addacell)(int, int) | 在单元格中添加验证设置。 |
 | [AddArea](../../aspose.cells.griddesktop.data/gridvalidation/addarea)(GridCellArea) | 将验证应用于区域。 |
 | [RemoveACell](../../aspose.cells.griddesktop.data/gridvalidation/removeacell)(int, int) | 删除单元格中的验证设置。 |
-| [RemoveArea](../../aspose.cells.griddesktop.data/gridvalidation/removearea)(GridCellArea) | 删除范围内的验证设置。 |
+| [RemoveArea](../../aspose.cells.griddesktop.data/gridvalidation/removearea)(GridCellArea) | 移除范围内的验证设置。 |
 
 ### 也可以看看
 

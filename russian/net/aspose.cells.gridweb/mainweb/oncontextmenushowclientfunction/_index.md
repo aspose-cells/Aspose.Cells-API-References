@@ -1,14 +1,14 @@
 ---
 title: OnContextMenuShowClientFunction
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает функцию на стороне клиента которая будет вызываться при отображении контекстного меню. Клиентская функция должна быть объявлена следующим образомltbr /gt function onContextMenuShowltbr /gt ltbr /gt var menu  event.srcElementltbr /gt menu.setItemVisibilityУдалить заблокироватьltbr /gt menu.setItemVisibility Update noneltbr /gt ltbr /gtltbr /gtПримечание. Вы можете использовать указатель this в клиентской функции чтобы указать элемент управления сеткой который запускает событие.
+description: Получает или задает функцию на стороне клиента которая будет вызываться при отображении контекстного меню. Функция клиента должна быть объявлена следующим образом функция onContextMenuShow  var menu  event.srcElement menu.setItemVisibilityУдалить блокировать menu.setItemVisibility Обновить нет  Примечание. Вы можете использовать указатель this в клиентской функции чтобы указать элемент управления сеткой который запускает событие.
 type: docs
 weight: 620
 url: /ru/net/aspose.cells.gridweb/mainweb/oncontextmenushowclientfunction/
 ---
 ## MainWeb.OnContextMenuShowClientFunction property
 
-Получает или задает функцию на стороне клиента, которая будет вызываться при отображении контекстного меню. Клиентская функция должна быть объявлена следующим образом:&lt;br /&gt; function onContextMenuShow()&lt;br /&gt; {&lt;br /&gt; var menu = event.srcElement;&lt;br /&gt; menu.setItemVisibility("Удалить", "заблокировать");&lt;br /&gt; menu.setItemVisibility( "Update", "none");&lt;br /&gt; }&lt;br /&gt;&lt;br /&gt;Примечание. Вы можете использовать указатель "this" в клиентской функции, чтобы указать элемент управления сеткой, который запускает событие.
+Получает или задает функцию на стороне клиента, которая будет вызываться при отображении контекстного меню. Функция клиента должна быть объявлена следующим образом: функция onContextMenuShow() { var menu = event.srcElement; menu.setItemVisibility("Удалить", "блокировать"); menu.setItemVisibility ("Обновить", "нет"); } Примечание. Вы можете использовать указатель «this» в клиентской функции, чтобы указать элемент управления сеткой, который запускает событие.
 
 ```csharp
 public string OnContextMenuShowClientFunction { get; set; }

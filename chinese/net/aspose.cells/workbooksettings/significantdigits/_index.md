@@ -1,14 +1,14 @@
 ---
 title: SignificantDigits
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置有效位数 默认值为SignificantDigitsaspose.cells/cellshelper/significantdigits
+description: 获取和设置有效位数 默认值为SignificantDigitsaspose.cells/cellshelper/significantdigits.
 type: docs
 weight: 440
 url: /zh/net/aspose.cells/workbooksettings/significantdigits/
 ---
 ## WorkbookSettings.SignificantDigits property
 
-获取和设置有效位数。 默认值为[`SignificantDigits`](../../cellshelper/significantdigits)。
+获取和设置有效位数。 默认值为[`SignificantDigits`](../../cellshelper/significantdigits).
 
 ```csharp
 public int SignificantDigits { get; set; }

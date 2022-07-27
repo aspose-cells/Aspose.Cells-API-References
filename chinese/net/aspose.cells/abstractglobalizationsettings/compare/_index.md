@@ -22,7 +22,7 @@ public virtual int Compare(string v1, string v2, bool ignoreCase)
 
 ### 返回值
 
-表示两个比较数之间词法关系的整数
+表示两个比较数之间的词法关系的整数
 
 ### 也可以看看
 

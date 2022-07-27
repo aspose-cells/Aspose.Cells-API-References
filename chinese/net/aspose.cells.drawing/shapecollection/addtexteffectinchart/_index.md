@@ -21,16 +21,16 @@ public Shape AddTextEffectInChart(MsoPresetTextEffect effect, string text, strin
 | text | String | 艺术字文本。 |
 | fontName | String | 字体名称。 |
 | size | Int32 | 字体大小 |
-| fontBold | Boolean | 表示字体是否为粗体。 |
-| fontItalic | Boolean | 表示字体是否为斜体。 |
-| top | Int32 | 以图表区域的 1/4000 为单位表示 shape 从左上角的垂直偏移量。 |
-| left | Int32 | 以图表区域的 1/4000 为单位表示 shape 从左上角的垂直偏移量。 |
+| fontBold | Boolean | 指示字体是否为粗体。 |
+| fontItalic | Boolean | 指示字体是否为斜体。 |
+| top | Int32 | 以图表区域的 1/4000 为单位表示形状从左上角的垂直偏移量。 |
+| left | Int32 | 以图表区域的 1/4000 为单位表示形状从左上角的垂直偏移量。 |
 | height | Int32 | 表示形状的高度，以图表区域的 1/4000 为单位。 |
 | width | Int32 | 表示形状的宽度，以图表区域的 1/4000 为单位。 |
 
 ### 返回值
 
-返回代表新艺术字对象的 Shape 对象。
+返回一个表示新艺术字对象的 Shape 对象。
 
 ### 也可以看看
 

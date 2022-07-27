@@ -18,24 +18,23 @@ public abstract class AbstractCalculationMonitor
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CalculatedValue](../../aspose.cells/abstractcalculationmonitor/calculatedvalue) { get; } | 获取单元格的新计算值。 应该只在[`AfterCalculate`](./aftercalculate)中使用。 |
-| [OriginalValue](../../aspose.cells/abstractcalculationmonitor/originalvalue) { get; } | 获取计算单元格的旧值。 应仅用于[`BeforeCalculate`](./beforecalculate)和[`AfterCalculate`](./aftercalculate)。 |
-| [ValueChanged](../../aspose.cells/abstractcalculationmonitor/valuechanged) { get; } | 计算后单元格的值是否发生变化。 应该只在[`AfterCalculate`](./aftercalculate)中使用。 |
+| [CalculatedValue](../../aspose.cells/abstractcalculationmonitor/calculatedvalue) { get; } | 获取单元格的新计算值。 应该只用于[`AfterCalculate`](./aftercalculate). |
+| [OriginalValue](../../aspose.cells/abstractcalculationmonitor/originalvalue) { get; } | 获取计算单元格的旧值。 应该只用于[`BeforeCalculate`](./beforecalculate)和[`AfterCalculate`](./aftercalculate). |
+| [ValueChanged](../../aspose.cells/abstractcalculationmonitor/valuechanged) { get; } | 计算后单元格的值是否发生变化。 应该只用于[`AfterCalculate`](./aftercalculate). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [AfterCalculate](../../aspose.cells/abstractcalculationmonitor/aftercalculate)(int, int, int) | 计算一个单元格后，实现此方法进行业务。 |
-| virtual [BeforeCalculate](../../aspose.cells/abstractcalculationmonitor/beforecalculate)(int, int, int) | 实现这个方法在计算一个cell之前做生意。 |
-| virtual [OnCircular](../../aspose.cells/abstractcalculationmonitor/oncircular)(IEnumerator) | 在循环引用计算公式的时候实现这个方法做生意。 |
+| virtual [AfterCalculate](../../aspose.cells/abstractcalculationmonitor/aftercalculate)(int, int, int) | 计算一个单元格后执行此方法进行业务。 |
+| virtual [BeforeCalculate](../../aspose.cells/abstractcalculationmonitor/beforecalculate)(int, int, int) | 实现这个方法先做生意再计算一个cell。 |
+| virtual [OnCircular](../../aspose.cells/abstractcalculationmonitor/oncircular)(IEnumerator) | 在计算循环引用的公式时实现这个方法做生意。 |
 
 ### 例子
 
 ```csharp
 [C#]
- //自定义监视器以检查 StackOverflowException
-
+//自定义监视器以检查 StackOverflowException 的可能性
 public class MyCalculationMonitor : AbstractCalculationMonitor
 {
     public override void BeforeCalculate(int sheetIndex, int rowIndex, int colIndex)

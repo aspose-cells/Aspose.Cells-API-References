@@ -1,14 +1,14 @@
 ---
 title: LastSavedUniversalTime
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или устанавливает универсальное время последнего сохранения.
+description: Получает или задает универсальное время последнего сохранения.
 type: docs
 weight: 180
 url: /ru/net/aspose.cells.properties/builtindocumentpropertycollection/lastsaveduniversaltime/
 ---
 ## BuiltInDocumentPropertyCollection.LastSavedUniversalTime property
 
-Получает или устанавливает универсальное время последнего сохранения.
+Получает или задает универсальное время последнего сохранения.
 
 ```csharp
 public DateTime LastSavedUniversalTime { get; set; }

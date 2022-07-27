@@ -1,14 +1,14 @@
 ---
 title: RemoveAt
 second_title: Aspose.Cells for .NET API 参考
-description: 按索引删除 Web 扩展
+description: 按索引删除网络扩展
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.webextensions/webextensioncollection/removeat/
 ---
 ## WebExtensionCollection.RemoveAt method
 
-按索引删除 Web 扩展。
+按索引删除网络扩展。
 
 ```csharp
 public void RemoveAt(int index)
@@ -16,7 +16,7 @@ public void RemoveAt(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 索引。 |
+| index | Int32 | 指数。 |
 
 ### 也可以看看
 

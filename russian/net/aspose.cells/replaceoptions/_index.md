@@ -1,14 +1,14 @@
 ---
 title: ReplaceOptions
 second_title: Справочник по Aspose.Cells для .NET API
-description: Представляют параметры замены.
+description: Представляют варианты замены.
 type: docs
 weight: 5300
 url: /ru/net/aspose.cells/replaceoptions/
 ---
 ## ReplaceOptions class
 
-Представляют параметры замены.
+Представляют варианты замены.
 
 ```csharp
 public class ReplaceOptions

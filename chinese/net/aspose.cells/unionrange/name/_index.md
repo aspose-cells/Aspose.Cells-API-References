@@ -16,7 +16,7 @@ public string Name { get; set; }
 
 ### 评论
 
-支持命名范围。例如
+支持命名范围。例如，
 
 range.Name = "Sheet1!MyRange";
 

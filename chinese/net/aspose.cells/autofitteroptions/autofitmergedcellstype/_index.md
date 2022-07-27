@@ -1,14 +1,14 @@
 ---
 title: AutoFitMergedCellsType
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置合并单元格自动拟合行高的类型
+description: 获取并设置合并单元格自动拟合行高的类型
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/autofitteroptions/autofitmergedcellstype/
 ---
 ## AutoFitterOptions.AutoFitMergedCellsType property
 
-获取和设置合并单元格自动拟合行高的类型。
+获取并设置合并单元格自动拟合行高的类型。
 
 ```csharp
 public AutoFitMergedCellsType AutoFitMergedCellsType { get; set; }
@@ -16,7 +16,7 @@ public AutoFitMergedCellsType AutoFitMergedCellsType { get; set; }
 
 ### 评论
 
-Excel 默认在拟合行高时忽略合并的单元格，因此 Aspose.Cells 与 MS Excel 一样工作默认。 请设置此类型以更改合并单元格自动调整行高的方式。
+Excel默认在拟合行高时忽略合并单元格，因此Aspose.Cells作为MS Excel默认使用。 请设置此类型以更改合并单元格自动拟合行高的方式。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 通过索引获取 ListColumn
+description: 通过索引获取ListColumn
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.tables/listcolumncollection/item/
 ---
 ## ListColumnCollection indexer (1 of 2)
 
-通过索引获取 ListColumn。
+通过索引获取ListColumn。
 
 ```csharp
 public ListColumn this[int index] { get; }
@@ -16,7 +16,7 @@ public ListColumn this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引。 |
+| index | 指数。 |
 
 ### 返回值
 

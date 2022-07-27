@@ -16,8 +16,8 @@ public void SetDesiredSize(int desiredWidth, int desiredHeight)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| desiredWidth | Int32 | 所需的像素宽度 |
-| desiredHeight | Int32 | 所需的高度 in像素 |
+| desiredWidth | Int32 | 所需宽度（以像素为单位） |
+| desiredHeight | Int32 | 所需高度（以像素为单位） |
 
 ### 也可以看看
 

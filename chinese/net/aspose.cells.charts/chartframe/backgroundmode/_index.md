@@ -1,14 +1,14 @@
 ---
 title: BackgroundMode
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置背景的显示方式
+description: 获取和设置背景的显示模式
 type: docs
 weight: 30
 url: /zh/net/aspose.cells.charts/chartframe/backgroundmode/
 ---
 ## ChartFrame.BackgroundMode property
 
-获取和设置背景的显示方式
+获取和设置背景的显示模式
 
 ```csharp
 public BackgroundMode BackgroundMode { get; set; }

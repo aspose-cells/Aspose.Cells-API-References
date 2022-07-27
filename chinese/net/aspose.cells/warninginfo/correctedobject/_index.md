@@ -1,14 +1,14 @@
 ---
 title: CorrectedObject
 second_title: Aspose.Cells for .NET API 参考
-description: 获取并设置更正的对象
+description: 获取并设置校正后的对象
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/warninginfo/correctedobject/
 ---
 ## WarningInfo.CorrectedObject property
 
-获取并设置更正的对象。
+获取并设置校正后的对象。
 
 ```csharp
 public object CorrectedObject { get; set; }

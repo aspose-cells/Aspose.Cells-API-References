@@ -16,14 +16,14 @@ public enum ReflectionEffectType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| None | `0` | Нет эффекта отражения. |
+| None | `0` | Без эффекта отражения. |
 | Custom | `1` | Пользовательский эффект отражения. |
-| TightReflectionTouching | `2` | Плотное отражение, трогательное. |
+| TightReflectionTouching | `2` | Плотное отражение, прикосновение. |
 | HalfReflectionTouching | `3` | Полуотражение, прикосновение. |
 | FullReflectionTouching | `4` | Полное отражение, касание. |
-| TightReflection4PtOffset | `5` | Плотное отражение, смещение 4 точки. |
-| HalfReflection4PtOffset | `6` | Половинное отражение, смещение 4 точки. |
-| FullReflection4PtOffset | `7` | Полное отражение, смещение 4 точки. |
+| TightReflection4PtOffset | `5` | Плотное отражение, смещение 4 pt. |
+| HalfReflection4PtOffset | `6` | Половинное отражение, смещение 4 pt. |
+| FullReflection4PtOffset | `7` | Полное отражение, смещение 4 pt. |
 | TightReflection8PtOffset | `8` | Плотное отражение, смещение 8 pt. |
 | HalfReflection8PtOffset | `9` | Половинное отражение, смещение 8 pt. |
 | FullReflection8PtOffset | `10` | Полное отражение, смещение 8 pt. |

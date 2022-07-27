@@ -8,7 +8,7 @@ url: /ru/net/aspose.cells.griddesktop/contextmenumanager/menuitemavailable_edith
 ---
 ## ContextMenuManager.MenuItemAvailable_EditHyperlink property
 
-Получает или задает значение, указывающее, доступен ли пункт контекстного меню "EditHyperlink".
+Получает или задает значение, указывающее, доступен ли пункт контекстного меню «EditHyperlink».
 
 ```csharp
 public bool MenuItemAvailable_EditHyperlink { get; set; }

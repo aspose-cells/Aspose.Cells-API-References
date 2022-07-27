@@ -1,14 +1,14 @@
 ---
 title: BuiltInDocumentProperties
 second_title: Aspose.Cells for .NET API 参考
-description: 返回代表电子表格所有内置文档属性的DocumentPropertyaspose.cells.properties/documentproperty集合
+description: 返回一个DocumentPropertyaspose.cells.properties/documentproperty表示电子表格的所有内置文档属性的集合
 type: docs
 weight: 30
 url: /zh/net/aspose.cells/workbook/builtindocumentproperties/
 ---
 ## Workbook.BuiltInDocumentProperties property
 
-返回代表电子表格所有内置文档属性的[`DocumentProperty`](../../../aspose.cells.properties/documentproperty)集合。
+返回一个[`DocumentProperty`](../../../aspose.cells.properties/documentproperty)表示电子表格的所有内置文档属性的集合。
 
 ```csharp
 public BuiltInDocumentPropertyCollection BuiltInDocumentProperties { get; }
@@ -16,17 +16,17 @@ public BuiltInDocumentPropertyCollection BuiltInDocumentProperties { get; }
 
 ### 评论
 
-无法将新属性添加到内置文档属性列表中。您只能获取内置属性并更改其值。 以下是内置属性名称列表:
+无法将新属性添加到内置文档属性列表中。您只能获取一个内置属性并更改其值。 以下是内置属性名称列表：
 
-Title
+标题
 
 主题
 
 作者
 
-关键字
+关键词
 
-评论
+注释
 
 模板
 
@@ -34,7 +34,7 @@ Title
 
 修订号
 
-应用程序名称
+应用名称
 
 最后打印日期
 
@@ -56,7 +56,7 @@ Title
 
 格式
 
-管理器
+经理
 
 公司
 
@@ -66,11 +66,11 @@ Title
 
 段落数
 
-幻灯片数
+载玻片数
 
-注释数
+音符数量
 
-隐藏幻灯片数量
+隐藏幻灯片的数量
 
 多媒体剪辑数量
 

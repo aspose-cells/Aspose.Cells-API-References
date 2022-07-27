@@ -18,7 +18,7 @@ public int ImportDataTable(DataTable dataTable, bool isFieldNameShown, int first
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | dataTable | DataTable | 要导入的 DataTable 对象。 |
-| isFieldNameShown | Boolean | 表示是否将数据表的字段名导入第一行。 |
+| isFieldNameShown | Boolean | 指示是否将数据表的字段名称导入到第一行。 |
 | firstRow | Int32 | 要导入的第一个单元格的行号。 |
 | firstColumn | Int32 | 要导入的第一个单元格的列号。 |
 

@@ -1,14 +1,14 @@
 ---
 title: IsVerticalScrollBarVisible
 second_title: Aspose.Cells for .NET API 参考
-description: 设置垂直滚动条的可见雕像
+description: 设置垂直滚动条的可见状态
 type: docs
 weight: 170
 url: /zh/net/aspose.cells.griddesktop/griddesktop/isverticalscrollbarvisible/
 ---
 ## GridDesktop.IsVerticalScrollBarVisible property
 
-设置垂直滚动条的可见雕像。
+设置垂直滚动条的可见状态。
 
 ```csharp
 public bool IsVerticalScrollBarVisible { get; set; }

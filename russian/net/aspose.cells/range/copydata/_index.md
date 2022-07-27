@@ -3,7 +3,7 @@ title: CopyData
 second_title: Справочник по Aspose.Cells для .NET API
 description: Копирует данные ячейки включая формулы из исходного диапазона.
 type: docs
-weight: 200
+weight: 240
 url: /ru/net/aspose.cells/range/copydata/
 ---
 ## Range.CopyData method
@@ -16,7 +16,7 @@ public void CopyData(Range range)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| range | Range | Источник[`Range`](../../range)объект. |
+| range | Range | Источник[`Range`](../../range) объект. |
 
 ### Смотрите также
 

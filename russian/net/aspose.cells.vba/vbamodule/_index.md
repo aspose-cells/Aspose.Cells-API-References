@@ -28,28 +28,28 @@ public class VbaModule
 
 [C#]
 
-  //Создание экземпляра рабочей книги object
+//Создание экземпляра объекта Workbook
 Workbook workbook = new Workbook();
-   // Инициируем проект VBA.
+ // Запустить проект VBA.
 VbaProject vbaProject = workbook.VbaProject; 
-  // Добавляем новый модуль.
+// Добавляем новый модуль.
 int index = vbaProject.Modules.Add(VbaModuleType.Class, "test");
-  // Получить vba module
+// Получить модуль vba
 VbaModule vbaModule = vbaProject.Modules[index];
-  // Установить коды
+// Установить коды
 vbaModule.Codes = "Sub ShowMessage()\r\nMsgBox \"Welcome to Aspose!\"\r\nEnd Sub";
-  //Сохранение файла Excel
+//Сохранение файла Excel
 workbook.Save("book1.xlsm");
 
  [Visual Basic]
 
-'Создание экземпляра рабочей книги object
+'Создание экземпляра объекта Workbook
 Dim workbook As Workbook = New Workbook()
-'Инициируем проект VBA.
+'Запустите проект VBA.
 Dim vbaProject as VbaProject  = workbook.VbaProject
-'Добавляем новый модуль.
+'Добавьте новый модуль.
 Dim index as Integer = vbaProject.Modules.Add(VbaModuleType.Class, "test")
-'Получить vba module
+'Получить модуль vba
 Dim vbaModule as VbaModule = vbaProject.Modules(index)
 'Установить коды
 vbaModule.Codes = "Sub ShowMessage()\r\nMsgBox \"Welcome to Aspose!\"\r\nEnd Sub"

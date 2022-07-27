@@ -1,14 +1,14 @@
 ---
 title: CrashSave
 second_title: Aspose.Cells for .NET API 参考
-description: 指示应用程序是否在崩溃后上次保存工作簿文件
+description: 表示应用程序是否在崩溃后最后保存了工作簿文件
 type: docs
 weight: 90
 url: /zh/net/aspose.cells/workbooksettings/crashsave/
 ---
 ## WorkbookSettings.CrashSave property
 
-指示应用程序是否在崩溃后上次保存工作簿文件。
+表示应用程序是否在崩溃后最后保存了工作簿文件。
 
 ```csharp
 public bool CrashSave { get; set; }

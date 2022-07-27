@@ -1,14 +1,14 @@
 ---
 title: FilterColumns
 second_title: Aspose.Cells for .NET API 参考
-description: 获取筛选列的集合
+description: 获取过滤列的集合
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/autofilter/filtercolumns/
 ---
 ## AutoFilter.FilterColumns property
 
-获取筛选列的集合。
+获取过滤列的集合。
 
 ```csharp
 public FilterColumnCollection FilterColumns { get; }

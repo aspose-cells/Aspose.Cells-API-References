@@ -1,14 +1,14 @@
 ---
 title: GetFullName
 second_title: Aspose.Cells for .NET API 参考
-description: 单独将Worksheet导出为html时通过Worksheet名称获取文件的完整路径 所以工作表之间的引用可以正确导出
+description: 单独将Worksheet导出为html时通过Worksheet名称获取文件的完整路径 这样可以正确导出Worksheets之间的引用
 type: docs
 weight: 10
 url: /zh/net/aspose.cells/ifilepathprovider/getfullname/
 ---
 ## IFilePathProvider.GetFullName method
 
-单独将Worksheet导出为html时，通过Worksheet名称获取文件的完整路径。 所以工作表之间的引用可以正确导出。
+单独将Worksheet导出为html时，通过Worksheet名称获取文件的完整路径 这样可以正确导出Worksheets之间的引用
 
 ```csharp
 public string GetFullName(string sheetName)

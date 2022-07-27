@@ -1,14 +1,14 @@
 ---
 title: ChartGlobalizationSettings
 second_title: Aspose.Cells for .NET API 参考
-description: 表示图表的全球化设置
+description: 代表图表的全球化设置
 type: docs
 weight: 480
 url: /zh/net/aspose.cells.charts/chartglobalizationsettings/
 ---
 ## ChartGlobalizationSettings class
 
-表示图表的全球化设置。
+代表图表的全球化设置。
 
 ```csharp
 public class ChartGlobalizationSettings : AbstractGlobalizationSettings
@@ -25,13 +25,13 @@ public class ChartGlobalizationSettings : AbstractGlobalizationSettings
 | 姓名 | 描述 |
 | --- | --- |
 | virtual [Compare](../../aspose.cells/abstractglobalizationsettings/compare)(string, string, bool) | 根据一定的排序规则比较两个字符串值。 |
-| virtual [GetAxisTitleName](../../aspose.cells.charts/chartglobalizationsettings/getaxistitlename)() | 获取轴的标题名称。 |
+| virtual [GetAxisTitleName](../../aspose.cells.charts/chartglobalizationsettings/getaxistitlename)() | 获取 Axis 的标题名称。 |
 | virtual [GetAxisUnitName](../../aspose.cells.charts/chartglobalizationsettings/getaxisunitname)(DisplayUnitType) | 获取轴单元的名称。 |
 | virtual [GetChartTitleName](../../aspose.cells.charts/chartglobalizationsettings/getcharttitlename)() | 获取图表标题的名称。 |
 | virtual [GetCollationKey](../../aspose.cells/abstractglobalizationsettings/getcollationkey)(string, bool) | 根据某些排序规则将字符串转换为可比较的对象。 |
-| virtual [GetLegendDecreaseName](../../aspose.cells.charts/chartglobalizationsettings/getlegenddecreasename)() | 为 Legend 获取 Decrease 的名称。 |
-| virtual [GetLegendIncreaseName](../../aspose.cells.charts/chartglobalizationsettings/getlegendincreasename)() | 获取 Legend 的增加名称。 |
-| virtual [GetLegendTotalName](../../aspose.cells.charts/chartglobalizationsettings/getlegendtotalname)() | 获取 Legend 的 Total 名称。 |
+| virtual [GetLegendDecreaseName](../../aspose.cells.charts/chartglobalizationsettings/getlegenddecreasename)() | 获取 Legend 的 Decrease 名称。 |
+| virtual [GetLegendIncreaseName](../../aspose.cells.charts/chartglobalizationsettings/getlegendincreasename)() | 获取 Legend. 的增加名称 |
+| virtual [GetLegendTotalName](../../aspose.cells.charts/chartglobalizationsettings/getlegendtotalname)() | 获取图例的总计名称。 |
 | virtual [GetOtherName](../../aspose.cells.charts/chartglobalizationsettings/getothername)() | 获取图表的“其他”标签的名称。 |
 | virtual [GetSeriesName](../../aspose.cells.charts/chartglobalizationsettings/getseriesname)() | 获取图表中系列的名称。 |
 

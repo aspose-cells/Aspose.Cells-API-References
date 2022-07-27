@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает или задает высоту строки object.in в пикселях
+description: Получает или задает высоту объекта строки в единицах пикселя
 type: docs
 weight: 20
 url: /ru/net/aspose.cells.griddesktop.data/gridrow/height/
 ---
 ## GridRow.Height property
 
-Получает или задает высоту строки object.in в пикселях
+Получает или задает высоту объекта строки в единицах пикселя
 
 ```csharp
 public int Height { get; set; }

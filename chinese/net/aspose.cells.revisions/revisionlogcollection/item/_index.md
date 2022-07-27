@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API 参考
-description: 按索引获取RevisionLogaspose.cells.revisions/revisionlog
+description: 获取RevisionLogaspose.cells.revisions/revisionlog按索引.
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.revisions/revisionlogcollection/item/
 ---
 ## RevisionLogCollection indexer
 
-按索引获取[`RevisionLog`](../../revisionlog)。
+获取[`RevisionLog`](../../revisionlog)按索引.
 
 ```csharp
 public RevisionLog this[int index] { get; }
@@ -16,11 +16,11 @@ public RevisionLog this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引。 |
+| index | 指数。 |
 
 ### 返回值
 
-返回[`RevisionLog`](../../revisionlog)对象。
+退货[`RevisionLog`](../../revisionlog)目的。
 
 ### 也可以看看
 

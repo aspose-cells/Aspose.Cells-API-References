@@ -25,8 +25,8 @@ public class WorkbookMetadata
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BuiltInDocumentProperties](../../aspose.cells.metadata/workbookmetadata/builtindocumentproperties) { get; } | 返回代表电子表格所有内置文档属性的[`DocumentProperty`](../../aspose.cells.properties/documentproperty)集合。 |
-| [CustomDocumentProperties](../../aspose.cells.metadata/workbookmetadata/customdocumentproperties) { get; } | 返回代表电子表格所有自定义文档属性的[`DocumentProperty`](../../aspose.cells.properties/documentproperty)集合。 |
+| [BuiltInDocumentProperties](../../aspose.cells.metadata/workbookmetadata/builtindocumentproperties) { get; } | 返回一个[`DocumentProperty`](../../aspose.cells.properties/documentproperty)表示电子表格的所有内置文档属性的集合。 |
+| [CustomDocumentProperties](../../aspose.cells.metadata/workbookmetadata/customdocumentproperties) { get; } | 返回一个[`DocumentProperty`](../../aspose.cells.properties/documentproperty)表示电子表格的所有自定义文档属性的集合。 |
 | [Options](../../aspose.cells.metadata/workbookmetadata/options) { get; } | 获取元数据的选项。 |
 
 ## 方法
@@ -38,7 +38,7 @@ public class WorkbookMetadata
 
 ### 例子
 
-以下示例创建一个 WorkbookMetadata。
+以下示例创建一个 WorkbookMetadata.
 
 ```csharp
 [C#]

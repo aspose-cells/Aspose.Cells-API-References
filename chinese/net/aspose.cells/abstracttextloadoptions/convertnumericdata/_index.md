@@ -1,14 +1,14 @@
 ---
 title: ConvertNumericData
 second_title: Aspose.Cells for .NET API 参考
-description: 获取或设置一个值该值指示文本文件中的字符串是否转换为数字数据
+description: 获取或设置一个值该值指示文本文件中的字符串是否转换为数值数据
 type: docs
 weight: 20
 url: /zh/net/aspose.cells/abstracttextloadoptions/convertnumericdata/
 ---
 ## AbstractTextLoadOptions.ConvertNumericData property
 
-获取或设置一个值，该值指示文本文件中的字符串是否转换为数字数据。
+获取或设置一个值，该值指示文本文件中的字符串是否转换为数值数据。
 
 ```csharp
 public bool ConvertNumericData { get; set; }

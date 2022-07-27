@@ -17,7 +17,7 @@ public void HideItemByValue(string value, bool isHidden)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | String | pivotField 中的 pivotItem 的值。 |
-| isHidden | Boolean | 特定PivotItem是否隐藏 |
+| isHidden | Boolean | 特定的 PivotItem 是否隐藏 |
 
 ### 也可以看看
 

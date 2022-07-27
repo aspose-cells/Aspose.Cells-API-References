@@ -1,14 +1,14 @@
 ---
 title: ExportCellCoordinate
 second_title: Aspose.Cells for .NET API 参考
-description: 表示保存文件为html时是否导出非空白单元格的excel坐标默认值为假 如果要将输出的html导入excel请保持默认值
+description: 表示将文件保存为html时是否导出非空白单元格的excel坐标默认值为false 如果要将输出的html导入excel请保持默认值
 type: docs
 weight: 130
 url: /zh/net/aspose.cells/htmlsaveoptions/exportcellcoordinate/
 ---
 ## HtmlSaveOptions.ExportCellCoordinate property
 
-表示保存文件为html时是否导出非空白单元格的excel坐标。默认值为假。 如果要将输出的html导入excel，请保持默认值。
+表示将文件保存为html时是否导出非空白单元格的excel坐标。默认值为false。 如果要将输出的html导入excel，请保持默认值。
 
 ```csharp
 public bool ExportCellCoordinate { get; set; }

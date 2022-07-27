@@ -1,14 +1,14 @@
 ---
 title: GetAxisTitleName
 second_title: Aspose.Cells for .NET API 参考
-description: 获取轴的标题名称
+description: 获取 Axis 的标题名称
 type: docs
 weight: 20
 url: /zh/net/aspose.cells.charts/chartglobalizationsettings/getaxistitlename/
 ---
 ## ChartGlobalizationSettings.GetAxisTitleName method
 
-获取轴的标题名称。
+获取 Axis 的标题名称。
 
 ```csharp
 public virtual string GetAxisTitleName()

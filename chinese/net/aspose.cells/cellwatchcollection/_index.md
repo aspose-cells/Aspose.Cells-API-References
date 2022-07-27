@@ -26,7 +26,7 @@ public class CellWatchCollection : CollectionBase<CellWatch>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/cellwatchcollection/item) { get; } | 按索引获取和设置[`CellWatch`](../cellwatch)。 (2 indexers) |
+| [Item](../../aspose.cells/cellwatchcollection/item) { get; } | 获取和设置[`CellWatch`](../cellwatch)按索引. (2 indexers) |
 | [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## 方法
@@ -34,7 +34,7 @@ public class CellWatchCollection : CollectionBase<CellWatch>
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../aspose.cells/cellwatchcollection/add#add_1)(string) | 添加 |
-| [Add](../../aspose.cells/cellwatchcollection/add#add)(int, int) | 添加[`CellWatch`](../cellwatch)行和列。 |
+| [Add](../../aspose.cells/cellwatchcollection/add#add)(int, int) | 添加[`CellWatch`](../cellwatch)有行和列。 |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(CellWatch) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(CellWatch, IComparer&lt;CellWatch&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, CellWatch, IComparer&lt;CellWatch&gt;) |  |
@@ -68,20 +68,20 @@ public class CellWatchCollection : CollectionBase<CellWatch>
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
- // 获取第一个 Worksheet.
+// 获取第一个工作表。
 Worksheet sheet = workbook.Worksheets[0];
- // 将 Cell Watch Item 添加到 watch window
+// 将 Cell Watch Item 添加到监视窗口
 sheet.CellWatches.Add("B2");
 
  [Visual Basic]
 
-//实例化一个 Workbook 目的
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
-//获得第一个 Worksheet.
+'获取第一个工作表。
 Dim sheet as Worksheet = workbook.Worksheets(0);
-//将单元格监视项添加到监视窗口
+'将单元格监视项添加到监视窗口
 sheet.CellWatches.Add("B2")
 ```
 

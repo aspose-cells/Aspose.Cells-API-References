@@ -1,14 +1,14 @@
 ---
 title: ConditionalFormattingIconCollection
 second_title: Aspose.Cells for .NET API 参考
-description: 表示ConditionalFormattingIcon./conditionalformattingicon对象的集合
+description: 代表一个集合ConditionalFormattingIcon./conditionalformattingicon对象.
 type: docs
 weight: 1120
 url: /zh/net/aspose.cells/conditionalformattingiconcollection/
 ---
 ## ConditionalFormattingIconCollection class
 
-表示[`ConditionalFormattingIcon`](../conditionalformattingicon)对象的集合。
+代表一个集合[`ConditionalFormattingIcon`](../conditionalformattingicon)对象.
 
 ```csharp
 public class ConditionalFormattingIconCollection : CollectionBase<ConditionalFormattingIcon>
@@ -27,8 +27,8 @@ public class ConditionalFormattingIconCollection : CollectionBase<ConditionalFor
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.cells/conditionalformattingiconcollection/add#add)(ConditionalFormattingIcon) | 添加[`ConditionalFormattingIcon`](../conditionalformattingicon)对象。 |
-| [Add](../../aspose.cells/conditionalformattingiconcollection/add#add_1)(IconSetType, int) | 添加[`ConditionalFormattingIcon`](../conditionalformattingicon)对象。 |
+| [Add](../../aspose.cells/conditionalformattingiconcollection/add#add)(ConditionalFormattingIcon) | 添加[`ConditionalFormattingIcon`](../conditionalformattingicon)对象. |
+| [Add](../../aspose.cells/conditionalformattingiconcollection/add#add_1)(IconSetType, int) | 添加[`ConditionalFormattingIcon`](../conditionalformattingicon)对象. |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ConditionalFormattingIcon) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ConditionalFormattingIcon, IComparer&lt;ConditionalFormattingIcon&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, ConditionalFormattingIcon, IComparer&lt;ConditionalFormattingIcon&gt;) |  |
@@ -62,7 +62,7 @@ public class ConditionalFormattingIconCollection : CollectionBase<ConditionalFor
 
 [C#]
 
- //实例化一个工作簿对象
+//实例化一个工作簿对象
 Workbook workbook = new Workbook();
 
 Worksheet sheet = workbook.Worksheets[0];
@@ -70,13 +70,13 @@ Worksheet sheet = workbook.Worksheets[0];
 //获取条件格式
 ConditionalFormattingCollection cformattings = sheet.ConditionalFormattings;
 
- //添加一个空的条件格式
+//添加一个空的条件格式
 int index = cformattings.Add();
 
- //获取新添加的条件格式
+//获取新添加的条件格式
 FormatConditionCollection fcs = cformattings[index];
 
- //设置条件格式范围.
+//设置条件格式范围。
 CellArea ca = new CellArea();
 
 ca.StartRow = 0;
@@ -101,15 +101,15 @@ ca.EndColumn = 1;
 
 fcs.AddArea(ca);
 
- //设置条件
+//设置条件
  int idx = fcs.AddCondition(FormatConditionType.IconSet);
  
  FormatCondition cond = fcs[idx];
    
-  //设置条件的type
+ //设置条件's type
  cond.IconSet.Type = IconSetType.ArrowsGray3;
 
- //添加自定义图标集条件.
+//添加自定义图标集条件。
  ConditionalFormattingIcon cfIcon = cond.IconSet.CfIcons[0];
  
  cfIcon.Type = IconSetType.Arrows3;
@@ -128,12 +128,12 @@ fcs.AddArea(ca);
   
   cfIcon2.Index = 2;
 
- //保存Excel文件
+//保存Excel文件
 workbook.Save("output.xls");
 
 [VB.NET]
 
-'实例化一个工作簿对象
+'实例化工作簿对象
 Dim workbook As Workbook = New Workbook()
 
 Dim sheet As Worksheet = workbook.Worksheets(0)
@@ -172,12 +172,12 @@ ca.EndColumn = 1
 
 fcs.AddArea(ca)
 
-'设置条件
+//设置条件
 Dim idx As Integer =fcs.AddCondition(FormatConditionType.IconSet)
 
 Dim cond As FormatCondition=fcs[idx]
 
-'设置条件的type
+//设置条件's type
 cfIcon.Type = IconSetType.ArrowsGray3
 
 '添加自定义图标集条件。

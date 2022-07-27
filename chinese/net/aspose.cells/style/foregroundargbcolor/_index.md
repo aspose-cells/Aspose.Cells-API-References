@@ -1,14 +1,14 @@
 ---
 title: ForegroundArgbColor
 second_title: Aspose.Cells for .NET API 参考
-description: 使用 32 位 ARGB 值获取和设置前景色
+description: 获取并设置具有 32 位 ARGB 值的前景色
 type: docs
 weight: 80
 url: /zh/net/aspose.cells/style/foregroundargbcolor/
 ---
 ## Style.ForegroundArgbColor property
 
-使用 32 位 ARGB 值获取和设置前景色。
+获取并设置具有 32 位 ARGB 值的前景色。
 
 ```csharp
 public int ForegroundArgbColor { get; set; }

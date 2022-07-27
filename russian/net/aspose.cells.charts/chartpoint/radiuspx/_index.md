@@ -1,14 +1,14 @@
 ---
 title: RadiusPx
 second_title: Справочник по Aspose.Cells для .NET API
-description: Получает радиус пузыря круга или пончика в единицах пикселей после вызова метода Chart.Calculate.
+description: Получает радиус пузыря пирога или пончика в единицах пикселей после вызова метода Chart.Calculate.
 type: docs
 weight: 180
 url: /ru/net/aspose.cells.charts/chartpoint/radiuspx/
 ---
 ## ChartPoint.RadiusPx property
 
-Получает радиус пузыря, круга или пончика в единицах пикселей после вызова метода Chart.Calculate().
+Получает радиус пузыря, пирога или пончика в единицах пикселей после вызова метода Chart.Calculate().
 
 ```csharp
 public int RadiusPx { get; }

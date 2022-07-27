@@ -1,14 +1,14 @@
 ---
 title: Deleted
 second_title: Aspose.Cells for .NET API 参考
-description: 表示是否删除智能标签
+description: 表示智能标签是否被删除
 type: docs
 weight: 10
 url: /zh/net/aspose.cells.markup/smarttag/deleted/
 ---
 ## SmartTag.Deleted property
 
-表示是否删除智能标签。
+表示智能标签是否被删除。
 
 ```csharp
 public bool Deleted { get; set; }

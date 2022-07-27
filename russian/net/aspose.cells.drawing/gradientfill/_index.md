@@ -30,7 +30,7 @@ public class GradientFill : Fill
 | override [Equals](../../aspose.cells.drawing/fill/equals)(object) | / |
 | override [GetHashCode](../../aspose.cells.drawing/fill/gethashcode)() | Получает хэш-код. |
 | [SetGradient](../../aspose.cells.drawing/gradientfill/setgradient)(GradientFillType, double, GradientDirectionType) | Установите тип и направление градиентной заливки. |
-| [SetOneColorGradient](../../aspose.cells.drawing/gradientfill/setonecolorgradient)(Color, double, GradientStyleType, int) | Устанавливает для указанной заливки одноцветный градиент. Применяется только для Excel 2007. |
+| [SetOneColorGradient](../../aspose.cells.drawing/gradientfill/setonecolorgradient)(Color, double, GradientStyleType, int) | Задает для указанной заливки одноцветный градиент. Применяется только для Excel 2007. |
 | [SetTwoColorGradient](../../aspose.cells.drawing/gradientfill/settwocolorgradient#settwocolorgradient_1)(Color, Color, GradientStyleType, int) | Устанавливает для указанной заливки двухцветный градиент. Применяется только для Excel 2007. |
 | [SetTwoColorGradient](../../aspose.cells.drawing/gradientfill/settwocolorgradient#settwocolorgradient)(Color, double, Color, double, GradientStyleType, int) | Устанавливает для указанной заливки двухцветный градиент. Применяется только для Excel 2007. |
 

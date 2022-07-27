@@ -1,14 +1,14 @@
 ---
 title: LinkTargetType
 second_title: Справочник по Aspose.Cells для .NET API
-description: Указание типа целевого атрибута в ltagt ссылка значение по умолчанию  HtmlLinkTargetType.Parent.
+description: Указывает тип целевого атрибута в ссылке ltagt. Значение по умолчанию  HtmlLinkTargetType.Parent.
 type: docs
-weight: 390
+weight: 410
 url: /ru/net/aspose.cells/htmlsaveoptions/linktargettype/
 ---
 ## HtmlSaveOptions.LinkTargetType property
 
-Указание типа целевого атрибута в &lt;a&gt; ссылка, значение по умолчанию — HtmlLinkTargetType.Parent.
+Указывает тип целевого атрибута в ссылке &lt;a&gt;. Значение по умолчанию — HtmlLinkTargetType.Parent.
 
 ```csharp
 public HtmlLinkTargetType LinkTargetType { get; set; }

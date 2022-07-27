@@ -3,7 +3,7 @@ title: SetRowHeightInch
 second_title: Aspose.Cells for .NET API 参考
 description: 以英寸为单位设置行高
 type: docs
-weight: 1260
+weight: 1270
 url: /zh/net/aspose.cells/cells/setrowheightinch/
 ---
 ## Cells.SetRowHeightInch method

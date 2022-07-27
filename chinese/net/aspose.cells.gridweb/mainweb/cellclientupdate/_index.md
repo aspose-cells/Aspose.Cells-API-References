@@ -1,14 +1,14 @@
 ---
 title: CellClientUpdate
 second_title: Aspose.Cells for .NET API 参考
-description: 当客户端单元更新发生时发生 触发此事件时其参数 e.Argument 包含命令的名称
+description: 当客户端单元更新发生时发生 当此事件被触发时其参数 e.Argument 包含命令的名称
 type: docs
 weight: 1150
 url: /zh/net/aspose.cells.gridweb/mainweb/cellclientupdate/
 ---
 ## MainWeb.CellClientUpdate event
 
-当客户端单元更新发生时发生。 触发此事件时，其参数 e.Argument 包含命令的名称。
+当客户端单元更新发生时发生。 当此事件被触发时，其参数 e.Argument 包含命令的名称。
 
 ```csharp
 public event CellEventHandler CellClientUpdate;

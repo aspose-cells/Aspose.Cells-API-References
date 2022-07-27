@@ -1,14 +1,14 @@
 ---
 title: ReConnectionMethodType
 second_title: Aspose.Cells for .NET API 参考
-description: 指定电子表格应用程序在连接失败时应该做什么
+description: 指定当连接失败时电子表格应用程序应该做什么
 type: docs
 weight: 3330
 url: /zh/net/aspose.cells.externalconnections/reconnectionmethodtype/
 ---
 ## ReConnectionMethodType enumeration
 
-指定电子表格应用程序在连接失败时应该做什么。
+指定当连接失败时电子表格应用程序应该做什么。
 
 ```csharp
 public enum ReConnectionMethodType
@@ -18,9 +18,9 @@ public enum ReConnectionMethodType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Required | `1` | 刷新时使用现有的连接信息，如果它最终无效 然后获取更新的连接信息（如果可从外部连接文件获得）。 |
-| Always | `2` | 在每次刷新时从外部连接文件中获取更新的连接信息，如果可用，请使用 并使用它来代替现有的连接信息。 这种情况下，如果外部连接文件不可用，数据刷新会失败。 |
-| Never | `3` | 永远不要从外部连接文件中获取更新的连接信息 即使它可用并且即使现有连接信息无效 |
+| Required | `1` | 刷新时使用现有的连接信息，如果它最终无效 则获取更新的连接信息（如果可从外部连接文件获得）。 |
+| Always | `2` | 在每次刷新时从外部连接文件中获取更新的连接信息，如果可用， 并使用它来代替现有的连接信息。 这种情况下，如果外部连接文件不可用，数据刷新会失败。 |
+| Never | `3` | 永远不要从外部连接文件中获取更新的连接信息 即使它可用并且即使现有的连接信息是无效的 |
 
 ### 也可以看看
 

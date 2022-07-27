@@ -1,14 +1,14 @@
 ---
 title: HorizontalAxisColor
 second_title: Aspose.Cells for .NET API 参考
-description: 获取和设置迷你图组中水平轴的颜色
+description: 获取和设置迷你图组中横轴的颜色
 type: docs
 weight: 40
 url: /zh/net/aspose.cells.charts/sparklinegroup/horizontalaxiscolor/
 ---
 ## SparklineGroup.HorizontalAxisColor property
 
-获取和设置迷你图组中水平轴的颜色。
+获取和设置迷你图组中横轴的颜色。
 
 ```csharp
 public CellsColor HorizontalAxisColor { get; set; }
