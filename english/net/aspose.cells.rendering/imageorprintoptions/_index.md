@@ -3,7 +3,7 @@ title: ImageOrPrintOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Allows to specify options when rendering worksheet to images printing worksheet or rendering chart to image.
 type: docs
-weight: 5170
+weight: 5180
 url: /net/aspose.cells.rendering/imageorprintoptions/
 ---
 ## ImageOrPrintOptions class
@@ -37,7 +37,7 @@ public class ImageOrPrintOptions
 | [GridlineType](../../aspose.cells.rendering/imageorprintoptions/gridlinetype) { get; set; } | Gets or sets gridline type. |
 | [HorizontalResolution](../../aspose.cells.rendering/imageorprintoptions/horizontalresolution) { get; set; } | Gets or sets the horizontal resolution for generated images, in dots per inch. Applies generating image method except Emf format images. |
 | [ImageType](../../aspose.cells.rendering/imageorprintoptions/imagetype) { get; set; } | Gets or sets the format of the generated images. default value: PNG. |
-| [IsCellAutoFit](../../aspose.cells.rendering/imageorprintoptions/iscellautofit) { get; set; } | Indicates whether the width and height of the cells is automatically fitted by cell value. The default value is false. |
+| [IsCellAutoFit](../../aspose.cells.rendering/imageorprintoptions/iscellautofit) { get; set; } | (**Obsolete.**) Indicates whether the width and height of the cells is automatically fitted by cell value. The default value is false. |
 | [IsFontSubstitutionCharGranularity](../../aspose.cells.rendering/imageorprintoptions/isfontsubstitutionchargranularity) { get; set; } | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
 | [IsOptimized](../../aspose.cells.rendering/imageorprintoptions/isoptimized) { get; set; } | Indicates whether to optimize the output elements. |
 | [OnePagePerSheet](../../aspose.cells.rendering/imageorprintoptions/onepagepersheet) { get; set; } | If OnePagePerSheet is true , all content of one sheet will output to only one page in result. The paper size of pagesetup will be invalid, and the other settings of pagesetup will still take effect. |
@@ -50,7 +50,8 @@ public class ImageOrPrintOptions
 | [PrintingPage](../../aspose.cells.rendering/imageorprintoptions/printingpage) { get; set; } | Indicates which pages will not be printed. |
 | [PrintWithStatusDialog](../../aspose.cells.rendering/imageorprintoptions/printwithstatusdialog) { get; set; } | If PrintWithStatusDialog = true , there will be a dialog that shows current print status. else no such dialog will show. |
 | [Quality](../../aspose.cells.rendering/imageorprintoptions/quality) { get; set; } | Gets or sets a value determining the quality of the generated images to apply only when saving pages to the `Jpeg` format. The default value is 100 |
-| [SaveFormat](../../aspose.cells.rendering/imageorprintoptions/saveformat) { get; set; } | Gets or sets the output file format type Support Tiff/XPS |
+| [SaveFormat](../../aspose.cells.rendering/imageorprintoptions/saveformat) { get; set; } | (**Obsolete.**) Gets or sets the output file format type Support Tiff/XPS |
+| [SheetSet](../../aspose.cells.rendering/imageorprintoptions/sheetset) { get; set; } | Gets or sets the sheets to render. Default is all visible sheets in the workbook: [`Visible`](../sheetset/visible). |
 | [SmoothingMode](../../aspose.cells.rendering/imageorprintoptions/smoothingmode) { get; set; } | Specifies whether smoothing (antialiasing) is applied to lines and curves and the edges of filled areas. The default value is SmoothingMode.None |
 | [SVGFitToViewPort](../../aspose.cells.rendering/imageorprintoptions/svgfittoviewport) { get; set; } | if this property is true, the generated svg will fit to view port. |
 | [TextCrossType](../../aspose.cells.rendering/imageorprintoptions/textcrosstype) { get; set; } | Gets or sets displaying text type when the text width is larger than cell width. |

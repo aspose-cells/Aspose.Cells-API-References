@@ -3,7 +3,7 @@ title: EmbedStandardWindowsFonts
 second_title: Aspose.Cells for .NET API Reference
 description: True to embed true type fonts. Affects only ASCII characters 32-127. Fonts for character codes greater than 127 are always embedded. Fonts are always embedded for PDF/A-1a PDF/A-1b standard. Default is true.
 type: docs
-weight: 140
+weight: 80
 url: /net/aspose.cells/pdfsaveoptions/embedstandardwindowsfonts/
 ---
 ## PdfSaveOptions.EmbedStandardWindowsFonts property

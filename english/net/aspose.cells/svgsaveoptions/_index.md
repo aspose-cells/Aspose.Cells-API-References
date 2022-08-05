@@ -1,14 +1,14 @@
 ---
 title: SvgSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: Represents Svg save options
+description: Represents Svg save options. For advanced usage please use WorkbookRender or SheetRender.
 type: docs
-weight: 5820
+weight: 5840
 url: /net/aspose.cells/svgsaveoptions/
 ---
 ## SvgSaveOptions class
 
-Represents Svg save options
+Represents Svg save options. For advanced usage, please use !:WorkbookRender or !:SheetRender.
 
 ```csharp
 public class SvgSaveOptions : ImageSaveOptions
@@ -19,7 +19,7 @@ public class SvgSaveOptions : ImageSaveOptions
 | Name | Description |
 | --- | --- |
 | [SvgSaveOptions](svgsaveoptions#constructor)() | Creates the options for saving svg file. |
-| [SvgSaveOptions](svgsaveoptions#constructor_1)(SaveFormat) | Creates the options for saving svg file. |
+| [SvgSaveOptions](svgsaveoptions#constructor_1)(SaveFormat) | (**Obsolete.**) Creates the options for saving svg file. |
 
 ## Properties
 

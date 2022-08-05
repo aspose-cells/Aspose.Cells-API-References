@@ -106,7 +106,7 @@ Chart chart = worksheet.Charts[chartIndex];
 chart.NSeries.Add("A1:B3", true);
 
 //Show Data Labels 
-chart.NSeries[0].DataLabels.IsValueShown = true;
+chart.NSeries[0].DataLabels.ShowValue = true;
 
 for (int i = 0; i  < chart.NSeries[0].Points.Count; i++)
 {

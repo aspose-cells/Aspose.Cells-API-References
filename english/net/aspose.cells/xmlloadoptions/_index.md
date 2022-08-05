@@ -3,7 +3,7 @@ title: XmlLoadOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the options of loading xml.
 type: docs
-weight: 6610
+weight: 6630
 url: /net/aspose.cells/xmlloadoptions/
 ---
 ## XmlLoadOptions class
@@ -32,7 +32,7 @@ public class XmlLoadOptions : LoadOptions
 | [ContainsMultipleWorksheets](../../aspose.cells/xmlloadoptions/containsmultipleworksheets) { get; set; } | Indicates whether importing xml as multiple worksheets. |
 | [CultureInfo](../../aspose.cells/loadoptions/cultureinfo) { get; set; } | Gets or sets the system culture info at the time the file was loaded.(Inherited from [`LoadOptions`](../loadoptions).) |
 | [DefaultStyleSettings](../../aspose.cells/loadoptions/defaultstylesettings) { get; } | Gets the default style settings for initializing styles of the workbook(Inherited from [`LoadOptions`](../loadoptions).) |
-| [FontConfigs](../../aspose.cells/loadoptions/fontconfigs) { get; set; } | Gets and sets individual font configs. Only works for the [`Workbook`](../workbook) which uses this [`LoadOptions`](../loadoptions) to load.&gt;(Inherited from [`LoadOptions`](../loadoptions).) |
+| [FontConfigs](../../aspose.cells/loadoptions/fontconfigs) { get; set; } | Gets and sets individual font configs. Only works for the [`Workbook`](../workbook) which uses this [`LoadOptions`](../loadoptions) to load.(Inherited from [`LoadOptions`](../loadoptions).) |
 | [IgnoreNotPrinted](../../aspose.cells/loadoptions/ignorenotprinted) { get; set; } | Ignore the data which are not printed if directly printing the file(Inherited from [`LoadOptions`](../loadoptions).) |
 | [InterruptMonitor](../../aspose.cells/loadoptions/interruptmonitor) { get; set; } | Gets and sets the interrupt monitor.(Inherited from [`LoadOptions`](../loadoptions).) |
 | [IsXmlMap](../../aspose.cells/xmlloadoptions/isxmlmap) { get; set; } | Indicates whether mapping xml to Excel. The default value is false. |

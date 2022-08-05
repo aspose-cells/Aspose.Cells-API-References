@@ -3,7 +3,7 @@ title: NeedRenderGroupRows
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets whether to show grouprows .
 type: docs
-weight: 520
+weight: 530
 url: /net/aspose.cells.gridweb/mainweb/needrendergrouprows/
 ---
 ## MainWeb.NeedRenderGroupRows property

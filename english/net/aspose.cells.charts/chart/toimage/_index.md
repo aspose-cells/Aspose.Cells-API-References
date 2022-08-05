@@ -20,7 +20,7 @@ the picture of the chart.
 
 ### Remarks
 
-If the width or height is zero or the chart is not supported according to Supported Charts List, it will return null. Please refer to [Supported Charts List](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) for more details.
+If the width or height is zero or the chart is not supported according to Supported Charts List, it will return null.
 
 ### See Also
 
@@ -48,7 +48,7 @@ the picture of the chart.
 
 ### Remarks
 
-Returns a 32-bit bitmap object, so ImageOrPrintOptions.ImageFormat, ImageOrPrintOptions.TiffCompression and ImageOrPrintOptions.Quality attributes do not affect the method. If the width or height is zero or the chart is not supported according to Supported Charts List, it will return null. Please refer to [Supported Charts List](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) for more details.
+Returns a 32-bit bitmap object, so ImageOrPrintOptions.ImageFormat, ImageOrPrintOptions.TiffCompression and ImageOrPrintOptions.Quality attributes do not affect the method. If the width or height is zero or the chart is not supported according to Supported Charts List, it will return null.
 
 ### Examples
 
@@ -99,7 +99,7 @@ public void ToImage(string imageFile)
 
 The format of the image is specified by using the extension of the file name. For example, if you specify "myfile.png", then the image will be saved in the PNG format. The following file extensions are recognized: .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
 
-If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing. Please refer to [Supported Charts List](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) for more details.
+If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
 
 ### See Also
 
@@ -152,7 +152,7 @@ public void ToImage(string imageFile, ImageType imageType)
 
 The type of the image is specified by using `imageType`. The following types are supported: ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.
 
-If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing. Please refer to [Supported Charts List](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) for more details.
+If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
 
 ### See Also
 
@@ -178,7 +178,7 @@ public void ToImage(string imageFile, long jpegQuality)
 
 ### Remarks
 
-If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing. Please refer to [Supported Charts List](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) for more details.
+If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
 
 ### See Also
 
@@ -203,7 +203,7 @@ public void ToImage(Stream stream, long jpegQuality)
 
 ### Remarks
 
-If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing. Please refer to [Supported Charts List](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) for more details.
+If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
 
 ### See Also
 
@@ -256,7 +256,7 @@ public void ToImage(Stream stream, ImageType imageType)
 
 The type of the image is specified by using `imageType`. The following types are supported: ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.
 
-If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing. Please refer [Supported Charts List](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) for more details.
+If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
 
 ### See Also
 

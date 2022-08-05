@@ -3,7 +3,7 @@ title: PivotFieldDataDisplayFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Represents data display format in the PivotTable data field.
 type: docs
-weight: 4580
+weight: 4590
 url: /net/aspose.cells.pivot/pivotfielddatadisplayformat/
 ---
 ## PivotFieldDataDisplayFormat enumeration

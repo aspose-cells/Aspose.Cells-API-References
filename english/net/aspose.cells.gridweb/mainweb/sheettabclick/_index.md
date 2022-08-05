@@ -3,7 +3,7 @@ title: SheetTabClick
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs when the sheet tab is clicked.
 type: docs
-weight: 1340
+weight: 1350
 url: /net/aspose.cells.gridweb/mainweb/sheettabclick/
 ---
 ## MainWeb.SheetTabClick event

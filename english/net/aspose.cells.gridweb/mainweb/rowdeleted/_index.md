@@ -3,7 +3,7 @@ title: RowDeleted
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs when user has deleted a row from client-side menu.
 type: docs
-weight: 1270
+weight: 1280
 url: /net/aspose.cells.gridweb/mainweb/rowdeleted/
 ---
 ## MainWeb.RowDeleted event

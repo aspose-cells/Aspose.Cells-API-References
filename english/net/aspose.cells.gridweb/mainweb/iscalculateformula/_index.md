@@ -3,7 +3,7 @@ title: IsCalculateFormula
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets whether to calculate formula after cell value changes or after import File. The default value is true.
 type: docs
-weight: 430
+weight: 440
 url: /net/aspose.cells.gridweb/mainweb/iscalculateformula/
 ---
 ## MainWeb.IsCalculateFormula property

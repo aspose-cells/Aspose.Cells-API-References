@@ -3,7 +3,7 @@ title: PivotMissingItemLimitType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents number of items to retain per field.
 type: docs
-weight: 4700
+weight: 4710
 url: /net/aspose.cells.pivot/pivotmissingitemlimittype/
 ---
 ## PivotMissingItemLimitType enumeration

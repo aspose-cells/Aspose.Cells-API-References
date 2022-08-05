@@ -3,7 +3,7 @@ title: TimePeriodType
 second_title: Aspose.Cells for .NET API Reference
 description: Used in a FormatConditionType.TimePeriod conditional formatting rule. These are dynamic time periods which change based on the date the conditional formatting is refreshed / applied.
 type: docs
-weight: 6090
+weight: 6110
 url: /net/aspose.cells/timeperiodtype/
 ---
 ## TimePeriodType enumeration

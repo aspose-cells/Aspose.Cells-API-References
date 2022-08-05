@@ -19,8 +19,11 @@ public string HtmlText { get; set; }
 ```csharp
 
 [C#]
-if(shape.HtmlText == null || shape.HtmlText == "")
-    shape.HtmlText = "<Font Style="FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;">This is a <b>test</b>.</Font>";
+string html = shape.HtmlText;
+if(html == null || html == "")
+{
+    shape.HtmlText = "<Font Style='FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;'>This is a <b>test</b>.</Font>";
+}
 ```
 
 ### See Also

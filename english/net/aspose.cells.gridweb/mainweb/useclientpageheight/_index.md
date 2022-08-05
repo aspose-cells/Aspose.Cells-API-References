@@ -3,7 +3,7 @@ title: UseClientPageHeight
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets whether gridweb use client page height as control height suitable for when set Height100default value is false
 type: docs
-weight: 1020
+weight: 1030
 url: /net/aspose.cells.gridweb/mainweb/useclientpageheight/
 ---
 ## MainWeb.UseClientPageHeight property

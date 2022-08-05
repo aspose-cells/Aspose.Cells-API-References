@@ -3,7 +3,7 @@ title: ExportFrameScriptsAndProperties
 second_title: Aspose.Cells for .NET API Reference
 description: Indicating whether exporting frame scripts and document properties. The default value is true.If you want to import the html or mht file to excel please keep the default value.
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.cells/htmlsaveoptions/exportframescriptsandproperties/
 ---
 ## HtmlSaveOptions.ExportFrameScriptsAndProperties property

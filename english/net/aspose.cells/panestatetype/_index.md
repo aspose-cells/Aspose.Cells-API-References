@@ -3,7 +3,7 @@ title: PaneStateType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents state of the sheets pane.
 type: docs
-weight: 4470
+weight: 4480
 url: /net/aspose.cells/panestatetype/
 ---
 ## PaneStateType enumeration

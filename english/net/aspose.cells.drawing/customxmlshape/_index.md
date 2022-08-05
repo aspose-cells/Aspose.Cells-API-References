@@ -164,10 +164,11 @@ ShapeCollection shapes = workbook.Worksheets[0].Shapes;
 //Shape shape = shapes.AddShape(MsoDrawingType.CustomXml, 3, 0, 3, 0, 50, 150);
 
 //Check if a shape is CustomXmlShape
-CustomXmlShape customXmlShape = shapes[0] as CustomXmlShape;
-if (customXmlShape != null)
+CustomXmlShape customXmlShape = null;
+if (shapes[0].MsoDrawingType == Aspose.Cells.Drawing.MsoDrawingType.CustomXml)
 {
     //is CustomXmlShape
+    customXmlShape = (CustomXmlShape)shapes[0];
 }
 
 //do your business

@@ -3,7 +3,7 @@ title: SheetAdded
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs when user add a worksheet from toolbar menu.
 type: docs
-weight: 1320
+weight: 1330
 url: /net/aspose.cells.gridweb/mainweb/sheetadded/
 ---
 ## MainWeb.SheetAdded event

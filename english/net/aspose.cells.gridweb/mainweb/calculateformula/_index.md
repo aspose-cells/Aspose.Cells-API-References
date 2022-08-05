@@ -3,7 +3,7 @@ title: CalculateFormula
 second_title: Aspose.Cells for .NET API Reference
 description: Calculates the result of formulas.
 type: docs
-weight: 1370
+weight: 1380
 url: /net/aspose.cells.gridweb/mainweb/calculateformula/
 ---
 ## MainWeb.CalculateFormula method

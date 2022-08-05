@@ -81,6 +81,8 @@ public class DataLabels : ChartTextFrame
 [C#]
 
 //Set the DataLabels in the chart
+Workbook wb = new Workbook("chart.xlsx");
+Chart chart = wb.Worksheets[0].Charts[0];
 DataLabels datalabels;
 for (int i = 0; i  <chart.NSeries.Count; i++)
 {

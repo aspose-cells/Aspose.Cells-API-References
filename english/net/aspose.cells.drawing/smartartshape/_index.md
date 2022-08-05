@@ -161,11 +161,10 @@ Workbook book = new Workbook("YourFile.xlsx");
 
 //Gets a SmartArt shape.
 Shape shape = null;
-ShapeCollection shapes = workbook.Worksheets[0].Shapes;
+ShapeCollection shapes = book.Worksheets[0].Shapes;
 foreach(Shape s in shapes)
 {
-    shape = s as SmartArtShape;
-    if(smartArtShape != null)
+    if(s.MsoDrawingType == Aspose.Cells.Drawing.MsoDrawingType.SmartArt)
     {
         //is SmartArt Shape
         //do what you want

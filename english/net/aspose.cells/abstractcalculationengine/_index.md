@@ -35,7 +35,12 @@ User should not modify any part of the Workbook directly in this implementation(
 
 ```csharp
 [C#]
-public class MyEngine : AbstractCalculationEngine
+Workbook wb = new Workbook("custom_calc.xlsx");
+CalculationOptions opts = new CalculationOptions();
+opts.CustomEngine = new MyEngine();
+wb.CalculateFormula(opts);
+
+class MyEngine : AbstractCalculationEngine
 {
     public override void Calculate(CalculationData data)
     {

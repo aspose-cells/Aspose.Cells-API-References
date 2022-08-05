@@ -27,12 +27,17 @@ public XpsSaveOptions()
 Creates options for saving xps file.
 
 ```csharp
+[Obsolete("Use XpsSaveOptions() constructor instead.")]
 public XpsSaveOptions(SaveFormat saveFormat)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | saveFormat | SaveFormat | The save format, it must be xps format. |
+
+### Remarks
+
+NOTE: This constructor is now obsolete. Instead, please use XpsSaveOptions() constructor. This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

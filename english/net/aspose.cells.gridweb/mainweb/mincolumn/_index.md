@@ -3,7 +3,7 @@ title: MinColumn
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 490
+weight: 500
 url: /net/aspose.cells.gridweb/mainweb/mincolumn/
 ---
 ## MainWeb.MinColumn property

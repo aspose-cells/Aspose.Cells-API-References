@@ -3,7 +3,7 @@ title: TextVerticalOverflow
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the text vertical overflow type of the text box.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.cells.drawing.texts/shapetextalignment/textverticaloverflow/
 ---
 ## ShapeTextAlignment.TextVerticalOverflow property

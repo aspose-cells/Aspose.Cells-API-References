@@ -18,14 +18,17 @@ public ErrorBarType Type { get; set; }
 
 ```csharp
 [C#]
+Workbook wb = new Workbook("chart.xlsx");
+Chart chart = wb.Worksheets[0].Charts[0];
+Series aseries = chart.NSeries[0];
 //Sets custom error bar type
-aseries.YErrorBar.Type = ErrorBarType.InnerCustom;
+aseries.YErrorBar.Type = ErrorBarType.Custom;
 aseries.YErrorBar.PlusValue = "=Sheet1!A1";
 aseries.YErrorBar.MinusValue = "=Sheet1!A2";
 
 [Visual Basic]
 'Sets custom error bar type
-aseries.YErrorBar.Type = ErrorBarType.InnerCustom
+aseries.YErrorBar.Type = ErrorBarType.Custom
 aseries.YErrorBar.PlusValue = "=Sheet1!A1"
 aseries.YErrorBar.MinusValue = "=Sheet1!A2"
 ```

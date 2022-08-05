@@ -3,7 +3,7 @@ title: Workbook
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a root object to create an Excel spreadsheet.
 type: docs
-weight: 6510
+weight: 6530
 url: /net/aspose.cells/workbook/
 ---
 ## Workbook class

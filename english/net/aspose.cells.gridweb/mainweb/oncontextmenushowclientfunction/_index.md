@@ -3,7 +3,7 @@ title: OnContextMenuShowClientFunction
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the client side function to be called when the context menu will be shown. The client function should be declared like this function onContextMenuShow  var menu  event.srcElement menu.setItemVisibilityDelete block menu.setItemVisibilityUpdate none Note You may use the this pointer in the client function to point the grid control which fires the event.
 type: docs
-weight: 620
+weight: 630
 url: /net/aspose.cells.gridweb/mainweb/oncontextmenushowclientfunction/
 ---
 ## MainWeb.OnContextMenuShowClientFunction property

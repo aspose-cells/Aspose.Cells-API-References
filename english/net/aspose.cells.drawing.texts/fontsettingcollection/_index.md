@@ -64,7 +64,8 @@ public class FontSettingCollection : CollectionBase<FontSetting>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(FontSetting, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(FontSetting, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat)(int) |  |
-| [Replace](../../aspose.cells.drawing.texts/fontsettingcollection/replace)(int, int, string) | Replace the text. |
+| [Replace](../../aspose.cells.drawing.texts/fontsettingcollection/replace#replace_1)(string, string) | Replace the text. |
+| [Replace](../../aspose.cells.drawing.texts/fontsettingcollection/replace#replace)(int, int, string) | Replace the text. |
 | [SetWordArtStyle](../../aspose.cells.drawing.texts/fontsettingcollection/setwordartstyle)(PresetWordArtStyle) | Sets the preset WordArt style. |
 
 ### See Also

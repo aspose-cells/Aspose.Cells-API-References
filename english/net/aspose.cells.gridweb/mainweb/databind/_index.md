@@ -3,7 +3,7 @@ title: DataBind
 second_title: Aspose.Cells for .NET API Reference
 description: Bind the control and all its child contorls to the its datasource.
 type: docs
-weight: 1380
+weight: 1390
 url: /net/aspose.cells.gridweb/mainweb/databind/
 ---
 ## MainWeb.DataBind method

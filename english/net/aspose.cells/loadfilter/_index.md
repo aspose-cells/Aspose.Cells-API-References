@@ -44,7 +44,9 @@ The following example shows how to determine the filter options according to wor
 
 ```csharp
 [C#]
-Workbook wb = new Workbook(template, new LoadOptions() { LoadFilter = new LoadFilterSheet() });
+LoadOptions opts = new LoadOptions();
+opts.LoadFilter = new LoadFilterSheet();
+Workbook wb = new Workbook("template.xlsx", opts);
 //Custom LoadFilter implementation
 class LoadFilterSheet : LoadFilter
 {
@@ -52,11 +54,11 @@ class LoadFilterSheet : LoadFilter
     {
         if (sheet.Name == "Sheet1")
         {
-            LoadDataFilterOptions = Aspose.Cells.LoadDataFilterOptions.All;
+            LoadDataFilterOptions = LoadDataFilterOptions.All;
         }
         else
         {
-            LoadDataFilterOptions = Aspose.Cells.LoadDataFilterOptions.None;
+            LoadDataFilterOptions = LoadDataFilterOptions.Structure;
         }
     }
 }

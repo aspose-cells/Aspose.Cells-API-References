@@ -3,7 +3,7 @@ title: ImageScalable
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether using scalable unit to describe the image width when using scalable unit to describe the column width. The default value is true.
 type: docs
-weight: 390
+weight: 400
 url: /net/aspose.cells/htmlsaveoptions/imagescalable/
 ---
 ## HtmlSaveOptions.ImageScalable property

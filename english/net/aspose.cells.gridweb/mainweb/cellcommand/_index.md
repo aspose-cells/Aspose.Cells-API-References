@@ -3,7 +3,7 @@ title: CellCommand
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs when a cells command hyperlink is clicked. When this event is fired its parameter e.Argument contains the commands name.
 type: docs
-weight: 1160
+weight: 1170
 url: /net/aspose.cells.gridweb/mainweb/cellcommand/
 ---
 ## MainWeb.CellCommand event

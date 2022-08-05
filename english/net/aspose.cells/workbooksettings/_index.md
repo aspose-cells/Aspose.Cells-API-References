@@ -3,7 +3,7 @@ title: WorkbookSettings
 second_title: Aspose.Cells for .NET API Reference
 description: Represents all settings of the workbook.
 type: docs
-weight: 6530
+weight: 6550
 url: /net/aspose.cells/workbooksettings/
 ---
 ## WorkbookSettings class

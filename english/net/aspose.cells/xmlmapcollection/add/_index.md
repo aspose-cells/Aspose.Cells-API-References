@@ -24,17 +24,17 @@ public int Add(string url)
 
 ### Examples
 
-The following code adds two [`XmlMap`](../../xmlmap) by a xsd file and a xml file.
+The following code adds two XmlMaps by a xsd file and a xml file.
 
 ```csharp
 Workbook wb = new Workbook();
 
 XmlMapCollection xmlMapCollection = wb.Worksheets.XmlMaps;
 
-//Add a  by a xsd file.
+//Add a XmlMap by a xsd file.
 xmlMapCollection.Add("schema.xsd");
 
-//Add a  by a xml file.
+//Add a XmlMap by a xml file.
 xmlMapCollection.Add("xml.xml");
 
 wb.Save("twoXmlMaps.xlsx");

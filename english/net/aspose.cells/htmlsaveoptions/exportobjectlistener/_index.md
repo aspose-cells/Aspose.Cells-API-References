@@ -3,7 +3,7 @@ title: ExportObjectListener
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the ExportObjectListener for exporting objects.
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.cells/htmlsaveoptions/exportobjectlistener/
 ---
 ## HtmlSaveOptions.ExportObjectListener property

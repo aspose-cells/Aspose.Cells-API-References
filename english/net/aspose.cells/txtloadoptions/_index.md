@@ -3,7 +3,7 @@ title: TxtLoadOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the options for loading text file.
 type: docs
-weight: 6140
+weight: 6160
 url: /net/aspose.cells/txtloadoptions/
 ---
 ## TxtLoadOptions class
@@ -35,7 +35,7 @@ public class TxtLoadOptions : AbstractTextLoadOptions
 | [DefaultStyleSettings](../../aspose.cells/loadoptions/defaultstylesettings) { get; } | Gets the default style settings for initializing styles of the workbook(Inherited from [`LoadOptions`](../loadoptions).) |
 | [Encoding](../../aspose.cells/abstracttextloadoptions/encoding) { get; set; } | Gets and sets the default encoding. Only applies for csv file.(Inherited from [`AbstractTextLoadOptions`](../abstracttextloadoptions).) |
 | [ExtendToNextSheet](../../aspose.cells/txtloadoptions/extendtonextsheet) { get; set; } | Whether extends data to next sheet when the rows or columns of data exceed limit. If this property is true, extra data will be extended to next sheet behind current one(if current sheet is the last one, new sheet will be appended to current workbook). If this property is false, the data exceeds limit will be ignored. Default is false; |
-| [FontConfigs](../../aspose.cells/loadoptions/fontconfigs) { get; set; } | Gets and sets individual font configs. Only works for the [`Workbook`](../workbook) which uses this [`LoadOptions`](../loadoptions) to load.&gt;(Inherited from [`LoadOptions`](../loadoptions).) |
+| [FontConfigs](../../aspose.cells/loadoptions/fontconfigs) { get; set; } | Gets and sets individual font configs. Only works for the [`Workbook`](../workbook) which uses this [`LoadOptions`](../loadoptions) to load.(Inherited from [`LoadOptions`](../loadoptions).) |
 | [HasFormula](../../aspose.cells/txtloadoptions/hasformula) { get; set; } | Indicates whether the text is formula if it starts with "=". |
 | [HasTextQualifier](../../aspose.cells/txtloadoptions/hastextqualifier) { get; set; } | Whether there is text qualifier for cell value. Default is true. |
 | [IgnoreNotPrinted](../../aspose.cells/loadoptions/ignorenotprinted) { get; set; } | Ignore the data which are not printed if directly printing the file(Inherited from [`LoadOptions`](../loadoptions).) |

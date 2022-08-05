@@ -3,7 +3,7 @@ title: MinRow
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the minimum display row indexzero based of the web sheet. The control uses the smaller value of MinRow and sheet datas min row.
 type: docs
-weight: 500
+weight: 510
 url: /net/aspose.cells.gridweb/mainweb/minrow/
 ---
 ## MainWeb.MinRow property

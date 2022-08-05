@@ -66,7 +66,7 @@ Chart chart = worksheet.Charts[chartIndex];
 chart.NSeries.Add("A1:B3", true);
 
 //Show Data Labels 
-chart.NSeries[0].DataLabels.IsValueShown = true;
+chart.NSeries[0].DataLabels.ShowValue = true;
 
 ChartPointCollection points = chart.NSeries[0].Points;
 
@@ -119,7 +119,7 @@ Dim chart As Chart = worksheet.Charts(chartIndex)
 chart.NSeries.Add("A1:B3", True)
 
 'Show Data Labels 
-chart.NSeries(0).DataLabels.IsValueShown = True
+chart.NSeries(0).DataLabels.ShowValue = True
 
 Dim points As ChartPointCollection = chart.NSeries(0).Points
 

@@ -3,7 +3,7 @@ title: PrintErrorsType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents print errors constants.
 type: docs
-weight: 4790
+weight: 4800
 url: /net/aspose.cells/printerrorstype/
 ---
 ## PrintErrorsType enumeration

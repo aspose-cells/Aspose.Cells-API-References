@@ -3,7 +3,7 @@ title: SqlScriptSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the options of saving sql.
 type: docs
-weight: 5590
+weight: 5610
 url: /net/aspose.cells.saving/sqlscriptsaveoptions/
 ---
 ## SqlScriptSaveOptions class

@@ -3,7 +3,7 @@ title: TargetModeType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the type of target mode.
 type: docs
-weight: 5960
+weight: 5980
 url: /net/aspose.cells/targetmodetype/
 ---
 ## TargetModeType enumeration

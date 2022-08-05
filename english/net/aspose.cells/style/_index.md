@@ -3,7 +3,7 @@ title: Style
 second_title: Aspose.Cells for .NET API Reference
 description: Represents display style of excel documentsuch as fontcoloralignmentborderetc. The Style object contains all style attributes font number format alignment and so on as properties.
 type: docs
-weight: 5780
+weight: 5800
 url: /net/aspose.cells/style/
 ---
 ## Style class

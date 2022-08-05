@@ -3,7 +3,7 @@ title: SecurityOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Set this options when security is need in xls2pdf result.
 type: docs
-weight: 310
+weight: 160
 url: /net/aspose.cells/pdfsaveoptions/securityoptions/
 ---
 ## PdfSaveOptions.SecurityOptions property

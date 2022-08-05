@@ -3,7 +3,7 @@ title: ModifiedCells
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the collection of the cells that modified by the client.
 type: docs
-weight: 510
+weight: 520
 url: /net/aspose.cells.gridweb/mainweb/modifiedcells/
 ---
 ## MainWeb.ModifiedCells property

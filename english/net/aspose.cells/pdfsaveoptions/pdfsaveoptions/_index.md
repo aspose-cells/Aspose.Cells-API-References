@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.cells/pdfsaveoptions/pdfsaveoptions/
 ---
-## PdfSaveOptions() {#constructor}
+## PdfSaveOptions constructor
 
 Creates the options for saving pdf file.
 
@@ -16,32 +16,6 @@ public PdfSaveOptions()
 
 ### See Also
 
-* class [PdfSaveOptions](../../pdfsaveoptions)
-* namespace [Aspose.Cells](../../pdfsaveoptions)
-* assembly [Aspose.Cells](../../../)
-
----
-
-## PdfSaveOptions(SaveFormat) {#constructor_1}
-
-Creates the options for saving pdf file.
-
-```csharp
-[Obsolete("Use PdfSaveOptions() constructor instead.")]
-public PdfSaveOptions(SaveFormat saveFormat)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| saveFormat | SaveFormat | The save format.It must be pdf. |
-
-### Remarks
-
-NOTE: This constructor is now obsolete. Instead, please use PdfSaveOptions() constructor. This property will be removed 12 months later since January 2021. Aspose apologizes for any inconvenience you may have experienced.
-
-### See Also
-
-* enum [SaveFormat](../../saveformat)
 * class [PdfSaveOptions](../../pdfsaveoptions)
 * namespace [Aspose.Cells](../../pdfsaveoptions)
 * assembly [Aspose.Cells](../../../)

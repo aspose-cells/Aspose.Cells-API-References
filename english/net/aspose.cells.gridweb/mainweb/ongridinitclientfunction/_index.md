@@ -3,7 +3,7 @@ title: OnGridInitClientFunction
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the client side function name to be called when the grid is initialized. The client function should be declared like this function MyOnGridInitgrid  alertThe grid is initialized   grid.id Note You may use the this pointer in the client function to point the grid control which fires the event.
 type: docs
-weight: 650
+weight: 660
 url: /net/aspose.cells.gridweb/mainweb/ongridinitclientfunction/
 ---
 ## MainWeb.OnGridInitClientFunction property

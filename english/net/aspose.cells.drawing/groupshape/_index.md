@@ -164,7 +164,7 @@ public class GroupShape : Shape
 Workbook excelbook = new Workbook();
  
 //Add a group box to the first worksheet.
-Aspose.Cells.GroupBox box = excelbook.Worksheets[0].Shapes.AddGroupBox(1, 0, 1, 0, 300, 250);
+GroupBox box = excelbook.Worksheets[0].Shapes.AddGroupBox(1, 0, 1, 0, 300, 250);
  
 //Set the caption of the group box.
 box.Text = "Age Groups";
@@ -174,7 +174,7 @@ box.Placement = PlacementType.FreeFloating;
 box.Shadow = false;
  
 //Add a radio button.
-Aspose.Cells.RadioButton radio1 = excelbook.Worksheets[0].Shapes.AddRadioButton(3, 0, 2, 0, 30, 110);
+RadioButton radio1 = excelbook.Worksheets[0].Shapes.AddRadioButton(3, 0, 2, 0, 30, 110);
  
 //Set its text string.
 radio1.Text = "20-29";
@@ -207,7 +207,7 @@ radio1.LineFormat.IsVisible = true;
 radio1.FillFormat.IsVisible = true;
  
 //Add another radio button.
-Aspose.Cells.RadioButton radio2 = excelbook.Worksheets[0].Shapes.AddRadioButton(6, 0, 2, 0, 30, 110);
+RadioButton radio2 = excelbook.Worksheets[0].Shapes.AddRadioButton(6, 0, 2, 0, 30, 110);
  
 //Set its text string.
 radio2.Text = "30-39";
@@ -240,7 +240,7 @@ radio2.LineFormat.IsVisible = true;
 radio2.FillFormat.IsVisible = true;
  
 //Add another radio button.
-Aspose.Cells.RadioButton radio3 = excelbook.Worksheets[0].Shapes.AddRadioButton(9, 0, 2, 0, 30, 110);
+RadioButton radio3 = excelbook.Worksheets[0].Shapes.AddRadioButton(9, 0, 2, 0, 30, 110);
  
 //Set its text string.
 radio3.Text = "40-49";
@@ -273,10 +273,10 @@ radio3.LineFormat.IsVisible = true;
 radio3.FillFormat.IsVisible = true;
  
 //Get the shapes.
-Aspose.Cells.Shape[] shapeobjects = new Aspose.Cells.Shape[] { box, radio1, radio2, radio3 };
+Shape[] shapeobjects = new Shape[] { box, radio1, radio2, radio3 };
  
 //Group the shapes.
-Aspose.Cells.GroupShape group = excelbook.Worksheets[0].Shapes.Group(shapeobjects);
+GroupShape group = excelbook.Worksheets[0].Shapes.Group(shapeobjects);
  
 //Save the excel file.
 excelbook.Save("groupshapes.xls");
@@ -287,7 +287,7 @@ excelbook.Save("groupshapes.xls");
 Dim excelbook As Workbook = New Workbook()
  
 'Add a group box to the first worksheet.
-Dim box As Aspose.Cells.GroupBox = excelbook.Worksheets(0).Shapes.AddGroupBox(1, 0, 1, 0, 300, 250)
+Dim box As GroupBox = excelbook.Worksheets(0).Shapes.AddGroupBox(1, 0, 1, 0, 300, 250)
  
 'Set the caption of the group box.
 box.Text = "Age Groups"
@@ -297,7 +297,7 @@ box.Placement = PlacementType.FreeFloating
 box.Shadow = False
  
 'Add a radio button.
-Dim radio1 As Aspose.Cells.RadioButton = excelbook.Worksheets(0).Shapes.AddRadioButton(3, 0, 2, 0, 30, 110)
+Dim radio1 As RadioButton = excelbook.Worksheets(0).Shapes.AddRadioButton(3, 0, 2, 0, 30, 110)
  
 'Set its text string.
 radio1.Text = "20-29"
@@ -330,7 +330,7 @@ radio1.LineFormat.IsVisible = True
 radio1.FillFormat.IsVisible = True
  
 'Add another radio button.
-Dim radio2 As Aspose.Cells.RadioButton = excelbook.Worksheets(0).Shapes.AddRadioButton(6, 0, 2, 0, 30, 110)
+Dim radio2 As RadioButton = excelbook.Worksheets(0).Shapes.AddRadioButton(6, 0, 2, 0, 30, 110)
  
 'Set its text string.
 radio2.Text = "30-39"
@@ -363,7 +363,7 @@ radio2.LineFormat.IsVisible = True
 radio2.FillFormat.IsVisible = True
  
 'Add another radio button.
-Dim radio3 As Aspose.Cells.RadioButton = excelbook.Worksheets(0).Shapes.AddRadioButton(9, 0, 2, 0, 30, 110)
+Dim radio3 As RadioButton = excelbook.Worksheets(0).Shapes.AddRadioButton(9, 0, 2, 0, 30, 110)
  
 'Set its text string.
 radio3.Text = "40-49"
@@ -396,10 +396,10 @@ radio3.LineFormat.IsVisible = True
 radio3.FillFormat.IsVisible = True
  
 'Get the shapes.
-Dim shapeobjects() As Aspose.Cells.Shape = New Aspose.Cells.Shape() {box, radio1, radio2, radio3}
+Dim shapeobjects() As Shape = New Shape() {box, radio1, radio2, radio3}
  
 'Group the shapes.
-Dim group As Aspose.Cells.GroupShape = excelbook.Worksheets(0).Shapes.Group(shapeobjects)
+Dim group As GroupShape = excelbook.Worksheets(0).Shapes.Group(shapeobjects)
  
 'Save the excel file.
 excelbook.Save("groupshapes.xls")

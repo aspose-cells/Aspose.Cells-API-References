@@ -3,7 +3,7 @@ title: Top10Filter
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the top 10 filter.
 type: docs
-weight: 6130
+weight: 6150
 url: /net/aspose.cells/top10filter/
 ---
 ## Top10Filter class

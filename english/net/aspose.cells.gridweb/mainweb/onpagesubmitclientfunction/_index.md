@@ -3,7 +3,7 @@ title: OnPageSubmitClientFunction
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the client function to be called before the page is submitted at client side.
 type: docs
-weight: 680
+weight: 690
 url: /net/aspose.cells.gridweb/mainweb/onpagesubmitclientfunction/
 ---
 ## MainWeb.OnPageSubmitClientFunction property

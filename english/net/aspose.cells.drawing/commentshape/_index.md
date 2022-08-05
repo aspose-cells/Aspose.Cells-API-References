@@ -167,10 +167,11 @@ Workbook workbook = new Workbook(fileName);
 ShapeCollection shapes = workbook.Worksheets[0].Shapes;
 
 //Check if a shape is CommentShape
-CommentShape commentShape = shapes[0] as CommentShape;
-if(commentShape != null)
+CommentShape commentShape = null;
+if (shapes[0].MsoDrawingType == Aspose.Cells.Drawing.MsoDrawingType.Comment)
 {
     //Represents the shape of the comment.
+    commentShape = (CommentShape)shapes[0];
 }
 
 //do your business

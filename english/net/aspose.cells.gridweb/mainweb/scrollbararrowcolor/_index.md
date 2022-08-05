@@ -3,7 +3,7 @@ title: ScrollBarArrowColor
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the color of the scrollbars arrow button.
 type: docs
-weight: 760
+weight: 770
 url: /net/aspose.cells.gridweb/mainweb/scrollbararrowcolor/
 ---
 ## MainWeb.ScrollBarArrowColor property

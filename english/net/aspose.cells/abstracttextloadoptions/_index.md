@@ -27,7 +27,7 @@ public class AbstractTextLoadOptions : LoadOptions
 | [CultureInfo](../../aspose.cells/loadoptions/cultureinfo) { get; set; } | Gets or sets the system culture info at the time the file was loaded.(Inherited from [`LoadOptions`](../loadoptions).) |
 | [DefaultStyleSettings](../../aspose.cells/loadoptions/defaultstylesettings) { get; } | Gets the default style settings for initializing styles of the workbook(Inherited from [`LoadOptions`](../loadoptions).) |
 | [Encoding](../../aspose.cells/abstracttextloadoptions/encoding) { get; set; } | Gets and sets the default encoding. Only applies for csv file. |
-| [FontConfigs](../../aspose.cells/loadoptions/fontconfigs) { get; set; } | Gets and sets individual font configs. Only works for the [`Workbook`](../workbook) which uses this [`LoadOptions`](../loadoptions) to load.&gt;(Inherited from [`LoadOptions`](../loadoptions).) |
+| [FontConfigs](../../aspose.cells/loadoptions/fontconfigs) { get; set; } | Gets and sets individual font configs. Only works for the [`Workbook`](../workbook) which uses this [`LoadOptions`](../loadoptions) to load.(Inherited from [`LoadOptions`](../loadoptions).) |
 | [IgnoreNotPrinted](../../aspose.cells/loadoptions/ignorenotprinted) { get; set; } | Ignore the data which are not printed if directly printing the file(Inherited from [`LoadOptions`](../loadoptions).) |
 | [InterruptMonitor](../../aspose.cells/loadoptions/interruptmonitor) { get; set; } | Gets and sets the interrupt monitor.(Inherited from [`LoadOptions`](../loadoptions).) |
 | [KeepPrecision](../../aspose.cells/abstracttextloadoptions/keepprecision) { get; set; } | Indicates whether not parsing a string value if the length is 15. |

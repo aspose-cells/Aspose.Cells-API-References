@@ -3,7 +3,7 @@ title: Row
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a single row in a worksheet.
 type: docs
-weight: 5530
+weight: 5550
 url: /net/aspose.cells/row/
 ---
 ## Row class

@@ -27,12 +27,17 @@ public SvgSaveOptions()
 Creates the options for saving svg file.
 
 ```csharp
+[Obsolete("Use SvgSaveOptions() constructor instead.")]
 public SvgSaveOptions(SaveFormat saveFormat)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | saveFormat | SaveFormat | The file format. It must be svg. |
+
+### Remarks
+
+NOTE: This constructor is now obsolete. Instead, please use SvgSaveOptions() constructor. This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

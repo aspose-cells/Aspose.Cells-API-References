@@ -3,7 +3,7 @@ title: AjaxCallFinished
 second_title: Aspose.Cells for .NET API Reference
 description: Fires when the ajax update of the control finished.the EnableAJAX shall be set to true
 type: docs
-weight: 1120
+weight: 1130
 url: /net/aspose.cells.gridweb/mainweb/ajaxcallfinished/
 ---
 ## MainWeb.AjaxCallFinished event

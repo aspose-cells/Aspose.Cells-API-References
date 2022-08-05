@@ -3,7 +3,7 @@ title: ExportRowColumnHeadings
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether exports sheets row and column headings when saving to HTML files.
 type: docs
-weight: 270
+weight: 280
 url: /net/aspose.cells/htmlsaveoptions/exportrowcolumnheadings/
 ---
 ## HtmlSaveOptions.ExportRowColumnHeadings property

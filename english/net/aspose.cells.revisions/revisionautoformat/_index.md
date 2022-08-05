@@ -3,7 +3,7 @@ title: RevisionAutoFormat
 second_title: Aspose.Cells for .NET API Reference
 description: represents a revision record of information about a formatting change.
 type: docs
-weight: 5370
+weight: 5390
 url: /net/aspose.cells.revisions/revisionautoformat/
 ---
 ## RevisionAutoFormat class

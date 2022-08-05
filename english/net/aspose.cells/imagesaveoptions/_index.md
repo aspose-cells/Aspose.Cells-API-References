@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: Represents image save options
+description: Represents image save options. For advanced usage please use WorkbookRender../aspose.cells.rendering/workbookrender or SheetRender../aspose.cells.rendering/sheetrender.
 type: docs
 weight: 3900
 url: /net/aspose.cells/imagesaveoptions/
 ---
 ## ImageSaveOptions class
 
-Represents image save options
+Represents image save options. For advanced usage, please use [`WorkbookRender`](../../aspose.cells.rendering/workbookrender) or [`SheetRender`](../../aspose.cells.rendering/sheetrender).
 
 ```csharp
 public class ImageSaveOptions : SaveOptions

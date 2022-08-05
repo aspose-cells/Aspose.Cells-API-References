@@ -23,7 +23,7 @@ If this is a threaded comment, the note could not be changed, otherwise MS Excel
 ```csharp
 
 [C#]
-comment1.HtmlNote = "<Font Style="FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;">This is a <b>test</b>.</Font>";
+comment1.HtmlNote = "<Font Style='FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;'>This is a <b>test</b>.</Font>";
 ```
 
 ### See Also

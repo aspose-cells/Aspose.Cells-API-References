@@ -3,7 +3,7 @@ title: CustomCommand
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs when user clicks a custom command button.
 type: docs
-weight: 1240
+weight: 1250
 url: /net/aspose.cells.gridweb/mainweb/customcommand/
 ---
 ## MainWeb.CustomCommand event

@@ -3,7 +3,7 @@ title: ExportPageFooters
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether exporting page headers.
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.cells/htmlsaveoptions/exportpagefooters/
 ---
 ## HtmlSaveOptions.ExportPageFooters property

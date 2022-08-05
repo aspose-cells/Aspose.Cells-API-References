@@ -3,7 +3,7 @@ title: SessionSaved
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 820
+weight: 830
 url: /net/aspose.cells.gridweb/mainweb/sessionsaved/
 ---
 ## MainWeb.SessionSaved property

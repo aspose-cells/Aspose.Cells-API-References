@@ -3,7 +3,7 @@ title: JsonUtility
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the utility class of processing json.
 type: docs
-weight: 6220
+weight: 6240
 url: /net/aspose.cells.utility/jsonutility/
 ---
 ## JsonUtility class

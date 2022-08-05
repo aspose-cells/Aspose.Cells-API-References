@@ -3,7 +3,7 @@ title: PasteOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the paste special options.
 type: docs
-weight: 4510
+weight: 4520
 url: /net/aspose.cells/pasteoptions/
 ---
 ## PasteOptions class

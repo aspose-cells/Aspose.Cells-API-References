@@ -3,7 +3,7 @@ title: RotateTextWithShape
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether rotating text with shape.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.cells.drawing.texts/shapetextalignment/rotatetextwithshape/
 ---
 ## ShapeTextAlignment.RotateTextWithShape property

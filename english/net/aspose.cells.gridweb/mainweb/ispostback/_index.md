@@ -3,7 +3,7 @@ title: IsPostBack
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a value indicating whether gridweb is being loaded in response to a client postback or if it is being loaded and accessed for the first time.
 type: docs
-weight: 440
+weight: 450
 url: /net/aspose.cells.gridweb/mainweb/ispostback/
 ---
 ## MainWeb.IsPostBack property

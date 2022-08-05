@@ -3,7 +3,7 @@ title: Range
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents a range of cells within a spreadsheet.
 type: docs
-weight: 5060
+weight: 5070
 url: /net/aspose.cells/range/
 ---
 ## Range class

@@ -67,16 +67,16 @@ cells["C2"].PutValue("Q2");
 cells["C3"].PutValue("Y1");
 cells["C4"].PutValue("Y2");
 
-int chartIndex = excel.Worksheets[0].Charts.Add(ChartType.Column, 11, 0, 27, 10);
+int chartIndex = workbook.Worksheets[0].Charts.Add(ChartType.Column, 11, 0, 27, 10);
 
-Chart chart = excel.Worksheets[0].Charts[chartIndex];
+Chart chart = workbook.Worksheets[0].Charts[chartIndex];
 chart.NSeries.Add("A1:B4", true);
 
 chart.NSeries.CategoryData = "C1:C4";
 
 for(int i = 0; i < chart.NSeries.Count; i ++)
 {
-	ASeries aseries = chart.NSeries[i];
+	Series aseries = chart.NSeries[i];
 	aseries.YErrorBar.DisplayType = ErrorBarDisplayType.Minus;
 	aseries.YErrorBar.Type = ErrorBarType.FixedValue;
 	aseries.YErrorBar.Amount = 5;
@@ -99,9 +99,9 @@ cells("C2").PutValue("Q2")
 cells("C3").PutValue("Y1")
 cells("C4").PutValue("Y2")
 
-Dim chartIndex As Integer =  excel.Worksheets(0).Charts.Add(ChartType.Column,11,0,27,10) 
+Dim chartIndex As Integer =  workbook.Worksheets(0).Charts.Add(ChartType.Column,11,0,27,10) 
 
-Dim chart As Chart =  excel.Worksheets(0).Charts(chartIndex) 
+Dim chart As Chart =  workbook.Worksheets(0).Charts(chartIndex) 
 chart.NSeries.Add("A1:B4", True)
 
 chart.NSeries.CategoryData = "C1:C4"

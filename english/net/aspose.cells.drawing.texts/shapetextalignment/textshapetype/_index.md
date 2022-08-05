@@ -3,7 +3,7 @@ title: TextShapeType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and set the transform type of text.
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.cells.drawing.texts/shapetextalignment/textshapetype/
 ---
 ## ShapeTextAlignment.TextShapeType property

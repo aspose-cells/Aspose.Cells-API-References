@@ -3,7 +3,7 @@ title: XlsSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the save options for the Excel 97-2003 file format xls and xlt.
 type: docs
-weight: 6570
+weight: 6590
 url: /net/aspose.cells/xlssaveoptions/
 ---
 ## XlsSaveOptions class

@@ -3,7 +3,7 @@ title: ScrollBarBaseColor
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the color of the scroll bar of the control.
 type: docs
-weight: 770
+weight: 780
 url: /net/aspose.cells.gridweb/mainweb/scrollbarbasecolor/
 ---
 ## MainWeb.ScrollBarBaseColor property

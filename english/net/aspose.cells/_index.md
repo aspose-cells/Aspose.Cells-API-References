@@ -94,7 +94,7 @@ Contains all basic classes of Aspose.Cells.
 | [HyperlinkCollection](./hyperlinkcollection) | Encapsulates a collection of [`Hyperlink`](../aspose.cells/hyperlink) objects. |
 | [IconFilter](./iconfilter) | Represents icon filter. |
 | [IconSet](./iconset) | Describe the IconSet conditional formatting rule. This conditional formatting rule applies icons to cells according to their values. |
-| [ImageSaveOptions](./imagesaveoptions) | Represents image save options |
+| [ImageSaveOptions](./imagesaveoptions) | Represents image save options. For advanced usage, please use [`WorkbookRender`](../aspose.cells.rendering/workbookrender) or [`SheetRender`](../aspose.cells.rendering/sheetrender). |
 | [ImportTableOptions](./importtableoptions) | Represents the options of importing data into cells. |
 | [IndividualFontConfigs](./individualfontconfigs) | Font configs for each [`Workbook`](../aspose.cells/workbook) object. |
 | [InsertOptions](./insertoptions) | Represents the options of inserting. |
@@ -116,6 +116,7 @@ Contains all basic classes of Aspose.Cells.
 | [OoxmlSaveOptions](./ooxmlsaveoptions) | Represents the options of saving office open xml file. |
 | [Outline](./outline) | Represents an outline on a worksheet. |
 | [PageSetup](./pagesetup) | Encapsulates the object that represents the page setup description. The PageSetup object contains all page setup options. |
+| [PaginatedSaveOptions](./paginatedsaveoptions) | Represents the options for pagination. |
 | [PaneCollection](./panecollection) | Represents all Pane objects shown in the specified window. |
 | [PasteOptions](./pasteoptions) | Represents the paste special options. |
 | [PdfSaveOptions](./pdfsaveoptions) | Represents the options for saving pdf file. |
@@ -142,7 +143,7 @@ Contains all basic classes of Aspose.Cells.
 | [Style](./style) | Represents display style of excel document,such as font,color,alignment,border,etc. The Style object contains all style attributes (font, number format, alignment, and so on) as properties. |
 | [StyleFlag](./styleflag) | Represents flags which indicates applied formatting properties. |
 | [SubtotalSetting](./subtotalsetting) | Represents the setting of the subtotal . |
-| [SvgSaveOptions](./svgsaveoptions) | Represents Svg save options |
+| [SvgSaveOptions](./svgsaveoptions) | Represents Svg save options. For advanced usage, please use !:WorkbookRender or !:SheetRender. |
 | [ThemeColor](./themecolor) | Represents a theme color. |
 | [ThreadedComment](./threadedcomment) | Represents the threaded comment. |
 | [ThreadedCommentAuthor](./threadedcommentauthor) | Represents the person who creates the threaded comments; |
