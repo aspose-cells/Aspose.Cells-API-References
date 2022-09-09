@@ -3,7 +3,7 @@ title: WebExtensionShape
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the shape of web extension.
 type: docs
-weight: 3120
+weight: 3130
 url: /net/aspose.cells.drawing/webextensionshape/
 ---
 ## WebExtensionShape class

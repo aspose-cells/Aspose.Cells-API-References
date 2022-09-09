@@ -3,7 +3,7 @@ title: PdfSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the options for saving pdf file.
 type: docs
-weight: 4540
+weight: 4570
 url: /net/aspose.cells/pdfsaveoptions/
 ---
 ## PdfSaveOptions class

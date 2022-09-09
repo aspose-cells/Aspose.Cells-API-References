@@ -1,9 +1,9 @@
 ---
 title: TableStyleType
 second_title: Aspose.Cells for .NET API Reference
-description: Represents the built-in table style type.
+description: Represents the builtin table style type.
 type: docs
-weight: 5950
+weight: 5980
 url: /net/aspose.cells.tables/tablestyletype/
 ---
 ## TableStyleType enumeration

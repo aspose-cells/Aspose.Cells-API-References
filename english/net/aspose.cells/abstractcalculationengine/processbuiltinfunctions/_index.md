@@ -1,7 +1,7 @@
 ---
 title: ProcessBuiltInFunctions
 second_title: Aspose.Cells for .NET API Reference
-description: Whether built-in functions that have been supported by the built-in engine should be checked and processed by this implementation. Default is false. If user needs to change the calculation logic of some built-in functions this property should be set as true.
+description: Whether builtin functions that have been supported by the builtin engine should be checked and processed by this implementation. Default is false. If user needs to change the calculation logic of some builtin functions this property should be set as true.
 type: docs
 weight: 20
 url: /net/aspose.cells/abstractcalculationengine/processbuiltinfunctions/

@@ -1,7 +1,7 @@
 ---
 title: SubTitle
 second_title: Aspose.Cells for .NET API Reference
-description: Gets the charts sub-title. Only for ODS format file.
+description: Gets the charts subtitle. Only for ODS format file.
 type: docs
 weight: 440
 url: /net/aspose.cells.charts/chart/subtitle/

@@ -3,7 +3,7 @@ title: XmlMap
 second_title: Aspose.Cells for .NET API Reference
 description: Represents Xml map information.
 type: docs
-weight: 6640
+weight: 6670
 url: /net/aspose.cells/xmlmap/
 ---
 ## XmlMap class

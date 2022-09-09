@@ -3,7 +3,7 @@ title: Validation
 second_title: Aspose.Cells for .NET API Reference
 description: Represents data validation.settings.
 type: docs
-weight: 6250
+weight: 6280
 url: /net/aspose.cells/validation/
 ---
 ## Validation class

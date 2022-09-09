@@ -3,7 +3,7 @@ title: PrintOrderType
 second_title: Aspose.Cells for .NET API Reference
 description: Represent print order constants.
 type: docs
-weight: 4810
+weight: 4840
 url: /net/aspose.cells/printordertype/
 ---
 ## PrintOrderType enumeration

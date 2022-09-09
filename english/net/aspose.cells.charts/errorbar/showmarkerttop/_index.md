@@ -1,7 +1,7 @@
 ---
 title: ShowMarkerTTop
 second_title: Aspose.Cells for .NET API Reference
-description: Indicates if formatting error bars with a T-top.
+description: Indicates if formatting error bars with a Ttop.
 type: docs
 weight: 50
 url: /net/aspose.cells.charts/errorbar/showmarkerttop/

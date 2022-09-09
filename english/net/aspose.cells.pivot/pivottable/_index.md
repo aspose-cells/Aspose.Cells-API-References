@@ -3,7 +3,7 @@ title: PivotTable
 second_title: Aspose.Cells for .NET API Reference
 description: Summary description for PivotTable.
 type: docs
-weight: 4730
+weight: 4760
 url: /net/aspose.cells.pivot/pivottable/
 ---
 ## PivotTable class

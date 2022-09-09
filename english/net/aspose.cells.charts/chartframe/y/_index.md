@@ -3,7 +3,7 @@ title: Y
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area.
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.cells.charts/chartframe/y/
 ---
 ## ChartFrame.Y property

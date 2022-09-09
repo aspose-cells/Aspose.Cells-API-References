@@ -3,7 +3,7 @@ title: Range
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents a range of cells within a spreadsheet.
 type: docs
-weight: 5070
+weight: 5100
 url: /net/aspose.cells/range/
 ---
 ## Range class
@@ -64,9 +64,11 @@ public class Range
 | [MoveTo](../../aspose.cells/range/moveto)(int, int) | Move the current range to the dest range. |
 | [PutValue](../../aspose.cells/range/putvalue)(string, bool, bool) | Puts a value into the range, if appropriate the value will be converted to other data type and cell's number format will be reset. |
 | [SetInsideBorders](../../aspose.cells/range/setinsideborders)(BorderType, CellBorderType, CellsColor) | Set inside borders of the range. |
-| [SetOutlineBorder](../../aspose.cells/range/setoutlineborder)(BorderType, CellBorderType, Color) | Sets outline border around a range of cells. |
-| [SetOutlineBorders](../../aspose.cells/range/setoutlineborders#setoutlineborders)(CellBorderType, Color) | Sets the outline borders around a range of cells with same border style and color. |
-| [SetOutlineBorders](../../aspose.cells/range/setoutlineborders#setoutlineborders_1)(CellBorderType[], Color[]) | Sets out line borders around a range of cells. |
+| [SetOutlineBorder](../../aspose.cells/range/setoutlineborder#setoutlineborder)(BorderType, CellBorderType, CellsColor) | Sets outline border around a range of cells. |
+| [SetOutlineBorder](../../aspose.cells/range/setoutlineborder#setoutlineborder_1)(BorderType, CellBorderType, Color) | Sets outline border around a range of cells. |
+| [SetOutlineBorders](../../aspose.cells/range/setoutlineborders#setoutlineborders)(CellBorderType, CellsColor) | Sets the outline borders around a range of cells with same border style and color. |
+| [SetOutlineBorders](../../aspose.cells/range/setoutlineborders#setoutlineborders_1)(CellBorderType, Color) | Sets the outline borders around a range of cells with same border style and color. |
+| [SetOutlineBorders](../../aspose.cells/range/setoutlineborders#setoutlineborders_2)(CellBorderType[], Color[]) | Sets out line borders around a range of cells. |
 | [SetStyle](../../aspose.cells/range/setstyle)(Style) | Sets the style of the range. |
 | override [ToString](../../aspose.cells/range/tostring)() | Returns a string represents the current Range object. |
 | [Union](../../aspose.cells/range/union)(Range) | Returns the union of two ranges. |

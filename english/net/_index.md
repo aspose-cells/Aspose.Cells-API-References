@@ -20,6 +20,7 @@ is_root: true
 | [Aspose.Cells.ExternalConnections](./aspose.cells.externalconnections) | Contains all classes of external connections. |
 | [Aspose.Cells.Markup](./aspose.cells.markup) | Contains all classes of smart tag. |
 | [Aspose.Cells.Metadata](./aspose.cells.metadata) | Contains all classes of loading and saving metadata. |
+| [Aspose.Cells.Numbers](./aspose.cells.numbers) |  |
 | [Aspose.Cells.Ods](./aspose.cells.ods) | Contains all classes about Ods files. |
 | [Aspose.Cells.Pivot](./aspose.cells.pivot) | Contains all classes of PivotTable. |
 | [Aspose.Cells.Properties](./aspose.cells.properties) | Contains all core classes of Aspose.Cells. |

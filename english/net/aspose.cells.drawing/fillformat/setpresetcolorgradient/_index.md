@@ -1,7 +1,7 @@
 ---
 title: SetPresetColorGradient
 second_title: Aspose.Cells for .NET API Reference
-description: Sets the specified fill to a preset-color gradient. Only applies for Excel 2007.
+description: Sets the specified fill to a presetcolor gradient. Only applies for Excel 2007.
 type: docs
 weight: 240
 url: /net/aspose.cells.drawing/fillformat/setpresetcolorgradient/

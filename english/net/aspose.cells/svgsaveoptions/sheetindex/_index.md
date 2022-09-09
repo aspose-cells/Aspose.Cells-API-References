@@ -1,7 +1,7 @@
 ---
 title: SheetIndex
 second_title: Aspose.Cells for .NET API Reference
-description: Gets and sets which worksheet should be exported. If the value is -1 the active worksheet will be exported.
+description: Gets and sets which worksheet should be exported. If the value is 1 the active worksheet will be exported.
 type: docs
 weight: 20
 url: /net/aspose.cells/svgsaveoptions/sheetindex/

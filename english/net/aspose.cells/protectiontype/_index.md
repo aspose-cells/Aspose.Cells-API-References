@@ -3,7 +3,7 @@ title: ProtectionType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents workbook/worksheet protection type.
 type: docs
-weight: 4960
+weight: 4990
 url: /net/aspose.cells/protectiontype/
 ---
 ## ProtectionType enumeration

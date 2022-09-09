@@ -62,6 +62,7 @@ public class DataLabels : ChartTextFrame
 | [TextDirection](../../aspose.cells.charts/charttextframe/textdirection) { get; set; } | (**Obsolete.**) Represents text reading order.(Inherited from [`ChartTextFrame`](../charttextframe).) |
 | virtual [TextFont](../../aspose.cells.charts/chartframe/textfont) { get; } | (**Obsolete.**) Gets a [`Font`](../chartframe/font) object of the specified ChartFrame object.(Inherited from [`ChartFrame`](../chartframe).) |
 | [TextHorizontalAlignment](../../aspose.cells.charts/charttextframe/texthorizontalalignment) { get; set; } | Gets and sets the text horizontal alignment.(Inherited from [`ChartTextFrame`](../charttextframe).) |
+| virtual [TextOptions](../../aspose.cells.charts/chartframe/textoptions) { get; } | Gets and sets the options of the text.(Inherited from [`ChartFrame`](../chartframe).) |
 | [TextVerticalAlignment](../../aspose.cells.charts/charttextframe/textverticalalignment) { get; set; } | Gets or sets the text vertical alignment of text.(Inherited from [`ChartTextFrame`](../charttextframe).) |
 | virtual [Width](../../aspose.cells.charts/chartframe/width) { get; set; } | Gets or sets the width of frame in units of 1/4000 of the chart area.(Inherited from [`ChartFrame`](../chartframe).) |
 | virtual [X](../../aspose.cells.charts/chartframe/x) { get; set; } | Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the chart area.(Inherited from [`ChartFrame`](../chartframe).) |

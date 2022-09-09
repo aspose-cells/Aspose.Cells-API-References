@@ -3,7 +3,7 @@ title: PdfFontEncoding
 second_title: Aspose.Cells for .NET API Reference
 description: Represents pdf embedded font encoding.
 type: docs
-weight: 5260
+weight: 5290
 url: /net/aspose.cells.rendering/pdffontencoding/
 ---
 ## PdfFontEncoding enumeration

@@ -3,7 +3,7 @@ title: Metered
 second_title: Aspose.Cells for .NET API Reference
 description: Provides methods to set metered key.
 type: docs
-weight: 4210
+weight: 4220
 url: /net/aspose.cells/metered/
 ---
 ## Metered class

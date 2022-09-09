@@ -3,7 +3,7 @@ title: TableStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the table style.
 type: docs
-weight: 5900
+weight: 5930
 url: /net/aspose.cells.tables/tablestyle/
 ---
 ## TableStyle class

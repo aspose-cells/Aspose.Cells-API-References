@@ -3,7 +3,7 @@ title: Shape
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the msodrawing object.
 type: docs
-weight: 2640
+weight: 2650
 url: /net/aspose.cells.drawing/shape/
 ---
 ## Shape class

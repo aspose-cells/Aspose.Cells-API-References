@@ -3,7 +3,7 @@ title: PivotTableCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the collection of all the PivotTable objects on the specified worksheet.
 type: docs
-weight: 4750
+weight: 4780
 url: /net/aspose.cells.pivot/pivottablecollection/
 ---
 ## PivotTableCollection class

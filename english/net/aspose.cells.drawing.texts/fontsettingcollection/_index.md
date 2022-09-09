@@ -3,7 +3,7 @@ title: FontSettingCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the list of FontSetting../aspose.cells/fontsetting.
 type: docs
-weight: 2920
+weight: 2930
 url: /net/aspose.cells.drawing.texts/fontsettingcollection/
 ---
 ## FontSettingCollection class

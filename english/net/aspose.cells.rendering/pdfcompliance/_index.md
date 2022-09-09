@@ -3,7 +3,7 @@ title: PdfCompliance
 second_title: Aspose.Cells for .NET API Reference
 description: Allowing user to set PDF conversions Compatibility
 type: docs
-weight: 5230
+weight: 5260
 url: /net/aspose.cells.rendering/pdfcompliance/
 ---
 ## PdfCompliance enumeration

@@ -3,7 +3,7 @@ title: XmlMapCollection
 second_title: Aspose.Cells for .NET API Reference
 description: A collection of XmlMap./xmlmap objects that represent XmlMap information.
 type: docs
-weight: 6650
+weight: 6680
 url: /net/aspose.cells/xmlmapcollection/
 ---
 ## XmlMapCollection class

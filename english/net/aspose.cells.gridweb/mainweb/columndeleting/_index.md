@@ -1,7 +1,7 @@
 ---
 title: ColumnDeleting
 second_title: Aspose.Cells for .NET API Reference
-description: Occurs when user is trying to delete a column from the client-side menu. You may handle this event and set the cancel parameter to True to cancel a deleting operation.
+description: Occurs when user is trying to delete a column from the clientside menu. You may handle this event and set the cancel parameter to True to cancel a deleting operation.
 type: docs
 weight: 1220
 url: /net/aspose.cells.gridweb/mainweb/columndeleting/

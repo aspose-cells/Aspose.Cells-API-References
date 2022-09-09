@@ -18,7 +18,7 @@ public void GroupRows(int firstIndex, int lastIndex, bool isHidden)
 | --- | --- | --- |
 | firstIndex | Int32 | The first row index to be grouped. |
 | lastIndex | Int32 | The last row index to be grouped. |
-| isHidden | Boolean | Specifies if the grouped columns are hidden. |
+| isHidden | Boolean | Specifies if the grouped rows are hidden. |
 
 ### See Also
 

@@ -1,7 +1,7 @@
 ---
 title: HeightPercent
 second_title: Aspose.Cells for .NET API Reference
-description: Returns or sets the height of a 3-D chart as a percentage of the chart width between 5 and 500 percent.
+description: Returns or sets the height of a 3D chart as a percentage of the chart width between 5 and 500 percent.
 type: docs
 weight: 150
 url: /net/aspose.cells.charts/chart/heightpercent/

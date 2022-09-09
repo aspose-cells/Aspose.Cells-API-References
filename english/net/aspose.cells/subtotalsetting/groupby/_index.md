@@ -1,7 +1,7 @@
 ---
 title: GroupBy
 second_title: Aspose.Cells for .NET API Reference
-description: The field to group by as a zero-based integer offset
+description: The field to group by as a zerobased integer offset
 type: docs
 weight: 10
 url: /net/aspose.cells/subtotalsetting/groupby/

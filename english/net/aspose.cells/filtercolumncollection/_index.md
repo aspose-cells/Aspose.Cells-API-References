@@ -3,7 +3,7 @@ title: FilterColumnCollection
 second_title: Aspose.Cells for .NET API Reference
 description: A collection of Filter objects that represents all the filters in an autofiltered range.
 type: docs
-weight: 3460
+weight: 3470
 url: /net/aspose.cells/filtercolumncollection/
 ---
 ## FilterColumnCollection class

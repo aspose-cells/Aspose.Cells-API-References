@@ -3,7 +3,7 @@ title: DBConnection
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies all properties associated with an ODBC or OLE DB external data connection.
 type: docs
-weight: 3300
+weight: 3310
 url: /net/aspose.cells.externalconnections/dbconnection/
 ---
 ## DBConnection class

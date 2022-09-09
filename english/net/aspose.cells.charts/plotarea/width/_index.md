@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Cells for .NET API Reference
-description: Gets or sets the width of plot-area bounding box in units of 1/4000 of the chart area.
+description: Gets or sets the width of plotarea bounding box in units of 1/4000 of the chart area.
 type: docs
 weight: 70
 url: /net/aspose.cells.charts/plotarea/width/

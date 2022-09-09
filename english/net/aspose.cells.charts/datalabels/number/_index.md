@@ -1,7 +1,7 @@
 ---
 title: Number
 second_title: Aspose.Cells for .NET API Reference
-description: Gets and sets the built-in number format.
+description: Gets and sets the builtin number format.
 type: docs
 weight: 90
 url: /net/aspose.cells.charts/datalabels/number/

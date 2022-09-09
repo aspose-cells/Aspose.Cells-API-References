@@ -3,7 +3,7 @@ title: StyleFlag
 second_title: Aspose.Cells for .NET API Reference
 description: Represents flags which indicates applied formatting properties.
 type: docs
-weight: 5810
+weight: 5840
 url: /net/aspose.cells/styleflag/
 ---
 ## StyleFlag class

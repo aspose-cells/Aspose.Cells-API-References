@@ -3,7 +3,7 @@ title: Timeline
 second_title: Aspose.Cells for .NET API Reference
 description: summary description of Timeline View
 type: docs
-weight: 6120
+weight: 6150
 url: /net/aspose.cells.timelines/timeline/
 ---
 ## Timeline class
@@ -78,11 +78,10 @@ sheet.Timelines.Add(pivot, 10, 5, "date");
 //Get Timeline object
 Timeline timelineObj = sheet.Timelines[0];
 
-
+//do your business
 
 book.Save("out.xlsx");
 
-//do your business
 ```
 
 ### See Also

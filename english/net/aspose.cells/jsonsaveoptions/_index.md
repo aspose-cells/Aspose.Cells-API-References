@@ -3,7 +3,7 @@ title: JsonSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the options of saving the workbook as a json file.
 type: docs
-weight: 3960
+weight: 3970
 url: /net/aspose.cells/jsonsaveoptions/
 ---
 ## JsonSaveOptions class

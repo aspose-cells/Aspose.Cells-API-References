@@ -1,7 +1,7 @@
 ---
 title: AutoShapeType
 second_title: Aspose.Cells for .NET API Reference
-description: Represents all built-in auto shape type.
+description: Represents all builtin auto shape type.
 type: docs
 weight: 1780
 url: /net/aspose.cells.drawing/autoshapetype/

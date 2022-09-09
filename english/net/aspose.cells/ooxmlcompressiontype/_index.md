@@ -3,7 +3,7 @@ title: OoxmlCompressionType
 second_title: Aspose.Cells for .NET API Reference
 description: The Ooxml compression type
 type: docs
-weight: 4390
+weight: 4420
 url: /net/aspose.cells/ooxmlcompressiontype/
 ---
 ## OoxmlCompressionType enumeration

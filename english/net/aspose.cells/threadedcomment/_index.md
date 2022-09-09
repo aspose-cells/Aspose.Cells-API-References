@@ -3,7 +3,7 @@ title: ThreadedComment
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the threaded comment.
 type: docs
-weight: 6070
+weight: 6100
 url: /net/aspose.cells/threadedcomment/
 ---
 ## ThreadedComment class

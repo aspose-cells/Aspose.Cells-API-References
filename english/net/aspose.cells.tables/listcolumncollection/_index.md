@@ -3,7 +3,7 @@ title: ListColumnCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents A collection of all the ListColumn./listcolumn objects in the specified ListObject object.
 type: docs
-weight: 5860
+weight: 5890
 url: /net/aspose.cells.tables/listcolumncollection/
 ---
 ## ListColumnCollection class

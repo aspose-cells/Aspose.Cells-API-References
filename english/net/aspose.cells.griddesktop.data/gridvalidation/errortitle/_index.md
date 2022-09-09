@@ -1,7 +1,7 @@
 ---
 title: ErrorTitle
 second_title: Aspose.Cells for .NET API Reference
-description: Represents the title of the data-validation error dialog box.
+description: Represents the title of the datavalidation error dialog box.
 type: docs
 weight: 90
 url: /net/aspose.cells.griddesktop.data/gridvalidation/errortitle/

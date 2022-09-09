@@ -3,7 +3,7 @@ title: CustomDocumentPropertyCollection
 second_title: Aspose.Cells for .NET API Reference
 description: A collection of custom document properties.
 type: docs
-weight: 4870
+weight: 4900
 url: /net/aspose.cells.properties/customdocumentpropertycollection/
 ---
 ## CustomDocumentPropertyCollection class

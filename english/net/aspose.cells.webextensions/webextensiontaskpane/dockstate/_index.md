@@ -1,7 +1,7 @@
 ---
 title: DockState
 second_title: Aspose.Cells for .NET API Reference
-description: Gets and sets the last-docked location of this taskpane object.
+description: Gets and sets the lastdocked location of this taskpane object.
 type: docs
 weight: 10
 url: /net/aspose.cells.webextensions/webextensiontaskpane/dockstate/

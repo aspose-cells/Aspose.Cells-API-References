@@ -3,7 +3,7 @@ title: Workbook
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a root object to create an Excel spreadsheet.
 type: docs
-weight: 6530
+weight: 6560
 url: /net/aspose.cells/workbook/
 ---
 ## Workbook class
@@ -91,7 +91,8 @@ public class Workbook : IDisposable
 | [ParseFormulas](../../aspose.cells/workbook/parseformulas)(bool) | Parses all formulas which have not been parsed when they were loaded from template file or set to a cell. |
 | [Protect](../../aspose.cells/workbook/protect)(ProtectionType, string) | Protects a workbook. |
 | [ProtectSharedWorkbook](../../aspose.cells/workbook/protectsharedworkbook)(string) | Protects a shared workbook. |
-| [RefreshDynamicArrayFormulas](../../aspose.cells/workbook/refreshdynamicarrayformulas)(bool) | Refreshes dynamic array formulas(spill into new range of neighboring cells according to current data) |
+| [RefreshDynamicArrayFormulas](../../aspose.cells/workbook/refreshdynamicarrayformulas#refreshdynamicarrayformulas)(bool) | Refreshes dynamic array formulas(spill into new range of neighboring cells according to current data) Other formulas in the workbook will not be calculated recursively even if they were used by dynamic array formulas. |
+| [RefreshDynamicArrayFormulas](../../aspose.cells/workbook/refreshdynamicarrayformulas#refreshdynamicarrayformulas_1)(bool, CalculationOptions) | Refreshes dynamic array formulas(spill into new range of neighboring cells according to current data) |
 | [RemoveDigitalSignature](../../aspose.cells/workbook/removedigitalsignature)() | Removes digital signature from this spreadsheet. |
 | [RemoveExternalLinks](../../aspose.cells/workbook/removeexternallinks)() | (**Obsolete.**) Removes all external links in the workbook. |
 | [RemoveMacro](../../aspose.cells/workbook/removemacro)() | Removes VBA/macro from this spreadsheet. |

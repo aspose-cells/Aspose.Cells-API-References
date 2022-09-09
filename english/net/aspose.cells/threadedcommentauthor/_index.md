@@ -3,7 +3,7 @@ title: ThreadedCommentAuthor
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the person who creates the threaded comments
 type: docs
-weight: 6080
+weight: 6110
 url: /net/aspose.cells/threadedcommentauthor/
 ---
 ## ThreadedCommentAuthor class

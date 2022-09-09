@@ -35,6 +35,7 @@ public class ChartFrame
 | [Shadow](../../aspose.cells.charts/chartframe/shadow) { get; set; } | True if the frame has a shadow. |
 | [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties) { get; } | Gets the [`ShapeProperties`](./shapeproperties) object. |
 | virtual [TextFont](../../aspose.cells.charts/chartframe/textfont) { get; } | (**Obsolete.**) Gets a [`Font`](./font) object of the specified ChartFrame object. |
+| virtual [TextOptions](../../aspose.cells.charts/chartframe/textoptions) { get; } | Gets and sets the options of the text. |
 | virtual [Width](../../aspose.cells.charts/chartframe/width) { get; set; } | Gets or sets the width of frame in units of 1/4000 of the chart area. |
 | virtual [X](../../aspose.cells.charts/chartframe/x) { get; set; } | Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the chart area. |
 | virtual [Y](../../aspose.cells.charts/chartframe/y) { get; set; } | Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |

@@ -1,7 +1,7 @@
 ---
 title: ColumnCollection
 second_title: Aspose.Cells for .NET API Reference
-description: Collection of the  objects that represent the individual columnsettings in a worksheet. The Column object only represents the settings such as column width styles .etc. for the whole column has nothing to do with the fact that there are non-empty cellsdata or not in corresponding column. And the Count of this collection only represents the count Column objects that have been instantiated in this collection has nothing to do with the fact that there are non-empty cellsdata or not in the worksheet.
+description: Collection of the  objects that represent the individual columnsettings in a worksheet. The Column object only represents the settings such as column width styles .etc. for the whole column has nothing to do with the fact that there are nonempty cellsdata or not in corresponding column. And the Count of this collection only represents the count Column objects that have been instantiated in this collection has nothing to do with the fact that there are nonempty cellsdata or not in the worksheet.
 type: docs
 weight: 1080
 url: /net/aspose.cells/columncollection/

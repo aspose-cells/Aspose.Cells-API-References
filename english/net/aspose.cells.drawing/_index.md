@@ -124,6 +124,7 @@ Contains all classes of drawing objects, such as Images, Forms, Lines etc..
 | [PresetCameraType](./presetcameratype) | Represent different algorithmic methods for setting all camera properties, including position. |
 | [PresetMaterialType](./presetmaterialtype) | Describes surface appearance of a shape. |
 | [PresetShadowType](./presetshadowtype) | Represents preset shadow type. |
+| [PresetThemeGradientType](./presetthemegradienttype) | Represents the preset theme gradient type. |
 | [PresetWordArtStyle](./presetwordartstyle) | Represents the preset WordArt styles. |
 | [RectangleAlignmentType](./rectanglealignmenttype) | Represents how to position two rectangles relative to each other. |
 | [ReflectionEffectType](./reflectioneffecttype) |  |

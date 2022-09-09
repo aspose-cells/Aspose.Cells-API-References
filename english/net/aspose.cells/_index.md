@@ -143,7 +143,7 @@ Contains all basic classes of Aspose.Cells.
 | [Style](./style) | Represents display style of excel document,such as font,color,alignment,border,etc. The Style object contains all style attributes (font, number format, alignment, and so on) as properties. |
 | [StyleFlag](./styleflag) | Represents flags which indicates applied formatting properties. |
 | [SubtotalSetting](./subtotalsetting) | Represents the setting of the subtotal . |
-| [SvgSaveOptions](./svgsaveoptions) | Represents Svg save options. For advanced usage, please use !:WorkbookRender or !:SheetRender. |
+| [SvgSaveOptions](./svgsaveoptions) | Represents Svg save options. For advanced usage, please use [`WorkbookRender`](../aspose.cells.rendering/workbookrender) or [`SheetRender`](../aspose.cells.rendering/sheetrender). |
 | [ThemeColor](./themecolor) | Represents a theme color. |
 | [ThreadedComment](./threadedcomment) | Represents the threaded comment. |
 | [ThreadedCommentAuthor](./threadedcommentauthor) | Represents the person who creates the threaded comments; |
@@ -198,7 +198,7 @@ Contains all basic classes of Aspose.Cells.
 | [AutoFitWrappedTextType](./autofitwrappedtexttype) | Represents the type of auto fitting wrapped text. |
 | [BackgroundType](./backgroundtype) | Enumerates cell background pattern types. |
 | [BorderType](./bordertype) | Enumerates the border line and diagonal line types. |
-| [BuiltinStyleType](./builtinstyletype) | Represents all built-in style type |
+| [BuiltinStyleType](./builtinstyletype) | Represents all built-in style types. |
 | [CalcModeType](./calcmodetype) | Represents the mode type of calculating formulas. |
 | [CalculationPrecisionStrategy](./calculationprecisionstrategy) | Enumerates strategies for handling calculation precision. Because of the precision issue of IEEE 754 Floating-Point Arithmetic, some "seemingly simple" formulas may not be calculated as the expected result. Such as formula "=-0.45+0.43+0.02", when calculating operands by '+' operator directly, the result is not zero. For such kind of precision issue, some special strategies may give the expected result. |
 | [CellBorderType](./cellbordertype) | Enumerates a cell's border type. |

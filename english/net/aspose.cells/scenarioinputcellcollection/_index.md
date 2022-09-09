@@ -3,7 +3,7 @@ title: ScenarioInputCellCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the list of the scenarios input cells.
 type: docs
-weight: 5650
+weight: 5680
 url: /net/aspose.cells/scenarioinputcellcollection/
 ---
 ## ScenarioInputCellCollection class

@@ -1,7 +1,7 @@
 ---
 title: SelectedIndex
 second_title: Aspose.Cells for .NET API Reference
-description: Gets or sets the index number of the currently selected item in a list box or combo box. Zero-based.
+description: Gets or sets the index number of the currently selected item in a list box or combo box. Zerobased.
 type: docs
 weight: 30
 url: /net/aspose.cells.drawing/combobox/selectedindex/

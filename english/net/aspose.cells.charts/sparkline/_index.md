@@ -54,7 +54,7 @@ public class Sparkline
  SparklineGroup group = sheet.SparklineGroupCollection[idx];
  idx = group.SparklineCollection.Add(sheet.Name + "!A1:D1", 0, 4);
  Sparkline line = group.SparklineCollection[idx];
- Console.WriteLine($"Saprkline data range:{line.DataRange}, row:{line.Row}, column:{line.Column}");
+ Console.WriteLine("Saprkline data range: " + line.DataRange + ", row: " + line.Row + ", column: " + line.Column);
  line.ToImage("output.png", new ImageOrPrintOptions());
 ```
 

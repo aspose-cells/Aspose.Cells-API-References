@@ -1,7 +1,7 @@
 ---
 title: BackgroundArgbColor
 second_title: Aspose.Cells for .NET API Reference
-description: Gets and sets the background color with a 32-bit ARGB value.
+description: Gets and sets the background color with a 32bit ARGB value.
 type: docs
 weight: 20
 url: /net/aspose.cells/style/backgroundargbcolor/

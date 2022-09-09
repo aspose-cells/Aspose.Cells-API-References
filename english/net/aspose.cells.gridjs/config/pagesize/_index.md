@@ -1,7 +1,7 @@
 ---
 title: PageSize
 second_title: Aspose.Cells for .NET API Reference
-description: Sets whether to do pagination GridJs will limit the row size based on the PageSizeif PageSize is -1it will not do pagination the default value is -1
+description: Sets whether to do pagination GridJs will limit the row size based on the PageSizeif PageSize is 1it will not do pagination the default value is 1
 type: docs
 weight: 120
 url: /net/aspose.cells.gridjs/config/pagesize/

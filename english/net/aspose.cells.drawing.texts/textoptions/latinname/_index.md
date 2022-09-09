@@ -3,7 +3,7 @@ title: LatinName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the latin name.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.cells.drawing.texts/textoptions/latinname/
 ---
 ## TextOptions.LatinName property

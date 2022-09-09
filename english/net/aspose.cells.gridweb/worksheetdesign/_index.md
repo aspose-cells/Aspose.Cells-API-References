@@ -1,7 +1,7 @@
 ---
 title: WorksheetDesign
 second_title: Aspose.Cells for .NET API Reference
-description: Inherited from WebWorksheet. Used in design-time only.
+description: Inherited from WebWorksheet. Used in designtime only.
 type: docs
 weight: 1170
 url: /net/aspose.cells.gridweb/worksheetdesign/

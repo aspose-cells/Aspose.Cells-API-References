@@ -3,7 +3,7 @@ title: ProtectedRangeCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates a collection of ProtectedRange./protectedrange objects.
 type: docs
-weight: 4940
+weight: 4970
 url: /net/aspose.cells/protectedrangecollection/
 ---
 ## ProtectedRangeCollection class

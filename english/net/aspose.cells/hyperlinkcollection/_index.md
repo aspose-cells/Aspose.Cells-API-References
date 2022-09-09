@@ -3,7 +3,7 @@ title: HyperlinkCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates a collection of Hyperlink./hyperlink objects.
 type: docs
-weight: 3780
+weight: 3790
 url: /net/aspose.cells/hyperlinkcollection/
 ---
 ## HyperlinkCollection class

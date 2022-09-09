@@ -1,7 +1,7 @@
 ---
 title: AutoScaling
 second_title: Aspose.Cells for .NET API Reference
-description: True if Microsoft Excel scales a 3-D chart so that its closer in size to the equivalent 2-D chart. The RightAngleAxes property must be True.
+description: True if Microsoft Excel scales a 3D chart so that its closer in size to the equivalent 2D chart. The RightAngleAxes property must be True.
 type: docs
 weight: 20
 url: /net/aspose.cells.charts/chart/autoscaling/

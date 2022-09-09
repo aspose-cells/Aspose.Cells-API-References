@@ -35,6 +35,7 @@ public class ChartArea : ChartFrame
 | [Shadow](../../aspose.cells.charts/chartframe/shadow) { get; set; } | True if the frame has a shadow.(Inherited from [`ChartFrame`](../chartframe).) |
 | [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties) { get; } | Gets the [`ShapeProperties`](../chartframe/shapeproperties) object.(Inherited from [`ChartFrame`](../chartframe).) |
 | virtual [TextFont](../../aspose.cells.charts/chartframe/textfont) { get; } | (**Obsolete.**) Gets a [`Font`](../chartframe/font) object of the specified ChartFrame object.(Inherited from [`ChartFrame`](../chartframe).) |
+| virtual [TextOptions](../../aspose.cells.charts/chartframe/textoptions) { get; } | Gets and sets the options of the text.(Inherited from [`ChartFrame`](../chartframe).) |
 | override [Width](../../aspose.cells.charts/chartarea/width) { get; set; } | Gets or sets the horizontal offset from its lower right corner column. |
 | override [X](../../aspose.cells.charts/chartarea/x) { get; set; } | Gets or gets the horizontal offset from its upper left corner column. |
 | override [Y](../../aspose.cells.charts/chartarea/y) { get; set; } | Gets or gets the vertical offset from its upper left corner row. |

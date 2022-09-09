@@ -3,7 +3,7 @@ title: IsFormulas
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the data are formulas.
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.cells/importtableoptions/isformulas/
 ---
 ## ImportTableOptions.IsFormulas property

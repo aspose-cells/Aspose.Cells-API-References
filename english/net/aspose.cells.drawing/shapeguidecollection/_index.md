@@ -3,7 +3,7 @@ title: ShapeGuideCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates a collection of shape guide
 type: docs
-weight: 2690
+weight: 2700
 url: /net/aspose.cells.drawing/shapeguidecollection/
 ---
 ## ShapeGuideCollection class

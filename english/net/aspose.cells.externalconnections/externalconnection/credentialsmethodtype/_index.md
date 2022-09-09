@@ -1,7 +1,7 @@
 ---
 title: CredentialsMethodType
 second_title: Aspose.Cells for .NET API Reference
-description: Specifies the authentication method to be used when establishing or re-establishing the connection.
+description: Specifies the authentication method to be used when establishing or reestablishing the connection.
 type: docs
 weight: 50
 url: /net/aspose.cells.externalconnections/externalconnection/credentialsmethodtype/

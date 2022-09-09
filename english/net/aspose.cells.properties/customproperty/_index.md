@@ -3,7 +3,7 @@ title: CustomProperty
 second_title: Aspose.Cells for .NET API Reference
 description: Represents identifier information.
 type: docs
-weight: 4880
+weight: 4910
 url: /net/aspose.cells.properties/customproperty/
 ---
 ## CustomProperty class

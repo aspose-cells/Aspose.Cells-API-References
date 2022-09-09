@@ -16,7 +16,7 @@ public Workbook()
 
 ### Remarks
 
-The default file format type is Excel97To2003.If want create other format file type, please call Workbook(FileFormatType fileFormatType).
+The default file format type is Xlsx. To create other format file type, please use Workbook(FileFormatType).
 
 ### Examples
 

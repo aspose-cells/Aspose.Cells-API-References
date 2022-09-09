@@ -3,7 +3,7 @@ title: ReflectionEffectType
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2600
+weight: 2610
 url: /net/aspose.cells.drawing/reflectioneffecttype/
 ---
 ## ReflectionEffectType enumeration

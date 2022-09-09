@@ -3,7 +3,7 @@ title: JsonLoadOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the options of loading json files
 type: docs
-weight: 3950
+weight: 3960
 url: /net/aspose.cells/jsonloadoptions/
 ---
 ## JsonLoadOptions class

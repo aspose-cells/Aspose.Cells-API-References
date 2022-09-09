@@ -3,7 +3,7 @@ title: LightCellsDataHandler
 second_title: Aspose.Cells for .NET API Reference
 description: Represents cells data handler for reading large spreadsheet files in light weight mode.
 type: docs
-weight: 3980
+weight: 3990
 url: /net/aspose.cells/lightcellsdatahandler/
 ---
 ## LightCellsDataHandler interface

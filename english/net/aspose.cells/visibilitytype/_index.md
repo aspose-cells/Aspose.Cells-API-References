@@ -3,7 +3,7 @@ title: VisibilityType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the states for sheet visibility.
 type: docs
-weight: 6390
+weight: 6420
 url: /net/aspose.cells/visibilitytype/
 ---
 ## VisibilityType enumeration
@@ -18,9 +18,9 @@ public enum VisibilityType
 
 | Name | Value | Description |
 | --- | --- | --- |
+| Visible | `0` | Indicates the sheet is visible. |
 | Hidden | `1` | Indicates the sheet is hidden, but can be shown by the user via the user interface. |
 | VeryHidden | `2` | Indicates the sheet is hidden and cannot be shown in the user interface (UI). This state is only available programmatically. |
-| Visible | `0` | Indicates the sheet is visible. |
 
 ### See Also
 

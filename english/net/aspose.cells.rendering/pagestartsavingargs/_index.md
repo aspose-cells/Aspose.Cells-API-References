@@ -3,7 +3,7 @@ title: PageStartSavingArgs
 second_title: Aspose.Cells for .NET API Reference
 description: Info for a page starts saving process.
 type: docs
-weight: 5210
+weight: 5240
 url: /net/aspose.cells.rendering/pagestartsavingargs/
 ---
 ## PageStartSavingArgs class

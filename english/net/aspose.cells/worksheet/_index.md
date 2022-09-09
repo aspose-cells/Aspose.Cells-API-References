@@ -3,7 +3,7 @@ title: Worksheet
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents a single worksheet.
 type: docs
-weight: 6560
+weight: 6590
 url: /net/aspose.cells/worksheet/
 ---
 ## Worksheet class

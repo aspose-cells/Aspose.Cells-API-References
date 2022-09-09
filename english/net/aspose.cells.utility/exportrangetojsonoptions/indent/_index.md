@@ -3,7 +3,7 @@ title: Indent
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates the indent.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.cells.utility/exportrangetojsonoptions/indent/
 ---
 ## ExportRangeToJsonOptions.Indent property

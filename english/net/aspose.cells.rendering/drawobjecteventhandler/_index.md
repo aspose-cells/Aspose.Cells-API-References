@@ -3,7 +3,7 @@ title: DrawObjectEventHandler
 second_title: Aspose.Cells for .NET API Reference
 description: Interface to get DrawObject and Bound when rendering.
 type: docs
-weight: 5160
+weight: 5190
 url: /net/aspose.cells.rendering/drawobjecteventhandler/
 ---
 ## DrawObjectEventHandler class

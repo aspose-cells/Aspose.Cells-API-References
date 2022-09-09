@@ -3,7 +3,7 @@ title: ReConnectionMethodType
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies what the spreadsheet application should do when a connection fails.
 type: docs
-weight: 3350
+weight: 3360
 url: /net/aspose.cells.externalconnections/reconnectionmethodtype/
 ---
 ## ReConnectionMethodType enumeration

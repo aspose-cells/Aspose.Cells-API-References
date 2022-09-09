@@ -39,6 +39,7 @@ public class PlotArea : ChartFrame
 | [Shadow](../../aspose.cells.charts/chartframe/shadow) { get; set; } | True if the frame has a shadow.(Inherited from [`ChartFrame`](../chartframe).) |
 | [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties) { get; } | Gets the [`ShapeProperties`](../chartframe/shapeproperties) object.(Inherited from [`ChartFrame`](../chartframe).) |
 | virtual [TextFont](../../aspose.cells.charts/chartframe/textfont) { get; } | (**Obsolete.**) Gets a [`Font`](../chartframe/font) object of the specified ChartFrame object.(Inherited from [`ChartFrame`](../chartframe).) |
+| virtual [TextOptions](../../aspose.cells.charts/chartframe/textoptions) { get; } | Gets and sets the options of the text.(Inherited from [`ChartFrame`](../chartframe).) |
 | override [Width](../../aspose.cells.charts/plotarea/width) { get; set; } | Gets or sets the width of plot-area bounding box in units of 1/4000 of the chart area. |
 | override [X](../../aspose.cells.charts/plotarea/x) { get; set; } | Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of 1/4000 of the chart area. |
 | override [Y](../../aspose.cells.charts/plotarea/y) { get; set; } | Gets or gets the y coordinate of the upper top corner of plot-area bounding box in units of 1/4000 of the chart area. |

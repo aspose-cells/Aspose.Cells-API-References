@@ -1,7 +1,7 @@
 ---
 title: ForegroundArgbColor
 second_title: Aspose.Cells for .NET API Reference
-description: Gets and sets the foreground color with a 32-bit ARGB value.
+description: Gets and sets the foreground color with a 32bit ARGB value.
 type: docs
 weight: 90
 url: /net/aspose.cells/style/foregroundargbcolor/

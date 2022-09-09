@@ -3,7 +3,7 @@ title: TextParagraph
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the text paragraph setting.
 type: docs
-weight: 3010
+weight: 3020
 url: /net/aspose.cells.drawing.texts/textparagraph/
 ---
 ## TextParagraph class

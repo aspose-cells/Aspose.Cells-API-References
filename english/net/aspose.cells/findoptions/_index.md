@@ -3,7 +3,7 @@ title: FindOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents find options.
 type: docs
-weight: 3490
+weight: 3500
 url: /net/aspose.cells/findoptions/
 ---
 ## FindOptions class

@@ -3,7 +3,7 @@ title: Aspose.Cells.Vba
 second_title: Aspose.Cells for .NET API Reference
 description: Contains all classes of VBA project.
 type: docs
-weight: 220
+weight: 230
 url: /net/aspose.cells.vba/
 ---
 Contains all classes of VBA project.

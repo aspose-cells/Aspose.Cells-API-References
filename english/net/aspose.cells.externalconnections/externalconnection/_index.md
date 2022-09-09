@@ -3,7 +3,7 @@ title: ExternalConnection
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies an external data connection
 type: docs
-weight: 3310
+weight: 3320
 url: /net/aspose.cells.externalconnections/externalconnection/
 ---
 ## ExternalConnection class

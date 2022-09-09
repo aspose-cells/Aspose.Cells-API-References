@@ -3,7 +3,7 @@ title: ListColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a column in a list.
 type: docs
-weight: 5850
+weight: 5880
 url: /net/aspose.cells.tables/listcolumn/
 ---
 ## ListColumn class

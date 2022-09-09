@@ -3,7 +3,7 @@ title: TextOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the text options.
 type: docs
-weight: 3000
+weight: 3010
 url: /net/aspose.cells.drawing.texts/textoptions/
 ---
 ## TextOptions class
@@ -32,6 +32,7 @@ public class TextOptions : Font
 | [IsSubscript](../../aspose.cells/font/issubscript) { get; set; } | Gets or sets a value indicating whether the font is subscript.(Inherited from [`Font`](../../aspose.cells/font).) |
 | [IsSuperscript](../../aspose.cells/font/issuperscript) { get; set; } | Gets or sets a value indicating whether the font is super script.(Inherited from [`Font`](../../aspose.cells/font).) |
 | [Kerning](../../aspose.cells.drawing.texts/textoptions/kerning) { get; set; } | Specifies the minimum font size at which character kerning will occur for this text run. |
+| [LanguageCode](../../aspose.cells.drawing.texts/textoptions/languagecode) { get; set; } | Gets and sets the user interface language. |
 | [LatinName](../../aspose.cells.drawing.texts/textoptions/latinname) { get; set; } | Gets and sets the latin name. |
 | override [Name](../../aspose.cells.drawing.texts/textoptions/name) { get; set; } | Gets and sets the name of the shape. |
 | [Outline](../../aspose.cells.drawing.texts/textoptions/outline) { get; } | Represents the outline format of the text. |

@@ -1,7 +1,7 @@
 ---
 title: EndColumn
 second_title: Aspose.Cells for .NET API Reference
-description: The end row number of the filter range. If this value is set to -1 the last row number of the sheet is used.
+description: The end row number of the filter range. If this value is set to 1 the last row number of the sheet is used.
 type: docs
 weight: 30
 url: /net/aspose.cells.gridweb.data/rowfiltersettings/endcolumn/

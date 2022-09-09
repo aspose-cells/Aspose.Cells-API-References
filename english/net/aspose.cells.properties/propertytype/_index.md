@@ -3,7 +3,7 @@ title: PropertyType
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies data type of a document property.
 type: docs
-weight: 4920
+weight: 4950
 url: /net/aspose.cells.properties/propertytype/
 ---
 ## PropertyType enumeration

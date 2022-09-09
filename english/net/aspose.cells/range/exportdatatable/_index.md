@@ -6,6 +6,26 @@ type: docs
 weight: 280
 url: /net/aspose.cells/range/exportdatatable/
 ---
+## ExportDataTable() {#exportdatatable}
+
+Exports data in this range to a DataTable object.
+
+```csharp
+public DataTable ExportDataTable()
+```
+
+### Return Value
+
+Exported DataTable object.
+
+### See Also
+
+* class [Range](../../range)
+* namespace [Aspose.Cells](../../range)
+* assembly [Aspose.Cells](../../../)
+
+---
+
 ## ExportDataTable(ExportTableOptions) {#exportdatatable_1}
 
 Exports data in this range to a DataTable object.
@@ -25,26 +45,6 @@ Exported DataTable object.
 ### See Also
 
 * class [ExportTableOptions](../../exporttableoptions)
-* class [Range](../../range)
-* namespace [Aspose.Cells](../../range)
-* assembly [Aspose.Cells](../../../)
-
----
-
-## ExportDataTable() {#exportdatatable}
-
-Exports data in this range to a DataTable object.
-
-```csharp
-public DataTable ExportDataTable()
-```
-
-### Return Value
-
-Exported DataTable object.
-
-### See Also
-
 * class [Range](../../range)
 * namespace [Aspose.Cells](../../range)
 * assembly [Aspose.Cells](../../../)

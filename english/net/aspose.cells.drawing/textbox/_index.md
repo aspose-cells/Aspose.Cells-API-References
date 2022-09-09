@@ -3,7 +3,7 @@ title: TextBox
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents a textbox in a spreadsheet.
 type: docs
-weight: 2830
+weight: 2840
 url: /net/aspose.cells.drawing/textbox/
 ---
 ## TextBox class

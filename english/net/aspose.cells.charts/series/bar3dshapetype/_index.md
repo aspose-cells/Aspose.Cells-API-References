@@ -1,7 +1,7 @@
 ---
 title: Bar3DShapeType
 second_title: Aspose.Cells for .NET API Reference
-description: Gets or sets the 3D shape type used with the 3-D bar or column chart.
+description: Gets or sets the 3D shape type used with the 3D bar or column chart.
 type: docs
 weight: 20
 url: /net/aspose.cells.charts/series/bar3dshapetype/

@@ -3,7 +3,7 @@ title: ShapePathCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents path collection information in NotPrimitive autoshape
 type: docs
-weight: 2720
+weight: 2730
 url: /net/aspose.cells.drawing/shapepathcollection/
 ---
 ## ShapePathCollection class

@@ -3,7 +3,7 @@ title: OdsPageBackgroundGraphicType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the type of formatting page background with image.
 type: docs
-weight: 4340
+weight: 4370
 url: /net/aspose.cells.ods/odspagebackgroundgraphictype/
 ---
 ## OdsPageBackgroundGraphicType enumeration

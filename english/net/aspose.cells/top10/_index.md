@@ -3,7 +3,7 @@ title: Top10
 second_title: Aspose.Cells for .NET API Reference
 description: Describe the Top10 conditional formatting rule. This conditional formatting rule highlights cells whose values fall in the top N or bottom N bracket as specified.
 type: docs
-weight: 6140
+weight: 6170
 url: /net/aspose.cells/top10/
 ---
 ## Top10 class

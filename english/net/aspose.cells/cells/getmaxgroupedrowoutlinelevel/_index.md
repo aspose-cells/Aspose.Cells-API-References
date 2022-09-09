@@ -1,7 +1,7 @@
 ---
 title: GetMaxGroupedRowOutlineLevel
 second_title: Aspose.Cells for .NET API Reference
-description: Gets the max grouped row outline level zero-based.
+description: Gets the max grouped row outline level zerobased.
 type: docs
 weight: 790
 url: /net/aspose.cells/cells/getmaxgroupedrowoutlinelevel/

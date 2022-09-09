@@ -3,7 +3,7 @@ title: HasHeaderRow
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the range contains header row.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.cells.utility/exportrangetojsonoptions/hasheaderrow/
 ---
 ## ExportRangeToJsonOptions.HasHeaderRow property

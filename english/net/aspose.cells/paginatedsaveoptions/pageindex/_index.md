@@ -1,7 +1,7 @@
 ---
 title: PageIndex
 second_title: Aspose.Cells for .NET API Reference
-description: Gets or sets the 0-based index of the first page to save.
+description: Gets or sets the 0based index of the first page to save.
 type: docs
 weight: 130
 url: /net/aspose.cells/paginatedsaveoptions/pageindex/

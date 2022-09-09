@@ -1,7 +1,7 @@
 ---
 title: FirstDataCell
 second_title: Aspose.Cells for .NET API Reference
-description: Gets the first non-blank cell in the row.
+description: Gets the first nonblank cell in the row.
 type: docs
 weight: 20
 url: /net/aspose.cells/row/firstdatacell/

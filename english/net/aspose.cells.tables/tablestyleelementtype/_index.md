@@ -3,7 +3,7 @@ title: TableStyleElementType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the Table or PivotTable style element type.
 type: docs
-weight: 5940
+weight: 5970
 url: /net/aspose.cells.tables/tablestyleelementtype/
 ---
 ## TableStyleElementType enumeration

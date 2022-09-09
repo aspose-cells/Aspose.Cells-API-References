@@ -3,7 +3,7 @@ title: PictureBulletValue
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the value of the image bullet.
 type: docs
-weight: 2950
+weight: 2960
 url: /net/aspose.cells.drawing.texts/picturebulletvalue/
 ---
 ## PictureBulletValue class

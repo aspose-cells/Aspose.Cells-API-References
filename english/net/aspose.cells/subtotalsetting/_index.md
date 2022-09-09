@@ -3,7 +3,7 @@ title: SubtotalSetting
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the setting of the subtotal .
 type: docs
-weight: 5830
+weight: 5860
 url: /net/aspose.cells/subtotalsetting/
 ---
 ## SubtotalSetting class

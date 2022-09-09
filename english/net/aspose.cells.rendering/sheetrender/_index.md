@@ -3,7 +3,7 @@ title: SheetRender
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a worksheet render which can render worksheet to various images such as BMP PNG JPEG TIFF.. The constructor of this class  must be used after modification of pagesetup cell style.
 type: docs
-weight: 5300
+weight: 5330
 url: /net/aspose.cells.rendering/sheetrender/
 ---
 ## SheetRender class

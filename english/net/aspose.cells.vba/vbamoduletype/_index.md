@@ -3,7 +3,7 @@ title: VbaModuleType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the type of VBA module.
 type: docs
-weight: 6310
+weight: 6340
 url: /net/aspose.cells.vba/vbamoduletype/
 ---
 ## VbaModuleType enumeration

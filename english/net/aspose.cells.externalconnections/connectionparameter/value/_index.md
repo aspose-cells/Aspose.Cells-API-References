@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Cells for .NET API Reference
-description: Non-integer numeric valueInteger valueString value or Boolean value to use as the query parameter. Used only when parameterType is value.
+description: Noninteger numeric valueInteger valueString value or Boolean value to use as the query parameter. Used only when parameterType is value.
 type: docs
 weight: 70
 url: /net/aspose.cells.externalconnections/connectionparameter/value/

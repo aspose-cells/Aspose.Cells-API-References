@@ -3,7 +3,7 @@ title: ListObject
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a list object on a worksheet. The ListObject object is a member of the ListObjects collection. The ListObjects collection contains all the list objects on a worksheet.
 type: docs
-weight: 5870
+weight: 5900
 url: /net/aspose.cells.tables/listobject/
 ---
 ## ListObject class

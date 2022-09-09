@@ -3,7 +3,7 @@ title: TxtSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the save options for csv/tab delimited/other text format.
 type: docs
-weight: 6180
+weight: 6210
 url: /net/aspose.cells/txtsaveoptions/
 ---
 ## TxtSaveOptions class

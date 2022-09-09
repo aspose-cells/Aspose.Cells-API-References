@@ -3,7 +3,7 @@ title: PrintingPageType
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates which pages will not be printed.
 type: docs
-weight: 4830
+weight: 4860
 url: /net/aspose.cells/printingpagetype/
 ---
 ## PrintingPageType enumeration

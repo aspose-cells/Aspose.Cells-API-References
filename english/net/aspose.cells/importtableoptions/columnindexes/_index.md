@@ -1,7 +1,7 @@
 ---
 title: ColumnIndexes
 second_title: Aspose.Cells for .NET API Reference
-description: Gets or sets the columns0-based to import from data source. null means all columns should be imported.
+description: Gets or sets the columns0based to import from data source. null means all columns should be imported.
 type: docs
 weight: 30
 url: /net/aspose.cells/importtableoptions/columnindexes/

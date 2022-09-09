@@ -3,7 +3,7 @@ title: ParameterType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents all parameters type or return value type of function.
 type: docs
-weight: 4500
+weight: 4530
 url: /net/aspose.cells/parametertype/
 ---
 ## ParameterType enumeration

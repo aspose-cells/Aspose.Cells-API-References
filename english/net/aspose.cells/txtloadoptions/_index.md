@@ -3,7 +3,7 @@ title: TxtLoadOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the options for loading text file.
 type: docs
-weight: 6160
+weight: 6190
 url: /net/aspose.cells/txtloadoptions/
 ---
 ## TxtLoadOptions class

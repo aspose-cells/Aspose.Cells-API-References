@@ -1,7 +1,7 @@
 ---
 title: SheetIndex
 second_title: Aspose.Cells for .NET API Reference
-description: Indicates this name belongs to Workbook or Worksheet. 0  Global name otherwise index to sheet one-based
+description: Indicates this name belongs to Workbook or Worksheet. 0  Global name otherwise index to sheet onebased
 type: docs
 weight: 20
 url: /net/aspose.cells.griddesktop.data/gridname/sheetindex/

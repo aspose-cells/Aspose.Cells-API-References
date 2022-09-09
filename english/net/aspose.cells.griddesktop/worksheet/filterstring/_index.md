@@ -1,7 +1,7 @@
 ---
 title: FilterString
 second_title: Aspose.Cells for .NET API Reference
-description: Sets the filter for the column.notice we shall call AddAutoFilter before calling of filterString The filter criteria string. notice we use comma-gt as split charso the cell value you want to filter shall not contains with comma filterString10123456 means column 10 shall contain 123 or 456 filterString10123 means column10 shall contain 123 value split with commaeg. 123456789 or abc
+description: Sets the filter for the column.notice we shall call AddAutoFilter before calling of filterString The filter criteria string. notice we use commagt as split charso the cell value you want to filter shall not contains with comma filterString10123456 means column 10 shall contain 123 or 456 filterString10123 means column10 shall contain 123 value split with commaeg. 123456789 or abc
 type: docs
 weight: 660
 url: /net/aspose.cells.griddesktop/worksheet/filterstring/

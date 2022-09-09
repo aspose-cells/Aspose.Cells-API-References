@@ -104,16 +104,21 @@ public class Cell
 | [SetCharacters](../../aspose.cells/cell/setcharacters)(FontSetting[]) | Sets rich text format of the cell. |
 | [SetDynamicArrayFormula](../../aspose.cells/cell/setdynamicarrayformula#setdynamicarrayformula)(string, FormulaParseOptions, bool) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
 | [SetDynamicArrayFormula](../../aspose.cells/cell/setdynamicarrayformula#setdynamicarrayformula_1)(string, FormulaParseOptions, object[][], bool, bool) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
+| [SetDynamicArrayFormula](../../aspose.cells/cell/setdynamicarrayformula#setdynamicarrayformula_2)(string, FormulaParseOptions, object[][], bool, bool, CalculationOptions) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
 | [SetFormula](../../aspose.cells/cell/setformula#setformula_2)(string, object) | Set the formula and the value of the formula. |
 | [SetFormula](../../aspose.cells/cell/setformula#setformula)(string, FormulaParseOptions, object) | Set the formula and the value of the formula. |
 | [SetFormula](../../aspose.cells/cell/setformula#setformula_1)(string, bool, bool, object) | (**Obsolete.**) Set the formula and the value of the formula. |
-| [SetSharedFormula](../../aspose.cells/cell/setsharedformula#setsharedformula)(string, int, int) | Sets a formula to a range of cells. |
-| [SetSharedFormula](../../aspose.cells/cell/setsharedformula#setsharedformula_1)(string, int, int, FormulaParseOptions) | Sets a formula to a range of cells. |
+| [SetSharedFormula](../../aspose.cells/cell/setsharedformula#setsharedformula)(string, int, int) | Sets shared formulas to a range of cells. |
+| [SetSharedFormula](../../aspose.cells/cell/setsharedformula#setsharedformula_1)(string, int, int, FormulaParseOptions) | Sets shared formulas to a range of cells. |
 | [SetSharedFormula](../../aspose.cells/cell/setsharedformula#setsharedformula_3)(string, int, int, bool, bool) | (**Obsolete.**) Sets a formula to a range of cells. |
-| [SetSharedFormula](../../aspose.cells/cell/setsharedformula#setsharedformula_2)(string, int, int, FormulaParseOptions, object[][]) | Sets a formula to a range of cells. |
+| [SetSharedFormula](../../aspose.cells/cell/setsharedformula#setsharedformula_2)(string, int, int, FormulaParseOptions, object[][]) | Sets shared formulas to a range of cells. |
 | [SetStyle](../../aspose.cells/cell/setstyle#setstyle)(Style) | Sets the cell style. |
 | [SetStyle](../../aspose.cells/cell/setstyle#setstyle_2)(Style, bool) | Apply the cell style. |
 | [SetStyle](../../aspose.cells/cell/setstyle#setstyle_1)(Style, StyleFlag) | Apply the cell style. |
+| [SetTableFormula](../../aspose.cells/cell/settableformula#settableformula_2)(int, int, string, bool, object[][]) | Create one-variable data table for given range starting from this cell. |
+| [SetTableFormula](../../aspose.cells/cell/settableformula#settableformula_3)(int, int, string, string, object[][]) | Create two-variable data table for given range starting from this cell. |
+| [SetTableFormula](../../aspose.cells/cell/settableformula#settableformula)(int, int, int, int, bool, object[][]) | Create one-variable data table for given range starting from this cell. |
+| [SetTableFormula](../../aspose.cells/cell/settableformula#settableformula_1)(int, int, int, int, int, int, object[][]) | Create two-variable data table for given range starting from this cell. |
 | override [ToString](../../aspose.cells/cell/tostring)() | Returns a string represents the current Cell object. |
 
 ### Examples

@@ -1,7 +1,7 @@
 ---
 title: GetBottomPointXPx
 second_title: Aspose.Cells for .NET API Reference
-description: Gets x-coordinate of the bottom point of shape after calls Chart.Calculate method. Applies 3D charts Column3D Bar3D Cone Cylinder Pyramid
+description: Gets xcoordinate of the bottom point of shape after calls Chart.Calculate method. Applies 3D charts Column3D Bar3D Cone Cylinder Pyramid
 type: docs
 weight: 350
 url: /net/aspose.cells.charts/chartpoint/getbottompointxpx/

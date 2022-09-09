@@ -1,7 +1,7 @@
 ---
 title: ColorScale
 second_title: Aspose.Cells for .NET API Reference
-description: Get the conditional formattings ColorScale instance. The default instance is a green-yellow-red 3ColorScale . Valid only for type  ColorScale.
+description: Get the conditional formattings ColorScale instance. The default instance is a greenyellowred 3ColorScale . Valid only for type  ColorScale.
 type: docs
 weight: 20
 url: /net/aspose.cells/formatcondition/colorscale/

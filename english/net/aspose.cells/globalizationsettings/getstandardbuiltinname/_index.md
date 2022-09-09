@@ -1,7 +1,7 @@
 ---
 title: GetStandardBuiltInName
 second_title: Aspose.Cells for .NET API Reference
-description: Gets the standard text of built-in Name according to given locale dependent text.
+description: Gets the standard text of builtin Name according to given locale dependent text.
 type: docs
 weight: 230
 url: /net/aspose.cells/globalizationsettings/getstandardbuiltinname/

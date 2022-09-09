@@ -3,7 +3,7 @@ title: XpsSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the additional options when saving the file as the Xps.
 type: docs
-weight: 6670
+weight: 6700
 url: /net/aspose.cells/xpssaveoptions/
 ---
 ## XpsSaveOptions class
