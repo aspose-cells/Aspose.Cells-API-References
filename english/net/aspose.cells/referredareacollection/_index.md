@@ -3,7 +3,7 @@ title: ReferredAreaCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents all referred cells and areas.
 type: docs
-weight: 5130
+weight: 5140
 url: /net/aspose.cells/referredareacollection/
 ---
 ## ReferredAreaCollection class

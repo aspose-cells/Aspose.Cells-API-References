@@ -3,7 +3,7 @@ title: OdsPageBackgroundGraphicPositionType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the position.
 type: docs
-weight: 4360
+weight: 4370
 url: /net/aspose.cells.ods/odspagebackgroundgraphicpositiontype/
 ---
 ## OdsPageBackgroundGraphicPositionType enumeration

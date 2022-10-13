@@ -11,7 +11,7 @@ url: /net/aspose.cells.gridweb/gridtableitemstyle/
 Inherited from System.Web.UI.WebControls.TableItemStyle. Encapsulates the styles of a WebCell.
 
 ```csharp
-public class GridTableItemStyle : TableItemStyle
+public class GridTableItemStyle : TableItemStyle, ISerializable
 ```
 
 ## Constructors

@@ -3,7 +3,7 @@ title: XmlColumnProperty
 second_title: Aspose.Cells for .NET API Reference
 description: Represents Xml Data Binding information.
 type: docs
-weight: 6640
+weight: 6650
 url: /net/aspose.cells/xmlcolumnproperty/
 ---
 ## XmlColumnProperty class

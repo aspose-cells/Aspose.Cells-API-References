@@ -3,7 +3,7 @@ title: RefreshPivotData
 second_title: Aspose.Cells for .NET API Reference
 description: Refreshes pivot charts data from its pivot data source.
 type: docs
-weight: 570
+weight: 580
 url: /net/aspose.cells.charts/chart/refreshpivotdata/
 ---
 ## Chart.RefreshPivotData method

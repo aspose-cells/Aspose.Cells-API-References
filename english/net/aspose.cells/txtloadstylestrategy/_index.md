@@ -3,7 +3,7 @@ title: TxtLoadStyleStrategy
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies how to apply style for parsed values when converting string value to number or datetime.
 type: docs
-weight: 6200
+weight: 6210
 url: /net/aspose.cells/txtloadstylestrategy/
 ---
 ## TxtLoadStyleStrategy enumeration

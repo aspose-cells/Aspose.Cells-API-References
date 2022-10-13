@@ -3,7 +3,7 @@ title: ExternalLinkCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents external links collection in a workbook.
 type: docs
-weight: 3400
+weight: 3410
 url: /net/aspose.cells/externallinkcollection/
 ---
 ## ExternalLinkCollection class

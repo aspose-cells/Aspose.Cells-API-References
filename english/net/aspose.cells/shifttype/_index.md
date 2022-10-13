@@ -3,7 +3,7 @@ title: ShiftType
 second_title: Aspose.Cells for .NET API Reference
 description: Represent the shift options when deleting a range of cells.
 type: docs
-weight: 5700
+weight: 5710
 url: /net/aspose.cells/shifttype/
 ---
 ## ShiftType enumeration

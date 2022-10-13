@@ -3,7 +3,7 @@ title: VerticalPageBreakCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates a collection of VerticalPageBreak./verticalpagebreak objects.
 type: docs
-weight: 6400
+weight: 6410
 url: /net/aspose.cells/verticalpagebreakcollection/
 ---
 ## VerticalPageBreakCollection class

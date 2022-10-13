@@ -3,7 +3,7 @@ title: HeaderFooterCommandType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the command type of header and footer.
 type: docs
-weight: 3680
+weight: 3690
 url: /net/aspose.cells/headerfootercommandtype/
 ---
 ## HeaderFooterCommandType enumeration

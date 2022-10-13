@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.Cells for .NET API Reference
 description: Provides methods to license the component.
 type: docs
-weight: 3980
+weight: 3990
 url: /net/aspose.cells/license/
 ---
 ## License class

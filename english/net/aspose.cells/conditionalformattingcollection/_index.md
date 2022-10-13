@@ -65,54 +65,36 @@ public class ConditionalFormattingCollection : CollectionBase<FormatConditionCol
 
 //Instantiating a Workbook object
 Workbook workbook = new Workbook();
-
 Worksheet sheet = workbook.Worksheets[0];
 
 //Get Conditional Formatting
 ConditionalFormattingCollection cformattings = sheet.ConditionalFormattings;
-
 //Adds an empty conditional formatting
 int index = cformattings.Add();
-
 //Get newly added Conditional formatting
 FormatConditionCollection fcs = cformattings[index];
 
 //Sets the conditional format range.
 CellArea ca = new CellArea();
-
 ca.StartRow = 0;
-
 ca.EndRow = 0;
-
 ca.StartColumn = 0;
-
 ca.EndColumn = 0;
-
 fcs.AddArea(ca);
-
 ca = new CellArea();
-
 ca.StartRow = 1;
-
 ca.EndRow = 1;
-
 ca.StartColumn = 1;
-
 ca.EndColumn = 1;
-
 fcs.AddArea(ca);
 
 //Add condition.
 int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100");
-
 //Add condition.
 int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
-
 //Sets the background color.
 FormatCondition fc = fcs[conditionIndex];
-
 fc.Style.BackgroundColor = Color.Red;
-
 //Saving the Excel file
 workbook.Save("output.xls");
 
@@ -120,54 +102,35 @@ workbook.Save("output.xls");
 
 'Instantiating a Workbook object
 DDim workbook As Workbook = New Workbook()
-
 Dim sheet As Worksheet = workbook.Worksheets(0)
-
 'Get Conditional Formatting
 Dim cformattings As ConditionalFormattingCollection = sheet.ConditionalFormattings
 
 'Adds an empty conditional formatting
 Dim index As Integer = cformattings.Add()
-
 'Get newly added Conditional formatting
 Dim fcs As FormatConditionCollection = cformattings(index)
-
 'Sets the conditional format range.
 Dim ca As New CellArea()
-
 ca.StartRow = 0
-
 ca.EndRow = 0
-
 ca.StartColumn = 0
-
 ca.EndColumn = 0
-
 fcs.AddArea(ca)
-
 ca = New CellArea()
-
 ca.StartRow = 1
-
 ca.EndRow = 1
-
 ca.StartColumn = 1
-
 ca.EndColumn = 1
-
 fcs.AddArea(ca)
 
 'Add condition.
 Dim conditionIndex As Integer = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100")
-
 'Add condition.
 Dim conditionIndex2 As Integer = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100")
-
 'Sets the background color.
 Dim fc As FormatCondition = fcs(conditionIndex)
-
 fc.Style.BackgroundColor = Color.Red
-
 'Saving the Excel file
 workbook.Save("output.xls")
 ```

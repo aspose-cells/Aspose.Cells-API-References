@@ -145,7 +145,9 @@ public class MainWeb : ExtWebControl, INamingContainer, IPostBackDataHandler,
 | override [DataBind](../../aspose.cells.gridweb/mainweb/databind)() | Bind the control and all its child contorls to the its datasource. |
 | override [Dispose](../../aspose.cells.gridweb/mainweb/dispose)() |  |
 | [ImportExcelFile](../../aspose.cells.gridweb/mainweb/importexcelfile#importexcelfile)(Stream) | Imports from an excel file stream, including disk file stream or memory stream. |
-| [ImportExcelFile](../../aspose.cells.gridweb/mainweb/importexcelfile#importexcelfile_1)(string) | Imports from an excel file. |
+| [ImportExcelFile](../../aspose.cells.gridweb/mainweb/importexcelfile#importexcelfile_2)(string) | Imports from an excel file. |
+| [ImportExcelFile](../../aspose.cells.gridweb/mainweb/importexcelfile#importexcelfile_1)(Stream, string) | Imports from an excel file stream, including disk file stream or memory stream. |
+| [ImportExcelFile](../../aspose.cells.gridweb/mainweb/importexcelfile#importexcelfile_3)(string, string) | Imports from an excel file. |
 | [LoadCSVFile](../../aspose.cells.gridweb/mainweb/loadcsvfile#loadcsvfile)(Stream) | Loads data from a CSV file stream. |
 | [LoadCSVFile](../../aspose.cells.gridweb/mainweb/loadcsvfile#loadcsvfile_1)(string) | Loads data from a CSV file. |
 | [LoadHTMLFile](../../aspose.cells.gridweb/mainweb/loadhtmlfile#loadhtmlfile)(Stream) | Loads data from a HTML file stream. |

@@ -3,7 +3,7 @@ title: TimelineCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the collection of all the Timeline objects on the specified worksheet.
 type: docs
-weight: 6160
+weight: 6170
 url: /net/aspose.cells.timelines/timelinecollection/
 ---
 ## TimelineCollection class

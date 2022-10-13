@@ -143,6 +143,8 @@ public class GridWeb : MainWeb
 | override [Dispose](../../aspose.cells.gridweb/mainweb/dispose)() | (Inherited from [`MainWeb`](../mainweb).) |
 | [ImportExcelFile](../../aspose.cells.gridweb/mainweb/importexcelfile)(Stream) | Imports from an excel file stream, including disk file stream or memory stream.(Inherited from [`MainWeb`](../mainweb).) |
 | [ImportExcelFile](../../aspose.cells.gridweb/mainweb/importexcelfile)(string) | Imports from an excel file.(Inherited from [`MainWeb`](../mainweb).) |
+| [ImportExcelFile](../../aspose.cells.gridweb/mainweb/importexcelfile)(Stream, string) | Imports from an excel file stream, including disk file stream or memory stream.(Inherited from [`MainWeb`](../mainweb).) |
+| [ImportExcelFile](../../aspose.cells.gridweb/mainweb/importexcelfile)(string, string) | Imports from an excel file.(Inherited from [`MainWeb`](../mainweb).) |
 | [LoadCSVFile](../../aspose.cells.gridweb/mainweb/loadcsvfile)(Stream) | Loads data from a CSV file stream.(Inherited from [`MainWeb`](../mainweb).) |
 | [LoadCSVFile](../../aspose.cells.gridweb/mainweb/loadcsvfile)(string) | Loads data from a CSV file.(Inherited from [`MainWeb`](../mainweb).) |
 | [LoadHTMLFile](../../aspose.cells.gridweb/mainweb/loadhtmlfile)(Stream) | Loads data from a HTML file stream.(Inherited from [`MainWeb`](../mainweb).) |

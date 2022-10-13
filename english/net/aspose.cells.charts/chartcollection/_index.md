@@ -29,6 +29,7 @@ public class ChartCollection : CollectionBase<Chart>
 | --- | --- |
 | [Add](../../aspose.cells.charts/chartcollection/add#add)(ChartType, int, int, int, int) | Adds a chart to the collection. |
 | [Add](../../aspose.cells.charts/chartcollection/add#add_2)(ChartType, string, int, int, int, int) | (**Obsolete.**) Adds a chart to the collection. |
+| [Add](../../aspose.cells.charts/chartcollection/add#add_3)(byte[], string, bool, int, int, int, int) | Adds a chart with preset template. |
 | [Add](../../aspose.cells.charts/chartcollection/add#add_1)(ChartType, string, bool, int, int, int, int) | Adds a chart to the collection. |
 | [AddFloatingChart](../../aspose.cells.charts/chartcollection/addfloatingchart)(ChartType, int, int, int, int) | Adds a chart to the collection. |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(Chart) |  |

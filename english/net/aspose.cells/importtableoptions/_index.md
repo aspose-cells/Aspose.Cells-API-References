@@ -3,7 +3,7 @@ title: ImportTableOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the options of importing data into cells.
 type: docs
-weight: 3920
+weight: 3930
 url: /net/aspose.cells/importtableoptions/
 ---
 ## ImportTableOptions class

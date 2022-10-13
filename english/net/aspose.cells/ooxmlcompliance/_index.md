@@ -3,7 +3,7 @@ title: OoxmlCompliance
 second_title: Aspose.Cells for .NET API Reference
 description: Allows to specify which OOXML specification will be used when saving in the Xlsx format.
 type: docs
-weight: 4410
+weight: 4420
 url: /net/aspose.cells/ooxmlcompliance/
 ---
 ## OoxmlCompliance enumeration

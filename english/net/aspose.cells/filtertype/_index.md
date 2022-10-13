@@ -3,7 +3,7 @@ title: FilterType
 second_title: Aspose.Cells for .NET API Reference
 description: The filter type.
 type: docs
-weight: 3490
+weight: 3500
 url: /net/aspose.cells/filtertype/
 ---
 ## FilterType enumeration

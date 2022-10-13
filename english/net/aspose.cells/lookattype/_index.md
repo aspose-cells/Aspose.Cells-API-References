@@ -3,7 +3,7 @@ title: LookAtType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents look at type.
 type: docs
-weight: 4050
+weight: 4060
 url: /net/aspose.cells/lookattype/
 ---
 ## LookAtType enumeration

@@ -3,7 +3,7 @@ title: LightCellsDataProvider
 second_title: Aspose.Cells for .NET API Reference
 description: Represents Data provider for saving large spreadsheet files in light weight mode.
 type: docs
-weight: 4000
+weight: 4010
 url: /net/aspose.cells/lightcellsdataprovider/
 ---
 ## LightCellsDataProvider interface

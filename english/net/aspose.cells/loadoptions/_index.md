@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the options of loading the file.
 type: docs
-weight: 4040
+weight: 4050
 url: /net/aspose.cells/loadoptions/
 ---
 ## LoadOptions class

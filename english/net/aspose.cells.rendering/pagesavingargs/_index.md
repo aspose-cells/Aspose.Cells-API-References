@@ -3,7 +3,7 @@ title: PageSavingArgs
 second_title: Aspose.Cells for .NET API Reference
 description: Info for a page saving process.
 type: docs
-weight: 5230
+weight: 5240
 url: /net/aspose.cells.rendering/pagesavingargs/
 ---
 ## PageSavingArgs class

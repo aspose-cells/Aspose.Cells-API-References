@@ -3,7 +3,7 @@ title: MarkdownSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the save options for markdown.
 type: docs
-weight: 4070
+weight: 4080
 url: /net/aspose.cells/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions class

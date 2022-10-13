@@ -3,7 +3,7 @@ title: ExportRangeToJsonOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates the options that exporting range to json.
 type: docs
-weight: 6250
+weight: 6260
 url: /net/aspose.cells.utility/exportrangetojsonoptions/
 ---
 ## ExportRangeToJsonOptions class

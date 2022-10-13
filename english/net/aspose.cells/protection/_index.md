@@ -3,7 +3,7 @@ title: Protection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the various types of protection options available for a worksheet.
 type: docs
-weight: 4980
+weight: 4990
 url: /net/aspose.cells/protection/
 ---
 ## Protection class

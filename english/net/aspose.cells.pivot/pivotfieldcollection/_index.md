@@ -3,7 +3,7 @@ title: PivotFieldCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a collection of all the PivotField objects in the PivotTables specific PivotFields type.
 type: docs
-weight: 4610
+weight: 4620
 url: /net/aspose.cells.pivot/pivotfieldcollection/
 ---
 ## PivotFieldCollection class

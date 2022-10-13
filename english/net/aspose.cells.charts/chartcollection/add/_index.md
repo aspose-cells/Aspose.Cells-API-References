@@ -73,6 +73,37 @@ NOTE: This member is now obsolete. Instead, please use [`Add`](../add) property.
 
 ---
 
+## Add(byte[], string, bool, int, int, int, int) {#add_3}
+
+Adds a chart with preset template.
+
+```csharp
+public int Add(byte[] data, string dataRange, bool isVertical, int topRow, int leftColumn, 
+    int rightRow, int bottomColumn)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| data | Byte[] | The data of chart template file(.crtx). |
+| dataRange | String | Specifies the data range of the chart |
+| isVertical | Boolean | Specifies whether to plot the series from a range of cell values by row or by column. |
+| topRow | Int32 | Upper left row index. |
+| leftColumn | Int32 | Upper left column index. |
+| rightRow | Int32 | Lower right row index |
+| bottomColumn | Int32 | Lower right column index |
+
+### Return Value
+
+[`Chart`](../../chart) object index.
+
+### See Also
+
+* class [ChartCollection](../../chartcollection)
+* namespace [Aspose.Cells.Charts](../../chartcollection)
+* assembly [Aspose.Cells](../../../)
+
+---
+
 ## Add(ChartType, string, bool, int, int, int, int) {#add_1}
 
 Adds a chart to the collection.

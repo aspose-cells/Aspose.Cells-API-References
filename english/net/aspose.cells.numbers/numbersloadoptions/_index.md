@@ -3,7 +3,7 @@ title: NumbersLoadOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the options of loading Apple Numbers files.
 type: docs
-weight: 4300
+weight: 4310
 url: /net/aspose.cells.numbers/numbersloadoptions/
 ---
 ## NumbersLoadOptions class

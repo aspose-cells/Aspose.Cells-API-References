@@ -3,7 +3,7 @@ title: ISmartMarkerCallBack
 second_title: Aspose.Cells for .NET API Reference
 description: Represents callback interface of processing smartmarker.
 type: docs
-weight: 3850
+weight: 3860
 url: /net/aspose.cells/ismartmarkercallback/
 ---
 ## ISmartMarkerCallBack interface

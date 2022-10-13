@@ -3,7 +3,7 @@ title: Revision
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the revision.
 type: docs
-weight: 5400
+weight: 5410
 url: /net/aspose.cells.revisions/revision/
 ---
 ## Revision class

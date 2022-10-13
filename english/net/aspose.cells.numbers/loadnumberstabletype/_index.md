@@ -3,7 +3,7 @@ title: LoadNumbersTableType
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates type of loading tables when some tables are in a sheet.
 type: docs
-weight: 4290
+weight: 4300
 url: /net/aspose.cells.numbers/loadnumberstabletype/
 ---
 ## LoadNumbersTableType enumeration

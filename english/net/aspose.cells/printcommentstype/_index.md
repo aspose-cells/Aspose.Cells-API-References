@@ -3,7 +3,7 @@ title: PrintCommentsType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the way comments are printed with the sheet.
 type: docs
-weight: 4820
+weight: 4830
 url: /net/aspose.cells/printcommentstype/
 ---
 ## PrintCommentsType enumeration

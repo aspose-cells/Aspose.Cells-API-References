@@ -3,7 +3,7 @@ title: OdsGeneratorType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the type of ODS generator.
 type: docs
-weight: 4340
+weight: 4350
 url: /net/aspose.cells.ods/odsgeneratortype/
 ---
 ## OdsGeneratorType enumeration

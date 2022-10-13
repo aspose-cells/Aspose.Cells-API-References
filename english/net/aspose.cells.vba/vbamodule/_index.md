@@ -3,7 +3,7 @@ title: VbaModule
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the module in VBA project.
 type: docs
-weight: 6320
+weight: 6330
 url: /net/aspose.cells.vba/vbamodule/
 ---
 ## VbaModule class

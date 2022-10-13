@@ -3,7 +3,7 @@ title: InsertOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the options of inserting.
 type: docs
-weight: 3940
+weight: 3950
 url: /net/aspose.cells/insertoptions/
 ---
 ## InsertOptions class

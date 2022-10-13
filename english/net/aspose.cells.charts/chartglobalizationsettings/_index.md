@@ -11,7 +11,7 @@ url: /net/aspose.cells.charts/chartglobalizationsettings/
 Represents the globalization settings for chart.
 
 ```csharp
-public class ChartGlobalizationSettings : AbstractGlobalizationSettings
+public class ChartGlobalizationSettings
 ```
 
 ## Constructors
@@ -24,11 +24,9 @@ public class ChartGlobalizationSettings : AbstractGlobalizationSettings
 
 | Name | Description |
 | --- | --- |
-| virtual [Compare](../../aspose.cells/abstractglobalizationsettings/compare)(string, string, bool) | Compares two string values according to certain collation rules.(Inherited from [`AbstractGlobalizationSettings`](../../aspose.cells/abstractglobalizationsettings).) |
 | virtual [GetAxisTitleName](../../aspose.cells.charts/chartglobalizationsettings/getaxistitlename)() | Gets the name of Title for Axis. |
 | virtual [GetAxisUnitName](../../aspose.cells.charts/chartglobalizationsettings/getaxisunitname)(DisplayUnitType) | Gets the Name of Axis Unit. |
 | virtual [GetChartTitleName](../../aspose.cells.charts/chartglobalizationsettings/getcharttitlename)() | Gets the name of Chart Title. |
-| virtual [GetCollationKey](../../aspose.cells/abstractglobalizationsettings/getcollationkey)(string, bool) | Transforms the string into a comparable object according to certain collation rules.(Inherited from [`AbstractGlobalizationSettings`](../../aspose.cells/abstractglobalizationsettings).) |
 | virtual [GetLegendDecreaseName](../../aspose.cells.charts/chartglobalizationsettings/getlegenddecreasename)() | Gets the name of Decrease for Legend. |
 | virtual [GetLegendIncreaseName](../../aspose.cells.charts/chartglobalizationsettings/getlegendincreasename)() | Gets the name of increase for Legend. |
 | virtual [GetLegendTotalName](../../aspose.cells.charts/chartglobalizationsettings/getlegendtotalname)() | Gets the name of Total for Legend. |
@@ -37,7 +35,6 @@ public class ChartGlobalizationSettings : AbstractGlobalizationSettings
 
 ### See Also
 
-* class [AbstractGlobalizationSettings](../../aspose.cells/abstractglobalizationsettings)
 * namespace [Aspose.Cells.Charts](../../aspose.cells.charts)
 * assembly [Aspose.Cells](../../)
 

@@ -3,7 +3,7 @@ title: FormatConditionCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents conditional formatting. The FormatConditions can contain up to three conditional formats.
 type: docs
-weight: 3600
+weight: 3610
 url: /net/aspose.cells/formatconditioncollection/
 ---
 ## FormatConditionCollection class

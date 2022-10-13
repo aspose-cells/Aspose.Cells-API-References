@@ -3,7 +3,7 @@ title: WebQueryConnection
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the properties for a web query source. A web query will retrieve data from HTML tables and can also supply HTTP Get parameters to be processed by the web server in generating the HTML by including the parameters and parameter elements.
 type: docs
-weight: 3380
+weight: 3390
 url: /net/aspose.cells.externalconnections/webqueryconnection/
 ---
 ## WebQueryConnection class

@@ -3,7 +3,7 @@ title: WarningType
 second_title: Aspose.Cells for .NET API Reference
 description: WaringType
 type: docs
-weight: 6440
+weight: 6450
 url: /net/aspose.cells/warningtype/
 ---
 ## WarningType enumeration

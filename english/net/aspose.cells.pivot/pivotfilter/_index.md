@@ -3,7 +3,7 @@ title: PivotFilter
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a PivotFilter in PivotFilter Collection.
 type: docs
-weight: 4650
+weight: 4660
 url: /net/aspose.cells.pivot/pivotfilter/
 ---
 ## PivotFilter class

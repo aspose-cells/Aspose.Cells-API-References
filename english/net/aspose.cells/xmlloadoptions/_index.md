@@ -3,7 +3,7 @@ title: XmlLoadOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the options of loading xml.
 type: docs
-weight: 6660
+weight: 6670
 url: /net/aspose.cells/xmlloadoptions/
 ---
 ## XmlLoadOptions class
@@ -18,8 +18,8 @@ public class XmlLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [XmlLoadOptions](xmlloadoptions#constructor)() | Represents the options of loading ods file. |
-| [XmlLoadOptions](xmlloadoptions#constructor_1)(LoadFormat) | Represents the options of loading ods file. |
+| [XmlLoadOptions](xmlloadoptions#constructor)() | Represents the options of loading xml file. |
+| [XmlLoadOptions](xmlloadoptions#constructor_1)(LoadFormat) | Represents the options of loading xml file. |
 
 ## Properties
 

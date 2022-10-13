@@ -3,7 +3,7 @@ title: HorizontalPageBreakCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates a collection of HorizontalPageBreak./horizontalpagebreak objects.
 type: docs
-weight: 3700
+weight: 3710
 url: /net/aspose.cells/horizontalpagebreakcollection/
 ---
 ## HorizontalPageBreakCollection class

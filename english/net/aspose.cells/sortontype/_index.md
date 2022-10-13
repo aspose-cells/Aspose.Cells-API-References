@@ -3,7 +3,7 @@ title: SortOnType
 second_title: Aspose.Cells for .NET API Reference
 description: Sorted value type.
 type: docs
-weight: 5790
+weight: 5800
 url: /net/aspose.cells/sortontype/
 ---
 ## SortOnType enumeration

@@ -3,7 +3,7 @@ title: BuiltInDocumentPropertyCollection
 second_title: Aspose.Cells for .NET API Reference
 description: A collection of builtin document properties.
 type: docs
-weight: 4870
+weight: 4880
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/
 ---
 ## BuiltInDocumentPropertyCollection class
@@ -20,6 +20,7 @@ public class BuiltInDocumentPropertyCollection : DocumentPropertyCollection
 | --- | --- |
 | [Author](../../aspose.cells.properties/builtindocumentpropertycollection/author) { get; set; } | Gets or sets the name of the document's author. |
 | [Bytes](../../aspose.cells.properties/builtindocumentpropertycollection/bytes) { get; set; } | (**Obsolete.**) Represents an estimate of the number of bytes in the document. |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity) { get; set; } |  |
 | [Category](../../aspose.cells.properties/builtindocumentpropertycollection/category) { get; set; } | Gets or sets the category of the document. |
 | [Characters](../../aspose.cells.properties/builtindocumentpropertycollection/characters) { get; set; } | (**Obsolete.**) Represents an estimate of the number of characters in the document. |
 | [CharactersWithSpaces](../../aspose.cells.properties/builtindocumentpropertycollection/characterswithspaces) { get; set; } | (**Obsolete.**) Represents an estimate of the number of characters (including spaces) in the document. |
@@ -27,12 +28,13 @@ public class BuiltInDocumentPropertyCollection : DocumentPropertyCollection
 | [Company](../../aspose.cells.properties/builtindocumentpropertycollection/company) { get; set; } | Gets or sets the company property. |
 | [ContentStatus](../../aspose.cells.properties/builtindocumentpropertycollection/contentstatus) { get; set; } | Gets or sets the content status of the document. |
 | [ContentType](../../aspose.cells.properties/builtindocumentpropertycollection/contenttype) { get; set; } | Gets or sets the content type of the document. |
-| [Count](../../aspose.cells.properties/documentpropertycollection/count) { get; } | Gets number of items in the collection.(Inherited from [`DocumentPropertyCollection`](../documentpropertycollection).) |
+| [Count](../../aspose.cells/collectionbase-1/count) { get; } |  |
 | [CreatedTime](../../aspose.cells.properties/builtindocumentpropertycollection/createdtime) { get; set; } | Gets or sets date of the document creation in local timezone. |
 | [CreatedUniversalTime](../../aspose.cells.properties/builtindocumentpropertycollection/createduniversaltime) { get; set; } | Gets or sets the Universal time of the document creation. |
 | [DocumentVersion](../../aspose.cells.properties/builtindocumentpropertycollection/documentversion) { get; set; } | Represents the version of the file. |
 | [HyperlinkBase](../../aspose.cells.properties/builtindocumentpropertycollection/hyperlinkbase) { get; set; } | Gets or sets the hyperlinkbase property. |
 | [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Returns a [`DocumentProperty`](../documentproperty) object by index.(Inherited from [`DocumentPropertyCollection`](../documentpropertycollection).) |
+| [Item](../../aspose.cells/collectionbase-1/item) { get; set; } |  |
 | override [Item](../../aspose.cells.properties/builtindocumentpropertycollection/item) { get; } | Returns a [`DocumentProperty`](../documentproperty) object by the name of the property. |
 | [Keywords](../../aspose.cells.properties/builtindocumentpropertycollection/keywords) { get; set; } | Gets or sets the document keywords. |
 | [Language](../../aspose.cells.properties/builtindocumentpropertycollection/language) { get; set; } | Gets or sets the document's language. |
@@ -60,12 +62,35 @@ public class BuiltInDocumentPropertyCollection : DocumentPropertyCollection
 
 | Name | Description |
 | --- | --- |
-| [Clear](../../aspose.cells.properties/documentpropertycollection/clear)() | Removes all properties from the collection.(Inherited from [`DocumentPropertyCollection`](../documentpropertycollection).) |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(DocumentProperty) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(DocumentProperty, IComparer&lt;DocumentProperty&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(int, int, DocumentProperty, IComparer&lt;DocumentProperty&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear)() |  |
+| [Contains](../../aspose.cells/collectionbase-1/contains)(DocumentProperty) |  |
 | [Contains](../../aspose.cells.properties/documentpropertycollection/contains)(string) | Returns true if a property with the specified name exists in the collection.(Inherited from [`DocumentPropertyCollection`](../documentpropertycollection).) |
-| [GetEnumerator](../../aspose.cells.properties/documentpropertycollection/getenumerator)() | (Inherited from [`DocumentPropertyCollection`](../documentpropertycollection).) |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(DocumentProperty[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(DocumentProperty[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(int, DocumentProperty[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists)(Predicate&lt;DocumentProperty&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find)(Predicate&lt;DocumentProperty&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall)(Predicate&lt;DocumentProperty&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(Predicate&lt;DocumentProperty&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(int, Predicate&lt;DocumentProperty&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(int, int, Predicate&lt;DocumentProperty&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast)(Predicate&lt;DocumentProperty&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(Predicate&lt;DocumentProperty&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(int, Predicate&lt;DocumentProperty&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(int, int, Predicate&lt;DocumentProperty&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(DocumentProperty) |  |
 | [IndexOf](../../aspose.cells.properties/documentpropertycollection/indexof)(string) | Gets the index of a property by name.(Inherited from [`DocumentPropertyCollection`](../documentpropertycollection).) |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(DocumentProperty, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(DocumentProperty, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(DocumentProperty) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(DocumentProperty, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(DocumentProperty, int, int) |  |
 | [Remove](../../aspose.cells.properties/documentpropertycollection/remove)(string) | Removes a property with the specified name from the collection.(Inherited from [`DocumentPropertyCollection`](../documentpropertycollection).) |
-| [RemoveAt](../../aspose.cells.properties/documentpropertycollection/removeat)(int) | Removes a property at the specified index.(Inherited from [`DocumentPropertyCollection`](../documentpropertycollection).) |
+| [RemoveAt](../../aspose.cells.properties/documentpropertycollection/removeat)(int) | Removes a property at the specified index. (2 methods) |
 
 ### Remarks
 

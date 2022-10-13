@@ -3,7 +3,7 @@ title: DocumentProperty
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a custom or builtin document property.
 type: docs
-weight: 4930
+weight: 4940
 url: /net/aspose.cells.properties/documentproperty/
 ---
 ## DocumentProperty class

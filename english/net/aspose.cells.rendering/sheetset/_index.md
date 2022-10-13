@@ -3,7 +3,7 @@ title: SheetSet
 second_title: Aspose.Cells for .NET API Reference
 description: Describes a set of sheets.
 type: docs
-weight: 5340
+weight: 5350
 url: /net/aspose.cells.rendering/sheetset/
 ---
 ## SheetSet class

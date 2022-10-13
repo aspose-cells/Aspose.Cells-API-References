@@ -3,7 +3,7 @@ title: LoadFilter
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the filter that provides options for loading data when loading workbook from template.
 type: docs
-weight: 4020
+weight: 4030
 url: /net/aspose.cells/loadfilter/
 ---
 ## LoadFilter class

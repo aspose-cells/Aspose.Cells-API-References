@@ -3,7 +3,7 @@ title: OoxmlSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the options of saving office open xml file.
 type: docs
-weight: 4430
+weight: 4440
 url: /net/aspose.cells/ooxmlsaveoptions/
 ---
 ## OoxmlSaveOptions class

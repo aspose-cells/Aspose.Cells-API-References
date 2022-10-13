@@ -3,7 +3,7 @@ title: FileFontSource
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the single TrueType font file stored in the file system.
 type: docs
-weight: 3420
+weight: 3430
 url: /net/aspose.cells/filefontsource/
 ---
 ## FileFontSource class

@@ -3,7 +3,7 @@ title: NameCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a collection of all the Name./name objects in the spreadsheet.
 type: docs
-weight: 4250
+weight: 4260
 url: /net/aspose.cells/namecollection/
 ---
 ## NameCollection class

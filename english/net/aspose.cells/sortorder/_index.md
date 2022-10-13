@@ -3,7 +3,7 @@ title: SortOrder
 second_title: Aspose.Cells for .NET API Reference
 description: Represents sort order for the data range.
 type: docs
-weight: 5800
+weight: 5810
 url: /net/aspose.cells/sortorder/
 ---
 ## SortOrder enumeration

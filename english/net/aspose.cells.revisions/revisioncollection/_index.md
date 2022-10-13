@@ -3,7 +3,7 @@ title: RevisionCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents all revision logs.
 type: docs
-weight: 5460
+weight: 5470
 url: /net/aspose.cells.revisions/revisioncollection/
 ---
 ## RevisionCollection class

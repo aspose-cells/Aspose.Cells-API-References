@@ -3,7 +3,7 @@ title: HtmlSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the options for saving html file.
 type: docs
-weight: 3770
+weight: 3780
 url: /net/aspose.cells/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class
@@ -75,7 +75,7 @@ public class HtmlSaveOptions : SaveOptions
 | [MergeEmptyTdForcely](../../aspose.cells/htmlsaveoptions/mergeemptytdforcely) { get; set; } | Indicates whether merging empty TD element forcedly when exporting file to html. The size of html file will be reduced significantly after setting value to true. The default value is false. If you want to import the html file to excel or export perfect grid lines when saving file to html, please keep the default value. |
 | [PageTitle](../../aspose.cells/htmlsaveoptions/pagetitle) { get; set; } | The title of the html page. Only for saving to html stream. |
 | [ParseHtmlTagInCell](../../aspose.cells/htmlsaveoptions/parsehtmltagincell) { get; set; } | Parse html tag in cell,like ,as cell value,or as html tag,default is true |
-| [PresentationPreference](../../aspose.cells/htmlsaveoptions/presentationpreference) { get; set; } | Indicating if html or mht file is presentation preference.The default value is false.if you want to get more beautiful presentation,please set the value to true. |
+| [PresentationPreference](../../aspose.cells/htmlsaveoptions/presentationpreference) { get; set; } | Indicating if html or mht file is presentation preference. The default value is false. if you want to get more beautiful presentation,please set the value to true. |
 | [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Indicates whether refreshing chart cache data(Inherited from [`SaveOptions`](../saveoptions).) |
 | [SaveAsSingleFile](../../aspose.cells/htmlsaveoptions/saveassinglefile) { get; set; } | Indicates whether save the html as single file. The default value is false. |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Gets the save file format.(Inherited from [`SaveOptions`](../saveoptions).) |

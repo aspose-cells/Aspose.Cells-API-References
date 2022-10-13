@@ -3,7 +3,7 @@ title: WebExtensionBindingCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the list of binding relationships between an Office Addin and the data in the document.
 type: docs
-weight: 6470
+weight: 6480
 url: /net/aspose.cells.webextensions/webextensionbindingcollection/
 ---
 ## WebExtensionBindingCollection class
