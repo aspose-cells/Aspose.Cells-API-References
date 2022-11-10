@@ -26,6 +26,7 @@ public class ConditionalFormattingIcon
 
 | Name | Description |
 | --- | --- |
+| [GetImageData](../../aspose.cells/conditionalformattingicon/getimagedata)(Cell) | Gets the image data with the setting of font size. |
 | static [GetIconImageData](../../aspose.cells/conditionalformattingicon/geticonimagedata)(IconSetType, int) | Get the icon set data |
 
 ### See Also

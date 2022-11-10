@@ -3,7 +3,7 @@ title: GetMergedRange
 second_title: Aspose.Cells for .NET API Reference
 description: Returns a Rangeaspose.cells/range object which represents a merged range.
 type: docs
-weight: 500
+weight: 510
 url: /net/aspose.cells/cell/getmergedrange/
 ---
 ## Cell.GetMergedRange method

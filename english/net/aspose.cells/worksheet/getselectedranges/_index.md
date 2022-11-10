@@ -3,7 +3,7 @@ title: GetSelectedRanges
 second_title: Aspose.Cells for .NET API Reference
 description: Gets selected ranges of cells in the designer spreadsheet.
 type: docs
-weight: 750
+weight: 760
 url: /net/aspose.cells/worksheet/getselectedranges/
 ---
 ## Worksheet.GetSelectedRanges method

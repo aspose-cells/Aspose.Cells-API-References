@@ -3,7 +3,7 @@ title: VerticalAxisMinValueType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the vertical axis minimum value type.
 type: docs
-weight: 270
+weight: 280
 url: /net/aspose.cells.charts/sparklinegroup/verticalaxisminvaluetype/
 ---
 ## SparklineGroup.VerticalAxisMinValueType property

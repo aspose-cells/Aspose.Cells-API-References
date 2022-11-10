@@ -3,7 +3,7 @@ title: CloseAccessCache
 second_title: Aspose.Cells for .NET API Reference
 description: Closes the session that uses caches to access the data in this worksheet.
 type: docs
-weight: 680
+weight: 690
 url: /net/aspose.cells/worksheet/closeaccesscache/
 ---
 ## Worksheet.CloseAccessCache method

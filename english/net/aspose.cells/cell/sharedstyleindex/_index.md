@@ -3,7 +3,7 @@ title: SharedStyleIndex
 second_title: Aspose.Cells for .NET API Reference
 description: Gets cells shared style index in the style pool.
 type: docs
-weight: 280
+weight: 290
 url: /net/aspose.cells/cell/sharedstyleindex/
 ---
 ## Cell.SharedStyleIndex property

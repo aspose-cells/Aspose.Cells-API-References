@@ -3,7 +3,7 @@ title: GetStringValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the string value by specific formatted strategy.
 type: docs
-weight: 530
+weight: 540
 url: /net/aspose.cells/cell/getstringvalue/
 ---
 ## Cell.GetStringValue method

@@ -3,7 +3,7 @@ title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
 description: Remove web extension by the index.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.cells.webextensions/webextensioncollection/removeat/
 ---
 ## WebExtensionCollection.RemoveAt method

@@ -32,6 +32,7 @@ public class Cell
 | [IntValue](../../aspose.cells/cell/intvalue) { get; } | Gets the integer value contained in the cell. |
 | [IsArrayFormula](../../aspose.cells/cell/isarrayformula) { get; } | Indicates whether the cell formula is an array formula. |
 | [IsArrayHeader](../../aspose.cells/cell/isarrayheader) { get; } | Indicates the cell's formula is and array formula and it is the first cell of the array. |
+| [IsDynamicArrayFormula](../../aspose.cells/cell/isdynamicarrayformula) { get; } | Indicates whether the cell's formula is dynamic array formula(true) or legacy array formula(false). |
 | [IsErrorValue](../../aspose.cells/cell/iserrorvalue) { get; } | Checks if the value of this cell is an error. |
 | [IsFormula](../../aspose.cells/cell/isformula) { get; } | Represents if the specified cell contains formula. |
 | [IsInArray](../../aspose.cells/cell/isinarray) { get; } | (**Obsolete.**) Indicates whether the cell formula is an array formula. |

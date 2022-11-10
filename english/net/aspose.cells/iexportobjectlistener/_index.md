@@ -41,7 +41,7 @@ The following example creates a Workbook, opens a file named designer.xls in it 
                 {
                     case MsoDrawingType.Picture:
                     {
-                        url = SaveImage(((Picture)shape).Data, imgIdx, ((Picture)shape).ImageFormat);
+                        url = SaveImage(((Picture)shape).Data, imgIdx, ((Picture)shape).ImageType);
                         break;
                      }
                 }
@@ -53,17 +53,18 @@ The following example creates a Workbook, opens a file named designer.xls in it 
             }
             return null;
         }
-        private string SaveImage(byte[] data, int imgIdx, ImageFormat format)
+        private string SaveImage(byte[] data, int imgIdx, ImageType format)
         {
             //here save the image to any location, then return the url(relative or absolute) that the generated html can get the image
             return "temp1/temp2.png";
         }
      }
      
-     //Save html file with custom listener
+        //Save html file with custom listener
+        Workbook book = null; //build your workbook here
         HtmlSaveOptions saveOptions = new HtmlSaveOptions();
         saveOptions.ExportObjectListener = new CustomExportObjectListener();
-        Stream stream = File.Create(outfn);
+        Stream stream = null; //build your stream here
         book.Save(stream, saveOptions);
         stream.Flush();
         stream.Close();

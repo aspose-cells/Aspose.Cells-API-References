@@ -28,6 +28,7 @@ public class WebExtensionCollection : CollectionBase<WebExtension>
 | Name | Description |
 | --- | --- |
 | [Add](../../aspose.cells.webextensions/webextensioncollection/add)() | Adds a web extension. |
+| [AddWebVideoPlayer](../../aspose.cells.webextensions/webextensioncollection/addwebvideoplayer)(string, bool, int, int) | Add a web video player into exel. |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(WebExtension) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(WebExtension, IComparer&lt;WebExtension&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(int, int, WebExtension, IComparer&lt;WebExtension&gt;) |  |

@@ -3,7 +3,7 @@ title: SetTableFormula
 second_title: Aspose.Cells for .NET API Reference
 description: Create twovariable data table for given range starting from this cell.
 type: docs
-weight: 680
+weight: 690
 url: /net/aspose.cells/cell/settableformula/
 ---
 ## SetTableFormula(int, int, string, string, object[][]) {#settableformula_3}

@@ -3,7 +3,7 @@ title: GetDependents
 second_title: Aspose.Cells for .NET API Reference
 description: Get all cells whose formula references to this cell directly.
 type: docs
-weight: 410
+weight: 420
 url: /net/aspose.cells/cell/getdependents/
 ---
 ## Cell.GetDependents method

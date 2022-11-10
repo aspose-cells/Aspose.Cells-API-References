@@ -3,7 +3,7 @@ title: Timelines
 second_title: Aspose.Cells for .NET API Reference
 description: Get the Timeline collection in the worksheet
 type: docs
-weight: 490
+weight: 500
 url: /net/aspose.cells/worksheet/timelines/
 ---
 ## Worksheet.Timelines property

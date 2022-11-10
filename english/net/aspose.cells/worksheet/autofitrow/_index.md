@@ -1,11 +1,58 @@
 ---
 title: AutoFitRow
 second_title: Aspose.Cells for .NET API Reference
-description: Autofits the row height.
+description: Autofits row height in a rectangle range.
 type: docs
-weight: 640
+weight: 650
 url: /net/aspose.cells/worksheet/autofitrow/
 ---
+## AutoFitRow(int, int, int, int) {#autofitrow_3}
+
+Autofits row height in a rectangle range.
+
+```csharp
+public void AutoFitRow(int startRow, int endRow, int startColumn, int endColumn)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startRow | Int32 | Start row index. |
+| endRow | Int32 | End row index. |
+| startColumn | Int32 | Start column index. |
+| endColumn | Int32 | End column index. |
+
+### See Also
+
+* class [Worksheet](../../worksheet)
+* namespace [Aspose.Cells](../../worksheet)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## AutoFitRow(int) {#autofitrow}
+
+Autofits the row height.
+
+```csharp
+public void AutoFitRow(int rowIndex)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowIndex | Int32 | Row index. |
+
+### Remarks
+
+AutoFitRow is an imprecise function.
+
+### See Also
+
+* class [Worksheet](../../worksheet)
+* namespace [Aspose.Cells](../../worksheet)
+* assembly [Aspose.Cells](../../../)
+
+---
+
 ## AutoFitRow(int, int, int) {#autofitrow_1}
 
 Autofits the row height.
@@ -54,53 +101,6 @@ This method autofits a row based on content in a range of cells within the row.
 ### See Also
 
 * class [AutoFitterOptions](../../autofitteroptions)
-* class [Worksheet](../../worksheet)
-* namespace [Aspose.Cells](../../worksheet)
-* assembly [Aspose.Cells](../../../)
-
----
-
-## AutoFitRow(int, int, int, int) {#autofitrow_3}
-
-Autofits row height in a rectangle range.
-
-```csharp
-public void AutoFitRow(int startRow, int endRow, int startColumn, int endColumn)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| startRow | Int32 | Start row index. |
-| endRow | Int32 | End row index. |
-| startColumn | Int32 | Start column index. |
-| endColumn | Int32 | End column index. |
-
-### See Also
-
-* class [Worksheet](../../worksheet)
-* namespace [Aspose.Cells](../../worksheet)
-* assembly [Aspose.Cells](../../../)
-
----
-
-## AutoFitRow(int) {#autofitrow}
-
-Autofits the row height.
-
-```csharp
-public void AutoFitRow(int rowIndex)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rowIndex | Int32 | Row index. |
-
-### Remarks
-
-AutoFitRow is an imprecise function.
-
-### See Also
-
 * class [Worksheet](../../worksheet)
 * namespace [Aspose.Cells](../../worksheet)
 * assembly [Aspose.Cells](../../../)

@@ -3,7 +3,7 @@ title: VerticalAxisMinValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the custom minimum value for the vertical axis.
 type: docs
-weight: 260
+weight: 270
 url: /net/aspose.cells.charts/sparklinegroup/verticalaxisminvalue/
 ---
 ## SparklineGroup.VerticalAxisMinValue property

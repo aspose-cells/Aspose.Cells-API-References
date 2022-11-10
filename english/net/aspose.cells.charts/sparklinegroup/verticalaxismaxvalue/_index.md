@@ -3,7 +3,7 @@ title: VerticalAxisMaxValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the custom maximum value for the vertical axis.
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.cells.charts/sparklinegroup/verticalaxismaxvalue/
 ---
 ## SparklineGroup.VerticalAxisMaxValue property

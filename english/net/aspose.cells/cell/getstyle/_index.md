@@ -3,7 +3,7 @@ title: GetStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the cell style.
 type: docs
-weight: 540
+weight: 550
 url: /net/aspose.cells/cell/getstyle/
 ---
 ## GetStyle() {#getstyle}

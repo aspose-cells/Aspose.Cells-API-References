@@ -3,7 +3,7 @@ title: Replace
 second_title: Aspose.Cells for .NET API Reference
 description: Replaces all cells text with a new string.
 type: docs
-weight: 820
+weight: 830
 url: /net/aspose.cells/worksheet/replace/
 ---
 ## Worksheet.Replace method

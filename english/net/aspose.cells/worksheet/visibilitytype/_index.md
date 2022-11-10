@@ -3,7 +3,7 @@ title: VisibilityType
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates the visible state for this sheet.
 type: docs
-weight: 570
+weight: 580
 url: /net/aspose.cells/worksheet/visibilitytype/
 ---
 ## Worksheet.VisibilityType property

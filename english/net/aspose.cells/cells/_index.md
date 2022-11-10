@@ -180,7 +180,7 @@ public class Cells : IDisposable, IEnumerable
 | [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable_5)(DataTable, bool, int, int, int, int, bool, string) | (**Obsolete.**) Imports a DataTable into a worksheet. |
 | [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable_6)(DataTable, bool, int, int, int, int, bool, string, bool) | (**Obsolete.**) Imports a DataTable into a worksheet. |
 | [ImportDataView](../../aspose.cells/cells/importdataview#importdataview_3)(DataView, int, int) | Imports a DataView into a worksheet. |
-| [ImportDataView](../../aspose.cells/cells/importdataview#importdataview_4)(DataView, int, int, bool) | (**Obsolete.**)  |
+| [ImportDataView](../../aspose.cells/cells/importdataview#importdataview_4)(DataView, int, int, bool) | (**Obsolete.**) Imports a DataView into a worksheet. |
 | [ImportDataView](../../aspose.cells/cells/importdataview#importdataview)(DataView, bool, int, int, bool) | (**Obsolete.**) Imports a DataView into a worksheet. |
 | [ImportDataView](../../aspose.cells/cells/importdataview#importdataview_5)(DataView, int, int, int, int) | (**Obsolete.**) Imports a DataView into a worksheet. |
 | [ImportDataView](../../aspose.cells/cells/importdataview#importdataview_6)(DataView, int, int, int, int, bool) | (**Obsolete.**) Imports a DataView into a worksheet. |

@@ -3,7 +3,7 @@ title: SetSharedFormula
 second_title: Aspose.Cells for .NET API Reference
 description: Sets a formula to a range of cells.
 type: docs
-weight: 660
+weight: 670
 url: /net/aspose.cells/cell/setsharedformula/
 ---
 ## SetSharedFormula(string, int, int, bool, bool) {#setsharedformula_3}

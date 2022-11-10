@@ -3,7 +3,7 @@ title: IsSharedFormula
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the cell formula is part of shared formula.
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.cells/cell/issharedformula/
 ---
 ## Cell.IsSharedFormula property

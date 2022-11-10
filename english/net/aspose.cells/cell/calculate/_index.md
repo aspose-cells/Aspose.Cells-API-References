@@ -3,7 +3,7 @@ title: Calculate
 second_title: Aspose.Cells for .NET API Reference
 description: Calculates the formula of the cell.
 type: docs
-weight: 340
+weight: 350
 url: /net/aspose.cells/cell/calculate/
 ---
 ## Calculate(CalculationOptions) {#calculate}

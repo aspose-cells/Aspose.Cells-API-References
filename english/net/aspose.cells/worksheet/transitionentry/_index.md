@@ -3,7 +3,7 @@ title: TransitionEntry
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the Transition Formula Entry Lotus compatibility option is enabled.
 type: docs
-weight: 500
+weight: 510
 url: /net/aspose.cells/worksheet/transitionentry/
 ---
 ## Worksheet.TransitionEntry property

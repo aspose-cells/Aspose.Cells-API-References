@@ -1,14 +1,14 @@
 ---
 title: CompareTo
 second_title: Aspose.Cells for .NET API Reference
-description: Internal use only.
+description: Compare two CellArea objects according to their topleft corner.
 type: docs
 weight: 60
 url: /net/aspose.cells/cellarea/compareto/
 ---
 ## CellArea.CompareTo method
 
-Internal use only.
+Compare two CellArea objects according to their top-left corner.
 
 ```csharp
 public int CompareTo(object obj)
@@ -17,6 +17,10 @@ public int CompareTo(object obj)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | Object |  |
+
+### Return Value
+
+If two corners are in different rows, then compare their row index. Otherwise compare their column index. If two corners are same, then 0 will be returned.
 
 ### See Also
 

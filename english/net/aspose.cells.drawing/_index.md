@@ -127,7 +127,7 @@ Contains all classes of drawing objects, such as Images, Forms, Lines etc..
 | [PresetThemeGradientType](./presetthemegradienttype) | Represents the preset theme gradient type. |
 | [PresetWordArtStyle](./presetwordartstyle) | Represents the preset WordArt styles. |
 | [RectangleAlignmentType](./rectanglealignmenttype) | Represents how to position two rectangles relative to each other. |
-| [ReflectionEffectType](./reflectioneffecttype) |  |
+| [ReflectionEffectType](./reflectioneffecttype) | Represents the effect type of reflection. |
 | [SelectionType](./selectiontype) | The selection type of list box. |
 | [ShapeAnchorType](./shapeanchortype) | Represents the anchor type. |
 | [ShapeLockType](./shapelocktype) | Represents type of the property to be locked. |

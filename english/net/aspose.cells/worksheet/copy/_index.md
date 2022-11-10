@@ -3,7 +3,7 @@ title: Copy
 second_title: Aspose.Cells for .NET API Reference
 description: Copies contents and formats from another worksheet.
 type: docs
-weight: 690
+weight: 700
 url: /net/aspose.cells/worksheet/copy/
 ---
 ## Copy(Worksheet) {#copy}

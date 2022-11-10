@@ -1,14 +1,14 @@
 ---
 title: TimelineCollection
 second_title: Aspose.Cells for .NET API Reference
-description: Specifies the collection of all the Timeline objects on the specified worksheet.
+description: Specifies the collection of all the Timeline objects on the specified worksheet. Due to MS Excel Excel 2003 does not support Timeline.
 type: docs
 weight: 6170
 url: /net/aspose.cells.timelines/timelinecollection/
 ---
 ## TimelineCollection class
 
-Specifies the collection of all the Timeline objects on the specified worksheet.
+Specifies the collection of all the Timeline objects on the specified worksheet. Due to MS Excel, Excel 2003 does not support Timeline.
 
 ```csharp
 public class TimelineCollection : CollectionBase<Timeline>

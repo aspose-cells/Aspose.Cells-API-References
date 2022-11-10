@@ -3,7 +3,7 @@ title: RemoveAllDrawingObjects
 second_title: Aspose.Cells for .NET API Reference
 description: Removes all drawing objects in this worksheet.
 type: docs
-weight: 790
+weight: 800
 url: /net/aspose.cells/worksheet/removealldrawingobjects/
 ---
 ## Worksheet.RemoveAllDrawingObjects method
