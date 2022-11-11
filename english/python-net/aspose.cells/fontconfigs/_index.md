@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 660
-url: /cells/python-net/aspose.cells/fontconfigs/
+url: /python-net/aspose.cells/fontconfigs/
 ---
 
 ## FontConfigs class
@@ -33,6 +33,6 @@ The FontConfigs type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

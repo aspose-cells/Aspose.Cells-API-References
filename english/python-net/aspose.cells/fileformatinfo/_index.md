@@ -4,12 +4,12 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 590
-url: /cells/python-net/aspose.cells/fileformatinfo/
+url: /python-net/aspose.cells/fileformatinfo/
 ---
 
 ## FileFormatInfo class
 
-Contains data returned by [FileFormatUtil](/cells/python-net/aspose.cells/fileformatutil/) file format detection methods.
+Contains data returned by [FileFormatUtil](/python-net/aspose.cells/fileformatutil/) file format detection methods.
 
 The FileFormatInfo type exposes the following members:
 ## Constructors
@@ -26,6 +26,6 @@ The FileFormatInfo type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

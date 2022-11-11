@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 70
-url: /cells/python-net/aspose.cells.revisions/revisioncustomview/
+url: /python-net/aspose.cells.revisions/revisioncustomview/
 ---
 
 ## RevisionCustomView class
@@ -23,6 +23,6 @@ The RevisionCustomView type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.revisions](/cells/python-net/aspose.cells.revisions/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.revisions](/python-net/aspose.cells.revisions/)
+* assembly [Aspose.Cells](/python-net/)
 

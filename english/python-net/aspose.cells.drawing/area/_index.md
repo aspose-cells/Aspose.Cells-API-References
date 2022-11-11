@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /cells/python-net/aspose.cells.drawing/area/
+url: /python-net/aspose.cells.drawing/area/
 ---
 
 ## Area class
@@ -15,7 +15,7 @@ The Area type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|background_color|Gets or sets the background aspose.pydrawing.Color of the [Area](/cells/python-net/aspose.cells.drawing/area/).|
+|background_color|Gets or sets the background aspose.pydrawing.Color of the [Area](/python-net/aspose.cells.drawing/area/).|
 |foreground_color|Gets or sets the foreground aspose.pydrawing.Color.|
 |formatting|Represents the formatting of the area.|
 |invert_if_negative|If the property is true and the value of chart point is a negative number,<br/>            the foreground color and background color will be exchanged.|
@@ -24,6 +24,6 @@ The Area type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing](/python-net/aspose.cells.drawing/)
+* assembly [Aspose.Cells](/python-net/)
 

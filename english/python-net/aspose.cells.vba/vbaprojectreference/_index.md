@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 40
-url: /cells/python-net/aspose.cells.vba/vbaprojectreference/
+url: /python-net/aspose.cells.vba/vbaprojectreference/
 ---
 
 ## VbaProjectReference class
@@ -28,6 +28,6 @@ The VbaProjectReference type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.vba](/cells/python-net/aspose.cells.vba/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.vba](/python-net/aspose.cells.vba/)
+* assembly [Aspose.Cells](/python-net/)
 

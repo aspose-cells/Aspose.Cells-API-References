@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /cells/python-net/aspose.cells.tables/listcolumn/
+url: /python-net/aspose.cells.tables/listcolumn/
 ---
 
 ## ListColumn class
@@ -29,6 +29,6 @@ The ListColumn type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.tables](/cells/python-net/aspose.cells.tables/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.tables](/python-net/aspose.cells.tables/)
+* assembly [Aspose.Cells](/python-net/)
 

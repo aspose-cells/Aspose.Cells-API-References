@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 40
-url: /cells/python-net/aspose.cells.externalconnections/datamodelconnection/
+url: /python-net/aspose.cells.externalconnections/datamodelconnection/
 ---
 
 ## DataModelConnection class
@@ -37,10 +37,10 @@ The DataModelConnection type exposes the following members:
 |credentials_method_type|Specifies the authentication method to be used when establishing (or re-establishing) the connection.|
 |credentials|Specifies the authentication method to be used when establishing (or re-establishing) the connection.|
 |background_refresh|Indicates whether the connection can be refreshed in the background (asynchronously). <br/>            true if preferred usage of the connection is to refresh asynchronously in the background; <br/>            false if preferred usage of the connection is to refresh synchronously in the foreground.|
-|parameters|Gets [ConnectionParameterCollection](/cells/python-net/aspose.cells.externalconnections/connectionparametercollection/) for an ODBC or web query.|
+|parameters|Gets [ConnectionParameterCollection](/python-net/aspose.cells.externalconnections/connectionparametercollection/) for an ODBC or web query.|
 
 ### See Also
 
-* namespace [aspose.cells.externalconnections](/cells/python-net/aspose.cells.externalconnections/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.externalconnections](/python-net/aspose.cells.externalconnections/)
+* assembly [Aspose.Cells](/python-net/)
 

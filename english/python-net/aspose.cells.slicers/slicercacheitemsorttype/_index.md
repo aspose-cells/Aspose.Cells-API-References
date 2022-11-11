@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 70
-url: /cells/python-net/aspose.cells.slicers/slicercacheitemsorttype/
+url: /python-net/aspose.cells.slicers/slicercacheitemsorttype/
 ---
 
 ## SlicerCacheItemSortType enumeration
@@ -19,6 +19,6 @@ Specify the sort type of SlicerCacheItem
 
 ### See Also
 
-* namespace [aspose.cells.slicers](/cells/python-net/aspose.cells.slicers/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.slicers](/python-net/aspose.cells.slicers/)
+* assembly [Aspose.Cells](/python-net/)
 

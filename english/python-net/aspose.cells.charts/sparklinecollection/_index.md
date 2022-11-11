@@ -4,12 +4,12 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 270
-url: /cells/python-net/aspose.cells.charts/sparklinecollection/
+url: /python-net/aspose.cells.charts/sparklinecollection/
 ---
 
 ## SparklineCollection class
 
-Encapsulates a collection of [Sparkline](/cells/python-net/aspose.cells.charts/sparkline/) objects.
+Encapsulates a collection of [Sparkline](/python-net/aspose.cells.charts/sparkline/) objects.
 
 The SparklineCollection type exposes the following members:
 ## Properties
@@ -31,6 +31,6 @@ The SparklineCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.charts](/python-net/aspose.cells.charts/)
+* assembly [Aspose.Cells](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 30
-url: /cells/python-net/aspose.cells.charts/chart/
+url: /python-net/aspose.cells.charts/chart/
 ---
 
 ## Chart class
@@ -30,7 +30,7 @@ The Chart type exposes the following members:
 |shapes|Returns all drawing shapes in this chart.|
 |print_size|Gets and sets the printed chart size.|
 |type|Gets or sets a chart's type.|
-|n_series|Gets a [SeriesCollection](/cells/python-net/aspose.cells.charts/seriescollection/) collection representing the data series in the chart.|
+|n_series|Gets a [SeriesCollection](/python-net/aspose.cells.charts/seriescollection/) collection representing the data series in the chart.|
 |title|Gets the chart's title.|
 |sub_title|Gets the chart's sub-title.<br/>            Only for ODS format file.|
 |plot_area|Gets the chart's plot area which includes axis tick labels.|
@@ -48,10 +48,10 @@ The Chart type exposes the following members:
 |first_slice_angle|Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360.|
 |gap_width|Returns or sets the space between bar or column clusters, as a percentage of the bar or column width.<br/>            The value of this property must be between 0 and 500.|
 |gap_depth|Gets or sets the distance between the data series in a 3-D chart, as a percentage of the marker width.<br/>            The value of this property must be between 0 and 500.|
-|floor|Returns a [floor](/cells/python-net/aspose.cells.charts/chart/) object that represents the walls of a 3-D chart.|
-|walls|Returns a [walls](/cells/python-net/aspose.cells.charts/chart/) object that represents the walls of a 3-D chart.|
-|back_wall|Returns a [walls](/cells/python-net/aspose.cells.charts/chart/) object that represents the back wall of a 3-D chart.|
-|side_wall|Returns a [walls](/cells/python-net/aspose.cells.charts/chart/) object that represents the side wall of a 3-D chart.|
+|floor|Returns a [floor](/python-net/aspose.cells.charts/chart/) object that represents the walls of a 3-D chart.|
+|walls|Returns a [walls](/python-net/aspose.cells.charts/chart/) object that represents the walls of a 3-D chart.|
+|back_wall|Returns a [walls](/python-net/aspose.cells.charts/chart/) object that represents the back wall of a 3-D chart.|
+|side_wall|Returns a [walls](/python-net/aspose.cells.charts/chart/) object that represents the side wall of a 3-D chart.|
 |walls_and_gridlines_2d|True if gridlines are drawn two-dimensionally on a 3-D chart.|
 |rotation_angle|Represents the rotation of the 3-D chart view (the rotation of the plot area around the z-axis, in degrees).|
 |elevation|Represents the elevation of the 3-D chart view, in degrees.|
@@ -92,6 +92,6 @@ The Chart type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.charts](/python-net/aspose.cells.charts/)
+* assembly [Aspose.Cells](/python-net/)
 

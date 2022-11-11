@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 430
-url: /cells/python-net/aspose.cells.charts/chartsplittype/
+url: /python-net/aspose.cells.charts/chartsplittype/
 ---
 
 ## ChartSplitType enumeration
@@ -22,6 +22,6 @@ Represents the way the two sections of either a pie of pie chart or a bar of pie
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.charts](/python-net/aspose.cells.charts/)
+* assembly [Aspose.Cells](/python-net/)
 

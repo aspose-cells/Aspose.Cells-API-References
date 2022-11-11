@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 230
-url: /cells/python-net/aspose.cells.rendering/tiffcompression/
+url: /python-net/aspose.cells.rendering/tiffcompression/
 ---
 
 ## TiffCompression enumeration
@@ -22,6 +22,6 @@ Specifies what type of compression to apply when saving images into TIFF format 
 
 ### See Also
 
-* namespace [aspose.cells.rendering](/cells/python-net/aspose.cells.rendering/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.rendering](/python-net/aspose.cells.rendering/)
+* assembly [Aspose.Cells](/python-net/)
 

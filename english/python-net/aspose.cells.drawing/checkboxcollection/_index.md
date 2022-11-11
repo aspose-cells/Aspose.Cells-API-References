@@ -4,12 +4,12 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 100
-url: /cells/python-net/aspose.cells.drawing/checkboxcollection/
+url: /python-net/aspose.cells.drawing/checkboxcollection/
 ---
 
 ## CheckBoxCollection class
 
-Represents a collection of [CheckBox](/cells/python-net/aspose.cells.drawing/checkbox/) objects in a worksheet.
+Represents a collection of [CheckBox](/python-net/aspose.cells.drawing/checkbox/) objects in a worksheet.
 
 The CheckBoxCollection type exposes the following members:
 ## Properties
@@ -31,6 +31,6 @@ The CheckBoxCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing](/python-net/aspose.cells.drawing/)
+* assembly [Aspose.Cells](/python-net/)
 

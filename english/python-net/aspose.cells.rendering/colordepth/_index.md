@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 150
-url: /cells/python-net/aspose.cells.rendering/colordepth/
+url: /python-net/aspose.cells.rendering/colordepth/
 ---
 
 ## ColorDepth enumeration
@@ -23,6 +23,6 @@ Enumerates Bit Depth Type for tiff image.
 
 ### See Also
 
-* namespace [aspose.cells.rendering](/cells/python-net/aspose.cells.rendering/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.rendering](/python-net/aspose.cells.rendering/)
+* assembly [Aspose.Cells](/python-net/)
 

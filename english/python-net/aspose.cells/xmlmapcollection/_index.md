@@ -4,12 +4,12 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1700
-url: /cells/python-net/aspose.cells/xmlmapcollection/
+url: /python-net/aspose.cells/xmlmapcollection/
 ---
 
 ## XmlMapCollection class
 
-A collection of [XmlMap](/cells/python-net/aspose.cells/xmlmap/) objects that represent XmlMap information.
+A collection of [XmlMap](/python-net/aspose.cells/xmlmap/) objects that represent XmlMap information.
 
 The XmlMapCollection type exposes the following members:
 ## Properties
@@ -26,11 +26,11 @@ The XmlMapCollection type exposes the following members:
 |last_index_of(item)|  |
 |last_index_of(item, index)|  |
 |last_index_of(item, index, count)|  |
-|add(url)|Add a [XmlMap](/cells/python-net/aspose.cells/xmlmap/) by the url/path of a xml/xsd file.|
+|add(url)|Add a [XmlMap](/python-net/aspose.cells/xmlmap/) by the url/path of a xml/xsd file.|
 |binary_search(item)|  |
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

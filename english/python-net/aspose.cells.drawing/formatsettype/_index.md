@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1110
-url: /cells/python-net/aspose.cells.drawing/formatsettype/
+url: /python-net/aspose.cells.drawing/formatsettype/
 ---
 
 ## FormatSetType enumeration
@@ -21,6 +21,6 @@ Fill format set type.
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing](/python-net/aspose.cells.drawing/)
+* assembly [Aspose.Cells](/python-net/)
 

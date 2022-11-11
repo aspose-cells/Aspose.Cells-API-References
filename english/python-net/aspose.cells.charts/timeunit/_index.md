@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 660
-url: /cells/python-net/aspose.cells.charts/timeunit/
+url: /python-net/aspose.cells.charts/timeunit/
 ---
 
 ## TimeUnit enumeration
@@ -20,6 +20,6 @@ Represents the base unit for the category axis.
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.charts](/python-net/aspose.cells.charts/)
+* assembly [Aspose.Cells](/python-net/)
 

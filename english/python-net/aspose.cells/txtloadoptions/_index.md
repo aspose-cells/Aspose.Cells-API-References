@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1500
-url: /cells/python-net/aspose.cells/txtloadoptions/
+url: /python-net/aspose.cells/txtloadoptions/
 ---
 
 ## TxtLoadOptions class
@@ -54,7 +54,7 @@ The TxtLoadOptions type exposes the following members:
 |has_text_qualifier|Whether there is text qualifier for cell value. Default is true.|
 |text_qualifier|Specifies the text qualifier for cell values. Default qualifier is '"'.|
 |treat_consecutive_delimiters_as_one|Whether consecutive delimiters should be treated as one.|
-|treat_quote_prefix_as_value|Indicates whether the leading single quote sign should be taken as part of the value of one cell.<br/>            Default is true. If it is false, the leading single quote will be removed from corresponding cell's value<br/>            and [quote_prefix](/cells/python-net/aspose.cells/style/) will be set as true for the cell.|
+|treat_quote_prefix_as_value|Indicates whether the leading single quote sign should be taken as part of the value of one cell.<br/>            Default is true. If it is false, the leading single quote will be removed from corresponding cell's value<br/>            and [quote_prefix](/python-net/aspose.cells/style/) will be set as true for the cell.|
 |extend_to_next_sheet|Whether extends data to next sheet when the rows or columns of data exceed limit.<br/>            If this property is true, extra data will be extended to next sheet behind current one(if current sheet is the last one,<br/>            new sheet will be appended to current workbook).<br/>            If this property is false, the data exceeds limit will be ignored.<br/>            Default is false;|
 ## Methods
 | Name | Description |
@@ -63,6 +63,6 @@ The TxtLoadOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

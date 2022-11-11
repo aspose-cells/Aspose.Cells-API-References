@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 210
-url: /cells/python-net/aspose.cells.rendering/pdffontencoding/
+url: /python-net/aspose.cells.rendering/pdffontencoding/
 ---
 
 ## PdfFontEncoding enumeration
@@ -19,6 +19,6 @@ Represents pdf embedded font encoding.
 
 ### See Also
 
-* namespace [aspose.cells.rendering](/cells/python-net/aspose.cells.rendering/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.rendering](/python-net/aspose.cells.rendering/)
+* assembly [Aspose.Cells](/python-net/)
 

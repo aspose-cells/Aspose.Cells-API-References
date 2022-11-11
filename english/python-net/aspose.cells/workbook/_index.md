@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1580
-url: /cells/python-net/aspose.cells/workbook/
+url: /python-net/aspose.cells/workbook/
 ---
 
 ## Workbook class
@@ -15,7 +15,7 @@ The Workbook type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|Workbook()|Initializes a new instance of the [Workbook](/cells/python-net/aspose.cells/workbook/) class.|
+|Workbook()|Initializes a new instance of the [Workbook](/python-net/aspose.cells/workbook/) class.|
 |Workbook(file_format_type)|Initializes a new instance of the Workbook class|
 |Workbook(file)|Initializes a new instance of the Workbook class|
 |Workbook(stream)|Initializes a new instance of the Workbook class|
@@ -25,30 +25,30 @@ The Workbook type exposes the following members:
 | Name | Description |
 | :- | :- |
 |settings|Represents the workbook settings.|
-|worksheets|Gets the [WorksheetCollection](/cells/python-net/aspose.cells/worksheetcollection/) collection in the spreadsheet.|
+|worksheets|Gets the [WorksheetCollection](/python-net/aspose.cells/worksheetcollection/) collection in the spreadsheet.|
 |is_licensed|Indicates whether license is set.|
 |colors|Returns colors in the palette for the spreadsheet.|
 |count_of_styles_in_pool|Gets number of the styles in the style pool.|
-|default_style|Gets or sets the default [Style](/cells/python-net/aspose.cells/style/) object of the workbook.|
+|default_style|Gets or sets the default [Style](/python-net/aspose.cells/style/) object of the workbook.|
 |is_digitally_signed|Indicates if this spreadsheet is digitally signed.|
 |is_workbook_protected_with_password|Indicates whether structure or window is protected with password.|
-|vba_project|Gets the [vba_project](/cells/python-net/aspose.cells/workbook/) in a spreadsheet.|
+|vba_project|Gets the [vba_project](/python-net/aspose.cells/workbook/) in a spreadsheet.|
 |has_macro|Indicates if this spreadsheet contains macro/VBA.|
 |has_revisions|Gets if the workbook has any tracked changes|
 |file_name|Gets and sets the current file name.|
 |cells_data_table_factory|Gets the factory for building ICellsDataTable from custom objects|
 |data_sorter|Gets a DataSorter object to sort data.|
 |theme|Gets the theme name.|
-|built_in_document_properties|Returns a [DocumentProperty](/cells/python-net/aspose.cells.properties/documentproperty/) collection that represents all the built-in document properties of the spreadsheet.|
-|custom_document_properties|Returns a [DocumentProperty](/cells/python-net/aspose.cells.properties/documentproperty/) collection that represents all the custom document properties of the spreadsheet.|
+|built_in_document_properties|Returns a [DocumentProperty](/python-net/aspose.cells.properties/documentproperty/) collection that represents all the built-in document properties of the spreadsheet.|
+|custom_document_properties|Returns a [DocumentProperty](/python-net/aspose.cells.properties/documentproperty/) collection that represents all the custom document properties of the spreadsheet.|
 |file_format|Gets and sets the file format.|
 |interrupt_monitor|Gets and sets the interrupt monitor.|
-|content_type_properties|Gets the list of  [ContentTypeProperty](/cells/python-net/aspose.cells.properties/contenttypeproperty/) objects in the workbook.|
+|content_type_properties|Gets the list of  [ContentTypeProperty](/python-net/aspose.cells.properties/contenttypeproperty/) objects in the workbook.|
 |custom_xml_parts|Represents a Custom XML Data Storage Part (custom XML data within a package).|
 |data_mashup|Gets mashup data.|
 |ribbon_xml|Gets and sets the XML file that defines the Ribbon UI.|
 |absolute_path|Gets and sets the absolute path of the file.|
-|data_connections|Gets the [ExternalConnection](/cells/python-net/aspose.cells.externalconnections/externalconnection/) collection.|
+|data_connections|Gets the [ExternalConnection](/python-net/aspose.cells.externalconnections/externalconnection/) collection.|
 ## Methods
 | Name | Description |
 | :- | :- |
@@ -84,7 +84,7 @@ The Workbook type exposes the following members:
 |remove_unused_styles()|Remove all unused styles.|
 |create_style()|Creates a new style.|
 |create_builtin_style(type)|Creates built-in style by given type.|
-|create_cells_color()|Creates a [CellsColor](/cells/python-net/aspose.cells/cellscolor/) object.|
+|create_cells_color()|Creates a [CellsColor](/python-net/aspose.cells/cellscolor/) object.|
 |combine(second_workbook)|Combines another Workbook object.|
 |get_style_in_pool(index)|Gets the style in the style pool.<br/>            All styles in the workbook will be gathered into a pool.<br/>            There is only a simple reference index in the cells.|
 |get_fonts()|Gets all fonts in the style pool.|
@@ -114,6 +114,6 @@ The Workbook type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

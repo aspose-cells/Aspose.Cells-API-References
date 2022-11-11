@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 170
-url: /cells/python-net/aspose.cells.rendering/drawobjectenum/
+url: /python-net/aspose.cells.rendering/drawobjectenum/
 ---
 
 ## DrawObjectEnum enumeration
@@ -19,6 +19,6 @@ Indicate Cell or Image of DrawObject.
 
 ### See Also
 
-* namespace [aspose.cells.rendering](/cells/python-net/aspose.cells.rendering/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.rendering](/python-net/aspose.cells.rendering/)
+* assembly [Aspose.Cells](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 50
-url: /cells/python-net/aspose.cells.tables/tablestyle/
+url: /python-net/aspose.cells.tables/tablestyle/
 ---
 
 ## TableStyle class
@@ -20,6 +20,6 @@ The TableStyle type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.tables](/cells/python-net/aspose.cells.tables/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.tables](/python-net/aspose.cells.tables/)
+* assembly [Aspose.Cells](/python-net/)
 

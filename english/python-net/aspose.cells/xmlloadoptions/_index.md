@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1680
-url: /cells/python-net/aspose.cells/xmlloadoptions/
+url: /python-net/aspose.cells/xmlloadoptions/
 ---
 
 ## XmlLoadOptions class
@@ -40,7 +40,7 @@ The XmlLoadOptions type exposes the following members:
 |warning_callback|Gets or sets warning callback.|
 |auto_fitter_options|Gets and sets the auto fitter options|
 |auto_filter|Indicates whether auto filtering the data when loading the files.|
-|font_configs|Gets and sets individual font configs. <br/>            Only works for the [Workbook](/cells/python-net/aspose.cells/workbook/) which uses this [LoadOptions](/cells/python-net/aspose.cells/loadoptions/) to load.|
+|font_configs|Gets and sets individual font configs. <br/>            Only works for the [Workbook](/python-net/aspose.cells/workbook/) which uses this [LoadOptions](/python-net/aspose.cells/loadoptions/) to load.|
 |start_cell|Gets and sets the start cell.|
 |is_xml_map|Indicates whether mapping xml to Excel.<br/>            The default value is false.|
 |contains_multiple_worksheets|Indicates whether importing xml as multiple worksheets.|
@@ -51,6 +51,6 @@ The XmlLoadOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

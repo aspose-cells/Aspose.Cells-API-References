@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 5090
-url: /cells/python-net/aspose.cells/textorientationtype/
+url: /python-net/aspose.cells/textorientationtype/
 ---
 
 ## TextOrientationType enumeration
@@ -21,6 +21,6 @@ Enumerates text orientation types.
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

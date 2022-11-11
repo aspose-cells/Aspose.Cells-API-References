@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1120
-url: /cells/python-net/aspose.cells.drawing/gradientcolortype/
+url: /python-net/aspose.cells.drawing/gradientcolortype/
 ---
 
 ## GradientColorType enumeration
@@ -21,6 +21,6 @@ Represents the gradient color type for the specified fill.
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing](/python-net/aspose.cells.drawing/)
+* assembly [Aspose.Cells](/python-net/)
 

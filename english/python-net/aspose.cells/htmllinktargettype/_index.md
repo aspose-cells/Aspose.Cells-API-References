@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4710
-url: /cells/python-net/aspose.cells/htmllinktargettype/
+url: /python-net/aspose.cells/htmllinktargettype/
 ---
 
 ## HtmlLinkTargetType enumeration
@@ -21,6 +21,6 @@ Represents the type of target attribute in HTML
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

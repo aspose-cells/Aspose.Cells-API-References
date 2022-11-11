@@ -4,12 +4,12 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 50
-url: /cells/python-net/aspose.cells.charts/chartcollection/
+url: /python-net/aspose.cells.charts/chartcollection/
 ---
 
 ## ChartCollection class
 
-Encapsulates a collection of [Chart](/cells/python-net/aspose.cells.charts/chart/) objects.
+Encapsulates a collection of [Chart](/python-net/aspose.cells.charts/chart/) objects.
 
 The ChartCollection type exposes the following members:
 ## Properties
@@ -37,6 +37,6 @@ The ChartCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.charts](/python-net/aspose.cells.charts/)
+* assembly [Aspose.Cells](/python-net/)
 

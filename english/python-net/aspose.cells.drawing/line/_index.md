@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 290
-url: /cells/python-net/aspose.cells.drawing/line/
+url: /python-net/aspose.cells.drawing/line/
 ---
 
 ## Line class
@@ -29,7 +29,7 @@ The Line type exposes the following members:
 |color|Represents the aspose.pydrawing.Color of the line.|
 |transparency|Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear).|
 |style|Represents the style of the line.|
-|weight|Gets or sets the [WeightType](/cells/python-net/aspose.cells.drawing/weighttype/) of the line.|
+|weight|Gets or sets the [WeightType](/python-net/aspose.cells.drawing/weighttype/) of the line.|
 |weight_pt|Gets or sets the weight of the line in unit of points.|
 |weight_px|Gets or sets the weight of the line in unit of pixels.|
 |formatting_type|Gets or sets format type.|
@@ -40,6 +40,6 @@ The Line type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing](/python-net/aspose.cells.drawing/)
+* assembly [Aspose.Cells](/python-net/)
 

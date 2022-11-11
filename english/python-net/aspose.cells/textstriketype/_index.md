@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 5100
-url: /cells/python-net/aspose.cells/textstriketype/
+url: /python-net/aspose.cells/textstriketype/
 ---
 
 ## TextStrikeType enumeration
@@ -20,6 +20,6 @@ This type specifies the strike type.
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

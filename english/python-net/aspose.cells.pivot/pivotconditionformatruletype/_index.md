@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 130
-url: /cells/python-net/aspose.cells.pivot/pivotconditionformatruletype/
+url: /python-net/aspose.cells.pivot/pivotconditionformatruletype/
 ---
 
 ## PivotConditionFormatRuleType enumeration
@@ -21,6 +21,6 @@ Represents PivotTable condition formatting rule type.
 
 ### See Also
 
-* namespace [aspose.cells.pivot](/cells/python-net/aspose.cells.pivot/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.pivot](/python-net/aspose.cells.pivot/)
+* assembly [Aspose.Cells](/python-net/)
 

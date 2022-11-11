@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 280
-url: /cells/python-net/aspose.cells.drawing.activexcontrols/dropbuttonstyle/
+url: /python-net/aspose.cells.drawing.activexcontrols/dropbuttonstyle/
 ---
 
 ## DropButtonStyle enumeration
@@ -21,6 +21,6 @@ Represents the symbol displayed on the drop button.
 
 ### See Also
 
-* namespace [aspose.cells.drawing.activexcontrols](/cells/python-net/aspose.cells.drawing.activexcontrols/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing.activexcontrols](/python-net/aspose.cells.drawing.activexcontrols/)
+* assembly [Aspose.Cells](/python-net/)
 

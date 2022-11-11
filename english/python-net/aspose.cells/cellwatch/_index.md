@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 160
-url: /cells/python-net/aspose.cells/cellwatch/
+url: /python-net/aspose.cells/cellwatch/
 ---
 
 ## CellWatch class
@@ -25,6 +25,6 @@ The CellWatch type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

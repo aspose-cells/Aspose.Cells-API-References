@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /cells/python-net/aspose.cells.numbers/loadnumberstabletype/
+url: /python-net/aspose.cells.numbers/loadnumberstabletype/
 ---
 
 ## LoadNumbersTableType enumeration
@@ -20,6 +20,6 @@ Indicates type of loading tables when some tables are in a sheet.
 
 ### See Also
 
-* namespace [aspose.cells.numbers](/cells/python-net/aspose.cells.numbers/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.numbers](/python-net/aspose.cells.numbers/)
+* assembly [Aspose.Cells](/python-net/)
 

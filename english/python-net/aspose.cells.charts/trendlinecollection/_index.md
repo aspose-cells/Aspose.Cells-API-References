@@ -4,12 +4,12 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 340
-url: /cells/python-net/aspose.cells.charts/trendlinecollection/
+url: /python-net/aspose.cells.charts/trendlinecollection/
 ---
 
 ## TrendlineCollection class
 
-Represents a collection of all the [Trendline](/cells/python-net/aspose.cells.charts/trendline/) objects for the specified data series.
+Represents a collection of all the [Trendline](/python-net/aspose.cells.charts/trendline/) objects for the specified data series.
 
 The TrendlineCollection type exposes the following members:
 ## Properties
@@ -32,6 +32,6 @@ The TrendlineCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.charts](/python-net/aspose.cells.charts/)
+* assembly [Aspose.Cells](/python-net/)
 

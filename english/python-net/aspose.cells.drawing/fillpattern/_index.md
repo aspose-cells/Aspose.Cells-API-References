@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1080
-url: /cells/python-net/aspose.cells.drawing/fillpattern/
+url: /python-net/aspose.cells.drawing/fillpattern/
 ---
 
 ## FillPattern enumeration
@@ -68,6 +68,6 @@ Enumerates shape fill pattern types.
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing](/python-net/aspose.cells.drawing/)
+* assembly [Aspose.Cells](/python-net/)
 

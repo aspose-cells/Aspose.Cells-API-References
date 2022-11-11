@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /cells/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/
+url: /python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/
 ---
 
 ## PdfSecurityOptions class
@@ -33,6 +33,6 @@ The PdfSecurityOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.rendering.pdfsecurity](/cells/python-net/aspose.cells.rendering.pdfsecurity/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.rendering.pdfsecurity](/python-net/aspose.cells.rendering.pdfsecurity/)
+* assembly [Aspose.Cells](/python-net/)
 

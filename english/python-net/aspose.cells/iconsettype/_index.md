@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4720
-url: /cells/python-net/aspose.cells/iconsettype/
+url: /python-net/aspose.cells/iconsettype/
 ---
 
 ## IconSetType enumeration
@@ -41,6 +41,6 @@ Icon set type for conditional formatting. <br/>            The threshold values 
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

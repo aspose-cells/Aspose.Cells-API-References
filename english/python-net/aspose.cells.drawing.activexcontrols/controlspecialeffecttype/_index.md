@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 260
-url: /cells/python-net/aspose.cells.drawing.activexcontrols/controlspecialeffecttype/
+url: /python-net/aspose.cells.drawing.activexcontrols/controlspecialeffecttype/
 ---
 
 ## ControlSpecialEffectType enumeration
@@ -22,6 +22,6 @@ Represents the type of special effect.
 
 ### See Also
 
-* namespace [aspose.cells.drawing.activexcontrols](/cells/python-net/aspose.cells.drawing.activexcontrols/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing.activexcontrols](/python-net/aspose.cells.drawing.activexcontrols/)
+* assembly [Aspose.Cells](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 50
-url: /cells/python-net/aspose.cells.drawing.activexcontrols/commandbuttonactivexcontrol/
+url: /python-net/aspose.cells.drawing.activexcontrols/commandbuttonactivexcontrol/
 ---
 
 ## CommandButtonActiveXControl class
@@ -44,6 +44,6 @@ The CommandButtonActiveXControl type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.drawing.activexcontrols](/cells/python-net/aspose.cells.drawing.activexcontrols/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing.activexcontrols](/python-net/aspose.cells.drawing.activexcontrols/)
+* assembly [Aspose.Cells](/python-net/)
 

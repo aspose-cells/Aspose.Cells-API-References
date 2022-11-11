@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1350
-url: /cells/python-net/aspose.cells.drawing/presetshadowtype/
+url: /python-net/aspose.cells.drawing/presetshadowtype/
 ---
 
 ## PresetShadowType enumeration
@@ -42,6 +42,6 @@ Represents preset shadow type.
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing](/python-net/aspose.cells.drawing/)
+* assembly [Aspose.Cells](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 60
-url: /cells/python-net/aspose.cells.slicers/slicercachecrossfiltertype/
+url: /python-net/aspose.cells.slicers/slicercachecrossfiltertype/
 ---
 
 ## SlicerCacheCrossFilterType enumeration
@@ -20,6 +20,6 @@ Represent the type of SlicerCacheCrossFilterType
 
 ### See Also
 
-* namespace [aspose.cells.slicers](/cells/python-net/aspose.cells.slicers/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.slicers](/python-net/aspose.cells.slicers/)
+* assembly [Aspose.Cells](/python-net/)
 

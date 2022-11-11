@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 230
-url: /cells/python-net/aspose.cells.charts/series/
+url: /python-net/aspose.cells.charts/series/
 ---
 
 ## Series class
@@ -44,10 +44,10 @@ The Series type exposes the following members:
 |has_series_lines|True if a stacked column chart or bar chart has series lines or<br/>            if a Pie of Pie chart or Bar of Pie chart has connector lines between the two sections. <br/>            Applies only to stacked column charts, bar charts, Pie of Pie charts, or Bar of Pie charts.|
 |series_lines|Returns a SeriesLines object that represents the series lines for a stacked bar chart or a stacked column chart.<br/>            Applies only to stacked bar and stacked column charts.|
 |has_drop_lines|True if the chart has drop lines.<br/>            Applies only to line chart or area charts.|
-|drop_lines|Returns a [Line](/cells/python-net/aspose.cells.drawing/line/) object that represents the drop lines for a series on the line chart or area chart.<br/>            Applies only to line chart or area charts.|
+|drop_lines|Returns a [Line](/python-net/aspose.cells.drawing/line/) object that represents the drop lines for a series on the line chart or area chart.<br/>            Applies only to line chart or area charts.|
 |has_up_down_bars|True if a line chart has up and down bars.<br/>            Applies only to line charts.|
 |up_bars|Returns an DropBars object that represents the up bars on a line chart.<br/>            Applies only to line charts.|
-|down_bars|Returns a [DropBars](/cells/python-net/aspose.cells.charts/dropbars/) object that represents the down bars on a line chart.<br/>            Applies only to line charts.|
+|down_bars|Returns a [DropBars](/python-net/aspose.cells.charts/dropbars/) object that represents the down bars on a line chart.<br/>            Applies only to line charts.|
 |is_color_varied|Represents if the color of points is varied. <br/>            The chart must contain only one series.|
 |gap_width|Returns or sets the space between bar or column clusters, as a percentage of the bar or column width.<br/>            The value of this property must be between 0 and 500.|
 |first_slice_angle|Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). <br/>            Applies only to pie, 3-D pie, and doughnut charts, 0 to 360.|
@@ -73,6 +73,6 @@ The Series type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.charts](/python-net/aspose.cells.charts/)
+* assembly [Aspose.Cells](/python-net/)
 

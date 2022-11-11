@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /cells/python-net/aspose.cells.digitalsignatures/digitalsignature/
+url: /python-net/aspose.cells.digitalsignatures/digitalsignature/
 ---
 
 ## DigitalSignature class
@@ -30,6 +30,6 @@ The DigitalSignature type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.digitalsignatures](/cells/python-net/aspose.cells.digitalsignatures/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.digitalsignatures](/python-net/aspose.cells.digitalsignatures/)
+* assembly [Aspose.Cells](/python-net/)
 

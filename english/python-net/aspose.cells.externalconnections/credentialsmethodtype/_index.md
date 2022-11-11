@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 100
-url: /cells/python-net/aspose.cells.externalconnections/credentialsmethodtype/
+url: /python-net/aspose.cells.externalconnections/credentialsmethodtype/
 ---
 
 ## CredentialsMethodType enumeration
@@ -21,6 +21,6 @@ Specifies Credentials method used for server access.
 
 ### See Also
 
-* namespace [aspose.cells.externalconnections](/cells/python-net/aspose.cells.externalconnections/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.externalconnections](/python-net/aspose.cells.externalconnections/)
+* assembly [Aspose.Cells](/python-net/)
 

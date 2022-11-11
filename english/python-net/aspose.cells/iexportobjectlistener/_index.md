@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 840
-url: /cells/python-net/aspose.cells/iexportobjectlistener/
+url: /python-net/aspose.cells/iexportobjectlistener/
 ---
 
 ## IExportObjectListener class
@@ -19,6 +19,6 @@ The IExportObjectListener type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

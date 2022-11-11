@@ -4,12 +4,12 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1240
-url: /cells/python-net/aspose.cells/querytablecollection/
+url: /python-net/aspose.cells/querytablecollection/
 ---
 
 ## QueryTableCollection class
 
-A collection of [QueryTableCollection](/cells/python-net/aspose.cells/querytablecollection/) objects that represent QueryTable collection information.
+A collection of [QueryTableCollection](/python-net/aspose.cells/querytablecollection/) objects that represent QueryTable collection information.
 
 The QueryTableCollection type exposes the following members:
 ## Properties
@@ -30,6 +30,6 @@ The QueryTableCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

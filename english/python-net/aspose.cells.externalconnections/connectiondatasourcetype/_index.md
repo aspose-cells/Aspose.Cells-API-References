@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 80
-url: /cells/python-net/aspose.cells.externalconnections/connectiondatasourcetype/
+url: /python-net/aspose.cells.externalconnections/connectiondatasourcetype/
 ---
 
 ## ConnectionDataSourceType enumeration
@@ -31,6 +31,6 @@ Specifies external database source type
 
 ### See Also
 
-* namespace [aspose.cells.externalconnections](/cells/python-net/aspose.cells.externalconnections/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.externalconnections](/python-net/aspose.cells.externalconnections/)
+* assembly [Aspose.Cells](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 160
-url: /cells/python-net/aspose.cells.drawing.activexcontrols/controlbordertype/
+url: /python-net/aspose.cells.drawing.activexcontrols/controlbordertype/
 ---
 
 ## ControlBorderType enumeration
@@ -19,6 +19,6 @@ Represents the border type of the ActiveX control.
 
 ### See Also
 
-* namespace [aspose.cells.drawing.activexcontrols](/cells/python-net/aspose.cells.drawing.activexcontrols/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing.activexcontrols](/python-net/aspose.cells.drawing.activexcontrols/)
+* assembly [Aspose.Cells](/python-net/)
 

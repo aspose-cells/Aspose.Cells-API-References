@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 70
-url: /cells/python-net/aspose.cells.drawing.texts/picturebulletvalue/
+url: /python-net/aspose.cells.drawing.texts/picturebulletvalue/
 ---
 
 ## PictureBulletValue class
@@ -24,6 +24,6 @@ The PictureBulletValue type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.drawing.texts](/cells/python-net/aspose.cells.drawing.texts/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing.texts](/python-net/aspose.cells.drawing.texts/)
+* assembly [Aspose.Cells](/python-net/)
 

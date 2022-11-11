@@ -4,12 +4,12 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 100
-url: /cells/python-net/aspose.cells/bordercollection/
+url: /python-net/aspose.cells/bordercollection/
 ---
 
 ## BorderCollection class
 
-Encapsulates a collection of [Border](/cells/python-net/aspose.cells/border/) objects.
+Encapsulates a collection of [Border](/python-net/aspose.cells/border/) objects.
 
 The BorderCollection type exposes the following members:
 ## Properties
@@ -25,6 +25,6 @@ The BorderCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

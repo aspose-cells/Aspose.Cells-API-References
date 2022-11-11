@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /cells/python-net/aspose.cells.timelines/timelinecollection/
+url: /python-net/aspose.cells.timelines/timelinecollection/
 ---
 
 ## TimelineCollection class
@@ -36,6 +36,6 @@ The TimelineCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.timelines](/cells/python-net/aspose.cells.timelines/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.timelines](/python-net/aspose.cells.timelines/)
+* assembly [Aspose.Cells](/python-net/)
 

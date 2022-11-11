@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1090
-url: /cells/python-net/aspose.cells/negativebarformat/
+url: /python-net/aspose.cells/negativebarformat/
 ---
 
 ## NegativeBarFormat class
@@ -22,6 +22,6 @@ The NegativeBarFormat type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 5200
-url: /cells/python-net/aspose.cells/warningtype/
+url: /python-net/aspose.cells/warningtype/
 ---
 
 ## WarningType enumeration
@@ -26,6 +26,6 @@ WaringType
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

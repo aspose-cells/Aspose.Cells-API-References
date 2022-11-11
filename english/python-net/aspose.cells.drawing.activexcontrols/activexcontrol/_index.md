@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /cells/python-net/aspose.cells.drawing.activexcontrols/activexcontrol/
+url: /python-net/aspose.cells.drawing.activexcontrols/activexcontrol/
 ---
 
 ## ActiveXControl class
@@ -15,7 +15,7 @@ The ActiveXControl type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|workbook|Gets the [workbook](/cells/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/) object.|
+|workbook|Gets the [workbook](/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/) object.|
 |type|Gets the type of the ActiveX control.|
 |width|Gets and sets the width of the control in unit of points.|
 |height|Gets and sets the height of the control in unit of points.|
@@ -38,6 +38,6 @@ The ActiveXControl type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.drawing.activexcontrols](/cells/python-net/aspose.cells.drawing.activexcontrols/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing.activexcontrols](/python-net/aspose.cells.drawing.activexcontrols/)
+* assembly [Aspose.Cells](/python-net/)
 

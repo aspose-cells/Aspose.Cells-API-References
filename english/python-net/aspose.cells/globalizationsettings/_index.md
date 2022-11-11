@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 730
-url: /cells/python-net/aspose.cells/globalizationsettings/
+url: /python-net/aspose.cells/globalizationsettings/
 ---
 
 ## GlobalizationSettings class
@@ -19,7 +19,7 @@ The GlobalizationSettings type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|chart_settings|Gets or sets the Chart of this[ChartGlobalizationSettings](/cells/python-net/aspose.cells.charts/chartglobalizationsettings/)|
+|chart_settings|Gets or sets the Chart of this[ChartGlobalizationSettings](/python-net/aspose.cells.charts/chartglobalizationsettings/)|
 |list_separator|Gets the separator for list, parameters of function, ...etc.|
 |row_separator_of_formula_array|Gets the separator for rows in array data in formula.|
 |column_separator_of_formula_array|Gets the separator for the items in array's row data in formula.|
@@ -37,7 +37,7 @@ The GlobalizationSettings type exposes the following members:
 |get_column_labels_of_pivot_table()|Gets the name of "Column Labels" label in the PivotTable.|
 |get_row_labels_name_of_pivot_table()|Gets the name of "Row Labels" label in the PivotTable.|
 |get_empty_data_name()|Gets the name of "(blank)" label in the PivotTable.|
-|get_sub_total_name(sub_total_type)|Gets the name of [PivotFieldSubtotalType](/cells/python-net/aspose.cells.pivot/pivotfieldsubtotaltype/) type in the PivotTable.|
+|get_sub_total_name(sub_total_type)|Gets the name of [PivotFieldSubtotalType](/python-net/aspose.cells.pivot/pivotfieldsubtotaltype/) type in the PivotTable.|
 |get_total_name(function_type)|Gets the total name of the function.|
 |get_grand_total_name(function_type)|Gets the grand total name of the function.|
 |get_other_name()|Gets the name of "Other" labels for Pie charts.|
@@ -57,6 +57,6 @@ The GlobalizationSettings type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

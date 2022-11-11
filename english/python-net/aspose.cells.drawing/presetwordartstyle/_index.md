@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1370
-url: /cells/python-net/aspose.cells.drawing/presetwordartstyle/
+url: /python-net/aspose.cells.drawing/presetwordartstyle/
 ---
 
 ## PresetWordArtStyle enumeration
@@ -37,6 +37,6 @@ Represents the preset WordArt styles.
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing](/python-net/aspose.cells.drawing/)
+* assembly [Aspose.Cells](/python-net/)
 

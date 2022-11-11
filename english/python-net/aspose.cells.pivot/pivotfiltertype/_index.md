@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 180
-url: /cells/python-net/aspose.cells.pivot/pivotfiltertype/
+url: /python-net/aspose.cells.pivot/pivotfiltertype/
 ---
 
 ## PivotFilterType enumeration
@@ -83,6 +83,6 @@ Represents PivotTable Filter type.
 
 ### See Also
 
-* namespace [aspose.cells.pivot](/cells/python-net/aspose.cells.pivot/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.pivot](/python-net/aspose.cells.pivot/)
+* assembly [Aspose.Cells](/python-net/)
 

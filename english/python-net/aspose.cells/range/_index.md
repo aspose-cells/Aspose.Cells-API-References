@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1250
-url: /cells/python-net/aspose.cells/range/
+url: /python-net/aspose.cells/range/
 ---
 
 ## Range class
@@ -34,7 +34,7 @@ The Range type exposes the following members:
 |row_height|Sets or gets the height of rows in this range|
 |entire_column|Gets a Range object that represents the entire column (or columns) that contains the specified range.|
 |entire_row|Gets a Range object that represents the entire row (or rows) that contains the specified range.|
-|worksheet|Gets the [worksheet](/cells/python-net/aspose.cells/range/)object which contains this range.|
+|worksheet|Gets the [worksheet](/python-net/aspose.cells/range/)object which contains this range.|
 ## Methods
 | Name | Description |
 | :- | :- |
@@ -49,7 +49,7 @@ The Range type exposes the following members:
 |copy(range)|Copies cell data (including formulas) from a source range.|
 |get_enumerator()|Gets the enumerator for cells in this Range.|
 |is_intersect(range)|Indicates whether the range is intersect.|
-|intersect(range)|Returns a [Range](/cells/python-net/aspose.cells/range/) object that represents the rectangular intersection of two ranges.|
+|intersect(range)|Returns a [Range](/python-net/aspose.cells/range/) object that represents the rectangular intersection of two ranges.|
 |union(range)|Returns the union of two ranges.|
 |merge()|Combines a range of cells into a single cell.|
 |un_merge()|Unmerges merged cells of this range.|
@@ -61,11 +61,11 @@ The Range type exposes the following members:
 |copy_data(range)|Copies cell data (including formulas) from a source range.|
 |copy_value(range)|Copies cell value from a source range.|
 |copy_style(range)|Copies style settings from a source range.|
-|get_cell_or_null(row_offset, column_offset)|Gets [Cell](/cells/python-net/aspose.cells/cell/) object or null in this range.|
-|get_offset(row_offset, column_offset)|Gets [Range](/cells/python-net/aspose.cells/range/) range by offset.|
+|get_cell_or_null(row_offset, column_offset)|Gets [Cell](/python-net/aspose.cells/cell/) object or null in this range.|
+|get_offset(row_offset, column_offset)|Gets [Range](/python-net/aspose.cells/range/) range by offset.|
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

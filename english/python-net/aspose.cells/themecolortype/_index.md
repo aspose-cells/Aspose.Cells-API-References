@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 5110
-url: /cells/python-net/aspose.cells/themecolortype/
+url: /python-net/aspose.cells/themecolortype/
 ---
 
 ## ThemeColorType enumeration
@@ -30,6 +30,6 @@ Enumerates  the theme color types.
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 5180
-url: /cells/python-net/aspose.cells/viewtype/
+url: /python-net/aspose.cells/viewtype/
 ---
 
 ## ViewType enumeration
@@ -20,6 +20,6 @@ Represents the view type of the worksheet.
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4670
-url: /cells/python-net/aspose.cells/htmlcrosstype/
+url: /python-net/aspose.cells/htmlcrosstype/
 ---
 
 ## HtmlCrossType enumeration
@@ -22,6 +22,6 @@ Represents five types of html cross string.
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 180
-url: /cells/python-net/aspose.cells.rendering/pdfcompliance/
+url: /python-net/aspose.cells.rendering/pdfcompliance/
 ---
 
 ## PdfCompliance enumeration
@@ -20,6 +20,6 @@ Allowing user to set PDF conversion's Compatibility
 
 ### See Also
 
-* namespace [aspose.cells.rendering](/cells/python-net/aspose.cells.rendering/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.rendering](/python-net/aspose.cells.rendering/)
+* assembly [Aspose.Cells](/python-net/)
 

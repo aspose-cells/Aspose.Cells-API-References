@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 170
-url: /cells/python-net/aspose.cells.pivot/pivotfieldtype/
+url: /python-net/aspose.cells.pivot/pivotfieldtype/
 ---
 
 ## PivotFieldType enumeration
@@ -22,6 +22,6 @@ Represents PivotTable field type.
 
 ### See Also
 
-* namespace [aspose.cells.pivot](/cells/python-net/aspose.cells.pivot/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.pivot](/python-net/aspose.cells.pivot/)
+* assembly [Aspose.Cells](/python-net/)
 

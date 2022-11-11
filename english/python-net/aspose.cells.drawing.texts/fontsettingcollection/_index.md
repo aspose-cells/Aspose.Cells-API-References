@@ -4,12 +4,12 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 50
-url: /cells/python-net/aspose.cells.drawing.texts/fontsettingcollection/
+url: /python-net/aspose.cells.drawing.texts/fontsettingcollection/
 ---
 
 ## FontSettingCollection class
 
-Represents the list of [FontSetting](/cells/python-net/aspose.cells/fontsetting/).
+Represents the list of [FontSetting](/python-net/aspose.cells/fontsetting/).
 
 The FontSettingCollection type exposes the following members:
 ## Properties
@@ -42,6 +42,6 @@ The FontSettingCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.drawing.texts](/cells/python-net/aspose.cells.drawing.texts/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing.texts](/python-net/aspose.cells.drawing.texts/)
+* assembly [Aspose.Cells](/python-net/)
 

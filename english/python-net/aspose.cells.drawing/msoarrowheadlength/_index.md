@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1240
-url: /cells/python-net/aspose.cells.drawing/msoarrowheadlength/
+url: /python-net/aspose.cells.drawing/msoarrowheadlength/
 ---
 
 ## MsoArrowheadLength enumeration
@@ -20,6 +20,6 @@ Enumerates the line end width of the shape border line.
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing](/python-net/aspose.cells.drawing/)
+* assembly [Aspose.Cells](/python-net/)
 

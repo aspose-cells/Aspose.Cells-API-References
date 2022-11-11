@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 70
-url: /cells/python-net/aspose.cells.externalconnections/webqueryconnection/
+url: /python-net/aspose.cells.externalconnections/webqueryconnection/
 ---
 
 ## WebQueryConnection class
@@ -37,7 +37,7 @@ The WebQueryConnection type exposes the following members:
 |credentials_method_type|Specifies the authentication method to be used when establishing (or re-establishing) the connection.|
 |credentials|Specifies the authentication method to be used when establishing (or re-establishing) the connection.|
 |background_refresh|Indicates whether the connection can be refreshed in the background (asynchronously). <br/>            true if preferred usage of the connection is to refresh asynchronously in the background; <br/>            false if preferred usage of the connection is to refresh synchronously in the foreground.|
-|parameters|Gets [ConnectionParameterCollection](/cells/python-net/aspose.cells.externalconnections/connectionparametercollection/) for an ODBC or web query.|
+|parameters|Gets [ConnectionParameterCollection](/python-net/aspose.cells.externalconnections/connectionparametercollection/) for an ODBC or web query.|
 |is_xml|true if the web query source is XML (versus HTML), otherwise false.|
 |is_xl97|This flag exists for backward compatibility with older existing spreadsheet files, and is set<br/>            to true if this web query was created in Microsoft Excel 97.<br/>            This is an optional attribute that can be ignored.|
 |is_xl2000|This flag exists for backward compatibility with older existing spreadsheet files, and is set<br/>            to true if this web query was refreshed in a spreadsheet application newer than or equal<br/>            to Microsoft Excel 2000.<br/>            This is an optional attribute that can be ignored.|
@@ -55,6 +55,6 @@ The WebQueryConnection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.externalconnections](/cells/python-net/aspose.cells.externalconnections/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.externalconnections](/python-net/aspose.cells.externalconnections/)
+* assembly [Aspose.Cells](/python-net/)
 

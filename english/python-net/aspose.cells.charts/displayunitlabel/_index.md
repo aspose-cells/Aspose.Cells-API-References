@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 130
-url: /cells/python-net/aspose.cells.charts/displayunitlabel/
+url: /python-net/aspose.cells.charts/displayunitlabel/
 ---
 
 ## DisplayUnitLabel class
@@ -20,7 +20,7 @@ The DisplayUnitLabel type exposes the following members:
 |area|  |
 |text_font|  |
 |text_options|  |
-|font|Gets a [font](/cells/python-net/aspose.cells.charts/displayunitlabel/) object of the specified ChartFrame object.|
+|font|Gets a [font](/python-net/aspose.cells.charts/displayunitlabel/) object of the specified ChartFrame object.|
 |auto_scale_font|True if the text in the object changes font size when the object size changes. The default value is True.|
 |background_mode|  |
 |background|  |
@@ -56,6 +56,6 @@ The DisplayUnitLabel type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.charts](/python-net/aspose.cells.charts/)
+* assembly [Aspose.Cells](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 90
-url: /cells/python-net/aspose.cells.rendering/sheetprintingpreview/
+url: /python-net/aspose.cells.rendering/sheetprintingpreview/
 ---
 
 ## SheetPrintingPreview class
@@ -23,6 +23,6 @@ The SheetPrintingPreview type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.rendering](/cells/python-net/aspose.cells.rendering/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.rendering](/python-net/aspose.cells.rendering/)
+* assembly [Aspose.Cells](/python-net/)
 

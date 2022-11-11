@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /cells/python-net/aspose.cells.saving/sqlscriptsaveoptions/
+url: /python-net/aspose.cells.saving/sqlscriptsaveoptions/
 ---
 
 ## SqlScriptSaveOptions class
@@ -48,6 +48,6 @@ The SqlScriptSaveOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.saving](/cells/python-net/aspose.cells.saving/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.saving](/python-net/aspose.cells.saving/)
+* assembly [Aspose.Cells](/python-net/)
 

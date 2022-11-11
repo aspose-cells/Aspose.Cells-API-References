@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /cells/python-net/aspose.cells.vba/vbamodule/
+url: /python-net/aspose.cells.vba/vbamodule/
 ---
 
 ## VbaModule class
@@ -21,6 +21,6 @@ The VbaModule type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.vba](/cells/python-net/aspose.cells.vba/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.vba](/python-net/aspose.cells.vba/)
+* assembly [Aspose.Cells](/python-net/)
 

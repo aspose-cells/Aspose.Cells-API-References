@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 5030
-url: /cells/python-net/aspose.cells/stylemodifyflag/
+url: /python-net/aspose.cells/stylemodifyflag/
 ---
 
 ## StyleModifyFlag enumeration
@@ -20,10 +20,10 @@ The style modified flags.
 |BOTTOM_BORDER|Indicates whether bottom border has been modified for the style.|
 |DIAGONAL_DOWN_BORDER|Indicates whether diagonal-down border has been modified for the style.|
 |DIAGONAL_UP_BORDER|Indicates whether diagonal-up border has been modified for the style.|
-|DIAGONAL|Indicates whether one or more diagonal borders([DIAGONAL_DOWN_BORDER](/cells/python-net/aspose.cells/stylemodifyflag/),<br/>            [DIAGONAL_UP_BORDER](/cells/python-net/aspose.cells/stylemodifyflag/)) have been modified for the style.|
+|DIAGONAL|Indicates whether one or more diagonal borders([DIAGONAL_DOWN_BORDER](/python-net/aspose.cells/stylemodifyflag/),<br/>            [DIAGONAL_UP_BORDER](/python-net/aspose.cells/stylemodifyflag/)) have been modified for the style.|
 |HORIZONTAL_BORDER|Indicates whether horizontal border has been modified for the style.<br/>            Only for dynamic style, such as conditional formatting.|
 |VERTICAL_BORDER|Indicates whether vertical border has been modified for the style.<br/>            Only for dynamic style, such as conditional formatting.|
-|BORDERS|Indicates whether one or more borders([LEFT_BORDER](/cells/python-net/aspose.cells/stylemodifyflag/),<br/>            [RIGHT_BORDER](/cells/python-net/aspose.cells/stylemodifyflag/), [TOP_BORDER](/cells/python-net/aspose.cells/stylemodifyflag/), [BOTTOM_BORDER](/cells/python-net/aspose.cells/stylemodifyflag/),<br/>            [DIAGONAL](/cells/python-net/aspose.cells/stylemodifyflag/), [HORIZONTAL_BORDER](/cells/python-net/aspose.cells/stylemodifyflag/), [VERTICAL_BORDER](/cells/python-net/aspose.cells/stylemodifyflag/))<br/>            have been modified for the style.|
+|BORDERS|Indicates whether one or more borders([LEFT_BORDER](/python-net/aspose.cells/stylemodifyflag/),<br/>            [RIGHT_BORDER](/python-net/aspose.cells/stylemodifyflag/), [TOP_BORDER](/python-net/aspose.cells/stylemodifyflag/), [BOTTOM_BORDER](/python-net/aspose.cells/stylemodifyflag/),<br/>            [DIAGONAL](/python-net/aspose.cells/stylemodifyflag/), [HORIZONTAL_BORDER](/python-net/aspose.cells/stylemodifyflag/), [VERTICAL_BORDER](/python-net/aspose.cells/stylemodifyflag/))<br/>            have been modified for the style.|
 |NUMBER_FORMAT|Indicates whether numberformat has been modified.|
 |HORIZONTAL_ALIGNMENT|Indicates whether horizontal alignment has been modified.|
 |VERTICAL_ALIGNMENT|Indicates whether vertical alignment has been modified.|
@@ -33,14 +33,14 @@ The style modified flags.
 |SHRINK_TO_FIT|Indicates whether shrink to fit property has been modified.|
 |TEXT_DIRECTION|Indicates whether text direction property has been modified.|
 |RELATIVE_INDENT|Indicates whether relative indent property has been modified for the style.<br/>            Only for dynamic style, such as conditional formatting.|
-|ALIGNMENT_SETTINGS|Indicates whether one or more alignment-related properties([HORIZONTAL_ALIGNMENT](/cells/python-net/aspose.cells/stylemodifyflag/),<br/>            [VERTICAL_ALIGNMENT](/cells/python-net/aspose.cells/stylemodifyflag/), [ROTATION](/cells/python-net/aspose.cells/stylemodifyflag/), [WRAP_TEXT](/cells/python-net/aspose.cells/stylemodifyflag/),<br/>            [WRAP_TEXT](/cells/python-net/aspose.cells/stylemodifyflag/), [INDENT](/cells/python-net/aspose.cells/stylemodifyflag/), [SHRINK_TO_FIT](/cells/python-net/aspose.cells/stylemodifyflag/), [TEXT_DIRECTION](/cells/python-net/aspose.cells/stylemodifyflag/),<br/>            [RELATIVE_INDENT](/cells/python-net/aspose.cells/stylemodifyflag/)) have been modified.|
+|ALIGNMENT_SETTINGS|Indicates whether one or more alignment-related properties([HORIZONTAL_ALIGNMENT](/python-net/aspose.cells/stylemodifyflag/),<br/>            [VERTICAL_ALIGNMENT](/python-net/aspose.cells/stylemodifyflag/), [ROTATION](/python-net/aspose.cells/stylemodifyflag/), [WRAP_TEXT](/python-net/aspose.cells/stylemodifyflag/),<br/>            [WRAP_TEXT](/python-net/aspose.cells/stylemodifyflag/), [INDENT](/python-net/aspose.cells/stylemodifyflag/), [SHRINK_TO_FIT](/python-net/aspose.cells/stylemodifyflag/), [TEXT_DIRECTION](/python-net/aspose.cells/stylemodifyflag/),<br/>            [RELATIVE_INDENT](/python-net/aspose.cells/stylemodifyflag/)) have been modified.|
 |PATTERN|Indicates whether pattern of the shading has been modified.|
 |FOREGROUND_COLOR|Indicates whether foreground color has been modified.|
 |BACKGROUND_COLOR|Indicates whether background color has been modified.|
-|CELL_SHADING|Indicates whether one or more shading-related properties([PATTERN](/cells/python-net/aspose.cells/stylemodifyflag/),<br/>            [FOREGROUND_COLOR](/cells/python-net/aspose.cells/stylemodifyflag/), [BACKGROUND_COLOR](/cells/python-net/aspose.cells/stylemodifyflag/)) have been modified.|
+|CELL_SHADING|Indicates whether one or more shading-related properties([PATTERN](/python-net/aspose.cells/stylemodifyflag/),<br/>            [FOREGROUND_COLOR](/python-net/aspose.cells/stylemodifyflag/), [BACKGROUND_COLOR](/python-net/aspose.cells/stylemodifyflag/)) have been modified.|
 |LOCKED|Indicates whether locked property has been modified.|
 |HIDE_FORMULA|Indicates whether hide formula has been modified.|
-|PROTECTION_SETTINGS|Indicates whether one or more protection-related properties([LOCKED](/cells/python-net/aspose.cells/stylemodifyflag/),<br/>            [HIDE_FORMULA](/cells/python-net/aspose.cells/stylemodifyflag/)) have been modified.|
+|PROTECTION_SETTINGS|Indicates whether one or more protection-related properties([LOCKED](/python-net/aspose.cells/stylemodifyflag/),<br/>            [HIDE_FORMULA](/python-net/aspose.cells/stylemodifyflag/)) have been modified.|
 |FONT_SIZE|Indicates whether font size has been modified.|
 |FONT_NAME|Indicates whether font name has been modified.|
 |FONT_COLOR|Indicates whether font color has been modified.|
@@ -64,6 +64,6 @@ The style modified flags.
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

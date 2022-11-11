@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 320
-url: /cells/python-net/aspose.cells.drawing/listbox/
+url: /python-net/aspose.cells.drawing/listbox/
 ---
 
 ## ListBox class
@@ -20,13 +20,13 @@ The ListBox type exposes the following members:
 |is_smart_art|Indicates whether the shape is smart art.|
 |z_order_position|Returns the position of a shape in the z-order.|
 |name|Gets and sets the name of the shape.|
-|alternative_text|Returns or sets the descriptive (alternative) text string of the [Shape](/cells/python-net/aspose.cells.drawing/shape/) object.|
+|alternative_text|Returns or sets the descriptive (alternative) text string of the [Shape](/python-net/aspose.cells.drawing/shape/) object.|
 |title|Specifies the title (caption) of the current shape object.|
 |line_format|Returns a MsoLineFormat object that contains line formatting properties for the specified shape.|
 |fill_format|Returns a MsoFillFormat object that contains fill formatting properties for the specified shape.|
 |format|Represents the setting of the shape's formatting.|
 |line|Gets line style|
-|fill|Returns a [fill_format](/cells/python-net/aspose.cells.drawing/shape/) object that contains fill formatting properties for the specified shape.|
+|fill|Returns a [fill_format](/python-net/aspose.cells.drawing/shape/) object that contains fill formatting properties for the specified shape.|
 |shadow_effect|Represents a|
 |reflection|Represents a|
 |glow|Represents a|
@@ -41,7 +41,7 @@ The ListBox type exposes the following members:
 |id|Gets the identifier of this shape.|
 |spid|Specifies an optional string that an application can use to Identify the particular shape.|
 |spt|Specifies an optional number that an application can use to associate the particular shape with a defined shape type.|
-|worksheet|Gets the [worksheet](/cells/python-net/aspose.cells.drawing/shape/) object which contains this shape.|
+|worksheet|Gets the [worksheet](/python-net/aspose.cells.drawing/shape/) object which contains this shape.|
 |is_group|Indicates whether the shape is a group.|
 |is_in_group|Indicates whether the shape is grouped.|
 |is_word_art|Indicates whether this shape is a word art.|
@@ -154,6 +154,6 @@ The ListBox type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing](/python-net/aspose.cells.drawing/)
+* assembly [Aspose.Cells](/python-net/)
 

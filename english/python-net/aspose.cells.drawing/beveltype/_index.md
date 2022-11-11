@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1050
-url: /cells/python-net/aspose.cells.drawing/beveltype/
+url: /python-net/aspose.cells.drawing/beveltype/
 ---
 
 ## BevelType enumeration
@@ -30,6 +30,6 @@ Represents a preset for a type of bevel which can be applied to a shape in 3D.
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing](/python-net/aspose.cells.drawing/)
+* assembly [Aspose.Cells](/python-net/)
 

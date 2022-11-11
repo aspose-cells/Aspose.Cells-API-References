@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 330
-url: /cells/python-net/aspose.cells/conditionalformattingresult/
+url: /python-net/aspose.cells/conditionalformattingresult/
 ---
 
 ## ConditionalFormattingResult class
@@ -23,6 +23,6 @@ The ConditionalFormattingResult type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

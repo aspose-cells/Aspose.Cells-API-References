@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 140
-url: /cells/python-net/aspose.cells.drawing.texts/bullettype/
+url: /python-net/aspose.cells.drawing.texts/bullettype/
 ---
 
 ## BulletType enumeration
@@ -21,6 +21,6 @@ Represents the type of the bullet.
 
 ### See Also
 
-* namespace [aspose.cells.drawing.texts](/cells/python-net/aspose.cells.drawing.texts/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing.texts](/python-net/aspose.cells.drawing.texts/)
+* assembly [Aspose.Cells](/python-net/)
 

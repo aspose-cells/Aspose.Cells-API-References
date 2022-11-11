@@ -4,12 +4,12 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 460
-url: /cells/python-net/aspose.cells.drawing/picturecollection/
+url: /python-net/aspose.cells.drawing/picturecollection/
 ---
 
 ## PictureCollection class
 
-Encapsulates a collection of [Picture](/cells/python-net/aspose.cells.drawing/picture/) objects.
+Encapsulates a collection of [Picture](/python-net/aspose.cells.drawing/picture/) objects.
 
 The PictureCollection type exposes the following members:
 ## Properties
@@ -36,6 +36,6 @@ The PictureCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing](/python-net/aspose.cells.drawing/)
+* assembly [Aspose.Cells](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /cells/python-net/aspose.cells.ods/odscellfield/
+url: /python-net/aspose.cells.ods/odscellfield/
 ---
 
 ## OdsCellField class
@@ -22,6 +22,6 @@ The OdsCellField type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.ods](/cells/python-net/aspose.cells.ods/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.ods](/python-net/aspose.cells.ods/)
+* assembly [Aspose.Cells](/python-net/)
 

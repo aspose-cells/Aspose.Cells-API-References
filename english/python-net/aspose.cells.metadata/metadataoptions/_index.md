@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /cells/python-net/aspose.cells.metadata/metadataoptions/
+url: /python-net/aspose.cells.metadata/metadataoptions/
 ---
 
 ## MetadataOptions class
@@ -25,6 +25,6 @@ The MetadataOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.metadata](/cells/python-net/aspose.cells.metadata/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.metadata](/python-net/aspose.cells.metadata/)
+* assembly [Aspose.Cells](/python-net/)
 

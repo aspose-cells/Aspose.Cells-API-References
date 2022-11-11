@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 200
-url: /cells/python-net/aspose.cells/cellsdatatablefactory/
+url: /python-net/aspose.cells/cellsdatatablefactory/
 ---
 
 ## CellsDataTableFactory class
@@ -25,6 +25,6 @@ The CellsDataTableFactory type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

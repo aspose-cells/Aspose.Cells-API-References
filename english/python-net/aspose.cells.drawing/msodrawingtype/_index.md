@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1270
-url: /cells/python-net/aspose.cells.drawing/msodrawingtype/
+url: /python-net/aspose.cells.drawing/msodrawingtype/
 ---
 
 ## MsoDrawingType enumeration
@@ -46,6 +46,6 @@ Represents office drawing objects type.
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing](/python-net/aspose.cells.drawing/)
+* assembly [Aspose.Cells](/python-net/)
 

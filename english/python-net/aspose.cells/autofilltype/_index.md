@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4280
-url: /cells/python-net/aspose.cells/autofilltype/
+url: /python-net/aspose.cells/autofilltype/
 ---
 
 ## AutoFillType enumeration
@@ -22,6 +22,6 @@ Represents the auto fill type.
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

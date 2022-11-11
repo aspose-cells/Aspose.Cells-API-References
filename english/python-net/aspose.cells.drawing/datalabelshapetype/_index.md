@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1070
-url: /cells/python-net/aspose.cells.drawing/datalabelshapetype/
+url: /python-net/aspose.cells.drawing/datalabelshapetype/
 ---
 
 ## DataLabelShapeType enumeration
@@ -32,6 +32,6 @@ Specifies the preset shape geometry that is to be used for a chart.
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing](/python-net/aspose.cells.drawing/)
+* assembly [Aspose.Cells](/python-net/)
 

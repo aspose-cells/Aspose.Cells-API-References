@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 30
-url: /cells/python-net/aspose.cells.externalconnections/dbconnection/
+url: /python-net/aspose.cells.externalconnections/dbconnection/
 ---
 
 ## DBConnection class
@@ -37,7 +37,7 @@ The DBConnection type exposes the following members:
 |credentials_method_type|Specifies the authentication method to be used when establishing (or re-establishing) the connection.|
 |credentials|Specifies the authentication method to be used when establishing (or re-establishing) the connection.|
 |background_refresh|Indicates whether the connection can be refreshed in the background (asynchronously). <br/>            true if preferred usage of the connection is to refresh asynchronously in the background; <br/>            false if preferred usage of the connection is to refresh synchronously in the foreground.|
-|parameters|Gets [ConnectionParameterCollection](/cells/python-net/aspose.cells.externalconnections/connectionparametercollection/) for an ODBC or web query.|
+|parameters|Gets [ConnectionParameterCollection](/python-net/aspose.cells.externalconnections/connectionparametercollection/) for an ODBC or web query.|
 |connection_info|The connection information string is used to make contact with an OLE DB or ODBC data source.|
 |command_type|Specifies the OLE DB command type. <br/>            1. Query specifies a cube name<br/>            2. Query specifies a SQL statement<br/>            3. Query specifies a table name<br/>            4. Query specifies that default information has been given, and it is up to the provider how to interpret.<br/>            5. Query is against a web based List Data Provider.|
 |command|The string containing the database command to pass to the data provider API that will <br/>            interact with the external source in order to retrieve data|
@@ -45,6 +45,6 @@ The DBConnection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.externalconnections](/cells/python-net/aspose.cells.externalconnections/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.externalconnections](/python-net/aspose.cells.externalconnections/)
+* assembly [Aspose.Cells](/python-net/)
 

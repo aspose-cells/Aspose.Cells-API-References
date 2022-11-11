@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 220
-url: /cells/python-net/aspose.cells.pivot/pivottableautoformattype/
+url: /python-net/aspose.cells.pivot/pivottableautoformattype/
 ---
 
 ## PivotTableAutoFormatType enumeration
@@ -39,6 +39,6 @@ Represents PivotTable auto format type.
 
 ### See Also
 
-* namespace [aspose.cells.pivot](/cells/python-net/aspose.cells.pivot/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.pivot](/python-net/aspose.cells.pivot/)
+* assembly [Aspose.Cells](/python-net/)
 

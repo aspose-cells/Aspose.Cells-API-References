@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1060
-url: /cells/python-net/aspose.cells.drawing/checkvaluetype/
+url: /python-net/aspose.cells.drawing/checkvaluetype/
 ---
 
 ## CheckValueType enumeration
@@ -20,6 +20,6 @@ Represents the check value type of the check box.
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing](/python-net/aspose.cells.drawing/)
+* assembly [Aspose.Cells](/python-net/)
 

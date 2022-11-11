@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 40
-url: /cells/python-net/aspose.cells.rendering/imageorprintoptions/
+url: /python-net/aspose.cells.rendering/imageorprintoptions/
 ---
 
 ## ImageOrPrintOptions class
@@ -53,7 +53,7 @@ The ImageOrPrintOptions type exposes the following members:
 |text_cross_type|Gets or sets displaying text type when the text width is larger than cell width.|
 |emf_type|Gets or sets an EmfType that specifies the format of the Metafile..|
 |default_edit_language|Gets or sets default edit language.|
-|sheet_set|Gets or sets the sheets to render. Default is all visible sheets in the workbook: [visible](/cells/python-net/aspose.cells.rendering/sheetset/).|
+|sheet_set|Gets or sets the sheets to render. Default is all visible sheets in the workbook: [visible](/python-net/aspose.cells.rendering/sheetset/).|
 ## Methods
 | Name | Description |
 | :- | :- |
@@ -61,6 +61,6 @@ The ImageOrPrintOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.rendering](/cells/python-net/aspose.cells.rendering/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.rendering](/python-net/aspose.cells.rendering/)
+* assembly [Aspose.Cells](/python-net/)
 

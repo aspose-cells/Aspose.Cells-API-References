@@ -4,12 +4,12 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 320
-url: /cells/python-net/aspose.cells/conditionalformattingiconcollection/
+url: /python-net/aspose.cells/conditionalformattingiconcollection/
 ---
 
 ## ConditionalFormattingIconCollection class
 
-Represents  a collection of [ConditionalFormattingIcon](/cells/python-net/aspose.cells/conditionalformattingicon/) objects.
+Represents  a collection of [ConditionalFormattingIcon](/python-net/aspose.cells/conditionalformattingicon/) objects.
 
 The ConditionalFormattingIconCollection type exposes the following members:
 ## Properties
@@ -19,8 +19,8 @@ The ConditionalFormattingIconCollection type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|add(type, index)|Adds [ConditionalFormattingIcon](/cells/python-net/aspose.cells/conditionalformattingicon/) object.|
-|add(cficon)|Adds [ConditionalFormattingIcon](/cells/python-net/aspose.cells/conditionalformattingicon/) object.|
+|add(type, index)|Adds [ConditionalFormattingIcon](/python-net/aspose.cells/conditionalformattingicon/) object.|
+|add(cficon)|Adds [ConditionalFormattingIcon](/python-net/aspose.cells/conditionalformattingicon/) object.|
 |copy_to(array)|  |
 |copy_to(index, array, array_index, count)|  |
 |index_of(item, index)|  |
@@ -32,6 +32,6 @@ The ConditionalFormattingIconCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

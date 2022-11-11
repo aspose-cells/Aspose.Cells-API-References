@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 110
-url: /cells/python-net/aspose.cells.rendering/sheetset/
+url: /python-net/aspose.cells.rendering/sheetset/
 ---
 
 ## SheetSet class
@@ -24,6 +24,6 @@ The SheetSet type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.rendering](/cells/python-net/aspose.cells.rendering/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.rendering](/python-net/aspose.cells.rendering/)
+* assembly [Aspose.Cells](/python-net/)
 

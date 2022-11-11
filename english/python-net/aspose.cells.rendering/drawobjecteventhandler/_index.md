@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /cells/python-net/aspose.cells.rendering/drawobjecteventhandler/
+url: /python-net/aspose.cells.rendering/drawobjecteventhandler/
 ---
 
 ## DrawObjectEventHandler class
@@ -19,6 +19,6 @@ The DrawObjectEventHandler type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.rendering](/cells/python-net/aspose.cells.rendering/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.rendering](/python-net/aspose.cells.rendering/)
+* assembly [Aspose.Cells](/python-net/)
 

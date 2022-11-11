@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 130
-url: /cells/python-net/aspose.cells.drawing.texts/texttabstopcollection/
+url: /python-net/aspose.cells.drawing.texts/texttabstopcollection/
 ---
 
 ## TextTabStopCollection class
@@ -35,6 +35,6 @@ The TextTabStopCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.drawing.texts](/cells/python-net/aspose.cells.drawing.texts/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing.texts](/python-net/aspose.cells.drawing.texts/)
+* assembly [Aspose.Cells](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 460
-url: /cells/python-net/aspose.cells.charts/crosstype/
+url: /python-net/aspose.cells.charts/crosstype/
 ---
 
 ## CrossType enumeration
@@ -21,6 +21,6 @@ Represents the axis cross type.
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.charts](/python-net/aspose.cells.charts/)
+* assembly [Aspose.Cells](/python-net/)
 

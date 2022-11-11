@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4730
-url: /cells/python-net/aspose.cells/loaddatafilteroptions/
+url: /python-net/aspose.cells/loaddatafilteroptions/
 ---
 
 ## LoadDataFilterOptions enumeration
@@ -49,6 +49,6 @@ Represents the options to filter data when loading workbook from template.
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

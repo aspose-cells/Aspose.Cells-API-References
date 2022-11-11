@@ -4,12 +4,12 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1080
-url: /cells/python-net/aspose.cells/namecollection/
+url: /python-net/aspose.cells/namecollection/
 ---
 
 ## NameCollection class
 
-Represents a collection of all the [Name](/cells/python-net/aspose.cells/name/) objects in the spreadsheet.
+Represents a collection of all the [Name](/python-net/aspose.cells/name/) objects in the spreadsheet.
 
 The NameCollection type exposes the following members:
 ## Properties
@@ -35,6 +35,6 @@ The NameCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

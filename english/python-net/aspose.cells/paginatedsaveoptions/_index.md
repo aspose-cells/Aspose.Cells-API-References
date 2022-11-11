@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1150
-url: /cells/python-net/aspose.cells/paginatedsaveoptions/
+url: /python-net/aspose.cells/paginatedsaveoptions/
 ---
 
 ## PaginatedSaveOptions class
@@ -40,12 +40,12 @@ The PaginatedSaveOptions type exposes the following members:
 |gridline_type|Gets or sets gridline type.|
 |text_cross_type|Gets or sets displaying text type when the text width is larger than cell width.|
 |default_edit_language|Gets or sets default edit language.|
-|sheet_set|Gets or sets the sheets to render. Default is all visible sheets in the workbook: [visible](/cells/python-net/aspose.cells.rendering/sheetset/).|
+|sheet_set|Gets or sets the sheets to render. Default is all visible sheets in the workbook: [visible](/python-net/aspose.cells.rendering/sheetset/).|
 |draw_object_event_handler|Implements this interface to get DrawObject and Bound when rendering.|
 |page_saving_callback|Control/Indicate progress of page saving process.|
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

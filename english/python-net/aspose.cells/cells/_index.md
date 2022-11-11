@@ -4,12 +4,12 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 180
-url: /cells/python-net/aspose.cells/cells/
+url: /python-net/aspose.cells/cells/
 ---
 
 ## Cells class
 
-Encapsulates a collection of cell relevant objects, such as [Cell](/cells/python-net/aspose.cells/cell/), [Row](/cells/python-net/aspose.cells/row/), ...etc.
+Encapsulates a collection of cell relevant objects, such as [Cell](/python-net/aspose.cells/cell/), [Row](/python-net/aspose.cells/row/), ...etc.
 
 The Cells type exposes the following members:
 ## Properties
@@ -18,7 +18,7 @@ The Cells type exposes the following members:
 |ods_cell_fields|Gets the list of fields of ods.|
 |count|Gets the total count of instantiated Cell objects.|
 |count_large|Gets the total count of instantiated Cell objects.|
-|rows|Gets the collection of [Row](/cells/python-net/aspose.cells/row/) objects that represents the individual rows in this worksheet.|
+|rows|Gets the collection of [Row](/python-net/aspose.cells/row/) objects that represents the individual rows in this worksheet.|
 |merged_cells|Gets the collection of merged cells.|
 |multi_thread_reading|Gets or sets whether the cells data model should support Multi-Thread reading.<br/>            Default value of this property is false.|
 |memory_setting|Gets or sets the memory usage option for this cells.|
@@ -40,23 +40,23 @@ The Cells type exposes the following members:
 |max_data_column|Maximum column index of cell which contains data.|
 |is_default_row_height_matched|Indicates that row height and default font height matches|
 |is_default_row_hidden|Indicates whether the row is default hidden.|
-|columns|Gets the collection of [Column](/cells/python-net/aspose.cells/column/) objects that represents the individual columns in this worksheet.|
-|ranges|Gets the collection of [Range](/cells/python-net/aspose.cells/range/) objects created at run time.|
+|columns|Gets the collection of [Column](/python-net/aspose.cells/column/) objects that represents the individual columns in this worksheet.|
+|ranges|Gets the collection of [Range](/python-net/aspose.cells/range/) objects created at run time.|
 |last_cell|Gets the last cell in this worksheet.|
 |max_display_range|Gets the max range which includes data, merged cells and shapes.|
 |first_cell|Gets the first cell in this worksheet.|
 ## Indexer
 | Name | Description |
 | :- | :- |
-|[index]|Gets [Cell](/cells/python-net/aspose.cells/cell/) item within the worksheet|
+|[index]|Gets [Cell](/python-net/aspose.cells/cell/) item within the worksheet|
 ## Methods
 | Name | Description |
 | :- | :- |
-|create_range(upper_left_cell, lower_right_cell)|Creates a [Range](/cells/python-net/aspose.cells/range/) object from a range of cells.|
-|create_range(first_row, first_column, total_rows, total_columns)|Creates a [Range](/cells/python-net/aspose.cells/range/) object from a range of cells.|
-|create_range(address)|Creates a [Range](/cells/python-net/aspose.cells/range/) object from a range of cells.|
-|create_range(first_index, number, is_vertical)|Creates a [Range](/cells/python-net/aspose.cells/range/) object from rows of cells or columns of cells.|
-|get(row, column)|Gets the [Cell](/cells/python-net/aspose.cells/cell/) element or null at the specified cell row index and column index.|
+|create_range(upper_left_cell, lower_right_cell)|Creates a [Range](/python-net/aspose.cells/range/) object from a range of cells.|
+|create_range(first_row, first_column, total_rows, total_columns)|Creates a [Range](/python-net/aspose.cells/range/) object from a range of cells.|
+|create_range(address)|Creates a [Range](/python-net/aspose.cells/range/) object from a range of cells.|
+|create_range(first_index, number, is_vertical)|Creates a [Range](/python-net/aspose.cells/range/) object from rows of cells or columns of cells.|
+|get(row, column)|Gets the [Cell](/python-net/aspose.cells/cell/) element or null at the specified cell row index and column index.|
 |get(cell_name)|Add API for Python Via .Net.since this[string cellName] is unsupported|
 |import_object_array(obj_array, first_row, first_column, is_vertical)|Imports an array of data into a worksheet.|
 |import_object_array(obj_array, first_row, first_column, is_vertical, skip)|Imports an array of data into a worksheet.|
@@ -120,11 +120,11 @@ The Cells type exposes the following members:
 |remove_duplicates(start_row, start_column, end_row, end_column)|Removes duplicate values in the range.|
 |remove_duplicates(start_row, start_column, end_row, end_column, has_headers, column_offsets)|Removes duplicate data of the range.|
 |get_row_enumerator()|Gets the rows enumerator.|
-|get_cell(row, column)|Gets the [Cell](/cells/python-net/aspose.cells/cell/) element or null at the specified cell row index and column index.|
-|get_row(row)|Gets the [Row](/cells/python-net/aspose.cells/row/) element at the specified cell row index.|
-|check_cell(row, column)|Gets the [Cell](/cells/python-net/aspose.cells/cell/) element or null at the specified cell row index and column index.|
-|check_row(row)|Gets the [Row](/cells/python-net/aspose.cells/row/) element or at the specified cell row index.|
-|check_column(column_index)|Gets the [Column](/cells/python-net/aspose.cells/column/) element or null at the specified column index.|
+|get_cell(row, column)|Gets the [Cell](/python-net/aspose.cells/cell/) element or null at the specified cell row index and column index.|
+|get_row(row)|Gets the [Row](/python-net/aspose.cells/row/) element at the specified cell row index.|
+|check_cell(row, column)|Gets the [Cell](/python-net/aspose.cells/cell/) element or null at the specified cell row index and column index.|
+|check_row(row)|Gets the [Row](/python-net/aspose.cells/row/) element or at the specified cell row index.|
+|check_column(column_index)|Gets the [Column](/python-net/aspose.cells/column/) element or null at the specified column index.|
 |is_row_hidden(row_index)|Checks whether a row at given index is hidden.|
 |is_column_hidden(column_index)|Checks whether a column at given index is hidden.|
 |add_range(range_object)|Adds a range object reference to cells|
@@ -193,6 +193,6 @@ The Cells type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

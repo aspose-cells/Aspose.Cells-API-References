@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 900
-url: /cells/python-net/aspose.cells/iconset/
+url: /python-net/aspose.cells/iconset/
 ---
 
 ## IconSet class
@@ -15,7 +15,7 @@ The IconSet type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|cf_icons|Get the[ConditionalFormattingIcon](/cells/python-net/aspose.cells/conditionalformattingicon/) from the collection|
+|cf_icons|Get the[ConditionalFormattingIcon](/python-net/aspose.cells/conditionalformattingicon/) from the collection|
 |cfvos|Get the CFValueObjects instance.|
 |type|Get or Set the icon set type to display.<br/>            Setting the type will auto check if the current Cfvos's count is<br/>            accord with the new type. If not accord, old Cfvos will be cleaned and <br/>            default Cfvos will be added.|
 |is_custom|Indicates whether the icon set is custom.<br/>            Default value is false.|
@@ -24,6 +24,6 @@ The IconSet type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

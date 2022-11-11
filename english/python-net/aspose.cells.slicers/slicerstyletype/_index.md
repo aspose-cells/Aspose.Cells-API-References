@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 80
-url: /cells/python-net/aspose.cells.slicers/slicerstyletype/
+url: /python-net/aspose.cells.slicers/slicerstyletype/
 ---
 
 ## SlicerStyleType enumeration
@@ -32,6 +32,6 @@ Specify the style of slicer view
 
 ### See Also
 
-* namespace [aspose.cells.slicers](/cells/python-net/aspose.cells.slicers/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.slicers](/python-net/aspose.cells.slicers/)
+* assembly [Aspose.Cells](/python-net/)
 

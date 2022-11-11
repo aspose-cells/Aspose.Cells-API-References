@@ -4,19 +4,19 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 280
-url: /cells/python-net/aspose.cells.charts/sparklinegroup/
+url: /python-net/aspose.cells.charts/sparklinegroup/
 ---
 
 ## SparklineGroup class
 
-[Sparkline](/cells/python-net/aspose.cells.charts/sparkline/) is organized into sparkline group. A SparklineGroup contains a variable number of sparkline items.<br/>             A sparkline group specifies the type, display settings and axis settings for the sparklines.
+[Sparkline](/python-net/aspose.cells.charts/sparkline/) is organized into sparkline group. A SparklineGroup contains a variable number of sparkline items.<br/>             A sparkline group specifies the type, display settings and axis settings for the sparklines.
 
 The SparklineGroup type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
 |preset_style|Gets and sets the preset style type of the sparkline group.|
-|sparkline_collection|Gets the [sparkline_collection](/cells/python-net/aspose.cells.charts/sparklinegroup/) object of the sparkline group.|
+|sparkline_collection|Gets the [sparkline_collection](/python-net/aspose.cells.charts/sparklinegroup/) object of the sparkline group.|
 |type|Indicates the sparkline type of the sparkline group.|
 |plot_empty_cells_type|Indicates how to plot empty cells.|
 |display_hidden|Indicates whether to show data in hidden rows and columns.|
@@ -49,6 +49,6 @@ The SparklineGroup type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.charts](/python-net/aspose.cells.charts/)
+* assembly [Aspose.Cells](/python-net/)
 

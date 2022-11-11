@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 180
-url: /cells/python-net/aspose.cells.drawing.activexcontrols/controlliststyle/
+url: /python-net/aspose.cells.drawing.activexcontrols/controlliststyle/
 ---
 
 ## ControlListStyle enumeration
@@ -19,6 +19,6 @@ Represents the visual appearance of the list in a ListBox or ComboBox.
 
 ### See Also
 
-* namespace [aspose.cells.drawing.activexcontrols](/cells/python-net/aspose.cells.drawing.activexcontrols/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing.activexcontrols](/python-net/aspose.cells.drawing.activexcontrols/)
+* assembly [Aspose.Cells](/python-net/)
 

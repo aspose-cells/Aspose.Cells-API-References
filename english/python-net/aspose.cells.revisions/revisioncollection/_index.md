@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 60
-url: /cells/python-net/aspose.cells.revisions/revisioncollection/
+url: /python-net/aspose.cells.revisions/revisioncollection/
 ---
 
 ## RevisionCollection class
@@ -30,6 +30,6 @@ The RevisionCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.revisions](/cells/python-net/aspose.cells.revisions/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.revisions](/python-net/aspose.cells.revisions/)
+* assembly [Aspose.Cells](/python-net/)
 

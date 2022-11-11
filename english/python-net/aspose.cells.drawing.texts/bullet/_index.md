@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /cells/python-net/aspose.cells.drawing.texts/bullet/
+url: /python-net/aspose.cells.drawing.texts/bullet/
 ---
 
 ## Bullet class
@@ -21,6 +21,6 @@ The Bullet type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.drawing.texts](/cells/python-net/aspose.cells.drawing.texts/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing.texts](/python-net/aspose.cells.drawing.texts/)
+* assembly [Aspose.Cells](/python-net/)
 

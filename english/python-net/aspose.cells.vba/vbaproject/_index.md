@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 30
-url: /cells/python-net/aspose.cells.vba/vbaproject/
+url: /python-net/aspose.cells.vba/vbaproject/
 ---
 
 ## VbaProject class
@@ -21,7 +21,7 @@ The VbaProject type exposes the following members:
 |is_signed|Indicates whether VBAcode is signed or not.|
 |is_protected|Indicates whether this VBA project is protected.|
 |islocked_for_viewing|Indicates whether this VBA project is locked for viewing.|
-|modules|Gets all [VbaModule](/cells/python-net/aspose.cells.vba/vbamodule/) objects.|
+|modules|Gets all [VbaModule](/python-net/aspose.cells.vba/vbamodule/) objects.|
 |references|Gets all references of VBA project.|
 ## Methods
 | Name | Description |
@@ -33,6 +33,6 @@ The VbaProject type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.vba](/cells/python-net/aspose.cells.vba/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.vba](/python-net/aspose.cells.vba/)
+* assembly [Aspose.Cells](/python-net/)
 

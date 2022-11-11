@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 60
-url: /cells/python-net/aspose.cells.charts/chartdatatable/
+url: /python-net/aspose.cells.charts/chartdatatable/
 ---
 
 ## ChartDataTable class
@@ -15,7 +15,7 @@ The ChartDataTable type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|font|Gets a [font](/cells/python-net/aspose.cells.charts/chartdatatable/) object which represents the font setting of the specified chart data table.|
+|font|Gets a [font](/python-net/aspose.cells.charts/chartdatatable/) object which represents the font setting of the specified chart data table.|
 |auto_scale_font|True if the text in the object changes font size when the object size changes. <br/>            The default value is True.|
 |background_mode|Gets and sets the display mode of the background|
 |background|Gets and sets the display mode of the background|
@@ -27,6 +27,6 @@ The ChartDataTable type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.charts](/python-net/aspose.cells.charts/)
+* assembly [Aspose.Cells](/python-net/)
 

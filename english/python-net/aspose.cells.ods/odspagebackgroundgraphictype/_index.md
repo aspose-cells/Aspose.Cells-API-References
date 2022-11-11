@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 70
-url: /cells/python-net/aspose.cells.ods/odspagebackgroundgraphictype/
+url: /python-net/aspose.cells.ods/odspagebackgroundgraphictype/
 ---
 
 ## OdsPageBackgroundGraphicType enumeration
@@ -20,6 +20,6 @@ Represents the type of formatting page background with image.
 
 ### See Also
 
-* namespace [aspose.cells.ods](/cells/python-net/aspose.cells.ods/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.ods](/python-net/aspose.cells.ods/)
+* assembly [Aspose.Cells](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 50
-url: /cells/python-net/aspose.cells.ods/odsgeneratortype/
+url: /python-net/aspose.cells.ods/odsgeneratortype/
 ---
 
 ## OdsGeneratorType enumeration
@@ -19,6 +19,6 @@ Represents the type of ODS generator.
 
 ### See Also
 
-* namespace [aspose.cells.ods](/cells/python-net/aspose.cells.ods/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.ods](/python-net/aspose.cells.ods/)
+* assembly [Aspose.Cells](/python-net/)
 

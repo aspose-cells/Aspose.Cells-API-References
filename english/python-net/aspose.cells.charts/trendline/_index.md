@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 330
-url: /cells/python-net/aspose.cells.charts/trendline/
+url: /python-net/aspose.cells.charts/trendline/
 ---
 
 ## Trendline class
@@ -29,7 +29,7 @@ The Trendline type exposes the following members:
 |color|Represents the aspose.pydrawing.Color of the line.|
 |transparency|Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear).|
 |style|Represents the style of the line.|
-|weight|Gets or sets the [WeightType](/cells/python-net/aspose.cells.drawing/weighttype/) of the line.|
+|weight|Gets or sets the [WeightType](/python-net/aspose.cells.drawing/weighttype/) of the line.|
 |weight_pt|Gets or sets the weight of the line in unit of points.|
 |weight_px|Gets or sets the weight of the line in unit of pixels.|
 |formatting_type|Gets or sets format type.|
@@ -52,6 +52,6 @@ The Trendline type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.charts](/python-net/aspose.cells.charts/)
+* assembly [Aspose.Cells](/python-net/)
 

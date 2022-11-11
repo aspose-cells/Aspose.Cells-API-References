@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 310
-url: /cells/python-net/aspose.cells.charts/ticklabels/
+url: /python-net/aspose.cells.charts/ticklabels/
 ---
 
 ## TickLabels class
@@ -15,7 +15,7 @@ The TickLabels type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|font|Returns a [font](/cells/python-net/aspose.cells.charts/ticklabels/) object that represents the font of the specified TickLabels object.|
+|font|Returns a [font](/python-net/aspose.cells.charts/ticklabels/) object that represents the font of the specified TickLabels object.|
 |auto_scale_font|True if the text in the object changes font size when the object size changes. The default value is True.|
 |background_mode|Gets and sets the display mode of the background|
 |rotation_angle|Represents text rotation angle in clockwise.|
@@ -32,6 +32,6 @@ The TickLabels type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.charts](/python-net/aspose.cells.charts/)
+* assembly [Aspose.Cells](/python-net/)
 

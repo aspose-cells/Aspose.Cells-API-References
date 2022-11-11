@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 70
-url: /cells/python-net/aspose.cells/autofilter/
+url: /python-net/aspose.cells/autofilter/
 ---
 
 ## AutoFilter class
@@ -29,7 +29,7 @@ The AutoFilter type exposes the following members:
 |refresh()|Refresh auto filters to hide or unhide the rows.|
 |refresh(hide_rows)|Gets all hidden rows' indexes.|
 |set_range(row, start_column, end_column)|Sets the range to which the specified AutoFilter applies.|
-|get_cell_area()|Gets the [CellArea](/cells/python-net/aspose.cells/cellarea/) where the specified AutoFilter applies to.|
+|get_cell_area()|Gets the [CellArea](/python-net/aspose.cells/cellarea/) where the specified AutoFilter applies to.|
 |add_filter(field_index, criteria)|Adds a filter for a filter column.|
 |add_date_filter(field_index, date_time_grouping_type, year, month, day, hour, minute, second)|Adds a date filter.|
 |remove_date_filter(field_index, date_time_grouping_type, year, month, day, hour, minute, second)|Removes a date filter.|
@@ -45,6 +45,6 @@ The AutoFilter type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

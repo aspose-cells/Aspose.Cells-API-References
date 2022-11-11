@@ -4,12 +4,12 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /cells/python-net/aspose.cells.vba/vbamodulecollection/
+url: /python-net/aspose.cells.vba/vbamodulecollection/
 ---
 
 ## VbaModuleCollection class
 
-Represents the list of [VbaModule](/cells/python-net/aspose.cells.vba/vbamodule/)
+Represents the list of [VbaModule](/python-net/aspose.cells.vba/vbamodule/)
 
 The VbaModuleCollection type exposes the following members:
 ## Properties
@@ -34,6 +34,6 @@ The VbaModuleCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.vba](/cells/python-net/aspose.cells.vba/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.vba](/python-net/aspose.cells.vba/)
+* assembly [Aspose.Cells](/python-net/)
 

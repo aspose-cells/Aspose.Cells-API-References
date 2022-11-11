@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4570
-url: /cells/python-net/aspose.cells/fileformattype/
+url: /python-net/aspose.cells/fileformattype/
 ---
 
 ## FileFormatType enumeration
@@ -21,13 +21,13 @@ Represents the file format types.
 |XLTM|Office Open XML SpreadsheetML Macro-Enabled Template.|
 |XLAM|Office Open XML SpreadsheetML addinMacro-Enabled file.|
 |TSV|Tab-Separated Values(TSV) text file.|
-|TAB_DELIMITED|Tab-Separated Values(TSV) text file, same with [TSV](/cells/python-net/aspose.cells/fileformattype/).|
+|TAB_DELIMITED|Tab-Separated Values(TSV) text file, same with [TSV](/python-net/aspose.cells/fileformattype/).|
 |HTML|HTML format.|
 |M_HTML|MHTML (Web archive) format.|
 |ODS|Open Document Sheet(ODS) file.|
 |EXCEL_97_TO_2003|Excel97-2003 spreadsheet file.|
 |SPREADSHEET_ML|Excel 2003 XML Data file.|
-|EXCEL_2003XML|Excel 2003 XML Data file.<br/>            NOTE: This member is now obsolete. Instead, <br/>            please use [SPREADSHEET_ML](/cells/python-net/aspose.cells/fileformattype/) property.<br/>            This property will be removed 6 months later since April 2021. <br/>            Aspose apologizes for any inconvenience you may have experienced.|
+|EXCEL_2003XML|Excel 2003 XML Data file.<br/>            NOTE: This member is now obsolete. Instead, <br/>            please use [SPREADSHEET_ML](/python-net/aspose.cells/fileformattype/) property.<br/>            This property will be removed 6 months later since April 2021. <br/>            Aspose apologizes for any inconvenience you may have experienced.|
 |XLSB|The Excel Binary File Format (.xlsb)|
 |UNKNOWN|Represents unrecognized format, cannot be loaded.|
 |PDF|PDF (Adobe Portable Document) format.|
@@ -84,6 +84,6 @@ Represents the file format types.
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 40
-url: /cells/python-net/aspose.cells.pivot/pivotfiltercollection/
+url: /python-net/aspose.cells.pivot/pivotfiltercollection/
 ---
 
 ## PivotFilterCollection class
@@ -32,6 +32,6 @@ The PivotFilterCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.pivot](/cells/python-net/aspose.cells.pivot/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.pivot](/python-net/aspose.cells.pivot/)
+* assembly [Aspose.Cells](/python-net/)
 

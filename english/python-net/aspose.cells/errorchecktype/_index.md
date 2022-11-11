@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4540
-url: /cells/python-net/aspose.cells/errorchecktype/
+url: /python-net/aspose.cells/errorchecktype/
 ---
 
 ## ErrorCheckType enumeration
@@ -26,6 +26,6 @@ Represents all error check type.
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

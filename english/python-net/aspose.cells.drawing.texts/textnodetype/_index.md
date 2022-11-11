@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 180
-url: /cells/python-net/aspose.cells.drawing.texts/textnodetype/
+url: /python-net/aspose.cells.drawing.texts/textnodetype/
 ---
 
 ## TextNodeType enumeration
@@ -20,6 +20,6 @@ Represents the node type.
 
 ### See Also
 
-* namespace [aspose.cells.drawing.texts](/cells/python-net/aspose.cells.drawing.texts/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing.texts](/python-net/aspose.cells.drawing.texts/)
+* assembly [Aspose.Cells](/python-net/)
 

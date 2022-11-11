@@ -4,12 +4,12 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1620
-url: /cells/python-net/aspose.cells/worksheetcollection/
+url: /python-net/aspose.cells/worksheetcollection/
 ---
 
 ## WorksheetCollection class
 
-Encapsulates a collection of [Worksheet](/cells/python-net/aspose.cells/worksheet/) objects.
+Encapsulates a collection of [Worksheet](/python-net/aspose.cells/worksheet/) objects.
 
 The WorksheetCollection type exposes the following members:
 ## Properties
@@ -24,11 +24,11 @@ The WorksheetCollection type exposes the following members:
 |active_sheet_index|Represents the index of active worksheet when the spreadsheet is opened.|
 |dxfs|Gets the master differential formatting records.|
 |xml_maps|Gets and sets the XML maps in the workbook.|
-|built_in_document_properties|Returns a [DocumentProperty](/cells/python-net/aspose.cells.properties/documentproperty/) collection that represents all the built-in document properties of the spreadsheet.|
-|custom_document_properties|Returns a [DocumentProperty](/cells/python-net/aspose.cells.properties/documentproperty/) collection that represents all the custom document properties of the spreadsheet.|
+|built_in_document_properties|Returns a [DocumentProperty](/python-net/aspose.cells.properties/documentproperty/) collection that represents all the built-in document properties of the spreadsheet.|
+|custom_document_properties|Returns a [DocumentProperty](/python-net/aspose.cells.properties/documentproperty/) collection that represents all the custom document properties of the spreadsheet.|
 |ole_size|Gets and Sets displayed size when Workbook file is used as an Ole object.|
 |external_links|Represents external links in a workbook.|
-|table_styles|Gets [table_styles](/cells/python-net/aspose.cells/worksheetcollection/) object.|
+|table_styles|Gets [table_styles](/python-net/aspose.cells/worksheetcollection/) object.|
 |revision_logs|Represents revision logs.|
 |capacity|  |
 ## Methods
@@ -44,7 +44,7 @@ The WorksheetCollection type exposes the following members:
 |add_copy(sheet_name)|Adds a worksheet to the collection and copies data from an existed worksheet.|
 |add_copy(sheet_index)|Adds a worksheet to the collection and copies data from an existed worksheet.|
 |get_range_by_name(range_name)|Gets Range object by pre-defined name.|
-|get_range_by_name(range_name, current_sheet_index, include_table)|Gets [Range](/cells/python-net/aspose.cells/range/) by pre-defined name or table's name|
+|get_range_by_name(range_name, current_sheet_index, include_table)|Gets [Range](/python-net/aspose.cells/range/) by pre-defined name or table's name|
 |copy_to(array)|  |
 |copy_to(index, array, array_index, count)|  |
 |index_of(item, index)|  |
@@ -52,8 +52,8 @@ The WorksheetCollection type exposes the following members:
 |last_index_of(item)|  |
 |last_index_of(item, index)|  |
 |last_index_of(item, index, count)|  |
-|create_range(address, sheet_index)|Creates a [Range](/cells/python-net/aspose.cells/range/) object from an address of the range.|
-|create_union_range(address, sheet_index)|Creates a [Range](/cells/python-net/aspose.cells/range/) object from an address of the range.|
+|create_range(address, sheet_index)|Creates a [Range](/python-net/aspose.cells/range/) object from an address of the range.|
+|create_union_range(address, sheet_index)|Creates a [Range](/python-net/aspose.cells/range/) object from an address of the range.|
 |get_sheet_by_code_name(code_name)|Gets the worksheet by the code name.|
 |sort_names()|Sorts the defined names.|
 |swap_sheet(sheet_index1, sheet_index2)|Swaps the two sheets.|
@@ -67,6 +67,6 @@ The WorksheetCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells](/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/python-net/)
 

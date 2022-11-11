@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 560
-url: /cells/python-net/aspose.cells.drawing/shapeguidecollection/
+url: /python-net/aspose.cells.drawing/shapeguidecollection/
 ---
 
 ## ShapeGuideCollection class
@@ -35,6 +35,6 @@ The ShapeGuideCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing](/python-net/aspose.cells.drawing/)
+* assembly [Aspose.Cells](/python-net/)
 

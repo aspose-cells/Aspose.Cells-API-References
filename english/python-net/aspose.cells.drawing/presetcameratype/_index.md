@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1330
-url: /cells/python-net/aspose.cells.drawing/presetcameratype/
+url: /python-net/aspose.cells.drawing/presetcameratype/
 ---
 
 ## PresetCameraType enumeration
@@ -79,6 +79,6 @@ Represent different algorithmic methods for setting all camera properties, inclu
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.drawing](/python-net/aspose.cells.drawing/)
+* assembly [Aspose.Cells](/python-net/)
 

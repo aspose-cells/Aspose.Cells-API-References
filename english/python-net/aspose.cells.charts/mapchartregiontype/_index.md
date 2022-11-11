@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 570
-url: /cells/python-net/aspose.cells.charts/mapchartregiontype/
+url: /python-net/aspose.cells.charts/mapchartregiontype/
 ---
 
 ## MapChartRegionType enumeration
@@ -21,6 +21,6 @@ Represents the region type of the map chart.
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.charts](/python-net/aspose.cells.charts/)
+* assembly [Aspose.Cells](/python-net/)
 

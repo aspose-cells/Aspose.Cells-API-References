@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /cells/python-net/aspose.cells.markup/customxmlpart/
+url: /python-net/aspose.cells.markup/customxmlpart/
 ---
 
 ## CustomXmlPart class
@@ -21,6 +21,6 @@ The CustomXmlPart type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.markup](/cells/python-net/aspose.cells.markup/)
-* assembly [Aspose.Cells](/cells/python-net/)
+* namespace [aspose.cells.markup](/python-net/aspose.cells.markup/)
+* assembly [Aspose.Cells](/python-net/)
 
