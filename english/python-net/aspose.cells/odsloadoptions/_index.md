@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1100
-url: /python-net/aspose.cells/odsloadoptions/
+url: /cells/python-net/aspose.cells/odsloadoptions/
 ---
 
 ## OdsLoadOptions class
@@ -40,7 +40,7 @@ The OdsLoadOptions type exposes the following members:
 |warning_callback|Gets or sets warning callback.|
 |auto_fitter_options|Gets and sets the auto fitter options|
 |auto_filter|Indicates whether auto filtering the data when loading the files.|
-|font_configs|Gets and sets individual font configs. <br/>            Only works for the [Workbook](/python-net/aspose.cells/workbook/) which uses this [LoadOptions](/python-net/aspose.cells/loadoptions/) to load.|
+|font_configs|Gets and sets individual font configs. <br/>            Only works for the [Workbook](/cells/python-net/aspose.cells/workbook/) which uses this [LoadOptions](/cells/python-net/aspose.cells/loadoptions/) to load.|
 |apply_excel_default_style_to_hyperlink|Indicates whether applying the default style of the Excel to hyperlink.|
 |refresh_pivot_tables|Indicates whether refresh pivot tables when loading file.|
 ## Methods
@@ -50,6 +50,6 @@ The OdsLoadOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

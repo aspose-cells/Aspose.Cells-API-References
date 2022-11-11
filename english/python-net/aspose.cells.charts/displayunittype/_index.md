@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 490
-url: /python-net/aspose.cells.charts/displayunittype/
+url: /cells/python-net/aspose.cells.charts/displayunittype/
 ---
 
 ## DisplayUnitType enumeration
@@ -29,6 +29,6 @@ Represents the type of display unit.
 
 ### See Also
 
-* namespace [aspose.cells.charts](/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

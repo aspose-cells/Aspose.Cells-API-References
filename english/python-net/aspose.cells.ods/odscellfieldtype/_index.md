@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 40
-url: /python-net/aspose.cells.ods/odscellfieldtype/
+url: /cells/python-net/aspose.cells.ods/odscellfieldtype/
 ---
 
 ## OdsCellFieldType enumeration
@@ -20,6 +20,6 @@ Represents the cell field type of ods.
 
 ### See Also
 
-* namespace [aspose.cells.ods](/python-net/aspose.cells.ods/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.ods](/cells/python-net/aspose.cells.ods/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

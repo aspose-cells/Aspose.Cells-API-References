@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 100
-url: /python-net/aspose.cells.pivot/pivottable/
+url: /cells/python-net/aspose.cells.pivot/pivottable/
 ---
 
 ## PivotTable class
@@ -132,6 +132,6 @@ The PivotTable type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.pivot](/python-net/aspose.cells.pivot/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.pivot](/cells/python-net/aspose.cells.pivot/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

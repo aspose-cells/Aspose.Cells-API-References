@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 150
-url: /python-net/aspose.cells.revisions/revisionquerytable/
+url: /cells/python-net/aspose.cells.revisions/revisionquerytable/
 ---
 
 ## RevisionQueryTable class
@@ -23,6 +23,6 @@ The RevisionQueryTable type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.revisions](/python-net/aspose.cells.revisions/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.revisions](/cells/python-net/aspose.cells.revisions/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

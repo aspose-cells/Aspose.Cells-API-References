@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 210
-url: /python-net/aspose.cells.drawing.activexcontrols/controlpicturealignmenttype/
+url: /cells/python-net/aspose.cells.drawing.activexcontrols/controlpicturealignmenttype/
 ---
 
 ## ControlPictureAlignmentType enumeration
@@ -22,6 +22,6 @@ Represents the alignment of the picture inside the Form or Image.
 
 ### See Also
 
-* namespace [aspose.cells.drawing.activexcontrols](/python-net/aspose.cells.drawing.activexcontrols/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.drawing.activexcontrols](/cells/python-net/aspose.cells.drawing.activexcontrols/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

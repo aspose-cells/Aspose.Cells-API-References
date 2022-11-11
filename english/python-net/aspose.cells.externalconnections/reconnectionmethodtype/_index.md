@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 130
-url: /python-net/aspose.cells.externalconnections/reconnectionmethodtype/
+url: /cells/python-net/aspose.cells.externalconnections/reconnectionmethodtype/
 ---
 
 ## ReConnectionMethodType enumeration
@@ -20,6 +20,6 @@ Specifies what the spreadsheet application should do when a connection fails.
 
 ### See Also
 
-* namespace [aspose.cells.externalconnections](/python-net/aspose.cells.externalconnections/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.externalconnections](/cells/python-net/aspose.cells.externalconnections/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1600
-url: /python-net/aspose.cells/workbooksettings/
+url: /cells/python-net/aspose.cells/workbooksettings/
 ---
 
 ## WorkbookSettings class
@@ -61,7 +61,7 @@ The WorkbookSettings type exposes the following members:
 |window_height_inch|The height of the window, in unit of inch.|
 |window_height_cm|The height of the window, in unit of centimeter.|
 |update_adjacent_cells_border|Indicates whether update adjacent cells' border.|
-|significant_digits|Gets and sets the number of significant digits.<br/>            The default value is [significant_digits](/python-net/aspose.cells/cellshelper/).|
+|significant_digits|Gets and sets the number of significant digits.<br/>            The default value is [significant_digits](/cells/python-net/aspose.cells/cellshelper/).|
 |check_compatibility|Indicates whether check compatibility with earlier versions when saving workbook.|
 |check_excel_restriction|Whether check restriction of excel file when user modify cells related objects.<br/>            For example, excel does not allow inputting string value longer than 32K.<br/>            When you input a value longer than 32K such as by Cell.PutValue(string), if this property is true, you will get an Exception.<br/>            If this property is false, we will accept your input string value as the cell's value so that later<br/>            you can output the complete string value for other file formats such as CSV.<br/>            However, if you have set such kind of value that is invalid for excel file format,<br/>            you should not save the workbook as excel file format later. Otherwise there may be unexpected error for the generated excel file.|
 |auto_recover|Indicates whether the file is mark for auto-recovery.|
@@ -74,7 +74,7 @@ The WorkbookSettings type exposes the following members:
 |warning_callback|Gets or sets warning callback.|
 |max_rows_of_shared_formula|Gets and sets the max row number of shared formula.|
 |compliance|Specifies the OOXML version for the output document. The default value is Ecma376_2006.|
-|quote_prefix_to_style|Indicates whether setting [quote_prefix](/python-net/aspose.cells/style/) property when entering the string value(which starts  with single quote mark ) to the cell|
+|quote_prefix_to_style|Indicates whether setting [quote_prefix](/cells/python-net/aspose.cells/style/) property when entering the string value(which starts  with single quote mark ) to the cell|
 |formula_settings|Gets the settings for formula-related features.|
 |precision_as_displayed|True if calculations in this workbook will be done using only the precision of the numbers as they're displayed|
 |re_calculate_on_open|Indicates whether re-calculate all formulas on opening file.|
@@ -95,6 +95,6 @@ The WorkbookSettings type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

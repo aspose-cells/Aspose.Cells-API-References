@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4430
-url: /python-net/aspose.cells/databaraxisposition/
+url: /cells/python-net/aspose.cells/databaraxisposition/
 ---
 
 ## DataBarAxisPosition enumeration
@@ -20,6 +20,6 @@ Specifies the axis position for a range of cells with conditional formatting as 
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

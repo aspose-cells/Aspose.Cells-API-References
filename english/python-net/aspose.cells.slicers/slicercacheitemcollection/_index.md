@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 40
-url: /python-net/aspose.cells.slicers/slicercacheitemcollection/
+url: /cells/python-net/aspose.cells.slicers/slicercacheitemcollection/
 ---
 
 ## SlicerCacheItemCollection class
@@ -30,6 +30,6 @@ The SlicerCacheItemCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.slicers](/python-net/aspose.cells.slicers/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.slicers](/cells/python-net/aspose.cells.slicers/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

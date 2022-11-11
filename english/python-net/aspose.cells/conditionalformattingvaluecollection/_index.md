@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 350
-url: /python-net/aspose.cells/conditionalformattingvaluecollection/
+url: /cells/python-net/aspose.cells/conditionalformattingvaluecollection/
 ---
 
 ## ConditionalFormattingValueCollection class
@@ -26,11 +26,11 @@ The ConditionalFormattingValueCollection type exposes the following members:
 |last_index_of(item)|  |
 |last_index_of(item, index)|  |
 |last_index_of(item, index, count)|  |
-|add(type, value)|Adds [ConditionalFormattingValue](/python-net/aspose.cells/conditionalformattingvalue/) object.|
+|add(type, value)|Adds [ConditionalFormattingValue](/cells/python-net/aspose.cells/conditionalformattingvalue/) object.|
 |binary_search(item)|  |
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

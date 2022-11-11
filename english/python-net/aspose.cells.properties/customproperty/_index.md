@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 50
-url: /python-net/aspose.cells.properties/customproperty/
+url: /cells/python-net/aspose.cells.properties/customproperty/
 ---
 
 ## CustomProperty class
@@ -25,6 +25,6 @@ The CustomProperty type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.properties](/python-net/aspose.cells.properties/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.properties](/cells/python-net/aspose.cells.properties/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

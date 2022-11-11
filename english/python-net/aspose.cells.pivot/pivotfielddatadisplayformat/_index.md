@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 150
-url: /python-net/aspose.cells.pivot/pivotfielddatadisplayformat/
+url: /cells/python-net/aspose.cells.pivot/pivotfielddatadisplayformat/
 ---
 
 ## PivotFieldDataDisplayFormat enumeration
@@ -32,6 +32,6 @@ Represents data display format in the PivotTable data field.
 
 ### See Also
 
-* namespace [aspose.cells.pivot](/python-net/aspose.cells.pivot/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.pivot](/cells/python-net/aspose.cells.pivot/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

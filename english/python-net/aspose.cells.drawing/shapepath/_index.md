@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 570
-url: /python-net/aspose.cells.drawing/shapepath/
+url: /cells/python-net/aspose.cells.drawing/shapepath/
 ---
 
 ## ShapePath class
@@ -15,14 +15,14 @@ The ShapePath type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ShapePath()|Initializes a new instance of the [ShapePath](/python-net/aspose.cells.drawing/shapepath/) class.|
+|ShapePath()|Initializes a new instance of the [ShapePath](/cells/python-net/aspose.cells.drawing/shapepath/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
-|path_segement_list|Gets [ShapeSegmentPathCollection](/python-net/aspose.cells.drawing/shapesegmentpathcollection/) list|
+|path_segement_list|Gets [ShapeSegmentPathCollection](/cells/python-net/aspose.cells.drawing/shapesegmentpathcollection/) list|
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

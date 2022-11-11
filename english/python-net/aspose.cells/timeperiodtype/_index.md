@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 5120
-url: /python-net/aspose.cells/timeperiodtype/
+url: /cells/python-net/aspose.cells/timeperiodtype/
 ---
 
 ## TimePeriodType enumeration
@@ -30,6 +30,6 @@ Used in a FormatConditionType.TimePeriod conditional formatting rule. <br/>     
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 580
-url: /python-net/aspose.cells/filefontsource/
+url: /cells/python-net/aspose.cells/filefontsource/
 ---
 
 ## FileFontSource class
@@ -24,6 +24,6 @@ The FileFontSource type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

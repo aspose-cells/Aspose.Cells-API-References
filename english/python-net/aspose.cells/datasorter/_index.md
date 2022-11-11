@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 420
-url: /python-net/aspose.cells/datasorter/
+url: /cells/python-net/aspose.cells/datasorter/
 ---
 
 ## DataSorter class
@@ -40,6 +40,6 @@ The DataSorter type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /python-net/aspose.cells.utility/jsonlayoutoptions/
+url: /cells/python-net/aspose.cells.utility/jsonlayoutoptions/
 ---
 
 ## JsonLayoutOptions class
@@ -30,6 +30,6 @@ The JsonLayoutOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.utility](/python-net/aspose.cells.utility/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.utility](/cells/python-net/aspose.cells.utility/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

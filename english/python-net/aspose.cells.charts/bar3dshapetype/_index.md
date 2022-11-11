@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 380
-url: /python-net/aspose.cells.charts/bar3dshapetype/
+url: /cells/python-net/aspose.cells.charts/bar3dshapetype/
 ---
 
 ## Bar3DShapeType enumeration
@@ -23,6 +23,6 @@ Represents the shape used with the 3-D bar or column chart.
 
 ### See Also
 
-* namespace [aspose.cells.charts](/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

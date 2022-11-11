@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 480
-url: /python-net/aspose.cells/difsaveoptions/
+url: /cells/python-net/aspose.cells/difsaveoptions/
 ---
 
 ## DifSaveOptions class
@@ -33,6 +33,6 @@ The DifSaveOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

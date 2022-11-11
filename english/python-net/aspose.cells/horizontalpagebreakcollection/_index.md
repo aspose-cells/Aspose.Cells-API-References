@@ -4,12 +4,12 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 760
-url: /python-net/aspose.cells/horizontalpagebreakcollection/
+url: /cells/python-net/aspose.cells/horizontalpagebreakcollection/
 ---
 
 ## HorizontalPageBreakCollection class
 
-Encapsulates a collection of [HorizontalPageBreak](/python-net/aspose.cells/horizontalpagebreak/) objects.
+Encapsulates a collection of [HorizontalPageBreak](/cells/python-net/aspose.cells/horizontalpagebreak/) objects.
 
 The HorizontalPageBreakCollection type exposes the following members:
 ## Properties
@@ -34,6 +34,6 @@ The HorizontalPageBreakCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

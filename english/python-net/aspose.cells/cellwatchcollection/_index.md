@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 170
-url: /python-net/aspose.cells/cellwatchcollection/
+url: /cells/python-net/aspose.cells/cellwatchcollection/
 ---
 
 ## CellWatchCollection class
@@ -23,7 +23,7 @@ The CellWatchCollection type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|add(row, column)|Adds [CellWatch](/python-net/aspose.cells/cellwatch/) with row and column.|
+|add(row, column)|Adds [CellWatch](/cells/python-net/aspose.cells/cellwatch/) with row and column.|
 |add(cell_name)|Adds|
 |copy_to(array)|  |
 |copy_to(index, array, array_index, count)|  |
@@ -36,6 +36,6 @@ The CellWatchCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

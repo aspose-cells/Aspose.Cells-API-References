@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 440
-url: /python-net/aspose.cells/datasorterkeycollection/
+url: /cells/python-net/aspose.cells/datasorterkeycollection/
 ---
 
 ## DataSorterKeyCollection class
@@ -34,6 +34,6 @@ The DataSorterKeyCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

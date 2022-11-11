@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 170
-url: /python-net/aspose.cells.drawing.activexcontrols/controlcaptionalignmenttype/
+url: /cells/python-net/aspose.cells.drawing.activexcontrols/controlcaptionalignmenttype/
 ---
 
 ## ControlCaptionAlignmentType enumeration
@@ -19,6 +19,6 @@ Represents the position of the Caption relative to the control.
 
 ### See Also
 
-* namespace [aspose.cells.drawing.activexcontrols](/python-net/aspose.cells.drawing.activexcontrols/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.drawing.activexcontrols](/cells/python-net/aspose.cells.drawing.activexcontrols/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

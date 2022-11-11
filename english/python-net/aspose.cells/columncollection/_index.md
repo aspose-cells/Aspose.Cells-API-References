@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 270
-url: /python-net/aspose.cells/columncollection/
+url: /cells/python-net/aspose.cells/columncollection/
 ---
 
 ## ColumnCollection class
@@ -27,11 +27,11 @@ The ColumnCollection type exposes the following members:
 |last_index_of(item, index)|  |
 |last_index_of(item, index, count)|  |
 |get_by_index(index)|Gets the column object by the index.|
-|get_column_by_index(index)|Gets the [Column](/python-net/aspose.cells/column/) object by the position in the list.|
+|get_column_by_index(index)|Gets the [Column](/cells/python-net/aspose.cells/column/) object by the position in the list.|
 |binary_search(item)|  |
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

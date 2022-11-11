@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 410
-url: /python-net/aspose.cells.drawing/oleobjectcollection/
+url: /cells/python-net/aspose.cells.drawing/oleobjectcollection/
 ---
 
 ## OleObjectCollection class
@@ -32,6 +32,6 @@ The OleObjectCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

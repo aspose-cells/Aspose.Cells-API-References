@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1490
-url: /python-net/aspose.cells/top10filter/
+url: /cells/python-net/aspose.cells/top10filter/
 ---
 
 ## Top10Filter class
@@ -22,6 +22,6 @@ The Top10Filter type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

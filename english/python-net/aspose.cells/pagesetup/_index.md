@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1140
-url: /python-net/aspose.cells/pagesetup/
+url: /cells/python-net/aspose.cells/pagesetup/
 ---
 
 ## PageSetup class
@@ -61,8 +61,8 @@ The PageSetup type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|get_picture(is_header, section)|Gets the [Picture](/python-net/aspose.cells.drawing/picture/) object of the header / footer.|
-|get_picture(is_first, is_even, is_header, section)|Gets the [Picture](/python-net/aspose.cells.drawing/picture/) object of the header / footer.|
+|get_picture(is_header, section)|Gets the [Picture](/cells/python-net/aspose.cells.drawing/picture/) object of the header / footer.|
+|get_picture(is_first, is_even, is_header, section)|Gets the [Picture](/cells/python-net/aspose.cells.drawing/picture/) object of the header / footer.|
 |copy(source, copy_options)|Copies the setting of the page setup.|
 |set_fit_to_pages(wide, tall)|Sets the number of pages the worksheet will be scaled to when it's printed.|
 |custom_paper_size(width, height)|Sets the custom paper size, in unit of inches.|
@@ -86,6 +86,6 @@ The PageSetup type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

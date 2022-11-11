@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4360
-url: /python-net/aspose.cells/cellbordertype/
+url: /cells/python-net/aspose.cells/cellbordertype/
 ---
 
 ## CellBorderType enumeration
@@ -31,6 +31,6 @@ Enumerates a cell's border type.
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 60
-url: /python-net/aspose.cells/abstracttextloadoptions/
+url: /cells/python-net/aspose.cells/abstracttextloadoptions/
 ---
 
 ## AbstractTextLoadOptions class
@@ -35,7 +35,7 @@ The AbstractTextLoadOptions type exposes the following members:
 |warning_callback|Gets or sets warning callback.|
 |auto_fitter_options|Gets and sets the auto fitter options|
 |auto_filter|Indicates whether auto filtering the data when loading the files.|
-|font_configs|Gets and sets individual font configs. <br/>            Only works for the [Workbook](/python-net/aspose.cells/workbook/) which uses this [LoadOptions](/python-net/aspose.cells/loadoptions/) to load.|
+|font_configs|Gets and sets individual font configs. <br/>            Only works for the [Workbook](/cells/python-net/aspose.cells/workbook/) which uses this [LoadOptions](/cells/python-net/aspose.cells/loadoptions/) to load.|
 |encoding|Gets and sets the default encoding. Only applies for csv file.|
 |load_style_strategy|Indicates the strategy to apply style for parsed values when converting string value to number or datetime.|
 |convert_numeric_data|Gets or sets a value that indicates whether the string in text file is converted to numeric data.|
@@ -48,6 +48,6 @@ The AbstractTextLoadOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

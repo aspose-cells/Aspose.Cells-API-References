@@ -4,12 +4,12 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 910
-url: /python-net/aspose.cells/imagesaveoptions/
+url: /cells/python-net/aspose.cells/imagesaveoptions/
 ---
 
 ## ImageSaveOptions class
 
-Represents image save options.<br/>            For advanced usage, please use [WorkbookRender](/python-net/aspose.cells.rendering/workbookrender/) or [SheetRender](/python-net/aspose.cells.rendering/sheetrender/).
+Represents image save options.<br/>            For advanced usage, please use [WorkbookRender](/cells/python-net/aspose.cells.rendering/workbookrender/) or [SheetRender](/cells/python-net/aspose.cells.rendering/sheetrender/).
 
 The ImageSaveOptions type exposes the following members:
 ## Constructors
@@ -36,6 +36,6 @@ The ImageSaveOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

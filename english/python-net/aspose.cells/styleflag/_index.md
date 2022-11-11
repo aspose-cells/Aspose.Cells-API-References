@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1400
-url: /python-net/aspose.cells/styleflag/
+url: /cells/python-net/aspose.cells/styleflag/
 ---
 
 ## StyleFlag class
@@ -52,6 +52,6 @@ The StyleFlag type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1370
-url: /python-net/aspose.cells/spreadsheetml2003saveoptions/
+url: /cells/python-net/aspose.cells/spreadsheetml2003saveoptions/
 ---
 
 ## SpreadsheetML2003SaveOptions class
@@ -37,6 +37,6 @@ The SpreadsheetML2003SaveOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

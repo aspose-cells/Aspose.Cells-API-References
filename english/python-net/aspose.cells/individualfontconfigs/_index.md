@@ -4,12 +4,12 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 930
-url: /python-net/aspose.cells/individualfontconfigs/
+url: /cells/python-net/aspose.cells/individualfontconfigs/
 ---
 
 ## IndividualFontConfigs class
 
-Font configs for each [Workbook](/python-net/aspose.cells/workbook/) object.
+Font configs for each [Workbook](/cells/python-net/aspose.cells/workbook/) object.
 
 The IndividualFontConfigs type exposes the following members:
 ## Constructors
@@ -28,6 +28,6 @@ The IndividualFontConfigs type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

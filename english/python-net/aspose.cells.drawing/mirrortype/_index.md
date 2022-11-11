@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1230
-url: /python-net/aspose.cells.drawing/mirrortype/
+url: /cells/python-net/aspose.cells.drawing/mirrortype/
 ---
 
 ## MirrorType enumeration
@@ -21,6 +21,6 @@ Represents mirror type of texture fill
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

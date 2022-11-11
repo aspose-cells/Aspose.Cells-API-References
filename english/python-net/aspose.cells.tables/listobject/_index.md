@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 30
-url: /python-net/aspose.cells.tables/listobject/
+url: /cells/python-net/aspose.cells.tables/listobject/
 ---
 
 ## ListObject class
@@ -34,7 +34,7 @@ The ListObject type exposes the following members:
 |show_table_style_column_stripes|Indicates whether column stripe formatting is applied.|
 |table_style_type|Gets and the built-in table style.|
 |table_style_name|Gets and sets the table style name.|
-|xml_map|Gets an [xml_map](/python-net/aspose.cells.tables/listobject/) used for this list.|
+|xml_map|Gets an [xml_map](/cells/python-net/aspose.cells.tables/listobject/) used for this list.|
 |alternative_text|Gets and sets the alternative text.|
 |alternative_description|Gets and sets the alternative description.|
 ## Methods
@@ -50,6 +50,6 @@ The ListObject type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.tables](/python-net/aspose.cells.tables/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.tables](/cells/python-net/aspose.cells.tables/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

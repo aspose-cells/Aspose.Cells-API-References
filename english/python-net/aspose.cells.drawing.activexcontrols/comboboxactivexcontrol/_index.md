@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 40
-url: /python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/
+url: /cells/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/
 ---
 
 ## ComboBoxActiveXControl class
@@ -60,6 +60,6 @@ The ComboBoxActiveXControl type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.drawing.activexcontrols](/python-net/aspose.cells.drawing.activexcontrols/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.drawing.activexcontrols](/cells/python-net/aspose.cells.drawing.activexcontrols/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

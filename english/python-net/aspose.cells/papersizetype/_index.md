@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4860
-url: /python-net/aspose.cells/papersizetype/
+url: /cells/python-net/aspose.cells/papersizetype/
 ---
 
 ## PaperSizeType enumeration
@@ -137,6 +137,6 @@ Represents paper size constants.
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

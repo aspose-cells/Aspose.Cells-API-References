@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1390
-url: /python-net/aspose.cells.drawing/reflectioneffecttype/
+url: /cells/python-net/aspose.cells.drawing/reflectioneffecttype/
 ---
 
 ## ReflectionEffectType enumeration
@@ -28,6 +28,6 @@ url: /python-net/aspose.cells.drawing/reflectioneffecttype/
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

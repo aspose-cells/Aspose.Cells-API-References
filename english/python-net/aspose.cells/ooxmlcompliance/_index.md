@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4800
-url: /python-net/aspose.cells/ooxmlcompliance/
+url: /cells/python-net/aspose.cells/ooxmlcompliance/
 ---
 
 ## OoxmlCompliance enumeration
@@ -19,6 +19,6 @@ Allows to specify which OOXML specification will be used when saving in the Xlsx
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

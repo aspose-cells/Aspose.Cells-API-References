@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 40
-url: /python-net/aspose.cells.markup/smarttagcollection/
+url: /cells/python-net/aspose.cells.markup/smarttagcollection/
 ---
 
 ## SmartTagCollection class
@@ -33,6 +33,6 @@ The SmartTagCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.markup](/python-net/aspose.cells.markup/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.markup](/cells/python-net/aspose.cells.markup/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

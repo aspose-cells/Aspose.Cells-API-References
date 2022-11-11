@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1180
-url: /python-net/aspose.cells/pdfsaveoptions/
+url: /cells/python-net/aspose.cells/pdfsaveoptions/
 ---
 
 ## PdfSaveOptions class
@@ -44,7 +44,7 @@ The PdfSaveOptions type exposes the following members:
 |gridline_type|Gets or sets gridline type.|
 |text_cross_type|Gets or sets displaying text type when the text width is larger than cell width.|
 |default_edit_language|Gets or sets default edit language.|
-|sheet_set|Gets or sets the sheets to render. Default is all visible sheets in the workbook: [visible](/python-net/aspose.cells.rendering/sheetset/).|
+|sheet_set|Gets or sets the sheets to render. Default is all visible sheets in the workbook: [visible](/cells/python-net/aspose.cells.rendering/sheetset/).|
 |draw_object_event_handler|Implements this interface to get DrawObject and Bound when rendering.|
 |page_saving_callback|Control/Indicate progress of page saving process.|
 |embed_standard_windows_fonts|True to embed true type fonts. <br/>            Affects only ASCII characters 32-127.<br/>            Fonts for character codes greater than 127 are always embedded.<br/>            Fonts are always embedded for PDF/A-1a, PDF/A-1b standard.<br/>            Default is true.|
@@ -57,7 +57,7 @@ The PdfSaveOptions type exposes the following members:
 |created_time|Gets and sets the time of generating the pdf document.|
 |producer|Gets and sets producer of generated pdf document.|
 |optimization_type|Gets and sets pdf optimization type.|
-|custom_properties_export|Gets or sets a value determining the way [CustomDocumentPropertyCollection](/python-net/aspose.cells.properties/customdocumentpropertycollection/) are exported to PDF file. Default value is None.|
+|custom_properties_export|Gets or sets a value determining the way [CustomDocumentPropertyCollection](/cells/python-net/aspose.cells.properties/customdocumentpropertycollection/) are exported to PDF file. Default value is None.|
 |export_document_structure|Indicates whether to export document structure.|
 |emf_render_setting|Setting for rendering Emf metafile.|
 |display_doc_title|Indicates whether the window's title bar should display the document title.|
@@ -69,6 +69,6 @@ The PdfSaveOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

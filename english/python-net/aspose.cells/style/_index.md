@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1390
-url: /python-net/aspose.cells/style/
+url: /cells/python-net/aspose.cells/style/
 ---
 
 ## Style class
@@ -15,7 +15,7 @@ The Style type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|Style()|Initializes a new instance of the [Style](/python-net/aspose.cells/style/) class.|
+|Style()|Initializes a new instance of the [Style](/cells/python-net/aspose.cells/style/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -23,7 +23,7 @@ The Style type exposes the following members:
 |foreground_theme_color|Gets and sets the foreground theme color.|
 |name|Gets or sets the name of the style.|
 |pattern|Gets or sets the cell background pattern type.|
-|borders|Gets the [BorderCollection](/python-net/aspose.cells/bordercollection/) of the style.|
+|borders|Gets the [BorderCollection](/cells/python-net/aspose.cells/bordercollection/) of the style.|
 |background_color|Gets or sets a style's background color.|
 |background_argb_color|Gets and sets the background color with a 32-bit ARGB value.|
 |foreground_color|Gets or sets a style's foreground color.|
@@ -31,7 +31,7 @@ The Style type exposes the following members:
 |has_borders|Checks whether there are borders have been set for the style.|
 |parent_style|Gets the parent style of this style.|
 |indent_level|Represents the indent level for the cell or range. Can only be an integer from 0 to 250.|
-|font|Gets a [font](/python-net/aspose.cells/style/) object.|
+|font|Gets a [font](/cells/python-net/aspose.cells/style/) object.|
 |rotation_angle|Represents text rotation angle.|
 |horizontal_alignment|Gets or sets the horizontal alignment type of the text in a cell.|
 |vertical_alignment|Gets or sets the vertical alignment type of the text in a cell.|
@@ -64,6 +64,6 @@ The Style type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

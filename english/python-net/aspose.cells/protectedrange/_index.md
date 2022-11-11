@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1200
-url: /python-net/aspose.cells/protectedrange/
+url: /cells/python-net/aspose.cells/protectedrange/
 ---
 
 ## ProtectedRange class
@@ -16,7 +16,7 @@ The ProtectedRange type exposes the following members:
 | Name | Description |
 | :- | :- |
 |name|Gets the Range title. This is used as a descriptor, not as a named range definition.|
-|cell_area|Gets the [cell_area](/python-net/aspose.cells/protectedrange/) object represents the cell area to be protected.|
+|cell_area|Gets the [cell_area](/cells/python-net/aspose.cells/protectedrange/) object represents the cell area to be protected.|
 |is_protected_with_password|Indicates whether the worksheets is protected with password.|
 |password|Represents the password to protect the range.|
 |security_descriptor|The security descriptor defines user accounts who may edit this range without providing a password to access the range.|
@@ -28,6 +28,6 @@ The ProtectedRange type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

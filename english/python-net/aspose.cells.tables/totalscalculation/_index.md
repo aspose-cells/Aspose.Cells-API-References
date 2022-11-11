@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 130
-url: /python-net/aspose.cells.tables/totalscalculation/
+url: /cells/python-net/aspose.cells.tables/totalscalculation/
 ---
 
 ## TotalsCalculation enumeration
@@ -27,6 +27,6 @@ Determines the type of calculation in the Totals row of the list column.
 
 ### See Also
 
-* namespace [aspose.cells.tables](/python-net/aspose.cells.tables/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.tables](/cells/python-net/aspose.cells.tables/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

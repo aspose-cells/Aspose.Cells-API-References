@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4400
-url: /python-net/aspose.cells/consolidationfunction/
+url: /cells/python-net/aspose.cells/consolidationfunction/
 ---
 
 ## ConsolidationFunction enumeration
@@ -29,6 +29,6 @@ Represents consolidation function.
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

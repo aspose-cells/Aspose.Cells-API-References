@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 650
-url: /python-net/aspose.cells/font/
+url: /cells/python-net/aspose.cells/font/
 ---
 
 ## Font class
@@ -25,7 +25,7 @@ The Font type exposes the following members:
 |is_superscript|Gets or sets a value indicating whether the font is super script.|
 |is_subscript|Gets or sets a value indicating whether the font is subscript.|
 |underline|Gets or sets the font underline type.|
-|name|Gets  or sets the name of the [Font](/python-net/aspose.cells/font/).|
+|name|Gets  or sets the name of the [Font](/cells/python-net/aspose.cells/font/).|
 |double_size|Gets and sets the double size of the font.|
 |size|Gets or sets the size of the font.|
 |theme_color|Gets and sets the theme color.|
@@ -40,6 +40,6 @@ The Font type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

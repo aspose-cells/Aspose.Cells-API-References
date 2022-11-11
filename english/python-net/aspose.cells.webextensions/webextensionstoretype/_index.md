@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 110
-url: /python-net/aspose.cells.webextensions/webextensionstoretype/
+url: /cells/python-net/aspose.cells.webextensions/webextensionstoretype/
 ---
 
 ## WebExtensionStoreType enumeration
@@ -24,6 +24,6 @@ Represents the store type of web extension.
 
 ### See Also
 
-* namespace [aspose.cells.webextensions](/python-net/aspose.cells.webextensions/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.webextensions](/cells/python-net/aspose.cells.webextensions/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

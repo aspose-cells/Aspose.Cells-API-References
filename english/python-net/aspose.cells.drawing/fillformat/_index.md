@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 180
-url: /python-net/aspose.cells.drawing/fillformat/
+url: /cells/python-net/aspose.cells.drawing/fillformat/
 ---
 
 ## FillFormat class
@@ -19,10 +19,10 @@ The FillFormat type exposes the following members:
 |fill_type|Gets and sets fill type|
 |transparency|Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).|
 |set_type|Gets the fill format set type.|
-|gradient_fill|Gets [gradient_fill](/python-net/aspose.cells.drawing/fillformat/) object.|
-|texture_fill|Gets [texture_fill](/python-net/aspose.cells.drawing/fillformat/) object.|
-|solid_fill|Gets [solid_fill](/python-net/aspose.cells.drawing/fillformat/) object.|
-|pattern_fill|Gets [pattern_fill](/python-net/aspose.cells.drawing/fillformat/) object.|
+|gradient_fill|Gets [gradient_fill](/cells/python-net/aspose.cells.drawing/fillformat/) object.|
+|texture_fill|Gets [texture_fill](/cells/python-net/aspose.cells.drawing/fillformat/) object.|
+|solid_fill|Gets [solid_fill](/cells/python-net/aspose.cells.drawing/fillformat/) object.|
+|pattern_fill|Gets [pattern_fill](/cells/python-net/aspose.cells.drawing/fillformat/) object.|
 |gradient_color_type|Returns the gradient color type for the specified fill.|
 |gradient_style|Returns the gradient style for the specified fill.|
 |gradient_color1|Returns the gradient color 1 for the specified fill.|
@@ -45,6 +45,6 @@ The FillFormat type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

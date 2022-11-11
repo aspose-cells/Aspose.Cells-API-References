@@ -4,12 +4,12 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 300
-url: /python-net/aspose.cells/conditionalformattingcollection/
+url: /cells/python-net/aspose.cells/conditionalformattingcollection/
 ---
 
 ## ConditionalFormattingCollection class
 
-Encapsulates a collection of [FormatCondition](/python-net/aspose.cells/formatcondition/) objects.
+Encapsulates a collection of [FormatCondition](/cells/python-net/aspose.cells/formatcondition/) objects.
 
 The ConditionalFormattingCollection type exposes the following members:
 ## Properties
@@ -32,6 +32,6 @@ The ConditionalFormattingCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

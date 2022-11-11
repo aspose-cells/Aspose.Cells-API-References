@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 120
-url: /python-net/aspose.cells.tables/tablestyletype/
+url: /cells/python-net/aspose.cells.tables/tablestyletype/
 ---
 
 ## TableStyleType enumeration
@@ -79,6 +79,6 @@ Represents the built-in table style type.
 
 ### See Also
 
-* namespace [aspose.cells.tables](/python-net/aspose.cells.tables/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.tables](/cells/python-net/aspose.cells.tables/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

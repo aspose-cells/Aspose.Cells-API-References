@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 80
-url: /python-net/aspose.cells.drawing.texts/shapetextalignment/
+url: /cells/python-net/aspose.cells.drawing.texts/shapetextalignment/
 ---
 
 ## ShapeTextAlignment class
@@ -32,6 +32,6 @@ The ShapeTextAlignment type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.drawing.texts](/python-net/aspose.cells.drawing.texts/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.drawing.texts](/cells/python-net/aspose.cells.drawing.texts/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

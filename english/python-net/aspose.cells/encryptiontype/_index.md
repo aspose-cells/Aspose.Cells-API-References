@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4530
-url: /python-net/aspose.cells/encryptiontype/
+url: /cells/python-net/aspose.cells/encryptiontype/
 ---
 
 ## EncryptionType enumeration
@@ -21,6 +21,6 @@ Encryption Type. <br/>            Only used by excel2003.<br/>            We wil
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /python-net/aspose.cells.querytables/datamashup/
+url: /cells/python-net/aspose.cells.querytables/datamashup/
 ---
 
 ## DataMashup class
@@ -20,6 +20,6 @@ The DataMashup type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.querytables](/python-net/aspose.cells.querytables/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.querytables](/cells/python-net/aspose.cells.querytables/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

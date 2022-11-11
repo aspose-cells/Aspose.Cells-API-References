@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4740
-url: /python-net/aspose.cells/loadformat/
+url: /cells/python-net/aspose.cells/loadformat/
 ---
 
 ## LoadFormat enumeration
@@ -18,7 +18,7 @@ Represents the load file format.
 |CSV|Comma-Separated Values(CSV) text file.|
 |XLSX|Represents Office Open XML spreadsheetML workbook or template, with or without macros.|
 |TSV|Tab-Separated Values(TSV) text file.|
-|TAB_DELIMITED|Represents a tab delimited text file, same with [TSV](/python-net/aspose.cells/loadformat/).|
+|TAB_DELIMITED|Represents a tab delimited text file, same with [TSV](/cells/python-net/aspose.cells/loadformat/).|
 |HTML|Represents a html file.|
 |M_HTML|Represents a mhtml file.|
 |ODS|Open Document Sheet(ODS) file.|
@@ -36,6 +36,6 @@ Represents the load file format.
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

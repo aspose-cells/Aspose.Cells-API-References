@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 90
-url: /python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/
+url: /cells/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/
 ---
 
 ## RadioButtonActiveXControl class
@@ -48,6 +48,6 @@ The RadioButtonActiveXControl type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.drawing.activexcontrols](/python-net/aspose.cells.drawing.activexcontrols/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.drawing.activexcontrols](/cells/python-net/aspose.cells.drawing.activexcontrols/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 790
-url: /python-net/aspose.cells/hyperlink/
+url: /cells/python-net/aspose.cells/hyperlink/
 ---
 
 ## Hyperlink class
@@ -27,6 +27,6 @@ The Hyperlink type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

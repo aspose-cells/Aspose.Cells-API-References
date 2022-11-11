@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 490
-url: /python-net/aspose.cells/docxsaveoptions/
+url: /cells/python-net/aspose.cells/docxsaveoptions/
 ---
 
 ## DocxSaveOptions class
@@ -34,6 +34,6 @@ The DocxSaveOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

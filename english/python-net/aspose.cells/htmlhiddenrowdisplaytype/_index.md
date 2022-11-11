@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4700
-url: /python-net/aspose.cells/htmlhiddenrowdisplaytype/
+url: /cells/python-net/aspose.cells/htmlhiddenrowdisplaytype/
 ---
 
 ## HtmlHiddenRowDisplayType enumeration
@@ -19,6 +19,6 @@ Represents two types of showing the hidden rows in html.
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

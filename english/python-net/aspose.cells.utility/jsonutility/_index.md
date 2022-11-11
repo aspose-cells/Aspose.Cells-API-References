@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 30
-url: /python-net/aspose.cells.utility/jsonutility/
+url: /cells/python-net/aspose.cells.utility/jsonutility/
 ---
 
 ## JsonUtility class
@@ -24,6 +24,6 @@ The JsonUtility type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.utility](/python-net/aspose.cells.utility/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.utility](/cells/python-net/aspose.cells.utility/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

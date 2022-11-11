@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1430
-url: /python-net/aspose.cells.drawing/shapepathtype/
+url: /cells/python-net/aspose.cells.drawing/shapepathtype/
 ---
 
 ## ShapePathType enumeration
@@ -25,6 +25,6 @@ Represents path segment type.
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4480
-url: /python-net/aspose.cells/defaulteditlanguage/
+url: /cells/python-net/aspose.cells/defaulteditlanguage/
 ---
 
 ## DefaultEditLanguage enumeration
@@ -20,6 +20,6 @@ Represents the default edit language.
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

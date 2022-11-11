@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 220
-url: /python-net/aspose.cells.rendering/pdfoptimizationtype/
+url: /cells/python-net/aspose.cells.rendering/pdfoptimizationtype/
 ---
 
 ## PdfOptimizationType enumeration
@@ -19,6 +19,6 @@ Specifies a type of optimization.
 
 ### See Also
 
-* namespace [aspose.cells.rendering](/python-net/aspose.cells.rendering/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.rendering](/cells/python-net/aspose.cells.rendering/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

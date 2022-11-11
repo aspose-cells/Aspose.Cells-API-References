@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /python-net/aspose.cells.pivot/pivotfield/
+url: /cells/python-net/aspose.cells.pivot/pivotfield/
 ---
 
 ## PivotField class
@@ -74,6 +74,6 @@ The PivotField type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.pivot](/python-net/aspose.cells.pivot/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.pivot](/cells/python-net/aspose.cells.pivot/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

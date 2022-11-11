@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1610
-url: /python-net/aspose.cells/worksheet/
+url: /cells/python-net/aspose.cells/worksheet/
 ---
 
 ## Worksheet class
@@ -18,8 +18,8 @@ The Worksheet type exposes the following members:
 |protection|Represents the various types of protection options available for a worksheet. Supports advanced protection options in ExcelXP and above version.|
 |unique_id|Gets and sets the unique id, it is same as {15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F}.|
 |workbook|Gets the workbook object which contains this sheet.|
-|cells|Gets the [cells](/python-net/aspose.cells/worksheet/) collection.|
-|query_tables|Gets [QueryTableCollection](/python-net/aspose.cells/querytablecollection/) in the worksheet.|
+|cells|Gets the [cells](/cells/python-net/aspose.cells/worksheet/) collection.|
+|query_tables|Gets [QueryTableCollection](/cells/python-net/aspose.cells/querytablecollection/) in the worksheet.|
 |pivot_tables|Gets all pivot tables in this worksheet.|
 |type|Represents worksheet type.|
 |name|Gets or sets the name of the worksheet.|
@@ -33,9 +33,9 @@ The Worksheet type exposes the following members:
 |is_selected|Indicates whether this worksheet is selected when the workbook is opened.|
 |list_objects|Gets all ListObjects in this worksheet.|
 |tab_id|Specifies the internal identifier for the sheet.|
-|horizontal_page_breaks|Gets the [HorizontalPageBreakCollection](/python-net/aspose.cells/horizontalpagebreakcollection/) collection.|
-|vertical_page_breaks|Gets the [VerticalPageBreakCollection](/python-net/aspose.cells/verticalpagebreakcollection/) collection.|
-|hyperlinks|Gets the [HyperlinkCollection](/python-net/aspose.cells/hyperlinkcollection/) collection.|
+|horizontal_page_breaks|Gets the [HorizontalPageBreakCollection](/cells/python-net/aspose.cells/horizontalpagebreakcollection/) collection.|
+|vertical_page_breaks|Gets the [VerticalPageBreakCollection](/cells/python-net/aspose.cells/verticalpagebreakcollection/) collection.|
+|hyperlinks|Gets the [HyperlinkCollection](/cells/python-net/aspose.cells/hyperlinkcollection/) collection.|
 |page_setup|Represents the page setup description in this sheet.|
 |auto_filter|Represents auto filter for the specified worksheet.|
 |has_autofilter|Indicates whether this worksheet has auto filter.|
@@ -44,12 +44,12 @@ The Worksheet type exposes the following members:
 |visibility_type|Indicates the visible state for this sheet.|
 |is_visible|Represents if the worksheet is visible.|
 |sparkline_group_collection|Gets the sparkline group collection in the worksheet.|
-|charts|Gets a [Chart](/python-net/aspose.cells.charts/chart/) collection|
-|comments|Gets the [Comment](/python-net/aspose.cells/comment/) collection.|
-|pictures|Gets a [Picture](/python-net/aspose.cells.drawing/picture/) collection.|
-|text_boxes|Gets a [TextBox](/python-net/aspose.cells.drawing/textbox/) collection.|
-|check_boxes|Gets a [CheckBox](/python-net/aspose.cells.drawing/checkbox/) collection.|
-|ole_objects|Represents a collection of [OleObject](/python-net/aspose.cells.drawing/oleobject/) in a worksheet.|
+|charts|Gets a [Chart](/cells/python-net/aspose.cells.charts/chart/) collection|
+|comments|Gets the [Comment](/cells/python-net/aspose.cells/comment/) collection.|
+|pictures|Gets a [Picture](/cells/python-net/aspose.cells.drawing/picture/) collection.|
+|text_boxes|Gets a [TextBox](/cells/python-net/aspose.cells.drawing/textbox/) collection.|
+|check_boxes|Gets a [CheckBox](/cells/python-net/aspose.cells.drawing/checkbox/) collection.|
+|ole_objects|Represents a collection of [OleObject](/cells/python-net/aspose.cells.drawing/oleobject/) in a worksheet.|
 |shapes|Returns all drawing shapes in this worksheet.|
 |slicers|Get the Slicer collection in the worksheet|
 |timelines|Get the Timeline collection in the worksheet|
@@ -71,8 +71,8 @@ The Worksheet type exposes the following members:
 |conditional_formattings|Gets the ConditionalFormattings in the worksheet.|
 |active_cell|Gets or sets the active cell in the worksheet.|
 |custom_properties|Gets an object representing <br/>            the identifier information associated with a worksheet.|
-|smart_tag_setting|Gets all [SmartTagCollection](/python-net/aspose.cells.markup/smarttagcollection/) objects of the worksheet.|
-|scenarios|Gets the collection of [Scenario](/python-net/aspose.cells/scenario/).|
+|smart_tag_setting|Gets all [SmartTagCollection](/cells/python-net/aspose.cells.markup/smarttagcollection/) objects of the worksheet.|
+|scenarios|Gets the collection of [Scenario](/cells/python-net/aspose.cells/scenario/).|
 |cell_watches|Gets collection of cells on this worksheet being watched in the 'watch window'.|
 ## Methods
 | Name | Description |
@@ -130,6 +130,6 @@ The Worksheet type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

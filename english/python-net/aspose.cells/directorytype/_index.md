@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4490
-url: /python-net/aspose.cells/directorytype/
+url: /cells/python-net/aspose.cells/directorytype/
 ---
 
 ## DirectoryType enumeration
@@ -21,6 +21,6 @@ Represents the directory  type of the file name.
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

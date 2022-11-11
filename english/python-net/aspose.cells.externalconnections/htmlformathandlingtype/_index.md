@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 110
-url: /python-net/aspose.cells.externalconnections/htmlformathandlingtype/
+url: /cells/python-net/aspose.cells.externalconnections/htmlformathandlingtype/
 ---
 
 ## HtmlFormatHandlingType enumeration
@@ -20,6 +20,6 @@ Specifies how to handle formatting from the HTML source
 
 ### See Also
 
-* namespace [aspose.cells.externalconnections](/python-net/aspose.cells.externalconnections/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.externalconnections](/cells/python-net/aspose.cells.externalconnections/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

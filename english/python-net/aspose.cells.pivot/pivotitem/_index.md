@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 70
-url: /python-net/aspose.cells.pivot/pivotitem/
+url: /cells/python-net/aspose.cells.pivot/pivotitem/
 ---
 
 ## PivotItem class
@@ -30,6 +30,6 @@ The PivotItem type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.pivot](/python-net/aspose.cells.pivot/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.pivot](/cells/python-net/aspose.cells.pivot/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 230
-url: /python-net/aspose.cells.drawing.activexcontrols/controlpicturesizemode/
+url: /cells/python-net/aspose.cells.drawing.activexcontrols/controlpicturesizemode/
 ---
 
 ## ControlPictureSizeMode enumeration
@@ -20,6 +20,6 @@ Represents how to display the picture.
 
 ### See Also
 
-* namespace [aspose.cells.drawing.activexcontrols](/python-net/aspose.cells.drawing.activexcontrols/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.drawing.activexcontrols](/cells/python-net/aspose.cells.drawing.activexcontrols/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

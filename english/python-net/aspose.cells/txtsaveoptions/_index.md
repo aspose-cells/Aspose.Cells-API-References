@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1510
-url: /python-net/aspose.cells/txtsaveoptions/
+url: /cells/python-net/aspose.cells/txtsaveoptions/
 ---
 
 ## TxtSaveOptions class
@@ -42,11 +42,11 @@ The TxtSaveOptions type exposes the following members:
 |trim_tailing_blank_cells|Indicates whether tailing blank cells in one row should be trimmed. Default is false.|
 |keep_separators_for_blank_row|Indicates whether separators should be output for blank row.<br/>            Default value is false so by default the content for blank row will be empty.|
 |export_area|The range of cells to be exported.|
-|export_quote_prefix|Indicates whether the single quote sign should be exported as part of the value of one cell<br/>            when [quote_prefix](/python-net/aspose.cells/style/) is true for it. Default is false.|
+|export_quote_prefix|Indicates whether the single quote sign should be exported as part of the value of one cell<br/>            when [quote_prefix](/cells/python-net/aspose.cells/style/) is true for it. Default is false.|
 |export_all_sheets|Indicates whether exporting all sheets to the text file.<br/>            If it is false, only export the activesheet, just like MS Excel.|
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

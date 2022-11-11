@@ -4,12 +4,12 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 800
-url: /python-net/aspose.cells/hyperlinkcollection/
+url: /cells/python-net/aspose.cells/hyperlinkcollection/
 ---
 
 ## HyperlinkCollection class
 
-Encapsulates a collection of [Hyperlink](/python-net/aspose.cells/hyperlink/) objects.
+Encapsulates a collection of [Hyperlink](/cells/python-net/aspose.cells/hyperlink/) objects.
 
 The HyperlinkCollection type exposes the following members:
 ## Properties
@@ -33,6 +33,6 @@ The HyperlinkCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 640
-url: /python-net/aspose.cells.charts/ticklabelpositiontype/
+url: /cells/python-net/aspose.cells.charts/ticklabelpositiontype/
 ---
 
 ## TickLabelPositionType enumeration
@@ -21,6 +21,6 @@ Represents the position type of tick-mark labels on the specified axis.
 
 ### See Also
 
-* namespace [aspose.cells.charts](/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

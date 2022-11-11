@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 70
-url: /python-net/aspose.cells.vba/vbaprojectreferencetype/
+url: /cells/python-net/aspose.cells.vba/vbaprojectreferencetype/
 ---
 
 ## VbaProjectReferenceType enumeration
@@ -20,6 +20,6 @@ Represents the type of VBA project reference.
 
 ### See Also
 
-* namespace [aspose.cells.vba](/python-net/aspose.cells.vba/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.vba](/cells/python-net/aspose.cells.vba/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

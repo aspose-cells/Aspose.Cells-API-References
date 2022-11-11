@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 420
-url: /python-net/aspose.cells.charts/chartmarkertype/
+url: /cells/python-net/aspose.cells.charts/chartmarkertype/
 ---
 
 ## ChartMarkerType enumeration
@@ -29,6 +29,6 @@ Represents the marker style in a line chart, scatter chart, or radar chart.
 
 ### See Also
 
-* namespace [aspose.cells.charts](/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

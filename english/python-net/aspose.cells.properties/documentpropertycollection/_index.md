@@ -4,12 +4,12 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 80
-url: /python-net/aspose.cells.properties/documentpropertycollection/
+url: /cells/python-net/aspose.cells.properties/documentpropertycollection/
 ---
 
 ## DocumentPropertyCollection class
 
-Base class for [BuiltInDocumentPropertyCollection](/python-net/aspose.cells.properties/builtindocumentpropertycollection/) and [CustomDocumentPropertyCollection](/python-net/aspose.cells.properties/customdocumentpropertycollection/) collections.
+Base class for [BuiltInDocumentPropertyCollection](/cells/python-net/aspose.cells.properties/builtindocumentpropertycollection/) and [CustomDocumentPropertyCollection](/cells/python-net/aspose.cells.properties/customdocumentpropertycollection/) collections.
 
 The DocumentPropertyCollection type exposes the following members:
 ## Properties
@@ -31,6 +31,6 @@ The DocumentPropertyCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.properties](/python-net/aspose.cells.properties/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.properties](/cells/python-net/aspose.cells.properties/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

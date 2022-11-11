@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 90
-url: /python-net/aspose.cells.properties/propertytype/
+url: /cells/python-net/aspose.cells.properties/propertytype/
 ---
 
 ## PropertyType enumeration
@@ -23,6 +23,6 @@ Specifies data type of a document property.
 
 ### See Also
 
-* namespace [aspose.cells.properties](/python-net/aspose.cells.properties/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.properties](/cells/python-net/aspose.cells.properties/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

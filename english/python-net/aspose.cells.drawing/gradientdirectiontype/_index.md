@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1130
-url: /python-net/aspose.cells.drawing/gradientdirectiontype/
+url: /cells/python-net/aspose.cells.drawing/gradientdirectiontype/
 ---
 
 ## GradientDirectionType enumeration
@@ -23,6 +23,6 @@ Represents all direction type of gradient.
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

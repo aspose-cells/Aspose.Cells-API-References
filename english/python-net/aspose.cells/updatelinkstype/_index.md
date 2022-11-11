@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 5150
-url: /python-net/aspose.cells/updatelinkstype/
+url: /cells/python-net/aspose.cells/updatelinkstype/
 ---
 
 ## UpdateLinksType enumeration
@@ -20,6 +20,6 @@ Represents how to update links to other workbooks when the workbook is opened.
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

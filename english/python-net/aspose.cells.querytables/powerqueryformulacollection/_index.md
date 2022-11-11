@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 30
-url: /python-net/aspose.cells.querytables/powerqueryformulacollection/
+url: /cells/python-net/aspose.cells.querytables/powerqueryformulacollection/
 ---
 
 ## PowerQueryFormulaCollection class
@@ -30,6 +30,6 @@ The PowerQueryFormulaCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.querytables](/python-net/aspose.cells.querytables/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.querytables](/cells/python-net/aspose.cells.querytables/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 500
-url: /python-net/aspose.cells.charts/errorbardisplaytype/
+url: /cells/python-net/aspose.cells.charts/errorbardisplaytype/
 ---
 
 ## ErrorBarDisplayType enumeration
@@ -21,6 +21,6 @@ Represents error bar display type.
 
 ### See Also
 
-* namespace [aspose.cells.charts](/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

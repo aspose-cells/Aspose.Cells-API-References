@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 90
-url: /python-net/aspose.cells.webextensions/webextensiontaskpane/
+url: /cells/python-net/aspose.cells.webextensions/webextensiontaskpane/
 ---
 
 ## WebExtensionTaskPane class
@@ -24,6 +24,6 @@ The WebExtensionTaskPane type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.webextensions](/python-net/aspose.cells.webextensions/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.webextensions](/cells/python-net/aspose.cells.webextensions/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

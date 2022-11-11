@@ -4,12 +4,12 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1260
-url: /python-net/aspose.cells/rangecollection/
+url: /cells/python-net/aspose.cells/rangecollection/
 ---
 
 ## RangeCollection class
 
-Encapsulates a collection of [Range](/python-net/aspose.cells/range/) objects.
+Encapsulates a collection of [Range](/cells/python-net/aspose.cells/range/) objects.
 
 The RangeCollection type exposes the following members:
 ## Properties
@@ -26,11 +26,11 @@ The RangeCollection type exposes the following members:
 |last_index_of(item)|  |
 |last_index_of(item, index)|  |
 |last_index_of(item, index, count)|  |
-|add(range)|Adds a [Range](/python-net/aspose.cells/range/) item to the collection.|
+|add(range)|Adds a [Range](/cells/python-net/aspose.cells/range/) item to the collection.|
 |binary_search(item)|  |
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

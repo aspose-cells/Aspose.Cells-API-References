@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4850
-url: /python-net/aspose.cells/panestatetype/
+url: /cells/python-net/aspose.cells/panestatetype/
 ---
 
 ## PaneStateType enumeration
@@ -21,6 +21,6 @@ Represents state of the sheet's pane.
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

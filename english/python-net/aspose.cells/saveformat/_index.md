@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4980
-url: /python-net/aspose.cells/saveformat/
+url: /cells/python-net/aspose.cells/saveformat/
 ---
 
 ## SaveFormat enumeration
@@ -21,7 +21,7 @@ Represents the format in which the workbook is saved.
 |XLTM|Represents an xltm file which enable macros.|
 |XLAM|Represents an xltm file which enable addin macros.|
 |TSV|Tab-Separated Values(TSV) text file.|
-|TAB_DELIMITED|Represents a tab delimited text file, same with [TSV](/python-net/aspose.cells/saveformat/).|
+|TAB_DELIMITED|Represents a tab delimited text file, same with [TSV](/cells/python-net/aspose.cells/saveformat/).|
 |HTML|Represents a html file.|
 |M_HTML|Represents a mhtml file.|
 |ODS|Open Document Sheet(ODS) file.|
@@ -54,6 +54,6 @@ Represents the format in which the workbook is saved.
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

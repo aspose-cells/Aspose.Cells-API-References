@@ -4,12 +4,12 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 40
-url: /python-net/aspose.cells.tables/listobjectcollection/
+url: /cells/python-net/aspose.cells.tables/listobjectcollection/
 ---
 
 ## ListObjectCollection class
 
-Represents a collection of [ListObject](/python-net/aspose.cells.tables/listobject/) objects in the worksheet.
+Represents a collection of [ListObject](/cells/python-net/aspose.cells.tables/listobject/) objects in the worksheet.
 
 The ListObjectCollection type exposes the following members:
 ## Properties
@@ -33,6 +33,6 @@ The ListObjectCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.tables](/python-net/aspose.cells.tables/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.tables](/cells/python-net/aspose.cells.tables/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

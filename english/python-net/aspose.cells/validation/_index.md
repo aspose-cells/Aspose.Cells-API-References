@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1530
-url: /python-net/aspose.cells/validation/
+url: /cells/python-net/aspose.cells/validation/
 ---
 
 ## Validation class
@@ -30,7 +30,7 @@ The Validation type exposes the following members:
 |value1|Represents the first value associated with the data validation.|
 |value2|Represents the second value associated with the data validation.|
 |in_cell_drop_down|Indicates whether data validation displays a drop-down list that contains acceptable values.|
-|areas|Gets all [CellArea](/python-net/aspose.cells/cellarea/) which contain the data validation settings.|
+|areas|Gets all [CellArea](/cells/python-net/aspose.cells/cellarea/) which contain the data validation settings.|
 ## Methods
 | Name | Description |
 | :- | :- |
@@ -51,6 +51,6 @@ The Validation type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

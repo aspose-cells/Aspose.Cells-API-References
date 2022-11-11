@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 5050
-url: /python-net/aspose.cells/textalignmenttype/
+url: /cells/python-net/aspose.cells/textalignmenttype/
 ---
 
 ## TextAlignmentType enumeration
@@ -29,6 +29,6 @@ Enumerates text alignment types.
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

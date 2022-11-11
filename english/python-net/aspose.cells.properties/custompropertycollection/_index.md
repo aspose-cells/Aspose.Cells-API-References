@@ -4,12 +4,12 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 60
-url: /python-net/aspose.cells.properties/custompropertycollection/
+url: /cells/python-net/aspose.cells.properties/custompropertycollection/
 ---
 
 ## CustomPropertyCollection class
 
-A collection of [CustomProperty](/python-net/aspose.cells.properties/customproperty/) objects that represent additional information.
+A collection of [CustomProperty](/cells/python-net/aspose.cells.properties/customproperty/) objects that represent additional information.
 
 The CustomPropertyCollection type exposes the following members:
 ## Properties
@@ -31,6 +31,6 @@ The CustomPropertyCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.properties](/python-net/aspose.cells.properties/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.properties](/cells/python-net/aspose.cells.properties/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

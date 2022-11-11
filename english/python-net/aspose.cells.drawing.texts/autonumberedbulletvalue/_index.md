@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /python-net/aspose.cells.drawing.texts/autonumberedbulletvalue/
+url: /cells/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue/
 ---
 
 ## AutoNumberedBulletValue class
@@ -25,6 +25,6 @@ The AutoNumberedBulletValue type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.drawing.texts](/python-net/aspose.cells.drawing.texts/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.drawing.texts](/cells/python-net/aspose.cells.drawing.texts/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

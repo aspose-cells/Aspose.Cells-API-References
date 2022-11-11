@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /python-net/aspose.cells.charts/axis/
+url: /cells/python-net/aspose.cells.charts/axis/
 ---
 
 ## Axis class
@@ -15,7 +15,7 @@ The Axis type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|area|Gets the [area](/python-net/aspose.cells.charts/axis/).|
+|area|Gets the [area](/cells/python-net/aspose.cells.charts/axis/).|
 |is_automatic_min_value|Indicates whether the min value is automatically assigned.|
 |min_value|Represents the minimum value on the value axis.|
 |is_automatic_max_value|Indicates whether the max value is automatically assigned.|
@@ -29,12 +29,12 @@ The Axis type exposes the following members:
 |minor_tick_mark|Represents the type of minor tick mark for the specified axis.|
 |tick_label_position|Represents the position of tick-mark labels on the specified axis.|
 |cross_at|Represents the point on the value axis where the category axis crosses it.|
-|cross_type|Represents the [cross_type](/python-net/aspose.cells.charts/axis/) on the specified axis where the other axis crosses.|
+|cross_type|Represents the [cross_type](/cells/python-net/aspose.cells.charts/axis/) on the specified axis where the other axis crosses.|
 |log_base|Represents the logarithmic base. Default value is 10.Only applies for Excel2007.|
 |is_logarithmic|Represents if the value axis scale type is logarithmic or not.|
 |is_plot_order_reversed|Represents if Microsoft Excel plots data points from last to first.|
 |axis_between_categories|Represents if the value axis crosses the category axis between categories.|
-|tick_labels|Returns a [tick_labels](/python-net/aspose.cells.charts/axis/) object that represents the tick-mark labels for the specified axis.|
+|tick_labels|Returns a [tick_labels](/cells/python-net/aspose.cells.charts/axis/) object that represents the tick-mark labels for the specified axis.|
 |tick_label_spacing|Represents the number of categories or series between tick-mark labels. Applies only to category and series axes.|
 |is_auto_tick_label_spacing|Indicates whether the spacing of tick label is automatic|
 |tick_mark_spacing|Returns or sets the number of categories or series between tick marks. Applies only to category and series axes.|
@@ -56,6 +56,6 @@ The Axis type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.charts](/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

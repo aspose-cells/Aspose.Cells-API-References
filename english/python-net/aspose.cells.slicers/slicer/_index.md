@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /python-net/aspose.cells.slicers/slicer/
+url: /cells/python-net/aspose.cells.slicers/slicer/
 ---
 
 ## Slicer class
@@ -48,6 +48,6 @@ The Slicer type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.slicers](/python-net/aspose.cells.slicers/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.slicers](/cells/python-net/aspose.cells.slicers/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

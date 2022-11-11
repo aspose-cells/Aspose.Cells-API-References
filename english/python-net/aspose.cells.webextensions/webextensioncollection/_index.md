@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 40
-url: /python-net/aspose.cells.webextensions/webextensioncollection/
+url: /cells/python-net/aspose.cells.webextensions/webextensioncollection/
 ---
 
 ## WebExtensionCollection class
@@ -31,6 +31,6 @@ The WebExtensionCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.webextensions](/python-net/aspose.cells.webextensions/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.webextensions](/cells/python-net/aspose.cells.webextensions/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

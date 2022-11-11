@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 30
-url: /python-net/aspose.cells.ods/odspagebackground/
+url: /cells/python-net/aspose.cells.ods/odspagebackground/
 ---
 
 ## OdsPageBackground class
@@ -29,6 +29,6 @@ The OdsPageBackground type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.ods](/python-net/aspose.cells.ods/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.ods](/cells/python-net/aspose.cells.ods/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

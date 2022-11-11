@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 200
-url: /python-net/aspose.cells.pivot/pivotitemposition/
+url: /cells/python-net/aspose.cells.pivot/pivotitemposition/
 ---
 
 ## PivotItemPosition enumeration
@@ -20,6 +20,6 @@ Represents PivotTable base item Next/Previous/All position in the base field .
 
 ### See Also
 
-* namespace [aspose.cells.pivot](/python-net/aspose.cells.pivot/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.pivot](/cells/python-net/aspose.cells.pivot/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 960
-url: /python-net/aspose.cells/jsonloadoptions/
+url: /cells/python-net/aspose.cells/jsonloadoptions/
 ---
 
 ## JsonLoadOptions class
@@ -39,7 +39,7 @@ The JsonLoadOptions type exposes the following members:
 |warning_callback|Gets or sets warning callback.|
 |auto_fitter_options|Gets and sets the auto fitter options|
 |auto_filter|Indicates whether auto filtering the data when loading the files.|
-|font_configs|Gets and sets individual font configs. <br/>            Only works for the [Workbook](/python-net/aspose.cells/workbook/) which uses this [LoadOptions](/python-net/aspose.cells/loadoptions/) to load.|
+|font_configs|Gets and sets individual font configs. <br/>            Only works for the [Workbook](/cells/python-net/aspose.cells/workbook/) which uses this [LoadOptions](/cells/python-net/aspose.cells/loadoptions/) to load.|
 |start_cell|Gets and sets the start cell.|
 |layout_options|The options of import json.|
 |multiple_worksheets|Indicates whether importing each attribute of JsonObject object as one worksheet when all child nodes are array nodes.|
@@ -50,6 +50,6 @@ The JsonLoadOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

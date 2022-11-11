@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /python-net/aspose.cells.externalconnections/connectionparameter/
+url: /cells/python-net/aspose.cells.externalconnections/connectionparameter/
 ---
 
 ## ConnectionParameter class
@@ -25,6 +25,6 @@ The ConnectionParameter type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.externalconnections](/python-net/aspose.cells.externalconnections/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.externalconnections](/cells/python-net/aspose.cells.externalconnections/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

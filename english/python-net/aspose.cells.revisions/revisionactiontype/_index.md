@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 170
-url: /python-net/aspose.cells.revisions/revisionactiontype/
+url: /cells/python-net/aspose.cells.revisions/revisionactiontype/
 ---
 
 ## RevisionActionType enumeration
@@ -23,6 +23,6 @@ Represents the type of revision action.
 
 ### See Also
 
-* namespace [aspose.cells.revisions](/python-net/aspose.cells.revisions/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.revisions](/cells/python-net/aspose.cells.revisions/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

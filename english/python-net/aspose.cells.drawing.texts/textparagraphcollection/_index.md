@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 110
-url: /python-net/aspose.cells.drawing.texts/textparagraphcollection/
+url: /cells/python-net/aspose.cells.drawing.texts/textparagraphcollection/
 ---
 
 ## TextParagraphCollection class
@@ -19,7 +19,7 @@ The TextParagraphCollection type exposes the following members:
 ## Indexer
 | Name | Description |
 | :- | :- |
-|[index]|Gets the [TextParagraph](/python-net/aspose.cells.drawing.texts/textparagraph/) object at specific index.|
+|[index]|Gets the [TextParagraph](/cells/python-net/aspose.cells.drawing.texts/textparagraph/) object at specific index.|
 ## Methods
 | Name | Description |
 | :- | :- |
@@ -27,6 +27,6 @@ The TextParagraphCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.drawing.texts](/python-net/aspose.cells.drawing.texts/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.drawing.texts](/cells/python-net/aspose.cells.drawing.texts/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

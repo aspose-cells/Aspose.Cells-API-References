@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 560
-url: /python-net/aspose.cells/externallink/
+url: /cells/python-net/aspose.cells/externallink/
 ---
 
 ## ExternalLink class
@@ -27,6 +27,6 @@ The ExternalLink type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

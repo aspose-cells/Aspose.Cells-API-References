@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 140
-url: /python-net/aspose.cells/cell/
+url: /cells/python-net/aspose.cells/cell/
 ---
 
 ## Cell class
@@ -33,9 +33,9 @@ The Cell type exposes the following members:
 |float_value|Gets the float value contained in the cell.|
 |bool_value|Gets the boolean value contained in the cell.|
 |shared_style_index|Gets cell's shared style index in the style pool.|
-|formula|Gets or sets a formula of the [Cell](/python-net/aspose.cells/cell/).|
+|formula|Gets or sets a formula of the [Cell](/cells/python-net/aspose.cells/cell/).|
 |formula_local|Get the locale formatted formula of the cell.|
-|r1c1_formula|Gets or sets a R1C1 formula of the [Cell](/python-net/aspose.cells/cell/).|
+|r1c1_formula|Gets or sets a R1C1 formula of the [Cell](/cells/python-net/aspose.cells/cell/).|
 |contains_external_link|Indicates whether this cell contains an external link.<br/>            Only applies when the cell is a formula cell.|
 |is_array_header|Indicates the cell's formula is and array formula <br/>            and it is the first cell of the array.|
 |is_array_formula|Indicates whether the cell formula is an array formula.|
@@ -105,7 +105,7 @@ The Cell type exposes the following members:
 |characters(start_index, length)|Returns a Characters object that represents a range of characters within the cell text.|
 |is_rich_text()|Indicates whether the cell string value is a rich text.|
 |set_characters(characters)|Sets rich text format of the cell.|
-|get_merged_range()|Returns a [Range](/python-net/aspose.cells/range/) object which represents a merged range.|
+|get_merged_range()|Returns a [Range](/cells/python-net/aspose.cells/range/) object which represents a merged range.|
 |get_html_string(html5)|Gets the html string which contains data and some formats in this cell.|
 |equals(cell)|Checks whether this object refers to the same cell with another.|
 |get_conditional_formatting_result()|Get the result of the conditional formatting.|
@@ -115,6 +115,6 @@ The Cell type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

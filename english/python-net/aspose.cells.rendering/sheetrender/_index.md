@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 100
-url: /python-net/aspose.cells.rendering/sheetrender/
+url: /cells/python-net/aspose.cells.rendering/sheetrender/
 ---
 
 ## SheetRender class
@@ -20,7 +20,7 @@ The SheetRender type exposes the following members:
 | Name | Description |
 | :- | :- |
 |page_count|Gets the total page count of current worksheet.|
-|page_scale|Gets calculated page scale of the sheet.<br/>            Returns the set scale if [zoom](/python-net/aspose.cells/pagesetup/) is set. Otherwise, returns the calculated scale according to [fit_to_pages_wide](/python-net/aspose.cells/pagesetup/) and [fit_to_pages_tall](/python-net/aspose.cells/pagesetup/).|
+|page_scale|Gets calculated page scale of the sheet.<br/>            Returns the set scale if [zoom](/cells/python-net/aspose.cells/pagesetup/) is set. Otherwise, returns the calculated scale according to [fit_to_pages_wide](/cells/python-net/aspose.cells/pagesetup/) and [fit_to_pages_tall](/cells/python-net/aspose.cells/pagesetup/).|
 ## Methods
 | Name | Description |
 | :- | :- |
@@ -39,6 +39,6 @@ The SheetRender type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.rendering](/python-net/aspose.cells.rendering/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.rendering](/cells/python-net/aspose.cells.rendering/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

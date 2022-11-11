@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 570
-url: /python-net/aspose.cells/externallinkcollection/
+url: /cells/python-net/aspose.cells/externallinkcollection/
 ---
 
 ## ExternalLinkCollection class
@@ -19,7 +19,7 @@ The ExternalLinkCollection type exposes the following members:
 ## Indexer
 | Name | Description |
 | :- | :- |
-|[index]|Gets the [ExternalLink](/python-net/aspose.cells/externallink/) element at the specified index.|
+|[index]|Gets the [ExternalLink](/cells/python-net/aspose.cells/externallink/) element at the specified index.|
 ## Methods
 | Name | Description |
 | :- | :- |
@@ -32,6 +32,6 @@ The ExternalLinkCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

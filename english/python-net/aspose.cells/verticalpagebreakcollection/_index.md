@@ -4,12 +4,12 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1560
-url: /python-net/aspose.cells/verticalpagebreakcollection/
+url: /cells/python-net/aspose.cells/verticalpagebreakcollection/
 ---
 
 ## VerticalPageBreakCollection class
 
-Encapsulates a collection of [VerticalPageBreak](/python-net/aspose.cells/verticalpagebreak/) objects.
+Encapsulates a collection of [VerticalPageBreak](/cells/python-net/aspose.cells/verticalpagebreak/) objects.
 
 The VerticalPageBreakCollection type exposes the following members:
 ## Properties
@@ -34,6 +34,6 @@ The VerticalPageBreakCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

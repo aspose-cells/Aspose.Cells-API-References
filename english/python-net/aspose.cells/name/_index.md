@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1070
-url: /python-net/aspose.cells/name/
+url: /cells/python-net/aspose.cells/name/
 ---
 
 ## Name class
@@ -19,7 +19,7 @@ The Name type exposes the following members:
 |text|Gets the name text of the object.|
 |full_text|Gets the name  full text of the object with the scope setting.|
 |refers_to|Returns or sets the formula that the name is defined to refer to, beginning with an equal sign.|
-|r1c1_refers_to|Gets or sets a R1C1 reference of the [Name](/python-net/aspose.cells/name/).|
+|r1c1_refers_to|Gets or sets a R1C1 reference of the [Name](/cells/python-net/aspose.cells/name/).|
 |is_referred|Indicates whether this name is referred by other formulas.|
 |is_visible|Indicates whether the name is visible.|
 |sheet_index|Indicates this name belongs to Workbook or Worksheet.<br/>            0 = Global name, otherwise index to sheet (one-based)|
@@ -38,6 +38,6 @@ The Name type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

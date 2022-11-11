@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4890
-url: /python-net/aspose.cells/pastetype/
+url: /cells/python-net/aspose.cells/pastetype/
 ---
 
 ## PasteType enumeration
@@ -31,6 +31,6 @@ Represents the paste special type.
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 5130
-url: /python-net/aspose.cells/txtloadstylestrategy/
+url: /cells/python-net/aspose.cells/txtloadstylestrategy/
 ---
 
 ## TxtLoadStyleStrategy enumeration
@@ -20,6 +20,6 @@ Specifies how to apply style for parsed values when converting string value to n
 
 ### See Also
 
-* namespace [aspose.cells](/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells](/cells/python-net/aspose.cells/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

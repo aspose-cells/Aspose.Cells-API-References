@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /python-net/aspose.cells.saving/sqlscriptcolumntypemap/
+url: /cells/python-net/aspose.cells.saving/sqlscriptcolumntypemap/
 ---
 
 ## SqlScriptColumnTypeMap class
@@ -24,6 +24,6 @@ The SqlScriptColumnTypeMap type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.saving](/python-net/aspose.cells.saving/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.saving](/cells/python-net/aspose.cells.saving/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

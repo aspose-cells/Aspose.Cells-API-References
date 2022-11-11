@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 60
-url: /python-net/aspose.cells.markup/smarttagproperty/
+url: /cells/python-net/aspose.cells.markup/smarttagproperty/
 ---
 
 ## SmartTagProperty class
@@ -20,6 +20,6 @@ The SmartTagProperty type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.markup](/python-net/aspose.cells.markup/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.markup](/cells/python-net/aspose.cells.markup/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

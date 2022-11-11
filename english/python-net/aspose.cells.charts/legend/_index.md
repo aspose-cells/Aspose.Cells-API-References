@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 170
-url: /python-net/aspose.cells.charts/legend/
+url: /cells/python-net/aspose.cells.charts/legend/
 ---
 
 ## Legend class
@@ -60,6 +60,6 @@ The Legend type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.charts](/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

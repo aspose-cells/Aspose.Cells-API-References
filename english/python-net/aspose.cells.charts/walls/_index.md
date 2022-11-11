@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 350
-url: /python-net/aspose.cells.charts/walls/
+url: /cells/python-net/aspose.cells.charts/walls/
 ---
 
 ## Walls class
@@ -21,7 +21,7 @@ The Walls type exposes the following members:
 |invert_if_negative|  |
 |fill_format|  |
 |transparency|  |
-|border|Gets or sets the border [Line](/python-net/aspose.cells.drawing/line/).|
+|border|Gets or sets the border [Line](/cells/python-net/aspose.cells.drawing/line/).|
 |center_x|Gets the x coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's width after calls Chart.Calculate() method.|
 |center_y|Gets the y coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's height after calls Chart.Calculate() method.|
 |width|Gets the width of left to right in units of 1/4000 of chart's width after calls Chart.Calculate() method.|
@@ -41,6 +41,6 @@ The Walls type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.charts](/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
+* assembly [Aspose.Cells](/cells/python-net/)
 

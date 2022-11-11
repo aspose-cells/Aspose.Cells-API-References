@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 120
-url: /python-net/aspose.cells.externalconnections/oledbcommandtype/
+url: /cells/python-net/aspose.cells.externalconnections/oledbcommandtype/
 ---
 
 ## OLEDBCommandType enumeration
@@ -23,6 +23,6 @@ Specifies the OLE DB command type.
 
 ### See Also
 
-* namespace [aspose.cells.externalconnections](/python-net/aspose.cells.externalconnections/)
-* assembly [Aspose.Cells](/python-net/)
+* namespace [aspose.cells.externalconnections](/cells/python-net/aspose.cells.externalconnections/)
+* assembly [Aspose.Cells](/cells/python-net/)
 
