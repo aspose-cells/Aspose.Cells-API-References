@@ -13,7 +13,7 @@ Contains all basic classes of Aspose.Cells.
 ## Classes
 | Class | Description |
 | :- | :- |
-|[AboveAverage](/cells/python-net/aspose.cells/aboveaverage/)|Describe the AboveAverage conditional formatting rule. <br/>            This conditional formatting rule highlights cells that<br/>            are above or below the average for all values in the range.|
+|[AboveAverage](/cells/python-net/aspose.cells/aboveaverage/)|Describe the AboveAverage conditional formatting rules. <br/>            This conditional formatting rule highlights cells that<br/>            are above or below the average for all values in the range.|
 |[AbstractCalculationEngine](/cells/python-net/aspose.cells/abstractcalculationengine/)|Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells.|
 |[AbstractCalculationMonitor](/cells/python-net/aspose.cells/abstractcalculationmonitor/)|Monitor for user to track the progress of formula calculation.|
 |[AbstractGlobalizationSettings](/cells/python-net/aspose.cells/abstractglobalizationsettings/)|Represents the globalization settings.|
