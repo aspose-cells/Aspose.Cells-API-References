@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1260
-url: /cells/python-net/aspose.cells/rangecollection/
+url: /python-net/aspose.cells/rangecollection/
 ---
 
 ## RangeCollection class

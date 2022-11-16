@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4840
-url: /cells/python-net/aspose.cells/pageorientationtype/
+url: /python-net/aspose.cells/pageorientationtype/
 ---
 
 ## PageOrientationType enumeration

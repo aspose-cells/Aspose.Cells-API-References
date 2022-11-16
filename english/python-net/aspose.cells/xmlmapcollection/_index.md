@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1700
-url: /cells/python-net/aspose.cells/xmlmapcollection/
+url: /python-net/aspose.cells/xmlmapcollection/
 ---
 
 ## XmlMapCollection class

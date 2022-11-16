@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 470
-url: /cells/python-net/aspose.cells/deleteoptions/
+url: /python-net/aspose.cells/deleteoptions/
 ---
 
 ## DeleteOptions class

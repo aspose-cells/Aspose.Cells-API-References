@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1520
-url: /cells/python-net/aspose.cells/unionrange/
+url: /python-net/aspose.cells/unionrange/
 ---
 
 ## UnionRange class

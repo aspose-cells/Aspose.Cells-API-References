@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4550
-url: /cells/python-net/aspose.cells/exceptiontype/
+url: /python-net/aspose.cells/exceptiontype/
 ---
 
 ## ExceptionType enumeration

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4760
-url: /cells/python-net/aspose.cells/lookintype/
+url: /python-net/aspose.cells/lookintype/
 ---
 
 ## LookInType enumeration

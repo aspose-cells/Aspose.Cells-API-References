@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 750
-url: /cells/python-net/aspose.cells/horizontalpagebreak/
+url: /python-net/aspose.cells/horizontalpagebreak/
 ---
 
 ## HorizontalPageBreak class

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4330
-url: /cells/python-net/aspose.cells/builtinstyletype/
+url: /python-net/aspose.cells/builtinstyletype/
 ---
 
 ## BuiltinStyleType enumeration

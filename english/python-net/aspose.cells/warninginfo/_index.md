@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1570
-url: /cells/python-net/aspose.cells/warninginfo/
+url: /python-net/aspose.cells/warninginfo/
 ---
 
 ## WarningInfo class

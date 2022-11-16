@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4450
-url: /cells/python-net/aspose.cells/databarfilltype/
+url: /python-net/aspose.cells/databarfilltype/
 ---
 
 ## DataBarFillType enumeration

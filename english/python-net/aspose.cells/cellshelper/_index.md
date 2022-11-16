@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 230
-url: /cells/python-net/aspose.cells/cellshelper/
+url: /python-net/aspose.cells/cellshelper/
 ---
 
 ## CellsHelper class

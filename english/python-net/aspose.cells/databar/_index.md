@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 400
-url: /cells/python-net/aspose.cells/databar/
+url: /python-net/aspose.cells/databar/
 ---
 
 ## DataBar class

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4780
-url: /cells/python-net/aspose.cells/namescopetype/
+url: /python-net/aspose.cells/namescopetype/
 ---
 
 ## NameScopeType enumeration

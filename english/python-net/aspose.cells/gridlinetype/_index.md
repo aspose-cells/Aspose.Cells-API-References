@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4650
-url: /cells/python-net/aspose.cells/gridlinetype/
+url: /python-net/aspose.cells/gridlinetype/
 ---
 
 ## GridlineType enumeration

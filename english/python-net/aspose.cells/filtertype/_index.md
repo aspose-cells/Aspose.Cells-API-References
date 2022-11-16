@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4590
-url: /cells/python-net/aspose.cells/filtertype/
+url: /python-net/aspose.cells/filtertype/
 ---
 
 ## FilterType enumeration

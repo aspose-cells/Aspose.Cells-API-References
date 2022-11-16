@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1330
-url: /cells/python-net/aspose.cells/scenario/
+url: /python-net/aspose.cells/scenario/
 ---
 
 ## Scenario class

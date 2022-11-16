@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 950
-url: /cells/python-net/aspose.cells/interruptmonitor/
+url: /python-net/aspose.cells/interruptmonitor/
 ---
 
 ## InterruptMonitor class

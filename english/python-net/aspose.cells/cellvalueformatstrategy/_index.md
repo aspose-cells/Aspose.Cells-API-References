@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4370
-url: /cells/python-net/aspose.cells/cellvalueformatstrategy/
+url: /python-net/aspose.cells/cellvalueformatstrategy/
 ---
 
 ## CellValueFormatStrategy enumeration

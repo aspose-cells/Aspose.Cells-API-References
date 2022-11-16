@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4820
-url: /cells/python-net/aspose.cells/operatortype/
+url: /python-net/aspose.cells/operatortype/
 ---
 
 ## OperatorType enumeration

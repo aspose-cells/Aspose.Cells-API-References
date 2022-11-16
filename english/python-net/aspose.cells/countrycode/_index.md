@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4420
-url: /cells/python-net/aspose.cells/countrycode/
+url: /python-net/aspose.cells/countrycode/
 ---
 
 ## CountryCode enumeration

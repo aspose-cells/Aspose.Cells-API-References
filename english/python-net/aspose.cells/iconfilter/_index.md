@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 890
-url: /cells/python-net/aspose.cells/iconfilter/
+url: /python-net/aspose.cells/iconfilter/
 ---
 
 ## IconFilter class

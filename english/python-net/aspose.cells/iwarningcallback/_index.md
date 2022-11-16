@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 880
-url: /cells/python-net/aspose.cells/iwarningcallback/
+url: /python-net/aspose.cells/iwarningcallback/
 ---
 
 ## IWarningCallback class

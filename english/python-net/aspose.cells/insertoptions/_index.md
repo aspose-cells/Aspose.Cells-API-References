@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 940
-url: /cells/python-net/aspose.cells/insertoptions/
+url: /python-net/aspose.cells/insertoptions/
 ---
 
 ## InsertOptions class
