@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 5140
-url: /cells/python-net/aspose.cells/txtvaluequotetype/
+url: /python-net/aspose.cells/txtvaluequotetype/
 ---
 
 ## TxtValueQuoteType enumeration

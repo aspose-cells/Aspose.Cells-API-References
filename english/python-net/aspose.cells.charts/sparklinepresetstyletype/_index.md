@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 620
-url: /cells/python-net/aspose.cells.charts/sparklinepresetstyletype/
+url: /python-net/aspose.cells.charts/sparklinepresetstyletype/
 ---
 
 ## SparklinePresetStyleType enumeration

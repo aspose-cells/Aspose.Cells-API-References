@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 540
-url: /cells/python-net/aspose.cells.charts/legendpositiontype/
+url: /python-net/aspose.cells.charts/legendpositiontype/
 ---
 
 ## LegendPositionType enumeration

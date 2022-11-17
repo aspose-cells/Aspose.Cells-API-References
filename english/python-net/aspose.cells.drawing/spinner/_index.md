@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 670
-url: /cells/python-net/aspose.cells.drawing/spinner/
+url: /python-net/aspose.cells.drawing/spinner/
 ---
 
 ## Spinner class

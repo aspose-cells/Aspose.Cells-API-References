@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 630
-url: /cells/python-net/aspose.cells.drawing/shapesegmentpathcollection/
+url: /python-net/aspose.cells.drawing/shapesegmentpathcollection/
 ---
 
 ## ShapeSegmentPathCollection class

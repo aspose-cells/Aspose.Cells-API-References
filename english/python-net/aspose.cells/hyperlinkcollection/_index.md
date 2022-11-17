@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 800
-url: /cells/python-net/aspose.cells/hyperlinkcollection/
+url: /python-net/aspose.cells/hyperlinkcollection/
 ---
 
 ## HyperlinkCollection class

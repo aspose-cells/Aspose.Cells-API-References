@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4610
-url: /cells/python-net/aspose.cells/fontsourcetype/
+url: /python-net/aspose.cells/fontsourcetype/
 ---
 
 ## FontSourceType enumeration

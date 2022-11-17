@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 90
-url: /cells/python-net/aspose.cells.properties/propertytype/
+url: /python-net/aspose.cells.properties/propertytype/
 ---
 
 ## PropertyType enumeration

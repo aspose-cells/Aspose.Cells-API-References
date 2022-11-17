@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 190
-url: /cells/python-net/aspose.cells.drawing.texts/texttabalignmenttype/
+url: /python-net/aspose.cells.drawing.texts/texttabalignmenttype/
 ---
 
 ## TextTabAlignmentType enumeration

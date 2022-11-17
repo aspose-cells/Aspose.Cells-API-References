@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1490
-url: /cells/python-net/aspose.cells/top10filter/
+url: /python-net/aspose.cells/top10filter/
 ---
 
 ## Top10Filter class

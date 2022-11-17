@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 5020
-url: /cells/python-net/aspose.cells/sortorder/
+url: /python-net/aspose.cells/sortorder/
 ---
 
 ## SortOrder enumeration

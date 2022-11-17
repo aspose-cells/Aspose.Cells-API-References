@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 520
-url: /cells/python-net/aspose.cells.drawing/shape/
+url: /python-net/aspose.cells.drawing/shape/
 ---
 
 ## Shape class

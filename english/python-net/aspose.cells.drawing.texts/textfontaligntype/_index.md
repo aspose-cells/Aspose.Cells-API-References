@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 170
-url: /cells/python-net/aspose.cells.drawing.texts/textfontaligntype/
+url: /python-net/aspose.cells.drawing.texts/textfontaligntype/
 ---
 
 ## TextFontAlignType enumeration

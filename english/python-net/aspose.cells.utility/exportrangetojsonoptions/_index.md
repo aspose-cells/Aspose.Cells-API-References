@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /cells/python-net/aspose.cells.utility/exportrangetojsonoptions/
+url: /python-net/aspose.cells.utility/exportrangetojsonoptions/
 ---
 
 ## ExportRangeToJsonOptions class

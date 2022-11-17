@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 380
-url: /cells/python-net/aspose.cells.drawing/msotextframe/
+url: /python-net/aspose.cells.drawing/msotextframe/
 ---
 
 ## MsoTextFrame class

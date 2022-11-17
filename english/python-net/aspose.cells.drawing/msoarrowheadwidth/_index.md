@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1260
-url: /cells/python-net/aspose.cells.drawing/msoarrowheadwidth/
+url: /python-net/aspose.cells.drawing/msoarrowheadwidth/
 ---
 
 ## MsoArrowheadWidth enumeration

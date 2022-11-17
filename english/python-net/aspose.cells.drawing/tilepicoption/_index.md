@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 730
-url: /cells/python-net/aspose.cells.drawing/tilepicoption/
+url: /python-net/aspose.cells.drawing/tilepicoption/
 ---
 
 ## TilePicOption class

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4800
-url: /cells/python-net/aspose.cells/ooxmlcompliance/
+url: /python-net/aspose.cells/ooxmlcompliance/
 ---
 
 ## OoxmlCompliance enumeration

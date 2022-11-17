@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 30
-url: /cells/python-net/aspose.cells.digitalsignatures/xadestype/
+url: /python-net/aspose.cells.digitalsignatures/xadestype/
 ---
 
 ## XAdESType enumeration

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 250
-url: /cells/python-net/aspose.cells.charts/serieslayoutproperties/
+url: /python-net/aspose.cells.charts/serieslayoutproperties/
 ---
 
 ## SeriesLayoutProperties class

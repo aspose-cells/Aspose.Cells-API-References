@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 290
-url: /cells/python-net/aspose.cells.drawing.activexcontrols/inputmethodeditormode/
+url: /python-net/aspose.cells.drawing.activexcontrols/inputmethodeditormode/
 ---
 
 ## InputMethodEditorMode enumeration

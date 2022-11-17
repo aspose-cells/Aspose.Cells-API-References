@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1440
-url: /cells/python-net/aspose.cells/threadedcomment/
+url: /python-net/aspose.cells/threadedcomment/
 ---
 
 ## ThreadedComment class

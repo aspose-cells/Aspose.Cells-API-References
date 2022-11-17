@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 140
-url: /cells/python-net/aspose.cells.drawing.activexcontrols/unknowncontrol/
+url: /python-net/aspose.cells.drawing.activexcontrols/unknowncontrol/
 ---
 
 ## UnknownControl class

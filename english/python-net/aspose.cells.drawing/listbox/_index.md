@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 320
-url: /cells/python-net/aspose.cells.drawing/listbox/
+url: /python-net/aspose.cells.drawing/listbox/
 ---
 
 ## ListBox class

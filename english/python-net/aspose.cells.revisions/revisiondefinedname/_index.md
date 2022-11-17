@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 80
-url: /cells/python-net/aspose.cells.revisions/revisiondefinedname/
+url: /python-net/aspose.cells.revisions/revisiondefinedname/
 ---
 
 ## RevisionDefinedName class

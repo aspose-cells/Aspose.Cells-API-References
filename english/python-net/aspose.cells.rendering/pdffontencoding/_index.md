@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 210
-url: /cells/python-net/aspose.cells.rendering/pdffontencoding/
+url: /python-net/aspose.cells.rendering/pdffontencoding/
 ---
 
 ## PdfFontEncoding enumeration

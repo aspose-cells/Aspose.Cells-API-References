@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 300
-url: /cells/python-net/aspose.cells/conditionalformattingcollection/
+url: /python-net/aspose.cells/conditionalformattingcollection/
 ---
 
 ## ConditionalFormattingCollection class

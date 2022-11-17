@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1220
-url: /cells/python-net/aspose.cells.drawing/linetype/
+url: /python-net/aspose.cells.drawing/linetype/
 ---
 
 ## LineType enumeration

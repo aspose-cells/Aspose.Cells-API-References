@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 270
-url: /cells/python-net/aspose.cells.drawing.activexcontrols/controltype/
+url: /python-net/aspose.cells.drawing.activexcontrols/controltype/
 ---
 
 ## ControlType enumeration

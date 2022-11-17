@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 420
-url: /cells/python-net/aspose.cells.charts/chartmarkertype/
+url: /python-net/aspose.cells.charts/chartmarkertype/
 ---
 
 ## ChartMarkerType enumeration

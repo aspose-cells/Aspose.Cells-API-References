@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 680
-url: /cells/python-net/aspose.cells.drawing/textbox/
+url: /python-net/aspose.cells.drawing/textbox/
 ---
 
 ## TextBox class

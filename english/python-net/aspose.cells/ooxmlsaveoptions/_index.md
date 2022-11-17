@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1120
-url: /cells/python-net/aspose.cells/ooxmlsaveoptions/
+url: /python-net/aspose.cells/ooxmlsaveoptions/
 ---
 
 ## OoxmlSaveOptions class

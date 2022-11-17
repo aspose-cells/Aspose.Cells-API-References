@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 480
-url: /cells/python-net/aspose.cells.drawing/rectangleshape/
+url: /python-net/aspose.cells.drawing/rectangleshape/
 ---
 
 ## RectangleShape class

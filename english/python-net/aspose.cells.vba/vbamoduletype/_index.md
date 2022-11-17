@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 60
-url: /cells/python-net/aspose.cells.vba/vbamoduletype/
+url: /python-net/aspose.cells.vba/vbamoduletype/
 ---
 
 ## VbaModuleType enumeration

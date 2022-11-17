@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 30
-url: /cells/python-net/aspose.cells.metadata/metadatatype/
+url: /python-net/aspose.cells.metadata/metadatatype/
 ---
 
 ## MetadataType enumeration

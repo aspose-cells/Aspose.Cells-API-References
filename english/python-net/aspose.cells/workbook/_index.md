@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1580
-url: /cells/python-net/aspose.cells/workbook/
+url: /python-net/aspose.cells/workbook/
 ---
 
 ## Workbook class

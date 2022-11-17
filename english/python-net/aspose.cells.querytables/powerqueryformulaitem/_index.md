@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 50
-url: /cells/python-net/aspose.cells.querytables/powerqueryformulaitem/
+url: /python-net/aspose.cells.querytables/powerqueryformulaitem/
 ---
 
 ## PowerQueryFormulaItem class

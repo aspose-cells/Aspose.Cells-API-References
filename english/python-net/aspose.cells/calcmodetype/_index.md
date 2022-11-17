@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 4340
-url: /cells/python-net/aspose.cells/calcmodetype/
+url: /python-net/aspose.cells/calcmodetype/
 ---
 
 ## CalcModeType enumeration

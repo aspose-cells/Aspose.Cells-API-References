@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 60
-url: /cells/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/
+url: /python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/
 ---
 
 ## ImageActiveXControl class

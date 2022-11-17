@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 250
-url: /cells/python-net/aspose.cells.drawing/groupbox/
+url: /python-net/aspose.cells.drawing/groupbox/
 ---
 
 ## GroupBox class

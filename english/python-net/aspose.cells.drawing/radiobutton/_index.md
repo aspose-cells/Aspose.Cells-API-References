@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 470
-url: /cells/python-net/aspose.cells.drawing/radiobutton/
+url: /python-net/aspose.cells.drawing/radiobutton/
 ---
 
 ## RadioButton class

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 130
-url: /cells/python-net/aspose.cells.revisions/revisionlogcollection/
+url: /python-net/aspose.cells.revisions/revisionlogcollection/
 ---
 
 ## RevisionLogCollection class

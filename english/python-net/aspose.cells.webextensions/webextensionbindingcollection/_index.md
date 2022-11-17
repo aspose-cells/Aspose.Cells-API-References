@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 30
-url: /cells/python-net/aspose.cells.webextensions/webextensionbindingcollection/
+url: /python-net/aspose.cells.webextensions/webextensionbindingcollection/
 ---
 
 ## WebExtensionBindingCollection class

@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1210
-url: /cells/python-net/aspose.cells.drawing/linejointype/
+url: /python-net/aspose.cells.drawing/linejointype/
 ---
 
 ## LineJoinType enumeration

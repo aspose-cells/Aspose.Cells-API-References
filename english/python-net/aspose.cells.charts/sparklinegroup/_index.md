@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 280
-url: /cells/python-net/aspose.cells.charts/sparklinegroup/
+url: /python-net/aspose.cells.charts/sparklinegroup/
 ---
 
 ## SparklineGroup class

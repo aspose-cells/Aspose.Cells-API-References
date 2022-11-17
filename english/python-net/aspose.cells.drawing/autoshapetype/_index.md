@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 1030
-url: /cells/python-net/aspose.cells.drawing/autoshapetype/
+url: /python-net/aspose.cells.drawing/autoshapetype/
 ---
 
 ## AutoShapeType enumeration

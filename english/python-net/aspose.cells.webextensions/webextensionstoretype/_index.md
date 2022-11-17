@@ -4,7 +4,7 @@ second_title: Aspose.Cells for Python via .NET API Reference
 description: 
 type: docs
 weight: 110
-url: /cells/python-net/aspose.cells.webextensions/webextensionstoretype/
+url: /python-net/aspose.cells.webextensions/webextensionstoretype/
 ---
 
 ## WebExtensionStoreType enumeration
