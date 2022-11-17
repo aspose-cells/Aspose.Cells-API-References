@@ -87,3 +87,15 @@ Aspose.Cells for Python via Java 使您的应用程序能够执行大量电子�
 这些是一些有用资源的链接：
 - [Aspose.Cells for Python 通过 Java API 参考](/cells/python-java/)
 
+## Aspose.Cells for Python 通过 .NET
+
+{{% alert color="primary" %}}
+
+![Aspose.Cells for Python 通过 .NET 产品标志](../home_8.png)
+
+Aspose.Cells for Python via .NET 使您的应用程序能够执行范围广泛的电子表格处理任务。 Aspose.Cells for Python via .NET 支持企业日常使用的流行电子表格（XLS、XLSX、XLSM、XLSB、XLTX、XLTM、CSV、SpreadsheetML、ODS）文件格式。 它还允许将 Excel® 文件导出为 PDF、DOCX、PPTX、JSON、XPS、HTML、MHTML、纯文本和流行的图像格式，包括 TIFF、JPG、PNG、BMP 和 SVG。
+{{% /alert %}}
+
+这些是一些有用资源的链接：
+- [Aspose.Cells for Python 通过 .NET API 参考](/cells/python-net/)
+

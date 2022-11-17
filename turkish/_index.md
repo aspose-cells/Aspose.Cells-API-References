@@ -87,3 +87,16 @@ Java aracılığıyla Aspose.Cells for Python, uygulamalarınızın çok çeşit
 Bunlar, bazı yararlı kaynaklara bağlantılar:
 - [Java API Referansı ile Python için Aspose.Cells](/cells/python-java/)
 
+## .NET aracılığıyla Python için Aspose.Cells
+
+{{% alert color="primary" %}}
+
+![Aspose.Cells for Python via .NET Ürün Logosu](../home_8.png)
+
+Aspose.Cells for Python via .NET, uygulamalarınızın çok çeşitli elektronik tablo işleme görevleri gerçekleştirmesini sağlar. .NET aracılığıyla Python için Aspose.Cells, işletmenizin her gün kullandığı popüler elektronik tablo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) dosya formatlarını destekler. Ayrıca Excel® dosyalarının PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, Düz Metin ve TIFF, JPG, PNG, BMP ve SVG gibi popüler görüntü formatlarına dışa aktarılmasına da olanak tanır.
+
+{{% /alert %}}
+
+Bunlar, bazı yararlı kaynaklara bağlantılar:
+- [Aspose.Cells for Python via .NET API Reference](/cells/python-net/)
+

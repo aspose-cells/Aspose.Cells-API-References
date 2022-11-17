@@ -87,3 +87,16 @@ Aspose.Cells para Python a través de Java permite que sus aplicaciones realicen
 Estos son enlaces a algunos recursos útiles:
 - [Aspose.Cells para Python a través de la referencia de la API de Java](/cells/python-java/)
 
+## Aspose.Cells para Python a través de .NET
+
+{{% alert color="primary" %}}
+
+![Aspose.Cells para Python a través del logotipo del producto .NET](../home_8.png)
+
+Aspose.Cells para Python a través de .NET permite que sus aplicaciones realicen una gran variedad de tareas de procesamiento de hojas de cálculo. Aspose.Cells para Python a través de .NET es compatible con los populares formatos de archivo de hoja de cálculo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que utiliza su empresa todos los días. También permite exportar archivos de Excel® a PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, texto sin formato y formatos de imagen populares, incluidos TIFF, JPG, PNG, BMP y SVG.
+
+{{% /alert %}}
+
+Estos son enlaces a algunos recursos útiles:
+- [Aspose.Cells para Python a través de la referencia de la API de .NET](/cells/python-net/)
+
