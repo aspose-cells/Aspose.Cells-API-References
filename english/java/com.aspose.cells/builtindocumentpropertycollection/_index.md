@@ -76,40 +76,40 @@ Provides access to  objects by their names (using an indexer) and via a set of t
 | [notifyAll()](#notifyAll--) |  |
 | [remove(String name)](#remove-java.lang.String-) | Removes a property with the specified name from the collection. |
 | [removeAt(int index)](#removeAt-int-) | Removes a property at the specified index. |
-| [setAuthor(String value)](#setAuthor-java.lang.String-) | Please see the getter of this property: [getAuthor()](../../com.aspose.cells/builtindocumentpropertycollection\#getAuthor--) |
-| [setBytes(int value)](#setBytes-int-) | Please see the getter of this property: [getBytes()](../../com.aspose.cells/builtindocumentpropertycollection\#getBytes--) |
-| [setCategory(String value)](#setCategory-java.lang.String-) | Please see the getter of this property: [getCategory()](../../com.aspose.cells/builtindocumentpropertycollection\#getCategory--) |
-| [setCharacters(int value)](#setCharacters-int-) | Please see the getter of this property: [getCharacters()](../../com.aspose.cells/builtindocumentpropertycollection\#getCharacters--) |
-| [setCharactersWithSpaces(int value)](#setCharactersWithSpaces-int-) | Please see the getter of this property: [getCharactersWithSpaces()](../../com.aspose.cells/builtindocumentpropertycollection\#getCharactersWithSpaces--) |
-| [setComments(String value)](#setComments-java.lang.String-) | Please see the getter of this property: [getComments()](../../com.aspose.cells/builtindocumentpropertycollection\#getComments--) |
-| [setCompany(String value)](#setCompany-java.lang.String-) | Please see the getter of this property: [getCompany()](../../com.aspose.cells/builtindocumentpropertycollection\#getCompany--) |
-| [setContentStatus(String value)](#setContentStatus-java.lang.String-) | Please see the getter of this property: [getContentStatus()](../../com.aspose.cells/builtindocumentpropertycollection\#getContentStatus--) |
-| [setContentType(String value)](#setContentType-java.lang.String-) | Please see the getter of this property: [getContentType()](../../com.aspose.cells/builtindocumentpropertycollection\#getContentType--) |
-| [setCreatedTime(DateTime value)](#setCreatedTime-com.aspose.cells.DateTime-) | Please see the getter of this property: [getCreatedTime()](../../com.aspose.cells/builtindocumentpropertycollection\#getCreatedTime--) |
-| [setCreatedUniversalTime(DateTime value)](#setCreatedUniversalTime-com.aspose.cells.DateTime-) | Please see the getter of this property: [getCreatedUniversalTime()](../../com.aspose.cells/builtindocumentpropertycollection\#getCreatedUniversalTime--) |
-| [setDocumentVersion(String value)](#setDocumentVersion-java.lang.String-) | Please see the getter of this property: [getDocumentVersion()](../../com.aspose.cells/builtindocumentpropertycollection\#getDocumentVersion--) |
-| [setHyperlinkBase(String value)](#setHyperlinkBase-java.lang.String-) | Please see the getter of this property: [getHyperlinkBase()](../../com.aspose.cells/builtindocumentpropertycollection\#getHyperlinkBase--) |
-| [setKeywords(String value)](#setKeywords-java.lang.String-) | Please see the getter of this property: [getKeywords()](../../com.aspose.cells/builtindocumentpropertycollection\#getKeywords--) |
-| [setLanguage(String value)](#setLanguage-java.lang.String-) | Please see the getter of this property: [getLanguage()](../../com.aspose.cells/builtindocumentpropertycollection\#getLanguage--) |
-| [setLastPrinted(DateTime value)](#setLastPrinted-com.aspose.cells.DateTime-) | Please see the getter of this property: [getLastPrinted()](../../com.aspose.cells/builtindocumentpropertycollection\#getLastPrinted--) |
-| [setLastPrintedUniversalTime(DateTime value)](#setLastPrintedUniversalTime-com.aspose.cells.DateTime-) | Please see the getter of this property: [getLastPrintedUniversalTime()](../../com.aspose.cells/builtindocumentpropertycollection\#getLastPrintedUniversalTime--) |
-| [setLastSavedBy(String value)](#setLastSavedBy-java.lang.String-) | Please see the getter of this property: [getLastSavedBy()](../../com.aspose.cells/builtindocumentpropertycollection\#getLastSavedBy--) |
-| [setLastSavedTime(DateTime value)](#setLastSavedTime-com.aspose.cells.DateTime-) | Please see the getter of this property: [getLastSavedTime()](../../com.aspose.cells/builtindocumentpropertycollection\#getLastSavedTime--) |
-| [setLastSavedUniversalTime(DateTime value)](#setLastSavedUniversalTime-com.aspose.cells.DateTime-) | Please see the getter of this property: [getLastSavedUniversalTime()](../../com.aspose.cells/builtindocumentpropertycollection\#getLastSavedUniversalTime--) |
-| [setLines(int value)](#setLines-int-) | Please see the getter of this property: [getLines()](../../com.aspose.cells/builtindocumentpropertycollection\#getLines--) |
-| [setLinksUpToDate(boolean value)](#setLinksUpToDate-boolean-) | Please see the getter of this property: [getLinksUpToDate()](../../com.aspose.cells/builtindocumentpropertycollection\#getLinksUpToDate--) |
-| [setManager(String value)](#setManager-java.lang.String-) | Please see the getter of this property: [getManager()](../../com.aspose.cells/builtindocumentpropertycollection\#getManager--) |
-| [setNameOfApplication(String value)](#setNameOfApplication-java.lang.String-) | Please see the getter of this property: [getNameOfApplication()](../../com.aspose.cells/builtindocumentpropertycollection\#getNameOfApplication--) |
-| [setPages(int value)](#setPages-int-) | Please see the getter of this property: [getPages()](../../com.aspose.cells/builtindocumentpropertycollection\#getPages--) |
-| [setParagraphs(int value)](#setParagraphs-int-) | Please see the getter of this property: [getParagraphs()](../../com.aspose.cells/builtindocumentpropertycollection\#getParagraphs--) |
-| [setRevisionNumber(String value)](#setRevisionNumber-java.lang.String-) | Please see the getter of this property: [getRevisionNumber()](../../com.aspose.cells/builtindocumentpropertycollection\#getRevisionNumber--) |
-| [setScaleCrop(boolean value)](#setScaleCrop-boolean-) | Please see the getter of this property: [getScaleCrop()](../../com.aspose.cells/builtindocumentpropertycollection\#getScaleCrop--) |
-| [setSubject(String value)](#setSubject-java.lang.String-) | Please see the getter of this property: [getSubject()](../../com.aspose.cells/builtindocumentpropertycollection\#getSubject--) |
-| [setTemplate(String value)](#setTemplate-java.lang.String-) | Please see the getter of this property: [getTemplate()](../../com.aspose.cells/builtindocumentpropertycollection\#getTemplate--) |
-| [setTitle(String value)](#setTitle-java.lang.String-) | Please see the getter of this property: [getTitle()](../../com.aspose.cells/builtindocumentpropertycollection\#getTitle--) |
-| [setTotalEditingTime(double value)](#setTotalEditingTime-double-) | Please see the getter of this property: [getTotalEditingTime()](../../com.aspose.cells/builtindocumentpropertycollection\#getTotalEditingTime--) |
-| [setVersion(String value)](#setVersion-java.lang.String-) | Please see the getter of this property: [getVersion()](../../com.aspose.cells/builtindocumentpropertycollection\#getVersion--) |
-| [setWords(int value)](#setWords-int-) | Please see the getter of this property: [getWords()](../../com.aspose.cells/builtindocumentpropertycollection\#getWords--) |
+| [setAuthor(String value)](#setAuthor-java.lang.String-) | For the description of this property, please see \#getAuthor().getAuthor() |
+| [setBytes(int value)](#setBytes-int-) | For the description of this property, please see \#getBytes().getBytes() |
+| [setCategory(String value)](#setCategory-java.lang.String-) | For the description of this property, please see \#getCategory().getCategory() |
+| [setCharacters(int value)](#setCharacters-int-) | For the description of this property, please see \#getCharacters().getCharacters() |
+| [setCharactersWithSpaces(int value)](#setCharactersWithSpaces-int-) | For the description of this property, please see \#getCharactersWithSpaces().getCharactersWithSpaces() |
+| [setComments(String value)](#setComments-java.lang.String-) | For the description of this property, please see \#getComments().getComments() |
+| [setCompany(String value)](#setCompany-java.lang.String-) | For the description of this property, please see \#getCompany().getCompany() |
+| [setContentStatus(String value)](#setContentStatus-java.lang.String-) | For the description of this property, please see \#getContentStatus().getContentStatus() |
+| [setContentType(String value)](#setContentType-java.lang.String-) | For the description of this property, please see \#getContentType().getContentType() |
+| [setCreatedTime(DateTime value)](#setCreatedTime-com.aspose.cells.DateTime-) | For the description of this property, please see \#getCreatedTime().getCreatedTime() |
+| [setCreatedUniversalTime(DateTime value)](#setCreatedUniversalTime-com.aspose.cells.DateTime-) | For the description of this property, please see \#getCreatedUniversalTime().getCreatedUniversalTime() |
+| [setDocumentVersion(String value)](#setDocumentVersion-java.lang.String-) | For the description of this property, please see \#getDocumentVersion().getDocumentVersion() |
+| [setHyperlinkBase(String value)](#setHyperlinkBase-java.lang.String-) | For the description of this property, please see \#getHyperlinkBase().getHyperlinkBase() |
+| [setKeywords(String value)](#setKeywords-java.lang.String-) | For the description of this property, please see \#getKeywords().getKeywords() |
+| [setLanguage(String value)](#setLanguage-java.lang.String-) | For the description of this property, please see \#getLanguage().getLanguage() |
+| [setLastPrinted(DateTime value)](#setLastPrinted-com.aspose.cells.DateTime-) | For the description of this property, please see \#getLastPrinted().getLastPrinted() |
+| [setLastPrintedUniversalTime(DateTime value)](#setLastPrintedUniversalTime-com.aspose.cells.DateTime-) | For the description of this property, please see \#getLastPrintedUniversalTime().getLastPrintedUniversalTime() |
+| [setLastSavedBy(String value)](#setLastSavedBy-java.lang.String-) | For the description of this property, please see \#getLastSavedBy().getLastSavedBy() |
+| [setLastSavedTime(DateTime value)](#setLastSavedTime-com.aspose.cells.DateTime-) | For the description of this property, please see \#getLastSavedTime().getLastSavedTime() |
+| [setLastSavedUniversalTime(DateTime value)](#setLastSavedUniversalTime-com.aspose.cells.DateTime-) | For the description of this property, please see \#getLastSavedUniversalTime().getLastSavedUniversalTime() |
+| [setLines(int value)](#setLines-int-) | For the description of this property, please see \#getLines().getLines() |
+| [setLinksUpToDate(boolean value)](#setLinksUpToDate-boolean-) | For the description of this property, please see \#getLinksUpToDate().getLinksUpToDate() |
+| [setManager(String value)](#setManager-java.lang.String-) | For the description of this property, please see \#getManager().getManager() |
+| [setNameOfApplication(String value)](#setNameOfApplication-java.lang.String-) | For the description of this property, please see \#getNameOfApplication().getNameOfApplication() |
+| [setPages(int value)](#setPages-int-) | For the description of this property, please see \#getPages().getPages() |
+| [setParagraphs(int value)](#setParagraphs-int-) | For the description of this property, please see \#getParagraphs().getParagraphs() |
+| [setRevisionNumber(String value)](#setRevisionNumber-java.lang.String-) | For the description of this property, please see \#getRevisionNumber().getRevisionNumber() |
+| [setScaleCrop(boolean value)](#setScaleCrop-boolean-) | For the description of this property, please see \#getScaleCrop().getScaleCrop() |
+| [setSubject(String value)](#setSubject-java.lang.String-) | For the description of this property, please see \#getSubject().getSubject() |
+| [setTemplate(String value)](#setTemplate-java.lang.String-) | For the description of this property, please see \#getTemplate().getTemplate() |
+| [setTitle(String value)](#setTitle-java.lang.String-) | For the description of this property, please see \#getTitle().getTitle() |
+| [setTotalEditingTime(double value)](#setTotalEditingTime-double-) | For the description of this property, please see \#getTotalEditingTime().getTotalEditingTime() |
+| [setVersion(String value)](#setVersion-java.lang.String-) | For the description of this property, please see \#getVersion().getVersion() |
+| [setWords(int value)](#setWords-int-) | For the description of this property, please see \#getWords().getWords() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -700,7 +700,7 @@ public void setAuthor(String value)
 ```
 
 
-Please see the getter of this property: [getAuthor()](../../com.aspose.cells/builtindocumentpropertycollection\#getAuthor--)
+For the description of this property, please see \#getAuthor().getAuthor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -713,7 +713,7 @@ public void setBytes(int value)
 ```
 
 
-Please see the getter of this property: [getBytes()](../../com.aspose.cells/builtindocumentpropertycollection\#getBytes--)
+For the description of this property, please see \#getBytes().getBytes()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -726,7 +726,7 @@ public void setCategory(String value)
 ```
 
 
-Please see the getter of this property: [getCategory()](../../com.aspose.cells/builtindocumentpropertycollection\#getCategory--)
+For the description of this property, please see \#getCategory().getCategory()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -739,7 +739,7 @@ public void setCharacters(int value)
 ```
 
 
-Please see the getter of this property: [getCharacters()](../../com.aspose.cells/builtindocumentpropertycollection\#getCharacters--)
+For the description of this property, please see \#getCharacters().getCharacters()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -752,7 +752,7 @@ public void setCharactersWithSpaces(int value)
 ```
 
 
-Please see the getter of this property: [getCharactersWithSpaces()](../../com.aspose.cells/builtindocumentpropertycollection\#getCharactersWithSpaces--)
+For the description of this property, please see \#getCharactersWithSpaces().getCharactersWithSpaces()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -765,7 +765,7 @@ public void setComments(String value)
 ```
 
 
-Please see the getter of this property: [getComments()](../../com.aspose.cells/builtindocumentpropertycollection\#getComments--)
+For the description of this property, please see \#getComments().getComments()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -778,7 +778,7 @@ public void setCompany(String value)
 ```
 
 
-Please see the getter of this property: [getCompany()](../../com.aspose.cells/builtindocumentpropertycollection\#getCompany--)
+For the description of this property, please see \#getCompany().getCompany()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -791,7 +791,7 @@ public void setContentStatus(String value)
 ```
 
 
-Please see the getter of this property: [getContentStatus()](../../com.aspose.cells/builtindocumentpropertycollection\#getContentStatus--)
+For the description of this property, please see \#getContentStatus().getContentStatus()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -804,7 +804,7 @@ public void setContentType(String value)
 ```
 
 
-Please see the getter of this property: [getContentType()](../../com.aspose.cells/builtindocumentpropertycollection\#getContentType--)
+For the description of this property, please see \#getContentType().getContentType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -817,7 +817,7 @@ public void setCreatedTime(DateTime value)
 ```
 
 
-Please see the getter of this property: [getCreatedTime()](../../com.aspose.cells/builtindocumentpropertycollection\#getCreatedTime--)
+For the description of this property, please see \#getCreatedTime().getCreatedTime()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -830,7 +830,7 @@ public void setCreatedUniversalTime(DateTime value)
 ```
 
 
-Please see the getter of this property: [getCreatedUniversalTime()](../../com.aspose.cells/builtindocumentpropertycollection\#getCreatedUniversalTime--)
+For the description of this property, please see \#getCreatedUniversalTime().getCreatedUniversalTime()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -843,7 +843,7 @@ public void setDocumentVersion(String value)
 ```
 
 
-Please see the getter of this property: [getDocumentVersion()](../../com.aspose.cells/builtindocumentpropertycollection\#getDocumentVersion--)
+For the description of this property, please see \#getDocumentVersion().getDocumentVersion()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -856,7 +856,7 @@ public void setHyperlinkBase(String value)
 ```
 
 
-Please see the getter of this property: [getHyperlinkBase()](../../com.aspose.cells/builtindocumentpropertycollection\#getHyperlinkBase--)
+For the description of this property, please see \#getHyperlinkBase().getHyperlinkBase()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -869,7 +869,7 @@ public void setKeywords(String value)
 ```
 
 
-Please see the getter of this property: [getKeywords()](../../com.aspose.cells/builtindocumentpropertycollection\#getKeywords--)
+For the description of this property, please see \#getKeywords().getKeywords()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -882,7 +882,7 @@ public void setLanguage(String value)
 ```
 
 
-Please see the getter of this property: [getLanguage()](../../com.aspose.cells/builtindocumentpropertycollection\#getLanguage--)
+For the description of this property, please see \#getLanguage().getLanguage()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -895,7 +895,7 @@ public void setLastPrinted(DateTime value)
 ```
 
 
-Please see the getter of this property: [getLastPrinted()](../../com.aspose.cells/builtindocumentpropertycollection\#getLastPrinted--)
+For the description of this property, please see \#getLastPrinted().getLastPrinted()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -908,7 +908,7 @@ public void setLastPrintedUniversalTime(DateTime value)
 ```
 
 
-Please see the getter of this property: [getLastPrintedUniversalTime()](../../com.aspose.cells/builtindocumentpropertycollection\#getLastPrintedUniversalTime--)
+For the description of this property, please see \#getLastPrintedUniversalTime().getLastPrintedUniversalTime()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -921,7 +921,7 @@ public void setLastSavedBy(String value)
 ```
 
 
-Please see the getter of this property: [getLastSavedBy()](../../com.aspose.cells/builtindocumentpropertycollection\#getLastSavedBy--)
+For the description of this property, please see \#getLastSavedBy().getLastSavedBy()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -934,7 +934,7 @@ public void setLastSavedTime(DateTime value)
 ```
 
 
-Please see the getter of this property: [getLastSavedTime()](../../com.aspose.cells/builtindocumentpropertycollection\#getLastSavedTime--)
+For the description of this property, please see \#getLastSavedTime().getLastSavedTime()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -947,7 +947,7 @@ public void setLastSavedUniversalTime(DateTime value)
 ```
 
 
-Please see the getter of this property: [getLastSavedUniversalTime()](../../com.aspose.cells/builtindocumentpropertycollection\#getLastSavedUniversalTime--)
+For the description of this property, please see \#getLastSavedUniversalTime().getLastSavedUniversalTime()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -960,7 +960,7 @@ public void setLines(int value)
 ```
 
 
-Please see the getter of this property: [getLines()](../../com.aspose.cells/builtindocumentpropertycollection\#getLines--)
+For the description of this property, please see \#getLines().getLines()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -973,7 +973,7 @@ public void setLinksUpToDate(boolean value)
 ```
 
 
-Please see the getter of this property: [getLinksUpToDate()](../../com.aspose.cells/builtindocumentpropertycollection\#getLinksUpToDate--)
+For the description of this property, please see \#getLinksUpToDate().getLinksUpToDate()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -986,7 +986,7 @@ public void setManager(String value)
 ```
 
 
-Please see the getter of this property: [getManager()](../../com.aspose.cells/builtindocumentpropertycollection\#getManager--)
+For the description of this property, please see \#getManager().getManager()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -999,7 +999,7 @@ public void setNameOfApplication(String value)
 ```
 
 
-Please see the getter of this property: [getNameOfApplication()](../../com.aspose.cells/builtindocumentpropertycollection\#getNameOfApplication--)
+For the description of this property, please see \#getNameOfApplication().getNameOfApplication()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1012,7 +1012,7 @@ public void setPages(int value)
 ```
 
 
-Please see the getter of this property: [getPages()](../../com.aspose.cells/builtindocumentpropertycollection\#getPages--)
+For the description of this property, please see \#getPages().getPages()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1025,7 +1025,7 @@ public void setParagraphs(int value)
 ```
 
 
-Please see the getter of this property: [getParagraphs()](../../com.aspose.cells/builtindocumentpropertycollection\#getParagraphs--)
+For the description of this property, please see \#getParagraphs().getParagraphs()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1038,7 +1038,7 @@ public void setRevisionNumber(String value)
 ```
 
 
-Please see the getter of this property: [getRevisionNumber()](../../com.aspose.cells/builtindocumentpropertycollection\#getRevisionNumber--)
+For the description of this property, please see \#getRevisionNumber().getRevisionNumber()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1051,7 +1051,7 @@ public void setScaleCrop(boolean value)
 ```
 
 
-Please see the getter of this property: [getScaleCrop()](../../com.aspose.cells/builtindocumentpropertycollection\#getScaleCrop--)
+For the description of this property, please see \#getScaleCrop().getScaleCrop()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1064,7 +1064,7 @@ public void setSubject(String value)
 ```
 
 
-Please see the getter of this property: [getSubject()](../../com.aspose.cells/builtindocumentpropertycollection\#getSubject--)
+For the description of this property, please see \#getSubject().getSubject()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1077,7 +1077,7 @@ public void setTemplate(String value)
 ```
 
 
-Please see the getter of this property: [getTemplate()](../../com.aspose.cells/builtindocumentpropertycollection\#getTemplate--)
+For the description of this property, please see \#getTemplate().getTemplate()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1090,7 +1090,7 @@ public void setTitle(String value)
 ```
 
 
-Please see the getter of this property: [getTitle()](../../com.aspose.cells/builtindocumentpropertycollection\#getTitle--)
+For the description of this property, please see \#getTitle().getTitle()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1103,7 +1103,7 @@ public void setTotalEditingTime(double value)
 ```
 
 
-Please see the getter of this property: [getTotalEditingTime()](../../com.aspose.cells/builtindocumentpropertycollection\#getTotalEditingTime--)
+For the description of this property, please see \#getTotalEditingTime().getTotalEditingTime()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1116,7 +1116,7 @@ public void setVersion(String value)
 ```
 
 
-Please see the getter of this property: [getVersion()](../../com.aspose.cells/builtindocumentpropertycollection\#getVersion--)
+For the description of this property, please see \#getVersion().getVersion()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1129,7 +1129,7 @@ public void setWords(int value)
 ```
 
 
-Please see the getter of this property: [getWords()](../../com.aspose.cells/builtindocumentpropertycollection\#getWords--)
+For the description of this property, please see \#getWords().getWords()
 
 **Parameters:**
 | Parameter | Type | Description |

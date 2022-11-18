@@ -26,9 +26,9 @@ Represents the person who creates the threaded comments;
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: @CREF63\_ |
-| [setProviderId(String value)](#setProviderId-java.lang.String-) | Please see the getter of this property: @CREF65\_ |
-| [setUserId(String value)](#setUserId-java.lang.String-) | Please see the getter of this property: @CREF64\_ |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
+| [setProviderId(String value)](#setProviderId-java.lang.String-) | For the description of this property, please see \#getProviderId().getProviderId() |
+| [setUserId(String value)](#setUserId-java.lang.String-) | For the description of this property, please see \#getUserId().getUserId() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -120,7 +120,7 @@ public void setName(String value)
 ```
 
 
-Please see the getter of this property: @CREF63\_
+For the description of this property, please see \#getName().getName()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -133,7 +133,7 @@ public void setProviderId(String value)
 ```
 
 
-Please see the getter of this property: @CREF65\_
+For the description of this property, please see \#getProviderId().getProviderId()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +146,7 @@ public void setUserId(String value)
 ```
 
 
-Please see the getter of this property: @CREF64\_
+For the description of this property, please see \#getUserId().getUserId()
 
 **Parameters:**
 | Parameter | Type | Description |

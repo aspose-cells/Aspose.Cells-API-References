@@ -76,6 +76,7 @@ Workbook workbook = new Workbook();
 | [getPlotBy()](#getPlotBy--) | Gets and sets whether plot by row or column. |
 | [getPlotEmptyCellsType()](#getPlotEmptyCellsType--) | Gets and sets how to plot the empty cells. |
 | [getPlotVisibleCells()](#getPlotVisibleCells--) | Indicates whether only plot visible cells. |
+| [getPlotVisibleCellsOnly()](#getPlotVisibleCellsOnly--) | Indicates whether plot visible cells only. |
 | [getPrintSize()](#getPrintSize--) | Gets and sets the printed chart size. |
 | [getRightAngleAxes()](#getRightAngleAxes--) | True if the chart axes are at right angles. |
 | [getRotationAngle()](#getRotationAngle--) | Represents the rotation of the 3-D chart view (the rotation of the plot area around the z-axis, in degrees). |
@@ -103,32 +104,33 @@ Workbook workbook = new Workbook();
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [refreshPivotData()](#refreshPivotData--) | Refreshes pivot chart's data from it's pivot data source. |
-| [setAutoScaling(boolean value)](#setAutoScaling-boolean-) | Please see the getter of this property: [getAutoScaling()](../../com.aspose.cells/chart\#getAutoScaling--) |
+| [setAutoScaling(boolean value)](#setAutoScaling-boolean-) | For the description of this property, please see \#getAutoScaling().getAutoScaling() |
 | [setChartDataRange(String area, boolean isVertical)](#setChartDataRange-java.lang.String-boolean-) | Specifies data range for a chart. |
-| [setDepthPercent(int value)](#setDepthPercent-int-) | Please see the getter of this property: [getDepthPercent()](../../com.aspose.cells/chart\#getDepthPercent--) |
-| [setDisplayNaAsBlank(boolean value)](#setDisplayNaAsBlank-boolean-) | Please see the getter of this property: [getDisplayNaAsBlank()](../../com.aspose.cells/chart\#getDisplayNaAsBlank--) |
-| [setElevation(int value)](#setElevation-int-) | Please see the getter of this property: [getElevation()](../../com.aspose.cells/chart\#getElevation--) |
-| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | Please see the getter of this property: [getFirstSliceAngle()](../../com.aspose.cells/chart\#getFirstSliceAngle--) |
-| [setGapDepth(int value)](#setGapDepth-int-) | Please see the getter of this property: [getGapDepth()](../../com.aspose.cells/chart\#getGapDepth--) |
-| [setGapWidth(int value)](#setGapWidth-int-) | Please see the getter of this property: [getGapWidth()](../../com.aspose.cells/chart\#getGapWidth--) |
-| [setHeightPercent(int value)](#setHeightPercent-int-) | Please see the getter of this property: [getHeightPercent()](../../com.aspose.cells/chart\#getHeightPercent--) |
-| [setHidePivotFieldButtons(boolean value)](#setHidePivotFieldButtons-boolean-) | Please see the getter of this property: [getHidePivotFieldButtons()](../../com.aspose.cells/chart\#getHidePivotFieldButtons--) |
-| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: [getName()](../../com.aspose.cells/chart\#getName--) |
-| [setPerspective(short value)](#setPerspective-short-) | Please see the getter of this property: [getPerspective()](../../com.aspose.cells/chart\#getPerspective--) |
-| [setPivotSource(String value)](#setPivotSource-java.lang.String-) | Please see the getter of this property: [getPivotSource()](../../com.aspose.cells/chart\#getPivotSource--) |
-| [setPlacement(int value)](#setPlacement-int-) | Please see the getter of this property: [getPlacement()](../../com.aspose.cells/chart\#getPlacement--) |
-| [setPlotEmptyCellsType(int value)](#setPlotEmptyCellsType-int-) | Please see the getter of this property: [getPlotEmptyCellsType()](../../com.aspose.cells/chart\#getPlotEmptyCellsType--) |
-| [setPlotVisibleCells(boolean value)](#setPlotVisibleCells-boolean-) | Please see the getter of this property: [getPlotVisibleCells()](../../com.aspose.cells/chart\#getPlotVisibleCells--) |
-| [setPrintSize(int value)](#setPrintSize-int-) | Please see the getter of this property: [getPrintSize()](../../com.aspose.cells/chart\#getPrintSize--) |
-| [setRectangularCornered(boolean value)](#setRectangularCornered-boolean-) | Please see the getter of this property: [isRectangularCornered()](../../com.aspose.cells/chart\#isRectangularCornered--) |
-| [setRightAngleAxes(boolean value)](#setRightAngleAxes-boolean-) | Please see the getter of this property: [getRightAngleAxes()](../../com.aspose.cells/chart\#getRightAngleAxes--) |
-| [setRotationAngle(int value)](#setRotationAngle-int-) | Please see the getter of this property: [getRotationAngle()](../../com.aspose.cells/chart\#getRotationAngle--) |
-| [setShowDataTable(boolean value)](#setShowDataTable-boolean-) | Please see the getter of this property: [getShowDataTable()](../../com.aspose.cells/chart\#getShowDataTable--) |
-| [setShowLegend(boolean value)](#setShowLegend-boolean-) | Please see the getter of this property: [getShowLegend()](../../com.aspose.cells/chart\#getShowLegend--) |
-| [setSizeWithWindow(boolean value)](#setSizeWithWindow-boolean-) | Please see the getter of this property: [getSizeWithWindow()](../../com.aspose.cells/chart\#getSizeWithWindow--) |
-| [setStyle(int value)](#setStyle-int-) | Please see the getter of this property: [getStyle()](../../com.aspose.cells/chart\#getStyle--) |
-| [setType(int value)](#setType-int-) | Please see the getter of this property: [getType()](../../com.aspose.cells/chart\#getType--) |
-| [setWallsAndGridlines2D(boolean value)](#setWallsAndGridlines2D-boolean-) | Please see the getter of this property: [getWallsAndGridlines2D()](../../com.aspose.cells/chart\#getWallsAndGridlines2D--) |
+| [setDepthPercent(int value)](#setDepthPercent-int-) | For the description of this property, please see \#getDepthPercent().getDepthPercent() |
+| [setDisplayNaAsBlank(boolean value)](#setDisplayNaAsBlank-boolean-) | For the description of this property, please see \#getDisplayNaAsBlank().getDisplayNaAsBlank() |
+| [setElevation(int value)](#setElevation-int-) | For the description of this property, please see \#getElevation().getElevation() |
+| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | For the description of this property, please see \#getFirstSliceAngle().getFirstSliceAngle() |
+| [setGapDepth(int value)](#setGapDepth-int-) | For the description of this property, please see \#getGapDepth().getGapDepth() |
+| [setGapWidth(int value)](#setGapWidth-int-) | For the description of this property, please see \#getGapWidth().getGapWidth() |
+| [setHeightPercent(int value)](#setHeightPercent-int-) | For the description of this property, please see \#getHeightPercent().getHeightPercent() |
+| [setHidePivotFieldButtons(boolean value)](#setHidePivotFieldButtons-boolean-) | For the description of this property, please see \#getHidePivotFieldButtons().getHidePivotFieldButtons() |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
+| [setPerspective(short value)](#setPerspective-short-) | For the description of this property, please see \#getPerspective().getPerspective() |
+| [setPivotSource(String value)](#setPivotSource-java.lang.String-) | For the description of this property, please see \#getPivotSource().getPivotSource() |
+| [setPlacement(int value)](#setPlacement-int-) | For the description of this property, please see \#getPlacement().getPlacement() |
+| [setPlotEmptyCellsType(int value)](#setPlotEmptyCellsType-int-) | For the description of this property, please see \#getPlotEmptyCellsType().getPlotEmptyCellsType() |
+| [setPlotVisibleCells(boolean value)](#setPlotVisibleCells-boolean-) | For the description of this property, please see \#getPlotVisibleCells().getPlotVisibleCells() |
+| [setPlotVisibleCellsOnly(boolean value)](#setPlotVisibleCellsOnly-boolean-) | For the description of this property, please see \#getPlotVisibleCellsOnly().getPlotVisibleCellsOnly() |
+| [setPrintSize(int value)](#setPrintSize-int-) | For the description of this property, please see \#getPrintSize().getPrintSize() |
+| [setRectangularCornered(boolean value)](#setRectangularCornered-boolean-) | For the description of this property, please see \#isRectangularCornered().isRectangularCornered() |
+| [setRightAngleAxes(boolean value)](#setRightAngleAxes-boolean-) | For the description of this property, please see \#getRightAngleAxes().getRightAngleAxes() |
+| [setRotationAngle(int value)](#setRotationAngle-int-) | For the description of this property, please see \#getRotationAngle().getRotationAngle() |
+| [setShowDataTable(boolean value)](#setShowDataTable-boolean-) | For the description of this property, please see \#getShowDataTable().getShowDataTable() |
+| [setShowLegend(boolean value)](#setShowLegend-boolean-) | For the description of this property, please see \#getShowLegend().getShowLegend() |
+| [setSizeWithWindow(boolean value)](#setSizeWithWindow-boolean-) | For the description of this property, please see \#getSizeWithWindow().getSizeWithWindow() |
+| [setStyle(int value)](#setStyle-int-) | For the description of this property, please see \#getStyle().getStyle() |
+| [setType(int value)](#setType-int-) | For the description of this property, please see \#getType().getType() |
+| [setWallsAndGridlines2D(boolean value)](#setWallsAndGridlines2D-boolean-) | For the description of this property, please see \#getWallsAndGridlines2D().getWallsAndGridlines2D() |
 | [switchRowColumn()](#switchRowColumn--) | Switches row/column. |
 | [toImage(OutputStream stream, ImageOrPrintOptions options)](#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-) | Creates the chart image and saves it to a stream in the specified format. |
 | [toImage(String imageFile)](#toImage-java.lang.String-) | Creates the chart image and saves it to a file. |
@@ -520,6 +522,16 @@ Indicates whether only plot visible cells.
 
 **Returns:**
 boolean
+### getPlotVisibleCellsOnly() {#getPlotVisibleCellsOnly--}
+```
+public boolean getPlotVisibleCellsOnly()
+```
+
+
+Indicates whether plot visible cells only.
+
+**Returns:**
+boolean
 ### getPrintSize() {#getPrintSize--}
 ```
 public int getPrintSize()
@@ -802,7 +814,7 @@ public void setAutoScaling(boolean value)
 ```
 
 
-Please see the getter of this property: [getAutoScaling()](../../com.aspose.cells/chart\#getAutoScaling--)
+For the description of this property, please see \#getAutoScaling().getAutoScaling()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -829,7 +841,7 @@ public void setDepthPercent(int value)
 ```
 
 
-Please see the getter of this property: [getDepthPercent()](../../com.aspose.cells/chart\#getDepthPercent--)
+For the description of this property, please see \#getDepthPercent().getDepthPercent()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -842,7 +854,7 @@ public void setDisplayNaAsBlank(boolean value)
 ```
 
 
-Please see the getter of this property: [getDisplayNaAsBlank()](../../com.aspose.cells/chart\#getDisplayNaAsBlank--)
+For the description of this property, please see \#getDisplayNaAsBlank().getDisplayNaAsBlank()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -855,7 +867,7 @@ public void setElevation(int value)
 ```
 
 
-Please see the getter of this property: [getElevation()](../../com.aspose.cells/chart\#getElevation--)
+For the description of this property, please see \#getElevation().getElevation()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -868,7 +880,7 @@ public void setFirstSliceAngle(int value)
 ```
 
 
-Please see the getter of this property: [getFirstSliceAngle()](../../com.aspose.cells/chart\#getFirstSliceAngle--)
+For the description of this property, please see \#getFirstSliceAngle().getFirstSliceAngle()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -881,7 +893,7 @@ public void setGapDepth(int value)
 ```
 
 
-Please see the getter of this property: [getGapDepth()](../../com.aspose.cells/chart\#getGapDepth--)
+For the description of this property, please see \#getGapDepth().getGapDepth()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -894,7 +906,7 @@ public void setGapWidth(int value)
 ```
 
 
-Please see the getter of this property: [getGapWidth()](../../com.aspose.cells/chart\#getGapWidth--)
+For the description of this property, please see \#getGapWidth().getGapWidth()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -907,7 +919,7 @@ public void setHeightPercent(int value)
 ```
 
 
-Please see the getter of this property: [getHeightPercent()](../../com.aspose.cells/chart\#getHeightPercent--)
+For the description of this property, please see \#getHeightPercent().getHeightPercent()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -920,7 +932,7 @@ public void setHidePivotFieldButtons(boolean value)
 ```
 
 
-Please see the getter of this property: [getHidePivotFieldButtons()](../../com.aspose.cells/chart\#getHidePivotFieldButtons--)
+For the description of this property, please see \#getHidePivotFieldButtons().getHidePivotFieldButtons()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -933,7 +945,7 @@ public void setName(String value)
 ```
 
 
-Please see the getter of this property: [getName()](../../com.aspose.cells/chart\#getName--)
+For the description of this property, please see \#getName().getName()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -946,7 +958,7 @@ public void setPerspective(short value)
 ```
 
 
-Please see the getter of this property: [getPerspective()](../../com.aspose.cells/chart\#getPerspective--)
+For the description of this property, please see \#getPerspective().getPerspective()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -959,7 +971,7 @@ public void setPivotSource(String value)
 ```
 
 
-Please see the getter of this property: [getPivotSource()](../../com.aspose.cells/chart\#getPivotSource--)
+For the description of this property, please see \#getPivotSource().getPivotSource()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -972,7 +984,7 @@ public void setPlacement(int value)
 ```
 
 
-Please see the getter of this property: [getPlacement()](../../com.aspose.cells/chart\#getPlacement--)
+For the description of this property, please see \#getPlacement().getPlacement()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -985,7 +997,7 @@ public void setPlotEmptyCellsType(int value)
 ```
 
 
-Please see the getter of this property: [getPlotEmptyCellsType()](../../com.aspose.cells/chart\#getPlotEmptyCellsType--)
+For the description of this property, please see \#getPlotEmptyCellsType().getPlotEmptyCellsType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -998,7 +1010,20 @@ public void setPlotVisibleCells(boolean value)
 ```
 
 
-Please see the getter of this property: [getPlotVisibleCells()](../../com.aspose.cells/chart\#getPlotVisibleCells--)
+For the description of this property, please see \#getPlotVisibleCells().getPlotVisibleCells()
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setPlotVisibleCellsOnly(boolean value) {#setPlotVisibleCellsOnly-boolean-}
+```
+public void setPlotVisibleCellsOnly(boolean value)
+```
+
+
+For the description of this property, please see \#getPlotVisibleCellsOnly().getPlotVisibleCellsOnly()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1011,7 +1036,7 @@ public void setPrintSize(int value)
 ```
 
 
-Please see the getter of this property: [getPrintSize()](../../com.aspose.cells/chart\#getPrintSize--)
+For the description of this property, please see \#getPrintSize().getPrintSize()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1024,7 +1049,7 @@ public void setRectangularCornered(boolean value)
 ```
 
 
-Please see the getter of this property: [isRectangularCornered()](../../com.aspose.cells/chart\#isRectangularCornered--)
+For the description of this property, please see \#isRectangularCornered().isRectangularCornered()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1037,7 +1062,7 @@ public void setRightAngleAxes(boolean value)
 ```
 
 
-Please see the getter of this property: [getRightAngleAxes()](../../com.aspose.cells/chart\#getRightAngleAxes--)
+For the description of this property, please see \#getRightAngleAxes().getRightAngleAxes()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1050,7 +1075,7 @@ public void setRotationAngle(int value)
 ```
 
 
-Please see the getter of this property: [getRotationAngle()](../../com.aspose.cells/chart\#getRotationAngle--)
+For the description of this property, please see \#getRotationAngle().getRotationAngle()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1063,7 +1088,7 @@ public void setShowDataTable(boolean value)
 ```
 
 
-Please see the getter of this property: [getShowDataTable()](../../com.aspose.cells/chart\#getShowDataTable--)
+For the description of this property, please see \#getShowDataTable().getShowDataTable()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1076,7 +1101,7 @@ public void setShowLegend(boolean value)
 ```
 
 
-Please see the getter of this property: [getShowLegend()](../../com.aspose.cells/chart\#getShowLegend--)
+For the description of this property, please see \#getShowLegend().getShowLegend()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1089,7 +1114,7 @@ public void setSizeWithWindow(boolean value)
 ```
 
 
-Please see the getter of this property: [getSizeWithWindow()](../../com.aspose.cells/chart\#getSizeWithWindow--)
+For the description of this property, please see \#getSizeWithWindow().getSizeWithWindow()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1102,7 +1127,7 @@ public void setStyle(int value)
 ```
 
 
-Please see the getter of this property: [getStyle()](../../com.aspose.cells/chart\#getStyle--)
+For the description of this property, please see \#getStyle().getStyle()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1115,7 +1140,7 @@ public void setType(int value)
 ```
 
 
-Please see the getter of this property: [getType()](../../com.aspose.cells/chart\#getType--)
+For the description of this property, please see \#getType().getType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1128,7 +1153,7 @@ public void setWallsAndGridlines2D(boolean value)
 ```
 
 
-Please see the getter of this property: [getWallsAndGridlines2D()](../../com.aspose.cells/chart\#getWallsAndGridlines2D--)
+For the description of this property, please see \#getWallsAndGridlines2D().getWallsAndGridlines2D()
 
 **Parameters:**
 | Parameter | Type | Description |

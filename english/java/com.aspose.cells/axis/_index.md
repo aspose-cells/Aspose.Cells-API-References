@@ -107,37 +107,37 @@ Encapsulates the object that represents a chart's axis.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAutoCross()](#setAutoCross--) | Sets the axis crossing point as automatic. |
-| [setAutoTickLabelSpacing(boolean value)](#setAutoTickLabelSpacing-boolean-) | Please see the getter of this property: [isAutoTickLabelSpacing()](../../com.aspose.cells/axis\#isAutoTickLabelSpacing--) |
-| [setAutomaticMajorUnit(boolean value)](#setAutomaticMajorUnit-boolean-) | Please see the getter of this property: [isAutomaticMajorUnit()](../../com.aspose.cells/axis\#isAutomaticMajorUnit--) |
-| [setAutomaticMaxValue(boolean value)](#setAutomaticMaxValue-boolean-) | Please see the getter of this property: [isAutomaticMaxValue()](../../com.aspose.cells/axis\#isAutomaticMaxValue--) |
-| [setAutomaticMinValue(boolean value)](#setAutomaticMinValue-boolean-) | Please see the getter of this property: [isAutomaticMinValue()](../../com.aspose.cells/axis\#isAutomaticMinValue--) |
-| [setAutomaticMinorUnit(boolean value)](#setAutomaticMinorUnit-boolean-) | Please see the getter of this property: [isAutomaticMinorUnit()](../../com.aspose.cells/axis\#isAutomaticMinorUnit--) |
-| [setAxisBetweenCategories(boolean value)](#setAxisBetweenCategories-boolean-) | Please see the getter of this property: [getAxisBetweenCategories()](../../com.aspose.cells/axis\#getAxisBetweenCategories--) |
-| [setBaseUnitAuto(boolean value)](#setBaseUnitAuto-boolean-) | Please see the getter of this property: [isBaseUnitAuto()](../../com.aspose.cells/axis\#isBaseUnitAuto--) |
-| [setBaseUnitScale(int value)](#setBaseUnitScale-int-) | Please see the getter of this property: [getBaseUnitScale()](../../com.aspose.cells/axis\#getBaseUnitScale--) |
-| [setCategoryType(int value)](#setCategoryType-int-) | Please see the getter of this property: [getCategoryType()](../../com.aspose.cells/axis\#getCategoryType--) |
-| [setCrossAt(double value)](#setCrossAt-double-) | Please see the getter of this property: [getCrossAt()](../../com.aspose.cells/axis\#getCrossAt--) |
+| [setAutoTickLabelSpacing(boolean value)](#setAutoTickLabelSpacing-boolean-) | For the description of this property, please see \#isAutoTickLabelSpacing().isAutoTickLabelSpacing() |
+| [setAutomaticMajorUnit(boolean value)](#setAutomaticMajorUnit-boolean-) | For the description of this property, please see \#isAutomaticMajorUnit().isAutomaticMajorUnit() |
+| [setAutomaticMaxValue(boolean value)](#setAutomaticMaxValue-boolean-) | For the description of this property, please see \#isAutomaticMaxValue().isAutomaticMaxValue() |
+| [setAutomaticMinValue(boolean value)](#setAutomaticMinValue-boolean-) | For the description of this property, please see \#isAutomaticMinValue().isAutomaticMinValue() |
+| [setAutomaticMinorUnit(boolean value)](#setAutomaticMinorUnit-boolean-) | For the description of this property, please see \#isAutomaticMinorUnit().isAutomaticMinorUnit() |
+| [setAxisBetweenCategories(boolean value)](#setAxisBetweenCategories-boolean-) | For the description of this property, please see \#getAxisBetweenCategories().getAxisBetweenCategories() |
+| [setBaseUnitAuto(boolean value)](#setBaseUnitAuto-boolean-) | For the description of this property, please see \#isBaseUnitAuto().isBaseUnitAuto() |
+| [setBaseUnitScale(int value)](#setBaseUnitScale-int-) | For the description of this property, please see \#getBaseUnitScale().getBaseUnitScale() |
+| [setCategoryType(int value)](#setCategoryType-int-) | For the description of this property, please see \#getCategoryType().getCategoryType() |
+| [setCrossAt(double value)](#setCrossAt-double-) | For the description of this property, please see \#getCrossAt().getCrossAt() |
 | [setCrossAtMax(boolean isCrossAtMax)](#setCrossAtMax-boolean-) | Sets whether the axis crosses at the maximum value. |
-| [setCrossType(int value)](#setCrossType-int-) | Please see the getter of this property: [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) |
-| [setCustUnit(int value)](#setCustUnit-int-) | Please see the getter of this property: [getCustUnit()](../../com.aspose.cells/axis\#getCustUnit--) |
-| [setDisplayUnit(int value)](#setDisplayUnit-int-) | Please see the getter of this property: [getDisplayUnit()](../../com.aspose.cells/axis\#getDisplayUnit--) |
-| [setDisplayUnitLabelShown(boolean value)](#setDisplayUnitLabelShown-boolean-) | Please see the getter of this property: [isDisplayUnitLabelShown()](../../com.aspose.cells/axis\#isDisplayUnitLabelShown--) |
-| [setHasMultiLevelLabels(boolean value)](#setHasMultiLevelLabels-boolean-) | Please see the getter of this property: [hasMultiLevelLabels()](../../com.aspose.cells/axis\#hasMultiLevelLabels--) |
-| [setLogBase(double value)](#setLogBase-double-) | Please see the getter of this property: [getLogBase()](../../com.aspose.cells/axis\#getLogBase--) |
-| [setLogarithmic(boolean value)](#setLogarithmic-boolean-) | Please see the getter of this property: [isLogarithmic()](../../com.aspose.cells/axis\#isLogarithmic--) |
-| [setMajorTickMark(int value)](#setMajorTickMark-int-) | Please see the getter of this property: [getMajorTickMark()](../../com.aspose.cells/axis\#getMajorTickMark--) |
-| [setMajorUnit(double value)](#setMajorUnit-double-) | Please see the getter of this property: [getMajorUnit()](../../com.aspose.cells/axis\#getMajorUnit--) |
-| [setMajorUnitScale(int value)](#setMajorUnitScale-int-) | Please see the getter of this property: [getMajorUnitScale()](../../com.aspose.cells/axis\#getMajorUnitScale--) |
-| [setMaxValue(Object value)](#setMaxValue-java.lang.Object-) | Please see the getter of this property: [getMaxValue()](../../com.aspose.cells/axis\#getMaxValue--) |
-| [setMinValue(Object value)](#setMinValue-java.lang.Object-) | Please see the getter of this property: [getMinValue()](../../com.aspose.cells/axis\#getMinValue--) |
-| [setMinorTickMark(int value)](#setMinorTickMark-int-) | Please see the getter of this property: [getMinorTickMark()](../../com.aspose.cells/axis\#getMinorTickMark--) |
-| [setMinorUnit(double value)](#setMinorUnit-double-) | Please see the getter of this property: [getMinorUnit()](../../com.aspose.cells/axis\#getMinorUnit--) |
-| [setMinorUnitScale(int value)](#setMinorUnitScale-int-) | Please see the getter of this property: [getMinorUnitScale()](../../com.aspose.cells/axis\#getMinorUnitScale--) |
-| [setPlotOrderReversed(boolean value)](#setPlotOrderReversed-boolean-) | Please see the getter of this property: [isPlotOrderReversed()](../../com.aspose.cells/axis\#isPlotOrderReversed--) |
-| [setTickLabelPosition(int value)](#setTickLabelPosition-int-) | Please see the getter of this property: [getTickLabelPosition()](../../com.aspose.cells/axis\#getTickLabelPosition--) |
-| [setTickLabelSpacing(int value)](#setTickLabelSpacing-int-) | Please see the getter of this property: [getTickLabelSpacing()](../../com.aspose.cells/axis\#getTickLabelSpacing--) |
-| [setTickMarkSpacing(int value)](#setTickMarkSpacing-int-) | Please see the getter of this property: [getTickMarkSpacing()](../../com.aspose.cells/axis\#getTickMarkSpacing--) |
-| [setVisible(boolean value)](#setVisible-boolean-) | Please see the getter of this property: [isVisible()](../../com.aspose.cells/axis\#isVisible--) |
+| [setCrossType(int value)](#setCrossType-int-) | For the description of this property, please see \#getCrossType().getCrossType() |
+| [setCustUnit(int value)](#setCustUnit-int-) | For the description of this property, please see \#getCustUnit().getCustUnit() |
+| [setDisplayUnit(int value)](#setDisplayUnit-int-) | For the description of this property, please see \#getDisplayUnit().getDisplayUnit() |
+| [setDisplayUnitLabelShown(boolean value)](#setDisplayUnitLabelShown-boolean-) | For the description of this property, please see \#isDisplayUnitLabelShown().isDisplayUnitLabelShown() |
+| [setHasMultiLevelLabels(boolean value)](#setHasMultiLevelLabels-boolean-) | For the description of this property, please see \#hasMultiLevelLabels().hasMultiLevelLabels() |
+| [setLogBase(double value)](#setLogBase-double-) | For the description of this property, please see \#getLogBase().getLogBase() |
+| [setLogarithmic(boolean value)](#setLogarithmic-boolean-) | For the description of this property, please see \#isLogarithmic().isLogarithmic() |
+| [setMajorTickMark(int value)](#setMajorTickMark-int-) | For the description of this property, please see \#getMajorTickMark().getMajorTickMark() |
+| [setMajorUnit(double value)](#setMajorUnit-double-) | For the description of this property, please see \#getMajorUnit().getMajorUnit() |
+| [setMajorUnitScale(int value)](#setMajorUnitScale-int-) | For the description of this property, please see \#getMajorUnitScale().getMajorUnitScale() |
+| [setMaxValue(Object value)](#setMaxValue-java.lang.Object-) | For the description of this property, please see \#getMaxValue().getMaxValue() |
+| [setMinValue(Object value)](#setMinValue-java.lang.Object-) | For the description of this property, please see \#getMinValue().getMinValue() |
+| [setMinorTickMark(int value)](#setMinorTickMark-int-) | For the description of this property, please see \#getMinorTickMark().getMinorTickMark() |
+| [setMinorUnit(double value)](#setMinorUnit-double-) | For the description of this property, please see \#getMinorUnit().getMinorUnit() |
+| [setMinorUnitScale(int value)](#setMinorUnitScale-int-) | For the description of this property, please see \#getMinorUnitScale().getMinorUnitScale() |
+| [setPlotOrderReversed(boolean value)](#setPlotOrderReversed-boolean-) | For the description of this property, please see \#isPlotOrderReversed().isPlotOrderReversed() |
+| [setTickLabelPosition(int value)](#setTickLabelPosition-int-) | For the description of this property, please see \#getTickLabelPosition().getTickLabelPosition() |
+| [setTickLabelSpacing(int value)](#setTickLabelSpacing-int-) | For the description of this property, please see \#getTickLabelSpacing().getTickLabelSpacing() |
+| [setTickMarkSpacing(int value)](#setTickMarkSpacing-int-) | For the description of this property, please see \#getTickMarkSpacing().getTickMarkSpacing() |
+| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see \#isVisible().isVisible() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -634,7 +634,7 @@ public void setAutoTickLabelSpacing(boolean value)
 ```
 
 
-Please see the getter of this property: [isAutoTickLabelSpacing()](../../com.aspose.cells/axis\#isAutoTickLabelSpacing--)
+For the description of this property, please see \#isAutoTickLabelSpacing().isAutoTickLabelSpacing()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -647,7 +647,7 @@ public void setAutomaticMajorUnit(boolean value)
 ```
 
 
-Please see the getter of this property: [isAutomaticMajorUnit()](../../com.aspose.cells/axis\#isAutomaticMajorUnit--)
+For the description of this property, please see \#isAutomaticMajorUnit().isAutomaticMajorUnit()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -660,7 +660,7 @@ public void setAutomaticMaxValue(boolean value)
 ```
 
 
-Please see the getter of this property: [isAutomaticMaxValue()](../../com.aspose.cells/axis\#isAutomaticMaxValue--)
+For the description of this property, please see \#isAutomaticMaxValue().isAutomaticMaxValue()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -673,7 +673,7 @@ public void setAutomaticMinValue(boolean value)
 ```
 
 
-Please see the getter of this property: [isAutomaticMinValue()](../../com.aspose.cells/axis\#isAutomaticMinValue--)
+For the description of this property, please see \#isAutomaticMinValue().isAutomaticMinValue()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -686,7 +686,7 @@ public void setAutomaticMinorUnit(boolean value)
 ```
 
 
-Please see the getter of this property: [isAutomaticMinorUnit()](../../com.aspose.cells/axis\#isAutomaticMinorUnit--)
+For the description of this property, please see \#isAutomaticMinorUnit().isAutomaticMinorUnit()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -699,7 +699,7 @@ public void setAxisBetweenCategories(boolean value)
 ```
 
 
-Please see the getter of this property: [getAxisBetweenCategories()](../../com.aspose.cells/axis\#getAxisBetweenCategories--)
+For the description of this property, please see \#getAxisBetweenCategories().getAxisBetweenCategories()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -712,7 +712,7 @@ public void setBaseUnitAuto(boolean value)
 ```
 
 
-Please see the getter of this property: [isBaseUnitAuto()](../../com.aspose.cells/axis\#isBaseUnitAuto--)
+For the description of this property, please see \#isBaseUnitAuto().isBaseUnitAuto()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -725,7 +725,7 @@ public void setBaseUnitScale(int value)
 ```
 
 
-Please see the getter of this property: [getBaseUnitScale()](../../com.aspose.cells/axis\#getBaseUnitScale--)
+For the description of this property, please see \#getBaseUnitScale().getBaseUnitScale()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -738,7 +738,7 @@ public void setCategoryType(int value)
 ```
 
 
-Please see the getter of this property: [getCategoryType()](../../com.aspose.cells/axis\#getCategoryType--)
+For the description of this property, please see \#getCategoryType().getCategoryType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -751,7 +751,7 @@ public void setCrossAt(double value)
 ```
 
 
-Please see the getter of this property: [getCrossAt()](../../com.aspose.cells/axis\#getCrossAt--)
+For the description of this property, please see \#getCrossAt().getCrossAt()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -777,7 +777,7 @@ public void setCrossType(int value)
 ```
 
 
-Please see the getter of this property: [getCrossType()](../../com.aspose.cells/axis\#getCrossType--)
+For the description of this property, please see \#getCrossType().getCrossType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -790,7 +790,7 @@ public void setCustUnit(int value)
 ```
 
 
-Please see the getter of this property: [getCustUnit()](../../com.aspose.cells/axis\#getCustUnit--)
+For the description of this property, please see \#getCustUnit().getCustUnit()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -803,7 +803,7 @@ public void setDisplayUnit(int value)
 ```
 
 
-Please see the getter of this property: [getDisplayUnit()](../../com.aspose.cells/axis\#getDisplayUnit--)
+For the description of this property, please see \#getDisplayUnit().getDisplayUnit()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -816,7 +816,7 @@ public void setDisplayUnitLabelShown(boolean value)
 ```
 
 
-Please see the getter of this property: [isDisplayUnitLabelShown()](../../com.aspose.cells/axis\#isDisplayUnitLabelShown--)
+For the description of this property, please see \#isDisplayUnitLabelShown().isDisplayUnitLabelShown()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -829,7 +829,7 @@ public void setHasMultiLevelLabels(boolean value)
 ```
 
 
-Please see the getter of this property: [hasMultiLevelLabels()](../../com.aspose.cells/axis\#hasMultiLevelLabels--)
+For the description of this property, please see \#hasMultiLevelLabels().hasMultiLevelLabels()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -842,7 +842,7 @@ public void setLogBase(double value)
 ```
 
 
-Please see the getter of this property: [getLogBase()](../../com.aspose.cells/axis\#getLogBase--)
+For the description of this property, please see \#getLogBase().getLogBase()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -855,7 +855,7 @@ public void setLogarithmic(boolean value)
 ```
 
 
-Please see the getter of this property: [isLogarithmic()](../../com.aspose.cells/axis\#isLogarithmic--)
+For the description of this property, please see \#isLogarithmic().isLogarithmic()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -868,7 +868,7 @@ public void setMajorTickMark(int value)
 ```
 
 
-Please see the getter of this property: [getMajorTickMark()](../../com.aspose.cells/axis\#getMajorTickMark--)
+For the description of this property, please see \#getMajorTickMark().getMajorTickMark()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -881,7 +881,7 @@ public void setMajorUnit(double value)
 ```
 
 
-Please see the getter of this property: [getMajorUnit()](../../com.aspose.cells/axis\#getMajorUnit--)
+For the description of this property, please see \#getMajorUnit().getMajorUnit()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -894,7 +894,7 @@ public void setMajorUnitScale(int value)
 ```
 
 
-Please see the getter of this property: [getMajorUnitScale()](../../com.aspose.cells/axis\#getMajorUnitScale--)
+For the description of this property, please see \#getMajorUnitScale().getMajorUnitScale()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -907,7 +907,7 @@ public void setMaxValue(Object value)
 ```
 
 
-Please see the getter of this property: [getMaxValue()](../../com.aspose.cells/axis\#getMaxValue--)
+For the description of this property, please see \#getMaxValue().getMaxValue()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -920,7 +920,7 @@ public void setMinValue(Object value)
 ```
 
 
-Please see the getter of this property: [getMinValue()](../../com.aspose.cells/axis\#getMinValue--)
+For the description of this property, please see \#getMinValue().getMinValue()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -933,7 +933,7 @@ public void setMinorTickMark(int value)
 ```
 
 
-Please see the getter of this property: [getMinorTickMark()](../../com.aspose.cells/axis\#getMinorTickMark--)
+For the description of this property, please see \#getMinorTickMark().getMinorTickMark()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -946,7 +946,7 @@ public void setMinorUnit(double value)
 ```
 
 
-Please see the getter of this property: [getMinorUnit()](../../com.aspose.cells/axis\#getMinorUnit--)
+For the description of this property, please see \#getMinorUnit().getMinorUnit()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -959,7 +959,7 @@ public void setMinorUnitScale(int value)
 ```
 
 
-Please see the getter of this property: [getMinorUnitScale()](../../com.aspose.cells/axis\#getMinorUnitScale--)
+For the description of this property, please see \#getMinorUnitScale().getMinorUnitScale()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -972,7 +972,7 @@ public void setPlotOrderReversed(boolean value)
 ```
 
 
-Please see the getter of this property: [isPlotOrderReversed()](../../com.aspose.cells/axis\#isPlotOrderReversed--)
+For the description of this property, please see \#isPlotOrderReversed().isPlotOrderReversed()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -985,7 +985,7 @@ public void setTickLabelPosition(int value)
 ```
 
 
-Please see the getter of this property: [getTickLabelPosition()](../../com.aspose.cells/axis\#getTickLabelPosition--)
+For the description of this property, please see \#getTickLabelPosition().getTickLabelPosition()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -998,7 +998,7 @@ public void setTickLabelSpacing(int value)
 ```
 
 
-Please see the getter of this property: [getTickLabelSpacing()](../../com.aspose.cells/axis\#getTickLabelSpacing--)
+For the description of this property, please see \#getTickLabelSpacing().getTickLabelSpacing()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1011,7 +1011,7 @@ public void setTickMarkSpacing(int value)
 ```
 
 
-Please see the getter of this property: [getTickMarkSpacing()](../../com.aspose.cells/axis\#getTickMarkSpacing--)
+For the description of this property, please see \#getTickMarkSpacing().getTickMarkSpacing()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1024,7 +1024,7 @@ public void setVisible(boolean value)
 ```
 
 
-Please see the getter of this property: [isVisible()](../../com.aspose.cells/axis\#isVisible--)
+For the description of this property, please see \#isVisible().isVisible()
 
 **Parameters:**
 | Parameter | Type | Description |

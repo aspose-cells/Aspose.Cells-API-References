@@ -30,12 +30,12 @@ Represents the page background of ods.
 | [isLink()](#isLink--) | Indicates whether it's a linked graphic. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | Please see the getter of this property: @CREF254\_ |
-| [setGraphicData(byte[] value)](#setGraphicData-byte---) | Please see the getter of this property: @CREF258\_ |
-| [setGraphicPositionType(int value)](#setGraphicPositionType-int-) | Please see the getter of this property: @CREF256\_ |
-| [setGraphicType(int value)](#setGraphicType-int-) | Please see the getter of this property: @CREF255\_ |
-| [setLinkedGraphic(String value)](#setLinkedGraphic-java.lang.String-) | Please see the getter of this property: @CREF257\_ |
-| [setType(int value)](#setType-int-) | Please see the getter of this property: @CREF253\_ |
+| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | For the description of this property, please see \#getColor().getColor() |
+| [setGraphicData(byte[] value)](#setGraphicData-byte---) | For the description of this property, please see \#getGraphicData().getGraphicData() |
+| [setGraphicPositionType(int value)](#setGraphicPositionType-int-) | For the description of this property, please see \#getGraphicPositionType().getGraphicPositionType() |
+| [setGraphicType(int value)](#setGraphicType-int-) | For the description of this property, please see \#getGraphicType().getGraphicType() |
+| [setLinkedGraphic(String value)](#setLinkedGraphic-java.lang.String-) | For the description of this property, please see \#getLinkedGraphic().getLinkedGraphic() |
+| [setType(int value)](#setType-int-) | For the description of this property, please see \#getType().getType() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -167,7 +167,7 @@ public void setColor(Color value)
 ```
 
 
-Please see the getter of this property: @CREF254\_
+For the description of this property, please see \#getColor().getColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -180,7 +180,7 @@ public void setGraphicData(byte[] value)
 ```
 
 
-Please see the getter of this property: @CREF258\_
+For the description of this property, please see \#getGraphicData().getGraphicData()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,7 +193,7 @@ public void setGraphicPositionType(int value)
 ```
 
 
-Please see the getter of this property: @CREF256\_
+For the description of this property, please see \#getGraphicPositionType().getGraphicPositionType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -206,7 +206,7 @@ public void setGraphicType(int value)
 ```
 
 
-Please see the getter of this property: @CREF255\_
+For the description of this property, please see \#getGraphicType().getGraphicType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -219,7 +219,7 @@ public void setLinkedGraphic(String value)
 ```
 
 
-Please see the getter of this property: @CREF257\_
+For the description of this property, please see \#getLinkedGraphic().getLinkedGraphic()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -232,7 +232,7 @@ public void setType(int value)
 ```
 
 
-Please see the getter of this property: @CREF253\_
+For the description of this property, please see \#getType().getType()
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -43,7 +43,7 @@ Represents a custom or built-in document property.
 | [isLinkedToContent()](#isLinkedToContent--) | Indicates whether this property is linked to content |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setValue(Object value)](#setValue-java.lang.Object-) | Please see the getter of this property: [getValue()](../../com.aspose.cells/documentproperty\#getValue--) |
+| [setValue(Object value)](#setValue-java.lang.Object-) | For the description of this property, please see \#getValue().getValue() |
 | [toBool()](#toBool--) | Returns the property value as bool. |
 | [toDateTime()](#toDateTime--) | Returns the property value as DateTime in local timezone. |
 | [toDouble()](#toDouble--) | Returns the property value as double. |
@@ -169,7 +169,7 @@ public void setValue(Object value)
 ```
 
 
-Please see the getter of this property: [getValue()](../../com.aspose.cells/documentproperty\#getValue--)
+For the description of this property, please see \#getValue().getValue()
 
 **Parameters:**
 | Parameter | Type | Description |

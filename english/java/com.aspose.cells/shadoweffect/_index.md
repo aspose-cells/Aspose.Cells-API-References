@@ -30,13 +30,13 @@ This class specifies the shadow effect of the chart element or shape.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAngle(double value)](#setAngle-double-) | Please see the getter of this property: @CREF1283\_ |
-| [setBlur(double value)](#setBlur-double-) | Please see the getter of this property: @CREF1282\_ |
-| [setColor(CellsColor value)](#setColor-com.aspose.cells.CellsColor-) | Please see the getter of this property: @CREF1279\_ |
-| [setDistance(double value)](#setDistance-double-) | Please see the getter of this property: @CREF1284\_ |
-| [setPresetType(int value)](#setPresetType-int-) | Please see the getter of this property: @CREF1278\_ |
-| [setSize(double value)](#setSize-double-) | Please see the getter of this property: @CREF1281\_ |
-| [setTransparency(double value)](#setTransparency-double-) | Please see the getter of this property: @CREF1280\_ |
+| [setAngle(double value)](#setAngle-double-) | For the description of this property, please see \#getAngle().getAngle() |
+| [setBlur(double value)](#setBlur-double-) | For the description of this property, please see \#getBlur().getBlur() |
+| [setColor(CellsColor value)](#setColor-com.aspose.cells.CellsColor-) | For the description of this property, please see \#getColor().getColor() |
+| [setDistance(double value)](#setDistance-double-) | For the description of this property, please see \#getDistance().getDistance() |
+| [setPresetType(int value)](#setPresetType-int-) | For the description of this property, please see \#getPresetType().getPresetType() |
+| [setSize(double value)](#setSize-double-) | For the description of this property, please see \#getSize().getSize() |
+| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see \#getTransparency().getTransparency() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -168,7 +168,7 @@ public void setAngle(double value)
 ```
 
 
-Please see the getter of this property: @CREF1283\_
+For the description of this property, please see \#getAngle().getAngle()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,7 +181,7 @@ public void setBlur(double value)
 ```
 
 
-Please see the getter of this property: @CREF1282\_
+For the description of this property, please see \#getBlur().getBlur()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -194,7 +194,7 @@ public void setColor(CellsColor value)
 ```
 
 
-Please see the getter of this property: @CREF1279\_
+For the description of this property, please see \#getColor().getColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -207,7 +207,7 @@ public void setDistance(double value)
 ```
 
 
-Please see the getter of this property: @CREF1284\_
+For the description of this property, please see \#getDistance().getDistance()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -220,7 +220,7 @@ public void setPresetType(int value)
 ```
 
 
-Please see the getter of this property: @CREF1278\_
+For the description of this property, please see \#getPresetType().getPresetType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -233,7 +233,7 @@ public void setSize(double value)
 ```
 
 
-Please see the getter of this property: @CREF1281\_
+For the description of this property, please see \#getSize().getSize()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ public void setTransparency(double value)
 ```
 
 
-Please see the getter of this property: @CREF1280\_
+For the description of this property, please see \#getTransparency().getTransparency()
 
 **Parameters:**
 | Parameter | Type | Description |

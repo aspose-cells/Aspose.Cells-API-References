@@ -27,10 +27,10 @@ Indicates the options that exporting range to json.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setExportAsString(boolean value)](#setExportAsString-boolean-) | Please see the getter of this property: @CREF294\_ |
-| [setExportEmptyCells(boolean value)](#setExportEmptyCells-boolean-) | Please see the getter of this property: @CREF295\_ |
-| [setHasHeaderRow(boolean value)](#setHasHeaderRow-boolean-) | Please see the getter of this property: @CREF293\_ |
-| [setIndent(String value)](#setIndent-java.lang.String-) | Please see the getter of this property: @CREF296\_ |
+| [setExportAsString(boolean value)](#setExportAsString-boolean-) | For the description of this property, please see \#getExportAsString().getExportAsString() |
+| [setExportEmptyCells(boolean value)](#setExportEmptyCells-boolean-) | For the description of this property, please see \#getExportEmptyCells().getExportEmptyCells() |
+| [setHasHeaderRow(boolean value)](#setHasHeaderRow-boolean-) | For the description of this property, please see \#hasHeaderRow().hasHeaderRow() |
+| [setIndent(String value)](#setIndent-java.lang.String-) | For the description of this property, please see \#getIndent().getIndent() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -132,7 +132,7 @@ public void setExportAsString(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF294\_
+For the description of this property, please see \#getExportAsString().getExportAsString()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setExportEmptyCells(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF295\_
+For the description of this property, please see \#getExportEmptyCells().getExportEmptyCells()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public void setHasHeaderRow(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF293\_
+For the description of this property, please see \#hasHeaderRow().hasHeaderRow()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,7 +171,7 @@ public void setIndent(String value)
 ```
 
 
-Please see the getter of this property: @CREF296\_
+For the description of this property, please see \#getIndent().getIndent()
 
 **Parameters:**
 | Parameter | Type | Description |

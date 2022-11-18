@@ -25,8 +25,8 @@ Represents the options of inserting.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCopyFormatType(int value)](#setCopyFormatType-int-) | Please see the getter of this property: @CREF981\_ |
-| [setUpdateReference(boolean value)](#setUpdateReference-boolean-) | Please see the getter of this property: @CREF982\_ |
+| [setCopyFormatType(int value)](#setCopyFormatType-int-) | For the description of this property, please see \#getCopyFormatType().getCopyFormatType() |
+| [setUpdateReference(boolean value)](#setUpdateReference-boolean-) | For the description of this property, please see \#getUpdateReference().getUpdateReference() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -108,7 +108,7 @@ public void setCopyFormatType(int value)
 ```
 
 
-Please see the getter of this property: @CREF981\_
+For the description of this property, please see \#getCopyFormatType().getCopyFormatType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -121,7 +121,7 @@ public void setUpdateReference(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF982\_
+For the description of this property, please see \#getUpdateReference().getUpdateReference()
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -138,33 +138,33 @@ Workbook workbook = new Workbook();
 | [removeSplit()](#removeSplit--) | Removes split window. |
 | [replace(String oldString, String newString)](#replace-java.lang.String-java.lang.String-) | Replaces all cells' text with a new string. |
 | [selectRange(int startRow, int startColumn, int totalRows, int totalColumns, boolean removeOthers)](#selectRange-int-int-int-int-boolean-) | Selects a range. |
-| [setActiveCell(String value)](#setActiveCell-java.lang.String-) | Please see the getter of this property: [getActiveCell()](../../com.aspose.cells/worksheet\#getActiveCell--) |
+| [setActiveCell(String value)](#setActiveCell-java.lang.String-) | For the description of this property, please see \#getActiveCell().getActiveCell() |
 | [setBackground(byte[] pictureData)](#setBackground-byte---) | Sets worksheet background image. |
-| [setBackgroundImage(byte[] value)](#setBackgroundImage-byte---) | Please see the getter of this property: [getBackgroundImage()](../../com.aspose.cells/worksheet\#getBackgroundImage--) |
-| [setCodeName(String value)](#setCodeName-java.lang.String-) | Please see the getter of this property: [getCodeName()](../../com.aspose.cells/worksheet\#getCodeName--) |
-| [setDisplayRightToLeft(boolean value)](#setDisplayRightToLeft-boolean-) | Please see the getter of this property: [getDisplayRightToLeft()](../../com.aspose.cells/worksheet\#getDisplayRightToLeft--) |
-| [setDisplayZeros(boolean value)](#setDisplayZeros-boolean-) | Please see the getter of this property: [getDisplayZeros()](../../com.aspose.cells/worksheet\#getDisplayZeros--) |
-| [setFirstVisibleColumn(int value)](#setFirstVisibleColumn-int-) | Please see the getter of this property: [getFirstVisibleColumn()](../../com.aspose.cells/worksheet\#getFirstVisibleColumn--) |
-| [setFirstVisibleRow(int value)](#setFirstVisibleRow-int-) | Please see the getter of this property: [getFirstVisibleRow()](../../com.aspose.cells/worksheet\#getFirstVisibleRow--) |
-| [setGridlinesVisible(boolean value)](#setGridlinesVisible-boolean-) | Please see the getter of this property: [isGridlinesVisible()](../../com.aspose.cells/worksheet\#isGridlinesVisible--) |
-| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: [getName()](../../com.aspose.cells/worksheet\#getName--) |
-| [setOutlineShown(boolean value)](#setOutlineShown-boolean-) | Please see the getter of this property: [isOutlineShown()](../../com.aspose.cells/worksheet\#isOutlineShown--) |
-| [setPageBreakPreview(boolean value)](#setPageBreakPreview-boolean-) | Please see the getter of this property: [isPageBreakPreview()](../../com.aspose.cells/worksheet\#isPageBreakPreview--) |
-| [setRowColumnHeadersVisible(boolean value)](#setRowColumnHeadersVisible-boolean-) | Please see the getter of this property: [isRowColumnHeadersVisible()](../../com.aspose.cells/worksheet\#isRowColumnHeadersVisible--) |
-| [setRulerVisible(boolean value)](#setRulerVisible-boolean-) | Please see the getter of this property: [isRulerVisible()](../../com.aspose.cells/worksheet\#isRulerVisible--) |
-| [setSelected(boolean value)](#setSelected-boolean-) | Please see the getter of this property: [isSelected()](../../com.aspose.cells/worksheet\#isSelected--) |
-| [setShowFormulas(boolean value)](#setShowFormulas-boolean-) | Please see the getter of this property: [getShowFormulas()](../../com.aspose.cells/worksheet\#getShowFormulas--) |
-| [setTabColor(Color value)](#setTabColor-com.aspose.cells.Color-) | Please see the getter of this property: [getTabColor()](../../com.aspose.cells/worksheet\#getTabColor--) |
-| [setTabId(int value)](#setTabId-int-) | Please see the getter of this property: [getTabId()](../../com.aspose.cells/worksheet\#getTabId--) |
-| [setTransitionEntry(boolean value)](#setTransitionEntry-boolean-) | Please see the getter of this property: [getTransitionEntry()](../../com.aspose.cells/worksheet\#getTransitionEntry--) |
-| [setTransitionEvaluation(boolean value)](#setTransitionEvaluation-boolean-) | Please see the getter of this property: [getTransitionEvaluation()](../../com.aspose.cells/worksheet\#getTransitionEvaluation--) |
-| [setType(int value)](#setType-int-) | Please see the getter of this property: [getType()](../../com.aspose.cells/worksheet\#getType--) |
-| [setUniqueId(String value)](#setUniqueId-java.lang.String-) | Please see the getter of this property: [getUniqueId()](../../com.aspose.cells/worksheet\#getUniqueId--) |
-| [setViewType(int value)](#setViewType-int-) | Please see the getter of this property: [getViewType()](../../com.aspose.cells/worksheet\#getViewType--) |
-| [setVisibilityType(int value)](#setVisibilityType-int-) | Please see the getter of this property: [getVisibilityType()](../../com.aspose.cells/worksheet\#getVisibilityType--) |
-| [setVisible(boolean value)](#setVisible-boolean-) | Please see the getter of this property: [isVisible()](../../com.aspose.cells/worksheet\#isVisible--) |
+| [setBackgroundImage(byte[] value)](#setBackgroundImage-byte---) | For the description of this property, please see \#getBackgroundImage().getBackgroundImage() |
+| [setCodeName(String value)](#setCodeName-java.lang.String-) | For the description of this property, please see \#getCodeName().getCodeName() |
+| [setDisplayRightToLeft(boolean value)](#setDisplayRightToLeft-boolean-) | For the description of this property, please see \#getDisplayRightToLeft().getDisplayRightToLeft() |
+| [setDisplayZeros(boolean value)](#setDisplayZeros-boolean-) | For the description of this property, please see \#getDisplayZeros().getDisplayZeros() |
+| [setFirstVisibleColumn(int value)](#setFirstVisibleColumn-int-) | For the description of this property, please see \#getFirstVisibleColumn().getFirstVisibleColumn() |
+| [setFirstVisibleRow(int value)](#setFirstVisibleRow-int-) | For the description of this property, please see \#getFirstVisibleRow().getFirstVisibleRow() |
+| [setGridlinesVisible(boolean value)](#setGridlinesVisible-boolean-) | For the description of this property, please see \#isGridlinesVisible().isGridlinesVisible() |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
+| [setOutlineShown(boolean value)](#setOutlineShown-boolean-) | For the description of this property, please see \#isOutlineShown().isOutlineShown() |
+| [setPageBreakPreview(boolean value)](#setPageBreakPreview-boolean-) | For the description of this property, please see \#isPageBreakPreview().isPageBreakPreview() |
+| [setRowColumnHeadersVisible(boolean value)](#setRowColumnHeadersVisible-boolean-) | For the description of this property, please see \#isRowColumnHeadersVisible().isRowColumnHeadersVisible() |
+| [setRulerVisible(boolean value)](#setRulerVisible-boolean-) | For the description of this property, please see \#isRulerVisible().isRulerVisible() |
+| [setSelected(boolean value)](#setSelected-boolean-) | For the description of this property, please see \#isSelected().isSelected() |
+| [setShowFormulas(boolean value)](#setShowFormulas-boolean-) | For the description of this property, please see \#getShowFormulas().getShowFormulas() |
+| [setTabColor(Color value)](#setTabColor-com.aspose.cells.Color-) | For the description of this property, please see \#getTabColor().getTabColor() |
+| [setTabId(int value)](#setTabId-int-) | For the description of this property, please see \#getTabId().getTabId() |
+| [setTransitionEntry(boolean value)](#setTransitionEntry-boolean-) | For the description of this property, please see \#getTransitionEntry().getTransitionEntry() |
+| [setTransitionEvaluation(boolean value)](#setTransitionEvaluation-boolean-) | For the description of this property, please see \#getTransitionEvaluation().getTransitionEvaluation() |
+| [setType(int value)](#setType-int-) | For the description of this property, please see \#getType().getType() |
+| [setUniqueId(String value)](#setUniqueId-java.lang.String-) | For the description of this property, please see \#getUniqueId().getUniqueId() |
+| [setViewType(int value)](#setViewType-int-) | For the description of this property, please see \#getViewType().getViewType() |
+| [setVisibilityType(int value)](#setVisibilityType-int-) | For the description of this property, please see \#getVisibilityType().getVisibilityType() |
+| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see \#isVisible().isVisible() |
 | [setVisible(boolean isVisible, boolean ignoreError)](#setVisible-boolean-boolean-) | Sets the visible options. |
-| [setZoom(int value)](#setZoom-int-) | Please see the getter of this property: [getZoom()](../../com.aspose.cells/worksheet\#getZoom--) |
+| [setZoom(int value)](#setZoom-int-) | For the description of this property, please see \#getZoom().getZoom() |
 | [split()](#split--) | Splits window. |
 | [startAccessCache(int opts)](#startAccessCache-int-) | Starts the session that uses caches to access the data in this worksheet. |
 | [toString()](#toString--) | Returns a string represents the current Worksheet object. |
@@ -1410,7 +1410,7 @@ public void setActiveCell(String value)
 ```
 
 
-Please see the getter of this property: [getActiveCell()](../../com.aspose.cells/worksheet\#getActiveCell--)
+For the description of this property, please see \#getActiveCell().getActiveCell()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1436,7 +1436,7 @@ public void setBackgroundImage(byte[] value)
 ```
 
 
-Please see the getter of this property: [getBackgroundImage()](../../com.aspose.cells/worksheet\#getBackgroundImage--)
+For the description of this property, please see \#getBackgroundImage().getBackgroundImage()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1449,7 +1449,7 @@ public void setCodeName(String value)
 ```
 
 
-Please see the getter of this property: [getCodeName()](../../com.aspose.cells/worksheet\#getCodeName--)
+For the description of this property, please see \#getCodeName().getCodeName()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1462,7 +1462,7 @@ public void setDisplayRightToLeft(boolean value)
 ```
 
 
-Please see the getter of this property: [getDisplayRightToLeft()](../../com.aspose.cells/worksheet\#getDisplayRightToLeft--)
+For the description of this property, please see \#getDisplayRightToLeft().getDisplayRightToLeft()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1475,7 +1475,7 @@ public void setDisplayZeros(boolean value)
 ```
 
 
-Please see the getter of this property: [getDisplayZeros()](../../com.aspose.cells/worksheet\#getDisplayZeros--)
+For the description of this property, please see \#getDisplayZeros().getDisplayZeros()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1488,7 +1488,7 @@ public void setFirstVisibleColumn(int value)
 ```
 
 
-Please see the getter of this property: [getFirstVisibleColumn()](../../com.aspose.cells/worksheet\#getFirstVisibleColumn--)
+For the description of this property, please see \#getFirstVisibleColumn().getFirstVisibleColumn()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1501,7 +1501,7 @@ public void setFirstVisibleRow(int value)
 ```
 
 
-Please see the getter of this property: [getFirstVisibleRow()](../../com.aspose.cells/worksheet\#getFirstVisibleRow--)
+For the description of this property, please see \#getFirstVisibleRow().getFirstVisibleRow()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1514,7 +1514,7 @@ public void setGridlinesVisible(boolean value)
 ```
 
 
-Please see the getter of this property: [isGridlinesVisible()](../../com.aspose.cells/worksheet\#isGridlinesVisible--)
+For the description of this property, please see \#isGridlinesVisible().isGridlinesVisible()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1527,7 +1527,7 @@ public void setName(String value)
 ```
 
 
-Please see the getter of this property: [getName()](../../com.aspose.cells/worksheet\#getName--)
+For the description of this property, please see \#getName().getName()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1540,7 +1540,7 @@ public void setOutlineShown(boolean value)
 ```
 
 
-Please see the getter of this property: [isOutlineShown()](../../com.aspose.cells/worksheet\#isOutlineShown--)
+For the description of this property, please see \#isOutlineShown().isOutlineShown()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1553,7 +1553,7 @@ public void setPageBreakPreview(boolean value)
 ```
 
 
-Please see the getter of this property: [isPageBreakPreview()](../../com.aspose.cells/worksheet\#isPageBreakPreview--)
+For the description of this property, please see \#isPageBreakPreview().isPageBreakPreview()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1566,7 +1566,7 @@ public void setRowColumnHeadersVisible(boolean value)
 ```
 
 
-Please see the getter of this property: [isRowColumnHeadersVisible()](../../com.aspose.cells/worksheet\#isRowColumnHeadersVisible--)
+For the description of this property, please see \#isRowColumnHeadersVisible().isRowColumnHeadersVisible()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1579,7 +1579,7 @@ public void setRulerVisible(boolean value)
 ```
 
 
-Please see the getter of this property: [isRulerVisible()](../../com.aspose.cells/worksheet\#isRulerVisible--)
+For the description of this property, please see \#isRulerVisible().isRulerVisible()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1592,7 +1592,7 @@ public void setSelected(boolean value)
 ```
 
 
-Please see the getter of this property: [isSelected()](../../com.aspose.cells/worksheet\#isSelected--)
+For the description of this property, please see \#isSelected().isSelected()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1605,7 +1605,7 @@ public void setShowFormulas(boolean value)
 ```
 
 
-Please see the getter of this property: [getShowFormulas()](../../com.aspose.cells/worksheet\#getShowFormulas--)
+For the description of this property, please see \#getShowFormulas().getShowFormulas()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1618,7 +1618,7 @@ public void setTabColor(Color value)
 ```
 
 
-Please see the getter of this property: [getTabColor()](../../com.aspose.cells/worksheet\#getTabColor--)
+For the description of this property, please see \#getTabColor().getTabColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1631,7 +1631,7 @@ public void setTabId(int value)
 ```
 
 
-Please see the getter of this property: [getTabId()](../../com.aspose.cells/worksheet\#getTabId--)
+For the description of this property, please see \#getTabId().getTabId()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1644,7 +1644,7 @@ public void setTransitionEntry(boolean value)
 ```
 
 
-Please see the getter of this property: [getTransitionEntry()](../../com.aspose.cells/worksheet\#getTransitionEntry--)
+For the description of this property, please see \#getTransitionEntry().getTransitionEntry()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1657,7 +1657,7 @@ public void setTransitionEvaluation(boolean value)
 ```
 
 
-Please see the getter of this property: [getTransitionEvaluation()](../../com.aspose.cells/worksheet\#getTransitionEvaluation--)
+For the description of this property, please see \#getTransitionEvaluation().getTransitionEvaluation()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1670,7 +1670,7 @@ public void setType(int value)
 ```
 
 
-Please see the getter of this property: [getType()](../../com.aspose.cells/worksheet\#getType--)
+For the description of this property, please see \#getType().getType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1683,7 +1683,7 @@ public void setUniqueId(String value)
 ```
 
 
-Please see the getter of this property: [getUniqueId()](../../com.aspose.cells/worksheet\#getUniqueId--)
+For the description of this property, please see \#getUniqueId().getUniqueId()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1696,7 +1696,7 @@ public void setViewType(int value)
 ```
 
 
-Please see the getter of this property: [getViewType()](../../com.aspose.cells/worksheet\#getViewType--)
+For the description of this property, please see \#getViewType().getViewType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1709,7 +1709,7 @@ public void setVisibilityType(int value)
 ```
 
 
-Please see the getter of this property: [getVisibilityType()](../../com.aspose.cells/worksheet\#getVisibilityType--)
+For the description of this property, please see \#getVisibilityType().getVisibilityType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1722,7 +1722,7 @@ public void setVisible(boolean value)
 ```
 
 
-Please see the getter of this property: [isVisible()](../../com.aspose.cells/worksheet\#isVisible--)
+For the description of this property, please see \#isVisible().isVisible()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1749,7 +1749,7 @@ public void setZoom(int value)
 ```
 
 
-Please see the getter of this property: [getZoom()](../../com.aspose.cells/worksheet\#getZoom--)
+For the description of this property, please see \#getZoom().getZoom()
 
 **Parameters:**
 | Parameter | Type | Description |

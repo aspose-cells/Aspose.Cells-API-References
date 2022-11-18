@@ -26,9 +26,9 @@ Represents all Pane objects shown in the specified window.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAcitvePaneType(int value)](#setAcitvePaneType-int-) | Please see the getter of this property: @CREF1805\_ |
-| [setFirstVisibleColumnOfRightPane(int value)](#setFirstVisibleColumnOfRightPane-int-) | Please see the getter of this property: @CREF1804\_ |
-| [setFirstVisibleRowOfBottomPane(int value)](#setFirstVisibleRowOfBottomPane-int-) | Please see the getter of this property: @CREF1803\_ |
+| [setAcitvePaneType(int value)](#setAcitvePaneType-int-) | For the description of this property, please see \#getAcitvePaneType().getAcitvePaneType() |
+| [setFirstVisibleColumnOfRightPane(int value)](#setFirstVisibleColumnOfRightPane-int-) | For the description of this property, please see \#getFirstVisibleColumnOfRightPane().getFirstVisibleColumnOfRightPane() |
+| [setFirstVisibleRowOfBottomPane(int value)](#setFirstVisibleRowOfBottomPane-int-) | For the description of this property, please see \#getFirstVisibleRowOfBottomPane().getFirstVisibleRowOfBottomPane() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -120,7 +120,7 @@ public void setAcitvePaneType(int value)
 ```
 
 
-Please see the getter of this property: @CREF1805\_
+For the description of this property, please see \#getAcitvePaneType().getAcitvePaneType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -133,7 +133,7 @@ public void setFirstVisibleColumnOfRightPane(int value)
 ```
 
 
-Please see the getter of this property: @CREF1804\_
+For the description of this property, please see \#getFirstVisibleColumnOfRightPane().getFirstVisibleColumnOfRightPane()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +146,7 @@ public void setFirstVisibleRowOfBottomPane(int value)
 ```
 
 
-Please see the getter of this property: @CREF1803\_
+For the description of this property, please see \#getFirstVisibleRowOfBottomPane().getFirstVisibleRowOfBottomPane()
 
 **Parameters:**
 | Parameter | Type | Description |

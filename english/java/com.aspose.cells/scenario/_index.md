@@ -29,10 +29,10 @@ Represents an individual scenario.
 | [isLocked()](#isLocked--) | Indicates whether scenario is locked for editing when the sheet is protected. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setComment(String value)](#setComment-java.lang.String-) | Please see the getter of this property: @CREF864\_ |
-| [setHidden(boolean value)](#setHidden-boolean-) | Please see the getter of this property: @CREF866\_ |
-| [setLocked(boolean value)](#setLocked-boolean-) | Please see the getter of this property: @CREF867\_ |
-| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: @CREF865\_ |
+| [setComment(String value)](#setComment-java.lang.String-) | For the description of this property, please see \#getComment().getComment() |
+| [setHidden(boolean value)](#setHidden-boolean-) | For the description of this property, please see \#isHidden().isHidden() |
+| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see \#isLocked().isLocked() |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -154,7 +154,7 @@ public void setComment(String value)
 ```
 
 
-Please see the getter of this property: @CREF864\_
+For the description of this property, please see \#getComment().getComment()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -167,7 +167,7 @@ public void setHidden(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF866\_
+For the description of this property, please see \#isHidden().isHidden()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -180,7 +180,7 @@ public void setLocked(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF867\_
+For the description of this property, please see \#isLocked().isLocked()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,7 +193,7 @@ public void setName(String value)
 ```
 
 
-Please see the getter of this property: @CREF865\_
+For the description of this property, please see \#getName().getName()
 
 **Parameters:**
 | Parameter | Type | Description |

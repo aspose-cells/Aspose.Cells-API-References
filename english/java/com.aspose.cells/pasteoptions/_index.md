@@ -28,11 +28,11 @@ Represents the paste special options.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setOnlyVisibleCells(boolean value)](#setOnlyVisibleCells-boolean-) | Please see the getter of this property: @CREF1236\_ |
-| [setOperationType(int value)](#setOperationType-int-) | Please see the getter of this property: @CREF1238\_ |
-| [setPasteType(int value)](#setPasteType-int-) | Please see the getter of this property: @CREF1234\_ |
-| [setSkipBlanks(boolean value)](#setSkipBlanks-boolean-) | Please see the getter of this property: @CREF1235\_ |
-| [setTranspose(boolean value)](#setTranspose-boolean-) | Please see the getter of this property: @CREF1237\_ |
+| [setOnlyVisibleCells(boolean value)](#setOnlyVisibleCells-boolean-) | For the description of this property, please see \#getOnlyVisibleCells().getOnlyVisibleCells() |
+| [setOperationType(int value)](#setOperationType-int-) | For the description of this property, please see \#getOperationType().getOperationType() |
+| [setPasteType(int value)](#setPasteType-int-) | For the description of this property, please see \#getPasteType().getPasteType() |
+| [setSkipBlanks(boolean value)](#setSkipBlanks-boolean-) | For the description of this property, please see \#getSkipBlanks().getSkipBlanks() |
+| [setTranspose(boolean value)](#setTranspose-boolean-) | For the description of this property, please see \#getTranspose().getTranspose() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -144,7 +144,7 @@ public void setOnlyVisibleCells(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1236\_
+For the description of this property, please see \#getOnlyVisibleCells().getOnlyVisibleCells()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -157,7 +157,7 @@ public void setOperationType(int value)
 ```
 
 
-Please see the getter of this property: @CREF1238\_
+For the description of this property, please see \#getOperationType().getOperationType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -170,7 +170,7 @@ public void setPasteType(int value)
 ```
 
 
-Please see the getter of this property: @CREF1234\_
+For the description of this property, please see \#getPasteType().getPasteType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -183,7 +183,7 @@ public void setSkipBlanks(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1235\_
+For the description of this property, please see \#getSkipBlanks().getSkipBlanks()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -196,7 +196,7 @@ public void setTranspose(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1237\_
+For the description of this property, please see \#getTranspose().getTranspose()
 
 **Parameters:**
 | Parameter | Type | Description |

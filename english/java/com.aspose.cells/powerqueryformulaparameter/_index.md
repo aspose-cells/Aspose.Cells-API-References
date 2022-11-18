@@ -26,8 +26,8 @@ Represents the parameter of power query formula.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: @CREF270\_ |
-| [setValue(String value)](#setValue-java.lang.String-) | Please see the getter of this property: @CREF271\_ |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
+| [setValue(String value)](#setValue-java.lang.String-) | For the description of this property, please see \#getValue().getValue() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -119,7 +119,7 @@ public void setName(String value)
 ```
 
 
-Please see the getter of this property: @CREF270\_
+For the description of this property, please see \#getName().getName()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -132,7 +132,7 @@ public void setValue(String value)
 ```
 
 
-Please see the getter of this property: @CREF271\_
+For the description of this property, please see \#getValue().getValue()
 
 **Parameters:**
 | Parameter | Type | Description |

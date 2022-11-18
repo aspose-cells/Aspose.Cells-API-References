@@ -51,9 +51,9 @@ Describe the Top10 conditional formatting rule. This conditional formatting rule
 | [isPercent()](#isPercent--) | Get or set whether a "top/bottom n" rule is a "top/bottom n percent" rule. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBottom(boolean value)](#setBottom-boolean-) | Please see the getter of this property: [isBottom()](../../com.aspose.cells/top10\#isBottom--) |
-| [setPercent(boolean value)](#setPercent-boolean-) | Please see the getter of this property: [isPercent()](../../com.aspose.cells/top10\#isPercent--) |
-| [setRank(int value)](#setRank-int-) | Please see the getter of this property: [getRank()](../../com.aspose.cells/top10\#getRank--) |
+| [setBottom(boolean value)](#setBottom-boolean-) | For the description of this property, please see \#isBottom().isBottom() |
+| [setPercent(boolean value)](#setPercent-boolean-) | For the description of this property, please see \#isPercent().isPercent() |
+| [setRank(int value)](#setRank-int-) | For the description of this property, please see \#getRank().getRank() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -145,7 +145,7 @@ public void setBottom(boolean value)
 ```
 
 
-Please see the getter of this property: [isBottom()](../../com.aspose.cells/top10\#isBottom--)
+For the description of this property, please see \#isBottom().isBottom()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public void setPercent(boolean value)
 ```
 
 
-Please see the getter of this property: [isPercent()](../../com.aspose.cells/top10\#isPercent--)
+For the description of this property, please see \#isPercent().isPercent()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,7 +171,7 @@ public void setRank(int value)
 ```
 
 
-Please see the getter of this property: [getRank()](../../com.aspose.cells/top10\#getRank--)
+For the description of this property, please see \#getRank().getRank()
 
 **Parameters:**
 | Parameter | Type | Description |

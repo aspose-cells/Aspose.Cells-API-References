@@ -26,9 +26,9 @@ Represents Cell Watch Item in the 'watch window'.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCellName(String value)](#setCellName-java.lang.String-) | Please see the getter of this property: @CREF72\_ |
-| [setColumn(int value)](#setColumn-int-) | Please see the getter of this property: @CREF71\_ |
-| [setRow(int value)](#setRow-int-) | Please see the getter of this property: @CREF70\_ |
+| [setCellName(String value)](#setCellName-java.lang.String-) | For the description of this property, please see \#getCellName().getCellName() |
+| [setColumn(int value)](#setColumn-int-) | For the description of this property, please see \#getColumn().getColumn() |
+| [setRow(int value)](#setRow-int-) | For the description of this property, please see \#getRow().getRow() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -120,7 +120,7 @@ public void setCellName(String value)
 ```
 
 
-Please see the getter of this property: @CREF72\_
+For the description of this property, please see \#getCellName().getCellName()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -133,7 +133,7 @@ public void setColumn(int value)
 ```
 
 
-Please see the getter of this property: @CREF71\_
+For the description of this property, please see \#getColumn().getColumn()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +146,7 @@ public void setRow(int value)
 ```
 
 
-Please see the getter of this property: @CREF70\_
+For the description of this property, please see \#getRow().getRow()
 
 **Parameters:**
 | Parameter | Type | Description |

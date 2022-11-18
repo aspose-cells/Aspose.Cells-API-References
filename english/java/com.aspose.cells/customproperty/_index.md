@@ -26,9 +26,9 @@ Represents identifier information.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: @CREF1525\_ |
-| [setStringValue(String value)](#setStringValue-java.lang.String-) | Please see the getter of this property: @CREF1526\_ |
-| [setValue(String value)](#setValue-java.lang.String-) | Please see the getter of this property: @CREF1527\_ |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
+| [setStringValue(String value)](#setStringValue-java.lang.String-) | For the description of this property, please see \#getStringValue().getStringValue() |
+| [setValue(String value)](#setValue-java.lang.String-) | For the description of this property, please see \#getValue().getValue() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -120,7 +120,7 @@ public void setName(String value)
 ```
 
 
-Please see the getter of this property: @CREF1525\_
+For the description of this property, please see \#getName().getName()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -133,7 +133,7 @@ public void setStringValue(String value)
 ```
 
 
-Please see the getter of this property: @CREF1526\_
+For the description of this property, please see \#getStringValue().getStringValue()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +146,7 @@ public void setValue(String value)
 ```
 
 
-Please see the getter of this property: @CREF1527\_
+For the description of this property, please see \#getValue().getValue()
 
 **Parameters:**
 | Parameter | Type | Description |

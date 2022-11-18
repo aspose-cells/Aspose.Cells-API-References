@@ -26,8 +26,8 @@ Represents the gradient stop.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setPosition(double value)](#setPosition-double-) | Please see the getter of this property: @CREF1721\_ |
-| [setTransparency(double value)](#setTransparency-double-) | Please see the getter of this property: @CREF1722\_ |
+| [setPosition(double value)](#setPosition-double-) | For the description of this property, please see \#getPosition().getPosition() |
+| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see \#getTransparency().getTransparency() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -119,7 +119,7 @@ public void setPosition(double value)
 ```
 
 
-Please see the getter of this property: @CREF1721\_
+For the description of this property, please see \#getPosition().getPosition()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -132,7 +132,7 @@ public void setTransparency(double value)
 ```
 
 
-Please see the getter of this property: @CREF1722\_
+For the description of this property, please see \#getTransparency().getTransparency()
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -35,18 +35,18 @@ Represents all export table options.
 | [isVertical()](#isVertical--) | True if a row in Workbook file represents a row in DataTable. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCheckMixedValueType(boolean value)](#setCheckMixedValueType-boolean-) | Please see the getter of this property: @CREF1167\_ |
-| [setExportAsHtmlString(boolean value)](#setExportAsHtmlString-boolean-) | Please see the getter of this property: @CREF1165\_ |
-| [setExportAsString(boolean value)](#setExportAsString-boolean-) | Please see the getter of this property: @CREF1164\_ |
-| [setExportColumnName(boolean value)](#setExportColumnName-boolean-) | Please see the getter of this property: @CREF1159\_ |
-| [setFormatStrategy(int value)](#setFormatStrategy-int-) | Please see the getter of this property: @CREF1166\_ |
-| [setIndexes(int[] value)](#setIndexes-int---) | Please see the getter of this property: @CREF1169\_ |
-| [setPlotVisibleCells(boolean value)](#setPlotVisibleCells-boolean-) | Please see the getter of this property: @CREF1161\_ |
-| [setPlotVisibleColumns(boolean value)](#setPlotVisibleColumns-boolean-) | Please see the getter of this property: @CREF1163\_ |
-| [setPlotVisibleRows(boolean value)](#setPlotVisibleRows-boolean-) | Please see the getter of this property: @CREF1162\_ |
-| [setRenameStrategy(int value)](#setRenameStrategy-int-) | Please see the getter of this property: @CREF1170\_ |
-| [setSkipErrorValue(boolean value)](#setSkipErrorValue-boolean-) | Please see the getter of this property: @CREF1160\_ |
-| [setVertical(boolean value)](#setVertical-boolean-) | Please see the getter of this property: @CREF1168\_ |
+| [setCheckMixedValueType(boolean value)](#setCheckMixedValueType-boolean-) | For the description of this property, please see \#getCheckMixedValueType().getCheckMixedValueType() |
+| [setExportAsHtmlString(boolean value)](#setExportAsHtmlString-boolean-) | For the description of this property, please see \#getExportAsHtmlString().getExportAsHtmlString() |
+| [setExportAsString(boolean value)](#setExportAsString-boolean-) | For the description of this property, please see \#getExportAsString().getExportAsString() |
+| [setExportColumnName(boolean value)](#setExportColumnName-boolean-) | For the description of this property, please see \#getExportColumnName().getExportColumnName() |
+| [setFormatStrategy(int value)](#setFormatStrategy-int-) | For the description of this property, please see \#getFormatStrategy().getFormatStrategy() |
+| [setIndexes(int[] value)](#setIndexes-int---) | For the description of this property, please see \#getIndexes().getIndexes() |
+| [setPlotVisibleCells(boolean value)](#setPlotVisibleCells-boolean-) | For the description of this property, please see \#getPlotVisibleCells().getPlotVisibleCells() |
+| [setPlotVisibleColumns(boolean value)](#setPlotVisibleColumns-boolean-) | For the description of this property, please see \#getPlotVisibleColumns().getPlotVisibleColumns() |
+| [setPlotVisibleRows(boolean value)](#setPlotVisibleRows-boolean-) | For the description of this property, please see \#getPlotVisibleRows().getPlotVisibleRows() |
+| [setRenameStrategy(int value)](#setRenameStrategy-int-) | For the description of this property, please see \#getRenameStrategy().getRenameStrategy() |
+| [setSkipErrorValue(boolean value)](#setSkipErrorValue-boolean-) | For the description of this property, please see \#getSkipErrorValue().getSkipErrorValue() |
+| [setVertical(boolean value)](#setVertical-boolean-) | For the description of this property, please see \#isVertical().isVertical() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -228,7 +228,7 @@ public void setCheckMixedValueType(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1167\_
+For the description of this property, please see \#getCheckMixedValueType().getCheckMixedValueType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -241,7 +241,7 @@ public void setExportAsHtmlString(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1165\_
+For the description of this property, please see \#getExportAsHtmlString().getExportAsHtmlString()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -254,7 +254,7 @@ public void setExportAsString(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1164\_
+For the description of this property, please see \#getExportAsString().getExportAsString()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -267,7 +267,7 @@ public void setExportColumnName(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1159\_
+For the description of this property, please see \#getExportColumnName().getExportColumnName()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -280,7 +280,7 @@ public void setFormatStrategy(int value)
 ```
 
 
-Please see the getter of this property: @CREF1166\_
+For the description of this property, please see \#getFormatStrategy().getFormatStrategy()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -293,7 +293,7 @@ public void setIndexes(int[] value)
 ```
 
 
-Please see the getter of this property: @CREF1169\_
+For the description of this property, please see \#getIndexes().getIndexes()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -306,7 +306,7 @@ public void setPlotVisibleCells(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1161\_
+For the description of this property, please see \#getPlotVisibleCells().getPlotVisibleCells()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -319,7 +319,7 @@ public void setPlotVisibleColumns(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1163\_
+For the description of this property, please see \#getPlotVisibleColumns().getPlotVisibleColumns()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -332,7 +332,7 @@ public void setPlotVisibleRows(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1162\_
+For the description of this property, please see \#getPlotVisibleRows().getPlotVisibleRows()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -345,7 +345,7 @@ public void setRenameStrategy(int value)
 ```
 
 
-Please see the getter of this property: @CREF1170\_
+For the description of this property, please see \#getRenameStrategy().getRenameStrategy()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -358,7 +358,7 @@ public void setSkipErrorValue(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1160\_
+For the description of this property, please see \#getSkipErrorValue().getSkipErrorValue()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -371,7 +371,7 @@ public void setVertical(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1168\_
+For the description of this property, please see \#isVertical().isVertical()
 
 **Parameters:**
 | Parameter | Type | Description |

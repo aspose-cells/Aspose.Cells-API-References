@@ -67,20 +67,20 @@ Workbook workbook = new Workbook();
 | [isVisible()](#isVisible--) | Represents if the comment is visible or not. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAuthor(String value)](#setAuthor-java.lang.String-) | Please see the getter of this property: [getAuthor()](../../com.aspose.cells/comment\#getAuthor--) |
-| [setAutoSize(boolean value)](#setAutoSize-boolean-) | Please see the getter of this property: [getAutoSize()](../../com.aspose.cells/comment\#getAutoSize--) |
-| [setHeight(int value)](#setHeight-int-) | Please see the getter of this property: [getHeight()](../../com.aspose.cells/comment\#getHeight--) |
-| [setHeightCM(double value)](#setHeightCM-double-) | Please see the getter of this property: [getHeightCM()](../../com.aspose.cells/comment\#getHeightCM--) |
-| [setHeightInch(double value)](#setHeightInch-double-) | Please see the getter of this property: [getHeightInch()](../../com.aspose.cells/comment\#getHeightInch--) |
-| [setHtmlNote(String value)](#setHtmlNote-java.lang.String-) | Please see the getter of this property: [getHtmlNote()](../../com.aspose.cells/comment\#getHtmlNote--) |
-| [setNote(String value)](#setNote-java.lang.String-) | Please see the getter of this property: [getNote()](../../com.aspose.cells/comment\#getNote--) |
-| [setTextHorizontalAlignment(int value)](#setTextHorizontalAlignment-int-) | Please see the getter of this property: [getTextHorizontalAlignment()](../../com.aspose.cells/comment\#getTextHorizontalAlignment--) |
-| [setTextOrientationType(int value)](#setTextOrientationType-int-) | Please see the getter of this property: [getTextOrientationType()](../../com.aspose.cells/comment\#getTextOrientationType--) |
-| [setTextVerticalAlignment(int value)](#setTextVerticalAlignment-int-) | Please see the getter of this property: [getTextVerticalAlignment()](../../com.aspose.cells/comment\#getTextVerticalAlignment--) |
-| [setVisible(boolean value)](#setVisible-boolean-) | Please see the getter of this property: [isVisible()](../../com.aspose.cells/comment\#isVisible--) |
-| [setWidth(int value)](#setWidth-int-) | Please see the getter of this property: [getWidth()](../../com.aspose.cells/comment\#getWidth--) |
-| [setWidthCM(double value)](#setWidthCM-double-) | Please see the getter of this property: [getWidthCM()](../../com.aspose.cells/comment\#getWidthCM--) |
-| [setWidthInch(double value)](#setWidthInch-double-) | Please see the getter of this property: [getWidthInch()](../../com.aspose.cells/comment\#getWidthInch--) |
+| [setAuthor(String value)](#setAuthor-java.lang.String-) | For the description of this property, please see \#getAuthor().getAuthor() |
+| [setAutoSize(boolean value)](#setAutoSize-boolean-) | For the description of this property, please see \#getAutoSize().getAutoSize() |
+| [setHeight(int value)](#setHeight-int-) | For the description of this property, please see \#getHeight().getHeight() |
+| [setHeightCM(double value)](#setHeightCM-double-) | For the description of this property, please see \#getHeightCM().getHeightCM() |
+| [setHeightInch(double value)](#setHeightInch-double-) | For the description of this property, please see \#getHeightInch().getHeightInch() |
+| [setHtmlNote(String value)](#setHtmlNote-java.lang.String-) | For the description of this property, please see \#getHtmlNote().getHtmlNote() |
+| [setNote(String value)](#setNote-java.lang.String-) | For the description of this property, please see \#getNote().getNote() |
+| [setTextHorizontalAlignment(int value)](#setTextHorizontalAlignment-int-) | For the description of this property, please see \#getTextHorizontalAlignment().getTextHorizontalAlignment() |
+| [setTextOrientationType(int value)](#setTextOrientationType-int-) | For the description of this property, please see \#getTextOrientationType().getTextOrientationType() |
+| [setTextVerticalAlignment(int value)](#setTextVerticalAlignment-int-) | For the description of this property, please see \#getTextVerticalAlignment().getTextVerticalAlignment() |
+| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see \#isVisible().isVisible() |
+| [setWidth(int value)](#setWidth-int-) | For the description of this property, please see \#getWidth().getWidth() |
+| [setWidthCM(double value)](#setWidthCM-double-) | For the description of this property, please see \#getWidthCM().getWidthCM() |
+| [setWidthInch(double value)](#setWidthInch-double-) | For the description of this property, please see \#getWidthInch().getWidthInch() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -499,7 +499,7 @@ public void setAuthor(String value)
 ```
 
 
-Please see the getter of this property: [getAuthor()](../../com.aspose.cells/comment\#getAuthor--)
+For the description of this property, please see \#getAuthor().getAuthor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -512,7 +512,7 @@ public void setAutoSize(boolean value)
 ```
 
 
-Please see the getter of this property: [getAutoSize()](../../com.aspose.cells/comment\#getAutoSize--)
+For the description of this property, please see \#getAutoSize().getAutoSize()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -525,7 +525,7 @@ public void setHeight(int value)
 ```
 
 
-Please see the getter of this property: [getHeight()](../../com.aspose.cells/comment\#getHeight--)
+For the description of this property, please see \#getHeight().getHeight()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -538,7 +538,7 @@ public void setHeightCM(double value)
 ```
 
 
-Please see the getter of this property: [getHeightCM()](../../com.aspose.cells/comment\#getHeightCM--)
+For the description of this property, please see \#getHeightCM().getHeightCM()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -551,7 +551,7 @@ public void setHeightInch(double value)
 ```
 
 
-Please see the getter of this property: [getHeightInch()](../../com.aspose.cells/comment\#getHeightInch--)
+For the description of this property, please see \#getHeightInch().getHeightInch()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -564,7 +564,7 @@ public void setHtmlNote(String value)
 ```
 
 
-Please see the getter of this property: [getHtmlNote()](../../com.aspose.cells/comment\#getHtmlNote--)
+For the description of this property, please see \#getHtmlNote().getHtmlNote()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -577,7 +577,7 @@ public void setNote(String value)
 ```
 
 
-Please see the getter of this property: [getNote()](../../com.aspose.cells/comment\#getNote--)
+For the description of this property, please see \#getNote().getNote()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -590,7 +590,7 @@ public void setTextHorizontalAlignment(int value)
 ```
 
 
-Please see the getter of this property: [getTextHorizontalAlignment()](../../com.aspose.cells/comment\#getTextHorizontalAlignment--)
+For the description of this property, please see \#getTextHorizontalAlignment().getTextHorizontalAlignment()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -603,7 +603,7 @@ public void setTextOrientationType(int value)
 ```
 
 
-Please see the getter of this property: [getTextOrientationType()](../../com.aspose.cells/comment\#getTextOrientationType--)
+For the description of this property, please see \#getTextOrientationType().getTextOrientationType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -616,7 +616,7 @@ public void setTextVerticalAlignment(int value)
 ```
 
 
-Please see the getter of this property: [getTextVerticalAlignment()](../../com.aspose.cells/comment\#getTextVerticalAlignment--)
+For the description of this property, please see \#getTextVerticalAlignment().getTextVerticalAlignment()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -629,7 +629,7 @@ public void setVisible(boolean value)
 ```
 
 
-Please see the getter of this property: [isVisible()](../../com.aspose.cells/comment\#isVisible--)
+For the description of this property, please see \#isVisible().isVisible()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -642,7 +642,7 @@ public void setWidth(int value)
 ```
 
 
-Please see the getter of this property: [getWidth()](../../com.aspose.cells/comment\#getWidth--)
+For the description of this property, please see \#getWidth().getWidth()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -655,7 +655,7 @@ public void setWidthCM(double value)
 ```
 
 
-Please see the getter of this property: [getWidthCM()](../../com.aspose.cells/comment\#getWidthCM--)
+For the description of this property, please see \#getWidthCM().getWidthCM()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -668,7 +668,7 @@ public void setWidthInch(double value)
 ```
 
 
-Please see the getter of this property: [getWidthInch()](../../com.aspose.cells/comment\#getWidthInch--)
+For the description of this property, please see \#getWidthInch().getWidthInch()
 
 **Parameters:**
 | Parameter | Type | Description |

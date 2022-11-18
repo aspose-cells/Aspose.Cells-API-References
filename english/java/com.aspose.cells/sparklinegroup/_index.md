@@ -85,32 +85,32 @@ Workbook book = new Workbook();
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [resetRanges(String dataRange, boolean isVertical, CellArea locationRange)](#resetRanges-java.lang.String-boolean-com.aspose.cells.CellArea-) | Resets the data range and location range of the sparkline group. |
-| [setDisplayHidden(boolean value)](#setDisplayHidden-boolean-) | Please see the getter of this property: [getDisplayHidden()](../../com.aspose.cells/sparklinegroup\#getDisplayHidden--) |
-| [setFirstPointColor(CellsColor value)](#setFirstPointColor-com.aspose.cells.CellsColor-) | Please see the getter of this property: [getFirstPointColor()](../../com.aspose.cells/sparklinegroup\#getFirstPointColor--) |
-| [setHighPointColor(CellsColor value)](#setHighPointColor-com.aspose.cells.CellsColor-) | Please see the getter of this property: [getHighPointColor()](../../com.aspose.cells/sparklinegroup\#getHighPointColor--) |
-| [setHorizontalAxisColor(CellsColor value)](#setHorizontalAxisColor-com.aspose.cells.CellsColor-) | Please see the getter of this property: [getHorizontalAxisColor()](../../com.aspose.cells/sparklinegroup\#getHorizontalAxisColor--) |
-| [setHorizontalAxisDateRange(String value)](#setHorizontalAxisDateRange-java.lang.String-) | Please see the getter of this property: [getHorizontalAxisDateRange()](../../com.aspose.cells/sparklinegroup\#getHorizontalAxisDateRange--) |
-| [setLastPointColor(CellsColor value)](#setLastPointColor-com.aspose.cells.CellsColor-) | Please see the getter of this property: [getLastPointColor()](../../com.aspose.cells/sparklinegroup\#getLastPointColor--) |
-| [setLineWeight(double value)](#setLineWeight-double-) | Please see the getter of this property: [getLineWeight()](../../com.aspose.cells/sparklinegroup\#getLineWeight--) |
-| [setLowPointColor(CellsColor value)](#setLowPointColor-com.aspose.cells.CellsColor-) | Please see the getter of this property: [getLowPointColor()](../../com.aspose.cells/sparklinegroup\#getLowPointColor--) |
-| [setMarkersColor(CellsColor value)](#setMarkersColor-com.aspose.cells.CellsColor-) | Please see the getter of this property: [getMarkersColor()](../../com.aspose.cells/sparklinegroup\#getMarkersColor--) |
-| [setNegativePointsColor(CellsColor value)](#setNegativePointsColor-com.aspose.cells.CellsColor-) | Please see the getter of this property: [getNegativePointsColor()](../../com.aspose.cells/sparklinegroup\#getNegativePointsColor--) |
-| [setPlotEmptyCellsType(int value)](#setPlotEmptyCellsType-int-) | Please see the getter of this property: [getPlotEmptyCellsType()](../../com.aspose.cells/sparklinegroup\#getPlotEmptyCellsType--) |
-| [setPlotRightToLeft(boolean value)](#setPlotRightToLeft-boolean-) | Please see the getter of this property: [getPlotRightToLeft()](../../com.aspose.cells/sparklinegroup\#getPlotRightToLeft--) |
-| [setPresetStyle(int value)](#setPresetStyle-int-) | Please see the getter of this property: [getPresetStyle()](../../com.aspose.cells/sparklinegroup\#getPresetStyle--) |
-| [setSeriesColor(CellsColor value)](#setSeriesColor-com.aspose.cells.CellsColor-) | Please see the getter of this property: [getSeriesColor()](../../com.aspose.cells/sparklinegroup\#getSeriesColor--) |
-| [setShowFirstPoint(boolean value)](#setShowFirstPoint-boolean-) | Please see the getter of this property: [getShowFirstPoint()](../../com.aspose.cells/sparklinegroup\#getShowFirstPoint--) |
-| [setShowHighPoint(boolean value)](#setShowHighPoint-boolean-) | Please see the getter of this property: [getShowHighPoint()](../../com.aspose.cells/sparklinegroup\#getShowHighPoint--) |
-| [setShowHorizontalAxis(boolean value)](#setShowHorizontalAxis-boolean-) | Please see the getter of this property: [getShowHorizontalAxis()](../../com.aspose.cells/sparklinegroup\#getShowHorizontalAxis--) |
-| [setShowLastPoint(boolean value)](#setShowLastPoint-boolean-) | Please see the getter of this property: [getShowLastPoint()](../../com.aspose.cells/sparklinegroup\#getShowLastPoint--) |
-| [setShowLowPoint(boolean value)](#setShowLowPoint-boolean-) | Please see the getter of this property: [getShowLowPoint()](../../com.aspose.cells/sparklinegroup\#getShowLowPoint--) |
-| [setShowMarkers(boolean value)](#setShowMarkers-boolean-) | Please see the getter of this property: [getShowMarkers()](../../com.aspose.cells/sparklinegroup\#getShowMarkers--) |
-| [setShowNegativePoints(boolean value)](#setShowNegativePoints-boolean-) | Please see the getter of this property: [getShowNegativePoints()](../../com.aspose.cells/sparklinegroup\#getShowNegativePoints--) |
-| [setType(int value)](#setType-int-) | Please see the getter of this property: [getType()](../../com.aspose.cells/sparklinegroup\#getType--) |
-| [setVerticalAxisMaxValue(double value)](#setVerticalAxisMaxValue-double-) | Please see the getter of this property: [getVerticalAxisMaxValue()](../../com.aspose.cells/sparklinegroup\#getVerticalAxisMaxValue--) |
-| [setVerticalAxisMaxValueType(int value)](#setVerticalAxisMaxValueType-int-) | Please see the getter of this property: [getVerticalAxisMaxValueType()](../../com.aspose.cells/sparklinegroup\#getVerticalAxisMaxValueType--) |
-| [setVerticalAxisMinValue(double value)](#setVerticalAxisMinValue-double-) | Please see the getter of this property: [getVerticalAxisMinValue()](../../com.aspose.cells/sparklinegroup\#getVerticalAxisMinValue--) |
-| [setVerticalAxisMinValueType(int value)](#setVerticalAxisMinValueType-int-) | Please see the getter of this property: [getVerticalAxisMinValueType()](../../com.aspose.cells/sparklinegroup\#getVerticalAxisMinValueType--) |
+| [setDisplayHidden(boolean value)](#setDisplayHidden-boolean-) | For the description of this property, please see \#getDisplayHidden().getDisplayHidden() |
+| [setFirstPointColor(CellsColor value)](#setFirstPointColor-com.aspose.cells.CellsColor-) | For the description of this property, please see \#getFirstPointColor().getFirstPointColor() |
+| [setHighPointColor(CellsColor value)](#setHighPointColor-com.aspose.cells.CellsColor-) | For the description of this property, please see \#getHighPointColor().getHighPointColor() |
+| [setHorizontalAxisColor(CellsColor value)](#setHorizontalAxisColor-com.aspose.cells.CellsColor-) | For the description of this property, please see \#getHorizontalAxisColor().getHorizontalAxisColor() |
+| [setHorizontalAxisDateRange(String value)](#setHorizontalAxisDateRange-java.lang.String-) | For the description of this property, please see \#getHorizontalAxisDateRange().getHorizontalAxisDateRange() |
+| [setLastPointColor(CellsColor value)](#setLastPointColor-com.aspose.cells.CellsColor-) | For the description of this property, please see \#getLastPointColor().getLastPointColor() |
+| [setLineWeight(double value)](#setLineWeight-double-) | For the description of this property, please see \#getLineWeight().getLineWeight() |
+| [setLowPointColor(CellsColor value)](#setLowPointColor-com.aspose.cells.CellsColor-) | For the description of this property, please see \#getLowPointColor().getLowPointColor() |
+| [setMarkersColor(CellsColor value)](#setMarkersColor-com.aspose.cells.CellsColor-) | For the description of this property, please see \#getMarkersColor().getMarkersColor() |
+| [setNegativePointsColor(CellsColor value)](#setNegativePointsColor-com.aspose.cells.CellsColor-) | For the description of this property, please see \#getNegativePointsColor().getNegativePointsColor() |
+| [setPlotEmptyCellsType(int value)](#setPlotEmptyCellsType-int-) | For the description of this property, please see \#getPlotEmptyCellsType().getPlotEmptyCellsType() |
+| [setPlotRightToLeft(boolean value)](#setPlotRightToLeft-boolean-) | For the description of this property, please see \#getPlotRightToLeft().getPlotRightToLeft() |
+| [setPresetStyle(int value)](#setPresetStyle-int-) | For the description of this property, please see \#getPresetStyle().getPresetStyle() |
+| [setSeriesColor(CellsColor value)](#setSeriesColor-com.aspose.cells.CellsColor-) | For the description of this property, please see \#getSeriesColor().getSeriesColor() |
+| [setShowFirstPoint(boolean value)](#setShowFirstPoint-boolean-) | For the description of this property, please see \#getShowFirstPoint().getShowFirstPoint() |
+| [setShowHighPoint(boolean value)](#setShowHighPoint-boolean-) | For the description of this property, please see \#getShowHighPoint().getShowHighPoint() |
+| [setShowHorizontalAxis(boolean value)](#setShowHorizontalAxis-boolean-) | For the description of this property, please see \#getShowHorizontalAxis().getShowHorizontalAxis() |
+| [setShowLastPoint(boolean value)](#setShowLastPoint-boolean-) | For the description of this property, please see \#getShowLastPoint().getShowLastPoint() |
+| [setShowLowPoint(boolean value)](#setShowLowPoint-boolean-) | For the description of this property, please see \#getShowLowPoint().getShowLowPoint() |
+| [setShowMarkers(boolean value)](#setShowMarkers-boolean-) | For the description of this property, please see \#getShowMarkers().getShowMarkers() |
+| [setShowNegativePoints(boolean value)](#setShowNegativePoints-boolean-) | For the description of this property, please see \#getShowNegativePoints().getShowNegativePoints() |
+| [setType(int value)](#setType-int-) | For the description of this property, please see \#getType().getType() |
+| [setVerticalAxisMaxValue(double value)](#setVerticalAxisMaxValue-double-) | For the description of this property, please see \#getVerticalAxisMaxValue().getVerticalAxisMaxValue() |
+| [setVerticalAxisMaxValueType(int value)](#setVerticalAxisMaxValueType-int-) | For the description of this property, please see \#getVerticalAxisMaxValueType().getVerticalAxisMaxValueType() |
+| [setVerticalAxisMinValue(double value)](#setVerticalAxisMinValue-double-) | For the description of this property, please see \#getVerticalAxisMinValue().getVerticalAxisMinValue() |
+| [setVerticalAxisMinValueType(int value)](#setVerticalAxisMinValueType-int-) | For the description of this property, please see \#getVerticalAxisMinValueType().getVerticalAxisMinValueType() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -467,7 +467,7 @@ public void setDisplayHidden(boolean value)
 ```
 
 
-Please see the getter of this property: [getDisplayHidden()](../../com.aspose.cells/sparklinegroup\#getDisplayHidden--)
+For the description of this property, please see \#getDisplayHidden().getDisplayHidden()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -480,7 +480,7 @@ public void setFirstPointColor(CellsColor value)
 ```
 
 
-Please see the getter of this property: [getFirstPointColor()](../../com.aspose.cells/sparklinegroup\#getFirstPointColor--)
+For the description of this property, please see \#getFirstPointColor().getFirstPointColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -493,7 +493,7 @@ public void setHighPointColor(CellsColor value)
 ```
 
 
-Please see the getter of this property: [getHighPointColor()](../../com.aspose.cells/sparklinegroup\#getHighPointColor--)
+For the description of this property, please see \#getHighPointColor().getHighPointColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -506,7 +506,7 @@ public void setHorizontalAxisColor(CellsColor value)
 ```
 
 
-Please see the getter of this property: [getHorizontalAxisColor()](../../com.aspose.cells/sparklinegroup\#getHorizontalAxisColor--)
+For the description of this property, please see \#getHorizontalAxisColor().getHorizontalAxisColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -519,7 +519,7 @@ public void setHorizontalAxisDateRange(String value)
 ```
 
 
-Please see the getter of this property: [getHorizontalAxisDateRange()](../../com.aspose.cells/sparklinegroup\#getHorizontalAxisDateRange--)
+For the description of this property, please see \#getHorizontalAxisDateRange().getHorizontalAxisDateRange()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -532,7 +532,7 @@ public void setLastPointColor(CellsColor value)
 ```
 
 
-Please see the getter of this property: [getLastPointColor()](../../com.aspose.cells/sparklinegroup\#getLastPointColor--)
+For the description of this property, please see \#getLastPointColor().getLastPointColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -545,7 +545,7 @@ public void setLineWeight(double value)
 ```
 
 
-Please see the getter of this property: [getLineWeight()](../../com.aspose.cells/sparklinegroup\#getLineWeight--)
+For the description of this property, please see \#getLineWeight().getLineWeight()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -558,7 +558,7 @@ public void setLowPointColor(CellsColor value)
 ```
 
 
-Please see the getter of this property: [getLowPointColor()](../../com.aspose.cells/sparklinegroup\#getLowPointColor--)
+For the description of this property, please see \#getLowPointColor().getLowPointColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -571,7 +571,7 @@ public void setMarkersColor(CellsColor value)
 ```
 
 
-Please see the getter of this property: [getMarkersColor()](../../com.aspose.cells/sparklinegroup\#getMarkersColor--)
+For the description of this property, please see \#getMarkersColor().getMarkersColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -584,7 +584,7 @@ public void setNegativePointsColor(CellsColor value)
 ```
 
 
-Please see the getter of this property: [getNegativePointsColor()](../../com.aspose.cells/sparklinegroup\#getNegativePointsColor--)
+For the description of this property, please see \#getNegativePointsColor().getNegativePointsColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -597,7 +597,7 @@ public void setPlotEmptyCellsType(int value)
 ```
 
 
-Please see the getter of this property: [getPlotEmptyCellsType()](../../com.aspose.cells/sparklinegroup\#getPlotEmptyCellsType--)
+For the description of this property, please see \#getPlotEmptyCellsType().getPlotEmptyCellsType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -610,7 +610,7 @@ public void setPlotRightToLeft(boolean value)
 ```
 
 
-Please see the getter of this property: [getPlotRightToLeft()](../../com.aspose.cells/sparklinegroup\#getPlotRightToLeft--)
+For the description of this property, please see \#getPlotRightToLeft().getPlotRightToLeft()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -623,7 +623,7 @@ public void setPresetStyle(int value)
 ```
 
 
-Please see the getter of this property: [getPresetStyle()](../../com.aspose.cells/sparklinegroup\#getPresetStyle--)
+For the description of this property, please see \#getPresetStyle().getPresetStyle()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -636,7 +636,7 @@ public void setSeriesColor(CellsColor value)
 ```
 
 
-Please see the getter of this property: [getSeriesColor()](../../com.aspose.cells/sparklinegroup\#getSeriesColor--)
+For the description of this property, please see \#getSeriesColor().getSeriesColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -649,7 +649,7 @@ public void setShowFirstPoint(boolean value)
 ```
 
 
-Please see the getter of this property: [getShowFirstPoint()](../../com.aspose.cells/sparklinegroup\#getShowFirstPoint--)
+For the description of this property, please see \#getShowFirstPoint().getShowFirstPoint()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -662,7 +662,7 @@ public void setShowHighPoint(boolean value)
 ```
 
 
-Please see the getter of this property: [getShowHighPoint()](../../com.aspose.cells/sparklinegroup\#getShowHighPoint--)
+For the description of this property, please see \#getShowHighPoint().getShowHighPoint()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -675,7 +675,7 @@ public void setShowHorizontalAxis(boolean value)
 ```
 
 
-Please see the getter of this property: [getShowHorizontalAxis()](../../com.aspose.cells/sparklinegroup\#getShowHorizontalAxis--)
+For the description of this property, please see \#getShowHorizontalAxis().getShowHorizontalAxis()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -688,7 +688,7 @@ public void setShowLastPoint(boolean value)
 ```
 
 
-Please see the getter of this property: [getShowLastPoint()](../../com.aspose.cells/sparklinegroup\#getShowLastPoint--)
+For the description of this property, please see \#getShowLastPoint().getShowLastPoint()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -701,7 +701,7 @@ public void setShowLowPoint(boolean value)
 ```
 
 
-Please see the getter of this property: [getShowLowPoint()](../../com.aspose.cells/sparklinegroup\#getShowLowPoint--)
+For the description of this property, please see \#getShowLowPoint().getShowLowPoint()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -714,7 +714,7 @@ public void setShowMarkers(boolean value)
 ```
 
 
-Please see the getter of this property: [getShowMarkers()](../../com.aspose.cells/sparklinegroup\#getShowMarkers--)
+For the description of this property, please see \#getShowMarkers().getShowMarkers()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -727,7 +727,7 @@ public void setShowNegativePoints(boolean value)
 ```
 
 
-Please see the getter of this property: [getShowNegativePoints()](../../com.aspose.cells/sparklinegroup\#getShowNegativePoints--)
+For the description of this property, please see \#getShowNegativePoints().getShowNegativePoints()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -740,7 +740,7 @@ public void setType(int value)
 ```
 
 
-Please see the getter of this property: [getType()](../../com.aspose.cells/sparklinegroup\#getType--)
+For the description of this property, please see \#getType().getType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -753,7 +753,7 @@ public void setVerticalAxisMaxValue(double value)
 ```
 
 
-Please see the getter of this property: [getVerticalAxisMaxValue()](../../com.aspose.cells/sparklinegroup\#getVerticalAxisMaxValue--)
+For the description of this property, please see \#getVerticalAxisMaxValue().getVerticalAxisMaxValue()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -766,7 +766,7 @@ public void setVerticalAxisMaxValueType(int value)
 ```
 
 
-Please see the getter of this property: [getVerticalAxisMaxValueType()](../../com.aspose.cells/sparklinegroup\#getVerticalAxisMaxValueType--)
+For the description of this property, please see \#getVerticalAxisMaxValueType().getVerticalAxisMaxValueType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -779,7 +779,7 @@ public void setVerticalAxisMinValue(double value)
 ```
 
 
-Please see the getter of this property: [getVerticalAxisMinValue()](../../com.aspose.cells/sparklinegroup\#getVerticalAxisMinValue--)
+For the description of this property, please see \#getVerticalAxisMinValue().getVerticalAxisMinValue()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -792,7 +792,7 @@ public void setVerticalAxisMinValueType(int value)
 ```
 
 
-Please see the getter of this property: [getVerticalAxisMinValueType()](../../com.aspose.cells/sparklinegroup\#getVerticalAxisMinValueType--)
+For the description of this property, please see \#getVerticalAxisMinValueType().getVerticalAxisMinValueType()
 
 **Parameters:**
 | Parameter | Type | Description |

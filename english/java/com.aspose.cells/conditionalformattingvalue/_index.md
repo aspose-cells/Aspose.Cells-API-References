@@ -26,9 +26,9 @@ Describes the values of the interpolation points in a gradient scale, dataBar or
 | [isGTE()](#isGTE--) | Get or set the Greater Than Or Equal flag. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setGTE(boolean value)](#setGTE-boolean-) | Please see the getter of this property: @CREF1114\_ |
-| [setType(int value)](#setType-int-) | Please see the getter of this property: @CREF1113\_ |
-| [setValue(Object value)](#setValue-java.lang.Object-) | Please see the getter of this property: @CREF1112\_ |
+| [setGTE(boolean value)](#setGTE-boolean-) | For the description of this property, please see \#isGTE().isGTE() |
+| [setType(int value)](#setType-int-) | For the description of this property, please see \#getType().getType() |
+| [setValue(Object value)](#setValue-java.lang.Object-) | For the description of this property, please see \#getValue().getValue() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -120,7 +120,7 @@ public void setGTE(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1114\_
+For the description of this property, please see \#isGTE().isGTE()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -133,7 +133,7 @@ public void setType(int value)
 ```
 
 
-Please see the getter of this property: @CREF1113\_
+For the description of this property, please see \#getType().getType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +146,7 @@ public void setValue(Object value)
 ```
 
 
-Please see the getter of this property: @CREF1112\_
+For the description of this property, please see \#getValue().getValue()
 
 **Parameters:**
 | Parameter | Type | Description |

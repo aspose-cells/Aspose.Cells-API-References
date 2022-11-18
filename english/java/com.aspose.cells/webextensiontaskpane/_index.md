@@ -29,12 +29,12 @@ Represents a persisted taskpane object.
 | [isVisible()](#isVisible--) | Indicates whether the Task Pane shows as visible by default when the document opens. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDockState(String value)](#setDockState-java.lang.String-) | Please see the getter of this property: @CREF306\_ |
-| [setLocked(boolean value)](#setLocked-boolean-) | Please see the getter of this property: @CREF308\_ |
-| [setRow(int value)](#setRow-int-) | Please see the getter of this property: @CREF310\_ |
-| [setVisible(boolean value)](#setVisible-boolean-) | Please see the getter of this property: @CREF307\_ |
-| [setWebExtension(WebExtension value)](#setWebExtension-com.aspose.cells.WebExtension-) | Please see the getter of this property: @CREF305\_ |
-| [setWidth(double value)](#setWidth-double-) | Please see the getter of this property: @CREF309\_ |
+| [setDockState(String value)](#setDockState-java.lang.String-) | For the description of this property, please see \#getDockState().getDockState() |
+| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see \#isLocked().isLocked() |
+| [setRow(int value)](#setRow-int-) | For the description of this property, please see \#getRow().getRow() |
+| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see \#isVisible().isVisible() |
+| [setWebExtension(WebExtension value)](#setWebExtension-com.aspose.cells.WebExtension-) | For the description of this property, please see \#getWebExtension().getWebExtension() |
+| [setWidth(double value)](#setWidth-double-) | For the description of this property, please see \#getWidth().getWidth() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -156,7 +156,7 @@ public void setDockState(String value)
 ```
 
 
-Please see the getter of this property: @CREF306\_
+For the description of this property, please see \#getDockState().getDockState()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -169,7 +169,7 @@ public void setLocked(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF308\_
+For the description of this property, please see \#isLocked().isLocked()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -182,7 +182,7 @@ public void setRow(int value)
 ```
 
 
-Please see the getter of this property: @CREF310\_
+For the description of this property, please see \#getRow().getRow()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -195,7 +195,7 @@ public void setVisible(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF307\_
+For the description of this property, please see \#isVisible().isVisible()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -208,7 +208,7 @@ public void setWebExtension(WebExtension value)
 ```
 
 
-Please see the getter of this property: @CREF305\_
+For the description of this property, please see \#getWebExtension().getWebExtension()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -221,7 +221,7 @@ public void setWidth(double value)
 ```
 
 
-Please see the getter of this property: @CREF309\_
+For the description of this property, please see \#getWidth().getWidth()
 
 **Parameters:**
 | Parameter | Type | Description |

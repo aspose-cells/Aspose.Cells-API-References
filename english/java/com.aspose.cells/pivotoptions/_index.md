@@ -28,11 +28,11 @@ Represents a complex type that specifies the pivot controls that appear on the c
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDropZoneCategories(boolean value)](#setDropZoneCategories-boolean-) | Please see the getter of this property: @CREF592\_ |
-| [setDropZoneData(boolean value)](#setDropZoneData-boolean-) | Please see the getter of this property: @CREF593\_ |
-| [setDropZoneFilter(boolean value)](#setDropZoneFilter-boolean-) | Please see the getter of this property: @CREF591\_ |
-| [setDropZoneSeries(boolean value)](#setDropZoneSeries-boolean-) | Please see the getter of this property: @CREF594\_ |
-| [setDropZonesVisible(boolean value)](#setDropZonesVisible-boolean-) | Please see the getter of this property: @CREF595\_ |
+| [setDropZoneCategories(boolean value)](#setDropZoneCategories-boolean-) | For the description of this property, please see \#getDropZoneCategories().getDropZoneCategories() |
+| [setDropZoneData(boolean value)](#setDropZoneData-boolean-) | For the description of this property, please see \#getDropZoneData().getDropZoneData() |
+| [setDropZoneFilter(boolean value)](#setDropZoneFilter-boolean-) | For the description of this property, please see \#getDropZoneFilter().getDropZoneFilter() |
+| [setDropZoneSeries(boolean value)](#setDropZoneSeries-boolean-) | For the description of this property, please see \#getDropZoneSeries().getDropZoneSeries() |
+| [setDropZonesVisible(boolean value)](#setDropZonesVisible-boolean-) | For the description of this property, please see \#getDropZonesVisible().getDropZonesVisible() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -144,7 +144,7 @@ public void setDropZoneCategories(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF592\_
+For the description of this property, please see \#getDropZoneCategories().getDropZoneCategories()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -157,7 +157,7 @@ public void setDropZoneData(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF593\_
+For the description of this property, please see \#getDropZoneData().getDropZoneData()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -170,7 +170,7 @@ public void setDropZoneFilter(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF591\_
+For the description of this property, please see \#getDropZoneFilter().getDropZoneFilter()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -183,7 +183,7 @@ public void setDropZoneSeries(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF594\_
+For the description of this property, please see \#getDropZoneSeries().getDropZoneSeries()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -196,7 +196,7 @@ public void setDropZonesVisible(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF595\_
+For the description of this property, please see \#getDropZonesVisible().getDropZonesVisible()
 
 **Parameters:**
 | Parameter | Type | Description |

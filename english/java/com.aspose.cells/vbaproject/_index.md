@@ -42,7 +42,7 @@ Represents the VBA project.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [protect(boolean islockedForViewing, String password)](#protect-boolean-java.lang.String-) | Protects or unprotects this VBA project. |
-| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: [getName()](../../com.aspose.cells/vbaproject\#getName--) |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
 | [sign(DigitalSignature digitalSignature)](#sign-com.aspose.cells.DigitalSignature-) | Sign this VBA project by a DigitalSignature |
 | [toString()](#toString--) |  |
 | [validatePassword(String password)](#validatePassword-java.lang.String-) | Validates protection password. |
@@ -213,7 +213,7 @@ public void setName(String value)
 ```
 
 
-Please see the getter of this property: [getName()](../../com.aspose.cells/vbaproject\#getName--)
+For the description of this property, please see \#getName().getName()
 
 **Parameters:**
 | Parameter | Type | Description |

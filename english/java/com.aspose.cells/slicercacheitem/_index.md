@@ -25,7 +25,7 @@ Represent slicer data source item
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setSelected(boolean value)](#setSelected-boolean-) | Please see the getter of this property: @CREF874\_ |
+| [setSelected(boolean value)](#setSelected-boolean-) | For the description of this property, please see \#getSelected().getSelected() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -107,7 +107,7 @@ public void setSelected(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF874\_
+For the description of this property, please see \#getSelected().getSelected()
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -35,13 +35,13 @@ Represents the copy options.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setColumnCharacterWidth(boolean value)](#setColumnCharacterWidth-boolean-) | Please see the getter of this property: @CREF1521\_ |
-| [setCopyInvalidFormulasAsValues(boolean value)](#setCopyInvalidFormulasAsValues-boolean-) | Please see the getter of this property: @CREF1520\_ |
-| [setCopyNames(boolean value)](#setCopyNames-boolean-) | Please see the getter of this property: @CREF1519\_ |
-| [setExtendToAdjacentRange(boolean value)](#setExtendToAdjacentRange-boolean-) | Please see the getter of this property: @CREF1518\_ |
-| [setKeepMacros(boolean value)](#setKeepMacros-boolean-) | Please see the getter of this property: @CREF1517\_ |
-| [setReferToDestinationSheet(boolean value)](#setReferToDestinationSheet-boolean-) | Please see the getter of this property: @CREF1523\_ |
-| [setReferToSheetWithSameName(boolean value)](#setReferToSheetWithSameName-boolean-) | Please see the getter of this property: @CREF1522\_ |
+| [setColumnCharacterWidth(boolean value)](#setColumnCharacterWidth-boolean-) | For the description of this property, please see \#getColumnCharacterWidth().getColumnCharacterWidth() |
+| [setCopyInvalidFormulasAsValues(boolean value)](#setCopyInvalidFormulasAsValues-boolean-) | For the description of this property, please see \#getCopyInvalidFormulasAsValues().getCopyInvalidFormulasAsValues() |
+| [setCopyNames(boolean value)](#setCopyNames-boolean-) | For the description of this property, please see \#getCopyNames().getCopyNames() |
+| [setExtendToAdjacentRange(boolean value)](#setExtendToAdjacentRange-boolean-) | For the description of this property, please see \#getExtendToAdjacentRange().getExtendToAdjacentRange() |
+| [setKeepMacros(boolean value)](#setKeepMacros-boolean-) | For the description of this property, please see \#getKeepMacros().getKeepMacros() |
+| [setReferToDestinationSheet(boolean value)](#setReferToDestinationSheet-boolean-) | For the description of this property, please see \#getReferToDestinationSheet().getReferToDestinationSheet() |
+| [setReferToSheetWithSameName(boolean value)](#setReferToSheetWithSameName-boolean-) | For the description of this property, please see \#getReferToSheetWithSameName().getReferToSheetWithSameName() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -181,7 +181,7 @@ public void setColumnCharacterWidth(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1521\_
+For the description of this property, please see \#getColumnCharacterWidth().getColumnCharacterWidth()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -194,7 +194,7 @@ public void setCopyInvalidFormulasAsValues(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1520\_
+For the description of this property, please see \#getCopyInvalidFormulasAsValues().getCopyInvalidFormulasAsValues()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -207,7 +207,7 @@ public void setCopyNames(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1519\_
+For the description of this property, please see \#getCopyNames().getCopyNames()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -220,7 +220,7 @@ public void setExtendToAdjacentRange(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1518\_
+For the description of this property, please see \#getExtendToAdjacentRange().getExtendToAdjacentRange()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -233,7 +233,7 @@ public void setKeepMacros(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1517\_
+For the description of this property, please see \#getKeepMacros().getKeepMacros()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ public void setReferToDestinationSheet(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1523\_
+For the description of this property, please see \#getReferToDestinationSheet().getReferToDestinationSheet()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -259,7 +259,7 @@ public void setReferToSheetWithSameName(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1522\_
+For the description of this property, please see \#getReferToSheetWithSameName().getReferToSheetWithSameName()
 
 **Parameters:**
 | Parameter | Type | Description |

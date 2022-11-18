@@ -56,32 +56,32 @@ Represents the options for pagination.
 | [isFontSubstitutionCharGranularity()](#isFontSubstitutionCharGranularity--) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAllColumnsInOnePagePerSheet(boolean value)](#setAllColumnsInOnePagePerSheet-boolean-) | Please see the getter of this property: [getAllColumnsInOnePagePerSheet()](../../com.aspose.cells/paginatedsaveoptions\#getAllColumnsInOnePagePerSheet--) |
-| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | Please see the getter of this property: @CREF1852\_ |
+| [setAllColumnsInOnePagePerSheet(boolean value)](#setAllColumnsInOnePagePerSheet-boolean-) | For the description of this property, please see \#getAllColumnsInOnePagePerSheet().getAllColumnsInOnePagePerSheet() |
+| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | For the description of this property, please see \#getCachedFileFolder().getCachedFileFolder() |
 | [setCheckFontCompatibility(boolean value)](#setCheckFontCompatibility-boolean-) |  |
-| [setCheckWorkbookDefaultFont(boolean value)](#setCheckWorkbookDefaultFont-boolean-) | Please see the getter of this property: [getCheckWorkbookDefaultFont()](../../com.aspose.cells/paginatedsaveoptions\#getCheckWorkbookDefaultFont--) |
-| [setClearData(boolean value)](#setClearData-boolean-) | Please see the getter of this property: @CREF1851\_ |
-| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | Please see the getter of this property: @CREF1855\_ |
-| [setDefaultEditLanguage(int value)](#setDefaultEditLanguage-int-) | Please see the getter of this property: [getDefaultEditLanguage()](../../com.aspose.cells/paginatedsaveoptions\#getDefaultEditLanguage--) |
-| [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | Please see the getter of this property: [getDefaultFont()](../../com.aspose.cells/paginatedsaveoptions\#getDefaultFont--) |
-| [setDrawObjectEventHandler(DrawObjectEventHandler value)](#setDrawObjectEventHandler-com.aspose.cells.DrawObjectEventHandler-) | Please see the getter of this property: [getDrawObjectEventHandler()](../../com.aspose.cells/paginatedsaveoptions\#getDrawObjectEventHandler--) |
+| [setCheckWorkbookDefaultFont(boolean value)](#setCheckWorkbookDefaultFont-boolean-) | For the description of this property, please see \#getCheckWorkbookDefaultFont().getCheckWorkbookDefaultFont() |
+| [setClearData(boolean value)](#setClearData-boolean-) | For the description of this property, please see \#getClearData().getClearData() |
+| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | For the description of this property, please see \#getCreateDirectory().getCreateDirectory() |
+| [setDefaultEditLanguage(int value)](#setDefaultEditLanguage-int-) | For the description of this property, please see \#getDefaultEditLanguage().getDefaultEditLanguage() |
+| [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | For the description of this property, please see \#getDefaultFont().getDefaultFont() |
+| [setDrawObjectEventHandler(DrawObjectEventHandler value)](#setDrawObjectEventHandler-com.aspose.cells.DrawObjectEventHandler-) | For the description of this property, please see \#getDrawObjectEventHandler().getDrawObjectEventHandler() |
 | [setFontSubstitutionCharGranularity(boolean value)](#setFontSubstitutionCharGranularity-boolean-) |  |
-| [setGridlineType(int value)](#setGridlineType-int-) | Please see the getter of this property: [getGridlineType()](../../com.aspose.cells/paginatedsaveoptions\#getGridlineType--) |
-| [setIgnoreError(boolean value)](#setIgnoreError-boolean-) | Please see the getter of this property: [getIgnoreError()](../../com.aspose.cells/paginatedsaveoptions\#getIgnoreError--) |
-| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Please see the getter of this property: @CREF1854\_ |
-| [setOnePagePerSheet(boolean value)](#setOnePagePerSheet-boolean-) | Please see the getter of this property: [getOnePagePerSheet()](../../com.aspose.cells/paginatedsaveoptions\#getOnePagePerSheet--) |
-| [setOutputBlankPageWhenNothingToPrint(boolean value)](#setOutputBlankPageWhenNothingToPrint-boolean-) | Please see the getter of this property: [getOutputBlankPageWhenNothingToPrint()](../../com.aspose.cells/paginatedsaveoptions\#getOutputBlankPageWhenNothingToPrint--) |
+| [setGridlineType(int value)](#setGridlineType-int-) | For the description of this property, please see \#getGridlineType().getGridlineType() |
+| [setIgnoreError(boolean value)](#setIgnoreError-boolean-) | For the description of this property, please see \#getIgnoreError().getIgnoreError() |
+| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | For the description of this property, please see \#getMergeAreas().getMergeAreas() |
+| [setOnePagePerSheet(boolean value)](#setOnePagePerSheet-boolean-) | For the description of this property, please see \#getOnePagePerSheet().getOnePagePerSheet() |
+| [setOutputBlankPageWhenNothingToPrint(boolean value)](#setOutputBlankPageWhenNothingToPrint-boolean-) | For the description of this property, please see \#getOutputBlankPageWhenNothingToPrint().getOutputBlankPageWhenNothingToPrint() |
 | [setPageCount(int value)](#setPageCount-int-) |  |
 | [setPageIndex(int value)](#setPageIndex-int-) |  |
-| [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.cells.IPageSavingCallback-) | Please see the getter of this property: [getPageSavingCallback()](../../com.aspose.cells/paginatedsaveoptions\#getPageSavingCallback--) |
-| [setPrintingPageType(int value)](#setPrintingPageType-int-) | Please see the getter of this property: [getPrintingPageType()](../../com.aspose.cells/paginatedsaveoptions\#getPrintingPageType--) |
-| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Please see the getter of this property: @CREF1858\_ |
-| [setSheetSet(SheetSet value)](#setSheetSet-com.aspose.cells.SheetSet-) | Please see the getter of this property: [getSheetSet()](../../com.aspose.cells/paginatedsaveoptions\#getSheetSet--) |
-| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Please see the getter of this property: @CREF1857\_ |
-| [setSortNames(boolean value)](#setSortNames-boolean-) | Please see the getter of this property: @CREF1856\_ |
-| [setTextCrossType(int value)](#setTextCrossType-int-) | Please see the getter of this property: [getTextCrossType()](../../com.aspose.cells/paginatedsaveoptions\#getTextCrossType--) |
-| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | Please see the getter of this property: @CREF1860\_ |
-| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | Please see the getter of this property: @CREF1853\_ |
+| [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.cells.IPageSavingCallback-) | For the description of this property, please see \#getPageSavingCallback().getPageSavingCallback() |
+| [setPrintingPageType(int value)](#setPrintingPageType-int-) | For the description of this property, please see \#getPrintingPageType().getPrintingPageType() |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | For the description of this property, please see \#getRefreshChartCache().getRefreshChartCache() |
+| [setSheetSet(SheetSet value)](#setSheetSet-com.aspose.cells.SheetSet-) | For the description of this property, please see \#getSheetSet().getSheetSet() |
+| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | For the description of this property, please see \#getSortExternalNames().getSortExternalNames() |
+| [setSortNames(boolean value)](#setSortNames-boolean-) | For the description of this property, please see \#getSortNames().getSortNames() |
+| [setTextCrossType(int value)](#setTextCrossType-int-) | For the description of this property, please see \#getTextCrossType().getTextCrossType() |
+| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | For the description of this property, please see \#getUpdateSmartArt().getUpdateSmartArt() |
+| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | For the description of this property, please see \#getValidateMergedAreas().getValidateMergedAreas() |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -490,7 +490,7 @@ public void setAllColumnsInOnePagePerSheet(boolean value)
 ```
 
 
-Please see the getter of this property: [getAllColumnsInOnePagePerSheet()](../../com.aspose.cells/paginatedsaveoptions\#getAllColumnsInOnePagePerSheet--)
+For the description of this property, please see \#getAllColumnsInOnePagePerSheet().getAllColumnsInOnePagePerSheet()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -503,7 +503,7 @@ public void setCachedFileFolder(String value)
 ```
 
 
-Please see the getter of this property: @CREF1852\_
+For the description of this property, please see \#getCachedFileFolder().getCachedFileFolder()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -529,7 +529,7 @@ public void setCheckWorkbookDefaultFont(boolean value)
 ```
 
 
-Please see the getter of this property: [getCheckWorkbookDefaultFont()](../../com.aspose.cells/paginatedsaveoptions\#getCheckWorkbookDefaultFont--)
+For the description of this property, please see \#getCheckWorkbookDefaultFont().getCheckWorkbookDefaultFont()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -542,7 +542,7 @@ public void setClearData(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1851\_
+For the description of this property, please see \#getClearData().getClearData()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -555,7 +555,7 @@ public void setCreateDirectory(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1855\_
+For the description of this property, please see \#getCreateDirectory().getCreateDirectory()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -568,7 +568,7 @@ public void setDefaultEditLanguage(int value)
 ```
 
 
-Please see the getter of this property: [getDefaultEditLanguage()](../../com.aspose.cells/paginatedsaveoptions\#getDefaultEditLanguage--)
+For the description of this property, please see \#getDefaultEditLanguage().getDefaultEditLanguage()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -581,7 +581,7 @@ public void setDefaultFont(String value)
 ```
 
 
-Please see the getter of this property: [getDefaultFont()](../../com.aspose.cells/paginatedsaveoptions\#getDefaultFont--)
+For the description of this property, please see \#getDefaultFont().getDefaultFont()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -594,7 +594,7 @@ public void setDrawObjectEventHandler(DrawObjectEventHandler value)
 ```
 
 
-Please see the getter of this property: [getDrawObjectEventHandler()](../../com.aspose.cells/paginatedsaveoptions\#getDrawObjectEventHandler--)
+For the description of this property, please see \#getDrawObjectEventHandler().getDrawObjectEventHandler()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -620,7 +620,7 @@ public void setGridlineType(int value)
 ```
 
 
-Please see the getter of this property: [getGridlineType()](../../com.aspose.cells/paginatedsaveoptions\#getGridlineType--)
+For the description of this property, please see \#getGridlineType().getGridlineType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -633,7 +633,7 @@ public void setIgnoreError(boolean value)
 ```
 
 
-Please see the getter of this property: [getIgnoreError()](../../com.aspose.cells/paginatedsaveoptions\#getIgnoreError--)
+For the description of this property, please see \#getIgnoreError().getIgnoreError()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -646,7 +646,7 @@ public void setMergeAreas(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1854\_
+For the description of this property, please see \#getMergeAreas().getMergeAreas()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -659,7 +659,7 @@ public void setOnePagePerSheet(boolean value)
 ```
 
 
-Please see the getter of this property: [getOnePagePerSheet()](../../com.aspose.cells/paginatedsaveoptions\#getOnePagePerSheet--)
+For the description of this property, please see \#getOnePagePerSheet().getOnePagePerSheet()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -672,7 +672,7 @@ public void setOutputBlankPageWhenNothingToPrint(boolean value)
 ```
 
 
-Please see the getter of this property: [getOutputBlankPageWhenNothingToPrint()](../../com.aspose.cells/paginatedsaveoptions\#getOutputBlankPageWhenNothingToPrint--)
+For the description of this property, please see \#getOutputBlankPageWhenNothingToPrint().getOutputBlankPageWhenNothingToPrint()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -711,7 +711,7 @@ public void setPageSavingCallback(IPageSavingCallback value)
 ```
 
 
-Please see the getter of this property: [getPageSavingCallback()](../../com.aspose.cells/paginatedsaveoptions\#getPageSavingCallback--)
+For the description of this property, please see \#getPageSavingCallback().getPageSavingCallback()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -724,7 +724,7 @@ public void setPrintingPageType(int value)
 ```
 
 
-Please see the getter of this property: [getPrintingPageType()](../../com.aspose.cells/paginatedsaveoptions\#getPrintingPageType--)
+For the description of this property, please see \#getPrintingPageType().getPrintingPageType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -737,7 +737,7 @@ public void setRefreshChartCache(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1858\_
+For the description of this property, please see \#getRefreshChartCache().getRefreshChartCache()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -750,7 +750,7 @@ public void setSheetSet(SheetSet value)
 ```
 
 
-Please see the getter of this property: [getSheetSet()](../../com.aspose.cells/paginatedsaveoptions\#getSheetSet--)
+For the description of this property, please see \#getSheetSet().getSheetSet()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -763,7 +763,7 @@ public void setSortExternalNames(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1857\_
+For the description of this property, please see \#getSortExternalNames().getSortExternalNames()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -776,7 +776,7 @@ public void setSortNames(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1856\_
+For the description of this property, please see \#getSortNames().getSortNames()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -789,7 +789,7 @@ public void setTextCrossType(int value)
 ```
 
 
-Please see the getter of this property: [getTextCrossType()](../../com.aspose.cells/paginatedsaveoptions\#getTextCrossType--)
+For the description of this property, please see \#getTextCrossType().getTextCrossType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -802,7 +802,7 @@ public void setUpdateSmartArt(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1860\_
+For the description of this property, please see \#getUpdateSmartArt().getUpdateSmartArt()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -815,7 +815,7 @@ public void setValidateMergedAreas(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1853\_
+For the description of this property, please see \#getValidateMergedAreas().getValidateMergedAreas()
 
 **Parameters:**
 | Parameter | Type | Description |

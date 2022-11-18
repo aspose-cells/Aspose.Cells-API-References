@@ -31,8 +31,8 @@ Represents the options of loading metadata of the file.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setKeyLength(int value)](#setKeyLength-int-) | Please see the getter of this property: @CREF589\_ |
-| [setPassword(String value)](#setPassword-java.lang.String-) | Please see the getter of this property: @CREF588\_ |
+| [setKeyLength(int value)](#setKeyLength-int-) | For the description of this property, please see \#getKeyLength().getKeyLength() |
+| [setPassword(String value)](#setPassword-java.lang.String-) | For the description of this property, please see \#getPassword().getPassword() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -137,7 +137,7 @@ public void setKeyLength(int value)
 ```
 
 
-Please see the getter of this property: @CREF589\_
+For the description of this property, please see \#getKeyLength().getKeyLength()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -150,7 +150,7 @@ public void setPassword(String value)
 ```
 
 
-Please see the getter of this property: @CREF588\_
+For the description of this property, please see \#getPassword().getPassword()
 
 **Parameters:**
 | Parameter | Type | Description |

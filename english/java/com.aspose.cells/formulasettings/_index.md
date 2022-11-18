@@ -33,16 +33,16 @@ Settings of formulas and calculation.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCalculateOnOpen(boolean value)](#setCalculateOnOpen-boolean-) | Please see the getter of this property: [getCalculateOnOpen()](../../com.aspose.cells/formulasettings\#getCalculateOnOpen--) |
-| [setCalculateOnSave(boolean value)](#setCalculateOnSave-boolean-) | Please see the getter of this property: [getCalculateOnSave()](../../com.aspose.cells/formulasettings\#getCalculateOnSave--) |
-| [setCalculationId(String value)](#setCalculationId-java.lang.String-) | Please see the getter of this property: [getCalculationId()](../../com.aspose.cells/formulasettings\#getCalculationId--) |
-| [setCalculationMode(int value)](#setCalculationMode-int-) | Please see the getter of this property: [getCalculationMode()](../../com.aspose.cells/formulasettings\#getCalculationMode--) |
-| [setEnableCalculationChain(boolean value)](#setEnableCalculationChain-boolean-) | Please see the getter of this property: [getEnableCalculationChain()](../../com.aspose.cells/formulasettings\#getEnableCalculationChain--) |
-| [setEnableIterativeCalculation(boolean value)](#setEnableIterativeCalculation-boolean-) | Please see the getter of this property: [getEnableIterativeCalculation()](../../com.aspose.cells/formulasettings\#getEnableIterativeCalculation--) |
-| [setForceFullCalculation(boolean value)](#setForceFullCalculation-boolean-) | Please see the getter of this property: [getForceFullCalculation()](../../com.aspose.cells/formulasettings\#getForceFullCalculation--) |
-| [setMaxChange(double value)](#setMaxChange-double-) | Please see the getter of this property: [getMaxChange()](../../com.aspose.cells/formulasettings\#getMaxChange--) |
-| [setMaxIteration(int value)](#setMaxIteration-int-) | Please see the getter of this property: [getMaxIteration()](../../com.aspose.cells/formulasettings\#getMaxIteration--) |
-| [setPrecisionAsDisplayed(boolean value)](#setPrecisionAsDisplayed-boolean-) | Please see the getter of this property: [getPrecisionAsDisplayed()](../../com.aspose.cells/formulasettings\#getPrecisionAsDisplayed--) |
+| [setCalculateOnOpen(boolean value)](#setCalculateOnOpen-boolean-) | For the description of this property, please see \#getCalculateOnOpen().getCalculateOnOpen() |
+| [setCalculateOnSave(boolean value)](#setCalculateOnSave-boolean-) | For the description of this property, please see \#getCalculateOnSave().getCalculateOnSave() |
+| [setCalculationId(String value)](#setCalculationId-java.lang.String-) | For the description of this property, please see \#getCalculationId().getCalculationId() |
+| [setCalculationMode(int value)](#setCalculationMode-int-) | For the description of this property, please see \#getCalculationMode().getCalculationMode() |
+| [setEnableCalculationChain(boolean value)](#setEnableCalculationChain-boolean-) | For the description of this property, please see \#getEnableCalculationChain().getEnableCalculationChain() |
+| [setEnableIterativeCalculation(boolean value)](#setEnableIterativeCalculation-boolean-) | For the description of this property, please see \#getEnableIterativeCalculation().getEnableIterativeCalculation() |
+| [setForceFullCalculation(boolean value)](#setForceFullCalculation-boolean-) | For the description of this property, please see \#getForceFullCalculation().getForceFullCalculation() |
+| [setMaxChange(double value)](#setMaxChange-double-) | For the description of this property, please see \#getMaxChange().getMaxChange() |
+| [setMaxIteration(int value)](#setMaxIteration-int-) | For the description of this property, please see \#getMaxIteration().getMaxIteration() |
+| [setPrecisionAsDisplayed(boolean value)](#setPrecisionAsDisplayed-boolean-) | For the description of this property, please see \#getPrecisionAsDisplayed().getPrecisionAsDisplayed() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -204,7 +204,7 @@ public void setCalculateOnOpen(boolean value)
 ```
 
 
-Please see the getter of this property: [getCalculateOnOpen()](../../com.aspose.cells/formulasettings\#getCalculateOnOpen--)
+For the description of this property, please see \#getCalculateOnOpen().getCalculateOnOpen()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -217,7 +217,7 @@ public void setCalculateOnSave(boolean value)
 ```
 
 
-Please see the getter of this property: [getCalculateOnSave()](../../com.aspose.cells/formulasettings\#getCalculateOnSave--)
+For the description of this property, please see \#getCalculateOnSave().getCalculateOnSave()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -230,7 +230,7 @@ public void setCalculationId(String value)
 ```
 
 
-Please see the getter of this property: [getCalculationId()](../../com.aspose.cells/formulasettings\#getCalculationId--)
+For the description of this property, please see \#getCalculationId().getCalculationId()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -243,7 +243,7 @@ public void setCalculationMode(int value)
 ```
 
 
-Please see the getter of this property: [getCalculationMode()](../../com.aspose.cells/formulasettings\#getCalculationMode--)
+For the description of this property, please see \#getCalculationMode().getCalculationMode()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -256,7 +256,7 @@ public void setEnableCalculationChain(boolean value)
 ```
 
 
-Please see the getter of this property: [getEnableCalculationChain()](../../com.aspose.cells/formulasettings\#getEnableCalculationChain--)
+For the description of this property, please see \#getEnableCalculationChain().getEnableCalculationChain()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -269,7 +269,7 @@ public void setEnableIterativeCalculation(boolean value)
 ```
 
 
-Please see the getter of this property: [getEnableIterativeCalculation()](../../com.aspose.cells/formulasettings\#getEnableIterativeCalculation--)
+For the description of this property, please see \#getEnableIterativeCalculation().getEnableIterativeCalculation()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -282,7 +282,7 @@ public void setForceFullCalculation(boolean value)
 ```
 
 
-Please see the getter of this property: [getForceFullCalculation()](../../com.aspose.cells/formulasettings\#getForceFullCalculation--)
+For the description of this property, please see \#getForceFullCalculation().getForceFullCalculation()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -295,7 +295,7 @@ public void setMaxChange(double value)
 ```
 
 
-Please see the getter of this property: [getMaxChange()](../../com.aspose.cells/formulasettings\#getMaxChange--)
+For the description of this property, please see \#getMaxChange().getMaxChange()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -308,7 +308,7 @@ public void setMaxIteration(int value)
 ```
 
 
-Please see the getter of this property: [getMaxIteration()](../../com.aspose.cells/formulasettings\#getMaxIteration--)
+For the description of this property, please see \#getMaxIteration().getMaxIteration()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -321,7 +321,7 @@ public void setPrecisionAsDisplayed(boolean value)
 ```
 
 
-Please see the getter of this property: [getPrecisionAsDisplayed()](../../com.aspose.cells/formulasettings\#getPrecisionAsDisplayed--)
+For the description of this property, please see \#getPrecisionAsDisplayed().getPrecisionAsDisplayed()
 
 **Parameters:**
 | Parameter | Type | Description |

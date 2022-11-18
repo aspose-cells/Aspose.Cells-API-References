@@ -30,10 +30,10 @@ Describe the ColorScale conditional formatting rule. This conditional formatting
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setIs3ColorScale(boolean value)](#setIs3ColorScale-boolean-) | Please see the getter of this property: @CREF1108\_ |
-| [setMaxColor(Color value)](#setMaxColor-com.aspose.cells.Color-) | Please see the getter of this property: @CREF1111\_ |
-| [setMidColor(Color value)](#setMidColor-com.aspose.cells.Color-) | Please see the getter of this property: @CREF1110\_ |
-| [setMinColor(Color value)](#setMinColor-com.aspose.cells.Color-) | Please see the getter of this property: @CREF1109\_ |
+| [setIs3ColorScale(boolean value)](#setIs3ColorScale-boolean-) | For the description of this property, please see \#getIs3ColorScale().getIs3ColorScale() |
+| [setMaxColor(Color value)](#setMaxColor-com.aspose.cells.Color-) | For the description of this property, please see \#getMaxColor().getMaxColor() |
+| [setMidColor(Color value)](#setMidColor-com.aspose.cells.Color-) | For the description of this property, please see \#getMidColor().getMidColor() |
+| [setMinColor(Color value)](#setMinColor-com.aspose.cells.Color-) | For the description of this property, please see \#getMinColor().getMinColor() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -165,7 +165,7 @@ public void setIs3ColorScale(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1108\_
+For the description of this property, please see \#getIs3ColorScale().getIs3ColorScale()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -178,7 +178,7 @@ public void setMaxColor(Color value)
 ```
 
 
-Please see the getter of this property: @CREF1111\_
+For the description of this property, please see \#getMaxColor().getMaxColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -191,7 +191,7 @@ public void setMidColor(Color value)
 ```
 
 
-Please see the getter of this property: @CREF1110\_
+For the description of this property, please see \#getMidColor().getMidColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -204,7 +204,7 @@ public void setMinColor(Color value)
 ```
 
 
-Please see the getter of this property: @CREF1109\_
+For the description of this property, please see \#getMinColor().getMinColor()
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -37,7 +37,7 @@ Represents the custom filters.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeAt(int index)](#removeAt-int-) | Removes the item at the specified index. |
-| [setAnd(boolean value)](#setAnd-boolean-) | Please see the getter of this property: @CREF1133\_ |
+| [setAnd(boolean value)](#setAnd-boolean-) | For the description of this property, please see \#getAnd().getAnd() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -216,7 +216,7 @@ public void setAnd(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1133\_
+For the description of this property, please see \#getAnd().getAnd()
 
 **Parameters:**
 | Parameter | Type | Description |

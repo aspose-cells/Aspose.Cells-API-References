@@ -29,12 +29,12 @@ Represents picture format option
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBottom(double value)](#setBottom-double-) | Please see the getter of this property: @CREF1008\_ |
-| [setLeft(double value)](#setLeft-double-) | Please see the getter of this property: @CREF1006\_ |
-| [setRight(double value)](#setRight-double-) | Please see the getter of this property: @CREF1009\_ |
-| [setScale(double value)](#setScale-double-) | Please see the getter of this property: @CREF1005\_ |
-| [setTop(double value)](#setTop-double-) | Please see the getter of this property: @CREF1007\_ |
-| [setType(int value)](#setType-int-) | Please see the getter of this property: @CREF1004\_ |
+| [setBottom(double value)](#setBottom-double-) | For the description of this property, please see \#getBottom().getBottom() |
+| [setLeft(double value)](#setLeft-double-) | For the description of this property, please see \#getLeft().getLeft() |
+| [setRight(double value)](#setRight-double-) | For the description of this property, please see \#getRight().getRight() |
+| [setScale(double value)](#setScale-double-) | For the description of this property, please see \#getScale().getScale() |
+| [setTop(double value)](#setTop-double-) | For the description of this property, please see \#getTop().getTop() |
+| [setType(int value)](#setType-int-) | For the description of this property, please see \#getType().getType() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -156,7 +156,7 @@ public void setBottom(double value)
 ```
 
 
-Please see the getter of this property: @CREF1008\_
+For the description of this property, please see \#getBottom().getBottom()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -169,7 +169,7 @@ public void setLeft(double value)
 ```
 
 
-Please see the getter of this property: @CREF1006\_
+For the description of this property, please see \#getLeft().getLeft()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -182,7 +182,7 @@ public void setRight(double value)
 ```
 
 
-Please see the getter of this property: @CREF1009\_
+For the description of this property, please see \#getRight().getRight()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -195,7 +195,7 @@ public void setScale(double value)
 ```
 
 
-Please see the getter of this property: @CREF1005\_
+For the description of this property, please see \#getScale().getScale()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -208,7 +208,7 @@ public void setTop(double value)
 ```
 
 
-Please see the getter of this property: @CREF1007\_
+For the description of this property, please see \#getTop().getTop()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -221,7 +221,7 @@ public void setType(int value)
 ```
 
 
-Please see the getter of this property: @CREF1004\_
+For the description of this property, please see \#getType().getType()
 
 **Parameters:**
 | Parameter | Type | Description |

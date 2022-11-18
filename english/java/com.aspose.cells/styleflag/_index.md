@@ -58,36 +58,36 @@ Represents flags which indicates applied formatting properties.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAlignments(boolean value)](#setAlignments-boolean-) | Please see the getter of this property: @CREF1995\_ |
-| [setAll(boolean value)](#setAll-boolean-) | Please see the getter of this property: @CREF1977\_ |
-| [setBorders(boolean value)](#setBorders-boolean-) | Please see the getter of this property: @CREF1978\_ |
-| [setBottomBorder(boolean value)](#setBottomBorder-boolean-) | Please see the getter of this property: @CREF1982\_ |
-| [setCellShading(boolean value)](#setCellShading-boolean-) | Please see the getter of this property: @CREF2003\_ |
-| [setDiagonalDownBorder(boolean value)](#setDiagonalDownBorder-boolean-) | Please see the getter of this property: @CREF1983\_ |
-| [setDiagonalUpBorder(boolean value)](#setDiagonalUpBorder-boolean-) | Please see the getter of this property: @CREF1984\_ |
-| [setFont(boolean value)](#setFont-boolean-) | Please see the getter of this property: @CREF1985\_ |
-| [setFontBold(boolean value)](#setFontBold-boolean-) | Please see the getter of this property: @CREF1989\_ |
-| [setFontColor(boolean value)](#setFontColor-boolean-) | Please see the getter of this property: @CREF1988\_ |
-| [setFontItalic(boolean value)](#setFontItalic-boolean-) | Please see the getter of this property: @CREF1990\_ |
-| [setFontName(boolean value)](#setFontName-boolean-) | Please see the getter of this property: @CREF1987\_ |
-| [setFontScript(boolean value)](#setFontScript-boolean-) | Please see the getter of this property: @CREF1993\_ |
-| [setFontSize(boolean value)](#setFontSize-boolean-) | Please see the getter of this property: @CREF1986\_ |
-| [setFontStrike(boolean value)](#setFontStrike-boolean-) | Please see the getter of this property: @CREF1992\_ |
-| [setFontUnderline(boolean value)](#setFontUnderline-boolean-) | Please see the getter of this property: @CREF1991\_ |
-| [setHideFormula(boolean value)](#setHideFormula-boolean-) | Please see the getter of this property: @CREF2005\_ |
-| [setHorizontalAlignment(boolean value)](#setHorizontalAlignment-boolean-) | Please see the getter of this property: @CREF1996\_ |
-| [setIndent(boolean value)](#setIndent-boolean-) | Please see the getter of this property: @CREF1998\_ |
-| [setLeftBorder(boolean value)](#setLeftBorder-boolean-) | Please see the getter of this property: @CREF1979\_ |
-| [setLocked(boolean value)](#setLocked-boolean-) | Please see the getter of this property: @CREF2004\_ |
-| [setNumberFormat(boolean value)](#setNumberFormat-boolean-) | Please see the getter of this property: @CREF1994\_ |
-| [setQuotePrefix(boolean value)](#setQuotePrefix-boolean-) | Please see the getter of this property: @CREF2006\_ |
-| [setRightBorder(boolean value)](#setRightBorder-boolean-) | Please see the getter of this property: @CREF1980\_ |
-| [setRotation(boolean value)](#setRotation-boolean-) | Please see the getter of this property: @CREF1999\_ |
-| [setShrinkToFit(boolean value)](#setShrinkToFit-boolean-) | Please see the getter of this property: @CREF2001\_ |
-| [setTextDirection(boolean value)](#setTextDirection-boolean-) | Please see the getter of this property: @CREF2002\_ |
-| [setTopBorder(boolean value)](#setTopBorder-boolean-) | Please see the getter of this property: @CREF1981\_ |
-| [setVerticalAlignment(boolean value)](#setVerticalAlignment-boolean-) | Please see the getter of this property: @CREF1997\_ |
-| [setWrapText(boolean value)](#setWrapText-boolean-) | Please see the getter of this property: @CREF2000\_ |
+| [setAlignments(boolean value)](#setAlignments-boolean-) | For the description of this property, please see \#getAlignments().getAlignments() |
+| [setAll(boolean value)](#setAll-boolean-) | For the description of this property, please see \#getAll().getAll() |
+| [setBorders(boolean value)](#setBorders-boolean-) | For the description of this property, please see \#getBorders().getBorders() |
+| [setBottomBorder(boolean value)](#setBottomBorder-boolean-) | For the description of this property, please see \#getBottomBorder().getBottomBorder() |
+| [setCellShading(boolean value)](#setCellShading-boolean-) | For the description of this property, please see \#getCellShading().getCellShading() |
+| [setDiagonalDownBorder(boolean value)](#setDiagonalDownBorder-boolean-) | For the description of this property, please see \#getDiagonalDownBorder().getDiagonalDownBorder() |
+| [setDiagonalUpBorder(boolean value)](#setDiagonalUpBorder-boolean-) | For the description of this property, please see \#getDiagonalUpBorder().getDiagonalUpBorder() |
+| [setFont(boolean value)](#setFont-boolean-) | For the description of this property, please see \#getFont().getFont() |
+| [setFontBold(boolean value)](#setFontBold-boolean-) | For the description of this property, please see \#getFontBold().getFontBold() |
+| [setFontColor(boolean value)](#setFontColor-boolean-) | For the description of this property, please see \#getFontColor().getFontColor() |
+| [setFontItalic(boolean value)](#setFontItalic-boolean-) | For the description of this property, please see \#getFontItalic().getFontItalic() |
+| [setFontName(boolean value)](#setFontName-boolean-) | For the description of this property, please see \#getFontName().getFontName() |
+| [setFontScript(boolean value)](#setFontScript-boolean-) | For the description of this property, please see \#getFontScript().getFontScript() |
+| [setFontSize(boolean value)](#setFontSize-boolean-) | For the description of this property, please see \#getFontSize().getFontSize() |
+| [setFontStrike(boolean value)](#setFontStrike-boolean-) | For the description of this property, please see \#getFontStrike().getFontStrike() |
+| [setFontUnderline(boolean value)](#setFontUnderline-boolean-) | For the description of this property, please see \#getFontUnderline().getFontUnderline() |
+| [setHideFormula(boolean value)](#setHideFormula-boolean-) | For the description of this property, please see \#getHideFormula().getHideFormula() |
+| [setHorizontalAlignment(boolean value)](#setHorizontalAlignment-boolean-) | For the description of this property, please see \#getHorizontalAlignment().getHorizontalAlignment() |
+| [setIndent(boolean value)](#setIndent-boolean-) | For the description of this property, please see \#getIndent().getIndent() |
+| [setLeftBorder(boolean value)](#setLeftBorder-boolean-) | For the description of this property, please see \#getLeftBorder().getLeftBorder() |
+| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see \#getLocked().getLocked() |
+| [setNumberFormat(boolean value)](#setNumberFormat-boolean-) | For the description of this property, please see \#getNumberFormat().getNumberFormat() |
+| [setQuotePrefix(boolean value)](#setQuotePrefix-boolean-) | For the description of this property, please see \#getQuotePrefix().getQuotePrefix() |
+| [setRightBorder(boolean value)](#setRightBorder-boolean-) | For the description of this property, please see \#getRightBorder().getRightBorder() |
+| [setRotation(boolean value)](#setRotation-boolean-) | For the description of this property, please see \#getRotation().getRotation() |
+| [setShrinkToFit(boolean value)](#setShrinkToFit-boolean-) | For the description of this property, please see \#getShrinkToFit().getShrinkToFit() |
+| [setTextDirection(boolean value)](#setTextDirection-boolean-) | For the description of this property, please see \#getTextDirection().getTextDirection() |
+| [setTopBorder(boolean value)](#setTopBorder-boolean-) | For the description of this property, please see \#getTopBorder().getTopBorder() |
+| [setVerticalAlignment(boolean value)](#setVerticalAlignment-boolean-) | For the description of this property, please see \#getVerticalAlignment().getVerticalAlignment() |
+| [setWrapText(boolean value)](#setWrapText-boolean-) | For the description of this property, please see \#getWrapText().getWrapText() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -457,7 +457,7 @@ public void setAlignments(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1995\_
+For the description of this property, please see \#getAlignments().getAlignments()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -470,7 +470,7 @@ public void setAll(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1977\_
+For the description of this property, please see \#getAll().getAll()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -483,7 +483,7 @@ public void setBorders(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1978\_
+For the description of this property, please see \#getBorders().getBorders()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -496,7 +496,7 @@ public void setBottomBorder(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1982\_
+For the description of this property, please see \#getBottomBorder().getBottomBorder()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -509,7 +509,7 @@ public void setCellShading(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF2003\_
+For the description of this property, please see \#getCellShading().getCellShading()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -522,7 +522,7 @@ public void setDiagonalDownBorder(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1983\_
+For the description of this property, please see \#getDiagonalDownBorder().getDiagonalDownBorder()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -535,7 +535,7 @@ public void setDiagonalUpBorder(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1984\_
+For the description of this property, please see \#getDiagonalUpBorder().getDiagonalUpBorder()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -548,7 +548,7 @@ public void setFont(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1985\_
+For the description of this property, please see \#getFont().getFont()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -561,7 +561,7 @@ public void setFontBold(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1989\_
+For the description of this property, please see \#getFontBold().getFontBold()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -574,7 +574,7 @@ public void setFontColor(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1988\_
+For the description of this property, please see \#getFontColor().getFontColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -587,7 +587,7 @@ public void setFontItalic(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1990\_
+For the description of this property, please see \#getFontItalic().getFontItalic()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -600,7 +600,7 @@ public void setFontName(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1987\_
+For the description of this property, please see \#getFontName().getFontName()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -613,7 +613,7 @@ public void setFontScript(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1993\_
+For the description of this property, please see \#getFontScript().getFontScript()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -626,7 +626,7 @@ public void setFontSize(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1986\_
+For the description of this property, please see \#getFontSize().getFontSize()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -639,7 +639,7 @@ public void setFontStrike(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1992\_
+For the description of this property, please see \#getFontStrike().getFontStrike()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -652,7 +652,7 @@ public void setFontUnderline(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1991\_
+For the description of this property, please see \#getFontUnderline().getFontUnderline()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -665,7 +665,7 @@ public void setHideFormula(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF2005\_
+For the description of this property, please see \#getHideFormula().getHideFormula()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -678,7 +678,7 @@ public void setHorizontalAlignment(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1996\_
+For the description of this property, please see \#getHorizontalAlignment().getHorizontalAlignment()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -691,7 +691,7 @@ public void setIndent(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1998\_
+For the description of this property, please see \#getIndent().getIndent()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -704,7 +704,7 @@ public void setLeftBorder(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1979\_
+For the description of this property, please see \#getLeftBorder().getLeftBorder()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -717,7 +717,7 @@ public void setLocked(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF2004\_
+For the description of this property, please see \#getLocked().getLocked()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -730,7 +730,7 @@ public void setNumberFormat(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1994\_
+For the description of this property, please see \#getNumberFormat().getNumberFormat()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -743,7 +743,7 @@ public void setQuotePrefix(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF2006\_
+For the description of this property, please see \#getQuotePrefix().getQuotePrefix()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -756,7 +756,7 @@ public void setRightBorder(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1980\_
+For the description of this property, please see \#getRightBorder().getRightBorder()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -769,7 +769,7 @@ public void setRotation(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1999\_
+For the description of this property, please see \#getRotation().getRotation()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -782,7 +782,7 @@ public void setShrinkToFit(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF2001\_
+For the description of this property, please see \#getShrinkToFit().getShrinkToFit()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -795,7 +795,7 @@ public void setTextDirection(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF2002\_
+For the description of this property, please see \#getTextDirection().getTextDirection()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -808,7 +808,7 @@ public void setTopBorder(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1981\_
+For the description of this property, please see \#getTopBorder().getTopBorder()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -821,7 +821,7 @@ public void setVerticalAlignment(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1997\_
+For the description of this property, please see \#getVerticalAlignment().getVerticalAlignment()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -834,7 +834,7 @@ public void setWrapText(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF2000\_
+For the description of this property, please see \#getWrapText().getWrapText()
 
 **Parameters:**
 | Parameter | Type | Description |

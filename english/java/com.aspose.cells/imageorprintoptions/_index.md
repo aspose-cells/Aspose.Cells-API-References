@@ -74,38 +74,38 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 | [isOptimized()](#isOptimized--) | Indicates whether to optimize the output elements. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAllColumnsInOnePagePerSheet(boolean value)](#setAllColumnsInOnePagePerSheet-boolean-) | Please see the getter of this property: [getAllColumnsInOnePagePerSheet()](../../com.aspose.cells/imageorprintoptions\#getAllColumnsInOnePagePerSheet--) |
-| [setCellAutoFit(boolean value)](#setCellAutoFit-boolean-) | Please see the getter of this property: [isCellAutoFit()](../../com.aspose.cells/imageorprintoptions\#isCellAutoFit--) |
-| [setChartImageType(ImageFormat value)](#setChartImageType-com.aspose.cells.ImageFormat-) | Please see the getter of this property: [getChartImageType()](../../com.aspose.cells/imageorprintoptions\#getChartImageType--) |
-| [setCheckWorkbookDefaultFont(boolean value)](#setCheckWorkbookDefaultFont-boolean-) | Please see the getter of this property: [getCheckWorkbookDefaultFont()](../../com.aspose.cells/imageorprintoptions\#getCheckWorkbookDefaultFont--) |
-| [setDefaultEditLanguage(int value)](#setDefaultEditLanguage-int-) | Please see the getter of this property: [getDefaultEditLanguage()](../../com.aspose.cells/imageorprintoptions\#getDefaultEditLanguage--) |
-| [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | Please see the getter of this property: [getDefaultFont()](../../com.aspose.cells/imageorprintoptions\#getDefaultFont--) |
+| [setAllColumnsInOnePagePerSheet(boolean value)](#setAllColumnsInOnePagePerSheet-boolean-) | For the description of this property, please see \#getAllColumnsInOnePagePerSheet().getAllColumnsInOnePagePerSheet() |
+| [setCellAutoFit(boolean value)](#setCellAutoFit-boolean-) | For the description of this property, please see \#isCellAutoFit().isCellAutoFit() |
+| [setChartImageType(ImageFormat value)](#setChartImageType-com.aspose.cells.ImageFormat-) | For the description of this property, please see \#getChartImageType().getChartImageType() |
+| [setCheckWorkbookDefaultFont(boolean value)](#setCheckWorkbookDefaultFont-boolean-) | For the description of this property, please see \#getCheckWorkbookDefaultFont().getCheckWorkbookDefaultFont() |
+| [setDefaultEditLanguage(int value)](#setDefaultEditLanguage-int-) | For the description of this property, please see \#getDefaultEditLanguage().getDefaultEditLanguage() |
+| [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | For the description of this property, please see \#getDefaultFont().getDefaultFont() |
 | [setDesiredSize(int desiredWidth, int desiredHeight)](#setDesiredSize-int-int-) | Sets desired width and height of image. |
-| [setDrawObjectEventHandler(DrawObjectEventHandler value)](#setDrawObjectEventHandler-com.aspose.cells.DrawObjectEventHandler-) | Please see the getter of this property: [getDrawObjectEventHandler()](../../com.aspose.cells/imageorprintoptions\#getDrawObjectEventHandler--) |
-| [setEmbededImageNameInSvg(String value)](#setEmbededImageNameInSvg-java.lang.String-) | Please see the getter of this property: [getEmbededImageNameInSvg()](../../com.aspose.cells/imageorprintoptions\#getEmbededImageNameInSvg--) |
+| [setDrawObjectEventHandler(DrawObjectEventHandler value)](#setDrawObjectEventHandler-com.aspose.cells.DrawObjectEventHandler-) | For the description of this property, please see \#getDrawObjectEventHandler().getDrawObjectEventHandler() |
+| [setEmbededImageNameInSvg(String value)](#setEmbededImageNameInSvg-java.lang.String-) | For the description of this property, please see \#getEmbededImageNameInSvg().getEmbededImageNameInSvg() |
 | [setFontSubstitutionCharGranularity(boolean value)](#setFontSubstitutionCharGranularity-boolean-) |  |
-| [setGridlineType(int value)](#setGridlineType-int-) | Please see the getter of this property: [getGridlineType()](../../com.aspose.cells/imageorprintoptions\#getGridlineType--) |
-| [setHorizontalResolution(int value)](#setHorizontalResolution-int-) | Please see the getter of this property: [getHorizontalResolution()](../../com.aspose.cells/imageorprintoptions\#getHorizontalResolution--) |
-| [setImageType(int value)](#setImageType-int-) | Please see the getter of this property: [getImageType()](../../com.aspose.cells/imageorprintoptions\#getImageType--) |
-| [setOnePagePerSheet(boolean value)](#setOnePagePerSheet-boolean-) | Please see the getter of this property: [getOnePagePerSheet()](../../com.aspose.cells/imageorprintoptions\#getOnePagePerSheet--) |
-| [setOnlyArea(boolean value)](#setOnlyArea-boolean-) | Please see the getter of this property: [getOnlyArea()](../../com.aspose.cells/imageorprintoptions\#getOnlyArea--) |
-| [setOptimized(boolean value)](#setOptimized-boolean-) | Please see the getter of this property: [isOptimized()](../../com.aspose.cells/imageorprintoptions\#isOptimized--) |
-| [setOutputBlankPageWhenNothingToPrint(boolean value)](#setOutputBlankPageWhenNothingToPrint-boolean-) | Please see the getter of this property: [getOutputBlankPageWhenNothingToPrint()](../../com.aspose.cells/imageorprintoptions\#getOutputBlankPageWhenNothingToPrint--) |
+| [setGridlineType(int value)](#setGridlineType-int-) | For the description of this property, please see \#getGridlineType().getGridlineType() |
+| [setHorizontalResolution(int value)](#setHorizontalResolution-int-) | For the description of this property, please see \#getHorizontalResolution().getHorizontalResolution() |
+| [setImageType(int value)](#setImageType-int-) | For the description of this property, please see \#getImageType().getImageType() |
+| [setOnePagePerSheet(boolean value)](#setOnePagePerSheet-boolean-) | For the description of this property, please see \#getOnePagePerSheet().getOnePagePerSheet() |
+| [setOnlyArea(boolean value)](#setOnlyArea-boolean-) | For the description of this property, please see \#getOnlyArea().getOnlyArea() |
+| [setOptimized(boolean value)](#setOptimized-boolean-) | For the description of this property, please see \#isOptimized().isOptimized() |
+| [setOutputBlankPageWhenNothingToPrint(boolean value)](#setOutputBlankPageWhenNothingToPrint-boolean-) | For the description of this property, please see \#getOutputBlankPageWhenNothingToPrint().getOutputBlankPageWhenNothingToPrint() |
 | [setPageCount(int value)](#setPageCount-int-) |  |
 | [setPageIndex(int value)](#setPageIndex-int-) |  |
-| [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.cells.IPageSavingCallback-) | Please see the getter of this property: [getPageSavingCallback()](../../com.aspose.cells/imageorprintoptions\#getPageSavingCallback--) |
+| [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.cells.IPageSavingCallback-) | For the description of this property, please see \#getPageSavingCallback().getPageSavingCallback() |
 | [setPrintWithStatusDialog(boolean value)](#setPrintWithStatusDialog-boolean-) |  |
-| [setPrintingPage(int value)](#setPrintingPage-int-) | Please see the getter of this property: [getPrintingPage()](../../com.aspose.cells/imageorprintoptions\#getPrintingPage--) |
-| [setQuality(int value)](#setQuality-int-) | Please see the getter of this property: [getQuality()](../../com.aspose.cells/imageorprintoptions\#getQuality--) |
+| [setPrintingPage(int value)](#setPrintingPage-int-) | For the description of this property, please see \#getPrintingPage().getPrintingPage() |
+| [setQuality(int value)](#setQuality-int-) | For the description of this property, please see \#getQuality().getQuality() |
 | [setRenderingHint(RenderingHints.Key key, Object value)](#setRenderingHint-java.awt.RenderingHints.Key-java.lang.Object-) | Sets the value of a single preference for the rendering algorithms. |
-| [setSVGFitToViewPort(boolean value)](#setSVGFitToViewPort-boolean-) | Please see the getter of this property: [getSVGFitToViewPort()](../../com.aspose.cells/imageorprintoptions\#getSVGFitToViewPort--) |
+| [setSVGFitToViewPort(boolean value)](#setSVGFitToViewPort-boolean-) | For the description of this property, please see \#getSVGFitToViewPort().getSVGFitToViewPort() |
 | [setSaveFormat(int value)](#setSaveFormat-int-) |  |
-| [setSheetSet(SheetSet value)](#setSheetSet-com.aspose.cells.SheetSet-) | Please see the getter of this property: [getSheetSet()](../../com.aspose.cells/imageorprintoptions\#getSheetSet--) |
-| [setTextCrossType(int value)](#setTextCrossType-int-) | Please see the getter of this property: [getTextCrossType()](../../com.aspose.cells/imageorprintoptions\#getTextCrossType--) |
-| [setTiffColorDepth(int value)](#setTiffColorDepth-int-) | Please see the getter of this property: [getTiffColorDepth()](../../com.aspose.cells/imageorprintoptions\#getTiffColorDepth--) |
-| [setTiffCompression(int value)](#setTiffCompression-int-) | Please see the getter of this property: [getTiffCompression()](../../com.aspose.cells/imageorprintoptions\#getTiffCompression--) |
-| [setTransparent(boolean value)](#setTransparent-boolean-) | Please see the getter of this property: [getTransparent()](../../com.aspose.cells/imageorprintoptions\#getTransparent--) |
-| [setVerticalResolution(int value)](#setVerticalResolution-int-) | Please see the getter of this property: [getVerticalResolution()](../../com.aspose.cells/imageorprintoptions\#getVerticalResolution--) |
+| [setSheetSet(SheetSet value)](#setSheetSet-com.aspose.cells.SheetSet-) | For the description of this property, please see \#getSheetSet().getSheetSet() |
+| [setTextCrossType(int value)](#setTextCrossType-int-) | For the description of this property, please see \#getTextCrossType().getTextCrossType() |
+| [setTiffColorDepth(int value)](#setTiffColorDepth-int-) | For the description of this property, please see \#getTiffColorDepth().getTiffColorDepth() |
+| [setTiffCompression(int value)](#setTiffCompression-int-) | For the description of this property, please see \#getTiffCompression().getTiffCompression() |
+| [setTransparent(boolean value)](#setTransparent-boolean-) | For the description of this property, please see \#getTransparent().getTransparent() |
+| [setVerticalResolution(int value)](#setVerticalResolution-int-) | For the description of this property, please see \#getVerticalResolution().getVerticalResolution() |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -478,7 +478,7 @@ public void setAllColumnsInOnePagePerSheet(boolean value)
 ```
 
 
-Please see the getter of this property: [getAllColumnsInOnePagePerSheet()](../../com.aspose.cells/imageorprintoptions\#getAllColumnsInOnePagePerSheet--)
+For the description of this property, please see \#getAllColumnsInOnePagePerSheet().getAllColumnsInOnePagePerSheet()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -491,7 +491,7 @@ public void setCellAutoFit(boolean value)
 ```
 
 
-Please see the getter of this property: [isCellAutoFit()](../../com.aspose.cells/imageorprintoptions\#isCellAutoFit--)
+For the description of this property, please see \#isCellAutoFit().isCellAutoFit()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -504,7 +504,7 @@ public void setChartImageType(ImageFormat value)
 ```
 
 
-Please see the getter of this property: [getChartImageType()](../../com.aspose.cells/imageorprintoptions\#getChartImageType--)
+For the description of this property, please see \#getChartImageType().getChartImageType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -517,7 +517,7 @@ public void setCheckWorkbookDefaultFont(boolean value)
 ```
 
 
-Please see the getter of this property: [getCheckWorkbookDefaultFont()](../../com.aspose.cells/imageorprintoptions\#getCheckWorkbookDefaultFont--)
+For the description of this property, please see \#getCheckWorkbookDefaultFont().getCheckWorkbookDefaultFont()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -530,7 +530,7 @@ public void setDefaultEditLanguage(int value)
 ```
 
 
-Please see the getter of this property: [getDefaultEditLanguage()](../../com.aspose.cells/imageorprintoptions\#getDefaultEditLanguage--)
+For the description of this property, please see \#getDefaultEditLanguage().getDefaultEditLanguage()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -543,7 +543,7 @@ public void setDefaultFont(String value)
 ```
 
 
-Please see the getter of this property: [getDefaultFont()](../../com.aspose.cells/imageorprintoptions\#getDefaultFont--)
+For the description of this property, please see \#getDefaultFont().getDefaultFont()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -570,7 +570,7 @@ public void setDrawObjectEventHandler(DrawObjectEventHandler value)
 ```
 
 
-Please see the getter of this property: [getDrawObjectEventHandler()](../../com.aspose.cells/imageorprintoptions\#getDrawObjectEventHandler--)
+For the description of this property, please see \#getDrawObjectEventHandler().getDrawObjectEventHandler()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -583,7 +583,7 @@ public void setEmbededImageNameInSvg(String value)
 ```
 
 
-Please see the getter of this property: [getEmbededImageNameInSvg()](../../com.aspose.cells/imageorprintoptions\#getEmbededImageNameInSvg--)
+For the description of this property, please see \#getEmbededImageNameInSvg().getEmbededImageNameInSvg()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -609,7 +609,7 @@ public void setGridlineType(int value)
 ```
 
 
-Please see the getter of this property: [getGridlineType()](../../com.aspose.cells/imageorprintoptions\#getGridlineType--)
+For the description of this property, please see \#getGridlineType().getGridlineType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -622,7 +622,7 @@ public void setHorizontalResolution(int value)
 ```
 
 
-Please see the getter of this property: [getHorizontalResolution()](../../com.aspose.cells/imageorprintoptions\#getHorizontalResolution--)
+For the description of this property, please see \#getHorizontalResolution().getHorizontalResolution()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -635,7 +635,7 @@ public void setImageType(int value)
 ```
 
 
-Please see the getter of this property: [getImageType()](../../com.aspose.cells/imageorprintoptions\#getImageType--)
+For the description of this property, please see \#getImageType().getImageType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -648,7 +648,7 @@ public void setOnePagePerSheet(boolean value)
 ```
 
 
-Please see the getter of this property: [getOnePagePerSheet()](../../com.aspose.cells/imageorprintoptions\#getOnePagePerSheet--)
+For the description of this property, please see \#getOnePagePerSheet().getOnePagePerSheet()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -661,7 +661,7 @@ public void setOnlyArea(boolean value)
 ```
 
 
-Please see the getter of this property: [getOnlyArea()](../../com.aspose.cells/imageorprintoptions\#getOnlyArea--)
+For the description of this property, please see \#getOnlyArea().getOnlyArea()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -674,7 +674,7 @@ public void setOptimized(boolean value)
 ```
 
 
-Please see the getter of this property: [isOptimized()](../../com.aspose.cells/imageorprintoptions\#isOptimized--)
+For the description of this property, please see \#isOptimized().isOptimized()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -687,7 +687,7 @@ public void setOutputBlankPageWhenNothingToPrint(boolean value)
 ```
 
 
-Please see the getter of this property: [getOutputBlankPageWhenNothingToPrint()](../../com.aspose.cells/imageorprintoptions\#getOutputBlankPageWhenNothingToPrint--)
+For the description of this property, please see \#getOutputBlankPageWhenNothingToPrint().getOutputBlankPageWhenNothingToPrint()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -726,7 +726,7 @@ public void setPageSavingCallback(IPageSavingCallback value)
 ```
 
 
-Please see the getter of this property: [getPageSavingCallback()](../../com.aspose.cells/imageorprintoptions\#getPageSavingCallback--)
+For the description of this property, please see \#getPageSavingCallback().getPageSavingCallback()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -752,7 +752,7 @@ public void setPrintingPage(int value)
 ```
 
 
-Please see the getter of this property: [getPrintingPage()](../../com.aspose.cells/imageorprintoptions\#getPrintingPage--)
+For the description of this property, please see \#getPrintingPage().getPrintingPage()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -765,7 +765,7 @@ public void setQuality(int value)
 ```
 
 
-Please see the getter of this property: [getQuality()](../../com.aspose.cells/imageorprintoptions\#getQuality--)
+For the description of this property, please see \#getQuality().getQuality()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -792,7 +792,7 @@ public void setSVGFitToViewPort(boolean value)
 ```
 
 
-Please see the getter of this property: [getSVGFitToViewPort()](../../com.aspose.cells/imageorprintoptions\#getSVGFitToViewPort--)
+For the description of this property, please see \#getSVGFitToViewPort().getSVGFitToViewPort()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -818,7 +818,7 @@ public void setSheetSet(SheetSet value)
 ```
 
 
-Please see the getter of this property: [getSheetSet()](../../com.aspose.cells/imageorprintoptions\#getSheetSet--)
+For the description of this property, please see \#getSheetSet().getSheetSet()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -831,7 +831,7 @@ public void setTextCrossType(int value)
 ```
 
 
-Please see the getter of this property: [getTextCrossType()](../../com.aspose.cells/imageorprintoptions\#getTextCrossType--)
+For the description of this property, please see \#getTextCrossType().getTextCrossType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -844,7 +844,7 @@ public void setTiffColorDepth(int value)
 ```
 
 
-Please see the getter of this property: [getTiffColorDepth()](../../com.aspose.cells/imageorprintoptions\#getTiffColorDepth--)
+For the description of this property, please see \#getTiffColorDepth().getTiffColorDepth()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -857,7 +857,7 @@ public void setTiffCompression(int value)
 ```
 
 
-Please see the getter of this property: [getTiffCompression()](../../com.aspose.cells/imageorprintoptions\#getTiffCompression--)
+For the description of this property, please see \#getTiffCompression().getTiffCompression()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -870,7 +870,7 @@ public void setTransparent(boolean value)
 ```
 
 
-Please see the getter of this property: [getTransparent()](../../com.aspose.cells/imageorprintoptions\#getTransparent--)
+For the description of this property, please see \#getTransparent().getTransparent()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -883,7 +883,7 @@ public void setVerticalResolution(int value)
 ```
 
 
-Please see the getter of this property: [getVerticalResolution()](../../com.aspose.cells/imageorprintoptions\#getVerticalResolution--)
+For the description of this property, please see \#getVerticalResolution().getVerticalResolution()
 
 **Parameters:**
 | Parameter | Type | Description |

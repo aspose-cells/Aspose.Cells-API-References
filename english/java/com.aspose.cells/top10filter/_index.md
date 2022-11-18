@@ -27,10 +27,10 @@ Represents the top 10 filter.
 | [isTop()](#isTop--) | Indicates whether it's top filter. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCriteria(Object value)](#setCriteria-java.lang.Object-) | Please see the getter of this property: @CREF1150\_ |
-| [setItems(int value)](#setItems-int-) | Please see the getter of this property: @CREF1149\_ |
-| [setPercent(boolean value)](#setPercent-boolean-) | Please see the getter of this property: @CREF1148\_ |
-| [setTop(boolean value)](#setTop-boolean-) | Please see the getter of this property: @CREF1147\_ |
+| [setCriteria(Object value)](#setCriteria-java.lang.Object-) | For the description of this property, please see \#getCriteria().getCriteria() |
+| [setItems(int value)](#setItems-int-) | For the description of this property, please see \#getItems().getItems() |
+| [setPercent(boolean value)](#setPercent-boolean-) | For the description of this property, please see \#isPercent().isPercent() |
+| [setTop(boolean value)](#setTop-boolean-) | For the description of this property, please see \#isTop().isTop() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -132,7 +132,7 @@ public void setCriteria(Object value)
 ```
 
 
-Please see the getter of this property: @CREF1150\_
+For the description of this property, please see \#getCriteria().getCriteria()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setItems(int value)
 ```
 
 
-Please see the getter of this property: @CREF1149\_
+For the description of this property, please see \#getItems().getItems()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public void setPercent(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1148\_
+For the description of this property, please see \#isPercent().isPercent()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,7 +171,7 @@ public void setTop(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1147\_
+For the description of this property, please see \#isTop().isTop()
 
 **Parameters:**
 | Parameter | Type | Description |

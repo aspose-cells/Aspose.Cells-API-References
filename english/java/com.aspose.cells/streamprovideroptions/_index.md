@@ -26,6 +26,7 @@ Represents the stream options.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
+| [getCustomPath()](#getCustomPath--) | The user custom path(URL) saved in generated html file for the referred source. |
 | [getDefaultPath()](#getDefaultPath--) | The default path(URL) saved in generated html file for the referred source. |
 | [getInputStream()](#getInputStream--) | Gets/Sets the input stream to get data. |
 | [getResourceLoadingType()](#getResourceLoadingType--) | Gets and sets the type of loading resource. |
@@ -33,10 +34,10 @@ Represents the stream options.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCustomPath(String value)](#setCustomPath-java.lang.String-) | The user custom path(URL) saved in generated html file for the referred source. |
-| [setInputStream(InputStream value)](#setInputStream-java.io.InputStream-) | Please see the getter of this property: [getInputStream()](../../com.aspose.cells/streamprovideroptions\#getInputStream--) |
-| [setResourceLoadingType(int value)](#setResourceLoadingType-int-) | Please see the getter of this property: [getResourceLoadingType()](../../com.aspose.cells/streamprovideroptions\#getResourceLoadingType--) |
-| [setStream(OutputStream value)](#setStream-java.io.OutputStream-) | Please see the getter of this property: [getStream()](../../com.aspose.cells/streamprovideroptions\#getStream--) |
+| [setCustomPath(String value)](#setCustomPath-java.lang.String-) | For the description of this property, please see \#getCustomPath().getCustomPath() |
+| [setInputStream(InputStream value)](#setInputStream-java.io.InputStream-) | For the description of this property, please see \#getInputStream().getInputStream() |
+| [setResourceLoadingType(int value)](#setResourceLoadingType-int-) | For the description of this property, please see \#getResourceLoadingType().getResourceLoadingType() |
+| [setStream(OutputStream value)](#setStream-java.io.OutputStream-) | For the description of this property, please see \#getStream().getStream() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -88,6 +89,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getCustomPath() {#getCustomPath--}
+```
+public String getCustomPath()
+```
+
+
+The user custom path(URL) saved in generated html file for the referred source. If not defined by user, DefaultPath will be used. For example, the sheet data will be saved by user to d:/sheet001.htm, the url used in the main html file should be "d:/sheet001.htm" or other valid relative path that can be accessed by the main html file.
+
+**Returns:**
+java.lang.String
 ### getDefaultPath() {#getDefaultPath--}
 ```
 public String getDefaultPath()
@@ -160,7 +171,7 @@ public void setCustomPath(String value)
 ```
 
 
-The user custom path(URL) saved in generated html file for the referred source. If not defined by user, DefaultPath will be used. For example, the sheet data will be saved by user to d:/sheet001.htm, the url used in the main html file should be "d:/sheet001.htm" or other valid relative path that can be accessed by the main html file.
+For the description of this property, please see \#getCustomPath().getCustomPath()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -173,7 +184,7 @@ public void setInputStream(InputStream value)
 ```
 
 
-Please see the getter of this property: [getInputStream()](../../com.aspose.cells/streamprovideroptions\#getInputStream--)
+For the description of this property, please see \#getInputStream().getInputStream()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -186,7 +197,7 @@ public void setResourceLoadingType(int value)
 ```
 
 
-Please see the getter of this property: [getResourceLoadingType()](../../com.aspose.cells/streamprovideroptions\#getResourceLoadingType--)
+For the description of this property, please see \#getResourceLoadingType().getResourceLoadingType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -199,7 +210,7 @@ public void setStream(OutputStream value)
 ```
 
 
-Please see the getter of this property: [getStream()](../../com.aspose.cells/streamprovideroptions\#getStream--)
+For the description of this property, please see \#getStream().getStream()
 
 **Parameters:**
 | Parameter | Type | Description |

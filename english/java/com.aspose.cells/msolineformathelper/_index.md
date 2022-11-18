@@ -30,13 +30,13 @@ Represents line and arrowhead formatting.
 | [isVisible()](#isVisible--) | Indicates whether the object is visible. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBackColor(Color value)](#setBackColor-com.aspose.cells.Color-) | Please see the getter of this property: @CREF138\_ |
-| [setDashStyle(int value)](#setDashStyle-int-) | Please see the getter of this property: @CREF139\_ |
-| [setForeColor(Color value)](#setForeColor-com.aspose.cells.Color-) | Please see the getter of this property: @CREF137\_ |
-| [setStyle(int value)](#setStyle-int-) | Please see the getter of this property: @CREF136\_ |
-| [setTransparency(double value)](#setTransparency-double-) | Please see the getter of this property: @CREF140\_ |
-| [setVisible(boolean value)](#setVisible-boolean-) | Please see the getter of this property: @CREF135\_ |
-| [setWeight(double value)](#setWeight-double-) | Please see the getter of this property: @CREF141\_ |
+| [setBackColor(Color value)](#setBackColor-com.aspose.cells.Color-) | For the description of this property, please see \#getBackColor().getBackColor() |
+| [setDashStyle(int value)](#setDashStyle-int-) | For the description of this property, please see \#getDashStyle().getDashStyle() |
+| [setForeColor(Color value)](#setForeColor-com.aspose.cells.Color-) | For the description of this property, please see \#getForeColor().getForeColor() |
+| [setStyle(int value)](#setStyle-int-) | For the description of this property, please see \#getStyle().getStyle() |
+| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see \#getTransparency().getTransparency() |
+| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see \#isVisible().isVisible() |
+| [setWeight(double value)](#setWeight-double-) | For the description of this property, please see \#getWeight().getWeight() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -168,7 +168,7 @@ public void setBackColor(Color value)
 ```
 
 
-Please see the getter of this property: @CREF138\_
+For the description of this property, please see \#getBackColor().getBackColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,7 +181,7 @@ public void setDashStyle(int value)
 ```
 
 
-Please see the getter of this property: @CREF139\_
+For the description of this property, please see \#getDashStyle().getDashStyle()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -194,7 +194,7 @@ public void setForeColor(Color value)
 ```
 
 
-Please see the getter of this property: @CREF137\_
+For the description of this property, please see \#getForeColor().getForeColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -207,7 +207,7 @@ public void setStyle(int value)
 ```
 
 
-Please see the getter of this property: @CREF136\_
+For the description of this property, please see \#getStyle().getStyle()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -220,7 +220,7 @@ public void setTransparency(double value)
 ```
 
 
-Please see the getter of this property: @CREF140\_
+For the description of this property, please see \#getTransparency().getTransparency()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -233,7 +233,7 @@ public void setVisible(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF135\_
+For the description of this property, please see \#isVisible().isVisible()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ public void setWeight(double value)
 ```
 
 
-Please see the getter of this property: @CREF141\_
+For the description of this property, please see \#getWeight().getWeight()
 
 **Parameters:**
 | Parameter | Type | Description |

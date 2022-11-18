@@ -40,8 +40,8 @@ Represents an external link in a workbook.
 | [isVisible()](#isVisible--) | Indicates whether this external link is visible in MS Excel. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDataSource(String value)](#setDataSource-java.lang.String-) | Please see the getter of this property: [getDataSource()](../../com.aspose.cells/externallink\#getDataSource--) |
-| [setOriginalDataSource(String value)](#setOriginalDataSource-java.lang.String-) | Please see the getter of this property: [getOriginalDataSource()](../../com.aspose.cells/externallink\#getOriginalDataSource--) |
+| [setDataSource(String value)](#setDataSource-java.lang.String-) | For the description of this property, please see \#getDataSource().getDataSource() |
+| [setOriginalDataSource(String value)](#setOriginalDataSource-java.lang.String-) | For the description of this property, please see \#getOriginalDataSource().getOriginalDataSource() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -167,7 +167,7 @@ public void setDataSource(String value)
 ```
 
 
-Please see the getter of this property: [getDataSource()](../../com.aspose.cells/externallink\#getDataSource--)
+For the description of this property, please see \#getDataSource().getDataSource()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -180,7 +180,7 @@ public void setOriginalDataSource(String value)
 ```
 
 
-Please see the getter of this property: [getOriginalDataSource()](../../com.aspose.cells/externallink\#getOriginalDataSource--)
+For the description of this property, please see \#getOriginalDataSource().getOriginalDataSource()
 
 **Parameters:**
 | Parameter | Type | Description |

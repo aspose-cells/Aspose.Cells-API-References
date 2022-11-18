@@ -51,21 +51,21 @@ Represents the text paragraph setting.
 | [isLatinLineBreak()](#isLatinLineBreak--) | Specifies whether a Latin word can be broken in half and wrapped onto the next line without a hyphen being added. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAlignmentType(int value)](#setAlignmentType-int-) | Please see the getter of this property: @CREF774\_ |
-| [setDefaultTabSize(double value)](#setDefaultTabSize-double-) | Please see the getter of this property: @CREF775\_ |
-| [setEastAsianLineBreak(boolean value)](#setEastAsianLineBreak-boolean-) | Please see the getter of this property: @CREF768\_ |
-| [setFirstLineIndent(double value)](#setFirstLineIndent-double-) | Please see the getter of this property: @CREF772\_ |
-| [setFontAlignType(int value)](#setFontAlignType-int-) | Please see the getter of this property: @CREF773\_ |
-| [setHangingPunctuation(boolean value)](#setHangingPunctuation-boolean-) | Please see the getter of this property: @CREF769\_ |
-| [setLatinLineBreak(boolean value)](#setLatinLineBreak-boolean-) | Please see the getter of this property: @CREF767\_ |
-| [setLeftMargin(double value)](#setLeftMargin-double-) | Please see the getter of this property: @CREF771\_ |
-| [setLineSpace(double value)](#setLineSpace-double-) | Please see the getter of this property: @CREF762\_ |
-| [setLineSpaceSizeType(int value)](#setLineSpaceSizeType-int-) | Please see the getter of this property: @CREF761\_ |
-| [setRightMargin(double value)](#setRightMargin-double-) | Please see the getter of this property: @CREF770\_ |
-| [setSpaceAfter(double value)](#setSpaceAfter-double-) | Please see the getter of this property: @CREF764\_ |
-| [setSpaceAfterSizeType(int value)](#setSpaceAfterSizeType-int-) | Please see the getter of this property: @CREF763\_ |
-| [setSpaceBefore(double value)](#setSpaceBefore-double-) | Please see the getter of this property: @CREF766\_ |
-| [setSpaceBeforeSizeType(int value)](#setSpaceBeforeSizeType-int-) | Please see the getter of this property: @CREF765\_ |
+| [setAlignmentType(int value)](#setAlignmentType-int-) | For the description of this property, please see \#getAlignmentType().getAlignmentType() |
+| [setDefaultTabSize(double value)](#setDefaultTabSize-double-) | For the description of this property, please see \#getDefaultTabSize().getDefaultTabSize() |
+| [setEastAsianLineBreak(boolean value)](#setEastAsianLineBreak-boolean-) | For the description of this property, please see \#isEastAsianLineBreak().isEastAsianLineBreak() |
+| [setFirstLineIndent(double value)](#setFirstLineIndent-double-) | For the description of this property, please see \#getFirstLineIndent().getFirstLineIndent() |
+| [setFontAlignType(int value)](#setFontAlignType-int-) | For the description of this property, please see \#getFontAlignType().getFontAlignType() |
+| [setHangingPunctuation(boolean value)](#setHangingPunctuation-boolean-) | For the description of this property, please see \#isHangingPunctuation().isHangingPunctuation() |
+| [setLatinLineBreak(boolean value)](#setLatinLineBreak-boolean-) | For the description of this property, please see \#isLatinLineBreak().isLatinLineBreak() |
+| [setLeftMargin(double value)](#setLeftMargin-double-) | For the description of this property, please see \#getLeftMargin().getLeftMargin() |
+| [setLineSpace(double value)](#setLineSpace-double-) | For the description of this property, please see \#getLineSpace().getLineSpace() |
+| [setLineSpaceSizeType(int value)](#setLineSpaceSizeType-int-) | For the description of this property, please see \#getLineSpaceSizeType().getLineSpaceSizeType() |
+| [setRightMargin(double value)](#setRightMargin-double-) | For the description of this property, please see \#getRightMargin().getRightMargin() |
+| [setSpaceAfter(double value)](#setSpaceAfter-double-) | For the description of this property, please see \#getSpaceAfter().getSpaceAfter() |
+| [setSpaceAfterSizeType(int value)](#setSpaceAfterSizeType-int-) | For the description of this property, please see \#getSpaceAfterSizeType().getSpaceAfterSizeType() |
+| [setSpaceBefore(double value)](#setSpaceBefore-double-) | For the description of this property, please see \#getSpaceBefore().getSpaceBefore() |
+| [setSpaceBeforeSizeType(int value)](#setSpaceBeforeSizeType-int-) | For the description of this property, please see \#getSpaceBeforeSizeType().getSpaceBeforeSizeType() |
 | [setWordArtStyle(int style)](#setWordArtStyle-int-) | Sets the preset WordArt style. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -364,7 +364,7 @@ public void setAlignmentType(int value)
 ```
 
 
-Please see the getter of this property: @CREF774\_
+For the description of this property, please see \#getAlignmentType().getAlignmentType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -377,7 +377,7 @@ public void setDefaultTabSize(double value)
 ```
 
 
-Please see the getter of this property: @CREF775\_
+For the description of this property, please see \#getDefaultTabSize().getDefaultTabSize()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -390,7 +390,7 @@ public void setEastAsianLineBreak(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF768\_
+For the description of this property, please see \#isEastAsianLineBreak().isEastAsianLineBreak()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -403,7 +403,7 @@ public void setFirstLineIndent(double value)
 ```
 
 
-Please see the getter of this property: @CREF772\_
+For the description of this property, please see \#getFirstLineIndent().getFirstLineIndent()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -416,7 +416,7 @@ public void setFontAlignType(int value)
 ```
 
 
-Please see the getter of this property: @CREF773\_
+For the description of this property, please see \#getFontAlignType().getFontAlignType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -429,7 +429,7 @@ public void setHangingPunctuation(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF769\_
+For the description of this property, please see \#isHangingPunctuation().isHangingPunctuation()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -442,7 +442,7 @@ public void setLatinLineBreak(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF767\_
+For the description of this property, please see \#isLatinLineBreak().isLatinLineBreak()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -455,7 +455,7 @@ public void setLeftMargin(double value)
 ```
 
 
-Please see the getter of this property: @CREF771\_
+For the description of this property, please see \#getLeftMargin().getLeftMargin()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -468,7 +468,7 @@ public void setLineSpace(double value)
 ```
 
 
-Please see the getter of this property: @CREF762\_
+For the description of this property, please see \#getLineSpace().getLineSpace()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -481,7 +481,7 @@ public void setLineSpaceSizeType(int value)
 ```
 
 
-Please see the getter of this property: @CREF761\_
+For the description of this property, please see \#getLineSpaceSizeType().getLineSpaceSizeType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -494,7 +494,7 @@ public void setRightMargin(double value)
 ```
 
 
-Please see the getter of this property: @CREF770\_
+For the description of this property, please see \#getRightMargin().getRightMargin()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -507,7 +507,7 @@ public void setSpaceAfter(double value)
 ```
 
 
-Please see the getter of this property: @CREF764\_
+For the description of this property, please see \#getSpaceAfter().getSpaceAfter()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -520,7 +520,7 @@ public void setSpaceAfterSizeType(int value)
 ```
 
 
-Please see the getter of this property: @CREF763\_
+For the description of this property, please see \#getSpaceAfterSizeType().getSpaceAfterSizeType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -533,7 +533,7 @@ public void setSpaceBefore(double value)
 ```
 
 
-Please see the getter of this property: @CREF766\_
+For the description of this property, please see \#getSpaceBefore().getSpaceBefore()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -546,7 +546,7 @@ public void setSpaceBeforeSizeType(int value)
 ```
 
 
-Please see the getter of this property: @CREF765\_
+For the description of this property, please see \#getSpaceBeforeSizeType().getSpaceBeforeSizeType()
 
 **Parameters:**
 | Parameter | Type | Description |

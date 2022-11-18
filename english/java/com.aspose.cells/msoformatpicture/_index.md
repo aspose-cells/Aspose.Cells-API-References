@@ -34,17 +34,17 @@ Represents the picture format.
 | [isGray()](#isGray--) | Indicates whether this picture SHOULD be displayed in grayscale. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBiLevel(boolean value)](#setBiLevel-boolean-) | Please see the getter of this property: @CREF1759\_ |
-| [setBottomCrop(double value)](#setBottomCrop-double-) | Please see the getter of this property: @CREF1751\_ |
-| [setBrightness(double value)](#setBrightness-double-) | Please see the getter of this property: @CREF1757\_ |
-| [setContrast(double value)](#setContrast-double-) | Please see the getter of this property: @CREF1756\_ |
-| [setGamma(double value)](#setGamma-double-) | Please see the getter of this property: @CREF1758\_ |
-| [setGray(boolean value)](#setGray-boolean-) | Please see the getter of this property: @CREF1760\_ |
-| [setLeftCrop(double value)](#setLeftCrop-double-) | Please see the getter of this property: @CREF1752\_ |
-| [setRightCrop(double value)](#setRightCrop-double-) | Please see the getter of this property: @CREF1753\_ |
-| [setTopCrop(double value)](#setTopCrop-double-) | Please see the getter of this property: @CREF1750\_ |
-| [setTransparency(double value)](#setTransparency-double-) | Please see the getter of this property: @CREF1754\_ |
-| [setTransparentColor(CellsColor value)](#setTransparentColor-com.aspose.cells.CellsColor-) | Please see the getter of this property: @CREF1755\_ |
+| [setBiLevel(boolean value)](#setBiLevel-boolean-) | For the description of this property, please see \#isBiLevel().isBiLevel() |
+| [setBottomCrop(double value)](#setBottomCrop-double-) | For the description of this property, please see \#getBottomCrop().getBottomCrop() |
+| [setBrightness(double value)](#setBrightness-double-) | For the description of this property, please see \#getBrightness().getBrightness() |
+| [setContrast(double value)](#setContrast-double-) | For the description of this property, please see \#getContrast().getContrast() |
+| [setGamma(double value)](#setGamma-double-) | For the description of this property, please see \#getGamma().getGamma() |
+| [setGray(boolean value)](#setGray-boolean-) | For the description of this property, please see \#isGray().isGray() |
+| [setLeftCrop(double value)](#setLeftCrop-double-) | For the description of this property, please see \#getLeftCrop().getLeftCrop() |
+| [setRightCrop(double value)](#setRightCrop-double-) | For the description of this property, please see \#getRightCrop().getRightCrop() |
+| [setTopCrop(double value)](#setTopCrop-double-) | For the description of this property, please see \#getTopCrop().getTopCrop() |
+| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see \#getTransparency().getTransparency() |
+| [setTransparentColor(CellsColor value)](#setTransparentColor-com.aspose.cells.CellsColor-) | For the description of this property, please see \#getTransparentColor().getTransparentColor() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -216,7 +216,7 @@ public void setBiLevel(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1759\_
+For the description of this property, please see \#isBiLevel().isBiLevel()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -229,7 +229,7 @@ public void setBottomCrop(double value)
 ```
 
 
-Please see the getter of this property: @CREF1751\_
+For the description of this property, please see \#getBottomCrop().getBottomCrop()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -242,7 +242,7 @@ public void setBrightness(double value)
 ```
 
 
-Please see the getter of this property: @CREF1757\_
+For the description of this property, please see \#getBrightness().getBrightness()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -255,7 +255,7 @@ public void setContrast(double value)
 ```
 
 
-Please see the getter of this property: @CREF1756\_
+For the description of this property, please see \#getContrast().getContrast()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -268,7 +268,7 @@ public void setGamma(double value)
 ```
 
 
-Please see the getter of this property: @CREF1758\_
+For the description of this property, please see \#getGamma().getGamma()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -281,7 +281,7 @@ public void setGray(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1760\_
+For the description of this property, please see \#isGray().isGray()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -294,7 +294,7 @@ public void setLeftCrop(double value)
 ```
 
 
-Please see the getter of this property: @CREF1752\_
+For the description of this property, please see \#getLeftCrop().getLeftCrop()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -307,7 +307,7 @@ public void setRightCrop(double value)
 ```
 
 
-Please see the getter of this property: @CREF1753\_
+For the description of this property, please see \#getRightCrop().getRightCrop()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -320,7 +320,7 @@ public void setTopCrop(double value)
 ```
 
 
-Please see the getter of this property: @CREF1750\_
+For the description of this property, please see \#getTopCrop().getTopCrop()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -333,7 +333,7 @@ public void setTransparency(double value)
 ```
 
 
-Please see the getter of this property: @CREF1754\_
+For the description of this property, please see \#getTransparency().getTransparency()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -346,7 +346,7 @@ public void setTransparentColor(CellsColor value)
 ```
 
 
-Please see the getter of this property: @CREF1755\_
+For the description of this property, please see \#getTransparentColor().getTransparentColor()
 
 **Parameters:**
 | Parameter | Type | Description |

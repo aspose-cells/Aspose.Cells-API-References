@@ -37,7 +37,7 @@ Represents all revision logs.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeAt(int index)](#removeAt-int-) | Removes the item at the specified index. |
-| [setDaysPreservingHistory(int value)](#setDaysPreservingHistory-int-) | Please see the getter of this property: [getDaysPreservingHistory()](../../com.aspose.cells/revisionlogcollection\#getDaysPreservingHistory--) |
+| [setDaysPreservingHistory(int value)](#setDaysPreservingHistory-int-) | For the description of this property, please see \#getDaysPreservingHistory().getDaysPreservingHistory() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -216,7 +216,7 @@ public void setDaysPreservingHistory(int value)
 ```
 
 
-Please see the getter of this property: [getDaysPreservingHistory()](../../com.aspose.cells/revisionlogcollection\#getDaysPreservingHistory--)
+For the description of this property, please see \#getDaysPreservingHistory().getDaysPreservingHistory()
 
 **Parameters:**
 | Parameter | Type | Description |

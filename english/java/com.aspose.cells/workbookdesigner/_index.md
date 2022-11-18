@@ -59,18 +59,18 @@ Encapsulates the object that represents a designer spreadsheet.
 | [process()](#process--) | Processes the smart markers and populates the data source values. |
 | [process(boolean isPreserved)](#process-boolean-) | Processes the smart markers and populates the data source values. |
 | [process(int sheetIndex, boolean isPreserved)](#process-int-boolean-) | Processes the smart markers and populates the data source values. |
-| [setCalculateFormula(boolean value)](#setCalculateFormula-boolean-) | Please see the getter of this property: [getCalculateFormula()](../../com.aspose.cells/workbookdesigner\#getCalculateFormula--) |
-| [setCallBack(ISmartMarkerCallBack value)](#setCallBack-com.aspose.cells.ISmartMarkerCallBack-) | Please see the getter of this property: [getCallBack()](../../com.aspose.cells/workbookdesigner\#getCallBack--) |
+| [setCalculateFormula(boolean value)](#setCalculateFormula-boolean-) | For the description of this property, please see \#getCalculateFormula().getCalculateFormula() |
+| [setCallBack(ISmartMarkerCallBack value)](#setCallBack-com.aspose.cells.ISmartMarkerCallBack-) | For the description of this property, please see \#getCallBack().getCallBack() |
 | [setDataSource(String dataSource, ICellsDataTable cellsDataTable)](#setDataSource-java.lang.String-com.aspose.cells.ICellsDataTable-) | Sets data source of a [ICellsDataTable](../../com.aspose.cells/icellsdatatable) object. |
 | [setDataSource(String variable, Object data)](#setDataSource-java.lang.String-java.lang.Object-) | Sets data binding to a variable. |
 | [setDataSource(String dataSource, ResultSet rs)](#setDataSource-java.lang.String-java.sql.ResultSet-) | Set the data source. |
 | [setDataSource(String dataSource, ResultSet rs, int rowCount)](#setDataSource-java.lang.String-java.sql.ResultSet-int-) | Set the data source. |
 | [setDataSource(ResultSet rs)](#setDataSource-java.sql.ResultSet-) | Set the data source. |
-| [setLineByLine(boolean value)](#setLineByLine-boolean-) | Please see the getter of this property: [getLineByLine()](../../com.aspose.cells/workbookdesigner\#getLineByLine--) |
-| [setRepeatFormulasWithSubtotal(boolean value)](#setRepeatFormulasWithSubtotal-boolean-) | Please see the getter of this property: [getRepeatFormulasWithSubtotal()](../../com.aspose.cells/workbookdesigner\#getRepeatFormulasWithSubtotal--) |
-| [setUpdateEmptyStringAsNull(boolean value)](#setUpdateEmptyStringAsNull-boolean-) | Please see the getter of this property: [getUpdateEmptyStringAsNull()](../../com.aspose.cells/workbookdesigner\#getUpdateEmptyStringAsNull--) |
-| [setUpdateReference(boolean value)](#setUpdateReference-boolean-) | Please see the getter of this property: [getUpdateReference()](../../com.aspose.cells/workbookdesigner\#getUpdateReference--) |
-| [setWorkbook(Workbook value)](#setWorkbook-com.aspose.cells.Workbook-) | Please see the getter of this property: [getWorkbook()](../../com.aspose.cells/workbookdesigner\#getWorkbook--) |
+| [setLineByLine(boolean value)](#setLineByLine-boolean-) | For the description of this property, please see \#getLineByLine().getLineByLine() |
+| [setRepeatFormulasWithSubtotal(boolean value)](#setRepeatFormulasWithSubtotal-boolean-) | For the description of this property, please see \#getRepeatFormulasWithSubtotal().getRepeatFormulasWithSubtotal() |
+| [setUpdateEmptyStringAsNull(boolean value)](#setUpdateEmptyStringAsNull-boolean-) | For the description of this property, please see \#getUpdateEmptyStringAsNull().getUpdateEmptyStringAsNull() |
+| [setUpdateReference(boolean value)](#setUpdateReference-boolean-) | For the description of this property, please see \#getUpdateReference().getUpdateReference() |
+| [setWorkbook(Workbook value)](#setWorkbook-com.aspose.cells.Workbook-) | For the description of this property, please see \#getWorkbook().getWorkbook() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -276,7 +276,7 @@ public void setCalculateFormula(boolean value)
 ```
 
 
-Please see the getter of this property: [getCalculateFormula()](../../com.aspose.cells/workbookdesigner\#getCalculateFormula--)
+For the description of this property, please see \#getCalculateFormula().getCalculateFormula()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -289,7 +289,7 @@ public void setCallBack(ISmartMarkerCallBack value)
 ```
 
 
-Please see the getter of this property: [getCallBack()](../../com.aspose.cells/workbookdesigner\#getCallBack--)
+For the description of this property, please see \#getCallBack().getCallBack()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -372,7 +372,7 @@ public void setLineByLine(boolean value)
 ```
 
 
-Please see the getter of this property: [getLineByLine()](../../com.aspose.cells/workbookdesigner\#getLineByLine--)
+For the description of this property, please see \#getLineByLine().getLineByLine()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -385,7 +385,7 @@ public void setRepeatFormulasWithSubtotal(boolean value)
 ```
 
 
-Please see the getter of this property: [getRepeatFormulasWithSubtotal()](../../com.aspose.cells/workbookdesigner\#getRepeatFormulasWithSubtotal--)
+For the description of this property, please see \#getRepeatFormulasWithSubtotal().getRepeatFormulasWithSubtotal()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -398,7 +398,7 @@ public void setUpdateEmptyStringAsNull(boolean value)
 ```
 
 
-Please see the getter of this property: [getUpdateEmptyStringAsNull()](../../com.aspose.cells/workbookdesigner\#getUpdateEmptyStringAsNull--)
+For the description of this property, please see \#getUpdateEmptyStringAsNull().getUpdateEmptyStringAsNull()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -411,7 +411,7 @@ public void setUpdateReference(boolean value)
 ```
 
 
-Please see the getter of this property: [getUpdateReference()](../../com.aspose.cells/workbookdesigner\#getUpdateReference--)
+For the description of this property, please see \#getUpdateReference().getUpdateReference()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -424,7 +424,7 @@ public void setWorkbook(Workbook value)
 ```
 
 
-Please see the getter of this property: [getWorkbook()](../../com.aspose.cells/workbookdesigner\#getWorkbook--)
+For the description of this property, please see \#getWorkbook().getWorkbook()
 
 **Parameters:**
 | Parameter | Type | Description |

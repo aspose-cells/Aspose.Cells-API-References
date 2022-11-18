@@ -83,9 +83,9 @@ Describe the IconSet conditional formatting rule. This conditional formatting ru
 | [isCustom()](#isCustom--) | Indicates whether the icon set is custom. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setReverse(boolean value)](#setReverse-boolean-) | Please see the getter of this property: [getReverse()](../../com.aspose.cells/iconset\#getReverse--) |
-| [setShowValue(boolean value)](#setShowValue-boolean-) | Please see the getter of this property: [getShowValue()](../../com.aspose.cells/iconset\#getShowValue--) |
-| [setType(int value)](#setType-int-) | Please see the getter of this property: [getType()](../../com.aspose.cells/iconset\#getType--) |
+| [setReverse(boolean value)](#setReverse-boolean-) | For the description of this property, please see \#getReverse().getReverse() |
+| [setShowValue(boolean value)](#setShowValue-boolean-) | For the description of this property, please see \#getShowValue().getShowValue() |
+| [setType(int value)](#setType-int-) | For the description of this property, please see \#getType().getType() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -207,7 +207,7 @@ public void setReverse(boolean value)
 ```
 
 
-Please see the getter of this property: [getReverse()](../../com.aspose.cells/iconset\#getReverse--)
+For the description of this property, please see \#getReverse().getReverse()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -220,7 +220,7 @@ public void setShowValue(boolean value)
 ```
 
 
-Please see the getter of this property: [getShowValue()](../../com.aspose.cells/iconset\#getShowValue--)
+For the description of this property, please see \#getShowValue().getShowValue()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -233,7 +233,7 @@ public void setType(int value)
 ```
 
 
-Please see the getter of this property: [getType()](../../com.aspose.cells/iconset\#getType--)
+For the description of this property, please see \#getType().getType()
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -32,8 +32,8 @@ Represents the function of power query.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setF(String value)](#setF-java.lang.String-) | Please see the getter of this property: @CREF267\_ |
-| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: @CREF265\_ |
+| [setF(String value)](#setF-java.lang.String-) | For the description of this property, please see \#getF().getF() |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -141,7 +141,7 @@ public void setF(String value)
 ```
 
 
-Please see the getter of this property: @CREF267\_
+For the description of this property, please see \#getF().getF()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -154,7 +154,7 @@ public void setName(String value)
 ```
 
 
-Please see the getter of this property: @CREF265\_
+For the description of this property, please see \#getName().getName()
 
 **Parameters:**
 | Parameter | Type | Description |

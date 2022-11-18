@@ -86,19 +86,19 @@ Encapsulates the object that represents fill formatting for a shape.
 | [hashCode()](#hashCode--) | Gets the hash code. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFillType(int value)](#setFillType-int-) | Please see the getter of this property: [getFillType()](../../com.aspose.cells/fillformat\#getFillType--) |
-| [setImageData(byte[] value)](#setImageData-byte---) | Please see the getter of this property: [getImageData()](../../com.aspose.cells/fillformat\#getImageData--) |
+| [setFillType(int value)](#setFillType-int-) | For the description of this property, please see \#getFillType().getFillType() |
+| [setImageData(byte[] value)](#setImageData-byte---) | For the description of this property, please see \#getImageData().getImageData() |
 | [setOneColorGradient(Color color, double degree, int style, int variant)](#setOneColorGradient-com.aspose.cells.Color-double-int-int-) | Sets the specified fill to a one-color gradient. |
-| [setPattern(int value)](#setPattern-int-) | Please see the getter of this property: [getPattern()](../../com.aspose.cells/fillformat\#getPattern--) |
-| [setPictureFormatType(int value)](#setPictureFormatType-int-) | Please see the getter of this property: [getPictureFormatType()](../../com.aspose.cells/fillformat\#getPictureFormatType--) |
+| [setPattern(int value)](#setPattern-int-) | For the description of this property, please see \#getPattern().getPattern() |
+| [setPictureFormatType(int value)](#setPictureFormatType-int-) | For the description of this property, please see \#getPictureFormatType().getPictureFormatType() |
 | [setPresetColorGradient(int presetColor, int style, int variant)](#setPresetColorGradient-int-int-int-) | Sets the specified fill to a preset-color gradient. |
-| [setScale(double value)](#setScale-double-) | Please see the getter of this property: [getScale()](../../com.aspose.cells/fillformat\#getScale--) |
-| [setSetType(int value)](#setSetType-int-) | Please see the getter of this property: [getSetType()](../../com.aspose.cells/fillformat\#getSetType--) |
-| [setTexture(int value)](#setTexture-int-) | Please see the getter of this property: [getTexture()](../../com.aspose.cells/fillformat\#getTexture--) |
-| [setTransparency(double value)](#setTransparency-double-) | Please see the getter of this property: [getTransparency()](../../com.aspose.cells/fillformat\#getTransparency--) |
+| [setScale(double value)](#setScale-double-) | For the description of this property, please see \#getScale().getScale() |
+| [setSetType(int value)](#setSetType-int-) | For the description of this property, please see \#getSetType().getSetType() |
+| [setTexture(int value)](#setTexture-int-) | For the description of this property, please see \#getTexture().getTexture() |
+| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see \#getTransparency().getTransparency() |
 | [setTwoColorGradient(Color color1, Color color2, int style, int variant)](#setTwoColorGradient-com.aspose.cells.Color-com.aspose.cells.Color-int-int-) | Sets the specified fill to a two-color gradient. |
 | [setTwoColorGradient(Color color1, double transparency1, Color color2, double transparency2, int style, int variant)](#setTwoColorGradient-com.aspose.cells.Color-double-com.aspose.cells.Color-double-int-int-) | Sets the specified fill to a two-color gradient. |
-| [setType(int value)](#setType-int-) | Please see the getter of this property: [getType()](../../com.aspose.cells/fillformat\#getType--) |
+| [setType(int value)](#setType-int-) | For the description of this property, please see \#getType().getType() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -360,7 +360,7 @@ public void setFillType(int value)
 ```
 
 
-Please see the getter of this property: [getFillType()](../../com.aspose.cells/fillformat\#getFillType--)
+For the description of this property, please see \#getFillType().getFillType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -373,7 +373,7 @@ public void setImageData(byte[] value)
 ```
 
 
-Please see the getter of this property: [getImageData()](../../com.aspose.cells/fillformat\#getImageData--)
+For the description of this property, please see \#getImageData().getImageData()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -402,7 +402,7 @@ public void setPattern(int value)
 ```
 
 
-Please see the getter of this property: [getPattern()](../../com.aspose.cells/fillformat\#getPattern--)
+For the description of this property, please see \#getPattern().getPattern()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -415,7 +415,7 @@ public void setPictureFormatType(int value)
 ```
 
 
-Please see the getter of this property: [getPictureFormatType()](../../com.aspose.cells/fillformat\#getPictureFormatType--)
+For the description of this property, please see \#getPictureFormatType().getPictureFormatType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -443,7 +443,7 @@ public void setScale(double value)
 ```
 
 
-Please see the getter of this property: [getScale()](../../com.aspose.cells/fillformat\#getScale--)
+For the description of this property, please see \#getScale().getScale()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -456,7 +456,7 @@ public void setSetType(int value)
 ```
 
 
-Please see the getter of this property: [getSetType()](../../com.aspose.cells/fillformat\#getSetType--)
+For the description of this property, please see \#getSetType().getSetType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -469,7 +469,7 @@ public void setTexture(int value)
 ```
 
 
-Please see the getter of this property: [getTexture()](../../com.aspose.cells/fillformat\#getTexture--)
+For the description of this property, please see \#getTexture().getTexture()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -482,7 +482,7 @@ public void setTransparency(double value)
 ```
 
 
-Please see the getter of this property: [getTransparency()](../../com.aspose.cells/fillformat\#getTransparency--)
+For the description of this property, please see \#getTransparency().getTransparency()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -529,7 +529,7 @@ public void setType(int value)
 ```
 
 
-Please see the getter of this property: [getType()](../../com.aspose.cells/fillformat\#getType--)
+For the description of this property, please see \#getType().getType()
 
 **Parameters:**
 | Parameter | Type | Description |

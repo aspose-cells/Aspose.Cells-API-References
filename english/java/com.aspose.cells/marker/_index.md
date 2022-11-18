@@ -32,13 +32,13 @@ Represents the marker in a line chart, scatter chart, or radar chart.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.cells.Color-) | Please see the getter of this property: [getBackgroundColor()](../../com.aspose.cells/marker\#getBackgroundColor--) |
-| [setBackgroundColorSetType(int value)](#setBackgroundColorSetType-int-) | Please see the getter of this property: [getBackgroundColorSetType()](../../com.aspose.cells/marker\#getBackgroundColorSetType--) |
-| [setForegroundColor(Color value)](#setForegroundColor-com.aspose.cells.Color-) | Please see the getter of this property: [getForegroundColor()](../../com.aspose.cells/marker\#getForegroundColor--) |
-| [setForegroundColorSetType(int value)](#setForegroundColorSetType-int-) | Please see the getter of this property: [getForegroundColorSetType()](../../com.aspose.cells/marker\#getForegroundColorSetType--) |
-| [setMarkerSize(int value)](#setMarkerSize-int-) | Please see the getter of this property: [getMarkerSize()](../../com.aspose.cells/marker\#getMarkerSize--) |
-| [setMarkerSizePx(int value)](#setMarkerSizePx-int-) | Please see the getter of this property: [getMarkerSizePx()](../../com.aspose.cells/marker\#getMarkerSizePx--) |
-| [setMarkerStyle(int value)](#setMarkerStyle-int-) | Please see the getter of this property: [getMarkerStyle()](../../com.aspose.cells/marker\#getMarkerStyle--) |
+| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.cells.Color-) | For the description of this property, please see \#getBackgroundColor().getBackgroundColor() |
+| [setBackgroundColorSetType(int value)](#setBackgroundColorSetType-int-) | For the description of this property, please see \#getBackgroundColorSetType().getBackgroundColorSetType() |
+| [setForegroundColor(Color value)](#setForegroundColor-com.aspose.cells.Color-) | For the description of this property, please see \#getForegroundColor().getForegroundColor() |
+| [setForegroundColorSetType(int value)](#setForegroundColorSetType-int-) | For the description of this property, please see \#getForegroundColorSetType().getForegroundColorSetType() |
+| [setMarkerSize(int value)](#setMarkerSize-int-) | For the description of this property, please see \#getMarkerSize().getMarkerSize() |
+| [setMarkerSizePx(int value)](#setMarkerSizePx-int-) | For the description of this property, please see \#getMarkerSizePx().getMarkerSizePx() |
+| [setMarkerStyle(int value)](#setMarkerStyle-int-) | For the description of this property, please see \#getMarkerStyle().getMarkerStyle() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -190,7 +190,7 @@ public void setBackgroundColor(Color value)
 ```
 
 
-Please see the getter of this property: [getBackgroundColor()](../../com.aspose.cells/marker\#getBackgroundColor--)
+For the description of this property, please see \#getBackgroundColor().getBackgroundColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -203,7 +203,7 @@ public void setBackgroundColorSetType(int value)
 ```
 
 
-Please see the getter of this property: [getBackgroundColorSetType()](../../com.aspose.cells/marker\#getBackgroundColorSetType--)
+For the description of this property, please see \#getBackgroundColorSetType().getBackgroundColorSetType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -216,7 +216,7 @@ public void setForegroundColor(Color value)
 ```
 
 
-Please see the getter of this property: [getForegroundColor()](../../com.aspose.cells/marker\#getForegroundColor--)
+For the description of this property, please see \#getForegroundColor().getForegroundColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -229,7 +229,7 @@ public void setForegroundColorSetType(int value)
 ```
 
 
-Please see the getter of this property: [getForegroundColorSetType()](../../com.aspose.cells/marker\#getForegroundColorSetType--)
+For the description of this property, please see \#getForegroundColorSetType().getForegroundColorSetType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -242,7 +242,7 @@ public void setMarkerSize(int value)
 ```
 
 
-Please see the getter of this property: [getMarkerSize()](../../com.aspose.cells/marker\#getMarkerSize--)
+For the description of this property, please see \#getMarkerSize().getMarkerSize()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -255,7 +255,7 @@ public void setMarkerSizePx(int value)
 ```
 
 
-Please see the getter of this property: [getMarkerSizePx()](../../com.aspose.cells/marker\#getMarkerSizePx--)
+For the description of this property, please see \#getMarkerSizePx().getMarkerSizePx()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -268,7 +268,7 @@ public void setMarkerStyle(int value)
 ```
 
 
-Please see the getter of this property: [getMarkerStyle()](../../com.aspose.cells/marker\#getMarkerStyle--)
+For the description of this property, please see \#getMarkerStyle().getMarkerStyle()
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -33,9 +33,9 @@ Represents a item in a PivotField report.
 | [move(int count, boolean isSameParent)](#move-int-boolean-) | Moves the item up or down |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setHidden(boolean value)](#setHidden-boolean-) | Please see the getter of this property: @CREF1105\_ |
-| [setHideDetail(boolean value)](#setHideDetail-boolean-) | Please see the getter of this property: @CREF1106\_ |
-| [setIndex(int value)](#setIndex-int-) | Please see the getter of this property: @CREF1107\_ |
+| [setHidden(boolean value)](#setHidden-boolean-) | For the description of this property, please see \#isHidden().isHidden() |
+| [setHideDetail(boolean value)](#setHideDetail-boolean-) | For the description of this property, please see \#isHideDetail().isHideDetail() |
+| [setIndex(int value)](#setIndex-int-) | For the description of this property, please see \#getIndex().getIndex() |
 | [setPosition(int value)](#setPosition-int-) | Specifying the position index in all the PivotItems,not the PivotItems under the same parent node. |
 | [setPositionInSameParentNode(int value)](#setPositionInSameParentNode-int-) | Specifying the position index in the PivotItems under the same parent node. |
 | [toString()](#toString--) |  |
@@ -206,7 +206,7 @@ public void setHidden(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1105\_
+For the description of this property, please see \#isHidden().isHidden()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -219,7 +219,7 @@ public void setHideDetail(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1106\_
+For the description of this property, please see \#isHideDetail().isHideDetail()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -232,7 +232,7 @@ public void setIndex(int value)
 ```
 
 
-Please see the getter of this property: @CREF1107\_
+For the description of this property, please see \#getIndex().getIndex()
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -64,38 +64,38 @@ Represents options when importing a html file.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAttachedFilesDirectory(String value)](#setAttachedFilesDirectory-java.lang.String-) | Please see the getter of this property: @CREF55\_ |
-| [setAutoFilter(boolean value)](#setAutoFilter-boolean-) | Please see the getter of this property: [getAutoFilter()](../../com.aspose.cells/loadoptions\#getAutoFilter--) |
-| [setAutoFitColsAndRows(boolean value)](#setAutoFitColsAndRows-boolean-) | Please see the getter of this property: @CREF59\_ |
-| [setAutoFitterOptions(AutoFitterOptions value)](#setAutoFitterOptions-com.aspose.cells.AutoFitterOptions-) | Please see the getter of this property: [getAutoFitterOptions()](../../com.aspose.cells/loadoptions\#getAutoFitterOptions--) |
-| [setCheckDataValid(boolean value)](#setCheckDataValid-boolean-) | Please see the getter of this property: [getCheckDataValid()](../../com.aspose.cells/loadoptions\#getCheckDataValid--) |
-| [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | Please see the getter of this property: [getCheckExcelRestriction()](../../com.aspose.cells/loadoptions\#getCheckExcelRestriction--) |
-| [setConvertDateTimeData(boolean value)](#setConvertDateTimeData-boolean-) | Please see the getter of this property: @CREF245\_ |
-| [setConvertFormulasData(boolean value)](#setConvertFormulasData-boolean-) | Please see the getter of this property: @CREF60\_ |
-| [setConvertNumericData(boolean value)](#setConvertNumericData-boolean-) | Please see the getter of this property: @CREF244\_ |
-| [setDeleteRedundantSpaces(boolean value)](#setDeleteRedundantSpaces-boolean-) | Please see the getter of this property: @CREF58\_ |
-| [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | Please see the getter of this property: @CREF242\_ |
-| [setFontConfigs(IndividualFontConfigs value)](#setFontConfigs-com.aspose.cells.IndividualFontConfigs-) | Please see the getter of this property: [getFontConfigs()](../../com.aspose.cells/loadoptions\#getFontConfigs--) |
-| [setIgnoreNotPrinted(boolean value)](#setIgnoreNotPrinted-boolean-) | Please see the getter of this property: [getIgnoreNotPrinted()](../../com.aspose.cells/loadoptions\#getIgnoreNotPrinted--) |
-| [setInterruptMonitor(AbstractInterruptMonitor value)](#setInterruptMonitor-com.aspose.cells.AbstractInterruptMonitor-) | Please see the getter of this property: [getInterruptMonitor()](../../com.aspose.cells/loadoptions\#getInterruptMonitor--) |
-| [setKeepPrecision(boolean value)](#setKeepPrecision-boolean-) | Please see the getter of this property: @CREF246\_ |
-| [setKeepUnparsedData(boolean value)](#setKeepUnparsedData-boolean-) | Please see the getter of this property: [getKeepUnparsedData()](../../com.aspose.cells/loadoptions\#getKeepUnparsedData--) |
-| [setLanguageCode(int value)](#setLanguageCode-int-) | Please see the getter of this property: [getLanguageCode()](../../com.aspose.cells/loadoptions\#getLanguageCode--) |
-| [setLightCellsDataHandler(LightCellsDataHandler value)](#setLightCellsDataHandler-com.aspose.cells.LightCellsDataHandler-) | Please see the getter of this property: [getLightCellsDataHandler()](../../com.aspose.cells/loadoptions\#getLightCellsDataHandler--) |
-| [setLoadFilter(LoadFilter value)](#setLoadFilter-com.aspose.cells.LoadFilter-) | Please see the getter of this property: [getLoadFilter()](../../com.aspose.cells/loadoptions\#getLoadFilter--) |
-| [setLoadFormulas(boolean value)](#setLoadFormulas-boolean-) | Please see the getter of this property: @CREF56\_ |
-| [setLoadStyleStrategy(int value)](#setLoadStyleStrategy-int-) | Please see the getter of this property: @CREF243\_ |
-| [setLocale(Locale value)](#setLocale-java.util.Locale-) | Please see the getter of this property: [getLocale()](../../com.aspose.cells/loadoptions\#getLocale--) |
-| [setMemorySetting(int value)](#setMemorySetting-int-) | Please see the getter of this property: [getMemorySetting()](../../com.aspose.cells/loadoptions\#getMemorySetting--) |
+| [setAttachedFilesDirectory(String value)](#setAttachedFilesDirectory-java.lang.String-) | For the description of this property, please see \#getAttachedFilesDirectory().getAttachedFilesDirectory() |
+| [setAutoFilter(boolean value)](#setAutoFilter-boolean-) | For the description of this property, please see \#getAutoFilter().getAutoFilter() |
+| [setAutoFitColsAndRows(boolean value)](#setAutoFitColsAndRows-boolean-) | For the description of this property, please see \#getAutoFitColsAndRows().getAutoFitColsAndRows() |
+| [setAutoFitterOptions(AutoFitterOptions value)](#setAutoFitterOptions-com.aspose.cells.AutoFitterOptions-) | For the description of this property, please see \#getAutoFitterOptions().getAutoFitterOptions() |
+| [setCheckDataValid(boolean value)](#setCheckDataValid-boolean-) | For the description of this property, please see \#getCheckDataValid().getCheckDataValid() |
+| [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | For the description of this property, please see \#getCheckExcelRestriction().getCheckExcelRestriction() |
+| [setConvertDateTimeData(boolean value)](#setConvertDateTimeData-boolean-) | For the description of this property, please see \#getConvertDateTimeData().getConvertDateTimeData() |
+| [setConvertFormulasData(boolean value)](#setConvertFormulasData-boolean-) | For the description of this property, please see \#getConvertFormulasData().getConvertFormulasData() |
+| [setConvertNumericData(boolean value)](#setConvertNumericData-boolean-) | For the description of this property, please see \#getConvertNumericData().getConvertNumericData() |
+| [setDeleteRedundantSpaces(boolean value)](#setDeleteRedundantSpaces-boolean-) | For the description of this property, please see \#getDeleteRedundantSpaces().getDeleteRedundantSpaces() |
+| [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | For the description of this property, please see \#getEncoding().getEncoding() |
+| [setFontConfigs(IndividualFontConfigs value)](#setFontConfigs-com.aspose.cells.IndividualFontConfigs-) | For the description of this property, please see \#getFontConfigs().getFontConfigs() |
+| [setIgnoreNotPrinted(boolean value)](#setIgnoreNotPrinted-boolean-) | For the description of this property, please see \#getIgnoreNotPrinted().getIgnoreNotPrinted() |
+| [setInterruptMonitor(AbstractInterruptMonitor value)](#setInterruptMonitor-com.aspose.cells.AbstractInterruptMonitor-) | For the description of this property, please see \#getInterruptMonitor().getInterruptMonitor() |
+| [setKeepPrecision(boolean value)](#setKeepPrecision-boolean-) | For the description of this property, please see \#getKeepPrecision().getKeepPrecision() |
+| [setKeepUnparsedData(boolean value)](#setKeepUnparsedData-boolean-) | For the description of this property, please see \#getKeepUnparsedData().getKeepUnparsedData() |
+| [setLanguageCode(int value)](#setLanguageCode-int-) | For the description of this property, please see \#getLanguageCode().getLanguageCode() |
+| [setLightCellsDataHandler(LightCellsDataHandler value)](#setLightCellsDataHandler-com.aspose.cells.LightCellsDataHandler-) | For the description of this property, please see \#getLightCellsDataHandler().getLightCellsDataHandler() |
+| [setLoadFilter(LoadFilter value)](#setLoadFilter-com.aspose.cells.LoadFilter-) | For the description of this property, please see \#getLoadFilter().getLoadFilter() |
+| [setLoadFormulas(boolean value)](#setLoadFormulas-boolean-) | For the description of this property, please see \#getLoadFormulas().getLoadFormulas() |
+| [setLoadStyleStrategy(int value)](#setLoadStyleStrategy-int-) | For the description of this property, please see \#getLoadStyleStrategy().getLoadStyleStrategy() |
+| [setLocale(Locale value)](#setLocale-java.util.Locale-) | For the description of this property, please see \#getLocale().getLocale() |
+| [setMemorySetting(int value)](#setMemorySetting-int-) | For the description of this property, please see \#getMemorySetting().getMemorySetting() |
 | [setPaperSize(int type)](#setPaperSize-int-) | Sets the default print paper size from default printer's setting. |
-| [setParsingFormulaOnOpen(boolean value)](#setParsingFormulaOnOpen-boolean-) | Please see the getter of this property: [getParsingFormulaOnOpen()](../../com.aspose.cells/loadoptions\#getParsingFormulaOnOpen--) |
-| [setParsingPivotCachedRecords(boolean value)](#setParsingPivotCachedRecords-boolean-) | Please see the getter of this property: [getParsingPivotCachedRecords()](../../com.aspose.cells/loadoptions\#getParsingPivotCachedRecords--) |
-| [setPassword(String value)](#setPassword-java.lang.String-) | Please see the getter of this property: [getPassword()](../../com.aspose.cells/loadoptions\#getPassword--) |
-| [setRegion(int value)](#setRegion-int-) | Please see the getter of this property: [getRegion()](../../com.aspose.cells/loadoptions\#getRegion--) |
-| [setStandardFont(String value)](#setStandardFont-java.lang.String-) | Please see the getter of this property: [getStandardFont()](../../com.aspose.cells/loadoptions\#getStandardFont--) |
-| [setStandardFontSize(double value)](#setStandardFontSize-double-) | Please see the getter of this property: [getStandardFontSize()](../../com.aspose.cells/loadoptions\#getStandardFontSize--) |
-| [setStreamProvider(IStreamProvider value)](#setStreamProvider-com.aspose.cells.IStreamProvider-) | Please see the getter of this property: @CREF61\_ |
-| [setSupportDivTag(boolean value)](#setSupportDivTag-boolean-) | Please see the getter of this property: @CREF57\_ |
+| [setParsingFormulaOnOpen(boolean value)](#setParsingFormulaOnOpen-boolean-) | For the description of this property, please see \#getParsingFormulaOnOpen().getParsingFormulaOnOpen() |
+| [setParsingPivotCachedRecords(boolean value)](#setParsingPivotCachedRecords-boolean-) | For the description of this property, please see \#getParsingPivotCachedRecords().getParsingPivotCachedRecords() |
+| [setPassword(String value)](#setPassword-java.lang.String-) | For the description of this property, please see \#getPassword().getPassword() |
+| [setRegion(int value)](#setRegion-int-) | For the description of this property, please see \#getRegion().getRegion() |
+| [setStandardFont(String value)](#setStandardFont-java.lang.String-) | For the description of this property, please see \#getStandardFont().getStandardFont() |
+| [setStandardFontSize(double value)](#setStandardFontSize-double-) | For the description of this property, please see \#getStandardFontSize().getStandardFontSize() |
+| [setStreamProvider(IStreamProvider value)](#setStreamProvider-com.aspose.cells.IStreamProvider-) | For the description of this property, please see \#getStreamProvider().getStreamProvider() |
+| [setSupportDivTag(boolean value)](#setSupportDivTag-boolean-) | For the description of this property, please see \#getSupportDivTag().getSupportDivTag() |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -529,7 +529,7 @@ public void setAttachedFilesDirectory(String value)
 ```
 
 
-Please see the getter of this property: @CREF55\_
+For the description of this property, please see \#getAttachedFilesDirectory().getAttachedFilesDirectory()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -542,7 +542,7 @@ public void setAutoFilter(boolean value)
 ```
 
 
-Please see the getter of this property: [getAutoFilter()](../../com.aspose.cells/loadoptions\#getAutoFilter--)
+For the description of this property, please see \#getAutoFilter().getAutoFilter()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -555,7 +555,7 @@ public void setAutoFitColsAndRows(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF59\_
+For the description of this property, please see \#getAutoFitColsAndRows().getAutoFitColsAndRows()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -568,7 +568,7 @@ public void setAutoFitterOptions(AutoFitterOptions value)
 ```
 
 
-Please see the getter of this property: [getAutoFitterOptions()](../../com.aspose.cells/loadoptions\#getAutoFitterOptions--)
+For the description of this property, please see \#getAutoFitterOptions().getAutoFitterOptions()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -581,7 +581,7 @@ public void setCheckDataValid(boolean value)
 ```
 
 
-Please see the getter of this property: [getCheckDataValid()](../../com.aspose.cells/loadoptions\#getCheckDataValid--)
+For the description of this property, please see \#getCheckDataValid().getCheckDataValid()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -594,7 +594,7 @@ public void setCheckExcelRestriction(boolean value)
 ```
 
 
-Please see the getter of this property: [getCheckExcelRestriction()](../../com.aspose.cells/loadoptions\#getCheckExcelRestriction--)
+For the description of this property, please see \#getCheckExcelRestriction().getCheckExcelRestriction()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -607,7 +607,7 @@ public void setConvertDateTimeData(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF245\_
+For the description of this property, please see \#getConvertDateTimeData().getConvertDateTimeData()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -620,7 +620,7 @@ public void setConvertFormulasData(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF60\_
+For the description of this property, please see \#getConvertFormulasData().getConvertFormulasData()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -633,7 +633,7 @@ public void setConvertNumericData(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF244\_
+For the description of this property, please see \#getConvertNumericData().getConvertNumericData()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -646,7 +646,7 @@ public void setDeleteRedundantSpaces(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF58\_
+For the description of this property, please see \#getDeleteRedundantSpaces().getDeleteRedundantSpaces()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -659,7 +659,7 @@ public void setEncoding(Encoding value)
 ```
 
 
-Please see the getter of this property: @CREF242\_
+For the description of this property, please see \#getEncoding().getEncoding()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -672,7 +672,7 @@ public void setFontConfigs(IndividualFontConfigs value)
 ```
 
 
-Please see the getter of this property: [getFontConfigs()](../../com.aspose.cells/loadoptions\#getFontConfigs--)
+For the description of this property, please see \#getFontConfigs().getFontConfigs()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -685,7 +685,7 @@ public void setIgnoreNotPrinted(boolean value)
 ```
 
 
-Please see the getter of this property: [getIgnoreNotPrinted()](../../com.aspose.cells/loadoptions\#getIgnoreNotPrinted--)
+For the description of this property, please see \#getIgnoreNotPrinted().getIgnoreNotPrinted()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -698,7 +698,7 @@ public void setInterruptMonitor(AbstractInterruptMonitor value)
 ```
 
 
-Please see the getter of this property: [getInterruptMonitor()](../../com.aspose.cells/loadoptions\#getInterruptMonitor--)
+For the description of this property, please see \#getInterruptMonitor().getInterruptMonitor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -711,7 +711,7 @@ public void setKeepPrecision(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF246\_
+For the description of this property, please see \#getKeepPrecision().getKeepPrecision()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -724,7 +724,7 @@ public void setKeepUnparsedData(boolean value)
 ```
 
 
-Please see the getter of this property: [getKeepUnparsedData()](../../com.aspose.cells/loadoptions\#getKeepUnparsedData--)
+For the description of this property, please see \#getKeepUnparsedData().getKeepUnparsedData()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -737,7 +737,7 @@ public void setLanguageCode(int value)
 ```
 
 
-Please see the getter of this property: [getLanguageCode()](../../com.aspose.cells/loadoptions\#getLanguageCode--)
+For the description of this property, please see \#getLanguageCode().getLanguageCode()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -750,7 +750,7 @@ public void setLightCellsDataHandler(LightCellsDataHandler value)
 ```
 
 
-Please see the getter of this property: [getLightCellsDataHandler()](../../com.aspose.cells/loadoptions\#getLightCellsDataHandler--)
+For the description of this property, please see \#getLightCellsDataHandler().getLightCellsDataHandler()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -763,7 +763,7 @@ public void setLoadFilter(LoadFilter value)
 ```
 
 
-Please see the getter of this property: [getLoadFilter()](../../com.aspose.cells/loadoptions\#getLoadFilter--)
+For the description of this property, please see \#getLoadFilter().getLoadFilter()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -776,7 +776,7 @@ public void setLoadFormulas(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF56\_
+For the description of this property, please see \#getLoadFormulas().getLoadFormulas()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -789,7 +789,7 @@ public void setLoadStyleStrategy(int value)
 ```
 
 
-Please see the getter of this property: @CREF243\_
+For the description of this property, please see \#getLoadStyleStrategy().getLoadStyleStrategy()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -802,7 +802,7 @@ public void setLocale(Locale value)
 ```
 
 
-Please see the getter of this property: [getLocale()](../../com.aspose.cells/loadoptions\#getLocale--)
+For the description of this property, please see \#getLocale().getLocale()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -815,7 +815,7 @@ public void setMemorySetting(int value)
 ```
 
 
-Please see the getter of this property: [getMemorySetting()](../../com.aspose.cells/loadoptions\#getMemorySetting--)
+For the description of this property, please see \#getMemorySetting().getMemorySetting()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -841,7 +841,7 @@ public void setParsingFormulaOnOpen(boolean value)
 ```
 
 
-Please see the getter of this property: [getParsingFormulaOnOpen()](../../com.aspose.cells/loadoptions\#getParsingFormulaOnOpen--)
+For the description of this property, please see \#getParsingFormulaOnOpen().getParsingFormulaOnOpen()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -854,7 +854,7 @@ public void setParsingPivotCachedRecords(boolean value)
 ```
 
 
-Please see the getter of this property: [getParsingPivotCachedRecords()](../../com.aspose.cells/loadoptions\#getParsingPivotCachedRecords--)
+For the description of this property, please see \#getParsingPivotCachedRecords().getParsingPivotCachedRecords()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -867,7 +867,7 @@ public void setPassword(String value)
 ```
 
 
-Please see the getter of this property: [getPassword()](../../com.aspose.cells/loadoptions\#getPassword--)
+For the description of this property, please see \#getPassword().getPassword()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -880,7 +880,7 @@ public void setRegion(int value)
 ```
 
 
-Please see the getter of this property: [getRegion()](../../com.aspose.cells/loadoptions\#getRegion--)
+For the description of this property, please see \#getRegion().getRegion()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -893,7 +893,7 @@ public void setStandardFont(String value)
 ```
 
 
-Please see the getter of this property: [getStandardFont()](../../com.aspose.cells/loadoptions\#getStandardFont--)
+For the description of this property, please see \#getStandardFont().getStandardFont()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -906,7 +906,7 @@ public void setStandardFontSize(double value)
 ```
 
 
-Please see the getter of this property: [getStandardFontSize()](../../com.aspose.cells/loadoptions\#getStandardFontSize--)
+For the description of this property, please see \#getStandardFontSize().getStandardFontSize()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -919,7 +919,7 @@ public void setStreamProvider(IStreamProvider value)
 ```
 
 
-Please see the getter of this property: @CREF61\_
+For the description of this property, please see \#getStreamProvider().getStreamProvider()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -932,7 +932,7 @@ public void setSupportDivTag(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF57\_
+For the description of this property, please see \#getSupportDivTag().getSupportDivTag()
 
 **Parameters:**
 | Parameter | Type | Description |

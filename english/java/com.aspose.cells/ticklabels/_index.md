@@ -37,17 +37,17 @@ Represents the tick-mark labels associated with tick marks on a chart axis.
 | [isAutomaticRotation()](#isAutomaticRotation--) | Indicates whether the rotation angle is automatic |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | Please see the getter of this property: [getAutoScaleFont()](../../com.aspose.cells/ticklabels\#getAutoScaleFont--) |
-| [setAutomaticRotation(boolean value)](#setAutomaticRotation-boolean-) | Please see the getter of this property: [isAutomaticRotation()](../../com.aspose.cells/ticklabels\#isAutomaticRotation--) |
-| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Please see the getter of this property: [getBackgroundMode()](../../com.aspose.cells/ticklabels\#getBackgroundMode--) |
-| [setDirectionType(int value)](#setDirectionType-int-) | Please see the getter of this property: [getDirectionType()](../../com.aspose.cells/ticklabels\#getDirectionType--) |
-| [setNumber(int value)](#setNumber-int-) | Please see the getter of this property: [getNumber()](../../com.aspose.cells/ticklabels\#getNumber--) |
-| [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | Please see the getter of this property: [getNumberFormat()](../../com.aspose.cells/ticklabels\#getNumberFormat--) |
-| [setNumberFormatLinked(boolean value)](#setNumberFormatLinked-boolean-) | Please see the getter of this property: [getNumberFormatLinked()](../../com.aspose.cells/ticklabels\#getNumberFormatLinked--) |
-| [setOffset(int value)](#setOffset-int-) | Please see the getter of this property: [getOffset()](../../com.aspose.cells/ticklabels\#getOffset--) |
-| [setReadingOrder(int value)](#setReadingOrder-int-) | Please see the getter of this property: [getReadingOrder()](../../com.aspose.cells/ticklabels\#getReadingOrder--) |
-| [setRotationAngle(int value)](#setRotationAngle-int-) | Please see the getter of this property: [getRotationAngle()](../../com.aspose.cells/ticklabels\#getRotationAngle--) |
-| [setTextDirection(int value)](#setTextDirection-int-) | Please see the getter of this property: [getTextDirection()](../../com.aspose.cells/ticklabels\#getTextDirection--) |
+| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | For the description of this property, please see \#getAutoScaleFont().getAutoScaleFont() |
+| [setAutomaticRotation(boolean value)](#setAutomaticRotation-boolean-) | For the description of this property, please see \#isAutomaticRotation().isAutomaticRotation() |
+| [setBackgroundMode(int value)](#setBackgroundMode-int-) | For the description of this property, please see \#getBackgroundMode().getBackgroundMode() |
+| [setDirectionType(int value)](#setDirectionType-int-) | For the description of this property, please see \#getDirectionType().getDirectionType() |
+| [setNumber(int value)](#setNumber-int-) | For the description of this property, please see \#getNumber().getNumber() |
+| [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | For the description of this property, please see \#getNumberFormat().getNumberFormat() |
+| [setNumberFormatLinked(boolean value)](#setNumberFormatLinked-boolean-) | For the description of this property, please see \#getNumberFormatLinked().getNumberFormatLinked() |
+| [setOffset(int value)](#setOffset-int-) | For the description of this property, please see \#getOffset().getOffset() |
+| [setReadingOrder(int value)](#setReadingOrder-int-) | For the description of this property, please see \#getReadingOrder().getReadingOrder() |
+| [setRotationAngle(int value)](#setRotationAngle-int-) | For the description of this property, please see \#getRotationAngle().getRotationAngle() |
+| [setTextDirection(int value)](#setTextDirection-int-) | For the description of this property, please see \#getTextDirection().getTextDirection() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -257,7 +257,7 @@ public void setAutoScaleFont(boolean value)
 ```
 
 
-Please see the getter of this property: [getAutoScaleFont()](../../com.aspose.cells/ticklabels\#getAutoScaleFont--)
+For the description of this property, please see \#getAutoScaleFont().getAutoScaleFont()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -270,7 +270,7 @@ public void setAutomaticRotation(boolean value)
 ```
 
 
-Please see the getter of this property: [isAutomaticRotation()](../../com.aspose.cells/ticklabels\#isAutomaticRotation--)
+For the description of this property, please see \#isAutomaticRotation().isAutomaticRotation()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -283,7 +283,7 @@ public void setBackgroundMode(int value)
 ```
 
 
-Please see the getter of this property: [getBackgroundMode()](../../com.aspose.cells/ticklabels\#getBackgroundMode--)
+For the description of this property, please see \#getBackgroundMode().getBackgroundMode()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -296,7 +296,7 @@ public void setDirectionType(int value)
 ```
 
 
-Please see the getter of this property: [getDirectionType()](../../com.aspose.cells/ticklabels\#getDirectionType--)
+For the description of this property, please see \#getDirectionType().getDirectionType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -309,7 +309,7 @@ public void setNumber(int value)
 ```
 
 
-Please see the getter of this property: [getNumber()](../../com.aspose.cells/ticklabels\#getNumber--)
+For the description of this property, please see \#getNumber().getNumber()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -322,7 +322,7 @@ public void setNumberFormat(String value)
 ```
 
 
-Please see the getter of this property: [getNumberFormat()](../../com.aspose.cells/ticklabels\#getNumberFormat--)
+For the description of this property, please see \#getNumberFormat().getNumberFormat()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -335,7 +335,7 @@ public void setNumberFormatLinked(boolean value)
 ```
 
 
-Please see the getter of this property: [getNumberFormatLinked()](../../com.aspose.cells/ticklabels\#getNumberFormatLinked--)
+For the description of this property, please see \#getNumberFormatLinked().getNumberFormatLinked()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -348,7 +348,7 @@ public void setOffset(int value)
 ```
 
 
-Please see the getter of this property: [getOffset()](../../com.aspose.cells/ticklabels\#getOffset--)
+For the description of this property, please see \#getOffset().getOffset()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -361,7 +361,7 @@ public void setReadingOrder(int value)
 ```
 
 
-Please see the getter of this property: [getReadingOrder()](../../com.aspose.cells/ticklabels\#getReadingOrder--)
+For the description of this property, please see \#getReadingOrder().getReadingOrder()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -374,7 +374,7 @@ public void setRotationAngle(int value)
 ```
 
 
-Please see the getter of this property: [getRotationAngle()](../../com.aspose.cells/ticklabels\#getRotationAngle--)
+For the description of this property, please see \#getRotationAngle().getRotationAngle()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -387,7 +387,7 @@ public void setTextDirection(int value)
 ```
 
 
-Please see the getter of this property: [getTextDirection()](../../com.aspose.cells/ticklabels\#getTextDirection--)
+For the description of this property, please see \#getTextDirection().getTextDirection()
 
 **Parameters:**
 | Parameter | Type | Description |

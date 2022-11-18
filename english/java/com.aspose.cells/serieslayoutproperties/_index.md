@@ -33,16 +33,16 @@ Represents the properties of series layout.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setMapChartProjectionType(int value)](#setMapChartProjectionType-int-) | Please see the getter of this property: @CREF99\_ |
-| [setMapChartRegionType(int value)](#setMapChartRegionType-int-) | Please see the getter of this property: @CREF98\_ |
-| [setMapLabelLayout(int value)](#setMapLabelLayout-int-) | Please see the getter of this property: @CREF97\_ |
-| [setQuartileCalculation(int value)](#setQuartileCalculation-int-) | Please see the getter of this property: @CREF96\_ |
-| [setShowConnectorLines(boolean value)](#setShowConnectorLines-boolean-) | Please see the getter of this property: @CREF90\_ |
-| [setShowInnerPoints(boolean value)](#setShowInnerPoints-boolean-) | Please see the getter of this property: @CREF94\_ |
-| [setShowMeanLine(boolean value)](#setShowMeanLine-boolean-) | Please see the getter of this property: @CREF91\_ |
-| [setShowMeanMarker(boolean value)](#setShowMeanMarker-boolean-) | Please see the getter of this property: @CREF93\_ |
-| [setShowOutlierPoints(boolean value)](#setShowOutlierPoints-boolean-) | Please see the getter of this property: @CREF92\_ |
-| [setSubtotals(int[] value)](#setSubtotals-int---) | Please see the getter of this property: @CREF95\_ |
+| [setMapChartProjectionType(int value)](#setMapChartProjectionType-int-) | For the description of this property, please see \#getMapChartProjectionType().getMapChartProjectionType() |
+| [setMapChartRegionType(int value)](#setMapChartRegionType-int-) | For the description of this property, please see \#getMapChartRegionType().getMapChartRegionType() |
+| [setMapLabelLayout(int value)](#setMapLabelLayout-int-) | For the description of this property, please see \#getMapLabelLayout().getMapLabelLayout() |
+| [setQuartileCalculation(int value)](#setQuartileCalculation-int-) | For the description of this property, please see \#getQuartileCalculation().getQuartileCalculation() |
+| [setShowConnectorLines(boolean value)](#setShowConnectorLines-boolean-) | For the description of this property, please see \#getShowConnectorLines().getShowConnectorLines() |
+| [setShowInnerPoints(boolean value)](#setShowInnerPoints-boolean-) | For the description of this property, please see \#getShowInnerPoints().getShowInnerPoints() |
+| [setShowMeanLine(boolean value)](#setShowMeanLine-boolean-) | For the description of this property, please see \#getShowMeanLine().getShowMeanLine() |
+| [setShowMeanMarker(boolean value)](#setShowMeanMarker-boolean-) | For the description of this property, please see \#getShowMeanMarker().getShowMeanMarker() |
+| [setShowOutlierPoints(boolean value)](#setShowOutlierPoints-boolean-) | For the description of this property, please see \#getShowOutlierPoints().getShowOutlierPoints() |
+| [setSubtotals(int[] value)](#setSubtotals-int---) | For the description of this property, please see \#getSubtotals().getSubtotals() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -204,7 +204,7 @@ public void setMapChartProjectionType(int value)
 ```
 
 
-Please see the getter of this property: @CREF99\_
+For the description of this property, please see \#getMapChartProjectionType().getMapChartProjectionType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -217,7 +217,7 @@ public void setMapChartRegionType(int value)
 ```
 
 
-Please see the getter of this property: @CREF98\_
+For the description of this property, please see \#getMapChartRegionType().getMapChartRegionType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -230,7 +230,7 @@ public void setMapLabelLayout(int value)
 ```
 
 
-Please see the getter of this property: @CREF97\_
+For the description of this property, please see \#getMapLabelLayout().getMapLabelLayout()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -243,7 +243,7 @@ public void setQuartileCalculation(int value)
 ```
 
 
-Please see the getter of this property: @CREF96\_
+For the description of this property, please see \#getQuartileCalculation().getQuartileCalculation()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -256,7 +256,7 @@ public void setShowConnectorLines(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF90\_
+For the description of this property, please see \#getShowConnectorLines().getShowConnectorLines()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -269,7 +269,7 @@ public void setShowInnerPoints(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF94\_
+For the description of this property, please see \#getShowInnerPoints().getShowInnerPoints()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -282,7 +282,7 @@ public void setShowMeanLine(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF91\_
+For the description of this property, please see \#getShowMeanLine().getShowMeanLine()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -295,7 +295,7 @@ public void setShowMeanMarker(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF93\_
+For the description of this property, please see \#getShowMeanMarker().getShowMeanMarker()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -308,7 +308,7 @@ public void setShowOutlierPoints(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF92\_
+For the description of this property, please see \#getShowOutlierPoints().getShowOutlierPoints()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -321,7 +321,7 @@ public void setSubtotals(int[] value)
 ```
 
 
-Please see the getter of this property: @CREF95\_
+For the description of this property, please see \#getSubtotals().getSubtotals()
 
 **Parameters:**
 | Parameter | Type | Description |

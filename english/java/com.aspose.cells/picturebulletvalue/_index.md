@@ -30,7 +30,7 @@ Represents the value of the image bullet.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setImageData(byte[] value)](#setImageData-byte---) | Please see the getter of this property: @CREF743\_ |
+| [setImageData(byte[] value)](#setImageData-byte---) | For the description of this property, please see \#getImageData().getImageData() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -118,7 +118,7 @@ public void setImageData(byte[] value)
 ```
 
 
-Please see the getter of this property: @CREF743\_
+For the description of this property, please see \#getImageData().getImageData()
 
 **Parameters:**
 | Parameter | Type | Description |

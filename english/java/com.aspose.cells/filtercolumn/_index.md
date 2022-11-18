@@ -28,11 +28,11 @@ Represents a filter for a single column. The Filter object is a member of the Fi
 | [isDropdownVisible()](#isDropdownVisible--) | Indicates whether the AutoFilter button for this column is visible. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDropdownVisible(boolean value)](#setDropdownVisible-boolean-) | Please see the getter of this property: @CREF1610\_ |
-| [setFieldIndex(int value)](#setFieldIndex-int-) | Please see the getter of this property: @CREF1614\_ |
-| [setFilter(Object value)](#setFilter-java.lang.Object-) | Please see the getter of this property: @CREF1612\_ |
-| [setFilterType(int value)](#setFilterType-int-) | Please see the getter of this property: @CREF1613\_ |
-| [setVisibledropdown(boolean value)](#setVisibledropdown-boolean-) | Please see the getter of this property: @CREF1611\_ |
+| [setDropdownVisible(boolean value)](#setDropdownVisible-boolean-) | For the description of this property, please see \#isDropdownVisible().isDropdownVisible() |
+| [setFieldIndex(int value)](#setFieldIndex-int-) | For the description of this property, please see \#getFieldIndex().getFieldIndex() |
+| [setFilter(Object value)](#setFilter-java.lang.Object-) | For the description of this property, please see \#getFilter().getFilter() |
+| [setFilterType(int value)](#setFilterType-int-) | For the description of this property, please see \#getFilterType().getFilterType() |
+| [setVisibledropdown(boolean value)](#setVisibledropdown-boolean-) | For the description of this property, please see \#getVisibledropdown().getVisibledropdown() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -144,7 +144,7 @@ public void setDropdownVisible(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1610\_
+For the description of this property, please see \#isDropdownVisible().isDropdownVisible()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -157,7 +157,7 @@ public void setFieldIndex(int value)
 ```
 
 
-Please see the getter of this property: @CREF1614\_
+For the description of this property, please see \#getFieldIndex().getFieldIndex()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -170,7 +170,7 @@ public void setFilter(Object value)
 ```
 
 
-Please see the getter of this property: @CREF1612\_
+For the description of this property, please see \#getFilter().getFilter()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -183,7 +183,7 @@ public void setFilterType(int value)
 ```
 
 
-Please see the getter of this property: @CREF1613\_
+For the description of this property, please see \#getFilterType().getFilterType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -196,7 +196,7 @@ public void setVisibledropdown(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1611\_
+For the description of this property, please see \#getVisibledropdown().getVisibledropdown()
 
 **Parameters:**
 | Parameter | Type | Description |

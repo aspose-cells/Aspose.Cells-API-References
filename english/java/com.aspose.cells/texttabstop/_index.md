@@ -25,8 +25,8 @@ Represents tab stop.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setTabAlignment(int value)](#setTabAlignment-int-) | Please see the getter of this property: @CREF776\_ |
-| [setTabPosition(double value)](#setTabPosition-double-) | Please see the getter of this property: @CREF777\_ |
+| [setTabAlignment(int value)](#setTabAlignment-int-) | For the description of this property, please see \#getTabAlignment().getTabAlignment() |
+| [setTabPosition(double value)](#setTabPosition-double-) | For the description of this property, please see \#getTabPosition().getTabPosition() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -108,7 +108,7 @@ public void setTabAlignment(int value)
 ```
 
 
-Please see the getter of this property: @CREF776\_
+For the description of this property, please see \#getTabAlignment().getTabAlignment()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -121,7 +121,7 @@ public void setTabPosition(double value)
 ```
 
 
-Please see the getter of this property: @CREF777\_
+For the description of this property, please see \#getTabPosition().getTabPosition()
 
 **Parameters:**
 | Parameter | Type | Description |

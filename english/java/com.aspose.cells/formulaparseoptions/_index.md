@@ -27,10 +27,10 @@ Represents options when parsing formula.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCheckAddIn(boolean value)](#setCheckAddIn-boolean-) | Please see the getter of this property: @CREF53\_ |
-| [setLocaleDependent(boolean value)](#setLocaleDependent-boolean-) | Please see the getter of this property: @CREF51\_ |
-| [setParse(boolean value)](#setParse-boolean-) | Please see the getter of this property: @CREF54\_ |
-| [setR1C1Style(boolean value)](#setR1C1Style-boolean-) | Please see the getter of this property: @CREF52\_ |
+| [setCheckAddIn(boolean value)](#setCheckAddIn-boolean-) | For the description of this property, please see \#getCheckAddIn().getCheckAddIn() |
+| [setLocaleDependent(boolean value)](#setLocaleDependent-boolean-) | For the description of this property, please see \#getLocaleDependent().getLocaleDependent() |
+| [setParse(boolean value)](#setParse-boolean-) | For the description of this property, please see \#getParse().getParse() |
+| [setR1C1Style(boolean value)](#setR1C1Style-boolean-) | For the description of this property, please see \#getR1C1Style().getR1C1Style() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -132,7 +132,7 @@ public void setCheckAddIn(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF53\_
+For the description of this property, please see \#getCheckAddIn().getCheckAddIn()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setLocaleDependent(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF51\_
+For the description of this property, please see \#getLocaleDependent().getLocaleDependent()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public void setParse(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF54\_
+For the description of this property, please see \#getParse().getParse()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,7 +171,7 @@ public void setR1C1Style(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF52\_
+For the description of this property, please see \#getR1C1Style().getR1C1Style()
 
 **Parameters:**
 | Parameter | Type | Description |

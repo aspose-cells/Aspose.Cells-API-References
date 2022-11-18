@@ -36,14 +36,14 @@ Encapsulates the object that represents texture fill format
 | [isTiling()](#isTiling--) | Indicates whether tile picture as texture. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setImageData(byte[] value)](#setImageData-byte---) | Please see the getter of this property: @CREF1731\_ |
-| [setPicFormatOption(PicFormatOption value)](#setPicFormatOption-com.aspose.cells.PicFormatOption-) | Please see the getter of this property: @CREF1733\_ |
-| [setPictureFormatType(int value)](#setPictureFormatType-int-) | Please see the getter of this property: @CREF1735\_ |
-| [setScale(double value)](#setScale-double-) | Please see the getter of this property: @CREF1736\_ |
-| [setTilePicOption(TilePicOption value)](#setTilePicOption-com.aspose.cells.TilePicOption-) | Please see the getter of this property: @CREF1734\_ |
-| [setTiling(boolean value)](#setTiling-boolean-) | Please see the getter of this property: @CREF1732\_ |
-| [setTransparency(double value)](#setTransparency-double-) | Please see the getter of this property: @CREF1737\_ |
-| [setType(int value)](#setType-int-) | Please see the getter of this property: @CREF1730\_ |
+| [setImageData(byte[] value)](#setImageData-byte---) | For the description of this property, please see \#getImageData().getImageData() |
+| [setPicFormatOption(PicFormatOption value)](#setPicFormatOption-com.aspose.cells.PicFormatOption-) | For the description of this property, please see \#getPicFormatOption().getPicFormatOption() |
+| [setPictureFormatType(int value)](#setPictureFormatType-int-) | For the description of this property, please see \#getPictureFormatType().getPictureFormatType() |
+| [setScale(double value)](#setScale-double-) | For the description of this property, please see \#getScale().getScale() |
+| [setTilePicOption(TilePicOption value)](#setTilePicOption-com.aspose.cells.TilePicOption-) | For the description of this property, please see \#getTilePicOption().getTilePicOption() |
+| [setTiling(boolean value)](#setTiling-boolean-) | For the description of this property, please see \#isTiling().isTiling() |
+| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see \#getTransparency().getTransparency() |
+| [setType(int value)](#setType-int-) | For the description of this property, please see \#getType().getType() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -191,7 +191,7 @@ public void setImageData(byte[] value)
 ```
 
 
-Please see the getter of this property: @CREF1731\_
+For the description of this property, please see \#getImageData().getImageData()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -204,7 +204,7 @@ public void setPicFormatOption(PicFormatOption value)
 ```
 
 
-Please see the getter of this property: @CREF1733\_
+For the description of this property, please see \#getPicFormatOption().getPicFormatOption()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -217,7 +217,7 @@ public void setPictureFormatType(int value)
 ```
 
 
-Please see the getter of this property: @CREF1735\_
+For the description of this property, please see \#getPictureFormatType().getPictureFormatType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -230,7 +230,7 @@ public void setScale(double value)
 ```
 
 
-Please see the getter of this property: @CREF1736\_
+For the description of this property, please see \#getScale().getScale()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -243,7 +243,7 @@ public void setTilePicOption(TilePicOption value)
 ```
 
 
-Please see the getter of this property: @CREF1734\_
+For the description of this property, please see \#getTilePicOption().getTilePicOption()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -256,7 +256,7 @@ public void setTiling(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1732\_
+For the description of this property, please see \#isTiling().isTiling()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -269,7 +269,7 @@ public void setTransparency(double value)
 ```
 
 
-Please see the getter of this property: @CREF1737\_
+For the description of this property, please see \#getTransparency().getTransparency()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -282,7 +282,7 @@ public void setType(int value)
 ```
 
 
-Please see the getter of this property: @CREF1730\_
+For the description of this property, please see \#getType().getType()
 
 **Parameters:**
 | Parameter | Type | Description |

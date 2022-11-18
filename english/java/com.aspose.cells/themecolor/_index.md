@@ -46,8 +46,8 @@ Represents a theme color.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setColorType(int value)](#setColorType-int-) | Please see the getter of this property: [getColorType()](../../com.aspose.cells/themecolor\#getColorType--) |
-| [setTint(double value)](#setTint-double-) | Please see the getter of this property: [getTint()](../../com.aspose.cells/themecolor\#getTint--) |
+| [setColorType(int value)](#setColorType-int-) | For the description of this property, please see \#getColorType().getColorType() |
+| [setTint(double value)](#setTint-double-) | For the description of this property, please see \#getTint().getTint() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -143,7 +143,7 @@ public void setColorType(int value)
 ```
 
 
-Please see the getter of this property: [getColorType()](../../com.aspose.cells/themecolor\#getColorType--)
+For the description of this property, please see \#getColorType().getColorType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -156,7 +156,7 @@ public void setTint(double value)
 ```
 
 
-Please see the getter of this property: [getTint()](../../com.aspose.cells/themecolor\#getTint--)
+For the description of this property, please see \#getTint().getTint()
 
 **Parameters:**
 | Parameter | Type | Description |

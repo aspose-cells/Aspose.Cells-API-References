@@ -41,8 +41,8 @@ Represents the module in VBA project.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCodes(String value)](#setCodes-java.lang.String-) | Please see the getter of this property: [getCodes()](../../com.aspose.cells/vbamodule\#getCodes--) |
-| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: [getName()](../../com.aspose.cells/vbamodule\#getName--) |
+| [setCodes(String value)](#setCodes-java.lang.String-) | For the description of this property, please see \#getCodes().getCodes() |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -134,7 +134,7 @@ public void setCodes(String value)
 ```
 
 
-Please see the getter of this property: [getCodes()](../../com.aspose.cells/vbamodule\#getCodes--)
+For the description of this property, please see \#getCodes().getCodes()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -147,7 +147,7 @@ public void setName(String value)
 ```
 
 
-Please see the getter of this property: [getName()](../../com.aspose.cells/vbamodule\#getName--)
+For the description of this property, please see \#getName().getName()
 
 **Parameters:**
 | Parameter | Type | Description |

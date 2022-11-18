@@ -36,7 +36,7 @@ Represents the format of the shape or text. NOTE: This member is now obsolete. I
 | [hashCode()](#hashCode--) | Gets the hash code. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setSoftEdgeRadius(double value)](#setSoftEdgeRadius-double-) | Please see the getter of this property: [getSoftEdgeRadius()](../../com.aspose.cells/shapeformat\#getSoftEdgeRadius--) |
+| [setSoftEdgeRadius(double value)](#setSoftEdgeRadius-double-) | For the description of this property, please see \#getSoftEdgeRadius().getSoftEdgeRadius() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -222,7 +222,7 @@ public void setSoftEdgeRadius(double value)
 ```
 
 
-Please see the getter of this property: [getSoftEdgeRadius()](../../com.aspose.cells/shapeformat\#getSoftEdgeRadius--)
+For the description of this property, please see \#getSoftEdgeRadius().getSoftEdgeRadius()
 
 **Parameters:**
 | Parameter | Type | Description |

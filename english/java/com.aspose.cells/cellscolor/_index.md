@@ -30,13 +30,13 @@ Represents all types of color.
 | [isShapeColor()](#isShapeColor--) | Gets and set the color which should apply to cell or shape. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setArgb(int value)](#setArgb-int-) | Please see the getter of this property: @CREF1323\_ |
-| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | Please see the getter of this property: @CREF1322\_ |
-| [setColorIndex(int value)](#setColorIndex-int-) | Please see the getter of this property: @CREF1321\_ |
-| [setShapeColor(boolean value)](#setShapeColor-boolean-) | Please see the getter of this property: @CREF1319\_ |
-| [setThemeColor(ThemeColor value)](#setThemeColor-com.aspose.cells.ThemeColor-) | Please see the getter of this property: @CREF1320\_ |
+| [setArgb(int value)](#setArgb-int-) | For the description of this property, please see \#getArgb().getArgb() |
+| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | For the description of this property, please see \#getColor().getColor() |
+| [setColorIndex(int value)](#setColorIndex-int-) | For the description of this property, please see \#getColorIndex().getColorIndex() |
+| [setShapeColor(boolean value)](#setShapeColor-boolean-) | For the description of this property, please see \#isShapeColor().isShapeColor() |
+| [setThemeColor(ThemeColor value)](#setThemeColor-com.aspose.cells.ThemeColor-) | For the description of this property, please see \#getThemeColor().getThemeColor() |
 | [setTintOfShapeColor(double tint)](#setTintOfShapeColor-double-) | Set the tint of the shape color |
-| [setTransparency(double value)](#setTransparency-double-) | Please see the getter of this property: @CREF1324\_ |
+| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see \#getTransparency().getTransparency() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -168,7 +168,7 @@ public void setArgb(int value)
 ```
 
 
-Please see the getter of this property: @CREF1323\_
+For the description of this property, please see \#getArgb().getArgb()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,7 +181,7 @@ public void setColor(Color value)
 ```
 
 
-Please see the getter of this property: @CREF1322\_
+For the description of this property, please see \#getColor().getColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -194,7 +194,7 @@ public void setColorIndex(int value)
 ```
 
 
-Please see the getter of this property: @CREF1321\_
+For the description of this property, please see \#getColorIndex().getColorIndex()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -207,7 +207,7 @@ public void setShapeColor(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1319\_
+For the description of this property, please see \#isShapeColor().isShapeColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -220,7 +220,7 @@ public void setThemeColor(ThemeColor value)
 ```
 
 
-Please see the getter of this property: @CREF1320\_
+For the description of this property, please see \#getThemeColor().getThemeColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ public void setTransparency(double value)
 ```
 
 
-Please see the getter of this property: @CREF1324\_
+For the description of this property, please see \#getTransparency().getTransparency()
 
 **Parameters:**
 | Parameter | Type | Description |

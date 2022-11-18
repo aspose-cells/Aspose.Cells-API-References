@@ -48,20 +48,20 @@ int hashCode = shapeTextAlignment.hashCode();
 | [isTextWrapped()](#isTextWrapped--) | Gets and sets the text wrapped type of the shape which contains text. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoMargin(boolean value)](#setAutoMargin-boolean-) | Please see the getter of this property: [isAutoMargin()](../../com.aspose.cells/shapetextalignment\#isAutoMargin--) |
-| [setAutoSize(boolean value)](#setAutoSize-boolean-) | Please see the getter of this property: [getAutoSize()](../../com.aspose.cells/shapetextalignment\#getAutoSize--) |
-| [setBottomMarginPt(double value)](#setBottomMarginPt-double-) | Please see the getter of this property: [getBottomMarginPt()](../../com.aspose.cells/shapetextalignment\#getBottomMarginPt--) |
-| [setLeftMarginPt(double value)](#setLeftMarginPt-double-) | Please see the getter of this property: [getLeftMarginPt()](../../com.aspose.cells/shapetextalignment\#getLeftMarginPt--) |
-| [setNumberOfColumns(int value)](#setNumberOfColumns-int-) | Please see the getter of this property: [getNumberOfColumns()](../../com.aspose.cells/shapetextalignment\#getNumberOfColumns--) |
-| [setRightMarginPt(double value)](#setRightMarginPt-double-) | Please see the getter of this property: [getRightMarginPt()](../../com.aspose.cells/shapetextalignment\#getRightMarginPt--) |
-| [setRotateTextWithShape(boolean value)](#setRotateTextWithShape-boolean-) | Please see the getter of this property: [getRotateTextWithShape()](../../com.aspose.cells/shapetextalignment\#getRotateTextWithShape--) |
-| [setRotationAngle(double value)](#setRotationAngle-double-) | Please see the getter of this property: [getRotationAngle()](../../com.aspose.cells/shapetextalignment\#getRotationAngle--) |
-| [setTextHorizontalOverflow(int value)](#setTextHorizontalOverflow-int-) | Please see the getter of this property: [getTextHorizontalOverflow()](../../com.aspose.cells/shapetextalignment\#getTextHorizontalOverflow--) |
-| [setTextShapeType(int value)](#setTextShapeType-int-) | Please see the getter of this property: [getTextShapeType()](../../com.aspose.cells/shapetextalignment\#getTextShapeType--) |
-| [setTextVerticalOverflow(int value)](#setTextVerticalOverflow-int-) | Please see the getter of this property: [getTextVerticalOverflow()](../../com.aspose.cells/shapetextalignment\#getTextVerticalOverflow--) |
-| [setTextVerticalType(int value)](#setTextVerticalType-int-) | Please see the getter of this property: [getTextVerticalType()](../../com.aspose.cells/shapetextalignment\#getTextVerticalType--) |
-| [setTextWrapped(boolean value)](#setTextWrapped-boolean-) | Please see the getter of this property: [isTextWrapped()](../../com.aspose.cells/shapetextalignment\#isTextWrapped--) |
-| [setTopMarginPt(double value)](#setTopMarginPt-double-) | Please see the getter of this property: [getTopMarginPt()](../../com.aspose.cells/shapetextalignment\#getTopMarginPt--) |
+| [setAutoMargin(boolean value)](#setAutoMargin-boolean-) | For the description of this property, please see \#isAutoMargin().isAutoMargin() |
+| [setAutoSize(boolean value)](#setAutoSize-boolean-) | For the description of this property, please see \#getAutoSize().getAutoSize() |
+| [setBottomMarginPt(double value)](#setBottomMarginPt-double-) | For the description of this property, please see \#getBottomMarginPt().getBottomMarginPt() |
+| [setLeftMarginPt(double value)](#setLeftMarginPt-double-) | For the description of this property, please see \#getLeftMarginPt().getLeftMarginPt() |
+| [setNumberOfColumns(int value)](#setNumberOfColumns-int-) | For the description of this property, please see \#getNumberOfColumns().getNumberOfColumns() |
+| [setRightMarginPt(double value)](#setRightMarginPt-double-) | For the description of this property, please see \#getRightMarginPt().getRightMarginPt() |
+| [setRotateTextWithShape(boolean value)](#setRotateTextWithShape-boolean-) | For the description of this property, please see \#getRotateTextWithShape().getRotateTextWithShape() |
+| [setRotationAngle(double value)](#setRotationAngle-double-) | For the description of this property, please see \#getRotationAngle().getRotationAngle() |
+| [setTextHorizontalOverflow(int value)](#setTextHorizontalOverflow-int-) | For the description of this property, please see \#getTextHorizontalOverflow().getTextHorizontalOverflow() |
+| [setTextShapeType(int value)](#setTextShapeType-int-) | For the description of this property, please see \#getTextShapeType().getTextShapeType() |
+| [setTextVerticalOverflow(int value)](#setTextVerticalOverflow-int-) | For the description of this property, please see \#getTextVerticalOverflow().getTextVerticalOverflow() |
+| [setTextVerticalType(int value)](#setTextVerticalType-int-) | For the description of this property, please see \#getTextVerticalType().getTextVerticalType() |
+| [setTextWrapped(boolean value)](#setTextWrapped-boolean-) | For the description of this property, please see \#isTextWrapped().isTextWrapped() |
+| [setTopMarginPt(double value)](#setTopMarginPt-double-) | For the description of this property, please see \#getTopMarginPt().getTopMarginPt() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -327,7 +327,7 @@ public void setAutoMargin(boolean value)
 ```
 
 
-Please see the getter of this property: [isAutoMargin()](../../com.aspose.cells/shapetextalignment\#isAutoMargin--)
+For the description of this property, please see \#isAutoMargin().isAutoMargin()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -340,7 +340,7 @@ public void setAutoSize(boolean value)
 ```
 
 
-Please see the getter of this property: [getAutoSize()](../../com.aspose.cells/shapetextalignment\#getAutoSize--)
+For the description of this property, please see \#getAutoSize().getAutoSize()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -353,7 +353,7 @@ public void setBottomMarginPt(double value)
 ```
 
 
-Please see the getter of this property: [getBottomMarginPt()](../../com.aspose.cells/shapetextalignment\#getBottomMarginPt--)
+For the description of this property, please see \#getBottomMarginPt().getBottomMarginPt()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -366,7 +366,7 @@ public void setLeftMarginPt(double value)
 ```
 
 
-Please see the getter of this property: [getLeftMarginPt()](../../com.aspose.cells/shapetextalignment\#getLeftMarginPt--)
+For the description of this property, please see \#getLeftMarginPt().getLeftMarginPt()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -379,7 +379,7 @@ public void setNumberOfColumns(int value)
 ```
 
 
-Please see the getter of this property: [getNumberOfColumns()](../../com.aspose.cells/shapetextalignment\#getNumberOfColumns--)
+For the description of this property, please see \#getNumberOfColumns().getNumberOfColumns()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -392,7 +392,7 @@ public void setRightMarginPt(double value)
 ```
 
 
-Please see the getter of this property: [getRightMarginPt()](../../com.aspose.cells/shapetextalignment\#getRightMarginPt--)
+For the description of this property, please see \#getRightMarginPt().getRightMarginPt()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -405,7 +405,7 @@ public void setRotateTextWithShape(boolean value)
 ```
 
 
-Please see the getter of this property: [getRotateTextWithShape()](../../com.aspose.cells/shapetextalignment\#getRotateTextWithShape--)
+For the description of this property, please see \#getRotateTextWithShape().getRotateTextWithShape()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -418,7 +418,7 @@ public void setRotationAngle(double value)
 ```
 
 
-Please see the getter of this property: [getRotationAngle()](../../com.aspose.cells/shapetextalignment\#getRotationAngle--)
+For the description of this property, please see \#getRotationAngle().getRotationAngle()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -431,7 +431,7 @@ public void setTextHorizontalOverflow(int value)
 ```
 
 
-Please see the getter of this property: [getTextHorizontalOverflow()](../../com.aspose.cells/shapetextalignment\#getTextHorizontalOverflow--)
+For the description of this property, please see \#getTextHorizontalOverflow().getTextHorizontalOverflow()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -444,7 +444,7 @@ public void setTextShapeType(int value)
 ```
 
 
-Please see the getter of this property: [getTextShapeType()](../../com.aspose.cells/shapetextalignment\#getTextShapeType--)
+For the description of this property, please see \#getTextShapeType().getTextShapeType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -457,7 +457,7 @@ public void setTextVerticalOverflow(int value)
 ```
 
 
-Please see the getter of this property: [getTextVerticalOverflow()](../../com.aspose.cells/shapetextalignment\#getTextVerticalOverflow--)
+For the description of this property, please see \#getTextVerticalOverflow().getTextVerticalOverflow()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -470,7 +470,7 @@ public void setTextVerticalType(int value)
 ```
 
 
-Please see the getter of this property: [getTextVerticalType()](../../com.aspose.cells/shapetextalignment\#getTextVerticalType--)
+For the description of this property, please see \#getTextVerticalType().getTextVerticalType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -483,7 +483,7 @@ public void setTextWrapped(boolean value)
 ```
 
 
-Please see the getter of this property: [isTextWrapped()](../../com.aspose.cells/shapetextalignment\#isTextWrapped--)
+For the description of this property, please see \#isTextWrapped().isTextWrapped()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -496,7 +496,7 @@ public void setTopMarginPt(double value)
 ```
 
 
-Please see the getter of this property: [getTopMarginPt()](../../com.aspose.cells/shapetextalignment\#getTopMarginPt--)
+For the description of this property, please see \#getTopMarginPt().getTopMarginPt()
 
 **Parameters:**
 | Parameter | Type | Description |

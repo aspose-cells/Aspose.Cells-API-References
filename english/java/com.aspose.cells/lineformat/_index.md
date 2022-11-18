@@ -69,30 +69,30 @@ Represents all setting of the line.
 | [hashCode()](#hashCode--) | Gets the hash code. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBeginArrowheadLength(int value)](#setBeginArrowheadLength-int-) | Please see the getter of this property: [getBeginArrowheadLength()](../../com.aspose.cells/lineformat\#getBeginArrowheadLength--) |
-| [setBeginArrowheadStyle(int value)](#setBeginArrowheadStyle-int-) | Please see the getter of this property: [getBeginArrowheadStyle()](../../com.aspose.cells/lineformat\#getBeginArrowheadStyle--) |
-| [setBeginArrowheadWidth(int value)](#setBeginArrowheadWidth-int-) | Please see the getter of this property: [getBeginArrowheadWidth()](../../com.aspose.cells/lineformat\#getBeginArrowheadWidth--) |
-| [setCapType(int value)](#setCapType-int-) | Please see the getter of this property: [getCapType()](../../com.aspose.cells/lineformat\#getCapType--) |
-| [setCompoundType(int value)](#setCompoundType-int-) | Please see the getter of this property: [getCompoundType()](../../com.aspose.cells/lineformat\#getCompoundType--) |
-| [setDashStyle(int value)](#setDashStyle-int-) | Please see the getter of this property: [getDashStyle()](../../com.aspose.cells/lineformat\#getDashStyle--) |
-| [setEndArrowheadLength(int value)](#setEndArrowheadLength-int-) | Please see the getter of this property: [getEndArrowheadLength()](../../com.aspose.cells/lineformat\#getEndArrowheadLength--) |
-| [setEndArrowheadStyle(int value)](#setEndArrowheadStyle-int-) | Please see the getter of this property: [getEndArrowheadStyle()](../../com.aspose.cells/lineformat\#getEndArrowheadStyle--) |
-| [setEndArrowheadWidth(int value)](#setEndArrowheadWidth-int-) | Please see the getter of this property: [getEndArrowheadWidth()](../../com.aspose.cells/lineformat\#getEndArrowheadWidth--) |
-| [setFillType(int value)](#setFillType-int-) | Please see the getter of this property: [getFillType()](../../com.aspose.cells/fillformat\#getFillType--) |
-| [setImageData(byte[] value)](#setImageData-byte---) | Please see the getter of this property: [getImageData()](../../com.aspose.cells/fillformat\#getImageData--) |
-| [setJoinType(int value)](#setJoinType-int-) | Please see the getter of this property: [getJoinType()](../../com.aspose.cells/lineformat\#getJoinType--) |
+| [setBeginArrowheadLength(int value)](#setBeginArrowheadLength-int-) | For the description of this property, please see \#getBeginArrowheadLength().getBeginArrowheadLength() |
+| [setBeginArrowheadStyle(int value)](#setBeginArrowheadStyle-int-) | For the description of this property, please see \#getBeginArrowheadStyle().getBeginArrowheadStyle() |
+| [setBeginArrowheadWidth(int value)](#setBeginArrowheadWidth-int-) | For the description of this property, please see \#getBeginArrowheadWidth().getBeginArrowheadWidth() |
+| [setCapType(int value)](#setCapType-int-) | For the description of this property, please see \#getCapType().getCapType() |
+| [setCompoundType(int value)](#setCompoundType-int-) | For the description of this property, please see \#getCompoundType().getCompoundType() |
+| [setDashStyle(int value)](#setDashStyle-int-) | For the description of this property, please see \#getDashStyle().getDashStyle() |
+| [setEndArrowheadLength(int value)](#setEndArrowheadLength-int-) | For the description of this property, please see \#getEndArrowheadLength().getEndArrowheadLength() |
+| [setEndArrowheadStyle(int value)](#setEndArrowheadStyle-int-) | For the description of this property, please see \#getEndArrowheadStyle().getEndArrowheadStyle() |
+| [setEndArrowheadWidth(int value)](#setEndArrowheadWidth-int-) | For the description of this property, please see \#getEndArrowheadWidth().getEndArrowheadWidth() |
+| [setFillType(int value)](#setFillType-int-) | For the description of this property, please see \#getFillType().getFillType() |
+| [setImageData(byte[] value)](#setImageData-byte---) | For the description of this property, please see \#getImageData().getImageData() |
+| [setJoinType(int value)](#setJoinType-int-) | For the description of this property, please see \#getJoinType().getJoinType() |
 | [setOneColorGradient(Color color, double degree, int style, int variant)](#setOneColorGradient-com.aspose.cells.Color-double-int-int-) | Sets the specified fill to a one-color gradient. |
-| [setPattern(int value)](#setPattern-int-) | Please see the getter of this property: [getPattern()](../../com.aspose.cells/fillformat\#getPattern--) |
-| [setPictureFormatType(int value)](#setPictureFormatType-int-) | Please see the getter of this property: [getPictureFormatType()](../../com.aspose.cells/fillformat\#getPictureFormatType--) |
+| [setPattern(int value)](#setPattern-int-) | For the description of this property, please see \#getPattern().getPattern() |
+| [setPictureFormatType(int value)](#setPictureFormatType-int-) | For the description of this property, please see \#getPictureFormatType().getPictureFormatType() |
 | [setPresetColorGradient(int presetColor, int style, int variant)](#setPresetColorGradient-int-int-int-) | Sets the specified fill to a preset-color gradient. |
-| [setScale(double value)](#setScale-double-) | Please see the getter of this property: [getScale()](../../com.aspose.cells/fillformat\#getScale--) |
-| [setSetType(int value)](#setSetType-int-) | Please see the getter of this property: [getSetType()](../../com.aspose.cells/fillformat\#getSetType--) |
-| [setTexture(int value)](#setTexture-int-) | Please see the getter of this property: [getTexture()](../../com.aspose.cells/fillformat\#getTexture--) |
-| [setTransparency(double value)](#setTransparency-double-) | Please see the getter of this property: [getTransparency()](../../com.aspose.cells/fillformat\#getTransparency--) |
+| [setScale(double value)](#setScale-double-) | For the description of this property, please see \#getScale().getScale() |
+| [setSetType(int value)](#setSetType-int-) | For the description of this property, please see \#getSetType().getSetType() |
+| [setTexture(int value)](#setTexture-int-) | For the description of this property, please see \#getTexture().getTexture() |
+| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see \#getTransparency().getTransparency() |
 | [setTwoColorGradient(Color color1, Color color2, int style, int variant)](#setTwoColorGradient-com.aspose.cells.Color-com.aspose.cells.Color-int-int-) | Sets the specified fill to a two-color gradient. |
 | [setTwoColorGradient(Color color1, double transparency1, Color color2, double transparency2, int style, int variant)](#setTwoColorGradient-com.aspose.cells.Color-double-com.aspose.cells.Color-double-int-int-) | Sets the specified fill to a two-color gradient. |
-| [setType(int value)](#setType-int-) | Please see the getter of this property: [getType()](../../com.aspose.cells/fillformat\#getType--) |
-| [setWeight(double value)](#setWeight-double-) | Please see the getter of this property: [getWeight()](../../com.aspose.cells/lineformat\#getWeight--) |
+| [setType(int value)](#setType-int-) | For the description of this property, please see \#getType().getType() |
+| [setWeight(double value)](#setWeight-double-) | For the description of this property, please see \#getWeight().getWeight() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -527,7 +527,7 @@ public void setBeginArrowheadLength(int value)
 ```
 
 
-Please see the getter of this property: [getBeginArrowheadLength()](../../com.aspose.cells/lineformat\#getBeginArrowheadLength--)
+For the description of this property, please see \#getBeginArrowheadLength().getBeginArrowheadLength()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -540,7 +540,7 @@ public void setBeginArrowheadStyle(int value)
 ```
 
 
-Please see the getter of this property: [getBeginArrowheadStyle()](../../com.aspose.cells/lineformat\#getBeginArrowheadStyle--)
+For the description of this property, please see \#getBeginArrowheadStyle().getBeginArrowheadStyle()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -553,7 +553,7 @@ public void setBeginArrowheadWidth(int value)
 ```
 
 
-Please see the getter of this property: [getBeginArrowheadWidth()](../../com.aspose.cells/lineformat\#getBeginArrowheadWidth--)
+For the description of this property, please see \#getBeginArrowheadWidth().getBeginArrowheadWidth()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -566,7 +566,7 @@ public void setCapType(int value)
 ```
 
 
-Please see the getter of this property: [getCapType()](../../com.aspose.cells/lineformat\#getCapType--)
+For the description of this property, please see \#getCapType().getCapType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -579,7 +579,7 @@ public void setCompoundType(int value)
 ```
 
 
-Please see the getter of this property: [getCompoundType()](../../com.aspose.cells/lineformat\#getCompoundType--)
+For the description of this property, please see \#getCompoundType().getCompoundType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -592,7 +592,7 @@ public void setDashStyle(int value)
 ```
 
 
-Please see the getter of this property: [getDashStyle()](../../com.aspose.cells/lineformat\#getDashStyle--)
+For the description of this property, please see \#getDashStyle().getDashStyle()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -605,7 +605,7 @@ public void setEndArrowheadLength(int value)
 ```
 
 
-Please see the getter of this property: [getEndArrowheadLength()](../../com.aspose.cells/lineformat\#getEndArrowheadLength--)
+For the description of this property, please see \#getEndArrowheadLength().getEndArrowheadLength()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -618,7 +618,7 @@ public void setEndArrowheadStyle(int value)
 ```
 
 
-Please see the getter of this property: [getEndArrowheadStyle()](../../com.aspose.cells/lineformat\#getEndArrowheadStyle--)
+For the description of this property, please see \#getEndArrowheadStyle().getEndArrowheadStyle()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -631,7 +631,7 @@ public void setEndArrowheadWidth(int value)
 ```
 
 
-Please see the getter of this property: [getEndArrowheadWidth()](../../com.aspose.cells/lineformat\#getEndArrowheadWidth--)
+For the description of this property, please see \#getEndArrowheadWidth().getEndArrowheadWidth()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -644,7 +644,7 @@ public void setFillType(int value)
 ```
 
 
-Please see the getter of this property: [getFillType()](../../com.aspose.cells/fillformat\#getFillType--)
+For the description of this property, please see \#getFillType().getFillType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -657,7 +657,7 @@ public void setImageData(byte[] value)
 ```
 
 
-Please see the getter of this property: [getImageData()](../../com.aspose.cells/fillformat\#getImageData--)
+For the description of this property, please see \#getImageData().getImageData()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -670,7 +670,7 @@ public void setJoinType(int value)
 ```
 
 
-Please see the getter of this property: [getJoinType()](../../com.aspose.cells/lineformat\#getJoinType--)
+For the description of this property, please see \#getJoinType().getJoinType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -699,7 +699,7 @@ public void setPattern(int value)
 ```
 
 
-Please see the getter of this property: [getPattern()](../../com.aspose.cells/fillformat\#getPattern--)
+For the description of this property, please see \#getPattern().getPattern()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -712,7 +712,7 @@ public void setPictureFormatType(int value)
 ```
 
 
-Please see the getter of this property: [getPictureFormatType()](../../com.aspose.cells/fillformat\#getPictureFormatType--)
+For the description of this property, please see \#getPictureFormatType().getPictureFormatType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -740,7 +740,7 @@ public void setScale(double value)
 ```
 
 
-Please see the getter of this property: [getScale()](../../com.aspose.cells/fillformat\#getScale--)
+For the description of this property, please see \#getScale().getScale()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -753,7 +753,7 @@ public void setSetType(int value)
 ```
 
 
-Please see the getter of this property: [getSetType()](../../com.aspose.cells/fillformat\#getSetType--)
+For the description of this property, please see \#getSetType().getSetType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -766,7 +766,7 @@ public void setTexture(int value)
 ```
 
 
-Please see the getter of this property: [getTexture()](../../com.aspose.cells/fillformat\#getTexture--)
+For the description of this property, please see \#getTexture().getTexture()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -779,7 +779,7 @@ public void setTransparency(double value)
 ```
 
 
-Please see the getter of this property: [getTransparency()](../../com.aspose.cells/fillformat\#getTransparency--)
+For the description of this property, please see \#getTransparency().getTransparency()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -826,7 +826,7 @@ public void setType(int value)
 ```
 
 
-Please see the getter of this property: [getType()](../../com.aspose.cells/fillformat\#getType--)
+For the description of this property, please see \#getType().getType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -839,7 +839,7 @@ public void setWeight(double value)
 ```
 
 
-Please see the getter of this property: [getWeight()](../../com.aspose.cells/lineformat\#getWeight--)
+For the description of this property, please see \#getWeight().getWeight()
 
 **Parameters:**
 | Parameter | Type | Description |

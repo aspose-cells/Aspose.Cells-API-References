@@ -31,12 +31,12 @@ Represents axis bins
 | [notifyAll()](#notifyAll--) |  |
 | [resetOverflow()](#resetOverflow--) | Reset the overflow |
 | [resetUnderflow()](#resetUnderflow--) | Reset the underflow |
-| [setAutomatic(boolean value)](#setAutomatic-boolean-) | Please see the getter of this property: @CREF9\_ |
-| [setByCategory(boolean value)](#setByCategory-boolean-) | Please see the getter of this property: @CREF8\_ |
-| [setCount(int value)](#setCount-int-) | Please see the getter of this property: @CREF11\_ |
-| [setOverflow(double value)](#setOverflow-double-) | Please see the getter of this property: @CREF12\_ |
-| [setUnderflow(double value)](#setUnderflow-double-) | Please see the getter of this property: @CREF13\_ |
-| [setWidth(double value)](#setWidth-double-) | Please see the getter of this property: @CREF10\_ |
+| [setAutomatic(boolean value)](#setAutomatic-boolean-) | For the description of this property, please see \#isAutomatic().isAutomatic() |
+| [setByCategory(boolean value)](#setByCategory-boolean-) | For the description of this property, please see \#isByCategory().isByCategory() |
+| [setCount(int value)](#setCount-int-) | For the description of this property, please see \#getCount().getCount() |
+| [setOverflow(double value)](#setOverflow-double-) | For the description of this property, please see \#getOverflow().getOverflow() |
+| [setUnderflow(double value)](#setUnderflow-double-) | For the description of this property, please see \#getUnderflow().getUnderflow() |
+| [setWidth(double value)](#setWidth-double-) | For the description of this property, please see \#getWidth().getWidth() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -174,7 +174,7 @@ public void setAutomatic(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF9\_
+For the description of this property, please see \#isAutomatic().isAutomatic()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -187,7 +187,7 @@ public void setByCategory(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF8\_
+For the description of this property, please see \#isByCategory().isByCategory()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -200,7 +200,7 @@ public void setCount(int value)
 ```
 
 
-Please see the getter of this property: @CREF11\_
+For the description of this property, please see \#getCount().getCount()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -213,7 +213,7 @@ public void setOverflow(double value)
 ```
 
 
-Please see the getter of this property: @CREF12\_
+For the description of this property, please see \#getOverflow().getOverflow()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -226,7 +226,7 @@ public void setUnderflow(double value)
 ```
 
 
-Please see the getter of this property: @CREF13\_
+For the description of this property, please see \#getUnderflow().getUnderflow()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -239,7 +239,7 @@ public void setWidth(double value)
 ```
 
 
-Please see the getter of this property: @CREF10\_
+For the description of this property, please see \#getWidth().getWidth()
 
 **Parameters:**
 | Parameter | Type | Description |

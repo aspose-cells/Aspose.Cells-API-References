@@ -46,9 +46,9 @@ Encapsulates the object that represents a hyperlink.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAddress(String value)](#setAddress-java.lang.String-) | Please see the getter of this property: [getAddress()](../../com.aspose.cells/hyperlink\#getAddress--) |
-| [setScreenTip(String value)](#setScreenTip-java.lang.String-) | Please see the getter of this property: [getScreenTip()](../../com.aspose.cells/hyperlink\#getScreenTip--) |
-| [setTextToDisplay(String value)](#setTextToDisplay-java.lang.String-) | Please see the getter of this property: [getTextToDisplay()](../../com.aspose.cells/hyperlink\#getTextToDisplay--) |
+| [setAddress(String value)](#setAddress-java.lang.String-) | For the description of this property, please see \#getAddress().getAddress() |
+| [setScreenTip(String value)](#setScreenTip-java.lang.String-) | For the description of this property, please see \#getScreenTip().getScreenTip() |
+| [setTextToDisplay(String value)](#setTextToDisplay-java.lang.String-) | For the description of this property, please see \#getTextToDisplay().getTextToDisplay() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -168,7 +168,7 @@ public void setAddress(String value)
 ```
 
 
-Please see the getter of this property: [getAddress()](../../com.aspose.cells/hyperlink\#getAddress--)
+For the description of this property, please see \#getAddress().getAddress()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,7 +181,7 @@ public void setScreenTip(String value)
 ```
 
 
-Please see the getter of this property: [getScreenTip()](../../com.aspose.cells/hyperlink\#getScreenTip--)
+For the description of this property, please see \#getScreenTip().getScreenTip()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -194,7 +194,7 @@ public void setTextToDisplay(String value)
 ```
 
 
-Please see the getter of this property: [getTextToDisplay()](../../com.aspose.cells/hyperlink\#getTextToDisplay--)
+For the description of this property, please see \#getTextToDisplay().getTextToDisplay()
 
 **Parameters:**
 | Parameter | Type | Description |

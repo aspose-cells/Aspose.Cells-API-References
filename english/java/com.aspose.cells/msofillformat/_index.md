@@ -29,12 +29,12 @@ Represents fill formatting for a shape.
 | [isVisible()](#isVisible--) | Indicates whether there is fill. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBackColor(Color value)](#setBackColor-com.aspose.cells.Color-) | Please see the getter of this property: @CREF1747\_ |
-| [setForeColor(Color value)](#setForeColor-com.aspose.cells.Color-) | Please see the getter of this property: @CREF1745\_ |
-| [setImageData(byte[] value)](#setImageData-byte---) | Please see the getter of this property: @CREF1748\_ |
+| [setBackColor(Color value)](#setBackColor-com.aspose.cells.Color-) | For the description of this property, please see \#getBackColor().getBackColor() |
+| [setForeColor(Color value)](#setForeColor-com.aspose.cells.Color-) | For the description of this property, please see \#getForeColor().getForeColor() |
+| [setImageData(byte[] value)](#setImageData-byte---) | For the description of this property, please see \#getImageData().getImageData() |
 | [setOneColorGradient(Color color, double degree, int style, int variant)](#setOneColorGradient-com.aspose.cells.Color-double-int-int-) | Sets the specified fill to a one-color gradient. |
-| [setTransparency(double value)](#setTransparency-double-) | Please see the getter of this property: @CREF1746\_ |
-| [setVisible(boolean value)](#setVisible-boolean-) | Please see the getter of this property: @CREF1749\_ |
+| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see \#getTransparency().getTransparency() |
+| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see \#isVisible().isVisible() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -156,7 +156,7 @@ public void setBackColor(Color value)
 ```
 
 
-Please see the getter of this property: @CREF1747\_
+For the description of this property, please see \#getBackColor().getBackColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -169,7 +169,7 @@ public void setForeColor(Color value)
 ```
 
 
-Please see the getter of this property: @CREF1745\_
+For the description of this property, please see \#getForeColor().getForeColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -182,7 +182,7 @@ public void setImageData(byte[] value)
 ```
 
 
-Please see the getter of this property: @CREF1748\_
+For the description of this property, please see \#getImageData().getImageData()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -211,7 +211,7 @@ public void setTransparency(double value)
 ```
 
 
-Please see the getter of this property: @CREF1746\_
+For the description of this property, please see \#getTransparency().getTransparency()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -224,7 +224,7 @@ public void setVisible(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1749\_
+For the description of this property, please see \#isVisible().isVisible()
 
 **Parameters:**
 | Parameter | Type | Description |

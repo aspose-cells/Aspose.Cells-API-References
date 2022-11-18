@@ -26,9 +26,9 @@ Represents a binding relationship between an Office Add-in and the data in the d
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAppref(String value)](#setAppref-java.lang.String-) | Please see the getter of this property: @CREF315\_ |
-| [setId(String value)](#setId-java.lang.String-) | Please see the getter of this property: @CREF313\_ |
-| [setType(String value)](#setType-java.lang.String-) | Please see the getter of this property: @CREF314\_ |
+| [setAppref(String value)](#setAppref-java.lang.String-) | For the description of this property, please see \#getAppref().getAppref() |
+| [setId(String value)](#setId-java.lang.String-) | For the description of this property, please see \#getId().getId() |
+| [setType(String value)](#setType-java.lang.String-) | For the description of this property, please see \#getType().getType() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -120,7 +120,7 @@ public void setAppref(String value)
 ```
 
 
-Please see the getter of this property: @CREF315\_
+For the description of this property, please see \#getAppref().getAppref()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -133,7 +133,7 @@ public void setId(String value)
 ```
 
 
-Please see the getter of this property: @CREF313\_
+For the description of this property, please see \#getId().getId()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +146,7 @@ public void setType(String value)
 ```
 
 
-Please see the getter of this property: @CREF314\_
+For the description of this property, please see \#getType().getType()
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -29,12 +29,12 @@ Represents fill formatting for a shape.
 | [isVisible()](#isVisible--) | Indicates whether there is fill. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBackColor(Color value)](#setBackColor-com.aspose.cells.Color-) | Please see the getter of this property: @CREF985\_ |
-| [setForeColor(Color value)](#setForeColor-com.aspose.cells.Color-) | Please see the getter of this property: @CREF983\_ |
-| [setForeColorTransparency(double value)](#setForeColorTransparency-double-) | Please see the getter of this property: @CREF984\_ |
-| [setImageData(byte[] value)](#setImageData-byte---) | Please see the getter of this property: @CREF986\_ |
+| [setBackColor(Color value)](#setBackColor-com.aspose.cells.Color-) | For the description of this property, please see \#getBackColor().getBackColor() |
+| [setForeColor(Color value)](#setForeColor-com.aspose.cells.Color-) | For the description of this property, please see \#getForeColor().getForeColor() |
+| [setForeColorTransparency(double value)](#setForeColorTransparency-double-) | For the description of this property, please see \#getForeColorTransparency().getForeColorTransparency() |
+| [setImageData(byte[] value)](#setImageData-byte---) | For the description of this property, please see \#getImageData().getImageData() |
 | [setOneColorGradient(Color color, double degree, int style, int variant)](#setOneColorGradient-com.aspose.cells.Color-double-int-int-) | Sets the specified fill to a one-color gradient. |
-| [setVisible(boolean value)](#setVisible-boolean-) | Please see the getter of this property: @CREF987\_ |
+| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see \#isVisible().isVisible() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -156,7 +156,7 @@ public void setBackColor(Color value)
 ```
 
 
-Please see the getter of this property: @CREF985\_
+For the description of this property, please see \#getBackColor().getBackColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -169,7 +169,7 @@ public void setForeColor(Color value)
 ```
 
 
-Please see the getter of this property: @CREF983\_
+For the description of this property, please see \#getForeColor().getForeColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -182,7 +182,7 @@ public void setForeColorTransparency(double value)
 ```
 
 
-Please see the getter of this property: @CREF984\_
+For the description of this property, please see \#getForeColorTransparency().getForeColorTransparency()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -195,7 +195,7 @@ public void setImageData(byte[] value)
 ```
 
 
-Please see the getter of this property: @CREF986\_
+For the description of this property, please see \#getImageData().getImageData()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -224,7 +224,7 @@ public void setVisible(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF987\_
+For the description of this property, please see \#isVisible().isVisible()
 
 **Parameters:**
 | Parameter | Type | Description |

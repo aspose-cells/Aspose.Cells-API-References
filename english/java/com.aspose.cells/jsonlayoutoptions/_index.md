@@ -31,14 +31,14 @@ Represents the options of json layout type.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setArrayAsTable(boolean value)](#setArrayAsTable-boolean-) | Please see the getter of this property: @CREF297\_ |
-| [setConvertNumericOrDate(boolean value)](#setConvertNumericOrDate-boolean-) | Please see the getter of this property: @CREF301\_ |
-| [setDateFormat(String value)](#setDateFormat-java.lang.String-) | Please see the getter of this property: @CREF303\_ |
-| [setIgnoreArrayTitle(boolean value)](#setIgnoreArrayTitle-boolean-) | Please see the getter of this property: @CREF299\_ |
-| [setIgnoreNull(boolean value)](#setIgnoreNull-boolean-) | Please see the getter of this property: @CREF298\_ |
-| [setIgnoreObjectTitle(boolean value)](#setIgnoreObjectTitle-boolean-) | Please see the getter of this property: @CREF300\_ |
-| [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | Please see the getter of this property: @CREF302\_ |
-| [setTitleStyle(Style value)](#setTitleStyle-com.aspose.cells.Style-) | Please see the getter of this property: @CREF304\_ |
+| [setArrayAsTable(boolean value)](#setArrayAsTable-boolean-) | For the description of this property, please see \#getArrayAsTable().getArrayAsTable() |
+| [setConvertNumericOrDate(boolean value)](#setConvertNumericOrDate-boolean-) | For the description of this property, please see \#getConvertNumericOrDate().getConvertNumericOrDate() |
+| [setDateFormat(String value)](#setDateFormat-java.lang.String-) | For the description of this property, please see \#getDateFormat().getDateFormat() |
+| [setIgnoreArrayTitle(boolean value)](#setIgnoreArrayTitle-boolean-) | For the description of this property, please see \#getIgnoreArrayTitle().getIgnoreArrayTitle() |
+| [setIgnoreNull(boolean value)](#setIgnoreNull-boolean-) | For the description of this property, please see \#getIgnoreNull().getIgnoreNull() |
+| [setIgnoreObjectTitle(boolean value)](#setIgnoreObjectTitle-boolean-) | For the description of this property, please see \#getIgnoreObjectTitle().getIgnoreObjectTitle() |
+| [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | For the description of this property, please see \#getNumberFormat().getNumberFormat() |
+| [setTitleStyle(Style value)](#setTitleStyle-com.aspose.cells.Style-) | For the description of this property, please see \#getTitleStyle().getTitleStyle() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -180,7 +180,7 @@ public void setArrayAsTable(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF297\_
+For the description of this property, please see \#getArrayAsTable().getArrayAsTable()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,7 +193,7 @@ public void setConvertNumericOrDate(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF301\_
+For the description of this property, please see \#getConvertNumericOrDate().getConvertNumericOrDate()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -206,7 +206,7 @@ public void setDateFormat(String value)
 ```
 
 
-Please see the getter of this property: @CREF303\_
+For the description of this property, please see \#getDateFormat().getDateFormat()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -219,7 +219,7 @@ public void setIgnoreArrayTitle(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF299\_
+For the description of this property, please see \#getIgnoreArrayTitle().getIgnoreArrayTitle()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -232,7 +232,7 @@ public void setIgnoreNull(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF298\_
+For the description of this property, please see \#getIgnoreNull().getIgnoreNull()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -245,7 +245,7 @@ public void setIgnoreObjectTitle(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF300\_
+For the description of this property, please see \#getIgnoreObjectTitle().getIgnoreObjectTitle()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -258,7 +258,7 @@ public void setNumberFormat(String value)
 ```
 
 
-Please see the getter of this property: @CREF302\_
+For the description of this property, please see \#getNumberFormat().getNumberFormat()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -271,7 +271,7 @@ public void setTitleStyle(Style value)
 ```
 
 
-Please see the getter of this property: @CREF304\_
+For the description of this property, please see \#getTitleStyle().getTitleStyle()
 
 **Parameters:**
 | Parameter | Type | Description |

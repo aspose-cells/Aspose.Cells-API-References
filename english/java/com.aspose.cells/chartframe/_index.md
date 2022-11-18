@@ -45,17 +45,17 @@ Encapsulates the object that represents the frame object in a chart.
 | [isInnerMode()](#isInnerMode--) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | Please see the getter of this property: [getAutoScaleFont()](../../com.aspose.cells/chartframe\#getAutoScaleFont--) |
-| [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) | Please see the getter of this property: [isAutomaticSize()](../../com.aspose.cells/chartframe\#isAutomaticSize--) |
-| [setBackground(int value)](#setBackground-int-) | Please see the getter of this property: [getBackground()](../../com.aspose.cells/chartframe\#getBackground--) |
-| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Please see the getter of this property: [getBackgroundMode()](../../com.aspose.cells/chartframe\#getBackgroundMode--) |
-| [setHeight(int value)](#setHeight-int-) | Please see the getter of this property: [getHeight()](../../com.aspose.cells/chartframe\#getHeight--) |
-| [setInnerMode(boolean value)](#setInnerMode-boolean-) | Please see the getter of this property: [isInnerMode()](../../com.aspose.cells/chartframe\#isInnerMode--) |
+| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | For the description of this property, please see \#getAutoScaleFont().getAutoScaleFont() |
+| [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) | For the description of this property, please see \#isAutomaticSize().isAutomaticSize() |
+| [setBackground(int value)](#setBackground-int-) | For the description of this property, please see \#getBackground().getBackground() |
+| [setBackgroundMode(int value)](#setBackgroundMode-int-) | For the description of this property, please see \#getBackgroundMode().getBackgroundMode() |
+| [setHeight(int value)](#setHeight-int-) | For the description of this property, please see \#getHeight().getHeight() |
+| [setInnerMode(boolean value)](#setInnerMode-boolean-) | For the description of this property, please see \#isInnerMode().isInnerMode() |
 | [setPositionAuto()](#setPositionAuto--) | Set position of the frame to automatic |
-| [setShadow(boolean value)](#setShadow-boolean-) | Please see the getter of this property: [getShadow()](../../com.aspose.cells/chartframe\#getShadow--) |
-| [setWidth(int value)](#setWidth-int-) | Please see the getter of this property: [getWidth()](../../com.aspose.cells/chartframe\#getWidth--) |
-| [setX(int value)](#setX-int-) | Please see the getter of this property: [getX()](../../com.aspose.cells/chartframe\#getX--) |
-| [setY(int value)](#setY-int-) | Please see the getter of this property: [getY()](../../com.aspose.cells/chartframe\#getY--) |
+| [setShadow(boolean value)](#setShadow-boolean-) | For the description of this property, please see \#getShadow().getShadow() |
+| [setWidth(int value)](#setWidth-int-) | For the description of this property, please see \#getWidth().getWidth() |
+| [setX(int value)](#setX-int-) | For the description of this property, please see \#getX().getX() |
+| [setY(int value)](#setY-int-) | For the description of this property, please see \#getY().getY() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -337,7 +337,7 @@ public void setAutoScaleFont(boolean value)
 ```
 
 
-Please see the getter of this property: [getAutoScaleFont()](../../com.aspose.cells/chartframe\#getAutoScaleFont--)
+For the description of this property, please see \#getAutoScaleFont().getAutoScaleFont()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -350,7 +350,7 @@ public void setAutomaticSize(boolean value)
 ```
 
 
-Please see the getter of this property: [isAutomaticSize()](../../com.aspose.cells/chartframe\#isAutomaticSize--)
+For the description of this property, please see \#isAutomaticSize().isAutomaticSize()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -363,7 +363,7 @@ public void setBackground(int value)
 ```
 
 
-Please see the getter of this property: [getBackground()](../../com.aspose.cells/chartframe\#getBackground--)
+For the description of this property, please see \#getBackground().getBackground()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -376,7 +376,7 @@ public void setBackgroundMode(int value)
 ```
 
 
-Please see the getter of this property: [getBackgroundMode()](../../com.aspose.cells/chartframe\#getBackgroundMode--)
+For the description of this property, please see \#getBackgroundMode().getBackgroundMode()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -389,7 +389,7 @@ public void setHeight(int value)
 ```
 
 
-Please see the getter of this property: [getHeight()](../../com.aspose.cells/chartframe\#getHeight--)
+For the description of this property, please see \#getHeight().getHeight()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -402,7 +402,7 @@ public void setInnerMode(boolean value)
 ```
 
 
-Please see the getter of this property: [isInnerMode()](../../com.aspose.cells/chartframe\#isInnerMode--)
+For the description of this property, please see \#isInnerMode().isInnerMode()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -423,7 +423,7 @@ public void setShadow(boolean value)
 ```
 
 
-Please see the getter of this property: [getShadow()](../../com.aspose.cells/chartframe\#getShadow--)
+For the description of this property, please see \#getShadow().getShadow()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -436,7 +436,7 @@ public void setWidth(int value)
 ```
 
 
-Please see the getter of this property: [getWidth()](../../com.aspose.cells/chartframe\#getWidth--)
+For the description of this property, please see \#getWidth().getWidth()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -449,7 +449,7 @@ public void setX(int value)
 ```
 
 
-Please see the getter of this property: [getX()](../../com.aspose.cells/chartframe\#getX--)
+For the description of this property, please see \#getX().getX()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -462,7 +462,7 @@ public void setY(int value)
 ```
 
 
-Please see the getter of this property: [getY()](../../com.aspose.cells/chartframe\#getY--)
+For the description of this property, please see \#getY().getY()
 
 **Parameters:**
 | Parameter | Type | Description |

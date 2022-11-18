@@ -30,13 +30,13 @@ Specifies properties about any parameters used with external data connections Pa
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCellReference(String value)](#setCellReference-java.lang.String-) | Please see the getter of this property: @CREF827\_ |
-| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: @CREF826\_ |
-| [setPrompt(String value)](#setPrompt-java.lang.String-) | Please see the getter of this property: @CREF824\_ |
-| [setRefreshOnChange(boolean value)](#setRefreshOnChange-boolean-) | Please see the getter of this property: @CREF823\_ |
-| [setSqlType(int value)](#setSqlType-int-) | Please see the getter of this property: @CREF822\_ |
-| [setType(int value)](#setType-int-) | Please see the getter of this property: @CREF825\_ |
-| [setValue(Object value)](#setValue-java.lang.Object-) | Please see the getter of this property: @CREF828\_ |
+| [setCellReference(String value)](#setCellReference-java.lang.String-) | For the description of this property, please see \#getCellReference().getCellReference() |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
+| [setPrompt(String value)](#setPrompt-java.lang.String-) | For the description of this property, please see \#getPrompt().getPrompt() |
+| [setRefreshOnChange(boolean value)](#setRefreshOnChange-boolean-) | For the description of this property, please see \#getRefreshOnChange().getRefreshOnChange() |
+| [setSqlType(int value)](#setSqlType-int-) | For the description of this property, please see \#getSqlType().getSqlType() |
+| [setType(int value)](#setType-int-) | For the description of this property, please see \#getType().getType() |
+| [setValue(Object value)](#setValue-java.lang.Object-) | For the description of this property, please see \#getValue().getValue() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -168,7 +168,7 @@ public void setCellReference(String value)
 ```
 
 
-Please see the getter of this property: @CREF827\_
+For the description of this property, please see \#getCellReference().getCellReference()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,7 +181,7 @@ public void setName(String value)
 ```
 
 
-Please see the getter of this property: @CREF826\_
+For the description of this property, please see \#getName().getName()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -194,7 +194,7 @@ public void setPrompt(String value)
 ```
 
 
-Please see the getter of this property: @CREF824\_
+For the description of this property, please see \#getPrompt().getPrompt()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -207,7 +207,7 @@ public void setRefreshOnChange(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF823\_
+For the description of this property, please see \#getRefreshOnChange().getRefreshOnChange()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -220,7 +220,7 @@ public void setSqlType(int value)
 ```
 
 
-Please see the getter of this property: @CREF822\_
+For the description of this property, please see \#getSqlType().getSqlType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -233,7 +233,7 @@ public void setType(int value)
 ```
 
 
-Please see the getter of this property: @CREF825\_
+For the description of this property, please see \#getType().getType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ public void setValue(Object value)
 ```
 
 
-Please see the getter of this property: @CREF828\_
+For the description of this property, please see \#getValue().getValue()
 
 **Parameters:**
 | Parameter | Type | Description |

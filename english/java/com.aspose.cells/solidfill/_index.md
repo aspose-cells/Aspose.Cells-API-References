@@ -31,9 +31,9 @@ Encapsulates the object that represents solid fill format
 | [hashCode()](#hashCode--) | Gets the hash code. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCellsColor(CellsColor value)](#setCellsColor-com.aspose.cells.CellsColor-) | Please see the getter of this property: [getCellsColor()](../../com.aspose.cells/solidfill\#getCellsColor--) |
-| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | Please see the getter of this property: [getColor()](../../com.aspose.cells/solidfill\#getColor--) |
-| [setTransparency(double value)](#setTransparency-double-) | Please see the getter of this property: [getTransparency()](../../com.aspose.cells/solidfill\#getTransparency--) |
+| [setCellsColor(CellsColor value)](#setCellsColor-com.aspose.cells.CellsColor-) | For the description of this property, please see \#getCellsColor().getCellsColor() |
+| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | For the description of this property, please see \#getColor().getColor() |
+| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see \#getTransparency().getTransparency() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -131,7 +131,7 @@ public void setCellsColor(CellsColor value)
 ```
 
 
-Please see the getter of this property: [getCellsColor()](../../com.aspose.cells/solidfill\#getCellsColor--)
+For the description of this property, please see \#getCellsColor().getCellsColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -144,7 +144,7 @@ public void setColor(Color value)
 ```
 
 
-Please see the getter of this property: [getColor()](../../com.aspose.cells/solidfill\#getColor--)
+For the description of this property, please see \#getColor().getColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -157,7 +157,7 @@ public void setTransparency(double value)
 ```
 
 
-Please see the getter of this property: [getTransparency()](../../com.aspose.cells/solidfill\#getTransparency--)
+For the description of this property, please see \#getTransparency().getTransparency()
 
 **Parameters:**
 | Parameter | Type | Description |

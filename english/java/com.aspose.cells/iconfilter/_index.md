@@ -25,8 +25,8 @@ Represents icon filter.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setIconId(int value)](#setIconId-int-) | Please see the getter of this property: @CREF1146\_ |
-| [setIconSetType(int value)](#setIconSetType-int-) | Please see the getter of this property: @CREF1145\_ |
+| [setIconId(int value)](#setIconId-int-) | For the description of this property, please see \#getIconId().getIconId() |
+| [setIconSetType(int value)](#setIconSetType-int-) | For the description of this property, please see \#getIconSetType().getIconSetType() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -108,7 +108,7 @@ public void setIconId(int value)
 ```
 
 
-Please see the getter of this property: @CREF1146\_
+For the description of this property, please see \#getIconId().getIconId()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -121,7 +121,7 @@ public void setIconSetType(int value)
 ```
 
 
-Please see the getter of this property: @CREF1145\_
+For the description of this property, please see \#getIconSetType().getIconSetType()
 
 **Parameters:**
 | Parameter | Type | Description |

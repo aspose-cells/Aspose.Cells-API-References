@@ -43,20 +43,20 @@ Represents the options of saving the workbook as an xml file.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | Please see the getter of this property: @CREF1852\_ |
-| [setClearData(boolean value)](#setClearData-boolean-) | Please see the getter of this property: @CREF1851\_ |
-| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | Please see the getter of this property: @CREF1855\_ |
-| [setExportArea(CellArea value)](#setExportArea-com.aspose.cells.CellArea-) | Please see the getter of this property: @CREF201\_ |
-| [setHasHeaderRow(boolean value)](#setHasHeaderRow-boolean-) | Please see the getter of this property: @CREF202\_ |
-| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Please see the getter of this property: @CREF1854\_ |
-| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Please see the getter of this property: @CREF1858\_ |
-| [setSheetIndexes(int[] value)](#setSheetIndexes-int---) | Please see the getter of this property: @CREF200\_ |
-| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Please see the getter of this property: @CREF1857\_ |
-| [setSortNames(boolean value)](#setSortNames-boolean-) | Please see the getter of this property: @CREF1856\_ |
-| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | Please see the getter of this property: @CREF1860\_ |
-| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | Please see the getter of this property: @CREF1853\_ |
+| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | For the description of this property, please see \#getCachedFileFolder().getCachedFileFolder() |
+| [setClearData(boolean value)](#setClearData-boolean-) | For the description of this property, please see \#getClearData().getClearData() |
+| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | For the description of this property, please see \#getCreateDirectory().getCreateDirectory() |
+| [setExportArea(CellArea value)](#setExportArea-com.aspose.cells.CellArea-) | For the description of this property, please see \#getExportArea().getExportArea() |
+| [setHasHeaderRow(boolean value)](#setHasHeaderRow-boolean-) | For the description of this property, please see \#hasHeaderRow().hasHeaderRow() |
+| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | For the description of this property, please see \#getMergeAreas().getMergeAreas() |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | For the description of this property, please see \#getRefreshChartCache().getRefreshChartCache() |
+| [setSheetIndexes(int[] value)](#setSheetIndexes-int---) | For the description of this property, please see \#getSheetIndexes().getSheetIndexes() |
+| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | For the description of this property, please see \#getSortExternalNames().getSortExternalNames() |
+| [setSortNames(boolean value)](#setSortNames-boolean-) | For the description of this property, please see \#getSortNames().getSortNames() |
+| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | For the description of this property, please see \#getUpdateSmartArt().getUpdateSmartArt() |
+| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | For the description of this property, please see \#getValidateMergedAreas().getValidateMergedAreas() |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
-| [setXmlMapName(String value)](#setXmlMapName-java.lang.String-) | Please see the getter of this property: @CREF203\_ |
+| [setXmlMapName(String value)](#setXmlMapName-java.lang.String-) | For the description of this property, please see \#getXmlMapName().getXmlMapName() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -276,7 +276,7 @@ public void setCachedFileFolder(String value)
 ```
 
 
-Please see the getter of this property: @CREF1852\_
+For the description of this property, please see \#getCachedFileFolder().getCachedFileFolder()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -289,7 +289,7 @@ public void setClearData(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1851\_
+For the description of this property, please see \#getClearData().getClearData()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -302,7 +302,7 @@ public void setCreateDirectory(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1855\_
+For the description of this property, please see \#getCreateDirectory().getCreateDirectory()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -315,7 +315,7 @@ public void setExportArea(CellArea value)
 ```
 
 
-Please see the getter of this property: @CREF201\_
+For the description of this property, please see \#getExportArea().getExportArea()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -328,7 +328,7 @@ public void setHasHeaderRow(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF202\_
+For the description of this property, please see \#hasHeaderRow().hasHeaderRow()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -341,7 +341,7 @@ public void setMergeAreas(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1854\_
+For the description of this property, please see \#getMergeAreas().getMergeAreas()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -354,7 +354,7 @@ public void setRefreshChartCache(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1858\_
+For the description of this property, please see \#getRefreshChartCache().getRefreshChartCache()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -367,7 +367,7 @@ public void setSheetIndexes(int[] value)
 ```
 
 
-Please see the getter of this property: @CREF200\_
+For the description of this property, please see \#getSheetIndexes().getSheetIndexes()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -380,7 +380,7 @@ public void setSortExternalNames(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1857\_
+For the description of this property, please see \#getSortExternalNames().getSortExternalNames()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -393,7 +393,7 @@ public void setSortNames(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1856\_
+For the description of this property, please see \#getSortNames().getSortNames()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -406,7 +406,7 @@ public void setUpdateSmartArt(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1860\_
+For the description of this property, please see \#getUpdateSmartArt().getUpdateSmartArt()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -419,7 +419,7 @@ public void setValidateMergedAreas(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1853\_
+For the description of this property, please see \#getValidateMergedAreas().getValidateMergedAreas()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -445,7 +445,7 @@ public void setXmlMapName(String value)
 ```
 
 
-Please see the getter of this property: @CREF203\_
+For the description of this property, please see \#getXmlMapName().getXmlMapName()
 
 **Parameters:**
 | Parameter | Type | Description |

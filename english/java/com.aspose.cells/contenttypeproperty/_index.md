@@ -36,10 +36,10 @@ Represents identifier information.
 | [isNillable()](#isNillable--) | Indicates whether the value could be empty. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: [getName()](../../com.aspose.cells/contenttypeproperty\#getName--) |
-| [setNillable(boolean value)](#setNillable-boolean-) | Please see the getter of this property: [isNillable()](../../com.aspose.cells/contenttypeproperty\#isNillable--) |
-| [setType(String value)](#setType-java.lang.String-) | Please see the getter of this property: [getType()](../../com.aspose.cells/contenttypeproperty\#getType--) |
-| [setValue(String value)](#setValue-java.lang.String-) | Please see the getter of this property: [getValue()](../../com.aspose.cells/contenttypeproperty\#getValue--) |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
+| [setNillable(boolean value)](#setNillable-boolean-) | For the description of this property, please see \#isNillable().isNillable() |
+| [setType(String value)](#setType-java.lang.String-) | For the description of this property, please see \#getType().getType() |
+| [setValue(String value)](#setValue-java.lang.String-) | For the description of this property, please see \#getValue().getValue() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -141,7 +141,7 @@ public void setName(String value)
 ```
 
 
-Please see the getter of this property: [getName()](../../com.aspose.cells/contenttypeproperty\#getName--)
+For the description of this property, please see \#getName().getName()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -154,7 +154,7 @@ public void setNillable(boolean value)
 ```
 
 
-Please see the getter of this property: [isNillable()](../../com.aspose.cells/contenttypeproperty\#isNillable--)
+For the description of this property, please see \#isNillable().isNillable()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -167,7 +167,7 @@ public void setType(String value)
 ```
 
 
-Please see the getter of this property: [getType()](../../com.aspose.cells/contenttypeproperty\#getType--)
+For the description of this property, please see \#getType().getType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -180,7 +180,7 @@ public void setValue(String value)
 ```
 
 
-Please see the getter of this property: [getValue()](../../com.aspose.cells/contenttypeproperty\#getValue--)
+For the description of this property, please see \#getValue().getValue()
 
 **Parameters:**
 | Parameter | Type | Description |

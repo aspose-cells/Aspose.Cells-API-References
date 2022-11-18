@@ -27,10 +27,10 @@ Represents identify the provider location and version of the extension.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setId(String value)](#setId-java.lang.String-) | Please see the getter of this property: @CREF318\_ |
-| [setStoreName(String value)](#setStoreName-java.lang.String-) | Please see the getter of this property: @CREF320\_ |
-| [setStoreType(int value)](#setStoreType-int-) | Please see the getter of this property: @CREF321\_ |
-| [setVersion(String value)](#setVersion-java.lang.String-) | Please see the getter of this property: @CREF319\_ |
+| [setId(String value)](#setId-java.lang.String-) | For the description of this property, please see \#getId().getId() |
+| [setStoreName(String value)](#setStoreName-java.lang.String-) | For the description of this property, please see \#getStoreName().getStoreName() |
+| [setStoreType(int value)](#setStoreType-int-) | For the description of this property, please see \#getStoreType().getStoreType() |
+| [setVersion(String value)](#setVersion-java.lang.String-) | For the description of this property, please see \#getVersion().getVersion() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -132,7 +132,7 @@ public void setId(String value)
 ```
 
 
-Please see the getter of this property: @CREF318\_
+For the description of this property, please see \#getId().getId()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setStoreName(String value)
 ```
 
 
-Please see the getter of this property: @CREF320\_
+For the description of this property, please see \#getStoreName().getStoreName()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public void setStoreType(int value)
 ```
 
 
-Please see the getter of this property: @CREF321\_
+For the description of this property, please see \#getStoreType().getStoreType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,7 +171,7 @@ public void setVersion(String value)
 ```
 
 
-Please see the getter of this property: @CREF319\_
+For the description of this property, please see \#getVersion().getVersion()
 
 **Parameters:**
 | Parameter | Type | Description |

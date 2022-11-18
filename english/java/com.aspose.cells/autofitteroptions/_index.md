@@ -31,14 +31,14 @@ Represents all auto fitter options.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoFitMergedCells(boolean value)](#setAutoFitMergedCells-boolean-) | Please see the getter of this property: [getAutoFitMergedCells()](../../com.aspose.cells/autofitteroptions\#getAutoFitMergedCells--) |
-| [setAutoFitMergedCellsType(int value)](#setAutoFitMergedCellsType-int-) | Please see the getter of this property: [getAutoFitMergedCellsType()](../../com.aspose.cells/autofitteroptions\#getAutoFitMergedCellsType--) |
-| [setAutoFitWrappedTextType(int value)](#setAutoFitWrappedTextType-int-) | Please see the getter of this property: [getAutoFitWrappedTextType()](../../com.aspose.cells/autofitteroptions\#getAutoFitWrappedTextType--) |
-| [setDefaultEditLanguage(int value)](#setDefaultEditLanguage-int-) | Please see the getter of this property: [getDefaultEditLanguage()](../../com.aspose.cells/autofitteroptions\#getDefaultEditLanguage--) |
-| [setFormatStrategy(int value)](#setFormatStrategy-int-) | Please see the getter of this property: [getFormatStrategy()](../../com.aspose.cells/autofitteroptions\#getFormatStrategy--) |
-| [setIgnoreHidden(boolean value)](#setIgnoreHidden-boolean-) | Please see the getter of this property: [getIgnoreHidden()](../../com.aspose.cells/autofitteroptions\#getIgnoreHidden--) |
-| [setMaxRowHeight(double value)](#setMaxRowHeight-double-) | Please see the getter of this property: [getMaxRowHeight()](../../com.aspose.cells/autofitteroptions\#getMaxRowHeight--) |
-| [setOnlyAuto(boolean value)](#setOnlyAuto-boolean-) | Please see the getter of this property: [getOnlyAuto()](../../com.aspose.cells/autofitteroptions\#getOnlyAuto--) |
+| [setAutoFitMergedCells(boolean value)](#setAutoFitMergedCells-boolean-) | For the description of this property, please see \#getAutoFitMergedCells().getAutoFitMergedCells() |
+| [setAutoFitMergedCellsType(int value)](#setAutoFitMergedCellsType-int-) | For the description of this property, please see \#getAutoFitMergedCellsType().getAutoFitMergedCellsType() |
+| [setAutoFitWrappedTextType(int value)](#setAutoFitWrappedTextType-int-) | For the description of this property, please see \#getAutoFitWrappedTextType().getAutoFitWrappedTextType() |
+| [setDefaultEditLanguage(int value)](#setDefaultEditLanguage-int-) | For the description of this property, please see \#getDefaultEditLanguage().getDefaultEditLanguage() |
+| [setFormatStrategy(int value)](#setFormatStrategy-int-) | For the description of this property, please see \#getFormatStrategy().getFormatStrategy() |
+| [setIgnoreHidden(boolean value)](#setIgnoreHidden-boolean-) | For the description of this property, please see \#getIgnoreHidden().getIgnoreHidden() |
+| [setMaxRowHeight(double value)](#setMaxRowHeight-double-) | For the description of this property, please see \#getMaxRowHeight().getMaxRowHeight() |
+| [setOnlyAuto(boolean value)](#setOnlyAuto-boolean-) | For the description of this property, please see \#getOnlyAuto().getOnlyAuto() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -180,7 +180,7 @@ public void setAutoFitMergedCells(boolean value)
 ```
 
 
-Please see the getter of this property: [getAutoFitMergedCells()](../../com.aspose.cells/autofitteroptions\#getAutoFitMergedCells--)
+For the description of this property, please see \#getAutoFitMergedCells().getAutoFitMergedCells()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,7 +193,7 @@ public void setAutoFitMergedCellsType(int value)
 ```
 
 
-Please see the getter of this property: [getAutoFitMergedCellsType()](../../com.aspose.cells/autofitteroptions\#getAutoFitMergedCellsType--)
+For the description of this property, please see \#getAutoFitMergedCellsType().getAutoFitMergedCellsType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -206,7 +206,7 @@ public void setAutoFitWrappedTextType(int value)
 ```
 
 
-Please see the getter of this property: [getAutoFitWrappedTextType()](../../com.aspose.cells/autofitteroptions\#getAutoFitWrappedTextType--)
+For the description of this property, please see \#getAutoFitWrappedTextType().getAutoFitWrappedTextType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -219,7 +219,7 @@ public void setDefaultEditLanguage(int value)
 ```
 
 
-Please see the getter of this property: [getDefaultEditLanguage()](../../com.aspose.cells/autofitteroptions\#getDefaultEditLanguage--)
+For the description of this property, please see \#getDefaultEditLanguage().getDefaultEditLanguage()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -232,7 +232,7 @@ public void setFormatStrategy(int value)
 ```
 
 
-Please see the getter of this property: [getFormatStrategy()](../../com.aspose.cells/autofitteroptions\#getFormatStrategy--)
+For the description of this property, please see \#getFormatStrategy().getFormatStrategy()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -245,7 +245,7 @@ public void setIgnoreHidden(boolean value)
 ```
 
 
-Please see the getter of this property: [getIgnoreHidden()](../../com.aspose.cells/autofitteroptions\#getIgnoreHidden--)
+For the description of this property, please see \#getIgnoreHidden().getIgnoreHidden()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -258,7 +258,7 @@ public void setMaxRowHeight(double value)
 ```
 
 
-Please see the getter of this property: [getMaxRowHeight()](../../com.aspose.cells/autofitteroptions\#getMaxRowHeight--)
+For the description of this property, please see \#getMaxRowHeight().getMaxRowHeight()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -271,7 +271,7 @@ public void setOnlyAuto(boolean value)
 ```
 
 
-Please see the getter of this property: [getOnlyAuto()](../../com.aspose.cells/autofitteroptions\#getOnlyAuto--)
+For the description of this property, please see \#getOnlyAuto().getOnlyAuto()
 
 **Parameters:**
 | Parameter | Type | Description |

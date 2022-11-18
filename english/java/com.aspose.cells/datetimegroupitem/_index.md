@@ -36,13 +36,13 @@ Represents the datetime's group setting.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDateTimeGroupingType(int value)](#setDateTimeGroupingType-int-) | Please see the getter of this property: @CREF1134\_ |
-| [setDay(int value)](#setDay-int-) | Please see the getter of this property: @CREF1137\_ |
-| [setHour(int value)](#setHour-int-) | Please see the getter of this property: @CREF1138\_ |
-| [setMinute(int value)](#setMinute-int-) | Please see the getter of this property: @CREF1139\_ |
-| [setMonth(int value)](#setMonth-int-) | Please see the getter of this property: @CREF1136\_ |
-| [setSecond(int value)](#setSecond-int-) | Please see the getter of this property: @CREF1140\_ |
-| [setYear(int value)](#setYear-int-) | Please see the getter of this property: @CREF1135\_ |
+| [setDateTimeGroupingType(int value)](#setDateTimeGroupingType-int-) | For the description of this property, please see \#getDateTimeGroupingType().getDateTimeGroupingType() |
+| [setDay(int value)](#setDay-int-) | For the description of this property, please see \#getDay().getDay() |
+| [setHour(int value)](#setHour-int-) | For the description of this property, please see \#getHour().getHour() |
+| [setMinute(int value)](#setMinute-int-) | For the description of this property, please see \#getMinute().getMinute() |
+| [setMonth(int value)](#setMonth-int-) | For the description of this property, please see \#getMonth().getMonth() |
+| [setSecond(int value)](#setSecond-int-) | For the description of this property, please see \#getSecond().getSecond() |
+| [setYear(int value)](#setYear-int-) | For the description of this property, please see \#getYear().getYear() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -203,7 +203,7 @@ public void setDateTimeGroupingType(int value)
 ```
 
 
-Please see the getter of this property: @CREF1134\_
+For the description of this property, please see \#getDateTimeGroupingType().getDateTimeGroupingType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -216,7 +216,7 @@ public void setDay(int value)
 ```
 
 
-Please see the getter of this property: @CREF1137\_
+For the description of this property, please see \#getDay().getDay()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -229,7 +229,7 @@ public void setHour(int value)
 ```
 
 
-Please see the getter of this property: @CREF1138\_
+For the description of this property, please see \#getHour().getHour()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -242,7 +242,7 @@ public void setMinute(int value)
 ```
 
 
-Please see the getter of this property: @CREF1139\_
+For the description of this property, please see \#getMinute().getMinute()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -255,7 +255,7 @@ public void setMonth(int value)
 ```
 
 
-Please see the getter of this property: @CREF1136\_
+For the description of this property, please see \#getMonth().getMonth()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -268,7 +268,7 @@ public void setSecond(int value)
 ```
 
 
-Please see the getter of this property: @CREF1140\_
+For the description of this property, please see \#getSecond().getSecond()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -281,7 +281,7 @@ public void setYear(int value)
 ```
 
 
-Please see the getter of this property: @CREF1135\_
+For the description of this property, please see \#getYear().getYear()
 
 **Parameters:**
 | Parameter | Type | Description |

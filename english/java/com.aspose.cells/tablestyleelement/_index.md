@@ -27,7 +27,7 @@ Represents the element of the table style.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setElementStyle(Style style)](#setElementStyle-com.aspose.cells.Style-) | Sets the element style. |
-| [setSize(int value)](#setSize-int-) | Please see the getter of this property: [getSize()](../../com.aspose.cells/tablestyleelement\#getSize--) |
+| [setSize(int value)](#setSize-int-) | For the description of this property, please see \#getSize().getSize() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -132,7 +132,7 @@ public void setSize(int value)
 ```
 
 
-Please see the getter of this property: [getSize()](../../com.aspose.cells/tablestyleelement\#getSize--)
+For the description of this property, please see \#getSize().getSize()
 
 **Parameters:**
 | Parameter | Type | Description |

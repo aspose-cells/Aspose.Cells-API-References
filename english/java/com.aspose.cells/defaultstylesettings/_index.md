@@ -27,10 +27,10 @@ Settings for the default values of workbook's style properties.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFontName(String value)](#setFontName-java.lang.String-) | Please see the getter of this property: @CREF34\_ |
-| [setFontSize(double value)](#setFontSize-double-) | Please see the getter of this property: @CREF35\_ |
-| [setHorizontalAlignment(int value)](#setHorizontalAlignment-int-) | Please see the getter of this property: @CREF36\_ |
-| [setVerticalAlignment(int value)](#setVerticalAlignment-int-) | Please see the getter of this property: @CREF37\_ |
+| [setFontName(String value)](#setFontName-java.lang.String-) | For the description of this property, please see \#getFontName().getFontName() |
+| [setFontSize(double value)](#setFontSize-double-) | For the description of this property, please see \#getFontSize().getFontSize() |
+| [setHorizontalAlignment(int value)](#setHorizontalAlignment-int-) | For the description of this property, please see \#getHorizontalAlignment().getHorizontalAlignment() |
+| [setVerticalAlignment(int value)](#setVerticalAlignment-int-) | For the description of this property, please see \#getVerticalAlignment().getVerticalAlignment() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -132,7 +132,7 @@ public void setFontName(String value)
 ```
 
 
-Please see the getter of this property: @CREF34\_
+For the description of this property, please see \#getFontName().getFontName()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setFontSize(double value)
 ```
 
 
-Please see the getter of this property: @CREF35\_
+For the description of this property, please see \#getFontSize().getFontSize()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public void setHorizontalAlignment(int value)
 ```
 
 
-Please see the getter of this property: @CREF36\_
+For the description of this property, please see \#getHorizontalAlignment().getHorizontalAlignment()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,7 +171,7 @@ public void setVerticalAlignment(int value)
 ```
 
 
-Please see the getter of this property: @CREF37\_
+For the description of this property, please see \#getVerticalAlignment().getVerticalAlignment()
 
 **Parameters:**
 | Parameter | Type | Description |

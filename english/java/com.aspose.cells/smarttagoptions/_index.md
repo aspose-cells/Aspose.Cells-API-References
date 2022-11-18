@@ -25,8 +25,8 @@ Represents the options of the smart tag.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setEmbedSmartTags(boolean value)](#setEmbedSmartTags-boolean-) | Please see the getter of this property: @CREF1227\_ |
-| [setShowType(int value)](#setShowType-int-) | Please see the getter of this property: @CREF1228\_ |
+| [setEmbedSmartTags(boolean value)](#setEmbedSmartTags-boolean-) | For the description of this property, please see \#getEmbedSmartTags().getEmbedSmartTags() |
+| [setShowType(int value)](#setShowType-int-) | For the description of this property, please see \#getShowType().getShowType() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -108,7 +108,7 @@ public void setEmbedSmartTags(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1227\_
+For the description of this property, please see \#getEmbedSmartTags().getEmbedSmartTags()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -121,7 +121,7 @@ public void setShowType(int value)
 ```
 
 
-Please see the getter of this property: @CREF1228\_
+For the description of this property, please see \#getShowType().getShowType()
 
 **Parameters:**
 | Parameter | Type | Description |

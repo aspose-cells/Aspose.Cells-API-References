@@ -43,11 +43,11 @@ Represents union range.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [putValue(String stringValue, boolean isConverted, boolean setStyle)](#putValue-java.lang.String-boolean-boolean-) | Puts a value into the range, if appropriate the value will be converted to other data type and cell's number format will be reset. |
-| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: [getName()](../../com.aspose.cells/unionrange\#getName--) |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
 | [setOutlineBorders(int borderStyle, Color borderColor)](#setOutlineBorders-int-com.aspose.cells.Color-) | Sets the outline borders around a range of cells with same border style and color. |
 | [setOutlineBorders(int[] borderStyles, Color[] borderColors)](#setOutlineBorders-int---com.aspose.cells.Color---) | Sets out line borders around a range of cells. |
 | [setStyle(Style style)](#setStyle-com.aspose.cells.Style-) | Sets the style of the range. |
-| [setValue(Object value)](#setValue-java.lang.Object-) | Please see the getter of this property: [getValue()](../../com.aspose.cells/unionrange\#getValue--) |
+| [setValue(Object value)](#setValue-java.lang.Object-) | For the description of this property, please see \#getValue().getValue() |
 | [toString()](#toString--) |  |
 | [unMerge()](#unMerge--) | Unmerges merged cells of this range. |
 | [union(Range[] ranges)](#union-com.aspose.cells.Range---) | Union the ranges. |
@@ -341,7 +341,7 @@ public void setName(String value)
 ```
 
 
-Please see the getter of this property: [getName()](../../com.aspose.cells/unionrange\#getName--)
+For the description of this property, please see \#getName().getName()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -395,7 +395,7 @@ public void setValue(Object value)
 ```
 
 
-Please see the getter of this property: [getValue()](../../com.aspose.cells/unionrange\#getValue--)
+For the description of this property, please see \#getValue().getValue()
 
 **Parameters:**
 | Parameter | Type | Description |

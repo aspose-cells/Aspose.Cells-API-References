@@ -230,21 +230,21 @@ Workbook excel = new Workbook();
 | [setColumnWidth(int column, double width)](#setColumnWidth-int-double-) | Sets the width of the specified column in normal view. |
 | [setColumnWidthInch(int column, double inches)](#setColumnWidthInch-int-double-) | Sets column width in unit of inches in normal view. |
 | [setColumnWidthPixel(int column, int pixels)](#setColumnWidthPixel-int-int-) | Sets column width in unit of pixels in normal view. |
-| [setDefaultRowHeightMatched(boolean value)](#setDefaultRowHeightMatched-boolean-) | Please see the getter of this property: [isDefaultRowHeightMatched()](../../com.aspose.cells/cells\#isDefaultRowHeightMatched--) |
-| [setDefaultRowHidden(boolean value)](#setDefaultRowHidden-boolean-) | Please see the getter of this property: [isDefaultRowHidden()](../../com.aspose.cells/cells\#isDefaultRowHidden--) |
-| [setMemorySetting(int value)](#setMemorySetting-int-) | Please see the getter of this property: [getMemorySetting()](../../com.aspose.cells/cells\#getMemorySetting--) |
-| [setMultiThreadReading(boolean value)](#setMultiThreadReading-boolean-) | Please see the getter of this property: [getMultiThreadReading()](../../com.aspose.cells/cells\#getMultiThreadReading--) |
-| [setPreserveString(boolean value)](#setPreserveString-boolean-) | Please see the getter of this property: [getPreserveString()](../../com.aspose.cells/cells\#getPreserveString--) |
+| [setDefaultRowHeightMatched(boolean value)](#setDefaultRowHeightMatched-boolean-) | For the description of this property, please see \#isDefaultRowHeightMatched().isDefaultRowHeightMatched() |
+| [setDefaultRowHidden(boolean value)](#setDefaultRowHidden-boolean-) | For the description of this property, please see \#isDefaultRowHidden().isDefaultRowHidden() |
+| [setMemorySetting(int value)](#setMemorySetting-int-) | For the description of this property, please see \#getMemorySetting().getMemorySetting() |
+| [setMultiThreadReading(boolean value)](#setMultiThreadReading-boolean-) | For the description of this property, please see \#getMultiThreadReading().getMultiThreadReading() |
+| [setPreserveString(boolean value)](#setPreserveString-boolean-) | For the description of this property, please see \#getPreserveString().getPreserveString() |
 | [setRowHeight(int row, double height)](#setRowHeight-int-double-) | Sets the height of the specified row. |
 | [setRowHeightInch(int row, double inches)](#setRowHeightInch-int-double-) | Sets row height in unit of inches. |
 | [setRowHeightPixel(int row, int pixels)](#setRowHeightPixel-int-int-) | Sets row height in unit of pixels. |
-| [setStandardHeight(double value)](#setStandardHeight-double-) | Please see the getter of this property: [getStandardHeight()](../../com.aspose.cells/cells\#getStandardHeight--) |
-| [setStandardHeightInch(double value)](#setStandardHeightInch-double-) | Please see the getter of this property: [getStandardHeightInch()](../../com.aspose.cells/cells\#getStandardHeightInch--) |
-| [setStandardHeightPixels(int value)](#setStandardHeightPixels-int-) | Please see the getter of this property: [getStandardHeightPixels()](../../com.aspose.cells/cells\#getStandardHeightPixels--) |
-| [setStandardWidth(double value)](#setStandardWidth-double-) | Please see the getter of this property: [getStandardWidth()](../../com.aspose.cells/cells\#getStandardWidth--) |
-| [setStandardWidthInch(double value)](#setStandardWidthInch-double-) | Please see the getter of this property: [getStandardWidthInch()](../../com.aspose.cells/cells\#getStandardWidthInch--) |
-| [setStandardWidthPixels(int value)](#setStandardWidthPixels-int-) | Please see the getter of this property: [getStandardWidthPixels()](../../com.aspose.cells/cells\#getStandardWidthPixels--) |
-| [setStyle(Style value)](#setStyle-com.aspose.cells.Style-) | Please see the getter of this property: [getStyle()](../../com.aspose.cells/cells\#getStyle--) |
+| [setStandardHeight(double value)](#setStandardHeight-double-) | For the description of this property, please see \#getStandardHeight().getStandardHeight() |
+| [setStandardHeightInch(double value)](#setStandardHeightInch-double-) | For the description of this property, please see \#getStandardHeightInch().getStandardHeightInch() |
+| [setStandardHeightPixels(int value)](#setStandardHeightPixels-int-) | For the description of this property, please see \#getStandardHeightPixels().getStandardHeightPixels() |
+| [setStandardWidth(double value)](#setStandardWidth-double-) | For the description of this property, please see \#getStandardWidth().getStandardWidth() |
+| [setStandardWidthInch(double value)](#setStandardWidthInch-double-) | For the description of this property, please see \#getStandardWidthInch().getStandardWidthInch() |
+| [setStandardWidthPixels(int value)](#setStandardWidthPixels-int-) | For the description of this property, please see \#getStandardWidthPixels().getStandardWidthPixels() |
+| [setStyle(Style value)](#setStyle-com.aspose.cells.Style-) | For the description of this property, please see \#getStyle().getStyle() |
 | [setViewColumnWidthPixel(int column, int pixels)](#setViewColumnWidthPixel-int-int-) | Sets the width of the column in different view. |
 | [showGroupDetail(boolean isVertical, int index)](#showGroupDetail-boolean-int-) | Expands the grouped rows/columns. |
 | [subtotal(CellArea ca, int groupBy, int function, int[] totalList)](#subtotal-com.aspose.cells.CellArea-int-int-int---) | Creates subtotals for the range. |
@@ -2810,7 +2810,7 @@ public void setDefaultRowHeightMatched(boolean value)
 ```
 
 
-Please see the getter of this property: [isDefaultRowHeightMatched()](../../com.aspose.cells/cells\#isDefaultRowHeightMatched--)
+For the description of this property, please see \#isDefaultRowHeightMatched().isDefaultRowHeightMatched()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2823,7 +2823,7 @@ public void setDefaultRowHidden(boolean value)
 ```
 
 
-Please see the getter of this property: [isDefaultRowHidden()](../../com.aspose.cells/cells\#isDefaultRowHidden--)
+For the description of this property, please see \#isDefaultRowHidden().isDefaultRowHidden()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2836,7 +2836,7 @@ public void setMemorySetting(int value)
 ```
 
 
-Please see the getter of this property: [getMemorySetting()](../../com.aspose.cells/cells\#getMemorySetting--)
+For the description of this property, please see \#getMemorySetting().getMemorySetting()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2849,7 +2849,7 @@ public void setMultiThreadReading(boolean value)
 ```
 
 
-Please see the getter of this property: [getMultiThreadReading()](../../com.aspose.cells/cells\#getMultiThreadReading--)
+For the description of this property, please see \#getMultiThreadReading().getMultiThreadReading()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2862,7 +2862,7 @@ public void setPreserveString(boolean value)
 ```
 
 
-Please see the getter of this property: [getPreserveString()](../../com.aspose.cells/cells\#getPreserveString--)
+For the description of this property, please see \#getPreserveString().getPreserveString()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2917,7 +2917,7 @@ public void setStandardHeight(double value)
 ```
 
 
-Please see the getter of this property: [getStandardHeight()](../../com.aspose.cells/cells\#getStandardHeight--)
+For the description of this property, please see \#getStandardHeight().getStandardHeight()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2930,7 +2930,7 @@ public void setStandardHeightInch(double value)
 ```
 
 
-Please see the getter of this property: [getStandardHeightInch()](../../com.aspose.cells/cells\#getStandardHeightInch--)
+For the description of this property, please see \#getStandardHeightInch().getStandardHeightInch()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2943,7 +2943,7 @@ public void setStandardHeightPixels(int value)
 ```
 
 
-Please see the getter of this property: [getStandardHeightPixels()](../../com.aspose.cells/cells\#getStandardHeightPixels--)
+For the description of this property, please see \#getStandardHeightPixels().getStandardHeightPixels()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2956,7 +2956,7 @@ public void setStandardWidth(double value)
 ```
 
 
-Please see the getter of this property: [getStandardWidth()](../../com.aspose.cells/cells\#getStandardWidth--)
+For the description of this property, please see \#getStandardWidth().getStandardWidth()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2969,7 +2969,7 @@ public void setStandardWidthInch(double value)
 ```
 
 
-Please see the getter of this property: [getStandardWidthInch()](../../com.aspose.cells/cells\#getStandardWidthInch--)
+For the description of this property, please see \#getStandardWidthInch().getStandardWidthInch()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2982,7 +2982,7 @@ public void setStandardWidthPixels(int value)
 ```
 
 
-Please see the getter of this property: [getStandardWidthPixels()](../../com.aspose.cells/cells\#getStandardWidthPixels--)
+For the description of this property, please see \#getStandardWidthPixels().getStandardWidthPixels()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2995,7 +2995,7 @@ public void setStyle(Style value)
 ```
 
 
-Please see the getter of this property: [getStyle()](../../com.aspose.cells/cells\#getStyle--)
+For the description of this property, please see \#getStyle().getStyle()
 
 **Parameters:**
 | Parameter | Type | Description |

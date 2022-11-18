@@ -26,9 +26,9 @@ Describe the AboveAverage conditional formatting rule. This conditional formatti
 | [isEqualAverage()](#isEqualAverage--) | Get or set the flag indicating whether the 'aboveAverage' and 'belowAverage' criteria is inclusive of the average itself, or exclusive of that value. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAboveAverage(boolean value)](#setAboveAverage-boolean-) | Please see the getter of this property: @CREF1635\_ |
-| [setEqualAverage(boolean value)](#setEqualAverage-boolean-) | Please see the getter of this property: @CREF1636\_ |
-| [setStdDev(int value)](#setStdDev-int-) | Please see the getter of this property: @CREF1637\_ |
+| [setAboveAverage(boolean value)](#setAboveAverage-boolean-) | For the description of this property, please see \#isAboveAverage().isAboveAverage() |
+| [setEqualAverage(boolean value)](#setEqualAverage-boolean-) | For the description of this property, please see \#isEqualAverage().isEqualAverage() |
+| [setStdDev(int value)](#setStdDev-int-) | For the description of this property, please see \#getStdDev().getStdDev() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -120,7 +120,7 @@ public void setAboveAverage(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1635\_
+For the description of this property, please see \#isAboveAverage().isAboveAverage()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -133,7 +133,7 @@ public void setEqualAverage(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1636\_
+For the description of this property, please see \#isEqualAverage().isEqualAverage()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +146,7 @@ public void setStdDev(int value)
 ```
 
 
-Please see the getter of this property: @CREF1637\_
+For the description of this property, please see \#getStdDev().getStdDev()
 
 **Parameters:**
 | Parameter | Type | Description |

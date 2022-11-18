@@ -31,14 +31,14 @@ This class specifies a reflection effect.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBlur(double value)](#setBlur-double-) | Please see the getter of this property: @CREF1273\_ |
-| [setDirection(double value)](#setDirection-double-) | Please see the getter of this property: @CREF1274\_ |
-| [setDistance(double value)](#setDistance-double-) | Please see the getter of this property: @CREF1275\_ |
-| [setFadeDirection(double value)](#setFadeDirection-double-) | Please see the getter of this property: @CREF1276\_ |
-| [setRotWithShape(boolean value)](#setRotWithShape-boolean-) | Please see the getter of this property: @CREF1277\_ |
-| [setSize(double value)](#setSize-double-) | Please see the getter of this property: @CREF1272\_ |
-| [setTransparency(double value)](#setTransparency-double-) | Please see the getter of this property: @CREF1271\_ |
-| [setType(int value)](#setType-int-) | Please see the getter of this property: @CREF1270\_ |
+| [setBlur(double value)](#setBlur-double-) | For the description of this property, please see \#getBlur().getBlur() |
+| [setDirection(double value)](#setDirection-double-) | For the description of this property, please see \#getDirection().getDirection() |
+| [setDistance(double value)](#setDistance-double-) | For the description of this property, please see \#getDistance().getDistance() |
+| [setFadeDirection(double value)](#setFadeDirection-double-) | For the description of this property, please see \#getFadeDirection().getFadeDirection() |
+| [setRotWithShape(boolean value)](#setRotWithShape-boolean-) | For the description of this property, please see \#getRotWithShape().getRotWithShape() |
+| [setSize(double value)](#setSize-double-) | For the description of this property, please see \#getSize().getSize() |
+| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see \#getTransparency().getTransparency() |
+| [setType(int value)](#setType-int-) | For the description of this property, please see \#getType().getType() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -180,7 +180,7 @@ public void setBlur(double value)
 ```
 
 
-Please see the getter of this property: @CREF1273\_
+For the description of this property, please see \#getBlur().getBlur()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,7 +193,7 @@ public void setDirection(double value)
 ```
 
 
-Please see the getter of this property: @CREF1274\_
+For the description of this property, please see \#getDirection().getDirection()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -206,7 +206,7 @@ public void setDistance(double value)
 ```
 
 
-Please see the getter of this property: @CREF1275\_
+For the description of this property, please see \#getDistance().getDistance()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -219,7 +219,7 @@ public void setFadeDirection(double value)
 ```
 
 
-Please see the getter of this property: @CREF1276\_
+For the description of this property, please see \#getFadeDirection().getFadeDirection()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -232,7 +232,7 @@ public void setRotWithShape(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1277\_
+For the description of this property, please see \#getRotWithShape().getRotWithShape()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -245,7 +245,7 @@ public void setSize(double value)
 ```
 
 
-Please see the getter of this property: @CREF1272\_
+For the description of this property, please see \#getSize().getSize()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -258,7 +258,7 @@ public void setTransparency(double value)
 ```
 
 
-Please see the getter of this property: @CREF1271\_
+For the description of this property, please see \#getTransparency().getTransparency()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -271,7 +271,7 @@ public void setType(int value)
 ```
 
 
-Please see the getter of this property: @CREF1270\_
+For the description of this property, please see \#getType().getType()
 
 **Parameters:**
 | Parameter | Type | Description |

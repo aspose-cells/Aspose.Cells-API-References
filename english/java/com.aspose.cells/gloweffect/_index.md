@@ -27,10 +27,10 @@ This class specifies a glow effect, in which a color blurred outline is added ou
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setColor(CellsColor value)](#setColor-com.aspose.cells.CellsColor-) | Please see the getter of this property: @CREF1266\_ |
-| [setRadius(double value)](#setRadius-double-) | Please see the getter of this property: @CREF1267\_ |
-| [setSize(double value)](#setSize-double-) | Please see the getter of this property: @CREF1268\_ |
-| [setTransparency(double value)](#setTransparency-double-) | Please see the getter of this property: @CREF1269\_ |
+| [setColor(CellsColor value)](#setColor-com.aspose.cells.CellsColor-) | For the description of this property, please see \#getColor().getColor() |
+| [setRadius(double value)](#setRadius-double-) | For the description of this property, please see \#getRadius().getRadius() |
+| [setSize(double value)](#setSize-double-) | For the description of this property, please see \#getSize().getSize() |
+| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see \#getTransparency().getTransparency() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -132,7 +132,7 @@ public void setColor(CellsColor value)
 ```
 
 
-Please see the getter of this property: @CREF1266\_
+For the description of this property, please see \#getColor().getColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setRadius(double value)
 ```
 
 
-Please see the getter of this property: @CREF1267\_
+For the description of this property, please see \#getRadius().getRadius()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public void setSize(double value)
 ```
 
 
-Please see the getter of this property: @CREF1268\_
+For the description of this property, please see \#getSize().getSize()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,7 +171,7 @@ public void setTransparency(double value)
 ```
 
 
-Please see the getter of this property: @CREF1269\_
+For the description of this property, please see \#getTransparency().getTransparency()
 
 **Parameters:**
 | Parameter | Type | Description |

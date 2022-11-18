@@ -27,7 +27,7 @@ Warning info
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCorrectedObject(Object value)](#setCorrectedObject-java.lang.Object-) | Please see the getter of this property: @CREF936\_ |
+| [setCorrectedObject(Object value)](#setCorrectedObject-java.lang.Object-) | For the description of this property, please see \#getCorrectedObject().getCorrectedObject() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -129,7 +129,7 @@ public void setCorrectedObject(Object value)
 ```
 
 
-Please see the getter of this property: @CREF936\_
+For the description of this property, please see \#getCorrectedObject().getCorrectedObject()
 
 **Parameters:**
 | Parameter | Type | Description |

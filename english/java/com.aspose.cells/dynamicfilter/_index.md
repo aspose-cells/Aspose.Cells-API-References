@@ -26,9 +26,9 @@ Represents the dynamic filter.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDynamicFilterType(int value)](#setDynamicFilterType-int-) | Please see the getter of this property: @CREF1141\_ |
-| [setMaxValue(Object value)](#setMaxValue-java.lang.Object-) | Please see the getter of this property: @CREF1143\_ |
-| [setValue(Object value)](#setValue-java.lang.Object-) | Please see the getter of this property: @CREF1142\_ |
+| [setDynamicFilterType(int value)](#setDynamicFilterType-int-) | For the description of this property, please see \#getDynamicFilterType().getDynamicFilterType() |
+| [setMaxValue(Object value)](#setMaxValue-java.lang.Object-) | For the description of this property, please see \#getMaxValue().getMaxValue() |
+| [setValue(Object value)](#setValue-java.lang.Object-) | For the description of this property, please see \#getValue().getValue() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -120,7 +120,7 @@ public void setDynamicFilterType(int value)
 ```
 
 
-Please see the getter of this property: @CREF1141\_
+For the description of this property, please see \#getDynamicFilterType().getDynamicFilterType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -133,7 +133,7 @@ public void setMaxValue(Object value)
 ```
 
 
-Please see the getter of this property: @CREF1143\_
+For the description of this property, please see \#getMaxValue().getMaxValue()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +146,7 @@ public void setValue(Object value)
 ```
 
 
-Please see the getter of this property: @CREF1142\_
+For the description of this property, please see \#getValue().getValue()
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -43,18 +43,18 @@ Represents the save options for the Excel 97-2003 file format: xls and xlt.
 | [isTemplate()](#isTemplate--) | Indicates whether saving a template file. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | Please see the getter of this property: @CREF1852\_ |
-| [setClearData(boolean value)](#setClearData-boolean-) | Please see the getter of this property: @CREF1851\_ |
-| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | Please see the getter of this property: @CREF1855\_ |
-| [setLightCellsDataProvider(LightCellsDataProvider value)](#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-) | Please see the getter of this property: @CREF2068\_ |
-| [setMatchColor(boolean value)](#setMatchColor-boolean-) | Please see the getter of this property: @CREF2070\_ |
-| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Please see the getter of this property: @CREF1854\_ |
-| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Please see the getter of this property: @CREF1858\_ |
-| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Please see the getter of this property: @CREF1857\_ |
-| [setSortNames(boolean value)](#setSortNames-boolean-) | Please see the getter of this property: @CREF1856\_ |
-| [setTemplate(boolean value)](#setTemplate-boolean-) | Please see the getter of this property: @CREF2069\_ |
-| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | Please see the getter of this property: @CREF1860\_ |
-| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | Please see the getter of this property: @CREF1853\_ |
+| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | For the description of this property, please see \#getCachedFileFolder().getCachedFileFolder() |
+| [setClearData(boolean value)](#setClearData-boolean-) | For the description of this property, please see \#getClearData().getClearData() |
+| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | For the description of this property, please see \#getCreateDirectory().getCreateDirectory() |
+| [setLightCellsDataProvider(LightCellsDataProvider value)](#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-) | For the description of this property, please see \#getLightCellsDataProvider().getLightCellsDataProvider() |
+| [setMatchColor(boolean value)](#setMatchColor-boolean-) | For the description of this property, please see \#getMatchColor().getMatchColor() |
+| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | For the description of this property, please see \#getMergeAreas().getMergeAreas() |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | For the description of this property, please see \#getRefreshChartCache().getRefreshChartCache() |
+| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | For the description of this property, please see \#getSortExternalNames().getSortExternalNames() |
+| [setSortNames(boolean value)](#setSortNames-boolean-) | For the description of this property, please see \#getSortNames().getSortNames() |
+| [setTemplate(boolean value)](#setTemplate-boolean-) | For the description of this property, please see \#isTemplate().isTemplate() |
+| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | For the description of this property, please see \#getUpdateSmartArt().getUpdateSmartArt() |
+| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | For the description of this property, please see \#getValidateMergedAreas().getValidateMergedAreas() |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -278,7 +278,7 @@ public void setCachedFileFolder(String value)
 ```
 
 
-Please see the getter of this property: @CREF1852\_
+For the description of this property, please see \#getCachedFileFolder().getCachedFileFolder()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -291,7 +291,7 @@ public void setClearData(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1851\_
+For the description of this property, please see \#getClearData().getClearData()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -304,7 +304,7 @@ public void setCreateDirectory(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1855\_
+For the description of this property, please see \#getCreateDirectory().getCreateDirectory()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -317,7 +317,7 @@ public void setLightCellsDataProvider(LightCellsDataProvider value)
 ```
 
 
-Please see the getter of this property: @CREF2068\_
+For the description of this property, please see \#getLightCellsDataProvider().getLightCellsDataProvider()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -330,7 +330,7 @@ public void setMatchColor(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF2070\_
+For the description of this property, please see \#getMatchColor().getMatchColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -343,7 +343,7 @@ public void setMergeAreas(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1854\_
+For the description of this property, please see \#getMergeAreas().getMergeAreas()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -356,7 +356,7 @@ public void setRefreshChartCache(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1858\_
+For the description of this property, please see \#getRefreshChartCache().getRefreshChartCache()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -369,7 +369,7 @@ public void setSortExternalNames(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1857\_
+For the description of this property, please see \#getSortExternalNames().getSortExternalNames()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -382,7 +382,7 @@ public void setSortNames(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1856\_
+For the description of this property, please see \#getSortNames().getSortNames()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -395,7 +395,7 @@ public void setTemplate(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF2069\_
+For the description of this property, please see \#isTemplate().isTemplate()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -408,7 +408,7 @@ public void setUpdateSmartArt(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1860\_
+For the description of this property, please see \#getUpdateSmartArt().getUpdateSmartArt()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -421,7 +421,7 @@ public void setValidateMergedAreas(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF1853\_
+For the description of this property, please see \#getValidateMergedAreas().getValidateMergedAreas()
 
 **Parameters:**
 | Parameter | Type | Description |

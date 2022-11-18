@@ -87,7 +87,7 @@ Workbook book = new Workbook();
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCrossFilterType(int value)](#setCrossFilterType-int-) | Please see the getter of this property: [getCrossFilterType()](../../com.aspose.cells/slicercache\#getCrossFilterType--) |
+| [setCrossFilterType(int value)](#setCrossFilterType-int-) | For the description of this property, please see \#getCrossFilterType().getCrossFilterType() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -219,7 +219,7 @@ public void setCrossFilterType(int value)
 ```
 
 
-Please see the getter of this property: [getCrossFilterType()](../../com.aspose.cells/slicercache\#getCrossFilterType--)
+For the description of this property, please see \#getCrossFilterType().getCrossFilterType()
 
 **Parameters:**
 | Parameter | Type | Description |

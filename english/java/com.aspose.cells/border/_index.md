@@ -41,10 +41,10 @@ Workbook workbook = new Workbook();
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setArgbColor(int value)](#setArgbColor-int-) | Please see the getter of this property: [getArgbColor()](../../com.aspose.cells/border\#getArgbColor--) |
-| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | Please see the getter of this property: [getColor()](../../com.aspose.cells/border\#getColor--) |
-| [setLineStyle(int value)](#setLineStyle-int-) | Please see the getter of this property: [getLineStyle()](../../com.aspose.cells/border\#getLineStyle--) |
-| [setThemeColor(ThemeColor value)](#setThemeColor-com.aspose.cells.ThemeColor-) | Please see the getter of this property: [getThemeColor()](../../com.aspose.cells/border\#getThemeColor--) |
+| [setArgbColor(int value)](#setArgbColor-int-) | For the description of this property, please see \#getArgbColor().getArgbColor() |
+| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | For the description of this property, please see \#getColor().getColor() |
+| [setLineStyle(int value)](#setLineStyle-int-) | For the description of this property, please see \#getLineStyle().getLineStyle() |
+| [setThemeColor(ThemeColor value)](#setThemeColor-com.aspose.cells.ThemeColor-) | For the description of this property, please see \#getThemeColor().getThemeColor() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -146,7 +146,7 @@ public void setArgbColor(int value)
 ```
 
 
-Please see the getter of this property: [getArgbColor()](../../com.aspose.cells/border\#getArgbColor--)
+For the description of this property, please see \#getArgbColor().getArgbColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -159,7 +159,7 @@ public void setColor(Color value)
 ```
 
 
-Please see the getter of this property: [getColor()](../../com.aspose.cells/border\#getColor--)
+For the description of this property, please see \#getColor().getColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -172,7 +172,7 @@ public void setLineStyle(int value)
 ```
 
 
-Please see the getter of this property: [getLineStyle()](../../com.aspose.cells/border\#getLineStyle--)
+For the description of this property, please see \#getLineStyle().getLineStyle()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -185,7 +185,7 @@ public void setThemeColor(ThemeColor value)
 ```
 
 
-Please see the getter of this property: [getThemeColor()](../../com.aspose.cells/border\#getThemeColor--)
+For the description of this property, please see \#getThemeColor().getThemeColor()
 
 **Parameters:**
 | Parameter | Type | Description |

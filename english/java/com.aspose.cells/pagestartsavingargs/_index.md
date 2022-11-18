@@ -31,7 +31,7 @@ Info for a page starts saving process.
 | [isToOutput()](#isToOutput--) | Gets or sets a value indicating whether the page should be output. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setToOutput(boolean value)](#setToOutput-boolean-) | Please see the getter of this property: @CREF977\_ |
+| [setToOutput(boolean value)](#setToOutput-boolean-) | For the description of this property, please see \#isToOutput().isToOutput() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -129,7 +129,7 @@ public void setToOutput(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF977\_
+For the description of this property, please see \#isToOutput().isToOutput()
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -26,9 +26,9 @@ Represents a bevel of a shape
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setHeight(double value)](#setHeight-double-) | Please see the getter of this property: @CREF1260\_ |
-| [setType(int value)](#setType-int-) | Please see the getter of this property: @CREF1261\_ |
-| [setWidth(double value)](#setWidth-double-) | Please see the getter of this property: @CREF1259\_ |
+| [setHeight(double value)](#setHeight-double-) | For the description of this property, please see \#getHeight().getHeight() |
+| [setType(int value)](#setType-int-) | For the description of this property, please see \#getType().getType() |
+| [setWidth(double value)](#setWidth-double-) | For the description of this property, please see \#getWidth().getWidth() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -120,7 +120,7 @@ public void setHeight(double value)
 ```
 
 
-Please see the getter of this property: @CREF1260\_
+For the description of this property, please see \#getHeight().getHeight()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -133,7 +133,7 @@ public void setType(int value)
 ```
 
 
-Please see the getter of this property: @CREF1261\_
+For the description of this property, please see \#getType().getType()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +146,7 @@ public void setWidth(double value)
 ```
 
 
-Please see the getter of this property: @CREF1259\_
+For the description of this property, please see \#getWidth().getWidth()
 
 **Parameters:**
 | Parameter | Type | Description |

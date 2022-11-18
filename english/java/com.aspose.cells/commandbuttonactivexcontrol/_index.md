@@ -54,28 +54,28 @@ Represents a command button.
 | [isWordWrapped()](#isWordWrapped--) | Indicates whether the contents of the control automatically wrap at the end of a line. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAccelerator(char value)](#setAccelerator-char-) | Please see the getter of this property: @CREF647\_ |
-| [setAutoSize(boolean value)](#setAutoSize-boolean-) | Please see the getter of this property: @CREF599\_ |
-| [setBackOleColor(int value)](#setBackOleColor-int-) | Please see the getter of this property: [getBackOleColor()](../../com.aspose.cells/activexcontrolbase\#getBackOleColor--) |
-| [setCaption(String value)](#setCaption-java.lang.String-) | Please see the getter of this property: @CREF644\_ |
-| [setEnabled(boolean value)](#setEnabled-boolean-) | Please see the getter of this property: @CREF596\_ |
-| [setForeOleColor(int value)](#setForeOleColor-int-) | Please see the getter of this property: [getForeOleColor()](../../com.aspose.cells/activexcontrolbase\#getForeOleColor--) |
-| [setHeight(double value)](#setHeight-double-) | Please see the getter of this property: [getHeight()](../../com.aspose.cells/activexcontrolbase\#getHeight--) |
-| [setIMEMode(int value)](#setIMEMode-int-) | Please see the getter of this property: @CREF600\_ |
-| [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | Please see the getter of this property: [getLinkedCell()](../../com.aspose.cells/activexcontrolbase\#getLinkedCell--) |
-| [setListFillRange(String value)](#setListFillRange-java.lang.String-) | Please see the getter of this property: [getListFillRange()](../../com.aspose.cells/activexcontrolbase\#getListFillRange--) |
-| [setLocked(boolean value)](#setLocked-boolean-) | Please see the getter of this property: @CREF597\_ |
-| [setMouseIcon(byte[] value)](#setMouseIcon-byte---) | Please see the getter of this property: [getMouseIcon()](../../com.aspose.cells/activexcontrolbase\#getMouseIcon--) |
-| [setMousePointer(int value)](#setMousePointer-int-) | Please see the getter of this property: [getMousePointer()](../../com.aspose.cells/activexcontrolbase\#getMousePointer--) |
-| [setPicture(byte[] value)](#setPicture-byte---) | Please see the getter of this property: @CREF646\_ |
-| [setPicturePosition(int value)](#setPicturePosition-int-) | Please see the getter of this property: @CREF645\_ |
-| [setShadow(boolean value)](#setShadow-boolean-) | Please see the getter of this property: [getShadow()](../../com.aspose.cells/activexcontrolbase\#getShadow--) |
-| [setTakeFocusOnClick(boolean value)](#setTakeFocusOnClick-boolean-) | Please see the getter of this property: @CREF648\_ |
-| [setTextAlign(int value)](#setTextAlign-int-) | Please see the getter of this property: @CREF601\_ |
-| [setTransparent(boolean value)](#setTransparent-boolean-) | Please see the getter of this property: @CREF598\_ |
-| [setVisible(boolean value)](#setVisible-boolean-) | Please see the getter of this property: [isVisible()](../../com.aspose.cells/activexcontrolbase\#isVisible--) |
-| [setWidth(double value)](#setWidth-double-) | Please see the getter of this property: [getWidth()](../../com.aspose.cells/activexcontrolbase\#getWidth--) |
-| [setWordWrapped(boolean value)](#setWordWrapped-boolean-) | Please see the getter of this property: @CREF649\_ |
+| [setAccelerator(char value)](#setAccelerator-char-) | For the description of this property, please see \#getAccelerator().getAccelerator() |
+| [setAutoSize(boolean value)](#setAutoSize-boolean-) | For the description of this property, please see \#isAutoSize().isAutoSize() |
+| [setBackOleColor(int value)](#setBackOleColor-int-) | For the description of this property, please see \#getBackOleColor().getBackOleColor() |
+| [setCaption(String value)](#setCaption-java.lang.String-) | For the description of this property, please see \#getCaption().getCaption() |
+| [setEnabled(boolean value)](#setEnabled-boolean-) | For the description of this property, please see \#isEnabled().isEnabled() |
+| [setForeOleColor(int value)](#setForeOleColor-int-) | For the description of this property, please see \#getForeOleColor().getForeOleColor() |
+| [setHeight(double value)](#setHeight-double-) | For the description of this property, please see \#getHeight().getHeight() |
+| [setIMEMode(int value)](#setIMEMode-int-) | For the description of this property, please see \#getIMEMode().getIMEMode() |
+| [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | For the description of this property, please see \#getLinkedCell().getLinkedCell() |
+| [setListFillRange(String value)](#setListFillRange-java.lang.String-) | For the description of this property, please see \#getListFillRange().getListFillRange() |
+| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see \#isLocked().isLocked() |
+| [setMouseIcon(byte[] value)](#setMouseIcon-byte---) | For the description of this property, please see \#getMouseIcon().getMouseIcon() |
+| [setMousePointer(int value)](#setMousePointer-int-) | For the description of this property, please see \#getMousePointer().getMousePointer() |
+| [setPicture(byte[] value)](#setPicture-byte---) | For the description of this property, please see \#getPicture().getPicture() |
+| [setPicturePosition(int value)](#setPicturePosition-int-) | For the description of this property, please see \#getPicturePosition().getPicturePosition() |
+| [setShadow(boolean value)](#setShadow-boolean-) | For the description of this property, please see \#getShadow().getShadow() |
+| [setTakeFocusOnClick(boolean value)](#setTakeFocusOnClick-boolean-) | For the description of this property, please see \#getTakeFocusOnClick().getTakeFocusOnClick() |
+| [setTextAlign(int value)](#setTextAlign-int-) | For the description of this property, please see \#getTextAlign().getTextAlign() |
+| [setTransparent(boolean value)](#setTransparent-boolean-) | For the description of this property, please see \#isTransparent().isTransparent() |
+| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see \#isVisible().isVisible() |
+| [setWidth(double value)](#setWidth-double-) | For the description of this property, please see \#getWidth().getWidth() |
+| [setWordWrapped(boolean value)](#setWordWrapped-boolean-) | For the description of this property, please see \#isWordWrapped().isWordWrapped() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -403,7 +403,7 @@ public void setAccelerator(char value)
 ```
 
 
-Please see the getter of this property: @CREF647\_
+For the description of this property, please see \#getAccelerator().getAccelerator()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -416,7 +416,7 @@ public void setAutoSize(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF599\_
+For the description of this property, please see \#isAutoSize().isAutoSize()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -429,7 +429,7 @@ public void setBackOleColor(int value)
 ```
 
 
-Please see the getter of this property: [getBackOleColor()](../../com.aspose.cells/activexcontrolbase\#getBackOleColor--)
+For the description of this property, please see \#getBackOleColor().getBackOleColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -442,7 +442,7 @@ public void setCaption(String value)
 ```
 
 
-Please see the getter of this property: @CREF644\_
+For the description of this property, please see \#getCaption().getCaption()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -455,7 +455,7 @@ public void setEnabled(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF596\_
+For the description of this property, please see \#isEnabled().isEnabled()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -468,7 +468,7 @@ public void setForeOleColor(int value)
 ```
 
 
-Please see the getter of this property: [getForeOleColor()](../../com.aspose.cells/activexcontrolbase\#getForeOleColor--)
+For the description of this property, please see \#getForeOleColor().getForeOleColor()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -481,7 +481,7 @@ public void setHeight(double value)
 ```
 
 
-Please see the getter of this property: [getHeight()](../../com.aspose.cells/activexcontrolbase\#getHeight--)
+For the description of this property, please see \#getHeight().getHeight()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -494,7 +494,7 @@ public void setIMEMode(int value)
 ```
 
 
-Please see the getter of this property: @CREF600\_
+For the description of this property, please see \#getIMEMode().getIMEMode()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -507,7 +507,7 @@ public void setLinkedCell(String value)
 ```
 
 
-Please see the getter of this property: [getLinkedCell()](../../com.aspose.cells/activexcontrolbase\#getLinkedCell--)
+For the description of this property, please see \#getLinkedCell().getLinkedCell()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -520,7 +520,7 @@ public void setListFillRange(String value)
 ```
 
 
-Please see the getter of this property: [getListFillRange()](../../com.aspose.cells/activexcontrolbase\#getListFillRange--)
+For the description of this property, please see \#getListFillRange().getListFillRange()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -533,7 +533,7 @@ public void setLocked(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF597\_
+For the description of this property, please see \#isLocked().isLocked()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -546,7 +546,7 @@ public void setMouseIcon(byte[] value)
 ```
 
 
-Please see the getter of this property: [getMouseIcon()](../../com.aspose.cells/activexcontrolbase\#getMouseIcon--)
+For the description of this property, please see \#getMouseIcon().getMouseIcon()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -559,7 +559,7 @@ public void setMousePointer(int value)
 ```
 
 
-Please see the getter of this property: [getMousePointer()](../../com.aspose.cells/activexcontrolbase\#getMousePointer--)
+For the description of this property, please see \#getMousePointer().getMousePointer()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -572,7 +572,7 @@ public void setPicture(byte[] value)
 ```
 
 
-Please see the getter of this property: @CREF646\_
+For the description of this property, please see \#getPicture().getPicture()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -585,7 +585,7 @@ public void setPicturePosition(int value)
 ```
 
 
-Please see the getter of this property: @CREF645\_
+For the description of this property, please see \#getPicturePosition().getPicturePosition()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -598,7 +598,7 @@ public void setShadow(boolean value)
 ```
 
 
-Please see the getter of this property: [getShadow()](../../com.aspose.cells/activexcontrolbase\#getShadow--)
+For the description of this property, please see \#getShadow().getShadow()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -611,7 +611,7 @@ public void setTakeFocusOnClick(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF648\_
+For the description of this property, please see \#getTakeFocusOnClick().getTakeFocusOnClick()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -624,7 +624,7 @@ public void setTextAlign(int value)
 ```
 
 
-Please see the getter of this property: @CREF601\_
+For the description of this property, please see \#getTextAlign().getTextAlign()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -637,7 +637,7 @@ public void setTransparent(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF598\_
+For the description of this property, please see \#isTransparent().isTransparent()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -650,7 +650,7 @@ public void setVisible(boolean value)
 ```
 
 
-Please see the getter of this property: [isVisible()](../../com.aspose.cells/activexcontrolbase\#isVisible--)
+For the description of this property, please see \#isVisible().isVisible()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -663,7 +663,7 @@ public void setWidth(double value)
 ```
 
 
-Please see the getter of this property: [getWidth()](../../com.aspose.cells/activexcontrolbase\#getWidth--)
+For the description of this property, please see \#getWidth().getWidth()
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -676,7 +676,7 @@ public void setWordWrapped(boolean value)
 ```
 
 
-Please see the getter of this property: @CREF649\_
+For the description of this property, please see \#isWordWrapped().isWordWrapped()
 
 **Parameters:**
 | Parameter | Type | Description |

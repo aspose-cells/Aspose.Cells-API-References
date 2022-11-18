@@ -33,7 +33,7 @@ Represents the required data when calculating one function, such as function nam
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCalculatedValue(Object value)](#setCalculatedValue-java.lang.Object-) | Please see the getter of this property: @CREF206\_ |
+| [setCalculatedValue(Object value)](#setCalculatedValue-java.lang.Object-) | For the description of this property, please see \#getCalculatedValue().getCalculatedValue() |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -205,7 +205,7 @@ public void setCalculatedValue(Object value)
 ```
 
 
-Please see the getter of this property: @CREF206\_
+For the description of this property, please see \#getCalculatedValue().getCalculatedValue()
 
 **Parameters:**
 | Parameter | Type | Description |
