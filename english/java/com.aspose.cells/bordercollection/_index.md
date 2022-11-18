@@ -75,8 +75,8 @@ Encapsulates a collection of [Border](../../com.aspose.cells/border) objects.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setColor(Color color)](#setColor-com.aspose.cells.Color-) | Sets the [Color](../../com.aspose.cells/color) of all borders in the collection. |
-| [setDiagonalColor(Color value)](#setDiagonalColor-com.aspose.cells.Color-) |  |
-| [setDiagonalStyle(int value)](#setDiagonalStyle-int-) |  |
+| [setDiagonalColor(Color value)](#setDiagonalColor-com.aspose.cells.Color-) | Please see the getter of this property: [getDiagonalColor()](../../com.aspose.cells/bordercollection\#getDiagonalColor--) |
+| [setDiagonalStyle(int value)](#setDiagonalStyle-int-) | Please see the getter of this property: [getDiagonalStyle()](../../com.aspose.cells/bordercollection\#getDiagonalStyle--) |
 | [setStyle(int style)](#setStyle-int-) | Sets the style of all borders of the collection. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -187,7 +187,7 @@ public void setDiagonalColor(Color value)
 ```
 
 
-
+Please see the getter of this property: [getDiagonalColor()](../../com.aspose.cells/bordercollection\#getDiagonalColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -200,7 +200,7 @@ public void setDiagonalStyle(int value)
 ```
 
 
-
+Please see the getter of this property: [getDiagonalStyle()](../../com.aspose.cells/bordercollection\#getDiagonalStyle--)
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -30,13 +30,13 @@ Specifies properties about any parameters used with external data connections Pa
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCellReference(String value)](#setCellReference-java.lang.String-) |  |
-| [setName(String value)](#setName-java.lang.String-) |  |
-| [setPrompt(String value)](#setPrompt-java.lang.String-) |  |
-| [setRefreshOnChange(boolean value)](#setRefreshOnChange-boolean-) |  |
-| [setSqlType(int value)](#setSqlType-int-) |  |
-| [setType(int value)](#setType-int-) |  |
-| [setValue(Object value)](#setValue-java.lang.Object-) |  |
+| [setCellReference(String value)](#setCellReference-java.lang.String-) | Please see the getter of this property: @CREF827\_ |
+| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: @CREF826\_ |
+| [setPrompt(String value)](#setPrompt-java.lang.String-) | Please see the getter of this property: @CREF824\_ |
+| [setRefreshOnChange(boolean value)](#setRefreshOnChange-boolean-) | Please see the getter of this property: @CREF823\_ |
+| [setSqlType(int value)](#setSqlType-int-) | Please see the getter of this property: @CREF822\_ |
+| [setType(int value)](#setType-int-) | Please see the getter of this property: @CREF825\_ |
+| [setValue(Object value)](#setValue-java.lang.Object-) | Please see the getter of this property: @CREF828\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -168,7 +168,7 @@ public void setCellReference(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF827\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,7 +181,7 @@ public void setName(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF826\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -194,7 +194,7 @@ public void setPrompt(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF824\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -207,7 +207,7 @@ public void setRefreshOnChange(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF823\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -220,7 +220,7 @@ public void setSqlType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF822\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -233,7 +233,7 @@ public void setType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF825\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ public void setValue(Object value)
 ```
 
 
-
+Please see the getter of this property: @CREF828\_
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -35,13 +35,13 @@ Encapsulates the object that represents pattern fill format
 | [hashCode()](#hashCode--) | Gets the hash code. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBackTransparency(double value)](#setBackTransparency-double-) |  |
-| [setBackgroundCellsColor(CellsColor value)](#setBackgroundCellsColor-com.aspose.cells.CellsColor-) |  |
-| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.cells.Color-) |  |
-| [setForeTransparency(double value)](#setForeTransparency-double-) |  |
-| [setForegroundCellsColor(CellsColor value)](#setForegroundCellsColor-com.aspose.cells.CellsColor-) |  |
-| [setForegroundColor(Color value)](#setForegroundColor-com.aspose.cells.Color-) |  |
-| [setPattern(int value)](#setPattern-int-) |  |
+| [setBackTransparency(double value)](#setBackTransparency-double-) | Please see the getter of this property: [getBackTransparency()](../../com.aspose.cells/patternfill\#getBackTransparency--) |
+| [setBackgroundCellsColor(CellsColor value)](#setBackgroundCellsColor-com.aspose.cells.CellsColor-) | Please see the getter of this property: [getBackgroundCellsColor()](../../com.aspose.cells/patternfill\#getBackgroundCellsColor--) |
+| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.cells.Color-) | Please see the getter of this property: [getBackgroundColor()](../../com.aspose.cells/patternfill\#getBackgroundColor--) |
+| [setForeTransparency(double value)](#setForeTransparency-double-) | Please see the getter of this property: [getForeTransparency()](../../com.aspose.cells/patternfill\#getForeTransparency--) |
+| [setForegroundCellsColor(CellsColor value)](#setForegroundCellsColor-com.aspose.cells.CellsColor-) | Please see the getter of this property: [getForegroundCellsColor()](../../com.aspose.cells/patternfill\#getForegroundCellsColor--) |
+| [setForegroundColor(Color value)](#setForegroundColor-com.aspose.cells.Color-) | Please see the getter of this property: [getForegroundColor()](../../com.aspose.cells/patternfill\#getForegroundColor--) |
+| [setPattern(int value)](#setPattern-int-) | Please see the getter of this property: [getPattern()](../../com.aspose.cells/patternfill\#getPattern--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -179,7 +179,7 @@ public void setBackTransparency(double value)
 ```
 
 
-
+Please see the getter of this property: [getBackTransparency()](../../com.aspose.cells/patternfill\#getBackTransparency--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -192,7 +192,7 @@ public void setBackgroundCellsColor(CellsColor value)
 ```
 
 
-
+Please see the getter of this property: [getBackgroundCellsColor()](../../com.aspose.cells/patternfill\#getBackgroundCellsColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -205,7 +205,7 @@ public void setBackgroundColor(Color value)
 ```
 
 
-
+Please see the getter of this property: [getBackgroundColor()](../../com.aspose.cells/patternfill\#getBackgroundColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -218,7 +218,7 @@ public void setForeTransparency(double value)
 ```
 
 
-
+Please see the getter of this property: [getForeTransparency()](../../com.aspose.cells/patternfill\#getForeTransparency--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -231,7 +231,7 @@ public void setForegroundCellsColor(CellsColor value)
 ```
 
 
-
+Please see the getter of this property: [getForegroundCellsColor()](../../com.aspose.cells/patternfill\#getForegroundCellsColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -244,7 +244,7 @@ public void setForegroundColor(Color value)
 ```
 
 
-
+Please see the getter of this property: [getForegroundColor()](../../com.aspose.cells/patternfill\#getForegroundColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -257,7 +257,7 @@ public void setPattern(int value)
 ```
 
 
-
+Please see the getter of this property: [getPattern()](../../com.aspose.cells/patternfill\#getPattern--)
 
 **Parameters:**
 | Parameter | Type | Description |

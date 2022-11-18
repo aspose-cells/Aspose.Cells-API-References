@@ -30,13 +30,13 @@ This class specifies the shadow effect of the chart element or shape.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAngle(double value)](#setAngle-double-) |  |
-| [setBlur(double value)](#setBlur-double-) |  |
-| [setColor(CellsColor value)](#setColor-com.aspose.cells.CellsColor-) |  |
-| [setDistance(double value)](#setDistance-double-) |  |
-| [setPresetType(int value)](#setPresetType-int-) |  |
-| [setSize(double value)](#setSize-double-) |  |
-| [setTransparency(double value)](#setTransparency-double-) |  |
+| [setAngle(double value)](#setAngle-double-) | Please see the getter of this property: @CREF1283\_ |
+| [setBlur(double value)](#setBlur-double-) | Please see the getter of this property: @CREF1282\_ |
+| [setColor(CellsColor value)](#setColor-com.aspose.cells.CellsColor-) | Please see the getter of this property: @CREF1279\_ |
+| [setDistance(double value)](#setDistance-double-) | Please see the getter of this property: @CREF1284\_ |
+| [setPresetType(int value)](#setPresetType-int-) | Please see the getter of this property: @CREF1278\_ |
+| [setSize(double value)](#setSize-double-) | Please see the getter of this property: @CREF1281\_ |
+| [setTransparency(double value)](#setTransparency-double-) | Please see the getter of this property: @CREF1280\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -168,7 +168,7 @@ public void setAngle(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1283\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,7 +181,7 @@ public void setBlur(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1282\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -194,7 +194,7 @@ public void setColor(CellsColor value)
 ```
 
 
-
+Please see the getter of this property: @CREF1279\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -207,7 +207,7 @@ public void setDistance(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1284\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -220,7 +220,7 @@ public void setPresetType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1278\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -233,7 +233,7 @@ public void setSize(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1281\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ public void setTransparency(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1280\_
 
 **Parameters:**
 | Parameter | Type | Description |

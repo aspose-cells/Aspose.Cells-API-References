@@ -131,14 +131,14 @@ Represents a root object to create an Excel spreadsheet. The Workbook class deno
 | [save(String fileName)](#save-java.lang.String-) | Save the workbook to the disk. |
 | [save(String fileName, SaveOptions saveOptions)](#save-java.lang.String-com.aspose.cells.SaveOptions-) | Saves the workbook to the disk. |
 | [save(String fileName, int saveFormat)](#save-java.lang.String-int-) | Saves the workbook to the disk. |
-| [setAbsolutePath(String value)](#setAbsolutePath-java.lang.String-) |  |
-| [setDefaultStyle(Style value)](#setDefaultStyle-com.aspose.cells.Style-) |  |
+| [setAbsolutePath(String value)](#setAbsolutePath-java.lang.String-) | Please see the getter of this property: [getAbsolutePath()](../../com.aspose.cells/workbook\#getAbsolutePath--) |
+| [setDefaultStyle(Style value)](#setDefaultStyle-com.aspose.cells.Style-) | Please see the getter of this property: [getDefaultStyle()](../../com.aspose.cells/workbook\#getDefaultStyle--) |
 | [setDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)](#setDigitalSignature-com.aspose.cells.DigitalSignatureCollection-) | Sets digital signature to an spreadsheet file (Excel2007 and later). |
 | [setEncryptionOptions(int encryptionType, int keyLength)](#setEncryptionOptions-int-int-) | Set Encryption Options. |
-| [setFileFormat(int value)](#setFileFormat-int-) |  |
-| [setFileName(String value)](#setFileName-java.lang.String-) |  |
-| [setInterruptMonitor(AbstractInterruptMonitor value)](#setInterruptMonitor-com.aspose.cells.AbstractInterruptMonitor-) |  |
-| [setRibbonXml(String value)](#setRibbonXml-java.lang.String-) |  |
+| [setFileFormat(int value)](#setFileFormat-int-) | Please see the getter of this property: [getFileFormat()](../../com.aspose.cells/workbook\#getFileFormat--) |
+| [setFileName(String value)](#setFileName-java.lang.String-) | Please see the getter of this property: [getFileName()](../../com.aspose.cells/workbook\#getFileName--) |
+| [setInterruptMonitor(AbstractInterruptMonitor value)](#setInterruptMonitor-com.aspose.cells.AbstractInterruptMonitor-) | Please see the getter of this property: [getInterruptMonitor()](../../com.aspose.cells/workbook\#getInterruptMonitor--) |
+| [setRibbonXml(String value)](#setRibbonXml-java.lang.String-) | Please see the getter of this property: [getRibbonXml()](../../com.aspose.cells/workbook\#getRibbonXml--) |
 | [setThemeColor(int type, Color color)](#setThemeColor-int-com.aspose.cells.Color-) | Sets the theme color |
 | [startAccessCache(int opts)](#startAccessCache-int-) | Starts the session that uses caches to access data. |
 | [toString()](#toString--) |  |
@@ -1479,7 +1479,7 @@ public void setAbsolutePath(String value)
 ```
 
 
-
+Please see the getter of this property: [getAbsolutePath()](../../com.aspose.cells/workbook\#getAbsolutePath--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1492,7 +1492,7 @@ public void setDefaultStyle(Style value)
 ```
 
 
-
+Please see the getter of this property: [getDefaultStyle()](../../com.aspose.cells/workbook\#getDefaultStyle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1532,7 +1532,7 @@ public void setFileFormat(int value)
 ```
 
 
-
+Please see the getter of this property: [getFileFormat()](../../com.aspose.cells/workbook\#getFileFormat--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1545,7 +1545,7 @@ public void setFileName(String value)
 ```
 
 
-
+Please see the getter of this property: [getFileName()](../../com.aspose.cells/workbook\#getFileName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1558,7 +1558,7 @@ public void setInterruptMonitor(AbstractInterruptMonitor value)
 ```
 
 
-
+Please see the getter of this property: [getInterruptMonitor()](../../com.aspose.cells/workbook\#getInterruptMonitor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1571,7 +1571,7 @@ public void setRibbonXml(String value)
 ```
 
 
-
+Please see the getter of this property: [getRibbonXml()](../../com.aspose.cells/workbook\#getRibbonXml--)
 
 **Parameters:**
 | Parameter | Type | Description |

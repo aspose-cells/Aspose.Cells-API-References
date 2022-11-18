@@ -25,8 +25,8 @@ Represents an outline on a worksheet.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setSummaryColumnRight(boolean value)](#setSummaryColumnRight-boolean-) |  |
-| [setSummaryRowBelow(boolean value)](#setSummaryRowBelow-boolean-) |  |
+| [setSummaryColumnRight(boolean value)](#setSummaryColumnRight-boolean-) | Please see the getter of this property: @CREF1802\_ |
+| [setSummaryRowBelow(boolean value)](#setSummaryRowBelow-boolean-) | Please see the getter of this property: @CREF1801\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -108,7 +108,7 @@ public void setSummaryColumnRight(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1802\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -121,7 +121,7 @@ public void setSummaryRowBelow(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1801\_
 
 **Parameters:**
 | Parameter | Type | Description |

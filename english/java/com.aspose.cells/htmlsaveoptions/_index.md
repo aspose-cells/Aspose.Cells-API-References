@@ -95,68 +95,68 @@ Represents the options for saving html file.
 | [isFullPathLink()](#isFullPathLink--) | Indicating whether using full path link in sheet00x.htm,filelist.xml and tabstrip.htm. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAddTooltipText(boolean value)](#setAddTooltipText-boolean-) |  |
-| [setAttachedFilesDirectory(String value)](#setAttachedFilesDirectory-java.lang.String-) |  |
-| [setAttachedFilesUrlPrefix(String value)](#setAttachedFilesUrlPrefix-java.lang.String-) |  |
-| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) |  |
-| [setCellCssPrefix(String value)](#setCellCssPrefix-java.lang.String-) |  |
-| [setClearData(boolean value)](#setClearData-boolean-) |  |
-| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) |  |
-| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) |  |
-| [setDisableDownlevelRevealedComments(boolean value)](#setDisableDownlevelRevealedComments-boolean-) |  |
-| [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) |  |
-| [setExcludeUnusedStyles(boolean value)](#setExcludeUnusedStyles-boolean-) |  |
-| [setExpImageToTempDir(boolean value)](#setExpImageToTempDir-boolean-) |  |
-| [setExportActiveWorksheetOnly(boolean value)](#setExportActiveWorksheetOnly-boolean-) |  |
-| [setExportArea(CellArea value)](#setExportArea-com.aspose.cells.CellArea-) |  |
-| [setExportBogusRowData(boolean value)](#setExportBogusRowData-boolean-) |  |
-| [setExportCellCoordinate(boolean value)](#setExportCellCoordinate-boolean-) |  |
-| [setExportComments(boolean value)](#setExportComments-boolean-) |  |
-| [setExportCommentsType(int value)](#setExportCommentsType-int-) |  |
-| [setExportDataOptions(int value)](#setExportDataOptions-int-) |  |
-| [setExportDocumentProperties(boolean value)](#setExportDocumentProperties-boolean-) |  |
-| [setExportExtraHeadings(boolean value)](#setExportExtraHeadings-boolean-) |  |
-| [setExportFormula(boolean value)](#setExportFormula-boolean-) |  |
-| [setExportFrameScriptsAndProperties(boolean value)](#setExportFrameScriptsAndProperties-boolean-) |  |
-| [setExportGridLines(boolean value)](#setExportGridLines-boolean-) |  |
-| [setExportHeadings(boolean value)](#setExportHeadings-boolean-) |  |
-| [setExportHiddenWorksheet(boolean value)](#setExportHiddenWorksheet-boolean-) |  |
-| [setExportImagesAsBase64(boolean value)](#setExportImagesAsBase64-boolean-) |  |
-| [setExportObjectListener(IExportObjectListener value)](#setExportObjectListener-com.aspose.cells.IExportObjectListener-) |  |
-| [setExportPageFooters(boolean value)](#setExportPageFooters-boolean-) |  |
-| [setExportPageHeaders(boolean value)](#setExportPageHeaders-boolean-) |  |
-| [setExportPrintAreaOnly(boolean value)](#setExportPrintAreaOnly-boolean-) |  |
-| [setExportRowColumnHeadings(boolean value)](#setExportRowColumnHeadings-boolean-) |  |
-| [setExportSimilarBorderStyle(boolean value)](#setExportSimilarBorderStyle-boolean-) |  |
-| [setExportSingleTab(boolean value)](#setExportSingleTab-boolean-) |  |
-| [setExportWorkbookProperties(boolean value)](#setExportWorkbookProperties-boolean-) |  |
-| [setExportWorksheetCSSSeparately(boolean value)](#setExportWorksheetCSSSeparately-boolean-) |  |
-| [setExportWorksheetProperties(boolean value)](#setExportWorksheetProperties-boolean-) |  |
-| [setFilePathProvider(IFilePathProvider value)](#setFilePathProvider-com.aspose.cells.IFilePathProvider-) |  |
-| [setFullPathLink(boolean value)](#setFullPathLink-boolean-) |  |
-| [setHiddenColDisplayType(int value)](#setHiddenColDisplayType-int-) |  |
-| [setHiddenRowDisplayType(int value)](#setHiddenRowDisplayType-int-) |  |
-| [setHtmlCrossStringType(int value)](#setHtmlCrossStringType-int-) |  |
-| [setIgnoreInvisibleShapes(boolean value)](#setIgnoreInvisibleShapes-boolean-) |  |
-| [setImageScalable(boolean value)](#setImageScalable-boolean-) |  |
-| [setLinkTargetType(int value)](#setLinkTargetType-int-) |  |
-| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) |  |
-| [setMergeEmptyTdForcely(boolean value)](#setMergeEmptyTdForcely-boolean-) |  |
-| [setPageTitle(String value)](#setPageTitle-java.lang.String-) |  |
-| [setParseHtmlTagInCell(boolean value)](#setParseHtmlTagInCell-boolean-) |  |
-| [setPresentationPreference(boolean value)](#setPresentationPreference-boolean-) |  |
-| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) |  |
-| [setSaveAsSingleFile(boolean value)](#setSaveAsSingleFile-boolean-) |  |
-| [setShowAllSheets(boolean value)](#setShowAllSheets-boolean-) |  |
-| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) |  |
-| [setSortNames(boolean value)](#setSortNames-boolean-) |  |
-| [setStreamProvider(IStreamProvider value)](#setStreamProvider-com.aspose.cells.IStreamProvider-) |  |
-| [setTableCssId(String value)](#setTableCssId-java.lang.String-) |  |
-| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) |  |
-| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) |  |
+| [setAddTooltipText(boolean value)](#setAddTooltipText-boolean-) | Please see the getter of this property: [getAddTooltipText()](../../com.aspose.cells/htmlsaveoptions\#getAddTooltipText--) |
+| [setAttachedFilesDirectory(String value)](#setAttachedFilesDirectory-java.lang.String-) | Please see the getter of this property: [getAttachedFilesDirectory()](../../com.aspose.cells/htmlsaveoptions\#getAttachedFilesDirectory--) |
+| [setAttachedFilesUrlPrefix(String value)](#setAttachedFilesUrlPrefix-java.lang.String-) | Please see the getter of this property: [getAttachedFilesUrlPrefix()](../../com.aspose.cells/htmlsaveoptions\#getAttachedFilesUrlPrefix--) |
+| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | Please see the getter of this property: @CREF1852\_ |
+| [setCellCssPrefix(String value)](#setCellCssPrefix-java.lang.String-) | Please see the getter of this property: [getCellCssPrefix()](../../com.aspose.cells/htmlsaveoptions\#getCellCssPrefix--) |
+| [setClearData(boolean value)](#setClearData-boolean-) | Please see the getter of this property: @CREF1851\_ |
+| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | Please see the getter of this property: @CREF1855\_ |
+| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Please see the getter of this property: [getDefaultFontName()](../../com.aspose.cells/htmlsaveoptions\#getDefaultFontName--) |
+| [setDisableDownlevelRevealedComments(boolean value)](#setDisableDownlevelRevealedComments-boolean-) | Please see the getter of this property: [getDisableDownlevelRevealedComments()](../../com.aspose.cells/htmlsaveoptions\#getDisableDownlevelRevealedComments--) |
+| [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | Please see the getter of this property: [getEncoding()](../../com.aspose.cells/htmlsaveoptions\#getEncoding--) |
+| [setExcludeUnusedStyles(boolean value)](#setExcludeUnusedStyles-boolean-) | Please see the getter of this property: [getExcludeUnusedStyles()](../../com.aspose.cells/htmlsaveoptions\#getExcludeUnusedStyles--) |
+| [setExpImageToTempDir(boolean value)](#setExpImageToTempDir-boolean-) | Please see the getter of this property: [isExpImageToTempDir()](../../com.aspose.cells/htmlsaveoptions\#isExpImageToTempDir--) |
+| [setExportActiveWorksheetOnly(boolean value)](#setExportActiveWorksheetOnly-boolean-) | Please see the getter of this property: [getExportActiveWorksheetOnly()](../../com.aspose.cells/htmlsaveoptions\#getExportActiveWorksheetOnly--) |
+| [setExportArea(CellArea value)](#setExportArea-com.aspose.cells.CellArea-) | Please see the getter of this property: [getExportArea()](../../com.aspose.cells/htmlsaveoptions\#getExportArea--) |
+| [setExportBogusRowData(boolean value)](#setExportBogusRowData-boolean-) | Please see the getter of this property: [getExportBogusRowData()](../../com.aspose.cells/htmlsaveoptions\#getExportBogusRowData--) |
+| [setExportCellCoordinate(boolean value)](#setExportCellCoordinate-boolean-) | Please see the getter of this property: [getExportCellCoordinate()](../../com.aspose.cells/htmlsaveoptions\#getExportCellCoordinate--) |
+| [setExportComments(boolean value)](#setExportComments-boolean-) | Please see the getter of this property: [isExportComments()](../../com.aspose.cells/htmlsaveoptions\#isExportComments--) |
+| [setExportCommentsType(int value)](#setExportCommentsType-int-) | Please see the getter of this property: [getExportCommentsType()](../../com.aspose.cells/htmlsaveoptions\#getExportCommentsType--) |
+| [setExportDataOptions(int value)](#setExportDataOptions-int-) | Please see the getter of this property: [getExportDataOptions()](../../com.aspose.cells/htmlsaveoptions\#getExportDataOptions--) |
+| [setExportDocumentProperties(boolean value)](#setExportDocumentProperties-boolean-) | Please see the getter of this property: [getExportDocumentProperties()](../../com.aspose.cells/htmlsaveoptions\#getExportDocumentProperties--) |
+| [setExportExtraHeadings(boolean value)](#setExportExtraHeadings-boolean-) | Please see the getter of this property: [getExportExtraHeadings()](../../com.aspose.cells/htmlsaveoptions\#getExportExtraHeadings--) |
+| [setExportFormula(boolean value)](#setExportFormula-boolean-) | Please see the getter of this property: [getExportFormula()](../../com.aspose.cells/htmlsaveoptions\#getExportFormula--) |
+| [setExportFrameScriptsAndProperties(boolean value)](#setExportFrameScriptsAndProperties-boolean-) | Please see the getter of this property: [getExportFrameScriptsAndProperties()](../../com.aspose.cells/htmlsaveoptions\#getExportFrameScriptsAndProperties--) |
+| [setExportGridLines(boolean value)](#setExportGridLines-boolean-) | Please see the getter of this property: [getExportGridLines()](../../com.aspose.cells/htmlsaveoptions\#getExportGridLines--) |
+| [setExportHeadings(boolean value)](#setExportHeadings-boolean-) | Please see the getter of this property: [getExportHeadings()](../../com.aspose.cells/htmlsaveoptions\#getExportHeadings--) |
+| [setExportHiddenWorksheet(boolean value)](#setExportHiddenWorksheet-boolean-) | Please see the getter of this property: [getExportHiddenWorksheet()](../../com.aspose.cells/htmlsaveoptions\#getExportHiddenWorksheet--) |
+| [setExportImagesAsBase64(boolean value)](#setExportImagesAsBase64-boolean-) | Please see the getter of this property: [getExportImagesAsBase64()](../../com.aspose.cells/htmlsaveoptions\#getExportImagesAsBase64--) |
+| [setExportObjectListener(IExportObjectListener value)](#setExportObjectListener-com.aspose.cells.IExportObjectListener-) | Please see the getter of this property: [getExportObjectListener()](../../com.aspose.cells/htmlsaveoptions\#getExportObjectListener--) |
+| [setExportPageFooters(boolean value)](#setExportPageFooters-boolean-) | Please see the getter of this property: [getExportPageFooters()](../../com.aspose.cells/htmlsaveoptions\#getExportPageFooters--) |
+| [setExportPageHeaders(boolean value)](#setExportPageHeaders-boolean-) | Please see the getter of this property: [getExportPageHeaders()](../../com.aspose.cells/htmlsaveoptions\#getExportPageHeaders--) |
+| [setExportPrintAreaOnly(boolean value)](#setExportPrintAreaOnly-boolean-) | Please see the getter of this property: [getExportPrintAreaOnly()](../../com.aspose.cells/htmlsaveoptions\#getExportPrintAreaOnly--) |
+| [setExportRowColumnHeadings(boolean value)](#setExportRowColumnHeadings-boolean-) | Please see the getter of this property: [getExportRowColumnHeadings()](../../com.aspose.cells/htmlsaveoptions\#getExportRowColumnHeadings--) |
+| [setExportSimilarBorderStyle(boolean value)](#setExportSimilarBorderStyle-boolean-) | Please see the getter of this property: [getExportSimilarBorderStyle()](../../com.aspose.cells/htmlsaveoptions\#getExportSimilarBorderStyle--) |
+| [setExportSingleTab(boolean value)](#setExportSingleTab-boolean-) | Please see the getter of this property: [getExportSingleTab()](../../com.aspose.cells/htmlsaveoptions\#getExportSingleTab--) |
+| [setExportWorkbookProperties(boolean value)](#setExportWorkbookProperties-boolean-) | Please see the getter of this property: [getExportWorkbookProperties()](../../com.aspose.cells/htmlsaveoptions\#getExportWorkbookProperties--) |
+| [setExportWorksheetCSSSeparately(boolean value)](#setExportWorksheetCSSSeparately-boolean-) | Please see the getter of this property: [getExportWorksheetCSSSeparately()](../../com.aspose.cells/htmlsaveoptions\#getExportWorksheetCSSSeparately--) |
+| [setExportWorksheetProperties(boolean value)](#setExportWorksheetProperties-boolean-) | Please see the getter of this property: [getExportWorksheetProperties()](../../com.aspose.cells/htmlsaveoptions\#getExportWorksheetProperties--) |
+| [setFilePathProvider(IFilePathProvider value)](#setFilePathProvider-com.aspose.cells.IFilePathProvider-) | Please see the getter of this property: [getFilePathProvider()](../../com.aspose.cells/htmlsaveoptions\#getFilePathProvider--) |
+| [setFullPathLink(boolean value)](#setFullPathLink-boolean-) | Please see the getter of this property: [isFullPathLink()](../../com.aspose.cells/htmlsaveoptions\#isFullPathLink--) |
+| [setHiddenColDisplayType(int value)](#setHiddenColDisplayType-int-) | Please see the getter of this property: [getHiddenColDisplayType()](../../com.aspose.cells/htmlsaveoptions\#getHiddenColDisplayType--) |
+| [setHiddenRowDisplayType(int value)](#setHiddenRowDisplayType-int-) | Please see the getter of this property: [getHiddenRowDisplayType()](../../com.aspose.cells/htmlsaveoptions\#getHiddenRowDisplayType--) |
+| [setHtmlCrossStringType(int value)](#setHtmlCrossStringType-int-) | Please see the getter of this property: [getHtmlCrossStringType()](../../com.aspose.cells/htmlsaveoptions\#getHtmlCrossStringType--) |
+| [setIgnoreInvisibleShapes(boolean value)](#setIgnoreInvisibleShapes-boolean-) | Please see the getter of this property: [getIgnoreInvisibleShapes()](../../com.aspose.cells/htmlsaveoptions\#getIgnoreInvisibleShapes--) |
+| [setImageScalable(boolean value)](#setImageScalable-boolean-) | Please see the getter of this property: [getImageScalable()](../../com.aspose.cells/htmlsaveoptions\#getImageScalable--) |
+| [setLinkTargetType(int value)](#setLinkTargetType-int-) | Please see the getter of this property: [getLinkTargetType()](../../com.aspose.cells/htmlsaveoptions\#getLinkTargetType--) |
+| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Please see the getter of this property: @CREF1854\_ |
+| [setMergeEmptyTdForcely(boolean value)](#setMergeEmptyTdForcely-boolean-) | Please see the getter of this property: [getMergeEmptyTdForcely()](../../com.aspose.cells/htmlsaveoptions\#getMergeEmptyTdForcely--) |
+| [setPageTitle(String value)](#setPageTitle-java.lang.String-) | Please see the getter of this property: [getPageTitle()](../../com.aspose.cells/htmlsaveoptions\#getPageTitle--) |
+| [setParseHtmlTagInCell(boolean value)](#setParseHtmlTagInCell-boolean-) | Please see the getter of this property: [getParseHtmlTagInCell()](../../com.aspose.cells/htmlsaveoptions\#getParseHtmlTagInCell--) |
+| [setPresentationPreference(boolean value)](#setPresentationPreference-boolean-) | Please see the getter of this property: [getPresentationPreference()](../../com.aspose.cells/htmlsaveoptions\#getPresentationPreference--) |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Please see the getter of this property: @CREF1858\_ |
+| [setSaveAsSingleFile(boolean value)](#setSaveAsSingleFile-boolean-) | Please see the getter of this property: [getSaveAsSingleFile()](../../com.aspose.cells/htmlsaveoptions\#getSaveAsSingleFile--) |
+| [setShowAllSheets(boolean value)](#setShowAllSheets-boolean-) | Please see the getter of this property: [getShowAllSheets()](../../com.aspose.cells/htmlsaveoptions\#getShowAllSheets--) |
+| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Please see the getter of this property: @CREF1857\_ |
+| [setSortNames(boolean value)](#setSortNames-boolean-) | Please see the getter of this property: @CREF1856\_ |
+| [setStreamProvider(IStreamProvider value)](#setStreamProvider-com.aspose.cells.IStreamProvider-) | Please see the getter of this property: [getStreamProvider()](../../com.aspose.cells/htmlsaveoptions\#getStreamProvider--) |
+| [setTableCssId(String value)](#setTableCssId-java.lang.String-) | Please see the getter of this property: [getTableCssId()](../../com.aspose.cells/htmlsaveoptions\#getTableCssId--) |
+| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | Please see the getter of this property: @CREF1860\_ |
+| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | Please see the getter of this property: @CREF1853\_ |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
-| [setWidthScalable(boolean value)](#setWidthScalable-boolean-) |  |
-| [setWorksheetScalable(boolean value)](#setWorksheetScalable-boolean-) |  |
+| [setWidthScalable(boolean value)](#setWidthScalable-boolean-) | Please see the getter of this property: [getWidthScalable()](../../com.aspose.cells/htmlsaveoptions\#getWidthScalable--) |
+| [setWorksheetScalable(boolean value)](#setWorksheetScalable-boolean-) | Please see the getter of this property: [getWorksheetScalable()](../../com.aspose.cells/htmlsaveoptions\#getWorksheetScalable--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -881,7 +881,7 @@ public void setAddTooltipText(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getAddTooltipText()](../../com.aspose.cells/htmlsaveoptions\#getAddTooltipText--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -894,7 +894,7 @@ public void setAttachedFilesDirectory(String value)
 ```
 
 
-
+Please see the getter of this property: [getAttachedFilesDirectory()](../../com.aspose.cells/htmlsaveoptions\#getAttachedFilesDirectory--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -907,7 +907,7 @@ public void setAttachedFilesUrlPrefix(String value)
 ```
 
 
-
+Please see the getter of this property: [getAttachedFilesUrlPrefix()](../../com.aspose.cells/htmlsaveoptions\#getAttachedFilesUrlPrefix--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -920,7 +920,7 @@ public void setCachedFileFolder(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF1852\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -933,7 +933,7 @@ public void setCellCssPrefix(String value)
 ```
 
 
-
+Please see the getter of this property: [getCellCssPrefix()](../../com.aspose.cells/htmlsaveoptions\#getCellCssPrefix--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -946,7 +946,7 @@ public void setClearData(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1851\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -959,7 +959,7 @@ public void setCreateDirectory(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1855\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -972,7 +972,7 @@ public void setDefaultFontName(String value)
 ```
 
 
-
+Please see the getter of this property: [getDefaultFontName()](../../com.aspose.cells/htmlsaveoptions\#getDefaultFontName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -985,7 +985,7 @@ public void setDisableDownlevelRevealedComments(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getDisableDownlevelRevealedComments()](../../com.aspose.cells/htmlsaveoptions\#getDisableDownlevelRevealedComments--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -998,7 +998,7 @@ public void setEncoding(Encoding value)
 ```
 
 
-
+Please see the getter of this property: [getEncoding()](../../com.aspose.cells/htmlsaveoptions\#getEncoding--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1011,7 +1011,7 @@ public void setExcludeUnusedStyles(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getExcludeUnusedStyles()](../../com.aspose.cells/htmlsaveoptions\#getExcludeUnusedStyles--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1024,7 +1024,7 @@ public void setExpImageToTempDir(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isExpImageToTempDir()](../../com.aspose.cells/htmlsaveoptions\#isExpImageToTempDir--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1037,7 +1037,7 @@ public void setExportActiveWorksheetOnly(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getExportActiveWorksheetOnly()](../../com.aspose.cells/htmlsaveoptions\#getExportActiveWorksheetOnly--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1050,7 +1050,7 @@ public void setExportArea(CellArea value)
 ```
 
 
-
+Please see the getter of this property: [getExportArea()](../../com.aspose.cells/htmlsaveoptions\#getExportArea--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1063,7 +1063,7 @@ public void setExportBogusRowData(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getExportBogusRowData()](../../com.aspose.cells/htmlsaveoptions\#getExportBogusRowData--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1076,7 +1076,7 @@ public void setExportCellCoordinate(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getExportCellCoordinate()](../../com.aspose.cells/htmlsaveoptions\#getExportCellCoordinate--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1089,7 +1089,7 @@ public void setExportComments(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isExportComments()](../../com.aspose.cells/htmlsaveoptions\#isExportComments--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1102,7 +1102,7 @@ public void setExportCommentsType(int value)
 ```
 
 
-
+Please see the getter of this property: [getExportCommentsType()](../../com.aspose.cells/htmlsaveoptions\#getExportCommentsType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1115,7 +1115,7 @@ public void setExportDataOptions(int value)
 ```
 
 
-
+Please see the getter of this property: [getExportDataOptions()](../../com.aspose.cells/htmlsaveoptions\#getExportDataOptions--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1128,7 +1128,7 @@ public void setExportDocumentProperties(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getExportDocumentProperties()](../../com.aspose.cells/htmlsaveoptions\#getExportDocumentProperties--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1141,7 +1141,7 @@ public void setExportExtraHeadings(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getExportExtraHeadings()](../../com.aspose.cells/htmlsaveoptions\#getExportExtraHeadings--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1154,7 +1154,7 @@ public void setExportFormula(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getExportFormula()](../../com.aspose.cells/htmlsaveoptions\#getExportFormula--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1167,7 +1167,7 @@ public void setExportFrameScriptsAndProperties(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getExportFrameScriptsAndProperties()](../../com.aspose.cells/htmlsaveoptions\#getExportFrameScriptsAndProperties--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1180,7 +1180,7 @@ public void setExportGridLines(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getExportGridLines()](../../com.aspose.cells/htmlsaveoptions\#getExportGridLines--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1193,7 +1193,7 @@ public void setExportHeadings(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getExportHeadings()](../../com.aspose.cells/htmlsaveoptions\#getExportHeadings--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1206,7 +1206,7 @@ public void setExportHiddenWorksheet(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getExportHiddenWorksheet()](../../com.aspose.cells/htmlsaveoptions\#getExportHiddenWorksheet--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1219,7 +1219,7 @@ public void setExportImagesAsBase64(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getExportImagesAsBase64()](../../com.aspose.cells/htmlsaveoptions\#getExportImagesAsBase64--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1232,7 +1232,7 @@ public void setExportObjectListener(IExportObjectListener value)
 ```
 
 
-
+Please see the getter of this property: [getExportObjectListener()](../../com.aspose.cells/htmlsaveoptions\#getExportObjectListener--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1245,7 +1245,7 @@ public void setExportPageFooters(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getExportPageFooters()](../../com.aspose.cells/htmlsaveoptions\#getExportPageFooters--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1258,7 +1258,7 @@ public void setExportPageHeaders(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getExportPageHeaders()](../../com.aspose.cells/htmlsaveoptions\#getExportPageHeaders--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1271,7 +1271,7 @@ public void setExportPrintAreaOnly(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getExportPrintAreaOnly()](../../com.aspose.cells/htmlsaveoptions\#getExportPrintAreaOnly--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1284,7 +1284,7 @@ public void setExportRowColumnHeadings(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getExportRowColumnHeadings()](../../com.aspose.cells/htmlsaveoptions\#getExportRowColumnHeadings--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1297,7 +1297,7 @@ public void setExportSimilarBorderStyle(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getExportSimilarBorderStyle()](../../com.aspose.cells/htmlsaveoptions\#getExportSimilarBorderStyle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1310,7 +1310,7 @@ public void setExportSingleTab(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getExportSingleTab()](../../com.aspose.cells/htmlsaveoptions\#getExportSingleTab--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1323,7 +1323,7 @@ public void setExportWorkbookProperties(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getExportWorkbookProperties()](../../com.aspose.cells/htmlsaveoptions\#getExportWorkbookProperties--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1336,7 +1336,7 @@ public void setExportWorksheetCSSSeparately(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getExportWorksheetCSSSeparately()](../../com.aspose.cells/htmlsaveoptions\#getExportWorksheetCSSSeparately--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1349,7 +1349,7 @@ public void setExportWorksheetProperties(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getExportWorksheetProperties()](../../com.aspose.cells/htmlsaveoptions\#getExportWorksheetProperties--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1362,7 +1362,7 @@ public void setFilePathProvider(IFilePathProvider value)
 ```
 
 
-
+Please see the getter of this property: [getFilePathProvider()](../../com.aspose.cells/htmlsaveoptions\#getFilePathProvider--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1375,7 +1375,7 @@ public void setFullPathLink(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isFullPathLink()](../../com.aspose.cells/htmlsaveoptions\#isFullPathLink--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1388,7 +1388,7 @@ public void setHiddenColDisplayType(int value)
 ```
 
 
-
+Please see the getter of this property: [getHiddenColDisplayType()](../../com.aspose.cells/htmlsaveoptions\#getHiddenColDisplayType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1401,7 +1401,7 @@ public void setHiddenRowDisplayType(int value)
 ```
 
 
-
+Please see the getter of this property: [getHiddenRowDisplayType()](../../com.aspose.cells/htmlsaveoptions\#getHiddenRowDisplayType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1414,7 +1414,7 @@ public void setHtmlCrossStringType(int value)
 ```
 
 
-
+Please see the getter of this property: [getHtmlCrossStringType()](../../com.aspose.cells/htmlsaveoptions\#getHtmlCrossStringType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1427,7 +1427,7 @@ public void setIgnoreInvisibleShapes(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getIgnoreInvisibleShapes()](../../com.aspose.cells/htmlsaveoptions\#getIgnoreInvisibleShapes--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1440,7 +1440,7 @@ public void setImageScalable(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getImageScalable()](../../com.aspose.cells/htmlsaveoptions\#getImageScalable--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1453,7 +1453,7 @@ public void setLinkTargetType(int value)
 ```
 
 
-
+Please see the getter of this property: [getLinkTargetType()](../../com.aspose.cells/htmlsaveoptions\#getLinkTargetType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1466,7 +1466,7 @@ public void setMergeAreas(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1854\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1479,7 +1479,7 @@ public void setMergeEmptyTdForcely(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getMergeEmptyTdForcely()](../../com.aspose.cells/htmlsaveoptions\#getMergeEmptyTdForcely--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1492,7 +1492,7 @@ public void setPageTitle(String value)
 ```
 
 
-
+Please see the getter of this property: [getPageTitle()](../../com.aspose.cells/htmlsaveoptions\#getPageTitle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1505,7 +1505,7 @@ public void setParseHtmlTagInCell(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getParseHtmlTagInCell()](../../com.aspose.cells/htmlsaveoptions\#getParseHtmlTagInCell--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1518,7 +1518,7 @@ public void setPresentationPreference(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getPresentationPreference()](../../com.aspose.cells/htmlsaveoptions\#getPresentationPreference--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1531,7 +1531,7 @@ public void setRefreshChartCache(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1858\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1544,7 +1544,7 @@ public void setSaveAsSingleFile(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getSaveAsSingleFile()](../../com.aspose.cells/htmlsaveoptions\#getSaveAsSingleFile--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1557,7 +1557,7 @@ public void setShowAllSheets(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getShowAllSheets()](../../com.aspose.cells/htmlsaveoptions\#getShowAllSheets--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1570,7 +1570,7 @@ public void setSortExternalNames(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1857\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1583,7 +1583,7 @@ public void setSortNames(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1856\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1596,7 +1596,7 @@ public void setStreamProvider(IStreamProvider value)
 ```
 
 
-
+Please see the getter of this property: [getStreamProvider()](../../com.aspose.cells/htmlsaveoptions\#getStreamProvider--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1609,7 +1609,7 @@ public void setTableCssId(String value)
 ```
 
 
-
+Please see the getter of this property: [getTableCssId()](../../com.aspose.cells/htmlsaveoptions\#getTableCssId--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1622,7 +1622,7 @@ public void setUpdateSmartArt(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1860\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1635,7 +1635,7 @@ public void setValidateMergedAreas(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1853\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1661,7 +1661,7 @@ public void setWidthScalable(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getWidthScalable()](../../com.aspose.cells/htmlsaveoptions\#getWidthScalable--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1674,7 +1674,7 @@ public void setWorksheetScalable(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getWorksheetScalable()](../../com.aspose.cells/htmlsaveoptions\#getWorksheetScalable--)
 
 **Parameters:**
 | Parameter | Type | Description |

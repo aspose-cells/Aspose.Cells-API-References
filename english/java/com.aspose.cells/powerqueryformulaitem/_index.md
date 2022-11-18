@@ -25,7 +25,7 @@ Represents the item of the power query formula.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setValue(String value)](#setValue-java.lang.String-) |  |
+| [setValue(String value)](#setValue-java.lang.String-) | Please see the getter of this property: @CREF268\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -107,7 +107,7 @@ public void setValue(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF268\_
 
 **Parameters:**
 | Parameter | Type | Description |

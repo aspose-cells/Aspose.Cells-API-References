@@ -28,9 +28,9 @@ This class specifies the 3D shape properties for a chart element or shape.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setLightingAngle(double value)](#setLightingAngle-double-) |  |
-| [setSurfaceLightingType(int value)](#setSurfaceLightingType-int-) |  |
-| [setSurfaceMaterialType(int value)](#setSurfaceMaterialType-int-) |  |
+| [setLightingAngle(double value)](#setLightingAngle-double-) | Please see the getter of this property: [getLightingAngle()](../../com.aspose.cells/format3d\#getLightingAngle--) |
+| [setSurfaceLightingType(int value)](#setSurfaceLightingType-int-) | Please see the getter of this property: [getSurfaceLightingType()](../../com.aspose.cells/format3d\#getSurfaceLightingType--) |
+| [setSurfaceMaterialType(int value)](#setSurfaceMaterialType-int-) | Please see the getter of this property: [getSurfaceMaterialType()](../../com.aspose.cells/format3d\#getSurfaceMaterialType--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -142,7 +142,7 @@ public void setLightingAngle(double value)
 ```
 
 
-
+Please see the getter of this property: [getLightingAngle()](../../com.aspose.cells/format3d\#getLightingAngle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -155,7 +155,7 @@ public void setSurfaceLightingType(int value)
 ```
 
 
-
+Please see the getter of this property: [getSurfaceLightingType()](../../com.aspose.cells/format3d\#getSurfaceLightingType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -168,7 +168,7 @@ public void setSurfaceMaterialType(int value)
 ```
 
 
-
+Please see the getter of this property: [getSurfaceMaterialType()](../../com.aspose.cells/format3d\#getSurfaceMaterialType--)
 
 **Parameters:**
 | Parameter | Type | Description |

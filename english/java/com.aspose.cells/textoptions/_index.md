@@ -56,30 +56,30 @@ Represents the text options.
 | [isSuperscript()](#isSuperscript--) | Gets or sets a value indicating whether the font is super script. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setArgbColor(int value)](#setArgbColor-int-) |  |
-| [setBold(boolean value)](#setBold-boolean-) |  |
-| [setCapsType(int value)](#setCapsType-int-) |  |
-| [setCharset(int value)](#setCharset-int-) |  |
-| [setColor(Color value)](#setColor-com.aspose.cells.Color-) |  |
-| [setDoubleSize(double value)](#setDoubleSize-double-) |  |
-| [setFarEastName(String value)](#setFarEastName-java.lang.String-) |  |
-| [setItalic(boolean value)](#setItalic-boolean-) |  |
-| [setKerning(double value)](#setKerning-double-) |  |
-| [setLanguageCode(int value)](#setLanguageCode-int-) |  |
-| [setLatinName(String value)](#setLatinName-java.lang.String-) |  |
-| [setName(String value)](#setName-java.lang.String-) |  |
-| [setNormalizeHeights(boolean value)](#setNormalizeHeights-boolean-) |  |
-| [setSchemeType(int value)](#setSchemeType-int-) |  |
-| [setScriptOffset(double value)](#setScriptOffset-double-) |  |
-| [setSize(int value)](#setSize-int-) |  |
-| [setSpacing(double value)](#setSpacing-double-) |  |
-| [setStrikeType(int value)](#setStrikeType-int-) |  |
-| [setStrikeout(boolean value)](#setStrikeout-boolean-) |  |
-| [setSubscript(boolean value)](#setSubscript-boolean-) |  |
-| [setSuperscript(boolean value)](#setSuperscript-boolean-) |  |
-| [setThemeColor(ThemeColor value)](#setThemeColor-com.aspose.cells.ThemeColor-) |  |
-| [setUnderline(int value)](#setUnderline-int-) |  |
-| [setUnderlineColor(CellsColor value)](#setUnderlineColor-com.aspose.cells.CellsColor-) |  |
+| [setArgbColor(int value)](#setArgbColor-int-) | Please see the getter of this property: [getArgbColor()](../../com.aspose.cells/font\#getArgbColor--) |
+| [setBold(boolean value)](#setBold-boolean-) | Please see the getter of this property: [isBold()](../../com.aspose.cells/font\#isBold--) |
+| [setCapsType(int value)](#setCapsType-int-) | Please see the getter of this property: [getCapsType()](../../com.aspose.cells/font\#getCapsType--) |
+| [setCharset(int value)](#setCharset-int-) | Please see the getter of this property: [getCharset()](../../com.aspose.cells/font\#getCharset--) |
+| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | Please see the getter of this property: [getColor()](../../com.aspose.cells/font\#getColor--) |
+| [setDoubleSize(double value)](#setDoubleSize-double-) | Please see the getter of this property: [getDoubleSize()](../../com.aspose.cells/font\#getDoubleSize--) |
+| [setFarEastName(String value)](#setFarEastName-java.lang.String-) | Please see the getter of this property: [getFarEastName()](../../com.aspose.cells/textoptions\#getFarEastName--) |
+| [setItalic(boolean value)](#setItalic-boolean-) | Please see the getter of this property: [isItalic()](../../com.aspose.cells/font\#isItalic--) |
+| [setKerning(double value)](#setKerning-double-) | Please see the getter of this property: [getKerning()](../../com.aspose.cells/textoptions\#getKerning--) |
+| [setLanguageCode(int value)](#setLanguageCode-int-) | Please see the getter of this property: [getLanguageCode()](../../com.aspose.cells/textoptions\#getLanguageCode--) |
+| [setLatinName(String value)](#setLatinName-java.lang.String-) | Please see the getter of this property: [getLatinName()](../../com.aspose.cells/textoptions\#getLatinName--) |
+| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: [getName()](../../com.aspose.cells/textoptions\#getName--) |
+| [setNormalizeHeights(boolean value)](#setNormalizeHeights-boolean-) | Please see the getter of this property: [isNormalizeHeights()](../../com.aspose.cells/font\#isNormalizeHeights--) |
+| [setSchemeType(int value)](#setSchemeType-int-) | Please see the getter of this property: [getSchemeType()](../../com.aspose.cells/font\#getSchemeType--) |
+| [setScriptOffset(double value)](#setScriptOffset-double-) | Please see the getter of this property: [getScriptOffset()](../../com.aspose.cells/font\#getScriptOffset--) |
+| [setSize(int value)](#setSize-int-) | Please see the getter of this property: [getSize()](../../com.aspose.cells/font\#getSize--) |
+| [setSpacing(double value)](#setSpacing-double-) | Please see the getter of this property: [getSpacing()](../../com.aspose.cells/textoptions\#getSpacing--) |
+| [setStrikeType(int value)](#setStrikeType-int-) | Please see the getter of this property: [getStrikeType()](../../com.aspose.cells/font\#getStrikeType--) |
+| [setStrikeout(boolean value)](#setStrikeout-boolean-) | Please see the getter of this property: [isStrikeout()](../../com.aspose.cells/font\#isStrikeout--) |
+| [setSubscript(boolean value)](#setSubscript-boolean-) | Please see the getter of this property: [isSubscript()](../../com.aspose.cells/font\#isSubscript--) |
+| [setSuperscript(boolean value)](#setSuperscript-boolean-) | Please see the getter of this property: [isSuperscript()](../../com.aspose.cells/font\#isSuperscript--) |
+| [setThemeColor(ThemeColor value)](#setThemeColor-com.aspose.cells.ThemeColor-) | Please see the getter of this property: [getThemeColor()](../../com.aspose.cells/font\#getThemeColor--) |
+| [setUnderline(int value)](#setUnderline-int-) | Please see the getter of this property: [getUnderline()](../../com.aspose.cells/font\#getUnderline--) |
+| [setUnderlineColor(CellsColor value)](#setUnderlineColor-com.aspose.cells.CellsColor-) | Please see the getter of this property: [getUnderlineColor()](../../com.aspose.cells/textoptions\#getUnderlineColor--) |
 | [toString()](#toString--) | Returns a string represents the current Cell object. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -432,7 +432,7 @@ public void setArgbColor(int value)
 ```
 
 
-
+Please see the getter of this property: [getArgbColor()](../../com.aspose.cells/font\#getArgbColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -445,7 +445,7 @@ public void setBold(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isBold()](../../com.aspose.cells/font\#isBold--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -458,7 +458,7 @@ public void setCapsType(int value)
 ```
 
 
-
+Please see the getter of this property: [getCapsType()](../../com.aspose.cells/font\#getCapsType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -471,7 +471,7 @@ public void setCharset(int value)
 ```
 
 
-
+Please see the getter of this property: [getCharset()](../../com.aspose.cells/font\#getCharset--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -484,7 +484,7 @@ public void setColor(Color value)
 ```
 
 
-
+Please see the getter of this property: [getColor()](../../com.aspose.cells/font\#getColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -497,7 +497,7 @@ public void setDoubleSize(double value)
 ```
 
 
-
+Please see the getter of this property: [getDoubleSize()](../../com.aspose.cells/font\#getDoubleSize--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -510,7 +510,7 @@ public void setFarEastName(String value)
 ```
 
 
-
+Please see the getter of this property: [getFarEastName()](../../com.aspose.cells/textoptions\#getFarEastName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -523,7 +523,7 @@ public void setItalic(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isItalic()](../../com.aspose.cells/font\#isItalic--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -536,7 +536,7 @@ public void setKerning(double value)
 ```
 
 
-
+Please see the getter of this property: [getKerning()](../../com.aspose.cells/textoptions\#getKerning--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -549,7 +549,7 @@ public void setLanguageCode(int value)
 ```
 
 
-
+Please see the getter of this property: [getLanguageCode()](../../com.aspose.cells/textoptions\#getLanguageCode--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -562,7 +562,7 @@ public void setLatinName(String value)
 ```
 
 
-
+Please see the getter of this property: [getLatinName()](../../com.aspose.cells/textoptions\#getLatinName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -575,7 +575,7 @@ public void setName(String value)
 ```
 
 
-
+Please see the getter of this property: [getName()](../../com.aspose.cells/textoptions\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -588,7 +588,7 @@ public void setNormalizeHeights(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isNormalizeHeights()](../../com.aspose.cells/font\#isNormalizeHeights--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -601,7 +601,7 @@ public void setSchemeType(int value)
 ```
 
 
-
+Please see the getter of this property: [getSchemeType()](../../com.aspose.cells/font\#getSchemeType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -614,7 +614,7 @@ public void setScriptOffset(double value)
 ```
 
 
-
+Please see the getter of this property: [getScriptOffset()](../../com.aspose.cells/font\#getScriptOffset--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -627,7 +627,7 @@ public void setSize(int value)
 ```
 
 
-
+Please see the getter of this property: [getSize()](../../com.aspose.cells/font\#getSize--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -640,7 +640,7 @@ public void setSpacing(double value)
 ```
 
 
-
+Please see the getter of this property: [getSpacing()](../../com.aspose.cells/textoptions\#getSpacing--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -653,7 +653,7 @@ public void setStrikeType(int value)
 ```
 
 
-
+Please see the getter of this property: [getStrikeType()](../../com.aspose.cells/font\#getStrikeType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -666,7 +666,7 @@ public void setStrikeout(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isStrikeout()](../../com.aspose.cells/font\#isStrikeout--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -679,7 +679,7 @@ public void setSubscript(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isSubscript()](../../com.aspose.cells/font\#isSubscript--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -692,7 +692,7 @@ public void setSuperscript(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isSuperscript()](../../com.aspose.cells/font\#isSuperscript--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -705,7 +705,7 @@ public void setThemeColor(ThemeColor value)
 ```
 
 
-
+Please see the getter of this property: [getThemeColor()](../../com.aspose.cells/font\#getThemeColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -718,7 +718,7 @@ public void setUnderline(int value)
 ```
 
 
-
+Please see the getter of this property: [getUnderline()](../../com.aspose.cells/font\#getUnderline--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -731,7 +731,7 @@ public void setUnderlineColor(CellsColor value)
 ```
 
 
-
+Please see the getter of this property: [getUnderlineColor()](../../com.aspose.cells/textoptions\#getUnderlineColor--)
 
 **Parameters:**
 | Parameter | Type | Description |

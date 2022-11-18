@@ -27,10 +27,10 @@ Indicates the options that exporting range to json.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setExportAsString(boolean value)](#setExportAsString-boolean-) |  |
-| [setExportEmptyCells(boolean value)](#setExportEmptyCells-boolean-) |  |
-| [setHasHeaderRow(boolean value)](#setHasHeaderRow-boolean-) |  |
-| [setIndent(String value)](#setIndent-java.lang.String-) |  |
+| [setExportAsString(boolean value)](#setExportAsString-boolean-) | Please see the getter of this property: @CREF294\_ |
+| [setExportEmptyCells(boolean value)](#setExportEmptyCells-boolean-) | Please see the getter of this property: @CREF295\_ |
+| [setHasHeaderRow(boolean value)](#setHasHeaderRow-boolean-) | Please see the getter of this property: @CREF293\_ |
+| [setIndent(String value)](#setIndent-java.lang.String-) | Please see the getter of this property: @CREF296\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -132,7 +132,7 @@ public void setExportAsString(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF294\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setExportEmptyCells(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF295\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public void setHasHeaderRow(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF293\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,7 +171,7 @@ public void setIndent(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF296\_
 
 **Parameters:**
 | Parameter | Type | Description |

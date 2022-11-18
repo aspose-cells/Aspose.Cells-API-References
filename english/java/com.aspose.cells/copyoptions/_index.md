@@ -35,13 +35,13 @@ Represents the copy options.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setColumnCharacterWidth(boolean value)](#setColumnCharacterWidth-boolean-) |  |
-| [setCopyInvalidFormulasAsValues(boolean value)](#setCopyInvalidFormulasAsValues-boolean-) |  |
-| [setCopyNames(boolean value)](#setCopyNames-boolean-) |  |
-| [setExtendToAdjacentRange(boolean value)](#setExtendToAdjacentRange-boolean-) |  |
-| [setKeepMacros(boolean value)](#setKeepMacros-boolean-) |  |
-| [setReferToDestinationSheet(boolean value)](#setReferToDestinationSheet-boolean-) |  |
-| [setReferToSheetWithSameName(boolean value)](#setReferToSheetWithSameName-boolean-) |  |
+| [setColumnCharacterWidth(boolean value)](#setColumnCharacterWidth-boolean-) | Please see the getter of this property: @CREF1521\_ |
+| [setCopyInvalidFormulasAsValues(boolean value)](#setCopyInvalidFormulasAsValues-boolean-) | Please see the getter of this property: @CREF1520\_ |
+| [setCopyNames(boolean value)](#setCopyNames-boolean-) | Please see the getter of this property: @CREF1519\_ |
+| [setExtendToAdjacentRange(boolean value)](#setExtendToAdjacentRange-boolean-) | Please see the getter of this property: @CREF1518\_ |
+| [setKeepMacros(boolean value)](#setKeepMacros-boolean-) | Please see the getter of this property: @CREF1517\_ |
+| [setReferToDestinationSheet(boolean value)](#setReferToDestinationSheet-boolean-) | Please see the getter of this property: @CREF1523\_ |
+| [setReferToSheetWithSameName(boolean value)](#setReferToSheetWithSameName-boolean-) | Please see the getter of this property: @CREF1522\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -181,7 +181,7 @@ public void setColumnCharacterWidth(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1521\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -194,7 +194,7 @@ public void setCopyInvalidFormulasAsValues(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1520\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -207,7 +207,7 @@ public void setCopyNames(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1519\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -220,7 +220,7 @@ public void setExtendToAdjacentRange(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1518\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -233,7 +233,7 @@ public void setKeepMacros(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1517\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ public void setReferToDestinationSheet(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1523\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -259,7 +259,7 @@ public void setReferToSheetWithSameName(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1522\_
 
 **Parameters:**
 | Parameter | Type | Description |

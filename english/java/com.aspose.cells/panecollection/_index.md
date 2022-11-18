@@ -26,9 +26,9 @@ Represents all Pane objects shown in the specified window.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAcitvePaneType(int value)](#setAcitvePaneType-int-) |  |
-| [setFirstVisibleColumnOfRightPane(int value)](#setFirstVisibleColumnOfRightPane-int-) |  |
-| [setFirstVisibleRowOfBottomPane(int value)](#setFirstVisibleRowOfBottomPane-int-) |  |
+| [setAcitvePaneType(int value)](#setAcitvePaneType-int-) | Please see the getter of this property: @CREF1805\_ |
+| [setFirstVisibleColumnOfRightPane(int value)](#setFirstVisibleColumnOfRightPane-int-) | Please see the getter of this property: @CREF1804\_ |
+| [setFirstVisibleRowOfBottomPane(int value)](#setFirstVisibleRowOfBottomPane-int-) | Please see the getter of this property: @CREF1803\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -120,7 +120,7 @@ public void setAcitvePaneType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1805\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -133,7 +133,7 @@ public void setFirstVisibleColumnOfRightPane(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1804\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +146,7 @@ public void setFirstVisibleRowOfBottomPane(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1803\_
 
 **Parameters:**
 | Parameter | Type | Description |

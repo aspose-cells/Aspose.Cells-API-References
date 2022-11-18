@@ -69,11 +69,11 @@ Encapsulates the object that represents an area format.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAuto(boolean isAuto)](#setAuto-boolean-) | Sets whether Microsoft Workbook automatically determines the area pattern. |
-| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.cells.Color-) |  |
-| [setForegroundColor(Color value)](#setForegroundColor-com.aspose.cells.Color-) |  |
-| [setFormatting(int value)](#setFormatting-int-) |  |
-| [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) |  |
-| [setTransparency(double value)](#setTransparency-double-) |  |
+| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.cells.Color-) | Please see the getter of this property: [getBackgroundColor()](../../com.aspose.cells/area\#getBackgroundColor--) |
+| [setForegroundColor(Color value)](#setForegroundColor-com.aspose.cells.Color-) | Please see the getter of this property: [getForegroundColor()](../../com.aspose.cells/area\#getForegroundColor--) |
+| [setFormatting(int value)](#setFormatting-int-) | Please see the getter of this property: [getFormatting()](../../com.aspose.cells/area\#getFormatting--) |
+| [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) | Please see the getter of this property: [getInvertIfNegative()](../../com.aspose.cells/area\#getInvertIfNegative--) |
+| [setTransparency(double value)](#setTransparency-double-) | Please see the getter of this property: [getTransparency()](../../com.aspose.cells/area\#getTransparency--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -257,7 +257,7 @@ public void setBackgroundColor(Color value)
 ```
 
 
-
+Please see the getter of this property: [getBackgroundColor()](../../com.aspose.cells/area\#getBackgroundColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -270,7 +270,7 @@ public void setForegroundColor(Color value)
 ```
 
 
-
+Please see the getter of this property: [getForegroundColor()](../../com.aspose.cells/area\#getForegroundColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -283,7 +283,7 @@ public void setFormatting(int value)
 ```
 
 
-
+Please see the getter of this property: [getFormatting()](../../com.aspose.cells/area\#getFormatting--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -296,7 +296,7 @@ public void setInvertIfNegative(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getInvertIfNegative()](../../com.aspose.cells/area\#getInvertIfNegative--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -309,7 +309,7 @@ public void setTransparency(double value)
 ```
 
 
-
+Please see the getter of this property: [getTransparency()](../../com.aspose.cells/area\#getTransparency--)
 
 **Parameters:**
 | Parameter | Type | Description |

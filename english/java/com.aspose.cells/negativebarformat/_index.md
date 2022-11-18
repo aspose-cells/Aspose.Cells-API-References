@@ -27,10 +27,10 @@ Represents the color settings of the data bars for negative values that are defi
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBorderColor(Color value)](#setBorderColor-com.aspose.cells.Color-) |  |
-| [setBorderColorType(int value)](#setBorderColorType-int-) |  |
-| [setColor(Color value)](#setColor-com.aspose.cells.Color-) |  |
-| [setColorType(int value)](#setColorType-int-) |  |
+| [setBorderColor(Color value)](#setBorderColor-com.aspose.cells.Color-) | Please see the getter of this property: @CREF845\_ |
+| [setBorderColorType(int value)](#setBorderColorType-int-) | Please see the getter of this property: @CREF846\_ |
+| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | Please see the getter of this property: @CREF847\_ |
+| [setColorType(int value)](#setColorType-int-) | Please see the getter of this property: @CREF848\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -132,7 +132,7 @@ public void setBorderColor(Color value)
 ```
 
 
-
+Please see the getter of this property: @CREF845\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setBorderColorType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF846\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public void setColor(Color value)
 ```
 
 
-
+Please see the getter of this property: @CREF847\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,7 +171,7 @@ public void setColorType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF848\_
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -29,12 +29,12 @@ Represents picture format option
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBottom(double value)](#setBottom-double-) |  |
-| [setLeft(double value)](#setLeft-double-) |  |
-| [setRight(double value)](#setRight-double-) |  |
-| [setScale(double value)](#setScale-double-) |  |
-| [setTop(double value)](#setTop-double-) |  |
-| [setType(int value)](#setType-int-) |  |
+| [setBottom(double value)](#setBottom-double-) | Please see the getter of this property: @CREF1008\_ |
+| [setLeft(double value)](#setLeft-double-) | Please see the getter of this property: @CREF1006\_ |
+| [setRight(double value)](#setRight-double-) | Please see the getter of this property: @CREF1009\_ |
+| [setScale(double value)](#setScale-double-) | Please see the getter of this property: @CREF1005\_ |
+| [setTop(double value)](#setTop-double-) | Please see the getter of this property: @CREF1007\_ |
+| [setType(int value)](#setType-int-) | Please see the getter of this property: @CREF1004\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -156,7 +156,7 @@ public void setBottom(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1008\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -169,7 +169,7 @@ public void setLeft(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1006\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -182,7 +182,7 @@ public void setRight(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1009\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -195,7 +195,7 @@ public void setScale(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1005\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -208,7 +208,7 @@ public void setTop(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1007\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -221,7 +221,7 @@ public void setType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1004\_
 
 **Parameters:**
 | Parameter | Type | Description |

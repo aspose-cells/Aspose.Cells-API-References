@@ -41,8 +41,8 @@ Represents QueryTable information.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAdjustColumnWidth(boolean value)](#setAdjustColumnWidth-boolean-) |  |
-| [setPreserveFormatting(boolean value)](#setPreserveFormatting-boolean-) |  |
+| [setAdjustColumnWidth(boolean value)](#setAdjustColumnWidth-boolean-) | Please see the getter of this property: [getAdjustColumnWidth()](../../com.aspose.cells/querytable\#getAdjustColumnWidth--) |
+| [setPreserveFormatting(boolean value)](#setPreserveFormatting-boolean-) | Please see the getter of this property: [getPreserveFormatting()](../../com.aspose.cells/querytable\#getPreserveFormatting--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -164,7 +164,7 @@ public void setAdjustColumnWidth(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getAdjustColumnWidth()](../../com.aspose.cells/querytable\#getAdjustColumnWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -177,7 +177,7 @@ public void setPreserveFormatting(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getPreserveFormatting()](../../com.aspose.cells/querytable\#getPreserveFormatting--)
 
 **Parameters:**
 | Parameter | Type | Description |

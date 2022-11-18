@@ -62,12 +62,12 @@ Workbook workbook = new Workbook();
 | [isOpen()](#isOpen--) | When this property is true, the bookmarkentry will expand, otherwise it will collapse. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCollapse(boolean value)](#setCollapse-boolean-) |  |
-| [setDestination(Cell value)](#setDestination-com.aspose.cells.Cell-) |  |
-| [setDestinationName(String value)](#setDestinationName-java.lang.String-) |  |
-| [setOpen(boolean value)](#setOpen-boolean-) |  |
-| [setSubEntry(ArrayList value)](#setSubEntry-java.util.ArrayList-) |  |
-| [setText(String value)](#setText-java.lang.String-) |  |
+| [setCollapse(boolean value)](#setCollapse-boolean-) | Please see the getter of this property: [isCollapse()](../../com.aspose.cells/pdfbookmarkentry\#isCollapse--) |
+| [setDestination(Cell value)](#setDestination-com.aspose.cells.Cell-) | Please see the getter of this property: [getDestination()](../../com.aspose.cells/pdfbookmarkentry\#getDestination--) |
+| [setDestinationName(String value)](#setDestinationName-java.lang.String-) | Please see the getter of this property: [getDestinationName()](../../com.aspose.cells/pdfbookmarkentry\#getDestinationName--) |
+| [setOpen(boolean value)](#setOpen-boolean-) | Please see the getter of this property: [isOpen()](../../com.aspose.cells/pdfbookmarkentry\#isOpen--) |
+| [setSubEntry(ArrayList value)](#setSubEntry-java.util.ArrayList-) | Please see the getter of this property: [getSubEntry()](../../com.aspose.cells/pdfbookmarkentry\#getSubEntry--) |
+| [setText(String value)](#setText-java.lang.String-) | Please see the getter of this property: [getText()](../../com.aspose.cells/pdfbookmarkentry\#getText--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -189,7 +189,7 @@ public void setCollapse(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isCollapse()](../../com.aspose.cells/pdfbookmarkentry\#isCollapse--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -202,7 +202,7 @@ public void setDestination(Cell value)
 ```
 
 
-
+Please see the getter of this property: [getDestination()](../../com.aspose.cells/pdfbookmarkentry\#getDestination--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -215,7 +215,7 @@ public void setDestinationName(String value)
 ```
 
 
-
+Please see the getter of this property: [getDestinationName()](../../com.aspose.cells/pdfbookmarkentry\#getDestinationName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -228,7 +228,7 @@ public void setOpen(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isOpen()](../../com.aspose.cells/pdfbookmarkentry\#isOpen--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -241,7 +241,7 @@ public void setSubEntry(ArrayList value)
 ```
 
 
-
+Please see the getter of this property: [getSubEntry()](../../com.aspose.cells/pdfbookmarkentry\#getSubEntry--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -254,7 +254,7 @@ public void setText(String value)
 ```
 
 
-
+Please see the getter of this property: [getText()](../../com.aspose.cells/pdfbookmarkentry\#getText--)
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -28,9 +28,9 @@ Represents the threaded comment.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAuthor(ThreadedCommentAuthor value)](#setAuthor-com.aspose.cells.ThreadedCommentAuthor-) |  |
-| [setCreatedTime(DateTime value)](#setCreatedTime-com.aspose.cells.DateTime-) |  |
-| [setNotes(String value)](#setNotes-java.lang.String-) |  |
+| [setAuthor(ThreadedCommentAuthor value)](#setAuthor-com.aspose.cells.ThreadedCommentAuthor-) | Please see the getter of this property: @CREF68\_ |
+| [setCreatedTime(DateTime value)](#setCreatedTime-com.aspose.cells.DateTime-) | Please see the getter of this property: @CREF69\_ |
+| [setNotes(String value)](#setNotes-java.lang.String-) | Please see the getter of this property: @CREF67\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -142,7 +142,7 @@ public void setAuthor(ThreadedCommentAuthor value)
 ```
 
 
-
+Please see the getter of this property: @CREF68\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -155,7 +155,7 @@ public void setCreatedTime(DateTime value)
 ```
 
 
-
+Please see the getter of this property: @CREF69\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -168,7 +168,7 @@ public void setNotes(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF67\_
 
 **Parameters:**
 | Parameter | Type | Description |

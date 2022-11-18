@@ -54,15 +54,15 @@ Represent the signature line.
 | [isLine()](#isLine--) | Indicates whether it is a signature line. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAllowComments(boolean value)](#setAllowComments-boolean-) |  |
-| [setEmail(String value)](#setEmail-java.lang.String-) |  |
-| [setId(UUID value)](#setId-java.util.UUID-) |  |
-| [setInstructions(String value)](#setInstructions-java.lang.String-) |  |
-| [setLine(boolean value)](#setLine-boolean-) |  |
-| [setProviderId(UUID value)](#setProviderId-java.util.UUID-) |  |
-| [setShowSignedDate(boolean value)](#setShowSignedDate-boolean-) |  |
-| [setSigner(String value)](#setSigner-java.lang.String-) |  |
-| [setTitle(String value)](#setTitle-java.lang.String-) |  |
+| [setAllowComments(boolean value)](#setAllowComments-boolean-) | Please see the getter of this property: [getAllowComments()](../../com.aspose.cells/signatureline\#getAllowComments--) |
+| [setEmail(String value)](#setEmail-java.lang.String-) | Please see the getter of this property: [getEmail()](../../com.aspose.cells/signatureline\#getEmail--) |
+| [setId(UUID value)](#setId-java.util.UUID-) | Please see the getter of this property: [getId()](../../com.aspose.cells/signatureline\#getId--) |
+| [setInstructions(String value)](#setInstructions-java.lang.String-) | Please see the getter of this property: [getInstructions()](../../com.aspose.cells/signatureline\#getInstructions--) |
+| [setLine(boolean value)](#setLine-boolean-) | Please see the getter of this property: [isLine()](../../com.aspose.cells/signatureline\#isLine--) |
+| [setProviderId(UUID value)](#setProviderId-java.util.UUID-) | Please see the getter of this property: [getProviderId()](../../com.aspose.cells/signatureline\#getProviderId--) |
+| [setShowSignedDate(boolean value)](#setShowSignedDate-boolean-) | Please see the getter of this property: [getShowSignedDate()](../../com.aspose.cells/signatureline\#getShowSignedDate--) |
+| [setSigner(String value)](#setSigner-java.lang.String-) | Please see the getter of this property: [getSigner()](../../com.aspose.cells/signatureline\#getSigner--) |
+| [setTitle(String value)](#setTitle-java.lang.String-) | Please see the getter of this property: [getTitle()](../../com.aspose.cells/signatureline\#getTitle--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -271,7 +271,7 @@ public void setAllowComments(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getAllowComments()](../../com.aspose.cells/signatureline\#getAllowComments--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -284,7 +284,7 @@ public void setEmail(String value)
 ```
 
 
-
+Please see the getter of this property: [getEmail()](../../com.aspose.cells/signatureline\#getEmail--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -297,7 +297,7 @@ public void setId(UUID value)
 ```
 
 
-
+Please see the getter of this property: [getId()](../../com.aspose.cells/signatureline\#getId--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -310,7 +310,7 @@ public void setInstructions(String value)
 ```
 
 
-
+Please see the getter of this property: [getInstructions()](../../com.aspose.cells/signatureline\#getInstructions--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -323,7 +323,7 @@ public void setLine(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isLine()](../../com.aspose.cells/signatureline\#isLine--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -336,7 +336,7 @@ public void setProviderId(UUID value)
 ```
 
 
-
+Please see the getter of this property: [getProviderId()](../../com.aspose.cells/signatureline\#getProviderId--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -349,7 +349,7 @@ public void setShowSignedDate(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getShowSignedDate()](../../com.aspose.cells/signatureline\#getShowSignedDate--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -362,7 +362,7 @@ public void setSigner(String value)
 ```
 
 
-
+Please see the getter of this property: [getSigner()](../../com.aspose.cells/signatureline\#getSigner--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -375,7 +375,7 @@ public void setTitle(String value)
 ```
 
 
-
+Please see the getter of this property: [getTitle()](../../com.aspose.cells/signatureline\#getTitle--)
 
 **Parameters:**
 | Parameter | Type | Description |

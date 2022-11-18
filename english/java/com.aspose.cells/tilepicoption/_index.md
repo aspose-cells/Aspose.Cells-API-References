@@ -29,12 +29,12 @@ Represents tile picture as texture.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAlignmentType(int value)](#setAlignmentType-int-) |  |
-| [setMirrorType(int value)](#setMirrorType-int-) |  |
-| [setOffsetX(double value)](#setOffsetX-double-) |  |
-| [setOffsetY(double value)](#setOffsetY-double-) |  |
-| [setScaleX(double value)](#setScaleX-double-) |  |
-| [setScaleY(double value)](#setScaleY-double-) |  |
+| [setAlignmentType(int value)](#setAlignmentType-int-) | Please see the getter of this property: @CREF1015\_ |
+| [setMirrorType(int value)](#setMirrorType-int-) | Please see the getter of this property: @CREF1014\_ |
+| [setOffsetX(double value)](#setOffsetX-double-) | Please see the getter of this property: @CREF1010\_ |
+| [setOffsetY(double value)](#setOffsetY-double-) | Please see the getter of this property: @CREF1011\_ |
+| [setScaleX(double value)](#setScaleX-double-) | Please see the getter of this property: @CREF1012\_ |
+| [setScaleY(double value)](#setScaleY-double-) | Please see the getter of this property: @CREF1013\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -156,7 +156,7 @@ public void setAlignmentType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1015\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -169,7 +169,7 @@ public void setMirrorType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1014\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -182,7 +182,7 @@ public void setOffsetX(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1010\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -195,7 +195,7 @@ public void setOffsetY(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1011\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -208,7 +208,7 @@ public void setScaleX(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1012\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -221,7 +221,7 @@ public void setScaleY(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1013\_
 
 **Parameters:**
 | Parameter | Type | Description |

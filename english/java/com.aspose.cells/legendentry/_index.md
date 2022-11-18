@@ -30,11 +30,11 @@ Represents a legend entry in a chart legend.
 | [isTextNoFill()](#isTextNoFill--) | Gets or sets no fill of the text. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) |  |
-| [setBackground(int value)](#setBackground-int-) |  |
-| [setBackgroundMode(int value)](#setBackgroundMode-int-) |  |
-| [setDeleted(boolean value)](#setDeleted-boolean-) |  |
-| [setTextNoFill(boolean value)](#setTextNoFill-boolean-) |  |
+| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | Please see the getter of this property: [getAutoScaleFont()](../../com.aspose.cells/legendentry\#getAutoScaleFont--) |
+| [setBackground(int value)](#setBackground-int-) | Please see the getter of this property: [getBackground()](../../com.aspose.cells/legendentry\#getBackground--) |
+| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Please see the getter of this property: [getBackgroundMode()](../../com.aspose.cells/legendentry\#getBackgroundMode--) |
+| [setDeleted(boolean value)](#setDeleted-boolean-) | Please see the getter of this property: [isDeleted()](../../com.aspose.cells/legendentry\#isDeleted--) |
+| [setTextNoFill(boolean value)](#setTextNoFill-boolean-) | Please see the getter of this property: [isTextNoFill()](../../com.aspose.cells/legendentry\#isTextNoFill--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -166,7 +166,7 @@ public void setAutoScaleFont(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getAutoScaleFont()](../../com.aspose.cells/legendentry\#getAutoScaleFont--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -179,7 +179,7 @@ public void setBackground(int value)
 ```
 
 
-
+Please see the getter of this property: [getBackground()](../../com.aspose.cells/legendentry\#getBackground--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -192,7 +192,7 @@ public void setBackgroundMode(int value)
 ```
 
 
-
+Please see the getter of this property: [getBackgroundMode()](../../com.aspose.cells/legendentry\#getBackgroundMode--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -205,7 +205,7 @@ public void setDeleted(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isDeleted()](../../com.aspose.cells/legendentry\#isDeleted--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -218,7 +218,7 @@ public void setTextNoFill(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isTextNoFill()](../../com.aspose.cells/legendentry\#isTextNoFill--)
 
 **Parameters:**
 | Parameter | Type | Description |

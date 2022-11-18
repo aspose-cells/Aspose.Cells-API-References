@@ -41,11 +41,11 @@ Represents the reference of VBA project.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setExtendedLibid(String value)](#setExtendedLibid-java.lang.String-) |  |
-| [setLibid(String value)](#setLibid-java.lang.String-) |  |
-| [setName(String value)](#setName-java.lang.String-) |  |
-| [setRelativeLibid(String value)](#setRelativeLibid-java.lang.String-) |  |
-| [setTwiddledlibid(String value)](#setTwiddledlibid-java.lang.String-) |  |
+| [setExtendedLibid(String value)](#setExtendedLibid-java.lang.String-) | Please see the getter of this property: [getExtendedLibid()](../../com.aspose.cells/vbaprojectreference\#getExtendedLibid--) |
+| [setLibid(String value)](#setLibid-java.lang.String-) | Please see the getter of this property: [getLibid()](../../com.aspose.cells/vbaprojectreference\#getLibid--) |
+| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: [getName()](../../com.aspose.cells/vbaprojectreference\#getName--) |
+| [setRelativeLibid(String value)](#setRelativeLibid-java.lang.String-) | Please see the getter of this property: [getRelativeLibid()](../../com.aspose.cells/vbaprojectreference\#getRelativeLibid--) |
+| [setTwiddledlibid(String value)](#setTwiddledlibid-java.lang.String-) | Please see the getter of this property: [getTwiddledlibid()](../../com.aspose.cells/vbaprojectreference\#getTwiddledlibid--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -180,7 +180,7 @@ public void setExtendedLibid(String value)
 ```
 
 
-
+Please see the getter of this property: [getExtendedLibid()](../../com.aspose.cells/vbaprojectreference\#getExtendedLibid--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,7 +193,7 @@ public void setLibid(String value)
 ```
 
 
-
+Please see the getter of this property: [getLibid()](../../com.aspose.cells/vbaprojectreference\#getLibid--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -206,7 +206,7 @@ public void setName(String value)
 ```
 
 
-
+Please see the getter of this property: [getName()](../../com.aspose.cells/vbaprojectreference\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -219,7 +219,7 @@ public void setRelativeLibid(String value)
 ```
 
 
-
+Please see the getter of this property: [getRelativeLibid()](../../com.aspose.cells/vbaprojectreference\#getRelativeLibid--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -232,7 +232,7 @@ public void setTwiddledlibid(String value)
 ```
 
 
-
+Please see the getter of this property: [getTwiddledlibid()](../../com.aspose.cells/vbaprojectreference\#getTwiddledlibid--)
 
 **Parameters:**
 | Parameter | Type | Description |

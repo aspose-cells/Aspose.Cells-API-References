@@ -29,10 +29,10 @@ Represents an individual scenario.
 | [isLocked()](#isLocked--) | Indicates whether scenario is locked for editing when the sheet is protected. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setComment(String value)](#setComment-java.lang.String-) |  |
-| [setHidden(boolean value)](#setHidden-boolean-) |  |
-| [setLocked(boolean value)](#setLocked-boolean-) |  |
-| [setName(String value)](#setName-java.lang.String-) |  |
+| [setComment(String value)](#setComment-java.lang.String-) | Please see the getter of this property: @CREF864\_ |
+| [setHidden(boolean value)](#setHidden-boolean-) | Please see the getter of this property: @CREF866\_ |
+| [setLocked(boolean value)](#setLocked-boolean-) | Please see the getter of this property: @CREF867\_ |
+| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: @CREF865\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -154,7 +154,7 @@ public void setComment(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF864\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -167,7 +167,7 @@ public void setHidden(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF866\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -180,7 +180,7 @@ public void setLocked(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF867\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,7 +193,7 @@ public void setName(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF865\_
 
 **Parameters:**
 | Parameter | Type | Description |

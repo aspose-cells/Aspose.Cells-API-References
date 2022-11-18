@@ -29,8 +29,8 @@ Represents an Office Add-in instance.
 | [isFrozen()](#isFrozen--) | Indicates whether the user can interact with the Office Add-in or not. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFrozen(boolean value)](#setFrozen-boolean-) |  |
-| [setId(String value)](#setId-java.lang.String-) |  |
+| [setFrozen(boolean value)](#setFrozen-boolean-) | Please see the getter of this property: @CREF312\_ |
+| [setId(String value)](#setId-java.lang.String-) | Please see the getter of this property: @CREF311\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -152,7 +152,7 @@ public void setFrozen(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF312\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -165,7 +165,7 @@ public void setId(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF311\_
 
 **Parameters:**
 | Parameter | Type | Description |

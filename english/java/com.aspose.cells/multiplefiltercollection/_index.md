@@ -38,7 +38,7 @@ Represents the multiple filter collection.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeAt(int index)](#removeAt-int-) | Removes the item at the specified index. |
-| [setMatchBlank(boolean value)](#setMatchBlank-boolean-) |  |
+| [setMatchBlank(boolean value)](#setMatchBlank-boolean-) | Please see the getter of this property: @CREF1144\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -230,7 +230,7 @@ public void setMatchBlank(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1144\_
 
 **Parameters:**
 | Parameter | Type | Description |

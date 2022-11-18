@@ -43,19 +43,19 @@ Represents the save options for markdown.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) |  |
-| [setClearData(boolean value)](#setClearData-boolean-) |  |
-| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) |  |
-| [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) |  |
-| [setFormatStrategy(int value)](#setFormatStrategy-int-) |  |
-| [setLightCellsDataProvider(LightCellsDataProvider value)](#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-) |  |
-| [setLineSeparator(String value)](#setLineSeparator-java.lang.String-) |  |
-| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) |  |
-| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) |  |
-| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) |  |
-| [setSortNames(boolean value)](#setSortNames-boolean-) |  |
-| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) |  |
-| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) |  |
+| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | Please see the getter of this property: @CREF1852\_ |
+| [setClearData(boolean value)](#setClearData-boolean-) | Please see the getter of this property: @CREF1851\_ |
+| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | Please see the getter of this property: @CREF1855\_ |
+| [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | Please see the getter of this property: @CREF285\_ |
+| [setFormatStrategy(int value)](#setFormatStrategy-int-) | Please see the getter of this property: @CREF286\_ |
+| [setLightCellsDataProvider(LightCellsDataProvider value)](#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-) | Please see the getter of this property: @CREF287\_ |
+| [setLineSeparator(String value)](#setLineSeparator-java.lang.String-) | Please see the getter of this property: @CREF288\_ |
+| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Please see the getter of this property: @CREF1854\_ |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Please see the getter of this property: @CREF1858\_ |
+| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Please see the getter of this property: @CREF1857\_ |
+| [setSortNames(boolean value)](#setSortNames-boolean-) | Please see the getter of this property: @CREF1856\_ |
+| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | Please see the getter of this property: @CREF1860\_ |
+| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | Please see the getter of this property: @CREF1853\_ |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -276,7 +276,7 @@ public void setCachedFileFolder(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF1852\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -289,7 +289,7 @@ public void setClearData(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1851\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -302,7 +302,7 @@ public void setCreateDirectory(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1855\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -315,7 +315,7 @@ public void setEncoding(Encoding value)
 ```
 
 
-
+Please see the getter of this property: @CREF285\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -328,7 +328,7 @@ public void setFormatStrategy(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF286\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -341,7 +341,7 @@ public void setLightCellsDataProvider(LightCellsDataProvider value)
 ```
 
 
-
+Please see the getter of this property: @CREF287\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -354,7 +354,7 @@ public void setLineSeparator(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF288\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -367,7 +367,7 @@ public void setMergeAreas(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1854\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -380,7 +380,7 @@ public void setRefreshChartCache(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1858\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -393,7 +393,7 @@ public void setSortExternalNames(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1857\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -406,7 +406,7 @@ public void setSortNames(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1856\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -419,7 +419,7 @@ public void setUpdateSmartArt(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1860\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -432,7 +432,7 @@ public void setValidateMergedAreas(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1853\_
 
 **Parameters:**
 | Parameter | Type | Description |

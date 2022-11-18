@@ -31,7 +31,7 @@ Info for a page ends saving process.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setHasMorePages(boolean value)](#setHasMorePages-boolean-) |  |
+| [setHasMorePages(boolean value)](#setHasMorePages-boolean-) | Please see the getter of this property: @CREF976\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -129,7 +129,7 @@ public void setHasMorePages(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF976\_
 
 **Parameters:**
 | Parameter | Type | Description |

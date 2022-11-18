@@ -96,31 +96,31 @@ Workbook workbook = new Workbook();
 | [isTextWrapped()](#isTextWrapped--) | Gets or sets a value indicating whether the text is wrapped. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) |  |
-| [setAutoText(boolean value)](#setAutoText-boolean-) |  |
-| [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) |  |
-| [setBackground(int value)](#setBackground-int-) |  |
-| [setBackgroundMode(int value)](#setBackgroundMode-int-) |  |
-| [setDeleted(boolean value)](#setDeleted-boolean-) |  |
-| [setDirectionType(int value)](#setDirectionType-int-) |  |
-| [setHeight(int value)](#setHeight-int-) |  |
-| [setInnerMode(boolean value)](#setInnerMode-boolean-) |  |
-| [setLinkedSource(String value)](#setLinkedSource-java.lang.String-) |  |
-| [setOverLay(boolean value)](#setOverLay-boolean-) |  |
-| [setPosition(int value)](#setPosition-int-) |  |
+| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | Please see the getter of this property: [getAutoScaleFont()](../../com.aspose.cells/chartframe\#getAutoScaleFont--) |
+| [setAutoText(boolean value)](#setAutoText-boolean-) | Please see the getter of this property: @CREF78\_ |
+| [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) | Please see the getter of this property: [isAutomaticSize()](../../com.aspose.cells/chartframe\#isAutomaticSize--) |
+| [setBackground(int value)](#setBackground-int-) | Please see the getter of this property: [getBackground()](../../com.aspose.cells/chartframe\#getBackground--) |
+| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Please see the getter of this property: [getBackgroundMode()](../../com.aspose.cells/chartframe\#getBackgroundMode--) |
+| [setDeleted(boolean value)](#setDeleted-boolean-) | Please see the getter of this property: @CREF79\_ |
+| [setDirectionType(int value)](#setDirectionType-int-) | Please see the getter of this property: @CREF87\_ |
+| [setHeight(int value)](#setHeight-int-) | Please see the getter of this property: [getHeight()](../../com.aspose.cells/chartframe\#getHeight--) |
+| [setInnerMode(boolean value)](#setInnerMode-boolean-) | Please see the getter of this property: [isInnerMode()](../../com.aspose.cells/chartframe\#isInnerMode--) |
+| [setLinkedSource(String value)](#setLinkedSource-java.lang.String-) | Please see the getter of this property: @CREF84\_ |
+| [setOverLay(boolean value)](#setOverLay-boolean-) | Please see the getter of this property: [isOverLay()](../../com.aspose.cells/legend\#isOverLay--) |
+| [setPosition(int value)](#setPosition-int-) | Please see the getter of this property: [getPosition()](../../com.aspose.cells/legend\#getPosition--) |
 | [setPositionAuto()](#setPositionAuto--) | Set position of the frame to automatic |
-| [setReadingOrder(int value)](#setReadingOrder-int-) |  |
-| [setResizeShapeToFitText(boolean value)](#setResizeShapeToFitText-boolean-) |  |
-| [setRotationAngle(int value)](#setRotationAngle-int-) |  |
-| [setShadow(boolean value)](#setShadow-boolean-) |  |
-| [setText(String value)](#setText-java.lang.String-) |  |
-| [setTextDirection(int value)](#setTextDirection-int-) |  |
-| [setTextHorizontalAlignment(int value)](#setTextHorizontalAlignment-int-) |  |
-| [setTextVerticalAlignment(int value)](#setTextVerticalAlignment-int-) |  |
-| [setTextWrapped(boolean value)](#setTextWrapped-boolean-) |  |
-| [setWidth(int value)](#setWidth-int-) |  |
-| [setX(int value)](#setX-int-) |  |
-| [setY(int value)](#setY-int-) |  |
+| [setReadingOrder(int value)](#setReadingOrder-int-) | Please see the getter of this property: @CREF86\_ |
+| [setResizeShapeToFitText(boolean value)](#setResizeShapeToFitText-boolean-) | Please see the getter of this property: @CREF89\_ |
+| [setRotationAngle(int value)](#setRotationAngle-int-) | Please see the getter of this property: @CREF82\_ |
+| [setShadow(boolean value)](#setShadow-boolean-) | Please see the getter of this property: [getShadow()](../../com.aspose.cells/chartframe\#getShadow--) |
+| [setText(String value)](#setText-java.lang.String-) | Please see the getter of this property: @CREF83\_ |
+| [setTextDirection(int value)](#setTextDirection-int-) | Please see the getter of this property: @CREF85\_ |
+| [setTextHorizontalAlignment(int value)](#setTextHorizontalAlignment-int-) | Please see the getter of this property: @CREF80\_ |
+| [setTextVerticalAlignment(int value)](#setTextVerticalAlignment-int-) | Please see the getter of this property: @CREF81\_ |
+| [setTextWrapped(boolean value)](#setTextWrapped-boolean-) | Please see the getter of this property: @CREF88\_ |
+| [setWidth(int value)](#setWidth-int-) | Please see the getter of this property: [getWidth()](../../com.aspose.cells/chartframe\#getWidth--) |
+| [setX(int value)](#setX-int-) | Please see the getter of this property: [getX()](../../com.aspose.cells/chartframe\#getX--) |
+| [setY(int value)](#setY-int-) | Please see the getter of this property: [getY()](../../com.aspose.cells/chartframe\#getY--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -598,7 +598,7 @@ public void setAutoScaleFont(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getAutoScaleFont()](../../com.aspose.cells/chartframe\#getAutoScaleFont--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -611,7 +611,7 @@ public void setAutoText(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF78\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -624,7 +624,7 @@ public void setAutomaticSize(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isAutomaticSize()](../../com.aspose.cells/chartframe\#isAutomaticSize--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -637,7 +637,7 @@ public void setBackground(int value)
 ```
 
 
-
+Please see the getter of this property: [getBackground()](../../com.aspose.cells/chartframe\#getBackground--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -650,7 +650,7 @@ public void setBackgroundMode(int value)
 ```
 
 
-
+Please see the getter of this property: [getBackgroundMode()](../../com.aspose.cells/chartframe\#getBackgroundMode--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -663,7 +663,7 @@ public void setDeleted(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF79\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -676,7 +676,7 @@ public void setDirectionType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF87\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -689,7 +689,7 @@ public void setHeight(int value)
 ```
 
 
-
+Please see the getter of this property: [getHeight()](../../com.aspose.cells/chartframe\#getHeight--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -702,7 +702,7 @@ public void setInnerMode(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isInnerMode()](../../com.aspose.cells/chartframe\#isInnerMode--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -715,7 +715,7 @@ public void setLinkedSource(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF84\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -728,7 +728,7 @@ public void setOverLay(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isOverLay()](../../com.aspose.cells/legend\#isOverLay--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -741,7 +741,7 @@ public void setPosition(int value)
 ```
 
 
-
+Please see the getter of this property: [getPosition()](../../com.aspose.cells/legend\#getPosition--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -762,7 +762,7 @@ public void setReadingOrder(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF86\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -775,7 +775,7 @@ public void setResizeShapeToFitText(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF89\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -788,7 +788,7 @@ public void setRotationAngle(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF82\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -801,7 +801,7 @@ public void setShadow(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getShadow()](../../com.aspose.cells/chartframe\#getShadow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -814,7 +814,7 @@ public void setText(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF83\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -827,7 +827,7 @@ public void setTextDirection(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF85\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -840,7 +840,7 @@ public void setTextHorizontalAlignment(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF80\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -853,7 +853,7 @@ public void setTextVerticalAlignment(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF81\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -866,7 +866,7 @@ public void setTextWrapped(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF88\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -879,7 +879,7 @@ public void setWidth(int value)
 ```
 
 
-
+Please see the getter of this property: [getWidth()](../../com.aspose.cells/chartframe\#getWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -892,7 +892,7 @@ public void setX(int value)
 ```
 
 
-
+Please see the getter of this property: [getX()](../../com.aspose.cells/chartframe\#getX--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -905,7 +905,7 @@ public void setY(int value)
 ```
 
 
-
+Please see the getter of this property: [getY()](../../com.aspose.cells/chartframe\#getY--)
 
 **Parameters:**
 | Parameter | Type | Description |

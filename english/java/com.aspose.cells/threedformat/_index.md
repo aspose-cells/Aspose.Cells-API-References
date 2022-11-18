@@ -43,26 +43,26 @@ Represents a shape's three-dimensional formatting.
 | [hashCode()](#hashCode--) | Gets hashcode. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBottomBevelHeight(double value)](#setBottomBevelHeight-double-) |  |
-| [setBottomBevelType(int value)](#setBottomBevelType-int-) |  |
-| [setBottomBevelWidth(double value)](#setBottomBevelWidth-double-) |  |
-| [setContourColor(CellsColor value)](#setContourColor-com.aspose.cells.CellsColor-) |  |
-| [setContourWidth(double value)](#setContourWidth-double-) |  |
-| [setExtrusionColor(CellsColor value)](#setExtrusionColor-com.aspose.cells.CellsColor-) |  |
-| [setExtrusionHeight(double value)](#setExtrusionHeight-double-) |  |
-| [setLightAngle(double value)](#setLightAngle-double-) |  |
-| [setLighting(int value)](#setLighting-int-) |  |
-| [setLightingDirection(int value)](#setLightingDirection-int-) |  |
-| [setMaterial(int value)](#setMaterial-int-) |  |
-| [setPerspective(double value)](#setPerspective-double-) |  |
-| [setPresetCameraType(int value)](#setPresetCameraType-int-) |  |
-| [setRotationX(double value)](#setRotationX-double-) |  |
-| [setRotationY(double value)](#setRotationY-double-) |  |
-| [setRotationZ(double value)](#setRotationZ-double-) |  |
-| [setTopBevelHeight(double value)](#setTopBevelHeight-double-) |  |
-| [setTopBevelType(int value)](#setTopBevelType-int-) |  |
-| [setTopBevelWidth(double value)](#setTopBevelWidth-double-) |  |
-| [setZ(double value)](#setZ-double-) |  |
+| [setBottomBevelHeight(double value)](#setBottomBevelHeight-double-) | Please see the getter of this property: @CREF116\_ |
+| [setBottomBevelType(int value)](#setBottomBevelType-int-) | Please see the getter of this property: @CREF117\_ |
+| [setBottomBevelWidth(double value)](#setBottomBevelWidth-double-) | Please see the getter of this property: @CREF115\_ |
+| [setContourColor(CellsColor value)](#setContourColor-com.aspose.cells.CellsColor-) | Please see the getter of this property: @CREF122\_ |
+| [setContourWidth(double value)](#setContourWidth-double-) | Please see the getter of this property: @CREF123\_ |
+| [setExtrusionColor(CellsColor value)](#setExtrusionColor-com.aspose.cells.CellsColor-) | Please see the getter of this property: @CREF124\_ |
+| [setExtrusionHeight(double value)](#setExtrusionHeight-double-) | Please see the getter of this property: @CREF125\_ |
+| [setLightAngle(double value)](#setLightAngle-double-) | Please see the getter of this property: @CREF127\_ |
+| [setLighting(int value)](#setLighting-int-) | Please see the getter of this property: @CREF128\_ |
+| [setLightingDirection(int value)](#setLightingDirection-int-) | Please see the getter of this property: @CREF129\_ |
+| [setMaterial(int value)](#setMaterial-int-) | Please see the getter of this property: @CREF121\_ |
+| [setPerspective(double value)](#setPerspective-double-) | Please see the getter of this property: @CREF130\_ |
+| [setPresetCameraType(int value)](#setPresetCameraType-int-) | Please see the getter of this property: @CREF134\_ |
+| [setRotationX(double value)](#setRotationX-double-) | Please see the getter of this property: @CREF131\_ |
+| [setRotationY(double value)](#setRotationY-double-) | Please see the getter of this property: @CREF132\_ |
+| [setRotationZ(double value)](#setRotationZ-double-) | Please see the getter of this property: @CREF133\_ |
+| [setTopBevelHeight(double value)](#setTopBevelHeight-double-) | Please see the getter of this property: @CREF119\_ |
+| [setTopBevelType(int value)](#setTopBevelType-int-) | Please see the getter of this property: @CREF120\_ |
+| [setTopBevelWidth(double value)](#setTopBevelWidth-double-) | Please see the getter of this property: @CREF118\_ |
+| [setZ(double value)](#setZ-double-) | Please see the getter of this property: @CREF126\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -324,7 +324,7 @@ public void setBottomBevelHeight(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF116\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -337,7 +337,7 @@ public void setBottomBevelType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF117\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -350,7 +350,7 @@ public void setBottomBevelWidth(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF115\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -363,7 +363,7 @@ public void setContourColor(CellsColor value)
 ```
 
 
-
+Please see the getter of this property: @CREF122\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -376,7 +376,7 @@ public void setContourWidth(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF123\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -389,7 +389,7 @@ public void setExtrusionColor(CellsColor value)
 ```
 
 
-
+Please see the getter of this property: @CREF124\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -402,7 +402,7 @@ public void setExtrusionHeight(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF125\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -415,7 +415,7 @@ public void setLightAngle(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF127\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -428,7 +428,7 @@ public void setLighting(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF128\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -441,7 +441,7 @@ public void setLightingDirection(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF129\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -454,7 +454,7 @@ public void setMaterial(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF121\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -467,7 +467,7 @@ public void setPerspective(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF130\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -480,7 +480,7 @@ public void setPresetCameraType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF134\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -493,7 +493,7 @@ public void setRotationX(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF131\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -506,7 +506,7 @@ public void setRotationY(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF132\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -519,7 +519,7 @@ public void setRotationZ(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF133\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -532,7 +532,7 @@ public void setTopBevelHeight(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF119\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -545,7 +545,7 @@ public void setTopBevelType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF120\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -558,7 +558,7 @@ public void setTopBevelWidth(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF118\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -571,7 +571,7 @@ public void setZ(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF126\_
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -69,30 +69,30 @@ Represents all setting of the line.
 | [hashCode()](#hashCode--) | Gets the hash code. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBeginArrowheadLength(int value)](#setBeginArrowheadLength-int-) |  |
-| [setBeginArrowheadStyle(int value)](#setBeginArrowheadStyle-int-) |  |
-| [setBeginArrowheadWidth(int value)](#setBeginArrowheadWidth-int-) |  |
-| [setCapType(int value)](#setCapType-int-) |  |
-| [setCompoundType(int value)](#setCompoundType-int-) |  |
-| [setDashStyle(int value)](#setDashStyle-int-) |  |
-| [setEndArrowheadLength(int value)](#setEndArrowheadLength-int-) |  |
-| [setEndArrowheadStyle(int value)](#setEndArrowheadStyle-int-) |  |
-| [setEndArrowheadWidth(int value)](#setEndArrowheadWidth-int-) |  |
-| [setFillType(int value)](#setFillType-int-) |  |
-| [setImageData(byte[] value)](#setImageData-byte---) |  |
-| [setJoinType(int value)](#setJoinType-int-) |  |
+| [setBeginArrowheadLength(int value)](#setBeginArrowheadLength-int-) | Please see the getter of this property: [getBeginArrowheadLength()](../../com.aspose.cells/lineformat\#getBeginArrowheadLength--) |
+| [setBeginArrowheadStyle(int value)](#setBeginArrowheadStyle-int-) | Please see the getter of this property: [getBeginArrowheadStyle()](../../com.aspose.cells/lineformat\#getBeginArrowheadStyle--) |
+| [setBeginArrowheadWidth(int value)](#setBeginArrowheadWidth-int-) | Please see the getter of this property: [getBeginArrowheadWidth()](../../com.aspose.cells/lineformat\#getBeginArrowheadWidth--) |
+| [setCapType(int value)](#setCapType-int-) | Please see the getter of this property: [getCapType()](../../com.aspose.cells/lineformat\#getCapType--) |
+| [setCompoundType(int value)](#setCompoundType-int-) | Please see the getter of this property: [getCompoundType()](../../com.aspose.cells/lineformat\#getCompoundType--) |
+| [setDashStyle(int value)](#setDashStyle-int-) | Please see the getter of this property: [getDashStyle()](../../com.aspose.cells/lineformat\#getDashStyle--) |
+| [setEndArrowheadLength(int value)](#setEndArrowheadLength-int-) | Please see the getter of this property: [getEndArrowheadLength()](../../com.aspose.cells/lineformat\#getEndArrowheadLength--) |
+| [setEndArrowheadStyle(int value)](#setEndArrowheadStyle-int-) | Please see the getter of this property: [getEndArrowheadStyle()](../../com.aspose.cells/lineformat\#getEndArrowheadStyle--) |
+| [setEndArrowheadWidth(int value)](#setEndArrowheadWidth-int-) | Please see the getter of this property: [getEndArrowheadWidth()](../../com.aspose.cells/lineformat\#getEndArrowheadWidth--) |
+| [setFillType(int value)](#setFillType-int-) | Please see the getter of this property: [getFillType()](../../com.aspose.cells/fillformat\#getFillType--) |
+| [setImageData(byte[] value)](#setImageData-byte---) | Please see the getter of this property: [getImageData()](../../com.aspose.cells/fillformat\#getImageData--) |
+| [setJoinType(int value)](#setJoinType-int-) | Please see the getter of this property: [getJoinType()](../../com.aspose.cells/lineformat\#getJoinType--) |
 | [setOneColorGradient(Color color, double degree, int style, int variant)](#setOneColorGradient-com.aspose.cells.Color-double-int-int-) | Sets the specified fill to a one-color gradient. |
-| [setPattern(int value)](#setPattern-int-) |  |
-| [setPictureFormatType(int value)](#setPictureFormatType-int-) |  |
+| [setPattern(int value)](#setPattern-int-) | Please see the getter of this property: [getPattern()](../../com.aspose.cells/fillformat\#getPattern--) |
+| [setPictureFormatType(int value)](#setPictureFormatType-int-) | Please see the getter of this property: [getPictureFormatType()](../../com.aspose.cells/fillformat\#getPictureFormatType--) |
 | [setPresetColorGradient(int presetColor, int style, int variant)](#setPresetColorGradient-int-int-int-) | Sets the specified fill to a preset-color gradient. |
-| [setScale(double value)](#setScale-double-) |  |
-| [setSetType(int value)](#setSetType-int-) |  |
-| [setTexture(int value)](#setTexture-int-) |  |
-| [setTransparency(double value)](#setTransparency-double-) |  |
+| [setScale(double value)](#setScale-double-) | Please see the getter of this property: [getScale()](../../com.aspose.cells/fillformat\#getScale--) |
+| [setSetType(int value)](#setSetType-int-) | Please see the getter of this property: [getSetType()](../../com.aspose.cells/fillformat\#getSetType--) |
+| [setTexture(int value)](#setTexture-int-) | Please see the getter of this property: [getTexture()](../../com.aspose.cells/fillformat\#getTexture--) |
+| [setTransparency(double value)](#setTransparency-double-) | Please see the getter of this property: [getTransparency()](../../com.aspose.cells/fillformat\#getTransparency--) |
 | [setTwoColorGradient(Color color1, Color color2, int style, int variant)](#setTwoColorGradient-com.aspose.cells.Color-com.aspose.cells.Color-int-int-) | Sets the specified fill to a two-color gradient. |
 | [setTwoColorGradient(Color color1, double transparency1, Color color2, double transparency2, int style, int variant)](#setTwoColorGradient-com.aspose.cells.Color-double-com.aspose.cells.Color-double-int-int-) | Sets the specified fill to a two-color gradient. |
-| [setType(int value)](#setType-int-) |  |
-| [setWeight(double value)](#setWeight-double-) |  |
+| [setType(int value)](#setType-int-) | Please see the getter of this property: [getType()](../../com.aspose.cells/fillformat\#getType--) |
+| [setWeight(double value)](#setWeight-double-) | Please see the getter of this property: [getWeight()](../../com.aspose.cells/lineformat\#getWeight--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -527,7 +527,7 @@ public void setBeginArrowheadLength(int value)
 ```
 
 
-
+Please see the getter of this property: [getBeginArrowheadLength()](../../com.aspose.cells/lineformat\#getBeginArrowheadLength--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -540,7 +540,7 @@ public void setBeginArrowheadStyle(int value)
 ```
 
 
-
+Please see the getter of this property: [getBeginArrowheadStyle()](../../com.aspose.cells/lineformat\#getBeginArrowheadStyle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -553,7 +553,7 @@ public void setBeginArrowheadWidth(int value)
 ```
 
 
-
+Please see the getter of this property: [getBeginArrowheadWidth()](../../com.aspose.cells/lineformat\#getBeginArrowheadWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -566,7 +566,7 @@ public void setCapType(int value)
 ```
 
 
-
+Please see the getter of this property: [getCapType()](../../com.aspose.cells/lineformat\#getCapType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -579,7 +579,7 @@ public void setCompoundType(int value)
 ```
 
 
-
+Please see the getter of this property: [getCompoundType()](../../com.aspose.cells/lineformat\#getCompoundType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -592,7 +592,7 @@ public void setDashStyle(int value)
 ```
 
 
-
+Please see the getter of this property: [getDashStyle()](../../com.aspose.cells/lineformat\#getDashStyle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -605,7 +605,7 @@ public void setEndArrowheadLength(int value)
 ```
 
 
-
+Please see the getter of this property: [getEndArrowheadLength()](../../com.aspose.cells/lineformat\#getEndArrowheadLength--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -618,7 +618,7 @@ public void setEndArrowheadStyle(int value)
 ```
 
 
-
+Please see the getter of this property: [getEndArrowheadStyle()](../../com.aspose.cells/lineformat\#getEndArrowheadStyle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -631,7 +631,7 @@ public void setEndArrowheadWidth(int value)
 ```
 
 
-
+Please see the getter of this property: [getEndArrowheadWidth()](../../com.aspose.cells/lineformat\#getEndArrowheadWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -644,7 +644,7 @@ public void setFillType(int value)
 ```
 
 
-
+Please see the getter of this property: [getFillType()](../../com.aspose.cells/fillformat\#getFillType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -657,7 +657,7 @@ public void setImageData(byte[] value)
 ```
 
 
-
+Please see the getter of this property: [getImageData()](../../com.aspose.cells/fillformat\#getImageData--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -670,7 +670,7 @@ public void setJoinType(int value)
 ```
 
 
-
+Please see the getter of this property: [getJoinType()](../../com.aspose.cells/lineformat\#getJoinType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -699,7 +699,7 @@ public void setPattern(int value)
 ```
 
 
-
+Please see the getter of this property: [getPattern()](../../com.aspose.cells/fillformat\#getPattern--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -712,7 +712,7 @@ public void setPictureFormatType(int value)
 ```
 
 
-
+Please see the getter of this property: [getPictureFormatType()](../../com.aspose.cells/fillformat\#getPictureFormatType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -740,7 +740,7 @@ public void setScale(double value)
 ```
 
 
-
+Please see the getter of this property: [getScale()](../../com.aspose.cells/fillformat\#getScale--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -753,7 +753,7 @@ public void setSetType(int value)
 ```
 
 
-
+Please see the getter of this property: [getSetType()](../../com.aspose.cells/fillformat\#getSetType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -766,7 +766,7 @@ public void setTexture(int value)
 ```
 
 
-
+Please see the getter of this property: [getTexture()](../../com.aspose.cells/fillformat\#getTexture--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -779,7 +779,7 @@ public void setTransparency(double value)
 ```
 
 
-
+Please see the getter of this property: [getTransparency()](../../com.aspose.cells/fillformat\#getTransparency--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -826,7 +826,7 @@ public void setType(int value)
 ```
 
 
-
+Please see the getter of this property: [getType()](../../com.aspose.cells/fillformat\#getType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -839,7 +839,7 @@ public void setWeight(double value)
 ```
 
 
-
+Please see the getter of this property: [getWeight()](../../com.aspose.cells/lineformat\#getWeight--)
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -40,7 +40,7 @@ Represents all persons who .
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeAt(int index)](#removeAt-int-) | Removes the item at the specified index. |
-| [setCurrentPerson(ThreadedCommentAuthor value)](#setCurrentPerson-com.aspose.cells.ThreadedCommentAuthor-) |  |
+| [setCurrentPerson(ThreadedCommentAuthor value)](#setCurrentPerson-com.aspose.cells.ThreadedCommentAuthor-) | Please see the getter of this property: @CREF66\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -266,7 +266,7 @@ public void setCurrentPerson(ThreadedCommentAuthor value)
 ```
 
 
-
+Please see the getter of this property: @CREF66\_
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -30,7 +30,7 @@ Represents the character bullet.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCharacter(char value)](#setCharacter-char-) |  |
+| [setCharacter(char value)](#setCharacter-char-) | Please see the getter of this property: @CREF742\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -118,7 +118,7 @@ public void setCharacter(char value)
 ```
 
 
-
+Please see the getter of this property: @CREF742\_
 
 **Parameters:**
 | Parameter | Type | Description |

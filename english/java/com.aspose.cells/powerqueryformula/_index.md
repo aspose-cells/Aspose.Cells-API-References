@@ -26,7 +26,7 @@ Represents the definition of power query formula.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) |  |
+| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: @CREF265\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -118,7 +118,7 @@ public void setName(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF265\_
 
 **Parameters:**
 | Parameter | Type | Description |

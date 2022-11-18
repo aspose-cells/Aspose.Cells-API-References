@@ -34,17 +34,17 @@ Represents the picture format.
 | [isGray()](#isGray--) | Indicates whether this picture SHOULD be displayed in grayscale. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBiLevel(boolean value)](#setBiLevel-boolean-) |  |
-| [setBottomCrop(double value)](#setBottomCrop-double-) |  |
-| [setBrightness(double value)](#setBrightness-double-) |  |
-| [setContrast(double value)](#setContrast-double-) |  |
-| [setGamma(double value)](#setGamma-double-) |  |
-| [setGray(boolean value)](#setGray-boolean-) |  |
-| [setLeftCrop(double value)](#setLeftCrop-double-) |  |
-| [setRightCrop(double value)](#setRightCrop-double-) |  |
-| [setTopCrop(double value)](#setTopCrop-double-) |  |
-| [setTransparency(double value)](#setTransparency-double-) |  |
-| [setTransparentColor(CellsColor value)](#setTransparentColor-com.aspose.cells.CellsColor-) |  |
+| [setBiLevel(boolean value)](#setBiLevel-boolean-) | Please see the getter of this property: @CREF1759\_ |
+| [setBottomCrop(double value)](#setBottomCrop-double-) | Please see the getter of this property: @CREF1751\_ |
+| [setBrightness(double value)](#setBrightness-double-) | Please see the getter of this property: @CREF1757\_ |
+| [setContrast(double value)](#setContrast-double-) | Please see the getter of this property: @CREF1756\_ |
+| [setGamma(double value)](#setGamma-double-) | Please see the getter of this property: @CREF1758\_ |
+| [setGray(boolean value)](#setGray-boolean-) | Please see the getter of this property: @CREF1760\_ |
+| [setLeftCrop(double value)](#setLeftCrop-double-) | Please see the getter of this property: @CREF1752\_ |
+| [setRightCrop(double value)](#setRightCrop-double-) | Please see the getter of this property: @CREF1753\_ |
+| [setTopCrop(double value)](#setTopCrop-double-) | Please see the getter of this property: @CREF1750\_ |
+| [setTransparency(double value)](#setTransparency-double-) | Please see the getter of this property: @CREF1754\_ |
+| [setTransparentColor(CellsColor value)](#setTransparentColor-com.aspose.cells.CellsColor-) | Please see the getter of this property: @CREF1755\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -216,7 +216,7 @@ public void setBiLevel(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1759\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -229,7 +229,7 @@ public void setBottomCrop(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1751\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -242,7 +242,7 @@ public void setBrightness(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1757\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -255,7 +255,7 @@ public void setContrast(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1756\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -268,7 +268,7 @@ public void setGamma(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1758\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -281,7 +281,7 @@ public void setGray(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1760\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -294,7 +294,7 @@ public void setLeftCrop(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1752\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -307,7 +307,7 @@ public void setRightCrop(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1753\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -320,7 +320,7 @@ public void setTopCrop(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1750\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -333,7 +333,7 @@ public void setTransparency(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1754\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -346,7 +346,7 @@ public void setTransparentColor(CellsColor value)
 ```
 
 
-
+Please see the getter of this property: @CREF1755\_
 
 **Parameters:**
 | Parameter | Type | Description |

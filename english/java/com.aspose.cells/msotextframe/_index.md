@@ -30,13 +30,13 @@ Represents the text frame in a Shape object.
 | [isAutoMargin()](#isAutoMargin--) | Indicates whether the margin is auto calculated. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoMargin(boolean value)](#setAutoMargin-boolean-) |  |
-| [setAutoSize(boolean value)](#setAutoSize-boolean-) |  |
-| [setBottomMarginPt(double value)](#setBottomMarginPt-double-) |  |
-| [setLeftMarginPt(double value)](#setLeftMarginPt-double-) |  |
-| [setRightMarginPt(double value)](#setRightMarginPt-double-) |  |
-| [setRotateTextWithShape(boolean value)](#setRotateTextWithShape-boolean-) |  |
-| [setTopMarginPt(double value)](#setTopMarginPt-double-) |  |
+| [setAutoMargin(boolean value)](#setAutoMargin-boolean-) | Please see the getter of this property: @CREF1769\_ |
+| [setAutoSize(boolean value)](#setAutoSize-boolean-) | Please see the getter of this property: @CREF1768\_ |
+| [setBottomMarginPt(double value)](#setBottomMarginPt-double-) | Please see the getter of this property: @CREF1774\_ |
+| [setLeftMarginPt(double value)](#setLeftMarginPt-double-) | Please see the getter of this property: @CREF1771\_ |
+| [setRightMarginPt(double value)](#setRightMarginPt-double-) | Please see the getter of this property: @CREF1772\_ |
+| [setRotateTextWithShape(boolean value)](#setRotateTextWithShape-boolean-) | Please see the getter of this property: @CREF1770\_ |
+| [setTopMarginPt(double value)](#setTopMarginPt-double-) | Please see the getter of this property: @CREF1773\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -168,7 +168,7 @@ public void setAutoMargin(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1769\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,7 +181,7 @@ public void setAutoSize(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1768\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -194,7 +194,7 @@ public void setBottomMarginPt(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1774\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -207,7 +207,7 @@ public void setLeftMarginPt(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1771\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -220,7 +220,7 @@ public void setRightMarginPt(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1772\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -233,7 +233,7 @@ public void setRotateTextWithShape(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1770\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ public void setTopMarginPt(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1773\_
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -26,9 +26,9 @@ Specifies write protection settings for a workbook.
 | [isWriteProtected()](#isWriteProtected--) | Indicates whether this workbook is write protected. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAuthor(String value)](#setAuthor-java.lang.String-) |  |
+| [setAuthor(String value)](#setAuthor-java.lang.String-) | Please see the getter of this property: @CREF937\_ |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Sets the protected password to modify the file. |
-| [setRecommendReadOnly(boolean value)](#setRecommendReadOnly-boolean-) |  |
+| [setRecommendReadOnly(boolean value)](#setRecommendReadOnly-boolean-) | Please see the getter of this property: @CREF938\_ |
 | [toString()](#toString--) |  |
 | [validatePassword(String password)](#validatePassword-java.lang.String-) | Returns true if the specified password is the same as the write-protection password the file was protected with. |
 | [wait()](#wait--) |  |
@@ -121,7 +121,7 @@ public void setAuthor(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF937\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -147,7 +147,7 @@ public void setRecommendReadOnly(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF938\_
 
 **Parameters:**
 | Parameter | Type | Description |

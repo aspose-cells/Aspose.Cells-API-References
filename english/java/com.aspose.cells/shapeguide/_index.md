@@ -29,7 +29,7 @@ Encapsulates a shape guide specifies the presence of a shape guide that will be 
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setValue(double value)](#setValue-double-) |  |
+| [setValue(double value)](#setValue-double-) | Please see the getter of this property: @CREF779\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -107,7 +107,7 @@ public void setValue(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF779\_
 
 **Parameters:**
 | Parameter | Type | Description |

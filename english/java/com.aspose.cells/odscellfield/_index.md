@@ -27,10 +27,10 @@ Represents the cell field of ods.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setColumn(int value)](#setColumn-int-) |  |
-| [setCustomFormat(String value)](#setCustomFormat-java.lang.String-) |  |
-| [setFieldType(int value)](#setFieldType-int-) |  |
-| [setRow(int value)](#setRow-int-) |  |
+| [setColumn(int value)](#setColumn-int-) | Please see the getter of this property: @CREF252\_ |
+| [setCustomFormat(String value)](#setCustomFormat-java.lang.String-) | Please see the getter of this property: @CREF249\_ |
+| [setFieldType(int value)](#setFieldType-int-) | Please see the getter of this property: @CREF250\_ |
+| [setRow(int value)](#setRow-int-) | Please see the getter of this property: @CREF251\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -132,7 +132,7 @@ public void setColumn(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF252\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setCustomFormat(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF249\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public void setFieldType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF250\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,7 +171,7 @@ public void setRow(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF251\_
 
 **Parameters:**
 | Parameter | Type | Description |

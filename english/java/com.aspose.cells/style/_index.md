@@ -72,34 +72,34 @@ Workbook workbook = new Workbook();
 | [isTextWrapped()](#isTextWrapped--) | Gets or sets a value indicating whether the text within a cell is wrapped. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBackgroundArgbColor(int value)](#setBackgroundArgbColor-int-) |  |
-| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.cells.Color-) |  |
-| [setBackgroundThemeColor(ThemeColor value)](#setBackgroundThemeColor-com.aspose.cells.ThemeColor-) |  |
+| [setBackgroundArgbColor(int value)](#setBackgroundArgbColor-int-) | Please see the getter of this property: [getBackgroundArgbColor()](../../com.aspose.cells/style\#getBackgroundArgbColor--) |
+| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.cells.Color-) | Please see the getter of this property: [getBackgroundColor()](../../com.aspose.cells/style\#getBackgroundColor--) |
+| [setBackgroundThemeColor(ThemeColor value)](#setBackgroundThemeColor-com.aspose.cells.ThemeColor-) | Please see the getter of this property: [getBackgroundThemeColor()](../../com.aspose.cells/style\#getBackgroundThemeColor--) |
 | [setBorder(int borderType, int borderStyle, CellsColor borderColor)](#setBorder-int-int-com.aspose.cells.CellsColor-) | Sets the borders of the style. |
 | [setBorder(int borderType, int borderStyle, Color borderColor)](#setBorder-int-int-com.aspose.cells.Color-) | Sets the borders of the style. |
-| [setCultureCustom(String value)](#setCultureCustom-java.lang.String-) |  |
-| [setCustom(String value)](#setCustom-java.lang.String-) |  |
+| [setCultureCustom(String value)](#setCultureCustom-java.lang.String-) | Please see the getter of this property: [getCultureCustom()](../../com.aspose.cells/style\#getCultureCustom--) |
+| [setCustom(String value)](#setCustom-java.lang.String-) | Please see the getter of this property: [getCustom()](../../com.aspose.cells/style\#getCustom--) |
 | [setCustom(String custom, boolean builtinPreference)](#setCustom-java.lang.String-boolean-) | Sets the Custom number format string of a cell. |
-| [setForegroundArgbColor(int value)](#setForegroundArgbColor-int-) |  |
-| [setForegroundColor(Color value)](#setForegroundColor-com.aspose.cells.Color-) |  |
-| [setForegroundThemeColor(ThemeColor value)](#setForegroundThemeColor-com.aspose.cells.ThemeColor-) |  |
-| [setFormulaHidden(boolean value)](#setFormulaHidden-boolean-) |  |
-| [setGradient(boolean value)](#setGradient-boolean-) |  |
-| [setHorizontalAlignment(int value)](#setHorizontalAlignment-int-) |  |
-| [setIndentLevel(int value)](#setIndentLevel-int-) |  |
-| [setJustifyDistributed(boolean value)](#setJustifyDistributed-boolean-) |  |
-| [setLocked(boolean value)](#setLocked-boolean-) |  |
-| [setName(String value)](#setName-java.lang.String-) |  |
-| [setNumber(int value)](#setNumber-int-) |  |
-| [setPattern(int value)](#setPattern-int-) |  |
+| [setForegroundArgbColor(int value)](#setForegroundArgbColor-int-) | Please see the getter of this property: [getForegroundArgbColor()](../../com.aspose.cells/style\#getForegroundArgbColor--) |
+| [setForegroundColor(Color value)](#setForegroundColor-com.aspose.cells.Color-) | Please see the getter of this property: [getForegroundColor()](../../com.aspose.cells/style\#getForegroundColor--) |
+| [setForegroundThemeColor(ThemeColor value)](#setForegroundThemeColor-com.aspose.cells.ThemeColor-) | Please see the getter of this property: [getForegroundThemeColor()](../../com.aspose.cells/style\#getForegroundThemeColor--) |
+| [setFormulaHidden(boolean value)](#setFormulaHidden-boolean-) | Please see the getter of this property: [isFormulaHidden()](../../com.aspose.cells/style\#isFormulaHidden--) |
+| [setGradient(boolean value)](#setGradient-boolean-) | Please see the getter of this property: [isGradient()](../../com.aspose.cells/style\#isGradient--) |
+| [setHorizontalAlignment(int value)](#setHorizontalAlignment-int-) | Please see the getter of this property: [getHorizontalAlignment()](../../com.aspose.cells/style\#getHorizontalAlignment--) |
+| [setIndentLevel(int value)](#setIndentLevel-int-) | Please see the getter of this property: [getIndentLevel()](../../com.aspose.cells/style\#getIndentLevel--) |
+| [setJustifyDistributed(boolean value)](#setJustifyDistributed-boolean-) | Please see the getter of this property: [isJustifyDistributed()](../../com.aspose.cells/style\#isJustifyDistributed--) |
+| [setLocked(boolean value)](#setLocked-boolean-) | Please see the getter of this property: [isLocked()](../../com.aspose.cells/style\#isLocked--) |
+| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: [getName()](../../com.aspose.cells/style\#getName--) |
+| [setNumber(int value)](#setNumber-int-) | Please see the getter of this property: [getNumber()](../../com.aspose.cells/style\#getNumber--) |
+| [setPattern(int value)](#setPattern-int-) | Please see the getter of this property: [getPattern()](../../com.aspose.cells/style\#getPattern--) |
 | [setPatternColor(int pattern, Color color1, Color color2)](#setPatternColor-int-com.aspose.cells.Color-com.aspose.cells.Color-) | Sets the background color. |
-| [setQuotePrefix(boolean value)](#setQuotePrefix-boolean-) |  |
-| [setRotationAngle(int value)](#setRotationAngle-int-) |  |
-| [setShrinkToFit(boolean value)](#setShrinkToFit-boolean-) |  |
-| [setTextDirection(int value)](#setTextDirection-int-) |  |
-| [setTextWrapped(boolean value)](#setTextWrapped-boolean-) |  |
+| [setQuotePrefix(boolean value)](#setQuotePrefix-boolean-) | Please see the getter of this property: [getQuotePrefix()](../../com.aspose.cells/style\#getQuotePrefix--) |
+| [setRotationAngle(int value)](#setRotationAngle-int-) | Please see the getter of this property: [getRotationAngle()](../../com.aspose.cells/style\#getRotationAngle--) |
+| [setShrinkToFit(boolean value)](#setShrinkToFit-boolean-) | Please see the getter of this property: [getShrinkToFit()](../../com.aspose.cells/style\#getShrinkToFit--) |
+| [setTextDirection(int value)](#setTextDirection-int-) | Please see the getter of this property: [getTextDirection()](../../com.aspose.cells/style\#getTextDirection--) |
+| [setTextWrapped(boolean value)](#setTextWrapped-boolean-) | Please see the getter of this property: [isTextWrapped()](../../com.aspose.cells/style\#isTextWrapped--) |
 | [setTwoColorGradient(Color color1, Color color2, int gradientStyleType, int variant)](#setTwoColorGradient-com.aspose.cells.Color-com.aspose.cells.Color-int-int-) | Sets the specified fill to a two-color gradient. |
-| [setVerticalAlignment(int value)](#setVerticalAlignment-int-) |  |
+| [setVerticalAlignment(int value)](#setVerticalAlignment-int-) | Please see the getter of this property: [getVerticalAlignment()](../../com.aspose.cells/style\#getVerticalAlignment--) |
 | [toString()](#toString--) |  |
 | [update()](#update--) | Apply the named style to the styles of the cells which use this named style. |
 | [wait()](#wait--) |  |
@@ -565,7 +565,7 @@ public void setBackgroundArgbColor(int value)
 ```
 
 
-
+Please see the getter of this property: [getBackgroundArgbColor()](../../com.aspose.cells/style\#getBackgroundArgbColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -578,7 +578,7 @@ public void setBackgroundColor(Color value)
 ```
 
 
-
+Please see the getter of this property: [getBackgroundColor()](../../com.aspose.cells/style\#getBackgroundColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -591,7 +591,7 @@ public void setBackgroundThemeColor(ThemeColor value)
 ```
 
 
-
+Please see the getter of this property: [getBackgroundThemeColor()](../../com.aspose.cells/style\#getBackgroundThemeColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -638,7 +638,7 @@ public void setCultureCustom(String value)
 ```
 
 
-
+Please see the getter of this property: [getCultureCustom()](../../com.aspose.cells/style\#getCultureCustom--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -651,7 +651,7 @@ public void setCustom(String value)
 ```
 
 
-
+Please see the getter of this property: [getCustom()](../../com.aspose.cells/style\#getCustom--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -678,7 +678,7 @@ public void setForegroundArgbColor(int value)
 ```
 
 
-
+Please see the getter of this property: [getForegroundArgbColor()](../../com.aspose.cells/style\#getForegroundArgbColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -691,7 +691,7 @@ public void setForegroundColor(Color value)
 ```
 
 
-
+Please see the getter of this property: [getForegroundColor()](../../com.aspose.cells/style\#getForegroundColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -704,7 +704,7 @@ public void setForegroundThemeColor(ThemeColor value)
 ```
 
 
-
+Please see the getter of this property: [getForegroundThemeColor()](../../com.aspose.cells/style\#getForegroundThemeColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -717,7 +717,7 @@ public void setFormulaHidden(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isFormulaHidden()](../../com.aspose.cells/style\#isFormulaHidden--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -730,7 +730,7 @@ public void setGradient(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isGradient()](../../com.aspose.cells/style\#isGradient--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -743,7 +743,7 @@ public void setHorizontalAlignment(int value)
 ```
 
 
-
+Please see the getter of this property: [getHorizontalAlignment()](../../com.aspose.cells/style\#getHorizontalAlignment--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -756,7 +756,7 @@ public void setIndentLevel(int value)
 ```
 
 
-
+Please see the getter of this property: [getIndentLevel()](../../com.aspose.cells/style\#getIndentLevel--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -769,7 +769,7 @@ public void setJustifyDistributed(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isJustifyDistributed()](../../com.aspose.cells/style\#isJustifyDistributed--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -782,7 +782,7 @@ public void setLocked(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isLocked()](../../com.aspose.cells/style\#isLocked--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -795,7 +795,7 @@ public void setName(String value)
 ```
 
 
-
+Please see the getter of this property: [getName()](../../com.aspose.cells/style\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -808,7 +808,7 @@ public void setNumber(int value)
 ```
 
 
-
+Please see the getter of this property: [getNumber()](../../com.aspose.cells/style\#getNumber--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -821,7 +821,7 @@ public void setPattern(int value)
 ```
 
 
-
+Please see the getter of this property: [getPattern()](../../com.aspose.cells/style\#getPattern--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -849,7 +849,7 @@ public void setQuotePrefix(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getQuotePrefix()](../../com.aspose.cells/style\#getQuotePrefix--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -862,7 +862,7 @@ public void setRotationAngle(int value)
 ```
 
 
-
+Please see the getter of this property: [getRotationAngle()](../../com.aspose.cells/style\#getRotationAngle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -875,7 +875,7 @@ public void setShrinkToFit(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getShrinkToFit()](../../com.aspose.cells/style\#getShrinkToFit--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -888,7 +888,7 @@ public void setTextDirection(int value)
 ```
 
 
-
+Please see the getter of this property: [getTextDirection()](../../com.aspose.cells/style\#getTextDirection--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -901,7 +901,7 @@ public void setTextWrapped(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isTextWrapped()](../../com.aspose.cells/style\#isTextWrapped--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -930,7 +930,7 @@ public void setVerticalAlignment(int value)
 ```
 
 
-
+Please see the getter of this property: [getVerticalAlignment()](../../com.aspose.cells/style\#getVerticalAlignment--)
 
 **Parameters:**
 | Parameter | Type | Description |

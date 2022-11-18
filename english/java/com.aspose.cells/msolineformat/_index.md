@@ -30,13 +30,13 @@ Represents line and arrowhead formatting.
 | [isVisible()](#isVisible--) | Indicates whether the object is visible. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBackColor(Color value)](#setBackColor-com.aspose.cells.Color-) |  |
-| [setDashStyle(int value)](#setDashStyle-int-) |  |
-| [setForeColor(Color value)](#setForeColor-com.aspose.cells.Color-) |  |
-| [setStyle(int value)](#setStyle-int-) |  |
-| [setTransparency(double value)](#setTransparency-double-) |  |
-| [setVisible(boolean value)](#setVisible-boolean-) |  |
-| [setWeight(double value)](#setWeight-double-) |  |
+| [setBackColor(Color value)](#setBackColor-com.aspose.cells.Color-) | Please see the getter of this property: @CREF1764\_ |
+| [setDashStyle(int value)](#setDashStyle-int-) | Please see the getter of this property: @CREF1765\_ |
+| [setForeColor(Color value)](#setForeColor-com.aspose.cells.Color-) | Please see the getter of this property: @CREF1763\_ |
+| [setStyle(int value)](#setStyle-int-) | Please see the getter of this property: @CREF1762\_ |
+| [setTransparency(double value)](#setTransparency-double-) | Please see the getter of this property: @CREF1766\_ |
+| [setVisible(boolean value)](#setVisible-boolean-) | Please see the getter of this property: @CREF1761\_ |
+| [setWeight(double value)](#setWeight-double-) | Please see the getter of this property: @CREF1767\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -168,7 +168,7 @@ public void setBackColor(Color value)
 ```
 
 
-
+Please see the getter of this property: @CREF1764\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,7 +181,7 @@ public void setDashStyle(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1765\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -194,7 +194,7 @@ public void setForeColor(Color value)
 ```
 
 
-
+Please see the getter of this property: @CREF1763\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -207,7 +207,7 @@ public void setStyle(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1762\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -220,7 +220,7 @@ public void setTransparency(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1766\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -233,7 +233,7 @@ public void setVisible(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1761\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ public void setWeight(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1767\_
 
 **Parameters:**
 | Parameter | Type | Description |

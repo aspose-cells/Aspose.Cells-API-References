@@ -40,13 +40,13 @@ Contains properties and methods that apply to WordArt objects.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFontBold(boolean value)](#setFontBold-boolean-) |  |
-| [setFontItalic(boolean value)](#setFontItalic-boolean-) |  |
-| [setFontName(String value)](#setFontName-java.lang.String-) |  |
-| [setFontSize(int value)](#setFontSize-int-) |  |
-| [setPresetShape(int value)](#setPresetShape-int-) |  |
-| [setRotatedChars(boolean value)](#setRotatedChars-boolean-) |  |
-| [setText(String value)](#setText-java.lang.String-) |  |
+| [setFontBold(boolean value)](#setFontBold-boolean-) | Please see the getter of this property: [getFontBold()](../../com.aspose.cells/texteffectformat\#getFontBold--) |
+| [setFontItalic(boolean value)](#setFontItalic-boolean-) | Please see the getter of this property: [getFontItalic()](../../com.aspose.cells/texteffectformat\#getFontItalic--) |
+| [setFontName(String value)](#setFontName-java.lang.String-) | Please see the getter of this property: [getFontName()](../../com.aspose.cells/texteffectformat\#getFontName--) |
+| [setFontSize(int value)](#setFontSize-int-) | Please see the getter of this property: [getFontSize()](../../com.aspose.cells/texteffectformat\#getFontSize--) |
+| [setPresetShape(int value)](#setPresetShape-int-) | Please see the getter of this property: [getPresetShape()](../../com.aspose.cells/texteffectformat\#getPresetShape--) |
+| [setRotatedChars(boolean value)](#setRotatedChars-boolean-) | Please see the getter of this property: [getRotatedChars()](../../com.aspose.cells/texteffectformat\#getRotatedChars--) |
+| [setText(String value)](#setText-java.lang.String-) | Please see the getter of this property: [getText()](../../com.aspose.cells/texteffectformat\#getText--) |
 | [setTextEffect(int effect)](#setTextEffect-int-) | Sets the preset text effect. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -179,7 +179,7 @@ public void setFontBold(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getFontBold()](../../com.aspose.cells/texteffectformat\#getFontBold--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -192,7 +192,7 @@ public void setFontItalic(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getFontItalic()](../../com.aspose.cells/texteffectformat\#getFontItalic--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -205,7 +205,7 @@ public void setFontName(String value)
 ```
 
 
-
+Please see the getter of this property: [getFontName()](../../com.aspose.cells/texteffectformat\#getFontName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -218,7 +218,7 @@ public void setFontSize(int value)
 ```
 
 
-
+Please see the getter of this property: [getFontSize()](../../com.aspose.cells/texteffectformat\#getFontSize--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -231,7 +231,7 @@ public void setPresetShape(int value)
 ```
 
 
-
+Please see the getter of this property: [getPresetShape()](../../com.aspose.cells/texteffectformat\#getPresetShape--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -244,7 +244,7 @@ public void setRotatedChars(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getRotatedChars()](../../com.aspose.cells/texteffectformat\#getRotatedChars--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -257,7 +257,7 @@ public void setText(String value)
 ```
 
 
-
+Please see the getter of this property: [getText()](../../com.aspose.cells/texteffectformat\#getText--)
 
 **Parameters:**
 | Parameter | Type | Description |

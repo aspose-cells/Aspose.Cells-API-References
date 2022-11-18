@@ -55,9 +55,9 @@ Workbook workbook = new Workbook();
 | [notifyAll()](#notifyAll--) |  |
 | [setCustomCalculatedFormula(String formula, boolean isR1C1, boolean isLocal)](#setCustomCalculatedFormula-java.lang.String-boolean-boolean-) | Sets the formula for this list column. |
 | [setCustomTotalsRowFormula(String formula, boolean isR1C1, boolean isLocal)](#setCustomTotalsRowFormula-java.lang.String-boolean-boolean-) | Gets the formula of totals row of this list column. |
-| [setFormula(String value)](#setFormula-java.lang.String-) |  |
-| [setName(String value)](#setName-java.lang.String-) |  |
-| [setTotalsCalculation(int value)](#setTotalsCalculation-int-) |  |
+| [setFormula(String value)](#setFormula-java.lang.String-) | Please see the getter of this property: [getFormula()](../../com.aspose.cells/listcolumn\#getFormula--) |
+| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: [getName()](../../com.aspose.cells/listcolumn\#getName--) |
+| [setTotalsCalculation(int value)](#setTotalsCalculation-int-) | Please see the getter of this property: [getTotalsCalculation()](../../com.aspose.cells/listcolumn\#getTotalsCalculation--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -221,7 +221,7 @@ public void setFormula(String value)
 ```
 
 
-
+Please see the getter of this property: [getFormula()](../../com.aspose.cells/listcolumn\#getFormula--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -234,7 +234,7 @@ public void setName(String value)
 ```
 
 
-
+Please see the getter of this property: [getName()](../../com.aspose.cells/listcolumn\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -247,7 +247,7 @@ public void setTotalsCalculation(int value)
 ```
 
 
-
+Please see the getter of this property: [getTotalsCalculation()](../../com.aspose.cells/listcolumn\#getTotalsCalculation--)
 
 **Parameters:**
 | Parameter | Type | Description |

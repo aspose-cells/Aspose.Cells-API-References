@@ -27,12 +27,12 @@ Specifies font settings
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) |  |
+| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Please see the getter of this property: @CREF169\_ |
 | [setFontFolder(String fontFolder, boolean recursive)](#setFontFolder-java.lang.String-boolean-) | Sets the fonts folder |
 | [setFontFolders(String[] fontFolders, boolean recursive)](#setFontFolders-java.lang.String---boolean-) | Sets the fonts folders |
 | [setFontSources(FontSourceBase[] sources)](#setFontSources-com.aspose.cells.FontSourceBase---) | Sets the fonts sources. |
 | [setFontSubstitutes(String originalFontName, String[] substituteFontNames)](#setFontSubstitutes-java.lang.String-java.lang.String---) | Font substitute names for given original font name. |
-| [setPreferSystemFontSubstitutes(boolean value)](#setPreferSystemFontSubstitutes-boolean-) |  |
+| [setPreferSystemFontSubstitutes(boolean value)](#setPreferSystemFontSubstitutes-boolean-) | Please see the getter of this property: @CREF170\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -139,7 +139,7 @@ public static void setDefaultFontName(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF169\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -207,7 +207,7 @@ public static void setPreferSystemFontSubstitutes(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF170\_
 
 **Parameters:**
 | Parameter | Type | Description |

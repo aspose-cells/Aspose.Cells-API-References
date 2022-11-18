@@ -48,13 +48,13 @@ Provides helper functions.
 | [notifyAll()](#notifyAll--) |  |
 | [rowIndexToName(int row)](#rowIndexToName-int-) | Gets row name according to row index. |
 | [rowNameToIndex(String rowName)](#rowNameToIndex-java.lang.String-) | Gets row index according to row name. |
-| [setAltStartPath(String value)](#setAltStartPath-java.lang.String-) |  |
-| [setCloudPlatform(boolean value)](#setCloudPlatform-boolean-) |  |
-| [setCustomImplementationFactory(CustomImplementationFactory value)](#setCustomImplementationFactory-com.aspose.cells.CustomImplementationFactory-) |  |
-| [setDPI(double value)](#setDPI-double-) |  |
-| [setLibraryPath(String value)](#setLibraryPath-java.lang.String-) |  |
-| [setSignificantDigits(int value)](#setSignificantDigits-int-) |  |
-| [setStartupPath(String value)](#setStartupPath-java.lang.String-) |  |
+| [setAltStartPath(String value)](#setAltStartPath-java.lang.String-) | Please see the getter of this property: @CREF1643\_ |
+| [setCloudPlatform(boolean value)](#setCloudPlatform-boolean-) | Please see the getter of this property: @CREF1646\_ |
+| [setCustomImplementationFactory(CustomImplementationFactory value)](#setCustomImplementationFactory-com.aspose.cells.CustomImplementationFactory-) | Please see the getter of this property: @CREF1645\_ |
+| [setDPI(double value)](#setDPI-double-) | Please see the getter of this property: @CREF1641\_ |
+| [setLibraryPath(String value)](#setLibraryPath-java.lang.String-) | Please see the getter of this property: @CREF1644\_ |
+| [setSignificantDigits(int value)](#setSignificantDigits-int-) | Please see the getter of this property: @CREF1640\_ |
+| [setStartupPath(String value)](#setStartupPath-java.lang.String-) | Please see the getter of this property: @CREF1642\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -463,7 +463,7 @@ public static void setAltStartPath(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF1643\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -476,7 +476,7 @@ public static void setCloudPlatform(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1646\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -489,7 +489,7 @@ public static void setCustomImplementationFactory(CustomImplementationFactory va
 ```
 
 
-
+Please see the getter of this property: @CREF1645\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -502,7 +502,7 @@ public static void setDPI(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1641\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -515,7 +515,7 @@ public static void setLibraryPath(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF1644\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -528,7 +528,7 @@ public static void setSignificantDigits(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1640\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -541,7 +541,7 @@ public static void setStartupPath(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF1642\_
 
 **Parameters:**
 | Parameter | Type | Description |

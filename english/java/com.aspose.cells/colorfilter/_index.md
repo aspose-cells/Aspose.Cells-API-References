@@ -25,7 +25,7 @@ Represents the color filter.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFilterByFillColor(boolean value)](#setFilterByFillColor-boolean-) |  |
+| [setFilterByFillColor(boolean value)](#setFilterByFillColor-boolean-) | Please see the getter of this property: @CREF1130\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -112,7 +112,7 @@ public void setFilterByFillColor(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1130\_
 
 **Parameters:**
 | Parameter | Type | Description |

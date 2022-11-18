@@ -51,21 +51,21 @@ Represents the text paragraph setting.
 | [isLatinLineBreak()](#isLatinLineBreak--) | Specifies whether a Latin word can be broken in half and wrapped onto the next line without a hyphen being added. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAlignmentType(int value)](#setAlignmentType-int-) |  |
-| [setDefaultTabSize(double value)](#setDefaultTabSize-double-) |  |
-| [setEastAsianLineBreak(boolean value)](#setEastAsianLineBreak-boolean-) |  |
-| [setFirstLineIndent(double value)](#setFirstLineIndent-double-) |  |
-| [setFontAlignType(int value)](#setFontAlignType-int-) |  |
-| [setHangingPunctuation(boolean value)](#setHangingPunctuation-boolean-) |  |
-| [setLatinLineBreak(boolean value)](#setLatinLineBreak-boolean-) |  |
-| [setLeftMargin(double value)](#setLeftMargin-double-) |  |
-| [setLineSpace(double value)](#setLineSpace-double-) |  |
-| [setLineSpaceSizeType(int value)](#setLineSpaceSizeType-int-) |  |
-| [setRightMargin(double value)](#setRightMargin-double-) |  |
-| [setSpaceAfter(double value)](#setSpaceAfter-double-) |  |
-| [setSpaceAfterSizeType(int value)](#setSpaceAfterSizeType-int-) |  |
-| [setSpaceBefore(double value)](#setSpaceBefore-double-) |  |
-| [setSpaceBeforeSizeType(int value)](#setSpaceBeforeSizeType-int-) |  |
+| [setAlignmentType(int value)](#setAlignmentType-int-) | Please see the getter of this property: @CREF774\_ |
+| [setDefaultTabSize(double value)](#setDefaultTabSize-double-) | Please see the getter of this property: @CREF775\_ |
+| [setEastAsianLineBreak(boolean value)](#setEastAsianLineBreak-boolean-) | Please see the getter of this property: @CREF768\_ |
+| [setFirstLineIndent(double value)](#setFirstLineIndent-double-) | Please see the getter of this property: @CREF772\_ |
+| [setFontAlignType(int value)](#setFontAlignType-int-) | Please see the getter of this property: @CREF773\_ |
+| [setHangingPunctuation(boolean value)](#setHangingPunctuation-boolean-) | Please see the getter of this property: @CREF769\_ |
+| [setLatinLineBreak(boolean value)](#setLatinLineBreak-boolean-) | Please see the getter of this property: @CREF767\_ |
+| [setLeftMargin(double value)](#setLeftMargin-double-) | Please see the getter of this property: @CREF771\_ |
+| [setLineSpace(double value)](#setLineSpace-double-) | Please see the getter of this property: @CREF762\_ |
+| [setLineSpaceSizeType(int value)](#setLineSpaceSizeType-int-) | Please see the getter of this property: @CREF761\_ |
+| [setRightMargin(double value)](#setRightMargin-double-) | Please see the getter of this property: @CREF770\_ |
+| [setSpaceAfter(double value)](#setSpaceAfter-double-) | Please see the getter of this property: @CREF764\_ |
+| [setSpaceAfterSizeType(int value)](#setSpaceAfterSizeType-int-) | Please see the getter of this property: @CREF763\_ |
+| [setSpaceBefore(double value)](#setSpaceBefore-double-) | Please see the getter of this property: @CREF766\_ |
+| [setSpaceBeforeSizeType(int value)](#setSpaceBeforeSizeType-int-) | Please see the getter of this property: @CREF765\_ |
 | [setWordArtStyle(int style)](#setWordArtStyle-int-) | Sets the preset WordArt style. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -364,7 +364,7 @@ public void setAlignmentType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF774\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -377,7 +377,7 @@ public void setDefaultTabSize(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF775\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -390,7 +390,7 @@ public void setEastAsianLineBreak(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF768\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -403,7 +403,7 @@ public void setFirstLineIndent(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF772\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -416,7 +416,7 @@ public void setFontAlignType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF773\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -429,7 +429,7 @@ public void setHangingPunctuation(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF769\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -442,7 +442,7 @@ public void setLatinLineBreak(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF767\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -455,7 +455,7 @@ public void setLeftMargin(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF771\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -468,7 +468,7 @@ public void setLineSpace(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF762\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -481,7 +481,7 @@ public void setLineSpaceSizeType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF761\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -494,7 +494,7 @@ public void setRightMargin(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF770\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -507,7 +507,7 @@ public void setSpaceAfter(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF764\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -520,7 +520,7 @@ public void setSpaceAfterSizeType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF763\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -533,7 +533,7 @@ public void setSpaceBefore(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF766\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -546,7 +546,7 @@ public void setSpaceBeforeSizeType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF765\_
 
 **Parameters:**
 | Parameter | Type | Description |

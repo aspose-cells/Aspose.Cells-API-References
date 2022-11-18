@@ -54,21 +54,21 @@ Encapsulates the object that represents the plot area in a chart.
 | [isInnerMode()](#isInnerMode--) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) |  |
-| [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) |  |
-| [setBackground(int value)](#setBackground-int-) |  |
-| [setBackgroundMode(int value)](#setBackgroundMode-int-) |  |
-| [setHeight(int value)](#setHeight-int-) |  |
-| [setInnerHeight(int value)](#setInnerHeight-int-) |  |
-| [setInnerMode(boolean value)](#setInnerMode-boolean-) |  |
-| [setInnerWidth(int value)](#setInnerWidth-int-) |  |
-| [setInnerX(int value)](#setInnerX-int-) |  |
-| [setInnerY(int value)](#setInnerY-int-) |  |
+| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | Please see the getter of this property: [getAutoScaleFont()](../../com.aspose.cells/chartframe\#getAutoScaleFont--) |
+| [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) | Please see the getter of this property: @CREF1333\_ |
+| [setBackground(int value)](#setBackground-int-) | Please see the getter of this property: [getBackground()](../../com.aspose.cells/chartframe\#getBackground--) |
+| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Please see the getter of this property: [getBackgroundMode()](../../com.aspose.cells/chartframe\#getBackgroundMode--) |
+| [setHeight(int value)](#setHeight-int-) | Please see the getter of this property: @CREF1327\_ |
+| [setInnerHeight(int value)](#setInnerHeight-int-) | Please see the getter of this property: @CREF1331\_ |
+| [setInnerMode(boolean value)](#setInnerMode-boolean-) | Please see the getter of this property: [isInnerMode()](../../com.aspose.cells/chartframe\#isInnerMode--) |
+| [setInnerWidth(int value)](#setInnerWidth-int-) | Please see the getter of this property: @CREF1332\_ |
+| [setInnerX(int value)](#setInnerX-int-) | Please see the getter of this property: @CREF1329\_ |
+| [setInnerY(int value)](#setInnerY-int-) | Please see the getter of this property: @CREF1330\_ |
 | [setPositionAuto()](#setPositionAuto--) | Set position of the plot area to automatic |
-| [setShadow(boolean value)](#setShadow-boolean-) |  |
-| [setWidth(int value)](#setWidth-int-) |  |
-| [setX(int value)](#setX-int-) |  |
-| [setY(int value)](#setY-int-) |  |
+| [setShadow(boolean value)](#setShadow-boolean-) | Please see the getter of this property: [getShadow()](../../com.aspose.cells/chartframe\#getShadow--) |
+| [setWidth(int value)](#setWidth-int-) | Please see the getter of this property: @CREF1328\_ |
+| [setX(int value)](#setX-int-) | Please see the getter of this property: @CREF1325\_ |
+| [setY(int value)](#setY-int-) | Please see the getter of this property: @CREF1326\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -444,7 +444,7 @@ public void setAutoScaleFont(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getAutoScaleFont()](../../com.aspose.cells/chartframe\#getAutoScaleFont--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -457,7 +457,7 @@ public void setAutomaticSize(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1333\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -470,7 +470,7 @@ public void setBackground(int value)
 ```
 
 
-
+Please see the getter of this property: [getBackground()](../../com.aspose.cells/chartframe\#getBackground--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -483,7 +483,7 @@ public void setBackgroundMode(int value)
 ```
 
 
-
+Please see the getter of this property: [getBackgroundMode()](../../com.aspose.cells/chartframe\#getBackgroundMode--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -496,7 +496,7 @@ public void setHeight(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1327\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -509,7 +509,7 @@ public void setInnerHeight(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1331\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -522,7 +522,7 @@ public void setInnerMode(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isInnerMode()](../../com.aspose.cells/chartframe\#isInnerMode--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -535,7 +535,7 @@ public void setInnerWidth(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1332\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -548,7 +548,7 @@ public void setInnerX(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1329\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -561,7 +561,7 @@ public void setInnerY(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1330\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -582,7 +582,7 @@ public void setShadow(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getShadow()](../../com.aspose.cells/chartframe\#getShadow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -595,7 +595,7 @@ public void setWidth(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1328\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -608,7 +608,7 @@ public void setX(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1325\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -621,7 +621,7 @@ public void setY(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1326\_
 
 **Parameters:**
 | Parameter | Type | Description |

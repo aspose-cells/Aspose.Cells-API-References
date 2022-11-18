@@ -28,8 +28,8 @@ Represents input cell for the scenario.
 | [isDeleted()](#isDeleted--) | Indicates whether input cell is deleted. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDeleted(boolean value)](#setDeleted-boolean-) |  |
-| [setValue(String value)](#setValue-java.lang.String-) |  |
+| [setDeleted(boolean value)](#setDeleted-boolean-) | Please see the getter of this property: @CREF871\_ |
+| [setValue(String value)](#setValue-java.lang.String-) | Please see the getter of this property: @CREF870\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -141,7 +141,7 @@ public void setDeleted(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF871\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -154,7 +154,7 @@ public void setValue(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF870\_
 
 **Parameters:**
 | Parameter | Type | Description |

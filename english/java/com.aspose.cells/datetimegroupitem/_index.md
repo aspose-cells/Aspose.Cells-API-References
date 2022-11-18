@@ -36,13 +36,13 @@ Represents the datetime's group setting.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDateTimeGroupingType(int value)](#setDateTimeGroupingType-int-) |  |
-| [setDay(int value)](#setDay-int-) |  |
-| [setHour(int value)](#setHour-int-) |  |
-| [setMinute(int value)](#setMinute-int-) |  |
-| [setMonth(int value)](#setMonth-int-) |  |
-| [setSecond(int value)](#setSecond-int-) |  |
-| [setYear(int value)](#setYear-int-) |  |
+| [setDateTimeGroupingType(int value)](#setDateTimeGroupingType-int-) | Please see the getter of this property: @CREF1134\_ |
+| [setDay(int value)](#setDay-int-) | Please see the getter of this property: @CREF1137\_ |
+| [setHour(int value)](#setHour-int-) | Please see the getter of this property: @CREF1138\_ |
+| [setMinute(int value)](#setMinute-int-) | Please see the getter of this property: @CREF1139\_ |
+| [setMonth(int value)](#setMonth-int-) | Please see the getter of this property: @CREF1136\_ |
+| [setSecond(int value)](#setSecond-int-) | Please see the getter of this property: @CREF1140\_ |
+| [setYear(int value)](#setYear-int-) | Please see the getter of this property: @CREF1135\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -203,7 +203,7 @@ public void setDateTimeGroupingType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1134\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -216,7 +216,7 @@ public void setDay(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1137\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -229,7 +229,7 @@ public void setHour(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1138\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -242,7 +242,7 @@ public void setMinute(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1139\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -255,7 +255,7 @@ public void setMonth(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1136\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -268,7 +268,7 @@ public void setSecond(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1140\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -281,7 +281,7 @@ public void setYear(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1135\_
 
 **Parameters:**
 | Parameter | Type | Description |

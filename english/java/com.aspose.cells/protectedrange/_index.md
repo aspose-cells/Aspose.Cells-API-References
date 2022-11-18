@@ -30,9 +30,9 @@ A specified range to be allowed to edit when the sheet protection is ON.
 | [isProtectedWithPassword()](#isProtectedWithPassword--) | Indicates whether the worksheets is protected with password. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) |  |
-| [setPassword(String value)](#setPassword-java.lang.String-) |  |
-| [setSecurityDescriptor(String value)](#setSecurityDescriptor-java.lang.String-) |  |
+| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: [getName()](../../com.aspose.cells/protectedrange\#getName--) |
+| [setPassword(String value)](#setPassword-java.lang.String-) | Please see the getter of this property: [getPassword()](../../com.aspose.cells/protectedrange\#getPassword--) |
+| [setSecurityDescriptor(String value)](#setSecurityDescriptor-java.lang.String-) | Please see the getter of this property: [getSecurityDescriptor()](../../com.aspose.cells/protectedrange\#getSecurityDescriptor--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -170,7 +170,7 @@ public void setName(String value)
 ```
 
 
-
+Please see the getter of this property: [getName()](../../com.aspose.cells/protectedrange\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -183,7 +183,7 @@ public void setPassword(String value)
 ```
 
 
-
+Please see the getter of this property: [getPassword()](../../com.aspose.cells/protectedrange\#getPassword--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -196,7 +196,7 @@ public void setSecurityDescriptor(String value)
 ```
 
 
-
+Please see the getter of this property: [getSecurityDescriptor()](../../com.aspose.cells/protectedrange\#getSecurityDescriptor--)
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -200,100 +200,100 @@ Represents an OleObject in a worksheet.
 | [notifyAll()](#notifyAll--) |  |
 | [removeActiveXControl()](#removeActiveXControl--) | Remove activeX control. |
 | [removeHyperlink()](#removeHyperlink--) | Remove the hyperlink of the shape. |
-| [setAlternativeText(String value)](#setAlternativeText-java.lang.String-) |  |
-| [setAnchorType(int value)](#setAnchorType-int-) |  |
-| [setAutoLoad(boolean value)](#setAutoLoad-boolean-) |  |
-| [setAutoShapeType(int value)](#setAutoShapeType-int-) |  |
-| [setAutoSize(boolean value)](#setAutoSize-boolean-) |  |
-| [setAutoUpdate(boolean value)](#setAutoUpdate-boolean-) |  |
-| [setBottom(int value)](#setBottom-int-) |  |
-| [setClassIdentifier(byte[] value)](#setClassIdentifier-byte---) |  |
-| [setCreateId(UUID value)](#setCreateId-java.util.UUID-) |  |
-| [setDisplayAsIcon(boolean value)](#setDisplayAsIcon-boolean-) |  |
+| [setAlternativeText(String value)](#setAlternativeText-java.lang.String-) | Please see the getter of this property: [getAlternativeText()](../../com.aspose.cells/shape\#getAlternativeText--) |
+| [setAnchorType(int value)](#setAnchorType-int-) | Please see the getter of this property: [getAnchorType()](../../com.aspose.cells/shape\#getAnchorType--) |
+| [setAutoLoad(boolean value)](#setAutoLoad-boolean-) | Please see the getter of this property: [getAutoLoad()](../../com.aspose.cells/oleobject\#getAutoLoad--) |
+| [setAutoShapeType(int value)](#setAutoShapeType-int-) | Please see the getter of this property: [getAutoShapeType()](../../com.aspose.cells/shape\#getAutoShapeType--) |
+| [setAutoSize(boolean value)](#setAutoSize-boolean-) | Please see the getter of this property: [isAutoSize()](../../com.aspose.cells/oleobject\#isAutoSize--) |
+| [setAutoUpdate(boolean value)](#setAutoUpdate-boolean-) | Please see the getter of this property: [getAutoUpdate()](../../com.aspose.cells/oleobject\#getAutoUpdate--) |
+| [setBottom(int value)](#setBottom-int-) | Please see the getter of this property: [getBottom()](../../com.aspose.cells/shape\#getBottom--) |
+| [setClassIdentifier(byte[] value)](#setClassIdentifier-byte---) | Please see the getter of this property: [getClassIdentifier()](../../com.aspose.cells/oleobject\#getClassIdentifier--) |
+| [setCreateId(UUID value)](#setCreateId-java.util.UUID-) | Please see the getter of this property: [getCreateId()](../../com.aspose.cells/shape\#getCreateId--) |
+| [setDisplayAsIcon(boolean value)](#setDisplayAsIcon-boolean-) | Please see the getter of this property: [getDisplayAsIcon()](../../com.aspose.cells/oleobject\#getDisplayAsIcon--) |
 | [setEmbeddedObject(boolean linkToFile, byte[] objectData, String sourceFileName, boolean displayAsIcon, String label)](#setEmbeddedObject-boolean-byte---java.lang.String-boolean-java.lang.String-) | Sets embedded object data. |
 | [setEmbeddedObject(boolean linkToFile, byte[] objectData, String sourceFileName, boolean displayAsIcon, String label, boolean updateIcon)](#setEmbeddedObject-boolean-byte---java.lang.String-boolean-java.lang.String-boolean-) | Sets embedded object data. |
-| [setFileFormatType(int value)](#setFileFormatType-int-) |  |
-| [setFilled(boolean value)](#setFilled-boolean-) |  |
-| [setFlippedHorizontally(boolean value)](#setFlippedHorizontally-boolean-) |  |
-| [setFlippedVertically(boolean value)](#setFlippedVertically-boolean-) |  |
-| [setFont(Font value)](#setFont-com.aspose.cells.Font-) |  |
-| [setHasLine(boolean value)](#setHasLine-boolean-) |  |
-| [setHeight(int value)](#setHeight-int-) |  |
-| [setHeightCM(double value)](#setHeightCM-double-) |  |
-| [setHeightInChart(int value)](#setHeightInChart-int-) |  |
-| [setHeightInShape(int value)](#setHeightInShape-int-) |  |
-| [setHeightInch(double value)](#setHeightInch-double-) |  |
-| [setHeightPt(double value)](#setHeightPt-double-) |  |
-| [setHeightScale(int value)](#setHeightScale-int-) |  |
-| [setHidden(boolean value)](#setHidden-boolean-) |  |
-| [setHtmlText(String value)](#setHtmlText-java.lang.String-) |  |
-| [setImageData(byte[] value)](#setImageData-byte---) |  |
-| [setImageSourceFullName(String value)](#setImageSourceFullName-java.lang.String-) |  |
-| [setInputRange(String value)](#setInputRange-java.lang.String-) |  |
+| [setFileFormatType(int value)](#setFileFormatType-int-) | Please see the getter of this property: [getFileFormatType()](../../com.aspose.cells/oleobject\#getFileFormatType--) |
+| [setFilled(boolean value)](#setFilled-boolean-) | Please see the getter of this property: [isFilled()](../../com.aspose.cells/shape\#isFilled--) |
+| [setFlippedHorizontally(boolean value)](#setFlippedHorizontally-boolean-) | Please see the getter of this property: [isFlippedHorizontally()](../../com.aspose.cells/shape\#isFlippedHorizontally--) |
+| [setFlippedVertically(boolean value)](#setFlippedVertically-boolean-) | Please see the getter of this property: [isFlippedVertically()](../../com.aspose.cells/shape\#isFlippedVertically--) |
+| [setFont(Font value)](#setFont-com.aspose.cells.Font-) | Please see the getter of this property: [getFont()](../../com.aspose.cells/shape\#getFont--) |
+| [setHasLine(boolean value)](#setHasLine-boolean-) | Please see the getter of this property: [hasLine()](../../com.aspose.cells/shape\#hasLine--) |
+| [setHeight(int value)](#setHeight-int-) | Please see the getter of this property: [getHeight()](../../com.aspose.cells/shape\#getHeight--) |
+| [setHeightCM(double value)](#setHeightCM-double-) | Please see the getter of this property: [getHeightCM()](../../com.aspose.cells/shape\#getHeightCM--) |
+| [setHeightInChart(int value)](#setHeightInChart-int-) | Please see the getter of this property: [getHeightInChart()](../../com.aspose.cells/shape\#getHeightInChart--) |
+| [setHeightInShape(int value)](#setHeightInShape-int-) | Please see the getter of this property: [getHeightInShape()](../../com.aspose.cells/shape\#getHeightInShape--) |
+| [setHeightInch(double value)](#setHeightInch-double-) | Please see the getter of this property: [getHeightInch()](../../com.aspose.cells/shape\#getHeightInch--) |
+| [setHeightPt(double value)](#setHeightPt-double-) | Please see the getter of this property: [getHeightPt()](../../com.aspose.cells/shape\#getHeightPt--) |
+| [setHeightScale(int value)](#setHeightScale-int-) | Please see the getter of this property: [getHeightScale()](../../com.aspose.cells/shape\#getHeightScale--) |
+| [setHidden(boolean value)](#setHidden-boolean-) | Please see the getter of this property: [isHidden()](../../com.aspose.cells/shape\#isHidden--) |
+| [setHtmlText(String value)](#setHtmlText-java.lang.String-) | Please see the getter of this property: [getHtmlText()](../../com.aspose.cells/shape\#getHtmlText--) |
+| [setImageData(byte[] value)](#setImageData-byte---) | Please see the getter of this property: [getImageData()](../../com.aspose.cells/oleobject\#getImageData--) |
+| [setImageSourceFullName(String value)](#setImageSourceFullName-java.lang.String-) | Please see the getter of this property: [getImageSourceFullName()](../../com.aspose.cells/oleobject\#getImageSourceFullName--) |
+| [setInputRange(String value)](#setInputRange-java.lang.String-) | Please see the getter of this property: [getInputRange()](../../com.aspose.cells/shape\#getInputRange--) |
 | [setInputRange(String formula, boolean isR1C1, boolean isLocal)](#setInputRange-java.lang.String-boolean-boolean-) | Sets the range used to fill the control. |
-| [setLabel(String value)](#setLabel-java.lang.String-) |  |
-| [setLeft(int value)](#setLeft-int-) |  |
-| [setLeftCM(double value)](#setLeftCM-double-) |  |
-| [setLeftInChart(int value)](#setLeftInChart-int-) |  |
-| [setLeftInShape(int value)](#setLeftInShape-int-) |  |
-| [setLeftInch(double value)](#setLeftInch-double-) |  |
-| [setLeftToCorner(int value)](#setLeftToCorner-int-) |  |
-| [setLink(boolean value)](#setLink-boolean-) |  |
-| [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) |  |
+| [setLabel(String value)](#setLabel-java.lang.String-) | Please see the getter of this property: [getLabel()](../../com.aspose.cells/oleobject\#getLabel--) |
+| [setLeft(int value)](#setLeft-int-) | Please see the getter of this property: [getLeft()](../../com.aspose.cells/shape\#getLeft--) |
+| [setLeftCM(double value)](#setLeftCM-double-) | Please see the getter of this property: [getLeftCM()](../../com.aspose.cells/shape\#getLeftCM--) |
+| [setLeftInChart(int value)](#setLeftInChart-int-) | Please see the getter of this property: [getLeftInChart()](../../com.aspose.cells/shape\#getLeftInChart--) |
+| [setLeftInShape(int value)](#setLeftInShape-int-) | Please see the getter of this property: [getLeftInShape()](../../com.aspose.cells/shape\#getLeftInShape--) |
+| [setLeftInch(double value)](#setLeftInch-double-) | Please see the getter of this property: [getLeftInch()](../../com.aspose.cells/shape\#getLeftInch--) |
+| [setLeftToCorner(int value)](#setLeftToCorner-int-) | Please see the getter of this property: [getLeftToCorner()](../../com.aspose.cells/shape\#getLeftToCorner--) |
+| [setLink(boolean value)](#setLink-boolean-) | Please see the getter of this property: [isLink()](../../com.aspose.cells/oleobject\#isLink--) |
+| [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | Please see the getter of this property: [getLinkedCell()](../../com.aspose.cells/shape\#getLinkedCell--) |
 | [setLinkedCell(String formula, boolean isR1C1, boolean isLocal)](#setLinkedCell-java.lang.String-boolean-boolean-) | Sets the range linked to the control's value. |
-| [setLockAspectRatio(boolean value)](#setLockAspectRatio-boolean-) |  |
-| [setLocked(boolean value)](#setLocked-boolean-) |  |
+| [setLockAspectRatio(boolean value)](#setLockAspectRatio-boolean-) | Please see the getter of this property: [isLockAspectRatio()](../../com.aspose.cells/shape\#isLockAspectRatio--) |
+| [setLocked(boolean value)](#setLocked-boolean-) | Please see the getter of this property: [isLocked()](../../com.aspose.cells/shape\#isLocked--) |
 | [setLockedProperty(int type, boolean value)](#setLockedProperty-int-boolean-) | Set the locked property. |
-| [setLowerDeltaX(int value)](#setLowerDeltaX-int-) |  |
-| [setLowerDeltaY(int value)](#setLowerDeltaY-int-) |  |
-| [setLowerRightColumn(int value)](#setLowerRightColumn-int-) |  |
-| [setLowerRightRow(int value)](#setLowerRightRow-int-) |  |
-| [setMacroName(String value)](#setMacroName-java.lang.String-) |  |
-| [setName(String value)](#setName-java.lang.String-) |  |
+| [setLowerDeltaX(int value)](#setLowerDeltaX-int-) | Please see the getter of this property: [getLowerDeltaX()](../../com.aspose.cells/shape\#getLowerDeltaX--) |
+| [setLowerDeltaY(int value)](#setLowerDeltaY-int-) | Please see the getter of this property: [getLowerDeltaY()](../../com.aspose.cells/shape\#getLowerDeltaY--) |
+| [setLowerRightColumn(int value)](#setLowerRightColumn-int-) | Please see the getter of this property: [getLowerRightColumn()](../../com.aspose.cells/shape\#getLowerRightColumn--) |
+| [setLowerRightRow(int value)](#setLowerRightRow-int-) | Please see the getter of this property: [getLowerRightRow()](../../com.aspose.cells/shape\#getLowerRightRow--) |
+| [setMacroName(String value)](#setMacroName-java.lang.String-) | Please see the getter of this property: [getMacroName()](../../com.aspose.cells/shape\#getMacroName--) |
+| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: [getName()](../../com.aspose.cells/shape\#getName--) |
 | [setNativeSourceFullName(String sourceFullName)](#setNativeSourceFullName-java.lang.String-) | Sets the ole native source full file name with path. |
-| [setObjectData(byte[] value)](#setObjectData-byte---) |  |
-| [setObjectSourceFullName(String value)](#setObjectSourceFullName-java.lang.String-) |  |
-| [setPlacement(int value)](#setPlacement-int-) |  |
-| [setPositionX(int value)](#setPositionX-int-) |  |
-| [setPositionY(int value)](#setPositionY-int-) |  |
-| [setPrintable(boolean value)](#setPrintable-boolean-) |  |
-| [setProgID(String value)](#setProgID-java.lang.String-) |  |
-| [setRelativeToOriginalPictureSize(boolean value)](#setRelativeToOriginalPictureSize-boolean-) |  |
-| [setRight(int value)](#setRight-int-) |  |
-| [setRotationAngle(double value)](#setRotationAngle-double-) |  |
-| [setSoftEdges(double value)](#setSoftEdges-double-) |  |
-| [setSourceFullName(String value)](#setSourceFullName-java.lang.String-) |  |
-| [setText(String value)](#setText-java.lang.String-) |  |
-| [setTextDirection(int value)](#setTextDirection-int-) |  |
-| [setTextHorizontalAlignment(int value)](#setTextHorizontalAlignment-int-) |  |
-| [setTextHorizontalOverflow(int value)](#setTextHorizontalOverflow-int-) |  |
-| [setTextOptions(TextOptions value)](#setTextOptions-com.aspose.cells.TextOptions-) |  |
-| [setTextOrientationType(int value)](#setTextOrientationType-int-) |  |
-| [setTextShapeType(int value)](#setTextShapeType-int-) |  |
-| [setTextVerticalAlignment(int value)](#setTextVerticalAlignment-int-) |  |
-| [setTextVerticalOverflow(int value)](#setTextVerticalOverflow-int-) |  |
-| [setTextWrapped(boolean value)](#setTextWrapped-boolean-) |  |
-| [setTitle(String value)](#setTitle-java.lang.String-) |  |
-| [setTop(int value)](#setTop-int-) |  |
-| [setTopCM(double value)](#setTopCM-double-) |  |
-| [setTopInChart(int value)](#setTopInChart-int-) |  |
-| [setTopInShape(int value)](#setTopInShape-int-) |  |
-| [setTopInch(double value)](#setTopInch-double-) |  |
-| [setTopToCorner(int value)](#setTopToCorner-int-) |  |
-| [setUpperDeltaX(int value)](#setUpperDeltaX-int-) |  |
-| [setUpperDeltaY(int value)](#setUpperDeltaY-int-) |  |
-| [setUpperLeftColumn(int value)](#setUpperLeftColumn-int-) |  |
-| [setUpperLeftRow(int value)](#setUpperLeftRow-int-) |  |
-| [setWidth(int value)](#setWidth-int-) |  |
-| [setWidthCM(double value)](#setWidthCM-double-) |  |
-| [setWidthInChart(int value)](#setWidthInChart-int-) |  |
-| [setWidthInShape(int value)](#setWidthInShape-int-) |  |
-| [setWidthInch(double value)](#setWidthInch-double-) |  |
-| [setWidthPt(double value)](#setWidthPt-double-) |  |
-| [setWidthScale(int value)](#setWidthScale-int-) |  |
-| [setX(int value)](#setX-int-) |  |
-| [setY(int value)](#setY-int-) |  |
-| [setZOrderPosition(int value)](#setZOrderPosition-int-) |  |
+| [setObjectData(byte[] value)](#setObjectData-byte---) | Please see the getter of this property: [getObjectData()](../../com.aspose.cells/oleobject\#getObjectData--) |
+| [setObjectSourceFullName(String value)](#setObjectSourceFullName-java.lang.String-) | Please see the getter of this property: [getObjectSourceFullName()](../../com.aspose.cells/oleobject\#getObjectSourceFullName--) |
+| [setPlacement(int value)](#setPlacement-int-) | Please see the getter of this property: [getPlacement()](../../com.aspose.cells/shape\#getPlacement--) |
+| [setPositionX(int value)](#setPositionX-int-) | Please see the getter of this property: [getPositionX()](../../com.aspose.cells/shape\#getPositionX--) |
+| [setPositionY(int value)](#setPositionY-int-) | Please see the getter of this property: [getPositionY()](../../com.aspose.cells/shape\#getPositionY--) |
+| [setPrintable(boolean value)](#setPrintable-boolean-) | Please see the getter of this property: [isPrintable()](../../com.aspose.cells/shape\#isPrintable--) |
+| [setProgID(String value)](#setProgID-java.lang.String-) | Please see the getter of this property: [getProgID()](../../com.aspose.cells/oleobject\#getProgID--) |
+| [setRelativeToOriginalPictureSize(boolean value)](#setRelativeToOriginalPictureSize-boolean-) | Please see the getter of this property: [getRelativeToOriginalPictureSize()](../../com.aspose.cells/shape\#getRelativeToOriginalPictureSize--) |
+| [setRight(int value)](#setRight-int-) | Please see the getter of this property: [getRight()](../../com.aspose.cells/shape\#getRight--) |
+| [setRotationAngle(double value)](#setRotationAngle-double-) | Please see the getter of this property: [getRotationAngle()](../../com.aspose.cells/shape\#getRotationAngle--) |
+| [setSoftEdges(double value)](#setSoftEdges-double-) | Please see the getter of this property: [getSoftEdges()](../../com.aspose.cells/shape\#getSoftEdges--) |
+| [setSourceFullName(String value)](#setSourceFullName-java.lang.String-) | Please see the getter of this property: [getSourceFullName()](../../com.aspose.cells/oleobject\#getSourceFullName--) |
+| [setText(String value)](#setText-java.lang.String-) | Please see the getter of this property: [getText()](../../com.aspose.cells/shape\#getText--) |
+| [setTextDirection(int value)](#setTextDirection-int-) | Please see the getter of this property: [getTextDirection()](../../com.aspose.cells/shape\#getTextDirection--) |
+| [setTextHorizontalAlignment(int value)](#setTextHorizontalAlignment-int-) | Please see the getter of this property: [getTextHorizontalAlignment()](../../com.aspose.cells/shape\#getTextHorizontalAlignment--) |
+| [setTextHorizontalOverflow(int value)](#setTextHorizontalOverflow-int-) | Please see the getter of this property: [getTextHorizontalOverflow()](../../com.aspose.cells/shape\#getTextHorizontalOverflow--) |
+| [setTextOptions(TextOptions value)](#setTextOptions-com.aspose.cells.TextOptions-) | Please see the getter of this property: [getTextOptions()](../../com.aspose.cells/shape\#getTextOptions--) |
+| [setTextOrientationType(int value)](#setTextOrientationType-int-) | Please see the getter of this property: [getTextOrientationType()](../../com.aspose.cells/shape\#getTextOrientationType--) |
+| [setTextShapeType(int value)](#setTextShapeType-int-) | Please see the getter of this property: [getTextShapeType()](../../com.aspose.cells/shape\#getTextShapeType--) |
+| [setTextVerticalAlignment(int value)](#setTextVerticalAlignment-int-) | Please see the getter of this property: [getTextVerticalAlignment()](../../com.aspose.cells/shape\#getTextVerticalAlignment--) |
+| [setTextVerticalOverflow(int value)](#setTextVerticalOverflow-int-) | Please see the getter of this property: [getTextVerticalOverflow()](../../com.aspose.cells/shape\#getTextVerticalOverflow--) |
+| [setTextWrapped(boolean value)](#setTextWrapped-boolean-) | Please see the getter of this property: [isTextWrapped()](../../com.aspose.cells/shape\#isTextWrapped--) |
+| [setTitle(String value)](#setTitle-java.lang.String-) | Please see the getter of this property: [getTitle()](../../com.aspose.cells/shape\#getTitle--) |
+| [setTop(int value)](#setTop-int-) | Please see the getter of this property: [getTop()](../../com.aspose.cells/shape\#getTop--) |
+| [setTopCM(double value)](#setTopCM-double-) | Please see the getter of this property: [getTopCM()](../../com.aspose.cells/shape\#getTopCM--) |
+| [setTopInChart(int value)](#setTopInChart-int-) | Please see the getter of this property: [getTopInChart()](../../com.aspose.cells/shape\#getTopInChart--) |
+| [setTopInShape(int value)](#setTopInShape-int-) | Please see the getter of this property: [getTopInShape()](../../com.aspose.cells/shape\#getTopInShape--) |
+| [setTopInch(double value)](#setTopInch-double-) | Please see the getter of this property: [getTopInch()](../../com.aspose.cells/shape\#getTopInch--) |
+| [setTopToCorner(int value)](#setTopToCorner-int-) | Please see the getter of this property: [getTopToCorner()](../../com.aspose.cells/shape\#getTopToCorner--) |
+| [setUpperDeltaX(int value)](#setUpperDeltaX-int-) | Please see the getter of this property: [getUpperDeltaX()](../../com.aspose.cells/shape\#getUpperDeltaX--) |
+| [setUpperDeltaY(int value)](#setUpperDeltaY-int-) | Please see the getter of this property: [getUpperDeltaY()](../../com.aspose.cells/shape\#getUpperDeltaY--) |
+| [setUpperLeftColumn(int value)](#setUpperLeftColumn-int-) | Please see the getter of this property: [getUpperLeftColumn()](../../com.aspose.cells/shape\#getUpperLeftColumn--) |
+| [setUpperLeftRow(int value)](#setUpperLeftRow-int-) | Please see the getter of this property: [getUpperLeftRow()](../../com.aspose.cells/shape\#getUpperLeftRow--) |
+| [setWidth(int value)](#setWidth-int-) | Please see the getter of this property: [getWidth()](../../com.aspose.cells/shape\#getWidth--) |
+| [setWidthCM(double value)](#setWidthCM-double-) | Please see the getter of this property: [getWidthCM()](../../com.aspose.cells/shape\#getWidthCM--) |
+| [setWidthInChart(int value)](#setWidthInChart-int-) | Please see the getter of this property: [getWidthInChart()](../../com.aspose.cells/shape\#getWidthInChart--) |
+| [setWidthInShape(int value)](#setWidthInShape-int-) | Please see the getter of this property: [getWidthInShape()](../../com.aspose.cells/shape\#getWidthInShape--) |
+| [setWidthInch(double value)](#setWidthInch-double-) | Please see the getter of this property: [getWidthInch()](../../com.aspose.cells/shape\#getWidthInch--) |
+| [setWidthPt(double value)](#setWidthPt-double-) | Please see the getter of this property: [getWidthPt()](../../com.aspose.cells/shape\#getWidthPt--) |
+| [setWidthScale(int value)](#setWidthScale-int-) | Please see the getter of this property: [getWidthScale()](../../com.aspose.cells/shape\#getWidthScale--) |
+| [setX(int value)](#setX-int-) | Please see the getter of this property: [getX()](../../com.aspose.cells/shape\#getX--) |
+| [setY(int value)](#setY-int-) | Please see the getter of this property: [getY()](../../com.aspose.cells/shape\#getY--) |
+| [setZOrderPosition(int value)](#setZOrderPosition-int-) | Please see the getter of this property: [getZOrderPosition()](../../com.aspose.cells/shape\#getZOrderPosition--) |
 | [toFrontOrBack(int orders)](#toFrontOrBack-int-) | Brings the shape to the front or sends the shape to back. |
 | [toImage(OutputStream stream, ImageFormat imageFormat)](#toImage-java.io.OutputStream-com.aspose.cells.ImageFormat-) | Creates the shape image and saves it to a stream in the specified format. |
 | [toImage(OutputStream stream, ImageOrPrintOptions options)](#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-) | Saves the shape to a stream. |
@@ -2322,7 +2322,7 @@ public void setAlternativeText(String value)
 ```
 
 
-
+Please see the getter of this property: [getAlternativeText()](../../com.aspose.cells/shape\#getAlternativeText--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2335,7 +2335,7 @@ public void setAnchorType(int value)
 ```
 
 
-
+Please see the getter of this property: [getAnchorType()](../../com.aspose.cells/shape\#getAnchorType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2348,7 +2348,7 @@ public void setAutoLoad(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getAutoLoad()](../../com.aspose.cells/oleobject\#getAutoLoad--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2361,7 +2361,7 @@ public void setAutoShapeType(int value)
 ```
 
 
-
+Please see the getter of this property: [getAutoShapeType()](../../com.aspose.cells/shape\#getAutoShapeType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2374,7 +2374,7 @@ public void setAutoSize(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isAutoSize()](../../com.aspose.cells/oleobject\#isAutoSize--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2387,7 +2387,7 @@ public void setAutoUpdate(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getAutoUpdate()](../../com.aspose.cells/oleobject\#getAutoUpdate--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2400,7 +2400,7 @@ public void setBottom(int value)
 ```
 
 
-
+Please see the getter of this property: [getBottom()](../../com.aspose.cells/shape\#getBottom--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2413,7 +2413,7 @@ public void setClassIdentifier(byte[] value)
 ```
 
 
-
+Please see the getter of this property: [getClassIdentifier()](../../com.aspose.cells/oleobject\#getClassIdentifier--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2426,7 +2426,7 @@ public void setCreateId(UUID value)
 ```
 
 
-
+Please see the getter of this property: [getCreateId()](../../com.aspose.cells/shape\#getCreateId--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2439,7 +2439,7 @@ public void setDisplayAsIcon(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getDisplayAsIcon()](../../com.aspose.cells/oleobject\#getDisplayAsIcon--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2487,7 +2487,7 @@ public void setFileFormatType(int value)
 ```
 
 
-
+Please see the getter of this property: [getFileFormatType()](../../com.aspose.cells/oleobject\#getFileFormatType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2500,7 +2500,7 @@ public void setFilled(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isFilled()](../../com.aspose.cells/shape\#isFilled--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2513,7 +2513,7 @@ public void setFlippedHorizontally(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isFlippedHorizontally()](../../com.aspose.cells/shape\#isFlippedHorizontally--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2526,7 +2526,7 @@ public void setFlippedVertically(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isFlippedVertically()](../../com.aspose.cells/shape\#isFlippedVertically--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2539,7 +2539,7 @@ public void setFont(Font value)
 ```
 
 
-
+Please see the getter of this property: [getFont()](../../com.aspose.cells/shape\#getFont--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2552,7 +2552,7 @@ public void setHasLine(boolean value)
 ```
 
 
-
+Please see the getter of this property: [hasLine()](../../com.aspose.cells/shape\#hasLine--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2565,7 +2565,7 @@ public void setHeight(int value)
 ```
 
 
-
+Please see the getter of this property: [getHeight()](../../com.aspose.cells/shape\#getHeight--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2578,7 +2578,7 @@ public void setHeightCM(double value)
 ```
 
 
-
+Please see the getter of this property: [getHeightCM()](../../com.aspose.cells/shape\#getHeightCM--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2591,7 +2591,7 @@ public void setHeightInChart(int value)
 ```
 
 
-
+Please see the getter of this property: [getHeightInChart()](../../com.aspose.cells/shape\#getHeightInChart--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2604,7 +2604,7 @@ public void setHeightInShape(int value)
 ```
 
 
-
+Please see the getter of this property: [getHeightInShape()](../../com.aspose.cells/shape\#getHeightInShape--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2617,7 +2617,7 @@ public void setHeightInch(double value)
 ```
 
 
-
+Please see the getter of this property: [getHeightInch()](../../com.aspose.cells/shape\#getHeightInch--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2630,7 +2630,7 @@ public void setHeightPt(double value)
 ```
 
 
-
+Please see the getter of this property: [getHeightPt()](../../com.aspose.cells/shape\#getHeightPt--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2643,7 +2643,7 @@ public void setHeightScale(int value)
 ```
 
 
-
+Please see the getter of this property: [getHeightScale()](../../com.aspose.cells/shape\#getHeightScale--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2656,7 +2656,7 @@ public void setHidden(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isHidden()](../../com.aspose.cells/shape\#isHidden--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2669,7 +2669,7 @@ public void setHtmlText(String value)
 ```
 
 
-
+Please see the getter of this property: [getHtmlText()](../../com.aspose.cells/shape\#getHtmlText--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2682,7 +2682,7 @@ public void setImageData(byte[] value)
 ```
 
 
-
+Please see the getter of this property: [getImageData()](../../com.aspose.cells/oleobject\#getImageData--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2695,7 +2695,7 @@ public void setImageSourceFullName(String value)
 ```
 
 
-
+Please see the getter of this property: [getImageSourceFullName()](../../com.aspose.cells/oleobject\#getImageSourceFullName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2708,7 +2708,7 @@ public void setInputRange(String value)
 ```
 
 
-
+Please see the getter of this property: [getInputRange()](../../com.aspose.cells/shape\#getInputRange--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2763,7 +2763,7 @@ public void setLabel(String value)
 ```
 
 
-
+Please see the getter of this property: [getLabel()](../../com.aspose.cells/oleobject\#getLabel--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2776,7 +2776,7 @@ public void setLeft(int value)
 ```
 
 
-
+Please see the getter of this property: [getLeft()](../../com.aspose.cells/shape\#getLeft--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2789,7 +2789,7 @@ public void setLeftCM(double value)
 ```
 
 
-
+Please see the getter of this property: [getLeftCM()](../../com.aspose.cells/shape\#getLeftCM--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2802,7 +2802,7 @@ public void setLeftInChart(int value)
 ```
 
 
-
+Please see the getter of this property: [getLeftInChart()](../../com.aspose.cells/shape\#getLeftInChart--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2815,7 +2815,7 @@ public void setLeftInShape(int value)
 ```
 
 
-
+Please see the getter of this property: [getLeftInShape()](../../com.aspose.cells/shape\#getLeftInShape--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2828,7 +2828,7 @@ public void setLeftInch(double value)
 ```
 
 
-
+Please see the getter of this property: [getLeftInch()](../../com.aspose.cells/shape\#getLeftInch--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2841,7 +2841,7 @@ public void setLeftToCorner(int value)
 ```
 
 
-
+Please see the getter of this property: [getLeftToCorner()](../../com.aspose.cells/shape\#getLeftToCorner--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2854,7 +2854,7 @@ public void setLink(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isLink()](../../com.aspose.cells/oleobject\#isLink--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2867,7 +2867,7 @@ public void setLinkedCell(String value)
 ```
 
 
-
+Please see the getter of this property: [getLinkedCell()](../../com.aspose.cells/shape\#getLinkedCell--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2908,7 +2908,7 @@ public void setLockAspectRatio(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isLockAspectRatio()](../../com.aspose.cells/shape\#isLockAspectRatio--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2921,7 +2921,7 @@ public void setLocked(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isLocked()](../../com.aspose.cells/shape\#isLocked--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2952,7 +2952,7 @@ public void setLowerDeltaX(int value)
 ```
 
 
-
+Please see the getter of this property: [getLowerDeltaX()](../../com.aspose.cells/shape\#getLowerDeltaX--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2965,7 +2965,7 @@ public void setLowerDeltaY(int value)
 ```
 
 
-
+Please see the getter of this property: [getLowerDeltaY()](../../com.aspose.cells/shape\#getLowerDeltaY--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2978,7 +2978,7 @@ public void setLowerRightColumn(int value)
 ```
 
 
-
+Please see the getter of this property: [getLowerRightColumn()](../../com.aspose.cells/shape\#getLowerRightColumn--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2991,7 +2991,7 @@ public void setLowerRightRow(int value)
 ```
 
 
-
+Please see the getter of this property: [getLowerRightRow()](../../com.aspose.cells/shape\#getLowerRightRow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3004,7 +3004,7 @@ public void setMacroName(String value)
 ```
 
 
-
+Please see the getter of this property: [getMacroName()](../../com.aspose.cells/shape\#getMacroName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3017,7 +3017,7 @@ public void setName(String value)
 ```
 
 
-
+Please see the getter of this property: [getName()](../../com.aspose.cells/shape\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3043,7 +3043,7 @@ public void setObjectData(byte[] value)
 ```
 
 
-
+Please see the getter of this property: [getObjectData()](../../com.aspose.cells/oleobject\#getObjectData--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3056,7 +3056,7 @@ public void setObjectSourceFullName(String value)
 ```
 
 
-
+Please see the getter of this property: [getObjectSourceFullName()](../../com.aspose.cells/oleobject\#getObjectSourceFullName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3069,7 +3069,7 @@ public void setPlacement(int value)
 ```
 
 
-
+Please see the getter of this property: [getPlacement()](../../com.aspose.cells/shape\#getPlacement--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3082,7 +3082,7 @@ public void setPositionX(int value)
 ```
 
 
-
+Please see the getter of this property: [getPositionX()](../../com.aspose.cells/shape\#getPositionX--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3095,7 +3095,7 @@ public void setPositionY(int value)
 ```
 
 
-
+Please see the getter of this property: [getPositionY()](../../com.aspose.cells/shape\#getPositionY--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3108,7 +3108,7 @@ public void setPrintable(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isPrintable()](../../com.aspose.cells/shape\#isPrintable--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3121,7 +3121,7 @@ public void setProgID(String value)
 ```
 
 
-
+Please see the getter of this property: [getProgID()](../../com.aspose.cells/oleobject\#getProgID--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3134,7 +3134,7 @@ public void setRelativeToOriginalPictureSize(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getRelativeToOriginalPictureSize()](../../com.aspose.cells/shape\#getRelativeToOriginalPictureSize--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3147,7 +3147,7 @@ public void setRight(int value)
 ```
 
 
-
+Please see the getter of this property: [getRight()](../../com.aspose.cells/shape\#getRight--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3160,7 +3160,7 @@ public void setRotationAngle(double value)
 ```
 
 
-
+Please see the getter of this property: [getRotationAngle()](../../com.aspose.cells/shape\#getRotationAngle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3173,7 +3173,7 @@ public void setSoftEdges(double value)
 ```
 
 
-
+Please see the getter of this property: [getSoftEdges()](../../com.aspose.cells/shape\#getSoftEdges--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3186,7 +3186,7 @@ public void setSourceFullName(String value)
 ```
 
 
-
+Please see the getter of this property: [getSourceFullName()](../../com.aspose.cells/oleobject\#getSourceFullName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3199,7 +3199,7 @@ public void setText(String value)
 ```
 
 
-
+Please see the getter of this property: [getText()](../../com.aspose.cells/shape\#getText--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3212,7 +3212,7 @@ public void setTextDirection(int value)
 ```
 
 
-
+Please see the getter of this property: [getTextDirection()](../../com.aspose.cells/shape\#getTextDirection--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3225,7 +3225,7 @@ public void setTextHorizontalAlignment(int value)
 ```
 
 
-
+Please see the getter of this property: [getTextHorizontalAlignment()](../../com.aspose.cells/shape\#getTextHorizontalAlignment--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3238,7 +3238,7 @@ public void setTextHorizontalOverflow(int value)
 ```
 
 
-
+Please see the getter of this property: [getTextHorizontalOverflow()](../../com.aspose.cells/shape\#getTextHorizontalOverflow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3251,7 +3251,7 @@ public void setTextOptions(TextOptions value)
 ```
 
 
-
+Please see the getter of this property: [getTextOptions()](../../com.aspose.cells/shape\#getTextOptions--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3264,7 +3264,7 @@ public void setTextOrientationType(int value)
 ```
 
 
-
+Please see the getter of this property: [getTextOrientationType()](../../com.aspose.cells/shape\#getTextOrientationType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3277,7 +3277,7 @@ public void setTextShapeType(int value)
 ```
 
 
-
+Please see the getter of this property: [getTextShapeType()](../../com.aspose.cells/shape\#getTextShapeType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3290,7 +3290,7 @@ public void setTextVerticalAlignment(int value)
 ```
 
 
-
+Please see the getter of this property: [getTextVerticalAlignment()](../../com.aspose.cells/shape\#getTextVerticalAlignment--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3303,7 +3303,7 @@ public void setTextVerticalOverflow(int value)
 ```
 
 
-
+Please see the getter of this property: [getTextVerticalOverflow()](../../com.aspose.cells/shape\#getTextVerticalOverflow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3316,7 +3316,7 @@ public void setTextWrapped(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isTextWrapped()](../../com.aspose.cells/shape\#isTextWrapped--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3329,7 +3329,7 @@ public void setTitle(String value)
 ```
 
 
-
+Please see the getter of this property: [getTitle()](../../com.aspose.cells/shape\#getTitle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3342,7 +3342,7 @@ public void setTop(int value)
 ```
 
 
-
+Please see the getter of this property: [getTop()](../../com.aspose.cells/shape\#getTop--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3355,7 +3355,7 @@ public void setTopCM(double value)
 ```
 
 
-
+Please see the getter of this property: [getTopCM()](../../com.aspose.cells/shape\#getTopCM--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3368,7 +3368,7 @@ public void setTopInChart(int value)
 ```
 
 
-
+Please see the getter of this property: [getTopInChart()](../../com.aspose.cells/shape\#getTopInChart--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3381,7 +3381,7 @@ public void setTopInShape(int value)
 ```
 
 
-
+Please see the getter of this property: [getTopInShape()](../../com.aspose.cells/shape\#getTopInShape--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3394,7 +3394,7 @@ public void setTopInch(double value)
 ```
 
 
-
+Please see the getter of this property: [getTopInch()](../../com.aspose.cells/shape\#getTopInch--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3407,7 +3407,7 @@ public void setTopToCorner(int value)
 ```
 
 
-
+Please see the getter of this property: [getTopToCorner()](../../com.aspose.cells/shape\#getTopToCorner--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3420,7 +3420,7 @@ public void setUpperDeltaX(int value)
 ```
 
 
-
+Please see the getter of this property: [getUpperDeltaX()](../../com.aspose.cells/shape\#getUpperDeltaX--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3433,7 +3433,7 @@ public void setUpperDeltaY(int value)
 ```
 
 
-
+Please see the getter of this property: [getUpperDeltaY()](../../com.aspose.cells/shape\#getUpperDeltaY--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3446,7 +3446,7 @@ public void setUpperLeftColumn(int value)
 ```
 
 
-
+Please see the getter of this property: [getUpperLeftColumn()](../../com.aspose.cells/shape\#getUpperLeftColumn--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3459,7 +3459,7 @@ public void setUpperLeftRow(int value)
 ```
 
 
-
+Please see the getter of this property: [getUpperLeftRow()](../../com.aspose.cells/shape\#getUpperLeftRow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3472,7 +3472,7 @@ public void setWidth(int value)
 ```
 
 
-
+Please see the getter of this property: [getWidth()](../../com.aspose.cells/shape\#getWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3485,7 +3485,7 @@ public void setWidthCM(double value)
 ```
 
 
-
+Please see the getter of this property: [getWidthCM()](../../com.aspose.cells/shape\#getWidthCM--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3498,7 +3498,7 @@ public void setWidthInChart(int value)
 ```
 
 
-
+Please see the getter of this property: [getWidthInChart()](../../com.aspose.cells/shape\#getWidthInChart--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3511,7 +3511,7 @@ public void setWidthInShape(int value)
 ```
 
 
-
+Please see the getter of this property: [getWidthInShape()](../../com.aspose.cells/shape\#getWidthInShape--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3524,7 +3524,7 @@ public void setWidthInch(double value)
 ```
 
 
-
+Please see the getter of this property: [getWidthInch()](../../com.aspose.cells/shape\#getWidthInch--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3537,7 +3537,7 @@ public void setWidthPt(double value)
 ```
 
 
-
+Please see the getter of this property: [getWidthPt()](../../com.aspose.cells/shape\#getWidthPt--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3550,7 +3550,7 @@ public void setWidthScale(int value)
 ```
 
 
-
+Please see the getter of this property: [getWidthScale()](../../com.aspose.cells/shape\#getWidthScale--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3563,7 +3563,7 @@ public void setX(int value)
 ```
 
 
-
+Please see the getter of this property: [getX()](../../com.aspose.cells/shape\#getX--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3576,7 +3576,7 @@ public void setY(int value)
 ```
 
 
-
+Please see the getter of this property: [getY()](../../com.aspose.cells/shape\#getY--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3589,7 +3589,7 @@ public void setZOrderPosition(int value)
 ```
 
 
-
+Please see the getter of this property: [getZOrderPosition()](../../com.aspose.cells/shape\#getZOrderPosition--)
 
 **Parameters:**
 | Parameter | Type | Description |

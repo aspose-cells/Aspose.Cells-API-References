@@ -41,8 +41,8 @@ Represents the module in VBA project.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCodes(String value)](#setCodes-java.lang.String-) |  |
-| [setName(String value)](#setName-java.lang.String-) |  |
+| [setCodes(String value)](#setCodes-java.lang.String-) | Please see the getter of this property: [getCodes()](../../com.aspose.cells/vbamodule\#getCodes--) |
+| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: [getName()](../../com.aspose.cells/vbamodule\#getName--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -134,7 +134,7 @@ public void setCodes(String value)
 ```
 
 
-
+Please see the getter of this property: [getCodes()](../../com.aspose.cells/vbamodule\#getCodes--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -147,7 +147,7 @@ public void setName(String value)
 ```
 
 
-
+Please see the getter of this property: [getName()](../../com.aspose.cells/vbamodule\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |

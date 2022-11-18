@@ -28,11 +28,11 @@ Represents a complex type that specifies the pivot controls that appear on the c
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDropZoneCategories(boolean value)](#setDropZoneCategories-boolean-) |  |
-| [setDropZoneData(boolean value)](#setDropZoneData-boolean-) |  |
-| [setDropZoneFilter(boolean value)](#setDropZoneFilter-boolean-) |  |
-| [setDropZoneSeries(boolean value)](#setDropZoneSeries-boolean-) |  |
-| [setDropZonesVisible(boolean value)](#setDropZonesVisible-boolean-) |  |
+| [setDropZoneCategories(boolean value)](#setDropZoneCategories-boolean-) | Please see the getter of this property: @CREF592\_ |
+| [setDropZoneData(boolean value)](#setDropZoneData-boolean-) | Please see the getter of this property: @CREF593\_ |
+| [setDropZoneFilter(boolean value)](#setDropZoneFilter-boolean-) | Please see the getter of this property: @CREF591\_ |
+| [setDropZoneSeries(boolean value)](#setDropZoneSeries-boolean-) | Please see the getter of this property: @CREF594\_ |
+| [setDropZonesVisible(boolean value)](#setDropZonesVisible-boolean-) | Please see the getter of this property: @CREF595\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -144,7 +144,7 @@ public void setDropZoneCategories(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF592\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -157,7 +157,7 @@ public void setDropZoneData(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF593\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -170,7 +170,7 @@ public void setDropZoneFilter(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF591\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -183,7 +183,7 @@ public void setDropZoneSeries(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF594\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -196,7 +196,7 @@ public void setDropZonesVisible(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF595\_
 
 **Parameters:**
 | Parameter | Type | Description |

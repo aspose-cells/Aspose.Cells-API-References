@@ -27,10 +27,10 @@ Represents options when parsing formula.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCheckAddIn(boolean value)](#setCheckAddIn-boolean-) |  |
-| [setLocaleDependent(boolean value)](#setLocaleDependent-boolean-) |  |
-| [setParse(boolean value)](#setParse-boolean-) |  |
-| [setR1C1Style(boolean value)](#setR1C1Style-boolean-) |  |
+| [setCheckAddIn(boolean value)](#setCheckAddIn-boolean-) | Please see the getter of this property: @CREF53\_ |
+| [setLocaleDependent(boolean value)](#setLocaleDependent-boolean-) | Please see the getter of this property: @CREF51\_ |
+| [setParse(boolean value)](#setParse-boolean-) | Please see the getter of this property: @CREF54\_ |
+| [setR1C1Style(boolean value)](#setR1C1Style-boolean-) | Please see the getter of this property: @CREF52\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -132,7 +132,7 @@ public void setCheckAddIn(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF53\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setLocaleDependent(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF51\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public void setParse(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF54\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,7 +171,7 @@ public void setR1C1Style(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF52\_
 
 **Parameters:**
 | Parameter | Type | Description |

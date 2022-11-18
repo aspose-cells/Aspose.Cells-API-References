@@ -36,10 +36,10 @@ Represents identifier information.
 | [isNillable()](#isNillable--) | Indicates whether the value could be empty. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) |  |
-| [setNillable(boolean value)](#setNillable-boolean-) |  |
-| [setType(String value)](#setType-java.lang.String-) |  |
-| [setValue(String value)](#setValue-java.lang.String-) |  |
+| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: [getName()](../../com.aspose.cells/contenttypeproperty\#getName--) |
+| [setNillable(boolean value)](#setNillable-boolean-) | Please see the getter of this property: [isNillable()](../../com.aspose.cells/contenttypeproperty\#isNillable--) |
+| [setType(String value)](#setType-java.lang.String-) | Please see the getter of this property: [getType()](../../com.aspose.cells/contenttypeproperty\#getType--) |
+| [setValue(String value)](#setValue-java.lang.String-) | Please see the getter of this property: [getValue()](../../com.aspose.cells/contenttypeproperty\#getValue--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -141,7 +141,7 @@ public void setName(String value)
 ```
 
 
-
+Please see the getter of this property: [getName()](../../com.aspose.cells/contenttypeproperty\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -154,7 +154,7 @@ public void setNillable(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isNillable()](../../com.aspose.cells/contenttypeproperty\#isNillable--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -167,7 +167,7 @@ public void setType(String value)
 ```
 
 
-
+Please see the getter of this property: [getType()](../../com.aspose.cells/contenttypeproperty\#getType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -180,7 +180,7 @@ public void setValue(String value)
 ```
 
 
-
+Please see the getter of this property: [getValue()](../../com.aspose.cells/contenttypeproperty\#getValue--)
 
 **Parameters:**
 | Parameter | Type | Description |

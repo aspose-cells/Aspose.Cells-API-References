@@ -30,13 +30,13 @@ Represents all types of color.
 | [isShapeColor()](#isShapeColor--) | Gets and set the color which should apply to cell or shape. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setArgb(int value)](#setArgb-int-) |  |
-| [setColor(Color value)](#setColor-com.aspose.cells.Color-) |  |
-| [setColorIndex(int value)](#setColorIndex-int-) |  |
-| [setShapeColor(boolean value)](#setShapeColor-boolean-) |  |
-| [setThemeColor(ThemeColor value)](#setThemeColor-com.aspose.cells.ThemeColor-) |  |
+| [setArgb(int value)](#setArgb-int-) | Please see the getter of this property: @CREF1323\_ |
+| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | Please see the getter of this property: @CREF1322\_ |
+| [setColorIndex(int value)](#setColorIndex-int-) | Please see the getter of this property: @CREF1321\_ |
+| [setShapeColor(boolean value)](#setShapeColor-boolean-) | Please see the getter of this property: @CREF1319\_ |
+| [setThemeColor(ThemeColor value)](#setThemeColor-com.aspose.cells.ThemeColor-) | Please see the getter of this property: @CREF1320\_ |
 | [setTintOfShapeColor(double tint)](#setTintOfShapeColor-double-) | Set the tint of the shape color |
-| [setTransparency(double value)](#setTransparency-double-) |  |
+| [setTransparency(double value)](#setTransparency-double-) | Please see the getter of this property: @CREF1324\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -168,7 +168,7 @@ public void setArgb(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1323\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,7 +181,7 @@ public void setColor(Color value)
 ```
 
 
-
+Please see the getter of this property: @CREF1322\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -194,7 +194,7 @@ public void setColorIndex(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1321\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -207,7 +207,7 @@ public void setShapeColor(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1319\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -220,7 +220,7 @@ public void setThemeColor(ThemeColor value)
 ```
 
 
-
+Please see the getter of this property: @CREF1320\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ public void setTransparency(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1324\_
 
 **Parameters:**
 | Parameter | Type | Description |

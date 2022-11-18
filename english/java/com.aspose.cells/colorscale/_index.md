@@ -30,10 +30,10 @@ Describe the ColorScale conditional formatting rule. This conditional formatting
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setIs3ColorScale(boolean value)](#setIs3ColorScale-boolean-) |  |
-| [setMaxColor(Color value)](#setMaxColor-com.aspose.cells.Color-) |  |
-| [setMidColor(Color value)](#setMidColor-com.aspose.cells.Color-) |  |
-| [setMinColor(Color value)](#setMinColor-com.aspose.cells.Color-) |  |
+| [setIs3ColorScale(boolean value)](#setIs3ColorScale-boolean-) | Please see the getter of this property: @CREF1108\_ |
+| [setMaxColor(Color value)](#setMaxColor-com.aspose.cells.Color-) | Please see the getter of this property: @CREF1111\_ |
+| [setMidColor(Color value)](#setMidColor-com.aspose.cells.Color-) | Please see the getter of this property: @CREF1110\_ |
+| [setMinColor(Color value)](#setMinColor-com.aspose.cells.Color-) | Please see the getter of this property: @CREF1109\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -165,7 +165,7 @@ public void setIs3ColorScale(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1108\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -178,7 +178,7 @@ public void setMaxColor(Color value)
 ```
 
 
-
+Please see the getter of this property: @CREF1111\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -191,7 +191,7 @@ public void setMidColor(Color value)
 ```
 
 
-
+Please see the getter of this property: @CREF1110\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -204,7 +204,7 @@ public void setMinColor(Color value)
 ```
 
 
-
+Please see the getter of this property: @CREF1109\_
 
 **Parameters:**
 | Parameter | Type | Description |

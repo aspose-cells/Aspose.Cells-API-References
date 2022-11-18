@@ -113,14 +113,14 @@ Describe the DataBar conditional formatting rule. This conditional formatting ru
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAxisColor(Color value)](#setAxisColor-com.aspose.cells.Color-) |  |
-| [setAxisPosition(int value)](#setAxisPosition-int-) |  |
-| [setBarFillType(int value)](#setBarFillType-int-) |  |
-| [setColor(Color value)](#setColor-com.aspose.cells.Color-) |  |
-| [setDirection(int value)](#setDirection-int-) |  |
-| [setMaxLength(int value)](#setMaxLength-int-) |  |
-| [setMinLength(int value)](#setMinLength-int-) |  |
-| [setShowValue(boolean value)](#setShowValue-boolean-) |  |
+| [setAxisColor(Color value)](#setAxisColor-com.aspose.cells.Color-) | Please see the getter of this property: [getAxisColor()](../../com.aspose.cells/databar\#getAxisColor--) |
+| [setAxisPosition(int value)](#setAxisPosition-int-) | Please see the getter of this property: [getAxisPosition()](../../com.aspose.cells/databar\#getAxisPosition--) |
+| [setBarFillType(int value)](#setBarFillType-int-) | Please see the getter of this property: [getBarFillType()](../../com.aspose.cells/databar\#getBarFillType--) |
+| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | Please see the getter of this property: [getColor()](../../com.aspose.cells/databar\#getColor--) |
+| [setDirection(int value)](#setDirection-int-) | Please see the getter of this property: [getDirection()](../../com.aspose.cells/databar\#getDirection--) |
+| [setMaxLength(int value)](#setMaxLength-int-) | Please see the getter of this property: [getMaxLength()](../../com.aspose.cells/databar\#getMaxLength--) |
+| [setMinLength(int value)](#setMinLength-int-) | Please see the getter of this property: [getMinLength()](../../com.aspose.cells/databar\#getMinLength--) |
+| [setShowValue(boolean value)](#setShowValue-boolean-) | Please see the getter of this property: [getShowValue()](../../com.aspose.cells/databar\#getShowValue--) |
 | [toImage(Cell cell, ImageOrPrintOptions imgOpts)](#toImage-com.aspose.cells.Cell-com.aspose.cells.ImageOrPrintOptions-) | Render data bar in cell to image byte array. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -303,7 +303,7 @@ public void setAxisColor(Color value)
 ```
 
 
-
+Please see the getter of this property: [getAxisColor()](../../com.aspose.cells/databar\#getAxisColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -316,7 +316,7 @@ public void setAxisPosition(int value)
 ```
 
 
-
+Please see the getter of this property: [getAxisPosition()](../../com.aspose.cells/databar\#getAxisPosition--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -329,7 +329,7 @@ public void setBarFillType(int value)
 ```
 
 
-
+Please see the getter of this property: [getBarFillType()](../../com.aspose.cells/databar\#getBarFillType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -342,7 +342,7 @@ public void setColor(Color value)
 ```
 
 
-
+Please see the getter of this property: [getColor()](../../com.aspose.cells/databar\#getColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -355,7 +355,7 @@ public void setDirection(int value)
 ```
 
 
-
+Please see the getter of this property: [getDirection()](../../com.aspose.cells/databar\#getDirection--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -368,7 +368,7 @@ public void setMaxLength(int value)
 ```
 
 
-
+Please see the getter of this property: [getMaxLength()](../../com.aspose.cells/databar\#getMaxLength--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -381,7 +381,7 @@ public void setMinLength(int value)
 ```
 
 
-
+Please see the getter of this property: [getMinLength()](../../com.aspose.cells/databar\#getMinLength--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -394,7 +394,7 @@ public void setShowValue(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getShowValue()](../../com.aspose.cells/databar\#getShowValue--)
 
 **Parameters:**
 | Parameter | Type | Description |

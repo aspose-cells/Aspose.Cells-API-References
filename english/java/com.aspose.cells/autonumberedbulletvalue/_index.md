@@ -31,8 +31,8 @@ Represents automatic numbered bullet.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutonumberScheme(int value)](#setAutonumberScheme-int-) |  |
-| [setStartAt(int value)](#setStartAt-int-) |  |
+| [setAutonumberScheme(int value)](#setAutonumberScheme-int-) | Please see the getter of this property: @CREF739\_ |
+| [setStartAt(int value)](#setStartAt-int-) | Please see the getter of this property: @CREF738\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -130,7 +130,7 @@ public void setAutonumberScheme(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF739\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -143,7 +143,7 @@ public void setStartAt(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF738\_
 
 **Parameters:**
 | Parameter | Type | Description |

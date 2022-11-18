@@ -68,16 +68,16 @@ Summary description for DataSorter.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCaseSensitive(boolean value)](#setCaseSensitive-boolean-) |  |
-| [setHasHeaders(boolean value)](#setHasHeaders-boolean-) |  |
-| [setKey1(int value)](#setKey1-int-) |  |
-| [setKey2(int value)](#setKey2-int-) |  |
-| [setKey3(int value)](#setKey3-int-) |  |
-| [setOrder1(int value)](#setOrder1-int-) |  |
-| [setOrder2(int value)](#setOrder2-int-) |  |
-| [setOrder3(int value)](#setOrder3-int-) |  |
-| [setSortAsNumber(boolean value)](#setSortAsNumber-boolean-) |  |
-| [setSortLeftToRight(boolean value)](#setSortLeftToRight-boolean-) |  |
+| [setCaseSensitive(boolean value)](#setCaseSensitive-boolean-) | Please see the getter of this property: [getCaseSensitive()](../../com.aspose.cells/datasorter\#getCaseSensitive--) |
+| [setHasHeaders(boolean value)](#setHasHeaders-boolean-) | Please see the getter of this property: [hasHeaders()](../../com.aspose.cells/datasorter\#hasHeaders--) |
+| [setKey1(int value)](#setKey1-int-) | Please see the getter of this property: [getKey1()](../../com.aspose.cells/datasorter\#getKey1--) |
+| [setKey2(int value)](#setKey2-int-) | Please see the getter of this property: [getKey2()](../../com.aspose.cells/datasorter\#getKey2--) |
+| [setKey3(int value)](#setKey3-int-) | Please see the getter of this property: [getKey3()](../../com.aspose.cells/datasorter\#getKey3--) |
+| [setOrder1(int value)](#setOrder1-int-) | Please see the getter of this property: [getOrder1()](../../com.aspose.cells/datasorter\#getOrder1--) |
+| [setOrder2(int value)](#setOrder2-int-) | Please see the getter of this property: [getOrder2()](../../com.aspose.cells/datasorter\#getOrder2--) |
+| [setOrder3(int value)](#setOrder3-int-) | Please see the getter of this property: [getOrder3()](../../com.aspose.cells/datasorter\#getOrder3--) |
+| [setSortAsNumber(boolean value)](#setSortAsNumber-boolean-) | Please see the getter of this property: [getSortAsNumber()](../../com.aspose.cells/datasorter\#getSortAsNumber--) |
+| [setSortLeftToRight(boolean value)](#setSortLeftToRight-boolean-) | Please see the getter of this property: [getSortLeftToRight()](../../com.aspose.cells/datasorter\#getSortLeftToRight--) |
 | [sort()](#sort--) | Sort the data in the range. |
 | [sort(Cells cells, CellArea area)](#sort-com.aspose.cells.Cells-com.aspose.cells.CellArea-) | Sort the data of the area. |
 | [sort(Cells cells, int startRow, int startColumn, int endRow, int endColumn)](#sort-com.aspose.cells.Cells-int-int-int-int-) | Sorts the data of the area. |
@@ -320,7 +320,7 @@ public void setCaseSensitive(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getCaseSensitive()](../../com.aspose.cells/datasorter\#getCaseSensitive--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -333,7 +333,7 @@ public void setHasHeaders(boolean value)
 ```
 
 
-
+Please see the getter of this property: [hasHeaders()](../../com.aspose.cells/datasorter\#hasHeaders--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -346,7 +346,7 @@ public void setKey1(int value)
 ```
 
 
-
+Please see the getter of this property: [getKey1()](../../com.aspose.cells/datasorter\#getKey1--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -359,7 +359,7 @@ public void setKey2(int value)
 ```
 
 
-
+Please see the getter of this property: [getKey2()](../../com.aspose.cells/datasorter\#getKey2--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -372,7 +372,7 @@ public void setKey3(int value)
 ```
 
 
-
+Please see the getter of this property: [getKey3()](../../com.aspose.cells/datasorter\#getKey3--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -385,7 +385,7 @@ public void setOrder1(int value)
 ```
 
 
-
+Please see the getter of this property: [getOrder1()](../../com.aspose.cells/datasorter\#getOrder1--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -398,7 +398,7 @@ public void setOrder2(int value)
 ```
 
 
-
+Please see the getter of this property: [getOrder2()](../../com.aspose.cells/datasorter\#getOrder2--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -411,7 +411,7 @@ public void setOrder3(int value)
 ```
 
 
-
+Please see the getter of this property: [getOrder3()](../../com.aspose.cells/datasorter\#getOrder3--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -424,7 +424,7 @@ public void setSortAsNumber(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getSortAsNumber()](../../com.aspose.cells/datasorter\#getSortAsNumber--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -437,7 +437,7 @@ public void setSortLeftToRight(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getSortLeftToRight()](../../com.aspose.cells/datasorter\#getSortLeftToRight--)
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -83,12 +83,12 @@ Workbook book = new Workbook();
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCaption(String value)](#setCaption-java.lang.String-) |  |
-| [setHeightPixel(int value)](#setHeightPixel-int-) |  |
-| [setLeftPixel(int value)](#setLeftPixel-int-) |  |
-| [setName(String value)](#setName-java.lang.String-) |  |
-| [setTopPixel(int value)](#setTopPixel-int-) |  |
-| [setWidthPixel(int value)](#setWidthPixel-int-) |  |
+| [setCaption(String value)](#setCaption-java.lang.String-) | Please see the getter of this property: [getCaption()](../../com.aspose.cells/timeline\#getCaption--) |
+| [setHeightPixel(int value)](#setHeightPixel-int-) | Please see the getter of this property: [getHeightPixel()](../../com.aspose.cells/timeline\#getHeightPixel--) |
+| [setLeftPixel(int value)](#setLeftPixel-int-) | Please see the getter of this property: [getLeftPixel()](../../com.aspose.cells/timeline\#getLeftPixel--) |
+| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: [getName()](../../com.aspose.cells/timeline\#getName--) |
+| [setTopPixel(int value)](#setTopPixel-int-) | Please see the getter of this property: [getTopPixel()](../../com.aspose.cells/timeline\#getTopPixel--) |
+| [setWidthPixel(int value)](#setWidthPixel-int-) | Please see the getter of this property: [getWidthPixel()](../../com.aspose.cells/timeline\#getWidthPixel--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -220,7 +220,7 @@ public void setCaption(String value)
 ```
 
 
-
+Please see the getter of this property: [getCaption()](../../com.aspose.cells/timeline\#getCaption--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -233,7 +233,7 @@ public void setHeightPixel(int value)
 ```
 
 
-
+Please see the getter of this property: [getHeightPixel()](../../com.aspose.cells/timeline\#getHeightPixel--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ public void setLeftPixel(int value)
 ```
 
 
-
+Please see the getter of this property: [getLeftPixel()](../../com.aspose.cells/timeline\#getLeftPixel--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -259,7 +259,7 @@ public void setName(String value)
 ```
 
 
-
+Please see the getter of this property: [getName()](../../com.aspose.cells/timeline\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -272,7 +272,7 @@ public void setTopPixel(int value)
 ```
 
 
-
+Please see the getter of this property: [getTopPixel()](../../com.aspose.cells/timeline\#getTopPixel--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -285,7 +285,7 @@ public void setWidthPixel(int value)
 ```
 
 
-
+Please see the getter of this property: [getWidthPixel()](../../com.aspose.cells/timeline\#getWidthPixel--)
 
 **Parameters:**
 | Parameter | Type | Description |

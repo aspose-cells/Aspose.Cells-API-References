@@ -36,16 +36,16 @@ Represents the ActiveX control.
 | [isVisible()](#isVisible--) | Indicates whether this control is visible. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBackOleColor(int value)](#setBackOleColor-int-) |  |
-| [setForeOleColor(int value)](#setForeOleColor-int-) |  |
-| [setHeight(double value)](#setHeight-double-) |  |
-| [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) |  |
-| [setListFillRange(String value)](#setListFillRange-java.lang.String-) |  |
-| [setMouseIcon(byte[] value)](#setMouseIcon-byte---) |  |
-| [setMousePointer(int value)](#setMousePointer-int-) |  |
-| [setShadow(boolean value)](#setShadow-boolean-) |  |
-| [setVisible(boolean value)](#setVisible-boolean-) |  |
-| [setWidth(double value)](#setWidth-double-) |  |
+| [setBackOleColor(int value)](#setBackOleColor-int-) | Please see the getter of this property: [getBackOleColor()](../../com.aspose.cells/activexcontrolbase\#getBackOleColor--) |
+| [setForeOleColor(int value)](#setForeOleColor-int-) | Please see the getter of this property: [getForeOleColor()](../../com.aspose.cells/activexcontrolbase\#getForeOleColor--) |
+| [setHeight(double value)](#setHeight-double-) | Please see the getter of this property: [getHeight()](../../com.aspose.cells/activexcontrolbase\#getHeight--) |
+| [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | Please see the getter of this property: [getLinkedCell()](../../com.aspose.cells/activexcontrolbase\#getLinkedCell--) |
+| [setListFillRange(String value)](#setListFillRange-java.lang.String-) | Please see the getter of this property: [getListFillRange()](../../com.aspose.cells/activexcontrolbase\#getListFillRange--) |
+| [setMouseIcon(byte[] value)](#setMouseIcon-byte---) | Please see the getter of this property: [getMouseIcon()](../../com.aspose.cells/activexcontrolbase\#getMouseIcon--) |
+| [setMousePointer(int value)](#setMousePointer-int-) | Please see the getter of this property: [getMousePointer()](../../com.aspose.cells/activexcontrolbase\#getMousePointer--) |
+| [setShadow(boolean value)](#setShadow-boolean-) | Please see the getter of this property: [getShadow()](../../com.aspose.cells/activexcontrolbase\#getShadow--) |
+| [setVisible(boolean value)](#setVisible-boolean-) | Please see the getter of this property: [isVisible()](../../com.aspose.cells/activexcontrolbase\#isVisible--) |
+| [setWidth(double value)](#setWidth-double-) | Please see the getter of this property: [getWidth()](../../com.aspose.cells/activexcontrolbase\#getWidth--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -237,7 +237,7 @@ public void setBackOleColor(int value)
 ```
 
 
-
+Please see the getter of this property: [getBackOleColor()](../../com.aspose.cells/activexcontrolbase\#getBackOleColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -250,7 +250,7 @@ public void setForeOleColor(int value)
 ```
 
 
-
+Please see the getter of this property: [getForeOleColor()](../../com.aspose.cells/activexcontrolbase\#getForeOleColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -263,7 +263,7 @@ public void setHeight(double value)
 ```
 
 
-
+Please see the getter of this property: [getHeight()](../../com.aspose.cells/activexcontrolbase\#getHeight--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -276,7 +276,7 @@ public void setLinkedCell(String value)
 ```
 
 
-
+Please see the getter of this property: [getLinkedCell()](../../com.aspose.cells/activexcontrolbase\#getLinkedCell--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -289,7 +289,7 @@ public void setListFillRange(String value)
 ```
 
 
-
+Please see the getter of this property: [getListFillRange()](../../com.aspose.cells/activexcontrolbase\#getListFillRange--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -302,7 +302,7 @@ public void setMouseIcon(byte[] value)
 ```
 
 
-
+Please see the getter of this property: [getMouseIcon()](../../com.aspose.cells/activexcontrolbase\#getMouseIcon--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -315,7 +315,7 @@ public void setMousePointer(int value)
 ```
 
 
-
+Please see the getter of this property: [getMousePointer()](../../com.aspose.cells/activexcontrolbase\#getMousePointer--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -328,7 +328,7 @@ public void setShadow(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getShadow()](../../com.aspose.cells/activexcontrolbase\#getShadow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -341,7 +341,7 @@ public void setVisible(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isVisible()](../../com.aspose.cells/activexcontrolbase\#isVisible--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -354,7 +354,7 @@ public void setWidth(double value)
 ```
 
 
-
+Please see the getter of this property: [getWidth()](../../com.aspose.cells/activexcontrolbase\#getWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |

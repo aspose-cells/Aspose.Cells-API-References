@@ -100,45 +100,45 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [isTextWrapped()](#isTextWrapped--) | Gets or sets a value indicating whether the text is wrapped. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) |  |
-| [setAutoText(boolean value)](#setAutoText-boolean-) |  |
-| [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) |  |
-| [setBackground(int value)](#setBackground-int-) |  |
-| [setBackgroundMode(int value)](#setBackgroundMode-int-) |  |
-| [setDeleted(boolean value)](#setDeleted-boolean-) |  |
-| [setDirectionType(int value)](#setDirectionType-int-) |  |
-| [setHeight(int value)](#setHeight-int-) |  |
-| [setInnerMode(boolean value)](#setInnerMode-boolean-) |  |
-| [setLinkedSource(String value)](#setLinkedSource-java.lang.String-) |  |
-| [setNeverOverlap(boolean value)](#setNeverOverlap-boolean-) |  |
-| [setNumber(int value)](#setNumber-int-) |  |
-| [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) |  |
-| [setNumberFormatLinked(boolean value)](#setNumberFormatLinked-boolean-) |  |
-| [setPosition(int value)](#setPosition-int-) |  |
+| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | Please see the getter of this property: [getAutoScaleFont()](../../com.aspose.cells/chartframe\#getAutoScaleFont--) |
+| [setAutoText(boolean value)](#setAutoText-boolean-) | Please see the getter of this property: [isAutoText()](../../com.aspose.cells/datalabels\#isAutoText--) |
+| [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) | Please see the getter of this property: [isAutomaticSize()](../../com.aspose.cells/chartframe\#isAutomaticSize--) |
+| [setBackground(int value)](#setBackground-int-) | Please see the getter of this property: [getBackground()](../../com.aspose.cells/chartframe\#getBackground--) |
+| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Please see the getter of this property: [getBackgroundMode()](../../com.aspose.cells/datalabels\#getBackgroundMode--) |
+| [setDeleted(boolean value)](#setDeleted-boolean-) | Please see the getter of this property: @CREF79\_ |
+| [setDirectionType(int value)](#setDirectionType-int-) | Please see the getter of this property: [getDirectionType()](../../com.aspose.cells/datalabels\#getDirectionType--) |
+| [setHeight(int value)](#setHeight-int-) | Please see the getter of this property: [getHeight()](../../com.aspose.cells/chartframe\#getHeight--) |
+| [setInnerMode(boolean value)](#setInnerMode-boolean-) | Please see the getter of this property: [isInnerMode()](../../com.aspose.cells/chartframe\#isInnerMode--) |
+| [setLinkedSource(String value)](#setLinkedSource-java.lang.String-) | Please see the getter of this property: @CREF84\_ |
+| [setNeverOverlap(boolean value)](#setNeverOverlap-boolean-) | Please see the getter of this property: [isNeverOverlap()](../../com.aspose.cells/datalabels\#isNeverOverlap--) |
+| [setNumber(int value)](#setNumber-int-) | Please see the getter of this property: [getNumber()](../../com.aspose.cells/datalabels\#getNumber--) |
+| [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | Please see the getter of this property: [getNumberFormat()](../../com.aspose.cells/datalabels\#getNumberFormat--) |
+| [setNumberFormatLinked(boolean value)](#setNumberFormatLinked-boolean-) | Please see the getter of this property: [getNumberFormatLinked()](../../com.aspose.cells/datalabels\#getNumberFormatLinked--) |
+| [setPosition(int value)](#setPosition-int-) | Please see the getter of this property: [getPosition()](../../com.aspose.cells/datalabels\#getPosition--) |
 | [setPositionAuto()](#setPositionAuto--) | Set position of the frame to automatic |
-| [setReadingOrder(int value)](#setReadingOrder-int-) |  |
-| [setResizeShapeToFitText(boolean value)](#setResizeShapeToFitText-boolean-) |  |
-| [setRotationAngle(int value)](#setRotationAngle-int-) |  |
-| [setSeparator(int value)](#setSeparator-int-) |  |
-| [setSeparatorType(int value)](#setSeparatorType-int-) |  |
-| [setSeparatorValue(String value)](#setSeparatorValue-java.lang.String-) |  |
-| [setShadow(boolean value)](#setShadow-boolean-) |  |
-| [setShapeType(int value)](#setShapeType-int-) |  |
-| [setShowBubbleSize(boolean value)](#setShowBubbleSize-boolean-) |  |
-| [setShowCategoryName(boolean value)](#setShowCategoryName-boolean-) |  |
-| [setShowCellRange(boolean value)](#setShowCellRange-boolean-) |  |
-| [setShowLegendKey(boolean value)](#setShowLegendKey-boolean-) |  |
-| [setShowPercentage(boolean value)](#setShowPercentage-boolean-) |  |
-| [setShowSeriesName(boolean value)](#setShowSeriesName-boolean-) |  |
-| [setShowValue(boolean value)](#setShowValue-boolean-) |  |
-| [setText(String value)](#setText-java.lang.String-) |  |
-| [setTextDirection(int value)](#setTextDirection-int-) |  |
-| [setTextHorizontalAlignment(int value)](#setTextHorizontalAlignment-int-) |  |
-| [setTextVerticalAlignment(int value)](#setTextVerticalAlignment-int-) |  |
-| [setTextWrapped(boolean value)](#setTextWrapped-boolean-) |  |
-| [setWidth(int value)](#setWidth-int-) |  |
-| [setX(int value)](#setX-int-) |  |
-| [setY(int value)](#setY-int-) |  |
+| [setReadingOrder(int value)](#setReadingOrder-int-) | Please see the getter of this property: @CREF86\_ |
+| [setResizeShapeToFitText(boolean value)](#setResizeShapeToFitText-boolean-) | Please see the getter of this property: @CREF89\_ |
+| [setRotationAngle(int value)](#setRotationAngle-int-) | Please see the getter of this property: @CREF82\_ |
+| [setSeparator(int value)](#setSeparator-int-) | Please see the getter of this property: [getSeparator()](../../com.aspose.cells/datalabels\#getSeparator--) |
+| [setSeparatorType(int value)](#setSeparatorType-int-) | Please see the getter of this property: [getSeparatorType()](../../com.aspose.cells/datalabels\#getSeparatorType--) |
+| [setSeparatorValue(String value)](#setSeparatorValue-java.lang.String-) | Please see the getter of this property: [getSeparatorValue()](../../com.aspose.cells/datalabels\#getSeparatorValue--) |
+| [setShadow(boolean value)](#setShadow-boolean-) | Please see the getter of this property: [getShadow()](../../com.aspose.cells/chartframe\#getShadow--) |
+| [setShapeType(int value)](#setShapeType-int-) | Please see the getter of this property: [getShapeType()](../../com.aspose.cells/datalabels\#getShapeType--) |
+| [setShowBubbleSize(boolean value)](#setShowBubbleSize-boolean-) | Please see the getter of this property: [getShowBubbleSize()](../../com.aspose.cells/datalabels\#getShowBubbleSize--) |
+| [setShowCategoryName(boolean value)](#setShowCategoryName-boolean-) | Please see the getter of this property: [getShowCategoryName()](../../com.aspose.cells/datalabels\#getShowCategoryName--) |
+| [setShowCellRange(boolean value)](#setShowCellRange-boolean-) | Please see the getter of this property: [getShowCellRange()](../../com.aspose.cells/datalabels\#getShowCellRange--) |
+| [setShowLegendKey(boolean value)](#setShowLegendKey-boolean-) | Please see the getter of this property: [getShowLegendKey()](../../com.aspose.cells/datalabels\#getShowLegendKey--) |
+| [setShowPercentage(boolean value)](#setShowPercentage-boolean-) | Please see the getter of this property: [getShowPercentage()](../../com.aspose.cells/datalabels\#getShowPercentage--) |
+| [setShowSeriesName(boolean value)](#setShowSeriesName-boolean-) | Please see the getter of this property: [getShowSeriesName()](../../com.aspose.cells/datalabels\#getShowSeriesName--) |
+| [setShowValue(boolean value)](#setShowValue-boolean-) | Please see the getter of this property: [getShowValue()](../../com.aspose.cells/datalabels\#getShowValue--) |
+| [setText(String value)](#setText-java.lang.String-) | Please see the getter of this property: [getText()](../../com.aspose.cells/datalabels\#getText--) |
+| [setTextDirection(int value)](#setTextDirection-int-) | Please see the getter of this property: @CREF85\_ |
+| [setTextHorizontalAlignment(int value)](#setTextHorizontalAlignment-int-) | Please see the getter of this property: @CREF80\_ |
+| [setTextVerticalAlignment(int value)](#setTextVerticalAlignment-int-) | Please see the getter of this property: @CREF81\_ |
+| [setTextWrapped(boolean value)](#setTextWrapped-boolean-) | Please see the getter of this property: [isTextWrapped()](../../com.aspose.cells/datalabels\#isTextWrapped--) |
+| [setWidth(int value)](#setWidth-int-) | Please see the getter of this property: [getWidth()](../../com.aspose.cells/chartframe\#getWidth--) |
+| [setX(int value)](#setX-int-) | Please see the getter of this property: [getX()](../../com.aspose.cells/chartframe\#getX--) |
+| [setY(int value)](#setY-int-) | Please see the getter of this property: [getY()](../../com.aspose.cells/chartframe\#getY--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -730,7 +730,7 @@ public void setAutoScaleFont(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getAutoScaleFont()](../../com.aspose.cells/chartframe\#getAutoScaleFont--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -743,7 +743,7 @@ public void setAutoText(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isAutoText()](../../com.aspose.cells/datalabels\#isAutoText--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -756,7 +756,7 @@ public void setAutomaticSize(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isAutomaticSize()](../../com.aspose.cells/chartframe\#isAutomaticSize--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -769,7 +769,7 @@ public void setBackground(int value)
 ```
 
 
-
+Please see the getter of this property: [getBackground()](../../com.aspose.cells/chartframe\#getBackground--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -782,7 +782,7 @@ public void setBackgroundMode(int value)
 ```
 
 
-
+Please see the getter of this property: [getBackgroundMode()](../../com.aspose.cells/datalabels\#getBackgroundMode--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -795,7 +795,7 @@ public void setDeleted(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF79\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -808,7 +808,7 @@ public void setDirectionType(int value)
 ```
 
 
-
+Please see the getter of this property: [getDirectionType()](../../com.aspose.cells/datalabels\#getDirectionType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -821,7 +821,7 @@ public void setHeight(int value)
 ```
 
 
-
+Please see the getter of this property: [getHeight()](../../com.aspose.cells/chartframe\#getHeight--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -834,7 +834,7 @@ public void setInnerMode(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isInnerMode()](../../com.aspose.cells/chartframe\#isInnerMode--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -847,7 +847,7 @@ public void setLinkedSource(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF84\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -860,7 +860,7 @@ public void setNeverOverlap(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isNeverOverlap()](../../com.aspose.cells/datalabels\#isNeverOverlap--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -873,7 +873,7 @@ public void setNumber(int value)
 ```
 
 
-
+Please see the getter of this property: [getNumber()](../../com.aspose.cells/datalabels\#getNumber--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -886,7 +886,7 @@ public void setNumberFormat(String value)
 ```
 
 
-
+Please see the getter of this property: [getNumberFormat()](../../com.aspose.cells/datalabels\#getNumberFormat--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -899,7 +899,7 @@ public void setNumberFormatLinked(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getNumberFormatLinked()](../../com.aspose.cells/datalabels\#getNumberFormatLinked--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -912,7 +912,7 @@ public void setPosition(int value)
 ```
 
 
-
+Please see the getter of this property: [getPosition()](../../com.aspose.cells/datalabels\#getPosition--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -933,7 +933,7 @@ public void setReadingOrder(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF86\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -946,7 +946,7 @@ public void setResizeShapeToFitText(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF89\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -959,7 +959,7 @@ public void setRotationAngle(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF82\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -972,7 +972,7 @@ public void setSeparator(int value)
 ```
 
 
-
+Please see the getter of this property: [getSeparator()](../../com.aspose.cells/datalabels\#getSeparator--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -985,7 +985,7 @@ public void setSeparatorType(int value)
 ```
 
 
-
+Please see the getter of this property: [getSeparatorType()](../../com.aspose.cells/datalabels\#getSeparatorType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -998,7 +998,7 @@ public void setSeparatorValue(String value)
 ```
 
 
-
+Please see the getter of this property: [getSeparatorValue()](../../com.aspose.cells/datalabels\#getSeparatorValue--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1011,7 +1011,7 @@ public void setShadow(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getShadow()](../../com.aspose.cells/chartframe\#getShadow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1024,7 +1024,7 @@ public void setShapeType(int value)
 ```
 
 
-
+Please see the getter of this property: [getShapeType()](../../com.aspose.cells/datalabels\#getShapeType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1037,7 +1037,7 @@ public void setShowBubbleSize(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getShowBubbleSize()](../../com.aspose.cells/datalabels\#getShowBubbleSize--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1050,7 +1050,7 @@ public void setShowCategoryName(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getShowCategoryName()](../../com.aspose.cells/datalabels\#getShowCategoryName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1063,7 +1063,7 @@ public void setShowCellRange(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getShowCellRange()](../../com.aspose.cells/datalabels\#getShowCellRange--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1076,7 +1076,7 @@ public void setShowLegendKey(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getShowLegendKey()](../../com.aspose.cells/datalabels\#getShowLegendKey--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1089,7 +1089,7 @@ public void setShowPercentage(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getShowPercentage()](../../com.aspose.cells/datalabels\#getShowPercentage--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1102,7 +1102,7 @@ public void setShowSeriesName(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getShowSeriesName()](../../com.aspose.cells/datalabels\#getShowSeriesName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1115,7 +1115,7 @@ public void setShowValue(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getShowValue()](../../com.aspose.cells/datalabels\#getShowValue--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1128,7 +1128,7 @@ public void setText(String value)
 ```
 
 
-
+Please see the getter of this property: [getText()](../../com.aspose.cells/datalabels\#getText--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1141,7 +1141,7 @@ public void setTextDirection(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF85\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1154,7 +1154,7 @@ public void setTextHorizontalAlignment(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF80\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1167,7 +1167,7 @@ public void setTextVerticalAlignment(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF81\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1180,7 +1180,7 @@ public void setTextWrapped(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isTextWrapped()](../../com.aspose.cells/datalabels\#isTextWrapped--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1193,7 +1193,7 @@ public void setWidth(int value)
 ```
 
 
-
+Please see the getter of this property: [getWidth()](../../com.aspose.cells/chartframe\#getWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1206,7 +1206,7 @@ public void setX(int value)
 ```
 
 
-
+Please see the getter of this property: [getX()](../../com.aspose.cells/chartframe\#getX--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1219,7 +1219,7 @@ public void setY(int value)
 ```
 
 
-
+Please see the getter of this property: [getY()](../../com.aspose.cells/chartframe\#getY--)
 
 **Parameters:**
 | Parameter | Type | Description |

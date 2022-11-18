@@ -144,13 +144,13 @@ Workbook excel = new Workbook();
 | [setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, boolean calculateValue)](#setDynamicArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-boolean-) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
 | [setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, Object[][] values, boolean calculateRange, boolean calculateValue)](#setDynamicArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-----boolean-boolean-) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
 | [setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, Object[][] values, boolean calculateRange, boolean calculateValue, CalculationOptions copts)](#setDynamicArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-----boolean-boolean-com.aspose.cells.CalculationOptions-) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
-| [setFormula(String value)](#setFormula-java.lang.String-) |  |
+| [setFormula(String value)](#setFormula-java.lang.String-) | Please see the getter of this property: [getFormula()](../../com.aspose.cells/cell\#getFormula--) |
 | [setFormula(String formula, boolean isR1C1, boolean isLocal, Object value)](#setFormula-java.lang.String-boolean-boolean-java.lang.Object-) | Set the formula and the value of the formula. |
 | [setFormula(String formula, FormulaParseOptions options, Object value)](#setFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-) | Set the formula and the value of the formula. |
 | [setFormula(String formula, Object value)](#setFormula-java.lang.String-java.lang.Object-) | Set the formula and the value of the formula. |
-| [setFormulaLocal(String value)](#setFormulaLocal-java.lang.String-) |  |
-| [setHtmlString(String value)](#setHtmlString-java.lang.String-) |  |
-| [setR1C1Formula(String value)](#setR1C1Formula-java.lang.String-) |  |
+| [setFormulaLocal(String value)](#setFormulaLocal-java.lang.String-) | Please see the getter of this property: [getFormulaLocal()](../../com.aspose.cells/cell\#getFormulaLocal--) |
+| [setHtmlString(String value)](#setHtmlString-java.lang.String-) | Please see the getter of this property: [getHtmlString()](../../com.aspose.cells/cell\#getHtmlString--) |
+| [setR1C1Formula(String value)](#setR1C1Formula-java.lang.String-) | Please see the getter of this property: [getR1C1Formula()](../../com.aspose.cells/cell\#getR1C1Formula--) |
 | [setSharedFormula(String sharedFormula, int rowNumber, int columnNumber)](#setSharedFormula-java.lang.String-int-int-) | Sets shared formulas to a range of cells. |
 | [setSharedFormula(String sharedFormula, int rowNumber, int columnNumber, boolean isR1C1, boolean isLocal)](#setSharedFormula-java.lang.String-int-int-boolean-boolean-) | Sets a formula to a range of cells. |
 | [setSharedFormula(String sharedFormula, int rowNumber, int columnNumber, FormulaParseOptions options)](#setSharedFormula-java.lang.String-int-int-com.aspose.cells.FormulaParseOptions-) | Sets shared formulas to a range of cells. |
@@ -162,7 +162,7 @@ Workbook excel = new Workbook();
 | [setTableFormula(int rowNumber, int columnNumber, int rowIndexOfRowInputCell, int columnIndexOfRowInputCell, int rowIndexOfColumnInputCell, int columnIndexOfColumnInputCell, Object[][] values)](#setTableFormula-int-int-int-int-int-int-java.lang.Object-----) | Create two-variable data table for given range starting from this cell. |
 | [setTableFormula(int rowNumber, int columnNumber, String inputCell, boolean isRowInput, Object[][] values)](#setTableFormula-int-int-java.lang.String-boolean-java.lang.Object-----) | Create one-variable data table for given range starting from this cell. |
 | [setTableFormula(int rowNumber, int columnNumber, String rowInputCell, String columnInputCell, Object[][] values)](#setTableFormula-int-int-java.lang.String-java.lang.String-java.lang.Object-----) | Create two-variable data table for given range starting from this cell. |
-| [setValue(Object value)](#setValue-java.lang.Object-) |  |
+| [setValue(Object value)](#setValue-java.lang.Object-) | Please see the getter of this property: [getValue()](../../com.aspose.cells/cell\#getValue--) |
 | [toString()](#toString--) | Returns a string represents the current Cell object. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -1298,7 +1298,7 @@ public void setFormula(String value)
 ```
 
 
-
+Please see the getter of this property: [getFormula()](../../com.aspose.cells/cell\#getFormula--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1356,7 +1356,7 @@ public void setFormulaLocal(String value)
 ```
 
 
-
+Please see the getter of this property: [getFormulaLocal()](../../com.aspose.cells/cell\#getFormulaLocal--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1369,7 +1369,7 @@ public void setHtmlString(String value)
 ```
 
 
-
+Please see the getter of this property: [getHtmlString()](../../com.aspose.cells/cell\#getHtmlString--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1382,7 +1382,7 @@ public void setR1C1Formula(String value)
 ```
 
 
-
+Please see the getter of this property: [getR1C1Formula()](../../com.aspose.cells/cell\#getR1C1Formula--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1572,7 +1572,7 @@ public void setValue(Object value)
 ```
 
 
-
+Please see the getter of this property: [getValue()](../../com.aspose.cells/cell\#getValue--)
 
 **Parameters:**
 | Parameter | Type | Description |

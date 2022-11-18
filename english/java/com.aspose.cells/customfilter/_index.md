@@ -26,8 +26,8 @@ Represents the custom filter.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCriteria(int filterOperator, Object criteria)](#setCriteria-int-java.lang.Object-) | Sets the filter criteria. |
-| [setCriteria(Object value)](#setCriteria-java.lang.Object-) |  |
-| [setFilterOperatorType(int value)](#setFilterOperatorType-int-) |  |
+| [setCriteria(Object value)](#setCriteria-java.lang.Object-) | Please see the getter of this property: @CREF1132\_ |
+| [setFilterOperatorType(int value)](#setFilterOperatorType-int-) | Please see the getter of this property: @CREF1131\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -123,7 +123,7 @@ public void setCriteria(Object value)
 ```
 
 
-
+Please see the getter of this property: @CREF1132\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -136,7 +136,7 @@ public void setFilterOperatorType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1131\_
 
 **Parameters:**
 | Parameter | Type | Description |

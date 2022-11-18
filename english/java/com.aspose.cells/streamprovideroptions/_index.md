@@ -34,9 +34,9 @@ Represents the stream options.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCustomPath(String value)](#setCustomPath-java.lang.String-) | The user custom path(URL) saved in generated html file for the referred source. |
-| [setInputStream(InputStream value)](#setInputStream-java.io.InputStream-) |  |
-| [setResourceLoadingType(int value)](#setResourceLoadingType-int-) |  |
-| [setStream(OutputStream value)](#setStream-java.io.OutputStream-) |  |
+| [setInputStream(InputStream value)](#setInputStream-java.io.InputStream-) | Please see the getter of this property: [getInputStream()](../../com.aspose.cells/streamprovideroptions\#getInputStream--) |
+| [setResourceLoadingType(int value)](#setResourceLoadingType-int-) | Please see the getter of this property: [getResourceLoadingType()](../../com.aspose.cells/streamprovideroptions\#getResourceLoadingType--) |
+| [setStream(OutputStream value)](#setStream-java.io.OutputStream-) | Please see the getter of this property: [getStream()](../../com.aspose.cells/streamprovideroptions\#getStream--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -173,7 +173,7 @@ public void setInputStream(InputStream value)
 ```
 
 
-
+Please see the getter of this property: [getInputStream()](../../com.aspose.cells/streamprovideroptions\#getInputStream--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -186,7 +186,7 @@ public void setResourceLoadingType(int value)
 ```
 
 
-
+Please see the getter of this property: [getResourceLoadingType()](../../com.aspose.cells/streamprovideroptions\#getResourceLoadingType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -199,7 +199,7 @@ public void setStream(OutputStream value)
 ```
 
 
-
+Please see the getter of this property: [getStream()](../../com.aspose.cells/streamprovideroptions\#getStream--)
 
 **Parameters:**
 | Parameter | Type | Description |

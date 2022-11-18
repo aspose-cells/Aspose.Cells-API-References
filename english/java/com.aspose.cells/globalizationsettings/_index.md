@@ -61,7 +61,7 @@ Represents the globalization settings.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setChartSettings(ChartGlobalizationSettings value)](#setChartSettings-com.aspose.cells.ChartGlobalizationSettings-) |  |
+| [setChartSettings(ChartGlobalizationSettings value)](#setChartSettings-com.aspose.cells.ChartGlobalizationSettings-) | Please see the getter of this property: [getChartSettings()](../../com.aspose.cells/globalizationsettings\#getChartSettings--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -527,7 +527,7 @@ public void setChartSettings(ChartGlobalizationSettings value)
 ```
 
 
-
+Please see the getter of this property: [getChartSettings()](../../com.aspose.cells/globalizationsettings\#getChartSettings--)
 
 **Parameters:**
 | Parameter | Type | Description |

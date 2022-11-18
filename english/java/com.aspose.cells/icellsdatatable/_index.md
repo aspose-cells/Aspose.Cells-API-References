@@ -18,6 +18,8 @@ Represents data table.
 | [beforeFirst()](#beforeFirst--) | Move the cursor to the front of this object, just before the first row. |
 | [get(int columnIndex)](#get-int-) | Gets the data stored in the column specified by index. |
 | [get(String columnName)](#get-java.lang.String-) | Gets the data stored in the column specified by column name. |
+| [getColumns()](#getColumns--) | Gets the columns' name. |
+| [getCount()](#getCount--) | Gets the count of the records. -1 for unknown records count. |
 | [next()](#next--) | Moves the cursor down one row from its current position. |
 ### beforeFirst() {#beforeFirst--}
 ```
@@ -57,6 +59,26 @@ Gets the data stored in the column specified by column name.
 
 **Returns:**
 java.lang.Object - 
+### getColumns() {#getColumns--}
+```
+public abstract String[] getColumns()
+```
+
+
+Gets the columns' name.
+
+**Returns:**
+java.lang.String[]
+### getCount() {#getCount--}
+```
+public abstract int getCount()
+```
+
+
+Gets the count of the records. -1 for unknown records count.
+
+**Returns:**
+int
 ### next() {#next--}
 ```
 public abstract boolean next()

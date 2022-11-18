@@ -39,17 +39,17 @@ Settings of pdf when converting excel to pdf, PDF/A does not allow security sett
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAccessibilityExtractContent(boolean value)](#setAccessibilityExtractContent-boolean-) |  |
-| [setAnnotationsPermission(boolean value)](#setAnnotationsPermission-boolean-) |  |
-| [setAssembleDocumentPermission(boolean value)](#setAssembleDocumentPermission-boolean-) |  |
-| [setExtractContentPermission(boolean value)](#setExtractContentPermission-boolean-) |  |
-| [setExtractContentPermissionObsolete(boolean value)](#setExtractContentPermissionObsolete-boolean-) |  |
-| [setFillFormsPermission(boolean value)](#setFillFormsPermission-boolean-) |  |
-| [setFullQualityPrintPermission(boolean value)](#setFullQualityPrintPermission-boolean-) |  |
-| [setModifyDocumentPermission(boolean value)](#setModifyDocumentPermission-boolean-) |  |
-| [setOwnerPassword(String value)](#setOwnerPassword-java.lang.String-) |  |
-| [setPrintPermission(boolean value)](#setPrintPermission-boolean-) |  |
-| [setUserPassword(String value)](#setUserPassword-java.lang.String-) |  |
+| [setAccessibilityExtractContent(boolean value)](#setAccessibilityExtractContent-boolean-) | Please see the getter of this property: [getAccessibilityExtractContent()](../../com.aspose.cells/pdfsecurityoptions\#getAccessibilityExtractContent--) |
+| [setAnnotationsPermission(boolean value)](#setAnnotationsPermission-boolean-) | Please see the getter of this property: [getAnnotationsPermission()](../../com.aspose.cells/pdfsecurityoptions\#getAnnotationsPermission--) |
+| [setAssembleDocumentPermission(boolean value)](#setAssembleDocumentPermission-boolean-) | Please see the getter of this property: [getAssembleDocumentPermission()](../../com.aspose.cells/pdfsecurityoptions\#getAssembleDocumentPermission--) |
+| [setExtractContentPermission(boolean value)](#setExtractContentPermission-boolean-) | Please see the getter of this property: [getExtractContentPermission()](../../com.aspose.cells/pdfsecurityoptions\#getExtractContentPermission--) |
+| [setExtractContentPermissionObsolete(boolean value)](#setExtractContentPermissionObsolete-boolean-) | Please see the getter of this property: [getExtractContentPermissionObsolete()](../../com.aspose.cells/pdfsecurityoptions\#getExtractContentPermissionObsolete--) |
+| [setFillFormsPermission(boolean value)](#setFillFormsPermission-boolean-) | Please see the getter of this property: [getFillFormsPermission()](../../com.aspose.cells/pdfsecurityoptions\#getFillFormsPermission--) |
+| [setFullQualityPrintPermission(boolean value)](#setFullQualityPrintPermission-boolean-) | Please see the getter of this property: [getFullQualityPrintPermission()](../../com.aspose.cells/pdfsecurityoptions\#getFullQualityPrintPermission--) |
+| [setModifyDocumentPermission(boolean value)](#setModifyDocumentPermission-boolean-) | Please see the getter of this property: [getModifyDocumentPermission()](../../com.aspose.cells/pdfsecurityoptions\#getModifyDocumentPermission--) |
+| [setOwnerPassword(String value)](#setOwnerPassword-java.lang.String-) | Please see the getter of this property: [getOwnerPassword()](../../com.aspose.cells/pdfsecurityoptions\#getOwnerPassword--) |
+| [setPrintPermission(boolean value)](#setPrintPermission-boolean-) | Please see the getter of this property: [getPrintPermission()](../../com.aspose.cells/pdfsecurityoptions\#getPrintPermission--) |
+| [setUserPassword(String value)](#setUserPassword-java.lang.String-) | Please see the getter of this property: [getUserPassword()](../../com.aspose.cells/pdfsecurityoptions\#getUserPassword--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -256,7 +256,7 @@ public void setAccessibilityExtractContent(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getAccessibilityExtractContent()](../../com.aspose.cells/pdfsecurityoptions\#getAccessibilityExtractContent--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -269,7 +269,7 @@ public void setAnnotationsPermission(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getAnnotationsPermission()](../../com.aspose.cells/pdfsecurityoptions\#getAnnotationsPermission--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -282,7 +282,7 @@ public void setAssembleDocumentPermission(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getAssembleDocumentPermission()](../../com.aspose.cells/pdfsecurityoptions\#getAssembleDocumentPermission--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -295,7 +295,7 @@ public void setExtractContentPermission(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getExtractContentPermission()](../../com.aspose.cells/pdfsecurityoptions\#getExtractContentPermission--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -308,7 +308,7 @@ public void setExtractContentPermissionObsolete(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getExtractContentPermissionObsolete()](../../com.aspose.cells/pdfsecurityoptions\#getExtractContentPermissionObsolete--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -321,7 +321,7 @@ public void setFillFormsPermission(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getFillFormsPermission()](../../com.aspose.cells/pdfsecurityoptions\#getFillFormsPermission--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -334,7 +334,7 @@ public void setFullQualityPrintPermission(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getFullQualityPrintPermission()](../../com.aspose.cells/pdfsecurityoptions\#getFullQualityPrintPermission--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -347,7 +347,7 @@ public void setModifyDocumentPermission(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getModifyDocumentPermission()](../../com.aspose.cells/pdfsecurityoptions\#getModifyDocumentPermission--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -360,7 +360,7 @@ public void setOwnerPassword(String value)
 ```
 
 
-
+Please see the getter of this property: [getOwnerPassword()](../../com.aspose.cells/pdfsecurityoptions\#getOwnerPassword--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -373,7 +373,7 @@ public void setPrintPermission(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getPrintPermission()](../../com.aspose.cells/pdfsecurityoptions\#getPrintPermission--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -386,7 +386,7 @@ public void setUserPassword(String value)
 ```
 
 
-
+Please see the getter of this property: [getUserPassword()](../../com.aspose.cells/pdfsecurityoptions\#getUserPassword--)
 
 **Parameters:**
 | Parameter | Type | Description |

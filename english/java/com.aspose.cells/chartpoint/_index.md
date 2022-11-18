@@ -116,11 +116,11 @@ Represents a single point in a series in a chart.
 | [isInSecondaryPlot()](#isInSecondaryPlot--) | Gets or sets a value indicates whether this data points is in the second pie or bar on a pie of pie or bar of pie chart |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setExplosion(int value)](#setExplosion-int-) |  |
-| [setInSecondaryPlot(boolean value)](#setInSecondaryPlot-boolean-) |  |
-| [setShadow(boolean value)](#setShadow-boolean-) |  |
-| [setXValue(Object value)](#setXValue-java.lang.Object-) |  |
-| [setYValue(Object value)](#setYValue-java.lang.Object-) |  |
+| [setExplosion(int value)](#setExplosion-int-) | Please see the getter of this property: [getExplosion()](../../com.aspose.cells/chartpoint\#getExplosion--) |
+| [setInSecondaryPlot(boolean value)](#setInSecondaryPlot-boolean-) | Please see the getter of this property: [isInSecondaryPlot()](../../com.aspose.cells/chartpoint\#isInSecondaryPlot--) |
+| [setShadow(boolean value)](#setShadow-boolean-) | Please see the getter of this property: [getShadow()](../../com.aspose.cells/chartpoint\#getShadow--) |
+| [setXValue(Object value)](#setXValue-java.lang.Object-) | Please see the getter of this property: [getXValue()](../../com.aspose.cells/chartpoint\#getXValue--) |
+| [setYValue(Object value)](#setYValue-java.lang.Object-) | Please see the getter of this property: [getYValue()](../../com.aspose.cells/chartpoint\#getYValue--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -632,7 +632,7 @@ public void setExplosion(int value)
 ```
 
 
-
+Please see the getter of this property: [getExplosion()](../../com.aspose.cells/chartpoint\#getExplosion--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -645,7 +645,7 @@ public void setInSecondaryPlot(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isInSecondaryPlot()](../../com.aspose.cells/chartpoint\#isInSecondaryPlot--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -658,7 +658,7 @@ public void setShadow(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getShadow()](../../com.aspose.cells/chartpoint\#getShadow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -671,7 +671,7 @@ public void setXValue(Object value)
 ```
 
 
-
+Please see the getter of this property: [getXValue()](../../com.aspose.cells/chartpoint\#getXValue--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -684,7 +684,7 @@ public void setYValue(Object value)
 ```
 
 
-
+Please see the getter of this property: [getYValue()](../../com.aspose.cells/chartpoint\#getYValue--)
 
 **Parameters:**
 | Parameter | Type | Description |

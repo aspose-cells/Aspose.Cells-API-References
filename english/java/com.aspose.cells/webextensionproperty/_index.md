@@ -25,8 +25,8 @@ Represents an Office Add-in custom property.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) |  |
-| [setValue(String value)](#setValue-java.lang.String-) |  |
+| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: @CREF316\_ |
+| [setValue(String value)](#setValue-java.lang.String-) | Please see the getter of this property: @CREF317\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -108,7 +108,7 @@ public void setName(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF316\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -121,7 +121,7 @@ public void setValue(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF317\_
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -108,28 +108,28 @@ Workbook book = new Workbook();
 | [notifyAll()](#notifyAll--) |  |
 | [refresh()](#refresh--) | Refreshing the slicer.Meanwhile, Refreshing and Calculating relative PivotTables. |
 | [removePivotConnection(PivotTable pivot)](#removePivotConnection-com.aspose.cells.PivotTable-) | Removes PivotTable connection. |
-| [setAlternativeText(String value)](#setAlternativeText-java.lang.String-) |  |
-| [setCaption(String value)](#setCaption-java.lang.String-) |  |
-| [setCaptionVisible(boolean value)](#setCaptionVisible-boolean-) |  |
-| [setColumnWidth(double value)](#setColumnWidth-double-) |  |
-| [setColumnWidthPixel(int value)](#setColumnWidthPixel-int-) |  |
-| [setHeight(double value)](#setHeight-double-) |  |
-| [setHeightPixel(int value)](#setHeightPixel-int-) |  |
-| [setLeftPixel(int value)](#setLeftPixel-int-) |  |
-| [setLocked(boolean value)](#setLocked-boolean-) |  |
-| [setLockedAspectRatio(boolean value)](#setLockedAspectRatio-boolean-) |  |
-| [setLockedPosition(boolean value)](#setLockedPosition-boolean-) |  |
-| [setName(String value)](#setName-java.lang.String-) |  |
-| [setNumberOfColumns(int value)](#setNumberOfColumns-int-) |  |
-| [setPlacement(int value)](#setPlacement-int-) |  |
-| [setPrintable(boolean value)](#setPrintable-boolean-) |  |
-| [setRowHeight(double value)](#setRowHeight-double-) |  |
-| [setRowHeightPixel(int value)](#setRowHeightPixel-int-) |  |
-| [setStyleType(int value)](#setStyleType-int-) |  |
-| [setTitle(String value)](#setTitle-java.lang.String-) |  |
-| [setTopPixel(int value)](#setTopPixel-int-) |  |
-| [setWidth(double value)](#setWidth-double-) |  |
-| [setWidthPixel(int value)](#setWidthPixel-int-) |  |
+| [setAlternativeText(String value)](#setAlternativeText-java.lang.String-) | Please see the getter of this property: [getAlternativeText()](../../com.aspose.cells/slicer\#getAlternativeText--) |
+| [setCaption(String value)](#setCaption-java.lang.String-) | Please see the getter of this property: [getCaption()](../../com.aspose.cells/slicer\#getCaption--) |
+| [setCaptionVisible(boolean value)](#setCaptionVisible-boolean-) | Please see the getter of this property: [getCaptionVisible()](../../com.aspose.cells/slicer\#getCaptionVisible--) |
+| [setColumnWidth(double value)](#setColumnWidth-double-) | Please see the getter of this property: [getColumnWidth()](../../com.aspose.cells/slicer\#getColumnWidth--) |
+| [setColumnWidthPixel(int value)](#setColumnWidthPixel-int-) | Please see the getter of this property: [getColumnWidthPixel()](../../com.aspose.cells/slicer\#getColumnWidthPixel--) |
+| [setHeight(double value)](#setHeight-double-) | Please see the getter of this property: [getHeight()](../../com.aspose.cells/slicer\#getHeight--) |
+| [setHeightPixel(int value)](#setHeightPixel-int-) | Please see the getter of this property: [getHeightPixel()](../../com.aspose.cells/slicer\#getHeightPixel--) |
+| [setLeftPixel(int value)](#setLeftPixel-int-) | Please see the getter of this property: [getLeftPixel()](../../com.aspose.cells/slicer\#getLeftPixel--) |
+| [setLocked(boolean value)](#setLocked-boolean-) | Please see the getter of this property: [isLocked()](../../com.aspose.cells/slicer\#isLocked--) |
+| [setLockedAspectRatio(boolean value)](#setLockedAspectRatio-boolean-) | Please see the getter of this property: [getLockedAspectRatio()](../../com.aspose.cells/slicer\#getLockedAspectRatio--) |
+| [setLockedPosition(boolean value)](#setLockedPosition-boolean-) | Please see the getter of this property: [getLockedPosition()](../../com.aspose.cells/slicer\#getLockedPosition--) |
+| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: [getName()](../../com.aspose.cells/slicer\#getName--) |
+| [setNumberOfColumns(int value)](#setNumberOfColumns-int-) | Please see the getter of this property: [getNumberOfColumns()](../../com.aspose.cells/slicer\#getNumberOfColumns--) |
+| [setPlacement(int value)](#setPlacement-int-) | Please see the getter of this property: [getPlacement()](../../com.aspose.cells/slicer\#getPlacement--) |
+| [setPrintable(boolean value)](#setPrintable-boolean-) | Please see the getter of this property: [isPrintable()](../../com.aspose.cells/slicer\#isPrintable--) |
+| [setRowHeight(double value)](#setRowHeight-double-) | Please see the getter of this property: [getRowHeight()](../../com.aspose.cells/slicer\#getRowHeight--) |
+| [setRowHeightPixel(int value)](#setRowHeightPixel-int-) | Please see the getter of this property: [getRowHeightPixel()](../../com.aspose.cells/slicer\#getRowHeightPixel--) |
+| [setStyleType(int value)](#setStyleType-int-) | Please see the getter of this property: [getStyleType()](../../com.aspose.cells/slicer\#getStyleType--) |
+| [setTitle(String value)](#setTitle-java.lang.String-) | Please see the getter of this property: [getTitle()](../../com.aspose.cells/slicer\#getTitle--) |
+| [setTopPixel(int value)](#setTopPixel-int-) | Please see the getter of this property: [getTopPixel()](../../com.aspose.cells/slicer\#getTopPixel--) |
+| [setWidth(double value)](#setWidth-double-) | Please see the getter of this property: [getWidth()](../../com.aspose.cells/slicer\#getWidth--) |
+| [setWidthPixel(int value)](#setWidthPixel-int-) | Please see the getter of this property: [getWidthPixel()](../../com.aspose.cells/slicer\#getWidthPixel--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -573,7 +573,7 @@ public void setAlternativeText(String value)
 ```
 
 
-
+Please see the getter of this property: [getAlternativeText()](../../com.aspose.cells/slicer\#getAlternativeText--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -586,7 +586,7 @@ public void setCaption(String value)
 ```
 
 
-
+Please see the getter of this property: [getCaption()](../../com.aspose.cells/slicer\#getCaption--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -599,7 +599,7 @@ public void setCaptionVisible(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getCaptionVisible()](../../com.aspose.cells/slicer\#getCaptionVisible--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -612,7 +612,7 @@ public void setColumnWidth(double value)
 ```
 
 
-
+Please see the getter of this property: [getColumnWidth()](../../com.aspose.cells/slicer\#getColumnWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -625,7 +625,7 @@ public void setColumnWidthPixel(int value)
 ```
 
 
-
+Please see the getter of this property: [getColumnWidthPixel()](../../com.aspose.cells/slicer\#getColumnWidthPixel--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -638,7 +638,7 @@ public void setHeight(double value)
 ```
 
 
-
+Please see the getter of this property: [getHeight()](../../com.aspose.cells/slicer\#getHeight--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -651,7 +651,7 @@ public void setHeightPixel(int value)
 ```
 
 
-
+Please see the getter of this property: [getHeightPixel()](../../com.aspose.cells/slicer\#getHeightPixel--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -664,7 +664,7 @@ public void setLeftPixel(int value)
 ```
 
 
-
+Please see the getter of this property: [getLeftPixel()](../../com.aspose.cells/slicer\#getLeftPixel--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -677,7 +677,7 @@ public void setLocked(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isLocked()](../../com.aspose.cells/slicer\#isLocked--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -690,7 +690,7 @@ public void setLockedAspectRatio(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getLockedAspectRatio()](../../com.aspose.cells/slicer\#getLockedAspectRatio--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -703,7 +703,7 @@ public void setLockedPosition(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getLockedPosition()](../../com.aspose.cells/slicer\#getLockedPosition--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -716,7 +716,7 @@ public void setName(String value)
 ```
 
 
-
+Please see the getter of this property: [getName()](../../com.aspose.cells/slicer\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -729,7 +729,7 @@ public void setNumberOfColumns(int value)
 ```
 
 
-
+Please see the getter of this property: [getNumberOfColumns()](../../com.aspose.cells/slicer\#getNumberOfColumns--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -742,7 +742,7 @@ public void setPlacement(int value)
 ```
 
 
-
+Please see the getter of this property: [getPlacement()](../../com.aspose.cells/slicer\#getPlacement--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -755,7 +755,7 @@ public void setPrintable(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isPrintable()](../../com.aspose.cells/slicer\#isPrintable--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -768,7 +768,7 @@ public void setRowHeight(double value)
 ```
 
 
-
+Please see the getter of this property: [getRowHeight()](../../com.aspose.cells/slicer\#getRowHeight--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -781,7 +781,7 @@ public void setRowHeightPixel(int value)
 ```
 
 
-
+Please see the getter of this property: [getRowHeightPixel()](../../com.aspose.cells/slicer\#getRowHeightPixel--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -794,7 +794,7 @@ public void setStyleType(int value)
 ```
 
 
-
+Please see the getter of this property: [getStyleType()](../../com.aspose.cells/slicer\#getStyleType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -807,7 +807,7 @@ public void setTitle(String value)
 ```
 
 
-
+Please see the getter of this property: [getTitle()](../../com.aspose.cells/slicer\#getTitle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -820,7 +820,7 @@ public void setTopPixel(int value)
 ```
 
 
-
+Please see the getter of this property: [getTopPixel()](../../com.aspose.cells/slicer\#getTopPixel--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -833,7 +833,7 @@ public void setWidth(double value)
 ```
 
 
-
+Please see the getter of this property: [getWidth()](../../com.aspose.cells/slicer\#getWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -846,7 +846,7 @@ public void setWidthPixel(int value)
 ```
 
 
-
+Please see the getter of this property: [getWidthPixel()](../../com.aspose.cells/slicer\#getWidthPixel--)
 
 **Parameters:**
 | Parameter | Type | Description |

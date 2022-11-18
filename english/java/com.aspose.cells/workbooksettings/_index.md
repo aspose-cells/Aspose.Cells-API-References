@@ -106,73 +106,73 @@ Workbook workbook = new Workbook();
 | [isVScrollBarVisible()](#isVScrollBarVisible--) | Gets or sets a value indicating whether the generated spreadsheet will contain a vertical scroll bar. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAuthor(String value)](#setAuthor-java.lang.String-) |  |
-| [setAutoCompressPictures(boolean value)](#setAutoCompressPictures-boolean-) |  |
-| [setAutoRecover(boolean value)](#setAutoRecover-boolean-) |  |
-| [setBuildVersion(String value)](#setBuildVersion-java.lang.String-) |  |
-| [setCalcMode(int value)](#setCalcMode-int-) |  |
-| [setCalcStackSize(int value)](#setCalcStackSize-int-) |  |
-| [setCalculationId(String value)](#setCalculationId-java.lang.String-) |  |
-| [setCheckCompatibility(boolean value)](#setCheckCompatibility-boolean-) |  |
-| [setCheckCustomNumberFormat(boolean value)](#setCheckCustomNumberFormat-boolean-) |  |
-| [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) |  |
-| [setCompliance(int value)](#setCompliance-int-) |  |
-| [setCrashSave(boolean value)](#setCrashSave-boolean-) |  |
-| [setCreateCalcChain(boolean value)](#setCreateCalcChain-boolean-) |  |
-| [setDataExtractLoad(boolean value)](#setDataExtractLoad-boolean-) |  |
-| [setDate1904(boolean value)](#setDate1904-boolean-) |  |
-| [setDefaultEncrypted(boolean value)](#setDefaultEncrypted-boolean-) |  |
-| [setDisplayDrawingObjects(int value)](#setDisplayDrawingObjects-int-) |  |
-| [setEnableMacros(boolean value)](#setEnableMacros-boolean-) |  |
-| [setFirstVisibleTab(int value)](#setFirstVisibleTab-int-) |  |
-| [setForceFullCalculate(boolean value)](#setForceFullCalculate-boolean-) |  |
-| [setGlobalizationSettings(GlobalizationSettings value)](#setGlobalizationSettings-com.aspose.cells.GlobalizationSettings-) |  |
-| [setHScrollBarVisible(boolean value)](#setHScrollBarVisible-boolean-) |  |
-| [setHidden(boolean value)](#setHidden-boolean-) |  |
-| [setHidePivotFieldList(boolean value)](#setHidePivotFieldList-boolean-) |  |
-| [setIteration(boolean value)](#setIteration-boolean-) |  |
-| [setLanguageCode(int value)](#setLanguageCode-int-) |  |
-| [setLocale(Locale value)](#setLocale-java.util.Locale-) |  |
-| [setMaxChange(double value)](#setMaxChange-double-) |  |
-| [setMaxIteration(int value)](#setMaxIteration-int-) |  |
-| [setMaxRowsOfSharedFormula(int value)](#setMaxRowsOfSharedFormula-int-) |  |
-| [setMemorySetting(int value)](#setMemorySetting-int-) |  |
-| [setMinimized(boolean value)](#setMinimized-boolean-) |  |
-| [setNumberDecimalSeparator(char value)](#setNumberDecimalSeparator-char-) |  |
-| [setNumberGroupSeparator(char value)](#setNumberGroupSeparator-char-) |  |
+| [setAuthor(String value)](#setAuthor-java.lang.String-) | Please see the getter of this property: [getAuthor()](../../com.aspose.cells/workbooksettings\#getAuthor--) |
+| [setAutoCompressPictures(boolean value)](#setAutoCompressPictures-boolean-) | Please see the getter of this property: [getAutoCompressPictures()](../../com.aspose.cells/workbooksettings\#getAutoCompressPictures--) |
+| [setAutoRecover(boolean value)](#setAutoRecover-boolean-) | Please see the getter of this property: [getAutoRecover()](../../com.aspose.cells/workbooksettings\#getAutoRecover--) |
+| [setBuildVersion(String value)](#setBuildVersion-java.lang.String-) | Please see the getter of this property: [getBuildVersion()](../../com.aspose.cells/workbooksettings\#getBuildVersion--) |
+| [setCalcMode(int value)](#setCalcMode-int-) | Please see the getter of this property: [getCalcMode()](../../com.aspose.cells/workbooksettings\#getCalcMode--) |
+| [setCalcStackSize(int value)](#setCalcStackSize-int-) | Please see the getter of this property: [getCalcStackSize()](../../com.aspose.cells/workbooksettings\#getCalcStackSize--) |
+| [setCalculationId(String value)](#setCalculationId-java.lang.String-) | Please see the getter of this property: [getCalculationId()](../../com.aspose.cells/workbooksettings\#getCalculationId--) |
+| [setCheckCompatibility(boolean value)](#setCheckCompatibility-boolean-) | Please see the getter of this property: [getCheckCompatibility()](../../com.aspose.cells/workbooksettings\#getCheckCompatibility--) |
+| [setCheckCustomNumberFormat(boolean value)](#setCheckCustomNumberFormat-boolean-) | Please see the getter of this property: [getCheckCustomNumberFormat()](../../com.aspose.cells/workbooksettings\#getCheckCustomNumberFormat--) |
+| [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | Please see the getter of this property: [getCheckExcelRestriction()](../../com.aspose.cells/workbooksettings\#getCheckExcelRestriction--) |
+| [setCompliance(int value)](#setCompliance-int-) | Please see the getter of this property: [getCompliance()](../../com.aspose.cells/workbooksettings\#getCompliance--) |
+| [setCrashSave(boolean value)](#setCrashSave-boolean-) | Please see the getter of this property: [getCrashSave()](../../com.aspose.cells/workbooksettings\#getCrashSave--) |
+| [setCreateCalcChain(boolean value)](#setCreateCalcChain-boolean-) | Please see the getter of this property: [getCreateCalcChain()](../../com.aspose.cells/workbooksettings\#getCreateCalcChain--) |
+| [setDataExtractLoad(boolean value)](#setDataExtractLoad-boolean-) | Please see the getter of this property: [getDataExtractLoad()](../../com.aspose.cells/workbooksettings\#getDataExtractLoad--) |
+| [setDate1904(boolean value)](#setDate1904-boolean-) | Please see the getter of this property: [getDate1904()](../../com.aspose.cells/workbooksettings\#getDate1904--) |
+| [setDefaultEncrypted(boolean value)](#setDefaultEncrypted-boolean-) | Please see the getter of this property: [isDefaultEncrypted()](../../com.aspose.cells/workbooksettings\#isDefaultEncrypted--) |
+| [setDisplayDrawingObjects(int value)](#setDisplayDrawingObjects-int-) | Please see the getter of this property: [getDisplayDrawingObjects()](../../com.aspose.cells/workbooksettings\#getDisplayDrawingObjects--) |
+| [setEnableMacros(boolean value)](#setEnableMacros-boolean-) | Please see the getter of this property: [getEnableMacros()](../../com.aspose.cells/workbooksettings\#getEnableMacros--) |
+| [setFirstVisibleTab(int value)](#setFirstVisibleTab-int-) | Please see the getter of this property: [getFirstVisibleTab()](../../com.aspose.cells/workbooksettings\#getFirstVisibleTab--) |
+| [setForceFullCalculate(boolean value)](#setForceFullCalculate-boolean-) | Please see the getter of this property: [getForceFullCalculate()](../../com.aspose.cells/workbooksettings\#getForceFullCalculate--) |
+| [setGlobalizationSettings(GlobalizationSettings value)](#setGlobalizationSettings-com.aspose.cells.GlobalizationSettings-) | Please see the getter of this property: [getGlobalizationSettings()](../../com.aspose.cells/workbooksettings\#getGlobalizationSettings--) |
+| [setHScrollBarVisible(boolean value)](#setHScrollBarVisible-boolean-) | Please see the getter of this property: [isHScrollBarVisible()](../../com.aspose.cells/workbooksettings\#isHScrollBarVisible--) |
+| [setHidden(boolean value)](#setHidden-boolean-) | Please see the getter of this property: [isHidden()](../../com.aspose.cells/workbooksettings\#isHidden--) |
+| [setHidePivotFieldList(boolean value)](#setHidePivotFieldList-boolean-) | Please see the getter of this property: [getHidePivotFieldList()](../../com.aspose.cells/workbooksettings\#getHidePivotFieldList--) |
+| [setIteration(boolean value)](#setIteration-boolean-) | Please see the getter of this property: [getIteration()](../../com.aspose.cells/workbooksettings\#getIteration--) |
+| [setLanguageCode(int value)](#setLanguageCode-int-) | Please see the getter of this property: [getLanguageCode()](../../com.aspose.cells/workbooksettings\#getLanguageCode--) |
+| [setLocale(Locale value)](#setLocale-java.util.Locale-) | Please see the getter of this property: [getLocale()](../../com.aspose.cells/workbooksettings\#getLocale--) |
+| [setMaxChange(double value)](#setMaxChange-double-) | Please see the getter of this property: [getMaxChange()](../../com.aspose.cells/workbooksettings\#getMaxChange--) |
+| [setMaxIteration(int value)](#setMaxIteration-int-) | Please see the getter of this property: [getMaxIteration()](../../com.aspose.cells/workbooksettings\#getMaxIteration--) |
+| [setMaxRowsOfSharedFormula(int value)](#setMaxRowsOfSharedFormula-int-) | Please see the getter of this property: [getMaxRowsOfSharedFormula()](../../com.aspose.cells/workbooksettings\#getMaxRowsOfSharedFormula--) |
+| [setMemorySetting(int value)](#setMemorySetting-int-) | Please see the getter of this property: [getMemorySetting()](../../com.aspose.cells/workbooksettings\#getMemorySetting--) |
+| [setMinimized(boolean value)](#setMinimized-boolean-) | Please see the getter of this property: [isMinimized()](../../com.aspose.cells/workbooksettings\#isMinimized--) |
+| [setNumberDecimalSeparator(char value)](#setNumberDecimalSeparator-char-) | Please see the getter of this property: [getNumberDecimalSeparator()](../../com.aspose.cells/workbooksettings\#getNumberDecimalSeparator--) |
+| [setNumberGroupSeparator(char value)](#setNumberGroupSeparator-char-) | Please see the getter of this property: [getNumberGroupSeparator()](../../com.aspose.cells/workbooksettings\#getNumberGroupSeparator--) |
 | [setPageOrientationType(int pageOrientationType)](#setPageOrientationType-int-) | Set the type of print orientation for the whole workbook. |
-| [setPaperSize(int value)](#setPaperSize-int-) |  |
-| [setParsingFormulaOnOpen(boolean value)](#setParsingFormulaOnOpen-boolean-) |  |
-| [setPassword(String value)](#setPassword-java.lang.String-) |  |
-| [setPrecisionAsDisplayed(boolean value)](#setPrecisionAsDisplayed-boolean-) |  |
-| [setQuotePrefixToStyle(boolean value)](#setQuotePrefixToStyle-boolean-) |  |
-| [setReCalculateOnOpen(boolean value)](#setReCalculateOnOpen-boolean-) |  |
-| [setRecalculateBeforeSave(boolean value)](#setRecalculateBeforeSave-boolean-) |  |
-| [setRegion(int value)](#setRegion-int-) |  |
-| [setRemovePersonalInformation(boolean value)](#setRemovePersonalInformation-boolean-) |  |
-| [setRepairLoad(boolean value)](#setRepairLoad-boolean-) |  |
-| [setResourceProvider(IStreamProvider value)](#setResourceProvider-com.aspose.cells.IStreamProvider-) |  |
-| [setShared(boolean value)](#setShared-boolean-) |  |
-| [setSheetTabBarWidth(int value)](#setSheetTabBarWidth-int-) |  |
-| [setShowTabs(boolean value)](#setShowTabs-boolean-) |  |
-| [setSignificantDigits(int value)](#setSignificantDigits-int-) |  |
-| [setStreamProvider(IStreamProvider value)](#setStreamProvider-com.aspose.cells.IStreamProvider-) |  |
-| [setUpdateAdjacentCellsBorder(boolean value)](#setUpdateAdjacentCellsBorder-boolean-) |  |
-| [setUpdateLinksType(int value)](#setUpdateLinksType-int-) |  |
-| [setVScrollBarVisible(boolean value)](#setVScrollBarVisible-boolean-) |  |
+| [setPaperSize(int value)](#setPaperSize-int-) | Please see the getter of this property: [getPaperSize()](../../com.aspose.cells/workbooksettings\#getPaperSize--) |
+| [setParsingFormulaOnOpen(boolean value)](#setParsingFormulaOnOpen-boolean-) | Please see the getter of this property: [getParsingFormulaOnOpen()](../../com.aspose.cells/workbooksettings\#getParsingFormulaOnOpen--) |
+| [setPassword(String value)](#setPassword-java.lang.String-) | Please see the getter of this property: [getPassword()](../../com.aspose.cells/workbooksettings\#getPassword--) |
+| [setPrecisionAsDisplayed(boolean value)](#setPrecisionAsDisplayed-boolean-) | Please see the getter of this property: [getPrecisionAsDisplayed()](../../com.aspose.cells/workbooksettings\#getPrecisionAsDisplayed--) |
+| [setQuotePrefixToStyle(boolean value)](#setQuotePrefixToStyle-boolean-) | Please see the getter of this property: [getQuotePrefixToStyle()](../../com.aspose.cells/workbooksettings\#getQuotePrefixToStyle--) |
+| [setReCalculateOnOpen(boolean value)](#setReCalculateOnOpen-boolean-) | Please see the getter of this property: [getReCalculateOnOpen()](../../com.aspose.cells/workbooksettings\#getReCalculateOnOpen--) |
+| [setRecalculateBeforeSave(boolean value)](#setRecalculateBeforeSave-boolean-) | Please see the getter of this property: [getRecalculateBeforeSave()](../../com.aspose.cells/workbooksettings\#getRecalculateBeforeSave--) |
+| [setRegion(int value)](#setRegion-int-) | Please see the getter of this property: [getRegion()](../../com.aspose.cells/workbooksettings\#getRegion--) |
+| [setRemovePersonalInformation(boolean value)](#setRemovePersonalInformation-boolean-) | Please see the getter of this property: [getRemovePersonalInformation()](../../com.aspose.cells/workbooksettings\#getRemovePersonalInformation--) |
+| [setRepairLoad(boolean value)](#setRepairLoad-boolean-) | Please see the getter of this property: [getRepairLoad()](../../com.aspose.cells/workbooksettings\#getRepairLoad--) |
+| [setResourceProvider(IStreamProvider value)](#setResourceProvider-com.aspose.cells.IStreamProvider-) | Please see the getter of this property: [getResourceProvider()](../../com.aspose.cells/workbooksettings\#getResourceProvider--) |
+| [setShared(boolean value)](#setShared-boolean-) | Please see the getter of this property: [getShared()](../../com.aspose.cells/workbooksettings\#getShared--) |
+| [setSheetTabBarWidth(int value)](#setSheetTabBarWidth-int-) | Please see the getter of this property: [getSheetTabBarWidth()](../../com.aspose.cells/workbooksettings\#getSheetTabBarWidth--) |
+| [setShowTabs(boolean value)](#setShowTabs-boolean-) | Please see the getter of this property: [getShowTabs()](../../com.aspose.cells/workbooksettings\#getShowTabs--) |
+| [setSignificantDigits(int value)](#setSignificantDigits-int-) | Please see the getter of this property: [getSignificantDigits()](../../com.aspose.cells/workbooksettings\#getSignificantDigits--) |
+| [setStreamProvider(IStreamProvider value)](#setStreamProvider-com.aspose.cells.IStreamProvider-) | Please see the getter of this property: [getStreamProvider()](../../com.aspose.cells/workbooksettings\#getStreamProvider--) |
+| [setUpdateAdjacentCellsBorder(boolean value)](#setUpdateAdjacentCellsBorder-boolean-) | Please see the getter of this property: [getUpdateAdjacentCellsBorder()](../../com.aspose.cells/workbooksettings\#getUpdateAdjacentCellsBorder--) |
+| [setUpdateLinksType(int value)](#setUpdateLinksType-int-) | Please see the getter of this property: [getUpdateLinksType()](../../com.aspose.cells/workbooksettings\#getUpdateLinksType--) |
+| [setVScrollBarVisible(boolean value)](#setVScrollBarVisible-boolean-) | Please see the getter of this property: [isVScrollBarVisible()](../../com.aspose.cells/workbooksettings\#isVScrollBarVisible--) |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
-| [setWindowHeight(double value)](#setWindowHeight-double-) |  |
-| [setWindowHeightCM(double value)](#setWindowHeightCM-double-) |  |
-| [setWindowHeightInch(double value)](#setWindowHeightInch-double-) |  |
-| [setWindowLeft(double value)](#setWindowLeft-double-) |  |
-| [setWindowLeftCM(double value)](#setWindowLeftCM-double-) |  |
-| [setWindowLeftInch(double value)](#setWindowLeftInch-double-) |  |
-| [setWindowTop(double value)](#setWindowTop-double-) |  |
-| [setWindowTopCM(double value)](#setWindowTopCM-double-) |  |
-| [setWindowTopInch(double value)](#setWindowTopInch-double-) |  |
-| [setWindowWidth(double value)](#setWindowWidth-double-) |  |
-| [setWindowWidthCM(double value)](#setWindowWidthCM-double-) |  |
-| [setWindowWidthInch(double value)](#setWindowWidthInch-double-) |  |
+| [setWindowHeight(double value)](#setWindowHeight-double-) | Please see the getter of this property: [getWindowHeight()](../../com.aspose.cells/workbooksettings\#getWindowHeight--) |
+| [setWindowHeightCM(double value)](#setWindowHeightCM-double-) | Please see the getter of this property: [getWindowHeightCM()](../../com.aspose.cells/workbooksettings\#getWindowHeightCM--) |
+| [setWindowHeightInch(double value)](#setWindowHeightInch-double-) | Please see the getter of this property: [getWindowHeightInch()](../../com.aspose.cells/workbooksettings\#getWindowHeightInch--) |
+| [setWindowLeft(double value)](#setWindowLeft-double-) | Please see the getter of this property: [getWindowLeft()](../../com.aspose.cells/workbooksettings\#getWindowLeft--) |
+| [setWindowLeftCM(double value)](#setWindowLeftCM-double-) | Please see the getter of this property: [getWindowLeftCM()](../../com.aspose.cells/workbooksettings\#getWindowLeftCM--) |
+| [setWindowLeftInch(double value)](#setWindowLeftInch-double-) | Please see the getter of this property: [getWindowLeftInch()](../../com.aspose.cells/workbooksettings\#getWindowLeftInch--) |
+| [setWindowTop(double value)](#setWindowTop-double-) | Please see the getter of this property: [getWindowTop()](../../com.aspose.cells/workbooksettings\#getWindowTop--) |
+| [setWindowTopCM(double value)](#setWindowTopCM-double-) | Please see the getter of this property: [getWindowTopCM()](../../com.aspose.cells/workbooksettings\#getWindowTopCM--) |
+| [setWindowTopInch(double value)](#setWindowTopInch-double-) | Please see the getter of this property: [getWindowTopInch()](../../com.aspose.cells/workbooksettings\#getWindowTopInch--) |
+| [setWindowWidth(double value)](#setWindowWidth-double-) | Please see the getter of this property: [getWindowWidth()](../../com.aspose.cells/workbooksettings\#getWindowWidth--) |
+| [setWindowWidthCM(double value)](#setWindowWidthCM-double-) | Please see the getter of this property: [getWindowWidthCM()](../../com.aspose.cells/workbooksettings\#getWindowWidthCM--) |
+| [setWindowWidthInch(double value)](#setWindowWidthInch-double-) | Please see the getter of this property: [getWindowWidthInch()](../../com.aspose.cells/workbooksettings\#getWindowWidthInch--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -1002,7 +1002,7 @@ public void setAuthor(String value)
 ```
 
 
-
+Please see the getter of this property: [getAuthor()](../../com.aspose.cells/workbooksettings\#getAuthor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1015,7 +1015,7 @@ public void setAutoCompressPictures(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getAutoCompressPictures()](../../com.aspose.cells/workbooksettings\#getAutoCompressPictures--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1028,7 +1028,7 @@ public void setAutoRecover(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getAutoRecover()](../../com.aspose.cells/workbooksettings\#getAutoRecover--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1041,7 +1041,7 @@ public void setBuildVersion(String value)
 ```
 
 
-
+Please see the getter of this property: [getBuildVersion()](../../com.aspose.cells/workbooksettings\#getBuildVersion--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1054,7 +1054,7 @@ public void setCalcMode(int value)
 ```
 
 
-
+Please see the getter of this property: [getCalcMode()](../../com.aspose.cells/workbooksettings\#getCalcMode--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1067,7 +1067,7 @@ public void setCalcStackSize(int value)
 ```
 
 
-
+Please see the getter of this property: [getCalcStackSize()](../../com.aspose.cells/workbooksettings\#getCalcStackSize--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1080,7 +1080,7 @@ public void setCalculationId(String value)
 ```
 
 
-
+Please see the getter of this property: [getCalculationId()](../../com.aspose.cells/workbooksettings\#getCalculationId--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1093,7 +1093,7 @@ public void setCheckCompatibility(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getCheckCompatibility()](../../com.aspose.cells/workbooksettings\#getCheckCompatibility--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1106,7 +1106,7 @@ public void setCheckCustomNumberFormat(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getCheckCustomNumberFormat()](../../com.aspose.cells/workbooksettings\#getCheckCustomNumberFormat--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1119,7 +1119,7 @@ public void setCheckExcelRestriction(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getCheckExcelRestriction()](../../com.aspose.cells/workbooksettings\#getCheckExcelRestriction--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1132,7 +1132,7 @@ public void setCompliance(int value)
 ```
 
 
-
+Please see the getter of this property: [getCompliance()](../../com.aspose.cells/workbooksettings\#getCompliance--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1145,7 +1145,7 @@ public void setCrashSave(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getCrashSave()](../../com.aspose.cells/workbooksettings\#getCrashSave--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1158,7 +1158,7 @@ public void setCreateCalcChain(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getCreateCalcChain()](../../com.aspose.cells/workbooksettings\#getCreateCalcChain--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1171,7 +1171,7 @@ public void setDataExtractLoad(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getDataExtractLoad()](../../com.aspose.cells/workbooksettings\#getDataExtractLoad--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1184,7 +1184,7 @@ public void setDate1904(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getDate1904()](../../com.aspose.cells/workbooksettings\#getDate1904--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1197,7 +1197,7 @@ public void setDefaultEncrypted(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isDefaultEncrypted()](../../com.aspose.cells/workbooksettings\#isDefaultEncrypted--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1210,7 +1210,7 @@ public void setDisplayDrawingObjects(int value)
 ```
 
 
-
+Please see the getter of this property: [getDisplayDrawingObjects()](../../com.aspose.cells/workbooksettings\#getDisplayDrawingObjects--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1223,7 +1223,7 @@ public void setEnableMacros(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getEnableMacros()](../../com.aspose.cells/workbooksettings\#getEnableMacros--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1236,7 +1236,7 @@ public void setFirstVisibleTab(int value)
 ```
 
 
-
+Please see the getter of this property: [getFirstVisibleTab()](../../com.aspose.cells/workbooksettings\#getFirstVisibleTab--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1249,7 +1249,7 @@ public void setForceFullCalculate(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getForceFullCalculate()](../../com.aspose.cells/workbooksettings\#getForceFullCalculate--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1262,7 +1262,7 @@ public void setGlobalizationSettings(GlobalizationSettings value)
 ```
 
 
-
+Please see the getter of this property: [getGlobalizationSettings()](../../com.aspose.cells/workbooksettings\#getGlobalizationSettings--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1275,7 +1275,7 @@ public void setHScrollBarVisible(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isHScrollBarVisible()](../../com.aspose.cells/workbooksettings\#isHScrollBarVisible--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1288,7 +1288,7 @@ public void setHidden(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isHidden()](../../com.aspose.cells/workbooksettings\#isHidden--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1301,7 +1301,7 @@ public void setHidePivotFieldList(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getHidePivotFieldList()](../../com.aspose.cells/workbooksettings\#getHidePivotFieldList--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1314,7 +1314,7 @@ public void setIteration(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getIteration()](../../com.aspose.cells/workbooksettings\#getIteration--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1327,7 +1327,7 @@ public void setLanguageCode(int value)
 ```
 
 
-
+Please see the getter of this property: [getLanguageCode()](../../com.aspose.cells/workbooksettings\#getLanguageCode--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1340,7 +1340,7 @@ public void setLocale(Locale value)
 ```
 
 
-
+Please see the getter of this property: [getLocale()](../../com.aspose.cells/workbooksettings\#getLocale--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1353,7 +1353,7 @@ public void setMaxChange(double value)
 ```
 
 
-
+Please see the getter of this property: [getMaxChange()](../../com.aspose.cells/workbooksettings\#getMaxChange--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1366,7 +1366,7 @@ public void setMaxIteration(int value)
 ```
 
 
-
+Please see the getter of this property: [getMaxIteration()](../../com.aspose.cells/workbooksettings\#getMaxIteration--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1379,7 +1379,7 @@ public void setMaxRowsOfSharedFormula(int value)
 ```
 
 
-
+Please see the getter of this property: [getMaxRowsOfSharedFormula()](../../com.aspose.cells/workbooksettings\#getMaxRowsOfSharedFormula--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1392,7 +1392,7 @@ public void setMemorySetting(int value)
 ```
 
 
-
+Please see the getter of this property: [getMemorySetting()](../../com.aspose.cells/workbooksettings\#getMemorySetting--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1405,7 +1405,7 @@ public void setMinimized(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isMinimized()](../../com.aspose.cells/workbooksettings\#isMinimized--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1418,7 +1418,7 @@ public void setNumberDecimalSeparator(char value)
 ```
 
 
-
+Please see the getter of this property: [getNumberDecimalSeparator()](../../com.aspose.cells/workbooksettings\#getNumberDecimalSeparator--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1431,7 +1431,7 @@ public void setNumberGroupSeparator(char value)
 ```
 
 
-
+Please see the getter of this property: [getNumberGroupSeparator()](../../com.aspose.cells/workbooksettings\#getNumberGroupSeparator--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1457,7 +1457,7 @@ public void setPaperSize(int value)
 ```
 
 
-
+Please see the getter of this property: [getPaperSize()](../../com.aspose.cells/workbooksettings\#getPaperSize--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1470,7 +1470,7 @@ public void setParsingFormulaOnOpen(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getParsingFormulaOnOpen()](../../com.aspose.cells/workbooksettings\#getParsingFormulaOnOpen--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1483,7 +1483,7 @@ public void setPassword(String value)
 ```
 
 
-
+Please see the getter of this property: [getPassword()](../../com.aspose.cells/workbooksettings\#getPassword--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1496,7 +1496,7 @@ public void setPrecisionAsDisplayed(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getPrecisionAsDisplayed()](../../com.aspose.cells/workbooksettings\#getPrecisionAsDisplayed--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1509,7 +1509,7 @@ public void setQuotePrefixToStyle(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getQuotePrefixToStyle()](../../com.aspose.cells/workbooksettings\#getQuotePrefixToStyle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1522,7 +1522,7 @@ public void setReCalculateOnOpen(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getReCalculateOnOpen()](../../com.aspose.cells/workbooksettings\#getReCalculateOnOpen--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1535,7 +1535,7 @@ public void setRecalculateBeforeSave(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getRecalculateBeforeSave()](../../com.aspose.cells/workbooksettings\#getRecalculateBeforeSave--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1548,7 +1548,7 @@ public void setRegion(int value)
 ```
 
 
-
+Please see the getter of this property: [getRegion()](../../com.aspose.cells/workbooksettings\#getRegion--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1561,7 +1561,7 @@ public void setRemovePersonalInformation(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getRemovePersonalInformation()](../../com.aspose.cells/workbooksettings\#getRemovePersonalInformation--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1574,7 +1574,7 @@ public void setRepairLoad(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getRepairLoad()](../../com.aspose.cells/workbooksettings\#getRepairLoad--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1587,7 +1587,7 @@ public void setResourceProvider(IStreamProvider value)
 ```
 
 
-
+Please see the getter of this property: [getResourceProvider()](../../com.aspose.cells/workbooksettings\#getResourceProvider--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1600,7 +1600,7 @@ public void setShared(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getShared()](../../com.aspose.cells/workbooksettings\#getShared--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1613,7 +1613,7 @@ public void setSheetTabBarWidth(int value)
 ```
 
 
-
+Please see the getter of this property: [getSheetTabBarWidth()](../../com.aspose.cells/workbooksettings\#getSheetTabBarWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1626,7 +1626,7 @@ public void setShowTabs(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getShowTabs()](../../com.aspose.cells/workbooksettings\#getShowTabs--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1639,7 +1639,7 @@ public void setSignificantDigits(int value)
 ```
 
 
-
+Please see the getter of this property: [getSignificantDigits()](../../com.aspose.cells/workbooksettings\#getSignificantDigits--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1652,7 +1652,7 @@ public void setStreamProvider(IStreamProvider value)
 ```
 
 
-
+Please see the getter of this property: [getStreamProvider()](../../com.aspose.cells/workbooksettings\#getStreamProvider--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1665,7 +1665,7 @@ public void setUpdateAdjacentCellsBorder(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getUpdateAdjacentCellsBorder()](../../com.aspose.cells/workbooksettings\#getUpdateAdjacentCellsBorder--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1678,7 +1678,7 @@ public void setUpdateLinksType(int value)
 ```
 
 
-
+Please see the getter of this property: [getUpdateLinksType()](../../com.aspose.cells/workbooksettings\#getUpdateLinksType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1691,7 +1691,7 @@ public void setVScrollBarVisible(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isVScrollBarVisible()](../../com.aspose.cells/workbooksettings\#isVScrollBarVisible--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1717,7 +1717,7 @@ public void setWindowHeight(double value)
 ```
 
 
-
+Please see the getter of this property: [getWindowHeight()](../../com.aspose.cells/workbooksettings\#getWindowHeight--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1730,7 +1730,7 @@ public void setWindowHeightCM(double value)
 ```
 
 
-
+Please see the getter of this property: [getWindowHeightCM()](../../com.aspose.cells/workbooksettings\#getWindowHeightCM--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1743,7 +1743,7 @@ public void setWindowHeightInch(double value)
 ```
 
 
-
+Please see the getter of this property: [getWindowHeightInch()](../../com.aspose.cells/workbooksettings\#getWindowHeightInch--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1756,7 +1756,7 @@ public void setWindowLeft(double value)
 ```
 
 
-
+Please see the getter of this property: [getWindowLeft()](../../com.aspose.cells/workbooksettings\#getWindowLeft--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1769,7 +1769,7 @@ public void setWindowLeftCM(double value)
 ```
 
 
-
+Please see the getter of this property: [getWindowLeftCM()](../../com.aspose.cells/workbooksettings\#getWindowLeftCM--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1782,7 +1782,7 @@ public void setWindowLeftInch(double value)
 ```
 
 
-
+Please see the getter of this property: [getWindowLeftInch()](../../com.aspose.cells/workbooksettings\#getWindowLeftInch--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1795,7 +1795,7 @@ public void setWindowTop(double value)
 ```
 
 
-
+Please see the getter of this property: [getWindowTop()](../../com.aspose.cells/workbooksettings\#getWindowTop--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1808,7 +1808,7 @@ public void setWindowTopCM(double value)
 ```
 
 
-
+Please see the getter of this property: [getWindowTopCM()](../../com.aspose.cells/workbooksettings\#getWindowTopCM--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1821,7 +1821,7 @@ public void setWindowTopInch(double value)
 ```
 
 
-
+Please see the getter of this property: [getWindowTopInch()](../../com.aspose.cells/workbooksettings\#getWindowTopInch--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1834,7 +1834,7 @@ public void setWindowWidth(double value)
 ```
 
 
-
+Please see the getter of this property: [getWindowWidth()](../../com.aspose.cells/workbooksettings\#getWindowWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1847,7 +1847,7 @@ public void setWindowWidthCM(double value)
 ```
 
 
-
+Please see the getter of this property: [getWindowWidthCM()](../../com.aspose.cells/workbooksettings\#getWindowWidthCM--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1860,7 +1860,7 @@ public void setWindowWidthInch(double value)
 ```
 
 
-
+Please see the getter of this property: [getWindowWidthInch()](../../com.aspose.cells/workbooksettings\#getWindowWidthInch--)
 
 **Parameters:**
 | Parameter | Type | Description |

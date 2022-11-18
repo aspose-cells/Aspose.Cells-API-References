@@ -25,8 +25,8 @@ Represents an x-y coordinate within the path coordinate space.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setX(int value)](#setX-int-) |  |
-| [setY(int value)](#setY-int-) |  |
+| [setX(int value)](#setX-int-) | Please see the getter of this property: @CREF781\_ |
+| [setY(int value)](#setY-int-) | Please see the getter of this property: @CREF782\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -108,7 +108,7 @@ public void setX(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF781\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -121,7 +121,7 @@ public void setY(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF782\_
 
 **Parameters:**
 | Parameter | Type | Description |

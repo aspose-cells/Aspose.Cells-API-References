@@ -46,25 +46,25 @@ Specifies an external data connection
 | [isNew()](#isNew--) | True if the connection has not been refreshed for the first time; otherwise, false. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBackgroundRefresh(boolean value)](#setBackgroundRefresh-boolean-) |  |
-| [setConnectionDescription(String value)](#setConnectionDescription-java.lang.String-) |  |
-| [setCredentials(int value)](#setCredentials-int-) |  |
-| [setCredentialsMethodType(int value)](#setCredentialsMethodType-int-) |  |
-| [setDeleted(boolean value)](#setDeleted-boolean-) |  |
-| [setKeepAlive(boolean value)](#setKeepAlive-boolean-) |  |
-| [setName(String value)](#setName-java.lang.String-) |  |
-| [setNew(boolean value)](#setNew-boolean-) |  |
-| [setOdcFile(String value)](#setOdcFile-java.lang.String-) |  |
-| [setOnlyUseConnectionFile(boolean value)](#setOnlyUseConnectionFile-boolean-) |  |
-| [setReconnectionMethod(int value)](#setReconnectionMethod-int-) |  |
-| [setReconnectionMethodType(int value)](#setReconnectionMethodType-int-) |  |
-| [setRefreshInternal(int value)](#setRefreshInternal-int-) |  |
-| [setRefreshOnLoad(boolean value)](#setRefreshOnLoad-boolean-) |  |
-| [setSSOId(String value)](#setSSOId-java.lang.String-) |  |
-| [setSaveData(boolean value)](#setSaveData-boolean-) |  |
-| [setSavePassword(boolean value)](#setSavePassword-boolean-) |  |
-| [setSourceFile(String value)](#setSourceFile-java.lang.String-) |  |
-| [setType(int value)](#setType-int-) |  |
+| [setBackgroundRefresh(boolean value)](#setBackgroundRefresh-boolean-) | Please see the getter of this property: [getBackgroundRefresh()](../../com.aspose.cells/externalconnection\#getBackgroundRefresh--) |
+| [setConnectionDescription(String value)](#setConnectionDescription-java.lang.String-) | Please see the getter of this property: [getConnectionDescription()](../../com.aspose.cells/externalconnection\#getConnectionDescription--) |
+| [setCredentials(int value)](#setCredentials-int-) | Please see the getter of this property: [getCredentials()](../../com.aspose.cells/externalconnection\#getCredentials--) |
+| [setCredentialsMethodType(int value)](#setCredentialsMethodType-int-) | Please see the getter of this property: [getCredentialsMethodType()](../../com.aspose.cells/externalconnection\#getCredentialsMethodType--) |
+| [setDeleted(boolean value)](#setDeleted-boolean-) | Please see the getter of this property: [isDeleted()](../../com.aspose.cells/externalconnection\#isDeleted--) |
+| [setKeepAlive(boolean value)](#setKeepAlive-boolean-) | Please see the getter of this property: [getKeepAlive()](../../com.aspose.cells/externalconnection\#getKeepAlive--) |
+| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: [getName()](../../com.aspose.cells/externalconnection\#getName--) |
+| [setNew(boolean value)](#setNew-boolean-) | Please see the getter of this property: [isNew()](../../com.aspose.cells/externalconnection\#isNew--) |
+| [setOdcFile(String value)](#setOdcFile-java.lang.String-) | Please see the getter of this property: [getOdcFile()](../../com.aspose.cells/externalconnection\#getOdcFile--) |
+| [setOnlyUseConnectionFile(boolean value)](#setOnlyUseConnectionFile-boolean-) | Please see the getter of this property: [getOnlyUseConnectionFile()](../../com.aspose.cells/externalconnection\#getOnlyUseConnectionFile--) |
+| [setReconnectionMethod(int value)](#setReconnectionMethod-int-) | Please see the getter of this property: [getReconnectionMethod()](../../com.aspose.cells/externalconnection\#getReconnectionMethod--) |
+| [setReconnectionMethodType(int value)](#setReconnectionMethodType-int-) | Please see the getter of this property: [getReconnectionMethodType()](../../com.aspose.cells/externalconnection\#getReconnectionMethodType--) |
+| [setRefreshInternal(int value)](#setRefreshInternal-int-) | Please see the getter of this property: [getRefreshInternal()](../../com.aspose.cells/externalconnection\#getRefreshInternal--) |
+| [setRefreshOnLoad(boolean value)](#setRefreshOnLoad-boolean-) | Please see the getter of this property: [getRefreshOnLoad()](../../com.aspose.cells/externalconnection\#getRefreshOnLoad--) |
+| [setSSOId(String value)](#setSSOId-java.lang.String-) | Please see the getter of this property: [getSSOId()](../../com.aspose.cells/externalconnection\#getSSOId--) |
+| [setSaveData(boolean value)](#setSaveData-boolean-) | Please see the getter of this property: [getSaveData()](../../com.aspose.cells/externalconnection\#getSaveData--) |
+| [setSavePassword(boolean value)](#setSavePassword-boolean-) | Please see the getter of this property: [getSavePassword()](../../com.aspose.cells/externalconnection\#getSavePassword--) |
+| [setSourceFile(String value)](#setSourceFile-java.lang.String-) | Please see the getter of this property: [getSourceFile()](../../com.aspose.cells/externalconnection\#getSourceFile--) |
+| [setType(int value)](#setType-int-) | Please see the getter of this property: [getType()](../../com.aspose.cells/externalconnection\#getType--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -356,7 +356,7 @@ public void setBackgroundRefresh(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getBackgroundRefresh()](../../com.aspose.cells/externalconnection\#getBackgroundRefresh--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -369,7 +369,7 @@ public void setConnectionDescription(String value)
 ```
 
 
-
+Please see the getter of this property: [getConnectionDescription()](../../com.aspose.cells/externalconnection\#getConnectionDescription--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -382,7 +382,7 @@ public void setCredentials(int value)
 ```
 
 
-
+Please see the getter of this property: [getCredentials()](../../com.aspose.cells/externalconnection\#getCredentials--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -395,7 +395,7 @@ public void setCredentialsMethodType(int value)
 ```
 
 
-
+Please see the getter of this property: [getCredentialsMethodType()](../../com.aspose.cells/externalconnection\#getCredentialsMethodType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -408,7 +408,7 @@ public void setDeleted(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isDeleted()](../../com.aspose.cells/externalconnection\#isDeleted--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -421,7 +421,7 @@ public void setKeepAlive(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getKeepAlive()](../../com.aspose.cells/externalconnection\#getKeepAlive--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -434,7 +434,7 @@ public void setName(String value)
 ```
 
 
-
+Please see the getter of this property: [getName()](../../com.aspose.cells/externalconnection\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -447,7 +447,7 @@ public void setNew(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isNew()](../../com.aspose.cells/externalconnection\#isNew--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -460,7 +460,7 @@ public void setOdcFile(String value)
 ```
 
 
-
+Please see the getter of this property: [getOdcFile()](../../com.aspose.cells/externalconnection\#getOdcFile--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -473,7 +473,7 @@ public void setOnlyUseConnectionFile(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getOnlyUseConnectionFile()](../../com.aspose.cells/externalconnection\#getOnlyUseConnectionFile--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -486,7 +486,7 @@ public void setReconnectionMethod(int value)
 ```
 
 
-
+Please see the getter of this property: [getReconnectionMethod()](../../com.aspose.cells/externalconnection\#getReconnectionMethod--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -499,7 +499,7 @@ public void setReconnectionMethodType(int value)
 ```
 
 
-
+Please see the getter of this property: [getReconnectionMethodType()](../../com.aspose.cells/externalconnection\#getReconnectionMethodType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -512,7 +512,7 @@ public void setRefreshInternal(int value)
 ```
 
 
-
+Please see the getter of this property: [getRefreshInternal()](../../com.aspose.cells/externalconnection\#getRefreshInternal--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -525,7 +525,7 @@ public void setRefreshOnLoad(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getRefreshOnLoad()](../../com.aspose.cells/externalconnection\#getRefreshOnLoad--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -538,7 +538,7 @@ public void setSSOId(String value)
 ```
 
 
-
+Please see the getter of this property: [getSSOId()](../../com.aspose.cells/externalconnection\#getSSOId--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -551,7 +551,7 @@ public void setSaveData(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getSaveData()](../../com.aspose.cells/externalconnection\#getSaveData--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -564,7 +564,7 @@ public void setSavePassword(boolean value)
 ```
 
 
-
+Please see the getter of this property: [getSavePassword()](../../com.aspose.cells/externalconnection\#getSavePassword--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -577,7 +577,7 @@ public void setSourceFile(String value)
 ```
 
 
-
+Please see the getter of this property: [getSourceFile()](../../com.aspose.cells/externalconnection\#getSourceFile--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -590,7 +590,7 @@ public void setType(int value)
 ```
 
 
-
+Please see the getter of this property: [getType()](../../com.aspose.cells/externalconnection\#getType--)
 
 **Parameters:**
 | Parameter | Type | Description |

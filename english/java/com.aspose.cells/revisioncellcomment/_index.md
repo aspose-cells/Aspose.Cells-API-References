@@ -38,7 +38,7 @@ Represents a revision record of a cell comment change.
 | [isOldComment()](#isOldComment--) | Indicates whether it's an old comment. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCellName(String value)](#setCellName-java.lang.String-) |  |
+| [setCellName(String value)](#setCellName-java.lang.String-) | Please see the getter of this property: @CREF858\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -206,7 +206,7 @@ public void setCellName(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF858\_
 
 **Parameters:**
 | Parameter | Type | Description |

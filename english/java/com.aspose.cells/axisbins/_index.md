@@ -31,12 +31,12 @@ Represents axis bins
 | [notifyAll()](#notifyAll--) |  |
 | [resetOverflow()](#resetOverflow--) | Reset the overflow |
 | [resetUnderflow()](#resetUnderflow--) | Reset the underflow |
-| [setAutomatic(boolean value)](#setAutomatic-boolean-) |  |
-| [setByCategory(boolean value)](#setByCategory-boolean-) |  |
-| [setCount(int value)](#setCount-int-) |  |
-| [setOverflow(double value)](#setOverflow-double-) |  |
-| [setUnderflow(double value)](#setUnderflow-double-) |  |
-| [setWidth(double value)](#setWidth-double-) |  |
+| [setAutomatic(boolean value)](#setAutomatic-boolean-) | Please see the getter of this property: @CREF9\_ |
+| [setByCategory(boolean value)](#setByCategory-boolean-) | Please see the getter of this property: @CREF8\_ |
+| [setCount(int value)](#setCount-int-) | Please see the getter of this property: @CREF11\_ |
+| [setOverflow(double value)](#setOverflow-double-) | Please see the getter of this property: @CREF12\_ |
+| [setUnderflow(double value)](#setUnderflow-double-) | Please see the getter of this property: @CREF13\_ |
+| [setWidth(double value)](#setWidth-double-) | Please see the getter of this property: @CREF10\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -174,7 +174,7 @@ public void setAutomatic(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF9\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -187,7 +187,7 @@ public void setByCategory(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF8\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -200,7 +200,7 @@ public void setCount(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF11\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -213,7 +213,7 @@ public void setOverflow(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF12\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -226,7 +226,7 @@ public void setUnderflow(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF13\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -239,7 +239,7 @@ public void setWidth(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF10\_
 
 **Parameters:**
 | Parameter | Type | Description |

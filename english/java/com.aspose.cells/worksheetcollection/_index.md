@@ -86,12 +86,12 @@ Workbook workbook = new Workbook();
 | [registerAddInFunction(String addInFile, String functionName, boolean lib)](#registerAddInFunction-java.lang.String-java.lang.String-boolean-) | Adds addin function into the workbook |
 | [removeAt(int index)](#removeAt-int-) | Removes the element at a specified index. |
 | [removeAt(String name)](#removeAt-java.lang.String-) | Removes the element at a specified name. |
-| [setActiveSheetIndex(int value)](#setActiveSheetIndex-int-) |  |
-| [setActiveSheetName(String value)](#setActiveSheetName-java.lang.String-) |  |
+| [setActiveSheetIndex(int value)](#setActiveSheetIndex-int-) | Please see the getter of this property: [getActiveSheetIndex()](../../com.aspose.cells/worksheetcollection\#getActiveSheetIndex--) |
+| [setActiveSheetName(String value)](#setActiveSheetName-java.lang.String-) | Please see the getter of this property: [getActiveSheetName()](../../com.aspose.cells/worksheetcollection\#getActiveSheetName--) |
 | [setOleSize(int startRow, int endRow, int startColumn, int endColumn)](#setOleSize-int-int-int-int-) | Sets displayed size when Workbook file is used as an Ole object. |
-| [setOleSize(Object value)](#setOleSize-java.lang.Object-) |  |
-| [setRefreshAllConnections(boolean value)](#setRefreshAllConnections-boolean-) |  |
-| [setXmlMaps(XmlMapCollection value)](#setXmlMaps-com.aspose.cells.XmlMapCollection-) |  |
+| [setOleSize(Object value)](#setOleSize-java.lang.Object-) | Please see the getter of this property: [getOleSize()](../../com.aspose.cells/worksheetcollection\#getOleSize--) |
+| [setRefreshAllConnections(boolean value)](#setRefreshAllConnections-boolean-) | Please see the getter of this property: [isRefreshAllConnections()](../../com.aspose.cells/worksheetcollection\#isRefreshAllConnections--) |
+| [setXmlMaps(XmlMapCollection value)](#setXmlMaps-com.aspose.cells.XmlMapCollection-) | Please see the getter of this property: [getXmlMaps()](../../com.aspose.cells/worksheetcollection\#getXmlMaps--) |
 | [sortNames()](#sortNames--) | Sorts the defined names. |
 | [swapSheet(int sheetIndex1, int sheetIndex2)](#swapSheet-int-int-) | Swaps the two sheets. |
 | [toString()](#toString--) |  |
@@ -779,7 +779,7 @@ public void setActiveSheetIndex(int value)
 ```
 
 
-
+Please see the getter of this property: [getActiveSheetIndex()](../../com.aspose.cells/worksheetcollection\#getActiveSheetIndex--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -792,7 +792,7 @@ public void setActiveSheetName(String value)
 ```
 
 
-
+Please see the getter of this property: [getActiveSheetName()](../../com.aspose.cells/worksheetcollection\#getActiveSheetName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -821,7 +821,7 @@ public void setOleSize(Object value)
 ```
 
 
-
+Please see the getter of this property: [getOleSize()](../../com.aspose.cells/worksheetcollection\#getOleSize--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -834,7 +834,7 @@ public void setRefreshAllConnections(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isRefreshAllConnections()](../../com.aspose.cells/worksheetcollection\#isRefreshAllConnections--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -847,7 +847,7 @@ public void setXmlMaps(XmlMapCollection value)
 ```
 
 
-
+Please see the getter of this property: [getXmlMaps()](../../com.aspose.cells/worksheetcollection\#getXmlMaps--)
 
 **Parameters:**
 | Parameter | Type | Description |

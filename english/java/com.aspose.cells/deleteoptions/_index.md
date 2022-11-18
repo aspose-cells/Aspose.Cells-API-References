@@ -24,7 +24,7 @@ Represents the setting of deleting rows/columns.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setUpdateReference(boolean value)](#setUpdateReference-boolean-) |  |
+| [setUpdateReference(boolean value)](#setUpdateReference-boolean-) | Please see the getter of this property: @CREF857\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -96,7 +96,7 @@ public void setUpdateReference(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF857\_
 
 **Parameters:**
 | Parameter | Type | Description |

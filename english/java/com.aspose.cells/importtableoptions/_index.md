@@ -43,21 +43,21 @@ Represents the options of importing data into cells.
 | [isHtmlString()](#isHtmlString--) | Indicates whether the value contains html tags. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCheckMergedCells(boolean value)](#setCheckMergedCells-boolean-) |  |
-| [setColumnIndexes(int[] value)](#setColumnIndexes-int---) |  |
-| [setConvertGridStyle(boolean value)](#setConvertGridStyle-boolean-) |  |
-| [setConvertNumericData(boolean value)](#setConvertNumericData-boolean-) |  |
-| [setDateFormat(String value)](#setDateFormat-java.lang.String-) |  |
-| [setDefaultValues(Object[] value)](#setDefaultValues-java.lang.Object---) |  |
-| [setExportCaptionAsFieldName(boolean value)](#setExportCaptionAsFieldName-boolean-) |  |
-| [setFieldNameShown(boolean value)](#setFieldNameShown-boolean-) |  |
-| [setFormulas(boolean[] value)](#setFormulas-boolean---) |  |
-| [setHtmlString(boolean value)](#setHtmlString-boolean-) |  |
-| [setInsertRows(boolean value)](#setInsertRows-boolean-) |  |
-| [setNumberFormats(String[] value)](#setNumberFormats-java.lang.String---) |  |
-| [setShiftFirstRowDown(boolean value)](#setShiftFirstRowDown-boolean-) |  |
-| [setTotalColumns(int value)](#setTotalColumns-int-) |  |
-| [setTotalRows(int value)](#setTotalRows-int-) |  |
+| [setCheckMergedCells(boolean value)](#setCheckMergedCells-boolean-) | Please see the getter of this property: @CREF1003\_ |
+| [setColumnIndexes(int[] value)](#setColumnIndexes-int---) | Please see the getter of this property: @CREF1000\_ |
+| [setConvertGridStyle(boolean value)](#setConvertGridStyle-boolean-) | Please see the getter of this property: @CREF989\_ |
+| [setConvertNumericData(boolean value)](#setConvertNumericData-boolean-) | Please see the getter of this property: @CREF990\_ |
+| [setDateFormat(String value)](#setDateFormat-java.lang.String-) | Please see the getter of this property: @CREF995\_ |
+| [setDefaultValues(Object[] value)](#setDefaultValues-java.lang.Object---) | Please see the getter of this property: @CREF1001\_ |
+| [setExportCaptionAsFieldName(boolean value)](#setExportCaptionAsFieldName-boolean-) | Please see the getter of this property: @CREF994\_ |
+| [setFieldNameShown(boolean value)](#setFieldNameShown-boolean-) | Please see the getter of this property: @CREF993\_ |
+| [setFormulas(boolean[] value)](#setFormulas-boolean---) | Please see the getter of this property: @CREF997\_ |
+| [setHtmlString(boolean value)](#setHtmlString-boolean-) | Please see the getter of this property: @CREF1002\_ |
+| [setInsertRows(boolean value)](#setInsertRows-boolean-) | Please see the getter of this property: @CREF991\_ |
+| [setNumberFormats(String[] value)](#setNumberFormats-java.lang.String---) | Please see the getter of this property: @CREF996\_ |
+| [setShiftFirstRowDown(boolean value)](#setShiftFirstRowDown-boolean-) | Please see the getter of this property: @CREF992\_ |
+| [setTotalColumns(int value)](#setTotalColumns-int-) | Please see the getter of this property: @CREF999\_ |
+| [setTotalRows(int value)](#setTotalRows-int-) | Please see the getter of this property: @CREF998\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -277,7 +277,7 @@ public void setCheckMergedCells(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1003\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -290,7 +290,7 @@ public void setColumnIndexes(int[] value)
 ```
 
 
-
+Please see the getter of this property: @CREF1000\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -303,7 +303,7 @@ public void setConvertGridStyle(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF989\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -316,7 +316,7 @@ public void setConvertNumericData(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF990\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -329,7 +329,7 @@ public void setDateFormat(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF995\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -342,7 +342,7 @@ public void setDefaultValues(Object[] value)
 ```
 
 
-
+Please see the getter of this property: @CREF1001\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -355,7 +355,7 @@ public void setExportCaptionAsFieldName(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF994\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -368,7 +368,7 @@ public void setFieldNameShown(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF993\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -381,7 +381,7 @@ public void setFormulas(boolean[] value)
 ```
 
 
-
+Please see the getter of this property: @CREF997\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -394,7 +394,7 @@ public void setHtmlString(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1002\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -407,7 +407,7 @@ public void setInsertRows(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF991\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -420,7 +420,7 @@ public void setNumberFormats(String[] value)
 ```
 
 
-
+Please see the getter of this property: @CREF996\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -433,7 +433,7 @@ public void setShiftFirstRowDown(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF992\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -446,7 +446,7 @@ public void setTotalColumns(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF999\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -459,7 +459,7 @@ public void setTotalRows(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF998\_
 
 **Parameters:**
 | Parameter | Type | Description |

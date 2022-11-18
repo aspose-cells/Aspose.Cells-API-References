@@ -89,12 +89,12 @@ Workbook book = new Workbook();
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setEvaluationOrder(int value)](#setEvaluationOrder-int-) |  |
-| [setMeasureFldIndex(int value)](#setMeasureFldIndex-int-) |  |
-| [setMemberPropertyFieldIndex(int value)](#setMemberPropertyFieldIndex-int-) |  |
-| [setName(String value)](#setName-java.lang.String-) |  |
-| [setValue1(String value)](#setValue1-java.lang.String-) |  |
-| [setValue2(String value)](#setValue2-java.lang.String-) |  |
+| [setEvaluationOrder(int value)](#setEvaluationOrder-int-) | Please see the getter of this property: [getEvaluationOrder()](../../com.aspose.cells/pivotfilter\#getEvaluationOrder--) |
+| [setMeasureFldIndex(int value)](#setMeasureFldIndex-int-) | Please see the getter of this property: [getMeasureFldIndex()](../../com.aspose.cells/pivotfilter\#getMeasureFldIndex--) |
+| [setMemberPropertyFieldIndex(int value)](#setMemberPropertyFieldIndex-int-) | Please see the getter of this property: [getMemberPropertyFieldIndex()](../../com.aspose.cells/pivotfilter\#getMemberPropertyFieldIndex--) |
+| [setName(String value)](#setName-java.lang.String-) | Please see the getter of this property: [getName()](../../com.aspose.cells/pivotfilter\#getName--) |
+| [setValue1(String value)](#setValue1-java.lang.String-) | Please see the getter of this property: [getValue1()](../../com.aspose.cells/pivotfilter\#getValue1--) |
+| [setValue2(String value)](#setValue2-java.lang.String-) | Please see the getter of this property: [getValue2()](../../com.aspose.cells/pivotfilter\#getValue2--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -246,7 +246,7 @@ public void setEvaluationOrder(int value)
 ```
 
 
-
+Please see the getter of this property: [getEvaluationOrder()](../../com.aspose.cells/pivotfilter\#getEvaluationOrder--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -259,7 +259,7 @@ public void setMeasureFldIndex(int value)
 ```
 
 
-
+Please see the getter of this property: [getMeasureFldIndex()](../../com.aspose.cells/pivotfilter\#getMeasureFldIndex--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -272,7 +272,7 @@ public void setMemberPropertyFieldIndex(int value)
 ```
 
 
-
+Please see the getter of this property: [getMemberPropertyFieldIndex()](../../com.aspose.cells/pivotfilter\#getMemberPropertyFieldIndex--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -285,7 +285,7 @@ public void setName(String value)
 ```
 
 
-
+Please see the getter of this property: [getName()](../../com.aspose.cells/pivotfilter\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -298,7 +298,7 @@ public void setValue1(String value)
 ```
 
 
-
+Please see the getter of this property: [getValue1()](../../com.aspose.cells/pivotfilter\#getValue1--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -311,7 +311,7 @@ public void setValue2(String value)
 ```
 
 
-
+Please see the getter of this property: [getValue2()](../../com.aspose.cells/pivotfilter\#getValue2--)
 
 **Parameters:**
 | Parameter | Type | Description |

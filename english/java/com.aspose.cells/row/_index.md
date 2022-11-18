@@ -82,10 +82,10 @@ Represents a single row in a worksheet.
 | [iterator()](#iterator--) | Gets the cells enumerator |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCollapsed(boolean value)](#setCollapsed-boolean-) |  |
-| [setHeight(double value)](#setHeight-double-) |  |
-| [setHeightMatched(boolean value)](#setHeightMatched-boolean-) |  |
-| [setHidden(boolean value)](#setHidden-boolean-) |  |
+| [setCollapsed(boolean value)](#setCollapsed-boolean-) | Please see the getter of this property: [isCollapsed()](../../com.aspose.cells/row\#isCollapsed--) |
+| [setHeight(double value)](#setHeight-double-) | Please see the getter of this property: [getHeight()](../../com.aspose.cells/row\#getHeight--) |
+| [setHeightMatched(boolean value)](#setHeightMatched-boolean-) | Please see the getter of this property: [isHeightMatched()](../../com.aspose.cells/row\#isHeightMatched--) |
+| [setHidden(boolean value)](#setHidden-boolean-) | Please see the getter of this property: [isHidden()](../../com.aspose.cells/row\#isHidden--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -383,7 +383,7 @@ public void setCollapsed(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isCollapsed()](../../com.aspose.cells/row\#isCollapsed--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -396,7 +396,7 @@ public void setHeight(double value)
 ```
 
 
-
+Please see the getter of this property: [getHeight()](../../com.aspose.cells/row\#getHeight--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -409,7 +409,7 @@ public void setHeightMatched(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isHeightMatched()](../../com.aspose.cells/row\#isHeightMatched--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -422,7 +422,7 @@ public void setHidden(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isHidden()](../../com.aspose.cells/row\#isHidden--)
 
 **Parameters:**
 | Parameter | Type | Description |

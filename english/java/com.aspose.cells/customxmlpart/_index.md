@@ -26,9 +26,9 @@ Represents a Custom XML Data Storage Part (custom XML data within a package).
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setData(byte[] value)](#setData-byte---) |  |
-| [setID(String value)](#setID-java.lang.String-) |  |
-| [setSchemaData(byte[] value)](#setSchemaData-byte---) |  |
+| [setData(byte[] value)](#setData-byte---) | Please see the getter of this property: @CREF726\_ |
+| [setID(String value)](#setID-java.lang.String-) | Please see the getter of this property: @CREF728\_ |
+| [setSchemaData(byte[] value)](#setSchemaData-byte---) | Please see the getter of this property: @CREF727\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -120,7 +120,7 @@ public void setData(byte[] value)
 ```
 
 
-
+Please see the getter of this property: @CREF726\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -133,7 +133,7 @@ public void setID(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF728\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +146,7 @@ public void setSchemaData(byte[] value)
 ```
 
 
-
+Please see the getter of this property: @CREF727\_
 
 **Parameters:**
 | Parameter | Type | Description |

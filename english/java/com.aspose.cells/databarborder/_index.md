@@ -25,8 +25,8 @@ Represents the border of the data bars specified by a conditional formatting rul
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setColor(Color value)](#setColor-com.aspose.cells.Color-) |  |
-| [setType(int value)](#setType-int-) |  |
+| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | Please see the getter of this property: @CREF843\_ |
+| [setType(int value)](#setType-int-) | Please see the getter of this property: @CREF844\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -108,7 +108,7 @@ public void setColor(Color value)
 ```
 
 
-
+Please see the getter of this property: @CREF843\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -121,7 +121,7 @@ public void setType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF844\_
 
 **Parameters:**
 | Parameter | Type | Description |

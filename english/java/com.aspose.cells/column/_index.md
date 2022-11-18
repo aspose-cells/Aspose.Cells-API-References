@@ -63,9 +63,9 @@ Represents a single column in a worksheet.
 | [isHidden()](#isHidden--) | Indicates whether the column is hidden. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCollapsed(boolean value)](#setCollapsed-boolean-) |  |
-| [setHidden(boolean value)](#setHidden-boolean-) |  |
-| [setWidth(double value)](#setWidth-double-) |  |
+| [setCollapsed(boolean value)](#setCollapsed-boolean-) | Please see the getter of this property: [isCollapsed()](../../com.aspose.cells/column\#isCollapsed--) |
+| [setHidden(boolean value)](#setHidden-boolean-) | Please see the getter of this property: [isHidden()](../../com.aspose.cells/column\#isHidden--) |
+| [setWidth(double value)](#setWidth-double-) | Please see the getter of this property: [getWidth()](../../com.aspose.cells/column\#getWidth--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -201,7 +201,7 @@ public void setCollapsed(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isCollapsed()](../../com.aspose.cells/column\#isCollapsed--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -214,7 +214,7 @@ public void setHidden(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isHidden()](../../com.aspose.cells/column\#isHidden--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -227,7 +227,7 @@ public void setWidth(double value)
 ```
 
 
-
+Please see the getter of this property: [getWidth()](../../com.aspose.cells/column\#getWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |

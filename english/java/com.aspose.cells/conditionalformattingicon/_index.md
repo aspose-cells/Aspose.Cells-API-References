@@ -28,8 +28,8 @@ Represents the custom icon of conditional formatting rule.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setIndex(int value)](#setIndex-int-) |  |
-| [setType(int value)](#setType-int-) |  |
+| [setIndex(int value)](#setIndex-int-) | Please see the getter of this property: @CREF841\_ |
+| [setType(int value)](#setType-int-) | Please see the getter of this property: @CREF840\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -152,7 +152,7 @@ public void setIndex(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF841\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -165,7 +165,7 @@ public void setType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF840\_
 
 **Parameters:**
 | Parameter | Type | Description |

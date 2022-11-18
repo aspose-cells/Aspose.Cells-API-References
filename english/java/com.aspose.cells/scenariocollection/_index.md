@@ -39,8 +39,8 @@ Represents the list of scenarios.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeAt(int index)](#removeAt-int-) | Removes the item at the specified index. |
-| [setActiveIndex(int value)](#setActiveIndex-int-) |  |
-| [setLastSelected(int value)](#setLastSelected-int-) |  |
+| [setActiveIndex(int value)](#setActiveIndex-int-) | Please see the getter of this property: [getActiveIndex()](../../com.aspose.cells/scenariocollection\#getActiveIndex--) |
+| [setLastSelected(int value)](#setLastSelected-int-) | Please see the getter of this property: [getLastSelected()](../../com.aspose.cells/scenariocollection\#getLastSelected--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -244,7 +244,7 @@ public void setActiveIndex(int value)
 ```
 
 
-
+Please see the getter of this property: [getActiveIndex()](../../com.aspose.cells/scenariocollection\#getActiveIndex--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -257,7 +257,7 @@ public void setLastSelected(int value)
 ```
 
 
-
+Please see the getter of this property: [getLastSelected()](../../com.aspose.cells/scenariocollection\#getLastSelected--)
 
 **Parameters:**
 | Parameter | Type | Description |

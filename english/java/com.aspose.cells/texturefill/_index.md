@@ -36,14 +36,14 @@ Encapsulates the object that represents texture fill format
 | [isTiling()](#isTiling--) | Indicates whether tile picture as texture. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setImageData(byte[] value)](#setImageData-byte---) |  |
-| [setPicFormatOption(PicFormatOption value)](#setPicFormatOption-com.aspose.cells.PicFormatOption-) |  |
-| [setPictureFormatType(int value)](#setPictureFormatType-int-) |  |
-| [setScale(double value)](#setScale-double-) |  |
-| [setTilePicOption(TilePicOption value)](#setTilePicOption-com.aspose.cells.TilePicOption-) |  |
-| [setTiling(boolean value)](#setTiling-boolean-) |  |
-| [setTransparency(double value)](#setTransparency-double-) |  |
-| [setType(int value)](#setType-int-) |  |
+| [setImageData(byte[] value)](#setImageData-byte---) | Please see the getter of this property: @CREF1731\_ |
+| [setPicFormatOption(PicFormatOption value)](#setPicFormatOption-com.aspose.cells.PicFormatOption-) | Please see the getter of this property: @CREF1733\_ |
+| [setPictureFormatType(int value)](#setPictureFormatType-int-) | Please see the getter of this property: @CREF1735\_ |
+| [setScale(double value)](#setScale-double-) | Please see the getter of this property: @CREF1736\_ |
+| [setTilePicOption(TilePicOption value)](#setTilePicOption-com.aspose.cells.TilePicOption-) | Please see the getter of this property: @CREF1734\_ |
+| [setTiling(boolean value)](#setTiling-boolean-) | Please see the getter of this property: @CREF1732\_ |
+| [setTransparency(double value)](#setTransparency-double-) | Please see the getter of this property: @CREF1737\_ |
+| [setType(int value)](#setType-int-) | Please see the getter of this property: @CREF1730\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -191,7 +191,7 @@ public void setImageData(byte[] value)
 ```
 
 
-
+Please see the getter of this property: @CREF1731\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -204,7 +204,7 @@ public void setPicFormatOption(PicFormatOption value)
 ```
 
 
-
+Please see the getter of this property: @CREF1733\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -217,7 +217,7 @@ public void setPictureFormatType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1735\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -230,7 +230,7 @@ public void setScale(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1736\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -243,7 +243,7 @@ public void setTilePicOption(TilePicOption value)
 ```
 
 
-
+Please see the getter of this property: @CREF1734\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -256,7 +256,7 @@ public void setTiling(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1732\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -269,7 +269,7 @@ public void setTransparency(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1737\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -282,7 +282,7 @@ public void setType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF1730\_
 
 **Parameters:**
 | Parameter | Type | Description |

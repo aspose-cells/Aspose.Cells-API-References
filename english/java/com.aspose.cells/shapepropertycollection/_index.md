@@ -33,7 +33,7 @@ This class specifies the visual shape properties for a chart element or shape.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setSoftEdgeRadius(double value)](#setSoftEdgeRadius-double-) |  |
+| [setSoftEdgeRadius(double value)](#setSoftEdgeRadius-double-) | Please see the getter of this property: [getSoftEdgeRadius()](../../com.aspose.cells/shapepropertycollection\#getSoftEdgeRadius--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -189,7 +189,7 @@ public void setSoftEdgeRadius(double value)
 ```
 
 
-
+Please see the getter of this property: [getSoftEdgeRadius()](../../com.aspose.cells/shapepropertycollection\#getSoftEdgeRadius--)
 
 **Parameters:**
 | Parameter | Type | Description |

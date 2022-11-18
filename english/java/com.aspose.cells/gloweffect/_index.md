@@ -27,10 +27,10 @@ This class specifies a glow effect, in which a color blurred outline is added ou
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setColor(CellsColor value)](#setColor-com.aspose.cells.CellsColor-) |  |
-| [setRadius(double value)](#setRadius-double-) |  |
-| [setSize(double value)](#setSize-double-) |  |
-| [setTransparency(double value)](#setTransparency-double-) |  |
+| [setColor(CellsColor value)](#setColor-com.aspose.cells.CellsColor-) | Please see the getter of this property: @CREF1266\_ |
+| [setRadius(double value)](#setRadius-double-) | Please see the getter of this property: @CREF1267\_ |
+| [setSize(double value)](#setSize-double-) | Please see the getter of this property: @CREF1268\_ |
+| [setTransparency(double value)](#setTransparency-double-) | Please see the getter of this property: @CREF1269\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -132,7 +132,7 @@ public void setColor(CellsColor value)
 ```
 
 
-
+Please see the getter of this property: @CREF1266\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setRadius(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1267\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public void setSize(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1268\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,7 +171,7 @@ public void setTransparency(double value)
 ```
 
 
-
+Please see the getter of this property: @CREF1269\_
 
 **Parameters:**
 | Parameter | Type | Description |

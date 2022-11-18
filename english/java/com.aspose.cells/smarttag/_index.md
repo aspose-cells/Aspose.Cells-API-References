@@ -27,9 +27,9 @@ Represents a smart tag.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDeleted(boolean value)](#setDeleted-boolean-) |  |
+| [setDeleted(boolean value)](#setDeleted-boolean-) | Please see the getter of this property: @CREF1224\_ |
 | [setLink(String uri, String name)](#setLink-java.lang.String-java.lang.String-) | Change the name and the namespace URI of the smart tag. |
-| [setProperties(SmartTagPropertyCollection value)](#setProperties-com.aspose.cells.SmartTagPropertyCollection-) |  |
+| [setProperties(SmartTagPropertyCollection value)](#setProperties-com.aspose.cells.SmartTagPropertyCollection-) | Please see the getter of this property: @CREF1225\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -131,7 +131,7 @@ public void setDeleted(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1224\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public void setProperties(SmartTagPropertyCollection value)
 ```
 
 
-
+Please see the getter of this property: @CREF1225\_
 
 **Parameters:**
 | Parameter | Type | Description |

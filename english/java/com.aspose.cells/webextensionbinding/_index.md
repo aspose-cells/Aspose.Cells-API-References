@@ -26,9 +26,9 @@ Represents a binding relationship between an Office Add-in and the data in the d
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAppref(String value)](#setAppref-java.lang.String-) |  |
-| [setId(String value)](#setId-java.lang.String-) |  |
-| [setType(String value)](#setType-java.lang.String-) |  |
+| [setAppref(String value)](#setAppref-java.lang.String-) | Please see the getter of this property: @CREF315\_ |
+| [setId(String value)](#setId-java.lang.String-) | Please see the getter of this property: @CREF313\_ |
+| [setType(String value)](#setType-java.lang.String-) | Please see the getter of this property: @CREF314\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -120,7 +120,7 @@ public void setAppref(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF315\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -133,7 +133,7 @@ public void setId(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF313\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +146,7 @@ public void setType(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF314\_
 
 **Parameters:**
 | Parameter | Type | Description |

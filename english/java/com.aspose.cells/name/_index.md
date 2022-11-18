@@ -52,13 +52,13 @@ Represents a defined name for a range of cells.
 | [isVisible()](#isVisible--) | Indicates whether the name is visible. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setComment(String value)](#setComment-java.lang.String-) |  |
-| [setR1C1RefersTo(String value)](#setR1C1RefersTo-java.lang.String-) |  |
-| [setRefersTo(String value)](#setRefersTo-java.lang.String-) |  |
+| [setComment(String value)](#setComment-java.lang.String-) | Please see the getter of this property: [getComment()](../../com.aspose.cells/name\#getComment--) |
+| [setR1C1RefersTo(String value)](#setR1C1RefersTo-java.lang.String-) | Please see the getter of this property: [getR1C1RefersTo()](../../com.aspose.cells/name\#getR1C1RefersTo--) |
+| [setRefersTo(String value)](#setRefersTo-java.lang.String-) | Please see the getter of this property: [getRefersTo()](../../com.aspose.cells/name\#getRefersTo--) |
 | [setRefersTo(String refersTo, boolean isR1C1, boolean isLocal)](#setRefersTo-java.lang.String-boolean-boolean-) | Set the reference of this Name. |
-| [setSheetIndex(int value)](#setSheetIndex-int-) |  |
-| [setText(String value)](#setText-java.lang.String-) |  |
-| [setVisible(boolean value)](#setVisible-boolean-) |  |
+| [setSheetIndex(int value)](#setSheetIndex-int-) | Please see the getter of this property: [getSheetIndex()](../../com.aspose.cells/name\#getSheetIndex--) |
+| [setText(String value)](#setText-java.lang.String-) | Please see the getter of this property: [getText()](../../com.aspose.cells/name\#getText--) |
+| [setVisible(boolean value)](#setVisible-boolean-) | Please see the getter of this property: [isVisible()](../../com.aspose.cells/name\#isVisible--) |
 | [toString()](#toString--) | Returns a string represents the current Range object. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -316,7 +316,7 @@ public void setComment(String value)
 ```
 
 
-
+Please see the getter of this property: [getComment()](../../com.aspose.cells/name\#getComment--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -329,7 +329,7 @@ public void setR1C1RefersTo(String value)
 ```
 
 
-
+Please see the getter of this property: [getR1C1RefersTo()](../../com.aspose.cells/name\#getR1C1RefersTo--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -342,7 +342,7 @@ public void setRefersTo(String value)
 ```
 
 
-
+Please see the getter of this property: [getRefersTo()](../../com.aspose.cells/name\#getRefersTo--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -370,7 +370,7 @@ public void setSheetIndex(int value)
 ```
 
 
-
+Please see the getter of this property: [getSheetIndex()](../../com.aspose.cells/name\#getSheetIndex--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -383,7 +383,7 @@ public void setText(String value)
 ```
 
 
-
+Please see the getter of this property: [getText()](../../com.aspose.cells/name\#getText--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -396,7 +396,7 @@ public void setVisible(boolean value)
 ```
 
 
-
+Please see the getter of this property: [isVisible()](../../com.aspose.cells/name\#isVisible--)
 
 **Parameters:**
 | Parameter | Type | Description |

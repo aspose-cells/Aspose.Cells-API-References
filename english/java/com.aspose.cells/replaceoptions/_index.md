@@ -26,9 +26,9 @@ Represent the replace options.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCaseSensitive(boolean value)](#setCaseSensitive-boolean-) |  |
-| [setMatchEntireCellContents(boolean value)](#setMatchEntireCellContents-boolean-) |  |
-| [setRegexKey(boolean value)](#setRegexKey-boolean-) |  |
+| [setCaseSensitive(boolean value)](#setCaseSensitive-boolean-) | Please see the getter of this property: @CREF1334\_ |
+| [setMatchEntireCellContents(boolean value)](#setMatchEntireCellContents-boolean-) | Please see the getter of this property: @CREF1335\_ |
+| [setRegexKey(boolean value)](#setRegexKey-boolean-) | Please see the getter of this property: @CREF1336\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -120,7 +120,7 @@ public void setCaseSensitive(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1334\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -133,7 +133,7 @@ public void setMatchEntireCellContents(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1335\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +146,7 @@ public void setRegexKey(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF1336\_
 
 **Parameters:**
 | Parameter | Type | Description |

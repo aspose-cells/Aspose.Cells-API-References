@@ -30,13 +30,13 @@ Represents options for calculation.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCalcStackSize(int value)](#setCalcStackSize-int-) |  |
-| [setCalculationMonitor(AbstractCalculationMonitor value)](#setCalculationMonitor-com.aspose.cells.AbstractCalculationMonitor-) |  |
-| [setCustomEngine(AbstractCalculationEngine value)](#setCustomEngine-com.aspose.cells.AbstractCalculationEngine-) |  |
-| [setCustomFunction(ICustomFunction value)](#setCustomFunction-com.aspose.cells.ICustomFunction-) |  |
-| [setIgnoreError(boolean value)](#setIgnoreError-boolean-) |  |
-| [setPrecisionStrategy(int value)](#setPrecisionStrategy-int-) |  |
-| [setRecursive(boolean value)](#setRecursive-boolean-) |  |
+| [setCalcStackSize(int value)](#setCalcStackSize-int-) | Please see the getter of this property: @CREF723\_ |
+| [setCalculationMonitor(AbstractCalculationMonitor value)](#setCalculationMonitor-com.aspose.cells.AbstractCalculationMonitor-) | Please see the getter of this property: @CREF722\_ |
+| [setCustomEngine(AbstractCalculationEngine value)](#setCustomEngine-com.aspose.cells.AbstractCalculationEngine-) | Please see the getter of this property: @CREF721\_ |
+| [setCustomFunction(ICustomFunction value)](#setCustomFunction-com.aspose.cells.ICustomFunction-) | Please see the getter of this property: @CREF720\_ |
+| [setIgnoreError(boolean value)](#setIgnoreError-boolean-) | Please see the getter of this property: @CREF719\_ |
+| [setPrecisionStrategy(int value)](#setPrecisionStrategy-int-) | Please see the getter of this property: @CREF724\_ |
+| [setRecursive(boolean value)](#setRecursive-boolean-) | Please see the getter of this property: @CREF725\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -168,7 +168,7 @@ public void setCalcStackSize(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF723\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,7 +181,7 @@ public void setCalculationMonitor(AbstractCalculationMonitor value)
 ```
 
 
-
+Please see the getter of this property: @CREF722\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -194,7 +194,7 @@ public void setCustomEngine(AbstractCalculationEngine value)
 ```
 
 
-
+Please see the getter of this property: @CREF721\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -207,7 +207,7 @@ public void setCustomFunction(ICustomFunction value)
 ```
 
 
-
+Please see the getter of this property: @CREF720\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -220,7 +220,7 @@ public void setIgnoreError(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF719\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -233,7 +233,7 @@ public void setPrecisionStrategy(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF724\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ public void setRecursive(boolean value)
 ```
 
 
-
+Please see the getter of this property: @CREF725\_
 
 **Parameters:**
 | Parameter | Type | Description |

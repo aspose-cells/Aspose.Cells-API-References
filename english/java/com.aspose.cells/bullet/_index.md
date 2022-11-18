@@ -26,8 +26,8 @@ Represents the bullet.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFontName(String value)](#setFontName-java.lang.String-) |  |
-| [setType(int value)](#setType-int-) |  |
+| [setFontName(String value)](#setFontName-java.lang.String-) | Please see the getter of this property: @CREF741\_ |
+| [setType(int value)](#setType-int-) | Please see the getter of this property: @CREF740\_ |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -119,7 +119,7 @@ public void setFontName(String value)
 ```
 
 
-
+Please see the getter of this property: @CREF741\_
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -132,7 +132,7 @@ public void setType(int value)
 ```
 
 
-
+Please see the getter of this property: @CREF740\_
 
 **Parameters:**
 | Parameter | Type | Description |
