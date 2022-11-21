@@ -32,8 +32,8 @@ Represents the function of power query.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setF(String value)](#setF-java.lang.String-) | For the description of this property, please see \#getF().getF() |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
+| [setF(String value)](#setF-java.lang.String-) | For the description of this property, please see [getF()](../../com.aspose.cells/powerqueryformulafunction\#getF--) |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/powerqueryformula\#getName--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -141,7 +141,7 @@ public void setF(String value)
 ```
 
 
-For the description of this property, please see \#getF().getF()
+For the description of this property, please see [getF()](../../com.aspose.cells/powerqueryformulafunction\#getF--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -154,7 +154,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see \#getName().getName()
+For the description of this property, please see [getName()](../../com.aspose.cells/powerqueryformula\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |

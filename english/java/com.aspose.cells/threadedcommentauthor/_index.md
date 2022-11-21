@@ -26,9 +26,9 @@ Represents the person who creates the threaded comments;
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
-| [setProviderId(String value)](#setProviderId-java.lang.String-) | For the description of this property, please see \#getProviderId().getProviderId() |
-| [setUserId(String value)](#setUserId-java.lang.String-) | For the description of this property, please see \#getUserId().getUserId() |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/threadedcommentauthor\#getName--) |
+| [setProviderId(String value)](#setProviderId-java.lang.String-) | For the description of this property, please see [getProviderId()](../../com.aspose.cells/threadedcommentauthor\#getProviderId--) |
+| [setUserId(String value)](#setUserId-java.lang.String-) | For the description of this property, please see [getUserId()](../../com.aspose.cells/threadedcommentauthor\#getUserId--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -120,7 +120,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see \#getName().getName()
+For the description of this property, please see [getName()](../../com.aspose.cells/threadedcommentauthor\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -133,7 +133,7 @@ public void setProviderId(String value)
 ```
 
 
-For the description of this property, please see \#getProviderId().getProviderId()
+For the description of this property, please see [getProviderId()](../../com.aspose.cells/threadedcommentauthor\#getProviderId--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +146,7 @@ public void setUserId(String value)
 ```
 
 
-For the description of this property, please see \#getUserId().getUserId()
+For the description of this property, please see [getUserId()](../../com.aspose.cells/threadedcommentauthor\#getUserId--)
 
 **Parameters:**
 | Parameter | Type | Description |

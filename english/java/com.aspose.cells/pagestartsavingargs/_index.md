@@ -31,7 +31,7 @@ Info for a page starts saving process.
 | [isToOutput()](#isToOutput--) | Gets or sets a value indicating whether the page should be output. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setToOutput(boolean value)](#setToOutput-boolean-) | For the description of this property, please see \#isToOutput().isToOutput() |
+| [setToOutput(boolean value)](#setToOutput-boolean-) | For the description of this property, please see [isToOutput()](../../com.aspose.cells/pagestartsavingargs\#isToOutput--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -129,7 +129,7 @@ public void setToOutput(boolean value)
 ```
 
 
-For the description of this property, please see \#isToOutput().isToOutput()
+For the description of this property, please see [isToOutput()](../../com.aspose.cells/pagestartsavingargs\#isToOutput--)
 
 **Parameters:**
 | Parameter | Type | Description |

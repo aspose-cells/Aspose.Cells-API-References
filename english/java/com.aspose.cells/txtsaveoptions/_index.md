@@ -53,28 +53,28 @@ Represents the save options for csv/tab delimited/other text format.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAlwaysQuoted(boolean value)](#setAlwaysQuoted-boolean-) | For the description of this property, please see \#getAlwaysQuoted().getAlwaysQuoted() |
-| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | For the description of this property, please see \#getCachedFileFolder().getCachedFileFolder() |
-| [setClearData(boolean value)](#setClearData-boolean-) | For the description of this property, please see \#getClearData().getClearData() |
-| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | For the description of this property, please see \#getCreateDirectory().getCreateDirectory() |
-| [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | For the description of this property, please see \#getEncoding().getEncoding() |
-| [setExportAllSheets(boolean value)](#setExportAllSheets-boolean-) | For the description of this property, please see \#getExportAllSheets().getExportAllSheets() |
-| [setExportArea(CellArea value)](#setExportArea-com.aspose.cells.CellArea-) | For the description of this property, please see \#getExportArea().getExportArea() |
-| [setExportQuotePrefix(boolean value)](#setExportQuotePrefix-boolean-) | For the description of this property, please see \#getExportQuotePrefix().getExportQuotePrefix() |
-| [setFormatStrategy(int value)](#setFormatStrategy-int-) | For the description of this property, please see \#getFormatStrategy().getFormatStrategy() |
-| [setKeepSeparatorsForBlankRow(boolean value)](#setKeepSeparatorsForBlankRow-boolean-) | For the description of this property, please see \#getKeepSeparatorsForBlankRow().getKeepSeparatorsForBlankRow() |
-| [setLightCellsDataProvider(LightCellsDataProvider value)](#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-) | For the description of this property, please see \#getLightCellsDataProvider().getLightCellsDataProvider() |
-| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | For the description of this property, please see \#getMergeAreas().getMergeAreas() |
-| [setQuoteType(int value)](#setQuoteType-int-) | For the description of this property, please see \#getQuoteType().getQuoteType() |
-| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | For the description of this property, please see \#getRefreshChartCache().getRefreshChartCache() |
-| [setSeparator(char value)](#setSeparator-char-) | For the description of this property, please see \#getSeparator().getSeparator() |
-| [setSeparatorString(String value)](#setSeparatorString-java.lang.String-) | For the description of this property, please see \#getSeparatorString().getSeparatorString() |
-| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | For the description of this property, please see \#getSortExternalNames().getSortExternalNames() |
-| [setSortNames(boolean value)](#setSortNames-boolean-) | For the description of this property, please see \#getSortNames().getSortNames() |
-| [setTrimLeadingBlankRowAndColumn(boolean value)](#setTrimLeadingBlankRowAndColumn-boolean-) | For the description of this property, please see \#getTrimLeadingBlankRowAndColumn().getTrimLeadingBlankRowAndColumn() |
-| [setTrimTailingBlankCells(boolean value)](#setTrimTailingBlankCells-boolean-) | For the description of this property, please see \#getTrimTailingBlankCells().getTrimTailingBlankCells() |
-| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | For the description of this property, please see \#getUpdateSmartArt().getUpdateSmartArt() |
-| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | For the description of this property, please see \#getValidateMergedAreas().getValidateMergedAreas() |
+| [setAlwaysQuoted(boolean value)](#setAlwaysQuoted-boolean-) | For the description of this property, please see [getAlwaysQuoted()](../../com.aspose.cells/txtsaveoptions\#getAlwaysQuoted--) |
+| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | For the description of this property, please see [getCachedFileFolder()](../../com.aspose.cells/saveoptions\#getCachedFileFolder--) |
+| [setClearData(boolean value)](#setClearData-boolean-) | For the description of this property, please see [getClearData()](../../com.aspose.cells/saveoptions\#getClearData--) |
+| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | For the description of this property, please see [getCreateDirectory()](../../com.aspose.cells/saveoptions\#getCreateDirectory--) |
+| [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | For the description of this property, please see [getEncoding()](../../com.aspose.cells/txtsaveoptions\#getEncoding--) |
+| [setExportAllSheets(boolean value)](#setExportAllSheets-boolean-) | For the description of this property, please see [getExportAllSheets()](../../com.aspose.cells/txtsaveoptions\#getExportAllSheets--) |
+| [setExportArea(CellArea value)](#setExportArea-com.aspose.cells.CellArea-) | For the description of this property, please see [getExportArea()](../../com.aspose.cells/txtsaveoptions\#getExportArea--) |
+| [setExportQuotePrefix(boolean value)](#setExportQuotePrefix-boolean-) | For the description of this property, please see [getExportQuotePrefix()](../../com.aspose.cells/txtsaveoptions\#getExportQuotePrefix--) |
+| [setFormatStrategy(int value)](#setFormatStrategy-int-) | For the description of this property, please see [getFormatStrategy()](../../com.aspose.cells/txtsaveoptions\#getFormatStrategy--) |
+| [setKeepSeparatorsForBlankRow(boolean value)](#setKeepSeparatorsForBlankRow-boolean-) | For the description of this property, please see [getKeepSeparatorsForBlankRow()](../../com.aspose.cells/txtsaveoptions\#getKeepSeparatorsForBlankRow--) |
+| [setLightCellsDataProvider(LightCellsDataProvider value)](#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-) | For the description of this property, please see [getLightCellsDataProvider()](../../com.aspose.cells/txtsaveoptions\#getLightCellsDataProvider--) |
+| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | For the description of this property, please see [getMergeAreas()](../../com.aspose.cells/saveoptions\#getMergeAreas--) |
+| [setQuoteType(int value)](#setQuoteType-int-) | For the description of this property, please see [getQuoteType()](../../com.aspose.cells/txtsaveoptions\#getQuoteType--) |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | For the description of this property, please see [getRefreshChartCache()](../../com.aspose.cells/saveoptions\#getRefreshChartCache--) |
+| [setSeparator(char value)](#setSeparator-char-) | For the description of this property, please see [getSeparator()](../../com.aspose.cells/txtsaveoptions\#getSeparator--) |
+| [setSeparatorString(String value)](#setSeparatorString-java.lang.String-) | For the description of this property, please see [getSeparatorString()](../../com.aspose.cells/txtsaveoptions\#getSeparatorString--) |
+| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | For the description of this property, please see [getSortExternalNames()](../../com.aspose.cells/saveoptions\#getSortExternalNames--) |
+| [setSortNames(boolean value)](#setSortNames-boolean-) | For the description of this property, please see [getSortNames()](../../com.aspose.cells/saveoptions\#getSortNames--) |
+| [setTrimLeadingBlankRowAndColumn(boolean value)](#setTrimLeadingBlankRowAndColumn-boolean-) | For the description of this property, please see [getTrimLeadingBlankRowAndColumn()](../../com.aspose.cells/txtsaveoptions\#getTrimLeadingBlankRowAndColumn--) |
+| [setTrimTailingBlankCells(boolean value)](#setTrimTailingBlankCells-boolean-) | For the description of this property, please see [getTrimTailingBlankCells()](../../com.aspose.cells/txtsaveoptions\#getTrimTailingBlankCells--) |
+| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | For the description of this property, please see [getUpdateSmartArt()](../../com.aspose.cells/saveoptions\#getUpdateSmartArt--) |
+| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | For the description of this property, please see [getValidateMergedAreas()](../../com.aspose.cells/saveoptions\#getValidateMergedAreas--) |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -398,7 +398,7 @@ public void setAlwaysQuoted(boolean value)
 ```
 
 
-For the description of this property, please see \#getAlwaysQuoted().getAlwaysQuoted()
+For the description of this property, please see [getAlwaysQuoted()](../../com.aspose.cells/txtsaveoptions\#getAlwaysQuoted--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -411,7 +411,7 @@ public void setCachedFileFolder(String value)
 ```
 
 
-For the description of this property, please see \#getCachedFileFolder().getCachedFileFolder()
+For the description of this property, please see [getCachedFileFolder()](../../com.aspose.cells/saveoptions\#getCachedFileFolder--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -424,7 +424,7 @@ public void setClearData(boolean value)
 ```
 
 
-For the description of this property, please see \#getClearData().getClearData()
+For the description of this property, please see [getClearData()](../../com.aspose.cells/saveoptions\#getClearData--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -437,7 +437,7 @@ public void setCreateDirectory(boolean value)
 ```
 
 
-For the description of this property, please see \#getCreateDirectory().getCreateDirectory()
+For the description of this property, please see [getCreateDirectory()](../../com.aspose.cells/saveoptions\#getCreateDirectory--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -450,7 +450,7 @@ public void setEncoding(Encoding value)
 ```
 
 
-For the description of this property, please see \#getEncoding().getEncoding()
+For the description of this property, please see [getEncoding()](../../com.aspose.cells/txtsaveoptions\#getEncoding--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -463,7 +463,7 @@ public void setExportAllSheets(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportAllSheets().getExportAllSheets()
+For the description of this property, please see [getExportAllSheets()](../../com.aspose.cells/txtsaveoptions\#getExportAllSheets--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -476,7 +476,7 @@ public void setExportArea(CellArea value)
 ```
 
 
-For the description of this property, please see \#getExportArea().getExportArea()
+For the description of this property, please see [getExportArea()](../../com.aspose.cells/txtsaveoptions\#getExportArea--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -489,7 +489,7 @@ public void setExportQuotePrefix(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportQuotePrefix().getExportQuotePrefix()
+For the description of this property, please see [getExportQuotePrefix()](../../com.aspose.cells/txtsaveoptions\#getExportQuotePrefix--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -502,7 +502,7 @@ public void setFormatStrategy(int value)
 ```
 
 
-For the description of this property, please see \#getFormatStrategy().getFormatStrategy()
+For the description of this property, please see [getFormatStrategy()](../../com.aspose.cells/txtsaveoptions\#getFormatStrategy--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -515,7 +515,7 @@ public void setKeepSeparatorsForBlankRow(boolean value)
 ```
 
 
-For the description of this property, please see \#getKeepSeparatorsForBlankRow().getKeepSeparatorsForBlankRow()
+For the description of this property, please see [getKeepSeparatorsForBlankRow()](../../com.aspose.cells/txtsaveoptions\#getKeepSeparatorsForBlankRow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -528,7 +528,7 @@ public void setLightCellsDataProvider(LightCellsDataProvider value)
 ```
 
 
-For the description of this property, please see \#getLightCellsDataProvider().getLightCellsDataProvider()
+For the description of this property, please see [getLightCellsDataProvider()](../../com.aspose.cells/txtsaveoptions\#getLightCellsDataProvider--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -541,7 +541,7 @@ public void setMergeAreas(boolean value)
 ```
 
 
-For the description of this property, please see \#getMergeAreas().getMergeAreas()
+For the description of this property, please see [getMergeAreas()](../../com.aspose.cells/saveoptions\#getMergeAreas--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -554,7 +554,7 @@ public void setQuoteType(int value)
 ```
 
 
-For the description of this property, please see \#getQuoteType().getQuoteType()
+For the description of this property, please see [getQuoteType()](../../com.aspose.cells/txtsaveoptions\#getQuoteType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -567,7 +567,7 @@ public void setRefreshChartCache(boolean value)
 ```
 
 
-For the description of this property, please see \#getRefreshChartCache().getRefreshChartCache()
+For the description of this property, please see [getRefreshChartCache()](../../com.aspose.cells/saveoptions\#getRefreshChartCache--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -580,7 +580,7 @@ public void setSeparator(char value)
 ```
 
 
-For the description of this property, please see \#getSeparator().getSeparator()
+For the description of this property, please see [getSeparator()](../../com.aspose.cells/txtsaveoptions\#getSeparator--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -593,7 +593,7 @@ public void setSeparatorString(String value)
 ```
 
 
-For the description of this property, please see \#getSeparatorString().getSeparatorString()
+For the description of this property, please see [getSeparatorString()](../../com.aspose.cells/txtsaveoptions\#getSeparatorString--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -606,7 +606,7 @@ public void setSortExternalNames(boolean value)
 ```
 
 
-For the description of this property, please see \#getSortExternalNames().getSortExternalNames()
+For the description of this property, please see [getSortExternalNames()](../../com.aspose.cells/saveoptions\#getSortExternalNames--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -619,7 +619,7 @@ public void setSortNames(boolean value)
 ```
 
 
-For the description of this property, please see \#getSortNames().getSortNames()
+For the description of this property, please see [getSortNames()](../../com.aspose.cells/saveoptions\#getSortNames--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -632,7 +632,7 @@ public void setTrimLeadingBlankRowAndColumn(boolean value)
 ```
 
 
-For the description of this property, please see \#getTrimLeadingBlankRowAndColumn().getTrimLeadingBlankRowAndColumn()
+For the description of this property, please see [getTrimLeadingBlankRowAndColumn()](../../com.aspose.cells/txtsaveoptions\#getTrimLeadingBlankRowAndColumn--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -645,7 +645,7 @@ public void setTrimTailingBlankCells(boolean value)
 ```
 
 
-For the description of this property, please see \#getTrimTailingBlankCells().getTrimTailingBlankCells()
+For the description of this property, please see [getTrimTailingBlankCells()](../../com.aspose.cells/txtsaveoptions\#getTrimTailingBlankCells--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -658,7 +658,7 @@ public void setUpdateSmartArt(boolean value)
 ```
 
 
-For the description of this property, please see \#getUpdateSmartArt().getUpdateSmartArt()
+For the description of this property, please see [getUpdateSmartArt()](../../com.aspose.cells/saveoptions\#getUpdateSmartArt--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -671,7 +671,7 @@ public void setValidateMergedAreas(boolean value)
 ```
 
 
-For the description of this property, please see \#getValidateMergedAreas().getValidateMergedAreas()
+For the description of this property, please see [getValidateMergedAreas()](../../com.aspose.cells/saveoptions\#getValidateMergedAreas--)
 
 **Parameters:**
 | Parameter | Type | Description |

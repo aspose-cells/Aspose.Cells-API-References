@@ -81,18 +81,18 @@ Represents conditional formatting condition.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFormula1(String value)](#setFormula1-java.lang.String-) | For the description of this property, please see \#getFormula1().getFormula1() |
+| [setFormula1(String value)](#setFormula1-java.lang.String-) | For the description of this property, please see [getFormula1()](../../com.aspose.cells/formatcondition\#getFormula1--) |
 | [setFormula1(String formula, boolean isR1C1, boolean isLocal)](#setFormula1-java.lang.String-boolean-boolean-) | Sets the value or expression associated with this format condition. |
-| [setFormula2(String value)](#setFormula2-java.lang.String-) | For the description of this property, please see \#getFormula2().getFormula2() |
+| [setFormula2(String value)](#setFormula2-java.lang.String-) | For the description of this property, please see [getFormula2()](../../com.aspose.cells/formatcondition\#getFormula2--) |
 | [setFormula2(String formula, boolean isR1C1, boolean isLocal)](#setFormula2-java.lang.String-boolean-boolean-) | Sets the value or expression associated with this format condition. |
 | [setFormulas(String formula1, String formula2, boolean isR1C1, boolean isLocal)](#setFormulas-java.lang.String-java.lang.String-boolean-boolean-) | Sets the value or expression associated with this format condition. |
-| [setOperator(int value)](#setOperator-int-) | For the description of this property, please see \#getOperator().getOperator() |
-| [setPriority(int value)](#setPriority-int-) | For the description of this property, please see \#getPriority().getPriority() |
-| [setStopIfTrue(boolean value)](#setStopIfTrue-boolean-) | For the description of this property, please see \#getStopIfTrue().getStopIfTrue() |
-| [setStyle(Style value)](#setStyle-com.aspose.cells.Style-) | For the description of this property, please see \#getStyle().getStyle() |
-| [setText(String value)](#setText-java.lang.String-) | For the description of this property, please see \#getText().getText() |
-| [setTimePeriod(int value)](#setTimePeriod-int-) | For the description of this property, please see \#getTimePeriod().getTimePeriod() |
-| [setType(int value)](#setType-int-) | For the description of this property, please see \#getType().getType() |
+| [setOperator(int value)](#setOperator-int-) | For the description of this property, please see [getOperator()](../../com.aspose.cells/formatcondition\#getOperator--) |
+| [setPriority(int value)](#setPriority-int-) | For the description of this property, please see [getPriority()](../../com.aspose.cells/formatcondition\#getPriority--) |
+| [setStopIfTrue(boolean value)](#setStopIfTrue-boolean-) | For the description of this property, please see [getStopIfTrue()](../../com.aspose.cells/formatcondition\#getStopIfTrue--) |
+| [setStyle(Style value)](#setStyle-com.aspose.cells.Style-) | For the description of this property, please see [getStyle()](../../com.aspose.cells/formatcondition\#getStyle--) |
+| [setText(String value)](#setText-java.lang.String-) | For the description of this property, please see [getText()](../../com.aspose.cells/formatcondition\#getText--) |
+| [setTimePeriod(int value)](#setTimePeriod-int-) | For the description of this property, please see [getTimePeriod()](../../com.aspose.cells/formatcondition\#getTimePeriod--) |
+| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/formatcondition\#getType--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -394,7 +394,7 @@ public void setFormula1(String value)
 ```
 
 
-For the description of this property, please see \#getFormula1().getFormula1()
+For the description of this property, please see [getFormula1()](../../com.aspose.cells/formatcondition\#getFormula1--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -422,7 +422,7 @@ public void setFormula2(String value)
 ```
 
 
-For the description of this property, please see \#getFormula2().getFormula2()
+For the description of this property, please see [getFormula2()](../../com.aspose.cells/formatcondition\#getFormula2--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -466,7 +466,7 @@ public void setOperator(int value)
 ```
 
 
-For the description of this property, please see \#getOperator().getOperator()
+For the description of this property, please see [getOperator()](../../com.aspose.cells/formatcondition\#getOperator--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -479,7 +479,7 @@ public void setPriority(int value)
 ```
 
 
-For the description of this property, please see \#getPriority().getPriority()
+For the description of this property, please see [getPriority()](../../com.aspose.cells/formatcondition\#getPriority--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -492,7 +492,7 @@ public void setStopIfTrue(boolean value)
 ```
 
 
-For the description of this property, please see \#getStopIfTrue().getStopIfTrue()
+For the description of this property, please see [getStopIfTrue()](../../com.aspose.cells/formatcondition\#getStopIfTrue--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -505,7 +505,7 @@ public void setStyle(Style value)
 ```
 
 
-For the description of this property, please see \#getStyle().getStyle()
+For the description of this property, please see [getStyle()](../../com.aspose.cells/formatcondition\#getStyle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -518,7 +518,7 @@ public void setText(String value)
 ```
 
 
-For the description of this property, please see \#getText().getText()
+For the description of this property, please see [getText()](../../com.aspose.cells/formatcondition\#getText--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -531,7 +531,7 @@ public void setTimePeriod(int value)
 ```
 
 
-For the description of this property, please see \#getTimePeriod().getTimePeriod()
+For the description of this property, please see [getTimePeriod()](../../com.aspose.cells/formatcondition\#getTimePeriod--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -544,7 +544,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see \#getType().getType()
+For the description of this property, please see [getType()](../../com.aspose.cells/formatcondition\#getType--)
 
 **Parameters:**
 | Parameter | Type | Description |

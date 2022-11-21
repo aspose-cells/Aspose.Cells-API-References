@@ -29,7 +29,7 @@ Encapsulates a shape guide specifies the presence of a shape guide that will be 
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setValue(double value)](#setValue-double-) | For the description of this property, please see \#getValue().getValue() |
+| [setValue(double value)](#setValue-double-) | For the description of this property, please see [getValue()](../../com.aspose.cells/shapeguide\#getValue--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -107,7 +107,7 @@ public void setValue(double value)
 ```
 
 
-For the description of this property, please see \#getValue().getValue()
+For the description of this property, please see [getValue()](../../com.aspose.cells/shapeguide\#getValue--)
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -28,9 +28,9 @@ Represents the threaded comment.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAuthor(ThreadedCommentAuthor value)](#setAuthor-com.aspose.cells.ThreadedCommentAuthor-) | For the description of this property, please see \#getAuthor().getAuthor() |
-| [setCreatedTime(DateTime value)](#setCreatedTime-com.aspose.cells.DateTime-) | For the description of this property, please see \#getCreatedTime().getCreatedTime() |
-| [setNotes(String value)](#setNotes-java.lang.String-) | For the description of this property, please see \#getNotes().getNotes() |
+| [setAuthor(ThreadedCommentAuthor value)](#setAuthor-com.aspose.cells.ThreadedCommentAuthor-) | For the description of this property, please see [getAuthor()](../../com.aspose.cells/threadedcomment\#getAuthor--) |
+| [setCreatedTime(DateTime value)](#setCreatedTime-com.aspose.cells.DateTime-) | For the description of this property, please see [getCreatedTime()](../../com.aspose.cells/threadedcomment\#getCreatedTime--) |
+| [setNotes(String value)](#setNotes-java.lang.String-) | For the description of this property, please see [getNotes()](../../com.aspose.cells/threadedcomment\#getNotes--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -142,7 +142,7 @@ public void setAuthor(ThreadedCommentAuthor value)
 ```
 
 
-For the description of this property, please see \#getAuthor().getAuthor()
+For the description of this property, please see [getAuthor()](../../com.aspose.cells/threadedcomment\#getAuthor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -155,7 +155,7 @@ public void setCreatedTime(DateTime value)
 ```
 
 
-For the description of this property, please see \#getCreatedTime().getCreatedTime()
+For the description of this property, please see [getCreatedTime()](../../com.aspose.cells/threadedcomment\#getCreatedTime--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -168,7 +168,7 @@ public void setNotes(String value)
 ```
 
 
-For the description of this property, please see \#getNotes().getNotes()
+For the description of this property, please see [getNotes()](../../com.aspose.cells/threadedcomment\#getNotes--)
 
 **Parameters:**
 | Parameter | Type | Description |

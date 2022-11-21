@@ -73,18 +73,18 @@ Workbook workbook = new Workbook();
 | [notifyAll()](#notifyAll--) |  |
 | [putCellValue(int rowOffset, int columnOffset, Object value)](#putCellValue-int-int-java.lang.Object-) | Put the value to the cell. |
 | [resize(int startRow, int startColumn, int endRow, int endColumn, boolean hasHeaders)](#resize-int-int-int-int-boolean-) | Resize the range of the list object. |
-| [setAlternativeDescription(String value)](#setAlternativeDescription-java.lang.String-) | For the description of this property, please see \#getAlternativeDescription().getAlternativeDescription() |
-| [setAlternativeText(String value)](#setAlternativeText-java.lang.String-) | For the description of this property, please see \#getAlternativeText().getAlternativeText() |
-| [setComment(String value)](#setComment-java.lang.String-) | For the description of this property, please see \#getComment().getComment() |
-| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | For the description of this property, please see \#getDisplayName().getDisplayName() |
-| [setShowHeaderRow(boolean value)](#setShowHeaderRow-boolean-) | For the description of this property, please see \#getShowHeaderRow().getShowHeaderRow() |
-| [setShowTableStyleColumnStripes(boolean value)](#setShowTableStyleColumnStripes-boolean-) | For the description of this property, please see \#getShowTableStyleColumnStripes().getShowTableStyleColumnStripes() |
-| [setShowTableStyleFirstColumn(boolean value)](#setShowTableStyleFirstColumn-boolean-) | For the description of this property, please see \#getShowTableStyleFirstColumn().getShowTableStyleFirstColumn() |
-| [setShowTableStyleLastColumn(boolean value)](#setShowTableStyleLastColumn-boolean-) | For the description of this property, please see \#getShowTableStyleLastColumn().getShowTableStyleLastColumn() |
-| [setShowTableStyleRowStripes(boolean value)](#setShowTableStyleRowStripes-boolean-) | For the description of this property, please see \#getShowTableStyleRowStripes().getShowTableStyleRowStripes() |
-| [setShowTotals(boolean value)](#setShowTotals-boolean-) | For the description of this property, please see \#getShowTotals().getShowTotals() |
-| [setTableStyleName(String value)](#setTableStyleName-java.lang.String-) | For the description of this property, please see \#getTableStyleName().getTableStyleName() |
-| [setTableStyleType(int value)](#setTableStyleType-int-) | For the description of this property, please see \#getTableStyleType().getTableStyleType() |
+| [setAlternativeDescription(String value)](#setAlternativeDescription-java.lang.String-) | For the description of this property, please see [getAlternativeDescription()](../../com.aspose.cells/listobject\#getAlternativeDescription--) |
+| [setAlternativeText(String value)](#setAlternativeText-java.lang.String-) | For the description of this property, please see [getAlternativeText()](../../com.aspose.cells/listobject\#getAlternativeText--) |
+| [setComment(String value)](#setComment-java.lang.String-) | For the description of this property, please see [getComment()](../../com.aspose.cells/listobject\#getComment--) |
+| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | For the description of this property, please see [getDisplayName()](../../com.aspose.cells/listobject\#getDisplayName--) |
+| [setShowHeaderRow(boolean value)](#setShowHeaderRow-boolean-) | For the description of this property, please see [getShowHeaderRow()](../../com.aspose.cells/listobject\#getShowHeaderRow--) |
+| [setShowTableStyleColumnStripes(boolean value)](#setShowTableStyleColumnStripes-boolean-) | For the description of this property, please see [getShowTableStyleColumnStripes()](../../com.aspose.cells/listobject\#getShowTableStyleColumnStripes--) |
+| [setShowTableStyleFirstColumn(boolean value)](#setShowTableStyleFirstColumn-boolean-) | For the description of this property, please see [getShowTableStyleFirstColumn()](../../com.aspose.cells/listobject\#getShowTableStyleFirstColumn--) |
+| [setShowTableStyleLastColumn(boolean value)](#setShowTableStyleLastColumn-boolean-) | For the description of this property, please see [getShowTableStyleLastColumn()](../../com.aspose.cells/listobject\#getShowTableStyleLastColumn--) |
+| [setShowTableStyleRowStripes(boolean value)](#setShowTableStyleRowStripes-boolean-) | For the description of this property, please see [getShowTableStyleRowStripes()](../../com.aspose.cells/listobject\#getShowTableStyleRowStripes--) |
+| [setShowTotals(boolean value)](#setShowTotals-boolean-) | For the description of this property, please see [getShowTotals()](../../com.aspose.cells/listobject\#getShowTotals--) |
+| [setTableStyleName(String value)](#setTableStyleName-java.lang.String-) | For the description of this property, please see [getTableStyleName()](../../com.aspose.cells/listobject\#getTableStyleName--) |
+| [setTableStyleType(int value)](#setTableStyleType-int-) | For the description of this property, please see [getTableStyleType()](../../com.aspose.cells/listobject\#getTableStyleType--) |
 | [toString()](#toString--) |  |
 | [updateColumnName()](#updateColumnName--) | Updates all list columns' name from the worksheet. |
 | [wait()](#wait--) |  |
@@ -447,7 +447,7 @@ public void setAlternativeDescription(String value)
 ```
 
 
-For the description of this property, please see \#getAlternativeDescription().getAlternativeDescription()
+For the description of this property, please see [getAlternativeDescription()](../../com.aspose.cells/listobject\#getAlternativeDescription--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -460,7 +460,7 @@ public void setAlternativeText(String value)
 ```
 
 
-For the description of this property, please see \#getAlternativeText().getAlternativeText()
+For the description of this property, please see [getAlternativeText()](../../com.aspose.cells/listobject\#getAlternativeText--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -473,7 +473,7 @@ public void setComment(String value)
 ```
 
 
-For the description of this property, please see \#getComment().getComment()
+For the description of this property, please see [getComment()](../../com.aspose.cells/listobject\#getComment--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -486,7 +486,7 @@ public void setDisplayName(String value)
 ```
 
 
-For the description of this property, please see \#getDisplayName().getDisplayName()
+For the description of this property, please see [getDisplayName()](../../com.aspose.cells/listobject\#getDisplayName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -499,7 +499,7 @@ public void setShowHeaderRow(boolean value)
 ```
 
 
-For the description of this property, please see \#getShowHeaderRow().getShowHeaderRow()
+For the description of this property, please see [getShowHeaderRow()](../../com.aspose.cells/listobject\#getShowHeaderRow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -512,7 +512,7 @@ public void setShowTableStyleColumnStripes(boolean value)
 ```
 
 
-For the description of this property, please see \#getShowTableStyleColumnStripes().getShowTableStyleColumnStripes()
+For the description of this property, please see [getShowTableStyleColumnStripes()](../../com.aspose.cells/listobject\#getShowTableStyleColumnStripes--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -525,7 +525,7 @@ public void setShowTableStyleFirstColumn(boolean value)
 ```
 
 
-For the description of this property, please see \#getShowTableStyleFirstColumn().getShowTableStyleFirstColumn()
+For the description of this property, please see [getShowTableStyleFirstColumn()](../../com.aspose.cells/listobject\#getShowTableStyleFirstColumn--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -538,7 +538,7 @@ public void setShowTableStyleLastColumn(boolean value)
 ```
 
 
-For the description of this property, please see \#getShowTableStyleLastColumn().getShowTableStyleLastColumn()
+For the description of this property, please see [getShowTableStyleLastColumn()](../../com.aspose.cells/listobject\#getShowTableStyleLastColumn--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -551,7 +551,7 @@ public void setShowTableStyleRowStripes(boolean value)
 ```
 
 
-For the description of this property, please see \#getShowTableStyleRowStripes().getShowTableStyleRowStripes()
+For the description of this property, please see [getShowTableStyleRowStripes()](../../com.aspose.cells/listobject\#getShowTableStyleRowStripes--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -564,7 +564,7 @@ public void setShowTotals(boolean value)
 ```
 
 
-For the description of this property, please see \#getShowTotals().getShowTotals()
+For the description of this property, please see [getShowTotals()](../../com.aspose.cells/listobject\#getShowTotals--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -577,7 +577,7 @@ public void setTableStyleName(String value)
 ```
 
 
-For the description of this property, please see \#getTableStyleName().getTableStyleName()
+For the description of this property, please see [getTableStyleName()](../../com.aspose.cells/listobject\#getTableStyleName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -590,7 +590,7 @@ public void setTableStyleType(int value)
 ```
 
 
-For the description of this property, please see \#getTableStyleType().getTableStyleType()
+For the description of this property, please see [getTableStyleType()](../../com.aspose.cells/listobject\#getTableStyleType--)
 
 **Parameters:**
 | Parameter | Type | Description |

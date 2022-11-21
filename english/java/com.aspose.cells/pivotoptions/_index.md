@@ -28,11 +28,11 @@ Represents a complex type that specifies the pivot controls that appear on the c
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDropZoneCategories(boolean value)](#setDropZoneCategories-boolean-) | For the description of this property, please see \#getDropZoneCategories().getDropZoneCategories() |
-| [setDropZoneData(boolean value)](#setDropZoneData-boolean-) | For the description of this property, please see \#getDropZoneData().getDropZoneData() |
-| [setDropZoneFilter(boolean value)](#setDropZoneFilter-boolean-) | For the description of this property, please see \#getDropZoneFilter().getDropZoneFilter() |
-| [setDropZoneSeries(boolean value)](#setDropZoneSeries-boolean-) | For the description of this property, please see \#getDropZoneSeries().getDropZoneSeries() |
-| [setDropZonesVisible(boolean value)](#setDropZonesVisible-boolean-) | For the description of this property, please see \#getDropZonesVisible().getDropZonesVisible() |
+| [setDropZoneCategories(boolean value)](#setDropZoneCategories-boolean-) | For the description of this property, please see [getDropZoneCategories()](../../com.aspose.cells/pivotoptions\#getDropZoneCategories--) |
+| [setDropZoneData(boolean value)](#setDropZoneData-boolean-) | For the description of this property, please see [getDropZoneData()](../../com.aspose.cells/pivotoptions\#getDropZoneData--) |
+| [setDropZoneFilter(boolean value)](#setDropZoneFilter-boolean-) | For the description of this property, please see [getDropZoneFilter()](../../com.aspose.cells/pivotoptions\#getDropZoneFilter--) |
+| [setDropZoneSeries(boolean value)](#setDropZoneSeries-boolean-) | For the description of this property, please see [getDropZoneSeries()](../../com.aspose.cells/pivotoptions\#getDropZoneSeries--) |
+| [setDropZonesVisible(boolean value)](#setDropZonesVisible-boolean-) | For the description of this property, please see [getDropZonesVisible()](../../com.aspose.cells/pivotoptions\#getDropZonesVisible--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -144,7 +144,7 @@ public void setDropZoneCategories(boolean value)
 ```
 
 
-For the description of this property, please see \#getDropZoneCategories().getDropZoneCategories()
+For the description of this property, please see [getDropZoneCategories()](../../com.aspose.cells/pivotoptions\#getDropZoneCategories--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -157,7 +157,7 @@ public void setDropZoneData(boolean value)
 ```
 
 
-For the description of this property, please see \#getDropZoneData().getDropZoneData()
+For the description of this property, please see [getDropZoneData()](../../com.aspose.cells/pivotoptions\#getDropZoneData--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -170,7 +170,7 @@ public void setDropZoneFilter(boolean value)
 ```
 
 
-For the description of this property, please see \#getDropZoneFilter().getDropZoneFilter()
+For the description of this property, please see [getDropZoneFilter()](../../com.aspose.cells/pivotoptions\#getDropZoneFilter--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -183,7 +183,7 @@ public void setDropZoneSeries(boolean value)
 ```
 
 
-For the description of this property, please see \#getDropZoneSeries().getDropZoneSeries()
+For the description of this property, please see [getDropZoneSeries()](../../com.aspose.cells/pivotoptions\#getDropZoneSeries--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -196,7 +196,7 @@ public void setDropZonesVisible(boolean value)
 ```
 
 
-For the description of this property, please see \#getDropZonesVisible().getDropZonesVisible()
+For the description of this property, please see [getDropZonesVisible()](../../com.aspose.cells/pivotoptions\#getDropZonesVisible--)
 
 **Parameters:**
 | Parameter | Type | Description |

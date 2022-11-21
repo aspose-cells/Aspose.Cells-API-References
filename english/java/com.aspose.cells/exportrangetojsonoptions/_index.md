@@ -27,10 +27,10 @@ Indicates the options that exporting range to json.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setExportAsString(boolean value)](#setExportAsString-boolean-) | For the description of this property, please see \#getExportAsString().getExportAsString() |
-| [setExportEmptyCells(boolean value)](#setExportEmptyCells-boolean-) | For the description of this property, please see \#getExportEmptyCells().getExportEmptyCells() |
-| [setHasHeaderRow(boolean value)](#setHasHeaderRow-boolean-) | For the description of this property, please see \#hasHeaderRow().hasHeaderRow() |
-| [setIndent(String value)](#setIndent-java.lang.String-) | For the description of this property, please see \#getIndent().getIndent() |
+| [setExportAsString(boolean value)](#setExportAsString-boolean-) | For the description of this property, please see [getExportAsString()](../../com.aspose.cells/exportrangetojsonoptions\#getExportAsString--) |
+| [setExportEmptyCells(boolean value)](#setExportEmptyCells-boolean-) | For the description of this property, please see [getExportEmptyCells()](../../com.aspose.cells/exportrangetojsonoptions\#getExportEmptyCells--) |
+| [setHasHeaderRow(boolean value)](#setHasHeaderRow-boolean-) | For the description of this property, please see [hasHeaderRow()](../../com.aspose.cells/exportrangetojsonoptions\#hasHeaderRow--) |
+| [setIndent(String value)](#setIndent-java.lang.String-) | For the description of this property, please see [getIndent()](../../com.aspose.cells/exportrangetojsonoptions\#getIndent--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -132,7 +132,7 @@ public void setExportAsString(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportAsString().getExportAsString()
+For the description of this property, please see [getExportAsString()](../../com.aspose.cells/exportrangetojsonoptions\#getExportAsString--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setExportEmptyCells(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportEmptyCells().getExportEmptyCells()
+For the description of this property, please see [getExportEmptyCells()](../../com.aspose.cells/exportrangetojsonoptions\#getExportEmptyCells--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public void setHasHeaderRow(boolean value)
 ```
 
 
-For the description of this property, please see \#hasHeaderRow().hasHeaderRow()
+For the description of this property, please see [hasHeaderRow()](../../com.aspose.cells/exportrangetojsonoptions\#hasHeaderRow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,7 +171,7 @@ public void setIndent(String value)
 ```
 
 
-For the description of this property, please see \#getIndent().getIndent()
+For the description of this property, please see [getIndent()](../../com.aspose.cells/exportrangetojsonoptions\#getIndent--)
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -48,13 +48,13 @@ Provides helper functions.
 | [notifyAll()](#notifyAll--) |  |
 | [rowIndexToName(int row)](#rowIndexToName-int-) | Gets row name according to row index. |
 | [rowNameToIndex(String rowName)](#rowNameToIndex-java.lang.String-) | Gets row index according to row name. |
-| [setAltStartPath(String value)](#setAltStartPath-java.lang.String-) | For the description of this property, please see \#getAltStartPath().getAltStartPath() |
-| [setCloudPlatform(boolean value)](#setCloudPlatform-boolean-) | For the description of this property, please see \#isCloudPlatform().isCloudPlatform() |
-| [setCustomImplementationFactory(CustomImplementationFactory value)](#setCustomImplementationFactory-com.aspose.cells.CustomImplementationFactory-) | For the description of this property, please see \#getCustomImplementationFactory().getCustomImplementationFactory() |
-| [setDPI(double value)](#setDPI-double-) | For the description of this property, please see \#getDPI().getDPI() |
-| [setLibraryPath(String value)](#setLibraryPath-java.lang.String-) | For the description of this property, please see \#getLibraryPath().getLibraryPath() |
-| [setSignificantDigits(int value)](#setSignificantDigits-int-) | For the description of this property, please see \#getSignificantDigits().getSignificantDigits() |
-| [setStartupPath(String value)](#setStartupPath-java.lang.String-) | For the description of this property, please see \#getStartupPath().getStartupPath() |
+| [setAltStartPath(String value)](#setAltStartPath-java.lang.String-) | For the description of this property, please see [getAltStartPath()](../../com.aspose.cells/cellshelper\#getAltStartPath--) |
+| [setCloudPlatform(boolean value)](#setCloudPlatform-boolean-) | For the description of this property, please see [isCloudPlatform()](../../com.aspose.cells/cellshelper\#isCloudPlatform--) |
+| [setCustomImplementationFactory(CustomImplementationFactory value)](#setCustomImplementationFactory-com.aspose.cells.CustomImplementationFactory-) | For the description of this property, please see [getCustomImplementationFactory()](../../com.aspose.cells/cellshelper\#getCustomImplementationFactory--) |
+| [setDPI(double value)](#setDPI-double-) | For the description of this property, please see [getDPI()](../../com.aspose.cells/cellshelper\#getDPI--) |
+| [setLibraryPath(String value)](#setLibraryPath-java.lang.String-) | For the description of this property, please see [getLibraryPath()](../../com.aspose.cells/cellshelper\#getLibraryPath--) |
+| [setSignificantDigits(int value)](#setSignificantDigits-int-) | For the description of this property, please see [getSignificantDigits()](../../com.aspose.cells/cellshelper\#getSignificantDigits--) |
+| [setStartupPath(String value)](#setStartupPath-java.lang.String-) | For the description of this property, please see [getStartupPath()](../../com.aspose.cells/cellshelper\#getStartupPath--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -463,7 +463,7 @@ public static void setAltStartPath(String value)
 ```
 
 
-For the description of this property, please see \#getAltStartPath().getAltStartPath()
+For the description of this property, please see [getAltStartPath()](../../com.aspose.cells/cellshelper\#getAltStartPath--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -476,7 +476,7 @@ public static void setCloudPlatform(boolean value)
 ```
 
 
-For the description of this property, please see \#isCloudPlatform().isCloudPlatform()
+For the description of this property, please see [isCloudPlatform()](../../com.aspose.cells/cellshelper\#isCloudPlatform--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -489,7 +489,7 @@ public static void setCustomImplementationFactory(CustomImplementationFactory va
 ```
 
 
-For the description of this property, please see \#getCustomImplementationFactory().getCustomImplementationFactory()
+For the description of this property, please see [getCustomImplementationFactory()](../../com.aspose.cells/cellshelper\#getCustomImplementationFactory--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -502,7 +502,7 @@ public static void setDPI(double value)
 ```
 
 
-For the description of this property, please see \#getDPI().getDPI()
+For the description of this property, please see [getDPI()](../../com.aspose.cells/cellshelper\#getDPI--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -515,7 +515,7 @@ public static void setLibraryPath(String value)
 ```
 
 
-For the description of this property, please see \#getLibraryPath().getLibraryPath()
+For the description of this property, please see [getLibraryPath()](../../com.aspose.cells/cellshelper\#getLibraryPath--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -528,7 +528,7 @@ public static void setSignificantDigits(int value)
 ```
 
 
-For the description of this property, please see \#getSignificantDigits().getSignificantDigits()
+For the description of this property, please see [getSignificantDigits()](../../com.aspose.cells/cellshelper\#getSignificantDigits--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -541,7 +541,7 @@ public static void setStartupPath(String value)
 ```
 
 
-For the description of this property, please see \#getStartupPath().getStartupPath()
+For the description of this property, please see [getStartupPath()](../../com.aspose.cells/cellshelper\#getStartupPath--)
 
 **Parameters:**
 | Parameter | Type | Description |

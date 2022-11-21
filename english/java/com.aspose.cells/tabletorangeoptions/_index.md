@@ -24,7 +24,7 @@ Represents the options when converting table to range.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setLastRow(int value)](#setLastRow-int-) | For the description of this property, please see \#getLastRow().getLastRow() |
+| [setLastRow(int value)](#setLastRow-int-) | For the description of this property, please see [getLastRow()](../../com.aspose.cells/tabletorangeoptions\#getLastRow--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -96,7 +96,7 @@ public void setLastRow(int value)
 ```
 
 
-For the description of this property, please see \#getLastRow().getLastRow()
+For the description of this property, please see [getLastRow()](../../com.aspose.cells/tabletorangeoptions\#getLastRow--)
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -25,8 +25,8 @@ Represents icon filter.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setIconId(int value)](#setIconId-int-) | For the description of this property, please see \#getIconId().getIconId() |
-| [setIconSetType(int value)](#setIconSetType-int-) | For the description of this property, please see \#getIconSetType().getIconSetType() |
+| [setIconId(int value)](#setIconId-int-) | For the description of this property, please see [getIconId()](../../com.aspose.cells/iconfilter\#getIconId--) |
+| [setIconSetType(int value)](#setIconSetType-int-) | For the description of this property, please see [getIconSetType()](../../com.aspose.cells/iconfilter\#getIconSetType--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -108,7 +108,7 @@ public void setIconId(int value)
 ```
 
 
-For the description of this property, please see \#getIconId().getIconId()
+For the description of this property, please see [getIconId()](../../com.aspose.cells/iconfilter\#getIconId--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -121,7 +121,7 @@ public void setIconSetType(int value)
 ```
 
 
-For the description of this property, please see \#getIconSetType().getIconSetType()
+For the description of this property, please see [getIconSetType()](../../com.aspose.cells/iconfilter\#getIconSetType--)
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -132,39 +132,39 @@ Workbook book = new Workbook();
 | [isRepeatItemLabels()](#isRepeatItemLabels--) | indicates whether the field can repeat items labels The default value is false. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAscendShow(boolean value)](#setAscendShow-boolean-) | For the description of this property, please see \#isAscendShow().isAscendShow() |
-| [setAscendSort(boolean value)](#setAscendSort-boolean-) | For the description of this property, please see \#isAscendSort().isAscendSort() |
-| [setAutoShow(boolean value)](#setAutoShow-boolean-) | For the description of this property, please see \#isAutoShow().isAutoShow() |
-| [setAutoShowCount(int value)](#setAutoShowCount-int-) | For the description of this property, please see \#getAutoShowCount().getAutoShowCount() |
-| [setAutoShowField(int value)](#setAutoShowField-int-) | For the description of this property, please see \#getAutoShowField().getAutoShowField() |
-| [setAutoSort(boolean value)](#setAutoSort-boolean-) | For the description of this property, please see \#isAutoSort().isAutoSort() |
-| [setAutoSortField(int value)](#setAutoSortField-int-) | For the description of this property, please see \#getAutoSortField().getAutoSortField() |
-| [setAutoSubtotals(boolean value)](#setAutoSubtotals-boolean-) | For the description of this property, please see \#isAutoSubtotals().isAutoSubtotals() |
-| [setBaseFieldIndex(int value)](#setBaseFieldIndex-int-) | For the description of this property, please see \#getBaseFieldIndex().getBaseFieldIndex() |
-| [setBaseIndex(int value)](#setBaseIndex-int-) | For the description of this property, please see \#getBaseIndex().getBaseIndex() |
-| [setBaseItemIndex(int value)](#setBaseItemIndex-int-) | For the description of this property, please see \#getBaseItemIndex().getBaseItemIndex() |
-| [setBaseItemPosition(int value)](#setBaseItemPosition-int-) | For the description of this property, please see \#getBaseItemPosition().getBaseItemPosition() |
-| [setCurrentPageItem(short value)](#setCurrentPageItem-short-) | For the description of this property, please see \#getCurrentPageItem().getCurrentPageItem() |
-| [setDataDisplayFormat(int value)](#setDataDisplayFormat-int-) | For the description of this property, please see \#getDataDisplayFormat().getDataDisplayFormat() |
-| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | For the description of this property, please see \#getDisplayName().getDisplayName() |
-| [setDragToColumn(boolean value)](#setDragToColumn-boolean-) | For the description of this property, please see \#getDragToColumn().getDragToColumn() |
-| [setDragToData(boolean value)](#setDragToData-boolean-) | For the description of this property, please see \#getDragToData().getDragToData() |
-| [setDragToHide(boolean value)](#setDragToHide-boolean-) | For the description of this property, please see \#getDragToHide().getDragToHide() |
-| [setDragToPage(boolean value)](#setDragToPage-boolean-) | For the description of this property, please see \#getDragToPage().getDragToPage() |
-| [setDragToRow(boolean value)](#setDragToRow-boolean-) | For the description of this property, please see \#getDragToRow().getDragToRow() |
-| [setFunction(int value)](#setFunction-int-) | For the description of this property, please see \#getFunction().getFunction() |
-| [setIncludeNewItemsInFilter(boolean value)](#setIncludeNewItemsInFilter-boolean-) | For the description of this property, please see \#isIncludeNewItemsInFilter().isIncludeNewItemsInFilter() |
-| [setInsertBlankRow(boolean value)](#setInsertBlankRow-boolean-) | For the description of this property, please see \#getInsertBlankRow().getInsertBlankRow() |
-| [setInsertPageBreaksBetweenItems(boolean value)](#setInsertPageBreaksBetweenItems-boolean-) | For the description of this property, please see \#isInsertPageBreaksBetweenItems().isInsertPageBreaksBetweenItems() |
-| [setMultipleItemSelectionAllowed(boolean value)](#setMultipleItemSelectionAllowed-boolean-) | For the description of this property, please see \#isMultipleItemSelectionAllowed().isMultipleItemSelectionAllowed() |
-| [setNonAutoSortDefault(boolean value)](#setNonAutoSortDefault-boolean-) | For the description of this property, please see \#getNonAutoSortDefault().getNonAutoSortDefault() |
-| [setNumber(int value)](#setNumber-int-) | For the description of this property, please see \#getNumber().getNumber() |
-| [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | For the description of this property, please see \#getNumberFormat().getNumberFormat() |
-| [setRepeatItemLabels(boolean value)](#setRepeatItemLabels-boolean-) | For the description of this property, please see \#isRepeatItemLabels().isRepeatItemLabels() |
-| [setShowAllItems(boolean value)](#setShowAllItems-boolean-) | For the description of this property, please see \#getShowAllItems().getShowAllItems() |
-| [setShowCompact(boolean value)](#setShowCompact-boolean-) | For the description of this property, please see \#getShowCompact().getShowCompact() |
-| [setShowInOutlineForm(boolean value)](#setShowInOutlineForm-boolean-) | For the description of this property, please see \#getShowInOutlineForm().getShowInOutlineForm() |
-| [setShowSubtotalAtTop(boolean value)](#setShowSubtotalAtTop-boolean-) | For the description of this property, please see \#getShowSubtotalAtTop().getShowSubtotalAtTop() |
+| [setAscendShow(boolean value)](#setAscendShow-boolean-) | For the description of this property, please see [isAscendShow()](../../com.aspose.cells/pivotfield\#isAscendShow--) |
+| [setAscendSort(boolean value)](#setAscendSort-boolean-) | For the description of this property, please see [isAscendSort()](../../com.aspose.cells/pivotfield\#isAscendSort--) |
+| [setAutoShow(boolean value)](#setAutoShow-boolean-) | For the description of this property, please see [isAutoShow()](../../com.aspose.cells/pivotfield\#isAutoShow--) |
+| [setAutoShowCount(int value)](#setAutoShowCount-int-) | For the description of this property, please see [getAutoShowCount()](../../com.aspose.cells/pivotfield\#getAutoShowCount--) |
+| [setAutoShowField(int value)](#setAutoShowField-int-) | For the description of this property, please see [getAutoShowField()](../../com.aspose.cells/pivotfield\#getAutoShowField--) |
+| [setAutoSort(boolean value)](#setAutoSort-boolean-) | For the description of this property, please see [isAutoSort()](../../com.aspose.cells/pivotfield\#isAutoSort--) |
+| [setAutoSortField(int value)](#setAutoSortField-int-) | For the description of this property, please see [getAutoSortField()](../../com.aspose.cells/pivotfield\#getAutoSortField--) |
+| [setAutoSubtotals(boolean value)](#setAutoSubtotals-boolean-) | For the description of this property, please see [isAutoSubtotals()](../../com.aspose.cells/pivotfield\#isAutoSubtotals--) |
+| [setBaseFieldIndex(int value)](#setBaseFieldIndex-int-) | For the description of this property, please see [getBaseFieldIndex()](../../com.aspose.cells/pivotfield\#getBaseFieldIndex--) |
+| [setBaseIndex(int value)](#setBaseIndex-int-) | For the description of this property, please see [getBaseIndex()](../../com.aspose.cells/pivotfield\#getBaseIndex--) |
+| [setBaseItemIndex(int value)](#setBaseItemIndex-int-) | For the description of this property, please see [getBaseItemIndex()](../../com.aspose.cells/pivotfield\#getBaseItemIndex--) |
+| [setBaseItemPosition(int value)](#setBaseItemPosition-int-) | For the description of this property, please see [getBaseItemPosition()](../../com.aspose.cells/pivotfield\#getBaseItemPosition--) |
+| [setCurrentPageItem(short value)](#setCurrentPageItem-short-) | For the description of this property, please see [getCurrentPageItem()](../../com.aspose.cells/pivotfield\#getCurrentPageItem--) |
+| [setDataDisplayFormat(int value)](#setDataDisplayFormat-int-) | For the description of this property, please see [getDataDisplayFormat()](../../com.aspose.cells/pivotfield\#getDataDisplayFormat--) |
+| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | For the description of this property, please see [getDisplayName()](../../com.aspose.cells/pivotfield\#getDisplayName--) |
+| [setDragToColumn(boolean value)](#setDragToColumn-boolean-) | For the description of this property, please see [getDragToColumn()](../../com.aspose.cells/pivotfield\#getDragToColumn--) |
+| [setDragToData(boolean value)](#setDragToData-boolean-) | For the description of this property, please see [getDragToData()](../../com.aspose.cells/pivotfield\#getDragToData--) |
+| [setDragToHide(boolean value)](#setDragToHide-boolean-) | For the description of this property, please see [getDragToHide()](../../com.aspose.cells/pivotfield\#getDragToHide--) |
+| [setDragToPage(boolean value)](#setDragToPage-boolean-) | For the description of this property, please see [getDragToPage()](../../com.aspose.cells/pivotfield\#getDragToPage--) |
+| [setDragToRow(boolean value)](#setDragToRow-boolean-) | For the description of this property, please see [getDragToRow()](../../com.aspose.cells/pivotfield\#getDragToRow--) |
+| [setFunction(int value)](#setFunction-int-) | For the description of this property, please see [getFunction()](../../com.aspose.cells/pivotfield\#getFunction--) |
+| [setIncludeNewItemsInFilter(boolean value)](#setIncludeNewItemsInFilter-boolean-) | For the description of this property, please see [isIncludeNewItemsInFilter()](../../com.aspose.cells/pivotfield\#isIncludeNewItemsInFilter--) |
+| [setInsertBlankRow(boolean value)](#setInsertBlankRow-boolean-) | For the description of this property, please see [getInsertBlankRow()](../../com.aspose.cells/pivotfield\#getInsertBlankRow--) |
+| [setInsertPageBreaksBetweenItems(boolean value)](#setInsertPageBreaksBetweenItems-boolean-) | For the description of this property, please see [isInsertPageBreaksBetweenItems()](../../com.aspose.cells/pivotfield\#isInsertPageBreaksBetweenItems--) |
+| [setMultipleItemSelectionAllowed(boolean value)](#setMultipleItemSelectionAllowed-boolean-) | For the description of this property, please see [isMultipleItemSelectionAllowed()](../../com.aspose.cells/pivotfield\#isMultipleItemSelectionAllowed--) |
+| [setNonAutoSortDefault(boolean value)](#setNonAutoSortDefault-boolean-) | For the description of this property, please see [getNonAutoSortDefault()](../../com.aspose.cells/pivotfield\#getNonAutoSortDefault--) |
+| [setNumber(int value)](#setNumber-int-) | For the description of this property, please see [getNumber()](../../com.aspose.cells/pivotfield\#getNumber--) |
+| [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | For the description of this property, please see [getNumberFormat()](../../com.aspose.cells/pivotfield\#getNumberFormat--) |
+| [setRepeatItemLabels(boolean value)](#setRepeatItemLabels-boolean-) | For the description of this property, please see [isRepeatItemLabels()](../../com.aspose.cells/pivotfield\#isRepeatItemLabels--) |
+| [setShowAllItems(boolean value)](#setShowAllItems-boolean-) | For the description of this property, please see [getShowAllItems()](../../com.aspose.cells/pivotfield\#getShowAllItems--) |
+| [setShowCompact(boolean value)](#setShowCompact-boolean-) | For the description of this property, please see [getShowCompact()](../../com.aspose.cells/pivotfield\#getShowCompact--) |
+| [setShowInOutlineForm(boolean value)](#setShowInOutlineForm-boolean-) | For the description of this property, please see [getShowInOutlineForm()](../../com.aspose.cells/pivotfield\#getShowInOutlineForm--) |
+| [setShowSubtotalAtTop(boolean value)](#setShowSubtotalAtTop-boolean-) | For the description of this property, please see [getShowSubtotalAtTop()](../../com.aspose.cells/pivotfield\#getShowSubtotalAtTop--) |
 | [setSubtotals(int subtotalType, boolean shown)](#setSubtotals-int-boolean-) | Sets whether the specified field shows that subtotals. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -794,7 +794,7 @@ public void setAscendShow(boolean value)
 ```
 
 
-For the description of this property, please see \#isAscendShow().isAscendShow()
+For the description of this property, please see [isAscendShow()](../../com.aspose.cells/pivotfield\#isAscendShow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -807,7 +807,7 @@ public void setAscendSort(boolean value)
 ```
 
 
-For the description of this property, please see \#isAscendSort().isAscendSort()
+For the description of this property, please see [isAscendSort()](../../com.aspose.cells/pivotfield\#isAscendSort--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -820,7 +820,7 @@ public void setAutoShow(boolean value)
 ```
 
 
-For the description of this property, please see \#isAutoShow().isAutoShow()
+For the description of this property, please see [isAutoShow()](../../com.aspose.cells/pivotfield\#isAutoShow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -833,7 +833,7 @@ public void setAutoShowCount(int value)
 ```
 
 
-For the description of this property, please see \#getAutoShowCount().getAutoShowCount()
+For the description of this property, please see [getAutoShowCount()](../../com.aspose.cells/pivotfield\#getAutoShowCount--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -846,7 +846,7 @@ public void setAutoShowField(int value)
 ```
 
 
-For the description of this property, please see \#getAutoShowField().getAutoShowField()
+For the description of this property, please see [getAutoShowField()](../../com.aspose.cells/pivotfield\#getAutoShowField--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -859,7 +859,7 @@ public void setAutoSort(boolean value)
 ```
 
 
-For the description of this property, please see \#isAutoSort().isAutoSort()
+For the description of this property, please see [isAutoSort()](../../com.aspose.cells/pivotfield\#isAutoSort--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -872,7 +872,7 @@ public void setAutoSortField(int value)
 ```
 
 
-For the description of this property, please see \#getAutoSortField().getAutoSortField()
+For the description of this property, please see [getAutoSortField()](../../com.aspose.cells/pivotfield\#getAutoSortField--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -885,7 +885,7 @@ public void setAutoSubtotals(boolean value)
 ```
 
 
-For the description of this property, please see \#isAutoSubtotals().isAutoSubtotals()
+For the description of this property, please see [isAutoSubtotals()](../../com.aspose.cells/pivotfield\#isAutoSubtotals--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -898,7 +898,7 @@ public void setBaseFieldIndex(int value)
 ```
 
 
-For the description of this property, please see \#getBaseFieldIndex().getBaseFieldIndex()
+For the description of this property, please see [getBaseFieldIndex()](../../com.aspose.cells/pivotfield\#getBaseFieldIndex--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -911,7 +911,7 @@ public void setBaseIndex(int value)
 ```
 
 
-For the description of this property, please see \#getBaseIndex().getBaseIndex()
+For the description of this property, please see [getBaseIndex()](../../com.aspose.cells/pivotfield\#getBaseIndex--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -924,7 +924,7 @@ public void setBaseItemIndex(int value)
 ```
 
 
-For the description of this property, please see \#getBaseItemIndex().getBaseItemIndex()
+For the description of this property, please see [getBaseItemIndex()](../../com.aspose.cells/pivotfield\#getBaseItemIndex--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -937,7 +937,7 @@ public void setBaseItemPosition(int value)
 ```
 
 
-For the description of this property, please see \#getBaseItemPosition().getBaseItemPosition()
+For the description of this property, please see [getBaseItemPosition()](../../com.aspose.cells/pivotfield\#getBaseItemPosition--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -950,7 +950,7 @@ public void setCurrentPageItem(short value)
 ```
 
 
-For the description of this property, please see \#getCurrentPageItem().getCurrentPageItem()
+For the description of this property, please see [getCurrentPageItem()](../../com.aspose.cells/pivotfield\#getCurrentPageItem--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -963,7 +963,7 @@ public void setDataDisplayFormat(int value)
 ```
 
 
-For the description of this property, please see \#getDataDisplayFormat().getDataDisplayFormat()
+For the description of this property, please see [getDataDisplayFormat()](../../com.aspose.cells/pivotfield\#getDataDisplayFormat--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -976,7 +976,7 @@ public void setDisplayName(String value)
 ```
 
 
-For the description of this property, please see \#getDisplayName().getDisplayName()
+For the description of this property, please see [getDisplayName()](../../com.aspose.cells/pivotfield\#getDisplayName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -989,7 +989,7 @@ public void setDragToColumn(boolean value)
 ```
 
 
-For the description of this property, please see \#getDragToColumn().getDragToColumn()
+For the description of this property, please see [getDragToColumn()](../../com.aspose.cells/pivotfield\#getDragToColumn--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1002,7 +1002,7 @@ public void setDragToData(boolean value)
 ```
 
 
-For the description of this property, please see \#getDragToData().getDragToData()
+For the description of this property, please see [getDragToData()](../../com.aspose.cells/pivotfield\#getDragToData--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1015,7 +1015,7 @@ public void setDragToHide(boolean value)
 ```
 
 
-For the description of this property, please see \#getDragToHide().getDragToHide()
+For the description of this property, please see [getDragToHide()](../../com.aspose.cells/pivotfield\#getDragToHide--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1028,7 +1028,7 @@ public void setDragToPage(boolean value)
 ```
 
 
-For the description of this property, please see \#getDragToPage().getDragToPage()
+For the description of this property, please see [getDragToPage()](../../com.aspose.cells/pivotfield\#getDragToPage--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1041,7 +1041,7 @@ public void setDragToRow(boolean value)
 ```
 
 
-For the description of this property, please see \#getDragToRow().getDragToRow()
+For the description of this property, please see [getDragToRow()](../../com.aspose.cells/pivotfield\#getDragToRow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1054,7 +1054,7 @@ public void setFunction(int value)
 ```
 
 
-For the description of this property, please see \#getFunction().getFunction()
+For the description of this property, please see [getFunction()](../../com.aspose.cells/pivotfield\#getFunction--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1067,7 +1067,7 @@ public void setIncludeNewItemsInFilter(boolean value)
 ```
 
 
-For the description of this property, please see \#isIncludeNewItemsInFilter().isIncludeNewItemsInFilter()
+For the description of this property, please see [isIncludeNewItemsInFilter()](../../com.aspose.cells/pivotfield\#isIncludeNewItemsInFilter--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1080,7 +1080,7 @@ public void setInsertBlankRow(boolean value)
 ```
 
 
-For the description of this property, please see \#getInsertBlankRow().getInsertBlankRow()
+For the description of this property, please see [getInsertBlankRow()](../../com.aspose.cells/pivotfield\#getInsertBlankRow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1093,7 +1093,7 @@ public void setInsertPageBreaksBetweenItems(boolean value)
 ```
 
 
-For the description of this property, please see \#isInsertPageBreaksBetweenItems().isInsertPageBreaksBetweenItems()
+For the description of this property, please see [isInsertPageBreaksBetweenItems()](../../com.aspose.cells/pivotfield\#isInsertPageBreaksBetweenItems--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1106,7 +1106,7 @@ public void setMultipleItemSelectionAllowed(boolean value)
 ```
 
 
-For the description of this property, please see \#isMultipleItemSelectionAllowed().isMultipleItemSelectionAllowed()
+For the description of this property, please see [isMultipleItemSelectionAllowed()](../../com.aspose.cells/pivotfield\#isMultipleItemSelectionAllowed--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1119,7 +1119,7 @@ public void setNonAutoSortDefault(boolean value)
 ```
 
 
-For the description of this property, please see \#getNonAutoSortDefault().getNonAutoSortDefault()
+For the description of this property, please see [getNonAutoSortDefault()](../../com.aspose.cells/pivotfield\#getNonAutoSortDefault--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1132,7 +1132,7 @@ public void setNumber(int value)
 ```
 
 
-For the description of this property, please see \#getNumber().getNumber()
+For the description of this property, please see [getNumber()](../../com.aspose.cells/pivotfield\#getNumber--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1145,7 +1145,7 @@ public void setNumberFormat(String value)
 ```
 
 
-For the description of this property, please see \#getNumberFormat().getNumberFormat()
+For the description of this property, please see [getNumberFormat()](../../com.aspose.cells/pivotfield\#getNumberFormat--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1158,7 +1158,7 @@ public void setRepeatItemLabels(boolean value)
 ```
 
 
-For the description of this property, please see \#isRepeatItemLabels().isRepeatItemLabels()
+For the description of this property, please see [isRepeatItemLabels()](../../com.aspose.cells/pivotfield\#isRepeatItemLabels--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1171,7 +1171,7 @@ public void setShowAllItems(boolean value)
 ```
 
 
-For the description of this property, please see \#getShowAllItems().getShowAllItems()
+For the description of this property, please see [getShowAllItems()](../../com.aspose.cells/pivotfield\#getShowAllItems--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1184,7 +1184,7 @@ public void setShowCompact(boolean value)
 ```
 
 
-For the description of this property, please see \#getShowCompact().getShowCompact()
+For the description of this property, please see [getShowCompact()](../../com.aspose.cells/pivotfield\#getShowCompact--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1197,7 +1197,7 @@ public void setShowInOutlineForm(boolean value)
 ```
 
 
-For the description of this property, please see \#getShowInOutlineForm().getShowInOutlineForm()
+For the description of this property, please see [getShowInOutlineForm()](../../com.aspose.cells/pivotfield\#getShowInOutlineForm--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1210,7 +1210,7 @@ public void setShowSubtotalAtTop(boolean value)
 ```
 
 
-For the description of this property, please see \#getShowSubtotalAtTop().getShowSubtotalAtTop()
+For the description of this property, please see [getShowSubtotalAtTop()](../../com.aspose.cells/pivotfield\#getShowSubtotalAtTop--)
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -63,9 +63,9 @@ Represents a single column in a worksheet.
 | [isHidden()](#isHidden--) | Indicates whether the column is hidden. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCollapsed(boolean value)](#setCollapsed-boolean-) | For the description of this property, please see \#isCollapsed().isCollapsed() |
-| [setHidden(boolean value)](#setHidden-boolean-) | For the description of this property, please see \#isHidden().isHidden() |
-| [setWidth(double value)](#setWidth-double-) | For the description of this property, please see \#getWidth().getWidth() |
+| [setCollapsed(boolean value)](#setCollapsed-boolean-) | For the description of this property, please see [isCollapsed()](../../com.aspose.cells/column\#isCollapsed--) |
+| [setHidden(boolean value)](#setHidden-boolean-) | For the description of this property, please see [isHidden()](../../com.aspose.cells/column\#isHidden--) |
+| [setWidth(double value)](#setWidth-double-) | For the description of this property, please see [getWidth()](../../com.aspose.cells/column\#getWidth--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -201,7 +201,7 @@ public void setCollapsed(boolean value)
 ```
 
 
-For the description of this property, please see \#isCollapsed().isCollapsed()
+For the description of this property, please see [isCollapsed()](../../com.aspose.cells/column\#isCollapsed--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -214,7 +214,7 @@ public void setHidden(boolean value)
 ```
 
 
-For the description of this property, please see \#isHidden().isHidden()
+For the description of this property, please see [isHidden()](../../com.aspose.cells/column\#isHidden--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -227,7 +227,7 @@ public void setWidth(double value)
 ```
 
 
-For the description of this property, please see \#getWidth().getWidth()
+For the description of this property, please see [getWidth()](../../com.aspose.cells/column\#getWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |

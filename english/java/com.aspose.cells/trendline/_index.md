@@ -115,36 +115,36 @@ Represents a trendline in a chart.
 | [isVisible()](#isVisible--) | Represents whether the line is visible. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAuto(boolean value)](#setAuto-boolean-) | For the description of this property, please see \#isAuto().isAuto() |
-| [setBackward(double value)](#setBackward-double-) | For the description of this property, please see \#getBackward().getBackward() |
-| [setBeginArrowLength(int value)](#setBeginArrowLength-int-) | For the description of this property, please see \#getBeginArrowLength().getBeginArrowLength() |
-| [setBeginArrowWidth(int value)](#setBeginArrowWidth-int-) | For the description of this property, please see \#getBeginArrowWidth().getBeginArrowWidth() |
-| [setBeginType(int value)](#setBeginType-int-) | For the description of this property, please see \#getBeginType().getBeginType() |
-| [setCapType(int value)](#setCapType-int-) | For the description of this property, please see \#getCapType().getCapType() |
-| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | For the description of this property, please see \#getColor().getColor() |
-| [setCompoundType(int value)](#setCompoundType-int-) | For the description of this property, please see \#getCompoundType().getCompoundType() |
-| [setDashType(int value)](#setDashType-int-) | For the description of this property, please see \#getDashType().getDashType() |
-| [setDisplayEquation(boolean value)](#setDisplayEquation-boolean-) | For the description of this property, please see \#getDisplayEquation().getDisplayEquation() |
-| [setDisplayRSquared(boolean value)](#setDisplayRSquared-boolean-) | For the description of this property, please see \#getDisplayRSquared().getDisplayRSquared() |
-| [setEndArrowLength(int value)](#setEndArrowLength-int-) | For the description of this property, please see \#getEndArrowLength().getEndArrowLength() |
-| [setEndArrowWidth(int value)](#setEndArrowWidth-int-) | For the description of this property, please see \#getEndArrowWidth().getEndArrowWidth() |
-| [setEndType(int value)](#setEndType-int-) | For the description of this property, please see \#getEndType().getEndType() |
-| [setFormattingType(int value)](#setFormattingType-int-) | For the description of this property, please see \#getFormattingType().getFormattingType() |
-| [setForward(double value)](#setForward-double-) | For the description of this property, please see \#getForward().getForward() |
-| [setIntercept(double value)](#setIntercept-double-) | For the description of this property, please see \#getIntercept().getIntercept() |
+| [setAuto(boolean value)](#setAuto-boolean-) | For the description of this property, please see [isAuto()](../../com.aspose.cells/line\#isAuto--) |
+| [setBackward(double value)](#setBackward-double-) | For the description of this property, please see [getBackward()](../../com.aspose.cells/trendline\#getBackward--) |
+| [setBeginArrowLength(int value)](#setBeginArrowLength-int-) | For the description of this property, please see [getBeginArrowLength()](../../com.aspose.cells/line\#getBeginArrowLength--) |
+| [setBeginArrowWidth(int value)](#setBeginArrowWidth-int-) | For the description of this property, please see [getBeginArrowWidth()](../../com.aspose.cells/line\#getBeginArrowWidth--) |
+| [setBeginType(int value)](#setBeginType-int-) | For the description of this property, please see [getBeginType()](../../com.aspose.cells/line\#getBeginType--) |
+| [setCapType(int value)](#setCapType-int-) | For the description of this property, please see [getCapType()](../../com.aspose.cells/line\#getCapType--) |
+| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | For the description of this property, please see [getColor()](../../com.aspose.cells/line\#getColor--) |
+| [setCompoundType(int value)](#setCompoundType-int-) | For the description of this property, please see [getCompoundType()](../../com.aspose.cells/line\#getCompoundType--) |
+| [setDashType(int value)](#setDashType-int-) | For the description of this property, please see [getDashType()](../../com.aspose.cells/line\#getDashType--) |
+| [setDisplayEquation(boolean value)](#setDisplayEquation-boolean-) | For the description of this property, please see [getDisplayEquation()](../../com.aspose.cells/trendline\#getDisplayEquation--) |
+| [setDisplayRSquared(boolean value)](#setDisplayRSquared-boolean-) | For the description of this property, please see [getDisplayRSquared()](../../com.aspose.cells/trendline\#getDisplayRSquared--) |
+| [setEndArrowLength(int value)](#setEndArrowLength-int-) | For the description of this property, please see [getEndArrowLength()](../../com.aspose.cells/line\#getEndArrowLength--) |
+| [setEndArrowWidth(int value)](#setEndArrowWidth-int-) | For the description of this property, please see [getEndArrowWidth()](../../com.aspose.cells/line\#getEndArrowWidth--) |
+| [setEndType(int value)](#setEndType-int-) | For the description of this property, please see [getEndType()](../../com.aspose.cells/line\#getEndType--) |
+| [setFormattingType(int value)](#setFormattingType-int-) | For the description of this property, please see [getFormattingType()](../../com.aspose.cells/line\#getFormattingType--) |
+| [setForward(double value)](#setForward-double-) | For the description of this property, please see [getForward()](../../com.aspose.cells/trendline\#getForward--) |
+| [setIntercept(double value)](#setIntercept-double-) | For the description of this property, please see [getIntercept()](../../com.aspose.cells/trendline\#getIntercept--) |
 | [setInterceptAuto(boolean isInterceptAuto)](#setInterceptAuto-boolean-) | Sets whether Microsoft Workbook automatically determines the intercept of the trendline. |
-| [setJoinType(int value)](#setJoinType-int-) | For the description of this property, please see \#getJoinType().getJoinType() |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
-| [setNameAuto(boolean value)](#setNameAuto-boolean-) | For the description of this property, please see \#isNameAuto().isNameAuto() |
-| [setOrder(int value)](#setOrder-int-) | For the description of this property, please see \#getOrder().getOrder() |
-| [setPeriod(int value)](#setPeriod-int-) | For the description of this property, please see \#getPeriod().getPeriod() |
-| [setStyle(int value)](#setStyle-int-) | For the description of this property, please see \#getStyle().getStyle() |
-| [setThemeColor(ThemeColor value)](#setThemeColor-com.aspose.cells.ThemeColor-) | For the description of this property, please see \#getThemeColor().getThemeColor() |
-| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see \#getTransparency().getTransparency() |
-| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see \#isVisible().isVisible() |
-| [setWeight(int value)](#setWeight-int-) | For the description of this property, please see \#getWeight().getWeight() |
-| [setWeightPt(double value)](#setWeightPt-double-) | For the description of this property, please see \#getWeightPt().getWeightPt() |
-| [setWeightPx(double value)](#setWeightPx-double-) | For the description of this property, please see \#getWeightPx().getWeightPx() |
+| [setJoinType(int value)](#setJoinType-int-) | For the description of this property, please see [getJoinType()](../../com.aspose.cells/line\#getJoinType--) |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/trendline\#getName--) |
+| [setNameAuto(boolean value)](#setNameAuto-boolean-) | For the description of this property, please see [isNameAuto()](../../com.aspose.cells/trendline\#isNameAuto--) |
+| [setOrder(int value)](#setOrder-int-) | For the description of this property, please see [getOrder()](../../com.aspose.cells/trendline\#getOrder--) |
+| [setPeriod(int value)](#setPeriod-int-) | For the description of this property, please see [getPeriod()](../../com.aspose.cells/trendline\#getPeriod--) |
+| [setStyle(int value)](#setStyle-int-) | For the description of this property, please see [getStyle()](../../com.aspose.cells/line\#getStyle--) |
+| [setThemeColor(ThemeColor value)](#setThemeColor-com.aspose.cells.ThemeColor-) | For the description of this property, please see [getThemeColor()](../../com.aspose.cells/line\#getThemeColor--) |
+| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see [getTransparency()](../../com.aspose.cells/line\#getTransparency--) |
+| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see [isVisible()](../../com.aspose.cells/line\#isVisible--) |
+| [setWeight(int value)](#setWeight-int-) | For the description of this property, please see [getWeight()](../../com.aspose.cells/line\#getWeight--) |
+| [setWeightPt(double value)](#setWeightPt-double-) | For the description of this property, please see [getWeightPt()](../../com.aspose.cells/line\#getWeightPt--) |
+| [setWeightPx(double value)](#setWeightPx-double-) | For the description of this property, please see [getWeightPx()](../../com.aspose.cells/line\#getWeightPx--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -562,7 +562,7 @@ public void setAuto(boolean value)
 ```
 
 
-For the description of this property, please see \#isAuto().isAuto()
+For the description of this property, please see [isAuto()](../../com.aspose.cells/line\#isAuto--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -575,7 +575,7 @@ public void setBackward(double value)
 ```
 
 
-For the description of this property, please see \#getBackward().getBackward()
+For the description of this property, please see [getBackward()](../../com.aspose.cells/trendline\#getBackward--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -588,7 +588,7 @@ public void setBeginArrowLength(int value)
 ```
 
 
-For the description of this property, please see \#getBeginArrowLength().getBeginArrowLength()
+For the description of this property, please see [getBeginArrowLength()](../../com.aspose.cells/line\#getBeginArrowLength--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -601,7 +601,7 @@ public void setBeginArrowWidth(int value)
 ```
 
 
-For the description of this property, please see \#getBeginArrowWidth().getBeginArrowWidth()
+For the description of this property, please see [getBeginArrowWidth()](../../com.aspose.cells/line\#getBeginArrowWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -614,7 +614,7 @@ public void setBeginType(int value)
 ```
 
 
-For the description of this property, please see \#getBeginType().getBeginType()
+For the description of this property, please see [getBeginType()](../../com.aspose.cells/line\#getBeginType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -627,7 +627,7 @@ public void setCapType(int value)
 ```
 
 
-For the description of this property, please see \#getCapType().getCapType()
+For the description of this property, please see [getCapType()](../../com.aspose.cells/line\#getCapType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -640,7 +640,7 @@ public void setColor(Color value)
 ```
 
 
-For the description of this property, please see \#getColor().getColor()
+For the description of this property, please see [getColor()](../../com.aspose.cells/line\#getColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -653,7 +653,7 @@ public void setCompoundType(int value)
 ```
 
 
-For the description of this property, please see \#getCompoundType().getCompoundType()
+For the description of this property, please see [getCompoundType()](../../com.aspose.cells/line\#getCompoundType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -666,7 +666,7 @@ public void setDashType(int value)
 ```
 
 
-For the description of this property, please see \#getDashType().getDashType()
+For the description of this property, please see [getDashType()](../../com.aspose.cells/line\#getDashType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -679,7 +679,7 @@ public void setDisplayEquation(boolean value)
 ```
 
 
-For the description of this property, please see \#getDisplayEquation().getDisplayEquation()
+For the description of this property, please see [getDisplayEquation()](../../com.aspose.cells/trendline\#getDisplayEquation--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -692,7 +692,7 @@ public void setDisplayRSquared(boolean value)
 ```
 
 
-For the description of this property, please see \#getDisplayRSquared().getDisplayRSquared()
+For the description of this property, please see [getDisplayRSquared()](../../com.aspose.cells/trendline\#getDisplayRSquared--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -705,7 +705,7 @@ public void setEndArrowLength(int value)
 ```
 
 
-For the description of this property, please see \#getEndArrowLength().getEndArrowLength()
+For the description of this property, please see [getEndArrowLength()](../../com.aspose.cells/line\#getEndArrowLength--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -718,7 +718,7 @@ public void setEndArrowWidth(int value)
 ```
 
 
-For the description of this property, please see \#getEndArrowWidth().getEndArrowWidth()
+For the description of this property, please see [getEndArrowWidth()](../../com.aspose.cells/line\#getEndArrowWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -731,7 +731,7 @@ public void setEndType(int value)
 ```
 
 
-For the description of this property, please see \#getEndType().getEndType()
+For the description of this property, please see [getEndType()](../../com.aspose.cells/line\#getEndType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -744,7 +744,7 @@ public void setFormattingType(int value)
 ```
 
 
-For the description of this property, please see \#getFormattingType().getFormattingType()
+For the description of this property, please see [getFormattingType()](../../com.aspose.cells/line\#getFormattingType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -757,7 +757,7 @@ public void setForward(double value)
 ```
 
 
-For the description of this property, please see \#getForward().getForward()
+For the description of this property, please see [getForward()](../../com.aspose.cells/trendline\#getForward--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -770,7 +770,7 @@ public void setIntercept(double value)
 ```
 
 
-For the description of this property, please see \#getIntercept().getIntercept()
+For the description of this property, please see [getIntercept()](../../com.aspose.cells/trendline\#getIntercept--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -796,7 +796,7 @@ public void setJoinType(int value)
 ```
 
 
-For the description of this property, please see \#getJoinType().getJoinType()
+For the description of this property, please see [getJoinType()](../../com.aspose.cells/line\#getJoinType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -809,7 +809,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see \#getName().getName()
+For the description of this property, please see [getName()](../../com.aspose.cells/trendline\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -822,7 +822,7 @@ public void setNameAuto(boolean value)
 ```
 
 
-For the description of this property, please see \#isNameAuto().isNameAuto()
+For the description of this property, please see [isNameAuto()](../../com.aspose.cells/trendline\#isNameAuto--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -835,7 +835,7 @@ public void setOrder(int value)
 ```
 
 
-For the description of this property, please see \#getOrder().getOrder()
+For the description of this property, please see [getOrder()](../../com.aspose.cells/trendline\#getOrder--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -848,7 +848,7 @@ public void setPeriod(int value)
 ```
 
 
-For the description of this property, please see \#getPeriod().getPeriod()
+For the description of this property, please see [getPeriod()](../../com.aspose.cells/trendline\#getPeriod--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -861,7 +861,7 @@ public void setStyle(int value)
 ```
 
 
-For the description of this property, please see \#getStyle().getStyle()
+For the description of this property, please see [getStyle()](../../com.aspose.cells/line\#getStyle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -874,7 +874,7 @@ public void setThemeColor(ThemeColor value)
 ```
 
 
-For the description of this property, please see \#getThemeColor().getThemeColor()
+For the description of this property, please see [getThemeColor()](../../com.aspose.cells/line\#getThemeColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -887,7 +887,7 @@ public void setTransparency(double value)
 ```
 
 
-For the description of this property, please see \#getTransparency().getTransparency()
+For the description of this property, please see [getTransparency()](../../com.aspose.cells/line\#getTransparency--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -900,7 +900,7 @@ public void setVisible(boolean value)
 ```
 
 
-For the description of this property, please see \#isVisible().isVisible()
+For the description of this property, please see [isVisible()](../../com.aspose.cells/line\#isVisible--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -913,7 +913,7 @@ public void setWeight(int value)
 ```
 
 
-For the description of this property, please see \#getWeight().getWeight()
+For the description of this property, please see [getWeight()](../../com.aspose.cells/line\#getWeight--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -926,7 +926,7 @@ public void setWeightPt(double value)
 ```
 
 
-For the description of this property, please see \#getWeightPt().getWeightPt()
+For the description of this property, please see [getWeightPt()](../../com.aspose.cells/line\#getWeightPt--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -939,7 +939,7 @@ public void setWeightPx(double value)
 ```
 
 
-For the description of this property, please see \#getWeightPx().getWeightPx()
+For the description of this property, please see [getWeightPx()](../../com.aspose.cells/line\#getWeightPx--)
 
 **Parameters:**
 | Parameter | Type | Description |

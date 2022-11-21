@@ -54,30 +54,30 @@ Represents the options of saving sql.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAddBlankLineBetweenRows(boolean value)](#setAddBlankLineBetweenRows-boolean-) | For the description of this property, please see \#getAddBlankLineBetweenRows().getAddBlankLineBetweenRows() |
-| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | For the description of this property, please see \#getCachedFileFolder().getCachedFileFolder() |
-| [setCheckAllDataForColumnType(boolean value)](#setCheckAllDataForColumnType-boolean-) | For the description of this property, please see \#getCheckAllDataForColumnType().getCheckAllDataForColumnType() |
-| [setCheckIfTableExists(boolean value)](#setCheckIfTableExists-boolean-) | For the description of this property, please see \#getCheckIfTableExists().getCheckIfTableExists() |
-| [setClearData(boolean value)](#setClearData-boolean-) | For the description of this property, please see \#getClearData().getClearData() |
-| [setColumnTypeMap(SqlScriptColumnTypeMap value)](#setColumnTypeMap-com.aspose.cells.SqlScriptColumnTypeMap-) | For the description of this property, please see \#getColumnTypeMap().getColumnTypeMap() |
-| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | For the description of this property, please see \#getCreateDirectory().getCreateDirectory() |
-| [setCreateTable(boolean value)](#setCreateTable-boolean-) | For the description of this property, please see \#getCreateTable().getCreateTable() |
-| [setExportArea(CellArea value)](#setExportArea-com.aspose.cells.CellArea-) | For the description of this property, please see \#getExportArea().getExportArea() |
-| [setExportAsString(boolean value)](#setExportAsString-boolean-) | For the description of this property, please see \#getExportAsString().getExportAsString() |
-| [setHasHeaderRow(boolean value)](#setHasHeaderRow-boolean-) | For the description of this property, please see \#hasHeaderRow().hasHeaderRow() |
-| [setIdName(String value)](#setIdName-java.lang.String-) | For the description of this property, please see \#getIdName().getIdName() |
-| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | For the description of this property, please see \#getMergeAreas().getMergeAreas() |
-| [setOperatorType(int value)](#setOperatorType-int-) | For the description of this property, please see \#getOperatorType().getOperatorType() |
-| [setPrimaryKey(int value)](#setPrimaryKey-int-) | For the description of this property, please see \#getPrimaryKey().getPrimaryKey() |
-| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | For the description of this property, please see \#getRefreshChartCache().getRefreshChartCache() |
-| [setSeparator(char value)](#setSeparator-char-) | For the description of this property, please see \#getSeparator().getSeparator() |
-| [setSheetIndexes(int[] value)](#setSheetIndexes-int---) | For the description of this property, please see \#getSheetIndexes().getSheetIndexes() |
-| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | For the description of this property, please see \#getSortExternalNames().getSortExternalNames() |
-| [setSortNames(boolean value)](#setSortNames-boolean-) | For the description of this property, please see \#getSortNames().getSortNames() |
-| [setStartId(int value)](#setStartId-int-) | For the description of this property, please see \#getStartId().getStartId() |
-| [setTableName(String value)](#setTableName-java.lang.String-) | For the description of this property, please see \#getTableName().getTableName() |
-| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | For the description of this property, please see \#getUpdateSmartArt().getUpdateSmartArt() |
-| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | For the description of this property, please see \#getValidateMergedAreas().getValidateMergedAreas() |
+| [setAddBlankLineBetweenRows(boolean value)](#setAddBlankLineBetweenRows-boolean-) | For the description of this property, please see [getAddBlankLineBetweenRows()](../../com.aspose.cells/sqlscriptsaveoptions\#getAddBlankLineBetweenRows--) |
+| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | For the description of this property, please see [getCachedFileFolder()](../../com.aspose.cells/saveoptions\#getCachedFileFolder--) |
+| [setCheckAllDataForColumnType(boolean value)](#setCheckAllDataForColumnType-boolean-) | For the description of this property, please see [getCheckAllDataForColumnType()](../../com.aspose.cells/sqlscriptsaveoptions\#getCheckAllDataForColumnType--) |
+| [setCheckIfTableExists(boolean value)](#setCheckIfTableExists-boolean-) | For the description of this property, please see [getCheckIfTableExists()](../../com.aspose.cells/sqlscriptsaveoptions\#getCheckIfTableExists--) |
+| [setClearData(boolean value)](#setClearData-boolean-) | For the description of this property, please see [getClearData()](../../com.aspose.cells/saveoptions\#getClearData--) |
+| [setColumnTypeMap(SqlScriptColumnTypeMap value)](#setColumnTypeMap-com.aspose.cells.SqlScriptColumnTypeMap-) | For the description of this property, please see [getColumnTypeMap()](../../com.aspose.cells/sqlscriptsaveoptions\#getColumnTypeMap--) |
+| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | For the description of this property, please see [getCreateDirectory()](../../com.aspose.cells/saveoptions\#getCreateDirectory--) |
+| [setCreateTable(boolean value)](#setCreateTable-boolean-) | For the description of this property, please see [getCreateTable()](../../com.aspose.cells/sqlscriptsaveoptions\#getCreateTable--) |
+| [setExportArea(CellArea value)](#setExportArea-com.aspose.cells.CellArea-) | For the description of this property, please see [getExportArea()](../../com.aspose.cells/sqlscriptsaveoptions\#getExportArea--) |
+| [setExportAsString(boolean value)](#setExportAsString-boolean-) | For the description of this property, please see [getExportAsString()](../../com.aspose.cells/sqlscriptsaveoptions\#getExportAsString--) |
+| [setHasHeaderRow(boolean value)](#setHasHeaderRow-boolean-) | For the description of this property, please see [hasHeaderRow()](../../com.aspose.cells/sqlscriptsaveoptions\#hasHeaderRow--) |
+| [setIdName(String value)](#setIdName-java.lang.String-) | For the description of this property, please see [getIdName()](../../com.aspose.cells/sqlscriptsaveoptions\#getIdName--) |
+| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | For the description of this property, please see [getMergeAreas()](../../com.aspose.cells/saveoptions\#getMergeAreas--) |
+| [setOperatorType(int value)](#setOperatorType-int-) | For the description of this property, please see [getOperatorType()](../../com.aspose.cells/sqlscriptsaveoptions\#getOperatorType--) |
+| [setPrimaryKey(int value)](#setPrimaryKey-int-) | For the description of this property, please see [getPrimaryKey()](../../com.aspose.cells/sqlscriptsaveoptions\#getPrimaryKey--) |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | For the description of this property, please see [getRefreshChartCache()](../../com.aspose.cells/saveoptions\#getRefreshChartCache--) |
+| [setSeparator(char value)](#setSeparator-char-) | For the description of this property, please see [getSeparator()](../../com.aspose.cells/sqlscriptsaveoptions\#getSeparator--) |
+| [setSheetIndexes(int[] value)](#setSheetIndexes-int---) | For the description of this property, please see [getSheetIndexes()](../../com.aspose.cells/sqlscriptsaveoptions\#getSheetIndexes--) |
+| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | For the description of this property, please see [getSortExternalNames()](../../com.aspose.cells/saveoptions\#getSortExternalNames--) |
+| [setSortNames(boolean value)](#setSortNames-boolean-) | For the description of this property, please see [getSortNames()](../../com.aspose.cells/saveoptions\#getSortNames--) |
+| [setStartId(int value)](#setStartId-int-) | For the description of this property, please see [getStartId()](../../com.aspose.cells/sqlscriptsaveoptions\#getStartId--) |
+| [setTableName(String value)](#setTableName-java.lang.String-) | For the description of this property, please see [getTableName()](../../com.aspose.cells/sqlscriptsaveoptions\#getTableName--) |
+| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | For the description of this property, please see [getUpdateSmartArt()](../../com.aspose.cells/saveoptions\#getUpdateSmartArt--) |
+| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | For the description of this property, please see [getValidateMergedAreas()](../../com.aspose.cells/saveoptions\#getValidateMergedAreas--) |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -408,7 +408,7 @@ public void setAddBlankLineBetweenRows(boolean value)
 ```
 
 
-For the description of this property, please see \#getAddBlankLineBetweenRows().getAddBlankLineBetweenRows()
+For the description of this property, please see [getAddBlankLineBetweenRows()](../../com.aspose.cells/sqlscriptsaveoptions\#getAddBlankLineBetweenRows--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -421,7 +421,7 @@ public void setCachedFileFolder(String value)
 ```
 
 
-For the description of this property, please see \#getCachedFileFolder().getCachedFileFolder()
+For the description of this property, please see [getCachedFileFolder()](../../com.aspose.cells/saveoptions\#getCachedFileFolder--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -434,7 +434,7 @@ public void setCheckAllDataForColumnType(boolean value)
 ```
 
 
-For the description of this property, please see \#getCheckAllDataForColumnType().getCheckAllDataForColumnType()
+For the description of this property, please see [getCheckAllDataForColumnType()](../../com.aspose.cells/sqlscriptsaveoptions\#getCheckAllDataForColumnType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -447,7 +447,7 @@ public void setCheckIfTableExists(boolean value)
 ```
 
 
-For the description of this property, please see \#getCheckIfTableExists().getCheckIfTableExists()
+For the description of this property, please see [getCheckIfTableExists()](../../com.aspose.cells/sqlscriptsaveoptions\#getCheckIfTableExists--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -460,7 +460,7 @@ public void setClearData(boolean value)
 ```
 
 
-For the description of this property, please see \#getClearData().getClearData()
+For the description of this property, please see [getClearData()](../../com.aspose.cells/saveoptions\#getClearData--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -473,7 +473,7 @@ public void setColumnTypeMap(SqlScriptColumnTypeMap value)
 ```
 
 
-For the description of this property, please see \#getColumnTypeMap().getColumnTypeMap()
+For the description of this property, please see [getColumnTypeMap()](../../com.aspose.cells/sqlscriptsaveoptions\#getColumnTypeMap--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -486,7 +486,7 @@ public void setCreateDirectory(boolean value)
 ```
 
 
-For the description of this property, please see \#getCreateDirectory().getCreateDirectory()
+For the description of this property, please see [getCreateDirectory()](../../com.aspose.cells/saveoptions\#getCreateDirectory--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -499,7 +499,7 @@ public void setCreateTable(boolean value)
 ```
 
 
-For the description of this property, please see \#getCreateTable().getCreateTable()
+For the description of this property, please see [getCreateTable()](../../com.aspose.cells/sqlscriptsaveoptions\#getCreateTable--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -512,7 +512,7 @@ public void setExportArea(CellArea value)
 ```
 
 
-For the description of this property, please see \#getExportArea().getExportArea()
+For the description of this property, please see [getExportArea()](../../com.aspose.cells/sqlscriptsaveoptions\#getExportArea--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -525,7 +525,7 @@ public void setExportAsString(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportAsString().getExportAsString()
+For the description of this property, please see [getExportAsString()](../../com.aspose.cells/sqlscriptsaveoptions\#getExportAsString--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -538,7 +538,7 @@ public void setHasHeaderRow(boolean value)
 ```
 
 
-For the description of this property, please see \#hasHeaderRow().hasHeaderRow()
+For the description of this property, please see [hasHeaderRow()](../../com.aspose.cells/sqlscriptsaveoptions\#hasHeaderRow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -551,7 +551,7 @@ public void setIdName(String value)
 ```
 
 
-For the description of this property, please see \#getIdName().getIdName()
+For the description of this property, please see [getIdName()](../../com.aspose.cells/sqlscriptsaveoptions\#getIdName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -564,7 +564,7 @@ public void setMergeAreas(boolean value)
 ```
 
 
-For the description of this property, please see \#getMergeAreas().getMergeAreas()
+For the description of this property, please see [getMergeAreas()](../../com.aspose.cells/saveoptions\#getMergeAreas--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -577,7 +577,7 @@ public void setOperatorType(int value)
 ```
 
 
-For the description of this property, please see \#getOperatorType().getOperatorType()
+For the description of this property, please see [getOperatorType()](../../com.aspose.cells/sqlscriptsaveoptions\#getOperatorType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -590,7 +590,7 @@ public void setPrimaryKey(int value)
 ```
 
 
-For the description of this property, please see \#getPrimaryKey().getPrimaryKey()
+For the description of this property, please see [getPrimaryKey()](../../com.aspose.cells/sqlscriptsaveoptions\#getPrimaryKey--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -603,7 +603,7 @@ public void setRefreshChartCache(boolean value)
 ```
 
 
-For the description of this property, please see \#getRefreshChartCache().getRefreshChartCache()
+For the description of this property, please see [getRefreshChartCache()](../../com.aspose.cells/saveoptions\#getRefreshChartCache--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -616,7 +616,7 @@ public void setSeparator(char value)
 ```
 
 
-For the description of this property, please see \#getSeparator().getSeparator()
+For the description of this property, please see [getSeparator()](../../com.aspose.cells/sqlscriptsaveoptions\#getSeparator--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -629,7 +629,7 @@ public void setSheetIndexes(int[] value)
 ```
 
 
-For the description of this property, please see \#getSheetIndexes().getSheetIndexes()
+For the description of this property, please see [getSheetIndexes()](../../com.aspose.cells/sqlscriptsaveoptions\#getSheetIndexes--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -642,7 +642,7 @@ public void setSortExternalNames(boolean value)
 ```
 
 
-For the description of this property, please see \#getSortExternalNames().getSortExternalNames()
+For the description of this property, please see [getSortExternalNames()](../../com.aspose.cells/saveoptions\#getSortExternalNames--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -655,7 +655,7 @@ public void setSortNames(boolean value)
 ```
 
 
-For the description of this property, please see \#getSortNames().getSortNames()
+For the description of this property, please see [getSortNames()](../../com.aspose.cells/saveoptions\#getSortNames--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -668,7 +668,7 @@ public void setStartId(int value)
 ```
 
 
-For the description of this property, please see \#getStartId().getStartId()
+For the description of this property, please see [getStartId()](../../com.aspose.cells/sqlscriptsaveoptions\#getStartId--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -681,7 +681,7 @@ public void setTableName(String value)
 ```
 
 
-For the description of this property, please see \#getTableName().getTableName()
+For the description of this property, please see [getTableName()](../../com.aspose.cells/sqlscriptsaveoptions\#getTableName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -694,7 +694,7 @@ public void setUpdateSmartArt(boolean value)
 ```
 
 
-For the description of this property, please see \#getUpdateSmartArt().getUpdateSmartArt()
+For the description of this property, please see [getUpdateSmartArt()](../../com.aspose.cells/saveoptions\#getUpdateSmartArt--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -707,7 +707,7 @@ public void setValidateMergedAreas(boolean value)
 ```
 
 
-For the description of this property, please see \#getValidateMergedAreas().getValidateMergedAreas()
+For the description of this property, please see [getValidateMergedAreas()](../../com.aspose.cells/saveoptions\#getValidateMergedAreas--)
 
 **Parameters:**
 | Parameter | Type | Description |

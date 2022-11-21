@@ -38,7 +38,7 @@ Represents the multiple filter collection.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeAt(int index)](#removeAt-int-) | Removes the item at the specified index. |
-| [setMatchBlank(boolean value)](#setMatchBlank-boolean-) | For the description of this property, please see \#getMatchBlank().getMatchBlank() |
+| [setMatchBlank(boolean value)](#setMatchBlank-boolean-) | For the description of this property, please see [getMatchBlank()](../../com.aspose.cells/multiplefiltercollection\#getMatchBlank--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -230,7 +230,7 @@ public void setMatchBlank(boolean value)
 ```
 
 
-For the description of this property, please see \#getMatchBlank().getMatchBlank()
+For the description of this property, please see [getMatchBlank()](../../com.aspose.cells/multiplefiltercollection\#getMatchBlank--)
 
 **Parameters:**
 | Parameter | Type | Description |

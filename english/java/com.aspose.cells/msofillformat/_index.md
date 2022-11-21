@@ -29,12 +29,12 @@ Represents fill formatting for a shape.
 | [isVisible()](#isVisible--) | Indicates whether there is fill. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBackColor(Color value)](#setBackColor-com.aspose.cells.Color-) | For the description of this property, please see \#getBackColor().getBackColor() |
-| [setForeColor(Color value)](#setForeColor-com.aspose.cells.Color-) | For the description of this property, please see \#getForeColor().getForeColor() |
-| [setImageData(byte[] value)](#setImageData-byte---) | For the description of this property, please see \#getImageData().getImageData() |
+| [setBackColor(Color value)](#setBackColor-com.aspose.cells.Color-) | For the description of this property, please see [getBackColor()](../../com.aspose.cells/msofillformat\#getBackColor--) |
+| [setForeColor(Color value)](#setForeColor-com.aspose.cells.Color-) | For the description of this property, please see [getForeColor()](../../com.aspose.cells/msofillformat\#getForeColor--) |
+| [setImageData(byte[] value)](#setImageData-byte---) | For the description of this property, please see [getImageData()](../../com.aspose.cells/msofillformat\#getImageData--) |
 | [setOneColorGradient(Color color, double degree, int style, int variant)](#setOneColorGradient-com.aspose.cells.Color-double-int-int-) | Sets the specified fill to a one-color gradient. |
-| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see \#getTransparency().getTransparency() |
-| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see \#isVisible().isVisible() |
+| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see [getTransparency()](../../com.aspose.cells/msofillformat\#getTransparency--) |
+| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see [isVisible()](../../com.aspose.cells/msofillformat\#isVisible--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -156,7 +156,7 @@ public void setBackColor(Color value)
 ```
 
 
-For the description of this property, please see \#getBackColor().getBackColor()
+For the description of this property, please see [getBackColor()](../../com.aspose.cells/msofillformat\#getBackColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -169,7 +169,7 @@ public void setForeColor(Color value)
 ```
 
 
-For the description of this property, please see \#getForeColor().getForeColor()
+For the description of this property, please see [getForeColor()](../../com.aspose.cells/msofillformat\#getForeColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -182,7 +182,7 @@ public void setImageData(byte[] value)
 ```
 
 
-For the description of this property, please see \#getImageData().getImageData()
+For the description of this property, please see [getImageData()](../../com.aspose.cells/msofillformat\#getImageData--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -211,7 +211,7 @@ public void setTransparency(double value)
 ```
 
 
-For the description of this property, please see \#getTransparency().getTransparency()
+For the description of this property, please see [getTransparency()](../../com.aspose.cells/msofillformat\#getTransparency--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -224,7 +224,7 @@ public void setVisible(boolean value)
 ```
 
 
-For the description of this property, please see \#isVisible().isVisible()
+For the description of this property, please see [isVisible()](../../com.aspose.cells/msofillformat\#isVisible--)
 
 **Parameters:**
 | Parameter | Type | Description |

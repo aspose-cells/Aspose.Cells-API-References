@@ -30,12 +30,12 @@ Represents the page background of ods.
 | [isLink()](#isLink--) | Indicates whether it's a linked graphic. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | For the description of this property, please see \#getColor().getColor() |
-| [setGraphicData(byte[] value)](#setGraphicData-byte---) | For the description of this property, please see \#getGraphicData().getGraphicData() |
-| [setGraphicPositionType(int value)](#setGraphicPositionType-int-) | For the description of this property, please see \#getGraphicPositionType().getGraphicPositionType() |
-| [setGraphicType(int value)](#setGraphicType-int-) | For the description of this property, please see \#getGraphicType().getGraphicType() |
-| [setLinkedGraphic(String value)](#setLinkedGraphic-java.lang.String-) | For the description of this property, please see \#getLinkedGraphic().getLinkedGraphic() |
-| [setType(int value)](#setType-int-) | For the description of this property, please see \#getType().getType() |
+| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | For the description of this property, please see [getColor()](../../com.aspose.cells/odspagebackground\#getColor--) |
+| [setGraphicData(byte[] value)](#setGraphicData-byte---) | For the description of this property, please see [getGraphicData()](../../com.aspose.cells/odspagebackground\#getGraphicData--) |
+| [setGraphicPositionType(int value)](#setGraphicPositionType-int-) | For the description of this property, please see [getGraphicPositionType()](../../com.aspose.cells/odspagebackground\#getGraphicPositionType--) |
+| [setGraphicType(int value)](#setGraphicType-int-) | For the description of this property, please see [getGraphicType()](../../com.aspose.cells/odspagebackground\#getGraphicType--) |
+| [setLinkedGraphic(String value)](#setLinkedGraphic-java.lang.String-) | For the description of this property, please see [getLinkedGraphic()](../../com.aspose.cells/odspagebackground\#getLinkedGraphic--) |
+| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/odspagebackground\#getType--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -167,7 +167,7 @@ public void setColor(Color value)
 ```
 
 
-For the description of this property, please see \#getColor().getColor()
+For the description of this property, please see [getColor()](../../com.aspose.cells/odspagebackground\#getColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -180,7 +180,7 @@ public void setGraphicData(byte[] value)
 ```
 
 
-For the description of this property, please see \#getGraphicData().getGraphicData()
+For the description of this property, please see [getGraphicData()](../../com.aspose.cells/odspagebackground\#getGraphicData--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,7 +193,7 @@ public void setGraphicPositionType(int value)
 ```
 
 
-For the description of this property, please see \#getGraphicPositionType().getGraphicPositionType()
+For the description of this property, please see [getGraphicPositionType()](../../com.aspose.cells/odspagebackground\#getGraphicPositionType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -206,7 +206,7 @@ public void setGraphicType(int value)
 ```
 
 
-For the description of this property, please see \#getGraphicType().getGraphicType()
+For the description of this property, please see [getGraphicType()](../../com.aspose.cells/odspagebackground\#getGraphicType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -219,7 +219,7 @@ public void setLinkedGraphic(String value)
 ```
 
 
-For the description of this property, please see \#getLinkedGraphic().getLinkedGraphic()
+For the description of this property, please see [getLinkedGraphic()](../../com.aspose.cells/odspagebackground\#getLinkedGraphic--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -232,7 +232,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see \#getType().getType()
+For the description of this property, please see [getType()](../../com.aspose.cells/odspagebackground\#getType--)
 
 **Parameters:**
 | Parameter | Type | Description |

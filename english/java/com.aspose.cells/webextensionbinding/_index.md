@@ -26,9 +26,9 @@ Represents a binding relationship between an Office Add-in and the data in the d
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAppref(String value)](#setAppref-java.lang.String-) | For the description of this property, please see \#getAppref().getAppref() |
-| [setId(String value)](#setId-java.lang.String-) | For the description of this property, please see \#getId().getId() |
-| [setType(String value)](#setType-java.lang.String-) | For the description of this property, please see \#getType().getType() |
+| [setAppref(String value)](#setAppref-java.lang.String-) | For the description of this property, please see [getAppref()](../../com.aspose.cells/webextensionbinding\#getAppref--) |
+| [setId(String value)](#setId-java.lang.String-) | For the description of this property, please see [getId()](../../com.aspose.cells/webextensionbinding\#getId--) |
+| [setType(String value)](#setType-java.lang.String-) | For the description of this property, please see [getType()](../../com.aspose.cells/webextensionbinding\#getType--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -120,7 +120,7 @@ public void setAppref(String value)
 ```
 
 
-For the description of this property, please see \#getAppref().getAppref()
+For the description of this property, please see [getAppref()](../../com.aspose.cells/webextensionbinding\#getAppref--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -133,7 +133,7 @@ public void setId(String value)
 ```
 
 
-For the description of this property, please see \#getId().getId()
+For the description of this property, please see [getId()](../../com.aspose.cells/webextensionbinding\#getId--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +146,7 @@ public void setType(String value)
 ```
 
 
-For the description of this property, please see \#getType().getType()
+For the description of this property, please see [getType()](../../com.aspose.cells/webextensionbinding\#getType--)
 
 **Parameters:**
 | Parameter | Type | Description |

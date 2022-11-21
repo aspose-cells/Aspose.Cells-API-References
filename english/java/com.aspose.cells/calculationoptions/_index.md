@@ -30,13 +30,13 @@ Represents options for calculation.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCalcStackSize(int value)](#setCalcStackSize-int-) | For the description of this property, please see \#getCalcStackSize().getCalcStackSize() |
-| [setCalculationMonitor(AbstractCalculationMonitor value)](#setCalculationMonitor-com.aspose.cells.AbstractCalculationMonitor-) | For the description of this property, please see \#getCalculationMonitor().getCalculationMonitor() |
-| [setCustomEngine(AbstractCalculationEngine value)](#setCustomEngine-com.aspose.cells.AbstractCalculationEngine-) | For the description of this property, please see \#getCustomEngine().getCustomEngine() |
-| [setCustomFunction(ICustomFunction value)](#setCustomFunction-com.aspose.cells.ICustomFunction-) | For the description of this property, please see \#getCustomFunction().getCustomFunction() |
-| [setIgnoreError(boolean value)](#setIgnoreError-boolean-) | For the description of this property, please see \#getIgnoreError().getIgnoreError() |
-| [setPrecisionStrategy(int value)](#setPrecisionStrategy-int-) | For the description of this property, please see \#getPrecisionStrategy().getPrecisionStrategy() |
-| [setRecursive(boolean value)](#setRecursive-boolean-) | For the description of this property, please see \#getRecursive().getRecursive() |
+| [setCalcStackSize(int value)](#setCalcStackSize-int-) | For the description of this property, please see [getCalcStackSize()](../../com.aspose.cells/calculationoptions\#getCalcStackSize--) |
+| [setCalculationMonitor(AbstractCalculationMonitor value)](#setCalculationMonitor-com.aspose.cells.AbstractCalculationMonitor-) | For the description of this property, please see [getCalculationMonitor()](../../com.aspose.cells/calculationoptions\#getCalculationMonitor--) |
+| [setCustomEngine(AbstractCalculationEngine value)](#setCustomEngine-com.aspose.cells.AbstractCalculationEngine-) | For the description of this property, please see [getCustomEngine()](../../com.aspose.cells/calculationoptions\#getCustomEngine--) |
+| [setCustomFunction(ICustomFunction value)](#setCustomFunction-com.aspose.cells.ICustomFunction-) | For the description of this property, please see [getCustomFunction()](../../com.aspose.cells/calculationoptions\#getCustomFunction--) |
+| [setIgnoreError(boolean value)](#setIgnoreError-boolean-) | For the description of this property, please see [getIgnoreError()](../../com.aspose.cells/calculationoptions\#getIgnoreError--) |
+| [setPrecisionStrategy(int value)](#setPrecisionStrategy-int-) | For the description of this property, please see [getPrecisionStrategy()](../../com.aspose.cells/calculationoptions\#getPrecisionStrategy--) |
+| [setRecursive(boolean value)](#setRecursive-boolean-) | For the description of this property, please see [getRecursive()](../../com.aspose.cells/calculationoptions\#getRecursive--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -168,7 +168,7 @@ public void setCalcStackSize(int value)
 ```
 
 
-For the description of this property, please see \#getCalcStackSize().getCalcStackSize()
+For the description of this property, please see [getCalcStackSize()](../../com.aspose.cells/calculationoptions\#getCalcStackSize--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,7 +181,7 @@ public void setCalculationMonitor(AbstractCalculationMonitor value)
 ```
 
 
-For the description of this property, please see \#getCalculationMonitor().getCalculationMonitor()
+For the description of this property, please see [getCalculationMonitor()](../../com.aspose.cells/calculationoptions\#getCalculationMonitor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -194,7 +194,7 @@ public void setCustomEngine(AbstractCalculationEngine value)
 ```
 
 
-For the description of this property, please see \#getCustomEngine().getCustomEngine()
+For the description of this property, please see [getCustomEngine()](../../com.aspose.cells/calculationoptions\#getCustomEngine--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -207,7 +207,7 @@ public void setCustomFunction(ICustomFunction value)
 ```
 
 
-For the description of this property, please see \#getCustomFunction().getCustomFunction()
+For the description of this property, please see [getCustomFunction()](../../com.aspose.cells/calculationoptions\#getCustomFunction--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -220,7 +220,7 @@ public void setIgnoreError(boolean value)
 ```
 
 
-For the description of this property, please see \#getIgnoreError().getIgnoreError()
+For the description of this property, please see [getIgnoreError()](../../com.aspose.cells/calculationoptions\#getIgnoreError--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -233,7 +233,7 @@ public void setPrecisionStrategy(int value)
 ```
 
 
-For the description of this property, please see \#getPrecisionStrategy().getPrecisionStrategy()
+For the description of this property, please see [getPrecisionStrategy()](../../com.aspose.cells/calculationoptions\#getPrecisionStrategy--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ public void setRecursive(boolean value)
 ```
 
 
-For the description of this property, please see \#getRecursive().getRecursive()
+For the description of this property, please see [getRecursive()](../../com.aspose.cells/calculationoptions\#getRecursive--)
 
 **Parameters:**
 | Parameter | Type | Description |

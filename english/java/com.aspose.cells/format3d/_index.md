@@ -28,9 +28,9 @@ This class specifies the 3D shape properties for a chart element or shape.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setLightingAngle(double value)](#setLightingAngle-double-) | For the description of this property, please see \#getLightingAngle().getLightingAngle() |
-| [setSurfaceLightingType(int value)](#setSurfaceLightingType-int-) | For the description of this property, please see \#getSurfaceLightingType().getSurfaceLightingType() |
-| [setSurfaceMaterialType(int value)](#setSurfaceMaterialType-int-) | For the description of this property, please see \#getSurfaceMaterialType().getSurfaceMaterialType() |
+| [setLightingAngle(double value)](#setLightingAngle-double-) | For the description of this property, please see [getLightingAngle()](../../com.aspose.cells/format3d\#getLightingAngle--) |
+| [setSurfaceLightingType(int value)](#setSurfaceLightingType-int-) | For the description of this property, please see [getSurfaceLightingType()](../../com.aspose.cells/format3d\#getSurfaceLightingType--) |
+| [setSurfaceMaterialType(int value)](#setSurfaceMaterialType-int-) | For the description of this property, please see [getSurfaceMaterialType()](../../com.aspose.cells/format3d\#getSurfaceMaterialType--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -142,7 +142,7 @@ public void setLightingAngle(double value)
 ```
 
 
-For the description of this property, please see \#getLightingAngle().getLightingAngle()
+For the description of this property, please see [getLightingAngle()](../../com.aspose.cells/format3d\#getLightingAngle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -155,7 +155,7 @@ public void setSurfaceLightingType(int value)
 ```
 
 
-For the description of this property, please see \#getSurfaceLightingType().getSurfaceLightingType()
+For the description of this property, please see [getSurfaceLightingType()](../../com.aspose.cells/format3d\#getSurfaceLightingType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -168,7 +168,7 @@ public void setSurfaceMaterialType(int value)
 ```
 
 
-For the description of this property, please see \#getSurfaceMaterialType().getSurfaceMaterialType()
+For the description of this property, please see [getSurfaceMaterialType()](../../com.aspose.cells/format3d\#getSurfaceMaterialType--)
 
 **Parameters:**
 | Parameter | Type | Description |

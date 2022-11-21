@@ -26,8 +26,8 @@ Represents the parameter of power query formula.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
-| [setValue(String value)](#setValue-java.lang.String-) | For the description of this property, please see \#getValue().getValue() |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/powerqueryformulaparameter\#getName--) |
+| [setValue(String value)](#setValue-java.lang.String-) | For the description of this property, please see [getValue()](../../com.aspose.cells/powerqueryformulaparameter\#getValue--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -119,7 +119,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see \#getName().getName()
+For the description of this property, please see [getName()](../../com.aspose.cells/powerqueryformulaparameter\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -132,7 +132,7 @@ public void setValue(String value)
 ```
 
 
-For the description of this property, please see \#getValue().getValue()
+For the description of this property, please see [getValue()](../../com.aspose.cells/powerqueryformulaparameter\#getValue--)
 
 **Parameters:**
 | Parameter | Type | Description |

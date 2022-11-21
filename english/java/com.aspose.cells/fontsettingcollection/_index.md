@@ -47,8 +47,8 @@ Represents the list of [FontSetting](../../com.aspose.cells/fontsetting).
 | [removeAt(int index)](#removeAt-int-) | Removes the item at the specified index. |
 | [replace(int index, int count, String text)](#replace-int-int-java.lang.String-) | Replace the text. |
 | [replace(String oldValue, String newValue)](#replace-java.lang.String-java.lang.String-) | Replace the text. |
-| [setHtmlString(String value)](#setHtmlString-java.lang.String-) | For the description of this property, please see \#getHtmlString().getHtmlString() |
-| [setText(String value)](#setText-java.lang.String-) | For the description of this property, please see \#getText().getText() |
+| [setHtmlString(String value)](#setHtmlString-java.lang.String-) | For the description of this property, please see [getHtmlString()](../../com.aspose.cells/fontsettingcollection\#getHtmlString--) |
+| [setText(String value)](#setText-java.lang.String-) | For the description of this property, please see [getText()](../../com.aspose.cells/fontsettingcollection\#getText--) |
 | [setWordArtStyle(int style)](#setWordArtStyle-int-) | Sets the preset WordArt style. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -354,7 +354,7 @@ public void setHtmlString(String value)
 ```
 
 
-For the description of this property, please see \#getHtmlString().getHtmlString()
+For the description of this property, please see [getHtmlString()](../../com.aspose.cells/fontsettingcollection\#getHtmlString--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -367,7 +367,7 @@ public void setText(String value)
 ```
 
 
-For the description of this property, please see \#getText().getText()
+For the description of this property, please see [getText()](../../com.aspose.cells/fontsettingcollection\#getText--)
 
 **Parameters:**
 | Parameter | Type | Description |

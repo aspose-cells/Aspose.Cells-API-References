@@ -25,7 +25,7 @@ Represents the item of the power query formula.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setValue(String value)](#setValue-java.lang.String-) | For the description of this property, please see \#getValue().getValue() |
+| [setValue(String value)](#setValue-java.lang.String-) | For the description of this property, please see [getValue()](../../com.aspose.cells/powerqueryformulaitem\#getValue--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -107,7 +107,7 @@ public void setValue(String value)
 ```
 
 
-For the description of this property, please see \#getValue().getValue()
+For the description of this property, please see [getValue()](../../com.aspose.cells/powerqueryformulaitem\#getValue--)
 
 **Parameters:**
 | Parameter | Type | Description |

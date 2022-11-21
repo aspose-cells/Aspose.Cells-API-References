@@ -81,13 +81,13 @@ Represents a chart data table.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | For the description of this property, please see \#getAutoScaleFont().getAutoScaleFont() |
-| [setBackground(int value)](#setBackground-int-) | For the description of this property, please see \#getBackground().getBackground() |
-| [setBackgroundMode(int value)](#setBackgroundMode-int-) | For the description of this property, please see \#getBackgroundMode().getBackgroundMode() |
-| [setHasBorderHorizontal(boolean value)](#setHasBorderHorizontal-boolean-) | For the description of this property, please see \#hasBorderHorizontal().hasBorderHorizontal() |
-| [setHasBorderOutline(boolean value)](#setHasBorderOutline-boolean-) | For the description of this property, please see \#hasBorderOutline().hasBorderOutline() |
-| [setHasBorderVertical(boolean value)](#setHasBorderVertical-boolean-) | For the description of this property, please see \#hasBorderVertical().hasBorderVertical() |
-| [setShowLegendKey(boolean value)](#setShowLegendKey-boolean-) | For the description of this property, please see \#getShowLegendKey().getShowLegendKey() |
+| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | For the description of this property, please see [getAutoScaleFont()](../../com.aspose.cells/chartdatatable\#getAutoScaleFont--) |
+| [setBackground(int value)](#setBackground-int-) | For the description of this property, please see [getBackground()](../../com.aspose.cells/chartdatatable\#getBackground--) |
+| [setBackgroundMode(int value)](#setBackgroundMode-int-) | For the description of this property, please see [getBackgroundMode()](../../com.aspose.cells/chartdatatable\#getBackgroundMode--) |
+| [setHasBorderHorizontal(boolean value)](#setHasBorderHorizontal-boolean-) | For the description of this property, please see [hasBorderHorizontal()](../../com.aspose.cells/chartdatatable\#hasBorderHorizontal--) |
+| [setHasBorderOutline(boolean value)](#setHasBorderOutline-boolean-) | For the description of this property, please see [hasBorderOutline()](../../com.aspose.cells/chartdatatable\#hasBorderOutline--) |
+| [setHasBorderVertical(boolean value)](#setHasBorderVertical-boolean-) | For the description of this property, please see [hasBorderVertical()](../../com.aspose.cells/chartdatatable\#hasBorderVertical--) |
+| [setShowLegendKey(boolean value)](#setShowLegendKey-boolean-) | For the description of this property, please see [getShowLegendKey()](../../com.aspose.cells/chartdatatable\#getShowLegendKey--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -239,7 +239,7 @@ public void setAutoScaleFont(boolean value)
 ```
 
 
-For the description of this property, please see \#getAutoScaleFont().getAutoScaleFont()
+For the description of this property, please see [getAutoScaleFont()](../../com.aspose.cells/chartdatatable\#getAutoScaleFont--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -252,7 +252,7 @@ public void setBackground(int value)
 ```
 
 
-For the description of this property, please see \#getBackground().getBackground()
+For the description of this property, please see [getBackground()](../../com.aspose.cells/chartdatatable\#getBackground--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -265,7 +265,7 @@ public void setBackgroundMode(int value)
 ```
 
 
-For the description of this property, please see \#getBackgroundMode().getBackgroundMode()
+For the description of this property, please see [getBackgroundMode()](../../com.aspose.cells/chartdatatable\#getBackgroundMode--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -278,7 +278,7 @@ public void setHasBorderHorizontal(boolean value)
 ```
 
 
-For the description of this property, please see \#hasBorderHorizontal().hasBorderHorizontal()
+For the description of this property, please see [hasBorderHorizontal()](../../com.aspose.cells/chartdatatable\#hasBorderHorizontal--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -291,7 +291,7 @@ public void setHasBorderOutline(boolean value)
 ```
 
 
-For the description of this property, please see \#hasBorderOutline().hasBorderOutline()
+For the description of this property, please see [hasBorderOutline()](../../com.aspose.cells/chartdatatable\#hasBorderOutline--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -304,7 +304,7 @@ public void setHasBorderVertical(boolean value)
 ```
 
 
-For the description of this property, please see \#hasBorderVertical().hasBorderVertical()
+For the description of this property, please see [hasBorderVertical()](../../com.aspose.cells/chartdatatable\#hasBorderVertical--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -317,7 +317,7 @@ public void setShowLegendKey(boolean value)
 ```
 
 
-For the description of this property, please see \#getShowLegendKey().getShowLegendKey()
+For the description of this property, please see [getShowLegendKey()](../../com.aspose.cells/chartdatatable\#getShowLegendKey--)
 
 **Parameters:**
 | Parameter | Type | Description |

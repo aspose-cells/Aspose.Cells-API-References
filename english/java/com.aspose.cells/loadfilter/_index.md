@@ -52,7 +52,7 @@ class LoadFilterSheet extends LoadFilter
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setLoadDataFilterOptions(int value)](#setLoadDataFilterOptions-int-) | For the description of this property, please see \#getLoadDataFilterOptions().getLoadDataFilterOptions() |
+| [setLoadDataFilterOptions(int value)](#setLoadDataFilterOptions-int-) | For the description of this property, please see [getLoadDataFilterOptions()](../../com.aspose.cells/loadfilter\#getLoadDataFilterOptions--) |
 | [startSheet(Worksheet sheet)](#startSheet-com.aspose.cells.Worksheet-) | Prepares filter options before loading given worksheet. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -156,7 +156,7 @@ public void setLoadDataFilterOptions(int value)
 ```
 
 
-For the description of this property, please see \#getLoadDataFilterOptions().getLoadDataFilterOptions()
+For the description of this property, please see [getLoadDataFilterOptions()](../../com.aspose.cells/loadfilter\#getLoadDataFilterOptions--)
 
 **Parameters:**
 | Parameter | Type | Description |

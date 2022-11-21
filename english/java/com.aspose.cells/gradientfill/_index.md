@@ -39,10 +39,10 @@ Represents the gradient fill.
 | [hashCode()](#hashCode--) | Gets the hash code. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAngle(float value)](#setAngle-float-) | For the description of this property, please see \#getAngle().getAngle() |
+| [setAngle(float value)](#setAngle-float-) | For the description of this property, please see [getAngle()](../../com.aspose.cells/gradientfill\#getAngle--) |
 | [setGradient(int type, double angle, int direction)](#setGradient-int-double-int-) | Set the gradient fill type and direction. |
 | [setOneColorGradient(Color color, double degree, int style, int variant)](#setOneColorGradient-com.aspose.cells.Color-double-int-int-) | Sets the specified fill to a one-color gradient. |
-| [setPresetColor(int value)](#setPresetColor-int-) | For the description of this property, please see \#getPresetColor().getPresetColor() |
+| [setPresetColor(int value)](#setPresetColor-int-) | For the description of this property, please see [getPresetColor()](../../com.aspose.cells/gradientfill\#getPresetColor--) |
 | [setPresetColorGradient(int presetColor, int style, int variant)](#setPresetColorGradient-int-int-int-) | Sets the specified fill to a preset-color gradient. |
 | [setPresetThemeGradient(int gradientType, int themeColorType)](#setPresetThemeGradient-int-int-) | Sets preset theme gradient fill. |
 | [setTwoColorGradient(Color color1, Color color2, int style, int variant)](#setTwoColorGradient-com.aspose.cells.Color-com.aspose.cells.Color-int-int-) | Sets the specified fill to a two-color gradient. |
@@ -224,7 +224,7 @@ public void setAngle(float value)
 ```
 
 
-For the description of this property, please see \#getAngle().getAngle()
+For the description of this property, please see [getAngle()](../../com.aspose.cells/gradientfill\#getAngle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -268,7 +268,7 @@ public void setPresetColor(int value)
 ```
 
 
-For the description of this property, please see \#getPresetColor().getPresetColor()
+For the description of this property, please see [getPresetColor()](../../com.aspose.cells/gradientfill\#getPresetColor--)
 
 **Parameters:**
 | Parameter | Type | Description |

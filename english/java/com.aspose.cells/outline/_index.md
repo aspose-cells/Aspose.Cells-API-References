@@ -25,8 +25,8 @@ Represents an outline on a worksheet.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setSummaryColumnRight(boolean value)](#setSummaryColumnRight-boolean-) | For the description of this property, please see \#getSummaryColumnRight().getSummaryColumnRight() |
-| [setSummaryRowBelow(boolean value)](#setSummaryRowBelow-boolean-) | For the description of this property, please see \#getSummaryRowBelow().getSummaryRowBelow() |
+| [setSummaryColumnRight(boolean value)](#setSummaryColumnRight-boolean-) | For the description of this property, please see [getSummaryColumnRight()](../../com.aspose.cells/outline\#getSummaryColumnRight--) |
+| [setSummaryRowBelow(boolean value)](#setSummaryRowBelow-boolean-) | For the description of this property, please see [getSummaryRowBelow()](../../com.aspose.cells/outline\#getSummaryRowBelow--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -108,7 +108,7 @@ public void setSummaryColumnRight(boolean value)
 ```
 
 
-For the description of this property, please see \#getSummaryColumnRight().getSummaryColumnRight()
+For the description of this property, please see [getSummaryColumnRight()](../../com.aspose.cells/outline\#getSummaryColumnRight--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -121,7 +121,7 @@ public void setSummaryRowBelow(boolean value)
 ```
 
 
-For the description of this property, please see \#getSummaryRowBelow().getSummaryRowBelow()
+For the description of this property, please see [getSummaryRowBelow()](../../com.aspose.cells/outline\#getSummaryRowBelow--)
 
 **Parameters:**
 | Parameter | Type | Description |

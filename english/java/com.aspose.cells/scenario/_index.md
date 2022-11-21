@@ -29,10 +29,10 @@ Represents an individual scenario.
 | [isLocked()](#isLocked--) | Indicates whether scenario is locked for editing when the sheet is protected. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setComment(String value)](#setComment-java.lang.String-) | For the description of this property, please see \#getComment().getComment() |
-| [setHidden(boolean value)](#setHidden-boolean-) | For the description of this property, please see \#isHidden().isHidden() |
-| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see \#isLocked().isLocked() |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
+| [setComment(String value)](#setComment-java.lang.String-) | For the description of this property, please see [getComment()](../../com.aspose.cells/scenario\#getComment--) |
+| [setHidden(boolean value)](#setHidden-boolean-) | For the description of this property, please see [isHidden()](../../com.aspose.cells/scenario\#isHidden--) |
+| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see [isLocked()](../../com.aspose.cells/scenario\#isLocked--) |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/scenario\#getName--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -154,7 +154,7 @@ public void setComment(String value)
 ```
 
 
-For the description of this property, please see \#getComment().getComment()
+For the description of this property, please see [getComment()](../../com.aspose.cells/scenario\#getComment--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -167,7 +167,7 @@ public void setHidden(boolean value)
 ```
 
 
-For the description of this property, please see \#isHidden().isHidden()
+For the description of this property, please see [isHidden()](../../com.aspose.cells/scenario\#isHidden--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -180,7 +180,7 @@ public void setLocked(boolean value)
 ```
 
 
-For the description of this property, please see \#isLocked().isLocked()
+For the description of this property, please see [isLocked()](../../com.aspose.cells/scenario\#isLocked--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,7 +193,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see \#getName().getName()
+For the description of this property, please see [getName()](../../com.aspose.cells/scenario\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -54,30 +54,30 @@ Represents the options of loading xml.
 | [isXmlMap()](#isXmlMap--) | Indicates whether mapping xml to Excel. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoFilter(boolean value)](#setAutoFilter-boolean-) | For the description of this property, please see \#getAutoFilter().getAutoFilter() |
-| [setAutoFitterOptions(AutoFitterOptions value)](#setAutoFitterOptions-com.aspose.cells.AutoFitterOptions-) | For the description of this property, please see \#getAutoFitterOptions().getAutoFitterOptions() |
-| [setCheckDataValid(boolean value)](#setCheckDataValid-boolean-) | For the description of this property, please see \#getCheckDataValid().getCheckDataValid() |
-| [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | For the description of this property, please see \#getCheckExcelRestriction().getCheckExcelRestriction() |
-| [setContainsMultipleWorksheets(boolean value)](#setContainsMultipleWorksheets-boolean-) | For the description of this property, please see \#containsMultipleWorksheets().containsMultipleWorksheets() |
-| [setFontConfigs(IndividualFontConfigs value)](#setFontConfigs-com.aspose.cells.IndividualFontConfigs-) | For the description of this property, please see \#getFontConfigs().getFontConfigs() |
-| [setIgnoreNotPrinted(boolean value)](#setIgnoreNotPrinted-boolean-) | For the description of this property, please see \#getIgnoreNotPrinted().getIgnoreNotPrinted() |
-| [setInterruptMonitor(AbstractInterruptMonitor value)](#setInterruptMonitor-com.aspose.cells.AbstractInterruptMonitor-) | For the description of this property, please see \#getInterruptMonitor().getInterruptMonitor() |
-| [setKeepUnparsedData(boolean value)](#setKeepUnparsedData-boolean-) | For the description of this property, please see \#getKeepUnparsedData().getKeepUnparsedData() |
-| [setLanguageCode(int value)](#setLanguageCode-int-) | For the description of this property, please see \#getLanguageCode().getLanguageCode() |
-| [setLightCellsDataHandler(LightCellsDataHandler value)](#setLightCellsDataHandler-com.aspose.cells.LightCellsDataHandler-) | For the description of this property, please see \#getLightCellsDataHandler().getLightCellsDataHandler() |
-| [setLoadFilter(LoadFilter value)](#setLoadFilter-com.aspose.cells.LoadFilter-) | For the description of this property, please see \#getLoadFilter().getLoadFilter() |
-| [setLocale(Locale value)](#setLocale-java.util.Locale-) | For the description of this property, please see \#getLocale().getLocale() |
-| [setMemorySetting(int value)](#setMemorySetting-int-) | For the description of this property, please see \#getMemorySetting().getMemorySetting() |
+| [setAutoFilter(boolean value)](#setAutoFilter-boolean-) | For the description of this property, please see [getAutoFilter()](../../com.aspose.cells/loadoptions\#getAutoFilter--) |
+| [setAutoFitterOptions(AutoFitterOptions value)](#setAutoFitterOptions-com.aspose.cells.AutoFitterOptions-) | For the description of this property, please see [getAutoFitterOptions()](../../com.aspose.cells/loadoptions\#getAutoFitterOptions--) |
+| [setCheckDataValid(boolean value)](#setCheckDataValid-boolean-) | For the description of this property, please see [getCheckDataValid()](../../com.aspose.cells/loadoptions\#getCheckDataValid--) |
+| [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | For the description of this property, please see [getCheckExcelRestriction()](../../com.aspose.cells/loadoptions\#getCheckExcelRestriction--) |
+| [setContainsMultipleWorksheets(boolean value)](#setContainsMultipleWorksheets-boolean-) | For the description of this property, please see [containsMultipleWorksheets()](../../com.aspose.cells/xmlloadoptions\#containsMultipleWorksheets--) |
+| [setFontConfigs(IndividualFontConfigs value)](#setFontConfigs-com.aspose.cells.IndividualFontConfigs-) | For the description of this property, please see [getFontConfigs()](../../com.aspose.cells/loadoptions\#getFontConfigs--) |
+| [setIgnoreNotPrinted(boolean value)](#setIgnoreNotPrinted-boolean-) | For the description of this property, please see [getIgnoreNotPrinted()](../../com.aspose.cells/loadoptions\#getIgnoreNotPrinted--) |
+| [setInterruptMonitor(AbstractInterruptMonitor value)](#setInterruptMonitor-com.aspose.cells.AbstractInterruptMonitor-) | For the description of this property, please see [getInterruptMonitor()](../../com.aspose.cells/loadoptions\#getInterruptMonitor--) |
+| [setKeepUnparsedData(boolean value)](#setKeepUnparsedData-boolean-) | For the description of this property, please see [getKeepUnparsedData()](../../com.aspose.cells/loadoptions\#getKeepUnparsedData--) |
+| [setLanguageCode(int value)](#setLanguageCode-int-) | For the description of this property, please see [getLanguageCode()](../../com.aspose.cells/loadoptions\#getLanguageCode--) |
+| [setLightCellsDataHandler(LightCellsDataHandler value)](#setLightCellsDataHandler-com.aspose.cells.LightCellsDataHandler-) | For the description of this property, please see [getLightCellsDataHandler()](../../com.aspose.cells/loadoptions\#getLightCellsDataHandler--) |
+| [setLoadFilter(LoadFilter value)](#setLoadFilter-com.aspose.cells.LoadFilter-) | For the description of this property, please see [getLoadFilter()](../../com.aspose.cells/loadoptions\#getLoadFilter--) |
+| [setLocale(Locale value)](#setLocale-java.util.Locale-) | For the description of this property, please see [getLocale()](../../com.aspose.cells/loadoptions\#getLocale--) |
+| [setMemorySetting(int value)](#setMemorySetting-int-) | For the description of this property, please see [getMemorySetting()](../../com.aspose.cells/loadoptions\#getMemorySetting--) |
 | [setPaperSize(int type)](#setPaperSize-int-) | Sets the default print paper size from default printer's setting. |
-| [setParsingFormulaOnOpen(boolean value)](#setParsingFormulaOnOpen-boolean-) | For the description of this property, please see \#getParsingFormulaOnOpen().getParsingFormulaOnOpen() |
-| [setParsingPivotCachedRecords(boolean value)](#setParsingPivotCachedRecords-boolean-) | For the description of this property, please see \#getParsingPivotCachedRecords().getParsingPivotCachedRecords() |
-| [setPassword(String value)](#setPassword-java.lang.String-) | For the description of this property, please see \#getPassword().getPassword() |
-| [setRegion(int value)](#setRegion-int-) | For the description of this property, please see \#getRegion().getRegion() |
-| [setStandardFont(String value)](#setStandardFont-java.lang.String-) | For the description of this property, please see \#getStandardFont().getStandardFont() |
-| [setStandardFontSize(double value)](#setStandardFontSize-double-) | For the description of this property, please see \#getStandardFontSize().getStandardFontSize() |
-| [setStartCell(String value)](#setStartCell-java.lang.String-) | For the description of this property, please see \#getStartCell().getStartCell() |
+| [setParsingFormulaOnOpen(boolean value)](#setParsingFormulaOnOpen-boolean-) | For the description of this property, please see [getParsingFormulaOnOpen()](../../com.aspose.cells/loadoptions\#getParsingFormulaOnOpen--) |
+| [setParsingPivotCachedRecords(boolean value)](#setParsingPivotCachedRecords-boolean-) | For the description of this property, please see [getParsingPivotCachedRecords()](../../com.aspose.cells/loadoptions\#getParsingPivotCachedRecords--) |
+| [setPassword(String value)](#setPassword-java.lang.String-) | For the description of this property, please see [getPassword()](../../com.aspose.cells/loadoptions\#getPassword--) |
+| [setRegion(int value)](#setRegion-int-) | For the description of this property, please see [getRegion()](../../com.aspose.cells/loadoptions\#getRegion--) |
+| [setStandardFont(String value)](#setStandardFont-java.lang.String-) | For the description of this property, please see [getStandardFont()](../../com.aspose.cells/loadoptions\#getStandardFont--) |
+| [setStandardFontSize(double value)](#setStandardFontSize-double-) | For the description of this property, please see [getStandardFontSize()](../../com.aspose.cells/loadoptions\#getStandardFontSize--) |
+| [setStartCell(String value)](#setStartCell-java.lang.String-) | For the description of this property, please see [getStartCell()](../../com.aspose.cells/xmlloadoptions\#getStartCell--) |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
-| [setXmlMap(boolean value)](#setXmlMap-boolean-) | For the description of this property, please see \#isXmlMap().isXmlMap() |
+| [setXmlMap(boolean value)](#setXmlMap-boolean-) | For the description of this property, please see [isXmlMap()](../../com.aspose.cells/xmlloadoptions\#isXmlMap--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -410,7 +410,7 @@ public void setAutoFilter(boolean value)
 ```
 
 
-For the description of this property, please see \#getAutoFilter().getAutoFilter()
+For the description of this property, please see [getAutoFilter()](../../com.aspose.cells/loadoptions\#getAutoFilter--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -423,7 +423,7 @@ public void setAutoFitterOptions(AutoFitterOptions value)
 ```
 
 
-For the description of this property, please see \#getAutoFitterOptions().getAutoFitterOptions()
+For the description of this property, please see [getAutoFitterOptions()](../../com.aspose.cells/loadoptions\#getAutoFitterOptions--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -436,7 +436,7 @@ public void setCheckDataValid(boolean value)
 ```
 
 
-For the description of this property, please see \#getCheckDataValid().getCheckDataValid()
+For the description of this property, please see [getCheckDataValid()](../../com.aspose.cells/loadoptions\#getCheckDataValid--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -449,7 +449,7 @@ public void setCheckExcelRestriction(boolean value)
 ```
 
 
-For the description of this property, please see \#getCheckExcelRestriction().getCheckExcelRestriction()
+For the description of this property, please see [getCheckExcelRestriction()](../../com.aspose.cells/loadoptions\#getCheckExcelRestriction--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -462,7 +462,7 @@ public void setContainsMultipleWorksheets(boolean value)
 ```
 
 
-For the description of this property, please see \#containsMultipleWorksheets().containsMultipleWorksheets()
+For the description of this property, please see [containsMultipleWorksheets()](../../com.aspose.cells/xmlloadoptions\#containsMultipleWorksheets--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -475,7 +475,7 @@ public void setFontConfigs(IndividualFontConfigs value)
 ```
 
 
-For the description of this property, please see \#getFontConfigs().getFontConfigs()
+For the description of this property, please see [getFontConfigs()](../../com.aspose.cells/loadoptions\#getFontConfigs--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -488,7 +488,7 @@ public void setIgnoreNotPrinted(boolean value)
 ```
 
 
-For the description of this property, please see \#getIgnoreNotPrinted().getIgnoreNotPrinted()
+For the description of this property, please see [getIgnoreNotPrinted()](../../com.aspose.cells/loadoptions\#getIgnoreNotPrinted--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -501,7 +501,7 @@ public void setInterruptMonitor(AbstractInterruptMonitor value)
 ```
 
 
-For the description of this property, please see \#getInterruptMonitor().getInterruptMonitor()
+For the description of this property, please see [getInterruptMonitor()](../../com.aspose.cells/loadoptions\#getInterruptMonitor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -514,7 +514,7 @@ public void setKeepUnparsedData(boolean value)
 ```
 
 
-For the description of this property, please see \#getKeepUnparsedData().getKeepUnparsedData()
+For the description of this property, please see [getKeepUnparsedData()](../../com.aspose.cells/loadoptions\#getKeepUnparsedData--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -527,7 +527,7 @@ public void setLanguageCode(int value)
 ```
 
 
-For the description of this property, please see \#getLanguageCode().getLanguageCode()
+For the description of this property, please see [getLanguageCode()](../../com.aspose.cells/loadoptions\#getLanguageCode--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -540,7 +540,7 @@ public void setLightCellsDataHandler(LightCellsDataHandler value)
 ```
 
 
-For the description of this property, please see \#getLightCellsDataHandler().getLightCellsDataHandler()
+For the description of this property, please see [getLightCellsDataHandler()](../../com.aspose.cells/loadoptions\#getLightCellsDataHandler--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -553,7 +553,7 @@ public void setLoadFilter(LoadFilter value)
 ```
 
 
-For the description of this property, please see \#getLoadFilter().getLoadFilter()
+For the description of this property, please see [getLoadFilter()](../../com.aspose.cells/loadoptions\#getLoadFilter--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -566,7 +566,7 @@ public void setLocale(Locale value)
 ```
 
 
-For the description of this property, please see \#getLocale().getLocale()
+For the description of this property, please see [getLocale()](../../com.aspose.cells/loadoptions\#getLocale--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -579,7 +579,7 @@ public void setMemorySetting(int value)
 ```
 
 
-For the description of this property, please see \#getMemorySetting().getMemorySetting()
+For the description of this property, please see [getMemorySetting()](../../com.aspose.cells/loadoptions\#getMemorySetting--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -605,7 +605,7 @@ public void setParsingFormulaOnOpen(boolean value)
 ```
 
 
-For the description of this property, please see \#getParsingFormulaOnOpen().getParsingFormulaOnOpen()
+For the description of this property, please see [getParsingFormulaOnOpen()](../../com.aspose.cells/loadoptions\#getParsingFormulaOnOpen--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -618,7 +618,7 @@ public void setParsingPivotCachedRecords(boolean value)
 ```
 
 
-For the description of this property, please see \#getParsingPivotCachedRecords().getParsingPivotCachedRecords()
+For the description of this property, please see [getParsingPivotCachedRecords()](../../com.aspose.cells/loadoptions\#getParsingPivotCachedRecords--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -631,7 +631,7 @@ public void setPassword(String value)
 ```
 
 
-For the description of this property, please see \#getPassword().getPassword()
+For the description of this property, please see [getPassword()](../../com.aspose.cells/loadoptions\#getPassword--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -644,7 +644,7 @@ public void setRegion(int value)
 ```
 
 
-For the description of this property, please see \#getRegion().getRegion()
+For the description of this property, please see [getRegion()](../../com.aspose.cells/loadoptions\#getRegion--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -657,7 +657,7 @@ public void setStandardFont(String value)
 ```
 
 
-For the description of this property, please see \#getStandardFont().getStandardFont()
+For the description of this property, please see [getStandardFont()](../../com.aspose.cells/loadoptions\#getStandardFont--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -670,7 +670,7 @@ public void setStandardFontSize(double value)
 ```
 
 
-For the description of this property, please see \#getStandardFontSize().getStandardFontSize()
+For the description of this property, please see [getStandardFontSize()](../../com.aspose.cells/loadoptions\#getStandardFontSize--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -683,7 +683,7 @@ public void setStartCell(String value)
 ```
 
 
-For the description of this property, please see \#getStartCell().getStartCell()
+For the description of this property, please see [getStartCell()](../../com.aspose.cells/xmlloadoptions\#getStartCell--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -709,7 +709,7 @@ public void setXmlMap(boolean value)
 ```
 
 
-For the description of this property, please see \#isXmlMap().isXmlMap()
+For the description of this property, please see [isXmlMap()](../../com.aspose.cells/xmlloadoptions\#isXmlMap--)
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -95,68 +95,68 @@ Represents the options for saving html file.
 | [isFullPathLink()](#isFullPathLink--) | Indicating whether using full path link in sheet00x.htm,filelist.xml and tabstrip.htm. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAddTooltipText(boolean value)](#setAddTooltipText-boolean-) | For the description of this property, please see \#getAddTooltipText().getAddTooltipText() |
-| [setAttachedFilesDirectory(String value)](#setAttachedFilesDirectory-java.lang.String-) | For the description of this property, please see \#getAttachedFilesDirectory().getAttachedFilesDirectory() |
-| [setAttachedFilesUrlPrefix(String value)](#setAttachedFilesUrlPrefix-java.lang.String-) | For the description of this property, please see \#getAttachedFilesUrlPrefix().getAttachedFilesUrlPrefix() |
-| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | For the description of this property, please see \#getCachedFileFolder().getCachedFileFolder() |
-| [setCellCssPrefix(String value)](#setCellCssPrefix-java.lang.String-) | For the description of this property, please see \#getCellCssPrefix().getCellCssPrefix() |
-| [setClearData(boolean value)](#setClearData-boolean-) | For the description of this property, please see \#getClearData().getClearData() |
-| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | For the description of this property, please see \#getCreateDirectory().getCreateDirectory() |
-| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | For the description of this property, please see \#getDefaultFontName().getDefaultFontName() |
-| [setDisableDownlevelRevealedComments(boolean value)](#setDisableDownlevelRevealedComments-boolean-) | For the description of this property, please see \#getDisableDownlevelRevealedComments().getDisableDownlevelRevealedComments() |
-| [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | For the description of this property, please see \#getEncoding().getEncoding() |
-| [setExcludeUnusedStyles(boolean value)](#setExcludeUnusedStyles-boolean-) | For the description of this property, please see \#getExcludeUnusedStyles().getExcludeUnusedStyles() |
-| [setExpImageToTempDir(boolean value)](#setExpImageToTempDir-boolean-) | For the description of this property, please see \#isExpImageToTempDir().isExpImageToTempDir() |
-| [setExportActiveWorksheetOnly(boolean value)](#setExportActiveWorksheetOnly-boolean-) | For the description of this property, please see \#getExportActiveWorksheetOnly().getExportActiveWorksheetOnly() |
-| [setExportArea(CellArea value)](#setExportArea-com.aspose.cells.CellArea-) | For the description of this property, please see \#getExportArea().getExportArea() |
-| [setExportBogusRowData(boolean value)](#setExportBogusRowData-boolean-) | For the description of this property, please see \#getExportBogusRowData().getExportBogusRowData() |
-| [setExportCellCoordinate(boolean value)](#setExportCellCoordinate-boolean-) | For the description of this property, please see \#getExportCellCoordinate().getExportCellCoordinate() |
-| [setExportComments(boolean value)](#setExportComments-boolean-) | For the description of this property, please see \#isExportComments().isExportComments() |
-| [setExportCommentsType(int value)](#setExportCommentsType-int-) | For the description of this property, please see \#getExportCommentsType().getExportCommentsType() |
-| [setExportDataOptions(int value)](#setExportDataOptions-int-) | For the description of this property, please see \#getExportDataOptions().getExportDataOptions() |
-| [setExportDocumentProperties(boolean value)](#setExportDocumentProperties-boolean-) | For the description of this property, please see \#getExportDocumentProperties().getExportDocumentProperties() |
-| [setExportExtraHeadings(boolean value)](#setExportExtraHeadings-boolean-) | For the description of this property, please see \#getExportExtraHeadings().getExportExtraHeadings() |
-| [setExportFormula(boolean value)](#setExportFormula-boolean-) | For the description of this property, please see \#getExportFormula().getExportFormula() |
-| [setExportFrameScriptsAndProperties(boolean value)](#setExportFrameScriptsAndProperties-boolean-) | For the description of this property, please see \#getExportFrameScriptsAndProperties().getExportFrameScriptsAndProperties() |
-| [setExportGridLines(boolean value)](#setExportGridLines-boolean-) | For the description of this property, please see \#getExportGridLines().getExportGridLines() |
-| [setExportHeadings(boolean value)](#setExportHeadings-boolean-) | For the description of this property, please see \#getExportHeadings().getExportHeadings() |
-| [setExportHiddenWorksheet(boolean value)](#setExportHiddenWorksheet-boolean-) | For the description of this property, please see \#getExportHiddenWorksheet().getExportHiddenWorksheet() |
-| [setExportImagesAsBase64(boolean value)](#setExportImagesAsBase64-boolean-) | For the description of this property, please see \#getExportImagesAsBase64().getExportImagesAsBase64() |
-| [setExportObjectListener(IExportObjectListener value)](#setExportObjectListener-com.aspose.cells.IExportObjectListener-) | For the description of this property, please see \#getExportObjectListener().getExportObjectListener() |
-| [setExportPageFooters(boolean value)](#setExportPageFooters-boolean-) | For the description of this property, please see \#getExportPageFooters().getExportPageFooters() |
-| [setExportPageHeaders(boolean value)](#setExportPageHeaders-boolean-) | For the description of this property, please see \#getExportPageHeaders().getExportPageHeaders() |
-| [setExportPrintAreaOnly(boolean value)](#setExportPrintAreaOnly-boolean-) | For the description of this property, please see \#getExportPrintAreaOnly().getExportPrintAreaOnly() |
-| [setExportRowColumnHeadings(boolean value)](#setExportRowColumnHeadings-boolean-) | For the description of this property, please see \#getExportRowColumnHeadings().getExportRowColumnHeadings() |
-| [setExportSimilarBorderStyle(boolean value)](#setExportSimilarBorderStyle-boolean-) | For the description of this property, please see \#getExportSimilarBorderStyle().getExportSimilarBorderStyle() |
-| [setExportSingleTab(boolean value)](#setExportSingleTab-boolean-) | For the description of this property, please see \#getExportSingleTab().getExportSingleTab() |
-| [setExportWorkbookProperties(boolean value)](#setExportWorkbookProperties-boolean-) | For the description of this property, please see \#getExportWorkbookProperties().getExportWorkbookProperties() |
-| [setExportWorksheetCSSSeparately(boolean value)](#setExportWorksheetCSSSeparately-boolean-) | For the description of this property, please see \#getExportWorksheetCSSSeparately().getExportWorksheetCSSSeparately() |
-| [setExportWorksheetProperties(boolean value)](#setExportWorksheetProperties-boolean-) | For the description of this property, please see \#getExportWorksheetProperties().getExportWorksheetProperties() |
-| [setFilePathProvider(IFilePathProvider value)](#setFilePathProvider-com.aspose.cells.IFilePathProvider-) | For the description of this property, please see \#getFilePathProvider().getFilePathProvider() |
-| [setFullPathLink(boolean value)](#setFullPathLink-boolean-) | For the description of this property, please see \#isFullPathLink().isFullPathLink() |
-| [setHiddenColDisplayType(int value)](#setHiddenColDisplayType-int-) | For the description of this property, please see \#getHiddenColDisplayType().getHiddenColDisplayType() |
-| [setHiddenRowDisplayType(int value)](#setHiddenRowDisplayType-int-) | For the description of this property, please see \#getHiddenRowDisplayType().getHiddenRowDisplayType() |
-| [setHtmlCrossStringType(int value)](#setHtmlCrossStringType-int-) | For the description of this property, please see \#getHtmlCrossStringType().getHtmlCrossStringType() |
-| [setIgnoreInvisibleShapes(boolean value)](#setIgnoreInvisibleShapes-boolean-) | For the description of this property, please see \#getIgnoreInvisibleShapes().getIgnoreInvisibleShapes() |
-| [setImageScalable(boolean value)](#setImageScalable-boolean-) | For the description of this property, please see \#getImageScalable().getImageScalable() |
-| [setLinkTargetType(int value)](#setLinkTargetType-int-) | For the description of this property, please see \#getLinkTargetType().getLinkTargetType() |
-| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | For the description of this property, please see \#getMergeAreas().getMergeAreas() |
-| [setMergeEmptyTdForcely(boolean value)](#setMergeEmptyTdForcely-boolean-) | For the description of this property, please see \#getMergeEmptyTdForcely().getMergeEmptyTdForcely() |
-| [setPageTitle(String value)](#setPageTitle-java.lang.String-) | For the description of this property, please see \#getPageTitle().getPageTitle() |
-| [setParseHtmlTagInCell(boolean value)](#setParseHtmlTagInCell-boolean-) | For the description of this property, please see \#getParseHtmlTagInCell().getParseHtmlTagInCell() |
-| [setPresentationPreference(boolean value)](#setPresentationPreference-boolean-) | For the description of this property, please see \#getPresentationPreference().getPresentationPreference() |
-| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | For the description of this property, please see \#getRefreshChartCache().getRefreshChartCache() |
-| [setSaveAsSingleFile(boolean value)](#setSaveAsSingleFile-boolean-) | For the description of this property, please see \#getSaveAsSingleFile().getSaveAsSingleFile() |
-| [setShowAllSheets(boolean value)](#setShowAllSheets-boolean-) | For the description of this property, please see \#getShowAllSheets().getShowAllSheets() |
-| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | For the description of this property, please see \#getSortExternalNames().getSortExternalNames() |
-| [setSortNames(boolean value)](#setSortNames-boolean-) | For the description of this property, please see \#getSortNames().getSortNames() |
-| [setStreamProvider(IStreamProvider value)](#setStreamProvider-com.aspose.cells.IStreamProvider-) | For the description of this property, please see \#getStreamProvider().getStreamProvider() |
-| [setTableCssId(String value)](#setTableCssId-java.lang.String-) | For the description of this property, please see \#getTableCssId().getTableCssId() |
-| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | For the description of this property, please see \#getUpdateSmartArt().getUpdateSmartArt() |
-| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | For the description of this property, please see \#getValidateMergedAreas().getValidateMergedAreas() |
+| [setAddTooltipText(boolean value)](#setAddTooltipText-boolean-) | For the description of this property, please see [getAddTooltipText()](../../com.aspose.cells/htmlsaveoptions\#getAddTooltipText--) |
+| [setAttachedFilesDirectory(String value)](#setAttachedFilesDirectory-java.lang.String-) | For the description of this property, please see [getAttachedFilesDirectory()](../../com.aspose.cells/htmlsaveoptions\#getAttachedFilesDirectory--) |
+| [setAttachedFilesUrlPrefix(String value)](#setAttachedFilesUrlPrefix-java.lang.String-) | For the description of this property, please see [getAttachedFilesUrlPrefix()](../../com.aspose.cells/htmlsaveoptions\#getAttachedFilesUrlPrefix--) |
+| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | For the description of this property, please see [getCachedFileFolder()](../../com.aspose.cells/saveoptions\#getCachedFileFolder--) |
+| [setCellCssPrefix(String value)](#setCellCssPrefix-java.lang.String-) | For the description of this property, please see [getCellCssPrefix()](../../com.aspose.cells/htmlsaveoptions\#getCellCssPrefix--) |
+| [setClearData(boolean value)](#setClearData-boolean-) | For the description of this property, please see [getClearData()](../../com.aspose.cells/saveoptions\#getClearData--) |
+| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | For the description of this property, please see [getCreateDirectory()](../../com.aspose.cells/saveoptions\#getCreateDirectory--) |
+| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | For the description of this property, please see [getDefaultFontName()](../../com.aspose.cells/htmlsaveoptions\#getDefaultFontName--) |
+| [setDisableDownlevelRevealedComments(boolean value)](#setDisableDownlevelRevealedComments-boolean-) | For the description of this property, please see [getDisableDownlevelRevealedComments()](../../com.aspose.cells/htmlsaveoptions\#getDisableDownlevelRevealedComments--) |
+| [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | For the description of this property, please see [getEncoding()](../../com.aspose.cells/htmlsaveoptions\#getEncoding--) |
+| [setExcludeUnusedStyles(boolean value)](#setExcludeUnusedStyles-boolean-) | For the description of this property, please see [getExcludeUnusedStyles()](../../com.aspose.cells/htmlsaveoptions\#getExcludeUnusedStyles--) |
+| [setExpImageToTempDir(boolean value)](#setExpImageToTempDir-boolean-) | For the description of this property, please see [isExpImageToTempDir()](../../com.aspose.cells/htmlsaveoptions\#isExpImageToTempDir--) |
+| [setExportActiveWorksheetOnly(boolean value)](#setExportActiveWorksheetOnly-boolean-) | For the description of this property, please see [getExportActiveWorksheetOnly()](../../com.aspose.cells/htmlsaveoptions\#getExportActiveWorksheetOnly--) |
+| [setExportArea(CellArea value)](#setExportArea-com.aspose.cells.CellArea-) | For the description of this property, please see [getExportArea()](../../com.aspose.cells/htmlsaveoptions\#getExportArea--) |
+| [setExportBogusRowData(boolean value)](#setExportBogusRowData-boolean-) | For the description of this property, please see [getExportBogusRowData()](../../com.aspose.cells/htmlsaveoptions\#getExportBogusRowData--) |
+| [setExportCellCoordinate(boolean value)](#setExportCellCoordinate-boolean-) | For the description of this property, please see [getExportCellCoordinate()](../../com.aspose.cells/htmlsaveoptions\#getExportCellCoordinate--) |
+| [setExportComments(boolean value)](#setExportComments-boolean-) | For the description of this property, please see [isExportComments()](../../com.aspose.cells/htmlsaveoptions\#isExportComments--) |
+| [setExportCommentsType(int value)](#setExportCommentsType-int-) | For the description of this property, please see [getExportCommentsType()](../../com.aspose.cells/htmlsaveoptions\#getExportCommentsType--) |
+| [setExportDataOptions(int value)](#setExportDataOptions-int-) | For the description of this property, please see [getExportDataOptions()](../../com.aspose.cells/htmlsaveoptions\#getExportDataOptions--) |
+| [setExportDocumentProperties(boolean value)](#setExportDocumentProperties-boolean-) | For the description of this property, please see [getExportDocumentProperties()](../../com.aspose.cells/htmlsaveoptions\#getExportDocumentProperties--) |
+| [setExportExtraHeadings(boolean value)](#setExportExtraHeadings-boolean-) | For the description of this property, please see [getExportExtraHeadings()](../../com.aspose.cells/htmlsaveoptions\#getExportExtraHeadings--) |
+| [setExportFormula(boolean value)](#setExportFormula-boolean-) | For the description of this property, please see [getExportFormula()](../../com.aspose.cells/htmlsaveoptions\#getExportFormula--) |
+| [setExportFrameScriptsAndProperties(boolean value)](#setExportFrameScriptsAndProperties-boolean-) | For the description of this property, please see [getExportFrameScriptsAndProperties()](../../com.aspose.cells/htmlsaveoptions\#getExportFrameScriptsAndProperties--) |
+| [setExportGridLines(boolean value)](#setExportGridLines-boolean-) | For the description of this property, please see [getExportGridLines()](../../com.aspose.cells/htmlsaveoptions\#getExportGridLines--) |
+| [setExportHeadings(boolean value)](#setExportHeadings-boolean-) | For the description of this property, please see [getExportHeadings()](../../com.aspose.cells/htmlsaveoptions\#getExportHeadings--) |
+| [setExportHiddenWorksheet(boolean value)](#setExportHiddenWorksheet-boolean-) | For the description of this property, please see [getExportHiddenWorksheet()](../../com.aspose.cells/htmlsaveoptions\#getExportHiddenWorksheet--) |
+| [setExportImagesAsBase64(boolean value)](#setExportImagesAsBase64-boolean-) | For the description of this property, please see [getExportImagesAsBase64()](../../com.aspose.cells/htmlsaveoptions\#getExportImagesAsBase64--) |
+| [setExportObjectListener(IExportObjectListener value)](#setExportObjectListener-com.aspose.cells.IExportObjectListener-) | For the description of this property, please see [getExportObjectListener()](../../com.aspose.cells/htmlsaveoptions\#getExportObjectListener--) |
+| [setExportPageFooters(boolean value)](#setExportPageFooters-boolean-) | For the description of this property, please see [getExportPageFooters()](../../com.aspose.cells/htmlsaveoptions\#getExportPageFooters--) |
+| [setExportPageHeaders(boolean value)](#setExportPageHeaders-boolean-) | For the description of this property, please see [getExportPageHeaders()](../../com.aspose.cells/htmlsaveoptions\#getExportPageHeaders--) |
+| [setExportPrintAreaOnly(boolean value)](#setExportPrintAreaOnly-boolean-) | For the description of this property, please see [getExportPrintAreaOnly()](../../com.aspose.cells/htmlsaveoptions\#getExportPrintAreaOnly--) |
+| [setExportRowColumnHeadings(boolean value)](#setExportRowColumnHeadings-boolean-) | For the description of this property, please see [getExportRowColumnHeadings()](../../com.aspose.cells/htmlsaveoptions\#getExportRowColumnHeadings--) |
+| [setExportSimilarBorderStyle(boolean value)](#setExportSimilarBorderStyle-boolean-) | For the description of this property, please see [getExportSimilarBorderStyle()](../../com.aspose.cells/htmlsaveoptions\#getExportSimilarBorderStyle--) |
+| [setExportSingleTab(boolean value)](#setExportSingleTab-boolean-) | For the description of this property, please see [getExportSingleTab()](../../com.aspose.cells/htmlsaveoptions\#getExportSingleTab--) |
+| [setExportWorkbookProperties(boolean value)](#setExportWorkbookProperties-boolean-) | For the description of this property, please see [getExportWorkbookProperties()](../../com.aspose.cells/htmlsaveoptions\#getExportWorkbookProperties--) |
+| [setExportWorksheetCSSSeparately(boolean value)](#setExportWorksheetCSSSeparately-boolean-) | For the description of this property, please see [getExportWorksheetCSSSeparately()](../../com.aspose.cells/htmlsaveoptions\#getExportWorksheetCSSSeparately--) |
+| [setExportWorksheetProperties(boolean value)](#setExportWorksheetProperties-boolean-) | For the description of this property, please see [getExportWorksheetProperties()](../../com.aspose.cells/htmlsaveoptions\#getExportWorksheetProperties--) |
+| [setFilePathProvider(IFilePathProvider value)](#setFilePathProvider-com.aspose.cells.IFilePathProvider-) | For the description of this property, please see [getFilePathProvider()](../../com.aspose.cells/htmlsaveoptions\#getFilePathProvider--) |
+| [setFullPathLink(boolean value)](#setFullPathLink-boolean-) | For the description of this property, please see [isFullPathLink()](../../com.aspose.cells/htmlsaveoptions\#isFullPathLink--) |
+| [setHiddenColDisplayType(int value)](#setHiddenColDisplayType-int-) | For the description of this property, please see [getHiddenColDisplayType()](../../com.aspose.cells/htmlsaveoptions\#getHiddenColDisplayType--) |
+| [setHiddenRowDisplayType(int value)](#setHiddenRowDisplayType-int-) | For the description of this property, please see [getHiddenRowDisplayType()](../../com.aspose.cells/htmlsaveoptions\#getHiddenRowDisplayType--) |
+| [setHtmlCrossStringType(int value)](#setHtmlCrossStringType-int-) | For the description of this property, please see [getHtmlCrossStringType()](../../com.aspose.cells/htmlsaveoptions\#getHtmlCrossStringType--) |
+| [setIgnoreInvisibleShapes(boolean value)](#setIgnoreInvisibleShapes-boolean-) | For the description of this property, please see [getIgnoreInvisibleShapes()](../../com.aspose.cells/htmlsaveoptions\#getIgnoreInvisibleShapes--) |
+| [setImageScalable(boolean value)](#setImageScalable-boolean-) | For the description of this property, please see [getImageScalable()](../../com.aspose.cells/htmlsaveoptions\#getImageScalable--) |
+| [setLinkTargetType(int value)](#setLinkTargetType-int-) | For the description of this property, please see [getLinkTargetType()](../../com.aspose.cells/htmlsaveoptions\#getLinkTargetType--) |
+| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | For the description of this property, please see [getMergeAreas()](../../com.aspose.cells/saveoptions\#getMergeAreas--) |
+| [setMergeEmptyTdForcely(boolean value)](#setMergeEmptyTdForcely-boolean-) | For the description of this property, please see [getMergeEmptyTdForcely()](../../com.aspose.cells/htmlsaveoptions\#getMergeEmptyTdForcely--) |
+| [setPageTitle(String value)](#setPageTitle-java.lang.String-) | For the description of this property, please see [getPageTitle()](../../com.aspose.cells/htmlsaveoptions\#getPageTitle--) |
+| [setParseHtmlTagInCell(boolean value)](#setParseHtmlTagInCell-boolean-) | For the description of this property, please see [getParseHtmlTagInCell()](../../com.aspose.cells/htmlsaveoptions\#getParseHtmlTagInCell--) |
+| [setPresentationPreference(boolean value)](#setPresentationPreference-boolean-) | For the description of this property, please see [getPresentationPreference()](../../com.aspose.cells/htmlsaveoptions\#getPresentationPreference--) |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | For the description of this property, please see [getRefreshChartCache()](../../com.aspose.cells/saveoptions\#getRefreshChartCache--) |
+| [setSaveAsSingleFile(boolean value)](#setSaveAsSingleFile-boolean-) | For the description of this property, please see [getSaveAsSingleFile()](../../com.aspose.cells/htmlsaveoptions\#getSaveAsSingleFile--) |
+| [setShowAllSheets(boolean value)](#setShowAllSheets-boolean-) | For the description of this property, please see [getShowAllSheets()](../../com.aspose.cells/htmlsaveoptions\#getShowAllSheets--) |
+| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | For the description of this property, please see [getSortExternalNames()](../../com.aspose.cells/saveoptions\#getSortExternalNames--) |
+| [setSortNames(boolean value)](#setSortNames-boolean-) | For the description of this property, please see [getSortNames()](../../com.aspose.cells/saveoptions\#getSortNames--) |
+| [setStreamProvider(IStreamProvider value)](#setStreamProvider-com.aspose.cells.IStreamProvider-) | For the description of this property, please see [getStreamProvider()](../../com.aspose.cells/htmlsaveoptions\#getStreamProvider--) |
+| [setTableCssId(String value)](#setTableCssId-java.lang.String-) | For the description of this property, please see [getTableCssId()](../../com.aspose.cells/htmlsaveoptions\#getTableCssId--) |
+| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | For the description of this property, please see [getUpdateSmartArt()](../../com.aspose.cells/saveoptions\#getUpdateSmartArt--) |
+| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | For the description of this property, please see [getValidateMergedAreas()](../../com.aspose.cells/saveoptions\#getValidateMergedAreas--) |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
-| [setWidthScalable(boolean value)](#setWidthScalable-boolean-) | For the description of this property, please see \#getWidthScalable().getWidthScalable() |
-| [setWorksheetScalable(boolean value)](#setWorksheetScalable-boolean-) | For the description of this property, please see \#getWorksheetScalable().getWorksheetScalable() |
+| [setWidthScalable(boolean value)](#setWidthScalable-boolean-) | For the description of this property, please see [getWidthScalable()](../../com.aspose.cells/htmlsaveoptions\#getWidthScalable--) |
+| [setWorksheetScalable(boolean value)](#setWorksheetScalable-boolean-) | For the description of this property, please see [getWorksheetScalable()](../../com.aspose.cells/htmlsaveoptions\#getWorksheetScalable--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -881,7 +881,7 @@ public void setAddTooltipText(boolean value)
 ```
 
 
-For the description of this property, please see \#getAddTooltipText().getAddTooltipText()
+For the description of this property, please see [getAddTooltipText()](../../com.aspose.cells/htmlsaveoptions\#getAddTooltipText--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -894,7 +894,7 @@ public void setAttachedFilesDirectory(String value)
 ```
 
 
-For the description of this property, please see \#getAttachedFilesDirectory().getAttachedFilesDirectory()
+For the description of this property, please see [getAttachedFilesDirectory()](../../com.aspose.cells/htmlsaveoptions\#getAttachedFilesDirectory--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -907,7 +907,7 @@ public void setAttachedFilesUrlPrefix(String value)
 ```
 
 
-For the description of this property, please see \#getAttachedFilesUrlPrefix().getAttachedFilesUrlPrefix()
+For the description of this property, please see [getAttachedFilesUrlPrefix()](../../com.aspose.cells/htmlsaveoptions\#getAttachedFilesUrlPrefix--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -920,7 +920,7 @@ public void setCachedFileFolder(String value)
 ```
 
 
-For the description of this property, please see \#getCachedFileFolder().getCachedFileFolder()
+For the description of this property, please see [getCachedFileFolder()](../../com.aspose.cells/saveoptions\#getCachedFileFolder--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -933,7 +933,7 @@ public void setCellCssPrefix(String value)
 ```
 
 
-For the description of this property, please see \#getCellCssPrefix().getCellCssPrefix()
+For the description of this property, please see [getCellCssPrefix()](../../com.aspose.cells/htmlsaveoptions\#getCellCssPrefix--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -946,7 +946,7 @@ public void setClearData(boolean value)
 ```
 
 
-For the description of this property, please see \#getClearData().getClearData()
+For the description of this property, please see [getClearData()](../../com.aspose.cells/saveoptions\#getClearData--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -959,7 +959,7 @@ public void setCreateDirectory(boolean value)
 ```
 
 
-For the description of this property, please see \#getCreateDirectory().getCreateDirectory()
+For the description of this property, please see [getCreateDirectory()](../../com.aspose.cells/saveoptions\#getCreateDirectory--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -972,7 +972,7 @@ public void setDefaultFontName(String value)
 ```
 
 
-For the description of this property, please see \#getDefaultFontName().getDefaultFontName()
+For the description of this property, please see [getDefaultFontName()](../../com.aspose.cells/htmlsaveoptions\#getDefaultFontName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -985,7 +985,7 @@ public void setDisableDownlevelRevealedComments(boolean value)
 ```
 
 
-For the description of this property, please see \#getDisableDownlevelRevealedComments().getDisableDownlevelRevealedComments()
+For the description of this property, please see [getDisableDownlevelRevealedComments()](../../com.aspose.cells/htmlsaveoptions\#getDisableDownlevelRevealedComments--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -998,7 +998,7 @@ public void setEncoding(Encoding value)
 ```
 
 
-For the description of this property, please see \#getEncoding().getEncoding()
+For the description of this property, please see [getEncoding()](../../com.aspose.cells/htmlsaveoptions\#getEncoding--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1011,7 +1011,7 @@ public void setExcludeUnusedStyles(boolean value)
 ```
 
 
-For the description of this property, please see \#getExcludeUnusedStyles().getExcludeUnusedStyles()
+For the description of this property, please see [getExcludeUnusedStyles()](../../com.aspose.cells/htmlsaveoptions\#getExcludeUnusedStyles--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1024,7 +1024,7 @@ public void setExpImageToTempDir(boolean value)
 ```
 
 
-For the description of this property, please see \#isExpImageToTempDir().isExpImageToTempDir()
+For the description of this property, please see [isExpImageToTempDir()](../../com.aspose.cells/htmlsaveoptions\#isExpImageToTempDir--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1037,7 +1037,7 @@ public void setExportActiveWorksheetOnly(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportActiveWorksheetOnly().getExportActiveWorksheetOnly()
+For the description of this property, please see [getExportActiveWorksheetOnly()](../../com.aspose.cells/htmlsaveoptions\#getExportActiveWorksheetOnly--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1050,7 +1050,7 @@ public void setExportArea(CellArea value)
 ```
 
 
-For the description of this property, please see \#getExportArea().getExportArea()
+For the description of this property, please see [getExportArea()](../../com.aspose.cells/htmlsaveoptions\#getExportArea--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1063,7 +1063,7 @@ public void setExportBogusRowData(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportBogusRowData().getExportBogusRowData()
+For the description of this property, please see [getExportBogusRowData()](../../com.aspose.cells/htmlsaveoptions\#getExportBogusRowData--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1076,7 +1076,7 @@ public void setExportCellCoordinate(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportCellCoordinate().getExportCellCoordinate()
+For the description of this property, please see [getExportCellCoordinate()](../../com.aspose.cells/htmlsaveoptions\#getExportCellCoordinate--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1089,7 +1089,7 @@ public void setExportComments(boolean value)
 ```
 
 
-For the description of this property, please see \#isExportComments().isExportComments()
+For the description of this property, please see [isExportComments()](../../com.aspose.cells/htmlsaveoptions\#isExportComments--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1102,7 +1102,7 @@ public void setExportCommentsType(int value)
 ```
 
 
-For the description of this property, please see \#getExportCommentsType().getExportCommentsType()
+For the description of this property, please see [getExportCommentsType()](../../com.aspose.cells/htmlsaveoptions\#getExportCommentsType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1115,7 +1115,7 @@ public void setExportDataOptions(int value)
 ```
 
 
-For the description of this property, please see \#getExportDataOptions().getExportDataOptions()
+For the description of this property, please see [getExportDataOptions()](../../com.aspose.cells/htmlsaveoptions\#getExportDataOptions--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1128,7 +1128,7 @@ public void setExportDocumentProperties(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportDocumentProperties().getExportDocumentProperties()
+For the description of this property, please see [getExportDocumentProperties()](../../com.aspose.cells/htmlsaveoptions\#getExportDocumentProperties--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1141,7 +1141,7 @@ public void setExportExtraHeadings(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportExtraHeadings().getExportExtraHeadings()
+For the description of this property, please see [getExportExtraHeadings()](../../com.aspose.cells/htmlsaveoptions\#getExportExtraHeadings--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1154,7 +1154,7 @@ public void setExportFormula(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportFormula().getExportFormula()
+For the description of this property, please see [getExportFormula()](../../com.aspose.cells/htmlsaveoptions\#getExportFormula--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1167,7 +1167,7 @@ public void setExportFrameScriptsAndProperties(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportFrameScriptsAndProperties().getExportFrameScriptsAndProperties()
+For the description of this property, please see [getExportFrameScriptsAndProperties()](../../com.aspose.cells/htmlsaveoptions\#getExportFrameScriptsAndProperties--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1180,7 +1180,7 @@ public void setExportGridLines(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportGridLines().getExportGridLines()
+For the description of this property, please see [getExportGridLines()](../../com.aspose.cells/htmlsaveoptions\#getExportGridLines--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1193,7 +1193,7 @@ public void setExportHeadings(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportHeadings().getExportHeadings()
+For the description of this property, please see [getExportHeadings()](../../com.aspose.cells/htmlsaveoptions\#getExportHeadings--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1206,7 +1206,7 @@ public void setExportHiddenWorksheet(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportHiddenWorksheet().getExportHiddenWorksheet()
+For the description of this property, please see [getExportHiddenWorksheet()](../../com.aspose.cells/htmlsaveoptions\#getExportHiddenWorksheet--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1219,7 +1219,7 @@ public void setExportImagesAsBase64(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportImagesAsBase64().getExportImagesAsBase64()
+For the description of this property, please see [getExportImagesAsBase64()](../../com.aspose.cells/htmlsaveoptions\#getExportImagesAsBase64--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1232,7 +1232,7 @@ public void setExportObjectListener(IExportObjectListener value)
 ```
 
 
-For the description of this property, please see \#getExportObjectListener().getExportObjectListener()
+For the description of this property, please see [getExportObjectListener()](../../com.aspose.cells/htmlsaveoptions\#getExportObjectListener--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1245,7 +1245,7 @@ public void setExportPageFooters(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportPageFooters().getExportPageFooters()
+For the description of this property, please see [getExportPageFooters()](../../com.aspose.cells/htmlsaveoptions\#getExportPageFooters--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1258,7 +1258,7 @@ public void setExportPageHeaders(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportPageHeaders().getExportPageHeaders()
+For the description of this property, please see [getExportPageHeaders()](../../com.aspose.cells/htmlsaveoptions\#getExportPageHeaders--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1271,7 +1271,7 @@ public void setExportPrintAreaOnly(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportPrintAreaOnly().getExportPrintAreaOnly()
+For the description of this property, please see [getExportPrintAreaOnly()](../../com.aspose.cells/htmlsaveoptions\#getExportPrintAreaOnly--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1284,7 +1284,7 @@ public void setExportRowColumnHeadings(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportRowColumnHeadings().getExportRowColumnHeadings()
+For the description of this property, please see [getExportRowColumnHeadings()](../../com.aspose.cells/htmlsaveoptions\#getExportRowColumnHeadings--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1297,7 +1297,7 @@ public void setExportSimilarBorderStyle(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportSimilarBorderStyle().getExportSimilarBorderStyle()
+For the description of this property, please see [getExportSimilarBorderStyle()](../../com.aspose.cells/htmlsaveoptions\#getExportSimilarBorderStyle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1310,7 +1310,7 @@ public void setExportSingleTab(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportSingleTab().getExportSingleTab()
+For the description of this property, please see [getExportSingleTab()](../../com.aspose.cells/htmlsaveoptions\#getExportSingleTab--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1323,7 +1323,7 @@ public void setExportWorkbookProperties(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportWorkbookProperties().getExportWorkbookProperties()
+For the description of this property, please see [getExportWorkbookProperties()](../../com.aspose.cells/htmlsaveoptions\#getExportWorkbookProperties--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1336,7 +1336,7 @@ public void setExportWorksheetCSSSeparately(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportWorksheetCSSSeparately().getExportWorksheetCSSSeparately()
+For the description of this property, please see [getExportWorksheetCSSSeparately()](../../com.aspose.cells/htmlsaveoptions\#getExportWorksheetCSSSeparately--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1349,7 +1349,7 @@ public void setExportWorksheetProperties(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportWorksheetProperties().getExportWorksheetProperties()
+For the description of this property, please see [getExportWorksheetProperties()](../../com.aspose.cells/htmlsaveoptions\#getExportWorksheetProperties--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1362,7 +1362,7 @@ public void setFilePathProvider(IFilePathProvider value)
 ```
 
 
-For the description of this property, please see \#getFilePathProvider().getFilePathProvider()
+For the description of this property, please see [getFilePathProvider()](../../com.aspose.cells/htmlsaveoptions\#getFilePathProvider--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1375,7 +1375,7 @@ public void setFullPathLink(boolean value)
 ```
 
 
-For the description of this property, please see \#isFullPathLink().isFullPathLink()
+For the description of this property, please see [isFullPathLink()](../../com.aspose.cells/htmlsaveoptions\#isFullPathLink--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1388,7 +1388,7 @@ public void setHiddenColDisplayType(int value)
 ```
 
 
-For the description of this property, please see \#getHiddenColDisplayType().getHiddenColDisplayType()
+For the description of this property, please see [getHiddenColDisplayType()](../../com.aspose.cells/htmlsaveoptions\#getHiddenColDisplayType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1401,7 +1401,7 @@ public void setHiddenRowDisplayType(int value)
 ```
 
 
-For the description of this property, please see \#getHiddenRowDisplayType().getHiddenRowDisplayType()
+For the description of this property, please see [getHiddenRowDisplayType()](../../com.aspose.cells/htmlsaveoptions\#getHiddenRowDisplayType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1414,7 +1414,7 @@ public void setHtmlCrossStringType(int value)
 ```
 
 
-For the description of this property, please see \#getHtmlCrossStringType().getHtmlCrossStringType()
+For the description of this property, please see [getHtmlCrossStringType()](../../com.aspose.cells/htmlsaveoptions\#getHtmlCrossStringType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1427,7 +1427,7 @@ public void setIgnoreInvisibleShapes(boolean value)
 ```
 
 
-For the description of this property, please see \#getIgnoreInvisibleShapes().getIgnoreInvisibleShapes()
+For the description of this property, please see [getIgnoreInvisibleShapes()](../../com.aspose.cells/htmlsaveoptions\#getIgnoreInvisibleShapes--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1440,7 +1440,7 @@ public void setImageScalable(boolean value)
 ```
 
 
-For the description of this property, please see \#getImageScalable().getImageScalable()
+For the description of this property, please see [getImageScalable()](../../com.aspose.cells/htmlsaveoptions\#getImageScalable--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1453,7 +1453,7 @@ public void setLinkTargetType(int value)
 ```
 
 
-For the description of this property, please see \#getLinkTargetType().getLinkTargetType()
+For the description of this property, please see [getLinkTargetType()](../../com.aspose.cells/htmlsaveoptions\#getLinkTargetType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1466,7 +1466,7 @@ public void setMergeAreas(boolean value)
 ```
 
 
-For the description of this property, please see \#getMergeAreas().getMergeAreas()
+For the description of this property, please see [getMergeAreas()](../../com.aspose.cells/saveoptions\#getMergeAreas--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1479,7 +1479,7 @@ public void setMergeEmptyTdForcely(boolean value)
 ```
 
 
-For the description of this property, please see \#getMergeEmptyTdForcely().getMergeEmptyTdForcely()
+For the description of this property, please see [getMergeEmptyTdForcely()](../../com.aspose.cells/htmlsaveoptions\#getMergeEmptyTdForcely--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1492,7 +1492,7 @@ public void setPageTitle(String value)
 ```
 
 
-For the description of this property, please see \#getPageTitle().getPageTitle()
+For the description of this property, please see [getPageTitle()](../../com.aspose.cells/htmlsaveoptions\#getPageTitle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1505,7 +1505,7 @@ public void setParseHtmlTagInCell(boolean value)
 ```
 
 
-For the description of this property, please see \#getParseHtmlTagInCell().getParseHtmlTagInCell()
+For the description of this property, please see [getParseHtmlTagInCell()](../../com.aspose.cells/htmlsaveoptions\#getParseHtmlTagInCell--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1518,7 +1518,7 @@ public void setPresentationPreference(boolean value)
 ```
 
 
-For the description of this property, please see \#getPresentationPreference().getPresentationPreference()
+For the description of this property, please see [getPresentationPreference()](../../com.aspose.cells/htmlsaveoptions\#getPresentationPreference--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1531,7 +1531,7 @@ public void setRefreshChartCache(boolean value)
 ```
 
 
-For the description of this property, please see \#getRefreshChartCache().getRefreshChartCache()
+For the description of this property, please see [getRefreshChartCache()](../../com.aspose.cells/saveoptions\#getRefreshChartCache--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1544,7 +1544,7 @@ public void setSaveAsSingleFile(boolean value)
 ```
 
 
-For the description of this property, please see \#getSaveAsSingleFile().getSaveAsSingleFile()
+For the description of this property, please see [getSaveAsSingleFile()](../../com.aspose.cells/htmlsaveoptions\#getSaveAsSingleFile--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1557,7 +1557,7 @@ public void setShowAllSheets(boolean value)
 ```
 
 
-For the description of this property, please see \#getShowAllSheets().getShowAllSheets()
+For the description of this property, please see [getShowAllSheets()](../../com.aspose.cells/htmlsaveoptions\#getShowAllSheets--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1570,7 +1570,7 @@ public void setSortExternalNames(boolean value)
 ```
 
 
-For the description of this property, please see \#getSortExternalNames().getSortExternalNames()
+For the description of this property, please see [getSortExternalNames()](../../com.aspose.cells/saveoptions\#getSortExternalNames--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1583,7 +1583,7 @@ public void setSortNames(boolean value)
 ```
 
 
-For the description of this property, please see \#getSortNames().getSortNames()
+For the description of this property, please see [getSortNames()](../../com.aspose.cells/saveoptions\#getSortNames--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1596,7 +1596,7 @@ public void setStreamProvider(IStreamProvider value)
 ```
 
 
-For the description of this property, please see \#getStreamProvider().getStreamProvider()
+For the description of this property, please see [getStreamProvider()](../../com.aspose.cells/htmlsaveoptions\#getStreamProvider--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1609,7 +1609,7 @@ public void setTableCssId(String value)
 ```
 
 
-For the description of this property, please see \#getTableCssId().getTableCssId()
+For the description of this property, please see [getTableCssId()](../../com.aspose.cells/htmlsaveoptions\#getTableCssId--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1622,7 +1622,7 @@ public void setUpdateSmartArt(boolean value)
 ```
 
 
-For the description of this property, please see \#getUpdateSmartArt().getUpdateSmartArt()
+For the description of this property, please see [getUpdateSmartArt()](../../com.aspose.cells/saveoptions\#getUpdateSmartArt--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1635,7 +1635,7 @@ public void setValidateMergedAreas(boolean value)
 ```
 
 
-For the description of this property, please see \#getValidateMergedAreas().getValidateMergedAreas()
+For the description of this property, please see [getValidateMergedAreas()](../../com.aspose.cells/saveoptions\#getValidateMergedAreas--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1661,7 +1661,7 @@ public void setWidthScalable(boolean value)
 ```
 
 
-For the description of this property, please see \#getWidthScalable().getWidthScalable()
+For the description of this property, please see [getWidthScalable()](../../com.aspose.cells/htmlsaveoptions\#getWidthScalable--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1674,7 +1674,7 @@ public void setWorksheetScalable(boolean value)
 ```
 
 
-For the description of this property, please see \#getWorksheetScalable().getWorksheetScalable()
+For the description of this property, please see [getWorksheetScalable()](../../com.aspose.cells/htmlsaveoptions\#getWorksheetScalable--)
 
 **Parameters:**
 | Parameter | Type | Description |

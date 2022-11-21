@@ -30,9 +30,9 @@ A specified range to be allowed to edit when the sheet protection is ON.
 | [isProtectedWithPassword()](#isProtectedWithPassword--) | Indicates whether the worksheets is protected with password. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
-| [setPassword(String value)](#setPassword-java.lang.String-) | For the description of this property, please see \#getPassword().getPassword() |
-| [setSecurityDescriptor(String value)](#setSecurityDescriptor-java.lang.String-) | For the description of this property, please see \#getSecurityDescriptor().getSecurityDescriptor() |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/protectedrange\#getName--) |
+| [setPassword(String value)](#setPassword-java.lang.String-) | For the description of this property, please see [getPassword()](../../com.aspose.cells/protectedrange\#getPassword--) |
+| [setSecurityDescriptor(String value)](#setSecurityDescriptor-java.lang.String-) | For the description of this property, please see [getSecurityDescriptor()](../../com.aspose.cells/protectedrange\#getSecurityDescriptor--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -170,7 +170,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see \#getName().getName()
+For the description of this property, please see [getName()](../../com.aspose.cells/protectedrange\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -183,7 +183,7 @@ public void setPassword(String value)
 ```
 
 
-For the description of this property, please see \#getPassword().getPassword()
+For the description of this property, please see [getPassword()](../../com.aspose.cells/protectedrange\#getPassword--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -196,7 +196,7 @@ public void setSecurityDescriptor(String value)
 ```
 
 
-For the description of this property, please see \#getSecurityDescriptor().getSecurityDescriptor()
+For the description of this property, please see [getSecurityDescriptor()](../../com.aspose.cells/protectedrange\#getSecurityDescriptor--)
 
 **Parameters:**
 | Parameter | Type | Description |

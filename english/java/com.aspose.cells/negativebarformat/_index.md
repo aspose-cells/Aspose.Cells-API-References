@@ -27,10 +27,10 @@ Represents the color settings of the data bars for negative values that are defi
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBorderColor(Color value)](#setBorderColor-com.aspose.cells.Color-) | For the description of this property, please see \#getBorderColor().getBorderColor() |
-| [setBorderColorType(int value)](#setBorderColorType-int-) | For the description of this property, please see \#getBorderColorType().getBorderColorType() |
-| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | For the description of this property, please see \#getColor().getColor() |
-| [setColorType(int value)](#setColorType-int-) | For the description of this property, please see \#getColorType().getColorType() |
+| [setBorderColor(Color value)](#setBorderColor-com.aspose.cells.Color-) | For the description of this property, please see [getBorderColor()](../../com.aspose.cells/negativebarformat\#getBorderColor--) |
+| [setBorderColorType(int value)](#setBorderColorType-int-) | For the description of this property, please see [getBorderColorType()](../../com.aspose.cells/negativebarformat\#getBorderColorType--) |
+| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | For the description of this property, please see [getColor()](../../com.aspose.cells/negativebarformat\#getColor--) |
+| [setColorType(int value)](#setColorType-int-) | For the description of this property, please see [getColorType()](../../com.aspose.cells/negativebarformat\#getColorType--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -132,7 +132,7 @@ public void setBorderColor(Color value)
 ```
 
 
-For the description of this property, please see \#getBorderColor().getBorderColor()
+For the description of this property, please see [getBorderColor()](../../com.aspose.cells/negativebarformat\#getBorderColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setBorderColorType(int value)
 ```
 
 
-For the description of this property, please see \#getBorderColorType().getBorderColorType()
+For the description of this property, please see [getBorderColorType()](../../com.aspose.cells/negativebarformat\#getBorderColorType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public void setColor(Color value)
 ```
 
 
-For the description of this property, please see \#getColor().getColor()
+For the description of this property, please see [getColor()](../../com.aspose.cells/negativebarformat\#getColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,7 +171,7 @@ public void setColorType(int value)
 ```
 
 
-For the description of this property, please see \#getColorType().getColorType()
+For the description of this property, please see [getColorType()](../../com.aspose.cells/negativebarformat\#getColorType--)
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -33,16 +33,16 @@ Represents the properties of series layout.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setMapChartProjectionType(int value)](#setMapChartProjectionType-int-) | For the description of this property, please see \#getMapChartProjectionType().getMapChartProjectionType() |
-| [setMapChartRegionType(int value)](#setMapChartRegionType-int-) | For the description of this property, please see \#getMapChartRegionType().getMapChartRegionType() |
-| [setMapLabelLayout(int value)](#setMapLabelLayout-int-) | For the description of this property, please see \#getMapLabelLayout().getMapLabelLayout() |
-| [setQuartileCalculation(int value)](#setQuartileCalculation-int-) | For the description of this property, please see \#getQuartileCalculation().getQuartileCalculation() |
-| [setShowConnectorLines(boolean value)](#setShowConnectorLines-boolean-) | For the description of this property, please see \#getShowConnectorLines().getShowConnectorLines() |
-| [setShowInnerPoints(boolean value)](#setShowInnerPoints-boolean-) | For the description of this property, please see \#getShowInnerPoints().getShowInnerPoints() |
-| [setShowMeanLine(boolean value)](#setShowMeanLine-boolean-) | For the description of this property, please see \#getShowMeanLine().getShowMeanLine() |
-| [setShowMeanMarker(boolean value)](#setShowMeanMarker-boolean-) | For the description of this property, please see \#getShowMeanMarker().getShowMeanMarker() |
-| [setShowOutlierPoints(boolean value)](#setShowOutlierPoints-boolean-) | For the description of this property, please see \#getShowOutlierPoints().getShowOutlierPoints() |
-| [setSubtotals(int[] value)](#setSubtotals-int---) | For the description of this property, please see \#getSubtotals().getSubtotals() |
+| [setMapChartProjectionType(int value)](#setMapChartProjectionType-int-) | For the description of this property, please see [getMapChartProjectionType()](../../com.aspose.cells/serieslayoutproperties\#getMapChartProjectionType--) |
+| [setMapChartRegionType(int value)](#setMapChartRegionType-int-) | For the description of this property, please see [getMapChartRegionType()](../../com.aspose.cells/serieslayoutproperties\#getMapChartRegionType--) |
+| [setMapLabelLayout(int value)](#setMapLabelLayout-int-) | For the description of this property, please see [getMapLabelLayout()](../../com.aspose.cells/serieslayoutproperties\#getMapLabelLayout--) |
+| [setQuartileCalculation(int value)](#setQuartileCalculation-int-) | For the description of this property, please see [getQuartileCalculation()](../../com.aspose.cells/serieslayoutproperties\#getQuartileCalculation--) |
+| [setShowConnectorLines(boolean value)](#setShowConnectorLines-boolean-) | For the description of this property, please see [getShowConnectorLines()](../../com.aspose.cells/serieslayoutproperties\#getShowConnectorLines--) |
+| [setShowInnerPoints(boolean value)](#setShowInnerPoints-boolean-) | For the description of this property, please see [getShowInnerPoints()](../../com.aspose.cells/serieslayoutproperties\#getShowInnerPoints--) |
+| [setShowMeanLine(boolean value)](#setShowMeanLine-boolean-) | For the description of this property, please see [getShowMeanLine()](../../com.aspose.cells/serieslayoutproperties\#getShowMeanLine--) |
+| [setShowMeanMarker(boolean value)](#setShowMeanMarker-boolean-) | For the description of this property, please see [getShowMeanMarker()](../../com.aspose.cells/serieslayoutproperties\#getShowMeanMarker--) |
+| [setShowOutlierPoints(boolean value)](#setShowOutlierPoints-boolean-) | For the description of this property, please see [getShowOutlierPoints()](../../com.aspose.cells/serieslayoutproperties\#getShowOutlierPoints--) |
+| [setSubtotals(int[] value)](#setSubtotals-int---) | For the description of this property, please see [getSubtotals()](../../com.aspose.cells/serieslayoutproperties\#getSubtotals--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -204,7 +204,7 @@ public void setMapChartProjectionType(int value)
 ```
 
 
-For the description of this property, please see \#getMapChartProjectionType().getMapChartProjectionType()
+For the description of this property, please see [getMapChartProjectionType()](../../com.aspose.cells/serieslayoutproperties\#getMapChartProjectionType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -217,7 +217,7 @@ public void setMapChartRegionType(int value)
 ```
 
 
-For the description of this property, please see \#getMapChartRegionType().getMapChartRegionType()
+For the description of this property, please see [getMapChartRegionType()](../../com.aspose.cells/serieslayoutproperties\#getMapChartRegionType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -230,7 +230,7 @@ public void setMapLabelLayout(int value)
 ```
 
 
-For the description of this property, please see \#getMapLabelLayout().getMapLabelLayout()
+For the description of this property, please see [getMapLabelLayout()](../../com.aspose.cells/serieslayoutproperties\#getMapLabelLayout--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -243,7 +243,7 @@ public void setQuartileCalculation(int value)
 ```
 
 
-For the description of this property, please see \#getQuartileCalculation().getQuartileCalculation()
+For the description of this property, please see [getQuartileCalculation()](../../com.aspose.cells/serieslayoutproperties\#getQuartileCalculation--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -256,7 +256,7 @@ public void setShowConnectorLines(boolean value)
 ```
 
 
-For the description of this property, please see \#getShowConnectorLines().getShowConnectorLines()
+For the description of this property, please see [getShowConnectorLines()](../../com.aspose.cells/serieslayoutproperties\#getShowConnectorLines--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -269,7 +269,7 @@ public void setShowInnerPoints(boolean value)
 ```
 
 
-For the description of this property, please see \#getShowInnerPoints().getShowInnerPoints()
+For the description of this property, please see [getShowInnerPoints()](../../com.aspose.cells/serieslayoutproperties\#getShowInnerPoints--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -282,7 +282,7 @@ public void setShowMeanLine(boolean value)
 ```
 
 
-For the description of this property, please see \#getShowMeanLine().getShowMeanLine()
+For the description of this property, please see [getShowMeanLine()](../../com.aspose.cells/serieslayoutproperties\#getShowMeanLine--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -295,7 +295,7 @@ public void setShowMeanMarker(boolean value)
 ```
 
 
-For the description of this property, please see \#getShowMeanMarker().getShowMeanMarker()
+For the description of this property, please see [getShowMeanMarker()](../../com.aspose.cells/serieslayoutproperties\#getShowMeanMarker--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -308,7 +308,7 @@ public void setShowOutlierPoints(boolean value)
 ```
 
 
-For the description of this property, please see \#getShowOutlierPoints().getShowOutlierPoints()
+For the description of this property, please see [getShowOutlierPoints()](../../com.aspose.cells/serieslayoutproperties\#getShowOutlierPoints--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -321,7 +321,7 @@ public void setSubtotals(int[] value)
 ```
 
 
-For the description of this property, please see \#getSubtotals().getSubtotals()
+For the description of this property, please see [getSubtotals()](../../com.aspose.cells/serieslayoutproperties\#getSubtotals--)
 
 **Parameters:**
 | Parameter | Type | Description |

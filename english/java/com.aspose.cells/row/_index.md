@@ -82,10 +82,10 @@ Represents a single row in a worksheet.
 | [iterator()](#iterator--) | Gets the cells enumerator |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCollapsed(boolean value)](#setCollapsed-boolean-) | For the description of this property, please see \#isCollapsed().isCollapsed() |
-| [setHeight(double value)](#setHeight-double-) | For the description of this property, please see \#getHeight().getHeight() |
-| [setHeightMatched(boolean value)](#setHeightMatched-boolean-) | For the description of this property, please see \#isHeightMatched().isHeightMatched() |
-| [setHidden(boolean value)](#setHidden-boolean-) | For the description of this property, please see \#isHidden().isHidden() |
+| [setCollapsed(boolean value)](#setCollapsed-boolean-) | For the description of this property, please see [isCollapsed()](../../com.aspose.cells/row\#isCollapsed--) |
+| [setHeight(double value)](#setHeight-double-) | For the description of this property, please see [getHeight()](../../com.aspose.cells/row\#getHeight--) |
+| [setHeightMatched(boolean value)](#setHeightMatched-boolean-) | For the description of this property, please see [isHeightMatched()](../../com.aspose.cells/row\#isHeightMatched--) |
+| [setHidden(boolean value)](#setHidden-boolean-) | For the description of this property, please see [isHidden()](../../com.aspose.cells/row\#isHidden--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -383,7 +383,7 @@ public void setCollapsed(boolean value)
 ```
 
 
-For the description of this property, please see \#isCollapsed().isCollapsed()
+For the description of this property, please see [isCollapsed()](../../com.aspose.cells/row\#isCollapsed--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -396,7 +396,7 @@ public void setHeight(double value)
 ```
 
 
-For the description of this property, please see \#getHeight().getHeight()
+For the description of this property, please see [getHeight()](../../com.aspose.cells/row\#getHeight--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -409,7 +409,7 @@ public void setHeightMatched(boolean value)
 ```
 
 
-For the description of this property, please see \#isHeightMatched().isHeightMatched()
+For the description of this property, please see [isHeightMatched()](../../com.aspose.cells/row\#isHeightMatched--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -422,7 +422,7 @@ public void setHidden(boolean value)
 ```
 
 
-For the description of this property, please see \#isHidden().isHidden()
+For the description of this property, please see [isHidden()](../../com.aspose.cells/row\#isHidden--)
 
 **Parameters:**
 | Parameter | Type | Description |

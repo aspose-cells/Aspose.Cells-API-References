@@ -54,15 +54,15 @@ Represent the signature line.
 | [isLine()](#isLine--) | Indicates whether it is a signature line. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAllowComments(boolean value)](#setAllowComments-boolean-) | For the description of this property, please see \#getAllowComments().getAllowComments() |
-| [setEmail(String value)](#setEmail-java.lang.String-) | For the description of this property, please see \#getEmail().getEmail() |
-| [setId(UUID value)](#setId-java.util.UUID-) | For the description of this property, please see \#getId().getId() |
-| [setInstructions(String value)](#setInstructions-java.lang.String-) | For the description of this property, please see \#getInstructions().getInstructions() |
-| [setLine(boolean value)](#setLine-boolean-) | For the description of this property, please see \#isLine().isLine() |
-| [setProviderId(UUID value)](#setProviderId-java.util.UUID-) | For the description of this property, please see \#getProviderId().getProviderId() |
-| [setShowSignedDate(boolean value)](#setShowSignedDate-boolean-) | For the description of this property, please see \#getShowSignedDate().getShowSignedDate() |
-| [setSigner(String value)](#setSigner-java.lang.String-) | For the description of this property, please see \#getSigner().getSigner() |
-| [setTitle(String value)](#setTitle-java.lang.String-) | For the description of this property, please see \#getTitle().getTitle() |
+| [setAllowComments(boolean value)](#setAllowComments-boolean-) | For the description of this property, please see [getAllowComments()](../../com.aspose.cells/signatureline\#getAllowComments--) |
+| [setEmail(String value)](#setEmail-java.lang.String-) | For the description of this property, please see [getEmail()](../../com.aspose.cells/signatureline\#getEmail--) |
+| [setId(UUID value)](#setId-java.util.UUID-) | For the description of this property, please see [getId()](../../com.aspose.cells/signatureline\#getId--) |
+| [setInstructions(String value)](#setInstructions-java.lang.String-) | For the description of this property, please see [getInstructions()](../../com.aspose.cells/signatureline\#getInstructions--) |
+| [setLine(boolean value)](#setLine-boolean-) | For the description of this property, please see [isLine()](../../com.aspose.cells/signatureline\#isLine--) |
+| [setProviderId(UUID value)](#setProviderId-java.util.UUID-) | For the description of this property, please see [getProviderId()](../../com.aspose.cells/signatureline\#getProviderId--) |
+| [setShowSignedDate(boolean value)](#setShowSignedDate-boolean-) | For the description of this property, please see [getShowSignedDate()](../../com.aspose.cells/signatureline\#getShowSignedDate--) |
+| [setSigner(String value)](#setSigner-java.lang.String-) | For the description of this property, please see [getSigner()](../../com.aspose.cells/signatureline\#getSigner--) |
+| [setTitle(String value)](#setTitle-java.lang.String-) | For the description of this property, please see [getTitle()](../../com.aspose.cells/signatureline\#getTitle--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -271,7 +271,7 @@ public void setAllowComments(boolean value)
 ```
 
 
-For the description of this property, please see \#getAllowComments().getAllowComments()
+For the description of this property, please see [getAllowComments()](../../com.aspose.cells/signatureline\#getAllowComments--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -284,7 +284,7 @@ public void setEmail(String value)
 ```
 
 
-For the description of this property, please see \#getEmail().getEmail()
+For the description of this property, please see [getEmail()](../../com.aspose.cells/signatureline\#getEmail--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -297,7 +297,7 @@ public void setId(UUID value)
 ```
 
 
-For the description of this property, please see \#getId().getId()
+For the description of this property, please see [getId()](../../com.aspose.cells/signatureline\#getId--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -310,7 +310,7 @@ public void setInstructions(String value)
 ```
 
 
-For the description of this property, please see \#getInstructions().getInstructions()
+For the description of this property, please see [getInstructions()](../../com.aspose.cells/signatureline\#getInstructions--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -323,7 +323,7 @@ public void setLine(boolean value)
 ```
 
 
-For the description of this property, please see \#isLine().isLine()
+For the description of this property, please see [isLine()](../../com.aspose.cells/signatureline\#isLine--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -336,7 +336,7 @@ public void setProviderId(UUID value)
 ```
 
 
-For the description of this property, please see \#getProviderId().getProviderId()
+For the description of this property, please see [getProviderId()](../../com.aspose.cells/signatureline\#getProviderId--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -349,7 +349,7 @@ public void setShowSignedDate(boolean value)
 ```
 
 
-For the description of this property, please see \#getShowSignedDate().getShowSignedDate()
+For the description of this property, please see [getShowSignedDate()](../../com.aspose.cells/signatureline\#getShowSignedDate--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -362,7 +362,7 @@ public void setSigner(String value)
 ```
 
 
-For the description of this property, please see \#getSigner().getSigner()
+For the description of this property, please see [getSigner()](../../com.aspose.cells/signatureline\#getSigner--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -375,7 +375,7 @@ public void setTitle(String value)
 ```
 
 
-For the description of this property, please see \#getTitle().getTitle()
+For the description of this property, please see [getTitle()](../../com.aspose.cells/signatureline\#getTitle--)
 
 **Parameters:**
 | Parameter | Type | Description |

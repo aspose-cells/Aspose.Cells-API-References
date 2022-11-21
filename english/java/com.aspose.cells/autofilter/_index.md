@@ -60,8 +60,8 @@ Represents autofiltering for the specified worksheet.
 | [removeFilter(int fieldIndex)](#removeFilter-int-) | Remove the specific filter. |
 | [removeFilter(int fieldIndex, String criteria)](#removeFilter-int-java.lang.String-) | Removes a filter for a filter column. |
 | [setRange(int row, int startColumn, int endColumn)](#setRange-int-int-int-) | Sets the range to which the specified AutoFilter applies. |
-| [setRange(String value)](#setRange-java.lang.String-) | For the description of this property, please see \#getRange().getRange() |
-| [setShowFilterButton(boolean value)](#setShowFilterButton-boolean-) | For the description of this property, please see \#getShowFilterButton().getShowFilterButton() |
+| [setRange(String value)](#setRange-java.lang.String-) | For the description of this property, please see [getRange()](../../com.aspose.cells/autofilter\#getRange--) |
+| [setShowFilterButton(boolean value)](#setShowFilterButton-boolean-) | For the description of this property, please see [getShowFilterButton()](../../com.aspose.cells/autofilter\#getShowFilterButton--) |
 | [showAll()](#showAll--) | Unhide all rows. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -443,7 +443,7 @@ public void setRange(String value)
 ```
 
 
-For the description of this property, please see \#getRange().getRange()
+For the description of this property, please see [getRange()](../../com.aspose.cells/autofilter\#getRange--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -456,7 +456,7 @@ public void setShowFilterButton(boolean value)
 ```
 
 
-For the description of this property, please see \#getShowFilterButton().getShowFilterButton()
+For the description of this property, please see [getShowFilterButton()](../../com.aspose.cells/autofilter\#getShowFilterButton--)
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -30,13 +30,13 @@ Represents the text frame in a Shape object.
 | [isAutoMargin()](#isAutoMargin--) | Indicates whether the margin is auto calculated. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoMargin(boolean value)](#setAutoMargin-boolean-) | For the description of this property, please see \#isAutoMargin().isAutoMargin() |
-| [setAutoSize(boolean value)](#setAutoSize-boolean-) | For the description of this property, please see \#getAutoSize().getAutoSize() |
-| [setBottomMarginPt(double value)](#setBottomMarginPt-double-) | For the description of this property, please see \#getBottomMarginPt().getBottomMarginPt() |
-| [setLeftMarginPt(double value)](#setLeftMarginPt-double-) | For the description of this property, please see \#getLeftMarginPt().getLeftMarginPt() |
-| [setRightMarginPt(double value)](#setRightMarginPt-double-) | For the description of this property, please see \#getRightMarginPt().getRightMarginPt() |
-| [setRotateTextWithShape(boolean value)](#setRotateTextWithShape-boolean-) | For the description of this property, please see \#getRotateTextWithShape().getRotateTextWithShape() |
-| [setTopMarginPt(double value)](#setTopMarginPt-double-) | For the description of this property, please see \#getTopMarginPt().getTopMarginPt() |
+| [setAutoMargin(boolean value)](#setAutoMargin-boolean-) | For the description of this property, please see [isAutoMargin()](../../com.aspose.cells/msotextframe\#isAutoMargin--) |
+| [setAutoSize(boolean value)](#setAutoSize-boolean-) | For the description of this property, please see [getAutoSize()](../../com.aspose.cells/msotextframe\#getAutoSize--) |
+| [setBottomMarginPt(double value)](#setBottomMarginPt-double-) | For the description of this property, please see [getBottomMarginPt()](../../com.aspose.cells/msotextframe\#getBottomMarginPt--) |
+| [setLeftMarginPt(double value)](#setLeftMarginPt-double-) | For the description of this property, please see [getLeftMarginPt()](../../com.aspose.cells/msotextframe\#getLeftMarginPt--) |
+| [setRightMarginPt(double value)](#setRightMarginPt-double-) | For the description of this property, please see [getRightMarginPt()](../../com.aspose.cells/msotextframe\#getRightMarginPt--) |
+| [setRotateTextWithShape(boolean value)](#setRotateTextWithShape-boolean-) | For the description of this property, please see [getRotateTextWithShape()](../../com.aspose.cells/msotextframe\#getRotateTextWithShape--) |
+| [setTopMarginPt(double value)](#setTopMarginPt-double-) | For the description of this property, please see [getTopMarginPt()](../../com.aspose.cells/msotextframe\#getTopMarginPt--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -168,7 +168,7 @@ public void setAutoMargin(boolean value)
 ```
 
 
-For the description of this property, please see \#isAutoMargin().isAutoMargin()
+For the description of this property, please see [isAutoMargin()](../../com.aspose.cells/msotextframe\#isAutoMargin--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,7 +181,7 @@ public void setAutoSize(boolean value)
 ```
 
 
-For the description of this property, please see \#getAutoSize().getAutoSize()
+For the description of this property, please see [getAutoSize()](../../com.aspose.cells/msotextframe\#getAutoSize--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -194,7 +194,7 @@ public void setBottomMarginPt(double value)
 ```
 
 
-For the description of this property, please see \#getBottomMarginPt().getBottomMarginPt()
+For the description of this property, please see [getBottomMarginPt()](../../com.aspose.cells/msotextframe\#getBottomMarginPt--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -207,7 +207,7 @@ public void setLeftMarginPt(double value)
 ```
 
 
-For the description of this property, please see \#getLeftMarginPt().getLeftMarginPt()
+For the description of this property, please see [getLeftMarginPt()](../../com.aspose.cells/msotextframe\#getLeftMarginPt--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -220,7 +220,7 @@ public void setRightMarginPt(double value)
 ```
 
 
-For the description of this property, please see \#getRightMarginPt().getRightMarginPt()
+For the description of this property, please see [getRightMarginPt()](../../com.aspose.cells/msotextframe\#getRightMarginPt--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -233,7 +233,7 @@ public void setRotateTextWithShape(boolean value)
 ```
 
 
-For the description of this property, please see \#getRotateTextWithShape().getRotateTextWithShape()
+For the description of this property, please see [getRotateTextWithShape()](../../com.aspose.cells/msotextframe\#getRotateTextWithShape--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ public void setTopMarginPt(double value)
 ```
 
 
-For the description of this property, please see \#getTopMarginPt().getTopMarginPt()
+For the description of this property, please see [getTopMarginPt()](../../com.aspose.cells/msotextframe\#getTopMarginPt--)
 
 **Parameters:**
 | Parameter | Type | Description |

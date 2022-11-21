@@ -25,8 +25,8 @@ Represents tab stop.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setTabAlignment(int value)](#setTabAlignment-int-) | For the description of this property, please see \#getTabAlignment().getTabAlignment() |
-| [setTabPosition(double value)](#setTabPosition-double-) | For the description of this property, please see \#getTabPosition().getTabPosition() |
+| [setTabAlignment(int value)](#setTabAlignment-int-) | For the description of this property, please see [getTabAlignment()](../../com.aspose.cells/texttabstop\#getTabAlignment--) |
+| [setTabPosition(double value)](#setTabPosition-double-) | For the description of this property, please see [getTabPosition()](../../com.aspose.cells/texttabstop\#getTabPosition--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -108,7 +108,7 @@ public void setTabAlignment(int value)
 ```
 
 
-For the description of this property, please see \#getTabAlignment().getTabAlignment()
+For the description of this property, please see [getTabAlignment()](../../com.aspose.cells/texttabstop\#getTabAlignment--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -121,7 +121,7 @@ public void setTabPosition(double value)
 ```
 
 
-For the description of this property, please see \#getTabPosition().getTabPosition()
+For the description of this property, please see [getTabPosition()](../../com.aspose.cells/texttabstop\#getTabPosition--)
 
 **Parameters:**
 | Parameter | Type | Description |

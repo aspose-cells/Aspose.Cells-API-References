@@ -31,14 +31,14 @@ This class specifies a reflection effect.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBlur(double value)](#setBlur-double-) | For the description of this property, please see \#getBlur().getBlur() |
-| [setDirection(double value)](#setDirection-double-) | For the description of this property, please see \#getDirection().getDirection() |
-| [setDistance(double value)](#setDistance-double-) | For the description of this property, please see \#getDistance().getDistance() |
-| [setFadeDirection(double value)](#setFadeDirection-double-) | For the description of this property, please see \#getFadeDirection().getFadeDirection() |
-| [setRotWithShape(boolean value)](#setRotWithShape-boolean-) | For the description of this property, please see \#getRotWithShape().getRotWithShape() |
-| [setSize(double value)](#setSize-double-) | For the description of this property, please see \#getSize().getSize() |
-| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see \#getTransparency().getTransparency() |
-| [setType(int value)](#setType-int-) | For the description of this property, please see \#getType().getType() |
+| [setBlur(double value)](#setBlur-double-) | For the description of this property, please see [getBlur()](../../com.aspose.cells/reflectioneffect\#getBlur--) |
+| [setDirection(double value)](#setDirection-double-) | For the description of this property, please see [getDirection()](../../com.aspose.cells/reflectioneffect\#getDirection--) |
+| [setDistance(double value)](#setDistance-double-) | For the description of this property, please see [getDistance()](../../com.aspose.cells/reflectioneffect\#getDistance--) |
+| [setFadeDirection(double value)](#setFadeDirection-double-) | For the description of this property, please see [getFadeDirection()](../../com.aspose.cells/reflectioneffect\#getFadeDirection--) |
+| [setRotWithShape(boolean value)](#setRotWithShape-boolean-) | For the description of this property, please see [getRotWithShape()](../../com.aspose.cells/reflectioneffect\#getRotWithShape--) |
+| [setSize(double value)](#setSize-double-) | For the description of this property, please see [getSize()](../../com.aspose.cells/reflectioneffect\#getSize--) |
+| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see [getTransparency()](../../com.aspose.cells/reflectioneffect\#getTransparency--) |
+| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/reflectioneffect\#getType--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -180,7 +180,7 @@ public void setBlur(double value)
 ```
 
 
-For the description of this property, please see \#getBlur().getBlur()
+For the description of this property, please see [getBlur()](../../com.aspose.cells/reflectioneffect\#getBlur--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,7 +193,7 @@ public void setDirection(double value)
 ```
 
 
-For the description of this property, please see \#getDirection().getDirection()
+For the description of this property, please see [getDirection()](../../com.aspose.cells/reflectioneffect\#getDirection--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -206,7 +206,7 @@ public void setDistance(double value)
 ```
 
 
-For the description of this property, please see \#getDistance().getDistance()
+For the description of this property, please see [getDistance()](../../com.aspose.cells/reflectioneffect\#getDistance--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -219,7 +219,7 @@ public void setFadeDirection(double value)
 ```
 
 
-For the description of this property, please see \#getFadeDirection().getFadeDirection()
+For the description of this property, please see [getFadeDirection()](../../com.aspose.cells/reflectioneffect\#getFadeDirection--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -232,7 +232,7 @@ public void setRotWithShape(boolean value)
 ```
 
 
-For the description of this property, please see \#getRotWithShape().getRotWithShape()
+For the description of this property, please see [getRotWithShape()](../../com.aspose.cells/reflectioneffect\#getRotWithShape--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -245,7 +245,7 @@ public void setSize(double value)
 ```
 
 
-For the description of this property, please see \#getSize().getSize()
+For the description of this property, please see [getSize()](../../com.aspose.cells/reflectioneffect\#getSize--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -258,7 +258,7 @@ public void setTransparency(double value)
 ```
 
 
-For the description of this property, please see \#getTransparency().getTransparency()
+For the description of this property, please see [getTransparency()](../../com.aspose.cells/reflectioneffect\#getTransparency--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -271,7 +271,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see \#getType().getType()
+For the description of this property, please see [getType()](../../com.aspose.cells/reflectioneffect\#getType--)
 
 **Parameters:**
 | Parameter | Type | Description |

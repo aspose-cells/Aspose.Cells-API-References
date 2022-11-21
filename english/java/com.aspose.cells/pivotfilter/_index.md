@@ -89,12 +89,12 @@ Workbook book = new Workbook();
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setEvaluationOrder(int value)](#setEvaluationOrder-int-) | For the description of this property, please see \#getEvaluationOrder().getEvaluationOrder() |
-| [setMeasureFldIndex(int value)](#setMeasureFldIndex-int-) | For the description of this property, please see \#getMeasureFldIndex().getMeasureFldIndex() |
-| [setMemberPropertyFieldIndex(int value)](#setMemberPropertyFieldIndex-int-) | For the description of this property, please see \#getMemberPropertyFieldIndex().getMemberPropertyFieldIndex() |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
-| [setValue1(String value)](#setValue1-java.lang.String-) | For the description of this property, please see \#getValue1().getValue1() |
-| [setValue2(String value)](#setValue2-java.lang.String-) | For the description of this property, please see \#getValue2().getValue2() |
+| [setEvaluationOrder(int value)](#setEvaluationOrder-int-) | For the description of this property, please see [getEvaluationOrder()](../../com.aspose.cells/pivotfilter\#getEvaluationOrder--) |
+| [setMeasureFldIndex(int value)](#setMeasureFldIndex-int-) | For the description of this property, please see [getMeasureFldIndex()](../../com.aspose.cells/pivotfilter\#getMeasureFldIndex--) |
+| [setMemberPropertyFieldIndex(int value)](#setMemberPropertyFieldIndex-int-) | For the description of this property, please see [getMemberPropertyFieldIndex()](../../com.aspose.cells/pivotfilter\#getMemberPropertyFieldIndex--) |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/pivotfilter\#getName--) |
+| [setValue1(String value)](#setValue1-java.lang.String-) | For the description of this property, please see [getValue1()](../../com.aspose.cells/pivotfilter\#getValue1--) |
+| [setValue2(String value)](#setValue2-java.lang.String-) | For the description of this property, please see [getValue2()](../../com.aspose.cells/pivotfilter\#getValue2--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -246,7 +246,7 @@ public void setEvaluationOrder(int value)
 ```
 
 
-For the description of this property, please see \#getEvaluationOrder().getEvaluationOrder()
+For the description of this property, please see [getEvaluationOrder()](../../com.aspose.cells/pivotfilter\#getEvaluationOrder--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -259,7 +259,7 @@ public void setMeasureFldIndex(int value)
 ```
 
 
-For the description of this property, please see \#getMeasureFldIndex().getMeasureFldIndex()
+For the description of this property, please see [getMeasureFldIndex()](../../com.aspose.cells/pivotfilter\#getMeasureFldIndex--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -272,7 +272,7 @@ public void setMemberPropertyFieldIndex(int value)
 ```
 
 
-For the description of this property, please see \#getMemberPropertyFieldIndex().getMemberPropertyFieldIndex()
+For the description of this property, please see [getMemberPropertyFieldIndex()](../../com.aspose.cells/pivotfilter\#getMemberPropertyFieldIndex--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -285,7 +285,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see \#getName().getName()
+For the description of this property, please see [getName()](../../com.aspose.cells/pivotfilter\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -298,7 +298,7 @@ public void setValue1(String value)
 ```
 
 
-For the description of this property, please see \#getValue1().getValue1()
+For the description of this property, please see [getValue1()](../../com.aspose.cells/pivotfilter\#getValue1--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -311,7 +311,7 @@ public void setValue2(String value)
 ```
 
 
-For the description of this property, please see \#getValue2().getValue2()
+For the description of this property, please see [getValue2()](../../com.aspose.cells/pivotfilter\#getValue2--)
 
 **Parameters:**
 | Parameter | Type | Description |

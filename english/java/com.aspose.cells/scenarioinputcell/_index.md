@@ -28,8 +28,8 @@ Represents input cell for the scenario.
 | [isDeleted()](#isDeleted--) | Indicates whether input cell is deleted. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDeleted(boolean value)](#setDeleted-boolean-) | For the description of this property, please see \#isDeleted().isDeleted() |
-| [setValue(String value)](#setValue-java.lang.String-) | For the description of this property, please see \#getValue().getValue() |
+| [setDeleted(boolean value)](#setDeleted-boolean-) | For the description of this property, please see [isDeleted()](../../com.aspose.cells/scenarioinputcell\#isDeleted--) |
+| [setValue(String value)](#setValue-java.lang.String-) | For the description of this property, please see [getValue()](../../com.aspose.cells/scenarioinputcell\#getValue--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -141,7 +141,7 @@ public void setDeleted(boolean value)
 ```
 
 
-For the description of this property, please see \#isDeleted().isDeleted()
+For the description of this property, please see [isDeleted()](../../com.aspose.cells/scenarioinputcell\#isDeleted--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -154,7 +154,7 @@ public void setValue(String value)
 ```
 
 
-For the description of this property, please see \#getValue().getValue()
+For the description of this property, please see [getValue()](../../com.aspose.cells/scenarioinputcell\#getValue--)
 
 **Parameters:**
 | Parameter | Type | Description |

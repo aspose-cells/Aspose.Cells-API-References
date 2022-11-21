@@ -27,7 +27,7 @@ Warning info
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCorrectedObject(Object value)](#setCorrectedObject-java.lang.Object-) | For the description of this property, please see \#getCorrectedObject().getCorrectedObject() |
+| [setCorrectedObject(Object value)](#setCorrectedObject-java.lang.Object-) | For the description of this property, please see [getCorrectedObject()](../../com.aspose.cells/warninginfo\#getCorrectedObject--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -129,7 +129,7 @@ public void setCorrectedObject(Object value)
 ```
 
 
-For the description of this property, please see \#getCorrectedObject().getCorrectedObject()
+For the description of this property, please see [getCorrectedObject()](../../com.aspose.cells/warninginfo\#getCorrectedObject--)
 
 **Parameters:**
 | Parameter | Type | Description |

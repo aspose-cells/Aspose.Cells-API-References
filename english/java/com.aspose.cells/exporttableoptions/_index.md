@@ -35,18 +35,18 @@ Represents all export table options.
 | [isVertical()](#isVertical--) | True if a row in Workbook file represents a row in DataTable. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCheckMixedValueType(boolean value)](#setCheckMixedValueType-boolean-) | For the description of this property, please see \#getCheckMixedValueType().getCheckMixedValueType() |
-| [setExportAsHtmlString(boolean value)](#setExportAsHtmlString-boolean-) | For the description of this property, please see \#getExportAsHtmlString().getExportAsHtmlString() |
-| [setExportAsString(boolean value)](#setExportAsString-boolean-) | For the description of this property, please see \#getExportAsString().getExportAsString() |
-| [setExportColumnName(boolean value)](#setExportColumnName-boolean-) | For the description of this property, please see \#getExportColumnName().getExportColumnName() |
-| [setFormatStrategy(int value)](#setFormatStrategy-int-) | For the description of this property, please see \#getFormatStrategy().getFormatStrategy() |
-| [setIndexes(int[] value)](#setIndexes-int---) | For the description of this property, please see \#getIndexes().getIndexes() |
-| [setPlotVisibleCells(boolean value)](#setPlotVisibleCells-boolean-) | For the description of this property, please see \#getPlotVisibleCells().getPlotVisibleCells() |
-| [setPlotVisibleColumns(boolean value)](#setPlotVisibleColumns-boolean-) | For the description of this property, please see \#getPlotVisibleColumns().getPlotVisibleColumns() |
-| [setPlotVisibleRows(boolean value)](#setPlotVisibleRows-boolean-) | For the description of this property, please see \#getPlotVisibleRows().getPlotVisibleRows() |
-| [setRenameStrategy(int value)](#setRenameStrategy-int-) | For the description of this property, please see \#getRenameStrategy().getRenameStrategy() |
-| [setSkipErrorValue(boolean value)](#setSkipErrorValue-boolean-) | For the description of this property, please see \#getSkipErrorValue().getSkipErrorValue() |
-| [setVertical(boolean value)](#setVertical-boolean-) | For the description of this property, please see \#isVertical().isVertical() |
+| [setCheckMixedValueType(boolean value)](#setCheckMixedValueType-boolean-) | For the description of this property, please see [getCheckMixedValueType()](../../com.aspose.cells/exporttableoptions\#getCheckMixedValueType--) |
+| [setExportAsHtmlString(boolean value)](#setExportAsHtmlString-boolean-) | For the description of this property, please see [getExportAsHtmlString()](../../com.aspose.cells/exporttableoptions\#getExportAsHtmlString--) |
+| [setExportAsString(boolean value)](#setExportAsString-boolean-) | For the description of this property, please see [getExportAsString()](../../com.aspose.cells/exporttableoptions\#getExportAsString--) |
+| [setExportColumnName(boolean value)](#setExportColumnName-boolean-) | For the description of this property, please see [getExportColumnName()](../../com.aspose.cells/exporttableoptions\#getExportColumnName--) |
+| [setFormatStrategy(int value)](#setFormatStrategy-int-) | For the description of this property, please see [getFormatStrategy()](../../com.aspose.cells/exporttableoptions\#getFormatStrategy--) |
+| [setIndexes(int[] value)](#setIndexes-int---) | For the description of this property, please see [getIndexes()](../../com.aspose.cells/exporttableoptions\#getIndexes--) |
+| [setPlotVisibleCells(boolean value)](#setPlotVisibleCells-boolean-) | For the description of this property, please see [getPlotVisibleCells()](../../com.aspose.cells/exporttableoptions\#getPlotVisibleCells--) |
+| [setPlotVisibleColumns(boolean value)](#setPlotVisibleColumns-boolean-) | For the description of this property, please see [getPlotVisibleColumns()](../../com.aspose.cells/exporttableoptions\#getPlotVisibleColumns--) |
+| [setPlotVisibleRows(boolean value)](#setPlotVisibleRows-boolean-) | For the description of this property, please see [getPlotVisibleRows()](../../com.aspose.cells/exporttableoptions\#getPlotVisibleRows--) |
+| [setRenameStrategy(int value)](#setRenameStrategy-int-) | For the description of this property, please see [getRenameStrategy()](../../com.aspose.cells/exporttableoptions\#getRenameStrategy--) |
+| [setSkipErrorValue(boolean value)](#setSkipErrorValue-boolean-) | For the description of this property, please see [getSkipErrorValue()](../../com.aspose.cells/exporttableoptions\#getSkipErrorValue--) |
+| [setVertical(boolean value)](#setVertical-boolean-) | For the description of this property, please see [isVertical()](../../com.aspose.cells/exporttableoptions\#isVertical--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -228,7 +228,7 @@ public void setCheckMixedValueType(boolean value)
 ```
 
 
-For the description of this property, please see \#getCheckMixedValueType().getCheckMixedValueType()
+For the description of this property, please see [getCheckMixedValueType()](../../com.aspose.cells/exporttableoptions\#getCheckMixedValueType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -241,7 +241,7 @@ public void setExportAsHtmlString(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportAsHtmlString().getExportAsHtmlString()
+For the description of this property, please see [getExportAsHtmlString()](../../com.aspose.cells/exporttableoptions\#getExportAsHtmlString--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -254,7 +254,7 @@ public void setExportAsString(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportAsString().getExportAsString()
+For the description of this property, please see [getExportAsString()](../../com.aspose.cells/exporttableoptions\#getExportAsString--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -267,7 +267,7 @@ public void setExportColumnName(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportColumnName().getExportColumnName()
+For the description of this property, please see [getExportColumnName()](../../com.aspose.cells/exporttableoptions\#getExportColumnName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -280,7 +280,7 @@ public void setFormatStrategy(int value)
 ```
 
 
-For the description of this property, please see \#getFormatStrategy().getFormatStrategy()
+For the description of this property, please see [getFormatStrategy()](../../com.aspose.cells/exporttableoptions\#getFormatStrategy--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -293,7 +293,7 @@ public void setIndexes(int[] value)
 ```
 
 
-For the description of this property, please see \#getIndexes().getIndexes()
+For the description of this property, please see [getIndexes()](../../com.aspose.cells/exporttableoptions\#getIndexes--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -306,7 +306,7 @@ public void setPlotVisibleCells(boolean value)
 ```
 
 
-For the description of this property, please see \#getPlotVisibleCells().getPlotVisibleCells()
+For the description of this property, please see [getPlotVisibleCells()](../../com.aspose.cells/exporttableoptions\#getPlotVisibleCells--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -319,7 +319,7 @@ public void setPlotVisibleColumns(boolean value)
 ```
 
 
-For the description of this property, please see \#getPlotVisibleColumns().getPlotVisibleColumns()
+For the description of this property, please see [getPlotVisibleColumns()](../../com.aspose.cells/exporttableoptions\#getPlotVisibleColumns--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -332,7 +332,7 @@ public void setPlotVisibleRows(boolean value)
 ```
 
 
-For the description of this property, please see \#getPlotVisibleRows().getPlotVisibleRows()
+For the description of this property, please see [getPlotVisibleRows()](../../com.aspose.cells/exporttableoptions\#getPlotVisibleRows--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -345,7 +345,7 @@ public void setRenameStrategy(int value)
 ```
 
 
-For the description of this property, please see \#getRenameStrategy().getRenameStrategy()
+For the description of this property, please see [getRenameStrategy()](../../com.aspose.cells/exporttableoptions\#getRenameStrategy--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -358,7 +358,7 @@ public void setSkipErrorValue(boolean value)
 ```
 
 
-For the description of this property, please see \#getSkipErrorValue().getSkipErrorValue()
+For the description of this property, please see [getSkipErrorValue()](../../com.aspose.cells/exporttableoptions\#getSkipErrorValue--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -371,7 +371,7 @@ public void setVertical(boolean value)
 ```
 
 
-For the description of this property, please see \#isVertical().isVertical()
+For the description of this property, please see [isVertical()](../../com.aspose.cells/exporttableoptions\#isVertical--)
 
 **Parameters:**
 | Parameter | Type | Description |

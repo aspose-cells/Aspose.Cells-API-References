@@ -26,8 +26,8 @@ Represents the custom filter.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCriteria(int filterOperator, Object criteria)](#setCriteria-int-java.lang.Object-) | Sets the filter criteria. |
-| [setCriteria(Object value)](#setCriteria-java.lang.Object-) | For the description of this property, please see \#getCriteria().getCriteria() |
-| [setFilterOperatorType(int value)](#setFilterOperatorType-int-) | For the description of this property, please see \#getFilterOperatorType().getFilterOperatorType() |
+| [setCriteria(Object value)](#setCriteria-java.lang.Object-) | For the description of this property, please see [getCriteria()](../../com.aspose.cells/customfilter\#getCriteria--) |
+| [setFilterOperatorType(int value)](#setFilterOperatorType-int-) | For the description of this property, please see [getFilterOperatorType()](../../com.aspose.cells/customfilter\#getFilterOperatorType--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -123,7 +123,7 @@ public void setCriteria(Object value)
 ```
 
 
-For the description of this property, please see \#getCriteria().getCriteria()
+For the description of this property, please see [getCriteria()](../../com.aspose.cells/customfilter\#getCriteria--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -136,7 +136,7 @@ public void setFilterOperatorType(int value)
 ```
 
 
-For the description of this property, please see \#getFilterOperatorType().getFilterOperatorType()
+For the description of this property, please see [getFilterOperatorType()](../../com.aspose.cells/customfilter\#getFilterOperatorType--)
 
 **Parameters:**
 | Parameter | Type | Description |

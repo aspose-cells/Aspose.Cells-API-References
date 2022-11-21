@@ -31,8 +31,8 @@ Represents the options of loading metadata of the file.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setKeyLength(int value)](#setKeyLength-int-) | For the description of this property, please see \#getKeyLength().getKeyLength() |
-| [setPassword(String value)](#setPassword-java.lang.String-) | For the description of this property, please see \#getPassword().getPassword() |
+| [setKeyLength(int value)](#setKeyLength-int-) | For the description of this property, please see [getKeyLength()](../../com.aspose.cells/metadataoptions\#getKeyLength--) |
+| [setPassword(String value)](#setPassword-java.lang.String-) | For the description of this property, please see [getPassword()](../../com.aspose.cells/metadataoptions\#getPassword--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -137,7 +137,7 @@ public void setKeyLength(int value)
 ```
 
 
-For the description of this property, please see \#getKeyLength().getKeyLength()
+For the description of this property, please see [getKeyLength()](../../com.aspose.cells/metadataoptions\#getKeyLength--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -150,7 +150,7 @@ public void setPassword(String value)
 ```
 
 
-For the description of this property, please see \#getPassword().getPassword()
+For the description of this property, please see [getPassword()](../../com.aspose.cells/metadataoptions\#getPassword--)
 
 **Parameters:**
 | Parameter | Type | Description |

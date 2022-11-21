@@ -27,10 +27,10 @@ Represents the top 10 filter.
 | [isTop()](#isTop--) | Indicates whether it's top filter. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCriteria(Object value)](#setCriteria-java.lang.Object-) | For the description of this property, please see \#getCriteria().getCriteria() |
-| [setItems(int value)](#setItems-int-) | For the description of this property, please see \#getItems().getItems() |
-| [setPercent(boolean value)](#setPercent-boolean-) | For the description of this property, please see \#isPercent().isPercent() |
-| [setTop(boolean value)](#setTop-boolean-) | For the description of this property, please see \#isTop().isTop() |
+| [setCriteria(Object value)](#setCriteria-java.lang.Object-) | For the description of this property, please see [getCriteria()](../../com.aspose.cells/top10filter\#getCriteria--) |
+| [setItems(int value)](#setItems-int-) | For the description of this property, please see [getItems()](../../com.aspose.cells/top10filter\#getItems--) |
+| [setPercent(boolean value)](#setPercent-boolean-) | For the description of this property, please see [isPercent()](../../com.aspose.cells/top10filter\#isPercent--) |
+| [setTop(boolean value)](#setTop-boolean-) | For the description of this property, please see [isTop()](../../com.aspose.cells/top10filter\#isTop--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -132,7 +132,7 @@ public void setCriteria(Object value)
 ```
 
 
-For the description of this property, please see \#getCriteria().getCriteria()
+For the description of this property, please see [getCriteria()](../../com.aspose.cells/top10filter\#getCriteria--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setItems(int value)
 ```
 
 
-For the description of this property, please see \#getItems().getItems()
+For the description of this property, please see [getItems()](../../com.aspose.cells/top10filter\#getItems--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public void setPercent(boolean value)
 ```
 
 
-For the description of this property, please see \#isPercent().isPercent()
+For the description of this property, please see [isPercent()](../../com.aspose.cells/top10filter\#isPercent--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,7 +171,7 @@ public void setTop(boolean value)
 ```
 
 
-For the description of this property, please see \#isTop().isTop()
+For the description of this property, please see [isTop()](../../com.aspose.cells/top10filter\#isTop--)
 
 **Parameters:**
 | Parameter | Type | Description |

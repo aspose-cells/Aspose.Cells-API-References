@@ -83,12 +83,12 @@ Workbook book = new Workbook();
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCaption(String value)](#setCaption-java.lang.String-) | For the description of this property, please see \#getCaption().getCaption() |
-| [setHeightPixel(int value)](#setHeightPixel-int-) | For the description of this property, please see \#getHeightPixel().getHeightPixel() |
-| [setLeftPixel(int value)](#setLeftPixel-int-) | For the description of this property, please see \#getLeftPixel().getLeftPixel() |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
-| [setTopPixel(int value)](#setTopPixel-int-) | For the description of this property, please see \#getTopPixel().getTopPixel() |
-| [setWidthPixel(int value)](#setWidthPixel-int-) | For the description of this property, please see \#getWidthPixel().getWidthPixel() |
+| [setCaption(String value)](#setCaption-java.lang.String-) | For the description of this property, please see [getCaption()](../../com.aspose.cells/timeline\#getCaption--) |
+| [setHeightPixel(int value)](#setHeightPixel-int-) | For the description of this property, please see [getHeightPixel()](../../com.aspose.cells/timeline\#getHeightPixel--) |
+| [setLeftPixel(int value)](#setLeftPixel-int-) | For the description of this property, please see [getLeftPixel()](../../com.aspose.cells/timeline\#getLeftPixel--) |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/timeline\#getName--) |
+| [setTopPixel(int value)](#setTopPixel-int-) | For the description of this property, please see [getTopPixel()](../../com.aspose.cells/timeline\#getTopPixel--) |
+| [setWidthPixel(int value)](#setWidthPixel-int-) | For the description of this property, please see [getWidthPixel()](../../com.aspose.cells/timeline\#getWidthPixel--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -220,7 +220,7 @@ public void setCaption(String value)
 ```
 
 
-For the description of this property, please see \#getCaption().getCaption()
+For the description of this property, please see [getCaption()](../../com.aspose.cells/timeline\#getCaption--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -233,7 +233,7 @@ public void setHeightPixel(int value)
 ```
 
 
-For the description of this property, please see \#getHeightPixel().getHeightPixel()
+For the description of this property, please see [getHeightPixel()](../../com.aspose.cells/timeline\#getHeightPixel--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ public void setLeftPixel(int value)
 ```
 
 
-For the description of this property, please see \#getLeftPixel().getLeftPixel()
+For the description of this property, please see [getLeftPixel()](../../com.aspose.cells/timeline\#getLeftPixel--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -259,7 +259,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see \#getName().getName()
+For the description of this property, please see [getName()](../../com.aspose.cells/timeline\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -272,7 +272,7 @@ public void setTopPixel(int value)
 ```
 
 
-For the description of this property, please see \#getTopPixel().getTopPixel()
+For the description of this property, please see [getTopPixel()](../../com.aspose.cells/timeline\#getTopPixel--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -285,7 +285,7 @@ public void setWidthPixel(int value)
 ```
 
 
-For the description of this property, please see \#getWidthPixel().getWidthPixel()
+For the description of this property, please see [getWidthPixel()](../../com.aspose.cells/timeline\#getWidthPixel--)
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -43,26 +43,26 @@ Represents a shape's three-dimensional formatting.
 | [hashCode()](#hashCode--) | Gets hashcode. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBottomBevelHeight(double value)](#setBottomBevelHeight-double-) | For the description of this property, please see \#getBottomBevelHeight().getBottomBevelHeight() |
-| [setBottomBevelType(int value)](#setBottomBevelType-int-) | For the description of this property, please see \#getBottomBevelType().getBottomBevelType() |
-| [setBottomBevelWidth(double value)](#setBottomBevelWidth-double-) | For the description of this property, please see \#getBottomBevelWidth().getBottomBevelWidth() |
-| [setContourColor(CellsColor value)](#setContourColor-com.aspose.cells.CellsColor-) | For the description of this property, please see \#getContourColor().getContourColor() |
-| [setContourWidth(double value)](#setContourWidth-double-) | For the description of this property, please see \#getContourWidth().getContourWidth() |
-| [setExtrusionColor(CellsColor value)](#setExtrusionColor-com.aspose.cells.CellsColor-) | For the description of this property, please see \#getExtrusionColor().getExtrusionColor() |
-| [setExtrusionHeight(double value)](#setExtrusionHeight-double-) | For the description of this property, please see \#getExtrusionHeight().getExtrusionHeight() |
-| [setLightAngle(double value)](#setLightAngle-double-) | For the description of this property, please see \#getLightAngle().getLightAngle() |
-| [setLighting(int value)](#setLighting-int-) | For the description of this property, please see \#getLighting().getLighting() |
-| [setLightingDirection(int value)](#setLightingDirection-int-) | For the description of this property, please see \#getLightingDirection().getLightingDirection() |
-| [setMaterial(int value)](#setMaterial-int-) | For the description of this property, please see \#getMaterial().getMaterial() |
-| [setPerspective(double value)](#setPerspective-double-) | For the description of this property, please see \#getPerspective().getPerspective() |
-| [setPresetCameraType(int value)](#setPresetCameraType-int-) | For the description of this property, please see \#getPresetCameraType().getPresetCameraType() |
-| [setRotationX(double value)](#setRotationX-double-) | For the description of this property, please see \#getRotationX().getRotationX() |
-| [setRotationY(double value)](#setRotationY-double-) | For the description of this property, please see \#getRotationY().getRotationY() |
-| [setRotationZ(double value)](#setRotationZ-double-) | For the description of this property, please see \#getRotationZ().getRotationZ() |
-| [setTopBevelHeight(double value)](#setTopBevelHeight-double-) | For the description of this property, please see \#getTopBevelHeight().getTopBevelHeight() |
-| [setTopBevelType(int value)](#setTopBevelType-int-) | For the description of this property, please see \#getTopBevelType().getTopBevelType() |
-| [setTopBevelWidth(double value)](#setTopBevelWidth-double-) | For the description of this property, please see \#getTopBevelWidth().getTopBevelWidth() |
-| [setZ(double value)](#setZ-double-) | For the description of this property, please see \#getZ().getZ() |
+| [setBottomBevelHeight(double value)](#setBottomBevelHeight-double-) | For the description of this property, please see [getBottomBevelHeight()](../../com.aspose.cells/threedformat\#getBottomBevelHeight--) |
+| [setBottomBevelType(int value)](#setBottomBevelType-int-) | For the description of this property, please see [getBottomBevelType()](../../com.aspose.cells/threedformat\#getBottomBevelType--) |
+| [setBottomBevelWidth(double value)](#setBottomBevelWidth-double-) | For the description of this property, please see [getBottomBevelWidth()](../../com.aspose.cells/threedformat\#getBottomBevelWidth--) |
+| [setContourColor(CellsColor value)](#setContourColor-com.aspose.cells.CellsColor-) | For the description of this property, please see [getContourColor()](../../com.aspose.cells/threedformat\#getContourColor--) |
+| [setContourWidth(double value)](#setContourWidth-double-) | For the description of this property, please see [getContourWidth()](../../com.aspose.cells/threedformat\#getContourWidth--) |
+| [setExtrusionColor(CellsColor value)](#setExtrusionColor-com.aspose.cells.CellsColor-) | For the description of this property, please see [getExtrusionColor()](../../com.aspose.cells/threedformat\#getExtrusionColor--) |
+| [setExtrusionHeight(double value)](#setExtrusionHeight-double-) | For the description of this property, please see [getExtrusionHeight()](../../com.aspose.cells/threedformat\#getExtrusionHeight--) |
+| [setLightAngle(double value)](#setLightAngle-double-) | For the description of this property, please see [getLightAngle()](../../com.aspose.cells/threedformat\#getLightAngle--) |
+| [setLighting(int value)](#setLighting-int-) | For the description of this property, please see [getLighting()](../../com.aspose.cells/threedformat\#getLighting--) |
+| [setLightingDirection(int value)](#setLightingDirection-int-) | For the description of this property, please see [getLightingDirection()](../../com.aspose.cells/threedformat\#getLightingDirection--) |
+| [setMaterial(int value)](#setMaterial-int-) | For the description of this property, please see [getMaterial()](../../com.aspose.cells/threedformat\#getMaterial--) |
+| [setPerspective(double value)](#setPerspective-double-) | For the description of this property, please see [getPerspective()](../../com.aspose.cells/threedformat\#getPerspective--) |
+| [setPresetCameraType(int value)](#setPresetCameraType-int-) | For the description of this property, please see [getPresetCameraType()](../../com.aspose.cells/threedformat\#getPresetCameraType--) |
+| [setRotationX(double value)](#setRotationX-double-) | For the description of this property, please see [getRotationX()](../../com.aspose.cells/threedformat\#getRotationX--) |
+| [setRotationY(double value)](#setRotationY-double-) | For the description of this property, please see [getRotationY()](../../com.aspose.cells/threedformat\#getRotationY--) |
+| [setRotationZ(double value)](#setRotationZ-double-) | For the description of this property, please see [getRotationZ()](../../com.aspose.cells/threedformat\#getRotationZ--) |
+| [setTopBevelHeight(double value)](#setTopBevelHeight-double-) | For the description of this property, please see [getTopBevelHeight()](../../com.aspose.cells/threedformat\#getTopBevelHeight--) |
+| [setTopBevelType(int value)](#setTopBevelType-int-) | For the description of this property, please see [getTopBevelType()](../../com.aspose.cells/threedformat\#getTopBevelType--) |
+| [setTopBevelWidth(double value)](#setTopBevelWidth-double-) | For the description of this property, please see [getTopBevelWidth()](../../com.aspose.cells/threedformat\#getTopBevelWidth--) |
+| [setZ(double value)](#setZ-double-) | For the description of this property, please see [getZ()](../../com.aspose.cells/threedformat\#getZ--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -324,7 +324,7 @@ public void setBottomBevelHeight(double value)
 ```
 
 
-For the description of this property, please see \#getBottomBevelHeight().getBottomBevelHeight()
+For the description of this property, please see [getBottomBevelHeight()](../../com.aspose.cells/threedformat\#getBottomBevelHeight--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -337,7 +337,7 @@ public void setBottomBevelType(int value)
 ```
 
 
-For the description of this property, please see \#getBottomBevelType().getBottomBevelType()
+For the description of this property, please see [getBottomBevelType()](../../com.aspose.cells/threedformat\#getBottomBevelType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -350,7 +350,7 @@ public void setBottomBevelWidth(double value)
 ```
 
 
-For the description of this property, please see \#getBottomBevelWidth().getBottomBevelWidth()
+For the description of this property, please see [getBottomBevelWidth()](../../com.aspose.cells/threedformat\#getBottomBevelWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -363,7 +363,7 @@ public void setContourColor(CellsColor value)
 ```
 
 
-For the description of this property, please see \#getContourColor().getContourColor()
+For the description of this property, please see [getContourColor()](../../com.aspose.cells/threedformat\#getContourColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -376,7 +376,7 @@ public void setContourWidth(double value)
 ```
 
 
-For the description of this property, please see \#getContourWidth().getContourWidth()
+For the description of this property, please see [getContourWidth()](../../com.aspose.cells/threedformat\#getContourWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -389,7 +389,7 @@ public void setExtrusionColor(CellsColor value)
 ```
 
 
-For the description of this property, please see \#getExtrusionColor().getExtrusionColor()
+For the description of this property, please see [getExtrusionColor()](../../com.aspose.cells/threedformat\#getExtrusionColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -402,7 +402,7 @@ public void setExtrusionHeight(double value)
 ```
 
 
-For the description of this property, please see \#getExtrusionHeight().getExtrusionHeight()
+For the description of this property, please see [getExtrusionHeight()](../../com.aspose.cells/threedformat\#getExtrusionHeight--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -415,7 +415,7 @@ public void setLightAngle(double value)
 ```
 
 
-For the description of this property, please see \#getLightAngle().getLightAngle()
+For the description of this property, please see [getLightAngle()](../../com.aspose.cells/threedformat\#getLightAngle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -428,7 +428,7 @@ public void setLighting(int value)
 ```
 
 
-For the description of this property, please see \#getLighting().getLighting()
+For the description of this property, please see [getLighting()](../../com.aspose.cells/threedformat\#getLighting--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -441,7 +441,7 @@ public void setLightingDirection(int value)
 ```
 
 
-For the description of this property, please see \#getLightingDirection().getLightingDirection()
+For the description of this property, please see [getLightingDirection()](../../com.aspose.cells/threedformat\#getLightingDirection--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -454,7 +454,7 @@ public void setMaterial(int value)
 ```
 
 
-For the description of this property, please see \#getMaterial().getMaterial()
+For the description of this property, please see [getMaterial()](../../com.aspose.cells/threedformat\#getMaterial--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -467,7 +467,7 @@ public void setPerspective(double value)
 ```
 
 
-For the description of this property, please see \#getPerspective().getPerspective()
+For the description of this property, please see [getPerspective()](../../com.aspose.cells/threedformat\#getPerspective--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -480,7 +480,7 @@ public void setPresetCameraType(int value)
 ```
 
 
-For the description of this property, please see \#getPresetCameraType().getPresetCameraType()
+For the description of this property, please see [getPresetCameraType()](../../com.aspose.cells/threedformat\#getPresetCameraType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -493,7 +493,7 @@ public void setRotationX(double value)
 ```
 
 
-For the description of this property, please see \#getRotationX().getRotationX()
+For the description of this property, please see [getRotationX()](../../com.aspose.cells/threedformat\#getRotationX--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -506,7 +506,7 @@ public void setRotationY(double value)
 ```
 
 
-For the description of this property, please see \#getRotationY().getRotationY()
+For the description of this property, please see [getRotationY()](../../com.aspose.cells/threedformat\#getRotationY--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -519,7 +519,7 @@ public void setRotationZ(double value)
 ```
 
 
-For the description of this property, please see \#getRotationZ().getRotationZ()
+For the description of this property, please see [getRotationZ()](../../com.aspose.cells/threedformat\#getRotationZ--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -532,7 +532,7 @@ public void setTopBevelHeight(double value)
 ```
 
 
-For the description of this property, please see \#getTopBevelHeight().getTopBevelHeight()
+For the description of this property, please see [getTopBevelHeight()](../../com.aspose.cells/threedformat\#getTopBevelHeight--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -545,7 +545,7 @@ public void setTopBevelType(int value)
 ```
 
 
-For the description of this property, please see \#getTopBevelType().getTopBevelType()
+For the description of this property, please see [getTopBevelType()](../../com.aspose.cells/threedformat\#getTopBevelType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -558,7 +558,7 @@ public void setTopBevelWidth(double value)
 ```
 
 
-For the description of this property, please see \#getTopBevelWidth().getTopBevelWidth()
+For the description of this property, please see [getTopBevelWidth()](../../com.aspose.cells/threedformat\#getTopBevelWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -571,7 +571,7 @@ public void setZ(double value)
 ```
 
 
-For the description of this property, please see \#getZ().getZ()
+For the description of this property, please see [getZ()](../../com.aspose.cells/threedformat\#getZ--)
 
 **Parameters:**
 | Parameter | Type | Description |

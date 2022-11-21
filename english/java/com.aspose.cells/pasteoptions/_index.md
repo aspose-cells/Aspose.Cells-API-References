@@ -28,11 +28,11 @@ Represents the paste special options.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setOnlyVisibleCells(boolean value)](#setOnlyVisibleCells-boolean-) | For the description of this property, please see \#getOnlyVisibleCells().getOnlyVisibleCells() |
-| [setOperationType(int value)](#setOperationType-int-) | For the description of this property, please see \#getOperationType().getOperationType() |
-| [setPasteType(int value)](#setPasteType-int-) | For the description of this property, please see \#getPasteType().getPasteType() |
-| [setSkipBlanks(boolean value)](#setSkipBlanks-boolean-) | For the description of this property, please see \#getSkipBlanks().getSkipBlanks() |
-| [setTranspose(boolean value)](#setTranspose-boolean-) | For the description of this property, please see \#getTranspose().getTranspose() |
+| [setOnlyVisibleCells(boolean value)](#setOnlyVisibleCells-boolean-) | For the description of this property, please see [getOnlyVisibleCells()](../../com.aspose.cells/pasteoptions\#getOnlyVisibleCells--) |
+| [setOperationType(int value)](#setOperationType-int-) | For the description of this property, please see [getOperationType()](../../com.aspose.cells/pasteoptions\#getOperationType--) |
+| [setPasteType(int value)](#setPasteType-int-) | For the description of this property, please see [getPasteType()](../../com.aspose.cells/pasteoptions\#getPasteType--) |
+| [setSkipBlanks(boolean value)](#setSkipBlanks-boolean-) | For the description of this property, please see [getSkipBlanks()](../../com.aspose.cells/pasteoptions\#getSkipBlanks--) |
+| [setTranspose(boolean value)](#setTranspose-boolean-) | For the description of this property, please see [getTranspose()](../../com.aspose.cells/pasteoptions\#getTranspose--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -144,7 +144,7 @@ public void setOnlyVisibleCells(boolean value)
 ```
 
 
-For the description of this property, please see \#getOnlyVisibleCells().getOnlyVisibleCells()
+For the description of this property, please see [getOnlyVisibleCells()](../../com.aspose.cells/pasteoptions\#getOnlyVisibleCells--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -157,7 +157,7 @@ public void setOperationType(int value)
 ```
 
 
-For the description of this property, please see \#getOperationType().getOperationType()
+For the description of this property, please see [getOperationType()](../../com.aspose.cells/pasteoptions\#getOperationType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -170,7 +170,7 @@ public void setPasteType(int value)
 ```
 
 
-For the description of this property, please see \#getPasteType().getPasteType()
+For the description of this property, please see [getPasteType()](../../com.aspose.cells/pasteoptions\#getPasteType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -183,7 +183,7 @@ public void setSkipBlanks(boolean value)
 ```
 
 
-For the description of this property, please see \#getSkipBlanks().getSkipBlanks()
+For the description of this property, please see [getSkipBlanks()](../../com.aspose.cells/pasteoptions\#getSkipBlanks--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -196,7 +196,7 @@ public void setTranspose(boolean value)
 ```
 
 
-For the description of this property, please see \#getTranspose().getTranspose()
+For the description of this property, please see [getTranspose()](../../com.aspose.cells/pasteoptions\#getTranspose--)
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -86,12 +86,12 @@ Encapsulates the object that represents the floor of a 3-D chart.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAuto(boolean isAuto)](#setAuto-boolean-) | Sets whether Microsoft Workbook automatically determines the area pattern. |
-| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.cells.Color-) | For the description of this property, please see \#getBackgroundColor().getBackgroundColor() |
-| [setBorder(Line value)](#setBorder-com.aspose.cells.Line-) | For the description of this property, please see \#getBorder().getBorder() |
-| [setForegroundColor(Color value)](#setForegroundColor-com.aspose.cells.Color-) | For the description of this property, please see \#getForegroundColor().getForegroundColor() |
-| [setFormatting(int value)](#setFormatting-int-) | For the description of this property, please see \#getFormatting().getFormatting() |
-| [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) | For the description of this property, please see \#getInvertIfNegative().getInvertIfNegative() |
-| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see \#getTransparency().getTransparency() |
+| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.cells.Color-) | For the description of this property, please see [getBackgroundColor()](../../com.aspose.cells/area\#getBackgroundColor--) |
+| [setBorder(Line value)](#setBorder-com.aspose.cells.Line-) | For the description of this property, please see [getBorder()](../../com.aspose.cells/floor\#getBorder--) |
+| [setForegroundColor(Color value)](#setForegroundColor-com.aspose.cells.Color-) | For the description of this property, please see [getForegroundColor()](../../com.aspose.cells/area\#getForegroundColor--) |
+| [setFormatting(int value)](#setFormatting-int-) | For the description of this property, please see [getFormatting()](../../com.aspose.cells/area\#getFormatting--) |
+| [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) | For the description of this property, please see [getInvertIfNegative()](../../com.aspose.cells/area\#getInvertIfNegative--) |
+| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see [getTransparency()](../../com.aspose.cells/area\#getTransparency--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -291,7 +291,7 @@ public void setBackgroundColor(Color value)
 ```
 
 
-For the description of this property, please see \#getBackgroundColor().getBackgroundColor()
+For the description of this property, please see [getBackgroundColor()](../../com.aspose.cells/area\#getBackgroundColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -304,7 +304,7 @@ public void setBorder(Line value)
 ```
 
 
-For the description of this property, please see \#getBorder().getBorder()
+For the description of this property, please see [getBorder()](../../com.aspose.cells/floor\#getBorder--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -317,7 +317,7 @@ public void setForegroundColor(Color value)
 ```
 
 
-For the description of this property, please see \#getForegroundColor().getForegroundColor()
+For the description of this property, please see [getForegroundColor()](../../com.aspose.cells/area\#getForegroundColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -330,7 +330,7 @@ public void setFormatting(int value)
 ```
 
 
-For the description of this property, please see \#getFormatting().getFormatting()
+For the description of this property, please see [getFormatting()](../../com.aspose.cells/area\#getFormatting--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -343,7 +343,7 @@ public void setInvertIfNegative(boolean value)
 ```
 
 
-For the description of this property, please see \#getInvertIfNegative().getInvertIfNegative()
+For the description of this property, please see [getInvertIfNegative()](../../com.aspose.cells/area\#getInvertIfNegative--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -356,7 +356,7 @@ public void setTransparency(double value)
 ```
 
 
-For the description of this property, please see \#getTransparency().getTransparency()
+For the description of this property, please see [getTransparency()](../../com.aspose.cells/area\#getTransparency--)
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -70,39 +70,39 @@ Represents the various types of protection options available for a worksheet.
 | [isUsingPivotTablesAllowed()](#isUsingPivotTablesAllowed--) | Represents if the user is allowed to manipulate pivot tables on a protected worksheet. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAllowDeletingColumn(boolean value)](#setAllowDeletingColumn-boolean-) | For the description of this property, please see \#getAllowDeletingColumn().getAllowDeletingColumn() |
-| [setAllowDeletingRow(boolean value)](#setAllowDeletingRow-boolean-) | For the description of this property, please see \#getAllowDeletingRow().getAllowDeletingRow() |
-| [setAllowEditingContent(boolean value)](#setAllowEditingContent-boolean-) | For the description of this property, please see \#getAllowEditingContent().getAllowEditingContent() |
-| [setAllowEditingObject(boolean value)](#setAllowEditingObject-boolean-) | For the description of this property, please see \#getAllowEditingObject().getAllowEditingObject() |
-| [setAllowEditingScenario(boolean value)](#setAllowEditingScenario-boolean-) | For the description of this property, please see \#getAllowEditingScenario().getAllowEditingScenario() |
-| [setAllowFiltering(boolean value)](#setAllowFiltering-boolean-) | For the description of this property, please see \#getAllowFiltering().getAllowFiltering() |
-| [setAllowFormattingCell(boolean value)](#setAllowFormattingCell-boolean-) | For the description of this property, please see \#getAllowFormattingCell().getAllowFormattingCell() |
-| [setAllowFormattingColumn(boolean value)](#setAllowFormattingColumn-boolean-) | For the description of this property, please see \#getAllowFormattingColumn().getAllowFormattingColumn() |
-| [setAllowFormattingRow(boolean value)](#setAllowFormattingRow-boolean-) | For the description of this property, please see \#getAllowFormattingRow().getAllowFormattingRow() |
-| [setAllowInsertingColumn(boolean value)](#setAllowInsertingColumn-boolean-) | For the description of this property, please see \#getAllowInsertingColumn().getAllowInsertingColumn() |
-| [setAllowInsertingHyperlink(boolean value)](#setAllowInsertingHyperlink-boolean-) | For the description of this property, please see \#getAllowInsertingHyperlink().getAllowInsertingHyperlink() |
-| [setAllowInsertingRow(boolean value)](#setAllowInsertingRow-boolean-) | For the description of this property, please see \#getAllowInsertingRow().getAllowInsertingRow() |
-| [setAllowSelectingLockedCell(boolean value)](#setAllowSelectingLockedCell-boolean-) | For the description of this property, please see \#getAllowSelectingLockedCell().getAllowSelectingLockedCell() |
-| [setAllowSelectingUnlockedCell(boolean value)](#setAllowSelectingUnlockedCell-boolean-) | For the description of this property, please see \#getAllowSelectingUnlockedCell().getAllowSelectingUnlockedCell() |
-| [setAllowSorting(boolean value)](#setAllowSorting-boolean-) | For the description of this property, please see \#getAllowSorting().getAllowSorting() |
-| [setAllowUsingPivotTable(boolean value)](#setAllowUsingPivotTable-boolean-) | For the description of this property, please see \#getAllowUsingPivotTable().getAllowUsingPivotTable() |
-| [setDeletingColumnsAllowed(boolean value)](#setDeletingColumnsAllowed-boolean-) | For the description of this property, please see \#isDeletingColumnsAllowed().isDeletingColumnsAllowed() |
-| [setDeletingRowsAllowed(boolean value)](#setDeletingRowsAllowed-boolean-) | For the description of this property, please see \#isDeletingRowsAllowed().isDeletingRowsAllowed() |
-| [setEditingContentsAllowed(boolean value)](#setEditingContentsAllowed-boolean-) | For the description of this property, please see \#isEditingContentsAllowed().isEditingContentsAllowed() |
-| [setEditingObjectsAllowed(boolean value)](#setEditingObjectsAllowed-boolean-) | For the description of this property, please see \#isEditingObjectsAllowed().isEditingObjectsAllowed() |
-| [setEditingScenariosAllowed(boolean value)](#setEditingScenariosAllowed-boolean-) | For the description of this property, please see \#isEditingScenariosAllowed().isEditingScenariosAllowed() |
-| [setFilteringAllowed(boolean value)](#setFilteringAllowed-boolean-) | For the description of this property, please see \#isFilteringAllowed().isFilteringAllowed() |
-| [setFormattingCellsAllowed(boolean value)](#setFormattingCellsAllowed-boolean-) | For the description of this property, please see \#isFormattingCellsAllowed().isFormattingCellsAllowed() |
-| [setFormattingColumnsAllowed(boolean value)](#setFormattingColumnsAllowed-boolean-) | For the description of this property, please see \#isFormattingColumnsAllowed().isFormattingColumnsAllowed() |
-| [setFormattingRowsAllowed(boolean value)](#setFormattingRowsAllowed-boolean-) | For the description of this property, please see \#isFormattingRowsAllowed().isFormattingRowsAllowed() |
-| [setInsertingColumnsAllowed(boolean value)](#setInsertingColumnsAllowed-boolean-) | For the description of this property, please see \#isInsertingColumnsAllowed().isInsertingColumnsAllowed() |
-| [setInsertingHyperlinksAllowed(boolean value)](#setInsertingHyperlinksAllowed-boolean-) | For the description of this property, please see \#isInsertingHyperlinksAllowed().isInsertingHyperlinksAllowed() |
-| [setInsertingRowsAllowed(boolean value)](#setInsertingRowsAllowed-boolean-) | For the description of this property, please see \#isInsertingRowsAllowed().isInsertingRowsAllowed() |
-| [setPassword(String value)](#setPassword-java.lang.String-) | For the description of this property, please see \#getPassword().getPassword() |
-| [setSelectingLockedCellsAllowed(boolean value)](#setSelectingLockedCellsAllowed-boolean-) | For the description of this property, please see \#isSelectingLockedCellsAllowed().isSelectingLockedCellsAllowed() |
-| [setSelectingUnlockedCellsAllowed(boolean value)](#setSelectingUnlockedCellsAllowed-boolean-) | For the description of this property, please see \#isSelectingUnlockedCellsAllowed().isSelectingUnlockedCellsAllowed() |
-| [setSortingAllowed(boolean value)](#setSortingAllowed-boolean-) | For the description of this property, please see \#isSortingAllowed().isSortingAllowed() |
-| [setUsingPivotTablesAllowed(boolean value)](#setUsingPivotTablesAllowed-boolean-) | For the description of this property, please see \#isUsingPivotTablesAllowed().isUsingPivotTablesAllowed() |
+| [setAllowDeletingColumn(boolean value)](#setAllowDeletingColumn-boolean-) | For the description of this property, please see [getAllowDeletingColumn()](../../com.aspose.cells/protection\#getAllowDeletingColumn--) |
+| [setAllowDeletingRow(boolean value)](#setAllowDeletingRow-boolean-) | For the description of this property, please see [getAllowDeletingRow()](../../com.aspose.cells/protection\#getAllowDeletingRow--) |
+| [setAllowEditingContent(boolean value)](#setAllowEditingContent-boolean-) | For the description of this property, please see [getAllowEditingContent()](../../com.aspose.cells/protection\#getAllowEditingContent--) |
+| [setAllowEditingObject(boolean value)](#setAllowEditingObject-boolean-) | For the description of this property, please see [getAllowEditingObject()](../../com.aspose.cells/protection\#getAllowEditingObject--) |
+| [setAllowEditingScenario(boolean value)](#setAllowEditingScenario-boolean-) | For the description of this property, please see [getAllowEditingScenario()](../../com.aspose.cells/protection\#getAllowEditingScenario--) |
+| [setAllowFiltering(boolean value)](#setAllowFiltering-boolean-) | For the description of this property, please see [getAllowFiltering()](../../com.aspose.cells/protection\#getAllowFiltering--) |
+| [setAllowFormattingCell(boolean value)](#setAllowFormattingCell-boolean-) | For the description of this property, please see [getAllowFormattingCell()](../../com.aspose.cells/protection\#getAllowFormattingCell--) |
+| [setAllowFormattingColumn(boolean value)](#setAllowFormattingColumn-boolean-) | For the description of this property, please see [getAllowFormattingColumn()](../../com.aspose.cells/protection\#getAllowFormattingColumn--) |
+| [setAllowFormattingRow(boolean value)](#setAllowFormattingRow-boolean-) | For the description of this property, please see [getAllowFormattingRow()](../../com.aspose.cells/protection\#getAllowFormattingRow--) |
+| [setAllowInsertingColumn(boolean value)](#setAllowInsertingColumn-boolean-) | For the description of this property, please see [getAllowInsertingColumn()](../../com.aspose.cells/protection\#getAllowInsertingColumn--) |
+| [setAllowInsertingHyperlink(boolean value)](#setAllowInsertingHyperlink-boolean-) | For the description of this property, please see [getAllowInsertingHyperlink()](../../com.aspose.cells/protection\#getAllowInsertingHyperlink--) |
+| [setAllowInsertingRow(boolean value)](#setAllowInsertingRow-boolean-) | For the description of this property, please see [getAllowInsertingRow()](../../com.aspose.cells/protection\#getAllowInsertingRow--) |
+| [setAllowSelectingLockedCell(boolean value)](#setAllowSelectingLockedCell-boolean-) | For the description of this property, please see [getAllowSelectingLockedCell()](../../com.aspose.cells/protection\#getAllowSelectingLockedCell--) |
+| [setAllowSelectingUnlockedCell(boolean value)](#setAllowSelectingUnlockedCell-boolean-) | For the description of this property, please see [getAllowSelectingUnlockedCell()](../../com.aspose.cells/protection\#getAllowSelectingUnlockedCell--) |
+| [setAllowSorting(boolean value)](#setAllowSorting-boolean-) | For the description of this property, please see [getAllowSorting()](../../com.aspose.cells/protection\#getAllowSorting--) |
+| [setAllowUsingPivotTable(boolean value)](#setAllowUsingPivotTable-boolean-) | For the description of this property, please see [getAllowUsingPivotTable()](../../com.aspose.cells/protection\#getAllowUsingPivotTable--) |
+| [setDeletingColumnsAllowed(boolean value)](#setDeletingColumnsAllowed-boolean-) | For the description of this property, please see [isDeletingColumnsAllowed()](../../com.aspose.cells/protection\#isDeletingColumnsAllowed--) |
+| [setDeletingRowsAllowed(boolean value)](#setDeletingRowsAllowed-boolean-) | For the description of this property, please see [isDeletingRowsAllowed()](../../com.aspose.cells/protection\#isDeletingRowsAllowed--) |
+| [setEditingContentsAllowed(boolean value)](#setEditingContentsAllowed-boolean-) | For the description of this property, please see [isEditingContentsAllowed()](../../com.aspose.cells/protection\#isEditingContentsAllowed--) |
+| [setEditingObjectsAllowed(boolean value)](#setEditingObjectsAllowed-boolean-) | For the description of this property, please see [isEditingObjectsAllowed()](../../com.aspose.cells/protection\#isEditingObjectsAllowed--) |
+| [setEditingScenariosAllowed(boolean value)](#setEditingScenariosAllowed-boolean-) | For the description of this property, please see [isEditingScenariosAllowed()](../../com.aspose.cells/protection\#isEditingScenariosAllowed--) |
+| [setFilteringAllowed(boolean value)](#setFilteringAllowed-boolean-) | For the description of this property, please see [isFilteringAllowed()](../../com.aspose.cells/protection\#isFilteringAllowed--) |
+| [setFormattingCellsAllowed(boolean value)](#setFormattingCellsAllowed-boolean-) | For the description of this property, please see [isFormattingCellsAllowed()](../../com.aspose.cells/protection\#isFormattingCellsAllowed--) |
+| [setFormattingColumnsAllowed(boolean value)](#setFormattingColumnsAllowed-boolean-) | For the description of this property, please see [isFormattingColumnsAllowed()](../../com.aspose.cells/protection\#isFormattingColumnsAllowed--) |
+| [setFormattingRowsAllowed(boolean value)](#setFormattingRowsAllowed-boolean-) | For the description of this property, please see [isFormattingRowsAllowed()](../../com.aspose.cells/protection\#isFormattingRowsAllowed--) |
+| [setInsertingColumnsAllowed(boolean value)](#setInsertingColumnsAllowed-boolean-) | For the description of this property, please see [isInsertingColumnsAllowed()](../../com.aspose.cells/protection\#isInsertingColumnsAllowed--) |
+| [setInsertingHyperlinksAllowed(boolean value)](#setInsertingHyperlinksAllowed-boolean-) | For the description of this property, please see [isInsertingHyperlinksAllowed()](../../com.aspose.cells/protection\#isInsertingHyperlinksAllowed--) |
+| [setInsertingRowsAllowed(boolean value)](#setInsertingRowsAllowed-boolean-) | For the description of this property, please see [isInsertingRowsAllowed()](../../com.aspose.cells/protection\#isInsertingRowsAllowed--) |
+| [setPassword(String value)](#setPassword-java.lang.String-) | For the description of this property, please see [getPassword()](../../com.aspose.cells/protection\#getPassword--) |
+| [setSelectingLockedCellsAllowed(boolean value)](#setSelectingLockedCellsAllowed-boolean-) | For the description of this property, please see [isSelectingLockedCellsAllowed()](../../com.aspose.cells/protection\#isSelectingLockedCellsAllowed--) |
+| [setSelectingUnlockedCellsAllowed(boolean value)](#setSelectingUnlockedCellsAllowed-boolean-) | For the description of this property, please see [isSelectingUnlockedCellsAllowed()](../../com.aspose.cells/protection\#isSelectingUnlockedCellsAllowed--) |
+| [setSortingAllowed(boolean value)](#setSortingAllowed-boolean-) | For the description of this property, please see [isSortingAllowed()](../../com.aspose.cells/protection\#isSortingAllowed--) |
+| [setUsingPivotTablesAllowed(boolean value)](#setUsingPivotTablesAllowed-boolean-) | For the description of this property, please see [isUsingPivotTablesAllowed()](../../com.aspose.cells/protection\#isUsingPivotTablesAllowed--) |
 | [toString()](#toString--) |  |
 | [verifyPassword(String password)](#verifyPassword-java.lang.String-) | Verifies password. |
 | [wait()](#wait--) |  |
@@ -528,7 +528,7 @@ public void setAllowDeletingColumn(boolean value)
 ```
 
 
-For the description of this property, please see \#getAllowDeletingColumn().getAllowDeletingColumn()
+For the description of this property, please see [getAllowDeletingColumn()](../../com.aspose.cells/protection\#getAllowDeletingColumn--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -541,7 +541,7 @@ public void setAllowDeletingRow(boolean value)
 ```
 
 
-For the description of this property, please see \#getAllowDeletingRow().getAllowDeletingRow()
+For the description of this property, please see [getAllowDeletingRow()](../../com.aspose.cells/protection\#getAllowDeletingRow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -554,7 +554,7 @@ public void setAllowEditingContent(boolean value)
 ```
 
 
-For the description of this property, please see \#getAllowEditingContent().getAllowEditingContent()
+For the description of this property, please see [getAllowEditingContent()](../../com.aspose.cells/protection\#getAllowEditingContent--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -567,7 +567,7 @@ public void setAllowEditingObject(boolean value)
 ```
 
 
-For the description of this property, please see \#getAllowEditingObject().getAllowEditingObject()
+For the description of this property, please see [getAllowEditingObject()](../../com.aspose.cells/protection\#getAllowEditingObject--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -580,7 +580,7 @@ public void setAllowEditingScenario(boolean value)
 ```
 
 
-For the description of this property, please see \#getAllowEditingScenario().getAllowEditingScenario()
+For the description of this property, please see [getAllowEditingScenario()](../../com.aspose.cells/protection\#getAllowEditingScenario--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -593,7 +593,7 @@ public void setAllowFiltering(boolean value)
 ```
 
 
-For the description of this property, please see \#getAllowFiltering().getAllowFiltering()
+For the description of this property, please see [getAllowFiltering()](../../com.aspose.cells/protection\#getAllowFiltering--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -606,7 +606,7 @@ public void setAllowFormattingCell(boolean value)
 ```
 
 
-For the description of this property, please see \#getAllowFormattingCell().getAllowFormattingCell()
+For the description of this property, please see [getAllowFormattingCell()](../../com.aspose.cells/protection\#getAllowFormattingCell--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -619,7 +619,7 @@ public void setAllowFormattingColumn(boolean value)
 ```
 
 
-For the description of this property, please see \#getAllowFormattingColumn().getAllowFormattingColumn()
+For the description of this property, please see [getAllowFormattingColumn()](../../com.aspose.cells/protection\#getAllowFormattingColumn--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -632,7 +632,7 @@ public void setAllowFormattingRow(boolean value)
 ```
 
 
-For the description of this property, please see \#getAllowFormattingRow().getAllowFormattingRow()
+For the description of this property, please see [getAllowFormattingRow()](../../com.aspose.cells/protection\#getAllowFormattingRow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -645,7 +645,7 @@ public void setAllowInsertingColumn(boolean value)
 ```
 
 
-For the description of this property, please see \#getAllowInsertingColumn().getAllowInsertingColumn()
+For the description of this property, please see [getAllowInsertingColumn()](../../com.aspose.cells/protection\#getAllowInsertingColumn--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -658,7 +658,7 @@ public void setAllowInsertingHyperlink(boolean value)
 ```
 
 
-For the description of this property, please see \#getAllowInsertingHyperlink().getAllowInsertingHyperlink()
+For the description of this property, please see [getAllowInsertingHyperlink()](../../com.aspose.cells/protection\#getAllowInsertingHyperlink--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -671,7 +671,7 @@ public void setAllowInsertingRow(boolean value)
 ```
 
 
-For the description of this property, please see \#getAllowInsertingRow().getAllowInsertingRow()
+For the description of this property, please see [getAllowInsertingRow()](../../com.aspose.cells/protection\#getAllowInsertingRow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -684,7 +684,7 @@ public void setAllowSelectingLockedCell(boolean value)
 ```
 
 
-For the description of this property, please see \#getAllowSelectingLockedCell().getAllowSelectingLockedCell()
+For the description of this property, please see [getAllowSelectingLockedCell()](../../com.aspose.cells/protection\#getAllowSelectingLockedCell--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -697,7 +697,7 @@ public void setAllowSelectingUnlockedCell(boolean value)
 ```
 
 
-For the description of this property, please see \#getAllowSelectingUnlockedCell().getAllowSelectingUnlockedCell()
+For the description of this property, please see [getAllowSelectingUnlockedCell()](../../com.aspose.cells/protection\#getAllowSelectingUnlockedCell--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -710,7 +710,7 @@ public void setAllowSorting(boolean value)
 ```
 
 
-For the description of this property, please see \#getAllowSorting().getAllowSorting()
+For the description of this property, please see [getAllowSorting()](../../com.aspose.cells/protection\#getAllowSorting--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -723,7 +723,7 @@ public void setAllowUsingPivotTable(boolean value)
 ```
 
 
-For the description of this property, please see \#getAllowUsingPivotTable().getAllowUsingPivotTable()
+For the description of this property, please see [getAllowUsingPivotTable()](../../com.aspose.cells/protection\#getAllowUsingPivotTable--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -736,7 +736,7 @@ public void setDeletingColumnsAllowed(boolean value)
 ```
 
 
-For the description of this property, please see \#isDeletingColumnsAllowed().isDeletingColumnsAllowed()
+For the description of this property, please see [isDeletingColumnsAllowed()](../../com.aspose.cells/protection\#isDeletingColumnsAllowed--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -749,7 +749,7 @@ public void setDeletingRowsAllowed(boolean value)
 ```
 
 
-For the description of this property, please see \#isDeletingRowsAllowed().isDeletingRowsAllowed()
+For the description of this property, please see [isDeletingRowsAllowed()](../../com.aspose.cells/protection\#isDeletingRowsAllowed--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -762,7 +762,7 @@ public void setEditingContentsAllowed(boolean value)
 ```
 
 
-For the description of this property, please see \#isEditingContentsAllowed().isEditingContentsAllowed()
+For the description of this property, please see [isEditingContentsAllowed()](../../com.aspose.cells/protection\#isEditingContentsAllowed--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -775,7 +775,7 @@ public void setEditingObjectsAllowed(boolean value)
 ```
 
 
-For the description of this property, please see \#isEditingObjectsAllowed().isEditingObjectsAllowed()
+For the description of this property, please see [isEditingObjectsAllowed()](../../com.aspose.cells/protection\#isEditingObjectsAllowed--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -788,7 +788,7 @@ public void setEditingScenariosAllowed(boolean value)
 ```
 
 
-For the description of this property, please see \#isEditingScenariosAllowed().isEditingScenariosAllowed()
+For the description of this property, please see [isEditingScenariosAllowed()](../../com.aspose.cells/protection\#isEditingScenariosAllowed--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -801,7 +801,7 @@ public void setFilteringAllowed(boolean value)
 ```
 
 
-For the description of this property, please see \#isFilteringAllowed().isFilteringAllowed()
+For the description of this property, please see [isFilteringAllowed()](../../com.aspose.cells/protection\#isFilteringAllowed--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -814,7 +814,7 @@ public void setFormattingCellsAllowed(boolean value)
 ```
 
 
-For the description of this property, please see \#isFormattingCellsAllowed().isFormattingCellsAllowed()
+For the description of this property, please see [isFormattingCellsAllowed()](../../com.aspose.cells/protection\#isFormattingCellsAllowed--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -827,7 +827,7 @@ public void setFormattingColumnsAllowed(boolean value)
 ```
 
 
-For the description of this property, please see \#isFormattingColumnsAllowed().isFormattingColumnsAllowed()
+For the description of this property, please see [isFormattingColumnsAllowed()](../../com.aspose.cells/protection\#isFormattingColumnsAllowed--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -840,7 +840,7 @@ public void setFormattingRowsAllowed(boolean value)
 ```
 
 
-For the description of this property, please see \#isFormattingRowsAllowed().isFormattingRowsAllowed()
+For the description of this property, please see [isFormattingRowsAllowed()](../../com.aspose.cells/protection\#isFormattingRowsAllowed--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -853,7 +853,7 @@ public void setInsertingColumnsAllowed(boolean value)
 ```
 
 
-For the description of this property, please see \#isInsertingColumnsAllowed().isInsertingColumnsAllowed()
+For the description of this property, please see [isInsertingColumnsAllowed()](../../com.aspose.cells/protection\#isInsertingColumnsAllowed--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -866,7 +866,7 @@ public void setInsertingHyperlinksAllowed(boolean value)
 ```
 
 
-For the description of this property, please see \#isInsertingHyperlinksAllowed().isInsertingHyperlinksAllowed()
+For the description of this property, please see [isInsertingHyperlinksAllowed()](../../com.aspose.cells/protection\#isInsertingHyperlinksAllowed--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -879,7 +879,7 @@ public void setInsertingRowsAllowed(boolean value)
 ```
 
 
-For the description of this property, please see \#isInsertingRowsAllowed().isInsertingRowsAllowed()
+For the description of this property, please see [isInsertingRowsAllowed()](../../com.aspose.cells/protection\#isInsertingRowsAllowed--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -892,7 +892,7 @@ public void setPassword(String value)
 ```
 
 
-For the description of this property, please see \#getPassword().getPassword()
+For the description of this property, please see [getPassword()](../../com.aspose.cells/protection\#getPassword--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -905,7 +905,7 @@ public void setSelectingLockedCellsAllowed(boolean value)
 ```
 
 
-For the description of this property, please see \#isSelectingLockedCellsAllowed().isSelectingLockedCellsAllowed()
+For the description of this property, please see [isSelectingLockedCellsAllowed()](../../com.aspose.cells/protection\#isSelectingLockedCellsAllowed--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -918,7 +918,7 @@ public void setSelectingUnlockedCellsAllowed(boolean value)
 ```
 
 
-For the description of this property, please see \#isSelectingUnlockedCellsAllowed().isSelectingUnlockedCellsAllowed()
+For the description of this property, please see [isSelectingUnlockedCellsAllowed()](../../com.aspose.cells/protection\#isSelectingUnlockedCellsAllowed--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -931,7 +931,7 @@ public void setSortingAllowed(boolean value)
 ```
 
 
-For the description of this property, please see \#isSortingAllowed().isSortingAllowed()
+For the description of this property, please see [isSortingAllowed()](../../com.aspose.cells/protection\#isSortingAllowed--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -944,7 +944,7 @@ public void setUsingPivotTablesAllowed(boolean value)
 ```
 
 
-For the description of this property, please see \#isUsingPivotTablesAllowed().isUsingPivotTablesAllowed()
+For the description of this property, please see [isUsingPivotTablesAllowed()](../../com.aspose.cells/protection\#isUsingPivotTablesAllowed--)
 
 **Parameters:**
 | Parameter | Type | Description |

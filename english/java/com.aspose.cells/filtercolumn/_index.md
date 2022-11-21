@@ -28,11 +28,11 @@ Represents a filter for a single column. The Filter object is a member of the Fi
 | [isDropdownVisible()](#isDropdownVisible--) | Indicates whether the AutoFilter button for this column is visible. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDropdownVisible(boolean value)](#setDropdownVisible-boolean-) | For the description of this property, please see \#isDropdownVisible().isDropdownVisible() |
-| [setFieldIndex(int value)](#setFieldIndex-int-) | For the description of this property, please see \#getFieldIndex().getFieldIndex() |
-| [setFilter(Object value)](#setFilter-java.lang.Object-) | For the description of this property, please see \#getFilter().getFilter() |
-| [setFilterType(int value)](#setFilterType-int-) | For the description of this property, please see \#getFilterType().getFilterType() |
-| [setVisibledropdown(boolean value)](#setVisibledropdown-boolean-) | For the description of this property, please see \#getVisibledropdown().getVisibledropdown() |
+| [setDropdownVisible(boolean value)](#setDropdownVisible-boolean-) | For the description of this property, please see [isDropdownVisible()](../../com.aspose.cells/filtercolumn\#isDropdownVisible--) |
+| [setFieldIndex(int value)](#setFieldIndex-int-) | For the description of this property, please see [getFieldIndex()](../../com.aspose.cells/filtercolumn\#getFieldIndex--) |
+| [setFilter(Object value)](#setFilter-java.lang.Object-) | For the description of this property, please see [getFilter()](../../com.aspose.cells/filtercolumn\#getFilter--) |
+| [setFilterType(int value)](#setFilterType-int-) | For the description of this property, please see [getFilterType()](../../com.aspose.cells/filtercolumn\#getFilterType--) |
+| [setVisibledropdown(boolean value)](#setVisibledropdown-boolean-) | For the description of this property, please see [getVisibledropdown()](../../com.aspose.cells/filtercolumn\#getVisibledropdown--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -144,7 +144,7 @@ public void setDropdownVisible(boolean value)
 ```
 
 
-For the description of this property, please see \#isDropdownVisible().isDropdownVisible()
+For the description of this property, please see [isDropdownVisible()](../../com.aspose.cells/filtercolumn\#isDropdownVisible--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -157,7 +157,7 @@ public void setFieldIndex(int value)
 ```
 
 
-For the description of this property, please see \#getFieldIndex().getFieldIndex()
+For the description of this property, please see [getFieldIndex()](../../com.aspose.cells/filtercolumn\#getFieldIndex--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -170,7 +170,7 @@ public void setFilter(Object value)
 ```
 
 
-For the description of this property, please see \#getFilter().getFilter()
+For the description of this property, please see [getFilter()](../../com.aspose.cells/filtercolumn\#getFilter--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -183,7 +183,7 @@ public void setFilterType(int value)
 ```
 
 
-For the description of this property, please see \#getFilterType().getFilterType()
+For the description of this property, please see [getFilterType()](../../com.aspose.cells/filtercolumn\#getFilterType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -196,7 +196,7 @@ public void setVisibledropdown(boolean value)
 ```
 
 
-For the description of this property, please see \#getVisibledropdown().getVisibledropdown()
+For the description of this property, please see [getVisibledropdown()](../../com.aspose.cells/filtercolumn\#getVisibledropdown--)
 
 **Parameters:**
 | Parameter | Type | Description |

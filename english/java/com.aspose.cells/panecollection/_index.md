@@ -26,9 +26,9 @@ Represents all Pane objects shown in the specified window.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAcitvePaneType(int value)](#setAcitvePaneType-int-) | For the description of this property, please see \#getAcitvePaneType().getAcitvePaneType() |
-| [setFirstVisibleColumnOfRightPane(int value)](#setFirstVisibleColumnOfRightPane-int-) | For the description of this property, please see \#getFirstVisibleColumnOfRightPane().getFirstVisibleColumnOfRightPane() |
-| [setFirstVisibleRowOfBottomPane(int value)](#setFirstVisibleRowOfBottomPane-int-) | For the description of this property, please see \#getFirstVisibleRowOfBottomPane().getFirstVisibleRowOfBottomPane() |
+| [setAcitvePaneType(int value)](#setAcitvePaneType-int-) | For the description of this property, please see [getAcitvePaneType()](../../com.aspose.cells/panecollection\#getAcitvePaneType--) |
+| [setFirstVisibleColumnOfRightPane(int value)](#setFirstVisibleColumnOfRightPane-int-) | For the description of this property, please see [getFirstVisibleColumnOfRightPane()](../../com.aspose.cells/panecollection\#getFirstVisibleColumnOfRightPane--) |
+| [setFirstVisibleRowOfBottomPane(int value)](#setFirstVisibleRowOfBottomPane-int-) | For the description of this property, please see [getFirstVisibleRowOfBottomPane()](../../com.aspose.cells/panecollection\#getFirstVisibleRowOfBottomPane--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -120,7 +120,7 @@ public void setAcitvePaneType(int value)
 ```
 
 
-For the description of this property, please see \#getAcitvePaneType().getAcitvePaneType()
+For the description of this property, please see [getAcitvePaneType()](../../com.aspose.cells/panecollection\#getAcitvePaneType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -133,7 +133,7 @@ public void setFirstVisibleColumnOfRightPane(int value)
 ```
 
 
-For the description of this property, please see \#getFirstVisibleColumnOfRightPane().getFirstVisibleColumnOfRightPane()
+For the description of this property, please see [getFirstVisibleColumnOfRightPane()](../../com.aspose.cells/panecollection\#getFirstVisibleColumnOfRightPane--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +146,7 @@ public void setFirstVisibleRowOfBottomPane(int value)
 ```
 
 
-For the description of this property, please see \#getFirstVisibleRowOfBottomPane().getFirstVisibleRowOfBottomPane()
+For the description of this property, please see [getFirstVisibleRowOfBottomPane()](../../com.aspose.cells/panecollection\#getFirstVisibleRowOfBottomPane--)
 
 **Parameters:**
 | Parameter | Type | Description |

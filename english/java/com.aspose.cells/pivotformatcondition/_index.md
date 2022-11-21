@@ -96,8 +96,8 @@ Workbook book = new Workbook();
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setConditionalAreas()](#setConditionalAreas--) | Sets conditional areas of PivotFormatCondition object. |
-| [setRuleType(int value)](#setRuleType-int-) | For the description of this property, please see \#getRuleType().getRuleType() |
-| [setScopeType(int value)](#setScopeType-int-) | For the description of this property, please see \#getScopeType().getScopeType() |
+| [setRuleType(int value)](#setRuleType-int-) | For the description of this property, please see [getRuleType()](../../com.aspose.cells/pivotformatcondition\#getRuleType--) |
+| [setScopeType(int value)](#setScopeType-int-) | For the description of this property, please see [getScopeType()](../../com.aspose.cells/pivotformatcondition\#getScopeType--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -275,7 +275,7 @@ public void setRuleType(int value)
 ```
 
 
-For the description of this property, please see \#getRuleType().getRuleType()
+For the description of this property, please see [getRuleType()](../../com.aspose.cells/pivotformatcondition\#getRuleType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -288,7 +288,7 @@ public void setScopeType(int value)
 ```
 
 
-For the description of this property, please see \#getScopeType().getScopeType()
+For the description of this property, please see [getScopeType()](../../com.aspose.cells/pivotformatcondition\#getScopeType--)
 
 **Parameters:**
 | Parameter | Type | Description |

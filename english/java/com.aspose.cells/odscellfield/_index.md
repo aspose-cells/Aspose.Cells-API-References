@@ -27,10 +27,10 @@ Represents the cell field of ods.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setColumn(int value)](#setColumn-int-) | For the description of this property, please see \#getColumn().getColumn() |
-| [setCustomFormat(String value)](#setCustomFormat-java.lang.String-) | For the description of this property, please see \#getCustomFormat().getCustomFormat() |
-| [setFieldType(int value)](#setFieldType-int-) | For the description of this property, please see \#getFieldType().getFieldType() |
-| [setRow(int value)](#setRow-int-) | For the description of this property, please see \#getRow().getRow() |
+| [setColumn(int value)](#setColumn-int-) | For the description of this property, please see [getColumn()](../../com.aspose.cells/odscellfield\#getColumn--) |
+| [setCustomFormat(String value)](#setCustomFormat-java.lang.String-) | For the description of this property, please see [getCustomFormat()](../../com.aspose.cells/odscellfield\#getCustomFormat--) |
+| [setFieldType(int value)](#setFieldType-int-) | For the description of this property, please see [getFieldType()](../../com.aspose.cells/odscellfield\#getFieldType--) |
+| [setRow(int value)](#setRow-int-) | For the description of this property, please see [getRow()](../../com.aspose.cells/odscellfield\#getRow--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -132,7 +132,7 @@ public void setColumn(int value)
 ```
 
 
-For the description of this property, please see \#getColumn().getColumn()
+For the description of this property, please see [getColumn()](../../com.aspose.cells/odscellfield\#getColumn--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setCustomFormat(String value)
 ```
 
 
-For the description of this property, please see \#getCustomFormat().getCustomFormat()
+For the description of this property, please see [getCustomFormat()](../../com.aspose.cells/odscellfield\#getCustomFormat--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public void setFieldType(int value)
 ```
 
 
-For the description of this property, please see \#getFieldType().getFieldType()
+For the description of this property, please see [getFieldType()](../../com.aspose.cells/odscellfield\#getFieldType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,7 +171,7 @@ public void setRow(int value)
 ```
 
 
-For the description of this property, please see \#getRow().getRow()
+For the description of this property, please see [getRow()](../../com.aspose.cells/odscellfield\#getRow--)
 
 **Parameters:**
 | Parameter | Type | Description |

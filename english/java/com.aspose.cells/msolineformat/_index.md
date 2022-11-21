@@ -30,13 +30,13 @@ Represents line and arrowhead formatting.
 | [isVisible()](#isVisible--) | Indicates whether the object is visible. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBackColor(Color value)](#setBackColor-com.aspose.cells.Color-) | For the description of this property, please see \#getBackColor().getBackColor() |
-| [setDashStyle(int value)](#setDashStyle-int-) | For the description of this property, please see \#getDashStyle().getDashStyle() |
-| [setForeColor(Color value)](#setForeColor-com.aspose.cells.Color-) | For the description of this property, please see \#getForeColor().getForeColor() |
-| [setStyle(int value)](#setStyle-int-) | For the description of this property, please see \#getStyle().getStyle() |
-| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see \#getTransparency().getTransparency() |
-| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see \#isVisible().isVisible() |
-| [setWeight(double value)](#setWeight-double-) | For the description of this property, please see \#getWeight().getWeight() |
+| [setBackColor(Color value)](#setBackColor-com.aspose.cells.Color-) | For the description of this property, please see [getBackColor()](../../com.aspose.cells/msolineformat\#getBackColor--) |
+| [setDashStyle(int value)](#setDashStyle-int-) | For the description of this property, please see [getDashStyle()](../../com.aspose.cells/msolineformat\#getDashStyle--) |
+| [setForeColor(Color value)](#setForeColor-com.aspose.cells.Color-) | For the description of this property, please see [getForeColor()](../../com.aspose.cells/msolineformat\#getForeColor--) |
+| [setStyle(int value)](#setStyle-int-) | For the description of this property, please see [getStyle()](../../com.aspose.cells/msolineformat\#getStyle--) |
+| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see [getTransparency()](../../com.aspose.cells/msolineformat\#getTransparency--) |
+| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see [isVisible()](../../com.aspose.cells/msolineformat\#isVisible--) |
+| [setWeight(double value)](#setWeight-double-) | For the description of this property, please see [getWeight()](../../com.aspose.cells/msolineformat\#getWeight--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -168,7 +168,7 @@ public void setBackColor(Color value)
 ```
 
 
-For the description of this property, please see \#getBackColor().getBackColor()
+For the description of this property, please see [getBackColor()](../../com.aspose.cells/msolineformat\#getBackColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,7 +181,7 @@ public void setDashStyle(int value)
 ```
 
 
-For the description of this property, please see \#getDashStyle().getDashStyle()
+For the description of this property, please see [getDashStyle()](../../com.aspose.cells/msolineformat\#getDashStyle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -194,7 +194,7 @@ public void setForeColor(Color value)
 ```
 
 
-For the description of this property, please see \#getForeColor().getForeColor()
+For the description of this property, please see [getForeColor()](../../com.aspose.cells/msolineformat\#getForeColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -207,7 +207,7 @@ public void setStyle(int value)
 ```
 
 
-For the description of this property, please see \#getStyle().getStyle()
+For the description of this property, please see [getStyle()](../../com.aspose.cells/msolineformat\#getStyle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -220,7 +220,7 @@ public void setTransparency(double value)
 ```
 
 
-For the description of this property, please see \#getTransparency().getTransparency()
+For the description of this property, please see [getTransparency()](../../com.aspose.cells/msolineformat\#getTransparency--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -233,7 +233,7 @@ public void setVisible(boolean value)
 ```
 
 
-For the description of this property, please see \#isVisible().isVisible()
+For the description of this property, please see [isVisible()](../../com.aspose.cells/msolineformat\#isVisible--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ public void setWeight(double value)
 ```
 
 
-For the description of this property, please see \#getWeight().getWeight()
+For the description of this property, please see [getWeight()](../../com.aspose.cells/msolineformat\#getWeight--)
 
 **Parameters:**
 | Parameter | Type | Description |

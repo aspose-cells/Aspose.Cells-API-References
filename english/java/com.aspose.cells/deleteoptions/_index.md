@@ -24,7 +24,7 @@ Represents the setting of deleting rows/columns.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setUpdateReference(boolean value)](#setUpdateReference-boolean-) | For the description of this property, please see \#getUpdateReference().getUpdateReference() |
+| [setUpdateReference(boolean value)](#setUpdateReference-boolean-) | For the description of this property, please see [getUpdateReference()](../../com.aspose.cells/deleteoptions\#getUpdateReference--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -96,7 +96,7 @@ public void setUpdateReference(boolean value)
 ```
 
 
-For the description of this property, please see \#getUpdateReference().getUpdateReference()
+For the description of this property, please see [getUpdateReference()](../../com.aspose.cells/deleteoptions\#getUpdateReference--)
 
 **Parameters:**
 | Parameter | Type | Description |

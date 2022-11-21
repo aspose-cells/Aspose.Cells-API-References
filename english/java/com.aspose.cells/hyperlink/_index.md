@@ -46,9 +46,9 @@ Encapsulates the object that represents a hyperlink.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAddress(String value)](#setAddress-java.lang.String-) | For the description of this property, please see \#getAddress().getAddress() |
-| [setScreenTip(String value)](#setScreenTip-java.lang.String-) | For the description of this property, please see \#getScreenTip().getScreenTip() |
-| [setTextToDisplay(String value)](#setTextToDisplay-java.lang.String-) | For the description of this property, please see \#getTextToDisplay().getTextToDisplay() |
+| [setAddress(String value)](#setAddress-java.lang.String-) | For the description of this property, please see [getAddress()](../../com.aspose.cells/hyperlink\#getAddress--) |
+| [setScreenTip(String value)](#setScreenTip-java.lang.String-) | For the description of this property, please see [getScreenTip()](../../com.aspose.cells/hyperlink\#getScreenTip--) |
+| [setTextToDisplay(String value)](#setTextToDisplay-java.lang.String-) | For the description of this property, please see [getTextToDisplay()](../../com.aspose.cells/hyperlink\#getTextToDisplay--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -168,7 +168,7 @@ public void setAddress(String value)
 ```
 
 
-For the description of this property, please see \#getAddress().getAddress()
+For the description of this property, please see [getAddress()](../../com.aspose.cells/hyperlink\#getAddress--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,7 +181,7 @@ public void setScreenTip(String value)
 ```
 
 
-For the description of this property, please see \#getScreenTip().getScreenTip()
+For the description of this property, please see [getScreenTip()](../../com.aspose.cells/hyperlink\#getScreenTip--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -194,7 +194,7 @@ public void setTextToDisplay(String value)
 ```
 
 
-For the description of this property, please see \#getTextToDisplay().getTextToDisplay()
+For the description of this property, please see [getTextToDisplay()](../../com.aspose.cells/hyperlink\#getTextToDisplay--)
 
 **Parameters:**
 | Parameter | Type | Description |

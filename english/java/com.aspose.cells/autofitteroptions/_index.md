@@ -31,14 +31,14 @@ Represents all auto fitter options.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoFitMergedCells(boolean value)](#setAutoFitMergedCells-boolean-) | For the description of this property, please see \#getAutoFitMergedCells().getAutoFitMergedCells() |
-| [setAutoFitMergedCellsType(int value)](#setAutoFitMergedCellsType-int-) | For the description of this property, please see \#getAutoFitMergedCellsType().getAutoFitMergedCellsType() |
-| [setAutoFitWrappedTextType(int value)](#setAutoFitWrappedTextType-int-) | For the description of this property, please see \#getAutoFitWrappedTextType().getAutoFitWrappedTextType() |
-| [setDefaultEditLanguage(int value)](#setDefaultEditLanguage-int-) | For the description of this property, please see \#getDefaultEditLanguage().getDefaultEditLanguage() |
-| [setFormatStrategy(int value)](#setFormatStrategy-int-) | For the description of this property, please see \#getFormatStrategy().getFormatStrategy() |
-| [setIgnoreHidden(boolean value)](#setIgnoreHidden-boolean-) | For the description of this property, please see \#getIgnoreHidden().getIgnoreHidden() |
-| [setMaxRowHeight(double value)](#setMaxRowHeight-double-) | For the description of this property, please see \#getMaxRowHeight().getMaxRowHeight() |
-| [setOnlyAuto(boolean value)](#setOnlyAuto-boolean-) | For the description of this property, please see \#getOnlyAuto().getOnlyAuto() |
+| [setAutoFitMergedCells(boolean value)](#setAutoFitMergedCells-boolean-) | For the description of this property, please see [getAutoFitMergedCells()](../../com.aspose.cells/autofitteroptions\#getAutoFitMergedCells--) |
+| [setAutoFitMergedCellsType(int value)](#setAutoFitMergedCellsType-int-) | For the description of this property, please see [getAutoFitMergedCellsType()](../../com.aspose.cells/autofitteroptions\#getAutoFitMergedCellsType--) |
+| [setAutoFitWrappedTextType(int value)](#setAutoFitWrappedTextType-int-) | For the description of this property, please see [getAutoFitWrappedTextType()](../../com.aspose.cells/autofitteroptions\#getAutoFitWrappedTextType--) |
+| [setDefaultEditLanguage(int value)](#setDefaultEditLanguage-int-) | For the description of this property, please see [getDefaultEditLanguage()](../../com.aspose.cells/autofitteroptions\#getDefaultEditLanguage--) |
+| [setFormatStrategy(int value)](#setFormatStrategy-int-) | For the description of this property, please see [getFormatStrategy()](../../com.aspose.cells/autofitteroptions\#getFormatStrategy--) |
+| [setIgnoreHidden(boolean value)](#setIgnoreHidden-boolean-) | For the description of this property, please see [getIgnoreHidden()](../../com.aspose.cells/autofitteroptions\#getIgnoreHidden--) |
+| [setMaxRowHeight(double value)](#setMaxRowHeight-double-) | For the description of this property, please see [getMaxRowHeight()](../../com.aspose.cells/autofitteroptions\#getMaxRowHeight--) |
+| [setOnlyAuto(boolean value)](#setOnlyAuto-boolean-) | For the description of this property, please see [getOnlyAuto()](../../com.aspose.cells/autofitteroptions\#getOnlyAuto--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -180,7 +180,7 @@ public void setAutoFitMergedCells(boolean value)
 ```
 
 
-For the description of this property, please see \#getAutoFitMergedCells().getAutoFitMergedCells()
+For the description of this property, please see [getAutoFitMergedCells()](../../com.aspose.cells/autofitteroptions\#getAutoFitMergedCells--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,7 +193,7 @@ public void setAutoFitMergedCellsType(int value)
 ```
 
 
-For the description of this property, please see \#getAutoFitMergedCellsType().getAutoFitMergedCellsType()
+For the description of this property, please see [getAutoFitMergedCellsType()](../../com.aspose.cells/autofitteroptions\#getAutoFitMergedCellsType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -206,7 +206,7 @@ public void setAutoFitWrappedTextType(int value)
 ```
 
 
-For the description of this property, please see \#getAutoFitWrappedTextType().getAutoFitWrappedTextType()
+For the description of this property, please see [getAutoFitWrappedTextType()](../../com.aspose.cells/autofitteroptions\#getAutoFitWrappedTextType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -219,7 +219,7 @@ public void setDefaultEditLanguage(int value)
 ```
 
 
-For the description of this property, please see \#getDefaultEditLanguage().getDefaultEditLanguage()
+For the description of this property, please see [getDefaultEditLanguage()](../../com.aspose.cells/autofitteroptions\#getDefaultEditLanguage--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -232,7 +232,7 @@ public void setFormatStrategy(int value)
 ```
 
 
-For the description of this property, please see \#getFormatStrategy().getFormatStrategy()
+For the description of this property, please see [getFormatStrategy()](../../com.aspose.cells/autofitteroptions\#getFormatStrategy--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -245,7 +245,7 @@ public void setIgnoreHidden(boolean value)
 ```
 
 
-For the description of this property, please see \#getIgnoreHidden().getIgnoreHidden()
+For the description of this property, please see [getIgnoreHidden()](../../com.aspose.cells/autofitteroptions\#getIgnoreHidden--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -258,7 +258,7 @@ public void setMaxRowHeight(double value)
 ```
 
 
-For the description of this property, please see \#getMaxRowHeight().getMaxRowHeight()
+For the description of this property, please see [getMaxRowHeight()](../../com.aspose.cells/autofitteroptions\#getMaxRowHeight--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -271,7 +271,7 @@ public void setOnlyAuto(boolean value)
 ```
 
 
-For the description of this property, please see \#getOnlyAuto().getOnlyAuto()
+For the description of this property, please see [getOnlyAuto()](../../com.aspose.cells/autofitteroptions\#getOnlyAuto--)
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -55,9 +55,9 @@ Workbook workbook = new Workbook();
 | [notifyAll()](#notifyAll--) |  |
 | [setCustomCalculatedFormula(String formula, boolean isR1C1, boolean isLocal)](#setCustomCalculatedFormula-java.lang.String-boolean-boolean-) | Sets the formula for this list column. |
 | [setCustomTotalsRowFormula(String formula, boolean isR1C1, boolean isLocal)](#setCustomTotalsRowFormula-java.lang.String-boolean-boolean-) | Gets the formula of totals row of this list column. |
-| [setFormula(String value)](#setFormula-java.lang.String-) | For the description of this property, please see \#getFormula().getFormula() |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
-| [setTotalsCalculation(int value)](#setTotalsCalculation-int-) | For the description of this property, please see \#getTotalsCalculation().getTotalsCalculation() |
+| [setFormula(String value)](#setFormula-java.lang.String-) | For the description of this property, please see [getFormula()](../../com.aspose.cells/listcolumn\#getFormula--) |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/listcolumn\#getName--) |
+| [setTotalsCalculation(int value)](#setTotalsCalculation-int-) | For the description of this property, please see [getTotalsCalculation()](../../com.aspose.cells/listcolumn\#getTotalsCalculation--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -221,7 +221,7 @@ public void setFormula(String value)
 ```
 
 
-For the description of this property, please see \#getFormula().getFormula()
+For the description of this property, please see [getFormula()](../../com.aspose.cells/listcolumn\#getFormula--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -234,7 +234,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see \#getName().getName()
+For the description of this property, please see [getName()](../../com.aspose.cells/listcolumn\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -247,7 +247,7 @@ public void setTotalsCalculation(int value)
 ```
 
 
-For the description of this property, please see \#getTotalsCalculation().getTotalsCalculation()
+For the description of this property, please see [getTotalsCalculation()](../../com.aspose.cells/listcolumn\#getTotalsCalculation--)
 
 **Parameters:**
 | Parameter | Type | Description |

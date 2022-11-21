@@ -25,7 +25,7 @@ Represents the color filter.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFilterByFillColor(boolean value)](#setFilterByFillColor-boolean-) | For the description of this property, please see \#getFilterByFillColor().getFilterByFillColor() |
+| [setFilterByFillColor(boolean value)](#setFilterByFillColor-boolean-) | For the description of this property, please see [getFilterByFillColor()](../../com.aspose.cells/colorfilter\#getFilterByFillColor--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -112,7 +112,7 @@ public void setFilterByFillColor(boolean value)
 ```
 
 
-For the description of this property, please see \#getFilterByFillColor().getFilterByFillColor()
+For the description of this property, please see [getFilterByFillColor()](../../com.aspose.cells/colorfilter\#getFilterByFillColor--)
 
 **Parameters:**
 | Parameter | Type | Description |

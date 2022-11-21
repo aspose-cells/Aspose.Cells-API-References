@@ -63,37 +63,37 @@ Represents a ListBox ActiveX control.
 | [isVisible()](#isVisible--) | Indicates whether this control is visible. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoSize(boolean value)](#setAutoSize-boolean-) | For the description of this property, please see \#isAutoSize().isAutoSize() |
-| [setBackOleColor(int value)](#setBackOleColor-int-) | For the description of this property, please see \#getBackOleColor().getBackOleColor() |
-| [setBorderOleColor(int value)](#setBorderOleColor-int-) | For the description of this property, please see \#getBorderOleColor().getBorderOleColor() |
-| [setBorderStyle(int value)](#setBorderStyle-int-) | For the description of this property, please see \#getBorderStyle().getBorderStyle() |
-| [setBoundColumn(int value)](#setBoundColumn-int-) | For the description of this property, please see \#getBoundColumn().getBoundColumn() |
-| [setColumnCount(int value)](#setColumnCount-int-) | For the description of this property, please see \#getColumnCount().getColumnCount() |
-| [setColumnWidths(double value)](#setColumnWidths-double-) | For the description of this property, please see \#getColumnWidths().getColumnWidths() |
-| [setEnabled(boolean value)](#setEnabled-boolean-) | For the description of this property, please see \#isEnabled().isEnabled() |
-| [setForeOleColor(int value)](#setForeOleColor-int-) | For the description of this property, please see \#getForeOleColor().getForeOleColor() |
-| [setHeight(double value)](#setHeight-double-) | For the description of this property, please see \#getHeight().getHeight() |
-| [setIMEMode(int value)](#setIMEMode-int-) | For the description of this property, please see \#getIMEMode().getIMEMode() |
-| [setIntegralHeight(boolean value)](#setIntegralHeight-boolean-) | For the description of this property, please see \#getIntegralHeight().getIntegralHeight() |
-| [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | For the description of this property, please see \#getLinkedCell().getLinkedCell() |
-| [setListFillRange(String value)](#setListFillRange-java.lang.String-) | For the description of this property, please see \#getListFillRange().getListFillRange() |
-| [setListStyle(int value)](#setListStyle-int-) | For the description of this property, please see \#getListStyle().getListStyle() |
-| [setListWidth(double value)](#setListWidth-double-) | For the description of this property, please see \#getListWidth().getListWidth() |
-| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see \#isLocked().isLocked() |
-| [setMatchEntry(int value)](#setMatchEntry-int-) | For the description of this property, please see \#getMatchEntry().getMatchEntry() |
-| [setMouseIcon(byte[] value)](#setMouseIcon-byte---) | For the description of this property, please see \#getMouseIcon().getMouseIcon() |
-| [setMousePointer(int value)](#setMousePointer-int-) | For the description of this property, please see \#getMousePointer().getMousePointer() |
-| [setScrollBars(int value)](#setScrollBars-int-) | For the description of this property, please see \#getScrollBars().getScrollBars() |
-| [setSelectionType(int value)](#setSelectionType-int-) | For the description of this property, please see \#getSelectionType().getSelectionType() |
-| [setShadow(boolean value)](#setShadow-boolean-) | For the description of this property, please see \#getShadow().getShadow() |
-| [setShowColumnHeads(boolean value)](#setShowColumnHeads-boolean-) | For the description of this property, please see \#getShowColumnHeads().getShowColumnHeads() |
-| [setSpecialEffect(int value)](#setSpecialEffect-int-) | For the description of this property, please see \#getSpecialEffect().getSpecialEffect() |
-| [setTextAlign(int value)](#setTextAlign-int-) | For the description of this property, please see \#getTextAlign().getTextAlign() |
-| [setTextColumn(int value)](#setTextColumn-int-) | For the description of this property, please see \#getTextColumn().getTextColumn() |
-| [setTransparent(boolean value)](#setTransparent-boolean-) | For the description of this property, please see \#isTransparent().isTransparent() |
-| [setValue(String value)](#setValue-java.lang.String-) | For the description of this property, please see \#getValue().getValue() |
-| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see \#isVisible().isVisible() |
-| [setWidth(double value)](#setWidth-double-) | For the description of this property, please see \#getWidth().getWidth() |
+| [setAutoSize(boolean value)](#setAutoSize-boolean-) | For the description of this property, please see [isAutoSize()](../../com.aspose.cells/activexcontrol\#isAutoSize--) |
+| [setBackOleColor(int value)](#setBackOleColor-int-) | For the description of this property, please see [getBackOleColor()](../../com.aspose.cells/activexcontrolbase\#getBackOleColor--) |
+| [setBorderOleColor(int value)](#setBorderOleColor-int-) | For the description of this property, please see [getBorderOleColor()](../../com.aspose.cells/listboxactivexcontrol\#getBorderOleColor--) |
+| [setBorderStyle(int value)](#setBorderStyle-int-) | For the description of this property, please see [getBorderStyle()](../../com.aspose.cells/listboxactivexcontrol\#getBorderStyle--) |
+| [setBoundColumn(int value)](#setBoundColumn-int-) | For the description of this property, please see [getBoundColumn()](../../com.aspose.cells/listboxactivexcontrol\#getBoundColumn--) |
+| [setColumnCount(int value)](#setColumnCount-int-) | For the description of this property, please see [getColumnCount()](../../com.aspose.cells/listboxactivexcontrol\#getColumnCount--) |
+| [setColumnWidths(double value)](#setColumnWidths-double-) | For the description of this property, please see [getColumnWidths()](../../com.aspose.cells/listboxactivexcontrol\#getColumnWidths--) |
+| [setEnabled(boolean value)](#setEnabled-boolean-) | For the description of this property, please see [isEnabled()](../../com.aspose.cells/activexcontrol\#isEnabled--) |
+| [setForeOleColor(int value)](#setForeOleColor-int-) | For the description of this property, please see [getForeOleColor()](../../com.aspose.cells/activexcontrolbase\#getForeOleColor--) |
+| [setHeight(double value)](#setHeight-double-) | For the description of this property, please see [getHeight()](../../com.aspose.cells/activexcontrolbase\#getHeight--) |
+| [setIMEMode(int value)](#setIMEMode-int-) | For the description of this property, please see [getIMEMode()](../../com.aspose.cells/activexcontrol\#getIMEMode--) |
+| [setIntegralHeight(boolean value)](#setIntegralHeight-boolean-) | For the description of this property, please see [getIntegralHeight()](../../com.aspose.cells/listboxactivexcontrol\#getIntegralHeight--) |
+| [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | For the description of this property, please see [getLinkedCell()](../../com.aspose.cells/activexcontrolbase\#getLinkedCell--) |
+| [setListFillRange(String value)](#setListFillRange-java.lang.String-) | For the description of this property, please see [getListFillRange()](../../com.aspose.cells/activexcontrolbase\#getListFillRange--) |
+| [setListStyle(int value)](#setListStyle-int-) | For the description of this property, please see [getListStyle()](../../com.aspose.cells/listboxactivexcontrol\#getListStyle--) |
+| [setListWidth(double value)](#setListWidth-double-) | For the description of this property, please see [getListWidth()](../../com.aspose.cells/listboxactivexcontrol\#getListWidth--) |
+| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see [isLocked()](../../com.aspose.cells/activexcontrol\#isLocked--) |
+| [setMatchEntry(int value)](#setMatchEntry-int-) | For the description of this property, please see [getMatchEntry()](../../com.aspose.cells/listboxactivexcontrol\#getMatchEntry--) |
+| [setMouseIcon(byte[] value)](#setMouseIcon-byte---) | For the description of this property, please see [getMouseIcon()](../../com.aspose.cells/activexcontrolbase\#getMouseIcon--) |
+| [setMousePointer(int value)](#setMousePointer-int-) | For the description of this property, please see [getMousePointer()](../../com.aspose.cells/activexcontrolbase\#getMousePointer--) |
+| [setScrollBars(int value)](#setScrollBars-int-) | For the description of this property, please see [getScrollBars()](../../com.aspose.cells/listboxactivexcontrol\#getScrollBars--) |
+| [setSelectionType(int value)](#setSelectionType-int-) | For the description of this property, please see [getSelectionType()](../../com.aspose.cells/listboxactivexcontrol\#getSelectionType--) |
+| [setShadow(boolean value)](#setShadow-boolean-) | For the description of this property, please see [getShadow()](../../com.aspose.cells/activexcontrolbase\#getShadow--) |
+| [setShowColumnHeads(boolean value)](#setShowColumnHeads-boolean-) | For the description of this property, please see [getShowColumnHeads()](../../com.aspose.cells/listboxactivexcontrol\#getShowColumnHeads--) |
+| [setSpecialEffect(int value)](#setSpecialEffect-int-) | For the description of this property, please see [getSpecialEffect()](../../com.aspose.cells/listboxactivexcontrol\#getSpecialEffect--) |
+| [setTextAlign(int value)](#setTextAlign-int-) | For the description of this property, please see [getTextAlign()](../../com.aspose.cells/activexcontrol\#getTextAlign--) |
+| [setTextColumn(int value)](#setTextColumn-int-) | For the description of this property, please see [getTextColumn()](../../com.aspose.cells/listboxactivexcontrol\#getTextColumn--) |
+| [setTransparent(boolean value)](#setTransparent-boolean-) | For the description of this property, please see [isTransparent()](../../com.aspose.cells/activexcontrol\#isTransparent--) |
+| [setValue(String value)](#setValue-java.lang.String-) | For the description of this property, please see [getValue()](../../com.aspose.cells/listboxactivexcontrol\#getValue--) |
+| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see [isVisible()](../../com.aspose.cells/activexcontrolbase\#isVisible--) |
+| [setWidth(double value)](#setWidth-double-) | For the description of this property, please see [getWidth()](../../com.aspose.cells/activexcontrolbase\#getWidth--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -511,7 +511,7 @@ public void setAutoSize(boolean value)
 ```
 
 
-For the description of this property, please see \#isAutoSize().isAutoSize()
+For the description of this property, please see [isAutoSize()](../../com.aspose.cells/activexcontrol\#isAutoSize--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -524,7 +524,7 @@ public void setBackOleColor(int value)
 ```
 
 
-For the description of this property, please see \#getBackOleColor().getBackOleColor()
+For the description of this property, please see [getBackOleColor()](../../com.aspose.cells/activexcontrolbase\#getBackOleColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -537,7 +537,7 @@ public void setBorderOleColor(int value)
 ```
 
 
-For the description of this property, please see \#getBorderOleColor().getBorderOleColor()
+For the description of this property, please see [getBorderOleColor()](../../com.aspose.cells/listboxactivexcontrol\#getBorderOleColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -550,7 +550,7 @@ public void setBorderStyle(int value)
 ```
 
 
-For the description of this property, please see \#getBorderStyle().getBorderStyle()
+For the description of this property, please see [getBorderStyle()](../../com.aspose.cells/listboxactivexcontrol\#getBorderStyle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -563,7 +563,7 @@ public void setBoundColumn(int value)
 ```
 
 
-For the description of this property, please see \#getBoundColumn().getBoundColumn()
+For the description of this property, please see [getBoundColumn()](../../com.aspose.cells/listboxactivexcontrol\#getBoundColumn--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -576,7 +576,7 @@ public void setColumnCount(int value)
 ```
 
 
-For the description of this property, please see \#getColumnCount().getColumnCount()
+For the description of this property, please see [getColumnCount()](../../com.aspose.cells/listboxactivexcontrol\#getColumnCount--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -589,7 +589,7 @@ public void setColumnWidths(double value)
 ```
 
 
-For the description of this property, please see \#getColumnWidths().getColumnWidths()
+For the description of this property, please see [getColumnWidths()](../../com.aspose.cells/listboxactivexcontrol\#getColumnWidths--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -602,7 +602,7 @@ public void setEnabled(boolean value)
 ```
 
 
-For the description of this property, please see \#isEnabled().isEnabled()
+For the description of this property, please see [isEnabled()](../../com.aspose.cells/activexcontrol\#isEnabled--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -615,7 +615,7 @@ public void setForeOleColor(int value)
 ```
 
 
-For the description of this property, please see \#getForeOleColor().getForeOleColor()
+For the description of this property, please see [getForeOleColor()](../../com.aspose.cells/activexcontrolbase\#getForeOleColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -628,7 +628,7 @@ public void setHeight(double value)
 ```
 
 
-For the description of this property, please see \#getHeight().getHeight()
+For the description of this property, please see [getHeight()](../../com.aspose.cells/activexcontrolbase\#getHeight--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -641,7 +641,7 @@ public void setIMEMode(int value)
 ```
 
 
-For the description of this property, please see \#getIMEMode().getIMEMode()
+For the description of this property, please see [getIMEMode()](../../com.aspose.cells/activexcontrol\#getIMEMode--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -654,7 +654,7 @@ public void setIntegralHeight(boolean value)
 ```
 
 
-For the description of this property, please see \#getIntegralHeight().getIntegralHeight()
+For the description of this property, please see [getIntegralHeight()](../../com.aspose.cells/listboxactivexcontrol\#getIntegralHeight--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -667,7 +667,7 @@ public void setLinkedCell(String value)
 ```
 
 
-For the description of this property, please see \#getLinkedCell().getLinkedCell()
+For the description of this property, please see [getLinkedCell()](../../com.aspose.cells/activexcontrolbase\#getLinkedCell--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -680,7 +680,7 @@ public void setListFillRange(String value)
 ```
 
 
-For the description of this property, please see \#getListFillRange().getListFillRange()
+For the description of this property, please see [getListFillRange()](../../com.aspose.cells/activexcontrolbase\#getListFillRange--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -693,7 +693,7 @@ public void setListStyle(int value)
 ```
 
 
-For the description of this property, please see \#getListStyle().getListStyle()
+For the description of this property, please see [getListStyle()](../../com.aspose.cells/listboxactivexcontrol\#getListStyle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -706,7 +706,7 @@ public void setListWidth(double value)
 ```
 
 
-For the description of this property, please see \#getListWidth().getListWidth()
+For the description of this property, please see [getListWidth()](../../com.aspose.cells/listboxactivexcontrol\#getListWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -719,7 +719,7 @@ public void setLocked(boolean value)
 ```
 
 
-For the description of this property, please see \#isLocked().isLocked()
+For the description of this property, please see [isLocked()](../../com.aspose.cells/activexcontrol\#isLocked--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -732,7 +732,7 @@ public void setMatchEntry(int value)
 ```
 
 
-For the description of this property, please see \#getMatchEntry().getMatchEntry()
+For the description of this property, please see [getMatchEntry()](../../com.aspose.cells/listboxactivexcontrol\#getMatchEntry--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -745,7 +745,7 @@ public void setMouseIcon(byte[] value)
 ```
 
 
-For the description of this property, please see \#getMouseIcon().getMouseIcon()
+For the description of this property, please see [getMouseIcon()](../../com.aspose.cells/activexcontrolbase\#getMouseIcon--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -758,7 +758,7 @@ public void setMousePointer(int value)
 ```
 
 
-For the description of this property, please see \#getMousePointer().getMousePointer()
+For the description of this property, please see [getMousePointer()](../../com.aspose.cells/activexcontrolbase\#getMousePointer--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -771,7 +771,7 @@ public void setScrollBars(int value)
 ```
 
 
-For the description of this property, please see \#getScrollBars().getScrollBars()
+For the description of this property, please see [getScrollBars()](../../com.aspose.cells/listboxactivexcontrol\#getScrollBars--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -784,7 +784,7 @@ public void setSelectionType(int value)
 ```
 
 
-For the description of this property, please see \#getSelectionType().getSelectionType()
+For the description of this property, please see [getSelectionType()](../../com.aspose.cells/listboxactivexcontrol\#getSelectionType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -797,7 +797,7 @@ public void setShadow(boolean value)
 ```
 
 
-For the description of this property, please see \#getShadow().getShadow()
+For the description of this property, please see [getShadow()](../../com.aspose.cells/activexcontrolbase\#getShadow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -810,7 +810,7 @@ public void setShowColumnHeads(boolean value)
 ```
 
 
-For the description of this property, please see \#getShowColumnHeads().getShowColumnHeads()
+For the description of this property, please see [getShowColumnHeads()](../../com.aspose.cells/listboxactivexcontrol\#getShowColumnHeads--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -823,7 +823,7 @@ public void setSpecialEffect(int value)
 ```
 
 
-For the description of this property, please see \#getSpecialEffect().getSpecialEffect()
+For the description of this property, please see [getSpecialEffect()](../../com.aspose.cells/listboxactivexcontrol\#getSpecialEffect--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -836,7 +836,7 @@ public void setTextAlign(int value)
 ```
 
 
-For the description of this property, please see \#getTextAlign().getTextAlign()
+For the description of this property, please see [getTextAlign()](../../com.aspose.cells/activexcontrol\#getTextAlign--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -849,7 +849,7 @@ public void setTextColumn(int value)
 ```
 
 
-For the description of this property, please see \#getTextColumn().getTextColumn()
+For the description of this property, please see [getTextColumn()](../../com.aspose.cells/listboxactivexcontrol\#getTextColumn--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -862,7 +862,7 @@ public void setTransparent(boolean value)
 ```
 
 
-For the description of this property, please see \#isTransparent().isTransparent()
+For the description of this property, please see [isTransparent()](../../com.aspose.cells/activexcontrol\#isTransparent--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -875,7 +875,7 @@ public void setValue(String value)
 ```
 
 
-For the description of this property, please see \#getValue().getValue()
+For the description of this property, please see [getValue()](../../com.aspose.cells/listboxactivexcontrol\#getValue--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -888,7 +888,7 @@ public void setVisible(boolean value)
 ```
 
 
-For the description of this property, please see \#isVisible().isVisible()
+For the description of this property, please see [isVisible()](../../com.aspose.cells/activexcontrolbase\#isVisible--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -901,7 +901,7 @@ public void setWidth(double value)
 ```
 
 
-For the description of this property, please see \#getWidth().getWidth()
+For the description of this property, please see [getWidth()](../../com.aspose.cells/activexcontrolbase\#getWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |

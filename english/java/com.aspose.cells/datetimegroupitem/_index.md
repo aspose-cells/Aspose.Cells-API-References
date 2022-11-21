@@ -36,13 +36,13 @@ Represents the datetime's group setting.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDateTimeGroupingType(int value)](#setDateTimeGroupingType-int-) | For the description of this property, please see \#getDateTimeGroupingType().getDateTimeGroupingType() |
-| [setDay(int value)](#setDay-int-) | For the description of this property, please see \#getDay().getDay() |
-| [setHour(int value)](#setHour-int-) | For the description of this property, please see \#getHour().getHour() |
-| [setMinute(int value)](#setMinute-int-) | For the description of this property, please see \#getMinute().getMinute() |
-| [setMonth(int value)](#setMonth-int-) | For the description of this property, please see \#getMonth().getMonth() |
-| [setSecond(int value)](#setSecond-int-) | For the description of this property, please see \#getSecond().getSecond() |
-| [setYear(int value)](#setYear-int-) | For the description of this property, please see \#getYear().getYear() |
+| [setDateTimeGroupingType(int value)](#setDateTimeGroupingType-int-) | For the description of this property, please see [getDateTimeGroupingType()](../../com.aspose.cells/datetimegroupitem\#getDateTimeGroupingType--) |
+| [setDay(int value)](#setDay-int-) | For the description of this property, please see [getDay()](../../com.aspose.cells/datetimegroupitem\#getDay--) |
+| [setHour(int value)](#setHour-int-) | For the description of this property, please see [getHour()](../../com.aspose.cells/datetimegroupitem\#getHour--) |
+| [setMinute(int value)](#setMinute-int-) | For the description of this property, please see [getMinute()](../../com.aspose.cells/datetimegroupitem\#getMinute--) |
+| [setMonth(int value)](#setMonth-int-) | For the description of this property, please see [getMonth()](../../com.aspose.cells/datetimegroupitem\#getMonth--) |
+| [setSecond(int value)](#setSecond-int-) | For the description of this property, please see [getSecond()](../../com.aspose.cells/datetimegroupitem\#getSecond--) |
+| [setYear(int value)](#setYear-int-) | For the description of this property, please see [getYear()](../../com.aspose.cells/datetimegroupitem\#getYear--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -203,7 +203,7 @@ public void setDateTimeGroupingType(int value)
 ```
 
 
-For the description of this property, please see \#getDateTimeGroupingType().getDateTimeGroupingType()
+For the description of this property, please see [getDateTimeGroupingType()](../../com.aspose.cells/datetimegroupitem\#getDateTimeGroupingType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -216,7 +216,7 @@ public void setDay(int value)
 ```
 
 
-For the description of this property, please see \#getDay().getDay()
+For the description of this property, please see [getDay()](../../com.aspose.cells/datetimegroupitem\#getDay--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -229,7 +229,7 @@ public void setHour(int value)
 ```
 
 
-For the description of this property, please see \#getHour().getHour()
+For the description of this property, please see [getHour()](../../com.aspose.cells/datetimegroupitem\#getHour--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -242,7 +242,7 @@ public void setMinute(int value)
 ```
 
 
-For the description of this property, please see \#getMinute().getMinute()
+For the description of this property, please see [getMinute()](../../com.aspose.cells/datetimegroupitem\#getMinute--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -255,7 +255,7 @@ public void setMonth(int value)
 ```
 
 
-For the description of this property, please see \#getMonth().getMonth()
+For the description of this property, please see [getMonth()](../../com.aspose.cells/datetimegroupitem\#getMonth--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -268,7 +268,7 @@ public void setSecond(int value)
 ```
 
 
-For the description of this property, please see \#getSecond().getSecond()
+For the description of this property, please see [getSecond()](../../com.aspose.cells/datetimegroupitem\#getSecond--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -281,7 +281,7 @@ public void setYear(int value)
 ```
 
 
-For the description of this property, please see \#getYear().getYear()
+For the description of this property, please see [getYear()](../../com.aspose.cells/datetimegroupitem\#getYear--)
 
 **Parameters:**
 | Parameter | Type | Description |

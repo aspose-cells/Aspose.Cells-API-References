@@ -34,10 +34,10 @@ Represents the stream options.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCustomPath(String value)](#setCustomPath-java.lang.String-) | For the description of this property, please see \#getCustomPath().getCustomPath() |
-| [setInputStream(InputStream value)](#setInputStream-java.io.InputStream-) | For the description of this property, please see \#getInputStream().getInputStream() |
-| [setResourceLoadingType(int value)](#setResourceLoadingType-int-) | For the description of this property, please see \#getResourceLoadingType().getResourceLoadingType() |
-| [setStream(OutputStream value)](#setStream-java.io.OutputStream-) | For the description of this property, please see \#getStream().getStream() |
+| [setCustomPath(String value)](#setCustomPath-java.lang.String-) | For the description of this property, please see [getCustomPath()](../../com.aspose.cells/streamprovideroptions\#getCustomPath--) |
+| [setInputStream(InputStream value)](#setInputStream-java.io.InputStream-) | For the description of this property, please see [getInputStream()](../../com.aspose.cells/streamprovideroptions\#getInputStream--) |
+| [setResourceLoadingType(int value)](#setResourceLoadingType-int-) | For the description of this property, please see [getResourceLoadingType()](../../com.aspose.cells/streamprovideroptions\#getResourceLoadingType--) |
+| [setStream(OutputStream value)](#setStream-java.io.OutputStream-) | For the description of this property, please see [getStream()](../../com.aspose.cells/streamprovideroptions\#getStream--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -171,7 +171,7 @@ public void setCustomPath(String value)
 ```
 
 
-For the description of this property, please see \#getCustomPath().getCustomPath()
+For the description of this property, please see [getCustomPath()](../../com.aspose.cells/streamprovideroptions\#getCustomPath--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -184,7 +184,7 @@ public void setInputStream(InputStream value)
 ```
 
 
-For the description of this property, please see \#getInputStream().getInputStream()
+For the description of this property, please see [getInputStream()](../../com.aspose.cells/streamprovideroptions\#getInputStream--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -197,7 +197,7 @@ public void setResourceLoadingType(int value)
 ```
 
 
-For the description of this property, please see \#getResourceLoadingType().getResourceLoadingType()
+For the description of this property, please see [getResourceLoadingType()](../../com.aspose.cells/streamprovideroptions\#getResourceLoadingType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -210,7 +210,7 @@ public void setStream(OutputStream value)
 ```
 
 
-For the description of this property, please see \#getStream().getStream()
+For the description of this property, please see [getStream()](../../com.aspose.cells/streamprovideroptions\#getStream--)
 
 **Parameters:**
 | Parameter | Type | Description |

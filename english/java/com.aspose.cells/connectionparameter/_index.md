@@ -30,13 +30,13 @@ Specifies properties about any parameters used with external data connections Pa
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCellReference(String value)](#setCellReference-java.lang.String-) | For the description of this property, please see \#getCellReference().getCellReference() |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
-| [setPrompt(String value)](#setPrompt-java.lang.String-) | For the description of this property, please see \#getPrompt().getPrompt() |
-| [setRefreshOnChange(boolean value)](#setRefreshOnChange-boolean-) | For the description of this property, please see \#getRefreshOnChange().getRefreshOnChange() |
-| [setSqlType(int value)](#setSqlType-int-) | For the description of this property, please see \#getSqlType().getSqlType() |
-| [setType(int value)](#setType-int-) | For the description of this property, please see \#getType().getType() |
-| [setValue(Object value)](#setValue-java.lang.Object-) | For the description of this property, please see \#getValue().getValue() |
+| [setCellReference(String value)](#setCellReference-java.lang.String-) | For the description of this property, please see [getCellReference()](../../com.aspose.cells/connectionparameter\#getCellReference--) |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/connectionparameter\#getName--) |
+| [setPrompt(String value)](#setPrompt-java.lang.String-) | For the description of this property, please see [getPrompt()](../../com.aspose.cells/connectionparameter\#getPrompt--) |
+| [setRefreshOnChange(boolean value)](#setRefreshOnChange-boolean-) | For the description of this property, please see [getRefreshOnChange()](../../com.aspose.cells/connectionparameter\#getRefreshOnChange--) |
+| [setSqlType(int value)](#setSqlType-int-) | For the description of this property, please see [getSqlType()](../../com.aspose.cells/connectionparameter\#getSqlType--) |
+| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/connectionparameter\#getType--) |
+| [setValue(Object value)](#setValue-java.lang.Object-) | For the description of this property, please see [getValue()](../../com.aspose.cells/connectionparameter\#getValue--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -168,7 +168,7 @@ public void setCellReference(String value)
 ```
 
 
-For the description of this property, please see \#getCellReference().getCellReference()
+For the description of this property, please see [getCellReference()](../../com.aspose.cells/connectionparameter\#getCellReference--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,7 +181,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see \#getName().getName()
+For the description of this property, please see [getName()](../../com.aspose.cells/connectionparameter\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -194,7 +194,7 @@ public void setPrompt(String value)
 ```
 
 
-For the description of this property, please see \#getPrompt().getPrompt()
+For the description of this property, please see [getPrompt()](../../com.aspose.cells/connectionparameter\#getPrompt--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -207,7 +207,7 @@ public void setRefreshOnChange(boolean value)
 ```
 
 
-For the description of this property, please see \#getRefreshOnChange().getRefreshOnChange()
+For the description of this property, please see [getRefreshOnChange()](../../com.aspose.cells/connectionparameter\#getRefreshOnChange--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -220,7 +220,7 @@ public void setSqlType(int value)
 ```
 
 
-For the description of this property, please see \#getSqlType().getSqlType()
+For the description of this property, please see [getSqlType()](../../com.aspose.cells/connectionparameter\#getSqlType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -233,7 +233,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see \#getType().getType()
+For the description of this property, please see [getType()](../../com.aspose.cells/connectionparameter\#getType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ public void setValue(Object value)
 ```
 
 
-For the description of this property, please see \#getValue().getValue()
+For the description of this property, please see [getValue()](../../com.aspose.cells/connectionparameter\#getValue--)
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -29,12 +29,12 @@ Represents picture format option
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBottom(double value)](#setBottom-double-) | For the description of this property, please see \#getBottom().getBottom() |
-| [setLeft(double value)](#setLeft-double-) | For the description of this property, please see \#getLeft().getLeft() |
-| [setRight(double value)](#setRight-double-) | For the description of this property, please see \#getRight().getRight() |
-| [setScale(double value)](#setScale-double-) | For the description of this property, please see \#getScale().getScale() |
-| [setTop(double value)](#setTop-double-) | For the description of this property, please see \#getTop().getTop() |
-| [setType(int value)](#setType-int-) | For the description of this property, please see \#getType().getType() |
+| [setBottom(double value)](#setBottom-double-) | For the description of this property, please see [getBottom()](../../com.aspose.cells/picformatoption\#getBottom--) |
+| [setLeft(double value)](#setLeft-double-) | For the description of this property, please see [getLeft()](../../com.aspose.cells/picformatoption\#getLeft--) |
+| [setRight(double value)](#setRight-double-) | For the description of this property, please see [getRight()](../../com.aspose.cells/picformatoption\#getRight--) |
+| [setScale(double value)](#setScale-double-) | For the description of this property, please see [getScale()](../../com.aspose.cells/picformatoption\#getScale--) |
+| [setTop(double value)](#setTop-double-) | For the description of this property, please see [getTop()](../../com.aspose.cells/picformatoption\#getTop--) |
+| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/picformatoption\#getType--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -156,7 +156,7 @@ public void setBottom(double value)
 ```
 
 
-For the description of this property, please see \#getBottom().getBottom()
+For the description of this property, please see [getBottom()](../../com.aspose.cells/picformatoption\#getBottom--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -169,7 +169,7 @@ public void setLeft(double value)
 ```
 
 
-For the description of this property, please see \#getLeft().getLeft()
+For the description of this property, please see [getLeft()](../../com.aspose.cells/picformatoption\#getLeft--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -182,7 +182,7 @@ public void setRight(double value)
 ```
 
 
-For the description of this property, please see \#getRight().getRight()
+For the description of this property, please see [getRight()](../../com.aspose.cells/picformatoption\#getRight--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -195,7 +195,7 @@ public void setScale(double value)
 ```
 
 
-For the description of this property, please see \#getScale().getScale()
+For the description of this property, please see [getScale()](../../com.aspose.cells/picformatoption\#getScale--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -208,7 +208,7 @@ public void setTop(double value)
 ```
 
 
-For the description of this property, please see \#getTop().getTop()
+For the description of this property, please see [getTop()](../../com.aspose.cells/picformatoption\#getTop--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -221,7 +221,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see \#getType().getType()
+For the description of this property, please see [getType()](../../com.aspose.cells/picformatoption\#getType--)
 
 **Parameters:**
 | Parameter | Type | Description |

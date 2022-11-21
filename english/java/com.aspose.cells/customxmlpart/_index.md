@@ -26,9 +26,9 @@ Represents a Custom XML Data Storage Part (custom XML data within a package).
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setData(byte[] value)](#setData-byte---) | For the description of this property, please see \#getData().getData() |
-| [setID(String value)](#setID-java.lang.String-) | For the description of this property, please see \#getID().getID() |
-| [setSchemaData(byte[] value)](#setSchemaData-byte---) | For the description of this property, please see \#getSchemaData().getSchemaData() |
+| [setData(byte[] value)](#setData-byte---) | For the description of this property, please see [getData()](../../com.aspose.cells/customxmlpart\#getData--) |
+| [setID(String value)](#setID-java.lang.String-) | For the description of this property, please see [getID()](../../com.aspose.cells/customxmlpart\#getID--) |
+| [setSchemaData(byte[] value)](#setSchemaData-byte---) | For the description of this property, please see [getSchemaData()](../../com.aspose.cells/customxmlpart\#getSchemaData--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -120,7 +120,7 @@ public void setData(byte[] value)
 ```
 
 
-For the description of this property, please see \#getData().getData()
+For the description of this property, please see [getData()](../../com.aspose.cells/customxmlpart\#getData--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -133,7 +133,7 @@ public void setID(String value)
 ```
 
 
-For the description of this property, please see \#getID().getID()
+For the description of this property, please see [getID()](../../com.aspose.cells/customxmlpart\#getID--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +146,7 @@ public void setSchemaData(byte[] value)
 ```
 
 
-For the description of this property, please see \#getSchemaData().getSchemaData()
+For the description of this property, please see [getSchemaData()](../../com.aspose.cells/customxmlpart\#getSchemaData--)
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -51,9 +51,9 @@ Describe the Top10 conditional formatting rule. This conditional formatting rule
 | [isPercent()](#isPercent--) | Get or set whether a "top/bottom n" rule is a "top/bottom n percent" rule. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBottom(boolean value)](#setBottom-boolean-) | For the description of this property, please see \#isBottom().isBottom() |
-| [setPercent(boolean value)](#setPercent-boolean-) | For the description of this property, please see \#isPercent().isPercent() |
-| [setRank(int value)](#setRank-int-) | For the description of this property, please see \#getRank().getRank() |
+| [setBottom(boolean value)](#setBottom-boolean-) | For the description of this property, please see [isBottom()](../../com.aspose.cells/top10\#isBottom--) |
+| [setPercent(boolean value)](#setPercent-boolean-) | For the description of this property, please see [isPercent()](../../com.aspose.cells/top10\#isPercent--) |
+| [setRank(int value)](#setRank-int-) | For the description of this property, please see [getRank()](../../com.aspose.cells/top10\#getRank--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -145,7 +145,7 @@ public void setBottom(boolean value)
 ```
 
 
-For the description of this property, please see \#isBottom().isBottom()
+For the description of this property, please see [isBottom()](../../com.aspose.cells/top10\#isBottom--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public void setPercent(boolean value)
 ```
 
 
-For the description of this property, please see \#isPercent().isPercent()
+For the description of this property, please see [isPercent()](../../com.aspose.cells/top10\#isPercent--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,7 +171,7 @@ public void setRank(int value)
 ```
 
 
-For the description of this property, please see \#getRank().getRank()
+For the description of this property, please see [getRank()](../../com.aspose.cells/top10\#getRank--)
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -51,21 +51,21 @@ Represents the text paragraph setting.
 | [isLatinLineBreak()](#isLatinLineBreak--) | Specifies whether a Latin word can be broken in half and wrapped onto the next line without a hyphen being added. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAlignmentType(int value)](#setAlignmentType-int-) | For the description of this property, please see \#getAlignmentType().getAlignmentType() |
-| [setDefaultTabSize(double value)](#setDefaultTabSize-double-) | For the description of this property, please see \#getDefaultTabSize().getDefaultTabSize() |
-| [setEastAsianLineBreak(boolean value)](#setEastAsianLineBreak-boolean-) | For the description of this property, please see \#isEastAsianLineBreak().isEastAsianLineBreak() |
-| [setFirstLineIndent(double value)](#setFirstLineIndent-double-) | For the description of this property, please see \#getFirstLineIndent().getFirstLineIndent() |
-| [setFontAlignType(int value)](#setFontAlignType-int-) | For the description of this property, please see \#getFontAlignType().getFontAlignType() |
-| [setHangingPunctuation(boolean value)](#setHangingPunctuation-boolean-) | For the description of this property, please see \#isHangingPunctuation().isHangingPunctuation() |
-| [setLatinLineBreak(boolean value)](#setLatinLineBreak-boolean-) | For the description of this property, please see \#isLatinLineBreak().isLatinLineBreak() |
-| [setLeftMargin(double value)](#setLeftMargin-double-) | For the description of this property, please see \#getLeftMargin().getLeftMargin() |
-| [setLineSpace(double value)](#setLineSpace-double-) | For the description of this property, please see \#getLineSpace().getLineSpace() |
-| [setLineSpaceSizeType(int value)](#setLineSpaceSizeType-int-) | For the description of this property, please see \#getLineSpaceSizeType().getLineSpaceSizeType() |
-| [setRightMargin(double value)](#setRightMargin-double-) | For the description of this property, please see \#getRightMargin().getRightMargin() |
-| [setSpaceAfter(double value)](#setSpaceAfter-double-) | For the description of this property, please see \#getSpaceAfter().getSpaceAfter() |
-| [setSpaceAfterSizeType(int value)](#setSpaceAfterSizeType-int-) | For the description of this property, please see \#getSpaceAfterSizeType().getSpaceAfterSizeType() |
-| [setSpaceBefore(double value)](#setSpaceBefore-double-) | For the description of this property, please see \#getSpaceBefore().getSpaceBefore() |
-| [setSpaceBeforeSizeType(int value)](#setSpaceBeforeSizeType-int-) | For the description of this property, please see \#getSpaceBeforeSizeType().getSpaceBeforeSizeType() |
+| [setAlignmentType(int value)](#setAlignmentType-int-) | For the description of this property, please see [getAlignmentType()](../../com.aspose.cells/textparagraph\#getAlignmentType--) |
+| [setDefaultTabSize(double value)](#setDefaultTabSize-double-) | For the description of this property, please see [getDefaultTabSize()](../../com.aspose.cells/textparagraph\#getDefaultTabSize--) |
+| [setEastAsianLineBreak(boolean value)](#setEastAsianLineBreak-boolean-) | For the description of this property, please see [isEastAsianLineBreak()](../../com.aspose.cells/textparagraph\#isEastAsianLineBreak--) |
+| [setFirstLineIndent(double value)](#setFirstLineIndent-double-) | For the description of this property, please see [getFirstLineIndent()](../../com.aspose.cells/textparagraph\#getFirstLineIndent--) |
+| [setFontAlignType(int value)](#setFontAlignType-int-) | For the description of this property, please see [getFontAlignType()](../../com.aspose.cells/textparagraph\#getFontAlignType--) |
+| [setHangingPunctuation(boolean value)](#setHangingPunctuation-boolean-) | For the description of this property, please see [isHangingPunctuation()](../../com.aspose.cells/textparagraph\#isHangingPunctuation--) |
+| [setLatinLineBreak(boolean value)](#setLatinLineBreak-boolean-) | For the description of this property, please see [isLatinLineBreak()](../../com.aspose.cells/textparagraph\#isLatinLineBreak--) |
+| [setLeftMargin(double value)](#setLeftMargin-double-) | For the description of this property, please see [getLeftMargin()](../../com.aspose.cells/textparagraph\#getLeftMargin--) |
+| [setLineSpace(double value)](#setLineSpace-double-) | For the description of this property, please see [getLineSpace()](../../com.aspose.cells/textparagraph\#getLineSpace--) |
+| [setLineSpaceSizeType(int value)](#setLineSpaceSizeType-int-) | For the description of this property, please see [getLineSpaceSizeType()](../../com.aspose.cells/textparagraph\#getLineSpaceSizeType--) |
+| [setRightMargin(double value)](#setRightMargin-double-) | For the description of this property, please see [getRightMargin()](../../com.aspose.cells/textparagraph\#getRightMargin--) |
+| [setSpaceAfter(double value)](#setSpaceAfter-double-) | For the description of this property, please see [getSpaceAfter()](../../com.aspose.cells/textparagraph\#getSpaceAfter--) |
+| [setSpaceAfterSizeType(int value)](#setSpaceAfterSizeType-int-) | For the description of this property, please see [getSpaceAfterSizeType()](../../com.aspose.cells/textparagraph\#getSpaceAfterSizeType--) |
+| [setSpaceBefore(double value)](#setSpaceBefore-double-) | For the description of this property, please see [getSpaceBefore()](../../com.aspose.cells/textparagraph\#getSpaceBefore--) |
+| [setSpaceBeforeSizeType(int value)](#setSpaceBeforeSizeType-int-) | For the description of this property, please see [getSpaceBeforeSizeType()](../../com.aspose.cells/textparagraph\#getSpaceBeforeSizeType--) |
 | [setWordArtStyle(int style)](#setWordArtStyle-int-) | Sets the preset WordArt style. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -364,7 +364,7 @@ public void setAlignmentType(int value)
 ```
 
 
-For the description of this property, please see \#getAlignmentType().getAlignmentType()
+For the description of this property, please see [getAlignmentType()](../../com.aspose.cells/textparagraph\#getAlignmentType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -377,7 +377,7 @@ public void setDefaultTabSize(double value)
 ```
 
 
-For the description of this property, please see \#getDefaultTabSize().getDefaultTabSize()
+For the description of this property, please see [getDefaultTabSize()](../../com.aspose.cells/textparagraph\#getDefaultTabSize--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -390,7 +390,7 @@ public void setEastAsianLineBreak(boolean value)
 ```
 
 
-For the description of this property, please see \#isEastAsianLineBreak().isEastAsianLineBreak()
+For the description of this property, please see [isEastAsianLineBreak()](../../com.aspose.cells/textparagraph\#isEastAsianLineBreak--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -403,7 +403,7 @@ public void setFirstLineIndent(double value)
 ```
 
 
-For the description of this property, please see \#getFirstLineIndent().getFirstLineIndent()
+For the description of this property, please see [getFirstLineIndent()](../../com.aspose.cells/textparagraph\#getFirstLineIndent--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -416,7 +416,7 @@ public void setFontAlignType(int value)
 ```
 
 
-For the description of this property, please see \#getFontAlignType().getFontAlignType()
+For the description of this property, please see [getFontAlignType()](../../com.aspose.cells/textparagraph\#getFontAlignType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -429,7 +429,7 @@ public void setHangingPunctuation(boolean value)
 ```
 
 
-For the description of this property, please see \#isHangingPunctuation().isHangingPunctuation()
+For the description of this property, please see [isHangingPunctuation()](../../com.aspose.cells/textparagraph\#isHangingPunctuation--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -442,7 +442,7 @@ public void setLatinLineBreak(boolean value)
 ```
 
 
-For the description of this property, please see \#isLatinLineBreak().isLatinLineBreak()
+For the description of this property, please see [isLatinLineBreak()](../../com.aspose.cells/textparagraph\#isLatinLineBreak--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -455,7 +455,7 @@ public void setLeftMargin(double value)
 ```
 
 
-For the description of this property, please see \#getLeftMargin().getLeftMargin()
+For the description of this property, please see [getLeftMargin()](../../com.aspose.cells/textparagraph\#getLeftMargin--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -468,7 +468,7 @@ public void setLineSpace(double value)
 ```
 
 
-For the description of this property, please see \#getLineSpace().getLineSpace()
+For the description of this property, please see [getLineSpace()](../../com.aspose.cells/textparagraph\#getLineSpace--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -481,7 +481,7 @@ public void setLineSpaceSizeType(int value)
 ```
 
 
-For the description of this property, please see \#getLineSpaceSizeType().getLineSpaceSizeType()
+For the description of this property, please see [getLineSpaceSizeType()](../../com.aspose.cells/textparagraph\#getLineSpaceSizeType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -494,7 +494,7 @@ public void setRightMargin(double value)
 ```
 
 
-For the description of this property, please see \#getRightMargin().getRightMargin()
+For the description of this property, please see [getRightMargin()](../../com.aspose.cells/textparagraph\#getRightMargin--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -507,7 +507,7 @@ public void setSpaceAfter(double value)
 ```
 
 
-For the description of this property, please see \#getSpaceAfter().getSpaceAfter()
+For the description of this property, please see [getSpaceAfter()](../../com.aspose.cells/textparagraph\#getSpaceAfter--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -520,7 +520,7 @@ public void setSpaceAfterSizeType(int value)
 ```
 
 
-For the description of this property, please see \#getSpaceAfterSizeType().getSpaceAfterSizeType()
+For the description of this property, please see [getSpaceAfterSizeType()](../../com.aspose.cells/textparagraph\#getSpaceAfterSizeType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -533,7 +533,7 @@ public void setSpaceBefore(double value)
 ```
 
 
-For the description of this property, please see \#getSpaceBefore().getSpaceBefore()
+For the description of this property, please see [getSpaceBefore()](../../com.aspose.cells/textparagraph\#getSpaceBefore--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -546,7 +546,7 @@ public void setSpaceBeforeSizeType(int value)
 ```
 
 
-For the description of this property, please see \#getSpaceBeforeSizeType().getSpaceBeforeSizeType()
+For the description of this property, please see [getSpaceBeforeSizeType()](../../com.aspose.cells/textparagraph\#getSpaceBeforeSizeType--)
 
 **Parameters:**
 | Parameter | Type | Description |

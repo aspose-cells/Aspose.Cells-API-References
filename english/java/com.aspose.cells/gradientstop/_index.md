@@ -26,8 +26,8 @@ Represents the gradient stop.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setPosition(double value)](#setPosition-double-) | For the description of this property, please see \#getPosition().getPosition() |
-| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see \#getTransparency().getTransparency() |
+| [setPosition(double value)](#setPosition-double-) | For the description of this property, please see [getPosition()](../../com.aspose.cells/gradientstop\#getPosition--) |
+| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see [getTransparency()](../../com.aspose.cells/gradientstop\#getTransparency--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -119,7 +119,7 @@ public void setPosition(double value)
 ```
 
 
-For the description of this property, please see \#getPosition().getPosition()
+For the description of this property, please see [getPosition()](../../com.aspose.cells/gradientstop\#getPosition--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -132,7 +132,7 @@ public void setTransparency(double value)
 ```
 
 
-For the description of this property, please see \#getTransparency().getTransparency()
+For the description of this property, please see [getTransparency()](../../com.aspose.cells/gradientstop\#getTransparency--)
 
 **Parameters:**
 | Parameter | Type | Description |

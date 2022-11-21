@@ -33,7 +33,7 @@ Represents the required data when calculating one function, such as function nam
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCalculatedValue(Object value)](#setCalculatedValue-java.lang.Object-) | For the description of this property, please see \#getCalculatedValue().getCalculatedValue() |
+| [setCalculatedValue(Object value)](#setCalculatedValue-java.lang.Object-) | For the description of this property, please see [getCalculatedValue()](../../com.aspose.cells/calculationdata\#getCalculatedValue--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -205,7 +205,7 @@ public void setCalculatedValue(Object value)
 ```
 
 
-For the description of this property, please see \#getCalculatedValue().getCalculatedValue()
+For the description of this property, please see [getCalculatedValue()](../../com.aspose.cells/calculationdata\#getCalculatedValue--)
 
 **Parameters:**
 | Parameter | Type | Description |

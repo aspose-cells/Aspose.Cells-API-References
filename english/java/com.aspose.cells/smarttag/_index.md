@@ -27,9 +27,9 @@ Represents a smart tag.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDeleted(boolean value)](#setDeleted-boolean-) | For the description of this property, please see \#getDeleted().getDeleted() |
+| [setDeleted(boolean value)](#setDeleted-boolean-) | For the description of this property, please see [getDeleted()](../../com.aspose.cells/smarttag\#getDeleted--) |
 | [setLink(String uri, String name)](#setLink-java.lang.String-java.lang.String-) | Change the name and the namespace URI of the smart tag. |
-| [setProperties(SmartTagPropertyCollection value)](#setProperties-com.aspose.cells.SmartTagPropertyCollection-) | For the description of this property, please see \#getProperties().getProperties() |
+| [setProperties(SmartTagPropertyCollection value)](#setProperties-com.aspose.cells.SmartTagPropertyCollection-) | For the description of this property, please see [getProperties()](../../com.aspose.cells/smarttag\#getProperties--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -131,7 +131,7 @@ public void setDeleted(boolean value)
 ```
 
 
-For the description of this property, please see \#getDeleted().getDeleted()
+For the description of this property, please see [getDeleted()](../../com.aspose.cells/smarttag\#getDeleted--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public void setProperties(SmartTagPropertyCollection value)
 ```
 
 
-For the description of this property, please see \#getProperties().getProperties()
+For the description of this property, please see [getProperties()](../../com.aspose.cells/smarttag\#getProperties--)
 
 **Parameters:**
 | Parameter | Type | Description |

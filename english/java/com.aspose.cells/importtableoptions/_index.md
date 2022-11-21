@@ -43,21 +43,21 @@ Represents the options of importing data into cells.
 | [isHtmlString()](#isHtmlString--) | Indicates whether the value contains html tags. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCheckMergedCells(boolean value)](#setCheckMergedCells-boolean-) | For the description of this property, please see \#getCheckMergedCells().getCheckMergedCells() |
-| [setColumnIndexes(int[] value)](#setColumnIndexes-int---) | For the description of this property, please see \#getColumnIndexes().getColumnIndexes() |
-| [setConvertGridStyle(boolean value)](#setConvertGridStyle-boolean-) | For the description of this property, please see \#getConvertGridStyle().getConvertGridStyle() |
-| [setConvertNumericData(boolean value)](#setConvertNumericData-boolean-) | For the description of this property, please see \#getConvertNumericData().getConvertNumericData() |
-| [setDateFormat(String value)](#setDateFormat-java.lang.String-) | For the description of this property, please see \#getDateFormat().getDateFormat() |
-| [setDefaultValues(Object[] value)](#setDefaultValues-java.lang.Object---) | For the description of this property, please see \#getDefaultValues().getDefaultValues() |
-| [setExportCaptionAsFieldName(boolean value)](#setExportCaptionAsFieldName-boolean-) | For the description of this property, please see \#getExportCaptionAsFieldName().getExportCaptionAsFieldName() |
-| [setFieldNameShown(boolean value)](#setFieldNameShown-boolean-) | For the description of this property, please see \#isFieldNameShown().isFieldNameShown() |
-| [setFormulas(boolean[] value)](#setFormulas-boolean---) | For the description of this property, please see \#isFormulas().isFormulas() |
-| [setHtmlString(boolean value)](#setHtmlString-boolean-) | For the description of this property, please see \#isHtmlString().isHtmlString() |
-| [setInsertRows(boolean value)](#setInsertRows-boolean-) | For the description of this property, please see \#getInsertRows().getInsertRows() |
-| [setNumberFormats(String[] value)](#setNumberFormats-java.lang.String---) | For the description of this property, please see \#getNumberFormats().getNumberFormats() |
-| [setShiftFirstRowDown(boolean value)](#setShiftFirstRowDown-boolean-) | For the description of this property, please see \#getShiftFirstRowDown().getShiftFirstRowDown() |
-| [setTotalColumns(int value)](#setTotalColumns-int-) | For the description of this property, please see \#getTotalColumns().getTotalColumns() |
-| [setTotalRows(int value)](#setTotalRows-int-) | For the description of this property, please see \#getTotalRows().getTotalRows() |
+| [setCheckMergedCells(boolean value)](#setCheckMergedCells-boolean-) | For the description of this property, please see [getCheckMergedCells()](../../com.aspose.cells/importtableoptions\#getCheckMergedCells--) |
+| [setColumnIndexes(int[] value)](#setColumnIndexes-int---) | For the description of this property, please see [getColumnIndexes()](../../com.aspose.cells/importtableoptions\#getColumnIndexes--) |
+| [setConvertGridStyle(boolean value)](#setConvertGridStyle-boolean-) | For the description of this property, please see [getConvertGridStyle()](../../com.aspose.cells/importtableoptions\#getConvertGridStyle--) |
+| [setConvertNumericData(boolean value)](#setConvertNumericData-boolean-) | For the description of this property, please see [getConvertNumericData()](../../com.aspose.cells/importtableoptions\#getConvertNumericData--) |
+| [setDateFormat(String value)](#setDateFormat-java.lang.String-) | For the description of this property, please see [getDateFormat()](../../com.aspose.cells/importtableoptions\#getDateFormat--) |
+| [setDefaultValues(Object[] value)](#setDefaultValues-java.lang.Object---) | For the description of this property, please see [getDefaultValues()](../../com.aspose.cells/importtableoptions\#getDefaultValues--) |
+| [setExportCaptionAsFieldName(boolean value)](#setExportCaptionAsFieldName-boolean-) | For the description of this property, please see [getExportCaptionAsFieldName()](../../com.aspose.cells/importtableoptions\#getExportCaptionAsFieldName--) |
+| [setFieldNameShown(boolean value)](#setFieldNameShown-boolean-) | For the description of this property, please see [isFieldNameShown()](../../com.aspose.cells/importtableoptions\#isFieldNameShown--) |
+| [setFormulas(boolean[] value)](#setFormulas-boolean---) | For the description of this property, please see [isFormulas()](../../com.aspose.cells/importtableoptions\#isFormulas--) |
+| [setHtmlString(boolean value)](#setHtmlString-boolean-) | For the description of this property, please see [isHtmlString()](../../com.aspose.cells/importtableoptions\#isHtmlString--) |
+| [setInsertRows(boolean value)](#setInsertRows-boolean-) | For the description of this property, please see [getInsertRows()](../../com.aspose.cells/importtableoptions\#getInsertRows--) |
+| [setNumberFormats(String[] value)](#setNumberFormats-java.lang.String---) | For the description of this property, please see [getNumberFormats()](../../com.aspose.cells/importtableoptions\#getNumberFormats--) |
+| [setShiftFirstRowDown(boolean value)](#setShiftFirstRowDown-boolean-) | For the description of this property, please see [getShiftFirstRowDown()](../../com.aspose.cells/importtableoptions\#getShiftFirstRowDown--) |
+| [setTotalColumns(int value)](#setTotalColumns-int-) | For the description of this property, please see [getTotalColumns()](../../com.aspose.cells/importtableoptions\#getTotalColumns--) |
+| [setTotalRows(int value)](#setTotalRows-int-) | For the description of this property, please see [getTotalRows()](../../com.aspose.cells/importtableoptions\#getTotalRows--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -277,7 +277,7 @@ public void setCheckMergedCells(boolean value)
 ```
 
 
-For the description of this property, please see \#getCheckMergedCells().getCheckMergedCells()
+For the description of this property, please see [getCheckMergedCells()](../../com.aspose.cells/importtableoptions\#getCheckMergedCells--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -290,7 +290,7 @@ public void setColumnIndexes(int[] value)
 ```
 
 
-For the description of this property, please see \#getColumnIndexes().getColumnIndexes()
+For the description of this property, please see [getColumnIndexes()](../../com.aspose.cells/importtableoptions\#getColumnIndexes--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -303,7 +303,7 @@ public void setConvertGridStyle(boolean value)
 ```
 
 
-For the description of this property, please see \#getConvertGridStyle().getConvertGridStyle()
+For the description of this property, please see [getConvertGridStyle()](../../com.aspose.cells/importtableoptions\#getConvertGridStyle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -316,7 +316,7 @@ public void setConvertNumericData(boolean value)
 ```
 
 
-For the description of this property, please see \#getConvertNumericData().getConvertNumericData()
+For the description of this property, please see [getConvertNumericData()](../../com.aspose.cells/importtableoptions\#getConvertNumericData--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -329,7 +329,7 @@ public void setDateFormat(String value)
 ```
 
 
-For the description of this property, please see \#getDateFormat().getDateFormat()
+For the description of this property, please see [getDateFormat()](../../com.aspose.cells/importtableoptions\#getDateFormat--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -342,7 +342,7 @@ public void setDefaultValues(Object[] value)
 ```
 
 
-For the description of this property, please see \#getDefaultValues().getDefaultValues()
+For the description of this property, please see [getDefaultValues()](../../com.aspose.cells/importtableoptions\#getDefaultValues--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -355,7 +355,7 @@ public void setExportCaptionAsFieldName(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportCaptionAsFieldName().getExportCaptionAsFieldName()
+For the description of this property, please see [getExportCaptionAsFieldName()](../../com.aspose.cells/importtableoptions\#getExportCaptionAsFieldName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -368,7 +368,7 @@ public void setFieldNameShown(boolean value)
 ```
 
 
-For the description of this property, please see \#isFieldNameShown().isFieldNameShown()
+For the description of this property, please see [isFieldNameShown()](../../com.aspose.cells/importtableoptions\#isFieldNameShown--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -381,7 +381,7 @@ public void setFormulas(boolean[] value)
 ```
 
 
-For the description of this property, please see \#isFormulas().isFormulas()
+For the description of this property, please see [isFormulas()](../../com.aspose.cells/importtableoptions\#isFormulas--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -394,7 +394,7 @@ public void setHtmlString(boolean value)
 ```
 
 
-For the description of this property, please see \#isHtmlString().isHtmlString()
+For the description of this property, please see [isHtmlString()](../../com.aspose.cells/importtableoptions\#isHtmlString--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -407,7 +407,7 @@ public void setInsertRows(boolean value)
 ```
 
 
-For the description of this property, please see \#getInsertRows().getInsertRows()
+For the description of this property, please see [getInsertRows()](../../com.aspose.cells/importtableoptions\#getInsertRows--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -420,7 +420,7 @@ public void setNumberFormats(String[] value)
 ```
 
 
-For the description of this property, please see \#getNumberFormats().getNumberFormats()
+For the description of this property, please see [getNumberFormats()](../../com.aspose.cells/importtableoptions\#getNumberFormats--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -433,7 +433,7 @@ public void setShiftFirstRowDown(boolean value)
 ```
 
 
-For the description of this property, please see \#getShiftFirstRowDown().getShiftFirstRowDown()
+For the description of this property, please see [getShiftFirstRowDown()](../../com.aspose.cells/importtableoptions\#getShiftFirstRowDown--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -446,7 +446,7 @@ public void setTotalColumns(int value)
 ```
 
 
-For the description of this property, please see \#getTotalColumns().getTotalColumns()
+For the description of this property, please see [getTotalColumns()](../../com.aspose.cells/importtableoptions\#getTotalColumns--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -459,7 +459,7 @@ public void setTotalRows(int value)
 ```
 
 
-For the description of this property, please see \#getTotalRows().getTotalRows()
+For the description of this property, please see [getTotalRows()](../../com.aspose.cells/importtableoptions\#getTotalRows--)
 
 **Parameters:**
 | Parameter | Type | Description |

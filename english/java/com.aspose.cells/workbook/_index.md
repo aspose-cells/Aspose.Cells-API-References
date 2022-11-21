@@ -131,14 +131,14 @@ Represents a root object to create an Excel spreadsheet. The Workbook class deno
 | [save(String fileName)](#save-java.lang.String-) | Save the workbook to the disk. |
 | [save(String fileName, SaveOptions saveOptions)](#save-java.lang.String-com.aspose.cells.SaveOptions-) | Saves the workbook to the disk. |
 | [save(String fileName, int saveFormat)](#save-java.lang.String-int-) | Saves the workbook to the disk. |
-| [setAbsolutePath(String value)](#setAbsolutePath-java.lang.String-) | For the description of this property, please see \#getAbsolutePath().getAbsolutePath() |
-| [setDefaultStyle(Style value)](#setDefaultStyle-com.aspose.cells.Style-) | For the description of this property, please see \#getDefaultStyle().getDefaultStyle() |
+| [setAbsolutePath(String value)](#setAbsolutePath-java.lang.String-) | For the description of this property, please see [getAbsolutePath()](../../com.aspose.cells/workbook\#getAbsolutePath--) |
+| [setDefaultStyle(Style value)](#setDefaultStyle-com.aspose.cells.Style-) | For the description of this property, please see [getDefaultStyle()](../../com.aspose.cells/workbook\#getDefaultStyle--) |
 | [setDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)](#setDigitalSignature-com.aspose.cells.DigitalSignatureCollection-) | Sets digital signature to an spreadsheet file (Excel2007 and later). |
 | [setEncryptionOptions(int encryptionType, int keyLength)](#setEncryptionOptions-int-int-) | Set Encryption Options. |
-| [setFileFormat(int value)](#setFileFormat-int-) | For the description of this property, please see \#getFileFormat().getFileFormat() |
-| [setFileName(String value)](#setFileName-java.lang.String-) | For the description of this property, please see \#getFileName().getFileName() |
-| [setInterruptMonitor(AbstractInterruptMonitor value)](#setInterruptMonitor-com.aspose.cells.AbstractInterruptMonitor-) | For the description of this property, please see \#getInterruptMonitor().getInterruptMonitor() |
-| [setRibbonXml(String value)](#setRibbonXml-java.lang.String-) | For the description of this property, please see \#getRibbonXml().getRibbonXml() |
+| [setFileFormat(int value)](#setFileFormat-int-) | For the description of this property, please see [getFileFormat()](../../com.aspose.cells/workbook\#getFileFormat--) |
+| [setFileName(String value)](#setFileName-java.lang.String-) | For the description of this property, please see [getFileName()](../../com.aspose.cells/workbook\#getFileName--) |
+| [setInterruptMonitor(AbstractInterruptMonitor value)](#setInterruptMonitor-com.aspose.cells.AbstractInterruptMonitor-) | For the description of this property, please see [getInterruptMonitor()](../../com.aspose.cells/workbook\#getInterruptMonitor--) |
+| [setRibbonXml(String value)](#setRibbonXml-java.lang.String-) | For the description of this property, please see [getRibbonXml()](../../com.aspose.cells/workbook\#getRibbonXml--) |
 | [setThemeColor(int type, Color color)](#setThemeColor-int-com.aspose.cells.Color-) | Sets the theme color |
 | [startAccessCache(int opts)](#startAccessCache-int-) | Starts the session that uses caches to access data. |
 | [toString()](#toString--) |  |
@@ -1479,7 +1479,7 @@ public void setAbsolutePath(String value)
 ```
 
 
-For the description of this property, please see \#getAbsolutePath().getAbsolutePath()
+For the description of this property, please see [getAbsolutePath()](../../com.aspose.cells/workbook\#getAbsolutePath--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1492,7 +1492,7 @@ public void setDefaultStyle(Style value)
 ```
 
 
-For the description of this property, please see \#getDefaultStyle().getDefaultStyle()
+For the description of this property, please see [getDefaultStyle()](../../com.aspose.cells/workbook\#getDefaultStyle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1532,7 +1532,7 @@ public void setFileFormat(int value)
 ```
 
 
-For the description of this property, please see \#getFileFormat().getFileFormat()
+For the description of this property, please see [getFileFormat()](../../com.aspose.cells/workbook\#getFileFormat--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1545,7 +1545,7 @@ public void setFileName(String value)
 ```
 
 
-For the description of this property, please see \#getFileName().getFileName()
+For the description of this property, please see [getFileName()](../../com.aspose.cells/workbook\#getFileName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1558,7 +1558,7 @@ public void setInterruptMonitor(AbstractInterruptMonitor value)
 ```
 
 
-For the description of this property, please see \#getInterruptMonitor().getInterruptMonitor()
+For the description of this property, please see [getInterruptMonitor()](../../com.aspose.cells/workbook\#getInterruptMonitor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1571,7 +1571,7 @@ public void setRibbonXml(String value)
 ```
 
 
-For the description of this property, please see \#getRibbonXml().getRibbonXml()
+For the description of this property, please see [getRibbonXml()](../../com.aspose.cells/workbook\#getRibbonXml--)
 
 **Parameters:**
 | Parameter | Type | Description |

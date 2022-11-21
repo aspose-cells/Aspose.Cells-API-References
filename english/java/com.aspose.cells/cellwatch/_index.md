@@ -26,9 +26,9 @@ Represents Cell Watch Item in the 'watch window'.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCellName(String value)](#setCellName-java.lang.String-) | For the description of this property, please see \#getCellName().getCellName() |
-| [setColumn(int value)](#setColumn-int-) | For the description of this property, please see \#getColumn().getColumn() |
-| [setRow(int value)](#setRow-int-) | For the description of this property, please see \#getRow().getRow() |
+| [setCellName(String value)](#setCellName-java.lang.String-) | For the description of this property, please see [getCellName()](../../com.aspose.cells/cellwatch\#getCellName--) |
+| [setColumn(int value)](#setColumn-int-) | For the description of this property, please see [getColumn()](../../com.aspose.cells/cellwatch\#getColumn--) |
+| [setRow(int value)](#setRow-int-) | For the description of this property, please see [getRow()](../../com.aspose.cells/cellwatch\#getRow--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -120,7 +120,7 @@ public void setCellName(String value)
 ```
 
 
-For the description of this property, please see \#getCellName().getCellName()
+For the description of this property, please see [getCellName()](../../com.aspose.cells/cellwatch\#getCellName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -133,7 +133,7 @@ public void setColumn(int value)
 ```
 
 
-For the description of this property, please see \#getColumn().getColumn()
+For the description of this property, please see [getColumn()](../../com.aspose.cells/cellwatch\#getColumn--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +146,7 @@ public void setRow(int value)
 ```
 
 
-For the description of this property, please see \#getRow().getRow()
+For the description of this property, please see [getRow()](../../com.aspose.cells/cellwatch\#getRow--)
 
 **Parameters:**
 | Parameter | Type | Description |

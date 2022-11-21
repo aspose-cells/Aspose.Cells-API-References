@@ -83,9 +83,9 @@ Describe the IconSet conditional formatting rule. This conditional formatting ru
 | [isCustom()](#isCustom--) | Indicates whether the icon set is custom. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setReverse(boolean value)](#setReverse-boolean-) | For the description of this property, please see \#getReverse().getReverse() |
-| [setShowValue(boolean value)](#setShowValue-boolean-) | For the description of this property, please see \#getShowValue().getShowValue() |
-| [setType(int value)](#setType-int-) | For the description of this property, please see \#getType().getType() |
+| [setReverse(boolean value)](#setReverse-boolean-) | For the description of this property, please see [getReverse()](../../com.aspose.cells/iconset\#getReverse--) |
+| [setShowValue(boolean value)](#setShowValue-boolean-) | For the description of this property, please see [getShowValue()](../../com.aspose.cells/iconset\#getShowValue--) |
+| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/iconset\#getType--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -207,7 +207,7 @@ public void setReverse(boolean value)
 ```
 
 
-For the description of this property, please see \#getReverse().getReverse()
+For the description of this property, please see [getReverse()](../../com.aspose.cells/iconset\#getReverse--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -220,7 +220,7 @@ public void setShowValue(boolean value)
 ```
 
 
-For the description of this property, please see \#getShowValue().getShowValue()
+For the description of this property, please see [getShowValue()](../../com.aspose.cells/iconset\#getShowValue--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -233,7 +233,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see \#getType().getType()
+For the description of this property, please see [getType()](../../com.aspose.cells/iconset\#getType--)
 
 **Parameters:**
 | Parameter | Type | Description |

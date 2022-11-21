@@ -58,36 +58,36 @@ Represents flags which indicates applied formatting properties.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAlignments(boolean value)](#setAlignments-boolean-) | For the description of this property, please see \#getAlignments().getAlignments() |
-| [setAll(boolean value)](#setAll-boolean-) | For the description of this property, please see \#getAll().getAll() |
-| [setBorders(boolean value)](#setBorders-boolean-) | For the description of this property, please see \#getBorders().getBorders() |
-| [setBottomBorder(boolean value)](#setBottomBorder-boolean-) | For the description of this property, please see \#getBottomBorder().getBottomBorder() |
-| [setCellShading(boolean value)](#setCellShading-boolean-) | For the description of this property, please see \#getCellShading().getCellShading() |
-| [setDiagonalDownBorder(boolean value)](#setDiagonalDownBorder-boolean-) | For the description of this property, please see \#getDiagonalDownBorder().getDiagonalDownBorder() |
-| [setDiagonalUpBorder(boolean value)](#setDiagonalUpBorder-boolean-) | For the description of this property, please see \#getDiagonalUpBorder().getDiagonalUpBorder() |
-| [setFont(boolean value)](#setFont-boolean-) | For the description of this property, please see \#getFont().getFont() |
-| [setFontBold(boolean value)](#setFontBold-boolean-) | For the description of this property, please see \#getFontBold().getFontBold() |
-| [setFontColor(boolean value)](#setFontColor-boolean-) | For the description of this property, please see \#getFontColor().getFontColor() |
-| [setFontItalic(boolean value)](#setFontItalic-boolean-) | For the description of this property, please see \#getFontItalic().getFontItalic() |
-| [setFontName(boolean value)](#setFontName-boolean-) | For the description of this property, please see \#getFontName().getFontName() |
-| [setFontScript(boolean value)](#setFontScript-boolean-) | For the description of this property, please see \#getFontScript().getFontScript() |
-| [setFontSize(boolean value)](#setFontSize-boolean-) | For the description of this property, please see \#getFontSize().getFontSize() |
-| [setFontStrike(boolean value)](#setFontStrike-boolean-) | For the description of this property, please see \#getFontStrike().getFontStrike() |
-| [setFontUnderline(boolean value)](#setFontUnderline-boolean-) | For the description of this property, please see \#getFontUnderline().getFontUnderline() |
-| [setHideFormula(boolean value)](#setHideFormula-boolean-) | For the description of this property, please see \#getHideFormula().getHideFormula() |
-| [setHorizontalAlignment(boolean value)](#setHorizontalAlignment-boolean-) | For the description of this property, please see \#getHorizontalAlignment().getHorizontalAlignment() |
-| [setIndent(boolean value)](#setIndent-boolean-) | For the description of this property, please see \#getIndent().getIndent() |
-| [setLeftBorder(boolean value)](#setLeftBorder-boolean-) | For the description of this property, please see \#getLeftBorder().getLeftBorder() |
-| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see \#getLocked().getLocked() |
-| [setNumberFormat(boolean value)](#setNumberFormat-boolean-) | For the description of this property, please see \#getNumberFormat().getNumberFormat() |
-| [setQuotePrefix(boolean value)](#setQuotePrefix-boolean-) | For the description of this property, please see \#getQuotePrefix().getQuotePrefix() |
-| [setRightBorder(boolean value)](#setRightBorder-boolean-) | For the description of this property, please see \#getRightBorder().getRightBorder() |
-| [setRotation(boolean value)](#setRotation-boolean-) | For the description of this property, please see \#getRotation().getRotation() |
-| [setShrinkToFit(boolean value)](#setShrinkToFit-boolean-) | For the description of this property, please see \#getShrinkToFit().getShrinkToFit() |
-| [setTextDirection(boolean value)](#setTextDirection-boolean-) | For the description of this property, please see \#getTextDirection().getTextDirection() |
-| [setTopBorder(boolean value)](#setTopBorder-boolean-) | For the description of this property, please see \#getTopBorder().getTopBorder() |
-| [setVerticalAlignment(boolean value)](#setVerticalAlignment-boolean-) | For the description of this property, please see \#getVerticalAlignment().getVerticalAlignment() |
-| [setWrapText(boolean value)](#setWrapText-boolean-) | For the description of this property, please see \#getWrapText().getWrapText() |
+| [setAlignments(boolean value)](#setAlignments-boolean-) | For the description of this property, please see [getAlignments()](../../com.aspose.cells/styleflag\#getAlignments--) |
+| [setAll(boolean value)](#setAll-boolean-) | For the description of this property, please see [getAll()](../../com.aspose.cells/styleflag\#getAll--) |
+| [setBorders(boolean value)](#setBorders-boolean-) | For the description of this property, please see [getBorders()](../../com.aspose.cells/styleflag\#getBorders--) |
+| [setBottomBorder(boolean value)](#setBottomBorder-boolean-) | For the description of this property, please see [getBottomBorder()](../../com.aspose.cells/styleflag\#getBottomBorder--) |
+| [setCellShading(boolean value)](#setCellShading-boolean-) | For the description of this property, please see [getCellShading()](../../com.aspose.cells/styleflag\#getCellShading--) |
+| [setDiagonalDownBorder(boolean value)](#setDiagonalDownBorder-boolean-) | For the description of this property, please see [getDiagonalDownBorder()](../../com.aspose.cells/styleflag\#getDiagonalDownBorder--) |
+| [setDiagonalUpBorder(boolean value)](#setDiagonalUpBorder-boolean-) | For the description of this property, please see [getDiagonalUpBorder()](../../com.aspose.cells/styleflag\#getDiagonalUpBorder--) |
+| [setFont(boolean value)](#setFont-boolean-) | For the description of this property, please see [getFont()](../../com.aspose.cells/styleflag\#getFont--) |
+| [setFontBold(boolean value)](#setFontBold-boolean-) | For the description of this property, please see [getFontBold()](../../com.aspose.cells/styleflag\#getFontBold--) |
+| [setFontColor(boolean value)](#setFontColor-boolean-) | For the description of this property, please see [getFontColor()](../../com.aspose.cells/styleflag\#getFontColor--) |
+| [setFontItalic(boolean value)](#setFontItalic-boolean-) | For the description of this property, please see [getFontItalic()](../../com.aspose.cells/styleflag\#getFontItalic--) |
+| [setFontName(boolean value)](#setFontName-boolean-) | For the description of this property, please see [getFontName()](../../com.aspose.cells/styleflag\#getFontName--) |
+| [setFontScript(boolean value)](#setFontScript-boolean-) | For the description of this property, please see [getFontScript()](../../com.aspose.cells/styleflag\#getFontScript--) |
+| [setFontSize(boolean value)](#setFontSize-boolean-) | For the description of this property, please see [getFontSize()](../../com.aspose.cells/styleflag\#getFontSize--) |
+| [setFontStrike(boolean value)](#setFontStrike-boolean-) | For the description of this property, please see [getFontStrike()](../../com.aspose.cells/styleflag\#getFontStrike--) |
+| [setFontUnderline(boolean value)](#setFontUnderline-boolean-) | For the description of this property, please see [getFontUnderline()](../../com.aspose.cells/styleflag\#getFontUnderline--) |
+| [setHideFormula(boolean value)](#setHideFormula-boolean-) | For the description of this property, please see [getHideFormula()](../../com.aspose.cells/styleflag\#getHideFormula--) |
+| [setHorizontalAlignment(boolean value)](#setHorizontalAlignment-boolean-) | For the description of this property, please see [getHorizontalAlignment()](../../com.aspose.cells/styleflag\#getHorizontalAlignment--) |
+| [setIndent(boolean value)](#setIndent-boolean-) | For the description of this property, please see [getIndent()](../../com.aspose.cells/styleflag\#getIndent--) |
+| [setLeftBorder(boolean value)](#setLeftBorder-boolean-) | For the description of this property, please see [getLeftBorder()](../../com.aspose.cells/styleflag\#getLeftBorder--) |
+| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see [getLocked()](../../com.aspose.cells/styleflag\#getLocked--) |
+| [setNumberFormat(boolean value)](#setNumberFormat-boolean-) | For the description of this property, please see [getNumberFormat()](../../com.aspose.cells/styleflag\#getNumberFormat--) |
+| [setQuotePrefix(boolean value)](#setQuotePrefix-boolean-) | For the description of this property, please see [getQuotePrefix()](../../com.aspose.cells/styleflag\#getQuotePrefix--) |
+| [setRightBorder(boolean value)](#setRightBorder-boolean-) | For the description of this property, please see [getRightBorder()](../../com.aspose.cells/styleflag\#getRightBorder--) |
+| [setRotation(boolean value)](#setRotation-boolean-) | For the description of this property, please see [getRotation()](../../com.aspose.cells/styleflag\#getRotation--) |
+| [setShrinkToFit(boolean value)](#setShrinkToFit-boolean-) | For the description of this property, please see [getShrinkToFit()](../../com.aspose.cells/styleflag\#getShrinkToFit--) |
+| [setTextDirection(boolean value)](#setTextDirection-boolean-) | For the description of this property, please see [getTextDirection()](../../com.aspose.cells/styleflag\#getTextDirection--) |
+| [setTopBorder(boolean value)](#setTopBorder-boolean-) | For the description of this property, please see [getTopBorder()](../../com.aspose.cells/styleflag\#getTopBorder--) |
+| [setVerticalAlignment(boolean value)](#setVerticalAlignment-boolean-) | For the description of this property, please see [getVerticalAlignment()](../../com.aspose.cells/styleflag\#getVerticalAlignment--) |
+| [setWrapText(boolean value)](#setWrapText-boolean-) | For the description of this property, please see [getWrapText()](../../com.aspose.cells/styleflag\#getWrapText--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -457,7 +457,7 @@ public void setAlignments(boolean value)
 ```
 
 
-For the description of this property, please see \#getAlignments().getAlignments()
+For the description of this property, please see [getAlignments()](../../com.aspose.cells/styleflag\#getAlignments--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -470,7 +470,7 @@ public void setAll(boolean value)
 ```
 
 
-For the description of this property, please see \#getAll().getAll()
+For the description of this property, please see [getAll()](../../com.aspose.cells/styleflag\#getAll--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -483,7 +483,7 @@ public void setBorders(boolean value)
 ```
 
 
-For the description of this property, please see \#getBorders().getBorders()
+For the description of this property, please see [getBorders()](../../com.aspose.cells/styleflag\#getBorders--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -496,7 +496,7 @@ public void setBottomBorder(boolean value)
 ```
 
 
-For the description of this property, please see \#getBottomBorder().getBottomBorder()
+For the description of this property, please see [getBottomBorder()](../../com.aspose.cells/styleflag\#getBottomBorder--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -509,7 +509,7 @@ public void setCellShading(boolean value)
 ```
 
 
-For the description of this property, please see \#getCellShading().getCellShading()
+For the description of this property, please see [getCellShading()](../../com.aspose.cells/styleflag\#getCellShading--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -522,7 +522,7 @@ public void setDiagonalDownBorder(boolean value)
 ```
 
 
-For the description of this property, please see \#getDiagonalDownBorder().getDiagonalDownBorder()
+For the description of this property, please see [getDiagonalDownBorder()](../../com.aspose.cells/styleflag\#getDiagonalDownBorder--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -535,7 +535,7 @@ public void setDiagonalUpBorder(boolean value)
 ```
 
 
-For the description of this property, please see \#getDiagonalUpBorder().getDiagonalUpBorder()
+For the description of this property, please see [getDiagonalUpBorder()](../../com.aspose.cells/styleflag\#getDiagonalUpBorder--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -548,7 +548,7 @@ public void setFont(boolean value)
 ```
 
 
-For the description of this property, please see \#getFont().getFont()
+For the description of this property, please see [getFont()](../../com.aspose.cells/styleflag\#getFont--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -561,7 +561,7 @@ public void setFontBold(boolean value)
 ```
 
 
-For the description of this property, please see \#getFontBold().getFontBold()
+For the description of this property, please see [getFontBold()](../../com.aspose.cells/styleflag\#getFontBold--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -574,7 +574,7 @@ public void setFontColor(boolean value)
 ```
 
 
-For the description of this property, please see \#getFontColor().getFontColor()
+For the description of this property, please see [getFontColor()](../../com.aspose.cells/styleflag\#getFontColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -587,7 +587,7 @@ public void setFontItalic(boolean value)
 ```
 
 
-For the description of this property, please see \#getFontItalic().getFontItalic()
+For the description of this property, please see [getFontItalic()](../../com.aspose.cells/styleflag\#getFontItalic--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -600,7 +600,7 @@ public void setFontName(boolean value)
 ```
 
 
-For the description of this property, please see \#getFontName().getFontName()
+For the description of this property, please see [getFontName()](../../com.aspose.cells/styleflag\#getFontName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -613,7 +613,7 @@ public void setFontScript(boolean value)
 ```
 
 
-For the description of this property, please see \#getFontScript().getFontScript()
+For the description of this property, please see [getFontScript()](../../com.aspose.cells/styleflag\#getFontScript--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -626,7 +626,7 @@ public void setFontSize(boolean value)
 ```
 
 
-For the description of this property, please see \#getFontSize().getFontSize()
+For the description of this property, please see [getFontSize()](../../com.aspose.cells/styleflag\#getFontSize--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -639,7 +639,7 @@ public void setFontStrike(boolean value)
 ```
 
 
-For the description of this property, please see \#getFontStrike().getFontStrike()
+For the description of this property, please see [getFontStrike()](../../com.aspose.cells/styleflag\#getFontStrike--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -652,7 +652,7 @@ public void setFontUnderline(boolean value)
 ```
 
 
-For the description of this property, please see \#getFontUnderline().getFontUnderline()
+For the description of this property, please see [getFontUnderline()](../../com.aspose.cells/styleflag\#getFontUnderline--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -665,7 +665,7 @@ public void setHideFormula(boolean value)
 ```
 
 
-For the description of this property, please see \#getHideFormula().getHideFormula()
+For the description of this property, please see [getHideFormula()](../../com.aspose.cells/styleflag\#getHideFormula--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -678,7 +678,7 @@ public void setHorizontalAlignment(boolean value)
 ```
 
 
-For the description of this property, please see \#getHorizontalAlignment().getHorizontalAlignment()
+For the description of this property, please see [getHorizontalAlignment()](../../com.aspose.cells/styleflag\#getHorizontalAlignment--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -691,7 +691,7 @@ public void setIndent(boolean value)
 ```
 
 
-For the description of this property, please see \#getIndent().getIndent()
+For the description of this property, please see [getIndent()](../../com.aspose.cells/styleflag\#getIndent--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -704,7 +704,7 @@ public void setLeftBorder(boolean value)
 ```
 
 
-For the description of this property, please see \#getLeftBorder().getLeftBorder()
+For the description of this property, please see [getLeftBorder()](../../com.aspose.cells/styleflag\#getLeftBorder--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -717,7 +717,7 @@ public void setLocked(boolean value)
 ```
 
 
-For the description of this property, please see \#getLocked().getLocked()
+For the description of this property, please see [getLocked()](../../com.aspose.cells/styleflag\#getLocked--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -730,7 +730,7 @@ public void setNumberFormat(boolean value)
 ```
 
 
-For the description of this property, please see \#getNumberFormat().getNumberFormat()
+For the description of this property, please see [getNumberFormat()](../../com.aspose.cells/styleflag\#getNumberFormat--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -743,7 +743,7 @@ public void setQuotePrefix(boolean value)
 ```
 
 
-For the description of this property, please see \#getQuotePrefix().getQuotePrefix()
+For the description of this property, please see [getQuotePrefix()](../../com.aspose.cells/styleflag\#getQuotePrefix--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -756,7 +756,7 @@ public void setRightBorder(boolean value)
 ```
 
 
-For the description of this property, please see \#getRightBorder().getRightBorder()
+For the description of this property, please see [getRightBorder()](../../com.aspose.cells/styleflag\#getRightBorder--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -769,7 +769,7 @@ public void setRotation(boolean value)
 ```
 
 
-For the description of this property, please see \#getRotation().getRotation()
+For the description of this property, please see [getRotation()](../../com.aspose.cells/styleflag\#getRotation--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -782,7 +782,7 @@ public void setShrinkToFit(boolean value)
 ```
 
 
-For the description of this property, please see \#getShrinkToFit().getShrinkToFit()
+For the description of this property, please see [getShrinkToFit()](../../com.aspose.cells/styleflag\#getShrinkToFit--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -795,7 +795,7 @@ public void setTextDirection(boolean value)
 ```
 
 
-For the description of this property, please see \#getTextDirection().getTextDirection()
+For the description of this property, please see [getTextDirection()](../../com.aspose.cells/styleflag\#getTextDirection--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -808,7 +808,7 @@ public void setTopBorder(boolean value)
 ```
 
 
-For the description of this property, please see \#getTopBorder().getTopBorder()
+For the description of this property, please see [getTopBorder()](../../com.aspose.cells/styleflag\#getTopBorder--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -821,7 +821,7 @@ public void setVerticalAlignment(boolean value)
 ```
 
 
-For the description of this property, please see \#getVerticalAlignment().getVerticalAlignment()
+For the description of this property, please see [getVerticalAlignment()](../../com.aspose.cells/styleflag\#getVerticalAlignment--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -834,7 +834,7 @@ public void setWrapText(boolean value)
 ```
 
 
-For the description of this property, please see \#getWrapText().getWrapText()
+For the description of this property, please see [getWrapText()](../../com.aspose.cells/styleflag\#getWrapText--)
 
 **Parameters:**
 | Parameter | Type | Description |

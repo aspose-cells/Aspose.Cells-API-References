@@ -27,10 +27,10 @@ Represents options when parsing formula.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCheckAddIn(boolean value)](#setCheckAddIn-boolean-) | For the description of this property, please see \#getCheckAddIn().getCheckAddIn() |
-| [setLocaleDependent(boolean value)](#setLocaleDependent-boolean-) | For the description of this property, please see \#getLocaleDependent().getLocaleDependent() |
-| [setParse(boolean value)](#setParse-boolean-) | For the description of this property, please see \#getParse().getParse() |
-| [setR1C1Style(boolean value)](#setR1C1Style-boolean-) | For the description of this property, please see \#getR1C1Style().getR1C1Style() |
+| [setCheckAddIn(boolean value)](#setCheckAddIn-boolean-) | For the description of this property, please see [getCheckAddIn()](../../com.aspose.cells/formulaparseoptions\#getCheckAddIn--) |
+| [setLocaleDependent(boolean value)](#setLocaleDependent-boolean-) | For the description of this property, please see [getLocaleDependent()](../../com.aspose.cells/formulaparseoptions\#getLocaleDependent--) |
+| [setParse(boolean value)](#setParse-boolean-) | For the description of this property, please see [getParse()](../../com.aspose.cells/formulaparseoptions\#getParse--) |
+| [setR1C1Style(boolean value)](#setR1C1Style-boolean-) | For the description of this property, please see [getR1C1Style()](../../com.aspose.cells/formulaparseoptions\#getR1C1Style--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -132,7 +132,7 @@ public void setCheckAddIn(boolean value)
 ```
 
 
-For the description of this property, please see \#getCheckAddIn().getCheckAddIn()
+For the description of this property, please see [getCheckAddIn()](../../com.aspose.cells/formulaparseoptions\#getCheckAddIn--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setLocaleDependent(boolean value)
 ```
 
 
-For the description of this property, please see \#getLocaleDependent().getLocaleDependent()
+For the description of this property, please see [getLocaleDependent()](../../com.aspose.cells/formulaparseoptions\#getLocaleDependent--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public void setParse(boolean value)
 ```
 
 
-For the description of this property, please see \#getParse().getParse()
+For the description of this property, please see [getParse()](../../com.aspose.cells/formulaparseoptions\#getParse--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,7 +171,7 @@ public void setR1C1Style(boolean value)
 ```
 
 
-For the description of this property, please see \#getR1C1Style().getR1C1Style()
+For the description of this property, please see [getR1C1Style()](../../com.aspose.cells/formulaparseoptions\#getR1C1Style--)
 
 **Parameters:**
 | Parameter | Type | Description |

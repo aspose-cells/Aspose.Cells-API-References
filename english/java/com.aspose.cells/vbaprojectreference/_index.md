@@ -41,11 +41,11 @@ Represents the reference of VBA project.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setExtendedLibid(String value)](#setExtendedLibid-java.lang.String-) | For the description of this property, please see \#getExtendedLibid().getExtendedLibid() |
-| [setLibid(String value)](#setLibid-java.lang.String-) | For the description of this property, please see \#getLibid().getLibid() |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
-| [setRelativeLibid(String value)](#setRelativeLibid-java.lang.String-) | For the description of this property, please see \#getRelativeLibid().getRelativeLibid() |
-| [setTwiddledlibid(String value)](#setTwiddledlibid-java.lang.String-) | For the description of this property, please see \#getTwiddledlibid().getTwiddledlibid() |
+| [setExtendedLibid(String value)](#setExtendedLibid-java.lang.String-) | For the description of this property, please see [getExtendedLibid()](../../com.aspose.cells/vbaprojectreference\#getExtendedLibid--) |
+| [setLibid(String value)](#setLibid-java.lang.String-) | For the description of this property, please see [getLibid()](../../com.aspose.cells/vbaprojectreference\#getLibid--) |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/vbaprojectreference\#getName--) |
+| [setRelativeLibid(String value)](#setRelativeLibid-java.lang.String-) | For the description of this property, please see [getRelativeLibid()](../../com.aspose.cells/vbaprojectreference\#getRelativeLibid--) |
+| [setTwiddledlibid(String value)](#setTwiddledlibid-java.lang.String-) | For the description of this property, please see [getTwiddledlibid()](../../com.aspose.cells/vbaprojectreference\#getTwiddledlibid--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -180,7 +180,7 @@ public void setExtendedLibid(String value)
 ```
 
 
-For the description of this property, please see \#getExtendedLibid().getExtendedLibid()
+For the description of this property, please see [getExtendedLibid()](../../com.aspose.cells/vbaprojectreference\#getExtendedLibid--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,7 +193,7 @@ public void setLibid(String value)
 ```
 
 
-For the description of this property, please see \#getLibid().getLibid()
+For the description of this property, please see [getLibid()](../../com.aspose.cells/vbaprojectreference\#getLibid--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -206,7 +206,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see \#getName().getName()
+For the description of this property, please see [getName()](../../com.aspose.cells/vbaprojectreference\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -219,7 +219,7 @@ public void setRelativeLibid(String value)
 ```
 
 
-For the description of this property, please see \#getRelativeLibid().getRelativeLibid()
+For the description of this property, please see [getRelativeLibid()](../../com.aspose.cells/vbaprojectreference\#getRelativeLibid--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -232,7 +232,7 @@ public void setTwiddledlibid(String value)
 ```
 
 
-For the description of this property, please see \#getTwiddledlibid().getTwiddledlibid()
+For the description of this property, please see [getTwiddledlibid()](../../com.aspose.cells/vbaprojectreference\#getTwiddledlibid--)
 
 **Parameters:**
 | Parameter | Type | Description |

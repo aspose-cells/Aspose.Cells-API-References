@@ -46,21 +46,21 @@ Represents the options of saving office open xml file.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | For the description of this property, please see \#getCachedFileFolder().getCachedFileFolder() |
-| [setClearData(boolean value)](#setClearData-boolean-) | For the description of this property, please see \#getClearData().getClearData() |
-| [setCompressionType(int value)](#setCompressionType-int-) | For the description of this property, please see \#getCompressionType().getCompressionType() |
-| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | For the description of this property, please see \#getCreateDirectory().getCreateDirectory() |
-| [setEmbedOoxmlAsOleObject(boolean value)](#setEmbedOoxmlAsOleObject-boolean-) | For the description of this property, please see \#getEmbedOoxmlAsOleObject().getEmbedOoxmlAsOleObject() |
-| [setEnableZip64(boolean value)](#setEnableZip64-boolean-) | For the description of this property, please see \#getEnableZip64().getEnableZip64() |
-| [setExportCellName(boolean value)](#setExportCellName-boolean-) | For the description of this property, please see \#getExportCellName().getExportCellName() |
-| [setLightCellsDataProvider(LightCellsDataProvider value)](#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-) | For the description of this property, please see \#getLightCellsDataProvider().getLightCellsDataProvider() |
-| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | For the description of this property, please see \#getMergeAreas().getMergeAreas() |
-| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | For the description of this property, please see \#getRefreshChartCache().getRefreshChartCache() |
-| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | For the description of this property, please see \#getSortExternalNames().getSortExternalNames() |
-| [setSortNames(boolean value)](#setSortNames-boolean-) | For the description of this property, please see \#getSortNames().getSortNames() |
-| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | For the description of this property, please see \#getUpdateSmartArt().getUpdateSmartArt() |
-| [setUpdateZoom(boolean value)](#setUpdateZoom-boolean-) | For the description of this property, please see \#getUpdateZoom().getUpdateZoom() |
-| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | For the description of this property, please see \#getValidateMergedAreas().getValidateMergedAreas() |
+| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | For the description of this property, please see [getCachedFileFolder()](../../com.aspose.cells/saveoptions\#getCachedFileFolder--) |
+| [setClearData(boolean value)](#setClearData-boolean-) | For the description of this property, please see [getClearData()](../../com.aspose.cells/saveoptions\#getClearData--) |
+| [setCompressionType(int value)](#setCompressionType-int-) | For the description of this property, please see [getCompressionType()](../../com.aspose.cells/ooxmlsaveoptions\#getCompressionType--) |
+| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | For the description of this property, please see [getCreateDirectory()](../../com.aspose.cells/saveoptions\#getCreateDirectory--) |
+| [setEmbedOoxmlAsOleObject(boolean value)](#setEmbedOoxmlAsOleObject-boolean-) | For the description of this property, please see [getEmbedOoxmlAsOleObject()](../../com.aspose.cells/ooxmlsaveoptions\#getEmbedOoxmlAsOleObject--) |
+| [setEnableZip64(boolean value)](#setEnableZip64-boolean-) | For the description of this property, please see [getEnableZip64()](../../com.aspose.cells/ooxmlsaveoptions\#getEnableZip64--) |
+| [setExportCellName(boolean value)](#setExportCellName-boolean-) | For the description of this property, please see [getExportCellName()](../../com.aspose.cells/ooxmlsaveoptions\#getExportCellName--) |
+| [setLightCellsDataProvider(LightCellsDataProvider value)](#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-) | For the description of this property, please see [getLightCellsDataProvider()](../../com.aspose.cells/ooxmlsaveoptions\#getLightCellsDataProvider--) |
+| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | For the description of this property, please see [getMergeAreas()](../../com.aspose.cells/saveoptions\#getMergeAreas--) |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | For the description of this property, please see [getRefreshChartCache()](../../com.aspose.cells/saveoptions\#getRefreshChartCache--) |
+| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | For the description of this property, please see [getSortExternalNames()](../../com.aspose.cells/saveoptions\#getSortExternalNames--) |
+| [setSortNames(boolean value)](#setSortNames-boolean-) | For the description of this property, please see [getSortNames()](../../com.aspose.cells/saveoptions\#getSortNames--) |
+| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | For the description of this property, please see [getUpdateSmartArt()](../../com.aspose.cells/saveoptions\#getUpdateSmartArt--) |
+| [setUpdateZoom(boolean value)](#setUpdateZoom-boolean-) | For the description of this property, please see [getUpdateZoom()](../../com.aspose.cells/ooxmlsaveoptions\#getUpdateZoom--) |
+| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | For the description of this property, please see [getValidateMergedAreas()](../../com.aspose.cells/saveoptions\#getValidateMergedAreas--) |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -314,7 +314,7 @@ public void setCachedFileFolder(String value)
 ```
 
 
-For the description of this property, please see \#getCachedFileFolder().getCachedFileFolder()
+For the description of this property, please see [getCachedFileFolder()](../../com.aspose.cells/saveoptions\#getCachedFileFolder--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -327,7 +327,7 @@ public void setClearData(boolean value)
 ```
 
 
-For the description of this property, please see \#getClearData().getClearData()
+For the description of this property, please see [getClearData()](../../com.aspose.cells/saveoptions\#getClearData--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -340,7 +340,7 @@ public void setCompressionType(int value)
 ```
 
 
-For the description of this property, please see \#getCompressionType().getCompressionType()
+For the description of this property, please see [getCompressionType()](../../com.aspose.cells/ooxmlsaveoptions\#getCompressionType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -353,7 +353,7 @@ public void setCreateDirectory(boolean value)
 ```
 
 
-For the description of this property, please see \#getCreateDirectory().getCreateDirectory()
+For the description of this property, please see [getCreateDirectory()](../../com.aspose.cells/saveoptions\#getCreateDirectory--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -366,7 +366,7 @@ public void setEmbedOoxmlAsOleObject(boolean value)
 ```
 
 
-For the description of this property, please see \#getEmbedOoxmlAsOleObject().getEmbedOoxmlAsOleObject()
+For the description of this property, please see [getEmbedOoxmlAsOleObject()](../../com.aspose.cells/ooxmlsaveoptions\#getEmbedOoxmlAsOleObject--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -379,7 +379,7 @@ public void setEnableZip64(boolean value)
 ```
 
 
-For the description of this property, please see \#getEnableZip64().getEnableZip64()
+For the description of this property, please see [getEnableZip64()](../../com.aspose.cells/ooxmlsaveoptions\#getEnableZip64--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -392,7 +392,7 @@ public void setExportCellName(boolean value)
 ```
 
 
-For the description of this property, please see \#getExportCellName().getExportCellName()
+For the description of this property, please see [getExportCellName()](../../com.aspose.cells/ooxmlsaveoptions\#getExportCellName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -405,7 +405,7 @@ public void setLightCellsDataProvider(LightCellsDataProvider value)
 ```
 
 
-For the description of this property, please see \#getLightCellsDataProvider().getLightCellsDataProvider()
+For the description of this property, please see [getLightCellsDataProvider()](../../com.aspose.cells/ooxmlsaveoptions\#getLightCellsDataProvider--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -418,7 +418,7 @@ public void setMergeAreas(boolean value)
 ```
 
 
-For the description of this property, please see \#getMergeAreas().getMergeAreas()
+For the description of this property, please see [getMergeAreas()](../../com.aspose.cells/saveoptions\#getMergeAreas--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -431,7 +431,7 @@ public void setRefreshChartCache(boolean value)
 ```
 
 
-For the description of this property, please see \#getRefreshChartCache().getRefreshChartCache()
+For the description of this property, please see [getRefreshChartCache()](../../com.aspose.cells/saveoptions\#getRefreshChartCache--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -444,7 +444,7 @@ public void setSortExternalNames(boolean value)
 ```
 
 
-For the description of this property, please see \#getSortExternalNames().getSortExternalNames()
+For the description of this property, please see [getSortExternalNames()](../../com.aspose.cells/saveoptions\#getSortExternalNames--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -457,7 +457,7 @@ public void setSortNames(boolean value)
 ```
 
 
-For the description of this property, please see \#getSortNames().getSortNames()
+For the description of this property, please see [getSortNames()](../../com.aspose.cells/saveoptions\#getSortNames--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -470,7 +470,7 @@ public void setUpdateSmartArt(boolean value)
 ```
 
 
-For the description of this property, please see \#getUpdateSmartArt().getUpdateSmartArt()
+For the description of this property, please see [getUpdateSmartArt()](../../com.aspose.cells/saveoptions\#getUpdateSmartArt--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -483,7 +483,7 @@ public void setUpdateZoom(boolean value)
 ```
 
 
-For the description of this property, please see \#getUpdateZoom().getUpdateZoom()
+For the description of this property, please see [getUpdateZoom()](../../com.aspose.cells/ooxmlsaveoptions\#getUpdateZoom--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -496,7 +496,7 @@ public void setValidateMergedAreas(boolean value)
 ```
 
 
-For the description of this property, please see \#getValidateMergedAreas().getValidateMergedAreas()
+For the description of this property, please see [getValidateMergedAreas()](../../com.aspose.cells/saveoptions\#getValidateMergedAreas--)
 
 **Parameters:**
 | Parameter | Type | Description |

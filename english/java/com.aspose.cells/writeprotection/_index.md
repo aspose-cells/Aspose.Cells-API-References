@@ -26,9 +26,9 @@ Specifies write protection settings for a workbook.
 | [isWriteProtected()](#isWriteProtected--) | Indicates whether this workbook is write protected. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAuthor(String value)](#setAuthor-java.lang.String-) | For the description of this property, please see \#getAuthor().getAuthor() |
+| [setAuthor(String value)](#setAuthor-java.lang.String-) | For the description of this property, please see [getAuthor()](../../com.aspose.cells/writeprotection\#getAuthor--) |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Sets the protected password to modify the file. |
-| [setRecommendReadOnly(boolean value)](#setRecommendReadOnly-boolean-) | For the description of this property, please see \#getRecommendReadOnly().getRecommendReadOnly() |
+| [setRecommendReadOnly(boolean value)](#setRecommendReadOnly-boolean-) | For the description of this property, please see [getRecommendReadOnly()](../../com.aspose.cells/writeprotection\#getRecommendReadOnly--) |
 | [toString()](#toString--) |  |
 | [validatePassword(String password)](#validatePassword-java.lang.String-) | Returns true if the specified password is the same as the write-protection password the file was protected with. |
 | [wait()](#wait--) |  |
@@ -121,7 +121,7 @@ public void setAuthor(String value)
 ```
 
 
-For the description of this property, please see \#getAuthor().getAuthor()
+For the description of this property, please see [getAuthor()](../../com.aspose.cells/writeprotection\#getAuthor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -147,7 +147,7 @@ public void setRecommendReadOnly(boolean value)
 ```
 
 
-For the description of this property, please see \#getRecommendReadOnly().getRecommendReadOnly()
+For the description of this property, please see [getRecommendReadOnly()](../../com.aspose.cells/writeprotection\#getRecommendReadOnly--)
 
 **Parameters:**
 | Parameter | Type | Description |

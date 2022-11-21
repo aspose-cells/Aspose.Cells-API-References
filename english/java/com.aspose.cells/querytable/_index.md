@@ -41,8 +41,8 @@ Represents QueryTable information.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAdjustColumnWidth(boolean value)](#setAdjustColumnWidth-boolean-) | For the description of this property, please see \#getAdjustColumnWidth().getAdjustColumnWidth() |
-| [setPreserveFormatting(boolean value)](#setPreserveFormatting-boolean-) | For the description of this property, please see \#getPreserveFormatting().getPreserveFormatting() |
+| [setAdjustColumnWidth(boolean value)](#setAdjustColumnWidth-boolean-) | For the description of this property, please see [getAdjustColumnWidth()](../../com.aspose.cells/querytable\#getAdjustColumnWidth--) |
+| [setPreserveFormatting(boolean value)](#setPreserveFormatting-boolean-) | For the description of this property, please see [getPreserveFormatting()](../../com.aspose.cells/querytable\#getPreserveFormatting--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -164,7 +164,7 @@ public void setAdjustColumnWidth(boolean value)
 ```
 
 
-For the description of this property, please see \#getAdjustColumnWidth().getAdjustColumnWidth()
+For the description of this property, please see [getAdjustColumnWidth()](../../com.aspose.cells/querytable\#getAdjustColumnWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -177,7 +177,7 @@ public void setPreserveFormatting(boolean value)
 ```
 
 
-For the description of this property, please see \#getPreserveFormatting().getPreserveFormatting()
+For the description of this property, please see [getPreserveFormatting()](../../com.aspose.cells/querytable\#getPreserveFormatting--)
 
 **Parameters:**
 | Parameter | Type | Description |

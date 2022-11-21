@@ -26,9 +26,9 @@ Describe the AboveAverage conditional formatting rule. This conditional formatti
 | [isEqualAverage()](#isEqualAverage--) | Get or set the flag indicating whether the 'aboveAverage' and 'belowAverage' criteria is inclusive of the average itself, or exclusive of that value. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAboveAverage(boolean value)](#setAboveAverage-boolean-) | For the description of this property, please see \#isAboveAverage().isAboveAverage() |
-| [setEqualAverage(boolean value)](#setEqualAverage-boolean-) | For the description of this property, please see \#isEqualAverage().isEqualAverage() |
-| [setStdDev(int value)](#setStdDev-int-) | For the description of this property, please see \#getStdDev().getStdDev() |
+| [setAboveAverage(boolean value)](#setAboveAverage-boolean-) | For the description of this property, please see [isAboveAverage()](../../com.aspose.cells/aboveaverage\#isAboveAverage--) |
+| [setEqualAverage(boolean value)](#setEqualAverage-boolean-) | For the description of this property, please see [isEqualAverage()](../../com.aspose.cells/aboveaverage\#isEqualAverage--) |
+| [setStdDev(int value)](#setStdDev-int-) | For the description of this property, please see [getStdDev()](../../com.aspose.cells/aboveaverage\#getStdDev--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -120,7 +120,7 @@ public void setAboveAverage(boolean value)
 ```
 
 
-For the description of this property, please see \#isAboveAverage().isAboveAverage()
+For the description of this property, please see [isAboveAverage()](../../com.aspose.cells/aboveaverage\#isAboveAverage--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -133,7 +133,7 @@ public void setEqualAverage(boolean value)
 ```
 
 
-For the description of this property, please see \#isEqualAverage().isEqualAverage()
+For the description of this property, please see [isEqualAverage()](../../com.aspose.cells/aboveaverage\#isEqualAverage--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +146,7 @@ public void setStdDev(int value)
 ```
 
 
-For the description of this property, please see \#getStdDev().getStdDev()
+For the description of this property, please see [getStdDev()](../../com.aspose.cells/aboveaverage\#getStdDev--)
 
 **Parameters:**
 | Parameter | Type | Description |

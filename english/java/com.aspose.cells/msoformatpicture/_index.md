@@ -34,17 +34,17 @@ Represents the picture format.
 | [isGray()](#isGray--) | Indicates whether this picture SHOULD be displayed in grayscale. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBiLevel(boolean value)](#setBiLevel-boolean-) | For the description of this property, please see \#isBiLevel().isBiLevel() |
-| [setBottomCrop(double value)](#setBottomCrop-double-) | For the description of this property, please see \#getBottomCrop().getBottomCrop() |
-| [setBrightness(double value)](#setBrightness-double-) | For the description of this property, please see \#getBrightness().getBrightness() |
-| [setContrast(double value)](#setContrast-double-) | For the description of this property, please see \#getContrast().getContrast() |
-| [setGamma(double value)](#setGamma-double-) | For the description of this property, please see \#getGamma().getGamma() |
-| [setGray(boolean value)](#setGray-boolean-) | For the description of this property, please see \#isGray().isGray() |
-| [setLeftCrop(double value)](#setLeftCrop-double-) | For the description of this property, please see \#getLeftCrop().getLeftCrop() |
-| [setRightCrop(double value)](#setRightCrop-double-) | For the description of this property, please see \#getRightCrop().getRightCrop() |
-| [setTopCrop(double value)](#setTopCrop-double-) | For the description of this property, please see \#getTopCrop().getTopCrop() |
-| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see \#getTransparency().getTransparency() |
-| [setTransparentColor(CellsColor value)](#setTransparentColor-com.aspose.cells.CellsColor-) | For the description of this property, please see \#getTransparentColor().getTransparentColor() |
+| [setBiLevel(boolean value)](#setBiLevel-boolean-) | For the description of this property, please see [isBiLevel()](../../com.aspose.cells/msoformatpicture\#isBiLevel--) |
+| [setBottomCrop(double value)](#setBottomCrop-double-) | For the description of this property, please see [getBottomCrop()](../../com.aspose.cells/msoformatpicture\#getBottomCrop--) |
+| [setBrightness(double value)](#setBrightness-double-) | For the description of this property, please see [getBrightness()](../../com.aspose.cells/msoformatpicture\#getBrightness--) |
+| [setContrast(double value)](#setContrast-double-) | For the description of this property, please see [getContrast()](../../com.aspose.cells/msoformatpicture\#getContrast--) |
+| [setGamma(double value)](#setGamma-double-) | For the description of this property, please see [getGamma()](../../com.aspose.cells/msoformatpicture\#getGamma--) |
+| [setGray(boolean value)](#setGray-boolean-) | For the description of this property, please see [isGray()](../../com.aspose.cells/msoformatpicture\#isGray--) |
+| [setLeftCrop(double value)](#setLeftCrop-double-) | For the description of this property, please see [getLeftCrop()](../../com.aspose.cells/msoformatpicture\#getLeftCrop--) |
+| [setRightCrop(double value)](#setRightCrop-double-) | For the description of this property, please see [getRightCrop()](../../com.aspose.cells/msoformatpicture\#getRightCrop--) |
+| [setTopCrop(double value)](#setTopCrop-double-) | For the description of this property, please see [getTopCrop()](../../com.aspose.cells/msoformatpicture\#getTopCrop--) |
+| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see [getTransparency()](../../com.aspose.cells/msoformatpicture\#getTransparency--) |
+| [setTransparentColor(CellsColor value)](#setTransparentColor-com.aspose.cells.CellsColor-) | For the description of this property, please see [getTransparentColor()](../../com.aspose.cells/msoformatpicture\#getTransparentColor--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -216,7 +216,7 @@ public void setBiLevel(boolean value)
 ```
 
 
-For the description of this property, please see \#isBiLevel().isBiLevel()
+For the description of this property, please see [isBiLevel()](../../com.aspose.cells/msoformatpicture\#isBiLevel--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -229,7 +229,7 @@ public void setBottomCrop(double value)
 ```
 
 
-For the description of this property, please see \#getBottomCrop().getBottomCrop()
+For the description of this property, please see [getBottomCrop()](../../com.aspose.cells/msoformatpicture\#getBottomCrop--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -242,7 +242,7 @@ public void setBrightness(double value)
 ```
 
 
-For the description of this property, please see \#getBrightness().getBrightness()
+For the description of this property, please see [getBrightness()](../../com.aspose.cells/msoformatpicture\#getBrightness--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -255,7 +255,7 @@ public void setContrast(double value)
 ```
 
 
-For the description of this property, please see \#getContrast().getContrast()
+For the description of this property, please see [getContrast()](../../com.aspose.cells/msoformatpicture\#getContrast--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -268,7 +268,7 @@ public void setGamma(double value)
 ```
 
 
-For the description of this property, please see \#getGamma().getGamma()
+For the description of this property, please see [getGamma()](../../com.aspose.cells/msoformatpicture\#getGamma--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -281,7 +281,7 @@ public void setGray(boolean value)
 ```
 
 
-For the description of this property, please see \#isGray().isGray()
+For the description of this property, please see [isGray()](../../com.aspose.cells/msoformatpicture\#isGray--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -294,7 +294,7 @@ public void setLeftCrop(double value)
 ```
 
 
-For the description of this property, please see \#getLeftCrop().getLeftCrop()
+For the description of this property, please see [getLeftCrop()](../../com.aspose.cells/msoformatpicture\#getLeftCrop--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -307,7 +307,7 @@ public void setRightCrop(double value)
 ```
 
 
-For the description of this property, please see \#getRightCrop().getRightCrop()
+For the description of this property, please see [getRightCrop()](../../com.aspose.cells/msoformatpicture\#getRightCrop--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -320,7 +320,7 @@ public void setTopCrop(double value)
 ```
 
 
-For the description of this property, please see \#getTopCrop().getTopCrop()
+For the description of this property, please see [getTopCrop()](../../com.aspose.cells/msoformatpicture\#getTopCrop--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -333,7 +333,7 @@ public void setTransparency(double value)
 ```
 
 
-For the description of this property, please see \#getTransparency().getTransparency()
+For the description of this property, please see [getTransparency()](../../com.aspose.cells/msoformatpicture\#getTransparency--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -346,7 +346,7 @@ public void setTransparentColor(CellsColor value)
 ```
 
 
-For the description of this property, please see \#getTransparentColor().getTransparentColor()
+For the description of this property, please see [getTransparentColor()](../../com.aspose.cells/msoformatpicture\#getTransparentColor--)
 
 **Parameters:**
 | Parameter | Type | Description |

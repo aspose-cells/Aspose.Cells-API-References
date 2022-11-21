@@ -30,10 +30,10 @@ Describe the ColorScale conditional formatting rule. This conditional formatting
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setIs3ColorScale(boolean value)](#setIs3ColorScale-boolean-) | For the description of this property, please see \#getIs3ColorScale().getIs3ColorScale() |
-| [setMaxColor(Color value)](#setMaxColor-com.aspose.cells.Color-) | For the description of this property, please see \#getMaxColor().getMaxColor() |
-| [setMidColor(Color value)](#setMidColor-com.aspose.cells.Color-) | For the description of this property, please see \#getMidColor().getMidColor() |
-| [setMinColor(Color value)](#setMinColor-com.aspose.cells.Color-) | For the description of this property, please see \#getMinColor().getMinColor() |
+| [setIs3ColorScale(boolean value)](#setIs3ColorScale-boolean-) | For the description of this property, please see [getIs3ColorScale()](../../com.aspose.cells/colorscale\#getIs3ColorScale--) |
+| [setMaxColor(Color value)](#setMaxColor-com.aspose.cells.Color-) | For the description of this property, please see [getMaxColor()](../../com.aspose.cells/colorscale\#getMaxColor--) |
+| [setMidColor(Color value)](#setMidColor-com.aspose.cells.Color-) | For the description of this property, please see [getMidColor()](../../com.aspose.cells/colorscale\#getMidColor--) |
+| [setMinColor(Color value)](#setMinColor-com.aspose.cells.Color-) | For the description of this property, please see [getMinColor()](../../com.aspose.cells/colorscale\#getMinColor--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -165,7 +165,7 @@ public void setIs3ColorScale(boolean value)
 ```
 
 
-For the description of this property, please see \#getIs3ColorScale().getIs3ColorScale()
+For the description of this property, please see [getIs3ColorScale()](../../com.aspose.cells/colorscale\#getIs3ColorScale--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -178,7 +178,7 @@ public void setMaxColor(Color value)
 ```
 
 
-For the description of this property, please see \#getMaxColor().getMaxColor()
+For the description of this property, please see [getMaxColor()](../../com.aspose.cells/colorscale\#getMaxColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -191,7 +191,7 @@ public void setMidColor(Color value)
 ```
 
 
-For the description of this property, please see \#getMidColor().getMidColor()
+For the description of this property, please see [getMidColor()](../../com.aspose.cells/colorscale\#getMidColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -204,7 +204,7 @@ public void setMinColor(Color value)
 ```
 
 
-For the description of this property, please see \#getMinColor().getMinColor()
+For the description of this property, please see [getMinColor()](../../com.aspose.cells/colorscale\#getMinColor--)
 
 **Parameters:**
 | Parameter | Type | Description |

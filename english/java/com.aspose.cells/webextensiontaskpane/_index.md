@@ -29,12 +29,12 @@ Represents a persisted taskpane object.
 | [isVisible()](#isVisible--) | Indicates whether the Task Pane shows as visible by default when the document opens. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDockState(String value)](#setDockState-java.lang.String-) | For the description of this property, please see \#getDockState().getDockState() |
-| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see \#isLocked().isLocked() |
-| [setRow(int value)](#setRow-int-) | For the description of this property, please see \#getRow().getRow() |
-| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see \#isVisible().isVisible() |
-| [setWebExtension(WebExtension value)](#setWebExtension-com.aspose.cells.WebExtension-) | For the description of this property, please see \#getWebExtension().getWebExtension() |
-| [setWidth(double value)](#setWidth-double-) | For the description of this property, please see \#getWidth().getWidth() |
+| [setDockState(String value)](#setDockState-java.lang.String-) | For the description of this property, please see [getDockState()](../../com.aspose.cells/webextensiontaskpane\#getDockState--) |
+| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see [isLocked()](../../com.aspose.cells/webextensiontaskpane\#isLocked--) |
+| [setRow(int value)](#setRow-int-) | For the description of this property, please see [getRow()](../../com.aspose.cells/webextensiontaskpane\#getRow--) |
+| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see [isVisible()](../../com.aspose.cells/webextensiontaskpane\#isVisible--) |
+| [setWebExtension(WebExtension value)](#setWebExtension-com.aspose.cells.WebExtension-) | For the description of this property, please see [getWebExtension()](../../com.aspose.cells/webextensiontaskpane\#getWebExtension--) |
+| [setWidth(double value)](#setWidth-double-) | For the description of this property, please see [getWidth()](../../com.aspose.cells/webextensiontaskpane\#getWidth--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -156,7 +156,7 @@ public void setDockState(String value)
 ```
 
 
-For the description of this property, please see \#getDockState().getDockState()
+For the description of this property, please see [getDockState()](../../com.aspose.cells/webextensiontaskpane\#getDockState--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -169,7 +169,7 @@ public void setLocked(boolean value)
 ```
 
 
-For the description of this property, please see \#isLocked().isLocked()
+For the description of this property, please see [isLocked()](../../com.aspose.cells/webextensiontaskpane\#isLocked--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -182,7 +182,7 @@ public void setRow(int value)
 ```
 
 
-For the description of this property, please see \#getRow().getRow()
+For the description of this property, please see [getRow()](../../com.aspose.cells/webextensiontaskpane\#getRow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -195,7 +195,7 @@ public void setVisible(boolean value)
 ```
 
 
-For the description of this property, please see \#isVisible().isVisible()
+For the description of this property, please see [isVisible()](../../com.aspose.cells/webextensiontaskpane\#isVisible--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -208,7 +208,7 @@ public void setWebExtension(WebExtension value)
 ```
 
 
-For the description of this property, please see \#getWebExtension().getWebExtension()
+For the description of this property, please see [getWebExtension()](../../com.aspose.cells/webextensiontaskpane\#getWebExtension--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -221,7 +221,7 @@ public void setWidth(double value)
 ```
 
 
-For the description of this property, please see \#getWidth().getWidth()
+For the description of this property, please see [getWidth()](../../com.aspose.cells/webextensiontaskpane\#getWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |

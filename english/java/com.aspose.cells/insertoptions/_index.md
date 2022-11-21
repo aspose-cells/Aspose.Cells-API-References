@@ -25,8 +25,8 @@ Represents the options of inserting.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCopyFormatType(int value)](#setCopyFormatType-int-) | For the description of this property, please see \#getCopyFormatType().getCopyFormatType() |
-| [setUpdateReference(boolean value)](#setUpdateReference-boolean-) | For the description of this property, please see \#getUpdateReference().getUpdateReference() |
+| [setCopyFormatType(int value)](#setCopyFormatType-int-) | For the description of this property, please see [getCopyFormatType()](../../com.aspose.cells/insertoptions\#getCopyFormatType--) |
+| [setUpdateReference(boolean value)](#setUpdateReference-boolean-) | For the description of this property, please see [getUpdateReference()](../../com.aspose.cells/insertoptions\#getUpdateReference--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -108,7 +108,7 @@ public void setCopyFormatType(int value)
 ```
 
 
-For the description of this property, please see \#getCopyFormatType().getCopyFormatType()
+For the description of this property, please see [getCopyFormatType()](../../com.aspose.cells/insertoptions\#getCopyFormatType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -121,7 +121,7 @@ public void setUpdateReference(boolean value)
 ```
 
 
-For the description of this property, please see \#getUpdateReference().getUpdateReference()
+For the description of this property, please see [getUpdateReference()](../../com.aspose.cells/insertoptions\#getUpdateReference--)
 
 **Parameters:**
 | Parameter | Type | Description |

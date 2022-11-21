@@ -30,11 +30,11 @@ Represents a legend entry in a chart legend.
 | [isTextNoFill()](#isTextNoFill--) | Gets or sets no fill of the text. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | For the description of this property, please see \#getAutoScaleFont().getAutoScaleFont() |
-| [setBackground(int value)](#setBackground-int-) | For the description of this property, please see \#getBackground().getBackground() |
-| [setBackgroundMode(int value)](#setBackgroundMode-int-) | For the description of this property, please see \#getBackgroundMode().getBackgroundMode() |
-| [setDeleted(boolean value)](#setDeleted-boolean-) | For the description of this property, please see \#isDeleted().isDeleted() |
-| [setTextNoFill(boolean value)](#setTextNoFill-boolean-) | For the description of this property, please see \#isTextNoFill().isTextNoFill() |
+| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | For the description of this property, please see [getAutoScaleFont()](../../com.aspose.cells/legendentry\#getAutoScaleFont--) |
+| [setBackground(int value)](#setBackground-int-) | For the description of this property, please see [getBackground()](../../com.aspose.cells/legendentry\#getBackground--) |
+| [setBackgroundMode(int value)](#setBackgroundMode-int-) | For the description of this property, please see [getBackgroundMode()](../../com.aspose.cells/legendentry\#getBackgroundMode--) |
+| [setDeleted(boolean value)](#setDeleted-boolean-) | For the description of this property, please see [isDeleted()](../../com.aspose.cells/legendentry\#isDeleted--) |
+| [setTextNoFill(boolean value)](#setTextNoFill-boolean-) | For the description of this property, please see [isTextNoFill()](../../com.aspose.cells/legendentry\#isTextNoFill--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -166,7 +166,7 @@ public void setAutoScaleFont(boolean value)
 ```
 
 
-For the description of this property, please see \#getAutoScaleFont().getAutoScaleFont()
+For the description of this property, please see [getAutoScaleFont()](../../com.aspose.cells/legendentry\#getAutoScaleFont--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -179,7 +179,7 @@ public void setBackground(int value)
 ```
 
 
-For the description of this property, please see \#getBackground().getBackground()
+For the description of this property, please see [getBackground()](../../com.aspose.cells/legendentry\#getBackground--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -192,7 +192,7 @@ public void setBackgroundMode(int value)
 ```
 
 
-For the description of this property, please see \#getBackgroundMode().getBackgroundMode()
+For the description of this property, please see [getBackgroundMode()](../../com.aspose.cells/legendentry\#getBackgroundMode--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -205,7 +205,7 @@ public void setDeleted(boolean value)
 ```
 
 
-For the description of this property, please see \#isDeleted().isDeleted()
+For the description of this property, please see [isDeleted()](../../com.aspose.cells/legendentry\#isDeleted--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -218,7 +218,7 @@ public void setTextNoFill(boolean value)
 ```
 
 
-For the description of this property, please see \#isTextNoFill().isTextNoFill()
+For the description of this property, please see [isTextNoFill()](../../com.aspose.cells/legendentry\#isTextNoFill--)
 
 **Parameters:**
 | Parameter | Type | Description |

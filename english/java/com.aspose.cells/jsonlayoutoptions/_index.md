@@ -31,14 +31,14 @@ Represents the options of json layout type.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setArrayAsTable(boolean value)](#setArrayAsTable-boolean-) | For the description of this property, please see \#getArrayAsTable().getArrayAsTable() |
-| [setConvertNumericOrDate(boolean value)](#setConvertNumericOrDate-boolean-) | For the description of this property, please see \#getConvertNumericOrDate().getConvertNumericOrDate() |
-| [setDateFormat(String value)](#setDateFormat-java.lang.String-) | For the description of this property, please see \#getDateFormat().getDateFormat() |
-| [setIgnoreArrayTitle(boolean value)](#setIgnoreArrayTitle-boolean-) | For the description of this property, please see \#getIgnoreArrayTitle().getIgnoreArrayTitle() |
-| [setIgnoreNull(boolean value)](#setIgnoreNull-boolean-) | For the description of this property, please see \#getIgnoreNull().getIgnoreNull() |
-| [setIgnoreObjectTitle(boolean value)](#setIgnoreObjectTitle-boolean-) | For the description of this property, please see \#getIgnoreObjectTitle().getIgnoreObjectTitle() |
-| [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | For the description of this property, please see \#getNumberFormat().getNumberFormat() |
-| [setTitleStyle(Style value)](#setTitleStyle-com.aspose.cells.Style-) | For the description of this property, please see \#getTitleStyle().getTitleStyle() |
+| [setArrayAsTable(boolean value)](#setArrayAsTable-boolean-) | For the description of this property, please see [getArrayAsTable()](../../com.aspose.cells/jsonlayoutoptions\#getArrayAsTable--) |
+| [setConvertNumericOrDate(boolean value)](#setConvertNumericOrDate-boolean-) | For the description of this property, please see [getConvertNumericOrDate()](../../com.aspose.cells/jsonlayoutoptions\#getConvertNumericOrDate--) |
+| [setDateFormat(String value)](#setDateFormat-java.lang.String-) | For the description of this property, please see [getDateFormat()](../../com.aspose.cells/jsonlayoutoptions\#getDateFormat--) |
+| [setIgnoreArrayTitle(boolean value)](#setIgnoreArrayTitle-boolean-) | For the description of this property, please see [getIgnoreArrayTitle()](../../com.aspose.cells/jsonlayoutoptions\#getIgnoreArrayTitle--) |
+| [setIgnoreNull(boolean value)](#setIgnoreNull-boolean-) | For the description of this property, please see [getIgnoreNull()](../../com.aspose.cells/jsonlayoutoptions\#getIgnoreNull--) |
+| [setIgnoreObjectTitle(boolean value)](#setIgnoreObjectTitle-boolean-) | For the description of this property, please see [getIgnoreObjectTitle()](../../com.aspose.cells/jsonlayoutoptions\#getIgnoreObjectTitle--) |
+| [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | For the description of this property, please see [getNumberFormat()](../../com.aspose.cells/jsonlayoutoptions\#getNumberFormat--) |
+| [setTitleStyle(Style value)](#setTitleStyle-com.aspose.cells.Style-) | For the description of this property, please see [getTitleStyle()](../../com.aspose.cells/jsonlayoutoptions\#getTitleStyle--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -180,7 +180,7 @@ public void setArrayAsTable(boolean value)
 ```
 
 
-For the description of this property, please see \#getArrayAsTable().getArrayAsTable()
+For the description of this property, please see [getArrayAsTable()](../../com.aspose.cells/jsonlayoutoptions\#getArrayAsTable--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,7 +193,7 @@ public void setConvertNumericOrDate(boolean value)
 ```
 
 
-For the description of this property, please see \#getConvertNumericOrDate().getConvertNumericOrDate()
+For the description of this property, please see [getConvertNumericOrDate()](../../com.aspose.cells/jsonlayoutoptions\#getConvertNumericOrDate--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -206,7 +206,7 @@ public void setDateFormat(String value)
 ```
 
 
-For the description of this property, please see \#getDateFormat().getDateFormat()
+For the description of this property, please see [getDateFormat()](../../com.aspose.cells/jsonlayoutoptions\#getDateFormat--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -219,7 +219,7 @@ public void setIgnoreArrayTitle(boolean value)
 ```
 
 
-For the description of this property, please see \#getIgnoreArrayTitle().getIgnoreArrayTitle()
+For the description of this property, please see [getIgnoreArrayTitle()](../../com.aspose.cells/jsonlayoutoptions\#getIgnoreArrayTitle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -232,7 +232,7 @@ public void setIgnoreNull(boolean value)
 ```
 
 
-For the description of this property, please see \#getIgnoreNull().getIgnoreNull()
+For the description of this property, please see [getIgnoreNull()](../../com.aspose.cells/jsonlayoutoptions\#getIgnoreNull--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -245,7 +245,7 @@ public void setIgnoreObjectTitle(boolean value)
 ```
 
 
-For the description of this property, please see \#getIgnoreObjectTitle().getIgnoreObjectTitle()
+For the description of this property, please see [getIgnoreObjectTitle()](../../com.aspose.cells/jsonlayoutoptions\#getIgnoreObjectTitle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -258,7 +258,7 @@ public void setNumberFormat(String value)
 ```
 
 
-For the description of this property, please see \#getNumberFormat().getNumberFormat()
+For the description of this property, please see [getNumberFormat()](../../com.aspose.cells/jsonlayoutoptions\#getNumberFormat--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -271,7 +271,7 @@ public void setTitleStyle(Style value)
 ```
 
 
-For the description of this property, please see \#getTitleStyle().getTitleStyle()
+For the description of this property, please see [getTitleStyle()](../../com.aspose.cells/jsonlayoutoptions\#getTitleStyle--)
 
 **Parameters:**
 | Parameter | Type | Description |

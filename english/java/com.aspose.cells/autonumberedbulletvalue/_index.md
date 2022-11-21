@@ -31,8 +31,8 @@ Represents automatic numbered bullet.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutonumberScheme(int value)](#setAutonumberScheme-int-) | For the description of this property, please see \#getAutonumberScheme().getAutonumberScheme() |
-| [setStartAt(int value)](#setStartAt-int-) | For the description of this property, please see \#getStartAt().getStartAt() |
+| [setAutonumberScheme(int value)](#setAutonumberScheme-int-) | For the description of this property, please see [getAutonumberScheme()](../../com.aspose.cells/autonumberedbulletvalue\#getAutonumberScheme--) |
+| [setStartAt(int value)](#setStartAt-int-) | For the description of this property, please see [getStartAt()](../../com.aspose.cells/autonumberedbulletvalue\#getStartAt--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -130,7 +130,7 @@ public void setAutonumberScheme(int value)
 ```
 
 
-For the description of this property, please see \#getAutonumberScheme().getAutonumberScheme()
+For the description of this property, please see [getAutonumberScheme()](../../com.aspose.cells/autonumberedbulletvalue\#getAutonumberScheme--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -143,7 +143,7 @@ public void setStartAt(int value)
 ```
 
 
-For the description of this property, please see \#getStartAt().getStartAt()
+For the description of this property, please see [getStartAt()](../../com.aspose.cells/autonumberedbulletvalue\#getStartAt--)
 
 **Parameters:**
 | Parameter | Type | Description |

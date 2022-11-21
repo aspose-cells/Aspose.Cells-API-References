@@ -62,23 +62,23 @@ Workbook workbook = new Workbook();
 | [removeACell(int row, int column)](#removeACell-int-int-) | Remove the validation settings in the cell. |
 | [removeArea(CellArea cellArea)](#removeArea-com.aspose.cells.CellArea-) | Remove the validation settings in the range. |
 | [removeAreas(CellArea[] areas)](#removeAreas-com.aspose.cells.CellArea---) | Removes this validation from given areas. |
-| [setAlertStyle(int value)](#setAlertStyle-int-) | For the description of this property, please see \#getAlertStyle().getAlertStyle() |
-| [setErrorMessage(String value)](#setErrorMessage-java.lang.String-) | For the description of this property, please see \#getErrorMessage().getErrorMessage() |
-| [setErrorTitle(String value)](#setErrorTitle-java.lang.String-) | For the description of this property, please see \#getErrorTitle().getErrorTitle() |
-| [setFormula1(String value)](#setFormula1-java.lang.String-) | For the description of this property, please see \#getFormula1().getFormula1() |
+| [setAlertStyle(int value)](#setAlertStyle-int-) | For the description of this property, please see [getAlertStyle()](../../com.aspose.cells/validation\#getAlertStyle--) |
+| [setErrorMessage(String value)](#setErrorMessage-java.lang.String-) | For the description of this property, please see [getErrorMessage()](../../com.aspose.cells/validation\#getErrorMessage--) |
+| [setErrorTitle(String value)](#setErrorTitle-java.lang.String-) | For the description of this property, please see [getErrorTitle()](../../com.aspose.cells/validation\#getErrorTitle--) |
+| [setFormula1(String value)](#setFormula1-java.lang.String-) | For the description of this property, please see [getFormula1()](../../com.aspose.cells/validation\#getFormula1--) |
 | [setFormula1(String formula, boolean isR1C1, boolean isLocal)](#setFormula1-java.lang.String-boolean-boolean-) | Sets the value or expression associated with this validation. |
-| [setFormula2(String value)](#setFormula2-java.lang.String-) | For the description of this property, please see \#getFormula2().getFormula2() |
+| [setFormula2(String value)](#setFormula2-java.lang.String-) | For the description of this property, please see [getFormula2()](../../com.aspose.cells/validation\#getFormula2--) |
 | [setFormula2(String formula, boolean isR1C1, boolean isLocal)](#setFormula2-java.lang.String-boolean-boolean-) | Sets the value or expression associated with this validation. |
-| [setIgnoreBlank(boolean value)](#setIgnoreBlank-boolean-) | For the description of this property, please see \#getIgnoreBlank().getIgnoreBlank() |
-| [setInCellDropDown(boolean value)](#setInCellDropDown-boolean-) | For the description of this property, please see \#getInCellDropDown().getInCellDropDown() |
-| [setInputMessage(String value)](#setInputMessage-java.lang.String-) | For the description of this property, please see \#getInputMessage().getInputMessage() |
-| [setInputTitle(String value)](#setInputTitle-java.lang.String-) | For the description of this property, please see \#getInputTitle().getInputTitle() |
-| [setOperator(int value)](#setOperator-int-) | For the description of this property, please see \#getOperator().getOperator() |
-| [setShowError(boolean value)](#setShowError-boolean-) | For the description of this property, please see \#getShowError().getShowError() |
-| [setShowInput(boolean value)](#setShowInput-boolean-) | For the description of this property, please see \#getShowInput().getShowInput() |
-| [setType(int value)](#setType-int-) | For the description of this property, please see \#getType().getType() |
-| [setValue1(Object value)](#setValue1-java.lang.Object-) | For the description of this property, please see \#getValue1().getValue1() |
-| [setValue2(Object value)](#setValue2-java.lang.Object-) | For the description of this property, please see \#getValue2().getValue2() |
+| [setIgnoreBlank(boolean value)](#setIgnoreBlank-boolean-) | For the description of this property, please see [getIgnoreBlank()](../../com.aspose.cells/validation\#getIgnoreBlank--) |
+| [setInCellDropDown(boolean value)](#setInCellDropDown-boolean-) | For the description of this property, please see [getInCellDropDown()](../../com.aspose.cells/validation\#getInCellDropDown--) |
+| [setInputMessage(String value)](#setInputMessage-java.lang.String-) | For the description of this property, please see [getInputMessage()](../../com.aspose.cells/validation\#getInputMessage--) |
+| [setInputTitle(String value)](#setInputTitle-java.lang.String-) | For the description of this property, please see [getInputTitle()](../../com.aspose.cells/validation\#getInputTitle--) |
+| [setOperator(int value)](#setOperator-int-) | For the description of this property, please see [getOperator()](../../com.aspose.cells/validation\#getOperator--) |
+| [setShowError(boolean value)](#setShowError-boolean-) | For the description of this property, please see [getShowError()](../../com.aspose.cells/validation\#getShowError--) |
+| [setShowInput(boolean value)](#setShowInput-boolean-) | For the description of this property, please see [getShowInput()](../../com.aspose.cells/validation\#getShowInput--) |
+| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/validation\#getType--) |
+| [setValue1(Object value)](#setValue1-java.lang.Object-) | For the description of this property, please see [getValue1()](../../com.aspose.cells/validation\#getValue1--) |
+| [setValue2(Object value)](#setValue2-java.lang.Object-) | For the description of this property, please see [getValue2()](../../com.aspose.cells/validation\#getValue2--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -481,7 +481,7 @@ public void setAlertStyle(int value)
 ```
 
 
-For the description of this property, please see \#getAlertStyle().getAlertStyle()
+For the description of this property, please see [getAlertStyle()](../../com.aspose.cells/validation\#getAlertStyle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -494,7 +494,7 @@ public void setErrorMessage(String value)
 ```
 
 
-For the description of this property, please see \#getErrorMessage().getErrorMessage()
+For the description of this property, please see [getErrorMessage()](../../com.aspose.cells/validation\#getErrorMessage--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -507,7 +507,7 @@ public void setErrorTitle(String value)
 ```
 
 
-For the description of this property, please see \#getErrorTitle().getErrorTitle()
+For the description of this property, please see [getErrorTitle()](../../com.aspose.cells/validation\#getErrorTitle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -520,7 +520,7 @@ public void setFormula1(String value)
 ```
 
 
-For the description of this property, please see \#getFormula1().getFormula1()
+For the description of this property, please see [getFormula1()](../../com.aspose.cells/validation\#getFormula1--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -548,7 +548,7 @@ public void setFormula2(String value)
 ```
 
 
-For the description of this property, please see \#getFormula2().getFormula2()
+For the description of this property, please see [getFormula2()](../../com.aspose.cells/validation\#getFormula2--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -576,7 +576,7 @@ public void setIgnoreBlank(boolean value)
 ```
 
 
-For the description of this property, please see \#getIgnoreBlank().getIgnoreBlank()
+For the description of this property, please see [getIgnoreBlank()](../../com.aspose.cells/validation\#getIgnoreBlank--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -589,7 +589,7 @@ public void setInCellDropDown(boolean value)
 ```
 
 
-For the description of this property, please see \#getInCellDropDown().getInCellDropDown()
+For the description of this property, please see [getInCellDropDown()](../../com.aspose.cells/validation\#getInCellDropDown--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -602,7 +602,7 @@ public void setInputMessage(String value)
 ```
 
 
-For the description of this property, please see \#getInputMessage().getInputMessage()
+For the description of this property, please see [getInputMessage()](../../com.aspose.cells/validation\#getInputMessage--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -615,7 +615,7 @@ public void setInputTitle(String value)
 ```
 
 
-For the description of this property, please see \#getInputTitle().getInputTitle()
+For the description of this property, please see [getInputTitle()](../../com.aspose.cells/validation\#getInputTitle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -628,7 +628,7 @@ public void setOperator(int value)
 ```
 
 
-For the description of this property, please see \#getOperator().getOperator()
+For the description of this property, please see [getOperator()](../../com.aspose.cells/validation\#getOperator--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -641,7 +641,7 @@ public void setShowError(boolean value)
 ```
 
 
-For the description of this property, please see \#getShowError().getShowError()
+For the description of this property, please see [getShowError()](../../com.aspose.cells/validation\#getShowError--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -654,7 +654,7 @@ public void setShowInput(boolean value)
 ```
 
 
-For the description of this property, please see \#getShowInput().getShowInput()
+For the description of this property, please see [getShowInput()](../../com.aspose.cells/validation\#getShowInput--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -667,7 +667,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see \#getType().getType()
+For the description of this property, please see [getType()](../../com.aspose.cells/validation\#getType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -680,7 +680,7 @@ public void setValue1(Object value)
 ```
 
 
-For the description of this property, please see \#getValue1().getValue1()
+For the description of this property, please see [getValue1()](../../com.aspose.cells/validation\#getValue1--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -693,7 +693,7 @@ public void setValue2(Object value)
 ```
 
 
-For the description of this property, please see \#getValue2().getValue2()
+For the description of this property, please see [getValue2()](../../com.aspose.cells/validation\#getValue2--)
 
 **Parameters:**
 | Parameter | Type | Description |

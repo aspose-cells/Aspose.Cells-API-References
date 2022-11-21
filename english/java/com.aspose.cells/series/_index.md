@@ -132,37 +132,37 @@ Encapsulates the object that represents a single data series in a chart.
 | [move(int count)](#move-int-) | Moves the series up or down. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBar3DShapeType(int value)](#setBar3DShapeType-int-) | For the description of this property, please see \#getBar3DShapeType().getBar3DShapeType() |
-| [setBarShape(int value)](#setBarShape-int-) | For the description of this property, please see \#getBarShape().getBarShape() |
-| [setBubbleScale(int value)](#setBubbleScale-int-) | For the description of this property, please see \#getBubbleScale().getBubbleScale() |
-| [setBubbleSizeRepresents(int value)](#setBubbleSizeRepresents-int-) | For the description of this property, please see \#getBubbleSizeRepresents().getBubbleSizeRepresents() |
-| [setBubbleSizes(String value)](#setBubbleSizes-java.lang.String-) | For the description of this property, please see \#getBubbleSizes().getBubbleSizes() |
-| [setColorVaried(boolean value)](#setColorVaried-boolean-) | For the description of this property, please see \#isColorVaried().isColorVaried() |
-| [setDoughnutHoleSize(int value)](#setDoughnutHoleSize-int-) | For the description of this property, please see \#getDoughnutHoleSize().getDoughnutHoleSize() |
-| [setExplosion(int value)](#setExplosion-int-) | For the description of this property, please see \#getExplosion().getExplosion() |
-| [setFirstSliceAngle(short value)](#setFirstSliceAngle-short-) | For the description of this property, please see \#getFirstSliceAngle().getFirstSliceAngle() |
-| [setGapWidth(short value)](#setGapWidth-short-) | For the description of this property, please see \#getGapWidth().getGapWidth() |
-| [setHas3DEffect(boolean value)](#setHas3DEffect-boolean-) | For the description of this property, please see \#getHas3DEffect().getHas3DEffect() |
-| [setHasDropLines(boolean value)](#setHasDropLines-boolean-) | For the description of this property, please see \#hasDropLines().hasDropLines() |
-| [setHasHiLoLines(boolean value)](#setHasHiLoLines-boolean-) | For the description of this property, please see \#hasHiLoLines().hasHiLoLines() |
-| [setHasLeaderLines(boolean value)](#setHasLeaderLines-boolean-) | For the description of this property, please see \#hasLeaderLines().hasLeaderLines() |
-| [setHasRadarAxisLabels(boolean value)](#setHasRadarAxisLabels-boolean-) | For the description of this property, please see \#hasRadarAxisLabels().hasRadarAxisLabels() |
-| [setHasSeriesLines(boolean value)](#setHasSeriesLines-boolean-) | For the description of this property, please see \#hasSeriesLines().hasSeriesLines() |
-| [setHasUpDownBars(boolean value)](#setHasUpDownBars-boolean-) | For the description of this property, please see \#hasUpDownBars().hasUpDownBars() |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
-| [setOverlap(short value)](#setOverlap-short-) | For the description of this property, please see \#getOverlap().getOverlap() |
-| [setPlotOnSecondAxis(boolean value)](#setPlotOnSecondAxis-boolean-) | For the description of this property, please see \#getPlotOnSecondAxis().getPlotOnSecondAxis() |
-| [setSecondPlotSize(short value)](#setSecondPlotSize-short-) | For the description of this property, please see \#getSecondPlotSize().getSecondPlotSize() |
-| [setShadow(boolean value)](#setShadow-boolean-) | For the description of this property, please see \#getShadow().getShadow() |
-| [setShowNegativeBubbles(boolean value)](#setShowNegativeBubbles-boolean-) | For the description of this property, please see \#getShowNegativeBubbles().getShowNegativeBubbles() |
-| [setSizeRepresents(int value)](#setSizeRepresents-int-) | For the description of this property, please see \#getSizeRepresents().getSizeRepresents() |
-| [setSmooth(boolean value)](#setSmooth-boolean-) | For the description of this property, please see \#getSmooth().getSmooth() |
-| [setSplitType(int value)](#setSplitType-int-) | For the description of this property, please see \#getSplitType().getSplitType() |
-| [setSplitValue(double value)](#setSplitValue-double-) | For the description of this property, please see \#getSplitValue().getSplitValue() |
-| [setType(int value)](#setType-int-) | For the description of this property, please see \#getType().getType() |
-| [setValues(String value)](#setValues-java.lang.String-) | For the description of this property, please see \#getValues().getValues() |
-| [setValuesFormatCode(String value)](#setValuesFormatCode-java.lang.String-) | For the description of this property, please see \#getValuesFormatCode().getValuesFormatCode() |
-| [setXValues(String value)](#setXValues-java.lang.String-) | For the description of this property, please see \#getXValues().getXValues() |
+| [setBar3DShapeType(int value)](#setBar3DShapeType-int-) | For the description of this property, please see [getBar3DShapeType()](../../com.aspose.cells/series\#getBar3DShapeType--) |
+| [setBarShape(int value)](#setBarShape-int-) | For the description of this property, please see [getBarShape()](../../com.aspose.cells/series\#getBarShape--) |
+| [setBubbleScale(int value)](#setBubbleScale-int-) | For the description of this property, please see [getBubbleScale()](../../com.aspose.cells/series\#getBubbleScale--) |
+| [setBubbleSizeRepresents(int value)](#setBubbleSizeRepresents-int-) | For the description of this property, please see [getBubbleSizeRepresents()](../../com.aspose.cells/series\#getBubbleSizeRepresents--) |
+| [setBubbleSizes(String value)](#setBubbleSizes-java.lang.String-) | For the description of this property, please see [getBubbleSizes()](../../com.aspose.cells/series\#getBubbleSizes--) |
+| [setColorVaried(boolean value)](#setColorVaried-boolean-) | For the description of this property, please see [isColorVaried()](../../com.aspose.cells/series\#isColorVaried--) |
+| [setDoughnutHoleSize(int value)](#setDoughnutHoleSize-int-) | For the description of this property, please see [getDoughnutHoleSize()](../../com.aspose.cells/series\#getDoughnutHoleSize--) |
+| [setExplosion(int value)](#setExplosion-int-) | For the description of this property, please see [getExplosion()](../../com.aspose.cells/series\#getExplosion--) |
+| [setFirstSliceAngle(short value)](#setFirstSliceAngle-short-) | For the description of this property, please see [getFirstSliceAngle()](../../com.aspose.cells/series\#getFirstSliceAngle--) |
+| [setGapWidth(short value)](#setGapWidth-short-) | For the description of this property, please see [getGapWidth()](../../com.aspose.cells/series\#getGapWidth--) |
+| [setHas3DEffect(boolean value)](#setHas3DEffect-boolean-) | For the description of this property, please see [getHas3DEffect()](../../com.aspose.cells/series\#getHas3DEffect--) |
+| [setHasDropLines(boolean value)](#setHasDropLines-boolean-) | For the description of this property, please see [hasDropLines()](../../com.aspose.cells/series\#hasDropLines--) |
+| [setHasHiLoLines(boolean value)](#setHasHiLoLines-boolean-) | For the description of this property, please see [hasHiLoLines()](../../com.aspose.cells/series\#hasHiLoLines--) |
+| [setHasLeaderLines(boolean value)](#setHasLeaderLines-boolean-) | For the description of this property, please see [hasLeaderLines()](../../com.aspose.cells/series\#hasLeaderLines--) |
+| [setHasRadarAxisLabels(boolean value)](#setHasRadarAxisLabels-boolean-) | For the description of this property, please see [hasRadarAxisLabels()](../../com.aspose.cells/series\#hasRadarAxisLabels--) |
+| [setHasSeriesLines(boolean value)](#setHasSeriesLines-boolean-) | For the description of this property, please see [hasSeriesLines()](../../com.aspose.cells/series\#hasSeriesLines--) |
+| [setHasUpDownBars(boolean value)](#setHasUpDownBars-boolean-) | For the description of this property, please see [hasUpDownBars()](../../com.aspose.cells/series\#hasUpDownBars--) |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/series\#getName--) |
+| [setOverlap(short value)](#setOverlap-short-) | For the description of this property, please see [getOverlap()](../../com.aspose.cells/series\#getOverlap--) |
+| [setPlotOnSecondAxis(boolean value)](#setPlotOnSecondAxis-boolean-) | For the description of this property, please see [getPlotOnSecondAxis()](../../com.aspose.cells/series\#getPlotOnSecondAxis--) |
+| [setSecondPlotSize(short value)](#setSecondPlotSize-short-) | For the description of this property, please see [getSecondPlotSize()](../../com.aspose.cells/series\#getSecondPlotSize--) |
+| [setShadow(boolean value)](#setShadow-boolean-) | For the description of this property, please see [getShadow()](../../com.aspose.cells/series\#getShadow--) |
+| [setShowNegativeBubbles(boolean value)](#setShowNegativeBubbles-boolean-) | For the description of this property, please see [getShowNegativeBubbles()](../../com.aspose.cells/series\#getShowNegativeBubbles--) |
+| [setSizeRepresents(int value)](#setSizeRepresents-int-) | For the description of this property, please see [getSizeRepresents()](../../com.aspose.cells/series\#getSizeRepresents--) |
+| [setSmooth(boolean value)](#setSmooth-boolean-) | For the description of this property, please see [getSmooth()](../../com.aspose.cells/series\#getSmooth--) |
+| [setSplitType(int value)](#setSplitType-int-) | For the description of this property, please see [getSplitType()](../../com.aspose.cells/series\#getSplitType--) |
+| [setSplitValue(double value)](#setSplitValue-double-) | For the description of this property, please see [getSplitValue()](../../com.aspose.cells/series\#getSplitValue--) |
+| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/series\#getType--) |
+| [setValues(String value)](#setValues-java.lang.String-) | For the description of this property, please see [getValues()](../../com.aspose.cells/series\#getValues--) |
+| [setValuesFormatCode(String value)](#setValuesFormatCode-java.lang.String-) | For the description of this property, please see [getValuesFormatCode()](../../com.aspose.cells/series\#getValuesFormatCode--) |
+| [setXValues(String value)](#setXValues-java.lang.String-) | For the description of this property, please see [getXValues()](../../com.aspose.cells/series\#getXValues--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -765,7 +765,7 @@ public void setBar3DShapeType(int value)
 ```
 
 
-For the description of this property, please see \#getBar3DShapeType().getBar3DShapeType()
+For the description of this property, please see [getBar3DShapeType()](../../com.aspose.cells/series\#getBar3DShapeType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -778,7 +778,7 @@ public void setBarShape(int value)
 ```
 
 
-For the description of this property, please see \#getBarShape().getBarShape()
+For the description of this property, please see [getBarShape()](../../com.aspose.cells/series\#getBarShape--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -791,7 +791,7 @@ public void setBubbleScale(int value)
 ```
 
 
-For the description of this property, please see \#getBubbleScale().getBubbleScale()
+For the description of this property, please see [getBubbleScale()](../../com.aspose.cells/series\#getBubbleScale--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -804,7 +804,7 @@ public void setBubbleSizeRepresents(int value)
 ```
 
 
-For the description of this property, please see \#getBubbleSizeRepresents().getBubbleSizeRepresents()
+For the description of this property, please see [getBubbleSizeRepresents()](../../com.aspose.cells/series\#getBubbleSizeRepresents--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -817,7 +817,7 @@ public void setBubbleSizes(String value)
 ```
 
 
-For the description of this property, please see \#getBubbleSizes().getBubbleSizes()
+For the description of this property, please see [getBubbleSizes()](../../com.aspose.cells/series\#getBubbleSizes--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -830,7 +830,7 @@ public void setColorVaried(boolean value)
 ```
 
 
-For the description of this property, please see \#isColorVaried().isColorVaried()
+For the description of this property, please see [isColorVaried()](../../com.aspose.cells/series\#isColorVaried--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -843,7 +843,7 @@ public void setDoughnutHoleSize(int value)
 ```
 
 
-For the description of this property, please see \#getDoughnutHoleSize().getDoughnutHoleSize()
+For the description of this property, please see [getDoughnutHoleSize()](../../com.aspose.cells/series\#getDoughnutHoleSize--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -856,7 +856,7 @@ public void setExplosion(int value)
 ```
 
 
-For the description of this property, please see \#getExplosion().getExplosion()
+For the description of this property, please see [getExplosion()](../../com.aspose.cells/series\#getExplosion--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -869,7 +869,7 @@ public void setFirstSliceAngle(short value)
 ```
 
 
-For the description of this property, please see \#getFirstSliceAngle().getFirstSliceAngle()
+For the description of this property, please see [getFirstSliceAngle()](../../com.aspose.cells/series\#getFirstSliceAngle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -882,7 +882,7 @@ public void setGapWidth(short value)
 ```
 
 
-For the description of this property, please see \#getGapWidth().getGapWidth()
+For the description of this property, please see [getGapWidth()](../../com.aspose.cells/series\#getGapWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -895,7 +895,7 @@ public void setHas3DEffect(boolean value)
 ```
 
 
-For the description of this property, please see \#getHas3DEffect().getHas3DEffect()
+For the description of this property, please see [getHas3DEffect()](../../com.aspose.cells/series\#getHas3DEffect--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -908,7 +908,7 @@ public void setHasDropLines(boolean value)
 ```
 
 
-For the description of this property, please see \#hasDropLines().hasDropLines()
+For the description of this property, please see [hasDropLines()](../../com.aspose.cells/series\#hasDropLines--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -921,7 +921,7 @@ public void setHasHiLoLines(boolean value)
 ```
 
 
-For the description of this property, please see \#hasHiLoLines().hasHiLoLines()
+For the description of this property, please see [hasHiLoLines()](../../com.aspose.cells/series\#hasHiLoLines--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -934,7 +934,7 @@ public void setHasLeaderLines(boolean value)
 ```
 
 
-For the description of this property, please see \#hasLeaderLines().hasLeaderLines()
+For the description of this property, please see [hasLeaderLines()](../../com.aspose.cells/series\#hasLeaderLines--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -947,7 +947,7 @@ public void setHasRadarAxisLabels(boolean value)
 ```
 
 
-For the description of this property, please see \#hasRadarAxisLabels().hasRadarAxisLabels()
+For the description of this property, please see [hasRadarAxisLabels()](../../com.aspose.cells/series\#hasRadarAxisLabels--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -960,7 +960,7 @@ public void setHasSeriesLines(boolean value)
 ```
 
 
-For the description of this property, please see \#hasSeriesLines().hasSeriesLines()
+For the description of this property, please see [hasSeriesLines()](../../com.aspose.cells/series\#hasSeriesLines--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -973,7 +973,7 @@ public void setHasUpDownBars(boolean value)
 ```
 
 
-For the description of this property, please see \#hasUpDownBars().hasUpDownBars()
+For the description of this property, please see [hasUpDownBars()](../../com.aspose.cells/series\#hasUpDownBars--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -986,7 +986,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see \#getName().getName()
+For the description of this property, please see [getName()](../../com.aspose.cells/series\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -999,7 +999,7 @@ public void setOverlap(short value)
 ```
 
 
-For the description of this property, please see \#getOverlap().getOverlap()
+For the description of this property, please see [getOverlap()](../../com.aspose.cells/series\#getOverlap--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1012,7 +1012,7 @@ public void setPlotOnSecondAxis(boolean value)
 ```
 
 
-For the description of this property, please see \#getPlotOnSecondAxis().getPlotOnSecondAxis()
+For the description of this property, please see [getPlotOnSecondAxis()](../../com.aspose.cells/series\#getPlotOnSecondAxis--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1025,7 +1025,7 @@ public void setSecondPlotSize(short value)
 ```
 
 
-For the description of this property, please see \#getSecondPlotSize().getSecondPlotSize()
+For the description of this property, please see [getSecondPlotSize()](../../com.aspose.cells/series\#getSecondPlotSize--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1038,7 +1038,7 @@ public void setShadow(boolean value)
 ```
 
 
-For the description of this property, please see \#getShadow().getShadow()
+For the description of this property, please see [getShadow()](../../com.aspose.cells/series\#getShadow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1051,7 +1051,7 @@ public void setShowNegativeBubbles(boolean value)
 ```
 
 
-For the description of this property, please see \#getShowNegativeBubbles().getShowNegativeBubbles()
+For the description of this property, please see [getShowNegativeBubbles()](../../com.aspose.cells/series\#getShowNegativeBubbles--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1064,7 +1064,7 @@ public void setSizeRepresents(int value)
 ```
 
 
-For the description of this property, please see \#getSizeRepresents().getSizeRepresents()
+For the description of this property, please see [getSizeRepresents()](../../com.aspose.cells/series\#getSizeRepresents--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1077,7 +1077,7 @@ public void setSmooth(boolean value)
 ```
 
 
-For the description of this property, please see \#getSmooth().getSmooth()
+For the description of this property, please see [getSmooth()](../../com.aspose.cells/series\#getSmooth--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1090,7 +1090,7 @@ public void setSplitType(int value)
 ```
 
 
-For the description of this property, please see \#getSplitType().getSplitType()
+For the description of this property, please see [getSplitType()](../../com.aspose.cells/series\#getSplitType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1103,7 +1103,7 @@ public void setSplitValue(double value)
 ```
 
 
-For the description of this property, please see \#getSplitValue().getSplitValue()
+For the description of this property, please see [getSplitValue()](../../com.aspose.cells/series\#getSplitValue--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1116,7 +1116,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see \#getType().getType()
+For the description of this property, please see [getType()](../../com.aspose.cells/series\#getType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1129,7 +1129,7 @@ public void setValues(String value)
 ```
 
 
-For the description of this property, please see \#getValues().getValues()
+For the description of this property, please see [getValues()](../../com.aspose.cells/series\#getValues--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1142,7 +1142,7 @@ public void setValuesFormatCode(String value)
 ```
 
 
-For the description of this property, please see \#getValuesFormatCode().getValuesFormatCode()
+For the description of this property, please see [getValuesFormatCode()](../../com.aspose.cells/series\#getValuesFormatCode--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1155,7 +1155,7 @@ public void setXValues(String value)
 ```
 
 
-For the description of this property, please see \#getXValues().getXValues()
+For the description of this property, please see [getXValues()](../../com.aspose.cells/series\#getXValues--)
 
 **Parameters:**
 | Parameter | Type | Description |

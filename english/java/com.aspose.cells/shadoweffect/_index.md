@@ -30,13 +30,13 @@ This class specifies the shadow effect of the chart element or shape.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAngle(double value)](#setAngle-double-) | For the description of this property, please see \#getAngle().getAngle() |
-| [setBlur(double value)](#setBlur-double-) | For the description of this property, please see \#getBlur().getBlur() |
-| [setColor(CellsColor value)](#setColor-com.aspose.cells.CellsColor-) | For the description of this property, please see \#getColor().getColor() |
-| [setDistance(double value)](#setDistance-double-) | For the description of this property, please see \#getDistance().getDistance() |
-| [setPresetType(int value)](#setPresetType-int-) | For the description of this property, please see \#getPresetType().getPresetType() |
-| [setSize(double value)](#setSize-double-) | For the description of this property, please see \#getSize().getSize() |
-| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see \#getTransparency().getTransparency() |
+| [setAngle(double value)](#setAngle-double-) | For the description of this property, please see [getAngle()](../../com.aspose.cells/shadoweffect\#getAngle--) |
+| [setBlur(double value)](#setBlur-double-) | For the description of this property, please see [getBlur()](../../com.aspose.cells/shadoweffect\#getBlur--) |
+| [setColor(CellsColor value)](#setColor-com.aspose.cells.CellsColor-) | For the description of this property, please see [getColor()](../../com.aspose.cells/shadoweffect\#getColor--) |
+| [setDistance(double value)](#setDistance-double-) | For the description of this property, please see [getDistance()](../../com.aspose.cells/shadoweffect\#getDistance--) |
+| [setPresetType(int value)](#setPresetType-int-) | For the description of this property, please see [getPresetType()](../../com.aspose.cells/shadoweffect\#getPresetType--) |
+| [setSize(double value)](#setSize-double-) | For the description of this property, please see [getSize()](../../com.aspose.cells/shadoweffect\#getSize--) |
+| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see [getTransparency()](../../com.aspose.cells/shadoweffect\#getTransparency--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -168,7 +168,7 @@ public void setAngle(double value)
 ```
 
 
-For the description of this property, please see \#getAngle().getAngle()
+For the description of this property, please see [getAngle()](../../com.aspose.cells/shadoweffect\#getAngle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,7 +181,7 @@ public void setBlur(double value)
 ```
 
 
-For the description of this property, please see \#getBlur().getBlur()
+For the description of this property, please see [getBlur()](../../com.aspose.cells/shadoweffect\#getBlur--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -194,7 +194,7 @@ public void setColor(CellsColor value)
 ```
 
 
-For the description of this property, please see \#getColor().getColor()
+For the description of this property, please see [getColor()](../../com.aspose.cells/shadoweffect\#getColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -207,7 +207,7 @@ public void setDistance(double value)
 ```
 
 
-For the description of this property, please see \#getDistance().getDistance()
+For the description of this property, please see [getDistance()](../../com.aspose.cells/shadoweffect\#getDistance--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -220,7 +220,7 @@ public void setPresetType(int value)
 ```
 
 
-For the description of this property, please see \#getPresetType().getPresetType()
+For the description of this property, please see [getPresetType()](../../com.aspose.cells/shadoweffect\#getPresetType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -233,7 +233,7 @@ public void setSize(double value)
 ```
 
 
-For the description of this property, please see \#getSize().getSize()
+For the description of this property, please see [getSize()](../../com.aspose.cells/shadoweffect\#getSize--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ public void setTransparency(double value)
 ```
 
 
-For the description of this property, please see \#getTransparency().getTransparency()
+For the description of this property, please see [getTransparency()](../../com.aspose.cells/shadoweffect\#getTransparency--)
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -25,8 +25,8 @@ Represents the options of the smart tag.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setEmbedSmartTags(boolean value)](#setEmbedSmartTags-boolean-) | For the description of this property, please see \#getEmbedSmartTags().getEmbedSmartTags() |
-| [setShowType(int value)](#setShowType-int-) | For the description of this property, please see \#getShowType().getShowType() |
+| [setEmbedSmartTags(boolean value)](#setEmbedSmartTags-boolean-) | For the description of this property, please see [getEmbedSmartTags()](../../com.aspose.cells/smarttagoptions\#getEmbedSmartTags--) |
+| [setShowType(int value)](#setShowType-int-) | For the description of this property, please see [getShowType()](../../com.aspose.cells/smarttagoptions\#getShowType--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -108,7 +108,7 @@ public void setEmbedSmartTags(boolean value)
 ```
 
 
-For the description of this property, please see \#getEmbedSmartTags().getEmbedSmartTags()
+For the description of this property, please see [getEmbedSmartTags()](../../com.aspose.cells/smarttagoptions\#getEmbedSmartTags--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -121,7 +121,7 @@ public void setShowType(int value)
 ```
 
 
-For the description of this property, please see \#getShowType().getShowType()
+For the description of this property, please see [getShowType()](../../com.aspose.cells/smarttagoptions\#getShowType--)
 
 **Parameters:**
 | Parameter | Type | Description |

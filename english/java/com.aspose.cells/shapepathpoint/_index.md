@@ -25,8 +25,8 @@ Represents an x-y coordinate within the path coordinate space.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setX(int value)](#setX-int-) | For the description of this property, please see \#getX().getX() |
-| [setY(int value)](#setY-int-) | For the description of this property, please see \#getY().getY() |
+| [setX(int value)](#setX-int-) | For the description of this property, please see [getX()](../../com.aspose.cells/shapepathpoint\#getX--) |
+| [setY(int value)](#setY-int-) | For the description of this property, please see [getY()](../../com.aspose.cells/shapepathpoint\#getY--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -108,7 +108,7 @@ public void setX(int value)
 ```
 
 
-For the description of this property, please see \#getX().getX()
+For the description of this property, please see [getX()](../../com.aspose.cells/shapepathpoint\#getX--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -121,7 +121,7 @@ public void setY(int value)
 ```
 
 
-For the description of this property, please see \#getY().getY()
+For the description of this property, please see [getY()](../../com.aspose.cells/shapepathpoint\#getY--)
 
 **Parameters:**
 | Parameter | Type | Description |

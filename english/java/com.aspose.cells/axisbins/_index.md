@@ -31,12 +31,12 @@ Represents axis bins
 | [notifyAll()](#notifyAll--) |  |
 | [resetOverflow()](#resetOverflow--) | Reset the overflow |
 | [resetUnderflow()](#resetUnderflow--) | Reset the underflow |
-| [setAutomatic(boolean value)](#setAutomatic-boolean-) | For the description of this property, please see \#isAutomatic().isAutomatic() |
-| [setByCategory(boolean value)](#setByCategory-boolean-) | For the description of this property, please see \#isByCategory().isByCategory() |
-| [setCount(int value)](#setCount-int-) | For the description of this property, please see \#getCount().getCount() |
-| [setOverflow(double value)](#setOverflow-double-) | For the description of this property, please see \#getOverflow().getOverflow() |
-| [setUnderflow(double value)](#setUnderflow-double-) | For the description of this property, please see \#getUnderflow().getUnderflow() |
-| [setWidth(double value)](#setWidth-double-) | For the description of this property, please see \#getWidth().getWidth() |
+| [setAutomatic(boolean value)](#setAutomatic-boolean-) | For the description of this property, please see [isAutomatic()](../../com.aspose.cells/axisbins\#isAutomatic--) |
+| [setByCategory(boolean value)](#setByCategory-boolean-) | For the description of this property, please see [isByCategory()](../../com.aspose.cells/axisbins\#isByCategory--) |
+| [setCount(int value)](#setCount-int-) | For the description of this property, please see [getCount()](../../com.aspose.cells/axisbins\#getCount--) |
+| [setOverflow(double value)](#setOverflow-double-) | For the description of this property, please see [getOverflow()](../../com.aspose.cells/axisbins\#getOverflow--) |
+| [setUnderflow(double value)](#setUnderflow-double-) | For the description of this property, please see [getUnderflow()](../../com.aspose.cells/axisbins\#getUnderflow--) |
+| [setWidth(double value)](#setWidth-double-) | For the description of this property, please see [getWidth()](../../com.aspose.cells/axisbins\#getWidth--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -174,7 +174,7 @@ public void setAutomatic(boolean value)
 ```
 
 
-For the description of this property, please see \#isAutomatic().isAutomatic()
+For the description of this property, please see [isAutomatic()](../../com.aspose.cells/axisbins\#isAutomatic--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -187,7 +187,7 @@ public void setByCategory(boolean value)
 ```
 
 
-For the description of this property, please see \#isByCategory().isByCategory()
+For the description of this property, please see [isByCategory()](../../com.aspose.cells/axisbins\#isByCategory--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -200,7 +200,7 @@ public void setCount(int value)
 ```
 
 
-For the description of this property, please see \#getCount().getCount()
+For the description of this property, please see [getCount()](../../com.aspose.cells/axisbins\#getCount--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -213,7 +213,7 @@ public void setOverflow(double value)
 ```
 
 
-For the description of this property, please see \#getOverflow().getOverflow()
+For the description of this property, please see [getOverflow()](../../com.aspose.cells/axisbins\#getOverflow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -226,7 +226,7 @@ public void setUnderflow(double value)
 ```
 
 
-For the description of this property, please see \#getUnderflow().getUnderflow()
+For the description of this property, please see [getUnderflow()](../../com.aspose.cells/axisbins\#getUnderflow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -239,7 +239,7 @@ public void setWidth(double value)
 ```
 
 
-For the description of this property, please see \#getWidth().getWidth()
+For the description of this property, please see [getWidth()](../../com.aspose.cells/axisbins\#getWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |

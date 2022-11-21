@@ -30,13 +30,13 @@ Represents all types of color.
 | [isShapeColor()](#isShapeColor--) | Gets and set the color which should apply to cell or shape. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setArgb(int value)](#setArgb-int-) | For the description of this property, please see \#getArgb().getArgb() |
-| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | For the description of this property, please see \#getColor().getColor() |
-| [setColorIndex(int value)](#setColorIndex-int-) | For the description of this property, please see \#getColorIndex().getColorIndex() |
-| [setShapeColor(boolean value)](#setShapeColor-boolean-) | For the description of this property, please see \#isShapeColor().isShapeColor() |
-| [setThemeColor(ThemeColor value)](#setThemeColor-com.aspose.cells.ThemeColor-) | For the description of this property, please see \#getThemeColor().getThemeColor() |
+| [setArgb(int value)](#setArgb-int-) | For the description of this property, please see [getArgb()](../../com.aspose.cells/cellscolor\#getArgb--) |
+| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | For the description of this property, please see [getColor()](../../com.aspose.cells/cellscolor\#getColor--) |
+| [setColorIndex(int value)](#setColorIndex-int-) | For the description of this property, please see [getColorIndex()](../../com.aspose.cells/cellscolor\#getColorIndex--) |
+| [setShapeColor(boolean value)](#setShapeColor-boolean-) | For the description of this property, please see [isShapeColor()](../../com.aspose.cells/cellscolor\#isShapeColor--) |
+| [setThemeColor(ThemeColor value)](#setThemeColor-com.aspose.cells.ThemeColor-) | For the description of this property, please see [getThemeColor()](../../com.aspose.cells/cellscolor\#getThemeColor--) |
 | [setTintOfShapeColor(double tint)](#setTintOfShapeColor-double-) | Set the tint of the shape color |
-| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see \#getTransparency().getTransparency() |
+| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see [getTransparency()](../../com.aspose.cells/cellscolor\#getTransparency--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -168,7 +168,7 @@ public void setArgb(int value)
 ```
 
 
-For the description of this property, please see \#getArgb().getArgb()
+For the description of this property, please see [getArgb()](../../com.aspose.cells/cellscolor\#getArgb--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,7 +181,7 @@ public void setColor(Color value)
 ```
 
 
-For the description of this property, please see \#getColor().getColor()
+For the description of this property, please see [getColor()](../../com.aspose.cells/cellscolor\#getColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -194,7 +194,7 @@ public void setColorIndex(int value)
 ```
 
 
-For the description of this property, please see \#getColorIndex().getColorIndex()
+For the description of this property, please see [getColorIndex()](../../com.aspose.cells/cellscolor\#getColorIndex--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -207,7 +207,7 @@ public void setShapeColor(boolean value)
 ```
 
 
-For the description of this property, please see \#isShapeColor().isShapeColor()
+For the description of this property, please see [isShapeColor()](../../com.aspose.cells/cellscolor\#isShapeColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -220,7 +220,7 @@ public void setThemeColor(ThemeColor value)
 ```
 
 
-For the description of this property, please see \#getThemeColor().getThemeColor()
+For the description of this property, please see [getThemeColor()](../../com.aspose.cells/cellscolor\#getThemeColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ public void setTransparency(double value)
 ```
 
 
-For the description of this property, please see \#getTransparency().getTransparency()
+For the description of this property, please see [getTransparency()](../../com.aspose.cells/cellscolor\#getTransparency--)
 
 **Parameters:**
 | Parameter | Type | Description |

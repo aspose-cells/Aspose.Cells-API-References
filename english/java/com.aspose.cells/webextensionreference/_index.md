@@ -27,10 +27,10 @@ Represents identify the provider location and version of the extension.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setId(String value)](#setId-java.lang.String-) | For the description of this property, please see \#getId().getId() |
-| [setStoreName(String value)](#setStoreName-java.lang.String-) | For the description of this property, please see \#getStoreName().getStoreName() |
-| [setStoreType(int value)](#setStoreType-int-) | For the description of this property, please see \#getStoreType().getStoreType() |
-| [setVersion(String value)](#setVersion-java.lang.String-) | For the description of this property, please see \#getVersion().getVersion() |
+| [setId(String value)](#setId-java.lang.String-) | For the description of this property, please see [getId()](../../com.aspose.cells/webextensionreference\#getId--) |
+| [setStoreName(String value)](#setStoreName-java.lang.String-) | For the description of this property, please see [getStoreName()](../../com.aspose.cells/webextensionreference\#getStoreName--) |
+| [setStoreType(int value)](#setStoreType-int-) | For the description of this property, please see [getStoreType()](../../com.aspose.cells/webextensionreference\#getStoreType--) |
+| [setVersion(String value)](#setVersion-java.lang.String-) | For the description of this property, please see [getVersion()](../../com.aspose.cells/webextensionreference\#getVersion--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -132,7 +132,7 @@ public void setId(String value)
 ```
 
 
-For the description of this property, please see \#getId().getId()
+For the description of this property, please see [getId()](../../com.aspose.cells/webextensionreference\#getId--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setStoreName(String value)
 ```
 
 
-For the description of this property, please see \#getStoreName().getStoreName()
+For the description of this property, please see [getStoreName()](../../com.aspose.cells/webextensionreference\#getStoreName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public void setStoreType(int value)
 ```
 
 
-For the description of this property, please see \#getStoreType().getStoreType()
+For the description of this property, please see [getStoreType()](../../com.aspose.cells/webextensionreference\#getStoreType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,7 +171,7 @@ public void setVersion(String value)
 ```
 
 
-For the description of this property, please see \#getVersion().getVersion()
+For the description of this property, please see [getVersion()](../../com.aspose.cells/webextensionreference\#getVersion--)
 
 **Parameters:**
 | Parameter | Type | Description |

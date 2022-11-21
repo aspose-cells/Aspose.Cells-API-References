@@ -26,9 +26,9 @@ Represents identifier information.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
-| [setStringValue(String value)](#setStringValue-java.lang.String-) | For the description of this property, please see \#getStringValue().getStringValue() |
-| [setValue(String value)](#setValue-java.lang.String-) | For the description of this property, please see \#getValue().getValue() |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/customproperty\#getName--) |
+| [setStringValue(String value)](#setStringValue-java.lang.String-) | For the description of this property, please see [getStringValue()](../../com.aspose.cells/customproperty\#getStringValue--) |
+| [setValue(String value)](#setValue-java.lang.String-) | For the description of this property, please see [getValue()](../../com.aspose.cells/customproperty\#getValue--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -120,7 +120,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see \#getName().getName()
+For the description of this property, please see [getName()](../../com.aspose.cells/customproperty\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -133,7 +133,7 @@ public void setStringValue(String value)
 ```
 
 
-For the description of this property, please see \#getStringValue().getStringValue()
+For the description of this property, please see [getStringValue()](../../com.aspose.cells/customproperty\#getStringValue--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +146,7 @@ public void setValue(String value)
 ```
 
 
-For the description of this property, please see \#getValue().getValue()
+For the description of this property, please see [getValue()](../../com.aspose.cells/customproperty\#getValue--)
 
 **Parameters:**
 | Parameter | Type | Description |

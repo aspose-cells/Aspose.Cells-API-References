@@ -26,8 +26,8 @@ Represents the bullet.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFontName(String value)](#setFontName-java.lang.String-) | For the description of this property, please see \#getFontName().getFontName() |
-| [setType(int value)](#setType-int-) | For the description of this property, please see \#getType().getType() |
+| [setFontName(String value)](#setFontName-java.lang.String-) | For the description of this property, please see [getFontName()](../../com.aspose.cells/bullet\#getFontName--) |
+| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/bullet\#getType--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -119,7 +119,7 @@ public void setFontName(String value)
 ```
 
 
-For the description of this property, please see \#getFontName().getFontName()
+For the description of this property, please see [getFontName()](../../com.aspose.cells/bullet\#getFontName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -132,7 +132,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see \#getType().getType()
+For the description of this property, please see [getType()](../../com.aspose.cells/bullet\#getType--)
 
 **Parameters:**
 | Parameter | Type | Description |

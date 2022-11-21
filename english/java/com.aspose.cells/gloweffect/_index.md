@@ -27,10 +27,10 @@ This class specifies a glow effect, in which a color blurred outline is added ou
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setColor(CellsColor value)](#setColor-com.aspose.cells.CellsColor-) | For the description of this property, please see \#getColor().getColor() |
-| [setRadius(double value)](#setRadius-double-) | For the description of this property, please see \#getRadius().getRadius() |
-| [setSize(double value)](#setSize-double-) | For the description of this property, please see \#getSize().getSize() |
-| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see \#getTransparency().getTransparency() |
+| [setColor(CellsColor value)](#setColor-com.aspose.cells.CellsColor-) | For the description of this property, please see [getColor()](../../com.aspose.cells/gloweffect\#getColor--) |
+| [setRadius(double value)](#setRadius-double-) | For the description of this property, please see [getRadius()](../../com.aspose.cells/gloweffect\#getRadius--) |
+| [setSize(double value)](#setSize-double-) | For the description of this property, please see [getSize()](../../com.aspose.cells/gloweffect\#getSize--) |
+| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see [getTransparency()](../../com.aspose.cells/gloweffect\#getTransparency--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -132,7 +132,7 @@ public void setColor(CellsColor value)
 ```
 
 
-For the description of this property, please see \#getColor().getColor()
+For the description of this property, please see [getColor()](../../com.aspose.cells/gloweffect\#getColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setRadius(double value)
 ```
 
 
-For the description of this property, please see \#getRadius().getRadius()
+For the description of this property, please see [getRadius()](../../com.aspose.cells/gloweffect\#getRadius--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public void setSize(double value)
 ```
 
 
-For the description of this property, please see \#getSize().getSize()
+For the description of this property, please see [getSize()](../../com.aspose.cells/gloweffect\#getSize--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,7 +171,7 @@ public void setTransparency(double value)
 ```
 
 
-For the description of this property, please see \#getTransparency().getTransparency()
+For the description of this property, please see [getTransparency()](../../com.aspose.cells/gloweffect\#getTransparency--)
 
 **Parameters:**
 | Parameter | Type | Description |

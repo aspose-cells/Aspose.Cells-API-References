@@ -36,14 +36,14 @@ Encapsulates the object that represents texture fill format
 | [isTiling()](#isTiling--) | Indicates whether tile picture as texture. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setImageData(byte[] value)](#setImageData-byte---) | For the description of this property, please see \#getImageData().getImageData() |
-| [setPicFormatOption(PicFormatOption value)](#setPicFormatOption-com.aspose.cells.PicFormatOption-) | For the description of this property, please see \#getPicFormatOption().getPicFormatOption() |
-| [setPictureFormatType(int value)](#setPictureFormatType-int-) | For the description of this property, please see \#getPictureFormatType().getPictureFormatType() |
-| [setScale(double value)](#setScale-double-) | For the description of this property, please see \#getScale().getScale() |
-| [setTilePicOption(TilePicOption value)](#setTilePicOption-com.aspose.cells.TilePicOption-) | For the description of this property, please see \#getTilePicOption().getTilePicOption() |
-| [setTiling(boolean value)](#setTiling-boolean-) | For the description of this property, please see \#isTiling().isTiling() |
-| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see \#getTransparency().getTransparency() |
-| [setType(int value)](#setType-int-) | For the description of this property, please see \#getType().getType() |
+| [setImageData(byte[] value)](#setImageData-byte---) | For the description of this property, please see [getImageData()](../../com.aspose.cells/texturefill\#getImageData--) |
+| [setPicFormatOption(PicFormatOption value)](#setPicFormatOption-com.aspose.cells.PicFormatOption-) | For the description of this property, please see [getPicFormatOption()](../../com.aspose.cells/texturefill\#getPicFormatOption--) |
+| [setPictureFormatType(int value)](#setPictureFormatType-int-) | For the description of this property, please see [getPictureFormatType()](../../com.aspose.cells/texturefill\#getPictureFormatType--) |
+| [setScale(double value)](#setScale-double-) | For the description of this property, please see [getScale()](../../com.aspose.cells/texturefill\#getScale--) |
+| [setTilePicOption(TilePicOption value)](#setTilePicOption-com.aspose.cells.TilePicOption-) | For the description of this property, please see [getTilePicOption()](../../com.aspose.cells/texturefill\#getTilePicOption--) |
+| [setTiling(boolean value)](#setTiling-boolean-) | For the description of this property, please see [isTiling()](../../com.aspose.cells/texturefill\#isTiling--) |
+| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see [getTransparency()](../../com.aspose.cells/texturefill\#getTransparency--) |
+| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/texturefill\#getType--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -191,7 +191,7 @@ public void setImageData(byte[] value)
 ```
 
 
-For the description of this property, please see \#getImageData().getImageData()
+For the description of this property, please see [getImageData()](../../com.aspose.cells/texturefill\#getImageData--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -204,7 +204,7 @@ public void setPicFormatOption(PicFormatOption value)
 ```
 
 
-For the description of this property, please see \#getPicFormatOption().getPicFormatOption()
+For the description of this property, please see [getPicFormatOption()](../../com.aspose.cells/texturefill\#getPicFormatOption--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -217,7 +217,7 @@ public void setPictureFormatType(int value)
 ```
 
 
-For the description of this property, please see \#getPictureFormatType().getPictureFormatType()
+For the description of this property, please see [getPictureFormatType()](../../com.aspose.cells/texturefill\#getPictureFormatType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -230,7 +230,7 @@ public void setScale(double value)
 ```
 
 
-For the description of this property, please see \#getScale().getScale()
+For the description of this property, please see [getScale()](../../com.aspose.cells/texturefill\#getScale--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -243,7 +243,7 @@ public void setTilePicOption(TilePicOption value)
 ```
 
 
-For the description of this property, please see \#getTilePicOption().getTilePicOption()
+For the description of this property, please see [getTilePicOption()](../../com.aspose.cells/texturefill\#getTilePicOption--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -256,7 +256,7 @@ public void setTiling(boolean value)
 ```
 
 
-For the description of this property, please see \#isTiling().isTiling()
+For the description of this property, please see [isTiling()](../../com.aspose.cells/texturefill\#isTiling--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -269,7 +269,7 @@ public void setTransparency(double value)
 ```
 
 
-For the description of this property, please see \#getTransparency().getTransparency()
+For the description of this property, please see [getTransparency()](../../com.aspose.cells/texturefill\#getTransparency--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -282,7 +282,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see \#getType().getType()
+For the description of this property, please see [getType()](../../com.aspose.cells/texturefill\#getType--)
 
 **Parameters:**
 | Parameter | Type | Description |

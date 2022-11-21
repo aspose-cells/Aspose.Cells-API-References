@@ -73,17 +73,17 @@ Encapsulates the object that represents a range of cells within a spreadsheet.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [putValue(String stringValue, boolean isConverted, boolean setStyle)](#putValue-java.lang.String-boolean-boolean-) | Puts a value into the range, if appropriate the value will be converted to other data type and cell's number format will be reset. |
-| [setColumnWidth(double value)](#setColumnWidth-double-) | For the description of this property, please see \#getColumnWidth().getColumnWidth() |
+| [setColumnWidth(double value)](#setColumnWidth-double-) | For the description of this property, please see [getColumnWidth()](../../com.aspose.cells/range\#getColumnWidth--) |
 | [setInsideBorders(int borderEdge, int lineStyle, CellsColor borderColor)](#setInsideBorders-int-int-com.aspose.cells.CellsColor-) | Set inside borders of the range. |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see \#getName().getName() |
+| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/range\#getName--) |
 | [setOutlineBorder(int borderEdge, int borderStyle, CellsColor borderColor)](#setOutlineBorder-int-int-com.aspose.cells.CellsColor-) | Sets outline border around a range of cells. |
 | [setOutlineBorder(int borderEdge, int borderStyle, Color borderColor)](#setOutlineBorder-int-int-com.aspose.cells.Color-) | Sets outline border around a range of cells. |
 | [setOutlineBorders(int borderStyle, CellsColor borderColor)](#setOutlineBorders-int-com.aspose.cells.CellsColor-) | Sets the outline borders around a range of cells with same border style and color. |
 | [setOutlineBorders(int borderStyle, Color borderColor)](#setOutlineBorders-int-com.aspose.cells.Color-) | Sets the outline borders around a range of cells with same border style and color. |
 | [setOutlineBorders(int[] borderStyles, Color[] borderColors)](#setOutlineBorders-int---com.aspose.cells.Color---) | Sets out line borders around a range of cells. |
-| [setRowHeight(double value)](#setRowHeight-double-) | For the description of this property, please see \#getRowHeight().getRowHeight() |
+| [setRowHeight(double value)](#setRowHeight-double-) | For the description of this property, please see [getRowHeight()](../../com.aspose.cells/range\#getRowHeight--) |
 | [setStyle(Style style)](#setStyle-com.aspose.cells.Style-) | Sets the style of the range. |
-| [setValue(Object value)](#setValue-java.lang.Object-) | For the description of this property, please see \#getValue().getValue() |
+| [setValue(Object value)](#setValue-java.lang.Object-) | For the description of this property, please see [getValue()](../../com.aspose.cells/range\#getValue--) |
 | [toString()](#toString--) | Returns a string represents the current Range object. |
 | [unMerge()](#unMerge--) | Unmerges merged cells of this range. |
 | [union(Range range)](#union-com.aspose.cells.Range-) | Returns the union of two ranges. |
@@ -634,7 +634,7 @@ public void setColumnWidth(double value)
 ```
 
 
-For the description of this property, please see \#getColumnWidth().getColumnWidth()
+For the description of this property, please see [getColumnWidth()](../../com.aspose.cells/range\#getColumnWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -662,7 +662,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see \#getName().getName()
+For the description of this property, please see [getName()](../../com.aspose.cells/range\#getName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -747,7 +747,7 @@ public void setRowHeight(double value)
 ```
 
 
-For the description of this property, please see \#getRowHeight().getRowHeight()
+For the description of this property, please see [getRowHeight()](../../com.aspose.cells/range\#getRowHeight--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -773,7 +773,7 @@ public void setValue(Object value)
 ```
 
 
-For the description of this property, please see \#getValue().getValue()
+For the description of this property, please see [getValue()](../../com.aspose.cells/range\#getValue--)
 
 **Parameters:**
 | Parameter | Type | Description |

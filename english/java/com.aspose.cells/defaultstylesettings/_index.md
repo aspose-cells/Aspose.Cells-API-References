@@ -27,10 +27,10 @@ Settings for the default values of workbook's style properties.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFontName(String value)](#setFontName-java.lang.String-) | For the description of this property, please see \#getFontName().getFontName() |
-| [setFontSize(double value)](#setFontSize-double-) | For the description of this property, please see \#getFontSize().getFontSize() |
-| [setHorizontalAlignment(int value)](#setHorizontalAlignment-int-) | For the description of this property, please see \#getHorizontalAlignment().getHorizontalAlignment() |
-| [setVerticalAlignment(int value)](#setVerticalAlignment-int-) | For the description of this property, please see \#getVerticalAlignment().getVerticalAlignment() |
+| [setFontName(String value)](#setFontName-java.lang.String-) | For the description of this property, please see [getFontName()](../../com.aspose.cells/defaultstylesettings\#getFontName--) |
+| [setFontSize(double value)](#setFontSize-double-) | For the description of this property, please see [getFontSize()](../../com.aspose.cells/defaultstylesettings\#getFontSize--) |
+| [setHorizontalAlignment(int value)](#setHorizontalAlignment-int-) | For the description of this property, please see [getHorizontalAlignment()](../../com.aspose.cells/defaultstylesettings\#getHorizontalAlignment--) |
+| [setVerticalAlignment(int value)](#setVerticalAlignment-int-) | For the description of this property, please see [getVerticalAlignment()](../../com.aspose.cells/defaultstylesettings\#getVerticalAlignment--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -132,7 +132,7 @@ public void setFontName(String value)
 ```
 
 
-For the description of this property, please see \#getFontName().getFontName()
+For the description of this property, please see [getFontName()](../../com.aspose.cells/defaultstylesettings\#getFontName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setFontSize(double value)
 ```
 
 
-For the description of this property, please see \#getFontSize().getFontSize()
+For the description of this property, please see [getFontSize()](../../com.aspose.cells/defaultstylesettings\#getFontSize--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public void setHorizontalAlignment(int value)
 ```
 
 
-For the description of this property, please see \#getHorizontalAlignment().getHorizontalAlignment()
+For the description of this property, please see [getHorizontalAlignment()](../../com.aspose.cells/defaultstylesettings\#getHorizontalAlignment--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,7 +171,7 @@ public void setVerticalAlignment(int value)
 ```
 
 
-For the description of this property, please see \#getVerticalAlignment().getVerticalAlignment()
+For the description of this property, please see [getVerticalAlignment()](../../com.aspose.cells/defaultstylesettings\#getVerticalAlignment--)
 
 **Parameters:**
 | Parameter | Type | Description |

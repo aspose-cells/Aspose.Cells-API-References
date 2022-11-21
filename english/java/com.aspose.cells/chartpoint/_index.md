@@ -116,11 +116,11 @@ Represents a single point in a series in a chart.
 | [isInSecondaryPlot()](#isInSecondaryPlot--) | Gets or sets a value indicates whether this data points is in the second pie or bar on a pie of pie or bar of pie chart |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setExplosion(int value)](#setExplosion-int-) | For the description of this property, please see \#getExplosion().getExplosion() |
-| [setInSecondaryPlot(boolean value)](#setInSecondaryPlot-boolean-) | For the description of this property, please see \#isInSecondaryPlot().isInSecondaryPlot() |
-| [setShadow(boolean value)](#setShadow-boolean-) | For the description of this property, please see \#getShadow().getShadow() |
-| [setXValue(Object value)](#setXValue-java.lang.Object-) | For the description of this property, please see \#getXValue().getXValue() |
-| [setYValue(Object value)](#setYValue-java.lang.Object-) | For the description of this property, please see \#getYValue().getYValue() |
+| [setExplosion(int value)](#setExplosion-int-) | For the description of this property, please see [getExplosion()](../../com.aspose.cells/chartpoint\#getExplosion--) |
+| [setInSecondaryPlot(boolean value)](#setInSecondaryPlot-boolean-) | For the description of this property, please see [isInSecondaryPlot()](../../com.aspose.cells/chartpoint\#isInSecondaryPlot--) |
+| [setShadow(boolean value)](#setShadow-boolean-) | For the description of this property, please see [getShadow()](../../com.aspose.cells/chartpoint\#getShadow--) |
+| [setXValue(Object value)](#setXValue-java.lang.Object-) | For the description of this property, please see [getXValue()](../../com.aspose.cells/chartpoint\#getXValue--) |
+| [setYValue(Object value)](#setYValue-java.lang.Object-) | For the description of this property, please see [getYValue()](../../com.aspose.cells/chartpoint\#getYValue--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -632,7 +632,7 @@ public void setExplosion(int value)
 ```
 
 
-For the description of this property, please see \#getExplosion().getExplosion()
+For the description of this property, please see [getExplosion()](../../com.aspose.cells/chartpoint\#getExplosion--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -645,7 +645,7 @@ public void setInSecondaryPlot(boolean value)
 ```
 
 
-For the description of this property, please see \#isInSecondaryPlot().isInSecondaryPlot()
+For the description of this property, please see [isInSecondaryPlot()](../../com.aspose.cells/chartpoint\#isInSecondaryPlot--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -658,7 +658,7 @@ public void setShadow(boolean value)
 ```
 
 
-For the description of this property, please see \#getShadow().getShadow()
+For the description of this property, please see [getShadow()](../../com.aspose.cells/chartpoint\#getShadow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -671,7 +671,7 @@ public void setXValue(Object value)
 ```
 
 
-For the description of this property, please see \#getXValue().getXValue()
+For the description of this property, please see [getXValue()](../../com.aspose.cells/chartpoint\#getXValue--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -684,7 +684,7 @@ public void setYValue(Object value)
 ```
 
 
-For the description of this property, please see \#getYValue().getYValue()
+For the description of this property, please see [getYValue()](../../com.aspose.cells/chartpoint\#getYValue--)
 
 **Parameters:**
 | Parameter | Type | Description |

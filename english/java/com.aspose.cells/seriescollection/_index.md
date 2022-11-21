@@ -87,9 +87,9 @@ Encapsulates a collection of [Series](../../com.aspose.cells/series) objects.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeAt(int index)](#removeAt-int-) | Remove at a series at the specific index. |
-| [setCategoryData(String value)](#setCategoryData-java.lang.String-) | For the description of this property, please see \#getCategoryData().getCategoryData() |
-| [setColorVaried(boolean value)](#setColorVaried-boolean-) | For the description of this property, please see \#isColorVaried().isColorVaried() |
-| [setSecondCategoryData(String value)](#setSecondCategoryData-java.lang.String-) | For the description of this property, please see \#getSecondCategoryData().getSecondCategoryData() |
+| [setCategoryData(String value)](#setCategoryData-java.lang.String-) | For the description of this property, please see [getCategoryData()](../../com.aspose.cells/seriescollection\#getCategoryData--) |
+| [setColorVaried(boolean value)](#setColorVaried-boolean-) | For the description of this property, please see [isColorVaried()](../../com.aspose.cells/seriescollection\#isColorVaried--) |
+| [setSecondCategoryData(String value)](#setSecondCategoryData-java.lang.String-) | For the description of this property, please see [getSecondCategoryData()](../../com.aspose.cells/seriescollection\#getSecondCategoryData--) |
 | [setSeriesNames(int startIndex, String area, boolean isVertical)](#setSeriesNames-int-java.lang.String-boolean-) | Sets the name of all the serieses in the chart. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -379,7 +379,7 @@ public void setCategoryData(String value)
 ```
 
 
-For the description of this property, please see \#getCategoryData().getCategoryData()
+For the description of this property, please see [getCategoryData()](../../com.aspose.cells/seriescollection\#getCategoryData--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -392,7 +392,7 @@ public void setColorVaried(boolean value)
 ```
 
 
-For the description of this property, please see \#isColorVaried().isColorVaried()
+For the description of this property, please see [isColorVaried()](../../com.aspose.cells/seriescollection\#isColorVaried--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -405,7 +405,7 @@ public void setSecondCategoryData(String value)
 ```
 
 
-For the description of this property, please see \#getSecondCategoryData().getSecondCategoryData()
+For the description of this property, please see [getSecondCategoryData()](../../com.aspose.cells/seriescollection\#getSecondCategoryData--)
 
 **Parameters:**
 | Parameter | Type | Description |

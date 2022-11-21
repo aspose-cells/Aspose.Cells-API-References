@@ -31,7 +31,7 @@ Info for a page ends saving process.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setHasMorePages(boolean value)](#setHasMorePages-boolean-) | For the description of this property, please see \#hasMorePages().hasMorePages() |
+| [setHasMorePages(boolean value)](#setHasMorePages-boolean-) | For the description of this property, please see [hasMorePages()](../../com.aspose.cells/pageendsavingargs\#hasMorePages--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -129,7 +129,7 @@ public void setHasMorePages(boolean value)
 ```
 
 
-For the description of this property, please see \#hasMorePages().hasMorePages()
+For the description of this property, please see [hasMorePages()](../../com.aspose.cells/pageendsavingargs\#hasMorePages--)
 
 **Parameters:**
 | Parameter | Type | Description |

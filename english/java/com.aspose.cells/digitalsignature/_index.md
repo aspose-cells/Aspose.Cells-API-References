@@ -37,14 +37,14 @@ Signature in file.
 | [isValid()](#isValid--) | If this digital signature is valid and the document has not been tampered with, this value will be true. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCertificate(KeyStore value)](#setCertificate-java.security.KeyStore-) | For the description of this property, please see \#getCertificate().getCertificate() |
-| [setComments(String value)](#setComments-java.lang.String-) | For the description of this property, please see \#getComments().getComments() |
-| [setId(UUID value)](#setId-java.util.UUID-) | For the description of this property, please see \#getId().getId() |
-| [setImage(byte[] value)](#setImage-byte---) | For the description of this property, please see \#getImage().getImage() |
-| [setProviderId(UUID value)](#setProviderId-java.util.UUID-) | For the description of this property, please see \#getProviderId().getProviderId() |
-| [setSignTime(DateTime value)](#setSignTime-com.aspose.cells.DateTime-) | For the description of this property, please see \#getSignTime().getSignTime() |
-| [setText(String value)](#setText-java.lang.String-) | For the description of this property, please see \#getText().getText() |
-| [setXAdESType(int value)](#setXAdESType-int-) | For the description of this property, please see \#getXAdESType().getXAdESType() |
+| [setCertificate(KeyStore value)](#setCertificate-java.security.KeyStore-) | For the description of this property, please see [getCertificate()](../../com.aspose.cells/digitalsignature\#getCertificate--) |
+| [setComments(String value)](#setComments-java.lang.String-) | For the description of this property, please see [getComments()](../../com.aspose.cells/digitalsignature\#getComments--) |
+| [setId(UUID value)](#setId-java.util.UUID-) | For the description of this property, please see [getId()](../../com.aspose.cells/digitalsignature\#getId--) |
+| [setImage(byte[] value)](#setImage-byte---) | For the description of this property, please see [getImage()](../../com.aspose.cells/digitalsignature\#getImage--) |
+| [setProviderId(UUID value)](#setProviderId-java.util.UUID-) | For the description of this property, please see [getProviderId()](../../com.aspose.cells/digitalsignature\#getProviderId--) |
+| [setSignTime(DateTime value)](#setSignTime-com.aspose.cells.DateTime-) | For the description of this property, please see [getSignTime()](../../com.aspose.cells/digitalsignature\#getSignTime--) |
+| [setText(String value)](#setText-java.lang.String-) | For the description of this property, please see [getText()](../../com.aspose.cells/digitalsignature\#getText--) |
+| [setXAdESType(int value)](#setXAdESType-int-) | For the description of this property, please see [getXAdESType()](../../com.aspose.cells/digitalsignature\#getXAdESType--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -212,7 +212,7 @@ public void setCertificate(KeyStore value)
 ```
 
 
-For the description of this property, please see \#getCertificate().getCertificate()
+For the description of this property, please see [getCertificate()](../../com.aspose.cells/digitalsignature\#getCertificate--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -225,7 +225,7 @@ public void setComments(String value)
 ```
 
 
-For the description of this property, please see \#getComments().getComments()
+For the description of this property, please see [getComments()](../../com.aspose.cells/digitalsignature\#getComments--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -238,7 +238,7 @@ public void setId(UUID value)
 ```
 
 
-For the description of this property, please see \#getId().getId()
+For the description of this property, please see [getId()](../../com.aspose.cells/digitalsignature\#getId--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -251,7 +251,7 @@ public void setImage(byte[] value)
 ```
 
 
-For the description of this property, please see \#getImage().getImage()
+For the description of this property, please see [getImage()](../../com.aspose.cells/digitalsignature\#getImage--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -264,7 +264,7 @@ public void setProviderId(UUID value)
 ```
 
 
-For the description of this property, please see \#getProviderId().getProviderId()
+For the description of this property, please see [getProviderId()](../../com.aspose.cells/digitalsignature\#getProviderId--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -277,7 +277,7 @@ public void setSignTime(DateTime value)
 ```
 
 
-For the description of this property, please see \#getSignTime().getSignTime()
+For the description of this property, please see [getSignTime()](../../com.aspose.cells/digitalsignature\#getSignTime--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -290,7 +290,7 @@ public void setText(String value)
 ```
 
 
-For the description of this property, please see \#getText().getText()
+For the description of this property, please see [getText()](../../com.aspose.cells/digitalsignature\#getText--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -303,7 +303,7 @@ public void setXAdESType(int value)
 ```
 
 
-For the description of this property, please see \#getXAdESType().getXAdESType()
+For the description of this property, please see [getXAdESType()](../../com.aspose.cells/digitalsignature\#getXAdESType--)
 
 **Parameters:**
 | Parameter | Type | Description |

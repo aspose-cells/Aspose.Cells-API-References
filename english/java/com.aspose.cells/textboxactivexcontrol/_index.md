@@ -68,42 +68,42 @@ Represents a text box ActiveX control.
 | [isWordWrapped()](#isWordWrapped--) | Indicates whether the contents of the control automatically wrap at the end of a line. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoSize(boolean value)](#setAutoSize-boolean-) | For the description of this property, please see \#isAutoSize().isAutoSize() |
-| [setAutoTab(boolean value)](#setAutoTab-boolean-) | For the description of this property, please see \#isAutoTab().isAutoTab() |
-| [setAutoWordSelected(boolean value)](#setAutoWordSelected-boolean-) | For the description of this property, please see \#isAutoWordSelected().isAutoWordSelected() |
-| [setBackOleColor(int value)](#setBackOleColor-int-) | For the description of this property, please see \#getBackOleColor().getBackOleColor() |
-| [setBorderOleColor(int value)](#setBorderOleColor-int-) | For the description of this property, please see \#getBorderOleColor().getBorderOleColor() |
-| [setBorderStyle(int value)](#setBorderStyle-int-) | For the description of this property, please see \#getBorderStyle().getBorderStyle() |
-| [setDragBehaviorEnabled(boolean value)](#setDragBehaviorEnabled-boolean-) | For the description of this property, please see \#isDragBehaviorEnabled().isDragBehaviorEnabled() |
-| [setDropButtonStyle(int value)](#setDropButtonStyle-int-) | For the description of this property, please see \#getDropButtonStyle().getDropButtonStyle() |
-| [setEditable(boolean value)](#setEditable-boolean-) | For the description of this property, please see \#isEditable().isEditable() |
-| [setEnabled(boolean value)](#setEnabled-boolean-) | For the description of this property, please see \#isEnabled().isEnabled() |
-| [setEnterFieldBehavior(boolean value)](#setEnterFieldBehavior-boolean-) | For the description of this property, please see \#getEnterFieldBehavior().getEnterFieldBehavior() |
-| [setEnterKeyBehavior(boolean value)](#setEnterKeyBehavior-boolean-) | For the description of this property, please see \#getEnterKeyBehavior().getEnterKeyBehavior() |
-| [setForeOleColor(int value)](#setForeOleColor-int-) | For the description of this property, please see \#getForeOleColor().getForeOleColor() |
-| [setHeight(double value)](#setHeight-double-) | For the description of this property, please see \#getHeight().getHeight() |
-| [setHideSelection(boolean value)](#setHideSelection-boolean-) | For the description of this property, please see \#getHideSelection().getHideSelection() |
-| [setIMEMode(int value)](#setIMEMode-int-) | For the description of this property, please see \#getIMEMode().getIMEMode() |
-| [setIntegralHeight(boolean value)](#setIntegralHeight-boolean-) | For the description of this property, please see \#getIntegralHeight().getIntegralHeight() |
-| [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | For the description of this property, please see \#getLinkedCell().getLinkedCell() |
-| [setListFillRange(String value)](#setListFillRange-java.lang.String-) | For the description of this property, please see \#getListFillRange().getListFillRange() |
-| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see \#isLocked().isLocked() |
-| [setMaxLength(int value)](#setMaxLength-int-) | For the description of this property, please see \#getMaxLength().getMaxLength() |
-| [setMouseIcon(byte[] value)](#setMouseIcon-byte---) | For the description of this property, please see \#getMouseIcon().getMouseIcon() |
-| [setMousePointer(int value)](#setMousePointer-int-) | For the description of this property, please see \#getMousePointer().getMousePointer() |
-| [setMultiLine(boolean value)](#setMultiLine-boolean-) | For the description of this property, please see \#isMultiLine().isMultiLine() |
-| [setPasswordChar(char value)](#setPasswordChar-char-) | For the description of this property, please see \#getPasswordChar().getPasswordChar() |
-| [setScrollBars(int value)](#setScrollBars-int-) | For the description of this property, please see \#getScrollBars().getScrollBars() |
-| [setShadow(boolean value)](#setShadow-boolean-) | For the description of this property, please see \#getShadow().getShadow() |
-| [setShowDropButtonTypeWhen(int value)](#setShowDropButtonTypeWhen-int-) | For the description of this property, please see \#getShowDropButtonTypeWhen().getShowDropButtonTypeWhen() |
-| [setSpecialEffect(int value)](#setSpecialEffect-int-) | For the description of this property, please see \#getSpecialEffect().getSpecialEffect() |
-| [setTabKeyBehavior(boolean value)](#setTabKeyBehavior-boolean-) | For the description of this property, please see \#getTabKeyBehavior().getTabKeyBehavior() |
-| [setText(String value)](#setText-java.lang.String-) | For the description of this property, please see \#getText().getText() |
-| [setTextAlign(int value)](#setTextAlign-int-) | For the description of this property, please see \#getTextAlign().getTextAlign() |
-| [setTransparent(boolean value)](#setTransparent-boolean-) | For the description of this property, please see \#isTransparent().isTransparent() |
-| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see \#isVisible().isVisible() |
-| [setWidth(double value)](#setWidth-double-) | For the description of this property, please see \#getWidth().getWidth() |
-| [setWordWrapped(boolean value)](#setWordWrapped-boolean-) | For the description of this property, please see \#isWordWrapped().isWordWrapped() |
+| [setAutoSize(boolean value)](#setAutoSize-boolean-) | For the description of this property, please see [isAutoSize()](../../com.aspose.cells/activexcontrol\#isAutoSize--) |
+| [setAutoTab(boolean value)](#setAutoTab-boolean-) | For the description of this property, please see [isAutoTab()](../../com.aspose.cells/textboxactivexcontrol\#isAutoTab--) |
+| [setAutoWordSelected(boolean value)](#setAutoWordSelected-boolean-) | For the description of this property, please see [isAutoWordSelected()](../../com.aspose.cells/textboxactivexcontrol\#isAutoWordSelected--) |
+| [setBackOleColor(int value)](#setBackOleColor-int-) | For the description of this property, please see [getBackOleColor()](../../com.aspose.cells/activexcontrolbase\#getBackOleColor--) |
+| [setBorderOleColor(int value)](#setBorderOleColor-int-) | For the description of this property, please see [getBorderOleColor()](../../com.aspose.cells/textboxactivexcontrol\#getBorderOleColor--) |
+| [setBorderStyle(int value)](#setBorderStyle-int-) | For the description of this property, please see [getBorderStyle()](../../com.aspose.cells/textboxactivexcontrol\#getBorderStyle--) |
+| [setDragBehaviorEnabled(boolean value)](#setDragBehaviorEnabled-boolean-) | For the description of this property, please see [isDragBehaviorEnabled()](../../com.aspose.cells/textboxactivexcontrol\#isDragBehaviorEnabled--) |
+| [setDropButtonStyle(int value)](#setDropButtonStyle-int-) | For the description of this property, please see [getDropButtonStyle()](../../com.aspose.cells/textboxactivexcontrol\#getDropButtonStyle--) |
+| [setEditable(boolean value)](#setEditable-boolean-) | For the description of this property, please see [isEditable()](../../com.aspose.cells/textboxactivexcontrol\#isEditable--) |
+| [setEnabled(boolean value)](#setEnabled-boolean-) | For the description of this property, please see [isEnabled()](../../com.aspose.cells/activexcontrol\#isEnabled--) |
+| [setEnterFieldBehavior(boolean value)](#setEnterFieldBehavior-boolean-) | For the description of this property, please see [getEnterFieldBehavior()](../../com.aspose.cells/textboxactivexcontrol\#getEnterFieldBehavior--) |
+| [setEnterKeyBehavior(boolean value)](#setEnterKeyBehavior-boolean-) | For the description of this property, please see [getEnterKeyBehavior()](../../com.aspose.cells/textboxactivexcontrol\#getEnterKeyBehavior--) |
+| [setForeOleColor(int value)](#setForeOleColor-int-) | For the description of this property, please see [getForeOleColor()](../../com.aspose.cells/activexcontrolbase\#getForeOleColor--) |
+| [setHeight(double value)](#setHeight-double-) | For the description of this property, please see [getHeight()](../../com.aspose.cells/activexcontrolbase\#getHeight--) |
+| [setHideSelection(boolean value)](#setHideSelection-boolean-) | For the description of this property, please see [getHideSelection()](../../com.aspose.cells/textboxactivexcontrol\#getHideSelection--) |
+| [setIMEMode(int value)](#setIMEMode-int-) | For the description of this property, please see [getIMEMode()](../../com.aspose.cells/activexcontrol\#getIMEMode--) |
+| [setIntegralHeight(boolean value)](#setIntegralHeight-boolean-) | For the description of this property, please see [getIntegralHeight()](../../com.aspose.cells/textboxactivexcontrol\#getIntegralHeight--) |
+| [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | For the description of this property, please see [getLinkedCell()](../../com.aspose.cells/activexcontrolbase\#getLinkedCell--) |
+| [setListFillRange(String value)](#setListFillRange-java.lang.String-) | For the description of this property, please see [getListFillRange()](../../com.aspose.cells/activexcontrolbase\#getListFillRange--) |
+| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see [isLocked()](../../com.aspose.cells/activexcontrol\#isLocked--) |
+| [setMaxLength(int value)](#setMaxLength-int-) | For the description of this property, please see [getMaxLength()](../../com.aspose.cells/textboxactivexcontrol\#getMaxLength--) |
+| [setMouseIcon(byte[] value)](#setMouseIcon-byte---) | For the description of this property, please see [getMouseIcon()](../../com.aspose.cells/activexcontrolbase\#getMouseIcon--) |
+| [setMousePointer(int value)](#setMousePointer-int-) | For the description of this property, please see [getMousePointer()](../../com.aspose.cells/activexcontrolbase\#getMousePointer--) |
+| [setMultiLine(boolean value)](#setMultiLine-boolean-) | For the description of this property, please see [isMultiLine()](../../com.aspose.cells/textboxactivexcontrol\#isMultiLine--) |
+| [setPasswordChar(char value)](#setPasswordChar-char-) | For the description of this property, please see [getPasswordChar()](../../com.aspose.cells/textboxactivexcontrol\#getPasswordChar--) |
+| [setScrollBars(int value)](#setScrollBars-int-) | For the description of this property, please see [getScrollBars()](../../com.aspose.cells/textboxactivexcontrol\#getScrollBars--) |
+| [setShadow(boolean value)](#setShadow-boolean-) | For the description of this property, please see [getShadow()](../../com.aspose.cells/activexcontrolbase\#getShadow--) |
+| [setShowDropButtonTypeWhen(int value)](#setShowDropButtonTypeWhen-int-) | For the description of this property, please see [getShowDropButtonTypeWhen()](../../com.aspose.cells/textboxactivexcontrol\#getShowDropButtonTypeWhen--) |
+| [setSpecialEffect(int value)](#setSpecialEffect-int-) | For the description of this property, please see [getSpecialEffect()](../../com.aspose.cells/textboxactivexcontrol\#getSpecialEffect--) |
+| [setTabKeyBehavior(boolean value)](#setTabKeyBehavior-boolean-) | For the description of this property, please see [getTabKeyBehavior()](../../com.aspose.cells/textboxactivexcontrol\#getTabKeyBehavior--) |
+| [setText(String value)](#setText-java.lang.String-) | For the description of this property, please see [getText()](../../com.aspose.cells/textboxactivexcontrol\#getText--) |
+| [setTextAlign(int value)](#setTextAlign-int-) | For the description of this property, please see [getTextAlign()](../../com.aspose.cells/activexcontrol\#getTextAlign--) |
+| [setTransparent(boolean value)](#setTransparent-boolean-) | For the description of this property, please see [isTransparent()](../../com.aspose.cells/activexcontrol\#isTransparent--) |
+| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see [isVisible()](../../com.aspose.cells/activexcontrolbase\#isVisible--) |
+| [setWidth(double value)](#setWidth-double-) | For the description of this property, please see [getWidth()](../../com.aspose.cells/activexcontrolbase\#getWidth--) |
+| [setWordWrapped(boolean value)](#setWordWrapped-boolean-) | For the description of this property, please see [isWordWrapped()](../../com.aspose.cells/textboxactivexcontrol\#isWordWrapped--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -571,7 +571,7 @@ public void setAutoSize(boolean value)
 ```
 
 
-For the description of this property, please see \#isAutoSize().isAutoSize()
+For the description of this property, please see [isAutoSize()](../../com.aspose.cells/activexcontrol\#isAutoSize--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -584,7 +584,7 @@ public void setAutoTab(boolean value)
 ```
 
 
-For the description of this property, please see \#isAutoTab().isAutoTab()
+For the description of this property, please see [isAutoTab()](../../com.aspose.cells/textboxactivexcontrol\#isAutoTab--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -597,7 +597,7 @@ public void setAutoWordSelected(boolean value)
 ```
 
 
-For the description of this property, please see \#isAutoWordSelected().isAutoWordSelected()
+For the description of this property, please see [isAutoWordSelected()](../../com.aspose.cells/textboxactivexcontrol\#isAutoWordSelected--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -610,7 +610,7 @@ public void setBackOleColor(int value)
 ```
 
 
-For the description of this property, please see \#getBackOleColor().getBackOleColor()
+For the description of this property, please see [getBackOleColor()](../../com.aspose.cells/activexcontrolbase\#getBackOleColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -623,7 +623,7 @@ public void setBorderOleColor(int value)
 ```
 
 
-For the description of this property, please see \#getBorderOleColor().getBorderOleColor()
+For the description of this property, please see [getBorderOleColor()](../../com.aspose.cells/textboxactivexcontrol\#getBorderOleColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -636,7 +636,7 @@ public void setBorderStyle(int value)
 ```
 
 
-For the description of this property, please see \#getBorderStyle().getBorderStyle()
+For the description of this property, please see [getBorderStyle()](../../com.aspose.cells/textboxactivexcontrol\#getBorderStyle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -649,7 +649,7 @@ public void setDragBehaviorEnabled(boolean value)
 ```
 
 
-For the description of this property, please see \#isDragBehaviorEnabled().isDragBehaviorEnabled()
+For the description of this property, please see [isDragBehaviorEnabled()](../../com.aspose.cells/textboxactivexcontrol\#isDragBehaviorEnabled--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -662,7 +662,7 @@ public void setDropButtonStyle(int value)
 ```
 
 
-For the description of this property, please see \#getDropButtonStyle().getDropButtonStyle()
+For the description of this property, please see [getDropButtonStyle()](../../com.aspose.cells/textboxactivexcontrol\#getDropButtonStyle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -675,7 +675,7 @@ public void setEditable(boolean value)
 ```
 
 
-For the description of this property, please see \#isEditable().isEditable()
+For the description of this property, please see [isEditable()](../../com.aspose.cells/textboxactivexcontrol\#isEditable--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -688,7 +688,7 @@ public void setEnabled(boolean value)
 ```
 
 
-For the description of this property, please see \#isEnabled().isEnabled()
+For the description of this property, please see [isEnabled()](../../com.aspose.cells/activexcontrol\#isEnabled--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -701,7 +701,7 @@ public void setEnterFieldBehavior(boolean value)
 ```
 
 
-For the description of this property, please see \#getEnterFieldBehavior().getEnterFieldBehavior()
+For the description of this property, please see [getEnterFieldBehavior()](../../com.aspose.cells/textboxactivexcontrol\#getEnterFieldBehavior--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -714,7 +714,7 @@ public void setEnterKeyBehavior(boolean value)
 ```
 
 
-For the description of this property, please see \#getEnterKeyBehavior().getEnterKeyBehavior()
+For the description of this property, please see [getEnterKeyBehavior()](../../com.aspose.cells/textboxactivexcontrol\#getEnterKeyBehavior--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -727,7 +727,7 @@ public void setForeOleColor(int value)
 ```
 
 
-For the description of this property, please see \#getForeOleColor().getForeOleColor()
+For the description of this property, please see [getForeOleColor()](../../com.aspose.cells/activexcontrolbase\#getForeOleColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -740,7 +740,7 @@ public void setHeight(double value)
 ```
 
 
-For the description of this property, please see \#getHeight().getHeight()
+For the description of this property, please see [getHeight()](../../com.aspose.cells/activexcontrolbase\#getHeight--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -753,7 +753,7 @@ public void setHideSelection(boolean value)
 ```
 
 
-For the description of this property, please see \#getHideSelection().getHideSelection()
+For the description of this property, please see [getHideSelection()](../../com.aspose.cells/textboxactivexcontrol\#getHideSelection--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -766,7 +766,7 @@ public void setIMEMode(int value)
 ```
 
 
-For the description of this property, please see \#getIMEMode().getIMEMode()
+For the description of this property, please see [getIMEMode()](../../com.aspose.cells/activexcontrol\#getIMEMode--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -779,7 +779,7 @@ public void setIntegralHeight(boolean value)
 ```
 
 
-For the description of this property, please see \#getIntegralHeight().getIntegralHeight()
+For the description of this property, please see [getIntegralHeight()](../../com.aspose.cells/textboxactivexcontrol\#getIntegralHeight--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -792,7 +792,7 @@ public void setLinkedCell(String value)
 ```
 
 
-For the description of this property, please see \#getLinkedCell().getLinkedCell()
+For the description of this property, please see [getLinkedCell()](../../com.aspose.cells/activexcontrolbase\#getLinkedCell--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -805,7 +805,7 @@ public void setListFillRange(String value)
 ```
 
 
-For the description of this property, please see \#getListFillRange().getListFillRange()
+For the description of this property, please see [getListFillRange()](../../com.aspose.cells/activexcontrolbase\#getListFillRange--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -818,7 +818,7 @@ public void setLocked(boolean value)
 ```
 
 
-For the description of this property, please see \#isLocked().isLocked()
+For the description of this property, please see [isLocked()](../../com.aspose.cells/activexcontrol\#isLocked--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -831,7 +831,7 @@ public void setMaxLength(int value)
 ```
 
 
-For the description of this property, please see \#getMaxLength().getMaxLength()
+For the description of this property, please see [getMaxLength()](../../com.aspose.cells/textboxactivexcontrol\#getMaxLength--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -844,7 +844,7 @@ public void setMouseIcon(byte[] value)
 ```
 
 
-For the description of this property, please see \#getMouseIcon().getMouseIcon()
+For the description of this property, please see [getMouseIcon()](../../com.aspose.cells/activexcontrolbase\#getMouseIcon--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -857,7 +857,7 @@ public void setMousePointer(int value)
 ```
 
 
-For the description of this property, please see \#getMousePointer().getMousePointer()
+For the description of this property, please see [getMousePointer()](../../com.aspose.cells/activexcontrolbase\#getMousePointer--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -870,7 +870,7 @@ public void setMultiLine(boolean value)
 ```
 
 
-For the description of this property, please see \#isMultiLine().isMultiLine()
+For the description of this property, please see [isMultiLine()](../../com.aspose.cells/textboxactivexcontrol\#isMultiLine--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -883,7 +883,7 @@ public void setPasswordChar(char value)
 ```
 
 
-For the description of this property, please see \#getPasswordChar().getPasswordChar()
+For the description of this property, please see [getPasswordChar()](../../com.aspose.cells/textboxactivexcontrol\#getPasswordChar--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -896,7 +896,7 @@ public void setScrollBars(int value)
 ```
 
 
-For the description of this property, please see \#getScrollBars().getScrollBars()
+For the description of this property, please see [getScrollBars()](../../com.aspose.cells/textboxactivexcontrol\#getScrollBars--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -909,7 +909,7 @@ public void setShadow(boolean value)
 ```
 
 
-For the description of this property, please see \#getShadow().getShadow()
+For the description of this property, please see [getShadow()](../../com.aspose.cells/activexcontrolbase\#getShadow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -922,7 +922,7 @@ public void setShowDropButtonTypeWhen(int value)
 ```
 
 
-For the description of this property, please see \#getShowDropButtonTypeWhen().getShowDropButtonTypeWhen()
+For the description of this property, please see [getShowDropButtonTypeWhen()](../../com.aspose.cells/textboxactivexcontrol\#getShowDropButtonTypeWhen--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -935,7 +935,7 @@ public void setSpecialEffect(int value)
 ```
 
 
-For the description of this property, please see \#getSpecialEffect().getSpecialEffect()
+For the description of this property, please see [getSpecialEffect()](../../com.aspose.cells/textboxactivexcontrol\#getSpecialEffect--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -948,7 +948,7 @@ public void setTabKeyBehavior(boolean value)
 ```
 
 
-For the description of this property, please see \#getTabKeyBehavior().getTabKeyBehavior()
+For the description of this property, please see [getTabKeyBehavior()](../../com.aspose.cells/textboxactivexcontrol\#getTabKeyBehavior--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -961,7 +961,7 @@ public void setText(String value)
 ```
 
 
-For the description of this property, please see \#getText().getText()
+For the description of this property, please see [getText()](../../com.aspose.cells/textboxactivexcontrol\#getText--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -974,7 +974,7 @@ public void setTextAlign(int value)
 ```
 
 
-For the description of this property, please see \#getTextAlign().getTextAlign()
+For the description of this property, please see [getTextAlign()](../../com.aspose.cells/activexcontrol\#getTextAlign--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -987,7 +987,7 @@ public void setTransparent(boolean value)
 ```
 
 
-For the description of this property, please see \#isTransparent().isTransparent()
+For the description of this property, please see [isTransparent()](../../com.aspose.cells/activexcontrol\#isTransparent--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1000,7 +1000,7 @@ public void setVisible(boolean value)
 ```
 
 
-For the description of this property, please see \#isVisible().isVisible()
+For the description of this property, please see [isVisible()](../../com.aspose.cells/activexcontrolbase\#isVisible--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1013,7 +1013,7 @@ public void setWidth(double value)
 ```
 
 
-For the description of this property, please see \#getWidth().getWidth()
+For the description of this property, please see [getWidth()](../../com.aspose.cells/activexcontrolbase\#getWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1026,7 +1026,7 @@ public void setWordWrapped(boolean value)
 ```
 
 
-For the description of this property, please see \#isWordWrapped().isWordWrapped()
+For the description of this property, please see [isWordWrapped()](../../com.aspose.cells/textboxactivexcontrol\#isWordWrapped--)
 
 **Parameters:**
 | Parameter | Type | Description |

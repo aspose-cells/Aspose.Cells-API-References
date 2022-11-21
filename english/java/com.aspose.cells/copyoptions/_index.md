@@ -35,13 +35,13 @@ Represents the copy options.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setColumnCharacterWidth(boolean value)](#setColumnCharacterWidth-boolean-) | For the description of this property, please see \#getColumnCharacterWidth().getColumnCharacterWidth() |
-| [setCopyInvalidFormulasAsValues(boolean value)](#setCopyInvalidFormulasAsValues-boolean-) | For the description of this property, please see \#getCopyInvalidFormulasAsValues().getCopyInvalidFormulasAsValues() |
-| [setCopyNames(boolean value)](#setCopyNames-boolean-) | For the description of this property, please see \#getCopyNames().getCopyNames() |
-| [setExtendToAdjacentRange(boolean value)](#setExtendToAdjacentRange-boolean-) | For the description of this property, please see \#getExtendToAdjacentRange().getExtendToAdjacentRange() |
-| [setKeepMacros(boolean value)](#setKeepMacros-boolean-) | For the description of this property, please see \#getKeepMacros().getKeepMacros() |
-| [setReferToDestinationSheet(boolean value)](#setReferToDestinationSheet-boolean-) | For the description of this property, please see \#getReferToDestinationSheet().getReferToDestinationSheet() |
-| [setReferToSheetWithSameName(boolean value)](#setReferToSheetWithSameName-boolean-) | For the description of this property, please see \#getReferToSheetWithSameName().getReferToSheetWithSameName() |
+| [setColumnCharacterWidth(boolean value)](#setColumnCharacterWidth-boolean-) | For the description of this property, please see [getColumnCharacterWidth()](../../com.aspose.cells/copyoptions\#getColumnCharacterWidth--) |
+| [setCopyInvalidFormulasAsValues(boolean value)](#setCopyInvalidFormulasAsValues-boolean-) | For the description of this property, please see [getCopyInvalidFormulasAsValues()](../../com.aspose.cells/copyoptions\#getCopyInvalidFormulasAsValues--) |
+| [setCopyNames(boolean value)](#setCopyNames-boolean-) | For the description of this property, please see [getCopyNames()](../../com.aspose.cells/copyoptions\#getCopyNames--) |
+| [setExtendToAdjacentRange(boolean value)](#setExtendToAdjacentRange-boolean-) | For the description of this property, please see [getExtendToAdjacentRange()](../../com.aspose.cells/copyoptions\#getExtendToAdjacentRange--) |
+| [setKeepMacros(boolean value)](#setKeepMacros-boolean-) | For the description of this property, please see [getKeepMacros()](../../com.aspose.cells/copyoptions\#getKeepMacros--) |
+| [setReferToDestinationSheet(boolean value)](#setReferToDestinationSheet-boolean-) | For the description of this property, please see [getReferToDestinationSheet()](../../com.aspose.cells/copyoptions\#getReferToDestinationSheet--) |
+| [setReferToSheetWithSameName(boolean value)](#setReferToSheetWithSameName-boolean-) | For the description of this property, please see [getReferToSheetWithSameName()](../../com.aspose.cells/copyoptions\#getReferToSheetWithSameName--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -181,7 +181,7 @@ public void setColumnCharacterWidth(boolean value)
 ```
 
 
-For the description of this property, please see \#getColumnCharacterWidth().getColumnCharacterWidth()
+For the description of this property, please see [getColumnCharacterWidth()](../../com.aspose.cells/copyoptions\#getColumnCharacterWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -194,7 +194,7 @@ public void setCopyInvalidFormulasAsValues(boolean value)
 ```
 
 
-For the description of this property, please see \#getCopyInvalidFormulasAsValues().getCopyInvalidFormulasAsValues()
+For the description of this property, please see [getCopyInvalidFormulasAsValues()](../../com.aspose.cells/copyoptions\#getCopyInvalidFormulasAsValues--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -207,7 +207,7 @@ public void setCopyNames(boolean value)
 ```
 
 
-For the description of this property, please see \#getCopyNames().getCopyNames()
+For the description of this property, please see [getCopyNames()](../../com.aspose.cells/copyoptions\#getCopyNames--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -220,7 +220,7 @@ public void setExtendToAdjacentRange(boolean value)
 ```
 
 
-For the description of this property, please see \#getExtendToAdjacentRange().getExtendToAdjacentRange()
+For the description of this property, please see [getExtendToAdjacentRange()](../../com.aspose.cells/copyoptions\#getExtendToAdjacentRange--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -233,7 +233,7 @@ public void setKeepMacros(boolean value)
 ```
 
 
-For the description of this property, please see \#getKeepMacros().getKeepMacros()
+For the description of this property, please see [getKeepMacros()](../../com.aspose.cells/copyoptions\#getKeepMacros--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ public void setReferToDestinationSheet(boolean value)
 ```
 
 
-For the description of this property, please see \#getReferToDestinationSheet().getReferToDestinationSheet()
+For the description of this property, please see [getReferToDestinationSheet()](../../com.aspose.cells/copyoptions\#getReferToDestinationSheet--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -259,7 +259,7 @@ public void setReferToSheetWithSameName(boolean value)
 ```
 
 
-For the description of this property, please see \#getReferToSheetWithSameName().getReferToSheetWithSameName()
+For the description of this property, please see [getReferToSheetWithSameName()](../../com.aspose.cells/copyoptions\#getReferToSheetWithSameName--)
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -29,12 +29,12 @@ Represents tile picture as texture.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAlignmentType(int value)](#setAlignmentType-int-) | For the description of this property, please see \#getAlignmentType().getAlignmentType() |
-| [setMirrorType(int value)](#setMirrorType-int-) | For the description of this property, please see \#getMirrorType().getMirrorType() |
-| [setOffsetX(double value)](#setOffsetX-double-) | For the description of this property, please see \#getOffsetX().getOffsetX() |
-| [setOffsetY(double value)](#setOffsetY-double-) | For the description of this property, please see \#getOffsetY().getOffsetY() |
-| [setScaleX(double value)](#setScaleX-double-) | For the description of this property, please see \#getScaleX().getScaleX() |
-| [setScaleY(double value)](#setScaleY-double-) | For the description of this property, please see \#getScaleY().getScaleY() |
+| [setAlignmentType(int value)](#setAlignmentType-int-) | For the description of this property, please see [getAlignmentType()](../../com.aspose.cells/tilepicoption\#getAlignmentType--) |
+| [setMirrorType(int value)](#setMirrorType-int-) | For the description of this property, please see [getMirrorType()](../../com.aspose.cells/tilepicoption\#getMirrorType--) |
+| [setOffsetX(double value)](#setOffsetX-double-) | For the description of this property, please see [getOffsetX()](../../com.aspose.cells/tilepicoption\#getOffsetX--) |
+| [setOffsetY(double value)](#setOffsetY-double-) | For the description of this property, please see [getOffsetY()](../../com.aspose.cells/tilepicoption\#getOffsetY--) |
+| [setScaleX(double value)](#setScaleX-double-) | For the description of this property, please see [getScaleX()](../../com.aspose.cells/tilepicoption\#getScaleX--) |
+| [setScaleY(double value)](#setScaleY-double-) | For the description of this property, please see [getScaleY()](../../com.aspose.cells/tilepicoption\#getScaleY--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -156,7 +156,7 @@ public void setAlignmentType(int value)
 ```
 
 
-For the description of this property, please see \#getAlignmentType().getAlignmentType()
+For the description of this property, please see [getAlignmentType()](../../com.aspose.cells/tilepicoption\#getAlignmentType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -169,7 +169,7 @@ public void setMirrorType(int value)
 ```
 
 
-For the description of this property, please see \#getMirrorType().getMirrorType()
+For the description of this property, please see [getMirrorType()](../../com.aspose.cells/tilepicoption\#getMirrorType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -182,7 +182,7 @@ public void setOffsetX(double value)
 ```
 
 
-For the description of this property, please see \#getOffsetX().getOffsetX()
+For the description of this property, please see [getOffsetX()](../../com.aspose.cells/tilepicoption\#getOffsetX--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -195,7 +195,7 @@ public void setOffsetY(double value)
 ```
 
 
-For the description of this property, please see \#getOffsetY().getOffsetY()
+For the description of this property, please see [getOffsetY()](../../com.aspose.cells/tilepicoption\#getOffsetY--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -208,7 +208,7 @@ public void setScaleX(double value)
 ```
 
 
-For the description of this property, please see \#getScaleX().getScaleX()
+For the description of this property, please see [getScaleX()](../../com.aspose.cells/tilepicoption\#getScaleX--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -221,7 +221,7 @@ public void setScaleY(double value)
 ```
 
 
-For the description of this property, please see \#getScaleY().getScaleY()
+For the description of this property, please see [getScaleY()](../../com.aspose.cells/tilepicoption\#getScaleY--)
 
 **Parameters:**
 | Parameter | Type | Description |

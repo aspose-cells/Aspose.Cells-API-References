@@ -28,8 +28,8 @@ Represents the custom icon of conditional formatting rule.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setIndex(int value)](#setIndex-int-) | For the description of this property, please see \#getIndex().getIndex() |
-| [setType(int value)](#setType-int-) | For the description of this property, please see \#getType().getType() |
+| [setIndex(int value)](#setIndex-int-) | For the description of this property, please see [getIndex()](../../com.aspose.cells/conditionalformattingicon\#getIndex--) |
+| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/conditionalformattingicon\#getType--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -152,7 +152,7 @@ public void setIndex(int value)
 ```
 
 
-For the description of this property, please see \#getIndex().getIndex()
+For the description of this property, please see [getIndex()](../../com.aspose.cells/conditionalformattingicon\#getIndex--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -165,7 +165,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see \#getType().getType()
+For the description of this property, please see [getType()](../../com.aspose.cells/conditionalformattingicon\#getType--)
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -25,7 +25,7 @@ Represent slicer data source item
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setSelected(boolean value)](#setSelected-boolean-) | For the description of this property, please see \#getSelected().getSelected() |
+| [setSelected(boolean value)](#setSelected-boolean-) | For the description of this property, please see [getSelected()](../../com.aspose.cells/slicercacheitem\#getSelected--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -107,7 +107,7 @@ public void setSelected(boolean value)
 ```
 
 
-For the description of this property, please see \#getSelected().getSelected()
+For the description of this property, please see [getSelected()](../../com.aspose.cells/slicercacheitem\#getSelected--)
 
 **Parameters:**
 | Parameter | Type | Description |

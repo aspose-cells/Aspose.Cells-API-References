@@ -70,44 +70,44 @@ Represents a ComboBox ActiveX control.
 | [isVisible()](#isVisible--) | Indicates whether this control is visible. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoSize(boolean value)](#setAutoSize-boolean-) | For the description of this property, please see \#isAutoSize().isAutoSize() |
-| [setAutoWordSelected(boolean value)](#setAutoWordSelected-boolean-) | For the description of this property, please see \#isAutoWordSelected().isAutoWordSelected() |
-| [setBackOleColor(int value)](#setBackOleColor-int-) | For the description of this property, please see \#getBackOleColor().getBackOleColor() |
-| [setBorderOleColor(int value)](#setBorderOleColor-int-) | For the description of this property, please see \#getBorderOleColor().getBorderOleColor() |
-| [setBorderStyle(int value)](#setBorderStyle-int-) | For the description of this property, please see \#getBorderStyle().getBorderStyle() |
-| [setBoundColumn(int value)](#setBoundColumn-int-) | For the description of this property, please see \#getBoundColumn().getBoundColumn() |
-| [setColumnCount(int value)](#setColumnCount-int-) | For the description of this property, please see \#getColumnCount().getColumnCount() |
-| [setColumnWidths(double value)](#setColumnWidths-double-) | For the description of this property, please see \#getColumnWidths().getColumnWidths() |
-| [setDragBehaviorEnabled(boolean value)](#setDragBehaviorEnabled-boolean-) | For the description of this property, please see \#isDragBehaviorEnabled().isDragBehaviorEnabled() |
-| [setDropButtonStyle(int value)](#setDropButtonStyle-int-) | For the description of this property, please see \#getDropButtonStyle().getDropButtonStyle() |
-| [setEditable(boolean value)](#setEditable-boolean-) | For the description of this property, please see \#isEditable().isEditable() |
-| [setEnabled(boolean value)](#setEnabled-boolean-) | For the description of this property, please see \#isEnabled().isEnabled() |
-| [setEnterFieldBehavior(boolean value)](#setEnterFieldBehavior-boolean-) | For the description of this property, please see \#getEnterFieldBehavior().getEnterFieldBehavior() |
-| [setForeOleColor(int value)](#setForeOleColor-int-) | For the description of this property, please see \#getForeOleColor().getForeOleColor() |
-| [setHeight(double value)](#setHeight-double-) | For the description of this property, please see \#getHeight().getHeight() |
-| [setHideSelection(boolean value)](#setHideSelection-boolean-) | For the description of this property, please see \#getHideSelection().getHideSelection() |
-| [setIMEMode(int value)](#setIMEMode-int-) | For the description of this property, please see \#getIMEMode().getIMEMode() |
-| [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | For the description of this property, please see \#getLinkedCell().getLinkedCell() |
-| [setListFillRange(String value)](#setListFillRange-java.lang.String-) | For the description of this property, please see \#getListFillRange().getListFillRange() |
-| [setListRows(int value)](#setListRows-int-) | For the description of this property, please see \#getListRows().getListRows() |
-| [setListStyle(int value)](#setListStyle-int-) | For the description of this property, please see \#getListStyle().getListStyle() |
-| [setListWidth(double value)](#setListWidth-double-) | For the description of this property, please see \#getListWidth().getListWidth() |
-| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see \#isLocked().isLocked() |
-| [setMatchEntry(int value)](#setMatchEntry-int-) | For the description of this property, please see \#getMatchEntry().getMatchEntry() |
-| [setMaxLength(int value)](#setMaxLength-int-) | For the description of this property, please see \#getMaxLength().getMaxLength() |
-| [setMouseIcon(byte[] value)](#setMouseIcon-byte---) | For the description of this property, please see \#getMouseIcon().getMouseIcon() |
-| [setMousePointer(int value)](#setMousePointer-int-) | For the description of this property, please see \#getMousePointer().getMousePointer() |
-| [setSelectionMargin(boolean value)](#setSelectionMargin-boolean-) | For the description of this property, please see \#getSelectionMargin().getSelectionMargin() |
-| [setShadow(boolean value)](#setShadow-boolean-) | For the description of this property, please see \#getShadow().getShadow() |
-| [setShowColumnHeads(boolean value)](#setShowColumnHeads-boolean-) | For the description of this property, please see \#getShowColumnHeads().getShowColumnHeads() |
-| [setShowDropButtonTypeWhen(int value)](#setShowDropButtonTypeWhen-int-) | For the description of this property, please see \#getShowDropButtonTypeWhen().getShowDropButtonTypeWhen() |
-| [setSpecialEffect(int value)](#setSpecialEffect-int-) | For the description of this property, please see \#getSpecialEffect().getSpecialEffect() |
-| [setTextAlign(int value)](#setTextAlign-int-) | For the description of this property, please see \#getTextAlign().getTextAlign() |
-| [setTextColumn(int value)](#setTextColumn-int-) | For the description of this property, please see \#getTextColumn().getTextColumn() |
-| [setTransparent(boolean value)](#setTransparent-boolean-) | For the description of this property, please see \#isTransparent().isTransparent() |
-| [setValue(String value)](#setValue-java.lang.String-) | For the description of this property, please see \#getValue().getValue() |
-| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see \#isVisible().isVisible() |
-| [setWidth(double value)](#setWidth-double-) | For the description of this property, please see \#getWidth().getWidth() |
+| [setAutoSize(boolean value)](#setAutoSize-boolean-) | For the description of this property, please see [isAutoSize()](../../com.aspose.cells/activexcontrol\#isAutoSize--) |
+| [setAutoWordSelected(boolean value)](#setAutoWordSelected-boolean-) | For the description of this property, please see [isAutoWordSelected()](../../com.aspose.cells/comboboxactivexcontrol\#isAutoWordSelected--) |
+| [setBackOleColor(int value)](#setBackOleColor-int-) | For the description of this property, please see [getBackOleColor()](../../com.aspose.cells/activexcontrolbase\#getBackOleColor--) |
+| [setBorderOleColor(int value)](#setBorderOleColor-int-) | For the description of this property, please see [getBorderOleColor()](../../com.aspose.cells/comboboxactivexcontrol\#getBorderOleColor--) |
+| [setBorderStyle(int value)](#setBorderStyle-int-) | For the description of this property, please see [getBorderStyle()](../../com.aspose.cells/comboboxactivexcontrol\#getBorderStyle--) |
+| [setBoundColumn(int value)](#setBoundColumn-int-) | For the description of this property, please see [getBoundColumn()](../../com.aspose.cells/comboboxactivexcontrol\#getBoundColumn--) |
+| [setColumnCount(int value)](#setColumnCount-int-) | For the description of this property, please see [getColumnCount()](../../com.aspose.cells/comboboxactivexcontrol\#getColumnCount--) |
+| [setColumnWidths(double value)](#setColumnWidths-double-) | For the description of this property, please see [getColumnWidths()](../../com.aspose.cells/comboboxactivexcontrol\#getColumnWidths--) |
+| [setDragBehaviorEnabled(boolean value)](#setDragBehaviorEnabled-boolean-) | For the description of this property, please see [isDragBehaviorEnabled()](../../com.aspose.cells/comboboxactivexcontrol\#isDragBehaviorEnabled--) |
+| [setDropButtonStyle(int value)](#setDropButtonStyle-int-) | For the description of this property, please see [getDropButtonStyle()](../../com.aspose.cells/comboboxactivexcontrol\#getDropButtonStyle--) |
+| [setEditable(boolean value)](#setEditable-boolean-) | For the description of this property, please see [isEditable()](../../com.aspose.cells/comboboxactivexcontrol\#isEditable--) |
+| [setEnabled(boolean value)](#setEnabled-boolean-) | For the description of this property, please see [isEnabled()](../../com.aspose.cells/activexcontrol\#isEnabled--) |
+| [setEnterFieldBehavior(boolean value)](#setEnterFieldBehavior-boolean-) | For the description of this property, please see [getEnterFieldBehavior()](../../com.aspose.cells/comboboxactivexcontrol\#getEnterFieldBehavior--) |
+| [setForeOleColor(int value)](#setForeOleColor-int-) | For the description of this property, please see [getForeOleColor()](../../com.aspose.cells/activexcontrolbase\#getForeOleColor--) |
+| [setHeight(double value)](#setHeight-double-) | For the description of this property, please see [getHeight()](../../com.aspose.cells/activexcontrolbase\#getHeight--) |
+| [setHideSelection(boolean value)](#setHideSelection-boolean-) | For the description of this property, please see [getHideSelection()](../../com.aspose.cells/comboboxactivexcontrol\#getHideSelection--) |
+| [setIMEMode(int value)](#setIMEMode-int-) | For the description of this property, please see [getIMEMode()](../../com.aspose.cells/activexcontrol\#getIMEMode--) |
+| [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | For the description of this property, please see [getLinkedCell()](../../com.aspose.cells/activexcontrolbase\#getLinkedCell--) |
+| [setListFillRange(String value)](#setListFillRange-java.lang.String-) | For the description of this property, please see [getListFillRange()](../../com.aspose.cells/activexcontrolbase\#getListFillRange--) |
+| [setListRows(int value)](#setListRows-int-) | For the description of this property, please see [getListRows()](../../com.aspose.cells/comboboxactivexcontrol\#getListRows--) |
+| [setListStyle(int value)](#setListStyle-int-) | For the description of this property, please see [getListStyle()](../../com.aspose.cells/comboboxactivexcontrol\#getListStyle--) |
+| [setListWidth(double value)](#setListWidth-double-) | For the description of this property, please see [getListWidth()](../../com.aspose.cells/comboboxactivexcontrol\#getListWidth--) |
+| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see [isLocked()](../../com.aspose.cells/activexcontrol\#isLocked--) |
+| [setMatchEntry(int value)](#setMatchEntry-int-) | For the description of this property, please see [getMatchEntry()](../../com.aspose.cells/comboboxactivexcontrol\#getMatchEntry--) |
+| [setMaxLength(int value)](#setMaxLength-int-) | For the description of this property, please see [getMaxLength()](../../com.aspose.cells/comboboxactivexcontrol\#getMaxLength--) |
+| [setMouseIcon(byte[] value)](#setMouseIcon-byte---) | For the description of this property, please see [getMouseIcon()](../../com.aspose.cells/activexcontrolbase\#getMouseIcon--) |
+| [setMousePointer(int value)](#setMousePointer-int-) | For the description of this property, please see [getMousePointer()](../../com.aspose.cells/activexcontrolbase\#getMousePointer--) |
+| [setSelectionMargin(boolean value)](#setSelectionMargin-boolean-) | For the description of this property, please see [getSelectionMargin()](../../com.aspose.cells/comboboxactivexcontrol\#getSelectionMargin--) |
+| [setShadow(boolean value)](#setShadow-boolean-) | For the description of this property, please see [getShadow()](../../com.aspose.cells/activexcontrolbase\#getShadow--) |
+| [setShowColumnHeads(boolean value)](#setShowColumnHeads-boolean-) | For the description of this property, please see [getShowColumnHeads()](../../com.aspose.cells/comboboxactivexcontrol\#getShowColumnHeads--) |
+| [setShowDropButtonTypeWhen(int value)](#setShowDropButtonTypeWhen-int-) | For the description of this property, please see [getShowDropButtonTypeWhen()](../../com.aspose.cells/comboboxactivexcontrol\#getShowDropButtonTypeWhen--) |
+| [setSpecialEffect(int value)](#setSpecialEffect-int-) | For the description of this property, please see [getSpecialEffect()](../../com.aspose.cells/comboboxactivexcontrol\#getSpecialEffect--) |
+| [setTextAlign(int value)](#setTextAlign-int-) | For the description of this property, please see [getTextAlign()](../../com.aspose.cells/activexcontrol\#getTextAlign--) |
+| [setTextColumn(int value)](#setTextColumn-int-) | For the description of this property, please see [getTextColumn()](../../com.aspose.cells/comboboxactivexcontrol\#getTextColumn--) |
+| [setTransparent(boolean value)](#setTransparent-boolean-) | For the description of this property, please see [isTransparent()](../../com.aspose.cells/activexcontrol\#isTransparent--) |
+| [setValue(String value)](#setValue-java.lang.String-) | For the description of this property, please see [getValue()](../../com.aspose.cells/comboboxactivexcontrol\#getValue--) |
+| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see [isVisible()](../../com.aspose.cells/activexcontrolbase\#isVisible--) |
+| [setWidth(double value)](#setWidth-double-) | For the description of this property, please see [getWidth()](../../com.aspose.cells/activexcontrolbase\#getWidth--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -595,7 +595,7 @@ public void setAutoSize(boolean value)
 ```
 
 
-For the description of this property, please see \#isAutoSize().isAutoSize()
+For the description of this property, please see [isAutoSize()](../../com.aspose.cells/activexcontrol\#isAutoSize--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -608,7 +608,7 @@ public void setAutoWordSelected(boolean value)
 ```
 
 
-For the description of this property, please see \#isAutoWordSelected().isAutoWordSelected()
+For the description of this property, please see [isAutoWordSelected()](../../com.aspose.cells/comboboxactivexcontrol\#isAutoWordSelected--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -621,7 +621,7 @@ public void setBackOleColor(int value)
 ```
 
 
-For the description of this property, please see \#getBackOleColor().getBackOleColor()
+For the description of this property, please see [getBackOleColor()](../../com.aspose.cells/activexcontrolbase\#getBackOleColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -634,7 +634,7 @@ public void setBorderOleColor(int value)
 ```
 
 
-For the description of this property, please see \#getBorderOleColor().getBorderOleColor()
+For the description of this property, please see [getBorderOleColor()](../../com.aspose.cells/comboboxactivexcontrol\#getBorderOleColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -647,7 +647,7 @@ public void setBorderStyle(int value)
 ```
 
 
-For the description of this property, please see \#getBorderStyle().getBorderStyle()
+For the description of this property, please see [getBorderStyle()](../../com.aspose.cells/comboboxactivexcontrol\#getBorderStyle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -660,7 +660,7 @@ public void setBoundColumn(int value)
 ```
 
 
-For the description of this property, please see \#getBoundColumn().getBoundColumn()
+For the description of this property, please see [getBoundColumn()](../../com.aspose.cells/comboboxactivexcontrol\#getBoundColumn--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -673,7 +673,7 @@ public void setColumnCount(int value)
 ```
 
 
-For the description of this property, please see \#getColumnCount().getColumnCount()
+For the description of this property, please see [getColumnCount()](../../com.aspose.cells/comboboxactivexcontrol\#getColumnCount--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -686,7 +686,7 @@ public void setColumnWidths(double value)
 ```
 
 
-For the description of this property, please see \#getColumnWidths().getColumnWidths()
+For the description of this property, please see [getColumnWidths()](../../com.aspose.cells/comboboxactivexcontrol\#getColumnWidths--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -699,7 +699,7 @@ public void setDragBehaviorEnabled(boolean value)
 ```
 
 
-For the description of this property, please see \#isDragBehaviorEnabled().isDragBehaviorEnabled()
+For the description of this property, please see [isDragBehaviorEnabled()](../../com.aspose.cells/comboboxactivexcontrol\#isDragBehaviorEnabled--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -712,7 +712,7 @@ public void setDropButtonStyle(int value)
 ```
 
 
-For the description of this property, please see \#getDropButtonStyle().getDropButtonStyle()
+For the description of this property, please see [getDropButtonStyle()](../../com.aspose.cells/comboboxactivexcontrol\#getDropButtonStyle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -725,7 +725,7 @@ public void setEditable(boolean value)
 ```
 
 
-For the description of this property, please see \#isEditable().isEditable()
+For the description of this property, please see [isEditable()](../../com.aspose.cells/comboboxactivexcontrol\#isEditable--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -738,7 +738,7 @@ public void setEnabled(boolean value)
 ```
 
 
-For the description of this property, please see \#isEnabled().isEnabled()
+For the description of this property, please see [isEnabled()](../../com.aspose.cells/activexcontrol\#isEnabled--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -751,7 +751,7 @@ public void setEnterFieldBehavior(boolean value)
 ```
 
 
-For the description of this property, please see \#getEnterFieldBehavior().getEnterFieldBehavior()
+For the description of this property, please see [getEnterFieldBehavior()](../../com.aspose.cells/comboboxactivexcontrol\#getEnterFieldBehavior--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -764,7 +764,7 @@ public void setForeOleColor(int value)
 ```
 
 
-For the description of this property, please see \#getForeOleColor().getForeOleColor()
+For the description of this property, please see [getForeOleColor()](../../com.aspose.cells/activexcontrolbase\#getForeOleColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -777,7 +777,7 @@ public void setHeight(double value)
 ```
 
 
-For the description of this property, please see \#getHeight().getHeight()
+For the description of this property, please see [getHeight()](../../com.aspose.cells/activexcontrolbase\#getHeight--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -790,7 +790,7 @@ public void setHideSelection(boolean value)
 ```
 
 
-For the description of this property, please see \#getHideSelection().getHideSelection()
+For the description of this property, please see [getHideSelection()](../../com.aspose.cells/comboboxactivexcontrol\#getHideSelection--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -803,7 +803,7 @@ public void setIMEMode(int value)
 ```
 
 
-For the description of this property, please see \#getIMEMode().getIMEMode()
+For the description of this property, please see [getIMEMode()](../../com.aspose.cells/activexcontrol\#getIMEMode--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -816,7 +816,7 @@ public void setLinkedCell(String value)
 ```
 
 
-For the description of this property, please see \#getLinkedCell().getLinkedCell()
+For the description of this property, please see [getLinkedCell()](../../com.aspose.cells/activexcontrolbase\#getLinkedCell--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -829,7 +829,7 @@ public void setListFillRange(String value)
 ```
 
 
-For the description of this property, please see \#getListFillRange().getListFillRange()
+For the description of this property, please see [getListFillRange()](../../com.aspose.cells/activexcontrolbase\#getListFillRange--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -842,7 +842,7 @@ public void setListRows(int value)
 ```
 
 
-For the description of this property, please see \#getListRows().getListRows()
+For the description of this property, please see [getListRows()](../../com.aspose.cells/comboboxactivexcontrol\#getListRows--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -855,7 +855,7 @@ public void setListStyle(int value)
 ```
 
 
-For the description of this property, please see \#getListStyle().getListStyle()
+For the description of this property, please see [getListStyle()](../../com.aspose.cells/comboboxactivexcontrol\#getListStyle--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -868,7 +868,7 @@ public void setListWidth(double value)
 ```
 
 
-For the description of this property, please see \#getListWidth().getListWidth()
+For the description of this property, please see [getListWidth()](../../com.aspose.cells/comboboxactivexcontrol\#getListWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -881,7 +881,7 @@ public void setLocked(boolean value)
 ```
 
 
-For the description of this property, please see \#isLocked().isLocked()
+For the description of this property, please see [isLocked()](../../com.aspose.cells/activexcontrol\#isLocked--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -894,7 +894,7 @@ public void setMatchEntry(int value)
 ```
 
 
-For the description of this property, please see \#getMatchEntry().getMatchEntry()
+For the description of this property, please see [getMatchEntry()](../../com.aspose.cells/comboboxactivexcontrol\#getMatchEntry--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -907,7 +907,7 @@ public void setMaxLength(int value)
 ```
 
 
-For the description of this property, please see \#getMaxLength().getMaxLength()
+For the description of this property, please see [getMaxLength()](../../com.aspose.cells/comboboxactivexcontrol\#getMaxLength--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -920,7 +920,7 @@ public void setMouseIcon(byte[] value)
 ```
 
 
-For the description of this property, please see \#getMouseIcon().getMouseIcon()
+For the description of this property, please see [getMouseIcon()](../../com.aspose.cells/activexcontrolbase\#getMouseIcon--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -933,7 +933,7 @@ public void setMousePointer(int value)
 ```
 
 
-For the description of this property, please see \#getMousePointer().getMousePointer()
+For the description of this property, please see [getMousePointer()](../../com.aspose.cells/activexcontrolbase\#getMousePointer--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -946,7 +946,7 @@ public void setSelectionMargin(boolean value)
 ```
 
 
-For the description of this property, please see \#getSelectionMargin().getSelectionMargin()
+For the description of this property, please see [getSelectionMargin()](../../com.aspose.cells/comboboxactivexcontrol\#getSelectionMargin--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -959,7 +959,7 @@ public void setShadow(boolean value)
 ```
 
 
-For the description of this property, please see \#getShadow().getShadow()
+For the description of this property, please see [getShadow()](../../com.aspose.cells/activexcontrolbase\#getShadow--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -972,7 +972,7 @@ public void setShowColumnHeads(boolean value)
 ```
 
 
-For the description of this property, please see \#getShowColumnHeads().getShowColumnHeads()
+For the description of this property, please see [getShowColumnHeads()](../../com.aspose.cells/comboboxactivexcontrol\#getShowColumnHeads--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -985,7 +985,7 @@ public void setShowDropButtonTypeWhen(int value)
 ```
 
 
-For the description of this property, please see \#getShowDropButtonTypeWhen().getShowDropButtonTypeWhen()
+For the description of this property, please see [getShowDropButtonTypeWhen()](../../com.aspose.cells/comboboxactivexcontrol\#getShowDropButtonTypeWhen--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -998,7 +998,7 @@ public void setSpecialEffect(int value)
 ```
 
 
-For the description of this property, please see \#getSpecialEffect().getSpecialEffect()
+For the description of this property, please see [getSpecialEffect()](../../com.aspose.cells/comboboxactivexcontrol\#getSpecialEffect--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1011,7 +1011,7 @@ public void setTextAlign(int value)
 ```
 
 
-For the description of this property, please see \#getTextAlign().getTextAlign()
+For the description of this property, please see [getTextAlign()](../../com.aspose.cells/activexcontrol\#getTextAlign--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1024,7 +1024,7 @@ public void setTextColumn(int value)
 ```
 
 
-For the description of this property, please see \#getTextColumn().getTextColumn()
+For the description of this property, please see [getTextColumn()](../../com.aspose.cells/comboboxactivexcontrol\#getTextColumn--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1037,7 +1037,7 @@ public void setTransparent(boolean value)
 ```
 
 
-For the description of this property, please see \#isTransparent().isTransparent()
+For the description of this property, please see [isTransparent()](../../com.aspose.cells/activexcontrol\#isTransparent--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1050,7 +1050,7 @@ public void setValue(String value)
 ```
 
 
-For the description of this property, please see \#getValue().getValue()
+For the description of this property, please see [getValue()](../../com.aspose.cells/comboboxactivexcontrol\#getValue--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1063,7 +1063,7 @@ public void setVisible(boolean value)
 ```
 
 
-For the description of this property, please see \#isVisible().isVisible()
+For the description of this property, please see [isVisible()](../../com.aspose.cells/activexcontrolbase\#isVisible--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1076,7 +1076,7 @@ public void setWidth(double value)
 ```
 
 
-For the description of this property, please see \#getWidth().getWidth()
+For the description of this property, please see [getWidth()](../../com.aspose.cells/activexcontrolbase\#getWidth--)
 
 **Parameters:**
 | Parameter | Type | Description |

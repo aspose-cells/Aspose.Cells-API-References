@@ -27,12 +27,12 @@ Specifies font settings
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | For the description of this property, please see \#getDefaultFontName().getDefaultFontName() |
+| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | For the description of this property, please see [getDefaultFontName()](../../com.aspose.cells/fontconfigs\#getDefaultFontName--) |
 | [setFontFolder(String fontFolder, boolean recursive)](#setFontFolder-java.lang.String-boolean-) | Sets the fonts folder |
 | [setFontFolders(String[] fontFolders, boolean recursive)](#setFontFolders-java.lang.String---boolean-) | Sets the fonts folders |
 | [setFontSources(FontSourceBase[] sources)](#setFontSources-com.aspose.cells.FontSourceBase---) | Sets the fonts sources. |
 | [setFontSubstitutes(String originalFontName, String[] substituteFontNames)](#setFontSubstitutes-java.lang.String-java.lang.String---) | Font substitute names for given original font name. |
-| [setPreferSystemFontSubstitutes(boolean value)](#setPreferSystemFontSubstitutes-boolean-) | For the description of this property, please see \#getPreferSystemFontSubstitutes().getPreferSystemFontSubstitutes() |
+| [setPreferSystemFontSubstitutes(boolean value)](#setPreferSystemFontSubstitutes-boolean-) | For the description of this property, please see [getPreferSystemFontSubstitutes()](../../com.aspose.cells/fontconfigs\#getPreferSystemFontSubstitutes--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -139,7 +139,7 @@ public static void setDefaultFontName(String value)
 ```
 
 
-For the description of this property, please see \#getDefaultFontName().getDefaultFontName()
+For the description of this property, please see [getDefaultFontName()](../../com.aspose.cells/fontconfigs\#getDefaultFontName--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -207,7 +207,7 @@ public static void setPreferSystemFontSubstitutes(boolean value)
 ```
 
 
-For the description of this property, please see \#getPreferSystemFontSubstitutes().getPreferSystemFontSubstitutes()
+For the description of this property, please see [getPreferSystemFontSubstitutes()](../../com.aspose.cells/fontconfigs\#getPreferSystemFontSubstitutes--)
 
 **Parameters:**
 | Parameter | Type | Description |

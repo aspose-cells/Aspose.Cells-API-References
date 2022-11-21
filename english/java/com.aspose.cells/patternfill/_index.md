@@ -35,13 +35,13 @@ Encapsulates the object that represents pattern fill format
 | [hashCode()](#hashCode--) | Gets the hash code. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBackTransparency(double value)](#setBackTransparency-double-) | For the description of this property, please see \#getBackTransparency().getBackTransparency() |
-| [setBackgroundCellsColor(CellsColor value)](#setBackgroundCellsColor-com.aspose.cells.CellsColor-) | For the description of this property, please see \#getBackgroundCellsColor().getBackgroundCellsColor() |
-| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.cells.Color-) | For the description of this property, please see \#getBackgroundColor().getBackgroundColor() |
-| [setForeTransparency(double value)](#setForeTransparency-double-) | For the description of this property, please see \#getForeTransparency().getForeTransparency() |
-| [setForegroundCellsColor(CellsColor value)](#setForegroundCellsColor-com.aspose.cells.CellsColor-) | For the description of this property, please see \#getForegroundCellsColor().getForegroundCellsColor() |
-| [setForegroundColor(Color value)](#setForegroundColor-com.aspose.cells.Color-) | For the description of this property, please see \#getForegroundColor().getForegroundColor() |
-| [setPattern(int value)](#setPattern-int-) | For the description of this property, please see \#getPattern().getPattern() |
+| [setBackTransparency(double value)](#setBackTransparency-double-) | For the description of this property, please see [getBackTransparency()](../../com.aspose.cells/patternfill\#getBackTransparency--) |
+| [setBackgroundCellsColor(CellsColor value)](#setBackgroundCellsColor-com.aspose.cells.CellsColor-) | For the description of this property, please see [getBackgroundCellsColor()](../../com.aspose.cells/patternfill\#getBackgroundCellsColor--) |
+| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.cells.Color-) | For the description of this property, please see [getBackgroundColor()](../../com.aspose.cells/patternfill\#getBackgroundColor--) |
+| [setForeTransparency(double value)](#setForeTransparency-double-) | For the description of this property, please see [getForeTransparency()](../../com.aspose.cells/patternfill\#getForeTransparency--) |
+| [setForegroundCellsColor(CellsColor value)](#setForegroundCellsColor-com.aspose.cells.CellsColor-) | For the description of this property, please see [getForegroundCellsColor()](../../com.aspose.cells/patternfill\#getForegroundCellsColor--) |
+| [setForegroundColor(Color value)](#setForegroundColor-com.aspose.cells.Color-) | For the description of this property, please see [getForegroundColor()](../../com.aspose.cells/patternfill\#getForegroundColor--) |
+| [setPattern(int value)](#setPattern-int-) | For the description of this property, please see [getPattern()](../../com.aspose.cells/patternfill\#getPattern--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -179,7 +179,7 @@ public void setBackTransparency(double value)
 ```
 
 
-For the description of this property, please see \#getBackTransparency().getBackTransparency()
+For the description of this property, please see [getBackTransparency()](../../com.aspose.cells/patternfill\#getBackTransparency--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -192,7 +192,7 @@ public void setBackgroundCellsColor(CellsColor value)
 ```
 
 
-For the description of this property, please see \#getBackgroundCellsColor().getBackgroundCellsColor()
+For the description of this property, please see [getBackgroundCellsColor()](../../com.aspose.cells/patternfill\#getBackgroundCellsColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -205,7 +205,7 @@ public void setBackgroundColor(Color value)
 ```
 
 
-For the description of this property, please see \#getBackgroundColor().getBackgroundColor()
+For the description of this property, please see [getBackgroundColor()](../../com.aspose.cells/patternfill\#getBackgroundColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -218,7 +218,7 @@ public void setForeTransparency(double value)
 ```
 
 
-For the description of this property, please see \#getForeTransparency().getForeTransparency()
+For the description of this property, please see [getForeTransparency()](../../com.aspose.cells/patternfill\#getForeTransparency--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -231,7 +231,7 @@ public void setForegroundCellsColor(CellsColor value)
 ```
 
 
-For the description of this property, please see \#getForegroundCellsColor().getForegroundCellsColor()
+For the description of this property, please see [getForegroundCellsColor()](../../com.aspose.cells/patternfill\#getForegroundCellsColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -244,7 +244,7 @@ public void setForegroundColor(Color value)
 ```
 
 
-For the description of this property, please see \#getForegroundColor().getForegroundColor()
+For the description of this property, please see [getForegroundColor()](../../com.aspose.cells/patternfill\#getForegroundColor--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -257,7 +257,7 @@ public void setPattern(int value)
 ```
 
 
-For the description of this property, please see \#getPattern().getPattern()
+For the description of this property, please see [getPattern()](../../com.aspose.cells/patternfill\#getPattern--)
 
 **Parameters:**
 | Parameter | Type | Description |

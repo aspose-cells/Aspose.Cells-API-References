@@ -26,9 +26,9 @@ Represents the dynamic filter.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDynamicFilterType(int value)](#setDynamicFilterType-int-) | For the description of this property, please see \#getDynamicFilterType().getDynamicFilterType() |
-| [setMaxValue(Object value)](#setMaxValue-java.lang.Object-) | For the description of this property, please see \#getMaxValue().getMaxValue() |
-| [setValue(Object value)](#setValue-java.lang.Object-) | For the description of this property, please see \#getValue().getValue() |
+| [setDynamicFilterType(int value)](#setDynamicFilterType-int-) | For the description of this property, please see [getDynamicFilterType()](../../com.aspose.cells/dynamicfilter\#getDynamicFilterType--) |
+| [setMaxValue(Object value)](#setMaxValue-java.lang.Object-) | For the description of this property, please see [getMaxValue()](../../com.aspose.cells/dynamicfilter\#getMaxValue--) |
+| [setValue(Object value)](#setValue-java.lang.Object-) | For the description of this property, please see [getValue()](../../com.aspose.cells/dynamicfilter\#getValue--) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -120,7 +120,7 @@ public void setDynamicFilterType(int value)
 ```
 
 
-For the description of this property, please see \#getDynamicFilterType().getDynamicFilterType()
+For the description of this property, please see [getDynamicFilterType()](../../com.aspose.cells/dynamicfilter\#getDynamicFilterType--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -133,7 +133,7 @@ public void setMaxValue(Object value)
 ```
 
 
-For the description of this property, please see \#getMaxValue().getMaxValue()
+For the description of this property, please see [getMaxValue()](../../com.aspose.cells/dynamicfilter\#getMaxValue--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +146,7 @@ public void setValue(Object value)
 ```
 
 
-For the description of this property, please see \#getValue().getValue()
+For the description of this property, please see [getValue()](../../com.aspose.cells/dynamicfilter\#getValue--)
 
 **Parameters:**
 | Parameter | Type | Description |
