@@ -14,11 +14,6 @@ public class PageEndSavingArgs extends PageSavingArgs
 ```
 
 Info for a page ends saving process.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PageEndSavingArgs()](#PageEndSavingArgs--) |  |
 ## Methods
 
 | Method | Description |
@@ -27,7 +22,7 @@ Info for a page ends saving process.
 | [getClass()](#getClass--) |  |
 | [getPageCount()](#getPageCount--) | Total page count. |
 | [getPageIndex()](#getPageIndex--) | Current page index, zero based. |
-| [hasMorePages()](#hasMorePages--) | Gets or sets a value indicating whether having more pages to be output. |
+| [hasMorePages()](#hasMorePages--) | a value indicating whether having more pages to be output. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -36,12 +31,6 @@ Info for a page ends saving process.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### PageEndSavingArgs() {#PageEndSavingArgs--}
-```
-public PageEndSavingArgs()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -93,7 +82,7 @@ public boolean hasMorePages()
 ```
 
 
-Gets or sets a value indicating whether having more pages to be output. The default value is true.
+a value indicating whether having more pages to be output. The default value is true.
 
 **Returns:**
 boolean

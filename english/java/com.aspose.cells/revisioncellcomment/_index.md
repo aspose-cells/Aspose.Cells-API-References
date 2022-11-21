@@ -14,11 +14,6 @@ public class RevisionCellComment extends Revision
 ```
 
 Represents a revision record of a cell comment change.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [RevisionCellComment()](#RevisionCellComment--) |  |
 ## Methods
 
 | Method | Description |
@@ -43,12 +38,6 @@ Represents a revision record of a cell comment change.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### RevisionCellComment() {#RevisionCellComment--}
-```
-public RevisionCellComment()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

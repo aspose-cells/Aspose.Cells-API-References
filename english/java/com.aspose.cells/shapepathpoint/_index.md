@@ -20,7 +20,7 @@ Represents an x-y coordinate within the path coordinate space.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getX()](#getX--) | Gets and sets x coordinate for this position coordinate. |
+| [getX()](#getX--) | x coordinate for this position coordinate. |
 | [getY()](#getY--) | Gets y coordinate for this position coordinate. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -62,7 +62,7 @@ public int getX()
 ```
 
 
-Gets and sets x coordinate for this position coordinate.
+x coordinate for this position coordinate.
 
 **Returns:**
 int

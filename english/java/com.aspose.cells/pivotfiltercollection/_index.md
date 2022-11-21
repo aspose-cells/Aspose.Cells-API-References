@@ -14,11 +14,6 @@ public class PivotFilterCollection extends CollectionBase
 ```
 
 Represents a collection of all the PivotFilter objects
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PivotFilterCollection()](#PivotFilterCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -42,12 +37,6 @@ Represents a collection of all the PivotFilter objects
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### PivotFilterCollection() {#PivotFilterCollection--}
-```
-public PivotFilterCollection()
-```
-
-
 ### add(int fieldIndex, int type) {#add-int-int-}
 ```
 public int add(int fieldIndex, int type)

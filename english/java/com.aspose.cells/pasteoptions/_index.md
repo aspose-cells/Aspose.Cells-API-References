@@ -21,7 +21,7 @@ Represents the paste special options.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getOnlyVisibleCells()](#getOnlyVisibleCells--) | True means only copying visible cells. |
-| [getOperationType()](#getOperationType--) | Gets and sets the operation type when pasting range. |
+| [getOperationType()](#getOperationType--) | the operation type when pasting range. |
 | [getPasteType()](#getPasteType--) | The paste special type. |
 | [getSkipBlanks()](#getSkipBlanks--) | Indicates whether skips blank cells. |
 | [getTranspose()](#getTranspose--) | True to transpose rows and columns when the range is pasted. |
@@ -78,7 +78,7 @@ public int getOperationType()
 ```
 
 
-Gets and sets the operation type when pasting range.
+the operation type when pasting range.
 
 **Returns:**
 int

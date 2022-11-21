@@ -25,11 +25,6 @@ Represents all references of VBA project.
          //Saving the Excel file
          workbook.save("book1.xlsm");
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [VbaProjectReferenceCollection()](#VbaProjectReferenceCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -55,12 +50,6 @@ Represents all references of VBA project.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### VbaProjectReferenceCollection() {#VbaProjectReferenceCollection--}
-```
-public VbaProjectReferenceCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

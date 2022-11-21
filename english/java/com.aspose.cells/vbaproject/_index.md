@@ -33,7 +33,7 @@ Represents the VBA project.
 | [getClass()](#getClass--) |  |
 | [getIslockedForViewing()](#getIslockedForViewing--) | Indicates whether this VBA project is locked for viewing. |
 | [getModules()](#getModules--) | Gets all [VbaModule](../../com.aspose.cells/vbamodule) objects. |
-| [getName()](#getName--) | Gets and sets the name of the VBA project. |
+| [getName()](#getName--) | the name of the VBA project. |
 | [getReferences()](#getReferences--) | Gets all references of VBA project. |
 | [hashCode()](#hashCode--) |  |
 | [isProtected()](#isProtected--) | Indicates whether this VBA project is protected. |
@@ -123,7 +123,7 @@ public String getName()
 ```
 
 
-Gets and sets the name of the VBA project.
+the name of the VBA project.
 
 **Returns:**
 java.lang.String

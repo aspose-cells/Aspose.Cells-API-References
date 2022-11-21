@@ -14,11 +14,6 @@ public class RevisionInsertSheet extends Revision
 ```
 
 Represents a revision record of a sheet that was inserted.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [RevisionInsertSheet()](#RevisionInsertSheet--) |  |
 ## Methods
 
 | Method | Description |
@@ -38,12 +33,6 @@ Represents a revision record of a sheet that was inserted.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### RevisionInsertSheet() {#RevisionInsertSheet--}
-```
-public RevisionInsertSheet()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

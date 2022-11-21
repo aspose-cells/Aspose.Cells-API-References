@@ -48,26 +48,26 @@ Encapsulates the font object used in a spreadsheet.
 | --- | --- |
 | [equals(Font font)](#equals-com.aspose.cells.Font-) | Checks if two fonts are equals. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getArgbColor()](#getArgbColor--) | Gets and sets the color with a 32-bit ARGB value. |
-| [getCapsType()](#getCapsType--) | Gets and sets the text caps type. |
+| [getArgbColor()](#getArgbColor--) | the color with a 32-bit ARGB value. |
+| [getCapsType()](#getCapsType--) | the text caps type. |
 | [getCharset()](#getCharset--) | Represent the character set. |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | Gets or sets the [Color](../../com.aspose.cells/color) of the font. |
-| [getDoubleSize()](#getDoubleSize--) | Gets and sets the double size of the font. |
-| [getName()](#getName--) | Gets or sets the name of the [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--). |
-| [getSchemeType()](#getSchemeType--) | Gets and sets the scheme type of the font. |
-| [getScriptOffset()](#getScriptOffset--) | Gets and sets the script offset,in unit of percentage |
-| [getSize()](#getSize--) | Gets or sets the size of the font. |
+| [getColor()](#getColor--) | the [Color](../../com.aspose.cells/color) of the font. |
+| [getDoubleSize()](#getDoubleSize--) | the double size of the font. |
+| [getName()](#getName--) | the name of the [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--). |
+| [getSchemeType()](#getSchemeType--) | the scheme type of the font. |
+| [getScriptOffset()](#getScriptOffset--) | the script offset,in unit of percentage |
+| [getSize()](#getSize--) | the size of the font. |
 | [getStrikeType()](#getStrikeType--) | Gets the strike type of the text. |
-| [getThemeColor()](#getThemeColor--) | Gets and sets the theme color. |
-| [getUnderline()](#getUnderline--) | Gets or sets the font underline type. |
+| [getThemeColor()](#getThemeColor--) | the theme color. |
+| [getUnderline()](#getUnderline--) | the font underline type. |
 | [hashCode()](#hashCode--) |  |
-| [isBold()](#isBold--) | Gets or sets a value indicating whether the font is bold. |
-| [isItalic()](#isItalic--) | Gets or sets a value indicating whether the font is italic. |
+| [isBold()](#isBold--) | a value indicating whether the font is bold. |
+| [isItalic()](#isItalic--) | a value indicating whether the font is italic. |
 | [isNormalizeHeights()](#isNormalizeHeights--) | Indicates whether the normalization of height that is to be applied to the text run. |
-| [isStrikeout()](#isStrikeout--) | Gets or sets a value indicating whether the font is single strikeout. |
-| [isSubscript()](#isSubscript--) | Gets or sets a value indicating whether the font is subscript. |
-| [isSuperscript()](#isSuperscript--) | Gets or sets a value indicating whether the font is super script. |
+| [isStrikeout()](#isStrikeout--) | a value indicating whether the font is single strikeout. |
+| [isSubscript()](#isSubscript--) | a value indicating whether the font is subscript. |
+| [isSuperscript()](#isSuperscript--) | a value indicating whether the font is super script. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setArgbColor(int value)](#setArgbColor-int-) | For the description of this property, please see [getArgbColor()](../../com.aspose.cells/font\#getArgbColor--) |
@@ -128,7 +128,7 @@ public int getArgbColor()
 ```
 
 
-Gets and sets the color with a 32-bit ARGB value.
+the color with a 32-bit ARGB value.
 
 **Returns:**
 int
@@ -138,7 +138,7 @@ public int getCapsType()
 ```
 
 
-Gets and sets the text caps type.
+the text caps type.
 
 **Returns:**
 int
@@ -168,7 +168,7 @@ public Color getColor()
 ```
 
 
-Gets or sets the [Color](../../com.aspose.cells/color) of the font.
+the [Color](../../com.aspose.cells/color) of the font.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -178,7 +178,7 @@ public double getDoubleSize()
 ```
 
 
-Gets and sets the double size of the font.
+the double size of the font.
 
 **Returns:**
 double
@@ -188,7 +188,7 @@ public String getName()
 ```
 
 
-Gets or sets the name of the [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--).
+the name of the [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--).
 
 **Returns:**
 java.lang.String
@@ -198,7 +198,7 @@ public int getSchemeType()
 ```
 
 
-Gets and sets the scheme type of the font.
+the scheme type of the font.
 
 **Returns:**
 int
@@ -208,7 +208,7 @@ public double getScriptOffset()
 ```
 
 
-Gets and sets the script offset,in unit of percentage
+the script offset,in unit of percentage
 
 **Returns:**
 double
@@ -218,7 +218,7 @@ public int getSize()
 ```
 
 
-Gets or sets the size of the font.
+the size of the font.
 
 **Returns:**
 int
@@ -238,7 +238,7 @@ public ThemeColor getThemeColor()
 ```
 
 
-Gets and sets the theme color. If the font color is not a theme color, NULL will be returned.
+the theme color. If the font color is not a theme color, NULL will be returned.
 
 **Returns:**
 [ThemeColor](../../com.aspose.cells/themecolor)
@@ -248,7 +248,7 @@ public int getUnderline()
 ```
 
 
-Gets or sets the font underline type.
+the font underline type.
 
 **Returns:**
 int
@@ -268,7 +268,7 @@ public boolean isBold()
 ```
 
 
-Gets or sets a value indicating whether the font is bold.
+a value indicating whether the font is bold.
 
 **Returns:**
 boolean
@@ -278,7 +278,7 @@ public boolean isItalic()
 ```
 
 
-Gets or sets a value indicating whether the font is italic.
+a value indicating whether the font is italic.
 
 **Returns:**
 boolean
@@ -298,7 +298,7 @@ public boolean isStrikeout()
 ```
 
 
-Gets or sets a value indicating whether the font is single strikeout.
+a value indicating whether the font is single strikeout.
 
 **Returns:**
 boolean
@@ -308,7 +308,7 @@ public boolean isSubscript()
 ```
 
 
-Gets or sets a value indicating whether the font is subscript.
+a value indicating whether the font is subscript.
 
 **Returns:**
 boolean
@@ -318,7 +318,7 @@ public boolean isSuperscript()
 ```
 
 
-Gets or sets a value indicating whether the font is super script.
+a value indicating whether the font is super script.
 
 **Returns:**
 boolean

@@ -14,18 +14,13 @@ public class ShapeGuide extends BaseShapeGuide
 ```
 
 Encapsulates a shape guide specifies the presence of a shape guide that will be used to govern the geometry of the specified shape
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ShapeGuide()](#ShapeGuide--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getValue()](#getValue--) | Gets or sets value of this guide |
+| [getValue()](#getValue--) | value of this guide |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -34,12 +29,6 @@ Encapsulates a shape guide specifies the presence of a shape guide that will be 
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ShapeGuide() {#ShapeGuide--}
-```
-public ShapeGuide()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -71,7 +60,7 @@ public double getValue()
 ```
 
 
-Gets or sets value of this guide
+value of this guide
 
 **Returns:**
 double

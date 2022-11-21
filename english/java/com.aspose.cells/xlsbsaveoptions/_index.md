@@ -28,7 +28,7 @@ Represents the options for saving xlsb file.
 | [getCachedFileFolder()](#getCachedFileFolder--) | The cached file folder is used to store some large data. |
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
-| [getCompressionType()](#getCompressionType--) | Gets and sets the compression type for ooxml file. |
+| [getCompressionType()](#getCompressionType--) | the compression type for ooxml file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [getExportAllColumnIndexes()](#getExportAllColumnIndexes--) | Indicates whether exporting all column indexes for cells. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
@@ -38,7 +38,7 @@ Represents the options for saving xlsb file.
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
-| [getWarningCallback()](#getWarningCallback--) | Gets or sets warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | warning callback. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -130,7 +130,7 @@ public int getCompressionType()
 ```
 
 
-Gets and sets the compression type for ooxml file. The default value is OoxmlCompressionType.Level6.
+the compression type for ooxml file. The default value is OoxmlCompressionType.Level6.
 
 **Returns:**
 int
@@ -230,7 +230,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Gets or sets warning callback.
+warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)

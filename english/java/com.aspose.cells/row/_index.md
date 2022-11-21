@@ -49,11 +49,6 @@ Represents a single row in a worksheet.
          //Saving the Excel file
          workbook.save("book1.xls");
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Row()](#Row--) |  |
 ## Methods
 
 | Method | Description |
@@ -69,7 +64,7 @@ Represents a single row in a worksheet.
 | [getFirstCell()](#getFirstCell--) | Gets the first cell object in the row. |
 | [getFirstDataCell()](#getFirstDataCell--) | Gets the first non-blank cell in the row. |
 | [getGroupLevel()](#getGroupLevel--) | Gets the group level of the row. |
-| [getHeight()](#getHeight--) | Gets and sets the row height in unit of Points. |
+| [getHeight()](#getHeight--) | the row height in unit of Points. |
 | [getIndex()](#getIndex--) | Gets the index of this row. |
 | [getLastCell()](#getLastCell--) | Gets the last cell object in the row. |
 | [getLastDataCell()](#getLastDataCell--) | Gets the last non-blank cell in the row. |
@@ -90,12 +85,6 @@ Represents a single row in a worksheet.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### Row() {#Row--}
-```
-public Row()
-```
-
-
 ### applyStyle(Style style, StyleFlag flag) {#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-}
 ```
 public void applyStyle(Style style, StyleFlag flag)
@@ -245,7 +234,7 @@ public double getHeight()
 ```
 
 
-Gets and sets the row height in unit of Points.
+the row height in unit of Points.
 
 **Returns:**
 double

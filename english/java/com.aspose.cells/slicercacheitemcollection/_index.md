@@ -70,11 +70,6 @@ Workbook book = new Workbook();
          //do your business
          book.save("out.xlsx");
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SlicerCacheItemCollection()](#SlicerCacheItemCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -96,12 +91,6 @@ Workbook book = new Workbook();
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### SlicerCacheItemCollection() {#SlicerCacheItemCollection--}
-```
-public SlicerCacheItemCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

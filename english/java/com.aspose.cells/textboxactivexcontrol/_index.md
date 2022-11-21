@@ -14,45 +14,40 @@ public class TextBoxActiveXControl extends ActiveXControl
 ```
 
 Represents a text box ActiveX control.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TextBoxActiveXControl()](#TextBoxActiveXControl--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBackOleColor()](#getBackOleColor--) | Gets and sets the ole color of the background. |
-| [getBorderOleColor()](#getBorderOleColor--) | Gets and sets the ole color of the background. |
-| [getBorderStyle()](#getBorderStyle--) | Gets and set the type of border used by the control. |
+| [getBackOleColor()](#getBackOleColor--) | the ole color of the background. |
+| [getBorderOleColor()](#getBorderOleColor--) | the ole color of the background. |
+| [getBorderStyle()](#getBorderStyle--) | the type of border used by the control. |
 | [getClass()](#getClass--) |  |
-| [getData()](#getData--) | Gets and sets the binary data of the control. |
+| [getData()](#getData--) | the binary data of the control. |
 | [getDropButtonStyle()](#getDropButtonStyle--) | Specifies the symbol displayed on the drop button |
 | [getEnterFieldBehavior()](#getEnterFieldBehavior--) | Specifies selection behavior when entering the control. |
 | [getEnterKeyBehavior()](#getEnterKeyBehavior--) | Specifies the behavior of the ENTER key. |
 | [getFont()](#getFont--) | Represents the font of the control. |
-| [getForeOleColor()](#getForeOleColor--) | Gets and sets the ole color of the foreground. |
-| [getHeight()](#getHeight--) | Gets and sets the height of the control in unit of points. |
+| [getForeOleColor()](#getForeOleColor--) | the ole color of the foreground. |
+| [getHeight()](#getHeight--) | the height of the control in unit of points. |
 | [getHideSelection()](#getHideSelection--) | Indicates whether selected text in the control appears highlighted when the control does not have focus. |
-| [getIMEMode()](#getIMEMode--) | Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus. |
+| [getIMEMode()](#getIMEMode--) | the default run-time mode of the Input Method Editor for the control as it receives focus. |
 | [getIntegralHeight()](#getIntegralHeight--) | Indicates whether the control will only show complete lines of text without showing any partial lines. |
-| [getLinkedCell()](#getLinkedCell--) | Gets and sets the linked cell. |
-| [getListFillRange()](#getListFillRange--) | Gets and sets the list fill range. |
-| [getMaxLength()](#getMaxLength--) | Gets and sets the maximum number of characters |
-| [getMouseIcon()](#getMouseIcon--) | Gets and sets a custom icon to display as the mouse pointer for the control. |
-| [getMousePointer()](#getMousePointer--) | Gets and sets the type of icon displayed as the mouse pointer for the control. |
-| [getPasswordChar()](#getPasswordChar--) | Gets and sets a character to be displayed in place of the characters entered. |
+| [getLinkedCell()](#getLinkedCell--) | the linked cell. |
+| [getListFillRange()](#getListFillRange--) | the list fill range. |
+| [getMaxLength()](#getMaxLength--) | the maximum number of characters |
+| [getMouseIcon()](#getMouseIcon--) | a custom icon to display as the mouse pointer for the control. |
+| [getMousePointer()](#getMousePointer--) | the type of icon displayed as the mouse pointer for the control. |
+| [getPasswordChar()](#getPasswordChar--) | a character to be displayed in place of the characters entered. |
 | [getScrollBars()](#getScrollBars--) | Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither. |
 | [getShadow()](#getShadow--) | Indicates whether to show a shadow. |
 | [getShowDropButtonTypeWhen()](#getShowDropButtonTypeWhen--) | Specifies the symbol displayed on the drop button |
-| [getSpecialEffect()](#getSpecialEffect--) | Gets and sets the special effect of the control. |
+| [getSpecialEffect()](#getSpecialEffect--) | the special effect of the control. |
 | [getTabKeyBehavior()](#getTabKeyBehavior--) | Indicates whether tab characters are allowed in the text of the control. |
-| [getText()](#getText--) | Gets and set text of the control. |
+| [getText()](#getText--) | text of the control. |
 | [getTextAlign()](#getTextAlign--) | Represents how to align the text used by the control. |
 | [getType()](#getType--) | Gets the type of the ActiveX control. |
-| [getWidth()](#getWidth--) | Gets and sets the width of the control in unit of points. |
+| [getWidth()](#getWidth--) | the width of the control in unit of points. |
 | [getWorkbook()](#getWorkbook--) | Gets the [Workbook](../../com.aspose.cells/workbook) object. |
 | [hashCode()](#hashCode--) |  |
 | [isAutoSize()](#isAutoSize--) | Indicates whether the control will automatically resize to display its entire contents. |
@@ -108,12 +103,6 @@ Represents a text box ActiveX control.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### TextBoxActiveXControl() {#TextBoxActiveXControl--}
-```
-public TextBoxActiveXControl()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -135,7 +124,7 @@ public int getBackOleColor()
 ```
 
 
-Gets and sets the ole color of the background.
+the ole color of the background.
 
 **Returns:**
 int
@@ -145,7 +134,7 @@ public int getBorderOleColor()
 ```
 
 
-Gets and sets the ole color of the background.
+the ole color of the background.
 
 **Returns:**
 int
@@ -155,7 +144,7 @@ public int getBorderStyle()
 ```
 
 
-Gets and set the type of border used by the control.
+the type of border used by the control.
 
 **Returns:**
 int
@@ -175,7 +164,7 @@ public byte[] getData()
 ```
 
 
-Gets and sets the binary data of the control.
+the binary data of the control.
 
 **Returns:**
 byte[]
@@ -225,7 +214,7 @@ public int getForeOleColor()
 ```
 
 
-Gets and sets the ole color of the foreground. Not applies to Image control.
+the ole color of the foreground. Not applies to Image control.
 
 **Returns:**
 int
@@ -235,7 +224,7 @@ public double getHeight()
 ```
 
 
-Gets and sets the height of the control in unit of points.
+the height of the control in unit of points.
 
 **Returns:**
 double
@@ -255,7 +244,7 @@ public int getIMEMode()
 ```
 
 
-Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus.
+the default run-time mode of the Input Method Editor for the control as it receives focus.
 
 **Returns:**
 int
@@ -275,7 +264,7 @@ public String getLinkedCell()
 ```
 
 
-Gets and sets the linked cell.
+the linked cell.
 
 **Returns:**
 java.lang.String
@@ -285,7 +274,7 @@ public String getListFillRange()
 ```
 
 
-Gets and sets the list fill range.
+the list fill range.
 
 **Returns:**
 java.lang.String
@@ -295,7 +284,7 @@ public int getMaxLength()
 ```
 
 
-Gets and sets the maximum number of characters
+the maximum number of characters
 
 **Returns:**
 int
@@ -305,7 +294,7 @@ public byte[] getMouseIcon()
 ```
 
 
-Gets and sets a custom icon to display as the mouse pointer for the control.
+a custom icon to display as the mouse pointer for the control.
 
 **Returns:**
 byte[]
@@ -315,7 +304,7 @@ public int getMousePointer()
 ```
 
 
-Gets and sets the type of icon displayed as the mouse pointer for the control.
+the type of icon displayed as the mouse pointer for the control.
 
 **Returns:**
 int
@@ -325,7 +314,7 @@ public char getPasswordChar()
 ```
 
 
-Gets and sets a character to be displayed in place of the characters entered.
+a character to be displayed in place of the characters entered.
 
 **Returns:**
 char
@@ -365,7 +354,7 @@ public int getSpecialEffect()
 ```
 
 
-Gets and sets the special effect of the control.
+the special effect of the control.
 
 **Returns:**
 int
@@ -385,7 +374,7 @@ public String getText()
 ```
 
 
-Gets and set text of the control.
+text of the control.
 
 **Returns:**
 java.lang.String
@@ -415,7 +404,7 @@ public double getWidth()
 ```
 
 
-Gets and sets the width of the control in unit of points.
+the width of the control in unit of points.
 
 **Returns:**
 double

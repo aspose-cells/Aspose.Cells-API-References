@@ -14,11 +14,6 @@ public class WebExtensionCollection extends CollectionBase
 ```
 
 Represents the list of web extension.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [WebExtensionCollection()](#WebExtensionCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -42,12 +37,6 @@ Represents the list of web extension.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### WebExtensionCollection() {#WebExtensionCollection--}
-```
-public WebExtensionCollection()
-```
-
-
 ### add() {#add--}
 ```
 public int add()

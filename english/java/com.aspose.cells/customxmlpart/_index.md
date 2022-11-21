@@ -20,9 +20,9 @@ Represents a Custom XML Data Storage Part (custom XML data within a package).
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getData()](#getData--) | Gets or sets the XML content of this Custom XML Data Storage Part. |
-| [getID()](#getID--) | Gets and sets the id of the custom xml part. |
-| [getSchemaData()](#getSchemaData--) | Gets or sets the XML content of this Custom XML Schema Data Storage Part. |
+| [getData()](#getData--) | the XML content of this Custom XML Data Storage Part. |
+| [getID()](#getID--) | the id of the custom xml part. |
+| [getSchemaData()](#getSchemaData--) | the XML content of this Custom XML Schema Data Storage Part. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -64,7 +64,7 @@ public byte[] getData()
 ```
 
 
-Gets or sets the XML content of this Custom XML Data Storage Part.
+the XML content of this Custom XML Data Storage Part.
 
 **Returns:**
 byte[]
@@ -74,7 +74,7 @@ public String getID()
 ```
 
 
-Gets and sets the id of the custom xml part.
+the id of the custom xml part.
 
 **Returns:**
 java.lang.String
@@ -84,7 +84,7 @@ public byte[] getSchemaData()
 ```
 
 
-Gets or sets the XML content of this Custom XML Schema Data Storage Part.
+the XML content of this Custom XML Schema Data Storage Part.
 
 **Returns:**
 byte[]

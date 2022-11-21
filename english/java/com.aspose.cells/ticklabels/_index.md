@@ -20,15 +20,15 @@ Represents the tick-mark labels associated with tick marks on a chart axis.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
-| [getBackgroundMode()](#getBackgroundMode--) | Gets and sets the display mode of the background |
+| [getBackgroundMode()](#getBackgroundMode--) | the display mode of the background |
 | [getClass()](#getClass--) |  |
-| [getDirectionType()](#getDirectionType--) | Gets and sets the direction of text. |
-| [getDisplayNumberFormat()](#getDisplayNumberFormat--) | Gets and sets the display number format of tick labels. |
+| [getDirectionType()](#getDirectionType--) | the direction of text. |
+| [getDisplayNumberFormat()](#getDisplayNumberFormat--) | the display number format of tick labels. |
 | [getFont()](#getFont--) | Returns a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object that represents the font of the specified TickLabels object. |
 | [getNumber()](#getNumber--) | Represents the format number for the TickLabels object. |
 | [getNumberFormat()](#getNumberFormat--) | Represents the format string for the TickLabels object. |
 | [getNumberFormatLinked()](#getNumberFormatLinked--) | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
-| [getOffset()](#getOffset--) | Gets and sets the distance of labels from the axis. |
+| [getOffset()](#getOffset--) | the distance of labels from the axis. |
 | [getReadingOrder()](#getReadingOrder--) | Represents text reading order. |
 | [getRotationAngle()](#getRotationAngle--) | Represents text rotation angle in clockwise. |
 | [getTextDirection()](#getTextDirection--) | Represents text reading order. |
@@ -83,7 +83,7 @@ public int getBackgroundMode()
 ```
 
 
-Gets and sets the display mode of the background
+the display mode of the background
 
 **Returns:**
 int
@@ -103,7 +103,7 @@ public int getDirectionType()
 ```
 
 
-Gets and sets the direction of text.
+the direction of text.
 
 **Returns:**
 int
@@ -113,7 +113,7 @@ public String getDisplayNumberFormat()
 ```
 
 
-Gets and sets the display number format of tick labels.
+the display number format of tick labels.
 
 **Returns:**
 java.lang.String
@@ -163,7 +163,7 @@ public int getOffset()
 ```
 
 
-Gets and sets the distance of labels from the axis. The default distance is 100 percent, which represents the default spacing between the axis labels and the axis line. The value can be an integer percentage from 0 through 1000, relative to the axis label\\u9225\\u6a9a font size.
+the distance of labels from the axis. The default distance is 100 percent, which represents the default spacing between the axis labels and the axis line. The value can be an integer percentage from 0 through 1000, relative to the axis label\\u9225\\u6a9a font size.
 
 **Returns:**
 int

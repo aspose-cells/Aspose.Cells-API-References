@@ -14,11 +14,6 @@ public class FontSettingCollection extends CollectionBase
 ```
 
 Represents the list of [FontSetting](../../com.aspose.cells/fontsetting).
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [FontSettingCollection()](#FontSettingCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -33,9 +28,9 @@ Represents the list of [FontSetting](../../com.aspose.cells/fontsetting).
 | [get(int index)](#get-int-) | Gets the [FontSetting](../../com.aspose.cells/fontsetting) by the index. |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
-| [getHtmlString()](#getHtmlString--) | Gets and sets the html string which contains data and some formats in this shape. |
+| [getHtmlString()](#getHtmlString--) | the html string which contains data and some formats in this shape. |
 | [getParagraphEnumerator()](#getParagraphEnumerator--) | Gets the enumerator of the paragraphs. |
-| [getText()](#getText--) | Gets and sets the text of the shape. |
+| [getText()](#getText--) | the text of the shape. |
 | [getTextAlignment()](#getTextAlignment--) | Represents the alignment setting of the text body. |
 | [getTextParagraphs()](#getTextParagraphs--) | Gets all paragraphs. |
 | [hashCode()](#hashCode--) |  |
@@ -54,12 +49,6 @@ Represents the list of [FontSetting](../../com.aspose.cells/fontsetting).
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### FontSettingCollection() {#FontSettingCollection--}
-```
-public FontSettingCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)
@@ -197,7 +186,7 @@ public String getHtmlString()
 ```
 
 
-Gets and sets the html string which contains data and some formats in this shape.
+the html string which contains data and some formats in this shape.
 
 **Returns:**
 java.lang.String
@@ -217,7 +206,7 @@ public String getText()
 ```
 
 
-Gets and sets the text of the shape.
+the text of the shape.
 
 **Returns:**
 java.lang.String

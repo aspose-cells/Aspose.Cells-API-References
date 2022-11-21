@@ -17,11 +17,6 @@ public class PivotItemCollection implements Iterable
 ```
 
 Represents a collection of all the PivotItem objects in the PivotField's
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PivotItemCollection()](#PivotItemCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -40,12 +35,6 @@ Represents a collection of all the PivotItem objects in the PivotField's
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### PivotItemCollection() {#PivotItemCollection--}
-```
-public PivotItemCollection()
-```
-
-
 ### changeitemsOrder(int sourceIndex, int destIndex) {#changeitemsOrder-int-int-}
 ```
 public void changeitemsOrder(int sourceIndex, int destIndex)

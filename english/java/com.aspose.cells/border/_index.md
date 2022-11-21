@@ -33,11 +33,11 @@ Workbook workbook = new Workbook();
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getArgbColor()](#getArgbColor--) | Gets and sets the color with a 32-bit ARGB value. |
+| [getArgbColor()](#getArgbColor--) | the color with a 32-bit ARGB value. |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | Gets or sets the [Color](../../com.aspose.cells/color) of the border. |
-| [getLineStyle()](#getLineStyle--) | Gets or sets the cell border type. |
-| [getThemeColor()](#getThemeColor--) | Gets and sets the theme color of the border. |
+| [getColor()](#getColor--) | the [Color](../../com.aspose.cells/color) of the border. |
+| [getLineStyle()](#getLineStyle--) | the cell border type. |
+| [getThemeColor()](#getThemeColor--) | the theme color of the border. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -70,7 +70,7 @@ public int getArgbColor()
 ```
 
 
-Gets and sets the color with a 32-bit ARGB value.
+the color with a 32-bit ARGB value.
 
 **Returns:**
 int
@@ -90,7 +90,7 @@ public Color getColor()
 ```
 
 
-Gets or sets the [Color](../../com.aspose.cells/color) of the border.
+the [Color](../../com.aspose.cells/color) of the border.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -100,7 +100,7 @@ public int getLineStyle()
 ```
 
 
-Gets or sets the cell border type.
+the cell border type.
 
 **Returns:**
 int
@@ -110,7 +110,7 @@ public ThemeColor getThemeColor()
 ```
 
 
-Gets and sets the theme color of the border.
+the theme color of the border.
 
 **Returns:**
 [ThemeColor](../../com.aspose.cells/themecolor)

@@ -14,11 +14,6 @@ public class GradientStopCollection extends CollectionBase
 ```
 
 Represents the gradient stop collection.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [GradientStopCollection()](#GradientStopCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -43,12 +38,6 @@ Represents the gradient stop collection.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### GradientStopCollection() {#GradientStopCollection--}
-```
-public GradientStopCollection()
-```
-
-
 ### add(double position, CellsColor color, int alpha) {#add-double-com.aspose.cells.CellsColor-int-}
 ```
 public void add(double position, CellsColor color, int alpha)

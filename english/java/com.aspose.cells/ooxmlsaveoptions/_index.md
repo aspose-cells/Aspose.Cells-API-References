@@ -28,7 +28,7 @@ Represents the options of saving office open xml file.
 | [getCachedFileFolder()](#getCachedFileFolder--) | The cached file folder is used to store some large data. |
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
-| [getCompressionType()](#getCompressionType--) | Gets and sets the compression type for ooxml file. |
+| [getCompressionType()](#getCompressionType--) | the compression type for ooxml file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [getEmbedOoxmlAsOleObject()](#getEmbedOoxmlAsOleObject--) | Indicates whether embedding Ooxml files of OleObject as ole object. |
 | [getEnableZip64()](#getEnableZip64--) | Always use ZIP64 extensions when writing zip archives, even when unnecessary. |
@@ -42,7 +42,7 @@ Represents the options of saving office open xml file.
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getUpdateZoom()](#getUpdateZoom--) | Indicates whether update scaling factor before saving the file if the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
-| [getWarningCallback()](#getWarningCallback--) | Gets or sets warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | warning callback. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -138,7 +138,7 @@ public int getCompressionType()
 ```
 
 
-Gets and sets the compression type for ooxml file. The default value is OoxmlCompressionType.Level2.
+the compression type for ooxml file. The default value is OoxmlCompressionType.Level2.
 
 **Returns:**
 int
@@ -278,7 +278,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Gets or sets warning callback.
+warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)

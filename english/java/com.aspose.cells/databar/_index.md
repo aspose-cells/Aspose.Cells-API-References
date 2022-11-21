@@ -98,18 +98,18 @@ Describe the DataBar conditional formatting rule. This conditional formatting ru
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAxisColor()](#getAxisColor--) | Gets the color of the axis for cells with conditional formatting as data bars. |
-| [getAxisPosition()](#getAxisPosition--) | Gets or sets the position of the axis of the data bars specified by a conditional formatting rule. |
+| [getAxisPosition()](#getAxisPosition--) | the position of the axis of the data bars specified by a conditional formatting rule. |
 | [getBarBorder()](#getBarBorder--) | Gets an object that specifies the border of a data bar. |
-| [getBarFillType()](#getBarFillType--) | Gets or sets how a data bar is filled with color. |
+| [getBarFillType()](#getBarFillType--) | how a data bar is filled with color. |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | Get or set this DataBar's Color. |
-| [getDirection()](#getDirection--) | Gets or sets the direction the databar is displayed. |
-| [getMaxCfvo()](#getMaxCfvo--) | Get or set this DataBar's max value object. |
+| [getColor()](#getColor--) | this DataBar's Color. |
+| [getDirection()](#getDirection--) | the direction the databar is displayed. |
+| [getMaxCfvo()](#getMaxCfvo--) | this DataBar's max value object. |
 | [getMaxLength()](#getMaxLength--) | Represents the max length of data bar . |
-| [getMinCfvo()](#getMinCfvo--) | Get or set this DataBar's min value object. |
+| [getMinCfvo()](#getMinCfvo--) | this DataBar's min value object. |
 | [getMinLength()](#getMinLength--) | Represents the min length of data bar . |
 | [getNegativeBarFormat()](#getNegativeBarFormat--) | Gets the NegativeBarFormat object associated with a data bar conditional formatting rule. |
-| [getShowValue()](#getShowValue--) | Get or set the flag indicating whether to show the values of the cells on which this data bar is applied. |
+| [getShowValue()](#getShowValue--) | the flag indicating whether to show the values of the cells on which this data bar is applied. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -157,7 +157,7 @@ public int getAxisPosition()
 ```
 
 
-Gets or sets the position of the axis of the data bars specified by a conditional formatting rule.
+the position of the axis of the data bars specified by a conditional formatting rule.
 
 **Returns:**
 int
@@ -177,7 +177,7 @@ public int getBarFillType()
 ```
 
 
-Gets or sets how a data bar is filled with color.
+how a data bar is filled with color.
 
 **Returns:**
 int
@@ -197,7 +197,7 @@ public Color getColor()
 ```
 
 
-Get or set this DataBar's Color.
+this DataBar's Color.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -207,7 +207,7 @@ public int getDirection()
 ```
 
 
-Gets or sets the direction the databar is displayed.
+the direction the databar is displayed.
 
 **Returns:**
 int
@@ -217,7 +217,7 @@ public ConditionalFormattingValue getMaxCfvo()
 ```
 
 
-Get or set this DataBar's max value object. Cannot set null or CFValueObject with type FormatConditionValueType.Min to it.
+this DataBar's max value object. Cannot set null or CFValueObject with type FormatConditionValueType.Min to it.
 
 **Returns:**
 [ConditionalFormattingValue](../../com.aspose.cells/conditionalformattingvalue)
@@ -237,7 +237,7 @@ public ConditionalFormattingValue getMinCfvo()
 ```
 
 
-Get or set this DataBar's min value object. Cannot set null or CFValueObject with type FormatConditionValueType.Max to it.
+this DataBar's min value object. Cannot set null or CFValueObject with type FormatConditionValueType.Max to it.
 
 **Returns:**
 [ConditionalFormattingValue](../../com.aspose.cells/conditionalformattingvalue)
@@ -267,7 +267,7 @@ public boolean getShowValue()
 ```
 
 
-Get or set the flag indicating whether to show the values of the cells on which this data bar is applied. Default value is true.
+the flag indicating whether to show the values of the cells on which this data bar is applied. Default value is true.
 
 **Returns:**
 boolean

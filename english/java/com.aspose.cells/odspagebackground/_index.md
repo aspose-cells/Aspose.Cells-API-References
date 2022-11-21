@@ -20,12 +20,12 @@ Represents the page background of ods.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | Gets and sets the color of background. |
-| [getGraphicData()](#getGraphicData--) | Gets and sets the graphic data. |
-| [getGraphicPositionType()](#getGraphicPositionType--) | Gets and set the background graphic position. |
-| [getGraphicType()](#getGraphicType--) | Gets and sets the page background graphic type. |
-| [getLinkedGraphic()](#getLinkedGraphic--) | Gets and sets the linked graphic path. |
-| [getType()](#getType--) | Gets and sets the page background type. |
+| [getColor()](#getColor--) | the color of background. |
+| [getGraphicData()](#getGraphicData--) | the graphic data. |
+| [getGraphicPositionType()](#getGraphicPositionType--) | the background graphic position. |
+| [getGraphicType()](#getGraphicType--) | the page background graphic type. |
+| [getLinkedGraphic()](#getLinkedGraphic--) | the linked graphic path. |
+| [getType()](#getType--) | the page background type. |
 | [hashCode()](#hashCode--) |  |
 | [isLink()](#isLink--) | Indicates whether it's a linked graphic. |
 | [notify()](#notify--) |  |
@@ -71,7 +71,7 @@ public Color getColor()
 ```
 
 
-Gets and sets the color of background.
+the color of background.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -81,7 +81,7 @@ public byte[] getGraphicData()
 ```
 
 
-Gets and sets the graphic data.
+the graphic data.
 
 **Returns:**
 byte[]
@@ -91,7 +91,7 @@ public int getGraphicPositionType()
 ```
 
 
-Gets and set the background graphic position.
+the background graphic position.
 
 **Returns:**
 int
@@ -101,7 +101,7 @@ public int getGraphicType()
 ```
 
 
-Gets and sets the page background graphic type.
+the page background graphic type.
 
 **Returns:**
 int
@@ -111,7 +111,7 @@ public String getLinkedGraphic()
 ```
 
 
-Gets and sets the linked graphic path.
+the linked graphic path.
 
 **Returns:**
 java.lang.String
@@ -121,7 +121,7 @@ public int getType()
 ```
 
 
-Gets and sets the page background type.
+the page background type.
 
 **Returns:**
 int

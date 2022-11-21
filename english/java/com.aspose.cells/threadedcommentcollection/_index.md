@@ -14,11 +14,6 @@ public class ThreadedCommentCollection extends CollectionBase
 ```
 
 Represents the list of threaded comments.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ThreadedCommentCollection()](#ThreadedCommentCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -41,12 +36,6 @@ Represents the list of threaded comments.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ThreadedCommentCollection() {#ThreadedCommentCollection--}
-```
-public ThreadedCommentCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

@@ -33,13 +33,13 @@ Represents Svg save options. For advanced usage, please use [WorkbookRender](../
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
-| [getSheetIndex()](#getSheetIndex--) | Gets and sets which worksheet should be exported. |
+| [getSheetIndex()](#getSheetIndex--) | which worksheet should be exported. |
 | [getSortExternalNames()](#getSortExternalNames--) | Indicates whether sorting external defined names before saving file. |
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
-| [getStreamProvider()](#getStreamProvider--) | Gets or sets the IStreamProvider for exporting objects. |
+| [getStreamProvider()](#getStreamProvider--) | the IStreamProvider for exporting objects. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
-| [getWarningCallback()](#getWarningCallback--) | Gets or sets warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | warning callback. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -181,7 +181,7 @@ public int getSheetIndex()
 ```
 
 
-Gets and sets which worksheet should be exported. If the value is -1, the active worksheet will be exported.
+which worksheet should be exported. If the value is -1, the active worksheet will be exported.
 
 **Returns:**
 int
@@ -211,7 +211,7 @@ public IStreamProvider getStreamProvider()
 ```
 
 
-Gets or sets the IStreamProvider for exporting objects. If saving as SVG or Tiff, this property is ignored . Otherwise, if more than one image should be saving, we will write other images by this.
+the IStreamProvider for exporting objects. If saving as SVG or Tiff, this property is ignored . Otherwise, if more than one image should be saving, we will write other images by this.
 
 **Returns:**
 [IStreamProvider](../../com.aspose.cells/istreamprovider)
@@ -241,7 +241,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Gets or sets warning callback.
+warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)

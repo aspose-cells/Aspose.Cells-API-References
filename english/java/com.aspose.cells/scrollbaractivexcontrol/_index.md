@@ -14,37 +14,32 @@ public class ScrollBarActiveXControl extends SpinButtonActiveXControl
 ```
 
 Represents the ScrollBar control.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ScrollBarActiveXControl()](#ScrollBarActiveXControl--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBackOleColor()](#getBackOleColor--) | Gets and sets the ole color of the background. |
+| [getBackOleColor()](#getBackOleColor--) | the ole color of the background. |
 | [getClass()](#getClass--) |  |
-| [getData()](#getData--) | Gets and sets the binary data of the control. |
+| [getData()](#getData--) | the binary data of the control. |
 | [getFont()](#getFont--) | Represents the font of the control. |
-| [getForeOleColor()](#getForeOleColor--) | Gets and sets the ole color of the foreground. |
-| [getHeight()](#getHeight--) | Gets and sets the height of the control in unit of points. |
-| [getIMEMode()](#getIMEMode--) | Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus. |
-| [getLargeChange()](#getLargeChange--) | Gets and sets the amount by which the Position property changes |
-| [getLinkedCell()](#getLinkedCell--) | Gets and sets the linked cell. |
-| [getListFillRange()](#getListFillRange--) | Gets and sets the list fill range. |
-| [getMax()](#getMax--) | Gets and sets the maximum acceptable value. |
-| [getMin()](#getMin--) | Gets and sets the minimum acceptable value. |
-| [getMouseIcon()](#getMouseIcon--) | Gets and sets a custom icon to display as the mouse pointer for the control. |
-| [getMousePointer()](#getMousePointer--) | Gets and sets the type of icon displayed as the mouse pointer for the control. |
-| [getOrientation()](#getOrientation--) | Gets and sets whether the SpinButton or ScrollBar is oriented vertically or horizontally. |
-| [getPosition()](#getPosition--) | Gets and sets the value. |
+| [getForeOleColor()](#getForeOleColor--) | the ole color of the foreground. |
+| [getHeight()](#getHeight--) | the height of the control in unit of points. |
+| [getIMEMode()](#getIMEMode--) | the default run-time mode of the Input Method Editor for the control as it receives focus. |
+| [getLargeChange()](#getLargeChange--) | the amount by which the Position property changes |
+| [getLinkedCell()](#getLinkedCell--) | the linked cell. |
+| [getListFillRange()](#getListFillRange--) | the list fill range. |
+| [getMax()](#getMax--) | the maximum acceptable value. |
+| [getMin()](#getMin--) | the minimum acceptable value. |
+| [getMouseIcon()](#getMouseIcon--) | a custom icon to display as the mouse pointer for the control. |
+| [getMousePointer()](#getMousePointer--) | the type of icon displayed as the mouse pointer for the control. |
+| [getOrientation()](#getOrientation--) | whether the SpinButton or ScrollBar is oriented vertically or horizontally. |
+| [getPosition()](#getPosition--) | the value. |
 | [getShadow()](#getShadow--) | Indicates whether to show a shadow. |
-| [getSmallChange()](#getSmallChange--) | Gets and sets the amount by which the Position property changes |
+| [getSmallChange()](#getSmallChange--) | the amount by which the Position property changes |
 | [getTextAlign()](#getTextAlign--) | Represents how to align the text used by the control. |
 | [getType()](#getType--) | Gets the type of the ActiveX control. |
-| [getWidth()](#getWidth--) | Gets and sets the width of the control in unit of points. |
+| [getWidth()](#getWidth--) | the width of the control in unit of points. |
 | [getWorkbook()](#getWorkbook--) | Gets the [Workbook](../../com.aspose.cells/workbook) object. |
 | [hashCode()](#hashCode--) |  |
 | [isAutoSize()](#isAutoSize--) | Indicates whether the control will automatically resize to display its entire contents. |
@@ -80,12 +75,6 @@ Represents the ScrollBar control.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ScrollBarActiveXControl() {#ScrollBarActiveXControl--}
-```
-public ScrollBarActiveXControl()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -107,7 +96,7 @@ public int getBackOleColor()
 ```
 
 
-Gets and sets the ole color of the background.
+the ole color of the background.
 
 **Returns:**
 int
@@ -127,7 +116,7 @@ public byte[] getData()
 ```
 
 
-Gets and sets the binary data of the control.
+the binary data of the control.
 
 **Returns:**
 byte[]
@@ -147,7 +136,7 @@ public int getForeOleColor()
 ```
 
 
-Gets and sets the ole color of the foreground. Not applies to Image control.
+the ole color of the foreground. Not applies to Image control.
 
 **Returns:**
 int
@@ -157,7 +146,7 @@ public double getHeight()
 ```
 
 
-Gets and sets the height of the control in unit of points.
+the height of the control in unit of points.
 
 **Returns:**
 double
@@ -167,7 +156,7 @@ public int getIMEMode()
 ```
 
 
-Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus.
+the default run-time mode of the Input Method Editor for the control as it receives focus.
 
 **Returns:**
 int
@@ -177,7 +166,7 @@ public int getLargeChange()
 ```
 
 
-Gets and sets the amount by which the Position property changes
+the amount by which the Position property changes
 
 **Returns:**
 int
@@ -187,7 +176,7 @@ public String getLinkedCell()
 ```
 
 
-Gets and sets the linked cell.
+the linked cell.
 
 **Returns:**
 java.lang.String
@@ -197,7 +186,7 @@ public String getListFillRange()
 ```
 
 
-Gets and sets the list fill range.
+the list fill range.
 
 **Returns:**
 java.lang.String
@@ -207,7 +196,7 @@ public int getMax()
 ```
 
 
-Gets and sets the maximum acceptable value.
+the maximum acceptable value.
 
 **Returns:**
 int
@@ -217,7 +206,7 @@ public int getMin()
 ```
 
 
-Gets and sets the minimum acceptable value.
+the minimum acceptable value.
 
 **Returns:**
 int
@@ -227,7 +216,7 @@ public byte[] getMouseIcon()
 ```
 
 
-Gets and sets a custom icon to display as the mouse pointer for the control.
+a custom icon to display as the mouse pointer for the control.
 
 **Returns:**
 byte[]
@@ -237,7 +226,7 @@ public int getMousePointer()
 ```
 
 
-Gets and sets the type of icon displayed as the mouse pointer for the control.
+the type of icon displayed as the mouse pointer for the control.
 
 **Returns:**
 int
@@ -247,7 +236,7 @@ public int getOrientation()
 ```
 
 
-Gets and sets whether the SpinButton or ScrollBar is oriented vertically or horizontally.
+whether the SpinButton or ScrollBar is oriented vertically or horizontally.
 
 **Returns:**
 int
@@ -257,7 +246,7 @@ public int getPosition()
 ```
 
 
-Gets and sets the value.
+the value.
 
 **Returns:**
 int
@@ -277,7 +266,7 @@ public int getSmallChange()
 ```
 
 
-Gets and sets the amount by which the Position property changes
+the amount by which the Position property changes
 
 **Returns:**
 int
@@ -307,7 +296,7 @@ public double getWidth()
 ```
 
 
-Gets and sets the width of the control in unit of points.
+the width of the control in unit of points.
 
 **Returns:**
 double

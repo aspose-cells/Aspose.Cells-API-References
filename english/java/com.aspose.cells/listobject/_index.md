@@ -45,27 +45,27 @@ Workbook workbook = new Workbook();
 | [convertToRange(TableToRangeOptions options)](#convertToRange-com.aspose.cells.TableToRangeOptions-) | Convert the table to range. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [filter()](#filter--) | Filter the table. |
-| [getAlternativeDescription()](#getAlternativeDescription--) | Gets and sets the alternative description. |
-| [getAlternativeText()](#getAlternativeText--) | Gets and sets the alternative text. |
+| [getAlternativeDescription()](#getAlternativeDescription--) | the alternative description. |
+| [getAlternativeText()](#getAlternativeText--) | the alternative text. |
 | [getAutoFilter()](#getAutoFilter--) | Gets auto filter. |
 | [getClass()](#getClass--) |  |
-| [getComment()](#getComment--) | Gets and sets the comment of the table. |
+| [getComment()](#getComment--) | the comment of the table. |
 | [getDataRange()](#getDataRange--) | Gets the data range of the ListObject. |
 | [getDataSourceType()](#getDataSourceType--) | Gets the data source type of the table. |
-| [getDisplayName()](#getDisplayName--) | Gets and sets the display name. |
+| [getDisplayName()](#getDisplayName--) | the display name. |
 | [getEndColumn()](#getEndColumn--) | Gets the end column of the range. |
 | [getEndRow()](#getEndRow--) | Gets the end row of the range. |
 | [getListColumns()](#getListColumns--) | Gets ListColumns of the ListObject. |
 | [getQueryTable()](#getQueryTable--) | Gets the linked QueryTable. |
-| [getShowHeaderRow()](#getShowHeaderRow--) | Gets and sets whether this ListObject show header row. |
+| [getShowHeaderRow()](#getShowHeaderRow--) | whether this ListObject show header row. |
 | [getShowTableStyleColumnStripes()](#getShowTableStyleColumnStripes--) | Indicates whether column stripe formatting is applied. |
 | [getShowTableStyleFirstColumn()](#getShowTableStyleFirstColumn--) | Indicates whether the first column in the table should have the style applied. |
 | [getShowTableStyleLastColumn()](#getShowTableStyleLastColumn--) | Indicates whether the last column in the table should have the style applied. |
 | [getShowTableStyleRowStripes()](#getShowTableStyleRowStripes--) | Indicates whether row stripe formatting is applied. |
-| [getShowTotals()](#getShowTotals--) | Gets and sets whether this ListObject show total row. |
+| [getShowTotals()](#getShowTotals--) | whether this ListObject show total row. |
 | [getStartColumn()](#getStartColumn--) | Gets the start column of the range. |
 | [getStartRow()](#getStartRow--) | Gets the start row of the range. |
-| [getTableStyleName()](#getTableStyleName--) | Gets and sets the table style name. |
+| [getTableStyleName()](#getTableStyleName--) | the table style name. |
 | [getTableStyleType()](#getTableStyleType--) | Gets and the built-in table style. |
 | [getXmlMap()](#getXmlMap--) | Gets an [getXmlMap()](../../com.aspose.cells/listobject\#getXmlMap--) used for this list. |
 | [hashCode()](#hashCode--) |  |
@@ -150,7 +150,7 @@ public String getAlternativeDescription()
 ```
 
 
-Gets and sets the alternative description.
+the alternative description.
 
 **Returns:**
 java.lang.String
@@ -160,7 +160,7 @@ public String getAlternativeText()
 ```
 
 
-Gets and sets the alternative text.
+the alternative text.
 
 **Returns:**
 java.lang.String
@@ -190,7 +190,7 @@ public String getComment()
 ```
 
 
-Gets and sets the comment of the table.
+the comment of the table.
 
 **Returns:**
 java.lang.String
@@ -220,7 +220,7 @@ public String getDisplayName()
 ```
 
 
-Gets and sets the display name.
+the display name.
 
 **Returns:**
 java.lang.String
@@ -270,7 +270,7 @@ public boolean getShowHeaderRow()
 ```
 
 
-Gets and sets whether this ListObject show header row.
+whether this ListObject show header row.
 
 **Returns:**
 boolean
@@ -320,7 +320,7 @@ public boolean getShowTotals()
 ```
 
 
-Gets and sets whether this ListObject show total row.
+whether this ListObject show total row.
 
 **Returns:**
 boolean
@@ -350,7 +350,7 @@ public String getTableStyleName()
 ```
 
 
-Gets and sets the table style name.
+the table style name.
 
 **Returns:**
 java.lang.String

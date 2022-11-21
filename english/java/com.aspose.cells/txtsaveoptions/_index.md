@@ -30,26 +30,26 @@ Represents the save options for csv/tab delimited/other text format.
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
-| [getEncoding()](#getEncoding--) | Gets and sets the default encoding. |
+| [getEncoding()](#getEncoding--) | the default encoding. |
 | [getExportAllSheets()](#getExportAllSheets--) | Indicates whether exporting all sheets to the text file. |
 | [getExportArea()](#getExportArea--) | The range of cells to be exported. |
 | [getExportQuotePrefix()](#getExportQuotePrefix--) | Indicates whether the single quote sign should be exported as part of the value of one cell when [Style.getQuotePrefix()](../../com.aspose.cells/style\#getQuotePrefix--) is true for it. |
-| [getFormatStrategy()](#getFormatStrategy--) | Gets and sets the format strategy when exporting the cell value as string. |
+| [getFormatStrategy()](#getFormatStrategy--) | the format strategy when exporting the cell value as string. |
 | [getKeepSeparatorsForBlankRow()](#getKeepSeparatorsForBlankRow--) | Indicates whether separators should be output for blank row. |
 | [getLightCellsDataProvider()](#getLightCellsDataProvider--) | The Data provider to provide cells data for saving workbook in light mode. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [getQuoteType()](#getQuoteType--) | Gets or sets how to quote values in the exported text file. |
+| [getQuoteType()](#getQuoteType--) | how to quote values in the exported text file. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
-| [getSeparator()](#getSeparator--) | Gets and sets char Delimiter of text file. |
-| [getSeparatorString()](#getSeparatorString--) | Gets and sets a string value as separator. |
+| [getSeparator()](#getSeparator--) | char Delimiter of text file. |
+| [getSeparatorString()](#getSeparatorString--) | a string value as separator. |
 | [getSortExternalNames()](#getSortExternalNames--) | Indicates whether sorting external defined names before saving file. |
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
 | [getTrimLeadingBlankRowAndColumn()](#getTrimLeadingBlankRowAndColumn--) | Indicates whether leading blank rows and columns should be trimmed like what ms excel does. |
 | [getTrimTailingBlankCells()](#getTrimTailingBlankCells--) | Indicates whether tailing blank cells in one row should be trimmed. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
-| [getWarningCallback()](#getWarningCallback--) | Gets or sets warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | warning callback. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -172,7 +172,7 @@ public Encoding getEncoding()
 ```
 
 
-Gets and sets the default encoding.
+the default encoding.
 
 **Returns:**
 [Encoding](../../com.aspose.cells/encoding)
@@ -212,7 +212,7 @@ public int getFormatStrategy()
 ```
 
 
-Gets and sets the format strategy when exporting the cell value as string.
+the format strategy when exporting the cell value as string.
 
 **Returns:**
 int
@@ -252,7 +252,7 @@ public int getQuoteType()
 ```
 
 
-Gets or sets how to quote values in the exported text file.
+how to quote values in the exported text file.
 
 **Returns:**
 int
@@ -282,7 +282,7 @@ public char getSeparator()
 ```
 
 
-Gets and sets char Delimiter of text file.
+char Delimiter of text file.
 
 **Returns:**
 char
@@ -292,7 +292,7 @@ public String getSeparatorString()
 ```
 
 
-Gets and sets a string value as separator.
+a string value as separator.
 
 **Returns:**
 java.lang.String
@@ -362,7 +362,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Gets or sets warning callback.
+warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)

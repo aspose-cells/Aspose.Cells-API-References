@@ -21,12 +21,12 @@ Describe the ColorScale conditional formatting rule. This conditional formatting
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getIs3ColorScale()](#getIs3ColorScale--) | Indicates whether conditional formatting is 3 color scale. |
-| [getMaxCfvo()](#getMaxCfvo--) | Get or set this ColorScale's max value object. |
-| [getMaxColor()](#getMaxColor--) | Get or set the gradient color for the maximum value in the range. |
-| [getMidCfvo()](#getMidCfvo--) | Get or set this ColorScale's mid value object. |
-| [getMidColor()](#getMidColor--) | Get or set the gradient color for the middle value in the range. |
-| [getMinCfvo()](#getMinCfvo--) | Get or set this ColorScale's min value object. |
-| [getMinColor()](#getMinColor--) | Get or set the gradient color for the minimum value in the range. |
+| [getMaxCfvo()](#getMaxCfvo--) | this ColorScale's max value object. |
+| [getMaxColor()](#getMaxColor--) | the gradient color for the maximum value in the range. |
+| [getMidCfvo()](#getMidCfvo--) | this ColorScale's mid value object. |
+| [getMidColor()](#getMidColor--) | the gradient color for the middle value in the range. |
+| [getMinCfvo()](#getMinCfvo--) | this ColorScale's min value object. |
+| [getMinColor()](#getMinColor--) | the gradient color for the minimum value in the range. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -79,7 +79,7 @@ public ConditionalFormattingValue getMaxCfvo()
 ```
 
 
-Get or set this ColorScale's max value object. Cannot set null or CFValueObject with type FormatConditionValueType.Min to it.
+this ColorScale's max value object. Cannot set null or CFValueObject with type FormatConditionValueType.Min to it.
 
 **Returns:**
 [ConditionalFormattingValue](../../com.aspose.cells/conditionalformattingvalue)
@@ -89,7 +89,7 @@ public Color getMaxColor()
 ```
 
 
-Get or set the gradient color for the maximum value in the range.
+the gradient color for the maximum value in the range.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -99,7 +99,7 @@ public ConditionalFormattingValue getMidCfvo()
 ```
 
 
-Get or set this ColorScale's mid value object. Cannot set CFValueObject with type FormatConditionValueType.Max or FormatConditionValueType.Min to it.
+this ColorScale's mid value object. Cannot set CFValueObject with type FormatConditionValueType.Max or FormatConditionValueType.Min to it.
 
 **Returns:**
 [ConditionalFormattingValue](../../com.aspose.cells/conditionalformattingvalue)
@@ -109,7 +109,7 @@ public Color getMidColor()
 ```
 
 
-Get or set the gradient color for the middle value in the range.
+the gradient color for the middle value in the range.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -119,7 +119,7 @@ public ConditionalFormattingValue getMinCfvo()
 ```
 
 
-Get or set this ColorScale's min value object. Cannot set null or CFValueObject with type FormatConditionValueType.Max to it.
+this ColorScale's min value object. Cannot set null or CFValueObject with type FormatConditionValueType.Max to it.
 
 **Returns:**
 [ConditionalFormattingValue](../../com.aspose.cells/conditionalformattingvalue)
@@ -129,7 +129,7 @@ public Color getMinColor()
 ```
 
 
-Get or set the gradient color for the minimum value in the range.
+the gradient color for the minimum value in the range.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)

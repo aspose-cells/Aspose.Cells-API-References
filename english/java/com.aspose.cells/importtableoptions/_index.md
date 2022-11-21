@@ -26,17 +26,17 @@ Represents the options of importing data into cells.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCheckMergedCells()](#getCheckMergedCells--) | Indicates whether checking merged cells. |
 | [getClass()](#getClass--) |  |
-| [getColumnIndexes()](#getColumnIndexes--) | Gets or sets the columns(0-based) to import from data source. null means all columns should be imported. |
+| [getColumnIndexes()](#getColumnIndexes--) | the columns(0-based) to import from data source. null means all columns should be imported. |
 | [getConvertGridStyle()](#getConvertGridStyle--) | Indicates whether apply the style of the grid view to cells. |
-| [getConvertNumericData()](#getConvertNumericData--) | Gets or sets a value that indicates whether the string value should be converted to numeric or date value. |
-| [getDateFormat()](#getDateFormat--) | Gets or sets date format string for cells with imported datetime values. |
+| [getConvertNumericData()](#getConvertNumericData--) | a value that indicates whether the string value should be converted to numeric or date value. |
+| [getDateFormat()](#getDateFormat--) | date format string for cells with imported datetime values. |
 | [getDefaultValues()](#getDefaultValues--) | Default value for the value in the table is null. |
 | [getExportCaptionAsFieldName()](#getExportCaptionAsFieldName--) | Indicates whether exporting caption as field name Only works for DataTable. |
 | [getInsertRows()](#getInsertRows--) | Indicates whether new rows should be added for importing data records. |
-| [getNumberFormats()](#getNumberFormats--) | Gets or sets the number formats |
+| [getNumberFormats()](#getNumberFormats--) | the number formats |
 | [getShiftFirstRowDown()](#getShiftFirstRowDown--) | Indicates whether shifting the first row down when inserting rows. |
-| [getTotalColumns()](#getTotalColumns--) | Gets or sets total column count to import from data source. -1 means all rows of given data source. |
-| [getTotalRows()](#getTotalRows--) | Gets or sets total row count to import from data source. -1 means all rows of given data source. |
+| [getTotalColumns()](#getTotalColumns--) | total column count to import from data source. -1 means all rows of given data source. |
+| [getTotalRows()](#getTotalRows--) | total row count to import from data source. -1 means all rows of given data source. |
 | [hashCode()](#hashCode--) |  |
 | [isFieldNameShown()](#isFieldNameShown--) | Indicates whether field name should be imported. |
 | [isFormulas()](#isFormulas--) | Indicates whether the data are formulas. |
@@ -111,7 +111,7 @@ public int[] getColumnIndexes()
 ```
 
 
-Gets or sets the columns(0-based) to import from data source. null means all columns should be imported.
+the columns(0-based) to import from data source. null means all columns should be imported.
 
 **Returns:**
 int[]
@@ -131,7 +131,7 @@ public boolean getConvertNumericData()
 ```
 
 
-Gets or sets a value that indicates whether the string value should be converted to numeric or date value.
+a value that indicates whether the string value should be converted to numeric or date value.
 
 **Returns:**
 boolean
@@ -141,7 +141,7 @@ public String getDateFormat()
 ```
 
 
-Gets or sets date format string for cells with imported datetime values.
+date format string for cells with imported datetime values.
 
 **Returns:**
 java.lang.String
@@ -181,7 +181,7 @@ public String[] getNumberFormats()
 ```
 
 
-Gets or sets the number formats
+the number formats
 
 **Returns:**
 java.lang.String[]
@@ -201,7 +201,7 @@ public int getTotalColumns()
 ```
 
 
-Gets or sets total column count to import from data source. -1 means all rows of given data source.
+total column count to import from data source. -1 means all rows of given data source.
 
 **Returns:**
 int
@@ -211,7 +211,7 @@ public int getTotalRows()
 ```
 
 
-Gets or sets total row count to import from data source. -1 means all rows of given data source.
+total row count to import from data source. -1 means all rows of given data source.
 
 **Returns:**
 int

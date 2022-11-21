@@ -14,11 +14,6 @@ public class ListColumnCollection extends CollectionBase
 ```
 
 Represents A collection of all the [ListColumn](../../com.aspose.cells/listcolumn) objects in the specified ListObject object.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ListColumnCollection()](#ListColumnCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -41,12 +36,6 @@ Represents A collection of all the [ListColumn](../../com.aspose.cells/listcolum
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ListColumnCollection() {#ListColumnCollection--}
-```
-public ListColumnCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

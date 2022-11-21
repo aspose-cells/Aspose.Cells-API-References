@@ -14,11 +14,6 @@ public class TableStyleCollection extends CollectionBase
 ```
 
 Represents all custom table styles.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TableStyleCollection()](#TableStyleCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -44,12 +39,6 @@ Represents all custom table styles.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### TableStyleCollection() {#TableStyleCollection--}
-```
-public TableStyleCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

@@ -19,13 +19,13 @@ Represents picture format option
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBottom()](#getBottom--) | Gets or sets the bottom offset for stretching picture. |
+| [getBottom()](#getBottom--) | the bottom offset for stretching picture. |
 | [getClass()](#getClass--) |  |
-| [getLeft()](#getLeft--) | Gets or sets the left offset for stretching picture. |
-| [getRight()](#getRight--) | Gets or sets the right offset for stretching picture. |
-| [getScale()](#getScale--) | Gets or sets how many the picture stack and scale with. |
-| [getTop()](#getTop--) | Gets or sets the top offset for stretching picture. |
-| [getType()](#getType--) | Gets or sets the picture fill type. |
+| [getLeft()](#getLeft--) | the left offset for stretching picture. |
+| [getRight()](#getRight--) | the right offset for stretching picture. |
+| [getScale()](#getScale--) | how many the picture stack and scale with. |
+| [getTop()](#getTop--) | the top offset for stretching picture. |
+| [getType()](#getType--) | the picture fill type. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -60,7 +60,7 @@ public double getBottom()
 ```
 
 
-Gets or sets the bottom offset for stretching picture.
+the bottom offset for stretching picture.
 
 **Returns:**
 double
@@ -80,7 +80,7 @@ public double getLeft()
 ```
 
 
-Gets or sets the left offset for stretching picture.
+the left offset for stretching picture.
 
 **Returns:**
 double
@@ -90,7 +90,7 @@ public double getRight()
 ```
 
 
-Gets or sets the right offset for stretching picture.
+the right offset for stretching picture.
 
 **Returns:**
 double
@@ -100,7 +100,7 @@ public double getScale()
 ```
 
 
-Gets or sets how many the picture stack and scale with.
+how many the picture stack and scale with.
 
 **Returns:**
 double
@@ -110,7 +110,7 @@ public double getTop()
 ```
 
 
-Gets or sets the top offset for stretching picture.
+the top offset for stretching picture.
 
 **Returns:**
 double
@@ -120,7 +120,7 @@ public int getType()
 ```
 
 
-Gets or sets the picture fill type.
+the picture fill type.
 
 **Returns:**
 int

@@ -14,18 +14,13 @@ public class Walls extends Floor
 ```
 
 Encapsulates the object that represents the walls of a 3-D chart.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Walls()](#Walls--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBackgroundColor()](#getBackgroundColor--) | Gets or sets the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area). |
-| [getBorder()](#getBorder--) | Gets or sets the border [Line](../../com.aspose.cells/line). |
+| [getBackgroundColor()](#getBackgroundColor--) | the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area). |
+| [getBorder()](#getBorder--) | the border [Line](../../com.aspose.cells/line). |
 | [getCenterX()](#getCenterX--) | Gets the x coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
 | [getCenterXPx()](#getCenterXPx--) | Gets the x coordinate of the left-bottom corner of Wall center in units of pixels after calls Chart.Calculate() method. |
 | [getCenterY()](#getCenterY--) | Gets the y coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's height after calls Chart.Calculate() method. |
@@ -37,7 +32,7 @@ Encapsulates the object that represents the walls of a 3-D chart.
 | [getDepth()](#getDepth--) | Gets the depth front to back in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
 | [getDepthPx()](#getDepthPx--) | Gets the depth front to back in units of pixels after calls Chart.Calculate() method. |
 | [getFillFormat()](#getFillFormat--) | Represents a [getFillFormat()](../../com.aspose.cells/area\#getFillFormat--) object that contains fill formatting properties for the specified chart or shape. |
-| [getForegroundColor()](#getForegroundColor--) | Gets or sets the foreground [Color](../../com.aspose.cells/color). |
+| [getForegroundColor()](#getForegroundColor--) | the foreground [Color](../../com.aspose.cells/color). |
 | [getFormatting()](#getFormatting--) | Represents the formatting of the area. |
 | [getHeight()](#getHeight--) | Gets the height of top to bottom in units of 1/4000 of chart's height after calls Chart.Calculate() method. |
 | [getHeightPx()](#getHeightPx--) | Gets the height of top to bottom in units of pixels after calls Chart.Calculate() method. |
@@ -61,12 +56,6 @@ Encapsulates the object that represents the walls of a 3-D chart.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### Walls() {#Walls--}
-```
-public Walls()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -88,7 +77,7 @@ public Color getBackgroundColor()
 ```
 
 
-Gets or sets the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area).
+the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area).
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -98,7 +87,7 @@ public Line getBorder()
 ```
 
 
-Gets or sets the border [Line](../../com.aspose.cells/line).
+the border [Line](../../com.aspose.cells/line).
 
 **Returns:**
 [Line](../../com.aspose.cells/line)
@@ -228,7 +217,7 @@ public Color getForegroundColor()
 ```
 
 
-Gets or sets the foreground [Color](../../com.aspose.cells/color).
+the foreground [Color](../../com.aspose.cells/color).
 
 **Returns:**
 [Color](../../com.aspose.cells/color)

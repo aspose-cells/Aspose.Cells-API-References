@@ -22,11 +22,6 @@ Workbook workbook = new Workbook();
  
          //do your business
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [CommentCollection()](#CommentCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -58,12 +53,6 @@ Workbook workbook = new Workbook();
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### CommentCollection() {#CommentCollection--}
-```
-public CommentCollection()
-```
-
-
 ### add(int row, int column) {#add-int-int-}
 ```
 public int add(int row, int column)

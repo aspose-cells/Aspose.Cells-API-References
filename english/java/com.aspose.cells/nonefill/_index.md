@@ -14,11 +14,6 @@ public class NoneFill extends Fill
 ```
 
 Represents no fill.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [NoneFill()](#NoneFill--) |  |
 ## Methods
 
 | Method | Description |
@@ -32,12 +27,6 @@ Represents no fill.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### NoneFill() {#NoneFill--}
-```
-public NoneFill()
-```
-
-
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)

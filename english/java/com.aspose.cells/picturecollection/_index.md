@@ -27,11 +27,6 @@ Encapsulates a collection of [Picture](../../com.aspose.cells/picture) objects.
          //Save the excel file.
          workbook.save("result.xlsx");
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PictureCollection()](#PictureCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -59,12 +54,6 @@ Encapsulates a collection of [Picture](../../com.aspose.cells/picture) objects.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### PictureCollection() {#PictureCollection--}
-```
-public PictureCollection()
-```
-
-
 ### add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, InputStream stream) {#add-int-int-int-int-java.io.InputStream-}
 ```
 public int add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, InputStream stream)

@@ -17,11 +17,6 @@ public class PivotFieldCollection implements Iterable
 ```
 
 Represents a collection of all the PivotField objects in the PivotTable's specific PivotFields type.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PivotFieldCollection()](#PivotFieldCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -43,12 +38,6 @@ Represents a collection of all the PivotField objects in the PivotTable's specif
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### PivotFieldCollection() {#PivotFieldCollection--}
-```
-public PivotFieldCollection()
-```
-
-
 ### add(PivotField pivotField) {#add-com.aspose.cells.PivotField-}
 ```
 public int add(PivotField pivotField)

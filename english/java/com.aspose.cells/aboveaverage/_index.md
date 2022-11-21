@@ -20,10 +20,10 @@ Describe the AboveAverage conditional formatting rule. This conditional formatti
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getStdDev()](#getStdDev--) | Get or set the number of standard deviations to include above or below the average in the conditional formatting rule. |
+| [getStdDev()](#getStdDev--) | the number of standard deviations to include above or below the average in the conditional formatting rule. |
 | [hashCode()](#hashCode--) |  |
-| [isAboveAverage()](#isAboveAverage--) | Get or set the flag indicating whether the rule is an "above average" rule. |
-| [isEqualAverage()](#isEqualAverage--) | Get or set the flag indicating whether the 'aboveAverage' and 'belowAverage' criteria is inclusive of the average itself, or exclusive of that value. |
+| [isAboveAverage()](#isAboveAverage--) | the flag indicating whether the rule is an "above average" rule. |
+| [isEqualAverage()](#isEqualAverage--) | the flag indicating whether the 'aboveAverage' and 'belowAverage' criteria is inclusive of the average itself, or exclusive of that value. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAboveAverage(boolean value)](#setAboveAverage-boolean-) | For the description of this property, please see [isAboveAverage()](../../com.aspose.cells/aboveaverage\#isAboveAverage--) |
@@ -64,7 +64,7 @@ public int getStdDev()
 ```
 
 
-Get or set the number of standard deviations to include above or below the average in the conditional formatting rule. The input value must between 0 and 3 (include 0 and 3). Setting this value to 0 means stdDev is not set. The default value is 0.
+the number of standard deviations to include above or below the average in the conditional formatting rule. The input value must between 0 and 3 (include 0 and 3). Setting this value to 0 means stdDev is not set. The default value is 0.
 
 **Returns:**
 int
@@ -84,7 +84,7 @@ public boolean isAboveAverage()
 ```
 
 
-Get or set the flag indicating whether the rule is an "above average" rule. 'true' indicates 'above average'. Default value is true.
+the flag indicating whether the rule is an "above average" rule. 'true' indicates 'above average'. Default value is true.
 
 **Returns:**
 boolean
@@ -94,7 +94,7 @@ public boolean isEqualAverage()
 ```
 
 
-Get or set the flag indicating whether the 'aboveAverage' and 'belowAverage' criteria is inclusive of the average itself, or exclusive of that value. 'true' indicates to include the average value in the criteria. Default value is false.
+the flag indicating whether the 'aboveAverage' and 'belowAverage' criteria is inclusive of the average itself, or exclusive of that value. 'true' indicates to include the average value in the criteria. Default value is false.
 
 **Returns:**
 boolean

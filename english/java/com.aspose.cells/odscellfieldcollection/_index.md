@@ -14,11 +14,6 @@ public class OdsCellFieldCollection extends CollectionBase
 ```
 
 Represents the fields of ODS.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [OdsCellFieldCollection()](#OdsCellFieldCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -43,12 +38,6 @@ Represents the fields of ODS.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### OdsCellFieldCollection() {#OdsCellFieldCollection--}
-```
-public OdsCellFieldCollection()
-```
-
-
 ### add(int row, int column, int fieldType, String format) {#add-int-int-int-java.lang.String-}
 ```
 public int add(int row, int column, int fieldType, String format)

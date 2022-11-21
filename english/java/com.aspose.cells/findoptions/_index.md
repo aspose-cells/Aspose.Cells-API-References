@@ -52,7 +52,7 @@ Represents find options.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCaseSensitive()](#getCaseSensitive--) | Indicates if the searched string is case sensitive. |
 | [getClass()](#getClass--) |  |
-| [getConvertNumericData()](#getConvertNumericData--) | Gets or sets a value that indicates whether converting the searched string value to numeric data. |
+| [getConvertNumericData()](#getConvertNumericData--) | a value that indicates whether converting the searched string value to numeric data. |
 | [getLookAtType()](#getLookAtType--) | Look at type. |
 | [getLookInType()](#getLookInType--) | Look in type. |
 | [getRange()](#getRange--) | Gets and sets the searched range. |
@@ -122,7 +122,7 @@ public boolean getConvertNumericData()
 ```
 
 
-Gets or sets a value that indicates whether converting the searched string value to numeric data.
+a value that indicates whether converting the searched string value to numeric data.
 
 **Returns:**
 boolean

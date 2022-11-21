@@ -26,11 +26,6 @@ Represents a collection of [CheckBox](../../com.aspose.cells/checkbox) objects i
          CheckBox checkBox = sheet.getCheckBoxes().get(index);
          checkBox.setText("Check Box 1");
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [CheckBoxCollection()](#CheckBoxCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -53,12 +48,6 @@ Represents a collection of [CheckBox](../../com.aspose.cells/checkbox) objects i
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### CheckBoxCollection() {#CheckBoxCollection--}
-```
-public CheckBoxCollection()
-```
-
-
 ### add(int upperLeftRow, int upperLeftColumn, int height, int width) {#add-int-int-int-int-}
 ```
 public int add(int upperLeftRow, int upperLeftColumn, int height, int width)

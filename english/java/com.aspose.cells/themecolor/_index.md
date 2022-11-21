@@ -41,8 +41,8 @@ Represents a theme color.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getColorType()](#getColorType--) | Gets and sets the theme type. |
-| [getTint()](#getTint--) | Gets and sets the tint value. |
+| [getColorType()](#getColorType--) | the theme type. |
+| [getTint()](#getTint--) | the tint value. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -97,7 +97,7 @@ public int getColorType()
 ```
 
 
-Gets and sets the theme type.
+the theme type.
 
 **Returns:**
 int
@@ -107,7 +107,7 @@ public double getTint()
 ```
 
 
-Gets and sets the tint value. The tint value is stored as a double from -1.0 .. 1.0, where -1.0 means 100% darken and 1.0 means 100% lighten. Also, 0.0 means no change.
+the tint value. The tint value is stored as a double from -1.0 .. 1.0, where -1.0 means 100% darken and 1.0 means 100% lighten. Also, 0.0 means no change.
 
 **Returns:**
 double

@@ -69,8 +69,8 @@ Represents a chart data table.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
-| [getBackground()](#getBackground--) | Gets and sets the display mode of the background NOTE: This member is now obsolete. |
-| [getBackgroundMode()](#getBackgroundMode--) | Gets and sets the display mode of the background |
+| [getBackground()](#getBackground--) | the display mode of the background NOTE: This member is now obsolete. |
+| [getBackgroundMode()](#getBackgroundMode--) | the display mode of the background |
 | [getBorder()](#getBorder--) | Returns a Border object that represents the border of the object |
 | [getClass()](#getClass--) |  |
 | [getFont()](#getFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object which represents the font setting of the specified chart data table. |
@@ -123,7 +123,7 @@ public int getBackground()
 ```
 
 
-Gets and sets the display mode of the background NOTE: This member is now obsolete. Instead, please use ChartDataTable.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+the display mode of the background NOTE: This member is now obsolete. Instead, please use ChartDataTable.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -133,7 +133,7 @@ public int getBackgroundMode()
 ```
 
 
-Gets and sets the display mode of the background
+the display mode of the background
 
 **Returns:**
 int

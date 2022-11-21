@@ -14,11 +14,6 @@ public class PageStartSavingArgs extends PageSavingArgs
 ```
 
 Info for a page starts saving process.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PageStartSavingArgs()](#PageStartSavingArgs--) |  |
 ## Methods
 
 | Method | Description |
@@ -28,7 +23,7 @@ Info for a page starts saving process.
 | [getPageCount()](#getPageCount--) | Total page count. |
 | [getPageIndex()](#getPageIndex--) | Current page index, zero based. |
 | [hashCode()](#hashCode--) |  |
-| [isToOutput()](#isToOutput--) | Gets or sets a value indicating whether the page should be output. |
+| [isToOutput()](#isToOutput--) | a value indicating whether the page should be output. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setToOutput(boolean value)](#setToOutput-boolean-) | For the description of this property, please see [isToOutput()](../../com.aspose.cells/pagestartsavingargs\#isToOutput--) |
@@ -36,12 +31,6 @@ Info for a page starts saving process.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### PageStartSavingArgs() {#PageStartSavingArgs--}
-```
-public PageStartSavingArgs()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -103,7 +92,7 @@ public boolean isToOutput()
 ```
 
 
-Gets or sets a value indicating whether the page should be output. The default value is true.
+a value indicating whether the page should be output. The default value is true.
 
 **Returns:**
 boolean

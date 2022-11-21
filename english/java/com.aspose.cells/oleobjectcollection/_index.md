@@ -14,11 +14,6 @@ public class OleObjectCollection extends CollectionBase
 ```
 
 Represents embedded OLE objects.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [OleObjectCollection()](#OleObjectCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -42,12 +37,6 @@ Represents embedded OLE objects.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### OleObjectCollection() {#OleObjectCollection--}
-```
-public OleObjectCollection()
-```
-
-
 ### add(int upperLeftRow, int upperLeftColumn, int height, int width, byte[] imageData) {#add-int-int-int-int-byte---}
 ```
 public int add(int upperLeftRow, int upperLeftColumn, int height, int width, byte[] imageData)

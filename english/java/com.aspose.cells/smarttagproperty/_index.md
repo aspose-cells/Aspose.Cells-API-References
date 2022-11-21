@@ -20,8 +20,8 @@ Represents the property of the cell smart tag.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getName()](#getName--) | Gets and sets the name of the property. |
-| [getValue()](#getValue--) | Gets and sets the value of the property. |
+| [getName()](#getName--) | the name of the property. |
+| [getValue()](#getValue--) | the value of the property. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -62,7 +62,7 @@ public String getName()
 ```
 
 
-Gets and sets the name of the property.
+the name of the property.
 
 **Returns:**
 java.lang.String
@@ -72,7 +72,7 @@ public String getValue()
 ```
 
 
-Gets and sets the value of the property.
+the value of the property.
 
 **Returns:**
 java.lang.String

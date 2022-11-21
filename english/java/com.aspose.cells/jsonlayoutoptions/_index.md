@@ -21,13 +21,13 @@ Represents the options of json layout type.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getArrayAsTable()](#getArrayAsTable--) | Processes Array as table. |
 | [getClass()](#getClass--) |  |
-| [getConvertNumericOrDate()](#getConvertNumericOrDate--) | Gets or sets a value that indicates whether the string in json is converted to numeric or date. |
-| [getDateFormat()](#getDateFormat--) | Gets and sets the format of date value. |
+| [getConvertNumericOrDate()](#getConvertNumericOrDate--) | a value that indicates whether the string in json is converted to numeric or date. |
+| [getDateFormat()](#getDateFormat--) | the format of date value. |
 | [getIgnoreArrayTitle()](#getIgnoreArrayTitle--) | Indicates whether ignore title if array is a property of object. |
 | [getIgnoreNull()](#getIgnoreNull--) | Indicates whether ignoring null value. |
 | [getIgnoreObjectTitle()](#getIgnoreObjectTitle--) | Indicates whether ignore title if object is a property of object. |
-| [getNumberFormat()](#getNumberFormat--) | Gets and sets the format of numeric value. |
-| [getTitleStyle()](#getTitleStyle--) | Gets and sets the style of the title. |
+| [getNumberFormat()](#getNumberFormat--) | the format of numeric value. |
+| [getTitleStyle()](#getTitleStyle--) | the style of the title. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -84,7 +84,7 @@ public boolean getConvertNumericOrDate()
 ```
 
 
-Gets or sets a value that indicates whether the string in json is converted to numeric or date.
+a value that indicates whether the string in json is converted to numeric or date.
 
 **Returns:**
 boolean
@@ -94,7 +94,7 @@ public String getDateFormat()
 ```
 
 
-Gets and sets the format of date value.
+the format of date value.
 
 **Returns:**
 java.lang.String
@@ -134,7 +134,7 @@ public String getNumberFormat()
 ```
 
 
-Gets and sets the format of numeric value.
+the format of numeric value.
 
 **Returns:**
 java.lang.String
@@ -144,7 +144,7 @@ public Style getTitleStyle()
 ```
 
 
-Gets and sets the style of the title.
+the style of the title.
 
 **Returns:**
 [Style](../../com.aspose.cells/style)

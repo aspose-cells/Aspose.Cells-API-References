@@ -21,7 +21,7 @@ Represents the top 10 filter.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getCriteria()](#getCriteria--) |  |
-| [getItems()](#getItems--) | Gets and sets the items of the filter. |
+| [getItems()](#getItems--) | the items of the filter. |
 | [hashCode()](#hashCode--) |  |
 | [isPercent()](#isPercent--) | Indicates whether the items is percent. |
 | [isTop()](#isTop--) | Indicates whether it's top filter. |
@@ -76,7 +76,7 @@ public int getItems()
 ```
 
 
-Gets and sets the items of the filter.
+the items of the filter.
 
 **Returns:**
 int

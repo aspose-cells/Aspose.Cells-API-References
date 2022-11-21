@@ -28,7 +28,7 @@ Represents the options of saving the workbook as an xml file.
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
-| [getExportArea()](#getExportArea--) | Gets or sets the exporting range. |
+| [getExportArea()](#getExportArea--) | the exporting range. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
@@ -37,7 +37,7 @@ Represents the options of saving the workbook as an xml file.
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
-| [getWarningCallback()](#getWarningCallback--) | Gets or sets warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | warning callback. |
 | [getXmlMapName()](#getXmlMapName--) | Indicates whether exporting xml map in the file. |
 | [hasHeaderRow()](#hasHeaderRow--) | Indicates whether the range contains header row. |
 | [hashCode()](#hashCode--) |  |
@@ -130,7 +130,7 @@ public CellArea getExportArea()
 ```
 
 
-Gets or sets the exporting range.
+the exporting range.
 
 **Returns:**
 [CellArea](../../com.aspose.cells/cellarea)
@@ -220,7 +220,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Gets or sets warning callback.
+warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)

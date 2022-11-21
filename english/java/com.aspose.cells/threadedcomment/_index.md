@@ -22,8 +22,8 @@ Represents the threaded comment.
 | [getAuthor()](#getAuthor--) | Gets the author of the comment. |
 | [getClass()](#getClass--) |  |
 | [getColumn()](#getColumn--) | Gets the column index of the comment. |
-| [getCreatedTime()](#getCreatedTime--) | Gets and sets the created time of this threaded comment. |
-| [getNotes()](#getNotes--) | Gets and sets the text of the comment. |
+| [getCreatedTime()](#getCreatedTime--) | the created time of this threaded comment. |
+| [getNotes()](#getNotes--) | the text of the comment. |
 | [getRow()](#getRow--) | Gets the row index of the comment. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -86,7 +86,7 @@ public DateTime getCreatedTime()
 ```
 
 
-Gets and sets the created time of this threaded comment.
+the created time of this threaded comment.
 
 **Returns:**
 [DateTime](../../com.aspose.cells/datetime)
@@ -96,7 +96,7 @@ public String getNotes()
 ```
 
 
-Gets and sets the text of the comment.
+the text of the comment.
 
 **Returns:**
 java.lang.String

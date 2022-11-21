@@ -25,7 +25,7 @@ Represents the options for saving pdf file.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAllColumnsInOnePagePerSheet()](#getAllColumnsInOnePagePerSheet--) | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result. |
-| [getBookmark()](#getBookmark--) | Gets and sets the [PdfBookmarkEntry](../../com.aspose.cells/pdfbookmarkentry) object. |
+| [getBookmark()](#getBookmark--) | the [PdfBookmarkEntry](../../com.aspose.cells/pdfbookmarkentry) object. |
 | [getCachedFileFolder()](#getCachedFileFolder--) | The cached file folder is used to store some large data. |
 | [getCalculateFormula()](#getCalculateFormula--) | Indicates whether to calculate formulas before saving pdf file. |
 | [getCheckFontCompatibility()](#getCheckFontCompatibility--) | Indicates whether to check font compatibility for every character in text. |
@@ -34,39 +34,39 @@ Represents the options for saving pdf file.
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
 | [getCompliance()](#getCompliance--) | Workbook converts to pdf will according to PdfCompliance in this property. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
-| [getCreatedTime()](#getCreatedTime--) | Gets and sets the time of generating the pdf document. |
-| [getCustomPropertiesExport()](#getCustomPropertiesExport--) | Gets or sets a value determining the way [CustomDocumentPropertyCollection](../../com.aspose.cells/customdocumentpropertycollection) are exported to PDF file. |
-| [getDefaultEditLanguage()](#getDefaultEditLanguage--) | Gets or sets default edit language. |
+| [getCreatedTime()](#getCreatedTime--) | the time of generating the pdf document. |
+| [getCustomPropertiesExport()](#getCustomPropertiesExport--) | a value determining the way [CustomDocumentPropertyCollection](../../com.aspose.cells/customdocumentpropertycollection) are exported to PDF file. |
+| [getDefaultEditLanguage()](#getDefaultEditLanguage--) | default edit language. |
 | [getDefaultFont()](#getDefaultFont--) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [getDisplayDocTitle()](#getDisplayDocTitle--) | Indicates whether the window's title bar should display the document title. |
 | [getDrawObjectEventHandler()](#getDrawObjectEventHandler--) | Implements this interface to get DrawObject and Bound when rendering. |
 | [getEmbedStandardWindowsFonts()](#getEmbedStandardWindowsFonts--) | True to embed true type fonts. |
 | [getEmfRenderSetting()](#getEmfRenderSetting--) | Setting for rendering Emf metafile. |
 | [getExportDocumentStructure()](#getExportDocumentStructure--) | Indicates whether to export document structure. |
-| [getFontEncoding()](#getFontEncoding--) | Gets or sets embedded font encoding in pdf. |
-| [getGridlineType()](#getGridlineType--) | Gets or sets gridline type. |
+| [getFontEncoding()](#getFontEncoding--) | embedded font encoding in pdf. |
+| [getGridlineType()](#getGridlineType--) | gridline type. |
 | [getIgnoreError()](#getIgnoreError--) | Indicates if you need to hide the error while rendering. |
 | [getImageType()](#getImageType--) | Represents the image type when converting the chart and shape . |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getOnePagePerSheet()](#getOnePagePerSheet--) | If OnePagePerSheet is true , all content of one sheet will output to only one page in result. |
-| [getOptimizationType()](#getOptimizationType--) | Gets and sets pdf optimization type. |
+| [getOptimizationType()](#getOptimizationType--) | pdf optimization type. |
 | [getOutputBlankPageWhenNothingToPrint()](#getOutputBlankPageWhenNothingToPrint--) | Indicates whether to output a blank page when there is nothing to print. |
-| [getPageCount()](#getPageCount--) | Gets or sets the number of pages to save. |
-| [getPageIndex()](#getPageIndex--) | Gets or sets the 0-based index of the first page to save. |
+| [getPageCount()](#getPageCount--) | the number of pages to save. |
+| [getPageIndex()](#getPageIndex--) | the 0-based index of the first page to save. |
 | [getPageSavingCallback()](#getPageSavingCallback--) | Control/Indicate progress of page saving process. |
 | [getPdfCompression()](#getPdfCompression--) | Indicate the compression algorithm |
 | [getPrintingPageType()](#getPrintingPageType--) | Indicates which pages will not be printed. |
-| [getProducer()](#getProducer--) | Gets and sets producer of generated pdf document. |
+| [getProducer()](#getProducer--) | producer of generated pdf document. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
 | [getSecurityOptions()](#getSecurityOptions--) | Set this options, when security is need in xls2pdf result. |
-| [getSheetSet()](#getSheetSet--) | Gets or sets the sheets to render. |
+| [getSheetSet()](#getSheetSet--) | the sheets to render. |
 | [getSortExternalNames()](#getSortExternalNames--) | Indicates whether sorting external defined names before saving file. |
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
-| [getTextCrossType()](#getTextCrossType--) | Gets or sets displaying text type when the text width is larger than cell width. |
+| [getTextCrossType()](#getTextCrossType--) | displaying text type when the text width is larger than cell width. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
-| [getWarningCallback()](#getWarningCallback--) | Gets or sets warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | warning callback. |
 | [hashCode()](#hashCode--) |  |
 | [isFontSubstitutionCharGranularity()](#isFontSubstitutionCharGranularity--) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
 | [notify()](#notify--) |  |
@@ -157,7 +157,7 @@ public PdfBookmarkEntry getBookmark()
 ```
 
 
-Gets and sets the [PdfBookmarkEntry](../../com.aspose.cells/pdfbookmarkentry) object.
+the [PdfBookmarkEntry](../../com.aspose.cells/pdfbookmarkentry) object.
 
 **Returns:**
 [PdfBookmarkEntry](../../com.aspose.cells/pdfbookmarkentry)
@@ -247,7 +247,7 @@ public DateTime getCreatedTime()
 ```
 
 
-Gets and sets the time of generating the pdf document. if it is not be set, it will be the time of generating the pdf.
+the time of generating the pdf document. if it is not be set, it will be the time of generating the pdf.
 
 **Returns:**
 [DateTime](../../com.aspose.cells/datetime)
@@ -257,7 +257,7 @@ public int getCustomPropertiesExport()
 ```
 
 
-Gets or sets a value determining the way [CustomDocumentPropertyCollection](../../com.aspose.cells/customdocumentpropertycollection) are exported to PDF file. Default value is None.
+a value determining the way [CustomDocumentPropertyCollection](../../com.aspose.cells/customdocumentpropertycollection) are exported to PDF file. Default value is None.
 
 **Returns:**
 int
@@ -267,7 +267,7 @@ public int getDefaultEditLanguage()
 ```
 
 
-Gets or sets default edit language. It may display/render different layouts for text paragraph when different edit languages is set. Default is DefaultEditLanguage.AUTO.
+default edit language. It may display/render different layouts for text paragraph when different edit languages is set. Default is DefaultEditLanguage.AUTO.
 
 **Returns:**
 int
@@ -337,7 +337,7 @@ public int getFontEncoding()
 ```
 
 
-Gets or sets embedded font encoding in pdf. Default value is PdfFontEncoding.IDENTITY
+embedded font encoding in pdf. Default value is PdfFontEncoding.IDENTITY
 
 **Returns:**
 int
@@ -347,7 +347,7 @@ public int getGridlineType()
 ```
 
 
-Gets or sets gridline type. Default is Dotted type.
+gridline type. Default is Dotted type.
 
 **Returns:**
 int
@@ -397,7 +397,7 @@ public int getOptimizationType()
 ```
 
 
-Gets and sets pdf optimization type. Default value is PdfOptimizationType.STANDARD
+pdf optimization type. Default value is PdfOptimizationType.STANDARD
 
 **Returns:**
 int
@@ -417,7 +417,7 @@ public int getPageCount()
 ```
 
 
-Gets or sets the number of pages to save. Default is System.Int32.MaxValue which means all pages will be rendered..
+the number of pages to save. Default is System.Int32.MaxValue which means all pages will be rendered..
 
 ```
 //Open an Excel file
@@ -443,7 +443,7 @@ public int getPageIndex()
 ```
 
 
-Gets or sets the 0-based index of the first page to save. Default is 0.
+the 0-based index of the first page to save. Default is 0.
 
 ```
 //Open an Excel file
@@ -516,7 +516,7 @@ public String getProducer()
 ```
 
 
-Gets and sets producer of generated pdf document. If the value is null, or a valid LICENSE is not set, string Aspose.Cells vVERSION will be used.
+producer of generated pdf document. If the value is null, or a valid LICENSE is not set, string Aspose.Cells vVERSION will be used.
 
 **Returns:**
 java.lang.String
@@ -583,7 +583,7 @@ public SheetSet getSheetSet()
 ```
 
 
-Gets or sets the sheets to render. Default is all visible sheets in the workbook: \{@link com.aspose.cells.SheetSet.getVisible()\}.
+the sheets to render. Default is all visible sheets in the workbook: \{@link com.aspose.cells.SheetSet.getVisible()\}.
 
 ```
 Workbook workbook = new Workbook("Book1.xlsx");
@@ -624,7 +624,7 @@ public int getTextCrossType()
 ```
 
 
-Gets or sets displaying text type when the text width is larger than cell width.
+displaying text type when the text width is larger than cell width.
 
 **Returns:**
 int
@@ -654,7 +654,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Gets or sets warning callback.
+warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)

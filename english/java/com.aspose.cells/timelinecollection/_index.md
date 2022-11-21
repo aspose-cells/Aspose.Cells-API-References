@@ -61,11 +61,6 @@ Workbook book = new Workbook();
          //do your business
          book.save("out.xlsx");
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TimelineCollection()](#TimelineCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -94,12 +89,6 @@ Workbook book = new Workbook();
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### TimelineCollection() {#TimelineCollection--}
-```
-public TimelineCollection()
-```
-
-
 ### add(PivotTable pivot, int row, int column, PivotField baseField) {#add-com.aspose.cells.PivotTable-int-int-com.aspose.cells.PivotField-}
 ```
 public int add(PivotTable pivot, int row, int column, PivotField baseField)

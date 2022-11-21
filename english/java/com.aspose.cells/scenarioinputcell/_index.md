@@ -20,10 +20,10 @@ Represents input cell for the scenario.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getColumn()](#getColumn--) | Gets and sets the column index of the input cell. |
-| [getName()](#getName--) | Gets and sets the input cell address. |
-| [getRow()](#getRow--) | Gets and sets the row index of the input cell. |
-| [getValue()](#getValue--) | Gets and sets value of the input cell. |
+| [getColumn()](#getColumn--) | the column index of the input cell. |
+| [getName()](#getName--) | the input cell address. |
+| [getRow()](#getRow--) | the row index of the input cell. |
+| [getValue()](#getValue--) | value of the input cell. |
 | [hashCode()](#hashCode--) |  |
 | [isDeleted()](#isDeleted--) | Indicates whether input cell is deleted. |
 | [notify()](#notify--) |  |
@@ -65,7 +65,7 @@ public int getColumn()
 ```
 
 
-Gets and sets the column index of the input cell.
+the column index of the input cell.
 
 **Returns:**
 int
@@ -75,7 +75,7 @@ public String getName()
 ```
 
 
-Gets and sets the input cell address.
+the input cell address.
 
 **Returns:**
 java.lang.String
@@ -85,7 +85,7 @@ public int getRow()
 ```
 
 
-Gets and sets the row index of the input cell.
+the row index of the input cell.
 
 **Returns:**
 int
@@ -95,7 +95,7 @@ public String getValue()
 ```
 
 
-Gets and sets value of the input cell.
+value of the input cell.
 
 **Returns:**
 java.lang.String

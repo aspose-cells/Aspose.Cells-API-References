@@ -30,26 +30,26 @@ Represents the options of saving sql.
 | [getCheckIfTableExists()](#getCheckIfTableExists--) | Check if the table name exists before creating |
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
-| [getColumnTypeMap()](#getColumnTypeMap--) | Gets and sets the map of column type for different database. |
+| [getColumnTypeMap()](#getColumnTypeMap--) | the map of column type for different database. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [getCreateTable()](#getCreateTable--) | Indicates whether exporting sql of creating table. |
-| [getExportArea()](#getExportArea--) | Gets or sets the exporting range. |
+| [getExportArea()](#getExportArea--) | the exporting range. |
 | [getExportAsString()](#getExportAsString--) | Indicates whether exporting all data as string value. |
-| [getIdName()](#getIdName--) | Gets and sets the name of id column. |
+| [getIdName()](#getIdName--) | the name of id column. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [getOperatorType()](#getOperatorType--) | Gets and sets the operator type of sql. |
+| [getOperatorType()](#getOperatorType--) | the operator type of sql. |
 | [getPrimaryKey()](#getPrimaryKey--) | Represents which column is primary key of the data table. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
-| [getSeparator()](#getSeparator--) | Gets and sets character separator of sql script. |
+| [getSeparator()](#getSeparator--) | character separator of sql script. |
 | [getSheetIndexes()](#getSheetIndexes--) | Represents the indexes of exported sheets. |
 | [getSortExternalNames()](#getSortExternalNames--) | Indicates whether sorting external defined names before saving file. |
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
-| [getStartId()](#getStartId--) | Gets and sets the start id. |
-| [getTableName()](#getTableName--) | Gets and sets the table name. |
+| [getStartId()](#getStartId--) | the start id. |
+| [getTableName()](#getTableName--) | the table name. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
-| [getWarningCallback()](#getWarningCallback--) | Gets or sets warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | warning callback. |
 | [hasHeaderRow()](#hasHeaderRow--) | Indicates whether the range contains header row. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -172,7 +172,7 @@ public SqlScriptColumnTypeMap getColumnTypeMap()
 ```
 
 
-Gets and sets the map of column type for different database.
+the map of column type for different database.
 
 **Returns:**
 [SqlScriptColumnTypeMap](../../com.aspose.cells/sqlscriptcolumntypemap)
@@ -202,7 +202,7 @@ public CellArea getExportArea()
 ```
 
 
-Gets or sets the exporting range.
+the exporting range.
 
 **Returns:**
 [CellArea](../../com.aspose.cells/cellarea)
@@ -222,7 +222,7 @@ public String getIdName()
 ```
 
 
-Gets and sets the name of id column. If this property is set , a column will be inserted with automatical increment int value.
+the name of id column. If this property is set , a column will be inserted with automatical increment int value.
 
 **Returns:**
 java.lang.String
@@ -242,7 +242,7 @@ public int getOperatorType()
 ```
 
 
-Gets and sets the operator type of sql.
+the operator type of sql.
 
 **Returns:**
 int
@@ -282,7 +282,7 @@ public char getSeparator()
 ```
 
 
-Gets and sets character separator of sql script. Only can be ' ' or '\\n'. If the
+character separator of sql script. Only can be ' ' or '\\n'. If the
 
 **Returns:**
 char
@@ -322,7 +322,7 @@ public int getStartId()
 ```
 
 
-Gets and sets the start id. Only works when [getIdName()](../../com.aspose.cells/sqlscriptsaveoptions\#getIdName--) is set.
+the start id. Only works when [getIdName()](../../com.aspose.cells/sqlscriptsaveoptions\#getIdName--) is set.
 
 **Returns:**
 int
@@ -332,7 +332,7 @@ public String getTableName()
 ```
 
 
-Gets and sets the table name.
+the table name.
 
 **Returns:**
 java.lang.String
@@ -362,7 +362,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Gets or sets warning callback.
+warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)

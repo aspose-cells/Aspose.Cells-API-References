@@ -29,15 +29,15 @@ Provides helper functions.
 | [createSafeSheetName(String nameProposal)](#createSafeSheetName-java.lang.String-) | Checks given sheet name and create a valid one when needed. |
 | [createSafeSheetName(String nameProposal, char replaceChar)](#createSafeSheetName-java.lang.String-char-) | Checks given sheet name and create a valid one when needed. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAltStartPath()](#getAltStartPath--) | Gets or sets the alternate startup path, which is referred to by some external formula references. |
+| [getAltStartPath()](#getAltStartPath--) | the alternate startup path, which is referred to by some external formula references. |
 | [getClass()](#getClass--) |  |
-| [getCustomImplementationFactory()](#getCustomImplementationFactory--) | Gets or sets the factory for creating instances with special implementation. |
+| [getCustomImplementationFactory()](#getCustomImplementationFactory--) | the factory for creating instances with special implementation. |
 | [getDPI()](#getDPI--) | Gets the DPI of the machine. |
 | [getDateTimeFromDouble(double doubleValue, boolean date1904)](#getDateTimeFromDouble-double-boolean-) | Convert the double value to the date time value. |
 | [getDoubleFromDateTime(DateTime dateTime, boolean date1904)](#getDoubleFromDateTime-com.aspose.cells.DateTime-boolean-) | Convert the date time to double value. |
-| [getLibraryPath()](#getLibraryPath--) | Gets or sets the library path which is referred to by some external formula references. |
-| [getSignificantDigits()](#getSignificantDigits--) | Gets and sets the number of significant digits. |
-| [getStartupPath()](#getStartupPath--) | Gets or sets the startup path, which is referred to by some external formula references. |
+| [getLibraryPath()](#getLibraryPath--) | the library path which is referred to by some external formula references. |
+| [getSignificantDigits()](#getSignificantDigits--) | the number of significant digits. |
+| [getStartupPath()](#getStartupPath--) | the startup path, which is referred to by some external formula references. |
 | [getTextWidth(String text, Font font, double scaling)](#getTextWidth-java.lang.String-com.aspose.cells.Font-double-) | Get width of text in unit of points. |
 | [getUsedColors(Workbook workbook)](#getUsedColors-com.aspose.cells.Workbook-) | Gets all used colors in the workbook. |
 | [getVersion()](#getVersion--) | Get the release version. |
@@ -238,7 +238,7 @@ public static String getAltStartPath()
 ```
 
 
-Gets or sets the alternate startup path, which is referred to by some external formula references.
+the alternate startup path, which is referred to by some external formula references.
 
 **Returns:**
 java.lang.String
@@ -258,7 +258,7 @@ public static CustomImplementationFactory getCustomImplementationFactory()
 ```
 
 
-Gets or sets the factory for creating instances with special implementation.
+the factory for creating instances with special implementation.
 
 **Returns:**
 [CustomImplementationFactory](../../com.aspose.cells/customimplementationfactory)
@@ -310,7 +310,7 @@ public static String getLibraryPath()
 ```
 
 
-Gets or sets the library path which is referred to by some external formula references.
+the library path which is referred to by some external formula references.
 
 **Returns:**
 java.lang.String
@@ -320,7 +320,7 @@ public static int getSignificantDigits()
 ```
 
 
-Gets and sets the number of significant digits. The default value is 17. Only could be 15 or 17 now.
+the number of significant digits. The default value is 17. Only could be 15 or 17 now.
 
 **Returns:**
 int
@@ -330,7 +330,7 @@ public static String getStartupPath()
 ```
 
 
-Gets or sets the startup path, which is referred to by some external formula references.
+the startup path, which is referred to by some external formula references.
 
 **Returns:**
 java.lang.String

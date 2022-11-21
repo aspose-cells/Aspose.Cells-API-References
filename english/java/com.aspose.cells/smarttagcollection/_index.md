@@ -14,11 +14,6 @@ public class SmartTagCollection extends CollectionBase
 ```
 
 Represents all smart tags in the cell.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SmartTagCollection()](#SmartTagCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -43,12 +38,6 @@ Represents all smart tags in the cell.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### SmartTagCollection() {#SmartTagCollection--}
-```
-public SmartTagCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

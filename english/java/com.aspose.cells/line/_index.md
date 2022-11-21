@@ -54,15 +54,15 @@ Workbook workbook = new Workbook();
 | [getEndArrowLength()](#getEndArrowLength--) | Specifies the length of the arrowhead for the end of a line. |
 | [getEndArrowWidth()](#getEndArrowWidth--) | Specifies the width of the arrowhead for the end of a line. |
 | [getEndType()](#getEndType--) | Specifies an arrowhead for the end of a line. |
-| [getFormattingType()](#getFormattingType--) | Gets or sets format type. |
+| [getFormattingType()](#getFormattingType--) | format type. |
 | [getGradientFill()](#getGradientFill--) | Represents gradient fill. |
 | [getJoinType()](#getJoinType--) | Specifies the joining caps. |
 | [getStyle()](#getStyle--) | Represents the style of the line. |
-| [getThemeColor()](#getThemeColor--) | Gets and sets the theme color. |
+| [getThemeColor()](#getThemeColor--) | the theme color. |
 | [getTransparency()](#getTransparency--) | Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). |
-| [getWeight()](#getWeight--) | Gets or sets the [WeightType](../../com.aspose.cells/weighttype) of the line. |
-| [getWeightPt()](#getWeightPt--) | Gets or sets the weight of the line in unit of points. |
-| [getWeightPx()](#getWeightPx--) | Gets or sets the weight of the line in unit of pixels. |
+| [getWeight()](#getWeight--) | the [WeightType](../../com.aspose.cells/weighttype) of the line. |
+| [getWeightPt()](#getWeightPt--) | the weight of the line in unit of points. |
+| [getWeightPx()](#getWeightPx--) | the weight of the line in unit of pixels. |
 | [hashCode()](#hashCode--) |  |
 | [isAuto()](#isAuto--) | Indicates whether this line style is auto assigned. |
 | [isAutomaticColor()](#isAutomaticColor--) | Indicates whether the color of line is automatic assigned. |
@@ -224,7 +224,7 @@ public int getFormattingType()
 ```
 
 
-Gets or sets format type.
+format type.
 
 **Returns:**
 int
@@ -264,7 +264,7 @@ public ThemeColor getThemeColor()
 ```
 
 
-Gets and sets the theme color. If the foreground color is not a theme color, NULL will be returned.
+the theme color. If the foreground color is not a theme color, NULL will be returned.
 
 **Returns:**
 [ThemeColor](../../com.aspose.cells/themecolor)
@@ -284,7 +284,7 @@ public int getWeight()
 ```
 
 
-Gets or sets the [WeightType](../../com.aspose.cells/weighttype) of the line.
+the [WeightType](../../com.aspose.cells/weighttype) of the line.
 
 **Returns:**
 int
@@ -294,7 +294,7 @@ public double getWeightPt()
 ```
 
 
-Gets or sets the weight of the line in unit of points.
+the weight of the line in unit of points.
 
 **Returns:**
 double
@@ -304,7 +304,7 @@ public double getWeightPx()
 ```
 
 
-Gets or sets the weight of the line in unit of pixels.
+the weight of the line in unit of pixels.
 
 **Returns:**
 double

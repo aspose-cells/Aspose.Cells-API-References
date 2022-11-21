@@ -20,11 +20,6 @@ Workbook workbook = new Workbook();
  
          ChartCollection charts = workbook.getWorksheets().get(0).getCharts();
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartCollection()](#ChartCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -53,12 +48,6 @@ Workbook workbook = new Workbook();
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ChartCollection() {#ChartCollection--}
-```
-public ChartCollection()
-```
-
-
 ### add(byte[] data, String dataRange, boolean isVertical, int topRow, int leftColumn, int rightRow, int bottomColumn) {#add-byte---java.lang.String-boolean-int-int-int-int-}
 ```
 public int add(byte[] data, String dataRange, boolean isVertical, int topRow, int leftColumn, int rightRow, int bottomColumn)

@@ -14,11 +14,6 @@ public class RevisionCellMove extends Revision
 ```
 
 Represents a revision record on a cell(s) that moved.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [RevisionCellMove()](#RevisionCellMove--) |  |
 ## Methods
 
 | Method | Description |
@@ -38,12 +33,6 @@ Represents a revision record on a cell(s) that moved.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### RevisionCellMove() {#RevisionCellMove--}
-```
-public RevisionCellMove()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

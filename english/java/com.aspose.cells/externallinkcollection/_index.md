@@ -25,11 +25,6 @@ Represents external links collection in a workbook.
          //Change external link data source
          workbook.getWorksheets().getExternalLinks().get(0).setDataSource("d:\\link.xls");
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ExternalLinkCollection()](#ExternalLinkCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -52,12 +47,6 @@ Represents external links collection in a workbook.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ExternalLinkCollection() {#ExternalLinkCollection--}
-```
-public ExternalLinkCollection()
-```
-
-
 ### add(int directoryType, String fileName, String[] sheetNames) {#add-int-java.lang.String-java.lang.String---}
 ```
 public int add(int directoryType, String fileName, String[] sheetNames)

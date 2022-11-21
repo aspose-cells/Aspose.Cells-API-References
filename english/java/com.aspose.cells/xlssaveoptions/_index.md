@@ -38,7 +38,7 @@ Represents the save options for the Excel 97-2003 file format: xls and xlt.
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
-| [getWarningCallback()](#getWarningCallback--) | Gets or sets warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | warning callback. |
 | [hashCode()](#hashCode--) |  |
 | [isTemplate()](#isTemplate--) | Indicates whether saving a template file. |
 | [notify()](#notify--) |  |
@@ -232,7 +232,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Gets or sets warning callback.
+warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)

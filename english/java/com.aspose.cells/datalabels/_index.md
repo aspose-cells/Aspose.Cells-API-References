@@ -35,11 +35,6 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
              datalabels.setShowLegendKey(false);
          }
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [DataLabels()](#DataLabels--) |  |
 ## Methods
 
 | Method | Description |
@@ -48,8 +43,8 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getArea()](#getArea--) | Gets the [Area](../../com.aspose.cells/area). |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
-| [getBackground()](#getBackground--) | Gets and sets the display mode of the background NOTE: This member is now obsolete. |
-| [getBackgroundMode()](#getBackgroundMode--) | Gets and sets the display mode of the background |
+| [getBackground()](#getBackground--) | the display mode of the background NOTE: This member is now obsolete. |
+| [getBackgroundMode()](#getBackgroundMode--) | the display mode of the background |
 | [getBorder()](#getBorder--) | Gets the [Line](../../com.aspose.cells/line). |
 | [getChart()](#getChart--) | Gets the chart to which this object belongs. |
 | [getClass()](#getClass--) |  |
@@ -57,22 +52,22 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [getDefaultWidth()](#getDefaultWidth--) | Represents width of default position |
 | [getDefaultX()](#getDefaultX--) | Represents x of default position |
 | [getDefaultY()](#getDefaultY--) | Represents y of default position |
-| [getDirectionType()](#getDirectionType--) | Gets and sets the direction of text. |
+| [getDirectionType()](#getDirectionType--) | the direction of text. |
 | [getFont()](#getFont--) | Gets the font of the DataLabels; |
-| [getHeight()](#getHeight--) | Gets or sets the height of frame in units of 1/4000 of the chart area. |
-| [getLinkedSource()](#getLinkedSource--) | Gets and sets a reference to the worksheet. |
-| [getNumber()](#getNumber--) | Gets and sets the built-in number format. |
+| [getHeight()](#getHeight--) | the height of frame in units of 1/4000 of the chart area. |
+| [getLinkedSource()](#getLinkedSource--) | a reference to the worksheet. |
+| [getNumber()](#getNumber--) | the built-in number format. |
 | [getNumberFormat()](#getNumberFormat--) | Represents the format string for the DataLabels object. |
 | [getNumberFormatLinked()](#getNumberFormatLinked--) | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
 | [getPosition()](#getPosition--) | Represents the position of the data label. |
 | [getReadingOrder()](#getReadingOrder--) | Represents text reading order. |
 | [getRotationAngle()](#getRotationAngle--) | Represents text rotation angle. |
-| [getSeparator()](#getSeparator--) | Gets or sets the separator type used for the data labels on a chart. |
-| [getSeparatorType()](#getSeparatorType--) | Gets or sets the separator type used for the data labels on a chart. |
-| [getSeparatorValue()](#getSeparatorValue--) | Gets or sets the separator value used for the data labels on a chart. |
+| [getSeparator()](#getSeparator--) | the separator type used for the data labels on a chart. |
+| [getSeparatorType()](#getSeparatorType--) | the separator type used for the data labels on a chart. |
+| [getSeparatorValue()](#getSeparatorValue--) | the separator value used for the data labels on a chart. |
 | [getShadow()](#getShadow--) | True if the frame has a shadow. |
 | [getShapeProperties()](#getShapeProperties--) | Gets the [getShapeProperties()](../../com.aspose.cells/chartframe\#getShapeProperties--) object. |
-| [getShapeType()](#getShapeType--) | Gets or sets shape type of data label. |
+| [getShapeType()](#getShapeType--) | shape type of data label. |
 | [getShowBubbleSize()](#getShowBubbleSize--) | Represents a specified chart's data label percentage value display behavior. |
 | [getShowCategoryName()](#getShowCategoryName--) | Represents a specified chart's data label category name display behavior.True to display the category name for the data labels on a chart. |
 | [getShowCellRange()](#getShowCellRange--) | Indicates whether showing cell range as the data labels. |
@@ -80,15 +75,15 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [getShowPercentage()](#getShowPercentage--) | Represents a specified chart's data label percentage value display behavior. |
 | [getShowSeriesName()](#getShowSeriesName--) | Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. |
 | [getShowValue()](#getShowValue--) | Represents a specified chart's data label values display behavior. |
-| [getText()](#getText--) | Gets or sets the text of data label. |
+| [getText()](#getText--) | the text of data label. |
 | [getTextDirection()](#getTextDirection--) | Represents text reading order. |
 | [getTextFont()](#getTextFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
-| [getTextHorizontalAlignment()](#getTextHorizontalAlignment--) | Gets and sets the text horizontal alignment. |
-| [getTextOptions()](#getTextOptions--) | Gets and sets the options of the text. |
-| [getTextVerticalAlignment()](#getTextVerticalAlignment--) | Gets or sets the text vertical alignment of text. |
-| [getWidth()](#getWidth--) | Gets or sets the width of frame in units of 1/4000 of the chart area. |
-| [getX()](#getX--) | Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the chart area. |
-| [getY()](#getY--) | Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
+| [getTextHorizontalAlignment()](#getTextHorizontalAlignment--) | the text horizontal alignment. |
+| [getTextOptions()](#getTextOptions--) | the options of the text. |
+| [getTextVerticalAlignment()](#getTextVerticalAlignment--) | the text vertical alignment of text. |
+| [getWidth()](#getWidth--) | the width of frame in units of 1/4000 of the chart area. |
+| [getX()](#getX--) | the x coordinate of the upper left corner in units of 1/4000 of the chart area. |
+| [getY()](#getY--) | the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
 | [hashCode()](#hashCode--) |  |
 | [isAutoText()](#isAutoText--) | Indicates the text is auto generated. |
 | [isAutomaticSize()](#isAutomaticSize--) | Indicates whether the chart frame is automatic sized. |
@@ -96,8 +91,8 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [isDeleted()](#isDeleted--) | Indicates whether this data labels is deleted. |
 | [isInnerMode()](#isInnerMode--) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
 | [isNeverOverlap()](#isNeverOverlap--) | Indicates whether the datalabels display never overlap. |
-| [isResizeShapeToFitText()](#isResizeShapeToFitText--) | Gets or sets whether a shape should be auto-fit to fully contain the text described within it. |
-| [isTextWrapped()](#isTextWrapped--) | Gets or sets a value indicating whether the text is wrapped. |
+| [isResizeShapeToFitText()](#isResizeShapeToFitText--) | whether a shape should be auto-fit to fully contain the text described within it. |
+| [isTextWrapped()](#isTextWrapped--) | a value indicating whether the text is wrapped. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | For the description of this property, please see [getAutoScaleFont()](../../com.aspose.cells/chartframe\#getAutoScaleFont--) |
@@ -143,12 +138,6 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### DataLabels() {#DataLabels--}
-```
-public DataLabels()
-```
-
-
 ### characters(int startIndex, int length) {#characters-int-int-}
 ```
 public FontSetting characters(int startIndex, int length)
@@ -206,7 +195,7 @@ public int getBackground()
 ```
 
 
-Gets and sets the display mode of the background NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+the display mode of the background NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -216,7 +205,7 @@ public int getBackgroundMode()
 ```
 
 
-Gets and sets the display mode of the background
+the display mode of the background
 
 **Returns:**
 int
@@ -296,7 +285,7 @@ public int getDirectionType()
 ```
 
 
-Gets and sets the direction of text.
+the direction of text.
 
 **Returns:**
 int
@@ -316,7 +305,7 @@ public int getHeight()
 ```
 
 
-Gets or sets the height of frame in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Height In Pixels = Y \* Chart.ChartObject.Height / 4000;
+the height of frame in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Height In Pixels = Y \* Chart.ChartObject.Height / 4000;
 
 **Returns:**
 int
@@ -326,7 +315,7 @@ public String getLinkedSource()
 ```
 
 
-Gets and sets a reference to the worksheet.
+a reference to the worksheet.
 
 **Returns:**
 java.lang.String
@@ -336,7 +325,7 @@ public int getNumber()
 ```
 
 
-Gets and sets the built-in number format.
+the built-in number format.
 
 **Returns:**
 int
@@ -404,7 +393,7 @@ public int getSeparator()
 ```
 
 
-Gets or sets the separator type used for the data labels on a chart. NOTE: This member is now obsolete. Instead, please use DataLabels.SeparatorType property. This property will be removed 12 months later since September 2020. Aspose apologizes for any inconvenience you may have experienced.
+the separator type used for the data labels on a chart. NOTE: This member is now obsolete. Instead, please use DataLabels.SeparatorType property. This property will be removed 12 months later since September 2020. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -414,7 +403,7 @@ public int getSeparatorType()
 ```
 
 
-Gets or sets the separator type used for the data labels on a chart. To set custom separator, please set the property [getSeparatorType()](../../com.aspose.cells/datalabels\#getSeparatorType--) as DataLabelsSeparatorType.CUSTOM and then specify the expected value for [getSeparatorValue()](../../com.aspose.cells/datalabels\#getSeparatorValue--).
+the separator type used for the data labels on a chart. To set custom separator, please set the property [getSeparatorType()](../../com.aspose.cells/datalabels\#getSeparatorType--) as DataLabelsSeparatorType.CUSTOM and then specify the expected value for [getSeparatorValue()](../../com.aspose.cells/datalabels\#getSeparatorValue--).
 
 **Returns:**
 int
@@ -424,7 +413,7 @@ public String getSeparatorValue()
 ```
 
 
-Gets or sets the separator value used for the data labels on a chart.
+the separator value used for the data labels on a chart.
 
 **Returns:**
 java.lang.String
@@ -454,7 +443,7 @@ public int getShapeType()
 ```
 
 
-Gets or sets shape type of data label.
+shape type of data label.
 
 **Returns:**
 int
@@ -534,7 +523,7 @@ public String getText()
 ```
 
 
-Gets or sets the text of data label.
+the text of data label.
 
 **Returns:**
 java.lang.String
@@ -564,7 +553,7 @@ public int getTextHorizontalAlignment()
 ```
 
 
-Gets and sets the text horizontal alignment.
+the text horizontal alignment.
 
 **Returns:**
 int
@@ -574,7 +563,7 @@ public TextOptions getTextOptions()
 ```
 
 
-Gets and sets the options of the text.
+the options of the text.
 
 **Returns:**
 [TextOptions](../../com.aspose.cells/textoptions)
@@ -584,7 +573,7 @@ public int getTextVerticalAlignment()
 ```
 
 
-Gets or sets the text vertical alignment of text.
+the text vertical alignment of text.
 
 **Returns:**
 int
@@ -594,7 +583,7 @@ public int getWidth()
 ```
 
 
-Gets or sets the width of frame in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Width In Pixels = Width \* Chart.ChartObject.Height / 4000;
+the width of frame in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Width In Pixels = Width \* Chart.ChartObject.Height / 4000;
 
 **Returns:**
 int
@@ -604,7 +593,7 @@ public int getX()
 ```
 
 
-Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? X In Pixels = X \* Chart.ChartObject.Width / 4000;
+the x coordinate of the upper left corner in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? X In Pixels = X \* Chart.ChartObject.Width / 4000;
 
 **Returns:**
 int
@@ -614,7 +603,7 @@ public int getY()
 ```
 
 
-Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Y In Pixels = Y \* Chart.ChartObject.Height / 4000;
+the y coordinate of the upper left corner in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Y In Pixels = Y \* Chart.ChartObject.Height / 4000;
 
 **Returns:**
 int
@@ -694,7 +683,7 @@ public boolean isResizeShapeToFitText()
 ```
 
 
-Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside.
+whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside.
 
 **Returns:**
 boolean
@@ -704,7 +693,7 @@ public boolean isTextWrapped()
 ```
 
 
-Gets or sets a value indicating whether the text is wrapped.
+a value indicating whether the text is wrapped.
 
 **Returns:**
 boolean

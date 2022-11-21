@@ -20,10 +20,10 @@ Represents a persisted taskpane object.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDockState()](#getDockState--) | Gets and sets the last-docked location of this taskpane object. |
-| [getRow()](#getRow--) | Gets and sets the index, enumerating from the outside to the inside, of this taskpane among other persisted taskpanes docked in the same default location. |
-| [getWebExtension()](#getWebExtension--) | Gets and sets the web extension part associated with the taskpane instance |
-| [getWidth()](#getWidth--) | Gets and sets the default width value for this taskpane instance. |
+| [getDockState()](#getDockState--) | the last-docked location of this taskpane object. |
+| [getRow()](#getRow--) | the index, enumerating from the outside to the inside, of this taskpane among other persisted taskpanes docked in the same default location. |
+| [getWebExtension()](#getWebExtension--) | the web extension part associated with the taskpane instance |
+| [getWidth()](#getWidth--) | the default width value for this taskpane instance. |
 | [hashCode()](#hashCode--) |  |
 | [isLocked()](#isLocked--) | Indicates whether the taskpane is locked to the document in the UI and cannot be closed by the user. |
 | [isVisible()](#isVisible--) | Indicates whether the Task Pane shows as visible by default when the document opens. |
@@ -70,7 +70,7 @@ public String getDockState()
 ```
 
 
-Gets and sets the last-docked location of this taskpane object.
+the last-docked location of this taskpane object.
 
 **Returns:**
 java.lang.String
@@ -80,7 +80,7 @@ public int getRow()
 ```
 
 
-Gets and sets the index, enumerating from the outside to the inside, of this taskpane among other persisted taskpanes docked in the same default location.
+the index, enumerating from the outside to the inside, of this taskpane among other persisted taskpanes docked in the same default location.
 
 **Returns:**
 int
@@ -90,7 +90,7 @@ public WebExtension getWebExtension()
 ```
 
 
-Gets and sets the web extension part associated with the taskpane instance
+the web extension part associated with the taskpane instance
 
 **Returns:**
 [WebExtension](../../com.aspose.cells/webextension)
@@ -100,7 +100,7 @@ public double getWidth()
 ```
 
 
-Gets and sets the default width value for this taskpane instance.
+the default width value for this taskpane instance.
 
 **Returns:**
 double

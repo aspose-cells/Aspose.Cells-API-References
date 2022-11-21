@@ -20,9 +20,9 @@ Represents an individual scenario.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getComment()](#getComment--) | Gets and sets the comment of scenario. |
+| [getComment()](#getComment--) | the comment of scenario. |
 | [getInputCells()](#getInputCells--) | Gets the input cells of scenario. |
-| [getName()](#getName--) | Gets and sets the name of scenario. |
+| [getName()](#getName--) | the name of scenario. |
 | [getUser()](#getUser--) | Gets name of user who last changed the scenario. |
 | [hashCode()](#hashCode--) |  |
 | [isHidden()](#isHidden--) | Indicates whether scenario is hidden. |
@@ -68,7 +68,7 @@ public String getComment()
 ```
 
 
-Gets and sets the comment of scenario.
+the comment of scenario.
 
 **Returns:**
 java.lang.String
@@ -88,7 +88,7 @@ public String getName()
 ```
 
 
-Gets and sets the name of scenario.
+the name of scenario.
 
 **Returns:**
 java.lang.String

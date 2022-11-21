@@ -19,11 +19,11 @@ Represents fill formatting for a shape.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBackColor()](#getBackColor--) | Gets and sets the file back color. |
+| [getBackColor()](#getBackColor--) | the file back color. |
 | [getClass()](#getClass--) |  |
-| [getForeColor()](#getForeColor--) | Gets and sets the fill fore color. |
+| [getForeColor()](#getForeColor--) | the fill fore color. |
 | [getForeColorTransparency()](#getForeColorTransparency--) | Returns or sets the degree of fore color of the specified fill as a value from 0.0 (opaque) through 1.0 (clear). |
-| [getImageData()](#getImageData--) | Gets and sets the Texture and Picture fill data. |
+| [getImageData()](#getImageData--) | the Texture and Picture fill data. |
 | [getTexture()](#getTexture--) | Gets the texture fill type. |
 | [hashCode()](#hashCode--) |  |
 | [isVisible()](#isVisible--) | Indicates whether there is fill. |
@@ -60,7 +60,7 @@ public Color getBackColor()
 ```
 
 
-Gets and sets the file back color.
+the file back color.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -80,7 +80,7 @@ public Color getForeColor()
 ```
 
 
-Gets and sets the fill fore color.
+the fill fore color.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -100,7 +100,7 @@ public byte[] getImageData()
 ```
 
 
-Gets and sets the Texture and Picture fill data.
+the Texture and Picture fill data.
 
 **Returns:**
 byte[]

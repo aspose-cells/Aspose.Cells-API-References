@@ -14,46 +14,41 @@ public class ListBoxActiveXControl extends ActiveXControl
 ```
 
 Represents a ListBox ActiveX control.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ListBoxActiveXControl()](#ListBoxActiveXControl--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBackOleColor()](#getBackOleColor--) | Gets and sets the ole color of the background. |
-| [getBorderOleColor()](#getBorderOleColor--) | Gets and sets the ole color of the background. |
-| [getBorderStyle()](#getBorderStyle--) | Gets and set the type of border used by the control. |
+| [getBackOleColor()](#getBackOleColor--) | the ole color of the background. |
+| [getBorderOleColor()](#getBorderOleColor--) | the ole color of the background. |
+| [getBorderStyle()](#getBorderStyle--) | the type of border used by the control. |
 | [getBoundColumn()](#getBoundColumn--) | Represents how the Value property is determined for a ComboBox or ListBox when the MultiSelect properties value (fmMultiSelectSingle). |
 | [getClass()](#getClass--) |  |
 | [getColumnCount()](#getColumnCount--) | Represents the number of columns to display in a ComboBox or ListBox. |
-| [getColumnWidths()](#getColumnWidths--) | Gets and sets the width of the column. |
-| [getData()](#getData--) | Gets and sets the binary data of the control. |
+| [getColumnWidths()](#getColumnWidths--) | the width of the column. |
+| [getData()](#getData--) | the binary data of the control. |
 | [getFont()](#getFont--) | Represents the font of the control. |
-| [getForeOleColor()](#getForeOleColor--) | Gets and sets the ole color of the foreground. |
-| [getHeight()](#getHeight--) | Gets and sets the height of the control in unit of points. |
-| [getIMEMode()](#getIMEMode--) | Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus. |
+| [getForeOleColor()](#getForeOleColor--) | the ole color of the foreground. |
+| [getHeight()](#getHeight--) | the height of the control in unit of points. |
+| [getIMEMode()](#getIMEMode--) | the default run-time mode of the Input Method Editor for the control as it receives focus. |
 | [getIntegralHeight()](#getIntegralHeight--) | Indicates whether the control will only show complete lines of text without showing any partial lines. |
-| [getLinkedCell()](#getLinkedCell--) | Gets and sets the linked cell. |
-| [getListFillRange()](#getListFillRange--) | Gets and sets the list fill range. |
-| [getListStyle()](#getListStyle--) | Gets and sets the visual appearance. |
-| [getListWidth()](#getListWidth--) | Gets and set the width in unit of points. |
+| [getLinkedCell()](#getLinkedCell--) | the linked cell. |
+| [getListFillRange()](#getListFillRange--) | the list fill range. |
+| [getListStyle()](#getListStyle--) | the visual appearance. |
+| [getListWidth()](#getListWidth--) | the width in unit of points. |
 | [getMatchEntry()](#getMatchEntry--) | Indicates how a ListBox or ComboBox searches its list as the user types. |
-| [getMouseIcon()](#getMouseIcon--) | Gets and sets a custom icon to display as the mouse pointer for the control. |
-| [getMousePointer()](#getMousePointer--) | Gets and sets the type of icon displayed as the mouse pointer for the control. |
+| [getMouseIcon()](#getMouseIcon--) | a custom icon to display as the mouse pointer for the control. |
+| [getMousePointer()](#getMousePointer--) | the type of icon displayed as the mouse pointer for the control. |
 | [getScrollBars()](#getScrollBars--) | Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither. |
 | [getSelectionType()](#getSelectionType--) | Indicates whether the control permits multiple selections. |
 | [getShadow()](#getShadow--) | Indicates whether to show a shadow. |
 | [getShowColumnHeads()](#getShowColumnHeads--) | Indicates whether column headings are displayed. |
-| [getSpecialEffect()](#getSpecialEffect--) | Gets and sets the special effect of the control. |
+| [getSpecialEffect()](#getSpecialEffect--) | the special effect of the control. |
 | [getTextAlign()](#getTextAlign--) | Represents how to align the text used by the control. |
 | [getTextColumn()](#getTextColumn--) | Represents the column in a ComboBox or ListBox to display to the user. |
 | [getType()](#getType--) | Gets the type of the ActiveX control. |
-| [getValue()](#getValue--) | Gets and sets the value of the control. |
-| [getWidth()](#getWidth--) | Gets and sets the width of the control in unit of points. |
+| [getValue()](#getValue--) | the value of the control. |
+| [getWidth()](#getWidth--) | the width of the control in unit of points. |
 | [getWorkbook()](#getWorkbook--) | Gets the [Workbook](../../com.aspose.cells/workbook) object. |
 | [hashCode()](#hashCode--) |  |
 | [isAutoSize()](#isAutoSize--) | Indicates whether the control will automatically resize to display its entire contents. |
@@ -98,12 +93,6 @@ Represents a ListBox ActiveX control.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ListBoxActiveXControl() {#ListBoxActiveXControl--}
-```
-public ListBoxActiveXControl()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -125,7 +114,7 @@ public int getBackOleColor()
 ```
 
 
-Gets and sets the ole color of the background.
+the ole color of the background.
 
 **Returns:**
 int
@@ -135,7 +124,7 @@ public int getBorderOleColor()
 ```
 
 
-Gets and sets the ole color of the background.
+the ole color of the background.
 
 **Returns:**
 int
@@ -145,7 +134,7 @@ public int getBorderStyle()
 ```
 
 
-Gets and set the type of border used by the control.
+the type of border used by the control.
 
 **Returns:**
 int
@@ -185,7 +174,7 @@ public double getColumnWidths()
 ```
 
 
-Gets and sets the width of the column.
+the width of the column.
 
 **Returns:**
 double
@@ -195,7 +184,7 @@ public byte[] getData()
 ```
 
 
-Gets and sets the binary data of the control.
+the binary data of the control.
 
 **Returns:**
 byte[]
@@ -215,7 +204,7 @@ public int getForeOleColor()
 ```
 
 
-Gets and sets the ole color of the foreground. Not applies to Image control.
+the ole color of the foreground. Not applies to Image control.
 
 **Returns:**
 int
@@ -225,7 +214,7 @@ public double getHeight()
 ```
 
 
-Gets and sets the height of the control in unit of points.
+the height of the control in unit of points.
 
 **Returns:**
 double
@@ -235,7 +224,7 @@ public int getIMEMode()
 ```
 
 
-Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus.
+the default run-time mode of the Input Method Editor for the control as it receives focus.
 
 **Returns:**
 int
@@ -255,7 +244,7 @@ public String getLinkedCell()
 ```
 
 
-Gets and sets the linked cell.
+the linked cell.
 
 **Returns:**
 java.lang.String
@@ -265,7 +254,7 @@ public String getListFillRange()
 ```
 
 
-Gets and sets the list fill range.
+the list fill range.
 
 **Returns:**
 java.lang.String
@@ -275,7 +264,7 @@ public int getListStyle()
 ```
 
 
-Gets and sets the visual appearance.
+the visual appearance.
 
 **Returns:**
 int
@@ -285,7 +274,7 @@ public double getListWidth()
 ```
 
 
-Gets and set the width in unit of points.
+the width in unit of points.
 
 **Returns:**
 double
@@ -305,7 +294,7 @@ public byte[] getMouseIcon()
 ```
 
 
-Gets and sets a custom icon to display as the mouse pointer for the control.
+a custom icon to display as the mouse pointer for the control.
 
 **Returns:**
 byte[]
@@ -315,7 +304,7 @@ public int getMousePointer()
 ```
 
 
-Gets and sets the type of icon displayed as the mouse pointer for the control.
+the type of icon displayed as the mouse pointer for the control.
 
 **Returns:**
 int
@@ -365,7 +354,7 @@ public int getSpecialEffect()
 ```
 
 
-Gets and sets the special effect of the control.
+the special effect of the control.
 
 **Returns:**
 int
@@ -405,7 +394,7 @@ public String getValue()
 ```
 
 
-Gets and sets the value of the control. Only effects when [getSelectionType()](../../com.aspose.cells/listboxactivexcontrol\#getSelectionType--) is SelectionType.Single;
+the value of the control. Only effects when [getSelectionType()](../../com.aspose.cells/listboxactivexcontrol\#getSelectionType--) is SelectionType.Single;
 
 **Returns:**
 java.lang.String
@@ -415,7 +404,7 @@ public double getWidth()
 ```
 
 
-Gets and sets the width of the control in unit of points.
+the width of the control in unit of points.
 
 **Returns:**
 double

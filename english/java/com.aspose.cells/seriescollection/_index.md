@@ -57,11 +57,6 @@ Encapsulates a collection of [Series](../../com.aspose.cells/series) objects.
          //Saving the Excel file
          workbook.save("book1.xls");
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SeriesCollection()](#SeriesCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -75,10 +70,10 @@ Encapsulates a collection of [Series](../../com.aspose.cells/series) objects.
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the [Series](../../com.aspose.cells/series) element at the specified index. |
-| [getCategoryData()](#getCategoryData--) | Gets or sets the range of category Axis values. |
+| [getCategoryData()](#getCategoryData--) | the range of category Axis values. |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
-| [getSecondCategoryData()](#getSecondCategoryData--) | Gets or sets the range of second category Axis values. |
+| [getSecondCategoryData()](#getSecondCategoryData--) | the range of second category Axis values. |
 | [getSeriesByOrder(int order)](#getSeriesByOrder-int-) | Gets the [Series](../../com.aspose.cells/series) element by order. |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(Object o)](#indexOf-java.lang.Object-) | Determines the index of a specific item in the CollectionBase instance. |
@@ -95,12 +90,6 @@ Encapsulates a collection of [Series](../../com.aspose.cells/series) objects.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### SeriesCollection() {#SeriesCollection--}
-```
-public SeriesCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)
@@ -250,7 +239,7 @@ public String getCategoryData()
 ```
 
 
-Gets or sets the range of category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"\{2,6,8,10\}").
+the range of category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"\{2,6,8,10\}").
 
 **Returns:**
 java.lang.String
@@ -280,7 +269,7 @@ public String getSecondCategoryData()
 ```
 
 
-Gets or sets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"\{2,6,8,10\}"). Only effects when some ASerieses plot on the second axis.
+the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"\{2,6,8,10\}"). Only effects when some ASerieses plot on the second axis.
 
 **Returns:**
 java.lang.String

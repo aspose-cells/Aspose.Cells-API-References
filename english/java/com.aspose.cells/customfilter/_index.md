@@ -20,8 +20,8 @@ Represents the custom filter.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getCriteria()](#getCriteria--) | Gets and sets the criteria. |
-| [getFilterOperatorType()](#getFilterOperatorType--) | Gets and sets the filter operator type. |
+| [getCriteria()](#getCriteria--) | the criteria. |
+| [getFilterOperatorType()](#getFilterOperatorType--) | the filter operator type. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -63,7 +63,7 @@ public Object getCriteria()
 ```
 
 
-Gets and sets the criteria.
+the criteria.
 
 **Returns:**
 java.lang.Object
@@ -73,7 +73,7 @@ public int getFilterOperatorType()
 ```
 
 
-Gets and sets the filter operator type.
+the filter operator type.
 
 **Returns:**
 int

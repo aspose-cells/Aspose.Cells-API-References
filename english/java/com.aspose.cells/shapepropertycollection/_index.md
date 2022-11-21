@@ -26,7 +26,7 @@ This class specifies the visual shape properties for a chart element or shape.
 | [getFormat3D()](#getFormat3D--) | Represents a [getFormat3D()](../../com.aspose.cells/shapepropertycollection\#getFormat3D--) object that specifies 3D shape properties for the chart element or shape. |
 | [getGlowEffect()](#getGlowEffect--) | Represents a [ShapeFormat.getGlowEffect()](../../com.aspose.cells/shapeformat\#getGlowEffect--) object that specifies glow effect for the chart element or shape. |
 | [getShadowEffect()](#getShadowEffect--) | Represents a [ShadowEffect](../../com.aspose.cells/shadoweffect) object that specifies shadow effect for the chart element or shape. |
-| [getSoftEdgeRadius()](#getSoftEdgeRadius--) | Gets and sets the radius of blur to apply to the edges, in unit of points. |
+| [getSoftEdgeRadius()](#getSoftEdgeRadius--) | the radius of blur to apply to the edges, in unit of points. |
 | [hasFormat3D()](#hasFormat3D--) | Indicates if the shape has 3d format data. |
 | [hasGlowEffect()](#hasGlowEffect--) | Indicates if the shape has glow effect data. |
 | [hasShadowEffect()](#hasShadowEffect--) | Indicates if the shape has shadow effect data. |
@@ -123,7 +123,7 @@ public double getSoftEdgeRadius()
 ```
 
 
-Gets and sets the radius of blur to apply to the edges, in unit of points.
+the radius of blur to apply to the edges, in unit of points.
 
 **Returns:**
 double

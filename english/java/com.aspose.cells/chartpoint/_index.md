@@ -108,12 +108,12 @@ Represents a single point in a series in a chart.
 | [getTopPointCount()](#getTopPointCount--) | Gets the number of top points after calls Chart.Calculate() method. |
 | [getTopPointXPx(int index)](#getTopPointXPx-int-) | Gets x-coordinate of the top point of shape after calls Chart.Calculate() method. |
 | [getTopPointYPx(int index)](#getTopPointYPx-int-) | Gets y-coordinate of the top point of shape after calls Chart.Calculate() method. |
-| [getXValue()](#getXValue--) | Gets or sets the X value of the chart point. |
+| [getXValue()](#getXValue--) | the X value of the chart point. |
 | [getXValueType()](#getXValueType--) | Gets X value type of the chart point. |
-| [getYValue()](#getYValue--) | Gets or sets the Y value of the chart point. |
+| [getYValue()](#getYValue--) | the Y value of the chart point. |
 | [getYValueType()](#getYValueType--) | Gets Y value type of the chart point. |
 | [hashCode()](#hashCode--) |  |
-| [isInSecondaryPlot()](#isInSecondaryPlot--) | Gets or sets a value indicates whether this data points is in the second pie or bar on a pie of pie or bar of pie chart |
+| [isInSecondaryPlot()](#isInSecondaryPlot--) | a value indicates whether this data points is in the second pie or bar on a pie of pie or bar of pie chart |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setExplosion(int value)](#setExplosion-int-) | For the description of this property, please see [getExplosion()](../../com.aspose.cells/chartpoint\#getExplosion--) |
@@ -556,7 +556,7 @@ public Object getXValue()
 ```
 
 
-Gets or sets the X value of the chart point.
+the X value of the chart point.
 
 **Returns:**
 java.lang.Object
@@ -576,7 +576,7 @@ public Object getYValue()
 ```
 
 
-Gets or sets the Y value of the chart point.
+the Y value of the chart point.
 
 **Returns:**
 java.lang.Object
@@ -606,7 +606,7 @@ public boolean isInSecondaryPlot()
 ```
 
 
-Gets or sets a value indicates whether this data points is in the second pie or bar on a pie of pie or bar of pie chart
+a value indicates whether this data points is in the second pie or bar on a pie of pie or bar of pie chart
 
 **Returns:**
 boolean

@@ -82,11 +82,11 @@ Workbook excel = new Workbook();
 | [getDoubleValue()](#getDoubleValue--) | Gets the double value contained in the cell. |
 | [getFloatValue()](#getFloatValue--) | Gets the float value contained in the cell. |
 | [getFormatConditions()](#getFormatConditions--) | Gets format conditions which applies to this cell. |
-| [getFormula()](#getFormula--) | Gets or sets a formula of the [Cell](../../com.aspose.cells/cell). |
+| [getFormula()](#getFormula--) | a formula of the [Cell](../../com.aspose.cells/cell). |
 | [getFormula(boolean isR1C1, boolean isLocal)](#getFormula-boolean-boolean-) | Get the formula of this cell. |
 | [getFormulaLocal()](#getFormulaLocal--) | Get the locale formatted formula of the cell. |
 | [getHeightOfValue()](#getHeightOfValue--) | Gets the height of the value in unit of pixels. |
-| [getHtmlString()](#getHtmlString--) | Gets and sets the html string which contains data and some formats in this cell. |
+| [getHtmlString()](#getHtmlString--) | the html string which contains data and some formats in this cell. |
 | [getHtmlString(boolean html5)](#getHtmlString-boolean-) | Gets the html string which contains data and some formats in this cell. |
 | [getIntValue()](#getIntValue--) | Gets the integer value contained in the cell. |
 | [getLeafs()](#getLeafs--) | Get all cells which reference to this cell directly and need to be updated when this cell is modified. |
@@ -96,7 +96,7 @@ Workbook excel = new Workbook();
 | [getNumberCategoryType()](#getNumberCategoryType--) | Represents the category type of this cell's number formatting. |
 | [getPrecedents()](#getPrecedents--) | Gets all references appearing in this cell's formula. |
 | [getPrecedentsInCalculation()](#getPrecedentsInCalculation--) | Gets all precedents(reference to cells in current workbook) used by this cell's formula while calculating it. |
-| [getR1C1Formula()](#getR1C1Formula--) | Gets or sets a R1C1 formula of the [Cell](../../com.aspose.cells/cell). |
+| [getR1C1Formula()](#getR1C1Formula--) | a R1C1 formula of the [Cell](../../com.aspose.cells/cell). |
 | [getRow()](#getRow--) | Gets row number (zero based) of the cell. |
 | [getSharedStyleIndex()](#getSharedStyleIndex--) | Gets cell's shared style index in the style pool. |
 | [getStringValue()](#getStringValue--) | Gets the string value contained in the cell. |
@@ -506,7 +506,7 @@ public String getFormula()
 ```
 
 
-Gets or sets a formula of the [Cell](../../com.aspose.cells/cell). A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimiter, such as "=SUM(A1, E1, H2)".
+a formula of the [Cell](../../com.aspose.cells/cell). A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimiter, such as "=SUM(A1, E1, H2)".
 
 ```
 Workbook excel = new Workbook();
@@ -558,7 +558,7 @@ public String getHtmlString()
 ```
 
 
-Gets and sets the html string which contains data and some formats in this cell.
+the html string which contains data and some formats in this cell.
 
 **Returns:**
 java.lang.String
@@ -714,7 +714,7 @@ public String getR1C1Formula()
 ```
 
 
-Gets or sets a R1C1 formula of the [Cell](../../com.aspose.cells/cell).
+a R1C1 formula of the [Cell](../../com.aspose.cells/cell).
 
 **Returns:**
 java.lang.String

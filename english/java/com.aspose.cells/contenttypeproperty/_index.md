@@ -30,7 +30,7 @@ Represents identifier information.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | Returns or sets the name of the object. |
-| [getType()](#getType--) | Gets and sets the type of the property. |
+| [getType()](#getType--) | the type of the property. |
 | [getValue()](#getValue--) | Returns or sets the value of the content type property. |
 | [hashCode()](#hashCode--) |  |
 | [isNillable()](#isNillable--) | Indicates whether the value could be empty. |
@@ -85,7 +85,7 @@ public String getType()
 ```
 
 
-Gets and sets the type of the property.
+the type of the property.
 
 **Returns:**
 java.lang.String

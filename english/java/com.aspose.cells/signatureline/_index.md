@@ -43,13 +43,13 @@ Represent the signature line.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAllowComments()](#getAllowComments--) | Indicates whether comments could be attached. |
 | [getClass()](#getClass--) |  |
-| [getEmail()](#getEmail--) | Gets and sets the email of singer. |
-| [getId()](#getId--) | Gets or sets identifier for this signature line. |
-| [getInstructions()](#getInstructions--) | Gets and sets the text shown to user at signing time. |
-| [getProviderId()](#getProviderId--) | Gets and sets the id of signature provider. |
+| [getEmail()](#getEmail--) | the email of singer. |
+| [getId()](#getId--) | identifier for this signature line. |
+| [getInstructions()](#getInstructions--) | the text shown to user at signing time. |
+| [getProviderId()](#getProviderId--) | the id of signature provider. |
 | [getShowSignedDate()](#getShowSignedDate--) | Indicates whether show signed date. |
-| [getSigner()](#getSigner--) | Gets and sets the signer. |
-| [getTitle()](#getTitle--) | Gets and sets the title of singer. |
+| [getSigner()](#getSigner--) | the signer. |
+| [getTitle()](#getTitle--) | the title of singer. |
 | [hashCode()](#hashCode--) |  |
 | [isLine()](#isLine--) | Indicates whether it is a signature line. |
 | [notify()](#notify--) |  |
@@ -115,7 +115,7 @@ public String getEmail()
 ```
 
 
-Gets and sets the email of singer.
+the email of singer.
 
 ```
 // Create signature line object
@@ -131,7 +131,7 @@ public UUID getId()
 ```
 
 
-Gets or sets identifier for this signature line.
+identifier for this signature line.
 
 ```
 // Create signature line object
@@ -147,7 +147,7 @@ public String getInstructions()
 ```
 
 
-Gets and sets the text shown to user at signing time.
+the text shown to user at signing time.
 
 ```
 // Create signature line object
@@ -163,7 +163,7 @@ public UUID getProviderId()
 ```
 
 
-Gets and sets the id of signature provider. It's typically the CLSID of the provider com add-in.
+the id of signature provider. It's typically the CLSID of the provider com add-in.
 
 ```
 // Create signature line object
@@ -196,7 +196,7 @@ public String getSigner()
 ```
 
 
-Gets and sets the signer.
+the signer.
 
 ```
 // Create signature line object
@@ -212,7 +212,7 @@ public String getTitle()
 ```
 
 
-Gets and sets the title of singer.
+the title of singer.
 
 ```
 // Create signature line object

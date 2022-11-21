@@ -14,11 +14,6 @@ public class XmlMapCollection extends CollectionBase
 ```
 
 A collection of [ListObject.getXmlMap()](../../com.aspose.cells/listobject\#getXmlMap--) objects that represent XmlMap information.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [XmlMapCollection()](#XmlMapCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -41,12 +36,6 @@ A collection of [ListObject.getXmlMap()](../../com.aspose.cells/listobject\#getX
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### XmlMapCollection() {#XmlMapCollection--}
-```
-public XmlMapCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

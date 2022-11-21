@@ -61,11 +61,6 @@ Encapsulates the object that represents the chart area in the worksheet.
          //Saving the Excel file
          workbook.save("book1.xls");
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartArea()](#ChartArea--) |  |
 ## Methods
 
 | Method | Description |
@@ -73,8 +68,8 @@ Encapsulates the object that represents the chart area in the worksheet.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getArea()](#getArea--) | Gets the [Area](../../com.aspose.cells/area). |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
-| [getBackground()](#getBackground--) | Gets and sets the display mode of the background NOTE: This member is now obsolete. |
-| [getBackgroundMode()](#getBackgroundMode--) | Gets and sets the display mode of the background |
+| [getBackground()](#getBackground--) | the display mode of the background NOTE: This member is now obsolete. |
+| [getBackgroundMode()](#getBackgroundMode--) | the display mode of the background |
 | [getBorder()](#getBorder--) | Gets the [Line](../../com.aspose.cells/line). |
 | [getChart()](#getChart--) | Gets the chart to which this object belongs. |
 | [getClass()](#getClass--) |  |
@@ -83,12 +78,12 @@ Encapsulates the object that represents the chart area in the worksheet.
 | [getDefaultX()](#getDefaultX--) | Represents x of default position |
 | [getDefaultY()](#getDefaultY--) | Represents y of default position |
 | [getFont()](#getFont--) | Gets a [getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified chartarea object. |
-| [getHeight()](#getHeight--) | Gets or sets the vertical offset from its lower right corner row. |
+| [getHeight()](#getHeight--) | the vertical offset from its lower right corner row. |
 | [getShadow()](#getShadow--) | True if the frame has a shadow. |
 | [getShapeProperties()](#getShapeProperties--) | Gets the [getShapeProperties()](../../com.aspose.cells/chartframe\#getShapeProperties--) object. |
 | [getTextFont()](#getTextFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
-| [getTextOptions()](#getTextOptions--) | Gets and sets the options of the text. |
-| [getWidth()](#getWidth--) | Gets or sets the horizontal offset from its lower right corner column. |
+| [getTextOptions()](#getTextOptions--) | the options of the text. |
+| [getWidth()](#getWidth--) | the horizontal offset from its lower right corner column. |
 | [getX()](#getX--) | Gets or gets the horizontal offset from its upper left corner column. |
 | [getY()](#getY--) | Gets or gets the vertical offset from its upper left corner row. |
 | [hashCode()](#hashCode--) |  |
@@ -112,12 +107,6 @@ Encapsulates the object that represents the chart area in the worksheet.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ChartArea() {#ChartArea--}
-```
-public ChartArea()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -159,7 +148,7 @@ public int getBackground()
 ```
 
 
-Gets and sets the display mode of the background NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+the display mode of the background NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -169,7 +158,7 @@ public int getBackgroundMode()
 ```
 
 
-Gets and sets the display mode of the background
+the display mode of the background
 
 **Returns:**
 int
@@ -259,7 +248,7 @@ public int getHeight()
 ```
 
 
-Gets or sets the vertical offset from its lower right corner row.
+the vertical offset from its lower right corner row.
 
 **Returns:**
 int
@@ -299,7 +288,7 @@ public TextOptions getTextOptions()
 ```
 
 
-Gets and sets the options of the text.
+the options of the text.
 
 **Returns:**
 [TextOptions](../../com.aspose.cells/textoptions)
@@ -309,7 +298,7 @@ public int getWidth()
 ```
 
 
-Gets or sets the horizontal offset from its lower right corner column.
+the horizontal offset from its lower right corner column.
 
 **Returns:**
 int

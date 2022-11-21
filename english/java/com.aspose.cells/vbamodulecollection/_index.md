@@ -25,11 +25,6 @@ Represents the list of [VbaModule](../../com.aspose.cells/vbamodule)
          //Saving the Excel file
          workbook.save("book1.xlsm");
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [VbaModuleCollection()](#VbaModuleCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -58,12 +53,6 @@ Represents the list of [VbaModule](../../com.aspose.cells/vbamodule)
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### VbaModuleCollection() {#VbaModuleCollection--}
-```
-public VbaModuleCollection()
-```
-
-
 ### add(Worksheet sheet) {#add-com.aspose.cells.Worksheet-}
 ```
 public int add(Worksheet sheet)

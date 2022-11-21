@@ -27,12 +27,12 @@ Represents union range.
 | [getFirstColumn()](#getFirstColumn--) | Gets the index of the first column of the range. |
 | [getFirstRow()](#getFirstRow--) | Gets the index of the first row of the range. |
 | [getHyperlinks()](#getHyperlinks--) | Gets all hyperlink in the range. |
-| [getName()](#getName--) | Gets or sets the name of the range. |
+| [getName()](#getName--) | the name of the range. |
 | [getRangeCount()](#getRangeCount--) | Gets the count of the ranges. |
 | [getRanges()](#getRanges--) | Gets all union ranges. |
 | [getRefersTo()](#getRefersTo--) | Gets the range's refers to. |
 | [getRowCount()](#getRowCount--) | Gets the count of rows in the range. |
-| [getValue()](#getValue--) | Gets and sets the values of the range. |
+| [getValue()](#getValue--) | the values of the range. |
 | [hasRange()](#hasRange--) | Indicates whether this has range. |
 | [hashCode()](#hashCode--) |  |
 | [intersect(Range[] ranges)](#intersect-com.aspose.cells.Range---) | Intersects another range. |
@@ -165,7 +165,7 @@ public String getName()
 ```
 
 
-Gets or sets the name of the range. Named range is supported. For example,
+the name of the range. Named range is supported. For example,
 
 range.Name = "Sheet1!MyRange";
 
@@ -217,7 +217,7 @@ public Object getValue()
 ```
 
 
-Gets and sets the values of the range.
+the values of the range.
 
 **Returns:**
 java.lang.Object

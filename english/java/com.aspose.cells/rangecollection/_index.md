@@ -14,11 +14,6 @@ public class RangeCollection extends CollectionBase
 ```
 
 Encapsulates a collection of [Range](../../com.aspose.cells/range) objects.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [RangeCollection()](#RangeCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -41,12 +36,6 @@ Encapsulates a collection of [Range](../../com.aspose.cells/range) objects.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### RangeCollection() {#RangeCollection--}
-```
-public RangeCollection()
-```
-
-
 ### add(Range range) {#add-com.aspose.cells.Range-}
 ```
 public int add(Range range)

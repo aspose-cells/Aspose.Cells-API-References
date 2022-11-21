@@ -21,9 +21,9 @@ This class specifies a glow effect, in which a color blurred outline is added ou
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | Gets the color of the glow effect. |
-| [getRadius()](#getRadius--) | Gets and sets the radius of the glow, in unit of points. |
-| [getSize()](#getSize--) | Gets and sets the radius of the glow, in unit of points. |
-| [getTransparency()](#getTransparency--) | Gets and sets the degree of transparency of the glow effect. |
+| [getRadius()](#getRadius--) | the radius of the glow, in unit of points. |
+| [getSize()](#getSize--) | the radius of the glow, in unit of points. |
+| [getTransparency()](#getTransparency--) | the degree of transparency of the glow effect. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -76,7 +76,7 @@ public double getRadius()
 ```
 
 
-Gets and sets the radius of the glow, in unit of points. NOTE: This member is now obsolete. Instead, please use GlowEffect.Size property. This property will be removed 6 months later since September 2016. Aspose apologizes for any inconvenience you may have experienced.
+the radius of the glow, in unit of points. NOTE: This member is now obsolete. Instead, please use GlowEffect.Size property. This property will be removed 6 months later since September 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 double
@@ -86,7 +86,7 @@ public double getSize()
 ```
 
 
-Gets and sets the radius of the glow, in unit of points.
+the radius of the glow, in unit of points.
 
 **Returns:**
 double
@@ -96,7 +96,7 @@ public double getTransparency()
 ```
 
 
-Gets and sets the degree of transparency of the glow effect. Range from 0.0 (opaque) to 1.0 (clear).
+the degree of transparency of the glow effect. Range from 0.0 (opaque) to 1.0 (clear).
 
 **Returns:**
 double

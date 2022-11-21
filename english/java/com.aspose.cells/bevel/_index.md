@@ -20,9 +20,9 @@ Represents a bevel of a shape
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getHeight()](#getHeight--) | Gets and sets the height of the bevel, or how far above the shape it is applied. |
-| [getType()](#getType--) | Gets and sets the preset bevel type. |
-| [getWidth()](#getWidth--) | Gets and sets the width of the bevel, or how far into the shape it is applied. |
+| [getHeight()](#getHeight--) | the height of the bevel, or how far above the shape it is applied. |
+| [getType()](#getType--) | the preset bevel type. |
+| [getWidth()](#getWidth--) | the width of the bevel, or how far into the shape it is applied. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -64,7 +64,7 @@ public double getHeight()
 ```
 
 
-Gets and sets the height of the bevel, or how far above the shape it is applied. In unit of Points.
+the height of the bevel, or how far above the shape it is applied. In unit of Points.
 
 **Returns:**
 double
@@ -74,7 +74,7 @@ public int getType()
 ```
 
 
-Gets and sets the preset bevel type.
+the preset bevel type.
 
 **Returns:**
 int
@@ -84,7 +84,7 @@ public double getWidth()
 ```
 
 
-Gets and sets the width of the bevel, or how far into the shape it is applied. In unit of Points.
+the width of the bevel, or how far into the shape it is applied. In unit of Points.
 
 **Returns:**
 double

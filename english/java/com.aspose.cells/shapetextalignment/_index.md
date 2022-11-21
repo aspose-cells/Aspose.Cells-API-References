@@ -32,20 +32,20 @@ Represents the setting of shape's text alignment;
 | [getBottomMarginPt()](#getBottomMarginPt--) | Returns the bottom margin in unit of Points |
 | [getClass()](#getClass--) |  |
 | [getLeftMarginPt()](#getLeftMarginPt--) | Returns the left margin in unit of Points |
-| [getNumberOfColumns()](#getNumberOfColumns--) | Gets and sets the number of columns of text in the bounding rectangle. |
+| [getNumberOfColumns()](#getNumberOfColumns--) | the number of columns of text in the bounding rectangle. |
 | [getRightMarginPt()](#getRightMarginPt--) | Returns the right margin in unit of Points |
 | [getRotateTextWithShape()](#getRotateTextWithShape--) | Indicates whether rotating text with shape. |
-| [getRotationAngle()](#getRotationAngle--) | Gets and sets the rotation of the shape. |
-| [getTextHorizontalOverflow()](#getTextHorizontalOverflow--) | Gets and sets the text horizontal overflow type of the text box. |
-| [getTextShapeType()](#getTextShapeType--) | Gets and set the transform type of text. |
-| [getTextVerticalOverflow()](#getTextVerticalOverflow--) | Gets and sets the text vertical overflow type of the text box. |
-| [getTextVerticalType()](#getTextVerticalType--) | Gets and sets the text direction. |
+| [getRotationAngle()](#getRotationAngle--) | the rotation of the shape. |
+| [getTextHorizontalOverflow()](#getTextHorizontalOverflow--) | the text horizontal overflow type of the text box. |
+| [getTextShapeType()](#getTextShapeType--) | the transform type of text. |
+| [getTextVerticalOverflow()](#getTextVerticalOverflow--) | the text vertical overflow type of the text box. |
+| [getTextVerticalType()](#getTextVerticalType--) | the text direction. |
 | [getTopMarginPt()](#getTopMarginPt--) | Returns the top margin in unit of Points |
 | [hashCode()](#hashCode--) | ```
 int hashCode = shapeTextAlignment.hashCode();
 ``` |
 | [isAutoMargin()](#isAutoMargin--) | Indicates whether the margin of the text frame is automatic. |
-| [isTextWrapped()](#isTextWrapped--) | Gets and sets the text wrapped type of the shape which contains text. |
+| [isTextWrapped()](#isTextWrapped--) | the text wrapped type of the shape which contains text. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAutoMargin(boolean value)](#setAutoMargin-boolean-) | For the description of this property, please see [isAutoMargin()](../../com.aspose.cells/shapetextalignment\#isAutoMargin--) |
@@ -148,7 +148,7 @@ public int getNumberOfColumns()
 ```
 
 
-Gets and sets the number of columns of text in the bounding rectangle.
+the number of columns of text in the bounding rectangle.
 
 **Returns:**
 int
@@ -186,7 +186,7 @@ public double getRotationAngle()
 ```
 
 
-Gets and sets the rotation of the shape.
+the rotation of the shape.
 
 ```
 shapeTextAlignment.setRotationAngle(90);
@@ -200,7 +200,7 @@ public int getTextHorizontalOverflow()
 ```
 
 
-Gets and sets the text horizontal overflow type of the text box.
+the text horizontal overflow type of the text box.
 
 ```
 shapeTextAlignment.setTextHorizontalOverflow(TextOverflowType.CLIP);
@@ -214,7 +214,7 @@ public int getTextShapeType()
 ```
 
 
-Gets and set the transform type of text.
+the transform type of text.
 
 ```
 //Usually do not modify this value unless you know exactly what the modification will result in
@@ -229,7 +229,7 @@ public int getTextVerticalOverflow()
 ```
 
 
-Gets and sets the text vertical overflow type of the text box.
+the text vertical overflow type of the text box.
 
 ```
 shapeTextAlignment.setTextVerticalOverflow(TextOverflowType.CLIP);
@@ -243,7 +243,7 @@ public int getTextVerticalType()
 ```
 
 
-Gets and sets the text direction.
+the text direction.
 
 ```
 shapeTextAlignment.setTextVerticalType(com.aspose.cells.TextVerticalType.HORIZONTAL);
@@ -297,7 +297,7 @@ public boolean isTextWrapped()
 ```
 
 
-Gets and sets the text wrapped type of the shape which contains text.
+the text wrapped type of the shape which contains text.
 
 ```
 shapeTextAlignment.setTextWrapped(true);

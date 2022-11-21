@@ -25,29 +25,29 @@ Represents the options of loading Apple Numbers files.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAutoFilter()](#getAutoFilter--) | Indicates whether auto filtering the data when loading the files. |
-| [getAutoFitterOptions()](#getAutoFitterOptions--) | Gets and sets the auto fitter options Only for xlsx ,spreadsheetML file now. |
+| [getAutoFitterOptions()](#getAutoFitterOptions--) | the auto fitter options Only for xlsx ,spreadsheetML file now. |
 | [getCheckDataValid()](#getCheckDataValid--) | Check whether data is valid in the template file. |
 | [getCheckExcelRestriction()](#getCheckExcelRestriction--) | Whether check restriction of excel file when user modify cells related objects. |
 | [getClass()](#getClass--) |  |
 | [getDefaultStyleSettings()](#getDefaultStyleSettings--) | Gets the default style settings for initializing styles of the workbook |
-| [getFontConfigs()](#getFontConfigs--) | Gets and sets individual font configs. |
+| [getFontConfigs()](#getFontConfigs--) | individual font configs. |
 | [getIgnoreNotPrinted()](#getIgnoreNotPrinted--) | Ignore the data which are not printed if directly printing the file Only for xlsx file. |
-| [getInterruptMonitor()](#getInterruptMonitor--) | Gets and sets the interrupt monitor. |
+| [getInterruptMonitor()](#getInterruptMonitor--) | the interrupt monitor. |
 | [getKeepUnparsedData()](#getKeepUnparsedData--) | Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. |
-| [getLanguageCode()](#getLanguageCode--) | Gets or sets the user interface language of the Workbook version based on CountryCode that has saved the file. |
+| [getLanguageCode()](#getLanguageCode--) | the user interface language of the Workbook version based on CountryCode that has saved the file. |
 | [getLightCellsDataHandler()](#getLightCellsDataHandler--) | The data handler for processing cells data when reading template file. |
 | [getLoadFilter()](#getLoadFilter--) | The filter to denote how to load data. |
 | [getLoadFormat()](#getLoadFormat--) | Gets the load format. |
-| [getLoadTableType()](#getLoadTableType--) | Gets and sets the type of loading multiple tables in one worksheet. |
-| [getLocale()](#getLocale--) | Gets and sets the Locale used for workbook at the time the file was loaded. |
-| [getMemorySetting()](#getMemorySetting--) | Gets or sets the memory usage options. |
+| [getLoadTableType()](#getLoadTableType--) | the type of loading multiple tables in one worksheet. |
+| [getLocale()](#getLocale--) | the Locale used for workbook at the time the file was loaded. |
+| [getMemorySetting()](#getMemorySetting--) | the memory usage options. |
 | [getParsingFormulaOnOpen()](#getParsingFormulaOnOpen--) | Indicates whether parsing the formula when reading the file. |
 | [getParsingPivotCachedRecords()](#getParsingPivotCachedRecords--) | Indicates whether parsing pivot cached records when loading the file. |
-| [getPassword()](#getPassword--) | Gets and set the password of the workbook. |
-| [getRegion()](#getRegion--) | Gets or sets the system regional settings based on CountryCode at the time the file was loaded. |
+| [getPassword()](#getPassword--) | the password of the workbook. |
+| [getRegion()](#getRegion--) | the system regional settings based on CountryCode at the time the file was loaded. |
 | [getStandardFont()](#getStandardFont--) | Sets the default standard font name NOTE: This member is now obsolete. |
 | [getStandardFontSize()](#getStandardFontSize--) | Sets the default standard font size. |
-| [getWarningCallback()](#getWarningCallback--) | Gets or sets warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | warning callback. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -116,7 +116,7 @@ public AutoFitterOptions getAutoFitterOptions()
 ```
 
 
-Gets and sets the auto fitter options Only for xlsx ,spreadsheetML file now.
+the auto fitter options Only for xlsx ,spreadsheetML file now.
 
 **Returns:**
 [AutoFitterOptions](../../com.aspose.cells/autofitteroptions)
@@ -166,7 +166,7 @@ public IndividualFontConfigs getFontConfigs()
 ```
 
 
-Gets and sets individual font configs. Only works for the [Workbook](../../com.aspose.cells/workbook) which uses this [LoadOptions](../../com.aspose.cells/loadoptions) to load.
+individual font configs. Only works for the [Workbook](../../com.aspose.cells/workbook) which uses this [LoadOptions](../../com.aspose.cells/loadoptions) to load.
 
 **Returns:**
 [IndividualFontConfigs](../../com.aspose.cells/individualfontconfigs)
@@ -186,7 +186,7 @@ public AbstractInterruptMonitor getInterruptMonitor()
 ```
 
 
-Gets and sets the interrupt monitor.
+the interrupt monitor.
 
 **Returns:**
 [AbstractInterruptMonitor](../../com.aspose.cells/abstractinterruptmonitor)
@@ -206,7 +206,7 @@ public int getLanguageCode()
 ```
 
 
-Gets or sets the user interface language of the Workbook version based on CountryCode that has saved the file.
+the user interface language of the Workbook version based on CountryCode that has saved the file.
 
 **Returns:**
 int
@@ -246,7 +246,7 @@ public int getLoadTableType()
 ```
 
 
-Gets and sets the type of loading multiple tables in one worksheet.
+the type of loading multiple tables in one worksheet.
 
 **Returns:**
 int
@@ -256,7 +256,7 @@ public Locale getLocale()
 ```
 
 
-Gets and sets the Locale used for workbook at the time the file was loaded.
+the Locale used for workbook at the time the file was loaded.
 
 **Returns:**
 java.util.Locale
@@ -266,7 +266,7 @@ public int getMemorySetting()
 ```
 
 
-Gets or sets the memory usage options.
+the memory usage options.
 
 **Returns:**
 int
@@ -296,7 +296,7 @@ public String getPassword()
 ```
 
 
-Gets and set the password of the workbook.
+the password of the workbook.
 
 **Returns:**
 java.lang.String
@@ -306,7 +306,7 @@ public int getRegion()
 ```
 
 
-Gets or sets the system regional settings based on CountryCode at the time the file was loaded. If you do not want to use the region saved in the file, please reset it after reading the file.
+the system regional settings based on CountryCode at the time the file was loaded. If you do not want to use the region saved in the file, please reset it after reading the file.
 
 **Returns:**
 int
@@ -336,7 +336,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Gets or sets warning callback.
+warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)

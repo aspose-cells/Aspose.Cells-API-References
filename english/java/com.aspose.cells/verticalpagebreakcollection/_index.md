@@ -14,11 +14,6 @@ public class VerticalPageBreakCollection extends CollectionBase
 ```
 
 Encapsulates a collection of [VerticalPageBreak](../../com.aspose.cells/verticalpagebreak) objects.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [VerticalPageBreakCollection()](#VerticalPageBreakCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -45,12 +40,6 @@ Encapsulates a collection of [VerticalPageBreak](../../com.aspose.cells/vertical
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### VerticalPageBreakCollection() {#VerticalPageBreakCollection--}
-```
-public VerticalPageBreakCollection()
-```
-
-
 ### add(int column) {#add-int-}
 ```
 public int add(int column)

@@ -83,7 +83,7 @@ Workbook book = new Workbook();
 | [getCaptionVisible()](#getCaptionVisible--) | Returns or sets whether the header that displays the slicer Caption is visible the default value is true |
 | [getClass()](#getClass--) |  |
 | [getColumnWidth()](#getColumnWidth--) | Returns or sets the width, in points, of each column in the slicer. |
-| [getColumnWidthPixel()](#getColumnWidthPixel--) | Gets or sets the width in unit of\\u807dpixels for\\u807deach column of\\u807dthe slicer.\\u807d |
+| [getColumnWidthPixel()](#getColumnWidthPixel--) | the width in unit of\\u807dpixels for\\u807deach column of\\u807dthe slicer.\\u807d |
 | [getHeight()](#getHeight--) | Returns or sets the height of the specified slicer, in points. |
 | [getHeightPixel()](#getHeightPixel--) | Returns or sets the height of the specified slicer, in pixels. |
 | [getLeftPixel()](#getLeftPixel--) | Returns or sets the horizontal offset of slicer shape from its left column, in pixels. |
@@ -238,7 +238,7 @@ public int getColumnWidthPixel()
 ```
 
 
-Gets or sets the width in unit of\\u807dpixels for\\u807deach column of\\u807dthe slicer.\\u807d
+the width in unit of\\u807dpixels for\\u807deach column of\\u807dthe slicer.\\u807d
 
 ```
 slicer.setColumnWidthPixel(120);

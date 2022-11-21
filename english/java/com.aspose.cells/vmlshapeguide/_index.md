@@ -14,11 +14,6 @@ public class VmlShapeGuide extends BaseShapeGuide
 ```
 
 just for vml Encapsulates a shape guide specifies the presence of a shape guide that will be used to govern the geometry of the specified shape
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [VmlShapeGuide()](#VmlShapeGuide--) |  |
 ## Methods
 
 | Method | Description |
@@ -32,12 +27,6 @@ just for vml Encapsulates a shape guide specifies the presence of a shape guide 
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### VmlShapeGuide() {#VmlShapeGuide--}
-```
-public VmlShapeGuide()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

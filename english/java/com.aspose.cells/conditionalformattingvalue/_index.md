@@ -20,10 +20,10 @@ Describes the values of the interpolation points in a gradient scale, dataBar or
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getType()](#getType--) | Get or set the type of this conditional formatting value object. |
-| [getValue()](#getValue--) | Get or set the value of this conditional formatting value object. |
+| [getType()](#getType--) | the type of this conditional formatting value object. |
+| [getValue()](#getValue--) | the value of this conditional formatting value object. |
 | [hashCode()](#hashCode--) |  |
-| [isGTE()](#isGTE--) | Get or set the Greater Than Or Equal flag. |
+| [isGTE()](#isGTE--) | the Greater Than Or Equal flag. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setGTE(boolean value)](#setGTE-boolean-) | For the description of this property, please see [isGTE()](../../com.aspose.cells/conditionalformattingvalue\#isGTE--) |
@@ -64,7 +64,7 @@ public int getType()
 ```
 
 
-Get or set the type of this conditional formatting value object. Setting the type to FormatConditionValueType.Min or FormatConditionValueType.Max will auto set "Value" to null.
+the type of this conditional formatting value object. Setting the type to FormatConditionValueType.Min or FormatConditionValueType.Max will auto set "Value" to null.
 
 **Returns:**
 int
@@ -74,7 +74,7 @@ public Object getValue()
 ```
 
 
-Get or set the value of this conditional formatting value object. It should be used in conjunction with Type. If the value is string and start with "=", it will be processed as a formula, otherwise we will process it as a simple value.
+the value of this conditional formatting value object. It should be used in conjunction with Type. If the value is string and start with "=", it will be processed as a formula, otherwise we will process it as a simple value.
 
 **Returns:**
 java.lang.Object
@@ -94,7 +94,7 @@ public boolean isGTE()
 ```
 
 
-Get or set the Greater Than Or Equal flag. Use only for icon sets, determines whether this threshold value uses the greater than or equal to operator. 'false' indicates 'greater than' is used instead of 'greater than or equal to'. Default value is true.
+the Greater Than Or Equal flag. Use only for icon sets, determines whether this threshold value uses the greater than or equal to operator. 'false' indicates 'greater than' is used instead of 'greater than or equal to'. Default value is true.
 
 **Returns:**
 boolean

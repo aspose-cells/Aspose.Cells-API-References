@@ -28,8 +28,8 @@ Represents a item in a PivotField report.
 | [getValue()](#getValue--) | Gets the value of the pivot item |
 | [hashCode()](#hashCode--) |  |
 | [hide(boolean value)](#hide-boolean-) | Sets whether the pivot item is hidden. |
-| [isHidden()](#isHidden--) | Gets and Sets whether the pivot item is hidden. |
-| [isHideDetail()](#isHideDetail--) | Gets and Sets whether the pivot item hides detail. |
+| [isHidden()](#isHidden--) | whether the pivot item is hidden. |
+| [isHideDetail()](#isHideDetail--) | whether the pivot item hides detail. |
 | [move(int count, boolean isSameParent)](#move-int-boolean-) | Moves the item up or down |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -156,7 +156,7 @@ public boolean isHidden()
 ```
 
 
-Gets and Sets whether the pivot item is hidden.
+whether the pivot item is hidden.
 
 **Returns:**
 boolean
@@ -166,7 +166,7 @@ public boolean isHideDetail()
 ```
 
 
-Gets and Sets whether the pivot item hides detail.
+whether the pivot item hides detail.
 
 **Returns:**
 boolean

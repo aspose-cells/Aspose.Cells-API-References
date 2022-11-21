@@ -20,10 +20,10 @@ Represents identify the provider location and version of the extension.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getId()](#getId--) | Gets and sets the identifier associated with the Office Add-in within a catalog provider. |
-| [getStoreName()](#getStoreName--) | Gets and sets the instance of the marketplace where the Office Add-in is stored. . |
-| [getStoreType()](#getStoreType--) | Gets and sets the type of marketplace that the store attribute identifies. |
-| [getVersion()](#getVersion--) | Gets and sets the version. |
+| [getId()](#getId--) | the identifier associated with the Office Add-in within a catalog provider. |
+| [getStoreName()](#getStoreName--) | the instance of the marketplace where the Office Add-in is stored. . |
+| [getStoreType()](#getStoreType--) | the type of marketplace that the store attribute identifies. |
+| [getVersion()](#getVersion--) | the version. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -66,7 +66,7 @@ public String getId()
 ```
 
 
-Gets and sets the identifier associated with the Office Add-in within a catalog provider. The identifier MUST be unique within a catalog provider.
+the identifier associated with the Office Add-in within a catalog provider. The identifier MUST be unique within a catalog provider.
 
 **Returns:**
 java.lang.String
@@ -76,7 +76,7 @@ public String getStoreName()
 ```
 
 
-Gets and sets the instance of the marketplace where the Office Add-in is stored. .
+the instance of the marketplace where the Office Add-in is stored. .
 
 **Returns:**
 java.lang.String
@@ -86,7 +86,7 @@ public int getStoreType()
 ```
 
 
-Gets and sets the type of marketplace that the store attribute identifies.
+the type of marketplace that the store attribute identifies.
 
 **Returns:**
 int
@@ -96,7 +96,7 @@ public String getVersion()
 ```
 
 
-Gets and sets the version.
+the version.
 
 **Returns:**
 java.lang.String

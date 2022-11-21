@@ -41,11 +41,6 @@ Represents a collection of all the [Trendline](../../com.aspose.cells/trendline)
          line.setDisplayRSquared(true);
          line.setColor(Color.getRed());
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TrendlineCollection()](#TrendlineCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -69,12 +64,6 @@ Represents a collection of all the [Trendline](../../com.aspose.cells/trendline)
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### TrendlineCollection() {#TrendlineCollection--}
-```
-public TrendlineCollection()
-```
-
-
 ### add(int type) {#add-int-}
 ```
 public int add(int type)

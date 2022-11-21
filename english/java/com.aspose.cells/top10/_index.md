@@ -45,10 +45,10 @@ Describe the Top10 conditional formatting rule. This conditional formatting rule
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getRank()](#getRank--) | Get or set the value of "n" in a "top/bottom n" conditional formatting rule. |
+| [getRank()](#getRank--) | the value of "n" in a "top/bottom n" conditional formatting rule. |
 | [hashCode()](#hashCode--) |  |
-| [isBottom()](#isBottom--) | Get or set whether a "top/bottom n" rule is a "bottom n" rule. |
-| [isPercent()](#isPercent--) | Get or set whether a "top/bottom n" rule is a "top/bottom n percent" rule. |
+| [isBottom()](#isBottom--) | whether a "top/bottom n" rule is a "bottom n" rule. |
+| [isPercent()](#isPercent--) | whether a "top/bottom n" rule is a "top/bottom n percent" rule. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setBottom(boolean value)](#setBottom-boolean-) | For the description of this property, please see [isBottom()](../../com.aspose.cells/top10\#isBottom--) |
@@ -89,7 +89,7 @@ public int getRank()
 ```
 
 
-Get or set the value of "n" in a "top/bottom n" conditional formatting rule. If IsPercent is true, the value must between 0 and 100. Otherwise it must between 0 and 1000. Default value is 10.
+the value of "n" in a "top/bottom n" conditional formatting rule. If IsPercent is true, the value must between 0 and 100. Otherwise it must between 0 and 1000. Default value is 10.
 
 **Returns:**
 int
@@ -109,7 +109,7 @@ public boolean isBottom()
 ```
 
 
-Get or set whether a "top/bottom n" rule is a "bottom n" rule. Default value is false.
+whether a "top/bottom n" rule is a "bottom n" rule. Default value is false.
 
 **Returns:**
 boolean
@@ -119,7 +119,7 @@ public boolean isPercent()
 ```
 
 
-Get or set whether a "top/bottom n" rule is a "top/bottom n percent" rule. Default value is false.
+whether a "top/bottom n" rule is a "top/bottom n percent" rule. Default value is false.
 
 **Returns:**
 boolean

@@ -14,11 +14,6 @@ public class ProtectedRangeCollection extends CollectionBase
 ```
 
 Encapsulates a collection of [ProtectedRange](../../com.aspose.cells/protectedrange) objects.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ProtectedRangeCollection()](#ProtectedRangeCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -41,12 +36,6 @@ Encapsulates a collection of [ProtectedRange](../../com.aspose.cells/protectedra
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ProtectedRangeCollection() {#ProtectedRangeCollection--}
-```
-public ProtectedRangeCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

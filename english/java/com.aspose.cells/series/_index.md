@@ -76,12 +76,12 @@ Encapsulates the object that represents a single data series in a chart.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getArea()](#getArea--) | Represents the background area of Series object. |
-| [getBar3DShapeType()](#getBar3DShapeType--) | Gets or sets the 3D shape type used with the 3-D bar or column chart. |
-| [getBarShape()](#getBarShape--) | Gets or sets the 3D shape type used with the 3-D bar or column chart. |
+| [getBar3DShapeType()](#getBar3DShapeType--) | the 3D shape type used with the 3-D bar or column chart. |
+| [getBarShape()](#getBarShape--) | the 3D shape type used with the 3-D bar or column chart. |
 | [getBorder()](#getBorder--) | Represents border of Series object. |
-| [getBubbleScale()](#getBubbleScale--) | Gets or sets the scale factor for bubbles in the specified chart group. |
+| [getBubbleScale()](#getBubbleScale--) | the scale factor for bubbles in the specified chart group. |
 | [getBubbleSizeRepresents()](#getBubbleSizeRepresents--) | Gets what the bubble size represents on a bubble chart. |
-| [getBubbleSizes()](#getBubbleSizes--) | Gets or sets the bubble sizes values of the chart series. |
+| [getBubbleSizes()](#getBubbleSizes--) | the bubble sizes values of the chart series. |
 | [getClass()](#getClass--) |  |
 | [getCountOfDataValues()](#getCountOfDataValues--) | Gets the number of the data values. |
 | [getDataLabels()](#getDataLabels--) | Represents the DataLabels object for the specified ASeries. |
@@ -90,7 +90,7 @@ Encapsulates the object that represents a single data series in a chart.
 | [getDownBars()](#getDownBars--) | Returns a [DropBars](../../com.aspose.cells/dropbars) object that represents the down bars on a line chart. |
 | [getDropLines()](#getDropLines--) | Returns a [Line](../../com.aspose.cells/line) object that represents the drop lines for a series on the line chart or area chart. |
 | [getExplosion()](#getExplosion--) | The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter. |
-| [getFirstSliceAngle()](#getFirstSliceAngle--) | Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). |
+| [getFirstSliceAngle()](#getFirstSliceAngle--) | the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). |
 | [getGapWidth()](#getGapWidth--) | Returns or sets the space between bar or column clusters, as a percentage of the bar or column width. |
 | [getHas3DEffect()](#getHas3DEffect--) | True if the series has a three-dimensional appearance. |
 | [getHiLoLines()](#getHiLoLines--) | Returns a HiLoLines object that represents the high-low lines for a series on a line chart. |
@@ -98,7 +98,7 @@ Encapsulates the object that represents a single data series in a chart.
 | [getLeaderLines()](#getLeaderLines--) | Represents leader lines on a chart. |
 | [getLegendEntry()](#getLegendEntry--) | Gets the legend entry according to this series. |
 | [getMarker()](#getMarker--) | Gets the [getMarker()](../../com.aspose.cells/series\#getMarker--). |
-| [getName()](#getName--) | Gets or sets the name of the data series. |
+| [getName()](#getName--) | the name of the data series. |
 | [getOverlap()](#getOverlap--) | Specifies how bars and columns are positioned. |
 | [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | Indicates if this series is plotted on second value axis. |
 | [getPoints()](#getPoints--) | Gets the collection of points in a series in a chart. |
@@ -107,12 +107,12 @@ Encapsulates the object that represents a single data series in a chart.
 | [getShadow()](#getShadow--) | True if the series has a shadow. |
 | [getShapeProperties()](#getShapeProperties--) | Gets the [ShapePropertyCollection](../../com.aspose.cells/shapepropertycollection) object that holds the visual shape properties of the Series. |
 | [getShowNegativeBubbles()](#getShowNegativeBubbles--) | True if negative bubbles are shown for the chart group. |
-| [getSizeRepresents()](#getSizeRepresents--) | Gets or sets what the bubble size represents on a bubble chart. |
+| [getSizeRepresents()](#getSizeRepresents--) | what the bubble size represents on a bubble chart. |
 | [getSmooth()](#getSmooth--) | Represents curve smoothing. |
 | [getSplitType()](#getSplitType--) | Returns or sets a value that how to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
 | [getSplitValue()](#getSplitValue--) | Returns or sets a value that shall be used to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
 | [getTrendLines()](#getTrendLines--) | Returns an object that represents a collection of all the trendlines for the series. |
-| [getType()](#getType--) | Gets or sets a data series' type. |
+| [getType()](#getType--) | a data series' type. |
 | [getUpBars()](#getUpBars--) | Returns an DropBars object that represents the up bars on a line chart. |
 | [getValues()](#getValues--) | Represents the data of the chart series. |
 | [getValuesFormatCode()](#getValuesFormatCode--) | Represents format code of Values\\u9225\\u69ae NumberList. |
@@ -198,7 +198,7 @@ public int getBar3DShapeType()
 ```
 
 
-Gets or sets the 3D shape type used with the 3-D bar or column chart.
+the 3D shape type used with the 3-D bar or column chart.
 
 **Returns:**
 int
@@ -208,7 +208,7 @@ public int getBarShape()
 ```
 
 
-Gets or sets the 3D shape type used with the 3-D bar or column chart. NOTE: This member is now obsolete. Instead, please use ASeries.Bar3DShapeType property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
+the 3D shape type used with the 3-D bar or column chart. NOTE: This member is now obsolete. Instead, please use ASeries.Bar3DShapeType property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -228,7 +228,7 @@ public int getBubbleScale()
 ```
 
 
-Gets or sets the scale factor for bubbles in the specified chart group. It can be an integer value from 0 (zero) to 300, corresponding to a percentage of the default size. Applies only to bubble charts.
+the scale factor for bubbles in the specified chart group. It can be an integer value from 0 (zero) to 300, corresponding to a percentage of the default size. Applies only to bubble charts.
 
 **Returns:**
 int
@@ -248,7 +248,7 @@ public String getBubbleSizes()
 ```
 
 
-Gets or sets the bubble sizes values of the chart series.
+the bubble sizes values of the chart series.
 
 **Returns:**
 java.lang.String
@@ -338,7 +338,7 @@ public short getFirstSliceAngle()
 ```
 
 
-Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360.
+the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360.
 
 **Returns:**
 short
@@ -418,7 +418,7 @@ public String getName()
 ```
 
 
-Gets or sets the name of the data series.
+the name of the data series.
 
 ```
 //Reference name to a cell
@@ -516,7 +516,7 @@ public int getSizeRepresents()
 ```
 
 
-Gets or sets what the bubble size represents on a bubble chart. BubbleSizeRepresents.SizeIsArea means the value [getBubbleSizes()](../../com.aspose.cells/series\#getBubbleSizes--) is the area of the bubble. BubbleSizeRepresents.SizeIsWidth means the value [getBubbleSizes()](../../com.aspose.cells/series\#getBubbleSizes--) is the width of the bubble.
+what the bubble size represents on a bubble chart. BubbleSizeRepresents.SizeIsArea means the value [getBubbleSizes()](../../com.aspose.cells/series\#getBubbleSizes--) is the area of the bubble. BubbleSizeRepresents.SizeIsWidth means the value [getBubbleSizes()](../../com.aspose.cells/series\#getBubbleSizes--) is the width of the bubble.
 
 **Returns:**
 int
@@ -566,7 +566,7 @@ public int getType()
 ```
 
 
-Gets or sets a data series' type.
+a data series' type.
 
 **Returns:**
 int

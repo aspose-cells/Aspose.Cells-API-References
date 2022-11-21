@@ -14,11 +14,6 @@ public class ReferredAreaCollection extends CollectionBase
 ```
 
 Represents all referred cells and areas.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ReferredAreaCollection()](#ReferredAreaCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -40,12 +35,6 @@ Represents all referred cells and areas.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ReferredAreaCollection() {#ReferredAreaCollection--}
-```
-public ReferredAreaCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

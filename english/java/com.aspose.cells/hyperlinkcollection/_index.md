@@ -31,11 +31,6 @@ Encapsulates a collection of [Hyperlink](../../com.aspose.cells/hyperlink) objec
          //Saving the Excel file
          workbook.save("book1.xls");
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [HyperlinkCollection()](#HyperlinkCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -60,12 +55,6 @@ Encapsulates a collection of [Hyperlink](../../com.aspose.cells/hyperlink) objec
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### HyperlinkCollection() {#HyperlinkCollection--}
-```
-public HyperlinkCollection()
-```
-
-
 ### add(int firstRow, int firstColumn, int totalRows, int totalColumns, String address) {#add-int-int-int-int-java.lang.String-}
 ```
 public int add(int firstRow, int firstColumn, int totalRows, int totalColumns, String address)

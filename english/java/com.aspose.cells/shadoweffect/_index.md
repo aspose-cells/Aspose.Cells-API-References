@@ -19,14 +19,14 @@ This class specifies the shadow effect of the chart element or shape.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAngle()](#getAngle--) | Gets and sets the lighting angle. |
-| [getBlur()](#getBlur--) | Gets and sets the blur of the shadow. |
+| [getAngle()](#getAngle--) | the lighting angle. |
+| [getBlur()](#getBlur--) | the blur of the shadow. |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | Gets and sets the color of the shadow. |
-| [getDistance()](#getDistance--) | Gets and sets the distance of the shadow. |
-| [getPresetType()](#getPresetType--) | Gets and sets the preset shadow type of the shadow. |
-| [getSize()](#getSize--) | Gets and sets the size of the shadow. |
-| [getTransparency()](#getTransparency--) | Gets and sets the degree of transparency of the shadow. |
+| [getColor()](#getColor--) | the color of the shadow. |
+| [getDistance()](#getDistance--) | the distance of the shadow. |
+| [getPresetType()](#getPresetType--) | the preset shadow type of the shadow. |
+| [getSize()](#getSize--) | the size of the shadow. |
+| [getTransparency()](#getTransparency--) | the degree of transparency of the shadow. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -62,7 +62,7 @@ public double getAngle()
 ```
 
 
-Gets and sets the lighting angle. Range from 0 to 359.9 degrees.
+the lighting angle. Range from 0 to 359.9 degrees.
 
 **Returns:**
 double
@@ -72,7 +72,7 @@ public double getBlur()
 ```
 
 
-Gets and sets the blur of the shadow. Range from 0 to 100 points.
+the blur of the shadow. Range from 0 to 100 points.
 
 **Returns:**
 double
@@ -92,7 +92,7 @@ public CellsColor getColor()
 ```
 
 
-Gets and sets the color of the shadow.
+the color of the shadow.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -102,7 +102,7 @@ public double getDistance()
 ```
 
 
-Gets and sets the distance of the shadow. Range from 0 to 200 points.
+the distance of the shadow. Range from 0 to 200 points.
 
 **Returns:**
 double
@@ -112,7 +112,7 @@ public int getPresetType()
 ```
 
 
-Gets and sets the preset shadow type of the shadow.
+the preset shadow type of the shadow.
 
 **Returns:**
 int
@@ -122,7 +122,7 @@ public double getSize()
 ```
 
 
-Gets and sets the size of the shadow. Range from 0 to 2.0. Meaningless in inner shadow.
+the size of the shadow. Range from 0 to 2.0. Meaningless in inner shadow.
 
 **Returns:**
 double
@@ -132,7 +132,7 @@ public double getTransparency()
 ```
 
 
-Gets and sets the degree of transparency of the shadow. Range from 0.0 (opaque) to 1.0 (clear).
+the degree of transparency of the shadow. Range from 0.0 (opaque) to 1.0 (clear).
 
 **Returns:**
 double

@@ -14,11 +14,6 @@ public class ListObjectCollection extends CollectionBase
 ```
 
 Represents a collection of [ListObject](../../com.aspose.cells/listobject) objects in the worksheet.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ListObjectCollection()](#ListObjectCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -44,12 +39,6 @@ Represents a collection of [ListObject](../../com.aspose.cells/listobject) objec
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ListObjectCollection() {#ListObjectCollection--}
-```
-public ListObjectCollection()
-```
-
-
 ### add(int startRow, int startColumn, int endRow, int endColumn, boolean hasHeaders) {#add-int-int-int-int-boolean-}
 ```
 public int add(int startRow, int startColumn, int endRow, int endColumn, boolean hasHeaders)

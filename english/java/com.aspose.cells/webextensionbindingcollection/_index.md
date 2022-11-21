@@ -14,11 +14,6 @@ public class WebExtensionBindingCollection extends CollectionBase
 ```
 
 Represents the list of binding relationships between an Office Add-in and the data in the document.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [WebExtensionBindingCollection()](#WebExtensionBindingCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -41,12 +36,6 @@ Represents the list of binding relationships between an Office Add-in and the da
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### WebExtensionBindingCollection() {#WebExtensionBindingCollection--}
-```
-public WebExtensionBindingCollection()
-```
-
-
 ### add() {#add--}
 ```
 public int add()

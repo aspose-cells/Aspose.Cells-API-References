@@ -19,15 +19,15 @@ This class specifies a reflection effect.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBlur()](#getBlur--) | Gets and sets the blur radius,in unit of points. |
+| [getBlur()](#getBlur--) | the blur radius,in unit of points. |
 | [getClass()](#getClass--) |  |
-| [getDirection()](#getDirection--) | Gets and sets the direction of the alpha gradient ramp relative to the shape itself. |
-| [getDistance()](#getDistance--) | Gets and sets how far to distance the shadow,in unit of points. |
-| [getFadeDirection()](#getFadeDirection--) | Gets and sets the direction to offset the reflection. |
-| [getRotWithShape()](#getRotWithShape--) | Gets and sets if the reflection should rotate with the shape. |
-| [getSize()](#getSize--) | Gets and sets the end position (along the alpha gradient ramp) of the end alpha value,in unit of percentage |
-| [getTransparency()](#getTransparency--) | Gets and sets the degree of the starting reflection transparency as a value from 0.0 (opaque) through 1.0 (clear). |
-| [getType()](#getType--) | Gets and sets the preset reflection effect. |
+| [getDirection()](#getDirection--) | the direction of the alpha gradient ramp relative to the shape itself. |
+| [getDistance()](#getDistance--) | how far to distance the shadow,in unit of points. |
+| [getFadeDirection()](#getFadeDirection--) | the direction to offset the reflection. |
+| [getRotWithShape()](#getRotWithShape--) | if the reflection should rotate with the shape. |
+| [getSize()](#getSize--) | the end position (along the alpha gradient ramp) of the end alpha value,in unit of percentage |
+| [getTransparency()](#getTransparency--) | the degree of the starting reflection transparency as a value from 0.0 (opaque) through 1.0 (clear). |
+| [getType()](#getType--) | the preset reflection effect. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -64,7 +64,7 @@ public double getBlur()
 ```
 
 
-Gets and sets the blur radius,in unit of points.
+the blur radius,in unit of points.
 
 **Returns:**
 double
@@ -84,7 +84,7 @@ public double getDirection()
 ```
 
 
-Gets and sets the direction of the alpha gradient ramp relative to the shape itself.
+the direction of the alpha gradient ramp relative to the shape itself.
 
 **Returns:**
 double
@@ -94,7 +94,7 @@ public double getDistance()
 ```
 
 
-Gets and sets how far to distance the shadow,in unit of points.
+how far to distance the shadow,in unit of points.
 
 **Returns:**
 double
@@ -104,7 +104,7 @@ public double getFadeDirection()
 ```
 
 
-Gets and sets the direction to offset the reflection.
+the direction to offset the reflection.
 
 **Returns:**
 double
@@ -114,7 +114,7 @@ public boolean getRotWithShape()
 ```
 
 
-Gets and sets if the reflection should rotate with the shape.
+if the reflection should rotate with the shape.
 
 **Returns:**
 boolean
@@ -124,7 +124,7 @@ public double getSize()
 ```
 
 
-Gets and sets the end position (along the alpha gradient ramp) of the end alpha value,in unit of percentage
+the end position (along the alpha gradient ramp) of the end alpha value,in unit of percentage
 
 **Returns:**
 double
@@ -134,7 +134,7 @@ public double getTransparency()
 ```
 
 
-Gets and sets the degree of the starting reflection transparency as a value from 0.0 (opaque) through 1.0 (clear).
+the degree of the starting reflection transparency as a value from 0.0 (opaque) through 1.0 (clear).
 
 **Returns:**
 double
@@ -144,7 +144,7 @@ public int getType()
 ```
 
 
-Gets and sets the preset reflection effect.
+the preset reflection effect.
 
 **Returns:**
 int

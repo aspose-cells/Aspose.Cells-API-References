@@ -20,13 +20,13 @@ Represents all auto fitter options.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAutoFitMergedCells()](#getAutoFitMergedCells--) | Indicates whether auto fit row height when the cells is merged in a row. |
-| [getAutoFitMergedCellsType()](#getAutoFitMergedCellsType--) | Gets and set the type of auto fitting row height of merged cells. |
-| [getAutoFitWrappedTextType()](#getAutoFitWrappedTextType--) | Gets and sets the type of auto fitting wrapped text. |
+| [getAutoFitMergedCellsType()](#getAutoFitMergedCellsType--) | the type of auto fitting row height of merged cells. |
+| [getAutoFitWrappedTextType()](#getAutoFitWrappedTextType--) | the type of auto fitting wrapped text. |
 | [getClass()](#getClass--) |  |
-| [getDefaultEditLanguage()](#getDefaultEditLanguage--) | Gets or sets default edit language. |
-| [getFormatStrategy()](#getFormatStrategy--) | Gets and sets the formatted strategy. |
+| [getDefaultEditLanguage()](#getDefaultEditLanguage--) | default edit language. |
+| [getFormatStrategy()](#getFormatStrategy--) | the formatted strategy. |
 | [getIgnoreHidden()](#getIgnoreHidden--) | Ignores the hidden rows/columns. |
-| [getMaxRowHeight()](#getMaxRowHeight--) | Gets and sets the max row height(in unit of Point) when autofitting rows. |
+| [getMaxRowHeight()](#getMaxRowHeight--) | the max row height(in unit of Point) when autofitting rows. |
 | [getOnlyAuto()](#getOnlyAuto--) | Indicates whether only fit the rows which height are not customed. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -74,7 +74,7 @@ public int getAutoFitMergedCellsType()
 ```
 
 
-Gets and set the type of auto fitting row height of merged cells. Excel defaults to ignore merged cells when fitting the row height, so Aspose.Cells works as MS Excel default. Please set this type to change the way of auto fitting row height of merged cells.
+the type of auto fitting row height of merged cells. Excel defaults to ignore merged cells when fitting the row height, so Aspose.Cells works as MS Excel default. Please set this type to change the way of auto fitting row height of merged cells.
 
 **Returns:**
 int
@@ -84,7 +84,7 @@ public int getAutoFitWrappedTextType()
 ```
 
 
-Gets and sets the type of auto fitting wrapped text.
+the type of auto fitting wrapped text.
 
 **Returns:**
 int
@@ -104,7 +104,7 @@ public int getDefaultEditLanguage()
 ```
 
 
-Gets or sets default edit language. It may display/render different layouts for text paragraph when different edit languages is set. Default is DefaultEditLanguage.AUTO.
+default edit language. It may display/render different layouts for text paragraph when different edit languages is set. Default is DefaultEditLanguage.AUTO.
 
 **Returns:**
 int
@@ -114,7 +114,7 @@ public int getFormatStrategy()
 ```
 
 
-Gets and sets the formatted strategy. The default value is CellStyle for performance.
+the formatted strategy. The default value is CellStyle for performance.
 
 **Returns:**
 int
@@ -134,7 +134,7 @@ public double getMaxRowHeight()
 ```
 
 
-Gets and sets the max row height(in unit of Point) when autofitting rows.
+the max row height(in unit of Point) when autofitting rows.
 
 **Returns:**
 double

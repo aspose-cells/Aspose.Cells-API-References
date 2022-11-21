@@ -14,11 +14,6 @@ public class CellsException extends IllegalStateException
 ```
 
 The exception that is thrown when Aspose.Cells specified error occurs.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [CellsException()](#CellsException--) |  |
 ## Methods
 
 | Method | Description |
@@ -45,12 +40,6 @@ The exception that is thrown when Aspose.Cells specified error occurs.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### CellsException() {#CellsException--}
-```
-public CellsException()
-```
-
-
 ### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable-}
 ```
 public final synchronized void addSuppressed(Throwable arg0)

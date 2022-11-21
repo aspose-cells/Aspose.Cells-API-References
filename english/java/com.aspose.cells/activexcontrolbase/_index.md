@@ -19,18 +19,18 @@ Represents the ActiveX control.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBackOleColor()](#getBackOleColor--) | Gets and sets the ole color of the background. |
+| [getBackOleColor()](#getBackOleColor--) | the ole color of the background. |
 | [getClass()](#getClass--) |  |
-| [getData()](#getData--) | Gets and sets the binary data of the control. |
-| [getForeOleColor()](#getForeOleColor--) | Gets and sets the ole color of the foreground. |
-| [getHeight()](#getHeight--) | Gets and sets the height of the control in unit of points. |
-| [getLinkedCell()](#getLinkedCell--) | Gets and sets the linked cell. |
-| [getListFillRange()](#getListFillRange--) | Gets and sets the list fill range. |
-| [getMouseIcon()](#getMouseIcon--) | Gets and sets a custom icon to display as the mouse pointer for the control. |
-| [getMousePointer()](#getMousePointer--) | Gets and sets the type of icon displayed as the mouse pointer for the control. |
+| [getData()](#getData--) | the binary data of the control. |
+| [getForeOleColor()](#getForeOleColor--) | the ole color of the foreground. |
+| [getHeight()](#getHeight--) | the height of the control in unit of points. |
+| [getLinkedCell()](#getLinkedCell--) | the linked cell. |
+| [getListFillRange()](#getListFillRange--) | the list fill range. |
+| [getMouseIcon()](#getMouseIcon--) | a custom icon to display as the mouse pointer for the control. |
+| [getMousePointer()](#getMousePointer--) | the type of icon displayed as the mouse pointer for the control. |
 | [getShadow()](#getShadow--) | Indicates whether to show a shadow. |
 | [getType()](#getType--) | Gets the type of the ActiveX control. |
-| [getWidth()](#getWidth--) | Gets and sets the width of the control in unit of points. |
+| [getWidth()](#getWidth--) | the width of the control in unit of points. |
 | [getWorkbook()](#getWorkbook--) | Gets the [Workbook](../../com.aspose.cells/workbook) object. |
 | [hashCode()](#hashCode--) |  |
 | [isVisible()](#isVisible--) | Indicates whether this control is visible. |
@@ -71,7 +71,7 @@ public int getBackOleColor()
 ```
 
 
-Gets and sets the ole color of the background.
+the ole color of the background.
 
 **Returns:**
 int
@@ -91,7 +91,7 @@ public byte[] getData()
 ```
 
 
-Gets and sets the binary data of the control.
+the binary data of the control.
 
 **Returns:**
 byte[]
@@ -101,7 +101,7 @@ public int getForeOleColor()
 ```
 
 
-Gets and sets the ole color of the foreground. Not applies to Image control.
+the ole color of the foreground. Not applies to Image control.
 
 **Returns:**
 int
@@ -111,7 +111,7 @@ public double getHeight()
 ```
 
 
-Gets and sets the height of the control in unit of points.
+the height of the control in unit of points.
 
 **Returns:**
 double
@@ -121,7 +121,7 @@ public String getLinkedCell()
 ```
 
 
-Gets and sets the linked cell.
+the linked cell.
 
 **Returns:**
 java.lang.String
@@ -131,7 +131,7 @@ public String getListFillRange()
 ```
 
 
-Gets and sets the list fill range.
+the list fill range.
 
 **Returns:**
 java.lang.String
@@ -141,7 +141,7 @@ public byte[] getMouseIcon()
 ```
 
 
-Gets and sets a custom icon to display as the mouse pointer for the control.
+a custom icon to display as the mouse pointer for the control.
 
 **Returns:**
 byte[]
@@ -151,7 +151,7 @@ public int getMousePointer()
 ```
 
 
-Gets and sets the type of icon displayed as the mouse pointer for the control.
+the type of icon displayed as the mouse pointer for the control.
 
 **Returns:**
 int
@@ -181,7 +181,7 @@ public double getWidth()
 ```
 
 
-Gets and sets the width of the control in unit of points.
+the width of the control in unit of points.
 
 **Returns:**
 double

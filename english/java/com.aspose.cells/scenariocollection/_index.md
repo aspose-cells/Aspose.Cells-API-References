@@ -14,11 +14,6 @@ public class ScenarioCollection extends CollectionBase
 ```
 
 Represents the list of scenarios.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ScenarioCollection()](#ScenarioCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -29,7 +24,7 @@ Represents the list of scenarios.
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the [Scenario](../../com.aspose.cells/scenario) object by the index. |
-| [getActiveIndex()](#getActiveIndex--) | Gets and sets which scenario is selected. |
+| [getActiveIndex()](#getActiveIndex--) | which scenario is selected. |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
 | [getLastSelected()](#getLastSelected--) | Indicates which scenario was last selected by the user to be run/shown. |
@@ -45,12 +40,6 @@ Represents the list of scenarios.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ScenarioCollection() {#ScenarioCollection--}
-```
-public ScenarioCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)
@@ -140,7 +129,7 @@ public int getActiveIndex()
 ```
 
 
-Gets and sets which scenario is selected.
+which scenario is selected.
 
 **Returns:**
 int

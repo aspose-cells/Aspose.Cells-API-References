@@ -33,9 +33,9 @@ Represents a defined name for a range of cells.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getComment()](#getComment--) | Gets and sets the comment of the name. |
+| [getComment()](#getComment--) | the comment of the name. |
 | [getFullText()](#getFullText--) | Gets the name full text of the object with the scope setting. |
-| [getR1C1RefersTo()](#getR1C1RefersTo--) | Gets or sets a R1C1 reference of the [Name](../../com.aspose.cells/name). |
+| [getR1C1RefersTo()](#getR1C1RefersTo--) | a R1C1 reference of the [Name](../../com.aspose.cells/name). |
 | [getRange()](#getRange--) | Gets the range if this name refers to a range. |
 | [getRange(boolean recalculate)](#getRange-boolean-) | Gets the range if this name refers to a range |
 | [getRange(int sheetIndex, int row, int column)](#getRange-int-int-int-) | Gets the range if this name refers to a range. |
@@ -94,7 +94,7 @@ public String getComment()
 ```
 
 
-Gets and sets the comment of the name. Only applies for Excel 2007.
+the comment of the name. Only applies for Excel 2007.
 
 **Returns:**
 java.lang.String
@@ -114,7 +114,7 @@ public String getR1C1RefersTo()
 ```
 
 
-Gets or sets a R1C1 reference of the [Name](../../com.aspose.cells/name).
+a R1C1 reference of the [Name](../../com.aspose.cells/name).
 
 **Returns:**
 java.lang.String

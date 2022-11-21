@@ -20,9 +20,9 @@ This class specifies the 3D shape properties for a chart element or shape.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getLightingAngle()](#getLightingAngle--) | Gets and sets the lighting angle. |
-| [getSurfaceLightingType()](#getSurfaceLightingType--) | Gets and sets the lighting type which is to be applied to the scene of the shape. |
-| [getSurfaceMaterialType()](#getSurfaceMaterialType--) | Gets and sets the material type which is combined with the lighting properties to give the final look and feel of a shape. |
+| [getLightingAngle()](#getLightingAngle--) | the lighting angle. |
+| [getSurfaceLightingType()](#getSurfaceLightingType--) | the lighting type which is to be applied to the scene of the shape. |
+| [getSurfaceMaterialType()](#getSurfaceMaterialType--) | the material type which is combined with the lighting properties to give the final look and feel of a shape. |
 | [getTopBevel()](#getTopBevel--) | Gets the [Bevel](../../com.aspose.cells/bevel) object that holds the properties associated with defining a bevel on the top or front face of a shape. |
 | [hasTopBevelData()](#hasTopBevelData--) | Indicates if the shape has top bevel data. |
 | [hashCode()](#hashCode--) |  |
@@ -66,7 +66,7 @@ public double getLightingAngle()
 ```
 
 
-Gets and sets the lighting angle. Range from 0 to 359.9 degrees.
+the lighting angle. Range from 0 to 359.9 degrees.
 
 **Returns:**
 double
@@ -76,7 +76,7 @@ public int getSurfaceLightingType()
 ```
 
 
-Gets and sets the lighting type which is to be applied to the scene of the shape. Default value is LightRigType.ThreePoint.
+the lighting type which is to be applied to the scene of the shape. Default value is LightRigType.ThreePoint.
 
 **Returns:**
 int
@@ -86,7 +86,7 @@ public int getSurfaceMaterialType()
 ```
 
 
-Gets and sets the material type which is combined with the lighting properties to give the final look and feel of a shape. Default value is PresetMaterialType.WarmMatte.
+the material type which is combined with the lighting properties to give the final look and feel of a shape. Default value is PresetMaterialType.WarmMatte.
 
 **Returns:**
 int

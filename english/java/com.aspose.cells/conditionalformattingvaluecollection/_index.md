@@ -14,11 +14,6 @@ public class ConditionalFormattingValueCollection extends CollectionBase
 ```
 
 Describes a collection of CFValueObject. Use only for icon sets.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ConditionalFormattingValueCollection()](#ConditionalFormattingValueCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -41,12 +36,6 @@ Describes a collection of CFValueObject. Use only for icon sets.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ConditionalFormattingValueCollection() {#ConditionalFormattingValueCollection--}
-```
-public ConditionalFormattingValueCollection()
-```
-
-
 ### add(int type, String value) {#add-int-java.lang.String-}
 ```
 public int add(int type, String value)

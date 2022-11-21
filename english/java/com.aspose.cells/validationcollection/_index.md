@@ -23,11 +23,6 @@ Workbook workbook = new Workbook();
          validation.setType(com.aspose.cells.ValidationType.LIST);
          validation.setFormula1("a,b,c,d");
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ValidationCollection()](#ValidationCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -54,12 +49,6 @@ Workbook workbook = new Workbook();
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ValidationCollection() {#ValidationCollection--}
-```
-public ValidationCollection()
-```
-
-
 ### add() {#add--}
 ```
 public int add()

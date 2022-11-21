@@ -62,21 +62,16 @@ Encapsulates the object that represents the floor of a 3-D chart.
          //save the file
          workbook.save("dest.xls");
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Floor()](#Floor--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBackgroundColor()](#getBackgroundColor--) | Gets or sets the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area). |
-| [getBorder()](#getBorder--) | Gets or sets the border [Line](../../com.aspose.cells/line). |
+| [getBackgroundColor()](#getBackgroundColor--) | the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area). |
+| [getBorder()](#getBorder--) | the border [Line](../../com.aspose.cells/line). |
 | [getClass()](#getClass--) |  |
 | [getFillFormat()](#getFillFormat--) | Represents a [getFillFormat()](../../com.aspose.cells/area\#getFillFormat--) object that contains fill formatting properties for the specified chart or shape. |
-| [getForegroundColor()](#getForegroundColor--) | Gets or sets the foreground [Color](../../com.aspose.cells/color). |
+| [getForegroundColor()](#getForegroundColor--) | the foreground [Color](../../com.aspose.cells/color). |
 | [getFormatting()](#getFormatting--) | Represents the formatting of the area. |
 | [getInvertIfNegative()](#getInvertIfNegative--) | If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
 | [getTransparency()](#getTransparency--) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
@@ -96,12 +91,6 @@ Encapsulates the object that represents the floor of a 3-D chart.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### Floor() {#Floor--}
-```
-public Floor()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -123,7 +112,7 @@ public Color getBackgroundColor()
 ```
 
 
-Gets or sets the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area).
+the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area).
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -133,7 +122,7 @@ public Line getBorder()
 ```
 
 
-Gets or sets the border [Line](../../com.aspose.cells/line).
+the border [Line](../../com.aspose.cells/line).
 
 **Returns:**
 [Line](../../com.aspose.cells/line)
@@ -163,7 +152,7 @@ public Color getForegroundColor()
 ```
 
 
-Gets or sets the foreground [Color](../../com.aspose.cells/color).
+the foreground [Color](../../com.aspose.cells/color).
 
 **Returns:**
 [Color](../../com.aspose.cells/color)

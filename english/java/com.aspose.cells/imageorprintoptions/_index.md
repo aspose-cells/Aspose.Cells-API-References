@@ -43,31 +43,31 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 | [getChartImageType()](#getChartImageType--) | Indicate the chart imagetype when converting. |
 | [getCheckWorkbookDefaultFont()](#getCheckWorkbookDefaultFont--) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [getClass()](#getClass--) |  |
-| [getDefaultEditLanguage()](#getDefaultEditLanguage--) | Gets or sets default edit language. |
+| [getDefaultEditLanguage()](#getDefaultEditLanguage--) | default edit language. |
 | [getDefaultFont()](#getDefaultFont--) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [getDrawObjectEventHandler()](#getDrawObjectEventHandler--) | Implements this interface to get DrawObject and Bound when rendering. |
 | [getEmbededImageNameInSvg()](#getEmbededImageNameInSvg--) | Indicate the filename of embedded image in svg. |
-| [getGridlineType()](#getGridlineType--) | Gets or sets gridline type. |
-| [getHorizontalResolution()](#getHorizontalResolution--) | Gets or sets the horizontal resolution for generated images, in dots per inch. |
-| [getImageType()](#getImageType--) | Gets or sets the format of the generated images. |
+| [getGridlineType()](#getGridlineType--) | gridline type. |
+| [getHorizontalResolution()](#getHorizontalResolution--) | the horizontal resolution for generated images, in dots per inch. |
+| [getImageType()](#getImageType--) | the format of the generated images. |
 | [getOnePagePerSheet()](#getOnePagePerSheet--) | If OnePagePerSheet is true , all content of one sheet will output to only one page in result. |
 | [getOnlyArea()](#getOnlyArea--) | If this property is true , one Area will be output, and no scale will take effect. |
 | [getOutputBlankPageWhenNothingToPrint()](#getOutputBlankPageWhenNothingToPrint--) | Indicates whether to output a blank page when there is nothing to print. |
-| [getPageCount()](#getPageCount--) | Gets or sets the number of pages to save. |
-| [getPageIndex()](#getPageIndex--) | Gets or sets the 0-based index of the first page to save. |
+| [getPageCount()](#getPageCount--) | the number of pages to save. |
+| [getPageIndex()](#getPageIndex--) | the 0-based index of the first page to save. |
 | [getPageSavingCallback()](#getPageSavingCallback--) | Control/Indicate progress of page saving process. |
 | [getPrintWithStatusDialog()](#getPrintWithStatusDialog--) | If PrintWithStatusDialog = true , there will be a dialog that shows current print status. |
 | [getPrintingPage()](#getPrintingPage--) | Indicates which pages will not be printed. |
-| [getQuality()](#getQuality--) | Gets or sets a value determining the quality of the generated images to apply only when saving pages to the Jpeg format. |
+| [getQuality()](#getQuality--) | a value determining the quality of the generated images to apply only when saving pages to the Jpeg format. |
 | [getSVGFitToViewPort()](#getSVGFitToViewPort--) | if this property is true, the generated svg will fit to view port. |
-| [getSaveFormat()](#getSaveFormat--) | Gets or sets the output file format type Support Tiff/XPS NOTE: This member is now obsolete. |
-| [getSheetSet()](#getSheetSet--) | Gets or sets the sheets to render. |
-| [getTextCrossType()](#getTextCrossType--) | Gets or sets displaying text type when the text width is larger than cell width. |
-| [getTiffColorDepth()](#getTiffColorDepth--) | Gets or sets bit depth to apply only when saving pages to the Tiff format. |
-| [getTiffCompression()](#getTiffCompression--) | Gets or sets the type of compression to apply only when saving pages to the Tiff format. |
+| [getSaveFormat()](#getSaveFormat--) | the output file format type Support Tiff/XPS NOTE: This member is now obsolete. |
+| [getSheetSet()](#getSheetSet--) | the sheets to render. |
+| [getTextCrossType()](#getTextCrossType--) | displaying text type when the text width is larger than cell width. |
+| [getTiffColorDepth()](#getTiffColorDepth--) | bit depth to apply only when saving pages to the Tiff format. |
+| [getTiffCompression()](#getTiffCompression--) | the type of compression to apply only when saving pages to the Tiff format. |
 | [getTransparent()](#getTransparent--) | Indicates if the background of generated image should be transparent. |
-| [getVerticalResolution()](#getVerticalResolution--) | Gets or sets the vertical resolution for generated images, in dots per inch. |
-| [getWarningCallback()](#getWarningCallback--) | Gets or sets warning callback. |
+| [getVerticalResolution()](#getVerticalResolution--) | the vertical resolution for generated images, in dots per inch. |
+| [getWarningCallback()](#getWarningCallback--) | warning callback. |
 | [hashCode()](#hashCode--) |  |
 | [isCellAutoFit()](#isCellAutoFit--) | Indicates whether the width and height of the cells is automatically fitted by cell value. |
 | [isFontSubstitutionCharGranularity()](#isFontSubstitutionCharGranularity--) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
@@ -172,7 +172,7 @@ public int getDefaultEditLanguage()
 ```
 
 
-Gets or sets default edit language. It may display/render different layouts for text paragraph when different edit languages is set. Default is DefaultEditLanguage.AUTO.
+default edit language. It may display/render different layouts for text paragraph when different edit languages is set. Default is DefaultEditLanguage.AUTO.
 
 **Returns:**
 int
@@ -212,7 +212,7 @@ public int getGridlineType()
 ```
 
 
-Gets or sets gridline type. Default is Dotted type.
+gridline type. Default is Dotted type.
 
 **Returns:**
 int
@@ -222,7 +222,7 @@ public int getHorizontalResolution()
 ```
 
 
-Gets or sets the horizontal resolution for generated images, in dots per inch. Applies generating image method except Emf format images. The default value is 96.
+the horizontal resolution for generated images, in dots per inch. Applies generating image method except Emf format images. The default value is 96.
 
 **Returns:**
 int
@@ -232,7 +232,7 @@ public int getImageType()
 ```
 
 
-Gets or sets the format of the generated images. default value: PNG.
+the format of the generated images. default value: PNG.
 
 **Returns:**
 int
@@ -272,7 +272,7 @@ public int getPageCount()
 ```
 
 
-Gets or sets the number of pages to save. Default is System.Int32.MaxValue which means all pages will be rendered.
+the number of pages to save. Default is System.Int32.MaxValue which means all pages will be rendered.
 
 **Returns:**
 int
@@ -282,7 +282,7 @@ public int getPageIndex()
 ```
 
 
-Gets or sets the 0-based index of the first page to save. Default is 0.
+the 0-based index of the first page to save. Default is 0.
 
 **Returns:**
 int
@@ -322,7 +322,7 @@ public int getQuality()
 ```
 
 
-Gets or sets a value determining the quality of the generated images to apply only when saving pages to the Jpeg format. The default value is 100 Has effect only when saving to JPEG. The value must be between 0 and 100. The default value is 100.
+a value determining the quality of the generated images to apply only when saving pages to the Jpeg format. The default value is 100 Has effect only when saving to JPEG. The value must be between 0 and 100. The default value is 100.
 
 **Returns:**
 int
@@ -342,7 +342,7 @@ public int getSaveFormat()
 ```
 
 
-Gets or sets the output file format type Support Tiff/XPS NOTE: This member is now obsolete. Instead, For Tiff/Svg, use [getImageType()](../../com.aspose.cells/imageorprintoptions\#getImageType--); For Xps, use [Workbook.save(String,SaveOptions)](../../com.aspose.cells/workbook\#save-String-SaveOptions-) with [XpsSaveOptions](../../com.aspose.cells/xpssaveoptions). This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
+the output file format type Support Tiff/XPS NOTE: This member is now obsolete. Instead, For Tiff/Svg, use [getImageType()](../../com.aspose.cells/imageorprintoptions\#getImageType--); For Xps, use [Workbook.save(String,SaveOptions)](../../com.aspose.cells/workbook\#save-String-SaveOptions-) with [XpsSaveOptions](../../com.aspose.cells/xpssaveoptions). This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -352,7 +352,7 @@ public SheetSet getSheetSet()
 ```
 
 
-Gets or sets the sheets to render. Default is all visible sheets in the workbook: \{@link com.aspose.cells.SheetSet.getVisible()\}. The set is ignored when it is used in [SheetRender](../../com.aspose.cells/sheetrender)
+the sheets to render. Default is all visible sheets in the workbook: \{@link com.aspose.cells.SheetSet.getVisible()\}. The set is ignored when it is used in [SheetRender](../../com.aspose.cells/sheetrender)
 
 **Returns:**
 [SheetSet](../../com.aspose.cells/sheetset)
@@ -362,7 +362,7 @@ public int getTextCrossType()
 ```
 
 
-Gets or sets displaying text type when the text width is larger than cell width.
+displaying text type when the text width is larger than cell width.
 
 **Returns:**
 int
@@ -372,7 +372,7 @@ public int getTiffColorDepth()
 ```
 
 
-Gets or sets bit depth to apply only when saving pages to the Tiff format. Has effect only when saving to TIFF. If TiffCompression is set to CCITT3, CCITT4, this will not take effect, the bit depth of the generated tiff image will be always 1.
+bit depth to apply only when saving pages to the Tiff format. Has effect only when saving to TIFF. If TiffCompression is set to CCITT3, CCITT4, this will not take effect, the bit depth of the generated tiff image will be always 1.
 
 **Returns:**
 int
@@ -382,7 +382,7 @@ public int getTiffCompression()
 ```
 
 
-Gets or sets the type of compression to apply only when saving pages to the Tiff format. Has effect only when saving to TIFF. The default value is Lzw.
+the type of compression to apply only when saving pages to the Tiff format. Has effect only when saving to TIFF. The default value is Lzw.
 
 **Returns:**
 int
@@ -402,7 +402,7 @@ public int getVerticalResolution()
 ```
 
 
-Gets or sets the vertical resolution for generated images, in dots per inch. Applies generating image method except Emf format image. The default value is 96.
+the vertical resolution for generated images, in dots per inch. Applies generating image method except Emf format image. The default value is 96.
 
 **Returns:**
 int
@@ -412,7 +412,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Gets or sets warning callback.
+warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)

@@ -61,23 +61,23 @@ Represents conditional formatting condition.
 | [getClass()](#getClass--) |  |
 | [getColorScale()](#getColorScale--) | Get the conditional formatting's "ColorScale" instance. |
 | [getDataBar()](#getDataBar--) | Get the conditional formatting's "DataBar" instance. |
-| [getFormula1()](#getFormula1--) | Gets and sets the value or expression associated with conditional formatting. |
+| [getFormula1()](#getFormula1--) | the value or expression associated with conditional formatting. |
 | [getFormula1(boolean isR1C1, boolean isLocal)](#getFormula1-boolean-boolean-) | Gets the value or expression associated with this format condition. |
 | [getFormula1(boolean isR1C1, boolean isLocal, int row, int column)](#getFormula1-boolean-boolean-int-int-) | Gets the value or expression of the conditional formatting of the cell. |
 | [getFormula1(int row, int column)](#getFormula1-int-int-) | Gets the formula of the conditional formatting of the cell. |
-| [getFormula2()](#getFormula2--) | Gets and sets the value or expression associated with conditional formatting. |
+| [getFormula2()](#getFormula2--) | the value or expression associated with conditional formatting. |
 | [getFormula2(boolean isR1C1, boolean isLocal)](#getFormula2-boolean-boolean-) | Gets the value or expression associated with this format condition. |
 | [getFormula2(boolean isR1C1, boolean isLocal, int row, int column)](#getFormula2-boolean-boolean-int-int-) | Gets the value or expression of the conditional formatting of the cell. |
 | [getFormula2(int row, int column)](#getFormula2-int-int-) | Gets the formula of the conditional formatting of the cell. |
 | [getIconSet()](#getIconSet--) | Get the conditional formatting's "IconSet" instance. |
-| [getOperator()](#getOperator--) | Gets and sets the conditional format operator type. |
+| [getOperator()](#getOperator--) | the conditional format operator type. |
 | [getPriority()](#getPriority--) | The priority of this conditional formatting rule. |
 | [getStopIfTrue()](#getStopIfTrue--) | True, no rules with lower priority may be applied over this rule, when this rule evaluates to true. |
 | [getStyle()](#getStyle--) | Gets or setts style of conditional formatted cell ranges. |
 | [getText()](#getText--) | The text value in a "text contains" conditional formatting rule. |
 | [getTimePeriod()](#getTimePeriod--) | The applicable time period in a "date occurring\\u9225? |
 | [getTop10()](#getTop10--) | Get the conditional formatting's "Top10" instance. |
-| [getType()](#getType--) | Gets and sets whether the conditional format Type. |
+| [getType()](#getType--) | whether the conditional format Type. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -158,7 +158,7 @@ public String getFormula1()
 ```
 
 
-Gets and sets the value or expression associated with conditional formatting. Please add all areas before setting formula. For setting formula for this condition, if the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool). For text value that starts with '=', user may input it as formula in format: "=\\"=...\\"".
+the value or expression associated with conditional formatting. Please add all areas before setting formula. For setting formula for this condition, if the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool). For text value that starts with '=', user may input it as formula in format: "=\\"=...\\"".
 
 **Returns:**
 java.lang.String
@@ -218,7 +218,7 @@ public String getFormula2()
 ```
 
 
-Gets and sets the value or expression associated with conditional formatting. Please add all areas before setting formula. For setting formula for this condition, if the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool). For text value that starts with '=', user may input it as formula in format: "=\\"=...\\"".
+the value or expression associated with conditional formatting. Please add all areas before setting formula. For setting formula for this condition, if the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool). For text value that starts with '=', user may input it as formula in format: "=\\"=...\\"".
 
 **Returns:**
 java.lang.String
@@ -288,7 +288,7 @@ public int getOperator()
 ```
 
 
-Gets and sets the conditional format operator type.
+the conditional format operator type.
 
 **Returns:**
 int
@@ -358,7 +358,7 @@ public int getType()
 ```
 
 
-Gets and sets whether the conditional format Type.
+whether the conditional format Type.
 
 **Returns:**
 int

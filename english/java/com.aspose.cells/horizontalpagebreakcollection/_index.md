@@ -22,11 +22,6 @@ Workbook excel = new Workbook();
          excel.getWorksheets().get(0).getHorizontalPageBreaks().add("G5");
          excel.getWorksheets().get(0).getVerticalPageBreaks().add("G5");
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [HorizontalPageBreakCollection()](#HorizontalPageBreakCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -53,12 +48,6 @@ Workbook excel = new Workbook();
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### HorizontalPageBreakCollection() {#HorizontalPageBreakCollection--}
-```
-public HorizontalPageBreakCollection()
-```
-
-
 ### add(int row) {#add-int-}
 ```
 public int add(int row)

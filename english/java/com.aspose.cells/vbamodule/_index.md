@@ -35,8 +35,8 @@ Represents the module in VBA project.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getCodes()](#getCodes--) | Gets and sets the codes of module. |
-| [getName()](#getName--) | Gets and sets the name of Module. |
+| [getCodes()](#getCodes--) | the codes of module. |
+| [getName()](#getName--) | the name of Module. |
 | [getType()](#getType--) | Gets the type of module. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -78,7 +78,7 @@ public String getCodes()
 ```
 
 
-Gets and sets the codes of module.
+the codes of module.
 
 **Returns:**
 java.lang.String
@@ -88,7 +88,7 @@ public String getName()
 ```
 
 
-Gets and sets the name of Module.
+the name of Module.
 
 **Returns:**
 java.lang.String

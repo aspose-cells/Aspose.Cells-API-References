@@ -14,11 +14,6 @@ public class TableStyleElementCollection extends CollectionBase
 ```
 
 Represents all elements of the table style.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TableStyleElementCollection()](#TableStyleElementCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -44,12 +39,6 @@ Represents all elements of the table style.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### TableStyleElementCollection() {#TableStyleElementCollection--}
-```
-public TableStyleElementCollection()
-```
-
-
 ### add(int type) {#add-int-}
 ```
 public int add(int type)

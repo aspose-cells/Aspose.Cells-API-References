@@ -14,11 +14,6 @@ public class GroupFill extends Fill
 ```
 
 Represents this fill format should inherit the fill properties of the group.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [GroupFill()](#GroupFill--) |  |
 ## Methods
 
 | Method | Description |
@@ -32,12 +27,6 @@ Represents this fill format should inherit the fill properties of the group.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### GroupFill() {#GroupFill--}
-```
-public GroupFill()
-```
-
-
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)

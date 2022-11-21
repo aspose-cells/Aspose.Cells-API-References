@@ -14,11 +14,6 @@ public class CustomXmlPartCollection extends CollectionBase
 ```
 
 Represents a Custom XML Data Storage Part (custom XML data within a package).
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [CustomXmlPartCollection()](#CustomXmlPartCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -42,12 +37,6 @@ Represents a Custom XML Data Storage Part (custom XML data within a package).
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### CustomXmlPartCollection() {#CustomXmlPartCollection--}
-```
-public CustomXmlPartCollection()
-```
-
-
 ### add(byte[] data, byte[] shemaData) {#add-byte---byte---}
 ```
 public int add(byte[] data, byte[] shemaData)

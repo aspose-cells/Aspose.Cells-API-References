@@ -45,14 +45,14 @@ Encapsulates the object that represents a designer spreadsheet.
 | [clearDataSource()](#clearDataSource--) | Clears all data sources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCalculateFormula()](#getCalculateFormula--) | Indicates whether formulas should be calculated. |
-| [getCallBack()](#getCallBack--) | Gets and sets callback interface of processing smartmarker. |
+| [getCallBack()](#getCallBack--) | callback interface of processing smartmarker. |
 | [getClass()](#getClass--) |  |
 | [getLineByLine()](#getLineByLine--) | Indicates whether processing the smart marker line by line. |
 | [getRepeatFormulasWithSubtotal()](#getRepeatFormulasWithSubtotal--) | Indicates whether repeating formulas with subtotal row. |
 | [getSmartMarkers()](#getSmartMarkers--) | Returns a collection of smart markers in a spreadsheet. |
 | [getUpdateEmptyStringAsNull()](#getUpdateEmptyStringAsNull--) | If TRUE, Null will be inserted if the value is ""; |
 | [getUpdateReference()](#getUpdateReference--) | Indicates if references in other worksheets will be updated. |
-| [getWorkbook()](#getWorkbook--) | Gets and sets the [Workbook](../../com.aspose.cells/workbook) object. |
+| [getWorkbook()](#getWorkbook--) | the [Workbook](../../com.aspose.cells/workbook) object. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -135,7 +135,7 @@ public ISmartMarkerCallBack getCallBack()
 ```
 
 
-Gets and sets callback interface of processing smartmarker.
+callback interface of processing smartmarker.
 
 **Returns:**
 [ISmartMarkerCallBack](../../com.aspose.cells/ismartmarkercallback)
@@ -205,7 +205,7 @@ public Workbook getWorkbook()
 ```
 
 
-Gets and sets the [Workbook](../../com.aspose.cells/workbook) object.
+the [Workbook](../../com.aspose.cells/workbook) object.
 
 **Returns:**
 [Workbook](../../com.aspose.cells/workbook)

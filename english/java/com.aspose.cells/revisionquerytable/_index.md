@@ -14,11 +14,6 @@ public class RevisionQueryTable extends Revision
 ```
 
 Represents a revision of a query table field change.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [RevisionQueryTable()](#RevisionQueryTable--) |  |
 ## Methods
 
 | Method | Description |
@@ -37,12 +32,6 @@ Represents a revision of a query table field change.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### RevisionQueryTable() {#RevisionQueryTable--}
-```
-public RevisionQueryTable()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

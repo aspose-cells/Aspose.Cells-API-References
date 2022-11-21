@@ -20,8 +20,8 @@ Represents an Office Add-in custom property.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getName()](#getName--) | Gets and set a custom property name. |
-| [getValue()](#getValue--) | Gets and sets a custom property value. |
+| [getName()](#getName--) | a custom property name. |
+| [getValue()](#getValue--) | a custom property value. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -62,7 +62,7 @@ public String getName()
 ```
 
 
-Gets and set a custom property name.
+a custom property name.
 
 **Returns:**
 java.lang.String
@@ -72,7 +72,7 @@ public String getValue()
 ```
 
 
-Gets and sets a custom property value.
+a custom property value.
 
 **Returns:**
 java.lang.String

@@ -14,11 +14,6 @@ public class RevisionCustomView extends Revision
 ```
 
 Represents a revision record of adding or removing a custom view to the workbook
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [RevisionCustomView()](#RevisionCustomView--) |  |
 ## Methods
 
 | Method | Description |
@@ -37,12 +32,6 @@ Represents a revision record of adding or removing a custom view to the workbook
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### RevisionCustomView() {#RevisionCustomView--}
-```
-public RevisionCustomView()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

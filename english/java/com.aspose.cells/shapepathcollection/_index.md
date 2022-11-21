@@ -14,11 +14,6 @@ public class ShapePathCollection extends CollectionBase
 ```
 
 Represents path collection information in NotPrimitive autoshape
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ShapePathCollection()](#ShapePathCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -41,12 +36,6 @@ Represents path collection information in NotPrimitive autoshape
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ShapePathCollection() {#ShapePathCollection--}
-```
-public ShapePathCollection()
-```
-
-
 ### add() {#add--}
 ```
 public int add()

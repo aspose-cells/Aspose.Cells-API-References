@@ -14,11 +14,6 @@ public class ConnectionParameterCollection extends CollectionBase
 ```
 
 Specifies the [ConnectionParameter](../../com.aspose.cells/connectionparameter) collection
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ConnectionParameterCollection()](#ConnectionParameterCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -42,12 +37,6 @@ Specifies the [ConnectionParameter](../../com.aspose.cells/connectionparameter) 
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ConnectionParameterCollection() {#ConnectionParameterCollection--}
-```
-public ConnectionParameterCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

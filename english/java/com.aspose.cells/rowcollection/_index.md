@@ -27,11 +27,6 @@ Collects the [Row](../../com.aspose.cells/row) objects that represent the indivi
           //Get first row
          Row row = worksheet.getCells().getRows().get(0);
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [RowCollection()](#RowCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -51,12 +46,6 @@ Collects the [Row](../../com.aspose.cells/row) objects that represent the indivi
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### RowCollection() {#RowCollection--}
-```
-public RowCollection()
-```
-
-
 ### clear() {#clear--}
 ```
 public void clear()

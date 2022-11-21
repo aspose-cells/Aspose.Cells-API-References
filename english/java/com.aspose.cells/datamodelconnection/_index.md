@@ -14,11 +14,6 @@ public class DataModelConnection extends ExternalConnection
 ```
 
 Specifies a data model connection
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [DataModelConnection()](#DataModelConnection--) |  |
 ## Methods
 
 | Method | Description |
@@ -45,7 +40,7 @@ Specifies a data model connection
 | [getSaveData()](#getSaveData--) | True if the external data fetched over the connection to populate a table is to be saved with the workbook; otherwise, false. |
 | [getSavePassword()](#getSavePassword--) | True if the password is to be saved as part of the connection string; otherwise, False. |
 | [getSourceFile()](#getSourceFile--) | Used when the external data source is file-based. |
-| [getType()](#getType--) | Gets or Sets the external connection DataSource type. |
+| [getType()](#getType--) | the external connection DataSource type. |
 | [hashCode()](#hashCode--) |  |
 | [isDeleted()](#isDeleted--) | Indicates whether the associated workbook connection has been deleted. |
 | [isNew()](#isNew--) | True if the connection has not been refreshed for the first time; otherwise, false. |
@@ -74,12 +69,6 @@ Specifies a data model connection
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### DataModelConnection() {#DataModelConnection--}
-```
-public DataModelConnection()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -311,7 +300,7 @@ public int getType()
 ```
 
 
-Gets or Sets the external connection DataSource type.
+the external connection DataSource type.
 
 **Returns:**
 int

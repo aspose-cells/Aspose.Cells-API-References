@@ -56,9 +56,9 @@ Workbook workbook = new Workbook();
 | [getDepthPercent()](#getDepthPercent--) | Represents the depth of a 3-D chart as a percentage of the chart width (between 20 and 2000 percent). |
 | [getDisplayNaAsBlank()](#getDisplayNaAsBlank--) | Indicates whether displaying \#N/A as blank value. |
 | [getElevation()](#getElevation--) | Represents the elevation of the 3-D chart view, in degrees. |
-| [getFirstSliceAngle()](#getFirstSliceAngle--) | Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). |
+| [getFirstSliceAngle()](#getFirstSliceAngle--) | the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). |
 | [getFloor()](#getFloor--) | Returns a [getFloor()](../../com.aspose.cells/chart\#getFloor--) object that represents the walls of a 3-D chart. |
-| [getGapDepth()](#getGapDepth--) | Gets or sets the distance between the data series in a 3-D chart, as a percentage of the marker width. |
+| [getGapDepth()](#getGapDepth--) | the distance between the data series in a 3-D chart, as a percentage of the marker width. |
 | [getGapWidth()](#getGapWidth--) | Returns or sets the space between bar or column clusters, as a percentage of the bar or column width. |
 | [getHeightPercent()](#getHeightPercent--) | Returns or sets the height of a 3-D chart as a percentage of the chart width (between 5 and 500 percent). |
 | [getHidePivotFieldButtons()](#getHidePivotFieldButtons--) | Indicates whether hide the pivot chart field buttons only when the chart is PivotChart. |
@@ -66,32 +66,32 @@ Workbook workbook = new Workbook();
 | [getLegend()](#getLegend--) | Gets the chart legend. |
 | [getLine()](#getLine--) | Gets the line. |
 | [getNSeries()](#getNSeries--) | Gets a [SeriesCollection](../../com.aspose.cells/seriescollection) collection representing the data series in the chart. |
-| [getName()](#getName--) | Gets and sets the name of the chart. |
+| [getName()](#getName--) | the name of the chart. |
 | [getPageSetup()](#getPageSetup--) | Represents the page setup description in this chart. |
 | [getPerspective()](#getPerspective--) | Returns or sets the perspective for the 3-D chart view. |
 | [getPivotOptions()](#getPivotOptions--) | Specifies the pivot controls that appear on the chart |
 | [getPivotSource()](#getPivotSource--) | The source is the data of the pivotTable. |
 | [getPlacement()](#getPlacement--) | Represents the way the chart is attached to the cells below it. |
 | [getPlotArea()](#getPlotArea--) | Gets the chart's plot area which includes axis tick labels. |
-| [getPlotBy()](#getPlotBy--) | Gets and sets whether plot by row or column. |
-| [getPlotEmptyCellsType()](#getPlotEmptyCellsType--) | Gets and sets how to plot the empty cells. |
+| [getPlotBy()](#getPlotBy--) | whether plot by row or column. |
+| [getPlotEmptyCellsType()](#getPlotEmptyCellsType--) | how to plot the empty cells. |
 | [getPlotVisibleCells()](#getPlotVisibleCells--) | Indicates whether only plot visible cells. |
 | [getPlotVisibleCellsOnly()](#getPlotVisibleCellsOnly--) | Indicates whether plot visible cells only. |
-| [getPrintSize()](#getPrintSize--) | Gets and sets the printed chart size. |
+| [getPrintSize()](#getPrintSize--) | the printed chart size. |
 | [getRightAngleAxes()](#getRightAngleAxes--) | True if the chart axes are at right angles. |
 | [getRotationAngle()](#getRotationAngle--) | Represents the rotation of the 3-D chart view (the rotation of the plot area around the z-axis, in degrees). |
 | [getSecondCategoryAxis()](#getSecondCategoryAxis--) | Gets the chart's second X axis. |
 | [getSecondValueAxis()](#getSecondValueAxis--) | Gets the chart's second Y axis. |
 | [getSeriesAxis()](#getSeriesAxis--) | Gets the chart's series axis. |
 | [getShapes()](#getShapes--) | Returns all drawing shapes in this chart. |
-| [getShowDataTable()](#getShowDataTable--) | Gets or sets a value indicating whether the chart displays a data table. |
-| [getShowLegend()](#getShowLegend--) | Gets or sets a value indicating whether the chart legend will be displayed. |
+| [getShowDataTable()](#getShowDataTable--) | a value indicating whether the chart displays a data table. |
+| [getShowLegend()](#getShowLegend--) | a value indicating whether the chart legend will be displayed. |
 | [getSideWall()](#getSideWall--) | Returns a [getWalls()](../../com.aspose.cells/chart\#getWalls--) object that represents the side wall of a 3-D chart. |
 | [getSizeWithWindow()](#getSizeWithWindow--) | True if Microsoft Excel resizes the chart to match the size of the chart sheet window. |
-| [getStyle()](#getStyle--) | Gets and sets the builtin style. |
+| [getStyle()](#getStyle--) | the builtin style. |
 | [getSubTitle()](#getSubTitle--) | Gets the chart's sub-title. |
 | [getTitle()](#getTitle--) | Gets the chart's title. |
-| [getType()](#getType--) | Gets or sets a chart's type. |
+| [getType()](#getType--) | a chart's type. |
 | [getValueAxis()](#getValueAxis--) | Gets the chart's Y axis. |
 | [getWalls()](#getWalls--) | Returns a [getWalls()](../../com.aspose.cells/chart\#getWalls--) object that represents the walls of a 3-D chart. |
 | [getWallsAndGridlines2D()](#getWallsAndGridlines2D--) | True if gridlines are drawn two-dimensionally on a 3-D chart. |
@@ -99,7 +99,7 @@ Workbook workbook = new Workbook();
 | [hasAxis(int aixsType, boolean isPrimary)](#hasAxis-int-boolean-) | Returns which axes exist on the chart. |
 | [hashCode()](#hashCode--) |  |
 | [isChartDataChanged()](#isChartDataChanged--) | Detects if a chart's data source has changed. |
-| [isRectangularCornered()](#isRectangularCornered--) | Gets or sets a value indicating whether the chart area is rectangular cornered. |
+| [isRectangularCornered()](#isRectangularCornered--) | a value indicating whether the chart area is rectangular cornered. |
 | [move(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn)](#move-int-int-int-int-) | Moves the chart to a specified location. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -328,7 +328,7 @@ public int getFirstSliceAngle()
 ```
 
 
-Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360.
+the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360.
 
 **Returns:**
 int
@@ -348,7 +348,7 @@ public int getGapDepth()
 ```
 
 
-Gets or sets the distance between the data series in a 3-D chart, as a percentage of the marker width. The value of this property must be between 0 and 500.
+the distance between the data series in a 3-D chart, as a percentage of the marker width. The value of this property must be between 0 and 500.
 
 **Returns:**
 int
@@ -428,7 +428,7 @@ public String getName()
 ```
 
 
-Gets and sets the name of the chart.
+the name of the chart.
 
 **Returns:**
 java.lang.String
@@ -498,7 +498,7 @@ public int getPlotBy()
 ```
 
 
-Gets and sets whether plot by row or column.
+whether plot by row or column.
 
 **Returns:**
 int
@@ -508,7 +508,7 @@ public int getPlotEmptyCellsType()
 ```
 
 
-Gets and sets how to plot the empty cells.
+how to plot the empty cells.
 
 **Returns:**
 int
@@ -538,7 +538,7 @@ public int getPrintSize()
 ```
 
 
-Gets and sets the printed chart size.
+the printed chart size.
 
 **Returns:**
 int
@@ -608,7 +608,7 @@ public boolean getShowDataTable()
 ```
 
 
-Gets or sets a value indicating whether the chart displays a data table.
+a value indicating whether the chart displays a data table.
 
 **Returns:**
 boolean
@@ -618,7 +618,7 @@ public boolean getShowLegend()
 ```
 
 
-Gets or sets a value indicating whether the chart legend will be displayed. Default is true.
+a value indicating whether the chart legend will be displayed. Default is true.
 
 **Returns:**
 boolean
@@ -648,7 +648,7 @@ public int getStyle()
 ```
 
 
-Gets and sets the builtin style. It should be between 1 and 48. Return -1 if it's not be set.
+the builtin style. It should be between 1 and 48. Return -1 if it's not be set.
 
 **Returns:**
 int
@@ -678,7 +678,7 @@ public int getType()
 ```
 
 
-Gets or sets a chart's type.
+a chart's type.
 
 **Returns:**
 int
@@ -764,7 +764,7 @@ public boolean isRectangularCornered()
 ```
 
 
-Gets or sets a value indicating whether the chart area is rectangular cornered. Default is true.
+a value indicating whether the chart area is rectangular cornered. Default is true.
 
 **Returns:**
 boolean

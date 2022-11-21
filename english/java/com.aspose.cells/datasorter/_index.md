@@ -53,7 +53,7 @@ Summary description for DataSorter.
 | [addKey(int key, int order, String[] customList)](#addKey-int-int-java.lang.String---) | Adds sorted column index and sort order with custom sort list. |
 | [clear()](#clear--) | Clear all settings. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCaseSensitive()](#getCaseSensitive--) | Gets and sets whether case sensitive when comparing string. |
+| [getCaseSensitive()](#getCaseSensitive--) | whether case sensitive when comparing string. |
 | [getClass()](#getClass--) |  |
 | [getKey1()](#getKey1--) | Represents first sorted column index(absolute position, column A is 0, B is 1, ...). |
 | [getKey2()](#getKey2--) | Represents second sorted column index(absolute position, column A is 0, B is 1, ...). |
@@ -174,7 +174,7 @@ public boolean getCaseSensitive()
 ```
 
 
-Gets and sets whether case sensitive when comparing string.
+whether case sensitive when comparing string.
 
 **Returns:**
 boolean

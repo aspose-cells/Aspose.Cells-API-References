@@ -14,11 +14,6 @@ public class RevisionRenameSheet extends Revision
 ```
 
 Represents a revision of renaming sheet.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [RevisionRenameSheet()](#RevisionRenameSheet--) |  |
 ## Methods
 
 | Method | Description |
@@ -37,12 +32,6 @@ Represents a revision of renaming sheet.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### RevisionRenameSheet() {#RevisionRenameSheet--}
-```
-public RevisionRenameSheet()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

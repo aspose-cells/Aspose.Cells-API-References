@@ -26,11 +26,6 @@ Workbook wb = new Workbook("connection.xlsx");
              System.out.println(dataConn.getConnectionId());
          }
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ExternalConnectionCollection()](#ExternalConnectionCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -55,12 +50,6 @@ Workbook wb = new Workbook("connection.xlsx");
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ExternalConnectionCollection() {#ExternalConnectionCollection--}
-```
-public ExternalConnectionCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

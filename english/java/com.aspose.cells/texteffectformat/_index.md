@@ -34,7 +34,7 @@ Contains properties and methods that apply to WordArt objects.
 | [getFontItalic()](#getFontItalic--) | Indicates whether font is italic. |
 | [getFontName()](#getFontName--) | The name of the font used in the WordArt. |
 | [getFontSize()](#getFontSize--) | The size (in points) of the font used in the WordArt. |
-| [getPresetShape()](#getPresetShape--) | Gets and sets the preset shape type. |
+| [getPresetShape()](#getPresetShape--) | the preset shape type. |
 | [getRotatedChars()](#getRotatedChars--) | If true,characters in the specified WordArt are rotated 90 degrees relative to the WordArt's bounding shape. |
 | [getText()](#getText--) | The text in the WordArt. |
 | [hashCode()](#hashCode--) |  |
@@ -123,7 +123,7 @@ public int getPresetShape()
 ```
 
 
-Gets and sets the preset shape type.
+the preset shape type.
 
 **Returns:**
 int

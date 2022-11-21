@@ -56,10 +56,10 @@ Encapsulates the object that represents an area format.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBackgroundColor()](#getBackgroundColor--) | Gets or sets the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area). |
+| [getBackgroundColor()](#getBackgroundColor--) | the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area). |
 | [getClass()](#getClass--) |  |
 | [getFillFormat()](#getFillFormat--) | Represents a [getFillFormat()](../../com.aspose.cells/area\#getFillFormat--) object that contains fill formatting properties for the specified chart or shape. |
-| [getForegroundColor()](#getForegroundColor--) | Gets or sets the foreground [Color](../../com.aspose.cells/color). |
+| [getForegroundColor()](#getForegroundColor--) | the foreground [Color](../../com.aspose.cells/color). |
 | [getFormatting()](#getFormatting--) | Represents the formatting of the area. |
 | [getInvertIfNegative()](#getInvertIfNegative--) | If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
 | [getTransparency()](#getTransparency--) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
@@ -99,7 +99,7 @@ public Color getBackgroundColor()
 ```
 
 
-Gets or sets the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area).
+the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area).
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -129,7 +129,7 @@ public Color getForegroundColor()
 ```
 
 
-Gets or sets the foreground [Color](../../com.aspose.cells/color).
+the foreground [Color](../../com.aspose.cells/color).
 
 **Returns:**
 [Color](../../com.aspose.cells/color)

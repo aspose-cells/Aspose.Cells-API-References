@@ -54,7 +54,7 @@ Workbook workbook = new Workbook();
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getDestination()](#getDestination--) | The cell to which the bookmark link. |
-| [getDestinationName()](#getDestinationName--) | Gets or sets name of destination. |
+| [getDestinationName()](#getDestinationName--) | name of destination. |
 | [getSubEntry()](#getSubEntry--) | SubEntry of a bookmark. |
 | [getText()](#getText--) | Title of a bookmark. |
 | [hashCode()](#hashCode--) |  |
@@ -113,7 +113,7 @@ public String getDestinationName()
 ```
 
 
-Gets or sets name of destination. If destination name is set, the destination will be defined as a named destination with this name.
+name of destination. If destination name is set, the destination will be defined as a named destination with this name.
 
 **Returns:**
 java.lang.String

@@ -19,10 +19,10 @@ Represents Cell Watch Item in the 'watch window'.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCellName()](#getCellName--) | Gets and sets the name of the cell. |
+| [getCellName()](#getCellName--) | the name of the cell. |
 | [getClass()](#getClass--) |  |
-| [getColumn()](#getColumn--) | Gets and sets the column of the cell. |
-| [getRow()](#getRow--) | Gets and sets the row of the cell. |
+| [getColumn()](#getColumn--) | the column of the cell. |
+| [getRow()](#getRow--) | the row of the cell. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -54,7 +54,7 @@ public String getCellName()
 ```
 
 
-Gets and sets the name of the cell.
+the name of the cell.
 
 **Returns:**
 java.lang.String
@@ -74,7 +74,7 @@ public int getColumn()
 ```
 
 
-Gets and sets the column of the cell.
+the column of the cell.
 
 **Returns:**
 int
@@ -84,7 +84,7 @@ public int getRow()
 ```
 
 
-Gets and sets the row of the cell.
+the row of the cell.
 
 **Returns:**
 int

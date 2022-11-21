@@ -29,7 +29,7 @@ Represents the options for saving html file.
 | [getAttachedFilesDirectory()](#getAttachedFilesDirectory--) | The directory that the attached files will be saved to. |
 | [getAttachedFilesUrlPrefix()](#getAttachedFilesUrlPrefix--) | Specify the Url prefix of attached files such as image in the html file. |
 | [getCachedFileFolder()](#getCachedFileFolder--) | The cached file folder is used to store some large data. |
-| [getCellCssPrefix()](#getCellCssPrefix--) | Gets and sets the prefix of the css name,the default value is "". |
+| [getCellCssPrefix()](#getCellCssPrefix--) | the prefix of the css name,the default value is "". |
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
@@ -38,7 +38,7 @@ Represents the options for saving html file.
 | [getEncoding()](#getEncoding--) | If not set,use Encoding.UTF8 as default enconding type. |
 | [getExcludeUnusedStyles()](#getExcludeUnusedStyles--) | Indicating whether excludes unused styles. |
 | [getExportActiveWorksheetOnly()](#getExportActiveWorksheetOnly--) | Indicates if exporting the whole workbook to html file. |
-| [getExportArea()](#getExportArea--) | Gets or Sets the exporting CellArea of current active Worksheet. |
+| [getExportArea()](#getExportArea--) | the exporting CellArea of current active Worksheet. |
 | [getExportBogusRowData()](#getExportBogusRowData--) | Indicating whether exporting bogus bottom row data. |
 | [getExportCellCoordinate()](#getExportCellCoordinate--) | Indicates whether exporting excel coordinate of nonblank cells when saving file to html. |
 | [getExportCommentsType()](#getExportCommentsType--) | Represents type of exporting comments to html files. |
@@ -51,7 +51,7 @@ Represents the options for saving html file.
 | [getExportHeadings()](#getExportHeadings--) | Indicates whether exports sheet's row and column headings when saving to HTML files. |
 | [getExportHiddenWorksheet()](#getExportHiddenWorksheet--) | Indicating if exporting the hidden worksheet content.The default value is true. |
 | [getExportImagesAsBase64()](#getExportImagesAsBase64--) | Specifies whether images are saved in Base64 format to HTML, MHTML or EPUB. |
-| [getExportObjectListener()](#getExportObjectListener--) | Gets or sets the ExportObjectListener for exporting objects. |
+| [getExportObjectListener()](#getExportObjectListener--) | the ExportObjectListener for exporting objects. |
 | [getExportPageFooters()](#getExportPageFooters--) | Indicates whether exporting page headers. |
 | [getExportPageHeaders()](#getExportPageHeaders--) | Indicates whether exporting page headers. |
 | [getExportPrintAreaOnly()](#getExportPrintAreaOnly--) | Indicates if only exporting the print area to html file. |
@@ -61,7 +61,7 @@ Represents the options for saving html file.
 | [getExportWorkbookProperties()](#getExportWorkbookProperties--) | Indicating whether exporting workbook properties.The default value is true.If you want to import the html or mht file to excel, please keep the default value. |
 | [getExportWorksheetCSSSeparately()](#getExportWorksheetCSSSeparately--) | Indicating whether export the worksheet css separately.The default value is false. |
 | [getExportWorksheetProperties()](#getExportWorksheetProperties--) | Indicating whether exporting worksheet properties.The default value is true.If you want to import the html or mht file to excel, please keep the default value. |
-| [getFilePathProvider()](#getFilePathProvider--) | Gets or sets the IFilePathProvider for exporting Worksheet to html separately. |
+| [getFilePathProvider()](#getFilePathProvider--) | the IFilePathProvider for exporting Worksheet to html separately. |
 | [getHiddenColDisplayType()](#getHiddenColDisplayType--) | Hidden column(the width of this column is 0) in excel,before save this into html format, if HtmlHiddenColDisplayType is "Remove",the hidden column would not been output, if the value is "Hidden", the column would been output,but was hidden,the default value is "Hidden" |
 | [getHiddenRowDisplayType()](#getHiddenRowDisplayType--) | Hidden row(the height of this row is 0) in excel,before save this into html format, if HtmlHiddenRowDisplayType is "Remove",the hidden row would not been output, if the value is "Hidden", the row would been output,but was hidden,the default value is "Hidden" |
 | [getHtmlCrossStringType()](#getHtmlCrossStringType--) | Indicates if a cross-cell string will be displayed in the same way as MS Excel when saving an Excel file in html format. |
@@ -82,11 +82,11 @@ Represents the options for saving html file.
 | [getShowAllSheets()](#getShowAllSheets--) | Indicates whether showing all sheets when saving as a single html file. |
 | [getSortExternalNames()](#getSortExternalNames--) | Indicates whether sorting external defined names before saving file. |
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
-| [getStreamProvider()](#getStreamProvider--) | Gets or sets the IStreamProvider for exporting objects. |
-| [getTableCssId()](#getTableCssId--) | Gets and sets the prefix of the type css name such as tr,col,td and so on, they are contained in the table element which has the specific TableCssId attribute. |
+| [getStreamProvider()](#getStreamProvider--) | the IStreamProvider for exporting objects. |
+| [getTableCssId()](#getTableCssId--) | the prefix of the type css name such as tr,col,td and so on, they are contained in the table element which has the specific TableCssId attribute. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
-| [getWarningCallback()](#getWarningCallback--) | Gets or sets warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | warning callback. |
 | [getWidthScalable()](#getWidthScalable--) | Indicates whether using scalable unit to describe the column width when exporting file to html. |
 | [getWorksheetScalable()](#getWorksheetScalable--) | Indicates if zooming in or out the html via worksheet zoom level when saving file to html, the default value is false. |
 | [hashCode()](#hashCode--) |  |
@@ -243,7 +243,7 @@ public String getCellCssPrefix()
 ```
 
 
-Gets and sets the prefix of the css name,the default value is "".
+the prefix of the css name,the default value is "".
 
 **Returns:**
 java.lang.String
@@ -333,7 +333,7 @@ public CellArea getExportArea()
 ```
 
 
-Gets or Sets the exporting CellArea of current active Worksheet. If you set this attribute, the print area of current active Worksheet will be omitted. Only the specified area will be exported when saving the file to html.
+the exporting CellArea of current active Worksheet. If you set this attribute, the print area of current active Worksheet will be omitted. Only the specified area will be exported when saving the file to html.
 
 **Returns:**
 [CellArea](../../com.aspose.cells/cellarea)
@@ -463,7 +463,7 @@ public IExportObjectListener getExportObjectListener()
 ```
 
 
-Gets or sets the ExportObjectListener for exporting objects. NOTE: This property is now obsolete. Instead, please use HtmlSaveOptions.IStreamProvider property. This property will be removed 12 months later since August 2015. Aspose apologizes for any inconvenience you may have experienced.
+the ExportObjectListener for exporting objects. NOTE: This property is now obsolete. Instead, please use HtmlSaveOptions.IStreamProvider property. This property will be removed 12 months later since August 2015. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 [IExportObjectListener](../../com.aspose.cells/iexportobjectlistener)
@@ -563,7 +563,7 @@ public IFilePathProvider getFilePathProvider()
 ```
 
 
-Gets or sets the IFilePathProvider for exporting Worksheet to html separately.
+the IFilePathProvider for exporting Worksheet to html separately.
 
 **Returns:**
 [IFilePathProvider](../../com.aspose.cells/ifilepathprovider)
@@ -755,7 +755,7 @@ public IStreamProvider getStreamProvider()
 ```
 
 
-Gets or sets the IStreamProvider for exporting objects.
+the IStreamProvider for exporting objects.
 
 **Returns:**
 [IStreamProvider](../../com.aspose.cells/istreamprovider)
@@ -765,7 +765,7 @@ public String getTableCssId()
 ```
 
 
-Gets and sets the prefix of the type css name such as tr,col,td and so on, they are contained in the table element which has the specific TableCssId attribute. The default value is "".
+the prefix of the type css name such as tr,col,td and so on, they are contained in the table element which has the specific TableCssId attribute. The default value is "".
 
 **Returns:**
 java.lang.String
@@ -795,7 +795,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Gets or sets warning callback.
+warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)

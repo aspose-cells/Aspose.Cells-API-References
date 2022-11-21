@@ -86,11 +86,6 @@ Workbook book = new Workbook();
  
          book.save("out.xlsx");
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PivotTableCollection()](#PivotTableCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -126,12 +121,6 @@ Workbook book = new Workbook();
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### PivotTableCollection() {#PivotTableCollection--}
-```
-public PivotTableCollection()
-```
-
-
 ### add(PivotTable pivotTable, int row, int column, String tableName) {#add-com.aspose.cells.PivotTable-int-int-java.lang.String-}
 ```
 public int add(PivotTable pivotTable, int row, int column, String tableName)

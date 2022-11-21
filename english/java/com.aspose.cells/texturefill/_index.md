@@ -14,24 +14,19 @@ public class TextureFill extends Fill
 ```
 
 Encapsulates the object that represents texture fill format
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TextureFill()](#TextureFill--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) | / |
 | [getClass()](#getClass--) |  |
-| [getImageData()](#getImageData--) | Gets and sets the image data of the fill. |
-| [getPicFormatOption()](#getPicFormatOption--) | Gets or sets picture format option. |
-| [getPictureFormatType()](#getPictureFormatType--) | Gets and sets the picture format type. |
-| [getScale()](#getScale--) | Gets and sets the picture format scale. |
-| [getTilePicOption()](#getTilePicOption--) | Gets or sets tile picture option. |
+| [getImageData()](#getImageData--) | the image data of the fill. |
+| [getPicFormatOption()](#getPicFormatOption--) | picture format option. |
+| [getPictureFormatType()](#getPictureFormatType--) | the picture format type. |
+| [getScale()](#getScale--) | the picture format scale. |
+| [getTilePicOption()](#getTilePicOption--) | tile picture option. |
 | [getTransparency()](#getTransparency--) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
-| [getType()](#getType--) | Gets and sets the texture type |
+| [getType()](#getType--) | the texture type |
 | [hashCode()](#hashCode--) | Gets the hash code. |
 | [isTiling()](#isTiling--) | Indicates whether tile picture as texture. |
 | [notify()](#notify--) |  |
@@ -48,12 +43,6 @@ Encapsulates the object that represents texture fill format
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### TextureFill() {#TextureFill--}
-```
-public TextureFill()
-```
-
-
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -85,7 +74,7 @@ public byte[] getImageData()
 ```
 
 
-Gets and sets the image data of the fill.
+the image data of the fill.
 
 **Returns:**
 byte[]
@@ -95,7 +84,7 @@ public PicFormatOption getPicFormatOption()
 ```
 
 
-Gets or sets picture format option.
+picture format option.
 
 **Returns:**
 [PicFormatOption](../../com.aspose.cells/picformatoption)
@@ -105,7 +94,7 @@ public int getPictureFormatType()
 ```
 
 
-Gets and sets the picture format type.
+the picture format type.
 
 **Returns:**
 int
@@ -115,7 +104,7 @@ public double getScale()
 ```
 
 
-Gets and sets the picture format scale.
+the picture format scale.
 
 **Returns:**
 double
@@ -125,7 +114,7 @@ public TilePicOption getTilePicOption()
 ```
 
 
-Gets or sets tile picture option.
+tile picture option.
 
 **Returns:**
 [TilePicOption](../../com.aspose.cells/tilepicoption)
@@ -145,7 +134,7 @@ public int getType()
 ```
 
 
-Gets and sets the texture type
+the texture type
 
 **Returns:**
 int

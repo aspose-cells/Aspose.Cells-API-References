@@ -19,7 +19,7 @@ Specifies write protection settings for a workbook.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAuthor()](#getAuthor--) | Gets and sets the author. |
+| [getAuthor()](#getAuthor--) | the author. |
 | [getClass()](#getClass--) |  |
 | [getRecommendReadOnly()](#getRecommendReadOnly--) | Indicates if the Read Only Recommended option is selected. |
 | [hashCode()](#hashCode--) |  |
@@ -55,7 +55,7 @@ public String getAuthor()
 ```
 
 
-Gets and sets the author.
+the author.
 
 **Returns:**
 java.lang.String

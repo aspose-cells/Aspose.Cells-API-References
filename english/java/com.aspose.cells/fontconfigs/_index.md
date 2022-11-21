@@ -20,7 +20,7 @@ Specifies font settings
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDefaultFontName()](#getDefaultFontName--) | Gets or sets the default font name. |
+| [getDefaultFontName()](#getDefaultFontName--) | the default font name. |
 | [getFontSources()](#getFontSources--) | Gets a copy of the array that contains the list of sources |
 | [getFontSubstitutes(String originalFontName)](#getFontSubstitutes-java.lang.String-) | Returns array containing font substitute names to be used if original font is not presented. |
 | [getPreferSystemFontSubstitutes()](#getPreferSystemFontSubstitutes--) | Indicate whether to use system font substitutes first or not when a font is not presented and the substitute of this font is not set. |
@@ -68,7 +68,7 @@ public static String getDefaultFontName()
 ```
 
 
-Gets or sets the default font name.
+the default font name.
 
 **Returns:**
 java.lang.String

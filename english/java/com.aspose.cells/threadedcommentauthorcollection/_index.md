@@ -14,11 +14,6 @@ public class ThreadedCommentAuthorCollection extends CollectionBase
 ```
 
 Represents all persons who .
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ThreadedCommentAuthorCollection()](#ThreadedCommentAuthorCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -32,7 +27,7 @@ Represents all persons who .
 | [get(String name)](#get-java.lang.String-) | Gets the person who create threaded comments. |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
-| [getCurrentPerson()](#getCurrentPerson--) | Gets and sets the current user. |
+| [getCurrentPerson()](#getCurrentPerson--) | the current user. |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(ThreadedCommentAuthor author)](#indexOf-com.aspose.cells.ThreadedCommentAuthor-) | Gets the index of ThreadedCommentAuthor object |
 | [indexOf(Object o)](#indexOf-java.lang.Object-) | Determines the index of a specific item in the CollectionBase instance. |
@@ -45,12 +40,6 @@ Represents all persons who .
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ThreadedCommentAuthorCollection() {#ThreadedCommentAuthorCollection--}
-```
-public ThreadedCommentAuthorCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)
@@ -177,7 +166,7 @@ public ThreadedCommentAuthor getCurrentPerson()
 ```
 
 
-Gets and sets the current user.
+the current user.
 
 **Returns:**
 [ThreadedCommentAuthor](../../com.aspose.cells/threadedcommentauthor)

@@ -14,11 +14,6 @@ public class PowerQueryFormulaCollection extends CollectionBase
 ```
 
 Represents all power query formulas in the mashup data.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PowerQueryFormulaCollection()](#PowerQueryFormulaCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -41,12 +36,6 @@ Represents all power query formulas in the mashup data.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### PowerQueryFormulaCollection() {#PowerQueryFormulaCollection--}
-```
-public PowerQueryFormulaCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

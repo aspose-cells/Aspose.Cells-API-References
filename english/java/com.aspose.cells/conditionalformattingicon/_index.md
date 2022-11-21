@@ -23,8 +23,8 @@ Represents the custom icon of conditional formatting rule.
 | [getIconImageData(int type, int index)](#getIconImageData-int-int-) | Get the icon set data |
 | [getImageData()](#getImageData--) | Gets the icon set data. |
 | [getImageData(Cell cell)](#getImageData-com.aspose.cells.Cell-) | Gets the image data with the setting of cell. |
-| [getIndex()](#getIndex--) | Gets and sets the icon's index in the icon set. |
-| [getType()](#getType--) | Gets and sets the icon set type. |
+| [getIndex()](#getIndex--) | the icon's index in the icon set. |
+| [getType()](#getType--) | the icon set type. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -106,7 +106,7 @@ public int getIndex()
 ```
 
 
-Gets and sets the icon's index in the icon set.
+the icon's index in the icon set.
 
 **Returns:**
 int
@@ -116,7 +116,7 @@ public int getType()
 ```
 
 
-Gets and sets the icon set type.
+the icon set type.
 
 **Returns:**
 int

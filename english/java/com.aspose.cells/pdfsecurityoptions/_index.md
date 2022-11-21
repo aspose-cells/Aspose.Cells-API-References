@@ -33,9 +33,9 @@ Settings of pdf when converting excel to pdf, PDF/A does not allow security sett
 | [getFillFormsPermission()](#getFillFormsPermission--) | Permission to fill the form fields. |
 | [getFullQualityPrintPermission()](#getFullQualityPrintPermission--) | Permission to print in high quality. |
 | [getModifyDocumentPermission()](#getModifyDocumentPermission--) | Permission to modify pdf document |
-| [getOwnerPassword()](#getOwnerPassword--) | Gets or sets the owner password of the document |
+| [getOwnerPassword()](#getOwnerPassword--) | the owner password of the document |
 | [getPrintPermission()](#getPrintPermission--) | Permission to print pdf document |
-| [getUserPassword()](#getUserPassword--) | Gets or sets the user password |
+| [getUserPassword()](#getUserPassword--) | the user password |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -200,7 +200,7 @@ public String getOwnerPassword()
 ```
 
 
-Gets or sets the owner password of the document
+the owner password of the document
 
 **Returns:**
 java.lang.String
@@ -220,7 +220,7 @@ public String getUserPassword()
 ```
 
 
-Gets or sets the user password
+the user password
 
 **Returns:**
 java.lang.String

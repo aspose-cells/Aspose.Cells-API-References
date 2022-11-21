@@ -36,11 +36,6 @@ Workbook book = new Workbook();
          group.getSparklineCollection().add(sheet.getName() + "!A1:D1", 0, 4);
          book.save("output.xlsx", SaveFormat.XLSX);
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SparklineGroupCollection()](#SparklineGroupCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -65,12 +60,6 @@ Workbook book = new Workbook();
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### SparklineGroupCollection() {#SparklineGroupCollection--}
-```
-public SparklineGroupCollection()
-```
-
-
 ### add(int type, String dataRange, boolean isVertical, CellArea locationRange) {#add-int-java.lang.String-boolean-com.aspose.cells.CellArea-}
 ```
 public int add(int type, String dataRange, boolean isVertical, CellArea locationRange)

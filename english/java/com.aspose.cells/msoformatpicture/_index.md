@@ -28,7 +28,7 @@ Represents the picture format.
 | [getRightCrop()](#getRightCrop--) | Represents the location of the right of the crop rectangle expressed, expressed as a ratio of the image's width. |
 | [getTopCrop()](#getTopCrop--) | Represents the location of the top of the crop rectangle expressed, expressed as a ratio of the image's height. |
 | [getTransparency()](#getTransparency--) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
-| [getTransparentColor()](#getTransparentColor--) | Gets and sets the transparent color of the picture. |
+| [getTransparentColor()](#getTransparentColor--) | the transparent color of the picture. |
 | [hashCode()](#hashCode--) | Gets the hash code. |
 | [isBiLevel()](#isBiLevel--) | Indicates whether this picture should be displayed in two-color black and white. |
 | [isGray()](#isGray--) | Indicates whether this picture SHOULD be displayed in grayscale. |
@@ -160,7 +160,7 @@ public CellsColor getTransparentColor()
 ```
 
 
-Gets and sets the transparent color of the picture.
+the transparent color of the picture.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)

@@ -29,7 +29,7 @@ Represents the stream options.
 | [getCustomPath()](#getCustomPath--) | The user custom path(URL) saved in generated html file for the referred source. |
 | [getDefaultPath()](#getDefaultPath--) | The default path(URL) saved in generated html file for the referred source. |
 | [getInputStream()](#getInputStream--) | Gets/Sets the input stream to get data. |
-| [getResourceLoadingType()](#getResourceLoadingType--) | Gets and sets the type of loading resource. |
+| [getResourceLoadingType()](#getResourceLoadingType--) | the type of loading resource. |
 | [getStream()](#getStream--) | Gets/Sets the output stream to write saved data. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -125,7 +125,7 @@ public int getResourceLoadingType()
 ```
 
 
-Gets and sets the type of loading resource.
+the type of loading resource.
 
 **Returns:**
 int

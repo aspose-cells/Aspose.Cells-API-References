@@ -21,7 +21,7 @@ Represents the definition of power query formula.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getFormulaDefinition()](#getFormulaDefinition--) | Gets the definition of the power query formula. |
-| [getName()](#getName--) | Gets and sets the name of the power query formula. |
+| [getName()](#getName--) | the name of the power query formula. |
 | [getPowerQueryFormulaItems()](#getPowerQueryFormulaItems--) | Gets all items of power query formula. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -72,7 +72,7 @@ public String getName()
 ```
 
 
-Gets and sets the name of the power query formula.
+the name of the power query formula.
 
 **Returns:**
 java.lang.String

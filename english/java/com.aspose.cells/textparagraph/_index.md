@@ -14,33 +14,28 @@ public class TextParagraph extends FontSetting
 ```
 
 Represents the text paragraph setting.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TextParagraph()](#TextParagraph--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAlignmentType()](#getAlignmentType--) | Gets and sets the text horizontal alignment type of the paragraph. |
+| [getAlignmentType()](#getAlignmentType--) | the text horizontal alignment type of the paragraph. |
 | [getBullet()](#getBullet--) | Gets the bullet. |
 | [getChildren()](#getChildren--) | Gets all text runs in this paragraph. |
 | [getClass()](#getClass--) |  |
-| [getDefaultTabSize()](#getDefaultTabSize--) | Gets and sets the default size for a tab character within this paragraph. |
+| [getDefaultTabSize()](#getDefaultTabSize--) | the default size for a tab character within this paragraph. |
 | [getFirstLineIndent()](#getFirstLineIndent--) | Specifies the indent size that will be applied to the first line of text in the paragraph. |
 | [getFont()](#getFont--) | Returns the font of this object. |
 | [getFontAlignType()](#getFontAlignType--) | Determines where vertically on a line of text the actual words are positioned. |
 | [getLeftMargin()](#getLeftMargin--) | Specifies the left margin of the paragraph. |
 | [getLength()](#getLength--) | Gets the length of the characters. |
-| [getLineSpace()](#getLineSpace--) | Gets and sets the amount of vertical white space that will be used within a paragraph. |
-| [getLineSpaceSizeType()](#getLineSpaceSizeType--) | Gets and sets the amount of vertical white space that will be used within a paragraph. |
+| [getLineSpace()](#getLineSpace--) | the amount of vertical white space that will be used within a paragraph. |
+| [getLineSpaceSizeType()](#getLineSpaceSizeType--) | the amount of vertical white space that will be used within a paragraph. |
 | [getRightMargin()](#getRightMargin--) | Specifies the right margin of the paragraph. |
-| [getSpaceAfter()](#getSpaceAfter--) | Gets and sets the amount of vertical white space that will be present after a paragraph. |
-| [getSpaceAfterSizeType()](#getSpaceAfterSizeType--) | Gets and sets the amount of vertical white space that will be present after a paragraph. |
-| [getSpaceBefore()](#getSpaceBefore--) | Gets and sets the amount of vertical white space that will be present before a paragraph. |
-| [getSpaceBeforeSizeType()](#getSpaceBeforeSizeType--) | Gets and sets the amount of vertical white space that will be present before a paragraph. |
+| [getSpaceAfter()](#getSpaceAfter--) | the amount of vertical white space that will be present after a paragraph. |
+| [getSpaceAfterSizeType()](#getSpaceAfterSizeType--) | the amount of vertical white space that will be present after a paragraph. |
+| [getSpaceBefore()](#getSpaceBefore--) | the amount of vertical white space that will be present before a paragraph. |
+| [getSpaceBeforeSizeType()](#getSpaceBeforeSizeType--) | the amount of vertical white space that will be present before a paragraph. |
 | [getStartIndex()](#getStartIndex--) | Gets the start index of the characters. |
 | [getStops()](#getStops--) | Gets tab stop list. |
 | [getTextOptions()](#getTextOptions--) | Returns the text options. |
@@ -71,12 +66,6 @@ Represents the text paragraph setting.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### TextParagraph() {#TextParagraph--}
-```
-public TextParagraph()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -98,7 +87,7 @@ public int getAlignmentType()
 ```
 
 
-Gets and sets the text horizontal alignment type of the paragraph.
+the text horizontal alignment type of the paragraph.
 
 **Returns:**
 int
@@ -138,7 +127,7 @@ public double getDefaultTabSize()
 ```
 
 
-Gets and sets the default size for a tab character within this paragraph.
+the default size for a tab character within this paragraph.
 
 **Returns:**
 double
@@ -198,7 +187,7 @@ public double getLineSpace()
 ```
 
 
-Gets and sets the amount of vertical white space that will be used within a paragraph.
+the amount of vertical white space that will be used within a paragraph.
 
 **Returns:**
 double
@@ -208,7 +197,7 @@ public int getLineSpaceSizeType()
 ```
 
 
-Gets and sets the amount of vertical white space that will be used within a paragraph.
+the amount of vertical white space that will be used within a paragraph.
 
 **Returns:**
 int
@@ -228,7 +217,7 @@ public double getSpaceAfter()
 ```
 
 
-Gets and sets the amount of vertical white space that will be present after a paragraph.
+the amount of vertical white space that will be present after a paragraph.
 
 **Returns:**
 double
@@ -238,7 +227,7 @@ public int getSpaceAfterSizeType()
 ```
 
 
-Gets and sets the amount of vertical white space that will be present after a paragraph.
+the amount of vertical white space that will be present after a paragraph.
 
 **Returns:**
 int
@@ -248,7 +237,7 @@ public double getSpaceBefore()
 ```
 
 
-Gets and sets the amount of vertical white space that will be present before a paragraph.
+the amount of vertical white space that will be present before a paragraph.
 
 **Returns:**
 double
@@ -258,7 +247,7 @@ public int getSpaceBeforeSizeType()
 ```
 
 
-Gets and sets the amount of vertical white space that will be present before a paragraph.
+the amount of vertical white space that will be present before a paragraph.
 
 **Returns:**
 int

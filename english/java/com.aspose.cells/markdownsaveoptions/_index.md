@@ -28,10 +28,10 @@ Represents the save options for markdown.
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
-| [getEncoding()](#getEncoding--) | Gets and sets the default encoding. |
-| [getFormatStrategy()](#getFormatStrategy--) | Gets and sets the format strategy when exporting the cell value as string. |
+| [getEncoding()](#getEncoding--) | the default encoding. |
+| [getFormatStrategy()](#getFormatStrategy--) | the format strategy when exporting the cell value as string. |
 | [getLightCellsDataProvider()](#getLightCellsDataProvider--) | The Data provider to provide cells data for saving workbook in light mode. |
-| [getLineSeparator()](#getLineSeparator--) | Gets and sets the line separator. |
+| [getLineSeparator()](#getLineSeparator--) | the line separator. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
@@ -39,7 +39,7 @@ Represents the save options for markdown.
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
-| [getWarningCallback()](#getWarningCallback--) | Gets or sets warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | warning callback. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -130,7 +130,7 @@ public Encoding getEncoding()
 ```
 
 
-Gets and sets the default encoding.
+the default encoding.
 
 **Returns:**
 [Encoding](../../com.aspose.cells/encoding)
@@ -140,7 +140,7 @@ public int getFormatStrategy()
 ```
 
 
-Gets and sets the format strategy when exporting the cell value as string.
+the format strategy when exporting the cell value as string.
 
 **Returns:**
 int
@@ -160,7 +160,7 @@ public String getLineSeparator()
 ```
 
 
-Gets and sets the line separator.
+the line separator.
 
 **Returns:**
 java.lang.String
@@ -240,7 +240,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Gets or sets warning callback.
+warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)

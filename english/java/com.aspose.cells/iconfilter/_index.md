@@ -20,8 +20,8 @@ Represents icon filter.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getIconId()](#getIconId--) | Gets and sets Zero-based index of an icon in an icon set. |
-| [getIconSetType()](#getIconSetType--) | Gets and sets which icon set is used in the filter criteria. |
+| [getIconId()](#getIconId--) | Zero-based index of an icon in an icon set. |
+| [getIconSetType()](#getIconSetType--) | which icon set is used in the filter criteria. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -62,7 +62,7 @@ public int getIconId()
 ```
 
 
-Gets and sets Zero-based index of an icon in an icon set.
+Zero-based index of an icon in an icon set.
 
 **Returns:**
 int
@@ -72,7 +72,7 @@ public int getIconSetType()
 ```
 
 
-Gets and sets which icon set is used in the filter criteria.
+which icon set is used in the filter criteria.
 
 **Returns:**
 int

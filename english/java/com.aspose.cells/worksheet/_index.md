@@ -61,10 +61,10 @@ Workbook workbook = new Workbook();
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [freezePanes(int row, int column, int freezedRows, int freezedColumns)](#freezePanes-int-int-int-int-) | Freezes panes at the specified cell in the worksheet. |
 | [freezePanes(String cellName, int freezedRows, int freezedColumns)](#freezePanes-java.lang.String-int-int-) | Freezes panes at the specified cell in the worksheet. |
-| [getActiveCell()](#getActiveCell--) | Gets or sets the active cell in the worksheet. |
+| [getActiveCell()](#getActiveCell--) | the active cell in the worksheet. |
 | [getAllowEditRanges()](#getAllowEditRanges--) | Gets the allow edit range collection in the worksheet. |
 | [getAutoFilter()](#getAutoFilter--) | Represents auto filter for the specified worksheet. |
-| [getBackgroundImage()](#getBackgroundImage--) | Gets and sets worksheet background image. |
+| [getBackgroundImage()](#getBackgroundImage--) | worksheet background image. |
 | [getCellWatches()](#getCellWatches--) | Gets collection of cells on this worksheet being watched in the 'watch window'. |
 | [getCells()](#getCells--) | Gets the [Cells](../../com.aspose.cells/cells) collection. |
 | [getCharts()](#getCharts--) | Gets a [Chart](../../com.aspose.cells/chart) collection |
@@ -84,7 +84,7 @@ Workbook workbook = new Workbook();
 | [getHyperlinks()](#getHyperlinks--) | Gets the [HyperlinkCollection](../../com.aspose.cells/hyperlinkcollection) collection. |
 | [getIndex()](#getIndex--) | Gets the index of sheet in the worksheet collection. |
 | [getListObjects()](#getListObjects--) | Gets all ListObjects in this worksheet. |
-| [getName()](#getName--) | Gets or sets the name of the worksheet. |
+| [getName()](#getName--) | the name of the worksheet. |
 | [getOleObjects()](#getOleObjects--) | Represents a collection of [OleObject](../../com.aspose.cells/oleobject) in a worksheet. |
 | [getOutline()](#getOutline--) | Gets the outline on this worksheet. |
 | [getPageSetup()](#getPageSetup--) | Represents the page setup description in this sheet. |
@@ -110,20 +110,20 @@ Workbook workbook = new Workbook();
 | [getTransitionEntry()](#getTransitionEntry--) | Indicates whether the Transition Formula Entry (Lotus compatibility) option is enabled. |
 | [getTransitionEvaluation()](#getTransitionEvaluation--) | Indicates whether the Transition Formula Evaluation (Lotus compatibility) option is enabled. |
 | [getType()](#getType--) | Represents worksheet type. |
-| [getUniqueId()](#getUniqueId--) | Gets and sets the unique id, it is same as \{15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F\}. |
+| [getUniqueId()](#getUniqueId--) | the unique id, it is same as \{15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F\}. |
 | [getValidations()](#getValidations--) | Gets the data validation setting collection in the worksheet. |
 | [getVerticalPageBreaks()](#getVerticalPageBreaks--) | Gets the [VerticalPageBreakCollection](../../com.aspose.cells/verticalpagebreakcollection) collection. |
-| [getViewType()](#getViewType--) | Gets and sets the view type. |
+| [getViewType()](#getViewType--) | the view type. |
 | [getVisibilityType()](#getVisibilityType--) | Indicates the visible state for this sheet. |
 | [getWorkbook()](#getWorkbook--) | Gets the workbook object which contains this sheet. |
 | [getZoom()](#getZoom--) | Represents the scaling factor in percentage. |
 | [hasAutofilter()](#hasAutofilter--) | Indicates whether this worksheet has auto filter. |
 | [hashCode()](#hashCode--) |  |
-| [isGridlinesVisible()](#isGridlinesVisible--) | Gets or sets a value indicating whether the gridlines are visible.Default is true. |
+| [isGridlinesVisible()](#isGridlinesVisible--) | a value indicating whether the gridlines are visible.Default is true. |
 | [isOutlineShown()](#isOutlineShown--) | Indicates whether to show outline. |
 | [isPageBreakPreview()](#isPageBreakPreview--) | Indicates whether the specified worksheet is shown in normal view or page break preview. |
 | [isProtected()](#isProtected--) | Indicates if the worksheet is protected. |
-| [isRowColumnHeadersVisible()](#isRowColumnHeadersVisible--) | Gets or sets a value indicating whether the worksheet will display row and column headers. |
+| [isRowColumnHeadersVisible()](#isRowColumnHeadersVisible--) | a value indicating whether the worksheet will display row and column headers. |
 | [isRulerVisible()](#isRulerVisible--) | Indicates whether the ruler is visible. |
 | [isSelected()](#isSelected--) | Indicates whether this worksheet is selected when the workbook is opened. |
 | [isVisible()](#isVisible--) | Represents if the worksheet is visible. |
@@ -611,7 +611,7 @@ public String getActiveCell()
 ```
 
 
-Gets or sets the active cell in the worksheet.
+the active cell in the worksheet.
 
 **Returns:**
 java.lang.String
@@ -641,7 +641,7 @@ public byte[] getBackgroundImage()
 ```
 
 
-Gets and sets worksheet background image.
+worksheet background image.
 
 **Returns:**
 byte[]
@@ -841,7 +841,7 @@ public String getName()
 ```
 
 
-Gets or sets the name of the worksheet. The max length of sheet name is 31. And you cannot assign same name(case insensitive) to two worksheets. For example, you cannot set "SheetName1" to the first worksheet and set "SHEETNAME1" to the second worksheet.
+the name of the worksheet. The max length of sheet name is 31. And you cannot assign same name(case insensitive) to two worksheets. For example, you cannot set "SheetName1" to the first worksheet and set "SHEETNAME1" to the second worksheet.
 
 **Returns:**
 java.lang.String
@@ -1106,7 +1106,7 @@ public String getUniqueId()
 ```
 
 
-Gets and sets the unique id, it is same as \{15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F\}.
+the unique id, it is same as \{15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F\}.
 
 **Returns:**
 java.lang.String
@@ -1136,7 +1136,7 @@ public int getViewType()
 ```
 
 
-Gets and sets the view type.
+the view type.
 
 **Returns:**
 int
@@ -1196,7 +1196,7 @@ public boolean isGridlinesVisible()
 ```
 
 
-Gets or sets a value indicating whether the gridlines are visible.Default is true.
+a value indicating whether the gridlines are visible.Default is true.
 
 **Returns:**
 boolean
@@ -1236,7 +1236,7 @@ public boolean isRowColumnHeadersVisible()
 ```
 
 
-Gets or sets a value indicating whether the worksheet will display row and column headers. Default is true.
+a value indicating whether the worksheet will display row and column headers. Default is true.
 
 **Returns:**
 boolean

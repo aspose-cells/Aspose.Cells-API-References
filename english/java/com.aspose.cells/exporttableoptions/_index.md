@@ -24,7 +24,7 @@ Represents all export table options.
 | [getExportAsHtmlString()](#getExportAsHtmlString--) | Exports the html string value of the cells to the DataTable. |
 | [getExportAsString()](#getExportAsString--) | Exports the string value of the cells to the DataTable. |
 | [getExportColumnName()](#getExportColumnName--) | Indicates whether the data in the first row are exported to the column name of the DataTable. |
-| [getFormatStrategy()](#getFormatStrategy--) | Gets and sets the format strategy when exporting the value as string value. |
+| [getFormatStrategy()](#getFormatStrategy--) | the format strategy when exporting the value as string value. |
 | [getIndexes()](#getIndexes--) | The indexes of columns/rows which should be exported out. |
 | [getPlotVisibleCells()](#getPlotVisibleCells--) | Only exports visible cells. |
 | [getPlotVisibleColumns()](#getPlotVisibleColumns--) | Only exports visible columns. |
@@ -122,7 +122,7 @@ public int getFormatStrategy()
 ```
 
 
-Gets and sets the format strategy when exporting the value as string value.
+the format strategy when exporting the value as string value.
 
 **Returns:**
 int

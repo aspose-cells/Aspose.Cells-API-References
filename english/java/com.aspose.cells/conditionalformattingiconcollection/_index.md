@@ -85,11 +85,6 @@ Represents a collection of [ConditionalFormattingIcon](../../com.aspose.cells/co
          //Saving the Excel file
          workbook.save("output.xls");
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ConditionalFormattingIconCollection()](#ConditionalFormattingIconCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -113,12 +108,6 @@ Represents a collection of [ConditionalFormattingIcon](../../com.aspose.cells/co
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ConditionalFormattingIconCollection() {#ConditionalFormattingIconCollection--}
-```
-public ConditionalFormattingIconCollection()
-```
-
-
 ### add(ConditionalFormattingIcon cficon) {#add-com.aspose.cells.ConditionalFormattingIcon-}
 ```
 public int add(ConditionalFormattingIcon cficon)

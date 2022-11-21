@@ -16,11 +16,6 @@ public class BuiltInDocumentPropertyCollection extends DocumentPropertyCollectio
 A collection of built-in document properties.
 
 Provides access to  objects by their names (using an indexer) and via a set of typed properties that return values of appropriate types.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BuiltInDocumentPropertyCollection()](#BuiltInDocumentPropertyCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -32,40 +27,40 @@ Provides access to  objects by their names (using an indexer) and via a set of t
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Returns a [DocumentProperty](../../com.aspose.cells/documentproperty) object by index. |
 | [get(String name)](#get-java.lang.String-) | Returns a [DocumentProperty](../../com.aspose.cells/documentproperty) object by the name of the property. |
-| [getAuthor()](#getAuthor--) | Gets or sets the name of the document's author. |
+| [getAuthor()](#getAuthor--) | the name of the document's author. |
 | [getBytes()](#getBytes--) | Represents an estimate of the number of bytes in the document. |
-| [getCategory()](#getCategory--) | Gets or sets the category of the document. |
+| [getCategory()](#getCategory--) | the category of the document. |
 | [getCharacters()](#getCharacters--) | Represents an estimate of the number of characters in the document. |
 | [getCharactersWithSpaces()](#getCharactersWithSpaces--) | Represents an estimate of the number of characters (including spaces) in the document. |
 | [getClass()](#getClass--) |  |
-| [getComments()](#getComments--) | Gets or sets the document comments. |
-| [getCompany()](#getCompany--) | Gets or sets the company property. |
-| [getContentStatus()](#getContentStatus--) | Gets or sets the content status of the document. |
-| [getContentType()](#getContentType--) | Gets or sets the content type of the document. |
+| [getComments()](#getComments--) | the document comments. |
+| [getCompany()](#getCompany--) | the company property. |
+| [getContentStatus()](#getContentStatus--) | the content status of the document. |
+| [getContentType()](#getContentType--) | the content type of the document. |
 | [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
-| [getCreatedTime()](#getCreatedTime--) | Gets or sets date of the document creation in local timezone. |
-| [getCreatedUniversalTime()](#getCreatedUniversalTime--) | Gets or sets the Universal time of the document creation. |
+| [getCreatedTime()](#getCreatedTime--) | date of the document creation in local timezone. |
+| [getCreatedUniversalTime()](#getCreatedUniversalTime--) | the Universal time of the document creation. |
 | [getDocumentVersion()](#getDocumentVersion--) | Represents the version of the file. |
-| [getHyperlinkBase()](#getHyperlinkBase--) | Gets or sets the hyperlinkbase property. |
-| [getKeywords()](#getKeywords--) | Gets or sets the document keywords. |
-| [getLanguage()](#getLanguage--) | Gets or sets the document's language. |
-| [getLastPrinted()](#getLastPrinted--) | Gets or sets the date when the document was last printed in local timezone. |
-| [getLastPrintedUniversalTime()](#getLastPrintedUniversalTime--) | Gets or sets the Universal time when the document was last printed. |
-| [getLastSavedBy()](#getLastSavedBy--) | Gets or sets the name of the last author. |
-| [getLastSavedTime()](#getLastSavedTime--) | Gets or sets the time of the last save in local timezone. |
-| [getLastSavedUniversalTime()](#getLastSavedUniversalTime--) | Gets or sets the universal time of the last save. |
+| [getHyperlinkBase()](#getHyperlinkBase--) | the hyperlinkbase property. |
+| [getKeywords()](#getKeywords--) | the document keywords. |
+| [getLanguage()](#getLanguage--) | the document's language. |
+| [getLastPrinted()](#getLastPrinted--) | the date when the document was last printed in local timezone. |
+| [getLastPrintedUniversalTime()](#getLastPrintedUniversalTime--) | the Universal time when the document was last printed. |
+| [getLastSavedBy()](#getLastSavedBy--) | the name of the last author. |
+| [getLastSavedTime()](#getLastSavedTime--) | the time of the last save in local timezone. |
+| [getLastSavedUniversalTime()](#getLastSavedUniversalTime--) | the universal time of the last save. |
 | [getLines()](#getLines--) | Represents an estimate of the number of lines in the document. |
 | [getLinksUpToDate()](#getLinksUpToDate--) | Indicates whether hyperlinks in a document are up-to-date. |
-| [getManager()](#getManager--) | Gets or sets the manager property. |
-| [getNameOfApplication()](#getNameOfApplication--) | Gets or sets the name of the application. |
+| [getManager()](#getManager--) | the manager property. |
+| [getNameOfApplication()](#getNameOfApplication--) | the name of the application. |
 | [getPages()](#getPages--) | Represents an estimate of the number of pages in the document. |
 | [getParagraphs()](#getParagraphs--) | Represents an estimate of the number of paragraphs in the document. |
-| [getRevisionNumber()](#getRevisionNumber--) | Gets or sets the document revision number. |
+| [getRevisionNumber()](#getRevisionNumber--) | the document revision number. |
 | [getScaleCrop()](#getScaleCrop--) | Indicates the display mode of the document thumbnail. |
-| [getSubject()](#getSubject--) | Gets or sets the subject of the document. |
-| [getTemplate()](#getTemplate--) | Gets or sets the informational name of the document template. |
-| [getTitle()](#getTitle--) | Gets or sets the title of the document. |
-| [getTotalEditingTime()](#getTotalEditingTime--) | Gets or sets the total editing time in minutes. |
+| [getSubject()](#getSubject--) | the subject of the document. |
+| [getTemplate()](#getTemplate--) | the informational name of the document template. |
+| [getTitle()](#getTitle--) | the title of the document. |
+| [getTotalEditingTime()](#getTotalEditingTime--) | the total editing time in minutes. |
 | [getVersion()](#getVersion--) | Represents the version number of the application that created the document. |
 | [getWords()](#getWords--) | Represents an estimate of the number of words in the document. |
 | [hashCode()](#hashCode--) |  |
@@ -114,12 +109,6 @@ Provides access to  objects by their names (using an indexer) and via a set of t
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### BuiltInDocumentPropertyCollection() {#BuiltInDocumentPropertyCollection--}
-```
-public BuiltInDocumentPropertyCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)
@@ -230,7 +219,7 @@ public String getAuthor()
 ```
 
 
-Gets or sets the name of the document's author.
+the name of the document's author.
 
 **Returns:**
 java.lang.String
@@ -250,7 +239,7 @@ public String getCategory()
 ```
 
 
-Gets or sets the category of the document.
+the category of the document.
 
 **Returns:**
 java.lang.String
@@ -290,7 +279,7 @@ public String getComments()
 ```
 
 
-Gets or sets the document comments.
+the document comments.
 
 **Returns:**
 java.lang.String
@@ -300,7 +289,7 @@ public String getCompany()
 ```
 
 
-Gets or sets the company property.
+the company property.
 
 **Returns:**
 java.lang.String
@@ -310,7 +299,7 @@ public String getContentStatus()
 ```
 
 
-Gets or sets the content status of the document.
+the content status of the document.
 
 **Returns:**
 java.lang.String
@@ -320,7 +309,7 @@ public String getContentType()
 ```
 
 
-Gets or sets the content type of the document.
+the content type of the document.
 
 **Returns:**
 java.lang.String
@@ -340,7 +329,7 @@ public DateTime getCreatedTime()
 ```
 
 
-Gets or sets date of the document creation in local timezone.
+date of the document creation in local timezone.
 
 Aspose.Cells does not update this property when you modify the document.
 
@@ -352,7 +341,7 @@ public DateTime getCreatedUniversalTime()
 ```
 
 
-Gets or sets the Universal time of the document creation.
+the Universal time of the document creation.
 
 Aspose.Cells does not update this property when you modify the document.
 
@@ -374,7 +363,7 @@ public String getHyperlinkBase()
 ```
 
 
-Gets or sets the hyperlinkbase property.
+the hyperlinkbase property.
 
 **Returns:**
 java.lang.String
@@ -384,7 +373,7 @@ public String getKeywords()
 ```
 
 
-Gets or sets the document keywords.
+the document keywords.
 
 **Returns:**
 java.lang.String
@@ -394,7 +383,7 @@ public String getLanguage()
 ```
 
 
-Gets or sets the document's language.
+the document's language.
 
 **Returns:**
 java.lang.String
@@ -404,7 +393,7 @@ public DateTime getLastPrinted()
 ```
 
 
-Gets or sets the date when the document was last printed in local timezone.
+the date when the document was last printed in local timezone.
 
 If the document was never printed, this property will return DateTime.MinValue.
 
@@ -418,7 +407,7 @@ public DateTime getLastPrintedUniversalTime()
 ```
 
 
-Gets or sets the Universal time when the document was last printed.
+the Universal time when the document was last printed.
 
 **Returns:**
 [DateTime](../../com.aspose.cells/datetime)
@@ -428,7 +417,7 @@ public String getLastSavedBy()
 ```
 
 
-Gets or sets the name of the last author.
+the name of the last author.
 
 Aspose.Cells does not update this property when you modify the document.
 
@@ -440,7 +429,7 @@ public DateTime getLastSavedTime()
 ```
 
 
-Gets or sets the time of the last save in local timezone.
+the time of the last save in local timezone.
 
 Aspose.Cells does not update this property when you modify the document.
 
@@ -452,7 +441,7 @@ public DateTime getLastSavedUniversalTime()
 ```
 
 
-Gets or sets the universal time of the last save.
+the universal time of the last save.
 
 Aspose.Cells does not update this property when you modify the document.
 
@@ -486,7 +475,7 @@ public String getManager()
 ```
 
 
-Gets or sets the manager property.
+the manager property.
 
 **Returns:**
 java.lang.String
@@ -496,7 +485,7 @@ public String getNameOfApplication()
 ```
 
 
-Gets or sets the name of the application.
+the name of the application.
 
 **Returns:**
 java.lang.String
@@ -526,7 +515,7 @@ public String getRevisionNumber()
 ```
 
 
-Gets or sets the document revision number.
+the document revision number.
 
 Aspose.Cells does not update this property when you modify the document.
 
@@ -548,7 +537,7 @@ public String getSubject()
 ```
 
 
-Gets or sets the subject of the document.
+the subject of the document.
 
 **Returns:**
 java.lang.String
@@ -558,7 +547,7 @@ public String getTemplate()
 ```
 
 
-Gets or sets the informational name of the document template.
+the informational name of the document template.
 
 **Returns:**
 java.lang.String
@@ -568,7 +557,7 @@ public String getTitle()
 ```
 
 
-Gets or sets the title of the document.
+the title of the document.
 
 **Returns:**
 java.lang.String
@@ -578,7 +567,7 @@ public double getTotalEditingTime()
 ```
 
 
-Gets or sets the total editing time in minutes.
+the total editing time in minutes.
 
 **Returns:**
 double

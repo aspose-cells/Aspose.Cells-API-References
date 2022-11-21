@@ -14,11 +14,6 @@ public class DxfCollection extends CollectionBase
 ```
 
 Represents the master differential formatting records.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [DxfCollection()](#DxfCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -40,12 +35,6 @@ Represents the master differential formatting records.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### DxfCollection() {#DxfCollection--}
-```
-public DxfCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

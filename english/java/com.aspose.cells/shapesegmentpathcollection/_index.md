@@ -14,11 +14,6 @@ public class ShapeSegmentPathCollection extends CollectionBase
 ```
 
 Represents a creation path consisting of a series of moves, lines and curves that when combined will form a geometric shape.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ShapeSegmentPathCollection()](#ShapeSegmentPathCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -41,12 +36,6 @@ Represents a creation path consisting of a series of moves, lines and curves tha
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ShapeSegmentPathCollection() {#ShapeSegmentPathCollection--}
-```
-public ShapeSegmentPathCollection()
-```
-
-
 ### add(int type) {#add-int-}
 ```
 public int add(int type)

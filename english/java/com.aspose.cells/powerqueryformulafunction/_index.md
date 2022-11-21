@@ -14,20 +14,15 @@ public class PowerQueryFormulaFunction extends PowerQueryFormula
 ```
 
 Represents the function of power query.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PowerQueryFormulaFunction()](#PowerQueryFormulaFunction--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getF()](#getF--) | Gets and sets the definition of function. |
+| [getF()](#getF--) | the definition of function. |
 | [getFormulaDefinition()](#getFormulaDefinition--) | Gets the definition of the power query formula. |
-| [getName()](#getName--) | Gets and sets the name of the power query formula. |
+| [getName()](#getName--) | the name of the power query formula. |
 | [getPowerQueryFormulaItems()](#getPowerQueryFormulaItems--) | Gets all items of power query formula. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -38,12 +33,6 @@ Represents the function of power query.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### PowerQueryFormulaFunction() {#PowerQueryFormulaFunction--}
-```
-public PowerQueryFormulaFunction()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -75,7 +64,7 @@ public String getF()
 ```
 
 
-Gets and sets the definition of function.
+the definition of function.
 
 **Returns:**
 java.lang.String
@@ -95,7 +84,7 @@ public String getName()
 ```
 
 
-Gets and sets the name of the power query formula.
+the name of the power query formula.
 
 **Returns:**
 java.lang.String

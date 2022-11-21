@@ -14,11 +14,6 @@ public class SmartTagSetting extends CollectionBase
 ```
 
 Represents all [SmartTagCollection](../../com.aspose.cells/smarttagcollection) object in the worksheet.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SmartTagSetting()](#SmartTagSetting--) |  |
 ## Methods
 
 | Method | Description |
@@ -44,12 +39,6 @@ Represents all [SmartTagCollection](../../com.aspose.cells/smarttagcollection) o
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### SmartTagSetting() {#SmartTagSetting--}
-```
-public SmartTagSetting()
-```
-
-
 ### add(int row, int column) {#add-int-int-}
 ```
 public int add(int row, int column)

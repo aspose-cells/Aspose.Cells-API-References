@@ -57,7 +57,7 @@ Represents a single column in a worksheet.
 | [getGroupLevel()](#getGroupLevel--) | Gets the group level of the column. |
 | [getIndex()](#getIndex--) | Gets the index of this column. |
 | [getStyle()](#getStyle--) | Gets the style of this column. |
-| [getWidth()](#getWidth--) | Gets and sets the column width in unit of characters. |
+| [getWidth()](#getWidth--) | the column width in unit of characters. |
 | [hashCode()](#hashCode--) |  |
 | [isCollapsed()](#isCollapsed--) | whether the column is collapsed |
 | [isHidden()](#isHidden--) | Indicates whether the column is hidden. |
@@ -145,7 +145,7 @@ public double getWidth()
 ```
 
 
-Gets and sets the column width in unit of characters.
+the column width in unit of characters.
 
 **Returns:**
 double

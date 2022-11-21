@@ -36,11 +36,6 @@ Represents the smart art.
          //Save the excel file.
          book.save("exmaple.xlsx");
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SmartArtShape()](#SmartArtShape--) |  |
 ## Methods
 
 | Method | Description |
@@ -55,19 +50,19 @@ Represents the smart art.
 | [getActiveXControl()](#getActiveXControl--) | Gets the ActiveX control. |
 | [getActualLowerRightRow()](#getActualLowerRightRow--) | Get the actual bottom row. |
 | [getAlternativeText()](#getAlternativeText--) | Returns or sets the descriptive (alternative) text string of the [Shape](../../com.aspose.cells/shape) object. |
-| [getAnchorType()](#getAnchorType--) | Gets and set the shape anchor placeholder. |
-| [getAutoShapeType()](#getAutoShapeType--) | Gets and sets the auto shape type. |
+| [getAnchorType()](#getAnchorType--) | the shape anchor placeholder. |
+| [getAutoShapeType()](#getAutoShapeType--) | the auto shape type. |
 | [getBottom()](#getBottom--) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [getCharacters()](#getCharacters--) | Returns all Characters objects that represents a range of characters within the text . |
 | [getClass()](#getClass--) |  |
 | [getConnectionPoints()](#getConnectionPoints--) | Get the connection points |
 | [getControlData()](#getControlData--) | Gets the data of control. |
-| [getCreateId()](#getCreateId--) | Gets and sets create id for this shape. |
+| [getCreateId()](#getCreateId--) | create id for this shape. |
 | [getFill()](#getFill--) | Returns a [Area.getFillFormat()](../../com.aspose.cells/area\#getFillFormat--) object that contains fill formatting properties for the specified shape. |
 | [getFillFormat()](#getFillFormat--) | Returns a MsoFillFormat object that contains fill formatting properties for the specified shape. |
 | [getFont()](#getFont--) | Represents the font of shape. |
 | [getFormat()](#getFormat--) | Represents the setting of the shape's formatting. |
-| [getFormatPicture()](#getFormatPicture--) | Gets and sets the options of the picture format. |
+| [getFormatPicture()](#getFormatPicture--) | the options of the picture format. |
 | [getGeometry()](#getGeometry--) | Gets the geometry |
 | [getGlow()](#getGlow--) | Represents a [ShapeFormat.getGlowEffect()](../../com.aspose.cells/shapeformat\#getGlowEffect--) object that specifies glow effect for the chart element or shape. |
 | [getGroup()](#getGroup--) | Gets the group shape which contains this shape. |
@@ -77,66 +72,66 @@ Represents the smart art.
 | [getHeightInShape()](#getHeightInShape--) | Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.. |
 | [getHeightInch()](#getHeightInch--) | Represents the height of the shape, in unit of inches. |
 | [getHeightPt()](#getHeightPt--) | Represents the height of the shape, in unit of points. |
-| [getHeightScale()](#getHeightScale--) | Gets and sets the height scale,in unit of percent of the original picture height. |
-| [getHtmlText()](#getHtmlText--) | Gets and sets the html string which contains data and some formats in this textbox. |
+| [getHeightScale()](#getHeightScale--) | the height scale,in unit of percent of the original picture height. |
+| [getHtmlText()](#getHtmlText--) | the html string which contains data and some formats in this textbox. |
 | [getHyperlink()](#getHyperlink--) | Gets the hyperlink of the shape. |
 | [getId()](#getId--) | Gets the identifier of this shape. |
-| [getInputRange()](#getInputRange--) | Gets or sets the worksheet range used to fill the specified combo box. |
+| [getInputRange()](#getInputRange--) | the worksheet range used to fill the specified combo box. |
 | [getInputRange(boolean isR1C1, boolean isLocal)](#getInputRange-boolean-boolean-) | Gets the range used to fill the control. |
 | [getLeft()](#getLeft--) | Represents the horizontal offset of shape from its left column, in unit of pixels. |
 | [getLeftCM()](#getLeftCM--) | Represents the horizontal offset of shape from its left column, in unit of centimeters. |
 | [getLeftInChart()](#getLeftInChart--) | Represents the vertical offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape. |
 | [getLeftInShape()](#getLeftInShape--) | Represents the horizontal offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape. |
 | [getLeftInch()](#getLeftInch--) | Represents the horizontal offset of shape from its left column, in unit of inches. |
-| [getLeftToCorner()](#getLeftToCorner--) | Gets and sets the horizonal offset of shape from worksheet left border. |
+| [getLeftToCorner()](#getLeftToCorner--) | the horizonal offset of shape from worksheet left border. |
 | [getLine()](#getLine--) | Gets line style |
 | [getLineFormat()](#getLineFormat--) | Returns a MsoLineFormat object that contains line formatting properties for the specified shape. |
-| [getLinkedCell()](#getLinkedCell--) | Gets or sets the worksheet range linked to the control's value. |
+| [getLinkedCell()](#getLinkedCell--) | the worksheet range linked to the control's value. |
 | [getLinkedCell(boolean isR1C1, boolean isLocal)](#getLinkedCell-boolean-boolean-) | Gets the range linked to the control's value. |
 | [getLockedProperty(int type)](#getLockedProperty-int-) | Gets the value of locked property. |
-| [getLowerDeltaX()](#getLowerDeltaX--) | Gets or sets the shape's horizontal offset from its lower right corner column. |
-| [getLowerDeltaY()](#getLowerDeltaY--) | Gets or sets the shape's vertical offset from its lower right corner row. |
+| [getLowerDeltaX()](#getLowerDeltaX--) | the shape's horizontal offset from its lower right corner column. |
+| [getLowerDeltaY()](#getLowerDeltaY--) | the shape's vertical offset from its lower right corner row. |
 | [getLowerRightColumn()](#getLowerRightColumn--) | Represents lower right corner column index. |
 | [getLowerRightRow()](#getLowerRightRow--) | Represents lower right corner row index. |
-| [getMacroName()](#getMacroName--) | Gets and sets the name of macro. |
+| [getMacroName()](#getMacroName--) | the name of macro. |
 | [getMsoDrawingType()](#getMsoDrawingType--) | Gets mso drawing type. |
-| [getName()](#getName--) | Gets and sets the name of the shape. |
+| [getName()](#getName--) | the name of the shape. |
 | [getPaths()](#getPaths--) | Gets the paths of a custom geometric shape. |
 | [getPlacement()](#getPlacement--) | Represents the way the drawing object is attached to the cells below it. |
-| [getPositionX()](#getPositionX--) | Gets and sets the horizonal offset of shape from worksheet left border,in unit of pixels. |
-| [getPositionY()](#getPositionY--) | Gets and sets the vertical offset of shape from worksheet top border,in unit of pixels. |
+| [getPositionX()](#getPositionX--) | the horizonal offset of shape from worksheet left border,in unit of pixels. |
+| [getPositionY()](#getPositionY--) | the vertical offset of shape from worksheet top border,in unit of pixels. |
 | [getReflection()](#getReflection--) | Represents a [ReflectionEffect](../../com.aspose.cells/reflectioneffect) object that specifies reflection effect for the chart element or shape. |
 | [getRelativeToOriginalPictureSize()](#getRelativeToOriginalPictureSize--) | Indicates whether shape is relative to original picture size. |
 | [getResultOfSmartArt()](#getResultOfSmartArt--) | Converting smart art to grouped shapes. |
 | [getRight()](#getRight--) | Represents the width of the shape's horizontal offset from its lower right corner column, in unit of pixels. |
-| [getRotationAngle()](#getRotationAngle--) | Gets and sets the rotation of the shape. |
+| [getRotationAngle()](#getRotationAngle--) | the rotation of the shape. |
 | [getShadowEffect()](#getShadowEffect--) | Represents a [ShadowEffect](../../com.aspose.cells/shadoweffect) object that specifies shadow effect for the chart element or shape. |
-| [getSoftEdges()](#getSoftEdges--) | Gets and sets the radius of blur to apply to the edges, in unit of points. |
+| [getSoftEdges()](#getSoftEdges--) | the radius of blur to apply to the edges, in unit of points. |
 | [getSpid()](#getSpid--) | Specifies an optional string that an application can use to Identify the particular shape. |
 | [getSpt()](#getSpt--) | Specifies an optional number that an application can use to associate the particular shape with a defined shape type. |
 | [getText()](#getText--) | Represents the string in this TextBox object. |
-| [getTextBody()](#getTextBody--) | Gets and sets the setting of the shape's text. |
+| [getTextBody()](#getTextBody--) | the setting of the shape's text. |
 | [getTextDirection()](#getTextDirection--) | Gets/Sets the direction of the text flow for this object. |
 | [getTextEffect()](#getTextEffect--) | Returns a TextEffectFormat object that contains text-effect formatting properties for the specified shape. |
 | [getTextFrame()](#getTextFrame--) | Returns a TextFrame object that contains the alignment and anchoring properties for the specified shape. |
-| [getTextHorizontalAlignment()](#getTextHorizontalAlignment--) | Gets and sets the text horizontal alignment type of the shape. |
-| [getTextHorizontalOverflow()](#getTextHorizontalOverflow--) | Gets and sets the text horizontal overflow type of the shape which contains text. |
+| [getTextHorizontalAlignment()](#getTextHorizontalAlignment--) | the text horizontal alignment type of the shape. |
+| [getTextHorizontalOverflow()](#getTextHorizontalOverflow--) | the text horizontal overflow type of the shape which contains text. |
 | [getTextOptions()](#getTextOptions--) | Represents the text options of the shape. |
-| [getTextOrientationType()](#getTextOrientationType--) | Gets and sets the text orientation type of the shape. |
-| [getTextShapeType()](#getTextShapeType--) | Gets and sets the preset text shape type. |
-| [getTextVerticalAlignment()](#getTextVerticalAlignment--) | Gets and sets the text vertical alignment type of the shape. |
-| [getTextVerticalOverflow()](#getTextVerticalOverflow--) | Gets and sets the text vertical overflow type of the shape which contains text. |
-| [getThreeDFormat()](#getThreeDFormat--) | Gets and sets 3d format of the shape. |
+| [getTextOrientationType()](#getTextOrientationType--) | the text orientation type of the shape. |
+| [getTextShapeType()](#getTextShapeType--) | the preset text shape type. |
+| [getTextVerticalAlignment()](#getTextVerticalAlignment--) | the text vertical alignment type of the shape. |
+| [getTextVerticalOverflow()](#getTextVerticalOverflow--) | the text vertical overflow type of the shape which contains text. |
+| [getThreeDFormat()](#getThreeDFormat--) | 3d format of the shape. |
 | [getTitle()](#getTitle--) | Specifies the title (caption) of the current shape object. |
 | [getTop()](#getTop--) | Represents the vertical offset of shape from its top row, in unit of pixels. |
 | [getTopCM()](#getTopCM--) | Represents the vertical offset of shape from its top row, in unit of centimeters. |
 | [getTopInChart()](#getTopInChart--) | Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape. |
 | [getTopInShape()](#getTopInShape--) | Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape. |
 | [getTopInch()](#getTopInch--) | Represents the vertical offset of shape from its top row, in unit of inches. |
-| [getTopToCorner()](#getTopToCorner--) | Gets and sets the vertical offset of shape from worksheet top border, in unit of pixels. |
+| [getTopToCorner()](#getTopToCorner--) | the vertical offset of shape from worksheet top border, in unit of pixels. |
 | [getType()](#getType--) | Gets the auto shape type. |
-| [getUpperDeltaX()](#getUpperDeltaX--) | Gets or sets the shape's horizontal offset from its upper left corner column. |
-| [getUpperDeltaY()](#getUpperDeltaY--) | Gets or sets the shape's vertical offset from its upper left corner row. |
+| [getUpperDeltaX()](#getUpperDeltaX--) | the shape's horizontal offset from its upper left corner column. |
+| [getUpperDeltaY()](#getUpperDeltaY--) | the shape's vertical offset from its upper left corner row. |
 | [getUpperLeftColumn()](#getUpperLeftColumn--) | Represents upper left corner column index. |
 | [getUpperLeftRow()](#getUpperLeftRow--) | Represents upper left corner row index. |
 | [getWidth()](#getWidth--) | Represents the width of shape, in unit of pixels. |
@@ -145,17 +140,17 @@ Represents the smart art.
 | [getWidthInShape()](#getWidthInShape--) | Represents the width of the shape, in unit of 1/4000 of the parent shape. |
 | [getWidthInch()](#getWidthInch--) | Represents the width of the shape, in unit of inch. |
 | [getWidthPt()](#getWidthPt--) | Represents the width of the shape, in unit of point. |
-| [getWidthScale()](#getWidthScale--) | Gets and sets the width scale, in unit of percent of the original picture width. |
+| [getWidthScale()](#getWidthScale--) | the width scale, in unit of percent of the original picture width. |
 | [getWorksheet()](#getWorksheet--) | Gets the [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) object which contains this shape. |
-| [getX()](#getX--) | Gets and sets the horizontal offset of shape from worksheet left border,in unit of pixels. |
-| [getY()](#getY--) | Gets and sets the vertical offset of shape from worksheet top border,in unit of pixels. |
+| [getX()](#getX--) | the horizontal offset of shape from worksheet left border,in unit of pixels. |
+| [getY()](#getY--) | the vertical offset of shape from worksheet top border,in unit of pixels. |
 | [getZOrderPosition()](#getZOrderPosition--) | Returns the position of a shape in the z-order. |
-| [hasLine()](#hasLine--) | Gets and sets the line border of the shape is visible. |
+| [hasLine()](#hasLine--) | the line border of the shape is visible. |
 | [hashCode()](#hashCode--) |  |
 | [isEquation()](#isEquation--) | Indicates whether the shape only contains an equation. |
 | [isFilled()](#isFilled--) | Indicates whether the fill format is visible. |
-| [isFlippedHorizontally()](#isFlippedHorizontally--) | Gets and sets whether shape is horizontally flipped . |
-| [isFlippedVertically()](#isFlippedVertically--) | Gets and sets whether shape is vertically flipped . |
+| [isFlippedHorizontally()](#isFlippedHorizontally--) | whether shape is horizontally flipped . |
+| [isFlippedVertically()](#isFlippedVertically--) | whether shape is vertically flipped . |
 | [isGroup()](#isGroup--) | Indicates whether the shape is a group. |
 | [isHidden()](#isHidden--) | Indicates whether the object is visible. |
 | [isInGroup()](#isInGroup--) | Indicates whether the shape is grouped. |
@@ -165,7 +160,7 @@ Represents the smart art.
 | [isRichText()](#isRichText--) | Whether or not the text is rich text. |
 | [isSameSetting(Object obj)](#isSameSetting-java.lang.Object-) | Returns whether the shape is same. |
 | [isSmartArt()](#isSmartArt--) | Indicates whether the shape is smart art. |
-| [isTextWrapped()](#isTextWrapped--) | Gets and sets the text wrapped type of the shape which contains text. |
+| [isTextWrapped()](#isTextWrapped--) | the text wrapped type of the shape which contains text. |
 | [isWordArt()](#isWordArt--) | Indicates whether this shape is a word art. |
 | [moveToRange(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn)](#moveToRange-int-int-int-int-) | Moves the shape to a specified range. |
 | [notify()](#notify--) |  |
@@ -258,12 +253,6 @@ Represents the smart art.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### SmartArtShape() {#SmartArtShape--}
-```
-public SmartArtShape()
-```
-
-
 ### addHyperlink(String address) {#addHyperlink-java.lang.String-}
 ```
 public Hyperlink addHyperlink(String address)
@@ -432,7 +421,7 @@ public int getAnchorType()
 ```
 
 
-Gets and set the shape anchor placeholder.
+the shape anchor placeholder.
 
 ```
 if (shape.getAnchorType() == ShapeAnchorType.ONE_CELL_ANCHOR)
@@ -447,7 +436,7 @@ public int getAutoShapeType()
 ```
 
 
-Gets and sets the auto shape type.
+the auto shape type.
 
 ```
 if (shape.getAutoShapeType() == com.aspose.cells.AutoShapeType.UNKNOWN)
@@ -530,7 +519,7 @@ public UUID getCreateId()
 ```
 
 
-Gets and sets create id for this shape.
+create id for this shape.
 
 **Returns:**
 java.util.UUID
@@ -591,7 +580,7 @@ public MsoFormatPicture getFormatPicture()
 ```
 
 
-Gets and sets the options of the picture format.
+the options of the picture format.
 
 ```
 MsoFormatPicture msoFormatPicture = shape.getFormatPicture();
@@ -733,7 +722,7 @@ public int getHeightScale()
 ```
 
 
-Gets and sets the height scale,in unit of percent of the original picture height. If the shape is not picture ,the HeightScale property only returns 100;
+the height scale,in unit of percent of the original picture height. If the shape is not picture ,the HeightScale property only returns 100;
 
 ```
 if (shape.getHeightScale() == 3)
@@ -748,7 +737,7 @@ public String getHtmlText()
 ```
 
 
-Gets and sets the html string which contains data and some formats in this textbox.
+the html string which contains data and some formats in this textbox.
 
 ```
 String html = shape.getHtmlText();
@@ -794,7 +783,7 @@ public String getInputRange()
 ```
 
 
-Gets or sets the worksheet range used to fill the specified combo box.
+the worksheet range used to fill the specified combo box.
 
 ```
 if (shape.getInputRange().equals("$B$6:$B10"))
@@ -900,7 +889,7 @@ public int getLeftToCorner()
 ```
 
 
-Gets and sets the horizonal offset of shape from worksheet left border.
+the horizonal offset of shape from worksheet left border.
 
 ```
 if (shape.getLeftToCorner() == 3)
@@ -939,7 +928,7 @@ public String getLinkedCell()
 ```
 
 
-Gets or sets the worksheet range linked to the control's value.
+the worksheet range linked to the control's value.
 
 ```
 if (shape.getLinkedCell().equals("$B$6"))
@@ -996,7 +985,7 @@ public int getLowerDeltaX()
 ```
 
 
-Gets or sets the shape's horizontal offset from its lower right corner column. The range of value is 0 to 1024.
+the shape's horizontal offset from its lower right corner column. The range of value is 0 to 1024.
 
 ```
 if (shape.getLowerDeltaX() == 3)
@@ -1011,7 +1000,7 @@ public int getLowerDeltaY()
 ```
 
 
-Gets or sets the shape's vertical offset from its lower right corner row. The range of value is 0 to 256.
+the shape's vertical offset from its lower right corner row. The range of value is 0 to 256.
 
 ```
 if (shape.getLowerDeltaY() == 3)
@@ -1056,7 +1045,7 @@ public String getMacroName()
 ```
 
 
-Gets and sets the name of macro.
+the name of macro.
 
 ```
 //Sets the name of macro.
@@ -1085,7 +1074,7 @@ public String getName()
 ```
 
 
-Gets and sets the name of the shape.
+the name of the shape.
 
 ```
 shape.setName("shape1");
@@ -1130,7 +1119,7 @@ public int getPositionX()
 ```
 
 
-Gets and sets the horizonal offset of shape from worksheet left border,in unit of pixels. NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.X property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+the horizonal offset of shape from worksheet left border,in unit of pixels. NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.X property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -1140,7 +1129,7 @@ public int getPositionY()
 ```
 
 
-Gets and sets the vertical offset of shape from worksheet top border,in unit of pixels. NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.Y property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+the vertical offset of shape from worksheet top border,in unit of pixels. NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.Y property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -1212,7 +1201,7 @@ public double getRotationAngle()
 ```
 
 
-Gets and sets the rotation of the shape.
+the rotation of the shape.
 
 ```
 if(shape.getRotationAngle() == 45)
@@ -1241,7 +1230,7 @@ public double getSoftEdges()
 ```
 
 
-Gets and sets the radius of blur to apply to the edges, in unit of points.
+the radius of blur to apply to the edges, in unit of points.
 
 ```
 shape.setSoftEdges(0.5d);
@@ -1298,7 +1287,7 @@ public FontSettingCollection getTextBody()
 ```
 
 
-Gets and sets the setting of the shape's text.
+the setting of the shape's text.
 
 ```
 FontSettingCollection fontSettingCollection = shape.getTextBody();
@@ -1352,7 +1341,7 @@ public int getTextHorizontalAlignment()
 ```
 
 
-Gets and sets the text horizontal alignment type of the shape.
+the text horizontal alignment type of the shape.
 
 ```
 if (shape.getTextHorizontalAlignment() == com.aspose.cells.TextAlignmentType.BOTTOM)
@@ -1367,7 +1356,7 @@ public int getTextHorizontalOverflow()
 ```
 
 
-Gets and sets the text horizontal overflow type of the shape which contains text.
+the text horizontal overflow type of the shape which contains text.
 
 ```
 if (shape.getTextHorizontalOverflow() == com.aspose.cells.TextOverflowType.CLIP)
@@ -1398,7 +1387,7 @@ public int getTextOrientationType()
 ```
 
 
-Gets and sets the text orientation type of the shape.
+the text orientation type of the shape.
 
 ```
 if (shape.getTextOrientationType() == com.aspose.cells.TextOrientationType.NO_ROTATION)
@@ -1413,7 +1402,7 @@ public int getTextShapeType()
 ```
 
 
-Gets and sets the preset text shape type.
+the preset text shape type.
 
 ```
 if (shape.getTextShapeType() == com.aspose.cells.AutoShapeType.UNKNOWN)
@@ -1428,7 +1417,7 @@ public int getTextVerticalAlignment()
 ```
 
 
-Gets and sets the text vertical alignment type of the shape.
+the text vertical alignment type of the shape.
 
 ```
 if (shape.getTextVerticalAlignment() == com.aspose.cells.TextAlignmentType.BOTTOM)
@@ -1443,7 +1432,7 @@ public int getTextVerticalOverflow()
 ```
 
 
-Gets and sets the text vertical overflow type of the shape which contains text.
+the text vertical overflow type of the shape which contains text.
 
 ```
 if (shape.getTextVerticalOverflow() == com.aspose.cells.TextOverflowType.CLIP)
@@ -1458,7 +1447,7 @@ public ThreeDFormat getThreeDFormat()
 ```
 
 
-Gets and sets 3d format of the shape.
+3d format of the shape.
 
 ```
 ThreeDFormat threeDFormat = shape.getThreeDFormat();
@@ -1556,7 +1545,7 @@ public int getTopToCorner()
 ```
 
 
-Gets and sets the vertical offset of shape from worksheet top border, in unit of pixels.
+the vertical offset of shape from worksheet top border, in unit of pixels.
 
 ```
 if (shape.getTopToCorner() == 3)
@@ -1585,7 +1574,7 @@ public int getUpperDeltaX()
 ```
 
 
-Gets or sets the shape's horizontal offset from its upper left corner column. The range of value is 0 to 1024.
+the shape's horizontal offset from its upper left corner column. The range of value is 0 to 1024.
 
 ```
 if (shape.getUpperDeltaX() == 3)
@@ -1600,7 +1589,7 @@ public int getUpperDeltaY()
 ```
 
 
-Gets or sets the shape's vertical offset from its upper left corner row. The range of value is 0 to 256.
+the shape's vertical offset from its upper left corner row. The range of value is 0 to 256.
 
 ```
 if (shape.getUpperDeltaY() == 3)
@@ -1730,7 +1719,7 @@ public int getWidthScale()
 ```
 
 
-Gets and sets the width scale, in unit of percent of the original picture width. If the shape is not picture ,the WidthScale property only returns 100;
+the width scale, in unit of percent of the original picture width. If the shape is not picture ,the WidthScale property only returns 100;
 
 ```
 if (shape.getWidthScale() == 3)
@@ -1759,7 +1748,7 @@ public int getX()
 ```
 
 
-Gets and sets the horizontal offset of shape from worksheet left border,in unit of pixels.
+the horizontal offset of shape from worksheet left border,in unit of pixels.
 
 ```
 if (shape.getX() == 3)
@@ -1774,7 +1763,7 @@ public int getY()
 ```
 
 
-Gets and sets the vertical offset of shape from worksheet top border,in unit of pixels.
+the vertical offset of shape from worksheet top border,in unit of pixels.
 
 ```
 if (shape.getY() == 3)
@@ -1803,7 +1792,7 @@ public boolean hasLine()
 ```
 
 
-Gets and sets the line border of the shape is visible.
+the line border of the shape is visible.
 
 ```
 if(shape.hasLine() == false)
@@ -1861,7 +1850,7 @@ public boolean isFlippedHorizontally()
 ```
 
 
-Gets and sets whether shape is horizontally flipped .
+whether shape is horizontally flipped .
 
 ```
 if(shape.isFlippedHorizontally() == false)
@@ -1876,7 +1865,7 @@ public boolean isFlippedVertically()
 ```
 
 
-Gets and sets whether shape is vertically flipped .
+whether shape is vertically flipped .
 
 ```
 if(shape.isFlippedVertically() == false)
@@ -2029,7 +2018,7 @@ public boolean isTextWrapped()
 ```
 
 
-Gets and sets the text wrapped type of the shape which contains text.
+the text wrapped type of the shape which contains text.
 
 ```
 if (shape.isTextWrapped())

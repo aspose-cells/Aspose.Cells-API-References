@@ -14,46 +14,41 @@ public class TextOptions extends Font
 ```
 
 Represents the text options.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TextOptions()](#TextOptions--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Font font)](#equals-com.aspose.cells.Font-) | Checks if two fonts are equals. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getArgbColor()](#getArgbColor--) | Gets and sets the color with a 32-bit ARGB value. |
-| [getCapsType()](#getCapsType--) | Gets and sets the text caps type. |
+| [getArgbColor()](#getArgbColor--) | the color with a 32-bit ARGB value. |
+| [getCapsType()](#getCapsType--) | the text caps type. |
 | [getCharset()](#getCharset--) | Represent the character set. |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | Gets or sets the [Color](../../com.aspose.cells/color) of the font. |
-| [getDoubleSize()](#getDoubleSize--) | Gets and sets the double size of the font. |
-| [getFarEastName()](#getFarEastName--) | Gets and sets the FarEast name. |
+| [getColor()](#getColor--) | the [Color](../../com.aspose.cells/color) of the font. |
+| [getDoubleSize()](#getDoubleSize--) | the double size of the font. |
+| [getFarEastName()](#getFarEastName--) | the FarEast name. |
 | [getFill()](#getFill--) | Represents the fill format of the text. |
 | [getKerning()](#getKerning--) | Specifies the minimum font size at which character kerning will occur for this text run. |
-| [getLanguageCode()](#getLanguageCode--) | Gets and sets the user interface language. |
-| [getLatinName()](#getLatinName--) | Gets and sets the latin name. |
-| [getName()](#getName--) | Gets and sets the name of the shape. |
+| [getLanguageCode()](#getLanguageCode--) | the user interface language. |
+| [getLatinName()](#getLatinName--) | the latin name. |
+| [getName()](#getName--) | the name of the shape. |
 | [getOutline()](#getOutline--) | Represents the outline format of the text. |
-| [getSchemeType()](#getSchemeType--) | Gets and sets the scheme type of the font. |
-| [getScriptOffset()](#getScriptOffset--) | Gets and sets the script offset,in unit of percentage |
+| [getSchemeType()](#getSchemeType--) | the scheme type of the font. |
+| [getScriptOffset()](#getScriptOffset--) | the script offset,in unit of percentage |
 | [getShadow()](#getShadow--) | Represents a [ShadowEffect](../../com.aspose.cells/shadoweffect) object that specifies shadow effect for the chart element or shape. |
-| [getSize()](#getSize--) | Gets or sets the size of the font. |
+| [getSize()](#getSize--) | the size of the font. |
 | [getSpacing()](#getSpacing--) | Specifies the spacing between characters within a text run. |
 | [getStrikeType()](#getStrikeType--) | Gets the strike type of the text. |
-| [getThemeColor()](#getThemeColor--) | Gets and sets the theme color. |
-| [getUnderline()](#getUnderline--) | Gets or sets the font underline type. |
-| [getUnderlineColor()](#getUnderlineColor--) | Gets or sets the color of underline. |
+| [getThemeColor()](#getThemeColor--) | the theme color. |
+| [getUnderline()](#getUnderline--) | the font underline type. |
+| [getUnderlineColor()](#getUnderlineColor--) | the color of underline. |
 | [hashCode()](#hashCode--) |  |
-| [isBold()](#isBold--) | Gets or sets a value indicating whether the font is bold. |
-| [isItalic()](#isItalic--) | Gets or sets a value indicating whether the font is italic. |
+| [isBold()](#isBold--) | a value indicating whether the font is bold. |
+| [isItalic()](#isItalic--) | a value indicating whether the font is italic. |
 | [isNormalizeHeights()](#isNormalizeHeights--) | Indicates whether the normalization of height that is to be applied to the text run. |
-| [isStrikeout()](#isStrikeout--) | Gets or sets a value indicating whether the font is single strikeout. |
-| [isSubscript()](#isSubscript--) | Gets or sets a value indicating whether the font is subscript. |
-| [isSuperscript()](#isSuperscript--) | Gets or sets a value indicating whether the font is super script. |
+| [isStrikeout()](#isStrikeout--) | a value indicating whether the font is single strikeout. |
+| [isSubscript()](#isSubscript--) | a value indicating whether the font is subscript. |
+| [isSuperscript()](#isSuperscript--) | a value indicating whether the font is super script. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setArgbColor(int value)](#setArgbColor-int-) | For the description of this property, please see [getArgbColor()](../../com.aspose.cells/font\#getArgbColor--) |
@@ -84,12 +79,6 @@ Represents the text options.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### TextOptions() {#TextOptions--}
-```
-public TextOptions()
-```
-
-
 ### equals(Font font) {#equals-com.aspose.cells.Font-}
 ```
 public boolean equals(Font font)
@@ -126,7 +115,7 @@ public int getArgbColor()
 ```
 
 
-Gets and sets the color with a 32-bit ARGB value.
+the color with a 32-bit ARGB value.
 
 **Returns:**
 int
@@ -136,7 +125,7 @@ public int getCapsType()
 ```
 
 
-Gets and sets the text caps type.
+the text caps type.
 
 **Returns:**
 int
@@ -166,7 +155,7 @@ public Color getColor()
 ```
 
 
-Gets or sets the [Color](../../com.aspose.cells/color) of the font.
+the [Color](../../com.aspose.cells/color) of the font.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -176,7 +165,7 @@ public double getDoubleSize()
 ```
 
 
-Gets and sets the double size of the font.
+the double size of the font.
 
 **Returns:**
 double
@@ -186,7 +175,7 @@ public String getFarEastName()
 ```
 
 
-Gets and sets the FarEast name.
+the FarEast name.
 
 **Returns:**
 java.lang.String
@@ -216,7 +205,7 @@ public int getLanguageCode()
 ```
 
 
-Gets and sets the user interface language.
+the user interface language.
 
 **Returns:**
 int
@@ -226,7 +215,7 @@ public String getLatinName()
 ```
 
 
-Gets and sets the latin name.
+the latin name.
 
 **Returns:**
 java.lang.String
@@ -236,7 +225,7 @@ public String getName()
 ```
 
 
-Gets and sets the name of the shape.
+the name of the shape.
 
 **Returns:**
 java.lang.String
@@ -256,7 +245,7 @@ public int getSchemeType()
 ```
 
 
-Gets and sets the scheme type of the font.
+the scheme type of the font.
 
 **Returns:**
 int
@@ -266,7 +255,7 @@ public double getScriptOffset()
 ```
 
 
-Gets and sets the script offset,in unit of percentage
+the script offset,in unit of percentage
 
 **Returns:**
 double
@@ -286,7 +275,7 @@ public int getSize()
 ```
 
 
-Gets or sets the size of the font.
+the size of the font.
 
 **Returns:**
 int
@@ -316,7 +305,7 @@ public ThemeColor getThemeColor()
 ```
 
 
-Gets and sets the theme color. If the font color is not a theme color, NULL will be returned.
+the theme color. If the font color is not a theme color, NULL will be returned.
 
 **Returns:**
 [ThemeColor](../../com.aspose.cells/themecolor)
@@ -326,7 +315,7 @@ public int getUnderline()
 ```
 
 
-Gets or sets the font underline type.
+the font underline type.
 
 **Returns:**
 int
@@ -336,7 +325,7 @@ public CellsColor getUnderlineColor()
 ```
 
 
-Gets or sets the color of underline.
+the color of underline.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -356,7 +345,7 @@ public boolean isBold()
 ```
 
 
-Gets or sets a value indicating whether the font is bold.
+a value indicating whether the font is bold.
 
 **Returns:**
 boolean
@@ -366,7 +355,7 @@ public boolean isItalic()
 ```
 
 
-Gets or sets a value indicating whether the font is italic.
+a value indicating whether the font is italic.
 
 **Returns:**
 boolean
@@ -386,7 +375,7 @@ public boolean isStrikeout()
 ```
 
 
-Gets or sets a value indicating whether the font is single strikeout.
+a value indicating whether the font is single strikeout.
 
 **Returns:**
 boolean
@@ -396,7 +385,7 @@ public boolean isSubscript()
 ```
 
 
-Gets or sets a value indicating whether the font is subscript.
+a value indicating whether the font is subscript.
 
 **Returns:**
 boolean
@@ -406,7 +395,7 @@ public boolean isSuperscript()
 ```
 
 
-Gets or sets a value indicating whether the font is super script.
+a value indicating whether the font is super script.
 
 **Returns:**
 boolean

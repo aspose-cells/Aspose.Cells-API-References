@@ -37,7 +37,7 @@ Represents a custom or built-in document property.
 | [getName()](#getName--) | Returns the name of the property. |
 | [getSource()](#getSource--) | The linked content source. |
 | [getType()](#getType--) | Gets the data type of the property. |
-| [getValue()](#getValue--) | Gets or sets the value of the property. |
+| [getValue()](#getValue--) | the value of the property. |
 | [hashCode()](#hashCode--) |  |
 | [isGeneratedName()](#isGeneratedName--) | Returns true if this property does not have a name in the OLE2 storage and a unique name was generated only for the public API. |
 | [isLinkedToContent()](#isLinkedToContent--) | Indicates whether this property is linked to content |
@@ -113,7 +113,7 @@ public Object getValue()
 ```
 
 
-Gets or sets the value of the property.
+the value of the property.
 
 **Returns:**
 java.lang.Object

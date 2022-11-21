@@ -46,10 +46,10 @@ Workbook workbook = new Workbook();
 | [getClass()](#getClass--) |  |
 | [getCustomCalculatedFormula(boolean isR1C1, boolean isLocal)](#getCustomCalculatedFormula-boolean-boolean-) | Gets the formula of this list column. |
 | [getCustomTotalsRowFormula(boolean isR1C1, boolean isLocal)](#getCustomTotalsRowFormula-boolean-boolean-) | Gets the formula of totals row of this list column. |
-| [getFormula()](#getFormula--) | Gets and sets the formula of the list column. |
-| [getName()](#getName--) | Gets and sets the name of the column. |
+| [getFormula()](#getFormula--) | the formula of the list column. |
+| [getName()](#getName--) | the name of the column. |
 | [getRange()](#getRange--) | Gets the range of this list column. |
-| [getTotalsCalculation()](#getTotalsCalculation--) | Gets and sets the type of calculation in the Totals row of the list column. |
+| [getTotalsCalculation()](#getTotalsCalculation--) | the type of calculation in the Totals row of the list column. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -125,7 +125,7 @@ public String getFormula()
 ```
 
 
-Gets and sets the formula of the list column.
+the formula of the list column.
 
 **Returns:**
 java.lang.String
@@ -135,7 +135,7 @@ public String getName()
 ```
 
 
-Gets and sets the name of the column. If sets the name of the column, the according cell' value will be changed too.
+the name of the column. If sets the name of the column, the according cell' value will be changed too.
 
 **Returns:**
 java.lang.String
@@ -155,7 +155,7 @@ public int getTotalsCalculation()
 ```
 
 
-Gets and sets the type of calculation in the Totals row of the list column.
+the type of calculation in the Totals row of the list column.
 
 **Returns:**
 int

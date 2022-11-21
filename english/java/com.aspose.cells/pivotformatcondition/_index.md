@@ -90,8 +90,8 @@ Workbook book = new Workbook();
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getFormatConditions()](#getFormatConditions--) | Get formatconditions for the pivot table condition format . |
-| [getRuleType()](#getRuleType--) | Get and set rule type for the pivot table condition format . |
-| [getScopeType()](#getScopeType--) | Get and set scope type for the pivot table condition format . |
+| [getRuleType()](#getRuleType--) | rule type for the pivot table condition format . |
+| [getScopeType()](#getScopeType--) | scope type for the pivot table condition format . |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -221,7 +221,7 @@ public int getRuleType()
 ```
 
 
-Get and set rule type for the pivot table condition format .
+rule type for the pivot table condition format .
 
 **Returns:**
 int
@@ -231,7 +231,7 @@ public int getScopeType()
 ```
 
 
-Get and set scope type for the pivot table condition format .
+scope type for the pivot table condition format .
 
 **Returns:**
 int

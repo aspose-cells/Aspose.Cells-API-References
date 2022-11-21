@@ -14,11 +14,6 @@ public class CustomPropertyCollection extends CollectionBase
 ```
 
 A collection of [CustomProperty](../../com.aspose.cells/customproperty) objects that represent additional information.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [CustomPropertyCollection()](#CustomPropertyCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -42,12 +37,6 @@ A collection of [CustomProperty](../../com.aspose.cells/customproperty) objects 
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### CustomPropertyCollection() {#CustomPropertyCollection--}
-```
-public CustomPropertyCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

@@ -20,8 +20,8 @@ Represents the border of the data bars specified by a conditional formatting rul
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | Gets or sets the border's color of data bars specified by a conditional formatting rule. |
-| [getType()](#getType--) | Gets or sets the border's type of data bars specified by a conditional formatting rule. |
+| [getColor()](#getColor--) | the border's color of data bars specified by a conditional formatting rule. |
+| [getType()](#getType--) | the border's type of data bars specified by a conditional formatting rule. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -62,7 +62,7 @@ public Color getColor()
 ```
 
 
-Gets or sets the border's color of data bars specified by a conditional formatting rule.
+the border's color of data bars specified by a conditional formatting rule.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -72,7 +72,7 @@ public int getType()
 ```
 
 
-Gets or sets the border's type of data bars specified by a conditional formatting rule.
+the border's type of data bars specified by a conditional formatting rule.
 
 **Returns:**
 int

@@ -28,7 +28,7 @@ Workbook workbook = new Workbook();
 | --- | --- |
 | [dispose()](#dispose--) | Releases resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAuthor()](#getAuthor--) | Gets and sets the author of the file. |
+| [getAuthor()](#getAuthor--) | the author of the file. |
 | [getAutoCompressPictures()](#getAutoCompressPictures--) | Specifies a boolean value that indicates the application automatically compressed pictures in the workbook. |
 | [getAutoRecover()](#getAutoRecover--) | Indicates whether the file is mark for auto-recovery. |
 | [getBuildVersion()](#getBuildVersion--) | Specifies the incremental public release of the application. |
@@ -43,26 +43,26 @@ Workbook workbook = new Workbook();
 | [getCrashSave()](#getCrashSave--) | indicates whether the application last saved the workbook file after a crash. |
 | [getCreateCalcChain()](#getCreateCalcChain--) | Whether creates calculated formulas chain. |
 | [getDataExtractLoad()](#getDataExtractLoad--) | indicates whether the application last opened the workbook for data recovery. |
-| [getDate1904()](#getDate1904--) | Gets or sets a value which represents if the workbook uses the 1904 date system. |
+| [getDate1904()](#getDate1904--) | a value which represents if the workbook uses the 1904 date system. |
 | [getDisplayDrawingObjects()](#getDisplayDrawingObjects--) | Indicates whether and how to show objects in the workbook. |
 | [getEnableMacros()](#getEnableMacros--) | Enable macros; Now it only works when copying a worksheet to other worksheet in a workbook. |
-| [getFirstVisibleTab()](#getFirstVisibleTab--) | Gets or sets the first visible worksheet tab. |
+| [getFirstVisibleTab()](#getFirstVisibleTab--) | the first visible worksheet tab. |
 | [getForceFullCalculate()](#getForceFullCalculate--) | Fully calculates every time when a calculation is triggered. |
 | [getFormulaSettings()](#getFormulaSettings--) | Gets the settings for formula-related features. |
-| [getGlobalizationSettings()](#getGlobalizationSettings--) | Gets and sets the globalization settings. |
-| [getHidePivotFieldList()](#getHidePivotFieldList--) | Gets and sets whether hide the field list for the PivotTable. |
+| [getGlobalizationSettings()](#getGlobalizationSettings--) | the globalization settings. |
+| [getHidePivotFieldList()](#getHidePivotFieldList--) | whether hide the field list for the PivotTable. |
 | [getIteration()](#getIteration--) | Indicates whether enable iterative calculation to resolve circular references. |
-| [getLanguageCode()](#getLanguageCode--) | Gets or sets the user interface language of the Workbook version based on CountryCode that has saved the file. |
-| [getLocale()](#getLocale--) | Gets or sets the Locale used by this workbook. |
+| [getLanguageCode()](#getLanguageCode--) | the user interface language of the Workbook version based on CountryCode that has saved the file. |
+| [getLocale()](#getLocale--) | the Locale used by this workbook. |
 | [getMaxChange()](#getMaxChange--) | Returns or sets the maximum number of change to resolve a circular reference. |
 | [getMaxColumn()](#getMaxColumn--) | Gets the max column index, zero-based. |
 | [getMaxIteration()](#getMaxIteration--) | Returns or sets the maximum number of iterations to resolve a circular reference. |
 | [getMaxRow()](#getMaxRow--) | Gets the max row index, zero-based. |
-| [getMaxRowsOfSharedFormula()](#getMaxRowsOfSharedFormula--) | Gets and sets the max row number of shared formula. |
-| [getMemorySetting()](#getMemorySetting--) | Gets or sets the memory usage options. |
-| [getNumberDecimalSeparator()](#getNumberDecimalSeparator--) | Gets or sets the decimal separator for formatting/parsing numeric values. |
-| [getNumberGroupSeparator()](#getNumberGroupSeparator--) | Gets or sets the character that separates groups of digits to the left of the decimal in numeric values. |
-| [getPaperSize()](#getPaperSize--) | Gets and sets the default print paper size. |
+| [getMaxRowsOfSharedFormula()](#getMaxRowsOfSharedFormula--) | the max row number of shared formula. |
+| [getMemorySetting()](#getMemorySetting--) | the memory usage options. |
+| [getNumberDecimalSeparator()](#getNumberDecimalSeparator--) | the decimal separator for formatting/parsing numeric values. |
+| [getNumberGroupSeparator()](#getNumberGroupSeparator--) | the character that separates groups of digits to the left of the decimal in numeric values. |
+| [getPaperSize()](#getPaperSize--) | the default print paper size. |
 | [getParsingFormulaOnOpen()](#getParsingFormulaOnOpen--) | Indicates whether parsing the formula when reading the file. |
 | [getPassword()](#getPassword--) | Represents Workbook file encryption password. |
 | [getPrecisionAsDisplayed()](#getPrecisionAsDisplayed--) | True if calculations in this workbook will be done using only the precision of the numbers as they're displayed NOTE: This member is now obsolete. |
@@ -70,19 +70,19 @@ Workbook workbook = new Workbook();
 | [getQuotePrefixToStyle()](#getQuotePrefixToStyle--) | Indicates whether setting [Style.getQuotePrefix()](../../com.aspose.cells/style\#getQuotePrefix--) property when entering the string value(which starts with single quote mark ) to the cell |
 | [getReCalculateOnOpen()](#getReCalculateOnOpen--) | Indicates whether re-calculate all formulas on opening file. |
 | [getRecalculateBeforeSave()](#getRecalculateBeforeSave--) | Indicates whether to recalculate before saving the document. |
-| [getRegion()](#getRegion--) | Gets or sets the regional settings for workbook. 1. |
+| [getRegion()](#getRegion--) | the regional settings for workbook. 1. |
 | [getRemovePersonalInformation()](#getRemovePersonalInformation--) | True if personal information can be removed from the specified workbook. |
 | [getRepairLoad()](#getRepairLoad--) | Indicates whether the application last opened the workbook in safe or repair mode. |
-| [getResourceProvider()](#getResourceProvider--) | Gets and sets the stream provider for external resource, such as loading image data for picture of type "LinkToFile". |
-| [getShared()](#getShared--) | Gets or sets a value that indicates whether the Workbook is shared. |
+| [getResourceProvider()](#getResourceProvider--) | the stream provider for external resource, such as loading image data for picture of type "LinkToFile". |
+| [getShared()](#getShared--) | a value that indicates whether the Workbook is shared. |
 | [getSheetTabBarWidth()](#getSheetTabBarWidth--) | Width of worksheet tab bar (in 1/1000 of window width). |
-| [getShowTabs()](#getShowTabs--) | Get or sets a value whether the Workbook tabs are displayed. |
-| [getSignificantDigits()](#getSignificantDigits--) | Gets and sets the number of significant digits. |
-| [getStreamProvider()](#getStreamProvider--) | Gets and sets the stream provider for external resource. |
+| [getShowTabs()](#getShowTabs--) | a value whether the Workbook tabs are displayed. |
+| [getSignificantDigits()](#getSignificantDigits--) | the number of significant digits. |
+| [getStreamProvider()](#getStreamProvider--) | the stream provider for external resource. |
 | [getThemeFont(int type)](#getThemeFont-int-) | Gets the default theme font name. |
 | [getUpdateAdjacentCellsBorder()](#getUpdateAdjacentCellsBorder--) | Indicates whether update adjacent cells' border. |
-| [getUpdateLinksType()](#getUpdateLinksType--) | Gets and sets how updates external links when the workbook is opened. |
-| [getWarningCallback()](#getWarningCallback--) | Gets or sets warning callback. |
+| [getUpdateLinksType()](#getUpdateLinksType--) | how updates external links when the workbook is opened. |
+| [getWarningCallback()](#getWarningCallback--) | warning callback. |
 | [getWindowHeight()](#getWindowHeight--) | The height of the window, in unit of point. |
 | [getWindowHeightCM()](#getWindowHeightCM--) | The height of the window, in unit of centimeter. |
 | [getWindowHeightInch()](#getWindowHeightInch--) | The height of the window, in unit of inch. |
@@ -99,11 +99,11 @@ Workbook workbook = new Workbook();
 | [hashCode()](#hashCode--) |  |
 | [isDefaultEncrypted()](#isDefaultEncrypted--) | Indicates whether encrypting the workbook with default password if Structure and Windows of the workbook are locked. |
 | [isEncrypted()](#isEncrypted--) | Gets a value that indicates whether a password is required to open this workbook. |
-| [isHScrollBarVisible()](#isHScrollBarVisible--) | Gets or sets a value indicating whether the generated spreadsheet will contain a horizontal scroll bar. |
+| [isHScrollBarVisible()](#isHScrollBarVisible--) | a value indicating whether the generated spreadsheet will contain a horizontal scroll bar. |
 | [isHidden()](#isHidden--) | Indicates whether this workbook is hidden. |
 | [isMinimized()](#isMinimized--) | Represents whether the generated spreadsheet will be opened Minimized. |
 | [isProtected()](#isProtected--) | Gets a value that indicates whether the structure or window of the Workbook is protected. |
-| [isVScrollBarVisible()](#isVScrollBarVisible--) | Gets or sets a value indicating whether the generated spreadsheet will contain a vertical scroll bar. |
+| [isVScrollBarVisible()](#isVScrollBarVisible--) | a value indicating whether the generated spreadsheet will contain a vertical scroll bar. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAuthor(String value)](#setAuthor-java.lang.String-) | For the description of this property, please see [getAuthor()](../../com.aspose.cells/workbooksettings\#getAuthor--) |
@@ -206,7 +206,7 @@ public String getAuthor()
 ```
 
 
-Gets and sets the author of the file. It''s not set, check [BuiltInDocumentPropertyCollection.getAuthor()](../../com.aspose.cells/builtindocumentpropertycollection\#getAuthor--) first, then check the user of Environment.
+the author of the file. It''s not set, check [BuiltInDocumentPropertyCollection.getAuthor()](../../com.aspose.cells/builtindocumentpropertycollection\#getAuthor--) first, then check the user of Environment.
 
 **Returns:**
 java.lang.String
@@ -356,7 +356,7 @@ public boolean getDate1904()
 ```
 
 
-Gets or sets a value which represents if the workbook uses the 1904 date system.
+a value which represents if the workbook uses the 1904 date system.
 
 **Returns:**
 boolean
@@ -386,7 +386,7 @@ public int getFirstVisibleTab()
 ```
 
 
-Gets or sets the first visible worksheet tab.
+the first visible worksheet tab.
 
 **Returns:**
 int
@@ -416,7 +416,7 @@ public GlobalizationSettings getGlobalizationSettings()
 ```
 
 
-Gets and sets the globalization settings.
+the globalization settings.
 
 **Returns:**
 [GlobalizationSettings](../../com.aspose.cells/globalizationsettings)
@@ -426,7 +426,7 @@ public boolean getHidePivotFieldList()
 ```
 
 
-Gets and sets whether hide the field list for the PivotTable.
+whether hide the field list for the PivotTable.
 
 **Returns:**
 boolean
@@ -446,7 +446,7 @@ public int getLanguageCode()
 ```
 
 
-Gets or sets the user interface language of the Workbook version based on CountryCode that has saved the file.
+the user interface language of the Workbook version based on CountryCode that has saved the file.
 
 **Returns:**
 int
@@ -456,7 +456,7 @@ public Locale getLocale()
 ```
 
 
-Gets or sets the Locale used by this workbook. Returns null if neither Locale nor [getRegion()](../../com.aspose.cells/workbooksettings\#getRegion--) is set.
+the Locale used by this workbook. Returns null if neither Locale nor [getRegion()](../../com.aspose.cells/workbooksettings\#getRegion--) is set.
 
 **Returns:**
 java.util.Locale
@@ -506,7 +506,7 @@ public int getMaxRowsOfSharedFormula()
 ```
 
 
-Gets and sets the max row number of shared formula. If the number is too large, the autofilter works very slow in MS Excel 2013.
+the max row number of shared formula. If the number is too large, the autofilter works very slow in MS Excel 2013.
 
 **Returns:**
 int
@@ -516,7 +516,7 @@ public int getMemorySetting()
 ```
 
 
-Gets or sets the memory usage options. The new option will be taken as the default option for newly created worksheets but does not take effect for existing worksheets.
+the memory usage options. The new option will be taken as the default option for newly created worksheets but does not take effect for existing worksheets.
 
 **Returns:**
 int
@@ -526,7 +526,7 @@ public char getNumberDecimalSeparator()
 ```
 
 
-Gets or sets the decimal separator for formatting/parsing numeric values. Default is the decimal separator of current Region.
+the decimal separator for formatting/parsing numeric values. Default is the decimal separator of current Region.
 
 **Returns:**
 char
@@ -536,7 +536,7 @@ public char getNumberGroupSeparator()
 ```
 
 
-Gets or sets the character that separates groups of digits to the left of the decimal in numeric values. Default is the group separator of current Region.
+the character that separates groups of digits to the left of the decimal in numeric values. Default is the group separator of current Region.
 
 **Returns:**
 char
@@ -546,7 +546,7 @@ public int getPaperSize()
 ```
 
 
-Gets and sets the default print paper size. If there is no setting about paper size,MS Excel will use default printer's setting.
+the default print paper size. If there is no setting about paper size,MS Excel will use default printer's setting.
 
 **Returns:**
 int
@@ -626,7 +626,7 @@ public int getRegion()
 ```
 
 
-Gets or sets the regional settings for workbook. 1. Regional settings used by Aspose.Cells component for a workbook loaded from template file: i). For an XLS file, there are fields defined for regional settings and MS Excel does save regional settings data into the file when saving the XLS file. So, we use the saved region in the template file for the workbook. If you do not want to use the region saved in the XLS file, please reset it to the expected one (such as, CountryCode.Default) after loading the template file. And, we save the user specified value (by this method) into the file too when saving an XLS file. ii). For other file formats, such as, XLSX, XLSB...etc., there is no field defined for regional settings in the file format specification. So, we use the regional settings of application's environment for the workbook. And, the user specified value (by this method) cannot be kept for the generated files with those file formats. 2. For the view effect in MS Excel: The applied regional settings here can take effect only at runtime with Aspose.Cells component and not when viewing the generated file with MS Excel. Even for the generated XLS file in which the specified regional settings data has been saved, when viewing/editing it with MS Excel, the used region to perform formatting by MS Excel is always the default regional settings of the environment where MS Excel is running, not the one saved in the file. It is MS Excel's behavior and cannot be changed by code.
+the regional settings for workbook. 1. Regional settings used by Aspose.Cells component for a workbook loaded from template file: i). For an XLS file, there are fields defined for regional settings and MS Excel does save regional settings data into the file when saving the XLS file. So, we use the saved region in the template file for the workbook. If you do not want to use the region saved in the XLS file, please reset it to the expected one (such as, CountryCode.Default) after loading the template file. And, we save the user specified value (by this method) into the file too when saving an XLS file. ii). For other file formats, such as, XLSX, XLSB...etc., there is no field defined for regional settings in the file format specification. So, we use the regional settings of application's environment for the workbook. And, the user specified value (by this method) cannot be kept for the generated files with those file formats. 2. For the view effect in MS Excel: The applied regional settings here can take effect only at runtime with Aspose.Cells component and not when viewing the generated file with MS Excel. Even for the generated XLS file in which the specified regional settings data has been saved, when viewing/editing it with MS Excel, the used region to perform formatting by MS Excel is always the default regional settings of the environment where MS Excel is running, not the one saved in the file. It is MS Excel's behavior and cannot be changed by code.
 
 **Returns:**
 int
@@ -656,7 +656,7 @@ public IStreamProvider getResourceProvider()
 ```
 
 
-Gets and sets the stream provider for external resource, such as loading image data for picture of type "LinkToFile".
+the stream provider for external resource, such as loading image data for picture of type "LinkToFile".
 
 **Returns:**
 [IStreamProvider](../../com.aspose.cells/istreamprovider)
@@ -666,7 +666,7 @@ public boolean getShared()
 ```
 
 
-Gets or sets a value that indicates whether the Workbook is shared. The default value is false.
+a value that indicates whether the Workbook is shared. The default value is false.
 
 **Returns:**
 boolean
@@ -686,7 +686,7 @@ public boolean getShowTabs()
 ```
 
 
-Get or sets a value whether the Workbook tabs are displayed. The default value is true.
+a value whether the Workbook tabs are displayed. The default value is true.
 
 ```
 // Hide the spreadsheet tabs.
@@ -701,7 +701,7 @@ public int getSignificantDigits()
 ```
 
 
-Gets and sets the number of significant digits. The default value is \{@link CellsHelper.getSignificantDigits()\}. Only could be 15 or 17 now.
+the number of significant digits. The default value is \{@link CellsHelper.getSignificantDigits()\}. Only could be 15 or 17 now.
 
 **Returns:**
 int
@@ -711,7 +711,7 @@ public IStreamProvider getStreamProvider()
 ```
 
 
-Gets and sets the stream provider for external resource. NOTE: This member is now obsolete. Instead, please use ResourceProvider property. This property will be removed 12 months later since June 2022. Aspose apologizes for any inconvenience you may have experienced.
+the stream provider for external resource. NOTE: This member is now obsolete. Instead, please use ResourceProvider property. This property will be removed 12 months later since June 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 [IStreamProvider](../../com.aspose.cells/istreamprovider)
@@ -746,7 +746,7 @@ public int getUpdateLinksType()
 ```
 
 
-Gets and sets how updates external links when the workbook is opened.
+how updates external links when the workbook is opened.
 
 **Returns:**
 int
@@ -756,7 +756,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Gets or sets warning callback.
+warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)
@@ -926,7 +926,7 @@ public boolean isHScrollBarVisible()
 ```
 
 
-Gets or sets a value indicating whether the generated spreadsheet will contain a horizontal scroll bar. The default value is true.
+a value indicating whether the generated spreadsheet will contain a horizontal scroll bar. The default value is true.
 
 ```
 // Hide the horizontal scroll bar of the Excel file.
@@ -971,7 +971,7 @@ public boolean isVScrollBarVisible()
 ```
 
 
-Gets or sets a value indicating whether the generated spreadsheet will contain a vertical scroll bar. The default value is true.
+a value indicating whether the generated spreadsheet will contain a vertical scroll bar. The default value is true.
 
 ```
 // Hide the vertical scroll bar of the Excel file.

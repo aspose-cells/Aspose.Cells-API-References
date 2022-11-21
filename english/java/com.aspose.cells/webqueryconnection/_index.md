@@ -14,11 +14,6 @@ public class WebQueryConnection extends ExternalConnection
 ```
 
 Specifies the properties for a web query source. A web query will retrieve data from HTML tables, and can also supply HTTP "Get" parameters to be processed by the web server in generating the HTML by including the parameters and parameter elements.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [WebQueryConnection()](#WebQueryConnection--) |  |
 ## Methods
 
 | Method | Description |
@@ -49,7 +44,7 @@ Specifies the properties for a web query source. A web query will retrieve data 
 | [getSaveData()](#getSaveData--) | True if the external data fetched over the connection to populate a table is to be saved with the workbook; otherwise, false. |
 | [getSavePassword()](#getSavePassword--) | True if the password is to be saved as part of the connection string; otherwise, False. |
 | [getSourceFile()](#getSourceFile--) | Used when the external data source is file-based. |
-| [getType()](#getType--) | Gets or Sets the external connection DataSource type. |
+| [getType()](#getType--) | the external connection DataSource type. |
 | [getUrl()](#getUrl--) | URL to use to refresh external data. |
 | [hashCode()](#hashCode--) |  |
 | [isConsecutive()](#isConsecutive--) | Flag indicating whether consecutive delimiters should be treated as just one delimiter. |
@@ -102,12 +97,6 @@ Specifies the properties for a web query source. A web query will retrieve data 
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### WebQueryConnection() {#WebQueryConnection--}
-```
-public WebQueryConnection()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -379,7 +368,7 @@ public int getType()
 ```
 
 
-Gets or Sets the external connection DataSource type.
+the external connection DataSource type.
 
 **Returns:**
 int

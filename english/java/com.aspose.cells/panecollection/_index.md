@@ -19,10 +19,10 @@ Represents all Pane objects shown in the specified window.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAcitvePaneType()](#getAcitvePaneType--) | Gets and sets the active pane. |
+| [getAcitvePaneType()](#getAcitvePaneType--) | the active pane. |
 | [getClass()](#getClass--) |  |
-| [getFirstVisibleColumnOfRightPane()](#getFirstVisibleColumnOfRightPane--) | Gets and sets the first visible column of the right pane. |
-| [getFirstVisibleRowOfBottomPane()](#getFirstVisibleRowOfBottomPane--) | Gets and sets the first visible row of the bottom pane. |
+| [getFirstVisibleColumnOfRightPane()](#getFirstVisibleColumnOfRightPane--) | the first visible column of the right pane. |
+| [getFirstVisibleRowOfBottomPane()](#getFirstVisibleRowOfBottomPane--) | the first visible row of the bottom pane. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -54,7 +54,7 @@ public int getAcitvePaneType()
 ```
 
 
-Gets and sets the active pane.
+the active pane.
 
 **Returns:**
 int
@@ -74,7 +74,7 @@ public int getFirstVisibleColumnOfRightPane()
 ```
 
 
-Gets and sets the first visible column of the right pane.
+the first visible column of the right pane.
 
 **Returns:**
 int
@@ -84,7 +84,7 @@ public int getFirstVisibleRowOfBottomPane()
 ```
 
 
-Gets and sets the first visible row of the bottom pane.
+the first visible row of the bottom pane.
 
 **Returns:**
 int

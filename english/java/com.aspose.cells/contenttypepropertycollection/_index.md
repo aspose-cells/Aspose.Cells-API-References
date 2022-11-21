@@ -23,11 +23,6 @@ A collection of [ContentTypeProperty](../../com.aspose.cells/contenttypeproperty
          //Save the Excel file
          workbook.save("book1.xlsm");
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ContentTypePropertyCollection()](#ContentTypePropertyCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -52,12 +47,6 @@ A collection of [ContentTypeProperty](../../com.aspose.cells/contenttypeproperty
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ContentTypePropertyCollection() {#ContentTypePropertyCollection--}
-```
-public ContentTypePropertyCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

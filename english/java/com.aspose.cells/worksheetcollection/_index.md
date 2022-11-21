@@ -29,11 +29,6 @@ Workbook workbook = new Workbook();
          //Set the active sheet to the second worksheet
          sheets.setActiveSheetIndex(1);
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [WorksheetCollection()](#WorksheetCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -63,7 +58,7 @@ Workbook workbook = new Workbook();
 | [getNamedRanges()](#getNamedRanges--) | Gets all pre-defined named ranges in the spreadsheet. |
 | [getNamedRangesAndTables()](#getNamedRangesAndTables--) | Gets all pre-defined named ranges in the spreadsheet. |
 | [getNames()](#getNames--) | Gets the collection of all the Name objects in the spreadsheet. |
-| [getOleSize()](#getOleSize--) | Gets and Sets displayed size when Workbook file is used as an Ole object. |
+| [getOleSize()](#getOleSize--) | displayed size when Workbook file is used as an Ole object. |
 | [getRangeByName(String rangeName)](#getRangeByName-java.lang.String-) | Gets Range object by pre-defined name. |
 | [getRangeByName(String rangeName, int currentSheetIndex, boolean includeTable)](#getRangeByName-java.lang.String-int-boolean-) | Gets [Range](../../com.aspose.cells/range) by pre-defined name or table's name |
 | [getRevisionLogs()](#getRevisionLogs--) | Represents revision logs. |
@@ -72,7 +67,7 @@ Workbook workbook = new Workbook();
 | [getThreadedCommentAuthors()](#getThreadedCommentAuthors--) | Gets the list of threaded comment authors. |
 | [getWebExtensionTaskPanes()](#getWebExtensionTaskPanes--) | Gets the list of task panes. |
 | [getWebExtensions()](#getWebExtensions--) | Gets the list of task panes. |
-| [getXmlMaps()](#getXmlMaps--) | Gets and sets the XML maps in the workbook. |
+| [getXmlMaps()](#getXmlMaps--) | the XML maps in the workbook. |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(Object o)](#indexOf-java.lang.Object-) | Determines the index of a specific item in the CollectionBase instance. |
 | [insert(int index, int sheetType)](#insert-int-int-) | Insert a worksheet. |
@@ -98,12 +93,6 @@ Workbook workbook = new Workbook();
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### WorksheetCollection() {#WorksheetCollection--}
-```
-public WorksheetCollection()
-```
-
-
 ### add() {#add--}
 ```
 public int add()
@@ -499,7 +488,7 @@ public Object getOleSize()
 ```
 
 
-Gets and Sets displayed size when Workbook file is used as an Ole object. Null means no ole size setting.
+displayed size when Workbook file is used as an Ole object. Null means no ole size setting.
 
 **Returns:**
 java.lang.Object
@@ -608,7 +597,7 @@ public XmlMapCollection getXmlMaps()
 ```
 
 
-Gets and sets the XML maps in the workbook.
+the XML maps in the workbook.
 
 **Returns:**
 [XmlMapCollection](../../com.aspose.cells/xmlmapcollection)

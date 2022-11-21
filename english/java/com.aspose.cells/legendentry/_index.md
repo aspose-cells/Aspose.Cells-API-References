@@ -20,14 +20,14 @@ Represents a legend entry in a chart legend.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
-| [getBackground()](#getBackground--) | Gets and sets the display mode of the background NOTE: This member is now obsolete. |
-| [getBackgroundMode()](#getBackgroundMode--) | Gets and sets the display mode of the background |
+| [getBackground()](#getBackground--) | the display mode of the background NOTE: This member is now obsolete. |
+| [getBackgroundMode()](#getBackgroundMode--) | the display mode of the background |
 | [getClass()](#getClass--) |  |
 | [getFont()](#getFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
 | [getTextFont()](#getTextFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified LegendEntry object. |
 | [hashCode()](#hashCode--) |  |
-| [isDeleted()](#isDeleted--) | Gets and sets whether the legend entry is deleted. |
-| [isTextNoFill()](#isTextNoFill--) | Gets or sets no fill of the text. |
+| [isDeleted()](#isDeleted--) | whether the legend entry is deleted. |
+| [isTextNoFill()](#isTextNoFill--) | no fill of the text. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | For the description of this property, please see [getAutoScaleFont()](../../com.aspose.cells/legendentry\#getAutoScaleFont--) |
@@ -70,7 +70,7 @@ public int getBackground()
 ```
 
 
-Gets and sets the display mode of the background NOTE: This member is now obsolete. Instead, please use LegendEntry.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+the display mode of the background NOTE: This member is now obsolete. Instead, please use LegendEntry.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -80,7 +80,7 @@ public int getBackgroundMode()
 ```
 
 
-Gets and sets the display mode of the background
+the display mode of the background
 
 **Returns:**
 int
@@ -130,7 +130,7 @@ public boolean isDeleted()
 ```
 
 
-Gets and sets whether the legend entry is deleted.
+whether the legend entry is deleted.
 
 **Returns:**
 boolean
@@ -140,7 +140,7 @@ public boolean isTextNoFill()
 ```
 
 
-Gets or sets no fill of the text.
+no fill of the text.
 
 **Returns:**
 boolean

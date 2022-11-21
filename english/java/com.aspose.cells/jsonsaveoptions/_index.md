@@ -28,7 +28,7 @@ Represents the options of saving the workbook as a json file.
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
-| [getExportArea()](#getExportArea--) | Gets or sets the exporting range. |
+| [getExportArea()](#getExportArea--) | the exporting range. |
 | [getExportAsString()](#getExportAsString--) | Exports the string value of the cells to json. |
 | [getIndent()](#getIndent--) | Indicates the indent. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
@@ -39,7 +39,7 @@ Represents the options of saving the workbook as a json file.
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
-| [getWarningCallback()](#getWarningCallback--) | Gets or sets warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | warning callback. |
 | [hasHeaderRow()](#hasHeaderRow--) | Indicates whether the range contains header row. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -132,7 +132,7 @@ public CellArea getExportArea()
 ```
 
 
-Gets or sets the exporting range.
+the exporting range.
 
 **Returns:**
 [CellArea](../../com.aspose.cells/cellarea)
@@ -242,7 +242,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Gets or sets warning callback.
+warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)

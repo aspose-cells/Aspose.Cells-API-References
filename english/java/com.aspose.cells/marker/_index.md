@@ -21,11 +21,11 @@ Represents the marker in a line chart, scatter chart, or radar chart.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getArea()](#getArea--) | Gets the [Area](../../com.aspose.cells/area). |
 | [getBackgroundColor()](#getBackgroundColor--) | Represents the marker background color in a line chart, scatter chart, or radar chart. |
-| [getBackgroundColorSetType()](#getBackgroundColorSetType--) | Gets or sets the marker background color set type. |
+| [getBackgroundColorSetType()](#getBackgroundColorSetType--) | the marker background color set type. |
 | [getBorder()](#getBorder--) | Gets the [Line](../../com.aspose.cells/line). |
 | [getClass()](#getClass--) |  |
 | [getForegroundColor()](#getForegroundColor--) | Represents the marker foreground color in a line chart, scatter chart, or radar chart. |
-| [getForegroundColorSetType()](#getForegroundColorSetType--) | Gets or sets the marker foreground color set type. |
+| [getForegroundColorSetType()](#getForegroundColorSetType--) | the marker foreground color set type. |
 | [getMarkerSize()](#getMarkerSize--) | Represents the marker size in unit of points. |
 | [getMarkerSizePx()](#getMarkerSizePx--) | Represents the marker size in unit of pixels. |
 | [getMarkerStyle()](#getMarkerStyle--) | Represents the marker style. |
@@ -84,7 +84,7 @@ public int getBackgroundColorSetType()
 ```
 
 
-Gets or sets the marker background color set type.
+the marker background color set type.
 
 **Returns:**
 int
@@ -124,7 +124,7 @@ public int getForegroundColorSetType()
 ```
 
 
-Gets or sets the marker foreground color set type.
+the marker foreground color set type.
 
 **Returns:**
 int

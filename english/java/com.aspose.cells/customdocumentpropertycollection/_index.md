@@ -24,11 +24,6 @@ Each  object represents a custom property of a container document.
          //Retrieve a list of all custom document properties of the Excel file
          CustomDocumentPropertyCollection customProperties = workbook.getWorksheets().getCustomDocumentProperties();
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [CustomDocumentPropertyCollection()](#CustomDocumentPropertyCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -62,12 +57,6 @@ Each  object represents a custom property of a container document.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### CustomDocumentPropertyCollection() {#CustomDocumentPropertyCollection--}
-```
-public CustomDocumentPropertyCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

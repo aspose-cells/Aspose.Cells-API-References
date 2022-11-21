@@ -14,11 +14,6 @@ public class FilterColumnCollection extends CollectionBase
 ```
 
 A collection of Filter objects that represents all the filters in an autofiltered range.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [FilterColumnCollection()](#FilterColumnCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -41,12 +36,6 @@ A collection of Filter objects that represents all the filters in an autofiltere
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### FilterColumnCollection() {#FilterColumnCollection--}
-```
-public FilterColumnCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

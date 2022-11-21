@@ -29,7 +29,7 @@ Represents the format of the shape or text. NOTE: This member is now obsolete. I
 | [getLine()](#getLine--) | Gets line style |
 | [getOutline()](#getOutline--) | Gets line style NOTE: This member is now obsolete. |
 | [getShadowEffect()](#getShadowEffect--) | Represents a [ShadowEffect](../../com.aspose.cells/shadoweffect) object that specifies shadow effect for the chart element or shape. |
-| [getSoftEdgeRadius()](#getSoftEdgeRadius--) | Gets and sets the radius of blur to apply to the edges, in unit of points. |
+| [getSoftEdgeRadius()](#getSoftEdgeRadius--) | the radius of blur to apply to the edges, in unit of points. |
 | [hasFormat3D()](#hasFormat3D--) | Indicates if the shape has 3d format data. |
 | [hasGlowEffect()](#hasGlowEffect--) | Indicates if the shape has glow effect data. |
 | [hasShadowEffect()](#hasShadowEffect--) | Indicates if the shape has shadow effect data. |
@@ -156,7 +156,7 @@ public double getSoftEdgeRadius()
 ```
 
 
-Gets and sets the radius of blur to apply to the edges, in unit of points.
+the radius of blur to apply to the edges, in unit of points.
 
 **Returns:**
 double

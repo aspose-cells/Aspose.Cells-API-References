@@ -14,11 +14,6 @@ public class GlobalizationSettings extends AbstractGlobalizationSettings
 ```
 
 Represents the globalization settings.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [GlobalizationSettings()](#GlobalizationSettings--) |  |
 ## Methods
 
 | Method | Description |
@@ -27,7 +22,7 @@ Represents the globalization settings.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAllName()](#getAllName--) | Gets the name of "(All)" label in the PivotTable. |
 | [getBooleanValueString(boolean bv)](#getBooleanValueString-boolean-) | Gets the display string value for cell's boolean value |
-| [getChartSettings()](#getChartSettings--) | Gets or sets the Chart of this[ChartGlobalizationSettings](../../com.aspose.cells/chartglobalizationsettings) |
+| [getChartSettings()](#getChartSettings--) | the Chart of this[ChartGlobalizationSettings](../../com.aspose.cells/chartglobalizationsettings) |
 | [getClass()](#getClass--) |  |
 | [getCollationKey(String v, boolean ignoreCase)](#getCollationKey-java.lang.String-boolean-) | Transforms the string into a comparable object according to certain collation rules. |
 | [getColumnLabelsOfPivotTable()](#getColumnLabelsOfPivotTable--) | Gets the name of "Column Labels" label in the PivotTable. |
@@ -66,12 +61,6 @@ Represents the globalization settings.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### GlobalizationSettings() {#GlobalizationSettings--}
-```
-public GlobalizationSettings()
-```
-
-
 ### compare(String v1, String v2, boolean ignoreCase) {#compare-java.lang.String-java.lang.String-boolean-}
 ```
 public int compare(String v1, String v2, boolean ignoreCase)
@@ -135,7 +124,7 @@ public ChartGlobalizationSettings getChartSettings()
 ```
 
 
-Gets or sets the Chart of this[ChartGlobalizationSettings](../../com.aspose.cells/chartglobalizationsettings)
+the Chart of this[ChartGlobalizationSettings](../../com.aspose.cells/chartglobalizationsettings)
 
 **Returns:**
 [ChartGlobalizationSettings](../../com.aspose.cells/chartglobalizationsettings)

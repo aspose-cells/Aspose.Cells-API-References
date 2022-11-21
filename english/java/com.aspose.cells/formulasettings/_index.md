@@ -22,7 +22,7 @@ Settings of formulas and calculation.
 | [getCalculateOnOpen()](#getCalculateOnOpen--) | Indicates whether the application is required to perform a full calculation when the workbook is opened. |
 | [getCalculateOnSave()](#getCalculateOnSave--) | Indicates whether recalculate the workbook before saving the document, when in manual calculation mode. |
 | [getCalculationId()](#getCalculationId--) | Specifies the version of the calculation engine used to calculate values in the workbook. |
-| [getCalculationMode()](#getCalculationMode--) | Gets or sets the mode for workbook calculation in ms excel. |
+| [getCalculationMode()](#getCalculationMode--) | the mode for workbook calculation in ms excel. |
 | [getClass()](#getClass--) |  |
 | [getEnableCalculationChain()](#getEnableCalculationChain--) | Whether enable calculation chain for formulas. |
 | [getEnableIterativeCalculation()](#getEnableIterativeCalculation--) | Indicates whether enable iterative calculation to resolve circular references. |
@@ -98,7 +98,7 @@ public int getCalculationMode()
 ```
 
 
-Gets or sets the mode for workbook calculation in ms excel. This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. For performance consideration for most user's application, we do not calculate any formula in the workbook automatically, no matter what mode has been set for this property. If user needs to calculate formulas, please always call methods on different objects according to requirement: [Workbook.calculateFormula()](../../com.aspose.cells/workbook\#calculateFormula--), [Worksheet.calculateFormula(CalculationOptions,boolean)](../../com.aspose.cells/worksheet\#calculateFormula-CalculationOptions-boolean-), [Cell.calculate(CalculationOptions)](../../com.aspose.cells/cell\#calculate-CalculationOptions-), ...etc.
+the mode for workbook calculation in ms excel. This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. For performance consideration for most user's application, we do not calculate any formula in the workbook automatically, no matter what mode has been set for this property. If user needs to calculate formulas, please always call methods on different objects according to requirement: [Workbook.calculateFormula()](../../com.aspose.cells/workbook\#calculateFormula--), [Worksheet.calculateFormula(CalculationOptions,boolean)](../../com.aspose.cells/worksheet\#calculateFormula-CalculationOptions-boolean-), [Cell.calculate(CalculationOptions)](../../com.aspose.cells/cell\#calculate-CalculationOptions-), ...etc.
 
 **Returns:**
 int

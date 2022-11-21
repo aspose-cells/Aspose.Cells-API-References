@@ -14,18 +14,13 @@ public class PictureBulletValue extends BulletValue
 ```
 
 Represents the value of the image bullet.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PictureBulletValue()](#PictureBulletValue--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getImageData()](#getImageData--) | Gets and sets image data of the bullet. |
+| [getImageData()](#getImageData--) | image data of the bullet. |
 | [getType()](#getType--) | Gets the type of the bullet's value. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -35,12 +30,6 @@ Represents the value of the image bullet.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### PictureBulletValue() {#PictureBulletValue--}
-```
-public PictureBulletValue()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -72,7 +61,7 @@ public byte[] getImageData()
 ```
 
 
-Gets and sets image data of the bullet.
+image data of the bullet.
 
 **Returns:**
 byte[]

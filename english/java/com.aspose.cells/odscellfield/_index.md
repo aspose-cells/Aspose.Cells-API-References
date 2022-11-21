@@ -20,10 +20,10 @@ Represents the cell field of ods.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getColumn()](#getColumn--) | Get and sets the column index of the cell. |
+| [getColumn()](#getColumn--) | the column index of the cell. |
 | [getCustomFormat()](#getCustomFormat--) | Represents the custom format of the field's value. |
-| [getFieldType()](#getFieldType--) | Gets and sets the type of the field. |
-| [getRow()](#getRow--) | Get and sets the row index of the cell. |
+| [getFieldType()](#getFieldType--) | the type of the field. |
+| [getRow()](#getRow--) | the row index of the cell. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -66,7 +66,7 @@ public int getColumn()
 ```
 
 
-Get and sets the column index of the cell.
+the column index of the cell.
 
 **Returns:**
 int
@@ -86,7 +86,7 @@ public int getFieldType()
 ```
 
 
-Gets and sets the type of the field.
+the type of the field.
 
 **Returns:**
 int
@@ -96,7 +96,7 @@ public int getRow()
 ```
 
 
-Get and sets the row index of the cell.
+the row index of the cell.
 
 **Returns:**
 int

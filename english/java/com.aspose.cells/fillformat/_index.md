@@ -63,7 +63,7 @@ Encapsulates the object that represents fill formatting for a shape.
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getFillType()](#getFillType--) | Gets and sets fill type |
+| [getFillType()](#getFillType--) | fill type |
 | [getGradientColor1()](#getGradientColor1--) | Returns the gradient color 1 for the specified fill. |
 | [getGradientColor2()](#getGradientColor2--) | Returns the gradient color 2 for the specified fill. |
 | [getGradientColorType()](#getGradientColorType--) | Returns the gradient color type for the specified fill. |
@@ -71,18 +71,18 @@ Encapsulates the object that represents fill formatting for a shape.
 | [getGradientFill()](#getGradientFill--) | Gets [getGradientFill()](../../com.aspose.cells/fillformat\#getGradientFill--) object. |
 | [getGradientStyle()](#getGradientStyle--) | Returns the gradient style for the specified fill. |
 | [getGradientVariant()](#getGradientVariant--) | Returns the gradient variant for the specified fill. |
-| [getImageData()](#getImageData--) | Gets and sets the picture image data. |
+| [getImageData()](#getImageData--) | the picture image data. |
 | [getPattern()](#getPattern--) | Represents an area's display pattern. |
 | [getPatternFill()](#getPatternFill--) | Gets [getPatternFill()](../../com.aspose.cells/fillformat\#getPatternFill--) object. |
-| [getPictureFormatType()](#getPictureFormatType--) | Gets and sets the picture format type. |
+| [getPictureFormatType()](#getPictureFormatType--) | the picture format type. |
 | [getPresetColor()](#getPresetColor--) | Returns the gradient preset color for the specified fill. |
-| [getScale()](#getScale--) | Gets and sets the picture format scale. |
+| [getScale()](#getScale--) | the picture format scale. |
 | [getSetType()](#getSetType--) | Gets the fill format set type. |
 | [getSolidFill()](#getSolidFill--) | Gets [getSolidFill()](../../com.aspose.cells/fillformat\#getSolidFill--) object. |
 | [getTexture()](#getTexture--) | Represents the texture type for the specified fill. |
 | [getTextureFill()](#getTextureFill--) | Gets [getTextureFill()](../../com.aspose.cells/fillformat\#getTextureFill--) object. |
 | [getTransparency()](#getTransparency--) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
-| [getType()](#getType--) | Gets and sets the fill type. |
+| [getType()](#getType--) | the fill type. |
 | [hashCode()](#hashCode--) | Gets the hash code. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -134,7 +134,7 @@ public int getFillType()
 ```
 
 
-Gets and sets fill type
+fill type
 
 **Returns:**
 int
@@ -214,7 +214,7 @@ public byte[] getImageData()
 ```
 
 
-Gets and sets the picture image data. If the fill format is not custom texture format, returns null.
+the picture image data. If the fill format is not custom texture format, returns null.
 
 **Returns:**
 byte[]
@@ -244,7 +244,7 @@ public int getPictureFormatType()
 ```
 
 
-Gets and sets the picture format type.
+the picture format type.
 
 **Returns:**
 int
@@ -264,7 +264,7 @@ public double getScale()
 ```
 
 
-Gets and sets the picture format scale.
+the picture format scale.
 
 **Returns:**
 double
@@ -324,7 +324,7 @@ public int getType()
 ```
 
 
-Gets and sets the fill type. NOTE: This member is now obsolete. Instead, please use FillFormat.FillType property instead. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
+the fill type. NOTE: This member is now obsolete. Instead, please use FillFormat.FillType property instead. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int

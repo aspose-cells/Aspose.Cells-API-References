@@ -70,11 +70,6 @@ Workbook book = new Workbook();
  
          book.save("out.xlsx");
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SlicerCollection()](#SlicerCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -107,12 +102,6 @@ Workbook book = new Workbook();
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### SlicerCollection() {#SlicerCollection--}
-```
-public SlicerCollection()
-```
-
-
 ### add(ListObject table, ListColumn listColumn, int row, int column) {#add-com.aspose.cells.ListObject-com.aspose.cells.ListColumn-int-int-}
 ```
 public int add(ListObject table, ListColumn listColumn, int row, int column)

@@ -14,11 +14,6 @@ public class RevisionCellChange extends Revision
 ```
 
 Represents the revision that changing cells.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [RevisionCellChange()](#RevisionCellChange--) |  |
 ## Methods
 
 | Method | Description |
@@ -46,12 +41,6 @@ Represents the revision that changing cells.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### RevisionCellChange() {#RevisionCellChange--}
-```
-public RevisionCellChange()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

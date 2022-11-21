@@ -14,11 +14,6 @@ public class ErrorCheckOptionCollection extends CollectionBase
 ```
 
 Represents all error check option.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ErrorCheckOptionCollection()](#ErrorCheckOptionCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -41,12 +36,6 @@ Represents all error check option.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ErrorCheckOptionCollection() {#ErrorCheckOptionCollection--}
-```
-public ErrorCheckOptionCollection()
-```
-
-
 ### add() {#add--}
 ```
 public int add()

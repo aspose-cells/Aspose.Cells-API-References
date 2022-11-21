@@ -26,40 +26,40 @@ Represents the options for loading text file.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAutoFilter()](#getAutoFilter--) | Indicates whether auto filtering the data when loading the files. |
-| [getAutoFitterOptions()](#getAutoFitterOptions--) | Gets and sets the auto fitter options Only for xlsx ,spreadsheetML file now. |
+| [getAutoFitterOptions()](#getAutoFitterOptions--) | the auto fitter options Only for xlsx ,spreadsheetML file now. |
 | [getCheckDataValid()](#getCheckDataValid--) | Check whether data is valid in the template file. |
 | [getCheckExcelRestriction()](#getCheckExcelRestriction--) | Whether check restriction of excel file when user modify cells related objects. |
 | [getClass()](#getClass--) |  |
-| [getConvertDateTimeData()](#getConvertDateTimeData--) | Gets or sets a value that indicates whether the string in text file is converted to date data. |
-| [getConvertNumericData()](#getConvertNumericData--) | Gets or sets a value that indicates whether the string in text file is converted to numeric data. |
+| [getConvertDateTimeData()](#getConvertDateTimeData--) | a value that indicates whether the string in text file is converted to date data. |
+| [getConvertNumericData()](#getConvertNumericData--) | a value that indicates whether the string in text file is converted to numeric data. |
 | [getDefaultStyleSettings()](#getDefaultStyleSettings--) | Gets the default style settings for initializing styles of the workbook |
-| [getEncoding()](#getEncoding--) | Gets and sets the default encoding. |
+| [getEncoding()](#getEncoding--) | the default encoding. |
 | [getExtendToNextSheet()](#getExtendToNextSheet--) | Whether extends data to next sheet when the rows or columns of data exceed limit. |
-| [getFontConfigs()](#getFontConfigs--) | Gets and sets individual font configs. |
+| [getFontConfigs()](#getFontConfigs--) | individual font configs. |
 | [getIgnoreNotPrinted()](#getIgnoreNotPrinted--) | Ignore the data which are not printed if directly printing the file Only for xlsx file. |
-| [getInterruptMonitor()](#getInterruptMonitor--) | Gets and sets the interrupt monitor. |
+| [getInterruptMonitor()](#getInterruptMonitor--) | the interrupt monitor. |
 | [getKeepPrecision()](#getKeepPrecision--) | Indicates whether not parsing a string value if the length is 15. |
 | [getKeepUnparsedData()](#getKeepUnparsedData--) | Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. |
-| [getLanguageCode()](#getLanguageCode--) | Gets or sets the user interface language of the Workbook version based on CountryCode that has saved the file. |
+| [getLanguageCode()](#getLanguageCode--) | the user interface language of the Workbook version based on CountryCode that has saved the file. |
 | [getLightCellsDataHandler()](#getLightCellsDataHandler--) | The data handler for processing cells data when reading template file. |
 | [getLoadFilter()](#getLoadFilter--) | The filter to denote how to load data. |
 | [getLoadFormat()](#getLoadFormat--) | Gets the load format. |
 | [getLoadStyleStrategy()](#getLoadStyleStrategy--) | Indicates the strategy to apply style for parsed values when converting string value to number or datetime. |
-| [getLocale()](#getLocale--) | Gets and sets the Locale used for workbook at the time the file was loaded. |
-| [getMemorySetting()](#getMemorySetting--) | Gets or sets the memory usage options. |
+| [getLocale()](#getLocale--) | the Locale used for workbook at the time the file was loaded. |
+| [getMemorySetting()](#getMemorySetting--) | the memory usage options. |
 | [getParsingFormulaOnOpen()](#getParsingFormulaOnOpen--) | Indicates whether parsing the formula when reading the file. |
 | [getParsingPivotCachedRecords()](#getParsingPivotCachedRecords--) | Indicates whether parsing pivot cached records when loading the file. |
-| [getPassword()](#getPassword--) | Gets and set the password of the workbook. |
-| [getPreferredParsers()](#getPreferredParsers--) | Gets and sets preferred value parsers for loading text file. |
-| [getRegion()](#getRegion--) | Gets or sets the system regional settings based on CountryCode at the time the file was loaded. |
-| [getSeparator()](#getSeparator--) | Gets and sets character separator of text file. |
-| [getSeparatorString()](#getSeparatorString--) | Gets and sets a string value as separator. |
+| [getPassword()](#getPassword--) | the password of the workbook. |
+| [getPreferredParsers()](#getPreferredParsers--) | preferred value parsers for loading text file. |
+| [getRegion()](#getRegion--) | the system regional settings based on CountryCode at the time the file was loaded. |
+| [getSeparator()](#getSeparator--) | character separator of text file. |
+| [getSeparatorString()](#getSeparatorString--) | a string value as separator. |
 | [getStandardFont()](#getStandardFont--) | Sets the default standard font name NOTE: This member is now obsolete. |
 | [getStandardFontSize()](#getStandardFontSize--) | Sets the default standard font size. |
 | [getTextQualifier()](#getTextQualifier--) | Specifies the text qualifier for cell values. |
 | [getTreatConsecutiveDelimitersAsOne()](#getTreatConsecutiveDelimitersAsOne--) | Whether consecutive delimiters should be treated as one. |
 | [getTreatQuotePrefixAsValue()](#getTreatQuotePrefixAsValue--) | Indicates whether the leading single quote sign should be taken as part of the value of one cell. |
-| [getWarningCallback()](#getWarningCallback--) | Gets or sets warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | warning callback. |
 | [hasFormula()](#hasFormula--) | Indicates whether the text is formula if it starts with "=". |
 | [hasTextQualifier()](#hasTextQualifier--) | Whether there is text qualifier for cell value. |
 | [hashCode()](#hashCode--) |  |
@@ -158,7 +158,7 @@ public AutoFitterOptions getAutoFitterOptions()
 ```
 
 
-Gets and sets the auto fitter options Only for xlsx ,spreadsheetML file now.
+the auto fitter options Only for xlsx ,spreadsheetML file now.
 
 **Returns:**
 [AutoFitterOptions](../../com.aspose.cells/autofitteroptions)
@@ -198,7 +198,7 @@ public boolean getConvertDateTimeData()
 ```
 
 
-Gets or sets a value that indicates whether the string in text file is converted to date data.
+a value that indicates whether the string in text file is converted to date data.
 
 **Returns:**
 boolean
@@ -208,7 +208,7 @@ public boolean getConvertNumericData()
 ```
 
 
-Gets or sets a value that indicates whether the string in text file is converted to numeric data.
+a value that indicates whether the string in text file is converted to numeric data.
 
 **Returns:**
 boolean
@@ -228,7 +228,7 @@ public Encoding getEncoding()
 ```
 
 
-Gets and sets the default encoding. Only applies for csv file.
+the default encoding. Only applies for csv file.
 
 **Returns:**
 [Encoding](../../com.aspose.cells/encoding)
@@ -248,7 +248,7 @@ public IndividualFontConfigs getFontConfigs()
 ```
 
 
-Gets and sets individual font configs. Only works for the [Workbook](../../com.aspose.cells/workbook) which uses this [LoadOptions](../../com.aspose.cells/loadoptions) to load.
+individual font configs. Only works for the [Workbook](../../com.aspose.cells/workbook) which uses this [LoadOptions](../../com.aspose.cells/loadoptions) to load.
 
 **Returns:**
 [IndividualFontConfigs](../../com.aspose.cells/individualfontconfigs)
@@ -268,7 +268,7 @@ public AbstractInterruptMonitor getInterruptMonitor()
 ```
 
 
-Gets and sets the interrupt monitor.
+the interrupt monitor.
 
 **Returns:**
 [AbstractInterruptMonitor](../../com.aspose.cells/abstractinterruptmonitor)
@@ -298,7 +298,7 @@ public int getLanguageCode()
 ```
 
 
-Gets or sets the user interface language of the Workbook version based on CountryCode that has saved the file.
+the user interface language of the Workbook version based on CountryCode that has saved the file.
 
 **Returns:**
 int
@@ -348,7 +348,7 @@ public Locale getLocale()
 ```
 
 
-Gets and sets the Locale used for workbook at the time the file was loaded.
+the Locale used for workbook at the time the file was loaded.
 
 **Returns:**
 java.util.Locale
@@ -358,7 +358,7 @@ public int getMemorySetting()
 ```
 
 
-Gets or sets the memory usage options.
+the memory usage options.
 
 **Returns:**
 int
@@ -388,7 +388,7 @@ public String getPassword()
 ```
 
 
-Gets and set the password of the workbook.
+the password of the workbook.
 
 **Returns:**
 java.lang.String
@@ -398,7 +398,7 @@ public ICustomParser[] getPreferredParsers()
 ```
 
 
-Gets and sets preferred value parsers for loading text file. parsers[0] is the parser will be used for the first column in text template file, parsers[1] is the parser will be used for the second column, ...etc. The last one(parsers[parsers.length-1]) will be used for all other columns start from parsers.length-1. If one item is null, the corresponding column will be parsed by the default parser of Aspose.Cells.
+preferred value parsers for loading text file. parsers[0] is the parser will be used for the first column in text template file, parsers[1] is the parser will be used for the second column, ...etc. The last one(parsers[parsers.length-1]) will be used for all other columns start from parsers.length-1. If one item is null, the corresponding column will be parsed by the default parser of Aspose.Cells.
 
 **Returns:**
 com.aspose.cells.ICustomParser[]
@@ -408,7 +408,7 @@ public int getRegion()
 ```
 
 
-Gets or sets the system regional settings based on CountryCode at the time the file was loaded. If you do not want to use the region saved in the file, please reset it after reading the file.
+the system regional settings based on CountryCode at the time the file was loaded. If you do not want to use the region saved in the file, please reset it after reading the file.
 
 **Returns:**
 int
@@ -418,7 +418,7 @@ public char getSeparator()
 ```
 
 
-Gets and sets character separator of text file.
+character separator of text file.
 
 **Returns:**
 char
@@ -428,7 +428,7 @@ public String getSeparatorString()
 ```
 
 
-Gets and sets a string value as separator.
+a string value as separator.
 
 **Returns:**
 java.lang.String
@@ -488,7 +488,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Gets or sets warning callback.
+warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)

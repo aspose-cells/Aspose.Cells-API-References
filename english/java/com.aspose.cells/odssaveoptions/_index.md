@@ -29,7 +29,7 @@ Represents the options of saving ods file.
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
-| [getGeneratorType()](#getGeneratorType--) | Gets and sets the generator of the ods file. |
+| [getGeneratorType()](#getGeneratorType--) | the generator of the ods file. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
@@ -37,7 +37,7 @@ Represents the options of saving ods file.
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
-| [getWarningCallback()](#getWarningCallback--) | Gets or sets warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | warning callback. |
 | [hashCode()](#hashCode--) |  |
 | [isStrictSchema11()](#isStrictSchema11--) | Indicates whether the ods file should be saved as ODF format version 1.1. |
 | [notify()](#notify--) |  |
@@ -140,7 +140,7 @@ public int getGeneratorType()
 ```
 
 
-Gets and sets the generator of the ods file.
+the generator of the ods file.
 
 **Returns:**
 int
@@ -220,7 +220,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Gets or sets warning callback.
+warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)

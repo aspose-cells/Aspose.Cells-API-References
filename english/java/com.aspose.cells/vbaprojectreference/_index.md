@@ -32,11 +32,11 @@ Represents the reference of VBA project.
 | [copy(VbaProjectReference source)](#copy-com.aspose.cells.VbaProjectReference-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getExtendedLibid()](#getExtendedLibid--) | Gets and sets the extended Libid of the reference. |
-| [getLibid()](#getLibid--) | Gets and sets the Libid of the reference. |
-| [getName()](#getName--) | Gets and sets the name of the reference. |
-| [getRelativeLibid()](#getRelativeLibid--) | Gets and sets the referenced VBA project's identifier with an relative path. |
-| [getTwiddledlibid()](#getTwiddledlibid--) | Gets and sets the twiddled Libid of the reference. |
+| [getExtendedLibid()](#getExtendedLibid--) | the extended Libid of the reference. |
+| [getLibid()](#getLibid--) | the Libid of the reference. |
+| [getName()](#getName--) | the name of the reference. |
+| [getRelativeLibid()](#getRelativeLibid--) | the referenced VBA project's identifier with an relative path. |
+| [getTwiddledlibid()](#getTwiddledlibid--) | the twiddled Libid of the reference. |
 | [getType()](#getType--) | Gets the type of this reference. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -94,7 +94,7 @@ public String getExtendedLibid()
 ```
 
 
-Gets and sets the extended Libid of the reference. Only for control reference.
+the extended Libid of the reference. Only for control reference.
 
 **Returns:**
 java.lang.String
@@ -104,7 +104,7 @@ public String getLibid()
 ```
 
 
-Gets and sets the Libid of the reference.
+the Libid of the reference.
 
 **Returns:**
 java.lang.String
@@ -114,7 +114,7 @@ public String getName()
 ```
 
 
-Gets and sets the name of the reference.
+the name of the reference.
 
 **Returns:**
 java.lang.String
@@ -124,7 +124,7 @@ public String getRelativeLibid()
 ```
 
 
-Gets and sets the referenced VBA project's identifier with an relative path. Only for project reference.
+the referenced VBA project's identifier with an relative path. Only for project reference.
 
 **Returns:**
 java.lang.String
@@ -134,7 +134,7 @@ public String getTwiddledlibid()
 ```
 
 
-Gets and sets the twiddled Libid of the reference. Only for control reference.
+the twiddled Libid of the reference. Only for control reference.
 
 **Returns:**
 java.lang.String

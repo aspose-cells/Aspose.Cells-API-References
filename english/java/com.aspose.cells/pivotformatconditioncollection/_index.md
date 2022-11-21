@@ -14,11 +14,6 @@ public class PivotFormatConditionCollection extends CollectionBase
 ```
 
 Represents PivotTable Format Conditions.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PivotFormatConditionCollection()](#PivotFormatConditionCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -41,12 +36,6 @@ Represents PivotTable Format Conditions.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### PivotFormatConditionCollection() {#PivotFormatConditionCollection--}
-```
-public PivotFormatConditionCollection()
-```
-
-
 ### add() {#add--}
 ```
 public int add()

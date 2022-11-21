@@ -27,11 +27,6 @@ Represents all the shape in a worksheet/chart.
          //Save the excel file.
          workbook.save("result.xlsx");
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ShapeCollection()](#ShapeCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -109,12 +104,6 @@ FileInputStream fs = new FileInputStream("image.jpg");
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ShapeCollection() {#ShapeCollection--}
-```
-public ShapeCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

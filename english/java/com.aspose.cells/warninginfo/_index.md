@@ -20,7 +20,7 @@ Warning info
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getCorrectedObject()](#getCorrectedObject--) | Gets and sets the corrected object. |
+| [getCorrectedObject()](#getCorrectedObject--) | the corrected object. |
 | [getDescription()](#getDescription--) | Get description of warning info. |
 | [getErrorObject()](#getErrorObject--) | The error object. |
 | [getWarningType()](#getWarningType--) | Get warning type. |
@@ -63,7 +63,7 @@ public Object getCorrectedObject()
 ```
 
 
-Gets and sets the corrected object.
+the corrected object.
 
 **Returns:**
 java.lang.Object

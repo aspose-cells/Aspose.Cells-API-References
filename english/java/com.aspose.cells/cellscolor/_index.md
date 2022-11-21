@@ -19,15 +19,15 @@ Represents all types of color.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getArgb()](#getArgb--) | Gets and sets the color from a 32-bit ARGB value. |
+| [getArgb()](#getArgb--) | the color from a 32-bit ARGB value. |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | Gets and sets the RGB color. |
-| [getColorIndex()](#getColorIndex--) | Gets and sets the color index in the color palette. |
+| [getColor()](#getColor--) | the RGB color. |
+| [getColorIndex()](#getColorIndex--) | the color index in the color palette. |
 | [getThemeColor()](#getThemeColor--) | Gets the theme color. |
-| [getTransparency()](#getTransparency--) | Gets and sets transparency as a value from 0.0 (opaque) through 1.0 (clear). |
+| [getTransparency()](#getTransparency--) | transparency as a value from 0.0 (opaque) through 1.0 (clear). |
 | [getType()](#getType--) | The color type. |
 | [hashCode()](#hashCode--) |  |
-| [isShapeColor()](#isShapeColor--) | Gets and set the color which should apply to cell or shape. |
+| [isShapeColor()](#isShapeColor--) | the color which should apply to cell or shape. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setArgb(int value)](#setArgb-int-) | For the description of this property, please see [getArgb()](../../com.aspose.cells/cellscolor\#getArgb--) |
@@ -62,7 +62,7 @@ public int getArgb()
 ```
 
 
-Gets and sets the color from a 32-bit ARGB value.
+the color from a 32-bit ARGB value.
 
 **Returns:**
 int
@@ -82,7 +82,7 @@ public Color getColor()
 ```
 
 
-Gets and sets the RGB color.
+the RGB color.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -92,7 +92,7 @@ public int getColorIndex()
 ```
 
 
-Gets and sets the color index in the color palette. Only applies of indexed color.
+the color index in the color palette. Only applies of indexed color.
 
 **Returns:**
 int
@@ -112,7 +112,7 @@ public double getTransparency()
 ```
 
 
-Gets and sets transparency as a value from 0.0 (opaque) through 1.0 (clear).
+transparency as a value from 0.0 (opaque) through 1.0 (clear).
 
 **Returns:**
 double
@@ -142,7 +142,7 @@ public boolean isShapeColor()
 ```
 
 
-Gets and set the color which should apply to cell or shape. The expression of the color of the cell and the shape is different. For example: the theme color with same tint value will be not same in the cell and the shape.
+the color which should apply to cell or shape. The expression of the color of the cell and the shape is different. For example: the theme color with same tint value will be not same in the cell and the shape.
 
 **Returns:**
 boolean

@@ -19,10 +19,10 @@ Represents line and arrowhead formatting.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBackColor()](#getBackColor--) | Gets and sets the border line back color. |
+| [getBackColor()](#getBackColor--) | the border line back color. |
 | [getClass()](#getClass--) |  |
-| [getDashStyle()](#getDashStyle--) | Gets or sets the dash style for the specified line. |
-| [getForeColor()](#getForeColor--) | Gets and sets the border line fore color. |
+| [getDashStyle()](#getDashStyle--) | the dash style for the specified line. |
+| [getForeColor()](#getForeColor--) | the border line fore color. |
 | [getStyle()](#getStyle--) | Returns a Style object that represents the style of the specified range. |
 | [getTransparency()](#getTransparency--) | Returns or sets the degree of transparency of the specified fill as a value from 0.0 (opaque) through 1.0 (clear). |
 | [getWeight()](#getWeight--) | Returns or sets the weight of the line ,in units of pt. |
@@ -62,7 +62,7 @@ public Color getBackColor()
 ```
 
 
-Gets and sets the border line back color.
+the border line back color.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -82,7 +82,7 @@ public int getDashStyle()
 ```
 
 
-Gets or sets the dash style for the specified line.
+the dash style for the specified line.
 
 **Returns:**
 int
@@ -92,7 +92,7 @@ public Color getForeColor()
 ```
 
 
-Gets and sets the border line fore color.
+the border line fore color.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)

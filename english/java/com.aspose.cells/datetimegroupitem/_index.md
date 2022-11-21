@@ -25,14 +25,14 @@ Represents the datetime's group setting.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDateTimeGroupingType()](#getDateTimeGroupingType--) | Gets and sets the group type. |
-| [getDay()](#getDay--) | Gets and sets the day of the grouped date time. |
-| [getHour()](#getHour--) | Gets and sets the hour of the grouped date time. |
+| [getDateTimeGroupingType()](#getDateTimeGroupingType--) | the group type. |
+| [getDay()](#getDay--) | the day of the grouped date time. |
+| [getHour()](#getHour--) | the hour of the grouped date time. |
 | [getMinValue()](#getMinValue--) | Gets the min value. |
-| [getMinute()](#getMinute--) | Gets and sets the minute of the grouped date time. |
-| [getMonth()](#getMonth--) | Gets and sets the month of the grouped date time. |
-| [getSecond()](#getSecond--) | Gets and sets the second of the grouped date time. |
-| [getYear()](#getYear--) | Gets and sets the year of the grouped date time. |
+| [getMinute()](#getMinute--) | the minute of the grouped date time. |
+| [getMonth()](#getMonth--) | the month of the grouped date time. |
+| [getSecond()](#getSecond--) | the second of the grouped date time. |
+| [getYear()](#getYear--) | the year of the grouped date time. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -97,7 +97,7 @@ public int getDateTimeGroupingType()
 ```
 
 
-Gets and sets the group type.
+the group type.
 
 **Returns:**
 int
@@ -107,7 +107,7 @@ public int getDay()
 ```
 
 
-Gets and sets the day of the grouped date time.
+the day of the grouped date time.
 
 **Returns:**
 int
@@ -117,7 +117,7 @@ public int getHour()
 ```
 
 
-Gets and sets the hour of the grouped date time.
+the hour of the grouped date time.
 
 **Returns:**
 int
@@ -137,7 +137,7 @@ public int getMinute()
 ```
 
 
-Gets and sets the minute of the grouped date time.
+the minute of the grouped date time.
 
 **Returns:**
 int
@@ -147,7 +147,7 @@ public int getMonth()
 ```
 
 
-Gets and sets the month of the grouped date time.
+the month of the grouped date time.
 
 **Returns:**
 int
@@ -157,7 +157,7 @@ public int getSecond()
 ```
 
 
-Gets and sets the second of the grouped date time.
+the second of the grouped date time.
 
 **Returns:**
 int
@@ -167,7 +167,7 @@ public int getYear()
 ```
 
 
-Gets and sets the year of the grouped date time.
+the year of the grouped date time.
 
 **Returns:**
 int

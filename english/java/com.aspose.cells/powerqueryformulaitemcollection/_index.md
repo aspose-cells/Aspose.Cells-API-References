@@ -14,11 +14,6 @@ public class PowerQueryFormulaItemCollection extends CollectionBase
 ```
 
 Represents all item of the power query formula.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PowerQueryFormulaItemCollection()](#PowerQueryFormulaItemCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -41,12 +36,6 @@ Represents all item of the power query formula.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### PowerQueryFormulaItemCollection() {#PowerQueryFormulaItemCollection--}
-```
-public PowerQueryFormulaItemCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

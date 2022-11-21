@@ -68,7 +68,7 @@ Workbook workbook = new Workbook();
 | [getPicture(boolean isHeader, int section)](#getPicture-boolean-int-) | Gets the [Picture](../../com.aspose.cells/picture) object of the header / footer. |
 | [getPrintArea()](#getPrintArea--) | Represents the range to be printed. |
 | [getPrintComments()](#getPrintComments--) | Represents the way comments are printed with the sheet. |
-| [getPrintCopies()](#getPrintCopies--) | Get and sets number of copies to print. |
+| [getPrintCopies()](#getPrintCopies--) | number of copies to print. |
 | [getPrintDraft()](#getPrintDraft--) | Represents if the sheet will be printed without graphics. |
 | [getPrintErrors()](#getPrintErrors--) | Specifies the type of print error displayed. |
 | [getPrintGridlines()](#getPrintGridlines--) | Represents if cell gridlines are printed on the page. |
@@ -76,7 +76,7 @@ Workbook workbook = new Workbook();
 | [getPrintQuality()](#getPrintQuality--) | Represents the print quality. |
 | [getPrintTitleColumns()](#getPrintTitleColumns--) | Represents the columns that contain the cells to be repeated on the left side of each page. |
 | [getPrintTitleRows()](#getPrintTitleRows--) | Represents the rows that contain the cells to be repeated at the top of each page. |
-| [getPrinterSettings()](#getPrinterSettings--) | Gets and sets the settings of the default printer. |
+| [getPrinterSettings()](#getPrinterSettings--) | the settings of the default printer. |
 | [getRightMargin()](#getRightMargin--) | Represents the size of the right margin, in unit of centimeters. |
 | [getRightMarginInch()](#getRightMarginInch--) | Represents the size of the right margin, in unit of inches. |
 | [getTopMargin()](#getTopMargin--) | Represents the size of the top margin, in unit of centimeters. |
@@ -571,7 +571,7 @@ public int getPrintCopies()
 ```
 
 
-Get and sets number of copies to print.
+number of copies to print.
 
 **Returns:**
 int
@@ -659,7 +659,7 @@ public byte[] getPrinterSettings()
 ```
 
 
-Gets and sets the settings of the default printer.
+the settings of the default printer.
 
 **Returns:**
 byte[]

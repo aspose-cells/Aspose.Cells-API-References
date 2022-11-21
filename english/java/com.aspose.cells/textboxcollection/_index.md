@@ -29,11 +29,6 @@ Encapsulates a collection of [TextBox](../../com.aspose.cells/textbox) objects.
  
          //do your business
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TextBoxCollection()](#TextBoxCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -57,12 +52,6 @@ Encapsulates a collection of [TextBox](../../com.aspose.cells/textbox) objects.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### TextBoxCollection() {#TextBoxCollection--}
-```
-public TextBoxCollection()
-```
-
-
 ### add(int upperLeftRow, int upperLeftColumn, int height, int width) {#add-int-int-int-int-}
 ```
 public int add(int upperLeftRow, int upperLeftColumn, int height, int width)

@@ -36,11 +36,6 @@ Workbook book = new Workbook();
          group.getSparklineCollection().add(sheet.getName() + "!A1:D1", 0, 4);
          book.save("output.xlsx", SaveFormat.XLSX);
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SparklineCollection()](#SparklineCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -64,12 +59,6 @@ Workbook book = new Workbook();
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### SparklineCollection() {#SparklineCollection--}
-```
-public SparklineCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

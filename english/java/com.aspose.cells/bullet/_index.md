@@ -21,8 +21,8 @@ Represents the bullet.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBulletValue()](#getBulletValue--) | Gets bullet value |
 | [getClass()](#getClass--) |  |
-| [getFontName()](#getFontName--) | Get and sets the name of the font. |
-| [getType()](#getType--) | Gets and sets the bullet type. |
+| [getFontName()](#getFontName--) | the name of the font. |
+| [getType()](#getType--) | the bullet type. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -73,7 +73,7 @@ public String getFontName()
 ```
 
 
-Get and sets the name of the font.
+the name of the font.
 
 **Returns:**
 java.lang.String
@@ -83,7 +83,7 @@ public int getType()
 ```
 
 
-Gets and sets the bullet type.
+the bullet type.
 
 **Returns:**
 int

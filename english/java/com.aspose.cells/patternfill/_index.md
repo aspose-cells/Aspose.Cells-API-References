@@ -14,24 +14,19 @@ public class PatternFill extends Fill
 ```
 
 Encapsulates the object that represents pattern fill format
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PatternFill()](#PatternFill--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) | / |
-| [getBackTransparency()](#getBackTransparency--) | Gets or sets the transparency of background color. |
-| [getBackgroundCellsColor()](#getBackgroundCellsColor--) | Gets and sets the foreground [CellsColor](../../com.aspose.cells/cellscolor) object. |
-| [getBackgroundColor()](#getBackgroundColor--) | Gets or sets the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area). |
+| [getBackTransparency()](#getBackTransparency--) | the transparency of background color. |
+| [getBackgroundCellsColor()](#getBackgroundCellsColor--) | the foreground [CellsColor](../../com.aspose.cells/cellscolor) object. |
+| [getBackgroundColor()](#getBackgroundColor--) | the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area). |
 | [getClass()](#getClass--) |  |
-| [getForeTransparency()](#getForeTransparency--) | Gets or sets the transparency of foreground color. |
-| [getForegroundCellsColor()](#getForegroundCellsColor--) | Gets and sets the foreground [CellsColor](../../com.aspose.cells/cellscolor) object. |
-| [getForegroundColor()](#getForegroundColor--) | Gets or sets the foreground [Color](../../com.aspose.cells/color). |
-| [getPattern()](#getPattern--) | Gets or sets the fill pattern type |
+| [getForeTransparency()](#getForeTransparency--) | the transparency of foreground color. |
+| [getForegroundCellsColor()](#getForegroundCellsColor--) | the foreground [CellsColor](../../com.aspose.cells/cellscolor) object. |
+| [getForegroundColor()](#getForegroundColor--) | the foreground [Color](../../com.aspose.cells/color). |
+| [getPattern()](#getPattern--) | the fill pattern type |
 | [hashCode()](#hashCode--) | Gets the hash code. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -46,12 +41,6 @@ Encapsulates the object that represents pattern fill format
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### PatternFill() {#PatternFill--}
-```
-public PatternFill()
-```
-
-
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -73,7 +62,7 @@ public double getBackTransparency()
 ```
 
 
-Gets or sets the transparency of background color.
+the transparency of background color.
 
 **Returns:**
 double
@@ -83,7 +72,7 @@ public CellsColor getBackgroundCellsColor()
 ```
 
 
-Gets and sets the foreground [CellsColor](../../com.aspose.cells/cellscolor) object.
+the foreground [CellsColor](../../com.aspose.cells/cellscolor) object.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -93,7 +82,7 @@ public Color getBackgroundColor()
 ```
 
 
-Gets or sets the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area).
+the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area).
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -113,7 +102,7 @@ public double getForeTransparency()
 ```
 
 
-Gets or sets the transparency of foreground color.
+the transparency of foreground color.
 
 **Returns:**
 double
@@ -123,7 +112,7 @@ public CellsColor getForegroundCellsColor()
 ```
 
 
-Gets and sets the foreground [CellsColor](../../com.aspose.cells/cellscolor) object.
+the foreground [CellsColor](../../com.aspose.cells/cellscolor) object.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -133,7 +122,7 @@ public Color getForegroundColor()
 ```
 
 
-Gets or sets the foreground [Color](../../com.aspose.cells/color).
+the foreground [Color](../../com.aspose.cells/color).
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -143,7 +132,7 @@ public int getPattern()
 ```
 
 
-Gets or sets the fill pattern type
+the fill pattern type
 
 **Returns:**
 int

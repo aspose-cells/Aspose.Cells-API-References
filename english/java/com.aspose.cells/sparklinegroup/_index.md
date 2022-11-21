@@ -54,19 +54,19 @@ Workbook book = new Workbook();
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getDisplayHidden()](#getDisplayHidden--) | Indicates whether to show data in hidden rows and columns. |
-| [getFirstPointColor()](#getFirstPointColor--) | Gets and sets the color of the first point of data in the sparkline group. |
-| [getHighPointColor()](#getHighPointColor--) | Gets and sets the color of the highest points of data in the sparkline group. |
-| [getHorizontalAxisColor()](#getHorizontalAxisColor--) | Gets and sets the color of the horizontal axis in the sparkline group. |
+| [getFirstPointColor()](#getFirstPointColor--) | the color of the first point of data in the sparkline group. |
+| [getHighPointColor()](#getHighPointColor--) | the color of the highest points of data in the sparkline group. |
+| [getHorizontalAxisColor()](#getHorizontalAxisColor--) | the color of the horizontal axis in the sparkline group. |
 | [getHorizontalAxisDateRange()](#getHorizontalAxisDateRange--) | Represents the range that contains the date values for the sparkline data. |
-| [getLastPointColor()](#getLastPointColor--) | Gets and sets the color of the last point of data in the sparkline group. |
-| [getLineWeight()](#getLineWeight--) | Gets and sets the line weight in each line sparkline in the sparkline group, in the unit of points. |
-| [getLowPointColor()](#getLowPointColor--) | Gets and sets the color of the lowest points of data in the sparkline group. |
-| [getMarkersColor()](#getMarkersColor--) | Gets and sets the color of points in each line sparkline in the sparkline group. |
-| [getNegativePointsColor()](#getNegativePointsColor--) | Gets and sets the color of the negative values on the sparkline group. |
+| [getLastPointColor()](#getLastPointColor--) | the color of the last point of data in the sparkline group. |
+| [getLineWeight()](#getLineWeight--) | the line weight in each line sparkline in the sparkline group, in the unit of points. |
+| [getLowPointColor()](#getLowPointColor--) | the color of the lowest points of data in the sparkline group. |
+| [getMarkersColor()](#getMarkersColor--) | the color of points in each line sparkline in the sparkline group. |
+| [getNegativePointsColor()](#getNegativePointsColor--) | the color of the negative values on the sparkline group. |
 | [getPlotEmptyCellsType()](#getPlotEmptyCellsType--) | Indicates how to plot empty cells. |
 | [getPlotRightToLeft()](#getPlotRightToLeft--) | Indicates whether the plot data is right to left. |
-| [getPresetStyle()](#getPresetStyle--) | Gets and sets the preset style type of the sparkline group. |
-| [getSeriesColor()](#getSeriesColor--) | Gets and sets the color of the sparklines in the sparkline group. |
+| [getPresetStyle()](#getPresetStyle--) | the preset style type of the sparkline group. |
+| [getSeriesColor()](#getSeriesColor--) | the color of the sparklines in the sparkline group. |
 | [getShowFirstPoint()](#getShowFirstPoint--) | Indicates whether to highlight the first point of data in the sparkline group. |
 | [getShowHighPoint()](#getShowHighPoint--) | Indicates whether to highlight the highest points of data in the sparkline group. |
 | [getShowHorizontalAxis()](#getShowHorizontalAxis--) | Indicates whether to show the sparkline horizontal axis. |
@@ -77,9 +77,9 @@ Workbook book = new Workbook();
 | [getSparklineCollection()](#getSparklineCollection--) | Gets the collection of [Sparkline](../../com.aspose.cells/sparkline) object. |
 | [getSparklines()](#getSparklines--) | Gets the collection of [Sparkline](../../com.aspose.cells/sparkline) object. |
 | [getType()](#getType--) | Indicates the sparkline type of the sparkline group. |
-| [getVerticalAxisMaxValue()](#getVerticalAxisMaxValue--) | Gets and sets the custom maximum value for the vertical axis. |
+| [getVerticalAxisMaxValue()](#getVerticalAxisMaxValue--) | the custom maximum value for the vertical axis. |
 | [getVerticalAxisMaxValueType()](#getVerticalAxisMaxValueType--) | Represents the vertical axis maximum value type. |
-| [getVerticalAxisMinValue()](#getVerticalAxisMinValue--) | Gets and sets the custom minimum value for the vertical axis. |
+| [getVerticalAxisMinValue()](#getVerticalAxisMinValue--) | the custom minimum value for the vertical axis. |
 | [getVerticalAxisMinValueType()](#getVerticalAxisMinValueType--) | Represents the vertical axis minimum value type. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -156,7 +156,7 @@ public CellsColor getFirstPointColor()
 ```
 
 
-Gets and sets the color of the first point of data in the sparkline group.
+the color of the first point of data in the sparkline group.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -166,7 +166,7 @@ public CellsColor getHighPointColor()
 ```
 
 
-Gets and sets the color of the highest points of data in the sparkline group.
+the color of the highest points of data in the sparkline group.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -176,7 +176,7 @@ public CellsColor getHorizontalAxisColor()
 ```
 
 
-Gets and sets the color of the horizontal axis in the sparkline group.
+the color of the horizontal axis in the sparkline group.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -196,7 +196,7 @@ public CellsColor getLastPointColor()
 ```
 
 
-Gets and sets the color of the last point of data in the sparkline group.
+the color of the last point of data in the sparkline group.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -206,7 +206,7 @@ public double getLineWeight()
 ```
 
 
-Gets and sets the line weight in each line sparkline in the sparkline group, in the unit of points.
+the line weight in each line sparkline in the sparkline group, in the unit of points.
 
 **Returns:**
 double
@@ -216,7 +216,7 @@ public CellsColor getLowPointColor()
 ```
 
 
-Gets and sets the color of the lowest points of data in the sparkline group.
+the color of the lowest points of data in the sparkline group.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -226,7 +226,7 @@ public CellsColor getMarkersColor()
 ```
 
 
-Gets and sets the color of points in each line sparkline in the sparkline group.
+the color of points in each line sparkline in the sparkline group.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -236,7 +236,7 @@ public CellsColor getNegativePointsColor()
 ```
 
 
-Gets and sets the color of the negative values on the sparkline group.
+the color of the negative values on the sparkline group.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -266,7 +266,7 @@ public int getPresetStyle()
 ```
 
 
-Gets and sets the preset style type of the sparkline group.
+the preset style type of the sparkline group.
 
 **Returns:**
 int
@@ -276,7 +276,7 @@ public CellsColor getSeriesColor()
 ```
 
 
-Gets and sets the color of the sparklines in the sparkline group.
+the color of the sparklines in the sparkline group.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -386,7 +386,7 @@ public double getVerticalAxisMaxValue()
 ```
 
 
-Gets and sets the custom maximum value for the vertical axis.
+the custom maximum value for the vertical axis.
 
 **Returns:**
 double
@@ -406,7 +406,7 @@ public double getVerticalAxisMinValue()
 ```
 
 
-Gets and sets the custom minimum value for the vertical axis.
+the custom minimum value for the vertical axis.
 
 **Returns:**
 double

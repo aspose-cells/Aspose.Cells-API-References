@@ -20,9 +20,9 @@ Represents the person who creates the threaded comments;
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getName()](#getName--) | Gets and sets the name. |
+| [getName()](#getName--) | the name. |
 | [getProviderId()](#getProviderId--) | Gets the id of the provider. |
-| [getUserId()](#getUserId--) | Gets and sets the id of the user. |
+| [getUserId()](#getUserId--) | the id of the user. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -64,7 +64,7 @@ public String getName()
 ```
 
 
-Gets and sets the name.
+the name.
 
 **Returns:**
 java.lang.String
@@ -84,7 +84,7 @@ public String getUserId()
 ```
 
 
-Gets and sets the id of the user.
+the id of the user.
 
 **Returns:**
 java.lang.String

@@ -14,11 +14,6 @@ public class CustomGeometry extends Geometry
 ```
 
 Represents a custom geometric shape.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [CustomGeometry()](#CustomGeometry--) |  |
 ## Methods
 
 | Method | Description |
@@ -34,12 +29,6 @@ Represents a custom geometric shape.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### CustomGeometry() {#CustomGeometry--}
-```
-public CustomGeometry()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

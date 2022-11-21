@@ -14,11 +14,6 @@ public class LegendEntryCollection extends CollectionBase
 ```
 
 Represents a collection of all the [LegendEntry](../../com.aspose.cells/legendentry) objects in the specified chart legend.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LegendEntryCollection()](#LegendEntryCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -40,12 +35,6 @@ Represents a collection of all the [LegendEntry](../../com.aspose.cells/legenden
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### LegendEntryCollection() {#LegendEntryCollection--}
-```
-public LegendEntryCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

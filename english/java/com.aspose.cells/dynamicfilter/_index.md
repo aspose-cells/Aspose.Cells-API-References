@@ -20,9 +20,9 @@ Represents the dynamic filter.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDynamicFilterType()](#getDynamicFilterType--) | Gets and sets the dynamic filter type. |
-| [getMaxValue()](#getMaxValue--) | Gets and sets the dynamic filter max value. |
-| [getValue()](#getValue--) | Gets and sets the dynamic filter value. |
+| [getDynamicFilterType()](#getDynamicFilterType--) | the dynamic filter type. |
+| [getMaxValue()](#getMaxValue--) | the dynamic filter max value. |
+| [getValue()](#getValue--) | the dynamic filter value. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -64,7 +64,7 @@ public int getDynamicFilterType()
 ```
 
 
-Gets and sets the dynamic filter type.
+the dynamic filter type.
 
 **Returns:**
 int
@@ -74,7 +74,7 @@ public Object getMaxValue()
 ```
 
 
-Gets and sets the dynamic filter max value.
+the dynamic filter max value.
 
 **Returns:**
 java.lang.Object
@@ -84,7 +84,7 @@ public Object getValue()
 ```
 
 
-Gets and sets the dynamic filter value.
+the dynamic filter value.
 
 **Returns:**
 java.lang.Object

@@ -14,11 +14,6 @@ public class PowerQueryFormulaParameterCollection extends CollectionBase
 ```
 
 Represents the
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PowerQueryFormulaParameterCollection()](#PowerQueryFormulaParameterCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -41,12 +36,6 @@ Represents the
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### PowerQueryFormulaParameterCollection() {#PowerQueryFormulaParameterCollection--}
-```
-public PowerQueryFormulaParameterCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

@@ -14,11 +14,6 @@ public class AutomaticFill extends Fill
 ```
 
 represents automatic fill.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [AutomaticFill()](#AutomaticFill--) |  |
 ## Methods
 
 | Method | Description |
@@ -32,12 +27,6 @@ represents automatic fill.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### AutomaticFill() {#AutomaticFill--}
-```
-public AutomaticFill()
-```
-
-
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)

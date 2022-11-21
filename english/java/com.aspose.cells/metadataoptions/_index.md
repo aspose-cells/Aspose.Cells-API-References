@@ -26,7 +26,7 @@ Represents the options of loading metadata of the file.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getKeyLength()](#getKeyLength--) | The key length. |
-| [getMetadataType()](#getMetadataType--) | Gets and sets the type of the metadata which is loading. |
+| [getMetadataType()](#getMetadataType--) | the type of the metadata which is loading. |
 | [getPassword()](#getPassword--) | Represents Workbook file encryption password. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -91,7 +91,7 @@ public int getMetadataType()
 ```
 
 
-Gets and sets the type of the metadata which is loading.
+the type of the metadata which is loading.
 
 **Returns:**
 int

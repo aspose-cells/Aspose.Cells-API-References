@@ -14,31 +14,26 @@ public abstract class ActiveXControl extends ActiveXControlBase
 ```
 
 Represents the ActiveX control.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ActiveXControl()](#ActiveXControl--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBackOleColor()](#getBackOleColor--) | Gets and sets the ole color of the background. |
+| [getBackOleColor()](#getBackOleColor--) | the ole color of the background. |
 | [getClass()](#getClass--) |  |
-| [getData()](#getData--) | Gets and sets the binary data of the control. |
+| [getData()](#getData--) | the binary data of the control. |
 | [getFont()](#getFont--) | Represents the font of the control. |
-| [getForeOleColor()](#getForeOleColor--) | Gets and sets the ole color of the foreground. |
-| [getHeight()](#getHeight--) | Gets and sets the height of the control in unit of points. |
-| [getIMEMode()](#getIMEMode--) | Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus. |
-| [getLinkedCell()](#getLinkedCell--) | Gets and sets the linked cell. |
-| [getListFillRange()](#getListFillRange--) | Gets and sets the list fill range. |
-| [getMouseIcon()](#getMouseIcon--) | Gets and sets a custom icon to display as the mouse pointer for the control. |
-| [getMousePointer()](#getMousePointer--) | Gets and sets the type of icon displayed as the mouse pointer for the control. |
+| [getForeOleColor()](#getForeOleColor--) | the ole color of the foreground. |
+| [getHeight()](#getHeight--) | the height of the control in unit of points. |
+| [getIMEMode()](#getIMEMode--) | the default run-time mode of the Input Method Editor for the control as it receives focus. |
+| [getLinkedCell()](#getLinkedCell--) | the linked cell. |
+| [getListFillRange()](#getListFillRange--) | the list fill range. |
+| [getMouseIcon()](#getMouseIcon--) | a custom icon to display as the mouse pointer for the control. |
+| [getMousePointer()](#getMousePointer--) | the type of icon displayed as the mouse pointer for the control. |
 | [getShadow()](#getShadow--) | Indicates whether to show a shadow. |
 | [getTextAlign()](#getTextAlign--) | Represents how to align the text used by the control. |
 | [getType()](#getType--) | Gets the type of the ActiveX control. |
-| [getWidth()](#getWidth--) | Gets and sets the width of the control in unit of points. |
+| [getWidth()](#getWidth--) | the width of the control in unit of points. |
 | [getWorkbook()](#getWorkbook--) | Gets the [Workbook](../../com.aspose.cells/workbook) object. |
 | [hashCode()](#hashCode--) |  |
 | [isAutoSize()](#isAutoSize--) | Indicates whether the control will automatically resize to display its entire contents. |
@@ -68,12 +63,6 @@ Represents the ActiveX control.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ActiveXControl() {#ActiveXControl--}
-```
-public ActiveXControl()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -95,7 +84,7 @@ public int getBackOleColor()
 ```
 
 
-Gets and sets the ole color of the background.
+the ole color of the background.
 
 **Returns:**
 int
@@ -115,7 +104,7 @@ public byte[] getData()
 ```
 
 
-Gets and sets the binary data of the control.
+the binary data of the control.
 
 **Returns:**
 byte[]
@@ -135,7 +124,7 @@ public int getForeOleColor()
 ```
 
 
-Gets and sets the ole color of the foreground. Not applies to Image control.
+the ole color of the foreground. Not applies to Image control.
 
 **Returns:**
 int
@@ -145,7 +134,7 @@ public double getHeight()
 ```
 
 
-Gets and sets the height of the control in unit of points.
+the height of the control in unit of points.
 
 **Returns:**
 double
@@ -155,7 +144,7 @@ public int getIMEMode()
 ```
 
 
-Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus.
+the default run-time mode of the Input Method Editor for the control as it receives focus.
 
 **Returns:**
 int
@@ -165,7 +154,7 @@ public String getLinkedCell()
 ```
 
 
-Gets and sets the linked cell.
+the linked cell.
 
 **Returns:**
 java.lang.String
@@ -175,7 +164,7 @@ public String getListFillRange()
 ```
 
 
-Gets and sets the list fill range.
+the list fill range.
 
 **Returns:**
 java.lang.String
@@ -185,7 +174,7 @@ public byte[] getMouseIcon()
 ```
 
 
-Gets and sets a custom icon to display as the mouse pointer for the control.
+a custom icon to display as the mouse pointer for the control.
 
 **Returns:**
 byte[]
@@ -195,7 +184,7 @@ public int getMousePointer()
 ```
 
 
-Gets and sets the type of icon displayed as the mouse pointer for the control.
+the type of icon displayed as the mouse pointer for the control.
 
 **Returns:**
 int
@@ -235,7 +224,7 @@ public double getWidth()
 ```
 
 
-Gets and sets the width of the control in unit of points.
+the width of the control in unit of points.
 
 **Returns:**
 double

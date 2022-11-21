@@ -14,11 +14,6 @@ public class QueryTableCollection extends CollectionBase
 ```
 
 A collection of [QueryTableCollection](../../com.aspose.cells/querytablecollection) objects that represent QueryTable collection information.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [QueryTableCollection()](#QueryTableCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -40,12 +35,6 @@ A collection of [QueryTableCollection](../../com.aspose.cells/querytablecollecti
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### QueryTableCollection() {#QueryTableCollection--}
-```
-public QueryTableCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

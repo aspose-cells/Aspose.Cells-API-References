@@ -14,11 +14,6 @@ public class GradientFill extends Fill
 ```
 
 Represents the gradient fill.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [GradientFill()](#GradientFill--) |  |
 ## Methods
 
 | Method | Description |
@@ -51,12 +46,6 @@ Represents the gradient fill.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### GradientFill() {#GradientFill--}
-```
-public GradientFill()
-```
-
-
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)

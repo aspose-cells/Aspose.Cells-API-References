@@ -14,11 +14,6 @@ public class DBConnection extends ExternalConnection
 ```
 
 Specifies all properties associated with an ODBC or OLE DB external data connection.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [DBConnection()](#DBConnection--) |  |
 ## Methods
 
 | Method | Description |
@@ -49,7 +44,7 @@ Specifies all properties associated with an ODBC or OLE DB external data connect
 | [getSavePassword()](#getSavePassword--) | True if the password is to be saved as part of the connection string; otherwise, False. |
 | [getSeverCommand()](#getSeverCommand--) | Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. |
 | [getSourceFile()](#getSourceFile--) | Used when the external data source is file-based. |
-| [getType()](#getType--) | Gets or Sets the external connection DataSource type. |
+| [getType()](#getType--) | the external connection DataSource type. |
 | [hashCode()](#hashCode--) |  |
 | [isDeleted()](#isDeleted--) | Indicates whether the associated workbook connection has been deleted. |
 | [isNew()](#isNew--) | True if the connection has not been refreshed for the first time; otherwise, false. |
@@ -82,12 +77,6 @@ Specifies all properties associated with an ODBC or OLE DB external data connect
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### DBConnection() {#DBConnection--}
-```
-public DBConnection()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -359,7 +348,7 @@ public int getType()
 ```
 
 
-Gets or Sets the external connection DataSource type.
+the external connection DataSource type.
 
 **Returns:**
 int

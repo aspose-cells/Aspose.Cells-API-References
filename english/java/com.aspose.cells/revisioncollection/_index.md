@@ -14,11 +14,6 @@ public class RevisionCollection extends CollectionBase
 ```
 
 Represents all revision logs.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [RevisionCollection()](#RevisionCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -40,12 +35,6 @@ Represents all revision logs.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### RevisionCollection() {#RevisionCollection--}
-```
-public RevisionCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

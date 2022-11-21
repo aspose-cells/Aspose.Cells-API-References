@@ -19,10 +19,10 @@ Represents a binding relationship between an Office Add-in and the data in the d
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAppref()](#getAppref--) | Gets and sets the binding key used to map the binding entry in this list with the bound data in the document. |
+| [getAppref()](#getAppref--) | the binding key used to map the binding entry in this list with the bound data in the document. |
 | [getClass()](#getClass--) |  |
-| [getId()](#getId--) | Gets and sets the binding identifier. |
-| [getType()](#getType--) | Gets and sets the binding type. |
+| [getId()](#getId--) | the binding identifier. |
+| [getType()](#getType--) | the binding type. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -54,7 +54,7 @@ public String getAppref()
 ```
 
 
-Gets and sets the binding key used to map the binding entry in this list with the bound data in the document.
+the binding key used to map the binding entry in this list with the bound data in the document.
 
 **Returns:**
 java.lang.String
@@ -74,7 +74,7 @@ public String getId()
 ```
 
 
-Gets and sets the binding identifier.
+the binding identifier.
 
 **Returns:**
 java.lang.String
@@ -84,7 +84,7 @@ public String getType()
 ```
 
 
-Gets and sets the binding type.
+the binding type.
 
 **Returns:**
 java.lang.String

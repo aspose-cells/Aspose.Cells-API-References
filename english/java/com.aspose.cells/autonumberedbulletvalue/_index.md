@@ -14,11 +14,6 @@ public class AutoNumberedBulletValue extends BulletValue
 ```
 
 Represents automatic numbered bullet.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [AutoNumberedBulletValue()](#AutoNumberedBulletValue--) |  |
 ## Methods
 
 | Method | Description |
@@ -26,7 +21,7 @@ Represents automatic numbered bullet.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAutonumberScheme()](#getAutonumberScheme--) | Represents the scheme of automatic number. |
 | [getClass()](#getClass--) |  |
-| [getStartAt()](#getStartAt--) | Gets and sets the starting number of the bullet. |
+| [getStartAt()](#getStartAt--) | the starting number of the bullet. |
 | [getType()](#getType--) | Gets the type of the bullet. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -37,12 +32,6 @@ Represents automatic numbered bullet.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### AutoNumberedBulletValue() {#AutoNumberedBulletValue--}
-```
-public AutoNumberedBulletValue()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -84,7 +73,7 @@ public int getStartAt()
 ```
 
 
-Gets and sets the starting number of the bullet.
+the starting number of the bullet.
 
 **Returns:**
 int

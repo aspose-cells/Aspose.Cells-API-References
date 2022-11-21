@@ -22,7 +22,7 @@ Represents an Office Add-in instance.
 | [getAlterReferences()](#getAlterReferences--) | Gets a list of alter references. |
 | [getBindings()](#getBindings--) | Gets all bindings relationship between an Office Add-in and the data in the document. |
 | [getClass()](#getClass--) |  |
-| [getId()](#getId--) | Gets and sets the uniquely identifies the Office Add-in instance in the current document. |
+| [getId()](#getId--) | the uniquely identifies the Office Add-in instance in the current document. |
 | [getProperties()](#getProperties--) | Gets all properties of web extension. |
 | [getReference()](#getReference--) | Get the primary reference to an Office Add-in. |
 | [hashCode()](#hashCode--) |  |
@@ -86,7 +86,7 @@ public String getId()
 ```
 
 
-Gets and sets the uniquely identifies the Office Add-in instance in the current document.
+the uniquely identifies the Office Add-in instance in the current document.
 
 **Returns:**
 java.lang.String

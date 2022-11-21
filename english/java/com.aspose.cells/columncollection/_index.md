@@ -55,11 +55,6 @@ Collection of the [Column](../../com.aspose.cells/column) objects that represent
          //Saving the Excel file
          workbook.save("book1.xls");
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ColumnCollection()](#ColumnCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -83,12 +78,6 @@ Collection of the [Column](../../com.aspose.cells/column) objects that represent
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ColumnCollection() {#ColumnCollection--}
-```
-public ColumnCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

@@ -20,9 +20,9 @@ Represents the properties of series layout.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getMapChartProjectionType()](#getMapChartProjectionType--) | Gets and sets the projection type of the map. |
-| [getMapChartRegionType()](#getMapChartRegionType--) | Gets and sets the region type of the map. |
-| [getMapLabelLayout()](#getMapLabelLayout--) | Gets and sets the layout of map labels. |
+| [getMapChartProjectionType()](#getMapChartProjectionType--) | the projection type of the map. |
+| [getMapChartRegionType()](#getMapChartRegionType--) | the region type of the map. |
+| [getMapLabelLayout()](#getMapLabelLayout--) | the layout of map labels. |
 | [getQuartileCalculation()](#getQuartileCalculation--) | Represents the statistical properties for the series. |
 | [getShowConnectorLines()](#getShowConnectorLines--) | Indicates whether showing connector lines between data points. |
 | [getShowInnerPoints()](#getShowInnerPoints--) | Indicates whether showing non-outlier data points. |
@@ -78,7 +78,7 @@ public int getMapChartProjectionType()
 ```
 
 
-Gets and sets the projection type of the map.
+the projection type of the map.
 
 **Returns:**
 int
@@ -88,7 +88,7 @@ public int getMapChartRegionType()
 ```
 
 
-Gets and sets the region type of the map.
+the region type of the map.
 
 **Returns:**
 int
@@ -98,7 +98,7 @@ public int getMapLabelLayout()
 ```
 
 
-Gets and sets the layout of map labels.
+the layout of map labels.
 
 **Returns:**
 int

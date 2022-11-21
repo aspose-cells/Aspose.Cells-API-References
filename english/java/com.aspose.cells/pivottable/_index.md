@@ -121,7 +121,7 @@ Workbook book = new Workbook();
 | [getDataBodyRange()](#getDataBodyRange--) | Returns a CellArea object that represents the range that contains the data area in the list between the header row and the insert row. |
 | [getDataField()](#getDataField--) | Gets a PivotField object that represents all the data fields in a PivotTable. |
 | [getDataFields()](#getDataFields--) | Gets a PivotField object that represents all the data fields in a PivotTable. |
-| [getDataSource()](#getDataSource--) | Gets and sets the data source of the pivot table. |
+| [getDataSource()](#getDataSource--) | the data source of the pivot table. |
 | [getDisplayErrorString()](#getDisplayErrorString--) | Indicates whether the PivotTable report displays a custom string in cells that contain errors. |
 | [getDisplayImmediateItems()](#getDisplayImmediateItems--) | Indicates whether items in the row and column areas are visible when the data area of the PivotTable is empty. |
 | [getDisplayNullString()](#getDisplayNullString--) | Indicates whether the PivotTable report displays a custom string in cells that contain null values. |
@@ -147,8 +147,8 @@ Workbook book = new Workbook();
 | [getPageFields()](#getPageFields--) | Returns a PivotFields object that are currently shown as page fields. |
 | [getPivotFilters()](#getPivotFilters--) | Returns a PivotFilterCollection object. |
 | [getPivotFormatConditions()](#getPivotFormatConditions--) | Gets the Format Conditions of the pivot table. |
-| [getPivotTableStyleName()](#getPivotTableStyleName--) | Gets and sets the pivottable style name. |
-| [getPivotTableStyleType()](#getPivotTableStyleType--) | Gets and sets the built-in pivot table style. |
+| [getPivotTableStyleName()](#getPivotTableStyleName--) | the pivottable style name. |
+| [getPivotTableStyleType()](#getPivotTableStyleType--) | the built-in pivot table style. |
 | [getPreserveFormatting()](#getPreserveFormatting--) | Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated. |
 | [getPrintDrill()](#getPrintDrill--) | Specifies a boolean value that indicates whether drill indicators should be printed. |
 | [getPrintTitles()](#getPrintTitles--) | Indicates whether the print titles for the worksheet are set based on the PivotTable report. |
@@ -636,7 +636,7 @@ public String[] getDataSource()
 ```
 
 
-Gets and sets the data source of the pivot table.
+the data source of the pivot table.
 
 **Returns:**
 java.lang.String[]
@@ -896,7 +896,7 @@ public String getPivotTableStyleName()
 ```
 
 
-Gets and sets the pivottable style name.
+the pivottable style name.
 
 **Returns:**
 java.lang.String
@@ -906,7 +906,7 @@ public int getPivotTableStyleType()
 ```
 
 
-Gets and sets the built-in pivot table style.
+the built-in pivot table style.
 
 **Returns:**
 int

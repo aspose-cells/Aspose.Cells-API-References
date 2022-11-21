@@ -40,7 +40,7 @@ Specifies an external data connection
 | [getSaveData()](#getSaveData--) | True if the external data fetched over the connection to populate a table is to be saved with the workbook; otherwise, false. |
 | [getSavePassword()](#getSavePassword--) | True if the password is to be saved as part of the connection string; otherwise, False. |
 | [getSourceFile()](#getSourceFile--) | Used when the external data source is file-based. |
-| [getType()](#getType--) | Gets or Sets the external connection DataSource type. |
+| [getType()](#getType--) | the external connection DataSource type. |
 | [hashCode()](#hashCode--) |  |
 | [isDeleted()](#isDeleted--) | Indicates whether the associated workbook connection has been deleted. |
 | [isNew()](#isNew--) | True if the connection has not been refreshed for the first time; otherwise, false. |
@@ -300,7 +300,7 @@ public int getType()
 ```
 
 
-Gets or Sets the external connection DataSource type.
+the external connection DataSource type.
 
 **Returns:**
 int

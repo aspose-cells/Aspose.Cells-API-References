@@ -19,13 +19,13 @@ Represents tile picture as texture.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAlignmentType()](#getAlignmentType--) | Gets or sets the alignment for tiling. |
+| [getAlignmentType()](#getAlignmentType--) | the alignment for tiling. |
 | [getClass()](#getClass--) |  |
-| [getMirrorType()](#getMirrorType--) | Gets or sets the mirror type for tiling. |
-| [getOffsetX()](#getOffsetX--) | Gets or sets the X offset for tiling picture. |
-| [getOffsetY()](#getOffsetY--) | Gets or sets the Y offset for tiling picture. |
-| [getScaleX()](#getScaleX--) | Gets or sets the X scale for tiling picture. |
-| [getScaleY()](#getScaleY--) | Gets or sets the Y scale for tiling picture. |
+| [getMirrorType()](#getMirrorType--) | the mirror type for tiling. |
+| [getOffsetX()](#getOffsetX--) | the X offset for tiling picture. |
+| [getOffsetY()](#getOffsetY--) | the Y offset for tiling picture. |
+| [getScaleX()](#getScaleX--) | the X scale for tiling picture. |
+| [getScaleY()](#getScaleY--) | the Y scale for tiling picture. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -60,7 +60,7 @@ public int getAlignmentType()
 ```
 
 
-Gets or sets the alignment for tiling.
+the alignment for tiling.
 
 **Returns:**
 int
@@ -80,7 +80,7 @@ public int getMirrorType()
 ```
 
 
-Gets or sets the mirror type for tiling.
+the mirror type for tiling.
 
 **Returns:**
 int
@@ -90,7 +90,7 @@ public double getOffsetX()
 ```
 
 
-Gets or sets the X offset for tiling picture.
+the X offset for tiling picture.
 
 **Returns:**
 double
@@ -100,7 +100,7 @@ public double getOffsetY()
 ```
 
 
-Gets or sets the Y offset for tiling picture.
+the Y offset for tiling picture.
 
 **Returns:**
 double
@@ -110,7 +110,7 @@ public double getScaleX()
 ```
 
 
-Gets or sets the X scale for tiling picture.
+the X scale for tiling picture.
 
 **Returns:**
 double
@@ -120,7 +120,7 @@ public double getScaleY()
 ```
 
 
-Gets or sets the Y scale for tiling picture.
+the Y scale for tiling picture.
 
 **Returns:**
 double

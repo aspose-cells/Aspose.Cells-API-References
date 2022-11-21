@@ -40,11 +40,6 @@ Workbook workbook = new Workbook();
          //Setting the title of value axis of the chart
          chart.getValueAxis().getTitle().setText("Value");
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Title()](#Title--) |  |
 ## Methods
 
 | Method | Description |
@@ -54,8 +49,8 @@ Workbook workbook = new Workbook();
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getArea()](#getArea--) | Gets the [Area](../../com.aspose.cells/area). |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
-| [getBackground()](#getBackground--) | Gets and sets the display mode of the background NOTE: This member is now obsolete. |
-| [getBackgroundMode()](#getBackgroundMode--) | Gets and sets the display mode of the background |
+| [getBackground()](#getBackground--) | the display mode of the background NOTE: This member is now obsolete. |
+| [getBackgroundMode()](#getBackgroundMode--) | the display mode of the background |
 | [getBorder()](#getBorder--) | Gets the [Line](../../com.aspose.cells/line). |
 | [getCharacters()](#getCharacters--) | Gets rich text formatting of this Title. |
 | [getChart()](#getChart--) | Gets the chart to which this object belongs. |
@@ -64,32 +59,32 @@ Workbook workbook = new Workbook();
 | [getDefaultWidth()](#getDefaultWidth--) | Represents width of default position |
 | [getDefaultX()](#getDefaultX--) | Represents x of default position |
 | [getDefaultY()](#getDefaultY--) | Represents y of default position |
-| [getDirectionType()](#getDirectionType--) | Gets and sets the direction of text. |
+| [getDirectionType()](#getDirectionType--) | the direction of text. |
 | [getFont()](#getFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
-| [getHeight()](#getHeight--) | Gets or sets the height of frame in units of 1/4000 of the chart area. |
-| [getLinkedSource()](#getLinkedSource--) | Gets and sets a reference to the worksheet. |
+| [getHeight()](#getHeight--) | the height of frame in units of 1/4000 of the chart area. |
+| [getLinkedSource()](#getLinkedSource--) | a reference to the worksheet. |
 | [getOverLay()](#getOverLay--) | Represents overlay centered title on chart without resizing chart. |
 | [getReadingOrder()](#getReadingOrder--) | Represents text reading order. |
 | [getRotationAngle()](#getRotationAngle--) | Represents text rotation angle. |
 | [getShadow()](#getShadow--) | True if the frame has a shadow. |
 | [getShapeProperties()](#getShapeProperties--) | Gets the [getShapeProperties()](../../com.aspose.cells/chartframe\#getShapeProperties--) object. |
-| [getText()](#getText--) | Gets or sets the text of display unit label. |
+| [getText()](#getText--) | the text of display unit label. |
 | [getTextDirection()](#getTextDirection--) | Represents text reading order. |
 | [getTextFont()](#getTextFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
-| [getTextHorizontalAlignment()](#getTextHorizontalAlignment--) | Gets and sets the text horizontal alignment. |
-| [getTextOptions()](#getTextOptions--) | Gets and sets the options of the text. |
-| [getTextVerticalAlignment()](#getTextVerticalAlignment--) | Gets or sets the text vertical alignment of text. |
-| [getWidth()](#getWidth--) | Gets or sets the width of frame in units of 1/4000 of the chart area. |
-| [getX()](#getX--) | Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the chart area. |
-| [getY()](#getY--) | Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
+| [getTextHorizontalAlignment()](#getTextHorizontalAlignment--) | the text horizontal alignment. |
+| [getTextOptions()](#getTextOptions--) | the options of the text. |
+| [getTextVerticalAlignment()](#getTextVerticalAlignment--) | the text vertical alignment of text. |
+| [getWidth()](#getWidth--) | the width of frame in units of 1/4000 of the chart area. |
+| [getX()](#getX--) | the x coordinate of the upper left corner in units of 1/4000 of the chart area. |
+| [getY()](#getY--) | the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
 | [hashCode()](#hashCode--) |  |
 | [isAutoText()](#isAutoText--) | Indicates the text is auto generated. |
 | [isAutomaticSize()](#isAutomaticSize--) | Indicates whether the chart frame is automatic sized. |
 | [isDefaultPosBeSet()](#isDefaultPosBeSet--) | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
 | [isDeleted()](#isDeleted--) | Indicates whether this data labels is deleted. |
 | [isInnerMode()](#isInnerMode--) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
-| [isResizeShapeToFitText()](#isResizeShapeToFitText--) | Gets or sets whether a shape should be auto-fit to fully contain the text described within it. |
-| [isTextWrapped()](#isTextWrapped--) | Gets or sets a value indicating whether the text is wrapped. |
+| [isResizeShapeToFitText()](#isResizeShapeToFitText--) | whether a shape should be auto-fit to fully contain the text described within it. |
+| [isTextWrapped()](#isTextWrapped--) | a value indicating whether the text is wrapped. |
 | [isVisible()](#isVisible--) | Represents whether the title is visible. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -122,12 +117,6 @@ Workbook workbook = new Workbook();
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### Title() {#Title--}
-```
-public Title()
-```
-
-
 ### characters() {#characters--}
 ```
 public FontSetting[] characters()
@@ -195,7 +184,7 @@ public int getBackground()
 ```
 
 
-Gets and sets the display mode of the background NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+the display mode of the background NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -205,7 +194,7 @@ public int getBackgroundMode()
 ```
 
 
-Gets and sets the display mode of the background
+the display mode of the background
 
 **Returns:**
 int
@@ -295,7 +284,7 @@ public int getDirectionType()
 ```
 
 
-Gets and sets the direction of text.
+the direction of text.
 
 **Returns:**
 int
@@ -315,7 +304,7 @@ public int getHeight()
 ```
 
 
-Gets or sets the height of frame in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Height In Pixels = Y \* Chart.ChartObject.Height / 4000;
+the height of frame in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Height In Pixels = Y \* Chart.ChartObject.Height / 4000;
 
 **Returns:**
 int
@@ -325,7 +314,7 @@ public String getLinkedSource()
 ```
 
 
-Gets and sets a reference to the worksheet.
+a reference to the worksheet.
 
 **Returns:**
 java.lang.String
@@ -393,7 +382,7 @@ public String getText()
 ```
 
 
-Gets or sets the text of display unit label.
+the text of display unit label.
 
 **Returns:**
 java.lang.String
@@ -423,7 +412,7 @@ public int getTextHorizontalAlignment()
 ```
 
 
-Gets and sets the text horizontal alignment.
+the text horizontal alignment.
 
 **Returns:**
 int
@@ -433,7 +422,7 @@ public TextOptions getTextOptions()
 ```
 
 
-Gets and sets the options of the text.
+the options of the text.
 
 **Returns:**
 [TextOptions](../../com.aspose.cells/textoptions)
@@ -443,7 +432,7 @@ public int getTextVerticalAlignment()
 ```
 
 
-Gets or sets the text vertical alignment of text.
+the text vertical alignment of text.
 
 **Returns:**
 int
@@ -453,7 +442,7 @@ public int getWidth()
 ```
 
 
-Gets or sets the width of frame in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Width In Pixels = Width \* Chart.ChartObject.Height / 4000;
+the width of frame in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Width In Pixels = Width \* Chart.ChartObject.Height / 4000;
 
 **Returns:**
 int
@@ -463,7 +452,7 @@ public int getX()
 ```
 
 
-Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the chart area.
+the x coordinate of the upper left corner in units of 1/4000 of the chart area.
 
 **Returns:**
 int
@@ -473,7 +462,7 @@ public int getY()
 ```
 
 
-Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area.
+the y coordinate of the upper left corner in units of 1/4000 of the chart area.
 
 **Returns:**
 int
@@ -543,7 +532,7 @@ public boolean isResizeShapeToFitText()
 ```
 
 
-Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside.
+whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside.
 
 **Returns:**
 boolean
@@ -553,7 +542,7 @@ public boolean isTextWrapped()
 ```
 
 
-Gets or sets a value indicating whether the text is wrapped.
+a value indicating whether the text is wrapped.
 
 **Returns:**
 boolean

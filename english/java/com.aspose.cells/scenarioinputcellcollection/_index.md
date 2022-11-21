@@ -14,11 +14,6 @@ public class ScenarioInputCellCollection extends CollectionBase
 ```
 
 Represents the list of the scenario's input cells.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ScenarioInputCellCollection()](#ScenarioInputCellCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -41,12 +36,6 @@ Represents the list of the scenario's input cells.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ScenarioInputCellCollection() {#ScenarioInputCellCollection--}
-```
-public ScenarioInputCellCollection()
-```
-
-
 ### add(int row, int column, String value) {#add-int-int-java.lang.String-}
 ```
 public int add(int row, int column, String value)

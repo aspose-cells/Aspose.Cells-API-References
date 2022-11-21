@@ -14,11 +14,6 @@ public class RevisionMergeConflict extends Revision
 ```
 
 Represents a revision record which indicates that there was a merge conflict.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [RevisionMergeConflict()](#RevisionMergeConflict--) |  |
 ## Methods
 
 | Method | Description |
@@ -35,12 +30,6 @@ Represents a revision record which indicates that there was a merge conflict.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### RevisionMergeConflict() {#RevisionMergeConflict--}
-```
-public RevisionMergeConflict()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

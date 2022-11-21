@@ -14,11 +14,6 @@ public class WebExtensionTaskPaneCollection extends CollectionBase
 ```
 
 Represents the list of task pane.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [WebExtensionTaskPaneCollection()](#WebExtensionTaskPaneCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -41,12 +36,6 @@ Represents the list of task pane.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### WebExtensionTaskPaneCollection() {#WebExtensionTaskPaneCollection--}
-```
-public WebExtensionTaskPaneCollection()
-```
-
-
 ### add() {#add--}
 ```
 public int add()

@@ -14,11 +14,6 @@ public class RevisionLogCollection extends CollectionBase
 ```
 
 Represents all revision logs.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [RevisionLogCollection()](#RevisionLogCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -30,7 +25,7 @@ Represents all revision logs.
 | [get(int index)](#get-int-) | Gets [RevisionLog](../../com.aspose.cells/revisionlog) by index. |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
-| [getDaysPreservingHistory()](#getDaysPreservingHistory--) | Gets and sets the number of days the spreadsheet application will keep the change history for this workbook. |
+| [getDaysPreservingHistory()](#getDaysPreservingHistory--) | the number of days the spreadsheet application will keep the change history for this workbook. |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(Object o)](#indexOf-java.lang.Object-) | Determines the index of a specific item in the CollectionBase instance. |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the CollectionBase instance. |
@@ -42,12 +37,6 @@ Represents all revision logs.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### RevisionLogCollection() {#RevisionLogCollection--}
-```
-public RevisionLogCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)
@@ -142,7 +131,7 @@ public int getDaysPreservingHistory()
 ```
 
 
-Gets and sets the number of days the spreadsheet application will keep the change history for this workbook.
+the number of days the spreadsheet application will keep the change history for this workbook.
 
 **Returns:**
 int

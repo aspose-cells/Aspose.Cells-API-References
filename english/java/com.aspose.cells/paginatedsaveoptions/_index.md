@@ -14,11 +14,6 @@ public abstract class PaginatedSaveOptions extends SaveOptions
 ```
 
 Represents the options for pagination.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PaginatedSaveOptions()](#PaginatedSaveOptions--) |  |
 ## Methods
 
 | Method | Description |
@@ -31,27 +26,27 @@ Represents the options for pagination.
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
-| [getDefaultEditLanguage()](#getDefaultEditLanguage--) | Gets or sets default edit language. |
+| [getDefaultEditLanguage()](#getDefaultEditLanguage--) | default edit language. |
 | [getDefaultFont()](#getDefaultFont--) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [getDrawObjectEventHandler()](#getDrawObjectEventHandler--) | Implements this interface to get DrawObject and Bound when rendering. |
-| [getGridlineType()](#getGridlineType--) | Gets or sets gridline type. |
+| [getGridlineType()](#getGridlineType--) | gridline type. |
 | [getIgnoreError()](#getIgnoreError--) | Indicates if you need to hide the error while rendering. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getOnePagePerSheet()](#getOnePagePerSheet--) | If OnePagePerSheet is true , all content of one sheet will output to only one page in result. |
 | [getOutputBlankPageWhenNothingToPrint()](#getOutputBlankPageWhenNothingToPrint--) | Indicates whether to output a blank page when there is nothing to print. |
-| [getPageCount()](#getPageCount--) | Gets or sets the number of pages to save. |
-| [getPageIndex()](#getPageIndex--) | Gets or sets the 0-based index of the first page to save. |
+| [getPageCount()](#getPageCount--) | the number of pages to save. |
+| [getPageIndex()](#getPageIndex--) | the 0-based index of the first page to save. |
 | [getPageSavingCallback()](#getPageSavingCallback--) | Control/Indicate progress of page saving process. |
 | [getPrintingPageType()](#getPrintingPageType--) | Indicates which pages will not be printed. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
-| [getSheetSet()](#getSheetSet--) | Gets or sets the sheets to render. |
+| [getSheetSet()](#getSheetSet--) | the sheets to render. |
 | [getSortExternalNames()](#getSortExternalNames--) | Indicates whether sorting external defined names before saving file. |
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
-| [getTextCrossType()](#getTextCrossType--) | Gets or sets displaying text type when the text width is larger than cell width. |
+| [getTextCrossType()](#getTextCrossType--) | displaying text type when the text width is larger than cell width. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
-| [getWarningCallback()](#getWarningCallback--) | Gets or sets warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | warning callback. |
 | [hashCode()](#hashCode--) |  |
 | [isFontSubstitutionCharGranularity()](#isFontSubstitutionCharGranularity--) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
 | [notify()](#notify--) |  |
@@ -87,12 +82,6 @@ Represents the options for pagination.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### PaginatedSaveOptions() {#PaginatedSaveOptions--}
-```
-public PaginatedSaveOptions()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -184,7 +173,7 @@ public int getDefaultEditLanguage()
 ```
 
 
-Gets or sets default edit language. It may display/render different layouts for text paragraph when different edit languages is set. Default is DefaultEditLanguage.AUTO.
+default edit language. It may display/render different layouts for text paragraph when different edit languages is set. Default is DefaultEditLanguage.AUTO.
 
 **Returns:**
 int
@@ -214,7 +203,7 @@ public int getGridlineType()
 ```
 
 
-Gets or sets gridline type. Default is Dotted type.
+gridline type. Default is Dotted type.
 
 **Returns:**
 int
@@ -264,7 +253,7 @@ public int getPageCount()
 ```
 
 
-Gets or sets the number of pages to save. Default is System.Int32.MaxValue which means all pages will be rendered..
+the number of pages to save. Default is System.Int32.MaxValue which means all pages will be rendered..
 
 ```
 //Open an Excel file
@@ -290,7 +279,7 @@ public int getPageIndex()
 ```
 
 
-Gets or sets the 0-based index of the first page to save. Default is 0.
+the 0-based index of the first page to save. Default is 0.
 
 ```
 //Open an Excel file
@@ -373,7 +362,7 @@ public SheetSet getSheetSet()
 ```
 
 
-Gets or sets the sheets to render. Default is all visible sheets in the workbook: \{@link com.aspose.cells.SheetSet.getVisible()\}.
+the sheets to render. Default is all visible sheets in the workbook: \{@link com.aspose.cells.SheetSet.getVisible()\}.
 
 ```
 Workbook workbook = new Workbook("Book1.xlsx");
@@ -414,7 +403,7 @@ public int getTextCrossType()
 ```
 
 
-Gets or sets displaying text type when the text width is larger than cell width.
+displaying text type when the text width is larger than cell width.
 
 **Returns:**
 int
@@ -444,7 +433,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Gets or sets warning callback.
+warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)

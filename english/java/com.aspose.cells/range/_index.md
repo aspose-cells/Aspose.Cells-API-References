@@ -55,13 +55,13 @@ Encapsulates the object that represents a range of cells within a spreadsheet.
 | [getHeight()](#getHeight--) | Gets the width of a range in points. |
 | [getHyperlinks()](#getHyperlinks--) | Gets all hyperlink in the range. |
 | [getLeft()](#getLeft--) | Gets the distance, in points, from the left edge of column A to the left edge of the range. |
-| [getName()](#getName--) | Gets or sets the name of the range. |
+| [getName()](#getName--) | the name of the range. |
 | [getOffset(int rowOffset, int columnOffset)](#getOffset-int-int-) | Gets [Range](../../com.aspose.cells/range) range by offset. |
 | [getRefersTo()](#getRefersTo--) | Gets the range's refers to. |
 | [getRowCount()](#getRowCount--) | Gets the count of rows in the range. |
 | [getRowHeight()](#getRowHeight--) | Sets or gets the height of rows in this range |
 | [getTop()](#getTop--) | Gets the distance, in points, from the top edge of row 1 to the top edge of the range. |
-| [getValue()](#getValue--) | Gets and sets the value of the range. |
+| [getValue()](#getValue--) | the value of the range. |
 | [getWidth()](#getWidth--) | Gets the width of a range in points. |
 | [getWorksheet()](#getWorksheet--) | Gets the [getWorksheet()](../../com.aspose.cells/range\#getWorksheet--)object which contains this range. |
 | [hashCode()](#hashCode--) |  |
@@ -408,7 +408,7 @@ public String getName()
 ```
 
 
-Gets or sets the name of the range. Named range is supported. For example,
+the name of the range. Named range is supported. For example,
 
 range.Name = "Sheet1!MyRange";
 
@@ -476,7 +476,7 @@ public Object getValue()
 ```
 
 
-Gets and sets the value of the range. If the range contains multiple cells, the returned/applied object should be Object[][].
+the value of the range. If the range contains multiple cells, the returned/applied object should be Object[][].
 
 **Returns:**
 java.lang.Object

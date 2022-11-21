@@ -20,10 +20,10 @@ Represents axis bins
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Gets or set the count of axis bins |
-| [getOverflow()](#getOverflow--) | Gets or set the overflow of axis bins |
-| [getUnderflow()](#getUnderflow--) | Gets or set the underflow of axis bins |
-| [getWidth()](#getWidth--) | Gets or sets the width of axis bin |
+| [getCount()](#getCount--) | the count of axis bins |
+| [getOverflow()](#getOverflow--) | the overflow of axis bins |
+| [getUnderflow()](#getUnderflow--) | the underflow of axis bins |
+| [getWidth()](#getWidth--) | the width of axis bin |
 | [hashCode()](#hashCode--) |  |
 | [isAutomatic()](#isAutomatic--) | Indicates whether the axis bins are automatic. |
 | [isByCategory()](#isByCategory--) | Indicates whether grouping data by category |
@@ -72,7 +72,7 @@ public int getCount()
 ```
 
 
-Gets or set the count of axis bins
+the count of axis bins
 
 **Returns:**
 int
@@ -82,7 +82,7 @@ public double getOverflow()
 ```
 
 
-Gets or set the overflow of axis bins
+the overflow of axis bins
 
 **Returns:**
 double
@@ -92,7 +92,7 @@ public double getUnderflow()
 ```
 
 
-Gets or set the underflow of axis bins
+the underflow of axis bins
 
 **Returns:**
 double
@@ -102,7 +102,7 @@ public double getWidth()
 ```
 
 
-Gets or sets the width of axis bin
+the width of axis bin
 
 **Returns:**
 double

@@ -42,7 +42,7 @@ Workbook workbook = new Workbook();
 | [characters(int startIndex, int length)](#characters-int-int-) | Returns a Characters object that represents a range of characters within the comment text. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [formatCharacters(int startIndex, int length, Font font, StyleFlag flag)](#formatCharacters-int-int-com.aspose.cells.Font-com.aspose.cells.StyleFlag-) | Format some characters with the font setting. |
-| [getAuthor()](#getAuthor--) | Gets and sets Name of the original comment author |
+| [getAuthor()](#getAuthor--) | Name of the original comment author |
 | [getAutoSize()](#getAutoSize--) | Indicates if size of comment is adjusted automatically according to its content. |
 | [getCharacters()](#getCharacters--) | Returns all Characters objects that represents a range of characters within the comment text. |
 | [getClass()](#getClass--) |  |
@@ -52,12 +52,12 @@ Workbook workbook = new Workbook();
 | [getHeight()](#getHeight--) | Represents the Height of the comment, in unit of pixels. |
 | [getHeightCM()](#getHeightCM--) | Represents the height of the comment, in unit of centimeters. |
 | [getHeightInch()](#getHeightInch--) | Represents the height of the comment, in unit of inches. |
-| [getHtmlNote()](#getHtmlNote--) | Gets and sets the html string which contains data and some formats in this comment. |
+| [getHtmlNote()](#getHtmlNote--) | the html string which contains data and some formats in this comment. |
 | [getNote()](#getNote--) | Represents the content of comment. |
 | [getRow()](#getRow--) | Gets the row index of the comment. |
-| [getTextHorizontalAlignment()](#getTextHorizontalAlignment--) | Gets and sets the text horizontal alignment type of the comment. |
-| [getTextOrientationType()](#getTextOrientationType--) | Gets and sets the text orientation type of the comment. |
-| [getTextVerticalAlignment()](#getTextVerticalAlignment--) | Gets and sets the text vertical alignment type of the comment. |
+| [getTextHorizontalAlignment()](#getTextHorizontalAlignment--) | the text horizontal alignment type of the comment. |
+| [getTextOrientationType()](#getTextOrientationType--) | the text orientation type of the comment. |
+| [getTextVerticalAlignment()](#getTextVerticalAlignment--) | the text vertical alignment type of the comment. |
 | [getThreadedComments()](#getThreadedComments--) | Gets the list of threaded comments; |
 | [getWidth()](#getWidth--) | Represents the width of the comment, in unit of pixels. |
 | [getWidthCM()](#getWidthCM--) | Represents the width of the comment, in unit of centimeters. |
@@ -142,7 +142,7 @@ public String getAuthor()
 ```
 
 
-Gets and sets Name of the original comment author
+Name of the original comment author
 
 ```
 comment1.setAuthor("Carl.Yang");
@@ -285,7 +285,7 @@ public String getHtmlNote()
 ```
 
 
-Gets and sets the html string which contains data and some formats in this comment. If this is a threaded comment, the note could not be changed, otherwise MS Excel could not process it as a threaded comment.
+the html string which contains data and some formats in this comment. If this is a threaded comment, the note could not be changed, otherwise MS Excel could not process it as a threaded comment.
 
 ```
 comment1.setHtmlNote("<Font Style='FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;'>This is a <b>test</b>.</Font>");
@@ -327,7 +327,7 @@ public int getTextHorizontalAlignment()
 ```
 
 
-Gets and sets the text horizontal alignment type of the comment.
+the text horizontal alignment type of the comment.
 
 ```
 if (comment1.getTextHorizontalAlignment() ==  TextAlignmentType.FILL)
@@ -344,7 +344,7 @@ public int getTextOrientationType()
 ```
 
 
-Gets and sets the text orientation type of the comment.
+the text orientation type of the comment.
 
 ```
 if(comment1.getTextOrientationType() == TextOrientationType.NO_ROTATION)
@@ -361,7 +361,7 @@ public int getTextVerticalAlignment()
 ```
 
 
-Gets and sets the text vertical alignment type of the comment.
+the text vertical alignment type of the comment.
 
 ```
 if (comment1.getTextVerticalAlignment() ==  TextAlignmentType.FILL)

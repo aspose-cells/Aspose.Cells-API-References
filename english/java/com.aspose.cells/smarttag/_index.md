@@ -22,7 +22,7 @@ Represents a smart tag.
 | [getClass()](#getClass--) |  |
 | [getDeleted()](#getDeleted--) | Indicates whether the smart tag is deleted. |
 | [getName()](#getName--) | Gets the name of the smart tag. |
-| [getProperties()](#getProperties--) | Gets and set the properties of the smart tag. |
+| [getProperties()](#getProperties--) | the properties of the smart tag. |
 | [getUri()](#getUri--) | Gets the namespace URI of the smart tag. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -85,7 +85,7 @@ public SmartTagPropertyCollection getProperties()
 ```
 
 
-Gets and set the properties of the smart tag.
+the properties of the smart tag.
 
 **Returns:**
 [SmartTagPropertyCollection](../../com.aspose.cells/smarttagpropertycollection)

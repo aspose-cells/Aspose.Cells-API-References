@@ -19,26 +19,26 @@ Represents a shape's three-dimensional formatting.
 | Method | Description |
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [getBottomBevelHeight()](#getBottomBevelHeight--) | Gets and sets the height of the bottom bevel, or how far into the shape it is applied. |
-| [getBottomBevelType()](#getBottomBevelType--) | Gets and sets the type of the bottom bevel, or how far into the shape it is applied. |
-| [getBottomBevelWidth()](#getBottomBevelWidth--) | Gets and sets the width of the bottom bevel, or how far into the shape it is applied. |
+| [getBottomBevelHeight()](#getBottomBevelHeight--) | the height of the bottom bevel, or how far into the shape it is applied. |
+| [getBottomBevelType()](#getBottomBevelType--) | the type of the bottom bevel, or how far into the shape it is applied. |
+| [getBottomBevelWidth()](#getBottomBevelWidth--) | the width of the bottom bevel, or how far into the shape it is applied. |
 | [getClass()](#getClass--) |  |
-| [getContourColor()](#getContourColor--) | Gets and sets the contour color on a shape. |
-| [getContourWidth()](#getContourWidth--) | Gets and sets the contour width on the shape, in unit of points. |
+| [getContourColor()](#getContourColor--) | the contour color on a shape. |
+| [getContourWidth()](#getContourWidth--) | the contour width on the shape, in unit of points. |
 | [getExtrusionColor()](#getExtrusionColor--) | Gets the extrusion color on a shape. |
-| [getExtrusionHeight()](#getExtrusionHeight--) | Gets and sets the extrusion height of the applied to the shape, in unit of points. |
-| [getLightAngle()](#getLightAngle--) | Gets and sets the angle of the extrusion lights. |
-| [getLighting()](#getLighting--) | Gets and sets type of light rig. |
-| [getLightingDirection()](#getLightingDirection--) | Gets and sets the direction from which the light rig is oriented in relation to the scene. |
+| [getExtrusionHeight()](#getExtrusionHeight--) | the extrusion height of the applied to the shape, in unit of points. |
+| [getLightAngle()](#getLightAngle--) | the angle of the extrusion lights. |
+| [getLighting()](#getLighting--) | type of light rig. |
+| [getLightingDirection()](#getLightingDirection--) | the direction from which the light rig is oriented in relation to the scene. |
 | [getMaterial()](#getMaterial--) | Represents the preset material which is combined with the lighting properties to give the final look and feel of a shape. |
-| [getPerspective()](#getPerspective--) | Gets and sets the angle at which a ThreeDFormat object can be viewed. |
-| [getPresetCameraType()](#getPresetCameraType--) | Gets and sets the extrusion preset camera type. |
-| [getRotationX()](#getRotationX--) | Gets and sets the rotation of the extruded shape around the x-axis in degrees. |
-| [getRotationY()](#getRotationY--) | Gets and sets the rotation of the extruded shape around the y-axis in degrees. |
-| [getRotationZ()](#getRotationZ--) | Gets and sets the rotation of the extruded shape around the z-axis in degrees. |
-| [getTopBevelHeight()](#getTopBevelHeight--) | Gets and sets the height of the top bevel, or how far into the shape it is applied. |
-| [getTopBevelType()](#getTopBevelType--) | Gets and sets the type of the top bevel, or how far into the shape it is applied. |
-| [getTopBevelWidth()](#getTopBevelWidth--) | Gets and sets the width of the top bevel, or how far into the shape it is applied. |
+| [getPerspective()](#getPerspective--) | the angle at which a ThreeDFormat object can be viewed. |
+| [getPresetCameraType()](#getPresetCameraType--) | the extrusion preset camera type. |
+| [getRotationX()](#getRotationX--) | the rotation of the extruded shape around the x-axis in degrees. |
+| [getRotationY()](#getRotationY--) | the rotation of the extruded shape around the y-axis in degrees. |
+| [getRotationZ()](#getRotationZ--) | the rotation of the extruded shape around the z-axis in degrees. |
+| [getTopBevelHeight()](#getTopBevelHeight--) | the height of the top bevel, or how far into the shape it is applied. |
+| [getTopBevelType()](#getTopBevelType--) | the type of the top bevel, or how far into the shape it is applied. |
+| [getTopBevelWidth()](#getTopBevelWidth--) | the width of the top bevel, or how far into the shape it is applied. |
 | [getZ()](#getZ--) | Defines the distance from ground for the 3D shape. |
 | [hashCode()](#hashCode--) | Gets hashcode. |
 | [notify()](#notify--) |  |
@@ -88,7 +88,7 @@ public double getBottomBevelHeight()
 ```
 
 
-Gets and sets the height of the bottom bevel, or how far into the shape it is applied. In unit of Points.
+the height of the bottom bevel, or how far into the shape it is applied. In unit of Points.
 
 **Returns:**
 double
@@ -98,7 +98,7 @@ public int getBottomBevelType()
 ```
 
 
-Gets and sets the type of the bottom bevel, or how far into the shape it is applied. In unit of Points.
+the type of the bottom bevel, or how far into the shape it is applied. In unit of Points.
 
 **Returns:**
 int
@@ -108,7 +108,7 @@ public double getBottomBevelWidth()
 ```
 
 
-Gets and sets the width of the bottom bevel, or how far into the shape it is applied. In unit of Points.
+the width of the bottom bevel, or how far into the shape it is applied. In unit of Points.
 
 **Returns:**
 double
@@ -128,7 +128,7 @@ public CellsColor getContourColor()
 ```
 
 
-Gets and sets the contour color on a shape.
+the contour color on a shape.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -138,7 +138,7 @@ public double getContourWidth()
 ```
 
 
-Gets and sets the contour width on the shape, in unit of points.
+the contour width on the shape, in unit of points.
 
 **Returns:**
 double
@@ -158,7 +158,7 @@ public double getExtrusionHeight()
 ```
 
 
-Gets and sets the extrusion height of the applied to the shape, in unit of points.
+the extrusion height of the applied to the shape, in unit of points.
 
 **Returns:**
 double
@@ -168,7 +168,7 @@ public double getLightAngle()
 ```
 
 
-Gets and sets the angle of the extrusion lights.
+the angle of the extrusion lights.
 
 **Returns:**
 double
@@ -178,7 +178,7 @@ public int getLighting()
 ```
 
 
-Gets and sets type of light rig.
+type of light rig.
 
 **Returns:**
 int
@@ -188,7 +188,7 @@ public int getLightingDirection()
 ```
 
 
-Gets and sets the direction from which the light rig is oriented in relation to the scene.
+the direction from which the light rig is oriented in relation to the scene.
 
 **Returns:**
 int
@@ -208,7 +208,7 @@ public double getPerspective()
 ```
 
 
-Gets and sets the angle at which a ThreeDFormat object can be viewed.
+the angle at which a ThreeDFormat object can be viewed.
 
 **Returns:**
 double
@@ -218,7 +218,7 @@ public int getPresetCameraType()
 ```
 
 
-Gets and sets the extrusion preset camera type.
+the extrusion preset camera type.
 
 **Returns:**
 int
@@ -228,7 +228,7 @@ public double getRotationX()
 ```
 
 
-Gets and sets the rotation of the extruded shape around the x-axis in degrees.
+the rotation of the extruded shape around the x-axis in degrees.
 
 **Returns:**
 double
@@ -238,7 +238,7 @@ public double getRotationY()
 ```
 
 
-Gets and sets the rotation of the extruded shape around the y-axis in degrees.
+the rotation of the extruded shape around the y-axis in degrees.
 
 **Returns:**
 double
@@ -248,7 +248,7 @@ public double getRotationZ()
 ```
 
 
-Gets and sets the rotation of the extruded shape around the z-axis in degrees.
+the rotation of the extruded shape around the z-axis in degrees.
 
 **Returns:**
 double
@@ -258,7 +258,7 @@ public double getTopBevelHeight()
 ```
 
 
-Gets and sets the height of the top bevel, or how far into the shape it is applied. In unit of Points.
+the height of the top bevel, or how far into the shape it is applied. In unit of Points.
 
 **Returns:**
 double
@@ -268,7 +268,7 @@ public int getTopBevelType()
 ```
 
 
-Gets and sets the type of the top bevel, or how far into the shape it is applied. In unit of Points.
+the type of the top bevel, or how far into the shape it is applied. In unit of Points.
 
 **Returns:**
 int
@@ -278,7 +278,7 @@ public double getTopBevelWidth()
 ```
 
 
-Gets and sets the width of the top bevel, or how far into the shape it is applied. In unit of Points.
+the width of the top bevel, or how far into the shape it is applied. In unit of Points.
 
 **Returns:**
 double

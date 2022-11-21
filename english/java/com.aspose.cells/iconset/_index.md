@@ -76,9 +76,9 @@ Describe the IconSet conditional formatting rule. This conditional formatting ru
 | [getCfIcons()](#getCfIcons--) | Get the[ConditionalFormattingIcon](../../com.aspose.cells/conditionalformattingicon) from the collection |
 | [getCfvos()](#getCfvos--) | Get the CFValueObjects instance. |
 | [getClass()](#getClass--) |  |
-| [getReverse()](#getReverse--) | Get or set the flag indicating whether to reverses the default order of the icons in this icon set. |
-| [getShowValue()](#getShowValue--) | Get or set the flag indicating whether to show the values of the cells on which this icon set is applied. |
-| [getType()](#getType--) | Get or Set the icon set type to display. |
+| [getReverse()](#getReverse--) | the flag indicating whether to reverses the default order of the icons in this icon set. |
+| [getShowValue()](#getShowValue--) | the flag indicating whether to show the values of the cells on which this icon set is applied. |
+| [getType()](#getType--) | the icon set type to display. |
 | [hashCode()](#hashCode--) |  |
 | [isCustom()](#isCustom--) | Indicates whether the icon set is custom. |
 | [notify()](#notify--) |  |
@@ -141,7 +141,7 @@ public boolean getReverse()
 ```
 
 
-Get or set the flag indicating whether to reverses the default order of the icons in this icon set. Default value is false.
+the flag indicating whether to reverses the default order of the icons in this icon set. Default value is false.
 
 **Returns:**
 boolean
@@ -151,7 +151,7 @@ public boolean getShowValue()
 ```
 
 
-Get or set the flag indicating whether to show the values of the cells on which this icon set is applied. Default value is true.
+the flag indicating whether to show the values of the cells on which this icon set is applied. Default value is true.
 
 **Returns:**
 boolean
@@ -161,7 +161,7 @@ public int getType()
 ```
 
 
-Get or Set the icon set type to display. Setting the type will auto check if the current Cfvos's count is accord with the new type. If not accord, old Cfvos will be cleaned and default Cfvos will be added.
+the icon set type to display. Setting the type will auto check if the current Cfvos's count is accord with the new type. If not accord, old Cfvos will be cleaned and default Cfvos will be added.
 
 **Returns:**
 int

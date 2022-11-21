@@ -14,19 +14,14 @@ public class SolidFill extends Fill
 ```
 
 Encapsulates the object that represents solid fill format
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SolidFill()](#SolidFill--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [getCellsColor()](#getCellsColor--) | Gets and sets the [CellsColor](../../com.aspose.cells/cellscolor) object. |
+| [getCellsColor()](#getCellsColor--) | the [CellsColor](../../com.aspose.cells/cellscolor) object. |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | Gets or sets the [Color](../../com.aspose.cells/color). |
+| [getColor()](#getColor--) | the [Color](../../com.aspose.cells/color). |
 | [getTransparency()](#getTransparency--) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 | [hashCode()](#hashCode--) | Gets the hash code. |
 | [notify()](#notify--) |  |
@@ -38,12 +33,6 @@ Encapsulates the object that represents solid fill format
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### SolidFill() {#SolidFill--}
-```
-public SolidFill()
-```
-
-
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -65,7 +54,7 @@ public CellsColor getCellsColor()
 ```
 
 
-Gets and sets the [CellsColor](../../com.aspose.cells/cellscolor) object.
+the [CellsColor](../../com.aspose.cells/cellscolor) object.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -85,7 +74,7 @@ public Color getColor()
 ```
 
 
-Gets or sets the [Color](../../com.aspose.cells/color).
+the [Color](../../com.aspose.cells/color).
 
 **Returns:**
 [Color](../../com.aspose.cells/color)

@@ -35,10 +35,10 @@ Represents image save options. For advanced usage, please use [WorkbookRender](.
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
 | [getSortExternalNames()](#getSortExternalNames--) | Indicates whether sorting external defined names before saving file. |
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
-| [getStreamProvider()](#getStreamProvider--) | Gets or sets the IStreamProvider for exporting objects. |
+| [getStreamProvider()](#getStreamProvider--) | the IStreamProvider for exporting objects. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
-| [getWarningCallback()](#getWarningCallback--) | Gets or sets warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | warning callback. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -199,7 +199,7 @@ public IStreamProvider getStreamProvider()
 ```
 
 
-Gets or sets the IStreamProvider for exporting objects. If saving as SVG or Tiff, this property is ignored . Otherwise, if more than one image should be saving, we will write other images by this.
+the IStreamProvider for exporting objects. If saving as SVG or Tiff, this property is ignored . Otherwise, if more than one image should be saving, we will write other images by this.
 
 **Returns:**
 [IStreamProvider](../../com.aspose.cells/istreamprovider)
@@ -229,7 +229,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Gets or sets warning callback.
+warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)

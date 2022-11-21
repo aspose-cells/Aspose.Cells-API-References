@@ -14,11 +14,6 @@ public class RevisionInsertDelete extends Revision
 ```
 
 Represents a revision record of a row/column insert/delete action.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [RevisionInsertDelete()](#RevisionInsertDelete--) |  |
 ## Methods
 
 | Method | Description |
@@ -38,12 +33,6 @@ Represents a revision record of a row/column insert/delete action.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### RevisionInsertDelete() {#RevisionInsertDelete--}
-```
-public RevisionInsertDelete()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

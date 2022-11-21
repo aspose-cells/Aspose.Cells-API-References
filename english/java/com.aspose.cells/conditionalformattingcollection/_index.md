@@ -51,11 +51,6 @@ Encapsulates a collection of [FormatCondition](../../com.aspose.cells/formatcond
          //Saving the Excel file
          workbook.save("output.xls");
 ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ConditionalFormattingCollection()](#ConditionalFormattingCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -80,12 +75,6 @@ Encapsulates a collection of [FormatCondition](../../com.aspose.cells/formatcond
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ConditionalFormattingCollection() {#ConditionalFormattingCollection--}
-```
-public ConditionalFormattingCollection()
-```
-
-
 ### add() {#add--}
 ```
 public int add()

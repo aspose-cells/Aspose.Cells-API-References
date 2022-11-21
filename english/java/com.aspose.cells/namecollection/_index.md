@@ -14,11 +14,6 @@ public class NameCollection extends CollectionBase
 ```
 
 Represents a collection of all the [Name](../../com.aspose.cells/name) objects in the spreadsheet.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [NameCollection()](#NameCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -47,12 +42,6 @@ Represents a collection of all the [Name](../../com.aspose.cells/name) objects i
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### NameCollection() {#NameCollection--}
-```
-public NameCollection()
-```
-
-
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

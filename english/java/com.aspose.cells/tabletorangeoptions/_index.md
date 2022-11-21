@@ -20,7 +20,7 @@ Represents the options when converting table to range.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getLastRow()](#getLastRow--) | Gets and sets the last row index of the table. |
+| [getLastRow()](#getLastRow--) | the last row index of the table. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -60,7 +60,7 @@ public int getLastRow()
 ```
 
 
-Gets and sets the last row index of the table.
+the last row index of the table.
 
 **Returns:**
 int

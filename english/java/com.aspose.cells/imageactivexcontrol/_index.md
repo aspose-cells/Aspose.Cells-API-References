@@ -14,37 +14,32 @@ public class ImageActiveXControl extends ActiveXControl
 ```
 
 Represents the image control.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ImageActiveXControl()](#ImageActiveXControl--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBackOleColor()](#getBackOleColor--) | Gets and sets the ole color of the background. |
-| [getBorderOleColor()](#getBorderOleColor--) | Gets and sets the ole color of the background. |
-| [getBorderStyle()](#getBorderStyle--) | Gets and set the type of border used by the control. |
+| [getBackOleColor()](#getBackOleColor--) | the ole color of the background. |
+| [getBorderOleColor()](#getBorderOleColor--) | the ole color of the background. |
+| [getBorderStyle()](#getBorderStyle--) | the type of border used by the control. |
 | [getClass()](#getClass--) |  |
-| [getData()](#getData--) | Gets and sets the binary data of the control. |
+| [getData()](#getData--) | the binary data of the control. |
 | [getFont()](#getFont--) | Represents the font of the control. |
-| [getForeOleColor()](#getForeOleColor--) | Gets and sets the ole color of the foreground. |
-| [getHeight()](#getHeight--) | Gets and sets the height of the control in unit of points. |
-| [getIMEMode()](#getIMEMode--) | Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus. |
-| [getLinkedCell()](#getLinkedCell--) | Gets and sets the linked cell. |
-| [getListFillRange()](#getListFillRange--) | Gets and sets the list fill range. |
-| [getMouseIcon()](#getMouseIcon--) | Gets and sets a custom icon to display as the mouse pointer for the control. |
-| [getMousePointer()](#getMousePointer--) | Gets and sets the type of icon displayed as the mouse pointer for the control. |
-| [getPicture()](#getPicture--) | Gets and sets the data of the picture. |
-| [getPictureAlignment()](#getPictureAlignment--) | Gets and sets the alignment of the picture inside the Form or Image. |
-| [getPictureSizeMode()](#getPictureSizeMode--) | Gets and sets how to display the picture. |
+| [getForeOleColor()](#getForeOleColor--) | the ole color of the foreground. |
+| [getHeight()](#getHeight--) | the height of the control in unit of points. |
+| [getIMEMode()](#getIMEMode--) | the default run-time mode of the Input Method Editor for the control as it receives focus. |
+| [getLinkedCell()](#getLinkedCell--) | the linked cell. |
+| [getListFillRange()](#getListFillRange--) | the list fill range. |
+| [getMouseIcon()](#getMouseIcon--) | a custom icon to display as the mouse pointer for the control. |
+| [getMousePointer()](#getMousePointer--) | the type of icon displayed as the mouse pointer for the control. |
+| [getPicture()](#getPicture--) | the data of the picture. |
+| [getPictureAlignment()](#getPictureAlignment--) | the alignment of the picture inside the Form or Image. |
+| [getPictureSizeMode()](#getPictureSizeMode--) | how to display the picture. |
 | [getShadow()](#getShadow--) | Indicates whether to show a shadow. |
-| [getSpecialEffect()](#getSpecialEffect--) | Gets and sets the special effect of the control. |
+| [getSpecialEffect()](#getSpecialEffect--) | the special effect of the control. |
 | [getTextAlign()](#getTextAlign--) | Represents how to align the text used by the control. |
 | [getType()](#getType--) | Gets the type of the ActiveX control. |
-| [getWidth()](#getWidth--) | Gets and sets the width of the control in unit of points. |
+| [getWidth()](#getWidth--) | the width of the control in unit of points. |
 | [getWorkbook()](#getWorkbook--) | Gets the [Workbook](../../com.aspose.cells/workbook) object. |
 | [hashCode()](#hashCode--) |  |
 | [isAutoSize()](#isAutoSize--) | Indicates whether the control will automatically resize to display its entire contents. |
@@ -82,12 +77,6 @@ Represents the image control.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ImageActiveXControl() {#ImageActiveXControl--}
-```
-public ImageActiveXControl()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -109,7 +98,7 @@ public int getBackOleColor()
 ```
 
 
-Gets and sets the ole color of the background.
+the ole color of the background.
 
 **Returns:**
 int
@@ -119,7 +108,7 @@ public int getBorderOleColor()
 ```
 
 
-Gets and sets the ole color of the background.
+the ole color of the background.
 
 **Returns:**
 int
@@ -129,7 +118,7 @@ public int getBorderStyle()
 ```
 
 
-Gets and set the type of border used by the control.
+the type of border used by the control.
 
 **Returns:**
 int
@@ -149,7 +138,7 @@ public byte[] getData()
 ```
 
 
-Gets and sets the binary data of the control.
+the binary data of the control.
 
 **Returns:**
 byte[]
@@ -169,7 +158,7 @@ public int getForeOleColor()
 ```
 
 
-Gets and sets the ole color of the foreground. Not applies to Image control.
+the ole color of the foreground. Not applies to Image control.
 
 **Returns:**
 int
@@ -179,7 +168,7 @@ public double getHeight()
 ```
 
 
-Gets and sets the height of the control in unit of points.
+the height of the control in unit of points.
 
 **Returns:**
 double
@@ -189,7 +178,7 @@ public int getIMEMode()
 ```
 
 
-Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus.
+the default run-time mode of the Input Method Editor for the control as it receives focus.
 
 **Returns:**
 int
@@ -199,7 +188,7 @@ public String getLinkedCell()
 ```
 
 
-Gets and sets the linked cell.
+the linked cell.
 
 **Returns:**
 java.lang.String
@@ -209,7 +198,7 @@ public String getListFillRange()
 ```
 
 
-Gets and sets the list fill range.
+the list fill range.
 
 **Returns:**
 java.lang.String
@@ -219,7 +208,7 @@ public byte[] getMouseIcon()
 ```
 
 
-Gets and sets a custom icon to display as the mouse pointer for the control.
+a custom icon to display as the mouse pointer for the control.
 
 **Returns:**
 byte[]
@@ -229,7 +218,7 @@ public int getMousePointer()
 ```
 
 
-Gets and sets the type of icon displayed as the mouse pointer for the control.
+the type of icon displayed as the mouse pointer for the control.
 
 **Returns:**
 int
@@ -239,7 +228,7 @@ public byte[] getPicture()
 ```
 
 
-Gets and sets the data of the picture.
+the data of the picture.
 
 **Returns:**
 byte[]
@@ -249,7 +238,7 @@ public int getPictureAlignment()
 ```
 
 
-Gets and sets the alignment of the picture inside the Form or Image.
+the alignment of the picture inside the Form or Image.
 
 **Returns:**
 int
@@ -259,7 +248,7 @@ public int getPictureSizeMode()
 ```
 
 
-Gets and sets how to display the picture.
+how to display the picture.
 
 **Returns:**
 int
@@ -279,7 +268,7 @@ public int getSpecialEffect()
 ```
 
 
-Gets and sets the special effect of the control.
+the special effect of the control.
 
 **Returns:**
 int
@@ -309,7 +298,7 @@ public double getWidth()
 ```
 
 
-Gets and sets the width of the control in unit of points.
+the width of the control in unit of points.
 
 **Returns:**
 double

@@ -14,11 +14,6 @@ public class RevisionFormat extends Revision
 ```
 
 represents a revision record of information about a formatting change.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [RevisionFormat()](#RevisionFormat--) |  |
 ## Methods
 
 | Method | Description |
@@ -37,12 +32,6 @@ represents a revision record of information about a formatting change.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### RevisionFormat() {#RevisionFormat--}
-```
-public RevisionFormat()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

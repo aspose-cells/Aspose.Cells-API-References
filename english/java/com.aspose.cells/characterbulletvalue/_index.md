@@ -14,17 +14,12 @@ public class CharacterBulletValue extends BulletValue
 ```
 
 Represents the character bullet.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [CharacterBulletValue()](#CharacterBulletValue--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCharacter()](#getCharacter--) | Gets and sets character of the bullet. |
+| [getCharacter()](#getCharacter--) | character of the bullet. |
 | [getClass()](#getClass--) |  |
 | [getType()](#getType--) | Gets the type of the bullet. |
 | [hashCode()](#hashCode--) |  |
@@ -35,12 +30,6 @@ Represents the character bullet.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### CharacterBulletValue() {#CharacterBulletValue--}
-```
-public CharacterBulletValue()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -62,7 +51,7 @@ public char getCharacter()
 ```
 
 
-Gets and sets character of the bullet.
+character of the bullet.
 
 **Returns:**
 char
