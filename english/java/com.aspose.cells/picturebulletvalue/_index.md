@@ -14,6 +14,11 @@ public class PictureBulletValue extends BulletValue
 ```
 
 Represents the value of the image bullet.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [PictureBulletValue()](#PictureBulletValue--) |  |
 ## Methods
 
 | Method | Description |
@@ -30,6 +35,12 @@ Represents the value of the image bullet.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### PictureBulletValue() {#PictureBulletValue--}
+```
+public PictureBulletValue()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

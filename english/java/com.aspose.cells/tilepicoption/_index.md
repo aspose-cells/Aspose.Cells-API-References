@@ -14,6 +14,11 @@ public class TilePicOption
 ```
 
 Represents tile picture as texture.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [TilePicOption()](#TilePicOption--) |  |
 ## Methods
 
 | Method | Description |
@@ -39,6 +44,12 @@ Represents tile picture as texture.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### TilePicOption() {#TilePicOption--}
+```
+public TilePicOption()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

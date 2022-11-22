@@ -14,6 +14,11 @@ public class PasteOptions
 ```
 
 Represents the paste special options.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [PasteOptions()](#PasteOptions--) |  |
 ## Methods
 
 | Method | Description |
@@ -37,6 +42,12 @@ Represents the paste special options.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### PasteOptions() {#PasteOptions--}
+```
+public PasteOptions()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

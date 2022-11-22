@@ -14,6 +14,11 @@ public class ChartGlobalizationSettings
 ```
 
 Represents the globalization settings for chart.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [ChartGlobalizationSettings()](#ChartGlobalizationSettings--) |  |
 ## Methods
 
 | Method | Description |
@@ -35,6 +40,12 @@ Represents the globalization settings for chart.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### ChartGlobalizationSettings() {#ChartGlobalizationSettings--}
+```
+public ChartGlobalizationSettings()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

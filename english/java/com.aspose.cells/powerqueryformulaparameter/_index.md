@@ -14,6 +14,11 @@ public class PowerQueryFormulaParameter
 ```
 
 Represents the parameter of power query formula.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [PowerQueryFormulaParameter()](#PowerQueryFormulaParameter--) |  |
 ## Methods
 
 | Method | Description |
@@ -32,6 +37,12 @@ Represents the parameter of power query formula.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### PowerQueryFormulaParameter() {#PowerQueryFormulaParameter--}
+```
+public PowerQueryFormulaParameter()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

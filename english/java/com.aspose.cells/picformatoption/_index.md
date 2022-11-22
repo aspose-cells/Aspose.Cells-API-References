@@ -14,6 +14,11 @@ public class PicFormatOption
 ```
 
 Represents picture format option
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [PicFormatOption()](#PicFormatOption--) |  |
 ## Methods
 
 | Method | Description |
@@ -39,6 +44,12 @@ Represents picture format option
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### PicFormatOption() {#PicFormatOption--}
+```
+public PicFormatOption()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

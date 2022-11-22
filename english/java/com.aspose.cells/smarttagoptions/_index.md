@@ -14,6 +14,11 @@ public class SmartTagOptions
 ```
 
 Represents the options of the smart tag.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [SmartTagOptions()](#SmartTagOptions--) |  |
 ## Methods
 
 | Method | Description |
@@ -31,6 +36,12 @@ Represents the options of the smart tag.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### SmartTagOptions() {#SmartTagOptions--}
+```
+public SmartTagOptions()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

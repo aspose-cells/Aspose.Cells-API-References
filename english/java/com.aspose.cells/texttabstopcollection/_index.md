@@ -14,6 +14,11 @@ public class TextTabStopCollection extends CollectionBase
 ```
 
 Represents the list of all tab stops.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [TextTabStopCollection()](#TextTabStopCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -36,6 +41,12 @@ Represents the list of all tab stops.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### TextTabStopCollection() {#TextTabStopCollection--}
+```
+public TextTabStopCollection()
+```
+
+
 ### add(int tabAlignment, double tabPosition) {#add-int-double-}
 ```
 public int add(int tabAlignment, double tabPosition)

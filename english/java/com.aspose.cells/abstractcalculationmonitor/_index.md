@@ -32,6 +32,11 @@ class MyCalculationMonitor extends AbstractCalculationMonitor
          opts.setCalculationMonitor(new MyCalculationMonitor());
          wb.calculateFormula(opts);
 ```
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [AbstractCalculationMonitor()](#AbstractCalculationMonitor--) |  |
 ## Methods
 
 | Method | Description |
@@ -51,6 +56,12 @@ class MyCalculationMonitor extends AbstractCalculationMonitor
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### AbstractCalculationMonitor() {#AbstractCalculationMonitor--}
+```
+public AbstractCalculationMonitor()
+```
+
+
 ### afterCalculate(int sheetIndex, int rowIndex, int colIndex) {#afterCalculate-int-int-int-}
 ```
 public void afterCalculate(int sheetIndex, int rowIndex, int colIndex)

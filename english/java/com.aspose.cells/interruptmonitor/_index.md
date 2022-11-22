@@ -14,6 +14,11 @@ public class InterruptMonitor extends AbstractInterruptMonitor
 ```
 
 Represents all operator about the interrupt.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [InterruptMonitor()](#InterruptMonitor--) |  |
 ## Methods
 
 | Method | Description |
@@ -30,6 +35,12 @@ Represents all operator about the interrupt.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### InterruptMonitor() {#InterruptMonitor--}
+```
+public InterruptMonitor()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

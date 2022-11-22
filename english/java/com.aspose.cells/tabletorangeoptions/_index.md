@@ -14,6 +14,11 @@ public class TableToRangeOptions
 ```
 
 Represents the options when converting table to range.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [TableToRangeOptions()](#TableToRangeOptions--) |  |
 ## Methods
 
 | Method | Description |
@@ -29,6 +34,12 @@ Represents the options when converting table to range.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### TableToRangeOptions() {#TableToRangeOptions--}
+```
+public TableToRangeOptions()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

@@ -14,6 +14,11 @@ public class AutoFitterOptions
 ```
 
 Represents all auto fitter options.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [AutoFitterOptions()](#AutoFitterOptions--) |  |
 ## Methods
 
 | Method | Description |
@@ -43,6 +48,12 @@ Represents all auto fitter options.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### AutoFitterOptions() {#AutoFitterOptions--}
+```
+public AutoFitterOptions()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

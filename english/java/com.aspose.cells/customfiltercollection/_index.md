@@ -14,6 +14,11 @@ public class CustomFilterCollection extends CollectionBase
 ```
 
 Represents the custom filters.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [CustomFilterCollection()](#CustomFilterCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -37,6 +42,12 @@ Represents the custom filters.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### CustomFilterCollection() {#CustomFilterCollection--}
+```
+public CustomFilterCollection()
+```
+
+
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

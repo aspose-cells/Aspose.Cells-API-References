@@ -14,6 +14,11 @@ public class NoneBulletValue extends BulletValue
 ```
 
 Represents no bullet.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [NoneBulletValue()](#NoneBulletValue--) |  |
 ## Methods
 
 | Method | Description |
@@ -28,6 +33,12 @@ Represents no bullet.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### NoneBulletValue() {#NoneBulletValue--}
+```
+public NoneBulletValue()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

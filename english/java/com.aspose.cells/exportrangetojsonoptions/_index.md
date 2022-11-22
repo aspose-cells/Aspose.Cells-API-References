@@ -14,6 +14,11 @@ public class ExportRangeToJsonOptions
 ```
 
 Indicates the options that exporting range to json.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [ExportRangeToJsonOptions()](#ExportRangeToJsonOptions--) |  |
 ## Methods
 
 | Method | Description |
@@ -35,6 +40,12 @@ Indicates the options that exporting range to json.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### ExportRangeToJsonOptions() {#ExportRangeToJsonOptions--}
+```
+public ExportRangeToJsonOptions()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

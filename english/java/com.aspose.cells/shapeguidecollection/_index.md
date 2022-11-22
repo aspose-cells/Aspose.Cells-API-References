@@ -14,6 +14,11 @@ public class ShapeGuideCollection extends CollectionBase
 ```
 
 Encapsulates a collection of shape guide
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [ShapeGuideCollection()](#ShapeGuideCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -36,6 +41,12 @@ Encapsulates a collection of shape guide
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### ShapeGuideCollection() {#ShapeGuideCollection--}
+```
+public ShapeGuideCollection()
+```
+
+
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

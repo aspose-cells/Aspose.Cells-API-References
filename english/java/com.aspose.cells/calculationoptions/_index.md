@@ -14,6 +14,11 @@ public class CalculationOptions
 ```
 
 Represents options for calculation.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [CalculationOptions()](#CalculationOptions--) |  |
 ## Methods
 
 | Method | Description |
@@ -41,6 +46,12 @@ Represents options for calculation.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### CalculationOptions() {#CalculationOptions--}
+```
+public CalculationOptions()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

@@ -14,6 +14,11 @@ public class CharacterBulletValue extends BulletValue
 ```
 
 Represents the character bullet.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [CharacterBulletValue()](#CharacterBulletValue--) |  |
 ## Methods
 
 | Method | Description |
@@ -30,6 +35,12 @@ Represents the character bullet.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### CharacterBulletValue() {#CharacterBulletValue--}
+```
+public CharacterBulletValue()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

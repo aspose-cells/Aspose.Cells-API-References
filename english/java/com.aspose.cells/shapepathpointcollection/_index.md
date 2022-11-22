@@ -14,6 +14,11 @@ public class ShapePathPointCollection extends CollectionBase
 ```
 
 Represents all shape path points.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [ShapePathPointCollection()](#ShapePathPointCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -36,6 +41,12 @@ Represents all shape path points.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### ShapePathPointCollection() {#ShapePathPointCollection--}
+```
+public ShapePathPointCollection()
+```
+
+
 ### add(int x, int y) {#add-int-int-}
 ```
 public int add(int x, int y)

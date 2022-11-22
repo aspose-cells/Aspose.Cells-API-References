@@ -39,6 +39,11 @@ Describe the Top10 conditional formatting rule. This conditional formatting rule
          //Saving the Excel file
          workbook.save("output.xls");
 ```
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [Top10()](#Top10--) |  |
 ## Methods
 
 | Method | Description |
@@ -58,6 +63,12 @@ Describe the Top10 conditional formatting rule. This conditional formatting rule
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### Top10() {#Top10--}
+```
+public Top10()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

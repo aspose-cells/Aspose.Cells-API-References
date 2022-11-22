@@ -14,6 +14,11 @@ public class DataSorterKeyCollection extends CollectionBase
 ```
 
 Represents the key list of data sorter.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [DataSorterKeyCollection()](#DataSorterKeyCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -35,6 +40,12 @@ Represents the key list of data sorter.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### DataSorterKeyCollection() {#DataSorterKeyCollection--}
+```
+public DataSorterKeyCollection()
+```
+
+
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

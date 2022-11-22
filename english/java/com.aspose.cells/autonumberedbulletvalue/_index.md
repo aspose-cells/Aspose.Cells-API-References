@@ -14,6 +14,11 @@ public class AutoNumberedBulletValue extends BulletValue
 ```
 
 Represents automatic numbered bullet.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [AutoNumberedBulletValue()](#AutoNumberedBulletValue--) |  |
 ## Methods
 
 | Method | Description |
@@ -32,6 +37,12 @@ Represents automatic numbered bullet.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### AutoNumberedBulletValue() {#AutoNumberedBulletValue--}
+```
+public AutoNumberedBulletValue()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

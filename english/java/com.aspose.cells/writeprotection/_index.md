@@ -14,6 +14,11 @@ public class WriteProtection
 ```
 
 Specifies write protection settings for a workbook.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [WriteProtection()](#WriteProtection--) |  |
 ## Methods
 
 | Method | Description |
@@ -34,6 +39,12 @@ Specifies write protection settings for a workbook.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### WriteProtection() {#WriteProtection--}
+```
+public WriteProtection()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

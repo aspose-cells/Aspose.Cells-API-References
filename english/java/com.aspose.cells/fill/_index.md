@@ -14,6 +14,11 @@ public abstract class Fill
 ```
 
 Represents the fill format of the shape.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [Fill()](#Fill--) |  |
 ## Methods
 
 | Method | Description |
@@ -27,6 +32,12 @@ Represents the fill format of the shape.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### Fill() {#Fill--}
+```
+public Fill()
+```
+
+
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)

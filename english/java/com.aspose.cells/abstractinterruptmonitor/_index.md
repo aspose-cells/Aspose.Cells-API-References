@@ -14,6 +14,11 @@ public abstract class AbstractInterruptMonitor
 ```
 
 Monitor for interruption requests in all time-consuming operations.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [AbstractInterruptMonitor()](#AbstractInterruptMonitor--) |  |
 ## Methods
 
 | Method | Description |
@@ -29,6 +34,12 @@ Monitor for interruption requests in all time-consuming operations.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### AbstractInterruptMonitor() {#AbstractInterruptMonitor--}
+```
+public AbstractInterruptMonitor()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

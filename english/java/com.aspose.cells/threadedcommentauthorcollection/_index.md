@@ -14,6 +14,11 @@ public class ThreadedCommentAuthorCollection extends CollectionBase
 ```
 
 Represents all persons who .
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [ThreadedCommentAuthorCollection()](#ThreadedCommentAuthorCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -40,6 +45,12 @@ Represents all persons who .
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### ThreadedCommentAuthorCollection() {#ThreadedCommentAuthorCollection--}
+```
+public ThreadedCommentAuthorCollection()
+```
+
+
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

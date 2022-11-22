@@ -14,6 +14,11 @@ public class SqlScriptColumnTypeMap
 ```
 
 Represents column type map.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [SqlScriptColumnTypeMap()](#SqlScriptColumnTypeMap--) |  |
 ## Methods
 
 | Method | Description |
@@ -29,6 +34,12 @@ Represents column type map.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### SqlScriptColumnTypeMap() {#SqlScriptColumnTypeMap--}
+```
+public SqlScriptColumnTypeMap()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

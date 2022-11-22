@@ -14,6 +14,11 @@ public class GlobalizationSettings extends AbstractGlobalizationSettings
 ```
 
 Represents the globalization settings.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [GlobalizationSettings()](#GlobalizationSettings--) |  |
 ## Methods
 
 | Method | Description |
@@ -61,6 +66,12 @@ Represents the globalization settings.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### GlobalizationSettings() {#GlobalizationSettings--}
+```
+public GlobalizationSettings()
+```
+
+
 ### compare(String v1, String v2, boolean ignoreCase) {#compare-java.lang.String-java.lang.String-boolean-}
 ```
 public int compare(String v1, String v2, boolean ignoreCase)

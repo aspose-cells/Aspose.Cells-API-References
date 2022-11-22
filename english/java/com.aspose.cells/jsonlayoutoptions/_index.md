@@ -14,6 +14,11 @@ public class JsonLayoutOptions
 ```
 
 Represents the options of json layout type.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [JsonLayoutOptions()](#JsonLayoutOptions--) |  |
 ## Methods
 
 | Method | Description |
@@ -43,6 +48,12 @@ Represents the options of json layout type.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### JsonLayoutOptions() {#JsonLayoutOptions--}
+```
+public JsonLayoutOptions()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

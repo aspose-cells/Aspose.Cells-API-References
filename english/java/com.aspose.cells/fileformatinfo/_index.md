@@ -14,6 +14,11 @@ public class FileFormatInfo
 ```
 
 Contains data returned by [FileFormatUtil](../../com.aspose.cells/fileformatutil) file format detection methods.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [FileFormatInfo()](#FileFormatInfo--) |  |
 ## Methods
 
 | Method | Description |
@@ -31,6 +36,12 @@ Contains data returned by [FileFormatUtil](../../com.aspose.cells/fileformatutil
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### FileFormatInfo() {#FileFormatInfo--}
+```
+public FileFormatInfo()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

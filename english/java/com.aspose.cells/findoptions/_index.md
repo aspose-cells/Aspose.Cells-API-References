@@ -45,6 +45,11 @@ Represents find options.
          //Find the cell with 0 value
          Cell cell = cells.find(0, null, findOptions);
 ```
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [FindOptions()](#FindOptions--) |  |
 ## Methods
 
 | Method | Description |
@@ -81,6 +86,12 @@ Represents find options.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### FindOptions() {#FindOptions--}
+```
+public FindOptions()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

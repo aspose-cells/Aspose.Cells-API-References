@@ -14,6 +14,11 @@ public class InsertOptions
 ```
 
 Represents the options of inserting.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [InsertOptions()](#InsertOptions--) |  |
 ## Methods
 
 | Method | Description |
@@ -31,6 +36,12 @@ Represents the options of inserting.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### InsertOptions() {#InsertOptions--}
+```
+public InsertOptions()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

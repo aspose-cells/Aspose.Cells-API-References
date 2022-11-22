@@ -14,6 +14,11 @@ public class AboveAverage
 ```
 
 Describe the AboveAverage conditional formatting rule. This conditional formatting rule highlights cells that are above or below the average for all values in the range.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [AboveAverage()](#AboveAverage--) |  |
 ## Methods
 
 | Method | Description |
@@ -33,6 +38,12 @@ Describe the AboveAverage conditional formatting rule. This conditional formatti
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### AboveAverage() {#AboveAverage--}
+```
+public AboveAverage()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

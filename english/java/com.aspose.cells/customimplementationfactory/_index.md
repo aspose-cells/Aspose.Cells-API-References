@@ -14,6 +14,11 @@ public class CustomImplementationFactory
 ```
 
 Factory to create some instances which may be re-implemented by user for special purpose.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [CustomImplementationFactory()](#CustomImplementationFactory--) |  |
 ## Methods
 
 | Method | Description |
@@ -28,6 +33,12 @@ Factory to create some instances which may be re-implemented by user for special
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### CustomImplementationFactory() {#CustomImplementationFactory--}
+```
+public CustomImplementationFactory()
+```
+
+
 ### createRandomInstance() {#createRandomInstance--}
 ```
 public Random createRandomInstance()

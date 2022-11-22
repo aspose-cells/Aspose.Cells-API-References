@@ -36,6 +36,11 @@ Represent the signature line.
          //Save the excel file.
          workbook.save("result.xlsx");
 ```
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [SignatureLine()](#SignatureLine--) |  |
 ## Methods
 
 | Method | Description |
@@ -67,6 +72,12 @@ Represent the signature line.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### SignatureLine() {#SignatureLine--}
+```
+public SignatureLine()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

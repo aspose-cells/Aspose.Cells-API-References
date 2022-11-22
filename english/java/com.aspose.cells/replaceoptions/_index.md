@@ -14,6 +14,11 @@ public class ReplaceOptions
 ```
 
 Represent the replace options.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [ReplaceOptions()](#ReplaceOptions--) |  |
 ## Methods
 
 | Method | Description |
@@ -33,6 +38,12 @@ Represent the replace options.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### ReplaceOptions() {#ReplaceOptions--}
+```
+public ReplaceOptions()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

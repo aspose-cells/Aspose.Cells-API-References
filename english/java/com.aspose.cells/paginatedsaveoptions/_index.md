@@ -14,6 +14,11 @@ public abstract class PaginatedSaveOptions extends SaveOptions
 ```
 
 Represents the options for pagination.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [PaginatedSaveOptions()](#PaginatedSaveOptions--) |  |
 ## Methods
 
 | Method | Description |
@@ -82,6 +87,12 @@ Represents the options for pagination.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### PaginatedSaveOptions() {#PaginatedSaveOptions--}
+```
+public PaginatedSaveOptions()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

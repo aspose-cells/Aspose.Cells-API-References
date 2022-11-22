@@ -14,6 +14,11 @@ public class ImageFormat
 ```
 
 Specifies the file format of the image.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [ImageFormat()](#ImageFormat--) |  |
 ## Methods
 
 | Method | Description |
@@ -39,6 +44,12 @@ Specifies the file format of the image.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### ImageFormat() {#ImageFormat--}
+```
+public ImageFormat()
+```
+
+
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)

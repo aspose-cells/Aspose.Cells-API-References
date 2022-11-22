@@ -46,6 +46,11 @@ class MyEngine extends AbstractCalculationEngine
          opts.setCustomEngine(new MyEngine());
          wb.calculateFormula(opts);
 ```
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [AbstractCalculationEngine()](#AbstractCalculationEngine--) |  |
 ## Methods
 
 | Method | Description |
@@ -62,6 +67,12 @@ class MyEngine extends AbstractCalculationEngine
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### AbstractCalculationEngine() {#AbstractCalculationEngine--}
+```
+public AbstractCalculationEngine()
+```
+
+
 ### calculate(CalculationData data) {#calculate-com.aspose.cells.CalculationData-}
 ```
 public abstract void calculate(CalculationData data)

@@ -23,6 +23,11 @@ Represents the collection of cells on this worksheet being watched in the 'watch
          // Add Cell Watch Item into the watch window
          sheet.getCellWatches().add("B2");
 ```
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [CellWatchCollection()](#CellWatchCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -47,6 +52,12 @@ Represents the collection of cells on this worksheet being watched in the 'watch
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### CellWatchCollection() {#CellWatchCollection--}
+```
+public CellWatchCollection()
+```
+
+
 ### add(int row, int column) {#add-int-int-}
 ```
 public int add(int row, int column)

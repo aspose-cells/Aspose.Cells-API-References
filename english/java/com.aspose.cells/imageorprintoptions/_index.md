@@ -34,6 +34,11 @@ Allows to specify options when rendering worksheet to images, printing worksheet
          //Save chart as Image using ImageOrPrint Options
          book.getWorksheets().get(0).getCharts().get(0).toImage("chart.png", options);
 ```
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [ImageOrPrintOptions()](#ImageOrPrintOptions--) |  |
 ## Methods
 
 | Method | Description |
@@ -111,6 +116,12 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### ImageOrPrintOptions() {#ImageOrPrintOptions--}
+```
+public ImageOrPrintOptions()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

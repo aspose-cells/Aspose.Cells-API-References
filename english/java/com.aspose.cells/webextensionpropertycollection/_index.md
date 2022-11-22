@@ -14,6 +14,11 @@ public class WebExtensionPropertyCollection extends CollectionBase
 ```
 
 Represents the list of web extension properties.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [WebExtensionPropertyCollection()](#WebExtensionPropertyCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -38,6 +43,12 @@ Represents the list of web extension properties.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### WebExtensionPropertyCollection() {#WebExtensionPropertyCollection--}
+```
+public WebExtensionPropertyCollection()
+```
+
+
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

@@ -14,6 +14,11 @@ public class WebExtensionBinding
 ```
 
 Represents a binding relationship between an Office Add-in and the data in the document.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [WebExtensionBinding()](#WebExtensionBinding--) |  |
 ## Methods
 
 | Method | Description |
@@ -33,6 +38,12 @@ Represents a binding relationship between an Office Add-in and the data in the d
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### WebExtensionBinding() {#WebExtensionBinding--}
+```
+public WebExtensionBinding()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

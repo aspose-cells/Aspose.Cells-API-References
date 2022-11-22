@@ -14,6 +14,11 @@ public class CellWatch
 ```
 
 Represents Cell Watch Item in the 'watch window'.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [CellWatch()](#CellWatch--) |  |
 ## Methods
 
 | Method | Description |
@@ -33,6 +38,12 @@ Represents Cell Watch Item in the 'watch window'.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### CellWatch() {#CellWatch--}
+```
+public CellWatch()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

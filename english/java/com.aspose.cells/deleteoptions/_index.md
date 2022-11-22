@@ -14,6 +14,11 @@ public class DeleteOptions
 ```
 
 Represents the setting of deleting rows/columns.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [DeleteOptions()](#DeleteOptions--) |  |
 ## Methods
 
 | Method | Description |
@@ -29,6 +34,12 @@ Represents the setting of deleting rows/columns.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### DeleteOptions() {#DeleteOptions--}
+```
+public DeleteOptions()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

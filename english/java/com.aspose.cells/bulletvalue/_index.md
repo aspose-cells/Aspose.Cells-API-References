@@ -14,6 +14,11 @@ public abstract class BulletValue
 ```
 
 Represents the value of the bullet.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [BulletValue()](#BulletValue--) |  |
 ## Methods
 
 | Method | Description |
@@ -28,6 +33,12 @@ Represents the value of the bullet.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### BulletValue() {#BulletValue--}
+```
+public BulletValue()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

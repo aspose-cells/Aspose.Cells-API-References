@@ -14,6 +14,11 @@ public class MultipleFilterCollection extends CollectionBase
 ```
 
 Represents the multiple filter collection.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [MultipleFilterCollection()](#MultipleFilterCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -38,6 +43,12 @@ Represents the multiple filter collection.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### MultipleFilterCollection() {#MultipleFilterCollection--}
+```
+public MultipleFilterCollection()
+```
+
+
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

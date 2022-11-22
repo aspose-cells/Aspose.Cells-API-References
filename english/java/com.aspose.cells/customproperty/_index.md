@@ -14,6 +14,11 @@ public class CustomProperty
 ```
 
 Represents identifier information.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [CustomProperty()](#CustomProperty--) |  |
 ## Methods
 
 | Method | Description |
@@ -33,6 +38,12 @@ Represents identifier information.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### CustomProperty() {#CustomProperty--}
+```
+public CustomProperty()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

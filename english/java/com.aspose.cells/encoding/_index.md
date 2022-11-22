@@ -14,6 +14,11 @@ public class Encoding
 ```
 
 Represents a character encoding.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [Encoding()](#Encoding--) |  |
 ## Methods
 
 | Method | Description |
@@ -38,6 +43,12 @@ Represents a character encoding.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### Encoding() {#Encoding--}
+```
+public Encoding()
+```
+
+
 ### equals(Encoding other) {#equals-com.aspose.cells.Encoding-}
 ```
 public boolean equals(Encoding other)

@@ -14,6 +14,11 @@ public class XmlColumnProperty
 ```
 
 Represents Xml Data Binding information.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [XmlColumnProperty()](#XmlColumnProperty--) |  |
 ## Methods
 
 | Method | Description |
@@ -27,6 +32,12 @@ Represents Xml Data Binding information.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### XmlColumnProperty() {#XmlColumnProperty--}
+```
+public XmlColumnProperty()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

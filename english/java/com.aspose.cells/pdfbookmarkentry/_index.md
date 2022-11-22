@@ -47,6 +47,11 @@ Workbook workbook = new Workbook();
          saveOptions.setBookmark(pbeRoot);
          workbook.save("output_bookmark.pdf", saveOptions);
 ```
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [PdfBookmarkEntry()](#PdfBookmarkEntry--) |  |
 ## Methods
 
 | Method | Description |
@@ -72,6 +77,12 @@ Workbook workbook = new Workbook();
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### PdfBookmarkEntry() {#PdfBookmarkEntry--}
+```
+public PdfBookmarkEntry()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

@@ -14,6 +14,11 @@ public class OdsPageBackground
 ```
 
 Represents the page background of ods.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [OdsPageBackground()](#OdsPageBackground--) |  |
 ## Methods
 
 | Method | Description |
@@ -40,6 +45,12 @@ Represents the page background of ods.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### OdsPageBackground() {#OdsPageBackground--}
+```
+public OdsPageBackground()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

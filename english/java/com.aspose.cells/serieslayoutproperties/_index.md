@@ -14,6 +14,11 @@ public class SeriesLayoutProperties
 ```
 
 Represents the properties of series layout.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [SeriesLayoutProperties()](#SeriesLayoutProperties--) |  |
 ## Methods
 
 | Method | Description |
@@ -47,6 +52,12 @@ Represents the properties of series layout.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### SeriesLayoutProperties() {#SeriesLayoutProperties--}
+```
+public SeriesLayoutProperties()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

@@ -14,6 +14,11 @@ public class CellsFactory
 ```
 
 Utility for instantiating classes of Cells model.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [CellsFactory()](#CellsFactory--) |  |
 ## Methods
 
 | Method | Description |
@@ -28,6 +33,12 @@ Utility for instantiating classes of Cells model.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### CellsFactory() {#CellsFactory--}
+```
+public CellsFactory()
+```
+
+
 ### createStyle() {#createStyle--}
 ```
 public Style createStyle()

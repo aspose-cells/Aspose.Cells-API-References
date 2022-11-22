@@ -14,6 +14,11 @@ public class JsonUtility
 ```
 
 Represents the utility class of processing json.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [JsonUtility()](#JsonUtility--) |  |
 ## Methods
 
 | Method | Description |
@@ -29,6 +34,12 @@ Represents the utility class of processing json.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### JsonUtility() {#JsonUtility--}
+```
+public JsonUtility()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

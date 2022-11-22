@@ -14,6 +14,11 @@ public class AxisBins
 ```
 
 Represents axis bins
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [AxisBins()](#AxisBins--) |  |
 ## Methods
 
 | Method | Description |
@@ -41,6 +46,12 @@ Represents axis bins
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### AxisBins() {#AxisBins--}
+```
+public AxisBins()
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

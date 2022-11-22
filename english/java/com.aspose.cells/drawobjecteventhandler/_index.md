@@ -14,6 +14,11 @@ public abstract class DrawObjectEventHandler
 ```
 
 Interface to get DrawObject and Bound when rendering.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [DrawObjectEventHandler()](#DrawObjectEventHandler--) |  |
 ## Methods
 
 | Method | Description |
@@ -28,6 +33,12 @@ Interface to get DrawObject and Bound when rendering.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### DrawObjectEventHandler() {#DrawObjectEventHandler--}
+```
+public DrawObjectEventHandler()
+```
+
+
 ### draw(DrawObject drawObject, float x, float y, float width, float height) {#draw-com.aspose.cells.DrawObject-float-float-float-float-}
 ```
 public void draw(DrawObject drawObject, float x, float y, float width, float height)
