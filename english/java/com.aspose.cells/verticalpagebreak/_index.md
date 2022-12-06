@@ -3,7 +3,6 @@ title: VerticalPageBreak
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents a vertical page break.
 type: docs
-weight: 632
 url: /java/com.aspose.cells/verticalpagebreak/
 ---
 

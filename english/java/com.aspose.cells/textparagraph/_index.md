@@ -3,7 +3,6 @@ title: TextParagraph
 second_title: Aspose.Cells for Java API Reference
 description: Represents the text paragraph setting.
 type: docs
-weight: 580
 url: /java/com.aspose.cells/textparagraph/
 ---
 

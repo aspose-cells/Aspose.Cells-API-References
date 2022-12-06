@@ -3,7 +3,6 @@ title: RangeCollection
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates a collection of  objects.
 type: docs
-weight: 450
 url: /java/com.aspose.cells/rangecollection/
 ---
 

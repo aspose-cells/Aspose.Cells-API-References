@@ -3,7 +3,6 @@ title: ReferredArea
 second_title: Aspose.Cells for Java API Reference
 description: Represents a referred area by the formula.
 type: docs
-weight: 454
 url: /java/com.aspose.cells/referredarea/
 ---
 

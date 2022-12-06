@@ -3,7 +3,6 @@ title: ShapeAnchorType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the anchor type.
 type: docs
-weight: 495
 url: /java/com.aspose.cells/shapeanchortype/
 ---
 

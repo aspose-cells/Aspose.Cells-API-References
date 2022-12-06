@@ -3,7 +3,6 @@ title: TextNodeType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the node type.
 type: docs
-weight: 576
 url: /java/com.aspose.cells/textnodetype/
 ---
 

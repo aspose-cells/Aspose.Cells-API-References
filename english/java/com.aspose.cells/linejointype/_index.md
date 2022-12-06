@@ -3,7 +3,6 @@ title: LineJoinType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the join styles of a line.
 type: docs
-weight: 298
 url: /java/com.aspose.cells/linejointype/
 ---
 

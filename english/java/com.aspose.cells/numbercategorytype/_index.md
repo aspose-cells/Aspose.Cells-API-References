@@ -3,7 +3,6 @@ title: NumberCategoryType
 second_title: Aspose.Cells for Java API Reference
 description: Represents category type of cells number formatting.
 type: docs
-weight: 346
 url: /java/com.aspose.cells/numbercategorytype/
 ---
 

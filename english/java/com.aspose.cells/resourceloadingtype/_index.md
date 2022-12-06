@@ -3,7 +3,6 @@ title: ResourceLoadingType
 second_title: Aspose.Cells for Java API Reference
 description: Represents how to loading the linked resource.
 type: docs
-weight: 460
 url: /java/com.aspose.cells/resourceloadingtype/
 ---
 

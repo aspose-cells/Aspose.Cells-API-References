@@ -3,7 +3,6 @@ title: CredentialsMethodType
 second_title: Aspose.Cells for Java API Reference
 description: Specifies Credentials method used for server access.
 type: docs
-weight: 135
 url: /java/com.aspose.cells/credentialsmethodtype/
 ---
 

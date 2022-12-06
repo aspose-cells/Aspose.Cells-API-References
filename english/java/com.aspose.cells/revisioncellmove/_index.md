@@ -3,7 +3,6 @@ title: RevisionCellMove
 second_title: Aspose.Cells for Java API Reference
 description: Represents a revision record on a cells that moved.
 type: docs
-weight: 466
 url: /java/com.aspose.cells/revisioncellmove/
 ---
 

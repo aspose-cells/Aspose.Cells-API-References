@@ -3,7 +3,6 @@ title: SqlScriptSaveOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the options of saving sql.
 type: docs
-weight: 549
 url: /java/com.aspose.cells/sqlscriptsaveoptions/
 ---
 

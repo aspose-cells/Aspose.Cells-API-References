@@ -3,7 +3,6 @@ title: ErrorBar
 second_title: Aspose.Cells for Java API Reference
 description: Represents error bar of data series.
 type: docs
-weight: 191
 url: /java/com.aspose.cells/errorbar/
 ---
 

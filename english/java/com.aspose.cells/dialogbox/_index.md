@@ -3,7 +3,6 @@ title: DialogBox
 second_title: Aspose.Cells for Java API Reference
 description: Represents the dialog box.
 type: docs
-weight: 169
 url: /java/com.aspose.cells/dialogbox/
 ---
 

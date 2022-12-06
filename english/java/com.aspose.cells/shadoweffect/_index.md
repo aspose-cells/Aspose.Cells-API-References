@@ -3,7 +3,6 @@ title: ShadowEffect
 second_title: Aspose.Cells for Java API Reference
 description: This class specifies the shadow effect of the chart element or shape.
 type: docs
-weight: 493
 url: /java/com.aspose.cells/shadoweffect/
 ---
 

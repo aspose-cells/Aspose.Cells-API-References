@@ -3,7 +3,6 @@ title: AutoFitterOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents all auto fitter options.
 type: docs
-weight: 26
 url: /java/com.aspose.cells/autofitteroptions/
 ---
 

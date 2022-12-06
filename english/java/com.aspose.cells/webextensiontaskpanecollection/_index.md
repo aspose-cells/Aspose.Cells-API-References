@@ -3,7 +3,6 @@ title: WebExtensionTaskPaneCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents the list of task pane.
 type: docs
-weight: 651
 url: /java/com.aspose.cells/webextensiontaskpanecollection/
 ---
 

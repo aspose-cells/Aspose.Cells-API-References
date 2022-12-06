@@ -3,7 +3,6 @@ title: TextCapsType
 second_title: Aspose.Cells for Java API Reference
 description: This type specifies the cap types of the text.
 type: docs
-weight: 571
 url: /java/com.aspose.cells/textcapstype/
 ---
 

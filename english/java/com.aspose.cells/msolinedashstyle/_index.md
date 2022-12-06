@@ -3,7 +3,6 @@ title: MsoLineDashStyle
 second_title: Aspose.Cells for Java API Reference
 description: Represents style of dash drawing lines.
 type: docs
-weight: 332
 url: /java/com.aspose.cells/msolinedashstyle/
 ---
 

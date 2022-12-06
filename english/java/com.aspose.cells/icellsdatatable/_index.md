@@ -3,7 +3,6 @@ title: ICellsDataTable
 second_title: Aspose.Cells for Java API Reference
 description: Represents data table.
 type: docs
-weight: 673
 url: /java/com.aspose.cells/icellsdatatable/
 ---
 ```

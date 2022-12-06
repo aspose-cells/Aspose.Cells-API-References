@@ -3,7 +3,6 @@ title: ContentDisposition
 second_title: Aspose.Cells for Java API Reference
 description: The content disposition type.
 type: docs
-weight: 117
 url: /java/com.aspose.cells/contentdisposition/
 ---
 

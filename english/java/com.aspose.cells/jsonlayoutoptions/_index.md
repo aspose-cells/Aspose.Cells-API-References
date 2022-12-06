@@ -3,7 +3,6 @@ title: JsonLayoutOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the options of json layout type.
 type: docs
-weight: 281
 url: /java/com.aspose.cells/jsonlayoutoptions/
 ---
 

@@ -3,7 +3,6 @@ title: FontUnderlineType
 second_title: Aspose.Cells for Java API Reference
 description: Enumerates the font underline types.
 type: docs
-weight: 229
 url: /java/com.aspose.cells/fontunderlinetype/
 ---
 

@@ -3,7 +3,6 @@ title: StyleModifyFlag
 second_title: Aspose.Cells for Java API Reference
 description: The style modified flags.
 type: docs
-weight: 553
 url: /java/com.aspose.cells/stylemodifyflag/
 ---
 

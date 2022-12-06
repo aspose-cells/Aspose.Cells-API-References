@@ -3,7 +3,6 @@ title: PowerQueryFormulaCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents all power query formulas in the mashup data.
 type: docs
-weight: 422
 url: /java/com.aspose.cells/powerqueryformulacollection/
 ---
 

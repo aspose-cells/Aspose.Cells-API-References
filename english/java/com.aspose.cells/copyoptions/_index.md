@@ -3,7 +3,6 @@ title: CopyOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the copy options.
 type: docs
-weight: 133
 url: /java/com.aspose.cells/copyoptions/
 ---
 

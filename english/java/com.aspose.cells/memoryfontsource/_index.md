@@ -3,7 +3,6 @@ title: MemoryFontSource
 second_title: Aspose.Cells for Java API Reference
 description: Represents the single TrueType font file stored in memory.
 type: docs
-weight: 320
 url: /java/com.aspose.cells/memoryfontsource/
 ---
 

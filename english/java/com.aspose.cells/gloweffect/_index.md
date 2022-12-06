@@ -3,7 +3,6 @@ title: GlowEffect
 second_title: Aspose.Cells for Java API Reference
 description: This class specifies a glow effect in which a color blurred outline  is added outside the edges of the object.
 type: docs
-weight: 241
 url: /java/com.aspose.cells/gloweffect/
 ---
 

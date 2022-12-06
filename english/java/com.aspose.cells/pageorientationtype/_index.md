@@ -3,7 +3,6 @@ title: PageOrientationType
 second_title: Aspose.Cells for Java API Reference
 description: Represents print orientation constants.
 type: docs
-weight: 369
 url: /java/com.aspose.cells/pageorientationtype/
 ---
 

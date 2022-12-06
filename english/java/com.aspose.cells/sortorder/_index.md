@@ -3,7 +3,6 @@ title: SortOrder
 second_title: Aspose.Cells for Java API Reference
 description: Represents sort order for the data range.
 type: docs
-weight: 535
 url: /java/com.aspose.cells/sortorder/
 ---
 

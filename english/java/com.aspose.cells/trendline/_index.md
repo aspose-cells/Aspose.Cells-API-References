@@ -3,7 +3,6 @@ title: Trendline
 second_title: Aspose.Cells for Java API Reference
 description: Represents a trendline in a chart.
 type: docs
-weight: 611
 url: /java/com.aspose.cells/trendline/
 ---
 

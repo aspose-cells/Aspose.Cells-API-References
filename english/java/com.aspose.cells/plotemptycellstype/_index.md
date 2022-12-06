@@ -3,7 +3,6 @@ title: PlotEmptyCellsType
 second_title: Aspose.Cells for Java API Reference
 description: Represents all plot empty cells type of a chart.
 type: docs
-weight: 420
 url: /java/com.aspose.cells/plotemptycellstype/
 ---
 

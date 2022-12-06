@@ -3,7 +3,6 @@ title: ListObject
 second_title: Aspose.Cells for Java API Reference
 description: Represents a list object on a worksheet.
 type: docs
-weight: 306
 url: /java/com.aspose.cells/listobject/
 ---
 

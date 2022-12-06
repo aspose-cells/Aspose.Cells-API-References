@@ -3,7 +3,6 @@ title: TextOverflowType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the way the text vertical or horizontal overflow.
 type: docs
-weight: 579
 url: /java/com.aspose.cells/textoverflowtype/
 ---
 

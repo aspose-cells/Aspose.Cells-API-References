@@ -3,7 +3,6 @@ title: ShapeFormat
 second_title: Aspose.Cells for Java API Reference
 description: Represents the format of the shape or text.
 type: docs
-weight: 497
 url: /java/com.aspose.cells/shapeformat/
 ---
 

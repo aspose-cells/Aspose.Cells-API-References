@@ -3,7 +3,6 @@ title: FolderFontSource
 second_title: Aspose.Cells for Java API Reference
 description: Represents the folder that contains TrueType font files.
 type: docs
-weight: 221
 url: /java/com.aspose.cells/folderfontsource/
 ---
 

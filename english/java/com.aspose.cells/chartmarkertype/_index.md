@@ -3,7 +3,6 @@ title: ChartMarkerType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the marker style in a line chart scatter chart or radar chart.
 type: docs
-weight: 78
 url: /java/com.aspose.cells/chartmarkertype/
 ---
 

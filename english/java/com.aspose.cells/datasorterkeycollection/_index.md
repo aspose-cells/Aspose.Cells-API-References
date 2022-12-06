@@ -3,7 +3,6 @@ title: DataSorterKeyCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents the key list of data sorter.
 type: docs
-weight: 162
 url: /java/com.aspose.cells/datasorterkeycollection/
 ---
 

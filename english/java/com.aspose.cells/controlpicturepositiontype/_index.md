@@ -3,7 +3,6 @@ title: ControlPicturePositionType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the location of the controls picture relative to its caption.
 type: docs
-weight: 126
 url: /java/com.aspose.cells/controlpicturepositiontype/
 ---
 

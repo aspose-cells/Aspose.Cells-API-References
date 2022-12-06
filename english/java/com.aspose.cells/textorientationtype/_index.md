@@ -3,7 +3,6 @@ title: TextOrientationType
 second_title: Aspose.Cells for Java API Reference
 description: Enumerates text orientation types.
 type: docs
-weight: 578
 url: /java/com.aspose.cells/textorientationtype/
 ---
 

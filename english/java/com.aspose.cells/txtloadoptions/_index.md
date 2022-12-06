@@ -3,7 +3,6 @@ title: TxtLoadOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the options for loading text file.
 type: docs
-weight: 614
 url: /java/com.aspose.cells/txtloadoptions/
 ---
 

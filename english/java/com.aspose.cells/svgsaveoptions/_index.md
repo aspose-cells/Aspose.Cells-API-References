@@ -3,7 +3,6 @@ title: SvgSaveOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents Svg save options.
 type: docs
-weight: 555
 url: /java/com.aspose.cells/svgsaveoptions/
 ---
 

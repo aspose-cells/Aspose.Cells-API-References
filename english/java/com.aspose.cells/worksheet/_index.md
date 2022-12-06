@@ -3,7 +3,6 @@ title: Worksheet
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents a single worksheet.
 type: docs
-weight: 660
 url: /java/com.aspose.cells/worksheet/
 ---
 

@@ -3,7 +3,6 @@ title: LoadFilter
 second_title: Aspose.Cells for Java API Reference
 description: Represents the filter that provides options for loading data when loading workbook from template.
 type: docs
-weight: 309
 url: /java/com.aspose.cells/loadfilter/
 ---
 

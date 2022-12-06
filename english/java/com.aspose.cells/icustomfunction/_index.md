@@ -3,7 +3,6 @@ title: ICustomFunction
 second_title: Aspose.Cells for Java API Reference
 description: Allows users to add their custom formula calculation functions to extend the calculation engine.
 type: docs
-weight: 674
 url: /java/com.aspose.cells/icustomfunction/
 ---
 ```

@@ -3,7 +3,6 @@ title: ControlPictureAlignmentType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the alignment of the picture inside the Form or Image.
 type: docs
-weight: 125
 url: /java/com.aspose.cells/controlpicturealignmenttype/
 ---
 

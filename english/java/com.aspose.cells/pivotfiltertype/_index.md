@@ -3,7 +3,6 @@ title: PivotFilterType
 second_title: Aspose.Cells for Java API Reference
 description: Represents PivotTable Filter type.
 type: docs
-weight: 403
 url: /java/com.aspose.cells/pivotfiltertype/
 ---
 

@@ -3,7 +3,6 @@ title: ContentTypePropertyCollection
 second_title: Aspose.Cells for Java API Reference
 description: A collection of  objects that represent additional information.
 type: docs
-weight: 119
 url: /java/com.aspose.cells/contenttypepropertycollection/
 ---
 

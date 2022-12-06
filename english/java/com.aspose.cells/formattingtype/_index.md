@@ -3,7 +3,6 @@ title: FormattingType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the type of formatting applied to an  object or a  object.
 type: docs
-weight: 236
 url: /java/com.aspose.cells/formattingtype/
 ---
 

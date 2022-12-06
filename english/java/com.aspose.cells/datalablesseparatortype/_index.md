@@ -3,7 +3,6 @@ title: DataLablesSeparatorType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the separator type of DataLabels.
 type: docs
-weight: 157
 url: /java/com.aspose.cells/datalablesseparatortype/
 ---
 

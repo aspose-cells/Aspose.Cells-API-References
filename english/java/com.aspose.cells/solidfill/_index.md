@@ -3,7 +3,6 @@ title: SolidFill
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents solid fill format
 type: docs
-weight: 533
 url: /java/com.aspose.cells/solidfill/
 ---
 

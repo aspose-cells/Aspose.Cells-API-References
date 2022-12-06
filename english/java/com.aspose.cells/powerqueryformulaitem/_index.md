@@ -3,7 +3,6 @@ title: PowerQueryFormulaItem
 second_title: Aspose.Cells for Java API Reference
 description: Represents the item of the power query formula.
 type: docs
-weight: 424
 url: /java/com.aspose.cells/powerqueryformulaitem/
 ---
 

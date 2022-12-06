@@ -3,7 +3,6 @@ title: TargetModeType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the type of target mode.
 type: docs
-weight: 565
 url: /java/com.aspose.cells/targetmodetype/
 ---
 

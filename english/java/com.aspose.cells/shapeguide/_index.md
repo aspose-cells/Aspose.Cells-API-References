@@ -3,7 +3,6 @@ title: ShapeGuide
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates a shape guide specifies the presence of a shape guide that will be used to  govern the geometry of the specified shape
 type: docs
-weight: 498
 url: /java/com.aspose.cells/shapeguide/
 ---
 

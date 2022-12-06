@@ -3,7 +3,6 @@ title: Walls
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents the walls of a 3-D chart.
 type: docs
-weight: 637
 url: /java/com.aspose.cells/walls/
 ---
 

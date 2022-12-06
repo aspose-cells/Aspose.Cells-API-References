@@ -3,7 +3,6 @@ title: LineSpaceSizeType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the unit type of line space size.
 type: docs
-weight: 300
 url: /java/com.aspose.cells/linespacesizetype/
 ---
 

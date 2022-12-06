@@ -3,7 +3,6 @@ title: LightCellsDataProvider
 second_title: Aspose.Cells for Java API Reference
 description: Represents Data provider for saving large spreadsheet files in light weight mode.
 type: docs
-weight: 683
 url: /java/com.aspose.cells/lightcellsdataprovider/
 ---
 ```

@@ -3,7 +3,6 @@ title: ImportTableOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the options of importing data into cells.
 type: docs
-weight: 276
 url: /java/com.aspose.cells/importtableoptions/
 ---
 

@@ -3,7 +3,6 @@ title: ValidationCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents data validation collection.
 type: docs
-weight: 623
 url: /java/com.aspose.cells/validationcollection/
 ---
 

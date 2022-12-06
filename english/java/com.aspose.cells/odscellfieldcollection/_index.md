@@ -3,7 +3,6 @@ title: OdsCellFieldCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents the fields of ODS.
 type: docs
-weight: 350
 url: /java/com.aspose.cells/odscellfieldcollection/
 ---
 

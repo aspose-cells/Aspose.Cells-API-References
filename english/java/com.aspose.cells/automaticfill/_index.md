@@ -3,7 +3,6 @@ title: AutomaticFill
 second_title: Aspose.Cells for Java API Reference
 description: represents automatic fill.
 type: docs
-weight: 29
 url: /java/com.aspose.cells/automaticfill/
 ---
 

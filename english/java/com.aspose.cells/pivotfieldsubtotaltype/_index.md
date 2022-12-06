@@ -3,7 +3,6 @@ title: PivotFieldSubtotalType
 second_title: Aspose.Cells for Java API Reference
 description: Summary description for PivotFieldSubtotalType.
 type: docs
-weight: 399
 url: /java/com.aspose.cells/pivotfieldsubtotaltype/
 ---
 

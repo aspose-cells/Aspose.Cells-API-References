@@ -3,7 +3,6 @@ title: RevisionActionType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the type of revision action.
 type: docs
-weight: 462
 url: /java/com.aspose.cells/revisionactiontype/
 ---
 

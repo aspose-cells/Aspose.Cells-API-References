@@ -3,7 +3,6 @@ title: XmlLoadOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the options of loading xml.
 type: docs
-weight: 668
 url: /java/com.aspose.cells/xmlloadoptions/
 ---
 

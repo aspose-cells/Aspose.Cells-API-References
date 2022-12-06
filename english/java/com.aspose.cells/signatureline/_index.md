@@ -3,7 +3,6 @@ title: SignatureLine
 second_title: Aspose.Cells for Java API Reference
 description: Represent the signature line.
 type: docs
-weight: 516
 url: /java/com.aspose.cells/signatureline/
 ---
 

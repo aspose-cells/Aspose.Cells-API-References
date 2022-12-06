@@ -3,7 +3,6 @@ title: DataLabels
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates a collection of all the DataLabel objects for the specified Series.
 type: docs
-weight: 155
 url: /java/com.aspose.cells/datalabels/
 ---
 

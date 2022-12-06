@@ -3,7 +3,6 @@ title: ConsolidationFunction
 second_title: Aspose.Cells for Java API Reference
 description: Represents consolidation function.
 type: docs
-weight: 116
 url: /java/com.aspose.cells/consolidationfunction/
 ---
 

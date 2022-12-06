@@ -3,7 +3,6 @@ title: PivotItemCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents a collection of all the PivotItem objects in the PivotFields
 type: docs
-weight: 408
 url: /java/com.aspose.cells/pivotitemcollection/
 ---
 

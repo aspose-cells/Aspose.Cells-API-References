@@ -3,7 +3,6 @@ title: RevisionCustomView
 second_title: Aspose.Cells for Java API Reference
 description: Represents a revision record of adding or removing a custom view to the workbook
 type: docs
-weight: 468
 url: /java/com.aspose.cells/revisioncustomview/
 ---
 

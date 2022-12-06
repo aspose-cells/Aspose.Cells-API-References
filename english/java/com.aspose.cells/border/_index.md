@@ -3,7 +3,6 @@ title: Border
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents the cell border.
 type: docs
-weight: 40
 url: /java/com.aspose.cells/border/
 ---
 

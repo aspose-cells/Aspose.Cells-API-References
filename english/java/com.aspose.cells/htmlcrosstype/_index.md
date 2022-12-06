@@ -3,7 +3,6 @@ title: HtmlCrossType
 second_title: Aspose.Cells for Java API Reference
 description: Represents five types of html cross string.
 type: docs
-weight: 258
 url: /java/com.aspose.cells/htmlcrosstype/
 ---
 

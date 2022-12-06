@@ -3,7 +3,6 @@ title: DataMashup
 second_title: Aspose.Cells for Java API Reference
 description: Represents mashup data.
 type: docs
-weight: 158
 url: /java/com.aspose.cells/datamashup/
 ---
 

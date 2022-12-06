@@ -3,7 +3,6 @@ title: SmartTagShowType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the show type of the smart tag.
 type: docs
-weight: 532
 url: /java/com.aspose.cells/smarttagshowtype/
 ---
 

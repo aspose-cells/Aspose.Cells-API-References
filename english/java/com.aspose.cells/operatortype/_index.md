@@ -3,7 +3,6 @@ title: OperatorType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the operator type of conditional format and data validation.
 type: docs
-weight: 364
 url: /java/com.aspose.cells/operatortype/
 ---
 

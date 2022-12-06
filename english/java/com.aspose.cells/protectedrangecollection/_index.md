@@ -3,7 +3,6 @@ title: ProtectedRangeCollection
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates a collection of  objects.
 type: docs
-weight: 441
 url: /java/com.aspose.cells/protectedrangecollection/
 ---
 

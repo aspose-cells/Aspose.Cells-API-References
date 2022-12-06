@@ -3,7 +3,6 @@ title: PdfOptimizationType
 second_title: Aspose.Cells for Java API Reference
 description: Specifies a type of optimization.
 type: docs
-weight: 387
 url: /java/com.aspose.cells/pdfoptimizationtype/
 ---
 

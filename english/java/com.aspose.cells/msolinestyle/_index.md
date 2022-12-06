@@ -3,7 +3,6 @@ title: MsoLineStyle
 second_title: Aspose.Cells for Java API Reference
 description: Represents style of drawing lines.
 type: docs
-weight: 335
 url: /java/com.aspose.cells/msolinestyle/
 ---
 

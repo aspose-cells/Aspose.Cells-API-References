@@ -3,7 +3,6 @@ title: NameScopeType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the scope type of defined names.
 type: docs
-weight: 342
 url: /java/com.aspose.cells/namescopetype/
 ---
 

@@ -3,7 +3,6 @@ title: UpdateLinksType
 second_title: Aspose.Cells for Java API Reference
 description: Represents how to update links to other workbooks when the workbook is opened.
 type: docs
-weight: 620
 url: /java/com.aspose.cells/updatelinkstype/
 ---
 

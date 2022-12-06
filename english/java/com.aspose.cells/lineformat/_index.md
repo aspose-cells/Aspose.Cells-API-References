@@ -3,7 +3,6 @@ title: LineFormat
 second_title: Aspose.Cells for Java API Reference
 description: Represents all setting of the line.
 type: docs
-weight: 297
 url: /java/com.aspose.cells/lineformat/
 ---
 

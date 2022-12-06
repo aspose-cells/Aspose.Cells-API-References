@@ -3,7 +3,6 @@ title: SparklinePresetStyleType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the preset style types for sparkline.
 type: docs
-weight: 541
 url: /java/com.aspose.cells/sparklinepresetstyletype/
 ---
 

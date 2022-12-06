@@ -3,7 +3,6 @@ title: DataBarAxisPosition
 second_title: Aspose.Cells for Java API Reference
 description: Specifies the axis position for a range of cells with conditional formatting as data bars.
 type: docs
-weight: 149
 url: /java/com.aspose.cells/databaraxisposition/
 ---
 

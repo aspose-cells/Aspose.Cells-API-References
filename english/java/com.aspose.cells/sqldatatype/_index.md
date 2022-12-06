@@ -3,7 +3,6 @@ title: SqlDataType
 second_title: Aspose.Cells for Java API Reference
 description: Specifies SQL data type of the parameter.
 type: docs
-weight: 546
 url: /java/com.aspose.cells/sqldatatype/
 ---
 

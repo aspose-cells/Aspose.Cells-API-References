@@ -3,7 +3,6 @@ title: DocumentProperty
 second_title: Aspose.Cells for Java API Reference
 description: Represents a custom or built-in document property.
 type: docs
-weight: 177
 url: /java/com.aspose.cells/documentproperty/
 ---
 

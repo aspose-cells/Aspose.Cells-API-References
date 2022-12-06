@@ -3,7 +3,6 @@ title: GradientPresetType
 second_title: Aspose.Cells for Java API Reference
 description: Represents gradient preset color type.
 type: docs
-weight: 246
 url: /java/com.aspose.cells/gradientpresettype/
 ---
 

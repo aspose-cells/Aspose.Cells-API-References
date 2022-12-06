@@ -3,7 +3,6 @@ title: IFilePathProvider
 second_title: Aspose.Cells for Java API Reference
 description: Represents the exported file path provider.
 type: docs
-weight: 677
 url: /java/com.aspose.cells/ifilepathprovider/
 ---
 ```

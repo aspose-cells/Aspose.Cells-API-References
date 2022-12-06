@@ -3,7 +3,6 @@ title: FindOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents find options.
 type: docs
-weight: 219
 url: /java/com.aspose.cells/findoptions/
 ---
 

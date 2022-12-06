@@ -3,7 +3,6 @@ title: ErrorCheckType
 second_title: Aspose.Cells for Java API Reference
 description: Represents all error check type.
 type: docs
-weight: 196
 url: /java/com.aspose.cells/errorchecktype/
 ---
 

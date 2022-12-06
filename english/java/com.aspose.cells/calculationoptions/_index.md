@@ -3,7 +3,6 @@ title: CalculationOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents options for calculation.
 type: docs
-weight: 53
 url: /java/com.aspose.cells/calculationoptions/
 ---
 

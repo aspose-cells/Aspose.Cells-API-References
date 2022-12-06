@@ -3,7 +3,6 @@ title: LookInType
 second_title: Aspose.Cells for Java API Reference
 description: Represents look in type.
 type: docs
-weight: 314
 url: /java/com.aspose.cells/lookintype/
 ---
 

@@ -3,7 +3,6 @@ title: PresetWordArtStyle
 second_title: Aspose.Cells for Java API Reference
 description: Represents the preset WordArt styles.
 type: docs
-weight: 433
 url: /java/com.aspose.cells/presetwordartstyle/
 ---
 

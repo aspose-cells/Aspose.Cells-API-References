@@ -3,7 +3,6 @@ title: CopyFormatType
 second_title: Aspose.Cells for Java API Reference
 description: Represents type of copying format when inserting rows.
 type: docs
-weight: 132
 url: /java/com.aspose.cells/copyformattype/
 ---
 

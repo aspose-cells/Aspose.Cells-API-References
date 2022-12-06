@@ -3,7 +3,6 @@ title: Hyperlink
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents a hyperlink.
 type: docs
-weight: 266
 url: /java/com.aspose.cells/hyperlink/
 ---
 

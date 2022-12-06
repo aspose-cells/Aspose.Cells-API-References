@@ -3,7 +3,6 @@ title: IndividualFontConfigs
 second_title: Aspose.Cells for Java API Reference
 description: Font configs for each  object.
 type: docs
-weight: 277
 url: /java/com.aspose.cells/individualfontconfigs/
 ---
 

@@ -3,7 +3,6 @@ title: PivotMissingItemLimitType
 second_title: Aspose.Cells for Java API Reference
 description: Represents number of items to retain per field.
 type: docs
-weight: 410
 url: /java/com.aspose.cells/pivotmissingitemlimittype/
 ---
 

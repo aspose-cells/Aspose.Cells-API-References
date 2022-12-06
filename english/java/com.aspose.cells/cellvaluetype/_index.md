@@ -3,7 +3,6 @@ title: CellValueType
 second_title: Aspose.Cells for Java API Reference
 description: Specifies a cell value type.
 type: docs
-weight: 60
 url: /java/com.aspose.cells/cellvaluetype/
 ---
 

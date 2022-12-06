@@ -3,7 +3,6 @@ title: SlicerCacheItemSortType
 second_title: Aspose.Cells for Java API Reference
 description: Specify the sort type of SlicerCacheItem
 type: docs
-weight: 522
 url: /java/com.aspose.cells/slicercacheitemsorttype/
 ---
 

@@ -3,7 +3,6 @@ title: NoneBulletValue
 second_title: Aspose.Cells for Java API Reference
 description: Represents no bullet.
 type: docs
-weight: 344
 url: /java/com.aspose.cells/nonebulletvalue/
 ---
 

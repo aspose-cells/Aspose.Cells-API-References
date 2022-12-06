@@ -3,7 +3,6 @@ title: ImageType
 second_title: Aspose.Cells for Java API Reference
 description: Specifies the type format of an image.
 type: docs
-weight: 275
 url: /java/com.aspose.cells/imagetype/
 ---
 

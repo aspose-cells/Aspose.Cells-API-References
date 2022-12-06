@@ -3,7 +3,6 @@ title: TotalsCalculation
 second_title: Aspose.Cells for Java API Reference
 description: Determines the type of calculation in the Totals row of the list column.
 type: docs
-weight: 610
 url: /java/com.aspose.cells/totalscalculation/
 ---
 

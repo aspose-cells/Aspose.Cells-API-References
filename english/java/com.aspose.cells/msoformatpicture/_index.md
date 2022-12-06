@@ -3,7 +3,6 @@ title: MsoFormatPicture
 second_title: Aspose.Cells for Java API Reference
 description: Represents the picture format.
 type: docs
-weight: 331
 url: /java/com.aspose.cells/msoformatpicture/
 ---
 

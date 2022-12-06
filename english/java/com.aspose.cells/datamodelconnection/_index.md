@@ -3,7 +3,6 @@ title: DataModelConnection
 second_title: Aspose.Cells for Java API Reference
 description: Specifies a data model connection
 type: docs
-weight: 159
 url: /java/com.aspose.cells/datamodelconnection/
 ---
 

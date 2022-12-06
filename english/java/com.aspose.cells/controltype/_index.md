@@ -3,7 +3,6 @@ title: ControlType
 second_title: Aspose.Cells for Java API Reference
 description: Represents all type of ActiveX control.
 type: docs
-weight: 131
 url: /java/com.aspose.cells/controltype/
 ---
 

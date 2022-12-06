@@ -3,7 +3,6 @@ title: WebExtensionStoreType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the store type of web extension.
 type: docs
-weight: 649
 url: /java/com.aspose.cells/webextensionstoretype/
 ---
 

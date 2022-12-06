@@ -3,7 +3,6 @@ title: ColorFilter
 second_title: Aspose.Cells for Java API Reference
 description: Represents the color filter.
 type: docs
-weight: 93
 url: /java/com.aspose.cells/colorfilter/
 ---
 

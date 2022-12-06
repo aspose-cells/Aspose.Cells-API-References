@@ -3,7 +3,6 @@ title: ScenarioCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents the list of scenarios.
 type: docs
-weight: 484
 url: /java/com.aspose.cells/scenariocollection/
 ---
 

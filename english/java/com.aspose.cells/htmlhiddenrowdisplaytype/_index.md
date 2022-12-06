@@ -3,7 +3,6 @@ title: HtmlHiddenRowDisplayType
 second_title: Aspose.Cells for Java API Reference
 description: Represents two types of showing the hidden rows in html.
 type: docs
-weight: 262
 url: /java/com.aspose.cells/htmlhiddenrowdisplaytype/
 ---
 

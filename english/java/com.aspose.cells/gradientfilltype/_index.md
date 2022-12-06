@@ -3,7 +3,6 @@ title: GradientFillType
 second_title: Aspose.Cells for Java API Reference
 description: Represents all Gradient fill type.
 type: docs
-weight: 245
 url: /java/com.aspose.cells/gradientfilltype/
 ---
 

@@ -3,7 +3,6 @@ title: OdsCellFieldType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the cell field type of ods.
 type: docs
-weight: 351
 url: /java/com.aspose.cells/odscellfieldtype/
 ---
 

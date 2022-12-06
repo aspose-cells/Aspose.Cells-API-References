@@ -3,7 +3,6 @@ title: ChartShape
 second_title: Aspose.Cells for Java API Reference
 description: Represents the shape of the chart.
 type: docs
-weight: 81
 url: /java/com.aspose.cells/chartshape/
 ---
 

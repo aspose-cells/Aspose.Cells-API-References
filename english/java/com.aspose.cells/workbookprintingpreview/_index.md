@@ -3,7 +3,6 @@ title: WorkbookPrintingPreview
 second_title: Aspose.Cells for Java API Reference
 description: Workbook printing preview.
 type: docs
-weight: 657
 url: /java/com.aspose.cells/workbookprintingpreview/
 ---
 

@@ -3,7 +3,6 @@ title: RectangleShape
 second_title: Aspose.Cells for Java API Reference
 description: Represents the rectangle shape.
 type: docs
-weight: 453
 url: /java/com.aspose.cells/rectangleshape/
 ---
 

@@ -3,7 +3,6 @@ title: QuartileCalculationType
 second_title: Aspose.Cells for Java API Reference
 description: Represents quartile calculation methods.
 type: docs
-weight: 444
 url: /java/com.aspose.cells/quartilecalculationtype/
 ---
 

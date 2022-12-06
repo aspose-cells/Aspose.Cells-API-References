@@ -3,7 +3,6 @@ title: PrintErrorsType
 second_title: Aspose.Cells for Java API Reference
 description: Represents print errors constants.
 type: docs
-weight: 435
 url: /java/com.aspose.cells/printerrorstype/
 ---
 

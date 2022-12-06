@@ -3,7 +3,6 @@ title: CellWatch
 second_title: Aspose.Cells for Java API Reference
 description: Represents Cell Watch Item in the watch window.
 type: docs
-weight: 61
 url: /java/com.aspose.cells/cellwatch/
 ---
 

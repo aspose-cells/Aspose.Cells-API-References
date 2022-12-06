@@ -3,7 +3,6 @@ title: PivotFormatConditionCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents PivotTable Format Conditions.
 type: docs
-weight: 405
 url: /java/com.aspose.cells/pivotformatconditioncollection/
 ---
 

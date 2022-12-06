@@ -3,7 +3,6 @@ title: CollectionBase
 second_title: Aspose.Cells for Java API Reference
 description: Provides the abstract base class for a strongly typed collection.
 type: docs
-weight: 90
 url: /java/com.aspose.cells/collectionbase/
 ---
 

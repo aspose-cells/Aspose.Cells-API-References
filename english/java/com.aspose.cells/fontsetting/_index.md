@@ -3,7 +3,6 @@ title: FontSetting
 second_title: Aspose.Cells for Java API Reference
 description: Represents a range of characters within the cell text.
 type: docs
-weight: 225
 url: /java/com.aspose.cells/fontsetting/
 ---
 

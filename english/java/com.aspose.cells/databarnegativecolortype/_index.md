@@ -3,7 +3,6 @@ title: DataBarNegativeColorType
 second_title: Aspose.Cells for Java API Reference
 description: Specifies whether to use the same border and fill color as positive data bars.
 type: docs
-weight: 153
 url: /java/com.aspose.cells/databarnegativecolortype/
 ---
 

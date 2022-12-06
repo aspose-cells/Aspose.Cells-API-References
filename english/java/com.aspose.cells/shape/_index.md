@@ -3,7 +3,6 @@ title: Shape
 second_title: Aspose.Cells for Java API Reference
 description: Represents the msodrawing object.
 type: docs
-weight: 494
 url: /java/com.aspose.cells/shape/
 ---
 

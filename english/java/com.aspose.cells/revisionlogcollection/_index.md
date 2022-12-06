@@ -3,7 +3,6 @@ title: RevisionLogCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents all revision logs.
 type: docs
-weight: 474
 url: /java/com.aspose.cells/revisionlogcollection/
 ---
 

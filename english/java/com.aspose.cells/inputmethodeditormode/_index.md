@@ -3,7 +3,6 @@ title: InputMethodEditorMode
 second_title: Aspose.Cells for Java API Reference
 description: Represents the default run-time mode of the Input Method Editor.
 type: docs
-weight: 278
 url: /java/com.aspose.cells/inputmethodeditormode/
 ---
 

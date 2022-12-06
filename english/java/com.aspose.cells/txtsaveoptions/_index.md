@@ -3,7 +3,6 @@ title: TxtSaveOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the save options for csv/tab delimited/other text format.
 type: docs
-weight: 616
 url: /java/com.aspose.cells/txtsaveoptions/
 ---
 

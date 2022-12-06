@@ -3,7 +3,6 @@ title: Bar3DShapeType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the shape used with the 3-D bar or column chart.
 type: docs
-weight: 35
 url: /java/com.aspose.cells/bar3dshapetype/
 ---
 

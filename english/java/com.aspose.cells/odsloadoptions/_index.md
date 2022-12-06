@@ -3,7 +3,6 @@ title: OdsLoadOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the options of loading ods file.
 type: docs
-weight: 353
 url: /java/com.aspose.cells/odsloadoptions/
 ---
 

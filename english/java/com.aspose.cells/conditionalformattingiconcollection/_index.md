@@ -3,7 +3,6 @@ title: ConditionalFormattingIconCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents  a collection of  objects.
 type: docs
-weight: 108
 url: /java/com.aspose.cells/conditionalformattingiconcollection/
 ---
 

@@ -3,7 +3,6 @@ title: MultipleFilterCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents the multiple filter collection.
 type: docs
-weight: 339
 url: /java/com.aspose.cells/multiplefiltercollection/
 ---
 

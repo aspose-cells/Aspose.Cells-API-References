@@ -3,7 +3,6 @@ title: HtmlLoadOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents options when importing a html file.
 type: docs
-weight: 264
 url: /java/com.aspose.cells/htmlloadoptions/
 ---
 

@@ -3,7 +3,6 @@ title: PaneCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents all Pane objects shown in the specified window.
 type: docs
-weight: 374
 url: /java/com.aspose.cells/panecollection/
 ---
 

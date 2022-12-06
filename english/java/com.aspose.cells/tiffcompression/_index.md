@@ -3,7 +3,6 @@ title: TiffCompression
 second_title: Aspose.Cells for Java API Reference
 description: Specifies what type of compression to apply when saving images into TIFF format file.
 type: docs
-weight: 600
 url: /java/com.aspose.cells/tiffcompression/
 ---
 

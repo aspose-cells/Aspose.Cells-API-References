@@ -3,7 +3,6 @@ title: MapChartLabelLayout
 second_title: Aspose.Cells for Java API Reference
 description: Represents the layout of map charts labels.
 type: docs
-weight: 315
 url: /java/com.aspose.cells/mapchartlabellayout/
 ---
 

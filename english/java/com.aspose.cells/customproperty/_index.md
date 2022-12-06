@@ -3,7 +3,6 @@ title: CustomProperty
 second_title: Aspose.Cells for Java API Reference
 description: Represents identifier information.
 type: docs
-weight: 142
 url: /java/com.aspose.cells/customproperty/
 ---
 

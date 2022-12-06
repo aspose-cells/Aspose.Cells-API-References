@@ -3,7 +3,6 @@ title: HorizontalPageBreakCollection
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates a collection of  objects.
 type: docs
-weight: 257
 url: /java/com.aspose.cells/horizontalpagebreakcollection/
 ---
 

@@ -3,7 +3,6 @@ title: LoadNumbersTableType
 second_title: Aspose.Cells for Java API Reference
 description: Indicates type of loading tables when some tables are in a sheet.
 type: docs
-weight: 311
 url: /java/com.aspose.cells/loadnumberstabletype/
 ---
 

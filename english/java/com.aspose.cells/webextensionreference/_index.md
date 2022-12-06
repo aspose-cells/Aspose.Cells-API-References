@@ -3,7 +3,6 @@ title: WebExtensionReference
 second_title: Aspose.Cells for Java API Reference
 description: Represents identify the provider location and version of the extension.
 type: docs
-weight: 646
 url: /java/com.aspose.cells/webextensionreference/
 ---
 

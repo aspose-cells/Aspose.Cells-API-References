@@ -3,7 +3,6 @@ title: ControlPictureSizeMode
 second_title: Aspose.Cells for Java API Reference
 description: Represents how to display the picture.
 type: docs
-weight: 127
 url: /java/com.aspose.cells/controlpicturesizemode/
 ---
 

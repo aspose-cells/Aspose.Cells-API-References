@@ -3,7 +3,6 @@ title: CustomXmlPart
 second_title: Aspose.Cells for Java API Reference
 description: Represents a Custom XML Data Storage Part custom XML data within a package.
 type: docs
-weight: 144
 url: /java/com.aspose.cells/customxmlpart/
 ---
 

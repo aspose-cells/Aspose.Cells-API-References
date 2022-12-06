@@ -3,7 +3,6 @@ title: RevisionDefinedName
 second_title: Aspose.Cells for Java API Reference
 description: Represents a revision record of a defined name change.
 type: docs
-weight: 469
 url: /java/com.aspose.cells/revisiondefinedname/
 ---
 

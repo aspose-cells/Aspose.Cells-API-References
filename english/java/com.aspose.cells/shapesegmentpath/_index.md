@@ -3,7 +3,6 @@ title: ShapeSegmentPath
 second_title: Aspose.Cells for Java API Reference
 description: Represents a segment path in a path of the freeform.
 type: docs
-weight: 507
 url: /java/com.aspose.cells/shapesegmentpath/
 ---
 

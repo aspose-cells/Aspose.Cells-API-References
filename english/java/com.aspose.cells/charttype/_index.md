@@ -3,7 +3,6 @@ title: ChartType
 second_title: Aspose.Cells for Java API Reference
 description: Enumerates all chart types used in Excel.
 type: docs
-weight: 85
 url: /java/com.aspose.cells/charttype/
 ---
 

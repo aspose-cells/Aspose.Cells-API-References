@@ -3,7 +3,6 @@ title: ControlMatchEntryType
 second_title: Aspose.Cells for Java API Reference
 description: Represents how a ListBox or ComboBox searches its list as the user types.
 type: docs
-weight: 123
 url: /java/com.aspose.cells/controlmatchentrytype/
 ---
 

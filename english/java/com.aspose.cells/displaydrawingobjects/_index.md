@@ -3,7 +3,6 @@ title: DisplayDrawingObjects
 second_title: Aspose.Cells for Java API Reference
 description: Represents whether and how to show objects in the workbook.
 type: docs
-weight: 174
 url: /java/com.aspose.cells/displaydrawingobjects/
 ---
 

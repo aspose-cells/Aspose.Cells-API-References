@@ -3,7 +3,6 @@ title: IPageSavingCallback
 second_title: Aspose.Cells for Java API Reference
 description: Control/Indicate progress of page saving process.
 type: docs
-weight: 678
 url: /java/com.aspose.cells/ipagesavingcallback/
 ---
 ```

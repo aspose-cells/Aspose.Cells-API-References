@@ -3,7 +3,6 @@ title: ValidationType
 second_title: Aspose.Cells for Java API Reference
 description: Represents data validation type.
 type: docs
-weight: 624
 url: /java/com.aspose.cells/validationtype/
 ---
 

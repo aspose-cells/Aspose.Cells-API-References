@@ -3,7 +3,6 @@ title: AutoShapeType
 second_title: Aspose.Cells for Java API Reference
 description: Represents all built-in auto shape type.
 type: docs
-weight: 28
 url: /java/com.aspose.cells/autoshapetype/
 ---
 
@@ -262,8 +261,6 @@ Represents all built-in auto shape type.
 | [TEXT_WAVE](#TEXT-WAVE) |  |
 | [TEXT_WAVE_1](#TEXT-WAVE-1) | A wavy text shape. |
 | [TEXT_WAVE_2](#TEXT-WAVE-2) | A wavy text shape. |
-| [TEXT_WAVE_3](#TEXT-WAVE-3) | A wavy text shape. |
-| [TEXT_WAVE_4](#TEXT-WAVE-4) | A wavy text shape. |
 | [TRAPEZOID](#TRAPEZOID) |  |
 | [UNKNOWN](#UNKNOWN) |  |
 | [UP_ARROW](#UP-ARROW) |  |
@@ -2238,22 +2235,6 @@ public static final int TEXT_WAVE_2
 
 
 A wavy text shape.
-
-### TEXT_WAVE_3 {#TEXT-WAVE-3}
-```
-public static final int TEXT_WAVE_3
-```
-
-
-A wavy text shape. NOTE: This enum is now obsolete. Instead, please use AutoShape.TextDoubleWave1. This property will be removed 12 months later since April 2016. Aspose apologizes for any inconvenience you may have experienced.
-
-### TEXT_WAVE_4 {#TEXT-WAVE-4}
-```
-public static final int TEXT_WAVE_4
-```
-
-
-A wavy text shape. NOTE: This enum is now obsolete. Instead, please use AutoShape.TextDoubleWave2. This property will be removed 12 months later since April 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 ### TRAPEZOID {#TRAPEZOID}
 ```

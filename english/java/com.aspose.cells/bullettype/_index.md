@@ -3,7 +3,6 @@ title: BulletType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the type of the bullet.
 type: docs
-weight: 47
 url: /java/com.aspose.cells/bullettype/
 ---
 

@@ -3,7 +3,6 @@ title: AbstractTextLoadOptions
 second_title: Aspose.Cells for Java API Reference
 description: Common options for loading text values
 type: docs
-weight: 15
 url: /java/com.aspose.cells/abstracttextloadoptions/
 ---
 

@@ -3,7 +3,6 @@ title: RevisionCellComment
 second_title: Aspose.Cells for Java API Reference
 description: Represents a revision record of a cell comment change.
 type: docs
-weight: 465
 url: /java/com.aspose.cells/revisioncellcomment/
 ---
 

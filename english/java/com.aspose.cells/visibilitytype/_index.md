@@ -3,7 +3,6 @@ title: VisibilityType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the states for sheet visibility.
 type: docs
-weight: 635
 url: /java/com.aspose.cells/visibilitytype/
 ---
 

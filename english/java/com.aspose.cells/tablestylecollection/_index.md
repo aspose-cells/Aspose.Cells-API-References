@@ -3,7 +3,6 @@ title: TableStyleCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents all custom table styles.
 type: docs
-weight: 559
 url: /java/com.aspose.cells/tablestylecollection/
 ---
 

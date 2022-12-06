@@ -3,7 +3,6 @@ title: RevisionInsertDelete
 second_title: Aspose.Cells for Java API Reference
 description: Represents a revision record of a row/column insert/delete action.
 type: docs
-weight: 471
 url: /java/com.aspose.cells/revisioninsertdelete/
 ---
 

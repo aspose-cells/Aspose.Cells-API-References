@@ -3,7 +3,6 @@ title: IconFilter
 second_title: Aspose.Cells for Java API Reference
 description: Represents icon filter.
 type: docs
-weight: 268
 url: /java/com.aspose.cells/iconfilter/
 ---
 

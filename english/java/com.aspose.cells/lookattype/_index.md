@@ -3,7 +3,6 @@ title: LookAtType
 second_title: Aspose.Cells for Java API Reference
 description: Represents look at type.
 type: docs
-weight: 313
 url: /java/com.aspose.cells/lookattype/
 ---
 

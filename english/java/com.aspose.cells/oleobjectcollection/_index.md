@@ -3,7 +3,6 @@ title: OleObjectCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents embedded OLE objects.
 type: docs
-weight: 360
 url: /java/com.aspose.cells/oleobjectcollection/
 ---
 

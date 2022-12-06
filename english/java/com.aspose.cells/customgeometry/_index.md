@@ -3,7 +3,6 @@ title: CustomGeometry
 second_title: Aspose.Cells for Java API Reference
 description: Represents a custom geometric shape.
 type: docs
-weight: 140
 url: /java/com.aspose.cells/customgeometry/
 ---
 

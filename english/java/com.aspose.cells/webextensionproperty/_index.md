@@ -3,7 +3,6 @@ title: WebExtensionProperty
 second_title: Aspose.Cells for Java API Reference
 description: Represents an Office Add-in custom property.
 type: docs
-weight: 644
 url: /java/com.aspose.cells/webextensionproperty/
 ---
 

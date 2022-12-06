@@ -3,7 +3,6 @@ title: PivotItem
 second_title: Aspose.Cells for Java API Reference
 description: Represents a item in a PivotField report.
 type: docs
-weight: 407
 url: /java/com.aspose.cells/pivotitem/
 ---
 

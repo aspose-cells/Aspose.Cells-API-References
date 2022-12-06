@@ -3,7 +3,6 @@ title: CellValueFormatStrategy
 second_title: Aspose.Cells for Java API Reference
 description: Specifies how to apply style for the value of the cell.
 type: docs
-weight: 59
 url: /java/com.aspose.cells/cellvalueformatstrategy/
 ---
 

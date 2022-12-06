@@ -3,7 +3,6 @@ title: Button
 second_title: Aspose.Cells for Java API Reference
 description: Represents the Forms control Button
 type: docs
-weight: 49
 url: /java/com.aspose.cells/button/
 ---
 

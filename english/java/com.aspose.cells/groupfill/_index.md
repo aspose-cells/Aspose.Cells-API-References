@@ -3,7 +3,6 @@ title: GroupFill
 second_title: Aspose.Cells for Java API Reference
 description: Represents this fill format should inherit the fill properties of the group.
 type: docs
-weight: 252
 url: /java/com.aspose.cells/groupfill/
 ---
 

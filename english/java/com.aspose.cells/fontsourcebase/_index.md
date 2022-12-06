@@ -3,7 +3,6 @@ title: FontSourceBase
 second_title: Aspose.Cells for Java API Reference
 description: This is an abstract base class for the classes that allow the user to specify various font sources
 type: docs
-weight: 227
 url: /java/com.aspose.cells/fontsourcebase/
 ---
 

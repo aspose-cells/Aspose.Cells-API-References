@@ -3,7 +3,6 @@ title: PictureBulletValue
 second_title: Aspose.Cells for Java API Reference
 description: Represents the value of the image bullet.
 type: docs
-weight: 392
 url: /java/com.aspose.cells/picturebulletvalue/
 ---
 

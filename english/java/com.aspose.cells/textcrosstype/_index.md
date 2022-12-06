@@ -3,7 +3,6 @@ title: TextCrossType
 second_title: Aspose.Cells for Java API Reference
 description: Enumerates displaying text type when the text width is larger than cell width.
 type: docs
-weight: 572
 url: /java/com.aspose.cells/textcrosstype/
 ---
 

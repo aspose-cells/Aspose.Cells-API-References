@@ -3,7 +3,6 @@ title: License
 second_title: Aspose.Cells for Java API Reference
 description: Provides methods to license the component.
 type: docs
-weight: 292
 url: /java/com.aspose.cells/license/
 ---
 

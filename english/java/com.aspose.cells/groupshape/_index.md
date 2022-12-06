@@ -3,7 +3,6 @@ title: GroupShape
 second_title: Aspose.Cells for Java API Reference
 description: Represents the group shape which contains the individual shapes.
 type: docs
-weight: 253
 url: /java/com.aspose.cells/groupshape/
 ---
 

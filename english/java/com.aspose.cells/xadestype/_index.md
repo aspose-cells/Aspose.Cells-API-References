@@ -3,7 +3,6 @@ title: XAdESType
 second_title: Aspose.Cells for Java API Reference
 description: Type of XML Advanced Electronic Signature XAdES.
 type: docs
-weight: 663
 url: /java/com.aspose.cells/xadestype/
 ---
 

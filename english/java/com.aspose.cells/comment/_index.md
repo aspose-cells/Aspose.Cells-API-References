@@ -3,7 +3,6 @@ title: Comment
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents a cell comment.
 type: docs
-weight: 102
 url: /java/com.aspose.cells/comment/
 ---
 

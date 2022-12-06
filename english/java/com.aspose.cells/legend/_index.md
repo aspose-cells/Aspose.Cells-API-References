@@ -3,7 +3,6 @@ title: Legend
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents the chart legend.
 type: docs
-weight: 288
 url: /java/com.aspose.cells/legend/
 ---
 

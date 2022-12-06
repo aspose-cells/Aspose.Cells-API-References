@@ -3,7 +3,6 @@ title: XlsSaveOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the save options for the Excel 97-2003 file format xls and xlt.
 type: docs
-weight: 664
 url: /java/com.aspose.cells/xlssaveoptions/
 ---
 

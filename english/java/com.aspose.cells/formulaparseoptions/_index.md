@@ -3,7 +3,6 @@ title: FormulaParseOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents options when parsing formula.
 type: docs
-weight: 237
 url: /java/com.aspose.cells/formulaparseoptions/
 ---
 

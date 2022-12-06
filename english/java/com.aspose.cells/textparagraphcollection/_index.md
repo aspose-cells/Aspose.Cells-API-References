@@ -3,7 +3,6 @@ title: TextParagraphCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents all text paragraph.
 type: docs
-weight: 581
 url: /java/com.aspose.cells/textparagraphcollection/
 ---
 

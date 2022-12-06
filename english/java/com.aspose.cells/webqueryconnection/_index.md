@@ -3,7 +3,6 @@ title: WebQueryConnection
 second_title: Aspose.Cells for Java API Reference
 description: Specifies the properties for a web query source.
 type: docs
-weight: 652
 url: /java/com.aspose.cells/webqueryconnection/
 ---
 

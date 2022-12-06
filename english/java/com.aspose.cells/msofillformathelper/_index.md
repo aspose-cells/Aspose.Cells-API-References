@@ -3,7 +3,6 @@ title: MsoFillFormatHelper
 second_title: Aspose.Cells for Java API Reference
 description: Represents fill formatting for a shape.
 type: docs
-weight: 330
 url: /java/com.aspose.cells/msofillformathelper/
 ---
 

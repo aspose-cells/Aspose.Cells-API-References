@@ -3,7 +3,6 @@ title: ListColumn
 second_title: Aspose.Cells for Java API Reference
 description: Represents a column in a list.
 type: docs
-weight: 304
 url: /java/com.aspose.cells/listcolumn/
 ---
 

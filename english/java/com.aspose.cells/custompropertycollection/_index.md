@@ -3,7 +3,6 @@ title: CustomPropertyCollection
 second_title: Aspose.Cells for Java API Reference
 description: A collection of  objects that represent additional information.
 type: docs
-weight: 143
 url: /java/com.aspose.cells/custompropertycollection/
 ---
 

@@ -3,7 +3,6 @@ title: Label
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents a label in a spreadsheet.
 type: docs
-weight: 285
 url: /java/com.aspose.cells/label/
 ---
 

@@ -3,7 +3,6 @@ title: XpsSaveOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the additional options when saving the file as the Xps.
 type: docs
-weight: 672
 url: /java/com.aspose.cells/xpssaveoptions/
 ---
 

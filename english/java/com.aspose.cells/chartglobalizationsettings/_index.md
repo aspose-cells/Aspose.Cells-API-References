@@ -3,7 +3,6 @@ title: ChartGlobalizationSettings
 second_title: Aspose.Cells for Java API Reference
 description: Represents the globalization settings for chart.
 type: docs
-weight: 76
 url: /java/com.aspose.cells/chartglobalizationsettings/
 ---
 

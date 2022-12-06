@@ -3,7 +3,6 @@ title: HyperlinkCollection
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates a collection of  objects.
 type: docs
-weight: 267
 url: /java/com.aspose.cells/hyperlinkcollection/
 ---
 

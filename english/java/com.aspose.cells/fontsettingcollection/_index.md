@@ -3,7 +3,6 @@ title: FontSettingCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents the list of .
 type: docs
-weight: 226
 url: /java/com.aspose.cells/fontsettingcollection/
 ---
 

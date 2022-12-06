@@ -3,7 +3,6 @@ title: PrintingPageType
 second_title: Aspose.Cells for Java API Reference
 description: Indicates which pages will not be printed.
 type: docs
-weight: 438
 url: /java/com.aspose.cells/printingpagetype/
 ---
 

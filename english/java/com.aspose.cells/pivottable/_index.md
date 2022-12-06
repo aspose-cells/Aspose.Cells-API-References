@@ -3,7 +3,6 @@ title: PivotTable
 second_title: Aspose.Cells for Java API Reference
 description: Summary description for PivotTable.
 type: docs
-weight: 413
 url: /java/com.aspose.cells/pivottable/
 ---
 

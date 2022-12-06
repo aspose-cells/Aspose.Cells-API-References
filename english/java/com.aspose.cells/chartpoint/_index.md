@@ -3,7 +3,6 @@ title: ChartPoint
 second_title: Aspose.Cells for Java API Reference
 description: Represents a single point in a series in a chart.
 type: docs
-weight: 79
 url: /java/com.aspose.cells/chartpoint/
 ---
 

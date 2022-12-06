@@ -1,11 +1,13 @@
 ---
 title: com.aspose.cells
 second_title: Aspose.Cells for Java API Reference
-description: 
+description: Provides core apis and features to manipulate spreadsheet files and data directly without utilizing Microsoft Excel.
 type: docs
-weight: 10
 url: /java/com.aspose.cells/
 ---
+
+
+Provides core apis and features to manipulate spreadsheet files and data directly without utilizing Microsoft Excel.
 
 
 ## Classes
@@ -283,6 +285,7 @@ url: /java/com.aspose.cells/
 | [InputMethodEditorMode](../com.aspose.cells/inputmethodeditormode) | Represents the default run-time mode of the Input Method Editor. |
 | [InsertOptions](../com.aspose.cells/insertoptions) | Represents the options of inserting. |
 | [InterruptMonitor](../com.aspose.cells/interruptmonitor) | Represents all operator about the interrupt. |
+| [JsonExportHyperlinkType](../com.aspose.cells/jsonexporthyperlinktype) | Represents type of exporting hyperlinks to json. |
 | [JsonLayoutOptions](../com.aspose.cells/jsonlayoutoptions) | Represents the options of json layout type. |
 | [JsonLoadOptions](../com.aspose.cells/jsonloadoptions) | Represents the options of loading json files |
 | [JsonSaveOptions](../com.aspose.cells/jsonsaveoptions) | Represents the options of saving the workbook as a json file. |

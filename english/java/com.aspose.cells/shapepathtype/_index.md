@@ -3,7 +3,6 @@ title: ShapePathType
 second_title: Aspose.Cells for Java API Reference
 description: Represents path segment type.
 type: docs
-weight: 505
 url: /java/com.aspose.cells/shapepathtype/
 ---
 

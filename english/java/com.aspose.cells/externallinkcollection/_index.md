@@ -3,7 +3,6 @@ title: ExternalLinkCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents external links collection in a workbook.
 type: docs
-weight: 204
 url: /java/com.aspose.cells/externallinkcollection/
 ---
 

@@ -3,7 +3,6 @@ title: TextureType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the preset texture type.
 type: docs
-weight: 588
 url: /java/com.aspose.cells/texturetype/
 ---
 

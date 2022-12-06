@@ -3,7 +3,6 @@ title: UnionRange
 second_title: Aspose.Cells for Java API Reference
 description: Represents union range.
 type: docs
-weight: 618
 url: /java/com.aspose.cells/unionrange/
 ---
 

@@ -3,7 +3,6 @@ title: TextFontAlignType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the different types of font alignment.
 type: docs
-weight: 575
 url: /java/com.aspose.cells/textfontaligntype/
 ---
 

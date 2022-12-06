@@ -3,7 +3,6 @@ title: XmlColumnProperty
 second_title: Aspose.Cells for Java API Reference
 description: Represents Xml Data Binding information.
 type: docs
-weight: 666
 url: /java/com.aspose.cells/xmlcolumnproperty/
 ---
 

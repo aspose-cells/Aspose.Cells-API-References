@@ -3,7 +3,6 @@ title: SmartTag
 second_title: Aspose.Cells for Java API Reference
 description: Represents a smart tag.
 type: docs
-weight: 526
 url: /java/com.aspose.cells/smarttag/
 ---
 

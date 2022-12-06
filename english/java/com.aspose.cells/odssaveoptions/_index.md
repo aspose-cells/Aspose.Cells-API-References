@@ -3,7 +3,6 @@ title: OdsSaveOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the options of saving ods file.
 type: docs
-weight: 358
 url: /java/com.aspose.cells/odssaveoptions/
 ---
 

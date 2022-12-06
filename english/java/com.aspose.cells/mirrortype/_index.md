@@ -3,7 +3,6 @@ title: MirrorType
 second_title: Aspose.Cells for Java API Reference
 description: Represents mirror type of texture fill
 type: docs
-weight: 324
 url: /java/com.aspose.cells/mirrortype/
 ---
 

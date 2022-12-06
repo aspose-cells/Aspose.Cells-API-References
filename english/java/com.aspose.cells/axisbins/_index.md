@@ -3,7 +3,6 @@ title: AxisBins
 second_title: Aspose.Cells for Java API Reference
 description: Represents axis bins
 type: docs
-weight: 31
 url: /java/com.aspose.cells/axisbins/
 ---
 

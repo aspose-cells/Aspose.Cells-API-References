@@ -3,7 +3,6 @@ title: SeriesLayoutProperties
 second_title: Aspose.Cells for Java API Reference
 description: Represents the properties of series layout.
 type: docs
-weight: 492
 url: /java/com.aspose.cells/serieslayoutproperties/
 ---
 

@@ -3,7 +3,6 @@ title: Geometry
 second_title: Aspose.Cells for Java API Reference
 description: Represents a geometric shape.
 type: docs
-weight: 239
 url: /java/com.aspose.cells/geometry/
 ---
 

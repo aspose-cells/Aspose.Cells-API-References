@@ -3,7 +3,6 @@ title: CellsHelper
 second_title: Aspose.Cells for Java API Reference
 description: Provides helper functions.
 type: docs
-weight: 69
 url: /java/com.aspose.cells/cellshelper/
 ---
 

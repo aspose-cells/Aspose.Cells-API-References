@@ -3,7 +3,6 @@ title: PresetMaterialType
 second_title: Aspose.Cells for Java API Reference
 description: Describes surface appearance of a shape.
 type: docs
-weight: 430
 url: /java/com.aspose.cells/presetmaterialtype/
 ---
 

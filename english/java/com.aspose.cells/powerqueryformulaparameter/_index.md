@@ -3,7 +3,6 @@ title: PowerQueryFormulaParameter
 second_title: Aspose.Cells for Java API Reference
 description: Represents the parameter of power query formula.
 type: docs
-weight: 426
 url: /java/com.aspose.cells/powerqueryformulaparameter/
 ---
 

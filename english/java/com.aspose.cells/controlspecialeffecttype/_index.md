@@ -3,7 +3,6 @@ title: ControlSpecialEffectType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the type of special effect.
 type: docs
-weight: 130
 url: /java/com.aspose.cells/controlspecialeffecttype/
 ---
 

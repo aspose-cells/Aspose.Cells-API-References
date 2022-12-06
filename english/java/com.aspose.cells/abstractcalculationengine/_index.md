@@ -3,7 +3,6 @@ title: AbstractCalculationEngine
 second_title: Aspose.Cells for Java API Reference
 description: Represents users custom calculation engine to extend the default calculation engine of Aspose.Cells.
 type: docs
-weight: 11
 url: /java/com.aspose.cells/abstractcalculationengine/
 ---
 

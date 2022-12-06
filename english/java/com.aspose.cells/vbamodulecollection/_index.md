@@ -3,7 +3,6 @@ title: VbaModuleCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents the list of
 type: docs
-weight: 626
 url: /java/com.aspose.cells/vbamodulecollection/
 ---
 

@@ -3,7 +3,6 @@ title: VbaProject
 second_title: Aspose.Cells for Java API Reference
 description: Represents the VBA project.
 type: docs
-weight: 628
 url: /java/com.aspose.cells/vbaproject/
 ---
 

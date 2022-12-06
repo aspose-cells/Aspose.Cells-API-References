@@ -3,7 +3,6 @@ title: RevisionInsertSheet
 second_title: Aspose.Cells for Java API Reference
 description: Represents a revision record of a sheet that was inserted.
 type: docs
-weight: 472
 url: /java/com.aspose.cells/revisioninsertsheet/
 ---
 

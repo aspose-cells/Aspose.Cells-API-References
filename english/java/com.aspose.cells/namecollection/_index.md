@@ -3,7 +3,6 @@ title: NameCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents a collection of all the  objects in the spreadsheet.
 type: docs
-weight: 341
 url: /java/com.aspose.cells/namecollection/
 ---
 

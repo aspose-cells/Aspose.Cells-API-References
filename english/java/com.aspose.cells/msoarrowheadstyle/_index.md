@@ -3,7 +3,6 @@ title: MsoArrowheadStyle
 second_title: Aspose.Cells for Java API Reference
 description: Enumerates the line end type of the shape border line.
 type: docs
-weight: 326
 url: /java/com.aspose.cells/msoarrowheadstyle/
 ---
 

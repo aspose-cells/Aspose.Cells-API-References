@@ -3,7 +3,6 @@ title: LineCapType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the caps of a line
 type: docs
-weight: 296
 url: /java/com.aspose.cells/linecaptype/
 ---
 

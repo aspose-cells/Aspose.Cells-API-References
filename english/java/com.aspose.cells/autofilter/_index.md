@@ -3,7 +3,6 @@ title: AutoFilter
 second_title: Aspose.Cells for Java API Reference
 description: Represents autofiltering for the specified worksheet.
 type: docs
-weight: 23
 url: /java/com.aspose.cells/autofilter/
 ---
 

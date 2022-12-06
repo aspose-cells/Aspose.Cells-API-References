@@ -3,7 +3,6 @@ title: ShapeTextAlignment
 second_title: Aspose.Cells for Java API Reference
 description: Represents the setting of shapes text alignment
 type: docs
-weight: 509
 url: /java/com.aspose.cells/shapetextalignment/
 ---
 

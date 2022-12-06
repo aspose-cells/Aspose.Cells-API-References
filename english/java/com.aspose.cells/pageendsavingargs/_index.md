@@ -3,7 +3,6 @@ title: PageEndSavingArgs
 second_title: Aspose.Cells for Java API Reference
 description: Info for a page ends saving process.
 type: docs
-weight: 367
 url: /java/com.aspose.cells/pageendsavingargs/
 ---
 

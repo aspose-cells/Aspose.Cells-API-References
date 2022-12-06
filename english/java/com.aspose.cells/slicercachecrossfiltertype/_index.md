@@ -3,7 +3,6 @@ title: SlicerCacheCrossFilterType
 second_title: Aspose.Cells for Java API Reference
 description: Represent the type of SlicerCacheCrossFilterType
 type: docs
-weight: 519
 url: /java/com.aspose.cells/slicercachecrossfiltertype/
 ---
 

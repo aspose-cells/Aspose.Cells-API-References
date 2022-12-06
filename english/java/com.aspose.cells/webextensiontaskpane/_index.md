@@ -3,7 +3,6 @@ title: WebExtensionTaskPane
 second_title: Aspose.Cells for Java API Reference
 description: Represents a persisted taskpane object.
 type: docs
-weight: 650
 url: /java/com.aspose.cells/webextensiontaskpane/
 ---
 

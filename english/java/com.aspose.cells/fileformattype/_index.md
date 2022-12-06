@@ -3,7 +3,6 @@ title: FileFormatType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the file format types.
 type: docs
-weight: 208
 url: /java/com.aspose.cells/fileformattype/
 ---
 

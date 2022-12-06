@@ -3,7 +3,6 @@ title: RevisionCellChange
 second_title: Aspose.Cells for Java API Reference
 description: Represents the revision that changing cells.
 type: docs
-weight: 464
 url: /java/com.aspose.cells/revisioncellchange/
 ---
 

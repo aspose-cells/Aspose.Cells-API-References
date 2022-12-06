@@ -3,7 +3,6 @@ title: JsonSaveOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the options of saving the workbook as a json file.
 type: docs
-weight: 283
 url: /java/com.aspose.cells/jsonsaveoptions/
 ---
 
@@ -30,11 +29,15 @@ Represents the options of saving the workbook as a json file.
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [getExportArea()](#getExportArea--) | the exporting range. |
 | [getExportAsString()](#getExportAsString--) | Exports the string value of the cells to json. |
+| [getExportEmptyCells()](#getExportEmptyCells--) | Indicates whether exporting empty cells as null. |
+| [getExportHyperlinkType()](#getExportHyperlinkType--) | Represents the type of exporting hyperlink to json. |
+| [getExportNestedStructure()](#getExportNestedStructure--) | Exported as parent-child hierarchy Json structure. |
 | [getIndent()](#getIndent--) | Indicates the indent. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
 | [getSheetIndexes()](#getSheetIndexes--) | Represents the indexes of exported sheets. |
+| [getSkipEmptyRows()](#getSkipEmptyRows--) | Indicates whether skpping emtpy rows |
 | [getSortExternalNames()](#getSortExternalNames--) | Indicates whether sorting external defined names before saving file. |
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
@@ -49,11 +52,15 @@ Represents the options of saving the workbook as a json file.
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | For the description of this property, please see [getCreateDirectory()](../../com.aspose.cells/saveoptions\#getCreateDirectory--) |
 | [setExportArea(CellArea value)](#setExportArea-com.aspose.cells.CellArea-) | For the description of this property, please see [getExportArea()](../../com.aspose.cells/jsonsaveoptions\#getExportArea--) |
 | [setExportAsString(boolean value)](#setExportAsString-boolean-) | For the description of this property, please see [getExportAsString()](../../com.aspose.cells/jsonsaveoptions\#getExportAsString--) |
+| [setExportEmptyCells(boolean value)](#setExportEmptyCells-boolean-) | For the description of this property, please see [getExportEmptyCells()](../../com.aspose.cells/jsonsaveoptions\#getExportEmptyCells--) |
+| [setExportHyperlinkType(int value)](#setExportHyperlinkType-int-) | For the description of this property, please see [getExportHyperlinkType()](../../com.aspose.cells/jsonsaveoptions\#getExportHyperlinkType--) |
+| [setExportNestedStructure(boolean value)](#setExportNestedStructure-boolean-) | For the description of this property, please see [getExportNestedStructure()](../../com.aspose.cells/jsonsaveoptions\#getExportNestedStructure--) |
 | [setHasHeaderRow(boolean value)](#setHasHeaderRow-boolean-) | For the description of this property, please see [hasHeaderRow()](../../com.aspose.cells/jsonsaveoptions\#hasHeaderRow--) |
 | [setIndent(String value)](#setIndent-java.lang.String-) | For the description of this property, please see [getIndent()](../../com.aspose.cells/jsonsaveoptions\#getIndent--) |
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | For the description of this property, please see [getMergeAreas()](../../com.aspose.cells/saveoptions\#getMergeAreas--) |
 | [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | For the description of this property, please see [getRefreshChartCache()](../../com.aspose.cells/saveoptions\#getRefreshChartCache--) |
 | [setSheetIndexes(int[] value)](#setSheetIndexes-int---) | For the description of this property, please see [getSheetIndexes()](../../com.aspose.cells/jsonsaveoptions\#getSheetIndexes--) |
+| [setSkipEmptyRows(boolean value)](#setSkipEmptyRows-boolean-) | For the description of this property, please see [getSkipEmptyRows()](../../com.aspose.cells/jsonsaveoptions\#getSkipEmptyRows--) |
 | [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | For the description of this property, please see [getSortExternalNames()](../../com.aspose.cells/saveoptions\#getSortExternalNames--) |
 | [setSortNames(boolean value)](#setSortNames-boolean-) | For the description of this property, please see [getSortNames()](../../com.aspose.cells/saveoptions\#getSortNames--) |
 | [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | For the description of this property, please see [getUpdateSmartArt()](../../com.aspose.cells/saveoptions\#getUpdateSmartArt--) |
@@ -146,6 +153,36 @@ Exports the string value of the cells to json.
 
 **Returns:**
 boolean
+### getExportEmptyCells() {#getExportEmptyCells--}
+```
+public boolean getExportEmptyCells()
+```
+
+
+Indicates whether exporting empty cells as null.
+
+**Returns:**
+boolean
+### getExportHyperlinkType() {#getExportHyperlinkType--}
+```
+public int getExportHyperlinkType()
+```
+
+
+Represents the type of exporting hyperlink to json. The default value is JsonExportHyperlinkType.DISPLAY\_STRING;
+
+**Returns:**
+int
+### getExportNestedStructure() {#getExportNestedStructure--}
+```
+public boolean getExportNestedStructure()
+```
+
+
+Exported as parent-child hierarchy Json structure.
+
+**Returns:**
+boolean
 ### getIndent() {#getIndent--}
 ```
 public String getIndent()
@@ -196,6 +233,16 @@ Represents the indexes of exported sheets.
 
 **Returns:**
 int[]
+### getSkipEmptyRows() {#getSkipEmptyRows--}
+```
+public boolean getSkipEmptyRows()
+```
+
+
+Indicates whether skpping emtpy rows
+
+**Returns:**
+boolean
 ### getSortExternalNames() {#getSortExternalNames--}
 ```
 public boolean getSortExternalNames()
@@ -347,6 +394,45 @@ For the description of this property, please see [getExportAsString()](../../com
 | --- | --- | --- |
 | value | boolean |  |
 
+### setExportEmptyCells(boolean value) {#setExportEmptyCells-boolean-}
+```
+public void setExportEmptyCells(boolean value)
+```
+
+
+For the description of this property, please see [getExportEmptyCells()](../../com.aspose.cells/jsonsaveoptions\#getExportEmptyCells--)
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setExportHyperlinkType(int value) {#setExportHyperlinkType-int-}
+```
+public void setExportHyperlinkType(int value)
+```
+
+
+For the description of this property, please see [getExportHyperlinkType()](../../com.aspose.cells/jsonsaveoptions\#getExportHyperlinkType--)
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setExportNestedStructure(boolean value) {#setExportNestedStructure-boolean-}
+```
+public void setExportNestedStructure(boolean value)
+```
+
+
+For the description of this property, please see [getExportNestedStructure()](../../com.aspose.cells/jsonsaveoptions\#getExportNestedStructure--)
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setHasHeaderRow(boolean value) {#setHasHeaderRow-boolean-}
 ```
 public void setHasHeaderRow(boolean value)
@@ -411,6 +497,19 @@ For the description of this property, please see [getSheetIndexes()](../../com.a
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int[] |  |
+
+### setSkipEmptyRows(boolean value) {#setSkipEmptyRows-boolean-}
+```
+public void setSkipEmptyRows(boolean value)
+```
+
+
+For the description of this property, please see [getSkipEmptyRows()](../../com.aspose.cells/jsonsaveoptions\#getSkipEmptyRows--)
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setSortExternalNames(boolean value) {#setSortExternalNames-boolean-}
 ```

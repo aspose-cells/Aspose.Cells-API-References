@@ -3,7 +3,6 @@ title: TrendlineType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the trendline type.
 type: docs
-weight: 613
 url: /java/com.aspose.cells/trendlinetype/
 ---
 

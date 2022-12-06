@@ -3,7 +3,6 @@ title: SpreadsheetML2003SaveOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the options for saving Excel 2003 spreadml file.
 type: docs
-weight: 545
 url: /java/com.aspose.cells/spreadsheetml2003saveoptions/
 ---
 

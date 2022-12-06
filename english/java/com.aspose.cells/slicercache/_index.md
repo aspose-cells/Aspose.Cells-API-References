@@ -3,7 +3,6 @@ title: SlicerCache
 second_title: Aspose.Cells for Java API Reference
 description: summary description of slicer cache
 type: docs
-weight: 518
 url: /java/com.aspose.cells/slicercache/
 ---
 

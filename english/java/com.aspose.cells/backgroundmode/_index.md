@@ -3,7 +3,6 @@ title: BackgroundMode
 second_title: Aspose.Cells for Java API Reference
 description: Represents the display mode of the background.
 type: docs
-weight: 33
 url: /java/com.aspose.cells/backgroundmode/
 ---
 

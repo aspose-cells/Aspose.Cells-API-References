@@ -3,7 +3,6 @@ title: MsoTextFrame
 second_title: Aspose.Cells for Java API Reference
 description: Represents the text frame in a Shape object.
 type: docs
-weight: 338
 url: /java/com.aspose.cells/msotextframe/
 ---
 

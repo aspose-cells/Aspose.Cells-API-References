@@ -3,7 +3,6 @@ title: ShapeCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents all the shape in a worksheet/chart.
 type: docs
-weight: 496
 url: /java/com.aspose.cells/shapecollection/
 ---
 

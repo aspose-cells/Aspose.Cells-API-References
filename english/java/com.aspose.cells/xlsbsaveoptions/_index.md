@@ -3,7 +3,6 @@ title: XlsbSaveOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the options for saving xlsb file.
 type: docs
-weight: 665
 url: /java/com.aspose.cells/xlsbsaveoptions/
 ---
 

@@ -3,7 +3,6 @@ title: CountryCode
 second_title: Aspose.Cells for Java API Reference
 description: Represents Excel country identifiers.
 type: docs
-weight: 134
 url: /java/com.aspose.cells/countrycode/
 ---
 

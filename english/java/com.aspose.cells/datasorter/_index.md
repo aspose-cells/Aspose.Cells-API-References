@@ -3,7 +3,6 @@ title: DataSorter
 second_title: Aspose.Cells for Java API Reference
 description: Summary description for DataSorter.
 type: docs
-weight: 160
 url: /java/com.aspose.cells/datasorter/
 ---
 

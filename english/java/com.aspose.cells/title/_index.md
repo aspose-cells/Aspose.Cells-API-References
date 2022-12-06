@@ -3,7 +3,6 @@ title: Title
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents the title of chart or axis.
 type: docs
-weight: 606
 url: /java/com.aspose.cells/title/
 ---
 

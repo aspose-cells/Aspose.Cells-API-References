@@ -3,7 +3,6 @@ title: CustomFilterCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents the custom filters.
 type: docs
-weight: 139
 url: /java/com.aspose.cells/customfiltercollection/
 ---
 

@@ -3,7 +3,6 @@ title: ViewType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the view type of the worksheet.
 type: docs
-weight: 634
 url: /java/com.aspose.cells/viewtype/
 ---
 

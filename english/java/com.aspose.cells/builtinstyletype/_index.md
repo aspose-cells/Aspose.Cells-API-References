@@ -3,7 +3,6 @@ title: BuiltinStyleType
 second_title: Aspose.Cells for Java API Reference
 description: Represents all built-in style types.
 type: docs
-weight: 45
 url: /java/com.aspose.cells/builtinstyletype/
 ---
 

@@ -3,7 +3,6 @@ title: XmlDataBinding
 second_title: Aspose.Cells for Java API Reference
 description: Represents Xml Data Binding information.
 type: docs
-weight: 667
 url: /java/com.aspose.cells/xmldatabinding/
 ---
 

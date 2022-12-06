@@ -3,7 +3,6 @@ title: MsoLineFormat
 second_title: Aspose.Cells for Java API Reference
 description: Represents line and arrowhead formatting.
 type: docs
-weight: 333
 url: /java/com.aspose.cells/msolineformat/
 ---
 

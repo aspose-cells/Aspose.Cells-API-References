@@ -3,7 +3,6 @@ title: ExternalConnection
 second_title: Aspose.Cells for Java API Reference
 description: Specifies an external data connection
 type: docs
-weight: 201
 url: /java/com.aspose.cells/externalconnection/
 ---
 

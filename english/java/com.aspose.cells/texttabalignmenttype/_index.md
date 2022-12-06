@@ -3,7 +3,6 @@ title: TextTabAlignmentType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the text tab alignment types.
 type: docs
-weight: 583
 url: /java/com.aspose.cells/texttabalignmenttype/
 ---
 

@@ -3,7 +3,6 @@ title: OoxmlCompressionType
 second_title: Aspose.Cells for Java API Reference
 description: The Ooxml compression type
 type: docs
-weight: 362
 url: /java/com.aspose.cells/ooxmlcompressiontype/
 ---
 

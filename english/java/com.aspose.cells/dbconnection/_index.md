@@ -3,7 +3,6 @@ title: DBConnection
 second_title: Aspose.Cells for Java API Reference
 description: Specifies all properties associated with an ODBC or OLE DB external data connection.
 type: docs
-weight: 147
 url: /java/com.aspose.cells/dbconnection/
 ---
 

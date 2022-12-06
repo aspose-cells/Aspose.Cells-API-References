@@ -3,7 +3,6 @@ title: PasteOperationType
 second_title: Aspose.Cells for Java API Reference
 description: Represents operation type when pasting range.
 type: docs
-weight: 378
 url: /java/com.aspose.cells/pasteoperationtype/
 ---
 

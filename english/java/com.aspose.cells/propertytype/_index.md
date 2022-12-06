@@ -3,7 +3,6 @@ title: PropertyType
 second_title: Aspose.Cells for Java API Reference
 description: Specifies data type of a document property.
 type: docs
-weight: 439
 url: /java/com.aspose.cells/propertytype/
 ---
 

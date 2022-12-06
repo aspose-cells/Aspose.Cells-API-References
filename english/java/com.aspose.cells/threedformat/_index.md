@@ -3,7 +3,6 @@ title: ThreeDFormat
 second_title: Aspose.Cells for Java API Reference
 description: Represents a shapes three-dimensional formatting.
 type: docs
-weight: 595
 url: /java/com.aspose.cells/threedformat/
 ---
 

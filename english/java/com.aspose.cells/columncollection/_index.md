@@ -3,7 +3,6 @@ title: ColumnCollection
 second_title: Aspose.Cells for Java API Reference
 description: Collection of the  objects that represent the individual columnsettings in a worksheet.
 type: docs
-weight: 98
 url: /java/com.aspose.cells/columncollection/
 ---
 

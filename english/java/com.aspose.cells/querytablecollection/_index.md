@@ -3,7 +3,6 @@ title: QueryTableCollection
 second_title: Aspose.Cells for Java API Reference
 description: A collection of  objects that represent QueryTable collection information.
 type: docs
-weight: 446
 url: /java/com.aspose.cells/querytablecollection/
 ---
 

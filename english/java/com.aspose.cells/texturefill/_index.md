@@ -3,7 +3,6 @@ title: TextureFill
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents texture fill format
 type: docs
-weight: 587
 url: /java/com.aspose.cells/texturefill/
 ---
 

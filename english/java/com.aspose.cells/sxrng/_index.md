@@ -3,7 +3,6 @@ title: SxRng
 second_title: Aspose.Cells for Java API Reference
 description: Represents Group Range in a PivotField.
 type: docs
-weight: 556
 url: /java/com.aspose.cells/sxrng/
 ---
 

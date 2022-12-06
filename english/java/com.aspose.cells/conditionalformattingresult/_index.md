@@ -3,7 +3,6 @@ title: ConditionalFormattingResult
 second_title: Aspose.Cells for Java API Reference
 description: Represents the result of conditional formatting which applies to a cell.
 type: docs
-weight: 109
 url: /java/com.aspose.cells/conditionalformattingresult/
 ---
 

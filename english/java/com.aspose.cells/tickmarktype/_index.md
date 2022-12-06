@@ -3,7 +3,6 @@ title: TickMarkType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the tick mark type for the specified axis.
 type: docs
-weight: 599
 url: /java/com.aspose.cells/tickmarktype/
 ---
 

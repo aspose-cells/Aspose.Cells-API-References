@@ -3,7 +3,6 @@ title: ListBoxActiveXControl
 second_title: Aspose.Cells for Java API Reference
 description: Represents a ListBox ActiveX control.
 type: docs
-weight: 303
 url: /java/com.aspose.cells/listboxactivexcontrol/
 ---
 

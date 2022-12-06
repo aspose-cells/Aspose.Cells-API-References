@@ -3,7 +3,6 @@ title: WarningType
 second_title: Aspose.Cells for Java API Reference
 description: WaringType
 type: docs
-weight: 639
 url: /java/com.aspose.cells/warningtype/
 ---
 

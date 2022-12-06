@@ -3,7 +3,6 @@ title: OdsGeneratorType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the type of ODS generator.
 type: docs
-weight: 352
 url: /java/com.aspose.cells/odsgeneratortype/
 ---
 

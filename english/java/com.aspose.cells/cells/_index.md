@@ -3,7 +3,6 @@ title: Cells
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates a collection of cell relevant objects such as   ...etc.
 type: docs
-weight: 63
 url: /java/com.aspose.cells/cells/
 ---
 

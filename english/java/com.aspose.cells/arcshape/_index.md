@@ -3,7 +3,6 @@ title: ArcShape
 second_title: Aspose.Cells for Java API Reference
 description: Represents the arc shape.
 type: docs
-weight: 20
 url: /java/com.aspose.cells/arcshape/
 ---
 

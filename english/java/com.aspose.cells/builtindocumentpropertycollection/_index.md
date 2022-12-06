@@ -3,7 +3,6 @@ title: BuiltInDocumentPropertyCollection
 second_title: Aspose.Cells for Java API Reference
 description: A collection of built-in document properties.
 type: docs
-weight: 44
 url: /java/com.aspose.cells/builtindocumentpropertycollection/
 ---
 

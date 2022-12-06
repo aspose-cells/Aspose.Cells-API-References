@@ -3,7 +3,6 @@ title: ExternalLinkType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the type of external link.
 type: docs
-weight: 205
 url: /java/com.aspose.cells/externallinktype/
 ---
 

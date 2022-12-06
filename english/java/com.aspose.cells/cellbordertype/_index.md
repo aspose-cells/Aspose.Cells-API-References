@@ -3,7 +3,6 @@ title: CellBorderType
 second_title: Aspose.Cells for Java API Reference
 description: Enumerates a cells border type.
 type: docs
-weight: 58
 url: /java/com.aspose.cells/cellbordertype/
 ---
 

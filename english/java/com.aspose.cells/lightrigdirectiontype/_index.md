@@ -3,7 +3,6 @@ title: LightRigDirectionType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the light rig direction type.
 type: docs
-weight: 293
 url: /java/com.aspose.cells/lightrigdirectiontype/
 ---
 

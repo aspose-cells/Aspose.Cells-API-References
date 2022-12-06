@@ -3,7 +3,6 @@ title: DeleteOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the setting of deleting rows/columns.
 type: docs
-weight: 168
 url: /java/com.aspose.cells/deleteoptions/
 ---
 

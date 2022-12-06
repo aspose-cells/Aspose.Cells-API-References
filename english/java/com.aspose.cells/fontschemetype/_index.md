@@ -3,7 +3,6 @@ title: FontSchemeType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the scheme type of the font.
 type: docs
-weight: 224
 url: /java/com.aspose.cells/fontschemetype/
 ---
 

@@ -3,7 +3,6 @@ title: RevisionAutoFormat
 second_title: Aspose.Cells for Java API Reference
 description: represents a revision record of information about a formatting change.
 type: docs
-weight: 463
 url: /java/com.aspose.cells/revisionautoformat/
 ---
 

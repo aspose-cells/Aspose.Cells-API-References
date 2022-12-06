@@ -3,7 +3,6 @@ title: SlicerCollection
 second_title: Aspose.Cells for Java API Reference
 description: Specifies the collection of all the Slicer objects on the specified worksheet.
 type: docs
-weight: 523
 url: /java/com.aspose.cells/slicercollection/
 ---
 

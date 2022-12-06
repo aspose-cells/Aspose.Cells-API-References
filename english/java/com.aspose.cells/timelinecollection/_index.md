@@ -3,7 +3,6 @@ title: TimelineCollection
 second_title: Aspose.Cells for Java API Reference
 description: Specifies the collection of all the Timeline objects on the specified worksheet.
 type: docs
-weight: 605
 url: /java/com.aspose.cells/timelinecollection/
 ---
 

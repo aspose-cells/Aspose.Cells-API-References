@@ -3,7 +3,6 @@ title: ShapePathPoint
 second_title: Aspose.Cells for Java API Reference
 description: Represents an x-y coordinate within the path coordinate space.
 type: docs
-weight: 503
 url: /java/com.aspose.cells/shapepathpoint/
 ---
 

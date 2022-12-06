@@ -3,7 +3,6 @@ title: DateTimeGroupingType
 second_title: Aspose.Cells for Java API Reference
 description: Specifies how to group dateTime values.
 type: docs
-weight: 165
 url: /java/com.aspose.cells/datetimegroupingtype/
 ---
 

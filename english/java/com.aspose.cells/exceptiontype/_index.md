@@ -3,7 +3,6 @@ title: ExceptionType
 second_title: Aspose.Cells for Java API Reference
 description: Represents custom exception type code.
 type: docs
-weight: 197
 url: /java/com.aspose.cells/exceptiontype/
 ---
 

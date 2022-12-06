@@ -3,7 +3,6 @@ title: CustomDocumentPropertyCollection
 second_title: Aspose.Cells for Java API Reference
 description: A collection of custom document properties.
 type: docs
-weight: 137
 url: /java/com.aspose.cells/customdocumentpropertycollection/
 ---
 

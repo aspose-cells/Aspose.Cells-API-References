@@ -3,7 +3,6 @@ title: FormatConditionType
 second_title: Aspose.Cells for Java API Reference
 description: Conditional format rule type.
 type: docs
-weight: 233
 url: /java/com.aspose.cells/formatconditiontype/
 ---
 

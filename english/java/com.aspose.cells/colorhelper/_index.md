@@ -3,7 +3,6 @@ title: ColorHelper
 second_title: Aspose.Cells for Java API Reference
 description: Provides helper functions about color.
 type: docs
-weight: 94
 url: /java/com.aspose.cells/colorhelper/
 ---
 

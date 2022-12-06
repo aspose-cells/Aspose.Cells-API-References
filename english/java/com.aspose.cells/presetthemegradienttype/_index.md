@@ -3,7 +3,6 @@ title: PresetThemeGradientType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the preset theme gradient type.
 type: docs
-weight: 432
 url: /java/com.aspose.cells/presetthemegradienttype/
 ---
 

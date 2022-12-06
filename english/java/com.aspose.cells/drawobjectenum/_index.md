@@ -3,7 +3,6 @@ title: DrawObjectEnum
 second_title: Aspose.Cells for Java API Reference
 description: Indicate Cell or Image of DrawObject.
 type: docs
-weight: 181
 url: /java/com.aspose.cells/drawobjectenum/
 ---
 

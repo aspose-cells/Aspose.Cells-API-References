@@ -3,7 +3,6 @@ title: HtmlSaveOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the options for saving html file.
 type: docs
-weight: 265
 url: /java/com.aspose.cells/htmlsaveoptions/
 ---
 

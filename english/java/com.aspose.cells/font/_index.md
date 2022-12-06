@@ -3,7 +3,6 @@ title: Font
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the font object used in a spreadsheet.
 type: docs
-weight: 222
 url: /java/com.aspose.cells/font/
 ---
 

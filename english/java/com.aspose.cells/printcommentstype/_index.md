@@ -3,7 +3,6 @@ title: PrintCommentsType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the way comments are printed with the sheet.
 type: docs
-weight: 434
 url: /java/com.aspose.cells/printcommentstype/
 ---
 

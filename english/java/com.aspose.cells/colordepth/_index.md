@@ -3,7 +3,6 @@ title: ColorDepth
 second_title: Aspose.Cells for Java API Reference
 description: Enumerates Bit Depth Type for tiff image.
 type: docs
-weight: 92
 url: /java/com.aspose.cells/colordepth/
 ---
 

@@ -3,7 +3,6 @@ title: DropButtonStyle
 second_title: Aspose.Cells for Java API Reference
 description: Represents the symbol displayed on the drop button.
 type: docs
-weight: 184
 url: /java/com.aspose.cells/dropbuttonstyle/
 ---
 

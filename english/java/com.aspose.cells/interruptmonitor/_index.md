@@ -3,7 +3,6 @@ title: InterruptMonitor
 second_title: Aspose.Cells for Java API Reference
 description: Represents all operator about the interrupt.
 type: docs
-weight: 280
 url: /java/com.aspose.cells/interruptmonitor/
 ---
 

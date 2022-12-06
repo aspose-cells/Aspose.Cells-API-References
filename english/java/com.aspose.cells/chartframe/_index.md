@@ -3,7 +3,6 @@ title: ChartFrame
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents the frame object in a chart.
 type: docs
-weight: 75
 url: /java/com.aspose.cells/chartframe/
 ---
 

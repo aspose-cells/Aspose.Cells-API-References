@@ -3,7 +3,6 @@ title: HtmlLinkTargetType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the type of target attribute in HTML  tag.
 type: docs
-weight: 263
 url: /java/com.aspose.cells/htmllinktargettype/
 ---
 

@@ -3,7 +3,6 @@ title: Series
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents a single data series in a chart.
 type: docs
-weight: 490
 url: /java/com.aspose.cells/series/
 ---
 

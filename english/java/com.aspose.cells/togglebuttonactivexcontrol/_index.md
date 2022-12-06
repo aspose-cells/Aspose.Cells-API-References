@@ -3,7 +3,6 @@ title: ToggleButtonActiveXControl
 second_title: Aspose.Cells for Java API Reference
 description: Represents a ToggleButton ActiveX control.
 type: docs
-weight: 607
 url: /java/com.aspose.cells/togglebuttonactivexcontrol/
 ---
 

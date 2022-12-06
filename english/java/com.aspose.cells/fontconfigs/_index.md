@@ -3,7 +3,6 @@ title: FontConfigs
 second_title: Aspose.Cells for Java API Reference
 description: Specifies font settings
 type: docs
-weight: 223
 url: /java/com.aspose.cells/fontconfigs/
 ---
 

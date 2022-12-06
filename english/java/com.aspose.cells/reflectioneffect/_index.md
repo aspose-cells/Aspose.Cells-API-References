@@ -3,7 +3,6 @@ title: ReflectionEffect
 second_title: Aspose.Cells for Java API Reference
 description: This class specifies a reflection effect.
 type: docs
-weight: 456
 url: /java/com.aspose.cells/reflectioneffect/
 ---
 

@@ -3,7 +3,6 @@ title: DateTime
 second_title: Aspose.Cells for Java API Reference
 description: Represents an instant in time typically expressed as a date and time of day.
 type: docs
-weight: 163
 url: /java/com.aspose.cells/datetime/
 ---
 

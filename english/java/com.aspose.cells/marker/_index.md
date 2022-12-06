@@ -3,7 +3,6 @@ title: Marker
 second_title: Aspose.Cells for Java API Reference
 description: Represents the marker in a line chart scatter chart or radar chart.
 type: docs
-weight: 319
 url: /java/com.aspose.cells/marker/
 ---
 

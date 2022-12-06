@@ -3,7 +3,6 @@ title: ImageSaveOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents image save options.
 type: docs
-weight: 274
 url: /java/com.aspose.cells/imagesaveoptions/
 ---
 

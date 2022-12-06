@@ -3,7 +3,6 @@ title: PageLayoutAlignmentType
 second_title: Aspose.Cells for Java API Reference
 description: Enumerates page layout alignment types.
 type: docs
-weight: 368
 url: /java/com.aspose.cells/pagelayoutalignmenttype/
 ---
 

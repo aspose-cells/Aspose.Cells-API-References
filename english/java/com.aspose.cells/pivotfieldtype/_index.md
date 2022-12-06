@@ -3,7 +3,6 @@ title: PivotFieldType
 second_title: Aspose.Cells for Java API Reference
 description: Represents PivotTable field type.
 type: docs
-weight: 400
 url: /java/com.aspose.cells/pivotfieldtype/
 ---
 

@@ -3,7 +3,6 @@ title: WeightType
 second_title: Aspose.Cells for Java API Reference
 description: Enumerates the weight types for a picture border or a chart line.
 type: docs
-weight: 653
 url: /java/com.aspose.cells/weighttype/
 ---
 

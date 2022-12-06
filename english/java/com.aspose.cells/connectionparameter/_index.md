@@ -3,7 +3,6 @@ title: ConnectionParameter
 second_title: Aspose.Cells for Java API Reference
 description: Specifies properties about any parameters used with external data connections Parameters are valid for ODBC and web queries.
 type: docs
-weight: 113
 url: /java/com.aspose.cells/connectionparameter/
 ---
 

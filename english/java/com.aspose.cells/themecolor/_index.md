@@ -3,7 +3,6 @@ title: ThemeColor
 second_title: Aspose.Cells for Java API Reference
 description: Represents a theme color.
 type: docs
-weight: 589
 url: /java/com.aspose.cells/themecolor/
 ---
 

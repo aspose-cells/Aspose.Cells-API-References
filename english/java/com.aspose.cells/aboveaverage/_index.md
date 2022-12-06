@@ -3,7 +3,6 @@ title: AboveAverage
 second_title: Aspose.Cells for Java API Reference
 description: Describe the AboveAverage conditional formatting rule.
 type: docs
-weight: 10
 url: /java/com.aspose.cells/aboveaverage/
 ---
 

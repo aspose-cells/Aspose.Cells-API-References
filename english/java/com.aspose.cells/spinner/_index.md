@@ -3,7 +3,6 @@ title: Spinner
 second_title: Aspose.Cells for Java API Reference
 description: Represents the Forms control Spinner.
 type: docs
-weight: 544
 url: /java/com.aspose.cells/spinner/
 ---
 

@@ -3,7 +3,6 @@ title: FormatSetType
 second_title: Aspose.Cells for Java API Reference
 description: Fill format set type.
 type: docs
-weight: 235
 url: /java/com.aspose.cells/formatsettype/
 ---
 

@@ -3,7 +3,6 @@ title: PaperSizeType
 second_title: Aspose.Cells for Java API Reference
 description: Represents paper size constants.
 type: docs
-weight: 376
 url: /java/com.aspose.cells/papersizetype/
 ---
 

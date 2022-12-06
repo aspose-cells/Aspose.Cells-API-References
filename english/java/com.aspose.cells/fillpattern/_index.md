@@ -3,7 +3,6 @@ title: FillPattern
 second_title: Aspose.Cells for Java API Reference
 description: Enumerates shape fill pattern types.
 type: docs
-weight: 212
 url: /java/com.aspose.cells/fillpattern/
 ---
 

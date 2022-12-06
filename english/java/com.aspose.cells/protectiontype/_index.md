@@ -3,7 +3,6 @@ title: ProtectionType
 second_title: Aspose.Cells for Java API Reference
 description: Represents workbook/worksheet protection type.
 type: docs
-weight: 443
 url: /java/com.aspose.cells/protectiontype/
 ---
 

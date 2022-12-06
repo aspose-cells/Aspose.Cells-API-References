@@ -3,7 +3,6 @@ title: LineType
 second_title: Aspose.Cells for Java API Reference
 description: Enumerates the type of  border or  line.
 type: docs
-weight: 301
 url: /java/com.aspose.cells/linetype/
 ---
 

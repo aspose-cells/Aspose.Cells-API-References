@@ -3,7 +3,6 @@ title: PivotOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents a complex type that specifies the pivot controls that appear on the chart
 type: docs
-weight: 411
 url: /java/com.aspose.cells/pivotoptions/
 ---
 

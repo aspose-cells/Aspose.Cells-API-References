@@ -3,7 +3,6 @@ title: FilterOperatorType
 second_title: Aspose.Cells for Java API Reference
 description: Custom Filter operator type.
 type: docs
-weight: 217
 url: /java/com.aspose.cells/filteroperatortype/
 ---
 

@@ -3,7 +3,6 @@ title: PrintOrderType
 second_title: Aspose.Cells for Java API Reference
 description: Represent print order constants.
 type: docs
-weight: 436
 url: /java/com.aspose.cells/printordertype/
 ---
 

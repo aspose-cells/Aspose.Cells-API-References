@@ -3,7 +3,6 @@ title: Workbook
 second_title: Aspose.Cells for Java API Reference
 description: Represents a root object to create an Excel spreadsheet.
 type: docs
-weight: 654
 url: /java/com.aspose.cells/workbook/
 ---
 

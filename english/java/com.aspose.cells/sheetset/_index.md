@@ -3,7 +3,6 @@ title: SheetSet
 second_title: Aspose.Cells for Java API Reference
 description: Describes a set of sheets.
 type: docs
-weight: 512
 url: /java/com.aspose.cells/sheetset/
 ---
 

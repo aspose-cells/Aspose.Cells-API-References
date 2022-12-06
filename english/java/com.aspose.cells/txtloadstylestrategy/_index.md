@@ -3,7 +3,6 @@ title: TxtLoadStyleStrategy
 second_title: Aspose.Cells for Java API Reference
 description: Specifies how to apply style for parsed values when converting string value to number or datetime.
 type: docs
-weight: 615
 url: /java/com.aspose.cells/txtloadstylestrategy/
 ---
 

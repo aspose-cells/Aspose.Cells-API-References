@@ -3,7 +3,6 @@ title: CheckBoxActiveXControl
 second_title: Aspose.Cells for Java API Reference
 description: Represents a CheckBox ActiveX control.
 type: docs
-weight: 87
 url: /java/com.aspose.cells/checkboxactivexcontrol/
 ---
 

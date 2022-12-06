@@ -3,7 +3,6 @@ title: PlotArea
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents the plot area in a chart.
 type: docs
-weight: 418
 url: /java/com.aspose.cells/plotarea/
 ---
 

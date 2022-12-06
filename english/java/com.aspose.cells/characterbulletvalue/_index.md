@@ -3,7 +3,6 @@ title: CharacterBulletValue
 second_title: Aspose.Cells for Java API Reference
 description: Represents the character bullet.
 type: docs
-weight: 70
 url: /java/com.aspose.cells/characterbulletvalue/
 ---
 

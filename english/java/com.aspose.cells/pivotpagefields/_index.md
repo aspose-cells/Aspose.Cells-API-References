@@ -3,7 +3,6 @@ title: PivotPageFields
 second_title: Aspose.Cells for Java API Reference
 description: Represents the pivot page field items  if the pivot table data source is consolidation ranges.
 type: docs
-weight: 412
 url: /java/com.aspose.cells/pivotpagefields/
 ---
 

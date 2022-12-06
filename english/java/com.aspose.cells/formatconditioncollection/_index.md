@@ -3,7 +3,6 @@ title: FormatConditionCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents conditional formatting.
 type: docs
-weight: 232
 url: /java/com.aspose.cells/formatconditioncollection/
 ---
 

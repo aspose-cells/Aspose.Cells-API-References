@@ -3,7 +3,6 @@ title: TableStyle
 second_title: Aspose.Cells for Java API Reference
 description: Represents the table style.
 type: docs
-weight: 558
 url: /java/com.aspose.cells/tablestyle/
 ---
 

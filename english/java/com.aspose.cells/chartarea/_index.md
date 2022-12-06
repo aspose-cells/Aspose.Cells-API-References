@@ -3,7 +3,6 @@ title: ChartArea
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents the chart area in the worksheet.
 type: docs
-weight: 72
 url: /java/com.aspose.cells/chartarea/
 ---
 

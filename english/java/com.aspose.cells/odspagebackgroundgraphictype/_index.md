@@ -3,7 +3,6 @@ title: OdsPageBackgroundGraphicType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the type of formatting page background with image.
 type: docs
-weight: 356
 url: /java/com.aspose.cells/odspagebackgroundgraphictype/
 ---
 

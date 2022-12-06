@@ -3,7 +3,6 @@ title: CellsFactory
 second_title: Aspose.Cells for Java API Reference
 description: Utility for instantiating classes of Cells model.
 type: docs
-weight: 68
 url: /java/com.aspose.cells/cellsfactory/
 ---
 

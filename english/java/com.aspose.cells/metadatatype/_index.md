@@ -3,7 +3,6 @@ title: MetadataType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the type of metadata.
 type: docs
-weight: 323
 url: /java/com.aspose.cells/metadatatype/
 ---
 

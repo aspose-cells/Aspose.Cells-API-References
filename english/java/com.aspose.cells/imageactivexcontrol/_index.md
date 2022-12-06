@@ -3,7 +3,6 @@ title: ImageActiveXControl
 second_title: Aspose.Cells for Java API Reference
 description: Represents the image control.
 type: docs
-weight: 271
 url: /java/com.aspose.cells/imageactivexcontrol/
 ---
 

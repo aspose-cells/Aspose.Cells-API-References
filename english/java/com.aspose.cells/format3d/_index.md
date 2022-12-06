@@ -3,7 +3,6 @@ title: Format3D
 second_title: Aspose.Cells for Java API Reference
 description: This class specifies the 3D shape properties for a chart element or shape.
 type: docs
-weight: 230
 url: /java/com.aspose.cells/format3d/
 ---
 

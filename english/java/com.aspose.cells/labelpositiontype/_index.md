@@ -3,7 +3,6 @@ title: LabelPositionType
 second_title: Aspose.Cells for Java API Reference
 description: Represents data label position type.
 type: docs
-weight: 287
 url: /java/com.aspose.cells/labelpositiontype/
 ---
 

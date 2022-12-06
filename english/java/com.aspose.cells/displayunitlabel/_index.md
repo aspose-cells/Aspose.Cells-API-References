@@ -3,7 +3,6 @@ title: DisplayUnitLabel
 second_title: Aspose.Cells for Java API Reference
 description: Represents the display unit label.
 type: docs
-weight: 175
 url: /java/com.aspose.cells/displayunitlabel/
 ---
 

@@ -3,7 +3,6 @@ title: SubtotalSetting
 second_title: Aspose.Cells for Java API Reference
 description: Represents the setting of the subtotal .
 type: docs
-weight: 554
 url: /java/com.aspose.cells/subtotalsetting/
 ---
 

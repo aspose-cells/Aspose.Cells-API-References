@@ -3,7 +3,6 @@ title: FilterType
 second_title: Aspose.Cells for Java API Reference
 description: The filter type.
 type: docs
-weight: 218
 url: /java/com.aspose.cells/filtertype/
 ---
 

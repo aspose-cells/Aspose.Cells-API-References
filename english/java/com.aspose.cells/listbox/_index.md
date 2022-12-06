@@ -3,7 +3,6 @@ title: ListBox
 second_title: Aspose.Cells for Java API Reference
 description: Represents a list box object.
 type: docs
-weight: 302
 url: /java/com.aspose.cells/listbox/
 ---
 

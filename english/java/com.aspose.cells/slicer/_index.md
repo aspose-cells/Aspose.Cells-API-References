@@ -3,7 +3,6 @@ title: Slicer
 second_title: Aspose.Cells for Java API Reference
 description: summary description of Slicer View
 type: docs
-weight: 517
 url: /java/com.aspose.cells/slicer/
 ---
 

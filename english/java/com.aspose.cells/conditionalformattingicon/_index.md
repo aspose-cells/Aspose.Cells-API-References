@@ -3,7 +3,6 @@ title: ConditionalFormattingIcon
 second_title: Aspose.Cells for Java API Reference
 description: Represents  the custom  icon of conditional formatting rule.
 type: docs
-weight: 107
 url: /java/com.aspose.cells/conditionalformattingicon/
 ---
 

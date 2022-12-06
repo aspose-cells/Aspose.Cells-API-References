@@ -3,7 +3,6 @@ title: CheckValueType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the check value type of the check box.
 type: docs
-weight: 89
 url: /java/com.aspose.cells/checkvaluetype/
 ---
 

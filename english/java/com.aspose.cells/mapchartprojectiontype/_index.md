@@ -3,7 +3,6 @@ title: MapChartProjectionType
 second_title: Aspose.Cells for Java API Reference
 description: Represents projection type of the map chart.
 type: docs
-weight: 316
 url: /java/com.aspose.cells/mapchartprojectiontype/
 ---
 

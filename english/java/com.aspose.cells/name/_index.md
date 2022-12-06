@@ -3,7 +3,6 @@ title: Name
 second_title: Aspose.Cells for Java API Reference
 description: Represents a defined name for a range of cells.
 type: docs
-weight: 340
 url: /java/com.aspose.cells/name/
 ---
 

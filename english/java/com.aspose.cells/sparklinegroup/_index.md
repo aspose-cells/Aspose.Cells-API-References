@@ -3,7 +3,6 @@ title: SparklineGroup
 second_title: Aspose.Cells for Java API Reference
 description: is organized into sparkline group.
 type: docs
-weight: 539
 url: /java/com.aspose.cells/sparklinegroup/
 ---
 

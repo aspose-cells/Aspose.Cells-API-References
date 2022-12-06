@@ -3,7 +3,6 @@ title: ControlScrollOrientation
 second_title: Aspose.Cells for Java API Reference
 description: Represents type of scroll orientation
 type: docs
-weight: 129
 url: /java/com.aspose.cells/controlscrollorientation/
 ---
 

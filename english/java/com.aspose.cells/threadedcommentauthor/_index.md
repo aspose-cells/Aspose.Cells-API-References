@@ -3,7 +3,6 @@ title: ThreadedCommentAuthor
 second_title: Aspose.Cells for Java API Reference
 description: Represents the person who creates the threaded comments
 type: docs
-weight: 592
 url: /java/com.aspose.cells/threadedcommentauthor/
 ---
 

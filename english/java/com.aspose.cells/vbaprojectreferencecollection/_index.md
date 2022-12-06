@@ -3,7 +3,6 @@ title: VbaProjectReferenceCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents all references of VBA project.
 type: docs
-weight: 630
 url: /java/com.aspose.cells/vbaprojectreferencecollection/
 ---
 

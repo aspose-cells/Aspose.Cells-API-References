@@ -3,7 +3,6 @@ title: PdfSecurityOptions
 second_title: Aspose.Cells for Java API Reference
 description: Settings of pdf when converting excel to pdf PDF/A does not allow security setting.
 type: docs
-weight: 389
 url: /java/com.aspose.cells/pdfsecurityoptions/
 ---
 

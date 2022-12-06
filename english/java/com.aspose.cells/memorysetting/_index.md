@@ -3,7 +3,6 @@ title: MemorySetting
 second_title: Aspose.Cells for Java API Reference
 description: Memory usage options.
 type: docs
-weight: 321
 url: /java/com.aspose.cells/memorysetting/
 ---
 

@@ -3,7 +3,6 @@ title: LabelActiveXControl
 second_title: Aspose.Cells for Java API Reference
 description: Represents the label ActiveX control.
 type: docs
-weight: 286
 url: /java/com.aspose.cells/labelactivexcontrol/
 ---
 

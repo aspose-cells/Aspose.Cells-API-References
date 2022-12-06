@@ -3,7 +3,6 @@ title: AbstractCalculationMonitor
 second_title: Aspose.Cells for Java API Reference
 description: Monitor for user to track the progress of formula calculation.
 type: docs
-weight: 12
 url: /java/com.aspose.cells/abstractcalculationmonitor/
 ---
 

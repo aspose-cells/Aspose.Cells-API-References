@@ -3,7 +3,6 @@ title: SparklineType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the sparkline types.
 type: docs
-weight: 542
 url: /java/com.aspose.cells/sparklinetype/
 ---
 

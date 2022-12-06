@@ -3,7 +3,6 @@ title: TxtValueQuoteType
 second_title: Aspose.Cells for Java API Reference
 description: Specifies the type of using quotation marks for values in text format files.
 type: docs
-weight: 617
 url: /java/com.aspose.cells/txtvaluequotetype/
 ---
 

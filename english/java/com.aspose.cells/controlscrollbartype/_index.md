@@ -3,7 +3,6 @@ title: ControlScrollBarType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the type of scroll bar.
 type: docs
-weight: 128
 url: /java/com.aspose.cells/controlscrollbartype/
 ---
 

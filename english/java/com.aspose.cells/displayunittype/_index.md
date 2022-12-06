@@ -3,7 +3,6 @@ title: DisplayUnitType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the type of display unit.
 type: docs
-weight: 176
 url: /java/com.aspose.cells/displayunittype/
 ---
 

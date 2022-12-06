@@ -3,7 +3,6 @@ title: ColorType
 second_title: Aspose.Cells for Java API Reference
 description: Represents all color type
 type: docs
-weight: 96
 url: /java/com.aspose.cells/colortype/
 ---
 

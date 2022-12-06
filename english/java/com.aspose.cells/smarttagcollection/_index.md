@@ -3,7 +3,6 @@ title: SmartTagCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents all smart tags in the cell.
 type: docs
-weight: 527
 url: /java/com.aspose.cells/smarttagcollection/
 ---
 

@@ -3,7 +3,6 @@ title: PowerQueryFormulaFunction
 second_title: Aspose.Cells for Java API Reference
 description: Represents the function of power query.
 type: docs
-weight: 423
 url: /java/com.aspose.cells/powerqueryformulafunction/
 ---
 

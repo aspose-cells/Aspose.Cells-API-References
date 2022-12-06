@@ -3,7 +3,6 @@ title: SparklineAxisMinMaxType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the minimum and maximum value types for the sparkline vertical axis.
 type: docs
-weight: 537
 url: /java/com.aspose.cells/sparklineaxisminmaxtype/
 ---
 

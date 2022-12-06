@@ -3,7 +3,6 @@ title: RevisionRenameSheet
 second_title: Aspose.Cells for Java API Reference
 description: Represents a revision of renaming sheet.
 type: docs
-weight: 477
 url: /java/com.aspose.cells/revisionrenamesheet/
 ---
 

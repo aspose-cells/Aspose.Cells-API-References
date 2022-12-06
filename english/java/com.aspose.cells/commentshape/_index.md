@@ -3,7 +3,6 @@ title: CommentShape
 second_title: Aspose.Cells for Java API Reference
 description: Represents the shape of the comment.
 type: docs
-weight: 104
 url: /java/com.aspose.cells/commentshape/
 ---
 

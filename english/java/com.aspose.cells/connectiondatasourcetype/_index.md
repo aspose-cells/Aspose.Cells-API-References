@@ -3,7 +3,6 @@ title: ConnectionDataSourceType
 second_title: Aspose.Cells for Java API Reference
 description: Specifies external database source type
 type: docs
-weight: 112
 url: /java/com.aspose.cells/connectiondatasourcetype/
 ---
 

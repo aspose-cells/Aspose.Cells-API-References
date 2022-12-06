@@ -3,7 +3,6 @@ title: XmlSaveOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the options of saving the workbook as an xml file.
 type: docs
-weight: 671
 url: /java/com.aspose.cells/xmlsaveoptions/
 ---
 

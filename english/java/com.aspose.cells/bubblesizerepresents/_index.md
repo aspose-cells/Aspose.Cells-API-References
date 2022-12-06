@@ -3,7 +3,6 @@ title: BubbleSizeRepresents
 second_title: Aspose.Cells for Java API Reference
 description: Represents what the bubble size represents on a bubble chart.
 type: docs
-weight: 43
 url: /java/com.aspose.cells/bubblesizerepresents/
 ---
 

@@ -3,7 +3,6 @@ title: Floor
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents the floor of a 3-D chart.
 type: docs
-weight: 220
 url: /java/com.aspose.cells/floor/
 ---
 

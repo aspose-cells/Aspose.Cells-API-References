@@ -3,7 +3,6 @@ title: FillPictureType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the picture fill type.
 type: docs
-weight: 213
 url: /java/com.aspose.cells/fillpicturetype/
 ---
 

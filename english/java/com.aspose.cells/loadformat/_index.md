@@ -3,7 +3,6 @@ title: LoadFormat
 second_title: Aspose.Cells for Java API Reference
 description: Represents the load file format.
 type: docs
-weight: 310
 url: /java/com.aspose.cells/loadformat/
 ---
 

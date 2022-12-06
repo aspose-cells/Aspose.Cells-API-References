@@ -3,7 +3,6 @@ title: WorkbookMetadata
 second_title: Aspose.Cells for Java API Reference
 description: Represents the meta data.
 type: docs
-weight: 656
 url: /java/com.aspose.cells/workbookmetadata/
 ---
 

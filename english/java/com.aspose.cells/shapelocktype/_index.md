@@ -3,7 +3,6 @@ title: ShapeLockType
 second_title: Aspose.Cells for Java API Reference
 description: Represents type of the property to be locked.
 type: docs
-weight: 500
 url: /java/com.aspose.cells/shapelocktype/
 ---
 

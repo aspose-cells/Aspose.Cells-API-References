@@ -3,7 +3,6 @@ title: Row
 second_title: Aspose.Cells for Java API Reference
 description: Represents a single row in a worksheet.
 type: docs
-weight: 479
 url: /java/com.aspose.cells/row/
 ---
 

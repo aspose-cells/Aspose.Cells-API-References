@@ -3,7 +3,6 @@ title: BackgroundType
 second_title: Aspose.Cells for Java API Reference
 description: Enumerates cell background pattern types.
 type: docs
-weight: 34
 url: /java/com.aspose.cells/backgroundtype/
 ---
 

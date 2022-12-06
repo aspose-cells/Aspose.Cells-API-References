@@ -3,7 +3,6 @@ title: Top10Filter
 second_title: Aspose.Cells for Java API Reference
 description: Represents the top 10 filter.
 type: docs
-weight: 609
 url: /java/com.aspose.cells/top10filter/
 ---
 

@@ -3,7 +3,6 @@ title: ConnectionParameterCollection
 second_title: Aspose.Cells for Java API Reference
 description: Specifies the  collection
 type: docs
-weight: 114
 url: /java/com.aspose.cells/connectionparametercollection/
 ---
 

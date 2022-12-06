@@ -3,7 +3,6 @@ title: TickLabelItem
 second_title: Aspose.Cells for Java API Reference
 description: Include information of a Ticklabel item
 type: docs
-weight: 596
 url: /java/com.aspose.cells/ticklabelitem/
 ---
 

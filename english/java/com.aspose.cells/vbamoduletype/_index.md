@@ -3,7 +3,6 @@ title: VbaModuleType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the type of VBA module.
 type: docs
-weight: 627
 url: /java/com.aspose.cells/vbamoduletype/
 ---
 

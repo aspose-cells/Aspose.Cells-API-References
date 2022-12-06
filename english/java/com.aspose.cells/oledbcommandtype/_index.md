@@ -3,7 +3,6 @@ title: OLEDBCommandType
 second_title: Aspose.Cells for Java API Reference
 description: Specifies the OLE DB command type.
 type: docs
-weight: 348
 url: /java/com.aspose.cells/oledbcommandtype/
 ---
 

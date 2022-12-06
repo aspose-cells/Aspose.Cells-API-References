@@ -3,7 +3,6 @@ title: PresetCameraType
 second_title: Aspose.Cells for Java API Reference
 description: Represent different algorithmic methods for setting all camera properties including position.
 type: docs
-weight: 429
 url: /java/com.aspose.cells/presetcameratype/
 ---
 

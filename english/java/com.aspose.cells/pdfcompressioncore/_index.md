@@ -3,7 +3,6 @@ title: PdfCompressionCore
 second_title: Aspose.Cells for Java API Reference
 description: Specifies a type of compression applied to all content in the PDF file except images.
 type: docs
-weight: 384
 url: /java/com.aspose.cells/pdfcompressioncore/
 ---
 

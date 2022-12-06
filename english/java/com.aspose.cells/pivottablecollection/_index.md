@@ -3,7 +3,6 @@ title: PivotTableCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents the collection of all the PivotTable objects on the specified worksheet.
 type: docs
-weight: 415
 url: /java/com.aspose.cells/pivottablecollection/
 ---
 

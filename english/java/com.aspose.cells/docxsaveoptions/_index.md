@@ -3,7 +3,6 @@ title: DocxSaveOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents options of saving .docx file.
 type: docs
-weight: 179
 url: /java/com.aspose.cells/docxsaveoptions/
 ---
 

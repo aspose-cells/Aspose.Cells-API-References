@@ -3,7 +3,6 @@ title: CellsException
 second_title: Aspose.Cells for Java API Reference
 description: The exception that is thrown when Aspose.Cells specified error occurs.
 type: docs
-weight: 67
 url: /java/com.aspose.cells/cellsexception/
 ---
 

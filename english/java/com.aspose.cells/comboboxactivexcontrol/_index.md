@@ -3,7 +3,6 @@ title: ComboBoxActiveXControl
 second_title: Aspose.Cells for Java API Reference
 description: Represents a ComboBox ActiveX control.
 type: docs
-weight: 100
 url: /java/com.aspose.cells/comboboxactivexcontrol/
 ---
 

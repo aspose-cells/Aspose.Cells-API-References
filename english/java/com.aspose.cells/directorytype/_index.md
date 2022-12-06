@@ -3,7 +3,6 @@ title: DirectoryType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the directory  type of the file name.
 type: docs
-weight: 173
 url: /java/com.aspose.cells/directorytype/
 ---
 

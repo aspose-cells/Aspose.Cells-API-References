@@ -3,7 +3,6 @@ title: ValidationAlertType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the data validation alert style.
 type: docs
-weight: 622
 url: /java/com.aspose.cells/validationalerttype/
 ---
 

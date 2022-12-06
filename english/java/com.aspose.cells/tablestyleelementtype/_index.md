@@ -3,7 +3,6 @@ title: TableStyleElementType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the Table or PivotTable style element type.
 type: docs
-weight: 562
 url: /java/com.aspose.cells/tablestyleelementtype/
 ---
 

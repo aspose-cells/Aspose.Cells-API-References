@@ -3,7 +3,6 @@ title: SqlScriptColumnTypeMap
 second_title: Aspose.Cells for Java API Reference
 description: Represents column type map.
 type: docs
-weight: 547
 url: /java/com.aspose.cells/sqlscriptcolumntypemap/
 ---
 

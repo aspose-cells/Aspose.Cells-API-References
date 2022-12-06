@@ -3,7 +3,6 @@ title: ConditionalFormattingValue
 second_title: Aspose.Cells for Java API Reference
 description: Describes the values of the interpolation points in a gradient scale dataBar or iconSet.
 type: docs
-weight: 110
 url: /java/com.aspose.cells/conditionalformattingvalue/
 ---
 

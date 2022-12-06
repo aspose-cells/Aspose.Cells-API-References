@@ -3,7 +3,6 @@ title: MsoPresetTextEffectShape
 second_title: Aspose.Cells for Java API Reference
 description: Represents preset text effect shape type of WordArt.
 type: docs
-weight: 337
 url: /java/com.aspose.cells/msopresettexteffectshape/
 ---
 

@@ -3,7 +3,6 @@ title: ShapeSegmentPathCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents a creation path consisting of a series of moves lines and curves that when combined will form a geometric shape.
 type: docs
-weight: 508
 url: /java/com.aspose.cells/shapesegmentpathcollection/
 ---
 

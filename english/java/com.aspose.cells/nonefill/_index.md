@@ -3,7 +3,6 @@ title: NoneFill
 second_title: Aspose.Cells for Java API Reference
 description: Represents no fill.
 type: docs
-weight: 345
 url: /java/com.aspose.cells/nonefill/
 ---
 

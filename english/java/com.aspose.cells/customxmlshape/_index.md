@@ -3,7 +3,6 @@ title: CustomXmlShape
 second_title: Aspose.Cells for Java API Reference
 description: Represents Custom xml shape such as Ink.
 type: docs
-weight: 146
 url: /java/com.aspose.cells/customxmlshape/
 ---
 

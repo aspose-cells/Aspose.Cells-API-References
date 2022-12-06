@@ -3,7 +3,6 @@ title: Color
 second_title: Aspose.Cells for Java API Reference
 description: Represents an ARGB alpha red green blue color.
 type: docs
-weight: 91
 url: /java/com.aspose.cells/color/
 ---
 

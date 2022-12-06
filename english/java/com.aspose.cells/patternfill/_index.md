@@ -3,7 +3,6 @@ title: PatternFill
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents pattern fill format
 type: docs
-weight: 381
 url: /java/com.aspose.cells/patternfill/
 ---
 

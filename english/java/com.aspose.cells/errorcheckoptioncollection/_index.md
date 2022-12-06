@@ -3,7 +3,6 @@ title: ErrorCheckOptionCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents all error check option.
 type: docs
-weight: 195
 url: /java/com.aspose.cells/errorcheckoptioncollection/
 ---
 

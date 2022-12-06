@@ -3,7 +3,6 @@ title: ThemeColorType
 second_title: Aspose.Cells for Java API Reference
 description: Enumerates  the theme color types.
 type: docs
-weight: 590
 url: /java/com.aspose.cells/themecolortype/
 ---
 

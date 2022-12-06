@@ -3,7 +3,6 @@ title: CalculationData
 second_title: Aspose.Cells for Java API Reference
 description: Represents the required data when calculating one function such as function name parameters ...etc.
 type: docs
-weight: 52
 url: /java/com.aspose.cells/calculationdata/
 ---
 

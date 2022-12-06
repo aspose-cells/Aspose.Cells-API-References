@@ -3,7 +3,6 @@ title: CategoryType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the category axis type.
 type: docs
-weight: 55
 url: /java/com.aspose.cells/categorytype/
 ---
 

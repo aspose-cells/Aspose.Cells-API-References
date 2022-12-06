@@ -3,7 +3,6 @@ title: ErrorCheckOption
 second_title: Aspose.Cells for Java API Reference
 description: Error check setting applied on certain ranges.
 type: docs
-weight: 194
 url: /java/com.aspose.cells/errorcheckoption/
 ---
 

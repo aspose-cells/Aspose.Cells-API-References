@@ -3,7 +3,6 @@ title: TextEffectFormat
 second_title: Aspose.Cells for Java API Reference
 description: Contains properties and methods that apply to WordArt objects.
 type: docs
-weight: 574
 url: /java/com.aspose.cells/texteffectformat/
 ---
 

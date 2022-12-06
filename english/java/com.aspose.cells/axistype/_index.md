@@ -3,7 +3,6 @@ title: AxisType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the axis type.
 type: docs
-weight: 32
 url: /java/com.aspose.cells/axistype/
 ---
 

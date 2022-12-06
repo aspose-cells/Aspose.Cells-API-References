@@ -3,7 +3,6 @@ title: Bevel
 second_title: Aspose.Cells for Java API Reference
 description: Represents a bevel of a shape
 type: docs
-weight: 37
 url: /java/com.aspose.cells/bevel/
 ---
 

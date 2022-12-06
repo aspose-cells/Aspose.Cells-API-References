@@ -3,7 +3,6 @@ title: CalcModeType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the mode type of calculating formulas.
 type: docs
-weight: 50
 url: /java/com.aspose.cells/calcmodetype/
 ---
 

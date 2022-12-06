@@ -3,7 +3,6 @@ title: HtmlHiddenColDisplayType
 second_title: Aspose.Cells for Java API Reference
 description: Represents two types of showing the hidden columns in html.
 type: docs
-weight: 261
 url: /java/com.aspose.cells/htmlhiddencoldisplaytype/
 ---
 

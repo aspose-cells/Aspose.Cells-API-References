@@ -3,7 +3,6 @@ title: MarkdownSaveOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the save options for markdown.
 type: docs
-weight: 318
 url: /java/com.aspose.cells/markdownsaveoptions/
 ---
 

@@ -3,7 +3,6 @@ title: PivotGroupByType
 second_title: Aspose.Cells for Java API Reference
 description: Represents PivotTable groupby type.
 type: docs
-weight: 406
 url: /java/com.aspose.cells/pivotgroupbytype/
 ---
 

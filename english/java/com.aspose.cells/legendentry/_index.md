@@ -3,7 +3,6 @@ title: LegendEntry
 second_title: Aspose.Cells for Java API Reference
 description: Represents a legend entry in a chart legend.
 type: docs
-weight: 289
 url: /java/com.aspose.cells/legendentry/
 ---
 

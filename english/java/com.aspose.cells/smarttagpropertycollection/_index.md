@@ -3,7 +3,6 @@ title: SmartTagPropertyCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents all properties of cell smart tag.
 type: docs
-weight: 530
 url: /java/com.aspose.cells/smarttagpropertycollection/
 ---
 

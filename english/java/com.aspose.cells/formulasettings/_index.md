@@ -3,7 +3,6 @@ title: FormulaSettings
 second_title: Aspose.Cells for Java API Reference
 description: Settings of formulas and calculation.
 type: docs
-weight: 238
 url: /java/com.aspose.cells/formulasettings/
 ---
 

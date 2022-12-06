@@ -3,7 +3,6 @@ title: ThreadedCommentAuthorCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents all persons who .
 type: docs
-weight: 593
 url: /java/com.aspose.cells/threadedcommentauthorcollection/
 ---
 

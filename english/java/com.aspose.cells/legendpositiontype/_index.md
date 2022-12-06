@@ -3,7 +3,6 @@ title: LegendPositionType
 second_title: Aspose.Cells for Java API Reference
 description: Enumerates the legend position types.
 type: docs
-weight: 291
 url: /java/com.aspose.cells/legendpositiontype/
 ---
 

@@ -3,7 +3,6 @@ title: Outline
 second_title: Aspose.Cells for Java API Reference
 description: Represents an outline on a worksheet.
 type: docs
-weight: 365
 url: /java/com.aspose.cells/outline/
 ---
 

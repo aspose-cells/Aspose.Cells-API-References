@@ -3,7 +3,6 @@ title: SlicerStyleType
 second_title: Aspose.Cells for Java API Reference
 description: Specify the style of slicer view
 type: docs
-weight: 524
 url: /java/com.aspose.cells/slicerstyletype/
 ---
 

@@ -3,7 +3,6 @@ title: SheetType
 second_title: Aspose.Cells for Java API Reference
 description: Specifies the worksheet type.
 type: docs
-weight: 513
 url: /java/com.aspose.cells/sheettype/
 ---
 

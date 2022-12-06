@@ -3,7 +3,6 @@ title: DifSaveOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the options of saving dif file.
 type: docs
-weight: 170
 url: /java/com.aspose.cells/difsaveoptions/
 ---
 

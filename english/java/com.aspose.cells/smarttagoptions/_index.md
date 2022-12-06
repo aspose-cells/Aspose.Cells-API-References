@@ -3,7 +3,6 @@ title: SmartTagOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the options of the smart tag.
 type: docs
-weight: 528
 url: /java/com.aspose.cells/smarttagoptions/
 ---
 

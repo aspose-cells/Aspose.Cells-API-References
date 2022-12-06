@@ -3,7 +3,6 @@ title: SpinButtonActiveXControl
 second_title: Aspose.Cells for Java API Reference
 description: Represents the SpinButton control.
 type: docs
-weight: 543
 url: /java/com.aspose.cells/spinbuttonactivexcontrol/
 ---
 

@@ -3,7 +3,6 @@ title: EmfRenderSetting
 second_title: Aspose.Cells for Java API Reference
 description: Setting for rendering Emf metafile.
 type: docs
-weight: 188
 url: /java/com.aspose.cells/emfrendersetting/
 ---
 

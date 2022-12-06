@@ -3,7 +3,6 @@ title: GlobalizationSettings
 second_title: Aspose.Cells for Java API Reference
 description: Represents the globalization settings.
 type: docs
-weight: 240
 url: /java/com.aspose.cells/globalizationsettings/
 ---
 

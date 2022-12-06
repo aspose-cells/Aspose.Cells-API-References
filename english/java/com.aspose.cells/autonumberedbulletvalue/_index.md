@@ -3,7 +3,6 @@ title: AutoNumberedBulletValue
 second_title: Aspose.Cells for Java API Reference
 description: Represents automatic numbered bullet.
 type: docs
-weight: 27
 url: /java/com.aspose.cells/autonumberedbulletvalue/
 ---
 

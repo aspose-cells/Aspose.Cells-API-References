@@ -3,7 +3,6 @@ title: ChartTextFrame
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents the frame object which contains text.
 type: docs
-weight: 84
 url: /java/com.aspose.cells/charttextframe/
 ---
 

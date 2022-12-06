@@ -3,7 +3,6 @@ title: ISmartMarkerCallBack
 second_title: Aspose.Cells for Java API Reference
 description: Represents callback interface of processing smartmarker.
 type: docs
-weight: 679
 url: /java/com.aspose.cells/ismartmarkercallback/
 ---
 ```

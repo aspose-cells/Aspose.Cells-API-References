@@ -3,7 +3,6 @@ title: SlicerCacheItemCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represent the collection of SlicerCacheItem
 type: docs
-weight: 521
 url: /java/com.aspose.cells/slicercacheitemcollection/
 ---
 

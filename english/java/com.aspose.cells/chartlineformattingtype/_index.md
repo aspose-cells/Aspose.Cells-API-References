@@ -3,7 +3,6 @@ title: ChartLineFormattingType
 second_title: Aspose.Cells for Java API Reference
 description: Represents line format type of chart line.
 type: docs
-weight: 77
 url: /java/com.aspose.cells/chartlineformattingtype/
 ---
 

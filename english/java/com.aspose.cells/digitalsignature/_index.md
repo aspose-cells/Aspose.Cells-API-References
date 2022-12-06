@@ -3,7 +3,6 @@ title: DigitalSignature
 second_title: Aspose.Cells for Java API Reference
 description: Signature in file.
 type: docs
-weight: 171
 url: /java/com.aspose.cells/digitalsignature/
 ---
 

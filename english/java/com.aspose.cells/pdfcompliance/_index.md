@@ -3,7 +3,6 @@ title: PdfCompliance
 second_title: Aspose.Cells for Java API Reference
 description: Allowing user to set PDF conversions Compatibility
 type: docs
-weight: 383
 url: /java/com.aspose.cells/pdfcompliance/
 ---
 

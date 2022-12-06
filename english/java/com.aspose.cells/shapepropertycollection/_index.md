@@ -3,7 +3,6 @@ title: ShapePropertyCollection
 second_title: Aspose.Cells for Java API Reference
 description: This class specifies the visual shape properties for a chart element or shape.
 type: docs
-weight: 506
 url: /java/com.aspose.cells/shapepropertycollection/
 ---
 

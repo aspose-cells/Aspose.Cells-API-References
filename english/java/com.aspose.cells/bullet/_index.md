@@ -3,7 +3,6 @@ title: Bullet
 second_title: Aspose.Cells for Java API Reference
 description: Represents the bullet.
 type: docs
-weight: 46
 url: /java/com.aspose.cells/bullet/
 ---
 

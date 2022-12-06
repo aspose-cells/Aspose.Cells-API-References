@@ -3,7 +3,6 @@ title: Revision
 second_title: Aspose.Cells for Java API Reference
 description: Represents the revision.
 type: docs
-weight: 461
 url: /java/com.aspose.cells/revision/
 ---
 

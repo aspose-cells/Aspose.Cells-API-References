@@ -3,7 +3,6 @@ title: Scenario
 second_title: Aspose.Cells for Java API Reference
 description: Represents an individual scenario.
 type: docs
-weight: 483
 url: /java/com.aspose.cells/scenario/
 ---
 

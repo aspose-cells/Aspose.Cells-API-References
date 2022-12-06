@@ -3,7 +3,6 @@ title: ShapePathPointCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents all shape path points.
 type: docs
-weight: 504
 url: /java/com.aspose.cells/shapepathpointcollection/
 ---
 

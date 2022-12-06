@@ -3,7 +3,6 @@ title: ExportObjectEvent
 second_title: Aspose.Cells for Java API Reference
 description: The event triggered when exporting an object such as Picture.
 type: docs
-weight: 198
 url: /java/com.aspose.cells/exportobjectevent/
 ---
 

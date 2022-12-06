@@ -3,7 +3,6 @@ title: FillType
 second_title: Aspose.Cells for Java API Reference
 description: Fill format type.
 type: docs
-weight: 214
 url: /java/com.aspose.cells/filltype/
 ---
 

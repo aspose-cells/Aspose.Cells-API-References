@@ -3,7 +3,6 @@ title: OdsPageBackgroundGraphicPositionType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the position.
 type: docs
-weight: 355
 url: /java/com.aspose.cells/odspagebackgroundgraphicpositiontype/
 ---
 

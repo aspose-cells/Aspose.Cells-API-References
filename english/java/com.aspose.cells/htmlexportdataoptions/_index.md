@@ -3,7 +3,6 @@ title: HtmlExportDataOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the options for exporting html data.
 type: docs
-weight: 259
 url: /java/com.aspose.cells/htmlexportdataoptions/
 ---
 

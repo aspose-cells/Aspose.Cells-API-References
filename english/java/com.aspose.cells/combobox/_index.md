@@ -3,7 +3,6 @@ title: ComboBox
 second_title: Aspose.Cells for Java API Reference
 description: Represents the control form ComboBox.
 type: docs
-weight: 99
 url: /java/com.aspose.cells/combobox/
 ---
 

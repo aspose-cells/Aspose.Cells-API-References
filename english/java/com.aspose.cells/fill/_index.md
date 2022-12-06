@@ -3,7 +3,6 @@ title: Fill
 second_title: Aspose.Cells for Java API Reference
 description: Represents the fill format of the shape.
 type: docs
-weight: 210
 url: /java/com.aspose.cells/fill/
 ---
 

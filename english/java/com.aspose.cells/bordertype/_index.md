@@ -3,7 +3,6 @@ title: BorderType
 second_title: Aspose.Cells for Java API Reference
 description: Enumerates the border line and diagonal line types.
 type: docs
-weight: 42
 url: /java/com.aspose.cells/bordertype/
 ---
 

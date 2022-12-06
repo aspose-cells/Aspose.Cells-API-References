@@ -3,7 +3,6 @@ title: Line
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents the line format.
 type: docs
-weight: 295
 url: /java/com.aspose.cells/line/
 ---
 

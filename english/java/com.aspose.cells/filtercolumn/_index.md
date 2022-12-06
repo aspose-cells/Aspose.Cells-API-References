@@ -3,7 +3,6 @@ title: FilterColumn
 second_title: Aspose.Cells for Java API Reference
 description: Represents a filter for a single column.
 type: docs
-weight: 215
 url: /java/com.aspose.cells/filtercolumn/
 ---
 

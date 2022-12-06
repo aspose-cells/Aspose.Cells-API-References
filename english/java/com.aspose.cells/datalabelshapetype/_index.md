@@ -3,7 +3,6 @@ title: DataLabelShapeType
 second_title: Aspose.Cells for Java API Reference
 description: Specifies the preset shape geometry that is to be used for a chart.
 type: docs
-weight: 154
 url: /java/com.aspose.cells/datalabelshapetype/
 ---
 

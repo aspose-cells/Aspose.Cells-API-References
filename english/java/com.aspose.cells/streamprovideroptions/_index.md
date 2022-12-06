@@ -3,7 +3,6 @@ title: StreamProviderOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the stream options.
 type: docs
-weight: 550
 url: /java/com.aspose.cells/streamprovideroptions/
 ---
 

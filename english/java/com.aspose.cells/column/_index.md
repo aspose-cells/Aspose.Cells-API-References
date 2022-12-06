@@ -3,7 +3,6 @@ title: Column
 second_title: Aspose.Cells for Java API Reference
 description: Represents a single column in a worksheet.
 type: docs
-weight: 97
 url: /java/com.aspose.cells/column/
 ---
 

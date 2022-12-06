@@ -3,7 +3,6 @@ title: DrawObject
 second_title: Aspose.Cells for Java API Reference
 description: DrawObject will be initialized and returned when rendering.
 type: docs
-weight: 180
 url: /java/com.aspose.cells/drawobject/
 ---
 

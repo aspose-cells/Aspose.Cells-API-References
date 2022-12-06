@@ -3,7 +3,6 @@ title: MsoArrowheadLength
 second_title: Aspose.Cells for Java API Reference
 description: Enumerates the line end width of the shape border line.
 type: docs
-weight: 325
 url: /java/com.aspose.cells/msoarrowheadlength/
 ---
 

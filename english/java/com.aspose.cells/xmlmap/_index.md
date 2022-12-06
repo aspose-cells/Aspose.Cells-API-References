@@ -3,7 +3,6 @@ title: XmlMap
 second_title: Aspose.Cells for Java API Reference
 description: Represents Xml map information.
 type: docs
-weight: 669
 url: /java/com.aspose.cells/xmlmap/
 ---
 

@@ -3,7 +3,6 @@ title: GradientDirectionType
 second_title: Aspose.Cells for Java API Reference
 description: Represents all direction type of gradient.
 type: docs
-weight: 243
 url: /java/com.aspose.cells/gradientdirectiontype/
 ---
 

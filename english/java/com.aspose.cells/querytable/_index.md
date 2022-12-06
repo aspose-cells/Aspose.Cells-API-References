@@ -3,7 +3,6 @@ title: QueryTable
 second_title: Aspose.Cells for Java API Reference
 description: Represents QueryTable information.
 type: docs
-weight: 445
 url: /java/com.aspose.cells/querytable/
 ---
 

@@ -3,7 +3,6 @@ title: ShiftType
 second_title: Aspose.Cells for Java API Reference
 description: Represent the shift options when deleting a range of cells.
 type: docs
-weight: 514
 url: /java/com.aspose.cells/shifttype/
 ---
 

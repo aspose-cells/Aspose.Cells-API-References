@@ -3,7 +3,6 @@ title: LightCellsDataHandler
 second_title: Aspose.Cells for Java API Reference
 description: Represents cells data handler for reading large spreadsheet files in light weight mode.
 type: docs
-weight: 682
 url: /java/com.aspose.cells/lightcellsdatahandler/
 ---
 ```

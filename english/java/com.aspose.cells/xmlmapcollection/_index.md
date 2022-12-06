@@ -3,7 +3,6 @@ title: XmlMapCollection
 second_title: Aspose.Cells for Java API Reference
 description: A collection of  objects that represent XmlMap information.
 type: docs
-weight: 670
 url: /java/com.aspose.cells/xmlmapcollection/
 ---
 

@@ -3,7 +3,6 @@ title: CellsDrawing
 second_title: Aspose.Cells for Java API Reference
 description: Represents the auto shape and drawing object.
 type: docs
-weight: 66
 url: /java/com.aspose.cells/cellsdrawing/
 ---
 

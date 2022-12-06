@@ -3,7 +3,6 @@ title: FilterColumnCollection
 second_title: Aspose.Cells for Java API Reference
 description: A collection of Filter objects that represents all the filters in an autofiltered range.
 type: docs
-weight: 216
 url: /java/com.aspose.cells/filtercolumncollection/
 ---
 

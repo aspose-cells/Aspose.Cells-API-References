@@ -3,7 +3,6 @@ title: WorkbookSettings
 second_title: Aspose.Cells for Java API Reference
 description: Represents all settings of the workbook.
 type: docs
-weight: 659
 url: /java/com.aspose.cells/workbooksettings/
 ---
 

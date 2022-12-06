@@ -3,7 +3,6 @@ title: AutoFitMergedCellsType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the type of auto fitting merged cells.
 type: docs
-weight: 24
 url: /java/com.aspose.cells/autofitmergedcellstype/
 ---
 

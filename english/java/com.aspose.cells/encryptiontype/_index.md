@@ -3,7 +3,6 @@ title: EncryptionType
 second_title: Aspose.Cells for Java API Reference
 description: Encryption Type.
 type: docs
-weight: 190
 url: /java/com.aspose.cells/encryptiontype/
 ---
 

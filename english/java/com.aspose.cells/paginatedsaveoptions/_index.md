@@ -3,7 +3,6 @@ title: PaginatedSaveOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the options for pagination.
 type: docs
-weight: 373
 url: /java/com.aspose.cells/paginatedsaveoptions/
 ---
 

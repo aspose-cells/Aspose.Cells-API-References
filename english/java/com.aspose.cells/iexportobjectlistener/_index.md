@@ -3,7 +3,6 @@ title: IExportObjectListener
 second_title: Aspose.Cells for Java API Reference
 description: Allows users to manipulate objects while exporting.
 type: docs
-weight: 676
 url: /java/com.aspose.cells/iexportobjectlistener/
 ---
 ```

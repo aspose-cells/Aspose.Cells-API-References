@@ -3,7 +3,6 @@ title: OoxmlSaveOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the options of saving office open xml file.
 type: docs
-weight: 363
 url: /java/com.aspose.cells/ooxmlsaveoptions/
 ---
 

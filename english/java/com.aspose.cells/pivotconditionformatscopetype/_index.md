@@ -3,7 +3,6 @@ title: PivotConditionFormatScopeType
 second_title: Aspose.Cells for Java API Reference
 description: Represents PivotTable condition formatting scope type.
 type: docs
-weight: 395
 url: /java/com.aspose.cells/pivotconditionformatscopetype/
 ---
 

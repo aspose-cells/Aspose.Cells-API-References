@@ -3,7 +3,6 @@ title: TextVerticalType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the text direct type.
 type: docs
-weight: 586
 url: /java/com.aspose.cells/textverticaltype/
 ---
 

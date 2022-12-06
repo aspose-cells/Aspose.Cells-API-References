@@ -3,7 +3,6 @@ title: ScrollBarActiveXControl
 second_title: Aspose.Cells for Java API Reference
 description: Represents the ScrollBar control.
 type: docs
-weight: 488
 url: /java/com.aspose.cells/scrollbaractivexcontrol/
 ---
 

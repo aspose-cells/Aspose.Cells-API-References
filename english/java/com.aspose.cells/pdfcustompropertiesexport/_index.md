@@ -3,7 +3,6 @@ title: PdfCustomPropertiesExport
 second_title: Aspose.Cells for Java API Reference
 description: Specifies the way  are exported to PDF file.
 type: docs
-weight: 385
 url: /java/com.aspose.cells/pdfcustompropertiesexport/
 ---
 

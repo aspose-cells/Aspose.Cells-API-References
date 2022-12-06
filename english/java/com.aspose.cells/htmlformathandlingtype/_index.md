@@ -3,7 +3,6 @@ title: HtmlFormatHandlingType
 second_title: Aspose.Cells for Java API Reference
 description: Specifies how to handle formatting from the HTML source
 type: docs
-weight: 260
 url: /java/com.aspose.cells/htmlformathandlingtype/
 ---
 

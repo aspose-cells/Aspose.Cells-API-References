@@ -3,7 +3,6 @@ title: TickLabels
 second_title: Aspose.Cells for Java API Reference
 description: Represents the tick-mark labels associated with tick marks on a chart axis.
 type: docs
-weight: 598
 url: /java/com.aspose.cells/ticklabels/
 ---
 

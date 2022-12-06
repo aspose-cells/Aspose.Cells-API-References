@@ -3,7 +3,6 @@ title: SelectionType
 second_title: Aspose.Cells for Java API Reference
 description: The selection type of list box.
 type: docs
-weight: 489
 url: /java/com.aspose.cells/selectiontype/
 ---
 

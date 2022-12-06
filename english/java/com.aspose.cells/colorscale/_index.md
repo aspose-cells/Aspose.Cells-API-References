@@ -3,7 +3,6 @@ title: ColorScale
 second_title: Aspose.Cells for Java API Reference
 description: Describe the ColorScale conditional formatting rule.
 type: docs
-weight: 95
 url: /java/com.aspose.cells/colorscale/
 ---
 

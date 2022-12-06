@@ -3,7 +3,6 @@ title: MsoDrawingType
 second_title: Aspose.Cells for Java API Reference
 description: Represents office drawing objects type.
 type: docs
-weight: 328
 url: /java/com.aspose.cells/msodrawingtype/
 ---
 

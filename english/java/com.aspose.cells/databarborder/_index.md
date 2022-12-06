@@ -3,7 +3,6 @@ title: DataBarBorder
 second_title: Aspose.Cells for Java API Reference
 description: Represents the border of the data bars specified by a conditional formatting rule.
 type: docs
-weight: 150
 url: /java/com.aspose.cells/databarborder/
 ---
 

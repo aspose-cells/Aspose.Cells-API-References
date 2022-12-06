@@ -3,7 +3,6 @@ title: SmartTagSetting
 second_title: Aspose.Cells for Java API Reference
 description: Represents all  object in the worksheet.
 type: docs
-weight: 531
 url: /java/com.aspose.cells/smarttagsetting/
 ---
 

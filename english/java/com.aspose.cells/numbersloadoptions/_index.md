@@ -3,7 +3,6 @@ title: NumbersLoadOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the options of loading Apple Numbers files.
 type: docs
-weight: 347
 url: /java/com.aspose.cells/numbersloadoptions/
 ---
 

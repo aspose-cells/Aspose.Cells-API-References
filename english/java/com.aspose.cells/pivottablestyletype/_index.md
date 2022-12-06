@@ -3,7 +3,6 @@ title: PivotTableStyleType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the pivot table style type.
 type: docs
-weight: 416
 url: /java/com.aspose.cells/pivottablestyletype/
 ---
 

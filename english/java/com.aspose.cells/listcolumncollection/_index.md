@@ -3,7 +3,6 @@ title: ListColumnCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents A collection of all the  objects in the specified ListObject object.
 type: docs
-weight: 305
 url: /java/com.aspose.cells/listcolumncollection/
 ---
 

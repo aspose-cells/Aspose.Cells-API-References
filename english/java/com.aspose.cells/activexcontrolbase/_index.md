@@ -3,7 +3,6 @@ title: ActiveXControlBase
 second_title: Aspose.Cells for Java API Reference
 description: Represents the ActiveX control.
 type: docs
-weight: 18
 url: /java/com.aspose.cells/activexcontrolbase/
 ---
 

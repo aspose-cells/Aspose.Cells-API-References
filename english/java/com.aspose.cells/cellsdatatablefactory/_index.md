@@ -3,7 +3,6 @@ title: CellsDataTableFactory
 second_title: Aspose.Cells for Java API Reference
 description: Utility to build ICellsDataTable from custom objects for users convenience.
 type: docs
-weight: 65
 url: /java/com.aspose.cells/cellsdatatablefactory/
 ---
 

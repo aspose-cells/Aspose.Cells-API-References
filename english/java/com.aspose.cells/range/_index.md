@@ -3,7 +3,6 @@ title: Range
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents a range of cells within a spreadsheet.
 type: docs
-weight: 449
 url: /java/com.aspose.cells/range/
 ---
 
@@ -83,6 +82,7 @@ Encapsulates the object that represents a range of cells within a spreadsheet.
 | [setOutlineBorders(int[] borderStyles, Color[] borderColors)](#setOutlineBorders-int---com.aspose.cells.Color---) | Sets out line borders around a range of cells. |
 | [setRowHeight(double value)](#setRowHeight-double-) | For the description of this property, please see [getRowHeight()](../../com.aspose.cells/range\#getRowHeight--) |
 | [setStyle(Style style)](#setStyle-com.aspose.cells.Style-) | Sets the style of the range. |
+| [setStyle(Style style, boolean explicitFlag)](#setStyle-com.aspose.cells.Style-boolean-) | Apply the cell style. |
 | [setValue(Object value)](#setValue-java.lang.Object-) | For the description of this property, please see [getValue()](../../com.aspose.cells/range\#getValue--) |
 | [toString()](#toString--) | Returns a string represents the current Range object. |
 | [unMerge()](#unMerge--) | Unmerges merged cells of this range. |
@@ -766,6 +766,20 @@ Sets the style of the range.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | style | [Style](../../com.aspose.cells/style) | The Style object. |
+
+### setStyle(Style style, boolean explicitFlag) {#setStyle-com.aspose.cells.Style-boolean-}
+```
+public void setStyle(Style style, boolean explicitFlag)
+```
+
+
+Apply the cell style.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| style | [Style](../../com.aspose.cells/style) | The cell style. |
+| explicitFlag | boolean | True, only overwriting formatting which is explicitly set. |
 
 ### setValue(Object value) {#setValue-java.lang.Object-}
 ```

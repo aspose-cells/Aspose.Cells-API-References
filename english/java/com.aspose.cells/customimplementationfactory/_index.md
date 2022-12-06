@@ -3,7 +3,6 @@ title: CustomImplementationFactory
 second_title: Aspose.Cells for Java API Reference
 description: Factory to create some instances which may be re-implemented by user for special purpose.
 type: docs
-weight: 141
 url: /java/com.aspose.cells/customimplementationfactory/
 ---
 

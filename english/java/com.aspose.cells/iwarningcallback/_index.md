@@ -3,7 +3,6 @@ title: IWarningCallback
 second_title: Aspose.Cells for Java API Reference
 description: Callback interface of warning.
 type: docs
-weight: 681
 url: /java/com.aspose.cells/iwarningcallback/
 ---
 ```

@@ -3,7 +3,6 @@ title: TableDataSourceType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the tables data source type.
 type: docs
-weight: 557
 url: /java/com.aspose.cells/tabledatasourcetype/
 ---
 

@@ -3,7 +3,6 @@ title: Protection
 second_title: Aspose.Cells for Java API Reference
 description: Represents the various types of protection options available for a worksheet.
 type: docs
-weight: 442
 url: /java/com.aspose.cells/protection/
 ---
 

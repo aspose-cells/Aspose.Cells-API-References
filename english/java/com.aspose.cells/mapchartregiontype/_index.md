@@ -3,7 +3,6 @@ title: MapChartRegionType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the region type of the map chart.
 type: docs
-weight: 317
 url: /java/com.aspose.cells/mapchartregiontype/
 ---
 

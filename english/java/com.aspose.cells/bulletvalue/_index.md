@@ -3,7 +3,6 @@ title: BulletValue
 second_title: Aspose.Cells for Java API Reference
 description: Represents the value of the bullet.
 type: docs
-weight: 48
 url: /java/com.aspose.cells/bulletvalue/
 ---
 

@@ -3,7 +3,6 @@ title: StyleFlag
 second_title: Aspose.Cells for Java API Reference
 description: Represents flags which indicates applied formatting properties.
 type: docs
-weight: 552
 url: /java/com.aspose.cells/styleflag/
 ---
 

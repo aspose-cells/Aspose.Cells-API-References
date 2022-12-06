@@ -3,7 +3,6 @@ title: DigitalSignatureCollection
 second_title: Aspose.Cells for Java API Reference
 description: Provides a collection of digital signatures attached to a document.
 type: docs
-weight: 172
 url: /java/com.aspose.cells/digitalsignaturecollection/
 ---
 

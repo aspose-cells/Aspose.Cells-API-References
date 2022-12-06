@@ -3,7 +3,6 @@ title: DxfCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents the master differential formatting records.
 type: docs
-weight: 185
 url: /java/com.aspose.cells/dxfcollection/
 ---
 

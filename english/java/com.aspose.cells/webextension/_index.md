@@ -3,7 +3,6 @@ title: WebExtension
 second_title: Aspose.Cells for Java API Reference
 description: Represents an Office Add-in instance.
 type: docs
-weight: 640
 url: /java/com.aspose.cells/webextension/
 ---
 

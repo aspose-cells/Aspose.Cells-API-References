@@ -3,7 +3,6 @@ title: PlacementType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the way the drawing object is attached to the cells below it.
 type: docs
-weight: 417
 url: /java/com.aspose.cells/placementtype/
 ---
 

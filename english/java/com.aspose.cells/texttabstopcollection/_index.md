@@ -3,7 +3,6 @@ title: TextTabStopCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents the list of all tab stops.
 type: docs
-weight: 585
 url: /java/com.aspose.cells/texttabstopcollection/
 ---
 

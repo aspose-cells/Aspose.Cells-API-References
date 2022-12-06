@@ -3,7 +3,6 @@ title: TrendlineCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents a collection of all the  objects for the specified data series.
 type: docs
-weight: 612
 url: /java/com.aspose.cells/trendlinecollection/
 ---
 

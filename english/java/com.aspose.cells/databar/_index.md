@@ -3,7 +3,6 @@ title: DataBar
 second_title: Aspose.Cells for Java API Reference
 description: Describe the DataBar conditional formatting rule.
 type: docs
-weight: 148
 url: /java/com.aspose.cells/databar/
 ---
 

@@ -3,7 +3,6 @@ title: InsertOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the options of inserting.
 type: docs
-weight: 279
 url: /java/com.aspose.cells/insertoptions/
 ---
 

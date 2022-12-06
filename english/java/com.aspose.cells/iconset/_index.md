@@ -3,7 +3,6 @@ title: IconSet
 second_title: Aspose.Cells for Java API Reference
 description: Describe the IconSet conditional formatting rule.
 type: docs
-weight: 269
 url: /java/com.aspose.cells/iconset/
 ---
 

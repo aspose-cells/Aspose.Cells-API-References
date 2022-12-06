@@ -3,7 +3,6 @@ title: ReConnectionMethodType
 second_title: Aspose.Cells for Java API Reference
 description: Specifies what the spreadsheet application should do when a connection fails.
 type: docs
-weight: 451
 url: /java/com.aspose.cells/reconnectionmethodtype/
 ---
 

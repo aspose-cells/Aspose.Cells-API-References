@@ -3,7 +3,6 @@ title: AutoFitWrappedTextType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the type of auto fitting wrapped text.
 type: docs
-weight: 25
 url: /java/com.aspose.cells/autofitwrappedtexttype/
 ---
 

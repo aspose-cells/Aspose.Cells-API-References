@@ -3,7 +3,6 @@ title: ChartTextDirectionType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the text direction type of the chart.
 type: docs
-weight: 83
 url: /java/com.aspose.cells/charttextdirectiontype/
 ---
 

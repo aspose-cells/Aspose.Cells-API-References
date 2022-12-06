@@ -3,7 +3,6 @@ title: DocumentPropertyCollection
 second_title: Aspose.Cells for Java API Reference
 description: Base class for  and  collections.
 type: docs
-weight: 178
 url: /java/com.aspose.cells/documentpropertycollection/
 ---
 

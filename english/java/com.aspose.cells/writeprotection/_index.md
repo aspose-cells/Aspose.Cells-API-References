@@ -3,7 +3,6 @@ title: WriteProtection
 second_title: Aspose.Cells for Java API Reference
 description: Specifies write protection settings for a workbook.
 type: docs
-weight: 662
 url: /java/com.aspose.cells/writeprotection/
 ---
 

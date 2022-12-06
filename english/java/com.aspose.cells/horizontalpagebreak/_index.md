@@ -3,7 +3,6 @@ title: HorizontalPageBreak
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents a horizontal page break.
 type: docs
-weight: 256
 url: /java/com.aspose.cells/horizontalpagebreak/
 ---
 

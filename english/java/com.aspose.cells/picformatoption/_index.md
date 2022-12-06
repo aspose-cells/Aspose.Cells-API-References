@@ -3,7 +3,6 @@ title: PicFormatOption
 second_title: Aspose.Cells for Java API Reference
 description: Represents picture format option
 type: docs
-weight: 390
 url: /java/com.aspose.cells/picformatoption/
 ---
 

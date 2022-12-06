@@ -3,7 +3,6 @@ title: PrintSizeType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the printed chart size.
 type: docs
-weight: 437
 url: /java/com.aspose.cells/printsizetype/
 ---
 

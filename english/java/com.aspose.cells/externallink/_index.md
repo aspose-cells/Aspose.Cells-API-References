@@ -3,7 +3,6 @@ title: ExternalLink
 second_title: Aspose.Cells for Java API Reference
 description: Represents an external link in a workbook.
 type: docs
-weight: 203
 url: /java/com.aspose.cells/externallink/
 ---
 

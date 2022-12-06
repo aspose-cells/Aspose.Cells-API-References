@@ -3,7 +3,6 @@ title: ContentTypeProperty
 second_title: Aspose.Cells for Java API Reference
 description: Represents identifier information.
 type: docs
-weight: 118
 url: /java/com.aspose.cells/contenttypeproperty/
 ---
 

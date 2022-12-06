@@ -3,7 +3,6 @@ title: CommandButtonActiveXControl
 second_title: Aspose.Cells for Java API Reference
 description: Represents a command button.
 type: docs
-weight: 101
 url: /java/com.aspose.cells/commandbuttonactivexcontrol/
 ---
 

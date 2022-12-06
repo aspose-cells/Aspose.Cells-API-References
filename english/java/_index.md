@@ -10,4 +10,5 @@ is_root: true
 ## Packages
 | Package | Description |
 | --- | --- |
-| [com.aspose.cells](./com.aspose.cells) |  |
+| [com.aspose.cells](./com.aspose.cells) | Provides core apis and features to manipulate spreadsheet files and data directly without utilizing Microsoft Excel. |
+| [com.aspose.gridweb](./com.aspose.gridweb) | Provides apis to manipulate components of spreadsheet for web application. |

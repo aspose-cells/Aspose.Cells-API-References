@@ -3,7 +3,6 @@ title: CheckBox
 second_title: Aspose.Cells for Java API Reference
 description: Represents a check box object in a worksheet.
 type: docs
-weight: 86
 url: /java/com.aspose.cells/checkbox/
 ---
 

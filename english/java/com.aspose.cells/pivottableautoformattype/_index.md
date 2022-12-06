@@ -3,7 +3,6 @@ title: PivotTableAutoFormatType
 second_title: Aspose.Cells for Java API Reference
 description: Represents PivotTable auto format type.
 type: docs
-weight: 414
 url: /java/com.aspose.cells/pivottableautoformattype/
 ---
 

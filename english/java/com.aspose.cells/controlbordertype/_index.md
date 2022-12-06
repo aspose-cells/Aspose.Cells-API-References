@@ -3,7 +3,6 @@ title: ControlBorderType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the border type of the ActiveX control.
 type: docs
-weight: 120
 url: /java/com.aspose.cells/controlbordertype/
 ---
 

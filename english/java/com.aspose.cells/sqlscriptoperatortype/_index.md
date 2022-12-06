@@ -3,7 +3,6 @@ title: SqlScriptOperatorType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the type of operating data.
 type: docs
-weight: 548
 url: /java/com.aspose.cells/sqlscriptoperatortype/
 ---
 

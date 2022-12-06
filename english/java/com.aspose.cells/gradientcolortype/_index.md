@@ -3,7 +3,6 @@ title: GradientColorType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the gradient color type for the specified fill.
 type: docs
-weight: 242
 url: /java/com.aspose.cells/gradientcolortype/
 ---
 

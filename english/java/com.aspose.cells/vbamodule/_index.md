@@ -3,7 +3,6 @@ title: VbaModule
 second_title: Aspose.Cells for Java API Reference
 description: Represents the module in VBA project.
 type: docs
-weight: 625
 url: /java/com.aspose.cells/vbamodule/
 ---
 

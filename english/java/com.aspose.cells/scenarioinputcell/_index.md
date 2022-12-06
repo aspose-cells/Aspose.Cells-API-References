@@ -3,7 +3,6 @@ title: ScenarioInputCell
 second_title: Aspose.Cells for Java API Reference
 description: Represents input cell for the scenario.
 type: docs
-weight: 485
 url: /java/com.aspose.cells/scenarioinputcell/
 ---
 

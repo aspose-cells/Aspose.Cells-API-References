@@ -3,7 +3,6 @@ title: WebExtensionPropertyCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents the list of web extension properties.
 type: docs
-weight: 645
 url: /java/com.aspose.cells/webextensionpropertycollection/
 ---
 

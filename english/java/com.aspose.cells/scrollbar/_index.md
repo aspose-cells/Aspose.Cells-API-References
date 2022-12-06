@@ -3,7 +3,6 @@ title: ScrollBar
 second_title: Aspose.Cells for Java API Reference
 description: Represents a scroll bar object.
 type: docs
-weight: 487
 url: /java/com.aspose.cells/scrollbar/
 ---
 

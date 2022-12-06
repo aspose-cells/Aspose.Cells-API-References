@@ -3,7 +3,6 @@ title: IconSetType
 second_title: Aspose.Cells for Java API Reference
 description: Icon set type for conditional formatting.
 type: docs
-weight: 270
 url: /java/com.aspose.cells/iconsettype/
 ---
 

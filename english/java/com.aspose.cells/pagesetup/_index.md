@@ -3,7 +3,6 @@ title: PageSetup
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents the page setup description.
 type: docs
-weight: 371
 url: /java/com.aspose.cells/pagesetup/
 ---
 

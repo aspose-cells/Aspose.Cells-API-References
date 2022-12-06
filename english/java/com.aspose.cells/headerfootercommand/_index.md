@@ -3,7 +3,6 @@ title: HeaderFooterCommand
 second_title: Aspose.Cells for Java API Reference
 description: Represents the command of header/footer
 type: docs
-weight: 254
 url: /java/com.aspose.cells/headerfootercommand/
 ---
 

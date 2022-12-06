@@ -3,7 +3,6 @@ title: Encoding
 second_title: Aspose.Cells for Java API Reference
 description: Represents a character encoding.
 type: docs
-weight: 189
 url: /java/com.aspose.cells/encoding/
 ---
 

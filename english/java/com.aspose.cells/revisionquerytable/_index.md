@@ -3,7 +3,6 @@ title: RevisionQueryTable
 second_title: Aspose.Cells for Java API Reference
 description: Represents a revision of a query table field change.
 type: docs
-weight: 476
 url: /java/com.aspose.cells/revisionquerytable/
 ---
 

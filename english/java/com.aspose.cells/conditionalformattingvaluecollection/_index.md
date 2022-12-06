@@ -3,7 +3,6 @@ title: ConditionalFormattingValueCollection
 second_title: Aspose.Cells for Java API Reference
 description: Describes a collection of CFValueObject.
 type: docs
-weight: 111
 url: /java/com.aspose.cells/conditionalformattingvaluecollection/
 ---
 

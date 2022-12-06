@@ -3,7 +3,6 @@ title: PageStartSavingArgs
 second_title: Aspose.Cells for Java API Reference
 description: Info for a page starts saving process.
 type: docs
-weight: 372
 url: /java/com.aspose.cells/pagestartsavingargs/
 ---
 

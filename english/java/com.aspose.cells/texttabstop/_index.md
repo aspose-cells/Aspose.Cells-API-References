@@ -3,7 +3,6 @@ title: TextTabStop
 second_title: Aspose.Cells for Java API Reference
 description: Represents tab stop.
 type: docs
-weight: 584
 url: /java/com.aspose.cells/texttabstop/
 ---
 

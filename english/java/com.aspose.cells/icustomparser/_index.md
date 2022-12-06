@@ -3,7 +3,6 @@ title: ICustomParser
 second_title: Aspose.Cells for Java API Reference
 description: Allows users to add their custom value parser for parsing string values to other proper cell value object.
 type: docs
-weight: 675
 url: /java/com.aspose.cells/icustomparser/
 ---
 ```

@@ -3,7 +3,6 @@ title: GridlineType
 second_title: Aspose.Cells for Java API Reference
 description: Enumerates grid line Type.
 type: docs
-weight: 250
 url: /java/com.aspose.cells/gridlinetype/
 ---
 

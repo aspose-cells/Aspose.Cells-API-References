@@ -3,7 +3,6 @@ title: AbstractInterruptMonitor
 second_title: Aspose.Cells for Java API Reference
 description: Monitor for interruption requests in all time-consuming operations.
 type: docs
-weight: 14
 url: /java/com.aspose.cells/abstractinterruptmonitor/
 ---
 

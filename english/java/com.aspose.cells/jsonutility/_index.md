@@ -3,7 +3,6 @@ title: JsonUtility
 second_title: Aspose.Cells for Java API Reference
 description: Represents the utility class of processing json.
 type: docs
-weight: 284
 url: /java/com.aspose.cells/jsonutility/
 ---
 
@@ -25,6 +24,7 @@ Represents the utility class of processing json.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [exportRangeToJson(Range range, ExportRangeToJsonOptions options)](#exportRangeToJson-com.aspose.cells.Range-com.aspose.cells.ExportRangeToJsonOptions-) | Exporting the range to json file. |
+| [exportRangeToJson(Range range, JsonSaveOptions options)](#exportRangeToJson-com.aspose.cells.Range-com.aspose.cells.JsonSaveOptions-) | Exporting the range to json file. |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [importData(String json, Cells cells, int row, int column, JsonLayoutOptions option)](#importData-java.lang.String-com.aspose.cells.Cells-int-int-com.aspose.cells.JsonLayoutOptions-) | Import the json string. |
@@ -68,6 +68,22 @@ Exporting the range to json file.
 | --- | --- | --- |
 | range | [Range](../../com.aspose.cells/range) | The range. |
 | options | [ExportRangeToJsonOptions](../../com.aspose.cells/exportrangetojsonoptions) | The options of exporting. |
+
+**Returns:**
+java.lang.String - The json string value.
+### exportRangeToJson(Range range, JsonSaveOptions options) {#exportRangeToJson-com.aspose.cells.Range-com.aspose.cells.JsonSaveOptions-}
+```
+public static String exportRangeToJson(Range range, JsonSaveOptions options)
+```
+
+
+Exporting the range to json file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| range | [Range](../../com.aspose.cells/range) | The range. |
+| options | [JsonSaveOptions](../../com.aspose.cells/jsonsaveoptions) | The options of exporting. |
 
 **Returns:**
 java.lang.String - The json string value.

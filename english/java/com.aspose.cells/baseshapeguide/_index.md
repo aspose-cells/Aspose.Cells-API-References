@@ -3,7 +3,6 @@ title: BaseShapeGuide
 second_title: Aspose.Cells for Java API Reference
 description: Represents the shape guide.
 type: docs
-weight: 36
 url: /java/com.aspose.cells/baseshapeguide/
 ---
 

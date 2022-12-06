@@ -3,7 +3,6 @@ title: ChartSplitType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the way the two sections of either a pie of pie chart or a bar of pie chart are split.
 type: docs
-weight: 82
 url: /java/com.aspose.cells/chartsplittype/
 ---
 

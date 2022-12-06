@@ -3,7 +3,6 @@ title: GradientStop
 second_title: Aspose.Cells for Java API Reference
 description: Represents the gradient stop.
 type: docs
-weight: 247
 url: /java/com.aspose.cells/gradientstop/
 ---
 

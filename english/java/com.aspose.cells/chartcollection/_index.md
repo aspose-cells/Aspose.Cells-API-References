@@ -3,7 +3,6 @@ title: ChartCollection
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates a collection of  objects.
 type: docs
-weight: 73
 url: /java/com.aspose.cells/chartcollection/
 ---
 

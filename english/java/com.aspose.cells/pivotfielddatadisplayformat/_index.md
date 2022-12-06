@@ -3,7 +3,6 @@ title: PivotFieldDataDisplayFormat
 second_title: Aspose.Cells for Java API Reference
 description: Represents data display format in the PivotTable data field.
 type: docs
-weight: 398
 url: /java/com.aspose.cells/pivotfielddatadisplayformat/
 ---
 

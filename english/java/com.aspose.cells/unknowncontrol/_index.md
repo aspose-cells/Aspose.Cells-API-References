@@ -3,7 +3,6 @@ title: UnknownControl
 second_title: Aspose.Cells for Java API Reference
 description: Unknow control.
 type: docs
-weight: 619
 url: /java/com.aspose.cells/unknowncontrol/
 ---
 

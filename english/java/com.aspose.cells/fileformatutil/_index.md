@@ -3,7 +3,6 @@ title: FileFormatUtil
 second_title: Aspose.Cells for Java API Reference
 description: Provides utility methods for converting file format enums to strings or file extensions and back.
 type: docs
-weight: 209
 url: /java/com.aspose.cells/fileformatutil/
 ---
 

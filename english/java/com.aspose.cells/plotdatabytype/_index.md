@@ -3,7 +3,6 @@ title: PlotDataByType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the type of data plot by row or column.
 type: docs
-weight: 419
 url: /java/com.aspose.cells/plotdatabytype/
 ---
 

@@ -3,7 +3,6 @@ title: ConnectionParameterType
 second_title: Aspose.Cells for Java API Reference
 description: Specifies the parameter type of external connection
 type: docs
-weight: 115
 url: /java/com.aspose.cells/connectionparametertype/
 ---
 

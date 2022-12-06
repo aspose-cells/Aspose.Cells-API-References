@@ -3,7 +3,6 @@ title: ImageOrPrintOptions
 second_title: Aspose.Cells for Java API Reference
 description: Allows to specify options when rendering worksheet to images printing worksheet or rendering chart to image.
 type: docs
-weight: 273
 url: /java/com.aspose.cells/imageorprintoptions/
 ---
 

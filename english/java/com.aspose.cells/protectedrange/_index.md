@@ -3,7 +3,6 @@ title: ProtectedRange
 second_title: Aspose.Cells for Java API Reference
 description: A specified range to be allowed to edit when the sheet protection is ON.
 type: docs
-weight: 440
 url: /java/com.aspose.cells/protectedrange/
 ---
 

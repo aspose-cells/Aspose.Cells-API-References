@@ -3,7 +3,6 @@ title: TimePeriodType
 second_title: Aspose.Cells for Java API Reference
 description: Used in a FormatConditionType.TimePeriod conditional formatting rule.
 type: docs
-weight: 602
 url: /java/com.aspose.cells/timeperiodtype/
 ---
 

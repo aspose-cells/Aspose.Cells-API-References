@@ -3,7 +3,6 @@ title: DynamicFilterType
 second_title: Aspose.Cells for Java API Reference
 description: Dynamic filter type.
 type: docs
-weight: 187
 url: /java/com.aspose.cells/dynamicfiltertype/
 ---
 

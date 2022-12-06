@@ -3,7 +3,6 @@ title: DefaultStyleSettings
 second_title: Aspose.Cells for Java API Reference
 description: Settings for the default values of workbooks style properties.
 type: docs
-weight: 167
 url: /java/com.aspose.cells/defaultstylesettings/
 ---
 

@@ -3,7 +3,6 @@ title: CalculationCell
 second_title: Aspose.Cells for Java API Reference
 description: Represents the calculation relevant data about one cell which is being calculated.
 type: docs
-weight: 51
 url: /java/com.aspose.cells/calculationcell/
 ---
 

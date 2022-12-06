@@ -3,7 +3,6 @@ title: PaneStateType
 second_title: Aspose.Cells for Java API Reference
 description: Represents state of the sheets pane.
 type: docs
-weight: 375
 url: /java/com.aspose.cells/panestatetype/
 ---
 

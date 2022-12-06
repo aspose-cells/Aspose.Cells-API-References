@@ -3,7 +3,6 @@ title: DateTimeGroupItem
 second_title: Aspose.Cells for Java API Reference
 description: Represents the datetimes group setting.
 type: docs
-weight: 164
 url: /java/com.aspose.cells/datetimegroupitem/
 ---
 

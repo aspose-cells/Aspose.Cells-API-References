@@ -3,7 +3,6 @@ title: Top10
 second_title: Aspose.Cells for Java API Reference
 description: Describe the Top10 conditional formatting rule.
 type: docs
-weight: 608
 url: /java/com.aspose.cells/top10/
 ---
 

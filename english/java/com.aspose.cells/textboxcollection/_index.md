@@ -3,7 +3,6 @@ title: TextBoxCollection
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates a collection of  objects.
 type: docs
-weight: 570
 url: /java/com.aspose.cells/textboxcollection/
 ---
 

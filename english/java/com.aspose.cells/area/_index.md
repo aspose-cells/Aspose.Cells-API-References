@@ -3,7 +3,6 @@ title: Area
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents an area format.
 type: docs
-weight: 21
 url: /java/com.aspose.cells/area/
 ---
 

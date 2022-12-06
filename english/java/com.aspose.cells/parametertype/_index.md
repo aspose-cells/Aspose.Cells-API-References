@@ -3,7 +3,6 @@ title: ParameterType
 second_title: Aspose.Cells for Java API Reference
 description: Represents all parameters type or return value type of function.
 type: docs
-weight: 377
 url: /java/com.aspose.cells/parametertype/
 ---
 

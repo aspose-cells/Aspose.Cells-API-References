@@ -3,7 +3,6 @@ title: ThreadedCommentCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents the list of threaded comments.
 type: docs
-weight: 594
 url: /java/com.aspose.cells/threadedcommentcollection/
 ---
 

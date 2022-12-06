@@ -3,7 +3,6 @@ title: ChartDataTable
 second_title: Aspose.Cells for Java API Reference
 description: Represents a chart data table.
 type: docs
-weight: 74
 url: /java/com.aspose.cells/chartdatatable/
 ---
 

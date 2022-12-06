@@ -3,7 +3,6 @@ title: WorkbookRender
 second_title: Aspose.Cells for Java API Reference
 description: Represents a Workbook render.
 type: docs
-weight: 658
 url: /java/com.aspose.cells/workbookrender/
 ---
 

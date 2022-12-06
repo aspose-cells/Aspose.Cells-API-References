@@ -3,7 +3,6 @@ title: CalculationPrecisionStrategy
 second_title: Aspose.Cells for Java API Reference
 description: Enumerates strategies for handling calculation precision.
 type: docs
-weight: 54
 url: /java/com.aspose.cells/calculationprecisionstrategy/
 ---
 

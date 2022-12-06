@@ -3,7 +3,6 @@ title: CheckBoxCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents a collection of  objects in a worksheet.
 type: docs
-weight: 88
 url: /java/com.aspose.cells/checkboxcollection/
 ---
 

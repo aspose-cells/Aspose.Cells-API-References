@@ -3,7 +3,6 @@ title: MetadataOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the options of loading metadata of the file.
 type: docs
-weight: 322
 url: /java/com.aspose.cells/metadataoptions/
 ---
 

@@ -3,7 +3,6 @@ title: TextAutonumberScheme
 second_title: Aspose.Cells for Java API Reference
 description: Represents all automatic number scheme.
 type: docs
-weight: 567
 url: /java/com.aspose.cells/textautonumberscheme/
 ---
 

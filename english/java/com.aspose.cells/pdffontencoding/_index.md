@@ -3,7 +3,6 @@ title: PdfFontEncoding
 second_title: Aspose.Cells for Java API Reference
 description: Represents pdf embedded font encoding.
 type: docs
-weight: 386
 url: /java/com.aspose.cells/pdffontencoding/
 ---
 

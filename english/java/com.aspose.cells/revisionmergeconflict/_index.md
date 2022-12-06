@@ -3,7 +3,6 @@ title: RevisionMergeConflict
 second_title: Aspose.Cells for Java API Reference
 description: Represents a revision record which indicates that there was a merge conflict.
 type: docs
-weight: 475
 url: /java/com.aspose.cells/revisionmergeconflict/
 ---
 

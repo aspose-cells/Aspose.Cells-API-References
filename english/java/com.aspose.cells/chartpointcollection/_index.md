@@ -3,7 +3,6 @@ title: ChartPointCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents a collection that contains all the points in one series.
 type: docs
-weight: 80
 url: /java/com.aspose.cells/chartpointcollection/
 ---
 

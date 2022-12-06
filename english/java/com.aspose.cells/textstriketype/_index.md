@@ -3,7 +3,6 @@ title: TextStrikeType
 second_title: Aspose.Cells for Java API Reference
 description: This type specifies the strike type.
 type: docs
-weight: 582
 url: /java/com.aspose.cells/textstriketype/
 ---
 

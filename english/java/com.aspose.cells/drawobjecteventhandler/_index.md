@@ -3,7 +3,6 @@ title: DrawObjectEventHandler
 second_title: Aspose.Cells for Java API Reference
 description: Interface to get DrawObject and Bound when rendering.
 type: docs
-weight: 182
 url: /java/com.aspose.cells/drawobjecteventhandler/
 ---
 

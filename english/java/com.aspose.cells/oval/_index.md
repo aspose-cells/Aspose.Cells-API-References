@@ -3,7 +3,6 @@ title: Oval
 second_title: Aspose.Cells for Java API Reference
 description: Represents the oval shape.
 type: docs
-weight: 366
 url: /java/com.aspose.cells/oval/
 ---
 

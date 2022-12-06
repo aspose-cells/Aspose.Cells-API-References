@@ -3,7 +3,6 @@ title: TextBoxActiveXControl
 second_title: Aspose.Cells for Java API Reference
 description: Represents a text box ActiveX control.
 type: docs
-weight: 569
 url: /java/com.aspose.cells/textboxactivexcontrol/
 ---
 

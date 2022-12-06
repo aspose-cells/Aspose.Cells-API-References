@@ -3,7 +3,6 @@ title: WorkbookDesigner
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents a designer spreadsheet.
 type: docs
-weight: 655
 url: /java/com.aspose.cells/workbookdesigner/
 ---
 

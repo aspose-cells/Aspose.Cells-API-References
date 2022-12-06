@@ -3,7 +3,6 @@ title: SortOnType
 second_title: Aspose.Cells for Java API Reference
 description: Sorted value type.
 type: docs
-weight: 534
 url: /java/com.aspose.cells/sortontype/
 ---
 

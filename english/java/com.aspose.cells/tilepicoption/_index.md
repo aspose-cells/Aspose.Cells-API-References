@@ -3,7 +3,6 @@ title: TilePicOption
 second_title: Aspose.Cells for Java API Reference
 description: Represents tile picture as texture.
 type: docs
-weight: 601
 url: /java/com.aspose.cells/tilepicoption/
 ---
 

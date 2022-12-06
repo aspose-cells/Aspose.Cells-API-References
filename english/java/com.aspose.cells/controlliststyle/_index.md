@@ -3,7 +3,6 @@ title: ControlListStyle
 second_title: Aspose.Cells for Java API Reference
 description: Represents the visual appearance of the list in a ListBox or ComboBox.
 type: docs
-weight: 122
 url: /java/com.aspose.cells/controlliststyle/
 ---
 

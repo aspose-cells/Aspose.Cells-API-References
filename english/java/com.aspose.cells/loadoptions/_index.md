@@ -3,7 +3,6 @@ title: LoadOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the options of loading the file.
 type: docs
-weight: 312
 url: /java/com.aspose.cells/loadoptions/
 ---
 

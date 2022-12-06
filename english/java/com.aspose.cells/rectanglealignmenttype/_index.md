@@ -3,7 +3,6 @@ title: RectangleAlignmentType
 second_title: Aspose.Cells for Java API Reference
 description: Represents how to position two rectangles relative to each other.
 type: docs
-weight: 452
 url: /java/com.aspose.cells/rectanglealignmenttype/
 ---
 

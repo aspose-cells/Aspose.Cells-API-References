@@ -3,7 +3,6 @@ title: DefaultEditLanguage
 second_title: Aspose.Cells for Java API Reference
 description: Represents the default edit language.
 type: docs
-weight: 166
 url: /java/com.aspose.cells/defaulteditlanguage/
 ---
 

@@ -3,7 +3,6 @@ title: ShapePathCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents path collection information in NotPrimitive autoshape
 type: docs
-weight: 502
 url: /java/com.aspose.cells/shapepathcollection/
 ---
 

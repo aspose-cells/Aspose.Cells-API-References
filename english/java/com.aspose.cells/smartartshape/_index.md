@@ -3,7 +3,6 @@ title: SmartArtShape
 second_title: Aspose.Cells for Java API Reference
 description: Represents the smart art.
 type: docs
-weight: 525
 url: /java/com.aspose.cells/smartartshape/
 ---
 

@@ -3,7 +3,6 @@ title: CellArea
 second_title: Aspose.Cells for Java API Reference
 description: Represent an area of cells.
 type: docs
-weight: 57
 url: /java/com.aspose.cells/cellarea/
 ---
 

@@ -3,7 +3,6 @@ title: GradientStyleType
 second_title: Aspose.Cells for Java API Reference
 description: Represents gradient shading style.
 type: docs
-weight: 249
 url: /java/com.aspose.cells/gradientstyletype/
 ---
 

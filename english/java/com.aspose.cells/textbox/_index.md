@@ -3,7 +3,6 @@ title: TextBox
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents a textbox in a spreadsheet.
 type: docs
-weight: 568
 url: /java/com.aspose.cells/textbox/
 ---
 

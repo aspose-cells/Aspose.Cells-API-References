@@ -3,7 +3,6 @@ title: OoxmlCompliance
 second_title: Aspose.Cells for Java API Reference
 description: Allows to specify which OOXML specification will be used when saving in the Xlsx format.
 type: docs
-weight: 361
 url: /java/com.aspose.cells/ooxmlcompliance/
 ---
 

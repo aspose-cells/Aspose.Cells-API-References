@@ -3,7 +3,6 @@ title: LegendEntryCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents a collection of all the  objects in the specified chart legend.
 type: docs
-weight: 290
 url: /java/com.aspose.cells/legendentrycollection/
 ---
 

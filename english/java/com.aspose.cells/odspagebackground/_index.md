@@ -3,7 +3,6 @@ title: OdsPageBackground
 second_title: Aspose.Cells for Java API Reference
 description: Represents the page background of ods.
 type: docs
-weight: 354
 url: /java/com.aspose.cells/odspagebackground/
 ---
 

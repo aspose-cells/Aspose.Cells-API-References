@@ -3,7 +3,6 @@ title: PdfBookmarkEntry
 second_title: Aspose.Cells for Java API Reference
 description: PdfBookmarkEntry is an entry in pdf bookmark.
 type: docs
-weight: 382
 url: /java/com.aspose.cells/pdfbookmarkentry/
 ---
 

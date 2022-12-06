@@ -3,7 +3,6 @@ title: WebExtensionShape
 second_title: Aspose.Cells for Java API Reference
 description: Represents the shape of web extension.
 type: docs
-weight: 648
 url: /java/com.aspose.cells/webextensionshape/
 ---
 

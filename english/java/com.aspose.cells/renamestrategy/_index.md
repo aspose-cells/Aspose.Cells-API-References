@@ -3,7 +3,6 @@ title: RenameStrategy
 second_title: Aspose.Cells for Java API Reference
 description: Strategy option for duplicate names of columns.
 type: docs
-weight: 458
 url: /java/com.aspose.cells/renamestrategy/
 ---
 

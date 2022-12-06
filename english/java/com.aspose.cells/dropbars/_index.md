@@ -3,7 +3,6 @@ title: DropBars
 second_title: Aspose.Cells for Java API Reference
 description: Represents the up/down bars in a chart.
 type: docs
-weight: 183
 url: /java/com.aspose.cells/dropbars/
 ---
 

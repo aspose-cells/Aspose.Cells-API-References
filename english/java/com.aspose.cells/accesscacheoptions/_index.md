@@ -3,7 +3,6 @@ title: AccessCacheOptions
 second_title: Aspose.Cells for Java API Reference
 description: Cache options for data access.
 type: docs
-weight: 16
 url: /java/com.aspose.cells/accesscacheoptions/
 ---
 

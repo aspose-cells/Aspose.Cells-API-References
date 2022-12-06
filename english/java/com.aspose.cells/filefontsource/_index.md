@@ -3,7 +3,6 @@ title: FileFontSource
 second_title: Aspose.Cells for Java API Reference
 description: Represents the single TrueType font file stored in the file system.
 type: docs
-weight: 206
 url: /java/com.aspose.cells/filefontsource/
 ---
 

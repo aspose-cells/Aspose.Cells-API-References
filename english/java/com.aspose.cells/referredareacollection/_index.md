@@ -3,7 +3,6 @@ title: ReferredAreaCollection
 second_title: Aspose.Cells for Java API Reference
 description: Represents all referred cells and areas.
 type: docs
-weight: 455
 url: /java/com.aspose.cells/referredareacollection/
 ---
 

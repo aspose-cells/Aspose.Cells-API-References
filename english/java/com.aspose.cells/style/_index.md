@@ -3,7 +3,6 @@ title: Style
 second_title: Aspose.Cells for Java API Reference
 description: Represents display style of excel documentsuch as fontcoloralignmentborderetc.
 type: docs
-weight: 551
 url: /java/com.aspose.cells/style/
 ---
 

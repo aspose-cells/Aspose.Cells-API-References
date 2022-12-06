@@ -3,7 +3,6 @@ title: ExternalConnectionCollection
 second_title: Aspose.Cells for Java API Reference
 description: Specifies the  collection
 type: docs
-weight: 202
 url: /java/com.aspose.cells/externalconnectioncollection/
 ---
 

@@ -3,7 +3,6 @@ title: DataBarFillType
 second_title: Aspose.Cells for Java API Reference
 description: Specifies how a data bar is filled with color.
 type: docs
-weight: 152
 url: /java/com.aspose.cells/databarfilltype/
 ---
 

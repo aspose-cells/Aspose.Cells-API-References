@@ -3,7 +3,6 @@ title: RadioButtonActiveXControl
 second_title: Aspose.Cells for Java API Reference
 description: Represents a RadioButton ActiveX control.
 type: docs
-weight: 448
 url: /java/com.aspose.cells/radiobuttonactivexcontrol/
 ---
 

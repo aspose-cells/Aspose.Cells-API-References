@@ -3,7 +3,6 @@ title: CrossType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the axis cross type.
 type: docs
-weight: 136
 url: /java/com.aspose.cells/crosstype/
 ---
 

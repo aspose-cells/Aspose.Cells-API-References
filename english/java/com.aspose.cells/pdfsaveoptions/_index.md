@@ -3,7 +3,6 @@ title: PdfSaveOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the options for saving pdf file.
 type: docs
-weight: 388
 url: /java/com.aspose.cells/pdfsaveoptions/
 ---
 

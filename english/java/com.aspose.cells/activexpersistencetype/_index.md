@@ -3,7 +3,6 @@ title: ActiveXPersistenceType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the persistence method to persist an ActiveX control.
 type: docs
-weight: 19
 url: /java/com.aspose.cells/activexpersistencetype/
 ---
 

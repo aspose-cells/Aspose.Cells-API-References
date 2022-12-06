@@ -3,7 +3,6 @@ title: TickLabelPositionType
 second_title: Aspose.Cells for Java API Reference
 description: Represents the position type of tick-mark labels on the specified axis.
 type: docs
-weight: 597
 url: /java/com.aspose.cells/ticklabelpositiontype/
 ---
 

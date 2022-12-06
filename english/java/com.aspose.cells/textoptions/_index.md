@@ -3,7 +3,6 @@ title: TextOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the text options.
 type: docs
-weight: 577
 url: /java/com.aspose.cells/textoptions/
 ---
 

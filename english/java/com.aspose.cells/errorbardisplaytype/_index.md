@@ -3,7 +3,6 @@ title: ErrorBarDisplayType
 second_title: Aspose.Cells for Java API Reference
 description: Represents error bar display type.
 type: docs
-weight: 192
 url: /java/com.aspose.cells/errorbardisplaytype/
 ---
 

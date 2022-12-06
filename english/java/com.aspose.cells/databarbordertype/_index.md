@@ -3,7 +3,6 @@ title: DataBarBorderType
 second_title: Aspose.Cells for Java API Reference
 description: Specifies the border type of a data bar.
 type: docs
-weight: 151
 url: /java/com.aspose.cells/databarbordertype/
 ---
 

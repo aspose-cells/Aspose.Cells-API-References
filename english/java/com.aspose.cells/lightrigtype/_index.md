@@ -3,7 +3,6 @@ title: LightRigType
 second_title: Aspose.Cells for Java API Reference
 description: Represents a preset light right that can be applied to a shape
 type: docs
-weight: 294
 url: /java/com.aspose.cells/lightrigtype/
 ---
 

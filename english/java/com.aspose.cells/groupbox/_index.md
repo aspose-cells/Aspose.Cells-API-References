@@ -3,7 +3,6 @@ title: GroupBox
 second_title: Aspose.Cells for Java API Reference
 description: Encapsulates the object that represents a groupbox in a spreadsheet.
 type: docs
-weight: 251
 url: /java/com.aspose.cells/groupbox/
 ---
 

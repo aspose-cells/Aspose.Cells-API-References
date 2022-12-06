@@ -3,7 +3,6 @@ title: PresetShadowType
 second_title: Aspose.Cells for Java API Reference
 description: Represents preset shadow type.
 type: docs
-weight: 431
 url: /java/com.aspose.cells/presetshadowtype/
 ---
 

@@ -3,7 +3,6 @@ title: WebExtensionBinding
 second_title: Aspose.Cells for Java API Reference
 description: Represents a binding relationship between an Office Add-in and the data in the document.
 type: docs
-weight: 641
 url: /java/com.aspose.cells/webextensionbinding/
 ---
 

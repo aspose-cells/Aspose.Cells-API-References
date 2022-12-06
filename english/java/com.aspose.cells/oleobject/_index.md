@@ -3,7 +3,6 @@ title: OleObject
 second_title: Aspose.Cells for Java API Reference
 description: Represents an OleObject in a worksheet.
 type: docs
-weight: 359
 url: /java/com.aspose.cells/oleobject/
 ---
 

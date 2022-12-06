@@ -3,7 +3,6 @@ title: PasteOptions
 second_title: Aspose.Cells for Java API Reference
 description: Represents the paste special options.
 type: docs
-weight: 379
 url: /java/com.aspose.cells/pasteoptions/
 ---
 

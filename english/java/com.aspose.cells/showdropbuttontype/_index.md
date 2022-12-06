@@ -3,7 +3,6 @@ title: ShowDropButtonType
 second_title: Aspose.Cells for Java API Reference
 description: Specifies when to show the drop button
 type: docs
-weight: 515
 url: /java/com.aspose.cells/showdropbuttontype/
 ---
 
