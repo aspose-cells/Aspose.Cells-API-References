@@ -3,7 +3,6 @@ title: Destination
 second_title: Aspose.Cells for .NET API Reference
 description: The cell to which the bookmark link.
 type: docs
-weight: 20
 url: /net/aspose.cells.rendering/pdfbookmarkentry/destination/
 ---
 ## PdfBookmarkEntry.Destination property

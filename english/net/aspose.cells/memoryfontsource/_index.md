@@ -3,7 +3,6 @@ title: MemoryFontSource
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the single TrueType font file stored in memory.
 type: docs
-weight: 4180
 url: /net/aspose.cells/memoryfontsource/
 ---
 ## MemoryFontSource class

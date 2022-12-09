@@ -3,7 +3,6 @@ title: ACWLanguageFileUrl
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the web url of the language file of the control. For example /acw_client/lang_en.js. By default a builtin english file is used.
 type: docs
-weight: 110
 url: /net/aspose.cells.gridweb/mainweb/acwlanguagefileurl/
 ---
 ## MainWeb.ACWLanguageFileUrl property

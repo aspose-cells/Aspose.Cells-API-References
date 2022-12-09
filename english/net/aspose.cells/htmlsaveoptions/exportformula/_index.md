@@ -3,7 +3,6 @@ title: ExportFormula
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether exporting formula when saving file to html. The default value is true. If you want to import the output html to excel please keep the default value.
 type: docs
-weight: 180
 url: /net/aspose.cells/htmlsaveoptions/exportformula/
 ---
 ## HtmlSaveOptions.ExportFormula property

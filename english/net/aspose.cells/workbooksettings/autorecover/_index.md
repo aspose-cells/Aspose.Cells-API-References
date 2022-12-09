@@ -3,7 +3,6 @@ title: AutoRecover
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the file is mark for autorecovery.
 type: docs
-weight: 30
 url: /net/aspose.cells/workbooksettings/autorecover/
 ---
 ## WorkbookSettings.AutoRecover property

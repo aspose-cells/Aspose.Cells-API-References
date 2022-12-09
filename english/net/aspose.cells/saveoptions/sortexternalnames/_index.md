@@ -3,7 +3,6 @@ title: SortExternalNames
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether sorting external defined names before saving file.
 type: docs
-weight: 70
 url: /net/aspose.cells/saveoptions/sortexternalnames/
 ---
 ## SaveOptions.SortExternalNames property

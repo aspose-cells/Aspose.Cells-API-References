@@ -3,7 +3,6 @@ title: AddTextEffect
 second_title: Aspose.Cells for .NET API Reference
 description: Inserts a WordArt object.
 type: docs
-weight: 330
 url: /net/aspose.cells.drawing/shapecollection/addtexteffect/
 ---
 ## ShapeCollection.AddTextEffect method

@@ -3,7 +3,6 @@ title: GlowEffect
 second_title: Aspose.Cells for .NET API Reference
 description: This class specifies a glow effect in which a color blurred outline is added outside the edges of the object.
 type: docs
-weight: 2050
 url: /net/aspose.cells.drawing/gloweffect/
 ---
 ## GlowEffect class

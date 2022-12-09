@@ -3,7 +3,6 @@ title: SmartArtShape
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the smart art.
 type: docs
-weight: 2810
 url: /net/aspose.cells.drawing/smartartshape/
 ---
 ## SmartArtShape class

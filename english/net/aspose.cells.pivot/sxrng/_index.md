@@ -3,7 +3,6 @@ title: SxRng
 second_title: Aspose.Cells for .NET API Reference
 description: Represents Group Range in a PivotField.
 type: docs
-weight: 4810
 url: /net/aspose.cells.pivot/sxrng/
 ---
 ## SxRng class

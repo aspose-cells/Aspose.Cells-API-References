@@ -3,7 +3,6 @@ title: ServerValidation
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the serverside validation javascript function name.
 type: docs
-weight: 180
 url: /net/aspose.cells.gridweb.data/gridvalidation/servervalidation/
 ---
 ## GridValidation.ServerValidation field

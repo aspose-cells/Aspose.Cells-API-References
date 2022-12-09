@@ -3,7 +3,6 @@ title: RelativeToOriginalPictureSize
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether shape is relative to original picture size.
 type: docs
-weight: 410
 url: /net/aspose.cells.griddesktop.data/gridpicture/relativetooriginalpicturesize/
 ---
 ## GridPicture.RelativeToOriginalPictureSize property

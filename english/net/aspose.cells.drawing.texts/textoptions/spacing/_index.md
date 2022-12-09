@@ -3,7 +3,6 @@ title: Spacing
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the spacing between characters within a text run.
 type: docs
-weight: 90
 url: /net/aspose.cells.drawing.texts/textoptions/spacing/
 ---
 ## TextOptions.Spacing property

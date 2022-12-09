@@ -3,7 +3,6 @@ title: Template
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the informational name of the document template.
 type: docs
-weight: 310
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/template/
 ---
 ## BuiltInDocumentPropertyCollection.Template property

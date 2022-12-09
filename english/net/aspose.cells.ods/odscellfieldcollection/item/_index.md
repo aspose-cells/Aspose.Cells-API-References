@@ -3,7 +3,6 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the field by the index.
 type: docs
-weight: 10
 url: /net/aspose.cells.ods/odscellfieldcollection/item/
 ---
 ## OdsCellFieldCollection indexer (1 of 2)

@@ -3,7 +3,6 @@ title: SaveFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the output file format type Support Tiff/XPS
 type: docs
-weight: 280
 url: /net/aspose.cells.rendering/imageorprintoptions/saveformat/
 ---
 ## ImageOrPrintOptions.SaveFormat property

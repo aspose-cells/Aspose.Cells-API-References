@@ -3,7 +3,6 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the page background type.
 type: docs
-weight: 80
 url: /net/aspose.cells.ods/odspagebackground/type/
 ---
 ## OdsPageBackground.Type property

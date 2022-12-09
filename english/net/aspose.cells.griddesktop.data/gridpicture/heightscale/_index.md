@@ -3,7 +3,6 @@ title: HeightScale
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the height scalein unit of percent of the original picture height. If the shape is not picture the HeightScale property only returns 100
 type: docs
-weight: 130
 url: /net/aspose.cells.griddesktop.data/gridpicture/heightscale/
 ---
 ## GridPicture.HeightScale property

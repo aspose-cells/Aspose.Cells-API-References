@@ -3,7 +3,6 @@ title: NewLength
 second_title: Aspose.Cells for .NET API Reference
 description: Gets Length of the comment before this revision was made.
 type: docs
-weight: 50
 url: /net/aspose.cells.revisions/revisioncellcomment/newlength/
 ---
 ## RevisionCellComment.NewLength property

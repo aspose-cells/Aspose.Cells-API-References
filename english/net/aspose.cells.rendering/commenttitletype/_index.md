@@ -3,7 +3,6 @@ title: CommentTitleType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents comment title type while rendering when comment is set to display at end of sheet.
 type: docs
-weight: 5170
 url: /net/aspose.cells.rendering/commenttitletype/
 ---
 ## CommentTitleType enumeration

@@ -3,7 +3,6 @@ title: SelectedIndex
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the index number of the currently selected item in a list box or combo box. Zerobased.
 type: docs
-weight: 40
 url: /net/aspose.cells.drawing/listbox/selectedindex/
 ---
 ## ListBox.SelectedIndex property

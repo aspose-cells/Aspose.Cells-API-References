@@ -3,7 +3,6 @@ title: AddWebVideoPlayer
 second_title: Aspose.Cells for .NET API Reference
 description: Add a web video player into exel.
 type: docs
-weight: 30
 url: /net/aspose.cells.webextensions/webextensioncollection/addwebvideoplayer/
 ---
 ## WebExtensionCollection.AddWebVideoPlayer method

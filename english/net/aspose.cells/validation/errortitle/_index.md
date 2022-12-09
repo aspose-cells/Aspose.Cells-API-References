@@ -3,7 +3,6 @@ title: ErrorTitle
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the title of the datavalidation error dialog box.
 type: docs
-weight: 40
 url: /net/aspose.cells/validation/errortitle/
 ---
 ## Validation.ErrorTitle property

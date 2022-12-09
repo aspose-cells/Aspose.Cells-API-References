@@ -3,7 +3,6 @@ title: IsBold
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether the font is bold.
 type: docs
-weight: 60
 url: /net/aspose.cells/font/isbold/
 ---
 ## Font.IsBold property

@@ -3,7 +3,6 @@ title: ImportDataView
 second_title: Aspose.Cells for .NET API Reference
 description: Imports a DataView into a worksheet.
 type: docs
-weight: 1070
 url: /net/aspose.cells/cells/importdataview/
 ---
 ## ImportDataView(DataView, int, int) {#importdataview_3}

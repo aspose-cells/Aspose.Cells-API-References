@@ -3,7 +3,6 @@ title: FontBold
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether font is bold.
 type: docs
-weight: 10
 url: /net/aspose.cells.drawing/texteffectformat/fontbold/
 ---
 ## TextEffectFormat.FontBold property

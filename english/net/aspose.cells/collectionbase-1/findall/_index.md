@@ -3,7 +3,6 @@ title: FindAll
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 100
 url: /net/aspose.cells/collectionbase-1/findall/
 ---
 ## CollectionBase&lt;T&gt;.FindAll method

@@ -3,7 +3,6 @@ title: SearchNext
 second_title: Aspose.Cells for .NET API Reference
 description: Search order. True search next. False search previous.
 type: docs
-weight: 110
 url: /net/aspose.cells/findoptions/searchnext/
 ---
 ## FindOptions.SearchNext property

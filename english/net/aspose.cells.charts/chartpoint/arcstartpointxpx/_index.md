@@ -3,7 +3,6 @@ title: ArcStartPointXPx
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the x coordinate of starting point for the pie section after calls Chart.Calculate method. Applies to Pie and Doughnut chart.
 type: docs
-weight: 30
 url: /net/aspose.cells.charts/chartpoint/arcstartpointxpx/
 ---
 ## ChartPoint.ArcStartPointXPx property

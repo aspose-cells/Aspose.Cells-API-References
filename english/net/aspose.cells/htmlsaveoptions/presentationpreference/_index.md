@@ -3,7 +3,6 @@ title: PresentationPreference
 second_title: Aspose.Cells for .NET API Reference
 description: Indicating if html or mht file is presentation preference. The default value is false. if you want to get more beautiful presentationplease set the value to true.
 type: docs
-weight: 480
 url: /net/aspose.cells/htmlsaveoptions/presentationpreference/
 ---
 ## HtmlSaveOptions.PresentationPreference property

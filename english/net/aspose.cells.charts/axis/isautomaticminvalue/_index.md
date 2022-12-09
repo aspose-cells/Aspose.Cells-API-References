@@ -3,7 +3,6 @@ title: IsAutomaticMinValue
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the min value is automatically assigned.
 type: docs
-weight: 170
 url: /net/aspose.cells.charts/axis/isautomaticminvalue/
 ---
 ## Axis.IsAutomaticMinValue property

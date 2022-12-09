@@ -3,7 +3,6 @@ title: GetAxisTitleName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the name of Title for Axis.
 type: docs
-weight: 20
 url: /net/aspose.cells.charts/chartglobalizationsettings/getaxistitlename/
 ---
 ## ChartGlobalizationSettings.GetAxisTitleName method

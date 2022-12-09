@@ -3,7 +3,6 @@ title: GroupBox
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the GroupBox that contains this RadioButton.
 type: docs
-weight: 10
 url: /net/aspose.cells.drawing/radiobutton/groupbox/
 ---
 ## RadioButton.GroupBox property

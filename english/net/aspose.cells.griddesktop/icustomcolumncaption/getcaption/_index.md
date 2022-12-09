@@ -3,7 +3,6 @@ title: GetCaption
 second_title: Aspose.Cells for .NET API Reference
 description: get the custom column caption.
 type: docs
-weight: 10
 url: /net/aspose.cells.griddesktop/icustomcolumncaption/getcaption/
 ---
 ## ICustomColumnCaption.GetCaption method

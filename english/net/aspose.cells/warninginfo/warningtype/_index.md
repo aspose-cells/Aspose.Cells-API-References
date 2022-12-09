@@ -3,7 +3,6 @@ title: WarningType
 second_title: Aspose.Cells for .NET API Reference
 description: Get warning type.
 type: docs
-weight: 40
 url: /net/aspose.cells/warninginfo/warningtype/
 ---
 ## WarningInfo.WarningType property

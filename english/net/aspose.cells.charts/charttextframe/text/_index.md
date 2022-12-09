@@ -3,7 +3,6 @@ title: Text
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the text of a frames title.
 type: docs
-weight: 90
 url: /net/aspose.cells.charts/charttextframe/text/
 ---
 ## ChartTextFrame.Text property

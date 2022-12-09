@@ -3,7 +3,6 @@ title: Insert
 second_title: Aspose.Cells for .NET API Reference
 description: Inserts an bind column object.
 type: docs
-weight: 130
 url: /net/aspose.cells.gridweb/bindcolumncollection/insert/
 ---
 ## BindColumnCollection.Insert method

@@ -3,7 +3,6 @@ title: LoadHTMLFile
 second_title: Aspose.Cells for .NET API Reference
 description: Loads data from a HTML file.
 type: docs
-weight: 250
 url: /net/aspose.cells.gridweb.data/webworksheets/loadhtmlfile/
 ---
 ## LoadHTMLFile(string) {#loadhtmlfile_1}

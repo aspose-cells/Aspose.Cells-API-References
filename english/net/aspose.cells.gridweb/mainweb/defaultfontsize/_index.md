@@ -3,7 +3,6 @@ title: DefaultFontSize
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the controls default font size.
 type: docs
-weight: 190
 url: /net/aspose.cells.gridweb/mainweb/defaultfontsize/
 ---
 ## MainWeb.DefaultFontSize property

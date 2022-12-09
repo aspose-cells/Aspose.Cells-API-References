@@ -3,7 +3,6 @@ title: Picture
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents a single picture in a spreadsheet.
 type: docs
-weight: 2490
 url: /net/aspose.cells.drawing/picture/
 ---
 ## Picture class

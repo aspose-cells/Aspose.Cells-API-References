@@ -3,7 +3,6 @@ title: StartSheet
 second_title: Aspose.Cells for .NET API Reference
 description: Prepares filter options before loading given worksheet. Users implementation of LoadFilter can change the LoadDataFilterOptions here to denote how to load data for this worksheet.
 type: docs
-weight: 40
 url: /net/aspose.cells/loadfilter/startsheet/
 ---
 ## LoadFilter.StartSheet method

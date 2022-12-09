@@ -3,7 +3,6 @@ title: DrawObjectEventHandler
 second_title: Aspose.Cells for .NET API Reference
 description: Implements this interface to get DrawObject and Bound when rendering.
 type: docs
-weight: 60
 url: /net/aspose.cells/paginatedsaveoptions/drawobjecteventhandler/
 ---
 ## PaginatedSaveOptions.DrawObjectEventHandler property

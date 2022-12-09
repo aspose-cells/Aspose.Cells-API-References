@@ -3,7 +3,6 @@ title: CompareTo
 second_title: Aspose.Cells for .NET API Reference
 description: Compare two CellArea objects according to their topleft corner.
 type: docs
-weight: 60
 url: /net/aspose.cells/cellarea/compareto/
 ---
 ## CellArea.CompareTo method

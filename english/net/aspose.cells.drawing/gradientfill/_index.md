@@ -3,7 +3,6 @@ title: GradientFill
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the gradient fill.
 type: docs
-weight: 2080
 url: /net/aspose.cells.drawing/gradientfill/
 ---
 ## GradientFill class

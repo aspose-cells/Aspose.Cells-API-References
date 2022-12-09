@@ -3,7 +3,6 @@ title: VbaProject
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the VBA project.
 type: docs
-weight: 6360
 url: /net/aspose.cells.vba/vbaproject/
 ---
 ## VbaProject class

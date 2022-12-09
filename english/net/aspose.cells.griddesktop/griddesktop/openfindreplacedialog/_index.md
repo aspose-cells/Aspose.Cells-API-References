@@ -3,7 +3,6 @@ title: OpenFindReplaceDialog
 second_title: Aspose.Cells for .NET API Reference
 description: Opens the FindReplace dialog to find or replace cells.
 type: docs
-weight: 740
 url: /net/aspose.cells.griddesktop/griddesktop/openfindreplacedialog/
 ---
 ## GridDesktop.OpenFindReplaceDialog method

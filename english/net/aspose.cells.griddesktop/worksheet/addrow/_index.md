@@ -3,7 +3,6 @@ title: AddRow
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a new row.
 type: docs
-weight: 460
 url: /net/aspose.cells.griddesktop/worksheet/addrow/
 ---
 ## Worksheet.AddRow method

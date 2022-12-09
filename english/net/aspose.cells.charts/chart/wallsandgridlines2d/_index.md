@@ -3,7 +3,6 @@ title: WallsAndGridlines2D
 second_title: Aspose.Cells for .NET API Reference
 description: True if gridlines are drawn twodimensionally on a 3D chart.
 type: docs
-weight: 490
 url: /net/aspose.cells.charts/chart/wallsandgridlines2d/
 ---
 ## Chart.WallsAndGridlines2D property

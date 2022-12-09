@@ -3,7 +3,6 @@ title: GetOtherName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the name of Other labels for Chart.
 type: docs
-weight: 80
 url: /net/aspose.cells.charts/chartglobalizationsettings/getothername/
 ---
 ## ChartGlobalizationSettings.GetOtherName method

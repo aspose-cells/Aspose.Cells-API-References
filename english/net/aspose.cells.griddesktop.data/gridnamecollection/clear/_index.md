@@ -3,7 +3,6 @@ title: Clear
 second_title: Aspose.Cells for .NET API Reference
 description: Removes all Names
 type: docs
-weight: 40
 url: /net/aspose.cells.griddesktop.data/gridnamecollection/clear/
 ---
 ## GridNameCollection.Clear method

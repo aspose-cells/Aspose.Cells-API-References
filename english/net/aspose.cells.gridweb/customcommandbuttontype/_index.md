@@ -3,7 +3,6 @@ title: CustomCommandButtonType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the type of a custom command.
 type: docs
-weight: 70
 url: /net/aspose.cells.gridweb/customcommandbuttontype/
 ---
 ## CustomCommandButtonType enumeration

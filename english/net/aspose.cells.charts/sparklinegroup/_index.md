@@ -3,7 +3,6 @@ title: SparklineGroup
 second_title: Aspose.Cells for .NET API Reference
 description: Sparkline./sparkline is organized into sparkline group. A SparklineGroup contains a variable number of sparkline items. A sparkline group specifies the type display settings and axis settings for the sparklines.
 type: docs
-weight: 890
 url: /net/aspose.cells.charts/sparklinegroup/
 ---
 ## SparklineGroup class

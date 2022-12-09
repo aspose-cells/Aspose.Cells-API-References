@@ -3,7 +3,6 @@ title: FileFormatInfo
 second_title: Aspose.Cells for .NET API Reference
 description: Contains data returned by FileFormatUtil./fileformatutil file format detection methods.
 type: docs
-weight: 3440
 url: /net/aspose.cells/fileformatinfo/
 ---
 ## FileFormatInfo class

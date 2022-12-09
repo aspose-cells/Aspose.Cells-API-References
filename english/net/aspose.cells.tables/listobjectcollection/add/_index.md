@@ -3,7 +3,6 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a ListObject to the worksheet.
 type: docs
-weight: 20
 url: /net/aspose.cells.tables/listobjectcollection/add/
 ---
 ## Add(int, int, int, int, bool) {#add}

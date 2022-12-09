@@ -3,7 +3,6 @@ title: IsProtectedWithPassword
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the worksheets is protected with password.
 type: docs
-weight: 20
 url: /net/aspose.cells/protectedrange/isprotectedwithpassword/
 ---
 ## ProtectedRange.IsProtectedWithPassword property

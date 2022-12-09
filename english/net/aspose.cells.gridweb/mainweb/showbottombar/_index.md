@@ -3,7 +3,6 @@ title: ShowBottomBar
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 880
 url: /net/aspose.cells.gridweb/mainweb/showbottombar/
 ---
 ## MainWeb.ShowBottomBar property

@@ -3,7 +3,6 @@ title: XhtmlMode
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1110
 url: /net/aspose.cells.gridweb/mainweb/xhtmlmode/
 ---
 ## MainWeb.XhtmlMode property

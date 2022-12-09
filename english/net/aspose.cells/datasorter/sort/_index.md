@@ -3,7 +3,6 @@ title: Sort
 second_title: Aspose.Cells for .NET API Reference
 description: Sorts the data of the area.
 type: docs
-weight: 140
 url: /net/aspose.cells/datasorter/sort/
 ---
 ## Sort(Cells, int, int, int, int) {#sort_2}

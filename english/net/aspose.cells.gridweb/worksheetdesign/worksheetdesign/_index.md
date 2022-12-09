@@ -3,7 +3,6 @@ title: WorksheetDesign
 second_title: Aspose.Cells for .NET API Reference
 description: Default constructor.
 type: docs
-weight: 10
 url: /net/aspose.cells.gridweb/worksheetdesign/worksheetdesign/
 ---
 ## WorksheetDesign() {#constructor}

@@ -3,7 +3,6 @@ title: ImportDataView
 second_title: Aspose.Cells for .NET API Reference
 description: Imports from a DataView. Creates a sheet with the DataViews table name automatically.
 type: docs
-weight: 160
 url: /net/aspose.cells.gridweb.data/gridworksheetcollection/importdataview/
 ---
 ## ImportDataView(DataView, TableItemStyle, TableItemStyle) {#importdataview}

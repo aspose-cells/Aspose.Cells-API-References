@@ -3,7 +3,6 @@ title: GlobalizationSettings
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the globalization settings.
 type: docs
-weight: 3660
 url: /net/aspose.cells/globalizationsettings/
 ---
 ## GlobalizationSettings class
@@ -40,6 +39,7 @@ public class GlobalizationSettings : AbstractGlobalizationSettings
 | virtual [GetColumnLabelsOfPivotTable](../../aspose.cells/globalizationsettings/getcolumnlabelsofpivottable)() | Gets the name of "Column Labels" label in the PivotTable. |
 | virtual [GetColumnLablesName](../../aspose.cells/globalizationsettings/getcolumnlablesname)() | (**Obsolete.**) Gets the name of "Column Labels" label in the PivotTable. |
 | virtual [GetCommentTitleName](../../aspose.cells/globalizationsettings/getcommenttitlename)(CommentTitleType) | Gets the locale dependent comment title name according to comment title type. |
+| virtual [GetDataFieldHeaderNameOfPivotTable](../../aspose.cells/globalizationsettings/getdatafieldheadernameofpivottable)() | Gets the the name of the value area field header in the PivotTable. |
 | virtual [GetEmptyDataName](../../aspose.cells/globalizationsettings/getemptydataname)() | Gets the name of "(blank)" label in the PivotTable. |
 | virtual [GetErrorValueString](../../aspose.cells/globalizationsettings/geterrorvaluestring)(string) | Gets the display string value for cell's error value |
 | virtual [GetGrandTotalName](../../aspose.cells/globalizationsettings/getgrandtotalname)(ConsolidationFunction) | Gets the grand total name of the function. |

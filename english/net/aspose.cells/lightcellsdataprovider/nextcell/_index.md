@@ -3,7 +3,6 @@ title: NextCell
 second_title: Aspose.Cells for .NET API Reference
 description: Gets next cell to be saved.
 type: docs
-weight: 20
 url: /net/aspose.cells/lightcellsdataprovider/nextcell/
 ---
 ## LightCellsDataProvider.NextCell method

@@ -3,7 +3,6 @@ title: Color
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the Color of the border.
 type: docs
-weight: 20
 url: /net/aspose.cells/border/color/
 ---
 ## Border.Color property

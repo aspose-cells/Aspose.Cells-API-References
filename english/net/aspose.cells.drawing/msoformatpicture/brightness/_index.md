@@ -3,7 +3,6 @@ title: Brightness
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the brightness modification for the picture in unit of percentage.
 type: docs
-weight: 20
 url: /net/aspose.cells.drawing/msoformatpicture/brightness/
 ---
 ## MsoFormatPicture.Brightness property

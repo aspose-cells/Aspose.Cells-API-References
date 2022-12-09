@@ -3,7 +3,6 @@ title: BeginMark
 second_title: Aspose.Cells for .NET API Reference
 description: Begins to mark changes.
 type: docs
-weight: 60
 url: /net/aspose.cells.griddesktop/undomanager/beginmark/
 ---
 ## UndoManager.BeginMark method

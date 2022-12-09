@@ -3,7 +3,6 @@ title: FirstVisibleColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Represents first visible column index.
 type: docs
-weight: 160
 url: /net/aspose.cells/worksheet/firstvisiblecolumn/
 ---
 ## Worksheet.FirstVisibleColumn property

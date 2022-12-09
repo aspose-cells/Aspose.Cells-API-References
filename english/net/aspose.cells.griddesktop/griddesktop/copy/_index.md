@@ -3,7 +3,6 @@ title: Copy
 second_title: Aspose.Cells for .NET API Reference
 description: Copies focused cell content to clipboard.
 type: docs
-weight: 650
 url: /net/aspose.cells.griddesktop/griddesktop/copy/
 ---
 ## GridDesktop.Copy method

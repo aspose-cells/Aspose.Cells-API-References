@@ -3,7 +3,6 @@ title: ColorType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the theme type.
 type: docs
-weight: 20
 url: /net/aspose.cells/themecolor/colortype/
 ---
 ## ThemeColor.ColorType property

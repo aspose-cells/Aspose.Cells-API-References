@@ -3,7 +3,6 @@ title: Position
 second_title: Aspose.Cells for .NET API Reference
 description: Represents Position of the field first second third and so on among all the fields in its orientation Rows Columns Pages. you shall call the get method after calling of Pivottable.DataBind
 type: docs
-weight: 60
 url: /net/aspose.cells.gridweb.data/pivotfield/position/
 ---
 ## PivotField.Position property

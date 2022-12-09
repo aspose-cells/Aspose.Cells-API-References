@@ -3,7 +3,6 @@ title: LocaleDependent
 second_title: Aspose.Cells for .NET API Reference
 description: Whether the formula is locale formatted. Default is false.
 type: docs
-weight: 30
 url: /net/aspose.cells/formulaparseoptions/localedependent/
 ---
 ## FormulaParseOptions.LocaleDependent property

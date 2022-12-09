@@ -3,7 +3,6 @@ title: SessionMode
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the session mode of the grid. There are 4 type of session mode 1. Sessiondefault Use system session to store sheet data. Generally the asp.net uses InProc session state. The grid also supports StateServer out process session state and SQLServer session state. 2. ViewState Use pages viewstate to store sheet data. 3. Custom Use LoadCustomData and SheetDataUpdated events to store/recover sheet data. 4. File store/recover sheet data in SessionStorePath.
 type: docs
-weight: 820
 url: /net/aspose.cells.gridweb/mainweb/sessionmode/
 ---
 ## MainWeb.SessionMode property

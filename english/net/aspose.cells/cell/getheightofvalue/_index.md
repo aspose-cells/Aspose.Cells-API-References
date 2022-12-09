@@ -3,7 +3,6 @@ title: GetHeightOfValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the height of the value in unit of pixels.
 type: docs
-weight: 480
 url: /net/aspose.cells/cell/getheightofvalue/
 ---
 ## Cell.GetHeightOfValue method

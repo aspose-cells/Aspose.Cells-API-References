@@ -3,7 +3,6 @@ title: GetEnumerator
 second_title: Aspose.Cells for .NET API Reference
 description: Returns an IEnumerator for the PivotCaches.
 type: docs
-weight: 90
 url: /net/aspose.cells.gridweb.data/pivotcaches/getenumerator/
 ---
 ## PivotCaches.GetEnumerator method

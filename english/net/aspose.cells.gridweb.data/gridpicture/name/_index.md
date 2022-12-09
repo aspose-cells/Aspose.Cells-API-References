@@ -3,7 +3,6 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the name of the shape.
 type: docs
-weight: 300
 url: /net/aspose.cells.gridweb.data/gridpicture/name/
 ---
 ## GridPicture.Name property

@@ -3,7 +3,6 @@ title: EndChanges
 second_title: Aspose.Cells for .NET API Reference
 description: Ends to record changes.
 type: docs
-weight: 80
 url: /net/aspose.cells.griddesktop/undomanager/endchanges/
 ---
 ## UndoManager.EndChanges method

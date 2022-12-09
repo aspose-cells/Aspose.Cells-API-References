@@ -3,7 +3,6 @@ title: SelectByID
 second_title: Aspose.Cells for .NET API Reference
 description: Gets an item by id.
 type: docs
-weight: 30
 url: /net/aspose.cells.markup/customxmlpartcollection/selectbyid/
 ---
 ## CustomXmlPartCollection.SelectByID method

@@ -3,7 +3,6 @@ title: ExportAsHtmlString
 second_title: Aspose.Cells for .NET API Reference
 description: Exports the html string value of the cells to the DataTable.
 type: docs
-weight: 40
 url: /net/aspose.cells/exporttableoptions/exportashtmlstring/
 ---
 ## ExportTableOptions.ExportAsHtmlString property

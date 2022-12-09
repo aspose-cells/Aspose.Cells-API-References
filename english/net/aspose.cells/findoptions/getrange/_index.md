@@ -3,7 +3,6 @@ title: GetRange
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the searched range.
 type: docs
-weight: 140
 url: /net/aspose.cells/findoptions/getrange/
 ---
 ## FindOptions.GetRange method

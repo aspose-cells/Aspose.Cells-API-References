@@ -3,7 +3,6 @@ title: SummaryBelowData
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether add summary below data.
 type: docs
-weight: 30
 url: /net/aspose.cells/subtotalsetting/summarybelowdata/
 ---
 ## SubtotalSetting.SummaryBelowData property

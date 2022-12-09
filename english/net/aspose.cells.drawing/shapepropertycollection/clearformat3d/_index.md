@@ -3,7 +3,6 @@ title: ClearFormat3D
 second_title: Aspose.Cells for .NET API Reference
 description: Clears the 3D shape properties of the shape.
 type: docs
-weight: 50
 url: /net/aspose.cells.drawing/shapepropertycollection/clearformat3d/
 ---
 ## ShapePropertyCollection.ClearFormat3D method

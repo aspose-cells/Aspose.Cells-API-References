@@ -3,7 +3,6 @@ title: GetCharacters
 second_title: Aspose.Cells for .NET API Reference
 description: Returns all Characters objects that represents a range of characters within the cell text.
 type: docs
-weight: 400
 url: /net/aspose.cells/cell/getcharacters/
 ---
 ## GetCharacters() {#getcharacters}

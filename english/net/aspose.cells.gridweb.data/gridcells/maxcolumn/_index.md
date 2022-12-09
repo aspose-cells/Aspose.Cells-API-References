@@ -3,7 +3,6 @@ title: MaxColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Maximum column index of cell which contains data or style.
 type: docs
-weight: 60
 url: /net/aspose.cells.gridweb.data/gridcells/maxcolumn/
 ---
 ## GridCells.MaxColumn property

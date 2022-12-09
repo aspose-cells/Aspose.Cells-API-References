@@ -3,7 +3,6 @@ title: AbstractTextLoadOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Common options for loading text values
 type: docs
-weight: 60
 url: /net/aspose.cells/abstracttextloadoptions/
 ---
 ## AbstractTextLoadOptions class

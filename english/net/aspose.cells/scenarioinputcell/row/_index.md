@@ -3,7 +3,6 @@ title: Row
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the row index of the input cell.
 type: docs
-weight: 40
 url: /net/aspose.cells/scenarioinputcell/row/
 ---
 ## ScenarioInputCell.Row property

@@ -3,7 +3,6 @@ title: ValuesFormatCode
 second_title: Aspose.Cells for .NET API Reference
 description: Represents format code of Valuess NumberList.
 type: docs
-weight: 480
 url: /net/aspose.cells.charts/series/valuesformatcode/
 ---
 ## Series.ValuesFormatCode property

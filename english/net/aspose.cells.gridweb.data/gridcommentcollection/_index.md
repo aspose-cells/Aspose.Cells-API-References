@@ -1,14 +1,13 @@
 ---
 title: GridCommentCollection
 second_title: Aspose.Cells for .NET API Reference
-description: Encapsulates a collection of Comment objects.
+description: Encapsulates a collection of GridComment./gridcomment objects.
 type: docs
-weight: 240
 url: /net/aspose.cells.gridweb.data/gridcommentcollection/
 ---
 ## GridCommentCollection class
 
-Encapsulates a collection of Comment objects.
+Encapsulates a collection of [`GridComment`](../gridcomment) objects.
 
 ```csharp
 public class GridCommentCollection
@@ -19,7 +18,7 @@ public class GridCommentCollection
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.cells.gridweb.data/gridcommentcollection/count) { get; } |  |
-| [Item](../../aspose.cells.gridweb.data/gridcommentcollection/item) { get; } | Gets the Comment element at the specified index. (3 indexers) |
+| [Item](../../aspose.cells.gridweb.data/gridcommentcollection/item) { get; } | Gets the [`GridComment`](../gridcomment) element at the specified index. (3 indexers) |
 
 ## Methods
 

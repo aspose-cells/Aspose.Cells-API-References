@@ -3,7 +3,6 @@ title: Font
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the font of the DataLabels
 type: docs
-weight: 50
 url: /net/aspose.cells.charts/datalabels/font/
 ---
 ## DataLabels.Font property

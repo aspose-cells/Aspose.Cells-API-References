@@ -3,7 +3,6 @@ title: InCellDropDown
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether data validation displays a dropdown list that contains acceptable values.
 type: docs
-weight: 80
 url: /net/aspose.cells/validation/incelldropdown/
 ---
 ## Validation.InCellDropDown property

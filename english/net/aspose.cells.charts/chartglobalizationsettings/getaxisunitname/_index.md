@@ -3,7 +3,6 @@ title: GetAxisUnitName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Name of Axis Unit.
 type: docs
-weight: 30
 url: /net/aspose.cells.charts/chartglobalizationsettings/getaxisunitname/
 ---
 ## ChartGlobalizationSettings.GetAxisUnitName method

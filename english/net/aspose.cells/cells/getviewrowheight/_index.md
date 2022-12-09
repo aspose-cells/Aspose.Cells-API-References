@@ -3,7 +3,6 @@ title: GetViewRowHeight
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the height of a specified row.
 type: docs
-weight: 870
 url: /net/aspose.cells/cells/getviewrowheight/
 ---
 ## Cells.GetViewRowHeight method

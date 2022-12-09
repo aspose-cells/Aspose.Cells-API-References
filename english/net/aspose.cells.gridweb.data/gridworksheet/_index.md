@@ -3,7 +3,6 @@ title: GridWorksheet
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents a single worksheet.
 type: docs
-weight: 580
 url: /net/aspose.cells.gridweb.data/gridworksheet/
 ---
 ## GridWorksheet class
@@ -36,7 +35,7 @@ public class GridWorksheet : Control, ISerializable
 | [FirstVisibleColumn](../../aspose.cells.gridweb.data/gridworksheet/firstvisiblecolumn) { get; set; } |  |
 | [FirstVisibleRow](../../aspose.cells.gridweb.data/gridworksheet/firstvisiblerow) { get; set; } |  |
 | [GridActiveCell](../../aspose.cells.gridweb.data/gridworksheet/gridactivecell) { get; set; } |  |
-| [Hyperlinks](../../aspose.cells.gridweb.data/gridworksheet/hyperlinks) { get; } | Gets the HyperlinkCollection collection. |
+| [Hyperlinks](../../aspose.cells.gridweb.data/gridworksheet/hyperlinks) { get; } | Gets the [`GridHyperlinkCollection`](../gridhyperlinkcollection) collection. |
 | [Index](../../aspose.cells.gridweb.data/gridworksheet/index) { get; } |  |
 | [IsGridlinesVisible](../../aspose.cells.gridweb.data/gridworksheet/isgridlinesvisible) { get; set; } | Gets or sets a value indicating whether the grid lines are visible.Default is true. |
 | [IsSummaryRowBelow](../../aspose.cells.gridweb.data/gridworksheet/issummaryrowbelow) { get; set; } | Indicates if the summary row will be positioned below the detail rows in the outline. |

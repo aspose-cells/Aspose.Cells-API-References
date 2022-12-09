@@ -3,7 +3,6 @@ title: ForeColorTransparency
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the degree of fore color of the specified fill as a value from 0.0 opaque through 1.0 clear.
 type: docs
-weight: 30
 url: /net/aspose.cells.drawing/msofillformathelper/forecolortransparency/
 ---
 ## MsoFillFormatHelper.ForeColorTransparency property

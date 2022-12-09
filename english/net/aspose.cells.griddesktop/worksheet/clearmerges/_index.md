@@ -3,7 +3,6 @@ title: ClearMerges
 second_title: Aspose.Cells for .NET API Reference
 description: Clear all merges.
 type: docs
-weight: 570
 url: /net/aspose.cells.griddesktop/worksheet/clearmerges/
 ---
 ## Worksheet.ClearMerges method

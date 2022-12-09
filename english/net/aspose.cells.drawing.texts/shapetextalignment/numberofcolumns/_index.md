@@ -3,7 +3,6 @@ title: NumberOfColumns
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the number of columns of text in the bounding rectangle.
 type: docs
-weight: 60
 url: /net/aspose.cells.drawing.texts/shapetextalignment/numberofcolumns/
 ---
 ## ShapeTextAlignment.NumberOfColumns property

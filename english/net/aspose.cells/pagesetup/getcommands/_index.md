@@ -3,7 +3,6 @@ title: GetCommands
 second_title: Aspose.Cells for .NET API Reference
 description: Gets all commands of header or footer.
 type: docs
-weight: 470
 url: /net/aspose.cells/pagesetup/getcommands/
 ---
 ## PageSetup.GetCommands method

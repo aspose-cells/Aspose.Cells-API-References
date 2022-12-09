@@ -3,7 +3,6 @@ title: TextFont
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a Fontaspose.cells.charts/chartframe/font object of the specified ChartFrame object.
 type: docs
-weight: 170
 url: /net/aspose.cells.charts/chartframe/textfont/
 ---
 ## ChartFrame.TextFont property

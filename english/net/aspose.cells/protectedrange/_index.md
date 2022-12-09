@@ -3,7 +3,6 @@ title: ProtectedRange
 second_title: Aspose.Cells for .NET API Reference
 description: A specified range to be allowed to edit when the sheet protection is ON.
 type: docs
-weight: 4970
 url: /net/aspose.cells/protectedrange/
 ---
 ## ProtectedRange class

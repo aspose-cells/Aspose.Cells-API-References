@@ -3,7 +3,6 @@ title: GetByIndex
 second_title: Aspose.Cells for .NET API Reference
 description: Returns a single Filter object from a collection.
 type: docs
-weight: 20
 url: /net/aspose.cells/filtercolumncollection/getbyindex/
 ---
 ## FilterColumnCollection.GetByIndex method

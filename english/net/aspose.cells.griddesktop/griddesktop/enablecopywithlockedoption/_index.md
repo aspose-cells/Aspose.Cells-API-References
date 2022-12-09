@@ -3,7 +3,6 @@ title: EnableCopyWithLockedOption
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether the copy operation will copy the styles CellLocked attribute value of a cell.
 type: docs
-weight: 130
 url: /net/aspose.cells.griddesktop/griddesktop/enablecopywithlockedoption/
 ---
 ## GridDesktop.EnableCopyWithLockedOption property

@@ -3,7 +3,6 @@ title: Overflow
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or set the overflow of axis bins
 type: docs
-weight: 50
 url: /net/aspose.cells.charts/axisbins/overflow/
 ---
 ## AxisBins.Overflow property

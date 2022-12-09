@@ -3,7 +3,6 @@ title: RemoveSubtotal
 second_title: Aspose.Cells for .NET API Reference
 description: Removes subtotal created by the CreateSubtotal method in the sheet.
 type: docs
-weight: 680
 url: /net/aspose.cells.gridweb.data/gridworksheet/removesubtotal/
 ---
 ## GridWorksheet.RemoveSubtotal method

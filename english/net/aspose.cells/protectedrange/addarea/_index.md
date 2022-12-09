@@ -3,7 +3,6 @@ title: AddArea
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a referred area to this
 type: docs
-weight: 60
 url: /net/aspose.cells/protectedrange/addarea/
 ---
 ## ProtectedRange.AddArea method

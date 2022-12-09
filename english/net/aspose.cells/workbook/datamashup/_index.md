@@ -3,7 +3,6 @@ title: DataMashup
 second_title: Aspose.Cells for .NET API Reference
 description: Gets mashup data.
 type: docs
-weight: 110
 url: /net/aspose.cells/workbook/datamashup/
 ---
 ## Workbook.DataMashup property

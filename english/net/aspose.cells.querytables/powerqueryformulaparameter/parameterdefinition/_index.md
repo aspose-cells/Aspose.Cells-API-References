@@ -3,7 +3,6 @@ title: ParameterDefinition
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the definition of the parameter.
 type: docs
-weight: 30
 url: /net/aspose.cells.querytables/powerqueryformulaparameter/parameterdefinition/
 ---
 ## PowerQueryFormulaParameter.ParameterDefinition property

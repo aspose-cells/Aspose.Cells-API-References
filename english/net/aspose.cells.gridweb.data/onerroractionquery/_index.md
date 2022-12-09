@@ -3,7 +3,6 @@ title: OnErrorActionQuery
 second_title: Aspose.Cells for .NET API Reference
 description: Used in the CellError event of the GridWeb.
 type: docs
-weight: 660
 url: /net/aspose.cells.gridweb.data/onerroractionquery/
 ---
 ## OnErrorActionQuery class
@@ -30,7 +29,8 @@ public class OnErrorActionQuery
 
 ```csharp
 [C#]
-onErrorActionQuery.OnErrorAction = OnErrorActionType.Ignore;
+OnErrorActionQuery query = new OnErrorActionQuery();
+query.OnErrorAction = OnErrorActionType.Ignore;
 [VB]
 onErrorActionQuery.OnErrorAction = OnErrorActionType.Ignore
 ```

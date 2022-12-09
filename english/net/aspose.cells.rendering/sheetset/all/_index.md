@@ -3,7 +3,6 @@ title: All
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a set with all sheets of the workbook in their original order.
 type: docs
-weight: 20
 url: /net/aspose.cells.rendering/sheetset/all/
 ---
 ## SheetSet.All property

@@ -3,7 +3,6 @@ title: CellArea
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the location where the formatting was applied.
 type: docs
-weight: 10
 url: /net/aspose.cells.revisions/revisionautoformat/cellarea/
 ---
 ## RevisionAutoFormat.CellArea property

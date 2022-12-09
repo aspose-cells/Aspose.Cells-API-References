@@ -3,7 +3,6 @@ title: TxtSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Creates text file save options.
 type: docs
-weight: 10
 url: /net/aspose.cells/txtsaveoptions/txtsaveoptions/
 ---
 ## TxtSaveOptions() {#constructor}

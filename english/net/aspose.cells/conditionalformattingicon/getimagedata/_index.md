@@ -1,14 +1,13 @@
 ---
 title: GetImageData
 second_title: Aspose.Cells for .NET API Reference
-description: Gets the image data with the setting of font size.
+description: Gets the image data with the setting of cell.
 type: docs
-weight: 40
 url: /net/aspose.cells/conditionalformattingicon/getimagedata/
 ---
 ## ConditionalFormattingIcon.GetImageData method
 
-Gets the image data with the setting of font size.
+Gets the image data with the setting of cell.
 
 ```csharp
 public byte[] GetImageData(Cell cell)
@@ -16,7 +15,7 @@ public byte[] GetImageData(Cell cell)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fontSize | Cell | The font size. |
+| cell | Cell | The setting of cell. |
 
 ### Return Value
 

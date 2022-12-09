@@ -3,7 +3,6 @@ title: TiffCompression
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies what type of compression to apply when saving images into TIFF format file.
 type: docs
-weight: 5360
 url: /net/aspose.cells.rendering/tiffcompression/
 ---
 ## TiffCompression enumeration

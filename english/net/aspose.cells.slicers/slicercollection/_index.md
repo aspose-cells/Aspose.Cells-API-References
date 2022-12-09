@@ -3,7 +3,6 @@ title: SlicerCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the collection of all the Slicer objects on the specified worksheet.
 type: docs
-weight: 5780
 url: /net/aspose.cells.slicers/slicercollection/
 ---
 ## SlicerCollection class

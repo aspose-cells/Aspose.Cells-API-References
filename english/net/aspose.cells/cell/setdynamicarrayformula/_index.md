@@ -3,7 +3,6 @@ title: SetDynamicArrayFormula
 second_title: Aspose.Cells for .NET API Reference
 description: Sets dynamic array formula and make the formula spill into neighboring cells if possible.
 type: docs
-weight: 650
 url: /net/aspose.cells/cell/setdynamicarrayformula/
 ---
 ## SetDynamicArrayFormula(string, FormulaParseOptions, bool) {#setdynamicarrayformula}

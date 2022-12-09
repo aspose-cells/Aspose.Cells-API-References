@@ -3,7 +3,6 @@ title: Sparkline
 second_title: Aspose.Cells for .NET API Reference
 description: A sparkline represents a tiny chart or graphic in a worksheet cell that provides a visual representation of data.
 type: docs
-weight: 860
 url: /net/aspose.cells.charts/sparkline/
 ---
 ## Sparkline class

@@ -3,7 +3,6 @@ title: Parent
 second_title: Aspose.Cells for .NET API Reference
 description: Returns the parent object for the specified objectthe container of PivotCache. Readonly.
 type: docs
-weight: 50
 url: /net/aspose.cells.gridweb.data/pivotcache/parent/
 ---
 ## PivotCache.Parent property

@@ -3,7 +3,6 @@ title: Value
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the value of the pivot item
 type: docs
-weight: 70
 url: /net/aspose.cells.pivot/pivotitem/value/
 ---
 ## PivotItem.Value property

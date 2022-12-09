@@ -3,7 +3,6 @@ title: SetPresetThemeGradient
 second_title: Aspose.Cells for .NET API Reference
 description: Sets preset theme gradient fill.
 type: docs
-weight: 70
 url: /net/aspose.cells.drawing/gradientfill/setpresetthemegradient/
 ---
 ## GradientFill.SetPresetThemeGradient method

@@ -3,7 +3,6 @@ title: PasteType
 second_title: Aspose.Cells for .NET API Reference
 description: The paste special type.
 type: docs
-weight: 40
 url: /net/aspose.cells/pasteoptions/pastetype/
 ---
 ## PasteOptions.PasteType property

@@ -3,7 +3,6 @@ title: IsIntersect
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the range is intersect.
 type: docs
-weight: 340
 url: /net/aspose.cells/range/isintersect/
 ---
 ## Range.IsIntersect method

@@ -3,7 +3,6 @@ title: XmlMapQuery
 second_title: Aspose.Cells for .NET API Reference
 description: Query cell areas that mapped/linked to the specific path of xml map.
 type: docs
-weight: 920
 url: /net/aspose.cells/worksheet/xmlmapquery/
 ---
 ## Worksheet.XmlMapQuery method

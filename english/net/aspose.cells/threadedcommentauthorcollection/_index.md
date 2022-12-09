@@ -3,7 +3,6 @@ title: ThreadedCommentAuthorCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents all persons who .
 type: docs
-weight: 6130
 url: /net/aspose.cells/threadedcommentauthorcollection/
 ---
 ## ThreadedCommentAuthorCollection class

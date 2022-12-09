@@ -3,7 +3,6 @@ title: ExportColumnName
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the data in the first row are exported to the column name of the DataTable. The default value is false.
 type: docs
-weight: 60
 url: /net/aspose.cells/exporttableoptions/exportcolumnname/
 ---
 ## ExportTableOptions.ExportColumnName property

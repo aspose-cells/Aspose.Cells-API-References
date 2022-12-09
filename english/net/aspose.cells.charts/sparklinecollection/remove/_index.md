@@ -3,7 +3,6 @@ title: Remove
 second_title: Aspose.Cells for .NET API Reference
 description: Removes the sparkline
 type: docs
-weight: 30
 url: /net/aspose.cells.charts/sparklinecollection/remove/
 ---
 ## SparklineCollection.Remove method

@@ -3,7 +3,6 @@ title: EmfRenderSetting
 second_title: Aspose.Cells for .NET API Reference
 description: Setting for rendering Emf metafile.
 type: docs
-weight: 90
 url: /net/aspose.cells/pdfsaveoptions/emfrendersetting/
 ---
 ## PdfSaveOptions.EmfRenderSetting property

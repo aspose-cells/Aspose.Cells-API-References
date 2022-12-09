@@ -3,7 +3,6 @@ title: TextBoxCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates a collection of TextBox./textbox objects.
 type: docs
-weight: 2850
 url: /net/aspose.cells.drawing/textboxcollection/
 ---
 ## TextBoxCollection class

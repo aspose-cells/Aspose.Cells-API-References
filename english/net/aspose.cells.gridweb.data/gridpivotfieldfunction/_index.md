@@ -3,7 +3,6 @@ title: GridPivotFieldFunction
 second_title: Aspose.Cells for .NET API Reference
 description: Represents consolidation function.
 type: docs
-weight: 380
 url: /net/aspose.cells.gridweb.data/gridpivotfieldfunction/
 ---
 ## GridPivotFieldFunction enumeration

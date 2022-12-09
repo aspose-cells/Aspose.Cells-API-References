@@ -3,7 +3,6 @@ title: Sort
 second_title: Aspose.Cells for .NET API Reference
 description: Sorts the datas ascend/decend top to bottom in a range of a Worksheet by specified column index. Sorts the datas ascend/decend left to right in a range of a Worksheet by specified row index.
 type: docs
-weight: 740
 url: /net/aspose.cells.gridweb.data/gridcells/sort/
 ---
 ## Sort(int, int, int, int, int, bool, bool, bool) {#sort}
@@ -31,8 +30,8 @@ public void Sort(int startRow, int startColumn, int rows, int columns, int index
 ```csharp
 
  [C#]
-
- GridWeb1.WebWorksheets[0].Cells.Sort(1,0,25,6,3,true,true,false);
+ GridWeb GridWeb1 = new GridWeb();
+ GridWeb1.WorkSheets[0].Cells.Sort(1,0,25,6,3,true,true,false);
 
  [VB]
 
@@ -48,16 +47,32 @@ public void Sort(int startRow, int startColumn, int rows, int columns, int index
 
 ---
 
-## Sort(int, int, int, int, int[], SortOrder[], SortOrientation, bool) {#sort_1}
+## Sort(int, int, int, int, int[], SortByOrder[], SortOrientation, bool) {#sort_1}
 
 ```csharp
 public void Sort(int startRow, int startColumn, int rows, int columns, int[] indexes, 
-    SortOrder[] orders, SortOrientation orientation, bool isCaseSensitive)
+    SortByOrder[] orders, SortOrientation orientation, bool isCaseSensitive)
+```
+
+### Examples
+
+```csharp
+
+ [C#]
+ GridWeb GridWeb1=new GridWeb();
+ int[] ids={0,1};
+ SortByOrder[] sorder={SortByOrder.Ascending,SortByOrder.Descending};
+ GridWeb1.WorkSheets[0].Cells.Sort(1,0,25,6,ids,sorder,SortOrientation.SortTopToBottom,false);
+
+ [VB]
+
+ GridWeb1.WorkSheets(0).Cells.Sort(1,0,25,6,ids,sorder,SortOrientation.SortTopToBottom,false)
+
 ```
 
 ### See Also
 
-* enum [SortOrder](../../sortorder)
+* enum [SortByOrder](../../sortbyorder)
 * enum [SortOrientation](../../sortorientation)
 * class [GridCells](../../gridcells)
 * namespace [Aspose.Cells.GridWeb.Data](../../gridcells)

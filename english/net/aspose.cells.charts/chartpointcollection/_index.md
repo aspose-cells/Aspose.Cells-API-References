@@ -3,7 +3,6 @@ title: ChartPointCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a collection that contains all the points in one series.
 type: docs
-weight: 520
 url: /net/aspose.cells.charts/chartpointcollection/
 ---
 ## ChartPointCollection class

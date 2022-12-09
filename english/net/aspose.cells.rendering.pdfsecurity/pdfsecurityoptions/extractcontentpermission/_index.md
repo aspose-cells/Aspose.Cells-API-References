@@ -3,7 +3,6 @@ title: ExtractContentPermission
 second_title: Aspose.Cells for .NET API Reference
 description: Permission to copy or extract content.
 type: docs
-weight: 50
 url: /net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/extractcontentpermission/
 ---
 ## PdfSecurityOptions.ExtractContentPermission property

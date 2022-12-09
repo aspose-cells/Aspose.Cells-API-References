@@ -3,7 +3,6 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the binding type.
 type: docs
-weight: 40
 url: /net/aspose.cells.webextensions/webextensionbinding/type/
 ---
 ## WebExtensionBinding.Type property

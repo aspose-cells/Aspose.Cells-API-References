@@ -3,7 +3,6 @@ title: SetRowHeight
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the height of the specified row.
 type: docs
-weight: 1320
 url: /net/aspose.cells/cells/setrowheight/
 ---
 ## Cells.SetRowHeight method

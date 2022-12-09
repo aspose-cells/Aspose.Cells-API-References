@@ -3,7 +3,6 @@ title: GetCellLocationByClientPoint
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the cell location by client coordinates point.
 type: docs
-weight: 690
 url: /net/aspose.cells.griddesktop/worksheet/getcelllocationbyclientpoint/
 ---
 ## Worksheet.GetCellLocationByClientPoint method

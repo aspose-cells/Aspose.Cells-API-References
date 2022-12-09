@@ -3,7 +3,6 @@ title: ChartArea
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents the chart area in the worksheet.
 type: docs
-weight: 440
 url: /net/aspose.cells.charts/chartarea/
 ---
 ## ChartArea class

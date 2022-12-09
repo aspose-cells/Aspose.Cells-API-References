@@ -3,7 +3,6 @@ title: Row
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the row index of the comment.
 type: docs
-weight: 50
 url: /net/aspose.cells/threadedcomment/row/
 ---
 ## ThreadedComment.Row property

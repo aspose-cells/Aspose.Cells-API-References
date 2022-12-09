@@ -3,7 +3,6 @@ title: DisplayRSquared
 second_title: Aspose.Cells for .NET API Reference
 description: Represents if the Rsquared value of the trendline is displayed on the chart in the same data label as the equation. Setting this property to True automatically turns on data labels.
 type: docs
-weight: 40
 url: /net/aspose.cells.charts/trendline/displayrsquared/
 ---
 ## Trendline.DisplayRSquared property

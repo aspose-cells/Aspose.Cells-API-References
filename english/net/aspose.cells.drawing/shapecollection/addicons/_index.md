@@ -3,7 +3,6 @@ title: AddIcons
 second_title: Aspose.Cells for .NET API Reference
 description: Adds svg image.
 type: docs
-weight: 120
 url: /net/aspose.cells.drawing/shapecollection/addicons/
 ---
 ## ShapeCollection.AddIcons method

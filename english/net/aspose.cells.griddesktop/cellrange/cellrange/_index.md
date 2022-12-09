@@ -3,7 +3,6 @@ title: CellRange
 second_title: Aspose.Cells for .NET API Reference
 description: Default Constructor.
 type: docs
-weight: 10
 url: /net/aspose.cells.griddesktop/cellrange/cellrange/
 ---
 ## CellRange() {#constructor}

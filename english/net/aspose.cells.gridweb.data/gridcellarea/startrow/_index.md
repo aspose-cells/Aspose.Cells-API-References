@@ -3,7 +3,6 @@ title: StartRow
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the start row of this area.
 type: docs
-weight: 50
 url: /net/aspose.cells.gridweb.data/gridcellarea/startrow/
 ---
 ## GridCellArea.StartRow field

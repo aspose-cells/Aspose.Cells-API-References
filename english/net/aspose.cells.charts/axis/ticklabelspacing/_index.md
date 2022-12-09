@@ -3,7 +3,6 @@ title: TickLabelSpacing
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the number of categories or series between tickmark labels. Applies only to category and series axes.
 type: docs
-weight: 360
 url: /net/aspose.cells.charts/axis/ticklabelspacing/
 ---
 ## Axis.TickLabelSpacing property

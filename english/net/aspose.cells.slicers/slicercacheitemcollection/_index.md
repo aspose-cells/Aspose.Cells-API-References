@@ -3,7 +3,6 @@ title: SlicerCacheItemCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represent the collection of SlicerCacheItem
 type: docs
-weight: 5760
 url: /net/aspose.cells.slicers/slicercacheitemcollection/
 ---
 ## SlicerCacheItemCollection class

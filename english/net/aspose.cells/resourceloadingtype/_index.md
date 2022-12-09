@@ -3,7 +3,6 @@ title: ResourceLoadingType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents how to loading the linked resource.
 type: docs
-weight: 5400
 url: /net/aspose.cells/resourceloadingtype/
 ---
 ## ResourceLoadingType enumeration

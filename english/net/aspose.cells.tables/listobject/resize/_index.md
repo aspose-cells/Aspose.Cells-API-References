@@ -3,7 +3,6 @@ title: Resize
 second_title: Aspose.Cells for .NET API Reference
 description: Resize the range of the list object.
 type: docs
-weight: 270
 url: /net/aspose.cells.tables/listobject/resize/
 ---
 ## ListObject.Resize method

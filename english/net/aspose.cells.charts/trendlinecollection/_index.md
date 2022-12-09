@@ -3,7 +3,6 @@ title: TrendlineCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a collection of all the Trendline./trendline objects for the specified data series.
 type: docs
-weight: 1000
 url: /net/aspose.cells.charts/trendlinecollection/
 ---
 ## TrendlineCollection class

@@ -3,7 +3,6 @@ title: XAdESType
 second_title: Aspose.Cells for .NET API Reference
 description: XAdES type. Default value is NoneXAdES is off.
 type: docs
-weight: 100
 url: /net/aspose.cells.digitalsignatures/digitalsignature/xadestype/
 ---
 ## DigitalSignature.XAdESType property

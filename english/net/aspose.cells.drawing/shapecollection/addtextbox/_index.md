@@ -3,7 +3,6 @@ title: AddTextBox
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a text box to the worksheet.
 type: docs
-weight: 310
 url: /net/aspose.cells.drawing/shapecollection/addtextbox/
 ---
 ## ShapeCollection.AddTextBox method

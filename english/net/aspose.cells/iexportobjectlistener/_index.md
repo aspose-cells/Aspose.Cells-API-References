@@ -3,7 +3,6 @@ title: IExportObjectListener
 second_title: Aspose.Cells for .NET API Reference
 description: Allows users to manipulate objects while exporting.
 type: docs
-weight: 3840
 url: /net/aspose.cells/iexportobjectlistener/
 ---
 ## IExportObjectListener interface
@@ -65,9 +64,7 @@ The following example creates a Workbook, opens a file named designer.xls in it 
         HtmlSaveOptions saveOptions = new HtmlSaveOptions();
         saveOptions.ExportObjectListener = new CustomExportObjectListener();
         Stream stream = null; //build your stream here
-        book.Save(stream, saveOptions);
-        stream.Flush();
-        stream.Close();
+        book.Save("res.html", saveOptions); //or here you can build your out put stream and save the workbook to stream
 
 ```
 

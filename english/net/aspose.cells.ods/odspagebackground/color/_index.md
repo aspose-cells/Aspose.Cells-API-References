@@ -3,7 +3,6 @@ title: Color
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the color of background.
 type: docs
-weight: 20
 url: /net/aspose.cells.ods/odspagebackground/color/
 ---
 ## OdsPageBackground.Color property

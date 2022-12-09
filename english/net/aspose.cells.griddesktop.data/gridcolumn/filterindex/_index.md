@@ -3,7 +3,6 @@ title: FilterIndex
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 20
 url: /net/aspose.cells.griddesktop.data/gridcolumn/filterindex/
 ---
 ## GridColumn.FilterIndex property

@@ -3,7 +3,6 @@ title: TiffCompression
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the type of compression to apply only when saving pages to the Tiff format.
 type: docs
-weight: 350
 url: /net/aspose.cells.rendering/imageorprintoptions/tiffcompression/
 ---
 ## ImageOrPrintOptions.TiffCompression property

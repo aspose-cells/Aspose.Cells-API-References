@@ -3,7 +3,6 @@ title: TilePicOption
 second_title: Aspose.Cells for .NET API Reference
 description: Represents tile picture as texture.
 type: docs
-weight: 3110
 url: /net/aspose.cells.drawing/tilepicoption/
 ---
 ## TilePicOption class

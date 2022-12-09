@@ -3,7 +3,6 @@ title: HasRevisions
 second_title: Aspose.Cells for .NET API Reference
 description: Gets if the workbook has any tracked changes
 type: docs
-weight: 170
 url: /net/aspose.cells/workbook/hasrevisions/
 ---
 ## Workbook.HasRevisions property

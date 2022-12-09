@@ -3,7 +3,6 @@ title: Width
 second_title: Aspose.Cells for .NET API Reference
 description: Gets of sets the width of the column.only pixel or point accept
 type: docs
-weight: 180
 url: /net/aspose.cells.gridweb/bindcolumn/width/
 ---
 ## BindColumn.Width property

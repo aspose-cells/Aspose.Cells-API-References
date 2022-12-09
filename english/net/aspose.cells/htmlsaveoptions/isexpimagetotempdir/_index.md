@@ -3,7 +3,6 @@ title: IsExpImageToTempDir
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether exporting image files to temp directory. Only for saving to html stream.
 type: docs
-weight: 410
 url: /net/aspose.cells/htmlsaveoptions/isexpimagetotempdir/
 ---
 ## HtmlSaveOptions.IsExpImageToTempDir property

@@ -3,7 +3,6 @@ title: IsAutomaticSize
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the plot area is automatic sized.
 type: docs
-weight: 60
 url: /net/aspose.cells.charts/plotarea/isautomaticsize/
 ---
 ## PlotArea.IsAutomaticSize property

@@ -3,7 +3,6 @@ title: Text
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the text of display unit label.
 type: docs
-weight: 30
 url: /net/aspose.cells.charts/title/text/
 ---
 ## Title.Text property

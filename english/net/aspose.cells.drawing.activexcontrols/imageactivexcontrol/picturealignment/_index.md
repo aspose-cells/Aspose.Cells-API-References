@@ -3,7 +3,6 @@ title: PictureAlignment
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the alignment of the picture inside the Form or Image.
 type: docs
-weight: 60
 url: /net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/picturealignment/
 ---
 ## ImageActiveXControl.PictureAlignment property

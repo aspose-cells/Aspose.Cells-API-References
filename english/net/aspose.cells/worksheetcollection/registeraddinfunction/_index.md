@@ -3,7 +3,6 @@ title: RegisterAddInFunction
 second_title: Aspose.Cells for .NET API Reference
 description: Adds addin function into the workbook
 type: docs
-weight: 290
 url: /net/aspose.cells/worksheetcollection/registeraddinfunction/
 ---
 ## RegisterAddInFunction(string, string, bool) {#registeraddinfunction}

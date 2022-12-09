@@ -3,7 +3,6 @@ title: CustomXmlShape
 second_title: Aspose.Cells for .NET API Reference
 description: Represents Custom xml shape such as Ink.
 type: docs
-weight: 1940
 url: /net/aspose.cells.drawing/customxmlshape/
 ---
 ## CustomXmlShape class

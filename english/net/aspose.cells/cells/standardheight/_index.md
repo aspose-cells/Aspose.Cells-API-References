@@ -3,7 +3,6 @@ title: StandardHeight
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the default row height in this worksheet in unit of points.
 type: docs
-weight: 250
 url: /net/aspose.cells/cells/standardheight/
 ---
 ## Cells.StandardHeight property

@@ -3,7 +3,6 @@ title: CellArea
 second_title: Aspose.Cells for .NET API Reference
 description: Represent an area of cells.
 type: docs
-weight: 240
 url: /net/aspose.cells/cellarea/
 ---
 ## CellArea structure

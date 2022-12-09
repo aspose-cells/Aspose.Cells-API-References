@@ -3,7 +3,6 @@ title: Perspective
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the angle at which a ThreeDFormat object can be viewed.
 type: docs
-weight: 120
 url: /net/aspose.cells.drawing/threedformat/perspective/
 ---
 ## ThreeDFormat.Perspective property

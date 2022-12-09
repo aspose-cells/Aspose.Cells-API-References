@@ -3,7 +3,6 @@ title: MidColor
 second_title: Aspose.Cells for .NET API Reference
 description: Get or set the gradient color for the middle value in the range.
 type: docs
-weight: 50
 url: /net/aspose.cells/colorscale/midcolor/
 ---
 ## ColorScale.MidColor property

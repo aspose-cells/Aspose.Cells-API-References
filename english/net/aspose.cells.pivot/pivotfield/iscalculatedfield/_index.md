@@ -3,7 +3,6 @@ title: IsCalculatedField
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the specified PivotTable field is calculated field.
 type: docs
-weight: 230
 url: /net/aspose.cells.pivot/pivotfield/iscalculatedfield/
 ---
 ## PivotField.IsCalculatedField property

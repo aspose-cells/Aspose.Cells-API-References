@@ -3,7 +3,6 @@ title: HideColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Hides a column.
 type: docs
-weight: 520
 url: /net/aspose.cells.gridweb.data/gridcells/hidecolumn/
 ---
 ## GridCells.HideColumn method

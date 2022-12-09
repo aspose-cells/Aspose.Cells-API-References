@@ -3,7 +3,6 @@ title: AutoFillType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the auto fill type.
 type: docs
-weight: 80
 url: /net/aspose.cells/autofilltype/
 ---
 ## AutoFillType enumeration

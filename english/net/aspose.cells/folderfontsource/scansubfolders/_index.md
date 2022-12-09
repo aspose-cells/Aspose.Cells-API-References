@@ -3,7 +3,6 @@ title: ScanSubFolders
 second_title: Aspose.Cells for .NET API Reference
 description: Determines whether or not to scan the subfolders.
 type: docs
-weight: 30
 url: /net/aspose.cells/folderfontsource/scansubfolders/
 ---
 ## FolderFontSource.ScanSubFolders property

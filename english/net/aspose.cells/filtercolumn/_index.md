@@ -3,7 +3,6 @@ title: FilterColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a filter for a single column. The Filter object is a member of the Filters collection
 type: docs
-weight: 3470
 url: /net/aspose.cells/filtercolumn/
 ---
 ## FilterColumn class

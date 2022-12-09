@@ -3,7 +3,6 @@ title: LoadValueList
 second_title: Aspose.Cells for .NET API Reference
 description: Loads value list from a DataView object. You can specify the value field and text field of the DataView. Each value and text pair will be combined to one string with a comma between them.
 type: docs
-weight: 120
 url: /net/aspose.cells.gridweb/validation/loadvaluelist/
 ---
 ## Validation.LoadValueList method

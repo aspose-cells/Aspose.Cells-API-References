@@ -3,7 +3,6 @@ title: GetCollationKey
 second_title: Aspose.Cells for .NET API Reference
 description: Transforms the string into a comparable object according to certain collation rules.
 type: docs
-weight: 20
 url: /net/aspose.cells/abstractglobalizationsettings/getcollationkey/
 ---
 ## AbstractGlobalizationSettings.GetCollationKey method

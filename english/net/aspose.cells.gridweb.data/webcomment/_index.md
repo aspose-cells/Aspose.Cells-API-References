@@ -3,7 +3,6 @@ title: WebComment
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 910
 url: /net/aspose.cells.gridweb.data/webcomment/
 ---
 ## WebComment class

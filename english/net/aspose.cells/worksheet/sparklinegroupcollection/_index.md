@@ -3,7 +3,6 @@ title: SparklineGroupCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the sparkline group collection in the worksheet.
 type: docs
-weight: 450
 url: /net/aspose.cells/worksheet/sparklinegroupcollection/
 ---
 ## Worksheet.SparklineGroupCollection property

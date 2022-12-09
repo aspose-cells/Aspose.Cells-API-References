@@ -3,7 +3,6 @@ title: EndType
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies an arrowhead for the end of a line.
 type: docs
-weight: 100
 url: /net/aspose.cells.drawing/line/endtype/
 ---
 ## Line.EndType property

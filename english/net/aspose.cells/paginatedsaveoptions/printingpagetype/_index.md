@@ -3,7 +3,6 @@ title: PrintingPageType
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates which pages will not be printed.
 type: docs
-weight: 150
 url: /net/aspose.cells/paginatedsaveoptions/printingpagetype/
 ---
 ## PaginatedSaveOptions.PrintingPageType property

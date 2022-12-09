@@ -3,7 +3,6 @@ title: Visible
 second_title: Aspose.Cells for .NET API Reference
 description: Represents whether the specified item visible.
 type: docs
-weight: 40
 url: /net/aspose.cells.gridweb.data/pivotitem/visible/
 ---
 ## PivotItem.Visible property

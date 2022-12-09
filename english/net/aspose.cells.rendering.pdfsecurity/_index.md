@@ -3,7 +3,6 @@ title: Aspose.Cells.Rendering.PdfSecurity
 second_title: Aspose.Cells for .NET API Reference
 description: Contains all security options of Rendering pdf.
 type: docs
-weight: 160
 url: /net/aspose.cells.rendering.pdfsecurity/
 ---
 Contains all security options of Rendering pdf.

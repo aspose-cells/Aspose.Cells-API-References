@@ -3,7 +3,6 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a defined name for a range of cells.
 type: docs
-weight: 4250
 url: /net/aspose.cells/name/
 ---
 ## Name class

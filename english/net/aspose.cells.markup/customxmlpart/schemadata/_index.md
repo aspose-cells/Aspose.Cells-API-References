@@ -3,7 +3,6 @@ title: SchemaData
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the XML content of this Custom XML Schema Data Storage Part.
 type: docs
-weight: 30
 url: /net/aspose.cells.markup/customxmlpart/schemadata/
 ---
 ## CustomXmlPart.SchemaData property

@@ -3,7 +3,6 @@ title: ShapeProperties
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the  object that holds the visual shape properties of the ChartPoint.
 type: docs
-weight: 220
 url: /net/aspose.cells.charts/chartpoint/shapeproperties/
 ---
 ## ChartPoint.ShapeProperties property

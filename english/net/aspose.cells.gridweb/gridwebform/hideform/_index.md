@@ -3,7 +3,6 @@ title: HideForm
 second_title: Aspose.Cells for .NET API Reference
 description: Hides the Form and shows the GridWeb control.
 type: docs
-weight: 110
 url: /net/aspose.cells.gridweb/gridwebform/hideform/
 ---
 ## GridWebForm.HideForm method

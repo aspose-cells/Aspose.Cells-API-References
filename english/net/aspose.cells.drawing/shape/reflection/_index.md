@@ -3,7 +3,6 @@ title: Reflection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a  object that specifies reflection effect for the chart element or shape.
 type: docs
-weight: 600
 url: /net/aspose.cells.drawing/shape/reflection/
 ---
 ## Shape.Reflection property

@@ -3,7 +3,6 @@ title: AutoFormatType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the PivotTable auto format type.
 type: docs
-weight: 30
 url: /net/aspose.cells.pivot/pivottable/autoformattype/
 ---
 ## PivotTable.AutoFormatType property

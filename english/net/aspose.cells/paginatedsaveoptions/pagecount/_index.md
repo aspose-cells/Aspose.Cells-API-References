@@ -3,7 +3,6 @@ title: PageCount
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the number of pages to save.
 type: docs
-weight: 120
 url: /net/aspose.cells/paginatedsaveoptions/pagecount/
 ---
 ## PaginatedSaveOptions.PageCount property

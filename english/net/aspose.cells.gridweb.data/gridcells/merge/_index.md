@@ -3,7 +3,6 @@ title: Merge
 second_title: Aspose.Cells for .NET API Reference
 description: Merges a specified range of cells into a single cell.
 type: docs
-weight: 620
 url: /net/aspose.cells.gridweb.data/gridcells/merge/
 ---
 ## GridCells.Merge method

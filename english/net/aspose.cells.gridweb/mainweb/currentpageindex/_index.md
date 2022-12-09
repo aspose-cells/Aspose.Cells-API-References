@@ -3,7 +3,6 @@ title: CurrentPageIndex
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 140
 url: /net/aspose.cells.gridweb/mainweb/currentpageindex/
 ---
 ## MainWeb.CurrentPageIndex property

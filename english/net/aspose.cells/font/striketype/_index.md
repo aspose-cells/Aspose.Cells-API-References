@@ -3,7 +3,6 @@ title: StrikeType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the strike type of the text.
 type: docs
-weight: 160
 url: /net/aspose.cells/font/striketype/
 ---
 ## Font.StrikeType property

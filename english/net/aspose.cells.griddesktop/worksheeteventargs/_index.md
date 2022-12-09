@@ -3,7 +3,6 @@ title: WorksheetEventArgs
 second_title: Aspose.Cells for .NET API Reference
 description: Provides data for worksheet events.
 type: docs
-weight: 1100
 url: /net/aspose.cells.griddesktop/worksheeteventargs/
 ---
 ## WorksheetEventArgs class

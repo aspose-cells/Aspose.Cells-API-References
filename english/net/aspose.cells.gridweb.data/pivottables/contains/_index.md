@@ -3,7 +3,6 @@ title: Contains
 second_title: Aspose.Cells for .NET API Reference
 description: Returns true if exists pivottable name tableName.
 type: docs
-weight: 80
 url: /net/aspose.cells.gridweb.data/pivottables/contains/
 ---
 ## PivotTables.Contains method

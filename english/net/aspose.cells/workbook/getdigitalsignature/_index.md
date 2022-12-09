@@ -3,7 +3,6 @@ title: GetDigitalSignature
 second_title: Aspose.Cells for .NET API Reference
 description: Gets digital signature from file.
 type: docs
-weight: 410
 url: /net/aspose.cells/workbook/getdigitalsignature/
 ---
 ## Workbook.GetDigitalSignature method

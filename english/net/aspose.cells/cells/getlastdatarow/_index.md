@@ -3,7 +3,6 @@ title: GetLastDataRow
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the last row index of cell which contains data in the specified column.
 type: docs
-weight: 770
 url: /net/aspose.cells/cells/getlastdatarow/
 ---
 ## Cells.GetLastDataRow method

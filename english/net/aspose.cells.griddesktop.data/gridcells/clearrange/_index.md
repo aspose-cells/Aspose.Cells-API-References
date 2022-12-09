@@ -3,7 +3,6 @@ title: ClearRange
 second_title: Aspose.Cells for .NET API Reference
 description: Clears contents and formatting of a range.
 type: docs
-weight: 260
 url: /net/aspose.cells.griddesktop.data/gridcells/clearrange/
 ---
 ## ClearRange(int, int, int, int) {#clearrange_1}

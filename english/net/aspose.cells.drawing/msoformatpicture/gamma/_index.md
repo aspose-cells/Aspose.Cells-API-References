@@ -3,7 +3,6 @@ title: Gamma
 second_title: Aspose.Cells for .NET API Reference
 description: Represents gamma of the picture.
 type: docs
-weight: 40
 url: /net/aspose.cells.drawing/msoformatpicture/gamma/
 ---
 ## MsoFormatPicture.Gamma property

@@ -3,7 +3,6 @@ title: Tag
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a string saved with the PivotTable report.
 type: docs
-weight: 730
 url: /net/aspose.cells.pivot/pivottable/tag/
 ---
 ## PivotTable.Tag property

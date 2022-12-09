@@ -3,7 +3,6 @@ title: InputRange
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the worksheet range used to fill the specified combo box.
 type: docs
-weight: 280
 url: /net/aspose.cells.drawing/shape/inputrange/
 ---
 ## Shape.InputRange property

@@ -3,7 +3,6 @@ title: AddShapeInChartByScale
 second_title: Aspose.Cells for .NET API Reference
 description: Add a shape to chart. All unit is percent scale of chart area.
 type: docs
-weight: 280
 url: /net/aspose.cells.drawing/shapecollection/addshapeinchartbyscale/
 ---
 ## AddShapeInChartByScale(MsoDrawingType, PlacementType, double, double, double, double) {#addshapeinchartbyscale}

@@ -3,7 +3,6 @@ title: Area
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents an area format.
 type: docs
-weight: 1770
 url: /net/aspose.cells.drawing/area/
 ---
 ## Area class

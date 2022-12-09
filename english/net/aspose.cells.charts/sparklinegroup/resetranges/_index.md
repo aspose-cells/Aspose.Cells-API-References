@@ -3,7 +3,6 @@ title: ResetRanges
 second_title: Aspose.Cells for .NET API Reference
 description: Resets the data range and location range of the sparkline group. This method will clear original sparkline items in the group and creates new sparkline items for the new ranges.
 type: docs
-weight: 290
 url: /net/aspose.cells.charts/sparklinegroup/resetranges/
 ---
 ## SparklineGroup.ResetRanges method

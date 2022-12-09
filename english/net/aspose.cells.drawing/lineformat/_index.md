@@ -3,7 +3,6 @@ title: LineFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Represents all setting of the line.
 type: docs
-weight: 2230
 url: /net/aspose.cells.drawing/lineformat/
 ---
 ## LineFormat class

@@ -3,7 +3,6 @@ title: IsIncludeNewItemsInFilter
 second_title: Aspose.Cells for .NET API Reference
 description: indicates whether the field can include new items in manual filter The default value is false.
 type: docs
-weight: 240
 url: /net/aspose.cells.pivot/pivotfield/isincludenewitemsinfilter/
 ---
 ## PivotField.IsIncludeNewItemsInFilter property

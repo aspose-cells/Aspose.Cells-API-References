@@ -3,7 +3,6 @@ title: FullText
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the name full text of the object with the scope setting.
 type: docs
-weight: 20
 url: /net/aspose.cells/name/fulltext/
 ---
 ## Name.FullText property

@@ -3,7 +3,6 @@ title: GroupRows
 second_title: Aspose.Cells for .NET API Reference
 description: Groups rows.
 type: docs
-weight: 310
 url: /net/aspose.cells.gridweb.data/webworksheet/grouprows/
 ---
 ## GroupRows(int, int) {#grouprows}

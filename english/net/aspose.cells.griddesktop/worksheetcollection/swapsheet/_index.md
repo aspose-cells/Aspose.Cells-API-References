@@ -3,7 +3,6 @@ title: SwapSheet
 second_title: Aspose.Cells for .NET API Reference
 description: Swaps the two sheets.
 type: docs
-weight: 170
 url: /net/aspose.cells.griddesktop/worksheetcollection/swapsheet/
 ---
 ## WorksheetCollection.SwapSheet method

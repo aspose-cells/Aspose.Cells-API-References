@@ -3,7 +3,6 @@ title: GraphicType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the page background graphic type.
 type: docs
-weight: 50
 url: /net/aspose.cells.ods/odspagebackground/graphictype/
 ---
 ## OdsPageBackground.GraphicType property

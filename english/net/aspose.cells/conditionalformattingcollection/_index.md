@@ -3,7 +3,6 @@ title: ConditionalFormattingCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates a collection of FormatCondition./formatcondition objects.
 type: docs
-weight: 1110
 url: /net/aspose.cells/conditionalformattingcollection/
 ---
 ## ConditionalFormattingCollection class

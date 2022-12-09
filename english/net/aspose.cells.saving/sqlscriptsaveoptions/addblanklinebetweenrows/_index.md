@@ -3,7 +3,6 @@ title: AddBlankLineBetweenRows
 second_title: Aspose.Cells for .NET API Reference
 description: Insert blank line between each data.
 type: docs
-weight: 20
 url: /net/aspose.cells.saving/sqlscriptsaveoptions/addblanklinebetweenrows/
 ---
 ## SqlScriptSaveOptions.AddBlankLineBetweenRows property

@@ -3,7 +3,6 @@ title: DestinationName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets name of destination.
 type: docs
-weight: 30
 url: /net/aspose.cells.rendering/pdfbookmarkentry/destinationname/
 ---
 ## PdfBookmarkEntry.DestinationName property

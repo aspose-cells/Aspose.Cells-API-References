@@ -3,7 +3,6 @@ title: MenuItemAvailable_DeleteRow
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether the context menu item DeleteRow is available.
 type: docs
-weight: 100
 url: /net/aspose.cells.griddesktop/contextmenumanager/menuitemavailable_deleterow/
 ---
 ## ContextMenuManager.MenuItemAvailable_DeleteRow property

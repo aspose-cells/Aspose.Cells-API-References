@@ -3,7 +3,6 @@ title: CfIcons
 second_title: Aspose.Cells for .NET API Reference
 description: Get theConditionalFormattingIconaspose.cells/conditionalformattingicon from the collection
 type: docs
-weight: 10
 url: /net/aspose.cells/iconset/cficons/
 ---
 ## IconSet.CfIcons property

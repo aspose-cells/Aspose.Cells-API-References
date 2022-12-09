@@ -3,7 +3,6 @@ title: IntegralHeight
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the control will only show complete lines of text without showing any partial lines.
 type: docs
-weight: 70
 url: /net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/integralheight/
 ---
 ## TextBoxActiveXControl.IntegralHeight property

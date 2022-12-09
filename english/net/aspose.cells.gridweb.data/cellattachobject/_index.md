@@ -3,7 +3,6 @@ title: CellAttachObject
 second_title: Aspose.Cells for .NET API Reference
 description: Represents an cells attachment object like Comment Hyperlink etc.
 type: docs
-weight: 80
 url: /net/aspose.cells.gridweb.data/cellattachobject/
 ---
 ## CellAttachObject class

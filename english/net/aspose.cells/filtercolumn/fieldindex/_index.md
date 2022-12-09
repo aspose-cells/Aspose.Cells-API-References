@@ -3,7 +3,6 @@ title: FieldIndex
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 10
 url: /net/aspose.cells/filtercolumn/fieldindex/
 ---
 ## FilterColumn.FieldIndex property

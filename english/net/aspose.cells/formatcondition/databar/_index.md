@@ -3,7 +3,6 @@ title: DataBar
 second_title: Aspose.Cells for .NET API Reference
 description: Get the conditional formattings DataBar instance. The default instances color is blue. Valid only for type is DataBar.
 type: docs
-weight: 30
 url: /net/aspose.cells/formatcondition/databar/
 ---
 ## FormatCondition.DataBar property

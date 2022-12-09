@@ -3,7 +3,6 @@ title: DropZonesVisible
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies whether any pivot controls can appear on the pivot chart.
 type: docs
-weight: 50
 url: /net/aspose.cells.charts/pivotoptions/dropzonesvisible/
 ---
 ## PivotOptions.DropZonesVisible property

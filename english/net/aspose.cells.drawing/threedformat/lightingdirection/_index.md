@@ -3,7 +3,6 @@ title: LightingDirection
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the direction from which the light rig is oriented in relation to the scene.
 type: docs
-weight: 100
 url: /net/aspose.cells.drawing/threedformat/lightingdirection/
 ---
 ## ThreeDFormat.LightingDirection property

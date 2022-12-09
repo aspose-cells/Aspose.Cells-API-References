@@ -3,7 +3,6 @@ title: EmfRenderSetting
 second_title: Aspose.Cells for .NET API Reference
 description: Setting for rendering Emf metafile.
 type: docs
-weight: 3180
 url: /net/aspose.cells/emfrendersetting/
 ---
 ## EmfRenderSetting enumeration

@@ -3,7 +3,6 @@ title: RefreshedByWho
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the name of the user who last refreshed the PivotTable
 type: docs
-weight: 520
 url: /net/aspose.cells.pivot/pivottable/refreshedbywho/
 ---
 ## PivotTable.RefreshedByWho property

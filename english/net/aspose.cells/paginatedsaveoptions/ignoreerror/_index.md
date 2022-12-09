@@ -3,7 +3,6 @@ title: IgnoreError
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates if you need to hide the error while rendering. The error can be error in shape image chart rendering etc.
 type: docs
-weight: 80
 url: /net/aspose.cells/paginatedsaveoptions/ignoreerror/
 ---
 ## PaginatedSaveOptions.IgnoreError property

@@ -3,7 +3,6 @@ title: IsProtected
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether this VBA project is protected.
 type: docs
-weight: 30
 url: /net/aspose.cells.vba/vbaproject/isprotected/
 ---
 ## VbaProject.IsProtected property

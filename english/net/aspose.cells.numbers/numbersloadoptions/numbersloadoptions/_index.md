@@ -3,7 +3,6 @@ title: NumbersLoadOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Constructor.
 type: docs
-weight: 10
 url: /net/aspose.cells.numbers/numbersloadoptions/numbersloadoptions/
 ---
 ## NumbersLoadOptions constructor

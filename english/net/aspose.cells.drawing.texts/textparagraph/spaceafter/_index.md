@@ -3,7 +3,6 @@ title: SpaceAfter
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the amount of vertical white space that will be present after a paragraph.
 type: docs
-weight: 140
 url: /net/aspose.cells.drawing.texts/textparagraph/spaceafter/
 ---
 ## TextParagraph.SpaceAfter property

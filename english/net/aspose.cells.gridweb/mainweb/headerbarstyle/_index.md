@@ -3,7 +3,6 @@ title: HeaderBarStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the header bars style.
 type: docs
-weight: 390
 url: /net/aspose.cells.gridweb/mainweb/headerbarstyle/
 ---
 ## MainWeb.HeaderBarStyle property

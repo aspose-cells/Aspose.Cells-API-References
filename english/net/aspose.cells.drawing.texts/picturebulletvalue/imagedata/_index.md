@@ -3,7 +3,6 @@ title: ImageData
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets image data of the bullet.
 type: docs
-weight: 20
 url: /net/aspose.cells.drawing.texts/picturebulletvalue/imagedata/
 ---
 ## PictureBulletValue.ImageData property

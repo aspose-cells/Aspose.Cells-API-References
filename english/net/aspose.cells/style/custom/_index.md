@@ -3,7 +3,6 @@ title: Custom
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the custom number format string of this style object. If the custom number format is not setFor example the number format is builtin  will be returned.
 type: docs
-weight: 70
 url: /net/aspose.cells/style/custom/
 ---
 ## Style.Custom property

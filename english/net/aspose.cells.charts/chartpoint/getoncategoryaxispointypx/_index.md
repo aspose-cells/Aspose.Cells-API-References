@@ -3,7 +3,6 @@ title: GetOnCategoryAxisPointYPx
 second_title: Aspose.Cells for .NET API Reference
 description: Gets ycoordinate of the point on category axis after calls Chart.Calculate method. Only applies to Area chart.
 type: docs
-weight: 390
 url: /net/aspose.cells.charts/chartpoint/getoncategoryaxispointypx/
 ---
 ## ChartPoint.GetOnCategoryAxisPointYPx method

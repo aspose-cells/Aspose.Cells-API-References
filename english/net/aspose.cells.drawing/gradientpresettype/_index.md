@@ -3,7 +3,6 @@ title: GradientPresetType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents gradient preset color type.
 type: docs
-weight: 2100
 url: /net/aspose.cells.drawing/gradientpresettype/
 ---
 ## GradientPresetType enumeration

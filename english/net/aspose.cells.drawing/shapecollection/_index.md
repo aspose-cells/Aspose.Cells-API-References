@@ -3,7 +3,6 @@ title: ShapeCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents all the shape in a worksheet/chart.
 type: docs
-weight: 2670
 url: /net/aspose.cells.drawing/shapecollection/
 ---
 ## ShapeCollection class

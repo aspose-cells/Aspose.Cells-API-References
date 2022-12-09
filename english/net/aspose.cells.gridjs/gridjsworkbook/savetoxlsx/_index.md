@@ -3,7 +3,6 @@ title: SaveToXlsx
 second_title: Aspose.Cells for .NET API Reference
 description: Saves the worksheets to the file paththe save format is xlsx
 type: docs
-weight: 170
 url: /net/aspose.cells.gridjs/gridjsworkbook/savetoxlsx/
 ---
 ## SaveToXlsx(string) {#savetoxlsx_1}

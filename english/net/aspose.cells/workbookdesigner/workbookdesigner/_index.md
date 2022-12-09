@@ -3,7 +3,6 @@ title: WorkbookDesigner
 second_title: Aspose.Cells for .NET API Reference
 description: Initializes a new instance of the WorkbookDesigneraspose.cells/workbookdesigner class.
 type: docs
-weight: 10
 url: /net/aspose.cells/workbookdesigner/workbookdesigner/
 ---
 ## WorkbookDesigner() {#constructor}

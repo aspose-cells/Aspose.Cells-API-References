@@ -3,7 +3,6 @@ title: GetEnumerator
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the rows enumerator
 type: docs
-weight: 30
 url: /net/aspose.cells.gridweb.data/gridrowcollection/getenumerator/
 ---
 ## GridRowCollection.GetEnumerator method

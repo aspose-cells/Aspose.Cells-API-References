@@ -3,7 +3,6 @@ title: IsAscendSort
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the specified PivotTable field is autosorted ascending.
 type: docs
-weight: 30
 url: /net/aspose.cells.griddesktop.data/gridpivotfield/isascendsort/
 ---
 ## GridPivotField.IsAscendSort property

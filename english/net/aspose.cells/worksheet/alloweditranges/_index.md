@@ -3,7 +3,6 @@ title: AllowEditRanges
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the allow edit range collection in the worksheet.
 type: docs
-weight: 20
 url: /net/aspose.cells/worksheet/alloweditranges/
 ---
 ## Worksheet.AllowEditRanges property

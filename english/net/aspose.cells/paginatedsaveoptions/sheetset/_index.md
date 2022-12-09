@@ -3,7 +3,6 @@ title: SheetSet
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the sheets to render. Default is all visible sheets in the workbook Visibleaspose.cells.rendering/sheetset/visible.
 type: docs
-weight: 160
 url: /net/aspose.cells/paginatedsaveoptions/sheetset/
 ---
 ## PaginatedSaveOptions.SheetSet property

@@ -3,7 +3,6 @@ title: SetRange
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the range to which the specified AutoFilter applies.
 type: docs
-weight: 200
 url: /net/aspose.cells/autofilter/setrange/
 ---
 ## AutoFilter.SetRange method

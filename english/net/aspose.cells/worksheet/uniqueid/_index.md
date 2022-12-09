@@ -3,7 +3,6 @@ title: UniqueId
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the unique id it is same as 15DB5C3CA5A148AF8F253D86AC232D4F.
 type: docs
-weight: 540
 url: /net/aspose.cells/worksheet/uniqueid/
 ---
 ## Worksheet.UniqueId property

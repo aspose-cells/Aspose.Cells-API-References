@@ -3,7 +3,6 @@ title: Button
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a cell button control.
 type: docs
-weight: 30
 url: /net/aspose.cells.griddesktop/button/
 ---
 ## Button class

@@ -3,7 +3,6 @@ title: ToString
 second_title: Aspose.Cells for .NET API Reference
 description: Returns a string represents the current object.
 type: docs
-weight: 40
 url: /net/aspose.cells.gridweb/celleventargs/tostring/
 ---
 ## CellEventArgs.ToString method

@@ -3,7 +3,6 @@ title: PowerQueryFormulas
 second_title: Aspose.Cells for .NET API Reference
 description: Gets all power query formulas.
 type: docs
-weight: 20
 url: /net/aspose.cells.querytables/datamashup/powerqueryformulas/
 ---
 ## DataMashup.PowerQueryFormulas property

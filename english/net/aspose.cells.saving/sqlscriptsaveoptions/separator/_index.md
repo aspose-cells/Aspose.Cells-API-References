@@ -3,7 +3,6 @@ title: Separator
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets character separator of sql script.
 type: docs
-weight: 130
 url: /net/aspose.cells.saving/sqlscriptsaveoptions/separator/
 ---
 ## SqlScriptSaveOptions.Separator property

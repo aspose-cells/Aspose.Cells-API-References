@@ -3,7 +3,6 @@ title: LastPointColor
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the color of the last point of data in the sparkline group.
 type: docs
-weight: 60
 url: /net/aspose.cells.charts/sparklinegroup/lastpointcolor/
 ---
 ## SparklineGroup.LastPointColor property

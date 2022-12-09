@@ -3,7 +3,6 @@ title: StartCell
 second_title: Aspose.Cells for .NET API Reference
 description: Prepares to process a cell.
 type: docs
-weight: 30
 url: /net/aspose.cells/lightcellsdatahandler/startcell/
 ---
 ## LightCellsDataHandler.StartCell method

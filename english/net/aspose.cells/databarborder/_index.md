@@ -3,7 +3,6 @@ title: DataBarBorder
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the border of the data bars specified by a conditional formatting rule.
 type: docs
-weight: 1270
 url: /net/aspose.cells/databarborder/
 ---
 ## DataBarBorder class

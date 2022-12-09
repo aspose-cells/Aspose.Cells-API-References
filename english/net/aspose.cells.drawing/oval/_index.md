@@ -3,7 +3,6 @@ title: Oval
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the oval shape.
 type: docs
-weight: 2460
 url: /net/aspose.cells.drawing/oval/
 ---
 ## Oval class

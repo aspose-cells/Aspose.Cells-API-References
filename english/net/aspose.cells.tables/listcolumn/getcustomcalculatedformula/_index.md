@@ -3,7 +3,6 @@ title: GetCustomCalculatedFormula
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the formula of this list column.
 type: docs
-weight: 50
 url: /net/aspose.cells.tables/listcolumn/getcustomcalculatedformula/
 ---
 ## ListColumn.GetCustomCalculatedFormula method

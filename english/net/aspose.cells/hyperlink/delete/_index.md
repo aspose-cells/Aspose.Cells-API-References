@@ -3,7 +3,6 @@ title: Delete
 second_title: Aspose.Cells for .NET API Reference
 description: Deletes this hyperlink
 type: docs
-weight: 60
 url: /net/aspose.cells/hyperlink/delete/
 ---
 ## Hyperlink.Delete method

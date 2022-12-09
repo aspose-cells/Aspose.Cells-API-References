@@ -3,7 +3,6 @@ title: GroupShape
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the group shape which contains the individual shapes.
 type: docs
-weight: 2160
 url: /net/aspose.cells.drawing/groupshape/
 ---
 ## GroupShape class

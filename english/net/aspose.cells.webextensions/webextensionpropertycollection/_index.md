@@ -3,7 +3,6 @@ title: WebExtensionPropertyCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the list of web extension properties.
 type: docs
-weight: 6510
 url: /net/aspose.cells.webextensions/webextensionpropertycollection/
 ---
 ## WebExtensionPropertyCollection class

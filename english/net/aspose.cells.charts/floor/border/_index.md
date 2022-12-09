@@ -3,7 +3,6 @@ title: Border
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the border Lineaspose.cells.drawing/line.
 type: docs
-weight: 10
 url: /net/aspose.cells.charts/floor/border/
 ---
 ## Floor.Border property

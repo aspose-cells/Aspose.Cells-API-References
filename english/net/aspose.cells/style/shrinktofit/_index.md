@@ -3,7 +3,6 @@ title: ShrinkToFit
 second_title: Aspose.Cells for .NET API Reference
 description: Represents if text automatically shrinks to fit in the available column width.
 type: docs
-weight: 290
 url: /net/aspose.cells/style/shrinktofit/
 ---
 ## Style.ShrinkToFit property

@@ -3,7 +3,6 @@ title: Material
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the preset material which is combined with the lighting properties to give the final look and feel of a shape.
 type: docs
-weight: 110
 url: /net/aspose.cells.drawing/threedformat/material/
 ---
 ## ThreeDFormat.Material property

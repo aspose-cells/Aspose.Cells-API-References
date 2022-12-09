@@ -3,7 +3,6 @@ title: CellValidationFailed
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs when a grid cell validates failed.
 type: docs
-weight: 490
 url: /net/aspose.cells.griddesktop/griddesktop/cellvalidationfailed/
 ---
 ## GridDesktop.CellValidationFailed event

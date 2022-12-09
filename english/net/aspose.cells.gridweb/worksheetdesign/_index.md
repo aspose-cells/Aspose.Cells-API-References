@@ -3,7 +3,6 @@ title: WorksheetDesign
 second_title: Aspose.Cells for .NET API Reference
 description: Inherited from WebWorksheet. Used in designtime only.
 type: docs
-weight: 1170
 url: /net/aspose.cells.gridweb/worksheetdesign/
 ---
 ## WorksheetDesign class
@@ -37,7 +36,7 @@ public class WorksheetDesign : WebWorksheet
 | [DataSource](../../aspose.cells.gridweb.data/webworksheet/datasource) { get; set; } | Gets or sets the DataSource. Generally it's a DataSet object.(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet).) |
 | [EnableCreateBindColumnHeader](../../aspose.cells.gridweb.data/webworksheet/enablecreatebindcolumnheader) { get; set; } | In data-binding mode, indicates whether to create bind column header captions in the sheet.(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet).) |
 | [Hyperlinks](../../aspose.cells.gridweb.data/webworksheet/hyperlinks) { get; } | Gets the HyperlinkCollection collection.(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet).) |
-| [Index](../../aspose.cells.gridweb.data/webworksheet/index) { get; } | Gets the index of itself within the [`WebWorksheets`](../../aspose.cells.gridweb.data/webworksheets).(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet).) |
+| [Index](../../aspose.cells.gridweb.data/webworksheet/index) { get; } | Gets the index of itself within the worksheets.(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet).) |
 | [IsProtected](../../aspose.cells.gridweb.data/webworksheet/isprotected) { get; set; } | Gets or sets whether the worksheet is protected. When a worksheet is protected, all the cells can not be edit except the cell whose IsLocked property is false.(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet).) |
 | [Name](../../aspose.cells.gridweb.data/webworksheet/name) { get; set; } | Gets or sets the name of the sheet.(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet).) |
 | [RowFilter](../../aspose.cells.gridweb.data/webworksheet/rowfilter) { get; } | (Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet).) |
@@ -55,9 +54,8 @@ public class WorksheetDesign : WebWorksheet
 | [Copy](../../aspose.cells.gridweb.data/webworksheet/copy)(WebWorksheet) | Copies from another worksheet object.(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet).) |
 | [CreateAutoGenratedColumns](../../aspose.cells.gridweb.data/webworksheet/createautogenratedcolumns)() | After setting a datasource for the worksheet, call this method to generate the bind columns automatically.(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet).) |
 | [CreateNewBindRow](../../aspose.cells.gridweb.data/webworksheet/createnewbindrow)() | Creates a new bind row and bind to the datasource.(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet).) |
-| [CreateSubtotal](../../aspose.cells.gridweb.data/webworksheet/createsubtotal)(int, int, int, SubtotalFunction, int[], string, TableItemStyle, TableItemStyle, NumberType, string) | Creates subtotal in the sheet.(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet).) |
+| [CreateSubtotal](../../aspose.cells.gridweb.data/webworksheet/createsubtotal)(int, int, int, SubtotalFunction, int[], string, GridTableItemStyle, GridTableItemStyle, NumberType, string) | Creates subtotal in the sheet.(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet).) |
 | override [DataBind](../../aspose.cells.gridweb.data/webworksheet/databind)() | Bind the sheet to the DataSource.(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet).) |
-| [DataSourceControlUpdate](../../aspose.cells.gridweb.data/webworksheet/datasourcecontrolupdate)(AccessDataSource) | (Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet).) |
 | [DeleteBindRow](../../aspose.cells.gridweb.data/webworksheet/deletebindrow)(int) | Deletes a bind row.(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet).) |
 | [FreezePanes](../../aspose.cells.gridweb.data/webworksheet/freezepanes)(int, int, int, int) | (Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet).) |
 | [GroupRows](../../aspose.cells.gridweb.data/webworksheet/grouprows)(int, int) | Groups rows.(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet).) |

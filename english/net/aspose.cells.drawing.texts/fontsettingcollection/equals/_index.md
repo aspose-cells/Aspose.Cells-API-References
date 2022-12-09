@@ -3,7 +3,6 @@ title: Equals
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 90
 url: /net/aspose.cells.drawing.texts/fontsettingcollection/equals/
 ---
 ## FontSettingCollection.Equals method

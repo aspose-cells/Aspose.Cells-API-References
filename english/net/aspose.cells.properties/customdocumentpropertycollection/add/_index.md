@@ -3,7 +3,6 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Creates a new custom document property of the PropertyType.String data type.
 type: docs
-weight: 10
 url: /net/aspose.cells.properties/customdocumentpropertycollection/add/
 ---
 ## Add(string, string) {#add_4}

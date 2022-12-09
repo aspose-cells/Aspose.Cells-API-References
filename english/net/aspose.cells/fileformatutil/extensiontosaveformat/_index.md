@@ -3,7 +3,6 @@ title: ExtensionToSaveFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Converts a file name extension into a SaveFormat value.
 type: docs
-weight: 20
 url: /net/aspose.cells/fileformatutil/extensiontosaveformat/
 ---
 ## FileFormatUtil.ExtensionToSaveFormat method

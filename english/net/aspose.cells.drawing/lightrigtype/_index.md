@@ -3,7 +3,6 @@ title: LightRigType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a preset light right that can be applied to a shape
 type: docs
-weight: 2200
 url: /net/aspose.cells.drawing/lightrigtype/
 ---
 ## LightRigType enumeration

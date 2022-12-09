@@ -3,7 +3,6 @@ title: GetHorizontalBreaks
 second_title: Aspose.Cells for .NET API Reference
 description: get pivot table row index list of horizontal pagebreaks
 type: docs
-weight: 880
 url: /net/aspose.cells.pivot/pivottable/gethorizontalbreaks/
 ---
 ## PivotTable.GetHorizontalBreaks method

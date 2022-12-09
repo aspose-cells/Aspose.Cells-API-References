@@ -3,7 +3,6 @@ title: LegendEntry
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a legend entry in a chart legend.
 type: docs
-weight: 710
 url: /net/aspose.cells.charts/legendentry/
 ---
 ## LegendEntry class

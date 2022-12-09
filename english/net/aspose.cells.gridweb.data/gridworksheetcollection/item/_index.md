@@ -1,14 +1,13 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API Reference
-description: Gets the Worksheet element at the specified index.
+description: Gets the GridWorksheetaspose.cells.gridweb.data/gridworksheet element at the specified index.
 type: docs
-weight: 60
 url: /net/aspose.cells.gridweb.data/gridworksheetcollection/item/
 ---
 ## GridWorksheetCollection indexer (1 of 2)
 
-Gets the Worksheet element at the specified index.
+Gets the [`GridWorksheet`](../../gridworksheet) element at the specified index.
 
 ```csharp
 public GridWorksheet this[int index] { get; }
@@ -33,7 +32,7 @@ The element at the specified index.
 
 ## GridWorksheetCollection indexer (2 of 2)
 
-Gets the Worksheet element with the specified name.
+Gets the [`GridWorksheet`](../../gridworksheet) element with the specified name.
 
 ```csharp
 public GridWorksheet this[string sheetName] { get; }

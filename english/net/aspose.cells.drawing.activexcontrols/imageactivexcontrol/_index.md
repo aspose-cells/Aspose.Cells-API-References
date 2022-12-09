@@ -3,7 +3,6 @@ title: ImageActiveXControl
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the image control.
 type: docs
-weight: 1650
 url: /net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/
 ---
 ## ImageActiveXControl class

@@ -3,7 +3,6 @@ title: MinColor
 second_title: Aspose.Cells for .NET API Reference
 description: Get or set the gradient color for the minimum value in the range.
 type: docs
-weight: 70
 url: /net/aspose.cells/colorscale/mincolor/
 ---
 ## ColorScale.MinColor property

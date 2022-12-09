@@ -3,7 +3,6 @@ title: CopyRows
 second_title: Aspose.Cells for .NET API Reference
 description: Copies data and formats of some whole rows.
 type: docs
-weight: 480
 url: /net/aspose.cells/cells/copyrows/
 ---
 ## CopyRows(Cells, int, int, int) {#copyrows}

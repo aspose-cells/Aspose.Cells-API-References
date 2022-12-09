@@ -3,7 +3,6 @@ title: Placement
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet.
 type: docs
-weight: 590
 url: /net/aspose.cells.drawing/shape/placement/
 ---
 ## Shape.Placement property

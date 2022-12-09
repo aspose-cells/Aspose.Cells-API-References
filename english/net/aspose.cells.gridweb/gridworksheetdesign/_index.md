@@ -3,7 +3,6 @@ title: GridWorksheetDesign
 second_title: Aspose.Cells for .NET API Reference
 description: Inherited from GridWorksheet. Used in designtime only.
 type: docs
-weight: 1030
 url: /net/aspose.cells.gridweb/gridworksheetdesign/
 ---
 ## GridWorksheetDesign class
@@ -43,7 +42,7 @@ public class GridWorksheetDesign : GridWorksheet
 | [FirstVisibleColumn](../../aspose.cells.gridweb.data/gridworksheet/firstvisiblecolumn) { get; set; } | (Inherited from [`GridWorksheet`](../../aspose.cells.gridweb.data/gridworksheet).) |
 | [FirstVisibleRow](../../aspose.cells.gridweb.data/gridworksheet/firstvisiblerow) { get; set; } | (Inherited from [`GridWorksheet`](../../aspose.cells.gridweb.data/gridworksheet).) |
 | [GridActiveCell](../../aspose.cells.gridweb.data/gridworksheet/gridactivecell) { get; set; } | (Inherited from [`GridWorksheet`](../../aspose.cells.gridweb.data/gridworksheet).) |
-| [Hyperlinks](../../aspose.cells.gridweb.data/gridworksheet/hyperlinks) { get; } | Gets the HyperlinkCollection collection.(Inherited from [`GridWorksheet`](../../aspose.cells.gridweb.data/gridworksheet).) |
+| [Hyperlinks](../../aspose.cells.gridweb.data/gridworksheet/hyperlinks) { get; } | Gets the [`GridHyperlinkCollection`](../../aspose.cells.gridweb.data/gridhyperlinkcollection) collection.(Inherited from [`GridWorksheet`](../../aspose.cells.gridweb.data/gridworksheet).) |
 | [Index](../../aspose.cells.gridweb.data/gridworksheet/index) { get; } | (Inherited from [`GridWorksheet`](../../aspose.cells.gridweb.data/gridworksheet).) |
 | [IsGridlinesVisible](../../aspose.cells.gridweb.data/gridworksheet/isgridlinesvisible) { get; set; } | Gets or sets a value indicating whether the grid lines are visible.Default is true.(Inherited from [`GridWorksheet`](../../aspose.cells.gridweb.data/gridworksheet).) |
 | [IsSummaryRowBelow](../../aspose.cells.gridweb.data/gridworksheet/issummaryrowbelow) { get; set; } | Indicates if the summary row will be positioned below the detail rows in the outline.(Inherited from [`GridWorksheet`](../../aspose.cells.gridweb.data/gridworksheet).) |

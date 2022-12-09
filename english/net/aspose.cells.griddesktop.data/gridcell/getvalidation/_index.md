@@ -3,7 +3,6 @@ title: GetValidation
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the validation which applied to this cell.if not set return null.
 type: docs
-weight: 290
 url: /net/aspose.cells.griddesktop.data/gridcell/getvalidation/
 ---
 ## GridCell.GetValidation method

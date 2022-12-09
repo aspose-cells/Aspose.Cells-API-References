@@ -3,7 +3,6 @@ title: Cell
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a grid cell.
 type: docs
-weight: 20
 url: /net/aspose.cells.griddesktop/celleventargs/cell/
 ---
 ## CellEventArgs.Cell property

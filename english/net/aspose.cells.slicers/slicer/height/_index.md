@@ -3,7 +3,6 @@ title: Height
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the height of the specified slicer in points.
 type: docs
-weight: 60
 url: /net/aspose.cells.slicers/slicer/height/
 ---
 ## Slicer.Height property

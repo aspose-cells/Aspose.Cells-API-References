@@ -3,7 +3,6 @@ title: ShapePath
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a creation path consisting of a series of moves lines and curves that when combined will form a geometric shape.
 type: docs
-weight: 2720
 url: /net/aspose.cells.drawing/shapepath/
 ---
 ## ShapePath class

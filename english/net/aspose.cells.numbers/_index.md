@@ -3,7 +3,6 @@ title: Aspose.Cells.Numbers
 second_title: Aspose.Cells for .NET API Reference
 description: Contains all classes of Mac Apple Numbers files.
 type: docs
-weight: 100
 url: /net/aspose.cells.numbers/
 ---
 Contains all classes of Mac Apple Numbers files.

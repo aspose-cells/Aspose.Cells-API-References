@@ -3,7 +3,6 @@ title: StartSheet
 second_title: Aspose.Cells for .NET API Reference
 description: Starts to save a worksheet.
 type: docs
-weight: 60
 url: /net/aspose.cells/lightcellsdataprovider/startsheet/
 ---
 ## LightCellsDataProvider.StartSheet method

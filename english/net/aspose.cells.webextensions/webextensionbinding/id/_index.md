@@ -3,7 +3,6 @@ title: Id
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the binding identifier.
 type: docs
-weight: 30
 url: /net/aspose.cells.webextensions/webextensionbinding/id/
 ---
 ## WebExtensionBinding.Id property

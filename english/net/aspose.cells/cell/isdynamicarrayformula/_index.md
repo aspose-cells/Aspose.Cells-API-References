@@ -3,7 +3,6 @@ title: IsDynamicArrayFormula
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the cells formula is dynamic array formulatrue or legacy array formulafalse.
 type: docs
-weight: 150
 url: /net/aspose.cells/cell/isdynamicarrayformula/
 ---
 ## Cell.IsDynamicArrayFormula property

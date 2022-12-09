@@ -3,7 +3,6 @@ title: AttachedFilesDirectory
 second_title: Aspose.Cells for .NET API Reference
 description: The directory that the attached files will be saved to. Only for saving to html stream.
 type: docs
-weight: 30
 url: /net/aspose.cells/htmlsaveoptions/attachedfilesdirectory/
 ---
 ## HtmlSaveOptions.AttachedFilesDirectory property

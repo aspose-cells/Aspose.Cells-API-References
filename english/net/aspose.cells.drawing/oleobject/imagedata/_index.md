@@ -3,7 +3,6 @@ title: ImageData
 second_title: Aspose.Cells for .NET API Reference
 description: Represents image of ole object as byte array.
 type: docs
-weight: 70
 url: /net/aspose.cells.drawing/oleobject/imagedata/
 ---
 ## OleObject.ImageData property

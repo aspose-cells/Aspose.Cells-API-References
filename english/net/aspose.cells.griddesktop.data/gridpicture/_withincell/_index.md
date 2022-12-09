@@ -3,7 +3,6 @@ title: _withinCell
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 650
 url: /net/aspose.cells.griddesktop.data/gridpicture/_withincell/
 ---
 ## GridPicture._withinCell field

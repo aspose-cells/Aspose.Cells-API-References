@@ -3,7 +3,6 @@ title: SetFirstPageFooter
 second_title: Aspose.Cells for .NET API Reference
 description: Sets a script formatting the first page footer of an Excel file.
 type: docs
-weight: 570
 url: /net/aspose.cells/pagesetup/setfirstpagefooter/
 ---
 ## PageSetup.SetFirstPageFooter method

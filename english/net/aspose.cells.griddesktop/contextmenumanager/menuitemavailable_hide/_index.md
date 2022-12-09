@@ -3,7 +3,6 @@ title: MenuItemAvailable_Hide
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether the context menu item Hide is available.
 type: docs
-weight: 130
 url: /net/aspose.cells.griddesktop/contextmenumanager/menuitemavailable_hide/
 ---
 ## ContextMenuManager.MenuItemAvailable_Hide property

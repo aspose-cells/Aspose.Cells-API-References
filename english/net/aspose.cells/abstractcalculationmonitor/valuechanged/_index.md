@@ -3,7 +3,6 @@ title: ValueChanged
 second_title: Aspose.Cells for .NET API Reference
 description: Whether the cells value has been changed after the calculation. Should be used only in AfterCalculateaspose.cells/abstractcalculationmonitor/aftercalculate.
 type: docs
-weight: 30
 url: /net/aspose.cells/abstractcalculationmonitor/valuechanged/
 ---
 ## AbstractCalculationMonitor.ValueChanged property

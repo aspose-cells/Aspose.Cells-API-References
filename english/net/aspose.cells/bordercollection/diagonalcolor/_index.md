@@ -3,7 +3,6 @@ title: DiagonalColor
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the Color of Diagonal lines.
 type: docs
-weight: 10
 url: /net/aspose.cells/bordercollection/diagonalcolor/
 ---
 ## BorderCollection.DiagonalColor property

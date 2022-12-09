@@ -3,7 +3,6 @@ title: PreserveString
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether all worksheet values are preserved as strings. Default is false.
 type: docs
-weight: 220
 url: /net/aspose.cells/cells/preservestring/
 ---
 ## Cells.PreserveString property

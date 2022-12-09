@@ -3,7 +3,6 @@ title: AutomaticFill
 second_title: Aspose.Cells for .NET API Reference
 description: represents automatic fill.
 type: docs
-weight: 1790
 url: /net/aspose.cells.drawing/automaticfill/
 ---
 ## AutomaticFill class

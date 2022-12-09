@@ -3,7 +3,6 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a picture to the collection.
 type: docs
-weight: 30
 url: /net/aspose.cells.gridweb.data/gridpicturecollection/add/
 ---
 ## Add(int, int, int, int, Stream) {#add}
@@ -25,7 +24,7 @@ public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int low
 
 ### Return Value
 
-Picture object index.
+[`GridPicture`](../../gridpicture) object index.
 
 ### See Also
 
@@ -54,7 +53,7 @@ public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int low
 
 ### Return Value
 
-Picture object index.
+[`GridPicture`](../../gridpicture) object index.
 
 ### See Also
 
@@ -80,7 +79,7 @@ public int Add(int upperLeftRow, int upperLeftColumn, Stream stream)
 
 ### Return Value
 
-Picture object index.
+[`GridPicture`](../../gridpicture) object index.
 
 ### See Also
 
@@ -106,7 +105,7 @@ public int Add(int upperLeftRow, int upperLeftColumn, string fileName)
 
 ### Return Value
 
-Picture object index.
+[`GridPicture`](../../gridpicture) object index.
 
 ### See Also
 
@@ -135,7 +134,7 @@ public int Add(int upperLeftRow, int upperLeftColumn, string fileName, int width
 
 ### Return Value
 
-Picture object index.
+[`GridPicture`](../../gridpicture) object index.
 
 ### See Also
 

@@ -3,7 +3,6 @@ title: PivotTables
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a collection of all the PivotTable./pivottable objects
 type: docs
-weight: 790
 url: /net/aspose.cells.gridweb.data/pivottables/
 ---
 ## PivotTables class

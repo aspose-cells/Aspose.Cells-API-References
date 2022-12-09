@@ -3,7 +3,6 @@ title: HasExernalLinks
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether this workbook contains external links to other data sources.
 type: docs
-weight: 470
 url: /net/aspose.cells/workbook/hasexernallinks/
 ---
 ## Workbook.HasExernalLinks method

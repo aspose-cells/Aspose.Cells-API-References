@@ -3,7 +3,6 @@ title: GetJsonByUid
 second_title: Aspose.Cells for .NET API Reference
 description: get the json from cache by uid
 type: docs
-weight: 80
 url: /net/aspose.cells.gridjs/gridjsworkbook/getjsonbyuid/
 ---
 ## GridJsWorkbook.GetJsonByUid method

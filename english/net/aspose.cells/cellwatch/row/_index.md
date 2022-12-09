@@ -3,7 +3,6 @@ title: Row
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the row of the cell.
 type: docs
-weight: 40
 url: /net/aspose.cells/cellwatch/row/
 ---
 ## CellWatch.Row property

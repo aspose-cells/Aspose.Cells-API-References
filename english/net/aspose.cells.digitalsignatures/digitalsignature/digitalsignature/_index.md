@@ -3,7 +3,6 @@ title: DigitalSignature
 second_title: Aspose.Cells for .NET API Reference
 description: Constructor of digitalSignature. Uses .Net implementation.
 type: docs
-weight: 10
 url: /net/aspose.cells.digitalsignatures/digitalsignature/digitalsignature/
 ---
 ## DigitalSignature(X509Certificate2, string, DateTime) {#constructor_1}

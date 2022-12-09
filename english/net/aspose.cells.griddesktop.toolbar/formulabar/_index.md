@@ -3,7 +3,6 @@ title: FormulaBar
 second_title: Aspose.Cells for .NET API Reference
 description: FormulaBar
 type: docs
-weight: 1020
 url: /net/aspose.cells.griddesktop.toolbar/formulabar/
 ---
 ## FormulaBar class

@@ -3,7 +3,6 @@ title: TextOverflowType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the way the text vertical or horizontal overflow.
 type: docs
-weight: 2870
 url: /net/aspose.cells.drawing/textoverflowtype/
 ---
 ## TextOverflowType enumeration

@@ -3,7 +3,6 @@ title: CustomTheme
 second_title: Aspose.Cells for .NET API Reference
 description: Customs the theme.
 type: docs
-weight: 380
 url: /net/aspose.cells/workbook/customtheme/
 ---
 ## Workbook.CustomTheme method

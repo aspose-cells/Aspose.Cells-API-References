@@ -3,7 +3,6 @@ title: GetFullName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the full path of the file by Worksheet name when exporting Worksheet to html separately. So the references among the Worksheets can be exported correctly.
 type: docs
-weight: 10
 url: /net/aspose.cells/ifilepathprovider/getfullname/
 ---
 ## IFilePathProvider.GetFullName method

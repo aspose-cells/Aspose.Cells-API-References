@@ -3,7 +3,6 @@ title: SetHeader
 second_title: Aspose.Cells for .NET API Reference
 description: Sets a script formatting the header of an Excel file.
 type: docs
-weight: 620
 url: /net/aspose.cells/pagesetup/setheader/
 ---
 ## PageSetup.SetHeader method

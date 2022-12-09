@@ -3,7 +3,6 @@ title: BackgroundColor
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the cell background colorif style pattern is not set to solidthen it will take affect
 type: docs
-weight: 20
 url: /net/aspose.cells.griddesktop/style/backgroundcolor/
 ---
 ## Style.BackgroundColor property

@@ -3,7 +3,6 @@ title: Selected
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether this worksheet is selected when the workbook is opened.
 type: docs
-weight: 270
 url: /net/aspose.cells.gridweb.data/gridworksheet/selected/
 ---
 ## GridWorksheet.Selected property

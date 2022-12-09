@@ -1,14 +1,13 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API Reference
-description: Gets the Comment element at the specified index.
+description: Gets the GridCommentaspose.cells.gridweb.data/gridcomment element at the specified index.
 type: docs
-weight: 20
 url: /net/aspose.cells.gridweb.data/gridcommentcollection/item/
 ---
 ## GridCommentCollection indexer (1 of 3)
 
-Gets the Comment element at the specified index.
+Gets the [`GridComment`](../../gridcomment) element at the specified index.
 
 ```csharp
 public GridComment this[int index] { get; }
@@ -33,7 +32,7 @@ The element at the specified index.
 
 ## GridCommentCollection indexer (2 of 3)
 
-Gets the Comment element at the specified cell.
+Gets the [`GridComment`](../../gridcomment) element at the specified cell.
 
 ```csharp
 public GridComment this[string cellName] { get; }
@@ -58,7 +57,7 @@ The element at the specified cell.
 
 ## GridCommentCollection indexer (3 of 3)
 
-Gets the Comment element at the specified row index and column index.
+Gets the [`GridComment`](../../gridcomment) element at the specified row index and column index.
 
 ```csharp
 public GridComment this[int row, int column] { get; }

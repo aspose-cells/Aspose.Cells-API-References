@@ -3,7 +3,6 @@ title: FillFormsPermission
 second_title: Aspose.Cells for .NET API Reference
 description: Permission to fill the form fields.
 type: docs
-weight: 70
 url: /net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/fillformspermission/
 ---
 ## PdfSecurityOptions.FillFormsPermission property

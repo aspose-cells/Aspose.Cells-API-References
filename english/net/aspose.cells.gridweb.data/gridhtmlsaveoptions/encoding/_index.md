@@ -3,7 +3,6 @@ title: Encoding
 second_title: Aspose.Cells for .NET API Reference
 description: If not setuse Encoding.UTF8 as default enconding type.
 type: docs
-weight: 50
 url: /net/aspose.cells.gridweb.data/gridhtmlsaveoptions/encoding/
 ---
 ## GridHtmlSaveOptions.Encoding property

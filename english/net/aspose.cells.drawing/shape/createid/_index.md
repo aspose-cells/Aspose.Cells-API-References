@@ -3,7 +3,6 @@ title: CreateId
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets create id for this shape.
 type: docs
-weight: 90
 url: /net/aspose.cells.drawing/shape/createid/
 ---
 ## Shape.CreateId property

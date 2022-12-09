@@ -3,7 +3,6 @@ title: SizeRepresents
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets what the bubble size represents on a bubble chart.
 type: docs
-weight: 400
 url: /net/aspose.cells.charts/series/sizerepresents/
 ---
 ## Series.SizeRepresents property

@@ -3,7 +3,6 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a chart to the collection.
 type: docs
-weight: 20
 url: /net/aspose.cells.charts/chartcollection/add/
 ---
 ## Add(ChartType, int, int, int, int) {#add}

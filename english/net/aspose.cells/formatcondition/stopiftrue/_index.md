@@ -3,7 +3,6 @@ title: StopIfTrue
 second_title: Aspose.Cells for .NET API Reference
 description: True no rules with lower priority may be applied over this rule when this rule evaluates to true. Only applies for Excel 2007
 type: docs
-weight: 90
 url: /net/aspose.cells/formatcondition/stopiftrue/
 ---
 ## FormatCondition.StopIfTrue property

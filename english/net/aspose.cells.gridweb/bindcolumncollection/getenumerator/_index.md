@@ -3,7 +3,6 @@ title: GetEnumerator
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a enumerator.
 type: docs
-weight: 110
 url: /net/aspose.cells.gridweb/bindcolumncollection/getenumerator/
 ---
 ## BindColumnCollection.GetEnumerator method

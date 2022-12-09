@@ -3,7 +3,6 @@ title: MinRow
 second_title: Aspose.Cells for .NET API Reference
 description: Minimum row index of cell which contains data or style.
 type: docs
-weight: 190
 url: /net/aspose.cells/cells/minrow/
 ---
 ## Cells.MinRow property

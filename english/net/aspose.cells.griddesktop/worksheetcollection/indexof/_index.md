@@ -3,7 +3,6 @@ title: IndexOf
 second_title: Aspose.Cells for .NET API Reference
 description: Searches for the specified sheet and returns the zerobased index of the first occurrence within the entire WorksheetCollection.
 type: docs
-weight: 110
 url: /net/aspose.cells.griddesktop/worksheetcollection/indexof/
 ---
 ## WorksheetCollection.IndexOf method

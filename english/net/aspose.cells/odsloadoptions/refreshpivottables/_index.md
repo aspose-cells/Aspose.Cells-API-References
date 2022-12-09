@@ -3,7 +3,6 @@ title: RefreshPivotTables
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether refresh pivot tables when loading file.
 type: docs
-weight: 30
 url: /net/aspose.cells/odsloadoptions/refreshpivottables/
 ---
 ## OdsLoadOptions.RefreshPivotTables property

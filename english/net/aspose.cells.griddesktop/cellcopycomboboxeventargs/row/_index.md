@@ -3,7 +3,6 @@ title: Row
 second_title: Aspose.Cells for .NET API Reference
 description: Gets row index of worksheet.
 type: docs
-weight: 50
 url: /net/aspose.cells.griddesktop/cellcopycomboboxeventargs/row/
 ---
 ## CellCopyComboBoxEventArgs.Row property

@@ -3,7 +3,6 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Slicer by index.
 type: docs
-weight: 10
 url: /net/aspose.cells.slicers/slicercollection/item/
 ---
 ## SlicerCollection indexer (1 of 2)

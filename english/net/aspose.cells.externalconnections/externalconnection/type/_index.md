@@ -3,7 +3,6 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or Sets the external connection DataSource type.
 type: docs
-weight: 230
 url: /net/aspose.cells.externalconnections/externalconnection/type/
 ---
 ## ExternalConnection.Type property

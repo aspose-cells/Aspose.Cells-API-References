@@ -3,7 +3,6 @@ title: Column
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the column index of the vertical page break.
 type: docs
-weight: 10
 url: /net/aspose.cells/verticalpagebreak/column/
 ---
 ## VerticalPageBreak.Column property

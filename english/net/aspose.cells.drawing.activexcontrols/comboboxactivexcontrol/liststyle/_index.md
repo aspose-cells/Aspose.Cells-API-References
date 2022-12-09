@@ -3,7 +3,6 @@ title: ListStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the visual appearance.
 type: docs
-weight: 130
 url: /net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/liststyle/
 ---
 ## ComboBoxActiveXControl.ListStyle property

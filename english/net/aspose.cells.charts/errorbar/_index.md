@@ -3,7 +3,6 @@ title: ErrorBar
 second_title: Aspose.Cells for .NET API Reference
 description: Represents error bar of data series.
 type: docs
-weight: 640
 url: /net/aspose.cells.charts/errorbar/
 ---
 ## ErrorBar class

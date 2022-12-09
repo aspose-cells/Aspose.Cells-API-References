@@ -3,7 +3,6 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets Revisionaspose.cells.revisions/revision by the index.
 type: docs
-weight: 10
 url: /net/aspose.cells.revisions/revisioncollection/item/
 ---
 ## RevisionCollection indexer

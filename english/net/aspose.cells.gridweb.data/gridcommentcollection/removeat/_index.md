@@ -3,7 +3,6 @@ title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
 description: Removes the comment of the specific cell.
 type: docs
-weight: 60
 url: /net/aspose.cells.gridweb.data/gridcommentcollection/removeat/
 ---
 ## RemoveAt(string) {#removeat_1}

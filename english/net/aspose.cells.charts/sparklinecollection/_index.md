@@ -3,7 +3,6 @@ title: SparklineCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates a collection of Sparkline./sparkline objects.
 type: docs
-weight: 880
 url: /net/aspose.cells.charts/sparklinecollection/
 ---
 ## SparklineCollection class

@@ -3,7 +3,6 @@ title: LeftBorder
 second_title: Aspose.Cells for .NET API Reference
 description: Left border settings will be applied.
 type: docs
-weight: 210
 url: /net/aspose.cells/styleflag/leftborder/
 ---
 ## StyleFlag.LeftBorder property

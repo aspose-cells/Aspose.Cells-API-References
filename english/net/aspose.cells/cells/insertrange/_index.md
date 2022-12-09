@@ -3,7 +3,6 @@ title: InsertRange
 second_title: Aspose.Cells for .NET API Reference
 description: Inserts a range of cells and shift cells according to the shift option.
 type: docs
-weight: 1160
 url: /net/aspose.cells/cells/insertrange/
 ---
 ## InsertRange(CellArea, int, ShiftType, bool) {#insertrange_2}

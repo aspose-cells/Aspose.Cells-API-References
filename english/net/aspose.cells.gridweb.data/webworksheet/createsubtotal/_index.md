@@ -3,7 +3,6 @@ title: CreateSubtotal
 second_title: Aspose.Cells for .NET API Reference
 description: Creates subtotal in the sheet.
 type: docs
-weight: 260
 url: /net/aspose.cells.gridweb.data/webworksheet/createsubtotal/
 ---
 ## WebWorksheet.CreateSubtotal method
@@ -13,7 +12,7 @@ Creates subtotal in the sheet.
 ```csharp
 public void CreateSubtotal(int columnNameRowIndex, int dataRows, int groupByColumnIndex, 
     SubtotalFunction subtotalFunction, int[] subtotalColumnIndexList, string functionLabel, 
-    TableItemStyle grandCellStyle, TableItemStyle subtotalCellStyle, NumberType numberType, 
+    GridTableItemStyle grandCellStyle, GridTableItemStyle subtotalCellStyle, NumberType numberType, 
     string customString)
 ```
 
@@ -25,15 +24,15 @@ public void CreateSubtotal(int columnNameRowIndex, int dataRows, int groupByColu
 | subtotalFunction | SubtotalFunction | The subtotal function type. |
 | subtotalColumnIndexList | Int32[] | The column indexes to be subtotaled. |
 | functionLabel | String | The label of subtotal function. |
-| grandCellStyle | TableItemStyle | The style of the grand total line. |
-| subtotalCellStyle | TableItemStyle | The style of the subtotal line. |
+| grandCellStyle | GridTableItemStyle | The style of the grand total line. |
+| subtotalCellStyle | GridTableItemStyle | The style of the subtotal line. |
 | numberType | NumberType | The number type of the subtotal result cells. |
 | customString | String | The custome format string of the subtotal result cells. Can be null. |
 
 ### See Also
 
 * enum [SubtotalFunction](../../subtotalfunction)
-* class [TableItemStyle](../../../aspose.cells.gridweb/tableitemstyle)
+* class [GridTableItemStyle](../../../aspose.cells.gridweb/gridtableitemstyle)
 * enum [NumberType](../../numbertype)
 * class [WebWorksheet](../../webworksheet)
 * namespace [Aspose.Cells.GridWeb.Data](../../webworksheet)

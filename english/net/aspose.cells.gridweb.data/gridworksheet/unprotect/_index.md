@@ -3,7 +3,6 @@ title: UnProtect
 second_title: Aspose.Cells for .NET API Reference
 description: unProtects worksheet.
 type: docs
-weight: 840
 url: /net/aspose.cells.gridweb.data/gridworksheet/unprotect/
 ---
 ## GridWorksheet.UnProtect method

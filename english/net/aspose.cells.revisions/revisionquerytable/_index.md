@@ -3,7 +3,6 @@ title: RevisionQueryTable
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a revision of a query table field change.
 type: docs
-weight: 5560
 url: /net/aspose.cells.revisions/revisionquerytable/
 ---
 ## RevisionQueryTable class

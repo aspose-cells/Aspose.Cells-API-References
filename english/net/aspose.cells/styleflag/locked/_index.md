@@ -3,7 +3,6 @@ title: Locked
 second_title: Aspose.Cells for .NET API Reference
 description: Locked setting will be applied.
 type: docs
-weight: 220
 url: /net/aspose.cells/styleflag/locked/
 ---
 ## StyleFlag.Locked property

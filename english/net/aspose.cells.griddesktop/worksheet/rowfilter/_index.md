@@ -3,7 +3,6 @@ title: RowFilter
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the RowFilterSettings object of the sheet.
 type: docs
-weight: 320
 url: /net/aspose.cells.griddesktop/worksheet/rowfilter/
 ---
 ## Worksheet.RowFilter property

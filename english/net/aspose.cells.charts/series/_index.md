@@ -3,7 +3,6 @@ title: Series
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents a single data series in a chart.
 type: docs
-weight: 830
 url: /net/aspose.cells.charts/series/
 ---
 ## Series class

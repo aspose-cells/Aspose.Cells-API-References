@@ -3,7 +3,6 @@ title: PageSetup
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents the page setup description. The PageSetup object contains all page setup options.
 type: docs
-weight: 4490
 url: /net/aspose.cells/pagesetup/
 ---
 ## PageSetup class

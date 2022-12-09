@@ -3,7 +3,6 @@ title: GetRanges
 second_title: Aspose.Cells for .NET API Reference
 description: Gets all ranges referred by this name.
 type: docs
-weight: 100
 url: /net/aspose.cells/name/getranges/
 ---
 ## GetRanges() {#getranges}

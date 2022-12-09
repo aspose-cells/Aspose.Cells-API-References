@@ -3,7 +3,6 @@ title: Bindings
 second_title: Aspose.Cells for .NET API Reference
 description: Gets all bindings relationship between an Office Addin and the data in the document.
 type: docs
-weight: 20
 url: /net/aspose.cells.webextensions/webextension/bindings/
 ---
 ## WebExtension.Bindings property

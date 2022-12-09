@@ -3,7 +3,6 @@ title: GridNameCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates a collection of Name objects.
 type: docs
-weight: 540
 url: /net/aspose.cells.griddesktop.data/gridnamecollection/
 ---
 ## GridNameCollection class

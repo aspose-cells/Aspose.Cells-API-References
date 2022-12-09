@@ -3,7 +3,6 @@ title: Dispose
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1400
 url: /net/aspose.cells.gridweb/mainweb/dispose/
 ---
 ## MainWeb.Dispose method

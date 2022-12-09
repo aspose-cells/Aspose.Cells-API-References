@@ -3,7 +3,6 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Seriesaspose.cells.charts/series element at the specified index.
 type: docs
-weight: 30
 url: /net/aspose.cells.charts/seriescollection/item/
 ---
 ## SeriesCollection indexer

@@ -3,7 +3,6 @@ title: AddIconFilter
 second_title: Aspose.Cells for .NET API Reference
 description: Adds an icon filter.
 type: docs
-weight: 90
 url: /net/aspose.cells/autofilter/addiconfilter/
 ---
 ## AutoFilter.AddIconFilter method

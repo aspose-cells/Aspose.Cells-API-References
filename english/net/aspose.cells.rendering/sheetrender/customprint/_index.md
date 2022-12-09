@@ -3,7 +3,6 @@ title: CustomPrint
 second_title: Aspose.Cells for .NET API Reference
 description: Client can control page setting of printer when print each page using this function.
 type: docs
-weight: 40
 url: /net/aspose.cells.rendering/sheetrender/customprint/
 ---
 ## SheetRender.CustomPrint method

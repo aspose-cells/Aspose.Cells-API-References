@@ -3,7 +3,6 @@ title: ChartPoint
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a single point in a series in a chart.
 type: docs
-weight: 510
 url: /net/aspose.cells.charts/chartpoint/
 ---
 ## ChartPoint class

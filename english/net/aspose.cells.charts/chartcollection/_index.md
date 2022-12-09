@@ -3,7 +3,6 @@ title: ChartCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates a collection of Chart./chart objects.
 type: docs
-weight: 450
 url: /net/aspose.cells.charts/chartcollection/
 ---
 ## ChartCollection class

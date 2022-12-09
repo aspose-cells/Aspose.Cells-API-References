@@ -3,7 +3,6 @@ title: Range
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents a range of cells within a spreadsheet.
 type: docs
-weight: 5110
 url: /net/aspose.cells/range/
 ---
 ## Range class
@@ -69,7 +68,8 @@ public class Range
 | [SetOutlineBorders](../../aspose.cells/range/setoutlineborders#setoutlineborders)(CellBorderType, CellsColor) | Sets the outline borders around a range of cells with same border style and color. |
 | [SetOutlineBorders](../../aspose.cells/range/setoutlineborders#setoutlineborders_1)(CellBorderType, Color) | Sets the outline borders around a range of cells with same border style and color. |
 | [SetOutlineBorders](../../aspose.cells/range/setoutlineborders#setoutlineborders_2)(CellBorderType[], Color[]) | Sets out line borders around a range of cells. |
-| [SetStyle](../../aspose.cells/range/setstyle)(Style) | Sets the style of the range. |
+| [SetStyle](../../aspose.cells/range/setstyle#setstyle)(Style) | Sets the style of the range. |
+| [SetStyle](../../aspose.cells/range/setstyle#setstyle_1)(Style, bool) | Apply the cell style. |
 | override [ToString](../../aspose.cells/range/tostring)() | Returns a string represents the current Range object. |
 | [Union](../../aspose.cells/range/union)(Range) | Returns the union of two ranges. |
 | [UnMerge](../../aspose.cells/range/unmerge)() | Unmerges merged cells of this range. |

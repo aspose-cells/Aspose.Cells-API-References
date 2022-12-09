@@ -3,7 +3,6 @@ title: SameImageDetecting
 second_title: Aspose.Cells for .NET API Reference
 description: Sets whether to check if picture has same sourcethe default is true the default value is true
 type: docs
-weight: 140
 url: /net/aspose.cells.gridjs/config/sameimagedetecting/
 ---
 ## Config.SameImageDetecting property

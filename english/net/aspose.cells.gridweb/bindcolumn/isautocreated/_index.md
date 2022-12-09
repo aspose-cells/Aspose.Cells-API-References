@@ -3,7 +3,6 @@ title: IsAutoCreated
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the column is created automatically. If true the column will be deleted when user change the datasource in the design time.
 type: docs
-weight: 110
 url: /net/aspose.cells.gridweb/bindcolumn/isautocreated/
 ---
 ## BindColumn.IsAutoCreated property

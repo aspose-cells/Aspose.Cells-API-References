@@ -3,7 +3,6 @@ title: FolderFontSource
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the folder that contains TrueType font files.
 type: docs
-weight: 3520
 url: /net/aspose.cells/folderfontsource/
 ---
 ## FolderFontSource class

@@ -3,7 +3,6 @@ title: ColumnDeleted
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs when user delete a column from clientside menu.
 type: docs
-weight: 1210
 url: /net/aspose.cells.gridweb/mainweb/columndeleted/
 ---
 ## MainWeb.ColumnDeleted event

@@ -3,7 +3,6 @@ title: DataMember
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the data source that the Worksheet object is displaying data for.
 type: docs
-weight: 120
 url: /net/aspose.cells.griddesktop/worksheet/datamember/
 ---
 ## Worksheet.DataMember property

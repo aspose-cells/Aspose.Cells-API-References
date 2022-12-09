@@ -3,7 +3,6 @@ title: MaxChange
 second_title: Aspose.Cells for .NET API Reference
 description: The maximum change to resolve a circular reference.
 type: docs
-weight: 80
 url: /net/aspose.cells/formulasettings/maxchange/
 ---
 ## FormulaSettings.MaxChange property

@@ -3,7 +3,6 @@ title: WebExtensionTaskPaneCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the list of task pane.
 type: docs
-weight: 6560
 url: /net/aspose.cells.webextensions/webextensiontaskpanecollection/
 ---
 ## WebExtensionTaskPaneCollection class

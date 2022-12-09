@@ -3,7 +3,6 @@ title: CalculateOnSave
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether recalculate the workbook before saving the document when in manual calculation mode.
 type: docs
-weight: 20
 url: /net/aspose.cells/formulasettings/calculateonsave/
 ---
 ## FormulaSettings.CalculateOnSave property

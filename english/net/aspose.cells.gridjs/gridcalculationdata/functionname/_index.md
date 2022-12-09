@@ -3,7 +3,6 @@ title: FunctionName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the function name to be calculated.
 type: docs
-weight: 40
 url: /net/aspose.cells.gridjs/gridcalculationdata/functionname/
 ---
 ## GridCalculationData.FunctionName property

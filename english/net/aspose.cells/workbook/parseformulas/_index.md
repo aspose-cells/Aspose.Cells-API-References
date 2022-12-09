@@ -3,7 +3,6 @@ title: ParseFormulas
 second_title: Aspose.Cells for .NET API Reference
 description: Parses all formulas which have not been parsed when they were loaded from template file or set to a cell.
 type: docs
-weight: 500
 url: /net/aspose.cells/workbook/parseformulas/
 ---
 ## Workbook.ParseFormulas method

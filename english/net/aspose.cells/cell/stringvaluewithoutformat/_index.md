@@ -3,7 +3,6 @@ title: StringValueWithoutFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Gets cells value as string without any format.
 type: docs
-weight: 310
 url: /net/aspose.cells/cell/stringvaluewithoutformat/
 ---
 ## Cell.StringValueWithoutFormat property

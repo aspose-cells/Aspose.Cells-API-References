@@ -3,7 +3,6 @@ title: Comments
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 80
 url: /net/aspose.cells.griddesktop/worksheet/comments/
 ---
 ## Worksheet.Comments property

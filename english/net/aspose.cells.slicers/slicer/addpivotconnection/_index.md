@@ -3,7 +3,6 @@ title: AddPivotConnection
 second_title: Aspose.Cells for .NET API Reference
 description: Adds PivotTable connection.
 type: docs
-weight: 250
 url: /net/aspose.cells.slicers/slicer/addpivotconnection/
 ---
 ## Slicer.AddPivotConnection method

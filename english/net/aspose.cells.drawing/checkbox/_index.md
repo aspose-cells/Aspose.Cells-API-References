@@ -3,7 +3,6 @@ title: CheckBox
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a check box object in a worksheet.
 type: docs
-weight: 1870
 url: /net/aspose.cells.drawing/checkbox/
 ---
 ## CheckBox class

@@ -3,7 +3,6 @@ title: Reference
 second_title: Aspose.Cells for .NET API Reference
 description: Get the primary reference to an Office Addin.
 type: docs
-weight: 60
 url: /net/aspose.cells.webextensions/webextension/reference/
 ---
 ## WebExtension.Reference property

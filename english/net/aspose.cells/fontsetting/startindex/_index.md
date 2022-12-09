@@ -3,7 +3,6 @@ title: StartIndex
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the start index of the characters.
 type: docs
-weight: 40
 url: /net/aspose.cells/fontsetting/startindex/
 ---
 ## FontSetting.StartIndex property

@@ -3,7 +3,6 @@ title: LowerDeltaY
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the shapes vertical offset from its lower right corner row.
 type: docs
-weight: 520
 url: /net/aspose.cells.drawing/shape/lowerdeltay/
 ---
 ## Shape.LowerDeltaY property

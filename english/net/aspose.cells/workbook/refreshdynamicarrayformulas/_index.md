@@ -3,7 +3,6 @@ title: RefreshDynamicArrayFormulas
 second_title: Aspose.Cells for .NET API Reference
 description: Refreshes dynamic array formulasspill into new range of neighboring cells according to current data Other formulas in the workbook will not be calculated recursively even if they were used by dynamic array formulas.
 type: docs
-weight: 530
 url: /net/aspose.cells/workbook/refreshdynamicarrayformulas/
 ---
 ## RefreshDynamicArrayFormulas(bool) {#refreshdynamicarrayformulas}

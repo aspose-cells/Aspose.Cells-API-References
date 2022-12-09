@@ -1,12 +1,33 @@
 ---
 title: SetStyle
 second_title: Aspose.Cells for .NET API Reference
-description: Sets the style of the range.
+description: Apply the cell style.
 type: docs
-weight: 410
 url: /net/aspose.cells/range/setstyle/
 ---
-## Range.SetStyle method
+## SetStyle(Style, bool) {#setstyle_1}
+
+Apply the cell style.
+
+```csharp
+public void SetStyle(Style style, bool explicitFlag)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| style | Style | The cell style. |
+| explicitFlag | Boolean | True, only overwriting formatting which is explicitly set. |
+
+### See Also
+
+* class [Style](../../style)
+* class [Range](../../range)
+* namespace [Aspose.Cells](../../range)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## SetStyle(Style) {#setstyle}
 
 Sets the style of the range.
 

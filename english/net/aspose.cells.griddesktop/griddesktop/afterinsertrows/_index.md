@@ -3,7 +3,6 @@ title: AfterInsertRows
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs after new row is inserted.
 type: docs
-weight: 360
 url: /net/aspose.cells.griddesktop/griddesktop/afterinsertrows/
 ---
 ## GridDesktop.AfterInsertRows event

@@ -3,7 +3,6 @@ title: AssembleDocumentPermission
 second_title: Aspose.Cells for .NET API Reference
 description: Permission to insert rotate or delete pages and create bookmarks or thumbnail images even if ModifyDocumentPermission is not set.
 type: docs
-weight: 40
 url: /net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/assembledocumentpermission/
 ---
 ## PdfSecurityOptions.AssembleDocumentPermission property

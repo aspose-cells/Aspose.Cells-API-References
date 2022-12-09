@@ -3,7 +3,6 @@ title: ScenarioCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the list of scenarios.
 type: docs
-weight: 5670
 url: /net/aspose.cells/scenariocollection/
 ---
 ## ScenarioCollection class

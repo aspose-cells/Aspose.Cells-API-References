@@ -3,7 +3,6 @@ title: MaxColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Minimum column index of those cells that have been instantiated in the collectiondoes not include the column where style is defined for the whole column but no cell has been instantiated in it.
 type: docs
-weight: 90
 url: /net/aspose.cells/cells/maxcolumn/
 ---
 ## Cells.MaxColumn property

@@ -3,7 +3,6 @@ title: ResourceLoadingType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the type of loading resource.
 type: docs
-weight: 40
 url: /net/aspose.cells/streamprovideroptions/resourceloadingtype/
 ---
 ## StreamProviderOptions.ResourceLoadingType property

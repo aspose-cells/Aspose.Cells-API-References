@@ -3,7 +3,6 @@ title: AutoShapeType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents all builtin auto shape type.
 type: docs
-weight: 1780
 url: /net/aspose.cells.drawing/autoshapetype/
 ---
 ## AutoShapeType enumeration
@@ -175,8 +174,6 @@ public enum AutoShapeType
 | TextCascadeDown | `155` | A cascading text shape pointed downwards. |
 | TextWave1 | `156` | A wavy text shape. |
 | TextWave2 | `157` | A wavy text shape. |
-| TextWave3 | `158` | A wavy text shape. |
-| TextWave4 | `159` | A wavy text shape. |
 | TextDoubleWave1 | `158` | A wavy text shape. |
 | TextDoubleWave2 | `159` | A wavy text shape. |
 | TextInflate | `160` | A text shape that expands vertically in the middle. |

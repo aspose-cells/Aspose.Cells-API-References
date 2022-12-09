@@ -3,7 +3,6 @@ title: SetRowHeightInch
 second_title: Aspose.Cells for .NET API Reference
 description: Sets row height in unit of inches.
 type: docs
-weight: 1330
 url: /net/aspose.cells/cells/setrowheightinch/
 ---
 ## Cells.SetRowHeightInch method

@@ -3,7 +3,6 @@ title: CheckBox
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a cell checkbox control.
 type: docs
-weight: 260
 url: /net/aspose.cells.griddesktop/checkbox/
 ---
 ## CheckBox class

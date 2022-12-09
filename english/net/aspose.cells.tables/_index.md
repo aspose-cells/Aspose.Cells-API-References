@@ -3,7 +3,6 @@ title: Aspose.Cells.Tables
 second_title: Aspose.Cells for .NET API Reference
 description: Contains all classes of TableList Object.
 type: docs
-weight: 200
 url: /net/aspose.cells.tables/
 ---
 Contains all classes of Table(List Object).

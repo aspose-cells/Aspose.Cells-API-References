@@ -3,7 +3,6 @@ title: MinorGridLines
 second_title: Aspose.Cells for .NET API Reference
 description: Represents minor gridlines on a chart axis.
 type: docs
-weight: 290
 url: /net/aspose.cells.charts/axis/minorgridlines/
 ---
 ## Axis.MinorGridLines property

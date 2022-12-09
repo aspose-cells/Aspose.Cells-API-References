@@ -3,7 +3,6 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Get the reference in the list by the index.
 type: docs
-weight: 10
 url: /net/aspose.cells.vba/vbaprojectreferencecollection/item/
 ---
 ## VbaProjectReferenceCollection indexer

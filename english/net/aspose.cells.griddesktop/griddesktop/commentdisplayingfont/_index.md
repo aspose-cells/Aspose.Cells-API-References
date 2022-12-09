@@ -3,7 +3,6 @@ title: CommentDisplayingFont
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the default displaying font of comment text.
 type: docs
-weight: 70
 url: /net/aspose.cells.griddesktop/griddesktop/commentdisplayingfont/
 ---
 ## GridDesktop.CommentDisplayingFont property

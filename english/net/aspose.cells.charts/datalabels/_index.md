@@ -3,7 +3,6 @@ title: DataLabels
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates a collection of all the DataLabel objects for the specified Series.
 type: docs
-weight: 580
 url: /net/aspose.cells.charts/datalabels/
 ---
 ## DataLabels class

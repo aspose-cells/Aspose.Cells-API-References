@@ -3,7 +3,6 @@ title: DocumentPropertyCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Base class for BuiltInDocumentPropertyCollection./builtindocumentpropertycollection and CustomDocumentPropertyCollection./customdocumentpropertycollection collections.
 type: docs
-weight: 4950
 url: /net/aspose.cells.properties/documentpropertycollection/
 ---
 ## DocumentPropertyCollection class

@@ -3,7 +3,6 @@ title: BeginArrowWidth
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the width of the arrowhead for the begin of a line.
 type: docs
-weight: 20
 url: /net/aspose.cells.drawing/line/beginarrowwidth/
 ---
 ## Line.BeginArrowWidth property

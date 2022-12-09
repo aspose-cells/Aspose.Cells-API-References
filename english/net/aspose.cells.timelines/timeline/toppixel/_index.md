@@ -3,7 +3,6 @@ title: TopPixel
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the vertical offset of timeline shape from its top row in pixels.
 type: docs
-weight: 50
 url: /net/aspose.cells.timelines/timeline/toppixel/
 ---
 ## Timeline.TopPixel property

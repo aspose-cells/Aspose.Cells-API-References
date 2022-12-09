@@ -3,7 +3,6 @@ title: NullString
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string.
 type: docs
-weight: 380
 url: /net/aspose.cells.pivot/pivottable/nullstring/
 ---
 ## PivotTable.NullString property

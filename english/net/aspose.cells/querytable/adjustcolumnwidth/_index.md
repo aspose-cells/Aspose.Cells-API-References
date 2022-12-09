@@ -3,7 +3,6 @@ title: AdjustColumnWidth
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the AdjustColumnWidth of the object.
 type: docs
-weight: 10
 url: /net/aspose.cells/querytable/adjustcolumnwidth/
 ---
 ## QueryTable.AdjustColumnWidth property

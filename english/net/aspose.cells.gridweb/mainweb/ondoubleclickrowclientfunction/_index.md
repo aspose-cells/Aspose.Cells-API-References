@@ -3,7 +3,6 @@ title: OnDoubleClickRowClientFunction
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the client side function to be called when a row is double clicked. The client function should be declared like this function MyOnRowDoubleClickrow  alertrow Note You may use the this pointer in the client function to point the grid control which fires the event.
 type: docs
-weight: 650
 url: /net/aspose.cells.gridweb/mainweb/ondoubleclickrowclientfunction/
 ---
 ## MainWeb.OnDoubleClickRowClientFunction property

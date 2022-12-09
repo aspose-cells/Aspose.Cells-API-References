@@ -3,7 +3,6 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a worksheet to the collection.
 type: docs
-weight: 100
 url: /net/aspose.cells.gridweb.data/gridworksheetcollection/add/
 ---
 ## Add() {#add_1}
@@ -16,7 +15,7 @@ public int Add()
 
 ### Return Value
 
-Worksheet object index.
+[`GridWorksheet`](../../gridworksheet) object index.
 
 ### See Also
 
@@ -40,7 +39,7 @@ public GridWorksheet Add(string sheetName)
 
 ### Return Value
 
-Worksheet object.
+[`GridWorksheet`](../../gridworksheet) object.
 
 ### See Also
 

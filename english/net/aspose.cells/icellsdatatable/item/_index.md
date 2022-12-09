@@ -3,7 +3,6 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the data stored in the column specified by index.
 type: docs
-weight: 30
 url: /net/aspose.cells/icellsdatatable/item/
 ---
 ## ICellsDataTable indexer (1 of 2)

@@ -3,7 +3,6 @@ title: DisplayDocTitle
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the windows title bar should display the document title.
 type: docs
-weight: 70
 url: /net/aspose.cells/pdfsaveoptions/displaydoctitle/
 ---
 ## PdfSaveOptions.DisplayDocTitle property

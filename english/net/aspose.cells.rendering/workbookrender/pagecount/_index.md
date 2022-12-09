@@ -3,7 +3,6 @@ title: PageCount
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the total page count of workbook.
 type: docs
-weight: 20
 url: /net/aspose.cells.rendering/workbookrender/pagecount/
 ---
 ## WorkbookRender.PageCount property

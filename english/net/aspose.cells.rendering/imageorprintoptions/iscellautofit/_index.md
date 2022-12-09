@@ -3,7 +3,6 @@ title: IsCellAutoFit
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the width and height of the cells is automatically fitted by cell value. The default value is false.
 type: docs
-weight: 150
 url: /net/aspose.cells.rendering/imageorprintoptions/iscellautofit/
 ---
 ## ImageOrPrintOptions.IsCellAutoFit property

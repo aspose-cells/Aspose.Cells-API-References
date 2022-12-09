@@ -3,7 +3,6 @@ title: IsFlippedHorizontally
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets whether shape is horizontally flipped .
 type: docs
-weight: 310
 url: /net/aspose.cells.drawing/shape/isflippedhorizontally/
 ---
 ## Shape.IsFlippedHorizontally property

@@ -3,7 +3,6 @@ title: Process
 second_title: Aspose.Cells for .NET API Reference
 description: Processes the smart markers and populates the data source values.
 type: docs
-weight: 110
 url: /net/aspose.cells/workbookdesigner/process/
 ---
 ## Process() {#process}

@@ -3,7 +3,6 @@ title: DefaultEditLanguage
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets default edit language.
 type: docs
-weight: 40
 url: /net/aspose.cells/paginatedsaveoptions/defaulteditlanguage/
 ---
 ## PaginatedSaveOptions.DefaultEditLanguage property

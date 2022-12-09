@@ -3,7 +3,6 @@ title: Remove
 second_title: Aspose.Cells for .NET API Reference
 description: Removes a property with the specified name from the collection.
 type: docs
-weight: 40
 url: /net/aspose.cells.properties/documentpropertycollection/remove/
 ---
 ## DocumentPropertyCollection.Remove method

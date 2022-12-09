@@ -3,7 +3,6 @@ title: DefaultHeight
 second_title: Aspose.Cells for .NET API Reference
 description: Represents height of default position
 type: docs
-weight: 60
 url: /net/aspose.cells.charts/chartframe/defaultheight/
 ---
 ## ChartFrame.DefaultHeight property

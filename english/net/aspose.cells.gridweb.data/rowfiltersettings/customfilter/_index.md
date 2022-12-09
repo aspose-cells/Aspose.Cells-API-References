@@ -3,7 +3,6 @@ title: CustomFilter
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies a custom filter.
 type: docs
-weight: 80
 url: /net/aspose.cells.gridweb.data/rowfiltersettings/customfilter/
 ---
 ## RowFilterSettings.CustomFilter method

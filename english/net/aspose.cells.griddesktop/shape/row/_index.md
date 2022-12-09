@@ -3,7 +3,6 @@ title: Row
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 110
 url: /net/aspose.cells.griddesktop/shape/row/
 ---
 ## Shape.Row property

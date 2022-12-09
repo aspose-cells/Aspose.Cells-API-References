@@ -3,7 +3,6 @@ title: ContentTypePropertyCollection
 second_title: Aspose.Cells for .NET API Reference
 description: A collection of ContentTypeProperty./contenttypeproperty objects that represent additional information.
 type: docs
-weight: 4900
 url: /net/aspose.cells.properties/contenttypepropertycollection/
 ---
 ## ContentTypePropertyCollection class

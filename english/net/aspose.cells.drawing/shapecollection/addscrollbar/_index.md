@@ -3,7 +3,6 @@ title: AddScrollBar
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a ScrollBar to the worksheet.
 type: docs
-weight: 250
 url: /net/aspose.cells.drawing/shapecollection/addscrollbar/
 ---
 ## ShapeCollection.AddScrollBar method

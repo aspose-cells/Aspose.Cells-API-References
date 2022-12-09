@@ -3,7 +3,6 @@ title: ToImage
 second_title: Aspose.Cells for .NET API Reference
 description: Render data bar in cell to image byte array.
 type: docs
-weight: 130
 url: /net/aspose.cells/databar/toimage/
 ---
 ## DataBar.ToImage method

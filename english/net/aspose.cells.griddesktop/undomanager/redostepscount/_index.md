@@ -3,7 +3,6 @@ title: RedoStepsCount
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the current available redo steps count.
 type: docs
-weight: 20
 url: /net/aspose.cells.griddesktop/undomanager/redostepscount/
 ---
 ## UndoManager.RedoStepsCount property

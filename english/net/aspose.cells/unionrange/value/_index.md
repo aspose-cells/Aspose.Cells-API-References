@@ -3,7 +3,6 @@ title: Value
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the values of the range.
 type: docs
-weight: 120
 url: /net/aspose.cells/unionrange/value/
 ---
 ## UnionRange.Value property

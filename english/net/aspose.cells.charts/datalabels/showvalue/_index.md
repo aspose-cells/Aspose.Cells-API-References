@@ -3,7 +3,6 @@ title: ShowValue
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a specified charts data label values display behavior. True displays the values. False to hide.
 type: docs
-weight: 230
 url: /net/aspose.cells.charts/datalabels/showvalue/
 ---
 ## DataLabels.ShowValue property

@@ -3,7 +3,6 @@ title: Cells
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the WebCellsaspose.cells.gridweb.data/webcells.
 type: docs
-weight: 70
 url: /net/aspose.cells.gridweb.data/webworksheet/cells/
 ---
 ## WebWorksheet.Cells property

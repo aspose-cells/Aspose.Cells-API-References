@@ -3,7 +3,6 @@ title: _filterValue
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 80
 url: /net/aspose.cells.griddesktop.data/gridcolumn/_filtervalue/
 ---
 ## GridColumn._filterValue field

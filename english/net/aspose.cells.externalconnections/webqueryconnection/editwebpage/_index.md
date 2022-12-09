@@ -3,7 +3,6 @@ title: EditWebPage
 second_title: Aspose.Cells for .NET API Reference
 description: The URL of the userfacing web page showing the web query data. This URL is persisted in the case that sourceDatatrue and url has been redirected to reference an XML file. Then the userfacing page can be shown in the UI and the XML data can be retrieved behind the scenes.
 type: docs
-weight: 20
 url: /net/aspose.cells.externalconnections/webqueryconnection/editwebpage/
 ---
 ## WebQueryConnection.EditWebPage property

@@ -3,7 +3,6 @@ title: LeftMargin
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the size of the left margin in unit of centimeters.
 type: docs
-weight: 200
 url: /net/aspose.cells/pagesetup/leftmargin/
 ---
 ## PageSetup.LeftMargin property

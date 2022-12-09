@@ -3,7 +3,6 @@ title: Metered
 second_title: Aspose.Cells for .NET API Reference
 description: Initializes a new instance of this class.
 type: docs
-weight: 10
 url: /net/aspose.cells/metered/metered/
 ---
 ## Metered constructor

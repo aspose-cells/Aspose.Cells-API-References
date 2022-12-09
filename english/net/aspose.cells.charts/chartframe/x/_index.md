@@ -3,7 +3,6 @@ title: X
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the chart area.
 type: docs
-weight: 200
 url: /net/aspose.cells.charts/chartframe/x/
 ---
 ## ChartFrame.X property

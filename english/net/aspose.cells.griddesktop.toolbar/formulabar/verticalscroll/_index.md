@@ -3,7 +3,6 @@ title: VerticalScroll
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 70
 url: /net/aspose.cells.griddesktop.toolbar/formulabar/verticalscroll/
 ---
 ## FormulaBar.VerticalScroll property

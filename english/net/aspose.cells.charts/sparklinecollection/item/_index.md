@@ -3,7 +3,6 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Sparklineaspose.cells.charts/sparkline element at the specified index.
 type: docs
-weight: 10
 url: /net/aspose.cells.charts/sparklinecollection/item/
 ---
 ## SparklineCollection indexer

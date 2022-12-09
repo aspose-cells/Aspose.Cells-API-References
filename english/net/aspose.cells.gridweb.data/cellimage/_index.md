@@ -3,7 +3,6 @@ title: CellImage
 second_title: Aspose.Cells for .NET API Reference
 description: Reprensents a hyperlink with image src.
 type: docs
-weight: 120
 url: /net/aspose.cells.gridweb.data/cellimage/
 ---
 ## CellImage class

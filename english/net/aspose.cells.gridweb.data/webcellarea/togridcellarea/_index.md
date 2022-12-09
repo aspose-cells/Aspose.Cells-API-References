@@ -3,7 +3,6 @@ title: ToGridCellArea
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 80
 url: /net/aspose.cells.gridweb.data/webcellarea/togridcellarea/
 ---
 ## WebCellArea.ToGridCellArea method

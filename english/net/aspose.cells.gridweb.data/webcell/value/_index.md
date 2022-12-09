@@ -3,7 +3,6 @@ title: Value
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 90
 url: /net/aspose.cells.gridweb.data/webcell/value/
 ---
 ## WebCell.Value property

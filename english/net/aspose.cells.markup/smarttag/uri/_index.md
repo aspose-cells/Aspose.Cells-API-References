@@ -3,7 +3,6 @@ title: Uri
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the namespace URI of the smart tag.
 type: docs
-weight: 40
 url: /net/aspose.cells.markup/smarttag/uri/
 ---
 ## SmartTag.Uri property

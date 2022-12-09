@@ -3,7 +3,6 @@ title: Parent
 second_title: Aspose.Cells for .NET API Reference
 description: Returns the Worksheet object that represents the sheet that contains the slicer. Readonly.
 type: docs
-weight: 150
 url: /net/aspose.cells.slicers/slicer/parent/
 ---
 ## Slicer.Parent property

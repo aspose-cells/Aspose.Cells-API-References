@@ -3,7 +3,6 @@ title: SourceName
 second_title: Aspose.Cells for .NET API Reference
 description: Returns the name of cache field
 type: docs
-weight: 50
 url: /net/aspose.cells.slicers/slicercache/sourcename/
 ---
 ## SlicerCache.SourceName property

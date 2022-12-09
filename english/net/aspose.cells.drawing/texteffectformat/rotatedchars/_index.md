@@ -3,7 +3,6 @@ title: RotatedChars
 second_title: Aspose.Cells for .NET API Reference
 description: If truecharacters in the specified WordArt are rotated 90 degrees relative to the WordArts bounding shape.
 type: docs
-weight: 60
 url: /net/aspose.cells.drawing/texteffectformat/rotatedchars/
 ---
 ## TextEffectFormat.RotatedChars property

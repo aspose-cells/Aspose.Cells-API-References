@@ -3,7 +3,6 @@ title: GetThreadedComments
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the threaded comments by row and column index.
 type: docs
-weight: 50
 url: /net/aspose.cells/commentcollection/getthreadedcomments/
 ---
 ## GetThreadedComments(int, int) {#getthreadedcomments}

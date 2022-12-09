@@ -3,7 +3,6 @@ title: SelectedSheetIndexChanged
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs when the SelectedSheetIndex property is changed.
 type: docs
-weight: 620
 url: /net/aspose.cells.griddesktop/griddesktop/selectedsheetindexchanged/
 ---
 ## GridDesktop.SelectedSheetIndexChanged event

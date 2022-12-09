@@ -3,7 +3,6 @@ title: TextWrapped
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 80
 url: /net/aspose.cells.griddesktop.data/defaultemptystyle/textwrapped/
 ---
 ## DefaultEmptyStyle.TextWrapped field

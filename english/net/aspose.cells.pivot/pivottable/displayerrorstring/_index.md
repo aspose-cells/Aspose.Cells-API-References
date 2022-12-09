@@ -3,7 +3,6 @@ title: DisplayErrorString
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the PivotTable report displays a custom string in cells that contain errors.
 type: docs
-weight: 140
 url: /net/aspose.cells.pivot/pivottable/displayerrorstring/
 ---
 ## PivotTable.DisplayErrorString property

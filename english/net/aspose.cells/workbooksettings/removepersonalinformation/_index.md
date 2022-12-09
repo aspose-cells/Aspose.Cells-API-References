@@ -3,7 +3,6 @@ title: RemovePersonalInformation
 second_title: Aspose.Cells for .NET API Reference
 description: True if personal information can be removed from the specified workbook.
 type: docs
-weight: 500
 url: /net/aspose.cells/workbooksettings/removepersonalinformation/
 ---
 ## WorkbookSettings.RemovePersonalInformation property

@@ -3,7 +3,6 @@ title: Sort
 second_title: Aspose.Cells for .NET API Reference
 description: Sorts the datas ascend top to bottom in a range of a WebWorksheet by specified column index.
 type: docs
-weight: 410
 url: /net/aspose.cells.gridweb.data/webcells/sort/
 ---
 ## Sort(int, int, int, int, int) {#sort}
@@ -44,13 +43,13 @@ GridWeb1.WebWorksheets(0).Cells.Sort(1,0,25,6,3)
 
 ---
 
-## Sort(int, int, int, int, int, SortOrder, SortOrientation, bool) {#sort_1}
+## Sort(int, int, int, int, int, SortByOrder, SortOrientation, bool) {#sort_1}
 
 Sorts the datas ascend top to bottom in a range of a WebWorksheet by specified column index.
 
 ```csharp
 public void Sort(int startRow, int startColumn, int rows, int columns, int index, 
-    SortOrder sortOrder, SortOrientation sortOrientation, bool isCaseSensitive)
+    SortByOrder sortOrder, SortOrientation sortOrientation, bool isCaseSensitive)
 ```
 
 | Parameter | Type | Description |
@@ -60,7 +59,7 @@ public void Sort(int startRow, int startColumn, int rows, int columns, int index
 | rows | Int32 | Number of rows to be imported. |
 | columns | Int32 | Number of columns to be imported. |
 | index | Int32 | The column(or row) index that specifis the sort column(or row). If sort orientation is top to bottom, the index represents column index. If sort orientation is left to right, the index represents row index. |
-| order | SortOrder | The sort order:Ascending or Descending |
+| order | SortByOrder | The sort order:Ascending or Descending |
 | orientation | SortOrientation | The sort orientation: top to bottom or left to right. |
 | isCaseSensitive | Boolean | Indicates whether the sort data is case sensitive if the data is string. |
 
@@ -80,7 +79,7 @@ GridWeb1.WebWorksheets(0).Cells.Sort(0,1,4,14,3,SortOrder.Ascending,SortOrientat
 
 ### See Also
 
-* enum [SortOrder](../../sortorder)
+* enum [SortByOrder](../../sortbyorder)
 * enum [SortOrientation](../../sortorientation)
 * class [WebCells](../../webcells)
 * namespace [Aspose.Cells.GridWeb.Data](../../webcells)
@@ -134,13 +133,13 @@ GridWeb1.WebWorksheets(0).Cells.Sort(1,0,25,6,indexes)
 
 ---
 
-## Sort(int, int, int, int, int[], SortOrder[], SortOrientation, bool) {#sort_3}
+## Sort(int, int, int, int, int[], SortByOrder[], SortOrientation, bool) {#sort_3}
 
 Sorts the datas ascend in a range of a WebWorksheet by some field that are specifed by indexes array.
 
 ```csharp
 public void Sort(int startRow, int startColumn, int rows, int columns, int[] indexes, 
-    SortOrder[] orders, SortOrientation orientation, bool isCaseSensitive)
+    SortByOrder[] orders, SortOrientation orientation, bool isCaseSensitive)
 ```
 
 | Parameter | Type | Description |
@@ -150,7 +149,7 @@ public void Sort(int startRow, int startColumn, int rows, int columns, int[] ind
 | rows | Int32 | Number of rows to be imported. |
 | columns | Int32 | Number of columns to be imported. |
 | indexes | Int32[] | The column(or row) index that specifis the sort column(or row). If sort orientation is top to bottom, the index represents column index. If sort orientation is left to right, the index represents row index. |
-| orders | SortOrder[] | The sort order:Ascending or Descending |
+| orders | SortByOrder[] | The sort order:Ascending or Descending |
 | orientation | SortOrientation | The sort orientation: top to bottom or left to right. |
 | isCaseSensitive | Boolean | Indicates whether the sorting is case sensitive. |
 
@@ -168,7 +167,7 @@ If you use this method to sort a block of data, please be sure that length of th
 
 ### See Also
 
-* enum [SortOrder](../../sortorder)
+* enum [SortByOrder](../../sortbyorder)
 * enum [SortOrientation](../../sortorientation)
 * class [WebCells](../../webcells)
 * namespace [Aspose.Cells.GridWeb.Data](../../webcells)

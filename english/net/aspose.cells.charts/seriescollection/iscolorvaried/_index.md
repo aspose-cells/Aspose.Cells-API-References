@@ -3,7 +3,6 @@ title: IsColorVaried
 second_title: Aspose.Cells for .NET API Reference
 description: Represents if the color of points is varied.
 type: docs
-weight: 20
 url: /net/aspose.cells.charts/seriescollection/iscolorvaried/
 ---
 ## SeriesCollection.IsColorVaried property

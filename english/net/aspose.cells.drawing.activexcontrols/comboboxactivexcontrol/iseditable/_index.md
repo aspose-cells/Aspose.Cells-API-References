@@ -3,7 +3,6 @@ title: IsEditable
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the user can type into the control.
 type: docs
-weight: 110
 url: /net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/iseditable/
 ---
 ## ComboBoxActiveXControl.IsEditable property

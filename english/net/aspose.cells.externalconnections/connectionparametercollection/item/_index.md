@@ -3,7 +3,6 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the ConnectionParameteraspose.cells.externalconnections/connectionparameter element at the specified index.
 type: docs
-weight: 10
 url: /net/aspose.cells.externalconnections/connectionparametercollection/item/
 ---
 ## ConnectionParameterCollection indexer (1 of 2)

@@ -3,7 +3,6 @@ title: FileFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the file format.
 type: docs
-weight: 140
 url: /net/aspose.cells/workbook/fileformat/
 ---
 ## Workbook.FileFormat property

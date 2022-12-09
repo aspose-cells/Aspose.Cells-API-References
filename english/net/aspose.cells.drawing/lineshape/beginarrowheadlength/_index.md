@@ -3,7 +3,6 @@ title: BeginArrowheadLength
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the begin arrow head length of the line.
 type: docs
-weight: 10
 url: /net/aspose.cells.drawing/lineshape/beginarrowheadlength/
 ---
 ## LineShape.BeginArrowheadLength property

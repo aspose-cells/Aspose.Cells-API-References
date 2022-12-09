@@ -3,7 +3,6 @@ title: InitPivotItems
 second_title: Aspose.Cells for .NET API Reference
 description: Init the pivot items of the pivot field
 type: docs
-weight: 490
 url: /net/aspose.cells.pivot/pivotfield/initpivotitems/
 ---
 ## PivotField.InitPivotItems method

@@ -3,7 +3,6 @@ title: ListWidth
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and set the width in unit of points.
 type: docs
-weight: 140
 url: /net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/listwidth/
 ---
 ## ComboBoxActiveXControl.ListWidth property

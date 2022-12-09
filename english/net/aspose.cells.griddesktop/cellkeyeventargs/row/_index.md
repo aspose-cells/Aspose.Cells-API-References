@@ -3,7 +3,6 @@ title: Row
 second_title: Aspose.Cells for .NET API Reference
 description: Gets row index of worksheet.
 type: docs
-weight: 20
 url: /net/aspose.cells.griddesktop/cellkeyeventargs/row/
 ---
 ## CellKeyEventArgs.Row property

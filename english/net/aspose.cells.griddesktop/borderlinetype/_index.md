@@ -3,7 +3,6 @@ title: BorderLineType
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the border line type for a gridCell.
 type: docs
-weight: 10
 url: /net/aspose.cells.griddesktop/borderlinetype/
 ---
 ## BorderLineType enumeration

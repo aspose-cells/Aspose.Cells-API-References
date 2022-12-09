@@ -3,7 +3,6 @@ title: MenuItemAvailable_EditHyperlink
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether the context menu item EditHyperlink is available.
 type: docs
-weight: 110
 url: /net/aspose.cells.griddesktop/contextmenumanager/menuitemavailable_edithyperlink/
 ---
 ## ContextMenuManager.MenuItemAvailable_EditHyperlink property

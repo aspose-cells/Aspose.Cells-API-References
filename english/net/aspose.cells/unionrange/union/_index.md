@@ -3,7 +3,6 @@ title: Union
 second_title: Aspose.Cells for .NET API Reference
 description: Union another range.
 type: docs
-weight: 210
 url: /net/aspose.cells/unionrange/union/
 ---
 ## Union(string) {#union_2}

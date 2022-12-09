@@ -3,7 +3,6 @@ title: PivotField
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a field in a PivotTable report. The PivotField object is a member of the PivotFields./pivotfields collection.  NOTE This class is now obsolete. Instead please use GridPivotField. This class will be removed after 6 months since Aug. 2014. Aspose apologizes for any inconvenience you may have experienced.
 type: docs
-weight: 700
 url: /net/aspose.cells.gridweb.data/pivotfield/
 ---
 ## PivotField class

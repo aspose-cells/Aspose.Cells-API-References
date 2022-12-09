@@ -3,7 +3,6 @@ title: VbaModuleCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the list of VbaModule./vbamodule
 type: docs
-weight: 6340
 url: /net/aspose.cells.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection class

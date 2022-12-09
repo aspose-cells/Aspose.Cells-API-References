@@ -3,7 +3,6 @@ title: ChartDataTable
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the chart data table.
 type: docs
-weight: 60
 url: /net/aspose.cells.charts/chart/chartdatatable/
 ---
 ## Chart.ChartDataTable property

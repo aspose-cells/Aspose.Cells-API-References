@@ -3,7 +3,6 @@ title: OdsSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the options of saving ods file.
 type: docs
-weight: 4410
 url: /net/aspose.cells/odssaveoptions/
 ---
 ## OdsSaveOptions class

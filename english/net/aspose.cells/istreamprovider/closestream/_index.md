@@ -3,7 +3,6 @@ title: CloseStream
 second_title: Aspose.Cells for .NET API Reference
 description: Closes the stream.
 type: docs
-weight: 10
 url: /net/aspose.cells/istreamprovider/closestream/
 ---
 ## IStreamProvider.CloseStream method

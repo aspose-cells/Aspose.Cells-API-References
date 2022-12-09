@@ -3,7 +3,6 @@ title: TickLabelPositionType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the position type of tickmark labels on the specified axis.
 type: docs
-weight: 940
 url: /net/aspose.cells.charts/ticklabelpositiontype/
 ---
 ## TickLabelPositionType enumeration

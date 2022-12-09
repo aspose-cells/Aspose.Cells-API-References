@@ -3,7 +3,6 @@ title: GetColumnByIndex
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Columnaspose.cells/column object by the position in the list.
 type: docs
-weight: 30
 url: /net/aspose.cells/columncollection/getcolumnbyindex/
 ---
 ## ColumnCollection.GetColumnByIndex method

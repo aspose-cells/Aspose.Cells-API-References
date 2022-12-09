@@ -3,7 +3,6 @@ title: TextOrientationType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the text orientation type of the shape.
 type: docs
-weight: 760
 url: /net/aspose.cells.drawing/shape/textorientationtype/
 ---
 ## Shape.TextOrientationType property

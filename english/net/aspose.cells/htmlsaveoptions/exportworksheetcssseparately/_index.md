@@ -3,7 +3,6 @@ title: ExportWorksheetCSSSeparately
 second_title: Aspose.Cells for .NET API Reference
 description: Indicating whether export the worksheet css separately.The default value is false.
 type: docs
-weight: 320
 url: /net/aspose.cells/htmlsaveoptions/exportworksheetcssseparately/
 ---
 ## HtmlSaveOptions.ExportWorksheetCSSSeparately property

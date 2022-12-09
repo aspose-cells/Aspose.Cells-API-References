@@ -3,7 +3,6 @@ title: RightMargin
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the size of the right margin in unit of centimeters.
 type: docs
-weight: 390
 url: /net/aspose.cells/pagesetup/rightmargin/
 ---
 ## PageSetup.RightMargin property

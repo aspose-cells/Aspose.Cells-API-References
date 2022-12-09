@@ -3,7 +3,6 @@ title: PowerQueryFormulaCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents all power query formulas in the mashup data.
 type: docs
-weight: 5050
 url: /net/aspose.cells.querytables/powerqueryformulacollection/
 ---
 ## PowerQueryFormulaCollection class

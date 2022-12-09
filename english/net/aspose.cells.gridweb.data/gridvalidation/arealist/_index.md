@@ -1,14 +1,13 @@
 ---
 title: AreaList
 second_title: Aspose.Cells for .NET API Reference
-description: Represents a collection of CellArea which contains the data validation settings.
+description: Represents a collection of GridCellAreaaspose.cells.gridweb.data/gridcellarea which contains the data validation settings.
 type: docs
-weight: 20
 url: /net/aspose.cells.gridweb.data/gridvalidation/arealist/
 ---
 ## GridValidation.AreaList property
 
-Represents a collection of CellArea which contains the data validation settings.
+Represents a collection of [`GridCellArea`](../../gridcellarea) which contains the data validation settings.
 
 ```csharp
 public ArrayList AreaList { get; }

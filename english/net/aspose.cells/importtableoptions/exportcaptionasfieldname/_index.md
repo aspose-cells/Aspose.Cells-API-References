@@ -3,7 +3,6 @@ title: ExportCaptionAsFieldName
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether exporting caption as field name
 type: docs
-weight: 80
 url: /net/aspose.cells/importtableoptions/exportcaptionasfieldname/
 ---
 ## ImportTableOptions.ExportCaptionAsFieldName property

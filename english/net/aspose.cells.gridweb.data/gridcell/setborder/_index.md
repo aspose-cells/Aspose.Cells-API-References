@@ -3,7 +3,6 @@ title: SetBorder
 second_title: Aspose.Cells for .NET API Reference
 description: Sets borderstopbottomleft and right for a cellall the borders have same borderstyle.
 type: docs
-weight: 330
 url: /net/aspose.cells.gridweb.data/gridcell/setborder/
 ---
 ## GridCell.SetBorder method

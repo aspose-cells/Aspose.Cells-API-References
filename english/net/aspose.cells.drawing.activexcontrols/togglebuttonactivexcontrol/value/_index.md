@@ -3,7 +3,6 @@ title: Value
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates if the control is checked or not.
 type: docs
-weight: 80
 url: /net/aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/value/
 ---
 ## ToggleButtonActiveXControl.Value property

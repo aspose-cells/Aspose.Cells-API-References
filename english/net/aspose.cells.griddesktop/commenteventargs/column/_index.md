@@ -3,7 +3,6 @@ title: Column
 second_title: Aspose.Cells for .NET API Reference
 description: Gets column index.
 type: docs
-weight: 10
 url: /net/aspose.cells.griddesktop/commenteventargs/column/
 ---
 ## CommentEventArgs.Column property

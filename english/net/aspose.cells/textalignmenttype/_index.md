@@ -3,7 +3,6 @@ title: TextAlignmentType
 second_title: Aspose.Cells for .NET API Reference
 description: Enumerates text alignment types.
 type: docs
-weight: 6030
 url: /net/aspose.cells/textalignmenttype/
 ---
 ## TextAlignmentType enumeration

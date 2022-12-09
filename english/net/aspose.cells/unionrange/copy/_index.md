@@ -3,7 +3,6 @@ title: Copy
 second_title: Aspose.Cells for .NET API Reference
 description: Copying the range with paste special options.
 type: docs
-weight: 140
 url: /net/aspose.cells/unionrange/copy/
 ---
 ## UnionRange.Copy method

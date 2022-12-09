@@ -3,7 +3,6 @@ title: ClearContents
 second_title: Aspose.Cells for .NET API Reference
 description: Clears contents of a range.
 type: docs
-weight: 110
 url: /net/aspose.cells.gridweb.data/webcells/clearcontents/
 ---
 ## WebCells.ClearContents method

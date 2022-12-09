@@ -3,7 +3,6 @@ title: ListBox
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a list box object.
 type: docs
-weight: 2270
 url: /net/aspose.cells.drawing/listbox/
 ---
 ## ListBox class

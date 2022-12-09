@@ -3,7 +3,6 @@ title: HasMultiLevelLabels
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the labels shall be shown as multi level.
 type: docs
-weight: 130
 url: /net/aspose.cells.charts/axis/hasmultilevellabels/
 ---
 ## Axis.HasMultiLevelLabels property

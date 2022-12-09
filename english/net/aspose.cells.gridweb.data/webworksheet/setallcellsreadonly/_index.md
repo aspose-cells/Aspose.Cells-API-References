@@ -3,7 +3,6 @@ title: SetAllCellsReadonly
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 340
 url: /net/aspose.cells.gridweb.data/webworksheet/setallcellsreadonly/
 ---
 ## WebWorksheet.SetAllCellsReadonly method

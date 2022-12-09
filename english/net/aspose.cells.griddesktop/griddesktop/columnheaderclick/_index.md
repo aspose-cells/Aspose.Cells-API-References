@@ -3,7 +3,6 @@ title: ColumnHeaderClick
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs when the column header clicked.
 type: docs
-weight: 500
 url: /net/aspose.cells.griddesktop/griddesktop/columnheaderclick/
 ---
 ## GridDesktop.ColumnHeaderClick event

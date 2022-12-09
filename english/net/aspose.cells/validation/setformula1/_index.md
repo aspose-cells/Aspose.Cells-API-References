@@ -3,7 +3,6 @@ title: SetFormula1
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the value or expression associated with this validation.
 type: docs
-weight: 260
 url: /net/aspose.cells/validation/setformula1/
 ---
 ## Validation.SetFormula1 method

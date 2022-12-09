@@ -3,7 +3,6 @@ title: GetCellArea
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 230
 url: /net/aspose.cells.gridweb.data/gridcell/getcellarea/
 ---
 ## GridCell.GetCellArea method

@@ -3,7 +3,6 @@ title: WindowHeightCM
 second_title: Aspose.Cells for .NET API Reference
 description: The height of the window in unit of centimeter.
 type: docs
-weight: 620
 url: /net/aspose.cells/workbooksettings/windowheightcm/
 ---
 ## WorkbookSettings.WindowHeightCM property

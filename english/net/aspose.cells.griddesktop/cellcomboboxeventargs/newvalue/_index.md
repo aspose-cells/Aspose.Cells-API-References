@@ -3,7 +3,6 @@ title: NewValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the new value to be set.
 type: docs
-weight: 20
 url: /net/aspose.cells.griddesktop/cellcomboboxeventargs/newvalue/
 ---
 ## CellComboBoxEventArgs.NewValue property

@@ -3,7 +3,6 @@ title: And
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the two criteria have an and relationship.
 type: docs
-weight: 20
 url: /net/aspose.cells/customfiltercollection/and/
 ---
 ## CustomFilterCollection.And property

@@ -3,7 +3,6 @@ title: Distance
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the distance of the shadow. Range from 0 to 200 points.
 type: docs
-weight: 40
 url: /net/aspose.cells.drawing/shadoweffect/distance/
 ---
 ## ShadowEffect.Distance property

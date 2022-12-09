@@ -3,7 +3,6 @@ title: OleObjectCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents embedded OLE objects.
 type: docs
-weight: 2450
 url: /net/aspose.cells.drawing/oleobjectcollection/
 ---
 ## OleObjectCollection class

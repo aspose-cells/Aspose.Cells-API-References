@@ -3,7 +3,6 @@ title: Comment
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the comment of the table.
 type: docs
-weight: 40
 url: /net/aspose.cells.tables/listobject/comment/
 ---
 ## ListObject.Comment property

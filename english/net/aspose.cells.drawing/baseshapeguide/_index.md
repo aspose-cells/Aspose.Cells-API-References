@@ -3,7 +3,6 @@ title: BaseShapeGuide
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the shape guide.
 type: docs
-weight: 1800
 url: /net/aspose.cells.drawing/baseshapeguide/
 ---
 ## BaseShapeGuide class

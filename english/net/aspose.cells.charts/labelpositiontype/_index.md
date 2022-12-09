@@ -3,7 +3,6 @@ title: LabelPositionType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents data label position type.
 type: docs
-weight: 690
 url: /net/aspose.cells.charts/labelpositiontype/
 ---
 ## LabelPositionType enumeration

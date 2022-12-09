@@ -3,7 +3,6 @@ title: CommitNewBindRow
 second_title: Aspose.Cells for .NET API Reference
 description: Commits the new added bind row and add it to the datasource.
 type: docs
-weight: 220
 url: /net/aspose.cells.gridweb.data/webworksheet/commitnewbindrow/
 ---
 ## WebWorksheet.CommitNewBindRow method

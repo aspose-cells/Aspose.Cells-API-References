@@ -3,7 +3,6 @@ title: SetHeaderPicture
 second_title: Aspose.Cells for .NET API Reference
 description: Sets an image in the header of a worksheet.
 type: docs
-weight: 630
 url: /net/aspose.cells/pagesetup/setheaderpicture/
 ---
 ## PageSetup.SetHeaderPicture method

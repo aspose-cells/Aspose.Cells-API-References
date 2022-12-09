@@ -3,7 +3,6 @@ title: ImageType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the image type when converting the chart and shape .
 type: docs
-weight: 120
 url: /net/aspose.cells/pdfsaveoptions/imagetype/
 ---
 ## PdfSaveOptions.ImageType property

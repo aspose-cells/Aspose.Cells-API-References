@@ -3,7 +3,6 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the name of the worksheet.
 type: docs
-weight: 310
 url: /net/aspose.cells/worksheet/name/
 ---
 ## Worksheet.Name property

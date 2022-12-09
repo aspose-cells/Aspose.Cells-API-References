@@ -3,7 +3,6 @@ title: PrintSizeType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the printed chart size.
 type: docs
-weight: 4860
 url: /net/aspose.cells/printsizetype/
 ---
 ## PrintSizeType enumeration

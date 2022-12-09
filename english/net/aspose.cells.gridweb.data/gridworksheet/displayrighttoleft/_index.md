@@ -3,7 +3,6 @@ title: DisplayRightToLeft
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 130
 url: /net/aspose.cells.gridweb.data/gridworksheet/displayrighttoleft/
 ---
 ## GridWorksheet.DisplayRightToLeft property

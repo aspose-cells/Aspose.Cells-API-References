@@ -3,7 +3,6 @@ title: WindowWidthCM
 second_title: Aspose.Cells for .NET API Reference
 description: The width of the window in unit of centimeter.
 type: docs
-weight: 710
 url: /net/aspose.cells/workbooksettings/windowwidthcm/
 ---
 ## WorkbookSettings.WindowWidthCM property

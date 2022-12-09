@@ -3,7 +3,6 @@ title: PrintTitleColumns
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the columns that contain the cells to be repeated on the left side of each page.
 type: docs
-weight: 370
 url: /net/aspose.cells/pagesetup/printtitlecolumns/
 ---
 ## PageSetup.PrintTitleColumns property

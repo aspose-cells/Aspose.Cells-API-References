@@ -3,7 +3,6 @@ title: CopyTo
 second_title: Aspose.Cells for .NET API Reference
 description: Copies the entire PivotTable to a compatible onedimensional Array starting at the specified index of the target array
 type: docs
-weight: 90
 url: /net/aspose.cells.gridweb.data/pivottables/copyto/
 ---
 ## PivotTables.CopyTo method

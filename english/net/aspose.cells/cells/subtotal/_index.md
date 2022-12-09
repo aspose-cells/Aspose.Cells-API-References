@@ -3,7 +3,6 @@ title: Subtotal
 second_title: Aspose.Cells for .NET API Reference
 description: Creates subtotals for the range.
 type: docs
-weight: 1370
 url: /net/aspose.cells/cells/subtotal/
 ---
 ## Subtotal(CellArea, int, ConsolidationFunction, int[]) {#subtotal}

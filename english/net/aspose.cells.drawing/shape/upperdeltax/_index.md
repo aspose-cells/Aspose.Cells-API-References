@@ -3,7 +3,6 @@ title: UpperDeltaX
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the shapes horizontal offset from its upper left corner column.
 type: docs
-weight: 880
 url: /net/aspose.cells.drawing/shape/upperdeltax/
 ---
 ## Shape.UpperDeltaX property

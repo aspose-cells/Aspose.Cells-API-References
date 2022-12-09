@@ -3,7 +3,6 @@ title: CellControlCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates a collection of cell control.
 type: docs
-weight: 70
 url: /net/aspose.cells.griddesktop/cellcontrolcollection/
 ---
 ## CellControlCollection class

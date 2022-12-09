@@ -3,7 +3,6 @@ title: CommandButtonActiveXControl
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a command button.
 type: docs
-weight: 1510
 url: /net/aspose.cells.drawing.activexcontrols/commandbuttonactivexcontrol/
 ---
 ## CommandButtonActiveXControl class

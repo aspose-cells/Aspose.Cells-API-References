@@ -3,7 +3,6 @@ title: PivotFormatConditions
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Format Conditions of the pivot table.
 type: docs
-weight: 430
 url: /net/aspose.cells.pivot/pivottable/pivotformatconditions/
 ---
 ## PivotTable.PivotFormatConditions property

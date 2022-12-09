@@ -3,7 +3,6 @@ title: HasUpDownBars
 second_title: Aspose.Cells for .NET API Reference
 description: True if a line chart has up and down bars. Applies only to line charts.
 type: docs
-weight: 220
 url: /net/aspose.cells.charts/series/hasupdownbars/
 ---
 ## Series.HasUpDownBars property

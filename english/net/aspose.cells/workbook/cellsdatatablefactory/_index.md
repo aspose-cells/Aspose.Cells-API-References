@@ -3,7 +3,6 @@ title: CellsDataTableFactory
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the factory for building ICellsDataTable from custom objects
 type: docs
-weight: 40
 url: /net/aspose.cells/workbook/cellsdatatablefactory/
 ---
 ## Workbook.CellsDataTableFactory property

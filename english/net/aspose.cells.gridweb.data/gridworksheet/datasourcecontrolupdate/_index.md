@@ -3,7 +3,6 @@ title: DataSourceControlUpdate
 second_title: Aspose.Cells for .NET API Reference
 description: Bind the sheet to the DataSource.
 type: docs
-weight: 510
 url: /net/aspose.cells.gridweb.data/gridworksheet/datasourcecontrolupdate/
 ---
 ## GridWorksheet.DataSourceControlUpdate method

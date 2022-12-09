@@ -3,7 +3,6 @@ title: ScaleCrop
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates the display mode of the document thumbnail.
 type: docs
-weight: 290
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/scalecrop/
 ---
 ## BuiltInDocumentPropertyCollection.ScaleCrop property

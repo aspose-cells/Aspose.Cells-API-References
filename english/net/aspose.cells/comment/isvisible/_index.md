@@ -3,7 +3,6 @@ title: IsVisible
 second_title: Aspose.Cells for .NET API Reference
 description: Represents if the comment is visible or not.
 type: docs
-weight: 110
 url: /net/aspose.cells/comment/isvisible/
 ---
 ## Comment.IsVisible property

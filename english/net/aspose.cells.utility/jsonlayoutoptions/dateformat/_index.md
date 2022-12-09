@@ -3,7 +3,6 @@ title: DateFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the format of date value.
 type: docs
-weight: 40
 url: /net/aspose.cells.utility/jsonlayoutoptions/dateformat/
 ---
 ## JsonLayoutOptions.DateFormat property

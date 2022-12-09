@@ -3,7 +3,6 @@ title: Text
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the string in this TextBox object.
 type: docs
-weight: 680
 url: /net/aspose.cells.drawing/shape/text/
 ---
 ## Shape.Text property

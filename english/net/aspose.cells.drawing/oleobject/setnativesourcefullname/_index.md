@@ -3,7 +3,6 @@ title: SetNativeSourceFullName
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the ole native source full file name with path.
 type: docs
-weight: 180
 url: /net/aspose.cells.drawing/oleobject/setnativesourcefullname/
 ---
 ## OleObject.SetNativeSourceFullName method

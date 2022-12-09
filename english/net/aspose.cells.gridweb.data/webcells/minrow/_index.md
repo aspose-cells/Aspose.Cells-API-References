@@ -3,7 +3,6 @@ title: MinRow
 second_title: Aspose.Cells for .NET API Reference
 description: Min row number of cell which contains data or style.
 type: docs
-weight: 70
 url: /net/aspose.cells.gridweb.data/webcells/minrow/
 ---
 ## WebCells.MinRow property

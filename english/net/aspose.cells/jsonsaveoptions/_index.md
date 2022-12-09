@@ -3,7 +3,6 @@ title: JsonSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the options of saving the workbook as a json file.
 type: docs
-weight: 3980
 url: /net/aspose.cells/jsonsaveoptions/
 ---
 ## JsonSaveOptions class
@@ -29,12 +28,16 @@ public class JsonSaveOptions : SaveOptions
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file.(Inherited from [`SaveOptions`](../saveoptions).) |
 | [ExportArea](../../aspose.cells/jsonsaveoptions/exportarea) { get; set; } | Gets or sets the exporting range. |
 | [ExportAsString](../../aspose.cells/jsonsaveoptions/exportasstring) { get; set; } | Exports the string value of the cells to json. |
+| [ExportEmptyCells](../../aspose.cells/jsonsaveoptions/exportemptycells) { get; set; } | Indicates whether exporting empty cells as null. |
+| [ExportHyperlinkType](../../aspose.cells/jsonsaveoptions/exporthyperlinktype) { get; set; } | Represents the type of exporting hyperlink to json. |
+| [ExportNestedStructure](../../aspose.cells/jsonsaveoptions/exportnestedstructure) { get; set; } | Exported as parent-child hierarchy Json structure. |
 | [HasHeaderRow](../../aspose.cells/jsonsaveoptions/hasheaderrow) { get; set; } | Indicates whether the range contains header row. |
 | [Indent](../../aspose.cells/jsonsaveoptions/indent) { get; set; } | Indicates the indent. |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file.(Inherited from [`SaveOptions`](../saveoptions).) |
 | [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Indicates whether refreshing chart cache data(Inherited from [`SaveOptions`](../saveoptions).) |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Gets the save file format.(Inherited from [`SaveOptions`](../saveoptions).) |
 | [SheetIndexes](../../aspose.cells/jsonsaveoptions/sheetindexes) { get; set; } | Represents the indexes of exported sheets. |
+| [SkipEmptyRows](../../aspose.cells/jsonsaveoptions/skipemptyrows) { get; set; } | Indicates whether skpping emtpy rows |
 | [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | Indicates whether sorting external defined names before saving file.(Inherited from [`SaveOptions`](../saveoptions).) |
 | [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | Indicates whether sorting defined names before saving file.(Inherited from [`SaveOptions`](../saveoptions).) |
 | [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Indicates whether updating smart art setting. The default value is false.(Inherited from [`SaveOptions`](../saveoptions).) |

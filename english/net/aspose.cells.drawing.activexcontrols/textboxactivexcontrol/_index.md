@@ -3,7 +3,6 @@ title: TextBoxActiveXControl
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a text box ActiveX control.
 type: docs
-weight: 1730
 url: /net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/
 ---
 ## TextBoxActiveXControl class

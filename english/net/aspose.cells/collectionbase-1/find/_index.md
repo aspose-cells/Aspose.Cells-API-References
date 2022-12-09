@@ -3,7 +3,6 @@ title: Find
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 90
 url: /net/aspose.cells/collectionbase-1/find/
 ---
 ## CollectionBase&lt;T&gt;.Find method

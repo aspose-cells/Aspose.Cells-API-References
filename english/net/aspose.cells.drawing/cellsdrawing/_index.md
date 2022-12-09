@@ -3,7 +3,6 @@ title: CellsDrawing
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the auto shape and drawing object.
 type: docs
-weight: 1850
 url: /net/aspose.cells.drawing/cellsdrawing/
 ---
 ## CellsDrawing class

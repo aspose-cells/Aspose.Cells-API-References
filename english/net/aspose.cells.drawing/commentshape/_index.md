@@ -3,7 +3,6 @@ title: CommentShape
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the shape of the comment.
 type: docs
-weight: 1920
 url: /net/aspose.cells.drawing/commentshape/
 ---
 ## CommentShape class

@@ -3,7 +3,6 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the name of the range.
 type: docs
-weight: 70
 url: /net/aspose.cells/unionrange/name/
 ---
 ## UnionRange.Name property

@@ -3,7 +3,6 @@ title: ExportAsString
 second_title: Aspose.Cells for .NET API Reference
 description: Exports the string value of the cells to json.
 type: docs
-weight: 30
 url: /net/aspose.cells/jsonsaveoptions/exportasstring/
 ---
 ## JsonSaveOptions.ExportAsString property

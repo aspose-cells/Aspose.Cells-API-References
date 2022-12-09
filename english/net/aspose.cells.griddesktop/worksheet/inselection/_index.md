@@ -3,7 +3,6 @@ title: InSelection
 second_title: Aspose.Cells for .NET API Reference
 description: Determines whether the specified cell location is in selected.
 type: docs
-weight: 830
 url: /net/aspose.cells.griddesktop/worksheet/inselection/
 ---
 ## Worksheet.InSelection method

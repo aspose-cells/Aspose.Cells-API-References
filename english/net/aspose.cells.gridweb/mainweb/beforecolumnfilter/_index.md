@@ -3,7 +3,6 @@ title: BeforeColumnFilter
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs before the column to be filtered.
 type: docs
-weight: 1140
 url: /net/aspose.cells.gridweb/mainweb/beforecolumnfilter/
 ---
 ## MainWeb.BeforeColumnFilter event

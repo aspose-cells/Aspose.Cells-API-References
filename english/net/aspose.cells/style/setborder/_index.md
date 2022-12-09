@@ -3,7 +3,6 @@ title: SetBorder
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the borders of the style.
 type: docs
-weight: 370
 url: /net/aspose.cells/style/setborder/
 ---
 ## SetBorder(BorderType, CellBorderType, Color) {#setborder_1}

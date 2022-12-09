@@ -3,7 +3,6 @@ title: ColorFilter
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the color filter.
 type: docs
-weight: 1040
 url: /net/aspose.cells/colorfilter/
 ---
 ## ColorFilter class

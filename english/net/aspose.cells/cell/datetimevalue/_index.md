@@ -3,7 +3,6 @@ title: DateTimeValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the DateTime value contained in the cell.
 type: docs
-weight: 50
 url: /net/aspose.cells/cell/datetimevalue/
 ---
 ## Cell.DateTimeValue property

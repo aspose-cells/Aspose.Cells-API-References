@@ -3,7 +3,6 @@ title: MsoFormatPicture
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the picture format.
 type: docs
-weight: 2350
 url: /net/aspose.cells.drawing/msoformatpicture/
 ---
 ## MsoFormatPicture class

@@ -3,7 +3,6 @@ title: FarEastName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the FarEast name.
 type: docs
-weight: 10
 url: /net/aspose.cells.drawing.texts/textoptions/fareastname/
 ---
 ## TextOptions.FarEastName property

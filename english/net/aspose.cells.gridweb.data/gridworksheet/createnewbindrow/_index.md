@@ -3,7 +3,6 @@ title: CreateNewBindRow
 second_title: Aspose.Cells for .NET API Reference
 description: Creates a new bind row and bind to the datasource.
 type: docs
-weight: 480
 url: /net/aspose.cells.gridweb.data/gridworksheet/createnewbindrow/
 ---
 ## GridWorksheet.CreateNewBindRow method

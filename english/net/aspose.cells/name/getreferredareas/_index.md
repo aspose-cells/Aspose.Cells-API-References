@@ -3,7 +3,6 @@ title: GetReferredAreas
 second_title: Aspose.Cells for .NET API Reference
 description: Gets all references referred by this name.
 type: docs
-weight: 110
 url: /net/aspose.cells/name/getreferredareas/
 ---
 ## Name.GetReferredAreas method

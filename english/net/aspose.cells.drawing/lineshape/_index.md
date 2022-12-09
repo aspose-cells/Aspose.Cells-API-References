@@ -3,7 +3,6 @@ title: LineShape
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the line shape.
 type: docs
-weight: 2250
 url: /net/aspose.cells.drawing/lineshape/
 ---
 ## LineShape class

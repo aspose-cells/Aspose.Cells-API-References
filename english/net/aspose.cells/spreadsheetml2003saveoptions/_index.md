@@ -3,7 +3,6 @@ title: SpreadsheetML2003SaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the options for saving Excel 2003 spreadml file.
 type: docs
-weight: 5820
 url: /net/aspose.cells/spreadsheetml2003saveoptions/
 ---
 ## SpreadsheetML2003SaveOptions class

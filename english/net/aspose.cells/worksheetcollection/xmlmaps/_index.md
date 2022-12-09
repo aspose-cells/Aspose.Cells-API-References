@@ -3,7 +3,6 @@ title: XmlMaps
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the XML maps in the workbook.
 type: docs
-weight: 160
 url: /net/aspose.cells/worksheetcollection/xmlmaps/
 ---
 ## WorksheetCollection.XmlMaps property

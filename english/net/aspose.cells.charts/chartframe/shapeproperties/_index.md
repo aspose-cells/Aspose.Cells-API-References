@@ -3,7 +3,6 @@ title: ShapeProperties
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the ShapePropertiesaspose.cells.charts/chartframe/shapeproperties object.
 type: docs
-weight: 160
 url: /net/aspose.cells.charts/chartframe/shapeproperties/
 ---
 ## ChartFrame.ShapeProperties property

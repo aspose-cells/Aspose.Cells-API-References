@@ -3,7 +3,6 @@ title: GridLines
 second_title: Aspose.Cells for .NET API Reference
 description: Grid lines.
 type: docs
-weight: 70
 url: /net/aspose.cells.gridweb/gridtablestyle/gridlines/
 ---
 ## GridTableStyle.GridLines property

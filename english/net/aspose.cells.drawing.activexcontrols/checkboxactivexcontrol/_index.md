@@ -3,7 +3,6 @@ title: CheckBoxActiveXControl
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a CheckBox ActiveX control.
 type: docs
-weight: 1490
 url: /net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/
 ---
 ## CheckBoxActiveXControl class

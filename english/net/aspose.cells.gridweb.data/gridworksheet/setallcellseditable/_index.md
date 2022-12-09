@@ -3,7 +3,6 @@ title: SetAllCellsEditable
 second_title: Aspose.Cells for .NET API Reference
 description: Makes all cells editable.this is extended attribute
 type: docs
-weight: 700
 url: /net/aspose.cells.gridweb.data/gridworksheet/setallcellseditable/
 ---
 ## GridWorksheet.SetAllCellsEditable method

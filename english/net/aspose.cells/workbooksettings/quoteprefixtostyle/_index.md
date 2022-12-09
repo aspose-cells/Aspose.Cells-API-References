@@ -3,7 +3,6 @@ title: QuotePrefixToStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether setting QuotePrefixaspose.cells/style/quoteprefix property when entering the string valuewhich starts with single quote mark  to the cell
 type: docs
-weight: 460
 url: /net/aspose.cells/workbooksettings/quoteprefixtostyle/
 ---
 ## WorkbookSettings.QuotePrefixToStyle property

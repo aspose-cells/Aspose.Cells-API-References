@@ -3,7 +3,6 @@ title: IsVisible
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether there is fill.
 type: docs
-weight: 40
 url: /net/aspose.cells.drawing/msofillformat/isvisible/
 ---
 ## MsoFillFormat.IsVisible property

@@ -3,7 +3,6 @@ title: IsInsertingColumnsAllowed
 second_title: Aspose.Cells for .NET API Reference
 description: Represents if the insertion of columns is allowed on a protected worksheet
 type: docs
-weight: 260
 url: /net/aspose.cells/protection/isinsertingcolumnsallowed/
 ---
 ## Protection.IsInsertingColumnsAllowed property

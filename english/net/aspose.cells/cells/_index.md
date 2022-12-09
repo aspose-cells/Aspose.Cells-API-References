@@ -3,7 +3,6 @@ title: Cells
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates a collection of cell relevant objects such as Cell./cell Row./row ...etc.
 type: docs
-weight: 300
 url: /net/aspose.cells/cells/
 ---
 ## Cells class

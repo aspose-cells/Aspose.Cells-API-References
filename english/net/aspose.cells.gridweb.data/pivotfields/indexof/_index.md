@@ -3,7 +3,6 @@ title: IndexOf
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the index of the specified PivotField.
 type: docs
-weight: 80
 url: /net/aspose.cells.gridweb.data/pivotfields/indexof/
 ---
 ## PivotFields.IndexOf method

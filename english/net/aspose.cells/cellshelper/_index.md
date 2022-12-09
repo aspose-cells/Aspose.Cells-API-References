@@ -3,7 +3,6 @@ title: CellsHelper
 second_title: Aspose.Cells for .NET API Reference
 description: Provides helper functions.
 type: docs
-weight: 350
 url: /net/aspose.cells/cellshelper/
 ---
 ## CellsHelper class

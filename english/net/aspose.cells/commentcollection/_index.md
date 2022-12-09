@@ -3,7 +3,6 @@ title: CommentCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates a collection of Comment./comment objects.
 type: docs
-weight: 1100
 url: /net/aspose.cells/commentcollection/
 ---
 ## CommentCollection class

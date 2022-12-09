@@ -3,7 +3,6 @@ title: SetRange
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the searched range.
 type: docs
-weight: 150
 url: /net/aspose.cells/findoptions/setrange/
 ---
 ## FindOptions.SetRange method

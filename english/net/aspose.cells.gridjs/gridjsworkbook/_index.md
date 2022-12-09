@@ -3,7 +3,6 @@ title: GridJsWorkbook
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the main entry class for GridJs
 type: docs
-weight: 80
 url: /net/aspose.cells.gridjs/gridjsworkbook/
 ---
 ## GridJsWorkbook class

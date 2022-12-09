@@ -3,7 +3,6 @@ title: ConditionalFormattingIconCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a collection of ConditionalFormattingIcon./conditionalformattingicon objects.
 type: docs
-weight: 1130
 url: /net/aspose.cells/conditionalformattingiconcollection/
 ---
 ## ConditionalFormattingIconCollection class

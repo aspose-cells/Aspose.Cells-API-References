@@ -3,7 +3,6 @@ title: CollectionBaseT
 second_title: Aspose.Cells for .NET API Reference
 description: Provides the abstract base class for a strongly typed collection.
 type: docs
-weight: 1030
 url: /net/aspose.cells/collectionbase-1/
 ---
 ## CollectionBase&lt;T&gt; class

@@ -3,7 +3,6 @@ title: MergeWith
 second_title: Aspose.Cells for .NET API Reference
 description: Merges with another style object.
 type: docs
-weight: 150
 url: /net/aspose.cells.gridweb/gridtablestyle/mergewith/
 ---
 ## GridTableStyle.MergeWith method

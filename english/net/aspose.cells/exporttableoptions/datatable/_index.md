@@ -3,7 +3,6 @@ title: DataTable
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the DataTable which columns data type is assigned.
 type: docs
-weight: 30
 url: /net/aspose.cells/exporttableoptions/datatable/
 ---
 ## ExportTableOptions.DataTable property

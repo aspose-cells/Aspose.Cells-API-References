@@ -3,7 +3,6 @@ title: IsSelected
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether this worksheet is selected when the workbook is opened.
 type: docs
-weight: 280
 url: /net/aspose.cells/worksheet/isselected/
 ---
 ## Worksheet.IsSelected property

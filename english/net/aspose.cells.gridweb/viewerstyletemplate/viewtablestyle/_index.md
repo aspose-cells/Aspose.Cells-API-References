@@ -3,7 +3,6 @@ title: ViewTableStyle
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 190
 url: /net/aspose.cells.gridweb/viewerstyletemplate/viewtablestyle/
 ---
 ## ViewerStyleTemplate.ViewTableStyle property

@@ -3,7 +3,6 @@ title: Parent
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the parent object for the specified object. Readonly.
 type: docs
-weight: 20
 url: /net/aspose.cells.gridweb.data/pivotitem/parent/
 ---
 ## PivotItem.Parent property

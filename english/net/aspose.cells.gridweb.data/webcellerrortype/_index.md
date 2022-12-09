@@ -3,7 +3,6 @@ title: WebCellErrorType
 second_title: Aspose.Cells for .NET API Reference
 description: Used in WebCellException. Represents the cell error type.
 type: docs
-weight: 880
 url: /net/aspose.cells.gridweb.data/webcellerrortype/
 ---
 ## WebCellErrorType enumeration

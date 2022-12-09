@@ -3,7 +3,6 @@ title: FillFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents fill formatting for a shape.
 type: docs
-weight: 1980
 url: /net/aspose.cells.drawing/fillformat/
 ---
 ## FillFormat class

@@ -3,7 +3,6 @@ title: GroupBox
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents a groupbox in a spreadsheet.
 type: docs
-weight: 2140
 url: /net/aspose.cells.drawing/groupbox/
 ---
 ## GroupBox class

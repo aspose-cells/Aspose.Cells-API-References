@@ -3,7 +3,6 @@ title: CheckColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Columnaspose.cells/column element or null at the specified column index.
 type: docs
-weight: 370
 url: /net/aspose.cells/cells/checkcolumn/
 ---
 ## Cells.CheckColumn method

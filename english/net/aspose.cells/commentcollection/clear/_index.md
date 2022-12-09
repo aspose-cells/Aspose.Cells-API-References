@@ -3,7 +3,6 @@ title: Clear
 second_title: Aspose.Cells for .NET API Reference
 description: Removes all comments
 type: docs
-weight: 40
 url: /net/aspose.cells/commentcollection/clear/
 ---
 ## CommentCollection.Clear method

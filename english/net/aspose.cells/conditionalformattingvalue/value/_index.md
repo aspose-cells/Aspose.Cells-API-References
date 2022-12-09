@@ -3,7 +3,6 @@ title: Value
 second_title: Aspose.Cells for .NET API Reference
 description: Get or set the value of this conditional formatting value object. It should be used in conjunction with Type.
 type: docs
-weight: 30
 url: /net/aspose.cells/conditionalformattingvalue/value/
 ---
 ## ConditionalFormattingValue.Value property

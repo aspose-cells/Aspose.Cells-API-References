@@ -3,7 +3,6 @@ title: MsoLineDashStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Represents style of dash drawing lines.
 type: docs
-weight: 2360
 url: /net/aspose.cells.drawing/msolinedashstyle/
 ---
 ## MsoLineDashStyle enumeration

@@ -3,7 +3,6 @@ title: IsByCategory
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether grouping data by category
 type: docs
-weight: 40
 url: /net/aspose.cells.charts/axisbins/isbycategory/
 ---
 ## AxisBins.IsByCategory property

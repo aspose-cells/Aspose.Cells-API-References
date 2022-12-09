@@ -3,7 +3,6 @@ title: Visible
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a set with visible sheets of the workbook in their original order.
 type: docs
-weight: 30
 url: /net/aspose.cells.rendering/sheetset/visible/
 ---
 ## SheetSet.Visible property

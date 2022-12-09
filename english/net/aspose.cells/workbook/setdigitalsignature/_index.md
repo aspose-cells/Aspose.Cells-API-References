@@ -3,7 +3,6 @@ title: SetDigitalSignature
 second_title: Aspose.Cells for .NET API Reference
 description: Sets digital signature to an spreadsheet file Excel2007 and later.
 type: docs
-weight: 620
 url: /net/aspose.cells/workbook/setdigitalsignature/
 ---
 ## Workbook.SetDigitalSignature method

@@ -3,7 +3,6 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: The color type.
 type: docs
-weight: 70
 url: /net/aspose.cells/cellscolor/type/
 ---
 ## CellsColor.Type property

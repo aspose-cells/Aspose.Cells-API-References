@@ -3,7 +3,6 @@ title: AutoShowCount
 second_title: Aspose.Cells for .NET API Reference
 description: Represent the number of top or bottom items that are automatically shown in the specified PivotTable field.
 type: docs
-weight: 10
 url: /net/aspose.cells.pivot/pivotfield/autoshowcount/
 ---
 ## PivotField.AutoShowCount property

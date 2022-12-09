@@ -3,7 +3,6 @@ title: Amount
 second_title: Aspose.Cells for .NET API Reference
 description: Represents amount of error bar.  The amount must be greater than or equal to zero.
 type: docs
-weight: 10
 url: /net/aspose.cells.charts/errorbar/amount/
 ---
 ## ErrorBar.Amount property

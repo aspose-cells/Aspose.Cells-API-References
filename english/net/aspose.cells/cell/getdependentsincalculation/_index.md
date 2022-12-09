@@ -3,7 +3,6 @@ title: GetDependentsInCalculation
 second_title: Aspose.Cells for .NET API Reference
 description: Gets all cells whose calculated result depends on this cell.
 type: docs
-weight: 430
 url: /net/aspose.cells/cell/getdependentsincalculation/
 ---
 ## Cell.GetDependentsInCalculation method

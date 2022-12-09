@@ -3,7 +3,6 @@ title: SetDataSource
 second_title: Aspose.Cells for .NET API Reference
 description: Sets data source of a ICellsDataTableaspose.cells/icellsdatatable object.
 type: docs
-weight: 120
 url: /net/aspose.cells/workbookdesigner/setdatasource/
 ---
 ## SetDataSource(string, ICellsDataTable) {#setdatasource_5}

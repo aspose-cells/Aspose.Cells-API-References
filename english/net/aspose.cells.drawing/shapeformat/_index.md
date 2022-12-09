@@ -3,7 +3,6 @@ title: ShapeFormat
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2680
 url: /net/aspose.cells.drawing/shapeformat/
 ---
 ## ShapeFormat class

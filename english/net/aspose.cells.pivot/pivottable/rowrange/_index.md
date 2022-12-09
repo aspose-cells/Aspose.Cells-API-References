@@ -3,7 +3,6 @@ title: RowRange
 second_title: Aspose.Cells for .NET API Reference
 description: Returns a CellArea object that represents the range that contains the row area in the PivotTable report. Readonly.
 type: docs
-weight: 560
 url: /net/aspose.cells.pivot/pivottable/rowrange/
 ---
 ## PivotTable.RowRange property

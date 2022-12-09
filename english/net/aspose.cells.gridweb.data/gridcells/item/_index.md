@@ -1,14 +1,13 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API Reference
-description: Gets Cell item within the worksheet
+description: Gets GridCellaspose.cells.gridweb.data/gridcell item within the worksheet
 type: docs
-weight: 40
 url: /net/aspose.cells.gridweb.data/gridcells/item/
 ---
 ## GridCells indexer (1 of 3)
 
-Gets Cell item within the worksheet
+Gets [`GridCell`](../../gridcell) item within the worksheet
 
 ```csharp
 public GridCell this[int index] { get; }
@@ -37,7 +36,7 @@ This is the indexer for the Cells class. Gets the cell element at the specified 
 
 ## GridCells indexer (2 of 3)
 
-Gets the Cell element at the specified cell row index and column index.
+Gets the [`GridCell`](../../gridcell) element at the specified cell row index and column index.
 
 ```csharp
 public GridCell this[int row, int column] { get; }
@@ -50,16 +49,16 @@ public GridCell this[int row, int column] { get; }
 
 ### Return Value
 
-The Cell object.
+The [`GridCell`](../../gridcell) object.
 
 ### Examples
 
 ```csharp
 [C#]
-
-Cells cells = excel.Worksheets[0].Cells;
+GridWeb GridWeb1 = new GridWeb();
+GridCells cells = GridWeb1.WorkSheets[0].Cells;
 //Gets the cell at "A1"
-Cell cell = cells[0, 0];	
+GridCell cell = cells[0, 0];	
 
 [Visual Basic]
 
@@ -79,7 +78,7 @@ Dim cell As Cell =  cells(0,0)
 
 ## GridCells indexer (3 of 3)
 
-Gets the Cell element at the specified cell name.
+Gets the [`GridCell`](../../gridcell) element at the specified cell name.
 
 ```csharp
 public GridCell this[string cellName] { get; }
@@ -91,15 +90,15 @@ public GridCell this[string cellName] { get; }
 
 ### Return Value
 
-A Cell object
+A [`GridCell`](../../gridcell) object
 
 ### Examples
 
 ```csharp
 [C#]
-
-Cells cells = excel.Worksheets[0].Cells;
-Cell cell = cells["A1"];	//Gets the cell at "A1"
+ridWeb GridWeb1 = new GridWeb();
+ GridCells cells = GridWeb1.WorkSheets[0].Cells;
+ GridCell cell = cells["A1"];	//Gets the cell at "A1"
 
 [Visual Basic]
 

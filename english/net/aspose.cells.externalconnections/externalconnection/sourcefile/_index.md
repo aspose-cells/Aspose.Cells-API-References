@@ -3,7 +3,6 @@ title: SourceFile
 second_title: Aspose.Cells for .NET API Reference
 description: Used when the external data source is filebased. When a connection to such a data source fails the spreadsheet application attempts to connect directly to this file. May be expressed in URI or systemspecific file path notation.
 type: docs
-weight: 210
 url: /net/aspose.cells.externalconnections/externalconnection/sourcefile/
 ---
 ## ExternalConnection.SourceFile property

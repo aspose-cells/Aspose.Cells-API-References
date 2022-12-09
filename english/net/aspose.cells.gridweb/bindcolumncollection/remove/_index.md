@@ -3,7 +3,6 @@ title: Remove
 second_title: Aspose.Cells for .NET API Reference
 description: Remove an bind column object.
 type: docs
-weight: 140
 url: /net/aspose.cells.gridweb/bindcolumncollection/remove/
 ---
 ## BindColumnCollection.Remove method

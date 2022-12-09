@@ -3,7 +3,6 @@ title: Clear
 second_title: Aspose.Cells for .NET API Reference
 description: Clear all pivot tables.
 type: docs
-weight: 30
 url: /net/aspose.cells.pivot/pivottablecollection/clear/
 ---
 ## PivotTableCollection.Clear method

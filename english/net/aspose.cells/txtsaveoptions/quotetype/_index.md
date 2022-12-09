@@ -3,7 +3,6 @@ title: QuoteType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets how to quote values in the exported text file.
 type: docs
-weight: 100
 url: /net/aspose.cells/txtsaveoptions/quotetype/
 ---
 ## TxtSaveOptions.QuoteType property

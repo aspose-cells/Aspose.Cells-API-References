@@ -3,7 +3,6 @@ title: PicturePosition
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and set the location of the controls picture relative to its caption.
 type: docs
-weight: 80
 url: /net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/pictureposition/
 ---
 ## CheckBoxActiveXControl.PicturePosition property

@@ -3,7 +3,6 @@ title: OleObject
 second_title: Aspose.Cells for .NET API Reference
 description: Represents an OleObject in a worksheet.
 type: docs
-weight: 2440
 url: /net/aspose.cells.drawing/oleobject/
 ---
 ## OleObject class

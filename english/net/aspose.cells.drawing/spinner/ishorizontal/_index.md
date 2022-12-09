@@ -3,7 +3,6 @@ title: IsHorizontal
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether this is a horizontal scroll bar.
 type: docs
-weight: 30
 url: /net/aspose.cells.drawing/spinner/ishorizontal/
 ---
 ## Spinner.IsHorizontal property

@@ -3,7 +3,6 @@ title: BoolValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the boolean value contained in the cell.
 type: docs
-weight: 10
 url: /net/aspose.cells/cell/boolvalue/
 ---
 ## Cell.BoolValue property

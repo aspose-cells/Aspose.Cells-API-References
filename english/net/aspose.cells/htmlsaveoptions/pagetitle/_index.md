@@ -3,7 +3,6 @@ title: PageTitle
 second_title: Aspose.Cells for .NET API Reference
 description: The title of the html page. Only for saving to html stream.
 type: docs
-weight: 460
 url: /net/aspose.cells/htmlsaveoptions/pagetitle/
 ---
 ## HtmlSaveOptions.PageTitle property

@@ -3,7 +3,6 @@ title: LastSavedBy
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the name of the last author.
 type: docs
-weight: 190
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/lastsavedby/
 ---
 ## BuiltInDocumentPropertyCollection.LastSavedBy property

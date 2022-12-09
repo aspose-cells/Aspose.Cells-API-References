@@ -3,7 +3,6 @@ title: TitleStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the style of the title.
 type: docs
-weight: 90
 url: /net/aspose.cells.utility/jsonlayoutoptions/titlestyle/
 ---
 ## JsonLayoutOptions.TitleStyle property

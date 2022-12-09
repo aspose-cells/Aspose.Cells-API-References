@@ -3,7 +3,6 @@ title: GetPrecedents
 second_title: Aspose.Cells for .NET API Reference
 description: Gets all references appearing in this cells formula.
 type: docs
-weight: 520
 url: /net/aspose.cells/cell/getprecedents/
 ---
 ## Cell.GetPrecedents method

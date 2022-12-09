@@ -3,7 +3,6 @@ title: ComboBox
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the control form ComboBox.
 type: docs
-weight: 1910
 url: /net/aspose.cells.drawing/combobox/
 ---
 ## ComboBox class

@@ -3,7 +3,6 @@ title: Clear
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 30
 url: /net/aspose.cells.gridweb.data/gridshapecollection/clear/
 ---
 ## GridShapeCollection.Clear method

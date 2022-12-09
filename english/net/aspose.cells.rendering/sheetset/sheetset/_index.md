@@ -3,7 +3,6 @@ title: SheetSet
 second_title: Aspose.Cells for .NET API Reference
 description: Creates a sheet set based on exact sheet indexes.
 type: docs
-weight: 10
 url: /net/aspose.cells.rendering/sheetset/sheetset/
 ---
 ## SheetSet constructor

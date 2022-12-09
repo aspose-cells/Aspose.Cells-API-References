@@ -3,7 +3,6 @@ title: PlotEmptyCellsType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets how to plot the empty cells.
 type: docs
-weight: 300
 url: /net/aspose.cells.charts/chart/plotemptycellstype/
 ---
 ## Chart.PlotEmptyCellsType property

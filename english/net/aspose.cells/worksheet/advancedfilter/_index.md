@@ -3,7 +3,6 @@ title: AdvancedFilter
 second_title: Aspose.Cells for .NET API Reference
 description: Filters data using complex criteria.
 type: docs
-weight: 620
 url: /net/aspose.cells/worksheet/advancedfilter/
 ---
 ## Worksheet.AdvancedFilter method

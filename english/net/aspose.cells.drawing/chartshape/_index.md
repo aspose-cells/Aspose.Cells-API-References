@@ -3,7 +3,6 @@ title: ChartShape
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the shape of the chart. Properties and methods for the ChartObject object control the appearance and size of the embedded chart on the worksheet.
 type: docs
-weight: 1860
 url: /net/aspose.cells.drawing/chartshape/
 ---
 ## ChartShape class

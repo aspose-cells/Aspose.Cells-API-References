@@ -3,7 +3,6 @@ title: SetEvenFooter
 second_title: Aspose.Cells for .NET API Reference
 description: Sets a script formatting the even page footer of an Excel file. Only effect in Excel 2007 when IsHFDiffOddEven is true.
 type: docs
-weight: 550
 url: /net/aspose.cells/pagesetup/setevenfooter/
 ---
 ## PageSetup.SetEvenFooter method

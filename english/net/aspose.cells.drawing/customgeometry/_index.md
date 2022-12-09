@@ -3,7 +3,6 @@ title: CustomGeometry
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a custom geometric shape.
 type: docs
-weight: 1930
 url: /net/aspose.cells.drawing/customgeometry/
 ---
 ## CustomGeometry class

@@ -3,7 +3,6 @@ title: SetArrayFormula
 second_title: Aspose.Cells for .NET API Reference
 description: Sets an array formula to a range of cells.
 type: docs
-weight: 630
 url: /net/aspose.cells/cell/setarrayformula/
 ---
 ## SetArrayFormula(string, int, int, bool, bool) {#setarrayformula_3}

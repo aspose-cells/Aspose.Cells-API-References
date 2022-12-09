@@ -3,7 +3,6 @@ title: Remove
 second_title: Aspose.Cells for .NET API Reference
 description: Remove an array of name
 type: docs
-weight: 50
 url: /net/aspose.cells/namecollection/remove/
 ---
 ## Remove(string[]) {#remove_1}

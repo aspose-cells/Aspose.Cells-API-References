@@ -3,7 +3,6 @@ title: Timeline
 second_title: Aspose.Cells for .NET API Reference
 description: Summary description of Timeline View Due to MS Excel Excel 2003 does not support Timeline
 type: docs
-weight: 6160
 url: /net/aspose.cells.timelines/timeline/
 ---
 ## Timeline class

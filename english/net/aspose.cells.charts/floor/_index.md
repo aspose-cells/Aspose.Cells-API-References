@@ -3,7 +3,6 @@ title: Floor
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents the floor of a 3D chart.
 type: docs
-weight: 670
 url: /net/aspose.cells.charts/floor/
 ---
 ## Floor class

@@ -3,7 +3,6 @@ title: SheetName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the worksheet name where the function is in.
 type: docs
-weight: 70
 url: /net/aspose.cells.gridjs/gridcalculationdata/sheetname/
 ---
 ## GridCalculationData.SheetName property

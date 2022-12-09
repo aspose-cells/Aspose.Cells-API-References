@@ -3,7 +3,6 @@ title: TextFrame
 second_title: Aspose.Cells for .NET API Reference
 description: Returns a TextFrame object that contains the alignment and anchoring properties for the specified shape.
 type: docs
-weight: 720
 url: /net/aspose.cells.drawing/shape/textframe/
 ---
 ## Shape.TextFrame property

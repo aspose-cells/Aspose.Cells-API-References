@@ -3,7 +3,6 @@ title: ScrollBar
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a scroll bar object.
 type: docs
-weight: 2620
 url: /net/aspose.cells.drawing/scrollbar/
 ---
 ## ScrollBar class

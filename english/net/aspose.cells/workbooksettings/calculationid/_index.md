@@ -3,7 +3,6 @@ title: CalculationId
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the version of the calculation engine used to calculate values in the workbook.
 type: docs
-weight: 70
 url: /net/aspose.cells/workbooksettings/calculationid/
 ---
 ## WorkbookSettings.CalculationId property

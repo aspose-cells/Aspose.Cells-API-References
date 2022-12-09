@@ -3,7 +3,6 @@ title: GetOffset
 second_title: Aspose.Cells for .NET API Reference
 description: Gets Rangeaspose.cells/range range by offset.
 type: docs
-weight: 320
 url: /net/aspose.cells/range/getoffset/
 ---
 ## Range.GetOffset method

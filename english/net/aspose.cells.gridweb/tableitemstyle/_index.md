@@ -3,7 +3,6 @@ title: TableItemStyle
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1120
 url: /net/aspose.cells.gridweb/tableitemstyle/
 ---
 ## TableItemStyle class

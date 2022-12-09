@@ -3,7 +3,6 @@ title: ColorType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets whether to use the same fill color as positive data bars.
 type: docs
-weight: 40
 url: /net/aspose.cells/negativebarformat/colortype/
 ---
 ## NegativeBarFormat.ColorType property

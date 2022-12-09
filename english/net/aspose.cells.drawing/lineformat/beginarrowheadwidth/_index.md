@@ -3,7 +3,6 @@ title: BeginArrowheadWidth
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the begin arrow width type of the line.
 type: docs
-weight: 30
 url: /net/aspose.cells.drawing/lineformat/beginarrowheadwidth/
 ---
 ## LineFormat.BeginArrowheadWidth property

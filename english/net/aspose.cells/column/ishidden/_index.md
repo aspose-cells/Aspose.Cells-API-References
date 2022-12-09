@@ -3,7 +3,6 @@ title: IsHidden
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the column is hidden.
 type: docs
-weight: 40
 url: /net/aspose.cells/column/ishidden/
 ---
 ## Column.IsHidden property

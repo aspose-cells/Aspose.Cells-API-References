@@ -3,7 +3,6 @@ title: IsParsePre
 second_title: Aspose.Cells for .NET API Reference
 description: Flag indicating whether data contained within HTML PRE tags in the web page is parsed into columns when you import the page into a query table.
 type: docs
-weight: 60
 url: /net/aspose.cells.externalconnections/webqueryconnection/isparsepre/
 ---
 ## WebQueryConnection.IsParsePre property

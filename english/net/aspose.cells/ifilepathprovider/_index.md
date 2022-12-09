@@ -3,7 +3,6 @@ title: IFilePathProvider
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the exported file path provider.
 type: docs
-weight: 3850
 url: /net/aspose.cells/ifilepathprovider/
 ---
 ## IFilePathProvider interface

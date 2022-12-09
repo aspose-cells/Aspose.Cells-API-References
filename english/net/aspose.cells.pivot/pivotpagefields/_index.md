@@ -3,7 +3,6 @@ title: PivotPageFields
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the pivot page field items if the pivot table data source is consolidation ranges. It only can contain up to 4 fields.
 type: docs
-weight: 4760
 url: /net/aspose.cells.pivot/pivotpagefields/
 ---
 ## PivotPageFields class

@@ -3,7 +3,6 @@ title: FieldIndex
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the field index of the pivot filter.
 type: docs
-weight: 30
 url: /net/aspose.cells.pivot/pivotfilter/fieldindex/
 ---
 ## PivotFilter.FieldIndex property

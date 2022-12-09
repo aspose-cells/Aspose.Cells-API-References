@@ -1,14 +1,13 @@
 ---
 title: GetRow
 second_title: Aspose.Cells for .NET API Reference
-description: Gets the Row element or at the specified cell row index.
+description: Gets the GridRowaspose.cells.gridweb.data/gridrow element or at the specified cell row index.
 type: docs
-weight: 440
 url: /net/aspose.cells.gridweb.data/gridcells/getrow/
 ---
 ## GridCells.GetRow method
 
-Gets the Row element or at the specified cell row index.
+Gets the [`GridRow`](../../gridrow) element or at the specified cell row index.
 
 ```csharp
 public GridRow GetRow(int i)

@@ -3,7 +3,6 @@ title: ViewTableStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the data view panels style.
 type: docs
-weight: 1070
 url: /net/aspose.cells.gridweb/mainweb/viewtablestyle/
 ---
 ## MainWeb.ViewTableStyle property

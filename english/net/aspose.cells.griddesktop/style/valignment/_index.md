@@ -3,7 +3,6 @@ title: VAlignment
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets vertical alignment attribute.
 type: docs
-weight: 160
 url: /net/aspose.cells.griddesktop/style/valignment/
 ---
 ## Style.VAlignment property

@@ -3,7 +3,6 @@ title: IsFormula
 second_title: Aspose.Cells for .NET API Reference
 description: Represents if the specified cell contains formula.
 type: docs
-weight: 330
 url: /net/aspose.cells.griddesktop.data/gridcell/isformula/
 ---
 ## GridCell.IsFormula method

@@ -3,7 +3,6 @@ title: CellEventStringHandler
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the method that intend to handle cell events. same as CellEventHandler interfacebut return string result
 type: docs
-weight: 340
 url: /net/aspose.cells.griddesktop.data/celleventstringhandler/
 ---
 ## CellEventStringHandler delegate

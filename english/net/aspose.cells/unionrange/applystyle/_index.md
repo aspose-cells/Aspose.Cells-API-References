@@ -3,7 +3,6 @@ title: ApplyStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Applies formats for a whole range.
 type: docs
-weight: 130
 url: /net/aspose.cells/unionrange/applystyle/
 ---
 ## UnionRange.ApplyStyle method

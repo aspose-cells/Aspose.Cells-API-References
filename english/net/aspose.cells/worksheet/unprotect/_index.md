@@ -3,7 +3,6 @@ title: Unprotect
 second_title: Aspose.Cells for .NET API Reference
 description: Unprotects worksheet.
 type: docs
-weight: 910
 url: /net/aspose.cells/worksheet/unprotect/
 ---
 ## Unprotect() {#unprotect}

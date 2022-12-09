@@ -3,7 +3,6 @@ title: SlicerCache
 second_title: Aspose.Cells for .NET API Reference
 description: summary description of slicer cache
 type: docs
-weight: 5730
 url: /net/aspose.cells.slicers/slicercache/
 ---
 ## SlicerCache class

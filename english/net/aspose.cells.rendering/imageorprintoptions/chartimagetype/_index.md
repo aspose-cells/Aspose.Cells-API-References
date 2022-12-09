@@ -3,7 +3,6 @@ title: ChartImageType
 second_title: Aspose.Cells for .NET API Reference
 description: Indicate the chart imagetype when converting. default value PNG.
 type: docs
-weight: 30
 url: /net/aspose.cells.rendering/imageorprintoptions/chartimagetype/
 ---
 ## ImageOrPrintOptions.ChartImageType property

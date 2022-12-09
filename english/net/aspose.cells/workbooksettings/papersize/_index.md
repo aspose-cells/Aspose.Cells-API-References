@@ -3,7 +3,6 @@ title: PaperSize
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the default print paper size.
 type: docs
-weight: 410
 url: /net/aspose.cells/workbooksettings/papersize/
 ---
 ## WorkbookSettings.PaperSize property

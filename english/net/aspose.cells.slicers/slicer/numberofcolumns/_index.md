@@ -3,7 +3,6 @@ title: NumberOfColumns
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the number of columns in the specified slicer.
 type: docs
-weight: 140
 url: /net/aspose.cells.slicers/slicer/numberofcolumns/
 ---
 ## Slicer.NumberOfColumns property

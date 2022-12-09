@@ -3,7 +3,6 @@ title: ShapeAnchorType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the anchor type.
 type: docs
-weight: 2660
 url: /net/aspose.cells.drawing/shapeanchortype/
 ---
 ## ShapeAnchorType enumeration

@@ -3,7 +3,6 @@ title: Height
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the height of the list control.
 type: docs
-weight: 10
 url: /net/aspose.cells.griddesktop/combobox/height/
 ---
 ## ComboBox.Height property

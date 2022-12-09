@@ -3,7 +3,6 @@ title: WindowLeftInch
 second_title: Aspose.Cells for .NET API Reference
 description: The distance from the left edge of the client area to the left edge of the window. In unit of inch.
 type: docs
-weight: 660
 url: /net/aspose.cells/workbooksettings/windowleftinch/
 ---
 ## WorkbookSettings.WindowLeftInch property

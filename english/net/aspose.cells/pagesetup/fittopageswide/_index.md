@@ -3,7 +3,6 @@ title: FitToPagesWide
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the number of pages wide the worksheet will be scaled to when its printed. The default value is 1.
 type: docs
-weight: 80
 url: /net/aspose.cells/pagesetup/fittopageswide/
 ---
 ## PageSetup.FitToPagesWide property

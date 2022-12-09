@@ -3,7 +3,6 @@ title: SetRowHiddenStatus
 second_title: Aspose.Cells for .NET API Reference
 description: Set hidden status of a specified row.
 type: docs
-weight: 360
 url: /net/aspose.cells.gridweb.data/webcells/setrowhiddenstatus/
 ---
 ## WebCells.SetRowHiddenStatus method

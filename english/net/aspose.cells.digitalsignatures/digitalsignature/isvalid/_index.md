@@ -3,7 +3,6 @@ title: IsValid
 second_title: Aspose.Cells for .NET API Reference
 description: If this digital signature is valid and the document has not been tampered with this value will be true.
 type: docs
-weight: 60
 url: /net/aspose.cells.digitalsignatures/digitalsignature/isvalid/
 ---
 ## DigitalSignature.IsValid property

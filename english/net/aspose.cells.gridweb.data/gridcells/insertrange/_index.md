@@ -3,7 +3,6 @@ title: InsertRange
 second_title: Aspose.Cells for .NET API Reference
 description: Inserts a range of cells and shift cells according to the shift option.
 type: docs
-weight: 560
 url: /net/aspose.cells.gridweb.data/gridcells/insertrange/
 ---
 ## InsertRange(GridCellArea, GridShiftType) {#insertrange}

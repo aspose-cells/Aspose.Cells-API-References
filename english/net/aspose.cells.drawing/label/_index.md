@@ -3,7 +3,6 @@ title: Label
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents a label in a spreadsheet.
 type: docs
-weight: 2180
 url: /net/aspose.cells.drawing/label/
 ---
 ## Label class

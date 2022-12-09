@@ -3,7 +3,6 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Rangeaspose.cells/range element at the specified index.
 type: docs
-weight: 10
 url: /net/aspose.cells/rangecollection/item/
 ---
 ## RangeCollection indexer

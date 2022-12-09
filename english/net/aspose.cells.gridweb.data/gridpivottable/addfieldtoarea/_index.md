@@ -3,7 +3,6 @@ title: AddFieldToArea
 second_title: Aspose.Cells for .NET API Reference
 description: Adds the field to the specific area.
 type: docs
-weight: 10
 url: /net/aspose.cells.gridweb.data/gridpivottable/addfieldtoarea/
 ---
 ## AddFieldToArea(GridPivotFieldType, int) {#addfieldtoarea}

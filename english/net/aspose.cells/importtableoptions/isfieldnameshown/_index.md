@@ -3,7 +3,6 @@ title: IsFieldNameShown
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether field name should be imported.
 type: docs
-weight: 100
 url: /net/aspose.cells/importtableoptions/isfieldnameshown/
 ---
 ## ImportTableOptions.IsFieldNameShown property

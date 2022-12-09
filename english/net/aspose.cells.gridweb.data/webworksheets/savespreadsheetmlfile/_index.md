@@ -3,7 +3,6 @@ title: SaveSpreadSheetMLFile
 second_title: Aspose.Cells for .NET API Reference
 description: Saves data to a SpreadSheetML file.
 type: docs
-weight: 320
 url: /net/aspose.cells.gridweb.data/webworksheets/savespreadsheetmlfile/
 ---
 ## SaveSpreadSheetMLFile(string) {#savespreadsheetmlfile_1}

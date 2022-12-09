@@ -3,7 +3,6 @@ title: SortRange
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates a range of a Worksheet and provide method to sort the range datas by row or column.
 type: docs
-weight: 970
 url: /net/aspose.cells.griddesktop/sortrange/
 ---
 ## SortRange class

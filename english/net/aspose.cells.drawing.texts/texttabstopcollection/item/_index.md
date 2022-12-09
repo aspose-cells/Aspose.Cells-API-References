@@ -3,7 +3,6 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets TextTabStopaspose.cells.drawing.texts/texttabstop by the index.
 type: docs
-weight: 20
 url: /net/aspose.cells.drawing.texts/texttabstopcollection/item/
 ---
 ## TextTabStopCollection indexer

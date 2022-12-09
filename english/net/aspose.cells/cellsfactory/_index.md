@@ -3,7 +3,6 @@ title: CellsFactory
 second_title: Aspose.Cells for .NET API Reference
 description: Utility for instantiating classes of Cells model.
 type: docs
-weight: 340
 url: /net/aspose.cells/cellsfactory/
 ---
 ## CellsFactory class

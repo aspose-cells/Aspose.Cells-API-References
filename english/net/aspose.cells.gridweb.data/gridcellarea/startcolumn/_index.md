@@ -3,7 +3,6 @@ title: StartColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the start column of this area.
 type: docs
-weight: 40
 url: /net/aspose.cells.gridweb.data/gridcellarea/startcolumn/
 ---
 ## GridCellArea.StartColumn field

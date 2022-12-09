@@ -3,7 +3,6 @@ title: IsVisible
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the object is visible.
 type: docs
-weight: 40
 url: /net/aspose.cells.drawing/msolineformat/isvisible/
 ---
 ## MsoLineFormat.IsVisible property

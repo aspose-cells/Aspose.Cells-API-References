@@ -3,7 +3,6 @@ title: Cell
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents a single Workbook cell.
 type: docs
-weight: 230
 url: /net/aspose.cells/cell/
 ---
 ## Cell class

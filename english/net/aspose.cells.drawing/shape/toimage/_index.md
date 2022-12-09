@@ -3,7 +3,6 @@ title: ToImage
 second_title: Aspose.Cells for .NET API Reference
 description: Creates the shape image and saves it to a stream in the specified format.
 type: docs
-weight: 1210
 url: /net/aspose.cells.drawing/shape/toimage/
 ---
 ## ToImage(Stream, ImageFormat) {#toimage_3}

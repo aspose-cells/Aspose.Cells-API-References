@@ -3,7 +3,6 @@ title: CenterHorizontally
 second_title: Aspose.Cells for .NET API Reference
 description: Represent if the sheet is printed centered horizontally.
 type: docs
-weight: 40
 url: /net/aspose.cells/pagesetup/centerhorizontally/
 ---
 ## PageSetup.CenterHorizontally property

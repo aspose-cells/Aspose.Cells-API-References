@@ -3,7 +3,6 @@ title: WidthPt
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the width of the shape in unit of point.
 type: docs
-weight: 960
 url: /net/aspose.cells.drawing/shape/widthpt/
 ---
 ## Shape.WidthPt property

@@ -3,7 +3,6 @@ title: LargeChange
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the amount by which the Position property changes
 type: docs
-weight: 10
 url: /net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/largechange/
 ---
 ## ScrollBarActiveXControl.LargeChange property

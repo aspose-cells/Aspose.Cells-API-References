@@ -3,7 +3,6 @@ title: ImageType
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the type format of an image.
 type: docs
-weight: 2170
 url: /net/aspose.cells.drawing/imagetype/
 ---
 ## ImageType enumeration

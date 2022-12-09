@@ -3,7 +3,6 @@ title: ChangePalette
 second_title: Aspose.Cells for .NET API Reference
 description: Changes the palette for the spreadsheet in the specified index.
 type: docs
-weight: 300
 url: /net/aspose.cells/workbook/changepalette/
 ---
 ## Workbook.ChangePalette method

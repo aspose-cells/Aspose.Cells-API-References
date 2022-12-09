@@ -3,7 +3,6 @@ title: PageSavingCallback
 second_title: Aspose.Cells for .NET API Reference
 description: Control/Indicate progress of page saving process.
 type: docs
-weight: 140
 url: /net/aspose.cells/paginatedsaveoptions/pagesavingcallback/
 ---
 ## PaginatedSaveOptions.PageSavingCallback property

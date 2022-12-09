@@ -3,7 +3,6 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a field.
 type: docs
-weight: 20
 url: /net/aspose.cells.ods/odscellfieldcollection/add/
 ---
 ## OdsCellFieldCollection.Add method

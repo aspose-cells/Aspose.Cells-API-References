@@ -3,7 +3,6 @@ title: NewName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the new name of the worksheet.
 type: docs
-weight: 10
 url: /net/aspose.cells.revisions/revisionrenamesheet/newname/
 ---
 ## RevisionRenameSheet.NewName property

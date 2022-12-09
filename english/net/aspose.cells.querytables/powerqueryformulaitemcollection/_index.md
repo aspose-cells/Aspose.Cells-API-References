@@ -3,7 +3,6 @@ title: PowerQueryFormulaItemCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents all item of the power query formula.
 type: docs
-weight: 5080
 url: /net/aspose.cells.querytables/powerqueryformulaitemcollection/
 ---
 ## PowerQueryFormulaItemCollection class

@@ -3,7 +3,6 @@ title: LineStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the cell border type.
 type: docs
-weight: 30
 url: /net/aspose.cells/border/linestyle/
 ---
 ## Border.LineStyle property

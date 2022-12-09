@@ -3,7 +3,6 @@ title: GridWeb
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1010
 url: /net/aspose.cells.gridweb/gridweb/
 ---
 ## GridWeb class

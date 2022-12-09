@@ -3,7 +3,6 @@ title: Aspose.Cells.Drawing
 second_title: Aspose.Cells for .NET API Reference
 description: Contains all classes of drawing objects such as Images Forms Lines etc..
 type: docs
-weight: 40
 url: /net/aspose.cells.drawing/
 ---
 Contains all classes of drawing objects, such as Images, Forms, Lines etc..

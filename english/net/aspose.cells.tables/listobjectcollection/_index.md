@@ -3,7 +3,6 @@ title: ListObjectCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a collection of ListObject./listobject objects in the worksheet.
 type: docs
-weight: 5920
 url: /net/aspose.cells.tables/listobjectcollection/
 ---
 ## ListObjectCollection class

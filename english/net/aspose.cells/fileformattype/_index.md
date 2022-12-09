@@ -3,7 +3,6 @@ title: FileFormatType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the file format types.
 type: docs
-weight: 3450
 url: /net/aspose.cells/fileformattype/
 ---
 ## FileFormatType enumeration

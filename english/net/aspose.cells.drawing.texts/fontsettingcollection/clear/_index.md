@@ -3,7 +3,6 @@ title: Clear
 second_title: Aspose.Cells for .NET API Reference
 description: Clear all setting.
 type: docs
-weight: 70
 url: /net/aspose.cells.drawing.texts/fontsettingcollection/clear/
 ---
 ## FontSettingCollection.Clear method

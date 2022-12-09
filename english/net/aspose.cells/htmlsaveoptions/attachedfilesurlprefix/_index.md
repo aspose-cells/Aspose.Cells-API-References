@@ -3,7 +3,6 @@ title: AttachedFilesUrlPrefix
 second_title: Aspose.Cells for .NET API Reference
 description: Specify the Url prefix of attached files such as image in the html file. Only for saving to html stream.
 type: docs
-weight: 40
 url: /net/aspose.cells/htmlsaveoptions/attachedfilesurlprefix/
 ---
 ## HtmlSaveOptions.AttachedFilesUrlPrefix property

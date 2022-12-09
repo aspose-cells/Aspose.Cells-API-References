@@ -3,7 +3,6 @@ title: LinksTable
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 460
 url: /net/aspose.cells.gridweb/mainweb/linkstable/
 ---
 ## MainWeb.LinksTable property

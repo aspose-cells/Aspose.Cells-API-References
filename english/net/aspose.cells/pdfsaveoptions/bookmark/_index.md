@@ -3,7 +3,6 @@ title: Bookmark
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the PdfBookmarkEntryaspose.cells.rendering/pdfbookmarkentry object.
 type: docs
-weight: 20
 url: /net/aspose.cells/pdfsaveoptions/bookmark/
 ---
 ## PdfSaveOptions.Bookmark property

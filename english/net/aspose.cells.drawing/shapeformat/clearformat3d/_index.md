@@ -3,7 +3,6 @@ title: ClearFormat3D
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 80
 url: /net/aspose.cells.drawing/shapeformat/clearformat3d/
 ---
 ## ShapeFormat.ClearFormat3D method

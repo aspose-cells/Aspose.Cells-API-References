@@ -3,7 +3,6 @@ title: Id
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the uniquely identifies the Office Addin instance in the current document.
 type: docs
-weight: 30
 url: /net/aspose.cells.webextensions/webextension/id/
 ---
 ## WebExtension.Id property

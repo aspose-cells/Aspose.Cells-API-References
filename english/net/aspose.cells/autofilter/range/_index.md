@@ -3,7 +3,6 @@ title: Range
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the range to which the specified AutoFilter applies.
 type: docs
-weight: 20
 url: /net/aspose.cells/autofilter/range/
 ---
 ## AutoFilter.Range property

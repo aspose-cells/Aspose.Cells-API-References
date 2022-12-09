@@ -3,7 +3,6 @@ title: Size
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the end position along the alpha gradient ramp of the end alpha valuein unit of percentage
 type: docs
-weight: 60
 url: /net/aspose.cells.drawing/reflectioneffect/size/
 ---
 ## ReflectionEffect.Size property

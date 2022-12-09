@@ -3,7 +3,6 @@ title: FunctionName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the function name to be calculated.
 type: docs
-weight: 50
 url: /net/aspose.cells/calculationdata/functionname/
 ---
 ## CalculationData.FunctionName property

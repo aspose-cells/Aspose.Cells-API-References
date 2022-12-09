@@ -3,7 +3,6 @@ title: PutValue
 second_title: Aspose.Cells for .NET API Reference
 description: Puts a boolean value into the cell.
 type: docs
-weight: 610
 url: /net/aspose.cells/cell/putvalue/
 ---
 ## PutValue(bool) {#putvalue}

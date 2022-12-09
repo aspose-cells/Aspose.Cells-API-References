@@ -3,7 +3,6 @@ title: MaxValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the dynamic filter max value.
 type: docs
-weight: 20
 url: /net/aspose.cells/dynamicfilter/maxvalue/
 ---
 ## DynamicFilter.MaxValue property

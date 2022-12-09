@@ -3,7 +3,6 @@ title: Id
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the id of the connection.
 type: docs
-weight: 60
 url: /net/aspose.cells.externalconnections/externalconnection/id/
 ---
 ## ExternalConnection.Id property

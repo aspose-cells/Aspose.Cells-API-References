@@ -3,7 +3,6 @@ title: SetReadonlyRange
 second_title: Aspose.Cells for .NET API Reference
 description: Makes a range of cells readonly. http//docs.aspose.com8082/docs/display/cellsnet/ProtectingCells First make all cells editable by calling the SetAllCellsEditable method. then call this method to Specify the range of cells that to be readonly
 type: docs
-weight: 780
 url: /net/aspose.cells.gridweb.data/gridworksheet/setreadonlyrange/
 ---
 ## GridWorksheet.SetReadonlyRange method

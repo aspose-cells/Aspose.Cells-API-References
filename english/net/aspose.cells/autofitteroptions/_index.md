@@ -3,7 +3,6 @@ title: AutoFitterOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents all auto fitter options.
 type: docs
-weight: 120
 url: /net/aspose.cells/autofitteroptions/
 ---
 ## AutoFitterOptions class

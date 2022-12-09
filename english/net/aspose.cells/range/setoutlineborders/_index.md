@@ -3,7 +3,6 @@ title: SetOutlineBorders
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the outline borders around a range of cells with same border style and color.
 type: docs
-weight: 400
 url: /net/aspose.cells/range/setoutlineborders/
 ---
 ## SetOutlineBorders(CellBorderType, CellsColor) {#setoutlineborders}

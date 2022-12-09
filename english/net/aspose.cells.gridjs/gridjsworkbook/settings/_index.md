@@ -3,7 +3,6 @@ title: Settings
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the workbook settings.
 type: docs
-weight: 20
 url: /net/aspose.cells.gridjs/gridjsworkbook/settings/
 ---
 ## GridJsWorkbook.Settings property

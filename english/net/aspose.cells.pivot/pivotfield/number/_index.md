@@ -3,7 +3,6 @@ title: Number
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the builtin display format of numbers and dates.
 type: docs
-weight: 310
 url: /net/aspose.cells.pivot/pivotfield/number/
 ---
 ## PivotField.Number property

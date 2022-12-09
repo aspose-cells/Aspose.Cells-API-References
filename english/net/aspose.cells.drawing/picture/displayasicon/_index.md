@@ -3,7 +3,6 @@ title: DisplayAsIcon
 second_title: Aspose.Cells for .NET API Reference
 description: True if the specified object is displayed as an icon and the image will not be auto changed.
 type: docs
-weight: 40
 url: /net/aspose.cells.drawing/picture/displayasicon/
 ---
 ## Picture.DisplayAsIcon property

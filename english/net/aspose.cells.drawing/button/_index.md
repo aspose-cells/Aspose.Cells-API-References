@@ -3,7 +3,6 @@ title: Button
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the Forms control Button
 type: docs
-weight: 1840
 url: /net/aspose.cells.drawing/button/
 ---
 ## Button class

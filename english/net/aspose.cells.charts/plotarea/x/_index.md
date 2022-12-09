@@ -3,7 +3,6 @@ title: X
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or gets the x coordinate of the upper left corner of plotarea bounding box in units of 1/4000 of the chart area.
 type: docs
-weight: 80
 url: /net/aspose.cells.charts/plotarea/x/
 ---
 ## PlotArea.X property

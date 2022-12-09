@@ -3,7 +3,6 @@ title: GridExceptionType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents custom exception code for GridJs.
 type: docs
-weight: 60
 url: /net/aspose.cells.gridjs/gridexceptiontype/
 ---
 ## GridExceptionType enumeration

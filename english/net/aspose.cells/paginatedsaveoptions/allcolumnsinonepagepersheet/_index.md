@@ -3,7 +3,6 @@ title: AllColumnsInOnePagePerSheet
 second_title: Aspose.Cells for .NET API Reference
 description: If AllColumnsInOnePagePerSheet is true  all column content of one sheet will output to only one page in result. The width of paper size of pagesetup will be ignored and the other settings of pagesetup will still take effect.
 type: docs
-weight: 10
 url: /net/aspose.cells/paginatedsaveoptions/allcolumnsinonepagepersheet/
 ---
 ## PaginatedSaveOptions.AllColumnsInOnePagePerSheet property

@@ -3,7 +3,6 @@ title: XlsbSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Creates xlsb file save options.
 type: docs
-weight: 10
 url: /net/aspose.cells/xlsbsaveoptions/xlsbsaveoptions/
 ---
 ## XlsbSaveOptions() {#constructor}

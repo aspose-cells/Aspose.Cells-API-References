@@ -3,7 +3,6 @@ title: Credentials
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the authentication method to be used when establishing or reestablishing the connection.
 type: docs
-weight: 40
 url: /net/aspose.cells.externalconnections/externalconnection/credentials/
 ---
 ## ExternalConnection.Credentials property

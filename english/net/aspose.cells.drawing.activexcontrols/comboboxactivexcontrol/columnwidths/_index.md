@@ -3,7 +3,6 @@ title: ColumnWidths
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the width of the column.
 type: docs
-weight: 50
 url: /net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/columnwidths/
 ---
 ## ComboBoxActiveXControl.ColumnWidths property

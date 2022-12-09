@@ -3,7 +3,6 @@ title: ValidationType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents data validation type.
 type: docs
-weight: 6320
 url: /net/aspose.cells/validationtype/
 ---
 ## ValidationType enumeration

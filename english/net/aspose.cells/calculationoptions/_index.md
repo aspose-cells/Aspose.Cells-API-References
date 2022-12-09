@@ -3,7 +3,6 @@ title: CalculationOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents options for calculation.
 type: docs
-weight: 210
 url: /net/aspose.cells/calculationoptions/
 ---
 ## CalculationOptions class

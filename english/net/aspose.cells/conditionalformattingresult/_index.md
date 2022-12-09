@@ -3,7 +3,6 @@ title: ConditionalFormattingResult
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the result of conditional formatting which applies to a cell.
 type: docs
-weight: 1140
 url: /net/aspose.cells/conditionalformattingresult/
 ---
 ## ConditionalFormattingResult class

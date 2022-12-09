@@ -3,7 +3,6 @@ title: CustomImplementationFactory
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the factory for creating instances with special implementation.
 type: docs
-weight: 20
 url: /net/aspose.cells/cellshelper/customimplementationfactory/
 ---
 ## CellsHelper.CustomImplementationFactory property

@@ -3,7 +3,6 @@ title: Cell
 second_title: Aspose.Cells for .NET API Reference
 description: The cell.
 type: docs
-weight: 30
 url: /net/aspose.cells.gridweb/celleventargs/cell/
 ---
 ## CellEventArgs.Cell property

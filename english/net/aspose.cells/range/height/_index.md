@@ -3,7 +3,6 @@ title: Height
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the width of a range in points.
 type: docs
-weight: 100
 url: /net/aspose.cells/range/height/
 ---
 ## Range.Height property

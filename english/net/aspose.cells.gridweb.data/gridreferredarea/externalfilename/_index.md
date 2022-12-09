@@ -3,7 +3,6 @@ title: ExternalFileName
 second_title: Aspose.Cells for .NET API Reference
 description: this.KeepedRels  source.KeepedRels
 type: docs
-weight: 30
 url: /net/aspose.cells.gridweb.data/gridreferredarea/externalfilename/
 ---
 ## GridReferredArea.ExternalFileName property

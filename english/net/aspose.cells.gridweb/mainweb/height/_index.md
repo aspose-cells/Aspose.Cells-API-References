@@ -3,7 +3,6 @@ title: Height
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the height System.Web.UI.WebControl.Unit  of the control.
 type: docs
-weight: 420
 url: /net/aspose.cells.gridweb/mainweb/height/
 ---
 ## MainWeb.Height property

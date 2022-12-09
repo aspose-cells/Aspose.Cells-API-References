@@ -3,7 +3,6 @@ title: AddHyperlink
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a hyperlink to the shape.
 type: docs
-weight: 580
 url: /net/aspose.cells.gridweb.data/gridpicture/addhyperlink/
 ---
 ## GridPicture.AddHyperlink method

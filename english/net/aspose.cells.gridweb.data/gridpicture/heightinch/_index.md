@@ -3,7 +3,6 @@ title: HeightInch
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the height of the shape in unit of inches.
 type: docs
-weight: 90
 url: /net/aspose.cells.gridweb.data/gridpicture/heightinch/
 ---
 ## GridPicture.HeightInch property

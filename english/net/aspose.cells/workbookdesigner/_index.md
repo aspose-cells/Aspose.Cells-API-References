@@ -3,7 +3,6 @@ title: WorkbookDesigner
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents a designer spreadsheet.
 type: docs
-weight: 6580
 url: /net/aspose.cells/workbookdesigner/
 ---
 ## WorkbookDesigner class

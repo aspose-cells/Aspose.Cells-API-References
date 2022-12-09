@@ -3,7 +3,6 @@ title: MajorTickMark
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the type of major tick mark for the specified axis.
 type: docs
-weight: 250
 url: /net/aspose.cells.charts/axis/majortickmark/
 ---
 ## Axis.MajorTickMark property

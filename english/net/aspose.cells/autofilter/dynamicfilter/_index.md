@@ -3,7 +3,6 @@ title: DynamicFilter
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a dynamic filter.
 type: docs
-weight: 110
 url: /net/aspose.cells/autofilter/dynamicfilter/
 ---
 ## AutoFilter.DynamicFilter method

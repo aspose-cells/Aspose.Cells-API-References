@@ -3,7 +3,6 @@ title: InsertImage
 second_title: Aspose.Cells for .NET API Reference
 description: insert image in the worksheet
 type: docs
-weight: 110
 url: /net/aspose.cells.gridjs/gridjsworkbook/insertimage/
 ---
 ## GridJsWorkbook.InsertImage method

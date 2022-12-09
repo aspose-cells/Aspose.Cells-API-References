@@ -3,7 +3,6 @@ title: ComboBoxActiveXControl
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a ComboBox ActiveX control.
 type: docs
-weight: 1500
 url: /net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/
 ---
 ## ComboBoxActiveXControl class

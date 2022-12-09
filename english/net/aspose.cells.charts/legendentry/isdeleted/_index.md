@@ -3,7 +3,6 @@ title: IsDeleted
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets whether the legend entry is deleted.
 type: docs
-weight: 50
 url: /net/aspose.cells.charts/legendentry/isdeleted/
 ---
 ## LegendEntry.IsDeleted property

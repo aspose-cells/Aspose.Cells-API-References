@@ -3,7 +3,6 @@ title: HtmlSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the options for saving html file.
 type: docs
-weight: 3780
 url: /net/aspose.cells/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class

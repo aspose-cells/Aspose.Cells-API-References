@@ -3,7 +3,6 @@ title: FormatStrategy
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the formatted strategy.
 type: docs
-weight: 60
 url: /net/aspose.cells/autofitteroptions/formatstrategy/
 ---
 ## AutoFitterOptions.FormatStrategy property

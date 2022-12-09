@@ -3,7 +3,6 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a path point.
 type: docs
-weight: 30
 url: /net/aspose.cells.drawing/shapepathpointcollection/add/
 ---
 ## ShapePathPointCollection.Add method

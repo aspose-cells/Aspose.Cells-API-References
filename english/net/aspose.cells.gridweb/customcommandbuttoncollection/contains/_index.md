@@ -3,7 +3,6 @@ title: Contains
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the custom command button object is in the collection.
 type: docs
-weight: 90
 url: /net/aspose.cells.gridweb/customcommandbuttoncollection/contains/
 ---
 ## CustomCommandButtonCollection.Contains method

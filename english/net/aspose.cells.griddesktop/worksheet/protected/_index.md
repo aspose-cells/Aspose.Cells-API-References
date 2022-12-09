@@ -3,7 +3,6 @@ title: Protected
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 310
 url: /net/aspose.cells.griddesktop/worksheet/protected/
 ---
 ## Worksheet.Protected property

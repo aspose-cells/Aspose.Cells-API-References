@@ -3,7 +3,6 @@ title: Validation
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1130
 url: /net/aspose.cells.gridweb/validation/
 ---
 ## Validation class
@@ -31,7 +30,6 @@ public class Validation : CellAttachObject
 | [ClientValidationValue2](../../aspose.cells.gridweb/validation/clientvalidationvalue2) { get; set; } | Gets or sets the operator target value 2 |
 | [IsRequired](../../aspose.cells.gridweb/validation/isrequired) { get; set; } | Gets or sets whether the cell value is required. |
 | [RegEx](../../aspose.cells.gridweb/validation/regex) { get; set; } | Gets or sets the regular expression string. |
-| [ValidationType](../../aspose.cells.gridweb/validation/validationtype) { get; set; } | Gets or sets the validation type. |
 | [ValueArray](../../aspose.cells.gridweb/validation/valuearray) { get; set; } |  |
 | [ValueList](../../aspose.cells.gridweb/validation/valuelist) { get; } | Gets the value list object. |
 | [ValueText](../../aspose.cells.gridweb/validation/valuetext) { get; set; } | Design time used only. |

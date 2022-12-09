@@ -3,7 +3,6 @@ title: SideWall
 second_title: Aspose.Cells for .NET API Reference
 description: Returns a Wallsaspose.cells.charts/chart/walls object that represents the side wall of a 3D chart.
 type: docs
-weight: 410
 url: /net/aspose.cells.charts/chart/sidewall/
 ---
 ## Chart.SideWall property

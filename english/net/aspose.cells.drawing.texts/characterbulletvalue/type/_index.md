@@ -3,7 +3,6 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the type of the bullet.
 type: docs
-weight: 30
 url: /net/aspose.cells.drawing.texts/characterbulletvalue/type/
 ---
 ## CharacterBulletValue.Type property

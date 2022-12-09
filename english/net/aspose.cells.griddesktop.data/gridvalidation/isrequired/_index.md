@@ -3,7 +3,6 @@ title: IsRequired
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 140
 url: /net/aspose.cells.griddesktop.data/gridvalidation/isrequired/
 ---
 ## GridValidation.IsRequired property

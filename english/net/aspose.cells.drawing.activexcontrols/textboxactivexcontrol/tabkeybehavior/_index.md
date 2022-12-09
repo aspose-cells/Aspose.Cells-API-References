@@ -3,7 +3,6 @@ title: TabKeyBehavior
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether tab characters are allowed in the text of the control.
 type: docs
-weight: 190
 url: /net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/tabkeybehavior/
 ---
 ## TextBoxActiveXControl.TabKeyBehavior property

@@ -3,7 +3,6 @@ title: Width
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the width of a range in points.
 type: docs
-weight: 200
 url: /net/aspose.cells/range/width/
 ---
 ## Range.Width property

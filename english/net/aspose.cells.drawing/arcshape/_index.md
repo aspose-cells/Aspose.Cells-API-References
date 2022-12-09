@@ -3,7 +3,6 @@ title: ArcShape
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the arc shape.
 type: docs
-weight: 1760
 url: /net/aspose.cells.drawing/arcshape/
 ---
 ## ArcShape class

@@ -3,7 +3,6 @@ title: ExportArea
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the exporting range.
 type: docs
-weight: 20
 url: /net/aspose.cells/xmlsaveoptions/exportarea/
 ---
 ## XmlSaveOptions.ExportArea property

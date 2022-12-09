@@ -3,7 +3,6 @@ title: SheetIndexes
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the indexes of exported sheets.
 type: docs
-weight: 60
 url: /net/aspose.cells/jsonsaveoptions/sheetindexes/
 ---
 ## JsonSaveOptions.SheetIndexes property

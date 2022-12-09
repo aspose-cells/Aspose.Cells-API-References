@@ -3,7 +3,6 @@ title: ColumnSeparatorOfFormulaArray
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the separator for the items in arrays row data in formula.
 type: docs
-weight: 30
 url: /net/aspose.cells/globalizationsettings/columnseparatorofformulaarray/
 ---
 ## GlobalizationSettings.ColumnSeparatorOfFormulaArray property

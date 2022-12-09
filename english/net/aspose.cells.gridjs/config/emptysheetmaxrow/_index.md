@@ -3,7 +3,6 @@ title: EmptySheetMaxRow
 second_title: Aspose.Cells for .NET API Reference
 description: Sets default max row for an empty worksheet
 type: docs
-weight: 40
 url: /net/aspose.cells.gridjs/config/emptysheetmaxrow/
 ---
 ## Config.EmptySheetMaxRow property

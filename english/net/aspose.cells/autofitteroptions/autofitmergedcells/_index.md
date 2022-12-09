@@ -3,7 +3,6 @@ title: AutoFitMergedCells
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether auto fit row height when the cells is merged in a row. The default value is false.
 type: docs
-weight: 20
 url: /net/aspose.cells/autofitteroptions/autofitmergedcells/
 ---
 ## AutoFitterOptions.AutoFitMergedCells property

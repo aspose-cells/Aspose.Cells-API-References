@@ -3,7 +3,6 @@ title: GridValidation
 second_title: Aspose.Cells for .NET API Reference
 description: Represents data validation.settings.
 type: docs
-weight: 520
 url: /net/aspose.cells.gridweb.data/gridvalidation/
 ---
 ## GridValidation class
@@ -24,7 +23,7 @@ public class GridValidation
 
 | Name | Description |
 | --- | --- |
-| [AreaList](../../aspose.cells.gridweb.data/gridvalidation/arealist) { get; } | Represents a collection of CellArea which contains the data validation settings. |
+| [AreaList](../../aspose.cells.gridweb.data/gridvalidation/arealist) { get; } | Represents a collection of [`GridCellArea`](../gridcellarea) which contains the data validation settings. |
 | [ClientValidationFunction](../../aspose.cells.gridweb.data/gridvalidation/clientvalidationfunction) { get; set; } | Gets or sets the client validation javascript function name. |
 | [ErrorMessage](../../aspose.cells.gridweb.data/gridvalidation/errormessage) { get; set; } | Represents the data validation error message. |
 | [ErrorTitle](../../aspose.cells.gridweb.data/gridvalidation/errortitle) { get; set; } | Represents the title of the data-validation error dialog box. |

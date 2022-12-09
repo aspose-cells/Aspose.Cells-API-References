@@ -3,7 +3,6 @@ title: Value
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the value of parameter.
 type: docs
-weight: 40
 url: /net/aspose.cells.querytables/powerqueryformulaparameter/value/
 ---
 ## PowerQueryFormulaParameter.Value property

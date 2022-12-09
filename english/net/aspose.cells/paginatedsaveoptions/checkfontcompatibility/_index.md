@@ -3,7 +3,6 @@ title: CheckFontCompatibility
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether to check font compatibility for every character in text.
 type: docs
-weight: 20
 url: /net/aspose.cells/paginatedsaveoptions/checkfontcompatibility/
 ---
 ## PaginatedSaveOptions.CheckFontCompatibility property

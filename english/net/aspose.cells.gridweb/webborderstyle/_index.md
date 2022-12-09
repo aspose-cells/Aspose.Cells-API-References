@@ -3,7 +3,6 @@ title: WebBorderStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the style of web table or cell border.
 type: docs
-weight: 1160
 url: /net/aspose.cells.gridweb/webborderstyle/
 ---
 ## WebBorderStyle class
@@ -38,22 +37,6 @@ public class WebBorderStyle
 ### Remarks
 
 Please refer to .NET SDK document for further information about System.Web.UI.WebControls namespace.
-
-### Examples
-
-```csharp
-[C#]
-	WebCell cell1 = GridWeb1.WebWorksheets[0].Cells["A1"];
-	cell1.Style.LeftBorderStyle.BorderColor = System.Drawing.Color.Red;
-	cell1.Style.LeftBorderStyle.BorderStyle = System.Web.UI.WebControls.BorderStyle.Solid;
-	cell1.Style.LeftBorderStyle.BorderWidth = new System.Web.UI.WebControls.Unit(16, System.Web.UI.WebControls.UnitType.Point);
-
-[Visual Basic]
-	Dim cell1 As WebCell =  GridWeb1.WebWorksheets(0).Cells("A1")
-	cell1.Style.LeftBorderStyle.BorderColor = System.Drawing.Color.Red
-	cell1.Style.LeftBorderStyle.BorderStyle = System.Web.UI.WebControls.BorderStyle.Solid
-	cell1.Style.LeftBorderStyle.BorderWidth = New System.Web.UI.WebControls.Unit(16, System.Web.UI.WebControls.UnitType.Point)
-```
 
 ### See Also
 

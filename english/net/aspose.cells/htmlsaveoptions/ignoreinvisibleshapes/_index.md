@@ -3,7 +3,6 @@ title: IgnoreInvisibleShapes
 second_title: Aspose.Cells for .NET API Reference
 description: Indicate whether exporting those not visible shapes
 type: docs
-weight: 380
 url: /net/aspose.cells/htmlsaveoptions/ignoreinvisibleshapes/
 ---
 ## HtmlSaveOptions.IgnoreInvisibleShapes property

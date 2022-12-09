@@ -3,7 +3,6 @@ title: HorizontalAlignment
 second_title: Aspose.Cells for .NET API Reference
 description: Gets/Sets the default value for horizontal alignment
 type: docs
-weight: 30
 url: /net/aspose.cells/defaultstylesettings/horizontalalignment/
 ---
 ## DefaultStyleSettings.HorizontalAlignment property

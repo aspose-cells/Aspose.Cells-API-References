@@ -3,7 +3,6 @@ title: AddDigitalSignature
 second_title: Aspose.Cells for .NET API Reference
 description: Adds digital signature to an OOXML spreadsheet file Excel2007 and later.
 type: docs
-weight: 280
 url: /net/aspose.cells/workbook/adddigitalsignature/
 ---
 ## Workbook.AddDigitalSignature method

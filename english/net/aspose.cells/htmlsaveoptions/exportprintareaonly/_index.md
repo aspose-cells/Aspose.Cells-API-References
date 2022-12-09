@@ -3,7 +3,6 @@ title: ExportPrintAreaOnly
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates if only exporting the print area to html file. The default value is false.
 type: docs
-weight: 270
 url: /net/aspose.cells/htmlsaveoptions/exportprintareaonly/
 ---
 ## HtmlSaveOptions.ExportPrintAreaOnly property

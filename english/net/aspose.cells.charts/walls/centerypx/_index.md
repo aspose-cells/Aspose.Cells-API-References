@@ -3,7 +3,6 @@ title: CenterYPx
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the y coordinate of the leftbottom corner of Wall center in units of pixels after calls Chart.Calculate method.
 type: docs
-weight: 40
 url: /net/aspose.cells.charts/walls/centerypx/
 ---
 ## Walls.CenterYPx property

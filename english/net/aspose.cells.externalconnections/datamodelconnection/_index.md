@@ -3,7 +3,6 @@ title: DataModelConnection
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies a data model connection
 type: docs
-weight: 3320
 url: /net/aspose.cells.externalconnections/datamodelconnection/
 ---
 ## DataModelConnection class

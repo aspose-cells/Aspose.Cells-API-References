@@ -3,7 +3,6 @@ title: AxisBins
 second_title: Aspose.Cells for .NET API Reference
 description: Represents axis bins
 type: docs
-weight: 370
 url: /net/aspose.cells.charts/axisbins/
 ---
 ## AxisBins class

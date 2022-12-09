@@ -3,7 +3,6 @@ title: IsDigitallySigned
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates if this spreadsheet is digitally signed.
 type: docs
-weight: 190
 url: /net/aspose.cells/workbook/isdigitallysigned/
 ---
 ## Workbook.IsDigitallySigned property

@@ -3,7 +3,6 @@ title: CellValidationEventArgs
 second_title: Aspose.Cells for .NET API Reference
 description: Provides data for grid cell validation events.
 type: docs
-weight: 240
 url: /net/aspose.cells.griddesktop/cellvalidationeventargs/
 ---
 ## CellValidationEventArgs class

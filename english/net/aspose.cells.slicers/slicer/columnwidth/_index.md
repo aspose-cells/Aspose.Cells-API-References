@@ -3,7 +3,6 @@ title: ColumnWidth
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the width in points of each column in the slicer.
 type: docs
-weight: 40
 url: /net/aspose.cells.slicers/slicer/columnwidth/
 ---
 ## Slicer.ColumnWidth property

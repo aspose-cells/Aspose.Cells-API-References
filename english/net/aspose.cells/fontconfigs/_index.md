@@ -3,7 +3,6 @@ title: FontConfigs
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies font settings
 type: docs
-weight: 3540
 url: /net/aspose.cells/fontconfigs/
 ---
 ## FontConfigs class

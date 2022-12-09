@@ -3,7 +3,6 @@ title: AlternativeText
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the descriptive alternative text string of the Slicer object.
 type: docs
-weight: 10
 url: /net/aspose.cells.slicers/slicer/alternativetext/
 ---
 ## Slicer.AlternativeText property

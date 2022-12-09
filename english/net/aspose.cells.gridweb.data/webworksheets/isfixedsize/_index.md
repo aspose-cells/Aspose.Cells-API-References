@@ -3,7 +3,6 @@ title: IsFixedSize
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a value indicating whether the collection has a fixed size.
 type: docs
-weight: 70
 url: /net/aspose.cells.gridweb.data/webworksheets/isfixedsize/
 ---
 ## WebWorksheets.IsFixedSize property

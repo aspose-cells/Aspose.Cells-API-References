@@ -3,7 +3,6 @@ title: IndexOf
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the index of a property by name.
 type: docs
-weight: 30
 url: /net/aspose.cells.properties/documentpropertycollection/indexof/
 ---
 ## DocumentPropertyCollection.IndexOf method

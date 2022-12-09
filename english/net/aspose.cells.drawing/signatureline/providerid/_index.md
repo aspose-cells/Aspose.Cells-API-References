@@ -3,7 +3,6 @@ title: ProviderId
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the id of signature provider.
 type: docs
-weight: 70
 url: /net/aspose.cells.drawing/signatureline/providerid/
 ---
 ## SignatureLine.ProviderId property

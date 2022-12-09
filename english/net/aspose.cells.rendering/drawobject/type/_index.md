@@ -3,7 +3,6 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates the type of DrawObject.
 type: docs
-weight: 70
 url: /net/aspose.cells.rendering/drawobject/type/
 ---
 ## DrawObject.Type property

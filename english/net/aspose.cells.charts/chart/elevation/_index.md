@@ -3,7 +3,6 @@ title: Elevation
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the elevation of the 3D chart view in degrees.
 type: docs
-weight: 100
 url: /net/aspose.cells.charts/chart/elevation/
 ---
 ## Chart.Elevation property

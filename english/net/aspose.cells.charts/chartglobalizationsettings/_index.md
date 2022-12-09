@@ -3,7 +3,6 @@ title: ChartGlobalizationSettings
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the globalization settings for chart.
 type: docs
-weight: 480
 url: /net/aspose.cells.charts/chartglobalizationsettings/
 ---
 ## ChartGlobalizationSettings class

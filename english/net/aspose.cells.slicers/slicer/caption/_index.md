@@ -3,7 +3,6 @@ title: Caption
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the caption of the specified slicer.
 type: docs
-weight: 20
 url: /net/aspose.cells.slicers/slicer/caption/
 ---
 ## Slicer.Caption property

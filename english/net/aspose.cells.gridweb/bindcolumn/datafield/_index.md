@@ -3,7 +3,6 @@ title: DataField
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the data field name string.
 type: docs
-weight: 80
 url: /net/aspose.cells.gridweb/bindcolumn/datafield/
 ---
 ## BindColumn.DataField property

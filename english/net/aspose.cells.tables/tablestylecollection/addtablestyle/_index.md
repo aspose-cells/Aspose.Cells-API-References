@@ -3,7 +3,6 @@ title: AddTableStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a custom table style.
 type: docs
-weight: 30
 url: /net/aspose.cells.tables/tablestylecollection/addtablestyle/
 ---
 ## TableStyleCollection.AddTableStyle method

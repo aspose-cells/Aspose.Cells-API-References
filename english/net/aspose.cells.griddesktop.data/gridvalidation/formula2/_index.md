@@ -3,7 +3,6 @@ title: Formula2
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the value or expression associated with the second part of the data validation.
 type: docs
-weight: 110
 url: /net/aspose.cells.griddesktop.data/gridvalidation/formula2/
 ---
 ## GridValidation.Formula2 property

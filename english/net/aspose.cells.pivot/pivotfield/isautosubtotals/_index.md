@@ -3,7 +3,6 @@ title: IsAutoSubtotals
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the specified field shows automatic subtotals. Default is true.
 type: docs
-weight: 220
 url: /net/aspose.cells.pivot/pivotfield/isautosubtotals/
 ---
 ## PivotField.IsAutoSubtotals property

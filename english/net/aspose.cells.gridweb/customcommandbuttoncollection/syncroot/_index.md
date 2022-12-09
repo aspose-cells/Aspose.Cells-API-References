@@ -3,7 +3,6 @@ title: SyncRoot
 second_title: Aspose.Cells for .NET API Reference
 description: Internal used only.
 type: docs
-weight: 60
 url: /net/aspose.cells.gridweb/customcommandbuttoncollection/syncroot/
 ---
 ## CustomCommandButtonCollection.SyncRoot property

@@ -3,7 +3,6 @@ title: ExternalConnectionDataSource
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the external connection data source.
 type: docs
-weight: 230
 url: /net/aspose.cells.pivot/pivottable/externalconnectiondatasource/
 ---
 ## PivotTable.ExternalConnectionDataSource property

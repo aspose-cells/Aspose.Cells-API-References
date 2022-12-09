@@ -3,7 +3,6 @@ title: AfterColumnFilter
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs after the column filtered.
 type: docs
-weight: 1120
 url: /net/aspose.cells.gridweb/mainweb/aftercolumnfilter/
 ---
 ## MainWeb.AfterColumnFilter event

@@ -3,7 +3,6 @@ title: RadioButtonActiveXControl
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a RadioButton ActiveX control.
 type: docs
-weight: 1690
 url: /net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/
 ---
 ## RadioButtonActiveXControl class

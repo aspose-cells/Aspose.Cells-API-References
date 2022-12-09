@@ -3,7 +3,6 @@ title: SheetIndex
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates this name belongs to Workbook or Worksheet. 0  Global name otherwise index to sheet onebased
 type: docs
-weight: 70
 url: /net/aspose.cells/name/sheetindex/
 ---
 ## Name.SheetIndex property

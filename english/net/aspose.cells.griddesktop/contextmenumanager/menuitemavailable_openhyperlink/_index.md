@@ -3,7 +3,6 @@ title: MenuItemAvailable_OpenHyperlink
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether the context menu item OpenHyperlink is available.
 type: docs
-weight: 190
 url: /net/aspose.cells.griddesktop/contextmenumanager/menuitemavailable_openhyperlink/
 ---
 ## ContextMenuManager.MenuItemAvailable_OpenHyperlink property

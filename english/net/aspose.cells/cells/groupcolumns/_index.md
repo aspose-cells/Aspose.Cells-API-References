@@ -3,7 +3,6 @@ title: GroupColumns
 second_title: Aspose.Cells for .NET API Reference
 description: Groups columns.
 type: docs
-weight: 890
 url: /net/aspose.cells/cells/groupcolumns/
 ---
 ## GroupColumns(int, int) {#groupcolumns}

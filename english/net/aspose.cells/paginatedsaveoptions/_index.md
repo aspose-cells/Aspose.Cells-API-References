@@ -3,7 +3,6 @@ title: PaginatedSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the options for pagination.
 type: docs
-weight: 4500
 url: /net/aspose.cells/paginatedsaveoptions/
 ---
 ## PaginatedSaveOptions class

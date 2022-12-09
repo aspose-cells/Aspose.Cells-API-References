@@ -3,7 +3,6 @@ title: Characters
 second_title: Aspose.Cells for .NET API Reference
 description: Represents an estimate of the number of characters in the document.
 type: docs
-weight: 40
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/characters/
 ---
 ## BuiltInDocumentPropertyCollection.Characters property

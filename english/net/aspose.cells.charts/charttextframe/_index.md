@@ -3,7 +3,6 @@ title: ChartTextFrame
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents the frame object which contains text.
 type: docs
-weight: 550
 url: /net/aspose.cells.charts/charttextframe/
 ---
 ## ChartTextFrame class

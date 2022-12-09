@@ -3,7 +3,6 @@ title: EmbededImageNameInSvg
 second_title: Aspose.Cells for .NET API Reference
 description: Indicate the filename of embedded image in svg. This should be full path with directory like cxpsEmbedded
 type: docs
-weight: 100
 url: /net/aspose.cells.rendering/imageorprintoptions/embededimagenameinsvg/
 ---
 ## ImageOrPrintOptions.EmbededImageNameInSvg property

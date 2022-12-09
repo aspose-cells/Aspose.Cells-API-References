@@ -3,7 +3,6 @@ title: RemoveExternalLinks
 second_title: Aspose.Cells for .NET API Reference
 description: Removes all external links in the workbook.
 type: docs
-weight: 550
 url: /net/aspose.cells/workbook/removeexternallinks/
 ---
 ## Workbook.RemoveExternalLinks method

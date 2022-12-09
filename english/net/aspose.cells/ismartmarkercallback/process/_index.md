@@ -3,7 +3,6 @@ title: Process
 second_title: Aspose.Cells for .NET API Reference
 description: Callback for processing a smart marker.
 type: docs
-weight: 10
 url: /net/aspose.cells/ismartmarkercallback/process/
 ---
 ## ISmartMarkerCallBack.Process method

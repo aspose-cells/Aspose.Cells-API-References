@@ -3,7 +3,6 @@ title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
 description: Removes the HPageBreak element at a specified name.
 type: docs
-weight: 30
 url: /net/aspose.cells/horizontalpagebreakcollection/removeat/
 ---
 ## HorizontalPageBreakCollection.RemoveAt method

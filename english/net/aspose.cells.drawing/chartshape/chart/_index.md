@@ -3,7 +3,6 @@ title: Chart
 second_title: Aspose.Cells for .NET API Reference
 description: Returns a Chart object that represents the chart contained in the object.
 type: docs
-weight: 10
 url: /net/aspose.cells.drawing/chartshape/chart/
 ---
 ## ChartShape.Chart property

@@ -3,7 +3,6 @@ title: RevisionFormat
 second_title: Aspose.Cells for .NET API Reference
 description: represents a revision record of information about a formatting change.
 type: docs
-weight: 5500
 url: /net/aspose.cells.revisions/revisionformat/
 ---
 ## RevisionFormat class

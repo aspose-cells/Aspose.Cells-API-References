@@ -3,7 +3,6 @@ title: ImageUrl
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the command buttons image url. If sets to null or empty string the button will only display its text.
 type: docs
-weight: 60
 url: /net/aspose.cells.gridweb/customcommandbutton/imageurl/
 ---
 ## CustomCommandButton.ImageUrl property

@@ -3,7 +3,6 @@ title: ApplyStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Applies formats for a whole worksheet.
 type: docs
-weight: 350
 url: /net/aspose.cells/cells/applystyle/
 ---
 ## Cells.ApplyStyle method

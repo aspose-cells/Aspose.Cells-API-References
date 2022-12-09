@@ -3,7 +3,6 @@ title: SetRowCaption
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the caption for the row.
 type: docs
-weight: 790
 url: /net/aspose.cells.gridweb.data/gridworksheet/setrowcaption/
 ---
 ## GridWorksheet.SetRowCaption method

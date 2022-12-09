@@ -3,7 +3,6 @@ title: BindColumns
 second_title: Aspose.Cells for .NET API Reference
 description: Bind columns collection.
 type: docs
-weight: 20
 url: /net/aspose.cells.gridweb.data/webworksheet/bindcolumns/
 ---
 ## WebWorksheet.BindColumns property

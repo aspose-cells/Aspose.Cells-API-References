@@ -3,7 +3,6 @@ title: End
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the end object for the group range.
 type: docs
-weight: 20
 url: /net/aspose.cells.pivot/sxrng/end/
 ---
 ## SxRng.End property

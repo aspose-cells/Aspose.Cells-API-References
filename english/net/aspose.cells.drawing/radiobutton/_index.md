@@ -3,7 +3,6 @@ title: RadioButton
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a radio button.
 type: docs
-weight: 2570
 url: /net/aspose.cells.drawing/radiobutton/
 ---
 ## RadioButton class

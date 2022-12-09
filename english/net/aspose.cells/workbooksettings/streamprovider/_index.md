@@ -3,7 +3,6 @@ title: StreamProvider
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the stream provider for external resource.
 type: docs
-weight: 570
 url: /net/aspose.cells/workbooksettings/streamprovider/
 ---
 ## WorkbookSettings.StreamProvider property

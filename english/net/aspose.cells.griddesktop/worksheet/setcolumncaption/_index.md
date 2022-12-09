@@ -3,7 +3,6 @@ title: SetColumnCaption
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the caption for the column.please note this is an extension attribute and can not keep in excel file
 type: docs
-weight: 1010
 url: /net/aspose.cells.griddesktop/worksheet/setcolumncaption/
 ---
 ## Worksheet.SetColumnCaption method

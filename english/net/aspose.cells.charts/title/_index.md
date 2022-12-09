@@ -3,7 +3,6 @@ title: Title
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents the title of chart or axis.
 type: docs
-weight: 980
 url: /net/aspose.cells.charts/title/
 ---
 ## Title class

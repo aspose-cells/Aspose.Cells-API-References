@@ -3,7 +3,6 @@ title: LastIndexOf
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 160
 url: /net/aspose.cells/collectionbase-1/lastindexof/
 ---
 ## LastIndexOf(T) {#lastindexof}

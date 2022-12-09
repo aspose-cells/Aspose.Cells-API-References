@@ -3,7 +3,6 @@ title: PivotCaches
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the PivotCache collection object
 type: docs
-weight: 110
 url: /net/aspose.cells.gridweb.data/webworksheets/pivotcaches/
 ---
 ## WebWorksheets.PivotCaches property

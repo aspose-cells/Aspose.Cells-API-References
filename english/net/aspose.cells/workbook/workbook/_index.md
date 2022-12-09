@@ -3,7 +3,6 @@ title: Workbook
 second_title: Aspose.Cells for .NET API Reference
 description: Initializes a new instance of the Workbookaspose.cells/workbook class.
 type: docs
-weight: 10
 url: /net/aspose.cells/workbook/workbook/
 ---
 ## Workbook() {#constructor}

@@ -3,7 +3,6 @@ title: SheetNameFont
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the default displaying font of sheet bar.
 type: docs
-weight: 240
 url: /net/aspose.cells.griddesktop/griddesktop/sheetnamefont/
 ---
 ## GridDesktop.SheetNameFont property

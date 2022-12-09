@@ -3,7 +3,6 @@ title: Text
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the text of the command.
 type: docs
-weight: 20
 url: /net/aspose.cells/headerfootercommand/text/
 ---
 ## HeaderFooterCommand.Text property

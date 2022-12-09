@@ -3,7 +3,6 @@ title: GetFormula
 second_title: Aspose.Cells for .NET API Reference
 description: Get the formula of this cell.
 type: docs
-weight: 460
 url: /net/aspose.cells/cell/getformula/
 ---
 ## Cell.GetFormula method

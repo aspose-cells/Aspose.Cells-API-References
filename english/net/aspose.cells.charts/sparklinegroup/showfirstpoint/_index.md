@@ -3,7 +3,6 @@ title: ShowFirstPoint
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether to highlight the first point of data in the sparkline group.
 type: docs
-weight: 150
 url: /net/aspose.cells.charts/sparklinegroup/showfirstpoint/
 ---
 ## SparklineGroup.ShowFirstPoint property

@@ -3,7 +3,6 @@ title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
 description: Removes at the specified index.
 type: docs
-weight: 150
 url: /net/aspose.cells.gridweb/bindcolumncollection/removeat/
 ---
 ## BindColumnCollection.RemoveAt method

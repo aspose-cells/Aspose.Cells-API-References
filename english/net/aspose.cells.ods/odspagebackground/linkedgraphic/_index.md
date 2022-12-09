@@ -3,7 +3,6 @@ title: LinkedGraphic
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the linked graphic path.
 type: docs
-weight: 70
 url: /net/aspose.cells.ods/odspagebackground/linkedgraphic/
 ---
 ## OdsPageBackground.LinkedGraphic property

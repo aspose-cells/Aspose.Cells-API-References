@@ -3,7 +3,6 @@ title: CallBack
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets callback interface of processing smartmarker.
 type: docs
-weight: 30
 url: /net/aspose.cells/workbookdesigner/callback/
 ---
 ## WorkbookDesigner.CallBack property

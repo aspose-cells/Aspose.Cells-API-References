@@ -3,7 +3,6 @@ title: Points
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the points in path segment
 type: docs
-weight: 10
 url: /net/aspose.cells.drawing/shapesegmentpath/points/
 ---
 ## ShapeSegmentPath.Points property

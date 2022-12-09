@@ -3,7 +3,6 @@ title: YValueType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets Y value type of the chart point.
 type: docs
-weight: 330
 url: /net/aspose.cells.charts/chartpoint/yvaluetype/
 ---
 ## ChartPoint.YValueType property

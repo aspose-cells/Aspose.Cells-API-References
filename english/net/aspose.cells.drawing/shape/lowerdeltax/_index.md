@@ -3,7 +3,6 @@ title: LowerDeltaX
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the shapes horizontal offset from its lower right corner column.
 type: docs
-weight: 510
 url: /net/aspose.cells.drawing/shape/lowerdeltax/
 ---
 ## Shape.LowerDeltaX property

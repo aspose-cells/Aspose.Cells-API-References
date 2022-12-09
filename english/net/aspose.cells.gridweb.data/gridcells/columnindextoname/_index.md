@@ -3,7 +3,6 @@ title: ColumnIndexToName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets column name according to column index.
 type: docs
-weight: 820
 url: /net/aspose.cells.gridweb.data/gridcells/columnindextoname/
 ---
 ## GridCells.ColumnIndexToName method

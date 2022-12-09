@@ -3,7 +3,6 @@ title: WidthCM
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the width of the shape in unit of centimeters.
 type: docs
-weight: 510
 url: /net/aspose.cells.gridweb.data/gridpicture/widthcm/
 ---
 ## GridPicture.WidthCM property

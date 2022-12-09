@@ -3,7 +3,6 @@ title: License
 second_title: Aspose.Cells for .NET API Reference
 description: The default constructor.
 type: docs
-weight: 10
 url: /net/aspose.cells.griddesktop/license/license/
 ---
 ## License constructor

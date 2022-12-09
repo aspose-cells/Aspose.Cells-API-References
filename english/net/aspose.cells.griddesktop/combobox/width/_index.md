@@ -3,7 +3,6 @@ title: Width
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the width of the list control.
 type: docs
-weight: 60
 url: /net/aspose.cells.griddesktop/combobox/width/
 ---
 ## ComboBox.Width property

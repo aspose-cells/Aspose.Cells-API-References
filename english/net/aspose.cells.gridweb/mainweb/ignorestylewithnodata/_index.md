@@ -3,7 +3,6 @@ title: IgnoreStyleWithNoData
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets whether GridWeb ignores showing rows or columns that do not contain cell values but are still styled. If set to true the performance will be better. The default value is false which means that if the last consecutive row/column has no cell values but is styled we will still display them. This option is only valid when EnableAsync is false. This option has no effect when EnableAsync is true which means GridWeb will show all rows/columns with style.
 type: docs
-weight: 430
 url: /net/aspose.cells.gridweb/mainweb/ignorestylewithnodata/
 ---
 ## MainWeb.IgnoreStyleWithNoData property

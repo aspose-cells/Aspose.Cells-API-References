@@ -3,7 +3,6 @@ title: CellArea
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the location of the affected query table.
 type: docs
-weight: 10
 url: /net/aspose.cells.revisions/revisionquerytable/cellarea/
 ---
 ## RevisionQueryTable.CellArea property

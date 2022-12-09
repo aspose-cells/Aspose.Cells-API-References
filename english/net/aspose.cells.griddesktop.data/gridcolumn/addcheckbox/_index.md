@@ -3,7 +3,6 @@ title: AddCheckBox
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a checkbox to the column.
 type: docs
-weight: 100
 url: /net/aspose.cells.griddesktop.data/gridcolumn/addcheckbox/
 ---
 ## GridColumn.AddCheckBox method

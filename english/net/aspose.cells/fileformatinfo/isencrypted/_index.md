@@ -3,7 +3,6 @@ title: IsEncrypted
 second_title: Aspose.Cells for .NET API Reference
 description: Returns true if the document is encrypted and requires a password to open.
 type: docs
-weight: 30
 url: /net/aspose.cells/fileformatinfo/isencrypted/
 ---
 ## FileFormatInfo.IsEncrypted property

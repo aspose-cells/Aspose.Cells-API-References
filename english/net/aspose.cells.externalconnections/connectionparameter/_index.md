@@ -3,7 +3,6 @@ title: ConnectionParameter
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies properties about any parameters used with external data connections Parameters are valid for ODBC and web queries.
 type: docs
-weight: 3270
 url: /net/aspose.cells.externalconnections/connectionparameter/
 ---
 ## ConnectionParameter class

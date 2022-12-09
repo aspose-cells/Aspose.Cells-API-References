@@ -3,7 +3,6 @@ title: MacroName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the name of macro.
 type: docs
-weight: 550
 url: /net/aspose.cells.drawing/shape/macroname/
 ---
 ## Shape.MacroName property

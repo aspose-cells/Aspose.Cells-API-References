@@ -3,7 +3,6 @@ title: RejectOperation
 second_title: Aspose.Cells for .NET API Reference
 description: Call this method in RowDeleting/ColumnDeleting event handlers to cancel the deleting operations.
 type: docs
-weight: 50
 url: /net/aspose.cells.gridweb/rowcolumneventargs/rejectoperation/
 ---
 ## RowColumnEventArgs.RejectOperation method

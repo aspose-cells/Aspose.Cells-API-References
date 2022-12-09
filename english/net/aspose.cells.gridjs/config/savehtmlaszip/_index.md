@@ -3,7 +3,6 @@ title: SaveHtmlAsZip
 second_title: Aspose.Cells for .NET API Reference
 description: Sets whether to save html file as zip archivethe default is false the default value is true
 type: docs
-weight: 150
 url: /net/aspose.cells.gridjs/config/savehtmlaszip/
 ---
 ## Config.SaveHtmlAsZip property

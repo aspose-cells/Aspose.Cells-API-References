@@ -3,7 +3,6 @@ title: BottomMarginInch
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the size of the bottom margin in unit of inches.
 type: docs
-weight: 30
 url: /net/aspose.cells/pagesetup/bottommargininch/
 ---
 ## PageSetup.BottomMarginInch property

@@ -3,7 +3,6 @@ title: UpperDeltaY
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the shapes vertical offset from its upper left corner row.
 type: docs
-weight: 890
 url: /net/aspose.cells.drawing/shape/upperdeltay/
 ---
 ## Shape.UpperDeltaY property

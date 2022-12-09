@@ -3,7 +3,6 @@ title: PivotSourceType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the source data type.
 type: docs
-weight: 770
 url: /net/aspose.cells.gridweb.data/pivotsourcetype/
 ---
 ## PivotSourceType enumeration

@@ -3,7 +3,6 @@ title: EnableClientResizeColumnRow
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets whether to enable the client side resize column and row.
 type: docs
-weight: 280
 url: /net/aspose.cells.gridweb/mainweb/enableclientresizecolumnrow/
 ---
 ## MainWeb.EnableClientResizeColumnRow property

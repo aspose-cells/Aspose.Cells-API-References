@@ -3,7 +3,6 @@ title: SetColumnWidth
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the width of the specified column.the accepted width type is PointPixel or Inch
 type: docs
-weight: 330
 url: /net/aspose.cells.gridweb.data/webcells/setcolumnwidth/
 ---
 ## WebCells.SetColumnWidth method

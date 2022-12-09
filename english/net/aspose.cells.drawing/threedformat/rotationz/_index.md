@@ -3,7 +3,6 @@ title: RotationZ
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the rotation of the extruded shape around the zaxis in degrees.
 type: docs
-weight: 160
 url: /net/aspose.cells.drawing/threedformat/rotationz/
 ---
 ## ThreeDFormat.RotationZ property

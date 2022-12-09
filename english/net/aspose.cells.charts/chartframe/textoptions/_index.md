@@ -3,7 +3,6 @@ title: TextOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the options of the text.
 type: docs
-weight: 180
 url: /net/aspose.cells.charts/chartframe/textoptions/
 ---
 ## ChartFrame.TextOptions property

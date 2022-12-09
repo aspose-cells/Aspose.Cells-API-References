@@ -3,7 +3,6 @@ title: ToggleButtonActiveXControl
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a ToggleButton ActiveX control.
 type: docs
-weight: 1740
 url: /net/aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/
 ---
 ## ToggleButtonActiveXControl class

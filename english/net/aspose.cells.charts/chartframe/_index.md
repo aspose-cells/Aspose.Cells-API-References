@@ -3,7 +3,6 @@ title: ChartFrame
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents the frame object in a chart.
 type: docs
-weight: 470
 url: /net/aspose.cells.charts/chartframe/
 ---
 ## ChartFrame class

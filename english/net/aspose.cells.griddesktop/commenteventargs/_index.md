@@ -3,7 +3,6 @@ title: CommentEventArgs
 second_title: Aspose.Cells for .NET API Reference
 description: Provides data for comment events.
 type: docs
-weight: 280
 url: /net/aspose.cells.griddesktop/commenteventargs/
 ---
 ## CommentEventArgs class

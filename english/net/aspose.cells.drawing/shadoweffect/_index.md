@@ -3,7 +3,6 @@ title: ShadowEffect
 second_title: Aspose.Cells for .NET API Reference
 description: This class specifies the shadow effect of the chart element or shape.
 type: docs
-weight: 2640
 url: /net/aspose.cells.drawing/shadoweffect/
 ---
 ## ShadowEffect class

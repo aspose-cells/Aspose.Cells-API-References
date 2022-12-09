@@ -3,7 +3,6 @@ title: Style
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the style of the column.
 type: docs
-weight: 150
 url: /net/aspose.cells.gridweb/bindcolumn/style/
 ---
 ## BindColumn.Style property
@@ -11,12 +10,12 @@ url: /net/aspose.cells.gridweb/bindcolumn/style/
 Gets or sets the style of the column.
 
 ```csharp
-public TableItemStyle Style { get; set; }
+public GridTableItemStyle Style { get; set; }
 ```
 
 ### See Also
 
-* class [TableItemStyle](../../tableitemstyle)
+* class [GridTableItemStyle](../../gridtableitemstyle)
 * class [BindColumn](../../bindcolumn)
 * namespace [Aspose.Cells.GridWeb](../../bindcolumn)
 * assembly [Aspose.Cells.GridWeb](../../../)

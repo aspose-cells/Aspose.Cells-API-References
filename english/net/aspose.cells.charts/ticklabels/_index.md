@@ -3,7 +3,6 @@ title: TickLabels
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the tickmark labels associated with tick marks on a chart axis.
 type: docs
-weight: 950
 url: /net/aspose.cells.charts/ticklabels/
 ---
 ## TickLabels class

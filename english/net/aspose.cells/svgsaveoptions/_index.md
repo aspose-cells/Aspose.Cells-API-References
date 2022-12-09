@@ -3,7 +3,6 @@ title: SvgSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents Svg save options. For advanced usage please use WorkbookRender../aspose.cells.rendering/workbookrender or SheetRender../aspose.cells.rendering/sheetrender.
 type: docs
-weight: 5880
 url: /net/aspose.cells/svgsaveoptions/
 ---
 ## SvgSaveOptions class

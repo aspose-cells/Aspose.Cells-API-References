@@ -3,7 +3,6 @@ title: GetElementStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the element style.
 type: docs
-weight: 30
 url: /net/aspose.cells.tables/tablestyleelement/getelementstyle/
 ---
 ## TableStyleElement.GetElementStyle method

@@ -3,7 +3,6 @@ title: AltStartPath
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the alternate startup path which is referred to by some external formula references.
 type: docs
-weight: 10
 url: /net/aspose.cells/cellshelper/altstartpath/
 ---
 ## CellsHelper.AltStartPath property

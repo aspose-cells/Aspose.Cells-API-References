@@ -3,7 +3,6 @@ title: RevisionCellComment
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a revision record of a cell comment change.
 type: docs
-weight: 5450
 url: /net/aspose.cells.revisions/revisioncellcomment/
 ---
 ## RevisionCellComment class

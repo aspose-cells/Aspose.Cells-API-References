@@ -3,7 +3,6 @@ title: AlignTopRightCorner
 second_title: Aspose.Cells for .NET API Reference
 description: Moves the picture to the topright corner.
 type: docs
-weight: 1030
 url: /net/aspose.cells.drawing/shape/aligntoprightcorner/
 ---
 ## Shape.AlignTopRightCorner method

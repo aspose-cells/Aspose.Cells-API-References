@@ -3,7 +3,6 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the threaded comment by the specific index.
 type: docs
-weight: 10
 url: /net/aspose.cells/threadedcommentcollection/item/
 ---
 ## ThreadedCommentCollection indexer

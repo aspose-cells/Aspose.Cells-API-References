@@ -3,7 +3,6 @@ title: EnableUndo
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether the Undo function is enabled. The default value is false.
 type: docs
-weight: 140
 url: /net/aspose.cells.griddesktop/griddesktop/enableundo/
 ---
 ## GridDesktop.EnableUndo property

@@ -3,7 +3,6 @@ title: GetRow
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the GridRowaspose.cells.griddesktop.data/gridrow element or at the specified cell row index.
 type: docs
-weight: 440
 url: /net/aspose.cells.griddesktop.data/gridcells/getrow/
 ---
 ## GridCells.GetRow method

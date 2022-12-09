@@ -3,7 +3,6 @@ title: YErrorBar
 second_title: Aspose.Cells for .NET API Reference
 description: Represents Y direction error bar of the series.
 type: docs
-weight: 510
 url: /net/aspose.cells.charts/series/yerrorbar/
 ---
 ## Series.YErrorBar property

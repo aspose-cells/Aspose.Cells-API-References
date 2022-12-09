@@ -3,7 +3,6 @@ title: WebExtensionReferenceCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the list of web extension reference.
 type: docs
-weight: 6530
 url: /net/aspose.cells.webextensions/webextensionreferencecollection/
 ---
 ## WebExtensionReferenceCollection class

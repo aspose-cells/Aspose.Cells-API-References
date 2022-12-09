@@ -3,7 +3,6 @@ title: PageChange
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets page change
 type: docs
-weight: 60
 url: /net/aspose.cells.drawing/scrollbar/pagechange/
 ---
 ## ScrollBar.PageChange property

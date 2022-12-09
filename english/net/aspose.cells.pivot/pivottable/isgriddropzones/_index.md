@@ -3,7 +3,6 @@ title: IsGridDropZones
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the PivotTable report displays classic pivottable layout. enables dragging fields in the grid
 type: docs
-weight: 300
 url: /net/aspose.cells.pivot/pivottable/isgriddropzones/
 ---
 ## PivotTable.IsGridDropZones property

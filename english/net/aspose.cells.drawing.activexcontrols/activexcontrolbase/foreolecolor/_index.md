@@ -3,7 +3,6 @@ title: ForeOleColor
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the ole color of the foreground.
 type: docs
-weight: 30
 url: /net/aspose.cells.drawing.activexcontrols/activexcontrolbase/foreolecolor/
 ---
 ## ActiveXControlBase.ForeOleColor property

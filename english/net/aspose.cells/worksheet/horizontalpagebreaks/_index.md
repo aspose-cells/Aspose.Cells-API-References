@@ -3,7 +3,6 @@ title: HorizontalPageBreaks
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the HorizontalPageBreakCollectionaspose.cells/horizontalpagebreakcollection collection.
 type: docs
-weight: 190
 url: /net/aspose.cells/worksheet/horizontalpagebreaks/
 ---
 ## Worksheet.HorizontalPageBreaks property

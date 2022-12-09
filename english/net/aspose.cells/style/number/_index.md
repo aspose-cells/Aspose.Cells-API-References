@@ -3,7 +3,6 @@ title: Number
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the display format of numbers and dates. The formatting patterns are different for different regions.
 type: docs
-weight: 240
 url: /net/aspose.cells/style/number/
 ---
 ## Style.Number property

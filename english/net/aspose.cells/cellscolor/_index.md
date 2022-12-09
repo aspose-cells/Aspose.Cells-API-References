@@ -3,7 +3,6 @@ title: CellsColor
 second_title: Aspose.Cells for .NET API Reference
 description: Represents all types of color.
 type: docs
-weight: 310
 url: /net/aspose.cells/cellscolor/
 ---
 ## CellsColor class

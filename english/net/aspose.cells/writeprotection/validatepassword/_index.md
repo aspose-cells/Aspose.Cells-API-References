@@ -3,7 +3,6 @@ title: ValidatePassword
 second_title: Aspose.Cells for .NET API Reference
 description: Returns true if the specified password is the same as the writeprotection password the file was protected with.
 type: docs
-weight: 60
 url: /net/aspose.cells/writeprotection/validatepassword/
 ---
 ## WriteProtection.ValidatePassword method

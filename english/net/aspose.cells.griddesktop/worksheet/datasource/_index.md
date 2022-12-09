@@ -3,7 +3,6 @@ title: DataSource
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the specific list in a DataSource for Worksheet object.
 type: docs
-weight: 130
 url: /net/aspose.cells.griddesktop/worksheet/datasource/
 ---
 ## Worksheet.DataSource property

@@ -3,7 +3,6 @@ title: ConditionalFormattingValue
 second_title: Aspose.Cells for .NET API Reference
 description: Describes the values of the interpolation points in a gradient scale dataBar or iconSet.
 type: docs
-weight: 1150
 url: /net/aspose.cells/conditionalformattingvalue/
 ---
 ## ConditionalFormattingValue class

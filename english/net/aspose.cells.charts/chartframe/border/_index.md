@@ -3,7 +3,6 @@ title: Border
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the borderaspose.cells.drawing/line.
 type: docs
-weight: 50
 url: /net/aspose.cells.charts/chartframe/border/
 ---
 ## ChartFrame.Border property

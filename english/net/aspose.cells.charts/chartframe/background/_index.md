@@ -3,7 +3,6 @@ title: Background
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the display mode of the background
 type: docs
-weight: 30
 url: /net/aspose.cells.charts/chartframe/background/
 ---
 ## ChartFrame.Background property

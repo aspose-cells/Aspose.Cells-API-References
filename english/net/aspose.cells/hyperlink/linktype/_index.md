@@ -3,7 +3,6 @@ title: LinkType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the link type.
 type: docs
-weight: 30
 url: /net/aspose.cells/hyperlink/linktype/
 ---
 ## Hyperlink.LinkType property

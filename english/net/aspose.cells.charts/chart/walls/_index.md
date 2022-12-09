@@ -3,7 +3,6 @@ title: Walls
 second_title: Aspose.Cells for .NET API Reference
 description: Returns a Wallsaspose.cells.charts/chart/walls object that represents the walls of a 3D chart.
 type: docs
-weight: 480
 url: /net/aspose.cells.charts/chart/walls/
 ---
 ## Chart.Walls property

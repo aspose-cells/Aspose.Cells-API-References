@@ -3,7 +3,6 @@ title: XmlSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the options of saving the workbook as an xml file.
 type: docs
-weight: 6700
 url: /net/aspose.cells/xmlsaveoptions/
 ---
 ## XmlSaveOptions class

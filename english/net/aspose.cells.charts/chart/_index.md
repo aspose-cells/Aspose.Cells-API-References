@@ -3,7 +3,6 @@ title: Chart
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents a single Excel chart.
 type: docs
-weight: 430
 url: /net/aspose.cells.charts/chart/
 ---
 ## Chart class
@@ -48,7 +47,8 @@ public class Chart
 | [PlotArea](../../aspose.cells.charts/chart/plotarea) { get; } | Gets the chart's plot area which includes axis tick labels. |
 | [PlotBy](../../aspose.cells.charts/chart/plotby) { get; } | Gets and sets whether plot by row or column. |
 | [PlotEmptyCellsType](../../aspose.cells.charts/chart/plotemptycellstype) { get; set; } | Gets and sets how to plot the empty cells. |
-| [PlotVisibleCells](../../aspose.cells.charts/chart/plotvisiblecells) { get; set; } | Indicates whether only plot visible cells. |
+| [PlotVisibleCells](../../aspose.cells.charts/chart/plotvisiblecells) { get; set; } | (**Obsolete.**) Indicates whether only plot visible cells. |
+| [PlotVisibleCellsOnly](../../aspose.cells.charts/chart/plotvisiblecellsonly) { get; set; } | Indicates whether plot visible cells only. |
 | [PrintSize](../../aspose.cells.charts/chart/printsize) { get; set; } | Gets and sets the printed chart size. |
 | [RightAngleAxes](../../aspose.cells.charts/chart/rightangleaxes) { get; set; } | True if the chart axes are at right angles. Applies only for 3-D charts(except Column3D and 3-D Pie Charts). |
 | [RotationAngle](../../aspose.cells.charts/chart/rotationangle) { get; set; } | Represents the rotation of the 3-D chart view (the rotation of the plot area around the z-axis, in degrees). |

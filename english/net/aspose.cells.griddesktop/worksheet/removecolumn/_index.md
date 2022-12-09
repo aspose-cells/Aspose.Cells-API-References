@@ -3,7 +3,6 @@ title: RemoveColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Removes a column at the specified index.
 type: docs
-weight: 930
 url: /net/aspose.cells.griddesktop/worksheet/removecolumn/
 ---
 ## Worksheet.RemoveColumn method

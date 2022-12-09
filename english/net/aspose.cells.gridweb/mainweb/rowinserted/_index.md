@@ -3,7 +3,6 @@ title: RowInserted
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs when user insert a row from clientside menu.
 type: docs
-weight: 1310
 url: /net/aspose.cells.gridweb/mainweb/rowinserted/
 ---
 ## MainWeb.RowInserted event

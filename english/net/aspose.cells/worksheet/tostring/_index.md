@@ -3,7 +3,6 @@ title: ToString
 second_title: Aspose.Cells for .NET API Reference
 description: Returns a string represents the current Worksheet object.
 type: docs
-weight: 890
 url: /net/aspose.cells/worksheet/tostring/
 ---
 ## Worksheet.ToString method

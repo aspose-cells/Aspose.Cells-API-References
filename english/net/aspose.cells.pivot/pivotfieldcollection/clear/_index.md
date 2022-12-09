@@ -3,7 +3,6 @@ title: Clear
 second_title: Aspose.Cells for .NET API Reference
 description: clear all fields of PivotFieldCollection
 type: docs
-weight: 60
 url: /net/aspose.cells.pivot/pivotfieldcollection/clear/
 ---
 ## PivotFieldCollection.Clear method

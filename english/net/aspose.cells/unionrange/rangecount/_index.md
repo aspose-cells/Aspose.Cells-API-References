@@ -3,7 +3,6 @@ title: RangeCount
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the count of the ranges.
 type: docs
-weight: 80
 url: /net/aspose.cells/unionrange/rangecount/
 ---
 ## UnionRange.RangeCount property

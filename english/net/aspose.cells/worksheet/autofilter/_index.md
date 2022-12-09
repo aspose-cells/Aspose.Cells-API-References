@@ -3,7 +3,6 @@ title: AutoFilter
 second_title: Aspose.Cells for .NET API Reference
 description: Represents auto filter for the specified worksheet.
 type: docs
-weight: 30
 url: /net/aspose.cells/worksheet/autofilter/
 ---
 ## Worksheet.AutoFilter property

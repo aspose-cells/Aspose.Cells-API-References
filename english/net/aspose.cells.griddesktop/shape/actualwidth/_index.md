@@ -3,7 +3,6 @@ title: ActualWidth
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 20
 url: /net/aspose.cells.griddesktop/shape/actualwidth/
 ---
 ## Shape.ActualWidth property

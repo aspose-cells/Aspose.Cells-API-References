@@ -3,7 +3,6 @@ title: IsLocked
 second_title: Aspose.Cells for .NET API Reference
 description: True if the object is locked False if the object can be modified when the sheet is protected.
 type: docs
-weight: 370
 url: /net/aspose.cells.drawing/shape/islocked/
 ---
 ## Shape.IsLocked property

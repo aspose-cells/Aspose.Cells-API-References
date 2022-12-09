@@ -3,7 +3,6 @@ title: Picture
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the data of the picture.
 type: docs
-weight: 70
 url: /net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/picture/
 ---
 ## CheckBoxActiveXControl.Picture property

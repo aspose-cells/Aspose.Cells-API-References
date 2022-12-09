@@ -3,7 +3,6 @@ title: IndexOf
 second_title: Aspose.Cells for .NET API Reference
 description: Returns the index of the specified PivotCache in the collection
 type: docs
-weight: 100
 url: /net/aspose.cells.gridweb.data/pivotcaches/indexof/
 ---
 ## PivotCaches.IndexOf method

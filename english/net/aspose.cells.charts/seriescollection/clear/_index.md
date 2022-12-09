@@ -3,7 +3,6 @@ title: Clear
 second_title: Aspose.Cells for .NET API Reference
 description: Clears the collection
 type: docs
-weight: 80
 url: /net/aspose.cells.charts/seriescollection/clear/
 ---
 ## SeriesCollection.Clear method

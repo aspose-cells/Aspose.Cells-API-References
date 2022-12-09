@@ -3,7 +3,6 @@ title: IsVerticalValues
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the data source is vertical.
 type: docs
-weight: 260
 url: /net/aspose.cells.charts/series/isverticalvalues/
 ---
 ## Series.IsVerticalValues property

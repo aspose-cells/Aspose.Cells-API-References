@@ -3,7 +3,6 @@ title: PivotFilters
 second_title: Aspose.Cells for .NET API Reference
 description: Returns a PivotFilterCollection object.
 type: docs
-weight: 420
 url: /net/aspose.cells.pivot/pivottable/pivotfilters/
 ---
 ## PivotTable.PivotFilters property

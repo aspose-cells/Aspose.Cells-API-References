@@ -3,7 +3,6 @@ title: CheckValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or set checkbox value.
 type: docs
-weight: 20
 url: /net/aspose.cells.drawing/checkbox/checkvalue/
 ---
 ## CheckBox.CheckValue property

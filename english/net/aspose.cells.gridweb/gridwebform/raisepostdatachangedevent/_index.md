@@ -3,7 +3,6 @@ title: RaisePostDataChangedEvent
 second_title: Aspose.Cells for .NET API Reference
 description: Internal used only.
 type: docs
-weight: 140
 url: /net/aspose.cells.gridweb/gridwebform/raisepostdatachangedevent/
 ---
 ## GridWebForm.RaisePostDataChangedEvent method

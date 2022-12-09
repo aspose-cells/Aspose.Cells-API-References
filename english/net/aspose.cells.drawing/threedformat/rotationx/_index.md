@@ -3,7 +3,6 @@ title: RotationX
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the rotation of the extruded shape around the xaxis in degrees.
 type: docs
-weight: 140
 url: /net/aspose.cells.drawing/threedformat/rotationx/
 ---
 ## ThreeDFormat.RotationX property

@@ -3,7 +3,6 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Hyperlinkaspose.cells/hyperlink element at the specified index.
 type: docs
-weight: 10
 url: /net/aspose.cells/hyperlinkcollection/item/
 ---
 ## HyperlinkCollection indexer

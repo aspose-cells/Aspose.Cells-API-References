@@ -3,7 +3,6 @@ title: Clear
 second_title: Aspose.Cells for .NET API Reference
 description: Clear all cells in the collection.
 type: docs
-weight: 220
 url: /net/aspose.cells.gridweb.data/gridcells/clear/
 ---
 ## GridCells.Clear method

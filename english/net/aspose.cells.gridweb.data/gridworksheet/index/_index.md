@@ -3,7 +3,6 @@ title: Index
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 200
 url: /net/aspose.cells.gridweb.data/gridworksheet/index/
 ---
 ## GridWorksheet.Index property

@@ -3,7 +3,6 @@ title: AutoScaleFont
 second_title: Aspose.Cells for .NET API Reference
 description: True if the text in the object changes font size when the object size changes. The default value is True.
 type: docs
-weight: 10
 url: /net/aspose.cells.charts/chartdatatable/autoscalefont/
 ---
 ## ChartDataTable.AutoScaleFont property

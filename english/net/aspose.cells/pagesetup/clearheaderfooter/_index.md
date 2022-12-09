@@ -3,7 +3,6 @@ title: ClearHeaderFooter
 second_title: Aspose.Cells for .NET API Reference
 description: Clears header and footer setting.
 type: docs
-weight: 440
 url: /net/aspose.cells/pagesetup/clearheaderfooter/
 ---
 ## PageSetup.ClearHeaderFooter method

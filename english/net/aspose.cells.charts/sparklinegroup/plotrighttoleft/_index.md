@@ -3,7 +3,6 @@ title: PlotRightToLeft
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the plot data is right to left.
 type: docs
-weight: 120
 url: /net/aspose.cells.charts/sparklinegroup/plotrighttoleft/
 ---
 ## SparklineGroup.PlotRightToLeft property

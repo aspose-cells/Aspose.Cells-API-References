@@ -3,7 +3,6 @@ title: BorderColor
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a FormatColor object that you can use to specify the border color for negative data bars.
 type: docs
-weight: 10
 url: /net/aspose.cells/negativebarformat/bordercolor/
 ---
 ## NegativeBarFormat.BorderColor property

@@ -3,7 +3,6 @@ title: DataBind
 second_title: Aspose.Cells for .NET API Reference
 description: Bind the sheet to the DataSource.
 type: docs
-weight: 500
 url: /net/aspose.cells.gridweb.data/gridworksheet/databind/
 ---
 ## GridWorksheet.DataBind method

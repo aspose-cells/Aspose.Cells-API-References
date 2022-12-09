@@ -3,7 +3,6 @@ title: Revisions
 second_title: Aspose.Cells for .NET API Reference
 description: Gets revision list by this operation.
 type: docs
-weight: 30
 url: /net/aspose.cells.revisions/revisioninsertdelete/revisions/
 ---
 ## RevisionInsertDelete.Revisions property

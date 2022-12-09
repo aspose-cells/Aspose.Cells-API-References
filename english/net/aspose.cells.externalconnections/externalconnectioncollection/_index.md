@@ -3,7 +3,6 @@ title: ExternalConnectionCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the ExternalConnection./externalconnection collection
 type: docs
-weight: 3340
 url: /net/aspose.cells.externalconnections/externalconnectioncollection/
 ---
 ## ExternalConnectionCollection class

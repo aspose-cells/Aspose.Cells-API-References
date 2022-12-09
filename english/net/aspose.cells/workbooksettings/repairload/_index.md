@@ -3,7 +3,6 @@ title: RepairLoad
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the application last opened the workbook in safe or repair mode.
 type: docs
-weight: 510
 url: /net/aspose.cells/workbooksettings/repairload/
 ---
 ## WorkbookSettings.RepairLoad property

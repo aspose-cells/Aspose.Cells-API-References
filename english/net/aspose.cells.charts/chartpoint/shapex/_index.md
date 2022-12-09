@@ -3,7 +3,6 @@ title: ShapeX
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the x coordinate of the upper left corner in units of 1/4000 of charts width after calls Chart.Calculate method.
 type: docs
-weight: 250
 url: /net/aspose.cells.charts/chartpoint/shapex/
 ---
 ## ChartPoint.ShapeX property

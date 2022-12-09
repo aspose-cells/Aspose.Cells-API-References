@@ -3,7 +3,6 @@ title: SeriesCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates a collection of Series./series objects.
 type: docs
-weight: 840
 url: /net/aspose.cells.charts/seriescollection/
 ---
 ## SeriesCollection class

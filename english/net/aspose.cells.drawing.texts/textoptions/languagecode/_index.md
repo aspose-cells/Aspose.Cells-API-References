@@ -3,7 +3,6 @@ title: LanguageCode
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the user interface language.
 type: docs
-weight: 40
 url: /net/aspose.cells.drawing.texts/textoptions/languagecode/
 ---
 ## TextOptions.LanguageCode property

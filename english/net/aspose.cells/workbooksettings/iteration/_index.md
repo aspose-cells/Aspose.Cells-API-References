@@ -3,7 +3,6 @@ title: Iteration
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether enable iterative calculation to resolve circular references.
 type: docs
-weight: 310
 url: /net/aspose.cells/workbooksettings/iteration/
 ---
 ## WorkbookSettings.Iteration property

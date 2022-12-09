@@ -3,7 +3,6 @@ title: SaveToExcelFile
 second_title: Aspose.Cells for .NET API Reference
 description: Saves the worksheets to an excel file with Excel 2003 format.
 type: docs
-weight: 330
 url: /net/aspose.cells.gridweb.data/webworksheets/savetoexcelfile/
 ---
 ## SaveToExcelFile(string) {#savetoexcelfile_2}

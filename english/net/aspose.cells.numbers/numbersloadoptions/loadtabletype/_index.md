@@ -3,7 +3,6 @@ title: LoadTableType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the type of loading multiple tables in one worksheet.
 type: docs
-weight: 20
 url: /net/aspose.cells.numbers/numbersloadoptions/loadtabletype/
 ---
 ## NumbersLoadOptions.LoadTableType property

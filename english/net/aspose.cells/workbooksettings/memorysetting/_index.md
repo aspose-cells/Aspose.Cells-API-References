@@ -3,7 +3,6 @@ title: MemorySetting
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the memory usage options. The new option will be taken as the default option for newly created worksheets but does not take effect for existing worksheets.
 type: docs
-weight: 380
 url: /net/aspose.cells/workbooksettings/memorysetting/
 ---
 ## WorkbookSettings.MemorySetting property

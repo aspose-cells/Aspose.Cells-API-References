@@ -3,7 +3,6 @@ title: GridTableStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Inherited from System.Web.UI.WebControls.TableStyle. Represents the style of a web table. Please refer to .NET SDK document about System.Web.UI.WebControls.TableStyle for further information.
 type: docs
-weight: 1000
 url: /net/aspose.cells.gridweb/gridtablestyle/
 ---
 ## GridTableStyle class

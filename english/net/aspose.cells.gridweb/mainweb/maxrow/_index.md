@@ -3,7 +3,6 @@ title: MaxRow
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the maximum display row indexzero based of the web sheet. The control uses the greater value of MaxRow and sheet datas max row.
 type: docs
-weight: 480
 url: /net/aspose.cells.gridweb/mainweb/maxrow/
 ---
 ## MainWeb.MaxRow property

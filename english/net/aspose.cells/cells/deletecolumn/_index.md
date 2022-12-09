@@ -3,7 +3,6 @@ title: DeleteColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Deletes a column.
 type: docs
-weight: 520
 url: /net/aspose.cells/cells/deletecolumn/
 ---
 ## DeleteColumn(int, bool) {#deletecolumn_1}

@@ -3,7 +3,6 @@ title: ToImage
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a 32bit Bitmap object of the chart.
 type: docs
-weight: 610
 url: /net/aspose.cells.charts/chart/toimage/
 ---
 ## ToImage() {#toimage}

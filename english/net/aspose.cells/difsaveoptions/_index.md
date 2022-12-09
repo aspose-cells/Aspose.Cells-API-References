@@ -3,7 +3,6 @@ title: DifSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the options of saving dif file.
 type: docs
-weight: 1390
 url: /net/aspose.cells/difsaveoptions/
 ---
 ## DifSaveOptions class

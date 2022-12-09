@@ -3,7 +3,6 @@ title: Row
 second_title: Aspose.Cells for .NET API Reference
 description: Gets row index.
 type: docs
-weight: 40
 url: /net/aspose.cells.griddesktop/commenteventargs/row/
 ---
 ## CommentEventArgs.Row property

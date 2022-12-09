@@ -3,7 +3,6 @@ title: CreatedTime
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets date of the document creation in local timezone.
 type: docs
-weight: 100
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/createdtime/
 ---
 ## BuiltInDocumentPropertyCollection.CreatedTime property

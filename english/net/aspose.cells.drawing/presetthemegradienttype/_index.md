@@ -3,7 +3,6 @@ title: PresetThemeGradientType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the preset theme gradient type.
 type: docs
-weight: 2550
 url: /net/aspose.cells.drawing/presetthemegradienttype/
 ---
 ## PresetThemeGradientType enumeration

@@ -3,7 +3,6 @@ title: DialogBox
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the dialog box.
 type: docs
-weight: 1960
 url: /net/aspose.cells.drawing/dialogbox/
 ---
 ## DialogBox class

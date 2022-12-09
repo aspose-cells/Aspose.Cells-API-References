@@ -3,7 +3,6 @@ title: Areas
 second_title: Aspose.Cells for .NET API Reference
 description: Gets all CellAreaaspose.cells/cellarea which contain the data validation settings.
 type: docs
-weight: 20
 url: /net/aspose.cells/validation/areas/
 ---
 ## Validation.Areas property

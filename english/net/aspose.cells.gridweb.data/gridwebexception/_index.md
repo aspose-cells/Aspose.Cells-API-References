@@ -3,7 +3,6 @@ title: GridWebException
 second_title: Aspose.Cells for .NET API Reference
 description: The exception that is thrown when Aspose.Cells.GridWeb specified error occurs.
 type: docs
-weight: 550
 url: /net/aspose.cells.gridweb.data/gridwebexception/
 ---
 ## GridWebException class

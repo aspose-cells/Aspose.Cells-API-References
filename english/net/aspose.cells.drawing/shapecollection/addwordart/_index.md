@@ -3,7 +3,6 @@ title: AddWordArt
 second_title: Aspose.Cells for .NET API Reference
 description: Adds preset WordArt since Excel 2007.s
 type: docs
-weight: 350
 url: /net/aspose.cells.drawing/shapecollection/addwordart/
 ---
 ## ShapeCollection.AddWordArt method

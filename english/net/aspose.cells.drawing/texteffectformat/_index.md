@@ -3,7 +3,6 @@ title: TextEffectFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Contains properties and methods that apply to WordArt objects.
 type: docs
-weight: 2860
 url: /net/aspose.cells.drawing/texteffectformat/
 ---
 ## TextEffectFormat class

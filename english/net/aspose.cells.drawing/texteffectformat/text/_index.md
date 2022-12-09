@@ -3,7 +3,6 @@ title: Text
 second_title: Aspose.Cells for .NET API Reference
 description: The text in the WordArt.
 type: docs
-weight: 70
 url: /net/aspose.cells.drawing/texteffectformat/text/
 ---
 ## TextEffectFormat.Text property

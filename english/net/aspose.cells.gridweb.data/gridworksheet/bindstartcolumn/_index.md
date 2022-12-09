@@ -3,7 +3,6 @@ title: BindStartColumn
 second_title: Aspose.Cells for .NET API Reference
 description: In databinding mode BindStartRow and BindStartColumn indicate the position of the grid to bind bo the datasource.
 type: docs
-weight: 50
 url: /net/aspose.cells.gridweb.data/gridworksheet/bindstartcolumn/
 ---
 ## GridWorksheet.BindStartColumn property

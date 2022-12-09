@@ -3,7 +3,6 @@ title: HasGlowEffect
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates if the shape has glow effect data.
 type: docs
-weight: 90
 url: /net/aspose.cells.drawing/shapepropertycollection/hasgloweffect/
 ---
 ## ShapePropertyCollection.HasGlowEffect method

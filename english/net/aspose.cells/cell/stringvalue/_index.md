@@ -3,7 +3,6 @@ title: StringValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the string value contained in the cell. If the type of this cell is string then return the string value itself. For other cell types the formatted string value formatted with the specified style of this cell will be returned. The formatted cell value is same with what you can get from excel when copying a cell as textsuch as copying cell to text editor or exporting to csv.
 type: docs
-weight: 300
 url: /net/aspose.cells/cell/stringvalue/
 ---
 ## Cell.StringValue property

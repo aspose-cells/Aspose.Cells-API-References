@@ -3,7 +3,6 @@ title: BaseUnitScale
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the base unit scale for the category axis.
 type: docs
-weight: 50
 url: /net/aspose.cells.charts/axis/baseunitscale/
 ---
 ## Axis.BaseUnitScale property

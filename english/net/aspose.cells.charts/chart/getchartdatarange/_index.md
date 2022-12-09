@@ -3,7 +3,6 @@ title: GetChartDataRange
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the data source range of the chart.
 type: docs
-weight: 540
 url: /net/aspose.cells.charts/chart/getchartdatarange/
 ---
 ## Chart.GetChartDataRange method

@@ -3,7 +3,6 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the pivotfilter object at the specific index.
 type: docs
-weight: 10
 url: /net/aspose.cells.pivot/pivotfiltercollection/item/
 ---
 ## PivotFilterCollection indexer

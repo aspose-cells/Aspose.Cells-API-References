@@ -1,14 +1,11 @@
 ---
 title: MainWeb
 second_title: Aspose.Cells for .NET API Reference
-description: Parent class of GridWeb control.Internal use only.
+description: 
 type: docs
-weight: 1060
 url: /net/aspose.cells.gridweb/mainweb/
 ---
 ## MainWeb class
-
-Parent class of GridWeb control.Internal use only.
 
 ```csharp
 public class MainWeb : ExtWebControl, INamingContainer, IPostBackDataHandler, 

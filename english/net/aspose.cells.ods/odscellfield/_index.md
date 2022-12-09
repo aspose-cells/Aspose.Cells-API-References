@@ -3,7 +3,6 @@ title: OdsCellField
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the cell field of ods.
 type: docs
-weight: 4320
 url: /net/aspose.cells.ods/odscellfield/
 ---
 ## OdsCellField class

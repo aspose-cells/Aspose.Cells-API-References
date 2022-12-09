@@ -3,7 +3,6 @@ title: Charts
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a Chartaspose.cells.charts/chart collection
 type: docs
-weight: 70
 url: /net/aspose.cells/worksheet/charts/
 ---
 ## Worksheet.Charts property

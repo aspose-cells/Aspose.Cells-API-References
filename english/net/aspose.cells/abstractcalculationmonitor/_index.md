@@ -3,7 +3,6 @@ title: AbstractCalculationMonitor
 second_title: Aspose.Cells for .NET API Reference
 description: Monitor for user to track the progress of formula calculation.
 type: docs
-weight: 30
 url: /net/aspose.cells/abstractcalculationmonitor/
 ---
 ## AbstractCalculationMonitor class

@@ -3,7 +3,6 @@ title: BackgroundColor
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a styles background color.
 type: docs
-weight: 30
 url: /net/aspose.cells/style/backgroundcolor/
 ---
 ## Style.BackgroundColor property

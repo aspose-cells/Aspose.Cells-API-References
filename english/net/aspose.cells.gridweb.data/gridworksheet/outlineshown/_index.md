@@ -3,7 +3,6 @@ title: OutlineShown
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether show outline.
 type: docs
-weight: 240
 url: /net/aspose.cells.gridweb.data/gridworksheet/outlineshown/
 ---
 ## GridWorksheet.OutlineShown property

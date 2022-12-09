@@ -3,7 +3,6 @@ title: TextFont
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a Fontaspose.cells.charts/legendentry/font object of the specified LegendEntry object.
 type: docs
-weight: 70
 url: /net/aspose.cells.charts/legendentry/textfont/
 ---
 ## LegendEntry.TextFont property

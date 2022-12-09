@@ -3,7 +3,6 @@ title: ClearDataSource
 second_title: Aspose.Cells for .NET API Reference
 description: Clears all data sources.
 type: docs
-weight: 90
 url: /net/aspose.cells/workbookdesigner/cleardatasource/
 ---
 ## WorkbookDesigner.ClearDataSource method

@@ -3,7 +3,6 @@ title: GetUsedColors
 second_title: Aspose.Cells for .NET API Reference
 description: Gets all used colors in the workbook.
 type: docs
-weight: 190
 url: /net/aspose.cells/cellshelper/getusedcolors/
 ---
 ## CellsHelper.GetUsedColors method

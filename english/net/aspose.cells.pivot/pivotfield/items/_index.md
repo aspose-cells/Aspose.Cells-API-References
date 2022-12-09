@@ -3,7 +3,6 @@ title: Items
 second_title: Aspose.Cells for .NET API Reference
 description: Get all base items
 type: docs
-weight: 290
 url: /net/aspose.cells.pivot/pivotfield/items/
 ---
 ## PivotField.Items property

@@ -3,7 +3,6 @@ title: Day
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the day of the grouped date time.
 type: docs
-weight: 30
 url: /net/aspose.cells/datetimegroupitem/day/
 ---
 ## DateTimeGroupItem.Day property

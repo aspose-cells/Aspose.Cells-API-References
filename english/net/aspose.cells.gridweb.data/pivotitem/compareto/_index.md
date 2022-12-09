@@ -3,7 +3,6 @@ title: CompareTo
 second_title: Aspose.Cells for .NET API Reference
 description: Compares this instance to a specified object and returns an indication of their relative values.
 type: docs
-weight: 50
 url: /net/aspose.cells.gridweb.data/pivotitem/compareto/
 ---
 ## PivotItem.CompareTo method

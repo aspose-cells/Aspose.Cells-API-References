@@ -3,7 +3,6 @@ title: Aspose.Cells.GridWeb.Data
 second_title: Aspose.Cells for .NET API Reference
 description: The namespace of basic data represented classes of GridWeb.
 type: docs
-weight: 20
 url: /net/aspose.cells.gridweb.data/
 ---
 The namespace of basic data represented classes of GridWeb.
@@ -23,24 +22,24 @@ The namespace of basic data represented classes of GridWeb.
 | [GridCell](./gridcell) | Represents a cell object. |
 | [GridCellArea](./gridcellarea) | Represents an area of cells. |
 | [GridCellException](./gridcellexception) | Represents a cell operation error. |
-| [GridCells](./gridcells) | Encapsulates a collection of Cell objects. |
+| [GridCells](./gridcells) | Encapsulates a collection of [`GridCell`](../aspose.cells.gridweb.data/gridcell) objects. |
 | [GridColumn](./gridcolumn) | Represents a single column in a worksheet. |
 | [GridColumnCollection](./gridcolumncollection) | Collects the  objects that represent the individual columns in a worksheet. |
 | [GridComment](./gridcomment) | Encapsulates the object that represents a cell comment. |
-| [GridCommentCollection](./gridcommentcollection) | Encapsulates a collection of Comment objects. |
+| [GridCommentCollection](./gridcommentcollection) | Encapsulates a collection of [`GridComment`](../aspose.cells.gridweb.data/gridcomment) objects. |
 | [GridHtmlSaveOptions](./gridhtmlsaveoptions) | Represents the options for saving html file. |
 | [GridHyperlink](./gridhyperlink) | Encapsulates the object that represents a hyperlink. |
-| [GridHyperlinkCollection](./gridhyperlinkcollection) | Encapsulates a collection of [`Hyperlink`](../aspose.cells.gridweb.data/hyperlink) objects. |
+| [GridHyperlinkCollection](./gridhyperlinkcollection) | Encapsulates a collection of [`GridHyperlink`](../aspose.cells.gridweb.data/gridhyperlink) objects. |
 | [GridName](./gridname) | Encapsulates the object that represents a name object. |
-| [GridNameCollection](./gridnamecollection) | Encapsulates a collection of Name objects. |
+| [GridNameCollection](./gridnamecollection) | Encapsulates a collection of [`GridName`](../aspose.cells.gridweb.data/gridname) objects. |
 | [GridPicture](./gridpicture) | Encapsulates the object that represents a single picture in a spreadsheet. |
-| [GridPictureCollection](./gridpicturecollection) | Encapsulates a collection of Picture objects. |
+| [GridPictureCollection](./gridpicturecollection) | Encapsulates a collection of [`GridPicture`](../aspose.cells.gridweb.data/gridpicture) objects. |
 | [GridPivotField](./gridpivotfield) | Represents a field in a PivotTable report. |
-| [GridPivotFieldCollection](./gridpivotfieldcollection) | Encapsulates a collection of [`PivotField`](../aspose.cells.gridweb.data/pivotfield) objects. |
+| [GridPivotFieldCollection](./gridpivotfieldcollection) | Encapsulates a collection of [`GridPivotField`](../aspose.cells.gridweb.data/gridpivotfield) objects. |
 | [GridPivotItem](./gridpivotitem) | Represents a item in a PivotField report. |
-| [GridPivotItemCollection](./gridpivotitemcollection) | Encapsulates a collection of [`PivotItem`](../aspose.cells.gridweb.data/pivotitem) objects. |
-| [GridPivotTable](./gridpivottable) | Represents a PivotTable report on a worksheet. The PivotTable object is a member of the [`PivotTables`](../aspose.cells.gridweb.data/pivottables) collection. The PivotTables collection contains all the PivotTable objects on a control. |
-| [GridPivotTableCollection](./gridpivottablecollection) | Encapsulates a collection of [`PivotTable`](../aspose.cells.gridweb.data/pivottable) objects. |
+| [GridPivotItemCollection](./gridpivotitemcollection) | Encapsulates a collection of [`GridPivotItem`](../aspose.cells.gridweb.data/gridpivotitem) objects. |
+| [GridPivotTable](./gridpivottable) | Represents a PivotTable report on a worksheet. The PivotTable object is a member of the [`GridPivotTable`](../aspose.cells.gridweb.data/gridpivottable) collection. The PivotTables collection contains all the PivotTable objects on a control. |
+| [GridPivotTableCollection](./gridpivottablecollection) | Encapsulates a collection of [`GridPivotTable`](../aspose.cells.gridweb.data/gridpivottable) objects. |
 | [GridReferredArea](./gridreferredarea) | Represents a referred objcet by the formula. |
 | [GridRow](./gridrow) | Encapsulates the object that represents a single picture in a spreadsheet. |
 | [GridRowCollection](./gridrowcollection) | Encapsulates a collection of [`GridRow`](../aspose.cells.gridweb.data/gridrow) objects. |
@@ -53,7 +52,7 @@ The namespace of basic data represented classes of GridWeb.
 | [GridWorkbook](./gridworkbook) | Represents a root object to create an Excel spreadsheet. |
 | [GridWorkbookSettings](./gridworkbooksettings) | Represents settings of the workbook. |
 | [GridWorksheet](./gridworksheet) | Encapsulates the object that represents a single worksheet. |
-| [GridWorksheetCollection](./gridworksheetcollection) | Collects the  objects that represent the individual rows in a worksheet. |
+| [GridWorksheetCollection](./gridworksheetcollection) | Encapsulates a collection of [`GridWorksheet`](../aspose.cells.gridweb.data/gridworksheet) objects. |
 | [Hyperlink](./hyperlink) |  |
 | [Hyperlinks](./hyperlinks) |  |
 | [InitializeNewBindRowHandler](./initializenewbindrowhandler) | Represents the method that intend to handle InitializeNewBindRow event. sender: The worksheet object. bindObject: The new created bind object. Generally it's a DataRowView object. |
@@ -104,7 +103,7 @@ The namespace of basic data represented classes of GridWeb.
 | [PivotFieldOrientation](./pivotfieldorientation) | Represents The location of the field in the specified PivotTable report. |
 | [PivotFieldSort](./pivotfieldsort) | Represents the order used to sort the specified PivotTable field. |
 | [PivotSourceType](./pivotsourcetype) | Represents the source data type. |
-| [SortOrder](./sortorder) | Represents what order the data sort by. |
+| [SortByOrder](./sortbyorder) | Represents what order the data sort by. |
 | [SortOrientation](./sortorientation) | Represents sorting orientation |
 | [SubtotalFunction](./subtotalfunction) | Represents subtotal function type. Used in the GridWorksheet.CreateSubtotal method. |
 | [WebCellErrorType](./webcellerrortype) | Used in WebCellException. Represents the cell error type. |

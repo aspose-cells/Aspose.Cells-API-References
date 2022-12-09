@@ -3,7 +3,6 @@ title: GetBottomPointYPx
 second_title: Aspose.Cells for .NET API Reference
 description: Gets ycoordinate of the bottom point of shape after calls Chart.Calculate method. Applies 3D charts Column3D Bar3D Cone Cylinder Pyramid
 type: docs
-weight: 360
 url: /net/aspose.cells.charts/chartpoint/getbottompointypx/
 ---
 ## ChartPoint.GetBottomPointYPx method

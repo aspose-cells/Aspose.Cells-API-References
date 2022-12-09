@@ -3,7 +3,6 @@ title: ShapeSegmentPathCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a creation path consisting of a series of moves lines and curves that when combined will form a geometric shape.
 type: docs
-weight: 2790
 url: /net/aspose.cells.drawing/shapesegmentpathcollection/
 ---
 ## ShapeSegmentPathCollection class

@@ -3,7 +3,6 @@ title: DirectoryType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the directory type of the file name.
 type: docs
-weight: 1430
 url: /net/aspose.cells/directorytype/
 ---
 ## DirectoryType enumeration

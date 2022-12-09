@@ -3,7 +3,6 @@ title: ListFillRange
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the list fill range.
 type: docs
-weight: 70
 url: /net/aspose.cells.drawing.activexcontrols/activexcontrolbase/listfillrange/
 ---
 ## ActiveXControlBase.ListFillRange property

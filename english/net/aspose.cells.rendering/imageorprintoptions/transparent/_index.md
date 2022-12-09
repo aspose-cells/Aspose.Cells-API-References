@@ -3,7 +3,6 @@ title: Transparent
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates if the background of generated image should be transparent.
 type: docs
-weight: 360
 url: /net/aspose.cells.rendering/imageorprintoptions/transparent/
 ---
 ## ImageOrPrintOptions.Transparent property

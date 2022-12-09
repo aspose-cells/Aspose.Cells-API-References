@@ -3,7 +3,6 @@ title: ContourColor
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the contour color on a shape.
 type: docs
-weight: 40
 url: /net/aspose.cells.drawing/threedformat/contourcolor/
 ---
 ## ThreeDFormat.ContourColor property

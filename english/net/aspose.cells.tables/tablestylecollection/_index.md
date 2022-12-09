@@ -3,7 +3,6 @@ title: TableStyleCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents all custom table styles.
 type: docs
-weight: 5950
 url: /net/aspose.cells.tables/tablestylecollection/
 ---
 ## TableStyleCollection class

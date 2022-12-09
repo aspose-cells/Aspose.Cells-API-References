@@ -3,7 +3,6 @@ title: GetViewRowHeightInch
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the height of a specified row in unit of inches.
 type: docs
-weight: 880
 url: /net/aspose.cells/cells/getviewrowheightinch/
 ---
 ## Cells.GetViewRowHeightInch method

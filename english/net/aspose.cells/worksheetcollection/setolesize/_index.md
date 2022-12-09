@@ -3,7 +3,6 @@ title: SetOleSize
 second_title: Aspose.Cells for .NET API Reference
 description: Sets displayed size when Workbook file is used as an Ole object.
 type: docs
-weight: 310
 url: /net/aspose.cells/worksheetcollection/setolesize/
 ---
 ## WorksheetCollection.SetOleSize method

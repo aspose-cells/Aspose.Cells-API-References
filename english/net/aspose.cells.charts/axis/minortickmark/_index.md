@@ -3,7 +3,6 @@ title: MinorTickMark
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the type of minor tick mark for the specified axis.
 type: docs
-weight: 300
 url: /net/aspose.cells.charts/axis/minortickmark/
 ---
 ## Axis.MinorTickMark property

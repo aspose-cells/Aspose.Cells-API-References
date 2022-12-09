@@ -3,7 +3,6 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a scenario.
 type: docs
-weight: 40
 url: /net/aspose.cells/scenariocollection/add/
 ---
 ## ScenarioCollection.Add method

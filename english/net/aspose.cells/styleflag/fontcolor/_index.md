@@ -3,7 +3,6 @@ title: FontColor
 second_title: Aspose.Cells for .NET API Reference
 description: Font color setting will be applied.
 type: docs
-weight: 110
 url: /net/aspose.cells/styleflag/fontcolor/
 ---
 ## StyleFlag.FontColor property

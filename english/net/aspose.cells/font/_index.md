@@ -3,7 +3,6 @@ title: Font
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the font object used in a spreadsheet.
 type: docs
-weight: 3530
 url: /net/aspose.cells/font/
 ---
 ## Font class

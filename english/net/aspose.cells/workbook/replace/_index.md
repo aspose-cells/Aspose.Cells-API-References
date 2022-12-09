@@ -3,7 +3,6 @@ title: Replace
 second_title: Aspose.Cells for .NET API Reference
 description: Replaces a cells value with a new string.
 type: docs
-weight: 590
 url: /net/aspose.cells/workbook/replace/
 ---
 ## Replace(string, string) {#replace_7}

@@ -3,7 +3,6 @@ title: SetFooter
 second_title: Aspose.Cells for .NET API Reference
 description: Sets a script formatting the footer of an Excel file.
 type: docs
-weight: 600
 url: /net/aspose.cells/pagesetup/setfooter/
 ---
 ## PageSetup.SetFooter method

@@ -3,7 +3,6 @@ title: ErrorJson
 second_title: Aspose.Cells for .NET API Reference
 description: return error message
 type: docs
-weight: 50
 url: /net/aspose.cells.gridjs/gridjsworkbook/errorjson/
 ---
 ## GridJsWorkbook.ErrorJson method

@@ -3,7 +3,6 @@ title: NegativeBarFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the NegativeBarFormat object associated with a data bar conditional formatting rule.
 type: docs
-weight: 110
 url: /net/aspose.cells/databar/negativebarformat/
 ---
 ## DataBar.NegativeBarFormat property

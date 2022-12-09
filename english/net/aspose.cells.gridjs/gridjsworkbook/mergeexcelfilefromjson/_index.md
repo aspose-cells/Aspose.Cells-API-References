@@ -3,7 +3,6 @@ title: MergeExcelFileFromJson
 second_title: Aspose.Cells for .NET API Reference
 description: Apply style update to the cache file
 type: docs
-weight: 120
 url: /net/aspose.cells.gridjs/gridjsworkbook/mergeexcelfilefromjson/
 ---
 ## GridJsWorkbook.MergeExcelFileFromJson method

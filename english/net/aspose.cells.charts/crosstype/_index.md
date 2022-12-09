@@ -3,7 +3,6 @@ title: CrossType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the axis cross type.
 type: docs
-weight: 570
 url: /net/aspose.cells.charts/crosstype/
 ---
 ## CrossType enumeration

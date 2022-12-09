@@ -3,7 +3,6 @@ title: FrameTableStyle
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 90
 url: /net/aspose.cells.gridweb/viewerstyletemplate/frametablestyle/
 ---
 ## ViewerStyleTemplate.FrameTableStyle property

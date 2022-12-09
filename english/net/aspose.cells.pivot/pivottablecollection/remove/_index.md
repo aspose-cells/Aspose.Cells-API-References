@@ -3,7 +3,6 @@ title: Remove
 second_title: Aspose.Cells for .NET API Reference
 description: Deletes the specified PivotTable and delete the PivotTable data
 type: docs
-weight: 50
 url: /net/aspose.cells.pivot/pivottablecollection/remove/
 ---
 ## Remove(PivotTable) {#remove}

@@ -3,7 +3,6 @@ title: InsertRows
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether new rows should be added for importing data records.
 type: docs
-weight: 90
 url: /net/aspose.cells/importtableoptions/insertrows/
 ---
 ## ImportTableOptions.InsertRows property

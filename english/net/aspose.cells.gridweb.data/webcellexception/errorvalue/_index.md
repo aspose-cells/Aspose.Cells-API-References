@@ -3,7 +3,6 @@ title: ErrorValue
 second_title: Aspose.Cells for .NET API Reference
 description: Get the error value.
 type: docs
-weight: 30
 url: /net/aspose.cells.gridweb.data/webcellexception/errorvalue/
 ---
 ## WebCellException.ErrorValue property

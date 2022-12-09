@@ -3,7 +3,6 @@ title: InnerX
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area.
 type: docs
-weight: 40
 url: /net/aspose.cells.charts/plotarea/innerx/
 ---
 ## PlotArea.InnerX property

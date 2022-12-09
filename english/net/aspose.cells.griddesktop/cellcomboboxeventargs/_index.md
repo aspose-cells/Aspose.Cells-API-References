@@ -3,7 +3,6 @@ title: CellComboBoxEventArgs
 second_title: Aspose.Cells for .NET API Reference
 description: Provides data for cell ComboBox events.
 type: docs
-weight: 40
 url: /net/aspose.cells.griddesktop/cellcomboboxeventargs/
 ---
 ## CellComboBoxEventArgs class

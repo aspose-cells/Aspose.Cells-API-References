@@ -3,7 +3,6 @@ title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
 description: Remove a text box from the file.
 type: docs
-weight: 40
 url: /net/aspose.cells.drawing/textboxcollection/removeat/
 ---
 ## TextBoxCollection.RemoveAt method

@@ -3,7 +3,6 @@ title: Aspose.Cells.ExternalConnections
 second_title: Aspose.Cells for .NET API Reference
 description: Contains all classes of external connections.
 type: docs
-weight: 70
 url: /net/aspose.cells.externalconnections/
 ---
 Contains all classes of external connections.

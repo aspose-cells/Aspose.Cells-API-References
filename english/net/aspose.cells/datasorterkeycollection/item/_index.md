@@ -3,7 +3,6 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets DataSorterKeyaspose.cells/datasorterkey by index.
 type: docs
-weight: 20
 url: /net/aspose.cells/datasorterkeycollection/item/
 ---
 ## DataSorterKeyCollection indexer

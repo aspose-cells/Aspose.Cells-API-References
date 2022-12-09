@@ -3,7 +3,6 @@ title: PivotCaches
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the collection of memory caches from the PivotTable reports in a workbook. Each memory cache is represented by a PivotCache./pivotcache object.
 type: docs
-weight: 690
 url: /net/aspose.cells.gridweb.data/pivotcaches/
 ---
 ## PivotCaches class

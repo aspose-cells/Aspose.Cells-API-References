@@ -3,7 +3,6 @@ title: BaseIndex
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the PivotField index in the base PivotFields.
 type: docs
-weight: 50
 url: /net/aspose.cells.pivot/pivotfield/baseindex/
 ---
 ## PivotField.BaseIndex property

@@ -3,7 +3,6 @@ title: HtmlFormat
 second_title: Aspose.Cells for .NET API Reference
 description: How to handle formatting from the HTML source when bringing web query data into the worksheet. Relevant when sourceData is True.
 type: docs
-weight: 30
 url: /net/aspose.cells.externalconnections/webqueryconnection/htmlformat/
 ---
 ## WebQueryConnection.HtmlFormat property

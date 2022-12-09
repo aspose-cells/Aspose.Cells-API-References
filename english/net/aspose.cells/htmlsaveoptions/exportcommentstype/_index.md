@@ -3,7 +3,6 @@ title: ExportCommentsType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents type of exporting comments to html files.
 type: docs
-weight: 140
 url: /net/aspose.cells/htmlsaveoptions/exportcommentstype/
 ---
 ## HtmlSaveOptions.ExportCommentsType property

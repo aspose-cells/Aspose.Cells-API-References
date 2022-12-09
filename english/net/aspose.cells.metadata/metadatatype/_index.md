@@ -3,7 +3,6 @@ title: MetadataType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the type of metadata.
 type: docs
-weight: 4210
 url: /net/aspose.cells.metadata/metadatatype/
 ---
 ## MetadataType enumeration
