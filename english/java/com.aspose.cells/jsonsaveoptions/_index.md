@@ -37,7 +37,7 @@ Represents the options of saving the workbook as a json file.
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
 | [getSheetIndexes()](#getSheetIndexes--) | Represents the indexes of exported sheets. |
-| [getSkipEmptyRows()](#getSkipEmptyRows--) | Indicates whether skpping emtpy rows |
+| [getSkipEmptyRows()](#getSkipEmptyRows--) | Indicates whether skipping emtpy rows. |
 | [getSortExternalNames()](#getSortExternalNames--) | Indicates whether sorting external defined names before saving file. |
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
@@ -239,7 +239,7 @@ public boolean getSkipEmptyRows()
 ```
 
 
-Indicates whether skpping emtpy rows
+Indicates whether skipping emtpy rows.
 
 **Returns:**
 boolean

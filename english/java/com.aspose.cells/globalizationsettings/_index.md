@@ -33,6 +33,7 @@ Represents the globalization settings.
 | [getColumnLablesName()](#getColumnLablesName--) | Gets the name of "Column Labels" label in the PivotTable. |
 | [getColumnSeparatorOfFormulaArray()](#getColumnSeparatorOfFormulaArray--) | Gets the separator for the items in array's row data in formula. |
 | [getCommentTitleName(int type)](#getCommentTitleName-int-) | Gets the locale dependent comment title name according to comment title type. |
+| [getDataFieldHeaderNameOfPivotTable()](#getDataFieldHeaderNameOfPivotTable--) | Gets the the name of the value area field header in the PivotTable. |
 | [getEmptyDataName()](#getEmptyDataName--) | Gets the name of "(blank)" label in the PivotTable. |
 | [getErrorValueString(String err)](#getErrorValueString-java.lang.String-) | Gets the display string value for cell's error value |
 | [getGrandTotalName(int functionType)](#getGrandTotalName-int-) | Gets the grand total name of the function. |
@@ -209,6 +210,16 @@ Gets the locale dependent comment title name according to comment title type.
 
 **Returns:**
 java.lang.String - 
+### getDataFieldHeaderNameOfPivotTable() {#getDataFieldHeaderNameOfPivotTable--}
+```
+public String getDataFieldHeaderNameOfPivotTable()
+```
+
+
+Gets the the name of the value area field header in the PivotTable.
+
+**Returns:**
+java.lang.String - The name of data field header name
 ### getEmptyDataName() {#getEmptyDataName--}
 ```
 public String getEmptyDataName()

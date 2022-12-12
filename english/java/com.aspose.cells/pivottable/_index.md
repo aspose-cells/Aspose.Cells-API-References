@@ -119,6 +119,7 @@ Workbook book = new Workbook();
 | [getCustomListSort()](#getCustomListSort--) | Indicates whether consider built-in custom list when sort data |
 | [getDataBodyRange()](#getDataBodyRange--) | Returns a CellArea object that represents the range that contains the data area in the list between the header row and the insert row. |
 | [getDataField()](#getDataField--) | Gets a PivotField object that represents all the data fields in a PivotTable. |
+| [getDataFieldHeaderName()](#getDataFieldHeaderName--) | the name of the value area field header in the PivotTable.. |
 | [getDataFields()](#getDataFields--) | Gets a PivotField object that represents all the data fields in a PivotTable. |
 | [getDataSource()](#getDataSource--) | the data source of the pivot table. |
 | [getDisplayErrorString()](#getDisplayErrorString--) | Indicates whether the PivotTable report displays a custom string in cells that contain errors. |
@@ -201,6 +202,7 @@ Workbook book = new Workbook();
 | [setColumnGrand(boolean value)](#setColumnGrand-boolean-) | For the description of this property, please see [getColumnGrand()](../../com.aspose.cells/pivottable\#getColumnGrand--) |
 | [setColumnHeaderCaption(String value)](#setColumnHeaderCaption-java.lang.String-) | For the description of this property, please see [getColumnHeaderCaption()](../../com.aspose.cells/pivottable\#getColumnHeaderCaption--) |
 | [setCustomListSort(boolean value)](#setCustomListSort-boolean-) | For the description of this property, please see [getCustomListSort()](../../com.aspose.cells/pivottable\#getCustomListSort--) |
+| [setDataFieldHeaderName(String value)](#setDataFieldHeaderName-java.lang.String-) | For the description of this property, please see [getDataFieldHeaderName()](../../com.aspose.cells/pivottable\#getDataFieldHeaderName--) |
 | [setDataSource(String[] value)](#setDataSource-java.lang.String---) | For the description of this property, please see [getDataSource()](../../com.aspose.cells/pivottable\#getDataSource--) |
 | [setDisplayErrorString(boolean value)](#setDisplayErrorString-boolean-) | For the description of this property, please see [getDisplayErrorString()](../../com.aspose.cells/pivottable\#getDisplayErrorString--) |
 | [setDisplayImmediateItems(boolean value)](#setDisplayImmediateItems-boolean-) | For the description of this property, please see [getDisplayImmediateItems()](../../com.aspose.cells/pivottable\#getDisplayImmediateItems--) |
@@ -619,6 +621,16 @@ Gets a PivotField object that represents all the data fields in a PivotTable. Re
 
 **Returns:**
 [PivotField](../../com.aspose.cells/pivotfield)
+### getDataFieldHeaderName() {#getDataFieldHeaderName--}
+```
+public String getDataFieldHeaderName()
+```
+
+
+the name of the value area field header in the PivotTable..
+
+**Returns:**
+java.lang.String
 ### getDataFields() {#getDataFields--}
 ```
 public PivotFieldCollection getDataFields()
@@ -1478,6 +1490,19 @@ For the description of this property, please see [getCustomListSort()](../../com
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setDataFieldHeaderName(String value) {#setDataFieldHeaderName-java.lang.String-}
+```
+public void setDataFieldHeaderName(String value)
+```
+
+
+For the description of this property, please see [getDataFieldHeaderName()](../../com.aspose.cells/pivottable\#getDataFieldHeaderName--)
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### setDataSource(String[] value) {#setDataSource-java.lang.String---}
 ```

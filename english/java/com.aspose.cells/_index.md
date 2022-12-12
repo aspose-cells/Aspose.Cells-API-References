@@ -329,6 +329,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [MemorySetting](../com.aspose.cells/memorysetting) | Memory usage options. |
 | [MetadataOptions](../com.aspose.cells/metadataoptions) | Represents the options of loading metadata of the file. |
 | [MetadataType](../com.aspose.cells/metadatatype) | Represents the type of metadata. |
+| [Metered](../com.aspose.cells/metered) | Provides methods to set metered key. |
 | [MirrorType](../com.aspose.cells/mirrortype) | Represents mirror type of texture fill |
 | [MsoArrowheadLength](../com.aspose.cells/msoarrowheadlength) | Enumerates the line end width of the shape border line. |
 | [MsoArrowheadStyle](../com.aspose.cells/msoarrowheadstyle) | Enumerates the line end type of the shape border line. |
@@ -411,6 +412,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PivotFilterType](../com.aspose.cells/pivotfiltertype) | Represents PivotTable Filter type. |
 | [PivotFormatCondition](../com.aspose.cells/pivotformatcondition) | Represents a PivotTable Format Condition in PivotFormatCondition Collection. |
 | [PivotFormatConditionCollection](../com.aspose.cells/pivotformatconditioncollection) | Represents PivotTable Format Conditions. |
+| [PivotGlobalizationSettings](../com.aspose.cells/pivotglobalizationsettings) | Represents the globalization settings for pivot tables. |
 | [PivotGroupByType](../com.aspose.cells/pivotgroupbytype) | Represents PivotTable groupby type. |
 | [PivotItem](../com.aspose.cells/pivotitem) | Represents a item in a PivotField report. |
 | [PivotItemCollection](../com.aspose.cells/pivotitemcollection) | Represents a collection of all the PivotItem objects in the PivotField's |

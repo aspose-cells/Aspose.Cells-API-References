@@ -13,11 +13,6 @@ public abstract class FontSourceBase
 ```
 
 This is an abstract base class for the classes that allow the user to specify various font sources
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [FontSourceBase()](#FontSourceBase--) |  |
 ## Methods
 
 | Method | Description |
@@ -32,12 +27,6 @@ This is an abstract base class for the classes that allow the user to specify va
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### FontSourceBase() {#FontSourceBase--}
-```
-public FontSourceBase()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
